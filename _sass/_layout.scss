@@ -1,0 +1,277 @@
+
+/**
+ * Site header   **********************************************************
+ */
+.site-header {
+border-bottom: 1px solid $grey-color-light;
+background-color: #fff;
+opacity: 0.75;
+position:fixed;
+left:0px;
+top:0px;
+height:56px;
+width:100%;
+z-index: 50;
+}
+
+.site-title {
+font-size: 20px;
+line-height: $nav-height;
+letter-spacing: -1px;
+margin-bottom: 0;
+&:hover {
+text-decoration: none;
+color: $theme-color;
+    }
+}
+.site-nav {
+float: right;
+line-height: $nav-height;
+.page-link{
+line-height: $base-line-height;
+        // Gaps between nav items, but not on the first one
+&:not(:first-child) {
+margin-left: 10px;
+        }
+    }
+@include media-query($on-palm) {
+position: fixed;
+top: 0px;
+right: 10px;
+text-align: right;
+&:hover .trigger {
+display: block;
+padding-bottom: 5px;
+        }
+.page-link {
+display: line;
+        }
+    }
+}
+
+.header-bar{
+    left: 0px;
+    top: 0px;
+    position: relative;
+    font-size: 20px;
+    display: block;
+    opacity: 0.75;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    line-height: 3em;
+    z-index: 25;
+    h1{
+        color: $theme-color;
+        font-size:75px;
+    }
+    h2{
+        font-size:25px;
+    }
+}
+
+/**
+ * Site footer  **********************************************************
+ */
+.site-footer {
+border-top: 1px solid $grey-color-dark;
+font-size: 10px;
+background-color: $grey-color-dark;
+padding: 2px;
+color: #aaa;
+position:fixed;
+left:0px;
+bottom:0px;
+height:25px;
+width:100%;
+}
+/**
+ * Pagination   **********************************************************
+ */
+.pagination{
+max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
+text-align: center;
+width: 100%;
+position: fixed;
+bottom: 50px;
+}
+.paginationicon {
+font-size: 50px;
+a {
+color: $theme-color;
+    }
+}
+/**
+ * Page content   **********************************************************
+ */
+.page-content {
+padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+}
+.page-heading {
+font-size: 20px;
+}
+.post-list {
+margin: 0px 0;
+list-style: none;
+    > li {
+margin-bottom: $vertical-spacing-unit;
+    }
+}
+.contacticon {
+font-size: 60px;
+display:block;
+margin: 10px;
+}
+.center{
+text-align: center;
+}
+/**
+ * Posts  **********************************************************
+ */
+.post-header {
+margin-bottom: $vertical-spacing-unit;
+}
+.post-title {
+font-size: 42px;
+letter-spacing: -1px;
+line-height: 1;
+margin-bottom: 10px;
+  @include media-query($on-laptop) {
+    font-size: 36px;
+  }
+}
+.post-content {
+h2 {
+font-size: 42px;
+@include media-query($on-laptop) {
+font-size: 28px;
+        }
+    }
+h3 {
+font-size: 30px;
+@include media-query($on-laptop) {
+font-size: 22px;
+        }
+    }
+h4 {
+font-size: 20px;
+@include media-query($on-laptop) {
+font-size: 18px;
+        }
+    }
+}
+.post-meta {
+font-size: $small-font-size;
+color: $grey-color;
+margin-bottom: 0px;
+}
+.post-link {
+display: block;
+font-size: 42px;
+}
+
+/** Poem formatting ********************************************/
+.poem-title {
+font-size: 24px;
+letter-spacing: -1px;
+line-height: 1;
+@include media-query($on-laptop) {
+font-size: 16px;
+    }
+}
+
+
+/**
+ * Portfolio grid **********************************************************
+*/
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+content: " ";
+display: table;
+}
+.clearfix:after {
+clear: both;
+}
+.project {
+width: 33.33%;
+height: 250px;
+float: left;
+vertical-align: middle;
+box-sizing: border-box;
+padding: 10px;
+}
+.thumbnail{
+width: 100%;
+height: 230px;
+overflow: hidden;
+}
+.thumbnail img{
+width: 500px;
+height: auto;
+position: relative;
+left: -25%;
+top: -5%;
+}
+.thumbnail a{
+float: left;
+position: relative;
+width: 100%;
+height: 230px;
+}
+.thumbnail a span {
+display: none;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background: rgba(0,0,0,0.4);
+color: $grey-color-light;
+padding: 40px;
+text-align: center;
+}
+.thumbnail a:hover span {
+display: block;
+}
+/**
+ * Portfolio pages **********************************************************
+*/
+.blankbox{
+background: $theme-color;
+}
+.img_row{
+height: $img_height;
+width: 100%;
+overflow: hidden;
+box-sizing:border-box;
+padding: $img_spacing;
+}
+.col{
+width: 100%;
+height: 100%;
+float: left;
+object-fit: cover;
+box-sizing:border-box;
+padding: $img_spacing;
+}
+.right{
+float: right;
+}
+.one {
+width:33.33%;
+}
+.two {
+width: 66.66%;
+}
+.three{
+width: 100%;
+}
+.caption{
+height: 100%;
+color: $caption_color;
+text-align: center;
+vertical-align: middle;
+font-size: $caption_font_size;
+}

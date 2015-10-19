@@ -1,0 +1,52 @@
+# Site settings
+name: Your Name
+email: you@example.com
+description: > # this means to ignore newlines until "baseurl:"
+  A simple, whitespace theme for academics. Based on *folio theme.
+
+url:  # the base hostname & protocol for your site
+baseurl:  # the subpath of your site, e.g. /blog/
+twitter_username: twitter_username
+github_username:  github_username
+
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+
+include: ['_pages']
+
+# Pagination
+paginate: 15
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  poetry:
+    output: true
+    permalink: /poetry/:path/
+
+# Jekyll-Scholar
+scholar:
+
+  style: apa
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  source: /_bibliography/
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
