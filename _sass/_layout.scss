@@ -75,15 +75,18 @@ display: line;
  */
 .site-footer {
 border-top: 1px solid $grey-color-dark;
-font-size: 10px;
 background-color: $grey-color-dark;
-padding: 2px;
 color: #aaa;
-position:fixed;
-left:0px;
-bottom:0px;
-height:25px;
-width:100%;
+font-size: 72%;
+padding: 2px;
+position: fixed;
+  left: 0px;
+  bottom: 0px;
+width: 100%;
+
+  p { margin-bottom: 0; }
+  a { color: #fff; }
+  a:hover { color: $theme-color; }
 }
 /**
  * Pagination   **********************************************************

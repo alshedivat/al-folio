@@ -10,15 +10,20 @@ twitter_username: twitter_username
 github_username:  github_username
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 
-include: ['_pages']
+# Math support
+kramdown:
+  math_engine: mathjax
 
 # Pagination
 paginate: 15
 permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
+
+# Includes
+include: ['_pages']
 
 # Collections
 collections:
@@ -50,3 +55,7 @@ scholar:
   details_link:   Details
 
   query: "@*"
+
+# Advanced (don't if you are not sure what it is)
+jquery_version: "1.11.1"
+katex_version: "0.1.1"

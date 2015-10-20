@@ -24,20 +24,21 @@ $caption_font_size: 12px;
 $caption_color: #aaa;
 
 /* COLORS  */
-$red:  #FF3636;
-$orange: #F29105;
-$blue: #2698BA;
-$green: #11D68B;
-$lime_green: #B7D12A;
-$purple: #B509AC;
+$red:           #FF3636;
+$orange:        #F29105;
+$blue:          #2698BA;
+$green:         #11D68B;
+$lime_green:    #B7D12A;
+$purple:        #B509AC;
 
 
-$grey-color-dark: #333;   /* footer */
-$grey-color-light: #ddd;  /* navigation bar border */
-$text-color:     #666;
+$grey-color-dark:   #333;   /* footer */
+$grey-color-light:  #ddd;  /* navigation bar border */
+$text-color:        #666;
 
 /* Set theme color *************************/
-$theme-color:   darken($red, 30%);
+// $theme-color:   $red;
+$theme-color:   darken($red, 20%);
 
 
 /************************************************************/
@@ -140,7 +141,7 @@ article a {
     font-weight: 100;
 
     &:hover {
-        text-decoration: none;
+        text-decoration: underline;
     }
 }
 
@@ -188,7 +189,12 @@ pre {
     }
 }
 
-
+/**
+ * Equations
+ */
+div.equation {
+  margin: 20px 0;
+}
 
 /**
  * Wrapper

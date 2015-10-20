@@ -1,13 +1,19 @@
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>{{ site.name }}{% if page.title and page.url != "/" %} | {{ page.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
+  <title>{{ site.name }}{% if page.title and page.url != "/" %} | {{ page.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
 
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- Load jQuery -->
+  <script src="//code.jquery.com/jquery-{{ site.jquery_version }}.min.js"></script>
+  <!-- Load KaTeX -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/{{ site.katex_version }}/katex.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/{{ site.katex_version }}/katex.min.js"></script>
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
