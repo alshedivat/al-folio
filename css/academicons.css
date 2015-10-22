@@ -1,0 +1,99 @@
+/*!
+ *  Academicons 1.5.0 by James Walsh - https://github.com/jpswalsh
+ *  Fonts generated using the IcoMoon app - http://icomoon.io/app
+ *  Square icons designed to be used alongside Font Awesome square icons - https://fortawesome.github.io/Font-Awesome/
+ *  License - Font: SIL OFL 1.1, CSS: MIT License
+ */
+
+@font-face {
+	font-family: 'academicons';
+	src:url('fonts/academicons.eot?qbqm87');
+	src:url('fonts/academicons.eot?#iefixqbqm87') format('embedded-opentype'),
+		url('fonts/academicons.ttf?qbqm87') format('truetype'),
+		url('fonts/academicons.woff?qbqm87') format('woff'),
+		url('fonts/academicons.svg?qbqm87#academicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ai {
+	display:inline-block;
+	font:normal normal normal 14px/1 Academicons;
+	font-size:inherit;
+	text-rendering:auto;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+
+.ai-google-scholar:before {
+	content: "\e600";
+}
+.ai-google-scholar-square:before {
+	content: "\e601";
+}
+.ai-researchgate:before {
+	content: "\e612";
+}
+.ai-researchgate-square:before {
+	content: "\e613";
+}
+.ai-mendeley:before {
+	content: "\e604";
+}
+.ai-mendeley-square:before {
+	content: "\e605";
+}
+.ai-orcid:before {
+	content: "\e606";
+}
+.ai-orcid-square:before {
+	content: "\e607";
+}
+.ai-impactstory:before {
+	content: "\e608";
+}
+.ai-impactstory-square:before {
+	content: "\e609";
+}
+.ai-academia:before {
+	content: "\e60a";
+}
+.ai-academia-square:before {
+	content: "\e60b";
+}
+.ai-zotero:before {
+	content: "\e60c";
+}
+.ai-zotero-square:before {
+	content: "\e60d";
+}
+.ai-figshare:before {
+	content: "\e60e";
+}
+.ai-figshare-square:before {
+	content: "\e60f";
+}
+.ai-dryad:before {
+	content: "\e610";
+}
+.ai-dryad-square:before {
+	content: "\e611";
+}
+.ai-arxiv:before {
+	content: "\e616";
+}
+.ai-arxiv-square:before {
+	content: "\e617";
+}
+.ai-scirate:before {
+	content: "\e614";
+}
+.ai-scirate-square:before {
+	content: "\e615";
+}
+.ai-researchgate-old:before {
+	content: "\e602";
+}
+.ai-researchgate-old-square:before {
+	content: "\e603";
+}

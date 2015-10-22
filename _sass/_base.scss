@@ -145,6 +145,11 @@ article a {
     }
 }
 
+.social a {
+  color: $text-color;
+
+  &:hover { color: $theme-color; }
+}
 
 
 /**

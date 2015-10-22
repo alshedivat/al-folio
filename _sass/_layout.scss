@@ -71,6 +71,24 @@ display: line;
 }
 
 /**
+ * News block   **********************************************************
+ */
+ .news {
+   border-top: 1px solid $grey-color-light;
+   margin-top: 50px;
+   padding-top: 20px;
+ }
+
+/**
+ * Social block **********************************************************
+ */
+.social {
+  border-top: 1px solid $grey-color-light;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+/**
  * Site footer  **********************************************************
  */
 .site-footer {
@@ -88,6 +106,7 @@ width: 100%;
   a { color: #fff; }
   a:hover { color: $theme-color; }
 }
+
 /**
  * Pagination   **********************************************************
  */
@@ -104,85 +123,87 @@ a {
 color: $theme-color;
     }
 }
+
 /**
  * Page content   **********************************************************
  */
 .page-content {
-padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+  padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
 }
 .page-heading {
-font-size: 20px;
+  font-size: 20px;
 }
 .post-list {
-margin: 0px 0;
-list-style: none;
-    > li {
-margin-bottom: $vertical-spacing-unit;
-    }
+  margin: 0px 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $vertical-spacing-unit;
+  }
 }
 .contacticon {
-font-size: 60px;
-display:block;
-margin: 10px;
+  display: block;
+  font-size: 60px;
+  margin: 10px;
 }
 .center{
-text-align: center;
+  text-align: center;
 }
+
 /**
  * Posts  **********************************************************
  */
 .post-header {
-margin-bottom: $vertical-spacing-unit;
+  margin-bottom: $vertical-spacing-unit;
 }
 .post-title {
-font-size: 42px;
-letter-spacing: -1px;
-line-height: 1;
-margin-bottom: 10px;
+  font-size: 42px;
+  letter-spacing: -1px;
+  line-height: 1;
+  margin-bottom: 10px;
   @include media-query($on-laptop) {
     font-size: 36px;
   }
 }
 .post-content {
-h2 {
-font-size: 42px;
-@include media-query($on-laptop) {
-font-size: 28px;
-        }
+  h2 {
+    font-size: 42px;
+    @include media-query($on-laptop) {
+      font-size: 28px;
     }
-h3 {
-font-size: 30px;
-@include media-query($on-laptop) {
-font-size: 22px;
-        }
+  }
+  h3 {
+    font-size: 30px;
+    @include media-query($on-laptop) {
+      font-size: 22px;
     }
-h4 {
-font-size: 20px;
-@include media-query($on-laptop) {
-font-size: 18px;
-        }
+  }
+  h4 {
+    font-size: 20px;
+    @include media-query($on-laptop) {
+      font-size: 18px;
     }
+  }
 }
 .post-meta {
-font-size: $small-font-size;
-color: $grey-color;
-margin-bottom: 0px;
+  color: $grey-color;
+  font-size: $small-font-size;
+  margin-bottom: 0px;
 }
 .post-link {
-display: block;
-font-size: 42px;
+  display: block;
+  font-size: 42px;
 }
 
 /** Poem formatting ********************************************/
 .poem-title {
-font-size: 24px;
-letter-spacing: -1px;
-line-height: 1;
-@include media-query($on-laptop) {
-font-size: 16px;
-    }
+  font-size: 24px;
+  letter-spacing: -1px;
+  line-height: 1;
+  @include media-query($on-laptop) {
+    font-size: 16px;
+  }
 }
-
 
 /**
  * Portfolio grid **********************************************************
@@ -191,90 +212,91 @@ font-size: 16px;
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-content: " ";
-display: table;
+  content: " ";
+  display: table;
 }
 .clearfix:after {
-clear: both;
+  clear: both;
 }
 .project {
-width: 33.33%;
-height: 250px;
-float: left;
-vertical-align: middle;
-box-sizing: border-box;
-padding: 10px;
+  box-sizing: border-box;
+  float: left;
+  height: 250px;
+  padding: 10px;
+  vertical-align: middle;
+  width: 33.33%;
 }
-.thumbnail{
-width: 100%;
-height: 230px;
-overflow: hidden;
+.thumbnail {
+  overflow: hidden;
+  height: 230px;
+  width: 100%;
 }
 .thumbnail img{
-width: 500px;
-height: auto;
-position: relative;
-left: -25%;
-top: -5%;
+  height: auto;
+  position: relative;
+    left: -25%;
+    top: -5%;
+  width: 500px;
 }
 .thumbnail a{
-float: left;
-position: relative;
-width: 100%;
-height: 230px;
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 230px;
 }
 .thumbnail a span {
-display: none;
-position: absolute;
-top: 0;
-left: 0;
-bottom: 0;
-right: 0;
-background: rgba(0,0,0,0.4);
-color: $grey-color-light;
-padding: 40px;
-text-align: center;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.4);
+  color: $grey-color-light;
+  padding: 40px;
+  text-align: center;
 }
 .thumbnail a:hover span {
-display: block;
+  display: block;
 }
+
 /**
  * Portfolio pages **********************************************************
 */
 .blankbox{
-background: $theme-color;
+  background: $theme-color;
 }
 .img_row{
-height: $img_height;
-width: 100%;
-overflow: hidden;
-box-sizing:border-box;
-padding: $img_spacing;
+  height: $img_height;
+  width: 100%;
+  overflow: hidden;
+  box-sizing:border-box;
+  padding: $img_spacing;
 }
 .col{
-width: 100%;
-height: 100%;
-float: left;
-object-fit: cover;
-box-sizing:border-box;
-padding: $img_spacing;
+  width: 100%;
+  height: 100%;
+  float: left;
+  object-fit: cover;
+  box-sizing:border-box;
+  padding: $img_spacing;
 }
 .right{
-float: right;
+  float: right;
 }
 .one {
-width:33.33%;
+  width:33.33%;
 }
 .two {
-width: 66.66%;
+  width: 66.66%;
 }
 .three{
-width: 100%;
+  width: 100%;
 }
 .caption{
-height: 100%;
-color: $caption_color;
-text-align: center;
-vertical-align: middle;
-font-size: $caption_font_size;
+  height: 100%;
+  color: $caption_color;
+  text-align: center;
+  vertical-align: middle;
+  font-size: $caption_font_size;
 }
