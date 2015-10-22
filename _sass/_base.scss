@@ -93,7 +93,9 @@ figcaption {
     font-size: $small-font-size;
 }
 
-
+img.emoji {
+  height: 1em;
+}
 
 /**
  * Lists
@@ -136,7 +138,7 @@ a {
     }
 }
 
-article a {
+article a, .news a {
     color: $theme-color;
     font-weight: 100;
 

@@ -88,6 +88,15 @@ display: line;
    border-top: 1px solid $grey-color-light;
    margin-top: 50px;
    padding-top: 20px;
+
+   h2 { margin-bottom: 10px; }
+   table {
+     border-collapse: collapse;
+     width: 100%;
+
+     tr { text-align: left; }
+     td { padding: 5px;}
+   }
  }
 
 /**

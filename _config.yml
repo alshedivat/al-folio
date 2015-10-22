@@ -25,8 +25,16 @@ paginate_path: /blog/page:num/
 # Includes
 include: ['_pages']
 
+# Emoji support
+emoji_dir: /assets/img/emoji
+
 # Collections
 collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
   projects:
     output: true
     permalink: /projects/:path/
@@ -56,6 +64,6 @@ scholar:
 
   query: "@*"
 
-# Advanced (don't if you are not sure what it is)
+# Advanced (don't touch if you are not sure what it is)
 jquery_version: "1.11.1"
 katex_version: "0.1.1"

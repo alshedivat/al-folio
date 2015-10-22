@@ -14,7 +14,7 @@ Produces something like this:
 
 {% highlight c++ %}
 
-int main(int argc, char const *argv[])
+int main(int argc, char const \*argv[])
 {
 	string myString;
 

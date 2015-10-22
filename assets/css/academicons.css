@@ -7,11 +7,11 @@
 
 @font-face {
 	font-family: 'academicons';
-	src:url('fonts/academicons.eot?qbqm87');
-	src:url('fonts/academicons.eot?#iefixqbqm87') format('embedded-opentype'),
-		url('fonts/academicons.ttf?qbqm87') format('truetype'),
-		url('fonts/academicons.woff?qbqm87') format('woff'),
-		url('fonts/academicons.svg?qbqm87#academicons') format('svg');
+	src:url('/assets/fonts/academicons.eot?qbqm87');
+	src:url('/assets/fonts/academicons.eot?#iefixqbqm87') format('embedded-opentype'),
+		url('/assets/fonts/academicons.ttf?qbqm87') format('truetype'),
+		url('/assets/fonts/academicons.woff?qbqm87') format('woff'),
+		url('/assets/fonts/academicons.svg?qbqm87#academicons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

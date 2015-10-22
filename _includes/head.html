@@ -6,7 +6,7 @@
   <title>{{ site.name }}{% if page.title and page.url != "/" %} | {{ page.title }}{% endif %}</title>
   <meta name="description" content="{{ site.description }}">
 
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
   <!-- Load jQuery -->
@@ -15,6 +15,6 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/{{ site.katex_version }}/katex.min.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/{{ site.katex_version }}/katex.min.js"></script>
 
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/academicons.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/academicons.css">
 </head>
