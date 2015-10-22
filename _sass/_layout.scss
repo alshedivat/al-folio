@@ -71,6 +71,17 @@ display: line;
 }
 
 /**
+ * Profile
+ */
+.profile {
+  margin-right: 20px;
+  img { width: 100%; }
+}
+.address {
+  p { margin: 0; }
+}
+
+/**
  * News block   **********************************************************
  */
  .news {
@@ -111,17 +122,17 @@ width: 100%;
  * Pagination   **********************************************************
  */
 .pagination{
-max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
-text-align: center;
-width: 100%;
-position: fixed;
-bottom: 50px;
+  max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 50px;
 }
 .paginationicon {
-font-size: 50px;
-a {
-color: $theme-color;
-    }
+  font-size: 50px;
+  a {
+    color: $theme-color;
+  }
 }
 
 /**
