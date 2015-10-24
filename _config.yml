@@ -1,4 +1,7 @@
+# ------------------------------------------------------------------------------
 # Site settings
+# ------------------------------------------------------------------------------
+
 name: Your Name
 email: you@example.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -6,8 +9,36 @@ description: > # this means to ignore newlines until "baseurl:"
 
 url:  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
-twitter_username: twitter_username
-github_username:  github_username
+
+# Social
+github_username: # put your github username
+twitter_username: # put your twitter username
+linkedin_username: # put your linkedin username
+scholar_authorid: # put your google scholar author id
+contact_note: >
+  You can even add a little note about which of these is the best way to reach you.
+
+# Blog
+blog_name: al-folio
+blog_description: simple whitespace theme for academics
+
+# Collections
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+  poetry:
+    output: true
+    permalink: /poetry/:path/
+
+# ------------------------------------------------------------------------------
+# Jekyll settings
+# ------------------------------------------------------------------------------
 
 # Build settings
 markdown: kramdown
@@ -28,19 +59,6 @@ include: ['_pages']
 # Emoji support
 emoji_dir: /assets/img/emoji
 
-# Collections
-collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
-  poetry:
-    output: true
-    permalink: /poetry/:path/
 
 # Jekyll-Scholar
 scholar:
@@ -64,6 +82,8 @@ scholar:
 
   query: "@*"
 
-# Advanced (don't touch if you are not sure what it is)
+# ------------------------------------------------------------------------------
+# Other advanced settings (don't touch if you are not sure)
+# ------------------------------------------------------------------------------
 jquery_version: "1.11.1"
 katex_version: "0.1.1"

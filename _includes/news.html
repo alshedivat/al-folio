@@ -2,9 +2,9 @@
   <h2>news</h2>
   {% if site.news  %}
     <table>
-    {% for item in site.news %}
+    {% for item in site.news reversed %}
       <tr>
-        <td class="date">{{ item.date | date: "%B %-d, %Y" }}</td>
+        <td class="date">{{ item.date | date: "%b %-d, %Y" }}</td>
         <td class="announcement">
           {% if item.inline %}
             {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
