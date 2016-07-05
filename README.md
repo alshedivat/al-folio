@@ -3,9 +3,11 @@ A simple and clean theme for academics. Based on [\*folio](http://liabogoev.com/
 
 ## Academic Features
 
+TODO: add description
+
 ### Ergonomic Publications
 
-
+TODO: add description
 
 ## Original Features
 The following are features inherited from [\*folio](http://liabogoev.com/-folio).

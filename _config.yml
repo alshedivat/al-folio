@@ -1,11 +1,12 @@
-# ------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # Site settings
-# ------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 
 name: Your Name
 email: you@example.com
-description: > # this means to ignore newlines until "baseurl:"
-  A simple, whitespace theme for academics. Based on *folio theme.
+description: > # this means to ignore newlines until "url:"
+  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+last_updated: July 1, 2016
 
 url:  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -17,6 +18,11 @@ linkedin_username: # put your linkedin username
 scholar_authorid: # put your google scholar author id
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
+
+# Footer text
+footer_text: >
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 # Blog
 blog_name: al-folio
@@ -36,17 +42,13 @@ collections:
     output: true
     permalink: /poetry/:path/
 
-# ------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # Jekyll settings
-# ------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
-
-# Math support
-kramdown:
-  math_engine: mathjax
 
 # Pagination
 paginate: 15
@@ -56,12 +58,16 @@ paginate_path: /blog/page:num/
 # Includes
 include: ['_pages']
 
+# Gems
+gems: [jekyll-paginate]
+
 # Emoji support
 emoji_dir: /assets/img/emoji
 
-
 # Jekyll-Scholar
 scholar:
+
+  last_name: Einstein
 
   style: apa
   locale: en
@@ -70,20 +76,20 @@ scholar:
   order: descending
 
   source: /_bibliography/
-  bibliography: references.bib
-  bibliography_template: "{{reference}}"
+  bibliography: papers.bib
+  bibliography_template: bib
 
   replace_strings: true
-  join_strings:    true
+  join_strings: true
 
-  details_dir:    bibliography
+  details_dir: bibliography
   details_layout: bibtex.html
-  details_link:   Details
+  details_link: Details
 
   query: "@*"
 
-# ------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # Other advanced settings (don't touch if you are not sure)
-# ------------------------------------------------------------------------------
-jquery_version: "1.11.1"
-katex_version: "0.1.1"
+# -----------------------------------------------------------------------------
+jquery_version: "1.12.4"
+katex_version: "0.6.0"

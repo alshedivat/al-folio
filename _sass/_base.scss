@@ -4,8 +4,8 @@
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -37,8 +37,7 @@ $grey-color-light:  #ddd;  /* navigation bar border */
 $text-color:        #666;
 
 /* Set theme color *************************/
-// $theme-color:   $red;
-$theme-color:   darken($red, 20%);
+$theme-color:   $purple;
 
 
 /************************************************************/
@@ -72,13 +71,13 @@ ul, ol, dl, figure,
 }
 
 
-hr{
+hr {
     /* Inset, by Dan Eden */
     border: 0;
-    height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-
+    height: 0;
+    margin: 20px 0;
 }
 
 
@@ -94,7 +93,7 @@ figcaption {
 }
 
 img.emoji {
-  height: 1em;
+    height: 1em;
 }
 
 /**
@@ -107,7 +106,7 @@ ul, ol {
 li {
     > ul,
     > ol {
-         margin-bottom: 0;
+        margin-bottom: 0;
     }
 }
 
@@ -118,6 +117,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 100;
+    margin-bottom: $vertical-spacing-unit / 2;
 }
 
 
@@ -148,9 +148,9 @@ article a, .news a {
 }
 
 .social a {
-  color: $text-color;
+    color: $text-color;
 
-  &:hover { color: $theme-color; }
+    &:hover { color: $theme-color; }
 }
 
 
@@ -200,7 +200,7 @@ pre {
  * Equations
  */
 div.equation {
-  margin: 20px 0;
+    margin: 20px 0;
 }
 
 /**
@@ -214,7 +214,7 @@ div.equation {
     margin-left: auto;
     padding-right: $horizontal-spacing-unit;
     padding-left: $horizontal-spacing-unit;
-    @extend %clearfix;
+    @extend .clearfix;
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit}));
@@ -228,7 +228,7 @@ div.equation {
 /**
  * Clearfix
  */
-%clearfix {
+.clearfix {
     &:before,
     &:after {
         content: "";

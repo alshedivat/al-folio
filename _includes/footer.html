@@ -1,7 +1,9 @@
 <footer class="site-footer">
 
   <div class="wrapper">
-  	<p class="small">© Copyright {{ site.time | date: '%Y' }} {{ site.name }}. Powered by <a href="http://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</p>
+  	<p class="small">
+    © Copyright {{ site.time | date: '%Y' }} {{ site.name }}.
+    {{ site.footer_text }} Last updated: {{ site.last_updated }}.</p>
   </div>
 
 </footer>
