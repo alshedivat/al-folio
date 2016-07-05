@@ -6,10 +6,9 @@ name: Your Name
 email: you@example.com
 description: > # this means to ignore newlines until "url:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-last_updated: July 5, 2016
 
-url: https://alshedivat.github.io/al-folio # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/
+url:  # the base hostname & protocol for your site
+baseurl: /al-folio # the subpath of your site, e.g. /blog/
 
 # Social
 github_username: # put your github username
@@ -23,6 +22,7 @@ contact_note: >
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 # Blog
 blog_name: al-folio
@@ -59,10 +59,10 @@ paginate_path: /blog/page:num/
 include: ['_pages']
 
 # Gems
-gems: [jekyll-paginate]
-
-# Emoji support
-emoji_dir: /assets/img/emoji
+gems:
+    - jekyll-paginate
+    - jekyll/scholar
+    - jemoji
 
 # Jekyll-Scholar
 scholar:
@@ -91,5 +91,6 @@ scholar:
 # -----------------------------------------------------------------------------
 # Other advanced settings (don't touch if you are not sure)
 # -----------------------------------------------------------------------------
+fontawesome_version: "4.6.3"
 jquery_version: "1.12.4"
 katex_version: "0.6.0"

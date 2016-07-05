@@ -5,14 +5,16 @@
     <nav class="site-nav">
 
       <div class="trigger">
-        <a class="page-link" href="{{ site.baseurl }}/">about</a>
+        <!-- About -->
+        <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">about</a>
 
-        <!-- {{ site.title }} instead of blog -->
-        <a class="page-link" href="{{ "/blog/" | prepend: site.baseurl }}">blog</a>
+        <!-- Blog -->
+        <a class="page-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">blog</a>
 
+        <!-- Pages -->
         {% for page in site.pages %}
           {% if page.title and page.url != "/" %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
 
