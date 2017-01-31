@@ -1,0 +1,23 @@
+{% if paginator.total_pages != 1 %}
+<div class="pagination clearfix mb1 mt4">
+  <div class="left">
+    {% if paginator.previous_page %}
+      {% if paginator.page == 2 %}
+        <a class="pagination-item" href="{{ site.baseurl }}/blog/">{{ site.text.pagination.newer }}</a>
+      {% else %}
+        <a class="pagination-item" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">{{ site.text.pagination.newer }}</a>
+      {% endif %}
+    {% else %}
+      <span class="pagination-item disabled">{{ site.text.pagination.newer }}</span>
+    {% endif %}
+  </div>
+  <div class="right">
+    {% if paginator.next_page %}
+      <a class="pagination-item" href="{{ paginator.next_page_path | prepend: site.baseurl }}">{{ site.text.pagination.older }}</a>
+    {% else %}
+      <span class="pagination-item disabled">{{ site.text.pagination.older }}</span>
+    {% endif %}
+  </div>
+  <div class="pagination-meta">Page {{ paginator.page }} of {{ paginator.total_pages }}</div>
+</div>
+{% endif %}

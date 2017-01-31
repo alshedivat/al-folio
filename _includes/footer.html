@@ -1,13 +1,11 @@
-<footer class="site-footer">
+<footer>
 
   <div class="wrapper">
-    <p class="small">
-        © Copyright {{ site.time | date: '%Y' }} {{ site.name }}.
-        {{ site.footer_text }}
-        {% if site.last_updated %}
-            Last updated: {{ site.last_updated }}.
-        {% endif %}
-    </p>
+    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.name }}.
+    {{ site.footer_text }}
+    {% if site.last_updated %}
+        Last updated: {{ site.last_updated }}.
+    {% endif %}
   </div>
 
 </footer>

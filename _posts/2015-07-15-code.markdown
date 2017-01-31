@@ -16,20 +16,20 @@ Produces something like this:
 
 int main(int argc, char const \*argv[])
 {
-	string myString;
+    string myString;
 
-	cout << "input a string: ";
-	getline(cin, myString);
-	int length = myString.length();
+    cout << "input a string: ";
+    getline(cin, myString);
+    int length = myString.length();
 
-	char charArray = new char * [length];
+    char charArray = new char * [length];
 
-	charArray = myString;
-	for(int i = 0; i < length; ++i){
-		cout << charArray[i] << " ";
-	}
+    charArray = myString;
+    for(int i = 0; i < length; ++i){
+        cout << charArray[i] << " ";
+    }
 
-	return 0;
+    return 0;
 }
 
 {% endhighlight %}
