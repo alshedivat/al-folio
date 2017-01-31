@@ -2,7 +2,8 @@
   <h2>news</h2>
   {% if site.news  %}
     <table>
-    {% for item in site.news reversed %}
+    {% assign news = site.news | reverse %}
+    {% for item in news limit: site.news_limit %}
       <tr>
         <td class="date">{{ item.date | date: "%b %-d, %Y" }}</td>
         <td class="announcement">

@@ -6,6 +6,7 @@ name: Your Name
 email: you@example.com
 description: > # this means to ignore newlines until "url:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+last_updated:
 
 url:  # the base hostname & protocol for your site
 baseurl: /al-folio # the subpath of your site, e.g. /blog/
@@ -41,6 +42,9 @@ collections:
   poetry:
     output: true
     permalink: /poetry/:path/
+
+# Collection settings
+news_limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -91,6 +95,5 @@ scholar:
 # -----------------------------------------------------------------------------
 # Other advanced settings (don't touch if you are not sure)
 # -----------------------------------------------------------------------------
-fontawesome_version: "4.6.3"
 jquery_version: "1.12.4"
-katex_version: "0.6.0"
+katex_version: "0.7.0"

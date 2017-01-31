@@ -2,6 +2,13 @@
 
   <div class="wrapper">
 
+    {% if page.layout != "about" %}
+    <span class="site-title">
+        {% assign name = site.name | split: ' ' %}
+        <strong>{{ name | first }}</strong> {{ name | last }}
+    </span>
+    {% endif %}
+
     <nav class="site-nav">
 
       <div class="trigger">
@@ -17,6 +24,9 @@
             <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
+
+        <!-- CV link -->
+        <a class="page-link" href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a>
 
       </div>
     </nav>

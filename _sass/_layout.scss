@@ -5,7 +5,7 @@
 .site-header {
     border-bottom: 1px solid $grey-color-light;
     background-color: #fff;
-    opacity: 0.75;
+    opacity: 0.95;
     position:fixed;
     left:0px;
     top:0px;
@@ -19,10 +19,6 @@
     line-height: $nav-height;
     letter-spacing: -1px;
     margin-bottom: 0;
-    &:hover {
-        text-decoration: none;
-        color: $theme-color;
-    }
 }
 .site-nav {
     float: right;
@@ -100,11 +96,14 @@
         border-collapse: collapse;
         width: 100%;
 
-        .date { width: 20%; }
-        .announcement { width: 80%; }
+        .date { width: 19%; }
+        .announcement { width: 81%; }
 
         tr { text-align: left; }
-        td { padding: 5px 0;}
+        td {
+            padding: 5px 0;
+            vertical-align: top;
+        }
     }
 }
 
@@ -230,20 +229,23 @@
 .publications {
     h2 {
         color: $theme-color;
+        // border-bottom: 1px solid $theme-color;
+        // border-top: 1px solid $theme-color;
         font-size: 32px;
-        margin: 40px 0;
+        margin-bottom: 30px;
+        // padding: 20px 0;
         text-align: center;
     }
 }
 .year {
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 1px solid $grey-color-light;
     color: $grey-color-light;
-    margin: 0 -2.5em 40px -2em;
-    padding-bottom: 5px;
+    margin: 0 -3em -2.5ex -2em;
+    padding-top: 1ex;
     text-align: right;
 }
 .bibliography {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-top: 20px;
     list-style-type: circle;
 
@@ -261,7 +263,10 @@
                     text-decoration: none;
                 }
             }
-            > em { border-bottom: 1px solid; }
+            > em {
+                border-bottom: 1px solid;
+                font-style: normal;
+            }
         }
         a.abstract, a.bibtex { cursor: pointer; }
         .hidden {
@@ -313,47 +318,47 @@
  /*****************************************************************************
  * Projects
  *****************************************************************************/
-.project {
-    box-sizing: border-box;
-    float: left;
-    height: 250px;
-    padding: 10px;
-    vertical-align: middle;
-    width: 33.33%;
-}
-.thumbnail {
-    overflow: hidden;
-    height: 230px;
-    width: 100%;
-}
-.thumbnail img{
-    height: auto;
-    position: relative;
-        left: -25%;
-        top: -5%;
-    width: 500px;
-}
-.thumbnail a{
-    float: left;
-    height: 230px;
-    position: relative;
-    width: 100%;
-}
-.thumbnail a span {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: rgba(0,0,0,0.4);
-    color: $grey-color-light;
-    padding: 40px;
-    text-align: center;
-}
-.thumbnail a:hover span {
-    display: block;
-}
+ .project {
+     box-sizing: border-box;
+     float: left;
+     height: 250px;
+     padding: 10px;
+     vertical-align: middle;
+     width: 33.33%;
+ }
+ .thumbnail {
+     overflow: hidden;
+     height: 230px;
+     width: 100%;
+ }
+ .thumbnail img{
+     height: auto;
+     position: relative;
+         left: -25%;
+         top: -5%;
+     width: 500px;
+ }
+ .thumbnail a{
+     float: left;
+     height: 230px;
+     position: relative;
+     width: 100%;
+ }
+ .thumbnail a span {
+     display: none;
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     background: rgba(0,0,0,0.4);
+     color: $grey-color-light;
+     padding: 40px;
+     text-align: center;
+ }
+ .thumbnail a:hover span {
+     display: block;
+ }
 
 /** Poem formatting ********************************************/
 .poem-title {
