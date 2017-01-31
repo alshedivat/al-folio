@@ -1,0 +1,27 @@
+.button-blue {
+  color: white;
+  background-color: $blue;
+  border-radius: $border-radius;
+  transition-duration: .1s;
+  transition-timing-function: ease-out;
+  transition-property: box-shadow, background-color;
+}
+
+.button-blue:hover {
+  opacity: .875;
+}
+
+.button-blue:active,
+.button-blue.is-active {
+  box-shadow: inset 0 0 0 32px rgba(#000,.125), inset 0 2px 3px 0 rgba(#000,.25);
+}
+
+.button-blue:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(white, .5), 0 0 1px 4px rgba($blue, .5);
+}
+
+.button-blue:disabled,
+.button-blue.is-disabled {
+  opacity: .5;
+}

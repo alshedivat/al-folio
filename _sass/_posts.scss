@@ -1,0 +1,48 @@
+
+.posts {
+  margin: 0;
+}
+
+.posts .post {
+  margin-bottom: 0.75em;
+  border-bottom: thin solid #f3f3f3;
+}
+
+.posts .post:last-child {
+  border-bottom: none;
+  margin-bottom: .375em;
+  padding-bottom: 0;
+}
+
+.post-link .post-title {
+  margin-top: 0;
+  font-weight: 600;
+  color: #333;
+}
+
+.post-footer {
+  @extend .italic;
+
+  margin-top: .75rem;
+  text-align: center;
+}
+
+.post-footer .avatar {
+  margin: 2rem 0;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.meta,
+.post-meta {
+  width: auto;
+  font-weight: 300;
+  margin: 0;
+  padding: .25em 0;
+  color: #7a7a7a;
+  font-style: italic;
+}
+
+.related-post-title {
+  border-bottom: thin solid #f3f3f3;
+}
