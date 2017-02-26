@@ -28,7 +28,7 @@ contact_note: >
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: al-folio
-blog_description: simple whitespace theme for academics
+blog_description: a simple whitespace theme for academics
 
 # Pagination
 paginate: 4
@@ -60,9 +60,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  poetry:
-    output: true
-    permalink: /poetry/:path/
 
 news_limit: 5
 

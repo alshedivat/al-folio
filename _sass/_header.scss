@@ -20,37 +20,36 @@
     float: right;
     line-height: $nav-height;
     .page-link{
-        line-height: $base-line-height;
+        line-height: $line-height;
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 10px;
         }
     }
-    @include media-query($on-palm) {
-        position: fixed;
-        top: 0px;
-        right: 10px;
-        text-align: right;
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-        .page-link {
-            display: line;
-        }
-    }
+    // @include media-query($on-palm) {
+    //     position: fixed;
+    //     top: 0px;
+    //     right: 10px;
+    //     text-align: right;
+    //     &:hover .trigger {
+    //         display: block;
+    //         padding-bottom: 5px;
+    //     }
+    //     .page-link {
+    //         display: line;
+    //     }
+    // }
 }
 
 .header-bar{
-    left: 0px;
-    top: 0px;
-    position: relative;
+    border-bottom: 1px solid $light-gray;
     font-size: 20px;
     display: block;
     opacity: 0.75;
     width: 100%;
     text-align: center;
     padding-top: 25px;
+    padding-bottom: $space-4;
     line-height: 3em;
     z-index: 25;
     h1{

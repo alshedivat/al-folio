@@ -3,36 +3,30 @@
 ---
 @charset "utf-8";
 
-// Using media queries with like this:
-// @include media-query($palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
 
 @import 'variables';
 
 @import 'basscss';
 
 @import 'base';
-@import 'header';
-@import 'layout';
-@import 'footer';
-@import 'pagination';
-@import 'posts';
+@import 'clearfix';
 @import 'positions';
 
+@import 'header';
+@import 'footer';
+@import 'pages';
+@import 'posts';
+
+@import 'projects';
+@import 'profile';
+@import 'pagination';
+@import 'publications';
+
 @import 'blockquotes';
-@import 'clearfix';
 @import 'code';
+@import 'gallery';
 @import 'gists';
-// @import 'links';
+@import 'links';
 @import 'measure';
 @import 'media-queries';
 @import 'social-icons';

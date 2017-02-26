@@ -5,9 +5,6 @@ layout: default
 <div class="header-bar">
   <h1>{{ site.blog_name }}</h1>
   <h2>{{ site.blog_description }}</h2>
-  <br/>
-  <hr>
-  <br/>
 </div>
 
 
@@ -17,8 +14,6 @@ layout: default
       <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
       <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
       <p>{{ post.description }}</p>
-      <br/>
-      <hr/>
     </li>
   {% endfor %}
 </ul>
