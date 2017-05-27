@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Project
+layout: page
+title: Project 2
 description: a project with a background image
 img: /assets/img/2.jpg
 ---
@@ -10,7 +10,7 @@ Every project has a beautiful feature shocase page. It's easy to include images,
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
-    layout: post
+    layout: page
     title: Project
     description: a project with a background image
     img: /assets/img/12.jpg

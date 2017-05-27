@@ -10,7 +10,12 @@ code {
 }
 
 code {
-  color: $text-color;
+  color: $code-color;
+  font-size: 85%;
+  padding-bottom: 0.1em;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  padding-top: 0.1em;
 }
 
 pre {
