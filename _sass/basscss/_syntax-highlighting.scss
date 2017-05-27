@@ -1,0 +1,119 @@
+.highlight {
+  -webkit-text-size-adjust: none;
+}
+
+.highlight .c,
+.highlight .cs,
+.highlight .cm,
+.highlight .cp,
+.highlight .c1 {
+  color: $hljs-comment;
+  font-style: italic;
+}
+
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kr,
+.highlight .kt,
+.highlight .kp {
+  color: $hljs-keyword;
+}
+
+.highlight .na,
+.highlight .nb,
+.highlight .nc,
+.highlight .no,
+.highlight .nd,
+.highlight .ni,
+.highlight .ne,
+.highlight .nf,
+.highlight .nl,
+.highlight .nn,
+.highlight .nx {
+  color: $hljs-name;
+}
+
+.highlight .mi,
+.highlight .il {
+  color: $hljs-number;
+}
+
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .s3,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .sr,
+.highlight .ss,
+.highlight .s1 {
+  color: $hljs-string;
+}
+
+.hljs-title,
+.hljs-id,
+.scss .hljs-preprocessor {
+  color: $hljs-title;
+  font-weight: bold;
+}
+
+.highlight .k {
+  font-weight: normal;
+}
+
+.highlight .nc,
+.highlight .no {
+  color: $hljs-type;
+}
+
+.highlight .o {
+  color: $hljs-tag;
+  font-weight: normal;
+}
+
+.highlight .nb {
+  color: $hljs-attribute;
+}
+
+.highlight .sr {
+  color: $hljs-regexp;
+}
+
+.highlight .ss {
+  color: $hljs-symbol;
+}
+
+.hljs-built_in {
+  color: $hljs-built-in;
+}
+
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-pi,
+.hljs-doctype,
+.hljs-shebang,
+.hljs-cdata {
+  color: $hljs-preprocessor;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: $hljs-deletion;
+}
+
+.hljs-addition {
+  background: $hljs-addition;
+}
+
+.diff .hljs-change {
+  background: $hljs-change;
+}
+
+.hljs-chunk {
+  color: $hljs-chunk;
+}

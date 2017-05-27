@@ -1,0 +1,88 @@
+.publications {
+    h2 {
+        color: $theme-color;
+        // border-bottom: 1px solid $theme-color;
+        // border-top: 1px solid $theme-color;
+        font-size: 32px;
+        margin-bottom: 30px;
+        // padding: 20px 0;
+        text-align: center;
+    }
+}
+.year {
+    border-top: 1px solid $light-gray;
+    color: $light-gray;
+    margin: 0 -3em -2.5ex -2em;
+    padding-top: 1ex;
+    text-align: right;
+}
+.bibliography {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    list-style-type: circle;
+
+    li {
+        margin: 10px 0;
+        position: relative;
+
+        span { display: block; }
+        .title { font-weight: bolder; }
+        .author {
+            a {
+                border-bottom: 1px dashed $theme-color;
+                &:hover {
+                    border-bottom-style: solid;
+                    text-decoration: none;
+                }
+            }
+            > em {
+                border-bottom: 1px solid;
+                font-style: normal;
+            }
+        }
+        a.abstract, a.bibtex { cursor: pointer; }
+        .hidden {
+            font-size: $small-font-size;
+            max-height: 0px;
+            overflow: hidden;
+            text-align: justify;
+            -webkit-transition: 0.15s ease;
+            -moz-transition: 0.15s ease;
+            -ms-transition: 0.15s ease;
+            -o-transition: 0.15s ease;
+            transition: all 0.15s ease;
+
+            p {
+                line-height: 1.4em;
+                margin: 10px;
+            }
+            pre {
+                font-size: 1em;
+                line-height: 1.4em;
+                padding: 10px;
+            }
+        }
+        .hidden.open {
+            max-height: 100em;
+            -webkit-transition: 0.15s ease;
+            -moz-transition: 0.15s ease;
+            -ms-transition: 0.15s ease;
+            -o-transition: 0.15s ease;
+            transition: all 0.15s ease;
+        }
+        span.abstract.hidden {
+            border: dashed 1px $background-color;
+        }
+        span.abstract.hidden.open {
+            border-color: $grey-color;
+        }
+    }
+    abbr {
+        position: absolute;
+            left: -7em;
+    }
+ }
+.star {
+    color: $theme-color;
+    font-style: normal;
+}

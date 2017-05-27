@@ -2,14 +2,18 @@
 ---
 
 {% if entry.abbr %}
-  <abbr>[{{entry.abbr}}]</abbr>
+  {% if site.data.venues[entry.abbr] %}
+    <abbr>[<a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a>]</abbr>
+  {% else %}
+    <abbr>[{{entry.abbr}}]</abbr>
+  {% endif %}
 {% endif %}
 
 <div id="{{entry.key}}">
   {% if entry.type == "thesis" %}
     {{reference}}
   {% else %}
-    <span class="title">{{entry.title}}.</span>
+    <span class="title">{{entry.title}}</span>
     <span class="author">
       {% for author in entry.author_array %}
         {% unless forloop.last %}
@@ -23,7 +27,7 @@
             {% endif %}
           {% endif %}
         {% else %}
-          {% if entry.author_array.length > 1 %} and {% endif %}
+          and
           {% if author.last == site.scholar.last_name %}
             <em>{{author.last}}, {{author.first}}</em>
           {% else %}
@@ -37,7 +41,6 @@
       {% endfor %}
     </span>
 
-    {% if entry.type != "book" %}
     <span class="periodical">
     {% if entry.type == "article" %}
       <em>{{entry.journal}}</em>
@@ -48,23 +51,14 @@
       {{entry.year}}
     {% endif %}
     </span>
-    {% endif %}
-
-    {% if entry.type == "book" %}
-    <span class="publisher">
-      {% if entry.publisher %}
-        <em>{{entry.publisher}}</em>
-      {% endif %}
-      {% if entry.year %}
-        {{entry.year}}
-      {% endif %}
-    </span>
-    {% endif %}
   {% endif %}
 
   <span class="links">
   {% if entry.abstract %}
     [<a class="abstract">Abs</a>]
+  {% endif %}
+  {% if entry.arxiv %}
+    [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
   {% endif %}
   {% if entry.html %}
     [<a href="{{ entry.html }}" target="_blank">HTML</a>]

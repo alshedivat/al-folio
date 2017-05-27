@@ -1,0 +1,16 @@
+blockquote {
+  border-left: 5px solid #7a7a7a;
+  font-style: italic;
+  margin-left: $space-1;
+  padding: $space-1;
+}
+
+blockquote footer {
+  background-color: #fff;
+  border-color: transparent;
+  color: #7a7a7a;
+  font-size: .85rem;
+  font-style: normal;
+  text-align: left;
+  padding: 0;
+}

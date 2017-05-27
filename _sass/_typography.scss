@@ -1,0 +1,37 @@
+html {
+    font-size: $base-font-size;
+}
+
+body {
+    color: $text-color;
+    font-weight: 100;
+}
+
+abbr {
+    border-bottom: $abbr-border-bottom;
+    cursor: help;
+}
+
+p {
+    color: #333;
+    line-height: 1.5;
+}
+
+small,
+.small {
+    font-size: 0.707rem;
+}
+
+sup {
+    position: relative;
+    vertical-align: middle;
+    top: -0.9ex;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+}
+
+div.equation {
+    margin: $space-1 0;
+}

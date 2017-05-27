@@ -1,16 +1,22 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-
 name: Your Name
 email: you@example.com
 description: > # this means to ignore newlines until "url:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+footer_text: >
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  # the base hostname & protocol for your site
 baseurl: /al-folio # the subpath of your site, e.g. /blog/
+last_updated: # leave blank if you don't want to display last updated
 
-# Social
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
 github_username: # put your github username
 twitter_username: # put your twitter username
 linkedin_username: # put your linkedin username
@@ -18,17 +24,33 @@ scholar_authorid: # put your google scholar author id
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
-# Footer text
-footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-
+# -----------------------------------------------------------------------------
 # Blog
+# -----------------------------------------------------------------------------
 blog_name: al-folio
-blog_description: simple whitespace theme for academics
+blog_description: a simple whitespace theme for academics
 
+# Pagination
+paginate: 4
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
+
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+
+# Comments
+disqus_shortname: al-folio # put your disqus shortname
+
+# Optional features
+show_social_icons:  false
+enable_anchorjs:    false
+enable_katex:       true
+
+# -----------------------------------------------------------------------------
 # Collections
+# -----------------------------------------------------------------------------
 collections:
   news:
     defaults:
@@ -38,9 +60,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  poetry:
-    output: true
-    permalink: /poetry/:path/
+
+news_limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -49,11 +70,6 @@ collections:
 # Build settings
 markdown: kramdown
 highlighter: pygments
-
-# Pagination
-paginate: 15
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
 
 # Includes
 include: ['_pages']
@@ -89,8 +105,8 @@ scholar:
   query: "@*"
 
 # -----------------------------------------------------------------------------
-# Other advanced settings (don't touch if you are not sure)
+# Other settings
 # -----------------------------------------------------------------------------
-fontawesome_version: "4.6.3"
 jquery_version: "1.12.4"
-katex_version: "0.6.0"
+katex_version: "0.7.1"
+anchorjs_version: "3.2.2"

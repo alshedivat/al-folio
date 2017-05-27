@@ -1,207 +1,24 @@
-/**
- * Reset some basic elements
- */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-  margin: 0;
-  padding: 0;
+@charset "UTF-8";
+
+html, body {
+  height: auto;
+  min-height: 100%;
 }
 
+img {
+  max-width: none;
+}
 
+em img {
+  max-width: 100%;
+  margin-left: 0;
+}
 
-/** Variables **********************************************/
-$base-font-family:              Helvetica, sans-serif;
-$base-line-height:              1.5em;
-$horizontal-spacing-unit:       50px;
-$vertical-spacing-unit:         40px;
-$nav-height:                    56px;
-
-/* portfolio tinkering */
-$img_spacing: 5px;
-$img_height: 275px;
-$caption_font_size: 12px;
-$caption_color: #aaa;
-
-/* COLORS  */
-$red:           #FF3636;
-$orange:        #F29105;
-$blue:          #2698BA;
-$green:         #11D68B;
-$lime_green:    #B7D12A;
-$purple:        #B509AC;
-
-
-$grey-color-dark:   #333;   /* footer */
-$grey-color-light:  #ddd;  /* navigation bar border */
-$text-color:        #666;
-
-/* Set theme color *************************/
-$theme-color:   $purple;
-
-
-/************************************************************/
-
-/**
- * Basic styling
- */
 body {
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-weight: 100;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
+          box-sizing: border-box;
+     -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
-
-
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $vertical-spacing-unit / 2;
-}
-
-.alignright {
-    float: right;
-}
-
-
-hr {
-    /* Inset, by Dan Eden */
-    border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    height: 0;
-    margin: 20px 0;
-}
-
-
-/**
- * Figures
- */
-figure > img {
-    display: block;
-}
-
-figcaption {
-    font-size: $small-font-size;
-}
-
-/**
- * Lists
- */
-ul, ol {
-    margin-left: $horizontal-spacing-unit;
-}
-
-li {
-    > ul,
-    > ol {
-        margin-bottom: 0;
-    }
-}
-
-
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 100;
-    margin-bottom: $vertical-spacing-unit / 2;
-}
-
-
-/**
- * Links
- */
-a {
-    color: $text-color;
-    text-decoration: none;
-    /*
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-    */
-    &:hover {
-        color: $theme-color;
-        text-decoration: none;
-    }
-}
-
-article a, .news a {
-    color: $theme-color;
-    font-weight: 100;
-
-    &:hover {
-        text-decoration: underline;
-    }
-}
-
-.social a {
-    color: $text-color;
-
-    &:hover { color: $theme-color; }
-}
-
-
-/**
- * Blockquotes
- */
-blockquote {
-    color: $text-color;
-    border-left: 10px solid $grey-color-light;
-    padding-left: $horizontal-spacing-unit / 2;
-    font-size: 18px;
-    font-style: italic;
-
-    > :last-child {
-        margin-bottom: 0;
-    }
-}
-
-
-
-/**
- * Code formatting
- */
-pre,
-code {
-    font-size: 15px;
-    border-radius: 3px;
-    background-color: $grey-color-light;
-}
-
-code {
-    padding: 1px 5px;
-}
-
-pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
-
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
-
-/**
- * Equations
- */
-div.equation {
-    margin: 20px 0;
-}
-
-/**
- * Wrapper
- */
 
 .wrapper {
     max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
@@ -211,24 +28,4 @@ div.equation {
     padding-right: $horizontal-spacing-unit;
     padding-left: $horizontal-spacing-unit;
     @extend .clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit}));
-        max-width:         calc(800px - (#{$horizontal-spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
-}
-
-
-/**
- * Clearfix
- */
-.clearfix {
-    &:before,
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
 }
