@@ -13,7 +13,7 @@
   {% if entry.type == "thesis" %}
     {{reference}}
   {% else %}
-    <span class="title">{{entry.title}}.</span>
+    <span class="title">{{entry.title}}</span>
     <span class="author">
       {% for author in entry.author_array %}
         {% unless forloop.last %}
