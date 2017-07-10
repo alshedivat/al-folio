@@ -17,10 +17,10 @@ last_updated: # leave blank if you don't want to display last updated
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: # your GitHub user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+github_username: dariosg # put your github username
+twitter_username: dariosugr # put your twitter username
+linkedin_username: # put your linkedin username
+scholar_authorid: # put your google scholar author id
 orcid_id: # your ORCID ID
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.

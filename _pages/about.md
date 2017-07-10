@@ -1,16 +1,16 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
+title: <strong>Darío</strong> Suárez Gracia
 description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: dario_jr.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Despacho 0.14</p>
+    <p>Ed. Ada Byron. C\ María de Luna 1</p>
+    <p>Zaragoza, España 50018</p>
 
 news: true
 social: true
