@@ -19,9 +19,14 @@ last_updated: # leave blank if you don't want to display last updated
 # -----------------------------------------------------------------------------
 github_username: dariosg # put your github username
 twitter_username: dariosugr # put your twitter username
+<<<<<<< HEAD
 linkedin_username: # put your linkedin username
 scholar_authorid: # put your google scholar author id
 orcid_id: # your ORCID ID
+=======
+linkedin_username: dariosuarezgracia # put your linkedin username
+scholar_authorid: GMN3oxEAAAAJ # put your google scholar author id
+>>>>>>> Added linkedin and google scholar
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
