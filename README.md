@@ -31,7 +31,17 @@ Now, feel free to customize the theme however you like (don't forget to change t
 After you are done, you can deploy it to [GitHub Pages](https://pages.github.com/) by running the deploy script:
 
 ```bash
-$ ./bin/deploy
+$ ./bin/deploy [--user]
+```
+By default, the script uses the `master` branch for the source code and deploys the webpage to `gh-pages`.
+The optional flag `--user` tells it to deploy to `master` and use `source` for the source code instead.
+Using `master` for deployment is a convention for [user and organization pages](https://help.github.com/articles/user-organization-and-project-pages/).
+
+**Note:** when deploying your user or organization page, make the `_config.yml` has `url` and `baseurl` fields as follows.
+
+```
+url: <your-username>.github.io
+baseurl:  # should be empty
 ```
 
 ## Features
