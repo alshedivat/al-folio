@@ -28,7 +28,8 @@ $ bundle exec jekyll serve
 ```
 
 Now, feel free to customize the theme however you like (don't forget to change the name!).
-After you are done, you can deploy it to [GitHub Pages](https://pages.github.com/) by running the deploy script:
+After you are done, **commit** your final changes.
+Now, you can deploy your website to [GitHub Pages](https://pages.github.com/) by running the deploy script:
 
 ```bash
 $ ./bin/deploy [--user]
