@@ -46,6 +46,22 @@ echo "Deploying..."
 echo "Source branch: $SRC_BRANCH"
 echo "Deploy branch: $DEPLOY_BRANCH"
 
+read -r -p "Do you want to proceed? [y/N] " response
+if [[ ! $response =~ ^([yY][eE][sS]|[yY])+$ ]]
+then
+    echo "Aborting."
+    [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
+fi
+
+# Check if there are any uncommitted changes
+if ! git diff-index --quiet HEAD --; then
+    echo "Changes to the following files are uncommitted:"
+    git diff-index --name-only HEAD --
+    echo "Please commit the changes before proceeding."
+    echo "Aborting."
+    [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
+fi
+
 # Switch to source branch (creates it if necessary from the current branch)
 if [ `git branch | grep $SRC_BRANCH | tr ' ' '\n' | tail -1` ]
 then
