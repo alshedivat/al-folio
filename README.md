@@ -41,7 +41,7 @@ Using `master` for deployment is a convention for [user and organization pages](
 **Note:** when deploying your user or organization page, make the `_config.yml` has `url` and `baseurl` fields as follows.
 
 ```
-url: <your-username>.github.io
+url: # should be empty
 baseurl:  # should be empty
 ```
 

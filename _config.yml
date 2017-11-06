@@ -24,6 +24,8 @@ scholar_authorid: # put your google scholar author id
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
+google_analytics: UA-XXXXXXXXX # out your google-analytics code
+
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
