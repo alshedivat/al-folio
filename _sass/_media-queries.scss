@@ -1,7 +1,13 @@
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
 @media screen and (min-width: $viewport-small) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 
   h1,
   .h1 {
