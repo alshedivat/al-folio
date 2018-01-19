@@ -30,6 +30,7 @@ $abbr-border-bottom: 1px black dotted;
 // Page width
 $measure-width: 42rem !default;
 
+
 // Viewport widths
 $viewport-small: 32em;
 $viewport-medium: 48em;
@@ -158,3 +159,6 @@ $img_spacing: 5px;
 $img-height: 275px;
 $caption-font-size: 12px;
 $caption-color: #aaa;
+
+/* add on-palm to be consistent with other jekyll theme media queries */
+$on-palm:  600px !default;
