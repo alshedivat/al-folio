@@ -1,61 +1,74 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: This page contains all subjects from current and past years
+title: docencia/teaching
+description: Esta página contiene información docente
 ---
 
-This page contains all subjects I have been teaching for the last years. If you
-are an enrolled student at the University of Zaragoza please log in
-[moodle](https://moodle2.unizar.es/add/) to get more information. Otherwise, please
-feel free to write me some lines.
+*The content of this page is in Spanish because my classes are taught in this
+language. Said that, if you are an international student, don't hesitate to
+contact me.*
 
-## Office Hours
+## horario de tutorías
 
-Spring semester 2017:
-* Monday 9 to 13
-* Tuesday 16 to 18
+Semestre de Otoño 2017:
+* Por definir
 
-For an appointment outside this hours please send me an email.
+Puedes enviarme un correo para quedar fuera de este horario.
 
-## Final Projects
+## trabajos fin de grado/master
 
-I'm always happy working with students on final degree project, so if you are
-interested in computer architecture, FPGAs, compilers, embedded systems,
-heterogeneous programming please drop me a few lines or stop by my office.
+Si te interesa la arquitectura de computadores, FPGAs, compiladores, sistemas
+embedidos, redes definidas por software, redes de interconexión, jerarquía de memoria, 
+aceleración de aplicaciones, ... por favor enviame un email o pásate por mi despacho.
 
-## Subjects
+## Asignaturas
+
+Esta es la lista de asignaturas impartidas en los últimos años. Si estas inscrito
+en alguna asignatura, por favor visita [moodle](https://moodle2.unizar.es/add/) para obtener información más detallada.
+
+### 2017/2018
+
+1. Master en Ingeniería Informática
+* Redes y Sistemas Distribuidos
+
+1. Grado en Ingeniería Informática
+* Proyecto Hardware
+* Garantía y Seguridad
+* Administración de Sistemas
 
 ### 2016/2017
 
-1. Master in Computer Science and Engineering
+1. Master en Ingeniería Informática
 * Redes y Sistemas Distribuidos
 
-1. Bachelor in Computer Science and Engineering
+1. Grado en Ingeniería Informática
 * Proyecto Hardware
 * Garantía y Seguridad
 * Administración de Sistemas
 
 ### 2015/2016
 
-Proyecto Hardware, Redes y Sistemas Distribuidos, Garantía y Seguridad
-y Administración de Sistemas
+1. Master en Ingeniería Informática
+* Redes y Sistemas Distribuidos
+
+1. Grado en Ingeniería Informática
+* Proyecto Hardware
+* Garantía y Seguridad
+* Administración de Sistemas
 
 ### 2011/2012
 
-TA in Computer Organization and Architecture I and Computer Organization and
-Architecture II. 
+Profesor ayudante en Arquitectura y Organización de Computadores I y II.
 
 ### 2010/2011
 
-TA in Computer Organization and Architecture. 
-
+Profesor ayudante en Arquitectura y Organización de Computadores (plan antiguo).
 
 ### 2009/2010
 
-TA in Computer Architecture.
+Profesor ayudante en Arquitectura y Organización de Computadores (plan antiguo).
 
 ### 2008/2009
 
-TA in Computer Architecture.
-
+Profesor ayudante en Arquitectura y Organización de Computadores (plan antiguo).

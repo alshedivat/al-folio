@@ -93,7 +93,7 @@ plugins:
 # Jekyll-Scholar
 scholar:
 
-  last_name: Einstein
+  last_name: Suarez Gracia
 
   style: apa
   locale: en

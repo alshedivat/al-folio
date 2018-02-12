@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Darío</strong> Suárez Gracia
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="http://webdiis.unizar.es/gaz/index.php">gaZ</a>, <a href="http://diis.unizar.es/">diis</a>, <a href="http://i3a.unizar.es/">i3a</a>,  <a href="http://www.unizar.es/">unizar</a>
 
 profile:
   align: right
@@ -16,8 +16,12 @@ news: true
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an Interim Associate Professor in the <a href="http://diis.unizar.es/">Computer Science and Engineering Department</a> 
+at the <a href="http://www.unizar.es/">Universidad de Zaragoza</a> in Spain. Before, I worked at Qualcomm Research Silicon Valley
+where my research focused on heterogeneous programming models. Please try our 
+<a href="https://developer.qualcomm.com/software/symphony-system-manager-sdk">Symphony Symphony System Manager</a>. Prior to that, I graduated from
+the <a href="http://www.unizar.es/">Universidad de Zaragoza</a> in 2011.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+[//]: # (the University of Zaragoza studied at the Universidad de Zaragoza and completed the last year of the degree and the final project at the EPFL Laussane under the supervision of Profs. [Laura Pozzi](http://www.inf.usi.ch/faculty/pozzi/) and [Paolo Ienne](https://people.epfl.ch/paolo.ienne) with a great Erasmus scholarship.)
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Please feel free to contact me for a detailed copy of my CV.
