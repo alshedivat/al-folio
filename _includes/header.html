@@ -5,7 +5,7 @@
     {% if page.layout != "about" %}
     <span class="site-title">
         {% assign name = site.name | split: ' ' %}
-        <strong>{{ name | first }}</strong> {{ name | last }}
+        <strong>{{ name | first }}</strong> {{ name[1] | append: ' ' | append: name[2] }}
     </span>
     {% endif %}
 
