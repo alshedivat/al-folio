@@ -18,7 +18,7 @@ social: true
 
 I am an Interim Associate Professor in the <a href="http://diis.unizar.es/">Computer Science and Engineering Department</a> 
 at the <a href="http://www.unizar.es/">Universidad de Zaragoza</a> in Spain. Before, I worked at Qualcomm Research Silicon Valley
-where my research focused on heterogeneous programming models. Please try our 
+where my research focused on heterogeneous programming models. Please try
 <a href="https://developer.qualcomm.com/software/symphony-system-manager-sdk">Symphony Symphony System Manager</a>. Prior to that, I graduated from
 the <a href="http://www.unizar.es/">Universidad de Zaragoza</a> in 2011.
 

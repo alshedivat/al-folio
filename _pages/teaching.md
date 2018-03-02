@@ -6,13 +6,14 @@ description: Esta página contiene información docente
 ---
 
 *The content of this page is in Spanish because my classes are taught in this
-language. Said that, if you are an international student, don't hesitate to
-contact me.*
+language, but if you are an international student please contact me.*
 
 ## horario de tutorías
 
-Semestre de Otoño 2017:
-* Por definir
+Semestre de Primavera 2017/2018:
+* Lunes, de 11:00 a 13:00 horas
+* Miércoles, de 9:30 a 11:30 horas
+* Jueves, de 15:00 a 17:00 horas 
 
 Puedes enviarme un correo para quedar fuera de este horario.
 
