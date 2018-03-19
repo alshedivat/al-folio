@@ -2,9 +2,13 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Materials for courses I have taught
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+I will be updated this with material from courses I have previously taught. Currently, however, this page only contains links to courses I am currently teaching. 
 
-Organize your courses by years, topics, or universities, however you like!
+#### University of Cambridge
+
+**PBS 2** Psychology methods: Introduction to Matlab course website [[link]](http://pbs2.mindsci.net)
+
+<!-- **PBS 3** Social and Developmental Psychology: Numerical cognition and educational neuroscience [link](http://pbs3.mindsci.net) -->
