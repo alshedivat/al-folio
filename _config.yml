@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "url:"
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
-url: http://webdiis.unizar.es/~dario # the base hostname & protocol for your site
+url: //webdiis.unizar.es/~dario # the base hostname & protocol for your site
 baseurl:   # the subpath of your site, e.g. /blog/
 last_updated: March 2, 2018 # leave blank if you don't want to display last updated
 
