@@ -78,6 +78,7 @@ include: ['_pages']
 
 # Gems
 gems:
+    - jekyll-email-protect
     - jekyll-paginate
     - jekyll/scholar
     - jemoji
@@ -110,5 +111,5 @@ scholar:
 # Other settings
 # -----------------------------------------------------------------------------
 jquery_version: "1.12.4"
-katex_version: "0.7.1"
+katex_version: "0.9.0"
 anchorjs_version: "3.2.2"
