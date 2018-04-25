@@ -15,12 +15,13 @@ baseurl: /al-folio # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
-# Social integration
+# Social integration: modify for your profiles or delete
 # -----------------------------------------------------------------------------
-github_username: # put your github username
-twitter_username: # put your twitter username
-linkedin_username: # put your linkedin username
-scholar_authorid: # put your google scholar author id
+github_username: alshedivat
+twitter_username: alshedivat
+linkedin_username: alshedivat
+scholar_userid: iUe4TdgAAAAJ
+orcid_id: 0000-0001-9037-1005
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
@@ -76,8 +77,8 @@ highlighter: pygments
 # Includes
 include: ['_pages']
 
-# Gems
-gems:
+# Plug-ins
+plugins:
     - jekyll-email-protect
     - jekyll-paginate
     - jekyll/scholar
