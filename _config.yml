@@ -15,13 +15,13 @@ baseurl: /al-folio # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
-# Social integration: modify for your profiles or delete
+# Social integration
 # -----------------------------------------------------------------------------
-github_username: alshedivat
-twitter_username: alshedivat
-linkedin_username: alshedivat
-scholar_userid: iUe4TdgAAAAJ
-orcid_id: 0000-0001-9037-1005
+github_username: # your GitHub user name
+twitter_username: # your Twitter handle
+linkedin_username: # your LinkedIn user name
+scholar_userid: # your Google Scholar ID
+orcid_id: # your ORCID ID
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
