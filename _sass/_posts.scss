@@ -41,6 +41,9 @@
         //     font-size: 18px;
         // }
     }
+	p {
+		text-align: $p-align;
+	}
 }
 .post-meta {
     color: $grey-color;

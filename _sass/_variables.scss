@@ -26,6 +26,7 @@ $h00-responsive-max: 7.68rem !default;
 $h0-responsive-max: 5.76rem !default;
 $h1-responsive-max: 3.84rem !default;
 $abbr-border-bottom: 1px black dotted;
+$p-align: justify;
 
 // Page width
 $measure-width: 42rem !default;
@@ -54,6 +55,8 @@ $purple:            #B509AC !default;
 $pink:              #f92080 !default;
 $light-pink:        #ffdddd !default;
 $yellow:            #efcc00 !default;
+$dd-purple:	        #7E317B !default;
+$dl-purple:	        #D8ACE0 !default;
 
 $white:             #fff !default;
 $dark-gray:         #333 !default;
@@ -159,6 +162,7 @@ $img_spacing: 5px;
 $img-height: 275px;
 $caption-font-size: 12px;
 $caption-color: #aaa;
+$portfolio-picture-rounding: 0%;
 
 /* add on-palm to be consistent with other jekyll theme media queries */
 $on-palm:  600px !default;

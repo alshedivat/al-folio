@@ -1,7 +1,9 @@
 .left {
   float: left;
+   margin-right: $horizontal-spacing-unit;
 }
 
 .right {
   float: right;
+  margin-left: $horizontal-spacing-unit;
 }

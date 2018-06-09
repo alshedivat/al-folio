@@ -1,8 +1,11 @@
 <footer>
 
-  <div class="wrapper">
+  <div class="wrapper center">
     &copy; Copyright {{ site.time | date: '%Y' }} {{ site.name }}.
     {{ site.footer_text }}
+	{% if site.pagehost != blank %}
+		Hosted by <a href="{{ site.pagehosturl }}">{{ site.pagehost }}</a>
+	{% endif %}
     {% if site.last_updated %}
         Last updated: {{ site.last_updated }}.
     {% endif %}

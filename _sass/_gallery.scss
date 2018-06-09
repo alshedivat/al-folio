@@ -6,7 +6,6 @@ figcaption {
     font-size: $small-font-size;
 }
 
-
 .blankbox {
     background: $theme-color;
 }
@@ -19,7 +18,6 @@ figcaption {
 .col {
     width: 100%;
     height: 100%;
-    float: left;
     object-fit: cover;
     box-sizing:border-box;
     padding: $img-spacing;
