@@ -11,7 +11,7 @@ profile:
     <p>Office: CM337</p>
     <p>Tel: +44 (0)191 33 <b>43116</b></p>
 
-news: false
+news: true
 social: true
 ---
 

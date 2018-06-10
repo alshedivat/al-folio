@@ -78,6 +78,9 @@ highlighter: pygments
 # Includes
 include: ['_pages']
 
+# Excludes
+exclude: ['_posts','_projects','_bibliography','_pages/teaching.md','_pages/publications.md','_pages/projects.md']
+
 # Plug-ins
 plugins:
     - jekyll-email-protect

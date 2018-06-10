@@ -1,8 +1,8 @@
 <div class="news">
   <h2>news</h2>
-  {% if site.news  %}
+  {% if site.news %}
     <table>
-    {% assign news = site.news | reverse %}
+    {% assign news = site.news | sort: 'date' | reverse %}
     {% for item in news limit: site.news_limit %}
       <tr>
         <td class="date">{{ item.date | date: "%b %-d, %Y" }}</td>
@@ -10,7 +10,7 @@
           {% if item.inline %}
             {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
           {% else %}
-            <a class="news-title" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+            <a class="news-title" href="{{ item.url | prepend: site.baseurl }}">{{ item.title | emojify }}</a>
           {% endif %}
         </td>
       </tr>
