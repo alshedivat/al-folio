@@ -1,23 +1,25 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: <strong>Sam</strong> Fearn
+description: <a href="https://www.dur.ac.uk/mathematical.sciences/">Durham Mathematics Department.</a><br><a href="https://www.dur.ac.uk/cpt/">Centre for Particle Theory.</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_pic_square.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Office: CM337</p>
+    <p>Tel: +44 (0)191 33 <b>43116</b></p>
 
 news: true
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm currently a Teaching Fellow in the Department of Mathematical Sciences at Durham University and a member of the Centre for Particle Theory. Before this teaching post, I studied for my Ph.D. at Durham University under the supervision of [Anne Taormina] and completed this in 2018 with a thesis entitled 'Supersymmetric Sigma Models And Their Indices'.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Working with [Anne Taormina] and [Xin Tang], I am interested in string and conformal field theory, 2d superconformal algebras and their representations as well as Moonshine and related topics.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Aside from mathematics, I'm interested in computing and technology, gaming and climbing.
+
+[Anne Taormina]:https://www.dur.ac.uk/mathematical.sciences/people/profile/?id=1632
+[Xin Tang]:https://www.dur.ac.uk/mathematical.sciences/people/profile/?id=12357
