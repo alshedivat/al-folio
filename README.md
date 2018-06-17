@@ -46,7 +46,7 @@ url: # should be empty
 baseurl:  # should be empty
 ```
 
-### Usage ###
+### Usage
 
 Note that `_pages/about.md` is built to index.html in the published site. There is therefore no need to have a separate index page for the project. If an index page does exist in the root directory then this will prevent `_pages/about.md` from being added to the built site.
 
