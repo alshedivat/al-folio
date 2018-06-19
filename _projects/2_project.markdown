@@ -49,7 +49,7 @@ You can also put regular text between your rows of images. Say you wanted to wri
 
 The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
 
-    <div class="img_row">
-      <img class="col two left" src="/img/6.jpg"/>
-      <img class="col one left" src="/img/11.jpg"/>
-    </div>
+<div class="img_row">
+    <img class="col two left" src="/img/6.jpg"/>
+    <img class="col one left" src="/img/11.jpg"/>
+</div>
