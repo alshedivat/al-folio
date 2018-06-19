@@ -74,8 +74,9 @@ news_limit: 5
 markdown: kramdown
 highlighter: pygments
 
-# Includes
+# Includes & excludes
 include: ['_pages']
+exclude: [vendor]
 
 # Plug-ins
 plugins:
