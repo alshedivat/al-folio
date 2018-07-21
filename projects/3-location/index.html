@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Susheel Suresh</title>
+  <title>Susheel Suresh | Differential Privacy</title>
   <meta name="description" content="My personal website and blog
 ">
 
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/blog/">
+  <link rel="canonical" href="/projects/3-location/">
 </head>
 
 
@@ -86,30 +86,38 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="header-bar">
-  <!---<h1></h1>-->
-  <h2>Motorcycles and Music</h2>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Differential Privacy</h1>
+    <h5 class="post-description">Experiments on how semantics affect Location Privacy</h5>
+  </header>
+
+  <article class="post-content Differential Privacy clearfix">
+    <p>
+<a target="_blank" href="https://github.com/susheels/libqif/tree/master/samples/semantic"><strong>code</strong></a> 
+</p>
+
+<p><strong>Abstract</strong></p>
+
+<p align="justify">
+    We study the effects of an adversary using semantic information for constructing his priors and statergy, on the user's privacy. For the study, we assume that the adversary obtains the semantic meaning of the users actual location from some side channel and uses it to chart out 'informed' priors which will reduce his loss. The Side Channel in this case could be any geosocial networking application like Twitter, Facebook, Foursquare, Yelp, etc. The adversary makes use of this semantic meaning inferred from a side channel to obtain Location Types. Location Types are a class of broad labels for POIs, for eg., Restaturant, Train Station, Govt. Office, Park, Airport, Theater, etc. With this locatin type, the adversary then constructs global and user priors from the datasets. For eg., if the semantic label inferred from the side channel was 'Park', then the adversary would use this label and query all POIs from the dataset which have a label 'Park' and then construct his priors, rather than just considering all the POIs. These priors of POIs with 'Park' label will give the adversary a general sense of users possible locations in the respective region defined by the dataset. With the help of these global and user priors from location based datasets, the adversary creates an effective remapping strategy.
+</p>
+
+<div class="img_row">
+    <img class="col three" src="/assets/img/semantic.PNG" alt="" title="Pipeline" />
+</div>
+<div class="col three caption">
+    Adversary Error vs Locaion Semantics (top) . Location map of New York, Paris and Tokyo used (bottom). 
 </div>
 
+  </article>
 
-<ul class="post-list">
   
-    <li>
-      <h2><a class="post-title" href="/blog/2018/ton2018/">Tour of Nepal</a></h2>
-      <p class="post-meta">May 1, 2018</p>
-      <p>Exploring Nepal on my Royal Enfield</p>
-    </li>
+
   
-    <li>
-      <h2><a class="post-title" href="/blog/2018/music-1/">Carnatic Music on the Guitar</a></h2>
-      <p class="post-meta">January 1, 2018</p>
-      <p>Resources for playing carnatic music on the guitar</p>
-    </li>
-  
-</ul>
 
-
-
+</div>
 
       </div>
     </div>

@@ -1,6 +1,0 @@
----
-layout: post
-title:  Carnatic Music on the Guitar
-date:   2018-01-01 
-description: Resources for playing carnatic music on the guitar
----
