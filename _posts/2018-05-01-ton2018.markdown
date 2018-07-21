@@ -1,0 +1,6 @@
+---
+layout: post
+title:  Tour of Nepal
+date:   2018-05-01
+description: Exploring Nepal on my Royal Enfield
+---

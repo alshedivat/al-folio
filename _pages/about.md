@@ -1,23 +1,28 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: <strong>Susheel</strong> Suresh
+description: Engineering @ <a href="https://adobe.com">Adobe</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: profile_pic.jpg
+  address:     
+    
+
+    <p>susuresh@adobe.com</p> 
 
 news: true
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<p align="justify">
+<strong>Currently,</strong> I work as a <strike> Product Intern</strike> Member of Technical Staff at Adobe Systems, Bangalore. I use NLP and Deep Learning techniques for solving digital marketing problems.
+</p>
+<p align="justify">
+I recently finished my undergradute studies in Computer Science at <a href="http://www.pes.edu/">P.E.S Institute of Technology</a>. Was a student researcher at the <a href="http://pes.edu/research/cloud-computing-big-data/">Centre for Cloud Computing and Big Data (CCBD)</a> during my undergrad days.
+</p>
+<p align="justify">
+Previously, I worked as a research intern at <a href="https://www.inria.fr/en/">INRIA</a>, Paris with <a href="http://www.lix.polytechnique.fr/~catuscia/">Prof. Catuscia Palamidessi</a> and in the summer of 2015, I was a summer research fellow at <a href="http://www.iitb.ac.in/">IIT Bombay</a> under <a href="">Prof. R.K Shyamasundar</a>. I have also spent time as a student intern at Nokia Developer Lab, Bangalore. I am fortunate to have had the guidance of <a href="http://www.lix.polytechnique.fr/~kostas/">Kostas Chatzikokolakis</a> (CNRS) and <a href="http://www.idrbt.ac.in/nvnaren.html">Narendra Kumar</a> (TIFR) during my research internships.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+</p>
