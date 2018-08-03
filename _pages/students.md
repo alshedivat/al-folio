@@ -58,7 +58,7 @@ I have the pleasure of working with the following terrific students.
 
 #### Tutor for exchange programs
 
-* Isak Edo Vivancos, 2018 (DTU, Denmark
+* Isak Edo Vivancos, 2018 (DTU, Denmark)
 * Alexandra Ferrerón Labari, 2011 (EPFL, Switzerland)
 
 If you are interested in working on these topics computer architecture,
