@@ -4,13 +4,13 @@
 name: Darío Suárez Gracia
 email: dario@unizar.es
 description: > # this means to ignore newlines until "url:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+    A simple webpage for Darío Suárez Gracia. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
 url: //webdiis.unizar.es/~dario # the base hostname & protocol for your site
 baseurl:   # the subpath of your site, e.g. /blog/
-last_updated: March 2, 2018 # leave blank if you don't want to display last updated
+last_updated: July 31, 2018 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Social integration

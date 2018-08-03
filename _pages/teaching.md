@@ -10,23 +10,32 @@ language, but if you are an international student please contact me.*
 
 ## horario de tutorías
 
-Semestre de Primavera 2017/2018:
-* Lunes, de 11:00 a 13:00 horas
-* Miércoles, de 9:30 a 11:30 horas
-* Jueves, de 15:00 a 17:00 horas 
+Semestre de Otoño 2018/2019:
+* Horarios por determinar
 
 Puedes enviarme un correo para quedar fuera de este horario.
 
 ## trabajos fin de grado/master
 
 Si te interesa la arquitectura de computadores, FPGAs, compiladores, sistemas
-embedidos, redes definidas por software, redes de interconexión, jerarquía de memoria, 
+embedidos, redes definidas por software, redes de interconexión, jerarquía de memoria,
 aceleración de aplicaciones, ... por favor enviame un email o pásate por mi despacho.
 
 ## Asignaturas
 
 Esta es la lista de asignaturas impartidas en los últimos años. Si estas inscrito
 en alguna asignatura, por favor visita [moodle](https://moodle2.unizar.es/add/) para obtener información más detallada.
+
+### 2018/2019
+
+1. Master en Ingeniería Informática
+* Redes y Sistemas Distribuidos
+
+1. Grado en Ingeniería Informática
+* Proyecto Hardware
+* Garantía y Seguridad
+* Administración de Sistemas
+* Redes de Computadores
 
 ### 2017/2018
 
