@@ -1,64 +1,77 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@InProceedings{malaviya-neubig-littell:2017:EMNLP2017,
+  author = {Malaviya, Chaitanya  and  Neubig, Graham  and  Littell, Patrick},
+  title  = {Learning Language Representations for Typology Prediction},
+  booktitle = {Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing},
+  month = {September},
+  year = {2017},
+  address = {Copenhagen, Denmark},
+  publisher = {Association for Computational Linguistics},
+  pages = {2529--2535},
+  abstract = {One central mystery of neural NLP is what neural models "know" about their
+subject matter. When a neural machine translation system learns to translate
+from one language to another, does it learn the syntax or semantics of the
+languages? Can this knowledge be extracted from the system to fill holes in
+human scientific knowledge? Existing typological databases contain relatively
+full feature specifications for only a few hundred languages. Exploiting the
+existence of parallel texts in more than a thousand languages, we build a
+massive many-to-one NMT system from 1017 languages into English, and use this
+to predict information missing from typological databases. Experiments show
+that the proposed method is able to infer not only syntactic, but also
+phonological and phonetic inventory features, and improves over a baseline that
+has access to information about the languages geographic and phylogenetic
+neighbors.},
+  url       = {https://www.aclweb.org/anthology/D17-1268}
 }
 
-@article{einstein1950meaning,
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@article{neubig17dynet,
+  title = {DyNet: The Dynamic Neural Network Toolkit},
+  author = {Graham Neubig and Chris Dyer and Yoav Goldberg and Austin Matthews and Waleed Ammar and Antonios Anastasopoulos and Miguel Ballesteros and David Chiang and Daniel Clothiaux and Trevor Cohn and Kevin Duh and Manaal Faruqui and Cynthia Gan and Dan Garrette and Yangfeng Ji and Lingpeng Kong and Adhiguna Kuncoro and Gaurav Kumar and Chaitanya Malaviya and Paul Michel and Yusuke Oda and Matthew Richardson and Naomi Saphra and Swabha Swayamdipta and Pengcheng Yin},
+  journal = {ArXiv},
+  month = {January},
+  url = {https://arxiv.org/abs/1701.03980},
+  abstract = {We describe DyNet, a toolkit for implementing neural network models based on dynamic declaration of network structure. In the static declaration strategy that is used in toolkits like Theano, CNTK, and TensorFlow, the user first defines a computation graph (a symbolic representation of the computation), and then examples are fed into an engine that executes this computation and computes its derivatives. In DyNet's dynamic declaration strategy, computation graph construction is mostly transparent, being implicitly constructed by executing procedural code that computes the network outputs, and the user is free to use different network structures for each input. Dynamic declaration thus facilitates the implementation of more complicated network architectures, and DyNet is specifically designed to allow users to implement their models in a way that is idiomatic in their preferred programming language (C++ or Python). One challenge with dynamic declaration is that because the symbolic computation graph is defined anew for every training example, its construction must have low overhead. To achieve this, DyNet has an optimized C++ backend and lightweight graph representation. Experiments show that DyNet's speeds are faster than or comparable with static declaration toolkits, and significantly faster than Chainer, another dynamic declaration toolkit. DyNet is released open-source under the Apache 2.0 license.}
+  year = {2017}
 }
 
-@article{PhysRev.47.777,
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777}
+@InProceedings{P18-2059,
+  author = 	"Malaviya, Chaitanya
+and Ferreira, Pedro
+and Martins, Andr{\'e} F. T.",
+  title = 	"Sparse and Constrained Attention for Neural Machine Translation",
+  booktitle = 	"Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics",
+  year = 	"2018",
+  publisher = 	"Association for Computational Linguistics",
+  pages = 	"370--376",
+  location = 	"Melbourne, Australia",
+  url = 	"http://aclweb.org/anthology/P18-2059"
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@InProceedings{malaviya-gormley-neubig:2018:Long,
+  author    = {Malaviya, Chaitanya  and  Gormley, Matthew R.  and  Neubig, Graham},
+  title     = {Neural Factor Graph Models for Cross-lingual Morphological Tagging},
+  booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
+  month     = {July},
+  year      = {2018},
+  address   = {Melbourne, Australia},
+  publisher = {Association for Computational Linguistics},
+  pages     = {2653--2663},
+  abstract  = {Morphological analysis involves predicting the syntactic traits of a word (e.g. {POS: Noun, Case: Acc, Gender: Fem}). Previous work in morphological tagging improves performance for low-resource languages (LRLs) through cross-lingual training with a high-resource language (HRL) from the same family, but is limited by the strict, often false, assumption that tag sets exactly overlap between the HRL and LRL. In this paper we propose a method for cross-lingual morphological tagging that aims to improve information sharing between languages by relaxing this assumption. The proposed model uses factorial conditional random fields with neural network potentials, making it possible to (1) utilize the expressive power of neural network representations to smooth over superficial differences in the surface forms, (2) model pairwise and transitive relationships between tags, and (3) accurately generate tag sets that are unseen or rare in the training data. Experiments on four languages from the Universal Dependencies Treebank demonstrate superior tagging accuracies over existing cross-lingual approaches.},
+  url       = {http://www.aclweb.org/anthology/P18-1247}
 }
 
-@article{einstein1905movement,
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{prabhumoye2017building,
+  title={Building CMU Magnus from User Feedback},
+  author={Prabhumoye, Shrimai and Botros, Fadi and Chandu, Khyathi and Choudhary, Samridhi and Keni, Esha and Malaviya, Chaitanya and Manzini, Thomas and Pasumarthi, Rama and Poddar, Shivani and Ravichander, Abhilasha and others},
+  journal={Alexa Prize Proceedings},
+  year={2017}
+  abstract = {Recent years have seen a surge in consumer usage of spoken dialog systems, due
+to the popularity of voice assistants. While these systems are capable of answering
+factual questions or executing basic tasks, they do not yet have the capability
+to hold multi-turn conversations. The Alexa Prize challenge provides us a great
+opportunity to explore various approaches and dialog strategies for building a
+multi-turn conversational agent. In this report we identify key challenges to build
+a social conversational dialog system, and present CMU Magnus, an intelligent
+interactive spoken dialog system that can hold conversations over a range of topics.
+The system learns and updates itself over time, and can handle argumentative or
+subjective conversations.}
 }
