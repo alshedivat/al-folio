@@ -1,10 +1,10 @@
 ---
 layout: post
-title: A llong announcement with details
-date: 2015-11-07 16:11:00-0400
+title: <a href="http://localhost:4000/al-folio/blog/2018/commonsense/" target="_blank">New blog post on research in common sense reasoning</a>
+date: 2018-08-14 16:11:00-0400
 inline: false
 ---
-
+HALALA
 Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
 
 ***

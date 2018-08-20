@@ -22,16 +22,15 @@ twitter_username: cmalaviya11 # your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: s3MzzwwAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
-contact_note: >
-  Best to contact me via email.
+contact_note: #
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: al-folio
-blog_description: a simple whitespace theme for academics
+blog_name: La Blogothèque
+blog_description: Richard Feynman- "The ultimate test of your knowledge is your capacity to convey it to another."
 
 # Pagination
 paginate: 4
@@ -63,6 +62,9 @@ collections:
   projects:
     output: true
     permalink: /_projects/:path/
+  photos:
+    output: true
+    permalink: /_photos/:path/
 
 news_limit: 5
 
@@ -94,7 +96,7 @@ scholar:
   locale: en
 
   sort_by: year
-  order: ascending
+  order: descending
 
   source: /_bibliography/
   bibliography: papers.bib

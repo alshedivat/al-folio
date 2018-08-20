@@ -8,28 +8,22 @@
 
     .thumbnail {
         overflow: hidden;
-        height: 0;
+        height: 200px;
         width: 100%;
-        padding-right: 2%; 
-        padding-left: 2%; 
-        padding-bottom: 100%;
 
         img {
             height: auto;
             position: relative;
-            left: 0%;
-            top: 0%;
-            width: 100%;
-            padding-top: 0%; 
-            padding-bottom: 0%;
+                left: -25%;
+                top: -5%;
+            width: 500px;
         }
 
         a {
             float: left;
+            height: 230px;
             position: relative;
             width: 100%;
-            padding-top: 0%; 
-            padding-bottom: 0%;
 
             span {
                 display: none;
@@ -38,29 +32,17 @@
                 left: 0;
                 bottom: 0;
                 right: 0;
-                background: rgba(0,0,0,0.5);
+                background: rgba(0,0,0,0.4);
                 color: $grey-color-light;
-                padding-right: 15%; 
-                padding-left: 15%; 
-                padding-bottom: 15%; 
-                padding-top: 5%;
+                padding: 40px;
                 text-align: center;
 
                 h1 {
-                    font-size: 1.5em;
+                    font-size: 1.5rem;
                     margin: 0;
-                    padding-right: 5%; 
-                    padding-left: 5%; 
-                    padding-top: 1em; 
-                    padding-bottom: 0em;
                 }
 
                 p {
-                    font-size: 1em;
-                    padding-right: 5%; 
-                    padding-left: 5%; 
-                    padding-top: 0.5em; 
-                    padding-bottom: 1em;
                     color: $grey-color-light;
                 }
             }

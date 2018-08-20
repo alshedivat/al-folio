@@ -1,0 +1,7 @@
+---
+layout: post
+title: are  we testing
+date: 2018-10-15 11:59:00-0400
+description: we are testing
+---
+Eso un testo

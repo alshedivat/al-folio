@@ -1,0 +1,9 @@
+---
+layout: post
+title: can elephants fly? 
+date: 2018-10-20 11:59:00-0400
+description: review of the current state of common sense reasoning
+comments: true
+---
+
+When we think of

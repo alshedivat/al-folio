@@ -13,7 +13,7 @@
   {% if entry.type == "thesis" %}
     {{reference}}
   {% else %}
-    <span class="title">{{entry.title}}</span>
+    <span class="title"><a href="{{entry.url}}">{{entry.title}}</a></span>
     <span class="author">
       {% for author in entry.author_array %}
         {% unless forloop.last %}
@@ -55,7 +55,16 @@
 
   <span class="links">
   {% if entry.abstract %}
-    [<a class="abstract">Abs</a>]
+    [<a class="abstract">Abstract</a>]
+  {% endif %}
+  {% if entry.slides %}
+    [<a class="slides" href="{{entry.slides}}">Slides</a>]
+  {% endif %}
+  {% if entry.video %}
+    [<a class="video" href="{{entry.video}}">Video</a>]
+  {% endif %}
+  {% if entry.poster %}
+    [<a class="poster" href="{{entry.poster}}">Poster</a>]
   {% endif %}
   {% if entry.arxiv %}
     [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
@@ -68,12 +77,6 @@
   {% endif %}
   {% if entry.supp %}
     [<a href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Supp</a>]
-  {% endif %}
-  {% if entry.poster %}
-    [<a href="{{ entry.poster | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Poster</a>]
-  {% endif %}
-  {% if entry.slides %}
-    [<a href="{{ entry.slides | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Slides</a>]
   {% endif %}
   {% if entry.code %}
     [<a href="{{ entry.code }}" target="_blank">Code</a>]

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: Some projects I am proud of [Soon to be updated]
+title: photos
+permalink: /photos/
+description: Travel is a friend.
 ---
 
-{% for project in site.projects %}
+{% for project in site.photos %}
 
 {% if project.redirect %}
 <div class="project">

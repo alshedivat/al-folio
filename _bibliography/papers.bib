@@ -20,7 +20,8 @@ that the proposed method is able to infer not only syntactic, but also
 phonological and phonetic inventory features, and improves over a baseline that
 has access to information about the languages geographic and phylogenetic
 neighbors.},
-  url       = {https://www.aclweb.org/anthology/D17-1268}
+  url       = {https://www.aclweb.org/anthology/D17-1268},
+  poster    = {https://drive.google.com/open?id=1MJPG8zh6Ub0plWS7J3O-h1aPlayEOuxV}
 }
 
 @article{neubig17dynet,
@@ -29,7 +30,7 @@ neighbors.},
   journal = {ArXiv},
   month = {January},
   url = {https://arxiv.org/abs/1701.03980},
-  abstract = {We describe DyNet, a toolkit for implementing neural network models based on dynamic declaration of network structure. In the static declaration strategy that is used in toolkits like Theano, CNTK, and TensorFlow, the user first defines a computation graph (a symbolic representation of the computation), and then examples are fed into an engine that executes this computation and computes its derivatives. In DyNet's dynamic declaration strategy, computation graph construction is mostly transparent, being implicitly constructed by executing procedural code that computes the network outputs, and the user is free to use different network structures for each input. Dynamic declaration thus facilitates the implementation of more complicated network architectures, and DyNet is specifically designed to allow users to implement their models in a way that is idiomatic in their preferred programming language (C++ or Python). One challenge with dynamic declaration is that because the symbolic computation graph is defined anew for every training example, its construction must have low overhead. To achieve this, DyNet has an optimized C++ backend and lightweight graph representation. Experiments show that DyNet's speeds are faster than or comparable with static declaration toolkits, and significantly faster than Chainer, another dynamic declaration toolkit. DyNet is released open-source under the Apache 2.0 license.}
+  abstract = {We describe DyNet, a toolkit for implementing neural network models based on dynamic declaration of network structure. In the static declaration strategy that is used in toolkits like Theano, CNTK, and TensorFlow, the user first defines a computation graph (a symbolic representation of the computation), and then examples are fed into an engine that executes this computation and computes its derivatives. In DyNet's dynamic declaration strategy, computation graph construction is mostly transparent, being implicitly constructed by executing procedural code that computes the network outputs, and the user is free to use different network structures for each input. Dynamic declaration thus facilitates the implementation of more complicated network architectures, and DyNet is specifically designed to allow users to implement their models in a way that is idiomatic in their preferred programming language (C++ or Python). One challenge with dynamic declaration is that because the symbolic computation graph is defined anew for every training example, its construction must have low overhead. To achieve this, DyNet has an optimized C++ backend and lightweight graph representation. Experiments show that DyNet's speeds are faster than or comparable with static declaration toolkits, and significantly faster than Chainer, another dynamic declaration toolkit. DyNet is released open-source under the Apache 2.0 license.},
   year = {2017}
 }
 
@@ -43,7 +44,9 @@ and Martins, Andr{\'e} F. T.",
   publisher = 	"Association for Computational Linguistics",
   pages = 	"370--376",
   location = 	"Melbourne, Australia",
-  url = 	"http://aclweb.org/anthology/P18-2059"
+  abstract = {"In NMT, words are sometimes dropped from the source or generated repeatedly in the translation. We explore novel strategies to address the coverage problem that change only the attention transformation. Our approach allocates fertilities to source words, used to bound the attention each word can receive. We experiment with various sparse and constrained attention transformations and propose a new one, constrained sparsemax, shown to be differentiable and sparse. Empirical evaluation is provided in three languages pairs."},
+  url = 	"http://aclweb.org/anthology/P18-2059",
+  slides = "https://drive.google.com/open?id=1MrZQ1c69nygzt5duaGMKh8oZAH-HjErY"
 }
 
 @InProceedings{malaviya-gormley-neubig:2018:Long,
@@ -56,14 +59,16 @@ and Martins, Andr{\'e} F. T.",
   publisher = {Association for Computational Linguistics},
   pages     = {2653--2663},
   abstract  = {Morphological analysis involves predicting the syntactic traits of a word (e.g. {POS: Noun, Case: Acc, Gender: Fem}). Previous work in morphological tagging improves performance for low-resource languages (LRLs) through cross-lingual training with a high-resource language (HRL) from the same family, but is limited by the strict, often false, assumption that tag sets exactly overlap between the HRL and LRL. In this paper we propose a method for cross-lingual morphological tagging that aims to improve information sharing between languages by relaxing this assumption. The proposed model uses factorial conditional random fields with neural network potentials, making it possible to (1) utilize the expressive power of neural network representations to smooth over superficial differences in the surface forms, (2) model pairwise and transitive relationships between tags, and (3) accurately generate tag sets that are unseen or rare in the training data. Experiments on four languages from the Universal Dependencies Treebank demonstrate superior tagging accuracies over existing cross-lingual approaches.},
-  url       = {http://www.aclweb.org/anthology/P18-1247}
+  url       = {http://www.aclweb.org/anthology/P18-1247},
+  video     = {https://www.youtube.com/watch?v=5jrDzqOFjBs},
+  slides    = {https://drive.google.com/open?id=1y_CBpyYAr0eV3oOi_5Eu0oNB2StK47Gj}
 }
 
 @article{prabhumoye2017building,
   title={Building CMU Magnus from User Feedback},
   author={Prabhumoye, Shrimai and Botros, Fadi and Chandu, Khyathi and Choudhary, Samridhi and Keni, Esha and Malaviya, Chaitanya and Manzini, Thomas and Pasumarthi, Rama and Poddar, Shivani and Ravichander, Abhilasha and others},
   journal={Alexa Prize Proceedings},
-  year={2017}
+  year={2017},
   abstract = {Recent years have seen a surge in consumer usage of spoken dialog systems, due
 to the popularity of voice assistants. While these systems are capable of answering
 factual questions or executing basic tasks, they do not yet have the capability
@@ -73,5 +78,14 @@ multi-turn conversational agent. In this report we identify key challenges to bu
 a social conversational dialog system, and present CMU Magnus, an intelligent
 interactive spoken dialog system that can hold conversations over a range of topics.
 The system learns and updates itself over time, and can handle argumentative or
-subjective conversations.}
+subjective conversations.},
+  url={https://s3.amazonaws.com/alexaprize/2017/technical-article/magnus.pdf}
+}
+
+@article{malaviya2016recsys,
+    title={Recommender System for Events with Hybrid Filtering and Ensemble Machine Learning},
+    author={Malaviya, Chaitanya},
+    year={2016},
+    type={thesis},
+    journal={Bachelors' Thesis, Nanyang Technological University}
 }

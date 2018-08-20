@@ -1,7 +1,6 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2018-07-15 07:59:00-0400
 inline: true
 ---
-
-A simple inline announcement with Markdown emojiji! :sparkles: :smile:
+Attending ACL 2018 in Melbourne, Australia! :airplane:

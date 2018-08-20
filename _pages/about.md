@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Chaitanya</strong> Malaviya
-description: <a href="">Affiliations</a>. Carnegie Mellon University.
+description: <a href="http://www.cmu.edu">Carnegie Mellon University</a>.
 
 profile:
   align: right
@@ -15,9 +15,8 @@ news: true
 social: true
 ---
 
-Hello and welcome! I am a recently graduated student from the Language Technologies Institute, Carnegie Mellon University. I am joining the [Allen Institute of Artificial Intelligence](https://allenai.org){:target="\_blank"}.
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I recently graduated from the Masters of Science in Language Technologies (MLT) program at the Language Technologies Institute, School of Computer Science, Carnegie Mellon University. I am joining the [Allen Institute of Artificial Intelligence](https://allenai.org){:target="\_blank"} this coming fall!
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+At CMU, I worked at [Neulab](https://cs.cmu.edu/~neulab) with Professor [Graham Neubig](http://phontron.com) and collaborated with some other amazing professors and students. My research interests include neural machine translation, multilingual models, deep structured prediction and graphical models. I am awesome, did you know that? I am totally awesome. I am so awesome that my mama says I'm awesome. So I must be awesome and you'd better believe that.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Besides research, I like hiking, exploring (and getting lost) in new cities, music and learning languages.
