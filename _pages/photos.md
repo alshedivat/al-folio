@@ -2,7 +2,7 @@
 layout: page
 title: photos
 permalink: /photos/
-description: Travel is a friend.
+description: Photographs from my travels
 ---
 
 {% for project in site.photos %}

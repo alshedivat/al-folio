@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <a href="http://localhost:4000/al-folio/blog/2018/commonsense/" target="_blank">New blog post on research in common sense reasoning</a>
+title: <a href="http://localhost:4000/al-folio/blog/2018/commonsense-coming/" target="_blank">New blog post on research in common sense reasoning</a>
 date: 2018-08-14 16:11:00-0400
 inline: false
 ---
