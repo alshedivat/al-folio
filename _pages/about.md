@@ -24,4 +24,4 @@ and linguistics. Of late, I have been interested in hybrid models of probabilist
 My email is `cmalaviy@cs.cmu.edu`. I'm always happy to discuss research, or just brainstorm ideas.
 <br>
 
-Besides research, I like hiking, exploring (and getting lost) in new cities, music and learning languages (both human and computer). Check out some photos from my travels on the Photos section of this website.
+Besides research, I like hiking, exploring (and getting lost) in new cities, music and learning languages (both human and computer). Check out some [photos](photos.md) from my travels.
