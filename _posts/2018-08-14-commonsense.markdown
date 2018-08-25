@@ -22,6 +22,19 @@ Common sense reasoning has long been a well sought after goal for artificial int
 
 Before we get into the complexities of this topic, lets try to understand if common sense really is important for the models that we build these days. John McCarthy once said in an interview, "Purely computational programs don't require common sense." That sounds completely reasonable, you wouldn't imagine a chess program needing to reason about the mental states of its opponent. It could model those processes into the decision making, but there is no evidence that it would benefit from this. On the other hand, models that perform natural language generation can conceivably benefit from common sense facts about the world. We would like to ensure that the text we generate abides by common sensen concepts, thereby also reducing our hypothesis space by a large extent. We haven't actually discussed what common sense encapsulates. It's a loosely defined phrase, but lets define it as the *ability of human beings to perceive real-world objects and situations, and make inferences of varying complexities, often relying on background knowledge about the world*. It is important to note here that this ability in humans is tied strongly with what we speak and how we behave. It appears that a large chunk of work in this area has focused on the **representation** of common sense facts, sometimes ignoring the need for this knowledge to usable by reasoning and generation models.
 
+A certain kind of reasoning which requires us to use knowledge about the world.
+
+Not just useful with language, but with vision, and multiple modalities (and their combinations thereof).  
+
+#### Steps so far
+
+Taxonomic Reasoning - reasoning over hierarchical databases like WordNet created by mining the web. Several different relation types can be queried in such databases -- symmetry, transitivity, and reflexiveness. This form of reasoning is limited by the amount of knowledge that can be encoded in these databases as well as the difficulty of representing abstraction relation types in the database.
+Temporal Reasoning - Reasoning about the relative times between occurrence of multiple events 
+Qualitative Reasoning - Analyzing cause and effect between events
+
+Knowledge-based approaches that perform reasoning over knowledge graphs, machine learning based models that learn based on a large corpus of data, and crowdsourcing models
+Among knowledge-based approaches, there is web mining like NELL
+
 #### Challenges associated with common sense induction
 
 Semantic networks that encode relationships between entities (or classes of entities). The Google Knowledge Graph that they use for search is an example of this.
@@ -30,7 +43,7 @@ Ideas considered seminal are the conception of the OpenCyc project and the NELL 
 
 #### Recent Work: Mental state prediction, RC using common-sense knowledge 
 
-SemEval Task 11 for machine reading with common sense reasoning. The organizers created a dataset that would use script knowledge in addition to factual knowledge given in the passage. only 3 out of 11 teams actually used common sense knowledge explicitly. Question arises whether explicit 
+SemEval Task 11 for machine reading with common sense reasoning. The organizers created a dataset that would use script knowledge in addition to factual knowledge given in the passage. However, only 3 out of 11 teams actually used common sense knowledge explicitly. Question arises whether explicit 
 
 
 Recently, there has been a lot of relevant work in commonsense reasoning models dealing with creation of datasets capturing the some facets of common sense reasoning. Swag [^f5] is a dataset for natural language inference of the kind that requires common sense reasoning. The dataset is constructed using a method called adversarial filtering that explicitly avoids the presence of annotation artifacts that are easily detectable by neural models. Event2Mind [^f6] proposes an interesting problem for
