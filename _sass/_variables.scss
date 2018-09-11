@@ -61,6 +61,11 @@ $mid-gray:          #666 !default;
 $light-gray:        #ccc !default;
 $lighter-gray:      #eee !default;
 
+
+$umass-red:        #881c1c;
+$umass-red-light:  lighten($umass-red, 40%);
+$umass-red-dark:   darken($umass-red, 25%); 
+
 $grey-color:        #828282;
 $grey-color-light:  lighten($grey-color, 40%);
 $grey-color-dark:   darken($grey-color, 25%);
@@ -143,10 +148,10 @@ $hljs-chunk: $light-gray;
 $nav-height: 56px;
 
 // Footer
-$footer-border-top: thin solid $grey-color-dark;
+$footer-border-top: thin solid $umass-red;
 $footer-padding: $space-1;
 $footer-color: $light-gray;
-$footer-bg-color: $grey-color-dark;
+$footer-bg-color: $umass-red;
 $footer-font-weight: 300;
 $footer-font-size: .75rem;
 
