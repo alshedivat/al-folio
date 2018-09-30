@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Your Name</title>
+  <title>Your Name | a post with code</title>
   <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
   <link rel="shortcut icon" href="/al-folio/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="/al-folio/assets/css/main.css">
-  <link rel="canonical" href="/al-folio/blog/">
+  <link rel="canonical" href="/al-folio/blog/2015/code/">
 </head>
 
 
@@ -88,56 +88,44 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="header-bar">
-  <h1>al-folio</h1>
-  <h2>a simple whitespace theme for academics</h2>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">a post with code</h1>
+    <p class="post-meta">July 15, 2015</p>
+  </header>
+
+  <article class="post-content">
+    <p>This theme implements a built-in Jekyll feature, the use of Pygments, for sytanx highlighting. It supports more than 100 languages. This example is in C++. All you have to do is wrap your code in a liquid tag:</p>
+
+<p>{% highlight c++ %}  <br /> code code code <br /> {% endhighlight %}</p>
+
+<p>Produces something like this:</p>
+
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="err">\</span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<span class="p">{</span>
+    <span class="n">string</span> <span class="n">myString</span><span class="p">;</span>
+
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input a string: "</span><span class="p">;</span>
+    <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
+    <span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
+
+    <span class="kt">char</span> <span class="n">charArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">char</span> <span class="o">*</span> <span class="p">[</span><span class="n">length</span><span class="p">];</span>
+
+    <span class="n">charArray</span> <span class="o">=</span> <span class="n">myString</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+
+  </article>
+
+  
+
 </div>
-
-
-<ul class="post-list">
-  
-    <li>
-      <h2><a class="post-title" href="/al-folio/blog/2015/comments/">a post with comments</a></h2>
-      <p class="post-meta">October 20, 2015 — 11:59</p>
-      <p>an example of a blog post with comments</p>
-    </li>
-  
-    <li>
-      <h2><a class="post-title" href="/al-folio/blog/2015/math/">a post with math</a></h2>
-      <p class="post-meta">October 20, 2015 — 11:12</p>
-      <p>an example of a blog post with some math</p>
-    </li>
-  
-    <li>
-      <h2><a class="post-title" href="/al-folio/blog/2015/code/">a post with code</a></h2>
-      <p class="post-meta">July 15, 2015 — 11:09</p>
-      <p>an example of a blog post with some code</p>
-    </li>
-  
-    <li>
-      <h2><a class="post-title" href="/al-folio/blog/2015/images/">a post with images</a></h2>
-      <p class="post-meta">May 15, 2015 — 17:01</p>
-      <p>this is what included images could look like</p>
-    </li>
-  
-</ul>
-
-
-<div class="pagination clearfix mb1 mt4">
-  <div class="left">
-    
-      <span class="pagination-item disabled">Newer</span>
-    
-  </div>
-  <div class="right">
-    
-      <a class="pagination-item" href="/al-folio/blog/page2/">Older</a>
-    
-  </div>
-  <div class="pagination-meta">Page 1 of 2</div>
-</div>
-
-
 
       </div>
     </div>

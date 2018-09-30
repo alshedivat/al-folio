@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Your Name</title>
+  <title>Your Name | Project 1</title>
   <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
   <link rel="shortcut icon" href="/al-folio/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="/al-folio/assets/css/main.css">
-  <link rel="canonical" href="/al-folio/blog/">
+  <link rel="canonical" href="/al-folio/projects/1_project/">
 </head>
 
 
@@ -88,56 +88,67 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="header-bar">
-  <h1>al-folio</h1>
-  <h2>a simple whitespace theme for academics</h2>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Project 1</h1>
+    <h5 class="post-description">a project with a background image</h5>
+  </header>
+
+  <article class="post-content Project 1 clearfix">
+    <p>Every project has a beautiful feature shocase page. It’s easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.</p>
+
+<p>To give your project a background in the portfolio page, just add the img tag to the front matter like so:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: page
+title: Project
+description: a project with a background image
+img: /assets/img/12.jpg
+---
+</code></pre></div></div>
+
+<div class="img_row">
+    <img class="col one left" src="/al-folio/assets/img/1.jpg" alt="" title="example image" />
+    <img class="col one left" src="/al-folio/assets/img/2.jpg" alt="" title="example image" />
+    <img class="col one left" src="/al-folio/assets/img/3.jpg" alt="" title="example image" />
+</div>
+<div class="col three caption">
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
+<div class="img_row">
+    <img class="col three left" src="/al-folio/assets/img/5.jpg" alt="" title="example image" />
+</div>
+<div class="col three caption">
+    This image can also have a caption. It's like magic.
 </div>
 
+<p>You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, <em>bled</em> for your project, and then…. you reveal it’s glory in the next row of images.</p>
 
-<ul class="post-list">
-  
-    <li>
-      <h2><a class="post-title" href="/al-folio/blog/2015/comments/">a post with comments</a></h2>
-      <p class="post-meta">October 20, 2015 — 11:59</p>
-      <p>an example of a blog post with comments</p>
-    </li>
-  
-    <li>
-      <h2><a class="post-title" href="/al-folio/blog/2015/math/">a post with math</a></h2>
-      <p class="post-meta">October 20, 2015 — 11:12</p>
-      <p>an example of a blog post with some math</p>
-    </li>
-  
-    <li>
-      <h2><a class="post-title" href="/al-folio/blog/2015/code/">a post with code</a></h2>
-      <p class="post-meta">July 15, 2015 — 11:09</p>
-      <p>an example of a blog post with some code</p>
-    </li>
-  
-    <li>
-      <h2><a class="post-title" href="/al-folio/blog/2015/images/">a post with images</a></h2>
-      <p class="post-meta">May 15, 2015 — 17:01</p>
-      <p>this is what included images could look like</p>
-    </li>
-  
-</ul>
-
-
-<div class="pagination clearfix mb1 mt4">
-  <div class="left">
-    
-      <span class="pagination-item disabled">Newer</span>
-    
-  </div>
-  <div class="right">
-    
-      <a class="pagination-item" href="/al-folio/blog/page2/">Older</a>
-    
-  </div>
-  <div class="pagination-meta">Page 1 of 2</div>
+<div class="img_row">
+    <img class="col two left" src="/al-folio/assets/img/6.jpg" alt="" title="example image" />
+    <img class="col one left" src="/al-folio/assets/img/11.jpg" alt="" title="example image" />
+</div>
+<div class="col three caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
+<p><br /><br /></p>
 
+<p>The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here’s the code for the last row of images above:</p>
+
+<div class="img_row">
+    <img class="col two left" src="/img/6.jpg" />
+    <img class="col one left" src="/img/11.jpg" />
+</div>
+
+  </article>
+
+  
+
+  
+
+</div>
 
       </div>
     </div>
