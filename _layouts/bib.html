@@ -18,16 +18,15 @@
       {% for author in entry.author_array %}
         {% unless forloop.last %}
           {% if author.last == site.scholar.last_name %}
-            <em>{{author.last}}, {{author.first}}</em>,
+            <em>{{author.last}}, {{author.first}}</em>, and
           {% else %}
             {% if site.data.coauthors[author.last] %}
-              <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
+              <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>, and
             {% else %}
-              {{author.last}}, {{author.first}},
+              {{author.last}}, {{author.first}}, and
             {% endif %}
           {% endif %}
         {% else %}
-          and
           {% if author.last == site.scholar.last_name %}
             <em>{{author.last}}, {{author.first}}</em>
           {% else %}
