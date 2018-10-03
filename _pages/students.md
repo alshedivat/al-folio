@@ -15,16 +15,15 @@ I have the pleasure of working with the following terrific students.
 
 #### Master
 
-* Marcos Canales Mayo (co-advised with Rubén Gran Tejero)
 * Pablo Hernández Almudí (co-advised with Eduardo Montijano Muñoz)
-* Pedro Horno Maggioni (co-advised with Rubén Gran Tejero)
-
 
 #### Undergraduate
 
 * Mario Arcega Sanjuan
+* Javier Corbalán Colino (co-advised with Alejandro Valero Bresó)
 * Luis Fueris Martín (co-advised with Jose Luis Briz)
 * Álvaro Gómez Muñoz
+* Miguel Moniente Pannocchia (co-advised with Rubén Gran Tejero)
 
 ### alumni
 
@@ -34,7 +33,9 @@ I have the pleasure of working with the following terrific students.
 
 #### Master
 
+* Marcos Canales Mayo, 2018 (co-advised with Rubén Gran Tejero)
 * Alexandra Ferrerón Labari, 2012 (co-advised with Jesús Alastruey Benedé)
+* Pedro Horno Maggioni, 2018 (co-advised with Rubén Gran Tejero)
 * Marta Ortín Obón, 2012 (co-advised with María Villarroya Gaudó)
 
 #### Undergraduate
