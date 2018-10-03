@@ -5,5 +5,5 @@ inline: true
 ---
 
 Happy with the graduation of two excellent Master's students:
-[Marcos(]https://es.linkedin.com/in/mcanalesmayo) and
+[Marcos](https://es.linkedin.com/in/mcanalesmayo) and
 [Pedro](https://es.linkedin.com/in/pedro-horno-maggioni-a1843b165)
