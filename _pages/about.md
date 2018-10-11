@@ -5,7 +5,7 @@ title: <strong>Alistair</strong> Letcher
 description: <a href="">(but call me Alec.)</a>
 
 profile:
-  align: right
+  align: left
   image: desert.jpg
   address: >
     <p>EPFL Innovation Park<p>
