@@ -43,7 +43,7 @@ text:
     older: 'Older'
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: aletcher # put your disqus shortname
 
 # Optional features
 show_social_icons:  false

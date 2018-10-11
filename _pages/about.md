@@ -6,7 +6,7 @@ description: <a href="">(but call me Alec.)</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: desert.jpg
   address: >
     <p>EPFL Innovation Park<p>
     <p>Lausanne, Switzerland</p>
