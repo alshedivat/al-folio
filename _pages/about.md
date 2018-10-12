@@ -15,10 +15,6 @@ news: true
 social: true
 ---
 
-.text_justify{
-   text-align: justify;
-}
-
 Currently working as a strategy/prediction specialist at [L2F](https://www.l2f.ch){:target="\_blank"}, a new start-up in EPFL's Innovation Park. Previously studied pure maths and a little CS at Oxford (self-taught machine learning). Master thesis in multi-agent learning, paper to come.
 {: .text-justify}
 

@@ -30,3 +30,7 @@ body {
     padding-left: $horizontal-spacing-unit;
     @extend .clearfix;
 }
+
+.text_justify{
+   text-align: justify;
+}
