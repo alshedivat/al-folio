@@ -2,12 +2,13 @@
     img {
         box-shadow: 0 0 5px $grey-color;
         width: 100%;
+        margin-left: 2em;
     }
 }
 .address {
     font-family: monospace;
-
-    p { margin: 0; }
+    text-align: center;
+    p { margin-left: 2.5em; margin-top: 10px; }
 }
 
 .news {
@@ -38,6 +39,7 @@
 
 .social {
     border-top: 1px solid $grey-color-light;
+    width: 103%;
     margin-top: 50px;
     padding-top: 20px;
 }
