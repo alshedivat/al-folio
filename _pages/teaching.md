@@ -11,7 +11,7 @@ language, but if you are an international student please contact me.*
 ## horario de tutorías
 
 Semestre de Otoño 2018/2019:
-* Horarios en la página web de la [EINA](http://eina.unizar.es/intraneteina/index.php?r=tutorias/view&id=435)
+* Horarios en la página web de la [EINA](http://eina.unizar.es/intraneteina/index.php?r=tutorias/view&id=443)
 
 Puedes enviarme un correo para quedar fuera de este horario.
 
