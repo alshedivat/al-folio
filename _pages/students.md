@@ -15,13 +15,13 @@ I have the pleasure of working with the following terrific students.
 
 #### Master
 
+* Luis Fueris Martín (co-advised with Jose Luis Briz)
 * Pablo Hernández Almudí (co-advised with Eduardo Montijano Muñoz)
 
 #### Undergraduate
 
 * Mario Arcega Sanjuan
 * Javier Corbalán Colino (co-advised with Alejandro Valero Bresó)
-* Luis Fueris Martín (co-advised with Jose Luis Briz)
 * Álvaro Gómez Muñoz
 * Miguel Moniente Pannocchia (co-advised with Rubén Gran Tejero)
 
@@ -42,6 +42,7 @@ I have the pleasure of working with the following terrific students.
 
 * Alberto Álvarez Aldea, 2017 (co-advised with Ana Cristina Murillo Arnal)
 * Juan Antonio Cepero Chicote, 2017
+* Luis Fueris Martín, 2018 (co-advised with Jose Luis Briz)
 * Pablo Hernández Almudí, 2017 (co-advised with Eduardo Montijano Muñoz)
 * Alejandro Márquez Ferrer, 2016 (co-advised with Ana Cristina Murillo Arnal)
 
