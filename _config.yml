@@ -1,8 +1,8 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Your Name
-email: you@example.com
+name: Kathryn (Katie) Uckele
+email: katuckele@gmail.com
 description: > # this means to ignore newlines until "url:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -17,21 +17,21 @@ last_updated: # leave blank if you don't want to display last updated
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: # your GitHub user name
+github_username: katieuckele
 twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
+linkedin_username: 
 scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+orcid_id: 0000-0002-2714-4050
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Best way to reach me is by email -- I look forward to hearing from you!
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: al-folio
-blog_description: a simple whitespace theme for academics
+blog_name: Kathryn (Katie) Uckele
+blog_description: 
 
 # Pagination
 paginate: 4
@@ -88,7 +88,7 @@ plugins:
 # Jekyll-Scholar
 scholar:
 
-  last_name: Einstein
+  last_name: Uckele
 
   style: apa
   locale: en

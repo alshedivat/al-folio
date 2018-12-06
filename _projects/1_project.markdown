@@ -1,55 +1,42 @@
 ---
 layout: page
-title: Project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+title: Juniper 
+description: The ecological and evolutionary consequences of introgression among three juniper taxa in western Nevada 
+img: /assets/img/6.jpg
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
+Traditionally, hybrid zones have been used as windows into the process of divergence and speciation; however,hybrid zones are also powerful natural laboratories, where recombined genotypes and replicated instances of hybridization provide the raw materials to understand extended community and ecosystem consequences.
+Three closely-related juniper taxa occur in arid regions of the Sierra Nevada, Great Basin, and Colorado plateau, and hybridize in western Nevada, where their distributions converge. 
+Using a ddRAD sequencing approach, we have elucidated patterns of hybridization across the recombinant landscape and have begun to ask how environmental and phytochemical variation may be linked to admixture and genetic variation. 
 
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/12.jpg" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
 </div>
 <div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Left, Sierra juniper grows in the rugged environment of the eastern Sierra Mountain range along the border of California and Nevada. 
+    Middle, a Utah juniper before a lightening storm just south of Sedona, Arizona. 
+    Right, Sierra juniper growing out of a rocky outcrop above Donner Lake in the northern Sierra Nevada range. 
 </div>
 <div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
 </div>
 <div class="col three caption">
-    This image can also have a caption. It's like magic.
+    A view of the eastern Sierras from the White Mountains. 
 </div>
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
-
+I have used a ddRAD approach to elucidate the patterns of admixture across the hybrid zone, and will implement model-free and model-based methods to better understand the roles of environment and geography in shaping patterns of genetic variation across the landscape. 
+I am also collaborating with students and faculty in the UNR chemistry department to characterize phytochemical variation across the hybrid landscape to better understand the links among genetic, environmental, and phenotypic variation in these foundational tree species. 
 
 <div class="img_row">
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
+    <img class="col two left" src="{{ site.baseurl }}/assets/img/PCA_ConditionedAncestry_forZach.png" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/chrom.png" alt="" title="example image"/>
 </div>
 <div class="col three caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Left, an RDA of genetic variation explained by environmental variation. Right, a chromatograph of a Utah juniper individual. 
 </div>
 
 
 <br/><br/>
 
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
-
-<div class="img_row">
-    <img class="col two left" src="/img/6.jpg"/>
-    <img class="col one left" src="/img/11.jpg"/>
-</div>

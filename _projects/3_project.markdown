@@ -1,56 +1,21 @@
 ---
 layout: page
-title: Project 3
-description: a project that redirects to another website
-img:
-redirect: https://unsplash.com
+title: Eois olivacea
+description: Plant host associations and their consequences for population differentiation
+img: /assets/img/D_80695_Oliv_P.Lance_M.jpg
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+_Eois olivacea_ is a species of tropical moth which specializes on a _Piper_ host plants. 
+At the Yanayaku Research Station in Ecuador, _Eois olivacea_ has been observed feeding on three distinct _Piper_ species, and populations associated with different _Piper_ hosts exhibit variation in genitalia morphology which may indicate an incipient population divergence and a developing barrier to reproduction. 
+We have collected individuals associated with the three _Piper_ hosts and will sequence them with a ddRAD approach to understand how population genetic structure is associated with host association and morphological variation in this tropical moth. 
 
 
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/D_80696_Oliv_P.Lance_F.jpg" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/eois_cat.png" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/lanceifolium.jpg" alt="" title="example image"/>
 </div>
 <div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    This image can also have a caption. It's like magic.
+	Left, Eois olivacea adult female (photo credit: Lydia Doan). Middle, Eois larva (photo credit: Lee Dyer). Right, Piper lanceifolium, one of three E. olivacea hosts at the Yanayaku Biological Station in Ecuador (photo credit: Eric Tepe). 
 </div>
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
-
-
-<div class="img_row">
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-<br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
-
-<div class="img_row">
-    <img class="col two left" src="/img/6.jpg"/>
-    <img class="col one left" src="/img/11.jpg"/>
-</div>
