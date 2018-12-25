@@ -16,28 +16,35 @@
     <span class="title">{{entry.title}}</span>
     <span class="author">
       {% for author in entry.author_array %}
-        {% unless forloop.last %}
-          {% if author.last == site.scholar.last_name %}
-            <em>{{author.last}}, {{author.first}}</em>,
-          {% else %}
-            {% if site.data.coauthors[author.last] %}
-              <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
-            {% else %}
-              {{author.last}}, {{author.first}},
-            {% endif %}
-          {% endif %}
-        {% else %}
-          and
+        {% if forloop.length == 1 %}
           {% if author.last == site.scholar.last_name %}
             <em>{{author.last}}, {{author.first}}</em>
           {% else %}
-            {% if site.data.coauthors[author.last] %}
-              <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>
-            {% else %}
-              {{author.last}}, {{author.first}}
-            {% endif %}
+            {{author.last}}, {{author.first}}
           {% endif %}
-        {% endunless %}
+        {% else %}
+          {% unless forloop.last %}
+            {% if author.last == site.scholar.last_name %}
+              <em>{{author.last}}, {{author.first}}</em>,
+            {% else %}
+              {% if site.data.coauthors[author.last] %}
+                <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>, 
+              {% else %}
+                {{author.last}}, {{author.first}},
+              {% endif %}
+            {% endif %}
+          {% else %}
+            {% if author.last == site.scholar.last_name %}
+              and <em>{{author.last}}, {{author.first}}</em>
+            {% else %}
+              {% if site.data.coauthors[author.last] %}
+                and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a> 
+              {% else %}
+                and {{author.last}}, {{author.first}}
+              {% endif %}
+            {% endif %}
+          {% endunless %}
+        {% endif %}
       {% endfor %}
     </span>
 
