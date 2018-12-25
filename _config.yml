@@ -17,12 +17,15 @@ last_updated: # leave blank if you don't want to display last updated
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: # put your github username
-twitter_username: # put your twitter username
-linkedin_username: # put your linkedin username
-scholar_authorid: # put your google scholar author id
+github_username: # your GitHub user name
+twitter_username: # your Twitter handle
+linkedin_username: # your LinkedIn user name
+scholar_userid: # your Google Scholar ID
+orcid_id: # your ORCID ID
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
+
+google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -71,11 +74,13 @@ news_limit: 5
 markdown: kramdown
 highlighter: pygments
 
-# Includes
+# Includes & excludes
 include: ['_pages']
+exclude: [vendor]
 
-# Gems
-gems:
+# Plug-ins
+plugins:
+    - jekyll-email-protect
     - jekyll-paginate
     - jekyll/scholar
     - jemoji
@@ -108,5 +113,5 @@ scholar:
 # Other settings
 # -----------------------------------------------------------------------------
 jquery_version: "1.12.4"
-katex_version: "0.7.1"
+katex_version: "0.9.0"
 anchorjs_version: "3.2.2"
