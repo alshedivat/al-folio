@@ -15,10 +15,10 @@ news: true
 social: true
 ---
 
-Hello, I'm Chaitanya! I recently graduated from the Masters of Science in Language Technologies (MLT) program at the Language Technologies Institute, School of Computer Science, [Carnegie Mellon University](http://www.cmu.edu). I am joining the [Allen Institute for Artificial Intelligence](https://allenai.org){:target="\_blank"} this coming fall!
+Hello, I'm Chaitanya! I graduated from the Masters of Science in Language Technologies (MLT) program at the Language Technologies Institute, School of Computer Science, [Carnegie Mellon University](http://www.cmu.edu). I work at the [Allen Institute for Artificial Intelligence](https://allenai.org){:target="\_blank"} in the Mosaic (Commonsense Reasoning) Team with [Yejin Choi](https://homes.cs.washington.edu/~yejin/).
 
 At CMU, I worked at [Neulab](https://cs.cmu.edu/~neulab) with Professor [Graham Neubig](http://phontron.com). My research work has revolved around topics such as neural machine translation, multilingual models, deep structured prediction and graphical models. You can find my publications here on this website or on [Google Scholar](https://scholar.google.com/citations?user=s3MzzwwAAAAJ) for a more updated list. I am generally interested in machine learning problems applied to language
-and linguistics. Of late, I have been exploring hybrid models of probabilistic graphical models and neural networks.
+and linguistics..
 <br>
 
 My email is `cmalaviy@cs.cmu.edu`. I'm always happy to discuss research, or just brainstorm ideas.
