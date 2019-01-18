@@ -11,7 +11,7 @@ footer_text: >
 
 url: //webdiis.unizar.es/~dario # the base hostname & protocol for your site
 baseurl:   # the subpath of your site, e.g. /blog/
-last_updated: December  4, 2018
+last_updated: December 27, 2018
 
 # -----------------------------------------------------------------------------
 # Social integration

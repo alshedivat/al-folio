@@ -62,6 +62,7 @@ I have the pleasure of working with the following terrific students.
 
 * Isak Edo Vivancos, 2018 (DTU, Denmark)
 * Alexandra Ferrerón Labari, 2011 (EPFL, Switzerland)
+* Víctor Soria Pardos, 2019 (UPC-BSC, Spain)
 
 If you are interested in working on these topics computer architecture,
 programming models, heterogeneous systems with GPU, FPGA, ..., compilers,
