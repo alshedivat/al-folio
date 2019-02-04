@@ -27,7 +27,7 @@
 
 */
 /* Basscss Base Buttons */
-button, .button { font-family: Helvetica, sans-serif; font-size: inherit; font-weight: normal; text-decoration: none; cursor: pointer; display: inline-block; box-sizing: border-box; line-height: 1.125rem; padding: 0.5rem 1rem; margin: 0; height: auto; border: 1px solid transparent; vertical-align: middle; -webkit-appearance: none; }
+button, .button { font-family: Arial, sans-serif; font-size: inherit; font-weight: normal; text-decoration: none; cursor: pointer; display: inline-block; box-sizing: border-box; line-height: 1.125rem; padding: 0.5rem 1rem; margin: 0; height: auto; border: 1px solid transparent; vertical-align: middle; -webkit-appearance: none; }
 
 ::-moz-focus-inner { border: 0; padding: 0; }
 
@@ -57,9 +57,9 @@ img { max-width: 100%; }
 svg { max-height: 100%; }
 
 /* Basscss Base Typography */
-body { font-family: Helvetica, Arial, sans-serif; line-height: 1.5; font-size: 100%; }
+body { font-family: Arial, Arial, sans-serif; line-height: 1.5; font-size: 100%; }
 
-h1, h2, h3, h4, h5, h6 { font-family: Helvetica, sans-serif; font-weight: 900; line-height: 1.25; margin-top: 1em; margin-bottom: .5em; }
+h1, h2, h3, h4, h5, h6 { font-family: Arial, sans-serif; font-weight: 900; line-height: 1.25; margin-top: 1em; margin-bottom: .5em; }
 
 p, dl, ol, ul { font-size: 1rem; margin-top: 0; margin-bottom: 1rem; }
 
@@ -89,7 +89,7 @@ h6, .h6 { font-size: 0.75rem; }
 
 .list-reset { list-style: none; padding-left: 0; }
 
-.button-blue { color: white; background-color: #B509AC; border-radius: 3px; transition-duration: .1s; transition-timing-function: ease-out; transition-property: box-shadow, background-color; }
+.button-blue { color: white; background-color: #e00d1f; border-radius: 3px; transition-duration: .1s; transition-timing-function: ease-out; transition-property: box-shadow, background-color; }
 
 .button-blue:hover { opacity: .875; }
 
@@ -123,7 +123,7 @@ h6, .h6 { font-size: 0.75rem; }
 
 .highlight .sr { color: #009f06; }
 
-.highlight .ss { color: #B509AC; }
+.highlight .ss { color: #e00d1f; }
 
 .hljs-built_in { color: #00369f; }
 
@@ -140,7 +140,7 @@ h6, .h6 { font-size: 0.75rem; }
 /* Basscss Color Base */
 body { color: #333; background-color: white; }
 
-a { color: #B509AC; text-decoration: none; }
+a { color: #e00d1f; text-decoration: none; }
 
 a:hover { text-decoration: underline; }
 
@@ -349,7 +349,7 @@ body { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: 
   .site-nav .page-link:not(:last-child) { margin-right: 0; } }
 
 .header-bar { border-bottom: 1px solid #ccc; font-size: 20px; display: block; opacity: 0.75; width: 100%; text-align: center; padding-top: 25px; padding-bottom: 4rem; line-height: 3em; z-index: 25; }
-.header-bar h1 { color: #B509AC; font-size: 75px; }
+.header-bar h1 { color: #e00d1f; font-size: 75px; }
 .header-bar h2 { font-size: 25px; }
 
 .site { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; min-height: 100vh; }
@@ -358,7 +358,7 @@ body { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: 
 
 footer { background-color: #424242; border-top: thin solid #424242; color: #ccc; font-size: 0.75rem; font-weight: 300; padding: 0.5rem; position: fixed; left: 0px; bottom: 0px; width: 100%; }
 footer a { color: #fff; }
-footer a:hover { color: #B509AC; }
+footer a:hover { color: #e00d1f; }
 
 .page-content { padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */ }
 
@@ -407,7 +407,7 @@ footer a:hover { color: #B509AC; }
 
 .social { border-top: 1px solid #e8e8e8; margin-top: 50px; padding-top: 20px; }
 
-.pagination { font-size: 1rem; font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif; font-weight: 300; text-align: center; }
+.pagination { font-size: 1rem; font-family: 'Lato', 'Arial Neue', Arial, sans-serif; font-weight: 300; text-align: center; }
 
 .pagination a, .pagination .disabled { -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; background: #fafafa; border-radius: 0.1875em; border: 1px solid #f3f3f3; color: #333333; padding: 1em 1.5em; }
 
@@ -415,7 +415,7 @@ footer a:hover { color: #B509AC; }
 
 .pagination .pagination-meta { overflow: hidden; }
 
-.pagination a:hover, .pagination a:focus { background: white; color: #B509AC; }
+.pagination a:hover, .pagination a:focus { background: white; color: #e00d1f; }
 
 .pagination a:active { background: #f7f7f7; }
 
@@ -425,7 +425,7 @@ footer a:hover { color: #B509AC; }
 
 .button-disabled:hover, .button-disabled:active, .button-disabled:focus { cursor: not-allowed; background-color: #999; }
 
-.publications h2 { color: #B509AC; font-size: 32px; margin-bottom: 30px; text-align: center; }
+.publications h2 { color: #e00d1f; font-size: 32px; margin-bottom: 30px; text-align: center; }
 
 .year { border-top: 1px solid #ccc; color: #ccc; margin: 0 -3em -2.5ex -2em; padding-top: 1ex; text-align: right; }
 
@@ -433,7 +433,7 @@ footer a:hover { color: #B509AC; }
 .bibliography li { margin: 10px 0; position: relative; }
 .bibliography li span { display: block; }
 .bibliography li .title { font-weight: bolder; }
-.bibliography li .author a { border-bottom: 1px dashed #B509AC; }
+.bibliography li .author a { border-bottom: 1px dashed #e00d1f; }
 .bibliography li .author a:hover { border-bottom-style: solid; text-decoration: none; }
 .bibliography li .author > em { border-bottom: 1px solid; font-style: normal; }
 .bibliography li a.abstract, .bibliography li a.bibtex { cursor: pointer; }
@@ -445,7 +445,7 @@ footer a:hover { color: #B509AC; }
 .bibliography li span.abstract.hidden.open { border-color: #828282; }
 .bibliography abbr { position: absolute; left: -7em; }
 
-.star { color: #B509AC; font-style: normal; }
+.star { color: #e00d1f; font-style: normal; }
 
 blockquote { border-left: 5px solid #7a7a7a; font-style: italic; margin-left: 0.5rem; padding: 0.5rem; }
 
@@ -477,7 +477,7 @@ figure > img { display: block; }
 
 figcaption { font-size: 0.875rem; }
 
-.blankbox { background: #B509AC; }
+.blankbox { background: #e00d1f; }
 
 .img_row { height: 275px; width: 100%; overflow: hidden; box-sizing: border-box; }
 
@@ -496,13 +496,13 @@ figcaption { font-size: 0.875rem; }
 .gist .lines { width: 100%; }
 
 a { color: #666; text-decoration: none; }
-a:hover { color: #B509AC; text-decoration: none; }
+a:hover { color: #e00d1f; text-decoration: none; }
 
-article a, .news a { color: #B509AC; font-weight: 100; }
+article a, .news a { color: #e00d1f; font-weight: 100; }
 article a:hover, .news a:hover { text-decoration: underline; }
 
 .social a { color: #666; }
-.social a:hover { color: #B509AC; }
+.social a:hover { color: #e00d1f; }
 
 .measure { margin: 0 auto; max-width: 42rem; }
 
