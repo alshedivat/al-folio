@@ -47,17 +47,35 @@
   .social-icons-right {
     text-align: right;
   }
+  .img_row {
+     height: $img-height/3;
+  }
+  .col {
+      padding: $img-spacing/3;
+  }
 }
 
 @media screen and (min-width: $viewport-medium) {
   html {
     font-size: 18px;
   }
+  .img_row {
+     height: $img-height/1.5;
+  }
+  .col {
+      padding: $img-spacing/1.5;
+  }
 }
 
 @media screen and (min-width: $viewport-large) {
   html {
     font-size: 20px;
+  }
+  .img_row {
+     height: $img-height;
+  }
+  .col {
+      padding: $img-spacing;
   }
 }
 
