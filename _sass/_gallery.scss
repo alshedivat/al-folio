@@ -11,7 +11,7 @@ figcaption {
     background: $theme-color;
 }
 .img_row {
-    height: $img-height;
+    /*height: $img-height;*/
     width: 100%;
     overflow: hidden;
     box-sizing:border-box;
@@ -21,7 +21,7 @@ figcaption {
     height: 100%;
     object-fit: cover;
     box-sizing:border-box;
-    padding: $img-spacing;
+    /*padding: $img-spacing;*/
 }
 .one {
     width:33.33%;
