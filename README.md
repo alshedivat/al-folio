@@ -1,7 +1,9 @@
 # al-folio
 
+[![build status](https://travis-ci.org/alshedivat/al-folio.svg?branch=master)](https://travis-ci.org/alshedivat/al-folio)
 [![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/alshedivat/al-folio/blob/master/LICENSE)
+[![gitter](https://badges.gitter.im/alshedivat/al-folio.svg)](https://gitter.im/alshedivat/al-folio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 A simple and clean [Jekyll](https://jekyllrb.com/) theme for academics.
 
@@ -38,12 +40,16 @@ By default, the script uses the `master` branch for the source code and deploys 
 The optional flag `--user` tells it to deploy to `master` and use `source` for the source code instead.
 Using `master` for deployment is a convention for [user and organization pages](https://help.github.com/articles/user-organization-and-project-pages/).
 
-**Note:** when deploying your user or organization page, make the `_config.yml` has `url` and `baseurl` fields as follows.
+**Note:** when deploying your user or organization page, make sure the `_config.yml` has `url` and `baseurl` fields as follows.
 
 ```
 url: # should be empty
 baseurl:  # should be empty
 ```
+
+### Usage
+
+Note that `_pages/about.md` is built to index.html in the published site. There is therefore no need to have a separate index page for the project. If an index page does exist in the root directory then this will prevent `_pages/about.md` from being added to the built site.
 
 ## Features
 
@@ -99,4 +105,4 @@ Style improvements and bug fixes are especially welcome.
 
 ## License
 
-MIT
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
