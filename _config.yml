@@ -10,7 +10,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  # should be empty
-baseurl: /al-folio # should be empty
+baseurl: # should be empty
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
@@ -26,7 +26,7 @@ quora_username: Simon-Batzner-1
 
 contact_note: >
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
