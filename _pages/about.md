@@ -1,18 +1,15 @@
 ---
 layout: about
 permalink: /
-title: <strong>Kim Lab at UIUC Physics</strong> 
-description: Physics of life -- From molecules to live cells. 
+title: <strong>Kim Lab</strong> 
+description: Physics of Life -- From Molecules to Living Cells 
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>your office number</p>
-    <p>your address street</p>
-    <p>Urbana IL</p>
+  image: 
+  address: 
 
 news: true
 social: true
 ---
-We are a new, multidisciplinary lab at UIUC Physics. We study the fundamental principles governing molecular processes essential for life. In particular, we try to gain mechanistic understanding of how gene expression is regulated inside cells. If you are interested, please contact Sangjin.
+We are a new, multidisciplinary lab in the Department of Physics at the University of Illinois, Urbana-Champaign. We study fundamental principles governing molecular processes essential for life. In particular, our goal is to resolve single molecule's action during gene expression and eventually understand how molecules work together inside living cells. 

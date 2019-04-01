@@ -1,55 +1,23 @@
 ---
 layout: page
-title: Project 1
-description: a project with a background image
+title: Collective behaviors at the single-molecule level 
+description: 
 img: /assets/img/12.jpg
 ---
+We study many body problems in biology at the single-molecule level. Various methodologies developed in single-molecule biophysics allows for studying one molecule's action at a time (as the name states), e.g. one RNA polymerase transcribing a DNA. However, inside a cell, many proteins work together at the same time, often creating many-body problems. We are curious to know whether proteins show "collective behaviors" or new characteristics that are not present when a protein works alone. Is the sum greater than parts? How? And why? 
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+<strong>I. DNA supercoiling mediates long-distance interactions between RNA polymerases on a DNA template, affecting their speed and processivity</strong>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<img class="alignnone wp-image-21" src="https://campuspress.yale.edu/sangjinkim/files/2018/12/model-26ztc3b.jpg" width="800" height="277"/>
+DNA supercoils and transcription affect each other. It is well-established how an elongation complex produces DNA supercoils (twin-supercoiled-domain model [<a href="https://www.ncbi.nlm.nih.gov/pubmed/2823250" target="_blank">1</a>]) and how DNA supercoils inhibit translocation of a single RNA polymerase [<a href="https://www.ncbi.nlm.nih.gov/pubmed/23812716" target="_blank">2</a>]. However, it remains untested how DNA supercoiling affects transcription when there are multiple elongation complexes on a DNA template. My experiments in <em>E. coli</em> suggested a DNA-supercoil-mediated mechanism to control transcription speed when there are multiple RNA polymerases on a DNA [<a href="https://www.biorxiv.org/content/early/2018/10/03/433698" target="_blank">3</a>]. Namely, DNA supercoiling allows for (1) cooperation between largely separated RNAPs on the same DNA template when RNAPs are continuously loaded and (2) antagonistic dynamics when the new initiation is blocked. We will investigate how DNA supercoiling mediates RNAP group dynamics using single-molecule techniques.
 
 
-<div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    This image can also have a caption. It's like magic.
-</div>
+<strong>II. Collision between RNA polymerases during transcription elongation is important for temporal profile of gene expression and cell-to-cell variations in protein abundance</strong>
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
+<img class="alignnone wp-image-21" src="https://campuspress.yale.edu/sangjinkim/files/2017/11/Miller-1t969ze.jpg" width="500" height="260"/>
+<br>
+As shown by this famous electron micrograph, inside cells, multiple RNA polymerases transcribe a gene at the same time, indicating the presence of RNA polymerase "traffic", similar to that of vehicles. When a car stops on a single-lane road, the trailing cars pile up, creating traffic jam. However, it remains poorly understood what happens when an RNAP pauses while there are multiple RNAPs traveling on a DNA template. There are three scenarios, which are not mutually exclusive: (1) hard-sphere interactions between RNAPs, similar to a pile-up of cars behind, (2) RNAPs pushing paused RNAPs upon collision [<a href="https://www.ncbi.nlm.nih.gov/pubmed/12730602" target="_blank">4</a>], and (3) dissociation of RNAPs (pre-mature termination) upon collision. My stochastic model of the first scenario [<a href="https://doi.org/10.1101/210401" target="_blank">5</a>] predicts that RNAPs pile up behind a paused RNAP and become separated downstream of the pause site (see Fig. A-B and C for analogy in <a href="http://www.dailymail.co.uk/news/article-3096004/UK-weather-Bank-Holiday-drivers-brace-year-s-worst-day-traffic-jams.html" target="_blank">highway traffic</a>) . 
 
+<img class="alignnone wp-image-21" src="https://campuspress.yale.edu/sangjinkim/files/2017/11/Traffic-2ilkp9c.jpg" width="800" height="441"/>
 
-<div class="img_row">
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-<br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
-
-<div class="img_row">
-    <img class="col two left" src="/img/6.jpg"/>
-    <img class="col one left" src="/img/11.jpg"/>
-</div>
+Hence, the pause-induced RNAP traffic pattern can override the bursty promoter to result in nonbursty mRNA and protein production. This means that RNAP traffic during elongation can be a critical factor modulating gene expression output, specifically the average level, variability (noise), and timing of protein production <em>in vivo</em>. We aim to investigate how two and more RNA polymerases interact each other during transcription elongation. This will help us understand the origin of cell-to-cell variations in protein expression and phenotypic variations in cell populations.

@@ -15,16 +15,18 @@
   {% else %}
     <span class="title">{{entry.title}}</span>
     <span class="author">
+      {% assign firstnamewithstar = site.scholar.first_name | append: '*' %}
+
       {% for author in entry.author_array %}
         {% if forloop.length == 1 %}
-          {% if author.last == site.scholar.last_name %}
-            <em>{{author.last}}, {{author.first}}</em>
+	{% if author.last == site.scholar.last_name and (author.first == site.scholar.first_name or author.first == firstnamewithstar) %}
+      	  <em>{{author.last}}, {{author.first}}</em>
           {% else %}
             {{author.last}}, {{author.first}}
           {% endif %}
         {% else %}
           {% unless forloop.last %}
-            {% if author.last == site.scholar.last_name %}
+            {% if author.last == site.scholar.last_name and (author.first == site.scholar.first_name or author.first == firstnamewithstar) %}
               <em>{{author.last}}, {{author.first}}</em>,
             {% else %}
               {% if site.data.coauthors[author.last] %}
@@ -34,7 +36,7 @@
               {% endif %}
             {% endif %}
           {% else %}
-            {% if author.last == site.scholar.last_name %}
+            {% if author.last == site.scholar.last_name and (author.first == site.scholar.first_name or author.first == firstnamewithstar) %}
               and <em>{{author.last}}, {{author.first}}</em>
             {% else %}
               {% if site.data.coauthors[author.last] %}
@@ -84,6 +86,15 @@
   {% endif %}
   {% if entry.code %}
     [<a href="{{ entry.code }}" target="_blank">Code</a>]
+  {% endif %}
+  {% if entry.biorxiv %}
+    [<a href="{{ entry.biorxiv }}" target="_blank">bioRxiv</a>]
+  {% endif %}
+  {% if entry.pubmed %}
+    [<a href="{{ entry.pubmed }}" target="_blank">PubMed</a>]
+  {% endif %}
+  {% if entry.github %}
+  [<a href="{{ entry.github }}" target="_blank">github</a>]
   {% endif %}
   </span>
 
