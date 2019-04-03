@@ -5,6 +5,11 @@ permalink: /projects/
 order: 2
 description: 
 ---
+{% assign l = site.projects | size %}
+{% if l == 1 %}
+  {{ site.projects[0].content }}
+
+{% else %}
 
 {% for project in site.projects %}
 
@@ -47,3 +52,4 @@ description:
 {% endif %}
 
 {% endfor %}
+{% endif %}
