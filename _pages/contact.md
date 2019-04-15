@@ -6,7 +6,7 @@ order: 5
 description: 
 ---
 <p><i>Kim Lab</i></p>
-<p>Loomis 160, 
+<p>Loomis 106, 
 1110 W Green St, 
 Urbana, IL 61801</p>
 <br>
