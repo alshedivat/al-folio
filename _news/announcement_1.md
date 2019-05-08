@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2019-03-06
 inline: true
 ---
 
-A simple inline announcement.
+Presented my work on Medical devices Security for the [ITB consortium](https://www.ic.gc.ca/eic/site/086.nsf/eng/home)

@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2019-02-28
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Received travel grant to attend Student Mentoring Workshop (SMeW) at ICSE 2019.
