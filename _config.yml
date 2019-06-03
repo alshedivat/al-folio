@@ -4,7 +4,7 @@
 name: Aarti Kashyap
 email: kaarti.sr@gmail.com
 description: > # this means to ignore newlines until "url:"
- The academic blog for Aarti Kashyap. 
+ The academic blog for Aarti Kashyap.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -34,7 +34,7 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: Academic Blog
-blog_description: An academic blog overlapping with my interests.
+blog_description: Just some thoughts.
 
 # Pagination
 paginate: 4
