@@ -70,6 +70,9 @@
   {% if entry.html %}
     [<a href="{{ entry.html }}" target="_blank">HTML</a>]
   {% endif %}
+  {% if entry.doi %}
+    [<a href="{{ entry.doi | prepend: 'http://doi.org/' }}" target="_blank">DOI</a>]
+  {% endif %}
   {% if entry.pdf %}
     [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>]
   {% endif %}
@@ -84,12 +87,6 @@
   {% endif %}
   {% if entry.code %}
     [<a href="{{ entry.code }}" target="_blank">Code</a>]
-  {% endif %}
-  {% if entry.doi %}
-    <a href="{{ entry.doi | prepend: 'http://doi.org/' }}"><input class="button1" type="button" value="doi" /></a>
-  {% endif %}
-  {% if entry.link %}
-    <a href="{{ entry.link }}"><input class="button4" type="button" value="link" /></a>
   {% endif %}
   </span>
 
