@@ -13,23 +13,24 @@ Since, I started my graduate studies, things have change at an exponential rate.
 
 The type of research which I do want to pursue is something that is challenging for me. Hence, I decided to make a set of question which help me conclude if that is something I am interested in doing. As a grad student, there is a huge scope out there to learn and understand new and cool things.
 
-Q1: Will it help me learning something new and interesting?
-Q2: Is it challenging enough?
-Q3: Is this research impactful?
+    Q1: Will it help me learning something new and interesting?
+    Q2: Is it challenging enough?
+    Q3: Is this research impactful?
 
-1: Interesting is a really abstract word. However, in order to be excited about something new and interesting, a topic should be a challenging. Sometimes, some things can require a lot of implementation details and yet not be novel in some respect. Also, pursuing a particular problem statement lead to exploration of multiple other domains which is fulfilling.
+1 Interesting is a really abstract word. However, in order to be excited about something new and interesting, a topic should be a challenging. Sometimes, some things can require a lot of implementation details and yet not be novel in some respect. Also, pursuing a particular problem statement lead to exploration of multiple other domains which is fulfilling.
 
 Also, by novelty I do not mean something completely new and out of the box. The quote below explains it all.
 
-If you want to get published, then heed this advice:
-Cite your friends at least once and your enemies twice,
-The editor three times, yourself at least four,
-And write in a style that's intended to bore.
-If you want to get published, here's what you must do
-Above all: don't come up with anything new.
+        If you want to get published, then heed this advice:
+        Cite your friends at least once and your enemies twice,
+        The editor three times, yourself at least four,
+        And write in a style that's intended to bore.
+        If you want to get published, here's what you must do
+        Above all: don't come up with anything new.
 
                                                 Joel E. Cohen
 
-2: There are multiple open research questions out there in the world. We cannot solve them all. As a graduate student and hopefully a researcher some day, picking a challenging problem statement is a very important process. The goal should not be to solve the problem, but, to build a direction for solving that and learning a lot in the process.  
 
-3: Finally, apart from being challenging, it should be useful for some category of people. Maybe other researchers, or perhaps developers or even users. But, as a student, we should definitely have this aspect in the back of our heads, however, in my current opinion it is not absolutely necessary. As a student, I want to understand and learn , however, in this process it is not always a going to be the case where I end up making an impactful contribution.  
+2 There are multiple open research questions out there in the world. We cannot solve them all. As a graduate student and hopefully a researcher some day, picking a challenging problem statement is a very important process. The goal should not be to solve the problem, but, to build a direction for solving that and learning a lot in the process.  
+
+3 Finally, apart from being challenging, it should be useful for some category of people. Maybe other researchers, or perhaps developers or even users. But, as a student, we should definitely have this aspect in the back of our heads, however, in my current opinion it is not absolutely necessary. As a student, I want to understand and learn , however, in this process it is not always a going to be the case where I end up making an impactful contribution.  
