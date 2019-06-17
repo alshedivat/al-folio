@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Why do I want to do research?
-date:   2019-06-15
+date:   2019-06-13s
 description: A short story on why research attracts me.
 ---
 
