@@ -1,5 +1,5 @@
 ---
-layout: About
+layout: about
 permalink: /
 title: <strong>Aarti Kashyap</strong>
 description: Graduate student, <a href="https://www.ece.ubc.ca/">Electrical and Computer Engineering, University of British Columbia</a>
