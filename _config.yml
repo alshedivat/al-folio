@@ -6,13 +6,12 @@ email: kaarti.sr@gmail.com
 description: > # this means to ignore newlines until "url:"
  The academic blog for Aarti Kashyap.
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: # leave blank if you don't want to display last updated
+last_updated: 16th June, 2019
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -67,7 +66,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 5
+news_limit:
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
