@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Why do I want to do research?
+title:  How do I want to select my research topic?
 date:   2019-06-13s
 description: A short story on why research attracts me.
 ---
