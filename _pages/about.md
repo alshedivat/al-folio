@@ -19,4 +19,4 @@ I am a graduate student at Dependable systems lab at University of British Colum
 
 My research interests include: Formal methods; End-to-end verification of systems; Programming languages; Cyber physical systems; Security.
 
-I love playing guitar. It's been more than a decade since I picked up this instrument and since then I have never looked back. I keep putting short videos now and then. I recently started painting (Beware!).
+I love playing guitar. It's been more than a decade since I picked up this instrument and since then I have never looked back. My most precious possession is my 90s Japanese vintage stratocaster. I keep putting short videos now and then. I recently started painting (Beware!).
