@@ -15,7 +15,7 @@ news: true
 social: true
 ---
 
-I am a graduate student at Dependable systems lab at University of British Columbia in Vancouver, Canada. I work under [Prof Karthik Pattabiraman](http://blogs.ubc.ca/karthik/).
+I am a graduate student at Dependable systems lab at University of British Columbia in Vancouver, Canada. I work under [Prof Karthik Pattabiraman](http://blogs.ubc.ca/karthik/).  
 
 My research interests include: Formal methods; End-to-end verification of systems; Programming languages; Cyber physical systems; Security.
 
