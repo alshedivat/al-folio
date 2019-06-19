@@ -5,6 +5,8 @@ date:   2019-06-13s
 description: A short story on why research attracts me.
 ---
 
+Just some grad school rantings -1
+
 As a student, being in the field of technology, honestly, there are a lot of different directions to pursue. For some people it's probably money, for others it the need to learn and for the rest it's probably fate that got them involved in this field.
 
 However, for me I decided to pursue graduate studies for the eventual independence I might get in the future(still hopeful). Also, I was not satisfied with my undergraduate studies. I wanted to learn and understand more.
