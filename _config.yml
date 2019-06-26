@@ -32,7 +32,7 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: Academic Blog
+blog_name: Blog
 blog_description: Just some thoughts.
 
 # Pagination

@@ -1,1 +1,1 @@
-Academic Blog - Aarti Kashyap
+BLOG - Aarti Kashyap
