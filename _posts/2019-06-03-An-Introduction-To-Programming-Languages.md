@@ -15,3 +15,6 @@ However, based on my short experience and still ongoing experience, I will updat
 and the material I used along the way to get a deeper understanding.
 
 1. The first book I would suggest would be ["The semantics of Programming Languages" ](https://www.scss.tcd.ie/Matthew.Hennessy/splexternal2015/LectureNotes/Notes14%20copy.pdf) by Matthew Hennessy.
+
+
+2. The other really great collection of material can be found on [this](https://www.scss.tcd.ie/Matthew.Hennessy/splexternal2015/reading.php) link. I have a lot of catching up to do and I am trying to do so slowly. 
