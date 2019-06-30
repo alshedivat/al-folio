@@ -62,9 +62,12 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
+    projects:
+      output: true
+      permalink: /projects/:path/
+    music:
+      output: true
+      permalink: /music/:path/
 
 news_limit:
 
