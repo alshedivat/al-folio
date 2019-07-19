@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Aarti Kashyap</strong>
-description: Thinking without writing is not thinking - it's just us thinking that we are thinking. 
+description: Thinking without writing is not thinking - it's just us thinking that we are thinking.
 
 profile:
   align: right
@@ -14,9 +14,12 @@ profile:
 news: true
 social: true
 ---
-
-I am a graduate student at Dependable systems lab at University of British Columbia in Vancouver, Canada. I am originally from Bombay, India. I work with [Prof Karthik Pattabiraman](http://blogs.ubc.ca/karthik/).  
+I am a first year graduate student at University of British Columbia, Vancouver. I am originally from Bombay, India.
 
 My research interests include: Formal methods; End-to-end verification of systems; Programming languages; Cyber physical systems; Security.
+
+I work with [Prof Karthik Pattabiraman](http://blogs.ubc.ca/karthik/).  
+
+
 
 I love playing guitar. It's been more than a decade since I picked up this instrument and since then I have never looked back. My most precious possession is my ['93 Japanese vintage stratocaster]({{ site.url }}assets/img/guitar.jpg). I keep putting short videos now and then. I recently started painting (Beware!).
