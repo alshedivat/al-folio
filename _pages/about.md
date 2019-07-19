@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Aarti Kashyap</strong>
-description: Thinking without writing is not thinking. 
+description: Thinking without writing is not thinking - it's just us thinking that we are thinking. 
 
 profile:
   align: right
