@@ -14,12 +14,12 @@ profile:
 news: true
 social: true
 ---
-I am a first year graduate student at University of British Columbia, Vancouver. I am originally from Bombay, India.
+I am a first year graduate student at University of British Columbia, Vancouver. I am originally from Bombay, India.   
 
-My research interests include: Formal methods; End-to-end verification of systems; Programming languages; Cyber physical systems; Security.
+My research interests include: Formal methods; End-to-end verification of systems; Programming languages; Cyber physical systems; Operating systems; Security.
 
-I work with [Prof Karthik Pattabiraman](http://blogs.ubc.ca/karthik/).  
+I am currently a part of Dependable Systems Lab and work with [Prof Karthik Pattabiraman](http://blogs.ubc.ca/karthik/).  
 
 
 
-I love playing guitar. It's been more than a decade since I picked up this instrument and since then I have never looked back. My most precious possession is my ['93 Japanese vintage stratocaster]({{ site.url }}assets/img/guitar.jpg). I keep putting short videos now and then. I recently started painting (Beware!).
+I love playing guitar and swimming. It's been more than a decade since I picked up this instrument and since then I have never looked back. My most precious possession is my ['93 Japanese vintage stratocaster]({{ site.url }}assets/img/guitar.jpg). I keep putting short videos now and then. I recently started painting (Beware!).
