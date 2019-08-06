@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
+title: <strong>Nuha</strong> Albadi
 description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
