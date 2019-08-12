@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: <strong>Aarti Kashyap</strong>
+title: About 
 description: Thinking without writing is not thinking - it's just us thinking that we are thinking.
 
 profile:
@@ -22,4 +22,4 @@ I am currently a part of Dependable Systems Lab and work with [Prof Karthik Patt
 
 
 
-I love playing guitar and swimming. It's been more than a decade since I picked up this instrument and since then I have never looked back. My most precious possession is my ['93 Japanese vintage stratocaster]({{ site.url }}assets/img/guitar.jpg). I keep putting short videos now and then. I recently started painting (Beware!). I read a lot, my [Goodreads](https://www.goodreads.com/user/show/50819981-aarti-kashyap) profile tracks some of the works I read. 
+I love playing guitar and swimming. It's been more than a decade since I picked up this instrument and since then I have never looked back. My most precious possession is my ['93 Japanese vintage stratocaster]({{ site.url }}assets/img/guitar.jpg). I keep putting short videos now and then. I recently started painting (Beware!). I read a lot, my [Goodreads](https://www.goodreads.com/user/show/50819981-aarti-kashyap) profile tracks some of the works I read.
