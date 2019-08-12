@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: I enjoy teaching sometimes. Since my undergrad days, I have been conducting guitar classes. I have conducted multiple hands on workshops in my undergrad. I have also had multiple teaching assistantship roles in my grad school.
+description: I have conducted multiple hands on workshops in my undergrad. I have also had multiple teaching assistantship roles in my grad school.
 ---
 
 ### Teaching Assistantship
