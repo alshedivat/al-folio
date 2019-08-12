@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: About 
+title: Aarti S. Kashyap
 description: Thinking without writing is not thinking - it's just us thinking that we are thinking.
 
 profile:

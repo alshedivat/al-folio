@@ -1,14 +1,15 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching
+title: teaching
 description: I enjoy teaching sometimes. Since my undergrad days, I have been conducting guitar classes. I have conducted multiple hands on workshops in my undergrad. I have also had multiple teaching assistantship roles in my grad school.
 ---
 
 ### Teaching Assistantship
 
+  * CPEN 400A : Topics in Computer Engineering - BUILDING MODERN WEBAPP, UBC, Sep'18-Dec'18
   * CPEN 421  : Software Project Management, UBC, Jan'19-April'19
-  * CPEN 400A : Topics in Computer Engineering - BLDG MDRN WEBAPP, UBC, Sep'18-Dec'18
+  * Vancouver Summer Program(VSP), 2019 : Topics in Computer Engineering - BUILDING MODERN WEBAPP, UBC, July'19-Aug'19
 
 
 ### Workshops
