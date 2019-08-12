@@ -32,18 +32,18 @@ google_analytics: UA-42410120-1 # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: Blog
-blog_description: Just some thoughts.
+# blog_name: Blog
+# blog_description: Just some thoughts.
 
 # Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
+# paginate: 4
+# permalink: /blog/:year/:title/
+# paginate_path: /blog/page:num/
 
-text:
-  pagination:
-    newer: 'Newer'
-    older: 'Older'
+# text:
+#  pagination:
+#    newer: 'Newer'
+#    older: 'Older'
 
 # Comments
 # disqus_shortname: # put your disqus shortname
@@ -65,9 +65,7 @@ collections:
     projects:
       output: true
       permalink: /projects/:path/
-    music:
-      output: true
-      permalink: /music/:path/
+
 
 news_limit:
 
@@ -82,7 +80,7 @@ highlighter: pygments
 # Includes & excludes
 include: ['_pages']
 exclude: [vendor]
-
+exclude: [blog]
 # Plug-ins
 plugins:
     - jekyll-email-protect
