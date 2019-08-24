@@ -11,8 +11,8 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:   # the base hostname & protocol for your site
-baseurl: AshVijay # the subpath of your site, e.g. /blog/
-last_updated: /site# leave blank if you don't want to display last updated
+baseurl: # the subpath of your site, e.g. /blog/
+last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Social integration
