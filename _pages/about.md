@@ -18,9 +18,9 @@ I am a first year graduate student at University of British Columbia, Vancouver.
 
 My research interests include: Formal methods; End-to-end verification of systems; Programming languages; Cyber physical systems; Operating systems; Security.
 
-I am currently a part of Dependable Systems Lab and work with [Prof Karthik Pattabiraman](http://blogs.ubc.ca/karthik/).
+I am currently a part of Dependable Systems Lab in the Electrical and Computer Engineering Department at UBC, Vancouver. 
 
-For some personal but not too personal writings feel free to check out my [blog](https://grep-aarkash.github.io/blog/) 
+For some personal but not too personal writings feel free to check out my [blog.](https://grep-aarkash.github.io/blog/)
 
 
 
