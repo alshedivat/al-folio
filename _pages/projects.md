@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Currently under construction.
+description: As a starting graduate student, I tried my hands at multiple verification and security related aspects of research.
 ---
 
 {% for project in site.projects %}
@@ -11,7 +11,7 @@ description: Currently under construction.
 <div class="project">
     <div class="thumbnail">
         <a href="{{ project.redirect }}" target="_blank">
-        {% if project.img %}
+        { if project.img }
         <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
@@ -24,7 +24,7 @@ description: Currently under construction.
         </a>
     </div>
 </div>
-{% else %}
+{else}
 
 <div class="project ">
     <div class="thumbnail">
@@ -45,4 +45,4 @@ description: Currently under construction.
 
 {% endif %}
 
-{% endfor %}
+{ endfor }
