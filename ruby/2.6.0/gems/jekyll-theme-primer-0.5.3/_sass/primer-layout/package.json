@@ -1,0 +1,71 @@
+{
+  "_from": "primer-layout@1.4.5",
+  "_id": "primer-layout@1.4.5",
+  "_inBundle": false,
+  "_integrity": "sha1-b83KZw7wv1xCir6L6GSdg8UeeW8=",
+  "_location": "/primer-layout",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "primer-layout@1.4.5",
+    "name": "primer-layout",
+    "escapedName": "primer-layout",
+    "rawSpec": "1.4.5",
+    "saveSpec": null,
+    "fetchSpec": "1.4.5"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/primer-layout/-/primer-layout-1.4.5.tgz",
+  "_shasum": "6fcdca670ef0bf5c428abe8be8649d83c51e796f",
+  "_spec": "primer-layout@1.4.5",
+  "_where": "/Users/benbalter/projects/pages-themes/primer",
+  "author": {
+    "name": "GitHub, Inc."
+  },
+  "bugs": {
+    "url": "https://github.com/primer/primer/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "primer-support": "4.5.2"
+  },
+  "deprecated": false,
+  "description": "Containers, rows, and columns for creating page layout.",
+  "files": [
+    "index.scss",
+    "lib",
+    "build",
+    "docs"
+  ],
+  "homepage": "http://primer.github.io/",
+  "keywords": [
+    "primer",
+    "css",
+    "github",
+    "design-system"
+  ],
+  "license": "MIT",
+  "main": "build/index.js",
+  "name": "primer-layout",
+  "primer": {
+    "category": "core",
+    "module_type": "objects"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/primer/primer/tree/master/modules/primer-layout"
+  },
+  "sass": "index.scss",
+  "scripts": {
+    "build": "../../script/npm-run primer-module-build index.scss",
+    "lint": "../../script/lint-scss",
+    "prepare": "npm run build",
+    "test": "../../script/npm-run-all build lint"
+  },
+  "style": "build/build.css",
+  "version": "1.4.5"
+}

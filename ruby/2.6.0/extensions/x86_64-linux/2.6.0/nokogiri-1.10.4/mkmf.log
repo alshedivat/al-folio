@@ -1,0 +1,558 @@
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby  -lm   -lc "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return 0;
+6: }
+/* end */
+
+"gcc -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC    -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+have_library: checking for gzdopen() in -lz... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby -lz  -lm   -lc "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <zlib.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))gzdopen; return !p; }
+/* end */
+
+--------------------
+
+have_iconv?: checking for iconv... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby  -lm   -lc "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <stdlib.h>
+ 4: #include <iconv.h>
+ 5: 
+ 6: int main(void)
+ 7: {
+ 8:     iconv_t cd = iconv_open("", "");
+ 9:     iconv(cd, NULL, NULL, NULL, NULL);
+10:     return EXIT_SUCCESS;
+11: }
+/* end */
+
+--------------------
+
+have_library: checking for -llzma... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby -llzma  -lm   -lc "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: 
+15: int t(void) { ; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlParseDoc() in libxml/parser.h... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I. -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/include -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2 -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2    "-DNOKOGIRI_LIBXML2_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"0001-Fix-security-framework-bypass.patch\"" -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic    /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -lm   -lc "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <libxml/parser.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlParseDoc; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for xsltParseStylesheetDoc() in libxslt/xslt.h... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I. -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/include -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2 -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2    "-DNOKOGIRI_LIBXML2_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"0001-Fix-security-framework-bypass.patch\"" -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic    /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:16:57: error: ‘xsltParseStylesheetDoc’ undeclared (first use in this function)
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))xsltParseStylesheetDoc; return !p; }
+                                                         ^~~~~~~~~~~~~~~~~~~~~~
+conftest.c:16:57: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <libxslt/xslt.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))xsltParseStylesheetDoc; return !p; }
+/* end */
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I. -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/include -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2 -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2    "-DNOKOGIRI_LIBXML2_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"0001-Fix-security-framework-bypass.patch\"" -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic    /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -lm   -lc "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <libxslt/xslt.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return 0;
+15: }
+16: extern void xsltParseStylesheetDoc();
+17: int t(void) { xsltParseStylesheetDoc(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for exsltFuncRegister() in libexslt/exslt.h... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I. -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/include -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2 -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2    "-DNOKOGIRI_LIBXML2_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"0001-Fix-security-framework-bypass.patch\"" -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic    /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -lm   -lc "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <libexslt/exslt.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))exsltFuncRegister; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlHasFeature()... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I. -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/include -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2 -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2    "-DNOKOGIRI_LIBXML2_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"0001-Fix-security-framework-bypass.patch\"" -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic    /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:14:57: error: ‘xmlHasFeature’ undeclared (first use in this function)
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlHasFeature; return !p; }
+                                                         ^~~~~~~~~~~~~
+conftest.c:14:57: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlHasFeature; return !p; }
+/* end */
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I. -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/include -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2 -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2    "-DNOKOGIRI_LIBXML2_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"0001-Fix-security-framework-bypass.patch\"" -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic    /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -lm   -lc "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void xmlHasFeature();
+15: int t(void) { xmlHasFeature(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlFirstElementChild()... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I. -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/include -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2 -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2    "-DNOKOGIRI_LIBXML2_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"0001-Fix-security-framework-bypass.patch\"" -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic    /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:14:57: error: ‘xmlFirstElementChild’ undeclared (first use in this function)
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlFirstElementChild; return !p; }
+                                                         ^~~~~~~~~~~~~~~~~~~~
+conftest.c:14:57: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlFirstElementChild; return !p; }
+/* end */
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I. -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/include -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2 -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2    "-DNOKOGIRI_LIBXML2_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"0001-Fix-security-framework-bypass.patch\"" -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic    /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -lm   -lc "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void xmlFirstElementChild();
+15: int t(void) { xmlFirstElementChild(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetParserStructuredErrors()... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I. -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/include -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2 -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2    "-DNOKOGIRI_LIBXML2_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"0001-Fix-security-framework-bypass.patch\"" -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic    /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:14:57: error: ‘xmlRelaxNGSetParserStructuredErrors’ undeclared (first use in this function)
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return !p; }
+                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+conftest.c:14:57: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return !p; }
+/* end */
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I. -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/include -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2 -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2    "-DNOKOGIRI_LIBXML2_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"0001-Fix-security-framework-bypass.patch\"" -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic    /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -lm   -lc "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void xmlRelaxNGSetParserStructuredErrors();
+15: int t(void) { xmlRelaxNGSetParserStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetParserStructuredErrors()... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I. -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/include -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2 -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2    "-DNOKOGIRI_LIBXML2_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"0001-Fix-security-framework-bypass.patch\"" -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic    /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:14:57: error: ‘xmlRelaxNGSetParserStructuredErrors’ undeclared (first use in this function)
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return !p; }
+                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+conftest.c:14:57: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return !p; }
+/* end */
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I. -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/include -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2 -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2    "-DNOKOGIRI_LIBXML2_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"0001-Fix-security-framework-bypass.patch\"" -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic    /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -lm   -lc "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void xmlRelaxNGSetParserStructuredErrors();
+15: int t(void) { xmlRelaxNGSetParserStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetValidStructuredErrors()... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I. -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/include -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2 -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2    "-DNOKOGIRI_LIBXML2_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"0001-Fix-security-framework-bypass.patch\"" -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic    /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:14:57: error: ‘xmlRelaxNGSetValidStructuredErrors’ undeclared (first use in this function)
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetValidStructuredErrors; return !p; }
+                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+conftest.c:14:57: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetValidStructuredErrors; return !p; }
+/* end */
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I. -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/include -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2 -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2    "-DNOKOGIRI_LIBXML2_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"0001-Fix-security-framework-bypass.patch\"" -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic    /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -lm   -lc "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void xmlRelaxNGSetValidStructuredErrors();
+15: int t(void) { xmlRelaxNGSetValidStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlSchemaSetValidStructuredErrors()... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I. -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/include -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2 -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2    "-DNOKOGIRI_LIBXML2_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"0001-Fix-security-framework-bypass.patch\"" -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic    /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:14:57: error: ‘xmlSchemaSetValidStructuredErrors’ undeclared (first use in this function)
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetValidStructuredErrors; return !p; }
+                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+conftest.c:14:57: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetValidStructuredErrors; return !p; }
+/* end */
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I. -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/include -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2 -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2    "-DNOKOGIRI_LIBXML2_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"0001-Fix-security-framework-bypass.patch\"" -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic    /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -lm   -lc "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void xmlSchemaSetValidStructuredErrors();
+15: int t(void) { xmlSchemaSetValidStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlSchemaSetParserStructuredErrors()... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I. -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/include -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2 -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2    "-DNOKOGIRI_LIBXML2_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"0001-Fix-security-framework-bypass.patch\"" -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic    /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:14:57: error: ‘xmlSchemaSetParserStructuredErrors’ undeclared (first use in this function)
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetParserStructuredErrors; return !p; }
+                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+conftest.c:14:57: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetParserStructuredErrors; return !p; }
+/* end */
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I. -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/include -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2 -I/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2    "-DNOKOGIRI_LIBXML2_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"0001-Fix-security-framework-bypass.patch\"" -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib -L/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -Wl,-rpath,/home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic    /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libexslt.a -lm -ldl -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33/lib/libxslt.a -ldl -lm -llzma -lz /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.a -llzma -lm   -lc "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void xmlSchemaSetParserStructuredErrors();
+15: int t(void) { xmlSchemaSetParserStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+

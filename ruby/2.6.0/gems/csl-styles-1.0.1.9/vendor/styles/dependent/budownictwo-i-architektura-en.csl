@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" default-locale="en-GB">
+  <info>
+    <title>Budownictwo i Architektura (English)</title>
+    <id>http://www.zotero.org/styles/budownictwo-i-architektura-en</id>
+    <link href="http://www.zotero.org/styles/budownictwo-i-architektura-en" rel="self"/>
+    <link href="http://www.zotero.org/styles/budownictwo-i-architektura-pl" rel="independent-parent"/>
+    <link href="http://bud-arch.pollub.pl/index.php/pl/dla-autorow/" rel="documentation"/>
+    <contributor>
+      <name>Łukasz Borowski</name>
+      <email>l.borowski@pollub.pl</email>
+    </contributor>
+    <category citation-format="numeric"/>
+    <category field="engineering"/>
+    <issn>1899-0665</issn>
+    <updated>2016-12-20T05:43:54+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+</style>

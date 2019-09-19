@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" default-locale="en-US">
+  <info>
+    <title>Molecular Nutrition &amp; Food Research</title>
+    <id>http://www.zotero.org/styles/molecular-nutrition-and-food-research</id>
+    <link href="http://www.zotero.org/styles/molecular-nutrition-and-food-research" rel="self"/>
+    <link href="http://www.zotero.org/styles/engineering-in-life-sciences" rel="independent-parent"/>
+    <link href="http://onlinelibrary.wiley.com/journal/10.1002/%28ISSN%291613-4133/homepage/ForAuthors.html" rel="documentation"/>
+    <author>
+      <name>Philipp Zumstein</name>
+      <uri>https://github.com/zuphilip</uri>
+    </author>
+    <category citation-format="numeric"/>
+    <category field="chemistry"/>
+    <category field="biology"/>
+    <issn>1613-4125</issn>
+    <eissn>1613-4133</eissn>
+    <summary>A single dependent style for a Wiley journal.</summary>
+    <updated>2015-12-16T04:06:37+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+</style>

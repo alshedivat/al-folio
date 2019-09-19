@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" default-locale="de-DE">
+  <info>
+    <title>o-bib (German)</title>
+    <id>http://www.zotero.org/styles/o-bib</id>
+    <link href="http://www.zotero.org/styles/o-bib" rel="self"/>
+    <link href="http://www.zotero.org/styles/chicago-fullnote-bibliography" rel="independent-parent"/>
+    <link href="https://www.o-bib.de/about/submissions#authorGuidelines" rel="documentation"/>
+    <category citation-format="note"/>
+    <category field="humanities"/>
+    <eissn>2363-9814</eissn>
+    <summary>Ab Heft 1/2016 wird kein eigener Zitierstil mehr zugrunde gelegt, sondern der Chicago-Stil (deutsch, mit Fußnoten) verwendet.</summary>
+    <updated>2016-03-14T00:34:00+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+</style>

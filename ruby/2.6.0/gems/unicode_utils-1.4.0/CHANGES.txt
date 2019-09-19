@@ -1,0 +1,49 @@
+== 1.4.0, 2012-09-30
+
+Updated to Unicode 6.2.0.
+
+* UnicodeUtils.debug accepts single Integer code point
+
+New methods in UnicodeUtils:
+
+* white_space_char?
+
+All tests pass with jruby-1.7.0.RC1. Not all tests pass with
+MRI 1.9.3p194 due to unexptected behaviour of String#<< with
+UTF-16 strings. As long as you use only UTF-8, there's no problem.
+
+== 1.3.0, 2012-03-07
+
+Updated to Unicode 6.1.0.
+
+New methods in UnicodeUtils:
+
+* code_point_type
+* name_aliases
+* sid (string identifier)
+
+New constants in UnicodeUtils:
+
+* UNICODE_VERSION
+
+== 1.2.2, 2011-11-27
+
+New methods in UnicodeUtils:
+
+* east_asian_width
+* display_width
+* default_ignorable_char_q
+* gc
+* graphic_char_q
+* general_category
+* char_type
+* char_display_width
+* debug
+
+== 1.1.2, 2011-11-18
+
+Updated to Unicode 6.0.0. No additions to API.
+
+== 1.0.0, 2009-01-30
+
+First release, conforms to Unicode 5.1.0.

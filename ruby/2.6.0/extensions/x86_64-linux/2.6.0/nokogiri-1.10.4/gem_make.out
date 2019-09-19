@@ -1,0 +1,154 @@
+current directory: /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ext/nokogiri
+/mnt/isilon/linux_pool_software/ruby/2.6.4/bin/ruby -I /mnt/isilon/linux_pool_software/ruby/2.6.4/lib/ruby/2.6.0 -r ./siteconf20190919-7876-meviu7.rb extconf.rb
+checking if the C compiler accepts ... yes
+Building nokogiri using packaged libraries.
+Using mini_portile version 2.4.0
+checking for gzdopen() in -lz... yes
+checking for iconv... yes
+************************************************************************
+IMPORTANT NOTICE:
+
+Building Nokogiri with a packaged version of libxml2-2.9.9
+with the following patches applied:
+	- 0001-Revert-Do-not-URI-escape-in-server-side-includes.patch
+	- 0002-Remove-script-macro-support.patch
+	- 0003-Update-entities-to-remove-handling-of-ssi.patch
+
+Team Nokogiri will keep on doing their best to provide security
+updates in a timely manner, but if this is a concern for you and want
+to use the system library instead; abort this installation process and
+reinstall nokogiri as follows:
+
+    gem install nokogiri -- --use-system-libraries
+        [--with-xml2-config=/path/to/xml2-config]
+        [--with-xslt-config=/path/to/xslt-config]
+
+If you are using Bundler, tell it to use the option:
+
+    bundle config build.nokogiri --use-system-libraries
+    bundle install
+
+Note, however, that nokogiri is not fully compatible with arbitrary
+versions of libxml2 provided by OS/package vendors.
+************************************************************************
+Extracting libxml2-2.9.9.tar.gz into tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.9... OK
+Running git apply with /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/patches/libxml2/0001-Revert-Do-not-URI-escape-in-server-side-includes.patch... OK
+Running git apply with /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/patches/libxml2/0002-Remove-script-macro-support.patch... OK
+Running git apply with /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/patches/libxml2/0003-Update-entities-to-remove-handling-of-ssi.patch... OK
+Running 'configure' for libxml2 2.9.9... OK
+Running 'compile' for libxml2 2.9.9... OK
+Running 'install' for libxml2 2.9.9... OK
+Activating libxml2 2.9.9 (from /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxml2/2.9.9)...
+************************************************************************
+IMPORTANT NOTICE:
+
+Building Nokogiri with a packaged version of libxslt-1.1.33
+with the following patches applied:
+	- 0001-Fix-security-framework-bypass.patch
+
+Team Nokogiri will keep on doing their best to provide security
+updates in a timely manner, but if this is a concern for you and want
+to use the system library instead; abort this installation process and
+reinstall nokogiri as follows:
+
+    gem install nokogiri -- --use-system-libraries
+        [--with-xml2-config=/path/to/xml2-config]
+        [--with-xslt-config=/path/to/xslt-config]
+
+If you are using Bundler, tell it to use the option:
+
+    bundle config build.nokogiri --use-system-libraries
+    bundle install
+************************************************************************
+Extracting libxslt-1.1.33.tar.gz into tmp/x86_64-pc-linux-gnu/ports/libxslt/1.1.33... OK
+Running git apply with /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/patches/libxslt/0001-Fix-security-framework-bypass.patch... OK
+Running 'configure' for libxslt 1.1.33... OK
+Running 'compile' for libxslt 1.1.33... OK
+Running 'install' for libxslt 1.1.33... OK
+Activating libxslt 1.1.33 (from /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-pc-linux-gnu/libxslt/1.1.33)...
+checking for -llzma... yes
+checking for xmlParseDoc() in libxml/parser.h... yes
+checking for xsltParseStylesheetDoc() in libxslt/xslt.h... yes
+checking for exsltFuncRegister() in libexslt/exslt.h... yes
+checking for xmlHasFeature()... yes
+checking for xmlFirstElementChild()... yes
+checking for xmlRelaxNGSetParserStructuredErrors()... yes
+checking for xmlRelaxNGSetParserStructuredErrors()... yes
+checking for xmlRelaxNGSetValidStructuredErrors()... yes
+checking for xmlSchemaSetValidStructuredErrors()... yes
+checking for xmlSchemaSetParserStructuredErrors()... yes
+creating Makefile
+
+current directory: /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ext/nokogiri
+make "DESTDIR=" clean
+
+current directory: /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ext/nokogiri
+make "DESTDIR="
+compiling html_document.c
+compiling html_element_description.c
+compiling html_entity_lookup.c
+compiling html_sax_parser_context.c
+compiling html_sax_push_parser.c
+compiling nokogiri.c
+compiling xml_attr.c
+compiling xml_attribute_decl.c
+compiling xml_cdata.c
+compiling xml_comment.c
+compiling xml_document.c
+compiling xml_document_fragment.c
+compiling xml_dtd.c
+compiling xml_element_content.c
+compiling xml_element_decl.c
+compiling xml_encoding_handler.c
+compiling xml_entity_decl.c
+compiling xml_entity_reference.c
+compiling xml_io.c
+compiling xml_libxml2_hacks.c
+compiling xml_namespace.c
+compiling xml_node.c
+xml_node.c: In function ‘reparent_node_with’:
+xml_node.c:304:29: warning: passing argument 1 of ‘xmlFree’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+       xmlFree(reparentee->ns->prefix);
+               ~~~~~~~~~~~~~~^~~~~~~~
+xml_node.c:304:29: note: expected ‘void *’ but argument is of type ‘const xmlChar *’ {aka ‘const unsigned char *’}
+xml_node.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling xml_node_set.c
+compiling xml_processing_instruction.c
+compiling xml_reader.c
+compiling xml_relax_ng.c
+compiling xml_sax_parser.c
+compiling xml_sax_parser_context.c
+compiling xml_sax_push_parser.c
+compiling xml_schema.c
+compiling xml_syntax_error.c
+compiling xml_text.c
+compiling xml_xpath_context.c
+xml_xpath_context.c: In function ‘Nokogiri_marshal_xpath_funcall_and_return_values’:
+xml_xpath_context.c:133:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+       if(rb_obj_is_kind_of(result, cNokogiriXmlNodeSet)) {
+         ^
+xml_xpath_context.c:139:5: note: here
+     default:
+     ^~~~~~~
+xml_xpath_context.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling xslt_stylesheet.c
+xslt_stylesheet.c:112:13: warning: ‘swallow_superfluous_xml_errors’ defined but not used [-Wunused-function]
+ static void swallow_superfluous_xml_errors(void * userdata, xmlErrorPtr error, ...)
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+linking shared-object nokogiri/nokogiri.so
+Cleaning files only used during build.
+rm -rf /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports
+rm -rf /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ports
+
+current directory: /home/pengt/github/taopeng.io/ruby/2.6.0/gems/nokogiri-1.10.4/ext/nokogiri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 nokogiri.so ./.gem.20190919-7876-1rq96xh/nokogiri

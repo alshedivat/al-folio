@@ -1,0 +1,13 @@
+rvm:
+  - 2.3
+  - 2.4
+  - 2.5
+before_install: gem install bundler
+language: ruby
+script: script/cibuild
+sudo: false
+cache: bundler
+
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true

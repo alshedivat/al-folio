@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text" default-locale="en-US" demote-non-dropping-particle="sort-only" page-range-format="expanded">
+  <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
+  <info>
+    <title>Microbial Drug Resistance</title>
+    <id>http://www.zotero.org/styles/microbial-drug-resistance</id>
+    <link href="http://www.zotero.org/styles/microbial-drug-resistance" rel="self"/>
+    <link href="http://www.zotero.org/styles/cell" rel="template"/>
+    <link href="http://www.liebertpub.com/manuscript/microbial-drug-resistance/44/" rel="documentation"/>
+    <author>
+      <name>Sebastian Karcher</name>
+    </author>
+    <contributor>
+      <name>Jessica Chong</name>
+      <email>jxchong@gmail.com</email>
+    </contributor>
+    <category citation-format="numeric"/>
+    <category field="biology"/>
+    <issn>1076-6294</issn>
+    <eissn>1931-8448</eissn>
+    <updated>2014-08-28T01:36:46+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+  <macro name="author">
+    <names variable="author" font-weight="bold">
+      <name and="text" delimiter-precedes-last="always" initialize-with="." name-as-sort-order="first"/>
+      <label form="short" prefix=" (" suffix=")"/>
+      <et-al font-style="italic"/>
+      <substitute>
+        <names variable="editor"/>
+      </substitute>
+    </names>
+  </macro>
+  <macro name="issued">
+    <date variable="issued">
+      <date-part name="year"/>
+    </date>
+  </macro>
+  <macro name="publisher">
+    <group delimiter=", ">
+      <text variable="publisher"/>
+      <text variable="publisher-place"/>
+    </group>
+  </macro>
+  <macro name="editor">
+    <names variable="editor">
+      <name initialize-with="." and="text" delimiter-precedes-last="always"/>
+      <label form="short" prefix=" (" suffix=")"/>
+    </names>
+  </macro>
+  <citation collapse="citation-number">
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
+    <layout delimiter="," vertical-align="sup">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+  <bibliography et-al-min="7" et-al-use-first="6">
+    <sort>
+      <key macro="author" names-min="1" names-use-first="1"/>
+      <key macro="issued"/>
+    </sort>
+    <layout suffix=".">
+      <text variable="citation-number" suffix=". "/>
+      <group delimiter=". ">
+        <text macro="author"/>
+        <text macro="issued"/>
+        <text variable="title"/>
+        <group>
+          <choose>
+            <if type="article article-magazine article-newspaper article-journal review" match="any">
+              <group delimiter=" ">
+                <text variable="container-title" form="short" text-case="title"/>
+                <group delimiter=":">
+                  <text variable="volume" font-weight="bold"/>
+                  <text variable="page"/>
+                </group>
+              </group>
+            </if>
+            <else-if type="chapter paper-conference" match="any">
+              <text term="in" text-case="capitalize-first" suffix=" "/>
+              <group delimiter=", ">
+                <text macro="editor"/>
+                <group delimiter=". ">
+                  <text variable="container-title" text-case="title"/>
+                  <text macro="publisher"/>
+                </group>
+                <group delimiter=" ">
+                  <label variable="page" form="short"/>
+                  <text variable="page"/>
+                </group>
+              </group>
+            </else-if>
+            <else-if type="thesis">
+              <text variable="genre" suffix="."/>
+              <text variable="publisher"/>
+            </else-if>
+            <else>
+              <text macro="publisher"/>
+            </else>
+          </choose>
+        </group>
+      </group>
+    </layout>
+  </bibliography>
+</style>

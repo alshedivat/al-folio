@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text" default-locale="en-US">
+  <info>
+    <title>National Science Foundation (grant proposals)</title>
+    <title-short>NSF</title-short>
+    <id>http://www.zotero.org/styles/national-science-foundation-grant-proposals</id>
+    <link href="http://www.zotero.org/styles/national-science-foundation-grant-proposals" rel="self"/>
+    <link href="http://www.nsf.gov/pubs/policydocs/pappguide/nsf11001/gpg_2.jsp#IIC2e" rel="documentation"/>
+    <author>
+      <name>kaushik panda</name>
+      <email>panda.10@osu.edu</email>
+    </author>
+    <contributor>
+      <name>David M. Kaplan</name>
+      <email>dmkaplan2000@gmail.com</email>
+    </contributor>
+    <category citation-format="numeric"/>
+    <category field="biology"/>
+    <updated>2015-04-09T19:24:57+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+  <citation collapse="citation-number">
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
+    <layout prefix="[" suffix="]" delimiter=", ">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+  <bibliography>
+    <layout>
+      <text variable="citation-number" suffix=". "/>
+      <names variable="author" suffix=". ">
+        <name and="text" delimiter=", " name-as-sort-order="all" sort-separator=", " form="long" initialize-with=". "/>
+      </names>
+      <text variable="title" suffix=" " font-weight="bold" quotes="true" text-case="title"/>
+      <text variable="container-title" suffix=" " font-style="italic"/>
+      <text variable="volume" suffix=", "/>
+      <text variable="issue" prefix="no. " suffix=" "/>
+      <date variable="issued" prefix="(" suffix="): ">
+        <date-part name="year" form="long"/>
+      </date>
+      <text variable="page" suffix=". "/>
+      <group delimiter=", ">
+        <text variable="DOI" prefix="doi:"/>
+        <text variable="URL" prefix="Available at " suffix=" "/>
+      </group>
+    </layout>
+  </bibliography>
+</style>

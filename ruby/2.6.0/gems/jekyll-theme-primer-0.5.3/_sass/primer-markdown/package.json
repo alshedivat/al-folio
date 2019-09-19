@@ -1,0 +1,74 @@
+{
+  "_from": "primer-markdown@3.7.5",
+  "_id": "primer-markdown@3.7.5",
+  "_inBundle": false,
+  "_integrity": "sha1-u45RZGhGomtoqrTZ54WMLjbSmPg=",
+  "_location": "/primer-markdown",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "primer-markdown@3.7.5",
+    "name": "primer-markdown",
+    "escapedName": "primer-markdown",
+    "rawSpec": "3.7.5",
+    "saveSpec": null,
+    "fetchSpec": "3.7.5"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/primer-markdown/-/primer-markdown-3.7.5.tgz",
+  "_shasum": "bb8e51646846a26b68aab4d9e7858c2e36d298f8",
+  "_spec": "primer-markdown@3.7.5",
+  "_where": "/Users/benbalter/projects/pages-themes/primer",
+  "author": {
+    "name": "GitHub, Inc."
+  },
+  "bugs": {
+    "url": "https://github.com/primer/primer/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "primer-support": "4.5.2"
+  },
+  "deprecated": false,
+  "description": "GitHub stylesheets for rendering markdown.",
+  "files": [
+    "index.scss",
+    "lib",
+    "build"
+  ],
+  "homepage": "https://github.com/primer/primer-markdown",
+  "keywords": [
+    "github",
+    "markdown",
+    "css",
+    "scss",
+    "primer",
+    "style",
+    "stylesheets",
+    "md"
+  ],
+  "license": "MIT",
+  "main": "build/index.js",
+  "name": "primer-markdown",
+  "primer": {
+    "category": "product",
+    "module_type": "components"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/primer/primer/tree/master/modules/primer-markdown"
+  },
+  "sass": "index.scss",
+  "scripts": {
+    "build": "../../script/npm-run primer-module-build index.scss",
+    "lint": "../../script/lint-scss",
+    "prepare": "npm run build",
+    "test": "../../script/npm-run-all build lint"
+  },
+  "style": "build/build.css",
+  "version": "3.7.5"
+}

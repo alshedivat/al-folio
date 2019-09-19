@@ -1,0 +1,25 @@
+language: ruby
+cache: bundler
+sudo: false
+rvm:
+- 2.5
+- 2.4
+- 2.3
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+before_install:
+- gem update --system
+- gem install bundler
+before_script: bundle update
+script: script/cibuild
+notifications:
+  email: false
+deploy:
+  provider: rubygems
+  api_key:
+    secure: qz0q6ur0kGo03jjLdoAak6WcEAwxX2r9LG3DVrhOrcfoFipkuW+uwR0et4tpK8uFrz0P9y7eTIKOb0XCXeIsIXWj6R5benpRGr2U8m9A+tE/jxviBFUaxaokte0lqWiX1fEyhRmW3zvcdLQ47Vd2EwTNaq6ZmPulmEe9gS0rBQghyclakGlZ17LI7oGgiNL9SQ335Yqa1qJklTHYHbodWQ3Z07v7VN2jxqi3WH6NacT5gUGp5iCNCLLa8+jpKr4uONNIoy6/geAWdqtvgGUE8oTjIWDoJarrknJpqfx9Rd0KLDzkyneAigHDYPW60QtrE6GGpK/+TF1pF4DzdK2EgTWqGFnZf8ehfnxmtHVl2Xq/DPr6hS8Q/f+ut4ioMzBQxPD0hfh8/EOMYKsO8mOuOlYTiZXC7iuGyvFUOl2hnBgWA99t+I0NNB06qFp3ZxIjolEc3zjzc9f1a5HUXlEut5V8nqvCwbctNiTVpT8ZEWlsQlyRUnr9cIMUTEfLgQ+v6DnvAJBMO1EILq6liB5qfutjNhzhlREt7P/ZdppGsAzWpgt0q2PafqVoPe62WR3+/8Lj2ErMr034xSSqZVNcBS0mbdvW6k3jaABo1VJ4XuHm6/yDuemWzWb7kdG9/14+IIJMW1VuaWcmnCnB6gxjkCW3Dm2ftYiN7Rfn3AUz/nU=
+  gem: jekyll-feed
+  on:
+    tags: true
+    repo: jekyll/jekyll-feed

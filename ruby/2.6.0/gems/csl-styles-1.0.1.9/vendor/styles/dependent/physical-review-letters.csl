@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" default-locale="en-US">
+  <info>
+    <title>Physical Review Letters</title>
+    <id>http://www.zotero.org/styles/physical-review-letters</id>
+    <link href="http://www.zotero.org/styles/physical-review-letters" rel="self"/>
+    <link href="http://www.zotero.org/styles/american-physics-society" rel="independent-parent"/>
+    <link href="http://authors.aps.org/STYLE/ms.html#citations" rel="documentation"/>
+    <author>
+      <name>Richard Karnesky</name>
+      <email>karnesky+zotero@gmail.com</email>
+      <uri>http://arc.nucapt.northwestern.edu/Richard_Karnesky</uri>
+    </author>
+    <category citation-format="numeric"/>
+    <category field="physics"/>
+    <issn>0031-9007</issn>
+    <eissn>1079-7114</eissn>
+    <summary>A style for APS's journal "Physical Review Letters"</summary>
+    <updated>2013-03-29T23:50:45+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+</style>

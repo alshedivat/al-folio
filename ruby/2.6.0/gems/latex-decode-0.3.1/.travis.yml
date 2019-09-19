@@ -1,0 +1,22 @@
+language: ruby
+bundler_args: --without debug
+sudo: false
+cache: bundler
+before_install:
+  - gem update --system
+  - gem update bundler
+rvm:
+  - 2.0.0
+  - 2.1.0
+  - 2.2.0
+  - 2.3.0
+  - 2.4.0
+  - jruby-19mode
+  - jruby-head
+#- rbx-2
+notifications:
+  email:
+    recipients:
+      - sylvester@keil.or.at
+    on_success: change
+    on_failure: always

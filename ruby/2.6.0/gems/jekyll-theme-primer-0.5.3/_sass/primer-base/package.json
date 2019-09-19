@@ -1,0 +1,73 @@
+{
+  "_from": "primer-base@1.7.0",
+  "_id": "primer-base@1.7.0",
+  "_inBundle": false,
+  "_integrity": "sha1-38I7P0hUN+NvjbyPAqZNz4Kt7W0=",
+  "_location": "/primer-base",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "primer-base@1.7.0",
+    "name": "primer-base",
+    "escapedName": "primer-base",
+    "rawSpec": "1.7.0",
+    "saveSpec": null,
+    "fetchSpec": "1.7.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/primer-base/-/primer-base-1.7.0.tgz",
+  "_shasum": "dfc23b3f485437e36f8dbc8f02a64dcf82aded6d",
+  "_spec": "primer-base@1.7.0",
+  "_where": "/Users/benbalter/projects/pages-themes/primer",
+  "author": {
+    "name": "GitHub, Inc."
+  },
+  "bugs": {
+    "url": "https://github.com/primer/primer/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "primer-support": "4.5.2"
+  },
+  "deprecated": false,
+  "description": "CSS to reset the browsers default styles",
+  "files": [
+    "index.scss",
+    "lib",
+    "build"
+  ],
+  "homepage": "http://primer.github.io/",
+  "keywords": [
+    "primer",
+    "css",
+    "github",
+    "design-system",
+    "base",
+    "reset",
+    "normalize"
+  ],
+  "license": "MIT",
+  "main": "build/index.js",
+  "name": "primer-base",
+  "primer": {
+    "category": "core",
+    "module_type": "support"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/primer/primer/tree/master/modules/primer-base"
+  },
+  "sass": "index.scss",
+  "scripts": {
+    "build": "../../script/npm-run primer-module-build index.scss",
+    "lint": "../../script/lint-scss",
+    "prepare": "npm run build",
+    "test": "../../script/npm-run-all build lint"
+  },
+  "style": "build/build.css",
+  "version": "1.7.0"
+}

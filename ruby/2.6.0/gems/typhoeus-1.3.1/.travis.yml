@@ -1,0 +1,22 @@
+language: ruby
+script: "bundle exec rake"
+sudo: false
+rvm:
+  - 1.8.7
+  - 1.9.2
+  - 1.9.3
+  - 2.0.0
+  - 2.1.8
+  - 2.2.4
+  - 2.3.0
+  - 2.4.1
+  - ruby-head
+  - jruby-head
+  - jruby-18mode
+  - jruby-19mode
+matrix: 
+  fast_finish: true
+  allow_failures:
+    - rvm: ruby-head
+    - rvm: jruby-head
+    - rvm: ree

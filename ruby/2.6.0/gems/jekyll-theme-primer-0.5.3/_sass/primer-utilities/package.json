@@ -1,0 +1,71 @@
+{
+  "_from": "primer-utilities@4.9.0",
+  "_id": "primer-utilities@4.9.0",
+  "_inBundle": false,
+  "_integrity": "sha1-KI9tuY7vsC/pFHEejs4dk6y07yk=",
+  "_location": "/primer-utilities",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "primer-utilities@4.9.0",
+    "name": "primer-utilities",
+    "escapedName": "primer-utilities",
+    "rawSpec": "4.9.0",
+    "saveSpec": null,
+    "fetchSpec": "4.9.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/primer-utilities/-/primer-utilities-4.9.0.tgz",
+  "_shasum": "288f6db98eefb02fe914711e8ece1d93acb4ef29",
+  "_spec": "primer-utilities@4.9.0",
+  "_where": "/Users/benbalter/projects/pages-themes/primer",
+  "author": {
+    "name": "GitHub, Inc."
+  },
+  "bugs": {
+    "url": "https://github.com/primer/primer/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "primer-support": "4.5.2"
+  },
+  "deprecated": false,
+  "description": "Immutable, atomic CSS classes to rapidly build product",
+  "files": [
+    "index.scss",
+    "lib",
+    "build",
+    "docs"
+  ],
+  "homepage": "http://primer.github.io/",
+  "keywords": [
+    "primer",
+    "css",
+    "github",
+    "design-system"
+  ],
+  "license": "MIT",
+  "main": "build/index.js",
+  "name": "primer-utilities",
+  "primer": {
+    "category": "core",
+    "module_type": "utilities"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/primer/primer/tree/master/modules/primer-utilities"
+  },
+  "sass": "index.scss",
+  "scripts": {
+    "build": "../../script/npm-run primer-module-build index.scss",
+    "lint": "../../script/lint-scss",
+    "prepare": "npm run build",
+    "test": "../../script/npm-run-all build lint"
+  },
+  "style": "build/build.css",
+  "version": "4.9.0"
+}

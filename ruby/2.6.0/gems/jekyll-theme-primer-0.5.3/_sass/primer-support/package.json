@@ -1,0 +1,73 @@
+{
+  "_from": "primer-support@4.5.2",
+  "_id": "primer-support@4.5.2",
+  "_inBundle": false,
+  "_integrity": "sha1-2quaSIgbaVPo5soBhlovQVv3d8U=",
+  "_location": "/primer-support",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "primer-support@4.5.2",
+    "name": "primer-support",
+    "escapedName": "primer-support",
+    "rawSpec": "4.5.2",
+    "saveSpec": null,
+    "fetchSpec": "4.5.2"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/",
+    "/primer-base",
+    "/primer-layout",
+    "/primer-markdown",
+    "/primer-utilities"
+  ],
+  "_resolved": "https://registry.npmjs.org/primer-support/-/primer-support-4.5.2.tgz",
+  "_shasum": "daab9a48881b6953e8e6ca01865a2f415bf777c5",
+  "_spec": "primer-support@4.5.2",
+  "_where": "/Users/benbalter/projects/pages-themes/primer",
+  "author": {
+    "name": "GitHub, Inc."
+  },
+  "bugs": {
+    "url": "https://github.com/primer/primer/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Sass variables, mixins, and functions for use in our components.",
+  "files": [
+    "index.scss",
+    "lib",
+    "docs"
+  ],
+  "homepage": "http://primer.github.io/",
+  "keywords": [
+    "primer",
+    "css",
+    "github",
+    "design-system",
+    "mixins",
+    "functions",
+    "variables",
+    "scss"
+  ],
+  "license": "MIT",
+  "name": "primer-support",
+  "primer": {
+    "category": "core",
+    "module_type": "support"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/primer/primer/tree/master/modules/primer-support"
+  },
+  "sass": "index.scss",
+  "scripts": {
+    "build": "../../script/npm-run primer-module-build index.scss",
+    "lint": "../../script/lint-scss",
+    "test": "npm run lint"
+  },
+  "style": "build/build.css",
+  "version": "4.5.2"
+}

@@ -1,0 +1,23 @@
+inherit_gem:
+  jekyll: .rubocop.yml
+
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - vendor/**/*
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*
+
+Metrics/LineLength:
+  Exclude:
+    - spec/**/*
+
+Naming/MemoizedInstanceVariableName:
+  Exclude:
+    - lib/jekyll-redirect-from/page_without_a_file.rb
+
+Naming/UncommunicativeMethodParamName:
+  Exclude:
+    - lib/jekyll-redirect-from/redirect_page.rb

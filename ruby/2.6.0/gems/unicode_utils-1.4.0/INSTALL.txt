@@ -1,0 +1,37 @@
+== Installing UnicodeUtils
+
+The easiest way to install UnicodeUtils is with RubyGems:
+
+    $ gem install unicode_utils
+
+=== Manual installation
+
+Two kinds of files must be installed:
+
+1. The library code. All files under <tt>lib/</tt> and
+   <tt>lib/unicode_utils/</tt> with suffix <tt>.rb</tt>.
+   The whole tree under <tt>lib/</tt> must be on the load path.
+
+2. The compiled Unicode data files under <tt>cdata/</tt>. UnicodeUtils
+   loads them from the <tt>UnicodeUtils::CDATA_DIR</tt> directory,
+   which is defined in <tt>read_cdata.rb</tt>.
+
+The best strategy is to copy the library files to Ruby's +sitelibdir+.
+You can get that by running:
+
+    $ ruby -r rbconfig -e "puts Config::CONFIG['sitelibdir']"
+
+Then copy all files under <tt>cdata/</tt> to
+<tt><sitelibdir>/unicode_utils</tt>. And last but not least, change
+the definition of +CDATA_DIR+ in
+<tt><sitelibdir>/unicode_utils/read_cdata.rb</tt> to
+<tt>File.absolute_path(File.dirname(\_\_FILE\_\_))</tt>.
+
+In fact, UnicodeUtils comes with an install.rb script that does
+all that:
+
+    $ ruby install.rb install
+
+or:
+
+    $ ruby install.rb install /some/other/dir

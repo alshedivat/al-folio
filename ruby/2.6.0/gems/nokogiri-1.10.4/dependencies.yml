@@ -1,0 +1,72 @@
+libxml2:
+  version: "2.9.9"
+  sha256: "94fb70890143e3c6549f265cee93ec064c80a84c42ad0f23e85ee1fd6540a871"
+  #  manually verified checksum:
+  #
+  #    $ gpg --verify libxml2-2.9.9.tar.gz.asc ports/archives/libxml2-2.9.9.tar.gz
+  #    gpg: Signature made Thu 03 Jan 2019 01:14:47 PM EST
+  #    gpg:                using RSA key 15588B26596BEA5D
+  #    gpg: Good signature from "Daniel Veillard (Red Hat work email) <veillard@redhat.com>" [unknown]
+  #    gpg:                 aka "Daniel Veillard <Daniel.Veillard@w3.org>" [unknown]
+  #    gpg: WARNING: This key is not certified with a trusted signature!
+  #    gpg:          There is no indication that the signature belongs to the owner.
+  #    Primary key fingerprint: C744 15BA 7C9C 7F78 F02E  1DC3 4606 B8A5 DE95 BC1F
+  #         Subkey fingerprint: DB46 681B B91A DCEA 170F  A2D4 1558 8B26 596B EA5D
+  #
+  #  using this pgp signature:
+  #
+  #    -----BEGIN PGP SIGNATURE-----
+  #
+  #    iQEbBAABAgAGBQJcLlEXAAoJEBVYiyZZa+pd1B8H93xeCYNBLx+eX0xe3qS3ReS/
+  #    YstjkXKUkmDQYwqQ/9Knmv1P6NX64hQL5E1pZX5sXp36giwXXJ5tCK72VRzektzU
+  #    Kpo+M1/QA9feZQs1GmyKaXYzNwTSJnsdKA9nWqTHZ3bzfdhFSZ0czo94vgY/cz5z
+  #    9P3FIgeldj1vi8p2rjXbArMFQyaxHnve9LdxI8hbudNSeUw/FEV6mjtXrlZ7MXqn
+  #    hmAkah2JwktOStF5tIlddCRqZeUPUX5flBxT95gfskXXlGEhaoGMXcC3izqqJyV2
+  #    sx5nY7fnXdkwfYsgRUXYWmDmbs8DnFjXH9lux9O4OWglLonaRoAqFPcOzE3aCw==
+  #    =4qWg
+  #    -----END PGP SIGNATURE-----
+  #
+
+libxslt:
+  version: "1.1.33"
+  sha256: "8e36605144409df979cab43d835002f63988f3dc94d5d3537c12796db90e38c8"
+  #  manually verified checksum:
+  #
+  #    $ gpg --verify libxslt-1.1.33.tar.gz.asc ports/archives/libxslt-1.1.33.tar.gz
+  #    gpg: Signature made Thu 03 Jan 2019 01:30:49 PM EST
+  #    gpg:                using RSA key 15588B26596BEA5D
+  #    gpg: Good signature from "Daniel Veillard (Red Hat work email) <veillard@redhat.com>" [unknown]
+  #    gpg:                 aka "Daniel Veillard <Daniel.Veillard@w3.org>" [unknown]
+  #    gpg: WARNING: This key is not certified with a trusted signature!
+  #    gpg:          There is no indication that the signature belongs to the owner.
+  #    Primary key fingerprint: C744 15BA 7C9C 7F78 F02E  1DC3 4606 B8A5 DE95 BC1F
+  #         Subkey fingerprint: DB46 681B B91A DCEA 170F  A2D4 1558 8B26 596B EA5D
+  #
+  #  using this pgp signature:
+  #
+  #    -----BEGIN PGP SIGNATURE-----
+  #
+  #    iQEcBAABAgAGBQJcLlTZAAoJEBVYiyZZa+pd9NkIAIf6ei2iSpR/0QOyS71esDq8
+  #    407PcUXd/yUjDANm4Uvm7kKK+SbbfBxFIPva4g984Noe1zYMfjK3u3iNs6jykySf
+  #    mN5eo2wNCxsZnqjbnsLgQvn5VCQpPInTddTuGUxgqJyvnR7p785L1oA2EStSPMP4
+  #    BGZ9dZGlbreK35WzgrhUi0VN5egJW2fpMsw7rTPvfwK+90gXL0DEm8v3WlA7fCDL
+  #    QsvuPm7jPOXxdt5bYrVP8wpNMTJIGqV6jxh7Vvl6kiGLldUjCyoCh0AGXLror0Gs
+  #    sAMlRKJNodpcCYkIWxzjLt74sUciKNrPLHZlXJcclZMONen1GWnVDcv83Tt9n6w=
+  #    =iAm8
+  #    -----END PGP SIGNATURE-----
+  #
+
+zlib:
+  version: "1.2.11"
+  sha256: "c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1"
+  # SHA-256 hash provided on http://zlib.net/
+
+libiconv:
+  version: "1.15"
+  sha256: "ccf536620a45458d26ba83887a983b96827001e92a13847b45e4925cc8913178"
+  # gpg: Signature made Fri Feb  3 00:38:12 2017 CET
+  # gpg:                using RSA key 4F494A942E4616C2
+  # gpg: Good signature from "Bruno Haible (Open Source Development) <bruno@clisp.org>" [unknown]
+  # gpg: WARNING: This key is not certified with a trusted signature!
+  # gpg:          There is no indication that the signature belongs to the owner.
+  # Primary key fingerprint: 68D9 4D8A AEEA D48A E7DC  5B90 4F49 4A94 2E46 16C2

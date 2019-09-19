@@ -1,0 +1,34 @@
+---
+sudo: required
+
+language: cpp
+
+matrix:
+  include:
+    - os: osx
+      env: HOST=arm-apple-darwin
+    - os: linux
+      compiler: gcc
+      env: HOST=i386-pc-linux-gnu MEVAL='export CC="$CC -m32" && CXX="$CXX -m32"'
+    - os: linux
+      compiler: gcc
+    - os: linux
+      compiler: gcc
+      env: CONFIGURE_OPTIONS=--disable-shared
+    - os: linux
+      compiler: clang
+    - os: linux
+      compiler: clang
+      env: CONFIGURE_OPTIONS=--disable-shared
+    - os: linux
+      env: HOST=moxie-elf MEVAL='export PATH=/opt/moxielogic/bin:$PATH && CC=moxie-elf-gcc && CXX=moxie-elf-g++' LDFLAGS=-Tsim.ld RUNTESTFLAGS="--target_board moxie-sim" DEJAGNU="$TRAVIS_BUILD_DIR/.travis/site.exp"
+
+before_install:
+  - if test x"$MEVAL" != x; then eval ${MEVAL}; fi
+
+install:
+  - ./.travis/install.sh
+
+script:
+  - if ! test x"$MEVAL" = x; then eval ${MEVAL}; fi
+  - ./.travis/build.sh

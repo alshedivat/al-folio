@@ -1,0 +1,9 @@
+timezone: UTC
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: page
+    values:
+      layout: some_default

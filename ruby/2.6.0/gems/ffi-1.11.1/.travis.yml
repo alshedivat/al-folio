@@ -1,0 +1,42 @@
+dist: trusty
+group: beta
+language: ruby
+
+script:
+  - bundle exec rake compile || bundle exec rake compile
+  - bundle exec rake test
+  - ITER=10 bundle exec rake bench:all
+os:
+  - linux
+  - osx
+rvm:
+  - 2.3.8
+  - 2.4.5
+  - 2.5.3
+  - 2.6.0
+  - ruby-head
+
+env:
+  - CC=gcc
+  - CC=clang
+matrix:
+  allow_failures:
+    - os: osx
+      rvm: ruby-head
+  include:
+    - name: powerpc
+      language: generic
+      before_install: |
+        docker run --rm --privileged multiarch/qemu-user-static:register --reset &&
+          docker build --rm -t ffi-powerpc -f spec/env/Dockerfile.powerpc .
+      script: |
+        docker run --rm -t -v `pwd`:/ffi ffi-powerpc
+    - name: armhf
+      language: generic
+      before_install: |
+        docker run --rm --privileged multiarch/qemu-user-static:register --reset &&
+          docker build --rm -t ffi-armhf -f spec/env/Dockerfile.armhf .
+      script: |
+        docker run --rm -t -v `pwd`:/ffi ffi-armhf
+after_failure:
+  - "find build -name mkmf.log | xargs cat"

@@ -1,0 +1,432 @@
+"pkg-config --exists libffi"
+| pkg-config --libs libffi
+=> "-lffi  \n"
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby  -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return 0;
+6: }
+/* end */
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.    -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby -lffi -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return 0;
+6: }
+/* end */
+
+| pkg-config --cflags-only-I libffi
+=> " \n"
+| pkg-config --cflags-only-other libffi
+=> " \n"
+| pkg-config --libs-only-l libffi
+=> "-lffi  \n"
+package configuration for libffi
+cflags: 
+ldflags: 
+libs: -lffi
+
+have_library: checking for ffi_call() in -lffi... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.     -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lffi -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby -lffi  -lffi -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ffi.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))ffi_call; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for ffi_closure_alloc()... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.     -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby -lffi  -lffi -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:14:57: error: ‘ffi_closure_alloc’ undeclared (first use in this function); did you mean ‘fcloseall’?
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))ffi_closure_alloc; return !p; }
+                                                         ^~~~~~~~~~~~~~~~~
+                                                         fcloseall
+conftest.c:14:57: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))ffi_closure_alloc; return !p; }
+/* end */
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.     -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby -lffi  -lffi -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void ffi_closure_alloc();
+15: int t(void) { ffi_closure_alloc(); return 0; }
+/* end */
+
+--------------------
+
+have_header: checking for shlwapi.h... -------------------- no
+
+"gcc -E -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.     -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC   conftest.c -o conftest.i"
+conftest.c:3:10: fatal error: shlwapi.h: No such file or directory
+ #include <shlwapi.h>
+          ^~~~~~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <shlwapi.h>
+/* end */
+
+--------------------
+
+have_func: checking for rb_thread_call_without_gvl()... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.     -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby -lffi  -lffi -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:14:57: error: ‘rb_thread_call_without_gvl’ undeclared (first use in this function); did you mean ‘rb_thread_wait_for’?
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_call_without_gvl; return !p; }
+                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                         rb_thread_wait_for
+conftest.c:14:57: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_call_without_gvl; return !p; }
+/* end */
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.     -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby -lffi  -lffi -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void rb_thread_call_without_gvl();
+15: int t(void) { rb_thread_call_without_gvl(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for ruby_native_thread_p()... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.     -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby -lffi  -lffi -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))ruby_native_thread_p; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for ruby_thread_has_gvl_p()... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.     -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby -lffi  -lffi -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:14:57: error: ‘ruby_thread_has_gvl_p’ undeclared (first use in this function); did you mean ‘rb_thread_wakeup’?
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))ruby_thread_has_gvl_p; return !p; }
+                                                         ^~~~~~~~~~~~~~~~~~~~~
+                                                         rb_thread_wakeup
+conftest.c:14:57: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))ruby_thread_has_gvl_p; return !p; }
+/* end */
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.     -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby -lffi  -lffi -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void ruby_thread_has_gvl_p();
+15: int t(void) { ruby_thread_has_gvl_p(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for ffi_prep_cif_var()... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.     -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby -lffi  -lffi -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:14:57: error: ‘ffi_prep_cif_var’ undeclared (first use in this function)
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))ffi_prep_cif_var; return !p; }
+                                                         ^~~~~~~~~~~~~~~~
+conftest.c:14:57: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))ffi_prep_cif_var; return !p; }
+/* end */
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.     -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby -lffi  -lffi -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void ffi_prep_cif_var();
+15: int t(void) { ffi_prep_cif_var(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for ffi_raw_call()... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.     -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby -lffi  -lffi -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:14:57: error: ‘ffi_raw_call’ undeclared (first use in this function); did you mean ‘rb_proc_call’?
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))ffi_raw_call; return !p; }
+                                                         ^~~~~~~~~~~~
+                                                         rb_proc_call
+conftest.c:14:57: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))ffi_raw_call; return !p; }
+/* end */
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.     -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby -lffi  -lffi -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void ffi_raw_call();
+15: int t(void) { ffi_raw_call(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for ffi_prep_raw_closure()... -------------------- yes
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.     -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby -lffi  -lffi -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:14:57: error: ‘ffi_prep_raw_closure’ undeclared (first use in this function)
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))ffi_prep_raw_closure; return !p; }
+                                                         ^~~~~~~~~~~~~~~~~~~~
+conftest.c:14:57: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))ffi_prep_raw_closure; return !p; }
+/* end */
+
+"gcc -o conftest -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/x86_64-linux -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0/ruby/backward -I/mnt/isilon/linux_pool_software/ruby/2.6.4/include/ruby-2.6.0 -I.     -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-rpath,/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -L/mnt/isilon/linux_pool_software/ruby/2.6.4/lib -lruby -lffi  -lffi -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void ffi_prep_raw_closure();
+15: int t(void) { ffi_prep_raw_closure(); return 0; }
+/* end */
+
+--------------------
+
+extconf.h is:
+/* begin */
+ 1: #ifndef EXTCONF_H
+ 2: #define EXTCONF_H
+ 3: #define HAVE_FFI_CLOSURE_ALLOC 1
+ 4: #define HAVE_RB_THREAD_CALL_WITHOUT_GVL 1
+ 5: #define HAVE_RUBY_NATIVE_THREAD_P 1
+ 6: #define HAVE_RUBY_THREAD_HAS_GVL_P 1
+ 7: #define HAVE_FFI_PREP_CIF_VAR 1
+ 8: #define HAVE_FFI_RAW_CALL 1
+ 9: #define HAVE_FFI_PREP_RAW_CLOSURE 1
+10: #define HAVE_RAW_API 1
+11: #define RUBY_1_9 1
+12: #endif
+/* end */
+

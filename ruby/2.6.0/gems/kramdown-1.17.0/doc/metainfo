@@ -1,0 +1,13 @@
+--- paths
+[/**/*.js, /**/*.css]:
+  modified_at_in_dest_path: true
+
+/**/*.scss:
+  modified_at_in_dest_path: true
+
+--- alcn
+[converter/*.html, parser/*.html, documentation.en.html, options.en.html, tests.en.html]:
+  template: ../documentation.template
+
+/**/*.css:
+  pipeline: scss,cssminify

@@ -1,0 +1,11 @@
+inherit_gem:
+  jekyll: .rubocop.yml
+
+AllCops:
+  TargetRubyVersion: 2.1
+  Include:
+    - lib/*.rb
+
+  Exclude:
+    - script/**/*
+    - spec/**/*

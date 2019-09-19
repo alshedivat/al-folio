@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="en-US">
+  <info>
+    <title>Immunological Reviews</title>
+    <id>http://www.zotero.org/styles/immunological-reviews</id>
+    <link href="http://www.zotero.org/styles/immunological-reviews" rel="self"/>
+    <link href="http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1600-065X/homepage/ForAuthors.html" rel="documentation"/>
+    <author>
+      <name>Lior Mayo</name>
+      <email>lior.mayo@gmail.com</email>
+    </author>
+    <contributor>
+      <name>Charles Parnot</name>
+      <uri>http://twitter.com/cparnot</uri>
+      <email>charles.parnot@gmail.com</email>
+    </contributor>
+    <category citation-format="numeric"/>
+    <issn>0105-2896</issn>
+    <eissn>1600-065X</eissn>
+    <updated>2017-07-03T03:48:18+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+  <citation collapse="citation-number">
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
+    <layout prefix="(" suffix=")" delimiter=", ">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+  <bibliography>
+    <layout>
+      <choose>
+        <if type="book">
+          <names variable="author" suffix=". ">
+            <name et-al-min="7" et-al-use-first="1" delimiter=", " name-as-sort-order="all" sort-separator=", " form="long" initialize-with=""/>
+          </names>
+          <text variable="title" suffix=". "/>
+          <text variable="edition" suffix="ed. "/>
+          <text variable="event-place" suffix=": "/>
+          <text variable="publisher" suffix=", "/>
+          <date variable="issued" suffix=". ">
+            <date-part name="year" form="long"/>
+          </date>
+        </if>
+        <else-if type="article-journal">
+          <text variable="citation-number" suffix=".          "/>
+          <names variable="author" suffix=". ">
+            <name et-al-min="7" et-al-use-first="3" delimiter=", " name-as-sort-order="all" sort-separator=", " form="long" initialize-with=""/>
+          </names>
+          <text variable="title" suffix=". "/>
+          <text variable="container-title" form="short" suffix=" "/>
+          <date variable="issued" suffix="; ">
+            <date-part name="year" form="long"/>
+          </date>
+          <text variable="volume" suffix=": " font-weight="bold"/>
+          <text variable="page" suffix=". "/>
+        </else-if>
+        <else>
+          <names variable="author" suffix=" ">
+            <name and="symbol" delimiter=", " name-as-sort-order="all" sort-separator=", " form="long" initialize-with="."/>
+          </names>
+          <date variable="issued" prefix="(" suffix="). ">
+            <date-part name="year" form="long"/>
+          </date>
+          <text variable="title" suffix=". "/>
+          <group delimiter=", " suffix=". ">
+            <text variable="container-title" font-style="italic"/>
+            <group>
+              <text variable="volume"/>
+              <text variable="issue" prefix="(" suffix=") "/>
+            </group>
+            <text variable="page"/>
+          </group>
+        </else>
+      </choose>
+    </layout>
+  </bibliography>
+</style>

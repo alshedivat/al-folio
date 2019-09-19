@@ -1,0 +1,16 @@
+language: ruby
+sudo: false
+cache: bundler
+matrix:
+  include:
+    - # GitHub Pages
+      rvm: 2.4.2
+      env: GH_PAGES=true
+rvm:
+  - 2.5
+  - 2.4
+  - 2.3
+before_install:
+- gem update --system
+before_script: bundle update
+script: script/cibuild

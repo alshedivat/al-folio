@@ -1,0 +1,20 @@
+inherit_gem:
+  jekyll: .rubocop.yml
+
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - vendor/**/*
+
+Metrics/LineLength:
+  Exclude:
+    - spec/**/*
+    - jekyll-seo-tag.gemspec
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*
+
+Layout/IndentHeredoc:
+  Exclude:
+    - spec/**/*
