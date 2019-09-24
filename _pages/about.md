@@ -14,7 +14,7 @@ profile:
 news: true
 social: true
 ---
-I am a first year graduate student at University of British Columbia, Vancouver. I am originally from Bombay, India.   
+I am a second year graduate student at University of British Columbia, Vancouver. I am originally from Bombay, India.   
 
 My research interests include: Formal methods; End-to-end verification of systems; Programming languages; Cyber physical systems; Operating systems; Security.
 
