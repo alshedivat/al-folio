@@ -1,23 +1,24 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: <strong>Yushu Shi</strong> Ph.D.
+description: <a href="">MD Anderson Cancer Center</a> shiyushu2006@gmail.com
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>FCT 4.6009</p>
+    <p>1400 Pressler Str</p>
+    <p>Houston, TX, 77030</p>
 
-news: true
-social: true
+news: false
+social: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am Yushu Shi.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I graduated from the School of Mathematics at Nankai University in June 2012 and later came to the Medical College of Wisconsin to pursue my Ph.D. in Biostatistics. Currently, I am a postdoctoral fellow in the Department of Biostatistics at the University of Texas, MD Anderson Cancer Center. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research has been focusing on nonparametric Bayesian models, unsupervised clustering, survival analysis and microbiome related statistical methods.
+
