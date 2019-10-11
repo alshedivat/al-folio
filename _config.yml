@@ -11,7 +11,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  
-baseurl: 
+baseurl: ''
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
