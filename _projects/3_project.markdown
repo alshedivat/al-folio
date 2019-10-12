@@ -1,56 +1,16 @@
 ---
 layout: page
-title: Project 3
-description: a project that redirects to another website
-img:
+title: Time to Read Prediction
+description: better reading time predictions
+img: /assets/img/ttr.jpg
 redirect: https://unsplash.com
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+Demo at [this link](http://orionweller.com/ttr/)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+For my Data Science Capstone project, I worked with Adobe Analytics to improve the standard time-to-read model of 240 wpm.  This naive model doesn't take any factors into account, other than the length of the article.  We conducted a statistical study on Mechanical Turk using fractional factorial design to gather data, then used machine learning techniques to improve upon the naive model.
 
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Abstract:
+In order to help its Web Analytics clients create beter online written content, Adobe wanted to more acurately predict the average time-to-read for a wide range of written content. The industry-standard metrics,(such as time-on-page and the “standard” reading speed of 240 words per minute), do not reliably predict reading time for the various types of  online and written content available today.  We first used fractional factorial survey design to crowdsource data on Mechanical Turk and then created an improved 8-factor model that more accurately predicts time-to-read for various types of writen content.
 
-
-<div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
-
-
-<div class="img_row">
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-<br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
-
-<div class="img_row">
-    <img class="col two left" src="/img/6.jpg"/>
-    <img class="col one left" src="/img/11.jpg"/>
-</div>
+Poster found here: link to come.
