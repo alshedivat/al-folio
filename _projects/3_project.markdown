@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Time to Read Prediction
+title: Reading Time Prediction
 description: better reading time predictions
 img: /assets/img/ttr.jpg
-redirect: https://unsplash.com
+# redirect: https://unsplash.com
 ---
 
 Demo at [this link](http://orionweller.com/ttr/)

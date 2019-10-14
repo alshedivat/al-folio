@@ -1,7 +1,7 @@
 ---
 layout: page
-title: BYU Housing
-description: Easy Apartment Finding
+title: BYU Housing Finder
+description: 
 img: /assets/img/android.jpg
 ---
 
