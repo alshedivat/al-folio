@@ -1,23 +1,31 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
+title: <strong>Nikos</strong> Tsiknakis
 description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  job: >
+    <p>Software Engineer @</p>
+    <p>Computational BioMedicine Laboratory,</p>
+    <p>ICS FORTH</p>
+  # address: >
+  #   <p>Office 208</p>
+  #   <p>N. Plastira 100 Vassilika Vouton</p>
+  #   <p>GR-70013 Heraklion, Crete, Greece</p>
 
 news: true
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Research Software Engineer in the Computational BioMedicine Laboratory, at the Institute of Computer Science, Foundation of Research and Technology - Hellas.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My main areas of interest relate to Artificial Intelligence, Machine Learning, Big Data, Data Science, Image Processing, Computer Vision and Biomedical Engineering.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Aside from academic work, I love developing side projects which usually have to do with Smart Home applications, my Homelab (Linux Desktop & Home Server and Networking).
+
+I also enjoy hiking and outdoors activities, playing basketball, tennis and walking around the city. I love travelling around the world and getting to know new cultures, people, cities and the nature.
+
+
