@@ -1,10 +1,12 @@
 @charset "UTF-8";
-html{
-    margin-left: calc(100vw - 100%);
-    margin-right: 0;
+
+html {
+  margin-left: calc(100vw - 100%);
+  margin-right: 0;
 }
 
-html, body {
+html,
+body {
   height: auto;
   min-height: 100%;
   -webkit-text-size-adjust: 100%;
@@ -20,17 +22,17 @@ em img {
 }
 
 body {
-          box-sizing: border-box;
-     -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
 
 .wrapper {
-    max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
-    max-width:         calc(800px - (#{$horizontal-spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $horizontal-spacing-unit;
-    padding-left: $horizontal-spacing-unit;
-    @extend .clearfix;
+  max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
+  max-width: calc(800px - (#{$horizontal-spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $horizontal-spacing-unit;
+  padding-left: $horizontal-spacing-unit;
+  @extend .clearfix;
 }

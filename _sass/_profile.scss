@@ -4,10 +4,21 @@
         width: 100%;
     }
 }
+
 .address {
     font-family: monospace;
 
-    p { margin: 0; }
+    p {
+        margin: 0;
+    }
+}
+
+.job {
+    font-family: monospace;
+
+    p {
+        margin: 0;
+    }
 }
 
 .news {
@@ -20,14 +31,23 @@
         margin-top: 0;
         margin-bottom: 10px;
     }
+
     table {
         border-collapse: collapse;
         width: 100%;
 
-        .date { width: 19%; }
-        .announcement { width: 81%; }
+        .date {
+            width: 19%;
+        }
 
-        tr { text-align: left; }
+        .announcement {
+            width: 81%;
+        }
+
+        tr {
+            text-align: left;
+        }
+
         td {
             padding: 6px 0;
             vertical-align: top;
