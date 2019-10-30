@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 title: Zhuosong Zhang 
-email: zhuosongz@unimelb.edu.au
+email: stazz@nus.edu.sg
 description: > # this means to ignore newlines until "url:"
   Welcome to my Homepage! 
 footer_text: >
@@ -12,7 +12,7 @@ footer_text: >
 
 url:  # the base hostname & protocol for your site
 baseurl: #/al-folio # the subpath of your site, e.g. /blog/
-last_updated: Dec 23 2018 # leave blank if you don't want to display last updated
+last_updated: Oct 30 2019 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Social integration
