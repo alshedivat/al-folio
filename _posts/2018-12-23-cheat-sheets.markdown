@@ -116,7 +116,76 @@ Bla.
 
 * ` --append-textcmd=conep`. 
 
+###  long text in equation environment, with line break:  use `\parbox` command, for example:
 
+```
+\begin{gather}
+\sup_{x \in J} \int_{\mathbb{R}} y^2 f \( y | x \) \dd y = M_0 < \infty; {
+\E \lvert Y \rvert^{\lambda} < \infty, \quad  \text{with} \ 2 < \lambda \leq \infty; \\
+0 < m_1 \leq f_0 \( x \) \leq M_1 < \infty, \quad  x \in J; \\
+\text{\parbox{9cm}{the functions $f_0\( x \)$ and $g_0 \( x \) = \int y f\( x, y \) \dd y $ are ulL\-$\alpha$  on $J$,  with $0 < \alpha \leq 1$\.}}
+\end{gather}
+```
+
+
+
+###  tcolorbox environment with page break: use `breakable` tag in the tcolorbox option\.
+_
+```
+\documentclass{article}
+\usepackage{lipsum} % generate dummy text
+\usepackage{color}
+\usepackage[breakable,skins]{tcolorbox}
+
+\colorlet{shadecolor}{orange\!20}
+\newtcolorbox{mybox}[1]{breakable,colback=red\!5\!white,
+colframe=red\!75\!black,fonttitle=\bfseries,
+title=#1}
+\begin{document}
+\begin{mybox}\
+{Title}
+\lipsum[1\-7[
+\end{mybox}
+\end{document]
+```
+
+### Latex clean error: vimtex plugin
+
+```
+Error detected while processing function vimtex#compiler#cl
+ean[1]..325[15]..vimtex#process#run[5]..454[5]..459:
+line    2:
+E484: Can't open file /var/folders/68/3d736r255njc7tlvp0yx8
+k6r0000gn/T/vNnI5vr/2
+```
+
+And moreover, when using `\lv`, the skim app doesn’t open. 
+
+Solution: Don’t use `’` in the file name and folder name.
+
+
+###  Preview always opens the history documents. 
+
+```
+defaults write com.apple.Preview NSQuitAlwaysKeepsWindows -bool false
+```
+
+### LaTeX beamer: frame breaks: 
+
+Use `allowframebreaks` option in the frame environment. 
+
+For example: 
+
+```
+\documentclass{beamer}
+\begin{document}
+\begin{frame}[allowframebreaks]{Title}
+A\\ A\\ A\\ A\\ A\\ A\\ A\\ A\\ A\\ A\\ A\\ A\\ A\\
+B\\ B\\ B\\ B\\ B\\ B\\ B\\
+ B\\ B\\ B\\ B\\ B\\ B\\
+\end{frame}
+\end{document}
+```
 
 ## FileZilla 
 
