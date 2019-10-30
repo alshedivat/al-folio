@@ -5,14 +5,11 @@ title: Zhuosong Zhang
 email: stazz@nus.edu.sg
 description: > # this means to ignore newlines until "url:"
   Welcome to my Homepage! 
-footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+footer_text: > # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
 url:  # the base hostname & protocol for your site
 baseurl: #/al-folio # the subpath of your site, e.g. /blog/
-last_updated:  # leave blank if you don't want to display last updated
+last_updated: 30-10-2019 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -23,18 +20,18 @@ linkedin_username: # your LinkedIn user name
 scholar_userid: oKV7LwEAAAAJ # your Google Scholar ID
 orcid_id: 0000-0002-2109-9682 # your ORCID ID
 contact_note: >
-  School of Mathematics and Statistics
+    Department of Statistics and Applied Probability, National University of Singapore
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: blog
+blog_name: Blog
 blog_description: My research blogs. 
 
 # Pagination
-paginate: 4
+paginate: 9
 permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
