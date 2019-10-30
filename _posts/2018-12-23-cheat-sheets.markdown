@@ -116,7 +116,7 @@ Bla.
 
 * ` --append-textcmd=conep`. 
 
-###  long text in equation environment, with line break:  use `\parbox` command, for example:
+####  long text in equation environment, with line break:  use `\parbox` command, for example:
 
 ```
 \begin{gather}
@@ -129,7 +129,7 @@ Bla.
 
 
 
-###  tcolorbox environment with page break: use `breakable` tag in the tcolorbox option\.
+####  tcolorbox environment with page break: use `breakable` tag in the tcolorbox option\.
 _
 ```
 \documentclass{article}
@@ -149,7 +149,7 @@ title=#1}
 \end{document]
 ```
 
-### Latex clean error: vimtex plugin
+#### Latex clean error: vimtex plugin
 
 ```
 Error detected while processing function vimtex#compiler#cl
@@ -164,13 +164,13 @@ And moreover, when using `\lv`, the skim app doesn’t open.
 Solution: Don’t use `’` in the file name and folder name.
 
 
-###  Preview always opens the history documents. 
+####  Preview always opens the history documents. 
 
 ```
 defaults write com.apple.Preview NSQuitAlwaysKeepsWindows -bool false
 ```
 
-### LaTeX beamer: frame breaks: 
+#### LaTeX beamer: frame breaks: 
 
 Use `allowframebreaks` option in the frame environment. 
 
@@ -189,13 +189,13 @@ B\\ B\\ B\\ B\\ B\\ B\\ B\\
 
 ## FileZilla 
 
-### Install
+#### Install
 
 ```shell
 brew cask install filezilla 
 ```
 
-### Setting of the FileZilla: 
+#### Setting of the FileZilla: 
 
 > |--:|--|
 > |**username**| `username@unimelb`|
