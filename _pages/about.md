@@ -1,5 +1,5 @@
 ---
-layout: About
+layout: about
 permalink: /
 title: Zhuosong Zhang (张卓松 in Chinese)
 description: Research Fellow, Department of Statistics and Applied Probability, National University of Singapore. 
