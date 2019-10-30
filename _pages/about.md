@@ -8,7 +8,7 @@ profile:
   align: right
   image: monkey.jpg
   email: > 
-    <p>zhuosongz<span style="font-size: 3px; color: Tomato;"><i class="fas fa-at"></i></span>unimelb<span style="font-size: 0.01em; color: Tomato;"><i class="fas fa-dot-circle"></i></span>edu<span style="font-size: 0.01em; color: Tomato;"><i class="fas fa-dot-circle"></i></span>au</p> 
+    <p>stazz<span style="font-size: 3px; color: Tomato;"><i class="fas fa-at"></i></span>nus<span style="font-size: 0.01em; color: Tomato;"><i class="fas fa-dot-circle"></i></span>edu<span style="font-size: 0.01em; color: Tomato;"><i class="fas fa-dot-circle"></i></span>sg</p> 
   address: >
     <p>Department of Statistics and Applied Probability</p>
     <p>National University of Singapore</p>
