@@ -241,6 +241,28 @@ a) 安装程序包:
 b) 创建项目`chinaWeather`
 
 
+## Some useful math inequalities
+#### 1. The Natalini-Palumbo inequality: 
+
+Let $$z > 0$$ and define 
+
+$$\Gamma(a, z) = \int_{z}^{\infty} e^{-x} x^{a - 1} d x , $$
+
+then for $$a > 1, B > 1$$ and  $$x > B (a - 1)/B$$, we have  
+
+$$ z^{a - 1} e^{-x} \leq  \lvert \Gamma(a,z) \rvert \leq B z^{a - 1} e^{-x}.$$
+
+Using this inequality, we can prove: for $$\alpha \in (0,1)$$, 
+
+$$
+\sum_{i = j}^n e^{-ci^{\alpha} + cj^{\alpha}} \leq C \int_{j}^n e^{- a (x^\alpha - j^{\alpha})} d x \leq C j^{1 - \alpha}.
+$$
+
+* Reference: P. Natalini and B. Palumbo, *Inequalities for the incomplete gamma function*, Math. Inequal. Appl. **3** (2000), no. 1, 69–77.
+
+Done.
+
+
 
 
 
