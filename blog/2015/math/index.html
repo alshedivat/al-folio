@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title> | a post with math</title>
+  <meta name="description" content="Welcome to my Homepage! 
+">
+
+  <!-- <link rel="icon" href="/assets/img/tab-icon.png"> -->
+  <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMxpM1L7-chvX-IN91rMjsnzGdm7p9rwLY-LUHNZ0thTmO3q8x">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/blog/2015/math/">
+</head>
+
+
+  <body>
+
+    <head>
+  <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMxpM1L7-chvX-IN91rMjsnzGdm7p9rwLY-LUHNZ0thTmO3q8x">
+</head>
+
+<header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+        
+        <strong></strong> 
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="/">About</a>
+
+        <!-- Blog -->
+        <a class="page-link" href="/blog/">Blog</a>
+
+        <!-- Pages -->
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="page-link" href="/projects/">Projects</a>
+          
+        
+          
+            <a class="page-link" href="/publications/">Publications</a>
+          
+        
+          
+            <a class="page-link" href="/teaching/">Teaching</a>
+          
+        
+          
+        
+          
+        
+
+        <!-- CV link -->
+        <a class="page-link" href="/docs/CV-Zhuosong.pdf">CV</a>
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">a post with math</h1>
+    <p class="post-meta">October 20, 2015</p>
+  </header>
+
+  <article class="post-content">
+    <p>This theme supports rendering beautiful math in inline and display modes using <a href="https://khan.github.io/KaTeX/">KaTeX</a> engine. You just need to surround your math expression with <code class="language-plaintext highlighter-rouge">$$</code>, like <code class="language-plaintext highlighter-rouge">$$ E = mc^2 $$</code>. If you leave it inside a paragraph, it will produce an inline expression, just like <script type="math/tex">E = mc^2</script>.</p>
+
+<p>To use display mode, again surround your expression with <code class="language-plaintext highlighter-rouge">$$</code> and place it as a separate paragraph. Here is an example:</p>
+
+<script type="math/tex; mode=display">\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)</script>
+
+<p>To use the aligned multiple lines, use:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$$
+\begin{aligned}
+f(x) &amp;= 1 \\
+	 &amp; \neq 2.
+\end{aligned}
+$$
+</code></pre></div></div>
+<p>This gives:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{aligned}
+f(x) &= 1 \\
+& \neq 2.
+\end{aligned} %]]></script>
+
+<h3 id="math-notes">Math notes</h3>
+
+<h4 id="1-the-contractive-property-of-the-nearest-point-projection-is-a-special-property-of-hilbert-spaces">1. The contractive property of the nearest-point projection is a special property of Hilbert spaces.</h4>
+
+<p>By <a href="https://math.stackexchange.com/questions/282034/do-projections-onto-convex-sets-always-decrease-distances">user53153’s answer</a></p>
+
+<ul>
+  <li>
+    <p>Suppose <script type="math/tex">(M, d)</script> is some <script type="math/tex">\ell_p</script> metric space (not necessarily Euclidean), and <script type="math/tex">C \subseteq M</script> is a closed convex set. Consider the projection function <script type="math/tex">f_C:M\rightarrow C</script> defined such that:
+<script type="math/tex">f_C(x) \in \arg\min_{y \in C} d(x,y)</script>
+Is it the case that for all <script type="math/tex">x,y \in M</script>:
+<script type="math/tex">d(f_c(x),f_c(y)) \leq d(x,y)</script>
+i.e., is it the case that projections onto convex sets can never increase the distance between a pair of points?</p>
+  </li>
+  <li>
+    <p>Answering a follow-up question, I add a proof of the contractive property in Hilbert spaces. 
+Let <script type="math/tex">P</script> be projection onto a closed convex set <script type="math/tex">C</script>, and consider <script type="math/tex">a'=P(a)</script> and <script type="math/tex">b'=P(b)</script>.
+Since the segment <script type="math/tex">a'b'</script> is contained in <script type="math/tex">C</script>, we have <script type="math/tex">\|(1-t)a'+tb'-a\|\ge \|a'-a\|</script> for <script type="math/tex">t\in [0,1]</script>.
+Therefore, 
+<script type="math/tex">0 \leq \frac{d}{dt} \|(1-t)a'+tb'-a\|^2 \bigg\vert_{t=0} = 2 \langle b'-a' , a'-a \rangle.</script>
+Similarly, 
+<script type="math/tex">\langle a'-b' , b'-b \rangle \ge 0.</script> 
+Now consider the function
+<script type="math/tex">d(t)=\|(1-t)a'+ta - ((1-t)b'+tb)\|^2 = \|(a'-b') + t (a-a'-b+b') \|^2</script>
+which is a quadratic polynomial with nonnegative coefficient of <script type="math/tex">t^2</script>. From (1) and (2) we have
+<script type="math/tex">d\,'(0) = 2 \langle a'-b' , a-a'-b+b' \rangle \ge 0</script>
+Therefore <script type="math/tex">d</script> is increasing on <script type="math/tex">[0,\infty)</script>. In particular, <script type="math/tex">d(1)\ge d(0)</script> which means 
+<script type="math/tex">\|a-b\|\ge \|a'-b'\|.</script></p>
+  </li>
+</ul>
+
+<h3 id="convex-optimazition">Convex optimazition</h3>
+
+<ul>
+  <li>
+    <p>A function <script type="math/tex">g: \mathbb{R}^d \mapsto \mathbb{R}</script> is <script type="math/tex">L</script>-smooth if and only if it is twice differentiable and 
+ <script type="math/tex">\forall \theta \in \mathbb{R}^d, \quad \nabla^2 g(\theta) \preccurlyeq L I_d.</script></p>
+  </li>
+  <li>
+    <p>The function is <script type="math/tex">\mu</script>-strongly convex if and only if 
+<script type="math/tex">g(x_1) \geq g(x_2) + \langle \nabla g(x_2) , x_1 - x_2 \rangle + \frac{\mu}{2} \lVert x_1 - x_2 \rVert^2.</script></p>
+  </li>
+  <li>
+    <p>A function <script type="math/tex">g</script> is <script type="math/tex">L</script>-smooth and <script type="math/tex">\mu</script>-strongly convex if <script type="math/tex">\mu I_d \preccurlyeq \nabla^2 g(x) \preccurlyeq L I_d.</script></p>
+  </li>
+</ul>
+
+<p>Note that <a href="https://khan.github.io/KaTeX/">KaTeX</a> is work in progress, so it does not support the full range of math expressions as, say, <a href="https://www.mathjax.org/">MathJax</a>. Yet, it is <a href="http://www.intmath.com/cg5/katex-mathjax-comparison.php">blazing fast</a>.</p>
+
+
+  </article>
+
+  
+
+</div>
+
+      </div>
+    </div>
+
+	<p><center><footer>
+
+  <div class="wrapper">
+    &copy; Copyright 2019.
+	
+    
+    
+        Last updated: 2019-10-30.
+    
+  </div>
+
+</footer>
+</center></p>
+
+	<!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.js"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/assets/css/academicons.min.css">
+<!-- Add brower tab icons -->
+
+<!-- Add fontawesome Icons -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> 
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXXXXXX', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+  <!-- <footer>
+
+  <div class="wrapper">
+    &copy; Copyright 2019.
+	
+    
+    
+        Last updated: 2019-10-30.
+    
+  </div>
+
+</footer>
+ -->
+</html>
