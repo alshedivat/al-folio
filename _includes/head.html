@@ -7,11 +7,11 @@
   <meta name="description" content="{{ site.description }}">
 
   {% if site.serve_og_meta %}
-    <meta property="og:site_name" content="{{ site.url }}" />
+    <meta property="og:site_name" content="{{ site.description }}" />
     <meta property="og:type" content="object" />
     <meta property="og:title" content="{{ site.name }}" />
-    <meta property="og:url" content="{{ page.url }}" />
-    <meta property="og:description" content="{{ page.description }}" />
+    <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:description" content="{{ page.title }}" />
     <meta property="og:image"
           content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
   {% endif %}
