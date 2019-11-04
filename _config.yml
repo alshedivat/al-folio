@@ -21,7 +21,7 @@ last_updated: # leave blank if you don't want to display last updated
 # To achieve this, change serve_og_meta to true and then provide the URL of the
 # preview image as the value of og_image.
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
-og_image: # The Open Graph preview image
+og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------

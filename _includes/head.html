@@ -10,9 +10,10 @@
     <meta property="og:site_name" content="{{ site.url }}" />
     <meta property="og:type" content="object" />
     <meta property="og:title" content="{{ site.name }}" />
-    <meta property="og:url" content="{{ site.url }}" />
-    <meta property="og:description" content="{{ site.description }}" />
-    <meta property="og:image" content="{{ site.og_image }}" />
+    <meta property="og:url" content="{{ page.url }}" />
+    <meta property="og:description" content="{{ page.description }}" />
+    <meta property="og:image"
+          content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
   {% endif %}
 
   <link rel="shortcut icon" href="{{ '/assets/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
