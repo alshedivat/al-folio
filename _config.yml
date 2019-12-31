@@ -85,7 +85,7 @@ news_limit: 5
 # -----------------------------------------------------------------------------
 
 # Build settings
-markdown: kramdown
+#markdown: kramdown
 highlighter: pygments
 
 # Includes & excludes
