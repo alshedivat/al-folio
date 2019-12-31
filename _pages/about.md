@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Zhiqiang</strong> Wu
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="">Ph.D. Student</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
