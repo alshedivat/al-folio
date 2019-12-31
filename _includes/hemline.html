@@ -24,6 +24,7 @@
 <link rel="stylesheet" href="{{ '/assets/css/fontawesome-all.min.css' | prepend: site.baseurl | prepend: site.url }}">
 <link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | prepend: site.baseurl | prepend: site.url }}">
 
+{% if site.google_analytics %}
 <!-- Google Analytics -->
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -34,3 +35,4 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', '{{ site.google_analytics }}', 'auto');
 ga('send', 'pageview');
 </script>
+{% endif %}
