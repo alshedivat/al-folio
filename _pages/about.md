@@ -22,8 +22,8 @@ I am currently pursuing the Ph.D. degree of Computer Science and Engineering at 
 ### Research Interests
 My research interests spans all aspects of Software Engineering with the objective of improving the security and quality on mobile system. In particular,
 * Mobile Security
-* Security Code Smells in Android System
-* Refactoring
+* Security Code Smells in Android Applications
+* Refactoring on Andorid Applications
 
 For more information about my research, please see [Publications](/wzq/publications/).
 
