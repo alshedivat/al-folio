@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Project 5
-description: a project with a background image
+title: ICT Project
+description: Verified Multi-threading Program
 img: /assets/img/1.jpg
 ---
 

@@ -2,8 +2,18 @@
 layout: page
 permalink: /awards/
 title: Awards
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-Organize your courses by years, topics, or universities, however you like!
+<div class="img_row">
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/ksci2019.jpg" alt="" title="KSCI Best Paper 2019"> 
+</div>
+<div class="col one caption">
+    	KSCI Best Paper in 2019
+</div>
+<div class="img_row">
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="ICCCA Best Paper in 2017"> 
+</div>
+<div class="col one caption">
+    	ICCCA Best Paper in 2017
+</div>

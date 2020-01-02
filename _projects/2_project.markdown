@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Project 2
-description: a project with a background image
+title: Security Code Smells
+description: Mobile Refactoring
 img: /assets/img/2.jpg
 ---
 

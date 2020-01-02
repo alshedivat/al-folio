@@ -27,4 +27,6 @@ My research interests spans all aspects of Software Engineering with the objecti
 
 For more information about my research, please see [Publications](/wzq/publications/).
 
+### Experience
+* Jun. 2014 - Sep. 2014: Intern of Division of Application @ <a href="https://www.chinalife.com.cn/chinalife/index/">China Life Insurance Co. Ltd</a>
 

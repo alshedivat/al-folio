@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Project 3
-description: a project that redirects to another website
-img:
+title: IoT Conflict Detection
+description: IoT Access Control
+img: /assets/img/12.jpg
 redirect: https://unsplash.com
 ---
 
