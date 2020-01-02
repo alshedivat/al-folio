@@ -23,10 +23,12 @@
 
       <div class="trigger">
         <!-- About -->
-        <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">about</a>
+        <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">About</a>
 
         <!-- Blog -->
+        <!--
         <a class="page-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">blog</a>
+      -->
 
         <!-- Pages -->
         {% for page in site.pages %}
@@ -36,7 +38,7 @@
         {% endfor %}
 
         <!-- CV link -->
-        <!-- <a class="page-link" href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a> -->
+        <a class="page-link" href="{{ '/assets/pdf/Zhiqiang_CV.pdf' | prepend: site.baseurl | prepend: site.url }}">CV</a>
 
       </div>
     </nav>
