@@ -36,33 +36,33 @@ publons_id: # your ID on Publons
 research_gate_profile: Zhiqiang_Wu19 # your profile on ResearchGate
 blogger_url: # your blogger URL
 
-contact_note: >
+contact_note: 
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: Zhiqiang
-blog_description: a simple whitespace theme for academics
+# blog_name: Zhiqiang
+# blog_description: a simple whitespace theme for academics
 
-# Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
+# # Pagination
+# paginate: 4
+# permalink: /blog/:year/:title/
+# paginate_path: /blog/page:num/
 
-text:
-  pagination:
-    newer: 'Newer'
-    older: 'Older'
+# text:
+#   pagination:
+#     newer: 'Newer'
+#     older: 'Older'
 
-# Comments
-disqus_shortname: Zhiqiang # put your disqus shortname
+# # Comments
+# disqus_shortname: Zhiqiang # put your disqus shortname
 
-# Optional features
-show_social_icons:  false
-enable_anchorjs:    false
-enable_katex:       true
+# # Optional features
+# show_social_icons:  false
+# enable_anchorjs:    false
+# enable_katex:       true
 
 # -----------------------------------------------------------------------------
 # Collections
