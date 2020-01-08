@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ISMRM qMRI Study Group Ballot
-date: 2020-01-08
+date: 2020-01-08 17:03:00-0400
 description: Running for the position of Trainee Representative
 ---
 I was invited to participate in the ballot for the position of Trainee Representative on the Governing Committee of the <a href="https://www.ismrm.org/study-groups/quantitative-mr/" target="blank">ISMRM Quantitative MRI Study Group</a>.
@@ -21,4 +21,3 @@ If I am elected the Trainee Representative of the Quantitative MRI Study Group, 
 Having already served as the Trainee Representative for the ISMRM Electro-Magnetic Tissue Properties Study Group in 2018, I have acquired knowledge on the governance of ISMRM study groups and the ways study groups implement activities throughout the year, including activity organisation at the ISMRM annual meeting. This will allow me to better serve the Trainees of the Quantitative MRI Study Group and the broader ISMRM community.
 
 You can read about my past experience [here]({{ site.baseurl }}{% link _pages/04_service.md %}).
-
