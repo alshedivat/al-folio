@@ -97,6 +97,7 @@ plugins:
     - jekyll-paginate
     - jekyll/scholar
     - jemoji
+    - jekyll-sitemap
 
 # Jekyll-Scholar
 scholar:
