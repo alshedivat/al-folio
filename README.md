@@ -68,7 +68,7 @@ The example is divided into news and projects, but easily revamp this into apps,
 > To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
 
 Two different layouts are included: the blog layout, for a list of detailed descriptive list of entries, and the projects layout.
-The projects layout overlays a descriptive hoverover on a background image.
+The projects layout overlays a descriptive hover over on a background image.
 If no image is provided, the square is auto-filled with the chosen theme color.
 Thumbnail sizing is not necessary, as the grid crops images perfectly.
 
