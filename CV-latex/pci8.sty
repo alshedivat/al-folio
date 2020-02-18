@@ -1,0 +1,788 @@
+% PCI8 DOCUMENT STYLE version 1.0
+% derived from Springer LLNCS Document Style
+% for LaTeX version 2.09
+
+% This style file is an adaptation of
+% the original LaTeX article.sty
+
+\typeout{Document Style `PCI8', <version 1.0>}
+
+\frenchspacing
+\def~{\penalty\@M\kern3pt}
+
+% Language dependant section
+\def\literaturename{References}
+\def\contentsname{Table of Contents}
+\def\listoffiguresname{List of Figures}
+\def\figurename{Fig.\thinspace}
+\def\listoftablesname{List of Tables}
+\def\tablename{Table }
+\def\abstractname{Abstract.}
+\newif\if@deutsch\@deutschfalse
+%
+\def\ds@deutsch{\typeout{German version}
+\def\literaturename{Literatur}
+\def\contentsname{Inhaltsverzeichnis}
+\def\listoffiguresname{Abbildungsverzeichnis}
+\def\figurename{Abb.\thinspace}
+\def\listoftablesname{Tabellenverzeichnis}
+\def\tablename{Tabelle }
+\def\abstractname{Zusammenfassung.}
+\@deutschtrue}
+
+\def\thebibliography#1{\section*{\literaturename}\small\list
+  {\arabic{enumi}.}{\settowidth\labelwidth{#1.}\leftmargin\labelwidth
+    \advance\leftmargin\labelsep
+    \usecounter{enumi}}
+    \def\newblock{\hskip .11em plus .33em minus -.07em}
+    \sloppy
+    \sfcode`\.=1000\relax}
+
+\def\ds@citeauthoryear{\def\thebibliography##1{\section*{\literaturename}%
+    \small\list{}{\settowidth\labelwidth{}\leftmargin\parindent
+    \itemindent=-\parindent
+    \labelsep=\z@
+    \usecounter{enumi}}%
+    \def\newblock{\hskip .11em plus .33em minus -.07em}%
+    \sloppy
+    \sfcode`\.=1000\relax}%
+    \def\@cite##1{##1}%
+    \def\@lbibitem[##1]##2{\item[]\if@filesw
+      {\def\protect####1{\string ####1\space}\immediate
+    \write\@auxout{\string\bibcite{##2}{##1}}}\fi\ignorespaces}}%
+
+\newif\if@envcountreset\@envcountresetfalse
+\def\ds@envcountreset{\@envcountresettrue}
+
+\def\@mbi{cmmib10}
+\def\@ptsize{0} \@namedef{ds@11pt}{\def\@ptsize{1}}
+\@namedef{ds@12pt}{\def\@ptsize{2}}
+\def\ds@twoside{\@twosidetrue \@mparswitchtrue}
+\def\ds@draft{\overfullrule
+5pt}
+\@options
+
+\ds@twoside
+
+\lineskip 1pt \normallineskip 1pt
+\def\baselinestretch{1}
+
+\def\@normalsize{\@setsize\normalsize{12.2pt}\xpt\@xpt
+\abovedisplayskip=3 mm plus6pt minus 4pt
+\belowdisplayskip=3 mm plus6pt minus 4pt
+\abovedisplayshortskip=0mm plus6pt minus 2pt
+\belowdisplayshortskip=2 mm plus4pt minus 4pt}
+
+\mathchardef\Gamma="0100
+\mathchardef\Delta="0101
+\mathchardef\Theta="0102
+\mathchardef\Lambda="0103
+\mathchardef\Xi="0104
+\mathchardef\Pi="0105
+\mathchardef\Sigma="0106
+\mathchardef\Upsilon="0107
+\mathchardef\Phi="0108
+\mathchardef\Psi="0109
+\mathchardef\Omega="010A
+
+\def\small{\@setsize\small{11pt}\ixpt\@ixpt
+\abovedisplayskip=2.5 mm plus5pt minus 3pt
+\belowdisplayskip=2.5 mm plus5pt minus 3pt
+\abovedisplayshortskip=0mm plus6pt minus 2pt
+\belowdisplayshortskip=2 mm plus4pt minus 4pt
+\def\@listi{\leftmargin\leftmargini\topsep 4pt plus 2pt minus 2pt}}
+
+\def\footnotesize{\@setsize\footnotesize{11pt}\ixpt\@ixpt
+\abovedisplayskip=2.5 mm plus5pt minus 3pt
+\belowdisplayskip=2.5 mm plus5pt minus 3pt
+\abovedisplayshortskip=0mm plus6pt minus 2pt
+\belowdisplayshortskip=2 mm plus4pt minus 4pt
+\def\@listi{\leftmargin\leftmargini\topsep 4pt plus 2pt minus 2pt}}
+
+\def\scriptsize{\@setsize\scriptsize{8.4pt}\viipt\@viipt}
+
+\def\tiny{\@setsize\tiny{6pt}\vpt\@vpt}
+\def\large{\@setsize\large{13.2pt}\xipt\@xipt}
+\def\Large{\@setsize\Large{14.4pt}\xiipt\@xiipt}
+\def\LARGE{\@setsize\LARGE{16.8pt}\xivpt\@xivpt}
+\def\huge{\@setsize\huge{22pt}\xxpt\@xxpt}
+\def\Huge{\@setsize\Huge{30pt}\xxvpt\@xxvpt}
+\@normalsize
+
+%ZEI
+%\oddsidemargin 39pt
+%\evensidemargin 39pt
+\oddsidemargin -3pt
+\evensidemargin -3pt
+\marginparsep 1pt
+\topmargin 2pt \headheight 4pt \headsep 13.66pt
+%\footheight 12pt \footskip 30pt
+\footheight 1pt \footskip 1pt
+%ZEI
+%\textwidth 13.2truecm
+\textwidth 16.2truecm
+%\textheight 19.3truecm
+\textheight 22.9truecm
+\columnsep 10cc \columnseprule 13pt
+
+\footnotesep 7.7pt
+\skip\footins 9pt plus 4pt minus 2pt
+\floatsep 12pt plus 2pt minus 2pt
+\textfloatsep 8mm plus 2pt minus 4pt
+\intextsep 8mm plus 2pt minus 2pt
+\@maxsep 8mm
+
+\dblfloatsep 12pt plus 2pt minus 2pt
+\dbltextfloatsep 20pt plus 2pt minus 4pt
+\@dblmaxsep 20pt
+
+\@fptop 0pt plus 1fil \@fpsep 8pt plus 2fil \@fpbot 0pt plus 1fil
+\@dblfptop0pt plus1fil \@dblfpsep8pt plus2fil\@dblfpbot 0pt plus1fil
+\marginparpush 5pt
+
+\parskip 0pt plus 1pt \parindent 1.5em \topsep 8pt plus 2pt minus 4pt
+\partopsep 2pt plus 1pt minus 1pt \itemsep \z@
+\@lowpenalty 51 \@medpenalty 151 \@highpenalty 301
+\@beginparpenalty-\@lowpenalty\@endparpenalty -\@lowpenalty\@itempenalty
+-\@lowpenalty
+
+\def\vec#1{\mathchoice{\mbox{\boldmath$\displaystyle\bf#1$}}
+{\mbox{\boldmath$\textstyle\bf#1$}}
+{\mbox{\boldmath$\scriptstyle\bf#1$}}
+{\mbox{\boldmath$\scriptscriptstyle\bf#1$}}}
+
+\def\@sect#1#2#3#4#5#6[#7]#8{\ifnum #2>\c@secnumdepth
+  \def\@svsec{}\else
+  \refstepcounter{#1}\edef\@svsec{\csname the#1\endcsname\quad }\fi
+  \@tempskipa #5\relax
+   \ifdim \@tempskipa>\z@
+  \begingroup #6\relax
+  \noindent{\hskip #3\relax\@svsec}{\interlinepenalty \@M #8\par}
+  \endgroup
+    \csname #1mark\endcsname{#7}\addcontentsline
+   {toc}{#1}{\ifnum #2>\c@secnumdepth \else
+            \protect\numberline{\csname the#1\endcsname}\fi
+          #7}\else
+  \def\@svsechd{#6\hskip #3\@svsec #8\csname #1mark\endcsname
+            {#7}\addcontentsline
+             {toc}{#1}{\ifnum #2>\c@secnumdepth \else
+               \protect\numberline{\csname the#1\endcsname}\fi
+             #7}}\fi
+  \@xsect{#5}}
+
+\def\part{\par \addvspace{4ex} \@afterindentfalse \secdef\@part\@spart}
+
+\def\@part[#1]#2{\ifnum \c@secnumdepth >\m@ne \refstepcounter{part}
+\addcontentsline{toc}{part}{\thepart \hspace{1em}#1}\else
+\addcontentsline{toc}{part}{#1}\fi { \parindent 0pt \raggedright
+ \ifnum \c@secnumdepth >\m@ne \Large \bf
+ Part\thepart\par\nobreak\fi\huge
+\bf #2\markboth{}{}\par } \nobreak \vskip 3ex \@afterheading }
+
+\def\@spart#1{{\parindent 0pt \raggedright
+ \huge \bf
+ #1\par} \nobreak \vskip 3ex \@afterheading }
+
+\def\section{\@startsection {section}{1}{\z@}{-18pt plus -4pt minus
+-4pt}{12pt plus 4pt minus 4pt}{\Large\bf\boldmath
+\pretolerance=10000\relax\rightskip=0pt plus8em}}
+\def\subsection{\@startsection{subsection}{2}{\z@}{-18pt plus-4pt minus
+ -4pt}{8pt plus 4pt minus 4pt}{\normalsize\bf\boldmath
+\pretolerance=10000\relax\rightskip=0pt plus8em}}
+\def\subsubsection{\@startsection{subsubsection}{3}{\z@}{-18pt plus-4pt
+ minus -4pt}{-0.5em plus -.22em minus -0.1em}{\normalsize\bf\boldmath}}
+\def\paragraph{\@startsection{paragraph}{4}{\z@}{-12pt plus -4pt minus
+ -4pt}{-0.5em plus -.22em minus -0.1em}{\normalsize\it}}
+\def\subparagraph#1{\typeout{Warning: You should not use
+\protect\subparagraph \space in this style.}\vskip0.5cm
+You should not use $\backslash${\tt subparagraph} in this
+style.\vskip0.5cm}
+
+\setcounter{secnumdepth}{2}
+
+\def\appendix{\par
+ \setcounter{section}{0}
+ \setcounter{subsection}{0}
+ \def\thesection{\Alph{section}}}
+
+\leftmargini 17pt     \leftmarginii 17pt
+\leftmarginiii 17pt   \leftmarginiv 17pt
+\leftmarginv 10pt       \leftmarginvi 10pt
+\leftmargin\leftmargini \labelwidth\leftmargini
+\advance\labelwidth-\labelsep
+\labelsep 5pt
+\parsep 0pt plus 1pt
+\def\@listi{\leftmargin\leftmargini}
+\def\@listii{\leftmargin\leftmarginii
+ \labelwidth\leftmarginii\advance\labelwidth-\labelsep
+ \topsep 0pt plus 1pt}
+\def\@listiii{\leftmargin\leftmarginiii
+ \labelwidth\leftmarginiii\advance\labelwidth-\labelsep
+ \topsep 0pt plus 1pt}
+\def\@listiv{\leftmargin\leftmarginiv
+ \labelwidth\leftmarginiv\advance\labelwidth-\labelsep
+ \topsep 0pt plus 1pt}
+\def\@listv{\leftmargin\leftmarginv
+ \labelwidth\leftmarginv\advance\labelwidth-\labelsep
+ \topsep 0pt plus 1pt}
+\def\@listvi{\leftmargin\leftmarginvi
+ \labelwidth\leftmarginvi\advance\labelwidth-\labelsep
+ \topsep 0pt plus 1pt}
+
+\def\labelenumi{\arabic{enumi}.}
+\def\theenumi{\arabic{enumi}}
+\def\labelenumii{(\alph{enumii})}
+\def\theenumii{\alph{enumii}}
+\def\p@enumii{\theenumi}
+\def\labelenumiii{\roman{enumiii}.}
+\def\theenumiii{\roman{enumiii}}
+\def\p@enumiii{\theenumi(\theenumii)}
+\def\labelenumiv{\Alph{enumiv}.}
+\def\theenumiv{\Alph{enumiv}}
+\def\p@enumiv{\p@enumiii\theenumiii}
+
+\def\labelitemi{\bf --}
+\def\labelitemii{$\bullet$}
+\def\labelitemiii{$\ast$}
+\def\labelitemiv{$\cdot$}
+
+\def\verse{\let\\=\@centercr
+ \list{}{\itemsep\z@ \itemindent -1.5em\listparindent \itemindent
+ \rightmargin\leftmargin\advance\leftmargin 1.5em}\item[]}
+\let\endverse\endlist
+\def\quotation{\list{}{\listparindent 1.5em
+ \itemindent\listparindent
+ \rightmargin\leftmargin}\item[]}
+\let\endquotation=\endlist
+\def\quote{\list{}{\rightmargin\leftmargin}\item[]}
+\let\endquote=\endlist
+
+\def\descriptionlabel#1{\hspace\labelsep \bf #1}
+\def\description{\list{}{\labelwidth\z@ \itemindent-\leftmargin
+ \let\makelabel\descriptionlabel}}
+\let\enddescription\endlist
+
+\def\theequation{\arabic{equation}}
+
+\def\titlepage{\@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn
+ \else \newpage \fi \thispagestyle{empty}\c@page\z@}
+\def\endtitlepage{\if@restonecol\twocolumn \else \newpage \fi}
+
+\arraycolsep 1.4pt \tabcolsep 1.4pt \arrayrulewidth .4pt \doublerulesep
+2pt
+\tabbingsep \labelsep
+
+\skip\@mpfootins = \skip\footins
+\fboxsep = 3pt \fboxrule = .4pt
+
+\newcounter{part}
+\newcounter {section}
+\newcounter {subsection}[section]
+\newcounter {subsubsection}[subsection]
+\newcounter {paragraph}[subsubsection]
+
+\def\thepart{\Roman{part}}
+\def\thesection {\arabic{section}}
+\def\thesubsection {\thesection.\arabic{subsection}}
+\def\thesubsubsection {\thesubsection.\arabic{subsubsection}}
+\def\theparagraph {\thesubsubsection.\arabic{paragraph}}
+
+\def\@pnumwidth{1.55em}
+\def\@tocrmarg {2.55em}
+\def\@dotsep{4.5}
+\setcounter{tocdepth}{3}
+
+\def\tableofcontents{\section*{\contentsname}
+ \@starttoc{toc}}
+\def\l@part#1#2{\addpenalty{\@secpenalty}
+ \addvspace{2.25em plus 1pt} \begingroup
+ \@tempdima 3em \parindent \z@ \rightskip \@pnumwidth \parfillskip
+-\@pnumwidth
+ {\Large \bf \leavevmode #1\hfil \hbox to\@pnumwidth{\hss #2}}\par
+ \nobreak \endgroup}
+%
+\def\numberline#1{\advance\hangindent by\@tempdima%
+\hbox to\@tempdima{\hss#1\enspace}}
+%
+\def\bf@dottedtocline#1#2#3#4#5{\ifnum #1>\c@tocdepth \else
+  \vskip \z@ plus .2pt
+  {\leftskip #2\relax \rightskip \@tocrmarg \parfillskip -\rightskip
+    \parindent #2\relax\@afterindenttrue
+   \interlinepenalty\@M
+   \leavevmode
+   \@tempdima #3\relax \advance\leftskip \@tempdima \hbox{}\hskip
+   -\leftskip
+{\bf#4}\nobreak\leaders\hbox{$\m@th \mkern \@dotsep mu.\mkern \@dotsep
+       mu$}\hfill \nobreak \hbox to\@pnumwidth{\hfil\rm #5}\par}\fi}
+%
+\def\l@section{\vskip2mm\bf@dottedtocline{1}{0em}{1.7em}}
+\def\l@subsection{\@dottedtocline{2}{1.7em}{2.3em}}
+\def\l@subsubsection{\@dottedtocline{3}{4em}{2em}}
+\def\l@paragraph{\@dottedtocline{4}{6em}{2em}}
+\def\l@subparagraph{\@dottedtocline{5}{8em}{2em}}
+\def\listoffigures{\section*{\listoffiguresname\markboth
+ {\listoffiguresname}{\listoffiguresname}}\@starttoc{lof}}
+\def\l@figure{\@dottedtocline{1}{1.5em}{2.3em}}
+\def\listoftables{\section*{\listoftablesname\markboth
+ {\listoftablesname}{\listoftablesname}}\@starttoc{lot}}
+\let\l@table\l@figure
+
+\def\endthebibliography{\endlist\normalsize}
+
+\newif\if@restonecol
+\def\theindex{\@restonecoltrue\if@twocolumn\@restonecolfalse\fi
+\columnseprule \z@
+\columnsep 35pt\twocolumn[\section*{Index}]
+ \markboth{Index}{Index}\thispagestyle{plain}\parindent\z@
+ \parskip\z@ plus .3pt\relax\let\item\@idxitem}
+\def\@idxitem{\par\hangindent 40pt}
+\def\subitem{\par\hangindent 40pt \hspace*{20pt}}
+\def\subsubitem{\par\hangindent 40pt \hspace*{30pt}}
+\def\endtheindex{\if@restonecol\onecolumn\else\clearpage\fi}
+\def\indexspace{\par \vskip 10pt plus 5pt minus 3pt\relax}
+
+\def\footnoterule{\kern-3\p@\hrule width 2 true cm\kern 2.6\p@}
+
+\long\def\@makefntext#1{\@setpar{\@@par\@tempdima \hsize
+  \advance\@tempdima-1em\parshape \@ne 1em\@tempdima}\par
+  \parindent 1em\noindent \hbox to \z@{\hss$^{\@thefnmark}$\ }#1}
+
+\setcounter{topnumber}{2}
+\def\topfraction{.9}
+\setcounter{bottomnumber}{1}
+\def\bottomfraction{.3}
+\setcounter{totalnumber}{3}
+\def\textfraction{.15}
+\def\floatpagefraction{.85}
+\setcounter{dbltopnumber}{2}
+\def\dbltopfraction{.85}
+\def\dblfloatpagefraction{.85}
+
+\long\def\@makecaption#1#2{
+ \vskip 10pt
+ \setbox\@tempboxa\hbox{{\bf #1} #2}
+ \ifdim \wd\@tempboxa >\hsize \unhbox\@tempboxa\par \else \hbox
+to\hsize{\hfil\box\@tempboxa\hfil}
+ \fi\vskip5pt}
+
+\long\def\@caption#1[#2]#3{\addcontentsline{\csname
+  ext@#1\endcsname}{#1}{\protect\numberline{\csname
+  the#1\endcsname}{\ignorespaces #2}}\par
+  \begingroup
+    \@parboxrestore
+    \@makecaption{\csname fnum@#1\endcsname}{\ignorespaces #3}\par
+  \endgroup}
+
+\newcounter{figure}
+\def\thefigure{\@arabic\c@figure}
+
+\def\fps@figure{htbp}
+\def\ftype@figure{1}
+\def\ext@figure{lof}
+\def\fnum@figure{\figurename\thefigure.}
+\def\figure{\small\rm\@float{figure}}
+\def\endfigure{\vskip-1pt\end@float}
+\@namedef{figure*}{\@dblfloat{figure}}
+\@namedef{endfigure*}{\end@dblfloat}
+
+\newcounter{table}
+\def\thetable{\@arabic\c@table}
+\def\fps@table{htbp}
+\def\ftype@table{2}
+\def\ext@table{lot}
+\def\fnum@table{\tablename\thetable.}
+\def\table{\small\rm\@float{table}}
+\let\endtable\end@float
+\@namedef{table*}{\@dblfloat{table}}
+\@namedef{endtable*}{\end@dblfloat}
+
+% LaTeX does not provide a command to enter the authors institute
+% addresses. The \institute command is defined here.
+
+\newcounter{@inst}
+\newcounter{@auth}
+
+\def\institute#1{\gdef\@institute{#1}}
+
+\def\institutename{\par
+ \begingroup
+ \parskip=\z@
+ \parindent=\z@
+ \setcounter{@inst}{1}%
+ \def\and{\par\stepcounter{@inst}%
+ \noindent$^{\the@inst}$\enspace\ignorespaces}%
+ \setbox0=\vbox{\def\thanks##1{}\@institute}%
+ \ifnum\c@@inst=1\relax
+ \else
+   \setcounter{footnote}{\c@@inst}%
+   \setcounter{@inst}{1}%
+   \noindent$^{\the@inst}$\enspace
+ \fi
+ \ignorespaces
+ \@institute\par
+ \endgroup}
+
+\def\@thanks{}
+
+\def\@fnsymbol#1{\ifcase#1\or\star\or{\star\star}\or{\star\star\star}%
+   \or \dagger\or \ddagger\or
+   \mathchar "278\or \mathchar "27B\or \|\or **\or \dagger\dagger
+   \or \ddagger\ddagger\else\@ctrerr\fi\relax}
+
+\def\inst#1{\unskip$^{#1}$}
+
+\def\subtitle#1{\gdef\@subtitle{#1}}
+\def\@subtitle{}
+
+\def\maketitle{\par
+ \begingroup
+ \parindent=\z@
+ \def\thefootnote{\fnsymbol{footnote}}
+ \if@twocolumn
+ \twocolumn[\@maketitle]
+ \else \newpage
+ \global\@topnum\z@ \@maketitle \fi\thispagestyle{empty}\@thanks
+ \endgroup
+ \let\maketitle\relax
+ \let\@maketitle\relax
+ \gdef\@thanks{}\gdef\@author{}\gdef\@title{}\gdef\@subtitle{}%
+ \let\thanks\relax}
+
+\def\@maketitle{\newpage
+ \begin{center}%
+ {\LARGE \bf\boldmath
+  \pretolerance=10000
+  \@title \par}\vskip .8cm
+\if!\@subtitle!\else {\Large \bf\boldmath
+  \vskip -.65cm
+  \pretolerance=10000
+  \@subtitle \par}\vskip .8cm\fi
+{\normalsize\rm\lineskip .5em
+\@author\vskip.35cm}
+ {\small\rm\institutename}
+ \end{center}%
+ }
+
+\mark{{}{}}
+
+% Define `abstract' environment
+\def\abstract{%
+\list{}{\advance\topsep by0.15cm\relax\small\rm
+ \leftmargin=1cm
+ \labelwidth=\z@
+ \listparindent=\z@
+ \itemindent\listparindent
+ \rightmargin\leftmargin}\item[\hskip\labelsep\bf\abstractname]}
+\let\endabstract=\endlist
+\def\quote{\list{}{\rightmargin\leftmargin}\item[]}
+\let\endquote=\endlist
+
+\def\ps@headings{\def\@evenhead{}%
+\let\@oddhead\@evenhead
+\let\@evenfoot\@evenhead
+\let\@oddfoot\@evenhead
+\def\sectionmark##1{}%
+\def\subsectionmark##1{}}
+\def\ps@myheadings{\let\@mkboth\@gobbletwo
+\def\@oddhead{\hbox{}\small\rm\rightmark \hfil\thepage}%
+\def\@oddfoot{}\def\@evenhead{\small\rm\thepage\hfil
+\leftmark\hbox {}}%
+\def\@evenfoot{}\def\sectionmark##1{}\def\subsectionmark##1{}}
+
+\def\today{\ifcase\month\or
+ January\or February\or March\or April\or May\or June\or
+ July\or August\or September\or October\or November\or December\fi
+ \space\number\day, \number\year}
+
+\ps@headings \pagenumbering{arabic} \onecolumn
+\if@twoside\else\raggedbottom\fi
+
+% new environments and theorems
+% borrowed form the LTMP-style of Springer-Verlag
+% designed by Dr. Christoph Ender
+%
+% define the new theorem like environments
+% define a new style of environments where it is possible to define
+% the font % used as the theorem name and the fontfamily for the text.
+%
+% \newstytheorem{name}{thefont}{txtfont}{Text}[Counter]
+% \newstytheorem{name}{thefont}{txtfont}[oldname]{Text}
+%
+% #1 - name of theorem
+% #2 - theorem font
+% #3 - text font
+%
+\def\newstytheorem#1#2#3{%
+\@ifnextchar[{\che@othm{#1}{#2}{#3}}{\che@nthm{#1}{#2}{#3}}}
+%
+% #1 - name of theorem
+% #2 - theorem font
+% #3 - text font
+% #4 - text string of thorem name
+%
+\def\che@nthm#1#2#3#4{%
+\@ifnextchar[{\che@xnthm{#1}{#2}{#3}{#4}}{\che@ynthm{#1}{#2}{#3}{#4}}}
+%
+% #1 - name of theorem
+% #2 - theorem font
+% #3 - text font
+% #4 - text string of thorem name
+% #5 - add theorem counter to reset list of another counter
+%
+\def\che@xnthm#1#2#3#4[#5]{\expandafter
+\@ifdefinable\csname #1\endcsname
+{\@definecounter{#1}\if@envcountreset\@addtoreset{#1}{#5}\fi
+\expandafter\xdef\csname the#1\endcsname{\@thmcounter{#1}}%
+\global\@namedef{#1}{\che@thm{#1}{#4}{#2}{#3}}\global
+\@namedef{end#1}{\@endtheorem}}}
+%
+% #1 - name of theorem
+% #2 - theorem font
+% #3 - text font
+% #4 - text string of thorem name
+%
+\def\che@ynthm#1#2#3#4{\expandafter\@ifdefinable\csname #1\endcsname
+{\@definecounter{#1}%
+\expandafter\xdef\csname the#1\endcsname{\@thmcounter{#1}}%
+\global\@namedef{#1}{\che@thm{#1}{#2}{#3}{#4}}\global
+\@namedef{end#1}{\@endtheorem}}}
+%
+% change oldthm if oldname in specification is '*'
+% then don't use a counter
+% #1 - countername
+% #2 - theorem font
+% #3 - text font
+% #4 - counter used
+% #5 - string containing theorem name to print
+%
+\def\che@othm#1#2#3[#4]#5{\expandafter\@ifdefinable
+\csname#1\endcsname%
+{\@@othm@{#1}{#2}{#3}{#4}{#5}\global\@namedef{end#1}{\@endtheorem}}}
+%
+\def\@@othm@#1#2#3#4#5{\if *#4{\global\@namedef{the#1}{\relax}
+\global\@namedef{#1}{\@bthm@{}{#5}{#2}{#3}}}\else
+{\global\@namedef{the#1}{\@nameuse{the#4}}% define the counter
+\global\@namedef{#1}{\che@thm{#4}{#5}{#2}{#3}}}\fi}
+%
+% new defs for theorem environment che 17-MAR-1989
+% it improves the option possible
+%
+% #1 - countername  = theorem name
+% #2 - string containing theorem name to print
+% #3 - theorem font
+% #4 - text font
+\def\che@thm#1#2#3#4{\@ifnextchar({\@athm{#1}{#2}{#3}{#4}}{%
+\@ifnextchar *{\@bthm{#1}{#2}{#3}{#4}}%
+{\@@thm{#1}{#2}{#3}{#4}}}}
+%
+% \begin{thm}(A.1)[test]      results in:
+% \end{thm}                               thm A.1 (test) ....
+% #1 - theorem
+% #2 - string of theorem name
+% #3 - font for theorem name and label
+% #4 - Text font
+% #5 - is the new label
+% #6 - optional string
+%
+\def\@athm#1#2#3#4(#5){\@ifnextchar[{%
+\@aythm{#1}{#2}{#3}{#4}{#5}}{\@axthm{#1}{#2}{#3}{#4}{#5}}}
+\def\@axthm#1#2#3#4#5{\@@locthmlab{#1}{#5}%
+\@begintheorem{#2}{#5}{#3}{#4}\ignorespaces}
+\def\@aythm#1#2#3#4#5[#6]{\@@locthmlab{#1}{#5}%
+\fuh@opargbegintheorem{#2}{#5}{#6}{#3}{#4}\ignorespaces}
+%
+% \begin{thm}*[xytest]        results in:
+% \end{thm}                               thm (xytest) ....
+% #1 - theorem
+% #2 - string of theorem name
+% #3 - font for theorem name and label
+% #4 - Text font
+% #5 - optional string
+%
+\def\@bthm@#1#2#3#4{\@ifnextchar[{\@bythm{#1}{#2}{#3}{#4}}{%
+\@bxthm{#1}{#2}{#3}{#4}}}
+\def\@bthm#1#2#3#4*{\@ifnextchar[{\@bythm{#1}{#2}{#3}{#4}}{%
+\@bxthm{#1}{#2}{#3}{#4}}}
+\def\@bxthm#1#2#3#4{\if !#1!\relax\else\@@locthmlab{#1}{}\fi
+\@@begintheorem{#2}{#3}{#4}\ignorespaces}
+\def\@bythm#1#2#3#4[#5]{%
+\@@opargbegintheorem{#2}{#3}{#4}{#5}\ignorespaces}
+%
+% define local label
+%   if no number or a user specified label occured
+%
+\def\@@locthmlab#1#2{\expandafter\def\csname the#1\endcsname{#2}
+\let\@chetempa\protect\def\protect{\noexpand\protect\noexpand}%
+\edef\@currentlabel{\csname p@#1\endcsname\csname the#1\endcsname}%
+\let\protect\@chetempa}
+%
+% #1 - counter = theorem name
+% #2 - string with name
+% #3 - font for theorem name and label
+% #4 - font for text
+\def\@@thm#1#2#3#4{\refstepcounter
+    {#1}\@ifnextchar[{\che@ythm{#1}{#2}{#3}{#4}}{%
+    \che@xthm{#1}{#2}{#3}{#4}}}
+%
+\def\che@xthm#1#2#3#4{\che@begintheorem{#2}{\csname
+the#1\endcsname}{#3}{#4}\ignorespaces}
+\def\che@ythm#1#2#3#4[#5]{\che@opargbegintheorem{#2}{\csname
+       the#1\endcsname}{#5}{#3}{#4}\ignorespaces}
+%
+% #1 - name of theorem
+% #2 - label string
+% #3 - font for name and lable
+% #4 - text fomt
+%
+\def\che@begintheorem#1#2#3#4{#4\trivlist\item[\hskip\labelsep
+#3#1\ts #2.]}
+%
+% #1 - name of theorem
+% #2 - label string
+% #3 - additonal text
+% #4 - font for name and lable
+% #5 - text fomt
+%
+\def\che@opargbegintheorem#1#2#3#4#5{#5\trivlist
+\item[\hskip\labelsep#4#1\ts #2\ #3.]}
+%
+\def\fuh@opargbegintheorem#1#2#3{\it \trivlist
+      \item[\hskip \labelsep{\bf #1\ #2\ (#3).}]}
+%
+\def\@@begintheorem#1#2#3{#3\trivlist\item[\hskip\labelsep
+#2#1.]}
+\def\@@opargbegintheorem#1#2#3#4{#3\trivlist\item[\hskip\labelsep
+#2#1 #4.]}
+
+\if@deutsch
+\newstytheorem{theorem}{\bf}{\it}{Theorem}[section]
+\newstytheorem{example}{\it}{\rm}{Beispiel}[section]
+\newstytheorem{proposition}{\bf}{\it}[theorem]{Proposition}
+\newstytheorem{corollary}{\bf}{\it}[theorem]{Korollar}
+\newstytheorem{lemma}{\bf}{\it}[theorem]{Lemma}
+\newstytheorem{proof}{\it}{\rm}[*]{Beweis}
+\newstytheorem{definition}{\bf}{\rm}[theorem]{Definition}
+\newstytheorem{remark}{\it}{\rm}[*]{Anmerkung}
+\newstytheorem{exercise}{\it}{\rm}[theorem]{\"{U}bung}
+\newstytheorem{problem}{\it}{\rm}[theorem]{Problem}
+\newstytheorem{solution}{\it}{\rm}[theorem]{L\"{o}sung}
+\newstytheorem{note}{\it}{\rm}[theorem]{Hinweis}
+\newstytheorem{question}{\it}{\rm}[theorem]{Frage}
+\else
+\newstytheorem{theorem}{\bf}{\it}{Theorem}[section]
+\newstytheorem{example}{\it}{\rm}{Example}[section]
+\newstytheorem{proposition}{\bf}{\it}[theorem]{Proposition}
+\newstytheorem{corollary}{\bf}{\it}[theorem]{Corollary}
+\newstytheorem{lemma}{\bf}{\it}[theorem]{Lemma}
+\newstytheorem{proof}{\it}{\rm}[*]{Proof}
+\newstytheorem{definition}{\bf}{\rm}[theorem]{Definition}
+\newstytheorem{remark}{\it}{\rm}[*]{Remark}
+\newstytheorem{exercise}{\it}{\rm}[theorem]{Exercise}
+\newstytheorem{problem}{\it}{\rm}[theorem]{Problem}
+\newstytheorem{solution}{\it}{\rm}[theorem]{Solution}
+\newstytheorem{note}{\it}{\rm}[theorem]{Note}
+\newstytheorem{question}{\it}{\rm}[theorem]{Question}
+\fi
+
+\def\squareforqed{\hbox{\rlap{$\sqcap$}$\sqcup$}}
+\def\qed{\ifmmode\squareforqed\else{\unskip\nobreak\hfil
+\penalty50\hskip1em\null\nobreak\hfil\squareforqed
+\parfillskip=0pt\finalhyphendemerits=0\endgraf}\fi}
+
+\def\getsto{\mathrel{\mathchoice {\vcenter{\offinterlineskip
+\halign{\hfil
+$\displaystyle##$\hfil\cr\gets\cr\to\cr}}}
+{\vcenter{\offinterlineskip\halign{\hfil$\textstyle##$\hfil\cr\gets
+\cr\to\cr}}}
+{\vcenter{\offinterlineskip\halign{\hfil$\scriptstyle##$\hfil\cr\gets
+\cr\to\cr}}}
+{\vcenter{\offinterlineskip\halign{\hfil$\scriptscriptstyle##$\hfil\cr
+\gets\cr\to\cr}}}}}
+\def\lid{\mathrel{\mathchoice {\vcenter{\offinterlineskip\halign{\hfil
+$\displaystyle##$\hfil\cr<\cr\noalign{\vskip1.2pt}=\cr}}}
+{\vcenter{\offinterlineskip\halign{\hfil$\textstyle##$\hfil\cr<\cr
+\noalign{\vskip1.2pt}=\cr}}}
+{\vcenter{\offinterlineskip\halign{\hfil$\scriptstyle##$\hfil\cr<\cr
+\noalign{\vskip1pt}=\cr}}}
+{\vcenter{\offinterlineskip\halign{\hfil$\scriptscriptstyle##$\hfil\cr
+<\cr
+\noalign{\vskip0.9pt}=\cr}}}}}
+\def\gid{\mathrel{\mathchoice {\vcenter{\offinterlineskip\halign{\hfil
+$\displaystyle##$\hfil\cr>\cr\noalign{\vskip1.2pt}=\cr}}}
+{\vcenter{\offinterlineskip\halign{\hfil$\textstyle##$\hfil\cr>\cr
+\noalign{\vskip1.2pt}=\cr}}}
+{\vcenter{\offinterlineskip\halign{\hfil$\scriptstyle##$\hfil\cr>\cr
+\noalign{\vskip1pt}=\cr}}}
+{\vcenter{\offinterlineskip\halign{\hfil$\scriptscriptstyle##$\hfil\cr
+>\cr
+\noalign{\vskip0.9pt}=\cr}}}}}
+\def\grole{\mathrel{\mathchoice {\vcenter{\offinterlineskip
+\halign{\hfil
+$\displaystyle##$\hfil\cr>\cr\noalign{\vskip-1pt}<\cr}}}
+{\vcenter{\offinterlineskip\halign{\hfil$\textstyle##$\hfil\cr
+>\cr\noalign{\vskip-1pt}<\cr}}}
+{\vcenter{\offinterlineskip\halign{\hfil$\scriptstyle##$\hfil\cr
+>\cr\noalign{\vskip-0.8pt}<\cr}}}
+{\vcenter{\offinterlineskip\halign{\hfil$\scriptscriptstyle##$\hfil\cr
+>\cr\noalign{\vskip-0.3pt}<\cr}}}}}
+\def\bbbr{{\rm I\!R}} %reelle Zahlen
+\def\bbbm{{\rm I\!M}}
+\def\bbbn{{\rm I\!N}} %natuerliche Zahlen
+\def\bbbf{{\rm I\!F}}
+\def\bbbh{{\rm I\!H}}
+\def\bbbk{{\rm I\!K}}
+\def\bbbp{{\rm I\!P}}
+\def\bbbone{{\mathchoice {\rm 1\mskip-4mu l} {\rm 1\mskip-4mu l}
+{\rm 1\mskip-4.5mu l} {\rm 1\mskip-5mu l}}}
+\def\bbbc{{\mathchoice {\setbox0=\hbox{$\displaystyle\rm C$}\hbox{\hbox
+to0pt{\kern0.4\wd0\vrule height0.9\ht0\hss}\box0}}
+{\setbox0=\hbox{$\textstyle\rm C$}\hbox{\hbox
+to0pt{\kern0.4\wd0\vrule height0.9\ht0\hss}\box0}}
+{\setbox0=\hbox{$\scriptstyle\rm C$}\hbox{\hbox
+to0pt{\kern0.4\wd0\vrule height0.9\ht0\hss}\box0}}
+{\setbox0=\hbox{$\scriptscriptstyle\rm C$}\hbox{\hbox
+to0pt{\kern0.4\wd0\vrule height0.9\ht0\hss}\box0}}}}
+\def\bbbq{{\mathchoice {\setbox0=\hbox{$\displaystyle\rm
+Q$}\hbox{\raise
+0.15\ht0\hbox to0pt{\kern0.4\wd0\vrule height0.8\ht0\hss}\box0}}
+{\setbox0=\hbox{$\textstyle\rm Q$}\hbox{\raise
+0.15\ht0\hbox to0pt{\kern0.4\wd0\vrule height0.8\ht0\hss}\box0}}
+{\setbox0=\hbox{$\scriptstyle\rm Q$}\hbox{\raise
+0.15\ht0\hbox to0pt{\kern0.4\wd0\vrule height0.7\ht0\hss}\box0}}
+{\setbox0=\hbox{$\scriptscriptstyle\rm Q$}\hbox{\raise
+0.15\ht0\hbox to0pt{\kern0.4\wd0\vrule height0.7\ht0\hss}\box0}}}}
+\def\bbbt{{\mathchoice {\setbox0=\hbox{$\displaystyle\rm
+T$}\hbox{\hbox to0pt{\kern0.3\wd0\vrule height0.9\ht0\hss}\box0}}
+{\setbox0=\hbox{$\textstyle\rm T$}\hbox{\hbox
+to0pt{\kern0.3\wd0\vrule height0.9\ht0\hss}\box0}}
+{\setbox0=\hbox{$\scriptstyle\rm T$}\hbox{\hbox
+to0pt{\kern0.3\wd0\vrule height0.9\ht0\hss}\box0}}
+{\setbox0=\hbox{$\scriptscriptstyle\rm T$}\hbox{\hbox
+to0pt{\kern0.3\wd0\vrule height0.9\ht0\hss}\box0}}}}
+\def\bbbs{{\mathchoice
+{\setbox0=\hbox{$\displaystyle     \rm S$}\hbox{\raise0.5\ht0\hbox
+to0pt{\kern0.35\wd0\vrule height0.45\ht0\hss}\hbox
+to0pt{\kern0.55\wd0\vrule height0.5\ht0\hss}\box0}}
+{\setbox0=\hbox{$\textstyle        \rm S$}\hbox{\raise0.5\ht0\hbox
+to0pt{\kern0.35\wd0\vrule height0.45\ht0\hss}\hbox
+to0pt{\kern0.55\wd0\vrule height0.5\ht0\hss}\box0}}
+{\setbox0=\hbox{$\scriptstyle      \rm S$}\hbox{\raise0.5\ht0\hbox
+to0pt{\kern0.35\wd0\vrule height0.45\ht0\hss}\raise0.05\ht0\hbox
+to0pt{\kern0.5\wd0\vrule height0.45\ht0\hss}\box0}}
+{\setbox0=\hbox{$\scriptscriptstyle\rm S$}\hbox{\raise0.5\ht0\hbox
+to0pt{\kern0.4\wd0\vrule height0.45\ht0\hss}\raise0.05\ht0\hbox
+to0pt{\kern0.55\wd0\vrule height0.45\ht0\hss}\box0}}}}
+\def\bbbz{{\mathchoice {\hbox{$\sf\textstyle Z\kern-0.4em Z$}}
+{\hbox{$\sf\textstyle Z\kern-0.4em Z$}}
+{\hbox{$\sf\scriptstyle Z\kern-0.3em Z$}}
+{\hbox{$\sf\scriptscriptstyle Z\kern-0.2em Z$}}}}
+\def\ts{\thinspace}
+
+\def\enddocument{
+\@checkend{document}\clearpage\begingroup
+\if@filesw \immediate\closeout\@mainaux
+\def\global\@namedef##1##2{}\def\newlabel{\@testdef r}%
+\def\bibcite{\@testdef b}\@tempswafalse\makeatletter\input \jobname.aux
+\if@tempswa \@warning{Label(s) may have changed. Rerun to get
+cross-references right}\fi\fi\endgroup\deadcycles\z@\@@end}
+\endinput

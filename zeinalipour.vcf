@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//Mac OS X 10.10//EN
+N:Zeinalipour;Demetris;;;
+FN:Demetris Zeinalipour
+ORG:Dept. of Computer Science\, University of Cyprus;
+TEL;type=WORK;type=VOICE;type=pref:0035722892755
+TEL;type=WORK;type=FAX:0035722892701
+ADR;type=WORK;type=pref:;;1 University Avenue;Nicosia;;2109;CYPRUS
+NOTE:POSTAL ADDRESS\n\nDemetris Zeinalipour\nDept. of Computer Science\nUniversity of Cyprus\nP.O. Box 20537\n1678 Nicosia\, CYPRUS\nPostal Address in Greek\n\n\nOFFICE ADDRESS\n\nRoom B106\, Computer Science\,\nPure and Applied Sciences (FST-01)\,\n1 University Avenue\,\n2109 Aglantzia\, CYPRUS (map)\nTel: +357-22892755\nFax: +357-22892755\nEmail:  dzeina@cs.ucy.ac.cy
+item1.URL;type=pref:http://www.cs.ucy.ac.cy/~dzeina/
+item1.X-ABLabel:_$!<HomePage>!$_
+UID:66c29b03-f1ce-4aa8-ac75-42350aeaa2af
+X-ABUID:66C29B03-F1CE-4AA8-AC75-42350AEAA2AF:ABPerson
+END:VCARD

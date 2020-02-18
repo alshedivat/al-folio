@@ -1,0 +1,100 @@
+/*
+ *
+ * SmartBIB:  The SmartBIB Project allows you to present a BIB database (
+ * .bibtex files) containing your publications on the web. 
+ * It is ideal for personal and project websites.
+ *
+ * Copyright (C) 2012 Georgios Larkou - DMSL - University of Cyprus
+ *
+ *
+ * This program is free software: you can redistribute it and/or modify 
+ * it under the terms of the GNU General Public License as published by 
+ * the Free Software Foundation, either version 3 of the License, or 
+ * at your option) any later version. 
+ *
+ * This program is distributed in the hope that it will be useful, 
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of 
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 
+ * GNU General Public License for more details. 
+ *
+ * Υou should have received a copy of the GNU General Public License 
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+body { 
+	font-size: 16px;
+}
+
+.publications {
+	margin:30px;
+}
+
+#publication-filter{
+	padding: 0px;
+	list-style-type: none;
+}
+
+li {
+	float: left;
+	margin: 0px 5px;
+}
+
+#publication-list {
+	padding: 0px;
+	margin-top: 10px;
+
+}
+
+#publication-list li {
+	list-style-type: none;
+	width: 95%;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+.publications-pdf {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url('../images/pdf.gif') no-repeat 0px 3px;
+}
+
+.publications-bib {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url('../images/bib.gif') no-repeat 0px 3px;
+}
+
+.publications-ref {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url('../images/references.gif') no-repeat 0px 3px;
+}
+.publications-ppt {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url('../images/ppt.gif') no-repeat 0px 3px;
+}
+
+.publications-website {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url('../images/website.png') no-repeat 0px 3px;
+}
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+.category-title {
+	text-align: center;
+	font-weight: bold;
+}

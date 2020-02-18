@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8"/>
+        <title>[ Mazharul Islam ]</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+         <script src="js/html5shiv.js"></script>
+         <script src="js/respond.min.js"></script>
+         <![endif]-->
+        
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!-- http://getbootstrap.com/customize/ change "@screen-sm" -> "@screen-md" in @grid-float-breakpoint -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/menucollapse.js"></script>
+        <script type="text/javascript" src="js/arrow78.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </head>
+    
+    <body id="page-top" class="index">
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span><a href="#"><img border="0" height="50" src="images/csucy.png"/></a></span>
+                </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#intro">Introduction</a></li>
+                                <li><a href="bio.html">Biography</a></li>
+                                <li><a href="cv.html">CV (Web)</a></li>
+                                <li><a target="_blank" href="zeinalipour.pdf">CV (PDF)</a></li>
+                            </ul>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#news">News</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Publications<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="#publications">Selected</a></li>
+                                <li><a href="publications/">All</a></li>
+                            </ul>
+                        </li>
+                        <!--
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="#awards">Awards</a>
+                        </li>
+                        -->
+                        <!--
+                        <li class="page-scroll">
+                            <a href="talks/">Talks</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="#courses">Courses</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-systems-content').show();" href="#systems">Systems</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="#service">Service</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-advising-content').show();" href="#advising">Advising</a>
+                        </li>
+                        
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">Contact</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+                -->
+                <!-- /.navbar-collapse -->
+                
+                <!-- search box submenu -->
+                <div class="collapse" id="bs-example-navbar-collapse-2">
+                    <gcse:search></gcse:search>
+                        </div>
+                
+            </div><!-- /.container-fluid -->
+        </nav>
+        
+        <section>
+            <!-- Place this tag where you want the search results to render -->
+            <gcse:searchresults-only></gcse:searchresults-only>
+                </section>
+        
+        <!-- Home Section -->
+        <section  name="home" id="home" style="margin-top:40px">
+            <div class="container">
+                <div align="left" class="col-md-3">
+                    <a target="_blank" href="images/zeinalipour.jpg">
+                        <img id="mobile-img" src="images/zeinalipour.small.jpg" width="200" border="0"  alt=""></a>
+                </div>
+                <div align="left" class="col-md-4">
+                    <h2>Mazharul Islam
+                        <h5><i>MSc student, Bangladesh University of Engineering and Technology</i></h5>
+                    </h2>
+                    
+                    <h4>Lecturer<br>
+                        <a href="http://cse.uiu.ac.bd/">Dept. of Computer Science</a><br>
+                        <a href="http://cse.uiu.ac.bd/">United International University</a><br>
+                        <!--
+                         P.O. Box 20537<br>
+                         1678 Nicosia, CYPRUS<br>-->
+                         <a href="tel:01704934903">01704934903</a><br/>
+                        Email:
+                        <script language="JavaScript">
+                            <!--
+                            document.write("&nbsp;");
+                            spiderjam('mazhar.buet11','gmail.com');
+                            -->
+                            </script><br/>
+                        <!--
+                        Lab: <a target="_blank" href="https://dmsl.cs.ucy.ac.cy/">http://dmsl.cs.ucy.ac.cy/</a><br>
+                        Directions: <a target="_blank" href="https://goo.gl/FQCHMl">http://goo.gl/FQCHMl</a>
+                        -->
+                    </h4>
+                    <h4>Research Interests: security & privacy, systems, machine learning</h4>
+                    
+                </div>
+                
+                <i class="twittertop" style="display:none;" id="t1">
+                    <div id="news" tyle="text-align: left"  class="col-md-5">&nbsp;
+                        <center><a class="twitter-timeline" href="https://twitter.com/Mazharul_13" data-chrome="nofooter" data-widget-id="346662554203992065" data-width="900"
+                            data-height="300">Tweets
+                            by @Mazharul_13</a>
+                        <script>!function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                            if (!d.getElementById(id)) {
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.src = p + "://platform.twitter.com/widgets.js";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }
+                        }(document, "script", "twitter-wjs");</script></center>
+                    </div>
+                </i>
+                
+                <!--<p><a href="#" class="btn btn-primary">More &raquo;</a></p>-->
+                <b class="expandshow" style="display:none;" id="tab-1">
+                    <button class="btn btn-primary btn-lg btn-block" style="width: 100%;" onclick="javascript:$('.allshow').show();$('.noshow').hide();$('.collapseshow').show();$('.expandshow').hide();">EXPAND ALL SECTIONS <span class="glyphicon glyphicon-chevron-down"></span></button>
+                </b>
+                <b class="collapseshow" style="display:none;" id="tab-1">
+                    <button class="btn btn-primary btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('.allshow').hide();$('.noshow').show();$('.expandshow').show();$('.collapseshow').hide();">COLLAPSE ALL SECTIONS <span class="glyphicon glyphicon-chevron-up"></span></button>
+                </b>
+                
+            </div>
+        </section>
+        
+        <!-- Home Section -->
+        <section name="intro" id="intro">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    <!--<h2>Welcome!</h2>-->
+                    
+                    <b class="noshow" style="display:none;" id="tab-1">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-intro-content').toggle();">Introduction <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    
+                    <div class="allshow" style="display:none;" id="tab-intro-content">
+                        <hr class="star-primary">
+                        
+                        <p class="lead">
+                        
+
+
+                            I am currently pursuing my MSc in Computer Science and Engineering from 2018 at Bangladesh University of Engineering and Technology and Engineering (BUET) which is the largest and most prestigious engineering school in Bangladesh. I have completed my Bachelors in Computer Science and Engineering in 2017 from the same university.
+                        </p>
+                        <p>
+                            I am lucky and privileged enough to do my undergraduate thesis and research Prof. A. B. M. Alim Al Islam on web security.
+
+                            My research intertests include security & privacy, systems, machine learning.
+                        </p>
+                        <p>
+                            Currently, I am working as a Lecturer at United International University. Previously I have worked as a Software Engineer at iPay Systems Ltd.
+                        </p>
+                        <!--
+                        <p><a href="bio.html" class="btn-sm btn-primary">Biography &raquo;</a>
+                        <a href="cv.html" class="btn-sm btn-primary">CV (Web)&raquo;</a>
+                        <a href="zeinalipour.pdf" class="btn-sm btn-primary">CV (PDF)&raquo;</a>
+                        -->
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <div class="twitterlow" style="display:none;" id="t1">
+            <!-- News Section -->
+            <section  name="news"  id="news">
+                <div class="container lead">
+                    <div style="text-align: left; margin-top:10px" class="col-md-12">
+                        
+                        <b class="noshow" style="display:none;" id="tab-2">
+                            <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-news-content').toggle();">News  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                        </b>
+                        <b class="allshow" style="display:none;" id="tab-news-content">
+                            
+                            <hr class="star-primary">
+                            
+                            <h2>News</h2>
+                            <center><a class="twitter-timeline" href="https://twitter.com/dmslucy" data-chrome="nofooter" data-widget-id="346662554203992065">Tweets
+                                by @Mazharul_13</a>
+                            <script>!function (d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                                if (!d.getElementById(id)) {
+                                    js = d.createElement(s);
+                                    js.id = id;
+                                    js.src = p + "://platform.twitter.com/widgets.js";
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }
+                            }(document, "script", "twitter-wjs");
+                            </script>
+                            </center>
+                        </b>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Research Section -->
+        <section  name="publications" id="publications">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-3">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-publications-content').toggle();">Publications  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-publications-content">
+                        <hr class="star-primary">
+                        
+                        <h2>Publications</h2>
+                        <!--
+                        <h4>
+                            <span class="label label-warning">
+                                <a target="_blank" href="https://en.wikipedia.org/wiki/H-index"><font color=white>h-index</font></a>: 25
+                            </span>&nbsp;
+                            <span class="label label-warning">
+                                <a target="_blank" href="https://scholar.google.com/citations?user=HCxwGIkAAAAJ&hl=en"><font color=white>Citations</font></a>: 2867
+                            </span>&nbsp;
+                            <span class="label label-warning">
+                                <a target="_blank" href="https://en.wikipedia.org/wiki/Erd&ouml;s_number"><font color="white">Erd&ouml;s #</font></a>: 3
+                            </span>&nbsp;
+                            <span class="label label-default">
+                                <a target="_blank" href="https://orcid.org/0000-0002-7239-2387"><font color="white">ORCID</font></a>
+                            </span>&nbsp;
+                            <span class="label label-default">
+                                <a target="_blank" href="https://www.scopus.com/authid/detail.uri?authorId=35176841800"><font color="white">Scopus</font></a>
+                            </span>&nbsp;
+                            <span class="label label-default">
+                                <a target="_blank" href="https://www.researcherid.com/rid/O-2301-2016"><font color="white">ResearcherID</font></a>
+                            </span>
+                            -->
+                            
+                        </h4>
+                        <ul>
+                            <li> <span class="label label-success">BMC Genomics 2020</span> <a target="_blank" href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-020-6519-y">"STELAR: A statistically consistent coalescent-based species tree estimation method by maximizing triplet consistency</a>",
+                                <br>
+                                <b>Mazharul Islam</b>, Kowshika Sarker, Trisha Das, Rezwana Reaz & Md. Shamsuzzoha Bayzid
+                                <br>
+                                <i>BMC Genomics volume 21, Article number: 136 (2020)</i>
+                                <br>
+                            <a href=    "https://islamazhar.github.io/STELAR/">Project Webpage</a>
+                            </li>
+
+                            <li> <span class="label label-success">ACM MobiQuitous 2019</span> <a target="_blank" href="https://dl.acm.org/doi/10.1145/3360774.3360829">"HEliOS: huffman coding based lightweight encryption scheme for data transmission"</a>,
+                                <br>
+                                <b>Mazharul Islam</b>, Novia Nurain, Mohammad Kaykobad, Sriram Chellappan, A. B. M. Alim Al Islam
+                                <br>
+                                <i>In Proceedings of the 16th EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services </i>
+                            </li>
+
+                            <li> <span class="label label-success">IEEE NSysS 2018</span> <a target="_blank" href="https://dl.acm.org/doi/10.1145/3360774.3360829">"A Sweet Recipe for Consolidated Vulnerabilities: Attacking a Live Website by Harnessing a Killer Combination of Vulnerabilities for Greater Harm"</a>,
+                                <br><b> Mazharul Islam </b>, MD. Nazmuddoha Ansary, Novia Nurain, Salauddin Parvez Shams, A. B. M. Alim Al Islam
+                                <br>
+                                <i>In Proceedings of the 5th International Conference on Networking, Systems and Security </i>
+                            </li>
+
+                        </ul>
+                        <!--
+                        <p><a href="publications/" class="btn btn-primary">All Publications &raquo;</a>
+                        -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+ 
+         <!-- Courses Section -->
+        <!--
+        <section  name="awards" id="awards">
+             <div class="container lead">
+                 <div style="text-align: left; margin-top:10px" class="col-md-12">
+                     
+                     <b class="noshow" style="display:none;" id="tab-6">
+                         <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-awards-content').toggle();">Awards  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                     </b>
+                     <div class="allshow" style="display:none;" id="tab-awards-content">
+                         
+                         <hr class="star-primary">
+                         <h2>Awards and Honors <a href="cv.html#SECTION00040000000000000000" class="btn btn-primary">More &raquo;</a></h2>
+                         <ul>
+                             <li>
+                                 <span class="label label-success">IEEE MDM'18</span> <a target="_blank" href="https://mdmconferences.org/mdm2018/">Best of MDM 2018</a>,  ``Decaying Telco Big Data with Data Postdiction'', 19th IEEE International Conference on Mobile Data Management (MDM'18), Aalborg, Denmark, June 26 - June 28, 2018 (Geinformatica - Springer - journal invitation).</span>
+                             </li>
+                             <li>
+                                 <span class="label label-success">IEEE MDM'18</span> <a target="_blank" href="https://mdmconferences.org/mdm2018/">Best Demo Award</a>,  ``FMS: Managing Crowdsourced Indoor Signals with the Fingerprint Management Studio'', 19th IEEE International Conference on Mobile Data Management (MDM'18), Aalborg, Denmark, June 26 - June 28, 2018.</span>
+                             </li>
+                             <li>
+                                 <span class="label label-success">IEEE MDM'17</span> <a target="_blank" href="https://mdmconferences.org/mdm2017/">Honorable Mention Award</a>,  ``Indoor Localization Accuracy Estimation from Fingerprint Data'', 18th IEEE International Conference on Mobile Data Management (MDM'17), KAIST, Daejeon, South Korea, May 29 - June 1, 2017.</span>
+                             </li>
+                             <li>
+                                 <span class="label label-success">ACM DSP'17</span> <a target="_blank" href="https://dsp.acm.org/view_lecturer.cfm?lecturer_id=7903">ACM Distinguished Speaker</a>, Association for Computing Machinery, New York, NY, USA, 2017-2020.</span>
+                             </li>
+                             <li>
+                                 <span class="label label-success">ACM SENIOR'16</span> <a target="_blank" href="https://awards.acm.org/award_winners/zeinalipour_1835156.cfm">ACM Senior Member</a>, Association for Computing Machinery, New York, NY, USA, 2016.</span>
+                             </li>
+                             <li>
+                                 <span class="label label-success">IEEE SENIOR'16</span> <a target="_blank" href="https://www.ieee.org/membership_services/membership/senior/index.html">IEEE Senior Member</a>, Institute of Electrical and Electronics Engineers, Piscataway, NJ, USA, 2016.</span>
+                             </li>
+                             <li>
+                                 <span class="label label-success">HUMBOLDT'16</span> <a target="_blank" href="https://www.humboldt-foundation.de/web/home.html">Humboldt Fellow</a>, Alexander von Humboldt Foundation, Bonn, Germany, 2016.</span>
+                             </li>
+                             <li>
+                                 <span class="label label-success">EVARILOS'14</span> <a target="_blank" href="http://www.evarilos.eu/open-challenge.php">Best Demo Award</a>, EVARILOS Open Challenge, FP7 Project (#317989), European Union, Berlin, Germany, 2014.</span>
+                             </li>
+                             <li>
+                                 <span class="label label-success">ACM/IEEE IPSN'14</span> <a target="_blank" href="https://research.microsoft.com/en-us/events/ipsn2014indoorlocalizatinocompetition/">2nd Best Demo Award</a>, Microsoft Indoor Localization Competition 2014, collocated with 13th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN'14), April 15-17, Berlin, Germany, 2014.</span>
+                             </li>
+                             <li>
+                                 <span class="label label-success">APPCAMPUS'13</span> <a target="_blank" href="https://blogs.windows.com/bloggingwindows/2013/11/11/5-top-apps-from-the-appcampus-program-for-windows-phone/">Appcampus Award</a>, ``Rayzit: Crowd Messaging'', Microsoft, Nokia and Aalto University, Finland, 2013.</span>
+                             </li>
+                             
+                             <li>
+                                 <span class="label label-success">IEEE MDM'12</span> <a target="_blank" href="https://mdmconferences.org/mdm2012/">Best Demo Award</a>,  ``The Airplace Indoor Positioning Platform for Android Smartphones'', 13th IEEE International Conference on Mobile Data Management (MDM'12), Bangalore, India, July 23-26, 2012.</span>
+                             </li>
+                             
+                             <li>
+                                 <span class="label label-success">COREGRID'06</span> <a target="_blank" href="https://mdmconferences.org/mdm2012/">Best Demo Award</a>, ``ICGrid: Intensive Care Grid'', CoreGRID Industrial Conference, Sophia Antipolis, France, Nov. 2006.</span>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </section>
+        -->
+
+        <!-- Courses Section -->
+        <!--
+        <section  name="courses" id="courses">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-5">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-courses-content').toggle();">Courses  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-courses-content">
+                        <hr class="star-primary">
+                        <h2>Courses <a href="cv.html#SECTION000110000000000000000" class="btn btn-primary">More &raquo;</a></h2>
+                        <ul>
+                            <li><span class="label label-success">EPL646</span> <a href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl646/">Advanced Topics in Databases</a> (Winter)</li>
+                            <li><span class="label label-default">EPL446</span> <a target="_blank" href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl446/">Advanced Database Systems</a></li>
+                            <li><span class="label label-success">EPL371</span> <a href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl371">Systems Programming</a> (Spring) </li>
+                            <li><span class="label label-default">EPL342</span> <a target="_blank" href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl342/">Databases</a></li>
+                            <li><span class="label label-success">EPL232</span> <a href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl232">Programming Techniques and Tools</a> (Winter) [formely EPL132]</li>
+                            <li><span class="label label-default">EPL111</span> <a target="_blank" href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl111">Discrete Structures in Computer Science and Computation</a></li>
+                            <li><span class="label label-default">EPL035</span> <a target="_blank" href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl035">Data Structures and Algorithms for ECE</a></li>
+                            <li><span class="label label-default">EPL032</span> <a target="_blank" href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl032">Introduction to Programming and Problem Solving</a></li>
+                            <li><span class="label label-default">EPL003</span> Computer Science and Information Systems</li>
+                            <li><span class="label label-default">EPL001</span> Introduction to Computer Science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+        <!-- Courses Section -->
+        <!--
+        <section name="systems" id="systems">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-4">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-systems-content').toggle();">Systems  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    
+                    <div class="allshow" style="display:none;" id="tab-systems-content">
+                        <hr class="star-primary">
+                        <h2>Systems <a href="https://dmsl.cs.ucy.ac.cy/projects.php   " class="btn btn-primary">More &raquo;</a></h2>
+                        <ul>
+                            
+                            
+                            <p>
+                            Our group enjoys transforming basic research results into systems and services:
+                            </p>
+                            
+                            <li><span class="label label-success">TBD</span> <a target="_blank" href="https://tbd.cs.ucy.ac.cy" target="_blank">Telco Big Data Awareness</a> (Spatial, Big Data, Decaying)</li>
+                            <li><span class="label label-success">Anyplace</span> <a target="_blank" href="https://anyplace.cs.ucy.ac.cy" target="_blank">Indoor Information Service</a> (Indoor, Big Data, Privacy, Prefetching)</li>
+                            <li><span class="label label-default">Rayzit</span> <a target="_blank" href="https://rayzit.cs.ucy.ac.cy" target="_blank">Crowd Messaging Architecture</a> (Privacy, Crowdsourcing, Mobile, Microblogging)</li>
+                            <li><span class="label label-default">SmartLab</span> <a target="_blank" href="https://smartlab.cs.ucy.ac.cy" target="_blank">Smartphone Cloud Computer</a> (Mobile, Cloud, Programming)</li>
+                            <li><span class="label label-default">Airplace</span> <a target="_blank" href="http://www2.ucy.ac.cy/~laoudias/pages/platform.html" target="_blank">Indoor Localization</a> (Indoor, Wi-Fi, Localization, Mobile)</li>
+                            <li><span class="label label-default">Smarttrace</span> <a target="_blank" href="https://smarttrace.cs.ucy.ac.cy" target="_blank">Trajectory Search Retrieval</a> (Trajectories, Similarity, Mobile)</li>
+                            <li><span class="label label-default">TVM</span> <a target="_blank" href="https://smarttrace.cs.ucy.ac.cy" target="_blank">Temporal Vector Map</a> (Indoor, Privacy, Localization)</li>
+                            <li><span class="label label-default">KSpot+</span> <a target="_blank" href="https://kspot.cs.ucy.ac.cy" target="_blank">Wireless Sensor Networks</a> (WSN, Data Management, Search, Retrieval)</li>
+                            
+                            <br><a target="_blank" href="https://dmsl.cs.ucy.ac.cy/"><img border="0" width="150" src="https://dmsl.cs.ucy.ac.cy/images/logo.png"/></a>
+                            <a target="_blank" href="https://github.com/dmsl/"><img border="0" width="250" src="images/github-logo.png"/></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+        
+        <!-- Service Section -->
+        <!--
+        <section name="service" id="service">
+            
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-7">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-service-content').toggle();">Service  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-service-content">
+                        
+                        <hr class="star-primary">
+                        <h2>Professional Service <a href="cv.html#SECTION00080000000000000000" class="btn btn-primary">More &raquo;</a></h2>
+                        <p>
+                        <span class="label label-success">Editorial Boards</span>
+                        
+                        <ul>
+                            <li><b>Associate Editor</b>, <a target="_blank" href="https://link.springer.com/journal/10619"><b> Distributed and Parallel Databases</b></a> journal, Editors-in-Chief: <a target="_blank" href="http://www-users.cs.umn.edu/~mokbel/">Mohamed Mokbel</a> and <a target="_blank" href="hhttps://www.cs.ucsb.edu/~agrawal/">Divyakant Agrawal</a>, <b>Springer US Press</b>, NY, USA. (05/2017 - 04/2023)
+                                <br><img width="200" src="images/springer.png"/>
+                            </li>
+                            <li><b>Associate Editor</b>, <a target="_blank" href="http://www.journals.elsevier.com/big-data-research"><b>Big Data Research</b></a> journal, Editors-in-Chief: Z. Wu, <a target="_blank" href="http://www.mi.parisdescartes.fr/~themisp/">Themis Palpanas</a>, <b>Elsevier Press</b>, Amsterdam, Netherlands. (04/2016 - current)
+                                <br><img width="100" src="images/elsevier.png"/>
+                            </li>
+                        </ul>
+                        </span>
+                        </p>
+                        
+                        <p>
+                        <span class="label label-success">Conference Committees</span>
+                        <ul>
+                            <li>
+                                <b>ACM SIGMOD:</b>
+                                <a href="http://www.sigmod2018.org/org_sigmod_demo_pc.shtml" target="_blank"><b>2018</b></a>,
+                                <a href="http://www.sigmod2015.org/org_sigmod_pc.shtml" target="_blank">2015</a>,
+                                <a href="http://www.sigmod2014.org/org_sigmod_demo_pc.shtml" target="_blank">2014</a>,
+                                <a href="http://www.sigmod.org/2013/org_sigmod_demo_pc.shtml" target="_blank">2013</a>,
+                                <a href="http://www.sigmod.org/2012/org_sigmod_demo_pc.shtml" target="_blank">2012</a>
+                                <i>[ACM's Management of Data Conference]</i>
+                            </li>
+                            <li>
+                                <b>VLDB:</b>
+                                <a href="https://vldb2019.github.io/" target="_blank"><b>2019</b></a>,
+                                <a href="http://vldb2016.persistent.com/call_demonstrations.html" target="_blank">2016</a>,
+                                <a href="http://www.vldb.org/2014/call_demonstrations.html" target="_blank">2014</a>,
+                                <a href="http://vldb.org/2013/call_demonstrations.html" target="_blank">2013</a>
+                                <i>[Intl. Conference on Very Large Data Bases]</i>
+                            </li>
+                            <li>
+                                <b>ACM SIGKDD:</b>
+                                 <a href="https://www.kdd.org/kdd2019/" target="_blank">2019</a>
+                                <a href="https://www.kdd.org/kdd2011/" target="_blank">2011</a>
+                                <i>[ACM's Intl. Knowledge Discovery and Data Mining Conference]</i>
+                            </li>
+                            <li>
+                                <b>ACM CIKM:</b>
+                                <a href="http://www.cikm2018.units.it/" target="_blank"><b>2018</b></a>,
+                                <a href="http://www.yorku.ca/cikm10/" target="_blank">2010</a>
+                                <i>[ACM's Intl. Conference on Information and Knowledge Management]</i>
+                            </li>
+                            <li>
+                                <b>IEEE ICDE:</b> <a href="http://www.icde2018.org/" target="_blank"><b>2018</b></a>
+                                (<font color="red"><b>Area PC Vice-Chair</b></font> for "Temporal, Spatial, Mobile, and Multimedia Data.")</a>,
+                                <a href="http://icde2016.fi/committees.php" target="_blank"><b>2016</b></a>,
+                                <a href="http://ieee-icde2014.eecs.northwestern.edu/pc.html" target="_blank">2014</a>,
+                                <a href="http://www.icde2013.org/" target="_blank">2013</a>,
+                                <a href="http://www.icde2011.org/" target="_blank">2011</a>,
+                                <a href="http://i.cs.hku.hk/icde2009/" target="_blank">2009</a>
+                                <i>[IEEE's Intl. Conference on Data Engineering]</i>
+                            </li>
+                            <li>
+                                <b>IEEE ICDCS:</b>
+                                <a href="http://www-higashi.ist.osaka-u.ac.jp/icdcs2016/" target="_blank">2016</a>
+                                <i>[IEEE's Intl. Conference on Distributed Computing Systems]</i>
+                            </li>
+                            <li>
+                                <b>IEEE MDM:</b>
+                                <a href="https://www.comp.hkbu.edu.hk/mdm2019//committees.php" target="_blank"><b>2019</b></a> (<font color="red"><b>PC Co-Chair</b></font> with <a href="https://hbku.edu.qa/en/staff/mohamed-mokbel" target="_blank">Mohamed F. Mokbel</a> and <a href="https://www.comp.hkbu.edu.hk/~xujl/" target="_blank">Jianliang Xu</a>),
+                                <a href="https://mdmconferences.org/mdm2018/committees.html" target="_blank"><b>2018</b></a> (and <font color="green">Panel Co-Chair</font>),
+                                <a href="https://mdmconferences.org/mdm2016/#committees" target="_blank"><b>2016</b></a>
+                                (and <font color="green">Tutorials Co-Chair</font> with <a href="https://www.cs.ualberta.ca/~mn/" target="_blank">Mario Nascimento</a>),
+                                <a href="https://mdmconferences.org/mdm2015/committees.html"><b>2015</b></a>
+                                (and <font color="green">Workshops Co-Chair</font> with <a href="http://www.cse.psu.edu/%7Ewlee/" target="_blank">Wang-Chien Lee</a>),
+                                <a href="https://mdmconferences.org/mdm2014/">2014</a></b>
+                                (and <font color="green">Panel Co-Chair</font> with <a href="http://www.csse.monash.edu.au/%7Eshonali/" target="_blank">Shonali Krishnaswamy</a>),
+                                <a href="http://mdm2013.dico.unimi.it/">2013</a></b>
+                                (and <font color="green">Demo Co-Chair</font> with <a href="http://www.cse.unt.edu/%7Ehuangyan/" target="_blank">Yan Huang</a>),
+                                <a href="https://mdmconferences.org/mdm2012/">2012</a></b>,
+                                <a href="https://mdmconferences.org/mdm2011/">2011</a></b>,
+                                <a href="http://www.sce.umkc.edu/mdm2010/">2010</a></b>
+                                (<font color="red"><b>PC Co-Chair</b></font> with <a href="http://sce2.umkc.edu/csee/kumarv/" target="_blank">Vijay Kumar</a> and <a href="http://www-nishio.ist.osaka-u.ac.jp/%7Ehara/" target="_blank">Takahiro Hara</a>),
+                                <a href="http://idke.ruc.edu.cn/mdm2008/">2008</a></b>
+                                <i>[IEEE's Intl. Conference on Mobile Data Management]</i>
+                            </li>
+                            <li>
+                                <b>IEEE ICBK:</b>
+                                <a href="http://icbk2017.bigke.org/" target="_blank"><b>2017</b></a>
+                                <i>[IEEE's Intl. Conference on Big Knowledge ]</i>
+                            </li>
+                            <li>
+                                <b>IEEE ICDM:</b>
+                                <a href="http://datamining.it.uts.edu.au/icdm10/" target="_blank">2010</a>
+                                (and <font color="green">Contest Chair</font>)
+                                <i>[IEEE's Intl. Conference of Data Mining]</i>
+                            </li>
+                            <li>
+                                <b>EDBT:</b>
+                                <a href="http://edbticdt2018.at/?EDBT18_Committee" target="_blank"><b>2018</b></a>,
+                                <a href="http://edbticdt2017.unive.it/?EDBT17_Committee" target="_blank">2017</a>,
+                                <a href="http://edbticdt2016.labri.fr/?EDBT16_Commitee" target="_blank">2016</a>
+                                <i>[Intl. Conference on Extending Database Technology]</i>
+                            </li>
+                            <li>
+                                <b>ECML/PKDD:</b>
+                                <a href="http://www.ecmlpkdd2015.org/" target="_blank">2016</a>,
+                                <a href="http://www.ecmlpkdd2016.org/" target="_blank">2015</a>,
+                                <a href="http://www.ecmlpkdd2014.org/" target="_blank">2014</a>,
+                                <a href="http://www.ecmlpkdd2011.org/" target="_blank">2011</a>
+                                <i>[European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases]</i>
+                            </li>
+                            <li>
+                                <b>SSDBM:</b>
+                                <a href="http://www.ssdbm2013.org/" target="_blank">2013</a>
+                                <i>[Intl. Conference on Scientific and Statistical Data Management]</i>
+                            </li>
+                            <li>
+                                <b>APWeb-WAIM:</b>
+                                <a href="http://conferences.cis.umac.mo/apwebwaim2018/program.html" target="_blank"><b>2018</b> </a>(<font color="green">Senior TPC Member</font>)
+                                <i>[Joint Conference on Web and Big Data]</i>
+                            </li>
+                            
+                        </ul>
+                        
+                        <span class="label label-success">Workshop and Symposia Committees</span>
+                        <ul>
+                            <li>
+                                <b>ACM ExploreDB:</b>
+                                <a href="https://sites.google.com/a/unitn.it/exploredb18/organisation-1" target="_blank"><b>2018</b></a>,
+                                <a href="https://sites.google.com/a/unitn.it/exploredb-2017/" target="_blank">2017</a>,
+                                <a href="https://sites.google.com/site/exploredb2016/organization" target="_blank">2016</a>,
+                                <a href="https://sites.google.com/site/exploredb2015/organization" target="_blank">2015</a>,
+                                <a href="https://sites.google.com/site/exploredb2014/organization" target="_blank">2014</a>
+                                <i>[Intl. Workshop on Exploratory Search in Databases and the Web @ ACM SIGMOD]</i>
+                            </li>
+                            <li>
+                                <b>ACM GeoRich:</b>
+                                <a href="http://www.dbs.ifi.lmu.de/georich16/organizer.php" target="_blank"><b>2016</b></a>
+                                <i>[Intl. Workshop on Managing and Mining Enriched Geo-Spatial Data @ ACM SIGMOD]</i>
+                            </li>
+                            <li>
+                                <b>ACM ISA:</b>
+                                
+                                <a href="https://sites.google.com/site/indoorspatialawareness2018/committee" target="_blank"><b>2018</b></a>
+                                <a href="https://sites.google.com/site/indoorspatialawareness2016/committee" target="_blank">2016</a>
+                                <a href="http://stem.cs.pusan.ac.kr/isa2015/committee.html" target="_blank">2015</a>
+                                <i>[Intl. Workshop Indoor Spatial Awareness @ ACM SIGSPATIAL]</i>
+                            </li>
+                            <li>
+                                <b>ACM BigMine:</b>
+                                <a href="http://bigmine.github.io/bigmine16/" target="_blank"><b>2016</b></a>,
+                                <a href="http://bigdata-mining.org/organization/" target="_blank">2013</a>,
+                                <a href="http://bigdata-mining.org/organization/" target="_blank">2012</a>
+                                <i>[Intl. Workshop on Big Data, Streams and Heterogeneous Source Mining: Algorithms, Systems, Programming Models and Applications @ ACM SIGKDD]</i>
+                            </li>
+                            <li>
+                                <b>ACM MobiDE:</b>
+                                <a href="http://pages.cs.brandeis.edu/%7Emobide12/" target="_blank">2012</a>,
+                                <a href="http://archive.itee.uq.edu.au/%7Emobide11/" target="_blank">2011</a>
+                                (and <font color="green">Steering Committee</font>),
+                                <a href="http://www.softnet.tuc.gr/mobide10/" target="_blank">2010</a>
+                                (and <font color="green">General Co-Chair</font> with <a href="http://www.pittsburgh.intel-research.net/people/gibbons/" target="_blank">Phillip B. Gibbons</a>),
+                                <a href="http://www.cs.fsu.edu/mobide09/Organization.html" target="_blank">2009</a>
+                                (<font color="red"><b>PC Co-Chair</b></font> with <a href="http://www.cs.ou.edu/%7Edatabase/faculty.htm" target="_blank">Le Gruenwald</a>),
+                                <a href="https://www.cs.ucy.ac.cy/mobide08/" target="_blank">2008</a>
+                                (and <font color="green">Publicity Chair</font>),
+                                <a href="http://www.cse.psu.edu/mobide07/" target="_blank">2007</a>,
+                                <i>[Intl. Workshop on Data Engineering for Wireless and Mobile Access @ ACM SIGMOD]</i>
+                            </li>
+                            <li>
+                                <b>IEEE ALIAS:</b>
+                                <a href="https://alias19.cs.ucy.ac.cy/" target="_blank"><b>2019</b></a>
+                                (<font color="red"><b>PC Co-Chair</b></font> with <a href="https://sites.google.com/site/profdshan/" target="_blank">Dong-Soo Han</a>, <a href="https://goo.gl/zC4usu/" target="_blank">Andreas S. Panayides</a> and <a href="https://agora.bourges.univ-orleans.fr/ramdani/" target="_blank">Nacim Ramdani</a>),
+                                <i>[Intl. Workshop on ALgorithms for Indoor Architectures and Systems @ IEEE MDM]</i>
+                            </li>
+                            <li>
+                                <b>IEEE HuMoComP:</b>
+                                <a href="https://humocomp15.cs.ucy.ac.cy/" target="_blank"><b>2015</b></a>
+                                (<font color="red"><b>PC Co-Chair</b></font> with <a href="http://www.pitt.edu/~kpele/" target="_blank">Konstantinos Pelechrinis</a>, <a href="http://people.cs.pitt.edu/~adamlee/" target="_blank">Adam J. Lee</a> and <a href="http://web.imis.athena-innovation.gr/~mter/" target="_blank">Manolis Terrovitis</a>),
+                                <i>[Intl. Workshop On Human Mobility Computing And Privacy @ IEEE MDM]</i>
+                            </li>
+                            <li>
+                                <b>IEEE Mobisocial:</b>
+                                <a href="http://www.iis.sinica.edu.tw/%7Ednyang/mobisocial" target="_blank"><b>2015</b></a>,
+                                <a href="http://www.iis.sinica.edu.tw/%7Ednyang/mobisocial" target="_blank">2014</a>,
+                                <a href="http://www.iis.sinica.edu.tw/%7Ednyang/mobisocial" target="_blank">2013</a>,
+                                <i>[Intl. Workshop on Mobile Data Management, Mining, and Computing on Social Networks  @ IEEE MDM]</i>
+                            </li>
+                            <li>
+                                <b>VLDB's DMSN:</b>
+                                <a href="http://www.softnet.tuc.gr/dmsn11/" target="_blank">2011</a>
+                                (and <font color="green">General Co-Chair</font> with <a href="http://www.cse.psu.edu/%7Ewlee/" target="_blank">Wang-Chien Lee</a>),
+                                <a href="https://www.cs.ucy.ac.cy/~dmsn10/" target="_blank">2011</a>
+                                (and <font color="red"><b>PC Co-Chair</b></font> with <a href="http://www.cse.psu.edu/%7Ewlee/" target="_blank">Wang-Chien Lee</a>),
+                                <a href="http://dmsn09.ethz.ch/" target="_blank">2009</a>,
+                                <a href="http://dmsn08.cs.umass.edu/" target="_blank">2008</a>,
+                                <a href="http://data.cs.washington.edu/dmsn07/" target="_blank">2007</a>
+                                <i>[Intl. Workshop on Data Management for Sensor Networks @ VLDB]</i>
+                            </li>
+                            <li>
+                                <b>MUSICAL:</b>
+                                <a href="http://musical16.cs.ucy.ac.cy" target="_blank"><b>2016</b></a> (<font color="red"><b>PC Co-Chair</b></font> with Yuka Kato (TWC University, Japan) and Takuya Yoshihiro (Wakayama University, Japan)),
+                                <i>[Intl. Workshop On Mobile Ubiquitous Systems, Infrastructures, Communications, And AppLications @ EAI's MobiQuitous]</i>
+                            </li>
+                            <li>
+                                <b>MUD:</b>
+                                <a href="http://www.insight-ict.eu/mud/" target="_blank">2014</a>
+                                <i>[Intl. Workshop on Mining Urban Data @ EDBT/ICDT]</i>
+                            </li>
+                            <li>
+                                <b>HDMS:</b>
+                                <a href="http://hdms18.cs.ucy.ac.cy/" target="_blank"><b>2018</b></a> (<font color="red"><b>PC Co-Chair</b></font> with <a href="https://www.cut.ac.cy/faculties/fet/eecei/staff/herodotos.herodotou/" target="_blank">Herodotos Herodotou</a>),
+                                <a href="http://hdms16.aueb.gr/index.php/en/organizing-committee" target="_blank"><b>2016</b></a>,
+                                <a href="http://hdms15.cs.aueb.gr/index.php/en/organizing-committee" target="_blank">2015</a>,
+                                <a href="http://hdms2012.softnet.tuc.gr/index_en.html" target="_blank">2012</a>,
+                                <a href="http://hdms11.di.uoa.gr/index.php?lang=en" target="_blank">2011</a>,
+                                <a href="https://www.cs.ucy.ac.cy/%7Ehdms2010/en" target="_blank">2010</a>
+                                (and <font color="green">Local Arrangements and Poster Chair</font>),
+                                <a href="http://dmsn09.ethz.ch/" target="_blank">2009</a>,
+                                <a href="http://dmsn08.cs.umass.edu/" target="_blank">2008</a>,
+                                <a href="http://data.cs.washington.edu/dmsn07/" target="_blank">2007</a>
+                                <i>[Hellenic Data Management Symposium]</i>
+                            </li>
+                        </ul>
+                        
+                        <span class="label label-success">Journal and Magazine Referee</span>
+                        <ul>
+                            <li>
+                                <b>Journal Referee:</b>
+                                Springer's <a href="http://www.springer.com/computer/database+management+&amp;+information+retrieval/journal/778" target="_blank">VLDB Journal</a> (3),
+                                IEEE <a href="http://www.computer.org/tkde/" target="_blank">TKDE</a> (12),
+                                IEEE <a href="http://www.computer.org/tmc/" target="_blank">TMC</a> (2),
+                                IEEE <a href="http://www.computer.org/tkde/" target="_blank">TPDS</a> (2),
+                                IEEE <a href="http://bbcrlab-pc9.bbcrlabpcnet.uwaterloo.ca/tvt/index.html" target="_blank">TVT</a> (1),
+                                IEEE <a href="http://www.computer.org/tc/" target="_blank">TC</a> (1),
+                                IEEE <a href="http://www.ieee-cis.org/pubs/tec/" target="_blank">TEC</a> (2),
+                                ACM's <a href="http://tist.acm.org/" target="_blank">TIST</a> (2),
+                                ACM's <a href="http://taas.acm.org/" target="_blank">TAAS</a> (1),
+                                ACM's <a href="http://www.sigmod.org/publications/sigmod-record/">Sigmod Record</a> (1),
+                                Elsevier's <a href="http://www.elsevier.com/locate/is" target="_blank">Infosys</a> (2),
+                                Elsevier's <a href="http://www.elsevier.com/locate/ins" target="_blank">InfoSciences</a> (4),
+                                Elsevier's <a href="http://www.elsevier.com/locate/adhoc" target="_blank">Adhoc</a> (3),
+                                Elsevier's <a href="http://www.journals.elsevier.com/computer-communications/" target="_blank">ComCom</a> (5),
+                                Elsevier's <a href="http://www.elsevier.com/locate/jpdc" target="_blank">JPDC</a> (2),
+                                Elsevier's <a href="http://www.elsevier.com/locate/datak" target="_blank">DKE</a> (1),
+                                Springer's <a href="http://www.springerlink.com/content/100257/" target="_blank">DADP</a> (3),
+                                Springer's <a href="http://link.springer.com/journal/10115" target="_blank">KAIS</a> (1),
+                                Springer's <a href="http://www.springer.com/computer/database+management+%26+information+retrieval/journal/10618" target="_blank">DMKD</a> (1),
+                                <a href="http://www.computer.org/tkde/" target="_blank">PPL</a> (1)
+                            </li>
+                            
+                            <li>
+                                <b>Magazine Referee</b>:
+                                <a href="http://www.computer.org/internet" target="_blank">Internet Computing</a> (2),
+                                <a href="http://www.comsoc.org/netmag" target="_blank">IEEE Network</a> (1)
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+        <!-- Courses Section -->
+        <!--
+        <section name="advising" id="advising">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-8">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-advising-content').toggle();">Advising  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-advising-content">
+                        
+                        <hr class="star-primary">
+                        <h2>Advising <a href="cv.html#SECTION000120000000000000000" class="btn btn-primary">More &raquo;</a></h2>
+                        <ul>
+                            <li>
+                                <span class="label label-success">Postdoc</span> <a target="_blank" href="https://www.cs.ucy.ac.cy/~gchatzim/">George Chatzimilioudis</a>, Researcher at MTN, Cyprus.
+                            </li>
+                            <li>
+                                <span class="label label-success">Postdoc</span> <a target="_blank" href="http://staff.frederick.ac.cy//com.ca/AndreasConstantinides/">Andreas Konstantinidis</a>, Lecturer at Frederick University, Cyprus.
+                            </li>
+                            <li>
+                                <span class="label label-success">Postdoc</span> <a target="_blank" href="http://www2.ucy.ac.cy/~laoudias/">Christos Laoudias</a>, Researcher at KIOS Research Center, Cyprus.
+                            </li>
+                            <li>
+                                <span class="label label-success">Ph.D.</span> (completed) <a target="_blank" href="http://www.uclancyprus.ac.cy/en/courses/school-sciences/academics/panayiotis-andreou">Panayiotis Andreou</a>, Assistant Professor at University of Central Lancashire, Cyprus. </span>
+                            </li>
+                            <li>
+                                <span class="label label-success">Ph.D.</span> (completed) <a target="_blank" href="https://www.cs.ucy.ac.cy/~cs07cc6/">Constantinos Costa</a>, Instructor/Researcher, University of Cyprus, Cyprus.
+                            </li>
+                           <li>
+                                <span class="label label-info">Ph.D.</span> (ongoing) <a target="_blank" href="https://www.cs.ucy.ac.cy/~glarko01/">Georgios Larkou</a>, University of Cyprus, Cyprus.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+        <!-- Home Section -->
+        <!--
+        <section name="links" id="links">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-9">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-links-content').toggle();">Links  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    
+                    <div class="allshow" style="display:none;" id="tab-links-content">
+                        
+                        <hr class="star-primary">
+                        <h2>Random Links</h2>
+                        <ul>
+                            <li><span class="label label-success"><a target="_blank" href="https://www.cs.ucy.ac.cy/colloquium/"><font color="white">Colloquium</font></a></span> I am the Computer Science Colloquium Coordinator.</li>
+                            <li><span class="label label-default"><a target="_blank" href="http://www.homepages.ucl.ac.uk/~uccazei/"><font color="white">Brother</font></a></span> My brother's website at UCL, UK.</li>
+                            <li><span class="label label-info"><a target="_blank" href="https://smartlib.cs.ucy.ac.cy/scripts/exportBooks.php?mykey=0a05bb77edad7395da818f361f8115a2"><font color="white">Books</font></a></span> My book collection constructed using our <a target="_blank" href="https://smartlib.cs.ucy.ac.cy/">SmartLib project.</a></li>
+                            <li><span class="label label-danger"><a target="_blank" href="https://code.org/learn"><font color="white">Hour-of-Code</font></a></span> I support the hour of code iniative as a volunteer instructor.</a></li>
+                            <li><span class="label label-primary"><a target="_blank" href="https://github.com/dmsl"><font color="white">Github</font></a></span> I support open-source code development.</a></li>
+                            <li><span class="label label-warning"><a target="_blank" href="http://www.kyreniaship.org/"><font color="white">Kyrenia-Chrysocava</font></a></span> A project aimed to preserve the cultural heritage of the <a target="_blank" href="https://en.wikipedia.org/wiki/Kyrenia_ship">Kyrenia ship</a>.</li>
+                            <li><span class="label label-success"><font color="white">Cycling</font></span> My favorite hobby besides programming :-)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+        <!-- Home Section -->
+        <!--
+        <section  name="contact" id="contact">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-10">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-contact-content').toggle();">Contact  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-contact-content">
+                        
+                        <hr class="star-primary">
+                        <h2>Contact</h2>
+                        <div class="container lead">
+                            <div align="left" class="col-md-3">
+                                <h4 class="myEN">
+                                    POSTAL ADDRESS (EN | <a target="_blank" onclick="javascript:$('.myEN').hide();$('.myEL').show();">EL</a>)
+                                </h4>
+                                
+                                <h4 class="myEL" style="display:none">
+                                    ΤΑΧΥΔΡΟΜ. ΔΙΕΥΘ. (<a target="_blank" onclick="javascript:$('.myEN').show();$('.myEL').hide();">EN</a> | EL)
+                                </h4>
+                                
+                                <p class="myEL" style="display:none">
+                                Δημήτρης Ζεϊναλιπούρ<br>
+                                Τμήμα Πληροφορικής<br>
+                                Πανεπιστήμιο Κύπρου<br>
+                                Τ.Θ. 20537<br>
+                                1678 Λευκωσία, ΚΥΠΡΟΣ<br>
+                                </p>
+                                
+                                <p class="myEN">
+                                Demetris Zeinalipour<br>
+                                Dept. of Computer Science<br>
+                                University of Cyprus<br>
+                                P.O. Box 20537<br>
+                                1678 Nicosia, CYPRUS<br>
+                                </p>
+                                Email:
+                                <script language="JavaScript">
+
+                                    document.write("&nbsp;");
+                                    spiderjam('mazharul.buet11','gmail.com');
+
+                                    </script><br>
+                            </div>
+                            
+                            <div align="left" class="col-md-3">
+                                <h4>CONTACT VCARD</h4>
+                                <p>
+                                <a href="zeinalipour.vcf"><img src="images/zeinalipour-qr.gif" border="0" width="150"><br>
+                                    https://goo.gl/ndCbTg</a>
+                                
+                                  <a href="zeinalipour.vcf" class="btn btn-primary">Get VCF Card &raquo;</a>
+                                </p>
+                            </div>
+                            
+                            <div align="left" class="col-md-3">
+                                <h4>OFFICE ADDRESS</h4>
+                                <p>B106, Computer Science,<br/>
+                                Building FST-01,<br/>
+                                1 University Avenue,<br/>
+                                2109 Aglantzia, CYPRUS<br/>
+                                Tel: <a href="tel:0035722892755">+357-22892755</a><br/>
+                                Fax: <a href="tel:0035722892701">+357-22892701</a><br/>
+                                <br/>
+                                </p>
+                            </div>
+                            
+                            <div align="left" class="col-md-3">
+                                <h4>OFFICE DIRECTIONS</h4>
+                                <p><a href="https://goo.gl/RLbcXM" target="_blank"><img src="images/anyplace-directions.jpg" border="0"
+                                    width="150"> <br>https://goo.gl/RLbcXM</a>
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="star-primary">
+                    </div>
+                    
+                    </section>
+        -->
+        <hr class="star-primary">
+        <footer>
+            <small>
+                <center>
+                    © 2015 | D. Zeinalipour. Credits: AR template
+                    <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
+                    <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence:
+                        <a href="https://github.com/dmsl/academic-responsive-template" target="_blank">
+                            https://github.com/dmsl/academic-responsive-template
+                        </a> ]
+                    </div>
+                </center>
+            </small>
+        </footer>
+        
+    </body>
+    
+</html>

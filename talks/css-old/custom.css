@@ -1,0 +1,108 @@
+/*
+ *
+ * SmartBIB:  The SmartBIB Project allows you to present a BIB database (
+ * .bibtex files) containing your publications on the web. 
+ * It is ideal for personal and project websites.
+ *
+ * Copyright (C) 2012 Georgios Larkou - DMSL - University of Cyprus
+ *
+ *
+ * This program is free software: you can redistribute it and/or modify 
+ * it under the terms of the GNU General Public License as published by 
+ * the Free Software Foundation, either version 3 of the License, or 
+ * at your option) any later version. 
+ *
+ * This program is distributed in the hope that it will be useful, 
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of 
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 
+ * GNU General Public License for more details. 
+ *
+ * Υou should have received a copy of the GNU General Public License 
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+body {
+    font-size: 16px;
+}
+.classes {
+	margin:30px;
+}
+
+#classes-filter li {
+    float: left;
+	margin: 0px 5px;
+    list-style: none;
+}
+
+#publication-list {
+	padding: 0px;
+}
+
+#classes-list li {
+    list-style: circle;
+	width: 95%;
+	margin-left: 2em;
+	margin-bottom: 0.5em;
+	overflow: visible;
+}
+
+#classes-list #invited,
+#classes-list #english,
+#classes-list #greek {
+    margin-left: 1em;
+    list-style: none;
+}
+.publications-ppt {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url('../images/ppt.gif') no-repeat 0px 3px;
+}
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+.category-title {
+	text-align: center;
+	font-weight: bold;
+}
+
+.isotope,
+.isotope .isotope-item {
+
+/* change duration value to whatever you like */
+
+	-webkit-transition-duration: 0s;
+	-moz-transition-duration: 0s;
+	-ms-transition-duration: 0s;
+	-o-transition-duration: 0s;
+	transition-duration: 0s;
+}
+	  	
+
+	  	
+.isotope {
+	-webkit-transition-property: height, width;
+	-moz-transition-property: height, width;
+	-ms-transition-property: height, width;
+	-o-transition-property: height, width;
+	transition-property: height, width;
+}
+	  	
+
+	  	
+.isotope .isotope-item {
+	-webkit-transition-property: -webkit-transform, opacity;
+	-moz-transition-property:    -moz-transform, opacity;
+	-ms-transition-property:     -ms-transform, opacity;
+	-o-transition-property:         top, left, opacity;
+	transition-property:         transform, opacity;
+}
+
+.bg-success {
+	background-color: #dff0d8;
+}
