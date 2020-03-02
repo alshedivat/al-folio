@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Hantao Cui | CURENT Large-Scale Testbed</title>
+  <meta name="description" content="Hantao Cui's academic website.
+">
+
+  
+
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/projects/1_project/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+        
+        <strong>Hantao</strong> Cui
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="/">about</a>
+
+        <!-- Pages -->
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="page-link" href="/projects/">projects</a>
+          
+        
+          
+            <a class="page-link" href="/publications/">publications</a>
+          
+        
+          
+            <a class="page-link" href="/teaching/">teaching</a>
+          
+        
+          
+        
+
+        <!-- Blog -->
+        <a class="page-link" href="/blog/">blog</a>
+
+        <!-- CV link -->
+        <a class="page-link" href="/assets/pdf/CV.pdf">vitae</a>
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">CURENT Large-Scale Testbed</h1>
+    <h5 class="post-description">The CURENT LTB for wide-area monitoring, modeling, control, and demonstration</h5>
+  </header>
+
+  <article class="post-content CURENT Large-Scale Testbed clearfix">
+    <h2 id="overview">Overview</h2>
+
+<p>The objective of LTB is to develop a software platform for the large-scale test bed (LTB) thrust that can serve as a real-time grid operation platform to continuously simulate the operation of an actual power grid with small or large disturbances using communication and control actions as considered under wide-area measurement.</p>
+
+<p>While the traditional power system simulators only focus on the physical power system components, the LTB incorporates power system components,
+communication networks, energy management systems (EMS) and a measurement-based control system into an integrated platform for researchers to address emerging challenges such as renewable energy integration and cyber-physical security under innovative measurement-based technologies and controls.</p>
+
+<h2 id="technology-pathway">Technology Pathway</h2>
+
+<p>The LTB platform is designed on a decoupled architecture based on the concept of “module”. With the data interfaces properly defined, each module runs its own routines independently and communicate with other modules through data streaming. The modules are categorized into four categories based on functionality: grid simulators, measurement devices, energy management system, and controls. These modules, the underlying communication network, and the large-scale system
+models make up the LTB system.</p>
+
+<div class="img_row">
+<img class="col three" src="/assets/img/proj_ltb_arch.jpg" alt="" title="LTB Software Architecture" />
+</div>
+
+<p>This figure shows the overall architecture and the structural organization in LTB. The CURENT North America systems with 50% wind scenarios are created for different seasons. The grid simulator produces algebraic and state variable data from time-domain integration on a large-scale grid model. The measurement system receives the raw state, imposes measurement errors and delays, and send the measurements to the state estimator. The state estimator sends the estimated states to
+control modules for further processing. Control signals from the control modules are sent back to the grid simulator for actuation.</p>
+
+<p>The control system consists of the wide-area measurement-based control methods developed in the CURENT thrusts. Over the years of development, several control methods have been implemented on the LTB, including controlled system separation for the WECC system, voltage stability assessment, damping control and frequency control. The control methods were developed in standalone mode with the simulation data dumped from the simulators. When the methods are mature, they are interfaced to the
+LTB platform via data streaming, which provides the inputs to the control methods. The next figure shows the visual comparison of hierarchical voltage control method using an in-house interactive visualization platform.</p>
+
+<p><img class="col three" src="/assets/img/proj_ltb_web.jpg" alt="" title="LTBWeb" /></p>
+
+<h2 id="impacts">Impacts</h2>
+
+<p>LTB provides a testing platform to validate and verify new models and control technologies developed in CURENT. It also serves as a driver of research since it allows fast prototyping of new models and grid infrastructures, direct access to simulation and measurement data, and instant feedback of the wide-area control signals. Thus, it is of critical importance to the success of the CURENT research visions.</p>
+
+<h2 id="points-of-contact">Points of Contact</h2>
+
+<p>Fran Li (865) 974-8401 (ph.) (865) 974-9723 (fax) fli6@utk.edu</p>
+
+<p>Kevin Tomsovic (865) 974-2693 (ph.) (865) 974-5483 (fax) tomsovic@utk.edu</p>
+
+<p>Hantao Cui (865) 974-5493 hcui7@utk.edu</p>
+
+
+  </article>
+
+  
+
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+
+  <div class="wrapper">
+    &copy; Copyright 2020 Hantao Cui.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+
+    
+        Last updated: 02 March 2020.
+    
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/assets/css/academicons.min.css">
+
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXXXXXX', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
+
+</html>
