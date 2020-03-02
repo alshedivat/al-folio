@@ -25,9 +25,6 @@
         <!-- About -->
         <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">about</a>
 
-        <!-- Blog -->
-        <a class="page-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">blog</a>
-
         <!-- Pages -->
         {% for page in site.pages %}
           {% if page.title and page.url != "/" %}
@@ -35,8 +32,11 @@
           {% endif %}
         {% endfor %}
 
+        <!-- Blog -->
+        <a class="page-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">blog</a>
+
         <!-- CV link -->
-        <!-- <a class="page-link" href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a> -->
+        <a class="page-link" href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a>
 
       </div>
     </nav>

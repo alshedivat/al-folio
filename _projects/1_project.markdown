@@ -1,55 +1,45 @@
 ---
 layout: page
-title: Project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+title: CURENT Large-Scale Testbed
+description: The CURENT LTB for wide-area monitoring, modeling, control, and demonstration
+
+img: /assets/img/proj_ltb_icon.jpg
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The objective of LTB is to develop a software platform for the large-scale test bed (LTB) thrust that can serve as a real-time grid operation platform to continuously simulate the operation of an actual power grid with small or large disturbances using communication and control actions as considered under wide-area measurement. 
 
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+While the traditional power system simulators only focus on the physical power system components, the LTB incorporates power system components,
+communication networks, energy management systems (EMS) and a measurement-based control system into an integrated platform for researchers to address emerging challenges such as renewable energy integration and cyber-physical security under innovative measurement-based technologies and controls.
 
+## Technology Pathway
 
-<div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
-
+The LTB platform is designed on a decoupled architecture based on the concept of “module”. With the data interfaces properly defined, each module runs its own routines independently and communicate with other modules through data streaming. The modules are categorized into four categories based on functionality: grid simulators, measurement devices, energy management system, and controls. These modules, the underlying communication network, and the large-scale system
+models make up the LTB system.
 
 <div class="img_row">
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+<img class="col three" src="/assets/img/proj_ltb_arch.jpg" alt="" title="LTB Software Architecture">
 </div>
 
+This figure shows the overall architecture and the structural organization in LTB. The CURENT North America systems with 50% wind scenarios are created for different seasons. The grid simulator produces algebraic and state variable data from time-domain integration on a large-scale grid model. The measurement system receives the raw state, imposes measurement errors and delays, and send the measurements to the state estimator. The state estimator sends the estimated states to
+control modules for further processing. Control signals from the control modules are sent back to the grid simulator for actuation.
 
-<br/><br/>
+The control system consists of the wide-area measurement-based control methods developed in the CURENT thrusts. Over the years of development, several control methods have been implemented on the LTB, including controlled system separation for the WECC system, voltage stability assessment, damping control and frequency control. The control methods were developed in standalone mode with the simulation data dumped from the simulators. When the methods are mature, they are interfaced to the
+LTB platform via data streaming, which provides the inputs to the control methods. The next figure shows the visual comparison of hierarchical voltage control method using an in-house interactive visualization platform.
+
+<img class="col three" src="/assets/img/proj_ltb_web.jpg" alt="" title="LTBWeb">
+
+## Impacts
+
+LTB provides a testing platform to validate and verify new models and control technologies developed in CURENT. It also serves as a driver of research since it allows fast prototyping of new models and grid infrastructures, direct access to simulation and measurement data, and instant feedback of the wide-area control signals. Thus, it is of critical importance to the success of the CURENT research visions.
 
 
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
+## Points of Contact
 
-<div class="img_row">
-    <img class="col two left" src="/img/6.jpg"/>
-    <img class="col one left" src="/img/11.jpg"/>
-</div>
+Fran Li (865) 974-8401 (ph.) (865) 974-9723 (fax) fli6@utk.edu
+
+Kevin Tomsovic (865) 974-2693 (ph.) (865) 974-5483 (fax) tomsovic@utk.edu
+
+Hantao Cui (865) 974-5493 hcui7@utk.edu
+

@@ -1,23 +1,33 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: <strong>Hantao</strong> Cui
+description: <a href="https://eecs.utk.edu">Department of EECS</a>. & <a href="https://curent.utk.edu">CURENT</a>, University of Tennessee, Knoxville
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>346 Min H. Kao Building</p>
+    <p>1520 Middle Drive</p>
+    <p>Knoxville, TN 37996</p>
 
 news: true
 social: true
 ---
+Hantao Cui is a Research Assistant Professor in the Department of Electrical Engineering and Computer Science and CURENT, University of Tennessee, Knoxville. He is the research lead of the Large-Scale Testbed (LTB) Project and the main developer of the power system analysis tool [andes](https://github.com/cuihantao/andes).
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hantao Cui obtained his Ph.D. degree in 2018, advised by [Dr. Fangxing “Fran” Li](http://web.eecs.utk.edu/~fli6). 
+He was appointed as a full-time Research Associate with CURENT before Ph.D. graduation. 
+He received his Master’s and Bachelor’s Degree in Electrical Engineering from Southeast University, China in 2013 and 2011 respectively. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Hantao Cui's research include:
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+ - Symbolic and numerical analysis in power systems
+ - Cyber-physical power system modeling, real-time simulation, and closed-loop control
+ - Cybersecurity in transmission, distribution and microgrids
+ - Microgrid and smart distribution control, distributed energy resources
+ - Smart grid scheduling and operation under uncertainty
+
+He publishes research papers as well as open-source software for research. Use the icons at the botton to checkout the most recent papers and tools.
+
