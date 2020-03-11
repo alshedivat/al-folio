@@ -1,1 +1,1 @@
-Chinmoy Dutta's [Homepage](https://chinmoy-dutta.github.io/) built using [al-folio](https://github.com/alshedivat/al-folio) theme.
+[Homepage](https://chinmoy-dutta.github.io/) of Chinmoy Dutta built using [al-folio](https://github.com/alshedivat/al-folio) theme.
