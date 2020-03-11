@@ -1,23 +1,36 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: Chinmoy Dutta
+description:
+address: >
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: profile.jpg
 
 news: true
-social: true
+social: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Computer Scientist \\
+IEEE Senior Member
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<br/>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<b>Research interests:</b> Algorithms and Optimization, Operations Research, \\
+(recently) Data Science and Machine Learning.
+
+My passion are problems that are motivated by and can drive practice.
+
+
+[Google Scholar](https://scholar.google.com/citations?user={{ site.scholar_userid }})  &nbsp; \| &nbsp; [LinkedIn](https://www.linkedin.com/in/{{ site.linkedin_username }}) &nbsp; \| &nbsp; [Email](mailto:{{ site.email }})
+
+
+***
+
+I have been at Lyft Labs (dispatching, shared rides matching, vehicle repositioning, passenger walking, and fleet management), Twitter (advertisement and recommendation) and IBM Research (biomedical document classification and disambiguation).
+
+Previously, I was a postdoctoral fellow in the Algorithms and Complexity group at [Max Planck Institute for Informatics](https://www.mpi-inf.mpg.de/home/) and in the College of Computer Sciences at [Northeastern University](https://www.northeastern.edu/).
+
+I received my PhD in Computer Science from [Tata Institute of Fundamental Research](https://www.tifr.res.in/) advised by [ Prof. Jaikumar Radhakrishnan](https://en.wikipedia.org/wiki/Jaikumar_Radhakrishnan), and my undergrad degree (B.Tech.) in Computer Science and Engineering from [IIT Kanpur](http://www.iitk.ac.in/).
