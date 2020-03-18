@@ -13,10 +13,8 @@ news: true
 social: false
 ---
 
-<span style="font-weight: 300;">
 Computer Scientist \\
 IEEE Senior Member
-</span>
 
 <b>Research interests:</b> Algorithms, Optimization, Operations Research, (recently) Data Science and Machine Learning.
 
@@ -24,7 +22,7 @@ IEEE Senior Member
 My passion are problems that are motivated by and can drive practice.
 
 <span style="font-weight: 300;">
-[<span style="font-weight: 300;">Google Scholar</span>](https://scholar.google.com/citations?user={{ site.scholar_userid }})  &nbsp; \| &nbsp; [<span style="font-weight: 300;">LinkedIn</span>](https://www.linkedin.com/in/{{ site.linkedin_username }}) &nbsp; \| &nbsp; [<span style="font-weight: 300;">Email</span>](mailto:{{ site.email }})
+[Google Scholar](https://scholar.google.com/citations?user={{ site.scholar_userid }})  &nbsp; \| &nbsp; [LinkedIn](https://www.linkedin.com/in/{{ site.linkedin_username }}) &nbsp; \| &nbsp; [Email](mailto:{{ site.email }})
 
 ***
 
