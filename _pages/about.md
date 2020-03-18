@@ -16,8 +16,6 @@ social: false
 Computer Scientist \\
 IEEE Senior Member
 
-<br/>
-
 <b>Research interests:</b> Algorithms and Optimization, Operations Research, (recently) Data Science and Machine Learning.
 
 My passion are problems that are motivated by and can drive practice.
