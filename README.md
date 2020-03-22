@@ -32,7 +32,28 @@ $ bundle exec jekyll serve
 
 Now, feel free to customize the theme however you like (don't forget to change the name!).
 After you are done, **commit** your final changes.
-Now, you can deploy your website to [GitHub Pages](https://pages.github.com/) by running the deploy script:
+
+### Deployment
+Now, you can deploy your website to [GitHub Pages](https://pages.github.com/).
+
+You have two options:
+
+* Deploy in a branch of your `<your-repo-name>`. By adopting this (default)
+  approach you will have the website's source code and the deployed version
+  under different branches of the same repo.
+* Deploy in a out-of-tree location. This approach is only recommended for
+  advanced jekyll / git users. Do not try to use this unless you know what you
+  are doing. By adopting this (alternative) approach you will have the website's
+  source code in one repo and the deployment version in a different repo.
+
+**Note:** when deploying your user or organization page, make sure the `_config.yml` has `url` and `baseurl` fields as follows.
+
+```
+url: # should be empty
+baseurl:  # should be empty
+```
+#### Deploy in a branch
+You can deploy your website to [GitHub Pages](https://pages.github.com/) by running the deploy script:
 
 ```bash
 $ ./bin/deploy [--user]
@@ -41,13 +62,49 @@ By default, the script uses the `master` branch for the source code and deploys 
 The optional flag `--user` tells it to deploy to `master` and use `source` for the source code instead.
 Using `master` for deployment is a convention for [user and organization pages](https://help.github.com/articles/user-organization-and-project-pages/).
 
-**Note:** when deploying your user or organization page, make sure the `_config.yml` has `url` and `baseurl` fields as follows.
+#### Deploy in a separate repo (advanced users only)
+**Note:** This approach does _not_ put the right things in the correct branch
+automatically. Only use this approach if you are familiar with the concept of
+[publishing sources](https://help.github.com/en/github/working-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites).
 
+Let's assume that your website's publishing source is a `publishing-source`
+sub-directory of a git-versioned repository cloned under `$HOME/repo/`.
+For a user site this could well be something like `$HOME/<user>.github.io`.
+
+Firstly, from the deployment repo dir, checkout the git branch hosting your
+publishing source.
+
+Then from the website sources dir (commonly your al-folio fork's clone):
 ```
-url:  # should be empty
-baseurl:  # should be empty
+bundle exec jekyll build --destination $HOME/repo/publishing-source
 ```
 
+This will instruct jekyll to deploy the website under
+`$HOME/repo/publishing-source`.
+
+**Note:** Jekyll will clean `$HOME/repo/publishing-source` before building!
+
+The quote below is taken directly from the
+[jekyll configuration docs](https://jekyllrb.com/docs/configuration/options/):
+
+> Destination folders are cleaned on site builds
+>
+> The contents of `<destination>` are automatically cleaned, by default, when the site is built. Files or folders that are not created by your site will be removed. Some files could be retained by specifying them within the `<keep_files>` configuration directive.
+>
+> Do not use an important location for `<destination>`; instead, use it as a staging area and copy files from there to your web server.
+
+If `$HOME/repo/publishing-source` contains files that you want jekyll to leave
+untouched, specify them under `keep_files` in `_config.yml`.
+
+In its default configuration, al-folio will copy the top-level `README.md` to
+the publishing source. If you want to change this behaviour, add `README.md`
+under `exclude` in `_config.yml`.
+
+**Note:** Do _not_ run `jekyll clean` on your publishing source repo as this
+will result in the entire directory getting deleted, irrespective of the content
+of `keep_files` in `_config.yml`.
+
+### Usage
 
 ### Upgrading from a previous version
 
