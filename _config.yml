@@ -10,7 +10,7 @@ footer_text: >
 
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: 02 March 2020 # leave blank if you don't want to display last updated
+last_updated: 26 March 2020 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Open Graph
@@ -37,7 +37,7 @@ blogger_url: # your blogger URL
 contact_note: >
     Feel free to reach me my email or open an issue on GitHub.
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: UA-117249817-1 # your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
