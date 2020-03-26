@@ -21,7 +21,7 @@ Hantao Cui obtained his Ph.D. degree in 2018, advised by [Dr. Fangxing “Fran�
 He was appointed as a full-time Research Associate with CURENT before Ph.D. graduation. 
 He received his Master’s and Bachelor’s Degree in Electrical Engineering from Southeast University, China in 2013 and 2011 respectively.
 
-Hantao Cui is recognized as an Outstanding Reviewer for 2019 by the IEEE Transactions on Power Systems. He is author of two Essential Science Indicators (ESI) highly cited papers.
+Hantao Cui serves as an Associate Editor for the [Journal of Modern Power Systems and Clean Energy](http://www.mpce.info). He is recognized as an Outstanding Reviewer for 2019 by the IEEE Transactions on Power Systems. He is author of two Essential Science Indicators (ESI) highly cited papers.
 
 Hantao Cui's research include:
 
