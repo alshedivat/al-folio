@@ -56,7 +56,7 @@ text:
     older: 'Older'
 
 # Comments
-disqus_shortname: hantaocui # put your disqus shortname
+disqus_shortname: hantao-cuis-website # put your disqus shortname
 
 # Optional features
 show_social_icons:  false
