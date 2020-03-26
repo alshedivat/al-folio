@@ -17,12 +17,12 @@ Please continue reading after installing Docker.
 ## Getting the Docker Image
 To pull the Docker image from DockerHub, run
 
-```
+```bash
 docker pull cuihantao/andes:latest
 ```
 
 ## Mounting Folders
-    When you run andes inside a docker, it is executed inside a container. Andes in the container only has access to files within the container. 
+When you run andes inside a docker, it is executed inside a container. Andes in the container only has access to files within the container. 
 
 To run andes for a file in the local file system, one needs to mount the folder containing the file to the container. Mounting is done with `-v` or `--volume`, followed by the source directory and destination directory followed by colon. The destination directory must be `/root` for andes containers.
 
@@ -31,9 +31,9 @@ For the source folder, It is recommended to create a folder specifically for and
 Next, copy andes test cases into the folder. In the example, I'm using `kundur_full.xlsx`.
 
 ## Running ANDES
-    To run andes using docker, run
+To run andes using docker, run
 
-```
+```bash
 docker run -v /Users/hcui7/notebooks:/root cuihantao/andes run kundur_full.xlsx
 ```
 
@@ -41,7 +41,7 @@ where `-v /Users/hcui7/notebooks:/root` does the folder mounting, `cuihantao/and
 
 As is seen in the example, commands and arguments are passed to the container in the same way as to a local andes. For example, to enable verbose logging, run
 
-```
+```bash
 docker run -v /Users/hcui7/notebooks:/root cuihantao/andes -v 10 run kundur_full.xlsx
 ```
 
@@ -53,7 +53,7 @@ Andes in the Docker container also needs to generate code from symbolically defi
 
 Note that the files saved from the Docker container is owned by root. This is because the user inside the container to run andes was `root`. If you need to modify the files, use `chown` to change the owner. 
 
-```
+```bash
 sudo chown USER:GROUP .andes
 ```
 

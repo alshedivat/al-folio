@@ -91,18 +91,18 @@
 
 .header-bar{
     border-bottom: 1px solid $light-gray;
-    font-size: 20px;
+    font-size: 10px;
     display: block;
     opacity: 0.75;
     width: 100%;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 1px;
     padding-bottom: $space-4;
-    line-height: 3em;
-    z-index: 25;
+    line-height: 1em;
+    z-index: 5;
     h1{
         color: $theme-color;
-        font-size:75px;
+        font-size:45px;
     }
     h2{
         font-size:25px;
