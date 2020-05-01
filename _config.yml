@@ -1,7 +1,8 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Your Name
+
+title: Your Name
 email: you@example.com
 description: > # this means to ignore newlines until "url:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -12,11 +13,21 @@ footer_text: >
 
 url:  # the base hostname & protocol for your site
 baseurl: /al-folio # the subpath of your site, e.g. /blog/
-last_updated: # leave blank if you don't want to display last updated
+last_updated: false # set to true if you want to display last updated in the footer
+
+# -----------------------------------------------------------------------------
+# Layout
+# -----------------------------------------------------------------------------
+
+navbar_fixed: true
+footer_fixed: false
+social_icons_pos: bottom
+# TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
+
 github_username: # your GitHub user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
@@ -30,6 +41,7 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
+
 blog_name: al-folio
 blog_description: a simple whitespace theme for academics
 
@@ -46,14 +58,10 @@ text:
 # Comments
 disqus_shortname: al-folio # put your disqus shortname
 
-# Optional features
-show_social_icons:  false
-enable_anchorjs:    false
-enable_katex:       true
-
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
+
 collections:
   news:
     defaults:
@@ -85,7 +93,10 @@ plugins:
     - jekyll/scholar
     - jemoji
 
-# Jekyll-Scholar
+# -----------------------------------------------------------------------------
+# Jekyll Scholar
+# -----------------------------------------------------------------------------
+
 scholar:
 
   last_name: Einstein
@@ -110,8 +121,26 @@ scholar:
   query: "@*"
 
 # -----------------------------------------------------------------------------
-# Other settings
+# Optional Features
 # -----------------------------------------------------------------------------
-jquery_version: "1.12.4"
-katex_version: "0.9.0"
-anchorjs_version: "3.2.2"
+
+enable_google_analytics:  false
+enable_highlight:         true
+enable_katex:             true
+enable_mansory:           false
+enable_progressbar:       false
+enable_tooltips:          false
+show_social_icons:        true
+
+# -----------------------------------------------------------------------------
+# Library versions
+# -----------------------------------------------------------------------------
+
+academicons_version: "1.8.6"
+bootstrap_version: "4.4.1"
+fontawesome_version: "5.11.2"
+highlight_version: "9.15.10"
+jquery_version: "3.4.1"
+katex_version: "0.11.1"
+mdb_version: "4.8.10"
+popper_version: "1.15.0"

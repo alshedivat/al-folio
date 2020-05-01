@@ -1,46 +1,58 @@
-<header class="site-header">
+<header>
 
-  <div class="wrapper">
-
-    {% if page.layout != "about" %}
-    <span class="site-title">
-        {% assign name = site.name | split: ' ' %}
-        <strong>{{ name | first }}</strong> {{ name | last }}
-    </span>
-    {% endif %}
-
-    <nav class="site-nav">
-      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
-
-      <div class="trigger">
-        <!-- About -->
-        <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">about</a>
-
-        <!-- Blog -->
-        <a class="page-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">blog</a>
-
-        <!-- Pages -->
-        {% for page in site.pages %}
-          {% if page.title and page.url != "/" %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-
-        <!-- CV link -->
-        <!-- <a class="page-link" href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a> -->
-
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
+    <div class="container">
+      {% if page.title != "about" %}
+        {% assign name = site.title | split: ' ' %}
+        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/"><span class="font-weight-bold">{{ name | first }}</span> {{ name | last }}</a>
+      {% elsif site.social_icons_pos == 'top' %}
+        <!-- Social Icons -->
+        <div class="row ml-1 ml-sm-0">
+          {% include social.html %}
+        </div>
+      {% endif %}
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <li class="nav-item {% if page.title == 'about' %}navbar-active{% endif %}">
+            <a class="nav-link" href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">
+              about
+              {% if page.title == "about" %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
+          {% for p in site.pages %}
+            {% if p.title and p.url != "/" %}
+              <li class="nav-item {% if page.nav == p.nav %}navbar-active{% endif %}">
+                  <a class="nav-link" href="{{ p.url | prepend: site.baseurl | prepend: site.url }}">
+                    {{ p.title }}
+                    {% if page.nav == p.nav %}
+                      <span class="sr-only">(current)</span>
+                    {% endif %}
+                  </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-  </div>
+  {% if site.enable_progressbar %}
+  <!-- Scrolling Progress Bar -->
+  <progress id="progress" value="0">
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+  </progress>
+  {% endif %}
 
 </header>
