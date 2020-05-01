@@ -1,8 +1,8 @@
 ---
 layout: about
+title: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right

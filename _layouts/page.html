@@ -4,20 +4,17 @@ layout: default
 <div class="post">
 
   <header class="post-header">
+    {% if page.title == 'about' %}
+    {% assign name = site.title | split: ' ' %}
+    <h1 class="post-title"><span class="font-weight-bold">{{ name | first }}</span> {{ name | last }}</h1>
+    {% else %}
     <h1 class="post-title">{{ page.title }}</h1>
-    <h5 class="post-description">{{ page.description }}</h5>
+    {% endif %}
+    <p class="post-description">{{ page.description }}</p>
   </header>
 
-  <article class="post-content {{page.title}} clearfix">
+  <article>
     {{ content }}
   </article>
-
-  {% if page.news %}
-    {% include news.html %}
-  {% endif %}
-
-  {% if page.social %}
-    {% include social.html %}
-  {% endif %}
 
 </div>

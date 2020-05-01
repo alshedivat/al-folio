@@ -1,13 +1,21 @@
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>{{ site.name }}{% if page.title and page.url != "/" %} | {{ page.title }}{% endif %}</title>
-  <meta name="description" content="{{ site.description }}">
+<title>{{ site.title }}{% if page.title and page.url != "/" %} | {{ page.title }}{% endif %}</title>
+<meta name="description" content="{{ site.description }}">
 
-  <link rel="shortcut icon" href="{{ '/assets/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/{{ site.bootstrap_version }}/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/{{ site.mdb_version }}/css/mdb.min.css">
 
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-</head>
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/{{ site.fontawesome_version }}/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/{{ site.academicons_version }}/css/academicons.min.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Styles -->
+<link rel="shortcut icon" href="{{ '/assets/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl | prepend: site.url }}">
+
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

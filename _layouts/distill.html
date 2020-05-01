@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    <script src="{{ '/assets/js/distill.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+  </head>
+
+  <d-front-matter>
+    <script type="text/json">{
+      "title": "{{ page.title }}",
+      "description": "{{ page.description }}",
+      "published": "{{ page.date }}",
+      "authors": [
+        {% for author in page.authors %}
+        {
+          "author": "{{ author.name }}",
+          "authorURL": "{{ author.url }}"
+        }{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+      ],
+      "editors": [
+        {% for editor in page.editors %}
+        {
+          "editor": "{{ editor.name }}",
+          "editorURL": "{{ editor.url }}"
+        }{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
+
+  <body>
+
+    {% include header.html %}
+
+
+    <div class="page-content">
+
+      <d-title>
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.description }}</p>
+      </d-title>
+
+      <d-byline></d-byline>
+
+      <d-article>
+        {{ content }}
+      </d-article>
+
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+  {% include hemline.html %}
+
+  <d-bibliography src="{{ page.bibliography | prepend: '/assets/distill/' | prepend: site.baseurl | prepend: site.url }}">
+  </d-bibliography>
+
+</html>
