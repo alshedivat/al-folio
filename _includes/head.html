@@ -19,3 +19,13 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
+
+<!-- Open Graph -->
+{% if site.serve_og_meta %}
+<meta property="og:site_name" content="{{ site.description }}" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="{{ site.name }}" />
+<meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
+<meta property="og:description" content="{{ page.title }}" />
+<meta property="og:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
+{% endif %}
