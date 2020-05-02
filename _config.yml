@@ -77,9 +77,19 @@ news_limit: 5
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
-# Build settings
+# Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
+highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
 # Includes & excludes
 include: ['_pages']
@@ -124,7 +134,6 @@ scholar:
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:  false
-enable_highlight:         false
 enable_katex:             true
 enable_mansory:           false
 enable_progressbar:       false

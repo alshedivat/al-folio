@@ -8,11 +8,7 @@
 <script src="{{ '/assets/js/common.js' | prepend: site.baseurl | prepend: site.url }}"></script>
 
 <!-- Code Syntax Highlighting -->
-{% if site.enable_highlight %}
-<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/{{ site.highlight_version }}/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-{% endif %}
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/{{ site.highlight_theme }}.css" />
 
 {% if site.enable_katex %}
 <!-- Load KaTeX -->
