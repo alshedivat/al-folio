@@ -21,7 +21,6 @@ last_updated: false # set to true if you want to display last updated in the foo
 
 navbar_fixed: true
 footer_fixed: false
-social_icons_pos: bottom
 # TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
@@ -80,7 +79,7 @@ news_limit: 5
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 # Includes & excludes
 include: ['_pages']
@@ -125,12 +124,12 @@ scholar:
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:  false
-enable_highlight:         true
+enable_highlight:         false
 enable_katex:             true
 enable_mansory:           false
 enable_progressbar:       false
 enable_tooltips:          false
-show_social_icons:        true
+show_social_icons:        false
 
 # -----------------------------------------------------------------------------
 # Library versions

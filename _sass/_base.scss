@@ -53,6 +53,14 @@ a, table.table a {
       color: $link-color;
     }
   }
+  .navbar-nav .nav-item.active>.nav-link {
+      background-color: inherit;
+      color: $link-color;
+      font-weight: bolder;
+      &:hover {
+        color: $link-color;
+      }
+  }
   .contact-icon {
     font-size: 2rem;
     a {
