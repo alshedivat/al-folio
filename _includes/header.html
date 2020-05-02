@@ -6,7 +6,7 @@
       {% if page.title != "about" %}
         {% assign name = site.title | split: ' ' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/"><span class="font-weight-bold">{{ name | first }}</span> {{ name | last }}</a>
-      {% elsif site.social_icons_pos == 'top' %}
+      {% elsif site.show_social_icons %}
         <!-- Social Icons -->
         <div class="row ml-1 ml-sm-0">
           {% include social.html %}
@@ -21,7 +21,8 @@
       </button>
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          <li class="nav-item {% if page.title == 'about' %}navbar-active{% endif %}">
+          <!-- About -->
+          <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">
               about
               {% if page.title == "about" %}
@@ -29,17 +30,27 @@
               {% endif %}
             </a>
           </li>
+          <!-- Blog -->
+          <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">
+              blog
+              {% if page.title == "blog" %}
+              <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
+          <!-- Other pages -->
           {% for p in site.pages %}
-            {% if p.title and p.url != "/" %}
-              <li class="nav-item {% if page.nav == p.nav %}navbar-active{% endif %}">
-                  <a class="nav-link" href="{{ p.url | prepend: site.baseurl | prepend: site.url }}">
-                    {{ p.title }}
-                    {% if page.nav == p.nav %}
-                      <span class="sr-only">(current)</span>
-                    {% endif %}
-                  </a>
-              </li>
-            {% endif %}
+          {% if p.title and p.url != "/" %}
+          <li class="nav-item {% if page.title == p.title %}active{% endif %}">
+              <a class="nav-link" href="{{ p.url | prepend: site.baseurl | prepend: site.url }}">
+                {{ p.title }}
+                {% if page.nav == p.nav %}
+                <span class="sr-only">(current)</span>
+                {% endif %}
+              </a>
+          </li>
+          {% endif %}
           {% endfor %}
         </ul>
       </div>
