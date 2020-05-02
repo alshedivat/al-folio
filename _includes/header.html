@@ -23,7 +23,7 @@
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- About -->
           <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">
+            <a class="nav-link" href="{{ '/' | relative_url }}">
               about
               {% if page.title == "about" %}
                 <span class="sr-only">(current)</span>
@@ -32,7 +32,7 @@
           </li>
           <!-- Blog -->
           <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">
+            <a class="nav-link" href="{{ '/blog/' | relative_url }}">
               blog
               {% if page.title == "blog" %}
               <span class="sr-only">(current)</span>
@@ -43,7 +43,7 @@
           {% for p in site.pages %}
           {% if p.nav %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
-              <a class="nav-link" href="{{ p.url | prepend: site.baseurl | prepend: site.url }}">
+              <a class="nav-link" href="{{ p.url | relative_url }}">
                 {{ p.title }}
                 {% if page.title == p.title %}
                 <span class="sr-only">(current)</span>

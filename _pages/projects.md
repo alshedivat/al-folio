@@ -13,7 +13,7 @@ nav: true
     <div class="thumbnail">
         <a href="{{ project.redirect }}" target="_blank">
         {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
+        <img class="thumbnail" src="{{ project.img | relative_url }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    
@@ -29,9 +29,9 @@ nav: true
 
 <div class="project ">
     <div class="thumbnail">
-        <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
+        <a href="{{ project.url | relative_url }}">
         {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
+        <img class="thumbnail" src="{{ project.img | relative_url }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    
