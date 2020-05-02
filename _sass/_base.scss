@@ -204,3 +204,13 @@ footer.sticky-bottom {
     background-color: $theme-color;
   }
 }
+
+
+// Distill
+
+.distill {
+  a:hover {
+    border-bottom-color: $theme-color;
+    text-decoration: none;
+  }
+}
