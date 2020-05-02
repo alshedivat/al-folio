@@ -4,13 +4,9 @@
 @charset "utf-8";
 
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-// @import "mdb/core/bootstrap/bootstrap";
-// @import "mdb/mdb";
 
 @import
   "variables",
   "layout",
-  "base",
-  "syntax-highlighting"
+  "base"
 ;
