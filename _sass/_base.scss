@@ -5,10 +5,10 @@
  // Typography
 
 a, table.table a {
-  color: $link-color;
+  color: $theme-color;
   display: inline-block;
   &:hover {
-    color: $link-color;
+    color: $theme-color;
     text-decoration: underline;
   }
   &:hover:after {
@@ -17,6 +17,7 @@ a, table.table a {
 }
 
 // Math
+
 .equation {
   margin-bottom: 1rem;
   text-align: center;
@@ -26,9 +27,6 @@ a, table.table a {
 // Profile
 
 .profile {
-    img {
-        box-shadow: 0 0 5px $grey-color;
-    }
     .address {
       font-family: monospace;
       font-size: 1.2rem;
@@ -46,7 +44,6 @@ a, table.table a {
   border-bottom: 1px solid $grey-color-light;
   opacity: 0.95;
 }
-
 .navbar.navbar-light {
   // Remove link decoration
   a {
@@ -56,15 +53,15 @@ a, table.table a {
   }
   .navbar-nav .nav-item .nav-link {
     &:hover {
-      color: $link-color;
+      color: $theme-color;
     }
   }
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
-      color: $link-color;
+      color: $theme-color;
       font-weight: bolder;
       &:hover {
-        color: $link-color;
+        color: $theme-color;
       }
   }
   .contact-icon {
@@ -72,7 +69,7 @@ a, table.table a {
     a {
       color: $grey-color-dark;
       &:hover {
-        color: $link-color;
+        color: $theme-color;
       }
     }
   }
@@ -115,11 +112,14 @@ a, table.table a {
 
 
 // News
+
 .news table td {
   font-size: 1rem;
 }
 
+
 // Social (bottom)
+
 .social {
   text-align: center;
   .contact-icon {
@@ -127,7 +127,7 @@ a, table.table a {
     a {
       color: $grey-color-dark;
       &:hover {
-        color: $link-color;
+        color: $theme-color;
       }
     }
   }
@@ -147,7 +147,7 @@ footer.fixed-bottom {
   a {
     color: white;
     &:hover {
-      color: lighten($link-color, 25%);
+      color: lighten($theme-color, 25%);
       text-decoration: none;
     }
   }
@@ -158,4 +158,49 @@ footer.sticky-bottom {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
+}
+
+
+// Blog
+
+.header-bar {
+  border-bottom: 1px solid $grey-color-light;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  h1 {
+    color: $theme-color;
+    font-size: 5rem;
+  }
+}
+
+.post-list {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  li {
+    border-bottom: 1px solid $grey-color-light;
+    list-style: none;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    .post-meta {
+      color: $grey-color;
+      font-size: 0.875rem;
+      margin-bottom: 0;
+    }
+    a {
+      color: black;
+      text-decoration: none;
+      &:hover {
+        color: $theme-color;
+      }
+    }
+  }
+}
+
+.pagination .page-item.active .page-link {
+  background-color: $theme-color;
+  &:hover {
+    background-color: $theme-color;
+  }
 }

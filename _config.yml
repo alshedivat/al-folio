@@ -20,7 +20,7 @@ last_updated: false # set to true if you want to display last updated in the foo
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: false
+footer_fixed: true
 # TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
@@ -43,16 +43,17 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
 blog_name: al-folio
 blog_description: a simple whitespace theme for academics
+permalink: /blog/:year/:title/
 
 # Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
-
-text:
-  pagination:
-    newer: 'Newer'
-    older: 'Older'
+pagination:
+  enabled: true
+  collection: 'posts'
+  permalink: /page/:num/
+  per_page: 3
+  trail:
+    before: 1 # The number of links before the current page
+    after: 3  # The number of links after the current page
 
 # Comments
 disqus_shortname: al-folio # put your disqus shortname
@@ -98,7 +99,7 @@ exclude: [vendor]
 # Plug-ins
 plugins:
     - jekyll-email-protect
-    - jekyll-paginate
+    - jekyll-paginate-v2
     - jekyll/scholar
     - jemoji
 

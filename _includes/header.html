@@ -41,11 +41,11 @@
           </li>
           <!-- Other pages -->
           {% for p in site.pages %}
-          {% if p.title and p.url != "/" %}
+          {% if p.nav %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
               <a class="nav-link" href="{{ p.url | prepend: site.baseurl | prepend: site.url }}">
                 {{ p.title }}
-                {% if page.nav == p.nav %}
+                {% if page.title == p.title %}
                 <span class="sr-only">(current)</span>
                 {% endif %}
               </a>
