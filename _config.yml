@@ -62,14 +62,6 @@ permalink: /blog/:year/:title/
 # Pagination
 pagination:
   enabled: true
-  collection: 'posts'
-  permalink: /page/:num/
-  per_page: 3
-  sort_field: 'date'
-  sort_reverse: true
-  trail:
-    before: 1 # The number of links before the current page
-    after: 3  # The number of links after the current page
 
 # Comments
 disqus_shortname: al-folio # put your disqus shortname
@@ -152,8 +144,8 @@ scholar:
 
 enable_google_analytics:  false
 enable_katex:             true
-enable_mansory:           false
-enable_progressbar:       false
+enable_mansory:           true
+enable_progressbar:       true
 enable_tooltips:          false
 show_social_icons:        false
 
@@ -161,11 +153,33 @@ show_social_icons:        false
 # Library versions
 # -----------------------------------------------------------------------------
 
-academicons_version: "1.8.6"
-bootstrap_version: "4.4.1"
-fontawesome_version: "5.11.2"
-highlight_version: "9.15.10"
-jquery_version: "3.4.1"
-katex_version: "0.11.1"
-mdb_version: "4.8.10"
-popper_version: "1.15.0"
+academicons:
+  version: "1.8.6"
+  integrity: "sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw="
+bootstrap:
+  version: "4.4.1"
+  integrity:
+    css: "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    js: "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+fontawesome:
+  version: "5.13.0"
+  integrity: "sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+jquery:
+  version: "3.4.1"
+  integrity: "sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+katex:
+  version: "0.11.1"
+  integrity:
+    css: "sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung="
+    js: "sha256-F/Xda58SPdcUCr+xhSGz9MA2zQBPb0ASEYKohl8UCHc="
+mansory:
+  version: "4.2.2"
+  integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
+mdb:
+  version: "4.17.0"
+  integrity:
+    css: "sha256-/SwJ2GDcEt5382i8zqDwl36VJGECxEoIcBIuoLmLR4g="
+    js: "sha256-UGNYR+uy841zU5TiO2yXD96UktHt9TM4/WXvsDLr4l0="
+popper:
+  version: "2.4.0"
+  integrity: "sha256-OH05DFHUWzr725HmuHo3pnuvUUn+TJuj8/Qz9xytFEw="

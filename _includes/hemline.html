@@ -1,8 +1,8 @@
 <!-- Load Core and Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-{{ site.jquery_version }}.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/{{ site.popper_version }}/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/{{ site.bootstrap_version }}/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/{{ site.mdb_version }}/js/mdb.min.js"></script>
+<script src="https://code.jquery.com/jquery-{{ site.jquery.version }}.slim.min.js" integrity="{{ site.jquery.integrity }}" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/{{ site.popper.version }}/umd/popper.min.js" integrity="{{ site.popper.integrity }}" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/{{ site.bootstrap.version }}/js/bootstrap.min.js" integrity="{{ site.bootstrap.integrity.js }}" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/{{ site.mdb.version }}/js/mdb.min.js"  integrity="{{ site.bootstrap.integrity.js }}" crossorigin="anonymous"></script>
 
 <!-- Load Common JS -->
 <script src="{{ '/assets/js/common.js' | relative_url }}"></script>
@@ -12,19 +12,28 @@
 
 {% if site.enable_katex %}
 <!-- Load KaTeX -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/{{ site.katex_version }}/katex.min.css" integrity="sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung=" crossorigin="anonymous" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/{{ site.katex_version }}/katex.min.js" integrity="sha256-F/Xda58SPdcUCr+xhSGz9MA2zQBPb0ASEYKohl8UCHc=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/{{ site.katex.version }}/katex.min.css" integrity="{{ site.katex.integrity.css }}" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/{{ site.katex.version }}/katex.min.js" integrity="{{ site.katex.integrity.js }}" crossorigin="anonymous"></script>
 <script src="{{ '/assets/js/katex.js' | relative_url }}"></script>
 {% endif %}
 
 {% if site.enable_mansory %}
 <!-- Load Mansory -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
-{% endif %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/{{ site.mansory.version }}/masonry.pkgd.min.js" integrity="{{ site.masonry.integrity }}" crossorigin="anonymous"></script>
 
-{% if site.enable_progressbar %}
-<!-- Load Progress Bar -->
-<script src="{{ '/assets/js/progressbar.js' | relative_url }}"></script>
+<!-- Project Cards Layout -->
+<script type="text/javascript">
+  // Init Masonry
+  var $grid = $('.grid').masonry({
+    gutter: 10,
+    horizontalOrder: true,
+    itemSelector: '.grid-item',
+  });
+  // layout Masonry after each image loads
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry('layout');
+  });
+</script>
 {% endif %}
 
 {% if site.enable_tooltips %}
