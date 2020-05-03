@@ -30,6 +30,7 @@
               {% endif %}
             </a>
           </li>
+          {% if site.blog_name %}
           <!-- Blog -->
           <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
             <a class="nav-link" href="{{ '/blog/' | relative_url }}">
@@ -39,9 +40,11 @@
               {% endif %}
             </a>
           </li>
+          {% endif %}
           <!-- Other pages -->
-          {% for p in site.pages %}
-          {% if p.nav %}
+          {% assign sorted_pages = site.pages | sort: "title" %}
+          {% for p in sorted_pages %}
+          {% if p.nav and p.autogen == nil %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
               <a class="nav-link" href="{{ p.url | relative_url }}">
                 {{ p.title }}
@@ -56,14 +59,5 @@
       </div>
     </div>
   </nav>
-
-  {% if site.enable_progressbar %}
-  <!-- Scrolling Progress Bar -->
-  <progress id="progress" value="0">
-    <div class="progress-container">
-      <span class="progress-bar"></span>
-    </div>
-  </progress>
-  {% endif %}
 
 </header>
