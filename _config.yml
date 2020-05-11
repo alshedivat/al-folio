@@ -59,8 +59,8 @@ text:
 disqus_shortname: chinmoyd # put your disqus shortname
 
 # Optional features
-show_social_icons:  true
-enable_anchorjs:    true
+show_social_icons:  false
+enable_anchorjs:    false
 enable_katex:       true
 
 # -----------------------------------------------------------------------------
