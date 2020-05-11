@@ -81,6 +81,9 @@
   {% if entry.abstract %}
     [<a class="abstract">Abs</a>] &nbsp; &nbsp;
   {% endif %}
+  {% if entry.pdf %}
+    [<a href="{{ entry.pdf | prepend: '/assets/papers/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>] &nbsp; &nbsp;
+  {% endif %}
   {% if entry.howpublished %}
     {% if entry.type == "article" %}
       [<a href="{{ entry.howpublished }}">Journal</a>] &nbsp; &nbsp;
@@ -93,9 +96,6 @@
   {% endif %}
   {% if entry.html %}
     [<a href="{{ entry.html }}" target="_blank">HTML</a>] &nbsp; &nbsp;
-  {% endif %}
-  {% if entry.pdf %}
-    [<a href="{{ entry.pdf | prepend: '/assets/papers/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>] &nbsp; &nbsp;
   {% endif %}
   {% if entry.supp %}
     [<a href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Supp</a>] &nbsp; &nbsp;
