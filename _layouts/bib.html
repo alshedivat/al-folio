@@ -64,7 +64,9 @@
     {% if entry.type == "article" %}
       <em>{{entry.journal}}</em>
     {% elsif entry.type == "inproceedings" %}
-      <em>In {{entry.booktitle}}</em>
+      <em>In Proc. {{entry.booktitle}}</em>
+    {% elsif entry.type == "unpublished" %}
+      <em>{{entry.note}}</em>
     {% elsif entry.type == "patent" %}
       <em>{{entry.location}} Patent {{entry.number}}</em>
     {% endif %}
@@ -83,7 +85,7 @@
     {% if entry.type == "article" %}
       [<a href="{{ entry.howpublished }}">Journal</a>] &nbsp; &nbsp;
     {% elsif entry.type == "inproceedings" %}
-      [<a href="{{ entry.howpublished }}">Conference</a>] &nbsp; &nbsp;
+      [<a href="{{ entry.howpublished }}">Proceedings</a>] &nbsp; &nbsp;
     {% endif %}
   {% endif %}
   {% if entry.arxiv %}
@@ -93,7 +95,7 @@
     [<a href="{{ entry.html }}" target="_blank">HTML</a>] &nbsp; &nbsp;
   {% endif %}
   {% if entry.pdf %}
-    [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>] &nbsp; &nbsp;
+    [<a href="{{ entry.pdf | prepend: '/assets/papers/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>] &nbsp; &nbsp;
   {% endif %}
   {% if entry.supp %}
     [<a href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Supp</a>] &nbsp; &nbsp;
