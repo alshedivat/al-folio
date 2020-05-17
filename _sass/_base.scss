@@ -6,7 +6,6 @@
 
 a, table.table a {
   color: $theme-color;
-  display: inline-block;
   &:hover {
     color: $theme-color;
     text-decoration: underline;
@@ -244,5 +243,107 @@ footer.sticky-bottom {
   }
   .card img {
     width: 100%;
+  }
+}
+
+// Post
+
+.post .post-header .post-description {
+  font-style: italic;
+}
+
+
+// Publications
+
+.publications {
+  margin-top: 2rem;
+  h2.year {
+    color: $grey-color-light;
+    border-top: 1px solid $grey-color-light;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    text-align: right;
+  }
+  ol.bibliography {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+
+    li {
+      margin-bottom: 1rem;
+      .abbr {
+        height: 2rem;
+        margin-bottom: 0.5rem;
+        abbr {
+          display: inline-block;
+          background-color: $theme-color;
+          padding-left: 1rem;
+          padding-right: 1rem;
+        }
+      }
+      span {
+        display: block;
+      }
+      .title {
+        font-weight: bolder;
+      }
+      .author {
+        a {
+          border-bottom: 1px dashed $theme-color;
+          &:hover {
+              border-bottom-style: solid;
+              text-decoration: none;
+          }
+        }
+        > em {
+          border-bottom: 1px solid;
+          font-style: normal;
+        }
+      }
+      em.star {
+        border-bottom: none;
+        color: $theme-color;
+        font-style: normal;
+      }
+      a.abstract, a.bibtex {
+        cursor: pointer;
+      }
+      .hidden {
+        font-size: 0.875rem;
+        max-height: 0px;
+        overflow: hidden;
+        text-align: justify;
+        -webkit-transition: 0.15s ease;
+        -moz-transition: 0.15s ease;
+        -ms-transition: 0.15s ease;
+        -o-transition: 0.15s ease;
+        transition: all 0.15s ease;
+
+        p {
+          line-height: 1.4em;
+          margin: 10px;
+        }
+        pre {
+          font-size: 1em;
+          line-height: 1.4em;
+          padding: 10px;
+        }
+      }
+      .hidden.open {
+        max-height: 100em;
+        -webkit-transition: 0.15s ease;
+        -moz-transition: 0.15s ease;
+        -ms-transition: 0.15s ease;
+        -o-transition: 0.15s ease;
+        transition: all 0.15s ease;
+      }
+      span.abstract.hidden {
+        border: dashed 1px white;
+      }
+      span.abstract.hidden.open {
+        border-color: $grey-color;
+      }
+    }
   }
 }
