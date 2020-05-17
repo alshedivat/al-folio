@@ -4,12 +4,7 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    {% if page.title == 'about' %}
-    {% assign name = site.title | split: ' ' %}
-    <h1 class="post-title"><span class="font-weight-bold">{{ name | first }}</span> {{ name | last }}</h1>
-    {% else %}
     <h1 class="post-title">{{ page.title }}</h1>
-    {% endif %}
     <p class="post-description">{{ page.description }}</p>
   </header>
 
