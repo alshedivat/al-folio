@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Steven</strong> Kordonowy
-description: Graduate student studying theory of computer science
+description: Graduate student studying mathematical foundations of computer science
 
 profile:
   align: right
