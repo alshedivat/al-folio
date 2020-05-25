@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Education is a one of the main reasons I am in graduate school and I hope to continue after I earn my degree!
+description: Education is a one of the main reasons I am in graduate school and I hope to pursue a position teaching and researching at a collegiate level after earning my degree.
 
 social: false
 ---
