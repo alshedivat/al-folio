@@ -1,23 +1,21 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: <strong>Steven</strong> Kordonowy
+description: Graduate student studying theory of computer science
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: sak.jpg
+  address:  Boulder, CO
 
-news: true
+news: false
 social: true
 ---
+I am a PhD student in the [CS Theory](https://www.colorado.edu/cs-theory) group at the University of Colorado Boulder. My broad focus is computational complexity of algorithms with a focus on quantum computing. [Alex Kolla](https://home.cs.colorado.edu/~alko5368/) is my advisor and she would love to (dis/)prove the [Unique Games Conjecture](https://en.wikipedia.org/wiki/Unique_games_conjecture), please reach out if you have any leads! As an undergraduate, I studied mathematics at the [University of Denver](https://www.math.du.edu/) while also pursuing minors in computer science, physics, and psychology. Between school, I worked as a software engineer at [Nasdaq](https://www.nasdaq.com/solutions/nasdaq-financial-framework-nff) developing data-driven real-time risk management systems.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<!-- Maybe have a work section?
+Between school, I spent half a decade working as a software engineer and architect. Most of the time I worked at Nasdaq, Inc. where I worked on real-time risk management applications. I am most comfortable working in Python or Java but would love to work
+more seriously in a purely functional language.
+ -->
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

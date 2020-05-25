@@ -1,6 +1,6 @@
 .site-header {
-    border-bottom: 1px solid $grey-color-light;
-    background-color: #fff;
+    border-bottom: 2px solid $grey-color-light;
+    background-color: $background-color;;
     opacity: 0.95;
     position:fixed;
     left:calc((100vw - 100%)/2);
@@ -40,7 +40,7 @@
         top: 9px;
         right: $horizontal-spacing-unit / 2;
         background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        border: 2px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
 

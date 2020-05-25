@@ -1,5 +1,5 @@
 <div class="social">
-  <span class="contacticon center">
+    <span class="contacticon center">
     {% if site.email %}<a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>{% endif %}
     {% if site.orcid_id %}<a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>{% endif %}
     {% if site.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
@@ -12,9 +12,10 @@
     {% if site.medium_username %}<a href="https://medium.com/@{{ site.medium_username }}" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>{% endif %}
     {% if site.quora_username %}<a href="https://www.quora.com/profile/{{ site.quora_username }}" target="_blank" title="Quora"><i class="fab fa-quora"></i></a>{% endif %}
     {% if site.blogger_url %}<a href="{{ site.blogger_url }}" target="_blank" title="Blogger"><i class="fab fa-blogger-b"></i></a>{% endif %}
+    {% if site.discogs %}<a href="{{ site.discogs }}" target="_blank" title="Discogs"><i class="fab fa-vinyl-record"></i></a>{% endif %}
   </span>
 
-  <div class="col three caption">
-    {{ site.contact_note }}
-  </div>
+    <div class="col three caption">
+        {{ site.contact_note }}
+    </div>
 </div>
