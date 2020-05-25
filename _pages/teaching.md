@@ -3,6 +3,8 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: Education is a one of the main reasons I am in graduate school and I hope to continue after I earn my degree!
+
+social: true
 ---
 
 *  University of Colorado - Boulder

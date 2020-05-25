@@ -1,5 +1,6 @@
 .page-content {
-    padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+    padding: 75px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+    padding-bottom: 40px;
 }
 .page-heading {
     font-size: 20px;
@@ -8,6 +9,7 @@
     display: block;
     font-size: 60px;
     margin: 10px;
+    margin-bottom: 0px;
 }
 .center{
     text-align: center;
