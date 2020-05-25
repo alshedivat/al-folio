@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: Quick overview of things I am working or have worked on
 
-social: true
+social: false
 ---
 
 {% for project in site.projects %}

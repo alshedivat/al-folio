@@ -6,9 +6,9 @@ email: steven.kordonowy@colorado.edu
 description: >
   Steven Kordonowy's personal website
 footer_text: >
-  <a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a> license.
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  <a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a> license.
 
 url:  # the base hostname & protocol for your site
 baseurl: #/al-folio # the subpath of your site, e.g. /blog/
