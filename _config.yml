@@ -6,7 +6,7 @@ email: steven.kordonowy@colorado.edu
 description: >
   Steven Kordonowy's personal website
 footer_text: >
-  Licensed by <a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a>.
+  <a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a> license.
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
