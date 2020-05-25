@@ -10,8 +10,8 @@ This site is hosted by [Github Pages](https://pages.github.com/) which is a free
 The source code for my site can be found at [here!](https://github.com/stevenkordonowy/stevenkordonowy.github.io)
 
 Further reading:
-1. [Jekyll tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/)
-2. [Why Jekyll? And how to switch from Wordpress](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)
+1. [Why Jekyll? And how to switch from Wordpress](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)
+2. [Jekyll tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/)
 3. [Some Jekyll themes](https://jekyllthemes.io/)
 4. [Some more Jekyll themes](http://jekyllthemes.org/)
 5. [Markdown cheat sheet](https://wordpress.com/support/markdown-quick-reference/)
