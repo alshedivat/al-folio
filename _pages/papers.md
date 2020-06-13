@@ -6,11 +6,11 @@ title: papers
 
 **MANUSCRIPTS UNDER REVIEW/IN PREP**
 
-​Benitez, V., **Zettersten, M.**, & Wojcik, E. (under review). <span style="color: #00ab37">The temporal structure of naming events differentially affects children’s and adults’ statistical word-referent learning.</span> <a href="https://osf.io/2hmxr/" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/crossSitRep" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+​Benitez, V., **Zettersten, M.**, & Wojcik, E. (under review). <span style="color: #00ab37">The temporal structure of naming events differentially affects children’s and adults’ statistical word-referent learning.</span> <a href="https://osf.io/2hmxr/?view_only=6432022c65bf42aa9afcb865bc9ae37f" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/crossSitRep" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 
 Santolin, C., Garcia-Castro, G., **Zettersten, M.**, Sebastian-Galles, N., & Saffran, J. (under review). <span style="color: #00ab37">Experience with research paradigms relates to infants’ direction of preference.</span> <a href="https://osf.io/g95ub/" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/gongcastro/Flip" target="_blank" title="GitHub"><i class="fab fa-github"></i></a> [[preprint]](https://psyarxiv.com/xgvbh/){:target="\_blank"}
 
-**Zettersten, M.**, & Saffran, J. (under review). <span style="color: #00ab37">Sampling to learn words: Adults and children sample words that reduce referential ambiguity.</span> <a href="https://osf.io/udmvh/" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/crossAct" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+**Zettersten, M.**, & Saffran, J. (under review). <span style="color: #00ab37">Sampling to learn words: Adults and children sample words that reduce referential ambiguity.</span> <a href="https://osf.io/udmvh/?view_only=b9b8a986fd3a4235a073ec35d70a2266" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/crossAct" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
  
 Koranda, M., **Zettersten, M.**, & McDonald, M. (in prep). <span style="color: #00ab37">Word frequency can affect what you choose to say.</span>
 
