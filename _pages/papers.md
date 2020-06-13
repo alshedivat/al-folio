@@ -6,7 +6,7 @@ title: papers
 
 **Publications**
 
-**Zettersten, M.**, Potter, C., & Saffran, J. (accepted). `Tuning in to non-adjacencies: Exposure to learnable patterns supports discovering otherwise difficult structures.` *Cognition*. [[OSF]](https://osf.io/m3wn4/){:target="\_blank"}[[repository]](https://github.com/mzettersten/apg-non-adjacent){:target="\_blank"}
+**Zettersten, M.**, Potter, C., & Saffran, J. (accepted). Tuning in to non-adjacencies: Exposure to learnable patterns supports discovering otherwise difficult structures. `_projects/` <span style="color:blue">some <em>blue</em> text</span> *Cognition*. [[OSF]](https://osf.io/m3wn4/){:target="\_blank"}[[repository]](https://github.com/mzettersten/apg-non-adjacent){:target="\_blank"}
 
 Byers-Heinlein, K., Bergmann, C., Davies, C., Frank, M. C., Hamlin, K., Kline, M., …, **Zettersten, M.**, & Soderstrom, M. (accepted). Building a collaborative Psychological Science: Lessons from ManyBabies 1. Canadian Psychology. [[preprint]](https://psyarxiv.com/dmhk2/){:target="\_blank"}
 
