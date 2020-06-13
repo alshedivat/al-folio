@@ -6,9 +6,9 @@ title: papers
 
 **MANUSCRIPTS UNDER REVIEW/IN PREP**
 
-​Benitez, V., **Zettersten, M.**, & Wojcik, E. (under review). <span style="color: #00ab37">The temporal structure of naming events differentially affects children’s and adults’ statistical word-referent learning.</span> [repository]
+​Benitez, V., **Zettersten, M.**, & Wojcik, E. (under review). <span style="color: #00ab37">The temporal structure of naming events differentially affects children’s and adults’ statistical word-referent learning.</span> <a href="https://osf.io/2hmxr/" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/crossSitRep" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 
-Santolin, C., Garcia-Castro, G., **Zettersten, M.**, Sebastian-Galles, N., & Saffran, J. (under review). <span style="color: #00ab37">Experience with research paradigms relates to infants’ direction of preference.</span> [preprint][OSF][data]
+Santolin, C., Garcia-Castro, G., **Zettersten, M.**, Sebastian-Galles, N., & Saffran, J. (under review). <span style="color: #00ab37">Experience with research paradigms relates to infants’ direction of preference.</span> [[preprint]](https://psyarxiv.com/xgvbh/){:target="\_blank"} <a href="https://osf.io/g95ub/" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/gongcastro/Flip" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 
 **Zettersten, M.**, & Saffran, J. (under review). <span style="color: #00ab37">Sampling to learn words: Adults and children sample words that reduce referential ambiguity.</span> [OSF][repository]
  
@@ -22,9 +22,9 @@ Byers-Heinlein, K., Bergmann, C., Davies, C., Frank, M. C., Hamlin, K., Kline, M
 
 The ManyBabies Consortium (2020). [<span style="color: #00ab37">Quantifying sources of variability in infancy research using the infant-directed speech preference.</span>](https://mzettersten.github.io/assets/pdf/ManyBabies1.pdf){:target="\_blank"} *Advances in Methods and Practices in Psychological Science.* <a href="https://doi.org/10.1177/2515245919900809" target="_blank" title="doi"><i class="ai ai-doi"></i></a> <a href="https://osf.io/re95x/" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/manybabies/mb1-analysis-public" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 
-**Zettersten, M.**, Schonberg, C., & Lupyan, G. (2020). <span style="color: #00ab37">What does a radical exemplar view not predict? A commentary on Ambridge (2020).</span> *First Language*. doi: 10.1177/0142723720903895
+**Zettersten, M.**, Schonberg, C., & Lupyan, G. (2020). <span style="color: #00ab37">What does a radical exemplar view not predict? A commentary on Ambridge (2020).</span> *First Language*. <a href="https://doi.org/10.1177/0142723720903895" target="_blank" title="doi"><i class="ai ai-doi"></i></a>
 
-**Zettersten, M.**, & Lupyan, G. (2020). <span style="color: #00ab37">Finding categories through words: More nameable features improve category learning.</span> *Cognition, 196*, 104135. doi: 10.1016/j.cognition.2019.104135 [preprint][OSF][data]​
+**Zettersten, M.**, & Lupyan, G. (2020). <span style="color: #00ab37">Finding categories through words: More nameable features improve category learning.</span> *Cognition, 196*, 104135. <a href="https://doi.org/10.1016/j.cognition.2019.104135" target="_blank" title="doi"><i class="ai ai-doi"></i></a> [preprint][OSF][data]​
 
 Lewis, M., **Zettersten, M.**, & Lupyan, G. (2019). <span style="color: #00ab37">Distributional semantics as a source of visual knowledge.</span> *Proceedings of the National Academy of Sciences, 116*(39), 19237-19238. doi: 10.1073/pnas.1910148116 [preprint][SI][data]
  
