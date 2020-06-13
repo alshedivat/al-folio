@@ -6,13 +6,13 @@ title: papers
 
 **Publications**
 
-**Zettersten, M.**, Potter, C., & Saffran, J. (accepted). Tuning in to non-adjacencies: Exposure to learnable patterns supports discovering otherwise difficult structures. Cognition. [OSF](https://osf.io/m3wn4/){:target="\_blank"}[repository](https://github.com/mzettersten/apg-non-adjacent){:target="\_blank"}
+**Zettersten, M.**, Potter, C., & Saffran, J. (accepted). `Tuning in to non-adjacencies: Exposure to learnable patterns supports discovering otherwise difficult structures.` *Cognition*. [[OSF]](https://osf.io/m3wn4/){:target="\_blank"}[[repository]](https://github.com/mzettersten/apg-non-adjacent){:target="\_blank"}
 
-Byers-Heinlein, K., Bergmann, C., Davies, C., Frank, M. C., Hamlin, K., Kline, M., …, **Zettersten, M.**, & Soderstrom, M. (accepted). Building a collaborative Psychological Science: Lessons from ManyBabies 1. Canadian Psychology. [preprint]
+Byers-Heinlein, K., Bergmann, C., Davies, C., Frank, M. C., Hamlin, K., Kline, M., …, **Zettersten, M.**, & Soderstrom, M. (accepted). Building a collaborative Psychological Science: Lessons from ManyBabies 1. Canadian Psychology. [[preprint]](https://psyarxiv.com/dmhk2/){:target="\_blank"}
 
-Lupyan, G., & **Zettersten, M.** (forthcoming). Does vocabulary help structure the mind? In Sera, M., & Koenig, M. (Eds.). 40th Minnesota Symposium on Child Psychology. [preprint]
+Lupyan, G., & **Zettersten, M.** (forthcoming). Does vocabulary help structure the mind? In Sera, M., & Koenig, M. (Eds.). 40th Minnesota Symposium on Child Psychology. [[preprint]](https://psyarxiv.com/b74u9/){:target="\_blank"}
 
-The ManyBabies Consortium (2020). Quantifying sources of variability in infancy research using the infant-directed speech preference. Advances in Methods and Practices in Psychological Science. doi: 10.1177/2515245919900809 [preprint][OSF][data]
+The ManyBabies Consortium (2020). Quantifying sources of variability in infancy research using the infant-directed speech preference. Advances in Methods and Practices in Psychological Science. doi: 10.1177/2515245919900809 [[pdf]](https://mzettersten.github.io/assets/pdf/ManyBabies1.pdf){:target="\_blank"}[[OSF]](https://osf.io/re95x/){:target="\_blank"}[[repository]](https://github.com/manybabies/mb1-analysis-public){:target="\_blank"}
 
 **Zettersten, M.**, Schonberg, C., & Lupyan, G. (2020). What does a radical exemplar view not predict? A commentary on Ambridge (2020). First Language. doi: 10.1177/0142723720903895
 
