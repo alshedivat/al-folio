@@ -4,7 +4,7 @@ permalink: /papers/
 title: papers
 ---
 
-**Manuscripts under review/ in prep**
+**MANUSCRIPTS UNDER REVIEW/IN PREP**
 
 ​Benitez, V., **Zettersten, M.**, & Wojcik, E. (under review). <span style="color: #00ab37">The temporal structure of naming events differentially affects children’s and adults’ statistical word-referent learning.</span> [repository]
 
@@ -14,7 +14,7 @@ Santolin, C., Garcia-Castro, G., **Zettersten, M.**, Sebastian-Galles, N., & Saf
  
 Koranda, M., **Zettersten, M.**, & McDonald, M. (in prep). <span style="color: #00ab37">Word frequency can affect what you choose to say.</span>
 
-**PEER-REVIEWED JOURNAL ARTICLES**
+**JOURNAL ARTICLES**
 
 **Zettersten, M.**, Potter, C., & Saffran, J. (accepted). <span style="color:#00ab37">Tuning in to non-adjacencies: Exposure to learnable patterns supports discovering otherwise difficult structures.</span> *Cognition*. [[OSF]](https://osf.io/m3wn4/){:target="\_blank"}[[repository]](https://github.com/mzettersten/apg-non-adjacent){:target="\_blank"}
 
@@ -34,9 +34,9 @@ Hoehl, S., **Zettersten, M.**, Schleihauf, H., Graetz, S., & Pauen, S. (2014). <
 
 **BOOK CHAPTERS**
 
-Lupyan, G., & **Zettersten, M.** (forthcoming). <span style="color: #00ab37">Does vocabulary help structure the mind? In Sera, M., & Koenig, M. (Eds.). 40th Minnesota Symposium on Child Psychology.</span> [[preprint]](https://psyarxiv.com/b74u9/){:target="\_blank"}
+Lupyan, G., & **Zettersten, M.** (forthcoming). <span style="color: #00ab37">Does vocabulary help structure the mind? In Sera, M., & Koenig, M. (Eds.).</span> *40th Minnesota Symposium on Child Psychology*.[[preprint]](https://psyarxiv.com/b74u9/){:target="\_blank"}
 
-**Zettersten, M.** (2019). <span style="color: #00ab37">Learning by predicting: How predictive processing informs language development.</span> In Busse, B., & Moehlig-Falke, R. (Eds.). Patterns in Language and Linguistics: New Perspectives on a Ubiquitous Concept (pp. 255-288). Berlin: Mouton de Gruyter. https://doi.org/10.1515/9783110596656-010 [preprint]
+**Zettersten, M.** (2019). <span style="color: #00ab37">Learning by predicting: How predictive processing informs language development.</span> In Busse, B., & Moehlig-Falke, R. (Eds.). *Patterns in Language and Linguistics: New Perspectives on a Ubiquitous Concept* (pp. 255-288). Berlin: Mouton de Gruyter. https://doi.org/10.1515/9783110596656-010 [preprint]
 
 **PEER_REVIEWED PROCEEDINGS PAPERS**
 
