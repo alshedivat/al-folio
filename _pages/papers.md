@@ -4,7 +4,7 @@ permalink: /papers/
 title: papers
 ---
 
-**MANUSCRIPTS UNDER REVIEW/IN PREP**
+**MANUSCRIPTS UNDER REVIEW OR IN PREP**
 
 ​Benitez, V., **Zettersten, M.**, & Wojcik, E. (under review). <span style="color: #00ab37">The temporal structure of naming events differentially affects children’s and adults’ statistical word-referent learning.</span> <a href="https://osf.io/2hmxr/?view_only=6432022c65bf42aa9afcb865bc9ae37f" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/crossSitRep" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 
