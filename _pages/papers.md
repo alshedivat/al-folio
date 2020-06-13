@@ -52,6 +52,6 @@ Koranda, M., **Zettersten, M.**, & McDonald, M. (2018). [<span style="color: #00
 
 **Zettersten, M.**, & Lupyan, G. (2018). [<span style="color: #00ab37">Using language to discover categories: more nameable features improve category learning.</span>](https://mzettersten.github.io/assets/pdf/ColorRuleEvolang_ZetterstenLupyan2017_final_deanonymized.pdf){:target="\_blank"} In C. Cuskley, M. Flaherty, H. Little, Luke McCrohon, A. Ravignani, & T. Verhoef (Eds.), *The Evolution of Language: Proceedings of the 12th International Conference (EVOLANGXII)*. NCU Press.
 
-**Dissertation**
+**DISSERTATION**
 
 **Zettersten, M.** (2020). [<span style="color: #00ab37">Seeking new words: Active word learning in infants and children.</span>](https://mzettersten.github.io/assets/pdf/zettersten_2020.pdf){:target="\_blank"} University of Wisconsin-Madison, Madison, WI. ProQuest Dissertations Publishing, 2020. 27994650.
