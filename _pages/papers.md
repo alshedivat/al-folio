@@ -10,9 +10,9 @@ title: papers
 
 Byers-Heinlein, K., Bergmann, C., Davies, C., Frank, M. C., Hamlin, K., Kline, M., …, **Zettersten, M.**, & Soderstrom, M. (accepted). <span style="color:#00ab37">Building a collaborative Psychological Science: Lessons from ManyBabies 1.</span> *Canadian Psychology*. [[preprint]](https://psyarxiv.com/dmhk2/){:target="\_blank"}
 
-Lupyan, G., & **Zettersten, M.** (forthcoming). <span style="color:#B509AC">Does vocabulary help structure the mind? In Sera, M., & Koenig, M. (Eds.). 40th Minnesota Symposium on Child Psychology.</span> [[preprint]](https://psyarxiv.com/b74u9/){:target="\_blank"}
+Lupyan, G., & **Zettersten, M.** (forthcoming). <span style="color:#33a02c">Does vocabulary help structure the mind? In Sera, M., & Koenig, M. (Eds.). 40th Minnesota Symposium on Child Psychology.</span> [[preprint]](https://psyarxiv.com/b74u9/){:target="\_blank"}
 
-The ManyBabies Consortium (2020). <span style="color:#F29105">Quantifying sources of variability in infancy research using the infant-directed speech preference. Advances in Methods and Practices in Psychological Science.</span> doi: 10.1177/2515245919900809 [[pdf]](https://mzettersten.github.io/assets/pdf/ManyBabies1.pdf){:target="\_blank"}[[OSF]](https://osf.io/re95x/){:target="\_blank"}[[repository]](https://github.com/manybabies/mb1-analysis-public){:target="\_blank"}
+The ManyBabies Consortium (2020). <span style="color:#33a02c">Quantifying sources of variability in infancy research using the infant-directed speech preference. Advances in Methods and Practices in Psychological Science.</span> doi: 10.1177/2515245919900809 [[pdf]](https://mzettersten.github.io/assets/pdf/ManyBabies1.pdf){:target="\_blank"}[[OSF]](https://osf.io/re95x/){:target="\_blank"}[[repository]](https://github.com/manybabies/mb1-analysis-public){:target="\_blank"}
 
 **Zettersten, M.**, Schonberg, C., & Lupyan, G. (2020). What does a radical exemplar view not predict? A commentary on Ambridge (2020). First Language. doi: 10.1177/0142723720903895
 
