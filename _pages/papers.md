@@ -54,4 +54,4 @@ Koranda, M., **Zettersten, M.**, & McDonald, M. (2018). [<span style="color: #00
 
 **Dissertation**
 
-**Zettersten, M.** (2020). [<span style="color: #00ab37">Seeking new words: Active word learning in infants and children.</span>](https://mzettersten.github.io/assets/pdf/zettersten_2020.pdf){:target="\_blank"} University of Wisconsin-Madison, Madison, WI.
+**Zettersten, M.** (2020). [<span style="color: #00ab37">Seeking new words: Active word learning in infants and children.</span>](https://mzettersten.github.io/assets/pdf/zettersten_2020.pdf){:target="\_blank"} University of Wisconsin-Madison, Madison, WI. ProQuest Dissertations Publishing, 2020. 27994650.
