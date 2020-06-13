@@ -44,26 +44,26 @@ google_analytics: # UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-# blog_name: al-folio
-# blog_description: a simple whitespace theme for academics
+blog_name: My Blog
+blog_description: (under construction)
 
-# # Pagination
-# paginate: 4
-# permalink: /blog/:year/:title/
-# paginate_path: /blog/page:num/
+# Pagination
+paginate: 4
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
 
-# text:
-#   pagination:
-#     newer: 'Newer'
-#     older: 'Older'
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
 
-# # Comments
-# disqus_shortname: al-folio # put your disqus shortname
+# Comments
+disqus_shortname: al-folio # put your disqus shortname
 
-# # Optional features
-# show_social_icons:  false
-# enable_anchorjs:    false
-# enable_katex:       true
+# Optional features
+show_social_icons:  false
+enable_anchorjs:    false
+enable_katex:       true
 
 # -----------------------------------------------------------------------------
 # Collections
