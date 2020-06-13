@@ -38,13 +38,15 @@ Lupyan, G., & **Zettersten, M.** (forthcoming). <span style="color: #00ab37">Doe
 
 **Zettersten, M.** (2019). <span style="color: #00ab37">Learning by predicting: How predictive processing informs language development.</span> In Busse, B., & Moehlig-Falke, R. (Eds.). *Patterns in Language and Linguistics: New Perspectives on a Ubiquitous Concept* (pp. 255-288). Berlin: Mouton de Gruyter. https://doi.org/10.1515/9783110596656-010 [preprint]
 
-**PEER_REVIEWED PROCEEDINGS PAPERS**
+**PEER-REVIEWED PROCEEDINGS PAPERS**
 
 **Zettersten, M.**, & Saffran, J. (2019). <span style="color: #00ab37">Sampling to learn words: Adults and children sample words that reduce referential ambiguity.</span> In A.K. Goel, C.M. Seifert, & C. Freksa (Eds.), *Proceedings of the 41st Annual Conference of the Cognitive Science Society* (pp. 1261-1267). Montreal, QB: Cognitive Science Society.
 
 Koranda, M., **Zettersten, M.**, & McDonald, M. (2018). <span style="color: #00ab37">Word frequency can affect what you choose to say.</span> *Proceedings of the 40th Annual Conference of the Cognitive Science Society*. Austin, TX: Cognitive Science Society.
  
 **Zettersten, M.**, Potter, C., & Saffran, J. (2018). <span style="color: #00ab37">Tuning in to non-adjacent dependencies: How experience with learnable patterns supports learning novel regularities.</span> *Proceedings of the 40th Annual Conference of the Cognitive Science Society*. Austin, TX: Cognitive Science Society. [OSF][data]
+
+**Zettersten, M.**, & Lupyan, G. (2018). <span style="color: #00ab37">Using language to discover categories: more nameable features improve category learning.</span> In C. Cuskley, M. Flaherty, H. Little, Luke McCrohon, A. Ravignani, & T. Verhoef (Eds.), *The Evolution of Language: Proceedings of the 12th International Conference (EVOLANGXII)*. NCU Press.
 
 **MISC**
 
