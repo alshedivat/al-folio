@@ -28,15 +28,15 @@ The ManyBabies Consortium (2020). [<span style="color: #00ab37">Quantifying sour
 
 Lewis, M., **Zettersten, M.**, & Lupyan, G. (2019). [<span style="color: #00ab37">Distributional semantics as a source of visual knowledge.</span>](https://mzettersten.github.io/assets/pdf/Lewis_Zettersten_Lupyan_2019_PNAScomment.pdf){:target="\_blank"} *Proceedings of the National Academy of Sciences, 116*(39), 19237-19238. <a href="https://doi.org/10.1073/pnas.1910148116" target="_blank" title="doi"><i class="ai ai-doi"></i></a> <a href="https://github.com/mllewis/keb_2019_reanalysis" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>  [[preprint]](https://psyarxiv.com/cau95){:target="\_blank"}[[SI]](https://rpubs.com/mll/kebcommentarySI){:target="\_blank"}
  
-**Zettersten, M.**, Wojcik, E. W., Benitez, V., & Saffran, J. R. (2018). <span style="color: #00ab37">The company objects keep: Linking referents together during cross-situational word learning.</span> *Journal of Memory & Language, 99*, 62-73​. doi: 10.1016/j.jml.2017.11.001 [data]
+**Zettersten, M.**, Wojcik, E. W., Benitez, V., & Saffran, J. R. (2018). [<span style="color: #00ab37">The company objects keep: Linking referents together during cross-situational word learning.</span>](https://mzettersten.github.io/assets/pdf/Zettersten_et_al_2018.pdf){:target="\_blank"} *Journal of Memory & Language, 99*, 62-73​. <a href="https://doi.org/10.1016/j.jml.2017.11.001" target="_blank" title="doi"><i class="ai ai-doi"></i></a> <a href="https://github.com/mzettersten/crossSit" target="_blank" title="GitHub"><i class="fab fa-github"></i></a> 
 
-Hoehl, S., **Zettersten, M.**, Schleihauf, H., Graetz, S., & Pauen, S. (2014). <span style="color: #00ab37">The role of social interaction and pedagogical cues for eliciting and reducing overimitation in preschoolers.</span> *Journal of Experimental Child Psychology, 122*, 122-133. doi: 10.1016/j.jecp.2013.12.012
+Hoehl, S., **Zettersten, M.**, Schleihauf, H., Graetz, S., & Pauen, S. (2014). [<span style="color: #00ab37">The role of social interaction and pedagogical cues for eliciting and reducing overimitation in preschoolers.</span>](https://mzettersten.github.io/assets/pdf/2014_Hoehl_JECP.pdf){:target="\_blank"} *Journal of Experimental Child Psychology, 122*, 122-133. <a href="https://doi.org/10.1016/j.jecp.2013.12.012" target="_blank" title="doi"><i class="ai ai-doi"></i></a>
 
 **BOOK CHAPTERS**
 
 Lupyan, G., & **Zettersten, M.** (forthcoming). <span style="color: #00ab37">Does vocabulary help structure the mind? In Sera, M., & Koenig, M. (Eds.).</span> *40th Minnesota Symposium on Child Psychology*.[[preprint]](https://psyarxiv.com/b74u9/){:target="\_blank"}
 
-**Zettersten, M.** (2019). <span style="color: #00ab37">Learning by predicting: How predictive processing informs language development.</span> In Busse, B., & Moehlig-Falke, R. (Eds.). *Patterns in Language and Linguistics: New Perspectives on a Ubiquitous Concept* (pp. 255-288). Berlin: Mouton de Gruyter. https://doi.org/10.1515/9783110596656-010 [preprint]
+**Zettersten, M.** (2019). [<span style="color: #00ab37">Learning by predicting: How predictive processing informs language development.</span>](https://mzettersten.github.io/assets/pdf/Zettersten_learning_by_predicting_2019.pdf){:target="\_blank"} In Busse, B., & Moehlig-Falke, R. (Eds.). *Patterns in Language and Linguistics: New Perspectives on a Ubiquitous Concept* (pp. 255-288). Berlin: Mouton de Gruyter. <a href="https://doi.org/10.1515/9783110596656-010" target="_blank" title="doi"><i class="ai ai-doi"></i></a>
 
 **PEER-REVIEWED PROCEEDINGS PAPERS**
 
