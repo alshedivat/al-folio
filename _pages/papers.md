@@ -40,18 +40,18 @@ Lupyan, G., & **Zettersten, M.** (forthcoming). <span style="color: #00ab37">Doe
 
 **PEER-REVIEWED PROCEEDINGS PAPERS**
 
-**Zettersten, M.**, Suffill, E., & Lupyan, G. (2020). <span style="color: #00ab37">Nameability predicts subjective and objective measures of visual similarity.</span> *Proceedings of the 42nd Annual Conference of the Cognitive Science Society*. Austin, TX: Cognitive Science Society.
+**Zettersten, M.**, Suffill, E., & Lupyan, G. (2020). [<span style="color: #00ab37">Nameability predicts subjective and objective measures of visual similarity.</span>](https://mzettersten.github.io/assets/pdf/zettersten_2020.pdf){:target="\_blank"} *Proceedings of the 42nd Annual Conference of the Cognitive Science Society*. Austin, TX: Cognitive Science Society.
 
-Woodard, K., **Zettersten, M.**, & Pollak, S.D. (2020). <span style="color: #00ab37">Developmental changes in children’s knowledge of facial configurations.</span> *Proceedings of the 42nd Annual Conference of the Cognitive Science Society*. Austin, TX: Cognitive Science Society. [accepted as a paper but published as an abstract]
+Woodard, K., **Zettersten, M.**, & Pollak, S.D. (2020). [<span style="color: #00ab37">Developmental changes in children’s knowledge of facial configurations.</span>](https://mzettersten.github.io/assets/pdf/zettersten_2020.pdf){:target="\_blank"} *Proceedings of the 42nd Annual Conference of the Cognitive Science Society*. Austin, TX: Cognitive Science Society. [accepted as a paper but published as an abstract]
 
-**Zettersten, M.**, & Saffran, J. (2019). <span style="color: #00ab37">Sampling to learn words: Adults and children sample words that reduce referential ambiguity.</span> In A.K. Goel, C.M. Seifert, & C. Freksa (Eds.), *Proceedings of the 41st Annual Conference of the Cognitive Science Society* (pp. 1261-1267). Montreal, QB: Cognitive Science Society.
+**Zettersten, M.**, & Saffran, J. (2019). [<span style="color: #00ab37">Sampling to learn words: Adults and children sample words that reduce referential ambiguity.</span>](https://mzettersten.github.io/assets/pdf/zettersten_2020.pdf){:target="\_blank"} In A.K. Goel, C.M. Seifert, & C. Freksa (Eds.), *Proceedings of the 41st Annual Conference of the Cognitive Science Society* (pp. 1261-1267). Montreal, QB: Cognitive Science Society.
 
-Koranda, M., **Zettersten, M.**, & McDonald, M. (2018). <span style="color: #00ab37">Word frequency can affect what you choose to say.</span> *Proceedings of the 40th Annual Conference of the Cognitive Science Society*. Austin, TX: Cognitive Science Society.
+Koranda, M., **Zettersten, M.**, & McDonald, M. (2018). [<span style="color: #00ab37">Word frequency can affect what you choose to say.</span>](https://mzettersten.github.io/assets/pdf/zettersten_2020.pdf){:target="\_blank"} *Proceedings of the 40th Annual Conference of the Cognitive Science Society*. Austin, TX: Cognitive Science Society.
  
-**Zettersten, M.**, Potter, C., & Saffran, J. (2018). <span style="color: #00ab37">Tuning in to non-adjacent dependencies: How experience with learnable patterns supports learning novel regularities.</span> *Proceedings of the 40th Annual Conference of the Cognitive Science Society*. Austin, TX: Cognitive Science Society. [OSF][data]
+**Zettersten, M.**, Potter, C., & Saffran, J. (2018). [<span style="color: #00ab37">Tuning in to non-adjacent dependencies: How experience with learnable patterns supports learning novel regularities.</span>](https://mzettersten.github.io/assets/pdf/zettersten_2020.pdf){:target="\_blank"} *Proceedings of the 40th Annual Conference of the Cognitive Science Society*. Austin, TX: Cognitive Science Society. [OSF][data]
 
-**Zettersten, M.**, & Lupyan, G. (2018). <span style="color: #00ab37">Using language to discover categories: more nameable features improve category learning.</span> In C. Cuskley, M. Flaherty, H. Little, Luke McCrohon, A. Ravignani, & T. Verhoef (Eds.), *The Evolution of Language: Proceedings of the 12th International Conference (EVOLANGXII)*. NCU Press.
+**Zettersten, M.**, & Lupyan, G. (2018). [<span style="color: #00ab37">Using language to discover categories: more nameable features improve category learning.</span>](https://mzettersten.github.io/assets/pdf/zettersten_2020.pdf){:target="\_blank"} In C. Cuskley, M. Flaherty, H. Little, Luke McCrohon, A. Ravignani, & T. Verhoef (Eds.), *The Evolution of Language: Proceedings of the 12th International Conference (EVOLANGXII)*. NCU Press.
 
-**MISC**
+**Dissertation**
 
-[dissertation]
+**Zettersten, M.** (2020). [<span style="color: #00ab37">Seeking new words: Active word learning in infants and children.</span>](https://mzettersten.github.io/assets/pdf/zettersten_2020.pdf){:target="\_blank"} University of Wisconsin-Madison, Madison, WI.
