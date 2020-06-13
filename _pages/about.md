@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Martin</strong> Zettersten
-description: <a href="">Princeton Baby Lab. Department of Psychology. Princeton University.</a>
+description: <a href="">Postdoctoral Research Associate. Princeton Baby Lab. Department of Psychology. Princeton University.</a>
 
 profile:
   align: right
