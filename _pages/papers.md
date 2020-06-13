@@ -16,11 +16,11 @@ Koranda, M., **Zettersten, M.**, & McDonald, M. (in prep). <span style="color: #
 
 **JOURNAL ARTICLES**
 
-**Zettersten, M.**, Potter, C., & Saffran, J. (accepted). <span style="color:#00ab37">Tuning in to non-adjacencies: Exposure to learnable patterns supports discovering otherwise difficult structures.</span> *Cognition*. [[OSF]](https://osf.io/m3wn4/){:target="\_blank"}[[repository]](https://github.com/mzettersten/apg-non-adjacent){:target="\_blank"}<a href="https://github.com/mzettersten/apg-non-adjacent" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+**Zettersten, M.**, Potter, C., & Saffran, J. (accepted). <span style="color:#00ab37">Tuning in to non-adjacencies: Exposure to learnable patterns supports discovering otherwise difficult structures.</span> *Cognition*. <a href="https://osf.io/m3wn4/" target="_blank" title="OSF"><i class="fab fa-osf"></i></a><a href="https://github.com/mzettersten/apg-non-adjacent" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 
 Byers-Heinlein, K., Bergmann, C., Davies, C., Frank, M. C., Hamlin, K., Kline, M., …, **Zettersten, M.**, & Soderstrom, M. (accepted). <span style="color:#00ab37">Building a collaborative Psychological Science: Lessons from ManyBabies 1.</span> *Canadian Psychology*. [[preprint]](https://psyarxiv.com/dmhk2/){:target="\_blank"}
 
-The ManyBabies Consortium (2020). <span style="color: #00ab37">Quantifying sources of variability in infancy research using the infant-directed speech preference.</span> *Advances in Methods and Practices in Psychological Science.* doi: 10.1177/2515245919900809 [[pdf]](https://mzettersten.github.io/assets/pdf/ManyBabies1.pdf){:target="\_blank"}[[OSF]](https://osf.io/re95x/){:target="\_blank"}[[repository]](https://github.com/manybabies/mb1-analysis-public){:target="\_blank"}
+The ManyBabies Consortium (2020). <span style="color: #00ab37">Quantifying sources of variability in infancy research using the infant-directed speech preference.</span> *Advances in Methods and Practices in Psychological Science.* doi: 10.1177/2515245919900809 [[pdf]](https://mzettersten.github.io/assets/pdf/ManyBabies1.pdf){:target="\_blank"}[[OSF]](https://osf.io/re95x/){:target="\_blank"}<a href="https://github.com/manybabies/mb1-analysis-public" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 
 **Zettersten, M.**, Schonberg, C., & Lupyan, G. (2020). <span style="color: #00ab37">What does a radical exemplar view not predict? A commentary on Ambridge (2020).</span> *First Language*. doi: 10.1177/0142723720903895
 
