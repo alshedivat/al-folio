@@ -90,7 +90,7 @@ highlighter: pygments
 
 # Includes & excludes
 include: ['_pages']
-exclude: [vendor]
+exclude: [vendor, '_pages/projects.md']
 
 # Plug-ins
 plugins:
