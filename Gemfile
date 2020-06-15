@@ -8,7 +8,3 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
 end
-# group :bootstrap do
-#     gem 'bootstrap'
-#     gem 'material-sass'
-# end

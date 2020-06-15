@@ -31,6 +31,7 @@ footer_fixed: true
 # preview image as the value of og_image.
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
+
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
