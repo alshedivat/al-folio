@@ -1,19 +1,20 @@
 ---
 layout: page
-title: Project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+title: The Brain
+description: Brain Science 
+img: /assets/img/brain2536-942.png
+
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+Brain Science, understood as the set of tools, models and theories(alas alas ) to come to terms with Cognition and Healthy Aging.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
+    Project : "Title"
+    title: Project 
+    Description: Physical and nutritional intervention to undrstand Aging
+    Funding: NIH
     ---
 
 
@@ -25,6 +26,7 @@ To give your project a background in the portfolio page, just add the img tag to
 <div class="col three caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
+
 <div class="img_row">
     <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
 </div>

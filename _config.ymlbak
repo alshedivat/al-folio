@@ -4,8 +4,11 @@
 name: Jaime Gomez-Ramirez 
 email: jd.gomezramirez@gmail.com
 description: > # this means to ignore newlines until "url:"
-   Personal website Complexity Scientist in the era of Social Distancing.
+  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -22,9 +25,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: grjd # your GitHub user name
-twitter_username: gomezramirez_ac # your Twitter handle
-linkedin_username: # your Lin_ackedIn user name
+github_username: # your GitHub user name
+twitter_username: # your Twitter handle
+linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -41,8 +44,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: Ars longa, vita brevis
-blog_description:  Notes on the History Ideas for the Complex Uncertain Future.
+blog_name: al-folio
+blog_description: a simple whitespace theme for academics
 
 # Pagination
 paginate: 4
@@ -99,7 +102,7 @@ plugins:
 # Jekyll-Scholar
 scholar:
 
-  last_name: Gomez-Ramirez
+  last_name: Einstein
 
   style: apa
   locale: en
