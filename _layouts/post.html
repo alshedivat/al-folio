@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
+
+{% if page._styles %}
+<style type="text/css">
+  {{ page._styles }}
+</style>
+{% endif %}
+
 <div class="post">
 
   <header class="post-header">
