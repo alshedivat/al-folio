@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Your Name | Your Name</title>
+<title>Your Name</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -23,7 +23,7 @@
 <link rel="shortcut icon" href="/al-folio/assets/img/favicon.ico">
 <link rel="stylesheet" href="/al-folio/assets/css/main.css">
 
-<link rel="canonical" href="/al-folio/blog/">
+<link rel="canonical" href="/al-folio/">
 
 <!-- Open Graph -->
 
@@ -40,9 +40,6 @@
     <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm fixed-top">
     <div class="container">
       
-        
-        <a class="navbar-brand title font-weight-lighter" href="/al-folio/"><span class="font-weight-bold">Your</span> Name</a>
-      
       <!-- Navbar Toogle -->
       <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>
@@ -53,15 +50,17 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- About -->
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="/al-folio/">
               about
+              
+                <span class="sr-only">(current)</span>
               
             </a>
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/al-folio/blog/">
               blog
               
@@ -123,56 +122,104 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>al-folio</h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    
+    <h1 class="post-title">
+<span class="font-weight-bold">Your</span> Name</h1>
+    <p class="post-description"><a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.</p>
+  </header>
 
+  <article>
+    <div class="row">
+      <div class="col">
+        <p>Write your biography here. Tell the world about yourself. Link to your favorite <a href="http://reddit.com" target="\_blank">subreddit</a>. You can put a picture in, too. The code is already in, just name your picture <code class="language-plaintext highlighter-rouge">prof_pic.jpg</code> and put it in the <code class="language-plaintext highlighter-rouge">img/</code> folder.</p>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/al-folio/blog/2019/Stimuli-to-neuronal-activity/">Transduction of physical stimuli into neural activity</a></h3>
-        <p class="post-meta">April 22, 2019</p>
-        <p>Examples, cells and receptors, common themes.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/al-folio/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/al-folio/blog/2015/comments/">a post with comments</a></h3>
-        <p class="post-meta">October 20, 2015</p>
-        <p>an example of a blog post with comments</p>
-      </li>
-    
-  </ul>
+<p>Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing <code class="language-plaintext highlighter-rouge">profile</code> property of the YAML header of your <code class="language-plaintext highlighter-rouge">_pages/about.md</code>. Edit <code class="language-plaintext highlighter-rouge">_bibliography/papers.bib</code> and Jekyll will render your <a href="/al-folio/publications/">publications page</a> automatically.</p>
 
+<p>Link to your social media connections, too. This theme is set up to use <a href="http://fortawesome.github.io/Font-Awesome/" target="\_blank">Font Awesome icons</a> and <a href="https://jpswalsh.github.io/academicons/" target="\_blank">Academicons</a>, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.</p>
+
+      </div>
+        
+        <div class="profile col-4 ">
+          
+            <img class="img-fluid z-depth-1 rounded" src="/al-folio/assets/img/prof_pic.jpg">
+          
+          
+            <div class="address">
+              <p>555 your office number</p> <p>123 your address street</p> <p>Your City, State 12345</p>
+
+            </div>
+          
+        </div>
+        
+    </div>
+
+    
+      <div class="news">
+  <h2>news</h2>
   
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
       
-        <li class="page-item active"><a class="page-link" href="/al-folio/blog/index.html" title="Your Name">1</a></li>
       
-        <li class="page-item "><a class="page-link" href="/al-folio/blog/page/2/index.html" title="Your Name - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/al-folio/blog/page/3/index.html" title="Your Name - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/al-folio/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+        <tr>
+          <th scope="row">Jan 15, 2016</th>
+          <td>
+            
+              A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">
 
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th scope="row">Nov 7, 2015</th>
+          <td>
+            
+              <a class="news-title" href="/al-folio/news/announcement_2/">A long announcement with details</a>
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th scope="row">Oct 22, 2015</th>
+          <td>
+            
+              A simple inline announcement.
 
+            
+          </td>
+        </tr>
+      
+      </table>
+    </div>
+  
+</div>
+
+    
+
+    
+    <div class="social">
+      <span class="contact-icon text-center">
+  <a href="mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D"><i class="fas fa-envelope"></i></a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</span>
+
+      <div class="contact-note">You can even add a little note about which of these is the best way to reach you.
+</div>
+    </div>
+    
+  </article>
 
 </div>
 
@@ -183,7 +230,7 @@
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2020 Your Name.
+    © Copyright 2020 Your Name.
     Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
     
