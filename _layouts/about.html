@@ -5,9 +5,11 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    {% assign name = site.title | split: ' ' %}
-    <h1 class="post-title"><span class="font-weight-bold">{{ name | first }}</span> {{ name | last }}</h1>
-    <p class="post-description">{{ page.description }}</p>
+     {% assign name = site.title | split: ' ' %}
+     {% assign firstname =  name | first %}
+     {% assign restname =  name | slice:1, name.size | join: " " %}
+     <h1 class="post-title"><span class="font-weight-bold">{{ firstname }}</span> {{ restname }} </h1>
+     <p class="post-description">{{ page.description }}</p>
   </header>
 
   <article>

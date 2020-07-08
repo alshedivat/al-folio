@@ -5,7 +5,9 @@
     <div class="container">
       {% if page.title != "about" %}
         {% assign name = site.title | split: ' ' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/"><span class="font-weight-bold">{{ name | first }}</span> {{ name | last }}</a>
+        {% assign firstname =  name | first %}
+        {% assign restname =  name | slice:1, name.size | join: " " %}
+        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/"><span class="font-weight-bold">{{firstname }}</span> {{ restname }}</a>
       {% elsif site.show_social_icons %}
         <!-- Social Icons -->
         <div class="row ml-1 ml-sm-0">
