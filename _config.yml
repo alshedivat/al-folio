@@ -2,17 +2,15 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Your Name
-email: you@example.com
+title: Jason G. Fleischer
+email: jfleischer@ucsd.edu
 description: > # this means to ignore newlines until "url:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+ In theory, there's no difference between theory and practice.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-
 url:  # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
+baseurl: /argo-navis/ # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 
 # -----------------------------------------------------------------------------
@@ -36,11 +34,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+github_username: jasongfleischer
+twitter_username: jasongfleischer
+linkedin_username: jason-fleischer-0330534
+scholar_userid: dWR9MGgAAAAJ
+orcid_id: 0000-0001-9462-9333
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -48,7 +46,7 @@ research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  I prefer hand-crafted artisanal small-batch data. Especially if it's barrel-aged.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
@@ -56,8 +54,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: Argo-Navis   # your blog must have a name for it to show up in the nav bar
+blog_description: A blog about data and science
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -65,7 +63,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: jgfleischer # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -111,6 +109,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll/scholar
   - jemoji
+  - jekyll-twitter-plugin
   # - bootstrap
   # - material-sass
 
@@ -120,7 +119,7 @@ plugins:
 
 scholar:
 
-  last_name: Einstein
+  last_name: Fleischer
 
   style: apa
   locale: en

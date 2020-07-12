@@ -2,22 +2,55 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Assistant Teaching Professor in <a href="https://cogsci.ucsd.edu">Cognitive Science</a> @ <a href="https://ucsd.edu">UC San Diego</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: me.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p> CSB 257</p>
+    <p> 9500 Gilman Drive</p>
+    <p> La Jolla, CA 92093-0515 </p>
 
 news: true
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## teaching
+My goal is to facilitate students developing a
+passion for learning, and the skills to support it. I am learning
+along with you how to teach and learn in these strange and difficult
+times. We are all facing unprecedented situations, and I'm here to
+help. If you have
+questions or need mentorship 
+[contact me](mailto:jfleischer@ucsd.edu).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+See the [teaching](teaching/) page for current course information.
+and [pandemic](pandemic/) for relevant resources.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+## research
+I use machine learning to extract knowledge from complex biological
+datasets. Working in close conversation with domain experts and
+literature, I make computational models that provide insights and new
+ways to interpret experimental data.  In the past, I did this to
+study the neural processes underlying episodic memory, working memory,
+and consciousness. More recently I am applying this approach to
+analyze relationships between human health, behavior, aging, and
+various biomarkers.
+
+For more information take a look at [publications](publications/)
+and [projects](projects/).
+
+
+## semi-random things about me
+I'm a dad to two kids; one is waist high to me, and I'm only shoulder
+high to the other.  The water fountains in my small town Colorado high school were usually plugged
+with chewing tobacco and I can saddle a horse.  My first computer's OS was CP/M.  I think detective
+fiction is really about philosophy and the search for truth. I play
+soccer, if you need an aging full back or midfield destroyer hit me up. My
+academic career has been everything except straightforward, if you
+need career advice or an ear hit me up. 
+I've squashed horse cadaver legs in a materials testing machine for
+science. I've been mugged. Frankly, I preferred the latter.
+
