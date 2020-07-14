@@ -6,8 +6,16 @@ layout: default
 
   <header class="post-header">
     {% assign name = site.title | split: ' ' %}
-    <h1 class="post-title"><span class="font-weight-bold">{{ name | first }}</span> {{ name | last }}</h1>
-    <p class="post-description">{{ page.description }}</p>
+    {% assign firstname = name | first %}
+    {% if name.size > 2 %}
+       {% assign middlenames =  name | slice:1, name.size-1 | join:" " %}
+    {% else %}
+       {% assign middlenames = '' %}
+    {% endif %}
+    {% assign lastname = name | last %}
+    <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
+     <span class="font-weight-bold">{{ firstname }}</span> {{ middlenames }}  {{ lastname }}
+    </a>
   </header>
 
   <article>
