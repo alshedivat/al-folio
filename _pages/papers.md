@@ -4,15 +4,17 @@ permalink: /papers/
 title: papers
 ---
 
-**MANUSCRIPTS UNDER REVIEW OR IN PREP**
+**IN PREP**
+
+Koranda, M., **Zettersten, M.**, & McDonald, M. (in prep). <span style="color: #00ab37">Word frequency can affect what you choose to say.</span>
+
+**Zettersten, M.**, Bredemann, C., Kaul, M., Vlach, H., Kirkorian, H., & Lupyan, G. (in prep). <span style="color: #00ab37">Nameability supports rule-based category learning in children and adults.</span>
+
+**MANUSCRIPTS SUBMITTED OR UNDER REVIEW**
 
 Santolin, C., Garcia-Castro, G., **Zettersten, M.**, Sebastian-Galles, N., & Saffran, J. (under review). <span style="color: #00ab37">Experience with research paradigms relates to infants’ direction of preference.</span> <a href="https://osf.io/g95ub/" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/gongcastro/Flip" target="_blank" title="GitHub"><i class="fab fa-github"></i></a> [[preprint]](https://psyarxiv.com/xgvbh/){:target="\_blank"}
 
 **Zettersten, M.**, & Saffran, J. (under review). <span style="color: #00ab37">Sampling to learn words: Adults and children sample words that reduce referential ambiguity.</span> <a href="https://osf.io/udmvh/?view_only=b9b8a986fd3a4235a073ec35d70a2266" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/crossAct" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
- 
-Koranda, M., **Zettersten, M.**, & McDonald, M. (in prep). <span style="color: #00ab37">Word frequency can affect what you choose to say.</span>
-
-**Zettersten, M.**, Bredemann, C., Kaul, M., Vlach, H., Kirkorian, H., & Lupyan, G. (in prep). <span style="color: #00ab37">Nameability supports rule-based category learning in children and adults.</span>
 
 **JOURNAL ARTICLES**
 
