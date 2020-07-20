@@ -10,13 +10,15 @@ Koranda, M., **Zettersten, M.**, & McDonald, M. (in prep). <span style="color: #
 
 **Zettersten, M.**, Bredemann, C., Kaul, M., Vlach, H., Kirkorian, H., & Lupyan, G. (in prep). <span style="color: #00ab37">Nameability supports rule-based category learning in children and adults.</span>
 
-**MANUSCRIPTS SUBMITTED OR UNDER REVIEW**
+Woodard, K., **Zettersten, M.**, & Pollak, S.D. (2020). [<span style="color: #00ab37">Developmental changes in children’s knowledge of facial configurations.</span>]
 
-Santolin, C., Garcia-Castro, G., **Zettersten, M.**, Sebastian-Galles, N., & Saffran, J. (under review). <span style="color: #00ab37">Experience with research paradigms relates to infants’ direction of preference.</span> <a href="https://osf.io/g95ub/" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/gongcastro/Flip" target="_blank" title="GitHub"><i class="fab fa-github"></i></a> [[preprint]](https://psyarxiv.com/xgvbh/){:target="\_blank"}
+**MANUSCRIPTS SUBMITTED OR UNDER REVIEW**
 
 **Zettersten, M.**, & Saffran, J. (under review). <span style="color: #00ab37">Sampling to learn words: Adults and children sample words that reduce referential ambiguity.</span> <a href="https://osf.io/udmvh/?view_only=b9b8a986fd3a4235a073ec35d70a2266" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/crossAct" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 
 **JOURNAL ARTICLES**
+
+Santolin, C., Garcia-Castro, G., **Zettersten, M.**, Sebastian-Galles, N., & Saffran, J. (accepted pending minor revisions). <span style="color: #00ab37">Experience with research paradigms relates to infants’ direction of preference.</span> *Infancy*. <a href="https://osf.io/g95ub/" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/gongcastro/Flip" target="_blank" title="GitHub"><i class="fab fa-github"></i></a> [[preprint]](https://psyarxiv.com/xgvbh/){:target="\_blank"}
 
 ​Benitez, V., **Zettersten, M.**, & Wojcik, E. (accepted). <span style="color: #00ab37">The temporal structure of naming events differentially affects children’s and adults’ statistical word-referent learning.</span> <a href="https://osf.io/2hmxr/?view_only=6432022c65bf42aa9afcb865bc9ae37f" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/crossSitRep" target="_blank" title="GitHub"><i class="fab fa-github"></i></a> [[preprint]](https://psyarxiv.com/yh84w){:target="\_blank"}
 
