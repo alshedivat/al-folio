@@ -10,7 +10,7 @@ Koranda, M., **Zettersten, M.**, & McDonald, M. (in prep). <span style="color: #
 
 **Zettersten, M.**, Bredemann, C., Kaul, M., Vlach, H., Kirkorian, H., & Lupyan, G. (in prep). <span style="color: #00ab37">Nameability supports rule-based category learning in children and adults.</span>
 
-Woodard, K., **Zettersten, M.**, & Pollak, S.D. (2020). [<span style="color: #00ab37">Developmental changes in children’s knowledge of facial configurations.</span>]
+Woodard, K., **Zettersten, M.**, & Pollak, S.D. (2020). <span style="color: #00ab37">Developmental changes in children’s knowledge of facial configurations.</span>
 
 **MANUSCRIPTS SUBMITTED OR UNDER REVIEW**
 
@@ -46,7 +46,7 @@ Lupyan, G., & **Zettersten, M.** (forthcoming). <span style="color: #00ab37">Doe
 
 **PEER-REVIEWED PROCEEDINGS PAPERS**
 
-**Zettersten, M.**, Suffill, E., & Lupyan, G. (2020). [<span style="color: #00ab37">Nameability predicts subjective and objective measures of visual similarity.</span>](https://mzettersten.github.io/assets/pdf/cogsci20a-sub2413-cam-i9.pdf){:target="\_blank"} *Proceedings of the 42nd Annual Conference of the Cognitive Science Society*. Austin, TX: Cognitive Science Society.
+**Zettersten, M.**, Suffill, E., & Lupyan, G. (2020). [<span style="color: #00ab37">Nameability predicts subjective and objective measures of visual similarity.</span>](https://mzettersten.github.io/assets/pdf/cogsci20a-sub2413-cam-i9.pdf){:target="\_blank"} *Proceedings of the 42nd Annual Conference of the Cognitive Science Society*. Austin, TX: Cognitive Science Society. <a href="https://github.com/mzettersten/vcs" target="_blank" title="GitHub"><i class="fab fa-github"></i></a> 
 
 Woodard, K., **Zettersten, M.**, & Pollak, S.D. (2020). [<span style="color: #00ab37">Developmental changes in children’s knowledge of facial configurations.</span>](https://mzettersten.github.io/assets/pdf/DevelopmentalChanges_0203_resubmission.pdf){:target="\_blank"} *Proceedings of the 42nd Annual Conference of the Cognitive Science Society*. Austin, TX: Cognitive Science Society. [accepted as a paper but published as an abstract]
 
