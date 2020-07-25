@@ -10,7 +10,7 @@ Koranda, M., **Zettersten, M.**, & McDonald, M. (in prep). <span style="color: #
 
 **Zettersten, M.**, Bredemann, C., Kaul, M., Vlach, H., Kirkorian, H., & Lupyan, G. (in prep). <span style="color: #00ab37">Nameability supports rule-based category learning in children and adults.</span>
 
-Woodard, K., **Zettersten, M.**, & Pollak, S.D. (2020). <span style="color: #00ab37">Developmental changes in children’s knowledge of facial configurations.</span>
+Woodard, K., **Zettersten, M.**, & Pollak, S.D. (in prep). <span style="color: #00ab37">Developmental changes in children’s knowledge of facial configurations.</span>
 
 **MANUSCRIPTS SUBMITTED OR UNDER REVIEW**
 
@@ -40,7 +40,7 @@ Hoehl, S., **Zettersten, M.**, Schleihauf, H., Graetz, S., & Pauen, S. (2014). [
 
 **BOOK CHAPTERS**
 
-Lupyan, G., & **Zettersten, M.** (forthcoming). <span style="color: #00ab37">Does vocabulary help structure the mind? In Sera, M., & Koenig, M. (Eds.).</span> *40th Minnesota Symposium on Child Psychology*.[[preprint]](https://psyarxiv.com/b74u9/){:target="\_blank"}
+Lupyan, G., & **Zettersten, M.** (forthcoming). <span style="color: #00ab37">Does vocabulary help structure the mind?</span> In Sera, M., & Koenig, M. (Eds.). *40th Minnesota Symposium on Child Psychology*.[[preprint]](https://psyarxiv.com/b74u9/){:target="\_blank"}
 
 **Zettersten, M.** (2019). [<span style="color: #00ab37">Learning by predicting: How predictive processing informs language development.</span>](https://mzettersten.github.io/assets/pdf/Zettersten_learning_by_predicting_2019.pdf){:target="\_blank"} In Busse, B., & Moehlig-Falke, R. (Eds.). *Patterns in Language and Linguistics: New Perspectives on a Ubiquitous Concept* (pp. 255-288). Berlin: Mouton de Gruyter. <a href="https://doi.org/10.1515/9783110596656-010" target="_blank" title="doi"><i class="ai ai-doi"></i></a>
 
