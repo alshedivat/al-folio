@@ -2,9 +2,12 @@
  * Content
  ******************************************************************************/
 
+ @font-face{font-family:'ProductSans'; src:url('../font/ProductSans/ProductSans-Regular.ttf');} @font-face{font-family:'ProductSans'; src:url('../font/ProductSans/ProductSans-RegularItalic.ttf');font-style:italic;} @font-face{font-family:'ProductSans'; src:url('../font/ProductSans/ProductSans-Light.ttf');font-weight:300;} @font-face{font-family:'ProductSans'; src:url('../font/ProductSans/ProductSans-LightItalic.ttf');font-weight:300;font-style:italic;} @font-face{font-family:'ProductSans'; src:url('../font/ProductSans/ProductSans-Medium.ttf');font-weight:500;} @font-face{font-family:'ProductSans'; src:url('../font/ProductSans/ProductSans-MediumItalic.ttf');font-weight:500;font-style:italic;} @font-face{font-family:'ProductSans'; src:url('../font/ProductSans/ProductSans-Bold.ttf');font-weight:700;} @font-face{font-family:'ProductSans'; src:url('../font/ProductSans/ProductSans-BoldItalic.ttf');font-weight:700; font-style:italic;} @font-face{font-family:'ProductSans'; src:url('../font/ProductSans/ProductSans-Black.ttf');font-weight:800;} @font-face{font-family:'ProductSans'; src:url('../font/ProductSans/ProductSans-BlackItalic.ttf');font-weight:800; font-style:italic;} @font-face{font-family:'SFProDisplay'; src:url('../font/SFPro/SFProDisplay-Regular.ttf');} @font-face{font-family:'SFProDisplay'; src:url('../font/SFPro/SFProDisplay-RegularItalic.ttf');font-style:italic;} @font-face{font-family:'SFProDisplay'; src:url('../font/SFPro/SFProDisplay-Ultralight.ttf');font-weight:100;} @font-face{font-family:'SFProDisplay'; src:url('../font/SFPro/SFProDisplay-UltralightItalic.ttf');font-weight:100; font-style:italic;} @font-face{font-family:'SFProDisplay'; src:url('../font/SFPro/SFProDisplay-Thin.ttf');font-weight:200;} @font-face{font-family:'SFProDisplay'; src:url('../font/SFPro/SFProDisplay-ThinItalic.ttf');font-weight:200; font-style:italic;} @font-face{font-family:'SFProDisplay'; src:url('../font/SFPro/SFProDisplay-Light.ttf');font-weight:300;} @font-face{font-family:'SFProDisplay'; src:url('../font/SFPro/SFProDisplay-LightItalic.ttf');font-weight:300;font-style:italic;} @font-face{font-family:'SFProDisplay'; src:url('../font/SFPro/SFProDisplay-Medium.ttf');font-weight:500;} @font-face{font-family:'SFProDisplay'; src:url('../font/SFPro/SFProDisplay-MediumItalic.ttf');font-weight:500;font-style:italic;} @font-face{font-family:'SFProDisplay'; src:url('../font/SFPro/SFProDisplay-SemiBold.ttf');font-weight:600;} @font-face{font-family:'SFProDisplay'; src:url('../font/SFPro/SFProDisplay-SemiBoldItalic.ttf');font-weight:600;font-style:italic;} @font-face{font-family:'SFProDisplay'; src:url('../font/SFPro/SFProDisplay-Bold.ttf');font-weight:700;} @font-face{font-family:'SFProDisplay'; src:url('../font/SFPro/SFProDisplay-BoldItalic.ttf');font-weight:700; font-style:italic;} @font-face{font-family:'SFProDisplay'; src:url('../font/SFPro/SFProDisplay-Black.ttf');font-weight:800;} @font-face{font-family:'SFProDisplay'; src:url('../font/SFPro/SFProDisplay-BlackItalic.ttf');font-weight:800; font-style:italic;} @font-face{font-family:'SFProText' ; src:url('../font/SFPro/SFProText-Regular.ttf');} @font-face{font-family:'SFProText' ; src:url('../font/SFPro/SFProText-RegularItalic.ttf');font-style:italic;} @font-face{font-family:'SFProText' ; src:url('../font/SFPro/SFProText-Light.ttf');font-weight:300;} @font-face{font-family:'SFProText' ; src:url('../font/SFPro/SFProText-LightItalic.ttf');font-weight:300;font-style:italic;} @font-face{font-family:'SFProText' ; src:url('../font/SFPro/SFProText-Medium.ttf');font-weight:500;} @font-face{font-family:'SFProText' ; src:url('../font/SFPro/SFProText-MediumItalic.ttf');font-weight:500;font-style:italic;} @font-face{font-family:'SFProText' ; src:url('../font/SFPro/SFProText-SemiBold.ttf');font-weight:600;} @font-face{font-family:'SFProText' ; src:url('../font/SFPro/SFProText-SemiBoldItalic.ttf');font-weight:600;font-style:italic;} @font-face{font-family:'SFProText' ; src:url('../font/SFPro/SFProText-Bold.ttf');font-weight:700;} @font-face{font-family:'SFProText' ; src:url('../font/SFPro/SFProText-BoldItalic.ttf');font-weight:700; font-style:italic;} @font-face{font-family:'SFProText' ; src:url('../font/SFPro/SFProText-Heavy.ttf');font-weight:800;} @font-face{font-family:'SFProText' ; src:url('../font/SFPro/SFProText-HeavyItalic.ttf');font-weight:800; font-style:italic;}
+
  body {
    padding-bottom: 70px;
    color: $text-color;
+   font-family: 'SFProDisplay'
  }
 
  body.fixed-top-nav {
@@ -27,6 +30,24 @@
     width: 100%;
   }
 }
+
+p
+ {
+  font-family: 'SFProDisplay';
+ }
+
+ h1, h2, h3, h4
+ {
+  font-family: 'Product Sans';
+ }
+
+ .nav-item, .navbar
+ {
+  font-family:'Product Sans';
+ }
+
+
+
 
 // TODO: redefine content layout.
 

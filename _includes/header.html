@@ -3,7 +3,7 @@
     <!-- Nav Bar -->
     <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
     <div class="container">
-      {% if page.title != "about" %}
+      {% if page.title %}
       {% assign name = site.title | split: ' ' %}
       {% assign firstname = name | first %}
       {% if name.size > 2 %}
@@ -31,10 +31,10 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- About -->
-          <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
+          <li class="nav-item {% if page.title == 'start here' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              about
-              {% if page.title == "about" %}
+              start here
+              {% if page.title == "start here" %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>

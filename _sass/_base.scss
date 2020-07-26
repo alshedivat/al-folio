@@ -83,6 +83,30 @@ a, table.table a {
   }
 }
 
+.navbar-light .navbar-brand{
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    line-height: inherit;
+    white-space: nowrap;
+
+  }
+
+.font-weight-bold
+{
+  font-weight:600!important;
+  color: $theme-color;
+}
+
+.font-weight-lighter
+{
+  font-weight:100!important;
+}
+
+
+
 .navbar-toggler {
   .icon-bar {
     display: block;
@@ -131,11 +155,11 @@ a, table.table a {
 .social {
   text-align: center;
   .contact-icon {
-    font-size: 4rem;
+    font-size: 2rem;
     a {
-      color: $grey-color-dark;
+      color: $theme-color;
       &:hover {
-        color: $theme-color;
+        color: $grey-color-dark;
       }
     }
   }
@@ -148,6 +172,7 @@ a, table.table a {
 // Footer
 
 footer.fixed-bottom {
+  text-align:center;
   color: lighten($grey-color, 25%);
   background-color: $grey-color-dark;
   font-size: 0.75rem;
@@ -175,6 +200,7 @@ footer.sticky-bottom {
 // Blog
 
 .header-bar {
+  display:none;
   border-bottom: 1px solid $grey-color-light;
   text-align: center;
   padding-top: 2rem;
@@ -246,6 +272,64 @@ footer.sticky-bottom {
   }
 }
 
+
+.subscribe-form
+{
+    margin: 1.5em 0;
+    padding: 2.5vw 3vw 3vw 3vw;
+    border: 1px solid #e3e9ed;
+    text-align: center;
+    background: #fff;
+}
+.subscribe-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 460px;
+}
+.subscribe-form .form-group {
+    align-self: stretch;
+    display: flex;
+}
+.subscribe-email {
+    font-family: 'SFProText';
+    font-size: 15px;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #dae2e7;
+    color: #738a94;
+    line-height: 1em;
+    font-weight: 400;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    border-radius: 5px;
+    transition: border-color .15s linear;
+    -webkit-appearance: none;
+}
+.subscribe-form button {
+    font-variant: all-petite-caps;
+    font-family: 'ProductSans';
+    font-size: 15px;
+    position: relative;
+    display: inline-block;
+    margin: 0 0 0 10px;
+    padding: 0 20px;
+    height: 43px;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 39px;
+    font-weight: 400;
+    text-align: center;
+    background: linear-gradient(#4fb7f0,#29a0e0 60%,#29a0e0 90%,#36a6e2);
+    border-radius: 5px;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
 
 // Publications
 

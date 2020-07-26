@@ -456,7 +456,7 @@
   (function(exports) {
 
       function BibtexParser() {
-          
+
           this.months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"];
           this.notKey = [',','{','}',' ','='];
           this.pos = 0;
@@ -592,7 +592,7 @@
                       return k.toLowerCase();
                   else
                       throw "Value expected:" + this.input.substring(start) + ' for key: ' + k;
-              
+
               }        };
 
           this.value = function() {
@@ -615,7 +615,7 @@
                       return this.input.substring(start, this.pos);
                   } else {
                       this.pos++;
-                      
+
                   }            }        };
 
           this.key_equals_value = function() {
@@ -690,7 +690,7 @@
                   }
                   this.match("}");
               }        };
-      }    
+      }
       exports.toJSON = function(bibtex) {
           var b = new BibtexParser();
           b.setInput(bibtex);
@@ -720,7 +720,7 @@
               out += '}\n\n';
           }
           return out;
-          
+
       };
 
   })( exports);
@@ -1408,7 +1408,7 @@
   $export.B = 16;  // bind
   $export.W = 32;  // wrap
   $export.U = 64;  // safe
-  $export.R = 128; // real proto method for `library` 
+  $export.R = 128; // real proto method for `library`
   module.exports = $export;
   },{"./_core":10,"./_ctx":11,"./_global":16,"./_hide":17}],15:[function(require,module,exports){
   module.exports = function(exec){

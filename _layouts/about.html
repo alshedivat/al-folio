@@ -5,7 +5,7 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    {% assign name = site.title | split: ' ' %}
+    <!--{% assign name = site.title | split: ' ' %}
     {% assign firstname = name | first %}
     {% if name.size > 2 %}
        {% assign middlenames =  name | slice:1, name.size-1 | join:" " %}
@@ -15,31 +15,39 @@ layout: default
     {% assign lastname = name | last %}
     <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
      <span class="font-weight-bold">{{ firstname }}</span> {{ middlenames }}  {{ lastname }}
-    </a>
+    </a>-->
   </header>
 
   <article>
     <div class="row">
-      <div class="col">
-        {{ content }}
-      </div>
+      <!--div class="col">
+
+      </div-->
+        <!--
         {% if page.profile %}
         <div class="profile col-4 {% if page.profile.align == 'left' %}order-first{% endif %}">
+
           {% if page.profile.image %}
-            <img class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
+            <img style="align:center" class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
           {% endif %}
-          {% if page.profile.address %}
+          <{% if page.profile.address %}
             <div class="address">
               {{ page.profile.address }}
             </div>
           {% endif %}
         </div>
         {% endif %}
-    </div>
 
-    {% if page.news %}
+    </div-->
+    <div style="text-align:center">
+      <img style="max-width:40%" class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
+    </div>
+    <br>
+    {{ content }}
+
+    <!--{% if page.news %}
       {% include news.html %}
-    {% endif %}
+    {% endif %}-->
 
     {% if page.social %}
     <div class="social">
