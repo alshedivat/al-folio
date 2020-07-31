@@ -1,0 +1,57 @@
+/******************************************************************************
+ * Content
+ ******************************************************************************/
+
+ body {
+   padding-bottom: 300px;
+   color: $text-color;
+ }
+
+ body.fixed-top-nav {
+   // Add some padding for the nav-bar.
+   padding-top: 66px;
+ }
+
+ body.sticky-bottom-footer {
+   // Remove padding below footer.
+   padding-bottom: 0;
+ }
+
+.container {
+  max-width: $max-content-width;
+}
+
+// Profile
+.profile {
+  img {
+    width: 90%;
+  }
+}
+
+// Projects
+//.card-title {
+//    font-size: 16pt;
+//}
+//.text-lowercase {
+//    text-transform: none!important;
+//}
+.card-title.text-lowercase {
+    font-size: 16pt;
+    text-transform: none!important;
+}
+
+// TODO: redefine content layout.
+
+
+/******************************************************************************
+ * Publications
+ ******************************************************************************/
+
+// TODO: redefine publications layout.
+
+
+/*****************************************************************************
+* Projects
+*****************************************************************************/
+
+// TODO: redefine projects layout.
