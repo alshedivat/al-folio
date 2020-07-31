@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2020-07-30 20:44:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+The new website of Dr. Bin Ouyangs is online! :sparkles: :smile:

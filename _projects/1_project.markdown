@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Predictive Synthesis
+description: Predictive synthesis of ceramic materials
 img: /assets/img/12.jpg
 importance: 1
 ---
