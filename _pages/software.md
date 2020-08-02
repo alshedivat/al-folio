@@ -1,7 +1,7 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: Software
+permalink: /software/
 description: A growing collection of your cool projects.
 nav: true
 ---
