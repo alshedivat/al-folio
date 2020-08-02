@@ -1,20 +1,28 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Center for Imaging Sciencer</p>
+    <p>Johns Hopkins University</p>
+    <p>Baltimore, MD, USA</p>
 
 news: true
 social: true
 ---
+
+I am a Postdoctoral Fellow in the [Center for Imaging Science](http://cis.jhu.edu/) at [Johns Hopkins University](www.jhu.edu), working with Professors [Carey E. Priebe](http://www.ams.jhu.edu/~priebe/) and [Joshua T. Vogelstein](https://jovo.me/). Previously, I completed my PhD in the [Department of Statistics](https://lsa.umich.edu/stats) at the [University of Michigan](https://umich.edu/), advised by [Professor Liza Levina](http://dept.stat.lsa.umich.edu/~elevina/).
+
+My research interests include statistical network analysis, machine learning and high dimensional data analysis, and applications to neuroimaging.
+
+I received a B.Sc. in Applied Mathematics and a B.Sc. in Computer Engineering from the [Mexico Autonomous Institute of Technology (ITAM)](www.itam.mx).
+
+
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
