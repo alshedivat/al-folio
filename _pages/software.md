@@ -2,7 +2,7 @@
 layout: page
 title: Software
 permalink: /software/
-description: A growing collection of your cool projects.
+description: 
 nav: true
 ---
 

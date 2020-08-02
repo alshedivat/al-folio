@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2020-02-04
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+New arXiv pre-print ["Graph matching between bipartite and unipartite networks: to collapse, or not to collapse, that is the question
+"](https://arxiv.org/abs/2002.01648), with Carey E. Priebe and Vince Lyzinski.
