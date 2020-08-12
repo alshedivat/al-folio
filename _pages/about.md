@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Vancouver (& Delta), British Columbia</p>
+    <p>Vancouver, British Columbia</p>
     <p></p>
     <p></p>
 
