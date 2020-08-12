@@ -2,14 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: You R. Name
-email: you@example.com
+title: Arjun Baghela
+email: arjunsbaghela@gmail.com
 description: > # this means to ignore newlines until "url:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  # the base hostname & protocol for your site
 baseurl: /al-folio # the subpath of your site, e.g. /blog/
@@ -36,11 +35,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
+github_username: abaghela
+twitter_username: arjunsbaghela
+linkedin_username: arjunsbaghela
 scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+orcid_id: 0000-0002-0196-8828
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -48,7 +47,7 @@ research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Say hi from any of the above platforms.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
@@ -56,8 +55,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: the baghela blog  # your blog must have a name for it to show up in the nav bar
+blog_description: some musings
 permalink: /blog/:year/:title/
 
 # Pagination
