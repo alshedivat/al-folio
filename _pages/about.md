@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Immunology, sepsis, statistics, machine learning.
+description: <a href="#">Immunology, sepsis, statistics, machine learning.</a>. 
 
 profile:
   align: right
