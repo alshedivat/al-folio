@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /cv/
-title: cv
-description: CV
+title: curriculum vitae
+description: available as a PDF.
 nav: true
 ---
 

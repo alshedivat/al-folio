@@ -38,7 +38,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: abaghela
 twitter_username: arjunsbaghela
 linkedin_username: arjunsbaghela
-scholar_userid: # your Google Scholar ID
+scholar_userid: 1579088941721879602
 orcid_id: 0000-0002-0196-8828
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -47,7 +47,7 @@ research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 
 contact_note: >
-  Say hi.
+  
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
@@ -119,7 +119,7 @@ plugins:
 
 scholar:
 
-  last_name: Einstein
+  last_name: Baghela
 
   style: apa
   locale: en
