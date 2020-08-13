@@ -12,7 +12,7 @@ profile:
     <p>Vancouver, BC</p>
     <p></p>
 
-news: true
+news: false
 social: true
 ---
 

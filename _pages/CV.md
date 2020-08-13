@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /CV/
-title: CV
+permalink: /cv/
+title: cv
 description: CV
 nav: true
 ---
