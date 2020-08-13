@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: High Entropy Materials
+description: High entropy ceramics and metal alloys
 img:
 importance: 3
 ---

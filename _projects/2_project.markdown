@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: Battery Electrode
+description: Discover novel battery electrode and understand why they are good
 img: /assets/img/3.jpg
 importance: 2
 ---

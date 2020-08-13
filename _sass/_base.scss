@@ -36,8 +36,8 @@ a, table.table a {
 
 .profile {
     .address {
-      font-family: monospace;
-      font-size: 1.2rem;
+      font-family: sans-serif;
+      font-size: 1.1rem;
       p {
         margin: 0;
       }
@@ -231,7 +231,7 @@ footer.sticky-bottom {
 
 .projects {
   .grid-item {
-    width: 250px;
+    width: 300px;
     margin-bottom: 10px;
     a {
       color: black;
@@ -263,7 +263,7 @@ footer.sticky-bottom {
     list-style: none;
     padding: 0;
     margin-top: 0;
-
+    
     li {
       margin-bottom: 1rem;
       .abbr {

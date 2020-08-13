@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: Low dimensional Materials
+description: Understand the novel thermodynamic and functional properties of low dimensional Materials
 img: /assets/img/1.jpg
 importance: 3
 ---

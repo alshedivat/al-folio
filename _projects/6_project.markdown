@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: Computational Framework
+description: Develop computational framework to understand energy landscape of inorganic solids
 img:
 importance: 4
 ---
