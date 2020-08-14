@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: /assets/img/7.jpg
-redirect: https://unsplash.com
+title: viral voyager
+description: platform to visualize virus species in our oceans
+img: /assets/img/tara_logo.png
+redirect: http://oganm.com/shiny/taracyc/
 importance: 3
 ---
 
