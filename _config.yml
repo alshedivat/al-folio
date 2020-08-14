@@ -9,6 +9,7 @@ description: > # this means to ignore newlines until "url:"
 footer_text: >
 
 
+
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
@@ -46,6 +47,7 @@ research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 
 contact_note: >
+  arjunsbaghela@gmail.com | arjun@hancocklab.com
 
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
