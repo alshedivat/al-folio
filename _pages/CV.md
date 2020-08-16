@@ -5,4 +5,4 @@ title: curriculum vitae
 description:
 nav: true
 ---
-available as a [<u>PDF</u>](/assets/pdf/baghela_arjun_CV.pdf).
+available as a [<u>PDF</u>](/assets/pdf/baghela_arjun_CV_website.pdf).
