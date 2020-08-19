@@ -14,7 +14,7 @@ Woodard, K., **Zettersten, M.**, & Pollak, S.D. (in prep). <span style="color: #
 
 **MANUSCRIPTS SUBMITTED OR UNDER REVIEW**
 
-**Zettersten, M.**, & Saffran, J. (under review). <span style="color: #00ab37">Sampling to learn words: Adults and children sample words that reduce referential ambiguity.</span> <a href="https://osf.io/udmvh/?view_only=b9b8a986fd3a4235a073ec35d70a2266" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/crossAct" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+**Zettersten, M.**, & Saffran, J. (revise and resubmit). <span style="color: #00ab37">Sampling to learn words: Adults and children sample words that reduce referential ambiguity.</span> <a href="https://osf.io/udmvh/?view_only=b9b8a986fd3a4235a073ec35d70a2266" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/crossAct" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 
 **JOURNAL ARTICLES**
 
