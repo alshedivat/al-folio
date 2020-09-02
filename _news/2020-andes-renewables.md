@@ -29,5 +29,5 @@ The general combination of models are
   The drive-train model can be added optionally.
 - One can use all the models to simulate type 3 wind model.
 
-Reference: PowerWorld, "Transient Stability Overview: Renewable Energy Generation Modeling (Wind, Solar, Energy Storage, Distributed Photo Voltaic)", Online: https://www.powerworld.com/WebHelp/Content/MainDocumentation_HTML/Transient_Stability_Overview_WindModeling.htm
+Reference: PowerWorld, "Transient Stability Overview: Renewable Energy Generation Modeling (Wind, Solar, Energy Storage, Distributed Photo Voltaic)", Online: (PowerWorld website)[https://www.powerworld.com/WebHelp/Content/MainDocumentation_HTML/Transient_Stability_Overview_WindModeling.htm].
 
