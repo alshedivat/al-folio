@@ -4,16 +4,8 @@
     <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
     <div class="container">
       {% if page.title != "about" %}
-      {% assign name = site.title | split: ' ' %}
-      {% assign firstname = name | first %}
-      {% if name.size > 2 %}
-         {% assign middlenames =  name | slice:1, name.size-1 | join:" " %}
-      {% else %}
-         {% assign middlenames = '' %}
-      {% endif %}
-      {% assign lastname = name | last %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-       <span class="font-weight-bold">{{ firstname }}</span> {{ middlenames }}  {{ lastname }}
+       {% if site.title == blank %}{{ site.title }}{% else %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% endif %}
       </a>
       {% elsif site.show_social_icons %}
         <!-- Social Icons -->
