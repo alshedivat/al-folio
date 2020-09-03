@@ -35,13 +35,40 @@ a, table.table a {
 // Profile
 
 .profile {
-    .address {
-      font-family: monospace;
-      font-size: 1.2rem;
-      p {
-        margin: 0;
-      }
+  margin-left: 1rem;
+  width: 100%;
+
+  .address {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: monospace;
+    font-size: 1.2rem;
+    p {
+      display: inline-block;
+      margin: 0;
     }
+  }
+}
+
+@media (min-width: 576px) {
+  .profile {
+    width: 30%;
+    .address {
+      p { display: block; }
+    }
+  }
+}
+
+.post-description {
+  margin-bottom: 2rem;
+  a {
+    color: inherit;
+    font-size: 0.875rem;
+    &:hover {
+      color: $theme-color;
+      text-decoration: none;
+    }
+  }
 }
 
 
@@ -251,6 +278,19 @@ footer.sticky-bottom {
 
 .publications {
   margin-top: 2rem;
+  h1 {
+    color: $theme-color;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  h2 {
+    margin-bottom: 1rem;
+    span {
+      font-size: 1.5rem;
+    }
+  }
   h2.year {
     color: $grey-color-light;
     border-top: 1px solid $grey-color-light;
@@ -274,10 +314,17 @@ footer.sticky-bottom {
           background-color: $theme-color;
           padding-left: 1rem;
           padding-right: 1rem;
+          a {
+            color: white;
+            &:hover {
+              text-decoration: none;
+            }
+          }
         }
-      }
-      span {
-        display: block;
+        .award {
+          color: $theme-color !important;
+          border: 1px solid $theme-color;
+        }
       }
       .title {
         font-weight: bolder;
@@ -295,13 +342,19 @@ footer.sticky-bottom {
           font-style: normal;
         }
       }
-      em.star {
-        border-bottom: none;
-        color: $theme-color;
-        font-style: normal;
-      }
-      a.abstract, a.bibtex {
-        cursor: pointer;
+      .links {
+        a.btn {
+          color: $text-color;
+          border: 1px solid $text-color;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          padding-top: 0.25rem;
+          padding-bottom: 0.25rem;
+          &:hover {
+            color: $theme-color;
+            border-color: $theme-color;
+          }
+        }
       }
       .hidden {
         font-size: 0.875rem;
@@ -332,10 +385,10 @@ footer.sticky-bottom {
         -o-transition: 0.15s ease;
         transition: all 0.15s ease;
       }
-      span.abstract.hidden {
+      div.abstract.hidden {
         border: dashed 1px white;
       }
-      span.abstract.hidden.open {
+      div.abstract.hidden.open {
         border-color: $grey-color;
       }
     }
