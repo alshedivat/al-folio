@@ -24,7 +24,9 @@ layout: default
     </div>
     {% endif %}
 
-    {{ content }}
+    <div class="clearfix">
+      {{ content }}
+    </div>
 
     {% if page.news %}
       {% include news.html %}
