@@ -119,7 +119,7 @@ If you installed **al-folio** as described above, you can upgrade to the latest 
 # Assuming the current directory is <your-repo-name>
 $ git remote add upstream https://github.com/alshedivat/al-folio.git
 $ git fetch upstream
-$ git rebase upstream/v0.3
+$ git rebase upstream/v0.3.1
 ```
 
 If you have extensively customized a previous version, it might be trickier to upgrade.
