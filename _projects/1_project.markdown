@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Predictive Synthesis
-description: Predictive synthesis of ceramic materials
+description: --- Predictive synthesis of ceramic materials
 img: /assets/img/12.jpg
 importance: 1
 ---
@@ -10,7 +10,7 @@ With the aid of high-throughput computation, we can generate hundreds or thousan
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/NMPD.jpg' | relative_url }}" alt="" title="NMO Phase Diagram"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/NMPD.jpg' | relative_url}}" alt="" title="NMO Phase Diagram"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/2DSubstrate.jpg' | relative_url }}" alt="" title="example image"/>

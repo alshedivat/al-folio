@@ -21,3 +21,5 @@ Greetings! Welcome to my online profile. I am a theoretical researcher working i
 Currently, I'm a postdoctoral research associate in [CEDER](https://ceder.berkeley.edu/) group at University of California Berkeley. My current research is focusing on developing thermodynamic and kinetic computational frameworks to understand the energy landscape of inorganic solid materials.
 
 Detailed information about my current research interests are presented in this site. If you have any questions or inquiries, please feel free to send an [email](jeffrey.oakley.ouyang@gmail.com) to me.
+
+You can also check my [Youtube channel](https://www.youtube.com/channel/UC2heo-n7ma9GcJQZH-Xup-A/videos) or [Bilibili channel](https://space.bilibili.com/476701676) for constant updates of my research life.

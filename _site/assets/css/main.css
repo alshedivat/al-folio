@@ -77,7 +77,7 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
 
 .distill a:hover { border-bottom-color: #B509AC; text-decoration: none; }
 
-.projects .grid-item { width: 300px; margin-bottom: 10px; }
+.projects .grid-item { width: 450px; margin-bottom: 10px; }
 .projects .grid-item a { color: black; text-decoration: none; }
 .projects .grid-item a:hover { color: #B509AC; }
 .projects .card img { width: 100%; }
