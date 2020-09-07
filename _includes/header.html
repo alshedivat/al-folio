@@ -13,7 +13,7 @@
       {% endif %}
       {% assign lastname = name | last %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-       <span class="font-weight-bold">{{ firstname }}</span> {{ middlenames }}  {{ lastname }}
+       <span class="font-weight-bold">{{ firstname }} {{ middlenames }} {{ lastname }}</span>
       </a>
       {% elsif site.show_social_icons %}
         <!-- Social Icons -->
@@ -33,7 +33,7 @@
           <!-- About -->
           <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              about
+              About
               {% if page.title == "about" %}
                 <span class="sr-only">(current)</span>
               {% endif %}
@@ -64,6 +64,11 @@
           </li>
           {% endif %}
           {% endfor %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/assets/pdf/RHM_CV.pdf' | relative_url }}">
+              CV
+            </a>
+          </li>
         </ul>
       </div>
     </div>
