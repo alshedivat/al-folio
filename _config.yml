@@ -146,9 +146,8 @@ scholar:
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:  false
-enable_katex:             true
 enable_mansory:           true
-enable_progressbar:       true
+enable_math:              true
 enable_tooltips:          false
 show_social_icons:        false
 
@@ -170,11 +169,8 @@ fontawesome:
 jquery:
   version: "3.5.1"
   integrity: "sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g=="
-katex:
-  version: "0.12.0"
-  integrity:
-    css: "sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw=="
-    js: "sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg=="
+mathjax:
+  version: "3.1.2"
 mansory:
   version: "4.2.2"
   integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
