@@ -12,7 +12,7 @@
   </head>
 
   <d-front-matter>
-    <script type="text/json">{
+    <script async type="text/json">{
       "title": "{{ page.title }}",
       "description": "{{ page.description }}",
       "published": "{{ page.date }}",
@@ -80,8 +80,6 @@
     {% include footer.html %}
 
   </body>
-
-  {% include hemline.html %}
 
   <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}">
   </d-bibliography>
