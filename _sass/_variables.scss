@@ -28,8 +28,5 @@ $grey-color:          #828282 !default;
 $grey-color-light:    lighten($grey-color, 40%);
 $grey-color-dark:     darken($grey-color, 25%);
 
-/* Set theme colors *************************/
-$theme-color:         $purple-color;
-
-$link-color:          $theme-color;
-$text-color:          #111 !default;
+$white-color: #ffffff !default;
+$black-color: #000000 !default;

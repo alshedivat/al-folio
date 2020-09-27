@@ -4,7 +4,8 @@
 
  body {
    padding-bottom: 70px;
-   color: $text-color;
+   color: var(--global-text-color);
+   background-color: var(--global-bg-color);
  }
 
  body.fixed-top-nav {
