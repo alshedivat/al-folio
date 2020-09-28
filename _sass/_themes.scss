@@ -6,7 +6,7 @@
   --global-bg-color: #{$white-color};
   --global-text-color: #{$black-color};
   --global-theme-color: #{$purple-color};
-  --global-hover-color: lighten(var(--global-theme-color), 25%);
+  --global-hover-color: #{$light-purple-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
@@ -26,7 +26,7 @@ html[data-theme='dark'] {
   --global-bg-color: #{$grey-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-theme-color: #{$cyan-color};
-  --global-hover-color: lighten(var(--global-theme-color), 25%);
+  --global-hover-color: #{$light-cyan-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
