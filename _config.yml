@@ -114,6 +114,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll/scholar
   - jemoji
+  - 'jekyll-twitter-plugin'
   # - bootstrap
   # - material-sass
 
