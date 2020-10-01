@@ -40,7 +40,7 @@ Hoehl, S., **Zettersten, M.**, Schleihauf, H., Graetz, S., & Pauen, S. (2014). [
 
 **BOOK CHAPTERS**
 
-Lupyan, G., & **Zettersten, M.** (forthcoming). <span style="color: #00ab37">Does vocabulary help structure the mind?</span> In Sera, M., & Koenig, M. (Eds.). *40th Minnesota Symposium on Child Psychology*.[[preprint]](https://psyarxiv.com/b74u9/){:target="\_blank"}
+Lupyan, G., & **Zettersten, M.** (forthcoming). <span style="color: #00ab37">Does vocabulary help structure the mind?</span> In Sera, M., & Koenig, M. (Eds.). *40th Minnesota Symposium on Child Psychology*.[[preprint]](https://psyarxiv.com/b74u9/){:target="\_blank"} <a href="https://github.com/mzettersten/vocab-mind-2020" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 
 **Zettersten, M.** (2019). [<span style="color: #00ab37">Learning by predicting: How predictive processing informs language development.</span>](https://mzettersten.github.io/assets/pdf/Zettersten_learning_by_predicting_2019.pdf){:target="\_blank"} In Busse, B., & Moehlig-Falke, R. (Eds.). *Patterns in Language and Linguistics: New Perspectives on a Ubiquitous Concept* (pp. 255-288). Berlin: Mouton de Gruyter. <a href="https://doi.org/10.1515/9783110596656-010" target="_blank" title="doi"><i class="ai ai-doi"></i></a>
 
