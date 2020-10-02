@@ -31,5 +31,5 @@ Hantao Cui's research include:
  - Microgrid and smart distribution control, distributed energy resources
  - Smart grid scheduling and operation under uncertainty
 
-Hantao Cui publishes research papers as well as open-source software for research. Use the icons at the botton to checkout the most recent papers and tools.
+Hantao Cui publishes research papers as well as open-source software for research. Use the icons at the bottom to checkout the most recent papers and tools.
 
