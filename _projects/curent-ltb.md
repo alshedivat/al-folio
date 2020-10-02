@@ -8,7 +8,7 @@ img: /assets/img/proj_ltb_icon.jpg
 
 ## Overview
 
-The objective of LTB is to develop a software platform for the large-scale test bed (LTB) thrust that can serve as a real-time grid operation platform to continuously simulate the operation of an actual power grid with small or large disturbances using communication and control actions as considered under wide-area measurement. 
+The objective of LTB is to develop a software platform for the large-scale test bed (LTB) thrust that can serve as a real-time grid operation platform to continuously simulate the operation of an actual power grid with small or large disturbances using communication and control actions as considered under wide-area measurement.
 
 While the traditional power system simulators only focus on the physical power system components, the LTB incorporates power system components,
 communication networks, energy management systems (EMS) and a measurement-based control system into an integrated platform for researchers to address emerging challenges such as renewable energy integration and cyber-physical security under innovative measurement-based technologies and controls.
@@ -37,9 +37,9 @@ LTB provides a testing platform to validate and verify new models and control te
 
 ## Points of Contact
 
-Fran Li (865) 974-8401 (ph.) (865) 974-9723 (fax) fli6@utk.edu
+Fran Li (865) 974-8401 (ph.), (865) 974-9723 (fax), fli6@utk.edu
 
-Kevin Tomsovic (865) 974-2693 (ph.) (865) 974-5483 (fax) tomsovic@utk.edu
+Kevin Tomsovic (865) 974-2693 (ph.), (865) 974-5483 (fax), tomsovic@utk.edu
 
 Hantao Cui (865) 974-5493 hcui7@utk.edu
 
