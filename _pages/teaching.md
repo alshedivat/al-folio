@@ -1,11 +1,15 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: 
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+## Teaching Assistant
+- Computer Graphics, York University, 2019, 2020
+- Programming for Mobile Computing, York University 2019, 2020
+- Discrete Mathematics for Engineers, York University 2019, 2020
+- Discrete Mathematics for Engineers, Queen's University 2018
+- Introduction to Computer Programming for Engineers, Queen's University 2018
+- Digital Signal Processing, University of Wollonogong, 2017

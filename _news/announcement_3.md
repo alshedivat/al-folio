@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2019-07-16 07:59:00-0400
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our work on Auto-labelling of markers in optical motion capture is highlighted on [YorkU Visa news](https://vista.info.yorku.ca/2019/07/auto-labelling-of-markers-in-optical-motion-capture/)
