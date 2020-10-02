@@ -50,7 +50,7 @@ publons_id: # your ID on Publons
 
 contact_note: >
 
-# google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: UA-179482637-1 # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
