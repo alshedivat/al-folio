@@ -15,10 +15,10 @@ profile:
 news: true
 social: true
 ---
-Hantao Cui is a Research Assistant Professor in the Department of Electrical Engineering and Computer Science and CURENT, University of Tennessee, Knoxville. He is the research lead of the Large-Scale Testbed (LTB) Project and the author of the power system analysis tool [Andes](https://github.com/cuihantao/andes).
+Hantao Cui is a Research Assistant Professor in the Department of Electrical Engineering and Computer Science and [CURENT](https://curent.utk.edu), University of Tennessee, Knoxville. He is the research lead of the Large-Scale Testbed (LTB), which won the 2020 R&D 100 Award, and the author of the power system modeling and analysis tool [ANDES](https://github.com/cuihantao/andes).
 
-Hantao Cui obtained his Ph.D. degree in 2018, advised by [Dr. Fangxing “Fran” Li](http://web.eecs.utk.edu/~fli6). 
-He was appointed as a full-time Research Associate with CURENT before Ph.D. graduation. 
+Hantao Cui obtained his Ph.D. degree in 2018, advised by [Dr. Fangxing “Fran” Li](http://web.eecs.utk.edu/~fli6).
+He was appointed as a full-time Research Associate with CURENT before Ph.D. graduation.
 He received his Master’s and Bachelor’s Degree in Electrical Engineering from Southeast University, China in 2013 and 2011 respectively.
 
 Hantao Cui has been an Associate Editor of the [Journal of Modern Power Systems and Clean Energy](http://www.mpce.info) since 2019. He is recognized as an Outstanding Reviewer for 2019 by the IEEE Transactions on Power Systems. He is author of two Essential Science Indicators (ESI) highly cited papers.
