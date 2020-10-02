@@ -12,7 +12,7 @@ importance: 1
 <div class="row justify-content-sm-center">
     <img class="center" src="{{ '/assets/img/demo.gif' | relative_url }}" alt="" title="example image"/>
 </div>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/r9F74LcGC0A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Publication
 Here is a link to the preprint [manuscript](https://arxiv.org/abs/2003.01888).
