@@ -111,10 +111,11 @@ exclude: [vendor]
 # Plug-ins
 plugins:
   - jekyll-email-protect
+  - jekyll-github-metadata
   - jekyll-paginate-v2
   - jekyll/scholar
+  - jekyll-twitter-plugin
   - jemoji
-  - 'jekyll-twitter-plugin'
   # - bootstrap
   # - material-sass
 
