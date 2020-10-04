@@ -6,6 +6,8 @@ description: The CURENT LTB for wide-area monitoring, modeling, control, and dem
 img: /assets/img/proj_ltb_icon.jpg
 ---
 
+[Download the latest LTB Fact Sheet](/assets/pdf/Fact_Sheet_Tomsovic_Li_LTB.pdf)
+
 ## Overview
 
 The objective of LTB is to develop a software platform for the large-scale test bed (LTB) thrust that can serve as a real-time grid operation platform to continuously simulate the operation of an actual power grid with small or large disturbances using communication and control actions as considered under wide-area measurement.
