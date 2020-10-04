@@ -34,4 +34,6 @@
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
 
 <!-- Theming-->
-<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+{% if site.enable_darkmode %}
+  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+{% endif %}

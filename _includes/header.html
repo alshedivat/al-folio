@@ -56,12 +56,14 @@
           </li>
           {% endif %}
           {% endfor %}
-          <div class = "toggle-container">
-            <a id = "light-toggle">
-                <i class="fas fa-moon"></i>
-                <i class="fas fa-sun"></i>
-            </a>
-          </div>
+          {% if site.enable_darkmode %}
+            <div class = "toggle-container">
+              <a id = "light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+              </a>
+            </div>
+          {% endif %}
         </ul>
       </div>
     </div>
