@@ -6,7 +6,10 @@ description: The CURENT LTB for wide-area monitoring, modeling, control, and dem
 img: /assets/img/proj_ltb_icon.jpg
 ---
 
-[Download the latest LTB Fact Sheet](/assets/pdf/Fact_Sheet_Tomsovic_Li_LTB.pdf)
+[Download the LTB Fact Sheet](/assets/pdf/Fact_Sheet_Tomsovic_Li_LTB.pdf)
+[Download the LTB article on the IEEE Power and Energy Magazine](https://www.nxtbook.com/nxtbooks/pes/powerenergy_030420/index.php#/p/60)https://digital-library.theiet.org/content/journals/10.1049/iet-esi.2019.0084/)
+[Download the paper on LTB's power system simulator ANDES](https://arxiv.org/abs/2002.09455)
+[Explore the source code of the ANDES simulator](https://github.com/cuihantao/andes)
 
 ## Overview
 
