@@ -151,6 +151,7 @@ enable_google_analytics:  false
 enable_mansory:           true
 enable_math:              true
 enable_tooltips:          false
+enable_darkmode:          false
 show_social_icons:        false
 
 # -----------------------------------------------------------------------------

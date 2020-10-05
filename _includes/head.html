@@ -32,3 +32,8 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
+
+<!-- Theming-->
+{% if site.enable_darkmode %}
+  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+{% endif %}
