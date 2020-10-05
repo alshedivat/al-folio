@@ -1,7 +1,7 @@
 <header>
 
     <!-- Nav Bar -->
-    <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
     <div class="container">
       {% if page.title != "about" %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
@@ -56,6 +56,14 @@
           </li>
           {% endif %}
           {% endfor %}
+          {% if site.enable_darkmode %}
+            <div class = "toggle-container">
+              <a id = "light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+              </a>
+            </div>
+          {% endif %}
         </ul>
       </div>
     </div>
