@@ -26,6 +26,10 @@ $pink-color:          #f92080 !default;
 $pink-color-light:    #ffdddd !default;
 $yellow-color:        #efcc00 !default;
 
+$uci-dark-blue-color: #1b3d6d !default;
+$uci-light-blue-color: lighten($uci-dark-blue-color, 25%);
+$uci-orange-color:    #f78d2d !default;
+
 $grey-color:          #828282 !default;
 $grey-color-light:    lighten($grey-color, 40%);
 $grey-color-dark:     darken($grey-color, 25%);
