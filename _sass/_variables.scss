@@ -7,6 +7,7 @@
 
 $max-content-width: 800px;
 
+
 // Colors
 $red-color:           #FF3636 !default;
 $red-color-dark:      #B71C1C !default;
@@ -33,6 +34,8 @@ $uci-orange-color:    #f78d2d !default;
 $grey-color:          #828282 !default;
 $grey-color-light:    lighten($grey-color, 40%);
 $grey-color-dark:     darken($grey-color, 25%);
+
+$theme-color: $uci-dark-blue-color;
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
