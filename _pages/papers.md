@@ -6,17 +6,17 @@ title: papers
 
 **IN PREP**
 
+**Zettersten, M.**, Choi, K., Kirkorian, H., & Saffran, J. (in prep). <span style="color: #00ab37">When and how active information-seeking helps word learning: Children actively select input tuned to past experience in service of learning new words. </span>
+
 Koranda, M., **Zettersten, M.**, & McDonald, M. (in prep). <span style="color: #00ab37">Word frequency can affect what you choose to say.</span>
 
 **Zettersten, M.**, Bredemann, C., Kaul, M., Vlach, H., Kirkorian, H., & Lupyan, G. (in prep). <span style="color: #00ab37">Nameability supports rule-based category learning in children and adults.</span>
 
 Woodard, K., **Zettersten, M.**, & Pollak, S.D. (in prep). <span style="color: #00ab37">Developmental changes in children’s knowledge of facial configurations.</span>
 
-**MANUSCRIPTS SUBMITTED OR UNDER REVIEW**
-
-**Zettersten, M.**, & Saffran, J. (revise and resubmit). <span style="color: #00ab37">Sampling to learn words: Adults and children sample words that reduce referential ambiguity.</span> <a href="https://osf.io/udmvh/?view_only=b9b8a986fd3a4235a073ec35d70a2266" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/crossAct" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-
 **JOURNAL ARTICLES**
+
+**Zettersten, M.**, & Saffran, J. (accepted). <span style="color: #00ab37">Sampling to learn words: Adults and children sample words that reduce referential ambiguity.</span> *Developmental Science*. <a href="https://osf.io/udmvh/?view_only=b9b8a986fd3a4235a073ec35d70a2266" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/crossAct" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 
 Santolin, C., Garcia-Castro, G., **Zettersten, M.**, Sebastian-Galles, N., & Saffran, J. (2020). [<span style="color: #00ab37">Experience with research paradigms relates to infants’ direction of preference.</span>](https://mzettersten.github.io/assets/pdf/Santolin_et_al_2020.pdf){:target="\_blank"} *Infancy*. <a href="https://doi.org/10.1111/infa.12372" target="_blank" title="doi"><i class="ai ai-doi"></i></a> <a href="https://osf.io/g95ub/" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/gongcastro/Flip" target="_blank" title="GitHub"><i class="fab fa-github"></i></a> [[preprint]](https://psyarxiv.com/xgvbh/){:target="\_blank"}
 
