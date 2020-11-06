@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: research
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Gallary of Dr. Bin Ouyang's research topics
 nav: true
 ---
 

@@ -3,13 +3,13 @@
  ******************************************************************************/
 
  body {
-   padding-bottom: 70px;
+   padding-bottom: 300px;
    color: $text-color;
  }
 
  body.fixed-top-nav {
    // Add some padding for the nav-bar.
-   padding-top: 56px;
+   padding-top: 66px;
  }
 
  body.sticky-bottom-footer {
@@ -24,8 +24,20 @@
 // Profile
 .profile {
   img {
-    width: 100%;
+    width: 90%;
   }
+}
+
+// Projects
+//.card-title {
+//    font-size: 16pt;
+//}
+//.text-lowercase {
+//    text-transform: none!important;
+//}
+.card-title.text-lowercase {
+    font-size: 16pt;
+    text-transform: none!important;
 }
 
 // TODO: redefine content layout.
@@ -34,8 +46,6 @@
 /******************************************************************************
  * Publications
  ******************************************************************************/
-
-// TODO: redefine publications layout.
 
 
 /*****************************************************************************

@@ -1,11 +1,19 @@
 ---
 layout: page
+title: software
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Method and codes that Dr. Ouyang is devoted to develop.
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Dr. Ouyang is interested in developing theory, model and simulation tools to understand the energy landscape of inorganic solids. The method/code he is/has been working on include the following
 
-Organize your courses by years, topics, or universities, however you like!
+## cluster_kit 
+A tookit for modeling inorganic solid solutions with cluster based appraoch
+
+## aimd_kit
+A tookit for interpretate correlated diffusion on base of molecular dynamic trajecotry
+
+## ml_kit
+A tookit for searching phenomenological stability descriptors for inorganic solids with machine learning
+
