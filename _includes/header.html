@@ -3,7 +3,7 @@
     <!-- Nav Bar -->
     <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
     <div class="container">
-      {% if page.title != "about" %}
+      {% if page.layout != "about" %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
        {% if site.title == blank %}{{ site.title }}{% else %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% endif %}
       </a>
@@ -23,10 +23,10 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- About -->
-          <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
+          <li class="nav-item {% if page.layout == 'about' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              about
-              {% if page.title == "about" %}
+              Home
+              {% if page.layout == "about" %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
@@ -43,7 +43,7 @@
           </li>
           {% endif %}
           <!-- Other pages -->
-          {% assign sorted_pages = site.pages | sort: "title" %}
+          {% assign sorted_pages = site.pages | sort: "idx" %}
           {% for p in sorted_pages %}
           {% if p.nav and p.autogen == nil %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">

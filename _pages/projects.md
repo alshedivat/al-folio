@@ -1,6 +1,7 @@
 ---
 layout: page
-title: projects
+title: Projects
+idx: 6
 permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true

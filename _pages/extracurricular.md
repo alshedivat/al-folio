@@ -1,7 +1,8 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
+idx: 9
+permalink: /extracurricular/
+title: Extracurricular
 description: Materials for courses you taught. Replace this text with your description.
 nav: true
 ---
