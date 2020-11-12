@@ -68,10 +68,23 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # enable_anchorjs:    false
 # enable_katex:       true
 
-projects:
-  - shitwad:
+research:
+  - project:
     title: 'Quantum complexity of local max-cut (2020-present)'
-    description: 'Analyzing the local max-cut problem and seeing if a quantum algorithm (QAOA) can outperform classical techniques'
+    description: 'Comparing classical and quantum FLIP algorithms for the local max-cut problem. [Quantum circuit evaluation code](https://github.com/stevenkordonowy/quantum/tree/main/scripts)'
+    collaborators:
+      - 
+        name: Alex Kolla
+        site: https://home.cs.colorado.edu/~alko5368/
+      -
+        name: Adam Bouland
+        site: https://people.eecs.berkeley.edu/~abouland/
+      -
+        name: Charles Carlson
+        site: https://cacarlson.github.io/
+  - project:
+    title: 'Smoothed complexity binary max-CSPs (2020-present)'
+    description: 'Extending smoothed complexity arguments from local max-k-cut to general binary constraints'
     collaborators:
       - 
         name: Alex Kolla

@@ -63,12 +63,12 @@ Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll 
 
 #### Collections
 This Jekyll theme implements collections to let you break up your work into categories.
-The example is divided into news and projects, but easily revamp this into apps, short stories, courses, or whatever your creative work is.
+The example is divided into news and research, but easily revamp this into apps, short stories, courses, or whatever your creative work is.
 
-> To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
+> To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/research.md`.
 
-Two different layouts are included: the blog layout, for a list of detailed descriptive list of entries, and the projects layout.
-The projects layout overlays a descriptive hoverover on a background image.
+Two different layouts are included: the blog layout, for a list of detailed descriptive list of entries, and the research layout.
+The research layout overlays a descriptive hoverover on a background image.
 If no image is provided, the square is auto-filled with the chosen theme color.
 Thumbnail sizing is not necessary, as the grid crops images perfectly.
 
