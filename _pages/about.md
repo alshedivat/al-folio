@@ -26,9 +26,10 @@ Hantao Cui has been an Associate Editor of the [Journal of Modern Power Systems 
 Hantao Cui's research include:
 
  - Symbolic and numerical analysis in power systems
- - Cyber-physical system modeling, hardware-in-the-loop real-time simulation, and closed-loop control
+ - Cyber-physical system modeling, real-time simulation, and closed-loop control
  - Cybersecurity in transmission, distribution and microgrids
  - Microgrid and smart distribution control, distributed energy resources
+ - Hardware-in-the-loop simulation, and real-time operating systems
  - Smart grid scheduling and operation under uncertainty
 
 Hantao Cui publishes research papers as well as open-source software for research. Use the icons at the bottom of this page to checkout the most recent papers and tools.
