@@ -1,0 +1,127 @@
+/******************************************************************************* Variables used throughout the theme. To adjust anything, simply edit the variables below and rebuild the theme. *****************************************************************************/
+/******************************************************************************* Themes *****************************************************************************/
+:root { --global-bg-color: #ffffff; --global-text-color: #000000; --global-theme-color: #B509AC; --global-hover-color: #f648ed; --global-footer-bg-color: #424242; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-icon-color: #424242; }
+:root .fa-sun { display: none; }
+:root .fa-moon { padding-left: 10px; padding-top: 12px; display: block; }
+
+html[data-theme='dark'] { --global-bg-color: #424242; --global-text-color: #e8e8e8; --global-theme-color: #2698BA; --global-hover-color: #7bcce4; --global-footer-bg-color: #e8e8e8; --global-footer-text-color: #424242; --global-footer-link-color: #000000; --global-icon-color: navajowhite; }
+html[data-theme='dark'] .fa-sun { padding-left: 10px; padding-top: 12px; display: block; }
+html[data-theme='dark'] .fa-moon { display: none; }
+
+/****************************************************************************** Content *****************************************************************************/
+body { padding-bottom: 70px; color: var(--global-text-color); background-color: var(--global-bg-color); }
+
+body.fixed-top-nav { padding-top: 56px; }
+
+body.sticky-bottom-footer { padding-bottom: 0; }
+
+.container { max-width: 800px; }
+
+.profile img { width: 100%; }
+
+/****************************************************************************** Publications *****************************************************************************/
+/*****************************************************************************
+* Projects
+*****************************************************************************/
+/******************************************************************************* Styles for the base elements of the theme. *****************************************************************************/
+a, table.table a { color: var(--global-theme-color); }
+a:hover, table.table a:hover { color: var(--global-theme-color); text-decoration: underline; }
+a:hover:after, table.table a:hover:after { width: 100%; }
+
+.equation { margin-bottom: 1rem; text-align: center; }
+
+.caption { font-size: 0.875rem; margin-top: 0.75rem; margin-bottom: 1.5rem; text-align: center; }
+
+.profile { margin-left: 1rem; width: 100%; }
+.profile .address { margin-bottom: 5px; margin-top: 5px; font-family: monospace; font-size: 1.2rem; }
+.profile .address p { display: inline-block; margin: 0; }
+
+@media (min-width: 576px) { .profile { width: 30%; }
+  .profile .address p { display: block; } }
+.post-description { margin-bottom: 2rem; font-size: 0.875rem; }
+.post-description a { color: inherit; }
+.post-description a:hover { color: var(--global-theme-color); text-decoration: none; }
+
+.navbar { box-shadow: none; border-bottom: 1px solid #e8e8e8; opacity: 0.95; background-color: var(--global-bg-color); }
+
+.navbar.navbar-light a:hover { text-decoration: none; }
+.navbar.navbar-light .navbar-brand { color: var(--global-text-color); }
+.navbar.navbar-light .navbar-nav .nav-item .nav-link:hover { color: var(--global-hover-color); }
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link { background-color: inherit; font-weight: bolder; color: var(--global-theme-color); }
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link:hover { color: var(--global-hover-color); }
+.navbar.navbar-light .contact-icon { font-size: 2rem; }
+.navbar.navbar-light .contact-icon a:hover { color: var(--global-hover-color); }
+
+.navbar-toggler .icon-bar { display: block; width: 22px; height: 2px; background-color: #424242; border-radius: 1px; margin-bottom: 4px; transition: all 0.2s; }
+.navbar-toggler .top-bar { transform: rotate(45deg); transform-origin: 10% 10%; }
+.navbar-toggler .middle-bar { opacity: 0; }
+.navbar-toggler .bottom-bar { transform: rotate(-45deg); transform-origin: 10% 90%; }
+
+.navbar-toggler.collapsed .top-bar { transform: rotate(0); }
+.navbar-toggler.collapsed .middle-bar { opacity: 1; }
+.navbar-toggler.collapsed .bottom-bar { transform: rotate(0); }
+
+.news table td { font-size: 1rem; color: var(--global-text-color); }
+
+.news table th { color: var(--global-text-color); }
+
+.social { text-align: center; }
+.social .contact-icon { font-size: 4rem; }
+.social .contact-icon a { color: var(--global-icon-color); }
+.social .contact-icon a:hover { color: var(--global-theme-color); }
+.social .contact-note { font-size: 0.8rem; }
+
+footer.fixed-bottom { color: var(--global-footer-text-color); background-color: var(--global-footer-bg-color); font-size: 0.75rem; }
+footer.fixed-bottom .container { padding-top: 9px; padding-bottom: 8px; }
+footer.fixed-bottom a { color: var(--global-footer-link-color); }
+footer.fixed-bottom a:hover { color: pink; text-decoration: none; }
+
+footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding-bottom: 40px; font-size: 0.9rem; }
+
+.header-bar { border-bottom: 1px solid #e8e8e8; text-align: center; padding-top: 2rem; padding-bottom: 5rem; }
+.header-bar h1 { color: var(--global-theme-color); font-size: 5rem; }
+
+.post-list { margin: 0; margin-bottom: 40px; padding: 0; }
+.post-list li { border-bottom: 1px solid #e8e8e8; list-style: none; padding-top: 2rem; padding-bottom: 2rem; }
+.post-list li .post-meta { color: #828282; font-size: 0.875rem; margin-bottom: 0; }
+.post-list li a { color: var(--global-text-color); text-decoration: none; }
+.post-list li a:hover { color: var(--global-theme-color); }
+
+.pagination .page-item.active .page-link { background-color: var(--global-theme-color); }
+.pagination .page-item.active .page-link:hover { background-color: var(--global-theme-color); }
+
+.distill a:hover { border-bottom-color: var(--global-theme-color); text-decoration: none; }
+
+.projects .grid-item { width: 250px; margin-bottom: 10px; }
+.projects .grid-item a { color: black; text-decoration: none; }
+.projects .grid-item a:hover { color: var(--global-theme-color); }
+.projects .card img { width: 100%; }
+
+.publications { margin-top: 2rem; }
+.publications h1 { color: var(--global-theme-color); font-size: 2rem; text-align: center; margin-top: 1em; margin-bottom: 1em; }
+.publications h2 { margin-bottom: 1rem; }
+.publications h2 span { font-size: 1.5rem; }
+.publications h2.year { color: #e8e8e8; border-top: 1px solid #e8e8e8; padding-top: 1rem; margin-top: 2rem; margin-bottom: -2rem; text-align: right; }
+.publications ol.bibliography { list-style: none; padding: 0; margin-top: 0; }
+.publications ol.bibliography li { margin-bottom: 1rem; }
+.publications ol.bibliography li .abbr { height: 2rem; margin-bottom: 0.5rem; }
+.publications ol.bibliography li .abbr abbr { display: inline-block; background-color: var(--global-theme-color); padding-left: 1rem; padding-right: 1rem; }
+.publications ol.bibliography li .abbr abbr a { color: white; }
+.publications ol.bibliography li .abbr abbr a:hover { text-decoration: none; }
+.publications ol.bibliography li .abbr .award { color: var(--global-theme-color) !important; border: 1px solid var(--global-theme-color); }
+.publications ol.bibliography li .title { font-weight: bolder; }
+.publications ol.bibliography li .author a { border-bottom: 1px dashed var(--global-theme-color); }
+.publications ol.bibliography li .author a:hover { border-bottom-style: solid; text-decoration: none; }
+.publications ol.bibliography li .author > em { border-bottom: 1px solid; font-style: normal; }
+.publications ol.bibliography li .links a.btn { color: var(--global-text-color); border: 1px solid var(--global-text-color); padding-left: 1rem; padding-right: 1rem; padding-top: 0.25rem; padding-bottom: 0.25rem; }
+.publications ol.bibliography li .links a.btn:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); }
+.publications ol.bibliography li .hidden { font-size: 0.875rem; max-height: 0px; overflow: hidden; text-align: justify; -webkit-transition: 0.15s ease; -moz-transition: 0.15s ease; -ms-transition: 0.15s ease; -o-transition: 0.15s ease; transition: all 0.15s ease; }
+.publications ol.bibliography li .hidden p { line-height: 1.4em; margin: 10px; }
+.publications ol.bibliography li .hidden pre { font-size: 1em; line-height: 1.4em; padding: 10px; }
+.publications ol.bibliography li .hidden.open { max-height: 100em; -webkit-transition: 0.15s ease; -moz-transition: 0.15s ease; -ms-transition: 0.15s ease; -o-transition: 0.15s ease; transition: all 0.15s ease; }
+.publications ol.bibliography li div.abstract.hidden { border: dashed 1px white; }
+.publications ol.bibliography li div.abstract.hidden.open { border-color: #828282; }
+
+code { color: var(--global-theme-color); }
+
+html.transition, html.transition *, html.transition *:before, html.transition *:after { transition: all 750ms !important; transition-delay: 0 !important; }
