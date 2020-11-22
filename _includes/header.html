@@ -25,7 +25,7 @@
           <!-- About -->
           <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              about
+              <i class="fa fa-home" aria-hidden="true"></i>
               {% if page.title == "about" %}
                 <span class="sr-only">(current)</span>
               {% endif %}
@@ -44,7 +44,20 @@
           {% endif %}
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: "title" %}
+         <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"  aria-haspopup="true" aria-expanded="true">research
+                    {% if page.title == "research" %}
+                    <span class="sr-only">(current)</span>
+                    {% endif %}</a>
+                        <ul class="dropdown-menu"> 
+                            <a class="dropdown-item" href="{{'/research/' | relative_url }}">about</a>
+                            <a class="dropdown-item" href="{{ '/publications/' | relative_url}}">publications</a>
+                            <a class="dropdown-item" href="{{ '/talks/' | relative_url }}">presentations</a>
+                        </ul>
+                        
+          </li>
           {% for p in sorted_pages %}
+          {% if p.title != "publications" and p.title !="research" and p.title !="presentations"%}
           {% if p.nav and p.autogen == nil %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
               <a class="nav-link" href="{{ p.url | relative_url }}">
@@ -54,7 +67,8 @@
                 {% endif %}
               </a>
           </li>
-          {% endif %}
+          {% endif  %}
+          {% endif  %}
           {% endfor %}
           {% if site.enable_darkmode %}
             <div class = "toggle-container">

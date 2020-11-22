@@ -2,23 +2,31 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
-
+description: Postdoctoral Researcher at <a href="https://theorie.ikp.physik.tu-darmstadt.de/astro/home.php" target="_blank">TU Darmstadt</a>
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: center
+  image: me.png
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: true
+pubs: true
+social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am a postdoctoral researcher working at the theoretical astrophysics group at 
+[Technische Universität Darmstadt](https://theorie.ikp.physik.tu-darmstadt.de/astro/home.php){:target="\_blank"} 
+in Germany under the direction of [Prof. Almudena Arcones](https://theorie.ikp.physik.tu-darmstadt.de/astro/people/people_arcones.php){:target="\_blank"}. 
+I received my Ph.D. from [McMaster University](http://www.physics.mcmaster.ca/){:target="\_blank"} in Canada under the 
+supervision of [Prof. Alan Chen](http://www.physics.mcmaster.ca/~chenal/nuc_astro_struc/personal/){:target="\_blank"} on experimental nuclear astrophysics.
+
+My area of expertise is [nuclear astrophysics]({{ site.baseurl }}/research){:target="\_blank"}, the scientific branch that studies 
+the interconnection between the lives of the stars and the origin of chemical elements in the cosmos.
+
+In my spare time I [tweet](https://twitter.com/psaltistha){:target="\_blank"} about science, philosophy, art and whatever I find interesting. 
+I also participate in several [science outreach]({{ site.baseurl }}/outreach){:target="\_blank"}. activities and I'm trying to keep track of 
+my adventures on my [personal blog]({{ site.baseurl }}/blog){:target="\_blank"}.
+
+
+

@@ -1,0 +1,20 @@
+<div class="news">  
+   <h3>latest talks</h3>
+  <hr>
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        {% assign talks = site.data.talks  %}
+      {% for item in talks limit: 3 %}
+        <tr>
+          <td  style="width: 15%"><strong>{{ item.date | date: "%m/ %Y" }}</strong></td>
+          <td>
+           {{ item.event }}
+          </td>
+          <td>
+           {{ item.title }}
+          </td>
+        </tr>
+      {% endfor %}
+      </table>
+    </div>
+</div>

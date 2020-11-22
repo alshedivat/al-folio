@@ -1,0 +1,17 @@
+<div class="pubs">  
+  <h3>recent publications</h3>
+  <hr>
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        {% assign pubs = site.data.pubs  %}
+           {% for item in pubs limit: 3 %}
+         <tr>
+           <td scope="row"><i class="fa fa-file-alt"></i></td>
+          <td>
+              <a href="https://doi.org/{{ item.doi }}" target="_blank"> {{item.author}} <i>et al.</i>, {{item.journal}} <strong>{{item.volume}}</strong> {{item.page}} ({{item.year}})</a>
+          </td>
+          </tr>
+       {% endfor %}
+      </table>
+    </div>
+</div>

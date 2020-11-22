@@ -1,6 +1,8 @@
 ---
 ---
 
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
 <div class="row">
   <div class="col-sm-2 abbr">
   {% if entry.abbr %}
@@ -18,32 +20,32 @@
     {% else %}
       <div class="title">{{entry.title}}</div>
       <div class="author">
-        {% for author in entry.author_array %}
-          {% if forloop.length == 1 %}
+                {% for author in entry.author_array %}
+          {% if forloop.length == 50 %}
             {% if author.last == site.scholar.last_name %}
-              <em>{{author.last}}, {{author.first}}</em>
+              <strong>{{author.first}}. {{author.last}}</strong>
             {% else %}
-              {{author.last}}, {{author.first}}
+              {{author.first}}. {{author.last}} 
             {% endif %}
           {% else %}
             {% unless forloop.last %}
               {% if author.last == site.scholar.last_name %}
-                <em>{{author.last}}, {{author.first}}</em>,
+                <strong>{{author.first}}. {{author.last}}</strong>,
               {% else %}
                 {% if site.data.coauthors[author.last] %}
-                  <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
+                  <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}}. {{author.last}}</a>,
                 {% else %}
-                  {{author.last}}, {{author.first}},
+                   {{author.first}}. {{author.last}},
                 {% endif %}
               {% endif %}
             {% else %}
               {% if author.last == site.scholar.last_name %}
-                and <em>{{author.last}}, {{author.first}}</em>
+                and <strong>{{author.first}}. {{author.last}}</strong>
               {% else %}
                 {% if site.data.coauthors[author.last] %}
-                  and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>
+                  and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}}. {{author.last}}</a>
                 {% else %}
-                  and {{author.last}}, {{author.first}}
+                  and {{author.first}}. {{author.last}} 
                 {% endif %}
               {% endif %}
             {% endunless %}
@@ -58,27 +60,26 @@
         <em>In {{entry.booktitle}}</em>
       {% endif %}
       {% if entry.year %}
-        {{entry.year}}
+        ({{entry.year}})
       {% endif %}
       </div>
     {% endif %}
 
     <div class="links">
     {% if entry.abstract %}
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    {% endif %}
+    {% if entry.doi %}
+      <a href="https://doi.org/{{ entry.doi }}" target="_blank"><i class="ai ai-doi ai-fw"></i></a>
     {% endif %}
     {% if entry.arxiv %}
-      <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
+      <a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank"><i class="ai ai-arxiv ai-fw"></i></a>
     {% endif %}
     {% if entry.html %}
       <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
     {% endif %}
     {% if entry.pdf %}
-      {% if entry.pdf contains '://' %}
-      <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
-      {% else %}
-      <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
-      {% endif %}
+      <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank"><i class="fa fa-file-pdf"></i></a>
     {% endif %}
     {% if entry.supp %}
       {% if entry.supp contains '://' %}
@@ -119,4 +120,11 @@
     </div>
     {% endif %}
   </div>
+ 
+   <div class="col-sm-2 abbr" align="center">
+    <p>
+  <div class='altmetric-embed' data-badge-popover="left" data-link-target='_blank' data-hide-no-mentions="true" data-badge-type='donut' data-doi="{{entry.doi}}"></div>
+  </p>
+   </div>
+ 
 </div>

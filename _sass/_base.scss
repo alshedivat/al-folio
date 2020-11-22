@@ -2,13 +2,23 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: var(--global-theme-color);
+}
+
+::selection {
+  color: white;
+  background: var(--global-theme-color);
+}
+
 // Typography
 
 a, table.table a {
   color: var(--global-theme-color);
   &:hover {
-    color: var(--global-theme-color);
-    text-decoration: underline;
+    color: $grey-color-dark;
+    text-decoration: none;
   }
   &:hover:after {
     width: 100%;
@@ -91,6 +101,8 @@ a, table.table a {
     color: var(--global-text-color);
   }
   .navbar-nav .nav-item .nav-link {
+    display: table;
+    color: var(--global-text-color);
     &:hover {
       color: var(--global-hover-color);
     }
@@ -98,7 +110,7 @@ a, table.table a {
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
       font-weight: bolder;
-      color: var(--global-theme-color);
+      color: var(--global-text-color);//var(--global-theme-color);
       &:hover {
         color: var(--global-hover-color);
       }
@@ -111,7 +123,13 @@ a, table.table a {
       }
     }
   }
+  
+  
+a.waves-effect, a.waves-light {
+    display: table;
 }
+}
+
 
 .navbar-toggler {
   .icon-bar {
@@ -156,6 +174,11 @@ a, table.table a {
   color: var(--global-text-color);
 }
 
+.pubs table td {
+  font-size: 1rem;
+  color: var(--global-text-color);
+}
+
 .news table th {
   color: var(--global-text-color);
 }
@@ -165,7 +188,7 @@ a, table.table a {
 .social {
   text-align: center;
   .contact-icon {
-    font-size: 4rem;
+    font-size: 3rem;
     a {
       color: var(--global-icon-color);
       &:hover {
@@ -300,11 +323,16 @@ footer.sticky-bottom {
   h2.year {
     color: $grey-color-light;
     border-top: 1px solid $grey-color-light;
-    padding-top: 1rem;
+    padding-bottom: 3rem;
     margin-top: 2rem;
     margin-bottom: -2rem;
     text-align: right;
   }
+  
+  table td {
+  font-size: 1rem;
+  color: var(--global-text-color);
+   }
   ol.bibliography {
     list-style: none;
     padding: 0;
@@ -314,7 +342,8 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
       .abbr {
         height: 2rem;
-        margin-bottom: 0.5rem;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
@@ -327,7 +356,7 @@ footer.sticky-bottom {
             }
           }
         }
-        .award {
+          .award {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
         }
@@ -392,7 +421,7 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
       }
       div.abstract.hidden {
-        border: dashed 1px white;
+        border: none;
       }
       div.abstract.hidden.open {
         border-color: $grey-color;

@@ -2,20 +2,18 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: (Long Last) Name
-email: you@example.com
+title: Thanassis Psaltis # the website title (if blank, full name will be used instead)
+first_name: Thanassis
+middle_name: 
+last_name: Psaltis
+email: psaltis@theorie.ikp.physik.tu-darmstadt.de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Postdoctoral researcher at TU Darmstadt
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  Site created with ♥ using <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
 url:  # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
+baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 
 # -----------------------------------------------------------------------------
@@ -39,20 +37,19 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
+github_username: psaltisa # your GitHub user name
+twitter_username: psaltistha # your Twitter handle
+linkedin_username: psaltistha # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+orcid_id: 0000-0003-2197-0797 
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-keybase_username: # your keybase user name
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  You are made of starstuff!
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
@@ -60,8 +57,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: rust and stardust
+blog_description: a bunch of atoms trying to understand their origin
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -69,7 +66,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -81,12 +78,11 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
+  outreach:
     output: true
-    permalink: /projects/:path/
+    permalink: /outreach/:path/
 
-news_limit: 5
-
+news_limit: 3
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
@@ -126,10 +122,13 @@ plugins:
 
 scholar:
 
-  last_name: Einstein
+  last_name: Psaltis
 
   style: apa
   locale: en
+
+  sort_by: year
+  order: descending
 
   source: /_bibliography/
   bibliography: papers.bib
