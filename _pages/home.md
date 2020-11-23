@@ -60,7 +60,7 @@ Please do not hesitate to contact me for any question, comment or complaint. I a
 **Battery-related optimization algorithms** 
 
 
-* Both simulation and experiment in battery field is time-consuming, and it will be more problematic to optimize battery parameters.
+* Both simulation and experiment in battery field are time-consuming, and it will be more problematic to optimize battery parameters.
 * Trying to design gradient-free algorithms to reduce the number of trials (configurations). The time-dependent nature of battery cycling will be considered.  
 
 	
