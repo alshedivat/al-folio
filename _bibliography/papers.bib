@@ -1,6 +1,44 @@
 ---
 ---
 
+@article{dutta2017abcpy,
+  abbr={arXiv},
+  title={ABCpy: A High-Performance Computing Perspective to Approximate Bayesian Computation},
+  author={Dutta, Ritabrata and Schoengens, Marcel and Pacchiardi, Lorenzo and Ummadisingu, Avinash and Widmer, Nicole and Onnela, Jukka-Pekka and Mira, Antonietta},
+  journal={arXiv preprint arXiv:1711.04694},
+  html={https://arxiv.org/abs/1711.04694},
+  abstract={ABCpy is a highly modular scientific library for Approximate Bayesian Computation (ABC) written in Python. The main contribution of this paper is to document a software engineering effort that enables domain scientists to easily apply ABC to their research without being ABC experts; using ABCpy they can easily run large parallel simulations without much knowledge about parallelization. Further, ABCpy enables ABC experts to easily develop new inference schemes and evaluate them in a standardized environment and to extend the library with new algorithms. These benefits come mainly from the modularity of ABCpy. We give an overview of the design of ABCpy and provide a performance evaluation concentrating on parallelization. This points us towards the inherent imbalance in some of the ABC algorithms. We develop a dynamic scheduling MPI implementation to mitigate this issue and evaluate the various ABC algorithms according to their adaptability towards high-performance computing. },
+  year={2017},
+  code={https://github.com/eth-cscs/abcpy}
+}
+
+@article{pacchiardi2020distance,
+  abbr={Sankhya B},
+  title={Distance-learning For Approximate Bayesian Computation To Model a Volcanic Eruption},
+  author={Pacchiardi, Lorenzo and K{\"u}nzli, Pierre and Schoengens, Marcel and Chopard, Bastien and Dutta, Ritabrata},
+  journal={Sankhya B},
+  pages={1--30},
+  year={2020},
+  publisher={Springer},
+  abstract={Approximate Bayesian computation (ABC) provides us with a way to infer parameters of models, for which the likelihood function is not available, from an observation. Using ABC, which depends on many simulations from the considered model, we develop an inferential framework to learn parameters of a stochastic numerical simulator of volcanic eruption. Moreover, the model itself is parallelized using Message Passing Interface (MPI). Thus, we develop a nested-parallelized MPI communicator to handle the expensive numerical model with ABC algorithms. ABC usually relies on summary statistics of the data in order to measure the discrepancy model output and observation. However, informative summary statistics cannot be found for the considered model. We therefore develop a technique to learn a distance between model outputs based on deep metric-learning. We use this framework to learn the plume characteristics (eg. initial plume velocity) of the volcanic eruption from the tephra deposits collected by field-work associated with the 2450 BP Pululagua (Ecuador) volcanic eruption.},
+  html={https://link.springer.com/article/10.1007/s13571-019-00208-8},
+  code={https://github.com/eth-cscs/abcpy-models/tree/master/GeologicalScience/VolcanicEruption}
+}
+
+@article{dutta2020using,
+  abbr={arXiv},
+  title={Using Mobility data in the design of optimal lockdown strategies for the COVID-19 pandemic in England},
+  author={Dutta, Ritabrata and Gomes, Susana and Kalise, Dante and Pacchiardi, Lorenzo},
+  journal={arXiv preprint arXiv:2006.16059},
+  year={2020},
+  html={https://arxiv.org/abs/2006.16059},
+  abstract={A mathematical model for the COVID-19 pandemic spread, which integrates age-structured Susceptible-Exposed-Infected-Recovered-Deceased dynamics with real mobile phone data accounting for the population mobility, is presented. The dynamical model adjustment is performed via Approximate Bayesian Computation. Optimal lockdown and exit strategies are determined based on nonlinear model predictive control, constrained to public-health and socio-economic factors. Through an extensive computational validation of the methodology, it is shown that it is possible to compute robust exit strategies with realistic reduced mobility values to inform public policy making, and we exemplify the applicability of the methodology using datasets from England and France.},
+  code={https://github.com/OptimalLockdown}
+}
+
+---
+---
+
 @string{aps = {American Physical Society,}}
 
 @book{einstein1956investigations,
