@@ -1,9 +1,16 @@
 ---
 layout: page
+<<<<<<< HEAD:_projects/3_project.md
 title: project 3 with very long name
 description: a project that redirects to another website
 img: assets/img/7.jpg
 redirect: https://unsplash.com
+=======
+title: Meta-evaluation
+description: of summarization metrics.
+img: /assets/img/meta_eval_img_1.png
+redirect: https://github.com/neulab/REALSumm
+>>>>>>> Adds minimal website:_projects/3_project.markdown
 importance: 3
 category: work
 ---
