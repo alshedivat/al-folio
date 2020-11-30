@@ -3,7 +3,7 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{bhandari2020evaluating,
+@inproceedings{bhandari2020evaluating,
     abbr={EMNLP},
     title={Re-evaluating Evaluation in Text Summarization},
     author={Bhandari, Manik  and
@@ -22,14 +22,14 @@
     abstract={Automated evaluation metrics as a stand-in for manual evaluation are an essential part of the development of text-generation tasks such as text summarization. However, while the field has progressed, our standard metrics have not {--} for nearly 20 years ROUGE has been the standard evaluation in most summarization papers. In this paper, we make an attempt to re-evaluate the evaluation method for text summarization: assessing the reliability of automatic metrics using top-scoring system outputs, both abstractive and extractive, on recently popular datasets for both system-level and summary-level evaluation settings. We find that conclusions about evaluation metrics on older datasets do not necessarily hold on modern datasets and systems. We release a dataset of human judgments that are collected from 25 top-scoring neural summarization systems (14 abstractive and 11 extractive).},
 }
 
-@article{bhandari2020metrics,
+@inproceedings{bhandari2020metrics,
     abbr={COLING},
     title={Metrics also Disagree in the Low Scoring Range: Revisiting Summarization Evaluation Metrics},
     author={Bhandari, Manik  and
       Gour, Pranav Narayan  and
       Ashfaq, Atabak  and
       Liu, Pengfei},
-    booktitle={Proceedings of the 28th International Conference on Computational Linguistics (COLING)},
+    booktitle={Proceedings of the 28th International Conference on Computational Linguistics (short paper)},
     month={oct},
     year={2020},
     address={Online},
@@ -39,7 +39,7 @@
     abstract={In text summarization, evaluating the efficacy of automatic metrics without human judgments has become recently popular. One exemplar work concludes that automatic metrics strongly disagree when ranking high-scoring summaries. In this paper, we revisit their experiments and find that their observations stem from the fact that metrics disagree in ranking summaries from any narrow scoring range. We hypothesize that this may be because summaries are similar to each other in a narrow scoring range and are thus, difficult to rank. Apart from the width of the scoring range of summaries, we analyze three other properties that impact inter-metric agreement - Ease of Summarization, Abstractiveness, and Coverage. To encourage reproducible research, we make all our analysis code and data publicly available. },
 }
 
-@article{bhandari2020unsupervised,
+@inproceedings{bhandari2020unsupervised,
     abbr={AAAI},
     title={Unsupervised Causal Knowledge Extraction from Text using Natural Language Inference.},
     author={Bhandari, Manik  and
@@ -47,12 +47,68 @@
       Hassanzadeh, Oktie  and
       Srinivas, Kavitha and
       Sohrabi, Shirin},
-    booktitle={Thirty Fifth Conference on Artificial Intelligence (AAAI-21) Student Abstract},
+    booktitle={Proceedings of the Thirty Fifth Conference on Artificial Intelligence (AAAI-21) Student Abstract},
     month={nov},
     year={2021},
     address={Online},
     publisher={AAAI},
-    html={},
-    pdf={},
     abstract={In this paper, we address the problem of extracting causal knowledge from text documents in a weakly supervised manner. We target use cases in decision support and risk management, where causes and effects are general phrases without any constraints. We present a method called CaKnowLI which only takes as input the text corpus and extracts a high-quality collection of cause-effect pairs in an automated way. We approach this problem using state-of-the-art natural language understanding techniques based on pre-trained neural models for Natural Language Inference (NLI). Finally, we evaluate the proposed method on existing and new benchmark data sets.},
 }
+
+@inproceedings{vashishth2020confidence,
+    abbr={AISTATS},
+    title={Confidence-based Graph Convolutional Networks for Semi-Supervised Learning.},
+    author={Vashishth, Shikhar  and
+      Yadav, Prateek  and
+      Bhandari, Manik  and
+      Talukdar, Partha},
+    booktitle={Proceedings of the 22nd International Conference on Artificial Intelligence and Statistics (AISTATS)},
+    month={nov},
+    year={2019},
+    address={Online},
+    publisher={AISTATS},
+    html={http://github.com/malllabiisc/ConfGCN},
+    pdf={https://arxiv.org/pdf/1901.08255.pdf},
+    abstract={Predicting properties of nodes in a graph is an important problem with applications in a variety of domains. Graph-based Semi-Supervised Learning (SSL) methods aim to address this problem by labeling a small subset of the nodes as seeds and then utilizing the graph structure to predict label scores for the rest of the nodes in the graph. Recently, Graph Convolutional Networks (GCNs) have achieved impressive performance on the graph-based SSL task. In addition to label scores, it is also desirable to have confidence scores associated with them. Unfortunately, confidence estimation in the context of GCN has not been previously explored. We fill this important gap in this paper and propose ConfGCN, which estimates labels scores along with their confidences jointly in GCN-based setting. ConfGCN uses these estimated confidences to determine the influence of one node on another during neighborhood aggregation, thereby acquiring anisotropic capabilities. Through extensive analysis and experiments on standard benchmarks, we find that ConfGCN is able to outperform state-of-the-art baselines. We have made ConfGCN's source code available to encourage reproducible research.},
+}
+
+@inproceedings{kumar-etal-2019-submodular,
+    title = "Submodular Optimization-based Diverse Paraphrasing and its Effectiveness in Data Augmentation",
+    author = "Kumar, Ashutosh  and
+      Bhattamishra, Satwik  and
+      Bhandari, Manik  and
+      Talukdar, Partha",
+    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    month = jun,
+    year = "2019",
+    abbr={NAACL},
+    address = "Minneapolis, Minnesota",
+    publisher = "Association for Computational Linguistics",
+    html = "https://github.com/malllabiisc/DiPS",
+    pdf = "https://www.aclweb.org/anthology/N19-1363.pdf",
+    doi = "10.18653/v1/N19-1363",
+    pages = "3609--3619",
+    abstract = "Inducing diversity in the task of paraphrasing is an important problem in NLP with applications in data augmentation and conversational agents. Previous paraphrasing approaches have mainly focused on the issue of generating semantically similar paraphrases while paying little attention towards diversity. In fact, most of the methods rely solely on top-k beam search sequences to obtain a set of paraphrases. The resulting set, however, contains many structurally similar sentences. In this work, we focus on the task of obtaining highly diverse paraphrases while not compromising on paraphrasing quality. We provide a novel formulation of the problem in terms of monotone submodular function maximization, specifically targeted towards the task of paraphrasing. Additionally, we demonstrate the effectiveness of our method for data augmentation on multiple tasks such as intent classification and paraphrase recognition. In order to drive further research, we have made the source code available.",
+}
+
+@inproceedings{vashishth-etal-2019-incorporating,
+    title = "Incorporating Syntactic and Semantic Information in Word Embeddings using Graph Convolutional Networks",
+    author = "Vashishth, Shikhar  and
+      Bhandari, Manik  and
+      Yadav, Prateek  and
+      Rai, Piyush  and
+      Bhattacharyya, Chiranjib  and
+      Talukdar, Partha",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    html = "http://github.com/malllabiisc/WordGCN",
+    pdf = "https://www.aclweb.org/anthology/P19-1320.pdf",
+    abbr = {ACL},
+    doi = "10.18653/v1/P19-1320",
+    pages = "3308--3318",
+    abstract = "Word embeddings have been widely adopted across several NLP applications. Most existing word embedding methods utilize sequential context of a word to learn its embedding. While there have been some attempts at utilizing syntactic context of a word, such methods result in an explosion of the vocabulary size. In this paper, we overcome this problem by proposing SynGCN, a flexible Graph Convolution based method for learning word embeddings. SynGCN utilizes the dependency context of a word without increasing the vocabulary size. Word embeddings learned by SynGCN outperform existing methods on various intrinsic and extrinsic tasks and provide an advantage when used with ELMo. We also propose SemGCN, an effective framework for incorporating diverse semantic knowledge for further enhancing learned word representations. We make the source code of both models available to encourage reproducible research.",
+}
+
