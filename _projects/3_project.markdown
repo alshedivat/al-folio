@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: /assets/img/7.jpg
-redirect: https://unsplash.com
+title: Meta-evaluation
+description: of summarization metrics.
+img: /assets/img/meta_eval_img_1.png
+redirect: https://github.com/neulab/REALSumm
 importance: 3
 ---
 

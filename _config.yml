@@ -6,17 +6,17 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Manik
 middle_name:
 last_name: Bhandari
-email: you@example.com
+email: mbhandar@cs.cmu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+#  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -39,10 +39,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+github_username: manikbhandari # your GitHub user name
+twitter_username: manikb20 # your Twitter handle
+linkedin_username: manik-bhandari # your LinkedIn user name
+scholar_userid: _6pvM64AAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -51,17 +51,16 @@ research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 keybase_username: # your keybase user name
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note:
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: UA-155166043-1 # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name:  # your blog must have a name for it to show up in the nav bar
+blog_description: My thoughts
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -126,7 +125,7 @@ plugins:
 
 scholar:
 
-  last_name: Einstein
+  last_name: Bhandari
 
   style: apa
   locale: en
@@ -148,7 +147,7 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:  false
+enable_google_analytics:  true
 enable_mansory:           true
 enable_math:              true
 enable_tooltips:          false
