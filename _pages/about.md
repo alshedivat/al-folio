@@ -6,7 +6,7 @@ description:
 
 profile:
   align: right
-  image: dp_1.jpg
+  image: prof_pic.jpg
   address:
 
 news: true  # includes a list of news items
