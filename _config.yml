@@ -101,7 +101,7 @@ scholar:
 
   last_name: Cui
 
-  style: apa
+  style: ieee
   locale: en
 
   sort_by: year
@@ -110,6 +110,9 @@ scholar:
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
+
+  group_by: type
+  group_order: [article,inproceedings]
 
   replace_strings: true
   join_strings: true
