@@ -6,7 +6,7 @@ title: Ashwin Ram # the website title (if blank, full name will be used instead)
 first_name: Ashwin
 middle_name:
 last_name: Ram
-email: ashwinram@u.nus.edu
+email: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -51,7 +51,7 @@ blogger_url: # your blogger URL
 keybase_username: # your keybase user name
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  I always check my email. So you can drop me a message there :)
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
