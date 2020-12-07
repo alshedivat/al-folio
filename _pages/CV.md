@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /assets/pdf/example_pdf.pdf
-title: CV
+title: cv
 description:
 nav: true
 ---
