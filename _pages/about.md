@@ -13,11 +13,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I’m a HCI researcher advised by Prof. Shengdong Zhao. Prior to this, I completed my Bachelor’s in Electronics and Communication Engineering at <a href="https://www.nitt.edu/">NIT-Trichy</a> .
+I’m a HCI researcher advised by Prof. <a href="http://www.shengdongzhao.com/">Shengdong Zhao</a>. Prior to this, I completed my Bachelor’s in Electronics and Communication Engineering at <a href="https://www.nitt.edu/">NIT-Trichy</a> .
 
 My research focuses on understanding how information should be presented on the emergent smart glasses platform such that users can seamlessly interact with their daily information seeking tasks on the go.
 
 In my free time, I play the guitar and compose songs. I'm also an ex-video gamer.
 
 
-Email: ashwinram[at]u[dot]nus[dot]edu
+<b>Email:</b> ashwinram[at]u[dot]nus[dot]edu
