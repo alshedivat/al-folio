@@ -22,22 +22,23 @@
     abstract={Automated evaluation metrics as a stand-in for manual evaluation are an essential part of the development of text-generation tasks such as text summarization. However, while the field has progressed, our standard metrics have not {--} for nearly 20 years ROUGE has been the standard evaluation in most summarization papers. In this paper, we make an attempt to re-evaluate the evaluation method for text summarization: assessing the reliability of automatic metrics using top-scoring system outputs, both abstractive and extractive, on recently popular datasets for both system-level and summary-level evaluation settings. We find that conclusions about evaluation metrics on older datasets do not necessarily hold on modern datasets and systems. We release a dataset of human judgments that are collected from 25 top-scoring neural summarization systems (14 abstractive and 11 extractive).},
 }
 
-@inproceedings{bhandari2020metrics,
-    abbr={COLING},
-    title={Metrics also Disagree in the Low Scoring Range: Revisiting Summarization Evaluation Metrics},
-    author={Bhandari, Manik  and
+@inproceedings{bhandari-etal-2020-metrics,
+    title = "Metrics also Disagree in the Low Scoring Range: Revisiting Summarization Evaluation Metrics",
+    author = "Bhandari, Manik  and
       Gour, Pranav Narayan  and
       Ashfaq, Atabak  and
-      Liu, Pengfei},
-    booktitle={Proceedings of the 28th International Conference on Computational Linguistics (short paper)},
-    month={oct},
-    year={2020},
-    address={Online},
-    publisher={Association for Computational Linguistics},
-    html={https://arxiv.org/abs/2011.04096},
-    pdf={https://arxiv.org/pdf/2011.04096.pdf},
-    abstract={In text summarization, evaluating the efficacy of automatic metrics without human judgments has become recently popular. One exemplar work concludes that automatic metrics strongly disagree when ranking high-scoring summaries. In this paper, we revisit their experiments and find that their observations stem from the fact that metrics disagree in ranking summaries from any narrow scoring range. We hypothesize that this may be because summaries are similar to each other in a narrow scoring range and are thus, difficult to rank. Apart from the width of the scoring range of summaries, we analyze three other properties that impact inter-metric agreement - Ease of Summarization, Abstractiveness, and Coverage. To encourage reproducible research, we make all our analysis code and data publicly available. },
+      Liu, Pengfei",
+    booktitle = "Proceedings of the 28th International Conference on Computational Linguistics",
+    month = dec,
+    year = "2020",
+    address = "Barcelona, Spain (Online)",
+    publisher = "International Committee on Computational Linguistics",
+    html = "https://www.aclweb.org/anthology/2020.coling-main.501",
+    pdf = "https://www.aclweb.org/anthology/2020.coling-main.501.pdf",
+    pages = "5702--5711",
+    abstract = "In text summarization, evaluating the efficacy of automatic metrics without human judgments has become recently popular. One exemplar work (Peyrard, 2019) concludes that automatic metrics strongly disagree when ranking high-scoring summaries. In this paper, we revisit their experiments and find that their observations stem from the fact that metrics disagree in ranking summaries from any narrow scoring range. We hypothesize that this may be because summaries are similar to each other in a narrow scoring range and are thus, difficult to rank. Apart from the width of the scoring range of summaries, we analyze three other properties that impact inter-metric agreement - Ease of Summarization, Abstractiveness, and Coverage.",
 }
+
 
 @inproceedings{bhandari2020unsupervised,
     abbr={AAAI},
