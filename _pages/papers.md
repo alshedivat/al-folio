@@ -4,7 +4,7 @@ permalink: /papers/
 title: papers
 ---
 
-***IN PREP***
+## IN PREP
 
 **Zettersten, M.**, Choi, K., Kirkorian, H., & Saffran, J. (in prep). <span style="color: #00ab37">When and how active information-seeking helps word learning: Children actively select input tuned to past experience in service of learning new words. </span>
 
@@ -14,7 +14,11 @@ Koranda, M., **Zettersten, M.**, & McDonald, M. (in prep). <span style="color: #
 
 Woodard, K., **Zettersten, M.**, & Pollak, S.D. (in prep). <span style="color: #00ab37">Developmental changes in children’s knowledge of facial configurations.</span>
 
-**JOURNAL ARTICLES**
+# JOURNAL ARTICLES
+
+## 2020
+
+***2020***
 
 **Zettersten, M.**, & Saffran, J. (2020). [<span style="color: #00ab37">Sampling to learn words: Adults and children sample words that reduce referential ambiguity.</span>](https://mzettersten.github.io/assets/pdf/Zettersten_Saffran_2020.pdf){:target="\_blank"} *Developmental Science*. <a href="https://doi.org/10.1111/desc.13064" target="_blank" title="doi"><i class="ai ai-doi"></i></a> <a href="https://osf.io/udmvh/?view_only=b9b8a986fd3a4235a073ec35d70a2266" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/crossAct" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 
