@@ -4,7 +4,7 @@ permalink: /papers/
 title: papers
 ---
 
-### JOURNAL ARTICLES
+### **JOURNAL ARTICLES**
 
 #### IN PREP
 
@@ -44,7 +44,7 @@ Lewis, M., **Zettersten, M.**, & Lupyan, G. (2019). [<span style="color: #00ab37
 
 Hoehl, S., **Zettersten, M.**, Schleihauf, H., Graetz, S., & Pauen, S. (2014). [<span style="color: #00ab37">The role of social interaction and pedagogical cues for eliciting and reducing overimitation in preschoolers.</span>](https://mzettersten.github.io/assets/pdf/2014_Hoehl_JECP.pdf){:target="\_blank"} *Journal of Experimental Child Psychology, 122*, 122-133. <a href="https://doi.org/10.1016/j.jecp.2013.12.012" target="_blank" title="doi"><i class="ai ai-doi"></i></a>
 
-### BOOK CHAPTERS
+### **BOOK CHAPTERS**
 
 Lupyan, G., & **Zettersten, M.** (forthcoming). <span style="color: #00ab37">Does vocabulary help structure the mind?</span> In Sera, M., & Koenig, M. (Eds.). *40th Minnesota Symposium on Child Psychology*.[[preprint]](https://psyarxiv.com/b74u9/){:target="\_blank"} <a href="https://github.com/mzettersten/vocab-mind-2020" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 
