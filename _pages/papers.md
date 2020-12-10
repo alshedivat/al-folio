@@ -48,7 +48,7 @@ Lewis, M., **Zettersten, M.**, & Lupyan, G. (2019). [<span style="color: #00ab37
  
 **Zettersten, M.**, Wojcik, E. W., Benitez, V., & Saffran, J. R. (2018). [<span style="color: #00ab37">The company objects keep: Linking referents together during cross-situational word learning.</span>](https://mzettersten.github.io/assets/pdf/Zettersten_et_al_2018.pdf){:target="\_blank"} *Journal of Memory & Language, 99*, 62-73​. <a href="https://doi.org/10.1016/j.jml.2017.11.001" target="_blank" title="doi"><i class="ai ai-doi"></i></a> <a href="https://github.com/mzettersten/crossSit" target="_blank" title="GitHub"><i class="fab fa-github"></i></a> 
 
-#### **BEFORE 2018**
+#### **2014**
 
 Hoehl, S., **Zettersten, M.**, Schleihauf, H., Graetz, S., & Pauen, S. (2014). [<span style="color: #00ab37">The role of social interaction and pedagogical cues for eliciting and reducing overimitation in preschoolers.</span>](https://mzettersten.github.io/assets/pdf/2014_Hoehl_JECP.pdf){:target="\_blank"} *Journal of Experimental Child Psychology, 122*, 122-133. <a href="https://doi.org/10.1016/j.jecp.2013.12.012" target="_blank" title="doi"><i class="ai ai-doi"></i></a>
 
