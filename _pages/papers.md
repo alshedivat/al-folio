@@ -4,7 +4,7 @@ permalink: /papers/
 title: papers
 ---
 
-**IN PREP**
+***IN PREP***
 
 **Zettersten, M.**, Choi, K., Kirkorian, H., & Saffran, J. (in prep). <span style="color: #00ab37">When and how active information-seeking helps word learning: Children actively select input tuned to past experience in service of learning new words. </span>
 
@@ -22,7 +22,7 @@ Santolin, C., Garcia-Castro, G., **Zettersten, M.**, Sebastian-Galles, N., & Saf
 
 ​Benitez, V., **Zettersten, M.**, & Wojcik, E. (2020). [<span style="color: #00ab37">The temporal structure of naming events differentially affects children’s and adults’ statistical word-referent learning.</span>](https://mzettersten.github.io/assets/pdf/Benitez_Zettersten_Wojcik_2020.pdf){:target="\_blank"} *Journal of Experimental Child Psychology, 200*, 104961. <a href="https://doi.org/10.1016/j.jecp.2020.104961" target="_blank" title="doi"><i class="ai ai-doi"></i></a> <a href="https://osf.io/2hmxr/" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/crossSitRep" target="_blank" title="GitHub"><i class="fab fa-github"></i></a> [[preprint]](https://psyarxiv.com/yh84w){:target="\_blank"}
 
-Byers-Heinlein, K., Bergmann, C., Davies, C., Frank, M. C., Hamlin, K., Kline, M., …, **Zettersten, M.**, & Soderstrom, M. (2020). [<span style="color:#00ab37">Building a collaborative Psychological Science: Lessons from ManyBabies 1.</span>](https://mzettersten.github.io/assets/pdf/Byers-Heinlein et al. (2020).pdf){:target="\_blank"} *Canadian Psychology/Psychologie canadienne*. <a href="https://doi.org/10.1037/cap0000216" target="_blank" title="doi"><i class="ai ai-doi"></i></a> [[preprint]](https://psyarxiv.com/dmhk2/){:target="\_blank"} 
+Byers-Heinlein, K., Bergmann, C., Davies, C., Frank, M. C., Hamlin, K., Kline, M., …, **Zettersten, M.**, & Soderstrom, M. (2020). [<span style="color:#00ab37">Building a collaborative Psychological Science: Lessons from ManyBabies 1.</span>](https://mzettersten.github.io/assets/pdf/Byers-Heinlein et al. (2020).pdf){:target="\_blank"} *Canadian Psychology/Psychologie canadienne 61*(4), 349-363. <a href="https://doi.org/10.1037/cap0000216" target="_blank" title="doi"><i class="ai ai-doi"></i></a> [[preprint]](https://psyarxiv.com/dmhk2/){:target="\_blank"} 
 
 **Zettersten, M.**, Potter, C., & Saffran, J. (2020). [<span style="color:#00ab37">Tuning in to non-adjacencies: Exposure to learnable patterns supports discovering otherwise difficult structures.</span>](https://mzettersten.github.io/assets/pdf/Zettersten_Potter_Saffran_2020.pdf){:target="\_blank"} *Cognition, 202*, 104283. <a href="https://doi.org/10.1016/j.cognition.2020.104283" target="_blank" title="doi"><i class="ai ai-doi"></i></a> <a href="https://osf.io/m3wn4/" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/apg-non-adjacent" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 
