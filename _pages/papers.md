@@ -4,7 +4,7 @@ permalink: /papers/
 title: papers
 ---
 
-### **JOURNAL ARTICLES & BOOK CHAPTERS**
+### **JOURNAL PUBLICATIONS & CHAPTERS**
 
 #### **IN PREP**
 
