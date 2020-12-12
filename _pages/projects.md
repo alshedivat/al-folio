@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: select projects I have led and contributed to.
-nav: true
+nav: false
 ---
 
 <div class="projects grid">
