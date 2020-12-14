@@ -17,6 +17,21 @@ layout: default
 
   <article class="post-content">
     {{ content }}
+
+    <!-- added a sharebar, remove if problematic -->
+
+    {% include share-bar.html %}
+
+    <!-- comments powered by utterances -->
+
+    <!-- <script src="https://utteranc.es/client.js"
+        repo="juergengutsch/blog"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script> -->
+
   </article>
 
   {% if site.disqus_shortname and page.comments %}
@@ -35,3 +50,4 @@ layout: default
   {% endif %}
 
 </div>
+

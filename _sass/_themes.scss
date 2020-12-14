@@ -3,14 +3,36 @@
  ******************************************************************************/
  
 :root {
-  --global-bg-color: #{$white-color};
-  --global-text-color: #{$black-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$light-purple-color};
+  // navbar colors
+  --global-navbar-bg-color: #{$dblue-custom-color};
+  --global-navbar-brand-color: #{$dorange-custom-color};
+  --global-navbar-border-color: #{$dorange-custom-color};
+
+  // theme colors
+  --global-bg-color: #{$gray-custom-color};
+  --global-text-color: #{$dgreen-custom-color};
+  --global-line-color: #{$dgreen-custom-color};
+
+  --global-theme-color: #{$dorange-custom-color};
+  --global-hover-color: #{$lorange-custom-color};
+
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
   --global-icon-color: #{$grey-color-dark};
+  --global-footer-link-color: #{$white-color};
+  
+
+  // --global-bg-color: #{$white-color};
+  // --global-text-color: #{$black-custom-color};
+
+  // --global-theme-color: #{$orange-custom-color};
+  // --global-hover-color: #{$orange-custom2-color};
+
+  // --global-footer-bg-color: #{$grey-color-dark};
+  // --global-footer-text-color: #{$grey-color-light};
+  // --global-icon-color: #{$grey-color-dark};
+
+  // --global-footer-link-color: #{$white-color};
 
   .fa-sun {
     display : none;

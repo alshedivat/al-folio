@@ -76,25 +76,30 @@ a, table.table a {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 5px solid var(--global-navbar-border-color);
   opacity: 0.95;
-  background-color: var(--global-bg-color);
+  background-color: var(--global-navbar-bg-color);
 }
+
 .navbar.navbar-light {
   // Remove link decoration
-  a {
+  a {   
     &:hover {
       text-decoration: none;
     }
   }
+
   .navbar-brand {
-    color: var(--global-text-color);
+    color: var(--global-navbar-brand-color);
   }
+
   .navbar-nav .nav-item .nav-link {
+    color: var(--global-bg-color);
     &:hover {
       color: var(--global-hover-color);
     }
   }
+  
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
       font-weight: bolder;
@@ -208,7 +213,7 @@ footer.sticky-bottom {
 // Blog
 
 .header-bar {
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 5px solid var(--global-line-color);
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 5rem;
@@ -223,7 +228,7 @@ footer.sticky-bottom {
   margin-bottom: 40px;
   padding: 0;
   li {
-    border-bottom: 1px solid $grey-color-light;
+    border-bottom: 1px dashed var(--global-line-color);
     list-style: none;
     padding-top: 2rem;
     padding-bottom: 2rem;
