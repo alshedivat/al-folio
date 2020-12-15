@@ -7,7 +7,7 @@
    color: var(--global-text-color);
    background-color: var(--global-bg-color);
    //font-family: "Source Sans Pro";
-   //font-family: "Helvetica";
+   font-family: "Helvetica";
  }
 
  body.fixed-top-nav {
@@ -19,6 +19,10 @@
    // Remove padding below footer.
    padding-bottom: 0;
  }
+
+header.post-header{
+  margin-bottom: 3rem!important;
+}
 
 .container {
   max-width: $max-content-width;
@@ -40,9 +44,21 @@ div.profile{
 }
 
 // TODO: redefine content layout.
-header.post-header{
-  margin-bottom: 3rem!important;
+
+div.contact{
+  line-height: 2.1;
+  a{
+    color: inherit;
+    border-bottom: 1px dashed;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  a:hover{
+    opacity: 0.6;
+    transition: 0.3s;
+  }
 }
+
 
 /******************************************************************************
  * Publications

@@ -5,24 +5,11 @@ layout: default
 <div class="post">
 
     <header class="post-header mb-5">
-        <div class="row">
-            <div class="col-lg-6">
-                <h1 class="post-title">
-                    {% if site.title == blank %}{{ site.title }}{% else %}<span class="font-weight-bold">{{ site.first_name }}</span>
-                    {{ site.middle_name }} {{ site.last_name }}{% endif %}
-                </h1>
-                <p class="desc">{{ page.description }}</p>
-            </div>
-            <div class="col-lg-6 social-top">
-                <div>
-                    <i class="fas fa-graduation-cap"></i>Scholar
-                    <i class="fab fa-github"></i> GitHub
-                    <i class="fab fa-twitter"></i> Twitter
-                </div>
-                <div>huyen.nguyen (at) ttu.edu</div>
-            </div>
-        </div>
-
+        <h1 class="post-title">
+            {% if site.title == blank %}{{ site.title }}{% else %}<span class="font-weight-bold">{{ site.first_name }}</span>
+            {{ site.middle_name }} {{ site.last_name }}{% endif %}
+        </h1>
+        <p class="desc">{{ page.description }}</p>
     </header>
 
     <article>
@@ -42,6 +29,12 @@ layout: default
 
         <div class="clearfix">
             {{ content }}
+            <div class="contact">
+                <i class="far fa-envelope"></i> huyen.nguyen (at) ttu.edu
+                <a href="https://scholar.google.com/citations?user=tsrO-ZgAAAAJ&hl=en"><i class="fas fa-graduation-cap"></i> Scholar </a>
+                <a href="https://github.com/huyen-nguyen"><i class="fab fa-github"></i> GitHub </a>
+                <a href="https://twitter.com/huyendoesstuff"><i class="fab fa-twitter"></i> Twitter</a>
+            </div>
         </div>
 
         {% if page.news %}
