@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I'm a third-year PhD student in Computer Science at [Texas Tech University](https://www.ttu.edu/), doing 
+Hi! I'm a PhD student in Computer Science at [Texas Tech University](https://www.ttu.edu/), doing 
 research in interactive data visualization and visual analytics. I'm a member of the  [interactive Data Visualization Lab (iDVL)](https://idatavisualizationlab.github.io/), where I work with [Prof.
   Tommy Dang](http://www.myweb.ttu.edu/tnhondan/).
 

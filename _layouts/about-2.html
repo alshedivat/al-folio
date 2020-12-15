@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+<div class="post">
+
+    <header class="post-header mb-5">
+        <h1 class="post-title">
+            {% if site.title == blank %}{{ site.title }}{% else %}<span class="font-weight-bold">{{ site.first_name }}</span>
+            {{ site.middle_name }} {{ site.last_name }}{% endif %}
+        </h1>
+        <p class="desc">{{ page.description }}</p>
+    </header>
+
+    <article>
+        <div class="row">
+            <div class="col-sm-3">
+                {% if page.profile %}
+                <div
+                        class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %} pr-1 pb-3">
+                    {% if page.profile.image %}
+                    <img class="img-fluid z-depth-1 rounded"
+                         src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
+                    {% endif %}
+                    {% if page.profile.address %}
+                    <div class="address">
+                        {{ page.profile.address }}
+                    </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+            <div class="col-sm-9">
+                <div class="clearfix">
+                    {{ content }}
+                    <div class="contact">
+                        <i class="far fa-envelope"></i> huyen.nguyen (at) ttu.edu
+                        <a href="https://scholar.google.com/citations?user=tsrO-ZgAAAAJ&hl=en"><i class="fas fa-graduation-cap"></i> Scholar </a>
+                        <a href="https://github.com/huyen-nguyen"><i class="fab fa-github"></i> GitHub </a>
+                        <a href="https://twitter.com/huyendoesstuff"><i class="fab fa-twitter"></i> Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3">
+                {% if page.news %}
+                {% include news.html %}
+                {% endif %}
+            </div>
+
+            <div class="col-sm-9">
+                {% if page.selected_papers %}
+                {% include selected_papers.html %}
+                {% endif %}
+            </div>
+        </div>
+
+
+
+
+        {% if page.social %}
+        <div class="social">
+            {% include social.html %}
+            <div class="contact-note">{{ site.contact_note }}</div>
+        </div>
+        {% endif %}
+    </article>
+
+</div>
