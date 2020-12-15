@@ -5,11 +5,11 @@
 :root {
   --global-bg-color: #{$white-color};
   --global-text-color: #{$black-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$light-purple-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
+  --global-theme-color: #{$red-color-dark};
+  --global-hover-color: #{$red-color};
+  --global-footer-bg-color: #{$grey-color-light};
+  --global-footer-text-color: #{$grey-color-dark};
+  --global-footer-link-color: #{$grey-color};
   --global-icon-color: #{$grey-color-dark};
 
   .fa-sun {
@@ -23,7 +23,7 @@
 }
 
 html[data-theme='dark'] {
-  --global-bg-color: #{$grey-color-dark};
+  --global-bg-color: #{$black-light};
   --global-text-color: #{$grey-color-light};
   --global-theme-color: #{$cyan-color};
   --global-hover-color: #{$light-cyan-color};

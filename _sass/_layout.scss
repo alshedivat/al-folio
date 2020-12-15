@@ -6,6 +6,8 @@
    padding-bottom: 70px;
    color: var(--global-text-color);
    background-color: var(--global-bg-color);
+   //font-family: "Source Sans Pro";
+   //font-family: "Helvetica";
  }
 
  body.fixed-top-nav {
@@ -23,14 +25,24 @@
 }
 
 // Profile
+div.profile{
+  width: 25%;
+}
+
 .profile {
   img {
     width: 100%;
   }
 }
 
-// TODO: redefine content layout.
+.social-top{
+  text-align: right;
+}
 
+// TODO: redefine content layout.
+header.post-header{
+  margin-bottom: 3rem!important;
+}
 
 /******************************************************************************
  * Publications
