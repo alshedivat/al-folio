@@ -195,7 +195,7 @@ Easily create beautiful grids within your blog posts and project pages:
 
 #### Theming
 Six beautiful theme colors have been selected to choose from.
-The default is purple, but you can quickly change it by editing `$theme-color` variable in the `_sass/variables.scss` file.
+The default is purple, but you can quickly change it by editing `$theme-color` variable in the `_sass/_themes.scss` file.
 Other color variables are listed there as well.
 
 #### Social media previews
