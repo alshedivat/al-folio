@@ -6,11 +6,11 @@ title: papers
 
 ### **JOURNAL PUBLICATIONS & CHAPTERS**
 
-#### **IN PREP**
+#### **IN PRE AND UNDER REVIEW**
+
+Koranda, M., **Zettersten, M.**, & McDonald, M. (under review). <span style="color: #00ab37">Good-enough production: Selecting easier words instead of more accurate ones.</span>
 
 **Zettersten, M.**, Choi, K., Kirkorian, H., & Saffran, J. (in prep). <span style="color: #00ab37">When and how active information-seeking helps word learning: Children actively select input tuned to past experience in service of learning new words. </span>
-
-Koranda, M., **Zettersten, M.**, & McDonald, M. (in prep). <span style="color: #00ab37">Word frequency can affect what you choose to say.</span>
 
 **Zettersten, M.**, Bredemann, C., Kaul, M., Vlach, H., Kirkorian, H., & Lupyan, G. (in prep). <span style="color: #00ab37">Nameability supports rule-based category learning in children and adults.</span>
 
