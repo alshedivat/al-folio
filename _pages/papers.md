@@ -6,7 +6,7 @@ title: papers
 
 ### **JOURNAL PUBLICATIONS & CHAPTERS**
 
-#### **IN PRE AND UNDER REVIEW**
+#### **IN PREP AND UNDER REVIEW**
 
 Koranda, M., **Zettersten, M.**, & McDonald, M. (under review). <span style="color: #00ab37">Good-enough production: Selecting easier words instead of more accurate ones.</span>
 
