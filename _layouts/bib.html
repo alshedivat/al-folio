@@ -62,13 +62,13 @@
 
     <span class="periodical">
     {% if entry.type == "article" %}
-      <em>{{entry.journal}}</em>
+      <em>{{entry.journal}}</em>, {{entry.year}}.
     {% elsif entry.type == "inproceedings" %}
-      <em>In Proc. {{entry.booktitle}}</em>
+      In <em>Proc. of the {{entry.booktitle}}</em>, {{entry.year}}.
     {% elsif entry.type == "unpublished" %}
-      <em>{{entry.note}}</em>
+      {{entry.note}}, {{entry.year}}.
     {% elsif entry.type == "patent" %}
-      <em>{{entry.location}} Patent {{entry.number}}</em>
+      <em>{{entry.location}} Patent {{entry.number}}</em>, {{entry.year}}.
     {% endif %}
     <!--
     {% if entry.year %}
