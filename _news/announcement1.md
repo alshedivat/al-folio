@@ -4,4 +4,4 @@ date: 2017-06-02
 inline: true
 ---
 
-Talk at Marketplace Innovation Workshop on online matching on ridesharing platforms.
+Our work on online matching for ridesharing platforms got accepted at Marketplace Innovation Workshop (MIW 2017).

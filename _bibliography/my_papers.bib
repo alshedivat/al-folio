@@ -3,11 +3,18 @@
 
 @string{test = {Test}}
 
+@inproceedings{D21,
+  title         = {When hashing met matching: Efficient spatio-temporal search for ride matches},
+  author        = {Chinmoy Dutta},
+  booktitle     = {AAAI Conference on Artificial Intelligence (<b>AAAI 21</b>)},
+  year          = {2021},
+  abstract      = {Carpooling, or sharing a ride with other passengers, holds immense potential for urban transportation. However, finding ride matches in real-time at urban scale is a difficult combinatorial optimization problem and mostly heuristic approaches are applied. In this work, we introduce a principled approach to ride matching by constructing representations for rides that capture their spatio-temporal aspects, and defining a similarity metric for these representations that expresses matching utility. This lets us mathematically model the ride matching problem as that of near neighbor search (NNS) and devise a novel efficient spatio-temporal search algorithm for it based on the theory of locality sensitive hashing (LSH). The proposed algorithm can find $k$ near-optimal potential matches for every ride from a match pool of $n$ rides in time $O(n^(1 + \rho) (k + \log n) \log k)$ and space $O(n^(1 + \rho) \log k)$ for a small $\rho < 1$. Our algorithm enjoys several practically useful properties and extension possibilities. Experiments with large real-world datasets show that our algorithm consistently outperforms state-of-the-art heuristic methods thereby proving its practical applicability.}
+}
 
 @inproceedings{ABDJSS19,
   title         = {Edge weighted online windowed matching},
   author        = {Itai Ashlagi and Maximilien Burq and Chinmoy Dutta and Patrick Jaillet and Amin Saberi and Chris Sholley},
-  booktitle     = {ACM Economics and Computation (<b>EC 19</b>)},
+  booktitle     = {ACM Conference on Economics and Computation (<b>EC 19</b>)},
   year          = {2019},
   howpublished  = {https://dl.acm.org/doi/10.1145/3328526.3329573},
   arxiv         = {1808.03526},
@@ -18,7 +25,7 @@
 }
 
 @unpublished{D18,
-  title         = {When hashing met matching: Efficient spatio-temporal search for ridesharing},
+  title         = {When hashing met matching: Efficient search for ridesharing},
   author        = {Chinmoy Dutta},
   note          = {Revenue Management and Pricing Conference (<b>RMP 18</b>)},
   year          = {2018},

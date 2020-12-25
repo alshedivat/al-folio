@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2019-10-20
+date: 2018-09-11
 inline: true
 ---
 
-[Talk](https://www.abstractsonline.com/pp8/#!/6818/session/1592) at INFORMS on rebalancing an autonomous rideshare fleet.
+I will give a [distinguished seminar](https://ece.osu.edu/events/2018/09/distinguished-seminar-chinmoy-dutta-research-scientist-lyft-inc.) at OSU on my work on LSH based ride matching.

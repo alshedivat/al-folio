@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2019-04-26
+date: 2018-06-21
 inline: true
 ---
 
-Our paper on edge-weighted online windowed matching got accepted at EC 2019.
+My work on LSH based ride matching got accepted at INFORMS Revenue Management and Pricing Conference (RMP 2018).
