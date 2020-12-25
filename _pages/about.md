@@ -32,7 +32,7 @@ Founder, Stealth Mode
 
 I am  particularly interested in foundations and algorithmic aspects of Data Science as well as its disruptive engineering applications.
 
-My passion is to build a two-way bridge connecting research and practice - real-life challenges fueling fundamental scientific progress and scientific advances driving technological disruptions with commercial and societal impact.
+My passion is to build a two-way bridge connecting research and practice - real-life challenges fueling fundamental scientific progress; and scientific advances driving technological disruptions with commercial and societal impact.
 
 ***
 
