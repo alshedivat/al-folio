@@ -1,0 +1,13 @@
+{% if site.enable_tooltips %}
+<!-- Enable Tooltips -->
+<script type="text/javascript">
+$(function () {$('[data-toggle="tooltip"]').tooltip()})
+</script>
+{% endif %}
+
+
+<!-- Load Common JS -->
+<script src="{{ '/assets/js/common.js' | relative_url }}"></script>
+
+<!-- Load DarkMode JS -->
+<script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
