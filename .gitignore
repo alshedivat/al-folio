@@ -3,5 +3,5 @@ _site
 .jekyll-metadata
 .DS_store
 .ruby-version
-Gemfile.lock
 .tweet-cache/
+Gemfile.lock

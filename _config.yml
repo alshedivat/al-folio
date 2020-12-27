@@ -5,7 +5,7 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: You
 middle_name: R.
-last_name: (Long Last) Name
+last_name: Name
 email: you@example.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -26,7 +26,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px  
+max_width: 800px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -34,8 +34,6 @@ max_width: 800px
 # Open Graph
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-# To achieve this, change serve_og_meta to true and then provide the URL of the
-# preview image as the value of og_image.
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
@@ -157,7 +155,7 @@ enable_google_analytics:  false
 enable_mansory:           true
 enable_math:              true
 enable_tooltips:          false
-enable_darkmode:          false
+enable_darkmode:          true
 show_social_icons:        false
 
 # -----------------------------------------------------------------------------
