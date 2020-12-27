@@ -4,6 +4,10 @@
 
 // Typography
 
+p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
+  color: var(--global-text-color);
+}
+
 a, table.table a {
   color: var(--global-theme-color);
   &:hover {
@@ -182,10 +186,10 @@ a, table.table a {
 
 // Footer
 footer.fixed-bottom {
-  color: var(--global-footer-text-color);
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
   .container {
+    color: var(--global-footer-text-color);
     padding-top: 9px;
     padding-bottom: 8px;
   }
@@ -243,10 +247,20 @@ footer.sticky-bottom {
   }
 }
 
-.pagination .page-item.active .page-link {
-  background-color: var(--global-theme-color);
-  &:hover {
-    background-color: var(--global-theme-color);
+.pagination {
+  .page-item {
+    .page-link {
+      color: var(--global-text-color);
+      &:hover {
+        color: $black-color;
+      }
+    }
+    &.active .page-link {
+      background-color: var(--global-theme-color);
+      &:hover {
+        background-color: var(--global-theme-color);
+      }
+    }
   }
 }
 
@@ -393,10 +407,10 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
       }
       div.abstract.hidden {
-        border: dashed 1px white;
+        border: dashed 1px var(--global-bg-color);
       }
       div.abstract.hidden.open {
-        border-color: $grey-color;
+        border-color: var(--global-text-color);
       }
     }
   }
