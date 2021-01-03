@@ -49,6 +49,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://chinmoy-dutta.github.io/" target="_blank">★</a>
 <a href="https://liamcli.com/" target="_blank">★</a>
 <a href="https://yoonholee.com/" target="_blank">★</a>
+<a href="https://zrqiao.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
