@@ -9,8 +9,11 @@ profile:
   image: website_pic.jpg
   address: >
     <p>Chicago, Illinois</p>
+
+    {% comment %}
     #<p>123 your address street</p>
     #<p>Your City, State 12345</p>
+    {% endcomment %}
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
