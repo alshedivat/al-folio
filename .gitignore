@@ -5,3 +5,4 @@ _site
 .ruby-version
 .tweet-cache/
 Gemfile.lock
+vendor
