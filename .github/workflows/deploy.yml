@@ -37,7 +37,7 @@ jobs:
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         if [[ ${GITHUB_REF} = refs/pull/*/merge ]]; then # pull request
           echo "::set-output name=SRC_BRANCH::${GITHUB_HEAD_REF}"
-          echo "::set-output name=DRY_RUN::--dry-run"
+          echo "::set-output name=NO_PUSH::--no-push"
         elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. master, source etc
           echo "::set-output name=SRC_BRANCH::${GITHUB_REF#refs/heads/}"
         fi
@@ -47,6 +47,6 @@ jobs:
           echo "::set-output name=DEPLOY_BRANCH::gh-pages"
         fi
     - name: Deploy website 
-      run:  yes | bin/deploy --verbose ${{ steps.setup.outputs.DRY_RUN }}
+      run:  yes | bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 
                     --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 

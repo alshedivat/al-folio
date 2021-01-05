@@ -7,7 +7,7 @@
 SRC_BRANCH="master"
 DEPLOY_BRANCH="gh-pages"
 
-USAGE_MSG="usage: deploy [-h|--help] [-u|--user] [-s|--src SRC_BRANCH] [-d|--deploy DEPLOY_BRANCH] [--verbose] [--dry-run]"
+USAGE_MSG="usage: deploy [-h|--help] [-u|--user] [-s|--src SRC_BRANCH] [-d|--deploy DEPLOY_BRANCH] [--verbose] [--no-push]"
 
 while [[ $# > 0 ]]; do
     key="$1"
@@ -32,8 +32,8 @@ while [[ $# > 0 ]]; do
         --verbose)
         set -x
         ;;
-        --dry-run)
-        DRY_RUN="--dry-run"
+        --no-push)
+        NO_PUSH="--no-push"
         ;;
         *)
         echo "Option $1 is unknown." >&2
@@ -93,7 +93,7 @@ rm -R _site/
 # Push to DEPLOY_BRANCH
 git add -fA
 git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
-git push ${DRY_RUN} -f -q origin $DEPLOY_BRANCH
+[[ ${NO_PUSH} ]] || git push -f -q origin $DEPLOY_BRANCH
 
 # Move back to SRC_BRANCH
 git checkout $SRC_BRANCH
