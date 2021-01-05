@@ -67,6 +67,15 @@ if ! git diff-index --quiet HEAD --; then
     [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
 fi
 
+# Check if there are any untracked files
+if ! test -z "$(git ls-files --exclude-standard --others)"; then
+    echo "There are untracked files:"
+    git ls-files --exclude-standard --others
+    echo "Please commit those files or stash them before proceeding."
+    echo "Aborting."
+    [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
+fi
+
 # Switch to source branch (creates it if necessary from the current branch)
 if [ `git branch | grep $SRC_BRANCH | tr ' ' '\n' | tail -1` ]
 then
