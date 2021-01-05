@@ -63,8 +63,7 @@ if ! git diff-index --quiet HEAD --; then
 fi
 
 # Check if there are any untracked files
-u="$(git ls-files --exclude-standard --others)"
-if ! test -z "$u"; then
+if ! test -z "$(git ls-files --exclude-standard --others)"; then
     echo "There are untracked files:"
     git ls-files --exclude-standard --others
     echo "Please commit those files or stash them before proceeding."
