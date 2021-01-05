@@ -36,7 +36,7 @@ jobs:
         git config --global user.name "GitHub Action"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         if [[ ${GITHUB_REF} = refs/pull/*/merge ]]; then # pull request
-          echo "::set-output name=SRC_BRANCH::${GITHUB_BASE_REF}"
+          echo "::set-output name=SRC_BRANCH::${GITHUB_HEAD_REF}"
           echo "::set-output name=DRY_RUN::--dry-run"
         elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. master, source etc
           echo "::set-output name=SRC_BRANCH::${GITHUB_REF#refs/heads/}"
