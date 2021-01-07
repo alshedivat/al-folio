@@ -58,6 +58,7 @@ contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
+panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -152,12 +153,13 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:  false
-enable_mansory:           true
-enable_math:              true
-enable_tooltips:          false
-enable_darkmode:          true
-show_social_icons:        false
+enable_google_analytics:    false
+enable_panelbear_analytics: false
+enable_mansory:             true
+enable_math:                true
+enable_tooltips:            false
+enable_darkmode:            true
+show_social_icons:          false
 
 # -----------------------------------------------------------------------------
 # Library versions
