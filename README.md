@@ -151,17 +151,24 @@ scholar:
 Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
 The coauthor data format in `_data/coauthors.yml` is as follows,
 ```
-- lastname: [Adams]
-  firstname: [Edwin, E., E. P., Edwin Plimpton]
-  url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Adams":
+  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-- lastname: [Podolsky]
-  firstname: [Boris, B., B. Y., Boris Yakovlevich]
-  url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Podolsky":
+  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+    url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
-- lastname: [Rosen]
-  firstname: [Nathan, N.]
-  url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Rosen":
+  - firstname: ["Nathan", "N."]
+    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+
+"Bach": 
+  - firstname: ["Johann Sebastian", "J. S."]
+    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+
+  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 ```
 If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided. 
 
