@@ -25,7 +25,7 @@
               {% assign author_is_self = true %}
             {% endif %}
           {% endif %}
-          {% assign coauthor_url = "" %}
+          {% assign coauthor_url = nil %}
           {% if site.data.coauthors[author.last] %}
             {% for coauthor in site.data.coauthors[author.last] %}
               {% if coauthor.firstname contains author.first %}
