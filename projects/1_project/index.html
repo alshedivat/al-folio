@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Juan Manuel Tzintzun Ramos | blank</title>
+<title>Juan Manuel Tzintzun Ramos | Web app for time series forecasting</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/1_project/">
 
 <!-- Theming-->
 
@@ -87,7 +87,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -146,18 +146,43 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>Juan Tzintzun</h1>
-    <h2>Personal webpage</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Web app for time series forecasting</h1>
+    <p class="post-description">streamlit based web app for time series forecasting with machine learning</p>
+  </header>
 
+  <article>
+    <p>#Prediction
+This repository contains the implemetation of ——— for the prediction on the number of users per hour on a bike sharing system in the next 12 hour horizon.
+See the [source code] (https://github.com/juantztz/web-app-timeseries)</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<h2 id="dataset-description">Dataset Description</h2>
+<p>Datasets are in .csv format in <code class="language-plaintext highlighter-rouge">src/data/</code>. At this point of the project we assumed the datta has been prepared for analysys.
+The variable to predicct is always the last column of the data set.</p>
 
-  
+<h2 id="code-description">Code Description</h2>
+<p>For running the code use the following command <code class="language-plaintext highlighter-rouge">streamlit run src/main.py</code>.</p>
 
+<h4 id="1-specification-of-dependencies">1. Specification of dependencies</h4>
+<p>The code dependencies are specifed in the <code class="language-plaintext highlighter-rouge">requirements.txt</code> file.</p>
+
+<h4 id="2-training-code">2. Training code</h4>
+<p>For training the model run <code class="language-plaintext highlighter-rouge">train.py</code>  with the following command line parameters.</p>
+
+<h4 id="3-evaluation-code">3. Evaluation code</h4>
+<p>For evaluating the model run <code class="language-plaintext highlighter-rouge">eval.py</code> with the following command line parameters.</p>
+
+<h4 id="4-pre-trained-models">4. Pre-trained models</h4>
+<p>You can find pre-trained models in the releases section.</p>
+
+<h4 id="5-qucik-deployment-and-visualization">5. Qucik deployment and visualization</h4>
+<p>You can find pre-trained models in the releases section.</p>
+
+<h2 id="useful-links">Useful links</h2>
+
+<p>http://ethen8181.github.io/machine-learning/time_series/3_supervised_time_series.html</p>
+
+  </article>
 
 </div>
 
