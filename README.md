@@ -142,7 +142,36 @@ Your publications page is generated automatically from your BibTex bibliography.
 Simply edit `_bibliography/papers.bib`.
 You can also add new `*.bib` files and customize the look of your publications however you like by editing `_pages/publications.md`.
 
+#### Author Annotation
+In publications, the author entry for your self is identified by string `scholar:last_name` and string array `scholar:first_name` in `_config.yml`. If the entry matches the last name and one form of the first names, it will be underlined. 
+```
+scholar:
+  last_name: Einstein
+  first_name: [Albert, A.]
+```
 Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
+The coauthor data format in `_data/coauthors.yml` is as follows,
+```
+"Adams":
+  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+
+"Podolsky":
+  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+
+"Rosen":
+  - firstname: ["Nathan", "N."]
+    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+
+"Bach": 
+  - firstname: ["Johann Sebastian", "J. S."]
+    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+
+  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+```
+If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided. 
 
 <p align="center"><img src="assets/img/publications-screenshot.png" width=800></p>
 
