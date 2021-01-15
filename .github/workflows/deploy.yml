@@ -18,6 +18,8 @@ jobs:
       uses: actions/checkout@v2
     - name: Setup Ruby
       uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.7'
     - name: Enable bundler cache
       uses: actions/cache@v2
       with:
