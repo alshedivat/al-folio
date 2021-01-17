@@ -92,6 +92,9 @@ research:
       -
         name: Charles Carlson
         site: https://cacarlson.github.io/
+    link: 
+      filename: qip-2021-poster.pdf
+      title: QIP 2021 Poster
   - project:
     title: 'A quantum evolutionary algorithm for max-cut (Spring 2020). Written for a class CSCI 5423 Bio-inspired Multi Agent Systems'
     description: '[Github repo](https://github.com/stevenkordonowy/qea-max-cut)'

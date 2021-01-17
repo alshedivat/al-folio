@@ -18,4 +18,8 @@ social: false
 {% endfor %}
 {% endif %}
 
+{% if project.link %}
+* [{{ project.link.title }}]({{ site.url }}{{ site.baseurl }}/assets/pdf/{{ project.link.filename }})
+{% endif %}
+
 {% endfor %}
