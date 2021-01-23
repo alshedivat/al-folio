@@ -1,24 +1,21 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Ph.D. Student in <a href="https://www.systemseng.cornell.edu/se/programs/systems-phd">Systems Science and Engineering</a> - Cornell University
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: Kastner_Linkedin.jpg
+
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a systems engineer with experience in both entrepreneurship and research. Currently, I am interested in environmental modeling to inform the multi-objective decision making of architects and urban planners. My current project is [Eddy3D](https:www.eddy3d.com), a performance-driven design toolkit to predict outdoor thermal comfort in cities.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am holding a M.Sc. in [Sustainable Building
+Science](https://www.bgu.tum.de/en/enpb/home/) from the TU Munich and a B.Sc. in [Energy Engineering](https://www.et.studium.fau.de/studieninteressierte/bachelorstudium/) from the FAU Erlangen-Nuremberg. While completing my Master's, I participated in the Technology Management program at the [Center for Digital
+Technology and Management (CDTM)](https://www.cdtm.de) in Munich and led operations at [TEDxTUM](https://www.tedxtum.com/) helping to organize four major events hosting 1500+ attendees.

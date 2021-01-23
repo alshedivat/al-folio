@@ -1,18 +1,12 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Dogan":
+  - firstname: ["Timur", "T.", "T. K.", "Timur Kamil"]
+    url: https://aap.cornell.edu/people/timur-dogan
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Natanian":
+  - firstname: ["Jonathan", "J."]
+    url: https://www.studioadapt.com/about-jonathan-natanian
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Auer":
+  - firstname: ["Thomas", "T."]
+    url: https://www.professoren.tum.de/en/auer-thomas

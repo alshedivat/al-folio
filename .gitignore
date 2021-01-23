@@ -7,3 +7,6 @@ _site
 .tweet-cache/
 Gemfile.lock
 vendor
+*.bat
+*.ps1
+*.vbs

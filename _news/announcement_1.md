@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2018-01-15 15:59:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+I was admitted to the Systems Science and Enginnering Ph.D. program at Cornell ✨ 

@@ -7,7 +7,7 @@ description: a quick run down on accessing github metadata.
 
 A sample blog page that demonstrates the accessing of github meta data.
 
-## What does Github-MetaData do?
+## What does Githhhub-MetaData do?
 * Propagates the site.github namespace with repository metadata
 * Setting site variables : 
   * site.title

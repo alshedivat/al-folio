@@ -2,19 +2,33 @@
 ---
 
 <div class="row">
-  <div class="col-sm-2 abbr">
+  <div class="col-sm-3">
   {% if entry.abbr %}
-    {% if site.data.venues[entry.abbr] %}
-    <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
-    {% else %}
-    <abbr class="badge">{{entry.abbr}}</abbr>
-    {% endif %}
-  {% endif %}
+    <img class="img-fluid" src="{{ entry.abbr | prepend: '/assets/pubimg/' | relative_url }}">
+	{% endif %}
   </div>
+  
+ 
 
   <div id="{{entry.key}}" class="col-sm-8">
     {% if entry.type == "thesis" %}
-      {{reference}}
+	 <div class="title">{{entry.title}}</div>
+	<div class="author">
+	{% for author in entry.author_array %}	
+  	  <em>{{author.last}}, {{author.first}}</em>	  
+	  {% endfor %}
+    </div>
+    <div class="periodical">
+      {% if entry.school %}
+        <em>{{entry.school}}</em> 
+      {% endif %}
+      {% if entry.year %}
+      {{entry.year}}
+      {% endif %}
+    </div>
+ 
+
+
     {% else %}
       <div class="title">{{entry.title}}</div>
       <div class="author">
@@ -81,7 +95,7 @@
 
     <div class="links">
     {% if entry.abstract %}
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
     {% endif %}
     {% if entry.arxiv %}
       <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
@@ -109,6 +123,10 @@
     {% if entry.code %}
       <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
     {% endif %}
+{% if entry.video %}
+      <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
+    {% endif %}
+  
     {% if entry.poster %}
       {% if entry.poster contains '://' %}
       <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Poster</a>
