@@ -6,6 +6,8 @@ description: Materials for courses you taught. Replace this text with your descr
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+<div class="pdf">
+    <object data="BassIOR_Syllabus.pdf" type="application/pdf">
+        Fall 2021: Human Evolutionary Genetics <a href="https://imanhamid.github.io/assets/pdf/BassIOR_Syllabus.pdf" target="_blank">BassIOR_Syllabus.pdf</a>
+    </object>
+</div>
