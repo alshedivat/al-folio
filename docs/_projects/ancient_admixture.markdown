@@ -2,7 +2,7 @@
 layout: page
 title: admixture and ancient DNA
 description: uncovering population history from ancient human remains
-img: /assets/img/Kopila.jpg
+img: /assets/img/Kopila.JPG
 importance: 3
 ---
 
