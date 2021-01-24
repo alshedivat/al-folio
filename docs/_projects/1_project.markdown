@@ -42,19 +42,11 @@ To give your project a background in the portfolio page, just add the img tag to
     This image can also have a caption. It's like magic.
 </div>
 
-
-This is my [Bass Syllabus]('https://imanhamid.github.io/assets/pdf/BassIOR_Syllabus.pdf'). did it work?
-
 <div class="pdf">
     <object data="BassIOR_Syllabus.pdf" type="application/pdf">
-        alt : <a href="https://imanhamid.github.io/assets/pdf/BassIOR_Syllabus.pdf">BassIOR_Syllabus.pdf</a>
+        My syllabus : <a href="https://imanhamid.github.io/assets/pdf/BassIOR_Syllabus.pdf" target="_blank">BassIOR_Syllabus.pdf</a>
     </object>
 </div>
-
-some text and [here is possible to download the file in PDF][1]
-
-[1]:{{ site.url }}/assets/pdf/BassIOR_Syllabus.pdf
-
 
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
