@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: /assets/img/3.jpg
-importance: 2
+title: admixture and ancient DNA
+description: uncovering population history from ancient human remains
+img: /assets/img/Kopila.jpg
+importance: 3
 ---
 
 Every project has a beautiful feature showcase page.

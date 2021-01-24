@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: /assets/img/1.jpg
-importance: 3
+title: genome-wide scans for variants under selection
+description: applying machine learning and computer vision methods to images of genetic data
+img: /assets/img/objectdetect_1.jpg
+importance: 2
 ---
 
 Every project has a beautiful feature showcase page.

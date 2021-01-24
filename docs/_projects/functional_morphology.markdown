@@ -1,10 +1,9 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: /assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: comparative evolution of olfactory morphology
+description: rendering 3D models of carnivore skulls and comparing evolution of olfactory morphology
+img: /assets/img/elephant_cp.jpg
+importance: 5
 ---
 
 Every project has a beautiful feature showcase page.

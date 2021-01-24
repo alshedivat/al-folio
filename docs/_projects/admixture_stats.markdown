@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
+title: admixture and rapid human evolution
+description: developing methods and statistics tailored for populations with mixed ancestry
+img: /assets/img/admixture_diagrams-10.jpg
+importance: 1
 ---
 
 Every project has a beautiful feature showcase page.
@@ -40,6 +40,12 @@ To give your project a background in the portfolio page, just add the img tag to
 </div>
 <div class="caption">
     This image can also have a caption. It's like magic.
+</div>
+
+<div class="pdf">
+    <object data="BassIOR_Syllabus.pdf" type="application/pdf">
+        My syllabus : <a href="https://imanhamid.github.io/assets/pdf/BassIOR_Syllabus.pdf" target="_blank">BassIOR_Syllabus.pdf</a>
+    </object>
 </div>
 
 You can also put regular text between your rows of images.
