@@ -76,6 +76,9 @@
       {% if entry.year %}
         {{entry.year}}
       {% endif %}
+      {% if entry.url %}
+        {{entry.url}}
+      {% endif %}
       </div>
     {% endif %}
 
@@ -123,8 +126,8 @@
       <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
       {% endif %}
     {% endif %}
-    {% if entry.url %}
-      <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Link</a>
+    {% if entry.website %}
+      <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
     {% endif %}
     </div>
 
