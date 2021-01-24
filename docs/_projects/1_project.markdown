@@ -43,7 +43,15 @@ To give your project a background in the portfolio page, just add the img tag to
 </div>
 
 
-This is my [Bass Syllabus]('imanhamid.github.io/assets/pdf/BassIOR_Syllabus.pdf'). did it work?
+This is my [Bass Syllabus]('https://imanhamid.github.io/assets/pdf/BassIOR_Syllabus.pdf'). did it work?
+
+<div class="pdf">
+    <object data="BassIOR_Syllabus.pdf" type="application/pdf">
+        alt : <a href="https://imanhamid.github.io/assets/BassIOR_Syllabus.pdf">BassIOR_Syllabus.pdf</a>
+    </object>
+</div>
+
+
 
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
