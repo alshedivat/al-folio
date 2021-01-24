@@ -2,18 +2,14 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: PhD Candidate | <a href="https://upg.duke.edu/">Genetics & Genomics</a> | Duke University.
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>PhD Candidate | <a href="https://upg.duke.edu/">Genetics & Genomics</a></p>
-    <p>Dept of Evolutionary Anthropology</p>
-    <p>Duke University</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
