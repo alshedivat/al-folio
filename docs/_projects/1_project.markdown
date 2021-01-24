@@ -47,10 +47,13 @@ This is my [Bass Syllabus]('https://imanhamid.github.io/assets/pdf/BassIOR_Sylla
 
 <div class="pdf">
     <object data="BassIOR_Syllabus.pdf" type="application/pdf">
-        alt : <a href="https://imanhamid.github.io/assets/BassIOR_Syllabus.pdf">BassIOR_Syllabus.pdf</a>
+        alt : <a href="https://imanhamid.github.io/assets/pdf/BassIOR_Syllabus.pdf">BassIOR_Syllabus.pdf</a>
     </object>
 </div>
 
+some text and [here is possible to download the file in PDF][1]
+
+[1]:{{ site.url }}/assets/pdf/BassIOR_Syllabus.pdf
 
 
 You can also put regular text between your rows of images.
