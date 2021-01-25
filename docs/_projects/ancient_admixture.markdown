@@ -6,6 +6,28 @@ img: /assets/img/Kopila.JPG
 importance: 3
 ---
 
+**This is an ongoing project as part of my dissertation thesis**
+
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/kopila_site.jpg' | relative_url }}" alt="" title="Kopila Site"/>
+    </div>
+</div>
+<div class="caption">
+    Kopila Arhaeological Site, Korčula, Croatia. Photo Credit: Vela Luka Centre for Culture.
+</div>
+
+Croatian archaeologists uncovered a mass grave at the Kopila Archaeological Site on the island of Korčula. The grave dating from 300 to 100 B.C. (>2000 yrs old), with more than 100 babies in Kopila (on th)
+
+ conducted excavations in Kopila (on the island of ), I am working on analyzing DNA extracted from 
+
+ 
+Illyrians are thought to be autochthonous to this region, this is traditionally what we are taught, whatever that means (since Bronze Age at least). The term Illyrian is considered for the whole Balkan region, but there are separations (that we know from ancient sources) into different tribes of Illyrian. They are here before Greek colonists, and Romans, these come much later into play, at least at this island example. Kopila (on Korčula) is close to the Greek colonies on other islands in vicinity, and during the age of necropolis, Romans fight them as well. So culturally, they use Greek import goods, and other luxury goods from around Europe, but biologically, do they mix with the colonizing populations/Romans - we were usually taught they are not, but we do not know. 
+Based on that, we'd like to merge with other ancient samples from the region to look at ancestry and potential admixture. Only 5 samples have reasonable (still low) coverage, so we will see what we can say. It would also be good to redo and maybe extend the kinship/mtDNA analyses.
+
+I suggest starting to read through some aDNA papers to get a sense of the methods. Papers by David Reich are less applicable because they use a SNP capture approach; this was low coverage whole genome sequencing, and will be analyzed using genotype likelihoods instead of calling genotypes. Papers by Eske Willerslev, Mattias Jakobsson, Daniel Wegmann are probably mostly helpful for methods. Reich lab has published some Grek aDNA that may be part of the analyses though.
+
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
