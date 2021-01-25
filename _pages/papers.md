@@ -8,13 +8,15 @@ title: papers
 
 #### **IN PREP AND UNDER REVIEW**
 
-Koranda, M., **Zettersten, M.**, & McDonald, M. (under review). <span style="color: #00ab37">Good-enough production: Selecting easier words instead of more accurate ones.</span>
+Koranda, M., **Zettersten, M.**, & McDonald, M. (under review). <span style="color: #00ab37">Good-enough production: Selecting easier words instead of more accurate ones.</span> <a href="https://osf.io/3svge/" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/word-choice" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+
+**Zettersten, M.\***, Weaver, H.\*, & Saffran, J. (Stage 1 registered report, under review). Becoming word meaning experts: Infants’ processing of familiar words in the context of typical and atypical exemplars. \*equal authorship <a href="https://osf.io/3t8gf/" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/lwl_typ_animals" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+
+Woodard, K., **Zettersten, M.**, & Pollak, S.D. (in prep). <span style="color: #00ab37">Developmental changes in children’s knowledge of facial configurations.</span>
 
 **Zettersten, M.**, Choi, K., Kirkorian, H., & Saffran, J. (in prep). <span style="color: #00ab37">When and how active information-seeking helps word learning: Children actively select input tuned to past experience in service of learning new words. </span>
 
 **Zettersten, M.**, Bredemann, C., Kaul, M., Vlach, H., Kirkorian, H., & Lupyan, G. (in prep). <span style="color: #00ab37">Nameability supports rule-based category learning in children and adults.</span>
-
-Woodard, K., **Zettersten, M.**, & Pollak, S.D. (in prep). <span style="color: #00ab37">Developmental changes in children’s knowledge of facial configurations.</span>
 
 #### **IN PRESS**
 
@@ -62,7 +64,7 @@ Woodard, K., **Zettersten, M.**, & Pollak, S.D. (2020). [<span style="color: #00
 
 **Zettersten, M.**, & Saffran, J. (2019). [<span style="color: #00ab37">Sampling to learn words: Adults and children sample words that reduce referential ambiguity.</span>](https://mzettersten.github.io/assets/pdf/cogsci19a-sub1579-cam-i9.pdf){:target="\_blank"} In A.K. Goel, C.M. Seifert, & C. Freksa (Eds.), *Proceedings of the 41st Annual Conference of the Cognitive Science Society* (pp. 1261-1267). Montreal, QB: Cognitive Science Society. <a href="https://osf.io/udmvh/?view_only=b9b8a986fd3a4235a073ec35d70a2266" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/crossAct" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 
-Koranda, M., **Zettersten, M.**, & McDonald, M. (2018). [<span style="color: #00ab37">Word frequency can affect what you choose to say.</span>](https://mzettersten.github.io/assets/pdf/koranda_5_12.pdf){:target="\_blank"} *Proceedings of the 40th Annual Conference of the Cognitive Science Society*. Austin, TX: Cognitive Science Society.
+Koranda, M.\*, **Zettersten, M.\***, & McDonald, M. (2018). [<span style="color: #00ab37">Word frequency can affect what you choose to say.</span>](https://mzettersten.github.io/assets/pdf/koranda_5_12.pdf){:target="\_blank"} *Proceedings of the 40th Annual Conference of the Cognitive Science Society*. Austin, TX: Cognitive Science Society. \*equal authorship
  
 **Zettersten, M.**, Potter, C., & Saffran, J. (2018). [<span style="color: #00ab37">Tuning in to non-adjacent dependencies: How experience with learnable patterns supports learning novel regularities.</span>](https://mzettersten.github.io/assets/pdf/ZetterstenPotterSaffran_cogsci2018_final.pdf){:target="\_blank"} *Proceedings of the 40th Annual Conference of the Cognitive Science Society*. Austin, TX: Cognitive Science Society. <a href="https://osf.io/m3wn4/" target="_blank" title="OSF"><i class="ai ai-osf"></i></a> <a href="https://github.com/mzettersten/apg-non-adjacent" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 
