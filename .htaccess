@@ -1,0 +1,85 @@
+##-- Default charset
+AddDefaultCharset UTF-8
+#AddDefaultCharset ISO-8859-15
+
+##-- Disable the server signature
+ServerSignature Off
+
+##-- Turn off ETags in HTTP-header (use both directives)
+<IfModule mod_headers.c>
+  Header unset ETag
+  RequestHeader unset Proxy
+</IfModule>
+FileETag None
+
+##-- When caching of gzipped JS and CSS files is used, enable this setting
+<IfModule mod_headers.c>
+  Header set Vary Accept-Encoding
+</IfModule>
+
+##-- when using Provider 1&1 set the following lines to activate PHP5
+#AddType x-mapp-php5 .php
+#AddHandler x-mapp-php5 .php
+
+##-- Add Mime Types
+<IfModule mod_mime.c>
+  AddType application/font-woff2 .woff2
+</IfModule>
+
+# Disable directory browsing (disabled by default as this causes problems on some servers because they don't allow AllowOverride Directive for Options)
+#Options -Indexes
+
+##-- Enable the compression for any type of content
+<IfModule mod_deflate.c>
+  <FilesMatch "(\.js|\.css|\.html|\.htm|\.php|\.xml|\.ico|\.jpg|\.jpeg|\.png|\.gif|\.svg|\.woff|\.woff2|\.ttf|\.otf|\.eot|\.JS|\.CSS|\.HTML|\.HTM|\.PHP|\.XML|\.ICO|\.JPG|\.JPEG|\.PNG|\.GIF|\.SVG|\.WOFF|\.WOFF2|\.TTF|\.OTF|\.EOT)$">
+    SetOutputFilter DEFLATE
+  </FilesMatch>
+</IfModule>
+
+##-- Customization of HTTP request and response headers
+<IfModule mod_headers.c>
+  <FilesMatch "(\.ico|\.jpg|\.jpeg|\.png|\.gif|\.swf|\.flv|\.svg|\.ICO|\.JPG|\.JPEG|\.PNG|\.GIF|\.SWF|\.FLV|\.SVG)$">
+    Header set Cache-Control "max-age=2592000, public, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "(\.woff|\.woff2|\.ttf|\.otf|\.eot|\.WOFF|\.WOFF2|\.TTF|\.OTF|\.EOT)$">
+    Header set Cache-Control "max-age=2592000, public, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "(\.css|\.js|\.CSS|\.JS)$">
+    Header set Cache-Control "max-age=604800, private, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "(\.xml|\.txt|\.XML|\.TXT)$">
+    Header set Cache-Control "max-age=604800, public, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "(\.html|\.htm|\.php|\.HTML|\.HTM|\.PHP)$">
+    Header set Cache-Control "max-age=1, private, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+##-- Generation of Expires and Cache-Control HTTP headers
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 seconds"
+  ExpiresByType image/gif "access plus 2592000 seconds"
+  ExpiresByType image/jpg "access plus 2592000 seconds"
+  ExpiresByType image/jpeg "access plus 2592000 seconds"
+  ExpiresByType image/png "access plus 2592000 seconds"
+  ExpiresByType image/svg+xml "access plus 2592000 seconds"
+  ExpiresByType text/html "access plus 1 seconds"
+  ExpiresByType text/css "access plus 604800 seconds"
+  ExpiresByType text/javascript "access plus 604800 seconds"
+  ExpiresByType application/x-javascript "access plus 604800 seconds"
+  ExpiresByType application/javascript "access plus 604800 seconds"
+  ExpiresByType text/x-component "access plus 604800 seconds"
+  ExpiresByType font/truetype "access plus 604800 seconds"
+  ExpiresByType font/opentype "access plus 604800 seconds"
+  ExpiresByType application/x-font-ttf "access plus 604800 seconds"
+  ExpiresByType application/x-font-woff "access plus 604800 seconds"
+  ExpiresByType application/font-woff "access plus 604800 seconds"
+  ExpiresByType application/vnd.ms-fontobject "access plus 604800 seconds"
+  ExpiresByType image/x-icon "access plus 604800 seconds"
+
+  <IfModule mod_headers.c>
+    Header append Cache-Control "public"
+  </IfModule>
+</IfModule>
+

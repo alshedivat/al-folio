@@ -111,7 +111,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ['_pages']
+include: ['_pages', '.htaccess']
 exclude:
   - bin
   - Gemfile
