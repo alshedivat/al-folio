@@ -19,7 +19,7 @@ importance: 3
 
 Croatian archaeologists uncovered a mass human grave at the Kopila Archaeological Site on the island of Korčula. More than 100 babies are buried here, dating from 300 to 100 B.C. (>2000 yrs ago).
 
-DNA was extracted and sequenced by the  [Jakobsson Lab](http://jakobssonlab.iob.uu.se/){:target="_blank"} for a subset of individuals, with few showing high enough coverage and quality for further analyses. This data has been provided to us at the Goldberg Lab for further exploration.
+DNA was extracted and sequenced by the [Jakobsson Lab](http://jakobssonlab.iob.uu.se/){:target="_blank"} for a subset of individuals, with few showing high enough coverage and quality for further analyses. This data has been provided to us at the [Goldberg Lab]("https://www.goldberglab.org/){:target="_blank"} for further exploration.
 
 I am currently working on analyzing these ancient genomes to understand relatedness between the excavated individuals and the history of the population. Illyrians are typically thought to be indigenous to the Balkan region, though there is archaeological and historical evidence that these groups have interacted with Greeks, Romans, and other populations around Europe.
 
