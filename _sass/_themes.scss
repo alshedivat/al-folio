@@ -4,6 +4,7 @@
  
 :root {
   --global-bg-color: #{$white-color};
+  --global-code-bg-color: #{$white-color};
   --global-text-color: #{$black-color};
   --global-theme-color: #{$purple-color};
   --global-hover-color: #{$light-purple-color};
@@ -24,6 +25,7 @@
 
 html[data-theme='dark'] {
   --global-bg-color: #{$grey-color-dark};
+  --global-code-bg-color: #{$cod-grey-color};
   --global-text-color: #{$grey-color-light};
   --global-theme-color: #{$cyan-color};
   --global-hover-color: #{$light-cyan-color};
