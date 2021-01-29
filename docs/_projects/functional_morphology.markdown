@@ -17,7 +17,8 @@ Using 3D models of skull CT scans, we studied differences in the cribriform plat
     <a href="https://doi.org/10.6084/m9.figshare.5925289.v2" target ="_blank">Supplemental video</a> from <a href="https://royalsocietypublishing.org/doi/full/10.1098/rspb.2018.0100" target ="_blank">Bird et al. 2018</a>, visualizing 3D model of the arctic fox's olfactory morphology. The cribriform plate is shown in red.
 </div>
 
-We asked whether these differences were a result of ecology or phylogeny and if the differences were reflected in the genome (i.e. number of olfactory receptor genes (ORG)). We found that CP surface area [correlates with relative number of ORG and ecology](https://royalsocietypublishing.org/doi/10.1098/rspb.2018.0100){:target="_blank"} (i.e. aquatic spp. have smaller CPs than terrestrial spp.). We also found that CP surface area [correlates with diving depth in pinniped spp.](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.6343){:target="_blank"} (i.e. seals, sea lions, and the walrus).
+We asked whether these differences were a result of ecology or phylogeny and if the differences were reflected in the genome (i.e. number of olfactory receptor genes (ORG)). We found that CP surface area [correlates with relative number of ORG and ecology](https://royalsocietypublishing.org/doi/10.1098/rspb.2018.0100){:target="_blank"} (i.e. aquatic spp. have smaller CPs than terrestrial spp.). This relationship
+could be used to predict the relative sensory dependence on olfaction for fossil species with no genetic data. We also found that CP surface area [correlates with diving depth in pinniped spp.](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.6343){:target="_blank"} (i.e. seals, sea lions, and the walrus).
 
 My work in the lab resulted in 2 co-authored [publications](https://imanhamid.github.io/publications/).
 

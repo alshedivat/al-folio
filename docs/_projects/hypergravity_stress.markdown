@@ -1,79 +1,24 @@
 ---
 layout: page
-title: hypergavity, ER stress, and dopaminergic neuron loss
+title: hypergavity, stress, and dopaminergic neuron loss
 description: evaluating genetic and molecular responses to long-term spaceflight
 img: /assets/img/dopamin_neurons.jpg
 importance: 4
 ---
 
+**This was a year-long post-bacc research experience**
 
-https://youtu.be/h1lWcfjjBjM
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Prior to graduate school, I spent a gap year working in [Dr. Sharmila Bhattacharya](https://www.nasa.gov/ames/research/space-biosciences/sharmila-bhattacharya-archive){:target="_blank"}’s lab at [NASA Ames Research Center](https://www.nasa.gov/ames){:target="_blank"}. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+I first joined the lab in the summer of 2016 through the [Space Life Sciences and Training Program (SLSTP)](https://www.nasa.gov/ames/research/space-life-sciences-training-program){:target="_blank"}, then continued in the lab full-time from 2016-2017 as a Research Associate through the [Blue Marble Space Institute of Science (BMSIS)](https://www.bmsis.org/){:target="_blank"}'s [Young Scientist Program](https://www.bmsis.org/ysp/){:target="_blank"}. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Working with Dr. Ravikumar Hosamani, one of my project's tested whether endoplasmic reticulum (ER) stress could explain an observed increased mortality rate in *Drosophila* exposed to hypergravity. We found no
+genetic or molecular evidence to support this hypothesis. This result allowed us to explore other physiological pathways that could be affected by altered gravity. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+My second project focused on characterizing the loss of dopaminergic neurons, a model for the progression of Parkinson’s disease, in flies exposed to chronic hypergravity. This work is ongoing in Dr. Bhattacharya’s lab, and is essential as we move to understand and anticipate biomedical impacts of long-term spaceflight and exposure to altered gravity.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+This year-long research experience also provided me multiple opportunities to share my research with scientific audiences and the general public. 
 
+In addition to internal poster and oral presentations, I gave a talk on my research at the the American Society for Gravitational Space Research (ASGSR) Annual Meeting in October 2016.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-```
+BMSIS also emphasized the roles of scientists in society, effective communication to the public, and thoughtful reflection on the ethical implications of our research. In conjunction with those goals, I wrote an essay on [the ethical considerations of building solar panels in desert habitats](https://www.bmsis.org/theyre-deserts-but-theyre-not-deserted/){:target="_blank"}, and made a [short video](https://youtu.be/h1lWcfjjBjM){:target="_blank"} for general audiences describing why fruit flies are an excellent model for human disease.
