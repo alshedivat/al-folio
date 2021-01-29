@@ -6,72 +6,33 @@ img: /assets/img/elephant_cp.jpg
 importance: 5
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**This was an undergraduate research experience**
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+As an undergraduate at [UCLA](https://www.ucla.edu/){:target="_blank"}, I worked with (then graduate student) Dr. Deborah Bird in [Dr. Blaire Van Valkenburgh](https://sites.lifesci.ucla.edu/eeb-vanvalkenburgh/blaire/){:target="_blank"}'s functional morphology lab.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Using 3D models of skull CT scans, we studied differences in the cribriform plate (CP), a feature of the olfactory morphology which separates the nasal chamber and the brain case and is the only place where olfactory sensory neurons can reach the olfactory bulb. 
+
+<iframe src="https://widgets.figshare.com/articles/5925289/embed?show_title=1" width="568" height="351" allowfullscreen frameborder="0"></iframe>
+<div class="caption">
+    <a href="https://doi.org/10.6084/m9.figshare.5925289.v2" target ="_blank">Supplemental video</a> from <a href="https://royalsocietypublishing.org/doi/full/10.1098/rspb.2018.0100" target ="_blank">Bird et al. 2018</a>, visualizing 3D model of the arctic fox's olfactory morphology. The cribriform plate is shown in red.
+</div>
+
+We asked whether these differences were a result of ecology or phylogeny and if the differences were reflected in the genome (i.e. number of olfactory receptor genes (ORG)). We found that CP surface area [correlates with relative number of ORG and ecology](https://royalsocietypublishing.org/doi/10.1098/rspb.2018.0100){:target="_blank"} (i.e. aquatic spp. have smaller CPs than terrestrial spp.). We also found that CP surface area [correlates with diving depth in pinniped spp.](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.6343){:target="_blank"} (i.e. seals, sea lions, and the walrus).
+
+My work in the lab resulted in 2 co-authored [publications](https://imanhamid.github.io/publications/).
+
+I also had the opportunity to design and conduct an independent project in which I predicted that, due to decreased levels of volatile odorants in colder air, species within the clade Pinnipedia that breed in lower temperatures would have evolved larger CPs relative to those from warmer
+climates, reflecting an increased sensitivity to the smaller concentration of volatiles in colder air.
+
+There was no correlation between temperature and CP size, but CP size was strongly correlated with phylogenetic relatedness. My year in this lab heavily influenced my decision to attend graduate school.
+
+I also had the opportunity to see a blue whale skull!!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/bluewhale.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Blue whale skull. Ribs and shoulder blades line the wall behind. This photo was taken in a marine mammal warehouse at the LA County Museum of Natural History. Photo Credit: Iman Hamid 2015. 
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-```
