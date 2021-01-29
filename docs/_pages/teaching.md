@@ -47,11 +47,7 @@ I learned how to design and implement active learning activities, handle content
 
 **College Teaching & Course Design**, *Fall 2020*
 
-I learned how to develop student learning outcomes, choose appropriate learning activities and evaluation criteria, and communicate clear expectations to students. This course was instrumental in my design of an intermediate population genetics course and syllabus, for which I was awarded a Bass Instructor of Record fellowship (see Experience section).
-
-**Introduction to Inclusion, Diversity, Equity, and Anti-racism in Biology**, *Spring 2021*
-
-I am currently enrolled in this course. We are learning about the history of racism and oppression in STEM fields and discussing strategies that we can promote diversity, equity, and inclusion in biology. Though not a course on pedagogy, I believe the material I learn in this course will help me to be a more inclusive and effective instructor for diverse learners.<a id='Approach'></a>
+I learned how to develop student learning outcomes, choose appropriate learning activities and evaluation criteria, and communicate clear expectations to students. This course was instrumental in my design of an intermediate population genetics course and syllabus, for which I was awarded a Bass Instructor of Record fellowship (see Experience section).<a id='Approach'></a>
 
 <hr>
 
