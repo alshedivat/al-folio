@@ -7,6 +7,8 @@ description: PhD Candidate | <a href="https://upg.duke.edu/" target ="_blank">Ge
 profile:
   align: right
   image: prof_pic.jpg
+  address: >
+    <p><center><a href="https://imanhamid.github.io/assets/pdf/CV_ImanHamid_Main.pdf" target="_blank">CV</a> | <a href="https://imanhamid.github.io/assets/pdf/Resume_Hamid_2021.pdf" target="_blank">Resume</a></center></p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
