@@ -65,16 +65,17 @@ Feel free to add your own page(s) by sending a PR.
 <tr>
 <td>Courses</td>
 <td>
-CMU PGM (<a href="https://sailinglab.github.io/pgm-spring-2019/" target="_blank">S-19</a>),
-CMU DeepRL (<a href="https://cmudeeprl.github.io/703website_f19/" target="_blank">F-19</a>, <a href="https://cmudeeprl.github.io/Spring202010403website/" target="_blank">S-20</a>, <a href="https://cmudeeprl.github.io/703website/" target="_blank">F-20</a>),
-CMU MMML (<a href="https://cmu-multicomp-lab.github.io/mmml-course/fall2020/" target="_blank">F-20</a>), CMU Distributed Systems (<a href="https://andrew.cmu.edu/course/15-440/" target="_blank">S-21</a>)
+CMU PGM (<a href="https://sailinglab.github.io/pgm-spring-2019/" target="_blank">S-19</a>) <br>
+CMU DeepRL (<a href="https://cmudeeprl.github.io/703website_f19/" target="_blank">F-19</a>, <a href="https://cmudeeprl.github.io/Spring202010403website/" target="_blank">S-20</a>, <a href="https://cmudeeprl.github.io/703website/" target="_blank">F-20</a>) <br>
+CMU MMML (<a href="https://cmu-multicomp-lab.github.io/mmml-course/fall2020/" target="_blank">F-20</a>) <br>
+CMU Distributed Systems (<a href="https://andrew.cmu.edu/course/15-440/" target="_blank">S-21</a>)
 </td>
 </tr>
 <tr>
 <td>Conferences & workshops</td>
 <td>
-ML Retrospectives (NeurIPS: <a href="https://ml-retrospectives.github.io/neurips2019/" target="_blank">2019</a>, <a href="https://ml-retrospectives.github.io/neurips2020/" target="_blank">2020</a>; ICML: <a href="https://ml-retrospectives.github.io/icml2020/" target="_blank">2020</a>),
-HAMLETS (NeurIPS: <a href="https://hamlets-workshop.github.io/" target="_blank">2020</a>),
+ML Retrospectives (NeurIPS: <a href="https://ml-retrospectives.github.io/neurips2019/" target="_blank">2019</a>, <a href="https://ml-retrospectives.github.io/neurips2020/" target="_blank">2020</a>; ICML: <a href="https://ml-retrospectives.github.io/icml2020/" target="_blank">2020</a>) <br>
+HAMLETS (NeurIPS: <a href="https://hamlets-workshop.github.io/" target="_blank">2020</a>) <br>
 ICBINB (NeurIPS: <a href="https://i-cant-believe-its-not-better.github.io/" target="_blank">2020</a>)
 </td>
 </tr>
@@ -84,10 +85,12 @@ ICBINB (NeurIPS: <a href="https://i-cant-believe-its-not-better.github.io/" targ
 ## Getting started
 
 For more about how to use Jekyll, check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
-Why Jekyll? Read this [blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
+Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
 
 
 ### Installation
+
+#### Local setup
 
 Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first [fork](https://guides.github.com/activities/forking/) the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
 
@@ -101,59 +104,54 @@ $ bundle exec jekyll serve
 Now, feel free to customize the theme however you like (don't forget to change the name!).
 After you are done, **commit** your final changes.
 
-### Deployment
-Now, you can deploy your website to [GitHub Pages](https://pages.github.com/).
+#### Deployment
 
-You have two options:
+Deploying your website to [GitHub Pages](https://pages.github.com/) is the most popular option.
+Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0.3.5), **al-folio** will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:
 
-* Deploy in a branch of your `<your-repo-name>`. By adopting this (default)
-  approach you will have the website's source code and the deployed version
-  under different branches of the same repo.
-* Deploy in a out-of-tree location. This approach is only recommended for
-  advanced jekyll / git users. Do not try to use this unless you know what you
-  are doing. By adopting this (alternative) approach you will have the website's
-  source code in one repo and the deployment version in a different repo.
+**For project pages (default):**
 
-**Note:** when deploying your user or organization page, make sure the `_config.yml` has `url` and `baseurl` fields as follows.
+- Make changes, commit, and push!
+- After deployment, the webpage will become available at `<your-github-username>.github.io/<your-repository-name>/`.
+- The `master` branch should be used for the source code of your webpage and `gh-pages` branch (will be created on the first deployment) will be used for deployment.
 
-```
-url: # should be empty
-baseurl:  # should be empty
-```
-#### Deploy in a branch
-You can deploy your website to [GitHub Pages](https://pages.github.com/) by running the deploy script:
+**For personal and organization webpages:**
+- Make sure you correctly named your repository as `<your-github-username>.github.io` or `<your-github-orgname>.github.io`.
+- After cloning this repository, [rename the branch](https://docs.github.com/en/github/administering-a-repository/renaming-a-branch) with the source code from `master` to `source`.
+- Make sure the `url` and `baseurl` fields in `_config.yml` are empty.
+- Make changes, commit, and push!
 
+<details><summary><strong>Manual deployment to GitHub Pages:</strong></summary>
+
+If you need to manually re-deploy your website to GitHub pages, run the deploy script from the root directory of your repository:
 ```bash
 $ ./bin/deploy [--user]
 ```
-By default, the script uses the `master` branch for the source code and deploys the webpage to `gh-pages`.
+uses the `master` branch for the source code and deploys the webpage to `gh-pages`.
 The optional flag `--user` tells it to deploy to `master` and use `source` for the source code instead.
 Using `master` for deployment is a convention for [user and organization pages](https://help.github.com/articles/user-organization-and-project-pages/).
 
-#### Deploy in a separate repo (advanced users only)
-**Note:** This approach does _not_ put the right things in the correct branch
-automatically. Only use this approach if you are familiar with the concept of
-[publishing sources](https://help.github.com/en/github/working-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites).
+</details>
 
-Let's assume that your website's publishing source is a `publishing-source`
-sub-directory of a git-versioned repository cloned under `$HOME/repo/`.
+<details><summary><strong>Deployment to a separate repository (advanced users only):</strong></summary>
+
+**Note:** Do not try using this method unless you know what you are doing (make sure you are familiar with [publishing sources](https://help.github.com/en/github/working-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)). This approach allows to have the website's source code in one repository and the deployment version in a different repository.
+
+Let's assume that your website's publishing source is a `publishing-source` sub-directory of a git-versioned repository cloned under `$HOME/repo/`.
 For a user site this could well be something like `$HOME/<user>.github.io`.
 
-Firstly, from the deployment repo dir, checkout the git branch hosting your
-publishing source.
+Firstly, from the deployment repo dir, checkout the git branch hosting your publishing source.
 
 Then from the website sources dir (commonly your al-folio fork's clone):
-```
-bundle exec jekyll build --destination $HOME/repo/publishing-source
+```bash
+$ bundle exec jekyll build --destination $HOME/repo/publishing-source
 ```
 
-This will instruct jekyll to deploy the website under
-`$HOME/repo/publishing-source`.
+This will instruct jekyll to deploy the website under `$HOME/repo/publishing-source`.
 
 **Note:** Jekyll will clean `$HOME/repo/publishing-source` before building!
 
-The quote below is taken directly from the
-[jekyll configuration docs](https://jekyllrb.com/docs/configuration/options/):
+The quote below is taken directly from the [jekyll configuration docs](https://jekyllrb.com/docs/configuration/options/):
 
 > Destination folders are cleaned on site builds
 >
@@ -161,20 +159,14 @@ The quote below is taken directly from the
 >
 > Do not use an important location for `<destination>`; instead, use it as a staging area and copy files from there to your web server.
 
-If `$HOME/repo/publishing-source` contains files that you want jekyll to leave
-untouched, specify them under `keep_files` in `_config.yml`.
+If `$HOME/repo/publishing-source` contains files that you want jekyll to leave untouched, specify them under `keep_files` in `_config.yml`.
+In its default configuration, al-folio will copy the top-level `README.md` to the publishing source. If you want to change this behaviour, add `README.md` under `exclude` in `_config.yml`.
 
-In its default configuration, al-folio will copy the top-level `README.md` to
-the publishing source. If you want to change this behaviour, add `README.md`
-under `exclude` in `_config.yml`.
+**Note:** Do _not_ run `jekyll clean` on your publishing source repo as this will result in the entire directory getting deleted, irrespective of the content of `keep_files` in `_config.yml`.
 
-**Note:** Do _not_ run `jekyll clean` on your publishing source repo as this
-will result in the entire directory getting deleted, irrespective of the content
-of `keep_files` in `_config.yml`.
+</details>
 
-### Usage
-
-### Upgrading from a previous version
+#### Upgrading from a previous version
 
 If you installed **al-folio** as described above, you can upgrade to the latest version as follows:
 
@@ -182,7 +174,7 @@ If you installed **al-folio** as described above, you can upgrade to the latest 
 # Assuming the current directory is <your-repo-name>
 $ git remote add upstream https://github.com/alshedivat/al-folio.git
 $ git fetch upstream
-$ git rebase upstream/v0.3.1
+$ git rebase upstream/v0.3.5
 ```
 
 If you have extensively customized a previous version, it might be trickier to upgrade.
@@ -199,13 +191,17 @@ Your publications page is generated automatically from your BibTex bibliography.
 Simply edit `_bibliography/papers.bib`.
 You can also add new `*.bib` files and customize the look of your publications however you like by editing `_pages/publications.md`.
 
-#### Author Annotation
-In publications, the author entry for your self is identified by string `scholar:last_name` and string array `scholar:first_name` in `_config.yml`. If the entry matches the last name and one form of the first names, it will be underlined. 
+<p align="center"><img src="assets/img/publications-screenshot.png" width=800></p>
+
+<details><summary><strong>Author annotation:</strong></summary>
+
+In publications, the author entry for yourself is identified by string `scholar:last_name` and string array `scholar:first_name` in `_config.yml`:
 ```
 scholar:
   last_name: Einstein
   first_name: [Albert, A.]
 ```
+If the entry matches the last name and one form of the first names, it will be underlined. 
 Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
 The coauthor data format in `_data/coauthors.yml` is as follows,
 ```
@@ -230,7 +226,7 @@ The coauthor data format in `_data/coauthors.yml` is as follows,
 ```
 If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided. 
 
-<p align="center"><img src="assets/img/publications-screenshot.png" width=800></p>
+</details>
 
 
 ### Collections
@@ -304,22 +300,6 @@ Before you get started, please take a look at [the guidelines](CONTRIBUTING.md).
 
 If you would like to improve documentation, add your webpage to the list below, or fix a minor inconsistency or bug, please feel free to send a PR directly to `master`.
 For more complex issues/bugs or feature requests, please open an issue using the appropriate template.
-
-
-## FAQ
-
-Here are some frequently asked questions.
-If you have a different question, please ask on [gitter](https://gitter.im/alshedivat/al-folio).
-
-1. **Q:** When I preview my website locally everything looks great, but when I deploy it on GitHub bibliography Liquid tags are not recognized.
-   How do I fix this? <br>
-   **A:** GitHub Pages rendering does not support certain Jekyll plugins, and `jekyll-scholar` that we use to render bibliography is one of them. Please make sure you deploy your website to GitHub using `bin/deploy` script that circumvents the issue.
-
-2. **Q:** When I deploy my fork of al-folio, it says `Deployed successfully!`
-   But when I open `<my-github-username>.github.io`, I get `Page not found (404)` error.
-   How do I fix this? <br>
-   **A:** For personal webpages, please run `bin/deploy --user`.
-   (See also relevant past issues: [#5](https://github.com/alshedivat/al-folio/issues/5), [#49](https://github.com/alshedivat/al-folio/issues/49), [#86](https://github.com/alshedivat/al-folio/issues/86).)
 
 
 ## License
