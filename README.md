@@ -182,6 +182,25 @@ You can still follow the steps above, but `git rebase` may result in merge confl
 See [git rebase manual](https://help.github.com/en/github/using-git/about-git-rebase) and how to [resolve conflicts](https://help.github.com/en/github/using-git/resolving-merge-conflicts-after-a-git-rebase) for more information.
 If rebasing is too complicated, we recommend to re-install the new version of the theme from scratch and port over your content and changes from the previous version manually.
 
+### FAQ
+
+Here are some frequently asked questions.
+If you have a different question, please ask on [gitter](https://gitter.im/alshedivat/al-folio).
+
+1. **Q:** I am using a custom domain (e.g., `foo.com`).
+   My custom domain becomes blank in the repository settings after each deployment.
+   How do I fix that? <br>
+   **A:** You need to add `CNAME` file to the `master` or `source` branch of your repository.
+   The file should contain your custom domain name.
+   (Relevant issue: [130](https://github.com/alshedivat/al-folio/issues/130).)
+
+2. **Q:** My webpage works locally.
+    But after deploying, it is not displayed correctly (CSS and JS is not loaded properly).
+    How do I fix that? <br>
+   **A:** Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`.
+   If you are deploying a personal or organization website to GitHub Pages, leave both fields blank.
+   If you are deploying a project page to GitHub Pages, leave `url` blank and set `baseurl: /<your-project-name>/`.
+   Generally, if you are deploying your webpage to `your-domain.com/your-project/`, you must set `url: your-domain.com` and `baseurl: /your-project/`.
 
 ## Features
 
