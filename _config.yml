@@ -117,6 +117,7 @@ exclude:
   - bin
   - Gemfile
   - Gemfile.lock
+  - vendor
 keep_files:
   - CNAME
   - .nojekyll
@@ -130,8 +131,6 @@ plugins:
   - jekyll/scholar
   - jekyll-twitter-plugin
   - jemoji
-  # - bootstrap
-  # - material-sass
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
