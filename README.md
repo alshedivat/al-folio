@@ -133,6 +133,19 @@ Using `master` for deployment is a convention for [user and organization pages](
 
 </details>
 
+<details><summary><strong>Deployment to another hosting server (non GitHub Pages):</strong></summary>
+
+If you decide to not use GitHub Pages and host your page elsewhere, simply run:
+```bash
+$ bundle exec jekyll build
+```
+which will (re-)generate the static webpage in the `_site/` folder.
+Then simply copy the contents of the `_site/` foder to your hosting server.
+
+**Note:** Make sure to correctly set the `url` and `baseurl` fields in `_config.yml` before building the webpage. If you are deploying your webpage to `your-domain.com/your-project/`, you must set `url: your-domain.com` and `baseurl: /your-project/`. If you are deploing directly to `your-domain.com`, leave `baseurl` blank. 
+
+</details>
+
 <details><summary><strong>Deployment to a separate repository (advanced users only):</strong></summary>
 
 **Note:** Do not try using this method unless you know what you are doing (make sure you are familiar with [publishing sources](https://help.github.com/en/github/working-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)). This approach allows to have the website's source code in one repository and the deployment version in a different repository.
