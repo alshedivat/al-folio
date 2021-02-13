@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I will join Oklahoma State University as an Assistant Professor and have two Ph.D. Research Assistant openings.
+title: I will join Oklahoma State University as an Assistant Professor. Two funded Ph.D. positions are immediately available.
 date: 2021-02-12 11:00:00-0400
 inline: false
 ---
