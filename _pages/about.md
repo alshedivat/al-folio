@@ -8,17 +8,14 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a graduate student at the [Department of Computer Sciences](https://cs.wisc.edu){:target="_blank"}, [University of Wisconsin-Madison](https://wisc.edu){:target="_blank"}. I am fortunate to be advised by [Prof. Aditya Akella](http://pages.cs.wisc.edu/~akella/) at the Wisconsin Internet and Systems Research ([WISR](https://wisr.cs.wisc.edu/)) group. I am broadly interested in Systems and Networking, with a focus on understanding the fundamental challenges that the current networked systems face. I'm fascinated by questions such as "Can we bring datacenter-like capabilities to the end-users?" or "What are the fundamental constraints in the networking devices we use?". As a long term goal, it is my desire to bridge the gap between research and ground reality by working on socially utilizable projects.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Previously, I was an undergraduate student at the [Indian Institute of Technology, Delhi](https://home.iitd.ac.in/){:target="_blank"} majoring in [Computer Science and Engineering](https://cse.iitd.ac.in){:target="_blank"} where I met and made friends with some absolutely amazing and competent people. I hail from [Lucknow](https://goo.gl/maps/yNiHPh9WgNbjwPeH9){:target="_blank"}, a city in North India.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+[CV](assets/pdf/resume.pdf)
