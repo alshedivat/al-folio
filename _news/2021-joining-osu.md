@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: I will join Oklahoma State University as an Assistant Professor and have two Ph.D. Research Assistant openings.
