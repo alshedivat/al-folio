@@ -2,23 +2,20 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="#">Book worm</a>. Data nerd. <a href="#">Pastry enthusiast</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Hi there! My name is Sayuri Sekimitsu. I'm currently a MD candidate at [Tufts University School of Medicine](https://medicine.tufts.edu){:target="\_blank"}. I'm still exploring different specialties (there are so many fascinating options!), but I'm really passionate about the power of machine learning, and data science in medicine.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I grew up in Tokyo, Japan and studied biomedical computation at [Stanford University](https://exploredegrees.stanford.edu/soe-ug-majors/biomedicalcomputation/){:target="\_blank"}. After graduating, I also worked at [Boston Consulting Group](https://www.bcg.com){:target="\_blank"} as an Associate for two years, working primarily in healthcare and global health.
+
+In my free time, I love to read books, bake all sorts of pastries, and go on long runs, walks, and hikes. If you have any Boston recommendations for bookstores, bakeries, or trails, please reach out!
