@@ -17,12 +17,15 @@ news: true
 social: true
 ---
 Hantao Cui is a Research Assistant Professor in the Department of Electrical Engineering and Computer Science and [CURENT](https://curent.utk.edu), University of Tennessee, Knoxville. He is the Chief Technologist of the Large-Scale Testbed (LTB), which won the 2020 R&D 100 Awards, and the author of the power system modeling and analysis tool [ANDES](https://github.com/cuihantao/andes).
+He will join the School of Electrical and Computer Engineering, Oklahoma State University as an Assistant Professor (Tenure-Track) in the Fall of 2021.
 
 Hantao Cui received his Ph. D. degree from the University of Tennessee, Knoxville in 2018, advised by [Dr. Fangxing “Fran” Li](http://web.eecs.utk.edu/~fli6).
 He was appointed as a full-time Research Associate with CURENT before Ph. D. graduation.
 He received his M. S. and B. S. from Southeast University, China, in 2013 and 2011, both in electrical engineering.
 
-Hantao Cui has been an Associate Editor of the [Journal of Modern Power Systems and Clean Energy](http://www.mpce.info) since 2019. He is an Outstanding Reviewer for 2019 by the IEEE Transactions on Power Systems. He is author of two Essential Science Indicators (ESI) highly cited papers.
+Hantao Cui has been an Associate Editor of the [Journal of Modern Power Systems and Clean Energy](http://www.mpce.info) since 2019.
+He is an Outstanding Reviewer for 2019 and 2020 by the _IEEE Transactions on Power Systems_.
+He is author of two Essential Science Indicators (ESI) highly cited papers.
 He is a Senior Member of the IEEE.
 
 Hantao Cui's research include:
@@ -34,4 +37,5 @@ Hantao Cui's research include:
 - Hardware-in-the-loop simulation, and real-time operating systems
 - Smart grid scheduling and operation under uncertainty
 
-Hantao Cui publishes research papers as well as open-source software for research. Use the icons at the bottom of this page to checkout the most recent papers and tools.
+Hantao Cui publishes research papers and open-source software for research.
+Use the icons at the bottom of the page to checkout the most recent papers and tools.
