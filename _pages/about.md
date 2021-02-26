@@ -2,14 +2,11 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Senior Member of Research Staff <a href="www.parc.com">Xerox PARC</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>3333 Coyote Hill Road</p>
-    <p>Palo Alto, California 94306</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
