@@ -65,7 +65,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 blog_name: प्रज्ञ | prajña   # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_description: observe, question, and learn
 permalink: /blog/:year/:title/
 
 # Pagination
