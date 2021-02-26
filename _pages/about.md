@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-description: Senior Member of Research Staff <a href="www.parc.com">Xerox PARC</a>
+description: Senior Member of Research Staff at <a href="www.parc.com">Xerox PARC</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-
+social: true  # includes social icons at the bottom of the image
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+
 ---
 
 I am an AI systems scientist at the <a href="https://www.parc.com/"> Palo Alto Research Center</a>. I study <a href="https://arxiv.org/pdf/1910.07089.pdf" target="_blank">human-aware</a> AI - how to design intelligent interactive systems that model, learn, and reason about their human collaborators. I am
