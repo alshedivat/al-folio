@@ -5,6 +5,7 @@
 
 // Dimensions
 $max-content-width: {{site.max_width}};
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Quicksand&display=swap');
 
 @import
   "variables",
@@ -12,5 +13,3 @@ $max-content-width: {{site.max_width}};
   "layout",
   "base"
 ;
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Quicksand&display=swap');
