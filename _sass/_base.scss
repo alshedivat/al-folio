@@ -45,7 +45,7 @@ a, table.table a {
 // Profile
 
 .profile {
-  margin-left: 1rem;
+  margin-left: rem;
   width: 100%;
 
   .address {
@@ -99,6 +99,7 @@ a, table.table a {
   }
   .navbar-brand {
     color: var(--global-text-color);
+    font-size: 20px;
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
@@ -164,10 +165,12 @@ a, table.table a {
 
 .news table td {
   color: var(--global-text-color);
+  font-size: 18px;
 }
 
 .news table th {
   color: var(--global-text-color);
+  font-size: 18px;
 }
 
 // Social (bottom)
