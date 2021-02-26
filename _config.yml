@@ -136,14 +136,8 @@ plugins:
 # -----------------------------------------------------------------------------
 
 scholar:
-
-<<<<<<< HEAD
   last_name: Mohan
-=======
-  last_name: Einstein
-  first_name: [Albert, A.]
->>>>>>> upstream/master
-
+  first_name: [Shiwali, S.]
   style: apa
   locale: en
 
