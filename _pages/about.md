@@ -21,7 +21,7 @@ He is the Chief Technologist of the Large-Scale Testbed (LTB), which won the 202
 He will join the School of Electrical and Computer Engineering, Oklahoma State University as an assistant professor (tenure-track) in the Fall of 2021.
 
 Hantao Cui received his Ph. D. degree from the University of Tennessee, Knoxville in 2018, advised by [Dr. Fangxing “Fran” Li](http://web.eecs.utk.edu/~fli6).
-He was appointed as a full-time Research Associate with CURENT before Ph. D. graduation.
+He was appointed as a full-time research rssociate with CURENT before Ph. D. graduation.
 He received his M. S. and B. S. from Southeast University, China, in 2013 and 2011, both in electrical engineering.
 
 Hantao Cui has been an Associate Editor of the [Journal of Modern Power Systems and Clean Energy](http://www.mpce.info) since 2019.
