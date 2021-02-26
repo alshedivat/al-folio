@@ -8,9 +8,8 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>3333 Coyote Hill Road</p>
+    <p>Palo Alto, California 94306</p>
 
 news: true
 social: true
