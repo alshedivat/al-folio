@@ -17,8 +17,8 @@
       {{reference}}
     {% else %}
       <div class="title">{{entry.title}}</div>
-      <div class="author">
-        {% for author in entry.author_array %}
+      <div class="author">{{entry.authors}}  </div>
+        <!-- {% for author in entry.author_array %}
           {% assign author_is_self = false %}
           {% if author.last == site.scholar.last_name%}
             {% if site.scholar.first_name contains author.first%}
@@ -64,8 +64,8 @@
               {% endif %}
             {% endunless %}
           {% endif %}
-        {% endfor %}
-      </div>
+        {% endfor %} -->
+      <!-- </div> -->
 
       <div class="periodical">
       {% if entry.type == "article" %}
