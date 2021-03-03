@@ -35,12 +35,14 @@ layout: default
                     <div class="clearfix" style="font-family: 'Lato', sans-serif;font-size: 18;">
                         {{ content }}
                     </div>
-                    {% if page.news %}
-                    {% include news.html %}
-                    {% endif %}
-                    <!-- {% if page.selected_papers %}
-                    {% include selected_papers.html %}
-                    {% endif %} -->
+                    <div style="margin-top: 3rem;">
+                        {% if page.news %}
+                        {% include news.html %}
+                        {% endif %}
+                        <!-- {% if page.selected_papers %}
+                        {% include selected_papers.html %}
+                        {% endif %} -->
+                    </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4">
