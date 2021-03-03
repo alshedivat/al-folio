@@ -20,6 +20,7 @@ description: classes, workshops, and teaching material
       </div> -->
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">January - April 2021</h6>
+    <p>Advanced SQL (procedures/functions/triggers), Database design and normal forms, Database application development, Storage structures and indexing/hashing, Query processing and optimization, Transactions, Lock-based concurrency control.</p>
     <!-- <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item"></li>
     </ul> -->
@@ -34,6 +35,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">August - November 2020</h6>
+    <p>Purpose and evolution of database management systems, Relational model of data, Formal relational languages (relational algebra/calculus), SQL, Introduction to database design</p>
   </div>
 </div>
 
@@ -45,6 +47,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">August - November 2020</h6>
+    <p>Basics of group theory (Abelian groups, Group actions), Simplicial Complexes, Homology and computation using matrix reduction method, Persistent Homology.</p>
   </div>
 </div>
 
@@ -56,6 +59,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">August - November 2020</h6>
+    <p>Project Work.</p>
   </div>
 </div>
 
@@ -67,6 +71,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">May - July 2020</h6>
+    <p>Advanced SQL (procedures/functions/triggers), Database design and normal forms, Database application development, Storage structures and indexing/hashing, Query processing and optimization, Transactions, Lock-based concurrency control.</p>
   </div>
 </div>
 
@@ -78,6 +83,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">May - July 2020</h6>
+    <p>Purpose and evolution of database management systems, Relational model of data, Formal relational languages (relational algebra/calculus), SQL, Introduction to database design</p>
   </div>
 </div>
 
@@ -89,6 +95,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">January - April 2020</h6>
+    <p>Advanced SQL (procedures/functions/triggers), Database design and normal forms, Database application development, Storage structures and indexing/hashing, Query processing and optimization, Transactions, Lock-based concurrency control.</p>
   </div>
 </div>
 
@@ -100,6 +107,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">January - April 2020</h6>
+    <p>Research Internship.</p>
   </div>
 </div>
 
@@ -111,6 +119,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">August - November 2019</h6>
+    <p>Purpose and evolution of database management systems, Relational model of data, Formal relational languages (relational algebra/calculus), SQL, Introduction to database design</p>
   </div>
 </div>
 
@@ -123,6 +132,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">August - November 2019</h6>
+    <p>Basics of group theory (Abelian groups, Group actions), Simplicial Complexes, Homology and computation using matrix reduction method, Persistent Homology.</p>
   </div>
 </div>
 
@@ -134,6 +144,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">August - November 2019</h6>
+    <p>Research Internship</p>
   </div>
 </div>
 
@@ -145,6 +156,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">August - November 2019</h6>
+    <p>Basics of group theory (Abelian groups, Group actions), Simplicial Complexes, Homology and computation using matrix reduction method, Persistent Homology.</p>
   </div>
 </div>
 
@@ -156,6 +168,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">January - April 2019</h6>
+    <p>Advanced SQL (procedures/functions/triggers), Database design and normal forms, Database application development, Storage structures and indexing/hashing, Query processing and optimization, Transactions, Lock-based concurrency control.</p>
   </div>
 </div>
 
@@ -167,6 +180,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">August - November 2018</h6>
+    <p>Purpose and evolution of database management systems, Relational model of data, Formal relational languages (relational algebra/calculus), SQL, Introduction to database design</p>
   </div>
 </div>
 
@@ -189,6 +203,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">January - April 2018</h6>
+    <p>Advanced SQL (procedures/functions/triggers), Database design and normal forms, Database application development, Storage structures and indexing/hashing, Query processing and optimization, Transactions, Lock-based concurrency control.</p>
   </div>
 </div>
 
@@ -200,6 +215,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">August - November 2017</h6>
+    <p>Purpose and evolution of database management systems, Relational model of data, Formal relational languages (relational algebra/calculus), SQL, Introduction to database design</p>
   </div>
 </div>
 
@@ -222,6 +238,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">January - April 2017</h6>
+    <p>Advanced SQL (procedures/functions/triggers), Database design and normal forms, Database application development, Storage structures and indexing/hashing, Query processing and optimization, Transactions, Lock-based concurrency control.</p>
   </div>
 </div>
 
@@ -244,6 +261,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">July - November 2016</h6>
+    <p>Introduction to C and C++ programming. Problem solving and algorithms. Input and output operations, decision control structure, loop control structure, arrays, strings, etc. Pointers, arrays, structures, functions, file operations, classes, object oriented programming. Lab is also included in this course.</p>
   </div>
 </div>
 
@@ -255,6 +273,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">January - April 2016</h6>
+    <p>Purpose and evolution of database management systems, Relational model of data, Formal relational languages (relational algebra/calculus), SQL, Introduction to database design</p>
   </div>
 </div>
 
@@ -277,6 +296,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">January - April 2016</h6>
+    <p>Purpose and evolution of database management systems, Relational model of data, Formal relational languages (relational algebra/calculus), SQL, Introduction to database design</p>
   </div>
 </div>
 
@@ -288,6 +308,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">January - April 2016</h6>
+    
   </div>
 </div>
 
