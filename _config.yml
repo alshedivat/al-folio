@@ -3,10 +3,10 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
+first_name: Manohar
+middle_name:
+last_name: Kaul
+email: mkaul@cse.iith.ac.in
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -24,10 +24,10 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
-max_width: 800px
+max_width: 1300px
 
 # TODO: add layout settings (single page vs. multi-page)
 
