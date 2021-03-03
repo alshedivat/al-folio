@@ -48,6 +48,8 @@
         <div class="links">
           {% if entry.abstract %}
           <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+          <a class="bib btn btn-sm z-depth-0" onclick="togg({{entry.id}})" role="button">Bibtex</a>
+
           {% endif %}
           {% if entry.arxiv %}
           <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button"
@@ -105,6 +107,7 @@
           <p>{{ entry.abstract }}</p>
         </div>
         {% endif %}
+        
       </div>
     </td>
   </tr>
@@ -147,7 +150,7 @@
     <div class="links">
       {% if entry.abstract %}
       <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-      <a class="bib btn btn-sm z-depth-0" onclick="togg({{entry.key}})" role="button">Bibtex</a>
+      <a class="bib btn btn-sm z-depth-0" onclick="togg({{entry.id}})" role="button">Bibtex</a>
       {% endif %}
       {% if entry.arxiv %}
       <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button"
@@ -206,7 +209,7 @@
     </div>
     {% endif %}
 
-    <div class="hide" id="{{entry.key}}"><br>
+    <div class="hide" id="{{entry.id}}"><br>
       <p>
         @misc{<br>
         title={{entry.title}}<br>
