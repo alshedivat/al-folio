@@ -52,6 +52,24 @@ layout: default
                   </div>
             </div>
         </div>
+        {% if page.news %}
+        {% include news.html %}
+        {% endif %}
+        {% if page.selected_papers %}
+        {% include selected_papers.html %}
+        {% endif %}
+      </div>
+      <div class="twitter">
+        {% if page.twitter %}
+        <a class="twitter-timeline" data-height="600" data-dnt="true" href="https://twitter.com/ManuKaul1?ref_src=twsrc%5Etfw">Tweets by Manohar Kaul</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if page.social %}
+    <div class="social">
+      {% include social.html %}
+      <div class="contact-note">{{ site.contact_note }}</div>
     </div>
 </body>
 
