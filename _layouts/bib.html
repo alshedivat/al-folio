@@ -27,7 +27,7 @@
     {% if entry.type == "thesis" %}
     {{reference}}
     {% else %}
-    <div class="title">{{entry.title}}</div>
+    <div class="title" style="padding-top:35px;">{{entry.title}}</div>
     <div class="author">{{entry.authors}}</div>
 
     <div class="periodical">
@@ -104,15 +104,15 @@
     </div>
     {% endif %}
 
-    <div class="hide" id="{{entry.id}}"><br>
-      <p>
-        @misc{<br>
-        title={{entry.title}}<br>
-        authors = {{entry.authors}}<br>
-        year={{entry.year}}<br>
-        pdf={{entry.pdf}} <br>
-        journal={{entry.journal}}<br>
-        }
+    <div class="hide" id="{{entry.id}}" style="border: dashed 1px;"><br>
+      <p style="text-align:justify;">
+        &nbsp;&nbsp;&nbsp;@misc{<br>
+        &nbsp;&nbsp;&nbsp;title&nbsp;=&nbsp;{{entry.title}}<br>
+        &nbsp;&nbsp;&nbsp;authors&nbsp;=&nbsp; {{entry.authors}}<br>
+        &nbsp;&nbsp;&nbsp;year&nbsp;=&nbsp;{{entry.year}}<br>
+        &nbsp;&nbsp;&nbsp;pdf&nbsp;=&nbsp;{{entry.pdf}} <br>
+        &nbsp;&nbsp;&nbsp;journal&nbsp;=&nbsp;{{entry.journal}}<br>
+        &nbsp;&nbsp;}
 
       </p>
     </div>
@@ -216,15 +216,15 @@
     </div>
     {% endif %}
 
-    <div class="hide" id="{{entry.id}}"><br>
-      <p>
-        @misc{<br>
-        title={{entry.title}}<br>
-        authors = {{entry.authors}}<br>
-        year={{entry.year}}<br>
-        pdf={{entry.pdf}} <br>
-        journal={{entry.journal}}<br>
-        }
+    <div class="hide" id="{{entry.id}}" style="border: dashed 1px;"><br>
+      <p style="text-align:justify;">
+        &nbsp;&nbsp;&nbsp;@misc{<br>
+        &nbsp;&nbsp;&nbsp;title&nbsp;=&nbsp;{{entry.title}}<br>
+        &nbsp;&nbsp;&nbsp;authors&nbsp;=&nbsp; {{entry.authors}}<br>
+        &nbsp;&nbsp;&nbsp;year&nbsp;=&nbsp;{{entry.year}}<br>
+        &nbsp;&nbsp;&nbsp;pdf&nbsp;=&nbsp;{{entry.pdf}} <br>
+        &nbsp;&nbsp;&nbsp;journal&nbsp;=&nbsp;{{entry.journal}}<br>
+        &nbsp;&nbsp;}
 
       </p>
     </div>
