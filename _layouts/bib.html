@@ -1,131 +1,202 @@
 ---
 ---
+<style>
+  .hide {
+    display: none;
+  }
 
+  .show {
+    display: block !important;
+  }
+</style>
+
+<script>
+  function togg(id) {
+    var element = document.getElementById(id);
+    element.classList.toggle("show");
+  }
+</script>
+<!-- selected Publications -->
+{% if entry.image %}
+
+<table>
+  <tr>
+    <td>
+
+      <div class="" style="float:left"><img src="{{entry.image}}"
+          style="width:250px;height: 170px; padding:20px; padding-right: 30px;padding-left: 0px;"></div>
+    </td>
+    <td>
+      <div id="{{entry.key}}" class="col-sm-8">
+        {% if entry.type == "thesis" %}
+        {{reference}}
+        {% else %}
+        <div class="title">{{entry.title}}</div>
+        <div class="author">{{entry.authors}}</div>
+        <div class="periodical">
+          {% if entry.type == "article" %}
+          <em>{{entry.journal}}</em>
+          {% elsif entry.type == "inproceedings" %}
+          <em>In {{entry.booktitle}}</em>
+          {% endif %}
+          {% if entry.year %}
+          {{entry.year}}
+          {% endif %}
+        </div>
+        {% endif %}
+
+        <div class="links">
+          {% if entry.abstract %}
+          <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+          {% endif %}
+          {% if entry.arxiv %}
+          <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button"
+            target="_blank">arXiv</a>
+          {% endif %}
+          {% if entry.html %}
+          <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+          {% endif %}
+          {% if entry.pdf %}
+          {% if entry.pdf contains '://' %}
+          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+          {% else %}
+          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button"
+            target="_blank">PDF</a>
+          {% endif %}
+          {% endif %}
+          {% if entry.supp %}
+          {% if entry.supp contains '://' %}
+          <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Supp</a>
+          {% else %}
+          <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button"
+            target="_blank">Supp</a>
+          {% endif %}
+          {% endif %}
+          {% if entry.blog %}
+          <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Blog</a>
+          {% endif %}
+          {% if entry.code %}
+          <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+          {% endif %}
+          {% if entry.poster %}
+          {% if entry.poster contains '://' %}
+          <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Poster</a>
+          {% else %}
+          <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0"
+            role="button" target="_blank">Poster</a>
+          {% endif %}
+          {% endif %}
+          {% if entry.slides %}
+          {% if entry.slides contains '://' %}
+          <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+          {% else %}
+          <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0"
+            role="button" target="_blank">Slides</a>
+          {% endif %}
+          {% endif %}
+          {% if entry.website %}
+          <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
+          {% endif %}
+        </div>
+
+        <!-- Hidden abstract block -->
+        {% if entry.abstract %}
+        <div class="abstract hidden">
+          <p>{{ entry.abstract }}</p>
+        </div>
+        {% endif %}
+      </div>
+    </td>
+  </tr>
+</table>
+
+
+
+<!-- publications -->
+{% else %}
 <div class="row">
   <div class="col-sm-2 abbr">
-  {% if entry.abbr %}
+    {% if entry.abbr %}
     {% if site.data.venues[entry.abbr] %}
     <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
     {% else %}
     <abbr class="badge">{{entry.abbr}}</abbr>
     {% endif %}
-  {% endif %}
+    {% endif %}
   </div>
 
   <div id="{{entry.key}}" class="col-sm-8">
     {% if entry.type == "thesis" %}
-      {{reference}}
+    {{reference}}
     {% else %}
-      <div class="title">{{entry.title}}</div>
-      <div class="author">{{entry.authors}}  </div>
-        <!-- {% for author in entry.author_array %}
-          {% assign author_is_self = false %}
-          {% if author.last == site.scholar.last_name%}
-            {% if site.scholar.first_name contains author.first%}
-              {% assign author_is_self = true %}
-            {% endif %}
-          {% endif %}
-          {% assign coauthor_url = nil %}
-          {% if site.data.coauthors[author.last] %}
-            {% for coauthor in site.data.coauthors[author.last] %}
-              {% if coauthor.firstname contains author.first %}
-                {% assign coauthor_url = coauthor.url %}
-                {% break %}
-              {% endif %}
-            {% endfor %}
-          {% endif %}
+    <div class="title">{{entry.title}}</div>
+    <div class="author">{{entry.authors}}</div>
 
-          {% if forloop.length == 1 %}
-            {% if author_is_self %}
-              <em>{{author.last}}, {{author.first}}</em>
-            {% else %}
-              {{author.last}}, {{author.first}}
-            {% endif %}
-          {% else %}
-            {% unless forloop.last %}
-              {% if author_is_self %}
-                <em>{{author.last}}, {{author.first}}</em>,
-              {% else %}
-                {% if coauthor_url %}
-                  <a href="{{coauthor_url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
-                {% else %}
-                  {{author.last}}, {{author.first}},
-                {% endif %}
-              {% endif %}
-            {% else %}
-              {% if author_is_self %}
-                and <em>{{author.last}}, {{author.first}}</em>
-              {% else %}
-                {% if coauthor_url %}
-                  and <a href="{{coauthor_url}}" target="_blank">{{author.last}}, {{author.first}}</a>
-                {% else %}
-                  and {{author.last}}, {{author.first}}
-                {% endif %}
-              {% endif %}
-            {% endunless %}
-          {% endif %}
-        {% endfor %} -->
-      <!-- </div> -->
-
-      <div class="periodical">
+    <div class="periodical">
       {% if entry.type == "article" %}
-        <em>{{entry.journal}}</em>
+      <em>{{entry.journal}}</em>
       {% elsif entry.type == "inproceedings" %}
-        <em>In {{entry.booktitle}}</em>
+      <em>In {{entry.booktitle}}</em>
       {% endif %}
       {% if entry.year %}
-        {{entry.year}}
+      {{entry.year}}
       {% endif %}
-      </div>
+    </div>
     {% endif %}
 
     <div class="links">
-    {% if entry.abstract %}
+      {% if entry.abstract %}
       <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    {% endif %}
-    {% if entry.arxiv %}
-      <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
-    {% endif %}
-    {% if entry.html %}
+      <a class="bib btn btn-sm z-depth-0" onclick="togg({{entry.key}})" role="button">Bibtex</a>
+      {% endif %}
+      {% if entry.arxiv %}
+      <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button"
+        target="_blank">arXiv</a>
+      {% endif %}
+      {% if entry.html %}
       <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
-    {% endif %}
-    {% if entry.pdf %}
+      {% endif %}
+      {% if entry.pdf %}
       {% if entry.pdf contains '://' %}
       <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
       {% else %}
-      <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button"
+        target="_blank">PDF</a>
       {% endif %}
-    {% endif %}
-    {% if entry.supp %}
+      {% endif %}
+      {% if entry.supp %}
       {% if entry.supp contains '://' %}
       <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Supp</a>
       {% else %}
-      <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Supp</a>
+      <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button"
+        target="_blank">Supp</a>
       {% endif %}
-    {% endif %}
-    {% if entry.blog %}
+      {% endif %}
+      {% if entry.blog %}
       <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Blog</a>
-    {% endif %}
-    {% if entry.code %}
+      {% endif %}
+      {% if entry.code %}
       <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
-    {% endif %}
-    {% if entry.poster %}
+      {% endif %}
+      {% if entry.poster %}
       {% if entry.poster contains '://' %}
       <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Poster</a>
       {% else %}
-      <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Poster</a>
+      <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button"
+        target="_blank">Poster</a>
       {% endif %}
-    {% endif %}
-    {% if entry.slides %}
+      {% endif %}
+      {% if entry.slides %}
       {% if entry.slides contains '://' %}
       <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
       {% else %}
-      <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+      <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button"
+        target="_blank">Slides</a>
       {% endif %}
-    {% endif %}
-    {% if entry.website %}
+      {% endif %}
+      {% if entry.website %}
       <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
-    {% endif %}
+      {% endif %}
     </div>
 
     <!-- Hidden abstract block -->
@@ -134,5 +205,19 @@
       <p>{{ entry.abstract }}</p>
     </div>
     {% endif %}
+
+    <div class="hide" id="{{entry.key}}"><br>
+      <p>
+        @misc{<br>
+        title={{entry.title}}<br>
+        authors = {{entry.authors}}<br>
+        year={{entry.year}}<br>
+        pdf={{entry.pdf}} <br>
+        journal={{entry.journal}}<br>
+        }
+
+      </p>
+    </div>
   </div>
 </div>
+{% endif %}

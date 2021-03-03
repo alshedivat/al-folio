@@ -1,0 +1,89 @@
+@article{bastos2021recon,
+  title={RECON: Relation Extraction using Knowledge Graph Context in a Graph Neural Network},
+  authors={Anson Bastos, Abhishek Nadgeri, Kuldeep Singh, Isaiah Onando Mulang, Saeedeh Shekarpour, Johannes Hoffart, and Manohar Kaul},
+  abstract={In this paper, we present a novel method named RECON, that automatically identifies relations in a sentence (sentential relation extraction) and aligns to a knowledge graph (KG). RECON uses a graph neural network to learn representations of both the sentence as well as facts stored in a KG, improving the overall extraction quality. These facts, including entity attributes (label, alias, description, instance-of) and factual triples, have not been collectively used in the state of the art methods. We evaluate the effect of various forms of representing the KG context on the performance of RECON. The empirical evaluation on two standard relation extraction datasets shows that RECON significantly outperforms all state of the art methods on NYT Freebase and Wikidata datasets.},
+
+  journal={Web Conference},
+  year={2021},
+  pdf={https://arxiv.org/pdf/2009.08694.pdf},
+  eprint={2009.08694},
+  image={/assets/img/selectedpub/recon.webp},
+  selected={true}
+}
+
+@article{sharma2020selfsupervised,
+  title={Self-Supervised Few-Shot Learning on Point Clouds},
+  authors={Charu Sharma and Manohar Kaul},
+  abstract={The increased availability of massive point clouds coupled with their utility in a wide variety of applications such as robotics, shape synthesis, and self-driving cars has attracted increased attention from both industry and academia. Recently, deep neural networks operating on labeled point clouds have shown promising results on supervised learning tasks like classification and segmentation. However, supervised learning leads to the cumbersome task of annotating the point clouds. To combat this problem, we propose two novel self-supervised pre-training tasks that encode a hierarchical partitioning of the point clouds using a cover-tree, where point cloud subsets lie within balls of varying radii at each level of the cover-tree. Furthermore, our self-supervised learning network is restricted to pre-train on the support set (comprising of scarce training examples) used to train the downstream network in a few-shot learning (FSL) setting. Finally, the fully-trained self-supervised network's point embeddings are used to initialize the downstream task's network. We present a comprehensive empirical evaluation of our method on both downstream classification and segmentation tasks and show that supervised methods pre-trained with our self-supervised learning method significantly improve the accuracy of state-of-the-art methods. Additionally, our method also outperforms previous unsupervised methods in downstream classification tasks.},
+
+  journal={Neural Information Processing Systems},
+  year={2020},
+  pdf={https://arxiv.org/pdf/2009.14168.pdf},
+  code={https://github.com/charusharma1991/SSL_PointClouds},
+  eprint={2009.14168},
+  image={/assets/img/selectedpub/sslfsl.webp},
+  selected={true}
+}
+
+@article{sharma2020simplicial,
+  title={Simplicial Complex based Point Correspondence between Images warped onto Manifolds},
+  authors={Charu Sharma and Manohar Kaul},
+  abstract={Recent increase in the availability of warped images projected onto a manifold (e.g., omnidirectional spherical images), coupled with the success of higher-order assignment methods, has sparked an interest in the search for improved higher-order matching algorithms on warped images due to projection. Although currently, several existing methods 'flatten' such 3D images to use planar graph / hypergraph matching methods, they still suffer from severe distortions and other undesired artifacts, which result in inaccurate matching. Alternatively, current planar methods cannot be trivially extended to effectively match points on images warped onto manifolds. Hence, matching on these warped images persists as a formidable challenge. In this paper, we pose the assignment problem as finding a bijective map between two graph induced simplicial complexes, which are higher-order analogues of graphs. We propose a constrained quadratic assignment problem (QAP) that matches each p-skeleton of the simplicial complexes, iterating from the highest to the lowest dimension. The accuracy and robustness of our approach are illustrated on both synthetic and real-world spherical / warped (projected) images with known ground-truth correspondences. We significantly outperform existing state-of-the-art spherical matching methods on a diverse set of datasets.},
+
+  journal={European Conference on Computer Vision},
+  year={2020},
+  pdf={https://arxiv.org/pdf/2007.02381.pdf},
+  code={https://github.com/charusharma1991/PointCorrespondence},
+  blog={https://medium.com/@charusharma1991/simplicial-complex-based-point-correspondence-between-images-warped-onto-manifolds-a8c541d2398f},
+  eprint={2007.02381},
+  image={/assets/img/selectedpub/sc1.png},
+  selected={true}
+}
+
+
+@article{chauhan2020fewshot,
+  title={Few-shot Learning on Graphs via Super-classes based on Graph Spectral Measures},
+  authors={Jatin Chauhan, Deepak Nathani, and Manohar Kaul},
+  abstract={We propose to study the problem of few-shot graph classification in graph neural networks (GNNs) to recognize unseen classes, given limited labeled graph examples. Despite several interesting GNN variants being proposed recently for node and graph classification tasks, when faced with scarce labeled examples in the few-shot setting, these GNNs exhibit significant loss in classification performance. Here, we present an approach where a probability measure is assigned to each graph based on the spectrum of the graph’s normalized Laplacian. This enables us to accordingly cluster the graph base-labels associated with each graph into super-classes, where the L^p Wasserstein distance serves as our underlying distance metric. Subsequently, a super-graph constructed based on the super-classes is then fed to our proposed GNN framework which exploits the latent inter-class relationships made explicit by the super-graph to achieve better class label separation among the graphs. We conduct exhaustive empirical evaluations of our proposed method and show that it outperforms both the adaptation of state-of-the-art graph classification methods to few-shot scenario and our naive baseline GNNs. Additionally, we also extend and study the behavior of our method to semi-supervised and active learning scenarios.},
+
+  journal={International Conference on Learning Representations},
+  year={2020},
+  pdf={http://raiith.iith.ac.in/7513/},
+  code={https://github.com/chauhanjatin10/GraphsFewShot},
+  blog={https://medium.com/@cs17btech11019/few-shot-learning-on-graphs-f6312a9e9de5},
+  eprint={2002.12815},
+  image={/assets/img/selectedpub/few_shot.webp},
+  selected={true}
+}
+
+
+@article{nathani2019learning,
+  title={Learning Attention-based Embeddings for Relation Prediction in Knowledge Graphs (long paper)},
+  authors={Deepak Nathani, Jatin Chauhan, Charu Sharma, and Manohar Kaul},
+  abstract={The recent proliferation of knowledge graphs (KGs) coupled with incomplete or partial information, in the form of missing relations (links) between entities, has fueled a lot of research on knowledge base completion (also known as relation prediction). Several recent works suggest that convolutional neural network (CNN) based models generate richer and more expressive feature embeddings and hence also perform well on relation prediction. However, we observe that these KG embeddings treat triples independently and thus fail to cover the complex and hidden information that is inherently implicit in the local neighborhood surrounding a triple. To this effect, our paper proposes a novel attention-based feature embedding that captures both entity and relation features in any given entity’s neighborhood. Additionally, we also encapsulate relation clusters and multi-hop relations in our model. Our empirical study offers insights into the efficacy of our attention-based model and we show marked performance gains in comparison to state-of-the-art methods on all datasets.},
+
+  journal={Association for Computational Linguistics},
+  year={2019},
+  pdf={https://arxiv.org/pdf/1906.01195.pdf},
+  code={https://github.com/deepakn97/relationPrediction},
+  blog={https://deepakn97.github.io/blog/2019/Knowledge-Base-Relation-Prediction/},
+  eprint={1906.01195},
+  image={/assets/img/selectedpub/attention_relations.webp},
+  selected={true}
+}
+
+
+@article{sharma2020solving,
+  title={Solving Partial Assignment Problems using Random Clique Complexes},
+  authors={Charu Sharma, Deepak Nathani, Manohar Kaul},
+  abstract={We present an alternate formulation of the partial assignment problem as matching random clique complexes, that are higher-order analogues of random graphs, designed to provide a set of invariants that better detect higher-order structure. The proposed method creates random clique adjacency matrices for each k-skeleton of the random clique complexes and matches them, taking into account each point as the affine combination of its geometric neighborhood. We justify our solution theoretically, by analyzing the algorithm’s runtime and storage complexity along with the asymptotic behavior of the quadratic assignment problem (QAP) that is associated with the underlying random adjacency matrices. Accuracy experiments on both synthetic and real-world datasets containing severe occlusions and distortions, demonstrate the robustness of our approach. We outperform diverse matching algorithm by a significant margin.},
+
+  journal={International Conference on Machine Learning},
+  year={2018},
+  pdf={https://arxiv.org/pdf/1907.01739.pdf},
+  code={https://github.com/charusharma1991/RandomCliqueComplexes_ICML2018},
+  blog={https://medium.com/@charusharma1991/graph-matching-partial-assignment-problem-using-random-clique-complexes-59aef2bf7b57},
+  eprint={1907.01739},
+  image={/assets/img/selectedpub/random_clique.webp},
+  selected={true}
+}
