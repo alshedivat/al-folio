@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.content {
+  float: left;
+  width: 70%;
+  padding: 10px;
+}
+
+.twitter {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 100%;
+  }
+}
+
+</style>
+
+
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == blank %}{{ site.title }}{% else %}<span class="font-weight-bold">{{ site.first_name }}</span>
+      {{ site.middle_name }} {{ site.last_name }}{% endif %}
+    </h1>
+    <p class="desc">{{ page.description }}</p>
+  </header>
+
+  <article>
+    <div class="row">
+      <div class="content">
+        <div class="clearfix">
+          {{ content }}
+        </div>
+        {% if page.news %}
+        {% include news.html %}
+        {% endif %}
+        {% if page.selected_papers %}
+        {% include selected_papers.html %}
+        {% endif %}
+      </div>
+      <div class="twitter">
+        {% if page.twitter %}
+        <a class="twitter-timeline" data-tweet-limit="3" href="https://twitter.com/ManuKaul1?ref_src=twsrc%5Etfw">Tweets
+          by Manohar Kaul</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if page.social %}
+    <div class="social">
+      {% include social.html %}
+      <div class="contact-note">{{ site.contact_note }}</div>
+    </div>
+    {% endif %}
+  </article>
+
+</div>

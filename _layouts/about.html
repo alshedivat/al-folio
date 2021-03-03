@@ -1,80 +1,58 @@
 ---
 layout: default
 ---
-<style>
-* {
-  box-sizing: border-box;
-}
 
-/* Create two equal columns that floats next to each other */
-.content {
-  float: left;
-  width: 70%;
-  padding: 10px;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.twitter {
-  float: left;
-  width: 30%;
-  padding: 10px;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 col-md-8">
+                <header class="post-header">
+                <h1 class="post-title">
+                    {% if site.title == blank %}{{ site.title }}{% else %}<span class="font-weight-bold">{{
+                        site.first_name }}</span>
+                    {{ site.middle_name }} {{ site.last_name }}{% endif %}
+                </h1>
+                <!-- <p class="desc">{{ page.description }}</p> -->
+                </header>
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1000px) {
-  .column {
-    width: 100%;
-  }
-}
-
-</style>
-
-
-
-<div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == blank %}{{ site.title }}{% else %}<span class="font-weight-bold">{{ site.first_name }}</span>
-      {{ site.middle_name }} {{ site.last_name }}{% endif %}
-    </h1>
-    <p class="desc">{{ page.description }}</p>
-  </header>
-
-  <article>
-    <div class="row">
-      <div class="content">
-        <div class="clearfix">
-          {{ content }}
+                <div class="content">
+                    <div>
+                        <img style="float: left; margin: 20px; margin-top: 5px; margin-left: 12px; margin-bottom:5px;" 
+                            loading="lazy" class="alignleft align_content" src="{{ site.baseurl }}/assets/img/prof_pic.jpg" alt=""
+                            sizes="(max-width: 250px) 100vw, 250px" width="200" height="250">
+                    </div>
+                    <div class="clearfix" style="font-family: 'Lato', sans-serif;font-size: 18;">
+                      {{ content }}
+                    </div>
+                    {% if page.news %}
+                    {% include news.html %}
+                    {% endif %}
+                    <!-- {% if page.selected_papers %}
+                    {% include selected_papers.html %}
+                    {% endif %} -->
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="twitter" style="overflow: scroll;">
+                    {% if page.twitter %}
+                    <a class="twitter-timeline" data-tweet-limit="2" href="https://twitter.com/ManuKaul1?ref_src=twsrc%5Etfw">Tweets
+                      by Manohar Kaul</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    {% endif %}
+                  </div>
+            </div>
         </div>
-        {% if page.news %}
-        {% include news.html %}
-        {% endif %}
-        {% if page.selected_papers %}
-        {% include selected_papers.html %}
-        {% endif %}
-      </div>
-      <div class="twitter">
-        {% if page.twitter %}
-        <a class="twitter-timeline" data-tweet-limit="3" href="https://twitter.com/ManuKaul1?ref_src=twsrc%5Etfw">Tweets
-          by Manohar Kaul</a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        {% endif %}
-      </div>
     </div>
+</body>
 
-    {% if page.social %}
-    <div class="social">
-      {% include social.html %}
-      <div class="contact-note">{{ site.contact_note }}</div>
-    </div>
-    {% endif %}
-  </article>
-
-</div>
+</html>
