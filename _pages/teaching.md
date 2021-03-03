@@ -2,8 +2,13 @@
 layout: page
 permalink: /teaching/
 title: Teaching
+<<<<<<< HEAD
 nav: teaching
 description: classes, workshops, and teaching material
+=======
+description: Materials for courses you taught. Replace this text with your description.
+nav: true
+>>>>>>> 3b750333ca3537fb78afb84163b8c4de9b7166a7
 ---
 
 <!-- <h3 class="mt-4">Indian Institute of Technology, Hyderabad</h3> -->
