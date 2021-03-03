@@ -74,7 +74,6 @@ font-weight: bold;
       			<div class="title">Conference on Information and Knowledge Management (CIKM)</div>
   		</div>
 	</div>
-
 </div>
 
 <hr>

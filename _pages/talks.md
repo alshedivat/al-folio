@@ -41,5 +41,4 @@ font-style: italic
       			<div class="author">Computational Topology Workshop, Dalian University of Technology and in Hebei Normal University, China.</div>
   		</div>
 	</div>
-
 </div>
