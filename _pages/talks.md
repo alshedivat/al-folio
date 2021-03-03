@@ -6,7 +6,7 @@ description: Talks given by me
 nav: true
 ---
 <style>
-.title{
+.talk{
 font-weight: bold;
 margin-top: 2rem;
 }
@@ -27,7 +27,7 @@ font-style: italic
   		</div>
 
   		<div class="col-sm-8">
-      			<div class="title">Invited Speaker at Topological Data Analysis and Beyond Workshop</div>
+      			<div class="talk">Invited Speaker at Topological Data Analysis and Beyond Workshop</div>
       			<div class="venue">NeurIPS 2020 <i>(virtual)</i></div>
   		</div>
 	</div>
@@ -40,7 +40,7 @@ font-style: italic
   		</div>
 
   		<div class="col-sm-8">
-      			<div class="title">Solving Partial Assignment Problems using Random Clique Complexes</div>
+      			<div class="talk">Solving Partial Assignment Problems using Random Clique Complexes</div>
       			<div class="venue">Computational Topology Workshop, Dalian University of Technology and in Hebei Normal University, China</div>
   		</div>
 	</div>
@@ -54,7 +54,7 @@ font-style: italic
   		</div>
 
   		<div class="col-sm-8">
-      			<div class="title">On Graph Kernels and Embeddings at Computational Topology Workshop</div>
+      			<div class="talk">On Graph Kernels and Embeddings at Computational Topology Workshop</div>
       			<div class="venue">Dalian University of Technology and in Hebei Normal University, China</div>
   		</div>
 	</div>
@@ -67,7 +67,7 @@ font-style: italic
   		</div>
 
   		<div class="col-sm-8">
-      			<div class="title">Solving Partial Assignment Problems using Random Clique Complexes</div>
+      			<div class="talk">Solving Partial Assignment Problems using Random Clique Complexes</div>
       			<div class="venue">Topology Seminar, Shinshu University, Japan</div>
   		</div>
 	</div>
@@ -80,7 +80,7 @@ font-style: italic
   		</div>
 
   		<div class="col-sm-8">
-      			<div class="title">Works using Geometry and Algebraic Topology</div>
+      			<div class="talk">Works using Geometry and Algebraic Topology</div>
       			<div class="venue">IBM Research, New Delhi, India</div>
   		</div>
 	</div>
@@ -93,7 +93,7 @@ font-style: italic
   		</div>
 
   		<div class="col-sm-8">
-      			<div class="title">New Lower and Upper Distance Bounds for Shortest Distance Queries on Terrains</div>
+      			<div class="talk">New Lower and Upper Distance Bounds for Shortest Distance Queries on Terrains</div>
       			<div class="venue">VLDB 2016, New Delhi, India</div>
   		</div>
 	</div>
@@ -106,7 +106,7 @@ font-style: italic
   		</div>
 
   		<div class="col-sm-8">
-      			<div class="title">Moving Object Databases</div>
+      			<div class="talk">Moving Object Databases</div>
       			<div class="venue">Big Data Workshop held at IIT Mandi, India</div>
   		</div>
 	</div>
@@ -119,7 +119,7 @@ font-style: italic
   		</div>
 
   		<div class="col-sm-8">
-      			<div class="title">Distance Bounds for Spatial Queries on Polyhedral Surfaces</div>
+      			<div class="talk">Distance Bounds for Spatial Queries on Polyhedral Surfaces</div>
       			<div class="venue">Department of Computer Science and Engineering, IIT Bombay, India</div>
   		</div>
 	</div>
@@ -132,7 +132,7 @@ font-style: italic
   		</div>
 
   		<div class="col-sm-8">
-      			<div class="title">Scalable Machine Learning Library Related Research</div>
+      			<div class="talk">Scalable Machine Learning Library Related Research</div>
       			<div class="venue">Amazon, Berlin, Germany</div>
   		</div>
 	</div>
@@ -145,7 +145,7 @@ font-style: italic
   		</div>
 
   		<div class="col-sm-8">
-      			<div class="title">Finding Better Distance Bounds for Shortest Surface Paths on 3D Terrains</div>
+      			<div class="talk">Finding Better Distance Bounds for Shortest Surface Paths on 3D Terrains</div>
       			<div class="venue">Department of Computer Science and Engineering, Chalmers University of Technology, Sweden</div>
   		</div>
 	</div>
@@ -158,7 +158,7 @@ font-style: italic
   		</div>
 
   		<div class="col-sm-8">
-      			<div class="title">Building Accurate 3D Spatial Networks to Enable Next Generation Intelligent Transportation Systems</div>
+      			<div class="talk">Building Accurate 3D Spatial Networks to Enable Next Generation Intelligent Transportation Systems</div>
       			<div class="venue">IEEE International Conference on Mobile Data Management (MDM) 2013, Milan, Italy</div>
   		</div>
 	</div>
