@@ -2,7 +2,7 @@
 layout: page
 permalink: /visits/
 title: Visits
-description: Visiting positions to other universities.
+description:
 nav: true
 ---
 
