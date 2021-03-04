@@ -227,6 +227,7 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">August - November 2017</h6>
+<p>The course introduces indexing techniques for spatial and temporal data, covering even more abstract metric spaces. It describes a range of indexing techniques targeting different types of data, including their underlying principles and properties, as well as their support for queries and updates. The contents of this course are collected from state-of-the-art research papers (i.e., not found in textbooks). - Below is a broad breakdown of the course - Indexing low-dimensional data (1-5 dimensions) E.g. Indexing Spatial Data with R-trees, R-tree variants, Space-Filling Curves (Hilbert, Z-curves etc), Quad-trees etc. - Indexing high-dimensional data E.g. Locality Sensitive Hashing (LSH), VA File - Indexing Metric Spaces E.g. Metric Trees, GNAT, VP-Tree, iDistance - Indexing Time Series E.g. TS tree, Chebyshev Polynomials, Wavelet-based indexing, MR Index</p>
   </div>
 </div>
 
@@ -320,5 +321,6 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">July - November 2015</h6>
+<p>The course introduces indexing techniques for spatial and temporal data, covering even more abstract metric spaces. It describes a range of indexing techniques targeting different types of data, including their underlying principles and properties, as well as their support for queries and updates. The contents of this course are collected from state-of-the-art research papers (i.e., not found in textbooks). - Below is a broad breakdown of the course - Indexing low-dimensional data (1-5 dimensions) E.g. Indexing Spatial Data with R-trees, R-tree variants, Space-Filling Curves (Hilbert, Z-curves etc), Quad-trees etc. - Indexing high-dimensional data E.g. Locality Sensitive Hashing (LSH), VA File - Indexing Metric Spaces E.g. Metric Trees, GNAT, VP-Tree, iDistance - Indexing Time Series E.g. TS tree, Chebyshev Polynomials, Wavelet-based indexing, MR Index</p>
   </div>
 </div>
