@@ -19,18 +19,27 @@ font-style: italic
 
 
 <div class="publications">
-<div class="row">
-<div id="presentation-embed-38938281"></div>
-<script src="https://slideslive.com/embed_presentation.js"></script>
+	<div class="row">
+			<div id="presentation-embed-38936772"></div>
+			<script src='https://slideslive.com/embed_presentation.js'></script>
+			<script>
+    				embed = new SlidesLiveEmbed('presentation-embed-38936772', {
+        				presentationId: '38936772',
+        				autoPlay: false, // change to true to autoplay the embedded presentation
+        				verticalEnabled: true
+    				});
+			</script>
+			<div id="presentation-embed-38938281"></div>
+			<script src="https://slideslive.com/embed_presentation.js"></script>
 
-<script>
-    embed = new SlidesLiveEmbed('presentation-embed-38938281', {
-        presentationId: '38938281',
-        autoPlay: false, // change to true to autoplay the embedded presentation
-        verticalEnabled: true
-    });
-</script>
-</div>
+			<script>
+    				embed = new SlidesLiveEmbed('presentation-embed-38938281', {
+        				presentationId: '38938281',
+        				autoPlay: false, // change to true to autoplay the embedded presentation
+        				verticalEnabled: true
+    				});
+			</script>
+	</div>
 	<h2 class="year">Dec 2020</h2>
 	<div class="row">
   		<div class="col-sm-2 abbr">
