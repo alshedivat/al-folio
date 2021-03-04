@@ -50,12 +50,14 @@ font-style: italic
       			<div class="talk">Invited Speaker at Topological Data Analysis and Beyond Workshop</div>
       			<div class="venue">NeurIPS 2020 <i>(virtual)</i></div>
   		</div>
+	</div>
+	<div class="row">
 		<div class="col-sm-2 abbr">
     		<img width="100%" src="/assets/img/talks/nips.webp">
   		</div>
 
   		<div class="col-sm-8">
-      			<div class="talk">Self Supervised Few-Shot Learning on Point Clouds (<a href="https://slideslive.com/38936772/selfsupervised-fewshot-learning-on-point-clouds?ref=speaker-44210-latest")</div>
+      			<div class="talk">Self Supervised Few-Shot Learning on Point Clouds ( <a href="https://slideslive.com/38936772/selfsupervised-fewshot-learning-on-point-clouds?ref=speaker-44210-latest" target="_blank"><i>Talk</i></a> )</div>
       			<div class="venue">NeurIPS 2020 <i>(virtual)</i></div>
   		</div>
 	</div>
