@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: Teaching
 nav: true
-description: classes, workshops, and teaching material
+description:
 ---
 
 <!-- <h3 class="mt-4">Indian Institute of Technology, Hyderabad</h3> -->
