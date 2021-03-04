@@ -2,7 +2,7 @@
 
 [![build status](https://travis-ci.org/alshedivat/al-folio.svg?branch=master)](https://travis-ci.org/alshedivat/al-folio)
 [![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
-[![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://GitHub.com/alsheidvat/al-folio/graphs/contributors/)
+[![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://GitHub.com/alshedivat/al-folio/graphs/contributors/)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alshedivat/al-folio)
 ![GitHub](https://img.shields.io/github/license/alshedivat/al-folio?color=blue)
 [![GitHub stars](https://img.shields.io/github/stars/alshedivat/al-folio)](https://github.com/alshedivat/al-folio)
@@ -53,6 +53,8 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://yoonholee.com/" target="_blank">★</a>
 <a href="https://zrqiao.github.io/" target="_blank">★</a>
 <a href="https://abstractgeek.github.io/" target="_blank">★</a>
+<a href="https://www.compphys.de/" target="_blank">★</a>
+
 </td>
 </tr>
 <tr>
@@ -78,7 +80,8 @@ CMU Distributed Systems (<a href="https://andrew.cmu.edu/course/15-440/" target=
 <td>
 ML Retrospectives (NeurIPS: <a href="https://ml-retrospectives.github.io/neurips2019/" target="_blank">2019</a>, <a href="https://ml-retrospectives.github.io/neurips2020/" target="_blank">2020</a>; ICML: <a href="https://ml-retrospectives.github.io/icml2020/" target="_blank">2020</a>) <br>
 HAMLETS (NeurIPS: <a href="https://hamlets-workshop.github.io/" target="_blank">2020</a>) <br>
-ICBINB (NeurIPS: <a href="https://i-cant-believe-its-not-better.github.io/" target="_blank">2020</a>)
+ICBINB (NeurIPS: <a href="https://i-cant-believe-its-not-better.github.io/" target="_blank">2020</a>) <br>
+Neural Compression (ICLR: <a href="https://neuralcompression.github.io/" target="_blank">2021</a>)
 </td>
 </tr>
 </table>
