@@ -27,27 +27,43 @@ layout: default
                 </header>
 
                 <div class="content">
-                    <div style="width:200px;">
-                        <img style="float: left; margin: 20px; margin-top: 5px; margin-left: 12px; margin-bottom:5px;"
+                    <div style="width: 200px">
+
+                        <img style="float: left; margin: 20px; margin-top: 5px; margin-left: 11px; margin-bottom:5px;"
                             loading="lazy" class="alignleft align_content"
                             src="{{ site.baseurl }}/assets/img/prof_pic.jpg" alt="" height="250">
 
-                        <div>
-                            <div style="float:left; margin-left: 80px; display:flex;margin-right: 100px;">
 
+
+                        <div>
+                            <div class="" style="float:left; display:flex; padding-right:27px; font-size:12px; color:#950000; white-space:nowrap">
+                                <blockquote class="ml-3" ><b>Email: mkaul [at] cse [dot] iith [dot] ac [dot] in</b></blockquote>
+                            </div>
+                            <div class="pb-1 mb-2" style="float:left; height: 12px; margin-left: 60px; padding-right:50px;display:flex; white-space:nowrap">
+
+                                <br>
                                 <!-- Social Icons -->
-                                <a class="fa fa-graduation-cap" href="https://dblp.uni-trier.de/pers/hd/k/Kaul:Manohar" target="blank" style="font-size: 1.5em;"></a>
+                                <a class="fa fa-graduation-cap"
+                                    href="https://scholar.google.dk/citations?user=jNroyK4AAAAJ&hl=en" target="blank"
+                                    style="font-size: 1.5em;"></a>
                                 &nbsp;
                                 &nbsp;
-                                <a class="fa fa-twitter" href="https://twitter.com/mkaul1" target="blank" style="margin:0px 5px;font-size: 1.5em;"></a>
+                                <a class="fa fa-twitter" href="https://twitter.com/mkaul1" target="blank"
+                                    style="margin:0px 5px;font-size: 1.5em;"></a>
                                 &nbsp;
                                 &nbsp;
-                                <a class="fa fa-linkedin" href="https://www.linkedin.com/in/manu-kaul-76399527" target="blank"  style="font-size: 1.5em;"></a>
+                                <a class="fa fa-linkedin" href="https://www.linkedin.com/in/manu-kaul-76399527"
+                                    target="blank" style="font-size: 1.5em;"></a>
                                 &nbsp;
-                                <!-- Social Icons -->
-                                
+                                &nbsp;
+                                <a class="iconify" data-icon="simple-icons:dblp"
+                                    href="https://dblp.uni-trier.de/pers/hd/k/Kaul:Manohar" target="blank"
+                                    style="margin:0px 5px;font-size: 1.5em;color:#950000;"></a>
+                                &nbsp;
+                                <!-- Social Icons-->
 
                             </div>
+                            <!-- <h6>Email: mkaul [at] cse [dot] iith [dot] ac [dot] in</h6> -->
                         </div>
                     </div>
 
@@ -62,10 +78,13 @@ layout: default
                                 src="{{ site.baseurl }}/assets/img/kramalab-192x192.png" alt=""
                                 sizes="(max-width: 70px) 100vw, 70px" width="70" height="70">&nbsp; &nbsp;Learn more
                             about the <strong>
-                                <a href="https://krama.cse.iith.ac.in" target="blank"> क्रम (Krama) Lab</a></strong>&nbsp;and 
-                                how to <a href="https://krama.cse.iith.ac.in/join/" target="blank">join us.</a>
+                                <a href="https://krama.cse.iith.ac.in" target="blank"> क्रम (Krama)
+                                    Lab</a></strong>&nbsp;and
+                            how to <a href="https://krama.cse.iith.ac.in/join/" target="blank">join us.</a>
                         </p>
                     </div>
+
+                    <!-- News -->
                     <div style="margin-top: 3rem;">
                         {% if page.news %}
                         {% include news.html %}
@@ -90,5 +109,6 @@ layout: default
     </div>
 
 </body>
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
 </html>
