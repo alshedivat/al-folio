@@ -20,7 +20,7 @@ font-style: italic
 
 <div class="publications">
 	<div class="row">
-			<div id="presentation-embed-38936772"></div>
+			<!-- <div id="presentation-embed-38936772"></div>
 			<script src='https://slideslive.com/embed_presentation.js'></script>
 			<script>
     				embed = new SlidesLiveEmbed('presentation-embed-38936772', {
@@ -38,7 +38,7 @@ font-style: italic
         				autoPlay: false, // change to true to autoplay the embedded presentation
         				verticalEnabled: true
     				});
-			</script>
+			</script> --> 
 	</div>
 	<h2 class="year">Dec 2020</h2>
 	<div class="row">
