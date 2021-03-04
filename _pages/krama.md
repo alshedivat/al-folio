@@ -1,7 +1,7 @@
 ---
-layout: page
-permalink: /krama/
-# title: Visits
-description:
-nav: true
+# layout: page
+# permalink: /
+# title: krama
+# description:
+# nav: true
 ---
