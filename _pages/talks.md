@@ -28,7 +28,7 @@ font-style: italic
         				autoPlay: false, // change to true to autoplay the embedded presentation
         				verticalEnabled: true
     				});
-			</script>
+			</script> --> 
 			<div id="presentation-embed-38938281"></div>
 			<script src="https://slideslive.com/embed_presentation.js"></script>
 
@@ -38,7 +38,7 @@ font-style: italic
         				autoPlay: false, // change to true to autoplay the embedded presentation
         				verticalEnabled: true
     				});
-			</script> --> 
+			</script> 
 	</div>
 	<h2 class="year">Dec 2020</h2>
 	<div class="row">
