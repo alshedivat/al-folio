@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2021-02-02 15:59:00-0400
+date: 2021-03-08 15:59:00-0400
 inline: true
 ---
-Chaired the [AAAI Doctoral Consortium 2021](https://aaaidc.github.io/dc2021/) with colleague [Anna Reali](https://aaaidc.github.io/dc2021/) from University of Sao Paulo, Brazil.
+I will be speaking at [The Women's Alliance](http://www.thewomensalliance.net/) about my experiences as an early-career scientist on this women's day.
