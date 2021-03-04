@@ -12,7 +12,7 @@ inline: true
 </style>
 
 <div class="draw_bottomline">
-<b>Congratulations Charu and Jatin !</b> Our paper titled 
+<b>Congratulations Charu and Jatin!</b> Our paper titled 
 <a href="https://arxiv.org/pdf/2005.09752.pdf" target="blank" style="color: #b71c1c;">"Learning Representations using Spectral-Biased Random Walks on Graphs"</a> accepted at <b>IJCNN 2020</b>
 
 </div>
