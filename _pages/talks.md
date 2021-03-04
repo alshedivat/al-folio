@@ -50,6 +50,14 @@ font-style: italic
       			<div class="talk">Invited Speaker at Topological Data Analysis and Beyond Workshop</div>
       			<div class="venue">NeurIPS 2020 <i>(virtual)</i></div>
   		</div>
+		<div class="col-sm-2 abbr">
+    		<img width="100%" src="/assets/img/talks/nips.webp">
+  		</div>
+
+  		<div class="col-sm-8">
+      			<div class="talk">Invited Speaker at Topological Data Analysis and Beyond Workshop</div>
+      			<div class="venue">NeurIPS 2020 <i>(virtual)</i></div>
+  		</div>
 	</div>
 
 
