@@ -13,5 +13,5 @@ inline: True
 
 <div class="draw_bottomline">
 <b >Vacancies</b> available for prospective fulltime Ph.D. students. 
-<a href="https://manukaul.github.io/contact/" target="blank" style="color: #b71c1c;">Contact me</a> via e-mail with your CV as an expression of interest. 
+<a href="https://krama.cse.iith.ac.in/contact/" target="blank" style="color: #b71c1c;">Contact me</a> via e-mail with your CV as an expression of interest. 
 </div>
