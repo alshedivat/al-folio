@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /fun/
-title: fun
+permalink: /x/
+title: x
 nav: true
 ---
 
