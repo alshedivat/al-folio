@@ -2,10 +2,27 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Guest lectures and teaching assistanship.
 nav: true
 ---
+___
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## guest lectures
 
-Organize your courses by years, topics, or universities, however you like!
+**Applications of Parallel Computers, UC Berkeley**: *Parallel Algorithms for De Novo Genome Assembly*, Spring 2021.
+
+[slides](https://bit.ly/3beLtwh) \| [video](https://www.youtube.com/watch?v=bJky-GMFob4)
+
+___
+
+## teaching assistantship
+
+**Applications of Parallel Computers, UC Berkeley**, Spring 2021/2020.
+
+**Informatica ed Elementi di Informatica Medica, Politecnico di Milano**, Spring 2018.
+
+___
+
+## mentorship
+
+Summer Undergraduate Program in Engineering Research at UC Berkeley ([SUPERB](https://eecs.berkeley.edu/resources/undergrads/research/superb)) mentor, Summer 2019.

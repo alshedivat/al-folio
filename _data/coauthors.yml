@@ -1,18 +1,35 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Buluç":
+  - firstname: ["Aydın", "A."]
+    url: http://people.eecs.berkeley.edu/~aydin/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Yelick":
+  - firstname: ["Katherine", "K."]
+    url: https://en.wikipedia.org/wiki/Katherine_Yelick
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Ellis":
+  - firstname: ["Marquita", "M."]
+    url: https://sites.google.com/view/about-mme
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Culler": 
+  - firstname: ["David", "D."]
+    url: https://en.wikipedia.org/wiki/David_Culler
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Di Tucci":
+  - firstname: ["Lorenzo", "L."]
+    url: https://www.linkedin.com/in/lorenzoditucci/
+
+"Santambrogio":
+  - firstname: ["Marco", "M.", "Marco Domenico", "M. D."]
+    url: https://www.deib.polimi.it/eng/people/details/356156
+
+"Selvitopi":
+  - firstname: ["Oguz", "O."]
+    url: https://crd.lbl.gov/departments/computer-science/par/members/staff/oguz-selvitopi/
+
+"Oliker":
+  - firstname: ["Leonid", "L."]
+    url: https://crd.lbl.gov/departments/computer-science/par/members/group-lead/leonid-oliker/
+
+"Rokhsar":
+  - firstname: ["Daniel", "D."]
+    url: http://mcb.berkeley.edu/faculty/all/rokhsard
