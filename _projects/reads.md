@@ -20,3 +20,17 @@ img: /assets/img/proj_reads_icon.png
 
 - Semantic Versioning: less nightmare with software upgrades: \
   <https://semver.org>
+
+## Development Environment Setup
+
+- Setting up SSH key with GitHub: \
+  <https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
+
+- Visual Studio Code Remote SSH: \
+  <https://code.visualstudio.com/docs/remote/ssh>
+
+- VS Code Settings sync: \
+  <https://code.visualstudio.com/docs/editor/settings-sync>
+
+- Installing Miniconda locally: \
+  <https://docs.conda.io/en/latest/miniconda.html>
