@@ -17,9 +17,6 @@ layout: default
 
   <article class="post-content">
     {{ content }}
-    {% if page.comments_id %}
-			{% include comments.html %}
-		{% endif %}
   </article>
 
   {% if site.disqus_shortname and page.comments %}
