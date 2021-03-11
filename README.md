@@ -27,6 +27,7 @@ Feel free to add your own page(s) by sending a PR.
 <td>Academics</td>
 <td>
 <a href="http://maruan.alshedivat.com" target="_blank">★</a>
+<a href="https://www.cs.columbia.edu/~chen1ru/" target="_blank">★</a>
 <a href="https://maithraraghu.com" target="_blank">★</a>
 <a href="http://platanois.org" target="_blank">★</a>
 <a href="https://otiliastr.github.io" target="_blank">★</a>
