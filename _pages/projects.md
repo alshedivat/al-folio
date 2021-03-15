@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: 
 nav: true
 ---
-
+<!--
 <div class="projects grid">
 
   {% assign sorted_projects = site.projects | sort: "importance" %}
@@ -45,3 +45,17 @@ nav: true
 {% endfor %}
 
 </div>
+
+-->
+
+• Jun/2016 - Dec/2016 LSD - OpenStack (Professional)
+
+• Jan/2016 - May/2016 LIEC - Petrobrás (Professional)
+
+• Jul/2012 – Jul/2013 Percomp-AOC (Undergraduate)
+
+• Apr/2011 – Jun/2012 Percomp - Positivo (Undergraduate)
+
+• Jan/2011 – Mar/2011 Percomp - Samsung (Undergraduate)
+
+• May/2010 – Dec/2010 Percomp - Signove (Undergraduate)

@@ -11,6 +11,7 @@
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-icon-color: #{$grey-color-dark};
+  --global-year-color: #{$black-color};
 
   .fa-sun {
     display : none;
@@ -25,12 +26,13 @@
 html[data-theme='dark'] {
   --global-bg-color: #{$grey-color-dark};
   --global-text-color: #{$grey-color-light};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$light-cyan-color};
+  --global-theme-color: #BA55D3;
+  --global-hover-color: #ebbaf9;
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
-  --global-icon-color: navajowhite;
+  --global-icon-color: white;
+  --global-year-color: #{$grey-color-light};
 
   .fa-sun {
     padding-left: 10px;
