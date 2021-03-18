@@ -13,9 +13,9 @@ I cloned the theme right away and started customizing by disabling the unneeded 
 - images that can be organized in the way you want, 
 - maths equations, 
 - formats and links, 
-- connect to Google Analytics,
-- and much more. 
-
+- and much more.
+ 
+Also you can connect your webpage to Google Analytics!
 The theme can be used as a portfolio or as a <a href="/Hadi%20Elnemr%20Resume.pdf" target="_blank">cv</a> to access your public information by employers, events organizers and so on. Dark mode is also included in the theme. You can also change the colours in the theme using provided variables with suitable colours. The writing of posts and addition in projects section are easy and are made using a simple markdown with Liquid code. 
 
 I intend to use this website as a 'portfolio' and blog. More additions are coming soon.
