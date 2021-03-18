@@ -1,77 +1,86 @@
 ---
 layout: page
-title: Solon - a Virtual Assistant
-description: a project with a background image
-img: /assets/img/12.jpg
-importance: 1
+title: Solon
+description: A Virtual Assistant to improve productivity and learning
+img: /assets/img/learn-screenshot.png
+importance: 2
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## [Github Repository](https://github.com/ChamsToure/solon)
 
     ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
+    Tech Stack: C++, Python, beautifulsoup4, gTTS
     ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/search-screenshot.png' | relative_url }}" alt="" title="example image"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/learn-screenshot.png' | relative_url }}" alt="" title="example image"/>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+# Solon
+A Virtual Assistant to improve productivity and learning.
+
+## Features
+- using voice or keyboard shortcut to search for definitions and explanation of words or concepts
+- save the searched words as a flashcard
+- transform your personal notes automatically into flashcards
+- create your own decks of flashcards
+- start learning sessions with a goal of correct answers for each card in the choosen deck
+
+![alt text](https://raw.githubusercontent.com/ChamsToure/solon/master/search-demo.gif)
+<br/><br/>
+![alt text](https://raw.githubusercontent.com/ChamsToure/solon/master/learn-demo.gif)
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
+## Before building
+### Set up your browser
+1. set your default browser. You can find the option in the search/search.cpp file.
+If you use Chromium for example:
 ```
+system(("chromium -new-tab " + search2).c_str());
+```
+Replace "chromium" with your default browser:
+* For google chrome: google-chrome or google-chrome-stable (on linux)
+* For Firefox: firefox
+2. On windows, uncomment the ShellExecute function to enable the browser function. This method may
+be easier if you run into issues with the browser set up.
+
+## How to build
+- Open your command line
+- cd to project root directory: solon/
+- Create a build directory: mkdir build
+- Change into the build direcotry: cd build
+- Inside the build directory type: cmake .. && make
+- To execute the application write: ./solon
+
+
+## Required python packages
+- bs4
+- SpeechRecognition
+- gTTS
+- requests
+- playsound
+- To install all the packages type this into your command line: ```pip install bs4 SpeechRecognition gTTS requests playsound ```
+
+## How to use?
+- First of all, I would recommend to set the program as a keyboard shortcut, to use it effortless, quickly and intuitively.
+  You can also create a bash script with the following text:
+  ```
+  #!/bin/bash
+  cd <path-to-build-directory>
+  .solon
+  ```
+- If you already have a collection of notes, you can turn them easily into flashcard:
+    1. Create a .txt file inside /solon/files/decks/<your-filename>.txt
+    2. Copy your entire notes document into the .txt file
+    3. Put a "?" at the end of each question or "#" at the front of a topic title. You will find an example inside the example.txt file.
+    4. Save the file and the program will automatically create the front and back of each flashcard after execution
+
+ - Uncomment line 42-43 inside the scraping.py file.
+ - Every searched keyword is stored in the /files/decks/history.txt file
+
+
