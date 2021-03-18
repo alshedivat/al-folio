@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
+title: Solon - a Virtual Assistant
+description: a project with a background image
+img: /assets/img/12.jpg
+importance: 1
 ---
 
 Every project has a beautiful feature showcase page.
