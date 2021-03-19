@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Home 
 permalink: /
 description: explore unfold rearrange
 
@@ -15,8 +15,11 @@ selected_papers: false #includes a list of papers marked as "selected={true}"
 social: true  #includes social icons at the bottom of the page
 ---
 
-Hi! My name is Chams and I like to build things. 
-I'm interested in Computer Science, Machine Learning and Cognitive Science. 
-My projects are mostly related to these fields.
-The rest of the time I spend with friends, play and coach basketball, and run long distances.
+Hi! My name is Chams and I like to build things to solve Computer Science problems,
+create automated solutions and programs that tries to mimic the Human Behavior.
+<br/>I'm very interested in Machine Learning with a focus on Deep Learning,
+Natural Language Processing and Computer Vision, and Psychology.
+<br/>My [projects](/projects) are mostly related to these fields and are available on [github](https://github.com/ChamsToure).
+
+The rest of the time I play and [coach basketball](https://www.vfl-oldesloe.de/basketball), and [run long distances](https://www.strava.com/athletes/70311685)
 

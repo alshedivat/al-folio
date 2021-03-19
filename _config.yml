@@ -8,7 +8,6 @@ middle_name:
 last_name: Toure
 email: chams.toure@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -42,8 +41,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: chamstoure# your GitHub user name
-twitter_username: # your Twitter handle
+github_username: chamstoure #your GitHub user name
+twitter_username: chamstoure # your Twitter handle
 linkedin_username: chams-abressi-toure-371b83144 #your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
@@ -167,7 +166,7 @@ enable_mansory:             true
 enable_math:                true
 enable_tooltips:            false
 enable_darkmode:            true
-show_social_icons:          false
+show_social_icons:          true
 
 # -----------------------------------------------------------------------------
 # Library versions
