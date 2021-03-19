@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Chams Toure | Chams Toure</title>
+<title>Chams Toure | Solon</title>
 <meta name="description" content="">
 
 <!-- Open Graph -->
@@ -30,7 +30,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/solon/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -95,7 +95,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -154,18 +154,104 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>Blog</h1>
-    <h2>Writings about everything</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Solon</h1>
+    <p class="post-description">A Virtual Assistant to improve productivity and learning</p>
+  </header>
+
+  <article>
+    <h2 id="github-repository"><a href="https://github.com/ChamsToure/solon">Github Repository</a></h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+Tech Stack: C++, Python, beautifulsoup4, gTTS
+---
+</code></pre></div></div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/search-screenshot.png" alt="" title="example image" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/learn-screenshot.png" alt="" title="example image" />
+    </div>
+</div>
+
+<h1 id="solon">Solon</h1>
+<p>A Virtual Assistant to improve productivity and learning.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>using voice or keyboard shortcut to search for definitions and explanation of words or concepts</li>
+  <li>save the searched words as a flashcard</li>
+  <li>transform your personal notes automatically into flashcards</li>
+  <li>create your own decks of flashcards</li>
+  <li>start learning sessions with a goal of correct answers for each card in the choosen deck</li>
+</ul>
+
+<p><img src="https://raw.githubusercontent.com/ChamsToure/solon/master/search-demo.gif" alt="alt text" />
+<br /><br />
+<img src="https://raw.githubusercontent.com/ChamsToure/solon/master/learn-demo.gif" alt="alt text" /></p>
+
+<h2 id="before-building">Before building</h2>
+<h3 id="set-up-your-browser">Set up your browser</h3>
+<ol>
+  <li>set your default browser. You can find the option in the search/search.cpp file.
+If you use Chromium for example:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>system(("chromium -new-tab " + search2).c_str());
+</code></pre></div>    </div>
+    <p>Replace “chromium” with your default browser:</p>
+    <ul>
+      <li>For google chrome: google-chrome or google-chrome-stable (on linux)</li>
+      <li>For Firefox: firefox</li>
+    </ul>
+  </li>
+  <li>On windows, uncomment the ShellExecute function to enable the browser function. This method may
+be easier if you run into issues with the browser set up.</li>
+</ol>
+
+<h2 id="how-to-build">How to build</h2>
+<ul>
+  <li>Open your command line</li>
+  <li>cd to project root directory: solon/</li>
+  <li>Create a build directory: mkdir build</li>
+  <li>Change into the build direcotry: cd build</li>
+  <li>Inside the build directory type: cmake .. &amp;&amp; make</li>
+  <li>To execute the application write: ./solon</li>
+</ul>
+
+<h2 id="required-python-packages">Required python packages</h2>
+<ul>
+  <li>bs4</li>
+  <li>SpeechRecognition</li>
+  <li>gTTS</li>
+  <li>requests</li>
+  <li>playsound</li>
+  <li>To install all the packages type this into your command line: <code class="language-plaintext highlighter-rouge">pip install bs4 SpeechRecognition gTTS requests playsound</code></li>
+</ul>
+
+<h2 id="how-to-use">How to use?</h2>
+<ul>
+  <li>First of all, I would recommend to set the program as a keyboard shortcut, to use it effortless, quickly and intuitively.
+You can also create a bash script with the following text:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+cd &lt;path-to-build-directory&gt;
+.solon
+</code></pre></div>    </div>
+  </li>
+  <li>If you already have a collection of notes, you can turn them easily into flashcard:
+    <ol>
+      <li>Create a .txt file inside /solon/files/decks/<your-filename>.txt</your-filename></li>
+      <li>Copy your entire notes document into the .txt file</li>
+      <li>Put a “?” at the end of each question or “#” at the front of a topic title. You will find an example inside the example.txt file.</li>
+      <li>Save the file and the program will automatically create the front and back of each flashcard after execution</li>
+    </ol>
+  </li>
+  <li>Uncomment line 42-43 inside the scraping.py file.</li>
+  <li>Every searched keyword is stored in the /files/decks/history.txt file</li>
+</ul>
 
 
-  <ul class="post-list">
-    
-  </ul>
-
-  
-
+  </article>
 
 </div>
 

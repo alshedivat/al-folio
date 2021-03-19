@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Chams Toure | Chams Toure</title>
+<title>Chams Toure | Basketball Suite</title>
 <meta name="description" content="">
 
 <!-- Open Graph -->
@@ -30,7 +30,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/bball-suite/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -95,7 +95,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -154,18 +154,66 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>Blog</h1>
-    <h2>Writings about everything</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Basketball Suite</h1>
+    <p class="post-description">A Training Plan Generator for Basketball to pick the right exercises. It also helps you to track and rate good plans, for better reusability.</p>
+  </header>
+
+  <article>
+    <h2 id="github-repository"><a href="https://github.com/ChamsToure/basketball-suite">Github Repository</a></h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+Tech Stack: Python, Flask, oauth2client, gspread, google sheets
+---
+</code></pre></div></div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/panthers-suite-screenshot1.png" alt="" title="example image" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/panthers-suite-screenshot2.png" alt="" title="example image" />
+    </div>
+</div>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>All of the exercises and data is stored in google sheets</li>
+  <li>Add, edit or delete data via google sheets</li>
+  <li>You can choose the category and the intensity of the training session</li>
+  <li>Display the last 5 generated plans</li>
+  <li>Rate plans</li>
+</ul>
+
+<h2 id="required-python-packages">Required Python packages</h2>
+<ul>
+  <li>Flask</li>
+  <li>flask-bootstrap</li>
+  <li>flask-wtf</li>
+  <li>gspread</li>
+  <li>oauth2client</li>
+  <li>To install all packages at once:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  pip install flask flask-bootstrap flask-wtf gspread oauth2client
+</code></pre></div>    </div>
+  </li>
+  <li>To use gspread properly, you have to authenticate to enable API access. Here is the <a href="https://gspread.readthedocs.io/en/latest/oauth2.html">documentation</a></li>
+</ul>
+
+<h2 id="how-to-use">How to use</h2>
+<ol>
+  <li>Create a document named “exercises”</li>
+  <li>Each sheet in the document represents a list of exercises</li>
+  <li>Each entry in the list is a complete exercise with the following properties:
+    <ul>
+      <li>Name, Category, Level, Description</li>
+    </ul>
+  </li>
+  <li>The example.png shows an example file</li>
+  <li>Change the categories to your needs in the service.py file at line 17</li>
+</ol>
 
 
-  <ul class="post-list">
-    
-  </ul>
-
-  
-
+  </article>
 
 </div>
 
