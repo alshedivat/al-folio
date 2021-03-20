@@ -307,6 +307,24 @@ Easily create beautiful grids within your blog posts and project pages:
   </a>
 </p>
 
+### Cookie Consent
+Includes a cookie consent dialog to allow your user to opt out of non-necessary cookies. 
+To block scripts based on the user's cookie settings, include the javascrip as:
+```
+<script type="text/plain" cookie-consent="<level>">
+   // only executed if user agreed to cookies
+</script>
+```
+Where `<level>` is one of:
+- strictly-necessary
+- functionality
+- tracking
+- targeting
+
+###### Disclaimer
+Please note that we do not give any guarantee that our implementation is actually compliant with local laws 
+(such as GDPR), nor do we take any responsibility for resulting legal problems. You need to verify yourself, 
+that your website is compliant with all applicable regulation in your country before publishing.    
 
 ### Other features
 
