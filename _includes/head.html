@@ -43,23 +43,19 @@
 <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
 {% endif %}
 
-{% if site.enable_google_analytics %}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', '{{ site.google_analytics }}');
-  </script>
-{% endif %}
-
-{% if site.enable_panelbear_analytics %}
-<!-- Panelbear Analytics - We respect your privacy -->
-<script async src="https://cdn.panelbear.com/analytics.js?site={{site.panelbear_analytics}}"></script>
-<script>
-    window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
-    panelbear('config', { site: '{{site.panelbear_analytics}}' });
+<!-- Cookie Consent by https://www.CookieConsent.com -->
+{% unless page.disable_cc %}
+<script type="text/javascript" src="//www.cookieconsent.com/releases/3.1.0/cookie-consent.js"></script>
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function () {
+    cookieconsent.run({"notice_banner_type":"headline","consent_type":"express","palette":"dark","language":"en",
+      "change_preferences_selector":"#changeCookiePreferences"});
+  });
 </script>
-{% endif %}
+<noscript>ePrivacy and GPDR Cookie Consent by <a href="https://www.CookieConsent.com/" rel="nofollow noopener">Cookie Consent</a></noscript>
+{% endunless %}
+<!-- include scripts that use cokies and tracking stuff as text/plain and add cookie-consent="<category>"-->
+
+<!-- analytics -->
+<script type="text/plain" cookie-consent="tracking" src="{{ '/assets/js/analytics.js' | relative_url }}"></script>
+
