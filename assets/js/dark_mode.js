@@ -2,7 +2,7 @@ $(document).ready(function() {
     const mode_toggle = document.getElementById("light-toggle");
 
     mode_toggle.addEventListener("click", function() {
-        const temp = localStorage.getItem("theme");
+        const temp = sessionStorage.getItem("theme");
         toggleTheme(temp);
     });
 
@@ -22,7 +22,10 @@ $(document).ready(function() {
         else {
             document.documentElement.removeAttribute("data-theme");
         }
-        localStorage.setItem("theme", theme);
+        sessionStorage.setItem("theme", theme);
+        if(allowThemeStored == true) {
+            localStorage.setItem("theme", theme);
+        }
     };
 
     let trans = () => {

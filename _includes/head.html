@@ -59,3 +59,8 @@
 <!-- analytics -->
 <script type="text/plain" cookie-consent="tracking" src="{{ '/assets/js/analytics.js' | relative_url }}"></script>
 
+<!-- store theme over multiple sessions if functional cookies are on -->
+<script type="text/plain" cookie-consent="functionality">
+var allowThemeStored = true;
+localStorage.setItem("theme",sessionStorage.getItem("theme"));
+</script>
