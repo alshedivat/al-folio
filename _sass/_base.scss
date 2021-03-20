@@ -19,6 +19,17 @@ a, table.table a {
   }
 }
 
+// fix hr tag
+hr {
+  background-color: var(--global-text-color);
+  border-color: var(--global-text-color);
+}
+
+// fix card title
+.card-title {
+  color: black;
+}
+
 // Math
 
 .equation {
