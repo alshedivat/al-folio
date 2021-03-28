@@ -25,6 +25,16 @@
               {% assign author_is_self = true %}
             {% endif %}
           {% endif %}
+          {% assign coauthor_url = nil %}
+          {% if site.data.coauthors[author.last] %}
+            {% for coauthor in site.data.coauthors[author.last] %}
+              {% if coauthor.firstname contains author.first %}
+                {% assign coauthor_url = coauthor.url %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+          
           {% if forloop.length == 1 %}
             {% if author_is_self %}
               <em>{{author.last}}, {{author.first}}</em>
@@ -36,8 +46,8 @@
               {% if author_is_self %}
                 <em>{{author.last}}, {{author.first}}</em>,
               {% else %}
-                {% if site.data.coauthors[author.last] %}
-                  <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
+                {% if coauthor_url %}
+                  <a href="{{coauthor_url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
                 {% else %}
                   {{author.last}}, {{author.first}},
                 {% endif %}
@@ -46,8 +56,8 @@
               {% if author_is_self %}
                 and <em>{{author.last}}, {{author.first}}</em>
               {% else %}
-                {% if site.data.coauthors[author.last] %}
-                  and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>
+                {% if coauthor_url %}
+                  and <a href="{{coauthor_url}}" target="_blank">{{author.last}}, {{author.first}}</a>
                 {% else %}
                   and {{author.last}}, {{author.first}}
                 {% endif %}
