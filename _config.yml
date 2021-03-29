@@ -134,6 +134,9 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
+# Extras
+github: [metadata]
+
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
@@ -169,7 +172,7 @@ enable_mansory:             true
 enable_math:                true
 enable_tooltips:            false
 enable_darkmode:            true
-show_social_icons:          false
+enable_navbar_social:       false
 
 # -----------------------------------------------------------------------------
 # Library versions
