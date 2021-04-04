@@ -60,3 +60,11 @@ Prior to this, I was a research fellow working with [Aurore Delaigle](https://re
 
 [This is my latest CV.](/docs/CV-Zhuosong.pdf)
 
+### Publications
+
+[1] Q.­M. Shao and **Z.­S. Zhang.** (2016). [“Identifying the limiting distribution by a general
+approach of Stein’s method”](/docs/SZ16.pdf), Sci. China Math., vol. 59, 2379–2392.
+[2] Q.­M. Shao and **Z.­S. Zhang.** (2019). “Berry–Esseen bounds of normal and non­normal approximation for unbounded exchangeable pairs”, Ann. Probab., vol. 47, 61–108.
+[3] Q.­M. Shao, M.­C. Zhang and Z.­S. Zhang. (2021), “Cramér­type moderate deviations for non­normal approximation”. Ann. Appl. Probab. Vol. 31, 247–283.
+[4] Q.­M. Shao and Z.­S. Zhang (2020), “Berry–Esseen bounds for multivariate nonlinear statistics with applications to M­estimators and stochastic gradient descent algorithms”. To appear in Bernoulli.
+
