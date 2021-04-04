@@ -20,6 +20,8 @@ Woodard, K., **Zettersten, M.**, & Pollak, S.D. (submitted). <span style="color:
 
 #### **IN PRESS**
 
+Visser, I., Bergmann, C., Byers-Heinlein, K., Dal Ben, R., Duch, W., Forbes, S., Franchin, L., Frank, M. C., Geraci, A., Hamlin, J. K., Kaldy, Z., Kulke, L., Laverty, C., Lew-Williams, C., Mateu, V., Mayor, J., Moreau, D., Nomikou, I., Schuwerk, T., Simpson, E. A., Singh, L., Soderstrom, M., Sullivan, J., van den Heuvel, M. I., Westermann, G., Yamada, Y., Zaadnoordijk, L., **Zettersten, M.** (in press). Improving the generalizability of infant psychological research: The ManyBabies model. *Behavioral and Brain Sciences*. [commentary on The generalizability crisis, by Tal Yarkoni] [[preprint]](https://psyarxiv.com/8vwbf)
+
 Lupyan, G., & **Zettersten, M.** (forthcoming). <span style="color: #00ab37">Does vocabulary help structure the mind?</span> In Sera, M., & Koenig, M. (Eds.). *40th Minnesota Symposium on Child Psychology*.[[preprint]](https://psyarxiv.com/b74u9/){:target="\_blank"} <a href="https://github.com/mzettersten/vocab-mind-2020" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 
 #### **2021**
