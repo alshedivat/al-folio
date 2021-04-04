@@ -60,7 +60,7 @@ Prior to this, I was a research fellow working with [Aurore Delaigle](https://re
 
 [This is my latest CV.](/docs/CV-Zhuosong.pdf)
 
-### Publications
+### <i class="fas fa-book-alt"></i> Publications
 
 1. Q.­M. Shao and **Z.­S. Zhang** (2021+), [“Berry–Esseen bounds for multivariate nonlinear statistics
 with applications to M­estimators and stochastic gradient descent algorithms”](/docs/SZ21.pdf). To appear in Bernoulli.
