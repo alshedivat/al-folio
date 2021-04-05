@@ -13,7 +13,9 @@ ___
 
 [slides](https://bit.ly/3beLtwh) \| [video](https://www.youtube.com/watch?v=bJky-GMFob4)
 
-**Seminar, [Center for Computational Biology, UC Berkeley](https://ccb.berkeley.edu/)**: *[Intro to AWS and AWS for HPC Tutorial](https://github.com/giuliaguidi/AWS-Tutorial-CompBio-Seminar)*, Spring 2021.
+**Seminar, [Center for Computational Biology, UC Berkeley](https://ccb.berkeley.edu/)**: *Intro to AWS and AWS for HPC*, Spring 2021.
+
+[tutorial](https://github.com/giuliaguidi/AWS-Tutorial-CompBio-Seminar)
 
 ___
 
