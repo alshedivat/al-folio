@@ -19,7 +19,7 @@ news: true
 social: true
 ---
 
-### <i class="fas fa-info-circle"></i> Basic information
+### <i class="fas fa-id-badge"></i> Basic information
 
 I am currently a Research Fellow in the [Department of Statistics and Applied Probability](https://www.stat.nus.edu.sg){:target="[_blank"} at the [National University of Singapore](https://www.nus.edu.sg){:target="\_blank"} working with Professor Adrian Roellin.
 Prior to this, I was a research fellow working with [Aurore Delaigle](https://researchers.ms.unimelb.edu.au/~aurored/){:target="[_blank"} at the University of Melbourne. I obtained my Ph.D. degree in 2017 at the [Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html#){:target="[_blank"}, under the supervision of Professor [Qi-Man Shao](http://www.sta.cuhk.edu.hk/qmshao/public_html/index.html){:target="\_blank"}.
@@ -60,7 +60,7 @@ Prior to this, I was a research fellow working with [Aurore Delaigle](https://re
 
 [This is my latest CV.](/docs/CV-Zhuosong.pdf)
 
-### <i class="fas fa-book-alt"></i> Publications
+### <i class="fas fa-book-open"></i> Publications
 
 1. Q.­M. Shao and **Z.­S. Zhang** (2021+), [“Berry–Esseen bounds for multivariate nonlinear statistics
 with applications to M­estimators and stochastic gradient descent algorithms”](/docs/SZ21.pdf). To appear in Bernoulli.
