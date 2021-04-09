@@ -140,6 +140,12 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+INPUT CV-Zhuosong.out
+INPUT CV-Zhuosong.out
+INPUT CV-Zhuosong.out
+INPUT CV-Zhuosong.out
+INPUT ./CV-Zhuosong.out
+INPUT ./CV-Zhuosong.out
 OUTPUT CV-Zhuosong.out
 OUTPUT CV-Zhuosong.xdv
 INPUT CV-Zhuosong.aux

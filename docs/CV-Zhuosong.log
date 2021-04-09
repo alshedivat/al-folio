@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.12.5)  9 APR 2021 07:56
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.12.5)  9 APR 2021 08:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -525,12 +525,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 55.
 LaTeX Info: Redefining \pageref on input line 55.
 LaTeX Info: Redefining \nameref on input line 55.
+ (./CV-Zhuosong.out) (./CV-Zhuosong.out)
 \@outlinefile=\write3
 \openout3 = `CV-Zhuosong.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -590,6 +587,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 55.
 \c@numa=\count274
+
 ./CV-Zhuosong.tex:63: Font TU/Tinos-Regular.ttf(0)/m/n/28=[./Fonts/Tinos/Tinos-Regular.ttf]/OT at 28.0pt not loadable: Metric (TFM) file or installed font not found.
 <to be read again> 
                    relax 
@@ -2321,7 +2319,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no A in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no X in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -2405,15 +2403,33 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no ' in font nullfont!
 Missing character: There is no ' in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no m in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 9 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no [ in font nullfont!
 Missing character: There is no 8 in font nullfont!
@@ -2510,15 +2526,33 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no ' in font nullfont!
 Missing character: There is no ' in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no m in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no [ in font nullfont!
 Missing character: There is no 8 in font nullfont!
@@ -3013,22 +3047,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
-./CV-Zhuosong.tex:336: Font TU/Tinos-Regular.ttf(0)/b/n/8.2=[./Fonts/Tinos/Tinos-Bold.ttf]/OT at 8.2pt not loadable: Metric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.336 \newpage
-              
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-Missing character: There is no ? in font nullfont!
-Missing character: There is no ? in font nullfont!
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 336.
-
+Missing character: There is no 2 in font nullfont!
 [1
 
 ]
@@ -4936,40 +4955,23 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
-Missing character: There is no ? in font nullfont!
-Missing character: There is no ? in font nullfont!
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 510.
-
+Missing character: There is no 2 in font nullfont!
 [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 510.
  (./CV-Zhuosong.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 510.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 510.
-
-
-Package rerunfilecheck Warning: File `CV-Zhuosong.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `CV-Zhuosong.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  38EF01E8234F7F2A6BDBFD0F7B685630;1349.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `CV-Zhuosong.out' has not changed.
+(rerunfilecheck)             Checksum: 38EF01E8234F7F2A6BDBFD0F7B685630;1349.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 510.
  ) 
 Here is how much of TeX's memory you used:
- 17389 strings out of 479418
- 333480 string characters out of 5884585
- 629296 words of memory out of 5000000
- 34753 multiletter control sequences out of 15000+600000
+ 17396 strings out of 479418
+ 333589 string characters out of 5884585
+ 629955 words of memory out of 5000000
+ 34756 multiletter control sequences out of 15000+600000
  532738 words of font info for 30 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  52i,5n,74p,930b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on CV-Zhuosong.xdv (2 pages, 5916 bytes).
+Output written on CV-Zhuosong.xdv (2 pages, 7504 bytes).
