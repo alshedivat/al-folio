@@ -1,0 +1,510 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% -*- coding: UTF-8; -*-
+% vim: set fenc=utf-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% CV.tex
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% See "README.md" for instructions on compiling this document.
+
+\documentclass[letterpaper,MMMyyyy,nonstopmode]{simpleresumecv}
+% Class options:
+% a4paper, letterpaper, nonstopmode, draftmode
+% MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Dr. Zhuo-Song Zhang}
+\newcommand{\CVTitle}{Zhuo-Song Zhang's CV}
+\newcommand{\CVNote}{CV compiled on {\today}}
+\newcommand{\CVWebpage}{https://zhuosongz.github.io}
+
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={\CVAuthor},
+pdfsubject={\CVWebpage},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={},
+unicode=true,
+bookmarks=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+% Shorthand.
+\newcommand{\Code}[1]{\mbox{\textbf{#1}}}
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\newcounter{numa}
+
+\Title{\CVAuthor}
+
+
+\begin{Body}
+
+%%%%%%%%%%
+%% Basic information
+%%%%%%%%%%
+
+
+\Section{Basic information}
+{Basic information}
+{PDF:Basic information}
+
+%\BulletItem Research Fellow
+\BulletItem Department of Statistics and Applied Probability
+\BulletItem National University of Singapore
+%\BulletItem Phone: 
+\BulletItem Email: \href{mailto:zszhang.stat@gmail.com}
+{zszhangstat@gmail.com}
+\BulletItem Homepage: \href{\CVWebpage}\CVWebpage
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\Section
+{Education}
+{Education}
+{PDF:Education}
+
+\Entry
+\href{http://www.cuhk.edu.hk}
+{\textbf{The Chinese University of Hong Kong}}, Hong Kong
+
+\Gap
+\BulletItem
+Ph.D. in
+\href{http://www.sta.cuhk.edu.hk}
+{Statistics}
+\SubBulletItem
+Supervisor:
+Prof.~Qi-Man~Shao.
+\hfill
+\DatestampYMD{2013}{08}{01} -- \DatestampYMD{2017}{07}{30}
+%\DatestampYMD{2014}{07}{15}
+\begin{Detail}
+%\SubBulletItem
+%Focus:
+%Stein's method, Asymptotic theory in probability and statistics, Statistical physics.
+\end{Detail}
+
+\Entry
+\href{http://www.whu.edu.cn}
+{\textbf{Wuhan University}}, China
+\Gap
+\BulletItem
+B.S. in Statistics.
+\hfill
+\DatestampYMD{2009}{09}{01} -- \DatestampYMD{2013}{06}{30}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% RESEARCH EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Research Experience}
+{Research Experience}
+{PDF:ResearchExperience}
+
+\Entry
+\href{http://www.stanford.edu}
+{\textbf{Stanford University,  Statistics Department}}
+%Science College
+
+\Gap
+\BulletItem
+Visiting Student Researcher
+\SubBulletItem
+Adviser:
+Prof.~Sourav~Chatterjee.
+\hfill
+\DatestampYMD{2016}{07}{01} --
+\DatestampYMD{2016}{08}{31}
+\begin{Detail}
+%\SubBulletItem
+%Project:
+%Investigations on the Use of Lasers to Measure Climate Change
+%\SubBulletItem
+%Focus: Stein's method, Graph limit theory.
+%Climate change, lasers, statistical analysis, data analytics.
+\end{Detail}
+\Entry
+\href{http://www.unimelb.edu.au}
+{\textbf{Melbourne University,  School of Mathematics and Statistics}}
+%Science College
+
+\Gap
+\BulletItem
+Research Fellow in statistics
+\SubBulletItem
+Adviser:
+Prof.~Aurore~Delaigle.
+\hfill
+\DatestampYMD{2017}{08}{01} --
+\DatestampYMD{2019}{06}{27}
+\Gap 
+\Entry
+\href{http://www.nus.edu.sg}
+{\textbf{National University of Singapore,  Department of Statistics and Applied Probability}}
+%Science College
+
+\BulletItem
+Research Fellow
+\SubBulletItem
+Adviser:
+Prof.~Adrian~Roellin.
+\hfill
+\DatestampYMD{2019}{07}{01} --
+present
+\begin{Detail}
+%\SubBulletItem
+%Project:
+%Investigations on the Use of Lasers to Measure Climate Change
+
+\end{Detail}
+
+
+%%%%%%%%%%%%%%%%%%
+%% Research interest
+%%%%%%%%%%%%%%%%%%
+
+\Section
+{Research interests}
+{Research interests}
+{PDF:Research interests}
+Asymptotic theory in probability and statistics;  Stein's method;  Functional data analysis;
+Nonparametric statistics; Random Graph theory.
+
+%%%%%%%%%%%%%%%%%%
+%% PUBLICATIONS %%
+%%%%%%%%%%%%%%%%%%
+
+\Section
+{Publications}
+{Publications}
+{PDF:Publications}
+
+
+% Declare a new group to limit the scope of \MaxNumberedItem to this subsection.
+\begingroup
+\renewcommand{\MaxNumberedItem}{[88]}
+
+\BigGap
+\NumberedItem{[1]}
+\href{http://link.springer.com/article/10.1007/s11425-016-0322-3}
+{Q.-M.~Shao and \underline{Z.-S.~Zhang}.  (2016).
+``Identifying the limiting distribution by a general approach of Stein’s method'',
+\textit{Sci. China Math.},
+vol.~59,
+~2379--2392. } 
+
+\BigGap
+\NumberedItem{[2]}
+{Q.-M.~Shao and \underline{Z.-S.~Zhang}. (2019).
+``Berry--Esseen bounds of normal and non-normal approximation for unbounded exchangeable pairs'',
+\textit{Ann. Probab.}, 
+vol. 47, 
+~61--108. }
+
+\BigGap
+\NumberedItem{[3]}
+{Q.-M.~Shao, M.-C.~Zhang and {\underline{Z.-S.~Zhang}}. (2021),
+``Cram\'er-type moderate deviations for non-normal
+approximation''. \textit{Ann. Appl. Probab.}
+Vol. 31,~247–283.}
+ 
+
+\NumberedItem{[4]}
+%\href{http://www.example.com/my-paper-doi-5}
+Q.-M. Shao and \underline{Z.-S.~Zhang} (2020),
+``Berry–Esseen bounds for multivariate nonlinear statistics with applications to M-estimators and stochastic gradient descent algorithms''.
+To appear in Bernoulli. 
+\endgroup
+
+
+\BigGap 
+
+\Section
+{Submitted papers}
+{Submitted papers}
+{PDF:submittedpapers}
+
+
+\begingroup
+\renewcommand{\MaxNumberedItem}{[88]}
+\setcounter{numa}{1}
+\def\numathe{\thenuma\stepcounter{numa}}
+
+
+\BigGap
+
+\NumberedItem{[\numathe]}
+%\href{http://www.example.com/my-paper-doi-5}
+\underline{Z.-S.~Zhang},
+``Cram\'er-type moderate deviations of normal approximation for exchangeable pairs''. 
+Available at ArXiv: 1901.09526.
+\BigGap 
+
+\NumberedItem{[\numathe]}
+%\href{http://www.example.com/my-paper-doi-5}
+\underline{Z.-S.~Zhang},
+``Berry--Esseen bounds for generalized $U$-statistics''. 
+Submitted.
+\BigGap
+
+\NumberedItem{[\numathe]}
+%\href{http://www.example.com/my-paper-doi-5}
+\underline{Z.-S.~Zhang},
+``Berry--Esseen bounds for self-normalized sums of local dependent random variables''. 
+Submitted.
+\BigGap
+\NumberedItem{[\numathe]}
+%\href{http://www.example.com/my-paper-doi-5}
+S. Liu and \underline{Z.-S.~Zhang},
+``Cram\'er-type moderate deviation under Stein's identities with applications to local dependence and combinatorial central limit theorems''. 
+
+
+\endgroup 
+
+
+\Section{Working papers}
+{Working papers}
+{PDF:Working papers}
+
+
+\begingroup
+\renewcommand{\MaxNumberedItem}{[88]}
+\setcounter{numa}{1}
+\def\numathe{\thenuma\stepcounter{numa}}
+
+
+
+\Gap
+
+\NumberedItem{[\numathe]}
+%\href{http://www.example.com/my-paper-doi-5}
+A. Roellin and \underline{Z.-S.~Zhang},
+``Weak limit theorems for multigraphon-valued stochastic processes with applications to configuration models''. 
+
+\Gap
+
+
+\NumberedItem{[\numathe]}
+%\href{http://www.example.com/my-paper-doi-5}
+A.~Delaigle, D.~Dutta and {\underline{Z.-S.~Zhang}},
+``Reconstructing fragmented functional data by Markov chains''. 
+
+\Gap  
+
+\NumberedItem{[\numathe]}
+%\href{http://www.example.com/my-paper-doi-5}
+A.~Delaigle and {\underline{Z.-S.~Zhang}},
+``Reconstructing functional data by nonparametric methods''. 
+
+\Gap
+\endgroup
+
+
+
+\BigGap
+\newpage
+\Section
+{Invited presentations}
+{Invited presentations}
+{PDF:Invited presentations}
+
+% Declare a new group to limit the scope of \MaxNumberedItem to this subsection.
+\begingroup
+\renewcommand{\MaxNumberedItem}{[8888]}
+\setcounter{numa}{1}
+\def\numathe{\thenuma\stepcounter{numa}}
+
+\BigGap
+\NumberedItem{[\numathe]}
+%\href{http://ims-aprm2016.sta.cuhk.edu.hk}
+\textit{62nd ISI World Statistics Congress 2019},
+Kuala Lumpur, Malaysia.  
+\DatestampYM{2019}{08}.
+
+
+\BigGap
+\NumberedItem{[\numathe]}
+%\href{http://ims-aprm2016.sta.cuhk.edu.hk}
+\textit{Stein's Method and Related Topics},
+Macau, China, 
+\DatestampYM{2018}{12}.
+
+\BigGap
+\NumberedItem{[\numathe]}
+%\href{http://ims-aprm2016.sta.cuhk.edu.hk}
+\textit{The 5th Institute of Mathematical Statistics
+Asia Pacific Rim Meeting},
+The National University of Singapore, Singapore, 
+\DatestampYM{2018}{06}.
+\Gap
+\NumberedItem{[\numathe]}
+\textit{2017 IMS-China International Conference on Statistics and Probability}, Guangxi University For Nationalities, Nanning, China, 
+\DatestampYM{2017}{6}
+\Gap
+
+\NumberedItem{[\numathe]}
+\textit{The 10th ICSA international conference}, Shanghai Jiao Tong University, 
+Shanghai, China,
+\DatestampYM{2016}{12}.
+
+
+\Gap
+\NumberedItem{[\numathe]}
+\href{http://110.65.147.107/events/11/}
+{
+\textit{The International Symposium on Probability Theory and Related Fields}, Southern University of Science and Technology, 
+Shenzhen, China,
+\DatestampYM{2016}{11}.
+}
+\Gap
+\NumberedItem{[\numathe]}
+%\href{http://ims-aprm2016.sta.cuhk.edu.hk}
+\textit{The 4th Institute of Mathematical Statistics
+Asia Pacific Rim Meeting},
+The Chinese University of Hong Kong, HK,
+\DatestampYM{2016}{06}.
+
+
+
+\endgroup
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% AWARDS & SCHOLARSHIPS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newpage
+\Section
+{Awards \&\newline
+Scholarships}
+{Awards \& Scholarships}
+{PDF:AwardsAndScholarships}
+
+\BulletItem
+Overseas Research Award, \DatestampY{2015--2016}\\
+Department of Statistics, The Chinese University of Hong Kong
+\BulletItem
+Nominee of Global Young Scientists Summit 2015, \DatestampY{2014--2015}\\ 
+Science Faculty, The Chinese University of Hong Kong
+\BulletItem
+Wuhan University Outstanding Graduate student, \DatestampY{2013}
+%Wuhan University, Wuhan, China
+\BulletItem
+National motivational scholarships, \DatestampY{2011}
+%Wuhan University, Wuhan, China
+\BulletItem
+Wuhan University Outstanding students scholarship, \DatestampY{2011}
+%Wuhan University, Wuhan, China
+\BulletItem
+Wuhan University Excellent student, \DatestampY{2011}
+%Wuhan University, Wuhan, China
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%5
+%%% Professional activities
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\Section{Professional services}
+{Professional services}
+{PDF:Professional services}
+
+
+\SubSection{Reviewers}{Reviewers}
+{PDF:Reviewers}
+
+\begingroup
+
+Journals: Bernoulli, Probability in the Engineering and Informational Sciences
+\endgroup
+
+
+\Section{Supervision Experience}{Co-supervision}
+{PDF:Co-supervision}
+
+\SubSection{PhD Students}{PhD Students}
+{PDF:Students}
+
+
+Mr. Debajit Dutta, PhD student \\
+Co-supervisor of his thesis work on ``fragmented functional data''. % with Professor Aurore Delaigle. 
+
+
+
+\Section
+{Teaching}
+{Teaching}
+{PDF:Teaching }
+
+\BulletItem
+Fall 2018, MAST90123, Advanced Mathematical Statistics, University of Melbourne
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Teaching Assistant %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\Section
+{Teaching Assistant}
+{Teaching Assistant}
+{PDF:Teaching Assistant}
+
+\BulletItem
+Fall 2013, STAT 2001 A/B, Basic Concepts in Probability and Statistics I 
+\BulletItem
+Spring 2014, STAT 2006 A/B, Basic Concepts in Probability and Statistics II
+\BulletItem
+Fall 2014, STAT 5005, Advanced Probability Theory %, \\ Instructor: Prof. Qi-Man SHAO.
+
+\BulletItem
+Spring 2015, STAT 4003, Statistical Inference%, \\ Instructor: Prof. WU Ka Hok.
+
+\BulletItem
+Fall 2015, STAT 5005, Advanced Probability Theory%, \\ Instructor: Prof. Qi-Man SHAO.
+
+\BulletItem
+Fall 2015, RMSC 5001, Advanced Statistical  Theory in Risk Management%, \\ Instructor: Prof. LEUNG Pui Lam.
+
+\BulletItem
+Spring 2016, RMSC 4001, Simulation Methods for Risk Management Science and Finance %\\ Instructor: Prof. WONG Hoi Ying.
+
+\BulletItem
+Fall 2016, STAT 3210, Statistical Techniques in Life Sciences%, \\ Instructor: Prof. Xiao FANG.
+
+
+
+\end{Body}
+
+\end{document}
