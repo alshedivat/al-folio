@@ -148,7 +148,7 @@ $ bundle exec jekyll build
 which will (re-)generate the static webpage in the `_site/` folder.
 Then simply copy the contents of the `_site/` foder to your hosting server.
 
-**Note:** Make sure to correctly set the `url` and `baseurl` fields in `_config.yml` before building the webpage. If you are deploying your webpage to `your-domain.com/your-project/`, you must set `url: your-domain.com` and `baseurl: /your-project/`. If you are deploing directly to `your-domain.com`, leave `baseurl` blank. 
+**Note:** Make sure to correctly set the `url` and `baseurl` fields in `_config.yml` before building the webpage. If you are deploying your webpage to `your-domain.com/your-project/`, you must set `url: your-domain.com` and `baseurl: /your-project/`. If you are deploing directly to `your-domain.com`, leave `baseurl` blank.
 
 </details>
 
@@ -244,7 +244,7 @@ scholar:
   last_name: Einstein
   first_name: [Albert, A.]
 ```
-If the entry matches the last name and one form of the first names, it will be underlined. 
+If the entry matches the last name and one form of the first names, it will be underlined.
 Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
 The coauthor data format in `_data/coauthors.yml` is as follows,
 ```
@@ -260,14 +260,14 @@ The coauthor data format in `_data/coauthors.yml` is as follows,
   - firstname: ["Nathan", "N."]
     url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-"Bach": 
+"Bach":
   - firstname: ["Johann Sebastian", "J. S."]
     url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 ```
-If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided. 
+If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided.
 
 </details>
 
