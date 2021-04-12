@@ -12,7 +12,6 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 icon: 🔥 # the emoji used as the favicon
 url: markcheung.me # the base hostname & protocol for your site
@@ -69,7 +68,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 blog_name: Musings and Ideas  # your blog must have a name for it to show up in the nav bar
-blog_description: The purpose of this blog is partly for self-improvement and self-reflection, and partly to share what I feel may be helpful to others and my younger self. I will take entries from my journal and organize and expand them. Some of these posts will be self-help tips from books/articles I read. I plan to also write reviews and reflections on books/articles/my experiences. Everything will be highly subjective and my own opinion and does not reflect anyone else's.
+blog_description: Sharing what I feel may be helpful to others and my younger self.
 permalink: /blog/:year/:title/
 
 # Pagination
