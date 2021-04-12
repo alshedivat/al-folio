@@ -6,19 +6,16 @@ description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: profile_pic.png
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I am a Ph.D. student in [Electrical and Computer Engineering](https://www.ece.cmu.edu/) at [Carnegie Mellon Universty (CMU)](https://www.cmu.edu/) and a member of [Center for Neural Basis of Cognition](http://www.cnbc.cmu.edu/). I am advised by [Professor José M. F. Moura](https://users.ece.cmu.edu/~moura/). Before joining CMU, I received my B.S. in Computer Engineering and minors in Applied Mathematics and Physics from the [University of Virginia](https://www.virginia.edu/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests are in [Geometric Deep Learning](http://geometricdeeplearning.com/), i.e., applying deep learning techniques to solve problems in non-Euclidean domains such as Alzheimer's Disease Diagnosis and COVID-19 drug discovery. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+In my free time, I enjoy meditating, reading, journaling, running, coding, and teaching.
