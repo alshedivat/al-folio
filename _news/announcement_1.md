@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2020-04-21 08:48:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+An article entitled ["Linking self-driving cars to traffic signals might help pedestrians give them the green light."](https://theconversation.com/linking-self-driving-cars-to-traffic-signals-might-help-pedestrians-give-them-the-green-light-132952) published in The Conversation.
