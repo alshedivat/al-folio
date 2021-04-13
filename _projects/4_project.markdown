@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Ideal Flix
+description: On demand video streaming application
+img: /assets/img/4.jpg
 importance: 3
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Live Doctor
-description: Online Doctor appoinment application
-img: /assets/img/5.jpg
-importance: 3
+title: Mifi Tethering
+description: Wifi hotspot application
+img: /assets/img/8.jpg
+importance: 6
 ---
 
 Every project has a beautiful feature showcase page.

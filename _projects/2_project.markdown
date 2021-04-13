@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: /assets/img/3.jpg
+title: Hungry Hub
+description: Food Delivery Application
+img: /assets/img/2.jpg
 importance: 2
 ---
 
