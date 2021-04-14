@@ -2,23 +2,25 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Professor in Visualization. <a href="https://vis.uib.no/team/bruckner/">Department of Informatics, University of Bergen</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: StefanBruckner.jpg
+  # address: >
+    # <p>555 your office number</p>
+    # <p>123 your address street</p>
+    # <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a visualization researcher and professor at the Department of Informatics of the University of Bergen. I investigate methods for gaining insight into complex data to further scientific understanding and discovery, medical diagnosis and treatment, and engineering, as well as techniques for communicating these findings to the public. Building on these foundations, my current interests include the development of novel interactive approaches for the inquiry of large-scale heterogeneous data spaces in data-driven science.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before my professorial appointment in Bergen in 2013, I was an assistant professor at the TU Wien, Austria where I also received my Ph.D. in Computer Science in 2008 and was awarded habilitation degree (venia docendi) in Practical Computer Science in 2012.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I have co-authored over 100 research papers on a variety of topics in visual computing including work on topics such as uch as illustrative visualization, volume rendering, smart visual interfaces, biomedical data visualization, and visual parameter space exploration.
+
+I was program co-chair of EuroVis, PacificVis, the Eurographics Workshop on Visual Computing for Biology and Medicine, the Eurographics Medical Prize, and part of the editorial board of the Computers & Graphics. I am an ACM Distinguished Speaker, currently serve on the Eurographics Executive Committee, and am a member of ACM SIGGRAPH, Eurographics, and the IEEE Computer Society.
