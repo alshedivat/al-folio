@@ -65,8 +65,8 @@ orcid_id: 0000-0002-2109-9682 # your ORCID ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Zhuosong Zhang's Blogs  # your blog must have a name for it to show up in the nav bar
-blog_description: 
+blog_name: Research blogs  # your blog must have a name for it to show up in the nav bar
+blog_description: Zhuosong Zhang's blogs
 permalink: /blog/:year/:title/
 
 # Pagination
