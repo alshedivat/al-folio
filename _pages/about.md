@@ -65,7 +65,8 @@ Prior to this, I was a research fellow working with [Aurore Delaigle](https://re
 ### <i class="fas fa-book-open"></i> Publications
 
 #### Submitted papers
-1. Z.­S. Zhang, [“Cramér­type moderate deviations of normal approximation for exchangeable pairs”](/docs/Cramer-2019-Ber.pdf). Available at arXiv: 1901.09526.
+1. Z.­S. Zhang, [“Cramér­type moderate deviations of normal approximation for exchangeable pairs”]
+   (/assets/pdf/Cramer-2019-Ber.pdf). Available at arXiv: 1901.09526.
 1. Z.­S. Zhang, [“Berry–Esseen bounds for generalized U ­statistics”](/docs/BE-U-2021.pdf). Available at arXiv: 2104.03479.
 1. Z.­S. Zhang, [“Berry–Esseen bounds for self­normalized sums of local dependent random variables”](/docs/BE-self-local-2021.pdf).
 Available at arXiv: 2104.03683.
