@@ -65,15 +65,12 @@ Prior to this, I was a research fellow working with [Aurore Delaigle](https://re
 ### <i class="fas fa-book-open"></i> Publications
 
 #### Submitted papers
-1. Z.­S. Zhang, [“Cramér­type moderate deviations of normal approximation for exchangeable pairs”]
-   (/assets/pdf/Cramer-2019-Ber.pdf). Available at arXiv: 1901.09526.
-1. Z.­S. Zhang, [“Berry–Esseen bounds for generalized U ­statistics”](/docs/BE-U-2021.pdf). Available at arXiv: 2104.03479.
-1. Z.­S. Zhang, [“Berry–Esseen bounds for self­normalized sums of local dependent random variables”](/docs/BE-self-local-2021.pdf).
+1. Z.­S. Zhang, [“Cramér­type moderate deviations of normal approximation for exchangeable pairs”](/assets/pdf/Cramer-2019-Ber.pdf). Available at arXiv: 1901.09526.
+1. Z.­S. Zhang, [“Berry–Esseen bounds for generalized U ­statistics”](/assets/pdf/BE-U-2021.pdf). Available at arXiv: 2104.03479.
+1. Z.­S. Zhang, [“Berry–Esseen bounds for self­normalized sums of local dependent random variables”](/assets/pdf/BE-local-2021.pdf).
 Available at arXiv: 2104.03683.
-1. S. Liu and Z.­S. Zhang, [“Cramér­type moderate deviation via Stein identities with applications to
-local dependence and combinatorial central limit theorems”](/docs/Cramer-stein-id-2021.pdf). Submitted.
-1. A. Roellin and Z.­S. Zhang, [“Dense multigraphon­valued stochastic processes and edge­changing
-   dynamics in the configuration model”](/docs/cnfg-2021.pdf). Submitted.
+1. S. Liu and Z.­S. Zhang, [“Cramér­type moderate deviation via Stein identities with applications to local dependence and combinatorial central limit theorems”](/assets/pdf/local-dep-2021.pdf). Submitted.
+1. A. Roellin and Z.­S. Zhang, [“Dense multigraphon­valued stochastic processes and edge­changing dynamics in the configuration model”](/assets/pdf/cnfg-2021.pdf). Submitted.
 
 #### Publications
 
