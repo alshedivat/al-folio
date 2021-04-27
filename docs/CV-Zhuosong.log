@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.12.5)  9 APR 2021 08:40
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.12.5)  27 APR 2021 15:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -454,23 +454,23 @@ Underfull \hbox (badness 1354) in paragraph at lines 236--241
 [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 510.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 507.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 510.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 507.
  (./CV-Zhuosong.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 510.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 510.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 507.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 507.
 Package rerunfilecheck Info: File `CV-Zhuosong.out' has not changed.
 (rerunfilecheck)             Checksum: 38EF01E8234F7F2A6BDBFD0F7B685630;1349.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 510.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 507.
  ) 
 Here is how much of TeX's memory you used:
  17410 strings out of 479418
  335068 string characters out of 5884585
- 633024 words of memory out of 5000000
+ 633026 words of memory out of 5000000
  34748 multiletter control sequences out of 15000+600000
  532898 words of font info for 50 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  52i,5n,74p,930b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on CV-Zhuosong.xdv (2 pages, 56316 bytes).
+Output written on CV-Zhuosong.xdv (2 pages, 56368 bytes).

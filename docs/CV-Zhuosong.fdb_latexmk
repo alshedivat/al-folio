@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1617928803 "CV-Zhuosong.xdv" "CV-Zhuosong.pdf" "CV-Zhuosong" 1617928804
-  "CV-Zhuosong.xdv" 1617928803 56316 9ebbd964e24b358823ce72fb4fd13b80 "xelatex"
+["xdvipdfmx"] 1619510255 "CV-Zhuosong.xdv" "CV-Zhuosong.pdf" "CV-Zhuosong" 1619510256
+  "CV-Zhuosong.xdv" 1619510255 56368 9948aada0f7a8faddb741c8ff1563523 "xelatex"
   (generated)
   "CV-Zhuosong.pdf"
-["xelatex"] 1617928802 "CV-Zhuosong.tex" "CV-Zhuosong.xdv" "CV-Zhuosong" 1617928804
+["xelatex"] 1619510254 "CV-Zhuosong.tex" "CV-Zhuosong.xdv" "CV-Zhuosong" 1619510256
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -75,12 +75,12 @@
   "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
   "/usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt" 1607170476 4769644 f2969de64764078c5fb7cf3323d4fd58 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "CV-Zhuosong.aux" 1617928803 670 ccc25cbc663bd6bc042ccd95c66aabb5 "xelatex"
-  "CV-Zhuosong.out" 1617928803 1349 38ef01e8234f7f2a6bdbfd0f7b685630 "xelatex"
-  "CV-Zhuosong.tex" 1617928803 12045 74bb04ce15d3aa019f1e77f69a14174e ""
+  "CV-Zhuosong.aux" 1619510255 670 ccc25cbc663bd6bc042ccd95c66aabb5 "xelatex"
+  "CV-Zhuosong.out" 1619510255 1349 38ef01e8234f7f2a6bdbfd0f7b685630 "xelatex"
+  "CV-Zhuosong.tex" 1619510255 12049 aa77d863a47f16f2abcec0ffd9190f11 ""
   "simpleresumecv.cls" 1482619928 11169 bc2f4e543be99c4e0f94a7364152105a ""
   (generated)
   "CV-Zhuosong.out"
   "CV-Zhuosong.aux"
-  "CV-Zhuosong.log"
   "CV-Zhuosong.xdv"
+  "CV-Zhuosong.log"

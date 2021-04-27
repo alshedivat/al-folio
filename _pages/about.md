@@ -60,7 +60,23 @@ Prior to this, I was a research fellow working with [Aurore Delaigle](https://re
 
 [This is my latest CV.](/docs/CV-Zhuosong.pdf)
 
+
+
 ### <i class="fas fa-book-open"></i> Publications
+
+#### Submitted papers
+1. Z.­S. Zhang, [“Cramér­type moderate deviations of normal approximation for exchangeable pairs”]
+   (Cramer-2019-Ber.pdf). Available at arXiv: 1901.09526.
+1. Z.­S. Zhang, [“Berry–Esseen bounds for generalized U ­statistics”](BE-U-2021.pdf). Available at arXiv: 2104.03479.
+1. Z.­S. Zhang, [“Berry–Esseen bounds for self­normalized sums of local dependent random variables”]
+   (BE-self-local-2021.pdf).
+Available at arXiv: 2104.03683.
+1. S. Liu and Z.­S. Zhang, [“Cramér­type moderate deviation via Stein identities with applications to
+local dependence and combinatorial central limit theorems”](Cramer-stein-id-2021.pdf). Submitted.
+1. A. Roellin and Z.­S. Zhang, [“Dense multigraphon­valued stochastic processes and edge­changing
+   dynamics in the configuration model”](cnfg-2021.pdf). Submitted.
+
+#### Publications
 
 1. Q.­M. Shao and **Z.­S. Zhang** (2021+), [“Berry–Esseen bounds for multivariate nonlinear statistics
 with applications to M­estimators and stochastic gradient descent algorithms”](/docs/SZ21.pdf). To appear in Bernoulli.
