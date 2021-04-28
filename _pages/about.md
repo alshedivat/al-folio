@@ -67,7 +67,8 @@ Prior to this, I was a research fellow working with [Aurore Delaigle](https://re
 1. **Z.­S. Zhang**, [“Berry–Esseen bounds for self­normalized sums of local dependent random variables”](/assets/pdf/BE-local-2021.pdf).
 Available at arXiv: 2104.03683.
 1. S. Liu and **Z.­S. Zhang**, [“Cramér­type moderate deviation via Stein identities with applications to local dependence and combinatorial central limit theorems”](/assets/pdf/local-dep-2021.pdf). Submitted.
-1. A. Roellin and **Z.­S. Zhang**, [“Dense multigraphon­valued stochastic processes and edge­changing dynamics in the configuration model”](/assets/pdf/cnfg-2021.pdf). Submitted.
+1. A. Roellin and **Z.­S. Zhang**, [“Dense multigraphon­valued stochastic processes and edge­changing
+   dynamics in the configuration model”](/assets/pdf/cnfg-2021.pdf). Available at arXiv: 2104.13024.
 
 
 ### <i class="fas fa-book-open"></i> Publications
