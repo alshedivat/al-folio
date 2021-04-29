@@ -89,6 +89,3 @@ for unbounded exchangeable pairs”](/docs/SZ19.pdf), Ann. Probab., vol. 47, 61�
 
 1. Q.­M. Shao and **Z.­S. Zhang.** (2016). [“Identifying the limiting distribution by a general
 approach of Stein’s method”](/docs/SZ16.pdf), Sci. China Math., vol. 59, 2379–2392.
-
-
-
