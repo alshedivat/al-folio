@@ -62,30 +62,30 @@ Prior to this, I was a research fellow working with [Aurore Delaigle](https://re
 
 
 ### <i class="fas fa-book-reader"></i> Submitted papers
-1. **Z.­S. Zhang**, [“Cramér--type moderate deviations of normal approximation for exchangeable pairs”](/assets/pdf/Cramer-2019-Ber.pdf). Available at arXiv: 1901.09526.
+1. **Z.--S. Zhang**, [“Cramér--type moderate deviations of normal approximation for exchangeable pairs”](/assets/pdf/Cramer-2019-Ber.pdf). Available at arXiv: 1901.09526.
 
-3. **Z.­S. Zhang**, [“Berry–Esseen bounds for generalized U ­statistics”](/assets/pdf/BE-U-2021.pdf). Available at arXiv: 2104.03479.
+3. **Z.--S. Zhang**, [“Berry–Esseen bounds for generalized U ­statistics”](/assets/pdf/BE-U-2021.pdf). Available at arXiv: 2104.03479.
 
-5. **Z.­S. Zhang**, [“Berry–Esseen bounds for self­normalized sums of local dependent random variables”](/assets/pdf/BE-local-2021.pdf).
+5. **Z.--S. Zhang**, [“Berry–Esseen bounds for self­normalized sums of local dependent random variables”](/assets/pdf/BE-local-2021.pdf).
 Available at arXiv: 2104.03683.
 
-1. S. Liu and **Z.­S. Zhang**, [“Cramér--type moderate deviation via Stein identities with applications to local dependence and combinatorial central limit theorems”](/assets/pdf/local-dep-2021.pdf). Submitted.
+1. S.--H. Liu and **Z.--S. Zhang**, [“Cramér--type moderate deviation via Stein identities with applications to local dependence and combinatorial central limit theorems”](/assets/pdf/local-dep-2021.pdf). Submitted.
 
-2. A. Roellin and **Z.­S. Zhang**, [“Dense multigraphon­valued stochastic processes and edge­changing
+2. A. Roellin and **Z.--S. Zhang**, [“Dense multigraphon­valued stochastic processes and edge­changing
    dynamics in the configuration model”](/assets/pdf/cnfg-2021.pdf). Available at arXiv: 2104.13024.
 
 
 ### <i class="fas fa-book-open"></i> Publications
 
 
-1. Q.­M. Shao and **Z.­S. Zhang** (2021+), [“Berry–Esseen bounds for multivariate nonlinear statistics
+1. Q.--M. Shao and **Z.--S. Zhang** (2021+), [“Berry–Esseen bounds for multivariate nonlinear statistics
 with applications to M­estimators and stochastic gradient descent algorithms”](/docs/SZ21.pdf). To appear in Bernoulli.
 
-1. Q.­M. Shao, M.­C. Zhang and **Z.­S. Zhang.** (2021), [“Cramér--type moderate deviations for
+1. Q.--M. Shao, M. Zhang and **Z.--S. Zhang.** (2021), [“Cramér--type moderate deviations for
 non­normal approximation”](/docs/SZZ21.pdf). Ann. Appl. Probab. Vol. 31, 247–283.
 
-1. Q.­M. Shao and **Z.­S. Zhang.** (2019). [“Berry–Esseen bounds of normal and non­normal approximation
+1. Q.--M. Shao and **Z.--S. Zhang.** (2019). [“Berry–Esseen bounds of normal and non­normal approximation
 for unbounded exchangeable pairs”](/docs/SZ19.pdf), Ann. Probab., vol. 47, 61–108.
 
-1. Q.­M. Shao and **Z.­S. Zhang.** (2016). [“Identifying the limiting distribution by a general
+1. Q.--M. Shao and **Z.--S. Zhang.** (2016). [“Identifying the limiting distribution by a general
 approach of Stein’s method”](/docs/SZ16.pdf), Sci. China Math., vol. 59, 2379–2392.
