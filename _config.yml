@@ -16,7 +16,7 @@ footer_text: >
 
 icon: 🎓 # the emoji used as the favicon
 url: /  # the base hostname & protocol for your site
-baseurl: #al-folio # the subpath of your site, e.g. /blog/
+baseurl: / #al-folio # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -47,7 +47,8 @@ github_username: HadiElnemr # your GitHub user name
 twitter_username: # your Twitter handle
 facebook_username: hadi.elnimr
 linkedin_username: Hadi-Elnemr # your LinkedIn user name
-youtube_username: hadiElnemr
+youtube_channel: UC_04k57VCkx_Ve3M49r7zxA
+facebook_username: hadi.elnimr
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -92,6 +93,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  notes:
+    output: true
+    permalink: /notes/:path/
 
 news_limit: 5
 
