@@ -122,10 +122,14 @@ Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0
 - The `master` branch should be used for the source code of your webpage and `gh-pages` branch (will be created on the first deployment) will be used for deployment.
 
 **For personal and organization webpages:**
-- Make sure you correctly named your repository as `<your-github-username>.github.io` or `<your-github-orgname>.github.io`.
-- After cloning this repository, [rename the branch](https://docs.github.com/en/github/administering-a-repository/renaming-a-branch) with the source code from `master` to `source`.
+- Fork this repository and name it as `<your-github-username>.github.io` or `<your-github-orgname>.github.io`.
+- Click on **Actions** Tab and **enable GitHub Actions**; you no need to worry about creating any workflows as everything has already been set for you.
+- In the settings, select Branches and [rename the branch](https://docs.github.com/en/github/administering-a-repository/renaming-a-branch) with the source code from `master` to `source`.
 - Make sure the `url` and `baseurl` fields in `_config.yml` are empty.
-- Make changes, commit, and push!
+- Make any changes to your webpage (in the source branch), commit, and push.
+- Finally, again in the settings, in the Github Pages section, set the source branch to master (**NOT** to source).
+
+**NOTE**: you **must** do all your changes in the `source` branch (the one you used to push) **NOT the master** one; this last one is used for **deploying** by Github Pages and it is not suitable for pushing changes.
 
 <details><summary><strong>Manual deployment to GitHub Pages:</strong></summary>
 
