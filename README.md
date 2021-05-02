@@ -123,10 +123,15 @@ Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0
 - The `master` branch should be used for the source code of your webpage and `gh-pages` branch (will be created on the first deployment) will be used for deployment.
 
 **For personal and organization webpages:**
-- Make sure you correctly named your repository as `<your-github-username>.github.io` or `<your-github-orgname>.github.io`.
-- After cloning this repository, [rename the branch](https://docs.github.com/en/github/administering-a-repository/renaming-a-branch) with the source code from `master` to `source`.
+- Rename your repository to `<your-github-username>.github.io` or `<your-github-orgname>.github.io`.
+- Click on **Actions** tab and **Enable GitHub Actions**; you no need to worry about creating any workflows as everything has already been set for you.
+- In the **Settings**, select **Branches** and [rename the branch](https://docs.github.com/en/github/administering-a-repository/renaming-a-branch) with the source code from `master` to `source`. From now on, this will be your default branch. Any changes you make should be committed and pushed to this branch.
 - Make sure the `url` and `baseurl` fields in `_config.yml` are empty.
-- Make changes, commit, and push!
+- Make any other changes to your webpage, commit, and push. This will automatically trigger the **Deploy** action.
+- Wait for a few minutes and let the action complete. You can see the progress in the **Actions** tab. If completed successfully, in addition to the `source` branch, your repository should now have a newly built `master` branch.
+- Finally, again in the **Settings**, in the Pages section, set the branch to `master` (**NOT** to `source`).
+
+**NOTE**: you **must** do all your changes in the `source` branch (the one you used to push) **NOT the master** one; this last one is used for **deploying** by Github Pages and it is not suitable for pushing changes.
 
 <details><summary><strong>Manual deployment to GitHub Pages:</strong></summary>
 
@@ -211,6 +216,8 @@ If you have a different question, please ask using [Discussions](https://github.
    Isn't the website supposed to correctly deploy automatically? <br>
    **A:** Yes, if you are using release `v0.3.5` or later, the website will automatically and correctly re-deploy right after your first commit.
    Please make some changes (e.g., change your website info in `_config.yml`), commit, and push.
+   Make sure to follow [deployment instructions](https://github.com/alshedivat/al-folio#deployment) in the previous section.
+   (Relevant issue: [209](https://github.com/alshedivat/al-folio/issues/209#issuecomment-798849211).)
 
 2. **Q:** I am using a custom domain (e.g., `foo.com`).
    My custom domain becomes blank in the repository settings after each deployment.
