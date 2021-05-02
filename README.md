@@ -65,6 +65,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://sjkimlab.github.io/" target="_blank">★</a>
 <a href="https://systemconsultantgroup.github.io/scg-folio/" target="_blank">★</a>
 <a href="https://decisionlab.ucsf.edu/" target="_blank">★</a>
+<a href="https://programming-group.com/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
