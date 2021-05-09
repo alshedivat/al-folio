@@ -22,11 +22,17 @@ pagination:
 
   <ul class="post-list">
     {% for post in paginator.posts %}
+
+      {% capture read_time %}
+        {{ page.content | number_of_words | divided_by: 180 | plus: 1}}
+      {% endcapture %}
+
       <li>
         <h3><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
+        <p class="post-meta"> {{read_time}} min read &nbsp;  &middot; &nbsp; {{ post.date | date: '%B %-d, %Y' }} &nbsp;  &middot; &nbsp;  {% for tag in post.tags %} <a class="post-title" href="{{ tag | prepend: '/tag/' | prepend: site.baseurl}}">{{ tag }}</a> &nbsp; {% endfor %}  </p>
         <p>{{ post.description }}</p>
       </li>
+
     {% endfor %}
   </ul>
 

@@ -127,6 +127,7 @@ keep_files:
 
 # Plug-ins
 plugins:
+  - jekyll-archives
   - jekyll-email-protect
   - jekyll-github-metadata
   - jekyll-paginate-v2
@@ -136,6 +137,21 @@ plugins:
 
 # Extras
 github: [metadata]
+
+# -----------------------------------------------------------------------------
+# Jekyll Archives
+# -----------------------------------------------------------------------------
+
+jekyll-archives:
+  enabled: [year, tags]
+  layouts:
+    year: year-archive
+    tag: tag-archive
+    #category: category-archive    
+  permalinks:
+    year: '/:year/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

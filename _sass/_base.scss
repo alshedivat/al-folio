@@ -502,3 +502,11 @@ html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
 }
+
+// Extra Markdown style
+.post-content{
+      blockquote {
+        border-left: 5px solid var(--global-theme-color);
+        padding: 8px;
+    }
+}

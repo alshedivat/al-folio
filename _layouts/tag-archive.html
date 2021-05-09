@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"> {{ page.type }}: '{{ page.title }}' </h1>
+    <p class="post-description"> an archive of posts with this tag </p>
+  </header>
+
+  <article>
+     {% for post in page.posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+  </article>
+
+</div>
+
+
+
+
