@@ -272,6 +272,7 @@ footer.sticky-bottom {
       }
     }
     &.active .page-link {
+      color: $white-color;
       background-color: var(--global-theme-color);
       &:hover {
         background-color: var(--global-theme-color);
@@ -338,13 +339,13 @@ footer.sticky-bottom {
   }
 
   h2.category {
-  color: var(--global-theme-color);
-  border-top: 1px solid var(--global-theme-color);
-  padding-top: 0.5rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  text-align: right;
-}
+    color: $grey-color-light;
+    border-bottom: 1px solid $grey-color-light;
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: right;
+  }
 }
 
 
