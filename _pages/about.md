@@ -6,7 +6,7 @@ description: Research Fellow, Department of Statistics and Applied Probability, 
 
 profile:
   align: right
-  image: me3.jpg
+  image: me.jpg
   email: >
     <p>stazz<span style="font-size: 3px; color: Tomato;"><i class="fas fa-at"></i></span>nus<span style="font-size: 0.01em; color: Tomato;"><i class="fas fa-dot-circle"></i></span>edu<span style="font-size: 0.01em; color: Tomato;"><i class="fas fa-dot-circle"></i></span>sg</p>
   address: >
