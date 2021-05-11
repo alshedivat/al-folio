@@ -31,7 +31,15 @@
               {% endif %}
             </a>
           </li>
-          {% if site.blog_name %}
+            <li class="nav-item {% if page.title contains '.pdf' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/assets/pdf/cv.pdf' | relative_url }}" target="_blank">
+              resume 
+              {% if page.title contains ".pdf" %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
+          {% if nil %}
           <!-- Blog -->
           <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
             <a class="nav-link" href="{{ '/blog/' | relative_url }}">
