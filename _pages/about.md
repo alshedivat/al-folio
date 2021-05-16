@@ -7,7 +7,7 @@ description: Cornell University College of Engineering B.S. '20, M.Eng '21 | Ith
 
 profile:
   align: right
-  #image: /assets/img/holly.jpeg
+  image: /assets/img/holly.jpeg
   address: >
     <p>801 E. State St. </p>
     <p>Ithaca, NY 14850</p>
