@@ -1,24 +1,30 @@
 ---
 layout: about
-title: about
+title: About Me
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Cornell University College of Engineering B.S. '20, M.Eng '21 | Ithaca, NY | hdm38@cornell.edu | 901.410.6012
+
 
 profile:
   align: right
-  image: prof_pic.jpg
+  #image: /assets/img/holly.jpeg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>801 E. State St. </p>
+    <p>Ithaca, NY 14850</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+  This is a personal website for Holly-Moore-McMiller. I am a Cornell MEng
+  student in Operations Research and Information Engineering with expected graduation in 
+  May 2021. I am driven, meticulous and an inquisitive learner who is eager to tackle any
+  challenge of any size. I find myself drawn to solving complex problems in big data and hope to explore career opportunities in data science.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+  This website will familiarize you with some of my previous academic projects and some of my personal interests. Thanks for visiting and have an amazing day!
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+  <p> LinkedIn: https://www.linkedin.com/in/holly-moore-mcmiller-b02a62156/ </p>
+  <p> Handshake: https://app.joinhandshake.com/users/3057800 </p>
+
