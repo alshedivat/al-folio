@@ -2,7 +2,7 @@
 layout: page
 title: Cayuga Health Partners - Identifying Cost-Saving Opportunities
 description: ORIE MEng project completed during the 2020-2021 school year. 
-img: /assets/img/CHP.jpg
+#img: /assets/img/CHP.jpg
 importance: 1
 category: Cornell
 ---
