@@ -1,78 +1,14 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+title: Cayuga Health Partners - Identifying Cost-Saving Opportunities
+description: ORIE MEng project completed during the 2020-2021 school year. 
+img: /assets/img/CHP.jpg
 importance: 1
-category: work
+category: Cornell
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+In the age of a pandemic, the need for a robust and functioning medical system cannot be  overstated. While COVID-19 continues to present the largest challenge to the American medical  system in recent history at the time of writing, it also presents a novel opportunity to begin thinking  about improvements that can be made to operating procedures and the way in which individuals  pay for prescription drug treatments. Pandemic notwithstanding, the U.S. has seen precipitous 
+yearly increases in prescription drug prices – a trend that is projected to continue into the future. 
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-```
+We begin by looking at the overall U.S. healthcare industry to study the macro-economics,  industry trends and areas of focus. This is done by comparing and contrasting the U.S. healthcare  system with other nations. Then, we strive to build an understanding of our project sponsor  Cayuga Health Partners (CHP) – its organizational structure, corporate goals, and operating  policies and procedures – to offer affordable, high-quality care to its patient population. Next, we  look at the different flow of funds and services in the U.S. healthcare network – to identify key  stakeholders, their roles and the value creation process – to hone in on our project’s area of focus  of prescription drug spending. Lastly, we zoom into the U.S. Pharmaceutical Retail Distribution  system – to identify major players, their market share and the value creation process – to  corroborate our focus on CHP’ prescribing practices. Using the flow of a hypothetical $100  expenditure on prescription drugs covered under private insurance, we explore the expense-share  captured by each echelon in the pharmacy distribution network. This underscores the rationale of  our data analysis and the significance that our client’s prescribing practices have on patients’ insurance claims (or specifically out-of-pocket expenses, for example).
