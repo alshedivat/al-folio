@@ -42,27 +42,101 @@
 {% if site.enable_darkmode %}
   <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
   <!-- Load DarkMode JS -->
-<script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
 {% endif %}
 
-<!-- Cookie Consent by https://www.CookieConsent.com -->
-{% unless page.disable_cc %}
-<script type="text/javascript" src="//www.cookieconsent.com/releases/3.1.0/cookie-consent.js"></script>
-<script type="text/javascript">
-  document.addEventListener('DOMContentLoaded', function () {
-    cookieconsent.run({"notice_banner_type":"headline","consent_type":"express","palette":"dark","language":"en",
-      "change_preferences_selector":"#changeCookiePreferences"});
-  });
-</script>
-<noscript>ePrivacy and GPDR Cookie Consent by <a href="https://www.CookieConsent.com/" rel="nofollow noopener">Cookie Consent</a></noscript>
-{% endunless %}
-<!-- include scripts that use cokies and tracking stuff as text/plain and add cookie-consent="<category>"-->
 
 <!-- analytics -->
-<script type="text/plain" cookie-consent="tracking" src="{{ '/assets/js/analytics.js' | relative_url }}"></script>
+<script type="text/javascript">
+  // funciton to enable analytics if cookie preferences allow it
+  // we call it directly here, and then also later whenver the cookie settings change
+  function enableAnalyticsIfAllowed() {
+    if ($.fn.ihavecookies && $.fn.ihavecookies.preference('analytics') == true) {
+      {% if site.enable_google_analytics %}
+        // google analytics
+        var gaScript = document.createElement('script');
+        gaScript.type = 'text/javascript';
+        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}';
+        document.head.appendChild(gaScript);
 
-<!-- store theme over multiple sessions if functional cookies are on -->
-<script type="text/plain" cookie-consent="functionality">
-var allowThemeStored = true;
-localStorage.setItem("theme",sessionStorage.getItem("theme"));
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      {% endif %}
+
+      {% if site.enable_panelbear_analytics %}
+        // Panelbear analytics
+        var paScript = document.createElement('script');
+        paScript.type = 'text/javascript';
+        paScript.src = 'https://cdn.panelbear.com/analytics.js?site={{site.panelbear_analytics}}';
+        document.head.appendChild(paScript);
+
+        window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
+        panelbear('config', { site: '{{site.panelbear_analytics}}' });
+      {% endif %}
+    }
+  }
+  enableAnalyticsIfAllowed();
 </script>
+
+{% unless page.disable_cc %}
+<!-- cookie  consent dialog using ihavecookies by ketan Mistry https://github.com/ketanmistry/ihavecookies -->
+<script type="text/javascript" src="{{ '/assets/js/jquery.ihavecookies.js' | relative_url }}"></script>
+<script type="text/javascript">
+
+  // setup ihavecookies options
+  var options = {
+    title: '&#x1F36A; Accept Cookies?',
+    message: 'We use cookies to enhance your experience on this website and to enable third party services.',
+    delay: 600,
+    expires: 30,
+    link: '{{site.cookie_info}}',
+    onAccept: function(){
+      // analytics
+      enableAnalyticsIfAllowed();
+      // store color theme
+      if ($.fn.ihavecookies && $.fn.ihavecookies.preference('preferences') == true) {
+        localStorage.setItem("theme", sessionStorage.getItem("theme"));
+      }
+    },
+    acceptBtnLabel: 'Accept All',
+    moreInfoLabel: 'More information',
+    cookieTypesTitle: 'Select which cookies you want to accept',
+    fixedCookieTypeLabel: 'Essential',
+    cookieTypes: [
+      {
+        type: 'Preferences',
+        value: 'preferences',
+        description: 'These are cookies that are related to your site preferences, e.g. remembering the color theme.'
+      },
+      {
+        type: 'Social',
+        value: 'social',
+        description: 'Cookies needed for social features (e.g. reading and writing comments), ' +
+                'as well as displaying external content (e.g. from YouTube or twitter)'
+      },
+      {
+        type: 'Analytics',
+        value: 'analytics',
+        description: 'Cookies we use to analyse the site usage.'
+      }
+    ]
+  }
+
+  // run ihavecookies when document is ready
+  $(document).ready(function() {
+    $('body').ihavecookies(options);
+
+    if ($.fn.ihavecookies.preference('marketing') === true) {
+      console.log('This should run because marketing is accepted.');
+    }
+
+    $('#footerCookieSettings').on('click', function(){
+      $('body').ihavecookies(options, 'reinit');
+    });
+
+  });
+</script>
+{% endunless %}
+<!-- include scripts that use cokies and tracking stuff as text/plain and add cookie-consent="<category>"-->

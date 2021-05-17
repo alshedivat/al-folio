@@ -23,7 +23,9 @@ $(document).ready(function() {
             document.documentElement.removeAttribute("data-theme");
         }
         sessionStorage.setItem("theme", theme);
-        if(allowThemeStored == true) {
+
+        // store also in persistent storage if user allowed it
+        if($.fn.ihavecookies && $.fn.ihavecookies.preference('preferences') === true) {
             localStorage.setItem("theme", theme);
         }
     };
