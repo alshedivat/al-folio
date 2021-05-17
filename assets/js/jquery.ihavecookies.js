@@ -9,6 +9,9 @@
  */
 (function($) {
 
+    // store handler to be called when preferences are changed
+    var prefChangeHandlers = [];
+
     /*
     |--------------------------------------------------------------------------
     | Cookie Message
@@ -54,7 +57,6 @@
             cookieTypesTitle: 'Select cookies to accept',
             fixedCookieTypeLabel:'Necessary',
             fixedCookieTypeDesc: 'These are cookies that are essential for the website to work correctly.',
-            onAccept: function(){},
             uncheckBoxes: false
         }, options);
 
@@ -112,7 +114,8 @@
                 setCookie('cookieControlPrefs', encodeURIComponent(JSON.stringify(prefs)), 365);
 
                 // Run callback function
-                settings.onAccept.call(this);
+                for (const handler of prefChangeHandlers)
+                    handler(this);
             });
 
             // Toggle advanced cookie options
@@ -139,6 +142,11 @@
             $('input[type="checkbox"].ihavecookies').prop('checked', false);
         }
 
+    };
+
+    // Register allback to be executed whenever
+    $.fn.ihavecookies.onPrefChange = function(handler) {
+        prefChangeHandlers.push(handler);
     };
 
     // Method to get cookie value

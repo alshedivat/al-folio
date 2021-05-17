@@ -92,14 +92,6 @@
     delay: 600,
     expires: 30,
     link: '{{site.cookie_info}}',
-    onAccept: function(){
-      // analytics
-      enableAnalyticsIfAllowed();
-      // store color theme
-      if ($.fn.ihavecookies && $.fn.ihavecookies.preference('preferences') == true) {
-        localStorage.setItem("theme", sessionStorage.getItem("theme"));
-      }
-    },
     acceptBtnLabel: 'Accept All',
     moreInfoLabel: 'More information',
     cookieTypesTitle: 'Select which cookies you want to accept',
@@ -124,6 +116,18 @@
     ]
   }
 
+  $.fn.ihavecookies.onPrefChange( function() {
+    // analytics
+    enableAnalyticsIfAllowed();
+    // store color theme
+    if ($.fn.ihavecookies && $.fn.ihavecookies.preference('preferences') == true) {
+      localStorage.setItem("theme", sessionStorage.getItem("theme"));
+    }
+
+    console.log("cookie pref changed");
+
+  });
+
   // run ihavecookies when document is ready
   $(document).ready(function() {
     $('body').ihavecookies(options);
@@ -135,7 +139,6 @@
     $('#footerCookieSettings').on('click', function(){
       $('body').ihavecookies(options, 'reinit');
     });
-
   });
 </script>
 {% endunless %}
