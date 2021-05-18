@@ -1,0 +1,26 @@
+---
+layout: page
+title: Language and Computers
+description: Georgetown University, Spring 2020
+img: /assets/img/lol_haha_fsm.png
+importance: 1
+category: Instructor
+---
+
+Course Description:
+
+> Science fiction has promised us intelligent robots like C3P0 and HAL, but instead we're stuck with Siri. What happened? Why has getting computers to understand language proven so difficult?
+In this course, we'll look at this question through the history of computational linguistics and natural language processing: what approaches have researchers taken over the last 60 years of computational linguistics? In what ways did those approaches succeed? In what ways did they fail?
+Topics will include:
+> * The Goals and Applications of Computational Linguistics
+> * Pre-statistical Approaches to Natural Language Processing (NLP) 
+> * Modern, Statistical Approaches to NLP
+The class will focus on the concepts behind these topics rather than implementing them, so no programming experience is required.
+
+>No prerequisites, though many concepts will overlap with those in Introduction to Language (LING 001).
+
+---
+
+I taught this course in Spring 2020--an exciting semester for my first university teaching experience! For the first half of the semester, it was a regular in-person class; in the latter half, we moved to an asynchronous online format.
+
+Check out the [syllabus](../../assets/pdf/LING261_syllabus.pdf) for more details!
