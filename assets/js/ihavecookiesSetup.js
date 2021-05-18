@@ -36,7 +36,32 @@ var options = {
 $(document).ready(function() {
     $('body').ihavecookies(options);
 
-    $('#footerCookieSettings').on('click', function(){
+    $('.cookieSettings').on('click', function (event) {
+        event.stopPropagation();
+        event.stopImmediatePropagation();
         $('body').ihavecookies(options, 'reinit');
     });
 });
+
+/* Helper function to enable / disable content based on the cookie setting
+ cookieType: the type of cookie this code depends on
+ elementId: the html element the content will be appended to
+ contentEnables: content if cookie is enabled
+ contentDisables: content if cookie is disabled
+ */
+function cookieDependentContent(cookieType, elementId, contentEnabled, contentDisabled) {
+    function enableHelper() {
+        if ($.fn.ihavecookies && $.fn.ihavecookies.preference(cookieType) == true) {
+            $(elementId).html(contentEnabled);
+        } else {
+            $(elementId).html(contentDisabled);
+        }
+    }
+    // run now to apply settings at page load
+    enableHelper();
+    // attach to callback, to apply on preferences change
+    $.fn.ihavecookies.onPrefChange( function() {
+        enableHelper();
+    });
+}
+
