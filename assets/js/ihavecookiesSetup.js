@@ -4,11 +4,12 @@
 // setup ihavecookies options
 var options = {
     title: '&#x1F36A; Accept Cookies?',
-    message: 'We use cookies to enhance your experience on this website and to enable third party services.',
+    message: 'We use cookies to enhance your experience on this website ' +
+             'and to display content from third party websites.',
     delay: 600,
     expires: 30,
     link: '{{site.cookie_info}}',
-    acceptBtnLabel: 'Accept All',
+    acceptBtnLabel: 'Accept',
     moreInfoLabel: 'More information',
     cookieTypesTitle: 'Select which cookies you want to accept',
     fixedCookieTypeLabel: 'Essential',
@@ -34,12 +35,12 @@ var options = {
 
 // run ihavecookies when document is ready
 $(document).ready(function() {
-    $('body').ihavecookies(options);
+    $('#ihavecookiePlaceholder').ihavecookies(options);
 
     $('.cookieSettings').on('click', function (event) {
         event.stopPropagation();
         event.stopImmediatePropagation();
-        $('body').ihavecookies(options, 'reinit');
+        $('#ihavecookiePlaceholder').ihavecookies(options, 'reinit');
     });
 });
 
