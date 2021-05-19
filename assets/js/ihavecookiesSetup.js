@@ -1,6 +1,9 @@
 ---
 ---
 
+// get ihavecookies
+
+
 // setup ihavecookies options
 var options = {
     title: '&#x1F36A; Accept Cookies?',
