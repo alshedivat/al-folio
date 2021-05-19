@@ -32,7 +32,6 @@ function enableAnalyticsIfAllowed() {
 
 // try to enable analytics after preferences changed
 $.fn.ihavecookies.onPrefChange( function() {
-    // analytics
     enableAnalyticsIfAllowed();
 });
 
