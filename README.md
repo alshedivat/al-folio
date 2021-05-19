@@ -318,18 +318,24 @@ Easily create beautiful grids within your blog posts and project pages:
 </p>
 
 ### Cookie Consent
-Includes a cookie consent dialog to allow your user to opt out of non-necessary cookies. 
-To block scripts based on the user's cookie settings, include the javascrip as:
+The theme includes the cookie consent dialog by [ihavecookies](https://github.com/ketanmistry/ihavecookies) to allow your user to opt out of non-necessary cookies. 
+In JavaScript, you can check if a certain type of cookie is enabled like so:
 ```
-<script type="text/plain" cookie-consent="<level>">
-   // only executed if user agreed to cookies
-</script>
+if ($.fn.ihavecookies && $.fn.ihavecookies.preference("cookieType") == true) {
+   // cookie "cookieType" is allowed
+} else {
+   // cookie "cookieType" is not allowed
+}
 ```
-Where `<level>` is one of:
-- strictly-necessary
-- functionality
-- tracking
-- targeting
+Where `cookieType` is one of:
+- preferences
+- social
+- analytics
+
+Essential cookies are always enabled. In `_config.yml` you can specify `cookie_info`, a link to a page where you
+explain your usage of cookies. You can disable the cookie consent dialog by setting the Jekyll 
+variable `disable_cc: true` either in `_config.yml` or for an individual page. This will default to 
+the old behaviour and allow all cookies without asking. 
 
 ###### Disclaimer
 Please note that we do not give any guarantee that our implementation is actually compliant with local laws 
