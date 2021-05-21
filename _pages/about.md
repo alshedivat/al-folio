@@ -2,23 +2,28 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: PhD Candidate at <a href="https://www.snet.tu-berlin.de">TU Berlin - Service-centric Networking</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Service-centric Networking</p>
+    <p>TEL 19</p>
+    <p>Ernst-Reuter Platz 7</p>
+    <p>10587 Berlin</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My name is Friedhelm Victor (Friedhelm is the first name :smirk:) and I'm a PhD candidate at TU Berlin, researching primarily on the intersections of blockchain, data science and privacy. Most of my works involve blockchain-based cryptoassets and the Ethereum network.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+More generally, I'm interested in:
+- Data Mining
+- Network Analysis
+- Privacy & Anonymity
+- Fraud Detection
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to pursuing a PhD, I've completed a Dual Master Degree in Computer Science at [Technische Universität Berlin](https://www.tu.berlin/) and at the [Korean Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/).
