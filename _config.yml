@@ -21,6 +21,15 @@ last_updated: false # set to true if you want to display last updated in the foo
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
+# RSS Feed
+# -----------------------------------------------------------------------------
+# will use title and url fields
+description:  # Higly suggested: FILL THIS FIELD! If blank, this could lead to errors. A longer description of what your site is about, e.g., "Where I blog about Jekyll and other awesome things"
+author:  # your name and surname
+feed:
+  excerpt_only: false # set it to have all posts in feed will be without <content> tags.
+
+# -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
@@ -129,6 +138,7 @@ keep_files:
 plugins:
   - jekyll-email-protect
   - jekyll-github-metadata
+  - jekyll-feed
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-twitter-plugin
