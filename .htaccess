@@ -63,6 +63,7 @@ FileETag None
   ExpiresByType image/jpg "access plus 2592000 seconds"
   ExpiresByType image/jpeg "access plus 2592000 seconds"
   ExpiresByType image/png "access plus 2592000 seconds"
+  ExpiresByType image/webp "access plus 2592000 seconds"
   ExpiresByType image/svg+xml "access plus 2592000 seconds"
   ExpiresByType text/html "access plus 1 seconds"
   ExpiresByType text/css "access plus 604800 seconds"
@@ -82,4 +83,28 @@ FileETag None
     Header append Cache-Control "public"
   </IfModule>
 </IfModule>
+
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Check if browser supports WebP images
+  RewriteCond %{HTTP_ACCEPT} image/webp
+
+  # Check if WebP replacement image exists
+  RewriteCond %{DOCUMENT_ROOT}/$1.webp -f
+
+  # Serve WebP image instead
+  RewriteRule (.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=REQUEST_image]
+</IfModule>
+
+<IfModule mod_headers.c>
+  # Vary: Accept for all the requests to jpeg and png
+  Header append Vary Accept env=REQUEST_image
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+</IfModule>
+
 
