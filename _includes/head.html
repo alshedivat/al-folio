@@ -38,30 +38,40 @@
 <!-- JQuery -->
 {% include scripts/jquery.html %}
 
+{% unless page.disable_cc or site.disable_cc %}
+<!-- cookie  consent dialog using ihavecookies by ketan Mistry https://github.com/ketanmistry/ihavecookies -->
+<script type="text/javascript" src="{{ '/assets/js/jquery.ihavecookies.js' | relative_url }}"></script>
+<script type="text/javascript" src="{{ '/assets/js/ihavecookiesSetup.js' | relative_url }}"></script>
+{% else %}
+<script type="text/javascript">
+    console.log("cc disabled");
+    // define functions from ihavecookies.js and ihavecookiesSetup.js as if all cookies were enabled
+    $.fn.ihavecookies = {};
+    $.fn.ihavecookies.onPrefChange = function(handle) {};
+    $.fn.ihavecookies.preference = function(cookieTypeValue) {
+        return true;
+    };
+    function cookieDependentContent(cookieType, elementId, contentEnabled, contentDisabled) {
+        $(elementId).html(contentEnabled);
+    }
+</script>
+{% endunless %}
+<!-- include scripts that use cokies and tracking stuff as text/plain and add cookie-consent="<category>"-->
+
+<!-- analytics -->
+<script type="text/plain" src="{{ '/assets/js/analytics.js' | relative_url }}"></script>
+
 <!-- Theming-->
 {% if site.enable_darkmode %}
-  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
-  <!-- Load DarkMode JS -->
+<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+<!-- Load DarkMode JS -->
 <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
-{% endif %}
-
-{% if site.enable_google_analytics %}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', '{{ site.google_analytics }}');
-  </script>
-{% endif %}
-
-{% if site.enable_panelbear_analytics %}
-<!-- Panelbear Analytics - We respect your privacy -->
-<script async src="https://cdn.panelbear.com/analytics.js?site={{site.panelbear_analytics}}"></script>
-<script>
-    window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
-    panelbear('config', { site: '{{site.panelbear_analytics}}' });
+<!-- try to store color theme when cookie preferences are updated -->
+<script type="text/javascript">
+  $.fn.ihavecookies.onPrefChange( function() {
+    if ($.fn.ihavecookies && $.fn.ihavecookies.preference('preferences') == true) {
+      localStorage.setItem("theme", sessionStorage.getItem("theme"));
+    }
+  });
 </script>
 {% endif %}

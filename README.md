@@ -55,7 +55,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://zrqiao.github.io/" target="_blank">★</a>
 <a href="https://abstractgeek.github.io/" target="_blank">★</a>
 <a href="https://www.compphys.de/" target="_blank">★</a>
-
+<a href="https://hschwane.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -325,6 +325,30 @@ Easily create beautiful grids within your blog posts and project pages:
   </a>
 </p>
 
+### Cookie Consent
+The theme includes the cookie consent dialog by [ihavecookies](https://github.com/ketanmistry/ihavecookies) to allow your user to opt out of non-necessary cookies. 
+In JavaScript, you can check if a certain type of cookie is enabled like so:
+```
+if ($.fn.ihavecookies && $.fn.ihavecookies.preference("cookieType") == true) {
+   // cookie "cookieType" is allowed
+} else {
+   // cookie "cookieType" is not allowed
+}
+```
+Where `cookieType` is one of:
+- preferences
+- social
+- analytics
+
+Essential cookies are always enabled. In `_config.yml` you can specify `cookie_info`, a link to a page where you
+explain your usage of cookies. You can disable the cookie consent dialog by setting the Jekyll 
+variable `disable_cc: true` either in `_config.yml` or for an individual page. This will default to 
+the old behaviour and allow all cookies without asking. 
+
+###### Disclaimer
+Please note that we do not give any guarantee that our implementation is actually compliant with local laws 
+(such as GDPR), nor do we take any responsibility for resulting legal problems. You need to verify yourself, 
+that your website is compliant with all applicable regulation in your country before publishing.    
 
 ### Other features
 

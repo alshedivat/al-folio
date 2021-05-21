@@ -20,18 +20,34 @@ layout: default
   </article>
 
   {% if site.disqus_shortname and page.comments %}
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-      var disqus_shortname  = '{{ site.disqus_shortname }}';
-      var disqus_identifier = '{{ page.id }}';
-      var disqus_title      = {{ page.title | jsonify }};
-      (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  <hr>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    function handleDisqus() {
+      if ($.fn.ihavecookies && $.fn.ihavecookies.preference("social") == true) {
+        var disqus_shortname = '{{ site.disqus_shortname }}';
+        var disqus_identifier = '{{ page.id }}';
+        var disqus_title = '{{ page.title | jsonify }}';
+
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.id = 'disqus_script';
+        dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      } else {
+        var disableText = 'Please enable "social" cookies in the <button class="cookieSettings">Cookie Preferences</button> to view the <a href="http://disqus.com/">comments powered by Disqus.</a>';
+        $("#disqus_thread").html(disableText); // display the new text
+        $('#disqus_thread').attr('style',''); // also reset style
+        $("#disqus_script").remove(); // remove the disqus script
+      }
+    }
+    // try to enable disqus now
+    handleDisqus();
+    // try to enable disqus when settings change
+    $.fn.ihavecookies.onPrefChange(handleDisqus);
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   {% endif %}
 
 </div>

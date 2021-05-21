@@ -13,12 +13,16 @@ footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  <button class="cookieSettings">Cookie Preference</button>
 
 icon: 🔥 # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
 baseurl: # /al-folio # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+
+disable_cc: false # you can disable the cookie consent dialog here globally, or disable it per page
+cookie_info: # link to a info page about how you use cookies or your impressum
 
 # -----------------------------------------------------------------------------
 # Layout
