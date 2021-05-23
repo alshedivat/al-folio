@@ -9,10 +9,8 @@ last_name: Kadavath
 email: mail@hashin.me
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Student, Writer, Thinker
-footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+footer_text: > #s no footer
+  
 
 icon: 🎡 # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
@@ -59,7 +57,7 @@ keybase_username: hashin
 wikidata_id: # your wikidata id
 
 contact_note: >
-  Feel free to email me about anything that you think I should know.
+  Feel free to get in touch with me!
 
 google_analytics: UA-38434239-3 # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID

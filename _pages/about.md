@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Student. <a href="https://blog.hashin.me/" target="_blank">Writer</a>. Thinker.
 
 profile:
   align: right
@@ -13,7 +13,7 @@ profile:
     <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 

@@ -6,6 +6,7 @@ description: A growing collection of your cool projects.
 nav: true
 display_categories: [work, fun]
 horizontal: false
+social: true
 ---
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
@@ -53,5 +54,13 @@ horizontal: false
     {% endif %}
 
   {% endif %}
+  {% if page.social %}
+    <div class="social">
+      <div class="contact-icons">
+        {% include social.html %}
+      </div>
+      <div class="contact-note">{{ site.contact_note }}</div>
+    </div>
+    {% endif %}
 
 </div>
