@@ -6,7 +6,7 @@ description: publications by categories in reversed chronological order. generat
 years: [1956, 1950, 1935, 1905]
 nav: true
 social: true
-published: false
+published: true
 ---
 
 <div class="publications">
