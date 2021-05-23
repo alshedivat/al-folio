@@ -10,6 +10,7 @@ profile:
   address: >
     <p>90, South Avenue, New Delhi.</p>
     <p>12 B, Heera Twins, Thiruvanthapuram.</p>
+    <br>
     <p>Kozhikode, Malappuram, Kochi.</p>
 
 news: true  # includes a list of news items
@@ -17,8 +18,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+`A melancholy-looking man, he had the appearance of one who has searched for the leak in life's gas-pipe with a lighted candle.`  
+`~ P.G Wodehouse.`
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am into books, travel, debates and a bit of tech. I write about a lot of irrelevant stuff, though I am convinced of their utility when I write them. Sort of an existentialist, but I don't concur with the idea that existence is pain. Purpose of existence may be void, but we sure can infuse meaning by actively seeking self determination.  
+

@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 2
+title: Sample Project
 description: a project with a background image
 img: /assets/img/3.jpg
 importance: 2
 category: work
+published: true
 ---
 
 Every project has a beautiful feature showcase page.
