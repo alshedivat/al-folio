@@ -4,6 +4,7 @@ title: notes
 permalink: /notes/
 description: University Notes.
 nav: true
+social: true
 ---
 
 <div class="notes grid">
