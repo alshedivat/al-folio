@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-  title: VU # the website title (if blank, full name will be used instead)
+title: VU # the website title (if blank, full name will be used instead)
 first_name: Vitalii
 middle_name: 
 last_name: Urbanevych
