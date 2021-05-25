@@ -1,14 +1,13 @@
 ---
 layout: post
-title:  A post with video
-date: 2020-05-25 12:56:00
+title:  Lewa Baba Jaga
+date: 2021-05-25 14:00:00 +2000
 description: Our climbing
-img: 1.jpg
 ---
-sdfdsf
 
-sdfsdf
+Vlada on "Baba Jaga".
 
+This is a 30m rock in Zakrzówek. The rout difficulty is `VI` (Polish system) or `6a` (French).
 
 <div align="center">
 <p>
