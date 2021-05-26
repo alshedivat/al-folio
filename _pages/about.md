@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. razahashmi93@gmail.com
+description: <a href="#">Affiliations</a>.
+Interested in machine learning research. Currently working on reducing generalization errors, bias and transfer learning.
 
 profile:
   align: right
