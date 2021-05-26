@@ -1,7 +1,8 @@
 {% if site.footer_fixed %}
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
+    <!-- &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. -->
+    &copy; {{ site.time | date: '%Y' }} {{ site.name }}. All rights reserved.
     {{ site.footer_text }}
     {% if site.impressum_path %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
@@ -14,7 +15,9 @@
 {% else %}
 <footer class="sticky-bottom mt-5">
   <div class="container">
-    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
+    <!-- &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. -->
+    &copy; {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.last_name }}. All rights reserved.
+    {{ site.footer_text }}
     {{ site.footer_text }}
     {% if site.impressum_path %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.

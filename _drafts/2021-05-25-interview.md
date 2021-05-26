@@ -47,7 +47,7 @@ My second task at the company was connected to NLP. I signed a contract, which d
 
 <hr>
 
-### Why do I want to get this position
+### Why should we hire you?
 
 To be honest, when I found the offer, I realized that it's an ideal position for me. 
 I think that the requirements match my skills and interests `perfectly` what happens not so often.
@@ -59,11 +59,22 @@ For example:
 * Interest in ML, NLP, AI
 * Expirience in text processing
 
+<hr>
+
+### Why do I want to get this position
+
 I hope that this position would provide me with an `valuable` experience and I would develop my professional skills.
 
 I like trying something new and challange myself, that's why I would be happy to have any  possible business trips. Also I do not mind working remotely as I have a dream to see the world.
 
 *I am interested in the long-term cooperation.*
+
+<hr>
+
+### Javascript -> Fast Learner
+
+I have received a task to prepare a javascript applets on statistics. At that time I didn't know that language at all. During 7 months a learned JS and prepared 10 applets.
+
 
 <hr>
 
@@ -73,7 +84,7 @@ I like trying something new and challange myself, that's why I would be happy to
 
 * **Fast-learner and quick-witted**\
 *It's not a problem for me to make myself familiar with different tools and use them immediately.*
-*I prefer to learning-by-doing.*
+*I prefer learning-by-doing.*
 
 * **Adaptible, flexible**\
 *Moved to another country and adapted here. Took part in projects from different physics areas*
@@ -89,19 +100,15 @@ I like trying something new and challange myself, that's why I would be happy to
 
 #### Weak
 
-* **Competitive**\
-*I always want to be the best. Sometimes I spend to much time on unneccessary things just to overcome other people's results. As a consequence I like playing competitive games like chess, ping-pong, football and volleyball.*
-
 * **Not really talkative and sociable person, shy**\
 *I am not the person to start the conversation first. It sometimes takes me time to blend in the group.*
 *As the reason of it, I am a bit shy.*
 
+* **Competitive**\
+*I always want to be the best. Sometimes I spend to much time on unneccessary things just to overcome other people's results. As a consequence I like playing competitive games like chess, ping-pong, football and volleyball.*
+
 * **I work better when my achivements and merits are recognized**\
 *It helps me to keep motivation when I am being praised.*
-
-### Javascript -> Fast Learner
-
-I have received a task to prepare a javascript applets on statistics. At that time I didn't know that language at all. During 7 months a learned JS and prepared 10 applets.
 
 <hr>
 
@@ -111,6 +118,19 @@ I moved to Poland with my wife.
 She is a language teacher in a private school (ProfiLingua).
 
 <hr>
+
+### Are you a team player?
+
+Example: Weekly meetings with SiFi-CC.
+
+<hr>
+
+### What has disappointed you about work?
+
+I once felt that I was not being given enough challenges to work on. I was a bit disappointed because I was so eager to go for more.****
+
+<hr>
+
 
 ### My plans, hobbies, dreams
 
@@ -129,13 +149,19 @@ I'd like to find a position where I will be able to make maximum use of my skill
 
 ###  Describe the workplace where you’ll be most happy and productive
 
- I like workplaces that emphasize both autonomy and teamwork. I like collaborating with others and exchanging ideas, but I also want to have flexibility to work uninterrupted for some time.
+ I like workplaces that emphasize both autonomy and teamwork. I like collaborating with others and exchanging ideas, but I also want to have `flexibility to work` uninterrupted for some time.
+
+ *Apreciate flexible hours*
+ 
+ *The only dream job I’ve always had was a job that keeps me busy, a job wherein I get to contribute to the company’s success.*
 
 <hr>
 
 ### What are your salary expectations?
 
-I’ve done some research on the average salaries for this type of role in my area and I think I would expect this role to pay between 3000 and 6000. But I think it depands on the number of working hours per month. Could you tell me the salary range you have in mind?
+As of now, I haven’t thought much about it. I’m more focused on learning the requirements for this position that I am applying for. 
+
+*I’ve done some research on the average salaries for this type of role in my area and I think I would expect this role to pay between 3000 and 6000. But I think it depands on the number of working hours per month. Could you tell me the salary range you have in mind?*
 
 <hr>
 
