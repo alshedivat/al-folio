@@ -17,3 +17,4 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 This is my website, where I will share my upcoming research projects, write about papers I've read recently and will also host code for my published papers.
+Currently, looking for admissions into a PhD programme and in search for professors to work with.
