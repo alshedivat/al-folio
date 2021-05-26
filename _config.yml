@@ -71,7 +71,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: rizhash # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -137,8 +137,8 @@ github: [metadata]
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Hashmi
+  first_name: [Raza, R.]
 
   style: apa
   locale: en
