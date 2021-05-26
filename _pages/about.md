@@ -3,15 +3,8 @@ layout: about
 title: about
 permalink: /
 description: > 
-<p>Prospective machine learning PhD student.Currently working on the following ideas: </p>
-<p>Improving machine learning models <p>
-  <p>  reducing bias in networks </p>
-   <p> Transfer learning </p>
-   <p> Mathematical understanding of deep learning </p>
- <a href="#">Affiliations</a>
-
+Prospective machine learning PhD student.Currently working on the following ideas: Improving machine learning models, reducing bias in networks, Transfer learning and Mathematical understanding of deep learning. <a href="#">Affiliations</a>
     
-
 profile:
   align: right
   image: prof_pic.jpg
