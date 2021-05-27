@@ -1,9 +1,9 @@
 ---
 layout: page
-title: SiFi-CC
+title: Traveling-wave reactor
 description: a project with a background image
-img: /assets/img/12.jpg
-# importance: 1
+img: /assets/img/3.jpg
+importance: 3
 category: research
 ---
 
