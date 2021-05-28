@@ -31,7 +31,7 @@ M.S. in Computational and Applied Mathematics, Southern Methodist University, 20
 </li>
 <li makrdown="1">
 <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-BSc in Applied Mathematics, Xi'an Jiaotong-Liverpool University and Liverpool University, 2014
+BSc in Applied Mathematics, Xi'an Jiaotong-Liverpool University and the University of Liverpool, 2014
 </li>
 </ul>
 
