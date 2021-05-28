@@ -15,11 +15,16 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hello, you! I am a Ph. D. student at the [Informatic Center](https://www.cin.ufpe.br/){:target="\_blank"} of the [Federal University of Pernambuco](https://www.ufpe.br/){:target="\_blank"} advised by [Fernando Castor](https://sites.google.com/a/cin.ufpe.br/castor/){:target="\_blank"} and [Fernanda Madeiral](https://fermadeiral.github.io/){:target="\_blank"}. Also, I am a teacher at the [Federal Institute of Pernambuco](https://www.ifpe.edu.br/){:target="\_blank"} in the [Campus Palmares](https://www.palmares.ifpe.edu.br/){:target="\_blank"}. 
+Hello, you! I am a Ph. D. student at the [Informatic Center](https://www.cin.ufpe.br/){:target="\_blank"} of the [Federal University of Pernambuco](https://www.ufpe.br/){:target="\_blank"}
+advised by [Fernando Castor](https://sites.google.com/a/cin.ufpe.br/castor/){:target="\_blank"} and [Fernanda Madeiral](https://fermadeiral.github.io/){:target="\_blank"}. 
+Also, I am a teacher at the [Federal Institute of Pernambuco](https://www.ifpe.edu.br/){:target="\_blank"} in the [Campus Palmares](https://www.palmares.ifpe.edu.br/){:target="\_blank"}. 
+Currently, I am in Stockholm/Sweden in an internship at [KTH - Royal Institute of Technology](https://www.kth.se/en){:target="\_blank"} supervised by [Martin Monperrus](https://www.monperrus.net/martin/){:target="\_blank"}. 
 
-I am interested in Software Engineering, more specifically in Software Quality. My current research aims to recommend code readability and legibility improvements for software developers. In that way, I am interested also in code reviews and mining software repositories.
+I am interested in Software Engineering, more particularly in Software Quality. My current research aims to recommend code readability and legibility improvements for software developers. 
+In that way, I am specifically interested in code reviews and mining software repositories.
 
-I obtained my MSc degree in Computer Science at the [Federal University of Campina Grande](https://portal.ufcg.edu.br/){:target="\_blank"} (2015), advised by  [Hyggo Almeida](https://hyggo.computacao.ufcg.edu.br/){:target="\_blank"}. Before that, I obtained my bachelor's degree in Computer Science at the same university.
+I obtained my MSc degree in [Computer Science](http://computacao.ufcg.edu.br/){:target="\_blank"} at the [Federal University of Campina Grande](https://portal.ufcg.edu.br/){:target="\_blank"} (2015), 
+advised by  [Hyggo Almeida](https://hyggo.computacao.ufcg.edu.br/){:target="\_blank"}. Before that, I obtained my bachelor's degree in Computer Science at the same university.
 
 
 <!--- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
