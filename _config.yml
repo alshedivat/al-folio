@@ -125,15 +125,13 @@ keep_files:
   - CNAME
   - .nojekyll
   - .git
-# gems 
-gems: 
-  - jekyll-scholar
+
 # Plug-ins
 plugins:
   - jekyll-email-protect
   - jekyll-github-metadata
   - jekyll-paginate-v2
-  - jekyll/scholar
+  - jekyll-scholar
   - jekyll-twitter-plugin
   - jemoji
 
