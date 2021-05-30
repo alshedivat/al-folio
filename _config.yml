@@ -173,6 +173,7 @@ enable_math:                true
 enable_tooltips:            false
 enable_darkmode:            true
 enable_navbar_social:       false
+enable_medium_zoom:         true
 
 # -----------------------------------------------------------------------------
 # Library versions
@@ -205,3 +206,6 @@ mdb:
 popper:
   version: "2.4.4"
   integrity: "sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A=="
+medium_zoom:
+  version: "1.0.6"
+  integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="
