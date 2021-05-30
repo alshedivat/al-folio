@@ -125,7 +125,9 @@ keep_files:
   - CNAME
   - .nojekyll
   - .git
-
+# gems 
+gems: 
+  - jekyll-scholar
 # Plug-ins
 plugins:
   - jekyll-email-protect
