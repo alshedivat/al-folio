@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-group :jekyll_plugins do
+gem 'github-pages', '>=104', group: :jekyll_plugins do
     gem 'jekyll'
     gem 'jekyll-email-protect'
     gem 'jekyll-github-metadata'
@@ -9,4 +9,5 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     gem 'webrick'
+    gem "json", "2.0.2"
 end
