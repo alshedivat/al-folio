@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 description: Ph.D. Student in <a href="https://www.systemseng.cornell.edu/se/programs/systems-phd">Systems Science and Engineering</a> - Cornell University
 

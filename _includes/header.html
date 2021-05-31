@@ -3,13 +3,13 @@
     <!-- Nav Bar -->
     <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
     <div class="container">
-      {% if page.title != "About" %}
+      {% if page.title != "about" %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
        {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
       </a>
-      {% elsif site.show_social_icons %}
+      {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
-        <div class="row ml-1 ml-sm-0">
+        <div class="navbar-brand social">
           {% include social.html %}
         </div>
       {% endif %}
@@ -23,10 +23,10 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- About -->
-          <li class="nav-item {% if page.title == 'About' %}active{% endif %}">
+          <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
               About
-              {% if page.title == "About" %}
+              {% if page.title == "about" %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
@@ -35,7 +35,7 @@
           <!-- Blog -->
           <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
             <a class="nav-link" href="{{ '/blog/' | relative_url }}">
-              Blog
+              blog
               {% if page.title == "blog" %}
               <span class="sr-only">(current)</span>
               {% endif %}
@@ -56,7 +56,7 @@
           </li>
           {% endif %}
           {% endfor %}
-		    <!-- CV -->
+		  	    <!-- CV -->
           <li class="nav-item {% if page.title == 'CV' %}active{% endif %}">
 	    <a class="nav-link" target="_blank" href="{{ 'https://cv.patrickkastner.de/' | absolute_url }}">CV</a>
           </li>

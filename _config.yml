@@ -4,13 +4,13 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Patrick
-middle_name: 
+middle_name:
 last_name: Kastner
 email: patrick.kastner@gmail.com
 description: Ph.D. Student in Systems Science and Engineering - Cornell University
-footer_text: 
+footer_text:
 
-icon: 🏙️ # the emoji used as the favicon
+icon: 📁 # the emoji used as the favicon
 url: www.patrickkastner.de # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
@@ -40,6 +40,7 @@ og_image: Kastner_Linkedin.jpg # The site-wide (default for all links) Open Grap
 # -----------------------------------------------------------------------------
 
 github_username: kastnerp # your GitHub user name
+gitlab_username: pkastner # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: patrickkastner # your LinkedIn user name
 scholar_userid: XNaNgkwAAAAJ # your Google Scholar ID
@@ -53,7 +54,7 @@ work_url:  # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 
-contact_note: 
+contact_note:
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
@@ -134,6 +135,9 @@ plugins:
   - bootstrap
   - material-sass
 
+# Extras
+github: [metadata]
+
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
@@ -147,7 +151,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: mypapers.bib
   bibliography_template: bib
 
   replace_strings: true
@@ -163,24 +167,21 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false
-enable_panelbear_analytics: false
-enable_mansory:             true
-enable_math:                true
-enable_tooltips:            true
-enable_darkmode:            false
-show_social_icons:          true
 
 
-#jekyll_analytics:
-  
-#  Matomo:                   # Add, if you want to track with Matomo (former Piwik Analytics)
-#    url: matomo.slotcarfactory.de # Required - url to Matomo installation without trailing /
-#    siteId: "19"          # Required - replace with your Matomo site id (Write id as string)
 
-#  Piwik:                    # Add, if you want to track with Piwik
-#    url: matomo.slotcarfactory.de  # Required - url to Piwik installation without trailing /
-#    siteId: "19"          # Required - replace with your Piwik site id (Write id as string)
+enable_google_analytics:    false  # enables google analytics
+enable_panelbear_analytics: false  # enables panelbear analytics
+enable_mansory:             true   # enables automatic project cards arangement
+enable_math:                true   # enables math typesetting (uses MathJax)
+enable_tooltips:            true   # enables automatic tooltip links generated
+                                   # for each section titles on pages and posts
+enable_darkmode:            false   # enables switching between light/dark modes
+enable_navbar_social:       true   # enables displaying social links in the
+                                   # navbar on the about page
+enable_project_categories:  true   # enables categorization of projects into
+                                   # multiple categories
+enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 
 # -----------------------------------------------------------------------------
 # Library versions
@@ -214,4 +215,6 @@ popper:
   version: "2.4.4"
   integrity: "sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A=="
 
-
+medium_zoom:
+  version: "1.0.6"
+  integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="
