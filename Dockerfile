@@ -9,7 +9,8 @@ RUN bundle config --global frozen 1
 WORKDIR /hq 
 VOLUME /hp 
 
-COPY Gemfile Gemfile.lock ./
+COPY Gemfile Gemfile.lock Rakefile ./
 RUN bundle install
+RUN rake publish 
 RUN bundle exec jekyll serve 
 
