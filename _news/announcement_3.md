@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2021-05-15 07:59:00-0400
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I will be attending [OPLSS](https://www.cs.uoregon.edu/research/summerschool/summer21/topics.php) this summer.  :sparkles: 
