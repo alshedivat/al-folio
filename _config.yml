@@ -7,12 +7,12 @@ first_name: Ivan
 middle_name: 
 last_name: Puhachov
 email: 
-description: Personal webpage and log
+description: My personal webpage and log. Working on my PhD in CS at computer graphics lab. Process sketches and line drawings to make fine art.
 name: ivan's work
 footer_text: 
 
-icon: 🍪 # the emoji used as the favicon
-url:  # the base hostname & protocol for your site
+icon: 🍿 # the emoji used as the favicon
+url:  puhachov.xyz # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
