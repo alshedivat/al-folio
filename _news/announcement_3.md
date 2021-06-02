@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2020-09-03
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I am a TA for <a href="http://www-labs.iro.umontreal.ca/~bmpix/teaching/6113/2020/">IFT 6113: Geometric Modeling and Shape Analysis </a>
