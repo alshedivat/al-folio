@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: Ivan Puhachov
 permalink: /
-description: <a href="http://www.ligum.umontreal.ca/">UdeM, LIGUM</a>
+description: PhD student, <a href="http://www.ligum.umontreal.ca/">UdeM, LIGUM</a>
 
 profile:
   align: right
