@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Baysian vs frequentist
-date: 2021-05-25 14:00:00 +2000
+date: 2021-06-01 14:00:00 +2000
 description: Comics about the probability definition
 ---
 
