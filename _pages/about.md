@@ -2,7 +2,7 @@
 layout: about
 title: Ivan Puhachov
 permalink: /
-description: PhD student, <a href="http://www.ligum.umontreal.ca/">UdeM, LIGUM</a>
+description: PhD student, UdeM, LIGUM
 
 profile:
   align: right
@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD student at Universite de Montreal, computer graphics lab (LIGUM), supervisor: <a href="http://www-labs.iro.umontreal.ca/~bmpix/">Mikhail Bessmeltsev</a>. 
+I am a PhD student at Universite de Montreal, computer graphics lab (<a href="http://www.ligum.umontreal.ca/">LIGUM</a>), supervisor: <a href="http://www-labs.iro.umontreal.ca/~bmpix/">Mikhail Bessmeltsev</a>. 
 
 My work is about sketch and line drawing image processing, using mathematical modeling and machine learning. Check my <a href="/projects/">projects</a> for an overview.
 
