@@ -4,7 +4,7 @@ title: Garage Hub
 description: Co-founder of a fablab in Kharkiv. From a rented garage to a self-sustainable open workshop. 5 years of fun!
 img: /assets/img/garagehublogo.jpg
 importance: 3
-category: fun
+category: activities
 ---
 
 This page redirects to [facebook page](https://www.facebook.com/garage.hub.kharkiv) or to the official site [garagehub.org](https://garagehub.org/). Also, check out the [instagram page](https://www.instagram.com/garage.hub)
