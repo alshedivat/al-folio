@@ -2,7 +2,7 @@
 layout: distill
 title: SketchRNN with Attention
 description: Tweaking SketchRNN (LSTM-VAE) with attention! And generating owl drawings.
-img: /assets/img/sketchowls.png
+img: /assets/img/sketchrnn/teaser.png
 importance: 1
 category: work
 date: 2021-06-03
