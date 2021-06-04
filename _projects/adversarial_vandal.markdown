@@ -3,7 +3,7 @@ layout: distill
 title: Adversarial Vandal
 description: Drawing on top of art pieces to fool a classification network.
 img: /assets/img/vandal/vandal2.png
-importance: 1
+importance: 3
 category: work
 date: 2021-05-15
 

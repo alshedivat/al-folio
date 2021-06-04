@@ -3,7 +3,7 @@ layout: distill
 title: Vector GAN
 description: Training GAN to generate vector images.
 img: /assets/img/vector_gan/preview.png
-importance: 1
+importance: 3
 category: work
 date: 2021-05-15
 
