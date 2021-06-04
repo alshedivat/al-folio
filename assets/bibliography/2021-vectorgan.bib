@@ -1,0 +1,149 @@
+@article{diffsvg,
+	author = {Li, Tzu-Mao and Lukac, Michal and Gharbi, Michael and Ragan-Kelley, Jonathan},
+	title = {Differentiable Vector Graphics Rasterization for Editing and Learning},
+	year = {2020},
+	issue_date = {December 2020},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	volume = {39},
+	number = {6},
+	issn = {0730-0301},
+	url = {https://people.csail.mit.edu/tzumao/diffvg/},
+	doi = {10.1145/3414685.3417871},
+	abstract = {We introduce a differentiable rasterizer that bridges the vector graphics and raster image domains, enabling powerful raster-based loss functions, optimization procedures, and machine learning techniques to edit and generate vector content. We observe that vector graphics rasterization is differentiable after pixel prefiltering. Our differentiable rasterizer offers two prefiltering options: an analytical prefiltering technique and a multisampling anti-aliasing technique. The analytical variant is faster but can suffer from artifacts such as conflation. The multisampling variant is still efficient, and can render high-quality images while computing unbiased gradients for each pixel with respect to curve parameters.We demonstrate that our rasterizer enables new applications, including a vector graphics editor guided by image metrics, a painterly rendering algorithm that fits vector primitives to an image by minimizing a deep perceptual loss function, new vector graphics editing algorithms that exploit well-known image processing methods such as seam carving, and deep generative models that generate vector content from raster-only supervision under a VAE or GAN training objective.},
+	journal = {ACM Trans. Graph.},
+	month = nov,
+	articleno = {193},
+	numpages = {15},
+	keywords = {image vectorization, vector graphics, differentiable rendering}
+}
+
+@article{doodlergan,
+	title={Creative Sketch Generation}, 
+	author={Songwei Ge and Vedanuj Goswami and C. Lawrence Zitnick and Devi Parikh},
+	year={2020},
+	eprint={2011.10039},
+	archivePrefix={arXiv},
+	primaryClass={cs.CV},
+    url={https://songweige.github.io/projects/creative_sketech_generation/home.html}
+}
+
+@inproceedings{sketchrnn,
+	title = {A Neural Representation of Sketch Drawings},
+	author = {David Ha and Douglas Eck},
+	year = {2018},
+	URL = {https://openreview.net/pdf?id=Hy6GHpkCW},
+	booktitle = {ICLR}
+}
+
+
+@article{Cao_Yan_Shi_Chen_2019, title={AI-Sketcher : A Deep Generative Model for Producing High-Quality Sketches}, volume={33}, url={https://ojs.aaai.org/index.php/AAAI/article/view/4103}, DOI={10.1609/aaai.v33i01.33012564}, abstractNote={&lt;p&gt;Sketch drawings play an important role in assisting humans in communication and creative design since ancient period. This situation has motivated the development of artificial intelligence (AI) techniques for automatically generating sketches based on user input. Sketch-RNN, a sequence-to-sequence variational autoencoder (VAE) model, was developed for this purpose and known as a state-of-the-art technique. However, it suffers from limitations, including the generation of lowquality results and its incapability to support multi-class generations. To address these issues, we introduced AI-Sketcher, a deep generative model for generating high-quality multiclass sketches. Our model improves drawing quality by employing a CNN-based autoencoder to capture the positional information of each stroke at the pixel level. It also introduces an influence layer to more precisely guide the generation of each stroke by directly referring to the training data. To support multi-class sketch generation, we provided a conditional vector that can help differentiate sketches under various classes. The proposed technique was evaluated based on two large-scale sketch datasets, and results demonstrated its power in generating high-quality sketches.&lt;/p&gt;}, number={01}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Cao, Nan and Yan, Xin and Shi, Yang and Chen, Chaoran}, year={2019}, month={Jul.}, pages={2564-2571} }
+
+@article{sketchbert,
+	title={Sketch-BERT: Learning Sketch Bidirectional Encoder Representation From Transformers by Self-Supervised Learning of Sketch Gestalt},
+	author={Hangyu Lin and Yanwei Fu and Yu-Gang Jiang and X. Xue},
+	journal={2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+	year={2020},
+	pages={6757-6766}
+}
+
+@misc{ganin2018synthesizing,
+	title={Synthesizing Programs for Images using Reinforced Adversarial Learning}, 
+	author={Yaroslav Ganin and Tejas Kulkarni and Igor Babuschkin and S. M. Ali Eslami and Oriol Vinyals},
+	year={2018},
+	eprint={1804.01118},
+	archivePrefix={arXiv},
+	primaryClass={cs.CV}
+}
+
+@misc{mellor2019unsupervised,
+	title={Unsupervised Doodling and Painting with Improved SPIRAL}, 
+	author={John F. J. Mellor and Eunbyung Park and Yaroslav Ganin and Igor Babuschkin and Tejas Kulkarni and Dan Rosenbaum and Andy Ballard and Theophane Weber and Oriol Vinyals and S. M. Ali Eslami},
+	year={2019},
+	eprint={1910.01007},
+	archivePrefix={arXiv},
+	primaryClass={cs.CV}
+}
+
+@misc{svgvae,
+      title={A Learned Representation for Scalable Vector Graphics}, 
+      author={Raphael Gontijo Lopes and David Ha and Douglas Eck and Jonathon Shlens},
+      year={2019},
+      eprint={1904.02632},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+@misc{carlier2020deepsvg,
+	title={DeepSVG: A Hierarchical Generative Network for Vector Graphics Animation},
+	author={Alexandre Carlier and Martin Danelljan and Alexandre Alahi and Radu Timofte},
+	year={2020},
+	eprint={2007.11301},
+	archivePrefix={arXiv},
+	primaryClass={cs.CV}
+}
+
+@misc{reddy2021im2vec,
+	title={Im2Vec: Synthesizing Vector Graphics without Vector Supervision}, 
+	author={Pradyumna Reddy and Michael Gharbi and Michal Lukac and Niloy J. Mitra},
+	year={2021},
+	eprint={2102.02798},
+	archivePrefix={arXiv},
+	primaryClass={cs.CV}
+}
+
+@misc{arjovsky2017wasserstein,
+	title={Wasserstein GAN}, 
+	author={Martin Arjovsky and Soumith Chintala and Léon Bottou},
+	year={2017},
+	eprint={1701.07875},
+	archivePrefix={arXiv},
+	primaryClass={stat.ML}
+}
+
+@misc{gulrajani2017improved,
+	title={Improved Training of Wasserstein GANs}, 
+	author={Ishaan Gulrajani and Faruk Ahmed and Martin Arjovsky and Vincent Dumoulin and Aaron Courville},
+	year={2017},
+	eprint={1704.00028},
+	archivePrefix={arXiv},
+	primaryClass={cs.LG}
+}
+
+@misc{miyato2018spectral,
+	title={Spectral Normalization for Generative Adversarial Networks}, 
+	author={Takeru Miyato and Toshiki Kataoka and Masanori Koyama and Yuichi Yoshida},
+	year={2018},
+	eprint={1802.05957},
+	archivePrefix={arXiv},
+	primaryClass={cs.LG}
+}
+
+@misc{wu2020logan,
+	title={LOGAN: Latent Optimisation for Generative Adversarial Networks}, 
+	author={Yan Wu and Jeff Donahue and David Balduzzi and Karen Simonyan and Timothy Lillicrap},
+	year={2020},
+	eprint={1912.00953},
+	archivePrefix={arXiv},
+	primaryClass={cs.LG}
+}
+
+@misc{salimans2016improved,
+      title={Improved Techniques for Training GANs}, 
+      author={Tim Salimans and Ian Goodfellow and Wojciech Zaremba and Vicki Cheung and Alec Radford and Xi Chen},
+      year={2016},
+      eprint={1606.03498},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/1606.03498}
+}
+
+@misc{heusel2018gans,
+      title={GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium}, 
+      author={Martin Heusel and Hubert Ramsauer and Thomas Unterthiner and Bernhard Nessler and Sepp Hochreiter},
+      year={2018},
+      eprint={1706.08500},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/1706.08500}
+}
