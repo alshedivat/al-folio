@@ -1,11 +1,9 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: About
+description: Mid Term Mini project  - (Adv) Web Programming Course
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+This was my first time creating a website using Jekyll and GitHub Pages. Once you learn the commands for Jekyll, it is very easy to locally run and test your site. Jekyll templates also make it very easy to add stuff quickly to your site using markdown files. GitHub Pages makes it easy to run your site staticly for anyone to access..

@@ -1,34 +1,12 @@
 ---
 layout: post
-title:  a post with github metadata
-date: 2020-09-28 21:01:00
-description: a quick run down on accessing github metadata.
+title:  Software Engineer Associate - ASRC Federal
+date: 2020-06-01
+description: Present
+ 
 ---
-
-A sample blog page that demonstrates the accessing of github meta data.
-
-## What does Github-MetaData do?
-* Propagates the site.github namespace with repository metadata
-* Setting site variables : 
-  * site.title
-  * site.description
-  * site.url
-  * site.baseurl
-* Accessing the metadata - duh.
-* Generating edittable links.
-
-## Additional Reading
-* If you're recieving incorrect/missing data, you may need to perform a Github API<a href="https://github.com/jekyll/github-metadata/blob/master/docs/authentication.md"> authentication</a>.
-* Go through this <a href="https://jekyll.github.io/github-metadata/" target="blank">README</a> for more details on the topic.
-* <a href= "https://github.com/jekyll/github-metadata/blob/master/docs/site.github.md">This page</a> highlights all the feilds you can access with github-metadata.
-<br />
-
-## Example MetaData
-* Host Name : {{ site.github.hostname }}
-* URL : {{ site.github.url }}
-* BaseURL : {{ site.github.baseurl }}
-* Archived : {{ site.github.archived}}
-* Contributors : 
-{% for contributor in site.github.contributors %}
-  * {{ contributor.login }}
-{% endfor %}
+Job Duties include: 
+* Works with a collaborative team using agile development methodology.
+* Perform subsystem definition, preliminary and detailed design, design implementation, subsystem and system integration, and testing.
+* Participating in software requirements review, preliminary and critical design reviews, integration readiness review, and software acceptance reviews.   
+* Researching complex problems and developing high level solutions. 
