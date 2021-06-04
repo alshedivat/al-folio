@@ -7,7 +7,7 @@ first_name: Ivan
 middle_name: 
 last_name: Puhachov
 email: 
-description: My personal webpage and log. Working on my PhD in CS at computer graphics lab. Process sketches and line drawings to make fine art.
+description: My personal webpage and log. Working on my PhD in CS at computer graphics lab. Process sketches and line drawings to make fine art. Research activities here - computer graphics, applied geometry, image processing.
 name: ivan's work
 footer_text: Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
@@ -65,7 +65,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: ivan's page  # your blog must have a name for it to show up in the nav bar
+blog_name: ivan's blog  # your blog must have a name for it to show up in the nav bar
 blog_description: Little notes here and there
 permalink: /blog/:year/:title/
 
