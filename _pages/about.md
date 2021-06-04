@@ -2,23 +2,27 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
-
+description: PhD Student at the <a href="https://www.dsme.rwth-aachen.de">Institute for Data Science in Mechanical Engineering</a>, RWTH Aachen University
+description: >
+    <b>PhD Student</b><br>
+    <small><a href="https://www.dsme.rwth-aachen.de">Institute for Data Science in Mechanical Engineering, RWTH Aachen University</a></small>
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
+  image: me1_square.jpg
+  address: 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<p><br></p>
+## About me
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research is at the intersection between machine learning and robust control, where I am currently working learning probabilistic robust controllers (a.k.a. policies).
+I am also activly working on Bayesian optimization in the context of reinforcment learning.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+The first part of my PhD took place the [Max Planck Institute for Intelligent Systems](https://is.mpg.de) where I was a member of the [Intelligent Control Systems Group](https://ics.is.mpg.de/).
+For the second part I was given the opportunity to move to Aachen together with my advisor [Prof. Sebastian Trimpe](https://www.dsme.rwth-aachen.de/cms/DSME/Das-Institut/Team-CMS-Artikel-/~jlolt/Prof-Sebastian-Trimpe). We are now building up the new Institute for Data Science in Mechanical Engineering.
+I am an associated student of the International Max Planck Research School for Intelligent Systems [IMPRS-IS](https://imprs.is.mpg.de/) and my PhD is supported by [IAV](https://www.iav.com).
+
+Before joining the Max-Planck Institute for my master thesis and later my PhD in 2018 I studied **Computer Science** at the University of Lübeck. I obtained my Bachelor's degree in **Electrical Engineering** at the BHT Berlin in 2013. In between the two degrees I worked as **Software Engineer** before returning to academia. 

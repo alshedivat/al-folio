@@ -183,9 +183,9 @@ a, table.table a {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  text-align: left;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -399,7 +399,12 @@ footer.sticky-bottom {
       .title {
         font-weight: bolder;
       }
+      .where {
+        font-size: 1rem;
+      }
       .author {
+        font-size: 1rem;
+        margin-bottom: 0rem;
         a {
           border-bottom: 1px dashed var(--global-theme-color);
           &:hover {
@@ -413,6 +418,7 @@ footer.sticky-bottom {
         }
       }
       .links {
+        margin-bottom: 0rem;
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);

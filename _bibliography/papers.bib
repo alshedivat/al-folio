@@ -1,72 +1,72 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@inproceedings{vonrohr2018gait,
+  title = {Gait learning for soft microrobots controlled by light fields},
+  author = {{von Rohr}, Alexander and Trimpe, Sebastian and Marco, Alonso and Fischer, Peer and Palagi, Stefano},
+  booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems},
+  pages = {6199-6206},
+  month = oct,
+  year = {2018},
+  doi = {10.1109/IROS.2018.8594092},
+  month_numeric = {10},
+  url = {https://ieeexplore.ieee.org/document/8594092},
+  abstract={Soft microrobots based on photoresponsive materials and controlled by light fields can generate a variety of different gaits. This inherent flexibility can be exploited to maximize their locomotion performance in a given environment and used to adapt them to changing conditions. Albeit, because of the lack of accurate locomotion models, and given the intrinsic variability among microrobots, analytical control design is not possible. Common data-driven approaches, on the other hand, require running prohibitive numbers of experiments and lead to very sample-specific results. Here we propose a probabilistic learning approach for light-controlled soft microrobots based on Bayesian Optimization (BO) and Gaussian Processes (GPs). The proposed approach results in a learning scheme that is data-efficient, enabling gait optimization with a limited experimental budget, and robust against differences among microrobot samples. These features are obtained by designing the learning scheme through the comparison of different GP priors and BO settings on a semi-synthetic data set. The developed learning scheme is validated in microrobot experiments, resulting in a 115% improvement in a microrobot's locomotion performance with an experimental budget of only 20 tests. These encouraging results lead the way toward self-adaptive microrobotic systems based on light-controlled soft microrobots and probabilistic learning control.},
+  abbr={IROS 2018},
+  arxiv={1809.03225},
+}
 
-@book{einstein1956investigations,
+@inproceedings{heim2020learn, 
+  title = {A Learnable Safety Measure}, 
+  author = {Heim*, Steve and {von Rohr*}, Alexander and Trimpe, Sebastian and Badri-Spr\"owitz, Alexander}, 
+  booktitle = {Proceedings of the Conference on Robot Learning}, 
+  pages = {627--639}, 
+  year = {2020}, 
+  editor = {Leslie Pack Kaelbling and Danica Kragic and Komei Sugiura}, 
+  volume = {100}, 
+  series = {Proceedings of Machine Learning Research}, 
+  month = {30 Oct--01 Nov}, 
+  publisher = {PMLR}, 
+  pdf = {http://proceedings.mlr.press/v100/heim20a/heim20a.pdf}, 
+  url = {http://proceedings.mlr.press/v100/heim20a.html}, 
+  abstract = {Failures are challenging for learning to control physical systems since they risk damage, time-consuming resets, and often provide little gradient information. Adding safety constraints to exploration typically requires a lot of prior knowledge and domain expertise. We present a safety measure which implicitly captures how the system dynamics relate to a set of failure states. Not only can this measure be used as a safety function, but also to directly compute the set of safe state-action pairs. Further, we show a model-free approach to learn this measure by active sampling using Gaussian processes. While safety can only be guaranteed after learning the safety measure, we show that failures can already be greatly reduced by using the estimated measure during learning.},
+  arxiv = {1809.03225},
+  abbr={CoRL 2019},
+}
+ 
+@article{marco2020excursion,
+  author    = {Alonso Marco and
+               Alexander {von Rohr} and
+               Dominik Baumann and
+               Jos{\'{e}} Miguel Hern{\'{a}}ndez{-}Lobato and
+               Sebastian Trimpe},
+  title     = {Excursion Search for Constrained Bayesian Optimization under a Limited
+               Budget of Failures},
+  journal   = {arXiv},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2005.07443},
+  archivePrefix = {arXiv},
+  arxiv    = {2005.07443},
+  abbr = {preprint},
+}
+
+@InProceedings{vonrohr2021probabilistic,
+  title     =     {Probabilistic robust linear quadratic regulators with Gaussian processes},
+  author    =     {{von Rohr}, Alexander and Neumann-Brosig, Matthias and Trimpe, Sebastian},
+  booktitle =     {Proceedings of the 3rd Conference on Learning for Dynamics and Control},
+  pages     =     {324--335},
+  year      =     {2021},
+  editor    =     {Jadbabaie, Ali and Lygeros, John and Pappas, George J. and A.&nbsp;Parrilo, Pablo and Recht, Benjamin and Tomlin, Claire J. and Zeilinger, Melanie N.},
+  volume    =     {144},
+  series    =     {Proceedings of Machine Learning Research},
+  month     =     {07 -- 08 June},
+  publisher =     {PMLR},
+  pdf       =     {http://proceedings.mlr.press/v144/rohr21a/rohr21a.pdf},
+  url       =     {http://proceedings.mlr.press/v144/rohr21a.html},
+  abstract = {Probabilistic models such as Gaussian processes (GPs) are powerful tools to learn unknown dynamical systems from data for subsequent use in control design. While learning-based control has the potential to yield superior performance in demanding applications, robustness to uncertainty remains an important challenge. Since Bayesian methods quantify uncertainty of the learning results, it is natural to incorporate these uncertainties in a robust design. In contrast to most state-of-the-art approaches that consider worst-case estimates, we leverage the learning methods’ posterior distribution in the controller synthesis. The result is a more informed and thus efficient trade-off between performance and robustness. We present a novel controller synthesis for linearized GP dynamics that yields robust controllers with respect to a probabilistic stability margin. The formulation is based on a recently proposed algorithm for linear quadratic control synthesis, which we extend by giving probabilistic robustness guarantees in the form of credibility bounds for the system’s stability. Comparisons to existing methods based on worst-case and certainty-equivalence designs reveal superior performance and robustness properties of the proposed method.},
+  abbr = {L4DC 2021},
+  arxiv={2105.07668},
+  selected = {true},
+  code = {https://github.com/Data-Science-in-Mechanical-Engineering/prlqr},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
 }
