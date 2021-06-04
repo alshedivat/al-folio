@@ -7,9 +7,9 @@
 
 <!-- Open Graph -->
 {% if site.serve_og_meta %}
-<meta property="og:site_name" content="{{ site.description }}" />
+<meta property="og:site_name" content="{{ site.name }}" />
 <meta property="og:type" content="object" />
-<meta property="og:title" content="{{ site.name }}" />
+<meta property="og:title" content="{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.name }}{%- endif -%}" />
 <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
 <meta property="og:description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />
 <meta property="og:image" content="{%- if page.img -%}{{ page.img | prepend: site.url }}{%- else -%}{{ site.og_image | prepend: site.url }}{%- endif -%}" />
