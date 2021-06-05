@@ -374,6 +374,14 @@ footer.sticky-bottom {
     margin-bottom: -2rem;
     text-align: right;
   }
+  h2.group {
+    color: $code-bg-color-dark;
+    border-top: 1px solid $grey-color-light;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    text-align: left;
+  }
   ol.bibliography {
     list-style: none;
     padding: 0;

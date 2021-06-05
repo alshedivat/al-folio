@@ -5,11 +5,6 @@ date: 2021-06-01 14:00:00 +2000
 description: Comics about the probability definition
 ---
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0" align='center'>
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/homo-bayesians.jpg">
-    </div>
-</div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0" align='center'>
