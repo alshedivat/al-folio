@@ -61,7 +61,7 @@ contact_note: >
   They call me Alex.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
-panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
+panelbear_analytics: LXcDTgDnJ4x # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -166,7 +166,7 @@ scholar:
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:    false  # enables google analytics
-enable_panelbear_analytics: false  # enables panelbear analytics
+enable_panelbear_analytics: true  # enables panelbear analytics
 enable_mansory:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
