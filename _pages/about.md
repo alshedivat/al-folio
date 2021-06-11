@@ -9,7 +9,8 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>3313 N. University Street</p>
+    <p>first.last@purdue.edu</p>
+    <p>305 N. University Street</p>
     <p>Purdue University</p>
     <p>West Lafayette, IN 47907</p>
 
