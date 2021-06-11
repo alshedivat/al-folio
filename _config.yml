@@ -78,7 +78,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: vitaliiurbanevych # put your disqus shortname
+disqus_shortname: vitaliiur-github-io # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
