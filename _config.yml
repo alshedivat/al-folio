@@ -6,7 +6,8 @@ title: VU # the website title (if blank, full name will be used instead)
 first_name: Vitalii
 middle_name: 
 last_name: Urbanevych
-email: vitaliyurbanevich@gmail.com
+# email: vitaliyurbanevich@gmail.com
+email: vitalii.urbanevych@doctoral.uj.pl
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal Website.
 footer_text: >
@@ -68,7 +69,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Personal blog # your blog must have a name for it to show up in the nav bar
+blog_name: Posts # your blog must have a name for it to show up in the nav bar
 blog_description: 
 permalink: /blog/:year/:title/
 
@@ -77,7 +78,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: vitaliiurbanevych # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
