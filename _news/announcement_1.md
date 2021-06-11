@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
-inline: true
+date: 2021-06-11 11:55:00 +2000
+inline: false
 ---
 
-A simple inline announcement.
+New Post about [Bayesian Linear regression](/blog/2021/linreg/)
