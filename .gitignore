@@ -8,3 +8,6 @@ _site
 .tweet-cache
 Gemfile.lock
 vendor
+
+.ipynb_checkpoints/
+.virtual_documents/

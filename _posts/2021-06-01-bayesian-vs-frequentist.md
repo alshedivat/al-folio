@@ -5,10 +5,15 @@ date: 2021-06-01 14:00:00 +2000
 description: Comics about the probability definition
 ---
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0" align='center'>
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/statistics_comics/boyfriend.png">
+    </div>
+</div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0" align='center'>
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/tStr4.png">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/statistics_comics/tStr4.png">
     </div>
 </div>
 <div class="caption">
@@ -21,7 +26,7 @@ bayesians aren't always right (or even closer to the truth).
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0" align='center'>
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/xkcd.png">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/statistics_comics/xkcd.png">
     </div>
 </div>
 <div class="caption">
