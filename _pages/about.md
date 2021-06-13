@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <p>"I keep the subject constantly before me, and wait 'till the first dawnings open slowly, by little and little, into a full and clear light." -- Isaac Newton </p>
+description: 
 # <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 "I keep the subject constantly before me, and wait 'till the first dawnings open slowly, by little and little, into a full and clear light." -- Isaac Newton
 
-I'm currently working with [Dr.Tiark Rompf](https://tiarkrompf.github.io) and [Dr. Oliver Bračevac](https://bracevac.org/teaching/) on the Dependent Object Types. 
+I'm currently working with [Dr. Tiark Rompf](https://tiarkrompf.github.io) and [Dr. Oliver Bračevac](https://bracevac.org/teaching/) on the Dependent Object Types. 
 
 
 I love talking to people who are passionate about programming language design and verification, computer systems, meta theory, formal systems, computational geometry and entrepreneurship. 
