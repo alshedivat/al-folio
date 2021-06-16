@@ -10,7 +10,7 @@ email: yikai.wu@yale.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Ph.D. student in Computer Science at Yale University
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 icon: /assets/icon/mercury.ico
