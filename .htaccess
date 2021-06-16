@@ -95,16 +95,15 @@ FileETag None
   RewriteCond %{DOCUMENT_ROOT}/$1.webp -f
 
   # Serve WebP image instead
-  RewriteRule (.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=REQUEST_image]
+  RewriteRule (.+)\.(jpe?g|png|gif)$ $1.webp [T=image/webp,E=REQUEST_image]
 </IfModule>
 
 <IfModule mod_headers.c>
-  # Vary: Accept for all the requests to jpeg and png
+  # Vary: Accept for all the requests to jpeg, png and gif
   Header append Vary Accept env=REQUEST_image
 </IfModule>
 
 <IfModule mod_mime.c>
   AddType image/webp .webp
 </IfModule>
-
 

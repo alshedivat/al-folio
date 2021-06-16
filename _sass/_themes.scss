@@ -24,6 +24,16 @@
   }
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: #00000047;
+}
+
+::selection {
+  color: black;
+  background: #00000047;
+}
+
 html[data-theme='dark'] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
