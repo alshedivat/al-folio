@@ -1,18 +1,23 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Ge":
+  - firstname: ["Rong", "R."]
+    url: https://users.cs.duke.edu/~rongge/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Wu":
+  - firstname: ["Chenwei", "C."]
+    url: https://users.cs.duke.edu/~cwwu/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Machanavajjhala":
+  - firstname: ["Ashwin", "A."]
+    url: https://users.cs.duke.edu/~ashwin/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Pujol":
+  - firstname: ["David", "D."]
+    url: https://users.cs.duke.edu/~dpujol/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Fain":
+  - firstname: ["Brandon", "B.", "Brandon T.", "B. T."]
+    url: https://sites.duke.edu/btfain/
+
+"Kotsogiannis":
+  - firstname: ["Ios", "I."]
+    url: https://users.cs.duke.edu/~iosk/
