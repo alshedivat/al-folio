@@ -24,10 +24,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # RSS Feed
 # -----------------------------------------------------------------------------
 # will use title and url fields
-description:  # Higly suggested: FILL THIS FIELD! If blank, this could lead to errors. A longer description of what your site is about, e.g., "Where I blog about Jekyll and other awesome things"
-author:  # your name and surname
-feed:
-  excerpt_only: false # set it to have all posts in feed will be without <content> tags.
+# Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
 # -----------------------------------------------------------------------------
 # Layout
