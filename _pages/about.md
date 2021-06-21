@@ -2,23 +2,42 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: INRAE Senior Researcher in Statistical Learning, Université Paris-Saclay, AgroParisTech, INRAE
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: en_vacances.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><small>MIA Paris</small></p>
+    <p><small>16 rue Claude Bernard</small></p>
+    <p><small>75231 Paris Cedex 05</small></p>
+    <p><small><i class="fa fa-phone" aria-hidden="true"></i> +33(0)1 44 08 18 39</small></p>
+    <p><small><a href="mailto:julien.chiquet[at]inrae[dot]fr">julien.chiquet[at]inrae[dot]fr</a</small></p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+- Co-head of <a href="https://www6.inrae.fr/mia-paris">UMR MIA 518</a>, Team [SOLsTIS](https://www6.inrae.fr/mia-paris/Equipes/SOLsTIS)
+- Part-time lecturer at École Polytechnique
+- Chief Editor of [Computo](https://computo.sfds.asso.fr/)
+- Selected projects
+  - [ANR SingleStatOmics](https://anr-singlestatomics.pages.math.cnrs.fr/)
+  - [ANR EcoNet](http://cmatias.perso.math.cnrs.fr/ANR_EcoNet.html)
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## Research interests
+
+- Sparse Methods and Regularization
+- Multivariate Analysis
+- Latent variable models
+- Optimization for statistical methods
+- Applications to life sciences
+- Reproducible research
+
+<!--
+More on this can be found in my Habilitation à diriger les recherches.
+
+Here is a full academic CV (April 2020).
+-->
