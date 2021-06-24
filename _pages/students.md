@@ -1,14 +1,12 @@
 ---
 layout: page
-title: Students
+title: students
 permalink: /students/
-description: Past and current graduated students
+description: past and current graduated students
 nav: true
-display_categories: [student]
+display_categories: [student, postdoc]
 horizontal: false
 ---
-
-## PhD Students
 
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}

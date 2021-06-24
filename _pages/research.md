@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
-description: Materials for some of the courses I taught
+title: research
+permalink: /research/
+description: past and current graduated studentsselected research projects
 nav: true
-display_categories: [teaching]
+display_categories: [anr]
 horizontal: false
 ---
 
@@ -12,7 +12,7 @@ horizontal: false
   {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
     {% for category in page.display_categories %}
- <!-- <h2 class="category">{{category}}</h2> -->
+      <h2 class="category">{{category}}</h2>
       {% assign categorized_projects = site.projects | where: "category", category %}
       {% assign sorted_projects = categorized_projects | sort: "importance" %}
       <!-- Generate cards for each project -->
@@ -56,3 +56,12 @@ horizontal: false
   {% endif %}
 
 </div>
+
+
+## Others PhD and Post-doc
+
+## Post-doc
+
+- [Jonathan Plassais](https://scholar.google.fr/citations?user=krVTrC8AAAAJ&hl=fr)
+- [David Baker](https://www6.inra.fr/mia-paris/content/download/4166/39960/version/1/file/CV_complet_Baker.pdf)
+- [Édith Lefloch](https://www.linkedin.com/in/edith-le-floch-0b55403a/?originalSubdomain=fr)

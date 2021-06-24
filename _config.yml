@@ -27,7 +27,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 950px
+max_width: 900px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -57,8 +57,8 @@ work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 
-#contact_note: >
-# You can even add a little note about which of these is the best way to reach you.
+contact_note: >
+ You can even add a little note about which of these is the best way to reach you.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID

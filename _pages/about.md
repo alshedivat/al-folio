@@ -1,9 +1,8 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 description: INRAE Senior Researcher in Statistical Learning, Université Paris-Saclay, AgroParisTech, INRAE
-
 profile:
   align: right
   image: en_vacances.jpg
@@ -15,7 +14,7 @@ profile:
     <p><small><a href="mailto:julien.chiquet[at]inrae[dot]fr">julien.chiquet[at]inrae[dot]fr</a</small></p>
 
 news: true  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
