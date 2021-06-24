@@ -240,7 +240,11 @@ footer.sticky-bottom {
   padding-bottom: 5rem;
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
   }
 }
 
@@ -465,6 +469,8 @@ footer.sticky-bottom {
     }
   }
 }
+
+
 
 // Rouge Color Customization
 figure.highlight {
