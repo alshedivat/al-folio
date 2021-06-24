@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 description: INRAE Senior Researcher in Statistical Learning, Université Paris-Saclay, AgroParisTech, INRAE
 
@@ -19,7 +19,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-
 - Co-head of <a href="https://www6.inrae.fr/mia-paris">UMR MIA 518</a>, Team [SOLsTIS](https://www6.inrae.fr/mia-paris/Equipes/SOLsTIS)
 - Part-time lecturer at École Polytechnique
 - Chief Editor of [Computo](https://computo.sfds.asso.fr/)
@@ -29,10 +28,11 @@ social: false  # includes social icons at the bottom of the page
 
 ## Research interests
 
-- Sparse Methods and Regularization
-- Multivariate Analysis
-- Latent variable models
-- Optimization for statistical methods
+- Statistics and Machine Learning
+   - Sparse Methods and Regularization
+   - Multivariate Analysis
+   - Latent variable models
+   - Optimization and algorithms
 - Applications to life sciences
 - Reproducible research
 

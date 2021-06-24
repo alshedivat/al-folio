@@ -1,12 +1,15 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Students
+permalink: /students/
+description: Past and current graduated students
 nav: true
-display_categories: [work, fun]
+display_categories: [student]
 horizontal: false
 ---
+
+## PhD Students
+
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
@@ -55,3 +58,12 @@ horizontal: false
   {% endif %}
 
 </div>
+
+
+## Others PhD and Post-doc
+
+## Post-doc
+
+- [Jonathan Plassais](https://scholar.google.fr/citations?user=krVTrC8AAAAJ&hl=fr)
+- [David Baker](https://www6.inra.fr/mia-paris/content/download/4166/39960/version/1/file/CV_complet_Baker.pdf)
+- [Édith Lefloch](https://www.linkedin.com/in/edith-le-floch-0b55403a/?originalSubdomain=fr)

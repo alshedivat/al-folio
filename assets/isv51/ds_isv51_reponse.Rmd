@@ -1,0 +1,116 @@
+---
+title: "ISV51 -- Programmation sous R"
+author: 'Copie de PRÉNOM NOM '
+date: "devoir d'automne 2015 -- 1h30"
+output: html_document
+---
+
+## Exercice 1: absorption de dioxyde de carbone chez les graminées.
+
+1. Combien y a t-il d'individus ? Quelles sont les variables qualitatives ? Quantitatives ? 
+
+```{r}
+# réponse ici
+
+```
+
+2.  a) Déterminer les effectifs de chaque modalité des variables `Plant`, `Type` et `Treatment`. Commenter.
+
+```{r}
+# réponse ici
+
+```
+
+  b) Interpréter la sortie de la commande `table(CO2$Plant, CO2$Treatment)`
+
+```{r}
+# réponse ici
+```
+
+3.  À l'aide d'un histogramme, représenter la distribution empirique de l'absorption en $\text{CO}_2$. Superposer l'estimation de la densité obtenue avec l'estimateur à noyau `density`. Qu'observez-vous ?
+
+```{r}
+# réponse ici #
+```
+
+4.  a) Représenter l'évolution de l'absorption en $\text{CO}_2$ en fonction de la concentration en $\text{CO}_2$ à l'aide d'un nuage de points (ou diagramme de dispersion). 
+
+```{r}
+# réponse ici #
+```
+    
+  b) Transformer la variable `conc` en facteur. Combien y a-t-il de niveaux ? Représenter  à nouveau l'évolution de l'absorption en $\text{CO}_2$ en fonction de la concentration en $\text{CO}_2$ à l'aide de boxplot pour chaque niveau de concentration.
+
+```{r}
+# réponse ici
+```
+    
+  c) Commenter ces deux graphes
+
+COMMENTAIRES
+
+5.  a) Représenter la distribution de l'absorption en $\text{CO}_2$ pour les deux type de traitements. 
+
+```{r}
+# réponse ici
+```
+
+  b) Représenter la distribution de l'absorption en $\text{CO}_2$ pour les deux origines géographiques.
+
+```{r}
+# réponse ici
+```
+
+  c) Représenter la distribution de l'absorption en $\text{CO}_2$ par couple (traitement, origine).
+
+```{r}
+# réponse ici
+```
+
+  d) Afficher les individus dont le niveau d'absorption est supérieur à 1.5 fois la moyenne de tous les niveau d'absorption.
+
+```{r}
+# réponse ici
+```
+
+  e) À l'aide de la commande `tapply`, calculer le l'absorption moyenne pour chaque lignée de plantes.
+
+```{r}
+# réponse ici
+```
+
+  f) Conclure sur l'origine des plantes les plus efficaces pour l'absorption de $\text{CO}_2$.
+
+VOS COMMENTAIRES
+
+## Exercice 2: matrices élémentaires
+
+1. Compléter la fonction suivante afin de construire la matrice élémentaire $\mathbf{E}^{(ij)}_{\lambda}$ de taille $n \times n$
+
+```{r, eval=FALSE}
+E <- function(i, j, lambda, n) {
+    # à compléter
+    return(matE)
+}
+```
+
+2. Quelle matrice notée $\mathbf{A}$ peut-elle se décomposer en les éléments suivants 
+\[ 
+\mathbf{E}^{(21)}_{-2}  \mathbf{E}^{(13)}_{-1} \mathbf{E}^{(23)}_{2} \mathbf{E}^{(12)}_{1} \mathbf{E}^{(32)}_{1}
+\]  
+
+```{r}
+# réponse ici
+```
+
+3. On rappelle que l'inverse de la matrice élémentaire $\mathbf{E}^{(ij)}_{\lambda}$ est la matrice $\mathbf{E}^{(ij)}_{-\lambda}$. Écrire une fonction `invE(i, j, lambda, n)` qui calcule cette inverse.
+
+```{r}
+# réponse ici
+```
+
+4. À l'aide de `invE`, déterminer une décomposition en matrices élémentaires de $\mathbf{A}^{-1}$.
+
+```{r}
+# réponse ici
+```
