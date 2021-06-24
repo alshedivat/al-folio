@@ -13,9 +13,11 @@
   </div>
 
   <div id="{{entry.key}}" class="col-sm-8">
+    
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
+    
       <div class="title">{{entry.title}}</div>
       <div class="author">
         {% for author in entry.author_array %}
@@ -69,11 +71,13 @@
 
       <div class="periodical">
       {% if entry.type == "article" %}
-        <em>{{entry.journal}}</em>
+        <em>{{entry.journal}},</em>
       {% elsif entry.type == "preprint" %}
-        <em>{{entry.journal}}</em>
+        <em>{{entry.journal}},</em>
       {% elsif entry.type == "inproceedings" %}
-        <em>In {{entry.booktitle}}</em>
+        <em>In {{entry.booktitle}},</em>
+      {% elsif entry.type == "thesis" %}
+        <em>{{entry.school}},</em>
       {% endif %}
       {% if entry.year %}
         {{entry.year}}
@@ -85,8 +89,20 @@
     {% if entry.abstract %}
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
     {% endif %}
+    {% if entry.doi %}
+      <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank">doi</a>
+    {% endif %}
+    {% if entry.biorxiv %}
+      <a href="https://www.biorxiv.org/content/{{ entry.biorxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">bioXiv</a>
+    {% endif %}
     {% if entry.arxiv %}
-      <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
+      <a href="https://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
+    {% endif %}
+    {% if entry.hal %}
+      <a href="https://hal.archives-ouvertes.fr/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HAL</a>
+    {% endif %}
+    {% if entry.tel %}
+      <a href="https://tel.archives-ouvertes.fr/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">tel-archives</a>
     {% endif %}
     {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
