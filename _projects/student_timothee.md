@@ -4,10 +4,10 @@ title: Timothée Tabouy
 description: Modeling and inferring Sampling design in probabilistic random network models (2016-2019)
 img: /assets/img/timothee_tabouy.jpg
 importance: 2
-category: student
+category: 'PhD student'
 ---
 
-Timothée'PhD was co-supervised with [Pierre
+Timothée's PhD was co-supervised with [Pierre
 Barbillon](https://www6.inra.fr/mia-paris/Equipes/Membres/Pierre-Barbillon)
 (50%/50%), from 2016 to 2019.
 

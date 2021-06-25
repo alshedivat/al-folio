@@ -4,7 +4,7 @@ title: Audrey Hulot
 description: 'Multi-omic data: clustering and network inference (2017-2020)'
 img: /assets/img/audrey_hulot.jpg
 importance: 3
-category: student
+category: 'PhD student'
 ---
 
 Audrey's PhD was co-supervised with [Florence
