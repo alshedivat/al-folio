@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /
+permalink:
 title: Contact
 description:
 nav: true
