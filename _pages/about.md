@@ -5,7 +5,7 @@ permalink: /
 description: INRAE Senior Researcher in Statistical Learning, Université Paris-Saclay, AgroParisTech, INRAE
 profile:
   align: right
-  image: en_vacances.jpg
+  image: julien_grece.jpg
   address: >
     <p><small>MIA Paris</small></p>
     <p><small>16 rue Claude Bernard</small></p>
