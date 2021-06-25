@@ -10,7 +10,11 @@ layout: default
     </h1>
      <p class="desc">{{ page.description }}</p>
   </header>
-
+<style>
+body {
+  background-image: url('{{ site.baseurl }}/assets/img/bck1.png');
+}
+</style>
   <article>
     {% if page.profile %}
     <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
