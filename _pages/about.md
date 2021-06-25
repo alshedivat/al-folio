@@ -12,31 +12,27 @@ profile:
     <p><small>75231 Paris Cedex 05</small></p>
     <p><small><i class="fa fa-phone" aria-hidden="true"></i> +33(0)1 44 08 18 39</small></p>
     <p><small><a href="mailto:julien.chiquet[at]inrae[dot]fr">julien.chiquet[at]inrae[dot]fr</a</small></p>
+    <p><small><a href="assets/pdf/hdr_chiquet.pdf">Habilitation (12/2015)</a></small></p>
+    <p><small><a href="assets/pdf/cv_en_202004.pdf">Academic CV (04/2020)</a></small></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-- Co-head of <a href="https://www6.inrae.fr/mia-paris">UMR MIA 518</a>, Team [SOLsTIS](https://www6.inrae.fr/mia-paris/Equipes/SOLsTIS)
-- Part-time lecturer at École Polytechnique
-- Chief Editor of [Computo](https://computo.sfds.asso.fr/)
-- Selected projects
-  - [ANR SingleStatOmics](https://anr-singlestatomics.pages.math.cnrs.fr/)
-  - [ANR EcoNet](http://cmatias.perso.math.cnrs.fr/ANR_EcoNet.html)
+- co-head of <a href="https://www6.inrae.fr/mia-paris">UMR MIA 518</a>, Team [SOLsTIS](https://www6.inrae.fr/mia-paris/Equipes/SOLsTIS)
+- part-time lecturer at École Polytechnique
+- chief Editor of [Computo](https://computo.sfds.asso.fr/)
 
-## Research interests
+## research interests
 
-- Statistics and Machine Learning
-   - Sparse Methods and Regularization
-   - Multivariate Analysis
-   - Latent variable models
-   - Optimization and algorithms
-- Applications to life sciences
-- Reproducible research
+- statistics and Machine Learning :desktop_computer: 
+   - sparse Methods and Regularization
+   - multivariate Analysis
+   - latent variable models
+   - optimization and algorithms
+- Applications to life sciences :seedling: :bee: 
+   - Ecology, Environment
+   - Metagenomics, Metabolomics, Genomics
+- Reproducible research :gear:
 
-<!--
-More on this can be found in my Habilitation à diriger les recherches.
-
-Here is a full academic CV (April 2020).
--->

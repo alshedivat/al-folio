@@ -4,7 +4,7 @@ title: Camille Charbonnier
 description: Inférence de réseaux de régulation génétique à partir de données du transcriptome non indépendamment et indentiquement distribuées (2009-2012)
 img: /assets/img/camille_charbonnier.jpg
 importance: 3
-category: student
+category: 'PhD student'
 ---
 
 Camille's PhD was co-supervised with [Christophe Ambroise]()

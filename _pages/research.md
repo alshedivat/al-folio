@@ -2,9 +2,9 @@
 layout: page
 title: research
 permalink: /research/
-description: past and current graduated studentsselected research projects
+description: A selection of past and current funded projects
 nav: true
-display_categories: [anr]
+display_categories: [anr, 'past-anr']
 horizontal: false
 ---
 
@@ -56,12 +56,3 @@ horizontal: false
   {% endif %}
 
 </div>
-
-
-## Others PhD and Post-doc
-
-## Post-doc
-
-- [Jonathan Plassais](https://scholar.google.fr/citations?user=krVTrC8AAAAJ&hl=fr)
-- [David Baker](https://www6.inra.fr/mia-paris/content/download/4166/39960/version/1/file/CV_complet_Baker.pdf)
-- [Édith Lefloch](https://www.linkedin.com/in/edith-le-floch-0b55403a/?originalSubdomain=fr)

@@ -4,7 +4,7 @@ title: students
 permalink: /students/
 description: past and current graduated students
 nav: true
-display_categories: [student, postdoc]
+display_categories: ['PhD student', postdoc]
 horizontal: false
 ---
 
@@ -58,10 +58,5 @@ horizontal: false
 </div>
 
 
-## Others PhD and Post-doc
-
-## Post-doc
-
-- [Jonathan Plassais](https://scholar.google.fr/citations?user=krVTrC8AAAAJ&hl=fr)
 - [David Baker](https://www6.inra.fr/mia-paris/content/download/4166/39960/version/1/file/CV_complet_Baker.pdf)
 - [Édith Lefloch](https://www.linkedin.com/in/edith-le-floch-0b55403a/?originalSubdomain=fr)
