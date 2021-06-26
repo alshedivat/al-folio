@@ -22,7 +22,7 @@ social: false  # includes social icons at the bottom of the page
 
 - co-head of <a href="https://www6.inrae.fr/mia-paris">UMR MIA 518</a>, Team [SOLsTIS](https://www6.inrae.fr/mia-paris/Equipes/SOLsTIS)
 - part-time lecturer at École Polytechnique
-- chief Editor of [Computo](https://computo.sfds.asso.fr/)
+- chief editor of [Computo](https://computo.sfds.asso.fr/)
 
 ## research interests
 
@@ -31,8 +31,8 @@ social: false  # includes social icons at the bottom of the page
    - multivariate Analysis
    - latent variable models
    - optimization and algorithms
-- Applications to life sciences :seedling: :bee: 
-   - Ecology, Environment
-   - Metagenomics, Metabolomics, Genomics
-- Reproducible research :gear:
+- applications to life sciences :seedling: :bee: 
+   - ecology, environment
+   - metagenomics, metabolomics, genomics
+- reproducible research :gear:
 
