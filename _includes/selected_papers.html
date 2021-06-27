@@ -1,5 +1,14 @@
-
-          <div class="publications">
-            <h2>selected publications</h2>
-            {% bibliography -f papers -q @*[selected=true]* %}
-          </div>
+<div class="publications">
+  <h2>selected publications</h2>
+  <p>
+    Please refer to the
+    <a href="{{ '/publications/' | relative_url }}">publications tab</a> or
+    <a
+      href="https://scholar.google.com/citations?user={{site.scholar_userid}}&hl=en"
+      target="_blank"
+      >Google Scholar</a
+    >
+    for a complete list.
+  </p>
+  {% bibliography -f papers -q @*[selected=true]* %}
+</div>
