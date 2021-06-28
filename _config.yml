@@ -10,7 +10,7 @@ email: georg@woelflein.eu
 description: >
   Georg Wölflein's homepage.
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme.
 
 icon: 🔥 # the emoji used as the favicon
 url: # the base hostname & protocol for your site
