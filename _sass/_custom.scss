@@ -1,8 +1,10 @@
 /* Custom SCSS */
+@use "sass:color";
 
 :root {
   --global-theme-color: #{$red-color-dark};
   --global-hover-color: var(--global-theme-color);
+  --global-code-bg-color: #f6f8fa;
 }
 
 .profile.float-left {

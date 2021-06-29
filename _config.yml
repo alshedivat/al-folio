@@ -219,7 +219,7 @@ scholar:
   last_name: Wölflein
   first_name: [Georg]
 
-  style: apa
+  style: ieee
   locale: en
 
   source: /_bibliography/
