@@ -23,7 +23,7 @@ I'm Georg, an incoming PhD student at the [University of St Andrews](https://www
 Prior to this, I studied an integrated master's (MSci) in Computer Science at the same university.
 My research lies at the intersection of computer vision, deep learning, and digital pathology.
 
-I am also a part-time working student in the [Realtime Computer Vision](https://www.robotron.de/rcv){:target="\_blank"} department at [Robotron Datenbank-Software GmbH](https://www.robotron.de){:target="\_blank"}.
+I am also a part-time working student in the [Realtime Computer Vision](https://www.robotron.de/rcv){:target="\_blank"} department at [Robotron Datenbank-Software GmbH](https://www.robotron.de){:target="\_blank"} in Dresden, Germany.
 
 Feel free to reach out via email!
 
