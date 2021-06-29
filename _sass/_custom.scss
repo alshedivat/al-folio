@@ -1,0 +1,38 @@
+/* Custom SCSS */
+
+:root {
+  --global-theme-color: #{$red-color-dark};
+  --global-hover-color: var(--global-theme-color);
+}
+
+.profile.float-left {
+  margin-left: 0 !important;
+  margin-right: 1rem;
+}
+
+p.desc {
+  font-size: small;
+}
+
+.social-links a {
+  margin-right: 18px;
+  font-size: 1.2rem;
+}
+
+div.news th {
+  width: 100px;
+}
+
+$grey-color-lightdark: lighten($grey-color, 20%);
+.publications {
+  h2.year {
+    color: $grey-color-lightdark !important;
+    /*border-top: 1px solid $grey-color-lightdark !important;*/
+  }
+  abbr.badge {
+    background-color: var(--global-theme-color);
+    position: absolute;
+    left: 0px;
+    top: 7px;
+  }
+}
