@@ -144,7 +144,7 @@ scholar:
   last_name: Copik
   first_name: [Marcin]
 
-  style: apa
+  style: ieee
   locale: en
 
   source: /_bibliography/

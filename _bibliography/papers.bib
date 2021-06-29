@@ -54,4 +54,108 @@
   series = {IWOCL 2017}
 }
 
+@inproceedings{10.1145/3168804,
+  author = {Barthels, Henrik and Copik, Marcin and Bientinesi, Paolo},
+  title = {The Generalized Matrix Chain Algorithm},
+  year = {2018},
+  isbn = {9781450356176},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3168804},
+  doi = {10.1145/3168804},
+  abstract = {In this paper, we present a generalized version of the matrix chain algorithm to generate efficient code for linear algebra problems, a task for which human experts often invest days or even weeks of works. The standard matrix chain problem consists in finding the parenthesization of a matrix product M := A1 A2 ⋯ An that minimizes the number of scalar operations. In practical applications, however, one frequently encounters more complicated expressions, involving transposition, inversion, and matrix properties. Indeed, the computation of such expressions relies on a set of computational kernels that offer functionality well beyond the simple matrix product. The challenge then shifts from finding an optimal parenthesization to finding an optimal mapping of the input expression to the available kernels. Furthermore, it is often the case that a solution based on the minimization of scalar operations does not result in the optimal solution in terms of execution time. In our experiments, the generated code outperforms other libraries and languages on average by a factor of about 9. The motivation for this work comes from the fact that—despite great advances in the development of compilers—the task of mapping linear algebra problems to optimized kernels is still to be done manually. In order to relieve the user from this complex task, new techniques for the compilation of linear algebra expressions have to be developed.},
+  booktitle = {Proceedings of the 2018 International Symposium on Code Generation and Optimization},
+  pages = {138–148},
+  numpages = {11},
+  keywords = {matrix chain problem, linear algebra, compiler},
+  location = {Vienna, Austria},
+  series = {CGO 2018}
+}
 
+@InProceedings{10.1007/978-3-030-47956-5_15,
+  author="Calotoiu, Alexandru
+  and Copik, Marcin
+  and Hoefler, Torsten
+  and Ritter, Marcus
+  and Shudler, Sergei
+  and Wolf, Felix",
+  editor="Bungartz, Hans-Joachim
+  and Reiz, Severin
+  and Uekermann, Benjamin
+  and Neumann, Philipp
+  and Nagel, Wolfgang E.",
+  title="ExtraPeak: Advanced Automatic Performance Modeling for HPC Applications",
+  booktitle="Software for Exascale Computing - SPPEXA 2016-2019",
+  year="2020",
+  publisher="Springer International Publishing",
+  address="Cham",
+  pages="453--482",
+  abstract="Performance models are powerful tools allowing developers to understand the behavior of their applications, and empower them to address performance issues already during the design or prototyping phase. Unfortunately, the difficulties of creating such models manually and the effort involved render performance modeling a topic limited to a relatively small community of experts. This article summarizes the results of the two projects Catwalk, which aimed to create tools that automate key activities of the performance modeling process, and ExtraPeak, which built upon the results of Catwalk and worked toward making this powerful methodology more flexible, streamlined and easy to use. The sew projects both provide accessible tools and methods that bring performance modeling to a wider audience of HPC application developers. Since its outcome represents the final state of the two projects, we expand to a greater extent on the results of ExtraPeak.",
+  isbn="978-3-030-47956-5"
+}
+
+@misc{copik2020workstealing,
+  title={Work-stealing prefix scan: Addressing load imbalance in large-scale image registration}, 
+  author={Marcin Copik and Tobias Grosser and Torsten Hoefler and Paolo Bientinesi and Benjamin Berkels},
+  year={2020},
+  eprint={2010.12478},
+  archivePrefix={arXiv},
+  primaryClass={cs.DC}
+}
+
+@inproceedings{copik2020sebs,
+  title={SeBS: A Serverless Benchmark Suite for Function-as-a-Service Computing}, 
+  author={Marcin Copik and Grzegorz Kwasniewski and Maciej Besta and Michal Podstawski and Torsten Hoefler},
+  year={2021},
+  eprint={2012.14132},
+  arxiv={2012.14132},
+  archivePrefix={arXiv},
+  primaryClass={cs.DC},
+  abstract = {Function-as-a-Service (FaaS) is one of the most promising directions for the future of cloud services, and serverless functions have immediately become a new middleware for building scalable and cost-efficient microservices and applications. However, the quickly moving technology hinders reproducibility, and the lack of a standardized benchmarking suite leads to ad-hoc solutions and microbenchmarks being used in serverless research, further complicating metaanalysis and comparison of research solutions. To address this challenge, we propose the Serverless Benchmark Suite: the first benchmark for FaaS computing that systematically covers a wide spectrum of cloud resources and applications. Our benchmark consists of the specification of representative workloads, the accompanying implementation and evaluation infrastructure, and the evaluation methodology that facilitates reproducibility and enables interpretability. We demonstrate that the abstract model of a FaaS execution environment ensures the applicability of our benchmark to multiple commercial providers such as AWS, Azure, and Google Cloud. Our work facilities experimental evaluation of serverless systems, and delivers a standardized, reliable and evolving evaluation methodology of performance, efficiency, scalability and reliability of middleware FaaS platforms.},
+  code = {https://github.com/spcl/serverless-benchmarks},
+  booktitle = {Proceedings of the 22nd International Middleware Conference (to appear)},
+  series = {Middleware '21}
+}
+
+@inproceedings{10.1145/3437801.3441613,
+  author = {Copik, Marcin and Calotoiu, Alexandru and Grosser, Tobias and Wicki, Nicolas and Wolf, Felix and Hoefler, Torsten},
+  title = {Extracting Clean Performance Models from Tainted Programs},
+  year = {2021},
+  isbn = {9781450382946},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3437801.3441613},
+  doi = {10.1145/3437801.3441613},
+  abstract = {Performance models are well-known instruments to understand the scaling behavior of parallel applications. They express how performance changes as key execution parameters, such as the number of processes or the size of the input problem, vary. Besides reasoning about program behavior, such models can also be automatically derived from performance data. This is called empirical performance modeling. While this sounds simple at the first glance, this approach faces several serious interrelated challenges, including expensive performance measurements, inaccuracies inflicted by noisy benchmark data, and overall complex experiment design, starting with the selection of the right parameters. The more parameters one considers, the more experiments are needed and the stronger the impact of noise. In this paper, we show how taint analysis, a technique borrowed from the domain of computer security, can substantially improve the modeling process, lowering its cost, improving model quality, and help validate performance models and experimental setups.},
+  booktitle = {Proceedings of the 26th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming},
+  pages = {403–417},
+  numpages = {15},
+  keywords = {performance modeling, high-performance computing, compiler techniques, LLVM, taint analysis},
+  location = {Virtual Event, Republic of Korea},
+  series = {PPoPP '21},
+  arxiv = {2012.15592},
+  html = {https://dl.acm.org/doi/10.1145/3437801.3441613},
+  pdf = {2021_perf_taint_ppopp.pdf},
+  code = {https://github.com/spcl/perf-taint/}
+}
+
+@misc{besta2021graphminesuite,
+  title={GraphMineSuite: Enabling High-Performance and Programmable Graph Mining Algorithms with Set Algebra}, 
+  author={Maciej Besta and Zur Vonarburg-Shmaria and Yannick Schaffner and Leonardo Schwarz and Grzegorz Kwasniewski and Lukas Gianinazzi and Jakub Beranek and Kacper Janda and Tobias Holenstein and Sebastian Leisinger and Peter Tatkowski and Esref Ozdemir and Adrian Balla and Marcin Copik and Philipp Lindenberger and Pavel Kalvoda and Marek Konieczny and Onur Mutlu and Torsten Hoefler},
+  year={2021},
+  eprint={2103.03653},
+  archivePrefix={arXiv},
+  primaryClass={cs.DC}
+}
+
+@article{besta2021sisa,
+  title={SISA: Set-Centric Instruction Set Architecture for Graph Mining on Processing-in-Memory Systems}, 
+  author={Maciej Besta and Raghavendra Kanakagiri and Grzegorz Kwasniewski and Rachata Ausavarungnirun and Jakub Beránek and Konstantinos Kanellopoulos and Kacper Janda and Zur Vonarburg-Shmaria and Lukas Gianinazzi and Ioana Stefan and Juan Gómez Luna and Marcin Copik and Lukas Kapp-Schwoerer and Salvatore Di Girolamo and Marek Konieczny and Onur Mutlu and Torsten Hoefler},
+  year={2021},
+  eprint={2104.07582},
+  arxiv={2104.07582},
+  archivePrefix={arXiv},
+  primaryClass={cs.AR},
+  journal={arXiv},
+  url={https://arxiv.org/abs/2104.07582}
+}
