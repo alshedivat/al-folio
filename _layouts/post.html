@@ -41,9 +41,12 @@ layout: default
 
   <article class="post-content">
     {{ content | replace: '<h2', '<h4' | replace: '</h2>', '</h4>' | replace: '<h1', '<h2' | replace: '</h1>', '</h2>' }}
-    
-    <h2>References</h2>
-    {% bibliography --cited -T {{reference}} %}
+    {% capture num_references %}{% bibliography_count --cited %}{% endcapture %}
+    {% if page.scholar.bibliography and num_references != "0" %}
+      <hr>
+      <h2>References</h2>
+      {% bibliography --cited -T {{reference}} %}
+    {% endif %}
   </article>
 
   {%- if site.disqus_shortname and page.comments -%}

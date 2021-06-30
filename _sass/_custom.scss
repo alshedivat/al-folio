@@ -38,3 +38,20 @@ $grey-color-lightdark: lighten($grey-color, 20%);
     top: 7px;
   }
 }
+
+div.post {
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-transform: lowercase;
+  }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
