@@ -9,7 +9,7 @@ jobs:
     executor: ruby/default
     steps:
       - checkout
+      - ruby/bundle-install
       - run:
           name: Jekyll build
           command: bundle exec jekyll build
-      - ruby/bundle-install
