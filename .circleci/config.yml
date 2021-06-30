@@ -27,7 +27,7 @@ jobs:
           profile-name: default
       - run:
           name: Upload file to S3
-          command: aws s3 sync ./_site/ s3://henriquesantos.org --delete
+          command: aws s3 sync ./_site/ s3://henriquesantosorg --delete
 
 workflows:
   version: 2
