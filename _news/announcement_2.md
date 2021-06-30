@@ -5,5 +5,5 @@ date: 2021-06-26 11:00-0400
 inline: true
 ---
 
-Our paper on load balancing prefix sums has been accepted at IEEE TPDS!
+Our paper on [work-stealing prefix scan](/publications#2020prefixsum) has been accepted at the IEEE TPDS!
 
