@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       - image: circleci/ruby:3-buster-node
-    executor: ruby/default
+    #executor: ruby/default
     steps:
       - checkout
       - run:
