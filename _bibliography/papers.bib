@@ -94,13 +94,42 @@
   isbn="978-3-030-47956-5"
 }
 
-@misc{copik2020workstealing,
+@article{copik2017prefixsum,
+  title={Parallel Prefix Algorithms for the Registration of Arbitrarily Long Electron Micrograph Series}, 
+  author={Marcin Copik and Paolo Bientinesi and Benjamin Berkels},
+  year={2017},
+  pdf = {2017_prefix_sum_abstract_SC.pdf},
+  poster = {2017_prefix_sum_poster_SC.pdf},
+  abstract = {Recent advances in the technology of transmission electron microscopy have allowed for a more precise visualization of materials and physical processes, such as metal oxidation. Nevertheless, the quality of information is limited by the damage caused by an electron beam, movement of the specimen or other environmental factors. A novel registration method has been proposed to remove those limitations by acquiring a series of low dose microscopy frames and performing a computational registration on them to understand and visualize the sample. This process can be represented as a prefix sum with a complex and computationally intensive binary operator and a parallelization is necessary to enable processing long series of microscopy images. With our parallelization scheme, the time of registration of results from ten seconds of microscopy acquisition has been decreased from almost thirteen hours to less than seven minutes on 512 Intel IvyBridge cores.},
+  html = {https://sc17.supercomputing.org/SC17%20Archive/src_poster/src_poster_pages/spost118.html},
+  journal = {ACM Student Research Competition at ACM/IEEE Supercomputing}
+}
+
+@article{copik2017thesisprefixsum,
+  title={Parallel Prefix Algorithms for the Registration of Arbitrarily Long Electron Micrograph Series}, 
+  author={Marcin Copik},
+  year={2017},
+  pdf = {2017_prefix_sum_thesis.pdf},
+  journal = {Master Thesis},
+  abstract = {Recent advances in the technology of transmission electron microscopy have allowed for a more precise visualization of materials and physical processes, such as metal oxidation. Nevertheless, the quality of information is limited by the damage caused by an electron beam, movement of the specimen or other environmental factors. A novel registration method has been proposed to remove those limitations by acquiring a series of low dose microscopy frames and performing a computational registration on them to understand and visualize the sample. This process can be represented as a prefix sum with a complex and computationally intensive binary operator and a parallelization is necessary to enable processing long series of microscopy images. With our parallelization scheme, the time of registration of results from ten seconds of microscopy acquisition has been decreased from almost thirteen hours to less than seven minutes on 512 Intel IvyBridge cores.},
+  arxiv = {1712.02533}
+}
+
+@periodical{copik2020workstealing,
   title={Work-stealing prefix scan: Addressing load imbalance in large-scale image registration}, 
   author={Marcin Copik and Tobias Grosser and Torsten Hoefler and Paolo Bientinesi and Benjamin Berkels},
-  year={2020},
+  year={2021},
   eprint={2010.12478},
   archivePrefix={arXiv},
-  primaryClass={cs.DC}
+  primaryClass={cs.DC},
+  arxiv = {2010.12478},
+  pdf = {2021_prefix_sum_TPDS.pdf},
+  code = {https://github.com/berkels/match-series/},
+  type = {article},
+  journal = {IEEE Transactions on Parallel and Distributed Systems (TPDS) (to appear)},
+  abstract = {
+    Parallelism patterns (e.g., map or reduce) have proven to be effective tools for parallelizing high-performance applications. In this paper, we study the recursive registration of a series of electron microscopy images - a time consuming and imbalanced computation necessary for nano-scale microscopy analysis. We show that by translating the image registration into a specific instance of the prefix scan, we can convert this seemingly sequential problem into a parallel computation that scales to over thousand of cores. We analyze a variety of scan algorithms that behave similarly for common low-compute operators and propose a novel work-stealing procedure for a hierarchical prefix scan. Our evaluation shows that by identifying a suitable and well-optimized prefix scan algorithm, we reduce time-to-solution on a series of 4,096 images spanning ten seconds of microscopy acquisition from over 10 hours to less than 3 minutes (using 1024 Intel Haswell cores), enabling derivation of material properties at nanoscale for long microscopy image series. 
+  }
 }
 
 @inproceedings{copik2020sebs,
@@ -139,13 +168,17 @@
   code = {https://github.com/spcl/perf-taint/}
 }
 
-@misc{besta2021graphminesuite,
+@article{besta2021graphminesuite,
   title={GraphMineSuite: Enabling High-Performance and Programmable Graph Mining Algorithms with Set Algebra}, 
   author={Maciej Besta and Zur Vonarburg-Shmaria and Yannick Schaffner and Leonardo Schwarz and Grzegorz Kwasniewski and Lukas Gianinazzi and Jakub Beranek and Kacper Janda and Tobias Holenstein and Sebastian Leisinger and Peter Tatkowski and Esref Ozdemir and Adrian Balla and Marcin Copik and Philipp Lindenberger and Pavel Kalvoda and Marek Konieczny and Onur Mutlu and Torsten Hoefler},
   year={2021},
   eprint={2103.03653},
+  arxiv={2103.03653},
   archivePrefix={arXiv},
-  primaryClass={cs.DC}
+  primaryClass={cs.DC},
+  journal={arXiv},
+  abstract = {We propose GraphMineSuite (GMS): the first benchmarking suite for graph mining that facilitates evaluating and constructing high-performance graph mining algorithms. First, GMS comes with a benchmark specification based on extensive literature review, prescribing representative problems, algorithms, and datasets. Second, GMS offers a carefully designed software platform for seamless testing of different fine-grained elements of graph mining algorithms, such as graph representations or algorithm subroutines. The platform includes parallel implementations of more than 40 considered baselines, and it facilitates developing complex and fast mining algorithms. High modularity is possible by harnessing set algebra operations such as set intersection and difference, which enables breaking complex graph mining algorithms into simple building blocks that can be separately experimented with. GMS is supported with a broad concurrency analysis for portability in performance insights, and a novel performance metric to assess the throughput of graph mining algorithms, enabling more insightful evaluation. As use cases, we harness GMS to rapidly redesign and accelerate state-of-the-art baselines of core graph mining problems: degeneracy reordering (by up to >2x), maximal clique listing (by up to >9x), k-clique listing (by 1.1x), and subgraph isomorphism (by up to 2.5x), also obtaining better theoretical performance bounds.
+  }
 }
 
 @article{besta2021sisa,
@@ -157,5 +190,7 @@
   archivePrefix={arXiv},
   primaryClass={cs.AR},
   journal={arXiv},
-  url={https://arxiv.org/abs/2104.07582}
+  url={https://arxiv.org/abs/2104.07582},
+  abstract={Simple graph algorithms such as PageRank have recently been the target of numerous hardware accelerators. Yet, there also exist much more complex graph mining algorithms for problems such as clustering or maximal clique listing. These algorithms are memory-bound and thus could be accelerated by hardware techniques such as Processing-in-Memory (PIM). However, they also come with non-straightforward parallelism and complicated memory access patterns. In this work, we address this with a simple yet surprisingly powerful observation: operations on sets of vertices, such as intersection or union, form a large part of many complex graph mining algorithms, and can offer rich and simple parallelism at multiple levels. This observation drives our cross-layer design, in which we (1) expose set operations using a novel programming paradigm, (2) express and execute these operations efficiently with carefully designed set-centric ISA extensions called SISA, and (3) use PIM to accelerate SISA instructions. The key design idea is to alleviate the bandwidth needs of SISA instructions by mapping set operations to two types of PIM: in-DRAM bulk bitwise computing for bitvectors representing high-degree vertices, and near-memory logic layers for integer arrays representing low-degree vertices. Set-centric SISA-enhanced algorithms are efficient and outperform hand-tuned baselines, offering more than 10x speedup over the established Bron-Kerbosch algorithm for listing maximal cliques. We deliver more than 10 SISA set-centric algorithm formulations, illustrating SISA's wide applicability.
+  }
 }
