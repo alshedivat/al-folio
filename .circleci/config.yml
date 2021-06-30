@@ -1,12 +1,12 @@
 version: 2.1
 orbs:
-  ruby: circleci/ruby@0.1.2
+  ruby: circleci/ruby@1.1.4
   aws-cli: circleci/aws-cli@2.0.3
 
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.6.3-stretch-node
+      - image: circleci/ruby:3-buster-node
     executor: ruby/default
     steps:
       - checkout
@@ -26,7 +26,7 @@ jobs:
       - aws-cli/setup:
           profile-name: default
       - run:
-          name: Upload file to S3
+          name: Upload build to S3
           command: aws s3 sync ./_site/ s3://henriquesantosorg --delete
 
 workflows:
