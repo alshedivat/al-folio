@@ -1,0 +1,43 @@
+version: 2.1
+orbs:
+  ruby: circleci/ruby@0.1.2
+  aws-cli: circleci/aws-cli@2.0.3
+
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.6.3-stretch-node
+    executor: ruby/default
+    steps:
+      - checkout
+      - ruby/bundle-install
+      - run:
+          name: Jekyll build
+          command: bundle exec jekyll build
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+  deploy:
+    executor: aws-cli/default
+    steps:
+      - attach_workspace:
+          at: .
+      - aws-cli/setup:
+          profile-name: default
+      - run:
+          name: Upload file to S3
+          command: aws s3 sync ./_site/ s3://henriquesantosorg --delete
+
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          context: aws-context
+          filters:
+            branches:
+              only: master
