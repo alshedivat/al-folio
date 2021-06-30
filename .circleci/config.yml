@@ -34,7 +34,7 @@ workflows:
   build:
     jobs:
       - build
-      - deploy_project:
+      - deploy:
           requires:
             - build
           context: aws-context
