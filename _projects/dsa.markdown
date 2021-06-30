@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: DSA
+description: Dynamic Spectrum Access Policy Framework
+img: /assets/img/dsa.jpeg
+redirect: https://github.com/tetherless-world/dsa-open
+importance: 2
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

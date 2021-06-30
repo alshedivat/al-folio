@@ -1,24 +1,14 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: /assets/img/3.jpg
-importance: 2
+title: HADatAc
+description: Human-Aware Data Acquisition Framework
+img: /assets/img/hadatac.png
+redirect: https://hadatac.org
+importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+HADatAc (Human-Aware Data Acquisition framework) is an open-source infrastructure that enables combined acquisitions of data and metadata in a way that metadata is properly and logically connected to data. By data (and metadata) acquisition we mean the process of identifying data sources, interacting with these sources to move the data from their transient state into a persistent repository, and to enable the data to be retrieved from their persistent repositories through the use of queries.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

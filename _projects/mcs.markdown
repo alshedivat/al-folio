@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: /assets/img/7.jpg
-redirect: https://unsplash.com
+title: MCS
+description: Machine Common Sense
+img: /assets/img/mcs.jpeg
+redirect: https://usc-isi-i2.github.io/mowgli/
 importance: 3
 category: work
 ---
