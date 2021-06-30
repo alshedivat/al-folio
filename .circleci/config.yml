@@ -38,3 +38,6 @@ workflows:
           requires:
             - build
           context: aws-context
+          filters:
+            branches:
+              only: master
