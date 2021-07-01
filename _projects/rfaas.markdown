@@ -19,15 +19,17 @@ Both
 
 
 <div style="vertical-align:middle; text-align:center">
-    <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/rfaas/lifetime.png' | relative_url }}" alt="" title="Strong scaling."/>
+    <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/rfaas/lifetime.png' | relative_url }}" alt="" title="rFaaS invocations."/>
 </div>
 <div class="caption">
-  rFaaS combines the flexibility of FaaS and high-performance of batch jobs.
+  The lifetime of rFaaS invocations.
 </div>
 
 In rFaaS, the centralized schedulers and API gateway are replaced with a decentralized allocation
 mechanisms. MPI applications query executor servers, obtain resource allocation, and establish
 RDMA connections to remote workers.
+This allows us to achieve **a single-digit microsecond invocation latency** - hot invocations
+add less than 350 nanoseconds overhead on top of the fastest available network transmission.
 
 <div style="vertical-align:middle; text-align:center">
     <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/rfaas/system.png' | relative_url }}" alt="" title="rFaaS with batch systems."/>
