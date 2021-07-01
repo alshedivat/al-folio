@@ -75,7 +75,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 blog_name: Marcin Copik # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_description: tutorials, tips, observations and interesting papers
 permalink: /blog/:year/:title/
 
 # Pagination
