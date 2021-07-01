@@ -195,3 +195,15 @@
   abstract={Simple graph algorithms such as PageRank have recently been the target of numerous hardware accelerators. Yet, there also exist much more complex graph mining algorithms for problems such as clustering or maximal clique listing. These algorithms are memory-bound and thus could be accelerated by hardware techniques such as Processing-in-Memory (PIM). However, they also come with non-straightforward parallelism and complicated memory access patterns. In this work, we address this with a simple yet surprisingly powerful observation: operations on sets of vertices, such as intersection or union, form a large part of many complex graph mining algorithms, and can offer rich and simple parallelism at multiple levels. This observation drives our cross-layer design, in which we (1) expose set operations using a novel programming paradigm, (2) express and execute these operations efficiently with carefully designed set-centric ISA extensions called SISA, and (3) use PIM to accelerate SISA instructions. The key design idea is to alleviate the bandwidth needs of SISA instructions by mapping set operations to two types of PIM: in-DRAM bulk bitwise computing for bitvectors representing high-degree vertices, and near-memory logic layers for integer arrays representing low-degree vertices. Set-centric SISA-enhanced algorithms are efficient and outperform hand-tuned baselines, offering more than 10x speedup over the established Bron-Kerbosch algorithm for listing maximal cliques. We deliver more than 10 SISA set-centric algorithm formulations, illustrating SISA's wide applicability.
   }
 }
+
+@misc{2021rfaas,
+  title={RFaaS: RDMA-Enabled FaaS Platform for Serverless High-Performance Computing}, 
+  author={Marcin Copik and Konstantin Taranov and Alexandru Calotoiu and Torsten Hoefler},
+  year={2021},
+  eprint={2106.13859},
+  arxiv={2106.13859},
+  archivePrefix={arXiv},
+  primaryClass={cs.DC},
+  abstract={The rigid MPI programming model and batch scheduling dominate high-performance computing. While clouds brought new levels of elasticity into the world of computing, supercomputers still suffer from low resource utilization rates. To enhance supercomputing clusters with the benefits of serverless computing, a modern cloud programming paradigm for pay-as-you-go execution of stateless functions, we present rFaaS, the first RDMA-aware Function-as-a-Service (FaaS) platform. With hot invocations and decentralized function placement, we overcome the major performance limitations of FaaS systems and provide low-latency remote invocations in multi-tenant environments. We evaluate the new serverless system through a series of microbenchmarks and show that remote functions execute with negligible performance overheads. We demonstrate how serverless computing can bring elastic resource management into MPI-based high-performance applications. Overall, our results show that MPI applications can benefit from modern cloud programming paradigms to guarantee high performance at lower resource costs.},
+  code={https://github.com/spcl/rFaaS/}
+}
