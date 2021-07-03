@@ -9,14 +9,10 @@ nav: true
 
 The list of talks, presentations, and public appearances.
 
-* [2021](#2021)
-* [2019](#2019)
-* [2018](#2018)
-* [2017](#2017)
-* [2016](#2016)
-* [2015](#2015)
-* [2014](#2014)
-* [2013](#2013)
+{:.no_toc}
+
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
 
 -----------
 

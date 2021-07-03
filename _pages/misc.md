@@ -12,9 +12,10 @@ This page contains a list of resources that I have found particularly useful and
 during my academic career, including tools that I recommend to my students,
 as well as a few interesting talks, podcasts, and texts related to my hobbies.
 
-* [tools](#tools)
-* [meta](#meta)
-* [history](#history)
+{:.no_toc}
+
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
 
 ## tools
 
