@@ -4,6 +4,7 @@ title: projects
 permalink: /projects/
 description: 
 nav: true
+sort_key: 1
 display_categories: [serverless, hpc, program analysis]
 horizontal: false
 ---
