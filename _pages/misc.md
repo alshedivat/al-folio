@@ -39,6 +39,12 @@ data on computing systems.
 * [The Science of Scientific Writing](https://www.usenix.org/sites/default/files/gopen_and_swan_science_of_scientific_writing.pdf)
 by George D. Gopen and Judith A. Swan, a short and very useful paper on writing papers.
 
+* [How to Write a Great Research Paper](https://www.youtube.com/watch?v=VK51E3gHENc)
+great talk by Simon Peyton Jones with many helpful recommendations and tips. The most important
+lesson from this talk: practice paper-driven research by beginning with a paper draft,
+as explaining the idea helps to find key challenges and weaknesses and quickly identify
+which ideas are worth working on.
+
 ## history
 
 * [(Podcast) The History of Rome](https://en.wikipedia.org/wiki/The_History_of_Rome_(podcast)) - an excellent
