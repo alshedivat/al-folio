@@ -158,7 +158,20 @@
   series = {Middleware '21}
 }
 
-@inproceedings{10.1145/3437801.3441613,
+@article{2019perftaint,
+  title={perf-taint: Taint Analysis for Automatic Many-Parameter Performance Modeling},
+  author={Marcin Copik and Torsten Hoefler},
+  year={2019},
+  pdf = {2019_perf_taint_abstract.pdf},
+  poster = {2019_perf_taint_poster.pdf},
+  slides = {2019_perf_taint_slides.pdf},
+  abstract = {Performance modeling is a well-known technique for understanding the scaling behavior of an application. Although the modeling process is today often automatic, it still relies on a domain expert selecting program parameters and deciding relevant sampling intervals. Since existing empirical methods attempt blackbox modeling, the decision on which parameters influence a selected part of the program is based on measured data, making empirical modeling sensitive to human errors and instrumentation noise. We introduce a hybrid analysis to mitigate the current limitations of empirical modeling, combining the confidence of static analysis with the ability of dynamic taint analysis to capture the effects of control-flow and memory operations. We construct models of computation and communication volumes that help the modeler to remove effects of noise and improve the correctness of estimated models. Our automatic analysis prunes irrelevant program parameters and brings an understanding of parameter dependencies which helps in designing the experiment.},
+  html = {https://sc19.supercomputing.org/proceedings/src_poster/src_poster_pages/spostg110.html},
+  journal = {ACM Student Research Competition at ACM/IEEE Supercomputing},
+  note = {Gold Medal in the competition}
+}
+
+@inproceedings{2021perftaint,
   author = {Copik, Marcin and Calotoiu, Alexandru and Grosser, Tobias and Wicki, Nicolas and Wolf, Felix and Hoefler, Torsten},
   title = {Extracting Clean Performance Models from Tainted Programs},
   year = {2021},
@@ -178,7 +191,9 @@
   html = {https://dl.acm.org/doi/10.1145/3437801.3441613},
   pdf = {2021_perf_taint_ppopp.pdf},
   code = {https://github.com/spcl/perf-taint/},
-  recording = {https://www.youtube.com/watch?v=eGEvFXK4owc}
+  recording = {https://www.youtube.com/watch?v=eGEvFXK4owc},
+  slides = {2021_perf_taint_ppopp_slides.pdf},
+  artifact = {https://zenodo.org/record/4381803}
 }
 
 @article{besta2021graphminesuite,

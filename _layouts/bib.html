@@ -74,6 +74,11 @@
         <em>In {{entry.booktitle}}</em>
       {% endif %}
       </div>
+      <div class="author">
+      {% if entry.note %}
+        <b> {{entry.note}} </b>
+      {% endif %}
+      </div>
     {% endif %}
 
     <div class="links">
@@ -125,6 +130,9 @@
     {% endif %}
     {% if entry.recording %}
       <a href="{{ entry.recording }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Recording</a>
+    {% endif %}
+    {% if entry.artifact %}
+      <a href="{{ entry.artifact }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Artifact</a>
     {% endif %}
     {% if entry.website %}
       <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
