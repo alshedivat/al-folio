@@ -19,7 +19,7 @@ d-byline a, d-article d-byline a {
 
 d-article {
   border-top-color: #e8e8e8 !important;
-  a, p, h1, h2, h3, h4, h5, h6 {
+  a, p, h1, h2, h3, h4, h5, h6, li, table {
     color: var(--global-text-color) !important;
   }
   a, h1, h2, hr {
