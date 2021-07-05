@@ -87,6 +87,10 @@ _Smart Expression Templates_, research seminar final presentation.
 
 ## 2014
 
+* **Silesian University of Technology, Bachelor Thesis Seminar**, Gliwice, Poland.  
+_GPU-accelerated stochastic simulator engine for PRISM model checker_, presentation of Bachelor thesis.  
+[Slides](/assets/pdf/2014_prism_gpu_bachelor_thesis_slides.pdf).
+
 * **Silesian University of Technology, Students Scientific Group of Programming Engineering and Linguistic Engineering**, Gliwice, Poland.  
 _C++11_, presentation of new C++ features to fellow students (Polish).  
 [Slides](/assets/pdf/2014_cpp11_ipij_slides.pdf).
