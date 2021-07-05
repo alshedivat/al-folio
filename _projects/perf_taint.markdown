@@ -3,19 +3,11 @@ layout: page
 title: perf-taint
 description: Enhancing performance modeling with program analysis information.
 img: /assets/img/perf_taint/overhead.png
+github: spcl/perf-taint
+zenodo: 10.5281/zenodo.4295657
 importance: 1
 category: program analysis
 ---
-
-<div class="project-summary">
-
-<ul>
-<li><a href="https://github.com/spcl/perf-taint" title="github" target="_blank" rel="nofollow"><i class="fab fa-github"></i><span>spcl/perf-taint</span></a>
-</li>
-
-<li><a href="https://zenodo.org/record/4381803" title="zenodo" target="_blank" rel="nofollow"><i class="ai ai-zenodo"></i><span>10.5281/zenodo.4295657</span></a></li>
-</ul>
-</div>
 
 Performance modeling has had a huge impact on the world of scientific and high-performance computing.
 It gave us tools to discover scalability bugs, validate performance expectations, and design new systems.

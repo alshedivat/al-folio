@@ -8,6 +8,29 @@ layout: default
     <p class="post-description">{{ page.description }}</p>
   </header>
 
+  {% if page.github or page.zenodo %}
+    <div class="project-summary">
+
+    <ul>
+      {% if page.github %}
+        <li>
+          <a href="https://github.com/{{page.github}}" title="github" target="_blank" rel="nofollow">
+            <i class="fab fa-github"></i><span>{{page.github}}</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if page.zenodo %}
+        <li>
+          <a href="https://doi.org/{{page.zenodo}}" title="zenodo" target="_blank" rel="nofollow">
+            <i class="ai ai-zenodo"></i><span>{{page.zenodo}}</span>
+          </a>
+        </li>
+      {% endif %}
+    </ul>
+    </div>
+  {% endif %}
+
   <article>
     {{ content }}
   </article>
