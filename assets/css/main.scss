@@ -13,3 +13,60 @@ $max-content-width: {{site.max_width}};
   "base",
   "distill"
 ;
+
+// https://stackoverflow.com/questions/41285466/how-do-i-add-add-text-below-font-awesome-icon-links/41285702
+
+.project-summary {
+  margin: 0;
+  padding: 0;
+}
+
+.project-summary ul {
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+.project-summary li {
+  text-align: center;
+  width: 49.5%;
+  margin-bottom: 3px!important;
+  background-color: #fffff;
+  display: inline-block;
+  margin: auto;
+  font-size: 70px;
+  padding:0;
+  border: 2px solid #eee;
+}
+
+.project-summary i {
+  display: block;
+  margin: 0 auto 10px auto;
+	margin: 10px auto 0;
+	text-align: center;
+	color: #000000;
+  margin-top:0;
+  padding-top:5px;
+}
+
+.project-summary a{
+  text-decoration:none;
+  width:100%;
+  height:100%;
+  display:block;
+  margin:0;
+  padding:0;
+}
+
+.project-summary a span{
+  color:black;
+  font-size:20px;
+  padding:5px 0 10px 0;
+  display:block;
+	font-weight:bold;
+  text-transform:lowercase;
+  font-family:'Josefin Sans';
+  letter-spacing:1px;
+}
+
+
