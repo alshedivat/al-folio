@@ -5,6 +5,10 @@ description: Enhancing performance modeling with program analysis information.
 img: /assets/img/perf_taint/overhead.png
 github: spcl/perf-taint
 zenodo: 10.5281/zenodo.4295657
+paper1: 2019perftaint
+paper1_description: Poster @ SC 2019
+paper2: 2021perftaint
+paper2_description: Paper @ PPoPP 2021
 importance: 1
 category: program analysis
 ---
