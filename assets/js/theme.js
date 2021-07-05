@@ -19,7 +19,7 @@ let setTheme = (theme) =>  {
   }
   localStorage.setItem("theme", theme);
   
-  // Updates medium-zoom background update the overlay background.
+  // Updates the background of medium-zoom overlay.
   if (typeof medium_zoom !== 'undefined') {
     medium_zoom.update({
       background: getComputedStyle(document.documentElement)
