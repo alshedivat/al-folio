@@ -15,9 +15,13 @@ layout: default
       <ul>
         {% if page.paper1 %}
           <li>
-            <a href="/publications#{{page.paper1}}" title="paper" target="_blank" rel="nofollow">
+            {% if page.paper1 != "todo" %}
+              <a href="/publications#{{page.paper1}}" title="paper" target="_blank" rel="nofollow">
+            {% else %}
+              <a title="paper" target="_blank" rel="nofollow">
+            {% endif %}
               <i class="fas fa-scroll"></i><span>{{page.paper1_description}}</span>
-            </a>
+              </a>
           </li>
         {% endif %}
 
@@ -31,8 +35,13 @@ layout: default
 
         {% if page.github %}
           <li>
-            <a href="https://github.com/{{page.github}}" title="github" target="_blank" rel="nofollow">
+            {% if page.github != "todo" %}
+              <a href="https://github.com/{{page.github}}" title="github" target="_blank" rel="nofollow">
               <i class="fab fa-github"></i><span>{{page.github}}</span>
+            {% else %}
+              <a title="github" target="_blank" rel="nofollow">
+              <i class="fab fa-github"></i><span>Coming soon!</span>
+            {% endif %}
             </a>
           </li>
         {% endif %}

@@ -53,7 +53,7 @@ This allows us to achieve **a single-digit microsecond hot invocation latency** 
 add less than 350 nanoseconds overhead on top of the fastest available network transmission.
 
 <div style="vertical-align:middle; text-align:center">
-    <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/rfaas/system.png' | relative_url }}" alt="" title="rFaaS with batch systems."/>
+  <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/rfaas/system.png' | relative_url }}" alt="" title="rFaaS with batch systems."/>
 </div>
 <div class="caption">
   The integration of rFaaS with cluster batch systems and MPI applications.
