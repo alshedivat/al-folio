@@ -4,6 +4,7 @@ title: RDMA + FaaS = rFaaS
 description: 
 img: /assets/img/rfaas/overview.png
 importance: 1
+github: spcl/rfaas
 category: serverless
 ---
 
