@@ -1,9 +1,12 @@
 ---
 layout: page
 title: Work-stealing prefix scan
-description: 
+description: Developing new prefix scan algorithms for unbalanced workloads.
 img: /assets/img/prefix_scan/prefix_scan.png
 importance: 1
+github: berkels/match-series
+paper1: 2020prefixsum
+paper1_description: Paper @ IEEE TPDS
 category: hpc
 ---
 
