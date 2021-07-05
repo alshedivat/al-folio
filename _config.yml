@@ -127,6 +127,7 @@ keep_files:
 
 # Plug-ins
 plugins:
+  - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-github-metadata
   - jekyll-paginate-v2
@@ -161,6 +162,14 @@ scholar:
   details_link: Details
 
   query: "@*"
+
+# -----------------------------------------------------------------------------
+# Jekyll Diagrams
+# -----------------------------------------------------------------------------
+
+jekyll-diagrams:
+    # configuration, see https://github.com/zhustec/jekyll-diagrams.
+    # feel free to comment out this section if not using jekyll diagrams.
 
 # -----------------------------------------------------------------------------
 # Optional Features
