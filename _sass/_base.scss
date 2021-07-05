@@ -23,6 +23,14 @@ a, table.table a {
   }
 }
 
+blockquote {
+  background: var(--global-bg-color);
+  border-left: 2px solid var(--global-theme-color);
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-size: 1.2rem;
+}
+
 // Math
 
 .equation {
