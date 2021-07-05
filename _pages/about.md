@@ -29,7 +29,7 @@ resource utilization and decrease monetary and environmental costs in data cente
 
 I obtained my Master's degree in Simulation Sciences from the [RWTH Aachen](https://www.rwth-aachen.de/) (Germany)
 where I worked on my Master thesis in the [HPAC Group](https://hpac.cs.umu.se/), supervised by
-[Prof. Paolo Bientinesi](https://hpac.cs.umu.se/~pauldj/).
+[Prof. Paolo Bientinesi](https://hpac.cs.umu.se/~pauldj/) and [Prof. Benjamin Berkels](https://www.aices.rwth-aachen.de/en/people/berkels).
 I obtained my Bachelor's degree in Computer Science from the
 [Silesian University of Technology](https://www.polsl.pl/en/Pages/Welcome.aspx) in Poland,
 where I had the opportunity to work at the [Institute of Theoretical and Applied Informatics, Polish Academy of Sciences](https://www.iitis.pl/en)
