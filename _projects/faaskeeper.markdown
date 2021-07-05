@@ -10,4 +10,4 @@ importance: 3
 category: serverless
 ---
 
-Comming soon!
+Coming soon!
