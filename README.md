@@ -234,6 +234,12 @@ If you have a different question, please ask using [Discussions](https://github.
    If you are deploying a project page to GitHub Pages, leave `url` blank and set `baseurl: /<your-project-name>/`.
    Generally, if you are deploying your webpage to `your-domain.com/your-project/`, you must set `url: your-domain.com` and `baseurl: /your-project/`.
 
+4. **Q:** Atom feed doesn't work. Why?
+   <br>
+   **A:** Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`.
+  RSS Feed plugin works with these correctly set up fields: `title`, `url`, `description` and `author`.
+  Make sure to fill them in an appropriate way and try again.
+
 ## Features
 
 ### Publications
@@ -343,6 +349,10 @@ This can be configured on a per-page basis, by setting the `og_image` page varia
 If for an individual page this variable is not set, then the theme will fall back to a site-wide `og_image` variable, configurable in your `_config.yml`.
 In both the page-specific and site-wide cases, the `og_image` variable needs to hold the URL for the image you wish to display in social media previews.
 
+#### Atom (RSS-like) Feed
+It generates an Atom (RSS-like) feed of your posts, useful for Atom and RSS readers.
+The feed is reachable simply by typing after your homepage `/feed.xml`.
+E.g. assuming your website mountpoint is the main folder, you can type `yourusername.github.io/feed.xml`
 
 ## Contributing
 
