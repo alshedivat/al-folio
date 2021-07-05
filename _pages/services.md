@@ -30,6 +30,38 @@ margin-top: 3rem;
   		</div> -->
 
   		<div class="col-sm-8">
+      			<div class="conference">Conference on Neural Information Processing Systems (<a href="https://nips.cc/" target="_blank">NeurIPS</a> 2021)</div>
+  		</div>
+	</div>
+	<div class="row">
+  		<!-- <div class="col-sm-2 abbr">
+    		<img width="100%" src="/assets/img/service/icml.webp">
+  		</div> -->
+
+  		<div class="col-sm-8">
+      			<div class="conference"> International Conference on Learning Representations (<a href="https://iclr.cc/" target="_blank">ICLR</a> 2021)</div>
+  		</div>
+	</div>
+
+	<div class="row">
+  		<!-- <div class="col-sm-2 abbr">
+    		<img width="100%" src="/assets/img/service/icml.webp">
+  		</div> -->
+
+  		<div class="col-sm-8">
+      			<div class="conference">Conference on Empirical Methods in Natural Language Processing (
+					  <a href="https://2021.emnlp.org/" target="_blank">EMNLP</a> 2021)</div>
+  		</div>
+	</div>
+	
+
+
+	<div class="row">
+  		<!-- <div class="col-sm-2 abbr">
+    		<img width="100%" src="/assets/img/service/icml.webp">
+  		</div> -->
+
+  		<div class="col-sm-8">
       			<div class="conference">International Conference on Machine Learning (<a href="https://icml.cc/" target="_blank">ICML</a> 2021)</div>
   		</div>
 	</div>
@@ -95,7 +127,7 @@ margin-top: 3rem;
   		</div> -->
 
   		<div class="col-sm-8">
-      			<div class="conference">Conference on Neural Information Processing Systems (<a href="https://nips.cc/" target="_blank">NeurIPS</a> 2019</div>
+      			<div class="conference">Conference on Neural Information Processing Systems (<a href="https://nips.cc/" target="_blank">NeurIPS</a> 2019)</div>
   		</div>
 	</div>
 	<div class="y"><h2 class="year">2018</h2></div>
