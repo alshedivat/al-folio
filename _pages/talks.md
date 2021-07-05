@@ -7,6 +7,13 @@ description:
 nav: true
 ---
 
+<!--Allow to jump to a specific publication and display it a little below top of page, allowing for a headerr-->
+<style>
+html {
+  scroll-padding-top: 100px;
+}
+</style>
+
 The list of talks, presentations, and public appearances.
 
 {:.no_toc}
