@@ -1,8 +1,8 @@
 ---
 layout: page
-title: serverless benchmark suite
+title: SeBS, the serverless benchmark suite
 description: Understanding performance challenges in the serverless world.
-img:
+img: /assets/img/sebs/benchmark_suite.png
 importance: 2
 category: serverless
 ---
