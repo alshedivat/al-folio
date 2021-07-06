@@ -13,7 +13,7 @@ footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme.
 
 icon: 🔥 # the emoji used as the favicon
-url: # the base hostname & protocol for your site
+url: https://georg.woelflein.eu # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 keywords: deep-learning, ai, ml, artificial-intelligence, machine-learning, digital-pathology # add your own keywords or leave empty
 lang: en
@@ -38,7 +38,7 @@ repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
