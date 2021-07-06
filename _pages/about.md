@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a Research Scientist in the Tetherless World Constellation at Rensselaer Polytechnic Institute, where I research and apply Semantic Web technologies in multidisciplinary domains for supporting more flexible, more efficient, and improved solutions in comparison with traditional approaches.
 
-My research interests include data integration, knowledge representation, domain-specific reasoning, and explainable artificial intelligence. I have over 10 years of experience working with Semantic Web technologies and I hold a Ph.D. in Applied Informatics from Universidade de Fortaleza, Brazil.
+My research interests include data integration, knowledge representation, domain-specific reasoning, and explainable artificial intelligence. I have over 10 years of experience working with Semantic Web technologies and I hold a Doctor of Science degree (D.Sc.) in Applied Informatics from Universidade de Fortaleza, Brazil.
 
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
