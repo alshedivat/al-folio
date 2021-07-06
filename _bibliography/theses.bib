@@ -1,0 +1,143 @@
+
+@article{2021handrick,
+  title={FaaStest collectives: reliable communication in serverless world},
+  author={Emir İşman},
+  year={2021},
+  journal = {Bachelor Thesis},
+  abstract = {
+    Since its inception, serverless functions have been deployed for many
+    different scenarios, yet there has been little research into performing ef-
+    fective collective operations with serverless functions. Ephemeral nature
+    of functions and the absence of native inter-function communication
+    present challenges for communication-heavy workloads. We investi-
+    gate the current state of the field on inter-function communication and
+    propose a design for tree-based collective operations. We evaluate our
+    design with different options for communication between functions that
+    include both shared storage based and network based solutions on a
+    serverless reduce prototype we have deployed on AWS Lambda.
+  }
+}
+
+@article{2021handrick,
+  title={Offloading serverless with sPIN.},
+  author={Konrad Handrick},
+  year={2021},
+  journal = {Bachelor Thesis},
+  html={https://www.research-collection.ethz.ch/handle/20.500.11850/484985},
+  note={Co-supervised with Salvatore di Girolamo.}
+}
+
+@article{2021luescher,
+  title={TaintImpact: Taint-Based Change Impact Analysis.},
+  author={Tobias Lüscher},
+  year={2021},
+  journal = {Bachelor Thesis},
+  html={https://www.research-collection.ethz.ch/handle/20.500.11850/488357},
+  abstract={
+    Code reviews are an essential part of software development. In order
+    to successfully perform code reviews, developers need to understand
+    the impact of code changes thoroughly. However, understanding this
+    impact is a notoriously difficult task. Therefore, we introduce TaintIm-
+    pact. TaintImpact supports developers in the task of code reviews by
+    showing the impact of a change. More specifically, TaintImpact starts
+    with a git commit and then computes an impact set of the change using
+    dynamic taint analysis. Further, we introduce dynamic blame, a tool
+    that extends git blame to not only show the commit that last modified
+    a given line, but also to show the commit that last impacted a given
+    line. We have evaluated TaintImpact on three artificially produced ex-
+    amples and on a real-world bug. The results show that TaintImpact
+    helps developers to focus their attention on parts of the code that are
+    not obviously impacted by a change. Further, comparing the impact
+    sets of different program configurations supports developers in find-
+    ing bugs in software changes.
+  }
+}
+
+@article{2021hartogs,
+  title={Code-driven Language Development: Framework for Analysis of C/C++ Open-Source Projects},
+  author={Siegfried Hartogs},
+  year={2021},
+  journal = {Bachelor Thesis},
+  html={https://www.research-collection.ethz.ch/handle/20.500.11850/480835},
+  abstract={
+    C++ has substantially grown during the last ten years and features such as move
+    semantics, parameter packs, and keywords such as constexpr have been added. Along
+    with that come guidelines to write correct and maintainable C++ code. While there
+    has been work describing the adoption of features in C++ code, they seem to typically
+    employ a specialized tool to analyze source code, making them inadequate to analyze
+    new language features in the future.
+    This thesis overcomes that limitation by building a framework that can be used to
+    write analyses on top of, be it to study new keywords or the adoption of programming
+    guidelines. We achieve this by leveraging Clang to provide us with the abstract syntax
+    tree (AST) of the input code. Our tool has the advantage that it is fit to analyze
+    upcoming features since future versions of Clang will parse the source code for us.
+    This simplifies research about the adoption of features by avoiding the technicalities
+    of parsing source code and should be accurate thanks to the rich representation of
+    C/C++ in the AST. We demonstrate the results of the tool by showing insights gained
+    about - among other features - the adoption of range-based loops, parameter packs,
+    and C++ Standard Library containers and algorithms.
+  }
+}
+
+@article{2021gygi,
+  title={CppBuild: Large-Scale, Automatic Build System for Open Source C++ Repositories},
+  author={Lukas Gygi},
+  year={2021},
+  journal = {Bachelor Thesis},
+  html={https://www.research-collection.ethz.ch/handle/20.500.11850/468831},
+  abstract={
+    A large collection of codebases can provide valuable insights into the
+    requirements and features of real-world applications of programming
+    language toolchains. In order to analyze C/C++ source-code and its
+    build process as well as the resulting binaries, the code repository has
+    to be downloaded, dependencies have to be installed and the build
+    process has to be executed. Today, there is no standardized way to
+    execute these steps, as they often differ from project to project. Our
+    goal is to automate these processes, by leveraging existing open source
+    repositories and continuous integration systems.
+    To do this, we extend the current version of FBACode (Fetch Build
+    Analyze Code), which uses Github repositories and Debian packages
+    as sources repositories. The tool downloads the code base, identifies
+    the used build system, attempts to install dependencies and builds the
+    packages using the Clang/LLVM toolchain.
+    As an output, the tool generates a wide range of statistics, for example
+    errors, compile time and installed dependencies, as well as Clang AST
+    files and LLVM IR for further analysis. The tools has a success rate of
+    82.8% for Debian packages and 41.9% of repositories with recognized
+    build systems from Github compiled successfully.
+  }
+}
+
+@article{2020wicki,
+  title={Control Flow Taint Analysis for Performance Modeling in LLVM},
+  author={Nicolas Wicki},
+  year={2020},
+  journal = {Bachelor Thesis},
+}
+
+@article{2019bomatter,
+  title={Towards Extreme-Scale Cache Coherence Protocols and Simulations},
+  author={Philipp J. Bomatter},
+  year={2019},
+  journal = {Bachelor Thesis},
+  abstract = {
+    Research in the field of high performance computing strives to opti-
+    mize large-scale computations, especially for scientific applications, to
+    the highest possible degree. The first step in the pursuit of this goal is
+    usually to acquire a profound understanding of the relevant underly-
+    ing mechanisms of the hardware. In this thesis, we focus on memory
+    accesses and cache architectures along with scalable cache coherence
+    protocols. Caches are often critical for performance but performance
+    estimations become increasingly complex at large scales. To address
+    this challenge, we focus on the development and the design of a simu-
+    lation framework for large-scale cache coherent systems along with the
+    theoretical work. As simulations in many other settings, cache coher-
+    ence simulations can provide new insights and open up a way to under-
+    stand the complex workings of cache coherence. Concretely, we extend
+    the current version of LogGOPSim, an established lightweight simu-
+    lation infrastructure, with the functionalities to simulate memory ac-
+    cesses and distributed directory-based cache coherence schemes. Our
+    work can facilitate the developent of future cache coherence protocols
+    and architectures.
+  }
+}
