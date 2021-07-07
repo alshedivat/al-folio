@@ -5,7 +5,7 @@ orbs:
 jobs:
   build:
     docker:
-      - image: circleci/ruby:3-buster-node
+      - image: cimg/ruby:3.0
     steps:
       - checkout
       - run:
