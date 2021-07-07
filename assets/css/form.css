@@ -1,0 +1,69 @@
+html {
+    height: 100%;
+}
+
+.tab-bar {
+    width: 100%;
+}
+
+.tab {
+    margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    align-items: stretch;
+}
+
+.login-box {
+    width: 100%;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.login-box h2 {
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    background: transparent;
+}
+
+.font {
+    font-size: 16px;
+}
+
+.login-box .user-box label {
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000000;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
