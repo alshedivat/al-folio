@@ -71,7 +71,7 @@ contact_note: >
   <!--
   You can even add a little note about which of these is the best way to reach you.-->
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: UA-106834427-1 # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
@@ -177,7 +177,7 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true   # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_mansory:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
