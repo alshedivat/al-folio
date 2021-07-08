@@ -8,7 +8,7 @@ middle_name:
 last_name: Ibrahimzada
 email: aliibrahimzada@marun.edu.tr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  The official webpage of Ali Reza Ibrahimzada, Department of Computer Engineering, Marmara University
 footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
@@ -64,7 +64,7 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 
 contact_note: >
-  It is best to reach me through twitter.
+  Preferred communications are twitter and email.
 
 google_analytics: UA-G-52VDTJ9F0P # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
