@@ -12,7 +12,6 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 icon: 🔥 # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
@@ -66,7 +65,7 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  It is best to reach me through twitter.
 
 google_analytics: UA-G-52VDTJ9F0P # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
@@ -75,8 +74,8 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: Ali's Blog  # your blog must have a name for it to show up in the nav bar
+blog_description: I write blog posts from time to time, check it out.
 permalink: /blog/:year/:title/
 
 # Pagination
