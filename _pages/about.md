@@ -2,23 +2,24 @@
 layout: about
 title: about
 permalink: /
-description: Description will be added
+description: <i>aliibrahimzada@marun.edu.tr</i>
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
+    <br>
+    <p>Address:</p>
     <p>Marmara University</p>
     <p>Goztepe 34722, Kadikoy</p>
     <p>Istanbul, Turkey</p>
 
+education: true
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a senior student in the <a href="http://cse.eng.marmara.edu.tr/en" target="blank">Department of Computer Engineering</a> at <a href="https://www.marmara.edu.tr/en" target="blank">Marmara University</a>, Istanbul, Turkey. I love doing research in the fields of Machine Learning, Software Engineering, and Natural Language Processing. This summer I am doing my internship at the <a href="https://www.illinois.edu" target="blank">University of Illinois Urbana Champaign</a>, IL, USA under the supervision of <a href="https://reyhaneh.cs.illinois.edu/" target="blank">Dr. Reyhaneh Jabbarvand</a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am also a member of <a href="https://www.itu.edu.tr/en/homepage" target="blank">Istanbul Technical University's</a> <a href="https://bioinformatics.itu.edu.tr/" target="blank">Bioinformatics and Databases Lab</a>, where I am working with <a href="https://web.itu.edu.tr/alicakmak/" target="blank">Dr. Ali Cakmak</a> on applications of machine learning in different domains. More specifically, we develop computational models and automated analysis methods for biological data. Moreover, we develop data mining and management algorithms to automatically predict variety of data pieces in diverse applications that range from predicting students' academic success to classification of living organisms.

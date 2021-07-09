@@ -1,0 +1,27 @@
+<div class="education">
+    <h2>education</h2>
+    {% if site.education  %}
+      <div class="table-responsive">
+        <table class="table table-sm table-borderless">
+        {% assign education = site.education | reverse %}
+        {% for item in education limit: site.education_limit %}
+          <tr>
+            <th>
+                <img style="border-radius: 50%;" src="{{ item.logo | prepend: '/assets/img/' | relative_url }}" width="80" height="80">
+            </th>
+            <td style="vertical-align: middle;">
+              {% if item.inline %}
+                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {% else %}
+                <a class="education-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+        </table>
+      </div>
+    {% else %}
+      <p>No data so far...</p>
+    {% endif %}
+  </div>
+  

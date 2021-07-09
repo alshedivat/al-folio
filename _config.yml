@@ -89,6 +89,11 @@ disqus_shortname: alibrahimzada # put your disqus shortname
 # -----------------------------------------------------------------------------
 
 collections:
+  education:
+    defaults:
+      layout: post
+    output: true
+    permalink: /education/:path/
   news:
     defaults:
       layout: post
@@ -99,6 +104,7 @@ collections:
     permalink: /projects/:path/
 
 news_limit: 5
+education_limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

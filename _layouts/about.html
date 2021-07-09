@@ -29,6 +29,10 @@ layout: default
       {{ content }}
     </div>
 
+    {% if page.education %}
+      {% include education.html %}
+    {% endif %}
+
     {% if page.news %}
       {% include news.html %}
     {% endif %}
