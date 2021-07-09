@@ -4,7 +4,7 @@
 
 <title>
 {% if site.title == "blank" %}
-  {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+  {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{% if site.degree != "blank" %}, {{ site.degree }}{% endif %}
 {% else %}
   {{ site.title }}
 {% endif %}
