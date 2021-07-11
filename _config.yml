@@ -151,11 +151,11 @@ github: [metadata]
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags]
+  enabled: [year, tags, categories]
   layouts:
     year: year-archive
     tag: tag-archive
-    #category: category-archive
+    category: category-archive
   permalinks:
     year: '/:year/'
     tag: '/tag/:name/'
