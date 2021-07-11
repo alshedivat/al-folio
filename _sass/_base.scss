@@ -19,6 +19,14 @@ a, table.table a {
   }
 }
 
+blockquote {
+  background: var(--global-bg-color);
+  border-left: 2px solid var(--global-theme-color);
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-size: 1.2rem;
+}
+
 // Math
 
 .equation {
@@ -50,7 +58,6 @@ a, table.table a {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
-    font-size: 1.2rem;
     p {
       display: inline-block;
       margin: 0;
@@ -295,47 +302,38 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .card {
+    img {
+      width: 100%;
+    }
+    .card-title {
+      color: $black-color;
+    }
+  }
+
   .card-item {
     width: auto;
     margin-bottom: 10px;
 
-    a {
-      text-decoration: none;
-    }
-
     .row {
       display: flex;
       align-items: center;
-    }
-
-    .card {
-      img {
-        width: 100%;
-      }
     }
   }
 
   .grid-item {
     width: 250px;
     margin-bottom: 10px;
-
-    a {
-      color: black;
-      text-decoration: none;
-
-      &:hover {
-        color: var(--global-theme-color);
-      }
-    }
-
-    .card {
-      img {
-        width: 100%;
-      }
-      .card-title {
-        color: $black-color;
-      }
-    }
   }
 
   h2.category {

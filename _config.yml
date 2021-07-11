@@ -21,6 +21,12 @@ last_updated: false # set to true if you want to display last updated in the foo
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
+# RSS Feed
+# -----------------------------------------------------------------------------
+# will use title and url fields
+# Take a look to https://github.com/jekyll/jekyll-feed for more customization
+
+# -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
@@ -57,6 +63,7 @@ blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
+dblp_url: # your DBLP profile url
 
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
@@ -130,6 +137,7 @@ plugins:
   - jekyll-archives
   - jekyll-email-protect
   - jekyll-github-metadata
+  - jekyll-feed
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-twitter-plugin
@@ -147,7 +155,7 @@ jekyll-archives:
   layouts:
     year: year-archive
     tag: tag-archive
-    #category: category-archive    
+    #category: category-archive
   permalinks:
     year: '/:year/'
     tag: '/tag/:name/'
@@ -193,6 +201,7 @@ enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
+enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 
 # -----------------------------------------------------------------------------
 # Library versions
@@ -225,3 +234,6 @@ mdb:
 popper:
   version: "2.4.4"
   integrity: "sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A=="
+medium_zoom:
+  version: "1.0.6"
+  integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="
