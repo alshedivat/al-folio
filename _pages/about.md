@@ -24,4 +24,4 @@ My latest research focuses on applications of data visualization in neuroscience
 
 I hold an M.Sc. in visual computing and a B.Sc. in medical informatics from [TU Wien](https://www.tuwien.at/en/). During my studies, I had some fantastic opportunities to conduct research abroad. For my master thesis research, I visited the [Visual Computing Group](https://vcg.seas.harvard.edu/) at Harvard University. Before that, I was interning in Markus Hadwiger’s [High-Performance Visualization Group](http://vccvisualization.org/) at [KAUST](https://www.kaust.edu.sa/en) and [Brainlab](https://www.brainlab.com/), Munich.
 I was born and raised in the beautiful town [Regensburg](https://en.wikipedia.org/wiki/Regensburg) in Germany. So you can talk to me in English or German.
-Download my full CV [here](/al-folio/assets/pdf/CV_Troidl.pdf).
+Download my full CV [here](/assets/pdf/CV_Troidl.pdf).
