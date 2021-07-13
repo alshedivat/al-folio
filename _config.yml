@@ -135,13 +135,22 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-archives
+  - jekyll-feed
+  - jekyll-sitemap
   - jekyll-email-protect
   - jekyll-github-metadata
-  - jekyll-feed
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-twitter-plugin
   - jemoji
+
+# Sitemap settings
+defaults:
+  -
+    scope:
+      path:            "assets/**/*.*"
+    values:
+      sitemap:         false
 
 # Extras
 github: [metadata]
