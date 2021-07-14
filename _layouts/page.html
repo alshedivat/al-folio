@@ -53,6 +53,14 @@ layout: default
             </a>
           </li>
         {% endif %}
+
+        {% if page.docker %}
+          <li>
+            <a href="https://hub.docker.com/r/{{page.docker}}" title="docker" target="_blank" rel="nofollow">
+              <i class="fab fa-docker"></i><span>{{page.docker}}</span>
+            </a>
+          </li>
+        {% endif %}
       </ul>
       </div>
     {% endif %}
