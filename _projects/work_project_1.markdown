@@ -1,11 +1,13 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: /assets/img/3.jpg
-importance: 2
+title: Smart Advisor
+description: CS350 - Database Systems Project from Spring 2020
+img: /assets/img/12.jpg
+importance: 1
 category: work
 ---
+
+Based on their skills and interests, students’ success in courses may differ greatly. Predicting student success in courses before they take them may be important. For instance, students may choose elective courses that they are likely to pass with good grades. Besides, instructors may have an idea about the expected success of students in a class, and may restructure the course organization accordingly. Instructors can also follow their students' performance and track their graduation progress. In this project, we implement a web-based application interface for students and instructors to process and manage analysis efficiently. An efficient and robust Database Management System is implemented for better management and handling of data.
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
