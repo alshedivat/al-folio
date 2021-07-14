@@ -9,6 +9,7 @@ paper1: 2019perftaint
 paper1_description: Poster @ SC 2019
 paper2: 2021perftaint
 paper2_description: Paper @ PPoPP 2021
+docker: spcleth/perf-taint
 importance: 1
 category: program analysis
 ---
