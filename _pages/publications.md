@@ -18,7 +18,7 @@ nav: true
 </div>
 
 <div class="publications">
-<h2>manuscripts under revision</h2>
+<h2>manuscripts under review</h2>
 {% for y in page.years_rev %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers_revision -q @*[year={{y}}]* %}
