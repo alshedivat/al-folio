@@ -135,7 +135,9 @@ mcopik@mcopik-ThinkPad-T480s ls -l input-data
 -rw-r--r-- 1 mcopik mcopik 0 Dec 24 21:35 write_file
 ```
 
-This solution is not perfect by any means - the process is executing as a non-root
+This solution is not perfect by any means - it works as long as the user ID on the host
+and inside the container match. 
+Furthermore, the process is executing as a non-root
 user, leading to a scenario where we can't modify the container's virtual filesystem
 freely. But we achieved a situation that is entirely sufficient for many scenarios: we can
 inspect container processes from the host, and all files and directories created 
