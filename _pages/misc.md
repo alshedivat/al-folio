@@ -45,6 +45,12 @@ lesson from this talk: practice paper-driven research by beginning with a paper 
 as explaining the idea helps to find key challenges and weaknesses and quickly identify
 which ideas are worth working on.
 
+* [How to Give a Great Research Talk](https://www.youtube.com/watch?v=sT_-owjKIbA)
+another great talk by Simon Peyton Jones.
+The most important lesson from this talk: focus on one key message, present it very deeply and with
+many details, use examples to drive the narrative, and omit other details from the paper.
+The audience should remember the one major contribution of your work.
+
 ## history
 
 * [(Podcast) The History of Rome](https://en.wikipedia.org/wiki/The_History_of_Rome_(podcast)) - an excellent
