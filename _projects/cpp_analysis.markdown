@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Open Source C++ Analysis
+title: Analysis of Open Source C++ World
 description: Analyzing how the open-source community works with C++.
 img:
 github: todo
