@@ -20,6 +20,9 @@ Coming soon! Students, thesses ideas, active theses.
 
 ### Open Thesis Topics
 
+For open thesis topics, [see our SPCL website](https://spcl.inf.ethz.ch/SeMa/) (available only
+in the ETH network).
+
 ### Active Theses
 
 <div class="publications">
