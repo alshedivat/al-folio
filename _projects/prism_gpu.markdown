@@ -41,7 +41,7 @@ Nevertheless, a model checker will benefit from a fast and easy-to-use statistic
   <a href="https://www.prismmodelchecker.org/tutorial/die.php">Source of the image</a>.
 </div>
 
-The example presented above is a DTMC model written in the PRISM language.
+The example presented above is a DTMC model written in the PRISM language ([see PRISM website for full discussion](https://www.prismmodelchecker.org/tutorial/die.php)).
 It simulates throwing a 6-side dice by using only coin throw with 50% probability.
 In the end, reaching each value of `d` has exactly one chance in 6.
 The **state** of the model is a composition of all variables, and the commands describe transitions.
