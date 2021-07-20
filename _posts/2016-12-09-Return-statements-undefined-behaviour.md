@@ -121,9 +121,12 @@ bad_function(false);
 
 To understand what GCC may have been doing with my obviously incorrect code, I used [Compiler Explorer](https://godbolt.org/), an online tool allowing to compare C++ code with generated assembly by displaying matching sections in the same colour. I have simplified the problem to [a function which is supposed to return one of the most common STL types](https://godbolt.org/g/KYPWnD).
 
+<div style="vertical-align:middle; text-align:center">
+  <a href="/assets/img/blogposts/2016_12_compiler_explorer.png">
+    <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/blogposts/2016_12_compiler_explorer.png' | relative_url }}" alt="" title="Compiler explorer."/>
+  </a>
+</div>
 <figure>
-<a href="/images/2016_12/compiler_explorer.png"><img src="/images/2016_12/compiler_explorer.png" alt="image"></a>
-</figure>
 
 No vector is constructed but line 20 on assembly listing indicates a call to vector destructor! This is a clear prescription for disaster widely known as a segmentation fault. At least we know what happens in this case, but there is no *general* case for undefined behaviours.
 
