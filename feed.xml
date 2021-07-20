@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://edes0830.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://edes0830.github.io/" rel="alternate" type="text/html" /><updated>2021-07-20T05:09:10+00:00</updated><id>https://edes0830.github.io/feed.xml</id><title type="html">Edes’s Development Note</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">a distill-style blog post</title><link href="https://edes0830.github.io/blog/2021/distill/" rel="alternate" type="text/html" title="a distill-style blog post" /><published>2021-05-22T00:00:00+00:00</published><updated>2021-05-22T00:00:00+00:00</updated><id>https://edes0830.github.io/blog/2021/distill</id><content type="html" xml:base="https://edes0830.github.io/blog/2021/distill/">&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt;
+Citations, footnotes, and code blocks do not display correctly in the dark mode since distill does not support the dark mode by default.
+If you are interested in correctly adding dark mode support for distill, please open &lt;a href=&quot;https://github.com/alshedivat/al-folio/discussions&quot;&gt;a discussion&lt;/a&gt; and let us know.&lt;/p&gt;
+
+&lt;h2 id=&quot;equations&quot;&gt;Equations&lt;/h2&gt;
+
+&lt;p&gt;This theme supports rendering beautiful math in inline and display modes using &lt;a href=&quot;https://www.mathjax.org/&quot; target=&quot;\_blank&quot;&gt;MathJax 3&lt;/a&gt; engine.
+You just need to surround your math expression with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$&lt;/code&gt;, like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$ E = mc^2 $$&lt;/code&gt;.
+If you leave it inside a paragraph, it will produce an inline expression, just like \(E = mc^2\).&lt;/p&gt;
+
+&lt;p&gt;To use display mode, again surround your expression with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$&lt;/code&gt; and place it as a separate paragraph.
+Here is an example:&lt;/p&gt;
+
+\[\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)\]
+
+&lt;p&gt;Note that MathJax 3 is &lt;a href=&quot;https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html&quot; target=&quot;\_blank&quot;&gt;a major re-write of MathJax&lt;/a&gt; that brought a significant improvement to the loading and rendering speed, which is now &lt;a href=&quot;http://www.intmath.com/cg5/katex-mathjax-comparison.php&quot; target=&quot;\_blank&quot;&gt;on par with KaTeX&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;citations&quot;&gt;Citations&lt;/h2&gt;
+
+&lt;p&gt;Citations are then used in the article body with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;d-cite&amp;gt;&lt;/code&gt; tag.
+The key attribute is a reference to the id provided in the bibliography.
+The key attribute can take multiple ids, separated by commas.&lt;/p&gt;
+
+&lt;p&gt;The citation is presented inline like this: &lt;d-cite key=&quot;gregor2015draw&quot;&gt;&lt;/d-cite&gt; (a number that displays more information on hover).
+If you have an appendix, a bibliography is automatically created and populated in it.&lt;/p&gt;
+
+&lt;p&gt;Distill chose a numerical inline citation style to improve readability of citation dense articles and because many of the benefits of longer citations are obviated by displaying more information on hover.
+However, we consider it good style to mention author last names if you discuss something at length and it fits into the flow well — the authors are human and it’s nice for them to have the community associate them with their work.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h2&gt;
+
+&lt;p&gt;Just wrap the text you would like to show up in a footnote in a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;d-footnote&amp;gt;&lt;/code&gt; tag.
+The number of the footnote will be automatically generated.&lt;d-footnote&gt;This will become a hoverable footnote.&lt;/d-footnote&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;code-blocks&quot;&gt;Code Blocks&lt;/h2&gt;
+
+&lt;p&gt;Syntax highlighting is provided within &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;d-code&amp;gt;&lt;/code&gt; tags.
+An example of inline code snippets: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;d-code language=&quot;html&quot;&amp;gt;let x = 10;&amp;lt;/d-code&amp;gt;&lt;/code&gt;.
+For larger blocks of code, add a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;block&lt;/code&gt; attribute:&lt;/p&gt;
+
+&lt;d-code block=&quot;&quot; language=&quot;javascript&quot;&gt;
+  var x = 25;
+  function(x) {
+    return x * x;
+  }
+&lt;/d-code&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;d-code&amp;gt;&lt;/code&gt; blocks do not look well in the dark mode.
+You can always use the default code-highlight using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;highlight&lt;/code&gt; liquid tag:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;layouts&quot;&gt;Layouts&lt;/h2&gt;
+
+&lt;p&gt;The main text column is referred to as the body.
+It is the assumed layout of any direct descendants of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;d-article&lt;/code&gt; element.&lt;/p&gt;
+
+&lt;div class=&quot;fake-img l-body&quot;&gt;
+  &lt;p&gt;.l-body&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For images you want to display a little larger, try &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.l-page&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;fake-img l-page&quot;&gt;
+  &lt;p&gt;.l-page&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;All of these have an outset variant if you want to poke out from the body text a little bit.
+For instance:&lt;/p&gt;
+
+&lt;div class=&quot;fake-img l-body-outset&quot;&gt;
+  &lt;p&gt;.l-body-outset&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;fake-img l-page-outset&quot;&gt;
+  &lt;p&gt;.l-page-outset&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Occasionally you’ll want to use the full browser width.
+For this, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.l-screen&lt;/code&gt;.
+You can also inset the element a little from the edge of the browser by using the inset variant.&lt;/p&gt;
+
+&lt;div class=&quot;fake-img l-screen&quot;&gt;
+  &lt;p&gt;.l-screen&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;fake-img l-screen-inset&quot;&gt;
+  &lt;p&gt;.l-screen-inset&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The final layout is for marginalia, asides, and footnotes.
+It does not interrupt the normal flow of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.l-body&lt;/code&gt; sized text except on mobile screen sizes.&lt;/p&gt;
+
+&lt;div class=&quot;fake-img l-gutter&quot;&gt;
+  &lt;p&gt;.l-gutter&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Emphasis, aka italics, with &lt;em&gt;asterisks&lt;/em&gt; or &lt;em&gt;underscores&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Strong emphasis, aka bold, with &lt;strong&gt;asterisks&lt;/strong&gt; or &lt;strong&gt;underscores&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Combined emphasis with &lt;strong&gt;asterisks and &lt;em&gt;underscores&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Strikethrough uses two tildes. &lt;del&gt;Scratch this.&lt;/del&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First ordered list item&lt;/li&gt;
+  &lt;li&gt;Another item
+⋅⋅* Unordered sub-list.&lt;/li&gt;
+  &lt;li&gt;Actual numbers don’t matter, just that it’s a number
+⋅⋅1. Ordered sub-list&lt;/li&gt;
+  &lt;li&gt;And another item.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we’ll use three here to also align the raw Markdown).&lt;/p&gt;
+
+&lt;p&gt;⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
+⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Unordered list can use asterisks&lt;/li&gt;
+  &lt;li&gt;Or minuses&lt;/li&gt;
+  &lt;li&gt;Or pluses&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.google.com&quot;&gt;I’m an inline-style link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.google.com&quot; title=&quot;Google's Homepage&quot;&gt;I’m an inline-style link with title&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.mozilla.org&quot;&gt;I’m a reference-style link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;../blob/master/LICENSE&quot;&gt;I’m a relative reference to a repository file&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://slashdot.org&quot;&gt;You can use numbers for reference-style link definitions&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Or leave it empty and use the &lt;a href=&quot;http://www.reddit.com&quot;&gt;link text itself&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;URLs and URLs in angle brackets will automatically get turned into links. 
+http://www.example.com or &lt;a href=&quot;http://www.example.com&quot;&gt;http://www.example.com&lt;/a&gt; and sometimes 
+example.com (but not on Github, for example).&lt;/p&gt;
+
+&lt;p&gt;Some text to show that the reference links can follow later.&lt;/p&gt;
+
+&lt;p&gt;Here’s our logo (hover to see the title text):&lt;/p&gt;
+
+&lt;p&gt;Inline-style: 
+&lt;img src=&quot;https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Reference-style: 
+&lt;img src=&quot;https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Inline &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;code&lt;/code&gt; has &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;back-ticks around&lt;/code&gt; it.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;JavaScript syntax highlighting&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Python syntax highlighting&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;No language indicated, so no syntax highlighting. 
+But let's throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Colons can be used to align columns.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Tables&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Are&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Cool&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;col 3 is&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;right-aligned&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$1600&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;col 2 is&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;centered&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;zebra stripes&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;are neat&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don’t need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Markdown&lt;/th&gt;
+      &lt;th&gt;Less&lt;/th&gt;
+      &lt;th&gt;Pretty&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Still&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;renders&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;nicely&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Blockquotes are very handy in email to emulate reply text.
+This line is part of the same quote.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Quote break.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a very long line that will still be quoted properly when it wraps. Oh boy let’s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can &lt;em&gt;put&lt;/em&gt; &lt;strong&gt;Markdown&lt;/strong&gt; into a blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Three or more…&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Hyphens&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Asterisks&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Underscores&lt;/p&gt;
+
+&lt;p&gt;Here’s a line for us to start with.&lt;/p&gt;
+
+&lt;p&gt;This line is separated from the one above by two newlines, so it will be a &lt;em&gt;separate paragraph&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;This line is also a separate paragraph, but…
+This line is only separated by a single newline, so it’s a separate line in the &lt;em&gt;same paragraph&lt;/em&gt;.&lt;/p&gt;</content><author><name>Albert Einstein</name></author><summary type="html">NOTE: Citations, footnotes, and code blocks do not display correctly in the dark mode since distill does not support the dark mode by default. If you are interested in correctly adding dark mode support for distill, please open a discussion and let us know.</summary></entry><entry><title type="html">a post with github metadata</title><link href="https://edes0830.github.io/blog/2020/github-metadata/" rel="alternate" type="text/html" title="a post with github metadata" /><published>2020-09-28T21:01:00+00:00</published><updated>2020-09-28T21:01:00+00:00</updated><id>https://edes0830.github.io/blog/2020/github-metadata</id><content type="html" xml:base="https://edes0830.github.io/blog/2020/github-metadata/">&lt;p&gt;A sample blog page that demonstrates the accessing of github meta data.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-does-github-metadata-do&quot;&gt;What does Github-MetaData do?&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Propagates the site.github namespace with repository metadata&lt;/li&gt;
+  &lt;li&gt;Setting site variables :
+    &lt;ul&gt;
+      &lt;li&gt;site.title&lt;/li&gt;
+      &lt;li&gt;site.description&lt;/li&gt;
+      &lt;li&gt;site.url&lt;/li&gt;
+      &lt;li&gt;site.baseurl&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Accessing the metadata - duh.&lt;/li&gt;
+  &lt;li&gt;Generating edittable links.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;additional-reading&quot;&gt;Additional Reading&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;If you’re recieving incorrect/missing data, you may need to perform a Github API&lt;a href=&quot;https://github.com/jekyll/github-metadata/blob/master/docs/authentication.md&quot;&gt; authentication&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Go through this &lt;a href=&quot;https://jekyll.github.io/github-metadata/&quot; target=&quot;blank&quot;&gt;README&lt;/a&gt; for more details on the topic.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jekyll/github-metadata/blob/master/docs/site.github.md&quot;&gt;This page&lt;/a&gt; highlights all the feilds you can access with github-metadata.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;example-metadata&quot;&gt;Example MetaData&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Host Name :&lt;/li&gt;
+  &lt;li&gt;URL :&lt;/li&gt;
+  &lt;li&gt;BaseURL :&lt;/li&gt;
+  &lt;li&gt;Archived :&lt;/li&gt;
+  &lt;li&gt;Contributors :&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">A sample blog page that demonstrates the accessing of github meta data. What does Github-MetaData do? Propagates the site.github namespace with repository metadata Setting site variables : site.title site.description site.url site.baseurl Accessing the metadata - duh. Generating edittable links. Additional Reading If you’re recieving incorrect/missing data, you may need to perform a Github API authentication. Go through this README for more details on the topic. This page highlights all the feilds you can access with github-metadata. Example MetaData Host Name : URL : BaseURL : Archived : Contributors :</summary></entry><entry><title type="html">a post with twitter</title><link href="https://edes0830.github.io/blog/2020/twitter/" rel="alternate" type="text/html" title="a post with twitter" /><published>2020-09-28T15:12:00+00:00</published><updated>2020-09-28T15:12:00+00:00</updated><id>https://edes0830.github.io/blog/2020/twitter</id><content type="html" xml:base="https://edes0830.github.io/blog/2020/twitter/">&lt;p&gt;A sample blog page that demonstrates the inclusion of Tweets/Timelines/etc.&lt;/p&gt;
+
+&lt;h1 id=&quot;tweet&quot;&gt;Tweet&lt;/h1&gt;
+&lt;p&gt;An example of displaying a tweet:&lt;/p&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;sv&quot; dir=&quot;ltr&quot;&gt;jekyll-twitter-plugin (1.0.0): A Liquid tag plugin for Jekyll that renders Tweets from Twitter API &lt;a href=&quot;http://t.co/m4EIQPM9h4&quot;&gt;http://t.co/m4EIQPM9h4&lt;/a&gt;&lt;/p&gt;&amp;mdash; RubyGems (@rubygems) &lt;a href=&quot;https://twitter.com/rubygems/status/518821243320287232?ref_src=twsrc%5Etfw&quot;&gt;October 5, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;timeline&quot;&gt;Timeline&lt;/h1&gt;
+&lt;p&gt;An example of pulling from a timeline:&lt;/p&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;a class=&quot;twitter-timeline&quot; data-width=&quot;500&quot; data-tweet-limit=&quot;3&quot; href=&quot;https://twitter.com/jekyllrb?ref_src=twsrc%5Etfw&quot;&gt;Tweets by jekyllrb&lt;/a&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;additional-details&quot;&gt;Additional Details&lt;/h1&gt;
+&lt;p&gt;For more details on using the plugin visit: &lt;a href=&quot;https://github.com/rob-murray/jekyll-twitter-plugin&quot; target=&quot;\_blank&quot;&gt;jekyll-twitter-plugin&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">A sample blog page that demonstrates the inclusion of Tweets/Timelines/etc. Tweet An example of displaying a tweet: jekyll-twitter-plugin (1.0.0): A Liquid tag plugin for Jekyll that renders Tweets from Twitter API http://t.co/m4EIQPM9h4&amp;mdash; RubyGems (@rubygems) October 5, 2014 Timeline An example of pulling from a timeline: Tweets by jekyllrb Additional Details For more details on using the plugin visit: jekyll-twitter-plugin</summary></entry><entry><title type="html">a post with comments</title><link href="https://edes0830.github.io/blog/2015/comments/" rel="alternate" type="text/html" title="a post with comments" /><published>2015-10-20T15:59:00+00:00</published><updated>2015-10-20T15:59:00+00:00</updated><id>https://edes0830.github.io/blog/2015/comments</id><content type="html" xml:base="https://edes0830.github.io/blog/2015/comments/">&lt;p&gt;This post shows how to add DISQUS comments.&lt;/p&gt;</content><author><name></name></author><summary type="html">This post shows how to add DISQUS comments.</summary></entry><entry><title type="html">a post with math</title><link href="https://edes0830.github.io/blog/2015/math/" rel="alternate" type="text/html" title="a post with math" /><published>2015-10-20T15:12:00+00:00</published><updated>2015-10-20T15:12:00+00:00</updated><id>https://edes0830.github.io/blog/2015/math</id><content type="html" xml:base="https://edes0830.github.io/blog/2015/math/">&lt;p&gt;This theme supports rendering beautiful math in inline and display modes using &lt;a href=&quot;https://www.mathjax.org/&quot; target=&quot;\_blank&quot;&gt;MathJax 3&lt;/a&gt; engine. You just need to surround your math expression with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$&lt;/code&gt;, like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$ E = mc^2 $$&lt;/code&gt;. If you leave it inside a paragraph, it will produce an inline expression, just like \(E = mc^2\).&lt;/p&gt;
+
+&lt;p&gt;To use display mode, again surround your expression with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$&lt;/code&gt; and place it as a separate paragraph. Here is an example:&lt;/p&gt;
+
+\[\sum_{k=1}^\infty |\langle x, e_k \rangle|^2 \leq \|x\|^2\]
+
+&lt;p&gt;You can also use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\begin{equation}...\end{equation}&lt;/code&gt; instead of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$&lt;/code&gt; for display mode math.
+MathJax will automatically number equations:&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+\label{eq:caushy-shwarz}
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;and by adding &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\label{...}&lt;/code&gt; inside the equation environment, we can now refer to the equation using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\eqref&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Note that MathJax 3 is &lt;a href=&quot;https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html&quot; target=&quot;\_blank&quot;&gt;a major re-write of MathJax&lt;/a&gt; that brought a significant improvement to the loading and rendering speed, which is now &lt;a href=&quot;http://www.intmath.com/cg5/katex-mathjax-comparison.php&quot; target=&quot;\_blank&quot;&gt;on par with KaTeX&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">This theme supports rendering beautiful math in inline and display modes using MathJax 3 engine. You just need to surround your math expression with $$, like $$ E = mc^2 $$. If you leave it inside a paragraph, it will produce an inline expression, just like \(E = mc^2\).</summary></entry><entry><title type="html">a post with code</title><link href="https://edes0830.github.io/blog/2015/code/" rel="alternate" type="text/html" title="a post with code" /><published>2015-07-15T15:09:00+00:00</published><updated>2015-07-15T15:09:00+00:00</updated><id>https://edes0830.github.io/blog/2015/code</id><content type="html" xml:base="https://edes0830.github.io/blog/2015/code/">&lt;p&gt;This theme implements a built-in Jekyll feature, the use of Rouge, for syntax highlighting.
+It supports more than 100 languages.
+This example is in C++.
+All you have to do is wrap your code in a liquid tag:&lt;/p&gt;
+
+&lt;p&gt;{% highlight c++ linenos %}  &lt;br /&gt; code code code &lt;br /&gt; {% endhighlight %}&lt;/p&gt;
+
+&lt;p&gt;The keyword &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;linenos&lt;/code&gt; triggers display of line numbers.
+Produces something like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[])&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;input a string: &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;getline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+    &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;charArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;charArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;charArray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">This theme implements a built-in Jekyll feature, the use of Rouge, for syntax highlighting. It supports more than 100 languages. This example is in C++. All you have to do is wrap your code in a liquid tag:</summary></entry><entry><title type="html">a post with images</title><link href="https://edes0830.github.io/blog/2015/images/" rel="alternate" type="text/html" title="a post with images" /><published>2015-05-15T21:01:00+00:00</published><updated>2015-05-15T21:01:00+00:00</updated><id>https://edes0830.github.io/blog/2015/images</id><content type="html" xml:base="https://edes0830.github.io/blog/2015/images/">&lt;p&gt;This is an example post with image galleries.&lt;/p&gt;
+
+&lt;div class=&quot;row mt-3&quot;&gt;
+    &lt;div class=&quot;col-sm mt-3 mt-md-0&quot;&gt;
+        &lt;img class=&quot;img-fluid rounded z-depth-1&quot; src=&quot;/assets/img/9.jpg&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-sm mt-3 mt-md-0&quot;&gt;
+        &lt;img class=&quot;img-fluid rounded z-depth-1&quot; src=&quot;/assets/img/7.jpg&quot; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;caption&quot;&gt;
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+&lt;/div&gt;
+
+&lt;p&gt;Images can be made zoomable.
+Simply add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;data-zoomable&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;img&amp;gt;&lt;/code&gt; tags that you want to make zoomable.&lt;/p&gt;
+
+&lt;div class=&quot;row mt-3&quot;&gt;
+    &lt;div class=&quot;col-sm mt-3 mt-md-0&quot;&gt;
+        &lt;img class=&quot;img-fluid rounded z-depth-1&quot; src=&quot;/assets/img/8.jpg&quot; data-zoomable=&quot;&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-sm mt-3 mt-md-0&quot;&gt;
+        &lt;img class=&quot;img-fluid rounded z-depth-1&quot; src=&quot;/assets/img/10.jpg&quot; data-zoomable=&quot;&quot; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The rest of the images in this post are all zoomable, arranged into different mini-galleries.&lt;/p&gt;
+
+&lt;div class=&quot;row mt-3&quot;&gt;
+    &lt;div class=&quot;col-sm mt-3 mt-md-0&quot;&gt;
+        &lt;img class=&quot;img-fluid rounded z-depth-1&quot; src=&quot;/assets/img/11.jpg&quot; data-zoomable=&quot;&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-sm mt-3 mt-md-0&quot;&gt;
+        &lt;img class=&quot;img-fluid rounded z-depth-1&quot; src=&quot;/assets/img/12.jpg&quot; data-zoomable=&quot;&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-sm mt-3 mt-md-0&quot;&gt;
+        &lt;img class=&quot;img-fluid rounded z-depth-1&quot; src=&quot;/assets/img/7.jpg&quot; data-zoomable=&quot;&quot; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">This is an example post with image galleries.</summary></entry><entry><title type="html">a post with formatting and links</title><link href="https://edes0830.github.io/blog/2015/formatting-and-links/" rel="alternate" type="text/html" title="a post with formatting and links" /><published>2015-03-15T16:40:16+00:00</published><updated>2015-03-15T16:40:16+00:00</updated><id>https://edes0830.github.io/blog/2015/formatting-and-links</id><content type="html" xml:base="https://edes0830.github.io/blog/2015/formatting-and-links/">&lt;p&gt;Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. &lt;a href=&quot;https://www.pinterest.com&quot; target=&quot;blank&quot;&gt;Pinterest&lt;/a&gt; DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade &lt;a href=&quot;https://en.wikipedia.org/wiki/Cold-pressed_juice&quot; target=&quot;blank&quot;&gt;cold-pressed&lt;/a&gt; meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.&lt;/p&gt;
+
+&lt;h4 id=&quot;hipster-list&quot;&gt;Hipster list&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;brunch&lt;/li&gt;
+    &lt;li&gt;fixie&lt;/li&gt;
+    &lt;li&gt;raybans&lt;/li&gt;
+    &lt;li&gt;messenger bag&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90’s yr typewriter selfies letterpress cardigan vegan.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.&lt;/p&gt;
+
+&lt;blockquote&gt;
+    We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
+    —Anais Nin
+&lt;/blockquote&gt;
+
+&lt;p&gt;Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.&lt;/p&gt;</content><author><name></name></author><summary type="html">Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. Pinterest DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade cold-pressed meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</summary></entry></feed>
