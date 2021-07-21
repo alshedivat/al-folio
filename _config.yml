@@ -140,6 +140,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-twitter-plugin
+  - jekyll-sitemap
   - jemoji
 
 # Extras
