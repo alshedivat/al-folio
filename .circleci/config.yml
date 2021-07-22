@@ -25,7 +25,7 @@ jobs:
       - attach_workspace:
           at: .
       - aws-s3/sync:
-          arguments: '--delete --dryrun'
+          arguments: '--delete'
           from: ./_site/
           to: 's3://henriquesantosorg'
 
@@ -38,6 +38,6 @@ workflows:
           requires:
             - build
           context: aws-context
-#          filters:
-#            branches:
-#              only: master
+          filters:
+            branches:
+              only: master
