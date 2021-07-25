@@ -1,66 +1,83 @@
 ---
 ---
 
+{%- comment -%} <!-- 如果没有页面没有定义profile，则默认为余磊的英文名称 --> {%- endcomment -%}
+
+{% if page.profile.first_name %}
+  {% assign author_first_name = page.profile.first_name %}
+  {% assign author_last_name = page.profile.last_name %}
+  {% assign is_prof_yu = false%}
+{% else %}
+  {% assign author_first_name = site.scholar.first_name %}
+  {% assign author_last_name = site.scholar.last_name %}
+  {% assign is_prof_yu = true%}
+{% endif %}
+
+
+{%- comment -%} 判断是否有自己的名字在论文中 {%- endcomment -%}
+{% assign author_is_in = false %}
+  {% for author in entry.author_array %}  
+          {% if author.last == author_last_name && ~author_is_in%}
+            {% if author_first_name contains author.first && ~author_is_in%}
+              {% assign author_is_in = true %}
+            {% endif %}
+          {% endif %}
+  {% endfor %}
+
+{% assign corresponding_tag = ""%}
+{% if entry.iscor %}
+  {% if is_prof_yu %}
+    {% assign corresponding_tag = " ✉️"%}
+  {%endif%}
+{% endif %}
+
+{%- comment -%} {% assign sorted_entry = entry | sort: "year" %} {%- endcomment -%}
+
+
+{% if author_is_in %}
+
 <div class="row">
-  <div class="col-sm-2 abbr">
-  {% if entry.abbr %}
+  <div class="col-sm-3">
+  {%- comment -%} {% if entry.abbr %}
     {% if site.data.venues[entry.abbr] %}
     <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
     {% else %}
     <abbr class="badge">{{entry.abbr}}</abbr>
     {% endif %}
+  {% endif %} {%- endcomment -%}
+  {% if entry.img %}
+    <img class="img-fluid" src="{{ entry.img | prepend: '/assets/img/' | relative_url }}">
   {% endif %}
   </div>
 
-  <div id="{{entry.key}}" class="col-sm-8">
-    {% if entry.type == "thesis" %}
-      {{reference}}
-    {% else %}
-      <div class="title">{{entry.title}}</div>
-      <div class="author">
+<div id="{{entry.key}}" class="col-sm-9">
+    <div class="title">{{entry.title}}</div>
+    <div class="author">  
         {% for author in entry.author_array %}
           {% assign author_is_self = false %}
-          {% if author.last == site.scholar.last_name%}
-            {% if site.scholar.first_name contains author.first%}
+          {% if author.last == author_last_name%}
+            {% if author_first_name contains author.first%}
               {% assign author_is_self = true %}
             {% endif %}
           {% endif %}
-          {% assign coauthor_url = nil %}
-          {% if site.data.coauthors[author.last] %}
-            {% for coauthor in site.data.coauthors[author.last] %}
-              {% if coauthor.firstname contains author.first %}
-                {% assign coauthor_url = coauthor.url %}
-                {% break %}
-              {% endif %}
-            {% endfor %}
-          {% endif %}
-          
           {% if forloop.length == 1 %}
             {% if author_is_self %}
-              <em>{{author.last}}, {{author.first}}</em>
+              <b>{{author.last}} {{author.first}}{{corresponding_tag}}</b>
             {% else %}
-              {{author.last}}, {{author.first}}
+              <font color="#808080">{{author.last}} {{author.first}}</font>
             {% endif %}
           {% else %}
             {% unless forloop.last %}
               {% if author_is_self %}
-                <em>{{author.last}}, {{author.first}}</em>,
+                  <b>{{author.last}} {{author.first}}{{corresponding_tag}},</b> 
               {% else %}
-                {% if coauthor_url %}
-                  <a href="{{coauthor_url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
-                {% else %}
-                  {{author.last}}, {{author.first}},
-                {% endif %}
+                  <font color="#808080">{{author.last}} {{author.first}}</font>,
               {% endif %}
             {% else %}
               {% if author_is_self %}
-                and <em>{{author.last}}, {{author.first}}</em>
+                    and <b>{{author.last}} {{author.first}}{{corresponding_tag}}</b>
               {% else %}
-                {% if coauthor_url %}
-                  and <a href="{{coauthor_url}}" target="_blank">{{author.last}}, {{author.first}}</a>
-                {% else %}
-                  and {{author.last}}, {{author.first}}
-                {% endif %}
+                <font color="#808080">and {{author.last}} {{author.first}}</font>
               {% endif %}
             {% endunless %}
           {% endif %}
@@ -69,15 +86,21 @@
 
       <div class="periodical">
       {% if entry.type == "article" %}
-        <em>{{entry.journal}}</em>
+        <em>{{entry.journal}}, </em>
       {% elsif entry.type == "inproceedings" %}
-        <em>In {{entry.booktitle}}</em>
+        <em>In {{entry.booktitle}}, </em>
       {% endif %}
       {% if entry.year %}
         {{entry.year}}
       {% endif %}
       </div>
-    {% endif %}
+
+
+    <div class="highlight">
+      {% if entry.highlight %}
+        🔥 <font color="#FF0000"><b>{{entry.highlight}}</b></font>
+      {% endif %}
+    </div>
 
     <div class="links">
     {% if entry.abstract %}
@@ -133,16 +156,18 @@
 
     <!-- Hidden abstract block -->
     {% if entry.abstract %}
-    <div class="abstract hidden">
-      <p>{{ entry.abstract }}</p>
-    </div>
+      <div class="abstract hidden">
+        <p>{{ entry.abstract }}</p>
+      </div>
     {% endif %}
 
     <!-- Hidden bibtex block -->
     {% if entry.bibtex_show %}
-    <div class="bibtex hidden">
-      {% highlight bibtex %}{{ entry.bibtex }}{% endhighlight %}
-    </div>
+      <div class="bibtex hidden">
+        {% highlight bibtex %}{{ entry.bibtex }}{% endhighlight %}
+      </div>
     {% endif %}
+ 
   </div>
 </div>
+{% endif %}

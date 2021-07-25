@@ -1,0 +1,12 @@
+Configuration file: /Users/leiyu/CloudStation/[17]Webpages/al-folio/_config.yml
+            Source: /Users/leiyu/CloudStation/[17]Webpages/al-folio
+       Destination: /Users/leiyu/CloudStation/[17]Webpages/al-folio/_site
+ Incremental build: enabled
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+         AutoPages: Disabled/Not configured in site.config.
+        Pagination: Complete, processed 1 pagination page(s)
+                    done in 0.787 seconds.
+ Auto-regeneration: enabled for '/Users/leiyu/CloudStation/[17]Webpages/al-folio'
+    Server address: http://127.0.0.1:4000/al-folio/
+  Server running... press ctrl-c to stop.
