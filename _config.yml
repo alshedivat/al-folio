@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Personal Website # the website title (if blank, full name will be used instead)
+title: Personal Website of DU Yuefeng # the website title (if blank, full name will be used instead)
 first_name: Yuefeng
 middle_name:
 last_name: Du
@@ -74,7 +74,7 @@ google_analytics: G-PJ6WJPZ4J5 # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: personal site  # your blog must have a name for it to show up in the nav bar
+blog_name: Du Yuefeng's site  # your blog must have a name for it to show up in the nav bar
 # blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
@@ -152,8 +152,8 @@ github: [metadata]
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Du
+  first_name: [Yuefeng, Y.]
 
   style: apa
   locale: en
@@ -163,7 +163,7 @@ scholar:
   bibliography_template: bib
 
   replace_strings: true
-  join_strings: true
+  join_strings: false
 
   details_dir: bibliography
   details_layout: bibtex.html

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Resources
+permalink: /resources/
+description: A growing collection of cool resources.
 nav: true
 display_categories: [work, fun]
 horizontal: false
