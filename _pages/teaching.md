@@ -9,7 +9,7 @@ nav: true
 **Teaching assitant duties** at *City University of Hong Kong*.
 
 
-| Semester | Course |
+| Semester $~~~~~~~~~~~~~~~~~~~~~~~~~~~$  | Course |
 | --------------------- | --------------------- |
 | Sem B, 2021-2022  | CS4293  Topics in Cybersecurity |
 | Sem A, 2021-2022  | CS4394  Information Security and Management |
