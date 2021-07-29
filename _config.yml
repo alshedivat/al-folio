@@ -20,6 +20,12 @@ last_updated: false # set to true if you want to display last updated in the foo
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
+# RSS Feed
+# -----------------------------------------------------------------------------
+# will use title and url fields
+# Take a look to https://github.com/jekyll/jekyll-feed for more customization
+
+# -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
@@ -56,6 +62,7 @@ blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
+dblp_url: # your DBLP profile url
 
 contact_note: >
   They call me Alex.
@@ -77,6 +84,7 @@ pagination:
 
 # Comments
 disqus_shortname: al-folio # put your disqus shortname
+# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -128,9 +136,11 @@ keep_files:
 plugins:
   - jekyll-email-protect
   - jekyll-github-metadata
+  - jekyll-feed
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-twitter-plugin
+  - jekyll-sitemap
   - jemoji
 
 # Extras

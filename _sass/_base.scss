@@ -8,10 +8,6 @@ p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
   color: var(--global-text-color);
 }
 
-article div {
-  margin-bottom: 1rem;
-}
-
 a, table.table a {
   color: var(--global-theme-color);
   &:hover {
@@ -21,6 +17,14 @@ a, table.table a {
   &:hover:after {
     width: 100%;
   }
+}
+
+blockquote {
+  background: var(--global-bg-color);
+  border-left: 2px solid var(--global-theme-color);
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-size: 1.2rem;
 }
 
 // Math
@@ -54,7 +58,6 @@ a, table.table a {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
-    font-size: 1.2rem;
     p {
       display: inline-block;
       margin: 0;

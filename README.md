@@ -125,23 +125,18 @@ Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0
 **For personal and organization webpages:**
 - Rename your repository to `<your-github-username>.github.io` or `<your-github-orgname>.github.io`.
 - Click on **Actions** tab and **Enable GitHub Actions**; you no need to worry about creating any workflows as everything has already been set for you.
-- In the **Settings**, select **Branches** and [rename the branch](https://docs.github.com/en/github/administering-a-repository/renaming-a-branch) with the source code from `master` to `source`. From now on, this will be your default branch. Any changes you make should be committed and pushed to this branch.
 - Make sure the `url` and `baseurl` fields in `_config.yml` are empty.
 - Make any other changes to your webpage, commit, and push. This will automatically trigger the **Deploy** action.
-- Wait for a few minutes and let the action complete. You can see the progress in the **Actions** tab. If completed successfully, in addition to the `source` branch, your repository should now have a newly built `master` branch.
-- Finally, again in the **Settings**, in the Pages section, set the branch to `master` (**NOT** to `source`).
-
-**NOTE**: you **must** do all your changes in the `source` branch (the one you used to push) **NOT the master** one; this last one is used for **deploying** by Github Pages and it is not suitable for pushing changes.
+- Wait for a few minutes and let the action complete. You can see the progress in the **Actions** tab. If completed successfully, in addition to the `master` branch, your repository should now have a newly built `gh-pages` branch.
+- Finally, in the **Settings**, in the Pages section, set the branch to `gh-pages` (**NOT** to `master`). See [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source) for more details.
 
 <details><summary><strong>Manual deployment to GitHub Pages:</strong></summary>
 
 If you need to manually re-deploy your website to GitHub pages, run the deploy script from the root directory of your repository:
 ```bash
-$ ./bin/deploy [--user]
+$ ./bin/deploy
 ```
 uses the `master` branch for the source code and deploys the webpage to `gh-pages`.
-The optional flag `--user` tells it to deploy to `master` and use `source` for the source code instead.
-Using `master` for deployment is a convention for [user and organization pages](https://help.github.com/articles/user-organization-and-project-pages/).
 
 </details>
 
@@ -233,6 +228,12 @@ If you have a different question, please ask using [Discussions](https://github.
    If you are deploying a personal or organization website to GitHub Pages, leave both fields blank.
    If you are deploying a project page to GitHub Pages, leave `url` blank and set `baseurl: /<your-project-name>/`.
    Generally, if you are deploying your webpage to `your-domain.com/your-project/`, you must set `url: your-domain.com` and `baseurl: /your-project/`.
+
+4. **Q:** Atom feed doesn't work. Why?
+   <br>
+   **A:** Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`.
+  RSS Feed plugin works with these correctly set up fields: `title`, `url`, `description` and `author`.
+  Make sure to fill them in an appropriate way and try again.
 
 ## Features
 
@@ -343,6 +344,10 @@ This can be configured on a per-page basis, by setting the `og_image` page varia
 If for an individual page this variable is not set, then the theme will fall back to a site-wide `og_image` variable, configurable in your `_config.yml`.
 In both the page-specific and site-wide cases, the `og_image` variable needs to hold the URL for the image you wish to display in social media previews.
 
+#### Atom (RSS-like) Feed
+It generates an Atom (RSS-like) feed of your posts, useful for Atom and RSS readers.
+The feed is reachable simply by typing after your homepage `/feed.xml`.
+E.g. assuming your website mountpoint is the main folder, you can type `yourusername.github.io/feed.xml`
 
 ## Contributing
 
