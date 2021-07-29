@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">duyuefeng0708_at_outlook_dot_com</a>
+description: <a href="#">yf_dot_du_at_my_dot_cityu_dot_edu_hk</a>
 profile:
   align: right
   # image: prof_pic.jpg
