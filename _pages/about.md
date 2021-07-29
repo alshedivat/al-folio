@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 description: <a href="#">duyuefeng0708_at_outlook_dot_com</a>
 profile:

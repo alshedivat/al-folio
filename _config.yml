@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Personal Website of DU Yuefeng # the website title (if blank, full name will be used instead)
+title: DU Yuefeng # the website title (if blank, full name will be used instead)
 first_name: Yuefeng
 middle_name:
 last_name: Du
@@ -163,7 +163,7 @@ scholar:
   bibliography_template: bib
 
   replace_strings: true
-  join_strings: false
+  join_strings: true
 
   details_dir: bibliography
   details_layout: bibtex.html
