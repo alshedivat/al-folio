@@ -155,7 +155,7 @@
 @periodical{2020prefixsum,
   title={Work-stealing prefix scan: Addressing load imbalance in large-scale image registration}, 
   author={Marcin Copik and Tobias Grosser and Torsten Hoefler and Paolo Bientinesi and Benjamin Berkels},
-  year={2021},
+  year={2022},
   eprint={2010.12478},
   archivePrefix={arXiv},
   primaryClass={cs.DC},
@@ -163,11 +163,15 @@
   pdf = {2021_prefix_sum_TPDS.pdf},
   code = {https://github.com/berkels/match-series/},
   type = {article},
-  journal = {IEEE Transactions on Parallel and Distributed Systems (TPDS) (to appear)},
+  journal = {IEEE Transactions on Parallel and Distributed Systems},
   html = {https://ieeexplore.ieee.org/document/9477174},
   abstract = {
     Parallelism patterns (e.g., map or reduce) have proven to be effective tools for parallelizing high-performance applications. In this paper, we study the recursive registration of a series of electron microscopy images - a time consuming and imbalanced computation necessary for nano-scale microscopy analysis. We show that by translating the image registration into a specific instance of the prefix scan, we can convert this seemingly sequential problem into a parallel computation that scales to over thousand of cores. We analyze a variety of scan algorithms that behave similarly for common low-compute operators and propose a novel work-stealing procedure for a hierarchical prefix scan. Our evaluation shows that by identifying a suitable and well-optimized prefix scan algorithm, we reduce time-to-solution on a series of 4,096 images spanning ten seconds of microscopy acquisition from over 10 hours to less than 3 minutes (using 1024 Intel Haswell cores), enabling derivation of material properties at nanoscale for long microscopy image series. 
-  }
+  },
+  volume={33},
+  number={3},
+  pages={523-535},
+  doi={10.1109/TPDS.2021.3095230}
 }
 
 @inproceedings{copik2020sebs,
@@ -181,7 +185,8 @@
   abstract = {Function-as-a-Service (FaaS) is one of the most promising directions for the future of cloud services, and serverless functions have immediately become a new middleware for building scalable and cost-efficient microservices and applications. However, the quickly moving technology hinders reproducibility, and the lack of a standardized benchmarking suite leads to ad-hoc solutions and microbenchmarks being used in serverless research, further complicating metaanalysis and comparison of research solutions. To address this challenge, we propose the Serverless Benchmark Suite: the first benchmark for FaaS computing that systematically covers a wide spectrum of cloud resources and applications. Our benchmark consists of the specification of representative workloads, the accompanying implementation and evaluation infrastructure, and the evaluation methodology that facilitates reproducibility and enables interpretability. We demonstrate that the abstract model of a FaaS execution environment ensures the applicability of our benchmark to multiple commercial providers such as AWS, Azure, and Google Cloud. Our work facilities experimental evaluation of serverless systems, and delivers a standardized, reliable and evolving evaluation methodology of performance, efficiency, scalability and reliability of middleware FaaS platforms.},
   code = {https://github.com/spcl/serverless-benchmarks},
   booktitle = {Proceedings of the 22nd International Middleware Conference (to appear)},
-  series = {Middleware '21}
+  series = {Middleware '21},
+  doi = {10.1145/3464298.3476133}
 }
 
 @article{2019perftaint,
