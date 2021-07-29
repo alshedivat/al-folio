@@ -73,6 +73,9 @@
       {% elsif entry.type == "inproceedings" %}
         <em>In {{entry.booktitle}}</em>
       {% endif %}
+      {% if {{entry.doi}} %}
+        , <b>DOI</b> {{entry.doi}}
+      {% endif %}
       </div>
       <div class="author">
       {% if entry.note %}
