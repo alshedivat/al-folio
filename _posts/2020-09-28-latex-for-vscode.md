@@ -2,10 +2,10 @@
 layout: post
 title: Latex with Vscode on Windows
 date: 2020-09-28 11:12:00-0400
-description: configuration of the Visual Studio Code extension Latex Workshop
+description: configuration of the Visual Studio Code extension Latex Workshop + grammarly support
 ---
 
-{% highlight json %}
+{% highlight json{17} %}
 
 "latex-workshop.showContextMenu":true,
     "latex-workshop.latex.autoBuild.run": "never",
@@ -16,24 +16,24 @@ description: configuration of the Visual Studio Code extension Latex Workshop
 
     "latex-workshop.view.pdf.viewer": "external",
     "latex-workshop.view.pdf.ref.viewer":"auto",
-    "latex-workshop.view.pdf.external.viewer.command": "C:/Program Files/SumatraPDF/SumatraPDF.exe",
+    "latex-workshop.view.pdf.external.viewer.command": "/path/to/SumatraPDF/SumatraPDF.exe",
     "latex-workshop.view.pdf.external.viewer.args": [
         "-forward-search",
         "%TEX%",
         "%LINE%",
         "-reuse-instance",
         "-inverse-search",
-        "\"C:/Users/yuefengdu2/AppData/Local/Programs/Microsoft VS Code/Code.exe\" \"C:/Users/yuefengdu2/AppData/Local/Programs/Microsoft VS Code/resources/app/out/cli.js\" -gr \"%f\":\"%l\"",
+        "\"/path/to/Microsoft VS Code/Code.exe\" \"/path/to/Microsoft VS Code/resources/app/out/cli.js\" -gr \"%f\":\"%l\"",
         "%PDF%"
     ],
-    "latex-workshop.view.pdf.external.synctex.command": "C:/Program Files/SumatraPDF/SumatraPDF.exe",
+    "latex-workshop.view.pdf.external.synctex.command": "/path/to/SumatraPDF/SumatraPDF.exe",
     "latex-workshop.view.pdf.external.synctex.args": [
         "-forward-search",
         "%TEX%",
         "%LINE%",
         "-reuse-instance",
         "-inverse-search",
-        "\"C:/Users/yuefengdu2/AppData/Local/Programs/Microsoft VS Code/Code.exe\" \"C:/Users/yuefengdu2/AppData/Local/Programs/Microsoft VS Code/resources/app/out/cli.js\" -gr \"%f\":\"%l\"",
+        "\"/path/to/Microsoft VS Code/Code.exe\" \"/path/to/Microsoft VS Code/resources/app/out/cli.js\" -gr \"%f\":\"%l\"",
         "%PDF%"
     ],
     "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
