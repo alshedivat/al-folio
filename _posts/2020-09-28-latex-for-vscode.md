@@ -5,7 +5,15 @@ date: 2020-09-28 11:12:00-0400
 description: configuration of the Visual Studio Code extension Latex Workshop + grammarly support
 ---
 
-### Remember to replace `/path/to` with real path. 
+### Prerequisites 
+
+Texlive, Visual Studio Code
+
+### Latex Workshop Extension Configuration
++ support forward/backward search 
++ for latex project with no bib file, add the following to the first line of the target tex file to use the singleton tool of xelatex
+> % !TEX program = xelatex
++ Remember to replace `/path/to` with real path. 
 
 {% highlight json %}
 
@@ -120,4 +128,25 @@ description: configuration of the Visual Studio Code extension Latex Workshop + 
     ],
     "latex-workshop.latex.autoClean.run": "onFailed",
     "latex-workshop.latex.recipe.default": "lastUsed",
+{% endhighlight %}
+
+### Key Binding
+`Ctrl+Shift+P` and search for keyboard shortcuts
+
+look up `{
+  "key": "ctrl+alt+r",
+  "command": "latex-workshop.recipes"
+}`
+
+### Grammarly Unofficial Extension
+
+login and reload the extension
+
+{% highlight json %}
+    "grammarly.autoActivate": true,
+    "grammarly.severity": {
+        "Hard-to-read": 4, // Sets Fragment category to Warning.
+        "Passive voice": 4,
+        "Incorrect spacing with punctuation": 4
+    }
 {% endhighlight %}
