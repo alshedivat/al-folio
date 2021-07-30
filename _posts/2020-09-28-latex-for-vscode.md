@@ -5,7 +5,9 @@ date: 2020-09-28 11:12:00-0400
 description: configuration of the Visual Studio Code extension Latex Workshop + grammarly support
 ---
 
-{% highlight json{17} %}
+### Remember to replace `/path/to` with real path. 
+
+{% highlight json %}
 
 "latex-workshop.showContextMenu":true,
     "latex-workshop.latex.autoBuild.run": "never",
