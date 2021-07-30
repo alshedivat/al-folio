@@ -1,78 +1,33 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+title: Awesome Security
+description: security-focused blogs and interesting papers
+img: 
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Blogs
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+- [Naked Security](https://nakedsecurity.sophos.com/){:target="\_blank"}: Computer security news, opinion, advice and research.
+- [Matthew Green](https://blog.cryptographyengineering.com/){:target="\_blank"}: Thoughts on Cryptographic Engineering.
+- [Hacker Factor](https://www.hackerfactor.com/){:target="\_blank"}: Cutting edge computer forensics research, Tor security.
+- [KrebsonSecurity](https://krebsonsecurity.com/){:target="\_blank"}: In-depth security news and investigation.
+- [Matt's Blog](https://matts-words.blogspot.com/){:target="\_blank"}: Vulnerability analysis and denial of service problems.
+- [Decentralized Thoughts](https://decentralizedthoughts.github.io/){:target="\_blank"}: Consensus and Agreement, Network model, and much more.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Books
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+TBD
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+### Hands-on Security
+
+- [Seed Labs](https://seedsecuritylabs.org/){:target="\_blank"}: Hands-on laboratory exercises (called SEED labs) for computer and information security education.
+- [Capture The Flag 101](https://ctf101.org/){:target="\_blank"}: CTF security competition introduction.
+
+### The great debate (2006-2007, and beyond)
+
+- [Koblitz and Menezes paper](https://eprint.iacr.org/2019/1336.pdf){:target="\_blank"}: Critiques of "proofs" of security and a guide to the overlooked gap between security models and pratical security guarantees from various aspects. More on the presentation slides and presentation [video](https://www.youtube.com/watch?v=l56ORg5xXkk&ab_channel=TheIACR){:target="\_blank"} at Eurocrypt 2012.
+- [Ivan Damgård's attitude](https://users-cs.au.dk/~ivan/positionpaper.pdf){:target="\_blank"}: Theoreticians and practitioners should think more consciously about what theoretic results on security mean for practical applications.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-```
