@@ -7,7 +7,7 @@ importance: 1
 category: work
 ---
 
-### Blogs
+### Blogs on research and news
 
 - [Naked Security](https://nakedsecurity.sophos.com/){:target="\_blank"}: Computer security news, opinion, advice and research.
 - [Matthew Green](https://blog.cryptographyengineering.com/){:target="\_blank"}: Thoughts on Cryptographic Engineering.
@@ -15,15 +15,26 @@ category: work
 - [KrebsonSecurity](https://krebsonsecurity.com/){:target="\_blank"}: In-depth security news and investigation.
 - [Matt's Blog](https://matts-words.blogspot.com/){:target="\_blank"}: Vulnerability analysis and denial of service problems.
 - [Decentralized Thoughts](https://decentralizedthoughts.github.io/){:target="\_blank"}: Consensus and Agreement, Network model, and much more.
+- [ZKP science](https://zkp.science/){:target="\_blank"}: Zero-Knowledge Proofs: What are they, how do they work, and are they fast yet?
+- [Elliptic news](https://ellipticnews.wordpress.com/){:target="\_blank"}: The Elliptic Curve Cryptography blog.
 
 ### Books
 
-TBD
+**With online access**
+- [A Graduate Course in Applied Cryptography](http://toc.cryptobook.us/){:target="\_blank"}: by Dan Boneh and Victor Shoup
+- [Mathematics of Public Key Cryptography](https://www.math.auckland.ac.nz/~sgal018/crypto-book/crypto-book.html){:target="\_blank"}: by Steven Galbraith
+- [A Pragmatic Introduction to Secure Multi-Party Computation](https://securecomputation.org/){:target="\_blank"}: by David Evans, Vladimir Kolesnikov and Mike Rosulek
+- [How To Simulate It - A Tutorial on the Simulation Proof Technique](https://eprint.iacr.org/2016/046){:target="\_blank"}: by Yehuda Lindell, appear in the book "Tutorials on the Foundations of Cryptography"
+
 
 ### Hands-on Security
-
 - [Seed Labs](https://seedsecuritylabs.org/){:target="\_blank"}: Hands-on laboratory exercises (called SEED labs) for computer and information security education.
 - [Capture The Flag 101](https://ctf101.org/){:target="\_blank"}: CTF security competition introduction.
+
+**Related blogs**
+
+- [S3cur3Th1sSh1t](https://s3cur3th1ssh1t.github.io/){:target="\_blank"}: Pentesting, scripting and pwning!
+- [Nikhil "SamratAshok" Mittal](https://www.labofapenetrationtester.com/){:target="\_blank"}: Red teaming, active directory security, attack research, defense strategies and post exploitation research.
 
 ### The great debate (2006-2007, and beyond)
 
