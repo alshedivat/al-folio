@@ -1,9 +1,9 @@
 ---
 layout: page
-title: multipole expansion
-description: fast multipole method, treecode method
-img: /assets/img/FMM_treecode.png
-importance: 3
+title: project 2
+description: a project with a background image
+img: /assets/img/3.jpg
+importance: 2
 category: work
 ---
 

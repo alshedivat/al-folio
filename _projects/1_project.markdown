@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: AI-driven Protein-protein interaction
+description: Machine learning, Mutation-induced binding free energy changes of protein-protein interaction
 img: /assets/img/7C01_HS53D.png
 importance: 1
 category: work

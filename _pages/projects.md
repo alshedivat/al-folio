@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: Only templates. Coming soon
+description: My projects focus on developing topolical and geometric data analysis methods for biology applications at molecular level, and the integration with machine learning and numerical partial differential equation (PDE).
 nav: true
 display_categories: # [work] # [work, fun]
 horizontal: false

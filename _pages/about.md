@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Me
 permalink: /
 description: chenj159@msu.edu
 

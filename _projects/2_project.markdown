@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: /assets/img/3.jpg
+title: evolutionary de Rham-Hodge method
+description: de Rham-Hodge method, differential geometry, data analysis
+img: /assets/img/persistentDH.png
 importance: 2
 category: work
 ---

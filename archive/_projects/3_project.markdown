@@ -1,8 +1,9 @@
 ---
 layout: page
-title: multipole expansion
-description: fast multipole method, treecode method
-img: /assets/img/FMM_treecode.png
+title: project 3
+description: a project that redirects to another website
+img: /assets/img/7.jpg
+redirect: https://unsplash.com
 importance: 3
 category: work
 ---
