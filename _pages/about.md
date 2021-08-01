@@ -22,7 +22,7 @@ He was the Chief Technologist of the Large-Scale Testbed (LTB), which won the 20
 Hantao Cui was a research assistant professor in the Department of Electrical Engineering and Computer Science and
 [CURENT](https://curent.utk.edu), University of Tennessee, Knoxville.
 He was appointed as a full-time research associate with CURENT before receiving his Ph.D.
-His dissertation was advised by advised by [Dr. Fangxing “Fran” Li](http://web.eecs.utk.edu/~fli6).
+His dissertation was advised by [Dr. Fangxing “Fran” Li](http://web.eecs.utk.edu/~fli6).
 He received his M. S. and B. S. from Southeast University, China, in 2013 and 2011, both in electrical engineering.
 
 Hantao Cui has been an Associate Editor of the [Journal of Modern Power Systems and Clean Energy](http://www.mpce.info) since 2019.
