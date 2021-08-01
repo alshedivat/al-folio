@@ -2,31 +2,32 @@
 layout: about
 permalink: /
 title: <strong>Hantao</strong> Cui
-description: <a href="https://eecs.utk.edu">Department of EECS</a> & <a href="https://curent.utk.edu">CURENT</a>, University of Tennessee, Knoxville
+description: <a href="https://ece.okstate.edu">School of Electrical and Computer Engineering</a>, Oklahoma State University
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
 
-    <p>346 Min H. Kao Building</p>
-    <p>1520 Middle Drive</p>
-    <p>Knoxville, TN 37996</p>
+    <p>204 General Academic Building</p>
+    <p>Stillwater, OK 74078</p>
 
 news: true
 social: true
 ---
-Hantao Cui is a research assistant professor in the Department of Electrical Engineering and Computer Science and [CURENT](https://curent.utk.edu), University of Tennessee, Knoxville.
-He is the Chief Technologist of the Large-Scale Testbed (LTB), which won the 2020 R&D 100 Awards, and the author of the power system modeling and analysis tool [ANDES](https://github.com/cuihantao/andes).
-He will join the School of Electrical and Computer Engineering, Oklahoma State University as an assistant professor (tenure-track) in the Fall of 2021.
+Hantao Cui is an assistant professor with the School of Electrical and Computer Engineering at Oklahoma State University.
+He received his Ph. D. degree in Electrical Engineering from the University of Tennessee, Knoxville in 2018.
+He was the Chief Technologist of the Large-Scale Testbed (LTB), which won the 2020 R&D 100 Awards, and is the author of the power system modeling and analysis tool [ANDES](https://github.com/cuihantao/andes).
 
-Hantao Cui received his Ph. D. degree from the University of Tennessee, Knoxville in 2018, advised by [Dr. Fangxing “Fran” Li](http://web.eecs.utk.edu/~fli6).
-He was appointed as a full-time research rssociate with CURENT before Ph. D. graduation.
+Hantao Cui was a research assistant professor in the Department of Electrical Engineering and Computer Science and
+[CURENT](https://curent.utk.edu), University of Tennessee, Knoxville.
+He was appointed as a full-time research associate with CURENT before receiving his Ph.D.
+His dissertation was advised by advised by [Dr. Fangxing “Fran” Li](http://web.eecs.utk.edu/~fli6).
 He received his M. S. and B. S. from Southeast University, China, in 2013 and 2011, both in electrical engineering.
 
 Hantao Cui has been an Associate Editor of the [Journal of Modern Power Systems and Clean Energy](http://www.mpce.info) since 2019.
-He is an Outstanding Reviewer for 2019 and 2020 by the _IEEE Transactions on Power Systems_.
-He is author of two Essential Science Indicators (ESI) highly cited papers.
+He is an Outstanding Reviewer for 2019 and 2020 by the _IEEE Transactions on Power Systems_
+and author of two Essential Science Indicators (ESI) highly cited papers.
 He is a Senior Member of the IEEE.
 
 Hantao Cui's research include:
