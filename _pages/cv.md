@@ -6,4 +6,4 @@ description: Curriculum vitae.
 nav: true
 ---
 
-Updated July 2021: [PDF](/assets/pdf/HenriqueCV-July2021.pdf).
+Updated August 2021: [PDF](/assets/pdf/HenriqueCV-Aug2021.pdf).
