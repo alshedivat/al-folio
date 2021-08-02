@@ -7,7 +7,7 @@ importance: 3
 category: fun
 ---
 ### Books
-Proofs from The Book
+Proofs from The Book by Martin Aigner and Günter M. Ziegler.
 
 ### Blogs
 - [Steve Hsu](https://infoproc.blogspot.com/){:target="\_blank"}
