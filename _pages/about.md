@@ -2,8 +2,8 @@
 layout: about
 title: about
 permalink: /
-description: PhD Student at the <a href="https://www.dsme.rwth-aachen.de">Institute for Data Science in Mechanical Engineering</a>, RWTH Aachen University
-description: >
+description: Alexander von Rohr is currently a PhD Student at the <a href="https://www.dsme.rwth-aachen.de">Institute for Data Science in Mechanical Engineering</a>, RWTH Aachen University
+description1: >
     <b>PhD Student</b><br>
     <small><a href="https://www.dsme.rwth-aachen.de">Institute for Data Science in Mechanical Engineering, RWTH Aachen University</a></small>
 profile:
