@@ -86,6 +86,9 @@
     {% if entry.arxiv %}
       <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
     {% endif %}
+    {% if entry.bibtex_show %}
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    {% endif %}
     {% if entry.html %}
       <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
     {% endif %}
@@ -132,6 +135,13 @@
     {% if entry.abstract %}
     <div class="abstract hidden">
       <p>{{ entry.abstract }}</p>
+    </div>
+    {% endif %}
+
+    <!-- Hidden bibtex block -->
+    {% if entry.bibtex_show %}
+    <div class="bibtex hidden">
+      {% highlight bibtex %}{{ entry.bibtex }}{% endhighlight %}
     </div>
     {% endif %}
   </div>
