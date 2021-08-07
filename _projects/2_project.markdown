@@ -1,8 +1,9 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: /assets/img/3.jpg
+title: Experiments on CoLA
+description: A Transformer and BiLSTM architecture are both coupled with ELMo to evaluate performance on the CoLA (Corpus of Linguistic Acceptability) dataset.
+redirect: https://github.com/pranavajitnair/CoLA
+img: 
 importance: 2
 category: work
 ---

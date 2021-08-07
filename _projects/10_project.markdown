@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Leveraging Commonsense Explanations for Question Answering
-description: T5 trained on ANLG and COS-E datasets to generate explanations. The model obtained from the previous training stage is used to generate explanations for ReColr contexts. The explanations, along with the context and question, passed to ALBERT for prediction.
-redirect: https://github.com/pranavajitnair/Leveraging-Commonsense-Explanations-for-Question-Answering
+title: HeartCare
+description: Heartcare is a diagonostic management project developed in Django. Admin can add doctor and add services. User can view doctor profiles and they can also book appointments.
+redirect: https://github.com/pranavajitnair/Heart-Care-Django
 img: 
-importance: 1
-category: work
+importance: 6
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.

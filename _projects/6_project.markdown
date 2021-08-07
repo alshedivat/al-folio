@@ -1,7 +1,9 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: DeFINE AWD LSTM
+description: Implementation of DeFINE word embeddings with AWD-LSTM for language modeling. The input and output embeddings for AWD-LSTMM are tied.
+redirect: https://github.com/pranavajitnair/DeFINE-AWD-LSTM
+
 img:
 importance: 4
 category: fun

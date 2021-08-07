@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: /assets/img/7.jpg
-redirect: https://unsplash.com
+title: SCRF for Name Entity Recognition
+description: A semi Markov Conditional Random Field for Named Entity Recongnition.
+img: 
+redirect: https://github.com/pranavajitnair/SCRF-for-Name-Entity-Recognition
 importance: 3
 category: work
 ---

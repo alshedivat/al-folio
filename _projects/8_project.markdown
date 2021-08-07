@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Leveraging Commonsense Explanations for Question Answering
-description: T5 trained on ANLG and COS-E datasets to generate explanations. The model obtained from the previous training stage is used to generate explanations for ReColr contexts. The explanations, along with the context and question, passed to ALBERT for prediction.
-redirect: https://github.com/pranavajitnair/Leveraging-Commonsense-Explanations-for-Question-Answering
-img: 
-importance: 1
-category: work
+title: QRNN
+description: Qusai Recurrent Neural Network for Sentiment Analysis on IMDB datset.
+redirect: https://github.com/pranavajitnair/Quasi-RNN-for-Sentiment-analysis
+img:
+importance: 3
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.

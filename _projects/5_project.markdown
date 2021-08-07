@@ -1,8 +1,9 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: /assets/img/1.jpg
+title: DCN+
+description:  Implenetation of Dynamic Coattention Networks + Mixed Reinforcement learning objective(self critic) and question answering.
+redirect: https://github.com/pranavajitnair/DCN_plus
+img: 
 importance: 3
 category: fun
 ---

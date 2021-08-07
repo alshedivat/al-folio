@@ -1,7 +1,8 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: A Seq2Seq Model for Generating Explanations
+description: A simple LSTM and dot product attention-based model for generating commonsense explanations. Trained on COS-E to generate explanations.
+redirect: https://github.com/pranavajitnair/A-Sequence-to-Sequence-LSTM-and-Attention-based-model
 img:
 importance: 3
 category: fun

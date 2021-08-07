@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Leveraging Commonsense Explanations for Question Answering
-description: T5 trained on ANLG and COS-E datasets to generate explanations. The model obtained from the previous training stage is used to generate explanations for ReColr contexts. The explanations, along with the context and question, passed to ALBERT for prediction.
-redirect: https://github.com/pranavajitnair/Leveraging-Commonsense-Explanations-for-Question-Answering
+title: GA Reader
+description:  Implenetation of Gated Attention Reader for Cloze style question answering and reading comphrehension.
+redirect: https://github.com/pranavajitnair/GA_Reader
 img: 
-importance: 1
-category: work
+importance: 3
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.
