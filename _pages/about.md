@@ -16,9 +16,11 @@ social: true  # includes social icons at the bottom of the page
 Hi There!
 \\
 \\
-I am Pranav, currently pursuing my Master of Technology in Computer Science and Engineering at the [Indian Institute of Technology (BHU), Varanasi](https://www.iitbhu.ac.in/). I am fascinated by the latest advancements in AI. For the fast few years I have been working on Machine learning with a particular focus on Natural Language Processing and Information Retrieval. 
+I am Pranav, currently pursuing my Master of Technology in Computer Science and Engineering at the [Indian Institute of Technology (BHU), Varanasi](https://www.iitbhu.ac.in/). I am fascinated by the latest advancements in AI. For the last few years I have been working on Machine learning with a particular focus on Natural Language Processing and Information Retrieval. 
 \\
 \\
-Currently, I work on conversational question answering over knowledge graphs with [Chris Biemann](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html) and [Debayan Banerjee](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/debayan-banerjee.html) at the [University of Hamburg](https://www.uni-hamburg.de/). 
+Currently, I am working on conversational question answering over knowledge graphs with [Chris Biemann](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html) and [Debayan Banerjee](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/debayan-banerjee.html) at the [University of Hamburg](https://www.uni-hamburg.de/). 
 \\
-At my institue I have been working with [Anil Kumar Singh](https://www.iitbhu.ac.in/dept/cse/people/aksinghcse) on introducing commonsense knowledge in sequence to sequence models, reducing repetiton in abstractive summrization and adversarial training for sequence to sequence models for the past couple of years.
+At my institue I have been working with [Anil Kumar Singh](https://www.iitbhu.ac.in/dept/cse/people/aksinghcse) on introducing commonsense knowledge in sequence to sequence models, reducing repetiton in abstractive summrization and adversarial training for sequence to sequence models.
+
+Here is the link to my [CV](https://drive.google.com/file/d/1sRR6d0zkJGryYo9mgLverRLUFDOBUSGL/view?usp=sharing).
