@@ -6,7 +6,7 @@ title: # the website title (if blank, full name will be used instead)
 first_name: Pedro 
 middle_name: 
 last_name: Porto Buarque de Gusmão
-email: pedro@portogusmao.com
+email: pedro@portobgusmao.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   
 footer_text: >
@@ -14,8 +14,8 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-icon: 🔥 # the emoji used as the favicon
-url:  pedrogusmao.com # the base hostname & protocol for your site
+icon: 💻 # the emoji used as the favicon
+url:  portobgusmao.com # the base hostname & protocol for your site
 baseurl: / # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -76,7 +76,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 blog_name: Blog # your blog must have a name for it to show up in the nav bar
-blog_description: Collection of thoughts and guides.
+blog_description: About Stuff.
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -154,7 +154,7 @@ github: [metadata]
 scholar:
 
   last_name: Porto Buarque de Gusmão
-  first_name: [Pedro, P. B. G.]
+  first_name: [Pedro]
 
   style: apa
   locale: en
