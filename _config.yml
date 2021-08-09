@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Pulkit
 middle_name: 
 last_name: Madaan
-email: pulkit16257@iiitd.ac.in
+email: pulkit16257[at]iiitd[dot]ac[dot]in
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Pulkit Madaan's personal website. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
