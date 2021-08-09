@@ -204,10 +204,11 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 2rem;
+    font-size: 2.5rem;
     a {
+      padding: 0.3rem;
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-text-color-light);
         -webkit-transition: all 0.2s ease-in-out;
       }
       &:hover {
