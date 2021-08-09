@@ -51,6 +51,13 @@ The most important lesson from this talk: focus on one key message, present it v
 many details, use examples to drive the narrative, and omit other details from the paper.
 The audience should remember the one major contribution of your work.
 
+* [Leslie Lamport on Writing Papers](https://www.youtube.com/watch?v=ey3BEtt9QLI)
+- what is the most important reason to write a paper? "You have done something that you
+are excited about". Don't include jokes in papers, don't submit papers because conference deadline
+is approaching and you want to be there, bad thinking cannot lead to good writing.
+Use formulas and solid examples to present the ideas, instead of long and verbose descriptions in plain
+English.
+
 ## history
 
 * [(Podcast) The History of Rome](https://en.wikipedia.org/wiki/The_History_of_Rome_(podcast)) - an excellent
