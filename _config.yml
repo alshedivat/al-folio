@@ -74,7 +74,7 @@ google_analytics: G-PJ6WJPZ4J5 # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Du Yuefeng's blog  # your blog must have a name for it to show up in the nav bar
+blog_name: Random Thoughts  # your blog must have a name for it to show up in the nav bar
 # blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 

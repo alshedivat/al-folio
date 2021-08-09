@@ -31,10 +31,16 @@ category: work
 - [Seed Labs](https://seedsecuritylabs.org/){:target="\_blank"}: Hands-on laboratory exercises (called SEED labs) for computer and information security education.
 - [Capture The Flag 101](https://ctf101.org/){:target="\_blank"}: CTF security competition introduction.
 
-**Related blogs**
+<!-- **Related blogs**
 
 - [S3cur3Th1sSh1t](https://s3cur3th1ssh1t.github.io/){:target="\_blank"}: Pentesting, scripting and pwning!
-- [Nikhil "SamratAshok" Mittal](https://www.labofapenetrationtester.com/){:target="\_blank"}: Red teaming, active directory security, attack research, defense strategies and post exploitation research.
+- [Nikhil "SamratAshok" Mittal](https://www.labofapenetrationtester.com/){:target="\_blank"}: Red teaming, active directory security, attack research, defense strategies and post exploitation research. -->
+
+### Open-sourced intelligence (OSINT)
+- [Github-awesome-OSINT](https://github.com/jivoi/awesome-osint){:target="\_blank"}: A curated list of amazingly awesome open source intelligence tools and resources.
+- [NixIntel](https://nixintel.info/){:target="\_blank"}: Twitter nixintel
+- [Bellingcat](https://www.bellingcat.com/){:target="\_blank"}: Latest investigations and resources.
+- [GeoGuessr](https://www.geoguessr.com/){:target="\_blank"}: Geographic discovery game.
 
 ### The great debate (2006-2007, and beyond)
 
