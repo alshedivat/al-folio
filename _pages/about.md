@@ -6,7 +6,7 @@ description: PhD student at City University of Hong Kong
 profile:
   align: right
   image: selfie.jpg
-  address: <p>yf_dot_du_at_my_dot_cityu_dot_edu_dot_hk</p>
+  address: <p>yf.du_at_my.cityu.edu.hk</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
