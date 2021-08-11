@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: DU Yuefeng # the website title (if blank, full name will be used instead)
+title: Yuefeng DU # the website title (if blank, full name will be used instead)
 first_name: Yuefeng
 middle_name:
 last_name: Du
 email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal Website of DU Yuefeng (杜越风)
+  Personal Website of Yuefeng DU (杜越风)
 # footer_text: >
 #   # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #   # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

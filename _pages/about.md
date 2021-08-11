@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">yf_dot_du_at_my_dot_cityu_dot_edu_dot_hk</a>
+description: PhD student at City University of Hong Kong
 profile:
   align: right
-  # image: prof_pic.jpg
-  # address: <p>yf_dot_du_at_my_dot_cityu_dot_edu_dot_hk</p>
+  image: selfie.jpg
+  address: <p>yf_dot_du_at_my_dot_cityu_dot_edu_dot_hk</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
