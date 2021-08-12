@@ -52,7 +52,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: madaanpulkit # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: madPulsAr # your Twitter handle
-linkedin_username: madaanpulkit # your LinkedIn user name
+linkedin_username: pulkit-madaan # your LinkedIn user name
 scholar_userid: 875CPfgAAAAJ # your Google Scholar ID
 orcid_id: 0000-0002-8051-9237 # your ORCID ID
 medium_username: # your Medium username
@@ -66,7 +66,7 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 
 contact_note: >
-  Use LinkedIn to connect.
+  Always available on mail and LinkedIn.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
