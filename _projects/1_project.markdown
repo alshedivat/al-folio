@@ -42,6 +42,23 @@ category: work
 - [Bellingcat](https://www.bellingcat.com/){:target="\_blank"}: Latest investigations and resources.
 - [GeoGuessr](https://www.geoguessr.com/){:target="\_blank"}: Geographic discovery game.
 
+### Proxy and Anonymizer
+#### Github tools
+
+Public proxy collector:
+- Scylla
+
+Headless browser simulator:
+- Playwright 
+- Puppeteer
+
+#### Residential IPs
+- Bright data
+
+#### IP anonymizer
+- TG (or any privacy-oriented messaging app) within whonix
+- [5SIM](https://5sim.net/){:target="\_blank"} : Get SMS online and sim hosting
+
 ### The great debate (2006-2007, and beyond)
 
 - [Koblitz and Menezes paper](https://eprint.iacr.org/2019/1336.pdf){:target="\_blank"}: Critiques of "proofs" of security and a guide to the overlooked gap between security models and pratical security guarantees from various aspects. More on the presentation slides and presentation [video](https://www.youtube.com/watch?v=l56ORg5xXkk&ab_channel=TheIACR){:target="\_blank"} at Eurocrypt 2012.
