@@ -8,7 +8,6 @@ group :jekyll_plugins do
     gem 'jekyll-scholar'
     gem 'jekyll-twitter-plugin'
     gem 'jekyll-sitemap'
-    gem 'jemoji'
     gem 'unicode_utils'
     gem 'webrick'
 end
