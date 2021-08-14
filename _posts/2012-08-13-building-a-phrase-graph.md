@@ -23,7 +23,7 @@ Here’s a simple example. Say you have the following two sentences:
 
 There’s quite a lot of overlap at the start of the sentence and at the end of the sentence. So a good phrase graph would look something like this:
 
-![Example Phrase Graph](/academic-site/assets/img/phrase-graph-example.svg)
+![Example Phrase Graph](/assets/img/phrase-graph-example.svg)
 
 
 So you can see that the nodes in the graph represent words found in the
@@ -67,7 +67,7 @@ Tries](https://en.wikipedia.org/wiki/Trie#Compressing_tries).
 
 ### Tries and their compressed cousins
 
-![Trie Example](/academic-site/assets/img/trie-example.svg)
+![Trie Example](/assets/img/trie-example.svg)
 
 Tries are one of the simplest data structures, and one of the most powerful
 when processing natural languages. Given a set of words or sentences, a Trie is
@@ -98,7 +98,7 @@ val automata = BasicAutomata.makeStringUnion(
 println(automata.toDot)
 {% endhighlight %}
 
-![A Brics Phrase Graph](/academic-site/assets/img/brics-phrase-graph-example.svg)
+![A Brics Phrase Graph](/assets/img/brics-phrase-graph-example.svg)
 
 NOTE: You may want to open this in a new tab to zoom in as every letter has it’s own state.
 
@@ -385,7 +385,7 @@ def replaceOrRegister(node: PhraseNode) {
 
 And Voila, we now have all the code needed to make a phrase graph!
 
-![Exact Phrase Graph](/academic-site/assets/img/example.exact.phrase-graph.svg)
+![Exact Phrase Graph](/assets/img/example.exact.phrase-graph.svg)
 
 ### Tweaking the automata to condense more phrases
 
@@ -451,11 +451,11 @@ Republic of Korea in archery by a guy who is legally blind
 
 Using exact Matching: Using Exact Matching:
 
-![Exact Matching](/academic-site/assets/img/test.exact.svg)
+![Exact Matching](/assets/img/test.exact.svg)
 
 Using link subset Matching: 
 
-![Subsume Matching](/academic-site/assets/img/test.subsume.svg)
+![Subsume Matching](/assets/img/test.subsume.svg)
 
 Finally! This second version is precisely the data structure those three
 original papers were describing.

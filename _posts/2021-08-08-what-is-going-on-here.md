@@ -6,7 +6,7 @@ description: A long decayed update
 tags: life open-source
 ---
 
-![Surface Logo](/academic-site/assets/img/surface.png)
+![Surface Logo](/assets/img/surface.png)
 
 As I do every few years, I am restarting my blog and doing it the hard way.
 About a decade ago I used Octopress and GithubPages to do a blog.  A year or so

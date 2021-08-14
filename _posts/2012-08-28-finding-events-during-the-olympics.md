@@ -14,7 +14,7 @@ a csv file describing when every event took place, but to no avail. Instead,
 all I had access to was beautifully rendered web pages like below, which
 graphically detail when each event began and end for each day.
 
-![When Archery Events were happening in 2012](/academic-site/assets/img/olympics-archery-event-example.png)
+![When Archery Events were happening in 2012](/assets/img/olympics-archery-event-example.png)
 
 This handy web page has all the information I need, but how easy is it to get
 that information out?

@@ -224,7 +224,7 @@ looking dataset: globs of data points from three different Gaussian
 distributions, each with a different mean and variance. And let’s start off
 with just trying to find 2 groups, as we’ve been working along with so far.
 
-![2 groups](/academic-site/assets/img/test.nb.groups.png)
+![2 groups](/assets/img/test.nb.groups.png)
 
 Looks pretty neat huh? Even with a terrible and completely random starting
 point, our learner manages to split up the data in a sensible way by finding a
@@ -236,7 +236,7 @@ stayed there in a stable state.
 
 Now what happens if we try finding 3 components in the data set?
 
-![3 groups](/academic-site/assets/img/test.nb.3.groups.png)
+![3 groups](/assets/img/test.nb.3.groups.png)
 
 Here we get a similar split, but not what we’re looking for. Our mixture model gets all befuddled with the group on the bottom left and tries to flailingly split into two smaller groups. If you run this a couple times, you’ll see that it does the same thing with the two green groups, it can’t split them evenly as you’d expect.
 
