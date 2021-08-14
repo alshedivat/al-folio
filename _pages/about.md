@@ -8,6 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
 
+blog: true
 news: true
 selected_papers: true
 social: true
