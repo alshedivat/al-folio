@@ -39,11 +39,11 @@ center point, and for the variance, or inverse precision. So let’s say our two
 distributions have these two parametrizations: and . Here’s a nice density plot
 of these two distributions together:
 
-![Two Gaussians](/assets/img/two_univariate_gaussians.png)
+![Two Gaussians](/assets/img/2012/two_univariate_gaussians.png)
 
 Now let’s look at what the Gamma distribution can do if we sample from it with the “proper” parameters (which I’ll point out later on).
 
-![Two Gammas](/assets/img/gamma_breeze_samples.png)
+![Two Gammas](/assets/img/2012/gamma_breeze_samples.png)
 
 It looks like a good approximation of what we know the two variance values to
 be and the samples can be generated really easily with Scala’s
@@ -57,7 +57,7 @@ library](https://dst.lbl.gov/ACSSoftware/colt/).  What happens if we take the
 parameters we passed into breeze and passed them to these libraries? What comes
 out? Let’s See!
 
-![Comparing two Gammas](/assets/img/gamma_comparison_samples.png)
+![Comparing two Gammas](/assets/img/2012/gamma_comparison_samples.png)
 
 That looks kinda funky. What’s going on? This exposes the difference between
 the two main flavors of this distribution: two related but poorly explained
@@ -84,7 +84,7 @@ read the Colt javadoc more carefully, we can figure out that they use the rate
 and not the scale, but it’s never totally obvious in their documentation. So if
 we fix that in our parameterization, we get this agreeable set of plots:
 
-![Fixed two Gammas](/assets/img/gamma_comparison_fixed_samples.png)
+![Fixed two Gammas](/assets/img/2012/gamma_comparison_fixed_samples.png)
 
 That’s much better looking.
 
@@ -147,7 +147,7 @@ the purpose I’ve described. BUT he gives this parameterization:
 
 Throw this into our sampling code and we get this rediculous plot:
 
-![Infinite Gammas](/assets/img/gamma_comparison_samples_ras.png)
+![Infinite Gammas](/assets/img/2012/gamma_comparison_samples_ras.png)
 
 Which is totally wrong. So what gives? Well, at a much later date, Mr.
 Rasmussen points out that as he defines them, the two parameters are slightly
