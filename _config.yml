@@ -8,14 +8,14 @@ middle_name:
 last_name: Chiquet
 email: # julien.chiquet@inrae.fr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Professional web page of Julien Chiquet
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 icon: 🎸 # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
+baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -74,8 +74,8 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: jchiquet  # your blog must have a name for it to show up in the nav bar
+blog_description: some slow thoughts
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -157,8 +157,11 @@ scholar:
   style: apa
   locale: en
 
+  sort_by: year, month
+  order: descending, descending
+
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: chiquet_journal.bib
   bibliography_template: bib
 
   replace_strings: true
@@ -176,8 +179,8 @@ scholar:
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:    false  # enables google analytics
-enable_panelbear_analytics: true   # enables panelbear analytics
-enable_mansory:             true   # enables automatic project cards arangement
+enable_panelbear_analytics: false  # enables panelbear analytics
+enable_mansory:             false  # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
