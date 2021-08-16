@@ -1,10 +1,3 @@
----
-title: "ISV51 -- Programmation sous R"
-author: 'Copie de PRÉNOM NOM '
-date: "devoir d'automne 2015 -- 1h30"
-output: html_document
----
-
 ## Exercice 1: absorption de dioxyde de carbone chez les graminées.
 
 1. Combien y a t-il d'individus ? Quelles sont les variables qualitatives ? Quantitatives ? 
