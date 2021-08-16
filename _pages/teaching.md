@@ -5,7 +5,7 @@ title: teaching
 description: Materials for some of the courses I taught
 nav: true
 display_categories: [teaching]
-horizontal: false
+horizontal: true
 ---
 
 <div class="projects">
