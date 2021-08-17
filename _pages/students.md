@@ -5,7 +5,7 @@ permalink: /students/
 description: past and current graduated students
 nav: true
 display_categories: ['PhD student', postdoc]
-horizontal: false
+horizontal: true
 ---
 
 <div class="projects">

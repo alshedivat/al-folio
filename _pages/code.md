@@ -5,7 +5,7 @@ permalink: /code/
 description: selection of code projects
 nav: true
 display_categories: [code]
-horizontal: false
+horizontal: true
 ---
 
 Most of my public code is availble on my [github
