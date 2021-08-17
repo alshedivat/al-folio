@@ -8,8 +8,8 @@ display_categories: [code]
 horizontal: true
 ---
 
-Most of my public code is availble on my [github
-page](https://github.com/jchiquet). Some selected projects are pined :pushpin: :star:
+Most of my public code is available on my [github
+page](https://github.com/jchiquet). Some selected projects are pinned :pushpin: :star:
 here.
 
 <div class="projects">
