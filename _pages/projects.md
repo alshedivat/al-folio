@@ -3,7 +3,7 @@ layout: page
 title: Resources
 permalink: /resources/
 description: A growing collection of cool resources.
-nav: true
+nav: false
 display_categories: [work, fun]
 horizontal: false
 ---
