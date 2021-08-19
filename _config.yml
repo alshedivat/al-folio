@@ -8,7 +8,7 @@ first_name: Letao
 last_name: Wang
 # email: you@example.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. Hi. I am Letao Wang, an undergraduate student at University of Virginia. I also go by Diego. Thanks for visiting my website!
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
