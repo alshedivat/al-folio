@@ -14,7 +14,7 @@ footer_text: >
 favorite_quote: >
   <em>The brick walls are there for a reason. The brick walls are not there to keep us out. The brick walls are there to give us a chance to show how badly we want something</em> -- <a href="https://en.wikipedia.org/wiki/Randy_Pausch">Randy Pausch</a>
 
-icon: 🔥 # the emoji used as the favicon
+# icon: # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
