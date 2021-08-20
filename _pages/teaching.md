@@ -7,6 +7,7 @@ nav: true
 ---
 
 ### Teaching Courses
+* MTH 132, Calculus I, MSU, Fall 2021
 * MTH 496, Machine Learning (Capstone course), MSU, Spring 2021
 * MTH 496, Machine Learning (Capstone course), MSU, Fall 2020
 
