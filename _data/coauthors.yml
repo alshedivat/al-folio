@@ -1,18 +1,58 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Lao":
+  - firstname: ["Yingjie"]
+    url: http://ylao.people.clemson.edu/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+"Zhao":
+  - firstname: ["Weijie"]
     url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Reddy":
+  - firstname: ["Chandan K.", "Chandan K"]
+    url: https://people.cs.vt.edu/reddy/index.html
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Li":
+  - firstname: ["Ping"]
+    url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+"Selvaraj":
+  - firstname: ["Sathiya K.", "Sathiya K", "Sathiya"]
+    url: http://www.keerthis.com/
+
+"Manchanda":
+  - firstname: ["Saurav"]
+    url: https://gurdaspuriya.github.io/
+"Badirli":
+  - firstname: ["Sarkhan"]
+    url: https://scholar.google.com/citations?user=Mkaq4VYAAAAJ&hl=en
+
+"Wang":
+  - firstname: ["Fengjiao"]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+
+"Xing":
+  - firstname: ["Zhengming"]
+    url: https://zmxing.github.io/
+
+"Liu":
+  - firstname: ["Xuanqing"]
+    url: https://zmxing.github.io/
+
+"Bhowmik":
+  - firstname: ["Avradeep"]
+    url: https://zmxing.github.io/
+
+"Yang":
+  - firstname: ["Guolei"]
+    url: https://zmxing.github.io/
+
+"Kuo":
+  - firstname: ["Kwo-Sen"]
+    url: https://www.linkedin.com/in/kwo-sen-kuo-9a12b536
+
+"Clune":
+  - firstname: ["Thomas L", "Thomas"]
+    url: https://science.gsfc.nasa.gov/sed/bio/thomas.l.clune
+
+"Yu":
+  - firstname: ["Hongfeng"]
+    url: http://vis.unl.edu/~yu/

@@ -222,6 +222,27 @@ blockquote {
   }
 }
 
+.social-small {
+  text-align: center;
+  .contact-icons {
+    font-size: 2rem;
+    a {
+      i::before {
+        color: var(--global-text-color);
+        -webkit-transition: all 0.2s ease-in-out;
+      }
+      &:hover {
+        i::before {
+          color: var(--global-theme-color);
+        }
+      }
+    }
+  }
+  .contact-note {
+    font-size: 0.8rem;
+  }
+}
+
 
 // Footer
 footer.fixed-bottom {
