@@ -2,17 +2,19 @@
 ---
 
 <div class="row">
-  <div class="col-sm-2 abbr">
+  <div class="col-sm-1 abbr">
   {% if entry.abbr %}
+    <div>
     {% if site.data.venues[entry.abbr] %}
     <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
     {% else %}
     <abbr class="badge">{{entry.abbr}}</abbr>
     {% endif %}
+    </div>
   {% endif %}
   </div>
 
-  <div id="{{entry.key}}" class="col-sm-8">
+  <div id="{{entry.key}}" class="col-sm-9">
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
@@ -145,6 +147,16 @@
     <div class="bibtex hidden">
       {% highlight bibtex %}{{ entry.bibtex }}{% endhighlight %}
     </div>
+    {% endif %}
+  </div>
+
+  <div class="col-sm-2">
+    {% if entry.teaser %}
+      <div>
+        <a href="{{ entry.teaser | prepend: '/assets/img/' | relative_url }}">
+          <img class="z-depth-1 rounded img-thumbnail" src="{{ entry.teaser | prepend: '/assets/img/' | relative_url }}">
+        </a>
+      </div>
     {% endif %}
   </div>
 </div>
