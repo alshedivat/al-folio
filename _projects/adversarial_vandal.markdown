@@ -79,3 +79,5 @@ Finally, let's draw curves on top of raster image aiming to create adversarial e
 <div class="caption">
     Adversarial examples creating by drawing 10 bezier curves on top of a raster image. After placing them at random we optimize curve parameters (positions, width, color) to maximize classification score for a target class.
 </div>
+
+> Upd: A bit of inspiration in my [blogpost](/blog/2021/adversarial-art/)
