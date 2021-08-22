@@ -53,6 +53,10 @@ blockquote {
   margin-bottom: 2rem;
 }
 
+.publication-title{
+  font-weight: bold;
+}
+
 .profile {
   margin-top: -1.5rem;
   margin-left: 1rem;
@@ -88,6 +92,18 @@ blockquote {
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
+  a {
+    color: inherit;
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
+.publication-description {
+  margin-bottom: -1rem;
+  font-size: 0.875rem;
+  font-weight: bolder;
   a {
     color: inherit;
     &:hover {
@@ -397,6 +413,7 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: 0.5rem;
     text-align: left;
+    font-weight: bolder;
   }
   ol.bibliography {
     list-style: none;
