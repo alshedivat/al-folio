@@ -49,11 +49,22 @@ blockquote {
 }
 
 // Profile
+.post-title{
+  margin-bottom: 2rem;
+}
 
 .profile {
+  margin-top: -1.5rem;
   margin-left: 1rem;
+  margin-bottom: 1rem;
   width: 100%;
-
+  .img-fluid{
+    max-height: 250px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
