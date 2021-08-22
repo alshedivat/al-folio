@@ -2,12 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: # the website title (if blank, full name will be used instead)
+title: Pedro Porto Buarque de Gusmão, PhD # the website title (if blank, full name will be used instead)
 first_name: Pedro 
 middle_name: 
 last_name: Porto Buarque de Gusmão
 email: pedro@portobgusmao.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+# description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description: > 
   
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -15,7 +16,8 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 icon: 💻 # the emoji used as the favicon
-url:  portobgusmao.com # the base hostname & protocol for your site
+domain: portobgusmao.com
+url:  https://www.portobgusmao.com # the base hostname & protocol for your site
 baseurl: / # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -66,7 +68,7 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 
 contact_note: >
-  You can reach me through e-mail. 
+  The best way to reach me is via e-mail. 
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
@@ -75,7 +77,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Blog # your blog must have a name for it to show up in the nav bar
+blog_name: # your blog must have a name for it to show up in the nav bar
 blog_description: About Stuff.
 permalink: /blog/:year/:title/
 
@@ -184,7 +186,7 @@ enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
+enable_navbar_social:       true # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories

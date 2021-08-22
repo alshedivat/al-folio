@@ -1,96 +1,264 @@
+---
+---
+
+@string{aps = {American Physical Society,}}
+@string{icra = {International Conference on Robotics and Automation,}}
+@string{iccv = {International Conference on Computer Vision,}}
+
+@article{PhysRev.47.777,
+  abbr      = {PhysRev},
+  title     = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
+  author    = {Einstein, A. and Podolsky, B. and Rosen, N.},
+  abstract  = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
+  journal   = {Phys. Rev.,},
+  volume    = {47},
+  issue     = {10},
+  pages     = {777--780},
+  numpages  = {0},
+  year      = {1021},
+  month     = {May},
+  publisher = aps,
+  doi       = {10.1103/PhysRev.47.777},
+  url       = {http://link.aps.org/doi/10.1103/PhysRev.47.777},
+  html      = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+  pdf       = {example_pdf.pdf}
+}
+
+@article{DBLP:journals/corr/abs-2104-14297,
+  abbr        = {Pre-print},
+  author      = {Gao, Yan and
+               Parcollet, Titouan and
+               Fernandez-Marques, Javier and
+               Porto Buarque de Gusmao, Pedro and
+               Beutel, Daniel J. and
+               Lane, Nicholas D. },
+  title       = {End-to-End Speech Recognition from Federated Acoustic Models},
+  abstract    = {Training Automatic Speech Recognition (ASR) models under federated learning (FL) settings has attracted a lot of attention recently. However, the FL scenarios often presented in the literature are artificial and fail to capture the complexity of real FL systems. In this paper, we construct a challenging and realistic ASR federated experimental setup consisting of clients with heterogeneous data distributions using the French and Italian sets of the CommonVoice dataset, a large heterogeneous dataset containing thousands of different speakers, acoustic environments and noises. We present the first empirical study on attention-based sequence-to-sequence End-to-End (E2E) ASR model with three aggregation weighting strategies -- standard FedAvg, loss-based aggregation and a novel word error rate (WER)-based aggregation, compared in two realistic FL scenarios: cross-silo with 10 clients and cross-device with 2K and 4K clients. Our analysis on E2E ASR from heterogeneous and realistic federated acoustic models provides the foundations for future research and development of realistic FL-based ASR applications.},
+  journal     = {arXiv preprint arXiv:2104.14297},
+  volume      = {abs/2104.14297},
+  bibtex_show = {true},
+  year        = {2021},
+  html        = {https://arxiv.org/abs/2104.14297}
+}
+@article{DBLP:journals/corr/abs-2007-14390,
+  abbr        = {Pre-print},
+  author      = {Beutel, Daniel J. and
+               Topal, Taner and
+               Mathur, Akhil and
+               Qiu, Xinchi and
+               Parcollet, Titouan  and
+               Porto Buarque de Gusmao, Pedro and
+               Lane, Nicholas D.},
+  title       = {Flower: A Friendly Federated Learning Research Framework},
+  journal     = {CoRR},
+  volume      = {abs/2007.14390},
+  bibtex_show = {true},
+  abstract    = {Federated Learning (FL) has emerged as a promising technique for edge devices to collaboratively learn a shared prediction model, while keeping their training data on the device, thereby decoupling the ability to do machine learning from the need to store the data in the cloud. However, FL is difficult to implement and deploy in practice, considering the heterogeneity in mobile devices, e.g., different programming languages, frameworks, and hardware accelerators. Although there are a few frameworks available to simulate FL algorithms (e.g., TensorFlow Federated), they do not support implementing FL workloads on mobile devices. Furthermore, these frameworks are designed to simulate FL in a server environment and hence do not allow experimentation in distributed mobile settings for a large number of clients. In this paper, we present Flower (https://flower.dev/), a FL framework which is both agnostic towards heterogeneous client environments and also scales to a large number of clients, including mobile and embedded devices. Flower's abstractions let developers port existing mobile workloads with little overhead, regardless of the programming language or ML framework used, while also allowing researchers flexibility to experiment with novel approaches to advance the state-of-the-art. We describe the design goals and implementation considerations of Flower and show our experiences in evaluating the performance of FL across clients with heterogeneous computational and communication capabilities. },
+  selected    = {true},
+  year        = {2021},
+  html        = {https://arxiv.org/abs/2007.14390}
+}
+
+@article{saputra2021graph,
+  abbr        = {Pre-Print},
+  title       = {Graph-based Thermal-Inertial SLAM with Probabilistic Neural Networks},
+  author      = {Risqi U. Saputra, Muhamad and
+               Xiaoxuan Lu, Chris and
+               Porto Buarque de Gusmao, Pedro and
+               Wang, Bing and
+               Markham, Andrew and
+               Trigoni, Niki },
+  journal     = {arXiv preprint arXiv:2104.07196},
+  abstract    = {Simultaneous Localization and Mapping (SLAM) system typically employ vision-based sensors to observe the surrounding environment. However, the performance of such systems highly depends on the ambient illumination conditions. In scenarios with adverse visibility or in the presence of airborne particulates (e.g. smoke, dust, etc.), alternative modalities such as those based on thermal imaging and inertial sensors are more promising. In this paper, we propose the first complete thermal-inertial SLAM system which combines neural abstraction in the SLAM front end with robust pose graph optimization in the SLAM back end. We model the sensor abstraction in the front end by employing probabilistic deep learning parameterized by Mixture Density Networks (MDN). Our key strategies to successfully model this encoding from thermal imagery are the usage of normalized 14-bit radiometric data, the incorporation of hallucinated visual (RGB) features, and the inclusion of feature selection to estimate the MDN parameters. To enable a full SLAM system, we also design an efficient global image descriptor which is able to detect loop closures from thermal embedding vectors. We performed extensive experiments and analysis using three datasets, namely self-collected ground robot and handheld data taken in indoor environment, and one public dataset (SubT-tunnel) collected in underground tunnel. Finally, we demonstrate that an accurate thermal-inertial SLAM system can be realized in conditions of both benign and adverse visibility. },
+  bibtex_show = {true},
+  selected    = {true},
+  html        = {https://arxiv.org/abs/2104.07196},
+  year        = {2021}
+}
+@article{almalioglu2019selfvio,
+  abbr        = {Pre-Print},
+  title       = {SelfVIO: Self-supervised Deep Monocular Visual-Inertial Odometry and Depth Estimation},
+  author      = {Almalioglu,Yasin and
+               Turan, Mehmet and
+               Sari, Alp Eren and
+               Risqi U. Saputra, Muhamad and
+               Porto Buarque de Gusmao, Pedro and
+               Markham, Andrew and
+               Trigoni, Niki},
+  abstract    = {In the last decade, numerous supervised deep learning approaches requiring large amounts of labeled data have been proposed for visual-inertial odometry (VIO) and depth map estimation. To overcome the data limitation, self-supervised learning has emerged as a promising alternative, exploiting constraints such as geometric and photometric consistency in the scene. In this study, we introduce a novel self-supervised deep learning-based VIO and depth map recovery approach (SelfVIO) using adversarial training and self-adaptive visual-inertial sensor fusion. SelfVIO learns to jointly estimate 6 degrees-of-freedom (6-DoF) ego-motion and a depth map of the scene from unlabeled monocular RGB image sequences and inertial measurement unit (IMU) readings. The proposed approach is able to perform VIO without the need for IMU intrinsic parameters and/or the extrinsic calibration between the IMU and the camera. estimation and single-view depth recovery network. We provide comprehensive quantitative and qualitative evaluations of the proposed framework comparing its performance with state-of-the-art VIO, VO, and visual simultaneous localization and mapping (VSLAM) approaches on the KITTI, EuRoC and Cityscapes datasets. Detailed comparisons prove that SelfVIO outperforms state-of-the-art VIO approaches in terms of pose estimation and depth recovery, making it a promising approach among existing methods in the literature. },
+  journal     = {arXiv preprint arXiv:1911.09968},
+  url         = {https://arxiv.org/abs/1911.09968},
+  bibtex_show = {true},
+  year        = {2021}
+}
+@inproceedings{mathur2021device,
+  abbr        = {MLSys},
+  title       = {On-device Federated Learning with Flower},
+  author      = {Mathur, Akhil and Beutel, Daniel J. and Porto Buarque de Gusmao, Pedro and Fernandez-Marques, Javier and Topal, Taner and Qiu, Xinchi and Parcollet, Titouan and Gao, Yan and Lane, Nicholas D},
+  abstract    = {Federated Learning (FL) allows edge devices to collaboratively learn a shared prediction model while keeping their training data on the device, thereby decoupling the ability to do machine learning from the need to store data in the cloud. Despite the algorithmic advancements in FL, the support for on-device training of FL algorithms on edge devices remains poor. In this paper, we present an exploration of on-device FL on various smartphones and embedded devices using the Flower framework. We also evaluate the system costs of on-device FL and discuss how this quantification could be used to design more efficient FL algorithms.},
+  bibtex_show = {true},
+  workshop    = {arXiv preprint arXiv:2104.03042},
+  url         = {https://arxiv.org/abs/2104.03042},
+  year        = {2021},
+  maintitle   = {Fourth Conference on Machine Learning and Systems (MLSys)},
+  booktitle   = {On-device Intelligence Workshop (MLSys)}
+}
+
 @inproceedings{wang2020radarloc,
-  title     = {RadarLoc: Learning to Relocalize in FMCW Radar},
-  author    = {Wang, Wei and de Gusmao, Pedro PB and Yang, Bo and Markham, Andrew and Trigoni, Niki and Zhou, Kaichen and Chen, Changhao and Wang, Bing and Saputra, Muhamad Risqi U and Trigoni, Niki and others},
-  booktitle = {IEEE International Conference on Robotics and Automation},
-  year      = {2020}
+  abbr        = {ICRA},
+  title       = {RadarLoc: Learning to Relocalize in FMCW Radar},
+  author      = {Wang, Wei and
+                 Porto Buarque de Gusmao, Pedro and
+                 Yang, Bo and
+                 Markham, Andrew and
+                 Trigoni, Niki},
+  booktitle   = {IEEE International Conference on Robotics and Automation},
+  year        = {2021},
+  bibtex_show = {true},
+  selected    = {true}
 }
 @inproceedings{lu2020milliego,
-  title     = {milliEgo: single-chip mmWave radar aided egomotion estimation via deep sensor fusion},
-  author    = {Lu, Chris Xiaoxuan and Saputra, Muhamad Risqi U and Zhao, Peijun and Almalioglu, Yasin and de Gusmao, Pedro PB and Chen, Changhao and Sun, Ke and Trigoni, Niki and Markham, Andrew},
-  booktitle = {Proceedings of the 18th Conference on Embedded Networked Sensor Systems},
-  pages     = {109--122},
-  year      = {2020}
+  abbr        = {ACM SenSys},
+  title       = {milliEgo: single-chip mmWave radar aided egomotion estimation via deep sensor fusion},
+  author      = {Lu, Chris Xiaoxuan and
+                 Risqi U. Saputra, Muhamad and
+                 Zhao, Peijun and
+                 Almalioglu, Yasin and
+                 Port Buarque de Gusmao, Pedro and
+                 Chen, Changhao and
+                 Sun, Ke and
+                 Trigoni, Niki and
+                 Markham, Andrew},
+  booktitle   = {Proceedings of the 18th Conference on Embedded Networked Sensor Systems},
+  pages       = {109--122},
+  year        = {2020},
+  bibtex_show = {true}
 }
-@article{saputra2020deeptio,
-  title     = {Deeptio: A deep thermal-inertial odometry with visual hallucination},
-  author    = {Saputra, Muhamad Risqi U and de Gusmao, Pedro PB and Lu, Chris Xiaoxuan and Almalioglu, Yasin and Rosa, Stefano and Chen, Changhao and Wahlstr{\"o}m, Johan and Wang, Wei and Markham, Andrew and Trigoni, Niki},
-  journal   = {IEEE Robotics and Automation Letters},
-  volume    = {5},
-  number    = {2},
-  pages     = {1672--1679},
-  year      = {2020},
-  publisher = {IEEE}
+@article{8968430,
+  abbr        = {RA-L},
+  author      = {Saputra, Muhamad Risqi U. and
+                Porto Buarque de Gusmao, Pedro and
+                Lu, Chris Xiaoxuan and
+                Almalioglu, Yasin and
+                Rosa, Stefano and
+                Chen, Changhao and
+                Wahlström, Johan and
+                Wang, Wei and
+                Markham, Andrew and
+                Trigoni, Niki},
+  journal     = {IEEE Robotics and Automation Letters},
+  title       = {DeepTIO: A Deep Thermal-Inertial Odometry With Visual Hallucination},
+  year        = {2020},
+  volume      = {5},
+  number      = {2},
+  pages       = {1672-1679},
+  doi         = {10.1109/LRA.2020.2969170},
+  bibtex_show = {true}
 }
-@article{wahlstrom2019sensor,
-  title     = {Sensor fusion for magneto-inductive navigation},
-  author    = {Wahlstr{\"o}m, Johan and Kok, Manon and de Gusmao, Pedro Porto Buarque and Abrudan, Traian E and Trigoni, Niki and Markham, Andrew},
-  journal   = {IEEE Sensors Journal},
-  volume    = {20},
-  number    = {1},
-  pages     = {386--396},
-  year      = {2019},
-  publisher = {IEEE}
+@article{8844709,
+  abbr        = {Sensors Journal},
+  author      = {Wahlström, Johan and Kok, Manon and Porto Buarque de Gusmão, Pedro and Abrudan, Traian E. and Trigoni, Niki and Markham, Andrew},
+  journal     = {IEEE Sensors Journal},
+  title       = {Sensor Fusion for Magneto-Inductive Navigation},
+  year        = {2020},
+  volume      = {20},
+  number      = {1},
+  pages       = {386-396},
+  doi         = {10.1109/JSEN.2019.2942451},
+  bibtex_show = {true}
 }
-@inproceedings{wahlstrom2019map,
-  title        = {Map-aided navigation for emergency searches},
-  author       = {Wahlstr{\"o}m, Johan and de Gusmao, Pedro Porto Buarque and Markham, Andrew and Trigoni, Niki},
-  booktitle    = {2019 15th International Conference on Distributed Computing in Sensor Systems (DCOSS)},
-  pages        = {25--32},
-  year         = {2019},
-  organization = {IEEE}
+@inproceedings{8804785,
+  abbr        = {DCOSS},
+  author      = {Wahlström, Johan and Porto Buarque de Gusmão, Pedro and Markham, Andrew and Trigoni, Niki},
+  booktitle   = {2019 15th International Conference on Distributed Computing in Sensor Systems (DCOSS)},
+  title       = {Map-aided Navigation for Emergency Searches},
+  year        = {2019},
+  volume      = {},
+  number      = {},
+  pages       = {25-32},
+  bibtex_show = {true},
+  doi         = {10.1109/DCOSS.2019.00027}
 }
-@inproceedings{almalioglu2019ganvo,
-  title        = {GANVO: Unsupervised deep monocular visual odometry and depth estimation with generative adversarial networks},
-  author       = {Almalioglu, Yasin and Saputra, Muhamad Risqi U and de Gusmao, Pedro PB and Markham, Andrew and Trigoni, Niki},
-  booktitle    = {2019 International conference on robotics and automation (ICRA)},
-  pages        = {5474--5480},
-  year         = {2019},
-  organization = {IEEE}
+@inproceedings{8793512,
+  abbr        = {ICRA},
+  author      = {Almalioglu, Yasin and Saputra, Muhamad Risqi U. and Gusmão, Pedro P. B. de and Markham, Andrew and Trigoni, Niki},
+  booktitle   = {2019 International Conference on Robotics and Automation (ICRA)},
+  title       = {GANVO: Unsupervised Deep Monocular Visual Odometry and Depth Estimation with Generative Adversarial Networks},
+  year        = {2019},
+  volume      = {},
+  number      = {},
+  pages       = {5474-5480},
+  bibtex_show = {true},
+  doi         = {10.1109/ICRA.2019.8793512}
 }
-@inproceedings{saputra2019learning,
-  title        = {Learning monocular visual odometry through geometry-aware curriculum learning},
-  author       = {Saputra, Muhamad Risqi U and de Gusmao, Pedro PB and Wang, Sen and Markham, Andrew and Trigoni, Niki},
-  booktitle    = {2019 International Conference on Robotics and Automation (ICRA)},
-  pages        = {3549--3555},
-  year         = {2019},
-  organization = {IEEE}
+@inproceedings{8793581,
+  abbr        = {ICRA},
+  author      = {Saputra, Muhamad Risqi U. and de Gusmao, Pedro P. B. and Wang, Sen and Markham, Andrew and Trigoni, Niki},
+  booktitle   = {2019 International Conference on Robotics and Automation (ICRA)},
+  title       = {Learning Monocular Visual Odometry through Geometry-Aware Curriculum Learning},
+  year        = {2019},
+  volume      = {},
+  number      = {},
+  pages       = {3549-3555},
+  bibtex_show = {true},
+  doi         = {10.1109/ICRA.2019.8793581}
 }
-@inproceedings{saputra2019distilling,
-  title     = {Distilling knowledge from a deep pose regressor network},
-  author    = {Saputra, Muhamad Risqi U and De Gusmao, Pedro PB and Almalioglu, Yasin and Markham, Andrew and Trigoni, Niki},
-  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  pages     = {263--272},
-  year      = {2019}
+@inproceedings{9009104,
+  abbr        = {ICCV},
+  author      = {Saputra, Muhamad Risqi U. and Gusmao, Pedro and Almalioglu, Yasin and Markham, Andrew and Trigoni, Niki},
+  booktitle   = {2019 IEEE/CVF International Conference on Computer Vision (ICCV)},
+  title       = {Distilling Knowledge From a Deep Pose Regressor Network},
+  year        = {2019},
+  bibtex_show = {true},
+  volume      = {},
+  number      = {},
+  pages       = {263-272},
+  doi         = {10.1109/ICCV.2019.00035}
 }
-@inproceedings{wang2019deeppco,
-  title        = {DeepPCO: End-to-end point cloud odometry through deep parallel neural network},
-  author       = {Wang, Wei and Saputra, Muhamad Risqi U and Zhao, Peijun and Gusmao, Pedro and Yang, Bo and Chen, Changhao and Markham, Andrew and Trigoni, Niki},
-  booktitle    = {2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  pages        = {3248--3254},
-  year         = {2019},
-  organization = {IEEE}
+@inproceedings{8967756,
+  abbr        = {IROS},
+  author      = {Wang, Wei and Saputra, Muhamad Risqi U. and Zhao, Peijun and Gusmao, Pedro and Yang, Bo and Chen, Changhao and Markham, Andrew and Trigoni, Niki},
+  booktitle   = {2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  title       = {DeepPCO: End-to-End Point Cloud Odometry through Deep Parallel Neural Network},
+  bibtex_show = {true},
+  year        = {2019},
+  volume      = {},
+  number      = {},
+  pages       = {3248-3254},
+  doi         = {10.1109/IROS40897.2019.8967756}
 }
-@inproceedings{rizvi2016gabor,
-  title        = {Gabor filter based image representation for object classification},
-  author       = {Rizvi, Syed Tahir Hussain and Cabodi, Gianpiero and Gusmao, Pedro and Francini, Gianluca},
-  booktitle    = {2016 International Conference on Control, Decision and Information Technologies (CoDIT)},
-  pages        = {628--632},
-  year         = {2016},
-  organization = {IEEE}
+@inproceedings{7593635,
+  abbr        = {CoDIT},
+  author      = {Rizvi, Syed Tahir Hussain and Cabodi, Gianpiero and Gusmao, Pedro and Francini, Gianluca},
+  booktitle   = {2016 International Conference on Control, Decision and Information Technologies (CoDIT)},
+  title       = {Gabor filter based image representation for object classification},
+  year        = {2016},
+  bibtex_show = {true},
+  volume      = {},
+  number      = {},
+  pages       = {628-632},
+  doi         = {10.1109/CoDIT.2016.7593635}
 }
-@inproceedings{de2015loop,
-  title        = {Loop detection in robotic navigation using MPEG CDVS},
-  author       = {de Gusm{\~a}o, Pedro PB and Rosa, Stefano and Magli, Enrico and Leps{\o}y, Skjalg and Francini, Gianluca},
-  booktitle    = {2015 IEEE 17th International Workshop on Multimedia Signal Processing (MMSP)},
-  pages        = {1--6},
-  year         = {2015},
-  organization = {IEEE}
+@inproceedings{7340871,
+  author      = {de Gusmao, Pedro P. B. and Rosa, Stefano and Magli, Enrico and Lepsøy, Skjalg and Francini, Gianluca},
+  booktitle   = {2015 IEEE 17th International Workshop on Multimedia Signal Processing (MMSP)},
+  title       = {Loop detection in robotic navigation using MPEG CDVS},
+  year        = {2015},
+  bibtex_show = {true},
+  volume      = {},
+  number      = {},
+  pages       = {1-6},
+  doi         = {10.1109/MMSP.2015.7340871}
 }
-@inproceedings{lepsoy2011statistical,
-  title        = {Statistical modelling of outliers for fast visual search},
-  author       = {Leps{\o}y, Skjalg and Francini, Gianluca and Cordara, Giovanni and de Gusmao, Pedro Porto Buarque},
-  booktitle    = {2011 IEEE International Conference on Multimedia and Expo},
-  pages        = {1--6},
-  year         = {2011},
-  organization = {IEEE}
+@inproceedings{6012184,
+  abbr        = {ICME},
+  author      = {Lepsøy, Skjalg and Francini, Gianluca and Cordara, Giovanni and de Gusmao, Pedro Porto Buarque},
+  booktitle   = {2011 IEEE International Conference on Multimedia and Expo},
+  title       = {Statistical modelling of outliers for fast visual search},
+  year        = {2011},
+  bibtex_show = {true},
+  volume      = {},
+  number      = {},
+  pages       = {1-6},
+  doi         = {10.1109/ICME.2011.6012184}
 }
