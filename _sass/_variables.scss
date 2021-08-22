@@ -12,6 +12,8 @@ $blue-color:          #0076df !default;
 $blue-color-dark:     #00369f !default;
 $cyan-color:          #2698BA !default;
 $light-cyan-color:    lighten($cyan-color, 25%);
+$clova-color: #03dac6 !default;
+$light-clova-color:    lighten($clova-color, 25%);
 $green-color:         #00ab37 !default;
 $green-color-lime:    #B7D12A !default;
 $green-color-dark:    #009f06 !default;
@@ -26,13 +28,21 @@ $yellow-color:        #efcc00 !default;
 $grey-color:          #828282 !default;
 $grey-color-light:    lighten($grey-color, 40%);
 $grey-color-dark:     darken($grey-color, 25%);
+$bg-dark-color:          #303030 !default;
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+$bg-white-color: #FAFAFC !default;
+$text-black-color: #262924 !default;
+
+// BLUE - 0F3041, ORANGE - CD5F3A, GREEN - 457778, BROWN - 5B132B
+$mytheme-color: #dc3e23 !default;
+$light-mytheme-color:  lighten($mytheme-color, 25%);
+
 
 // Theme colors
 
-$code-bg-color-light:     rgba($purple-color, 0.05);
+$code-bg-color-light:     rgba($mytheme-color, 0.05);
 $code-bg-color-dark:      #2c3237 !default;
 
