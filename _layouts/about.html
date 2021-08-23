@@ -28,6 +28,21 @@ layout: default
     <div class="clearfix">
       {{ content }}
     </div>
+    
+    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xleaozyd" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@gmail.com" required="">
+    <label for="phone-no" name="call" id="phone-no">Phone Number</label>
+    <input type="tel" maxlength="10" pattern="\d{10}" title="Please enter exactly 10 digits" placeholder="9876543210"/>
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="Please write your message." required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
 
     {% if page.news %}
       {% include news.html %}
