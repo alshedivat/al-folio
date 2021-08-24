@@ -6,12 +6,12 @@ title: Raza Hashmi # the website title (if blank, full name will be used instead
 first_name: Raza
 middle_name:
 last_name: Hashmi
-email: razahashmi93@gmai.com
+email: razahashmi93@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A window into the projects that I worked/currently working on
-footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+#footer_text: >
+#  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+#  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 icon: 🔥 # the emoji used as the favicon
 url: "" # the base hostname & protocol for your site
