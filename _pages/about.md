@@ -9,17 +9,17 @@ profile:
   align: right
   image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # address: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm Georg, an incoming PhD student at the [University of St Andrews](https://www.st-andrews.ac.uk){:target="\_blank"} in Scotland, advised by [Ognjen Arandjelović](http://oa7.host.cs.st-andrews.ac.uk){:target="\_blank"}.
+I'm Georg, a PhD student at the [University of St Andrews](https://www.st-andrews.ac.uk){:target="\_blank"} in Scotland, advised by [Ognjen Arandjelović](http://oa7.host.cs.st-andrews.ac.uk){:target="\_blank"}.
 Prior to this, I studied an integrated master's (MSci) in Computer Science at the same university.
 My research lies at the intersection of computer vision, deep learning, and digital pathology.
 
