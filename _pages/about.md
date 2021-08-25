@@ -8,8 +8,9 @@ profile:
   align: right
   image: Yikai_Wu.jpg
   address: >
-    <p>908 Derbe Ln</p>
-    <p>Blacksburg, VA 24060</p>
+    <p>305 George St</p>
+    <p>Apt 3M</p>
+    <p>New Haven, CT 24060</p>
     <p>United States</p>
 
 news: false  # includes a list of news items
