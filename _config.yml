@@ -21,6 +21,12 @@ last_updated: true # set to true if you want to display last updated in the foot
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
+# RSS Feed
+# -----------------------------------------------------------------------------
+# will use title and url fields
+# Take a look to https://github.com/jekyll/jekyll-feed for more customization
+
+# -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
@@ -80,8 +86,9 @@ panelbear_analytics: # panelbear analytics site ID
 # pagination:
 #   enabled: true
 
-# # Comments
-# disqus_shortname: al-folio # put your disqus shortname
+# Comments
+#disqus_shortname: al-folio # put your disqus shortname
+# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -133,9 +140,11 @@ keep_files:
 plugins:
   - jekyll-email-protect
   - jekyll-github-metadata
+  - jekyll-feed
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-twitter-plugin
+  - jekyll-sitemap
   - jemoji
 
 # Extras
@@ -159,6 +168,7 @@ scholar:
 
   replace_strings: true
   join_strings: true
+  bibtex_filters:
 
   details_dir: bibliography
   details_layout: bibtex.html
@@ -202,7 +212,7 @@ jquery:
   version: "3.5.1"
   integrity: "sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
 mathjax:
-  version: "3.1.2"
+  version: "3.2.0"
 mansory:
   version: "4.2.2"
   integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
