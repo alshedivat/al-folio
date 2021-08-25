@@ -83,7 +83,7 @@ lecture recordings will be available at the same link on Canvas, following lectu
 In addition, I created a folder for slides with ink notes and share it with all students.
 The final Canvas module looks like below:
 
-<img src="/assets/img/2021-08-23-teams-teaching/onedrive-share.png" width="800">
+<img src="/assets/img/2021-08-23-teams-teaching/canvas-link.png" width="800">
 
 ## Classroom workflow
 
