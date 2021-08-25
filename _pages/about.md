@@ -10,7 +10,7 @@ profile:
   address: >
     <p>305 George St</p>
     <p>Apt 3M</p>
-    <p>New Haven, CT 24060</p>
+    <p>New Haven, CT 06511</p>
     <p>United States</p>
 
 news: false  # includes a list of news items
