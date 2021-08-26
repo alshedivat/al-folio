@@ -13,6 +13,7 @@ category: work
 - [Matthew Green](https://blog.cryptographyengineering.com/){:target="\_blank"}: Thoughts on Cryptographic Engineering.
 - [Hacker Factor](https://www.hackerfactor.com/){:target="\_blank"}: Cutting edge computer forensics research, Tor security.
 - [KrebsonSecurity](https://krebsonsecurity.com/){:target="\_blank"}: In-depth security news and investigation.
+- [Ryan Castellucci's blog](https://rya.nc/){:target="\_blank"}: Professional computer security researcher with an extensive background in Linux systems administration, computer networking, applied cryptography, and programming.
 - [Matt's Blog](https://matts-words.blogspot.com/){:target="\_blank"}: Vulnerability analysis and denial of service problems.
 - [Decentralized Thoughts](https://decentralizedthoughts.github.io/){:target="\_blank"}: Consensus and Agreement, Network model, and much more.
 - [ZKP science](https://zkp.science/){:target="\_blank"}: Zero-Knowledge Proofs: What are they, how do they work, and are they fast yet?
