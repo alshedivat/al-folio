@@ -136,7 +136,7 @@ github: [metadata]
 scholar:
 
   last_name: Park
-  first_name: [Young-Jin, Young, Young-Jin*]
+  first_name: [Young-Jin, Young, Young-Jin<sup>*</sup>]
 
   style: apa
   locale: en

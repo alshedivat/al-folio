@@ -85,12 +85,27 @@
       {{entry.year}}
       {% endif %}
       {% if entry.impact %}
-      (IF: {{entry.impact}})
+      [IF: {{entry.impact}}]
       {% endif %}
       {% if entry.award %}
       ({{entry.award}})
       {% endif %}
+<!--      {% if entry.proceedings %}-->
+<!--        (presented in {{entry.proceedings}}-->
+<!--        {% if entry.year %}-->
+<!--        {{entry.year}}-->
+<!--        {% endif %})-->
+<!--      {% endif %}-->
     </div>
+
+    {% if entry.proceedings %}
+    <div class="periodical">
+      <em>(presented in {{entry.proceedings}}
+      {% if entry.year %}
+      {{entry.year}} as well)
+      {% endif %}</em>
+    </div>
+    {% endif %}
     {% endif %}
 
     <div class="links">
