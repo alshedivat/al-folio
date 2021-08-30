@@ -7,7 +7,8 @@
       flex-wrap: nowrap;
     }
   </style>
-  <div class="{% if entry.selected %}col-sm-3 abbr{% else %}col-sm-0 abbr{% endif %}">
+  {% if entry.selected %}
+  <div class="col-sm-3 abbr">
     {% if entry.abbr %}
     {% if site.data.venues[entry.abbr] %}
     <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
@@ -19,8 +20,9 @@
     <img class="img-fluid z-depth-1 rounded" src="{{ entry.image | prepend: '/assets/img/' | relative_url }}">
     {% endif %}
   </div>
+  {% endif %}
 
-  <div id="{{entry.key}}" class="{% if entry.selected %}col-sm-7{% else %}col-sm-10{% endif %}">
+  <div id="{{entry.key}}" class="{% if entry.selected %}col-sm-9{% else %}col-sm-12 {% endif %}">
     {% if entry.type == "thesis" %}
     {{reference}}
     {% else %}

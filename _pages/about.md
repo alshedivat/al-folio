@@ -15,8 +15,8 @@ social: true  # includes social icons at the bottom of the page
 
 I'm an AI research engineer at <a href="https://clova.ai/en/research/research-areas.html">NAVER CLOVA</a>
  and <a href="https://naver-career.gitbook.io/en/teams/clova-cic">NAVER AI LAB</a>.
-My broad research interest is developing new machine learning algorithms that represent real-world phenomena.
-Currently, I'm researching <strong>representation learning for structured data</strong  > including graph representation learning and large-scale multivariate time-series prediction at NAVER.
+My broad research interest is in machine learning and its applications to real-world phenomena.
+In particular, I'm researching <strong>representation learning for structured data</strong  > including graph representation learning and large-scale multivariate time-series prediction at NAVER.
 
 [comment]: <> (In particular, I have researched latent variable modeling for temporal / relational data.)
 
