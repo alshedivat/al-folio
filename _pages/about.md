@@ -6,7 +6,7 @@ description: chenj159@msu.edu
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic.webp
   address: >
     <p>C114 Wells Hall, Department of Mathematics</p>
     <p>619 Red Cedar Road</p>
