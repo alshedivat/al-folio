@@ -2,7 +2,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>{% if site.title == "blank" %}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}{% if page.title and page.url != "/" %} | {{ page.title }}{% endif %}</title>
+<title>
+{% if site.title == "blank" %}
+  {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+{% else %}
+  {{ site.title }}
+{% endif %}
+{% if page.title != "blank" and page.url != "/" %}
+  | {{ page.title }}
+{% endif %}
+</title>
 <meta name="description" content="{{ site.description }}">
 
 <!-- Open Graph -->
@@ -25,7 +34,7 @@
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
 <!-- Code Syntax Highlighting -->
-<link rel="stylesheet" href="https://gitcdn.xyz/repo/jwarby/jekyll-pygments-themes/master/{{ site.highlight_theme }}.css" />
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/{{ site.highlight_theme }}.css" />
 
 <!-- Styles -->
 {% if site.icon != empty %}
@@ -33,8 +42,11 @@
 {% endif %}
 <!-- <link rel="icon" href="{{ '/assets/img/icon-32.png' | prepend: site.baseurl | prepend: site.url }}"> -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> b3237675354edb7af942ef667c09a2f21e9d80e8
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
 
 <!-- JQuery -->
@@ -42,21 +54,20 @@
 
 <!-- Theming-->
 {% if site.enable_darkmode %}
-  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
-  <!-- Load DarkMode JS -->
+<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
 {% endif %}
 
 {% if site.enable_google_analytics %}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
 
-    gtag('config', '{{ site.google_analytics }}');
-  </script>
+  gtag('config', '{{ site.google_analytics }}');
+</script>
 {% endif %}
 
 {% if site.enable_panelbear_analytics %}
