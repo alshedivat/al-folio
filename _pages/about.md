@@ -1,24 +1,32 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Master of science student at <a href="http://www.sharif.edu/" target="_blank">Sharif University of Technology</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Computer Engineering Department</p>
+    <p>Sharif University of Technology</p>
+    <p>Tehran, Iran</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+Hi, 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am Amir Pourmand (امیر پورمند - in Farsi). Currently, I'm pursuing my masters in `AI & Robotics` at Sharif University of Technology under supervision of [Prof. Hamid R. Rabiee](http://sharif.edu/~rabiee/){:target="\_blank"}. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+As a member of `Digital Media Laboratory`, I'm working on "automatic realtime polyp detection and clasification using XAI". 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I've also studied computer engineering at Yazd University. 
+
+I've worked as `software developer` in Amapardazesh company from ... to ... . That's why I know a lot about clean coding, software architectures and also amazing tools like git. 
+
+For my daily usage, I prefer to use GNU-Linux based OS like Kubuntu (KDE + Ubuntu). I love [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software){:target="\_blank"} and this is the main reason I migrated from windows to GNU-Linux. I'd love to call myself `computer geek`. 
+
+
+
