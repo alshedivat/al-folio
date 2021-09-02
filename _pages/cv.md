@@ -6,7 +6,7 @@ description: My education background and details about myself
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.webp
 news: false
 social: false
 nav: true
