@@ -1,0 +1,1345 @@
+Year;Country_Code;Country_Name;Host_city;Host_country;Gold;Silver;Bronze
+1932;(USA);United States;Los Angeles;United States;41;32;30
+1932;(ITA);Italy;Los Angeles;United States;12;12;12
+1932;(FRA);France;Los Angeles;United States;10;5;4
+1932;(SWE);Sweden;Los Angeles;United States;9;5;9
+1932;(JPN);Japan;Los Angeles;United States;7;7;4
+1932;(HUN);Hungary;Los Angeles;United States;6;4;5
+1932;(FIN);Finland;Los Angeles;United States;5;8;12
+1932;(GBR);Great Britain;Los Angeles;United States;4;7;5
+1932;(GER);Germany;Los Angeles;United States;3;12;5
+1932;(AUS);Australia;Los Angeles;United States;3;1;1
+1932;(ARG);Argentina;Los Angeles;United States;3;1;0
+1932;(CAN);Canada;Los Angeles;United States;2;5;8
+1932;(NED);Netherlands;Los Angeles;United States;2;5;0
+1932;(POL);Poland;Los Angeles;United States;2;1;4
+1932;(RSA);South Africa;Los Angeles;United States;2;0;3
+1932;(IRL);Ireland;Los Angeles;United States;2;0;0
+1932;(TCH);Czechoslovakia;Los Angeles;United States;1;2;1
+1932;(AUT);Austria;Los Angeles;United States;1;1;3
+1932;(IND);India;Los Angeles;United States;1;0;0
+1932;(DEN);Denmark;Los Angeles;United States;0;3;3
+1932;(MEX);Mexico;Los Angeles;United States;0;2;0
+1932;(LAT);Latvia;Los Angeles;United States;0;1;0
+1932;(NZL);New Zealand;Los Angeles;United States;0;1;0
+1932;(SUI);Switzerland;Los Angeles;United States;0;1;0
+1932;(PHI);Philippines;Los Angeles;United States;0;0;3
+1932;(ESP);Spain;Los Angeles;United States;0;0;1
+1932;(URU);Uruguay;Los Angeles;United States;0;0;1
+1928;(USA);United States;Amsterdam;Netherlands;22;18;16
+1928;(GER);Germany;Amsterdam;Netherlands;10;7;14
+1928;(FIN);Finland;Amsterdam;Netherlands;8;8;9
+1928;(SWE);Sweden;Amsterdam;Netherlands;7;6;12
+1928;(ITA);Italy;Amsterdam;Netherlands;7;5;7
+1928;(SUI);Switzerland;Amsterdam;Netherlands;7;4;4
+1928;(FRA);France;Amsterdam;Netherlands;6;10;5
+1928;(NED);Netherlands;Amsterdam;Netherlands;6;9;4
+1928;(HUN);Hungary;Amsterdam;Netherlands;4;5;0
+1928;(CAN);Canada;Amsterdam;Netherlands;4;4;7
+1928;(GBR);Great Britain;Amsterdam;Netherlands;3;10;7
+1928;(ARG);Argentina;Amsterdam;Netherlands;3;3;1
+1928;(DEN);Denmark;Amsterdam;Netherlands;3;1;2
+1928;(TCH);Czechoslovakia;Amsterdam;Netherlands;2;5;2
+1928;(JPN);Japan;Amsterdam;Netherlands;2;2;1
+1928;(EST);Estonia;Amsterdam;Netherlands;2;1;2
+1928;(EGY);Egypt;Amsterdam;Netherlands;2;1;1
+1928;(AUT);Austria;Amsterdam;Netherlands;2;0;1
+1928;(AUS);Australia;Amsterdam;Netherlands;1;2;1
+1928;(NOR);Norway;Amsterdam;Netherlands;1;2;1
+1928;(POL);Poland;Amsterdam;Netherlands;1;1;3
+1928;(YUG);Yugoslavia;Amsterdam;Netherlands;1;1;3
+1928;(RSA);South Africa;Amsterdam;Netherlands;1;0;2
+1928;(IND);India;Amsterdam;Netherlands;1;0;0
+1928;(IRL);Ireland;Amsterdam;Netherlands;1;0;0
+1928;(NZL);New Zealand;Amsterdam;Netherlands;1;0;0
+1928;(ESP);Spain;Amsterdam;Netherlands;1;0;0
+1928;(URU);Uruguay;Amsterdam;Netherlands;1;0;0
+1928;(BEL);Belgium;Amsterdam;Netherlands;0;1;2
+1928;(CHI);Chile;Amsterdam;Netherlands;0;1;0
+1928;(HAI);Haiti;Amsterdam;Netherlands;0;1;0
+1928;(PHI);Philippines;Amsterdam;Netherlands;0;0;1
+1928;(POR);Portugal;Amsterdam;Netherlands;0;0;1
+1924;(USA);United States;Paris;France;45;27;27
+1924;(FIN);Finland;Paris;France;14;13;10
+1924;(FRA);France;Paris;France;13;15;10
+1924;(GBR);Great Britain;Paris;France;9;13;12
+1924;(ITA);Italy;Paris;France;8;3;5
+1924;(SUI);Switzerland;Paris;France;7;8;10
+1924;(NOR);Norway;Paris;France;5;2;3
+1924;(SWE);Sweden;Paris;France;4;13;12
+1924;(NED);Netherlands;Paris;France;4;1;5
+1924;(BEL);Belgium;Paris;France;3;7;3
+1924;(AUS);Australia;Paris;France;3;1;2
+1924;(DEN);Denmark;Paris;France;2;5;2
+1924;(HUN);Hungary;Paris;France;2;3;4
+1924;(YUG);Yugoslavia;Paris;France;2;0;0
+1924;(TCH);Czechoslovakia;Paris;France;1;4;5
+1924;(ARG);Argentina;Paris;France;1;3;2
+1924;(EST);Estonia;Paris;France;1;1;4
+1924;(RSA);South Africa;Paris;France;1;1;1
+1924;(URU);Uruguay;Paris;France;1;0;0
+1924;(AUT);Austria;Paris;France;0;3;1
+1924;(CAN);Canada;Paris;France;0;3;1
+1924;(POL);Poland;Paris;France;0;1;1
+1924;(HAI);Haiti;Paris;France;0;0;1
+1924;(JPN);Japan;Paris;France;0;0;1
+1924;(NZL);New Zealand;Paris;France;0;0;1
+1924;(POR);Portugal;Paris;France;0;0;1
+1924;(ROU);Romania;Paris;France;0;0;1
+1920;(USA);United States;Antwerp;Belgium;41;27;27
+1920;(SWE);Sweden;Antwerp;Belgium;19;20;25
+1920;(BEL);Belgium;Antwerp;Belgium;16;12;14
+1920;(FIN);Finland;Antwerp;Belgium;15;10;9
+1920;(GBR);Great Britain;Antwerp;Belgium;14;16;13
+1920;(NOR);Norway;Antwerp;Belgium;13;9;9
+1920;(ITA);Italy;Antwerp;Belgium;13;5;5
+1920;(FRA);France;Antwerp;Belgium;9;19;13
+1920;(NED);Netherlands;Antwerp;Belgium;4;2;5
+1920;(DEN);Denmark;Antwerp;Belgium;3;9;1
+1920;(RSA);South Africa;Antwerp;Belgium;3;4;3
+1920;(CAN);Canada;Antwerp;Belgium;3;3;3
+1920;(SUI);Switzerland;Antwerp;Belgium;2;2;7
+1920;(EST);Estonia;Antwerp;Belgium;1;2;0
+1920;(BRA);Brazil;Antwerp;Belgium;1;1;1
+1920;(AUS);Australia;Antwerp;Belgium;0;2;1
+1920;(JPN);Japan;Antwerp;Belgium;0;2;0
+1920;(ESP);Spain;Antwerp;Belgium;0;2;0
+1920;(GRE);Greece;Antwerp;Belgium;0;1;0
+1920;(LUX);Luxembourg;Antwerp;Belgium;0;1;0
+1920;(TCH);Czechoslovakia;Antwerp;Belgium;0;0;2
+1920;(NZL);New Zealand;Antwerp;Belgium;0;0;1
+1912;(USA);United States;Stockholm;Sweden;26;19;19
+1912;(SWE);Sweden;Stockholm;Sweden;24;24;17
+1912;(GBR);Great Britain;Stockholm;Sweden;10;15;16
+1912;(FIN);Finland;Stockholm;Sweden;9;8;9
+1912;(FRA);France;Stockholm;Sweden;7;5;3
+1912;(GER);Germany;Stockholm;Sweden;6;13;7
+1912;(ITA);Italy;Stockholm;Sweden;5;1;2
+1912;(RSA);South Africa;Stockholm;Sweden;4;2;0
+1912;(NOR);Norway;Stockholm;Sweden;4;1;5
+1912;(CAN);Canada;Stockholm;Sweden;3;2;3
+1912;(HUN);Hungary;Stockholm;Sweden;3;2;3
+1912;(ANZ);Australasia;Stockholm;Sweden;2;2;3
+1912;(BEL);Belgium;Stockholm;Sweden;2;1;3
+1912;(DEN);Denmark;Stockholm;Sweden;1;6;5
+1912;(GRE);Greece;Stockholm;Sweden;1;0;1
+1912;(SUI);Switzerland;Stockholm;Sweden;1;0;0
+1912;(RU1);Russian Empire;Stockholm;Sweden;0;2;3
+1912;(AUT);Austria;Stockholm;Sweden;0;2;2
+1912;(NED);Netherlands;Stockholm;Sweden;0;0;3
+1908;(GBR);Great Britain;London;Great Britain;56;51;39
+1908;(USA);United States;London;Great Britain;23;12;12
+1908;(SWE);Sweden;London;Great Britain;8;6;11
+1908;(FRA);France;London;Great Britain;5;5;9
+1908;(GER);Germany;London;Great Britain;3;5;5
+1908;(HUN);Hungary;London;Great Britain;3;4;2
+1908;(CAN);Canada;London;Great Britain;3;3;10
+1908;(NOR);Norway;London;Great Britain;2;3;3
+1908;(ITA);Italy;London;Great Britain;2;2;0
+1908;(BEL);Belgium;London;Great Britain;1;5;2
+1908;(ANZ);Australasia;London;Great Britain;1;2;2
+1908;(RU1);Russian Empire;London;Great Britain;1;2;0
+1908;(FIN);Finland;London;Great Britain;1;1;3
+1908;(RSA);South Africa;London;Great Britain;1;1;0
+1908;(GRE);Greece;London;Great Britain;0;3;1
+1908;(DEN);Denmark;London;Great Britain;0;2;3
+1908;(BOH);Bohemia;London;Great Britain;0;0;2
+1908;(NED);Netherlands;London;Great Britain;0;0;2
+1908;(AUT);Austria;London;Great Britain;0;0;1
+1904;(USA);United States;St. Louis;United States;76;78;77
+1904;(GER);Germany;St. Louis;United States;4;5;6
+1904;(CAN);Canada;St. Louis;United States;4;1;1
+1904;(CUB);Cuba;St. Louis;United States;3;0;0
+1904;(HUN);Hungary;St. Louis;United States;2;1;1
+1904;(ZZX);Mixed team;St. Louis;United States;2;1;1
+1904;(NOR);Norway;St. Louis;United States;2;0;0
+1904;(AUT);Austria;St. Louis;United States;1;1;1
+1904;(GBR);Great Britain;St. Louis;United States;1;1;0
+1904;(SUI);Switzerland;St. Louis;United States;1;0;2
+1904;(GRE);Greece;St. Louis;United States;1;0;1
+1904;(AUS);Australia;St. Louis;United States;0;3;1
+1904;(FRA);France;St. Louis;United States;0;1;0
+1900;(FRA);France;Paris;France;27;38;37
+1900;(USA);United States;Paris;France;19;14;15
+1900;(GBR);Great Britain;Paris;France;15;8;9
+1900;(ZZX);Mixed team;Paris;France;8;5;6
+1900;(BEL);Belgium;Paris;France;6;7;4
+1900;(SUI);Switzerland;Paris;France;6;2;1
+1900;(GER);Germany;Paris;France;4;3;2
+1900;(ITA);Italy;Paris;France;3;2;0
+1900;(AUS);Australia;Paris;France;2;0;3
+1900;(DEN);Denmark;Paris;France;1;3;2
+1900;(HUN);Hungary;Paris;France;1;2;2
+1900;(CUB);Cuba;Paris;France;1;1;0
+1900;(CAN);Canada;Paris;France;1;0;1
+1900;(ESP);Spain;Paris;France;1;0;0
+1900;(LUX);Luxembourg;Paris;France;1;0;0
+1900;(AUT);Austria;Paris;France;0;3;3
+1900;(NOR);Norway;Paris;France;0;2;3
+1900;(NED);Netherlands;Paris;France;0;2;3
+1900;(IND);India;Paris;France;0;2;0
+1900;(BOH);Bohemia;Paris;France;0;1;1
+1900;(SWE);Sweden;Paris;France;0;0;1
+1896;(USA);United States;Athens;Greece;11;7;2
+1896;(GRE);Greece;Athens;Greece;10;18;19
+1896;(GER);Germany;Athens;Greece;6;5;2
+1896;(FRA);France;Athens;Greece;5;4;2
+1896;(GBR);Great Britain;Athens;Greece;2;3;2
+1896;(HUN);Hungary;Athens;Greece;2;1;3
+1896;(AUT);Austria;Athens;Greece;2;1;2
+1896;(AUS);Australia;Athens;Greece;2;0;0
+1896;(DEN);Denmark;Athens;Greece;1;2;3
+1896;(SUI);Switzerland;Athens;Greece;1;2;0
+1896;(ZZX);Mixed team;Athens;Greece;1;0;1
+1984;(USA);United States;Los Angeles;United States;83;61;30
+1984;(ROU);Romania;Los Angeles;United States;20;16;17
+1984;(FRG);West Germany;Los Angeles;United States;17;19;23
+1984;(CHN);China;Los Angeles;United States;15;8;9
+1984;(ITA);Italy;Los Angeles;United States;14;6;12
+1984;(CAN);Canada;Los Angeles;United States;10;18;16
+1984;(JPN);Japan;Los Angeles;United States;10;8;14
+1984;(NZL);New Zealand;Los Angeles;United States;8;1;2
+1984;(YUG);Yugoslavia;Los Angeles;United States;7;4;7
+1984;(KOR);South Korea;Los Angeles;United States;6;6;7
+1984;(GBR);Great Britain;Los Angeles;United States;5;11;21
+1984;(FRA);France;Los Angeles;United States;5;7;16
+1984;(NED);Netherlands;Los Angeles;United States;5;2;6
+1984;(AUS);Australia;Los Angeles;United States;4;8;12
+1984;(FIN);Finland;Los Angeles;United States;4;2;6
+1984;(SWE);Sweden;Los Angeles;United States;2;11;6
+1984;(MEX);Mexico;Los Angeles;United States;2;3;1
+1984;(MAR);Morocco;Los Angeles;United States;2;0;0
+1984;(BRA);Brazil;Los Angeles;United States;1;5;2
+1984;(ESP);Spain;Los Angeles;United States;1;2;2
+1984;(BEL);Belgium;Los Angeles;United States;1;1;2
+1984;(AUT);Austria;Los Angeles;United States;1;1;1
+1984;(KEN);Kenya;Los Angeles;United States;1;0;2
+1984;(POR);Portugal;Los Angeles;United States;1;0;2
+1984;(PAK);Pakistan;Los Angeles;United States;1;0;0
+1984;(SUI);Switzerland;Los Angeles;United States;0;4;4
+1984;(DEN);Denmark;Los Angeles;United States;0;3;3
+1984;(JAM);Jamaica;Los Angeles;United States;0;1;2
+1984;(NOR);Norway;Los Angeles;United States;0;1;2
+1984;(GRE);Greece;Los Angeles;United States;0;1;1
+1984;(NGR);Nigeria;Los Angeles;United States;0;1;1
+1984;(PUR);Puerto Rico;Los Angeles;United States;0;1;1
+1984;(COL);Colombia;Los Angeles;United States;0;1;0
+1984;(EGY);Egypt;Los Angeles;United States;0;1;0
+1984;(IRL);Ireland;Los Angeles;United States;0;1;0
+1984;(CIV);Ivory Coast;Los Angeles;United States;0;1;0
+1984;(PER);Peru;Los Angeles;United States;0;1;0
+1984;(SYR);Syria;Los Angeles;United States;0;1;0
+1984;(THA);Thailand;Los Angeles;United States;0;1;0
+1984;(TUR);Turkey;Los Angeles;United States;0;0;3
+1984;(VEN);Venezuela;Los Angeles;United States;0;0;3
+1984;(ALG);Algeria;Los Angeles;United States;0;0;2
+1984;(CMR);Cameroon;Los Angeles;United States;0;0;1
+1984;(TPE);Chinese Taipei;Los Angeles;United States;0;0;1
+1984;(DOM);Dominican Republic;Los Angeles;United States;0;0;1
+1984;(ISL);Iceland;Los Angeles;United States;0;0;1
+1984;(ZAM);Zambia;Los Angeles;United States;0;0;1
+1980;(URS);Soviet Union;Moscow;Soviet Union;80;69;46
+1980;(GDR);East Germany;Moscow;Soviet Union;47;37;42
+1980;(BUL);Bulgaria;Moscow;Soviet Union;8;16;17
+1980;(CUB);Cuba;Moscow;Soviet Union;8;7;5
+1980;(ITA);Italy;Moscow;Soviet Union;8;3;4
+1980;(HUN);Hungary;Moscow;Soviet Union;7;10;15
+1980;(ROU);Romania;Moscow;Soviet Union;6;6;13
+1980;(FRA);France;Moscow;Soviet Union;6;5;3
+1980;(GBR);Great Britain;Moscow;Soviet Union;5;7;9
+1980;(POL);Poland;Moscow;Soviet Union;3;14;15
+1980;(SWE);Sweden;Moscow;Soviet Union;3;3;6
+1980;(FIN);Finland;Moscow;Soviet Union;3;1;4
+1980;(TCH);Czechoslovakia;Moscow;Soviet Union;2;3;9
+1980;(YUG);Yugoslavia;Moscow;Soviet Union;2;3;4
+1980;(AUS);Australia;Moscow;Soviet Union;2;2;5
+1980;(DEN);Denmark;Moscow;Soviet Union;2;1;2
+1980;(BRA);Brazil;Moscow;Soviet Union;2;0;2
+1980;(ETH);Ethiopia;Moscow;Soviet Union;2;0;2
+1980;(SUI);Switzerland;Moscow;Soviet Union;2;0;0
+1980;(ESP);Spain;Moscow;Soviet Union;1;3;2
+1980;(AUT);Austria;Moscow;Soviet Union;1;2;1
+1980;(GRE);Greece;Moscow;Soviet Union;1;0;2
+1980;(BEL);Belgium;Moscow;Soviet Union;1;0;0
+1980;(IND);India;Moscow;Soviet Union;1;0;0
+1980;(ZIM);Zimbabwe;Moscow;Soviet Union;1;0;0
+1980;(PRK);North Korea;Moscow;Soviet Union;0;3;2
+1980;(MGL);Mongolia;Moscow;Soviet Union;0;2;2
+1980;(TAN);Tanzania;Moscow;Soviet Union;0;2;0
+1980;(MEX);Mexico;Moscow;Soviet Union;0;1;3
+1980;(NED);Netherlands;Moscow;Soviet Union;0;1;2
+1980;(IRL);Ireland;Moscow;Soviet Union;0;1;1
+1980;(UGA);Uganda;Moscow;Soviet Union;0;1;0
+1980;(VEN);Venezuela;Moscow;Soviet Union;0;1;0
+1980;(JAM);Jamaica;Moscow;Soviet Union;0;0;3
+1980;(GUY);Guyana;Moscow;Soviet Union;0;0;1
+1980;(LIB);Lebanon;Moscow;Soviet Union;0;0;1
+1976;(URS);Soviet Union;Montreal;Canada;49;41;35
+1976;(GDR);East Germany;Montreal;Canada;40;25;25
+1976;(USA);United States;Montreal;Canada;34;35;25
+1976;(FRG);West Germany;Montreal;Canada;10;12;17
+1976;(JPN);Japan;Montreal;Canada;9;6;10
+1976;(POL);Poland;Montreal;Canada;7;6;13
+1976;(BUL);Bulgaria;Montreal;Canada;6;9;7
+1976;(CUB);Cuba;Montreal;Canada;6;4;3
+1976;(ROU);Romania;Montreal;Canada;4;9;14
+1976;(HUN);Hungary;Montreal;Canada;4;5;13
+1976;(FIN);Finland;Montreal;Canada;4;2;0
+1976;(SWE);Sweden;Montreal;Canada;4;1;0
+1976;(GBR);Great Britain;Montreal;Canada;3;5;5
+1976;(ITA);Italy;Montreal;Canada;2;7;4
+1976;(FRA);France;Montreal;Canada;2;3;4
+1976;(YUG);Yugoslavia;Montreal;Canada;2;3;3
+1976;(TCH);Czechoslovakia;Montreal;Canada;2;2;4
+1976;(NZL);New Zealand;Montreal;Canada;2;1;1
+1976;(KOR);South Korea;Montreal;Canada;1;1;4
+1976;(SUI);Switzerland;Montreal;Canada;1;1;2
+1976;(JAM);Jamaica;Montreal;Canada;1;1;0
+1976;(PRK);North Korea;Montreal;Canada;1;1;0
+1976;(NOR);Norway;Montreal;Canada;1;1;0
+1976;(DEN);Denmark;Montreal;Canada;1;0;2
+1976;(MEX);Mexico;Montreal;Canada;1;0;1
+1976;(TRI);Trinidad and Tobago;Montreal;Canada;1;0;0
+1976;(CAN);Canada;Montreal;Canada;0;5;6
+1976;(BEL);Belgium;Montreal;Canada;0;3;3
+1976;(NED);Netherlands;Montreal;Canada;0;2;3
+1976;(POR);Portugal;Montreal;Canada;0;2;0
+1976;(ESP);Spain;Montreal;Canada;0;2;0
+1976;(AUS);Australia;Montreal;Canada;0;1;4
+1976;(IRI);Iran;Montreal;Canada;0;1;1
+1976;(MGL);Mongolia;Montreal;Canada;0;1;0
+1976;(VEN);Venezuela;Montreal;Canada;0;1;0
+1976;(BRA);Brazil;Montreal;Canada;0;0;2
+1976;(AUT);Austria;Montreal;Canada;0;0;1
+1976;(BER);Bermuda;Montreal;Canada;0;0;1
+1976;(PAK);Pakistan;Montreal;Canada;0;0;1
+1976;(PUR);Puerto Rico;Montreal;Canada;0;0;1
+1976;(THA);Thailand;Montreal;Canada;0;0;1
+1972;(URS);Soviet Union;Munich;West Germany;50;27;22
+1972;(USA);United States;Munich;West Germany;33;31;30
+1972;(GDR);East Germany;Munich;West Germany;20;23;23
+1972;(FRG);West Germany;Munich;West Germany;13;11;16
+1972;(JPN);Japan;Munich;West Germany;13;8;8
+1972;(AUS);Australia;Munich;West Germany;8;7;2
+1972;(POL);Poland;Munich;West Germany;7;5;9
+1972;(HUN);Hungary;Munich;West Germany;6;13;16
+1972;(BUL);Bulgaria;Munich;West Germany;6;10;5
+1972;(ITA);Italy;Munich;West Germany;5;3;10
+1972;(SWE);Sweden;Munich;West Germany;4;6;6
+1972;(GBR);Great Britain;Munich;West Germany;4;5;9
+1972;(ROU);Romania;Munich;West Germany;3;6;7
+1972;(CUB);Cuba;Munich;West Germany;3;1;4
+1972;(FIN);Finland;Munich;West Germany;3;1;4
+1972;(NED);Netherlands;Munich;West Germany;3;1;1
+1972;(FRA);France;Munich;West Germany;2;4;7
+1972;(TCH);Czechoslovakia;Munich;West Germany;2;4;2
+1972;(KEN);Kenya;Munich;West Germany;2;3;4
+1972;(YUG);Yugoslavia;Munich;West Germany;2;1;2
+1972;(NOR);Norway;Munich;West Germany;2;1;1
+1972;(PRK);North Korea;Munich;West Germany;1;1;3
+1972;(NZL);New Zealand;Munich;West Germany;1;1;1
+1972;(UGA);Uganda;Munich;West Germany;1;1;0
+1972;(DEN);Denmark;Munich;West Germany;1;0;0
+1972;(SUI);Switzerland;Munich;West Germany;0;3;0
+1972;(CAN);Canada;Munich;West Germany;0;2;3
+1972;(IRI);Iran;Munich;West Germany;0;2;1
+1972;(BEL);Belgium;Munich;West Germany;0;2;0
+1972;(GRE);Greece;Munich;West Germany;0;2;0
+1972;(AUT);Austria;Munich;West Germany;0;1;2
+1972;(COL);Colombia;Munich;West Germany;0;1;2
+1972;(ARG);Argentina;Munich;West Germany;0;1;0
+1972;(LIB);Lebanon;Munich;West Germany;0;1;0
+1972;(MEX);Mexico;Munich;West Germany;0;1;0
+1972;(MGL);Mongolia;Munich;West Germany;0;1;0
+1972;(PAK);Pakistan;Munich;West Germany;0;1;0
+1972;(KOR);South Korea;Munich;West Germany;0;1;0
+1972;(TUN);Tunisia;Munich;West Germany;0;1;0
+1972;(TUR);Turkey;Munich;West Germany;0;1;0
+1972;(BRA);Brazil;Munich;West Germany;0;0;2
+1972;(ETH);Ethiopia;Munich;West Germany;0;0;2
+1972;(GHA);Ghana;Munich;West Germany;0;0;1
+1972;(IND);India;Munich;West Germany;0;0;1
+1972;(JAM);Jamaica;Munich;West Germany;0;0;1
+1972;(NIG);Niger;Munich;West Germany;0;0;1
+1972;(NGR);Nigeria;Munich;West Germany;0;0;1
+1972;(ESP);Spain;Munich;West Germany;0;0;1
+1968;(USA);United States;Mexico City;Mexico;45;28;34
+1968;(URS);Soviet Union;Mexico City;Mexico;29;32;30
+1968;(JPN);Japan;Mexico City;Mexico;11;7;7
+1968;(HUN);Hungary;Mexico City;Mexico;10;10;12
+1968;(GDR);East Germany;Mexico City;Mexico;9;9;7
+1968;(FRA);France;Mexico City;Mexico;7;3;5
+1968;(TCH);Czechoslovakia;Mexico City;Mexico;7;2;4
+1968;(FRG);West Germany;Mexico City;Mexico;5;11;10
+1968;(AUS);Australia;Mexico City;Mexico;5;7;5
+1968;(GBR);Great Britain;Mexico City;Mexico;5;5;3
+1968;(POL);Poland;Mexico City;Mexico;5;2;11
+1968;(ROU);Romania;Mexico City;Mexico;4;6;5
+1968;(ITA);Italy;Mexico City;Mexico;3;4;9
+1968;(KEN);Kenya;Mexico City;Mexico;3;4;2
+1968;(MEX);Mexico;Mexico City;Mexico;3;3;3
+1968;(YUG);Yugoslavia;Mexico City;Mexico;3;3;2
+1968;(NED);Netherlands;Mexico City;Mexico;3;3;1
+1968;(BUL);Bulgaria;Mexico City;Mexico;2;4;3
+1968;(IRI);Iran;Mexico City;Mexico;2;1;2
+1968;(SWE);Sweden;Mexico City;Mexico;2;1;1
+1968;(TUR);Turkey;Mexico City;Mexico;2;0;0
+1968;(DEN);Denmark;Mexico City;Mexico;1;4;3
+1968;(CAN);Canada;Mexico City;Mexico;1;3;1
+1968;(FIN);Finland;Mexico City;Mexico;1;2;1
+1968;(ETH);Ethiopia;Mexico City;Mexico;1;1;0
+1968;(NOR);Norway;Mexico City;Mexico;1;1;0
+1968;(NZL);New Zealand;Mexico City;Mexico;1;0;2
+1968;(TUN);Tunisia;Mexico City;Mexico;1;0;1
+1968;(PAK);Pakistan;Mexico City;Mexico;1;0;0
+1968;(VEN);Venezuela;Mexico City;Mexico;1;0;0
+1968;(CUB);Cuba;Mexico City;Mexico;0;4;0
+1968;(AUT);Austria;Mexico City;Mexico;0;2;2
+1968;(SUI);Switzerland;Mexico City;Mexico;0;1;4
+1968;(MGL);Mongolia;Mexico City;Mexico;0;1;3
+1968;(BRA);Brazil;Mexico City;Mexico;0;1;2
+1968;(BEL);Belgium;Mexico City;Mexico;0;1;1
+1968;(KOR);South Korea;Mexico City;Mexico;0;1;1
+1968;(UGA);Uganda;Mexico City;Mexico;0;1;1
+1968;(CMR);Cameroon;Mexico City;Mexico;0;1;0
+1968;(JAM);Jamaica;Mexico City;Mexico;0;1;0
+1968;(ARG);Argentina;Mexico City;Mexico;0;0;2
+1968;(GRE);Greece;Mexico City;Mexico;0;0;1
+1968;(IND);India;Mexico City;Mexico;0;0;1
+1968;(ROC);Republic of China;Mexico City;Mexico;0;0;1
+1964;(USA);United States;Tokyo;Japan;36;26;28
+1964;(URS);Soviet Union;Tokyo;Japan;30;31;35
+1964;(JPN);Japan;Tokyo;Japan;16;5;8
+1964;(EUA);United Team of Germany;Tokyo;Japan;10;22;18
+1964;(ITA);Italy;Tokyo;Japan;10;10;7
+1964;(HUN);Hungary;Tokyo;Japan;10;7;5
+1964;(POL);Poland;Tokyo;Japan;7;6;10
+1964;(AUS);Australia;Tokyo;Japan;6;2;10
+1964;(TCH);Czechoslovakia;Tokyo;Japan;5;6;3
+1964;(GBR);Great Britain;Tokyo;Japan;4;12;2
+1964;(BUL);Bulgaria;Tokyo;Japan;3;5;2
+1964;(FIN);Finland;Tokyo;Japan;3;0;2
+1964;(NZL);New Zealand;Tokyo;Japan;3;0;2
+1964;(ROU);Romania;Tokyo;Japan;2;4;6
+1964;(NED);Netherlands;Tokyo;Japan;2;4;4
+1964;(TUR);Turkey;Tokyo;Japan;2;3;1
+1964;(SWE);Sweden;Tokyo;Japan;2;2;4
+1964;(DEN);Denmark;Tokyo;Japan;2;1;3
+1964;(YUG);Yugoslavia;Tokyo;Japan;2;1;2
+1964;(BEL);Belgium;Tokyo;Japan;2;0;1
+1964;(FRA);France;Tokyo;Japan;1;8;6
+1964;(CAN);Canada;Tokyo;Japan;1;2;1
+1964;(SUI);Switzerland;Tokyo;Japan;1;2;1
+1964;(BAH);Bahamas;Tokyo;Japan;1;0;0
+1964;(ETH);Ethiopia;Tokyo;Japan;1;0;0
+1964;(IND);India;Tokyo;Japan;1;0;0
+1964;(KOR);South Korea;Tokyo;Japan;0;2;1
+1964;(TRI);Trinidad and Tobago;Tokyo;Japan;0;1;2
+1964;(TUN);Tunisia;Tokyo;Japan;0;1;1
+1964;(ARG);Argentina;Tokyo;Japan;0;1;0
+1964;(CUB);Cuba;Tokyo;Japan;0;1;0
+1964;(PAK);Pakistan;Tokyo;Japan;0;1;0
+1964;(PHI);Philippines;Tokyo;Japan;0;1;0
+1964;(IRI);Iran;Tokyo;Japan;0;0;2
+1964;(BRA);Brazil;Tokyo;Japan;0;0;1
+1964;(GHA);Ghana;Tokyo;Japan;0;0;1
+1964;(IRL);Ireland;Tokyo;Japan;0;0;1
+1964;(KEN);Kenya;Tokyo;Japan;0;0;1
+1964;(MEX);Mexico;Tokyo;Japan;0;0;1
+1964;(NGR);Nigeria;Tokyo;Japan;0;0;1
+1964;(URU);Uruguay;Tokyo;Japan;0;0;1
+1960;(URS);Soviet Union;Rome;Italy;43;29;31
+1960;(USA);United States;Rome;Italy;34;21;16
+1960;(ITA);Italy;Rome;Italy;13;10;13
+1960;(EUA);United Team of Germany;Rome;Italy;12;19;11
+1960;(AUS);Australia;Rome;Italy;8;8;6
+1960;(TUR);Turkey;Rome;Italy;7;2;0
+1960;(HUN);Hungary;Rome;Italy;6;8;7
+1960;(JPN);Japan;Rome;Italy;4;7;7
+1960;(POL);Poland;Rome;Italy;4;6;11
+1960;(TCH);Czechoslovakia;Rome;Italy;3;2;3
+1960;(ROU);Romania;Rome;Italy;3;1;6
+1960;(GBR);Great Britain;Rome;Italy;2;6;12
+1960;(DEN);Denmark;Rome;Italy;2;3;1
+1960;(NZL);New Zealand;Rome;Italy;2;0;1
+1960;(BUL);Bulgaria;Rome;Italy;1;3;3
+1960;(SWE);Sweden;Rome;Italy;1;2;3
+1960;(FIN);Finland;Rome;Italy;1;1;3
+1960;(AUT);Austria;Rome;Italy;1;1;0
+1960;(YUG);Yugoslavia;Rome;Italy;1;1;0
+1960;(PAK);Pakistan;Rome;Italy;1;0;1
+1960;(ETH);Ethiopia;Rome;Italy;1;0;0
+1960;(GRE);Greece;Rome;Italy;1;0;0
+1960;(NOR);Norway;Rome;Italy;1;0;0
+1960;(SUI);Switzerland;Rome;Italy;0;3;3
+1960;(FRA);France;Rome;Italy;0;2;3
+1960;(BEL);Belgium;Rome;Italy;0;2;2
+1960;(IRI);Iran;Rome;Italy;0;1;3
+1960;(NED);Netherlands;Rome;Italy;0;1;2
+1960;(RSA);South Africa;Rome;Italy;0;1;2
+1960;(ARG);Argentina;Rome;Italy;0;1;1
+1960;(EGY);Egypt;Rome;Italy;0;1;1
+1960;(CAN);Canada;Rome;Italy;0;1;0
+1960;(GHA);Ghana;Rome;Italy;0;1;0
+1960;(IND);India;Rome;Italy;0;1;0
+1960;(MAR);Morocco;Rome;Italy;0;1;0
+1960;(POR);Portugal;Rome;Italy;0;1;0
+1960;(ROC);Republic of China;Rome;Italy;0;1;0
+1960;(SIN);Singapore;Rome;Italy;0;1;0
+1960;(BRA);Brazil;Rome;Italy;0;0;2
+1960;(BWI);British West Indies;Rome;Italy;0;0;2
+1960;(IRQ);Iraq;Rome;Italy;0;0;1
+1960;(MEX);Mexico;Rome;Italy;0;0;1
+1960;(ESP);Spain;Rome;Italy;0;0;1
+1960;(VEN);Venezuela;Rome;Italy;0;0;1
+2020;(USA);United States;Tokyo;Japan;39;41;33
+2020;(CHN);China;Tokyo;Japan;38;32;18
+2020;(JPN);Japan;Tokyo;Japan;27;14;17
+2020;(GBR);Great Britain;Tokyo;Japan;22;21;22
+2020;(ROC);ROC;Tokyo;Japan;20;28;23
+2020;(AUS);Australia;Tokyo;Japan;17;7;22
+2020;(NED);Netherlands;Tokyo;Japan;10;12;14
+2020;(FRA);France;Tokyo;Japan;10;12;11
+2020;(GER);Germany;Tokyo;Japan;10;11;16
+2020;(ITA);Italy;Tokyo;Japan;10;10;20
+2020;(CAN);Canada;Tokyo;Japan;7;6;11
+2020;(BRA);Brazil;Tokyo;Japan;7;6;8
+2020;(NZL);New Zealand;Tokyo;Japan;7;6;7
+2020;(CUB);Cuba;Tokyo;Japan;7;3;5
+2020;(HUN);Hungary;Tokyo;Japan;6;7;7
+2020;(KOR);South Korea;Tokyo;Japan;6;4;10
+2020;(POL);Poland;Tokyo;Japan;4;5;5
+2020;(CZE);Czech Republic;Tokyo;Japan;4;4;3
+2020;(KEN);Kenya;Tokyo;Japan;4;4;2
+2020;(NOR);Norway;Tokyo;Japan;4;2;2
+2020;(JAM);Jamaica;Tokyo;Japan;4;1;4
+2020;(ESP);Spain;Tokyo;Japan;3;8;6
+2020;(SWE);Sweden;Tokyo;Japan;3;6;0
+2020;(SUI);Switzerland;Tokyo;Japan;3;4;6
+2020;(DEN);Denmark;Tokyo;Japan;3;4;4
+2020;(CRO);Croatia;Tokyo;Japan;3;3;2
+2020;(IRI);Iran;Tokyo;Japan;3;2;2
+2020;(SRB);Serbia;Tokyo;Japan;3;1;5
+2020;(BEL);Belgium;Tokyo;Japan;3;1;3
+2020;(BUL);Bulgaria;Tokyo;Japan;3;1;2
+2020;(SLO);Slovenia;Tokyo;Japan;3;1;1
+2020;(UZB);Uzbekistan;Tokyo;Japan;3;0;2
+2020;(GEO);Georgia;Tokyo;Japan;2;5;1
+2020;(TPE);Chinese Taipei;Tokyo;Japan;2;4;6
+2020;(TUR);Turkey;Tokyo;Japan;2;2;9
+2020;(GRE);Greece;Tokyo;Japan;2;1;1
+2020;(UGA);Uganda;Tokyo;Japan;2;1;1
+2020;(ECU);Ecuador;Tokyo;Japan;2;1;0
+2020;(IRL);Ireland;Tokyo;Japan;2;0;2
+2020;(ISR);Israel;Tokyo;Japan;2;0;2
+2020;(QAT);Qatar;Tokyo;Japan;2;0;1
+2020;(BAH);Bahamas;Tokyo;Japan;2;0;0
+2020;(KOS);Kosovo;Tokyo;Japan;2;0;0
+2020;(UKR);Ukraine;Tokyo;Japan;1;6;12
+2020;(BLR);Belarus;Tokyo;Japan;1;3;3
+2020;(ROU);Romania;Tokyo;Japan;1;3;0
+2020;(VEN);Venezuela;Tokyo;Japan;1;3;0
+2020;(IND);India;Tokyo;Japan;1;2;4
+2020;(HKG);Hong Kong;Tokyo;Japan;1;2;3
+2020;(PHI);Philippines;Tokyo;Japan;1;2;1
+2020;(SVK);Slovakia;Tokyo;Japan;1;2;1
+2020;(RSA);South Africa;Tokyo;Japan;1;2;0
+2020;(AUT);Austria;Tokyo;Japan;1;1;5
+2020;(EGY);Egypt;Tokyo;Japan;1;1;4
+2020;(INA);Indonesia;Tokyo;Japan;1;1;3
+2020;(ETH);Ethiopia;Tokyo;Japan;1;1;2
+2020;(POR);Portugal;Tokyo;Japan;1;1;2
+2020;(TUN);Tunisia;Tokyo;Japan;1;1;0
+2020;(EST);Estonia;Tokyo;Japan;1;0;1
+2020;(FIJ);Fiji;Tokyo;Japan;1;0;1
+2020;(LAT);Latvia;Tokyo;Japan;1;0;1
+2020;(THA);Thailand;Tokyo;Japan;1;0;1
+2020;(BER);Bermuda;Tokyo;Japan;1;0;0
+2020;(MAR);Morocco;Tokyo;Japan;1;0;0
+2020;(PUR);Puerto Rico;Tokyo;Japan;1;0;0
+2020;(COL);Colombia;Tokyo;Japan;0;4;1
+2020;(AZE);Azerbaijan;Tokyo;Japan;0;3;4
+2020;(DOM);Dominican Republic;Tokyo;Japan;0;3;2
+2020;(ARM);Armenia;Tokyo;Japan;0;2;2
+2020;(KGZ);Kyrgyzstan;Tokyo;Japan;0;2;1
+2020;(MGL);Mongolia;Tokyo;Japan;0;1;3
+2020;(ARG);Argentina;Tokyo;Japan;0;1;2
+2020;(SMR);San Marino;Tokyo;Japan;0;1;2
+2020;(JOR);Jordan;Tokyo;Japan;0;1;1
+2020;(MAS);Malaysia;Tokyo;Japan;0;1;1
+2020;(NGR);Nigeria;Tokyo;Japan;0;1;1
+2020;(BRN);Bahrain;Tokyo;Japan;0;1;0
+2020;(LTU);Lithuania;Tokyo;Japan;0;1;0
+2020;(NAM);Namibia;Tokyo;Japan;0;1;0
+2020;(MKD);North Macedonia;Tokyo;Japan;0;1;0
+2020;(KSA);Saudi Arabia;Tokyo;Japan;0;1;0
+2020;(TKM);Turkmenistan;Tokyo;Japan;0;1;0
+2020;(KAZ);Kazakhstan;Tokyo;Japan;0;0;8
+2020;(MEX);Mexico;Tokyo;Japan;0;0;4
+2020;(FIN);Finland;Tokyo;Japan;0;0;2
+2020;(BOT);Botswana;Tokyo;Japan;0;0;1
+2020;(BUR);Burkina Faso;Tokyo;Japan;0;0;1
+2020;(GHA);Ghana;Tokyo;Japan;0;0;1
+2020;(GRN);Grenada;Tokyo;Japan;0;0;1
+2020;(CIV);Ivory Coast;Tokyo;Japan;0;0;1
+2020;(KUW);Kuwait;Tokyo;Japan;0;0;1
+2020;(MDA);Moldova;Tokyo;Japan;0;0;1
+2020;(SYR);Syria;Tokyo;Japan;0;0;1
+2016;;United States;Rio de Janeiro;Brazil;46;37;38
+2016;;Great Britain;Rio de Janeiro;Brazil;27;23;17
+2016;;China;Rio de Janeiro;Brazil;26;18;26
+2016;;Russia;Rio de Janeiro;Brazil;19;17;20
+2016;;Germany;Rio de Janeiro;Brazil;17;10;15
+2016;;Japan;Rio de Janeiro;Brazil;12;8;21
+2016;;France;Rio de Janeiro;Brazil;10;18;14
+2016;;South Korea;Rio de Janeiro;Brazil;9;3;9
+2016;;Italy;Rio de Janeiro;Brazil;8;12;8
+2016;;Australia;Rio de Janeiro;Brazil;8;11;10
+2016;;Netherlands;Rio de Janeiro;Brazil;8;7;4
+2016;;Hungary;Rio de Janeiro;Brazil;8;3;4
+2016;;Brazil;Rio de Janeiro;Brazil;7;6;6
+2016;;Spain;Rio de Janeiro;Brazil;7;4;6
+2016;;Kenya;Rio de Janeiro;Brazil;6;6;1
+2016;;Jamaica;Rio de Janeiro;Brazil;6;3;2
+2016;;Croatia;Rio de Janeiro;Brazil;5;3;2
+2016;;Cuba;Rio de Janeiro;Brazil;5;2;4
+2016;;New Zealand;Rio de Janeiro;Brazil;4;9;5
+2016;;Canada;Rio de Janeiro;Brazil;4;3;15
+2016;;Uzbekistan;Rio de Janeiro;Brazil;4;2;7
+2016;;Kazakhstan;Rio de Janeiro;Brazil;3;5;10
+2016;;Colombia;Rio de Janeiro;Brazil;3;2;3
+2016;;Switzerland;Rio de Janeiro;Brazil;3;2;2
+2016;;Iran;Rio de Janeiro;Brazil;3;1;4
+2016;;Greece;Rio de Janeiro;Brazil;3;1;2
+2016;;Argentina;Rio de Janeiro;Brazil;3;1;0
+2016;;Denmark;Rio de Janeiro;Brazil;2;6;7
+2016;;Sweden;Rio de Janeiro;Brazil;2;6;3
+2016;;South Africa;Rio de Janeiro;Brazil;2;6;2
+2016;;Ukraine;Rio de Janeiro;Brazil;2;5;4
+2016;;Serbia;Rio de Janeiro;Brazil;2;4;2
+2016;;Poland;Rio de Janeiro;Brazil;2;3;6
+2016;;North Korea;Rio de Janeiro;Brazil;2;3;2
+2016;;Belgium;Rio de Janeiro;Brazil;2;2;2
+2016;;Thailand;Rio de Janeiro;Brazil;2;2;2
+2016;;Slovakia;Rio de Janeiro;Brazil;2;2;0
+2016;;Georgia;Rio de Janeiro;Brazil;2;1;4
+2016;;Azerbaijan;Rio de Janeiro;Brazil;1;7;10
+2016;;Belarus;Rio de Janeiro;Brazil;1;4;4
+2016;;Turkey;Rio de Janeiro;Brazil;1;3;4
+2016;;Armenia;Rio de Janeiro;Brazil;1;3;0
+2016;;Czech Republic;Rio de Janeiro;Brazil;1;2;7
+2016;;Ethiopia;Rio de Janeiro;Brazil;1;2;5
+2016;;Slovenia;Rio de Janeiro;Brazil;1;2;1
+2016;;Indonesia;Rio de Janeiro;Brazil;1;2;0
+2016;;Romania;Rio de Janeiro;Brazil;1;1;2
+2016;;Bahrain;Rio de Janeiro;Brazil;1;1;0
+2016;;Vietnam;Rio de Janeiro;Brazil;1;1;0
+2016;;Chinese Taipei;Rio de Janeiro;Brazil;1;0;2
+2016;;Bahamas;Rio de Janeiro;Brazil;1;0;1
+2016;;Independent Olympic Athletes;Rio de Janeiro;Brazil;1;0;1
+2016;;Ivory Coast;Rio de Janeiro;Brazil;1;0;1
+2016;;Fiji;Rio de Janeiro;Brazil;1;0;0
+2016;;Jordan;Rio de Janeiro;Brazil;1;0;0
+2016;;Kosovo;Rio de Janeiro;Brazil;1;0;0
+2016;;Puerto Rico;Rio de Janeiro;Brazil;1;0;0
+2016;;Singapore;Rio de Janeiro;Brazil;1;0;0
+2016;;Tajikistan;Rio de Janeiro;Brazil;1;0;0
+2016;;Malaysia;Rio de Janeiro;Brazil;0;4;1
+2016;;Mexico;Rio de Janeiro;Brazil;0;3;2
+2016;;Venezuela;Rio de Janeiro;Brazil;0;2;1
+2016;;Algeria;Rio de Janeiro;Brazil;0;2;0
+2016;;Ireland;Rio de Janeiro;Brazil;0;2;0
+2016;;Lithuania;Rio de Janeiro;Brazil;0;1;3
+2016;;Bulgaria;Rio de Janeiro;Brazil;0;1;2
+2016;;India;Rio de Janeiro;Brazil;0;1;1
+2016;;Mongolia;Rio de Janeiro;Brazil;0;1;1
+2016;;Burundi;Rio de Janeiro;Brazil;0;1;0
+2016;;Grenada;Rio de Janeiro;Brazil;0;1;0
+2016;;Niger;Rio de Janeiro;Brazil;0;1;0
+2016;;Philippines;Rio de Janeiro;Brazil;0;1;0
+2016;;Qatar;Rio de Janeiro;Brazil;0;1;0
+2016;;Norway;Rio de Janeiro;Brazil;0;0;4
+2016;;Egypt;Rio de Janeiro;Brazil;0;0;3
+2016;;Tunisia;Rio de Janeiro;Brazil;0;0;3
+2016;;Israel;Rio de Janeiro;Brazil;0;0;2
+2016;;Austria;Rio de Janeiro;Brazil;0;0;1
+2016;;Dominican Republic;Rio de Janeiro;Brazil;0;0;1
+2016;;Estonia;Rio de Janeiro;Brazil;0;0;1
+2016;;Finland;Rio de Janeiro;Brazil;0;0;1
+2016;;Morocco;Rio de Janeiro;Brazil;0;0;1
+2016;;Nigeria;Rio de Janeiro;Brazil;0;0;1
+2016;;Portugal;Rio de Janeiro;Brazil;0;0;1
+2016;;Trinidad and Tobago;Rio de Janeiro;Brazil;0;0;1
+2016;;United Arab Emirates;Rio de Janeiro;Brazil;0;0;1
+2012;(USA);United States;London;Great Britain;46;28;30
+2012;(CHN);China;London;Great Britain;38;31;22
+2012;(GBR);Great Britain;London;Great Britain;29;17;19
+2012;(RUS);Russia;London;Great Britain;20;20;28
+2012;(KOR);South Korea;London;Great Britain;13;9;8
+2012;(GER);Germany;London;Great Britain;11;20;13
+2012;(FRA);France;London;Great Britain;11;11;13
+2012;(AUS);Australia;London;Great Britain;8;15;12
+2012;(ITA);Italy;London;Great Britain;8;9;11
+2012;(HUN);Hungary;London;Great Britain;8;4;6
+2012;(JPN);Japan;London;Great Britain;7;14;17
+2012;(IRI);Iran;London;Great Britain;7;5;1
+2012;(NED);Netherlands;London;Great Britain;6;6;8
+2012;(NZL);New Zealand;London;Great Britain;6;2;5
+2012;(UKR);Ukraine;London;Great Britain;5;4;10
+2012;(CUB);Cuba;London;Great Britain;5;3;7
+2012;(ESP);Spain;London;Great Britain;4;10;5
+2012;(JAM);Jamaica;London;Great Britain;4;5;3
+2012;(CZE);Czech Republic;London;Great Britain;4;3;4
+2012;(RSA);South Africa;London;Great Britain;4;1;1
+2012;(PRK);North Korea;London;Great Britain;4;0;3
+2012;(BRA);Brazil;London;Great Britain;3;5;9
+2012;(POL);Poland;London;Great Britain;3;2;6
+2012;(ETH);Ethiopia;London;Great Britain;3;2;3
+2012;(KAZ);Kazakhstan;London;Great Britain;3;1;7
+2012;(CRO);Croatia;London;Great Britain;3;1;2
+2012;(CAN);Canada;London;Great Britain;2;6;10
+2012;(BLR);Belarus;London;Great Britain;2;5;3
+2012;(KEN);Kenya;London;Great Britain;2;4;7
+2012;(DEN);Denmark;London;Great Britain;2;4;3
+2012;(ROU);Romania;London;Great Britain;2;4;1
+2012;(AZE);Azerbaijan;London;Great Britain;2;2;5
+2012;(SUI);Switzerland;London;Great Britain;2;2;0
+2012;(NOR);Norway;London;Great Britain;2;1;1
+2012;(LTU);Lithuania;London;Great Britain;2;0;3
+2012;(TUN);Tunisia;London;Great Britain;2;0;1
+2012;(SWE);Sweden;London;Great Britain;1;4;3
+2012;(COL);Colombia;London;Great Britain;1;3;5
+2012;(MEX);Mexico;London;Great Britain;1;3;4
+2012;(GEO);Georgia;London;Great Britain;1;2;3
+2012;(IRL);Ireland;London;Great Britain;1;1;4
+2012;(ARG);Argentina;London;Great Britain;1;1;2
+2012;(SRB);Serbia;London;Great Britain;1;1;2
+2012;(SLO);Slovenia;London;Great Britain;1;1;2
+2012;(TRI);Trinidad and Tobago;London;Great Britain;1;1;2
+2012;(TUR);Turkey;London;Great Britain;1;1;1
+2012;(DOM);Dominican Republic;London;Great Britain;1;1;0
+2012;(TPE);Chinese Taipei;London;Great Britain;1;0;1
+2012;(LAT);Latvia;London;Great Britain;1;0;1
+2012;(ALG);Algeria;London;Great Britain;1;0;0
+2012;(BAH);Bahamas;London;Great Britain;1;0;0
+2012;(BRN);Bahrain;London;Great Britain;1;0;0
+2012;(GRN);Grenada;London;Great Britain;1;0;0
+2012;(UGA);Uganda;London;Great Britain;1;0;0
+2012;(VEN);Venezuela;London;Great Britain;1;0;0
+2012;(EGY);Egypt;London;Great Britain;0;3;1
+2012;(IND);India;London;Great Britain;0;2;4
+2012;(MGL);Mongolia;London;Great Britain;0;2;3
+2012;(THA);Thailand;London;Great Britain;0;2;2
+2012;(BUL);Bulgaria;London;Great Britain;0;2;1
+2012;(FIN);Finland;London;Great Britain;0;2;1
+2012;(INA);Indonesia;London;Great Britain;0;2;1
+2012;(SVK);Slovakia;London;Great Britain;0;1;3
+2012;(BEL);Belgium;London;Great Britain;0;1;2
+2012;(ARM);Armenia;London;Great Britain;0;1;1
+2012;(EST);Estonia;London;Great Britain;0;1;1
+2012;(MAS);Malaysia;London;Great Britain;0;1;1
+2012;(PUR);Puerto Rico;London;Great Britain;0;1;1
+2012;(BOT);Botswana;London;Great Britain;0;1;0
+2012;(CYP);Cyprus;London;Great Britain;0;1;0
+2012;(GAB);Gabon;London;Great Britain;0;1;0
+2012;(GUA);Guatemala;London;Great Britain;0;1;0
+2012;(MNE);Montenegro;London;Great Britain;0;1;0
+2012;(POR);Portugal;London;Great Britain;0;1;0
+2012;(UZB);Uzbekistan;London;Great Britain;0;0;3
+2012;(GRE);Greece;London;Great Britain;0;0;2
+2012;(QAT);Qatar;London;Great Britain;0;0;2
+2012;(SIN);Singapore;London;Great Britain;0;0;2
+2012;(AFG);Afghanistan;London;Great Britain;0;0;1
+2012;(CMR);Cameroon;London;Great Britain;0;0;1
+2012;(HKG);Hong Kong;London;Great Britain;0;0;1
+2012;(KUW);Kuwait;London;Great Britain;0;0;1
+2012;(MAR);Morocco;London;Great Britain;0;0;1
+2012;(KSA);Saudi Arabia;London;Great Britain;0;0;1
+2012;(TJK);Tajikistan;London;Great Britain;0;0;1
+2012;(VIE);Vietnam;London;Great Britain;0;0;1
+2008;(CHN);China;Beijing;China;48;22;30
+2008;(USA);United States;Beijing;China;36;39;37
+2008;(RUS);Russia;Beijing;China;24;13;23
+2008;(GBR);Great Britain;Beijing;China;19;13;19
+2008;(GER);Germany;Beijing;China;16;11;14
+2008;(AUS);Australia;Beijing;China;14;15;17
+2008;(KOR);South Korea;Beijing;China;13;11;8
+2008;(JPN);Japan;Beijing;China;9;8;8
+2008;(ITA);Italy;Beijing;China;8;9;10
+2008;(FRA);France;Beijing;China;7;16;20
+2008;(NED);Netherlands;Beijing;China;7;5;4
+2008;(UKR);Ukraine;Beijing;China;7;4;11
+2008;(KEN);Kenya;Beijing;China;6;4;6
+2008;(ESP);Spain;Beijing;China;5;11;3
+2008;(JAM);Jamaica;Beijing;China;5;4;2
+2008;(POL);Poland;Beijing;China;4;5;2
+2008;(ETH);Ethiopia;Beijing;China;4;2;1
+2008;(ROU);Romania;Beijing;China;4;1;4
+2008;(CUB);Cuba;Beijing;China;3;10;17
+2008;(CAN);Canada;Beijing;China;3;9;8
+2008;(HUN);Hungary;Beijing;China;3;5;2
+2008;(NOR);Norway;Beijing;China;3;5;1
+2008;(BRA);Brazil;Beijing;China;3;4;10
+2008;(BLR);Belarus;Beijing;China;3;4;7
+2008;(CZE);Czech Republic;Beijing;China;3;3;1
+2008;(SVK);Slovakia;Beijing;China;3;3;0
+2008;(NZL);New Zealand;Beijing;China;3;2;4
+2008;(GEO);Georgia;Beijing;China;3;2;2
+2008;(KAZ);Kazakhstan;Beijing;China;2;3;4
+2008;(DEN);Denmark;Beijing;China;2;2;3
+2008;(PRK);North Korea;Beijing;China;2;2;2
+2008;(THA);Thailand;Beijing;China;2;2;2
+2008;(MGL);Mongolia;Beijing;China;2;2;0
+2008;(SUI);Switzerland;Beijing;China;2;1;4
+2008;(ARG);Argentina;Beijing;China;2;0;4
+2008;(MEX);Mexico;Beijing;China;2;0;2
+2008;(BEL);Belgium;Beijing;China;2;0;0
+2008;(ZIM);Zimbabwe;Beijing;China;1;3;0
+2008;(SLO);Slovenia;Beijing;China;1;2;2
+2008;(AZE);Azerbaijan;Beijing;China;1;1;4
+2008;(INA);Indonesia;Beijing;China;1;1;4
+2008;(BUL);Bulgaria;Beijing;China;1;1;3
+2008;(TUR);Turkey;Beijing;China;1;1;3
+2008;(TPE);Chinese Taipei;Beijing;China;1;1;2
+2008;(FIN);Finland;Beijing;China;1;1;2
+2008;(LAT);Latvia;Beijing;China;1;1;1
+2008;(DOM);Dominican Republic;Beijing;China;1;1;0
+2008;(EST);Estonia;Beijing;China;1;1;0
+2008;(POR);Portugal;Beijing;China;1;1;0
+2008;(TTO);Trinidad and Tobago;Beijing;China;1;1;0
+2008;(IND);India;Beijing;China;1;0;2
+2008;(IRI);Iran;Beijing;China;1;0;1
+2008;(CMR);Cameroon;Beijing;China;1;0;0
+2008;(PAN);Panama;Beijing;China;1;0;0
+2008;(TUN);Tunisia;Beijing;China;1;0;0
+2008;(SWE);Sweden;Beijing;China;0;4;1
+2008;(LTU);Lithuania;Beijing;China;0;3;2
+2008;(NGR);Nigeria;Beijing;China;0;3;2
+2008;(CRO);Croatia;Beijing;China;0;2;3
+2008;(COL);Colombia;Beijing;China;0;2;1
+2008;(GRE);Greece;Beijing;China;0;2;1
+2008;(ARM);Armenia;Beijing;China;0;1;4
+2008;(UZB);Uzbekistan;Beijing;China;0;1;3
+2008;(AUT);Austria;Beijing;China;0;1;2
+2008;(IRL);Ireland;Beijing;China;0;1;2
+2008;(KGZ);Kyrgyzstan;Beijing;China;0;1;2
+2008;(SRB);Serbia;Beijing;China;0;1;2
+2008;(ALG);Algeria;Beijing;China;0;1;1
+2008;(BAH);Bahamas;Beijing;China;0;1;1
+2008;(MAR);Morocco;Beijing;China;0;1;1
+2008;(TJK);Tajikistan;Beijing;China;0;1;1
+2008;(CHI);Chile;Beijing;China;0;1;0
+2008;(ECU);Ecuador;Beijing;China;0;1;0
+2008;(ISL);Iceland;Beijing;China;0;1;0
+2008;(MAS);Malaysia;Beijing;China;0;1;0
+2008;(SAM);Samoa;Beijing;China;0;1;0
+2008;(SIN);Singapore;Beijing;China;0;1;0
+2008;(RSA);South Africa;Beijing;China;0;1;0
+2008;(SUD);Sudan;Beijing;China;0;1;0
+2008;(VIE);Vietnam;Beijing;China;0;1;0
+2008;(EGY);Egypt;Beijing;China;0;0;2
+2008;(AFG);Afghanistan;Beijing;China;0;0;1
+2008;(ISR);Israel;Beijing;China;0;0;1
+2008;(MRI);Mauritius;Beijing;China;0;0;1
+2008;(MDA);Moldova;Beijing;China;0;0;1
+2008;(TOG);Togo;Beijing;China;0;0;1
+2008;(VEN);Venezuela;Beijing;China;0;0;1
+2004;(USA);United States;Athens;Greece;36;39;26
+2004;(CHN);China;Athens;Greece;32;17;14
+2004;(RUS);Russia;Athens;Greece;28;26;36
+2004;(AUS);Australia;Athens;Greece;17;16;17
+2004;(JPN);Japan;Athens;Greece;16;9;12
+2004;(GER);Germany;Athens;Greece;13;16;20
+2004;(FRA);France;Athens;Greece;11;9;13
+2004;(ITA);Italy;Athens;Greece;10;11;11
+2004;(KOR);South Korea;Athens;Greece;9;12;9
+2004;(GBR);Great Britain;Athens;Greece;9;9;12
+2004;(CUB);Cuba;Athens;Greece;9;7;11
+2004;(HUN);Hungary;Athens;Greece;8;6;3
+2004;(UKR);Ukraine;Athens;Greece;8;5;9
+2004;(ROU);Romania;Athens;Greece;8;5;6
+2004;(GRE);Greece;Athens;Greece;6;6;4
+2004;(BRA);Brazil;Athens;Greece;5;2;3
+2004;(NOR);Norway;Athens;Greece;5;0;1
+2004;(NED);Netherlands;Athens;Greece;4;9;9
+2004;(SWE);Sweden;Athens;Greece;4;2;1
+2004;(ESP);Spain;Athens;Greece;3;11;6
+2004;(CAN);Canada;Athens;Greece;3;6;3
+2004;(TUR);Turkey;Athens;Greece;3;3;5
+2004;(POL);Poland;Athens;Greece;3;2;5
+2004;(NZL);New Zealand;Athens;Greece;3;2;0
+2004;(THA);Thailand;Athens;Greece;3;1;4
+2004;(BLR);Belarus;Athens;Greece;2;5;6
+2004;(AUT);Austria;Athens;Greece;2;4;1
+2004;(ETH);Ethiopia;Athens;Greece;2;3;2
+2004;(IRI);Iran;Athens;Greece;2;2;2
+2004;(SVK);Slovakia;Athens;Greece;2;2;2
+2004;(TPE);Chinese Taipei;Athens;Greece;2;2;1
+2004;(GEO);Georgia;Athens;Greece;2;2;0
+2004;(BUL);Bulgaria;Athens;Greece;2;1;9
+2004;(DEN);Denmark;Athens;Greece;2;1;5
+2004;(JAM);Jamaica;Athens;Greece;2;1;2
+2004;(UZB);Uzbekistan;Athens;Greece;2;1;2
+2004;(MAR);Morocco;Athens;Greece;2;1;0
+2004;(ARG);Argentina;Athens;Greece;2;0;4
+2004;(CHI);Chile;Athens;Greece;2;0;1
+2004;(KAZ);Kazakhstan;Athens;Greece;1;4;3
+2004;(KEN);Kenya;Athens;Greece;1;4;2
+2004;(CZE);Czech Republic;Athens;Greece;1;3;5
+2004;(RSA);South Africa;Athens;Greece;1;3;2
+2004;(CRO);Croatia;Athens;Greece;1;2;2
+2004;(LTU);Lithuania;Athens;Greece;1;2;0
+2004;(EGY);Egypt;Athens;Greece;1;1;3
+2004;(SUI);Switzerland;Athens;Greece;1;1;3
+2004;(INA);Indonesia;Athens;Greece;1;1;2
+2004;(ZIM);Zimbabwe;Athens;Greece;1;1;1
+2004;(AZE);Azerbaijan;Athens;Greece;1;0;4
+2004;(BEL);Belgium;Athens;Greece;1;0;2
+2004;(BAH);Bahamas;Athens;Greece;1;0;1
+2004;(ISR);Israel;Athens;Greece;1;0;1
+2004;(CMR);Cameroon;Athens;Greece;1;0;0
+2004;(DOM);Dominican Republic;Athens;Greece;1;0;0
+2004;(UAE);United Arab Emirates;Athens;Greece;1;0;0
+2004;(PRK);North Korea;Athens;Greece;0;4;1
+2004;(LAT);Latvia;Athens;Greece;0;4;0
+2004;(MEX);Mexico;Athens;Greece;0;3;1
+2004;(POR);Portugal;Athens;Greece;0;2;1
+2004;(FIN);Finland;Athens;Greece;0;2;0
+2004;(SCG);Serbia and Montenegro;Athens;Greece;0;2;0
+2004;(SLO);Slovenia;Athens;Greece;0;1;3
+2004;(EST);Estonia;Athens;Greece;0;1;2
+2004;(HKG);Hong Kong;Athens;Greece;0;1;0
+2004;(IND);India;Athens;Greece;0;1;0
+2004;(PAR);Paraguay;Athens;Greece;0;1;0
+2004;(COL);Colombia;Athens;Greece;0;0;2
+2004;(NGR);Nigeria;Athens;Greece;0;0;2
+2004;(VEN);Venezuela;Athens;Greece;0;0;2
+2004;(ERI);Eritrea;Athens;Greece;0;0;1
+2004;(MGL);Mongolia;Athens;Greece;0;0;1
+2004;(SYR);Syria;Athens;Greece;0;0;1
+2004;(TRI);Trinidad and Tobago;Athens;Greece;0;0;1
+2000;(USA);United States;Sydney;Australia;37;24;32
+2000;(RUS);Russia;Sydney;Australia;32;28;29
+2000;(CHN);China;Sydney;Australia;28;16;14
+2000;(AUS);Australia;Sydney;Australia;16;25;17
+2000;(GER);Germany;Sydney;Australia;13;17;26
+2000;(FRA);France;Sydney;Australia;13;14;11
+2000;(ITA);Italy;Sydney;Australia;13;8;13
+2000;(NED);Netherlands;Sydney;Australia;12;9;4
+2000;(CUB);Cuba;Sydney;Australia;11;11;7
+2000;(GBR);Great Britain;Sydney;Australia;11;10;7
+2000;(ROU);Romania;Sydney;Australia;11;6;9
+2000;(KOR);South Korea;Sydney;Australia;8;10;10
+2000;(HUN);Hungary;Sydney;Australia;8;6;3
+2000;(POL);Poland;Sydney;Australia;6;5;3
+2000;(JPN);Japan;Sydney;Australia;5;8;5
+2000;(BUL);Bulgaria;Sydney;Australia;5;6;2
+2000;(GRE);Greece;Sydney;Australia;4;6;3
+2000;(SWE);Sweden;Sydney;Australia;4;5;3
+2000;(NOR);Norway;Sydney;Australia;4;3;3
+2000;(ETH);Ethiopia;Sydney;Australia;4;1;3
+2000;(UKR);Ukraine;Sydney;Australia;3;10;10
+2000;(KAZ);Kazakhstan;Sydney;Australia;3;4;0
+2000;(BLR);Belarus;Sydney;Australia;3;3;11
+2000;(CAN);Canada;Sydney;Australia;3;3;8
+2000;(ESP);Spain;Sydney;Australia;3;3;5
+2000;(TUR);Turkey;Sydney;Australia;3;0;2
+2000;(IRI);Iran;Sydney;Australia;3;0;1
+2000;(CZE);Czech Republic;Sydney;Australia;2;3;3
+2000;(KEN);Kenya;Sydney;Australia;2;3;2
+2000;(DEN);Denmark;Sydney;Australia;2;3;1
+2000;(FIN);Finland;Sydney;Australia;2;1;1
+2000;(AUT);Austria;Sydney;Australia;2;1;0
+2000;(LTU);Lithuania;Sydney;Australia;2;0;3
+2000;(AZE);Azerbaijan;Sydney;Australia;2;0;1
+2000;(BAH);Bahamas;Sydney;Australia;2;0;1
+2000;(SLO);Slovenia;Sydney;Australia;2;0;0
+2000;(SUI);Switzerland;Sydney;Australia;1;6;2
+2000;(INA);Indonesia;Sydney;Australia;1;3;2
+2000;(SVK);Slovakia;Sydney;Australia;1;3;1
+2000;(MEX);Mexico;Sydney;Australia;1;2;3
+2000;(NGR);Nigeria;Sydney;Australia;1;2;0
+2000;(ALG);Algeria;Sydney;Australia;1;1;3
+2000;(UZB);Uzbekistan;Sydney;Australia;1;1;2
+2000;(LAT);Latvia;Sydney;Australia;1;1;1
+2000;(YUG);Yugoslavia;Sydney;Australia;1;1;1
+2000;(NZL);New Zealand;Sydney;Australia;1;0;3
+2000;(EST);Estonia;Sydney;Australia;1;0;2
+2000;(THA);Thailand;Sydney;Australia;1;0;2
+2000;(CRO);Croatia;Sydney;Australia;1;0;1
+2000;(CMR);Cameroon;Sydney;Australia;1;0;0
+2000;(COL);Colombia;Sydney;Australia;1;0;0
+2000;(MOZ);Mozambique;Sydney;Australia;1;0;0
+2000;(BRA);Brazil;Sydney;Australia;0;6;6
+2000;(JAM);Jamaica;Sydney;Australia;0;6;3
+2000;(BEL);Belgium;Sydney;Australia;0;2;3
+2000;(RSA);South Africa;Sydney;Australia;0;2;3
+2000;(ARG);Argentina;Sydney;Australia;0;2;2
+2000;(TPE);Chinese Taipei;Sydney;Australia;0;1;4
+2000;(MAR);Morocco;Sydney;Australia;0;1;4
+2000;(PRK);North Korea;Sydney;Australia;0;1;3
+2000;(MDA);Moldova;Sydney;Australia;0;1;1
+2000;(KSA);Saudi Arabia;Sydney;Australia;0;1;1
+2000;(TRI);Trinidad and Tobago;Sydney;Australia;0;1;1
+2000;(IRL);Ireland;Sydney;Australia;0;1;0
+2000;(SRI);Sri Lanka;Sydney;Australia;0;1;0
+2000;(URU);Uruguay;Sydney;Australia;0;1;0
+2000;(VIE);Vietnam;Sydney;Australia;0;1;0
+2000;(GEO);Georgia;Sydney;Australia;0;0;6
+2000;(CRC);Costa Rica;Sydney;Australia;0;0;2
+2000;(POR);Portugal;Sydney;Australia;0;0;2
+2000;(ARM);Armenia;Sydney;Australia;0;0;1
+2000;(BAR);Barbados;Sydney;Australia;0;0;1
+2000;(CHI);Chile;Sydney;Australia;0;0;1
+2000;(ISL);Iceland;Sydney;Australia;0;0;1
+2000;(IND);India;Sydney;Australia;0;0;1
+2000;(ISR);Israel;Sydney;Australia;0;0;1
+2000;(KUW);Kuwait;Sydney;Australia;0;0;1
+2000;(KGZ);Kyrgyzstan;Sydney;Australia;0;0;1
+2000;(MKD);Macedonia;Sydney;Australia;0;0;1
+2000;(QAT);Qatar;Sydney;Australia;0;0;1
+1996;(USA);United States;Atlanta;United States;44;32;25
+1996;(RUS);Russia;Atlanta;United States;26;21;16
+1996;(GER);Germany;Atlanta;United States;20;18;27
+1996;(CHN);China;Atlanta;United States;16;22;12
+1996;(FRA);France;Atlanta;United States;15;7;15
+1996;(ITA);Italy;Atlanta;United States;13;10;12
+1996;(AUS);Australia;Atlanta;United States;9;9;23
+1996;(CUB);Cuba;Atlanta;United States;9;8;8
+1996;(UKR);Ukraine;Atlanta;United States;9;2;12
+1996;(KOR);South Korea;Atlanta;United States;7;15;5
+1996;(POL);Poland;Atlanta;United States;7;5;5
+1996;(HUN);Hungary;Atlanta;United States;7;4;10
+1996;(ESP);Spain;Atlanta;United States;5;6;6
+1996;(ROU);Romania;Atlanta;United States;4;7;9
+1996;(NED);Netherlands;Atlanta;United States;4;5;10
+1996;(GRE);Greece;Atlanta;United States;4;4;0
+1996;(CZE);Czech Republic;Atlanta;United States;4;3;4
+1996;(SUI);Switzerland;Atlanta;United States;4;3;0
+1996;(DEN);Denmark;Atlanta;United States;4;1;1
+1996;(TUR);Turkey;Atlanta;United States;4;1;1
+1996;(CAN);Canada;Atlanta;United States;3;11;8
+1996;(BUL);Bulgaria;Atlanta;United States;3;7;5
+1996;(JPN);Japan;Atlanta;United States;3;6;5
+1996;(KAZ);Kazakhstan;Atlanta;United States;3;4;4
+1996;(BRA);Brazil;Atlanta;United States;3;3;9
+1996;(NZL);New Zealand;Atlanta;United States;3;2;1
+1996;(RSA);South Africa;Atlanta;United States;3;1;1
+1996;(IRL);Ireland;Atlanta;United States;3;0;1
+1996;(SWE);Sweden;Atlanta;United States;2;4;2
+1996;(NOR);Norway;Atlanta;United States;2;2;3
+1996;(BEL);Belgium;Atlanta;United States;2;2;2
+1996;(NGR);Nigeria;Atlanta;United States;2;1;3
+1996;(PRK);North Korea;Atlanta;United States;2;1;2
+1996;(ALG);Algeria;Atlanta;United States;2;0;1
+1996;(ETH);Ethiopia;Atlanta;United States;2;0;1
+1996;(GBR);Great Britain;Atlanta;United States;1;8;6
+1996;(BLR);Belarus;Atlanta;United States;1;6;8
+1996;(KEN);Kenya;Atlanta;United States;1;4;3
+1996;(JAM);Jamaica;Atlanta;United States;1;3;2
+1996;(FIN);Finland;Atlanta;United States;1;2;1
+1996;(INA);Indonesia;Atlanta;United States;1;1;2
+1996;(YUG);Yugoslavia;Atlanta;United States;1;1;2
+1996;(IRI);Iran;Atlanta;United States;1;1;1
+1996;(SVK);Slovakia;Atlanta;United States;1;1;1
+1996;(ARM);Armenia;Atlanta;United States;1;1;0
+1996;(CRO);Croatia;Atlanta;United States;1;1;0
+1996;(POR);Portugal;Atlanta;United States;1;0;1
+1996;(THA);Thailand;Atlanta;United States;1;0;1
+1996;(BDI);Burundi;Atlanta;United States;1;0;0
+1996;(CRC);Costa Rica;Atlanta;United States;1;0;0
+1996;(ECU);Ecuador;Atlanta;United States;1;0;0
+1996;(HKG);Hong Kong;Atlanta;United States;1;0;0
+1996;(SYR);Syria;Atlanta;United States;1;0;0
+1996;(ARG);Argentina;Atlanta;United States;0;2;1
+1996;(NAM);Namibia;Atlanta;United States;0;2;0
+1996;(SLO);Slovenia;Atlanta;United States;0;2;0
+1996;(AUT);Austria;Atlanta;United States;0;1;2
+1996;(MAS);Malaysia;Atlanta;United States;0;1;1
+1996;(MDA);Moldova;Atlanta;United States;0;1;1
+1996;(UZB);Uzbekistan;Atlanta;United States;0;1;1
+1996;(AZE);Azerbaijan;Atlanta;United States;0;1;0
+1996;(BAH);Bahamas;Atlanta;United States;0;1;0
+1996;(TPE);Chinese Taipei;Atlanta;United States;0;1;0
+1996;(LAT);Latvia;Atlanta;United States;0;1;0
+1996;(PHI);Philippines;Atlanta;United States;0;1;0
+1996;(TGA);Tonga;Atlanta;United States;0;1;0
+1996;(ZAM);Zambia;Atlanta;United States;0;1;0
+1996;(GEO);Georgia;Atlanta;United States;0;0;2
+1996;(MAR);Morocco;Atlanta;United States;0;0;2
+1996;(TRI);Trinidad and Tobago;Atlanta;United States;0;0;2
+1996;(IND);India;Atlanta;United States;0;0;1
+1996;(ISR);Israel;Atlanta;United States;0;0;1
+1996;(LTU);Lithuania;Atlanta;United States;0;0;1
+1996;(MEX);Mexico;Atlanta;United States;0;0;1
+1996;(MGL);Mongolia;Atlanta;United States;0;0;1
+1996;(MOZ);Mozambique;Atlanta;United States;0;0;1
+1996;(PUR);Puerto Rico;Atlanta;United States;0;0;1
+1996;(TUN);Tunisia;Atlanta;United States;0;0;1
+1996;(UGA);Uganda;Atlanta;United States;0;0;1
+1992;(EUN);Unified Team;Barcelona;Spain;45;38;29
+1992;(USA);United States;Barcelona;Spain;37;34;37
+1992;(GER);Germany;Barcelona;Spain;33;21;28
+1992;(CHN);China;Barcelona;Spain;16;22;16
+1992;(CUB);Cuba;Barcelona;Spain;14;6;11
+1992;(ESP);Spain;Barcelona;Spain;13;7;2
+1992;(KOR);South Korea;Barcelona;Spain;12;5;12
+1992;(HUN);Hungary;Barcelona;Spain;11;12;7
+1992;(FRA);France;Barcelona;Spain;8;5;16
+1992;(AUS);Australia;Barcelona;Spain;7;9;11
+1992;(CAN);Canada;Barcelona;Spain;7;4;7
+1992;(ITA);Italy;Barcelona;Spain;6;5;8
+1992;(GBR);Great Britain;Barcelona;Spain;5;3;12
+1992;(ROU);Romania;Barcelona;Spain;4;6;8
+1992;(TCH);Czechoslovakia;Barcelona;Spain;4;2;1
+1992;(PRK);North Korea;Barcelona;Spain;4;0;5
+1992;(JPN);Japan;Barcelona;Spain;3;8;11
+1992;(BUL);Bulgaria;Barcelona;Spain;3;7;6
+1992;(POL);Poland;Barcelona;Spain;3;6;10
+1992;(NED);Netherlands;Barcelona;Spain;2;6;7
+1992;(KEN);Kenya;Barcelona;Spain;2;4;2
+1992;(NOR);Norway;Barcelona;Spain;2;4;1
+1992;(TUR);Turkey;Barcelona;Spain;2;2;2
+1992;(INA);Indonesia;Barcelona;Spain;2;2;1
+1992;(BRA);Brazil;Barcelona;Spain;2;1;0
+1992;(GRE);Greece;Barcelona;Spain;2;0;0
+1992;(SWE);Sweden;Barcelona;Spain;1;7;4
+1992;(NZL);New Zealand;Barcelona;Spain;1;4;5
+1992;(FIN);Finland;Barcelona;Spain;1;2;2
+1992;(DEN);Denmark;Barcelona;Spain;1;1;4
+1992;(MAR);Morocco;Barcelona;Spain;1;1;1
+1992;(IRL);Ireland;Barcelona;Spain;1;1;0
+1992;(ETH);Ethiopia;Barcelona;Spain;1;0;2
+1992;(ALG);Algeria;Barcelona;Spain;1;0;1
+1992;(EST);Estonia;Barcelona;Spain;1;0;1
+1992;(LTU);Lithuania;Barcelona;Spain;1;0;1
+1992;(SUI);Switzerland;Barcelona;Spain;1;0;0
+1992;(JAM);Jamaica;Barcelona;Spain;0;3;1
+1992;(NGR);Nigeria;Barcelona;Spain;0;3;1
+1992;(LAT);Latvia;Barcelona;Spain;0;2;1
+1992;(AUT);Austria;Barcelona;Spain;0;2;0
+1992;(NAM);Namibia;Barcelona;Spain;0;2;0
+1992;(RSA);South Africa;Barcelona;Spain;0;2;0
+1992;(BEL);Belgium;Barcelona;Spain;0;1;2
+1992;(CRO);Croatia;Barcelona;Spain;0;1;2
+1992;(IOP);Independent Olympic Participants;Barcelona;Spain;0;1;2
+1992;(IRI);Iran;Barcelona;Spain;0;1;2
+1992;(ISR);Israel;Barcelona;Spain;0;1;1
+1992;(TPE);Chinese Taipei;Barcelona;Spain;0;1;0
+1992;(MEX);Mexico;Barcelona;Spain;0;1;0
+1992;(PER);Peru;Barcelona;Spain;0;1;0
+1992;(MGL);Mongolia;Barcelona;Spain;0;0;2
+1992;(SLO);Slovenia;Barcelona;Spain;0;0;2
+1992;(ARG);Argentina;Barcelona;Spain;0;0;1
+1992;(BAH);Bahamas;Barcelona;Spain;0;0;1
+1992;(COL);Colombia;Barcelona;Spain;0;0;1
+1992;(GHA);Ghana;Barcelona;Spain;0;0;1
+1992;(MAS);Malaysia;Barcelona;Spain;0;0;1
+1992;(PAK);Pakistan;Barcelona;Spain;0;0;1
+1992;(PHI);Philippines;Barcelona;Spain;0;0;1
+1992;(PUR);Puerto Rico;Barcelona;Spain;0;0;1
+1992;(QAT);Qatar;Barcelona;Spain;0;0;1
+1992;(SUR);Suriname;Barcelona;Spain;0;0;1
+1992;(THA);Thailand;Barcelona;Spain;0;0;1
+1988;(URS);Soviet Union;Seoul;South Korea;55;31;46
+1988;(GDR);East Germany;Seoul;South Korea;37;35;30
+1988;(USA);United States;Seoul;South Korea;36;31;27
+1988;(KOR);South Korea;Seoul;South Korea;12;10;11
+1988;(FRG);West Germany;Seoul;South Korea;11;14;15
+1988;(HUN);Hungary;Seoul;South Korea;11;6;6
+1988;(BUL);Bulgaria;Seoul;South Korea;10;12;13
+1988;(ROU);Romania;Seoul;South Korea;7;11;6
+1988;(FRA);France;Seoul;South Korea;6;4;6
+1988;(ITA);Italy;Seoul;South Korea;6;4;4
+1988;(CHN);China;Seoul;South Korea;5;11;12
+1988;(GBR);Great Britain;Seoul;South Korea;5;10;9
+1988;(KEN);Kenya;Seoul;South Korea;5;2;2
+1988;(JPN);Japan;Seoul;South Korea;4;3;7
+1988;(AUS);Australia;Seoul;South Korea;3;6;5
+1988;(YUG);Yugoslavia;Seoul;South Korea;3;4;5
+1988;(TCH);Czechoslovakia;Seoul;South Korea;3;3;2
+1988;(NZL);New Zealand;Seoul;South Korea;3;2;8
+1988;(CAN);Canada;Seoul;South Korea;3;2;5
+1988;(POL);Poland;Seoul;South Korea;2;5;9
+1988;(NOR);Norway;Seoul;South Korea;2;3;0
+1988;(NED);Netherlands;Seoul;South Korea;2;2;5
+1988;(DEN);Denmark;Seoul;South Korea;2;1;1
+1988;(BRA);Brazil;Seoul;South Korea;1;2;3
+1988;(FIN);Finland;Seoul;South Korea;1;1;2
+1988;(ESP);Spain;Seoul;South Korea;1;1;2
+1988;(TUR);Turkey;Seoul;South Korea;1;1;0
+1988;(MAR);Morocco;Seoul;South Korea;1;0;2
+1988;(AUT);Austria;Seoul;South Korea;1;0;0
+1988;(POR);Portugal;Seoul;South Korea;1;0;0
+1988;(SUR);Suriname;Seoul;South Korea;1;0;0
+1988;(SWE);Sweden;Seoul;South Korea;0;4;7
+1988;(SUI);Switzerland;Seoul;South Korea;0;2;2
+1988;(JAM);Jamaica;Seoul;South Korea;0;2;0
+1988;(ARG);Argentina;Seoul;South Korea;0;1;1
+1988;(CHI);Chile;Seoul;South Korea;0;1;0
+1988;(CRC);Costa Rica;Seoul;South Korea;0;1;0
+1988;(INA);Indonesia;Seoul;South Korea;0;1;0
+1988;(IRI);Iran;Seoul;South Korea;0;1;0
+1988;(AHO);Netherlands Antilles;Seoul;South Korea;0;1;0
+1988;(PER);Peru;Seoul;South Korea;0;1;0
+1988;(SEN);Senegal;Seoul;South Korea;0;1;0
+1988;(ISV);Virgin Islands;Seoul;South Korea;0;1;0
+1988;(BEL);Belgium;Seoul;South Korea;0;0;2
+1988;(MEX);Mexico;Seoul;South Korea;0;0;2
+1988;(COL);Colombia;Seoul;South Korea;0;0;1
+1988;(DJI);Djibouti;Seoul;South Korea;0;0;1
+1988;(GRE);Greece;Seoul;South Korea;0;0;1
+1988;(MGL);Mongolia;Seoul;South Korea;0;0;1
+1988;(PAK);Pakistan;Seoul;South Korea;0;0;1
+1988;(PHI);Philippines;Seoul;South Korea;0;0;1
+1988;(THA);Thailand;Seoul;South Korea;0;0;1
+1956;(URS);Soviet Union;;;37;29;32
+1956;(USA);United States;;;32;25;17
+1956;(AUS);Australia;;;13;8;14
+1956;(HUN);Hungary;;;9;10;7
+1956;(ITA);Italy;;;8;8;9
+1956;(SWE);Sweden;;;8;5;6
+1956;(EUA);United Team of Germany;;;6;13;7
+1956;(GBR);Great Britain;;;6;7;11
+1956;(ROU);Romania;;;5;3;5
+1956;(JPN);Japan;;;4;10;5
+1956;(FRA);France;;;4;4;6
+1956;(TUR);Turkey;;;3;2;2
+1956;(FIN);Finland;;;3;1;11
+1956;(IRI);Iran;;;2;2;1
+1956;(CAN);Canada;;;2;1;3
+1956;(NZL);New Zealand;;;2;0;0
+1956;(POL);Poland;;;1;4;4
+1956;(TCH);Czechoslovakia;;;1;4;1
+1956;(BUL);Bulgaria;;;1;3;1
+1956;(DEN);Denmark;;;1;2;1
+1956;(IRL);Ireland;;;1;1;3
+1956;(NOR);Norway;;;1;0;2
+1956;(MEX);Mexico;;;1;0;1
+1956;(BRA);Brazil;;;1;0;0
+1956;(IND);India;;;1;0;0
+1956;(YUG);Yugoslavia;;;0;3;0
+1956;(CHI);Chile;;;0;2;2
+1956;(BEL);Belgium;;;0;2;0
+1956;(ARG);Argentina;;;0;1;1
+1956;(KOR);South Korea;;;0;1;1
+1956;(ISL);Iceland;;;0;1;0
+1956;(PAK);Pakistan;;;0;1;0
+1956;(RSA);South Africa;;;0;0;4
+1956;(AUT);Austria;;;0;0;2
+1956;(BAH);Bahamas;;;0;0;1
+1956;(GRE);Greece;;;0;0;1
+1956;(SUI);Switzerland;;;0;0;1
+1956;(URU);Uruguay;;;0;0;1
+1952;(USA);United States;Helsinki;Finland;40;19;17
+1952;(URS);Soviet Union;Helsinki;Finland;22;30;19
+1952;(HUN);Hungary;Helsinki;Finland;16;10;16
+1952;(SWE);Sweden;Helsinki;Finland;12;13;10
+1952;(ITA);Italy;Helsinki;Finland;8;9;4
+1952;(TCH);Czechoslovakia;Helsinki;Finland;7;3;3
+1952;(FRA);France;Helsinki;Finland;6;6;6
+1952;(FIN);Finland;Helsinki;Finland;6;3;13
+1952;(AUS);Australia;Helsinki;Finland;6;2;3
+1952;(NOR);Norway;Helsinki;Finland;3;2;0
+1952;(SUI);Switzerland;Helsinki;Finland;2;6;6
+1952;(RSA);South Africa;Helsinki;Finland;2;4;4
+1952;(JAM);Jamaica;Helsinki;Finland;2;3;0
+1952;(BEL);Belgium;Helsinki;Finland;2;2;0
+1952;(DEN);Denmark;Helsinki;Finland;2;1;3
+1952;(TUR);Turkey;Helsinki;Finland;2;0;1
+1952;(JPN);Japan;Helsinki;Finland;1;6;2
+1952;(GBR);Great Britain;Helsinki;Finland;1;2;8
+1952;(ARG);Argentina;Helsinki;Finland;1;2;2
+1952;(POL);Poland;Helsinki;Finland;1;2;1
+1952;(CAN);Canada;Helsinki;Finland;1;2;0
+1952;(YUG);Yugoslavia;Helsinki;Finland;1;2;0
+1952;(ROU);Romania;Helsinki;Finland;1;1;2
+1952;(BRA);Brazil;Helsinki;Finland;1;0;2
+1952;(NZL);New Zealand;Helsinki;Finland;1;0;2
+1952;(IND);India;Helsinki;Finland;1;0;1
+1952;(LUX);Luxembourg;Helsinki;Finland;1;0;0
+1952;(GER);Germany;Helsinki;Finland;0;7;17
+1952;(NED);Netherlands;Helsinki;Finland;0;5;0
+1952;(IRI);Iran;Helsinki;Finland;0;3;4
+1952;(CHI);Chile;Helsinki;Finland;0;2;0
+1952;(AUT);Austria;Helsinki;Finland;0;1;1
+1952;(LIB);Lebanon;Helsinki;Finland;0;1;1
+1952;(IRL);Ireland;Helsinki;Finland;0;1;0
+1952;(MEX);Mexico;Helsinki;Finland;0;1;0
+1952;(ESP);Spain;Helsinki;Finland;0;1;0
+1952;(KOR);South Korea;Helsinki;Finland;0;0;2
+1952;(TRI);Trinidad and Tobago;Helsinki;Finland;0;0;2
+1952;(URU);Uruguay;Helsinki;Finland;0;0;2
+1952;(BUL);Bulgaria;Helsinki;Finland;0;0;1
+1952;(EGY);Egypt;Helsinki;Finland;0;0;1
+1952;(POR);Portugal;Helsinki;Finland;0;0;1
+1952;(VEN);Venezuela;Helsinki;Finland;0;0;1
+1948;(USA);United States;London;Great Britain;38;27;19
+1948;(SWE);Sweden;London;Great Britain;16;11;17
+1948;(FRA);France;London;Great Britain;10;6;13
+1948;(HUN);Hungary;London;Great Britain;10;5;12
+1948;(ITA);Italy;London;Great Britain;8;11;8
+1948;(FIN);Finland;London;Great Britain;8;7;5
+1948;(TUR);Turkey;London;Great Britain;6;4;2
+1948;(TCH);Czechoslovakia;London;Great Britain;6;2;3
+1948;(SUI);Switzerland;London;Great Britain;5;10;5
+1948;(DEN);Denmark;London;Great Britain;5;7;8
+1948;(NED);Netherlands;London;Great Britain;5;2;9
+1948;(GBR);Great Britain;London;Great Britain;3;14;6
+1948;(ARG);Argentina;London;Great Britain;3;3;1
+1948;(AUS);Australia;London;Great Britain;2;6;5
+1948;(BEL);Belgium;London;Great Britain;2;2;3
+1948;(EGY);Egypt;London;Great Britain;2;2;1
+1948;(MEX);Mexico;London;Great Britain;2;1;2
+1948;(RSA);South Africa;London;Great Britain;2;1;1
+1948;(NOR);Norway;London;Great Britain;1;3;3
+1948;(JAM);Jamaica;London;Great Britain;1;2;0
+1948;(AUT);Austria;London;Great Britain;1;0;3
+1948;(IND);India;London;Great Britain;1;0;0
+1948;(PER);Peru;London;Great Britain;1;0;0
+1948;(YUG);Yugoslavia;London;Great Britain;0;2;0
+1948;(CAN);Canada;London;Great Britain;0;1;2
+1948;(POR);Portugal;London;Great Britain;0;1;1
+1948;(URU);Uruguay;London;Great Britain;0;1;1
+1948;(CEY);Ceylon;London;Great Britain;0;1;0
+1948;(CUB);Cuba;London;Great Britain;0;1;0
+1948;(ESP);Spain;London;Great Britain;0;1;0
+1948;(TRI);Trinidad and Tobago;London;Great Britain;0;1;0
+1948;(PAN);Panama;London;Great Britain;0;0;2
+1948;(KOR);South Korea;London;Great Britain;0;0;2
+1948;(BRA);Brazil;London;Great Britain;0;0;1
+1948;(IRI);Iran;London;Great Britain;0;0;1
+1948;(POL);Poland;London;Great Britain;0;0;1
+1948;(PUR);Puerto Rico;London;Great Britain;0;0;1
+1936;(GER);Germany;Berlin;Germany;33;26;30
+1936;(USA);United States;Berlin;Germany;24;20;12
+1936;(HUN);Hungary;Berlin;Germany;10;1;5
+1936;(ITA);Italy;Berlin;Germany;8;9;5
+1936;(FIN);Finland;Berlin;Germany;7;6;6
+1936;(FRA);France;Berlin;Germany;7;6;6
+1936;(SWE);Sweden;Berlin;Germany;6;5;9
+1936;(JPN);Japan;Berlin;Germany;6;4;8
+1936;(NED);Netherlands;Berlin;Germany;6;4;7
+1936;(GBR);Great Britain;Berlin;Germany;4;7;3
+1936;(AUT);Austria;Berlin;Germany;4;6;3
+1936;(TCH);Czechoslovakia;Berlin;Germany;3;5;0
+1936;(ARG);Argentina;Berlin;Germany;2;2;3
+1936;(EST);Estonia;Berlin;Germany;2;2;3
+1936;(EGY);Egypt;Berlin;Germany;2;1;2
+1936;(SUI);Switzerland;Berlin;Germany;1;9;5
+1936;(CAN);Canada;Berlin;Germany;1;3;5
+1936;(NOR);Norway;Berlin;Germany;1;3;2
+1936;(TUR);Turkey;Berlin;Germany;1;0;1
+1936;(IND);India;Berlin;Germany;1;0;0
+1936;(NZL);New Zealand;Berlin;Germany;1;0;0
+1936;(POL);Poland;Berlin;Germany;0;3;3
+1936;(DEN);Denmark;Berlin;Germany;0;2;3
+1936;(LAT);Latvia;Berlin;Germany;0;1;1
+1936;(ROU);Romania;Berlin;Germany;0;1;0
+1936;(RSA);South Africa;Berlin;Germany;0;1;0
+1936;(YUG);Yugoslavia;Berlin;Germany;0;1;0
+1936;(MEX);Mexico;Berlin;Germany;0;0;3
+1936;(BEL);Belgium;Berlin;Germany;0;0;2
+1936;(AUS);Australia;Berlin;Germany;0;0;1
+1936;(PHI);Philippines;Berlin;Germany;0;0;1
+1936;(POR);Portugal;Berlin;Germany;0;0;1

@@ -4,11 +4,11 @@ title: about
 permalink: /
 description: <a href="#">Ph.D. student, researcher</a> at Jagiellonian University.
 
-# profile:
+profile:
 #   align: right
-#   image: my_pic.jpg
-#   address: >
-# <p>Kraków, Poland</p>
+  image: my_pic.jpg
+  address: >
+    <p>Kraków, Poland</p>
 # <p>555 your office number</p>
 # <p>123 your address street</p>
 
