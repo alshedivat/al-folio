@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   address: >
     <p>F228</p>
-    <p>Discovery Park, 3940 N Elm St</p>
+    <p>Discovery Park</p>
     <p>Denton, TX 76207</p>
 
 news: true  # includes a list of news items
