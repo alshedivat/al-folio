@@ -43,11 +43,7 @@ ___
 
 ## services
 
-* I am (proudly) a co-chair of the **Equal Access to Application Assistance (EAAA) program** at the Department of Electrical Engineering and Computer Sciences at UC Berkeley. 
-	- EAAA is a student-led program designed to ensure that all applicants to higher degree programs (MS/Ph.D.) in the Department of Electrical Engineering and Computer Science at UC Berkeley have access to guidance on the application process for advanced degrees.
-	- **You can apply to EAAA [here]()**. 
-	- You can find additional **resources on how to apply to grad school** on my co-chair's website, [Nathan Lambert](https://www.natolambert.com/), click **[here](https://www.natolambert.com/guides/grad-apps)**.
-	
+* I am (proudly) a co-chair of the **Equal Access to Application Assistance (EAAA) program** at the Department of Electrical Engineering and Computer Sciences at UC Berkeley.**You can learn about EAAA and apply [here]()**. You can find additional **resources on how to apply to grad school** on my co-chair's website, [Nathan Lambert](https://www.natolambert.com/), click **[here](https://www.natolambert.com/guides/grad-apps)**.
 
 * I am a member of the **[EECS Peer](https://www2.eecs.berkeley.edu/eecs-peers/)** group at UC Berkeley to support fellow students through graduate school life.
 
