@@ -9,15 +9,18 @@ profile:
   image: prof_pic.jpg
   address: >
     <p>F228</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Discovery Park, 3940 N Elm St</p>
+    <p>Denton, TX 76207</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Dr. Chenxi Qiu is currently a tenure-track assistant professor in The Department of Computer Science and Engineering at University of North Texas (UNT). Before joining UNT, he worked as an assistant professor in the Department of Computer Science at Rowan University from 2018 to 2021, and worked as a Postdoctoral Scholar in The College of Information Sciences and Technology at Pennsylvania State University from 2016 to 2018.
+
+Dr. Qiu received his Ph.D. degree in The Holcombe Department of Electrical and Computer Engineering at Clemson University in 2015 and his B.Engr. degree in Telecommunication Engineering from Xidian University in China in 2009.
+
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
