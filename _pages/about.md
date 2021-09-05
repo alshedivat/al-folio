@@ -2,7 +2,6 @@
 layout: about
 title: About
 permalink: /
-description: <a href="#">University of North Texas</a> Discovery Park, 3940 N Elm St, Denton, TX 76207
 
 profile:
   align: right
