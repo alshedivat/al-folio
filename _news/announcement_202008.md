@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-07-01 15:59:00-0400
+date: 2020-08-01 15:59:00-0400
 inline: true
 ---
 
-I started my new position as an assistant professor at University of North Texas.
+Our project about vehicle location privacy was funded by NSF (CNS2029881). Many thanks to NSF.
