@@ -7,8 +7,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>F228</p>
-    <p>Discovery Park</p>
+    <p>Discovery Park F228</p>
     <p>Denton, TX 76207</p>
 
 news: true  # includes a list of news items
