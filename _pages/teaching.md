@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: teaching and services
 description: Guest lectures and teaching assistanship.
 nav: true
 ---
@@ -27,6 +27,17 @@ ___
 
 ___
 
-## mentorship
+## mentorship and student advising
 
-Summer Undergraduate Program in Engineering Research at UC Berkeley ([SUPERB](https://eecs.berkeley.edu/resources/undergrads/research/superb)) mentor, Summer 2019.
+**Richard Lettich (Undergrad, UC Berkeley), Spring/Summer/Fall 2021.
+
+**Bridget Agyare (Undergrad, UC Berkeley), Summer/Fall 2021.
+
+**[LeadTheFuture](leadthefuture.tech) mentor.
+
+**Summer Undergraduate Program in Engineering Research at UC Berkeley ([SUPERB](https://eecs.berkeley.edu/resources/undergrads/research/superb)) mentor. Elizabeth Koning (Currently Grad Student, UIUC), Summer 2019.
+___
+
+## services
+
+**I am a co-chair of the Equal Access to Application Assistance (EAAA) program at the Department of Electrical Engineering and Computer Sciences at UC Berkeley. 
