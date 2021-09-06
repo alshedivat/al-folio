@@ -1,11 +1,11 @@
 ---
 layout: page
-title: submenus
+title: lab
 nav: true
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: people
+      permalink: /people/
     - title: divider
     - title: projects
       permalink: /projects/
