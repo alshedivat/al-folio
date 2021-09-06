@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data Privacy
+title: Differentially Private Obfuscation
 description: Vehicle location privacy protection in location based services. 
 img: /assets/img/project1cover.JPG
 importance: 1
