@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
+title: Data Privacy
 description: Vehicle data privacy protection. 
-img: /assets/img/12.jpg
+img: /assets/img/project1cover.JPG
 importance: 1
 category: work
 ---
