@@ -1,7 +1,7 @@
 ---
 layout: page
 title: project 1
-description: Goal: Protecting mobile users' location privacy in various IoT applications. 
+description: Vehicle data privacy protection. 
 img: /assets/img/12.jpg
 importance: 1
 category: work
