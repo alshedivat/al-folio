@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data privacy protection
+title: project 1
 description: Goal: Protecting mobile users' location privacy in various IoT applications. 
 img: /assets/img/12.jpg
 importance: 1
