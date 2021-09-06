@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Data privacy protection
+description: Goal: Protecting mobile users' location privacy in various IoT applications. 
 img: /assets/img/12.jpg
 importance: 1
 category: work
