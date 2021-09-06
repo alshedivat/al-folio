@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Assistant professor, Discovery Park F228, Denton, Texas 76207.
 
 profile:
   align: right
