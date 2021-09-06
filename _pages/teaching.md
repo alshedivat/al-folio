@@ -43,7 +43,7 @@ ___
 
 ## services
 
-* I am (proudly) a co-chair of the **Equal Access to Application Assistance (EAAA) program** at the Department of Electrical Engineering and Computer Sciences at UC Berkeley.**You can learn about EAAA and apply [here]()**. You can find additional **resources on how to apply to grad school** on my co-chair's website, [Nathan Lambert](https://www.natolambert.com/), click **[here](https://www.natolambert.com/guides/grad-apps)**.
+* I am a co-organizer —alongside [Nathan Lambert](https://www.natolambert.com/) and [Erin Grant](https://eringrant.github.io/)— of the **Equal Access to Application Assistance (EAAA) program** at [UC Berkeley EECS](https://eecs.berkeley.edu/).**You can learn about EAAA and apply [here](https://sites.google.com/berkeley.edu/eaaa/home)**. You can find additional **resources on how to apply to grad school** [on Nathan's website](https://www.natolambert.com/guides/grad-apps).
 
 * I am a member of the **[EECS Peer](https://www2.eecs.berkeley.edu/eecs-peers/)** group at UC Berkeley to support fellow students through graduate school life.
 
