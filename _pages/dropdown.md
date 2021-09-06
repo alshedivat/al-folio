@@ -7,6 +7,6 @@ children:
     - title: people
       permalink: /people/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: people
+      permalink: /people/
 ---
