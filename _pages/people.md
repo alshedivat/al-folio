@@ -4,6 +4,7 @@ permalink: /people/
 title: people
 description: TBD.
 students: [Ph.D., Master, Undergraduate]
+nav: false
 ---
 
 <div class="people">
