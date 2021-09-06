@@ -10,7 +10,8 @@ Location obfuscation, which allows mobile users to report obfuscated locations i
 
 ---
 
-Publications: TMC 2020, CIKM 2020, IPSN 2020, ICDCS 2019
+Publications: 
+TMC 2020, CIKM 2020, IPSN 2020, ICDCS 2019
 
 This project has been reported by [Rowan Today](https://today.rowan.edu/news/2021/02/protecting-app-based-worker-privacy.html).
 
