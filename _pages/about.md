@@ -2,8 +2,6 @@
 layout: about
 title: about
 permalink: /
-description: Assistant professor, Discovery Park F228, Denton, TX 76207
-
 
 profile:
   align: right
