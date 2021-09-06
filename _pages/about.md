@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-description: Assistant professor. Discovery Park F228, Denton, TX 76207
+description: Assistant professor. 
+<p> Discovery Park F228, </p>
+<p> Denton, TX 76207</p>
 
 
 profile:
