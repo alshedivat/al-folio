@@ -2,10 +2,11 @@
 layout: page
 permalink: /people/
 title: people
-description: TBD.
 students: [Ph.D., Master, Undergraduate]
 nav: false
 ---
+
+TBD
 
 <div class="people">
 
