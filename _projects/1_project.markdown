@@ -1,15 +1,13 @@
 ---
 layout: page
 title: Data Privacy
-description: Vehicle data privacy protection. 
+description: Vehicle location privacy protection in location based services. 
 img: /assets/img/project1cover.JPG
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Location obfuscation, which allows mobile users to report obfuscated locations instead of the exact locations, has been a dominating location privacy protection paradigm in many location-based services. Yet, the current obfuscation designs fail to address the vulnerabilities of vehicles, of which the mobility is restricted by the underlying road networks and traffic conditions. Particularly, individual vehicles’ mobility is restricted by various road environments, including local road network topology, speed limits, and traffic conditions. Built upon this insight, in this project, our objective is to 1) demonstrate that, with the road network environment and historical traffic flow information provided, vehicles’ trajectory can be inferred with high accuracy even their reported locations have been obfuscated, 2) propose a new location obfuscation paradigm to protect vehicles’ location privacy considering the vehicles’ mobility features over roads, and 3) develop, deploy, test, and refine the geo-obfuscation methods in dynamic location-based applications.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
@@ -17,7 +15,7 @@ To give your project a background in the portfolio page, just add the img tag to
     layout: page
     title: project
     description: a project with a background image
-    img: /assets/img/12.jpg
+    img: /assets/img/locationobfuscationframe.jpg
     ---
 
 <div class="row">
