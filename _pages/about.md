@@ -8,7 +8,6 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Assistant Professor</p>
     <p>Discovery Park F228</p>
     <p>Denton, Texas 76207</p>
 
