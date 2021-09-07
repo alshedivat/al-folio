@@ -1,6 +1,6 @@
 ---
 layout: page
-title: lab
+title: Lab
 nav: true
 dropdown: true
 children: 
