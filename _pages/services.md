@@ -5,15 +5,16 @@ title: services
 nav: true
 ---
 
-Professional Memberships
---
+**Professional Memberships**
+
 IEEE, Member
 
 ACM, Member
 
+-----------------------
 
-Conference Organization
---
+**Conference Organization**
+
 Session chair of The ACM/IEEE Conference on Internet of Things Design and Implementation (IoTDI) 2021
 
 Web chair of The ACM/IEEE Conference on Internet of Things Design and Implementation (IoTDI) 2021
@@ -24,9 +25,10 @@ Session chair of The IEEE International Conference on Mobile Ad-hoc and Sensor S
 
 Session chair of The IEEE International Conference on Distributed Computing Systems (ICDCS) 2019
 
+-----------------------
 
-Technical Programm Committee (TPC) Member
---
+**Technical Programm Committee (TPC) Member**
+
 The IEEE Wireless Communications and Networking Conference (WCNC) 2021
 
 The IEEE/ACM International Symposium on Cluster, Cloud, and Grid Computing (CCGrid) 2019, 2020
@@ -35,8 +37,10 @@ The IEEE International Conference on Fog and Edge Computing (ICFEC) 2019, 2020
 
 The IEEE Wireless Communications and Networking Conference (WCNC) 2020
 
-Journal Reviewr
---
+-----------------------
+
+**Journal Reviewr**
+
 2018: IEEE Transactions on Services Computing (TSC)
 
 2015, 2018: IEEE/ACM Transactions on Networking (ToN)
