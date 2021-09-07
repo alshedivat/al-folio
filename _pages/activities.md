@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /activities/
-title: activities
+permalink: /Activities/
+title: Activities
 nav: false
 ---
 
