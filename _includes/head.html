@@ -43,7 +43,8 @@
     <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
     {% endif %}
 <!-- Code Syntax Highlighting -->
-<link rel="stylesheet" href="https://raw.githubusercontent.com/jwarby/jekyll-pygments-themes/master/{{ site.highlight_theme }}.css" />
+<!-- Fix according to https://github.com/alshedivat/al-folio/discussions/372#discussioncomment-1206239 -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/{{ site.highlight_theme }}.css" />
 
 <!-- Styles -->
 {% if site.icon != empty %}
