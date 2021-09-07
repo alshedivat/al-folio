@@ -1,5 +1,16 @@
 ---
 ---
+@ARTICLE{8368309,
+  abbr={TSC 2021},
+  author={Shen, Haiying and Qiu, Chenxi},
+  journal={IEEE Transactions on Services Computing}, 
+  title={Scheduling Inter-Datacenter Video Flows for Cost Efficiency}, 
+  year={2021},
+  volume={14},
+  number={3},
+  pages={834-849},
+  doi={10.1109/TSC.2018.2841868}
+}
 
 @ARTICLE{PTL2021,
   abbr={PTL 2021},
@@ -157,6 +168,45 @@
   numpages = {9}
 }
 
+@ARTICLE{TCC2019,
+  abbr={TCC 2019},
+  author={Qiu, Chenxi and Shen, Haiying},
+  journal={IEEE Transactions on Cloud Computing}, 
+  title={Dynamic Demand Prediction and Allocation in Cloud Service Brokerage},
+  abstract={To maximize its own profit, cloud service brokerage (CSB) aims to distribute tenant demands to reserved servers such that the total reservation cost is minimized with the tenants' service level agreement (SLA) being satisfied. The demand allocation problem for CSB is non-trivial to solve due to uncertainty of tenants' behavior. To avoid possible violations among demands, existing schemes allocate additional padding resources on the predicted demands, which leads to under-utilization of reserved resources. Accordingly, we propose a Probabilistic Demand Allocation (PDA) system to address the demand allocation problem for CSB. In PDA, we not only predict tenants' demands based on their historical records, but also estimate the probability distribution of prediction errors. As over- and under-estimation are equally likely to happen with our prediction method, when allocating demands to a single server, their errors are possibly offset. Hence, it is unnecessary to allocate additional resource to each demand for violation prevention. Given the predication results, we formulate the demand allocation problem by probabilistic optimization, of which the objective is to minimize the overall cost from reserved servers while satisfying tenants' SLA with high probability. Both simulation and real-world experimental results demonstrate the superiority of PDA in reducing servers' reservation cost.},
+  year={2019},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TCC.2019.2913419}}
+  
+@INPROCEEDINGS{8567548,
+  abbr={MASS 2018},
+  author={Qiu, Chenxi and Shen, Haiying},
+  booktitle={2018 IEEE 15th International Conference on Mobile Ad Hoc and Sensor Systems (MASS)}, 
+  title={Cloud-Based Collision-Aware Energy-Minimization Vehicle Velocity Optimization}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={116-124},
+  doi={10.1109/MASS.2018.00026}}
+  
+@inproceedings{10.5555/3237383.3237922,
+  abbr={AAMAS 2018},
+  author = {Qiu, Chenxi and Squicciarini, Anna and Khare, Dev Rishi and Carminati, Barbara and Caverlee, James},
+  title = {CrowdEval: A Cost-Efficient Strategy to Evaluate Crowdsourced Worker's Reliability},
+  year = {2018},
+  publisher = {International Foundation for Autonomous Agents and Multiagent Systems},
+  address = {Richland, SC},
+  abstract = {Crowdsourcing platforms depend on the quality of work provided by a distributed workforce. Yet, it is challenging to dependably measure the reliability of these workers, particularly in the face of strategic or malicious behavior. In this paper, we present a dynamic and efficient solution to keep tracking workers' reliability. In particular, we use oth gold standard evaluation and peer consistency evaluation to measure each worker performance, and adjust the proportion of the two types of evaluation according to the estimated distribution of workers' behavior (e.g., being reliable or malicious). Through experiments over real Amazon Mechanical Turk traces, we find that our approach has a significant gain in terms of accuracy and cost compared to state-of-the-art algorithms.}, 
+  booktitle = {Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems},
+  pages = {1486–1494},
+  numpages = {9},
+  keywords = {crowdsourcing, amazon mechanical turk, peer consistency evaluation, gold standard evaluation},
+  location = {Stockholm, Sweden},
+  series = {AAMAS '18}
+}
+
 @ARTICLE{TMC2018,
   abbr={TMC 2018},
   author={Chenxi Qiu and Haiying Shen and Kang Chen},
@@ -171,5 +221,48 @@
   html={https://ieeexplore.ieee.org/abstract/document/9259240}, 
   pdf={TMC2018.pdf},
   selected={true}
+}
+
+@ARTICLE{8345684,
+  abbr={TNSE 2018},
+  author={Qiu, Chenxi and Shen, Haiying and Yu, Lei},
+  journal={IEEE Transactions on Network Science and Engineering}, 
+  title={Towards Green Wireless Networking: Fading-Resistant Time Constraint Broadcasts Using Cooperative Communication}, 
+  year={2019},
+  volume={6},
+  number={3},
+  pages={548-561},
+  doi={10.1109/TNSE.2018.2829780}
+}
+
+@ARTICLE{8331901,
+  abbr={TBD 2019},
+  author={Qiu, Chenxi and Shen, Haiying and Chen, Liuhua},
+  journal={IEEE Transactions on Big Data}, 
+  title={Towards Green Cloud Computing: Demand Allocation and Pricing Policies for Cloud Service Brokerage}, 
+  year={2019},
+  volume={5},
+  number={2},
+  pages={238-251},
+  doi={10.1109/TBDATA.2018.2823330}
+}
+
+@article{10.1145/3191779,
+  author = {Yan, Li and Shen, Haiying and Li, Zhuozhao and Sarker, Ankur and Stankovic, John A. and Qiu, Chenxi and Zhao, Juanjuan and Xu, Chengzhong},
+  title = {Employing Opportunistic Charging for Electric Taxicabs to Reduce Idle Time},
+  year = {2018},
+  issue_date = {March 2018},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {2},
+  number = {1},
+  url = {https://doi.org/10.1145/3191779},
+  doi = {10.1145/3191779},
+  abstract = {For electric taxicabs, the idle time spent on cruising for passengers, seeking chargers, and charging is wasteful. Previous works can only save cruising time through better routing, or charger seeking and charging time through proper charger deployment, but not for both. With the advancement of wireless charging techniques, efficient opportunistic charging of electric vehicles at their parked positions becomes possible. This enables a taxicab to get charged while waiting for the next passenger. In this paper, we present an opportunistic wireless charger deployment scheme in a city, which both maximizes the taxicabs' opportunity of picking up passengers at the chargers and supports the taxicabs' continuous operability on roads, while minimizing the total deployment cost. We studied a metropolitan-scale taxicab dataset on several factors important for deploying wireless chargers and determining the numbers of the chargers in the regions: the number of passengers, the functionalities of buildings, and the frequency of passenger appearance in a region, and taxicab traffic flows in a city. Then, we formulate a multi-objective optimization problem and find the solution. Our trace-driven experiments demonstrate the superior performance of our scheme over other representative methods in terms of reducing idle time and supporting the operability of the taxicabs.},
+  journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
+  month = mar,
+  articleno = {47},
+  numpages = {25},
+  keywords = {mobile data analysis, Vehicle wireless charging, kernel density estimation, charger deployment}
 }
 
