@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
+permalink: /Teaching/
+title: Teaching
 nav: true
 display_categories: [graduate, undergraduate]
 ---
