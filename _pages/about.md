@@ -1,24 +1,17 @@
 ---
 layout: about
-title: about
+title: about me
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: # This corresponds to the line under my name.
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: #This is what goes under the profile picture
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am a Ph.D. student in philosophy at Duke University, where I am a member of both the [Imagination and Modal Cognition Lab](https://www.imclab.org/) and the [Moral Attitudes and Decision-Making Lab](https://kenan.ethics.duke.edu/mad-lab/). My primary interests are in moral psychology, the philosophy of cognitive science, and theoretical cognitive neuroscience. The central aim of my research is to understand how our moral thoughts and behavior are shaped by our social environment, past experiences, and features of the present situation (i.e., our current tasks, time constraints, etc.). Currently, I'm exploring how Bayesian and predictive theories of cognition may help us better explain and identify the various neurocognitive processes underlying our moral cognition, such as the formation of moral judgments, the representation of moral content, and the acquisition of moral knowledge.
