@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /people/
-title: people
+permalink: /People/
+title: People
 roles: [Director, Ph.D., Master, Undergraduate]
 nav: false
 ---
