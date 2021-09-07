@@ -11,8 +11,8 @@ TBD
 <div class="people">
 
 {% for y in page.roles %}
-  <h2 class="roles">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
+  <h2 class="roles">{{role}}</h2>
+  {% bibliography -f papers -q @*[roles={{y}}]* %}
 {% endfor %}
 
 </div>
