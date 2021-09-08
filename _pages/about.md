@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 <br> 
 <strong>Ph.D. Candidate</strong><br> 
-Department of Computer Science and Engineering,<br> 
+Department of Computer Science and Engineering<br> 
 The Chinese University of Hong Kong<br> 
 
 <br> 
