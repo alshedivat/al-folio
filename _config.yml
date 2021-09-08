@@ -23,7 +23,6 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
-
 navbar_fixed: true
 footer_fixed: true
 
