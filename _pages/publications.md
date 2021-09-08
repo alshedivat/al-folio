@@ -13,6 +13,7 @@ For journals, A∗: top 7%, A: top 17%;
 
 For conferences, A∗: top 4%, A: top 14%
 
+First authors with ^ are the students in our lab. 
 
 <div class="publications">
 
