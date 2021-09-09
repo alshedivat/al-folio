@@ -5,4 +5,4 @@ title: Activities
 nav: false
 ---
 
-TBD. 
+TBD
