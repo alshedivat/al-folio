@@ -11,7 +11,7 @@ description: Ph.D. Student in Systems Science and Engineering - Cornell Universi
 footer_text:
 
 icon: 📁 # the emoji used as the favicon
-url: www.patrickkastner.de # the base hostname & protocol for your site
+url: https://www.patrickkastner.de # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -95,7 +95,7 @@ collections:
     output: true
     permalink: /news/:path/
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
 
 news_limit: 5

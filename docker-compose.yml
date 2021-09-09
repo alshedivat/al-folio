@@ -1,6 +1,6 @@
 jekyll:
     image: jekyll/jekyll
-    command: jekyll serve --watch --incremental --force_polling
+    command: jekyll serve --watch --force_polling
     ports:
         - 4000:4000
     volumes:
