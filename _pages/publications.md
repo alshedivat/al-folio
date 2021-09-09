@@ -8,10 +8,8 @@ nav: true
 ---
 
 Journal and conference rankings are based on CORE (The Computing Research and Education Association of Australasia).
-
-For journals, A+: top 7%, A: top 17%; 
-
-For conferences, A+: top 4%, A: top 14%
+Journal: A+: top 7%, A: top 17%; 
+Conferences: A+: top 4%, A: top 14%
 
 First authors with * are the students in our lab. 
 
