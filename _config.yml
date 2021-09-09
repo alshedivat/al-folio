@@ -4,7 +4,7 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Yu 
 middle_name:  
-last_name: LI
+last_name: LI 李渝
 email: yuli@cse.cuhk.edu.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
  Welcome to Yu's Personal Website! 
