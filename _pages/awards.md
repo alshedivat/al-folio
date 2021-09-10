@@ -23,11 +23,4 @@ Harris Outstanding Researcher Award, Department of ECE, Clemson University, 2014
 
 Honorable Mention of Interdisciplinary Contest in Modeling (ICM), Consortium for Mathematics and Its Applications (COMAP), 2008
 
----
-
-**Grants**
-
-PI, “Collaborative Research: SaTC: CORE: Small: Privacy protection of Vehicles location in Spatial Crowdsourcing under realistic adversarial models”, NSF, 01/01/2021 - 12/31/2023, $227,107
-
-Co-PI, “Power Grid SCADA System Security Solution Evaluation”, Protect Our Power, 08/01/2020 - 01/31/2021, Shared credit: $12,500
 
