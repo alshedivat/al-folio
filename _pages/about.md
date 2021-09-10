@@ -1,8 +1,10 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
-description: <a href="#">Ph.D. student, researcher</a> at Jagiellonian University.
+description:
+  # <p><b>Ph.D. student, researcher</b> at Jagiellonian University</p>
+  # <p><b>Junior NLP Engineer</b> at <a href=https://samsungrd.pl/>Samsung`</a></p> 
 
 profile:
 #   align: right
@@ -12,12 +14,18 @@ profile:
 # <p>555 your office number</p>
 # <p>123 your address street</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+**Ph.D. student, researcher** at [Jagiellonian University](https://fais.uj.edu.pl/en_GB/the-institute-of-physics)  
+**Junior NLP Engineer** at [Samsung](https://samsungrd.pl) 
 
-<!-- [My blog](/blog/) -->
+#### What you can find here
+
+* [My blog](/blog/)
+* [My resume](/CV/)
+* [My publications](/publications/)
 
 <!-- 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
