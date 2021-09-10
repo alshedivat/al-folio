@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /Awards&Grants/
-title: Awards&Grants
+permalink: /Awards/
+title: Awards
 nav: true
 ---
 
