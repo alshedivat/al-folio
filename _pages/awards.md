@@ -5,7 +5,7 @@ title: Awards&Grants
 nav: true
 ---
 
-**Award**
+**Awards**
 
 Outstanding Service Award in ACM/IEEE Conference on Internet of Things Design and Implementation (IoTDI), 2021
 
@@ -25,7 +25,7 @@ Honorable Mention of Interdisciplinary Contest in Modeling (ICM), Consortium for
 
 ---
 
-**Grant**
+**Grants**
 
 PI, “Collaborative Research: SaTC: CORE: Small: Privacy protection of Vehicles location in Spatial Crowdsourcing under realistic adversarial models”, NSF, 01/01/2021 - 12/31/2023, $227,107
 
