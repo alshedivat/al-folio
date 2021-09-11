@@ -75,6 +75,9 @@
       {% endunless %}
       {% endif %}
       {% endfor %}
+      {% if entry.etal %}
+      et al.
+      {% endif %}
     </div>
 
     <div class="periodical">
@@ -84,7 +87,11 @@
       <em>In {{entry.booktitle}}</em>
       {% endif %}
       {% if entry.year %}
+      {% if entry.accepted %}
+      (accepted)
+      {% else %}
       {{entry.year}}
+      {% endif %}
       {% endif %}
       {% if entry.impact %}
       [IF: {{entry.impact}}]
