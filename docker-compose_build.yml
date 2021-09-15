@@ -2,7 +2,7 @@ version: '2'
 services:
   site:
     environment:
-      - JEKYLL_ENV=docker
+      - JEKYLL_ENV=production
     command: jekyll serve --watch --force_polling --config  _config.yml,_config.docker.yml
     image: jekyll/jekyll
     volumes:
