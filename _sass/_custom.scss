@@ -1,0 +1,36 @@
+$width-left:    14%;
+$width-right:   86%;
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+    .date {
+        width: $width-left;
+        font-weight: normal; //normal|bold|bolder|lighter|number|initial|inherit;
+    }
+
+    .announcement {
+        width: $width-right;
+    }
+
+    tr {
+        text-align: left;
+    }
+
+    td {
+        padding: 6px 0;
+        vertical-align: top;
+        border: none;
+    }
+}
+
+
+
+.news table td {
+    width: $width-right;
+}
+
+.news table th {
+    width: $width-left;
+}
