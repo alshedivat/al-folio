@@ -30,7 +30,7 @@ Founder, Stealth Mode
 
 <b>Research and professional interests:</b> Algorithms, Operations Research, AI, Transportation.
 
-My passion lies in building a two-way bridge connecting research and practice. I realized from my career experience that in several areas of computational sciences, there exists a widening gap separating academic research from real-world applications. I firmly believe this is sub-optimal and is, in part, due to the extreme intellectual, technical and societal challenges that prevent connecting the two. On the other side of these challenges, however, lies the dream I want to realize - **real-life challenges shaping the direction of research and fueling fundamental scientific and technological progress; in turn, scientific and technological breakthroughs powering disruptions that change our world**.
+My passion lies in building a two-way bridge connecting research and practice. I firmly believe that the widening gap separating academic research in computational fields from real-world applications is sub-optimal. The gap is the result of immense intellectual, technical and societal barriers that prevent connecting the two. On the other side of these barriers lies the dream I want to realize - **real-life challenges shaping the direction of research and fueling fundamental scientific and technological progress; in turn, scientific and technological breakthroughs powering disruptions that change our world**.
 
 My work cuts across theoretical research in Computer Science, applied research building technologies, and taking research progress out of the lab to build products.
 
