@@ -11,9 +11,9 @@ ___
 
 **[Languages, Systems, and Data Seminar](https://lsd-ucsc.github.io/lsd-seminar/2021fa/), UC Santa Cruz**, *Sparse Matrices and High-Performance Computing Meet Biology*, Fall 2021.
 
-**[IC Seminar, EPFL IC](https://memento.epfl.ch/event/ic-talk-sparse-matrices-and-high-performance-com-2/)**, *Sparse Matrices and High-Performance Computing Meet Biology*, Summer 2021.
+**[IC Seminar](https://memento.epfl.ch/event/ic-talk-sparse-matrices-and-high-performance-com-2/), EPFL IC**, *Sparse Matrices and High-Performance Computing Meet Biology*, Summer 2021.
 
-**Applications of Parallel Computers, UC Berkeley**: *Parallel Algorithms for De Novo Genome Assembly*, Spring 2021.
+**[Applications of Parallel Computers](https://sites.google.com/lbl.gov/cs267-spr2021), UC Berkeley**: *Parallel Algorithms for De Novo Genome Assembly*, Spring 2021.
 
 [slides](https://bit.ly/3beLtwh) \| [video](https://www.youtube.com/watch?v=bJky-GMFob4)
 
