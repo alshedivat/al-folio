@@ -2,6 +2,10 @@
   - firstname: ["Aydın", "A."]
     url: http://people.eecs.berkeley.edu/~aydin/
 
+"Garcia":
+  - firstname: ["Rolando", "R."]
+    url: https://rlnsanz.github.io/
+
 "Yelick":
   - firstname: ["Katherine", "K."]
     url: https://en.wikipedia.org/wiki/Katherine_Yelick
