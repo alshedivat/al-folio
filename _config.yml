@@ -4,9 +4,9 @@
 
 title: Yuefeng DU # the website title (if blank, full name will be used instead)
 first_name: Yuefeng
-middle_name:
+middle_name: louisdyf@protonmail.com
 last_name: Du
-email:
+email: duyuefeng
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal Website of Yuefeng DU (杜越风)
 # footer_text: >
@@ -49,19 +49,19 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: 
+github_username: duyuefeng0708 
 gitlab_username: # your GitLab user name
-twitter_username: 
-linkedin_username: # your LinkedIn user name
+twitter_username: #
+linkedin_username: #
 scholar_userid: 6BHFDO4AAAAJ
 orcid_id: 0000-0003-1091-6832
 medium_username: # your Medium username
-quora_username: # your Quora username
+quora_username: Louis-Du-3
 publons_id: AAJ-8107-2020
 research_gate_profile: # your profile on ResearchGate
-blogger_url: # your blogger URL
+blogger_url: https://www.zhihu.com/people/07083202
 work_url: # work page URL
-keybase_username: # your keybase user name
+keybase_username: #
 wikidata_id: # your wikidata id
 dblp_url: https://dblp.org/pid/150/3753-1.html
 
