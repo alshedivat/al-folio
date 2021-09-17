@@ -9,4 +9,6 @@ ___
 
 ## coming soon!
 
-<img src="https://github.com/giuliaguidi/giuliaguidi.github.io/blob/faa1f6a7ef541ccb2756d570f2f66fc1a309d445/_images/imgturtle.jpeg"/>
+<p align="center">
+  <img src="https://github.com/giuliaguidi/giuliaguidi.github.io/blob/source/_images/imgturtle.jpeg">
+</p>
