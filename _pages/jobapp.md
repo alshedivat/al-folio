@@ -9,4 +9,4 @@ ___
 
 ## coming soon!
 
-<img src="../_images/imgturtle.jpeg" alt="hi" class="inline"/>
+<img src="https://github.com/giuliaguidi/giuliaguidi.github.io/blob/faa1f6a7ef541ccb2756d570f2f66fc1a309d445/_images/imgturtle.jpeg"/>
