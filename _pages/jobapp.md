@@ -9,4 +9,4 @@ ___
 
 ## coming soon!
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/imgturtle.jpg" data-zoomable>
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/imgturtle.png" data-zoomable>
