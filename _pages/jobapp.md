@@ -4,11 +4,8 @@ permalink: /job/
 title: job search
 description: Job application material for Assistant Professor position in Fall 2021.
 nav: true
+image: imgturtle.png
 ---
 ___
 
 ## coming soon!
-
-<p align="center">
-  <img width="585" height="460" src="https://github.com/giuliaguidi/giuliaguidi.github.io/blob/source/_images/imgturtle.png">
-</p>
