@@ -10,5 +10,5 @@ ___
 ## coming soon!
 
 <p align="center">
-  <img src="https://github.com/giuliaguidi/giuliaguidi.github.io/blob/source/_images/imgturtle.png">
+  <img width="585" height="460" src="https://github.com/giuliaguidi/giuliaguidi.github.io/blob/source/_images/imgturtle.png">
 </p>
