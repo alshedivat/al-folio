@@ -1,4 +1,5 @@
 _site
+.idea
 .bundle
 .sass-cache
 .jekyll-cache
