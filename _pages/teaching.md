@@ -44,3 +44,5 @@ in the ETH network).
 
 ### Resources
 
+* LLVM resources: [general](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#llvm), [introductions](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#introduction-llvm-ir), [compiler passes](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#introduction).
+
