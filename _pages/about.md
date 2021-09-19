@@ -33,7 +33,7 @@ where I worked on my Master thesis in the [HPAC Group](https://hpac.cs.umu.se/),
 I obtained my Bachelor's degree in Computer Science from the
 [Silesian University of Technology](https://www.polsl.pl/en/Pages/Welcome.aspx) in Poland,
 where I had the opportunity to work at the [Institute of Theoretical and Applied Informatics, Polish Academy of Sciences](https://www.iitis.pl/en)
-with [Prof. Tadeusz Czachórski](https://www.iitis.pl/pl/person/tczachorski), Dr Artur Araj,
+with [Prof. Tadeusz Czachórski](https://www.iitis.pl/pl/person/tczachorski), Dr Artur Rataj,
 and [Dr Mateusz Nowak](https://www.iitis.pl/en/person/mnowak).
 
 
