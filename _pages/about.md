@@ -11,6 +11,7 @@ profile:
   address: >
     <p>"Chawin"</p>
     <p>99.3% confidence</p>
+    <p>(he/him/his)</p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
