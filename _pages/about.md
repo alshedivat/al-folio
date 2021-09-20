@@ -5,7 +5,7 @@ permalink: /
 subtitle: chawins AT berkeley DOT edu.
 
 profile:
-  align: left
+  align: right
   image: profile_pic.png
   address: >
     <p>"Chawin"</p>
