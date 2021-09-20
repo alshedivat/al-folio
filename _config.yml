@@ -112,11 +112,11 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
+  # projects:
+  #   output: true
+  #   permalink: /projects/:path/
 
-news_limit: 5
+news_limit: 10
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -214,7 +214,7 @@ jekyll-archives:
 scholar:
 
   last_name: Sitawarin
-  first_name: Chawin
+  first_name: [C., Chawin]
 
   style: apa
   locale: en
