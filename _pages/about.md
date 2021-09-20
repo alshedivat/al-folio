@@ -2,24 +2,23 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: chawins AT berkeley DOT edu.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>"Chawin"</p>
+    <p>99.3% confidence</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! My name is Chawin Sitawarin. I am a PhD student in Computer Science at UC Berkeley, and I am a part of [the security group](https://security.cs.berkeley.edu/), [Berkeley Artificial Intelligence Research (BAIR)](https://bair.berkeley.edu/) and [Berkeley DeepDrive (BDD)](https://bdd-data.berkeley.edu/). My advisor is [Prof. David Wagner](https://people.eecs.berkeley.edu/~daw/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am broadly interested in the intersection between machine learning and computer security. Most of my current and previous works are in the domain of adversarial machine learning, particularly adversarial examples and robustness of machine learning algorithms. If you are confused about my profile picture, please see this [paper](https://arxiv.org/pdf/1412.6572.pdf).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Previously, I graduated from Princeton University in 2018 where I was very fortunate to be advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/), [Prof. Peter Ramadge](http://faculty.ee.princeton.edu/ramadge/doku.html), and [Prof. Alejandro Rodriguez](http://faculty.ee.princeton.edu/arodriguez/).
