@@ -20,4 +20,4 @@ In particular, I'm researching <strong>representation learning for structured da
 
 I received my B.S. and M.S. degree in Aerospace Engineering from KAIST in 2017 and 2019, respectively, 
 under the supervision of <a href="https://scholar.google.com/citations?user=v5hGAWMAAAAJ&hl=en">Prof. Han-Lim Choi</a>.
-During my master’s degree, I researched <strong>deep latent variable models</strong> for dynamical systems.
+During my master’s degree, I researched <strong>probabilistic latent variable models</strong> for dynamical systems.

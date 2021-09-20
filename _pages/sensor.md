@@ -1,21 +1,21 @@
 ---
 layout: page
-permalink: /publications/
+permalink: /publications/sensor
 title: Publications
-description: <sup>*</sup>authors contributed equally. <br> <br> 
+description: <sup>*</sup>authors contributed equally. <br> <br>
   <a href=dynamical>#Dynamical systems</a>
   <a href=graph>#Graph representation learning</a>
   <a href=latent>#Probabilistic LVMs</a>
-  <a href=sensor>#Sensors</a>
-years: [2021, 2020, 2019, 2018, 2017, 2016]
-nav: true
+  <a href=sensor style="color:var(--global-theme-color)">#Sensors</a>
+years: [2018, 2017, 2016]
+nav: false
 ---
 
 <div class="publications">
 
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}, selected!=true]*%}
+  {% bibliography -f papers -q @*[year={{y}}, sensor=true]*%}
 {% endfor %}
 
 </div>

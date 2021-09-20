@@ -96,8 +96,13 @@
       {% if entry.impact %}
       [IF: {{entry.impact}}]
       {% endif %}
+      {% if entry.etc %}
+      <strong> ({{entry.etc}}) </strong>
+      {% endif %}
       {% if entry.award %}
-      ({{entry.award}})
+      <br>
+      🏆 <strong>{{entry.award}}</strong>
+<!--      ({{entry.award}})-->
       {% endif %}
 <!--      {% if entry.proceedings %}-->
 <!--        (presented in {{entry.proceedings}}-->
