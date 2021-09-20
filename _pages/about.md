@@ -5,8 +5,8 @@ permalink: /
 subtitle: chawins AT berkeley DOT edu.
 
 profile:
-  align: left
-  image: prof_pic.jpg
+  align: right
+  image: profile_pic.png
   image_circular: false # crops the image to make it circular
   address: >
     <p>"Chawin"</p>
