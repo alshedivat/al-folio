@@ -143,6 +143,9 @@ plugins:
   - jekyll-twitter-plugin
   - jekyll-sitemap
   - jemoji
+  #if you want to uncomment next line, you have to set base_url beforehand
+  #- jekyll-target-blank
+  # for more information: https://github.com/keithmifsud/jekyll-target-blank
 
 # Extras
 github: [metadata]
