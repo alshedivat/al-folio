@@ -2,6 +2,9 @@
 title: Keypoint-Driven Line Drawing Vectorization via PolyVector Flow
 layout: paper
 
+description: We vectorize line drawings by detecting stroke keypoints, then inferring correct connectivity between them via optimization and, finally, resolving stroke shape with novel polyvector flow.
+img: /assets/img/paper_vector/mini-min.png
+
 _styles: >
   .tiny-shadow {
     box-shadow: 0 0px 3px rgba(0, 0, 0, 0.1) !important;
