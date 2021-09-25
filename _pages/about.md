@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: PhD candidate in computer science at UC Berkeley.
+description: PhD candidate in computer science at UC Berkeley (she/her).
 
 profile:
   align: right
