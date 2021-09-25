@@ -27,7 +27,7 @@ ___
 
 **BuDDI: a declarative Bloom language for CALM programming:** In this paper, we show through examples that Bloom is a suitable language beyond classical distributed computing. Based on these examples, we refine the current Bloom implementation, called Bud, and introduce a new language called BuDDI: Bud to enhance Distributed Data Independence. BuDDI hides the challenges of distributed computing from the programmer without compromising performance by using logically global tables.
 
-[pdf](https://drive.google.com/file/d/1njEHxc5HM7oWgm78mTy2b9Kz_u2v-pW9/view?usp=sharing)
+[pdf](https://drive.google.com/file/d/19NnRRct_0myH5Yl7g8WhYBWVwrB60j0n/view?usp=sharing)
 
 ___
 
