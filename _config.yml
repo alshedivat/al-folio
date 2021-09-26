@@ -67,7 +67,7 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Please contact me via email or by clicking any of the icons above.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
@@ -76,8 +76,8 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: digivation  # your blog must have a name for it to show up in the nav bar
+blog_description: A blog regarding all things digital, innovation and entrepreneurship.
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -154,8 +154,8 @@ github: [metadata]
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Saiedi
+  first_name: [Ed]
 
   style: apa
   locale: en
