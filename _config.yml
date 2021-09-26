@@ -10,11 +10,9 @@ email: ed.saiedi@bi.no
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-icon: 🔥 # the emoji used as the favicon
+icon: 👨🏻‍🏫 # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
@@ -57,12 +55,12 @@ scholar_userid: Pn3NdMgAAAAJ # your Google Scholar ID
 orcid_id: 0000-0003-3679-1222 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
-publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
+publons_id: AAQ-3388-2020 # your ID on Publons
+research_gate_profile: Ed-Saiedi-2 # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: https://www.bi.edu/about-bi/employees/department-of-strategy-and-entrepeneurship2/ed-saiedi/ # work page URL
 keybase_username: # your keybase user name
-wikidata_id: # your wikidata id
+wikidata_id: Q98639310 # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
