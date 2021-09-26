@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Professor of Psychiatry
 
 profile:
   align: right
@@ -10,12 +10,25 @@ profile:
   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Mashhad, Iran</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+
+### Educational Background
+- 2018 Fellowship of Psychosomatic Medicine, Freiburg, Germany
+- 1995-1998 Residency, Psychiatry, Mashhad University of Medical Sciences, Mashhad, Iran
+- 1985-1993 Doctor of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran
+- 1985 High school diploma
+### Awards/Honors
+- 2005 Gold medal of 2005 in internal football championship of MUMS
+- 2004 Won of scholarship from Ministry of Health and Medical Educations of Iran
+- 1998 Superior Status (second rank) in Iranian National Board of Psychiatry
+- 1992 Third rank of ‘Iran Universities football championship’ (and also seven internal medals in MUMS football games)
+- 1985 Score of 227 in Iranian University Entrance Exam (Concour) 
+
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
