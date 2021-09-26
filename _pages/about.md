@@ -22,6 +22,7 @@ social: true  # includes social icons at the bottom of the page
 - 1995-1998 Residency, Psychiatry, Mashhad University of Medical Sciences, Mashhad, Iran
 - 1985-1993 Doctor of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran
 - 1985 High school diploma
+
 ### Awards/Honors
 - 2005 Gold medal of 2005 in internal football championship of MUMS
 - 2004 Won of scholarship from Ministry of Health and Medical Educations of Iran
