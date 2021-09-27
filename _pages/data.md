@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /data/
-title: data
+title: Data
 description: This page consists of links to useful crowdfunding and fintech databases.
 nav: true
 ---
