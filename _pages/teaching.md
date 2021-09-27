@@ -1,7 +1,7 @@
 ---
 layout: page
 title: teaching
-permalink: /teaching/
+permalink: /projects/
 description: My teaching portfolio.
 nav: true
 display_categories: [work, fun]
@@ -11,7 +11,7 @@ horizontal: false
 To watch my guide on how to set-up a budget office/home studio for online presentations (used for my Machine Learning course at BI), please watch this video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9hWb2iQRZCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<div class="teaching">
+<div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
     {% for category in page.display_categories %}
