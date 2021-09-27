@@ -191,13 +191,6 @@ To watch my guide on how to set-up a budget office/home studio for online presen
   <li>(2015; Guest Lecturing): IMIM: Corporate Ethics and Environment <a href="https://www.su.se/english/search-courses-and-programmes/fe5826-1.493353" target="\_blank">Technical University of Madrid (UPM)</a></li>
 </ul>
 
-  </article>
-
-</div>
-
-
-  </body>
-
   <!-- Load Core and Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
@@ -238,6 +231,4 @@ To watch my guide on how to set-up a budget office/home studio for online presen
   });
 </script>
 
-
-</html>
 
