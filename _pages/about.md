@@ -1,15 +1,15 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="#">BI Norwegian Business School</a>. Ed.saiedi@bi.no
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Nydalsveien 37</p>
-    <p>0484 Oslo, Norway</p>
+    <p style="text-align: center;">Nydalsveien 37</p>
+    <p style="text-align: center;">0484 Oslo, Norway</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
