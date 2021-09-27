@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Ed Saiedi # the website title (if blank, full name will be used instead)
+title: # the website title (if blank, full name will be used instead)
 first_name: Ed
 middle_name: 
 last_name: Saiedi
@@ -60,7 +60,7 @@ research_gate_profile: Ed-Saiedi-2 # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: https://www.bi.edu/about-bi/employees/department-of-strategy-and-entrepeneurship2/ed-saiedi/ # work page URL
 keybase_username: # your keybase user name
-wikidata_id: Q98639310 # your wikidata id
+wikidata_id: # your wikidata id;
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
