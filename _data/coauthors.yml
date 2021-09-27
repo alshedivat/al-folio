@@ -1,18 +1,67 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Spelke":
+  - firstname: ["Elizabeth", "Elizabeth S.", "E.", "E. S."]
+    url: https://www.harvardlds.org/our-labs/spelke-labspelke-lab-members/elizabeth-spelke/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Woo":
+  - firstname: ["Brandon", "Brandon M.", "B. M.", "B."]
+    url: https://bmwoo.github.io/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Scott":
+  - firstname: ["Kimberly", "Kim", "K. M.", "Kimberly M."]
+    url: https://kimberscott.github.io/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Shu": 
+  - firstname: ["Tianmin", "T."]
+    url: https://www.tshu.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Smith":
+  - firstname: ["Kevin", "Kevin A.", "K. A.", "K."]
+    url: http://www.mit.edu/~k2smith/
+
+"Gutfreund":
+  - firstname: ["Dan", "D."]
+    url: https://mitibmwatsonailab.mit.edu/people/dan-gutfreund/
+
+"Gan":
+  - firstname: ["Chuang", "C."]
+    url: https://mitibmwatsonailab.mit.edu/people/chuang-gan/
+
+"Tenenbaum":
+  - firstname: ["Josh", "Joshua", "Joshua B.", "J. B."]
+    url: http://web.mit.edu/cocosci/josh.html
+
+"Ullman":
+  - firstname: ["Tomer", "Tomer D.", "T. D.", "T."]
+    url:  https://cocodev.fas.harvard.edu/about/tomer-ullman/
+    
+"Brooks":
+  - firstname: ["Neon", "Neon B.", "N. B.", "N."]
+    url: https://scholar.google.com/citations?user=S7MpjsAAAAAJ&hl=en
+
+"Cushman":
+  - firstname: ["Fiery", "F."]
+    url: http://cushmanlab.fas.harvard.edu/
+
+"Gershman":
+  - firstname: ["Samuel", "Sam", "S."]
+    url: https://gershmanlab.com/index.html
+
+"Kool":
+  - firstname: ["Wouter", "W."]
+    url: http://cdmlab.wustl.edu/index
+
+"McCoy":
+  - firstname: ["John", "J."]
+    url: http://jpmccoy.com/
+
+"Parkinson":
+  - firstname: ["Carolyn", "Carolyn", "C."]
+    url: http://csnlab.org/
+
+"Wheatley":
+  - firstname: ["Thalia", "Thalia P.", "T. P.", "T."]
+    url: http://www.wheatlab.com/
+
+"Bhandwaldar":
+  - firstname: ["A."]
+    url: https://mitibmwatsonailab.mit.edu/people/abhishek-bhandwaldar/

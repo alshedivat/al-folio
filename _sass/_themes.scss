@@ -1,7 +1,7 @@
 /*******************************************************************************
  * Themes
  ******************************************************************************/
- 
+
 :root {
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
@@ -15,12 +15,13 @@
   --global-distill-app-color: #{$grey-color};
 
   .fa-sun {
-    display : none;
+    display: none;
   }
+
   .fa-moon {
     padding-left: 10px;
     padding-top: 12px;
-    display : block;
+    display: block;
   }
 }
 
@@ -39,9 +40,10 @@ html[data-theme='dark'] {
   .fa-sun {
     padding-left: 10px;
     padding-top: 12px;
-    display : block;
+    display: block;
   }
+
   .fa-moon {
-    display : none;
+    display: none;
   }
 }
