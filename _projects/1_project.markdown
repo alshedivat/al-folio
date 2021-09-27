@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Predictive Analytics with Machine Learning
-description: a project with a background image
+description: GRA4136
 img: /assets/img/12.jpg
 importance: 1
-category: work
+category: BI Norwegian Business School
 ---
 
 Every project has a beautiful feature showcase page.
