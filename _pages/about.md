@@ -1,6 +1,6 @@
 ---
-layout: About
-title: About
+layout: about
+title: about
 permalink: /
 description: <a href="https://www.bi.edu/">BI Norwegian Business School</a>. Ed.saiedi@bi.no
 
