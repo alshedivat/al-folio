@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="https://www.bi.edu/research/find-department/department-for-strategy-and-entrepreneurship/" target="_blank">Department of Strategy and Entrepreneurship</a> • <a href="https://www.bi.edu/">BI Norwegian Business School</a>. •  Ed.saiedi@bi.no
+description: <a href="https://www.bi.edu/research/find-department/department-for-strategy-and-entrepreneurship/" target="_blank">Department of Strategy and Entrepreneurship</a> • <a href="https://www.bi.edu/">BI Norwegian Business School</a> •  Ed.saiedi@bi.no
 
 profile:
   align: right
