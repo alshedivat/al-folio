@@ -179,6 +179,7 @@ To watch my guide on how to set-up a budget office/home studio for online presen
 </div>
 
 <p> <p>
+<br>
 
 <h3 id="Prior-teaching">Previous Teaching</h3>
 
