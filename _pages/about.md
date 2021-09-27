@@ -26,3 +26,8 @@ My research lies at the intersections of innovation, entrepreneurship and financ
 My primary research topics are social and corporate entrepreneurship, entrepreneurial finance, digital innovations, and more efficient organization and financing of innovation and R&D in firms.
 
 [//]: # (Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.) 
+
+          <!-- CV link -->
+          <li class="nav-item">
+            <a class="nav-link" href="/~mshediva/assets/pdf/CV.pdf" target="_blank">vitae</a>
+          </li>
