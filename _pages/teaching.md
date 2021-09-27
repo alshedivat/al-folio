@@ -11,7 +11,6 @@ horizontal: false
 To watch my guide on how to set-up a budget office/home studio for online presentations (used for my Machine Learning course at BI), please watch this video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9hWb2iQRZCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<!DOCTYPE html>
 <html>
 
   <head>
@@ -155,32 +154,19 @@ To watch my guide on how to set-up a budget office/home studio for online presen
     </div>
   </nav>
 
-</header>
-
-
-    <!-- Content -->
-
-    <div class="container mt-5">
-      <div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">teaching</h1>
-    <p class="post-description">Classes, workshops, and teaching materials.</p>
-  </header>
-
   <article>
-    <h3 id="carnegie-mellon-university">Carnegie Mellon University</h3>
+    <h3 id="bi-business-school">BI Norwegian Business School</h3>
 
 <div class="card class mt-3">
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="card-title"><a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/index.html" target="_blank">Probabilistic Graphical Models</a></h5>
-        <h6 class="card-subtitle font-italic">Spring 2020: Guest Lecturer</h6>
+        <h5 class="card-title"><a href="https://programmeinfo.bi.no/en/course/GRA-4136/2022-spring" target="_blank">Predictive Analytics with Machine Learning</a></h5>
+        <h6 class="card-subtitle font-italic">Spring 2021: Course Instructor</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">
-          10-708
+          GRA4136
         </span>
       </div>
     </div>
@@ -190,13 +176,7 @@ To watch my guide on how to set-up a budget office/home studio for online presen
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            Lecture 19: Reinforcement Learning as Inference in GM (part 1)
-          </div>
-          <div class="col-sm-3">
-            
-            <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/lectures/lecture19-RL1.pdf" target="_blank">slides</a>&nbsp;
-            <a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2da93b7e-3618-4e3d-bc68-ab8e012d0fb2" target="_blank">video</a>&nbsp;
-            <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/scribe/lec19_scribe.pdf" target="_blank">notes</a>&nbsp;
+            Lecture 1: Intro, Types of Analytics and Predictive Analytics
           </div>
         </div>
       </li>
