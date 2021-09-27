@@ -11,4 +11,4 @@ The Northeastern PINE lab has compiled a huge collection of helpful resources fo
 #### Reading list by topic 
 ##### *Intuitive psychology and physics*
 ##### *Innateness and experience*
-##### 
+##### *General cognitive science*
