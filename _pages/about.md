@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="https://www.bi.edu/research/find-department/department-for-strategy-and-entrepreneurship/" target="_blank">Department of Strategy and Entrepreneurship</a> • <a href="https://www.bi.edu/">BI Norwegian Business School</a> •  Ed.saiedi@bi.no
+description: <a href="https://www.bi.edu/research/find-department/department-for-strategy-and-entrepreneurship/" target="_blank">Department of Strategy and Entrepreneurship</a> • <a href="https://www.bi.edu/">BI Norwegian Business School</a> •  <a href="mailto:Ed.saiedi@bi.no">Ed.saiedi@bi.no</a>
 
 profile:
   align: right
@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an Assistant Professor at the Department of Strategy & Entrepreneurship at the [Norwegian Business School (BI)](https://www.bi.edu/){:target="\_blank"}. My teaching is focused on quantitative courses such as machine learning and econometrics, and on technological innovations and entrepreneurial finance.
+I am an Assistant Professor at the Department of Strategy & Entrepreneurship at the [Norwegian Business School (BI)](https://www.bi.edu/){:target="\_blank"}. My teaching is focused on statistical courses such as machine learning and econometrics, and on technological innovations and entrepreneurial finance.
 
 So far results of my research have been published in [Entrepreneurship, Theory and Practice](https://doi.org/10.1177/1042258720958020) and [Small Business Economics](https://doi.org/10.1007/s11187-019-00309-8). You can find my publications [here](/al-folio/publications/) or on [Google scholar](https://scholar.google.com/citations?user=Pn3NdMgAAAAJ&hl=en)
 
