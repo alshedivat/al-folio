@@ -56,7 +56,7 @@ To watch my guide on how to set-up a budget office/home studio for online presen
         <h6 class="card-subtitle font-italic">Spring 2021: Course Instructor</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
-        <span class="badge">
+        <span class="badge badge-primary">
           GRA4136
         </span>
       </div>
@@ -177,6 +177,8 @@ To watch my guide on how to set-up a budget office/home studio for online presen
     
   </div>
 </div>
+
+<p> <p>
 
 <h3 id="Prior-teaching">Previous Teaching</h3>
 
