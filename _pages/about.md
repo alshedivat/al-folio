@@ -8,6 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
+    <p>+98 51 37112540, +98 51 37124184</p>
     <p>555 your office number</p>
     <p>123 your address street</p>
     <p>Mashhad, Iran</p>
@@ -22,6 +23,14 @@ social: true  # includes social icons at the bottom of the page
 - 1995-1998 Residency, Psychiatry, Mashhad University of Medical Sciences, Mashhad, Iran
 - 1985-1993 Doctor of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran
 - 1985 High school diploma
+
+### Research Interests
+- Gender Dysphoria 
+- Substance Dependency (Addiction)
+- Psychosomatic Medicine
+- Psychoneuroimmunology 
+- Sleep Disorders 
+- Transcranial Magnetic Stimulation (rTMS)
 
 ### Awards/Honors
 - 2005 Gold medal of 2005 in internal football championship of MUMS
