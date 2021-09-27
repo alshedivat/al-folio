@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: 
-years: [2021, 2020]
+years: [2021, 2020, 2019]
 nav: true
 ---
 [//]: # (Make sure to include the year in each .bib entry)
