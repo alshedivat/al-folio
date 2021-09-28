@@ -39,18 +39,17 @@ Spelke, E. S., & Kinzler, K. D. (2007). Core knowledge. *Developmental Science, 
 
 ##### *Methods and tools*
 
+Sarnecka, B. W. (2019). The Writing Workshop: Write More, Write Better, Be Happier in Academia. [https://osf.io/n8pc3/](https://osf.io/n8pc3/).
 
-Sarnecka, B. W. (2019). The Writing Workshop: Write More, Write Better, Be Happier in Academia. (https://osf.io/n8pc3/)[https://osf.io/n8pc3/].
+Freeman, M. A Visual Introduction to Hierarchical Models. [(http://mfviz.com/hierarchical-models/)](http://mfviz.com/hierarchical-models/).
 
-Freeman, M. A Visual Introduction to Hierarchical Models. (http://mfviz.com/hierarchical-models/)[(http://mfviz.com/hierarchical-models/)].
+Goodman, N. D, Tenenbaum, J. B. & The ProbMods Contributors (2016). Probabilistic Models of Cognition (2nd ed.) Retrieved 2021-9-28 from [https://probmods.org/](https://probmods.org/).
 
-N. D. Goodman, J. B. Tenenbaum, and The ProbMods Contributors (2016). Probabilistic Models of Cognition (2nd ed.) Retrieved 2021-9-28 from (https://probmods.org/)[https://probmods.org/].
-
-Wickham, H., & Grolemund, G. (2016). R for data science: import, tidy, transform, visualize, and model data. *O'Reilly Media, Inc.* (https://r4ds.had.co.nz/)[https://r4ds.had.co.nz/].
+Wickham, H., & Grolemund, G. (2016). R for data science: import, tidy, transform, visualize, and model data. *O'Reilly Media, Inc.* [https://r4ds.had.co.nz/](https://r4ds.had.co.nz/).
 
 Green, P., & MacLeod, C. J. (2016). SIMR : an R package for power analysis of generalized linear mixed models by simulation. *Methods in Ecology and Evolution, 7*(4), 493–498.
 
-de Leeuw, J. R. (2015). jsPsych: A JavaScript library for creating behavioral experiments in a web browser. *Behavior Research Methods, 47*(1), 1-12. doi:10.3758/s13428-014-0458-y. (https://www.jspsych.org/)[https://www.jspsych.org/].
+de Leeuw, J. R. (2015). jsPsych: A JavaScript library for creating behavioral experiments in a web browser. *Behavior Research Methods, 47*(1), 1-12. doi:10.3758/s13428-014-0458-y. [https://www.jspsych.org/](https://www.jspsych.org/).
 
 Nieuwenhuis, R., Te Grotenhuis, H. F., & Pelzer, B. J. (2012). Influence. ME: tools for detecting influential data in mixed effects models. *The R Journal, 4*(2), 38–47.
 
