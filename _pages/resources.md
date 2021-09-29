@@ -10,7 +10,8 @@ The Northeastern PINE lab has compiled a huge collection of helpful resources fo
 
 ---
 
-#### Reading list by topic 
+#### Reading list by topic
+
 ##### *Intuitive psychology and physics*
 
 Ullman, T. D., Spelke, E., Battaglia, P., & Tenenbaum, J. B. (2017). Mind Games: Game Engines as an Architecture for Intuitive Physics. *Trends in Cognitive Sciences, 21*(9), 649–665.
