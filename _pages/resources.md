@@ -41,7 +41,7 @@ Spelke, E. S., & Kinzler, K. D. (2007). Core knowledge. *Developmental Science, 
 
 Sarnecka, B. W. (2019). The Writing Workshop: Write More, Write Better, Be Happier in Academia. [https://osf.io/n8pc3/](https://osf.io/n8pc3/).
 
-Freeman, M. A Visual Introduction to Hierarchical Models. [(http://mfviz.com/hierarchical-models/)](http://mfviz.com/hierarchical-models/).
+Freeman, M. A Visual Introduction to Hierarchical Models. [http://mfviz.com/hierarchical-models/](http://mfviz.com/hierarchical-models/).
 
 Goodman, N. D, Tenenbaum, J. B. & The ProbMods Contributors (2016). Probabilistic Models of Cognition (2nd ed.) Retrieved 2021-9-28 from [https://probmods.org/](https://probmods.org/).
 
