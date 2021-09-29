@@ -386,7 +386,7 @@ footer.sticky-bottom {
     padding-top: 1rem;
     margin-top: 2rem;
     margin-bottom: -2rem;
-    text-align: right;
+    text-align: left;
   }
   ol.bibliography {
     list-style: none;
@@ -417,8 +417,10 @@ footer.sticky-bottom {
       }
       .title {
         font-weight: bolder;
+        text-align: justify;
       }
       .author {
+        text-align: justify;
         a {
           border-bottom: 1px dashed var(--global-theme-color);
           &:hover {
