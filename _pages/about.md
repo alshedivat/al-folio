@@ -36,5 +36,5 @@ My research focuses on understanding the advantages and limitations of generativ
 
 <b>{{ "AI Backdoor Security with Generative Models" }}</b>
 
-* Attack with Stealthy Embedding Space Modification (*Under submission* 2021 by Doan et al.)
-* Imperceptible Backdoor Attacks (*ICCV* 2021 by Doan et al.)
+* Backdoor Attack with Imperceptible Input and Latent Modification (*NeurIPS* 2021 by Doan et al.)
+* LIRA: Learnable, Imperceptible and Robust Backdoor Attacks (*ICCV* 2021 by Doan et al.)
