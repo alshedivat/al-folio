@@ -8,6 +8,8 @@ nav: true
 
 The Northeastern PINE lab has compiled a huge collection of helpful resources for students and researchers at all career stages. [Check it out!](https://www.plasticityinneurodevelopmentlab.com/resourcesforresearchers)
 
+---
+
 #### Reading list by topic 
 ##### *Intuitive psychology and physics*
 
@@ -23,6 +25,8 @@ Gergely, G., & Csibra, G. (2003). Teleological reasoning in infancy: The naïve 
 
 Spelke, E. S., Breinlinger, K., Macomber, J., & Jacobson, K. (1992). Origins of knowledge. *Psychological Review, 99*(4), 605–632.
 
+---
+
 ##### *Innateness, learning, and experience*
 
 Smith, L. B., Jayaraman, S., Clerkin, E., & Yu, C. (2018). The Developing Infant Creates a Curriculum for Statistical Learning. *Trends in Cognitive Sciences, 22*(4), 325–336.
@@ -36,6 +40,8 @@ Versace, E., & Vallortigara, G. (2015). Origins of Knowledge: Insights from Prec
 Landau, B., Gleitman, L. R., & Landau, B. (2009). Language and Experience: Evidence from the Blind Child. Harvard University Press.
 
 Spelke, E. S., & Kinzler, K. D. (2007). Core knowledge. *Developmental Science, 10*(1), 89–96.
+
+---
 
 ##### *Methods and tools*
 
@@ -54,6 +60,8 @@ de Leeuw, J. R. (2015). jsPsych: A JavaScript library for creating behavioral ex
 Nieuwenhuis, R., Te Grotenhuis, H. F., & Pelzer, B. J. (2012). Influence. ME: tools for detecting influential data in mixed effects models. *The R Journal, 4*(2), 38–47.
 
 Aslin, R. N. (2007). What’s in a look? *Developmental Science, 10*(1), 48–53.
+
+---
 
 ##### *General cognitive science*
 
