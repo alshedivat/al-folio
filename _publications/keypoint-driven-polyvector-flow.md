@@ -118,7 +118,7 @@ SVG files were rasterized using Adobe Illustrator with default artistic brushes.
 
 ***
 
-<div class="row">
+<!-- <div class="row">
     <img class="img-fluid rounded z-depth-1 no-shadow " src="{{ '/assets/img/paper_vector/comparison_crops.png' | relative_url }}" alt="Comparison_crop" title="Comparison_crop" data-zoomable/>
 </div>
 <div class="caption">
@@ -151,4 +151,4 @@ SVG files were rasterized using Adobe Illustrator with default artistic brushes.
 </div>
 <div class="caption">
     Ablation study: (a) disabling keypoint extraction (Sec. 3), using only the graph and coverage to infer endpoints and junctions; (b) disabling 'extracting final paths' optimization (Sec. 4.2); (c) disabling valence constraints (Sec. 4.2); (d) disabling Polyvector Flow (Sec. 5) leads to both incorrect topology and geometry; (e) Our result.
-</div>
+</div> -->
