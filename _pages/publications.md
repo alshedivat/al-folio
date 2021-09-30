@@ -7,8 +7,6 @@ years: [1956, 1950, 1935, 1905]
 nav: false
 ---
 
-TBD
-
 <!-- <div class="publications">
 
 {% for y in page.years %}
@@ -17,3 +15,14 @@ TBD
 {% endfor %}
 
 </div> -->
+
+{% for item in site.publications %}
+<hr>
+<h3>
+<a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+</h3>
+{{ item.authors }} <br>
+<b>{{ item.paper_info }}</b>
+<img class="img-fluid rounded z-depth-1 tiny-shadow" src="{{ item.teaser }}" alt="teaser" title="teaser" data-zoomable/>
+
+{% endfor %}

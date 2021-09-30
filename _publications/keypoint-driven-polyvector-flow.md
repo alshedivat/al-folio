@@ -4,16 +4,11 @@ layout: paper
 
 description: We vectorize line drawings by detecting stroke keypoints, then inferring correct connectivity between them via optimization and, finally, resolving stroke shape with novel polyvector flow.
 img: /assets/img/paper_vector/mini-min.png
+teaser: /assets/img/paper_vector/teaser.png
+authors: Ivan Puhachov, William Neveu, Edward Chien, Mikhail Bessmeltsev
+paper_info: SIGGRAPH Asia 2021
 
 _styles: >
-  .tiny-shadow {
-    box-shadow: 0 0px 3px rgba(0, 0, 0, 0.1) !important;
-  }
-
-  .no-shadow {
-    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1) !important;
-  }
-
   .bbb {
     border: 1px solid white;
     border-radius: 3px;

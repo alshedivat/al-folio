@@ -517,3 +517,11 @@ html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
 }
+
+.tiny-shadow {
+  box-shadow: 0 0px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+.no-shadow {
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1) !important;
+}
