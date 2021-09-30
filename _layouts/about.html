@@ -37,6 +37,16 @@ layout: default
       {% include selected_papers.html %}
     {% endif %}
 
+    <h2>publications</h2>
+    {% for item in site.publications %}
+      <img class="img-fluid rounded z-depth-1 tiny-shadow" src="{{ item.teaser }}" alt="teaser" title="teaser" data-zoomable/>
+      <h4>
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      </h4>
+      {{ item.authors }} <br>
+      <b>{{ item.paper_info }}</b>
+    {% endfor %}
+
     {% if page.social %}
     <div class="social">
       <div class="contact-icons">
