@@ -24,6 +24,6 @@ Hello! My name is Chawin Sitawarin. I am a PhD student in Computer Science at UC
 
 I am broadly interested in the intersection between machine learning and computer security. Most of my current and previous works are in the domain of adversarial machine learning, particularly adversarial examples and robustness of machine learning algorithms. If you are wondering why I appear as a panda, give this [paper](https://arxiv.org/pdf/1412.6572.pdf) a read.
 
-Previously, I graduated from Princeton University in 2018 where I was very fortunate to be advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/), [Prof. Peter Ramadge](http://faculty.ee.princeton.edu/ramadge/doku.html), and [Prof. Alejandro Rodriguez](http://faculty.ee.princeton.edu/arodriguez/).
+Previously, I graduated from Princeton University in 2018 where I was very fortunate to be advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/), [Prof. Peter Ramadge](http://faculty.ee.princeton.edu/ramadge/doku.html), and [Prof. Alejandro Rodriguez](http://faculty.ee.princeton.edu/arodriguez/). I was mentored and introduced to adversarial machine learning by [Arjun Bhagoji](https://arjunbhagoji.github.io/).
 
 I used to keep track of papers on adversarial examples, but I stopped after the number of papers has become overwhelming. You can still find the list [here](https://github.com/chawins/Adversarial-Examples-Reading-List) (last update: Sep 2019).
