@@ -12,15 +12,15 @@ nav_order: 5
 - [Grader] **Algorithms and Data Structures**, Spring 2016, Princeton University
 - [Grader] **General Computer Science**, Fall 2015, Princeton University
 
-## student mentees/collaborators
+## Research Mentorship
 
-### master's students
+### Master's Students
 
 - [Arvind Sridhar](https://www.arvindpsridhar.com/)
 - [Lily Zhang](https://www.linkedin.com/in/xinyun-zhang-b401bb11a/)
 - [Zachary Golan-Strieb](https://www.linkedin.com/in/zachary-golan-strieb-386b8a9b/)
 
-### undergraduate students
+### Undergraduate Students
 
 - [Nabeel Hingun](https://nabeelhingun.com/)
 - [Chendi Wu](https://www.linkedin.com/in/chendi-wu-66632693/)
