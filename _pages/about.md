@@ -6,7 +6,7 @@ description: PhD candidate in computer science at UC Berkeley (she/her).
 
 profile:
   align: right
-  image: headshot2-min.jpg
+  image: headshot.jpg
   address: >
     <p>584-2</p>
     <p>Soda Hall, UC Berkeley</p>
