@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 **Ph.D. student, researcher** at [Jagiellonian University](https://fais.uj.edu.pl/en_GB/the-institute-of-physics)  
-**Junior NLP Engineer** at [Samsung](https://samsungrd.pl) 
+**Junior NLP Engineer** at [Samsung R&D Institute Poland](https://samsungrd.pl) 
 
 #### What you can find here
 
