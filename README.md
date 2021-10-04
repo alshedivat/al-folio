@@ -111,31 +111,35 @@ $ bundle exec jekyll serve
 ```
 
 Now, feel free to customize the theme however you like (don't forget to change the name!).
-
-**Important:**
-- Make sure to change `url` field in `_config.yml` to `<your-github-username>.github.io`.
-- After you are done, **commit** your final changes.
+After you are done, **commit** your final changes.
 
 #### Deployment
 
 Deploying your website to [GitHub Pages](https://pages.github.com/) is the most popular option.
 Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0.3.5), **al-folio** will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:
-
-**For project pages (default):**
-
-- Make changes, commit, and push!
-- After deployment, the webpage will become available at `<your-github-username>.github.io/<your-repository-name>/`.
-- The `master` branch should be used for the source code of your webpage and `gh-pages` branch (will be created on the first deployment) will be used for deployment.
+See below how to set it up.
 
 **For personal and organization webpages:**
 - Rename your repository to `<your-github-username>.github.io` or `<your-github-orgname>.github.io`.
-- Click on **Actions** tab and **Enable GitHub Actions**; you no need to worry about creating any workflows as everything has already been set for you.
-- Make sure the `url` and `baseurl` fields in `_config.yml` are empty.
+- In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and leave `baseurl` empty in `_config.yml`.
+- Make any other changes to your webpage, commit, and push!
+- Either set up automatic deployment (see below) or manually deploy your webpage (also see below).
+- After deployment, the webpage will become available at `<your-github-username>.github.io`.
+
+**For project pages:**
+- In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and `baseurl` to `/<your-repository-name>/`.
+- Make changes, commit, and push!
+- Either set up automatic deployment (see below) or manually deploy your webpage (also see below).
+- After deployment, the webpage will become available at `<your-github-username>.github.io/<your-repository-name>/`.
+
+**To enable automatic deployment:**
+- Click on **Actions** tab and **Enable GitHub Actions**; do not worry about creating any workflows as everything has already been set for you.
 - Make any other changes to your webpage, commit, and push. This will automatically trigger the **Deploy** action.
 - Wait for a few minutes and let the action complete. You can see the progress in the **Actions** tab. If completed successfully, in addition to the `master` branch, your repository should now have a newly built `gh-pages` branch.
-- Finally, in the **Settings**, in the Pages section, set the branch to `gh-pages` (**NOT** to `master`). See [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source) for more details.
+- Finally, in the **Settings** of your repository, in the Pages section, set the branch to `gh-pages` (**NOT** to `master`). For more details, see [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
 
-<details><summary><strong>Manual deployment to GitHub Pages:</strong></summary>
+
+<details><summary>(click to expand) <strong>Manual deployment to GitHub Pages:</strong></summary>
 
 If you need to manually re-deploy your website to GitHub pages, run the deploy script from the root directory of your repository:
 ```bash
@@ -145,7 +149,7 @@ uses the `master` branch for the source code and deploys the webpage to `gh-page
 
 </details>
 
-<details><summary><strong>Deployment to another hosting server (non GitHub Pages):</strong></summary>
+<details><summary>(click to expand) <strong>Deployment to another hosting server (non GitHub Pages):</strong></summary>
 
 If you decide to not use GitHub Pages and host your page elsewhere, simply run:
 ```bash
@@ -158,7 +162,7 @@ Then simply copy the contents of the `_site/` foder to your hosting server.
 
 </details>
 
-<details><summary><strong>Deployment to a separate repository (advanced users only):</strong></summary>
+<details><summary>(click to expand) <strong>Deployment to a separate repository (advanced users only):</strong></summary>
 
 **Note:** Do not try using this method unless you know what you are doing (make sure you are familiar with [publishing sources](https://help.github.com/en/github/working-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)). This approach allows to have the website's source code in one repository and the deployment version in a different repository.
 
@@ -250,7 +254,7 @@ You can also add new `*.bib` files and customize the look of your publications h
 
 <p align="center"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/publications-screenshot.png" width=800></p>
 
-<details><summary><strong>Author annotation:</strong></summary>
+<details><summary>(click to expand) <strong>Author annotation:</strong></summary>
 
 In publications, the author entry for yourself is identified by string `scholar:last_name` and string array `scholar:first_name` in `_config.yml`:
 ```
