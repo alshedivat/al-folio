@@ -14,9 +14,15 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 #  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
  # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
+<<<<<<< HEAD
 icon: 🤗 # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
+=======
+icon: 🔥 # the emoji used as the favicon
+url: https://alshedivat.github.io # the base hostname & protocol for your site
+baseurl: /al-folio # the subpath of your site, e.g. /blog/
+>>>>>>> 6b0bf87 (add jekyll target blank plugin (#404))
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -140,13 +146,14 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-email-protect
-  - jekyll-github-metadata
-  - jekyll-feed
-  - jekyll-paginate-v2
   - jekyll/scholar
-  - jekyll-twitter-plugin
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-paginate-v2
   - jekyll-sitemap
+  - jekyll-target-blank
+  - jekyll-twitter-plugin
   - jemoji
 
 # Extras

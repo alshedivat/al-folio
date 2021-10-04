@@ -111,7 +111,10 @@ $ bundle exec jekyll serve
 ```
 
 Now, feel free to customize the theme however you like (don't forget to change the name!).
-After you are done, **commit** your final changes.
+
+**Important:**
+- Make sure to change `url` field in `_config.yml` to `<your-github-username>.github.io`.
+- After you are done, **commit** your final changes.
 
 #### Deployment
 
