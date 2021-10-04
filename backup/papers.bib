@@ -1,0 +1,289 @@
+---
+---
+
+@string{aps = {American Physical Society,}}
+
+@inproceedings{doan2021wb,
+  bibtex_show={true},
+  abbr={NeurIPS},
+  title={Backdoor Attack with Imperceptible Input and Latent Modification},
+  author={Doan, Khoa D and Lao, Yingjie and Li, Ping},
+  booktitle={Thirty-Fifth Conference on Neural Information Processing Systems},
+  year={2021},
+  selected={true},
+}
+
+@inproceedings{doan2021lira,
+  bibtex_show={true},
+  abbr={ICCV},
+  title={LIRA: Learnable, Imperceptible and Robust Backdoor Attacks},
+  author={Doan, Khoa D and Lao, Yingjie and Zhao, Weijie and Li, Ping},
+  booktitle={2021 International Conference on Computer Vision},
+  year={2021},
+  selected={true},
+}
+
+
+@inproceedings{doan2021interpretable,
+  bibtex_show={true},
+  abbr={SIGIR},
+  url={https://dl.acm.org/doi/abs/10.1145/3404835.3462960},
+  code={https://github.com/khoadoan/GraphOTSim},
+  pdf={doan2021interpretable.pdf},
+  slides={https://github.com/khoadoan/GraphOTSim/raw/main/resources/SIGIR21-fp0937-slides.pdf},
+  video={https://www.youtube.com/watch?v=IWxxsuFPsgs&t=1s},
+  teaser={doan2021interpretable.png},
+  selected={true},
+
+  author = {Doan, Khoa D and Manchanda, Saurav and Mahapatra, Suchismit and Reddy, Chandan K},
+  title = {Interpretable Graph Similarity Computation via Differentiable Optimal Alignment of Node Embeddings},
+  year = {2021},
+  isbn = {9781450380379},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3404835.3462960},
+  doi = {10.1145/3404835.3462960},
+  abstract = {Computing graph similarity is an important task in many graph-related applications
+  such as retrieval in graph databases or graph clustering. While numerous measures
+  have been proposed to capture the similarity between a pair of graphs, Graph Edit
+  Distance (GED) and Maximum Common Subgraphs (MCS) are the two widely used measures
+  in practice. GED and MCS are domain-agnostic measures of structural similarity between
+  the graphs and define the similarity as a function of pairwise alignment of different
+  entities (such as nodes, edges, and subgraphs) in the two graphs. The explicit explainability
+  offered by the pairwise alignment provides transparency and justification of the similarity
+  score, thus, GED and MCS have important practical applications. However, their exact
+  computations are known to be NP-hard. While recently proposed neural-network based
+  approximations have been shown to accurately compute these similarity scores, they
+  have limited ability in providing comprehensive explanations compared to classical
+  combinatorial algorithms, e.g., Beam search. This paper aims at efficiently approximating
+  these domain-agnostic similarity measures through a neural network, and simultaneously
+  learning the alignments (i.e., explanations) similar to those of classical intractable
+  methods. Specifically, we formulate the similarity between a pair of graphs as the
+  minimal "transformation" cost from one graph to another in the learnable node-embedding
+  space. We show that, if node embedding is able to capture its neighborhood context
+  closely, our proposed similarity function closely approximates both the alignment
+  and the similarity score of classical methods. Furthermore, we also propose an efficient
+  differentiable computation of our proposed objective for model training. Empirically,
+  we demonstrate that the proposed method achieves up to 50%-100% reduction in the Mean
+  Squared Error for the graph similarity approximation task and up to 20% improvement
+  in the retrieval evaluation metrics for the graph retrieval task. The source code
+  is available at https://github.com/khoadoan/GraphOTSim.},
+  booktitle = {Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages = {665–674},
+  numpages = {10},
+  keywords = {similarity search, model interpretability, graph similarity, GCN},
+  location = {Virtual Event, Canada},
+  series = {SIGIR '21}
+}
+
+@inproceedings{doan2020efficient,
+  bibtex_show={true},
+  abbr={WWW},
+  url={https://dl.acm.org/doi/abs/10.1145/3366423.3380150},
+  html={https://dl.acm.org/doi/abs/10.1145/3366423.3380150},
+  pdf={https://people.cs.vt.edu/~reddy/papers/WWW20a.pdf},
+  teaser={doan2020efficient.png},
+  selected={true},
+
+  author = {Doan, Khoa D and Reddy, Chandan K},
+  title = {Efficient Implicit Unsupervised Text Hashing Using Adversarial Autoencoder},
+  year = {2020},
+  isbn = {9781450370233},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3366423.3380150},
+  doi = {10.1145/3366423.3380150},
+  abstract = {Searching for documents with semantically similar content is a fundamental problem
+  in the information retrieval domain with various challenges, primarily, in terms of
+  efficiency and effectiveness. Despite the promise of modeling structured dependencies
+  in documents, several existing text hashing methods lack an efficient mechanism to
+  incorporate such vital information. Additionally, the desired characteristics of an
+  ideal hash function, such as robustness to noise, low quantization error and bit balance/uncorrelation,
+  are not effectively learned with existing methods. This is because of the requirement
+  to either tune additional hyper-parameters or optimize these heuristically and explicitly
+  constructed cost functions. In this paper, we propose a Denoising Adversarial Binary
+  Autoencoder (DABA) model which presents a novel representation learning framework
+  that captures structured representation of text documents in the learned hash function.
+  Also, adversarial training provides an alternative direction to implicitly learn a
+  hash function that captures all the desired characteristics of an ideal hash function.
+  Essentially, DABA adopts a novel single-optimization adversarial training procedure
+  that minimizes the Wasserstein distance in its primal domain to regularize the encoder’s
+  output of either a recurrent neural network or a convolutional autoencoder. We empirically
+  demonstrate the effectiveness of our proposed method in capturing the intrinsic semantic
+  manifold of the related documents. The proposed method outperforms the current state-of-the-art
+  shallow and deep unsupervised hashing methods for the document retrieval task on several
+  prominent document collections.},
+  booktitle = {Proceedings of The Web Conference 2020},
+  pages = {684–694},
+  numpages = {11},
+  keywords = {autoencoder, Hashing, adversarial training, deep learning.},
+  location = {Taipei, Taiwan},
+  series = {WWW '20}
+}
+
+@article{doan2020imagegen,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={Image Generation Via Minimizing Fréchet Distance in Discriminator Feature Space},
+  author={Doan, Khoa D and Manchanda, Saurav and Wang, Fengjiao and Selvaraj, Sathiya K and Bhowmik, Avradeep and Reddy, Chandan K},
+  journal={arXiv preprint arXiv:2003.11774},
+  year={2020}
+}
+
+@article{doan2020imagehash,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={Image Hashing by Minimizing Discrete Component-wise Wasserstein Distance},
+  author={Doan, Khoa D and Manchanda, Saurav and Badirli, Sarkhan and Reddy, Chandan K},
+  journal={arXiv preprint arXiv:2003.00134},
+  year={2020}
+}
+
+@article{manchanda2020regression,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={Regression via implicit models and optimal transport cost minimization},
+  author={Manchanda, Saurav and Doan, Khoa D and Yadav, Pranjul and Selvaraj, Sathiya K},
+  journal={arXiv preprint arXiv:2003.01296},
+  year={2020}
+}
+
+@article{badirli2020gradient,
+  bibtex_show={true},
+  abbr={arXiv},
+  url={https://arxiv.org/abs/2002.07971},
+  code={https://github.com/sbadirli/GrowNet},
+  pdf={https://arxiv.org/pdf/2002.07971.pdf},
+  teaser={badirli2020gradient.png},
+  selected={true},
+
+  title={Gradient boosting neural networks: Grownet},
+  abstract={A novel gradient boosting framework is proposed where shallow neural networks are employed as ``weak learners''. General loss functions are considered under this unified framework with specific examples presented for classification, regression, and learning to rank. A fully corrective step is incorporated to remedy the pitfall of greedy function approximation of classic gradient boosting decision tree. The proposed model rendered outperforming results against state-of-the-art boosting methods in all three tasks on multiple datasets. An ablation study is performed to shed light on the effect of each model components and model hyperparameters.},
+  author={Badirli, Sarkhan and Liu, Xuanqing and Xing, Zhengming and Bhowmik, Avradeep and Doan, Khoa D and Selvaraj, Sathiya K},
+  journal={arXiv preprint arXiv:2002.07971},
+  year={2020},
+}
+
+@inproceedings{manchanda2019targeted,
+  bibtex_show={true},
+  abbr={BigData},
+  title={Targeted display advertising: the case of preferential attachment},
+  author={Manchanda, Saurav and Yadav, Pranjul and Doan, Khoa D and Selvaraj, Sathiya K},
+  booktitle={Proceedings of the 2019 IEEE International Conference on Big Data},
+  pages={1868--1877},
+  year={2019},
+  organization={IEEE}
+}
+
+@inproceedings{doan2019adversarial,
+  bibtex_show={true},
+  abbr={CIKM},
+  pdf={https://dmkd.cs.vt.edu/papers/CIKM19.pdf},
+  teaser={doan2019adversarial.png},
+  selected={true},
+
+  author = {Doan, Khoa D and Yadav, Pranjul and Reddy, Chandan K},
+  title = {Adversarial Factorization Autoencoder for Look-Alike Modeling},
+  year = {2019},
+  isbn = {9781450369763},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3357384.3357807},
+  doi = {10.1145/3357384.3357807},
+  abstract = {Digital advertising is performed in multiple ways, for e.g., contextual, display-based
+  and search-based advertising. Across these avenues, the primary goal of the advertiser
+  is to maximize the return on investment. To realize this, the advertiser often aims
+  to target the advertisements towards a targeted set of audience as this set has a
+  high likelihood to respond positively towards the advertisements. One such form of
+  tailored and personalized, targeted advertising is known as look-alike modeling, where
+  the advertiser provides a set of seed users and expects the machine learning model
+  to identify a new set of users such that the newly identified set is similar to the
+  seed-set with respect to the online purchasing activity. Existing look-alike modeling
+  techniques (i.e., similarity-based and regression-based) suffer from serious limitations
+  due to the implicit constraints induced during modeling. In addition, the high-dimensional
+  and sparse nature of the advertising data increases the complexity. To overcome these
+  limitations, in this paper, we propose a novel Adversarial Factorization Autoencoder
+  that can efficiently learn a binary mapping from sparse, high-dimensional data to
+  a binary address space through the use of an adversarial training procedure. We demonstrate
+  the effectiveness of our proposed approach on a dataset obtained from a real-world
+  setting and also systematically compare the performance of our proposed approach with
+  existing look-alike modeling baselines.},
+  booktitle = {Proceedings of the 28th ACM International Conference on Information and Knowledge Management},
+  pages = {2803–2812},
+  numpages = {10},
+  keywords = {deep learning, autoencoder, hashing, factorization, adversarial training, look-alike modeling},
+  location = {Beijing, China},
+  series = {CIKM '19}
+}
+
+@inproceedings{doan2019attentive,
+  abbr={PAKDD},
+  title={An Attentive Spatio-Temporal Neural Model for Successive Point of Interest Recommendation.},
+  author={Doan, Khoa D and Yang, Guolei and Reddy, Chandan K},
+  booktitle={Proceedings of the 2019 Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)},
+  pages={346--358},
+  year={2019}
+}
+
+@inproceedings{kuo2017quest,
+  bibtex_show={true},
+  abbr={BigData},
+  title={Quest for Value in Big Earth Data},
+  author={Kuo, Kwo-Sen and Oloso, Amidu O and Rilee, Mike L and Doan, Khoa D and Clune, Thomas L and Yu, Hongfeng},
+  booktitle={EGU General Assembly Conference Abstracts},
+  pages={8413},
+  year={2017}
+}
+
+
+@inproceedings{doan2016evaluating,
+  bibtex_show={true},
+  abbr={BigData},
+  title={Evaluating the impact of data placement to spark and SciDB with an Earth Science use case},
+  author={Doan, Khoa D and Oloso, Amidu O and Kuo, Kwo-Sen and Clune, Thomas L and Yu, Hongfeng and Nelson, Brian and Zhang, Jian},
+  booktitle={Proceedings of the 2016 IEEE International Conference on Big Data},
+  pages={341--346},
+  year={2016},
+  organization={IEEE}
+}
+
+@inproceedings{kuo2016implications,
+  bibtex_show={true},
+  abbr={IGARSS},
+  title={Implications of data placement strategy to Big Data technologies based on shared-nothing architecture for geosciences},
+  author={Kuo, Kwo-Sen and Oloso, Amidu and Doan, Khoa D and Clune, Thomas L and Yu, Hongfeng},
+  booktitle={2016 IEEE International Geoscience and Remote Sensing Symposium (IGARSS)},
+  pages={7605--7607},
+  year={2016},
+  organization={IEEE}
+}
+
+@inproceedings{clune2015scidb,
+  bibtex_show={true},
+  abbr={AGU},
+  title={SciDB versus Spark: A preliminary comparison based on an Earth science use case},
+  author={Clune, Thomas and Kuo, Kwo-Sen and Doan, Khoa D and Oloso, Amidu},
+  booktitle={AGU Fall Meeting Abstracts},
+  volume={2015},
+  year={2015}
+}
+
+@inproceedings{doan2014performance,
+  bibtex_show={true},
+  abbr={BigData},
+  title={Performance comparison of big-data technologies in locating intersections in satellite ground tracks},
+  author={Doan, Khoa D and Oloso, Amidu and Kuo, Kwo-Sen and Clune, Thomas L and Bayesics, LLC},
+  booktitle={Proceedings of the 2014 ASE BigData/SocialInformatics/PASSAT/BioMedCom Conference},
+  year={2014},
+  organization={Citeseer}
+}
+
+@inproceedings{kuo2013demonstration,
+  bibtex_show={true},
+  abbr={AGU},
+  title={A Demonstration of Big Data Technology for Data Intensive Earth Science},
+  author={Kuo, K and Clune, T and Ramachandran, R and Rushing, J and Fekete, G and Lin, A and Doan, KD and Oloso, AO and Duffy, D},
+  booktitle={AGU Fall Meeting Abstracts},
+  volume={2013},
+  year={2013}
+}

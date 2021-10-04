@@ -26,8 +26,12 @@ My research focuses on understanding the advantages and limitations of generativ
 * Efficient Implicit Unsupervised Text Hashing using Adversarial Autoencoder (*WWW* 2020 by Doan et al.)
 * Image Hashing by Minimizing Discrete Component-wise Wasserstein Distance (*arxiv* 2021 by Doan et al.)
 * Generative Hashing Network (*Under submission* 2021 by Doan et al.)
-* Generative Cooperative Hashing Network (*Under submission* 2021 by Doan et al.)
-* Fast Neural Learning-to-Hash Ranking under NeuralNetwork based Measures  (*Under submission* 2021 by Doan et al.)
+* EBM Hashing Network (*Under submission* 2021 by Doan et al.)
+* Fast Learning-to-Hash Ranking  (*Under submission* 2021 by Doan et al.)
+
+<!--* Generative Cooperative Hashing Network (*Under submission* 2021 by Doan et al.) -->
+<!--* Fast Neural Learning-to-Hash Ranking under Neural Network based Measures  (*Under submission* 2021 by Doan et al.) -->
+
 
 <b>{{ "Generative Models" }}</b>
 
