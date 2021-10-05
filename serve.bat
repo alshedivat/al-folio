@@ -5,3 +5,4 @@ REM docker run --rm -v=%cd%:/srv/jekyll -p 4000:4000 -it jekyll/jekyll /bin/bash
 REM jekyll serve --force_polling --watch
 
 docker run --rm -e "JEKYLL_ENV=docker" -v %cd%:/srv/jekyll -p 4000:4000 -it jekyll/jekyll jekyll serve --config  _config.yml,_config.docker.yml
+PAUSE
