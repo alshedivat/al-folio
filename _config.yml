@@ -6,7 +6,8 @@ first_name: Patrick
 middle_name:
 last_name: Kastner
 email: patrick.kastner@gmail.com
-description: Ph.D. Student in Systems Science and Engineering - Cornell University
+description: #> # the ">" symbol means to ignore newlines until "footer_text:"
+Ph.D. Student in Systems Science and Engineering - Cornell University
 footer_text:
 icon: 📁 # the emoji used as the favicon
 url: # the base hostname & protocol for your site
@@ -31,7 +32,7 @@ max_width: 900px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
-og_image: Kastner_Linkedin.jpg # The site-wide (default for all links) Open Graph preview image
+og_image: Kastner_Linkedin.png # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
@@ -114,14 +115,15 @@ keep_files:
   - .git
 # Plug-ins
 plugins:
-  - jekyll-email-protect
-  - jekyll-github-metadata
-  - jekyll-feed
-  - jekyll-paginate-v2
   - jekyll/scholar
-  - jekyll-twitter-plugin
-  #- jekyll-analytics
+  - jekyll-diagrams
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-paginate-v2
   - jekyll-sitemap
+  - jekyll-target-blank
+  - jekyll-twitter-plugin
   - jemoji
   - bootstrap
   - material-sass
@@ -148,6 +150,14 @@ scholar:
   details_layout: bibtex.html
   details_link: Details
   query: "@*"
+# -----------------------------------------------------------------------------
+# Jekyll Diagrams
+# -----------------------------------------------------------------------------
+
+jekyll-diagrams:
+    # configuration, see https://github.com/zhustec/jekyll-diagrams.
+    # feel free to comment out this section if not using jekyll diagrams.
+
 # -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------
