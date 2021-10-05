@@ -8,5 +8,5 @@ category: fun
 ---
 
 - Counterpunch
-- [Pegasus Project](https://www.theguardian.com/news/series/pegasus-project){:target="\_blank"}
+- [Pegasus Project](https://www.theguardian.com/news/series/pegasus-project)
 - Moon of Alabama

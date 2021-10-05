@@ -8,15 +8,15 @@ category: fun
 ---
 
 ### Researchers
-- Kevin Randle: [A Different Perspective](http://kevinrandle.blogspot.com/){:target="\_blank"}
-- Mick West: [Metabunk.org](https://www.metabunk.org/){:target="\_blank"}
+- Kevin Randle: [A Different Perspective](http://kevinrandle.blogspot.com/)
+- Mick West: [Metabunk.org](https://www.metabunk.org/)
 
 <hr>
 
 ### Roswell UFO Incident
-Archived by The University of Texas at Arlington [Libarary](https://library.uta.edu/roswell/){:target="\_blank"}
+Archived by The University of Texas at Arlington [Libarary](https://library.uta.edu/roswell/)
 
-$10,000 reward for the first person or group/lab that can provide a definitive read of the Ramey memo (see [Ramey Memo High Resolution Microfiche Scans](https://library.uta.edu/roswell/ramey-memo){:target="\_blank"}).
+$10,000 reward for the first person or group/lab that can provide a definitive read of the Ramey memo (see [Ramey Memo High Resolution Microfiche Scans](https://library.uta.edu/roswell/ramey-memo)).
 
 Compressed thumbnails of Ramey memo negative scans:
 
