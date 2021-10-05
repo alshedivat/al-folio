@@ -117,26 +117,25 @@ After you are done, **commit** your final changes.
 
 Deploying your website to [GitHub Pages](https://pages.github.com/) is the most popular option.
 Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0.3.5), **al-folio** will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:
-See below how to set it up.
 
 **For personal and organization webpages:**
-- Rename your repository to `<your-github-username>.github.io` or `<your-github-orgname>.github.io`.
-- In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and leave `baseurl` empty in `_config.yml`.
-- Make any other changes to your webpage, commit, and push!
-- Either set up automatic deployment (see below) or manually deploy your webpage (also see below).
-- After deployment, the webpage will become available at `<your-github-username>.github.io`.
+1. Rename your repository to `<your-github-username>.github.io` or `<your-github-orgname>.github.io`.
+2. In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and leave `baseurl` empty.
+3. Set up automatic deployment of your webpage (see instructions below).
+4. Make changes, commit, and push!
+5. After deployment, the webpage will become available at `<your-github-username>.github.io`.
 
 **For project pages:**
-- In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and `baseurl` to `/<your-repository-name>/`.
-- Make changes, commit, and push!
-- Either set up automatic deployment (see below) or manually deploy your webpage (also see below).
-- After deployment, the webpage will become available at `<your-github-username>.github.io/<your-repository-name>/`.
+1. In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and `baseurl` to `/<your-repository-name>/`.
+2. Set up automatic deployment of your webpage (see instructions below).
+3. Make changes, commit, and push!
+4. After deployment, the webpage will become available at `<your-github-username>.github.io/<your-repository-name>/`.
 
 **To enable automatic deployment:**
-- Click on **Actions** tab and **Enable GitHub Actions**; do not worry about creating any workflows as everything has already been set for you.
-- Make any other changes to your webpage, commit, and push. This will automatically trigger the **Deploy** action.
-- Wait for a few minutes and let the action complete. You can see the progress in the **Actions** tab. If completed successfully, in addition to the `master` branch, your repository should now have a newly built `gh-pages` branch.
-- Finally, in the **Settings** of your repository, in the Pages section, set the branch to `gh-pages` (**NOT** to `master`). For more details, see [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
+1. Click on **Actions** tab and **Enable GitHub Actions**; do not worry about creating any workflows as everything has already been set for you.
+2. Make any other changes to your webpage, commit, and push. This will automatically trigger the **Deploy** action.
+3. Wait for a few minutes and let the action complete. You can see the progress in the **Actions** tab. If completed successfully, in addition to the `master` branch, your repository should now have a newly built `gh-pages` branch.
+4. Finally, in the **Settings** of your repository, in the Pages section, set the branch to `gh-pages` (**NOT** to `master`). For more details, see [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
 
 
 <details><summary>(click to expand) <strong>Manual deployment to GitHub Pages:</strong></summary>
