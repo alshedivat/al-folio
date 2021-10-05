@@ -8,15 +8,20 @@ middle_name: louisdyf@protonmail.com
 last_name: Du
 email: duyuefeng
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal Website of Yuefeng DU 
+  Personal Website of Yuefeng DU (杜越风)
 # footer_text: >
 #   # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #   # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #   # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-icon:  # the emoji used as the favicon
+icon: 🔥 # the emoji used as the favicon
+<<<<<<< HEAD
 url:  www.duyuefeng.info
 baseurl:  # the subpath of your site, e.g. /blog/
+=======
+url: https://alshedivat.github.io # the base hostname & protocol for your site
+baseurl: /al-folio # the subpath of your site, e.g. /blog/
+>>>>>>> 52fcd07cf13e665e6d6c3849f5c42ca852497d31
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 

@@ -1,0 +1,59 @@
+---
+layout: page
+title: UFO and paranormal events
+description: useful resources and debunking materials as well
+img:
+importance: 4
+category: fun
+---
+
+### Researchers
+- Kevin Randle: [A Different Perspective](http://kevinrandle.blogspot.com/){:target="\_blank"}
+- Mick West: [Metabunk.org](https://www.metabunk.org/){:target="\_blank"}
+
+<hr>
+
+### Roswell UFO Incident
+Archived by The University of Texas at Arlington [Libarary](https://library.uta.edu/roswell/){:target="\_blank"}
+
+$10,000 reward for the first person or group/lab that can provide a definitive read of the Ramey memo (see [Ramey Memo High Resolution Microfiche Scans](https://library.uta.edu/roswell/ramey-memo){:target="\_blank"}).
+
+Compressed thumbnails of Ramey memo negative scans:
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/ramey-dubose-debris.jpg' | relative_url }}" alt="Ramey and DuBose with debris" title="Ramey and DuBose with debris"/>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/close-up.jpg' | relative_url }}" alt="Close-up of telegram" title="Close-up of telegram"/>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/enlargement.jpg' | relative_url }}" alt="Enlargement of telegram" title="Enlargement of telegram"/>
+    </div>
+</div>
+
+<br>
+Latest results in 2015:
+
+<div>
+    <object data="{{ site.baseurl }}/assets/pdf/ramey.pdf" width="800" height="1000" type="application/pdf" data-zoomable></object>
+</div>
+
+<<<<<<< HEAD:_projects/4_project.markdown
+=======
+The code is simple.
+Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+Here's the code for the last row of images above:
+
+```html
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
+    </div>
+</div>
+```
+>>>>>>> 52fcd07cf13e665e6d6c3849f5c42ca852497d31:_projects/4_project.md
