@@ -52,5 +52,3 @@ and [Dr Mateusz Nowak](https://www.iitis.pl/en/person/mnowak).
 </ul>
 
 </div>
-
-
