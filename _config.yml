@@ -66,7 +66,9 @@ wikidata_id: # your wikidata id
 dblp_url: https://dblp.org/pid/150/3753-1.html
 stackoverflow_id: #your stackoverflow id
 
-contact_note: 
+rss_icon: true
+
+contact_note: >
 
 google_analytics: G-PJ6WJPZ4J5 # out your google-analytics code
 panelbear_analytics: Exbcj1v1ZLH # panelbear analytics site ID

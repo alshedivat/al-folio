@@ -8,20 +8,15 @@ middle_name: louisdyf@protonmail.com
 last_name: Du
 email: duyuefeng
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal Website of Yuefeng DU (杜越风)
+  Personal Website of Yuefeng DU 
 # footer_text: >
 #   # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #   # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #   # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-icon: 🔥 # the emoji used as the favicon
-<<<<<<< HEAD
+icon:  # the emoji used as the favicon
 url:  www.duyuefeng.info
 baseurl:  # the subpath of your site, e.g. /blog/
-=======
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
->>>>>>> 52fcd07cf13e665e6d6c3849f5c42ca852497d31
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -71,7 +66,14 @@ wikidata_id: # your wikidata id
 dblp_url: https://dblp.org/pid/150/3753-1.html
 stackoverflow_id: #your stackoverflow id
 
+<<<<<<< HEAD
 contact_note: 
+=======
+rss_icon: true
+
+contact_note: >
+  You can even add a little note about which of these is the best way to reach you.
+>>>>>>> 533bed5c080802512e812c9fb769dcdf20e052a9
 
 google_analytics: G-PJ6WJPZ4J5 # out your google-analytics code
 panelbear_analytics: Exbcj1v1ZLH # panelbear analytics site ID
