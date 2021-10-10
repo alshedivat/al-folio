@@ -10,12 +10,18 @@ layout: default
   </header>
 
   <article>
-     {% for post in page.posts %}
-    <li>
-      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        {% for post in page.posts %}
+        <tr>
+          <th scope="row">{{ post.date | date: "%b %-d, %Y" }}</th>
+          <td>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </td>
+        </tr>
+      {% endfor %}
+      </table>
+    </div>
   </article>
 
 </div>

@@ -135,19 +135,18 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-archives
-  - jekyll-feed
-  - jekyll-sitemap
   - jekyll-email-protect
+  - jekyll-feed
   - jekyll-github-metadata
   - jekyll-paginate-v2
   - jekyll/scholar
+  - jekyll-sitemap
   - jekyll-twitter-plugin
   - jemoji
 
 # Sitemap settings
 defaults:
-  -
-    scope:
+  - scope:
       path:            "assets/**/*.*"
     values:
       sitemap:         false
@@ -160,15 +159,15 @@ github: [metadata]
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories]
+  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them). 
   layouts:
     year: year-archive
     tag: tag-archive
     category: category-archive
   permalinks:
-    year: '/:year/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
+    year: '/blog/:year/'
+    tag: '/blog/tag/:name/'
+    category: '/blog/category/:name/'
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
