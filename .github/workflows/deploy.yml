@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - master
-      - source
+      - main
   pull_request:
     branches:
       - master
-      - source
+      - main
 
 jobs:
   deploy:
@@ -19,7 +19,7 @@ jobs:
     - name: Setup Ruby
       uses: actions/setup-ruby@v1
       with:
-        ruby-version: '2.7'
+        ruby-version: '3.0.2'
     - name: Enable bundler cache
       uses: actions/cache@v2
       with:
@@ -32,6 +32,7 @@ jobs:
         gem install bundler
         bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
+        npm install -g mermaid.cli
     - name: Setup deploy options
       id: setup
       run: |
@@ -43,11 +44,7 @@ jobs:
         elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. master, source etc
           echo "::set-output name=SRC_BRANCH::${GITHUB_REF#refs/heads/}"
         fi
-        if [[ ${{ github.repository }} = *.github.io ]]; then # user/org repo
-          echo "::set-output name=DEPLOY_BRANCH::master"
-        else
-          echo "::set-output name=DEPLOY_BRANCH::gh-pages"
-        fi
+        echo "::set-output name=DEPLOY_BRANCH::gh-pages"
     - name: Deploy website 
       run:  yes | bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 

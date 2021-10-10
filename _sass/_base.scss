@@ -14,7 +14,7 @@ a, table.table a {
     color: var(--global-theme-color);
     text-decoration: underline;
   }
-  &:hover:after {
+  &:hover:after :not(.nav-item.dropdown) {
     width: 100%;
   }
 }
@@ -94,6 +94,22 @@ blockquote {
   border-bottom: 1px solid $grey-color-light;
   background-color: var(--global-bg-color);
   opacity: 0.95;
+}
+.navbar .dropdown-menu {
+  background-color: var(--global-bg-color);
+  a:not(.active) {
+    color: var(--global-text-color);
+  }
+  a:hover {
+    color: var(--global-hover-color);
+  }
+}
+.dropdown-item {
+  color: var(--global-text-color);
+    &:hover {
+      color: var(--global-hover-color);
+      background-color: var(--global-bg-color);
+    }
 }
 .navbar.navbar-light {
   a {
