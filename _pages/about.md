@@ -22,7 +22,7 @@ I'm a PhD student at the [Scalable Parallel Computing Laboratory](http://spcl.in
 at the [Department of Computer Science](https://inf.ethz.ch/) at [ETH Zürich](https://ethz.ch),
 advised by [Prof. Torsten Hoefler](http://unixer.de/).
 My main research goal is to develop **high-performance solutions for
-to the new cloud paradigm of Function-as-a-Service (FaaS)** computing.
+the new cloud paradigm of Function-as-a-Service (FaaS)** computing.
 The _serverless_ revolution brings new elastic and flexible resource allocation techniques,
 and combined with a high-performance programming model, it will open new opportunities to increase
 resource utilization and decrease monetary and environmental costs in data centers of all sizes.
