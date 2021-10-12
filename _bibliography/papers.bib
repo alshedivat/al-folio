@@ -1,7 +1,8 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{NeurIPS = {Conference on Neural Information Processing Systems,}}
+@string{ICCV = {International Conference on Computer Vision,}}
 
 @inproceedings{doan2021wb,
   bibtex_show={true},
@@ -26,6 +27,14 @@
   pdf={https://openaccess.thecvf.com/content/ICCV2021/papers/Doan_LIRA_Learnable_Imperceptible_and_Robust_Backdoor_Attacks_ICCV_2021_paper.pdf},
 
   year={2021},
+
+  abstract={Recently, machine learning models have demonstrated to be vulnerable to backdoor attacks, primarily due to the lack of transparency in black-box models such as deep neural networks. A third-party model can be poisoned such that it works adequately in normal conditions but behaves maliciously on samples with specific trigger patterns. However, the trigger injection function is manually defined in most existing backdoor attack methods, e.g., placing a small patch of pixels on an image or slightly deforming the image before poisoning the model. This results in a two-stage approach with a sub-optimal attack success rate and a lack of complete stealthiness under human inspection.
+
+  In this paper, we propose a novel and stealthy backdoor attack framework, LIRA, which jointly learns the optimal, stealthy trigger injection function and poisons the model. We formulate such an objective as a non-convex, constrained optimization problem. Under this optimization framework, the trigger generator function will learn to manipulate the input with imperceptible noise to preserve the model performance on the clean data and maximize the attack success rate on the poisoned data. Then, we solve this challenging optimization problem with an efficient, two-stage stochastic optimization procedure. Finally, the proposed attack framework achieves 100% success rates in several benchmark datasets, including MNIST, CIFAR10, GTSRB, and T-ImageNet, while simultaneously bypassing existing backdoor defense methods and human inspection.
+  },
+
+  teaser={doan2021lira.png},
+
   selected={true},
 }
 
