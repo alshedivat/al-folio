@@ -30,6 +30,8 @@ Spelke, E. S., Breinlinger, K., Macomber, J., & Jacobson, K. (1992). Origins of 
 
 ##### *Innateness, learning, and experience*
 
+Gweon, H. (2021). Inferential social learning: cognitive foundations of human social learning and teaching. *Trends in Cognitive Sciences, 25*(10), 896–910.
+
 Smith, L. B., Jayaraman, S., Clerkin, E., & Yu, C. (2018). The Developing Infant Creates a Curriculum for Statistical Learning. *Trends in Cognitive Sciences, 22*(4), 325–336.
 
 Santolin, C., & Saffran, J. R. (2018). Constraints on Statistical Learning Across Species. *Trends in Cognitive Sciences, 22*(1), 52–63.
@@ -46,9 +48,13 @@ Spelke, E. S., & Kinzler, K. D. (2007). Core knowledge. *Developmental Science, 
 
 ##### *Methods and tools*
 
+Freeman, M. A Visual Introduction to Hierarchical Models. [http://mfviz.com/hierarchical-models/](http://mfviz.com/hierarchical-models/).
+
+Kominsky, J. F. (2019). PyHab: Open-source real time infant gaze coding and stimulus presentation software. *Infant Behavior & Development, 54*, 114–119.
+
 Sarnecka, B. W. (2019). The Writing Workshop: Write More, Write Better, Be Happier in Academia. [https://osf.io/n8pc3/](https://osf.io/n8pc3/).
 
-Freeman, M. A Visual Introduction to Hierarchical Models. [http://mfviz.com/hierarchical-models/](http://mfviz.com/hierarchical-models/).
+Scott, K., & Schulz, L. (2017). Lookit (Part 1): A New Online Platform for Developmental Research. *Open Mind, 1*(1), 4–14.
 
 Goodman, N. D, Tenenbaum, J. B. & The ProbMods Contributors (2016). Probabilistic Models of Cognition (2nd ed.) Retrieved 2021-9-28 from [https://probmods.org/](https://probmods.org/).
 
@@ -65,6 +71,8 @@ Aslin, R. N. (2007). What’s in a look? *Developmental Science, 10*(1), 48–53
 ---
 
 ##### *General cognitive science*
+
+Gopnik, A., & Meltzoff, A. N. (1998). Words, thoughts, and theories (learning, development, and conceptual change). MIT Press.
 
 Perner, J. (1993). Understanding the representational mind. MIT Press.
 
