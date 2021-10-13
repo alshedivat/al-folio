@@ -24,3 +24,4 @@ I am currently a postdoctoral fellow in the [Saxelab](http://saxelab.mit.edu/) a
 **Starting in July 2023, I will be an Assistant Professor in the [Psychological and Brain Sciences Department](https://pbs.jhu.edu/) at Johns Hopkins. I will not be recruiting this cycle (2021-2022).** My lab will investigate the origins of intelligence in the minds and brains of infants, children, and adults. 
 
 I am committed to making science more open (transparent, reproducible, and inclusive). Part of this commitment is providing high-quality mentorship to students from all backgrounds. As a first-generation immigrant to the US who stumbled into science, I am aware that without supportive mentors, and a great deal of personal development, I would have stumbled out. Here is a [working draft of my mentorship philosophy](https://docs.google.com/document/d/1u2olXR7QN44QGCFWaLHL33Xpr6mFnlpkxDhAryR9oGQ/edit?usp=sharing).
+
