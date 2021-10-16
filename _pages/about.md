@@ -2,23 +2,34 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: MSc student Data Science in Engineering
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
+  image: display_picture.jpg
+  
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I'm Meilina 👋🏼 I'm currently an MSc student in Data Science in Engineering at the 
+Eindhoven University of Technology. Pleasure to e-meet you! I'm an highly motivated 
+and enthousiastic student seeking novel solutions on the social, ethical and technological playing field 
+of responsible data science and explainable AI. From a young age, I've always had the desire to contribute 
+to the greater good, and I aspire to carry this with me in my future endeavours. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+📚 Coming year, I'll be following my electives in the domain of automated machine learning and quantum algorithms at 
+Leiden University. Leveraging the power of artificial intelligence in the field of quantum computing has an incredible 
+potential to challenge the status quo and reinvent how we tackle global, societal challenges. Tremendous challenges 
+involving a lot of real-world impact, such as drug discovery and the treatment of clinical diseases. 
+With this knowledge, I hope to contribute to the knowledge economy to apply artificial intelligence for the greater good.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+👩‍💻 Next to my studies, I'm working part-time as a Graduate Teaching Assistant and Junior Researcher at Utrecht University.
+I assist with teaching courses in the Applied Data Science master and assist with research 
+projects of the Utrecht Data School. The projects are mainly centred around the ethics of artificial intelligence and 
+the use of responsible data science.
+
+📩 I'm always open to exchange thoughts, whether it's on finding the best coffee in Eindhoven or on something you 
+would like to share -- I'm always eager to listen! Do not hesitate to drop me a line (or any other geometric shape), 
+I don't byte! :)
