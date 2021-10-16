@@ -233,9 +233,9 @@ If you have a different question, please ask using [Discussions](https://github.
     But after deploying, it is not displayed correctly (CSS and JS is not loaded properly).
     How do I fix that? <br>
    **A:** Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`.
-   If you are deploying a personal or organization website to GitHub Pages, leave both fields blank.
-   If you are deploying a project page to GitHub Pages, leave `url` blank and set `baseurl: /<your-project-name>/`.
-   Generally, if you are deploying your webpage to `your-domain.com/your-project/`, you must set `url: your-domain.com` and `baseurl: /your-project/`.
+   Set `url` to `https://<your-github-username>.github.io` or to `https://<your.custom.domain>` if you are using a custom domain.
+   If you are deploying a personal or organization website, leave `baseurl` blank.
+   If you are deploying a project page, set `baseurl: /<your-project-name>/`.
 
 4. **Q:** Atom feed doesn't work. Why?
    <br>
