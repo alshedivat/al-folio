@@ -19,7 +19,9 @@ tym jakie zajęcie będzie w odpowiedni wtorek u [mnie](/)
 lub [Profesorza Skibińskiego](mailto:roman.skibinski@uj.edu.pl).
 
 Na każdych zajęciach będzie zbierana lista obecności. Dopuszczalne są dwie nieusprawiedliwione nieobecności. 
-Studenci będą otrzymywały zestawy zadań (będą one też udostępniany na tej stronie). Minimalnym warunkiem zaliczenia jest wykonanie co najmniej `60 %` zadań z każdego zestawu. Jednak liczba wykonanych zadań wpłynie na ocenę końcową, więc im więcej zadań zastanie wykonane, tym lepiej. Konkretna skala ocen będzie podana przed końcem semestru.
+Studenci będą otrzymywały zestawy zadań (będą one też udostępniany na tej stronie). Minimalnym warunkiem zaliczenia jest wykonanie co najmniej `60 %` zadań z każdego zestawu.
+Jednak liczba wykonanych zadań wpłynie na ocenę końcową, więc im więcej zadań zostanie wykonane, tym lepiej.
+Konkretna skala ocen będzie podana przed końcem semestru.
 
 Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działanie odpowiedniego programu oraz krótko o nim opowiedzieć. <!--Studenci mają możliwość dorobić zadania w domu, ale ono muszą być oddane nie później niż na kolejnych zajęciach.--> Do wykonania zadania każdy może wybrać dowolny język lub środowisko programistyczne, jednak zabronione jest używanie jakichkolwiek bibliotek i funkcji statystycznych lub pomocniczych.
 
