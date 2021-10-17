@@ -120,7 +120,11 @@ Symylacja **n** rozgrywek **N** razy.
 
 
 - **Problem I** *(Obowiązkowe częściowo)*  
-  Problemy B, C, D, H dla kilku, np. pięciu,  graczy  
+  Problemy B, C, D, H dla kilku, np. pięciu,  graczy.  
+  Różne kombinacje wartościej $$p_i$$ - prawdopodobieństw
+  wygranej dla gracza numer $$i$$.  
+  $$a_i$$ = 20 - kapitały początkowe graczej
+  (lub spróbować inne wartości).  
   *(studenci dostają 1 punkt za każdy problem)*
 
 ---
