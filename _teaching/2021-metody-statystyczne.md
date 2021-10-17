@@ -14,8 +14,8 @@ show: true
 ---
 
 Zajęcia są prowadzonę w sali `G-1-08` we wtorki od 10:00 do 13:00.
-Ćwiczenia są na przemian z wykładem, proszę śledzić aktualne informację o
-tym jakie zajęcie będzie w odpowiedni wtorek ewentualnie sprawdzać u [mnie](/)
+Ćwiczenia są na przemian z wykładem, proszę sprawdzać aktualne informację o
+tym jakie zajęcie będzie w odpowiedni wtorek u [mnie](/)
 lub [Profesorza Skibińskiego](mailto:roman.skibinski@uj.edu.pl).
 
 Na każdych zajęciach będzie zbierana lista obecności. Dopuszczalne są dwie nieusprawiedliwione nieobecności. 
