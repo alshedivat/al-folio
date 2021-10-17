@@ -45,23 +45,25 @@ i obecnośc na zajęciach () -->
   3. Obliczyć eksperymentalne wartości średniej oraz wariancji
 
 - **Problem A2** *(Obowiązkowe)*
-  1. Implementacja generatoru liczb losowych z 
-  2. [rozkładu Cauchy'ego](https://pl.wikipedia.org/wiki/Rozk%C5%82ad_Cauchy%E2%80%99ego){:target="_blank"} $$C(y_0,\gamma)$$, metodą odwróconej dystrybuanty:
+  1. Implementacja generatoru liczb losowych z [rozkładu Cauchy'ego](https://pl.wikipedia.org/wiki/Rozk%C5%82ad_Cauchy%E2%80%99ego){:target="_blank"} $$C(y_0,\gamma)$$, metodą odwróconej dystrybuanty:
 $$
 \begin{equation}
   f(y) = \frac{1}{\pi\gamma\left[1+\left(\frac{y-y_0}{\gamma}\right)^2\right]}, \qquad y \in (-\infty, \infty)\nonumber
 \end{equation}
 $$
-  2. Narysowanie histogramu i porównianie ze wzorem analitycznym
+  1. Narysowanie histogramu i porównianie ze wzorem analitycznym
     dla różnych wartościej $$y_0$$ i $$\gamma$$
-  3. Obliczyć eksperymentalne wartości średniej oraz wariancji
+  2. Obliczyć eksperymentalne wartości średniej oraz wariancji
   
 
 
 ##### **Ruina gracza**
 Ruina gracza dla 2 graczy: gracz **A** z kapitalem początkowym **a** i
 gracz **B** z kapitalem początkowym **b**.
-Po każdej rozgrywce wygrywający gracz otrzymuje jedną jednostkę kapitału od przegranego. Nie ma remisów.  
+Po każdej rozgrywce wygrywający gracz otrzymuje jedną jednostkę kapitału od przegranego. Nie ma remisów.
+$$p_A$$ - prawdopodobieństwo wygranej gracza **A** w jednej rozgrywce
+(dla dwoch graczy $$p_B = 1- p_A$$).  
+
 Dla każdego z problemów wyniki są pobierane z zaimplementowanej
 symulacji gry(gier) ruiny gracza.  
 **N** - parametr który wyznaćza iłość symulowanych gier, 
