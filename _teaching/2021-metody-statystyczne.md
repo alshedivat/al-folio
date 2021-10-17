@@ -8,13 +8,18 @@ category: 21/22Z
 show: true
 ---
 
+<!-- - [Zestaw 1](#zestaw-1) -->
+<!-- - [Zestaw 2](#zestaw-2) -->
+
+---
+
 Zajęcia są prowadzonę w sali `G-1-08` we wtorki od 10:00 do 13:00.
 Ćwiczenia są na przemian z wykładem, proszę śledzić aktualne informację o
 tym jakie zajęcie będzie w odpowiedni wtorek ewentualnie sprawdzać u [mnie](/)
 lub [Profesorza Skibińskiego](mailto:roman.skibinski@uj.edu.pl).
 
 Na każdych zajęciach będzie zbierana lista obecności. Dopuszczalne są dwie nieusprawiedliwione nieobecności. 
-Studenci będą otrzymywały zestawy zadań (będą one też udostępniany na tej stronie). Minimalnym warunkiem zaliczenia jest wykonanie co najmniej 60 % zadań z każdego zestawu. Jednak liczba wykonanych zadań wpłynie na ocenę końcową, więc im więcej zadań zastanie wykonane, tym lepiej. Konkretna skala ocen będzie podana przed końcem semestru.
+Studenci będą otrzymywały zestawy zadań (będą one też udostępniany na tej stronie). Minimalnym warunkiem zaliczenia jest wykonanie co najmniej `60 %` zadań z każdego zestawu. Jednak liczba wykonanych zadań wpłynie na ocenę końcową, więc im więcej zadań zastanie wykonane, tym lepiej. Konkretna skala ocen będzie podana przed końcem semestru.
 
 Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działanie odpowiedniego programu oraz krótko o nim opowiedzieć. <!--Studenci mają możliwość dorobić zadania w domu, ale ono muszą być oddane nie później niż na kolejnych zajęciach.--> Do wykonania zadania każdy może wybrać dowolny język lub środowisko programistyczne, jednak zabronione jest używanie jakichkolwiek bibliotek i funkcji statystycznych lub pomocniczych.
 
@@ -22,6 +27,7 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
 
 <!-- Warunkiem zaliczenia jest wykonanie minimum 80% zadań z każdego zestawu
 i obecnośc na zajęciach () -->
+---
 
 ### **Zestaw 1**
 
@@ -31,11 +37,13 @@ i obecnośc na zajęciach () -->
 
 - **Problem A1**
   1. Implementacja generatoru liczb losowych z
-    rozkładu normalnego $$N(0,1)$$ metodą polarną
+    [rozkładu normalnego](https://pl.wikipedia.org/wiki/Rozk%C5%82ad_normalny){:target="_blank"} 
+    $$N(0,1)$$ metodą polarną
   2. Narysowanie histogramu i porównanie ze wzorem analitycznym
   3. Obliczyć eksperymentalne wartości średniej oraz wariancji
 - **Problem A2**
-  1. Implementacja generatoru liczb losowych z rozkładu Cauchy'ego $$C(y_0,\gamma)$$, metodą odwróconej dystrybuanty:
+  1. Implementacja generatoru liczb losowych z 
+  2. [rozkładu Cauchy'ego](https://pl.wikipedia.org/wiki/Rozk%C5%82ad_Cauchy%E2%80%99ego){:target="_blank"} $$C(y_0,\gamma)$$, metodą odwróconej dystrybuanty:
 $$
 \begin{equation}
   f(y) = \frac{1}{\pi\gamma\left[1+\left(\frac{y-y_0}{\gamma}\right)^2\right]}, \qquad y \in (-\infty, \infty)\nonumber
@@ -52,10 +60,10 @@ Ruina gracza dla 2 graczy: gracz **A** z kapitalem początkowym **a** i
 gracz **B** z kapitalem początkowym **b**.
 Dla każdego z problemów wyniki są pobierane z zaimplementowanej
 symulacji gry(gier) ruiny gracza.  
-**N** - parametr który wyznaćza iłość symulowanych gier.
-Dla róźnych zadań ten parametr może być róźnym, ale generalnie
-(im więcej tym lepiej). Ten parametr może być wybrany tak,
-że by symulacją trwała nie za długo.
+**N** - parametr który wyznaćza iłość symulowanych gier, 
+dla róźnych zadań ten parametr może być róźnym
+(generalnie im więcej tym lepiej, może być wybrany tak,
+żeby symulacją nie trwała za długo).
 
 - **Problem B**  
   **a** = 50, **b** = 50  
