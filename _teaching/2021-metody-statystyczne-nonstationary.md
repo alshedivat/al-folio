@@ -5,7 +5,7 @@ description: niestacjonarne
 # img: /assets/img/1.jpg
 # importance: 3
 category: 21/22Z
-show: false
+# show: false
 ---
 
 W związku z obecna sytuacją epidemiologiczną grupy ćwiczeniowe będą dodatkowo podzielone na dwie części (szczegóły podziału zostaną wysłane do studentów). Studenci, którzy nie są obecni na zajęciach w instytucie fizyki mają obowiązek uczestniczyć za pośrednictwem platformy ZOOM (zajęcia będą prowadzone jednocześnie przez ZOOM oraz na miejscu). Na każdych zajęciach będzie zbierana lista obecności (zarówno osób uczestniczący na miejscu jak i zdalnie). Dopuszczalna jest jedna nieusprawiedliwiona nieobecność. Dodatkowo proszę pamiętać o częstej dezynfekcji rąk (obowiązkowo podczas wejścia na salę komputerową) oraz monitorować bieżące zarządzenia związane z COVID.

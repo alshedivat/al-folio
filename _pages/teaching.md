@@ -12,7 +12,7 @@ display_categories: [21/22Z]
 
 Organize your courses by years, topics, or universities, however you like! -->
 
-<div class="projects">
+<div class="teaching">
  {% for category in page.display_categories %}
       <h2 class="category">{{category}}</h2>
       {% assign categorized_projects = site.teaching | where: "category", category %}

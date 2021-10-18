@@ -6,8 +6,8 @@ title: VU # the website title (if blank, full name will be used instead)
 first_name: Vitalii
 middle_name: 
 last_name: Urbanevych
-# email: vitaliyurbanevich@gmail.com
-email: vitalii.urbanevych@doctoral.uj.pl
+email: vitaliyurbanevich@gmail.com
+# email: vitalii.urbanevych@doctoral.uj.pl
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal Website.
 footer_text: >
@@ -29,7 +29,7 @@ navbar_fixed: false
 footer_fixed: false
 
 # Dimensions
-max_width: 800px
+max_width: 1000px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -96,6 +96,8 @@ collections:
   teaching:
     output: true
     permalink: /teaching/:path/
+    defaults:
+      show: false
 
 news_limit: 5
 
