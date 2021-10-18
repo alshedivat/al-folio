@@ -4,6 +4,7 @@ permalink: /courses/
 title: Courses
 description: Courses I have enrolled in so far.
 nav: true
+nav_order: 3
 ---
 
 -	Psychocardiology - 40 hours DAAD Summer School, Freiburg, 24-28 July, 2018, Germany.

@@ -4,6 +4,7 @@ permalink: /appointments/
 title: Appointments
 description: Materials for courses you taught. Replace this text with your description.
 nav: true
+nav_order: 2
 ---
 
 - 2018 (Apr)—2020 (Dec), Dean of the School of Medicine of Mashhad University of Medical Sciences, Iran
