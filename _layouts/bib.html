@@ -2,6 +2,7 @@
 ---
 
 <div class="row">
+  {% if entry.selected != true %}
   <div class="col-sm-2 abbr">
   {% if entry.abbr %}
     {% if site.data.venues[entry.abbr] %}
@@ -11,6 +12,7 @@
     {% endif %}
   {% endif %}
   </div>
+  {% endif %}
 
   <div id="{{entry.key}}" class="col-sm-8">
     {% if entry.type == "thesis" %}
