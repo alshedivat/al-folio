@@ -6,22 +6,20 @@ description: Materials for courses you taught. Replace this text with your descr
 nav: true
 ---
 
-- 2018 (Apr)—2020 (Dec), Dean of the “School of Medicine” of Mashhad University of Medical Sciences, Iran
-- 2009-Present, Head of “Psychiatry and Behavioral Sciences Research Center” (PBSRC) of Mashhad University of Medical Sciences, Iran
-- 2018-Present, Member of “Iranian National Board of Psychiatry” of Ministry of Health and Medical Education
+- 2018 (Apr)—2020 (Dec), Dean of the School of Medicine of Mashhad University of Medical Sciences, Iran
+- 2009-Present, Head of Psychiatry and Behavioral Sciences Research Center (PBSRC) of Mashhad University of Medical Sciences, Iran
+- 2015-Present, Head of MUMS Transgender Studies Center, Mashhad University of Medical Sciences, Iran
+- 2018-Present, Member of Iranian National Board of Psychiatry of Ministry of Health and Medical Education
 - 2020-Present, Professor, Department of Psychiatry, Mashhad University of Medical Sciences, Iran
+- 2009-Present, Member of Editorial Board of Journal of Attention Disorders, USA
+- 2004-Present, Member of Consultancy Committee of the Journal of Fundamentals of Mental Health, Mashhad University of Medical Sciences, Iran and Journal of Attention Disorders, USA
+- 2006-Present, Executive Manager and Senior Editor of the “Journal of Fundamentals of Mental Health”, Mashhad University of - Medical Sciences, Iran
 - 2009-2020, Associate Professor, Department of Psychiatry, Mashhad University of Medical Sciences, Iran
 - 2003-2009, Assistant Professor, Department of Psychiatry, Mashhad University of Medical Sciences, Iran
-- 2015-Present, Head of MUMS Transgender Studies Center, Mashhad University of Medical Sciences, Iran
 - 2013-2017, Head of Psychiatry “Knowledge Management Unit” (KMU) of Ministry of Health and Medical Education
-- 2006-Present, Executive Manager and Senior Editor of the “Journal of Fundamentals of Mental Health”, Mashhad University of - Medical Sciences, Iran
 - 2016-2017, Deputy of Development and Excellence of Neuroscience Task Force of zone 9 of Ministry of Health and Medical - Education, Iran
 - 2015-Present, Founder and Chairman of the Board of “Khorasan Association for Transgenders Support” NGO, Iran
 - 2007-Present, Head and lecturer of the Education Center for Methadone Maintenance Therapy clinics for Iranian physicians, - Mashhad University of Medical Sciences, Iran
-- 2009-Present, Member of Editorial Board of “Journal of Attention Disorders”, USA
-- 2003-2014, Consultant Psychiatrist of Qaem and Imam Reza Educational General Hospitals of Mashhad University of Medical - Sciences, Iran
-- 2004-2013, Consultant Psychiatrist of Forensic Department of Justice, Mashhad, Iran
-- 2004-Present, Member of Consultancy Committee of the Journal of Fundamentals of Mental Health, Mashhad University of Medical - Sciences, Iran and Journal of Attention Disorders, USA
 - 2003-Present, A referee of Research Committee of Mashhad University of Medical Sciences, Iran
 - 1993-Present, Member of Iranian Medical Council 
 - 1998-Present, Member of Iranian Psychiatric Association 
