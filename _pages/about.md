@@ -2,19 +2,19 @@
 layout: about
 title: About
 permalink: /
-description: Professor of Psychiatry, Head of Psychiatry and Behavioral Sciences Research Center
+description: Professor of Psychiatry, Director of Psychiatry and Behavioral Sciences Research Center
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>+98 51 37112540</p>
-    <p>+98 51 37124184</p>
     <p>Psychiatry Department</p>
     <p>Mashhad University of Medical Sciences</p>
     <p>Mashhad, Iran</p>
+    <p>+98 51 37112540</p>
+    <p>talaeia[at]mums.ac.ir</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
@@ -26,12 +26,12 @@ social: true  # includes social icons at the bottom of the page
 - 1985 High school diploma
 
 ### Research Interests
+- Mood Disorders
 - Gender Dysphoria 
-- Substance Dependency (Addiction)
+- Substance User Disorder (Addiction)
 - Psychosomatic Medicine
 - Psychoneuroimmunology 
 - Sleep Disorders 
-- Transcranial Magnetic Stimulation (rTMS)
 
 <!-- ### Awards/Honors
 - 2005 Gold medal of 2005 in internal football championship of MUMS
