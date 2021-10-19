@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2018-06-18 15:59:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+Embedded Software Engineer Intern at SoftBank Robotics, Paris-France
