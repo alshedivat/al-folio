@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: # <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -15,7 +15,14 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I’m a Double degree engineer with work experience in data science, using skills such as Python, SQL, AWS, Keras, and Scikit-Learn for dealing with real-world problems. Data scientist at Cyberlabs, solving different machine learning challenges, analyzing data trends and patterns for forecasting.
+Committed and creative engineering graduate, passionate about innovation, technology, and out-of-the-box solutions. I’m a graduate engineer from Pontifícia Universidade Católica Rio de Janeiro with a double degree with École Centrale Paris, currently working as a data scientist using skills such as Python, SQL, AWS, Keras, and Scikit-Learn for dealing with real-world problems. Data scientist at Cyberlabs, solving different machine learning challenges, analyzing data trends and patterns for forecasting.
+
+Programming Languages: Python, R, JavaScript, Matlab, C/C++
+Software Tools: Sckiti-learn, Lifelines, Keras, Tensorflow, PySpark
+Database: PostgreSQL, MySQL
+Cloud Computing: AWS
+Other Software Tools: Git, Docker, Quicksight
+
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
