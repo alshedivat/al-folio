@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: # <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Data Scientist at Cyberlabs | BSc École Centrale Paris | BSc PUC-Rio
 
 profile:
   align: right
