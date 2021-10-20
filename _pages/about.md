@@ -18,9 +18,13 @@ social: true  # includes social icons at the bottom of the page
 Committed and creative engineering graduate, passionate about innovation, technology, and out-of-the-box solutions. I’m a graduate engineer from Pontifícia Universidade Católica Rio de Janeiro with a double degree with École Centrale Paris, currently working as a data scientist using skills such as Python, SQL, AWS, Keras, and Scikit-Learn for dealing with real-world problems. Data scientist at Cyberlabs, solving different machine learning challenges, analyzing data trends and patterns for forecasting.
 
 Programming Languages: Python, R, JavaScript, Matlab, C/C++
+
 Software Tools: Sckiti-learn, Lifelines, Keras, Tensorflow, PySpark
+
 Database: PostgreSQL, MySQL
+
 Cloud Computing: AWS
+
 Other Software Tools: Git, Docker, Quicksight
 
 
