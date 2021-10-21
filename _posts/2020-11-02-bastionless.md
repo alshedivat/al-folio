@@ -23,7 +23,7 @@ We'll set up this infrastructure without opening inbound ports or setting up bas
 
 You can check the full blog post on my Medium at Towards Data Science: [Going Bastion-less: Accessing Private EC2 instance with Session Manager](https://towardsdatascience.com/going-bastion-less-accessing-private-ec2-instance-with-session-manager-c958cbf8489f)
 
-# authors:
+<!-- # authors:
 #   - name: Albert Einstein
 #     url: "https://en.wikipedia.org/wiki/Albert_Einstein"
 #     affiliations:
@@ -291,4 +291,4 @@ You can check the full blog post on my Medium at Towards Data Science: [Going Ba
 # This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
 
 # This line is also a separate paragraph, but...
-# This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+# This line is only separated by a single newline, so it's a separate line in the *same paragraph*. -->
