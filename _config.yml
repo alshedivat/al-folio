@@ -112,7 +112,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # Markdown and syntax highlight
 markdown: kramdown
-highlighter: blue
+highlighter: rouge
 highlight_theme: monokai  # https://github.com/jwarby/jekyll-pygments-themes
 kramdown:
   input: GFM
