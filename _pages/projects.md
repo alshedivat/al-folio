@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: A growing collection of my personal projects.
 nav: true
-display_categories: [Data Science, Data Engineering, DevOps, Others]
+display_categories: [Data Science, Data Engineering, Others]
 horizontal: false
 ---
 <div class="projects">
