@@ -3,7 +3,7 @@ layout: page
 title: Datawarehouse Redshift
 description: ETL pipeline for a datawarehouse
 img: /assets/img/dwh_schema.png
-importance: 4
+importance: 1
 category: Data Engineering
 ---
 
