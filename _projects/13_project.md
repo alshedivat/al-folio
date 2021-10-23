@@ -2,7 +2,7 @@
 layout: page
 title: Dashboard Web Appplication
 description:
-img: /assets/img/dashboard_webapp_1.jpg
+img: /assets/img/dashboard_webapp_1.png
 importance: 3
 category: Others
 ---
