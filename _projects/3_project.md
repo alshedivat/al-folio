@@ -6,6 +6,7 @@ img: /assets/img/classifier_1.png
 importance: 3
 category: Data Science
 ---
+*You can find the full code in [here](https://github.com/DanielDaCosta/disaster-webapp)*
 
 The project consists of a Multi-Label Text Classifier project using a Random Forest Classifier with MultiOuputClassifier from Scikit-learn.
 
@@ -26,17 +27,20 @@ In the **Random Forest** model, the parameter *class_weight* was set to *'balanc
     </div>
 </div>
 
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/classifier_2.png' | relative_url }}" alt="" title="Classifier 2"/>
     </div>
 </div>
 
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/classifier_3.png' | relative_url }}" alt="" title="Classifier 3"/>
     </div>
 </div>
+
 
 ## Usage
 
