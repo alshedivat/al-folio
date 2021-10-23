@@ -79,7 +79,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 blog_name: Blog Posts  # your blog must have a name for it to show up in the nav bar
-blog_description: my personal blogs
+blog_description: Data Science, Data Engineering and Other Ideas
 permalink: /blog/:year/:title/
 
 # Pagination

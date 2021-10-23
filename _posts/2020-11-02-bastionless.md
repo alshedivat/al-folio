@@ -3,7 +3,6 @@ layout: distill
 title: Going Bastion-less - Accessing Private EC2 instance with Session Manager
 description: In this post we will set up a private EC2 instance (in a private subnet), and use SSM session manager to access the instance that hosts a Jupyter Notebook server.
 date: 2020-11-02
-
 ---
 
 In this post we will set up a private EC2 instance (in a private subnet), and use SSM session manager to access the instance that hosts a Jupyter Notebook server. We will then use PostForwarding with AWS Session Manager to access our server from our local machine.
