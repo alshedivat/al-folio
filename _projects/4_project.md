@@ -2,7 +2,7 @@
 layout: page
 title: Automating ML training
 description: ML training using GitHub actions.
-img: /assets/img/classifier_5.png
+img: /assets/img/5.png
 importance: 4
 category: Data Science
 ---
