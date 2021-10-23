@@ -1,78 +1,78 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: Datawarehouse Redshift
+description: ETL pipeline for a datawarehouse
+img: /assets/img/dwh_schema.png
 importance: 4
-category: fun
+category: Data Engineering
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+*You can find the full code in [here](https://github.com/DanielDaCosta/dwh-redshift)*
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+ETL pipeline for a datawarehouse (DWH) hosted on *Redshift AWS*
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+# Files
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- *AWS/* used to create aws infrastucture read more on section *Creating Infrastucture*
+- *sql_queries.py*: contains all sql queries
+- *create_tables.py*: Create all tables. Read more on details about the tables schema on section *Schemas*
+- *etl.py*: Run ETL pipeline. The pipeline read data from s3 (schema format on subsection *Data in s3*), and converts the data to a Star Schema format (schema format on subsection *schema format on subsection *Datawarehouse Schema*)
+- *load_s3.py*: Upload `*.json` data on folder `data/`to s3.
+- *dwg.cfg*: Config file
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
+# AWS Credentials
+We are using aws as environment variables in this repo:
+```bash
+export AWS_ACCESS_KEY_ID=<YOUR_AWS_ACCESS_KEY_ID>
+export AWS_SECRET_ACCESS_KEY=<YOUR_AWS_SECRET_ACCESS_KEY>
+export AWS_DEFAULT_REGION=<YOUR_REGION>
 ```
+
+# Creating Infrastucture
+
+## IAM
+Create IAM roles for Redshift, run file: `iam.py`. It will create a role for Redshift with s3 Read access
+
+## Redshift
+Creates Redshift cluster and add Ingress rule for TCP connection on port 5439. Run file `redshift.py`
+
+## s3
+Upload all dataset to s3. Run `load_s3.py`
+
+# Schemas
+
+## Data stored in S3
+This data will pass trough an ETL to be stored in Redshift
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/dwh_tables.png' | relative_url }}" alt="" title="Table"/>
+    </div>
+</div>
+
+
+## Datawarehouse Schema
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/dwh_schema.png' | relative_url }}" alt="" title="Schema"/>
+    </div>
+</div>
+
+# Usage
+
+## Config file
+Fill out the `dwh.cfg` with the desired redshift confirguration, s3 and IAM role
+
+## Scripts
+Once you have all the infraestructure ready. Run the commands:
+
+- Run `python create_tables.py`
+- Run `python etl.py`
+
+# References
+
+- https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
+- https://www.flydata.com/blog/amazon-redshift-distkey-and-sortkey/
+- https://www.intermix.io/blog/top-14-performance-tuning-techniques-for-amazon-redshift/
