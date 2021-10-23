@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dashboard Web Appplication
-description:
+description: A dashboard web application for building your own daily report.
 img: /assets/img/dashboard_webapp_1.png
 importance: 3
 category: Others

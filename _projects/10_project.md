@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SEIR model
-description: COVID-19 analysis
+description: Disease model for analyzing the spread of COVID-19. 
 img: /assets/img/covid_1.png
 importance: 6
 category: Data Science
