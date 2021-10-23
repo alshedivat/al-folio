@@ -1,78 +1,49 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: /assets/img/3.jpg
+title: Energy Forecasting
+description: XGboost model for energy forecasting
+img: /assets/img/1.jpg
 importance: 2
-category: work
+category: Data Science
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+*You can find the full code in [here](https://github.com/DanielDaCosta/energy-forecast)*
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+# Energy Forecasting
+This repository code came from the work of [Mario Dagrada](https://github.com/madagra/energy-ts-analysis), special thanks for the help.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The repository consists of an energy forecasting model using XGboost. The dataset consists of hourly energy consumption rates in kWh for an industrial utility over a period of around 7 months, from July 2019 to January 2020.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+The final model has an *forecasting horizon* (The number of time periods to forecast into the future) of 48 time periods which corresponds to 2 days ahead forecasting. 
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+# Details
+Main techniques and terms used:
+- Trend, Seasonality
+- Stationary and Non-Stationary Time Series
+- Augmented Dickey-Fuller Test
+- Autocorrelation(ACF) and Partial Autocorrelation(PACF)
+- Feature Engineering (lag features, standard time series features, endogenous features)
+- XGBoost model with Bayesan hyperparameters optimization
 
+The final model can be found inside ```model/```
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
+# Usage
+The Jupyter-Notebook, dataset and model were saved as Docker Image in GitHub Package.
+You can install the package locally:
 ```
+docker pull docker.pkg.github.com/danieldacosta/energy-forecast/energy-forecast_notebook:v1
+```
+
+You can also download it direct from the repository:
+
+```
+git clone https://github.com/DanielDaCosta/energy-forecast.git
+```
+
+
+# Acknowlegments & References
+Special thanks to Mario Dagrada [Medium post](https://towardsdatascience.com/ml-time-series-forecasting-the-right-way-cbf3678845ff).
+
+**References**:
+- https://www.youtube.com/watch?v=Nm7m92sZZJA
+- https://towardsdatascience.com/containerize-your-whole-data-science-environment-or-anything-you-want-with-docker-compose-e962b8ce8ce5

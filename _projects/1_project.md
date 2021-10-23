@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ML model deployment using Serverless Framework
+title: Model deployment
 description: Deploying Machine Learning models on AWS using Serverless Framework.
 img: /assets/img/serverless_architecture.png
 importance: 1
@@ -19,6 +19,7 @@ To give your project a background in the portfolio page, just add the img tag to
     </div>
 </div>
 
+
 Don't forget to set up your aws credentials using *aws cli*.
 
 # Details
@@ -36,6 +37,7 @@ The model file will also be stored inside a S3 bucket. Since the model file can 
 - requirement.txt: python dependencies
 - .env: environment variables
 - Images/: contains all images from repository
+
 # Usage
 
 Installing Serverless Framework
