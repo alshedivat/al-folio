@@ -9,7 +9,6 @@ category: Data Science
 
 *You can find the full code in [here](https://github.com/DanielDaCosta/energy-forecast)*
 
-# Energy Forecasting
 This repository code came from the work of [Mario Dagrada](https://github.com/madagra/energy-ts-analysis), special thanks for the help.
 
 The repository consists of an energy forecasting model using XGboost. The dataset consists of hourly energy consumption rates in kWh for an industrial utility over a period of around 7 months, from July 2019 to January 2020.
