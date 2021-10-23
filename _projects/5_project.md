@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Heart Disease Classification
-description: a project with a background image
+description: Machine Learning Classification Model
 img: /assets/img/12.jpg
 importance: 5
 category: Data Science
