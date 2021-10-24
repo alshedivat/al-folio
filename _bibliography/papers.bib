@@ -245,7 +245,7 @@
   pdf={2021_gms_paper.pdf}
 }
 
-@article{besta2021sisa,
+@inproceedings{besta2021sisa,
   title={SISA: Set-Centric Instruction Set Architecture for Graph Mining on Processing-in-Memory Systems}, 
   author={Maciej Besta and Raghavendra Kanakagiri and Grzegorz Kwasniewski and Rachata Ausavarungnirun and Jakub Beránek and Konstantinos Kanellopoulos and Kacper Janda and Zur Vonarburg-Shmaria and Lukas Gianinazzi and Ioana Stefan and Juan Gómez Luna and Marcin Copik and Lukas Kapp-Schwoerer and Salvatore Di Girolamo and Marek Konieczny and Onur Mutlu and Torsten Hoefler},
   year={2021},
@@ -255,6 +255,13 @@
   primaryClass={cs.AR},
   journal={arXiv},
   url={https://arxiv.org/abs/2104.07582},
-  abstract={Simple graph algorithms such as PageRank have recently been the target of numerous hardware accelerators. Yet, there also exist much more complex graph mining algorithms for problems such as clustering or maximal clique listing. These algorithms are memory-bound and thus could be accelerated by hardware techniques such as Processing-in-Memory (PIM). However, they also come with non-straightforward parallelism and complicated memory access patterns. In this work, we address this with a simple yet surprisingly powerful observation: operations on sets of vertices, such as intersection or union, form a large part of many complex graph mining algorithms, and can offer rich and simple parallelism at multiple levels. This observation drives our cross-layer design, in which we (1) expose set operations using a novel programming paradigm, (2) express and execute these operations efficiently with carefully designed set-centric ISA extensions called SISA, and (3) use PIM to accelerate SISA instructions. The key design idea is to alleviate the bandwidth needs of SISA instructions by mapping set operations to two types of PIM: in-DRAM bulk bitwise computing for bitvectors representing high-degree vertices, and near-memory logic layers for integer arrays representing low-degree vertices. Set-centric SISA-enhanced algorithms are efficient and outperform hand-tuned baselines, offering more than 10x speedup over the established Bron-Kerbosch algorithm for listing maximal cliques. We deliver more than 10 SISA set-centric algorithm formulations, illustrating SISA's wide applicability.
-  }
+  abstract={Simple graph algorithms such as PageRank have recently been the target of numerous hardware accelerators. Yet, there also exist much more complex graph mining algorithms for problems such as clustering or maximal clique listing. These algorithms are memory-bound and thus could be accelerated by hardware techniques such as Processing-in-Memory (PIM). However, they also come with non-straightforward parallelism and complicated memory access patterns. In this work, we address this with a simple yet surprisingly powerful observation: operations on sets of vertices, such as intersection or union, form a large part of many complex graph mining algorithms, and can offer rich and simple parallelism at multiple levels. This observation drives our cross-layer design, in which we (1) expose set operations using a novel programming paradigm, (2) express and execute these operations efficiently with carefully designed set-centric ISA extensions called SISA, and (3) use PIM to accelerate SISA instructions. The key design idea is to alleviate the bandwidth needs of SISA instructions by mapping set operations to two types of PIM: in-DRAM bulk bitwise computing for bitvectors representing high-degree vertices, and near-memory logic layers for integer arrays representing low-degree vertices. Set-centric SISA-enhanced algorithms are efficient and outperform hand-tuned baselines, offering more than 10x speedup over the established Bron-Kerbosch algorithm for listing maximal cliques. We deliver more than 10 SISA set-centric algorithm formulations, illustrating SISA's wide applicability.},
+  month={10},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  html = {https://doi.org/10.1145/3466752.3480133},
+  doi = {10.1145/3466752.3480133},
+  booktitle = {MICRO-54: 54th Annual IEEE/ACM International Symposium on Microarchitecture},
+  series = {MICRO '21},
+  pdf={2021_micro_paper.pdf}
 }
