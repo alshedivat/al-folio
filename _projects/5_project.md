@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
+title: project 5
 description: a project with a background image
-img: /assets/img/3.jpg
-importance: 2
-category: work
+img: /assets/img/1.jpg
+importance: 3
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.
@@ -62,7 +62,7 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
 
 
 The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
+Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
 To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
 Here's the code for the last row of images above:
 
