@@ -1,24 +1,31 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: #
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: michael.png
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Lausanne,</p>
+    <p>Switzerland</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Data Scientist, Neuroscientist, Open Source Contributor - <a href="/michael/assets/pdf/CV_Notter.pdf">curriculum vitae</a>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a research scientist working at the intersection of machine learning, signal processing, neuroscience, and knowledge transfer. I have strong scientific, analytical, teaching, and interpersonal skills, and experience working on challenging projects, both as a team member and project leader, collaborating with stakeholders from academia and industry. My background is in programming, numerical analysis, and systems modeling, with particular interest in the medical field and computer vision. I enjoy working in a stimulating and vibrant environment and have a knack for quality, efficiency, and transparency. My passion for my work stems from a general curiosity and deep desire to understand complex systems, and the wish to keep up with the potential of artificial intelligence.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Interests**: Programming, designing visual art, R & D projects, skill challenges (e.g. Kaggle), teaching
+
+| **Languages**   |||||| **Method Skills**        |||||| **Computer Skills**           |
+|-----------------||||||--------------------------||||||-------------------------------|
+| German (native) |||||| Machine & Deep Learning  |||||| Python, Shell, MATLAB         |
+| English (C2)    |||||| Signal Processing        |||||| Linux, macOS, Windows         |
+| French (C1)     |||||| Statistical Analysis     |||||| Git, Github, CircleCI, Travis |
+|                 |||||| Data Presentation        |||||| Docker, Singularity           |
+|                 |||||| Neuroimaging (MRI & EEG) ||||||                               |
