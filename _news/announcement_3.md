@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2020-06-30
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+🥳 <a href="https://twitter.com/miyka_el/status/1278034094576844800">Solo gold</a> medal (11th place out of 1047 teams) in my first ever Kaggle challenge!
