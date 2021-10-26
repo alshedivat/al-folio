@@ -6,7 +6,7 @@ description: #
 
 profile:
   align: right
-  image: michael.png
+  image: michael.jpg
   address: >
     <p>Lausanne,</p>
     <p>Switzerland</p>
