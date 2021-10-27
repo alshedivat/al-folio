@@ -4,4 +4,4 @@ date: 2021-09-17 11:00:00-0400
 inline: true
 ---
 
-I am excited to announce that I have decided to go on the **academic job market** this year! I'll post the general application material over [here](https://giuliaguidi.github.io/job/) —a turtle drawing is already there—, stay tuned!
+I am excited to announce that I have decided to go on the **academic job market** this year!
