@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /education/
-title: education
+permalink: /background/
+title: background
 description: Materials for courses you taught. Replace this text with your description.
 nav: true
 ---
