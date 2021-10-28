@@ -8,7 +8,7 @@ profile:
   align: right
   image: michael.jpg
   address: >
-    <p>Lausanne, Switzerland</p>
+    <p>Lausanne, Switzerland.</p>
     <p>Languages: 🇩🇪 🇬🇧 🇫🇷</p>
 
 news: true  # includes a list of news items
