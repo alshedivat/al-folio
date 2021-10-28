@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: A growing collection of projects I worked on. From the domain of machine learning, research, art and just fun.
 nav: true

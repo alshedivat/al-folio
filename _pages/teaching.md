@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: List of my professional activities & teaching, such as workshops, talks and online tutorials.
 nav: true
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /background/
-title: background
+title: Background
 description: To provide a bit more background information, here is my not so straightforward path through the academic and professional world.
 nav: true
 ---
