@@ -353,8 +353,8 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: $grey-color-light;
-    border-bottom: 1px solid $grey-color-light;
+    color: var(--global-theme-color);
+    border-bottom: 2px solid $grey-color-light;
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
