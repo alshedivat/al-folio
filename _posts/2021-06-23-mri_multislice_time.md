@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  something borrowed
-date:   2021-10-25 12:00:00
-description: something new
+title:  Difference in multi-slice acquisition in fMRI.
+date:   2021-06-23 12:00:00
+description: Visual showcase of how multi-slice acquisition helps with sampling rate.
 ---
+
+https://github.com/miykael/fmriflows/issues/4
 
 ## Images can be made zoomable.
 
