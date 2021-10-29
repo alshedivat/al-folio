@@ -50,6 +50,7 @@
 </url>
 <url>
 <loc>https://sanghyun-han.github.io/projects/1_project/</loc>
+<<<<<<< HEAD
 <lastmod>2021-10-29T07:18:12+00:00</lastmod>
 </url>
 <url>
@@ -71,6 +72,29 @@
 <url>
 <loc>https://sanghyun-han.github.io/projects/6_project/</loc>
 <lastmod>2021-10-29T07:18:12+00:00</lastmod>
+=======
+<lastmod>2021-10-29T07:42:03+00:00</lastmod>
+</url>
+<url>
+<loc>https://sanghyun-han.github.io/projects/2_project/</loc>
+<lastmod>2021-10-29T07:42:03+00:00</lastmod>
+</url>
+<url>
+<loc>https://sanghyun-han.github.io/projects/3_project/</loc>
+<lastmod>2021-10-29T07:42:03+00:00</lastmod>
+</url>
+<url>
+<loc>https://sanghyun-han.github.io/projects/4_project/</loc>
+<lastmod>2021-10-29T07:42:03+00:00</lastmod>
+</url>
+<url>
+<loc>https://sanghyun-han.github.io/projects/5_project/</loc>
+<lastmod>2021-10-29T07:42:03+00:00</lastmod>
+</url>
+<url>
+<loc>https://sanghyun-han.github.io/projects/6_project/</loc>
+<lastmod>2021-10-29T07:42:03+00:00</lastmod>
+>>>>>>> ceb77216dcece5578d9029330750c44b2e697ebb
 </url>
 <url>
 <loc>https://sanghyun-han.github.io/</loc>
@@ -89,10 +113,18 @@
 </url>
 <url>
 <loc>https://sanghyun-han.github.io/assets/pdf/example_pdf.pdf</loc>
+<<<<<<< HEAD
 <lastmod>2021-10-29T07:16:24+00:00</lastmod>
 </url>
 <url>
 <loc>https://sanghyun-han.github.io/</loc>
 <lastmod>2021-10-29T07:16:24+00:00</lastmod>
+=======
+<lastmod>2021-10-29T07:39:46+00:00</lastmod>
+</url>
+<url>
+<loc>https://sanghyun-han.github.io/</loc>
+<lastmod>2021-10-29T07:39:46+00:00</lastmod>
+>>>>>>> ceb77216dcece5578d9029330750c44b2e697ebb
 </url>
 </urlset>
