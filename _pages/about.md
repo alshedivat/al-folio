@@ -24,25 +24,3 @@ I **am experienced** in working on challenging projects, both as a team member a
 
 
 **My passion** for my work stems from a general curiosity and deep desire to understand complex systems, and the wish to keep up with the potential of and challenges around artificial intelligence. For more check out my <a href="/blog">blog</a> and <a href="/teaching">teaching</a>.
-
-## My skills and interests
-
-<mark>ARNAUD: I think this part can be dropped, no?</mark>
-
-| **Method Skills**          ||||||| **Computer Skills**             |
-|----------------------------|||||||---------------------------------|
-| - Machine & Deep Learning  ||||||| - Python, Shell, MATLAB         |
-| - Signal Processing        ||||||| - Linux, macOS, Windows         |
-| - Statistical Analysis     ||||||| - Git, Github, CircleCI, Travis |
-| - Data Presentation        ||||||| - Docker, Singularity           |
-| - Neuroimaging (MRI & EEG) |||||||                                 |
-|----------------------------|||||||---------------------------------|
-|                            |||||||                                 |
-|----------------------------|||||||---------------------------------|
-| **Languages**              ||||||| **Interests**                   |
-|----------------------------|||||||---------------------------------|
-| - German (native)          ||||||| - Programming                   |
-| - English (C2)             ||||||| - Visual Art                    |
-| - French (C1)              ||||||| - R & D projects                |
-|                            ||||||| - Skill Challenges              |
-|                            ||||||| - Teaching                      |
