@@ -144,6 +144,7 @@ plugins:
   - jekyll-feed
   - jekyll-github-metadata
   - jekyll-paginate-v2
+  - jekyll-responsive-image
   - jekyll-sitemap
   - jekyll-target-blank
   - jekyll-twitter-plugin
@@ -180,6 +181,24 @@ scholar:
   details_link: Details
 
   query: "@*"
+
+
+# -----------------------------------------------------------------------------
+# Jekyll Responsive Images
+# -----------------------------------------------------------------------------
+
+responsive_image:
+  template: _includes/responsive_img.html
+  # Quality to use when resizing images.
+  default_quality: 80
+  sizes:
+    - width: 480
+    - width: 800
+    - width: 1400
+      quality: 90
+  # Strip EXIF and other JPEG profiles. Helps to minimize JPEG size.
+  strip: true
+
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
