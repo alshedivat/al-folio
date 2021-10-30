@@ -60,4 +60,4 @@ I packaged this improved fMRI preprocessing technique and much more into my neur
 
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/research_fmriflows.png" data-zoomable width=400px>
 
-For more about fMRIflows and this approach, feel free to take a look at the <a href="/assets/pdf/Paper_2021_Notter.pdf">corresponding scientific paper</a> or an explanation of the even brother implications in <a href="/assets/pdf/Thesis_2021_PhD_Notter.pdf">my PhD thesis</a>.
+For more about fMRIflows and this approach, feel free to take a look at the <a href="/assets/pdf/Paper_2021_Notter.pdf"> corresponding scientific paper</a> or an explanation of the even brother implications in <a href="/assets/pdf/Thesis_2021_PhD_Notter.pdf">my PhD thesis</a>.
