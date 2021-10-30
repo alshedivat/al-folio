@@ -44,6 +44,7 @@
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <!-- JQuery -->
 {% include scripts/jquery.html %}
@@ -77,3 +78,12 @@
 {% endif %}
 =======
 >>>>>>> 9c36be1 (Optimize Website Load Time (#435))
+=======
+
+{% if site.enable_darkmode %}
+<!-- Dark Mode -->
+<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
+{% endif %}
+
+>>>>>>> d500e08 (Remove theming dependence on jquery)
