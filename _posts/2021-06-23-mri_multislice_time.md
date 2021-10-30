@@ -2,20 +2,20 @@
 layout: post
 title:  How to use fMRI multi-slice acquisition correctly
 date:   2021-06-23 12:00:00
-description: A brief visual explanation of why subsecond sampling rate in fMRI should be done correctly.
+description: A brief visual explanation of why sub-second sampling rate in fMRI should be done correctly.
 ---
 
 ## fMRI multi-slice acquisition
 
 Up until a few years back, functional MRI images of a human's brain had to be recorded volume by volume, slice by slice. Meaning, that for each time-point, i.e. each sampling point, in an fMRI dataset, the MRI scanner had to first record ~40 consecutive slices (covering the full brain), one after the other. So, if one slice takes 50m to record, that means one full brain volume will take 2000ms to record. Or in other words, the fMRI signal was recorded with a sampling rate of 2 seconds.
 
-While this technological achievment provided already enough detail to establish many great neuroimaging studies, it nonetheless was one of the reasons why fMRI data was considered a 'rather slow' neuroimaging method. Luckily, new advancements in the field, allowed the acceleration of the data acquisition by establish a method where multiple slices can be acquired in parallel. So, if we acquired 2 slices in parallel, the acceleration factor became 2, and if it's 4 slices, the acceleration factor is 4. This acceleration factor also directly effects the sampling rate, which means that a temporal resolution of 1 second (using acceleration of 2) or 500ms (using acceleration of 4) became possible.
+While this technological achievement provided already enough detail to establish many great neuroimaging studies, it nonetheless was one of the reasons why fMRI data was considered a 'rather slow' neuroimaging method. Luckily, new advancements in the field, allowed the acceleration of the data acquisition by establish a method where multiple slices can be acquired in parallel. So, if we acquired 2 slices in parallel, the acceleration factor became 2, and if it's 4 slices, the acceleration factor is 4. This acceleration factor also directly effects the sampling rate, which means that a temporal resolution of 1 second (using acceleration of 2) or 500ms (using acceleration of 4) became possible.
 
 For a visual comparison between different approaches, see the following gif (note, top left is the acquisition without any acceleration).
 
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/blog_slice_time0.gif" data-zoomable width=400px>
 
-I've created this nice looking gif for my PhD defence, but thought that others might also be interested in seeing the striking difference in temporal resoluon as well. I therefore shared my gif via twitter, and to my delight, the tweet was met with lots of shared excitment and fascination:
+I've created this nice-looking gif for my PhD defense, but thought that others might also be interested in seeing the striking difference in temporal resolution as well. I therefore shared my gif via twitter, and to my delight, the tweet was met with lots of shared excitement and fascination:
 
 {% twitter https://twitter.com/miyka_el/status/1407703118691942401 %}
 
@@ -25,24 +25,24 @@ The usage of such multi-slice approaches obviously also comes with drawbacks. If
 
 However, this is not the only drawback with regards to improved sampling rate. For my PhD thesis, I recorded a huge 17 subject big fMRI dataset with six 5min long functional recordings, at a temporal resolution of 600ms. And while preprocessing my data as usual, I suddenly stumbled over something rather unusual.
 
-The following three figures on the left show the recorded average signal activation throughout the brain (i.e. in the 'total volume' = TV), plus two of the six estimated motion parameters (rotation around x-axis = Rotation01; translation in z-direction = Translation03). And on the right you can see the corresponding frequency power spectrum.
+The following three figures on the left show the recorded average signal activation throughout the brain (i.e. in the 'total volume' = TV), plus two of the six estimated motion parameters (rotation around x-axis = Rotation01; translation in z-direction = Translation03). And on the right, you can see the corresponding frequency power spectrum.
 
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/blog_slice_time1.png" data-zoomable width=600px>
 
-What is stricking is that all of these three methodds have a particular oscilation in the higher frequency of ~0.3 Hz. Which perfectly corresponds to the resporatory frequency (i.e. breathing) that people usually have in the fMRI scanner.
+What is striking is that all of these three methods have a particular oscillation in the higher frequency of ~0.3 Hz. Which perfectly corresponds to the respiratory frequency (i.e. breathing) that people usually have in the fMRI scanner.
 
 In other words, due to improved sampling rate through multi-slice acquisition, fMRI recording now was capable of recording nuance components such as respiratory or cardiac (at 1 to 1.7 Hz) signal (for more see [Viessman et al., 2018](https://www.sciencedirect.com/science/article/pii/S1053811918300132)).
 
 
 ## The problem
 
-While this might be nice to have, problems actually start arising when we preprocess such "temporal high-res" data as we normally would (see [Lindquist et al., 2019](https://onlinelibrary.wiley.com/doi/epdf/10.1002/hbm.24528)). If during the preprocessing we apply standard motion correction and potential temproal filtering with a low-pass filter, we might reintroduce previously cleaned noise components.
+While this might be nice to have, problems actually start arising when we preprocess such "temporal high-res" data as we normally would (see [Lindquist et al., 2019](https://onlinelibrary.wiley.com/doi/epdf/10.1002/hbm.24528)). If during the preprocessing we apply standard motion correction and potential temporal filtering with a low-pass filter, we might reintroduce previously cleaned noise components.
 
-To counter this issue, I developed a method that allows the orthogonal cleaning of such fMRI data with the effect of properly removing respiratory (and cardiac) artefacts. So let's take another look at the the three signal curves we had from before after we preprocessed the data with my new approach.
+To counter this issue, I developed a method that allows the orthogonal cleaning of such fMRI data with the effect of properly removing respiratory (and cardiac) artefacts. So let's take another look at the three signal curves we had from before after we preprocessed the data with my new approach.
 
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/blog_slice_time2.png" data-zoomable width=600px>
 
-The colored signal showes the cleaned signal, while the gray signal was the one from before the cleaning. As you can see, the noise component was nicely removed.
+The colored signal shows the cleaned signal, while the gray signal was the one from before the cleaning. As you can see, the noise component was nicely removed.
 
 ## The good
 
