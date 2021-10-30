@@ -168,9 +168,9 @@ github: [metadata]
 jekyll-archives:
   enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them). 
   layouts:
-    year: year-archive
-    tag: tag-archive
-    category: category-archive
+    year: archive-year
+    tag: archive-tag
+    category: archive-category
   permalinks:
     year: '/blog/:year/'
     tag: '/blog/tag/:name/'
