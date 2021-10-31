@@ -13,7 +13,7 @@ The trick behind this is rather smooth, using the surface mesh inflated to a sph
 
 The following figure shows how this parcellation is done with increasing N (from left to right: 16, 64, 256, 1024, 4096) and from top to bottom, how it looks like on the sphere, inflated cortical and actual cortical surface mesh.
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/blog_fmriflows_logo.png" data-zoomable width=600px>
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/blog_fmriflows_logo_collage.png" data-zoomable width=600px>
 
 Beautiful, isn't it? I had to share it!
 
@@ -70,8 +70,10 @@ Personally, I prefer the `Spectral` colormap, and so I decided to use the last a
 
 ## The logo
 
-And so, together with the help of my friend [Faruk](https://github.com/ofgulban), we created the fMRIflows logo, and the corresponding animation.
+And so, together with the help of my friend [Faruk](https://github.com/ofgulban), we created the fMRIflows logo...
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/blog_fmriflows_logo1.png" data-zoomable width=600px>
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/blog_fmriflows_logo.png" data-zoomable width=600px>
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/blog_fmriflows_logo2.gif" data-zoomable>
+.. and the corresponding animation!
+
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/blog_fmriflows_logo.gif" data-zoomable>
