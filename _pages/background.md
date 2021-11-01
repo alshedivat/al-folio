@@ -7,65 +7,49 @@ nav: true
 ---
 ## Education
 
-**<span style="color: var(--global-theme-color)">PhD in Neuroscience</span>** (*University of Lausanne*)
+<p style="font-size:0.85rem; margin-bottom: 0">2016 - 2021</p>
+<p style="font-size:1.15rem; margin-bottom: 0"><b>PhD in Neuroscience</b> · <i>University of Lausanne</i></p>
+**Thesis**: <a href="/assets/pdf/Thesis_2021_PhD_Notter.pdf">Innovation and standardization of processing pipelines for functional MRI data analysis</a><br>**Work**: Development of multiple neuroimaging toolboxes to facilitate the processing and analysis of MRI, EEG and eye-tracking data, with a focus on human cognitive mechanisms, such as multisensory integration and rhythm perception. Planning and execution of multiple research studies, including the acquisition of various datasets, using novel measuring techniques. Analysis methods included classical statistical analysis, as well as machine learning approaches.
 
-|--------------------------|||----------------------------------------|
-| 04/2016<br>to<br>07/2021 ||| **Thesis**: <a href="/assets/pdf/Thesis_2021_PhD_Notter.pdf">Innovation and standardization of processing pipelines for functional MRI data analysis</a><br>**Work**: Development of multiple neuroimaging toolboxes to facilitate the processing and analysis of MRI, EEG and eye-tracking data, with a focus on human cognitive mechanisms, such as multisensory integration and rhythm perception. Planning and execution of multiple research studies, including the acquisition of various datasets, using novel measuring techniques. Analysis methods included classical statistical analysis, as well as machine learning approaches.    |
+<p style="font-size:0.85rem; margin-bottom: 0">2012 - 2014</p>
+<p style="font-size:1.15rem; margin-bottom: 0"><b>Master in Cognitive Psychology & Neuroscience</b> · <i>University of Zurich</i></p>
 
-<br>
+**Thesis**: <a href="/assets/pdf/Thesis_2014_Master_Notter.pdf">Differences and similarities between the brains of children with attention deficit hyperactivity disorder and children with autism spectrum disorder - An analysis of 700 anatomical MRI scans</a><br>**Lectures**: Major in Psychology & minor in Neuroinformatics, covering neurobiology, cognitive psychology, neuroimaging methods, neural networks, models of computation & computational vision.
 
-**<span style="color: var(--global-theme-color)">Master in Cognitive Psychology & Neuroscience</span>** (*University of Zurich*)
+<p style="font-size:0.85rem; margin-bottom: 0">2007 - 2012</p>
+<p style="font-size:1.15rem; margin-bottom: 0"><b>Bachelor of Science in Psychology</b> · <i>University of Zurich</i></p>
 
-|--------------------------|||----------------------------------------|
-| 02/2012<br>to<br>07/2014 ||| **Thesis**: <a href="/assets/pdf/Thesis_2014_Master_Notter.pdf">Differences and similarities between the brains of children with attention deficit hyperactivity disorder and children with autism spectrum disorder - An analysis of 700 anatomical MRI scans</a><br>**Lectures**: Major in Psychology & minor in Neuroinformatics, covering neurobiology, cognitive psychology, neuroimaging methods, neural networks, models of computation & computational vision.    |
-
-<br>
-
-**<span style="color: var(--global-theme-color)">Bachelor of Science in Psychology</span>** (*University of Zurich*)
-
-|--------------------------|||----------------------------------------|
-| 09/2007<br>to<br>02/2012 ||| **Thesis**: On achieving satisfaction and subjective well-being. A review of intervention studies from positive psychology<br>**Lectures**: Major in Psychology & minor in Neuroinformatics, covering psychology, statistics, neuroscience, informatics, biology, mathematics & artificial intelligence.    |
+**Thesis**: On achieving satisfaction and subjective well-being. A review of intervention studies from positive psychology<br>**Lectures**: Major in Psychology & minor in Neuroinformatics, covering psychology, statistics, neuroscience, informatics, biology, mathematics & artificial intelligence.
 
 <br>
 
 ## Professional Experience
 
-**<span style="color: var(--global-theme-color)">Data Science Course Developer & Instructor</span>** (*EPFL, Lausanne*)
+<p style="font-size:0.85rem; margin-bottom: 0">2019 - present</p>
+<p style="font-size:1.15rem; margin-bottom: 0"><b>Data Science Course Developer & Instructor</b> · <i>EPFL, Lausanne</i></p>
 
-|--------------------------|||----------------------------------------|
-| 04/2019<br>to<br>present ||| **Content director** for <a href="https://www.thats-ai.org/">That's AI</a>, an informative online platform about Artificial Intelligence in three languages. Managing tasks involved interaction with marketing team, frontend developers, business customers, supervision of content creators, web designers, language translators and illustrators.<br>**Work included**: Course developer and instructor for the "Applied Data Science: Machine Learning" program at the EPFL Extension School. Work included advising participants and guiding their proof of concepts from numerous industries, optimization of company internal processes, development of new teaching tools, creation and execution of multiple AI workshops, hackathons, and conference talks, plus collaborating with academic and private sector partners to identify opportunities for data-driven solutions across multiple industries.    |
+**Content director** for <a href="https://www.thats-ai.org/">That's AI</a>, an informative online platform about Artificial Intelligence in three languages. Managing tasks involved interaction with marketing team, frontend developers, business customers, supervision of content creators, web designers, language translators and illustrators.<br>**Work included**: Course developer and instructor for the "Applied Data Science: Machine Learning" program at the EPFL Extension School. Work included advising participants and guiding their proof of concepts from numerous industries, optimization of company internal processes, development of new teaching tools, creation and execution of multiple AI workshops, hackathons, and conference talks, plus collaborating with academic and private sector partners to identify opportunities for data-driven solutions across multiple industries.
 
-<br>
+<p style="font-size:0.85rem; margin-bottom: 0">2014 - 2016</p>
+<p style="font-size:1.15rem; margin-bottom: 0"><b>Research Collaborator in Neuroscience & Neuroimaging</b> · <i>CHUV, Lausanne</i></p>
 
-**<span style="color: var(--global-theme-color)">Research Collaborator in Neuroscience & Neuroimaging</span>** (*CHUV, Lausanne*)
+Development, implementation and analysis of behavioral and neuroimaging experiments using eye-tracking, EEG and MRI. Technical support and training of collaborators and development of MRI, EEG and eye-tracking analysis software.
 
-|--------------------------|||----------------------------------------|
-| 04/2014<br>to<br>04/2016 ||| Development, implementation and analysis of behavioral and neuroimaging experiments using eye-tracking, EEG and MRI. Technical support and training of collaborators and development of MRI, EEG and eye-tracking analysis software.    |
+<p style="font-size:0.85rem; margin-bottom: 0">2013 - 2014</p>
+<p style="font-size:1.15rem; margin-bottom: 0"><b>Research Assistant in Neuroscience & Neuroimaging</b> · <i>INAPIC, Zurich</i></p>
 
-<br>
+Development and maintenance of analysis software of behavioral, physiological & MRI data. Extensive support to research collaborators for data analysis.
 
-**<span style="color: var(--global-theme-color)">Research Assistant in Neuroscience & Neuroimaging</span>** (*INAPIC, Zurich*)
+<p style="font-size:0.85rem; margin-bottom: 0">2011 - 2011</p>
+<p style="font-size:1.15rem; margin-bottom: 0"><b>Internship at Massachusetts Institute of Technology</b> · <i>MIT, Cambridge, USA</i></p>
 
-|--------------------------|||----------------------------------------|
-| 02/2013<br>to<br>11/2014 ||| Development and maintenance of analysis software of behavioral, physiological & MRI data. Extensive support to research collaborators for data analysis.    |
+Design and execution of experiments, technical support, teaching & implementation and maintenance of analysis software. The internship was extended for another month due to very satisfactory work.
 
-<br>
+<p style="font-size:0.85rem; margin-bottom: 0">2012 - 2017</p>
+<p style="font-size:1.15rem; margin-bottom: 0"><b>Special officer in the Psychological-Pedagogical Service of the Armed Forces</b> · <i>Swiss Army</i></p>
+Counseling, stress prevention & guidance to soldiers & cadre of the Armed Forces.
 
-**<span style="color: var(--global-theme-color)">Internship at Massachusetts Institute of Technology</span>** (*MIT, Cambridge, USA*)
+<p style="font-size:0.85rem; margin-bottom: 0">2007 - 2014</p>
+<p style="font-size:1.15rem; margin-bottom: 0"><b>Clerk in payment transactions</b> · <i>Migros Bank, Zurich</i></p>
 
-|--------------------------|||----------------------------------------|
-| 01/2011<br>to<br>05/2011 ||| Design and execution of experiments, technical support, teaching & implementation and maintenance of analysis software. The internship was extended for another month due to very satisfactory work.    |
-
-<br>
-
-**<span style="color: var(--global-theme-color)">Special officer in the Psychological-Pedagogical Service of the Armed Forces</span>** (*Swiss Army*)
-
-|--------------------------|||----------------------------------------|
-| 01/2012<br>to<br>12/2017 ||| Counseling, stress prevention & guidance to soldiers & cadre of the Armed Forces.    |
-
-<br>
-
-**<span style="color: var(--global-theme-color)">Clerk in payment transactions</span>** (*Migros Bank, Zurich*)
-
-|--------------------------|||----------------------------------------|
-| 03/2007<br>to<br>03/2014 ||| Data analysis for the purpose of anomaly detection and process optimization.    |
+Data analysis for the purpose of anomaly detection and process optimization.
