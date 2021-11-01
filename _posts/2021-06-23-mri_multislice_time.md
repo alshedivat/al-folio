@@ -13,11 +13,15 @@ While this technological achievement provided already enough detail to establish
 
 For a visual comparison between different approaches, see the following gif (note, top left is the acquisition without any acceleration).
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/blog_slice_time0.gif" data-zoomable width=400px>
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/blog_slice_time0.gif" data-zoomable width=400px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; background-color: #000">
 
 I've created this nice-looking gif for my PhD defense, but thought that others might also be interested in seeing the striking difference in temporal resolution as well. I therefore shared my gif via twitter, and to my delight, the tweet was met with lots of shared excitement and fascination:
 
+<br>
+
 {% twitter https://twitter.com/miyka_el/status/1407703118691942401 %}
+
+<br>
 
 ## The drawback
 
@@ -27,7 +31,7 @@ However, this is not the only drawback with regards to improved sampling rate. F
 
 The following three figures on the left show the recorded average signal activation throughout the brain (i.e. in the 'total volume' = TV), plus two of the six estimated motion parameters (rotation around x-axis = Rotation01; translation in z-direction = Translation03). And on the right, you can see the corresponding frequency power spectrum.
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/blog_slice_time1.png" data-zoomable width=600px>
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/blog_slice_time1.png" data-zoomable width=600px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; background-color: #fff">
 
 What is striking is that all of these three methods have a particular oscillation in the higher frequency of ~0.3 Hz. Which perfectly corresponds to the respiratory frequency (i.e. breathing) that people usually have in the fMRI scanner.
 
@@ -40,7 +44,7 @@ While this might be nice to have, problems actually start arising when we prepro
 
 To counter this issue, I developed a method that allows the orthogonal cleaning of such fMRI data with the effect of properly removing respiratory (and cardiac) artefacts. So let's take another look at the three signal curves we had from before after we preprocessed the data with my new approach.
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/blog_slice_time2.png" data-zoomable width=600px>
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/blog_slice_time2.png" data-zoomable width=600px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; background-color: #fff">
 
 The colored signal shows the cleaned signal, while the gray signal was the one from before the cleaning. As you can see, the noise component was nicely removed.
 
@@ -50,7 +54,7 @@ While this might be a nice thing to do, the actual advantage of doing it the rig
 
 The following illustration shows a single subject's statistical map of the brain activation differences during audio-visual versus audio only stimulation, using 5 different analysis methods. Panel A) shows my newly developed approach using a temporal low-pass filter at 0.2Hz, panel B) shows the same approach without the temporal low-pass filter and panel C) to E) show the comparable state of the art neuroimaging toolboxes fMRIPrep, FSL and SPM.
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/blog_slice_time3.png" data-zoomable width=600px>
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/blog_slice_time3.png" data-zoomable width=600px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; background-color: #fff">
 
 What is clearly visible is that my approach in panel A), using an appropriate low-pass filter with orthogonal preprocessing leads to much stronger statistical results, even just in the single subject (i.e 1st-level) analysis.
 
@@ -58,6 +62,6 @@ What is clearly visible is that my approach in panel A), using an appropriate lo
 
 I packaged this improved fMRI preprocessing technique and much more into my neuroimaging toolbox **fMRIflows**.
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/research_fmriflows.png" data-zoomable width=400px>
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/research_fmriflows.png" data-zoomable width=400px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; background-color: #fff">
 
 For more about fMRIflows and this approach, feel free to take a look at the <a href="/assets/pdf/Paper_2021_Notter.pdf">corresponding scientific paper</a> or an explanation of the even brother implications in <a href="/assets/pdf/Thesis_2021_PhD_Notter.pdf">my PhD thesis</a>.
