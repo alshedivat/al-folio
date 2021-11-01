@@ -255,11 +255,11 @@ footer.sticky-bottom {
 .header-bar {
   border-bottom: 1px solid $grey-color-light;
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 3rem;
   }
 }
 
@@ -332,9 +332,11 @@ footer.sticky-bottom {
   .card {
     img {
       width: 100%;
+      padding: 10px
     }
     .card-title {
       color: $black-color;
+      font-size: 1.5rem
     }
   }
 
