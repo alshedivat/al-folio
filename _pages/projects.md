@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: A growing collection of projects I worked on. From the domain of machine learning, research, art and just fun.
 nav: true
-display_categories: [machine learning, art, fun, research]
+display_categories: [machine learning, art, research, fun]
 horizontal: false
 ---
 <div class="projects">
