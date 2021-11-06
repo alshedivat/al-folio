@@ -17,9 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a **senior data scientist** working at the intersection of machine learning, signal processing, neuroscience, and knowledge transfer.
+I am a **research scientist** working at the intersection of machine learning, signal processing, neuroscience, and knowledge transfer.
 
-My **background** is in programming, neuroimaging, numerical analysis, and systems modeling, with particular interest in the medical field and computer vision. For more, take a look at my **<a href="/assets/pdf/CV_Notter.pdf">curriculum vitae</a>** or <a href="/publications">publications</a>.
+My **background** is in programming, neuroimaging, numerical analysis, and systems modeling, with particular interest in neuroscience and computer vision. For more, take a look at my **<a href="/assets/pdf/CV_Notter.pdf">curriculum vitae</a>** or <a href="/publications">publications</a>.
 
 I **am experienced** in working on challenging projects, both as a team member and project leader, collaborating with stakeholders from academia and industry and have a knack for quality, efficiency, and transparency. For more, check out my <a href="/background">background</a> and <a href="/projects">projects</a> page.
 
