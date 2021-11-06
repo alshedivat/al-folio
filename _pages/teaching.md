@@ -6,7 +6,8 @@ description: List of my professional activities & teaching, such as workshops, t
 nav: true
 ---
 
-### 2019 - present
+___
+### 2019 - 2022
 
 <p style="margin-bottom: 0"><b>EPFL, Switzerland</b> · <i>daily</i></p>
 <p style="font-size:1.15rem; margin-bottom: 0"><b><a href="https://www.extensionschool.ch/applied-data-science-machine-learning">Supervision of learners for the EXTS course "Applied Data Science: Machine Learning"</a></b></p>
@@ -15,6 +16,7 @@ nav: true
 
 **Mentoring** of 100s of proof-of-concept projects from industry and research, covering computer vision, consumer service, energy, finance, geography, insurance, predictive maintenance, manufacturing, marketing, medicine, meteorology, music, NLP, recommender systems, robotics, sales, service optimization, system control and transportation.
 
+___
 ### 2020
 
 <p style="margin-bottom: 0"><b>University of Cambridge, UK</b> · <i>2-day workshop</i></p>
@@ -29,12 +31,14 @@ Workshop given to 400 participants during the Applied Machine Learning Days at t
 <p style="font-size:1.15rem; margin-bottom: 0"><b><a href="https://github.com/miykael/journal_club_uab">Nipype and beyond!</a></b></p>
 Presentation of Nipype and other neuroimaging toolboxes, during UAB’s Neuroimaging Journal Club.
 
+___
 ### 2019
 
 <p style="margin-bottom: 0"><b>ITU Geneva, Switzerland</b> · <i>3-hour talk</i></p>
 <p style="font-size:1.15rem; margin-bottom: 0"><b><a href="https://www.itu.int/en/ITU-D/bdt-director/Pages/Speeches.aspx?ItemID=212 ">ITU Talks: AI for Everyone</a></b></p>
 Informative talk held in front of 300 UN associates from around the world, about what AI is, how it is applied in academia and the private sector, and how it will change our private, professional and social lives.
 
+___
 ### 2018
 
 <p style="margin-bottom: 0"><b>University of Cambridge, UK</b> · <i>2-day workshop</i></p>
@@ -57,6 +61,7 @@ Webinar given to 60 participants during the Brainhack event organized by Prof. P
 <p style="font-size:1.15rem; margin-bottom: 0"><b><a href="https://brainhack.psychoinformatics.de">Neuroimaging with Nipype: Where are we and where are we going?</a></b></p>
 Nipype Tutorial given to 40 participants during the Brainhack Global 2018.
 
+___
 ### 2017
 
 <p style="margin-bottom: 0"><b>University of Zurich, Switzerland</b> · <i>2-hour talk</i></p>
@@ -67,6 +72,7 @@ Nipype Tutorial given to 30 participants, with live recording during the Brainha
 <p style="font-size:1.15rem; margin-bottom: 0"><b><a href="https://miykael.github.io/nipype_tutorial">Nipype Tutorial</a></b></p>
 Improved user's guide using, Docker, Jupyter Notebooks and CircleCI for an interactive introduction to Nipype and related neuroimaging software. Homepage attracts more than 2'500 visitors per month from +150 countries.
 
+___
 ### 2011
 
 <p style="margin-bottom: 0"><b>Global</b> · <i>autodidactic teaching tool</i></p>

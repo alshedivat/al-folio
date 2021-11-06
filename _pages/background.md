@@ -5,6 +5,7 @@ title: Background
 description: To provide a bit more background information, here is my not so straightforward path through the academic and professional world.
 nav: true
 ---
+___
 ## Education
 
 <p style="font-size:0.85rem; margin-bottom: 0">2016 - 2021</p>
@@ -12,7 +13,7 @@ nav: true
 **Thesis**: <a href="/assets/pdf/Thesis_2021_PhD_Notter.pdf">Innovation and standardization of processing pipelines for functional MRI data analysis</a><br>**Work**: Development of 8 neuroimaging toolboxes to facilitate the processing and analysis of MRI, EEG and eye-tracking data, with a focus on human cognitive mechanisms, such as multisensory integration and rhythm perception. Planning and execution of 7 research studies, including the acquisition of various datasets, using novel measuring techniques. Analysis methods included classical statistical analysis, as well as machine learning approaches.
 
 <p style="font-size:0.85rem; margin-bottom: 0">2012 - 2014</p>
-<p style="font-size:1.25rem; margin-bottom: 0"><b>Master of Science in Cognitive Psychology & Neuroscience with minor in Neuroinformatics</b> · <i>University of Zurich</i></p>
+<p style="font-size:1.25rem; margin-bottom: 0"><b>Master of Science in Neuroscience with minor in Neuroinformatics</b> · <i>University of Zurich</i></p>
 
 **Thesis**: <a href="/assets/pdf/Thesis_2014_Master_Notter.pdf">Differences and similarities between the brains of children with attention deficit hyperactivity disorder and children with autism spectrum disorder - An analysis of 700 anatomical MRI scans</a><br>**Lectures** in neuroinformatics, neurobiology, cognitive psychology, neuroimaging methods, neural networks, models of computation & computational vision.
 
@@ -23,16 +24,13 @@ nav: true
 
 <br>
 
+___
 ## Professional Experience
 
-<p style="font-size:0.85rem; margin-bottom: 0">2019 - present</p>
+<p style="font-size:0.85rem; margin-bottom: 0">2019 - 2022</p>
 <p style="font-size:1.25rem; margin-bottom: 0"><b>Data Science Course Developer & Instructor</b> · <i>EPFL, Lausanne</i></p>
 
 **Content director** for <a href="https://www.thats-ai.org/">That's AI</a>, an informative online platform about Artificial Intelligence in three languages. Managing tasks involved coordination with marketing, front-end developers, business customers, and supervision of multiple content creators, web designers, language translators and illustrators.<br>**Work included**: Course developer and instructor for the "Applied Data Science: Machine Learning" program at the EPFL Extension School. Work included advising participants and guiding their proof of concepts from numerous industries, optimization of company internal processes, development of new teaching tools, creation and execution of multiple AI workshops, hackathons, and conference talks, plus collaborating with academic and private sector partners to identify opportunities for data-driven solutions across multiple industries.
-
-
-Course developer and instructor for the "Applied Data Science: Machine Learning" program at the EPFL Extension School. Direct mentoring of 100s of proof of concepts projects from numerous industries, optimization of company internal processes, development of new teaching tools, creation and execution of multiple AI workshops, hackathons, and conference talks, plus collaborating with academic and private sector partners to identify opportunities for data-driven solutions across multiple industries.
-
 
 <p style="font-size:0.85rem; margin-bottom: 0">2014 - 2016</p>
 <p style="font-size:1.25rem; margin-bottom: 0"><b>Research Collaborator in Neuroscience & Neuroimaging</b> · <i>CHUV, Lausanne</i></p>
@@ -58,24 +56,25 @@ Counseling, stress prevention and guidance to soldiers and cadre of the Armed Fo
 
 Data analysis for the purpose of anomaly detection and process optimization.
 
+___
 ## Awards & Fellowships
 
 <p style="font-size:0.85rem; margin-bottom: 0">2020</p>
 <p style="font-size:1.25rem; margin-bottom: 0"><b>Solo gold medal (11th place out of 1047 teams)</b> · <i>Kaggle</i></p>
 
-Solo gold medal (11th place out of 1047 teams) in Kaggle’s TReNDS Neuroimaging challenge (https://www.kaggle.com/c/trends-assessment-prediction/leaderboard).
+Solo gold medal (11th place out of 1047 teams) in Kaggle’s [TReNDS Neuroimaging challenge](https://www.kaggle.com/c/trends-assessment-prediction/leaderboard).
 
 <p style="font-size:0.85rem; margin-bottom: 0">2018</p>
 <p style="font-size:1.25rem; margin-bottom: 0"><b>Travel Fellowships for code sprint at MIT</b> · <i>Massachusetts Institute of Technology (MIT)</i></p>
 
-Travel Fellowship and invitation to 3-day code sprint at McGovern Institute for Brain Research at Massachusetts In-stitute of Technology (MIT). Code sprint focused on neuroimaging toolbox Nipype and dataflow engine Pydra.
+Travel Fellowship and invitation to 3-day code sprint at McGovern Institute for Brain Research at MIT. Code sprint focused on neuroimaging toolbox Nipype and dataflow engine Pydra.
 
 <p style="font-size:0.85rem; margin-bottom: 0">2018</p>
-<p style="font-size:1.25rem; margin-bottom: 0"><b>Invitation to Neurohackademy summer school</b> · <i>University of Washington - eScience Institute</i></p>
+<p style="font-size:1.25rem; margin-bottom: 0"><b>Invitation to Neurohackademy summer school</b> · <i>University of Washington</i></p>
 
-Chosen from 400 applicants to be one of 60 participants at the Neurohackademy 2018 in Seattle, a two-week hands-on summer school in neuroimaging and data science.
+Chosen from 400 applicants to be one of 60 participants at the Neurohackademy 2018 at the eScience Institute, University of Washington in Seattle, a two-week hands-on summer school in neuroimaging and data science.
 
 <p style="font-size:0.85rem; margin-bottom: 0">2018</p>
-<p style="font-size:1.25rem; margin-bottom: 0"><b>SSN Travel Fellowships for Student & Postdoc Members</b> · <i>Swiss Society for Neuroscience (SSN)</i></p>
+<p style="font-size:1.25rem; margin-bottom: 0"><b>SSN Travel Fellowships</b> · <i>Swiss Society for Neuroscience (SSN)</i></p>
 
 SSN Travel Fellowships for Student & Postdoc Members for 1'500.00 CHF.
