@@ -4,7 +4,7 @@ layout: paper
 
 description: We vectorize line drawings by detecting stroke keypoints, then inferring correct connectivity between them via optimization and, finally, resolving stroke shape with novel polyvector flow.
 img: /assets/img/paper_vector/mini-min.png
-teaser: /assets/img/paper_vector/teaser.png
+teaser: /assets/img/paper_vector/teaser-min.png
 authors: Ivan Puhachov, William Neveu, Edward Chien, Mikhail Bessmeltsev
 paper_info: SIGGRAPH Asia 2021
 
@@ -39,7 +39,7 @@ $$^2$$ Boston University
     <div class="col-sm mt-3 mt-md-0">
         <div class="bbb">
             <i class="far fa-file-pdf"></i>
-            Supplementary
+            <a href="https://www-ens.iro.umontreal.ca/~puhachoi/SUPPL.pdf">Supplementary (23MB) </a>
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -68,7 +68,7 @@ $$^2$$ Boston University
     Given a greyscale bitmap drawing, we use deep learning--based machinery to extract keypoints: junctions, curve endpoints, and sharp corners. We then compute a frame field aligned to the drawing and extract the drawing topology finding curves connecting the keypoints. Finally, we use our novel PolyVector flow that aligns those curves to the frame field, robustly disambiguating directions around keypoints. Input image is from www.easy-drawings-and-sketches.com (c) Ivan Huska.
 </div>
 <div class="row">
-    <img class="img-fluid rounded z-depth-1 no-shadow " src="{{ '/assets/img/paper_vector/teaser.png' | relative_url }}" alt="Teaser image" title="Teaser image" data-zoomable/>
+    <img class="img-fluid rounded z-depth-1 no-shadow " src="{{ '/assets/img/paper_vector/teaser-min.png' | relative_url }}" alt="Teaser image" title="Teaser image" data-zoomable/>
 </div>
 
 ***
