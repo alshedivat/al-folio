@@ -2,12 +2,10 @@
 layout: page
 title: software
 permalink: /software/
-description: Growing collection of my publicy available software.
+description: Growing collection of publicy available software.
 nav: true
 ---
 ___
-
-## software
 
 * **[diBELLA.2D](https://github.com/PASSIONLab/diBELLA.2D)**: Distributed and Parallel String Graph Construction and Transitive Reduction for De Novo Genome Assembly.
 * **[BELLA](https://github.com/PASSIONLab/BELLA)**: Computationally-Efficient and Highly-Accurate Long-Read to Long-Read Aligner and Overlapper for DNA.
