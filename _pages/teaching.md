@@ -33,9 +33,11 @@ ___
 
 ## mentorship and student advising
 
-* **Richard Lettich** (Undergrad, UC Berkeley), Spring/Summer/Fall 2021.
+* **Gabriel Raulet** (LBNL), Fall 2021.
 
 * **Bridget Agyare** (Undergrad, UC Berkeley), Summer/Fall 2021.
+
+* **Richard Lettich** (Undergrad, UC Berkeley), Spring/Summer 2021.
 
 * **Elizabeth Koning** (Currently Grad Student, UIUC), Summer 2019. Summer Undergraduate Program in Engineering Research at UC Berkeley ([SUPERB](https://eecs.berkeley.edu/resources/undergrads/research/superb)) mentor. 
 
