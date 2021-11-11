@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: Growing collection of my projects and amazing collaborators.
+title: research
+permalink: /research/
+description: Growing collection of projects and amazing collaborators.
 nav: true
 ---
 ___
