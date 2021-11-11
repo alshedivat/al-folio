@@ -7,7 +7,7 @@ nav: true
 ---
 ___
 
-## current projects
+## projects
 
 **10 years later: cloud computing is closing the performance gap:** Computational sciences, such as computational cosmology, provide an important pool of first-class, large-scale problems. Although scientists have historically relied on the massive computational resources of High-Performance Computing (HPC) systems to run their software, in the last decade cloud computing has gained popularity among scientists as an alternative to HPC. Despite the extensive literature comparing HPC and cloud systems and promising results, the question of whether cloud computing can match HPC performance for a wide range of scientific applications is still open, and the answer may lead to a better design of cloud systems to promote scientific computing in the cloud.
 
@@ -29,10 +29,6 @@ ___
 
 [pdf](https://drive.google.com/file/d/19NnRRct_0myH5Yl7g8WhYBWVwrB60j0n/view?usp=sharing)
 
-___
-
-## past projects
-
 **A high-performance GPU-based x-drop long-read alignment algorithm:** Pairwise alignment is one of the most computationally intensive cores in genomic data analysis, accounting for more than 90% of the runtime for important bioinformatics applications. This method is particularly expensive for third generation sequences, as the analysis of sequences between 1Kb and 1Mb in length is very computationally intensive. Given the quadratic overhead of exact pairwise algorithms for long alignments, the community relies primarily on approximate algorithms that search only for high-quality alignments and stop early when none is found. In this work, we present the first GPU optimization of the popular x-drop alignment algorithm that we named LOGAN.
 
 [pdf](https://arxiv.org/pdf/2002.05200.pdf) \| [github](https://github.com/albertozeni/LOGAN) \| [video](https://www.youtube.com/watch?v=m1PBeh9oC6E)
@@ -47,3 +43,26 @@ However, despite the potential, companies are slowed down by the high computatio
 In this work, we present an accelerated implementation of a *ab initio* protein folding algorithm, which is based on Monte Carlo simulation.
 
 [pdf](https://drive.google.com/file/d/17-KlAbR8sEYMmSuumuIjyhs-tuyCqIWR/view?usp=sharing)
+
+___
+
+## collaborators
+
+* Vivek Bharadwaj (UC Berkeley)
+* Aydin Buluç (UC Berkeley, LBNL)
+* David Culler (UC Berkeley, Google)
+* Lorenzo Di Tucci (Politecnico di Milano, Huxelerate)
+* Saliya Ekanayake (Microsoft)
+* Marquita Ellis (IBM)
+* Can Firtina (ETH Zürich)
+* Rolando Garcia (UC Berkeley)
+* Elizabeth Koning (UIUC)
+* Richard Lettich (UC Berkeley)
+* Israt Nisa (AWS AI)
+* Leonid Oliker (LBNL)
+* Gabriel Raulet (LBNL)
+* Daniel Rokhsar (UC Berkeley, Joint Genome Institute)
+* Marco D. Santambrogio (Politecnico di Milano)
+* Oguz Selvitopi (LBNL)
+* Katherine Yelick (UC Berkeley, LBNL)
+* Alberto Zeni (Politecnico di Milano)
