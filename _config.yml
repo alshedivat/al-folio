@@ -65,6 +65,8 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
+rss_icon: true
+
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
@@ -135,17 +137,43 @@ keep_files:
 
 # Plug-ins
 plugins:
+  - jekyll-archives
+  - jekyll-diagrams
   - jekyll-email-protect
-  - jekyll-github-metadata
   - jekyll-feed
+  - jekyll-github-metadata
   - jekyll-paginate-v2
+  - jekyll-responsive-image
   - jekyll/scholar
-  - jekyll-twitter-plugin
   - jekyll-sitemap
+  - jekyll-target-blank
+  - jekyll-twitter-plugin
   - jemoji
+
+# Sitemap settings
+defaults:
+  - scope:
+      path:            "assets/**/*.*"
+    values:
+      sitemap:         false
 
 # Extras
 github: [metadata]
+
+# -----------------------------------------------------------------------------
+# Jekyll Archives
+# -----------------------------------------------------------------------------
+
+jekyll-archives:
+  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them). 
+  layouts:
+    year: archive-year
+    tag: archive-tag
+    category: archive-category
+  permalinks:
+    year: '/blog/:year/'
+    tag: '/blog/tag/:name/'
+    category: '/blog/category/:name/'
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -175,6 +203,32 @@ scholar:
   details_link: Details
 
   query: "@*"
+
+
+# -----------------------------------------------------------------------------
+# Jekyll Responsive Images
+# -----------------------------------------------------------------------------
+
+responsive_image:
+  template: _includes/responsive_img.html
+  # Quality to use when resizing images.
+  default_quality: 80
+  sizes:
+    - width: 480
+    - width: 800
+    - width: 1400
+      quality: 90
+  # Strip EXIF and other JPEG profiles. Helps to minimize JPEG size.
+  strip: true
+
+
+# -----------------------------------------------------------------------------
+# Jekyll Diagrams
+# -----------------------------------------------------------------------------
+
+jekyll-diagrams:
+    # configuration, see https://github.com/zhustec/jekyll-diagrams.
+    # feel free to comment out this section if not using jekyll diagrams.
 
 # -----------------------------------------------------------------------------
 # Optional Features
