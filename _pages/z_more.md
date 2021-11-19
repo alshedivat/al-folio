@@ -2,21 +2,22 @@
 layout: page
 permalink: /more/
 title: more
-description: Materials for courses you taught. Replace this text with your description.
+description: Volunteer work and extracurriculars activities
 nav: true
 ---
 
 ## Teaching
 
-### Mathematics Teacher, **Volunteer teacher in a program for public school students** `Elos Educação, Mar 2019 - Dec 2019` <br>
+### **Mathematics Teacher, Volunteer teacher in a program for public school students** `Elos Educação, Mar 2019 - Dec 2019` <br>
 
 - Prepared 25+ students from the public school system to move to an excellent public school, technical high school, or obtain scholarships in private schools.
 
-### Teaching Assistant, **Differential Equations (MAT 1154)** `PUC-Rio, Aug 2015 - Dec 2015` <br>
+### **Teaching Assistant, Differential Equations (MAT 1154)** `PUC-Rio, Aug 2015 - Dec 2015` <br>
 
 - Supported 10+ students in class for 2 hours/week.
 - Conducted review lessons and answered questions about the subjects taught in class.
 - Course topics: *Separable differential equations, first-order linear difference equations, Power and Taylor series.*
+
 
 
 ## Leadership and Outreach Activities
