@@ -1,12 +1,12 @@
 <!-- ---
 layout: page
-title: more
+title: submenus
 nav: true
 dropdown: true
 children: 
-    - title: teaching
-      permalink: /teaching/
+    - title: publications
+      permalink: /publications/
     - title: divider
-    - title: voluntary
-      permalink: /voluntary/
+    - title: projects
+      permalink: /projects/
 --- -->
