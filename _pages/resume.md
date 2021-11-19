@@ -6,7 +6,7 @@ description: Volunteer work and extracurriculars activities
 nav: true
 ---
 
-## Teaching
+# Teaching
 
 ### Mathematics Teacher, Volunteer teacher in a program for public school students `Elos Educação, Mar 2019 - Dec 2019` <br>
 
@@ -20,7 +20,7 @@ nav: true
 
 
 
-## Leadership and Outreach Activities
+# Leadership and Outreach Activities
 
 ### University of Oxford - Blavatnik School of Government `Jun 2021 - Present`
 
