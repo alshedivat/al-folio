@@ -5,4 +5,4 @@
 {% endfor %}
 {% endcapture %}
 
-<img {% if class %}class="{{ class }}"{% endif %}  src="{{ largest.path | relative_url }}" srcset="{{ srcset | strip_newlines }}/{{ path }} {{ original.width }}w" {% if alt %}alt="{{ alt }}"{% endif %} {% if title %}title="{{ title }}"{% endif %} {% if zoomable %}data-zoomable{% endif %}/>
+<img {% if class %}class="{{ class }}"{% endif %}  src="{{ largest.path | relative_url }}" srcset="{{ srcset | strip_newlines }}/ {{ path }} {{ original.width }}w" {% if alt %}alt="{{ alt }}"{% endif %} {% if title %}title="{{ title }}"{% endif %} {% if zoomable %}data-zoomable{% endif %}/>
