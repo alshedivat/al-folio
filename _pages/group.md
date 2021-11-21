@@ -2,7 +2,7 @@
 layout: page
 title: group
 permalink: /group/
-description: Research group information.
+description: Sustainable Energy Systems Laboratory (SENSL).
 ---
 
 ## PhD Position Opening
