@@ -15,10 +15,14 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
  # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 icon: 🤗 # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 =======
+=======
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+>>>>>>> 7f10dc3 (Lighthouse enhancements (#445))
 icon: 🔥 # the emoji used as the favicon
 url: https://alshedivat.github.io # the base hostname & protocol for your site
 baseurl: /al-folio # the subpath of your site, e.g. /blog/
