@@ -4,7 +4,7 @@ title: Dashboard Web Appplication
 description: A dashboard web application for building your own daily report.
 img: /assets/img/dashboard_webapp_1.png
 importance: 3
-category: Others
+category: Other projects
 ---
 
 *You can find the full code in [here](https://github.com/DanielDaCosta/dashboardapp-daily-report)*

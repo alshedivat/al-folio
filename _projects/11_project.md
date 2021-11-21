@@ -4,7 +4,7 @@ title: Crypto Bot
 description: Trading bot using RSI technique for Binance
 img: /assets/img/10.jpg
 importance: 1
-category: Others
+category: Other projects
 ---
 
 *You can find the full code in [here](https://github.com/DanielDaCosta/crypto-bot)*

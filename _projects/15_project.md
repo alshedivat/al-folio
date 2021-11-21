@@ -4,7 +4,7 @@ title: AWS Lambda module
 description: Terraform module
 img: /assets/img/lambda.png
 importance: 5
-category: Others
+category: Other projects
 ---
 
 *You can find the full code in [here](https://github.com/DanielDaCosta/lambda-module)*

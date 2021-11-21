@@ -4,7 +4,7 @@ title: AWS Aurora Cluster
 description: Terraform module
 img: /assets/img/aurora_cluster.jpeg
 importance: 4
-category: Others
+category: Other projects
 ---
 
 *You can find the full code in [here](https://github.com/DanielDaCosta/aurora-cluster)*

@@ -4,7 +4,7 @@ title: Lambda Email
 description: Lambda that sends email to user
 img: /assets/img/2.jpg
 importance: 2
-category: Others
+category: Other projects
 ---
 
 *You can find the full code in [here](https://github.com/DanielDaCosta/lambda-email)*
