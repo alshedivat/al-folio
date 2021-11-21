@@ -6,7 +6,7 @@ description: <a href="https://ece.okstate.edu">School of Electrical and Computer
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: cui-hantao-july2021.jpg
   address: >
 
     <p>204 General Academic Building</p>
