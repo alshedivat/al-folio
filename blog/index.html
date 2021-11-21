@@ -24,7 +24,7 @@ pagination:
   <ul class="post-list">
     {% for post in paginator.posts %}
 
-    {% assign read_time = page.content | number_of_words | divided_by: 180 | plus: 1 %}
+    {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
     {% assign year = post.date | date: "%Y" %}
     {% assign tags = post.tags | join: "" %}
     {% assign categories = post.categories | join: "" %}
