@@ -19,3 +19,25 @@
 "Auer":
   - firstname: ["Thomas", "T."]
     url: https://www.professoren.tum.de/en/auer-thomas
+
+"Young":
+  - firstname: ["Elizabeth", "Liz", "L."]
+    url: https://www.linkedin.com/in/elizabethlynyoung/
+    
+    
+"Mokhtar":
+  - firstname: ["Sarah", "S."]
+    url: https://architecture.mit.edu/student/sarah-mokhtar 
+    
+    
+"Chokhachian":
+  - firstname: ["Ata", "A."]
+    url: https://www.arc.ed.tum.de/ai/team/mitarbeiter/ata-chokhachian/  
+    
+    
+
+"Reinhart":
+  - firstname: ["Christoph", "C."]
+    url: https://architecture.mit.edu/faculty/christoph-reinhart 
+    
+    
