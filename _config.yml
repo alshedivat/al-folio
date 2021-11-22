@@ -8,6 +8,7 @@ last_name: Kastner
 email: patrick.kastner@gmail.com
 description: Ph.D. Candidate in Systems Science and Engineering - Cornell University #> # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text:
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 📁 # the emoji used as the favicon
 url: https://kastnerp.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
