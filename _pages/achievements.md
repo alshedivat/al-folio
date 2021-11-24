@@ -11,7 +11,7 @@ nav: true
 **Reviewer**
  
   * Accepted as a reviewer at **ICLR 2022**.
-  * Subreviewer: ICML 2021, ICCV 2021, NeurIPS 2021  </li>
+  * Subreviewer: ICML 2021, ICCV 2021, NeurIPS 2021.
   * Volunteer: ICML 2021, NeurIPS 2021.
 
 **Achievements**
