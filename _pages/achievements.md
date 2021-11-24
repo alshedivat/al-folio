@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /achievements/
+permalink: /teaching/
 title: Achievements
 nav: true
 ---
