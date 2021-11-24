@@ -6,14 +6,16 @@ nav: true
 ---
 
 
-# Extracurricular
+## Extracurricular
 
- ## Reviewer
+ **Reviewer**
+ 
   * Accepted as a reviewer at **ICLR 2022**.
   * Subreviewer: ICML 2021, ICCV 2021, NeurIPS 2021  </li>
   * Volunteer: ICML 2021, NeurIPS 2021.
 
-   ## Achievements
+   **Achievements**
+   
 * Recipient of [DAAD-WISE](https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015295) a prestigious research oriented scholarship 
 programme by German Government.
 
