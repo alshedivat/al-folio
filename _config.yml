@@ -2,21 +2,20 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
+title: Samyak Jain # the website title (if blank, full name will be used instead)
+first_name: Samyak
+middle_name: 
+last_name: Jain
+email: samyakjain.cse18@itbhu.ac.in
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+footer_text: Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+# Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+# Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+
 icon: 🔥 # the emoji used as the favicon
-url:https://samyakjain0112.github.io
+url:  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -50,11 +49,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: samyakjain0112
 gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+twitter_username: samyak62205737
+linkedin_username: samyak-jain-276738178
+scholar_userid: aKCRSv0AAAAJ&hl
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -65,12 +64,9 @@ work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
-stackoverflow_id: #your stackoverflow id
 
-rss_icon: true
-
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+# contact_note: >
+  # You can even add a little note about which of these is the best way to reach you.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
@@ -105,7 +101,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 5
+news_limit: 10
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -139,43 +135,17 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives
-  - jekyll-diagrams
   - jekyll-email-protect
-  - jekyll-feed
   - jekyll-github-metadata
+  - jekyll-feed
   - jekyll-paginate-v2
-  - jekyll-responsive-image
   - jekyll/scholar
-  - jekyll-sitemap
-  - jekyll-target-blank
   - jekyll-twitter-plugin
+  - jekyll-sitemap
   - jemoji
-
-# Sitemap settings
-defaults:
-  - scope:
-      path:            "assets/**/*.*"
-    values:
-      sitemap:         false
 
 # Extras
 github: [metadata]
-
-# -----------------------------------------------------------------------------
-# Jekyll Archives
-# -----------------------------------------------------------------------------
-
-jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them). 
-  layouts:
-    year: archive-year
-    tag: archive-tag
-    category: archive-category
-  permalinks:
-    year: '/blog/:year/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -205,32 +175,6 @@ scholar:
   details_link: Details
 
   query: "@*"
-
-
-# -----------------------------------------------------------------------------
-# Jekyll Responsive Images
-# -----------------------------------------------------------------------------
-
-responsive_image:
-  template: _includes/responsive_img.html
-  # Quality to use when resizing images.
-  default_quality: 80
-  sizes:
-    - width: 480
-    - width: 800
-    - width: 1400
-      quality: 90
-  # Strip EXIF and other JPEG profiles. Helps to minimize JPEG size.
-  strip: true
-
-
-# -----------------------------------------------------------------------------
-# Jekyll Diagrams
-# -----------------------------------------------------------------------------
-
-jekyll-diagrams:
-    # configuration, see https://github.com/zhustec/jekyll-diagrams.
-    # feel free to comment out this section if not using jekyll diagrams.
 
 # -----------------------------------------------------------------------------
 # Optional Features
