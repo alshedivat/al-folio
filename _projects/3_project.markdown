@@ -1,9 +1,9 @@
 ---
 layout: page
-title: SCRF for Name Entity Recognition
-description: A semi Markov Conditional Random Field for Named Entity Recongnition.
+title: Beauty Salon Management System
+description: A website which has multiple functionalities like staff attendence monitor, appointment and service booking facility for the customers, along with purchase of cosmetics between client and distributor.
 img: 
-redirect: https://github.com/pranavajitnair/SCRF-for-Name-Entity-Recognition
+redirect: https://github.com/samyakjain0112/DBMS
 importance: 3
 category: work
 ---
