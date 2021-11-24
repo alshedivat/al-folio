@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: myphoto.jpg
+  image: myphoto.jpeg
   address: >
     <p>Santa Cruz, CA, 95064</p>
 
