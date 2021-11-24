@@ -35,7 +35,7 @@ I am a final-year Ph.D. Candidate at **[The Chinese University of Hong Kong](htt
 Currently, my research interest lies in the intersection among computer security, machine learning and software engineering, with special emphasis in AI security and AI testing.
 
 
-<span style="color:red"> I am looking for a faculty position or a research position in the company, feel free to contact me! </span>
+<span style="color:red"> **I am looking for a faculty position or a research position in the company, feel free to contact me!** </span>
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
