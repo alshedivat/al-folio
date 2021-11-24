@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Experiments on CoLA
-description: A Transformer and BiLSTM architecture are both coupled with ELMo to evaluate performance on the CoLA (Corpus of Linguistic Acceptability) dataset.
-redirect: https://github.com/pranavajitnair/CoLA
+title: Feature Level Stochastic Smoothing Classifier (FLSS)
+description: This is the code for the implementation of our paper titled "Boosting Adversarial Robustness using Feature Level Stochastic Smoothing", accepted at CVPR Workshops 2021. Here we designed a Stochastic classifier which can reject low confidence adversarial examples pretty efficiently.
+redirect: https://github.com/val-iisc/FLSS
 img: 
 importance: 2
 category: work
