@@ -42,11 +42,11 @@ ___
 * **Richard Lettich** (Undergrad, UC Berkeley), Spring/Summer 2021.
 * **[Elizabeth Koning](https://kodingkoning.github.io/)** (Currently Grad Student, UIUC), Summer 2019. Summer Undergraduate Program in Engineering Research at UC Berkeley ([SUPERB](https://eecs.berkeley.edu/resources/undergrads/research/superb)) mentor. 
 
-* **[LeadTheFuture](leadthefuture.tech)** mentor.
-
 ___
 
 ## services
+
+* **[LeadTheFuture](leadthefuture.tech)** mentor.
 
 * I am a co-organizer —alongside [Nathan Lambert](https://www.natolambert.com/) and [Erin Grant](https://eringrant.github.io/)— of the **Equal Access to Application Assistance (EAAA) program** at [UC Berkeley EECS](https://eecs.berkeley.edu/).**You can learn about EAAA and apply [here](https://sites.google.com/berkeley.edu/eaaa/home)**. You can find additional **resources on how to apply to grad school** [on Nathan's website](https://www.natolambert.com/guides/grad-apps).
 
