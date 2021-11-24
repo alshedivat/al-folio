@@ -1,8 +1,8 @@
 ---
 layout: page
-title: A Seq2Seq Model for Generating Explanations
-description: A simple LSTM and dot product attention-based model for generating commonsense explanations. Trained on COS-E to generate explanations.
-redirect: https://github.com/pranavajitnair/A-Sequence-to-Sequence-LSTM-and-Attention-based-model
+title: Implementation of various generative models in pytorch
+description: Implemented GANS, VAE, Adversarial Autoencoders and sparse autoencoders in torch and also studied their latent space using tsne and latent space interpolation.
+redirect: https://github.com/samyakjain0112/Generative-models-papers-and-code
 img:
 importance: 3
 category: fun
