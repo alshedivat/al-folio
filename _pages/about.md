@@ -29,8 +29,9 @@ I am also working with the [Theoretical foundations in AI](https://www.in.tum.de
 Here is the link to my [CV](https://drive.google.com/file/d/1d-grrWxJsIr0Ln6VSE2yMHkUhb5Wowxc/view?usp=sharing).
 \\
 Broadly I am interested in research topics related to:
-Robustness: Adversarial Robustness, Domain Generalization, OOD Robustness, Explainable AI
-
-Theory: Learning dynamics, Critical point solutions, Linear autoencoder
-
-Generative models: GANS, VAE, Normalizing flows
+\\
+**Robustness:** Adversarial Robustness, Domain Generalization, OOD Robustness, Explainable AI
+\\
+**Theory:** Learning dynamics, Critical point solutions, Linear autoencoder
+\\
+**Generative models:** GANS, VAE, Normalizing flows
