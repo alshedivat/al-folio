@@ -32,21 +32,6 @@
 @import 'tables';
 @import 'typography';
 
-#gridid img { margin: 16px 22px 6px 0; border-radius:10%; box-shadow: 2px 2px 5px #888888 }
-#homeid img { margin: 0 0 0 0; border-radius:5%; box-shadow: 0px 0px 0px #888888 }
-#picid img { margin: 6px 3px 60px 6px; border-radius:1%; box-shadow: 2px 2px 5px #888888 }
-#gridid .row { margin-bottom: 24px; }
-
-
-/* Grid overrides */
-.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-5, .col-sm-6,
-.col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-	padding-left: 1px;
-	padding-right: 1px;
-}
-
-/* Grid overrides */
-.col-sm-4 {
-	padding-left: 26px;
-	padding-right: 26px;
-}
+  .column {
+    flex: 50%;
+  }
