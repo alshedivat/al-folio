@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Leveraging Commonsense Explanations for Question Answering
-description: T5 trained on ANLG and COS-E datasets to generate explanations. The model obtained from the previous training stage is used to generate explanations for ReColr contexts. The explanations, along with the context and question, passed to ALBERT for prediction.
-redirect: https://github.com/pranavajitnair/Leveraging-Commonsense-Explanations-for-Question-Answering
+title: Oracle Aligned Adversarial Training 
+description: Implementation of our work "Towards Achieving Adversarial Robustness Beyond Perceptual Limits", accepted at the ICML 2021 Workshop, where we propose an adversarial training method to achieve robustness at larger bound perturbations.
+redirect: https://github.com/val-iisc/OAAT
 img: 
 importance: 1
 category: work
