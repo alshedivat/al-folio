@@ -1,18 +1,83 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Kurenkov":
+  - firstname: ["Andrey"]
+    url: https://www.andreykurenkov.com/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Ji":
+  - firstname: ["Jingwei"]
+    url: https://jingweij.github.io/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Garg":
+  - firstname: ["Animesh"]
+    url: https://animesh.garg.tech/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Savarese":
+  - firstname: ["Silvio"]
+    url: https://twitter.com/silviocinguetta
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Char":
+  - firstname: ["Ian"]
+    url: http://ianchar.com/
+
+"Chung":
+  - firstname: ["Youngseog"]
+    url: https://youngseogchung.github.io/
+
+"Neiswanger":
+  - firstname: ["Willie"]
+    url: https://willieneis.github.io/
+
+"Schneider":
+  - firstname: ["Jeff"]
+    url: https://www.cs.cmu.edu/~schneide/
+
+"Nelson":
+  - firstname: ["Andrew Oakleigh"]
+    url: https://plasma.princeton.edu/people/oak-nelson
+
+"Boyer":
+  - firstname: ["Mark D."]
+    url: https://www.linkedin.com/in/mdboyer
+
+"Kolemen":
+ - firstname: ["Egemen"]
+   url: http://www.princeton.edu/~ekolemen/
+
+"Koehler":
+ - firstname: ["Frederic", "Fred"]
+   url: https://frkoehle.github.io/
+
+"Risteski":
+ - firstname: ["Andrej"]
+   url: https://www.andrew.cmu.edu/user/aristesk/
+
+"Gwak":
+ - firstname: ["JunYoung"]
+   url: https://scholar.google.com/citations?user=EUrVrEQAAAAJ&hl=en
+
+"Choy":
+ - firstname: ["Chris", "Christopher"]
+   url: https://chrischoy.github.io/
+
+"Fang":
+ - firstname: ["Kuan"]
+   url: https://kuanfang.github.io/
+
+"Fei-Fei":
+ - firstname: ["Li"]
+   url: https://profiles.stanford.edu/fei-fei-li
+
+"Zhu":
+ - firstname: ["Yuke"]
+   url: https://www.cs.utexas.edu/~yukez/
+
+"Ermon":
+ - firstname: ["Stefano"]
+   url: https://cs.stanford.edu/~ermon/
+
+"Villaflor":
+ - firstname: ["Adam"]
+   url: https://avillaflor.github.io/
+
+"Paria":
+ - firstname: ["Biswajit"]
+   url: https://biswajitsc.github.io/
