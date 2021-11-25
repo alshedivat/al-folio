@@ -8,7 +8,7 @@ profile:
   image: prof_pic.jpeg
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={false}"
+selected_papers: false # includes a list of papers marked as "selected={false}"
 social: true  # includes social icons at the bottom of the page
 ---
 Master's student at IIT (BHU) Varanasi
