@@ -14,7 +14,7 @@ social: true  # includes social icons at the bottom of the page
 Master's student at IIT (BHU) Varanasi
 \\
 \\
-Hi! I am Samyak.  I am pursuing Master of Technology in [Computer Science and Engineering](https://www.iitbhu.ac.in/dept/cse) at the [Indian Institute of Technology (BHU), Varansi](https://www.iitbhu.ac.in/). For the last few years I have been broadly working on Machine Learning with a particular focus on Adversarial Robustness along with Generalizable and Explainable Machine Learning.
+Hi! I am Samyak.  I am pursuing integrated Bachelor and Master of Technology in [Computer Science and Engineering](https://www.iitbhu.ac.in/dept/cse) at the [Indian Institute of Technology (BHU), Varansi](https://www.iitbhu.ac.in/). For the last few years I have been broadly working on Machine Learning with a particular focus on Adversarial Robustness along with Generalizable and Explainable Machine Learning.
 \\
 \\
 I have been working at the [Video Analytics Lab](https://val.cds.iisc.ac.in/) at the [Indian Institute of Science, Bangalore](https://iisc.ac.in/) for past two consecuitive years(2020-2021) and have been involved in deep learning projects particularly related to adversarial robustness, which have been published at the following [venues](./publications).
