@@ -6,7 +6,7 @@ description: Past teching experience.
 ---
 
 - [Spring 2022]
-    Instructur of ECEN 4285/5080 (Computer Networks)
+    Instructur of ECEN 4283/5080 (Computer Networks)
 
 - [Fall 2021]
     Instructor of ECEN 5113 (Power System Analysis by Computer Methods)
