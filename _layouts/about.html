@@ -21,6 +21,12 @@ layout: default
           alt: {{ page.profile.image }}
         {% endresponsive_image_block %}
       {% endif %}
+      {% if page.profile.email%}
+        <div class="address">
+          {{ page.profile.email}}
+        </div>
+      {% endif %}
+      </br>
       {% if page.profile.address %}
         <div class="address">
           {{ page.profile.address }}

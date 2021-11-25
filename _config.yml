@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Viraj
 middle_name:
 last_name: Mehta
-email: virajm at cs.cmu.edu
+email: virajm@cs.cmu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   PhD Student at the Robotics Institute at Carnegie Mellon University working at the intersection of machine learning and plasma control for nuclear fusion.
 footer_text: >
@@ -77,7 +77,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: # your blog must have a name for it to show up in the nav bar
+blog_name: Blog # your blog must have a name for it to show up in the nav bar
 blog_description:
 permalink: /blog/:year/:title/
 

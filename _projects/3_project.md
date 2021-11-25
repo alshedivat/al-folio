@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3
+title: Austin Travel Guide
 description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+img: assets/img/texas.png
+redirect: https://docs.google.com/document/d/1lji-5R7jyjz5L9HNDP0LtjeF_cffG-TV9fwUDzfGzUM/
+importance: 1
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Ph.D. student at the <a href=https://ri.cmu.edu>Robotics Institute</a> at Carnegie Mellon University advised by Jeff Schneider.
 
 profile:
   align: right
@@ -11,14 +11,17 @@ profile:
     <p>Newell-Simon Hall 3128</p>
     <p>5000 Forbes Ave</p>
     <p>Pittsburgh, PA 15213</p>
+  email: virajm at cs.cmu.edu
 
-news: true  # includes a list of news items
+news: False # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+As a researcher, I'm interested in reinforcement learning, generative models, and dynamical systems. In particular I am interested in solving control problems in science with machine learning in regimes where the data-generating process is expensive. The primary application of my research is the problem of plasma control for nuclear fusion and this frequently inspires more general machine learning problems that I study. My fusion research is conducted in collaboration with the [Princeton Plasma Physics Laboratory](pppl.gov).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Prior to my time at CMU, I spent time at [KKR](kkr.com) helping jumpstart their efforts with alternative data and analytics and at [Hum Capital](https://humcapital.com/) (formerly Capital Technologies) doing initial work on automating parts of capital allocation in private finance.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I completed a B.S. in Mathematics and an M.S. in Computer Science at Stanford University, where I conducted research on 3D vision and robot learning advised by Silvio Savarese.
+
+I'm from Austin, Texas and spend my time bouncing between there, Pittsburgh, and sometimes NYC, the Bay Area and Tahoe. Outside of work, I spend my time flying airplanes, lifting weights, reading, and skiing.
