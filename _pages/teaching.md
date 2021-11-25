@@ -5,8 +5,14 @@ title: teaching
 description: Past teching experience.
 ---
 
-- [Spring 2019 - Spring 2020]
-    Instructor for ECE 496/691 (CURENT Power and Energy Seminar)
+- [Spring 2022]
+    Instructur of ECEN 4285/5080 (Computer Networks)
 
-- [Fall 2019]
-    Co-instructor for ECE 421 (Electric Energy Systems)
+- [Fall 2021]
+    Instructor of ECEN 5113 (Power System Analysis by Computer Methods)
+
+- [Spring 2019 - Spring 2021 at UTK]
+    Instructor of ECE 496/691 (CURENT Power and Energy Seminar)
+
+- [Fall 2019 at UTK]
+    Co-instructor of ECE 421 (Electric Energy Systems)
