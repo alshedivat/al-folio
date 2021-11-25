@@ -17,28 +17,28 @@
     <span class="author">
       {% for author in entry.author_array %}
         {% if forloop.length == 1 %}
-          {% if author.last == site.scholar.last_name %}
+          {% if author.last == site.scholar.last_name and author.first == site.scholar.first_name %}
             <em>{{author.last}}, {{author.first}}</em>
           {% else %}
             {{author.last}}, {{author.first}}
           {% endif %}
         {% else %}
           {% unless forloop.last %}
-            {% if author.last == site.scholar.last_name %}
+            {% if author.last == site.scholar.last_name and author.first == site.scholar.first_name %}
               <em>{{author.last}}, {{author.first}}</em>,
             {% else %}
               {% if site.data.coauthors[author.last] %}
-                <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>, 
+                <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
               {% else %}
                 {{author.last}}, {{author.first}},
               {% endif %}
             {% endif %}
           {% else %}
-            {% if author.last == site.scholar.last_name %}
+            {% if author.last == site.scholar.last_name and author.first == site.scholar.first_name %}
               and <em>{{author.last}}, {{author.first}}</em>
             {% else %}
               {% if site.data.coauthors[author.last] %}
-                and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a> 
+                and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>
               {% else %}
                 and {{author.last}}, {{author.first}}
               {% endif %}
@@ -56,6 +56,9 @@
     {% endif %}
     {% if entry.year %}
       {{entry.year}}
+    {% endif %}
+    {% if entry.file %}
+      <a href="/assets/publications/{{entry.file}}" target="_blank">[pdf]</a>
     {% endif %}
     </span>
   {% endif %}
