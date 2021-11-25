@@ -13,7 +13,7 @@ footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: favicon # the emoji used as the favicon
+icon: /assets/img/favicon.ico # the emoji used as the favicon
 use_custom_favicon: True # if this is true, you can set favicon path instead of using default emoji
 url: https://virajm.com # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
