@@ -2,7 +2,7 @@
 layout: page
 permalink: /talksnteaching/
 title: talks & teaching
-description: Talks are grouped by theme. Exact title may have been different.
+description: Talks are grouped by theme. Exact titles may have been different.
 ---
 
 <b> Selected Talks </b>
