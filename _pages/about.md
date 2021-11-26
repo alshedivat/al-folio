@@ -24,4 +24,4 @@ Prior to my time at CMU, I spent time at [KKR](https://kkr.com) helping jumpstar
 
 I completed a B.S. in Mathematics and an M.S. in Computer Science at Stanford University, where I conducted research on 3D vision and robot learning advised by Silvio Savarese.
 
-I'm from Austin, Texas and spend my time bouncing between there, Pittsburgh, and sometimes NYC, the Bay Area and Tahoe. Outside of work, I spend my time flying airplanes, lifting weights, reading, and skiing.
+I'm from Austin, Texas and spend my time bouncing between there, Pittsburgh, and sometimes NYC, the Bay Area, and Tahoe. Outside of work, I spend my time flying airplanes, lifting weights, reading, and skiing.
