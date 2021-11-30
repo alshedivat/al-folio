@@ -1,8 +1,6 @@
-{% assign largest = resized | sort: 'width' | last %}
-{% capture srcset %}
-{% for i in resized %}
-    {{ i.path | relative_url }} {{ i.width }}w,
-{% endfor %}
-{% endcapture %}
-
-<img {% if class %}class="{{ class }}"{% endif %}  src="{{ largest.path | relative_url }}" srcset="{{ srcset | strip_newlines }}/ {{ path }} {{ original.width }}w" {% if alt %}alt="{{ alt }}"{% endif %} {% if title %}title="{{ title }}"{% endif %} {% if zoomable %}data-zoomable{% endif %}/>
+<picture>
+    {% for i in resized %}
+    <source media="(max-width: {{ i.width }}px)" srcset="{{ i.path | relative_url }}">
+    {% endfor %}
+    <img {% if class %}class="{{ class }}"{% endif %} src="{{ path | relative_url }}" {% if alt %}alt="{{ alt }}"{% endif %} {% if title %}title="{{ title }}"{% endif %} {% if zoomable %}data-zoomable{% endif %} />
+</picture>
