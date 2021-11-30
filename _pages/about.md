@@ -15,7 +15,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-[curriculum vitae](https://www.dropbox.com/s/d63esffptfzgco6/shariliu_cv.pdf?dl=0) // [short bio](https://www.dropbox.com/s/viixc57ygzb9wso/shariliu_bio.txt?dl=0) // [request a rec letter](https://docs.google.com/forms/d/e/1FAIpQLScrWhVcgT3LdlUC4pErOcJZ-3Me9mzZvEX8ZQrWApfQkmS9Ew/viewform)
+[curriculum vitae](https://docs.google.com/document/d/1RIXP5fQVd7V72sqKmlTxy8J1qRnxNOCPG2Jd4a6tpAM/edit?usp=sharing) // [short bio](https://www.dropbox.com/s/viixc57ygzb9wso/shariliu_bio.txt?dl=0) // [request a rec letter](https://docs.google.com/forms/d/e/1FAIpQLScrWhVcgT3LdlUC4pErOcJZ-3Me9mzZvEX8ZQrWApfQkmS9Ew/viewform)
 
 Every day, we look out into the world and see scenes of people in motion, and make sense of these scenes by appealing to their underlying causes. We appreciate the mental lives of others, including their desires, percepts, and beliefs, and we also see these actors as solid bodies, who can exert forces and navigate themselves through a physical world. How do our minds get so much meaning from this input, and how we grow to this knowledge over development?
 
