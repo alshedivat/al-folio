@@ -221,8 +221,6 @@ responsive_image:
   # Strip EXIF and other JPEG profiles. Helps to minimize JPEG size.
   strip: true
 
-
-
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
 # -----------------------------------------------------------------------------
