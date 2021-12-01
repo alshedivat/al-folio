@@ -2,7 +2,7 @@
 <meta property="og:site_name" content="{{ site.title }}" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="{{ site.title }} | {{ page.title }}" />
-<meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
+<meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}" />
 {% if page.description %}
 <meta property="og:description" content="{{ page.description }}" />
 {% else %}
