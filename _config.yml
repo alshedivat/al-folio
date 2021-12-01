@@ -163,7 +163,7 @@ defaults:
 compress_html:
   clippings: all 
   comments: ["<!-- ", " -->"] # Remove HTML comments
-  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+  endings: []
   profile: false
   blanklines: true
   ignore:
