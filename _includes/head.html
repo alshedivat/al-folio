@@ -12,7 +12,11 @@
   | {{ page.title }}
 {% endif %}
 </title>
+{% if page.description %}
+<meta name="description" content="{{ page.description }}">
+{% else %}
 <meta name="description" content="{{ site.description }}">
+{% endif %}
 
 <!-- OpenGraph and Schema.org -->
 {% include metadata.html %}
