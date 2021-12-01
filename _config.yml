@@ -159,6 +159,16 @@ defaults:
     values:
       sitemap:         false
 
+# Compress HTML
+compress_html:
+  clippings: all 
+  comments: ["<!-- ", " -->"] # Remove HTML comments
+  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+  profile: false
+  blanklines: true
+  ignore:
+    envs: []
+    
 # Extras
 github: [metadata]
 
