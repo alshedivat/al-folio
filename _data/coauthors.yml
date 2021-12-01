@@ -65,3 +65,63 @@
 "Bhandwaldar":
   - firstname: ["A."]
     url: https://mitibmwatsonailab.mit.edu/people/abhishek-bhandwaldar/
+
+"Asaba":
+  - firstname: ["Mika", "M.", "M"]
+    url: https://masaba.github.io/
+
+"Chuey":
+  - firstname: ["A.", "A", "Aaron"]
+    url: https://scholar.google.com/citations?user=HtOhmBIAAAAJ&hl=en
+
+"Bridgers":
+  - firstname: ["S", "S.", "Sophie"]
+    url: https://scholar.google.com/citations?user=1Wlj18oAAAAJ&hl=en
+
+"Carrillo":
+  - firstname: ["B", "B.", "Brandon"]
+    url: https://learninglab.yale.edu/meet-our-team
+
+"Dietz":
+  - firstname: ["G", "G.", "Griffin"]
+    url: http://griffindietz.com/
+
+"Garcia":
+  - firstname: ["T", "T.", "Teresa"]
+    url: http://sll.stanford.edu/people.html
+
+"Leonard":
+  - firstname: ["J.", "J", "JA", "J. A.", "Julia"]
+    url: https://jlnrd.github.io/
+
+"Merrick":
+  - firstname: ["Megan", "M.", "M"]
+    url: https://leadlab.sitehost.iu.edu/People/index.html
+
+"Radwan":
+  - firstname: ["S", "S.", "S F", "S. F.", "Samaher"]
+    url: https://scholar.google.com/citations?user=8S9IvwgAAAAJ&hl=en
+
+"Stegall":
+  - firstname: ["J", "J.", "Jessa"]
+    url: http://ecclabduke.com/graduate-students/2021/8/2/jessa-stegall
+
+"Velez":
+  - firstname: ["N", "N.", "Natalia"]
+    url: https://nataliavelez.org/
+
+"Wu":
+  - first: ["Y", "Y.", "Yang"]
+    url: https://www.yangwulab.com/
+
+"Zhou":
+  - first: ["X", "X.", "XJ", "X. J.", "Xi Jia"]
+    url: https://profiles.stanford.edu/xijia-zhou
+
+"Frank":
+  - first: ["Michael", "M.", "M", "M. C.", "MC"]
+    url: https://web.stanford.edu/~mcfrank/
+
+"Gweon":
+  - first: ["Hyowon", "H", "H."]
+    url: http://sll.stanford.edu/people.html
