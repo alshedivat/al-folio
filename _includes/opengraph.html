@@ -3,7 +3,11 @@
 <meta property="og:type" content="website" />
 <meta property="og:title" content="{{ site.title }} | {{ page.title }}" />
 <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
+{% if page.description %}
 <meta property="og:description" content="{{ page.description }}" />
+{% else %}
+<meta property="og:description" content="{{ site.description }}" />
+{% endif %}
 <meta property="og:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
 <meta name="author" content="{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}" />
 <meta property="og:locale" content="{{ site.lang }}" />
