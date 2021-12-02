@@ -2,23 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>
-{% if site.title == "blank" %}
-  {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
-{% else %}
-  {{ site.title }}
-{% endif %}
-{% if page.title != "blank" and page.url != "/" %}
-  | {{ page.title }}
-{% endif %}
-</title>
-{% if page.description %}
-<meta name="description" content="{{ page.description }}">
-{% else %}
-<meta name="description" content="{{ site.description }}">
-{% endif %}
-
-<!-- OpenGraph and Schema.org -->
+<!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.html %}
 
 <!-- Bootstrap & MDB -->
