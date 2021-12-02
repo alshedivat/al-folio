@@ -137,7 +137,7 @@
 		"url":"{{ page.url | prepend: site.baseurl | prepend: site.url }}",
 		"@type":"WebSite",
 		"description":"{{ page.description }}",
-		"headline":"About",
+		"headline":"{{ page.title }}",
 		{% if sameaslinks %}"sameAs":{{ sameaslinks }}, {% endif %}
 		"name":"{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
 		"@context":"https://schema.org"
