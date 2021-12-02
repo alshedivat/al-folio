@@ -11,20 +11,9 @@
 {{ title }}
 {% endif %}
 </title>
-
 <meta name="author" content="{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}">
-
-{% if page.description %}
-<meta name="description" content="{{ page.description }}">
-{% else %}
-<meta name="description" content="{{ site.description }}">
-{% endif %}
-
-{% if page.keywords %}
-<meta name="keywords" content="{{ page.keywords }}">
-{% else %}
-<meta name="keywords" content="{{ site.keywords }}">
-{% endif %}
+<meta name="description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}">
+<meta name="keywords" content="{%- if page.keywords -%}{{ page.keywords }}{%- else -%}{{ site.keywords }}{%- endif -%}">
 
 
 <!-- OpenGraph -->
@@ -33,11 +22,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:title" content="{{ site.title }} | {{ page.title }}" />
 <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}" />
-{% if page.description %}
-<meta property="og:description" content="{{ page.description }}" />
-{% else %}
-<meta property="og:description" content="{{ site.description }}" />
-{% endif %}
+<meta name="og:description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}">
 <meta property="og:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
 <meta name="author" content="{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}" />
 <meta property="og:locale" content="{{ site.lang }}" />
