@@ -46,6 +46,8 @@ ___
 
 ## services
 
+* **Panelist** for ETH Zürich's Google Developer Student Club ["Panel Discussion - Doing a PhD in Computer Science"](https://gdsc.community.dev/events/details/developer-student-clubs-eth-zurich-presents-panel-discussion-doing-a-phd-in-computer-science/)—Dec 4, 2021.
+
 * **[LeadTheFuture](leadthefuture.tech)** mentor.
 
 * I am a co-organizer —alongside [Nathan Lambert](https://www.natolambert.com/) and [Erin Grant](https://eringrant.github.io/)— of the **Equal Access to Application Assistance (EAAA) program** at [UC Berkeley EECS](https://eecs.berkeley.edu/).**You can learn about EAAA and apply [here](https://sites.google.com/berkeley.edu/eaaa/home)**. You can find additional **resources on how to apply to grad school** [on Nathan's website](https://www.natolambert.com/guides/grad-apps).
