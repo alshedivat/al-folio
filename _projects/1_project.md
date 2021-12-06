@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Predicting Atrial Fibrillation
+description: Predicting Atrial Fibrillation
 img: assets/img/12.jpg
 importance: 1
 category: work
