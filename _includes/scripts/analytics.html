@@ -10,7 +10,6 @@
 </script>
 {% endif %}
 
-
 {% if site.enable_panelbear_analytics %}
 <!-- Panelbear Analytics - We respect your privacy -->
 <script async src="https://cdn.panelbear.com/analytics.js?site={{site.panelbear_analytics}}"></script>
@@ -18,4 +17,12 @@
     window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
     panelbear('config', { site: '{{site.panelbear_analytics}}' });
 </script>
+{% endif %}
+
+{% if site.enable_google_verification %}
+<meta name="google-site-verification" content="{{ site.google_site_verification }}" />
+{% endif %}
+
+{% if site.enable_bing_verification %}
+<meta name="msvalidate.01" content="{{ site.bing_site_verification }}" />
 {% endif %}
