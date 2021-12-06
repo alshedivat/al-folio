@@ -1,4 +1,10 @@
 <!-- Standard metadata -->
+{% if site.enable_google_verification %}
+<meta name="google-site-verification" content="{{ site.google_site_verification }}" />
+{% endif %}
+{% if site.enable_bing_verification %}
+<meta name="msvalidate.01" content="{{ site.bing_site_verification }}" />
+{% endif %}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
