@@ -4,14 +4,15 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Idan
-middle_name: a
+middle_name: R.
 last_name: Levy
-email: a@a.com
+email: you@example.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A personal website.
+  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 👨‍💻 # the emoji used as the favicon
 url: https://levyidan1.github.io # the base hostname & protocol for your site
