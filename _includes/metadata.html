@@ -123,9 +123,9 @@
 		{% capture link %}https://stackoverflow.com/users/{{ site.stackoverflow_id }}{% endcapture %}
 		{% assign sameaslinks = sameaslinks | push: link %}
 	{% endif %}
-	{% unless sameaslinks %}
+	{% if sameaslinks != blank %}
 		{% assign sameaslinks = sameaslinks | split: "" %}
-	{% endunless %}
+	{% endif %}
 
 <script type="application/ld+json">
 	{
@@ -145,9 +145,9 @@
 
 		"headline":"{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}",
 
-		{% unless sameaslinks %}
+		{% if sameaslinks != blank %}
 		"sameAs":{{ sameaslinks }}, 
-		{% endunless %}
+		{% endif %}
 
 		"name":"{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
 		"@context":"https://schema.org"
