@@ -19,7 +19,7 @@ Hi! I am Samyak.  I am pursuing integrated Bachelor and Master of Technology in 
 \\
 I have been working at the [Video Analytics Lab](https://val.cds.iisc.ac.in/) at the [Indian Institute of Science, Bangalore](https://iisc.ac.in/) for past two consecuitive years(2020-2021) and have been involved in deep learning projects particularly related to adversarial robustness, which have been published at the following [venues](./publications).
 \\
-I am also working with the [Theoretical foundations in AI](https://www.in.tum.de/tfai/people/students-and-interns) at the [Technical University of Munich](https://www.tum.de/) where I am working on understanding the learning dynamics, loss landscape and critical point solutions of linear neural networks. Besides this I actively participate in machine learning conferences and am serving as a reviewer at ICLR 2022.
+I am also working with the [Theoretical foundations in AI](https://www.in.tum.de/tfai/people/students-and-interns) at the [Technical University of Munich](https://www.tum.de/) where I am working on understanding the learning dynamics, loss landscape and critical point solutions of linear neural networks. Besides this I actively participate in machine learning conferences and am serving as a reviewer at ICLR 2022 and CVPR 2022.
 
 Here is the link to my [CV](https://drive.google.com/file/d/1d-grrWxJsIr0Ln6VSE2yMHkUhb5Wowxc/view?usp=sharing).
 \\
