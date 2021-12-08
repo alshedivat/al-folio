@@ -22,4 +22,4 @@ I'm currently a researcher at [Microsoft Research Asia (MSRA)](http://www.msra.c
 
 Research interest: transfer learning, meta-learning, out-of-distribution generalization, semi-supervised learning, and related applications.
 
-Check out our unified codebase for: [Transfer learning repo](https://github/jindongwang/transferlearning) [![Transfer learning repo](https://img.shields.io/github/stars/jindongwang/transferlearning?style=social)](https://github/jindongwang/transferlearning) and  [Semi-supervised learning repo](https://github/torchssl/torchssl) [![SSL repo](https://img.shields.io/github/stars/torchssl/torchssl?style=social)](https://github/stars/torchssl/torchssl)
+<!-- Check out our unified codebase for: [Transfer learning repo](https://github/jindongwang/transferlearning) [![Transfer learning repo](https://img.shields.io/github/stars/jindongwang/transferlearning?style=social)](https://github/jindongwang/transferlearning) and  [Semi-supervised learning repo](https://github/torchssl/torchssl) [![SSL repo](https://img.shields.io/github/stars/torchssl/torchssl?style=social)](https://github/stars/torchssl/torchssl) -->
