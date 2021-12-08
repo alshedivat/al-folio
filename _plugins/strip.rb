@@ -6,7 +6,7 @@ module Jekyll
     module StripHTML
     def strip(content)
       if strip_enabled?
-        super.gsub(/\n(\s*\n)+/,"\n") # This get conflict with code snippets like {% highlight ... }
+        content.gsub(/\n(\s*\n)+/,"\n") # This get conflict with code snippets like {% highlight ... }
       else
         content
       end

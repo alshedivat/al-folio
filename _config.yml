@@ -170,6 +170,9 @@ github: [metadata]
 # Jekyll optimization
 # -----------------------------------------------------------------------------
 
+# HTML remove comments (<!-- .... -->)
+remove_HTML_comments: true
+
 # HTML strip blank lines (_plugins/strip.rb)
 strip: false # This function has conflict with the code snippets, they can be displayed incorrectly
 
