@@ -5,4 +5,3 @@ User-agent: *
 Disallow:
 
 Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
-sudo apt-get install libmagick++-dev

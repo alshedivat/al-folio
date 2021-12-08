@@ -57,6 +57,7 @@ blockquote {
 .profile {
   margin-left: 1rem;
   width: 100%;
+  margin-right: 0rem;
 
   .address {
     margin-bottom: 5px;
@@ -207,12 +208,17 @@ blockquote {
   color: var(--global-text-color);
 }
 
+.myicon {
+	width: 30%;
+	margin-right: 15px;
+}
+
 // Social (bottom)
 
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
     a {
       i::before {
         color: var(--global-text-color);
