@@ -173,6 +173,10 @@ compress_html:
   ignore:
     envs: []
     
+# Compress CSS
+sass:
+  style: compressed
+    
 # Extras
 github: [metadata]
 
