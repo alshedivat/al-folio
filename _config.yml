@@ -162,23 +162,23 @@ defaults:
       path:            "assets/**/*.*"
     values:
       sitemap:         false
-
-# Compress HTML
-compress_html:
-  clippings: all 
-  comments: ["<!-- ", " -->"] # Remove HTML comments
-  endings: []
-  profile: false
-  blanklines: true
-  ignore:
-    envs: []
-    
-# Compress CSS
-sass:
-  style: compressed
     
 # Extras
 github: [metadata]
+
+# -----------------------------------------------------------------------------
+# Jekyll optimization
+# -----------------------------------------------------------------------------
+
+# HTML strip blank lines (_plugins/strip.rb)
+strip: false # This function has conflict with the code snippets, they can be displayed incorrectly
+
+# HTML minify (_plugins/minify.rb) Thanks to: https://www.ffbit.com/blog/2021/03/17/html-minification-in-jekyll.html
+minify: false
+
+# CSS/SASS minify
+sass:
+  style: compressed
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
