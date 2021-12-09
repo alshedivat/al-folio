@@ -68,8 +68,8 @@ stackoverflow_id: #your stackoverflow id
 
 rss_icon: true
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: 
+  #You can even add a little note about which of these is the best way to reach you.
 
 google_analytics: G-LRLQJKW7E9 # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
@@ -104,7 +104,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 6
+news_limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
