@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Differentially Private Obfuscation
-description: The goal of this project is to protect vehicle location privacy in location based services. 
+title: Differentially Private Location Obfuscation in Location-Based Services
+description: The goal of this project is to protect vehicle location privacy in location based services (LBS). 
 img: /assets/img/project1cover.JPG
 importance: 1
 ---
