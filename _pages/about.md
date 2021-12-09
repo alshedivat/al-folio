@@ -22,4 +22,8 @@ I'm currently a researcher at [Microsoft Research Asia (MSRA)](http://www.msra.c
 
 Research interest: transfer learning, meta-learning, out-of-distribution generalization, semi-supervised learning, and related applications.
 
-Check out our unified codebase for: [Transfer learning repo](https://github/jindongwang/transferlearning) [![Transfer learning repo](/assets/img/transferlearning-repo-star.jpg)](https://github/jindongwang/transferlearning) and  [Semi-supervised learning repo](https://github/torchssl/torchssl) [![SSL repo](/assets/img/torchssl-star.jpg)](https://github/stars/torchssl/torchssl)
+## Highlights
+
+1. Four of my papers are highly cited and ranked top 20 globally in recent 5 years in Google scholar metrics! See [here](https://zhuanlan.zhihu.com/p/421192644).
+2. I wrote a popular book [迁移学习导论](http://jd92.wang/tlbook) to make it easy to learn, understand, and use transfer learning.
+3. I lead the most popular transfer learning and semi-supervised learning projects on Github: [Transfer learning repo](https://github/jindongwang/transferlearning) [![Transfer learning repo](/assets/img/transferlearning-repo-star.jpg)](https://github/jindongwang/transferlearning) and  [Semi-supervised learning repo](https://github/torchssl/torchssl) [![SSL repo](/assets/img/torchssl-star.jpg)](https://github/stars/torchssl/torchssl)
