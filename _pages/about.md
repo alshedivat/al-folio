@@ -5,7 +5,7 @@ permalink: /
 description: 
 
 profile:
-  align: left
+  align: right
   image: me2.png
   address: 
 
