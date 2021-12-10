@@ -4,7 +4,7 @@ services:
     environment:
       - JEKYLL_ENV=docker
     command: jekyll serve --watch --force_polling --config  _config.yml,_config.docker.yml
-    image: jekyll/jekyll
+    image: dgraziotin/jekyll-imagemagick6:stable
     volumes:
       - .:/srv/jekyll
     ports:
