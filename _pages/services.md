@@ -47,15 +47,15 @@ The IEEE Wireless Communications and Networking Conference (WCNC) 2020
 
 2018: IEEE Transactions on Services Computing (TSC)
 
-2015, 2018: IEEE/ACM Transactions on Networking (ToN)
+2015, 2018, 2021: IEEE/ACM Transactions on Networking (ToN)
 
 2014, 2018: IEEE Journal on Selected Areas in Communications (JSAC)
 
-2017: IEEE Transactions on Mobile Computing (TMC)
+2017, 2020, 2021: IEEE Transactions on Mobile Computing (TMC)
 
 2016: IEEE Communications Letters (CL)
 
-2018: IEEE Transactions on Information Forensics & Security (TIFS)
+2018, 2021: IEEE Transactions on Information Forensics & Security (TIFS)
 
 2015, 2018: IEEE Transactions on Vehicular Technology (TVT)
 
