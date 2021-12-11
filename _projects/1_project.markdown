@@ -7,7 +7,7 @@ importance: 1
 ---
 
 <div class="row justify-content-md-center">
-    <div class="col">
+    <div class="col-sm-9">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/TrafficAdapter_Framework.png' | relative_url }}" alt="" title="Framework of location obfuscation"/>
     </div>
 </div>
@@ -24,7 +24,7 @@ importance: 1
 Figure 1 shows an example on how a traffic aware attacker can accurately track a taxicab’s locations (in Shenzhen mobility trace dataset) even when the taxicab’s location has been obfuscated with a state-of-the-art obfuscation algorithm.
 </div>
 <div class="row justify-content-md-center">
-    <div class="col">
+    <div class="col-sm-9">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/TrafficAdapter_inference.png' | relative_url }}" alt="" title="Example: Accuracy of location tracking using the vehicle traffic flow information."/>
     </div>
 </div>
