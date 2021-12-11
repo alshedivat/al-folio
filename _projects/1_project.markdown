@@ -17,7 +17,7 @@ importance: 1
     Figure 1. HMM model.
 </div>
 
-Figure 3 shows an example on how a traffic aware attacker can accurately track a taxicab’s locations (in Shenzhen mobility trace dataset) even when the taxicab’s location has been obfuscated with a state-of-the-art obfuscation algorithm.
+Figure 2 gives an example on how a traffic aware attacker can accurately track a taxicab’s locations (in Shenzhen mobility trace dataset) even when the taxicab’s location has been obfuscated with a state-of-the-art obfuscation algorithm.
 <div class="row justify-content-md-center">
     <div class="col-sm-9">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/TrafficAdapter_inference.png' | relative_url }}" alt="" title="Figure 1. Example: Accuracy of location tracking using the vehicle traffic flow information."/>
