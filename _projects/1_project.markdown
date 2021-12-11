@@ -52,7 +52,3 @@ TMC 2020, CIKM 2020, ICDCS 2019
 
 Publications: NA
 
----
-
-This project has been reported by [Rowan Today](https://today.rowan.edu/news/2021/02/protecting-app-based-worker-privacy.html).
-
