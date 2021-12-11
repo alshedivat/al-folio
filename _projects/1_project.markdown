@@ -30,18 +30,29 @@ Figure 1 shows an example on how a traffic aware attacker can accurately track a
     Framework of location obfuscation.
 </div>
 
+---
+
+Publications: IPSN 2020
+
+The MATLAB code of vehicle location tracking has been released [here](https://github.com/chenxiq1986/vehicle-traffic-flow-aware-attack).
 
 
 **Topic 2: Location obfuscation over the road networks**. As a countermeasure, we then develop a new strategy to obfuscate a vehicle’s locations by a “fake” trajectory that follows a realistic traffic flow. The fake trajectory is designed to not only hide the vehicle’s real location but also guarantee the quality of service (QoS) of LBS. Our experimental results demonstrate that 1) the new threat model can accurately track vehicles’ real locations, which have been obfuscated by two state-of-the-art algorithms, and 2) the proposed obfuscation method can effectively protect vehicles’ location privacy under the new threat model without compromising
 QoS.
 
+---
+
+Publications: 
+TMC 2020, CIKM 2020, ICDCS 2019
+
+
 **Topic 3: Policy-driven location obfuscation**. 
 
 ---
 
-Publications: 
-TMC 2020, CIKM 2020, IPSN 2020, ICDCS 2019
+Publications: NA
+
+---
 
 This project has been reported by [Rowan Today](https://today.rowan.edu/news/2021/02/protecting-app-based-worker-privacy.html).
 
-The MATLAB code of vehicle location tracking has been released [here](https://github.com/chenxiq1986/vehicle-traffic-flow-aware-attack).
