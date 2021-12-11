@@ -24,13 +24,13 @@ Figure 2 gives an example on how a traffic aware attacker can accurately track a
     </div>
 </div>
 <div class="caption">
-    Figure 2. Example: Accuracy of location tracking using the vehicle traffic flow information.
+    Figure 2. Example: Accuracy of location tracking using the vehicle traffic flow information. 
+
 </div>
-More experimental results can be found in our publications. 
+More experimental results can be found in our publications. The MATLAB code of vehicle location tracking has been released [here](https://github.com/chenxiq1986/vehicle-traffic-flow-aware-attack).
 
 Publications: IPSN 2020
 
-The MATLAB code of vehicle location tracking has been released [here](https://github.com/chenxiq1986/vehicle-traffic-flow-aware-attack).
 
 ---
 
