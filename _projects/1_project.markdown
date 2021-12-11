@@ -26,6 +26,7 @@ Figure 2 gives an example on how a traffic aware attacker can accurately track a
 <div class="caption">
     Figure 2. Example: Accuracy of location tracking using the vehicle traffic flow information.
 </div>
+More experimental results can be found in our publications. 
 
 Publications: IPSN 2020
 
