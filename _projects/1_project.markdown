@@ -21,14 +21,23 @@ importance: 1
 
 **Topic 1: Traffic flow aware inference attacks.** We propose a new threat model that leverages traffic flow information to recover vehicles’ real locations from obfuscated locations. We modle a target vehicle’s mobility by a *hidden Markov model (HMM)*, where the vehicle’s actual and obfuscated locations are considered as a *hidden state* and an *observable state*, respectively. The HMM transition matrix, which can be learnt using the traffic flow information, describes the probabilities of the vehicle traveling between the locations over the map. Given the HMM matrix, the vehicle’s real locations can be estimated with a high accuracy using well-developed hidden state inference algorithms (e.g., the Viterbi algorithm). 
 
-Figure 2 shows an example on how a traffic aware attacker can accurately track a taxicab’s locations (in Shenzhen mobility trace dataset) even when the taxicab’s location has been obfuscated with a state-of-the-art obfuscation algorithm.
+<div class="row justify-content-md-center">
+    <div class="col-sm-9">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/TrafficAdapter_HMM.png' | relative_url }}" alt="" title="Figure 2. HMM model"/>
+    </div>
+</div>
+<div class="caption">
+    Figure 2. HMM model.
+</div>
+
+Figure 3 shows an example on how a traffic aware attacker can accurately track a taxicab’s locations (in Shenzhen mobility trace dataset) even when the taxicab’s location has been obfuscated with a state-of-the-art obfuscation algorithm.
 <div class="row justify-content-md-center">
     <div class="col-sm-9">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/TrafficAdapter_inference.png' | relative_url }}" alt="" title="Figure 2. Example: Accuracy of location tracking using the vehicle traffic flow information."/>
     </div>
 </div>
 <div class="caption">
-    Figure 2. Example: Accuracy of location tracking using the vehicle traffic flow information.
+    Figure 3. Example: Accuracy of location tracking using the vehicle traffic flow information.
 </div>
 
 
