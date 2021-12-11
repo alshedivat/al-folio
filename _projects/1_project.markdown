@@ -27,7 +27,7 @@ Figure 1 shows an example on how a traffic aware attacker can accurately track a
     </div>
 </div>
 <div class="caption">
-    Framework of location obfuscation.
+    Example: Accuracy of location tracking using the vehicle traffic flow information.
 </div>
 
 
