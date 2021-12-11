@@ -9,7 +9,7 @@ importance: 1
 **Task 1: Traffic flow aware inference attacks.** Thinking like an adversary, we propose a new threat model that leverages traffic flow information to recover vehicles’ exact locations from other types of information, such as braking signals or perturbated locations. The target vehicle’s mobility is described by a *hidden Markov model (HMM)* (Figure 1), where the vehicle’s exact location is considered as a *hidden state*, while its sensing information/perturbated location is considered as an *observable state*. The HMM transition matrix, which can be learnt using the traffic flow information, describes the probabilities of the vehicle traveling between the locations over the map. Given the HMM matrix, the vehicle’s exact locations can be recoverd with a high accuracy using well-developed hidden state inference algorithms (e.g., the Viterbi algorithm). 
 
 <div class="row justify-content-md-center">
-    <div class="col-sm">
+    <div class="col-sm-9">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/TrafficAdapter_HMM.png' | relative_url }}" alt="" title="Figure 1. HMM model"/>
     </div>
 </div>
