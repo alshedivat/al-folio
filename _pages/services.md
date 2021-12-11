@@ -15,6 +15,10 @@ ACM, Member
 
 **Conference Organization**
 
+Publicity chair of The IEEE International Conference on Fog and Edge Computing (ICFEC 2022)
+
+Publicity chair of The IEEE International Conference on Computer Communications and Networks (ICCCN 2022)
+
 Session chair of The ACM/IEEE Conference on Internet of Things Design and Implementation (IoTDI) 2021
 
 Web chair of The ACM/IEEE Conference on Internet of Things Design and Implementation (IoTDI) 2021
