@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-ah",
+      "appliesTo": "assets/pdf/ah.pdf",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-ah",
+      "appliesTo": "assets/pdf/ah.pdf",
+      "type": "launch"
+    }
+  ]
+}
