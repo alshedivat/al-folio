@@ -6,4 +6,4 @@
 		{%- if forloop.first -%}{%- continue -%}{%- endif -%}{%- capture _comment_outside -%}{%- if _carry -%}{{ _comments.first }}{%- endif -%}{{ _comment_before }}{%- endcapture -%}{%- capture _comment -%}{%- unless _carry -%}{{ _comments.first }}{%- endunless -%}{{ _comment_outside | split: _comments.last | first }}{%- if _comment_outside contains _comments.last -%}{{ _comments.last }}{%- assign _carry = false -%}{%- else -%}{%- assign _carry = true -%}{%- endif -%}{%- endcapture -%}{%- assign content = content | remove_first: _comment -%}
 	{%- endfor -%}
 {%- endif -%}
-{{ content | strip | minify }}
+{{ content | beautify | minify }}

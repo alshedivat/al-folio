@@ -171,10 +171,10 @@ github: [metadata]
 # -----------------------------------------------------------------------------
 
 # HTML remove comments (<!-- .... -->)
-remove_HTML_comments: true
+remove_HTML_comments: false
 
-# HTML strip blank lines (_plugins/strip.rb)
-strip: false # This function has conflict with the code snippets, they can be displayed incorrectly
+# HTML beautifier (_plugins/beautify.rb) / https://github.com/threedaymonk/htmlbeautifier
+beautify: false # This function has conflict with the code snippets, they can be displayed incorrectly
 
 # HTML minify (_plugins/minify.rb) Thanks to: https://www.ffbit.com/blog/2021/03/17/html-minification-in-jekyll.html
 minify: false
