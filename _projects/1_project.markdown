@@ -41,7 +41,7 @@ The MATLAB code of vehicle location tracking has been released [here](https://gi
     </div>
 </div>
 <div class="caption">
-    Figure 3. Framework of location obfuscation.
+    Figure 3. Framework of location obfuscation: Vehicles need to report their locations to the server. We consider a passive attack where attackers can eavesdrop on vehicles' reported locations  breached by the server. 
 </div>
 
 Publications: 
@@ -51,6 +51,7 @@ TMC 2020, CIKM 2020, ICDCS 2019
 
 **Task 3: Policy-driven location obfuscation**. 
 
+TBD. 
 
 Publications: NA
 
