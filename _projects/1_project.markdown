@@ -14,7 +14,7 @@ importance: 1
     </div>
 </div>
 <div class="caption">
-    Figure 1. HMM model: the vehicle’s exact location is considered as a *hidden state*, while its sensing information/perturbated location is considered as an *observable state*; the HMM transition matrix, which can be learnt using the traffic flow information, describes the probabilities of the vehicle traveling between the locations over the map. 
+    Figure 1. HMM model: the vehicle’s exact location is considered as a hidden state, while its sensing information/perturbated location is considered as an observable state; the HMM transition matrix, which can be learnt using the traffic flow information, describes the probabilities of the vehicle traveling between the locations over the map. 
 </div>
 
 <div class="row justify-content-md-center">
@@ -32,7 +32,7 @@ The MATLAB code of vehicle location tracking has been released [here](https://gi
 
 ---
 
-**Task 2: Location obfuscation over the road networks**. As a countermeasure of task 1, we aim to design time-efficient obfuscation techniques to protect vehicles' location privacy against the traffic-aware inference attacks. Considering that individual vehicles’ mobility is restricted by various road environments, including local road network topology, speed limits, and traffic conditions, our objective is to 
+**Task 2: Location obfuscation over the road networks**. Considering that individual vehicles’ mobility is restricted by various road environments, including traffic flows and local road network topology, our objective is to design time-efficient obfuscation techniques to protect vehicles' location privacy against the traffic-aware inference attacks. 
 
 
 <div class="row justify-content-md-center">
