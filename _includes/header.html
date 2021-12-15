@@ -42,6 +42,17 @@
             </a>
           </li>
           {% endif %}
+
+          <!-- Publications -->
+          <li class="nav-item {% if page.url contains 'publications' %}active{% endif %}">
+            <a class="nav-link" href="https://scholar.google.com/citations?user=uisY5oEAAAAJ&hl=en" target="_blank">
+              blog
+              {% if page.title == "publications" %}
+              <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
+          {% endif %}
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: "title" %}
           {% for p in sorted_pages %}
