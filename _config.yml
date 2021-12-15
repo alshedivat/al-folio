@@ -10,7 +10,7 @@ email: abder.rahman.ali@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🔥 # the emoji used as the favicon
+icon: # the emoji used as the favicon
 url: https://abderhasan.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
