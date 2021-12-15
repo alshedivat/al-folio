@@ -129,6 +129,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-get-json
 
 # Sitemap settings
 defaults:
@@ -217,6 +218,13 @@ enable_navbar_social:       true   # enables displaying social links in the
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
+
+
+jekyll_get_json:
+  - data: gscholar
+    json: 'https://cse.bth.se/~fer/googlescholar-api/googlescholar.php?user=XNaNgkwAAAAJ'
+
+
 # -----------------------------------------------------------------------------
 # Library versions
 # -----------------------------------------------------------------------------
