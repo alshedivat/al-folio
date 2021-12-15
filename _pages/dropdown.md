@@ -5,7 +5,7 @@ nav: true
 dropdown: true
 children: 
     - title: publications
-      permalink: https://scholar.google.com/citations?user=uisY5oEAAAAJ&hl=en
+      permalink: /publications/
     - title: divider
     - title: projects
       permalink: /projects/
