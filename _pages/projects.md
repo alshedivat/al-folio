@@ -24,14 +24,13 @@ horizontal: false
           </div>
         </div>
       {% else %}
-        <div class="grid">
+        <div class="card-columns">
           {% for project in sorted_projects %}
             {% include projects.html %}
           {% endfor %}
         </div>
       {% endif %}
     {% endfor %}
-
   {% else %}
   <!-- Display projects without categories -->
     {% assign sorted_projects = site.projects | sort: "importance" %}
