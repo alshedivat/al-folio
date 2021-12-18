@@ -3,8 +3,12 @@
 let toggleTheme = (theme) => {
   if (theme == "dark") {
     setTheme("light");
+    document.getElementById("highlight_theme_light").media = "none";
+    document.getElementById("highlight_theme_dark").media = "";
   } else {
     setTheme("dark");
+    document.getElementById("highlight_theme_dark").media = "none";
+    document.getElementById("highlight_theme_light").media = "";
   }
 }
 
