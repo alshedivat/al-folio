@@ -15,7 +15,7 @@ nav: true
 {% endfor %}
 </div>
 
-### Technical reports and Proceedings
+### Technical Reports and Proceedings
 <div class="publications">
 {% for y in page.years %}
   {% bibliography -f proceedings-papers -q @*[year={{y}}]* %}
