@@ -26,4 +26,4 @@ Previously, I was an undergraduate student at the [Indian Institute of Technolog
 
 **_I am actively seeking internships for Summer 2022._**
 
-[CV](assets/pdf/resume.pdf)
+[CV](assets/pdf/resume_intern.pdf)
