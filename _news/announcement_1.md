@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2021-12-10 15:59:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+Our method CLUE is the winner in all categories of Match Modality task in Multimodal Single-Cell Data Integration Competition(NeurIPS Competition 2021) :sparkles: :smile:
