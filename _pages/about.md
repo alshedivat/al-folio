@@ -17,12 +17,14 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am Xinming Tu, a PhD student at Univerisity of Washington, Paul G. Allen School of Computer Science & Engineering. 
+I am a CSE PhD student at University of Washington supervised by [Sara Mostafavi](http://saramostafavi.github.io). Before my PhD, I earned BSs of Biology and Computer Science from Peking University. During my undergraduate, I did some bioinformatics research at [Gao Lab](http://www.gao-lab.org/index.php/en/home/). In addition, I also worked as summer intern at [Zhao Lab ](http://zhaocenter.org) at Yale University and [Sheng Lab](https://homes.cs.washington.edu/~swang/) at University of Washington. I also spent six months on [ML Group of Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/machine-learning-research-group/) as a Full-time research Intern. 
 
-My research interest is using machine learning to dechiper the principle of genomics. 
 
-Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My research interest is using machine learning to decipher the principle of genomics. Recently my research focus on the regulatory genomics under the single cell context, including sequence to function, multi omics integration, perturbation modeling. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<!-- 
+Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<!-- Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
+
+<!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
