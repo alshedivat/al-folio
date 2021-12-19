@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 description: <a href="#">Univerisity of Washington</a>. Seattle.
 
