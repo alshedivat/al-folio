@@ -5,7 +5,7 @@ permalink: /
 description: <a href="#">Univerisity of Washington</a>. Seattle.
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   address: >
     <p>Paul G. Allen Center, Seattle</p>
