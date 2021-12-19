@@ -57,6 +57,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://www.compphys.de/" target="_blank">★</a>
 <a href="https://julianstreyczek.github.io" target="_blank">★</a>
 <a href="https://sdaza.com" target="_blank">★</a>
+<a href="https://niweera.gq" target="_blank">★</a>
    
 </td>
 </tr>
@@ -68,6 +69,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://systemconsultantgroup.github.io/scg-folio/" target="_blank">★</a>
 <a href="https://decisionlab.ucsf.edu/" target="_blank">★</a>
 <a href="https://programming-group.com/" target="_blank">★</a>
+<a href="https://sailing-lab.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -89,6 +91,11 @@ Neural Compression (ICLR: <a href="https://neuralcompression.github.io/" target=
 </td>
 </tr>
 </table>
+
+
+## Best practices
+
+[![Google PageSpeeg](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&tab=desktop)
 
 
 ## Getting started
