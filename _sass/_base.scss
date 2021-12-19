@@ -8,6 +8,10 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
 }
 
+hr {
+  border-top: 1px solid var(--global-divider-color);
+}
+
 a, table.table a {
   color: var(--global-theme-color);
   &:hover {
@@ -98,11 +102,15 @@ blockquote {
 }
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
   a:not(.active) {
     color: var(--global-text-color);
   }
   a:hover {
     color: var(--global-hover-color);
+  }
+  .dropdown-divider {
+    border-top: 1px solid var(--global-divider-color) !important;
   }
 }
 .dropdown-item {
@@ -276,6 +284,11 @@ footer.sticky-bottom {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
       margin-bottom: 0;
+    }
+    .post-tags {
+      color: var(--global-text-color-light);
+      font-size: 0.875rem;
+      padding-top: 0.25rem;
     }
     a {
       color: var(--global-text-color);
@@ -519,4 +532,37 @@ html.transition *:before,
 html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
+}
+
+// Extra Markdown style (post Customization)
+.post{
+  .post-meta{
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+    margin-bottom: 0;
+  }
+  .post-tags{
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+    padding-bottom: 1rem;
+    a {
+      color: var(--global-text-color-light);
+      text-decoration: none;
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+  .post-content{
+        blockquote {
+          border-left: 5px solid var(--global-theme-color);
+          padding: 8px;
+      }
+}
+}
+
+.post-tags {
+  color: var(--global-text-color-light);
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
 }

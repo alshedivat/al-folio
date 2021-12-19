@@ -1,0 +1,6 @@
+<picture>
+    {% for i in resized %}
+    <source media="(max-width: {{ i.width }}px)" srcset="{{ i.path | relative_url }}">
+    {% endfor %}
+    <img {% if class %}class="{{ class }}"{% endif %} src="{{ path | relative_url }}" {% if alt %}alt="{{ alt }}"{% endif %} {% if title %}title="{{ title }}"{% endif %} {% if zoomable %}data-zoomable{% endif %} />
+</picture>
