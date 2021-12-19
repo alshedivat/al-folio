@@ -62,6 +62,7 @@ blockquote {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+    font-size: 0.8rem;
     p {
       display: inline-block;
       margin: 0;
@@ -95,7 +96,7 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid $grey-color-light;
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
@@ -250,7 +251,7 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
+  border-top: 1px solid $grey-color-light;
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
@@ -260,13 +261,13 @@ footer.sticky-bottom {
 // Blog
 
 .header-bar {
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid $grey-color-light;
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 3rem;
   }
 }
 
@@ -275,7 +276,7 @@ footer.sticky-bottom {
   margin-bottom: 40px;
   padding: 0;
   li {
-    border-bottom: 1px solid var(--global-divider-color);
+    border-bottom: 1px solid $grey-color-light;
     list-style: none;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -344,9 +345,11 @@ footer.sticky-bottom {
   .card {
     img {
       width: 100%;
+      padding: 10px
     }
     .card-title {
       color: $black-color;
+      font-size: 1.5rem
     }
   }
 
@@ -366,8 +369,8 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
+    color: var(--global-theme-color);
+    border-bottom: 1px solid $grey-color;
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -394,8 +397,8 @@ footer.sticky-bottom {
     }
   }
   h2.year {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
+    color: $grey-color;
+    border-top: 1px solid $grey-color;
     padding-top: 1rem;
     margin-top: 2rem;
     margin-bottom: -2rem;
