@@ -5,12 +5,10 @@ permalink: /
 description: <a href="#">Univerisity of Washington</a>. Seattle.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   address: >
-    <p>Allen Center 506</p>
-    <p>Paul G. Allen Center, 185 E Stevens Way NE</p>
-    <p>Seattle, WA 98195</p>
+    <p>Paul G. Allen Center, Seattle</p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
