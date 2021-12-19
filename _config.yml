@@ -70,7 +70,7 @@ stackoverflow_id: #your stackoverflow id
 rss_icon: false
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
@@ -79,8 +79,8 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Notes for Computational Biology  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: CompBio blog  # your blog must have a name for it to show up in the nav bar
+blog_description: Write some notes/blogs about CompBio
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -183,8 +183,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Tu
+  first_name: [Xinming]
 
   style: apa
   locale: en
