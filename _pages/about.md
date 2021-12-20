@@ -20,4 +20,4 @@ social: true  # includes social icons at the bottom of the page
 I am a fourth year graduate student in the Department of Computer Science at UIUC, working with Luke Olson. My research focuses on developing monolithic Algebraic Multigrid (AMG) preconditioners for saddle point systems, such as the ones arising from the discretization of Navier-Stokes equations.
 
 
-Please see my [CV](https://github.com/Alexey-Voronin/Alexey-Voronin/tree/master/assets/alexey-voronin-cv.pdf) for more information.
+Please see my [CV](https://alexey-voronin.github.io/assets/pdf/alexey-voronin-cv.pdf) for more information.
