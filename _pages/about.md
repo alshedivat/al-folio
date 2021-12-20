@@ -6,7 +6,7 @@ description: <a href="#">Univerisity of Washington</a>. Seattle.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_PKU.jpg
   address: >
     <p>Paul G. Allen Center, Seattle</p>
 
