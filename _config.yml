@@ -162,7 +162,6 @@ defaults:
       path:            "assets/**/*.*"
     values:
       sitemap:         false
-    
 # Extras
 github: [metadata]
 
