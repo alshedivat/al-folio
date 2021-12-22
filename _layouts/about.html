@@ -15,11 +15,10 @@ layout: default
     {% if page.profile %}
     <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
       {% if page.profile.image %}
-        {% responsive_image_block %}
-          path: {{ page.profile.image | prepend: 'assets/img/' }}
-          class: "img-fluid z-depth-1 rounded"
-          alt: {{ page.profile.image }}
-        {% endresponsive_image_block %}
+        {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+        {% include figure.html 
+          path=profile_image_path 
+          class="img-fluid z-dept-1 rounded"%}
       {% endif %}
       {% if page.profile.address %}
         <div class="address">
