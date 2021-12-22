@@ -34,7 +34,7 @@
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
 <!-- Code Syntax Highlighting -->
-<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/{{ site.highlight_theme_light }}.css" media="none" id="highlight_theme_light" />
+<link rel="stylesheet" href="{{ site.highlight_theme_light | prepend: '/assets/css/jekyll-pygments-themes/' | append: '.css' | relative_url }}" media="none" id="highlight_theme_light" />
 
 <!-- Styles -->
 {% if site.icon != empty %}
@@ -45,7 +45,7 @@
 
 {% if site.enable_darkmode %}
 <!-- Dark Mode -->
-<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/{{ site.highlight_theme_dark }}.css" media="none" id="highlight_theme_dark" />
+<link rel="stylesheet" href="{{ site.highlight_theme_dark | prepend: '/assets/css/jekyll-pygments-themes/' | append: '.css' | relative_url }}" media="none" id="highlight_theme_dark" />
 
 <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
