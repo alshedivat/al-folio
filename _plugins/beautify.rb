@@ -1,4 +1,5 @@
 require 'htmlbeautifier'
+
 module Jekyll
     module StripHTML
     def beautify(content)
