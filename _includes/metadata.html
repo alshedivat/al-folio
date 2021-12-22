@@ -1,4 +1,4 @@
-{%- if site.enable_google_verification or site.enable_bing_verification %}
+{% if site.enable_google_verification or site.enable_bing_verification %}
     <!-- Website verification -->
     {% if site.enable_google_verification -%}
     <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
@@ -134,25 +134,25 @@
     {%- endif -%}
 
     <script type="application/ld+json">
+      {
+        "author":
         {
-            "author":
-            {
-                "@type": "Person",
-                "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}"
-            },
-            "url":"{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-            "@type":"WebSite",
-            {% if page.description -%}
-            "description":"{{ page.description }}",
-            {% else if site.description -%}
-            "description":"{{ site.description }}",
-            {%- endif -%}
-            "headline":"{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}",
-            {% if sameaslinks != blank -%}
-            "sameAs":{{ sameaslinks }}, 
-            {%- endif %}
-            "name":"{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
-            "@context":"https://schema.org"
-        }
+          "@type": "Person",
+          "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}"
+        },
+        "url":"{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+        "@type":"WebSite",
+        {% if page.description -%}
+        "description":"{{ page.description }}",
+        {% else if site.description -%}
+        "description":"{{ site.description }}",
+        {%- endif -%}
+        "headline":"{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}",
+        {% if sameaslinks != blank -%}
+        "sameAs":{{ sameaslinks }}, 
+        {%- endif %}
+        "name":"{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
+        "@context":"https://schema.org"
+      }
     </script>
-{%- endif -%}
+{%- endif %}
