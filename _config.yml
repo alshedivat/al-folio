@@ -144,8 +144,8 @@ plugins:
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-github-metadata
+  - jekyll-imagemagick
   - jekyll-paginate-v2
-  - jekyll-responsive-image
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-target-blank
@@ -208,21 +208,24 @@ scholar:
 
 
 # -----------------------------------------------------------------------------
-# Jekyll Responsive Images
+# Responsive WebP Images
 # -----------------------------------------------------------------------------
 
-responsive_image:
-  template: _includes/responsive_img.html
-  # Quality to use when resizing images.
-  default_quality: 80
-  sizes:
-    - width: 480
-    - width: 800
-    - width: 1400
-      quality: 90
-  # Strip EXIF and other JPEG profiles. Helps to minimize JPEG size.
-  strip: true
-
+imagemagick:
+  enabled: true
+  widths:
+    - 480
+    - 800
+    - 1400
+  input_directories:
+    - assets/img
+  input_formats:
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+    - ".tiff"
+  output_formats:
+    webp: "-quality 75%"
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
