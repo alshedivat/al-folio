@@ -1,11 +1,15 @@
 
-    <!-- Standard metadata -->
-{%- if site.enable_google_verification %}
+{%- if site.enable_google_verification or site.enable_bing_verification %}
+    <!-- Website verification -->
+    {% if site.enable_google_verification -%}
     <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
-{%- endif -%}
-{%- if site.enable_bing_verification %}
+    {%- endif -%}
+    {% if site.enable_bing_verification -%}
     <meta name="msvalidate.01" content="{{ site.bing_site_verification }}" />
+    {%- endif -%}
 {%- endif %}
+
+    <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,8 +31,9 @@
     <meta name="keywords" content="{%- if page.keywords -%}{{ page.keywords }}{%- else -%}{{ site.keywords }}{%- endif -%}" />
 {%- endif %}
 
-    <!-- OpenGraph -->
 {%- if site.serve_og_meta %}
+
+    <!-- OpenGraph -->
     <meta property="og:site_name" content="{{ site.title }}" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{%- if page.title -%}{{ site.title }} | {{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}" />
@@ -52,9 +57,10 @@
     {%- endif %}
 {%- endif %}
 
-    <!-- Schema.org -->
 {%- if site.serve_schema_org %}
-    <!-- Social links generator for "sameAs schema" -->
+
+    <!-- Schema.org -->
+    {%- comment -%} Social links generator for "sameAs schema" {%- endcomment %}
     {% assign sameaslinks = "" | split: "," %}
     {%- if site.orcid_id -%}
         {%- capture link -%}https://orcid.org/{{ site.orcid_id }}{%- endcapture -%}
@@ -128,26 +134,26 @@
         {%- assign sameaslinks = sameaslinks | split: "" -%}
     {%- endif -%}
 
-<script type="application/ld+json">
-    {
-        "author":
+    <script type="application/ld+json">
         {
-            "@type": "Person",
-            "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}"
-        },
-        "url":"{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "@type":"WebSite",
-        {% if page.description -%}
-        "description":"{{ page.description }}",
-        {% else if site.description -%}
-        "description":"{{ site.description }}",
-        {%- endif -%}
-        "headline":"{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}",
-        {% if sameaslinks != blank -%}
-        "sameAs":{{ sameaslinks }}, 
-        {%- endif %}
-        "name":"{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
-        "@context":"https://schema.org"
-    }
-</script>
+            "author":
+            {
+                "@type": "Person",
+                "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}"
+            },
+            "url":"{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+            "@type":"WebSite",
+            {% if page.description -%}
+            "description":"{{ page.description }}",
+            {% else if site.description -%}
+            "description":"{{ site.description }}",
+            {%- endif -%}
+            "headline":"{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}",
+            {% if sameaslinks != blank -%}
+            "sameAs":{{ sameaslinks }}, 
+            {%- endif %}
+            "name":"{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
+            "@context":"https://schema.org"
+        }
+    </script>
 {%- endif -%}
