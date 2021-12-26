@@ -2,8 +2,6 @@
 layout: about
 title: about
 permalink: /
-description: This is a description that is used in meta tags and will show up in search engine results.
-
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
