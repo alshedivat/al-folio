@@ -140,8 +140,8 @@
           "@type": "Person",
           "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}"
         },
-        "url":"{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "@type":"WebSite",
+        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+        "@type": "WebSite",
         {% if page.description -%}
         "description":"{{ page.description }}",
         {% else if site.description -%}
