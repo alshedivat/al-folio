@@ -142,11 +142,7 @@
         },
         "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
         "@type": "WebSite",
-        {% if page.description -%}
-        "description":"{{ page.description }}",
-        {% else if site.description -%}
-        "description":"{{ site.description }}",
-        {%- endif -%}
+        "description": "{%- if page.description -%}{{ page.description }}{%- else if site.description -%}{{ site.description }}{%- endif -%}",
         "headline": "{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}",
         {% if sameaslinks != blank -%}
         "sameAs": {{ sameaslinks }}, 
