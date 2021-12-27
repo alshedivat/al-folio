@@ -1,0 +1,20 @@
+---
+layout: post
+title: vie bien remplie
+date: 2018-01-27 22:10i:00
+tags: python
+---
+
+There are two best feelings you can experience while doing a PhD: when you get something working and get something done. With great caution, but secretly jumping with joy, I am pleased to say my list of ‘PhD things done’ has become a bit bigger. On 10 January I had finally presented my recommendations for updating the [UKCA](https://www.ukca.ac.uk/wiki/index.php/UKCA)’s tropospheric chemistry mechanism to the OXBUDS project group. These updates should improve the ability of this global chemistry-climate model to simulate tropospheric ozone, albeit we are not expecting this improvement to be as prominent as it is in a box model environment. In any case, the material for one chapter of my thesis is created, discussed and now is ready to be written in prose.
+
+Speaking of prose, the abstract for my first EGU conference was accepted, and on 20 February I will know if my prose gets a chance to be converted into a talk.
+
+In addition to my PhD I was lately involved in organising the Atmospheric and Marine Biogeochemistry (AMB) seminars here, at the School of Environmental Sciences at UEA. These seminars are held every Monday during term time, and are a mixture of talks from internal and external speakers whose research is within or related to atmospheric and marine biogeochemistry. Together with Matthew Bone and Marcus Koehler we managed to get through the autumn semester; Marcus and me are chairing now, and I am happy to say (not to jinx it) that yesterday the summer semester got fully booked!
+
+AMB seminars are somewhat related to the [AtmosChemUEA twitter account](https://twitter.com/atmoschemuea), which Mike Newland and me set up back in November 2015. I am still maintaining it, although the idea is that everyone from the UEA atmospheric chemistry group can contribute. Over the years we shared quite a few photos and tweets, but the account is nowhere near being as popular as other similar ones. I guess people at UEA are just very modest, but, hopefully, with time we will all learn to effectively use this popular platform for communicating our science.
+
+What is becoming popular at UEA is Python. It started with my husband [Denis Sergeev](https://dennissergeev.github.io/) spreading the word about Python and founding the [UEAPY group](https://ueapy.github.io/), and subsequently grew into organising two Python training courses supported by the EnvEast Doctoral Training Partnership and the [Centre for Environment Fisheries and Aquaculture Science (Cefas)](https://www.gov.uk/government/organisations/centre-for-environment-fisheries-and-aquaculture-science). A year ago I was a student on the first such course, but this year I was a lecturer giving an introduction to matplotlib. All lectures, accompanying exercises and installation instructions can be found on the [Python course 2018](https://ueapy.github.io/pythoncourse2018/) Github page.
+
+To top it all up, on 21 January I gave a [short talk about the networkx package](https://ueapy.github.io/introduction-to-networkx.html) to the UEAPY group. Despite that this package was not originally designed for network visualisation, I found it useful for my amateur attempt to draw the linkages between species in the same subset of tropospheric chemistry from the [Master Chemical Mechanism (MCM)](http://mcm.york.ac.uk/home.htt) and the [Common Representative Intermediates (CRI) Mechanism](http://cri.york.ac.uk/). For inorganic plus C1-C5 alkane oxidation chemistry the MCM requires 507 species and 1649 reactions, the CRI needs 82 species and 288 reactions. These numbers tell you that the MCM is obviously more explicit than the CRI, but they do not carry any information about the reactivity of species (in this context the number of reactions a species is involved in). This kind of information you can get and analyse by looking at a chemical mechanism from a network point of view, but my PhD is not about that, so I am keeping this side project in my sandbox.
+
+C’est ma vie scientifique. Vie bien remplie, mais intéressante. (started to learn French)
