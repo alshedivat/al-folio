@@ -69,8 +69,7 @@ stackoverflow_id: #your stackoverflow id
 
 rss_icon: true
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note:
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
@@ -79,8 +78,8 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: Notes # your blog must have a name for it to show up in the nav bar
+blog_description: 
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -88,7 +87,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------
@@ -99,10 +98,10 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
     permalink: /news/:path/
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
 
 news_limit: 5
@@ -183,8 +182,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Zamyatina
+  first_name: [Maria, M., M. Yu.]
 
   style: apa
   locale: en

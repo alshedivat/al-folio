@@ -2,23 +2,17 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Postdoctoral Research Fellow at the <a href="https://emps.exeter.ac.uk/physics-astronomy/">University of Exeter</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: mzamyatina_profile.jpg
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My name is Maria Zamyatina, and I am a postdoctoral research fellow at the [School of Physics and Astronomy](https://emps.exeter.ac.uk/physics-astronomy/) of the University of Exeter. This is my personal website, where I document my research and science-related activities on the web.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am an atmospheric chemist with a background in meteorology. In my recently obtained PhD, I explored the global and localised impacts of the chemistry of a group of important reservoirs of reactive nitrogen, alkyl nitrates, on the composition of the Earth’s troposphere. I worked with a global 3D chemistry-climate model UM-UKCA, implementing new alkyl nitrate chemistry and oceanic and biomass burning emissions and validating the model against aircraft observations from the Atmospheric Tomography mission. As a postdoc, I investigate the chemical composition of hydrogen dominated gas giant exoplanets, with a focus on high altitudes, where photodissociation and photoionisation determine the atmospheric composition of such exoplanets.
