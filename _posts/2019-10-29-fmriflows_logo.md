@@ -43,7 +43,7 @@ First, I explored different starting points for the color gradient.
 
 <br>
 
-I then wrote a little script that slowely shifts the gradient coloring to give the impression of a constant flow. To better explore which colormap to use, I created a few examples.
+I then wrote a little script that slowly shifts the gradient coloring to give the impression of a constant flow. To better explore which colormap to use, I created a few examples.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
