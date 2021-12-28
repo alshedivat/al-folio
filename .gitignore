@@ -1,10 +1,11 @@
-_site
+.DS_store
 .bundle
-.sass-cache
+.ipynb_checkpoints
 .jekyll-cache
 .jekyll-metadata
-.DS_store
 .ruby-version
+.sass-cache
 .tweet-cache
 Gemfile.lock
+_site
 vendor
