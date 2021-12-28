@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Me
+title: About
 permalink: /
 description: <a href="https://www.bowdoin.edu/academics/research/index.html">Bowdoin College</a> Postdoctoral Research Associate
 
