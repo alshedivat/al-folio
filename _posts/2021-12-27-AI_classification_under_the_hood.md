@@ -57,7 +57,7 @@ for i, ax in enumerate(axes.flatten()):
 plt.tight_layout()
 ```
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/ai_classifier_under_hood/output_6_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/01_ai_classifier_under_hood/output_6_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
 
 Looking at these images we can see that some categories look rather homogenious, while others are quite diverse. So let's take a closer look at these target categories (i.e. classes) and how they might relate to each other.
 
@@ -77,7 +77,7 @@ for i, ax in enumerate(axes.flatten()):
 plt.show()
 ```
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/ai_classifier_under_hood/output_8_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/01_ai_classifier_under_hood/output_8_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
 
 As we assumed, categories like `Trouser`, `Pullover` and `T-shirt/top` are rather heterogenous (i.e. sharp), while `Dress`, `Sandal` and `Bag` are a bit vague.
 
@@ -104,7 +104,7 @@ cm.cax.set_visible(False)
 plt.show()
 ```
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/ai_classifier_under_hood/output_10_0.png" data-zoomable width=500px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/01_ai_classifier_under_hood/output_10_0.png" data-zoomable width=500px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
 
 Great, there seems to be some structure. Given this correlation matrix, we could assume that a machine learning model will have more problem to differentiate `Shirt`, `Pullover` and `Coat` from one another than from other classes. Similar thing for `Sandal` and `Sneakers`, etc.
 
@@ -196,7 +196,7 @@ from IPython.display import Image
 Image(url="umap_animation.gif")
 ```
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/ai_classifier_under_hood/umap_animation.gif" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/01_ai_classifier_under_hood/umap_animation.gif" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
 
 Nice, isn't it? What is especially nice to see is that the UMAP projection supports our assumption from the hierarchically-clustered heatmap from before. Or in other words, target classes that are highly correlated with each other also seem to overlap on the lower-dimensional manifold.
 
@@ -262,7 +262,7 @@ for i, ax in enumerate(axes.flatten()):
 plt.tight_layout()
 ```
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/ai_classifier_under_hood/output_23_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/01_ai_classifier_under_hood/output_23_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
 
 ## Model creation
 
@@ -357,7 +357,7 @@ def plot_first_layer_kernels(kernels, title=None):
 plot_first_layer_kernels(model.get_weights()[0])
 ```
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/ai_classifier_under_hood/output_31_0.png" data-zoomable width=400px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/01_ai_classifier_under_hood/output_31_0.png" data-zoomable width=400px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
 
 This is a picture of the first 16 convolutional kernels (or filters). In other words, what the CNN sees (or looks for) in the very first input layer.
 
@@ -425,7 +425,7 @@ def predict_single_image(model, x_test, y_te, labels, idx=0):
 predict_single_image(model, x_test, y_te, labels, idx=16)
 ```
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/ai_classifier_under_hood/output_34_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/01_ai_classifier_under_hood/output_34_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
 
 The illustration above shows with which class probability this untrained CNN would predict the dog shown in the image.
 
@@ -513,7 +513,7 @@ def predict_multiple_images(
 predict_multiple_images(model, x_test, y_te, labels, nimg=6, seed=0, title_idx=-1)
 ```
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/ai_classifier_under_hood/output_35_0.jpg" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/01_ai_classifier_under_hood/output_35_0.jpg" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
 
 This is the same plot as with the dog above, but this time for six different images. The blue bar shows the probability of the class it should have predicted and the red one, the class probability of the wrongly predicted class. For now, all of these probabilities are at 10%, i.e. chance level.
 
@@ -636,7 +636,7 @@ from IPython.display import Image
 Image(url="cnn_training.gif")
 ```
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/ai_classifier_under_hood/cnn_training.gif" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/01_ai_classifier_under_hood/cnn_training.gif" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
 
 What we can see here is the learning of a convolutional neural network model, in action. On the **left**, we can see the different convolutions (also called kernels), the neural network is learning. These are the particular features the network tries to find (e.g. horizontal lines, color shifts from red to green, circular patterns, etc.). In the **middle** we can see how each of these convolutions sees the puppy image from before, and on the **right** we can see how the overall accuracy of the model (on the training and validation set) slowly increases through the 48 epochs we trained the network for.
 
@@ -646,7 +646,7 @@ To verify that the model improved its prediction capability, let's take another 
 predict_single_image(model, x_test, y_te, labels, idx=16)
 ```
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/ai_classifier_under_hood/output_46_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/01_ai_classifier_under_hood/output_46_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
 
 Much better! Actually, when we compute the overall accuracy this model would reach on a never before seen test set of 10'000 images, it reaches an average prediction accuracy of 65.89%.
 
@@ -677,4 +677,4 @@ from IPython.display import Image
 Image(url="cnn_predictions.gif")
 ```
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/ai_classifier_under_hood/cnn_predictions.gif" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
+<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/01_ai_classifier_under_hood/cnn_predictions.gif" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
