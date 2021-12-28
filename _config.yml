@@ -79,9 +79,9 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: # your blog must have a name for it to show up in the nav bar
+blog_name: blog # your blog must have a name for it to show up in the nav bar
 blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+permalink: /:blog/:year/:title/
 
 # Pagination
 pagination:
