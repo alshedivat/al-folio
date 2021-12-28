@@ -8,6 +8,7 @@ description: Looking under the hood of machine learning routines while they lear
 ## Looking under the hood of machine learning routines while they learn about fashion.
 
 *[Find the Jupyter Notebook to this article [here](https://github.com/miykael/miykael.github.io/blob/master/assets/nb/01_ai_classifier_under_hood/nb_image_classification_mnist_fashion.ipynb).]*
+
 ---
 
 There exist already many tutorial and demos that show nicely how machine learning routines can learn from images and do wondrous tasks. And so, this article is not about what they can do, nor about the code to get there, but about what's happening while the machines are learning.
