@@ -7,7 +7,7 @@ first_name: Syanah
 middle_name: C.
 last_name: Wynn
 email: swynn@bowdoin.edu
-description: # the ">" symbol means to ignore newlines until "footer_text:"
+description: Website of Syanah Wynn # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
