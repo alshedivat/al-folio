@@ -70,7 +70,7 @@ stackoverflow_id: #your stackoverflow id
 rss_icon: true
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Best way to reach me is through e-mail.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
@@ -79,9 +79,9 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
+blog_name: About me # your blog must have a name for it to show up in the nav bar
 blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+permalink: /aboutme/:year/:title/
 
 # Pagination
 pagination:
