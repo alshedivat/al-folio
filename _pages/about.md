@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-permalink: /about/
+permalink: /
 description: <a href="https://www.bowdoin.edu/academics/research/index.html">Bowdoin College</a> Postdoctoral Research Associate
 
 profile:
