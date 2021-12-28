@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Privacy Preserving Data Sharing for Connected Autonamous Vehicles
-description: The goal of this project to study data sharing problems related to privacy and safety for Connected Autonamous Vehicles (CAV). 
+description: The goal of this project to design privacy preserving data sharing strategies for connected autonamous vehicles (CAV). 
 img: /assets/img/connected_vehicles.jpg
 importance: 2
 ---
