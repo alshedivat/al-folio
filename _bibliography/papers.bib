@@ -1,72 +1,80 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
+@article{2021weasul,
+  selected={true},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+  author    = {Catarina Bel{\'{e}}m and
+               Vladimir Balayan and
+               Pedro Saleiro and
+               Pedro Bizarro},
+  title     = {Weakly Supervised Multi-task Learning for Concept-based Explainability},
+  journal   = {ICLR 2021 - WeaSuL Workshop},
+  year      = {2021},
+  abstract  = {In ML-aided decision-making tasks, such as fraud detection or medical diagnosis, the human-in-the-loop, usually a domain-expert without technical ML knowledge, prefers high-level concept-based explanations instead of low-level explanations based on model features. To obtain faithful concept-based explanations, we leverage multi-task learning to train a neural network that jointly learns to predict a decision task based on the predictions of a precedent explainability task (i.e., multi-label concepts). There are two main challenges to overcome: concept label scarcity and the joint learning. To address both, we propose to: i) use expert rules to generate a large dataset of noisy concept labels, and ii) apply two distinct multi-task learning strategies combining noisy and golden labels. We compare these strategies with a fully supervised approach in a real-world fraud detection application with few golden labels available for the explainability task. With improvements of 9.26% and of 417.8% at the explainability and decision tasks, respectively, our results show it is possible to improve performance at both tasks by combining labels of heterogeneous quality.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@article{2O21fairband,
+  selected={true},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+  author    = {Andr{\'{e}} F. Cruz and
+               Pedro Saleiro and
+               Catarina Bel{\'{e}}m and
+               Carlos Soares and
+               Pedro Bizarro},
+  title     = {Promoting Fairness through Hyperparameter Optimization},
+  journal   = {CoRR},
+  volume    = {abs/2103.12715},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2103.12715},
+  eprinttype = {arXiv},
+  eprint    = {2103.12715},
+  timestamp = {Thu, 14 Oct 2021 09:16:02 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2103-12715.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  abstract  = {Considerable research effort has been guided towards algorithmic fairness but real-world adoption of bias reduction techniques is still scarce. Existing methods are either metric- or model-specific, require access to sensitive attributes at inference time, or carry high development and deployment costs. This work explores, in the context of a real-world fraud detection application, the unfairness that emerges from traditional ML model development, and how to mitigate it with a simple and easily deployed intervention: fairness-aware hyperparameter optimization (HO). We propose and evaluate fairness-aware variants of three popular HO algorithms: Fair Random Search, Fair TPE, and Fairband. Our method enables practitioners to adapt pre-existing business operations to accommodate fairness objectives in a frictionless way and with controllable fairness-accuracy trade-offs. Additionally, it can be coupled with existing bias reduction techniques to tune their hyperparameters. We validate our approach on a real-world bank account opening fraud use case, as well as on three datasets from the fairness literature. Results show that, without extra training cost, it is feasible to find models with 111% average fairness increase and just 6% decrease in predictive accuracy, when compared to standard fairness-blind HO.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@inproceedings{10.1145/3442188.3445941,
+  selected={true},
+  bibtex_show={true},
+  abbr={FAccT},
+  author = {Jesus, S\'{e}rgio and Bel\'{e}m, Catarina and Balayan, Vladimir and Bento, Jo\~{a}o and Saleiro, Pedro and Bizarro, Pedro and Gama, Jo\~{a}o},
+  title = {How Can I Choose an Explainer? An Application-Grounded Evaluation of Post-Hoc Explanations},
+  year = {2021},
+  isbn = {9781450383097},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3442188.3445941},
+  doi = {10.1145/3442188.3445941},
+  abstract = {There have been several research works proposing new Explainable AI (XAI) methods designed to generate model explanations having specific properties, or desiderata, such as fidelity, robustness, or human-interpretability. However, explanations are seldom evaluated based on their true practical impact on decision-making tasks. Without that assessment, explanations might be chosen that, in fact, hurt the overall performance of the combined system of ML model + end-users. This study aims to bridge this gap by proposing XAI Test, an application-grounded evaluation methodology tailored to isolate the impact of providing the end-user with different levels of information. We conducted an experiment following XAI Test to evaluate three popular XAI methods - LIME, SHAP, and TreeInterpreter - on a real-world fraud detection task, with real data, a deployed ML model, and fraud analysts. During the experiment, we gradually increased the information provided to the fraud analysts in three stages: Data Only, i.e., just transaction data without access to model score nor explanations, Data + ML Model Score, and Data + ML Model Score + Explanations. Using strong statistical analysis, we show that, in general, these popular explainers have a worse impact than desired. Some of the conclusion highlights include: i) showing Data Only results in the highest decision accuracy and the slowest decision time among all variants tested, ii) all the explainers improve accuracy over the Data + ML Model Score variant but still result in lower accuracy when compared with Data Only; iii) LIME was the least preferred by users, probably due to its substantially lower variability of explanations from case to case.},
+  booktitle = {Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency},
+  pages = {805–815},
+  numpages = {11},
+  keywords = {XAI, Evaluation, Explainability, LIME, SHAP, User Study},
+  location = {Virtual Event, Canada},
+  series = {FAccT '21}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{balayan2020teaching,
+  bibtex_show={true},
+  title={Teaching the Machine to Explain Itself using Domain Knowledge}, 
+  author={Vladimir Balayan and Pedro Saleiro and Catarina Belém and Ludwig Krippahl and Pedro Bizarro},
+  year={2020},
+  eprint={2012.01932},
+  archivePrefix={arXiv},
+  journal   = {NeurIPS Workshop on Human And Model in the Loop Evaluation and Training Strategies (HAMLETS). 2020 Workshop},
+  primaryClass={cs.LG},
+  abstract={Machine Learning (ML) has been increasingly used to aid humans to make better and faster decisions. However, non-technical humans-in-the-loop struggle to comprehend the rationale behind model predictions, hindering trust in algorithmic decision-making systems. Considerable research work on AI explainability attempts to win back trust in AI systems by developing explanation methods but there is still no major breakthrough. At the same time, popular explanation methods (e.g., LIME, and SHAP) produce explanations that are very hard to understand for non-data scientist persona. To address this, we present JOEL, a neural network-based framework to jointly learn a decision-making task and associated explanations that convey domain knowledge. JOEL is tailored to human-in-the-loop domain experts that lack deep technical ML knowledge, providing high-level insights about the model's predictions that very much resemble the experts' own reasoning. Moreover, we collect the domain feedback from a pool of certified experts and use it to ameliorate the model (human teaching), hence promoting seamless and better suited explanations. Lastly, we resort to semantic mappings between legacy expert systems and domain taxonomies to automatically annotate a bootstrap training set, overcoming the absence of concept-based human annotations. We validate JOEL empirically on a real-world fraud detection dataset. We show that JOEL can generalize the explanations from the bootstrap dataset. Furthermore, obtained results indicate that human teaching can further improve the explanations prediction quality by approximately $13.57\%$.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@Inproceedings{CatarinaGarciaBelem_5_2019,
+   author = "Catarina Garcia Bel{\'e}m and Lu{\'\i}s Santos and Ant{\'o}nio Menezes Leit{\~a}o",
+   title = "On the Impact of Machine Learning: Architecture without Architects?",
+   booktitle = "“Hello, Culture”: Proceedings of the 18th Computer-Aided Architectural Design Futures (CAAD Futures) Conference",
+   pages = "148–167",
+   location = "Graduate School of Culture Technology, Daejeon, So",
+   year = 2019,
+   month = may,
+   BibTexOrigem = "15189 www.Inesc-ID.pt 2021-12-28"
 }

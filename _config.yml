@@ -14,7 +14,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🔥 # the emoji used as the favicon
+icon: 🌴 # the emoji used as the favicon
 url: https://pastelbelem8.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
@@ -51,9 +51,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: PastelBelem8 # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: catarinablem # your Twitter handle
+twitter_username: CatarinaBelm # your Twitter handle
 linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: nMwgV2UAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -187,8 +187,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Belem
+  first_name: [Catarina, C.]
 
   style: apa
   locale: en
@@ -251,7 +251,7 @@ enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
+enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
