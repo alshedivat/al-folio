@@ -49,7 +49,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: SyanahWynn # your GitHub user name
+github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: @SyanahWynn # your Twitter handle
 linkedin_username: # your LinkedIn user name
@@ -57,7 +57,7 @@ scholar_userid: # your Google Scholar ID
 orcid_id: 0000-0002-8002-9772 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
-publons_id: syanah-c-wynn # your ID on Publons
+publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
@@ -69,7 +69,7 @@ stackoverflow_id: #your stackoverflow id
 rss_icon: true
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to reach me is through e-mail.
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
