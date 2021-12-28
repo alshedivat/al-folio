@@ -2,23 +2,23 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: 1st year PhD student @ <a href="https://www.ics.uci.edu/~smyth/research_group.html">DataLab</a> & <a href="https://ucinlp.github.io/">UCI-nlp</a> | Organizer @ <a href="https://www.meetup.com/pt-BR/Deep-Learning-Sessions-Lisboa/">DLSPT</a> #uci-nlp | datalab | DLSPT
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>4059</p>
+    <p>Donald Bren Hall</p>
+    <p>Irvine, California 92617</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I am a CS Ph.D. student at University of California, Irvine (UCI), supervised by [Padhraic Smyth](https://www.ics.uci.edu/~smyth/) and [Sameer Singh](https://sameersingh.org/). my research focuses on the responsible use of generative-based language models (LM) for natural language tasks.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Prior to joining UCI, I worked as a research data scientist at the Responsible AI (FATE) group at Feedzai, under the direction of [Pedro Saleiro](https://www.linkedin.com/in/saleiro/?originalSubdomain=pt). There, my research focused mostly fairness, explainability, and reproducibility aspects of Machine Learning (ML) pipelines in the context of credit fraud.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am currently interested in Responsible AI challenges both for tabular and textual datasets, with a high emphasis on the practical implications for the different personas involved in-the-loop. I am also broadly interested in multi-objective optimization and model analysis/evaluation. My work is supported by a CS Department Excellence Fellowship and a Fulbright fellowship.
