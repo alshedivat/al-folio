@@ -49,9 +49,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: PastelBelem8# your GitHub user name
+github_username: PastelBelem8 # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: catarinablem# your Twitter handle
+twitter_username: catarinablem # your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
@@ -71,15 +71,18 @@ rss_icon: false
 contact_note: >
   Feel free to email me anytime!
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
-panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
+# google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: #UA-XXXXXXXXX # out your google-analytics code
+
+#panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
+panelbear_analytics: # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: A-RedHead-In-USA  # your blog must have a name for it to show up in the nav bar
+blog_description: A few random notes.
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -87,7 +90,9 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+#disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: #al-folio # put your disqus shortname
+
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------
