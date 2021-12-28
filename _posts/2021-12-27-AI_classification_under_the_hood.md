@@ -2,12 +2,12 @@
 layout: post
 title:  Watch how AI learns to classify images
 date:   2021-12-27 12:00:00
-description: Looking under the hood of machine learning routines while they learn about fashion.
+description: Looking under the hood of machine learning routines while they learn about things.
 ---
 
-## Looking under the hood of machine learning routines while they learn about fashion.
+## Looking under the hood of machine learning routines while they learn about things.
 
-*[Find the Jupyter Notebook to this article [here](https://github.com/miykael/miykael.github.io/blob/master/assets/nb/01_ai_classifier_under_hood/nb_image_classification_mnist_fashion.ipynb).]*
+*[Find the Jupyter Notebook to this article [here](https://github.com/miykael/miykael.github.io/blob/master/assets/nb/01_ai_classifier_under_hood/nb_ai_classification_under_the_hood.ipynb).]*
 
 ---
 
