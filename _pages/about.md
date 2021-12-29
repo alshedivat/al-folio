@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: Postdoctoral Research Associate at <a href="https://www.bowdoin.edu/academics/research/index.html">Bowdoin College</a> 
+description: Postdoctoral Research Associate at <a href="https://www.bowdoin.edu/academics/research/index.html">Bowdoin College</a>   <i><small>she/her</small></i>
 
 profile:
   align: right
