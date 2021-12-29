@@ -1,3 +1,3 @@
 1. Make a reference to the image in the bibligraphy (abbr field)
-2. Link the bib reference to the image name
-3. Paste the image here
+2. Link the bib reference to the image name in "/_data/pubimg.yaml"
+3. Paste the image in this folder "/assets/pubimg"
