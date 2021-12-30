@@ -13,7 +13,7 @@ profile:
     <p>University of Delaware</p>
     <p>Newark, DE, 19711</p>
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
@@ -29,7 +29,7 @@ I have enthusiasm for appling mathematics to practical problems in different dis
 <hr>
 
 <h3>Research Interests</h3>
-Optimal transport and its applications in Continual/Lifelong learning; Graph Embedding.
+Computational optimal transport and its applications in continual/lifelong learning, and incremental learning.
 <br>
 <br>
 <hr>
