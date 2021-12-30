@@ -18,13 +18,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-
-
 I have enthusiasm for appling mathematics to practical problems in different disciplines. My graduate work mainly focuses on developing theoratical tools in optimal transport for problems in network information theory and machine learning. Besides my theoretical background, I am capable of implementing my ideas using programing languages like Python, Matlab, Julia. 
 
 <br>
 <br>
-<a href="cv.pdf">Curriculum Vitae</a><br>
+<a href="intro/Yikun_CV.pdf">Curriculum Vitae</a><br>
 <br>
 <hr>
 
