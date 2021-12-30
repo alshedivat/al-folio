@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-06-02 16:11:00-0400
-inline: false
+inline: true
 ---
 Our paper [Understanding Entropic Regularization in GANs](https://ieeexplore.ieee.org/abstract/document/9517791) has been accepted by [ISIT 2021](https://2021.ieee-isit.org/)
 
