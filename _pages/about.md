@@ -28,6 +28,13 @@ I have enthusiasm for appling mathematics to practical problems in different dis
 <br>
 <hr>
 
+<h3>Research Interests</h3>
+Optimal transport and its applications in Continual/Lifelong learning; Graph Embedding.
+<br>
+<br>
+<hr>
+
+
 
 
 <!---- `prof_pic.jpg` and put it in the `img/` folder.
