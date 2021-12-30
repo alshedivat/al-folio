@@ -24,7 +24,7 @@ I have enthusiasm for appling mathematics to practical problems in different dis
 
 <br>
 <br>
-<a href="..\intro\Yikun_CV.pdf">Curriculum Vitae</a><br>
+<a href="../intro/Yikun_CV.pdf">Curriculum Vitae</a><br>
 <br>
 <hr>
 
