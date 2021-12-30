@@ -85,7 +85,7 @@ permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false #true
 
 # Comments
 disqus_shortname: al-folio # put your disqus shortname
