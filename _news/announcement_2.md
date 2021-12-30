@@ -1,13 +1,13 @@
 ---
 layout: post
-title: A long announcement with details
 date: 2021-06-02 16:11:00-0400
 inline: false
 ---
-
-06/2021: Our paper [Understanding Entropic Regularization in GANs](https://ieeexplore.ieee.org/abstract/document/9517791) has been accepted by [ISIT 2021](https://2021.ieee-isit.org/)
+Our paper [Understanding Entropic Regularization in GANs](https://ieeexplore.ieee.org/abstract/document/9517791) has been accepted by [ISIT 2021](https://2021.ieee-isit.org/)
 
 <!---
+title: A long announcement with details
+
 Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
 
 ***
