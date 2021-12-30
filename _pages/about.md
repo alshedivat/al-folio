@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: ECE Ph.D. Candidate @ [University of Delaware](https://www.udel.edu/)
+description: ECE Ph.D. Candidate @ University of Delaware
 
 
 profile:
@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I have enthusiasm for appling mathematics to practical problems in different disciplines. My graduate work mainly focuses on developing theoratical results in optimal transport theory for problems in measure concentration, network information theory and machine learning theory. Besides my theoretical background, I am capable of implementing my ideas using programing languages like Python, Matlab, etc. 
+I have enthusiasm for applying mathematics to practical problems in different disciplines. My graduate work mainly focuses on developing theoretical results in optimal transport theory for problems in measure concentration, network information theory, and machine learning theory. Besides my theoretical background, I am capable of implementing my ideas using programming languages like Python, Matlab, etc. 
 
 
 
@@ -29,7 +29,7 @@ I have enthusiasm for appling mathematics to practical problems in different dis
 <hr>
 
 <h3>Research Interests</h3>
-Optimal transport and its applications in continual/lifelong learning, incremental learning, and geometric deep learning.
+Optimal transport and its applications in continual/lifelong learning, transformation learning, and graphic deep learning. 
 <br>
 <br>
 <hr>
