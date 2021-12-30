@@ -2131,7 +2131,7 @@ d-appendix > distill-appendix {
 }
 
 .citation {
-  color: hsla(206, 90%, 20%, 0.7);
+  color: grey;
 }
 
 .citation-number {
@@ -2139,7 +2139,7 @@ d-appendix > distill-appendix {
   white-space: nowrap;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", Helvetica, sans-serif;
   font-size: 75%;
-  color: hsla(206, 90%, 20%, 0.7);
+  color: grey;
   display: inline-block;
   line-height: 1.1em;
   text-align: center;
@@ -4430,6 +4430,7 @@ d-footnote-list a.footnote-backlink {
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   box-sizing: border-box;
+  color: black;
 
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
