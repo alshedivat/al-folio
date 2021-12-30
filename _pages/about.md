@@ -2,14 +2,15 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
-
+---
+# description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+---
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>322</p>
-    <p></p>Ewing Hall
+    <p>Evans Hall</p>
+    <p>University of Delaware</p>
     <p>Newark, DE 19711</p>
 
 news: true  # includes a list of news items
