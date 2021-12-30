@@ -11,7 +11,7 @@ profile:
   address: >
     <p>Evans Hall</p>
     <p>University of Delaware</p>
-    <p>Newark, DE 19711</p>
+    <p>Newark, DE, 19711</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
