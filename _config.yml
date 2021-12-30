@@ -79,13 +79,13 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Baio  # your blog must have a name for it to show up in the nav bar
+blog_name: blank #Baio  # your blog must have a name for it to show up in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: false #true
+  enabled: true
 
 # Comments
 disqus_shortname: al-folio # put your disqus shortname
