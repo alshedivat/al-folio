@@ -116,6 +116,7 @@ keep_files:
   - .nojekyll
   - .git
 # Plug-ins
+
 plugins:
   - jekyll-archives
   - jekyll-diagrams
@@ -130,6 +131,7 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
   - jekyll-get-json
+
 
 # Sitemap settings
 defaults:
@@ -224,6 +226,7 @@ enable_medium_zoom:         true   # enables image zoom feature (as on medium.co
 jekyll_get_json:
   - data: gscholar
     json: 'https://cse.bth.se/~fer/googlescholar-api/googlescholar.php?user=XNaNgkwAAAAJ'
+
 
 
 # -----------------------------------------------------------------------------
