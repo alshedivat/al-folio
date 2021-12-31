@@ -5,6 +5,8 @@ $(document).ready(function() {
             .setAttribute("style", "color: var(--global-theme-color);");
         footnote.shadowRoot.querySelector("d-hover-box").shadowRoot.querySelector("style").sheet
             .insertRule(".panel {background-color: var(--global-bg-color) !important;}");
+        footnote.shadowRoot.querySelector("d-hover-box").shadowRoot.querySelector("style").sheet
+            .insertRule(".panel {border-color: var(--global-divider-color) !important;}");
     });
     // Override styles of the citations.
     document.querySelectorAll("d-cite").forEach(function(cite) {
@@ -16,5 +18,7 @@ $(document).ready(function() {
             .insertRule("ul li a:hover {color: var(--global-theme-color) !important;}");
         cite.shadowRoot.querySelector("d-hover-box").shadowRoot.querySelector("style").sheet
             .insertRule(".panel {background-color: var(--global-bg-color) !important;}");
+        cite.shadowRoot.querySelector("d-hover-box").shadowRoot.querySelector("style").sheet
+            .insertRule(".panel {border-color: var(--global-divider-color) !important;}");
     });
 })
