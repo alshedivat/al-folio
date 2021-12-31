@@ -2,7 +2,11 @@
 layout: about
 title: about
 permalink: /
+<<<<<<< HEAD
 description: <a href="https://www.college-de-france.fr/site/en-college/index.htm">Collège de France</a> and <a href="https://www.parisschoolofeconomics.eu/en/">Paris School of Economics</a> (PSE)
+=======
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+>>>>>>> b950fc3 (Better SEO, OpenGraph, schema.org and clean generated code (#481))
 
 profile:
   align: right
