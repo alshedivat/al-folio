@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: ECE Ph.D. Candidate @ <a href="http://google.com"> University of Delaware </a>
+description: ECE Ph.D. Candidate @ <a href="https://www.udel.edu/"> University of Delaware </a>
 
 
 profile:
