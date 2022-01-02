@@ -27,7 +27,7 @@ This offers us a unique opportunity for feature engineering. Instead of sticking
 
 # The data set
 
-To explore this topic, let's use the augmented bloodcell dataset (see original [paper](https://www.sciencedirect.com/science/article/pii/S2352340920303681)) from [MedMNIST](https://medmnist.com). This dataset contains roughly 17'000 individual images from 10 different blood cell types.
+To explore this topic, let's use the augmented blood cell dataset (see original [paper](https://www.sciencedirect.com/science/article/pii/S2352340920303681)) from [MedMNIST](https://medmnist.com). This dataset contains roughly 17'000 individual images from 10 different blood cell types.
 
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/02_color_engineering_medmnist/blood_cell.jpg" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
 
@@ -44,7 +44,6 @@ from glob import glob
 import matplotlib.pyplot as plt
 from tqdm.notebook import tqdm
 import pandas as pd
-import plotly.express as px
 
 import seaborn as sns
 
