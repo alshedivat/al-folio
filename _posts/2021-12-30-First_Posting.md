@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title:  "First Posting!"
 ---
 
@@ -8,3 +8,7 @@ title:  "First Posting!"
 **Hello world**, this is my first Jekyll blog post.
 
 I hope you like it!
+
+수정좀
+
+테스트 가즈아ㅏ
