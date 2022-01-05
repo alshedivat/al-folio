@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-description: PhD student at City University of Hong Kong
+description: PhD student
+subtitle: <a href='#'>City University of Hong Kong</a>
+
 profile:
   align: right
   image: Hail_to_the_thief_cover.jpg

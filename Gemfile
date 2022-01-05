@@ -6,8 +6,8 @@ group :jekyll_plugins do
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-github-metadata'
+    gem 'jekyll-imagemagick'
     gem 'jekyll-paginate-v2'
-    gem 'jekyll-responsive-image'
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-target-blank'
@@ -15,4 +15,6 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'htmlcompressor'
+    gem 'htmlbeautifier'
 end
