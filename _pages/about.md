@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 description: My personal website.
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Algorithm Engineer
 
 profile:
   align: right
