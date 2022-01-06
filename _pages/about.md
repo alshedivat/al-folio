@@ -3,6 +3,7 @@ layout: about
 title: about
 permalink: /
 description: My personal website.
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right

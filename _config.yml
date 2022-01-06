@@ -36,10 +36,11 @@ max_width: 800px
 # TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
-# Open Graph
+# Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
@@ -139,8 +140,8 @@ plugins:
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-github-metadata
+  - jekyll-imagemagick
   - jekyll-paginate-v2
-  - jekyll-responsive-image
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-target-blank
@@ -153,9 +154,25 @@ defaults:
       path:            "assets/**/*.*"
     values:
       sitemap:         false
-
 # Extras
 github: [metadata]
+
+# -----------------------------------------------------------------------------
+# Jekyll optimization
+# -----------------------------------------------------------------------------
+
+# HTML remove comments (<!-- .... -->)
+remove_HTML_comments: false
+
+# HTML beautifier (_plugins/beautify.rb) / https://github.com/threedaymonk/htmlbeautifier
+beautify: false # This function has conflict with the code snippets, they can be displayed incorrectly
+
+# HTML minify (_plugins/minify.rb) Thanks to: https://www.ffbit.com/blog/2021/03/17/html-minification-in-jekyll.html
+minify: false
+
+# CSS/SASS minify
+sass:
+  style: compressed
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
@@ -203,21 +220,24 @@ scholar:
 
 
 # -----------------------------------------------------------------------------
-# Jekyll Responsive Images
+# Responsive WebP Images
 # -----------------------------------------------------------------------------
 
-responsive_image:
-  template: _includes/responsive_img.html
-  # Quality to use when resizing images.
-  default_quality: 80
-  sizes:
-    - width: 480
-    - width: 800
-    - width: 1400
-      quality: 90
-  # Strip EXIF and other JPEG profiles. Helps to minimize JPEG size.
-  strip: true
-
+imagemagick:
+  enabled: true
+  widths:
+    - 480
+    - 800
+    - 1400
+  input_directories:
+    - assets/img
+  input_formats:
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+    - ".tiff"
+  output_formats:
+    webp: "-quality 75%"
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
@@ -234,6 +254,8 @@ jekyll-diagrams:
 
 enable_google_analytics:    true  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
+enable_google_verification: false  # enables google site verification
+enable_bing_verification:   false  # enables bing site verification
 enable_mansory:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
