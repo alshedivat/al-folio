@@ -14,9 +14,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a computer science BSc. student at the Technion and currently working as an algorithm developer.
+I'm a computer science BSc. graduate from the Technion and currently working as an algorithm engineer.
 
-My main interest areas are autonomous systems, machine learning, and quantum physics.
+Interested in solving difficult problems which don't yet have a solution, mostly in the fields of algorithms, autonomous systems and quantum physics.
+Enjoy designing system architectures and providing end to end solutions.
+
 I also do web development and digital marketing for various businesses.
 
 Currently researching for algorithms that can predict future atrial fibrilation sessions in patients by reading their ECG signals.
