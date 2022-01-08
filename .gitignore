@@ -11,3 +11,4 @@ vendor
 *.ps1
 *.bak
 *.sav
+*.tmp
