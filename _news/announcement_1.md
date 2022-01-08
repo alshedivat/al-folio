@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: "2021-10-01"
 inline: true
 ---
 
-A simple inline announcement.
+I joined Cambridge University as a PhD student in Computer Science
