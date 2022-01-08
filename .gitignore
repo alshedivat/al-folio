@@ -10,3 +10,4 @@ Gemfile.lock
 vendor
 *.ps1
 *.bak
+*.sav

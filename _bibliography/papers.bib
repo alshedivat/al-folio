@@ -81,23 +81,24 @@
   code        = {https://www.eddy3d.com/download-information/}
 }
 
-@article{kastner2019cylindrical,
-  bibtex_show = {true},
-  abbr        = {JBPS2019.jpg},
-  title       = {A Cylindrical Meshing Methodology for Annual Urban Computational Fluid Dynamics Simulations},
+@Article{kastner2019cylindrical,
   author      = {Kastner, Patrick and Dogan, Timur},
-  journal     = {Journal of Building Performance Simulation},
-  volume      = {13},
+  title       = {A Cylindrical Meshing Methodology for Annual Urban Computational Fluid Dynamics Simulations},
+  doi         = {10.1080/19401493.2019.1692906},
   number      = {1},
   pages       = {59--68},
-  year        = {2019},
-  publisher   = {Taylor \& Francis},
+  volume      = {13},
+  abbr        = {JBPS2019.jpg},
   abstract    = {For urban CFD simulations, it is considered a best practice to use a box-shaped simulation domain. Box-shaped domains, however, show drawbacks for airflow from several wind directions as remeshing and additional preprocessing steps become necessary. We introduce a routine to create a cylindrical mesh that expedites the simulation of arbitrary wind directions using OpenFOAM. Results computed with the cylindrical domain are validated against wind tunnel data. We report that the cylindrical method yields comparable results in terms of accuracy and convergence behaviour. Further, run time comparisons in a real-world scenario are conducted to discuss its advantages and limitations. Based on the findings, we recommend using the cylindrical approach if at least eight wind directions are analyzed for which we report 18% run time savings. The cylindrical domain along with automated best practice boundary conditions has been implemented in Eddy3D –-- a plugin for Rhinoceros.},
-  website     = {https://www.eddy3d.com},
-  pdf         = {https://www.researchgate.net/publication/338030136_A_Cylindrical_Meshing_Methodology_for_Annual_Urban_Computational_Fluid_Dynamics_Simulations},
+  bibtex_show = {true},
   code        = {https://www.eddy3d.com/download-information/},
+  journal     = {Journal of Building Performance Simulation},
+  pdf         = {https://www.researchgate.net/publication/338030136_A_Cylindrical_Meshing_Methodology_for_Annual_Urban_Computational_Fluid_Dynamics_Simulations},
+  publisher   = {Taylor \& Francis},
+  selected    = {false},
   video       = {https://vimeo.com/375755947},
-  selected    = {true}
+  website     = {https://www.eddy3d.com},
+  year        = {2019},
 }
 
 @inproceedings{kastner2019towards,
@@ -132,7 +133,7 @@
   booktitle   = {SimAUD Proceedings},
   year        = {2020},
   abstract    = {Although recent advancements in computational architecture show promising capabilities, it remains difficult for architects to conduct advanced simulations due to the limited software interoperability.
-                 For thermal bridging analyses, the architectural community traditionally relies on specific software tools that are not integrated into a CAD environment. 
+                 For thermal bridging analyses, the architectural community traditionally relies on specific software tools that are not integrated into a CAD environment.
                  To integrate such analyses into the ongoing design process, we implement a software tool to run heat transfer simulations with OpenFOAM from Grasshopper and Rhinoceros.
                  This paper presents an implementation for box-shaped geometries and compares its results to a thermal bridge analysis from a validated simulation engine.
                  We show that OpenFOAM's chtMultiregionFoam solver is capable of accurately predicting temperature distributions in a geometry setup with 13 different regions and 8 different materials.
@@ -141,89 +142,65 @@
   code        = {https://github.com/kastnerp/HeatFlux}
 }
 
-@article{natanian2020energy,
-  bibtex_show = {true},
-  abbr        = {E&B2020.jpg},
-  title       = {From Energy Performative to Livable Mediterranean Cities: An Annual Outdoor Thermal Comfort and Energy Balance Cross-climatic Typological Study},
+@Article{natanian2020energy,
   author      = {Natanian, Jonathan and Kastner, Patrick and Dogan, Timur and Auer, Thomas},
-  journal     = {Journal of Energy and Buildings},
-  volume      = {224},
+  title       = {From Energy Performative to Livable Mediterranean Cities: An Annual Outdoor Thermal Comfort and Energy Balance Cross-climatic Typological Study},
+  doi         = {10.1016/j.enbuild.2020.110283},
   pages       = {110283},
-  year        = {2020},
-  publisher   = {Elsevier},
+  volume      = {224},
+  abbr        = {E&B2020.jpg},
   abstract    = {With the rise of awareness of health and well-being in cities, urban environmental analysis should expand from energy performance to new environmental quality-based considerations. The limited potential to annually evaluate outdoor thermal comfort, predominant among these considerations, has restricted the exploration of the interrelations between urban morphology and annual energy performance. This study aims to bridge this gap by capitalizing on the new capabilities of Eddy3D – a Grasshopper plugin which enables effective calculations of hourly microclimatic wind factors via OpenFOAM which in turn are used to generate annual outdoor thermal comfort plots. Using this method, a parametric study was conducted for different typology and density scenarios in three different hot climatic contexts in Israel. The automated analytical workflow evaluated a total of 60 design iterations for their energy balance, outdoor thermal comfort autonomy (OTCA) and self-shading levels using the shade index. The high correlation found here between the annual shade index and the OTCA, across all climatic contexts, shows the potential of the shade index to serve as an effective indicator, in these contexts, for comparative or optimization outdoor comfort studies. Further results are both the superiority of the courtyard typology in both energy and outdoor comfort studies, and the contrasting impact of higher density on the annual energy balance (lower performance) and outdoor thermal comfort (higher performance) in hot climates. The annual plots of both the energy balance and OTCA reveal various seasonal and monthly trends in the three different climatic zones which can lead to localized and seasonal urban design strategies.},
-  pdf         = {https://www.researchgate.net/publication/342764084_From_Energy_Performative_to_Livable_Mediterranean_Cities_An_Annual_Outdoor_Thermal_Comfort_and_Energy_Balance_Cross-Climatic_Typological_Study}
-}
-
-@article{dogan2020streamlined,
   bibtex_show = {true},
-  abbr        = {BuildingSim2020.jpg},
-  title       = {Streamlined CFD Simulation Framework to Generate Wind-pressure Coefficients on Building Facades for Airflow Network Simulations},
-  author      = {Dogan, Timur and Kastner, Patrick},
-  journal     = {Journal of Building Simulation},
-  pages       = {1--12},
+  journal     = {Journal of Energy and Buildings},
+  pdf         = {https://www.researchgate.net/publication/342764084_From_Energy_Performative_to_Livable_Mediterranean_Cities_An_Annual_Outdoor_Thermal_Comfort_and_Energy_Balance_Cross-Climatic_Typological_Study},
+  publisher   = {Elsevier},
   year        = {2020},
-  publisher   = {Tsinghua University Press},
-  abstract    = {Building energy modeling software generally comes with capable airflow network solvers for natural ventilation evaluation in multi-zone building energy models. These approaches rely on pressure coefficient arrays representing different wind directions derived from simple box-shaped buildings without contextual obstructions. For urban or obstructed sites and more complex building shapes, however, further evaluation is needed to avoid geometric oversimplification. In this study, we present an automated and easy-to-use simulation workflow for OpenFOAM-based exterior airflow simulations to generate pressure coefficient arrays for arbitrary building shapes and contextual situations. The workflow is compared to other methods commonly used to obtain pressure coefficients for natural ventilation analysis. Finally, we assess for which climate zones and building types modelers should rely on more accurate CFD-based pressure coefficients and where it may be justifiable to rely on easier and readily available analytical approaches to determine pressure coefficients. Results suggest that existing workflows lead to significant error in predicted comfort hours for climates in the global South and modelers should consider CFD based façade pressure coeficients.},
-  website     = {https://www.eddy3d.com/},
-  pdf         = {https://www.researchgate.net/publication/345942538_Streamlined_CFD_simulation_framework_to_generate_wind-pressure_coefficients_on_building_facades_for_airflow_network_simulations},
-  code        = {https://www.eddy3d.com/download-information/},
-  video       = {https://vimeo.com/375755963},
-  selected    = {false}
 }
 
-@inproceedings{dogan2018streamlined,
+@Article{dogan2020streamlined,
+  author      = {Dogan, Timur and Kastner, Patrick},
+  title       = {Streamlined CFD Simulation Framework to Generate Wind-pressure Coefficients on Building Facades for Airflow Network Simulations},
+  doi         = {10.1007/s12273-020-0727-x},
+  pages       = {1--12},
+  abbr        = {BuildingSim2020.jpg},
+  abstract    = {Building energy modeling software generally comes with capable airflow network solvers for natural ventilation evaluation in multi-zone building energy models. These approaches rely on pressure coefficient arrays representing different wind directions derived from simple box-shaped buildings without contextual obstructions. For urban or obstructed sites and more complex building shapes, however, further evaluation is needed to avoid geometric oversimplification. In this study, we present an automated and easy-to-use simulation workflow for OpenFOAM-based exterior airflow simulations to generate pressure coefficient arrays for arbitrary building shapes and contextual situations. The workflow is compared to other methods commonly used to obtain pressure coefficients for natural ventilation analysis. Finally, we assess for which climate zones and building types modelers should rely on more accurate CFD-based pressure coefficients and where it may be justifiable to rely on easier and readily available analytical approaches to determine pressure coefficients. Results suggest that existing workflows lead to significant error in predicted comfort hours for climates in the global South and modelers should consider CFD based façade pressure coeficients.},
   bibtex_show = {true},
-  abbr        = {IBPC2018.jpg},
-  title       = {Streamlined CFD Simulation Framework to Generate Wind-Pressure Coefficients on Building Facades for Airflow Network Simulations},
+  code        = {https://www.eddy3d.com/download-information/},
+  journal     = {Journal of Building Simulation},
+  pdf         = {https://www.researchgate.net/publication/345942538_Streamlined_CFD_simulation_framework_to_generate_wind-pressure_coefficients_on_building_facades_for_airflow_network_simulations},
+  publisher   = {Tsinghua University Press},
+  selected    = {false},
+  video       = {https://vimeo.com/375755963},
+  website     = {https://www.eddy3d.com/},
+  year        = {2020},
+}
+
+@InProceedings{dogan2018streamlined,
   author      = {Dogan, Timur and Kastner, Patrick},
   booktitle   = {IBPC: 7th International Building Physics Conference Proceedings},
-  year        = {2018},
+  title       = {Streamlined CFD Simulation Framework to Generate Wind-Pressure Coefficients on Building Facades for Airflow Network Simulations},
+  doi         = {10.14305/ibpc.2018.ms-5.05},
+  abbr        = {IBPC2018.jpg},
   abstract    = {Energy modeling packages such as EnergyPlus and TRNSYS come with capable airflow network solvers for natural ventilation evaluation in multi-zone building energy models. These approaches rely on pressure coefficient arrays of different wind directions based on simple box-shaped buildings without contextual obstructions. For specific sites, however, further attention is needed to avoid geometric oversimplification. In this study, we present an automated and easy-to-use simulation workflow for exterior airflow simulation based on OpenFOAM to generate pressure coefficient arrays for arbitrary building shapes and contextual situations. The workflow is compared to other methods commonly used to obtain pressure coefficients for natural ventilation simulation.},
+  bibtex_show = {true},
+  code        = {https://www.eddy3d.com/download-information/},
   pdf         = {https://www.researchgate.net/publication/328028506_Streamlined_CFD_Simulation_Framework_to_Generate_Wind-Pressure_Coefficients_on_Building_Facades_for_Airflow_Network_Simulations},
-  code        = {https://www.eddy3d.com/download-information/}
+  year        = {2018},
 }
 
-@article{altenmuller2018fighting,
-  bibtex_show = {true},
-  abbr        = {CDTM.jpg},
+@Article{altenmuller2018fighting,
+  author      = {Altenm{\"u}ller, Laurenz and Borrmann, Kim and Braun, Philip and Chen, Yingxi and D{\"u}mmling, Tobias and Feuerbacher, Christian and Fr{\"o}hlich, Michael and Gebauer, Jakob and Gebhardt, Christian and Hahn, David and Hesse, Adrian and Hülsemeyer, Christian and Juras, Peter and Kastner, Patrick and Kühl, Josephine and Marquardt, Janis and O'Donnell, MaryClare and Padmakumara, Lakmal and Patz, Martin and Cardona, FerranPla and Rambold, Lukas and Schmidtchen, Hagen and Secules, Chiara and Stanggassinger, Johannes and Wessling, Sophia and Wiggert, Marius and Bechthold, Laura and Lachner, Florian},
   title       = {Fighting Hunger in the Digital Era},
-  author      = {Altenm{\"u}ller, Laurenz 			and
-                 Borrmann, Kim                   and
-                 Braun, Philip                   and
-                 Chen, Yingxi                    and
-                 D{\"u}mmling, Tobias                and
-                 Feuerbacher, Christian          and
-                 Fr{\"o}hlich, Michael               and
-                 Gebauer, Jakob                  and
-                 Gebhardt, Christian             and
-                 Hahn, David                     and
-                 Hesse, Adrian                   and
-                 Hülsemeyer, Christian           and
-                 Juras, Peter                    and
-                 Kastner, Patrick                and
-                 Kühl, Josephine                 and
-                 Marquardt, Janis                and
-                 O'Donnell, MaryClare            and
-                 Padmakumara, Lakmal             and
-                 Patz, Martin                    and
-                 Cardona, FerranPla              and
-                 Rambold, Lukas                  and
-                 Schmidtchen, Hagen              and
-                 Secules, Chiara                 and
-                 Stanggassinger, Johannes        and
-                 Wessling, Sophia                and
-                 Wiggert, Marius                 and
-                 Bechthold, Laura                and
-                 Lachner, Florian                },
-  journal     = {Center for Digital Technology and Management (CDTM)},
   number      = {CDTM Trend Report 2016},
-  year        = {2018},
-  booktitle   = {Fighting Hunger in the Digital Era},
+  abbr        = {CDTM.jpg},
   abstract    = {This report is the result of the Trend Seminar course, which is part of the interdisciplinary add-on study program in Technology Management at CDTM. About 25 selected students of various disciplines, such as Business Administration, Economics, Psychology, Computer Science, Electrical Engineering, and more work together on a relevant topic related to ICT. Over seven intense weeks of fulltime work, the participating students dive deeply into the topic of the Trend Seminar. Working in several interdisciplinary subteams, students apply the knowledge from their main studies and learn new perspectives from their team members. They conduct trend research, develop scenarios of the future, generate ideas for innovative products or services and detail them out to concrete business concepts.},
-  website     = {https://www.cdtm.de/research/bookstore/},
+  bibtex_show = {true},
+  booktitle   = {Fighting Hunger in the Digital Era},
+  journal     = {Center for Digital Technology and Management (CDTM)},
   pdf         = {https://issuu.com/cdtm/docs/cdtm-trendreport_spring16},
-  publisher   = {Center for Digital Technology and Management}
+  publisher   = {Center for Digital Technology and Management},
+  website     = {https://www.cdtm.de/research/bookstore/},
+  year        = {2018},
 }
 
 
@@ -239,15 +216,11 @@
   pdf         = {https://www.researchgate.net/publication/346967737_Customizing_OpenFOAM_to_Assess_Wind-induced_Natural_Ventilation_Potential_of_Classrooms_A_Case_Study_for_BRAC_University}
 }
 
-
-
-@thesis{kastner2012strukturelle,
-  bibtex_show = {true},
-  abbr        = {BSc.jpg},
-  title       = {Strukturelle und elektrische Charakterisierung von multikristallinem String-Ribbon Silizium f{\"u}r die Photovoltaik},
+@Thesis{kastner2012strukturelle,
   author      = {Kastner, Patrick},
-  year        = {2012},
-  school      = {B.Sc. Thesis --- University of Erlangen-Nuremberg (FAU)},
+  title       = {Strukturelle und elektrische Charakterisierung von multikristallinem String-Ribbon Silizium f{\"u}r die Photovoltaik},
+  doi         = {http://dx.doi.org/10.13140/RG.2.2.26080.81920},
+  abbr        = {BSc.jpg},
   abstract    = {In the last decades the String-Ribbon technique has been shown as an alternative process
                  to produce multicristalline silicon wafers for the photovoltaic industry. Different researches
                  showed that one can affect and control the wafer quality by varying the process parameters.
@@ -257,7 +230,11 @@
                  large grains was investigated. The last ribbon apparently showed extensive twin regions in
                  the boundary areas.
                  The ribbons were analysed in terms of etch pit density, minority charge carrier
-                 lifetime, grain orientation, solid/liquid interface and local thickness variations.}
+                 lifetime, grain orientation, solid/liquid interface and local thickness variations.},
+  bibtex_show = {true},
+  pdf         = {https://www.researchgate.net/publication/357092181_Strukturelle_und_elektrische_Charakterisierung_von_multikristallinem_String-Ribbon_Silizium_fur_die_Photovoltaik},
+  school      = {B.Sc. Thesis --- University of Erlangen-Nuremberg (FAU)},
+  year        = {2012},
 }
 
 @thesis{kastner2009toxische,
@@ -269,6 +246,4 @@
   pdf         = {https://www.amazon.com/Eisenkonzentration-verschiedenen-Bodenhorizonten-Bodenproben-2015-09-16/dp/B01K04TMN6}
 }
 
-
-
-
+@Comment{jabref-meta: databaseType:biblatex;}

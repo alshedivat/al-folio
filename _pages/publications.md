@@ -2,16 +2,16 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: My publications  in reverse-chronological order. Please find current citations on  <a href="https://gscholar.patrickkastner.de">Google Scholar</a>.
+description:
 years: [2021, 2020, 2019, 2018, 2016, 2012, 2009]
 nav: true
 ---
 
 <div class="publications">
 
-{% for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
+My publications in reverse-chronological order. As of {{ "now" | date: '%B %d, %Y' }}, my work received {{ site.data.gscholar.total_citations }} citations. Please find most up-to-date citation metrics via <a href="https://gscholar.patrickkastner.de">Google Scholar</a>.
 
-</div>
+{% for y in page.years %}
+ <h2 class="year">{{y}}</h2>
+ {% bibliography -f papers -q @*[year={{y}}]* %}
+{% endfor %}
