@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <strong>PhD student</strong> @<a href='https://www.cl.cam.ac.uk/research/nl/'>Cambridge University</a>. <strong>Previously:</strong> <a href='https://www.bain.com/it/'>Bain & Co.</a> / <a href='https://www.bidsa.unibocconi.eu/wps/wcm/connect/Site/Bidsa/Home'>BIDSA</a> / <a href='https://www.ecb.europa.eu/home/html/index.en.html'>ECB</a>.
 
 profile:
   align: right
