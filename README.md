@@ -1,3 +1,5 @@
+conda activate job_v3s
+
 # al-folio
 
 [![build status](https://travis-ci.org/alshedivat/al-folio.svg?branch=master)](https://travis-ci.org/alshedivat/al-folio)
@@ -58,7 +60,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://julianstreyczek.github.io" target="_blank">★</a>
 <a href="https://sdaza.com" target="_blank">★</a>
 <a href="https://niweera.gq" target="_blank">★</a>
-   
+
 </td>
 </tr>
 <tr>
