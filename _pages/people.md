@@ -4,12 +4,21 @@ permalink: /people/
 title: people
 description:
 nav: true
-person_types: ["PI","PhD","Master's","Undergraduates","High School","Rotation Students", "Medical Students", "Collaborators"]
+person_types: ["PI","PhD","PhD Rotation Students","Medical Students","Master's","Undergraduates","High School Summer","Collaborators"]
 lab_types: ["Current","Former"]
 ---
 {% for lab_type in page.lab_types%}
 <h2>{{lab_type}} Lab Members</h2>
 {% for person_type in page.person_types%}
+    {% assign run_continue = true %}
+    {% for person in site.people %}
+        {% if person.type==person_type and person.lab_type==lab_type %}
+            {% assign run_continue = false %}    
+        {% endif %}
+    {% endfor %}
+    {% if run_continue %}
+        {% continue %}
+    {% endif %}
 <h3>{{person_type}}</h3>
 {% for person in site.people %}
 {% if person.type==person_type and person.lab_type==lab_type %}

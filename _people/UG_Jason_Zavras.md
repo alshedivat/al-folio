@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: people
 title: Jason Zavras
 img: /assets/img/zavras_thumbnail.png
 profile:
@@ -11,7 +11,6 @@ type: "Undergraduates"
 lab_type: "Current"
 description: Undergraduate Researcher
 ---
-<h1>{{page.title}}</h1>
 **Undergrad:** Junior QSS/Pre-Medical Student at Dartmouth College
 
 **Select Summer Projects:** TCGA Stain Normalization, Autoencoder
