@@ -4,7 +4,7 @@ title: research
 permalink: /projects/
 description: Select Levy Lab projects, of many.
 nav: true
-display_categories: [work, fun]
+display_categories: [ongoing, complete]
 horizontal: false
 ---
 

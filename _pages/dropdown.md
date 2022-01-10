@@ -9,7 +9,6 @@ children:
     - title: divider
     - title: projects
       permalink: /projects/
-    - title: students
-      permalink: /
-      students/
+    - title: people
+      permalink: /people/
 ---
