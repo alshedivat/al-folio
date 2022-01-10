@@ -20,3 +20,6 @@ description: Summer Intern 2020, Mentor 2021
 
 
 I also like to play basketball (I’m not any good) and football (no, I’m not any good) with my friends. I don’t really pay attention to the NBA or NFL, but I do sort of follow the Chiefs since I was born in Kansas and lived there for 8 years.
+
+**About me:**
+Hi, my name is Sumanth and I'm a junior at TJ. I started working with the EDIT Lab in December 2019, and I've had a great experience so far. I'm interested in many aspects of computational biology and machine learning, but I've recently mostly been working on the biomedical imaging applications of deep learning. In my free time, I'm usually playing basketball with my brother. 

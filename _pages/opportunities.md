@@ -6,7 +6,7 @@ description:
 nav: true
 ---
 [Apply for Positions Here!](#application)
-## QBS capstone internship at DHMC Department of Pathology and Laboratory Medicine
+## Internship at DHMC Department of Pathology and Laboratory Medicine
 The Department of Pathology and Laboratory Medicine at Dartmouth-Hitchcock Medical Center (Emerging Diagnostic and Investigative Technologies; EDIT) Machine Learning program has been developing, validating, and scaling artificial intelligence technologies that aim to improve clinical efficiency and patient outcomes. Our group has developed computational methods to assess and integrate a wide variety of modalities, ranging from whole slide images, to pathology text reports, metagenomic sequences, and multi-omics datatypes. Opportunities exist to develop skills to analyze these high dimensional datatypes using R, Python, and high-performance computing, communicate their findings to a clinical research audience, and gain experience in scientific writing (spearheading potential research publications).
 
 **Qualifications:** We are looking for students with a background in computer science (experience equivalent to QBS101), a familiarity/exposure in deep learning / machine learning pipelines (experience equivalent to QBS108), and an enthusiasm for doing public good through high-throughput computation.
@@ -31,7 +31,7 @@ Students will work on projects including but not limited to:
 
 **Timeline:** Applicants will be interviewed for the position during Winter 2021 and preparation for the Summer internship is expected to take place during or before Spring 2022. Research mentors will facilitate skills development and project scoping prior to the internship start date. We are also accepting students at an on-going basis that is independent of the Summer internship.
 
-## QBS capstone internship at The Levy Lab and DHMC Department of Dermatology
+## Internship at The Levy Lab and DHMC Department of Dermatology
 The Levy Lab (https://geiselmed.dartmouth.edu/epidemiology/profile/joshua-levy-phd/), in collaboration with the Department of Dermatology at Dartmouth Hitchcock Medical Center, is looking for talented students to learn how to develop and apply artificial intelligence technologies to prevent and treat skin cancer and other medical conditions of interest to our research group. Our group has developed computational methods to assess and integrate a wide variety of modalities, ranging from whole slide images, to pathology text reports, metagenomic sequences, and multi-omics datatypes. Opportunities exist to develop skills to analyze these high dimensional datatypes using R, Python, and high-performance computing, communicate their findings to a clinical research audience, and gain experience in scientific writing (spearheading potential research publications).
 
 **Qualifications:** We are looking for students with a background in computer science (minimum experience equivalent to QBS101), a familiarity/exposure in deep learning / machine learning pipelines (experience equivalent to QBS108) or significant bioinformatics experience (equivalent to QBS175/GENE111), and an enthusiasm for doing public good through high-throughput computation.
@@ -48,12 +48,13 @@ Students will work on projects including but not limited to:
 
 **Timeline:** Applicants will be interviewed for the position during Winter 2021 and preparation for the Summer internship is expected to take place during or before Spring 2022. Research mentors will facilitate skills development and project scoping prior to the internship start date. We are also accepting students at an on-going basis that is independent of the Summer internship.
 
-## QBS Bioinformatics and Genomics internship
+## Industry/Academia Bioinformatics and Genomics Internship
 The Levy Lab (https://geiselmed.dartmouth.edu/epidemiology/profile/joshua-levy-phd/) is partnering with the company Guardant Health (https://guardanthealth.com/) to host a bioinformatics and genomics focused internship for a Summer Capstone research project with research publication potential. The intern will be co-mentored by Joshua Levy, faculty in the Departments of Pathology and Dermatology at Dartmouth Hitchcock Medical Center, and Sean Gordon, Bioinformatics Manager at Guardant Health. Students will work on projects including but not limited to:
 * Establish circulating tumor biomarkers predictive of response to therapy for optimal selection of therapy through application of machine learning methodologies on omics data.
-* Biomedical text mining using Natural Language Processing.
+* Biomedical text mining using Natural Language Processing.  
 ﻿
-This opportunity is open to PhD and Master's degree students.
+
+This opportunity is open to PhD and Master's degree students, with special exceptions made for undergraduates.
 
 **Recommended/required coursework:** Students are expected to have a skillset comparable to that obtained from QBS108 (Applied Machine Learning) and QBS175/GENE111 (Bioinformatics II) prior to start of the summer internship.
 

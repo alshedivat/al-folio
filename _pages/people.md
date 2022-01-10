@@ -4,7 +4,7 @@ permalink: /people/
 title: people
 description:
 nav: true
-person_types: ["PI","PhD","PhD Rotation Students","Medical Students","Master's","Undergraduates","High School Summer","Collaborators"]
+person_types: ["PI","Collaborators","PhD","PhD Rotation Students","Medical Students","Master's","Undergraduates","High School Summer"]
 lab_types: ["Current","Former"]
 ---
 {% for lab_type in page.lab_types%}

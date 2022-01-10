@@ -2,7 +2,7 @@
 layout: page
 title: research
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Select Levy Lab projects, of many.
 nav: true
 display_categories: [work, fun]
 horizontal: false
