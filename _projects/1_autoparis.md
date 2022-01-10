@@ -26,41 +26,6 @@ Cytological diagnosis involves applying the Paris System metrics to a specimen i
 
 Computational and machine learning techniques are thus ideally suited to making urine cytology more quantitative. Morphometric techniques can be used to estimate NC ratio while Deep Learning can be used to determine cell type and atypia. These metrics combined can create an algorithm capable of automating the Paris System.
 
-### Aims / Goals
-1. To collect a large set of whole slide images (WSI) of urine cytology specimens from each of the four main Paris System diagnostic categories.
-2. To create an algorithmic method for identifying and extracting single cell images from these WSI.
-3. To develop an traditional or machine learning algorithm capable of determining the NC ratio of these single cells to a high degree of accuracy.
-4. To train a machine learning algorithm capable of identifying cell type and assigning an atypia score.
-5. To combine 3 and 4 into an automated screening algorithm.
-6. To validate the algorithm against the diagnoses of at least 2 pathologists for a large set of urine WSI.
-
-### Approach
-**WSI:** Bladder cancer cases will be identified by a free text search of the Cerner pathology EMR. Glass slides will be collected from identified cases and scanned at 40X magnification on the Leica Aperio AT2 scanner. Image will be extracted in the TIF format using the ImageScope software. These WSI will be resized by 50% and then saved as NPY files.
-
-**Single Cell Images:** FILL
-
-**NC Ratio Algorithm:** FILL
-
-**Cell Type and Atypia Algorithm:** FILL
-
-**Validation:** FILL
-
-### Deliverables
-1. Accurate automated NC ratio calculation algorithm.
-2. Machine learning algorithm for determining cell type and atypia.
-3. Combined Paris System tabulating algorithm.
-4. Validation data.
-
-### Supporting Evidence
-LIST OF ML AND CYTOMETRY REFERENCES
-
-### Potential Pitfalls
-1. NC ratio cannot be reliably calculated by automated means.
-2. Cellular features of atypia cannot be quantified by ML.
-3. ML training data is not sufficiently rich.
-4. Expert annotators cannot be acquired.
-5. Insufficient validation cases.
-
 ### Abstracts, Presentations, Manuscripts and Awards
 **Abstracts**:
 1. American Society of Cytopathology Annual Conference, Abstract, Washington DC, 2018.

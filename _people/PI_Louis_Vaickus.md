@@ -9,7 +9,7 @@ news: false
 social: false
 type: "PI"
 lab_type: "Current"
-description: Co-Head EDIT ML Lab
+description: Collaborator & Co-Head EDIT ML Lab
 ---
 Louis Vaickus and Joshua Levy co-head the EDIT Machine Learning Laboratory.
 
