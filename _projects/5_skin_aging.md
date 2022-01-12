@@ -7,7 +7,7 @@ importance: 5
 category: ongoing
 ---
 
-![skin](/assets/img/5_skinb.png)
+![skin](/levylab/assets/img/5_skinb.png)
 
 ### Scientific Premise:
 There exists cellular components of photoaging which can inform/assess sun age reversal therapies.

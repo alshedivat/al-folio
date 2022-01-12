@@ -7,7 +7,7 @@ importance: 2
 category: ongoing
 ---
 
-![he2tri](/assets/img/vtri.gif)
+![he2tri](/levylab/assets/img/vtri.gif)
 
 ### Scientific Premise:
 

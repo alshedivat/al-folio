@@ -7,7 +7,7 @@ importance: 12
 category: ongoing
 ---
 
-![fedlearn](/assets/img/12_fedlearn_b.jpg)
+![fedlearn](/levylab/assets/img/12_fedlearn_b.jpg)
 
 ### Scientific Premise:
 That an algorithmic system can be developed which can be tested to distribute training across multiple machines (federated learning), train model from encrypted data shared across multiple owners (secure multi-party compute), and evaluate obfuscated training instances on one machine to be decoded by the user (homomorphic encryption) while preserving privacy and security of hospital.

@@ -7,7 +7,7 @@ importance: 3
 category: ongoing
 ---
 
-![reports](/assets/img/3_reportsb.jpeg)
+![reports](/levylab/assets/img/3_reportsb.jpeg)
 
 ### Scientific Premise:
 That machine learning natural language processing algorithms can be employed to extract patterns from pathology reports to inform care and reimbursement and that there exists ambiguity in the text which may obfuscate findings/reimbursement.

@@ -7,7 +7,7 @@ importance: 9
 category: complete
 ---
 
-![methylnet](/assets/img/9_methylnet_b.png)
+![methylnet](/levylab/assets/img/9_methylnet_b.png)
 
 ### Scientific Premise:
 The development of and access to DNAm methods and data is becoming more widespread. DNA Methylation (DNAm) deep learning technologies have been shown to accurately characterize tissue and disease states from high-dimensional biomarkers through unsupervised embedding, generation, classification and regression tasks, while traditional DNAm association studies localize and group methylated cytosine-guanine dinucleotides (CpGs) into genomic contexts pertinent to the study and then associate these contexts with the outcome. However, deep learning approaches, which in many cases outperform the traditional statistical approaches, are still largely unable to elucidate how these contexts relate to diagnosis and prognosis. We aspire to develop methods which make DNAm deep learning methods more interpretable and accessible to the epigenetic community.

@@ -10,7 +10,7 @@ category: ongoing
 # **AutoParis Urine Cytology Screening Algorithm**
 
 <p align="center">
-    <img src="/assets/img/autoparis.gif">
+    <img src="/levylab/assets/img/autoparis.gif">
 </p>
 
 ## A hybrid morphometric and deep learning algorithm designed to automate the tabulation of the Paris System for Urine Cytology.

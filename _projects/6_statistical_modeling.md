@@ -8,7 +8,7 @@ category: ongoing
 ---
 
 <p align="center">
-    <img src="/assets/img/6_stats_b.jpeg" width="500" >
+    <img src="/levylab/assets/img/6_stats_b.jpeg" width="500" >
 </p>
 
 ### Scientific Premise:

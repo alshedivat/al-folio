@@ -69,4 +69,4 @@ This opportunity is open to PhD and Master's degree students, with special excep
 
 ## Technical Questions
 <a href="/assets/data/technical_questions_data.zip" download>Click to Download Technical Questions Data</a>
-<iframe src="/assets/pdf/EDIT_ML_Intern_Technical_Questions.pdf" style="width:800px; height:800px;"></iframe>
+<iframe src="/levylab/assets/pdf/EDIT_ML_Intern_Technical_Questions.pdf" style="width:800px; height:800px;"></iframe>
