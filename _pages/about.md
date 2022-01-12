@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic_PKU.jpg
   address: >
-    <p>未名湖，博雅塔</p>
+    <p>Weiming Lake, Bo Ya Ta, Peking University</p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
