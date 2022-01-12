@@ -2,7 +2,7 @@
 layout: page
 title: virtual trichrome
 description: synthesis of trichrome stains from H&E
-img: assets/img/3.jpg
+img: assets/img/2_trichrome.jpeg
 importance: 2
 category: ongoing
 ---
@@ -15,7 +15,7 @@ That a set of generative adversarial networks can trained with imperfectly regis
 
 ### Motivation:
 
-Non-alcoholic steatohepatitis (NASH) is a prevalent liver inflammation disease that affects over 16 million US adults. Patients diagnosed with NASH have no alcoholic, genetic, metabolic, or medication-based causes for hepatitis and typically experience progressive liver injury and fibrosis. NASH can lead to cirrhosis which places a significant financial toll on the healthcare system. Fibrosis progression is typically assessed via liver biopsy. Pathologists then use H&E and trichrome stains of the tissue to determine the extent of NASH. The process of staining, destaining, and restaining the same tissue regions can be time-consuming, expensive, and inaccurate.
+Non-alcoholic steatohepatitis (NASH) is a prevalent liver inflammation disease that affects over 16 million US adults. Patients diagnosed with NASH have no alcoholic, genetic, metabolic, or medication-based causes for hepatitis and typically experience progressive liver injury and fibrosis. NASH can lead to cirrhosis, liver transplant and death, while the burgeoning incidence places a significant financial toll on the healthcare system. NASH is diagnosed using an H&E section, where Pathologists assess for indications of hepatocyte damage (e.g., ballooning, pockets of inflammation), while Fibrosis progression is typically assessed via a Trichrome stain of liver biopsy (e.g., bridging between Portal regions). The process of staining, destaining, and restaining the same tissue regions can be time-consuming, expensive, and inaccurate.
 
 Advances in generative adversarial networks (GANs) offer a potential solution to this issue. GANs use two neural networks to generate images. The first neural network creates an image of the target type, while the second neural network discriminates whether or not a given image is real or generated. GANs such as CycleGAN and Pix2Pix have been able to effectively convert images of similar objects into each other. An increasing number of medical studies have used GANs to synthetically stain tissue.
 

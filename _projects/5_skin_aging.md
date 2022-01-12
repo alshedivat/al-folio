@@ -1,11 +1,13 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
+title: Photoaging
+description: Cell Type Specific Components of Photoaging
+img: assets/img/5_skina.jpg
+importance: 5
 category: ongoing
 ---
+
+![skin](/assets/img/5_skinb.png)
 
 ### Scientific Premise:
 There exists cellular components of photoaging which can inform/assess sun age reversal therapies.

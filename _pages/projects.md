@@ -2,7 +2,7 @@
 layout: page
 title: research
 permalink: /projects/
-description: Select Levy Lab projects, of many.
+description: Select Levy Lab projects, of many others our group is working on.
 nav: true
 display_categories: [ongoing, complete]
 horizontal: false

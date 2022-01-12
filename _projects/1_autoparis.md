@@ -2,7 +2,7 @@
 layout: page
 title: Autoparis
 description: Automating the Paris System for Urothelial Cacinoma Screening
-img: assets/img/12.jpg
+img: assets/img/1_autoparis.jpeg
 importance: 1
 category: ongoing
 ---
