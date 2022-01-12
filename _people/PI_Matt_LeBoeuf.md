@@ -4,7 +4,7 @@ title: Matthew LeBoeuf
 img: /assets/img/matt_thumbnail.jpeg
 profile:
   align: right
-  image: matt.jpg
+  image: matt.jpeg
 news: false
 social: false
 type: "Collaborators"
