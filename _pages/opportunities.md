@@ -68,5 +68,5 @@ This opportunity is open to PhD and Master's degree students, with special excep
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdZ4jxrCH98REVvt-9cm-7Zzh7SOCP8uSs_lANidmfVLec6cw/viewform?embedded=true" width="640" height="382" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 ## Technical Questions
-<a href="/assets/data/technical_questions_data.zip" download>Click to Download Technical Questions Data</a>
+<a href="/levylab/assets/data/technical_questions_data.zip" download>Click to Download Technical Questions Data</a>
 <iframe src="/levylab/assets/pdf/EDIT_ML_Intern_Technical_Questions.pdf" style="width:800px; height:800px;"></iframe>
