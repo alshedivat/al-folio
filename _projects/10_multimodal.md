@@ -7,7 +7,7 @@ importance: 10
 category: ongoing
 ---
 
-![multimodal](/levylab/assets/img/10_multimodalb.jpg)
+![multimodal](/levylab/assets/img/10_multimodalb.jpeg)
 
 ### Scientific Premise:
 That the synthesis of information across multiple biomedical data modalities can provide a more holistic and accurate depiction of the patient's health.
