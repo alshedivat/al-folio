@@ -1,7 +1,7 @@
 ---
 layout: people
-title: Eren Veziroglu
-img: /assets/img/edit_thumbnail.png
+title: Mustafa Nasir Moin
+img: placeholder
 profile:
   align: right
   image:
@@ -9,5 +9,5 @@ news: false
 social: false
 type: "Medical Student"
 lab_type: "Former"
-description: Geisel Medical Student
+description: Prospective Medical Student
 ---

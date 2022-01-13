@@ -1,7 +1,7 @@
 ---
 layout: people
 title: Carly Miles
-img: /assets/img/edit_thumbnail.png
+img: placeholder
 profile:
   align: right
   image:

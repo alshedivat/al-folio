@@ -1,7 +1,7 @@
 ---
 layout: people
 title: Uhuru Kamau
-img: /assets/img/edit_thumbnail.png
+img: placeholder
 profile:
   align: right
   image:

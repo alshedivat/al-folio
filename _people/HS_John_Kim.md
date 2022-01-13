@@ -1,7 +1,7 @@
 ---
 layout: people
 title: John Kim
-img: /assets/img/edit_thumbnail.png
+img: placeholder
 profile:
   align: right
   image:

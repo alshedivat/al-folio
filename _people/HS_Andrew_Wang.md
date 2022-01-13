@@ -1,7 +1,7 @@
 ---
 layout: people
 title: Andrew Wang
-img: /assets/img/edit_thumbnail.png
+img: placeholder
 profile:
   align: right
   image:

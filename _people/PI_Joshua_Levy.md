@@ -7,7 +7,7 @@ profile:
   image: joshua_levy.jpg
 news: false
 social: false
-type: "PI"
+type: "Principal Investigator"
 lab_type: "Current"
 description: Lab Director & Co-Head EDIT ML
 ---
