@@ -57,24 +57,11 @@ blockquote {
 .profile {
   margin-left: 1rem;
   width: 100%;
-
-  .address {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-family: monospace;
-    p {
-      display: inline-block;
-      margin: 0;
-    }
-  }
 }
 
 @media (min-width: 576px) {
   .profile {
     width: 30%;
-    .address {
-      p { display: block; }
-    }
   }
 }
 
