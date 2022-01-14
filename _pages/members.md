@@ -3,7 +3,7 @@ layout: page
 permalink: /members/
 title: members
 description: Materials for courses you taught. Replace this text with your description.
-nav: true
+nav: false
 ---
 
 우리 연구실에는  
