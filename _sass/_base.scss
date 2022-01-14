@@ -56,12 +56,12 @@ blockquote {
 
 .profile {
   margin-right: 1rem;
-  width: 100%;
+  width: 40%;
 }
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 18%;
   }
 }
 
@@ -184,14 +184,15 @@ blockquote {
 
 
 // News
-
-.news table td {
-  font-size: 1rem;
-  color: var(--global-text-color);
-}
-
-.news table th {
-  color: var(--global-text-color);
+.news {
+  margin-top: 2rem;
+  table td {
+    font-size: 1rem;
+    color: var(--global-text-color);
+  }  
+  table th {
+    color: var(--global-text-color);
+  }
 }
 
 // Social (bottom)
