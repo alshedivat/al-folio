@@ -1,12 +1,12 @@
 ---
 layout: page
-title: submenus
+title: people
 nav: true
 dropdown: true
 children: 
-    - title: publications
+    - title: members
       permalink: /publications/
     - title: divider
-    - title: projects
+    - title: alumni
       permalink: /projects/
 ---
