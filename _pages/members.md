@@ -4,6 +4,7 @@ permalink: /members/
 title: members
 description: Materials for courses you taught. Replace this text with your description.
 nav: false
+order: 0
 ---
 
 우리 연구실에는  

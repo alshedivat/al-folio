@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: 조원누나 LBW 제출 두시간 전
+date: 2022-01-14 14:11:00-0400
 inline: false
 ---
 
