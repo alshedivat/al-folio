@@ -5,8 +5,8 @@ nav: true
 dropdown: true
 children: 
     - title: members
-      permalink: /publications/
+      permalink: /members/
     - title: divider
     - title: alumni
-      permalink: /projects/
+      permalink: /alumni/
 ---
