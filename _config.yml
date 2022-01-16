@@ -27,7 +27,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -60,10 +60,10 @@ linkedin_username: #
 scholar_userid: 6BHFDO4AAAAJ
 orcid_id: 0000-0003-1091-6832
 medium_username: # your Medium username
-quora_username: Louis-Du-3
+quora_username: # your quora name
 publons_id: AAJ-8107-2020
 research_gate_profile: # your profile on ResearchGate
-blogger_url: https://www.zhihu.com/people/07083202
+blogger_url: # your blogger url
 work_url: # work page URL
 keybase_username: #
 wikidata_id: # your wikidata id
@@ -73,7 +73,7 @@ stackoverflow_id: #your stackoverflow id
 contact_note: >
 
 google_analytics: G-PJ6WJPZ4J5 # out your google-analytics code
-panelbear_analytics: Exbcj1v1ZLH # panelbear analytics site ID
+panelbear_analytics:  # panelbear analytics site ID
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
