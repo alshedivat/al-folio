@@ -1,10 +1,10 @@
 ---
 layout: people
-title: Carly Bobak
-img: /assets/img/cb_thumbnail.jpeg
+title: Brady Hunt
+img: placeholder
 profile:
   align: right
-  image: cb.jpeg
+  image: 
 news: false
 social: false
 type: "Collaborators"
@@ -12,4 +12,4 @@ lab_type: "Current"
 description: Collaborator
 ---
 
-**Website:** https://www.carlybobak.com/
+**Website:** [brady.ai](brady.ai)
