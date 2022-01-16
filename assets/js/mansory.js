@@ -4,6 +4,8 @@ $(document).ready(function() {
     gutter: 10,
     horizontalOrder: true,
     itemSelector: '.grid-item',
+    columnWidth: '.grid-sizer',
+    percentPosition: true
   });
   // Layout Masonry after each image loads
   $grid.imagesLoaded().progress( function() {

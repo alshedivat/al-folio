@@ -370,8 +370,30 @@ footer.sticky-bottom {
   }
 
   .grid-item {
-    width: 250px;
+    width: 100%;
     margin-bottom: 10px;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 400px) {
+    .grid-sizer, .grid-item {
+      width: calc(50% - 5px);
+    }
+   }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    .grid-sizer, .grid-item {
+      width: calc(50% - 5px);
+    }
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    .grid-sizer, .grid-item {
+      // width: 32%;
+      width: calc(33% - 5px);
+    }
   }
 
   h2.category {
