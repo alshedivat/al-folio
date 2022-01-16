@@ -18,7 +18,8 @@ layout: default
               {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
               {% include figure.html 
               path=profile_image_path 
-              class="img-fluid z-dept-1 rounded" -%}
+              class="img-fluid z-dept-1 rounded"
+              alt=page.profile.image -%}
             {% endif -%}
             {%- if page.profile.address %}
             <div class="address">
