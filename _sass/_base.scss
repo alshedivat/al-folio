@@ -23,6 +23,10 @@ a, table.table a {
   }
 }
 
+figure, img {
+  max-width: 90vw;
+}
+
 blockquote {
   background: var(--global-bg-color);
   border-left: 2px solid var(--global-theme-color);
