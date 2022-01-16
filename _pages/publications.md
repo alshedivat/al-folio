@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publication
 description: Publication list in reversed chronological order; I also attach some presentation slides for conference papers.
-years: [2021, 2020, 2019, 2018]
+years: [2022, 2021, 2020, 2019, 2018]
 nav: false
 ---
 <!-- _pages/publications.md -->
