@@ -1,72 +1,175 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@article{MWL:2021,
+  abbr     = {CSSP},
+  abstract = {A control-bounded analog-to-digital converter consists of a linear analog system that is subject to digital control, and a digital filter that estimates the analog input signal from the digital control signals. Such converters have many commonalities with delta--sigma converters, but they can use more general analog filters. The paper describes the operating principle, gives a transfer function analysis, and describes the digital filtering. In addition, the paper discusses two examples of such architectures. The first example is a cascade structure reminiscent of, but simpler than, a high-order MASH converter. The second example combines two attractive properties that have so far been considered incompatible. Its nominal conversion noise (assuming ideal components) essentially equals that of the first example. However, its analog filter is a fully connected network to which the input signal is fed in parallel, which potentially makes it more robust against nonidealities.},
+  author   = {Hampus Malmberg and Georg Wilckens and Hans-Andrea Loeliger},
+  doi      = {10.1007/s00034-021-01837-z},
+  isbn     = {1531-5878},
+  journal  = {Circuits, Systems, and Signal Processing},
+  title    = {Control-Bounded Analog-to-Digital Conversion},
+  year     = {2021},
+  month    = {09},
+  day      = {13},
+  selected = {true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{KML:2021,
+  abbr      = {ICASSP},
+  author    = {Keusch, Raphael and Malmberg, Hampus and Loeliger, Hans-Andrea},
+  booktitle = {2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  title     = {Binary Control and Digital-to-Analog Conversion Using Composite NUV Priors and Iterative Gaussian Message Passing},
+  year      = {2021},
+  volume    = {},
+  number    = {},
+  pages     = {5330-5334},
+  abstract  = {The paper proposes a new method to determine a binary control signal for an analog linear system such that the state, or some output, of the system follows a given target trajectory. The method can also be used for digital-to-analog conversion.The heart of the proposed method is a new binary-enforcing NUV prior (normal with unknown variance). The resulting computations, for each planning period, amount to iterating forward-backward Gaussian message passing recursions (similar to Kalman smoothing), with a complexity (per iteration) that is linear in the planning horizon. In consequence, the proposed method is not limited to a short planning horizon.},
+  keywords  = {},
+  doi       = {10.1109/ICASSP39728.2021.9413677},
+  issn      = {2379-190X},
+  month     = {June},
+  selected  = {false}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@inproceedings{ML:2020,
+  abbr      = {ISCAS},
+  author    = {Malmberg, Hampus and Loeliger, Hans-Andrea},
+  booktitle = {2020 IEEE International Symposium on Circuits and Systems (ISCAS)},
+  title     = {Analog-to-Digital Conversion using Self-Averaging Analog Hadamard Networks},
+  year      = {2020},
+  volume    = {},
+  number    = {},
+  pages     = {1-1},
+  abstract  = {Control-bounded analog-to-digital conversion as described in the work of Loeliger et al. opens opportunities for entirely new analog circuit topologies. The structure of such a converter is shown in Fig. 1. In this paper, we propose such a converter where the analog linear system is a network of N fully connected identical integrators, with uniform sensitivity to noise and mismatch across the network. Nonetheless, the converter achieves a nominal conversion error similar to that of a ΔΣ converter with a N-th order loop filter.},
+  keywords  = {},
+  doi       = {10.1109/ISCAS45731.2020.9181151},
+  issn      = {2158-1525},
+  month     = {Oct},
+  selected  = {false}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{LMW:2020,
+  abbr     = {arXiv},
+  arxiv    = {2001.05929},
+  title    = {Control-Bounded Analog-to-Digital Conversion: Transfer Function Analysis, Proof of Concept, and Digital Filter Implementation},
+  author   = {Hans-Andrea Loeliger and Hampus Malmberg and Georg Wilckens},
+  abstract = {Control-bounded analog-to-digital conversion has many commonalities with delta-sigma conversion, but it can profitably use more general analog filters. The paper describes the operating principle, gives a transfer function analysis, presents a proof-of-concept implementation, and describes the digital filtering in detail.},
+  year     = {2020},
+  selected = {false}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@phdthesis{M:2020,
+  author   = {Hampus Malmberg},
+  abstract = {The need for analog-to-digital (A/D) and digital-to-analog (D/A) conver- sion is a ubiquitous part of many of today’s practical applications. The research fields of A/D and D/A conversion are multi-disciplinary, involv- ing topics such as discrete- and continuous-time signal processing, circuit theory, and circuit design. State-of-the-art achievements have refined the practical aspects of traditional converter architectures to a point where performance is reaching its physical limits and progress is stagnating.
+              In this thesis, we present an alternative perspective of analog-to-digital and digital-to-analog conversion called control-bounded conversion. This new perspective utilizes standard circuit components to build up un- conventional circuit architectures through a novel theoretical framework between analog and digital. Ultimately, this versatile design principle allows less constrained analog and digital circuit architectures at the expense of a digital post-processing step.
+              We demonstrate the control-bounded conversion principle by a selection of converter examples. First we consider the chain-of-integrators and the leapfrog analog-to-digital converters, which emphasize the division of the analog and digital parts of a control-bounded analog-to-digital converter. In particular, these examples reveal the global nature of the analog design task compared to the local digital part, which can be decomposed into independently operated, sub-circuits.
+              Next, the chain-of-oscillators analog-to-digital converter shows how the control-bounded converter can be adapted for the problem of converting non-baseband signals as is common in communication systems. Specifi- cally, the modulation task (frequency shifting) is incorporated into the digital part of the circuit, removing the need for a pre-processing step. To suppress the influence of circuit imperfections, we introduce the Hadamard analog-to-digital converter that separates the physical and the logical signal dimensions of a control-bounded converter. This separation enables circuit architectures where the sensitivity to component mismatch and thermal noise can be distributed equally throughout the circuit architecture components, thereby minimizing its impact on conversion performance.
+              The overcomplete digital control shows how the digital part’s complexity can be increased, resulting in better conversion performance, without substantially increasing the sensitivity to circuit imperfections. This idea relates to using higher-order quantization but partitions the analog part of the circuit in a novel way.
+              We demonstrate that the control-bounded analog-to-digital conversion concept can provide improved conversion performance when converting multiple signals jointly as opposed to independent conversion.
+              Finally, we show how the control-bounded conversion principle can be adopted for digital-to-analog conversion.
+              },
+  school   = {ETH Zürich},
+  title    = {Control-Bounded Converters},
+  year     = {2020},
+  month    = {August},
+  day      = {20},
+  doi      = {10.3929/ethz-b-000469192},
+  selected = {true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{LMMW:2018,
+  abbr      = {ISTC},
+  author    = {Loeliger, Hans-Andrea and Ma, Boxiao and Malmberg, Hampus and Wadehn, Federico},
+  booktitle = {2018 IEEE 10th International Symposium on Turbo Codes   Iterative Information Processing (ISTC)},
+  title     = {Factor Graphs with NUV Priors and Iteratively Reweighted Descent for Sparse Least Squares and More},
+  year      = {2018},
+  volume    = {},
+  number    = {},
+  pages     = {1-5},
+  abstract  = {Normal priors with unknown variance (NUV) are well known to include a large class of sparsity promoting priors and to blend well with Gaussian message passing. Essentially equivalently, sparsifying norms (including the L1 norm) as well as the Huber cost function from robust statistics have variational representations that lead to algorithms based on iteratively reweighted L2-regularization. In this paper, we rephrase these well-known facts in terms of factor graphs. In particular, we propose a smoothed-NUV representation of the Huber function and of a related nonconvex cost function, and we illustrate their use for sparse least-squares with outliers and in a natural (piecewise smooth) prior for imaging. We also point out pertinent iterative algorithms including variations of gradient descent and coordinate descent.},
+  keywords  = {},
+  doi       = {10.1109/ISTC.2018.8625332},
+  issn      = {2165-4719},
+  month     = {Dec},
+  selected  = {false}
+}
+
+@article{WBZMGJTHL:2018,
+  abbr     = {TBioCAS},
+  author   = {Reto Andreas Wildhaber and Bruegger, Dominik and Zalmai, Nour and Malmberg, Hampus and Goette, Josef and Jacomet, Marcel and Tanner, Hildegard and Haeberlin, Andreas and Loeliger, Hans-Andrea},
+  journal  = {IEEE Transactions on Biomedical Circuits and Systems},
+  title    = {Estimation of the Cardiac Field in the Esophagus Using a Multipolar Esophageal Catheter},
+  year     = {2018},
+  volume   = {12},
+  number   = {4},
+  pages    = {791-800},
+  abstract = {The rapid progress of invasive therapeutic options for cardiac arrhythmias increases the need for accurate diagnostics. The surface electrocardiogram (ECG) is still the standard of noninvasive diagnostics but lacks atrial signal resolution. By contrast, esophageal electrocardiography (EECG) yields atrial signals of high amplitude and with a high signal-to-noise ratio. Esophageal electrocardiography has become fast and safe, but the mechanical constraints of esophageal measuring catheters and the “random” motion of the catheter inside the subject's esophagus limit the spatial resolution of EECG signals. In this paper, we propose a method to estimate the electrical field projected onto the esophagus with an increased spatial resolution, using commonly available esophageal catheters. In a first step, we estimate the time-varying catheter position, and in a second step, we estimate the projected electrical field with enhanced spatial resolution. The proposed algorithm comprises several consecutive optimization steps, where each intermediate step produces not just a single point estimate, but a cost function over multiple solutions, which reduces the information loss at each processing step. We conclude with examples from a clinical trial, where the fields of cardiac arrhythmias are presented as two-dimensional contour plots.},
+  keywords = {},
+  doi      = {10.1109/TBCAS.2018.2817027},
+  issn     = {1940-9990},
+  month    = {Aug},
+  selected = {false}
+}
+
+@inproceedings{ZKML:2017,
+  abbr      = {EUSIPCO},
+  abstract  = {The paper addresses the problem of joint signal separation and estimation in a single-channel discrete-time signal composed of a wandering baseline and overlapping repetitions of unknown (or known) signal shapes. All signals are represented by a linear state space model (LSSM). The baseline model is driven by white Gaussian noise, but the other signal models are triggered by sparse inputs. Sparsity is achieved by normal priors with unknown variance (NUV) from sparse Bayesian learning. All signals and system parameters are jointly estimated with an efficient expectation maximization (EM) algorithm based on Gaussian message passing, which works both for known and unknown signal shapes. The proposed method outputs a sparse multi-channel representation of the given signal, which can be interpreted as a signal labeling.},
+  author    = {Zalmai, Nour and Keusch, Raphael and Malmberg, Hampus and Loeliger, Hans-Andrea},
+  booktitle = {2017 25th European Signal Processing Conference (EUSIPCO)},
+  title     = {Unsupervised feature extraction, signal labeling, and blind signal separation in a state space world},
+  year      = {2017},
+  volume    = {},
+  number    = {},
+  pages     = {838-842},
+  doi       = {10.23919/EUSIPCO.2017.8081325},
+  selected  = {false}
+}
+
+@inproceedings{ZML:2016,
+  abbr      = {ICASSP},
+  author    = {Zalmai, Nour and Malmberg, Hampus and Loeliger, Hans-Andrea},
+  booktitle = {2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  title     = {Blind deconvolution of sparse but filtered pulses with linear state space models},
+  year      = {2016},
+  volume    = {},
+  number    = {},
+  pages     = {4194-4198},
+  abstract  = {The paper considers the problem of joint system identification and input signal estimation of an unknown linear system from noisy observations of the output signal. The input signal is assumed to be sparse, and each individual input pulse may affect the system in its own (and unknown) way. Based on ideas from sparse Bayesian learning, we derive an efficient expectation maximization (EM) algorithm for jointly estimating all unknown quantities. Unlike related prior work, the proposed algorithm does not alternate between estimating the input signal and estimating the system parameters; instead, all unknown quantities are jointly updated in each EM step. We give closed-form expressions for these EM updates, which can be efficiently computed by Gaussian message passing.},
+  keywords  = {},
+  doi       = {10.1109/ICASSP.2016.7472467},
+  issn      = {2379-190X},
+  month     = {March},
+  selected  = {false}
+}
+
+@inproceedings{LBMWZ:2016,
+  abbr      = {ITA},
+  author    = {Loeliger, Hans-Andrea and Bruderer, Lukas and Malmberg, Hampus and Wadehn, Federico and Zalmai, Nour},
+  booktitle = {2016 Information Theory and Applications Workshop (ITA)},
+  title     = {On sparsity by NUV-EM, Gaussian message passing, and Kalman smoothing},
+  year      = {2016},
+  pages     = {1-10},
+  abstract  = {Normal priors with unknown variance (NUV) have long been known to promote sparsity and to blend well with parameter learning by expectation maximization (EM). In this paper, we advocate this approach for linear state space models for applications such as the estimation of impulsive signals, the detection of localized events, smoothing with occasional jumps in the state space, and the detection and removal of outliers. The actual computations boil down to multivariate-Gaussian message passing algorithms that are closely related to Kalman smoothing. We give improved tables of Gaussian-message computations from which such algorithms are easily synthesized, and we point out two preferred such algorithms.},
+  doi       = {10.1109/ITA.2016.7888168},
+  month     = {Jan},
+  selected  = {true},
+  arxiv     = {1602.02673}
+}
+
+@inproceedings{BML:2015,
+  abbr      = {ISIT},
+  author    = {Bruderer, Lukas and Malmberg, Hampus and Loeliger, Hans-Andrea},
+  booktitle = {2015 IEEE International Symposium on Information Theory (ISIT)},
+  title     = {Deconvolution of weakly-sparse signals and dynamical-system identification by Gaussian message passing},
+  year      = {2015},
+  volume    = {},
+  number    = {},
+  pages     = {326-330},
+  abstract  = {We use ideas from sparse Bayesian learning for estimating the (weakly) sparse input signal of a linear state space model. Variational representations of the sparsifying prior lead to algorithms that essentially amount to Gaussian message passing. The approach is extended to the case where the state space model is not known and must be estimated. Experimental results with a real-world application substantiate the applicability of the proposed method.},
+  keywords  = {},
+  doi       = {10.1109/ISIT.2015.7282470},
+  issn      = {2157-8117},
+  month     = {June},
+  selected  = {false}
 }
