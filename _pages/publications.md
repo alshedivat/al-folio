@@ -4,7 +4,7 @@ permalink: /publications/
 title: publications
 description:
 years: [2021, 1956, 1950, 1935, 1905]
-types: [data, ai, inclusion]
+types: [Data, AI / Algorithm, Inclusion / Health]
 nav: true
 order: 3
 ---
