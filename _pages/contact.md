@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /contact/
+description:
 title: contact
 order: 4
 ---
