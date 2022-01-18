@@ -375,6 +375,7 @@ blockquote {
         // remove abbr
         max-width: 0;
         padding-left: 0px;
+        padding-right: 0px;
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
