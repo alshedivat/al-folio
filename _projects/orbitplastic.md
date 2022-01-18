@@ -7,4 +7,4 @@ importance: 2
 category: personal
 ---
 
-I'm the lead developer for [orbitplastic.com](https://orbitplastic.com) a trading platform for recycled plastic.
+I'm the lead developer and co-founder of [orbitplastic.com](https://orbitplastic.com) a trading platform for recycled plastic.
