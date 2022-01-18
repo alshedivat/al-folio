@@ -41,9 +41,11 @@ layout: default
             <div class="contact-icons">
             {% include social.html %}
             </div>
-
-            {% include figure.html 
-            path='assets/img/prof_pic.png' -%}
+            
+            <div class="contact-logo">
+              {% include figure.html 
+              path='assets/img/kaist_logo.png' -%}
+            </div>
 
             <div class="contact-note">
               {{ site.contact_note }}
