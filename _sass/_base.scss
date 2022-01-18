@@ -61,7 +61,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 20%;
+    width: 18%;
   }
 }
 
@@ -372,6 +372,9 @@ blockquote {
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
+        // remove abbr
+        max-width: 0;
+        padding-left: 0px;
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
