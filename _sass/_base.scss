@@ -219,9 +219,15 @@ blockquote {
   */
 
   .contact-logo {
-    width: 12%;
+    width: 25%;
     margin: 1rem auto 0.5rem;
-  } 
+  }
+  
+  @media (min-width: 576px) {
+    .contact-logo {
+      width: 15%;
+    }
+  }
 
   .contact-note {
     font-size: 0.8rem;
