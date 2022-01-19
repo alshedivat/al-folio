@@ -198,7 +198,10 @@ blockquote {
 // Social (bottom)
 
 .social {
+  display: flex;
   text-align: center;
+  flex-direction: column;
+  /*
   .contact-icons {
     font-size: 4rem;
     a {
@@ -213,16 +216,11 @@ blockquote {
       }
     }
   }
+  */
 
   .contact-logo {
-    width: 15%;
-  }
-  
-  @media (min-width: 576px) {
-    .contact-logo {
-      width: 10%;
-    }
-  }  
+    margin: 0 auto 1rem;
+  } 
 
   .contact-note {
     font-size: 0.8rem;
