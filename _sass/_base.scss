@@ -368,9 +368,15 @@ blockquote {
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
-    margin-bottom: -2rem;
     text-align: right;
   }
+
+  @media (min-width: 576px) {
+    h2.category {
+      margin-bottom: -2rem;
+    }
+  }
+
   ol.bibliography {
     list-style: none;
     padding: 0;
@@ -462,7 +468,7 @@ blockquote {
         transition: all 0.15s ease;
       }
       div.abstract.hidden {
-        border: dashed 1px var(--global-bg-color);
+        // border: dashed 1px var(--global-bg-color);
       }
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
