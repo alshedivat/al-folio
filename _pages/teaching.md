@@ -10,7 +10,7 @@ nav: true
 **Numerical Analysis (CS450)**
 
 Undergraduate/graduate level course covering linear system solvers, optimization techniques, interpolation and approximation of functions, solving systems of nonlinear equations, eigenvalue problems, least squares, and quadrature; numerical handling of ordinary and partial differential equations.
-  - [Fall 2020](https://relate.cs.illinois.edu/course/cs450-s21/), [Fall 2019](https://relate.cs.illinois.edu/course/cs450-f19/)
+  - [Spring 2021](https://relate.cs.illinois.edu/course/cs450-s21/), [Fall 2019](https://relate.cs.illinois.edu/course/cs450-f19/)
 
 **Numerical Methods (CS357)**
 
