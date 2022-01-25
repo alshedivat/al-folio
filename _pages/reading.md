@@ -10,6 +10,7 @@ nav: false
 **Scientific Computing**
   - [*Scientific Computing: An Introductory Survey* by Michael T. Heath](https://doi.org/10.1137/1.9781611975581)
   - [*Numerical Linear Algebra* by Lloyd N. Trefethen and David Bau, III](https://my.siam.org/Store/Product/viewproduct/?ProductId=950)
+  - [*Software list and links* maintained by Nico Schlömer](https://github.com/nschloe/awesome-scientific-computing)
 
 **Partial Differential Equations (PDEs)**
   - [*Introduction to Numerical Methods for Variational Problems* by Hans Petter Langtangen and Kent-Andre Mardal](https://github.com/hplgit/fem-book)
@@ -29,3 +30,4 @@ nav: false
   - [*Designing and Building Applications for Extreme Scale Systems (CS598)* by Bill Gropp at UIUC](http://wgropp.cs.illinois.edu/courses/cs598-s16/index.htm)
   - [*Parallel Computing and Algorithms courses* by James Demmel at University of California Berkeley](https://people.eecs.berkeley.edu/~demmel/)
   - [*Languages and Abstractions for High-Performance Scientific Computing (CS 598APK)* by Andreas Kloeckner at University of Illinois at Urbana-Champaign](https://relate.cs.illinois.edu/course/cs598apk-f18/)
+  - [*Heterogeneous and parallel programming course with an emphasis on CUDA*](http://lumetta.web.engr.illinois.edu/408-S22/)
