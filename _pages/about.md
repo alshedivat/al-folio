@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'> Ithaca, NY.</a>  he/him/his.
+subtitle: <a href='https://www.reddit.com/r/Cornell/'> Ithaca, NY.</a>  he/him/his.
 
 profile:
   align: right
