@@ -2,24 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'> Ithaca, NY.</a>  he/him/his.
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Washington DC, 10 Jan 22</p>
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Cornell student with interests in coding, cryptos, and stocks.
+I am a Computer Science student at Cornell University with interests in cryptos, stocks, systems, and machine learning.
 
-Please feel free to connect with me on LinkedIn or shoot me an email for future collabs on side projects, hackathon, and more!
+Please feel free to connect with me on LinkedIn or shoot me an email for future collabs on [side projects](https://github.com/cliu0013), [hackathons](https://devpost.com/cl2373), or [other endeavors](https://opensea.io/collection/cryptokitties).
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

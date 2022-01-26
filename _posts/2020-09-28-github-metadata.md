@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title:  a post with github metadata
 date: 2020-09-28 21:01:00
@@ -32,4 +32,4 @@ A sample blog page that demonstrates the accessing of github meta data.
 * Contributors :
 {% for contributor in site.github.contributors %}
   * {{ contributor.login }}
-{% endfor %}
+{% endfor %} -->

@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: a post with twitter
 date: 2020-09-28 11:12:00-0400
@@ -17,4 +17,4 @@ An example of pulling from a timeline:
 {% twitter https://twitter.com/jekyllrb maxwidth=500 limit=3 %}
 
 # Additional Details
-For more details on using the plugin visit: [jekyll-twitter-plugin](https://github.com/rob-murray/jekyll-twitter-plugin)
+For more details on using the plugin visit: [jekyll-twitter-plugin](https://github.com/rob-murray/jekyll-twitter-plugin) -->
