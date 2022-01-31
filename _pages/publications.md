@@ -7,7 +7,7 @@ years: [2019]
 nav: true
 ---
 
-A more up to date list is also available on [google scholar](https://scholar.google.com/citations?user=IaFEAbsAAAAJ)
+A more up-to-date list is also available on [google scholar](https://scholar.google.com/citations?user=IaFEAbsAAAAJ)
 
 <!-- _pages/publications.md -->
 <div class="publications">

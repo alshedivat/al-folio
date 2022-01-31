@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a CSE PhD Candidate in Clarity Lab at the University of Michigan advised by [Prof. Jason Mars](https://www.jasonmars.org/). My research is focused on the design of novel systems and approaches optimized for scalable artificial intelligence (AI) infrastructures primarily in NLP & HAI.
 
-Outside of UM, I am a Lecturer I in the Department of Computer Science at the [University of Guyana](https://uog.edu.gy), as well as a Director on the board of [Nexus Hub](https://www.nexushubinc.org/) and [V75 Inc](https://v75inc.com/). 
+Outside of UM, I am a Lecturer Ɪ in the Department of Computer Science at the [University of Guyana](https://uog.edu.gy), as well as a Director on the board of [Nexus Hub](https://www.nexushubinc.org/) and [V75 Inc](https://v75inc.com/). 
 
 At Nexus Hub & V75 Inc I focus on the advancement of Guyana's technology sector spearheading initiatives geared towards fostering collaboration, supporting innovation, youth development and enabling economic stability for all of Guyana. I completed my Bsc. in Computer Science at the University of Guyana and I was born and raised in [Georgetown, Guyana](https://en.wikipedia.org/wiki/Guyana). 
 

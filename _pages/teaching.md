@@ -2,10 +2,15 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: I've been blessed over the years to have the privilege to teach and mentors some amazing individuals.
+description: I've had the privilege to teach and mentor some amazing individuals on their academic journeys throughout the years.
 nav: true
 ---
 
+### Mentees
+
+- Victoria Shipman (University of Michigan, Explore CS Programme)
+- Tamariah Davis (University of Michigan, Explore CS Programme)
+- Timothy Indarsingh (University of Guyana)
 
 
 ### University of Michigan
