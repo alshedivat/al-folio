@@ -567,3 +567,30 @@ html.transition *:after {
   font-size: 0.875rem;
   padding-top: 0.25rem;
 }
+
+// Teaching
+
+.card {
+  background-color: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
+
+  .card-title {
+    font-weight: 400;
+    a {
+      color: var(--global-text-color);
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
+  }
+  .badge {
+    background-color: var(--global-theme-color);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .list-group-item {
+    background-color: var(--global-bg-color);
+    border-color: var(--global-divider-color);
+  }
+}

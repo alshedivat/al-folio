@@ -1,6 +1,6 @@
 ---
 layout: default
-title: blog
+title: Blog
 pagination:
   enabled: true
   collection: posts
@@ -18,11 +18,13 @@ pagination:
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
+    <h3>#Work #Learn #Create #Together</h3>
   </div>
 
 
   <ul class="post-list">
     {% for post in paginator.posts %}
+    {% if post.show}
 
     {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
     {% assign year = post.date | date: "%Y" %}
@@ -57,7 +59,7 @@ pagination:
           {% endif %}
     </p>
     </li>
-
+    {% endif %}
     {% endfor %}
   </ul>
 

@@ -1,24 +1,33 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://cse.engin.umich.edu/'>University of Michigan</a> | <a href='https://fns.uog.edu.gy/'>University of Guyana</a> | <a href='https://v75inc.com/'>V75 Inc.</a> | <a href='https://www.nexushubinc.org/'>Nexus Hub Inc.</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile2.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Room 2753</p>
+    <p>Bob and Betty Beyster Building</p>
+    <p>2260 Hayward Street</p>
+    <p> Ann Arbor, MI, 48109</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a CSE PhD Candidate in Clarity Lab at the University of Michigan advised by [Prof. Jason Mars](https://www.jasonmars.org/). My research is focused on the design of novel systems and approaches optimized for scalable artificial intelligence (AI) infrastructures primarily in NLP & HAI.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Outside of UM, I am a Lecturer I in the Department of Computer Science at the [University of Guyana](https://uog.edu.gy), as well as a Director on the board of [Nexus Hub](https://www.nexushubinc.org/) and [V75 Inc](https://v75inc.com/). 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+At Nexus Hub & V75 Inc I focus on the advancement of Guyana's technology sector spearheading initiatives geared towards fostering collaboration, supporting innovation, youth development and enabling economic stability for all of Guyana. I completed my Bsc. in Computer Science at the University of Guyana and I was born and raised in [Georgetown, Guyana](https://en.wikipedia.org/wiki/Guyana). 
+
+In my spare time, I enjoy playing sports (mostly weight lifting), learning new areas (e.g economics), traveling, and hiking (warm temperatures preferred).
+
+The best way to reach out to me is via the relevant email:
+- UofM: [csclarke@umich.edu](mailto:csclarke@umich.edu)
+- UoG: [christopher.clarke@uog.edu.gy](mailto:christopher.clarke@uog.edu.gy)
+- V75Inc: [christopher.clarke@v75inc.com](mailto:christopher.clarke@v75inc.com)
+- NexusHubInc: [christopher.clarke@nexushubinc.org](mailto:christopher.clarke@nexushubinc.org)

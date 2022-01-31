@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2019-9-01 15:59:00-0400
 inline: true
+show: true
 ---
 
-A simple inline announcement.
+Started my PhD at the University of Michigan! Go Blue!

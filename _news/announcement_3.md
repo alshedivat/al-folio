@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2021-04-30 07:59:00-0400
 inline: true
+show: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Completed my Msc. Computer Science at UMich CSE! :sparkles: :smile:
