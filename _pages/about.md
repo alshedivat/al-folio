@@ -7,8 +7,10 @@ subtitle: Ph.D. Student @ <a href='#'>GIST (Gwangju Institute of Science and Tec
 profile:
   align: right
   image: prof_pic.png
-  address: 
+  address: >
+    <p>Ph.D. Student</p>
     <p>GIST AILAB</p>
+    <p>Roboticist</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
