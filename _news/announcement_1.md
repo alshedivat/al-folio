@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-02-01 00:00:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+Our work on [unseen object amodal instance segmentation](https://sites.google.com/view/uoais) have been accepted at **ICRA 2022**!

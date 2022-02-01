@@ -17,8 +17,10 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your 
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔥 # the emoji used as the favicon
-url: https://seungback.github.io # the base hostname & protocol for your site
-baseurl: https://github.com/SeungBack/seungback.github.io # the subpath of your site, e.g. /blog/
+# url: https://seungback.github.io # the base hostname & protocol for your site
+url: http://localhost:4000
+# baseurl: https://github.com/SeungBack/seungback.github.io # the subpath of your site, e.g. /blog/
+baseurl: 
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -46,8 +48,8 @@ max_width: 800px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
@@ -59,11 +61,11 @@ gitlab_username: # your GitLab user name
 twitter_username: seunghyeokback # your Twitter handle
 linkedin_username: seunghyeok-back # your LinkedIn user name
 scholar_userid: N9dLZH4AAAAJ&hl # your Google Scholar ID
-orcid_id: 0000-0003-4334-9053 # your ORCID ID
+orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: Seunghyeok Back # your profile on ResearchGate
+research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
@@ -83,8 +85,8 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: seunghyeok back  # your blog must have a name for it to show up in the nav bar
+blog_description: personal website of seunghyeok back
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -106,7 +108,7 @@ collections:
     output: true
     permalink: /news/:path/
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
 
 news_limit: 5
@@ -203,8 +205,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Seunghyeok
-  first_name: [Back, B.]
+  last_name: Back
+  first_name: [Seunghyeok]
 
   style: apa
   locale: en

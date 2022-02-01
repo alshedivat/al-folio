@@ -1,84 +1,121 @@
 ---
 ---
-
 @article{back2021unseen,
+  abbr={ICRA},
   title={Unseen Object Amodal Instance Segmentation via Hierarchical Occlusion Modeling},
   author={Back, Seunghyeok and Lee, Joosoon and Kim, Taewon and Noh, Sangjun and Kang, Raeyoung and Bak, Seongho and Lee, Kyoobin},
-  journal={arXiv preprint arXiv:2109.11103},
-  booktitle={Accepted at 2022 39th IEEE International Conference on Robotics and Automation (ICRA)},
-  year={2021}
+  journal={Accepted at 2022 IEEE International Conference on Robotics and Automation (ICRA 2022)},
+  selected={true},
+  year={2022},
+  website={https://sites.google.com/view/uoais},
+  pdf={https://arxiv.org/abs/2109.11103},
+  code={https://github.com/gist-ailab/uoais},
+  supp={https://youtu.be/rDTmXu6BhIU},
+  abstract={Instance-aware segmentation of unseen objects is essential for a robotic system in an unstructured environment. Although previous works achieved encouraging results, they were limited to segmenting the only visible regions of unseen objects. For robotic manipulation in a cluttered scene, amodal perception is required to handle the occluded objects behind others. This paper addresses Unseen Object Amodal Instance Segmentation (UOAIS) to detect 1) visible masks, 2) amodal masks, and 3) occlusions on unseen object instances. For this, we propose a Hierarchical Occlusion Modeling (HOM) scheme designed to reason about the occlusion by assigning a hierarchy to a feature fusion and prediction order. We evaluated our method on three benchmarks (tabletop, indoors, and bin environments) and achieved state-of-the-art (SOTA) performance. Robot demos for picking up occluded objects, codes, and datasets are available at https://sites.google.com/view/uoais.},
+  img={../assets/img/papers/icra2022.png}
 }
 
 @article{seo2020intra,
+  abbr={BSPC},
   title={Intra-and inter-epoch temporal context network (IITNet) using sub-epoch features for automatic sleep scoring on raw single-channel EEG},
-  author={Seo, Hogeon and Back, Seunghyeok and Lee, Seongju and Park, Deokhwan and Kim, Tae and Lee, Kyoobin},
+  author={Seo, Hogeon and Back, Seunghyeok and Lee, Seongju and Park, Deokhwan and Kim, Tae and Lee, Kyoobin (first co-author)},
   journal={Biomedical Signal Processing and Control},
   volume={61},
   pages={102037},
   year={2020},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  selected={true},
+  pdf={https://www.sciencedirect.com/science/article/pii/S1746809420301932},
+  abstract={A deep learning model, named IITNet, is proposed to learn intra- and inter-epoch temporal contexts from raw single-channel EEG for automatic sleep scoring. To classify the sleep stage from half-minute EEG, called an epoch, sleep experts investigate sleep-related events and consider the transition rules between the found events. Similarly, IITNet extracts representative features at a sub-epoch level by a residual neural network and captures intra- and inter-epoch temporal contexts from the sequence of the features via bidirectional LSTM. The performance was investigated for three datasets as the sequence length () increased from one to ten. IITNet achieved the comparable performance with other state-of-the-art results. The best accuracy, MF1, and Cohen's kappa () were 83.9%, 77.6%, 0.78 for SleepEDF ( = 10), 86.5%, 80.7%, 0.80 for MASS ( = 9), and 86.7%, 79.8%, 0.81 for SHHS ( = 10), respectively. Even though using four epochs, the performance was still comparable. Compared to using a single epoch, on average, accuracy and MF1 increased by 2.48%p and 4.90%p and F1 of N1, N2, and REM increased by 16.1%p, 1.50%p, and 6.42%p, respectively. Above four epochs, the performance improvement was not significant. The results support that considering the latest two-minute raw single-channel EEG can be a reasonable choice for sleep scoring via deep neural networks with efficiency and reliability. Furthermore, the experiments with the baselines showed that introducing intra-epoch temporal context learning with a deep residual network contributes to the improvement in the overall performance and has the positive synergy effect with the inter-epoch temporal context learning.},
+  img={../assets/img/papers/bspc2020.png},
+  supp={https://paperswithcode.com/paper/intra-and-inter-epoch-temporal-context}
 }
 
 @inproceedings{back2020segmenting,
+  abbr={ICIP},
   title={Segmenting unseen industrial components in a heavy clutter using rgb-d fusion and synthetic data},
   author={Back, Seunghyeok and Kim, Jongwon and Kang, Raeyoung and Choi, Seungjun and Lee, Kyoobin},
   booktitle={2020 IEEE International Conference on Image Processing (ICIP)},
   pages={828--832},
   year={2020},
-  organization={IEEE}
+  organization={IEEE},
+  pdf={https://ieeexplore.ieee.org/document/9190804},
+  abstract={Segmentation of unseen industrial parts is essential for autonomous industrial systems. However, industrial components are texture-less, reflective, and often found in cluttered and unstructured environments with heavy occlusion, which makes it more challenging to deal with unseen objects. To tackle this problem, we present a synthetic data generation pipeline that randomizes textures via domain randomization to focus on the shape information. In addition, we propose an RGB-D Fusion Mask R-CNN with a confidence map estimator, which exploits reliable depth information in multiple feature levels. We transferred the trained model to real-world scenarios and evaluated its performance by making comparisons with baselines and ablation studies. We demonstrate that our methods, which use only synthetic data, could be effective solutions for unseen industrial components segmentation.},
+  img={../assets/img/papers/icip2020.png},
+  code={https://github.com/gist-ailab/SF-Mask-RCNN},
+  supp={https://sigport.org/documents/segmenting-unseen-industrial-components-heavy-clutter-using-rgb-d-fusion-and-synthetic},
+  selected={true}
 }
 
 @inproceedings{noh2020automatic,
+  abbr={ETFA},
   title={Automatic Detection and Identification of Fasteners with Simple Visual Calibration using Synthetic Data},
-  author={Noh, Sangjun and Back, Seunghyeok and Kang, Raeyoung and Shin, Sungho and Lee, Kyoobin},
+  author={Noh, Sangjun and Back, Seunghyeok and Kang, Raeyoung and Shin, Sungho and Lee, Kyoobin (first co-author)},
   booktitle={2020 25th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA)},
   volume={1},
   pages={38--44},
   year={2020},
-  organization={IEEE}
+  organization={IEEE},
+  pdf={https://ieeexplore.ieee.org/document/9212155},
+  code={https://github.com/gist-ailab/SF-Mask-RCNN},
+  img={../assets/img/papers/etfa2020.png}
 }
 
-
 @inproceedings{lee2021fusing,
+  abbr={ICCAS},
   title={Fusing RGB and depth with Self-attention for Unseen Object Segmentation},
-  author={Lee, Joosoon and Back, Seunghyeok and Kim, Taewon and Shin, Sungho and Noh, Sangjun and Kang, Raeyoung and Kim, Jongwon and Lee, Kyoobin},
+  author={Lee, Joosoon and Back, Seunghyeok and Kim, Taewon and Shin, Sungho and Noh, Sangjun and Kang, Raeyoung and Kim, Jongwon and Lee, Kyoobin (first co-author)},
   booktitle={2021 21st International Conference on Control, Automation and Systems (ICCAS)},
   pages={1599--1605},
   year={2021},
-  organization={IEEE}
+  organization={IEEE},
+  pdf={https://ieeexplore.ieee.org/abstract/document/9649991},
+  img={../assets/img/papers/iccas_fusing.png}
 }
 
 @inproceedings{lee2021automatic,
+  abbr={ICCAS},
   title={Automatic Detection of Injection and Press Mold Parts on 2D Drawing Using Deep Neural Network},
   author={Lee, Junseok and Kim, Jongwon and Park, Jumi and Back, Seunghyeok and Bak, Seongho and Lee, Kyoobin},
   booktitle={2021 21st International Conference on Control, Automation and Systems (ICCAS)},
   pages={1606--1609},
   year={2021},
+  img={../assets/img/papers/iccas_samsung.png},
+  pdf={https://ieeexplore.ieee.org/abstract/document/9649875},
   organization={IEEE}
 }
 
 @article{back2021robust,
+  abbr={IEEE ACCESS},
   title={Robust Skin Disease Classification by Distilling Deep Neural Network Ensemble for the Mobile Diagnosis of Herpes Zoster},
-  author={Back, Seunghyeok and Lee, Seongju and Shin, Sungho and Yu, Yeonguk and Yuk, Taekyeong and Jong, Saepomi and Ryu, Seungjun and Lee, Kyoobin},
+  author={Back, Seunghyeok and Lee, Seongju and Shin, Sungho and Yu, Yeonguk and Yuk, Taekyeong and Jong, Saepomi and Ryu, Seungjun and Lee, Kyoobin (first co-author)},
   journal={IEEE Access},
   volume={9},
   pages={20156--20169},
   year={2021},
-  publisher={IEEE}
+  publisher={IEEE},
+  pdf={https://ieeexplore.ieee.org/document/9335582},
+  img={../assets/img/papers/access2021.png}
 }
 
 @article{ryu2021pilot,
+  abbr={CHILD'NERV},
   title={Pilot study of a single-channel EEG seizure detection algorithm using machine learning},
   author={Ryu, Seungjun and Back, Seunghyeok and Lee, Seongju and Seo, Hyeon and Park, Chanki and Lee, Kyoobin and Kim, Dong-Seok},
   journal={Child's Nervous System},
   pages={1--6},
   year={2021},
-  publisher={Springer}
+  publisher={Springer},
+  pdf={https://link.springer.com/article/10.1007/s00381-020-05011-9},
+  img={../assets/img/papers/child2021.png}
 }
 
 @article{lee2021object,
+  abbr={ArXiv},
   title={Object Detection for Understanding Assembly Instruction Using Context-aware Data Augmentation and Cascade Mask R-CNN},
   author={Lee, Joosoon and Lee, Seongju and Back, Seunghyeok and Shin, Sungho and Lee, Kyoobin},
   journal={arXiv preprint arXiv:2101.02509},
-  year={2021}
+  year={2021},
+  arxiv={https://arxiv.org/abs/2101.02509},
+  img={../assets/img/papers/arxiv2021.png}
 }
