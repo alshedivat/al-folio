@@ -8,14 +8,14 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p><center><a href="https://imanhamid.github.io/assets/pdf/CV_ImanHamid_Main.pdf" target="_blank">CV</a> | <a href="https://imanhamid.github.io/assets/pdf/Resume_Hamid_2021.pdf" target="_blank">Resume</a></center></p>
+    <p><center><a href="https://imanhamid.github.io/assets/pdf/CV_ImanHamid_Main.pdf" target="_blank">CV</a> | <a href="https://imanhamid.github.io/assets/pdf/Resume_Hamid_2022.pdf" target="_blank">Resume</a></center></p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a fourth year Genetics & Genomics PhD candidate in <a href="https://www.goldberglab.org/" target ="_blank">Dr. Amy Goldberg</a>’s lab at Duke University. I have research experience spanning the fields of population genetics, bioinformatics, evolutionary biology, statistics, and molecular biology.
+I am a Genetics & Genomics PhD candidate in <a href="https://www.goldberglab.org/" target ="_blank">Dr. Amy Goldberg</a>’s lab at Duke University. I will be defending my dissertation on Monday, Feb 28, 2022. I have research experience spanning the fields of population genetics, bioinformatics, evolutionary biology, statistics, and molecular biology.
 
 My [current work](/research/) focuses on applying, developing, and improving computational and statistical methods to understand the population history of humans and other organisms. Through my thesis work, I have gained unique experience with methods tailored specifically for low-coverage genomic data (i.e. [ancient DNA](/projects/ancient_admixture/)) or populations with mixed ancestry (i.e. [admixed populations](/projects/admixture_stats/)). Many of these populations have been historically underrepresented in genomics studies due to the lack of methods, and my work helps broaden the diversity of populations we can study and paves the way for future insights on evolutionary history, disease susceptibility, and phenotypic variation in these populations. I also have experience applying [machine learning and computer vision](/projects/selection_scan/) methods for genomic analyses.
 
