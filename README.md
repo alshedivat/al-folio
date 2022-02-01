@@ -110,7 +110,7 @@ Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/0
 
 You need to do these step to get `ai-folio` up and running in your local machine:
 
-- Install docker using [this link](https://docs.docker.com/get-docker/)
+- Install [docker](https://docs.docker.com/get-docker/)
 - Clone your repository
 
 ```bash
@@ -118,7 +118,7 @@ You need to do these step to get `ai-folio` up and running in your local machine
       cd <your-repo-name>
 ```
 
-- Build docker image to download necessary modules and install them (this command will build an image which is used to run your website afterwards. note that you only need to do this step once, after you have the image you no longer need to create one anymore):
+- Download necessary modules and install them into a docker image called `mywebsite:Dockerfile` (this command will build an image which is used to run your website afterwards. Note that you only need to do this step once. After you have the image, you no longer need to do this anymore):
   
 
 ```bash
@@ -131,7 +131,8 @@ You need to do these step to get `ai-folio` up and running in your local machine
     ./docker_run.sh
 ```
 
-> In order to change port number you can change `docker_run.sh` file.
+> In order to change port number, you can change `docker_run.sh` file.
+> If you want to update jekyll or install new ruby packages or ... , all you have to do is to build the image again! It will download ruby and jekyll and install all ruby packages again. 
 
 #### Local Setup (Legacy mode)
 
