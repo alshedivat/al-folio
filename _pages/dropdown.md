@@ -1,12 +1,13 @@
 ---
 layout: page
-title: submenus
-nav: false
-dropdown: true
-children: 
-    - title: publications
-      permalink: /publications/
-    - title: divider
-    - title: projects
-      permalink: /projects/
+title: Resume
+nav: true
+permalink: assets/pdf/cv.pdf
+dropdown: false
+# children: 
+#     - title: publications
+#       permalink: /publications/
+#     - title: divider
+#     - title: projects
+#       permalink: /projects/
 ---
