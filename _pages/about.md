@@ -6,7 +6,7 @@ subtitle: Northwestern University
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: EC.jpg
   address: >
     <p>CS Department @ Northwestern University</p>
 
