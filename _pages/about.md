@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Northwestern University
+subtitle:
 
 profile:
   align: right
