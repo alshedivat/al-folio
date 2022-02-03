@@ -4,10 +4,10 @@ permalink: /people/
 title: people
 description:
 nav: true
-person_types: ["PI","Collaborators","PhD","PhD Rotation Students","Medical Students","Master's","Undergraduates","High School Summer"]
+person_types: ["Principal Investigator","Collaborators","PhD","PhD Rotation Students","Medical Students","Master's","Undergraduates","High School Summer"]
 lab_types: ["Current","Former"]
 ---
-{% assign rand_img = 0 %}
+{% assign rand_img = 100 %}
 {% for lab_type in page.lab_types%}
 <h2>{{lab_type}} Lab Members</h2>
 {% for person_type in page.person_types%}
@@ -23,7 +23,7 @@ lab_types: ["Current","Former"]
 <h3>{{person_type}}</h3>
 {% for person in site.people %}
 {% if person.type==person_type and person.lab_type==lab_type %}
-{% assign rand_img = rand_img + 1 %}
+{% assign rand_img = rand_img | plus:1 %}
 <div class="person">
     <div class="thumbnail">
         <a href="{{ person.url | prepend: site.baseurl | prepend: site.url }}">

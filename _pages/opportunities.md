@@ -6,6 +6,24 @@ description:
 nav: true
 ---
 [Apply for Positions Here!](#application)
+## EDIT ML Summer High School Internship Program
+<p align="center">
+    <img src="/levylab/assets/img/edit_ml_website.jpg" width="90%">
+</p>
+The Department of Pathology and Laboratory Medicine at Dartmouth-Hitchcock Medical Center (Emerging Diagnostic and Investigative Technologies; EDIT) Machine Learning program has been developing, validating, and scaling artificial intelligence technologies that aim to improve clinical efficiency and patient outcomes. Our group has developed computational methods to assess and integrate a wide variety of modalities, ranging from whole slide images, to pathology text reports, metagenomic sequences, graphs, electronic health records, and multi-omics datatypes. Opportunities exist to develop skills to analyze these high dimensional datatypes using R, Python, and high-performance computing, communicate their findings to a clinical research audience, and gain experience in scientific writing (spearheading potential research publications). Through a series of lectures/seminars, guided projects, and IRB supported basic research, interns develop algorithms to explore diagnostic spaces in pathology from cancer detection, to gigapixel image manipulation, to text prediction, amongst many others. We are looking for summer interns / undergraduate researchers with a background in CS, a basic familiarity/exposure in deep learning / machine learning pipelines, and an enthusiasm for doing public good through high-throughput computation. Included here is a small representative list of the dozens of projects in development in the EDIT ML group: [Projects](https://jlevy44.github.io/levylab/projects/).  
+
+If you are interested in this opportunity, please fill out an internship application form here: [Application](https://jlevy44.github.io/levylab/opportunities/#application) or share a CV/Cover Letter with Joshua Levy or Louis Vaickus using the emails below.
+
+Please feel free to reach out by email either to Dr. Louis Vaickus at louis.j.vaickus@hitchcock.org or Prof. Joshua Levy at joshua.j.levy@hitchcock.org or joshua.j.levy@dartmouth.edu if you have any follow up questions.
+
+[Apply Here](#application)
+
+**Timeline:**
+- 3/10: interview requests will be sent out  
+- 3/15-4/15: interviews are conducted  
+- 4/15: latest day to submit an application  
+- 4/15-6/15: decisions and onboarding  
+
 ## Internship at DHMC Department of Pathology and Laboratory Medicine
 The Department of Pathology and Laboratory Medicine at Dartmouth-Hitchcock Medical Center (Emerging Diagnostic and Investigative Technologies; EDIT) Machine Learning program has been developing, validating, and scaling artificial intelligence technologies that aim to improve clinical efficiency and patient outcomes. Our group has developed computational methods to assess and integrate a wide variety of modalities, ranging from whole slide images, to pathology text reports, metagenomic sequences, and multi-omics datatypes. Opportunities exist to develop skills to analyze these high dimensional datatypes using R, Python, and high-performance computing, communicate their findings to a clinical research audience, and gain experience in scientific writing (spearheading potential research publications).
 

@@ -12,4 +12,3 @@ lab_type: "Current"
 description: Collaborator
 ---
 
-**Website:** [brady.ai](brady.ai)

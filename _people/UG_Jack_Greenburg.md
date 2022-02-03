@@ -1,10 +1,10 @@
 ---
 layout: people
 title: Jack Greenburg
-img: placeholder
+img: /assets/img/GreenburgPic_thumbnail.jpg
 profile:
   align: right
-  image:
+  image: GreenburgPic.jpg
 news: false
 social: false
 type: "Undergraduates"
