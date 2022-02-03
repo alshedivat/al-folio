@@ -6,7 +6,7 @@ description:
 nav: true
 ---
 [Apply for Positions Here!](#application)
-## EDIT ML Summer High School Internship Program
+## EDIT ML High School Summer Internship Program
 <p align="center">
     <img src="/levylab/assets/img/edit_ml_website.jpg" width="90%">
 </p>
