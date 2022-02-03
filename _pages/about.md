@@ -2,7 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Emerging Diagnostic and Investigative Technologies, Department of Pathology and Laboratory Medicine, Dartmouth Hitchcock Medical Center, Lebanon, New Hampshire, USA. Department of Dermatology, Dartmouth Hitchcock Medical Center, Lebanon, New Hampshire, USA. Department of Epidemiology, Geisel School of Medicine at Dartmouth, Lebanon, New Hampshire, USA. Program in Quantitative Biomedical Sciences, Geisel School of Medicine at Dartmouth, Lebanon, New Hampshire, USA. NCCC Cancer Population Sciences Member.
+subtitle: <a href='#'>Affiliations</a>. <p>Emerging Diagnostic and Investigative Technologies, Department of Pathology and Laboratory Medicine, Dartmouth Hitchcock Medical Center, Lebanon, New Hampshire, USA.</p> 
+<p>Department of Dermatology, Dartmouth Hitchcock Medical Center, Lebanon, New Hampshire, USA.</p>
+<p>Department of Epidemiology, Geisel School of Medicine at Dartmouth, Lebanon, New Hampshire, USA.</p>
+<p>Program in Quantitative Biomedical Sciences, Geisel School of Medicine at Dartmouth, Lebanon, New Hampshire, USA.</p>
+<p>NCCC Cancer Population Sciences Member.</p>
 
 profile:
   align: right
