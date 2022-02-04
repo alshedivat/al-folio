@@ -3,11 +3,10 @@ layout: page
 permalink: /talks/
 title: talks
 description: talks by categories in reversed chronological order.
-years: [2021, 2020, 2019, 2018, 2016]
+years: [2021, 2019, 2018, 2016]
 nav: true
 ---
-
-
+<!-- _pages/publications.md -->
 <div class="talks">
 
 {%- for y in page.years %}
