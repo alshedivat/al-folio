@@ -1,12 +1,12 @@
 ---
 layout: page
 permalink: /students/
-title: talks
-description: talks by categories in reversed chronological order.
+title: students
+description: Amazing work of the students I supervised.
 years: [2021, 2020]
 nav: true
 ---
-<!-- _pages/talks.md -->
+<!-- _pages/students.md -->
 <div class="publications">
 
 {%- for y in page.years %}
