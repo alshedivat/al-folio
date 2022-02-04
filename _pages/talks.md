@@ -1,12 +1,18 @@
 ---
 layout: page
-title: talks
 permalink: /talks/
-description: .
+title: Talks
+description: talks by categories in reversed chronological order.
+years: [2021, 2020, 2019, 2018, 2016]
 nav: true
-display_categories: [work, fun]
-horizontal: false
 ---
 
 
-Site under construction
+<div class="publications">
+
+{%- for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% talks -f papers -q @*[year={{y}}]* %}
+{% endfor %}
+
+</div>
