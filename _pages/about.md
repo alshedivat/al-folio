@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: firstname %DOT% lastname %AT% northwestern %DOT% edu
+subtitle: F1RSTN4M3 %D0T% L4STN4M3 %AT% northwestern %D0T% edu
 
 profile:
   align: right
