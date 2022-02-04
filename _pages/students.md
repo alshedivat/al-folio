@@ -1,12 +1,17 @@
 ---
 layout: page
-title: students
 permalink: /students/
-description: .
+title: talks
+description: talks by categories in reversed chronological order.
+years: [2021, 2020]
 nav: true
-display_categories: [work, fun]
-horizontal: false
 ---
+<!-- _pages/talks.md -->
+<div class="publications">
 
+{%- for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f students -q @*[year={{y}}]* %}
+{% endfor %}
 
-Site under construction
+</div>
