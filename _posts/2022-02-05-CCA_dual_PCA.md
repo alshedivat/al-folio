@@ -87,6 +87,8 @@ therefore, we can get $XY^T = U\Lambda V$, and the embedding are $Z_1 = U\Lambda
 
 Almost the same, except missing the singular value in the original paper.
 
+<!-- TODO --> finish later
+
 There is an assumption: "Treat the covariance matrix within each data set as diagonal." in the method part of the CCA paper. But it's not necessary and inconsistent with the data.
 
 ## Conclusion
