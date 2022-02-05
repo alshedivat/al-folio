@@ -122,18 +122,18 @@ You need to do these step to get `ai-folio` up and running in your local machine
   
 
 ```bash
-    docker build -t "mywebsite:Dockerfile" . 
+    bin/docker_build_image.sh  
 ```
 
 - Run the website!
 
 ```bash
-    ./docker_run.sh
+    bin/docker_run.sh
 ```
 
 > In order to change port number, you can change `docker_run.sh` file.
 
-> If you want to update jekyll or install new ruby packages or ... , all you have to do is to build the image again! It will download ruby and jekyll and install all ruby packages again. 
+> If you want to update jekyll or install new ruby packages or ... , all you have to do is to build the image again using `docker_build_image.sh`! It will download ruby and jekyll and installall ruby packages again.
 
 #### Local Setup (Legacy mode)
 
