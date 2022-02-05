@@ -8,7 +8,6 @@ RUN apk add --no-cache --virtual .build-deps \
         g++ \
         make \
     && apk add --no-cache imagemagick-dev imagemagick
-RUN yarn global add @mermaid-js/mermaid-cli
 WORKDIR /srv/jekyll
 ADD Gemfile /srv/jekyll/
 RUN bundle install
