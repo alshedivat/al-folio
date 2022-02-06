@@ -42,7 +42,7 @@ $$
     </div>
 </div>
 
-    $$X\in R^{n\times g}$$: the gene expression matrix. $$X^TX \in R^{g\times g}$$: the gene co-variance matrix. The SVD can provide a best low rank approximation of gene co-variance matrix by select the Top $$k$$ singular value and the vectors.
+$$X\in R^{n\times g}$$: the gene expression matrix. $$X^TX \in R^{g\times g}$$: the gene co-variance matrix. The SVD can provide a best low rank approximation of gene co-variance matrix by select the Top $$k$$ singular value and the vectors.
 
 <hr>
 
@@ -58,7 +58,7 @@ $$
     </div>
 </div>
 
-    $$Z_X \in R^{n\times k}$$ is the low dimensional embeddings. } $$The V^{'T} \in R^{g\times k}$$ is the project matrix.Then based on the SVD, $$Z = U_{1:n, 1:k}\Sigma_{1:k}$$
+$$Z_X \in R^{n\times k}$$ is the low dimensional embeddings. } $$The V^{'T} \in R^{g\times k}$$ is the project matrix.Then based on the SVD, $$Z = U_{1:n, 1:k}\Sigma_{1:k}$$
 
 <hr>
 
@@ -78,7 +78,7 @@ $$
     </div>
 </div>
 
-      $$X\in R^{n\times g}$$: the gene expression matrix. $$XX^T \in R^{n\times n}$$: the cell-cell similarity matrix. The SVD can provide a best low rank approximation of cell-cell similarity matrix by select the Top $$k$$ singular value and the vectors.
+$$X\in R^{n\times g}$$: the gene expression matrix. $$XX^T \in R^{n\times n}$$: the cell-cell similarity matrix. The SVD can provide a best low rank approximation of cell-cell similarity matrix by select the Top $$k$$ singular value and the vectors.
 
 <hr>
 And $$Z = U_{1:n, 1:k}\Sigma_{1:k} $$ will be the embedding, which is the same as what we derived in PCA.
@@ -89,7 +89,7 @@ And $$Z = U_{1:n, 1:k}\Sigma_{1:k} $$ will be the embedding, which is the same a
     </div>
 </div>
 
-    $$Z_X \in R^{n\times k}$$ is the low dimensional embeddings. Then based on the SVD, $$Z = U_{1:n, 1:k}\Sigma_{1:k}$$ is the best embedding which approximate the similarity matrix best.
+$$Z_X \in R^{n\times k}$$ is the low dimensional embeddings. Then based on the SVD, $$Z = U_{1:n, 1:k}\Sigma_{1:k}$$ is the best embedding which approximate the similarity matrix best.
 
 <hr>
 We can check it by
@@ -116,7 +116,7 @@ It's quite obvious that we can solve the above problem with a small modification
     </div>
 </div>
 
-    $$X\in R^{n\times g}, Y\in R^{m\times g}$$: the gene expression matrix. $$XX^T \in R^{n\times n}, YY^T \in R^{m\times m}$$: the cell-cell similarity matrix. $$V_X, V_Y\in R^{g\times k}$$ are the project matrix for these two batches.  $$Z_X \in R^{n\times k}, Z_Y \in R^{m\times k}$$ are the low dimensional embeddings(projection) of two batch data $$X, Y$$. The object is to find these embeddings which preserve the cell-cell similarity matrix as much as possible.
+$$X\in R^{n\times g}, Y\in R^{m\times g}$$: the gene expression matrix. $$XX^T \in R^{n\times n}, YY^T \in R^{m\times m}$$: the cell-cell similarity matrix. $$V_X, V_Y\in R^{g\times k}$$ are the project matrix for these two batches. $$Z_X \in R^{n\times k}, Z_Y \in R^{m\times k}$$ are the low dimensional embeddings(projection) of two batch data $$X, Y$$. The object is to find these embeddings which preserve the cell-cell similarity matrix as much as possible.
 
 <hr>
 
@@ -132,7 +132,7 @@ $$
     </div>
 </div>
 
-    Apply the SVD to $$XY^T$$(across batch cell-cell similarity matrix)
+Apply the SVD to $$XY^T$$(across batch cell-cell similarity matrix)
 
 <hr>
 
@@ -151,7 +151,7 @@ $$
     </div>
 </div>
 
-    $$Z_X \in R^{n\times k}, Z_Y \in R^{m\times k}$$ are the best low dimensional embeddings(projection) of two batch data $$X, Y$$.
+$$Z_X \in R^{n\times k}, Z_Y \in R^{m\times k}$$ are the best low dimensional embeddings(projection) of two batch data $$X, Y$$.
 
 We can also check this approximation:
 
@@ -166,7 +166,7 @@ $$
     </div>
 </div>
 
-    $$Z_XZ_Y^T$$ is the similarity matrix based on the low dimensional embeddings.
+$$Z_XZ_Y^T$$ is the similarity matrix based on the low dimensional embeddings.
 
 <hr>
 
@@ -212,7 +212,7 @@ Futhermore, in the original paper, the cell embeddings of two datasets are $$Z_X
     </div>
 </div>
 
-    From method part of the original paper. In the original paper, $$X\in R^{g\times n}, Y\in R^{g\times m}, just a different notation.
+From method part of the original paper. In the original paper, $$X\in R^{g\times n}, Y\in R^{g\times m}, just a different notation.
 
 <hr>
 To compare the difference in algorithm performance with or without the singular value, we implemented these two methods to data from  <a href="https://www.nature.com/articles/s41587-020-0465-8"> Systematic comparison of single-cell and single-nucleus RNA-sequencing methods. *Nature biotechnology*(2020)</a>
