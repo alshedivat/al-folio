@@ -111,7 +111,7 @@ Based on SVD, $$U_{1:n,1:k}\Sigma_{1:k} (V_{1:n, 1:k})^T$$ is the best low-rank 
 
 ## Back to the "Seurat CCA" paper
 
-In the _Method_ section of the "Seurat CCA" paper, authors had several assumptions to get to the final result of cell embeddings. An important assumption is to "treat the covariance matrix within each dataset as diagonal", meaning that genes are independent to each other, which is not true.
+In the _Method_ section of the "Seurat CCA" paper, authors had several assumptions to get to the final result of cell embeddings. An important assumption is to "treat the covariance matrix within each dataset as diagonal", meaning that genes are independent to each other, which is **NOT** true.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -122,7 +122,9 @@ In the _Method_ section of the "Seurat CCA" paper, authors had several assumptio
     But it's not necessary and inconsistent with the biology.
 </div>
 
-From our view, applying SVD to $$XY^T$$ is very easy to understand - it's just simply to capture the cell similarity across batches and does not need any other assumptions.
+Alternitively, applying SVD to $$XY^T$$ is intuitive and natural - it is just to capture the cell similarity across batches and does not need any assumption.
+
+Futhermore, in the original paper, the cell embeddings of two datasets are $$Z_1 = U$$ and $$Z_2 = V $$, missing the singular value compared to our derivation above.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -130,9 +132,7 @@ From our view, applying SVD to $$XY^T$$ is very easy to understand - it's just s
     </div>
 </div>
 
-Futhermore, in the original method, the cell embeddings of two datasets is $$Z_1 = U, Z_2 = V $$ missing the singular value compared to our derivation.
-
-To compare the difference, we implement these two methods to check if there is any difference.
+To compare the difference in algorithm performance with or without the singular value, we implemented these two methods to data from PAPER (name, link). (code)
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -140,20 +140,23 @@ To compare the difference, we implement these two methods to check if there is a
     </div>
 </div>
 <div class="caption">
-    It seems contain more biological variation if we add the single values.
+    MORE TO DO. It seems contain more biological variation if we add the single values.
 </div>
 
-### Difference between "CCA" and CCA
+It's obvious that with the singular value, different cell types are more seperated from each other in UMAP visualization, meaning that more biological variation is preserved in the embedding.
 
-The CCA in seurat is taking the project vector from the traditional CCA directly as embedding(with some assumptions).
+### Difference between "Seurat CCA" and Real CCA
 
-But in fact, **the traditional CCA project genes into a common space rather than cells.**
+The "Seurat CCA" is taking the project vector from the traditional CCA directly as cell embeddings (with some assumptions). But in fact, **the traditional CCA projects genes into a common space rather than cells.**
 
-## Connection with the Mutual nearest neighbor (MNN) method.
 
-There is an intrinsic connection between MNN and "CCA"(an extension of dual PCA). The shared assumption is that **the similar cells from different batch have a higher similarity(smaller distance in MNN) compared to different cells.**
+## Connection with the Mutual Nearest Neighbor (MNN) method.
 
-We can plot a heatmap of the similarity matrix of two different batches.
+There is an intrinsic connection between "Seurat CCA" and MNN, another popular method in removing batch-effect.
+
+"Seurat CCA" has the assumption that **biologically more similar** cells from different batches have a **higher mathematical similarity** (defined as dot product), while MNN has a very similar assumption that biologically more similar cells from different batches have **smaller euclidean distance** defined in the algorithm. In fact, with proper normalization, the "mathematical similarity (dot product)" in the former assumption and the "euclidean distance" in the latter are equivalent to each other!
+
+The above assumptions are right in real data. We can plot a heatmap of the similarity matrix of two different batches, and what we see is a higher similarity along the diagonal.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -166,6 +169,4 @@ We can plot a heatmap of the similarity matrix of two different batches.
 
 ## Conclusion
 
-Based on our understanding, we think the theory behind the seurat "CCA" algorithm is not CCA. It is more like an extension of dual PCA. Besides, the assumption in the methods part of the original paper, the covariance matrix of gene expression is diagonal, is not necessary.
-
-Furthermore, considering the formulation to preserve the similarity, the low dimension embedding should multiply the singular value first and then do the L2 normalization. And there is an intrinsic connection between MNN and "CCA"(an extension of dual PCA).
+Based on our understanding, the math behind the "Seurat CCA" algorithm is actually not CCA, but an extension of dual PCA. Besides in the original paper, the assumption that the covariance matrix of gene expression is diagonal, is not necessary. Furthermore, considering the formulation to preserve the most similarity (dual PCA), the low-dimensional cell embeddings should multiply the singular value, which is currently missing in the "Seurat CCA" algorithm. And finally, there is an intrinsic connection between MNN and "Seurat CCA" (extended dual PCA).
