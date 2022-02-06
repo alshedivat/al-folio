@@ -83,7 +83,7 @@ And $$Z = U_{1:n, 1:k}\Sigma_{1:k} $$ will be the embedding, which is the same a
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/2022-02-06-09-55-52.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/2022-02-06-10-13-00.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -108,7 +108,39 @@ Given two datasets(from two batches), $$X\in R^{n\times g}$$ and $$Y\in R^{m\tim
 
 It's quite obvious that we can solve the above problem with a small modification of Dual PCA -- In dual PCA, we apply SVD to $$XX^T$$, but now we can apply the SVD to $$XY^T$$. As **in Dual PCA, the embedding preserves the sample similarity within one dataset, in this new case, the embeddings will preserve the cross-batch sample similarity**.
 
-We can get $$XY^T = U\Sigma V^T$$, and the best embeddings will be $$Z_X = U_{1:n,1:k}(\Sigma_{1:k})^\frac{1}{2}, Z_Y = V_{1:n, 1:k}(\Sigma_{1:k})^\frac{1}{2}$$.
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/2022-02-06-10-22-11.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    But it's not necessary and inconsistent with the biology.
+</div>
+
+We can get $$XY^T = U\Sigma V^T$$,
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/2022-02-06-10-31-43.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    But it's not necessary and inconsistent with the biology.
+</div>
+
+and the best embeddings will be $$Z_X = U_{1:n,1:k}(\Sigma_{1:k})^\frac{1}{2}, Z_Y = V_{1:n, 1:k}(\Sigma_{1:k})^\frac{1}{2}$$.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/2022-02-06-10-30-33.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/2022-02-06-10-30-54.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    But it's not necessary and inconsistent with the biology.
+</div>
 
 We can also check this approximation:
 
@@ -116,6 +148,15 @@ $$
 |XY^T  - Z_XZ_Y^T| = | U\Sigma V^T - U_{1:n,1:k}\Sigma_{1:k}^\frac{1}{2} (V_{1:n, 1:k}\Sigma_{1:k}^\frac{1}{2})^T| \\
 = | U\Sigma V^T - U_{1:n,1:k}\Sigma_{1:k} (V_{1:n, 1:k})^T|
 $$
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/2022-02-06-10-34-03.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    But it's not necessary and inconsistent with the biology.
+</div>
 
 Based on SVD, $$U_{1:n,1:k}\Sigma_{1:k} (V_{1:n, 1:k})^T$$ is the best low-rank approximation of $$U\Sigma V^T$$.
 
