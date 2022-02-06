@@ -1,6 +1,6 @@
 ---
 layout: post
-title: It's not CCA, it's an extension of PCA.
+title: "Seurat CCA"? It's just a simple extension of PCA!
 date: 2021-01-20 23:00
 description:
 tags: blog, single cell
@@ -9,53 +9,61 @@ categories: blog
 
 ## Introduction
 
-The canonical correlation analysis(CCA) of Seurat is one of the most popular batch effects removing methods. However, the method part of the original paper<a href="https://doi.org/10.1016/j.cell.2019.05.031"> Comprehensive Integration of Single-Cell Data</a> is quiet confused. After careful reading and some experiments, My friend(Ziyu Chen) and I found that the theory behind the method might not be based on canonical correlation analysis. It's an extension of dual PCA.
+The canonical correlation analysis(CCA) of Seurat is one of the most popular batch effects removing methods. However, the Method part of the original paper<a href="https://doi.org/10.1016/j.cell.2019.05.031"> Comprehensive Integration of Single-Cell Data</a> is quiet confusing. After careful reading and some experiments, my friend(Ziyu Chen) and I found that the math behind the so-called CCA method might not be based on canonical correlation analysis. In fact, it's just a simple extension of (dual) PCA!
 
-**The key idea is finding two low-dimension embeddings to conserve the cross-batch cell similarity.**
+In this blog,
 
-Besides, there is an intrinsic connection between MNN and "CCA"(an extension of dual PCA).
-In this blog, I will first introduce the PCA and then go to dual PCA method. With a simple extension of Dual PCA, we can get a better version of Seurat "CCA" without more assumptions.
+- I will first introduce PCA and dual PCA. While PCA/dual PCA computes the self-similarity in one dataset ($$XX^T$$), we can extend them to compute the similarity across two datasets ($$XY^T$$), and the latter is exactly what "Seurat CCA" does! 
 
-## Principal Components Analysis
+- Therefore, it's not difficult to realize that there is an intrinsic connection between the two most popular batch-effect removing methods, "Seurat CCA" and MNN (full name) <link>. 
 
-Principal Components Analysis(PCA) is a very popular method for dimension reduction.
+- Finally, with these understandings, it's obvious that the current "Seurat CCA" is missing the singular value in the embedding process of dual PCA. We demonstated by experiments that if the singular value is added to the algorithm, more biological variation will be preserved.
+
+
+## Principal Components Analysis (PCA)
+
+PCA is a very popular method for dimension reduction.
 
 ### Direct PCA
 
-PCA aims to project the data points $$x \in R^{g}$$ into a linear subspace $$R^k$$ which maintain the most of the variability of the data.
+PCA aims to project data points $$x \in R^{g}$$ into a linear subspace $$R^k$$ while preserving as much as possible the variability.
 
-For a given data: $$X\in R^{n \times g}$$(In single cell data, $$n$$ is the number of cells, $$g$$ is the number of genes.).
-The $$k$$ principle axes are orthogonal axes.
+For a given dataset $$X\in R^{n \times g}$$ (In single cell RNAseq data, $$n$$ is the number of cells, $$g$$ is the number of genes), PCA wants to find a linear embedding $$Z= XV \in R^{k \times n}$$, where $$X\in R^{n\times g}, V\in R^{g \times k} $$, to represent $$X$$ while preserving as much as possible the variability in $$X$$. (_Note: An equivalent and another common definition of PCA is the projection onto a subspace minimizing the squared reconstruction error._)
 
-PCA want to find a linear embedding $$Z= XV \in R^{k \times n}$$, where $$X\in R^{n\times g}, V\in R^{g \times k} $$ to represent the data $X$ and preserve variation as much as possible. (_Another common definition of PCA is that, the projection onto the subspace minimize the squared reconstruction error._)
-
-The solution for $$V$$ can be expressed as singular value decomposition (SVD) of $$X$$ clearly.
+The solution $$V$$ can be calculated from the singular value decomposition (SVD) of $$X$$:
 
 $$
-X = U\Sigma V^T, X^TX=V \Sigma^2 V^{T}
+X = U\Sigma V^T, X^TX=V \Sigma^2 V^{T}.
 $$
 
-And $$Z = XV_{1:g,1:k} =U\Sigma V^T V_{1:g,1:k} = U_{1:n, 1:k}\Sigma_{1:k} $$ will be the solution.
+And the embedding we are looking for in PCA will be 
+
+$$
+Z = XV_{1:g, 1:k} =U\Sigma V^T V_{1:g,1:k} = U_{1:n, 1:k}\Sigma_{1:k}.
+$$
+
 
 ### Dual PCA
 
-It turns out that the singular value decomposition allows us to formulate the principle components algorithm entirely in terms of dot products between data points. Based on that, there is another formulation of PCA - dual PCA.
+SVD allows us to formulate the PCA entirely in terms of dot products between data point pairs $$(x_i,x_j)$$. Based on that, there is another formulation of PCA -- dual PCA.
 
-The computation process of PCA is applying SVD to $$X^TX\in R^{g \times g}$$. But consider another form of this process - applying SVD to $$XX^T \in R^{n\times n}$$. The principle behind dual PCA is to consider the similarity matrix between samples(The dot product is also a similarity metric after normalization). And dual PCA want to find a low dimension embedding to preserve this similarity matrix as much as possible.
+The computation process of PCA is applying SVD to $$X^TX\in R^{g \times g}$$. But consider another form of this process -- applying SVD to $$XX^T \in R^{n\times n}$$. (Note that $$R^{g \times g}$$ and $$R^{n\times n}$$ have the same rank, so they contain the same amount of information.) The principle behind dual PCA is to consider the similarity matrix between samples(The dot product is also a similarity metric after normalization). And dual PCA want to find a low dimension embedding to preserve this similarity matrix as much as possible. Same as for PCA, we have
 
 $$
 X = U\Sigma V^T, XX^T=U\Sigma^2 U^{T}
 $$
 
-And $$Z = U_{1:n, 1:k}\Sigma_{1:k} $$ will be the solution. We can also check the solution.
+And $$Z = U_{1:n, 1:k}\Sigma_{1:k} $$ will be the embedding, which is the same as what we derived in PCA. We can check it by 
 
 $$
-|XX^T - ZZ^T| = |U\Sigma^2 U^{T} - U_{1:n, 1:k}\Sigma_{1:k}^2 (U_{1:n,1:k})^T|
+|XX^T - ZZ^T| = |U\Sigma^2 U^{T} - U_{1:n, 1:k}\Sigma_{1:k}^2 (U_{1:n,1:k})^T|.
 $$
 
-The $$U_{1:n, 1:k}\Sigma_{1:k}^2 (U_{1:n,1:k})^T$$ is the best low rank approximate of $$U\Sigma^2 U^{T}$$ based on the property of SVD.
+Here, the eigenvalues in the diagnal matrix $$\Sigma$$ is monotonically decreasing, meaning that $$U_{1:n, 1:k}\Sigma_{1:k}^2 (U_{1:n,1:k})^T$$ is the best low rank approximate of $$U\Sigma^2 U^{T}$$.
 
-# "CCA", an extension of dual PCA
+
+
+# "Seurat CCA" -- an extension of dual PCA
 
 In this section, we will get the extension of dual PCA and show it's almost the same with the "CCA" method in Seurat.
 
