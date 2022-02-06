@@ -164,18 +164,18 @@ Based on SVD, $$U_{1:n,1:k}\Sigma_{1:k} (V_{1:n, 1:k})^T$$ is the best low-rank 
 
 ### PCA and Dual PCA
 
-**Data**: $$X\in R^{n\times g}$$, $$n$$ is the number of cells, $$g$$ is the number of genes.
-**Task**: Find a low-dimensional embedding $$Z \in R^{n\times k}$$ to represent the data $$X$$.
-**Object**: Minimize $$\|Z^TZ - X^TX\|$$(PCA) or $$\|ZZ^T - XX^T\|$$ (Dual PCA).
-**Direct PCA Solution**: Apply SVD to $$X^TX$$: $$X^TX = V \Sigma^2V^T$$. $$V$$ is the loading matrix, so $$Z = XV_{1:g,1:k} = U\Sigma VV_{1:g,1:k} = U_{1:n,1:g}\Sigma_{1:k}$$ is the low-dimensional embedding.
-**Dual PCA Solution**: Apply SVD to $$XX^T $$:  $$XX^T= U\Sigma^2U^T$$. So the low-dimensional embedding is also $$Z = U_{1:n,1:g}\Sigma_{1:k} $$.
+- **Data**: $$X\in R^{n\times g}$$, $$n$$ is the number of cells, $$g$$ is the number of genes.
+- **Task**: Find a low-dimensional embedding $$Z \in R^{n\times k}$$ to represent the data $$X$$.
+- **Object**: Minimize $$\|Z^TZ - X^TX\|$$(PCA) or $$\|ZZ^T - XX^T\|$$ (Dual PCA).
+- **Direct PCA Solution**: Apply SVD to $$X^TX$$: $$X^TX = V \Sigma^2V^T$$. $$V$$ is the loading matrix, so $$Z = XV_{1:g,1:k} = U\Sigma VV_{1:g,1:k} = U_{1:n,1:g}\Sigma_{1:k}$$ is the low-dimensional embedding.
+- **Dual PCA Solution**: Apply SVD to $$XX^T $$:  $$XX^T= U\Sigma^2U^T$$. So the low-dimensional embedding is also $$Z = U_{1:n,1:g}\Sigma_{1:k} $$.
 
 ### Dual PCA Extended to Two Datasets
 
-**Data**: $$X\in R^{n\times g}, Y\in R^{m \times g}$$, $$n$$ and $$m$$ are the number of cells, $$g$$ is the number of genes
-**Task**: Find low-dimensional embedding matrices $$Z_X\in R^{n\times k}$$ and $$Z_Y\in R^{m \times k} $$ to represent the two datasets $$X$$ ane $$Y$$.
-**Object**: Minimize $$\|Z_XZ_Y^T - XY^T\|$$ .
-**Solution**: Apply SVD to $$XY^T$$: $$XY^T = U\Sigma V$$. Then $$Z_X = U\Sigma^\frac{1}{2}, Z_Y = V \Sigma^\frac{1}{2}$$ are the embeddings.
+- **Data**: $$X\in R^{n\times g}, Y\in R^{m \times g}$$, $$n$$ and $$m$$ are the number of cells, $$g$$ is the number of genes
+- **Task**: Find low-dimensional embedding matrices $$Z_X\in R^{n\times k}$$ and $$Z_Y\in R^{m \times k} $$ to represent the two datasets $$X$$ ane $$Y$$.
+- **Object**: Minimize $$\|Z_XZ_Y^T - XY^T\|$$ .
+- **Solution**: Apply SVD to $$XY^T$$: $$XY^T = U\Sigma V$$. Then $$Z_X = U\Sigma^\frac{1}{2}, Z_Y = V \Sigma^\frac{1}{2}$$ are the embeddings.
 
 ## Back to the "Seurat CCA" paper
 
