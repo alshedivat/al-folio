@@ -16,9 +16,9 @@ In this blog,
 
 - I will first introduce PCA and dual PCA. While PCA/dual PCA computes the self-similarity in one dataset ($$XX^T$$), we can extend them to compute the similarity across two datasets ($$XY^T$$), and the latter is exactly what "Seurat CCA" does!
 
-- Therefore, it's not difficult to realize that there is an intrinsic connection between the two most popular batch-effect removing methods, "Seurat CCA" and MNN (full name) <link>.
+- Therefore, with these understandings, it's obvious that the current "Seurat CCA" is missing the singular value in the embedding process of dual PCA. We demonstrated by experiments that if the singular value is added to the algorithm, more biological variation will be preserved.
 
-- Finally, with these understandings, it's obvious that the current "Seurat CCA" is missing the singular value in the embedding process of dual PCA. We demonstrated by experiments that if the singular value is added to the algorithm, more biological variation will be preserved.
+- Finally, it's not difficult to realize that there is an intrinsic connection between the two most popular batch-effect removing methods, "Seurat CCA" and MNN (full name) <link>.
 
 ## Principal Components Analysis (PCA)
 
