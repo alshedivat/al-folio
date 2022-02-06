@@ -13,12 +13,11 @@ The canonical correlation analysis(CCA) of Seurat is one of the most popular bat
 
 In this blog,
 
-- I will first introduce PCA and dual PCA. While PCA/dual PCA computes the self-similarity in one dataset ($$XX^T$$), we can extend them to compute the similarity across two datasets ($$XY^T$$), and the latter is exactly what "Seurat CCA" does! 
+- I will first introduce PCA and dual PCA. While PCA/dual PCA computes the self-similarity in one dataset ($$XX^T$$), we can extend them to compute the similarity across two datasets ($$XY^T$$), and the latter is exactly what "Seurat CCA" does!
 
-- Therefore, it's not difficult to realize that there is an intrinsic connection between the two most popular batch-effect removing methods, "Seurat CCA" and MNN (full name) <link>. 
+- Therefore, it's not difficult to realize that there is an intrinsic connection between the two most popular batch-effect removing methods, "Seurat CCA" and MNN (full name) <link>.
 
-- Finally, with these understandings, it's obvious that the current "Seurat CCA" is missing the singular value in the embedding process of dual PCA. We demonstated by experiments that if the singular value is added to the algorithm, more biological variation will be preserved.
-
+- Finally, with these understandings, it's obvious that the current "Seurat CCA" is missing the singular value in the embedding process of dual PCA. We demonstrated by experiments that if the singular value is added to the algorithm, more biological variation will be preserved.
 
 ## Principal Components Analysis (PCA)
 
@@ -36,12 +35,11 @@ $$
 X = U\Sigma V^T, X^TX=V \Sigma^2 V^{T}.
 $$
 
-And the embedding we are looking for in PCA will be 
+And the embedding we are looking for in PCA will be
 
 $$
 Z = XV_{1:g, 1:k} =U\Sigma V^T V_{1:g,1:k} = U_{1:n, 1:k}\Sigma_{1:k}.
 $$
-
 
 ### Dual PCA
 
@@ -53,15 +51,13 @@ $$
 X = U\Sigma V^T, XX^T=U\Sigma^2 U^{T}
 $$
 
-And $$Z = U_{1:n, 1:k}\Sigma_{1:k} $$ will be the embedding, which is the same as what we derived in PCA. We can check it by 
+And $$Z = U_{1:n, 1:k}\Sigma_{1:k} $$ will be the embedding, which is the same as what we derived in PCA. We can check it by
 
 $$
 |XX^T - ZZ^T| = |U\Sigma^2 U^{T} - U_{1:n, 1:k}\Sigma_{1:k}^2 (U_{1:n,1:k})^T|.
 $$
 
-Here, the eigenvalues in the diagnal matrix $$\Sigma$$ is monotonically decreasing, meaning that $$U_{1:n, 1:k}\Sigma_{1:k}^2 (U_{1:n,1:k})^T$$ is the best low-rank approximation of $$U\Sigma^2 U^{T}$$.
-
-
+Here, the eigenvalues in the diagonal matrix $$\Sigma$$ is monotonically decreasing, meaning that $$U_{1:n, 1:k}\Sigma_{1:k}^2 (U_{1:n,1:k})^T$$ is the best low-rank approximation of $$U\Sigma^2 U^{T}$$.
 
 ## "Seurat CCA" -- an Extension of Dual PCA
 
@@ -108,7 +104,6 @@ Based on SVD, $$U_{1:n,1:k}\Sigma_{1:k} (V_{1:n, 1:k})^T$$ is the best low-rank 
 
 **Solution**: Apply SVD to $$XY^T$$: $$XY^T = U\Sigma V$. Then $$Z_1 = U\Sigma^\frac{1}{2}, Z_2 = V \Sigma^\frac{1}{2}$$ are the embeddings.
 
-
 ## Back to the "Seurat CCA" paper
 
 In the _Method_ section of the "Seurat CCA" paper, authors had several assumptions to get to the final result of cell embeddings. An important assumption is to "treat the covariance matrix within each dataset as diagonal", meaning that genes are independent to each other, which is **NOT** true.
@@ -122,7 +117,7 @@ In the _Method_ section of the "Seurat CCA" paper, authors had several assumptio
     But it's not necessary and inconsistent with the biology.
 </div>
 
-Alternitively, applying SVD to $$XY^T$$ is intuitive and natural - it is just to capture the cell similarity across batches and does not need any assumption.
+Alternatively, applying SVD to $$XY^T$$ is intuitive and natural - it is just to capture the cell similarity across batches and does not need any assumption.
 
 Futhermore, in the original paper, the cell embeddings of two datasets are $$Z_1 = U$$ and $$Z_2 = V $$, missing the singular value compared to our derivation above.
 
@@ -143,12 +138,11 @@ To compare the difference in algorithm performance with or without the singular 
     MORE TO DO. It seems contain more biological variation if we add the single values.
 </div>
 
-It's obvious that with the singular value, different cell types are more seperated from each other in UMAP visualization, meaning that more biological variation is preserved in the embedding.
+It's obvious that with the singular value, different cell types are more separated from each other in Umap visualization, meaning that more biological variation is preserved in the embedding.
 
 ### Difference between "Seurat CCA" and Real CCA
 
 The "Seurat CCA" is taking the project vector from the traditional CCA directly as cell embeddings (with some assumptions). But in fact, **the traditional CCA projects genes into a common space rather than cells.**
-
 
 ## Connection with the Mutual Nearest Neighbor (MNN) method.
 
