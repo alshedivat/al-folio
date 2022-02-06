@@ -9,7 +9,9 @@ categories: blog
 
 ## Introduction
 
-The canonical correlation analysis(CCA) of Seurat is one of the most popular remove batch effects methods. However, the method part of the original paper (https://doi.org/10.1016/j.cell.2019.05.031)[dad] the theory behind the method might not be based on canonical correlation analysis. **The key idea is finding two low-dimension embeddings to conserve the cross-batch cell similarity.** So it's an extension of dual PCA (apply singular value decomposition on $X^TX$ rather than $XX^T$).
+The canonical correlation analysis(CCA) of Seurat is one of the most popular batch effects removing methods. However, the method part of the original paper (https://doi.org/10.1016/j.cell.2019.05.031)[dad] is quiet confused. After careful reading and some experiments, My friend(Ziyu Chen) and I found that the theory behind the method might not be based on canonical correlation analysis. It's an extension of dual PCA.
+
+**The key idea is finding two low-dimension embeddings to conserve the cross-batch cell similarity.**
 
 In this blog, I will first introduce the PCA and then dual PCA method.
 
@@ -19,18 +21,18 @@ Principal Components Analysis(PCA) is a very popular method for dimension reduct
 
 ## Direct PCA
 
-The most common definition of PCA is that, for a given Data: $$X\in R^{g,n}$$(In single cell data, $n$ is the number of cells, $g$ is the number of genes.).
+For a given Data: $$X\in R^{g,n}$$(In single cell data, $$n$$ is the number of cells, $$g$$ is the number of genes.).
 The $$d$$ principle axes are orthogonal axes.
 
-PCA want to find a linear embedding $$Z= U^TX \in R^{n,k} $$ to represent the data $X$ and preserve variation as much as possible.
+PCA want to find a linear embedding $$Z= U^TX \in R^{k,n} $$ to represent the data $X$ and preserve variation as much as possible.
 
 Another common definition of PCA is that, the projection onto the subspace minimize the squared reconstruction error, $$\sum_{i=1}^{t}\left\|x_{i}-\hat{x}_{i}\right\|^{2}$$.
 
 $$
-\min _{U_{d}} \sum*{i}^{t}\left\|x*{i}-U*{d} U*{d}^{T} x\_{i}\right\|^{2}
+\min _{U_{d}} \sum_{i}^{t}\left\|x_{i}-U_{d} U_{d}^{T} x\_{i}\right\|^{2}
 $$
 
-The solution for $U$ can be expressed as singular value decomposition (SVD) of $X$ clearly.
+The solution for $$U$$ can be expressed as singular value decomposition (SVD) of $$X$$ clearly.
 
 $$
 SVD(XX^T)=U \Sigma^2 U^{T}
@@ -52,7 +54,7 @@ In this section, we will get the extension of dual PCA and show it's the same wi
 
 The dual PCA want to find a low dimension while preserve the similarity between samples of one dataset. We can easily extend this into two datasets.
 
-Given two datasets, $$X\in R^{n,g}, Y\in R^{m,g}$$,in where $n,m$ means the number of cells, $g$ means number of genes. We want to do a similar thing. But in this setting, we want to find the low dimension linear embedding of these two data sets $$Z_1\in R^{n,k},Z_2\in R^{m,k}$$ to preserve the similarity matrix between cells from different datasets rather than the similarity matrix of a single dataset. Then we want to minimize the difference between real similarity matrix and the similarity of the embedding. $$|Z_1Z_2^T - XY^T|$$
+Given two datasets, $$X\in R^{g,n}, Y\in R^{g,m}$$,in where $$n,m$$ means the number of cells, $$g$$ means number of genes. We want to do a similar thing. But in this setting, we want to find the low dimension linear embedding of these two data sets $$Z_1\in R^{k,n},Z_2\in R^{k, m}$$ to preserve the similarity matrix between cells from different datasets rather than the similarity matrix of a single dataset. Then we want to minimize the difference between real similarity matrix and the similarity of the embedding $$|Z_1Z_2^T - XY^T|$$.
 
 It's quite obvious to solve this problem by a small modification of Dual PCA.
 In dual PCA, the PCA apply the SVD to the $$X^TX$$, and in this case, apply the SVD to $$X^TY$$
