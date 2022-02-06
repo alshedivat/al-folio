@@ -88,7 +88,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname:  # put your disqus shortname
+disqus_shortname:  Xinming Tu # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------
