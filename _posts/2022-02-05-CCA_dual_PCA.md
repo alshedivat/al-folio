@@ -18,7 +18,7 @@ In this blog,
 
 - Therefore, with these understandings, it's obvious that the current "Seurat CCA" is missing the singular value in the embedding process of dual PCA. We demonstrated by experiments that if the singular value is added to the algorithm, more biological variation will be preserved.
 
-- Finally, it's not difficult to realize that there is an intrinsic connection between the two most popular batch-effect removing methods, "Seurat CCA" and MNN (full name) <link>.
+- Finally, it's not difficult to realize that there is an intrinsic connection between the two most popular batch-effect removing methods, "Seurat CCA" and MNN (Mutual nearest neighbor) <link>.
 
 ## Principal Components Analysis (PCA)
 
