@@ -9,10 +9,11 @@ categories: blog
 
 ## Introduction
 
-The canonical correlation analysis(CCA) of Seurat is one of the most popular batch effects removing methods. However, the method part of the original paper<a href="https://doi.org/10.1016/j.cell.2019.05.031"> Comprehensive Integration of Single-Cell Data</a> is quiet confused. After careful reading and some experiments, My friend(Ziyu Chen) and I found that the theory behind the method might not be based on canonical correlation analysis. It's an extension of dual PCA. Besides, there is an intrinsic connection between MNN and "CCA"(an extension of dual PCA). The shared assumption is that
+The canonical correlation analysis(CCA) of Seurat is one of the most popular batch effects removing methods. However, the method part of the original paper<a href="https://doi.org/10.1016/j.cell.2019.05.031"> Comprehensive Integration of Single-Cell Data</a> is quiet confused. After careful reading and some experiments, My friend(Ziyu Chen) and I found that the theory behind the method might not be based on canonical correlation analysis. It's an extension of dual PCA.
 
 **The key idea is finding two low-dimension embeddings to conserve the cross-batch cell similarity.**
 
+Besides, there is an intrinsic connection between MNN and "CCA"(an extension of dual PCA).
 In this blog, I will first introduce the PCA and then dual PCA method.
 
 ## Principal Components Analysis
