@@ -102,7 +102,7 @@ Based on SVD, $$U_{1:n,1:k}\Sigma_{1:k} (V_{1:n, 1:k})^T$$ is the best low-rank 
 
 **Object**: Minimize $$\|Z_1Z_2^T - XY^T\|$$ .
 
-**Solution**: Apply SVD to $$XY^T$$: $$XY^T = U\Sigma V$. Then $$Z_1 = U\Sigma^\frac{1}{2}, Z_2 = V \Sigma^\frac{1}{2}$$ are the embeddings.
+**Solution**: Apply SVD to $$XY^T$$: $$XY^T = U\Sigma V$$. Then $$Z_1 = U\Sigma^\frac{1}{2}, Z_2 = V \Sigma^\frac{1}{2}$$ are the embeddings.
 
 ## Back to the "Seurat CCA" paper
 
@@ -148,7 +148,7 @@ The "Seurat CCA" is taking the project vector from the traditional CCA directly 
 
 There is an intrinsic connection between "Seurat CCA" and MNN, another popular method in removing batch-effect.
 
-"Seurat CCA" has the assumption that **biologically more similar** cells from different batches have a **higher mathematical similarity** (defined as dot product), while MNN has a very similar assumption that biologically more similar cells from different batches have **smaller euclidean distance** defined in the algorithm. In fact, with proper normalization, the "mathematical similarity (dot product)" in the former assumption and the "euclidean distance" in the latter are equivalent to each other!
+"Seurat CCA" has the assumption that **biologically more similar** cells from different batches have a **higher mathematical similarity** (defined as dot product), while MNN has a very similar assumption that biologically more similar cells from different batches have **smaller euclidean distance** defined in the algorithm. In fact, with proper normalization, the "mathematical similarity (dot product)" in the former assumption and the "euclidean distance" in the latter are **equivalent** to each other!
 
 The above assumptions are right in real data. We can plot a heatmap of the similarity matrix of two different batches, and what we see is a higher similarity along the diagonal.
 
@@ -163,4 +163,10 @@ The above assumptions are right in real data. We can plot a heatmap of the simil
 
 ## Conclusion
 
-Based on our understanding, the math behind the "Seurat CCA" algorithm is actually not CCA, but an extension of dual PCA. Besides in the original paper, the assumption that the covariance matrix of gene expression is diagonal, is not necessary. Furthermore, considering the formulation to preserve the most similarity (dual PCA), the low-dimensional cell embeddings should multiply the singular value, which is currently missing in the "Seurat CCA" algorithm. And finally, there is an intrinsic connection between MNN and "Seurat CCA" (extended dual PCA).
+- Based on our understanding, the math behind the "Seurat CCA" algorithm is actually not CCA, but an extension of dual PCA.
+
+- In the original paper, the assumption that the covariance matrix of gene expression is diagonal, is not necessary.
+
+- Furthermore, considering the formulation to preserve the most similarity (dual PCA), the low-dimensional cell embeddings should multiply the singular value, which is currently missing in the "Seurat CCA" algorithm.
+
+- And finally, there is an intrinsic connection between MNN and "Seurat CCA" (extended dual PCA).
