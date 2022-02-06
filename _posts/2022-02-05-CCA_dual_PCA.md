@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Seurat CCA? It's just a simple extension of PCA!
-date: 2021-01-20 23:00
+date: 2022-02-05 23:00
 description:
-tags: blog, single cell
+tags: blog, single-cell
 categories: blog
 ---
 
