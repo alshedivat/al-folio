@@ -42,7 +42,7 @@ $$
     </div>
 </div>
 <div class="caption">
-    But it's not necessary and inconsistent with the biology.
+    $$X\in R^{n\times g}$$: the gene expression matrix. $$X^TX \in R^{g\times g}$$: the gene co-variance matrix. The SVD can provide a best low rank approximation of gene co-variance matrix by select the Top $$k$$ singular value and the vectors. 
 </div>
 
 And the embedding we are looking for in PCA will be
@@ -57,7 +57,7 @@ $$
     </div>
 </div>
 <div class="caption">
-    But it's not necessary and inconsistent with the biology.
+    $$Z_X \in R^{n\times k}$$ is the low dimensional embeddings. The $$V^{'T} \in R^{g\times k} $$ is the project matrix. Then based on the SVD, $$Z = U_{1:n, 1:k}\Sigma_{1:k}$$
 </div>
 
 ### Dual PCA
@@ -76,7 +76,7 @@ $$
     </div>
 </div>
 <div class="caption">
-    But it's not necessary and inconsistent with the biology.
+      $$X\in R^{n\times g}$$: the gene expression matrix. $$XX^T \in R^{n\times n}$$: the cell-cell similarity matrix. The SVD can provide a best low rank approximation of cell-cell similarity matrix by select the Top $$k$$ singular value and the vectors.
 </div>
 
 And $$Z = U_{1:n, 1:k}\Sigma_{1:k} $$ will be the embedding, which is the same as what we derived in PCA.
@@ -87,7 +87,7 @@ And $$Z = U_{1:n, 1:k}\Sigma_{1:k} $$ will be the embedding, which is the same a
     </div>
 </div>
 <div class="caption">
-    But it's not necessary and inconsistent with the biology.
+    $$Z_X \in R^{n\times k}$$ is the low dimensional embeddings. Then based on the SVD, $$Z = U_{1:n, 1:k}\Sigma_{1:k}$$ is the best embedding which approximate the similarity matrix best. 
 </div>
 
 We can check it by
@@ -114,10 +114,14 @@ It's quite obvious that we can solve the above problem with a small modification
     </div>
 </div>
 <div class="caption">
-    But it's not necessary and inconsistent with the biology.
+    $$X\in R^{n\times g}, Y\in R^{m\times g}$$: the gene expression matrix. $$XX^T \in R^{n\times n}, YY^T \in R^{m\times m}$$: the cell-cell similarity matrix. $$V_X, V_Y\in R^{g\times k}$$ are the project matrix for these two batches.  $$Z_X \in R^{n\times k}, Z_Y \in R^{m\times k}$$ are the low dimensional embeddings(projection) of two batch data $$X, Y$$. The object is to find these embeddings which preserve the cell-cell similarity matrix as much as possible. 
 </div>
 
-We can get $$XY^T = U\Sigma V^T$$,
+We can get
+
+$$
+XY^T = U\Sigma V^T
+$$
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -125,10 +129,14 @@ We can get $$XY^T = U\Sigma V^T$$,
     </div>
 </div>
 <div class="caption">
-    But it's not necessary and inconsistent with the biology.
+    Apply the SVD to $$XY^T$$(across batch cell-cell similarity matrix)
 </div>
 
-and the best embeddings will be $$Z_X = U_{1:n,1:k}(\Sigma_{1:k})^\frac{1}{2}, Z_Y = V_{1:n, 1:k}(\Sigma_{1:k})^\frac{1}{2}$$.
+and the best embeddings will be
+
+$$
+Z_X = U_{1:n,1:k}(\Sigma_{1:k})^\frac{1}{2}, Z_Y = V_{1:n, 1:k}(\Sigma_{1:k})^\frac{1}{2}
+$$
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -139,7 +147,7 @@ and the best embeddings will be $$Z_X = U_{1:n,1:k}(\Sigma_{1:k})^\frac{1}{2}, Z
     </div>
 </div>
 <div class="caption">
-    But it's not necessary and inconsistent with the biology.
+    $$Z_X \in R^{n\times k}, Z_Y \in R^{m\times k}$$ are the best low dimensional embeddings(projection) of two batch data $$X, Y$$.
 </div>
 
 We can also check this approximation:
@@ -155,7 +163,7 @@ $$
     </div>
 </div>
 <div class="caption">
-    But it's not necessary and inconsistent with the biology.
+    $$Z_XZ_Y^T$$ is the similarity matrix based on the low dimensional embeddings.
 </div>
 
 Based on SVD, $$U_{1:n,1:k}\Sigma_{1:k} (V_{1:n, 1:k})^T$$ is the best low-rank approximation of $$U\Sigma V^T$$.
@@ -187,7 +195,7 @@ In the _Method_ section of the "Seurat CCA" paper, authors had several assumptio
     </div>
 </div>
 <div class="caption">
-    But it's not necessary and inconsistent with the biology.
+    But it's   inconsistent with the biology and not necessary from our view.
 </div>
 
 Alternatively, applying SVD to $$XY^T$$ is intuitive and natural - it is just to capture the cell similarity across batches and does not need any assumption.
@@ -199,8 +207,10 @@ Futhermore, in the original paper, the cell embeddings of two datasets are $$Z_X
         {% include figure.html path="assets/img/2022-02-05-19-49-11.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
-To compare the difference in algorithm performance with or without the singular value, we implemented these two methods to data from PAPER (name, link). (code)
+<div class="caption">
+    From method part of the original paper. In the original paper, $$X\in R^{g\times n}, Y\in R^{g\times m}, just a different notation.
+</div>
+To compare the difference in algorithm performance with or without the singular value, we implemented these two methods to data from  <a href="https://www.nature.com/articles/s41587-020-0465-8"> Systematic comparison of single-cell and single-nucleus RNA-sequencing methods. *Nature biotechnology*(2020)</a>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -208,7 +218,7 @@ To compare the difference in algorithm performance with or without the singular 
     </div>
 </div>
 <div class="caption">
-    MORE TO DO. It seems contain more biological variation if we add the single values.
+    After getting the low dimensional embeddings(with/without singular value), we use Umap to visualize the cells from different technologies with the same parameters. And Cells are colored by cell types and batches. 
 </div>
 
 It's obvious that with the singular value, different cell types are more separated from each other in Umap visualization, meaning that more biological variation is preserved in the embedding.
