@@ -1,6 +1,6 @@
 ---
 layout: post
-title: It's not CCA, it's just an extension of Dual PCA.
+title: It's not CCA, it's an extension of PCA.
 date: 2021-01-20 23:00
 description:
 tags: blog, single cell
@@ -14,7 +14,7 @@ The canonical correlation analysis(CCA) of Seurat is one of the most popular bat
 **The key idea is finding two low-dimension embeddings to conserve the cross-batch cell similarity.**
 
 Besides, there is an intrinsic connection between MNN and "CCA"(an extension of dual PCA).
-In this blog, I will first introduce the PCA and then dual PCA method.
+In this blog, I will first introduce the PCA and then go to dual PCA method. With a simple extension of Dual PCA, we can get a better version of Seurat "CCA" without more assumptions.
 
 ## Principal Components Analysis
 
@@ -23,8 +23,9 @@ Principal Components Analysis(PCA) is a very popular method for dimension reduct
 ### Direct PCA
 
 PCA aims to project the data points $$x \in R^{g}$$ into a linear subspace $$R^k$$ which maintain the most of the variability of the data.
+
 For a given data: $$X\in R^{n \times g}$$(In single cell data, $$n$$ is the number of cells, $$g$$ is the number of genes.).
-The $$d$$ principle axes are orthogonal axes.
+The $$k$$ principle axes are orthogonal axes.
 
 PCA want to find a linear embedding $$Z= XV \in R^{k \times n}$$, where $$X\in R^{n\times g}, V\in R^{g \times k} $$ to represent the data $X$ and preserve variation as much as possible. (_Another common definition of PCA is that, the projection onto the subspace minimize the squared reconstruction error._)
 
@@ -63,14 +64,15 @@ The dual PCA want to find a low dimension while preserve the similarity between 
 Given two datasets(from two batch), $$X\in R^{n\times g}, Y\in R^{m\times g}$$, where $$n,m$$ means the number of cells, $$g$$ means number of genes. We want to do a similar thing. But in this setting, we want to find the low dimension linear embedding of these two data sets $$Z_1\in R^{n\times k},Z_2\in R^{m \times k}$$ to preserve the similarity matrix between cells from different datasets rather than the similarity matrix of a single dataset. Then we want to minimize the difference between real similarity matrix and the similarity of the embedding $$\|Z_1^TZ_2 - XY^T\|$$ which is also means finding a low rank approximate of $$XY^T$$.
 
 It's quite obvious to solve this problem by a small modification of Dual PCA.
-In Dual PCA, we apply the SVD to the $$XX^T$$, and in this case, just apply the SVD to $$XY^T$$. Because in Dual PCA, the embedding preserve the sample similarity within one dataset, in this case, these embedding will preserve the cross-batch sample similarity.
+In Dual PCA, we apply the SVD to the $$XX^T$$, and in this case, just apply the SVD to $$XY^T$$. Because **in Dual PCA, the embedding preserve the sample similarity within one dataset, in this case, these embedding will preserve the cross-batch sample similarity**.
 
 We can get $$XY^T = U\Sigma V^T$$, and the best embeddings can be $$Z_1 = U_{1:n,1:k}\Sigma_{1:k}^\frac{1}{2}, Z_2 = V_{1:n, 1:k}\Sigma_{1:k}^\frac{1}{2}$$.
 
 We can also check the approximate
 
 $$
-|XY^T  - Z_1Z_2^T| = | U\Sigma V^T - U_{1:n,1:k}\Sigma_{1:k}^\frac{1}{2} (V_{1:n, 1:k}\Sigma_{1:k}^\frac{1}{2})^T| = | U\Sigma V^T - U_{1:n,1:k}\Sigma_{1:k} (V_{1:n, 1:k})^T|
+|XY^T  - Z_1Z_2^T| = | U\Sigma V^T - U_{1:n,1:k}\Sigma_{1:k}^\frac{1}{2} (V_{1:n, 1:k}\Sigma_{1:k}^\frac{1}{2})^T| \\
+= | U\Sigma V^T - U_{1:n,1:k}\Sigma_{1:k} (V_{1:n, 1:k})^T|
 $$
 
 Based on SVD, the $$U_{1:n,1:k}\Sigma_{1:k} (V_{1:n, 1:k})^T$$ is the best low rank approximate of $$U\Sigma V^T$$
@@ -112,7 +114,7 @@ In the method section of the "CCA" paper, authors use some assumptions to get th
     But it's not necessary and inconsistent with the biology.
 </div>
 
-From our view, applying SVD to $$XY^T$$ is so easy to understand - just capture the cell similarity across batches and don't need any other assumptions.
+From our view, applying SVD to $$XY^T$$ is very easy to understand - just capture the cell similarity across batches and don't need any other assumptions.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -120,9 +122,9 @@ From our view, applying SVD to $$XY^T$$ is so easy to understand - just capture 
     </div>
 </div>
 
-Futhermore, in the original method, the cell embeddings of two datasets is $$Z_1 = U, Z_2 = V $$ missing the singular value compared to our previous result.
+Futhermore, in the original method, the cell embeddings of two datasets is $$Z_1 = U, Z_2 = V $$ missing the singular value compared to our derivation.
 
-To compare the difference, we also implement these two methods(It's so simple, just apply SVD to $$XY^T$$).
+To compare the difference, we implement these two methods to check if there is any difference.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
