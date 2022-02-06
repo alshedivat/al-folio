@@ -57,7 +57,7 @@ $$
     </div>
 </div>
 <div class="caption">
-    $$Z_X \in R^{n\times k}$$ is the low dimensional embeddings. The $$V^{'T} \in R^{g\times k} $$ is the project matrix. Then based on the SVD, $$Z = U_{1:n, 1:k}\Sigma_{1:k}$$
+    $Z_X \in R^{n\times k}$ is the low dimensional embeddings. The $V^{'T} \in R^{g\times k} $ is the project matrix. Then based on the SVD, $$Z = U_{1:n, 1:k}\Sigma_{1:k}$$
 </div>
 
 ### Dual PCA
