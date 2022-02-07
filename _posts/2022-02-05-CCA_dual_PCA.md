@@ -153,8 +153,10 @@ $$Z_X \in R^{n\times k}, Z_Y \in R^{m\times k}$$ are the best low dimensional em
 We can also check this approximation:
 
 $$
-|XY^T  - Z_XZ_Y^T| = | U\Sigma V^T - U_{1:n,1:k}\Sigma_{1:k}^\frac{1}{2} (V_{1:n, 1:k}\Sigma_{1:k}^\frac{1}{2})^T| \\
-= | U\Sigma V^T - U_{1:n,1:k}\Sigma_{1:k} (V_{1:n, 1:k})^T|
+\begin{aligned}
+|XY^T  - Z_XZ_Y^T| &= | U\Sigma V^T - U_{1:n,1:k}\Sigma_{1:k}^\frac{1}{2} (V_{1:n, 1:k}\Sigma_{1:k}^\frac{1}{2})^T| \\
+&= | U\Sigma V^T - U_{1:n,1:k}\Sigma_{1:k} (V_{1:n, 1:k})^T|
+\end{aligned}
 $$
 
 <div class="row mt-3">
