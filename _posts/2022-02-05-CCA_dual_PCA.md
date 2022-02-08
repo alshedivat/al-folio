@@ -257,3 +257,7 @@ The above assumptions are right in real data. We can plot a heatmap of the simil
 - Furthermore, considering the formulation to preserve the most similarity (dual PCA), the low-dimensional cell embeddings should multiply the singular value, which is currently missing in the "Seurat CCA" algorithm.
 
 - And finally, there is an intrinsic connection between MNN and "Seurat CCA" (extended dual PCA).
+
+## Acknowledge
+
+Thanks for my girl friend Jiahui Peng's help on the blog writing. Thanks for Ziyu Chen, Zhijie Cao, Weixu Wang's discussion and comments.
