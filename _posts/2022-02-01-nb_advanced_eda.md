@@ -239,7 +239,7 @@ unique_values.plot.bar(logy=True, figsize=(15, 4), title="Unique values per feat
 
 ## 1.3. Conclusion of structure investigation
 
-At the end of this first investigation, we should have a better understanding of the general structure of our dataset. Number of samples and features, what kind of data type each feature has, and how many of them are binary, ordinal, categorical or continous. For an alternative way to get such kind of information you could also use `df_X.info()` or `df_X.describe()`.
+At the end of this first investigation, we should have a better understanding of the general structure of our dataset. Number of samples and features, what kind of data type each feature has, and how many of them are binary, ordinal, categorical or continuous. For an alternative way to get such kind of information you could also use `df_X.info()` or `df_X.describe()`.
 
 # 2. Quality Investigation
 
