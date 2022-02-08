@@ -70,9 +70,6 @@ Data types can be numerical and non-numerical. First, let's take a closer look a
 df_X.select_dtypes(exclude="number").head()
 ```
 
-
-
-
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -149,10 +146,7 @@ df_X.select_dtypes(exclude="number").head()
 </table>
 </div>
 
-
-
 Even though `Sex_of_Driver` is a numerical feature, it somehow was stored as a non-numerical one. This is sometimes due to some typo in data recording. So let's take care of that:
-
 
 ```python
 # Changes data type of 'Sex_of_Driver'
@@ -161,13 +155,9 @@ df_X["Sex_of_Driver"] = df_X["Sex_of_Driver"].astype("float")
 
 Using the `.describe()` function we can also investigate how many unique values each non-numerical feature has and with which frequency the most prominent value is present.
 
-
 ```python
 df_X.describe(exclude="number")
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -231,12 +221,11 @@ df_X.describe(exclude="number")
 </table>
 </div>
 
-
+<br>
 
 ## 1.2. Structure of numerical features
 
 Next, let's take a closer look at the numerical features. More precisely, let's investigate how many unique values each of these feature has. This process will give us some insights about the number of **binary** (2 unique values), **ordinal** (3 to ~10 unique values) and **continuous** (more than 10 unique values) features in the dataset.
-
 
 ```python
 # For each numerical feature compute number of unique entries
@@ -246,11 +235,7 @@ unique_values = df_X.select_dtypes(include="number").nunique().sort_values()
 unique_values.plot.bar(logy=True, figsize=(15, 4), title="Unique values per feature");
 ```
 
-
-    
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/03_advanced_eda/output_14_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
-    
-
 
 ## 1.3. Conclusion of structure investigation
 
@@ -264,7 +249,6 @@ Before focusing on the actual content stored in these features, let's first take
 
 Duplicates are entries that represent the same sample point multiple times. For example, if a measurement was registered twice by two different people. Detecting such duplicates is not always easy, as each dataset might have a unique identifier (e.g. an index number or recording time that is unique to each new sample) which you might want to ignore first.
 
-
 ```python
 # Check number of duplicates while ignoring the index feature
 n_duplicates = df_X.drop(labels=["Accident_Index"], axis=1).duplicated().sum()
@@ -273,9 +257,7 @@ print(f"You seem to have {n_duplicates} duplicates in your database.")
 
     You seem to have 22 duplicates in your database.
 
-
 To handle these duplicates you can just simply drop them with `.drop_duplicates()`.
-
 
 ```python
 #  Extract column names of all features, except 'Accident_Index'
@@ -286,12 +268,7 @@ df_X = df_X.drop_duplicates(subset=columns_to_consider)
 df_X.shape
 ```
 
-
-
-
     (363221, 67)
-
-
 
 ## 2.2. Missing values
 
@@ -300,7 +277,6 @@ Another quality issue worth to investigate are missing values. Having some missi
 ### 2.2.1. Per sample
 
 To look at number of missing values per sample we have multiple options. The most straight forward one is to simply visualize the output of `df_X.isna()`, with something like this:
-
 
 ```python
 import matplotlib.pyplot as plt
@@ -311,14 +287,9 @@ plt.xlabel("Column Number")
 plt.ylabel("Sample Number");
 ```
 
-
-    
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/03_advanced_eda/output_23_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
-    
-
 
 This figure shows on the y-axis each of the 360'000 individual samples, and on the x-axis if any of the 67 features contains a missing value. While this is already a useful plot, an even better approach is to use the [missingno](https://github.com/ResidentMario/missingno) library, to get a plot like this one:
-
 
 ```python
 import missingno as msno
@@ -326,33 +297,22 @@ import missingno as msno
 msno.matrix(df_X, labels=True, sort="descending");
 ```
 
-
-    
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/03_advanced_eda/output_25_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
-    
-
 
 From both of these plots we can see that the dataset has a huge whole, caused by some samples where more than 50% of the feature values are missing. For those samples, filling the missing values with some replacement values is probably not a good idea.
 
 Therefore, let's go ahead and drop samples that have more than 20% of missing values. The threshold is inspired by the information from the 'Data Completeness' column on the right of this figure.
-
 
 ```python
 df_X = df_X.dropna(thresh=df_X.shape[1] * 0.80, axis=0).reset_index(drop=True)
 df_X.shape
 ```
 
-
-
-
     (319790, 67)
-
-
 
 ### 2.2.2. Per Feature
 
 As a next step, let's now look at the number of missing values per feature. For this we can use some `pandas` trickery to quickly identify the ratio of missing values **per feature**.
-
 
 ```python
 df_X.isna().mean().sort_values().plot(
@@ -361,26 +321,16 @@ df_X.isna().mean().sort_values().plot(
     ylabel="Ratio of missing values per feature");
 ```
 
-
-    
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/03_advanced_eda/output_29_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
-    
-
 
 From this figure we can see that most features don't contain any missing values. Nonetheless, features like `2nd_Road_Class`, `Junction_Control`, `Age_of_Vehicle` still contain quite a lot of missing values. So let's go ahead and remove any feature with more than 15% of missing values.
-
 
 ```python
 df_X = df_X.dropna(thresh=df_X.shape[0] * 0.85, axis=1)
 df_X.shape
 ```
 
-
-
-
     (319790, 60)
-
-
 
 ### 2.2.3. Small side note
 
@@ -412,17 +362,12 @@ To plot this global view of the dataset, at least for the numerical features, yo
 
 So what does this plot look like?
 
-
 ```python
 df_X.plot(lw=0, marker=".", subplots=True, layout=(-1, 4),
           figsize=(15, 30), markersize=1);
 ```
 
-
-    
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/03_advanced_eda/output_35_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
-    
-
 
 Each point in this figure is a sample (i.e. a row) in our dataset and each subplot represents a different feature. The y-axis shows the feature value, while the x-axis is the sample index. These kind of plots can give you a lot of ideas for data cleaning and EDA. Usually it makes sense to invest as much time as needed until your happy with the output of this visualization.
 
@@ -430,14 +375,10 @@ Each point in this figure is a sample (i.e. a row) in our dataset and each subpl
 
 Identifying **unwanted entries** or **recording errors** on non-numerical features is a bit more tricky. Given that at this point, we only want to investigate the general quality of the dataset. So what we can do is take a general look at how many unique values each of these non-numerical features contain, and how often their most frequent category is represented.
 
-
 ```python
 # Extract descriptive properties of non-numerical features
 df_X.describe(exclude=["number", "datetime"])
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -501,8 +442,6 @@ df_X.describe(exclude=["number", "datetime"])
 </table>
 </div>
 
-
-
 There are multiple ways for how you could potentially streamline the quality investigation for each individual non-numerical features. None of them is perfect, and all of them will require some follow up investigation. But for the purpose of showcasing one such a solution, what we could do is loop through all non-numerical features and plot for each of them the number of occurrences per unique value. 
 
 
@@ -525,16 +464,11 @@ for col, ax in zip(df_non_numerical.columns, axes.ravel()):
 plt.tight_layout();
 ```
 
-
-    
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/03_advanced_eda/output_40_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
-    
-
 
 We can see that the most frequent accident (i.e. `Accident_Index`), had more than 100 people involved. Digging a bit deeper (i.e. looking at the individual features of this accident), we could identify that this accident happened on February 24th, 2015 at 11:55 in Cardiff UK. A quick internet search reveals that this entry corresponds to a luckily non-lethal accident including a minibus full of pensioners.
 
 The decision for what should be done with such rather unique entries is once more left in the the subjective hands of the person analyzing the dataset. Without any good justification for WHY, and only with the intention to show you the HOW - let's go ahead and remove the 10 most frequent accidents from this dataset.
-
 
 ```python
 # Collect entry values of the 10 most frequent accidents
@@ -545,12 +479,7 @@ df_X = df_X[~df_X["Accident_Index"].isin(accident_ids)]
 df_X.shape
 ```
 
-
-
-
     (317665, 60)
-
-
 
 ## 2.4. Conclusion of quality investigation
 
@@ -566,23 +495,17 @@ For this reason (and to keep this article as short as needed) we will explore th
 
 Looking at the value distribution of each feature is a great way to better understand the content of your data. Furthermore, it can help to guide your EDA, and provides a lot of useful information with regards to data cleaning and feature transformation. The quickest way to do this for numerical features is using histogram plots. Luckily, `pandas` comes with a builtin histogram function that allows the plotting of multiple features at once.
 
-
 ```python
 # Plots the histogram for each numerical feature in a separate subplot
 df_X.hist(bins=25, figsize=(15, 25), layout=(-1, 5), edgecolor="black")
 plt.tight_layout();
 ```
 
-
-    
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/03_advanced_eda/output_46_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
-    
-
 
 There are a lot of very interesting things visible in this plot. For example...
 
 **Most frequent entry**: Some features, such as `Towing_and_Articulation` or `Was_Vehicle_Left_Hand_Drive?` mostly contain entries of just one category. Using the `.mode()` function, we could for example extract the ratio of the most frequent entry for each feature and visualize that information.
-
 
 ```python
 # Collects for each feature the most frequent entry
@@ -601,7 +524,6 @@ display(df_freq.head())
 df_freq.plot.bar(figsize=(15, 4));
 ```
 
-
     Pedestrian_Crossing-Human_Control    0.995259
     Was_Vehicle_Left_Hand_Drive?         0.990137
     Carriageway_Hazards                  0.983646
@@ -609,12 +531,7 @@ df_freq.plot.bar(figsize=(15, 4));
     Vehicle_Location-Restricted_Lane     0.982088
     dtype: float64
 
-
-
-    
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/03_advanced_eda/output_48_1.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
-    
-
 
 **Skewed value distributions**: Certain kind of numerical features can also show strongly non-gaussian distributions. In that case you might want to think about how you can transform these values to make them more normal distributed. For example, for right skewed data you could use a log-transformation.
 
@@ -627,23 +544,17 @@ Next step on the list is the investigation of feature specific patterns. The goa
 
 But before we dive into these two questions, let's take a closer look at a few 'randomly selected' features.
 
-
 ```python
 df_X[["Location_Northing_OSGR", "1st_Road_Number",
       "Journey_Purpose_of_Driver", "Pedestrian_Crossing-Physical_Facilities"]].plot(
     lw=0, marker=".", subplots=True, layout=(-1, 2), markersize=0.1, figsize=(15, 6));
 ```
 
-
-    
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/03_advanced_eda/output_51_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
-    
-
 
 In the top row, we can see features with continuous values (e.g. seemingly any number from the number line), while in the bottom row we have features with discrete values (e.g. 1, 2, 3 but not 2.34).
 
 While there are many ways we could explore our features for particular patterns, let's simplify our option by deciding that we treat features with less than 25 unique features as **discrete** or **ordinal** features, and the other features as **continuous** features.
-
 
 ```python
 # Creates mask to identify numerical features with more or less than 25 unique features
@@ -654,22 +565,15 @@ cols_continuous = df_X.select_dtypes(include="number").nunique() >= 25
 
 Now that we have a way to select the continuous features, let's go ahead and use seaborn's `pairplot` to visualize the relationships between these features. **Important to note**, seaborn's pairplot routine can take a long time to create all subplots. Therefore we recommend to not use it for more than ~10 features at a time.
 
-
 ```python
 # Create a new dataframe which only contains the continuous features
 df_continuous = df_X[cols_continuous[cols_continuous].index]
 df_continuous.shape
 ```
 
-
-
-
     (317665, 11)
 
-
-
 Given that in our case we only have 11 features, we can go ahead with the pairplot. Otherwise, using something like `df_continuous.iloc[:, :5]` could help to reduce the number of features to plot.
-
 
 ```python
 import seaborn as sns
@@ -677,14 +581,9 @@ import seaborn as sns
 sns.pairplot(df_continuous, height=1.5, plot_kws={"s": 2, "alpha": 0.2});
 ```
 
-
-    
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/03_advanced_eda/output_57_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
-    
-
 
 There seems to be a strange relationship between a few features in the top left corner. `Location_Easting_OSGR` and `Longitude`, as well as `Location_Easting_OSGR` and `Latitude` seem to have a very strong linear relationship.
-
 
 ```python
 sns.pairplot(
@@ -693,11 +592,7 @@ sns.pairplot(
     y_vars="Latitude");
 ```
 
-
-    
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/03_advanced_eda/output_59_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
-    
-
 
 Knowing that these features contain geographic information, a more in-depth EDA with regards to geolocation could be fruitful. However, for now we will leave the further investigation of this pairplot to the curious reader and continue with the exploration of the discrete and ordinal features.
 
@@ -705,24 +600,17 @@ Knowing that these features contain geographic information, a more in-depth EDA 
 
 Finding patterns in the discrete or ordinal features is a bit more tricky. But also here, some quick pandas and seaborn trickery can help us to get a general overview of our dataset. First, let's select the columns we want to investigate.
 
-
 ```python
 # Create a new dataframe which doesn't contain the numerical continuous features
 df_discrete = df_X[cols_continuous[~cols_continuous].index]
 df_discrete.shape
 ```
 
-
-
-
     (317665, 44)
-
-
 
 As always, there are multiple way for how we could investigate all of these features. Let's try one example, using seaborn's `stripplot()` together with a handy `zip()` for-loop for subplots.
 
 **Note**, to spread the values out in the direction of the y-axis we need to chose one particular (hopefully informative) feature. While the 'right' feature can help to identify some interesting patterns, usually any continuous feature should do the trick. The main interest in this kind of plot is to see how many samples each discrete value contains.
-
 
 ```python
 import numpy as np
@@ -744,14 +632,9 @@ for col, ax in zip(df_discrete.columns, axes.ravel()):
 plt.tight_layout();
 ```
 
-
-    
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/03_advanced_eda/output_64_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
-    
-
 
 There are too many things to comment here, so let's just focus on a few. In particular, let's focus on 6 features where the values appear in some particular pattern or where some categories seem to be much less frequent than others. And to shake things up a bit, let's now use the `Longitude` feature to stretch the values over the y-axis.
-
 
 ```python
 # Specify features of interest
@@ -769,14 +652,9 @@ for col, ax in zip(selected_features, axes.ravel()):
 plt.tight_layout();
 ```
 
-
-    
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/03_advanced_eda/output_66_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
-    
-
 
 These kind of plots are already very informative, but they obscure regions where there are a lot of data points at once. For example, there seems to be a high density of points in some of the plots at the 52nd latitude. So let's take a closer look with an appropriate plot, such as `violineplot` ( or `boxenplot` or `boxplot` for that matter). And to go a step further, let's also separate each visualization by `Urban_or_Rural_Area`.
-
 
 ```python
 # Create a figure with 3 x 2 subplots
@@ -789,11 +667,7 @@ for col, ax in zip(selected_features, axes.ravel()):
 plt.tight_layout();
 ```
 
-
-    
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/03_advanced_eda/output_68_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
-    
-
 
 Interesting! We can see that some values on features are more frequent in urban, than in rural areas (and vice versa). Furthermore, as suspected, there seems to be a high density peak at latitude 51.5. This is very likely due to the more densely populated region around London (at 51.5074°).
 
@@ -801,14 +675,12 @@ Interesting! We can see that some values on features are more frequent in urban,
 
 Last, but not least, let's take a look at relationships between features. More precisely how they correlate. The quickest way to do so is via pandas' `.corr()` function. So let's go ahead and compute the feature to feature correlation matrix for all numerical features.
 
-
 ```python
 # Computes feature correlation
 df_corr = df_X.corr(method="pearson")
 ```
 
 **Note**: Depending on the dataset and the kind of features (e.g. ordinal or continuous features) you might want to use the `spearman` method instead of the `pearson` method to compute the correlation. Whereas the **Pearson** correlation evaluates the linear relationship between two continuous variables, the **Spearman** correlation evaluates the monotonic relationship based on the ranked values for each feature. And to help with the interpretation of this correlation matrix, let's use seaborn's `.heatmap()` to visualize it.
-
 
 ```python
 # Create labels for the correlation matrix
@@ -823,14 +695,9 @@ sns.heatmap(df_corr, mask=np.eye(len(df_corr)), square=True,
             cmap="vlag", cbar_kws={"shrink": 0.8});
 ```
 
-
-    
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/03_advanced_eda/output_73_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
-    
-
 
 This looks already very interesting. We can see a few very strong correlations between some of the features. Now, if you're interested actually ordering all of these different correlations, you could do something like this:
-
 
 ```python
 #  Creates a mask to remove the diagonal and the upper triangle.
@@ -842,7 +709,6 @@ df_corr_stacked = df_corr.where(lower_triangle_mask).stack().sort_values()
 #  Showing the lowest and highest correlations in the correlation matrix
 display(df_corr_stacked)
 ```
-
 
     Local_Authority_(District)  Longitude                -0.509343
                                 Location_Easting_OSGR    -0.502919
@@ -856,7 +722,6 @@ display(df_corr_stacked)
     Longitude                   Location_Easting_OSGR     0.999363
     Latitude                    Location_Northing_OSGR    0.999974
     Length: 1485, dtype: float64
-
 
 As you can see, the investigation of feature correlations can be very informative. But looking at everything at once can sometimes be more confusing than helpful. So focusing only on one feature with something like `df_X.corrwith(df_X["Speed_limit"])` might be a better approach.
 
