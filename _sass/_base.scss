@@ -300,8 +300,10 @@ blockquote {
   display: flex;
   flex-wrap: wrap;
   .member {
+    margin: 0 20px 20px 0;
     .image {
-      width: 250px;
+      width: 200px;
+      border-radius: 100px;
     }
     .name {
       font-weight: bolder;
