@@ -300,10 +300,22 @@ blockquote {
   display: flex;
   flex-wrap: wrap;
   .member {
-    margin: 0 20px 20px 0;
-    .image {
+    margin: 0 40px 60px 0;
+    .img-wrapper {
+      position: relative;
       width: 200px;
+      height: 200px;
       border-radius: 100px;
+      .image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(50, 50);
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin: auto;    
+      }
     }
     .name {
       font-weight: bolder;
