@@ -298,7 +298,7 @@ blockquote {
 
 .members {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 220px);
+  grid-template-columns: repeat(auto-fill, minmax(200px, auto));
   justify-content: space-between;
   grid-gap: 40px;
   .member {
@@ -306,17 +306,21 @@ blockquote {
     flex-direction: column;
     align-items: center;    
     margin-bottom: 60px;
+    padding: 10px;
     .image {
-      width: 220px;
-      height: 220px;
-      border-radius: 110px;
+      width: 100%;
+      height: 0;
+      padding-bottom: 100%;
+      border-radius: 50%;
       overflow: hidden;
+      margin-bottom: 20px;
     }
     .name {
       font-weight: bolder;
     }
     .position {
       font-size: 0.875rem;
+      margin-bottom: 8px;
     }
   }
 }

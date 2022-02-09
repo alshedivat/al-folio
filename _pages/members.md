@@ -12,7 +12,7 @@ order: 0
     <div class="member">
         <div class="image">
             {% include figure.html 
-            path='assets/img/2.png'
+            path='assets/img/hong.png'
             class="img-fluid z-dept-1 rounded" -%}
         </div>
         <div class="name">
@@ -28,7 +28,7 @@ order: 0
         <div class="member">
         <div class="image">
             {% include figure.html 
-            path='assets/img/2.png'
+            path='assets/img/kim.png'
             class="img-fluid z-dept-1 rounded" -%}
         </div>
         <div class="name">
@@ -44,7 +44,7 @@ order: 0
         <div class="member">
         <div class="image">
             {% include figure.html 
-            path='assets/img/2.png'
+            path='assets/img/choi.png'
             class="img-fluid z-dept-1 rounded" -%}
         </div>
         <div class="name">
@@ -60,7 +60,7 @@ order: 0
         <div class="member">
         <div class="image">
             {% include figure.html 
-            path='assets/img/2.png'
+            path='assets/img/kang.png'
             class="img-fluid z-dept-1 rounded" -%}
         </div>
         <div class="name">
@@ -76,7 +76,7 @@ order: 0
         <div class="member">
         <div class="image">
             {% include figure.html 
-            path='assets/img/2.png'
+            path='assets/img/lim.png'
             class="img-fluid z-dept-1 rounded" -%}
         </div>
         <div class="name">
