@@ -61,7 +61,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 20%;
+    width: 18%;
   }
 }
 
@@ -198,7 +198,10 @@ blockquote {
 // Social (bottom)
 
 .social {
+  display: flex;
   text-align: center;
+  flex-direction: column;
+  /*
   .contact-icons {
     font-size: 4rem;
     a {
@@ -213,6 +216,19 @@ blockquote {
       }
     }
   }
+  */
+
+  .contact-logo {
+    width: 25%;
+    margin: 1rem auto 0.5rem;
+  }
+  
+  @media (min-width: 576px) {
+    .contact-logo {
+      width: 15%;
+    }
+  }
+
   .contact-note {
     font-size: 0.8rem;
   }
@@ -354,14 +370,20 @@ blockquote {
       font-size: 1.5rem;
     }
   }
-  h2.type {
+  h2.category {
     color: var(--global-divider-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
-    margin-bottom: -2rem;
     text-align: right;
   }
+
+  @media (min-width: 576px) {
+    h2.category {
+      margin-bottom: -2rem;
+    }
+  }
+
   ol.bibliography {
     list-style: none;
     padding: 0;
@@ -372,6 +394,10 @@ blockquote {
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
+        // remove abbr
+        max-width: 0;
+        padding-left: 0px;
+        padding-right: 0px;
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
@@ -449,7 +475,7 @@ blockquote {
         transition: all 0.15s ease;
       }
       div.abstract.hidden {
-        border: dashed 1px var(--global-bg-color);
+        // border: dashed 1px var(--global-bg-color);
       }
       div.abstract.hidden.open {
         border-color: var(--global-text-color);

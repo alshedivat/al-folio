@@ -38,8 +38,11 @@ layout: default
           {%- if page.social %}
           <!-- Social -->
           <div class="social">
-            <div class="contact-icons">
-            {% include social.html %}
+
+            <div class="contact-logo">
+              {% include figure.html 
+              path='assets/img/kaist_logo.png'
+              class="img-fluid z-dept-1 rounded" -%}
             </div>
 
             <div class="contact-note">

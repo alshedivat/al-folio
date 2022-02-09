@@ -2,18 +2,16 @@
 layout: page
 permalink: /publications/
 title: publications
-description:
-years: [2021, 1956, 1950, 1935, 1905]
-types: [Data, AI / Algorithm, Inclusion / Health]
+categories: [Data, AI / Algorithm, Inclusion / Health]
 nav: true
 order: 3
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{%- for t in page.types %}
-  <h2 class="type">{{t}}</h2>
-  {% bibliography -f papers -q @*[type={{t}}]* %}
+{%- for c in page.categories %}
+  <h2 class="category">{{c}}</h2>
+  {% bibliography -f papers -q @*[category={{c}}]* %}
 {% endfor %}
 
 </div>
