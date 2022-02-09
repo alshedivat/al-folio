@@ -298,18 +298,34 @@ blockquote {
 
 .members {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 200px);
+  grid-template-columns: repeat(auto-fill, 220px);
   justify-content: space-between;
   grid-gap: 40px;
   .member {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    align-items: center;    
     margin-bottom: 60px;
     .image {
-      width: 200px;
-      height: 200px;
-      border-radius: 100px;
-      overflow:hidden;
+      width: 220px;
+      height: 220px;
+      border-radius: 110px;
+      overflow: hidden;
+    }
+    .image-wrapper {
+      position: relative;
+      width: 220px;
+      height: 220px;
+      .image {
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        transform: translate(50, 50); 
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+        margin: auto;
+      }
     }
     .name {
       font-weight: bolder;
@@ -319,6 +335,21 @@ blockquote {
     }
   }
 }
+
+// @media (min-width: 576px) {
+//   .members {
+//     grid-template-columns: repeat(auto-fill, 150px);
+//     grid-gap: 40px;
+//     .member {
+//       .image {
+//         width: 150px;
+//         height: 150px;
+//         border-radius: 75px;
+//         overflow:hidden;
+//       }      
+//     }
+//   }
+// }
 
 
 // Distill

@@ -10,10 +10,12 @@ order: 0
 <!-- _pages/members.md -->
 <div class="members">
     <div class="member">
-        <div class="image">
-            {% include figure.html 
-            path='assets/img/1.png'
-            class="img-fluid z-dept-1 rounded" -%}
+        <div class="image_wrapper">
+            <div class="image">
+                {% include figure.html 
+                path='assets/img/1.png'
+                class="img-fluid z-dept-1 rounded" -%}
+            </div>
         </div>
         <div class="name">
             Hwajung Hong
