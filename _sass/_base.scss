@@ -300,6 +300,9 @@ blockquote {
   display: flex;
   flex-wrap: wrap;
   .member {
+    display: flex;
+    flex-direction: column;
+    
     margin: 0 40px 60px 0;
     .img-wrapper {
       position: relative;
@@ -319,6 +322,9 @@ blockquote {
     }
     .name {
       font-weight: bolder;
+    }
+    .position {
+      font-size: 0.875rem;
     }
   }
 }
