@@ -305,7 +305,6 @@ blockquote {
     display: flex;
     flex-direction: column;
     align-items: center;    
-    margin-bottom: 60px;
     padding: 10px;
     .image {
       width: 100%;
@@ -321,6 +320,9 @@ blockquote {
     .position {
       font-size: 0.875rem;
       margin-bottom: 8px;
+    }
+    .mail {
+      font-size: 0.875rem;
     }
   }
 }
