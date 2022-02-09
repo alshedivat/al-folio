@@ -7,9 +7,19 @@ nav: false
 order: 0
 ---
 
-우리 연구실에는  
-홍화정 교수님  
-김태완님  
-최다솜님  
-강조원님  
-임현승이 있습니다^^.
+<!-- _pages/members.md -->
+<div class="members">
+    <div class="member">
+        <div class="image">
+        </div>
+        <div class="name">
+            Hyunseung Lim
+        </div>
+        <div class="position">
+            professor
+        </div>
+        <div class="mail">
+            hwajung@kaist.ac.kr
+        </div>
+    </div>
+</div>
