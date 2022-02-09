@@ -236,60 +236,72 @@ blockquote {
 
 // Blog
 
-.header-bar {
-  border-bottom: 1px solid var(--global-divider-color);
-  text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 5rem;
-  h1 {
-    color: var(--global-theme-color);
-    font-size: 5rem;
-  }
-}
+// .header-bar {
+//   border-bottom: 1px solid var(--global-divider-color);
+//   text-align: center;
+//   padding-top: 2rem;
+//   padding-bottom: 5rem;
+//   h1 {
+//     color: var(--global-theme-color);
+//     font-size: 5rem;
+//   }
+// }
 
-.post-list {
-  margin: 0;
-  margin-bottom: 40px;
-  padding: 0;
-  li {
-    border-bottom: 1px solid var(--global-divider-color);
-    list-style: none;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    .post-meta {
-      color: var(--global-text-color-light);
-      font-size: 0.875rem;
-      margin-bottom: 0;
-    }
-    .post-tags {
-      color: var(--global-text-color-light);
-      font-size: 0.875rem;
-      padding-top: 0.25rem;
-    }
-    a {
-      color: var(--global-text-color);
-      text-decoration: none;
-      &:hover {
-        color: var(--global-theme-color);
-      }
-    }
-  }
-}
+// .post-list {
+//   margin: 0;
+//   margin-bottom: 40px;
+//   padding: 0;
+//   li {
+//     border-bottom: 1px solid var(--global-divider-color);
+//     list-style: none;
+//     padding-top: 2rem;
+//     padding-bottom: 2rem;
+//     .post-meta {
+//       color: var(--global-text-color-light);
+//       font-size: 0.875rem;
+//       margin-bottom: 0;
+//     }
+//     .post-tags {
+//       color: var(--global-text-color-light);
+//       font-size: 0.875rem;
+//       padding-top: 0.25rem;
+//     }
+//     a {
+//       color: var(--global-text-color);
+//       text-decoration: none;
+//       &:hover {
+//         color: var(--global-theme-color);
+//       }
+//     }
+//   }
+// }
 
-.pagination {
-  .page-item {
-    .page-link {
-      color: var(--global-text-color);
-      &:hover {
-        color: $black-color;
-      }
-    }
-    &.active .page-link {
-      color: $white-color;
-      background-color: var(--global-theme-color);
-      &:hover {
-        background-color: var(--global-theme-color);
-      }
+// .pagination {
+//   .page-item {
+//     .page-link {
+//       color: var(--global-text-color);
+//       &:hover {
+//         color: $black-color;
+//       }
+//     }
+//     &.active .page-link {
+//       color: $white-color;
+//       background-color: var(--global-theme-color);
+//       &:hover {
+//         background-color: var(--global-theme-color);
+//       }
+//     }
+//   }
+// }
+
+// Member
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  .member {
+    .name {
+      font-weight: bolder;
     }
   }
 }

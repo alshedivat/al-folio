@@ -11,6 +11,9 @@ order: 0
 <div class="members">
     <div class="member">
         <div class="image">
+            {% include figure.html 
+              path='assets/img/kaist_logo.png'
+              class="img-fluid z-dept-1 rounded" -%}
         </div>
         <div class="name">
             Hyunseung Lim
