@@ -1,3 +1,19 @@
+@article{JSSv101i12,
+ title={missSBM: An R Package for Handling Missing Values in the Stochastic Block Model},
+ volume={101},
+ url={https://www.jstatsoft.org/index.php/jss/article/view/v101i12},
+ doi={10.18637/jss.v101.i12},
+ abstract={&amp;lt;p&amp;gt;The stochastic block model is a popular probabilistic model for random graphs. It is commonly used to cluster network data by aggregating nodes that share similar connectivity patterns into blocks. When fitting a stochastic block model to a partially observed network, it is important to consider the underlying process that generates the missing values, otherwise the inference may be biased. This paper presents missSBM, an R package that fits stochastic block models when the network is partially observed, i.e., the adjacency matrix contains not only 1s or 0s encoding the presence or absence of edges, but also NAs encoding the missing information between pairs of nodes. This package implements a set of algorithms to adjust the binary stochastic block model, possibly in the presence of external covariates, by performing variational inference suitable for several observation processes. Our implementation automatically explores different block numbers to select the most relevant model according to the integrated classification likelihood criterion. The integrated classification likelihood criterion can also help determine which observation process best fits a given dataset. Finally, missSBM can be used to perform imputation of missing entries in the adjacency matrix. We illustrate the package on a network dataset consisting of interactions between political blogs sampled during the 2007 French presidential election.&amp;lt;/p&amp;gt;},
+ number={12},
+ journal={Journal of Statistical Software},
+ author={Barbillon, Pierre and Chiquet, Julien and Tabouy, Timothée},
+ year={2022},
+ pages={1–32},
+ arxiv     = {1906.12201},
+ code      = {https://github.com/jchiquet/missSBM},
+ selected={true} 
+}
+
 @article{Brault2021,
   abbr = {G3},
   title = {{Harnessing multivariate, penalized regression methods for genomic prediction and QTL detection to cope with climate change affecting grapevine}},
