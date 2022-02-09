@@ -10,12 +10,10 @@ order: 0
 <!-- _pages/members.md -->
 <div class="members">
     <div class="member">
-        <div class="img-wrapper">
-            <div class="image">
-                {% include figure.html 
-                path='assets/img/1.png'
-                class="img-fluid z-dept-1 rounded" -%}
-            </div>
+        <div class="image">
+            {% include figure.html 
+            path='assets/img/1.png'
+            class="img-fluid z-dept-1 rounded" -%}
         </div>
         <div class="name">
             Hwajung Hong
@@ -28,12 +26,10 @@ order: 0
         </div>
     </div>
         <div class="member">
-        <div class="img-wrapper">
-            <div class="image">
-                {% include figure.html 
-                path='assets/img/2.png'
-                class="img-fluid z-dept-1 rounded" -%}
-            </div>
+        <div class="image">
+            {% include figure.html 
+            path='assets/img/2.png'
+            class="img-thumbnail z-dept-1 rounded" -%}
         </div>
         <div class="name">
             Taewan Kim
@@ -46,12 +42,10 @@ order: 0
         </div>
     </div>
         <div class="member">
-        <div class="img-wrapper">
-            <div class="image">
-                {% include figure.html 
-                path='assets/img/3.png'
-                class="img-fluid z-dept-1 rounded" -%}
-            </div>
+        <div class="image">
+            {% include figure.html 
+            path='assets/img/3.png'
+            class="img-fluid z-dept-1 rounded" -%}
         </div>
         <div class="name">
             Dasom Choi
@@ -64,12 +58,10 @@ order: 0
         </div>
     </div>
         <div class="member">
-        <div class="img-wrapper">
-            <div class="image">
-                {% include figure.html 
-                path='assets/img/4.png'
-                class="img-fluid z-dept-1 rounded" -%}
-            </div>
+        <div class="image">
+            {% include figure.html 
+            path='assets/img/4.png'
+            class="img-fluid z-dept-1 rounded" -%}
         </div>
         <div class="name">
             Chowon Kang
@@ -82,12 +74,10 @@ order: 0
         </div>
     </div>
         <div class="member">
-        <div class="img-wrapper">
-            <div class="image">
-                {% include figure.html 
-                path='assets/img/5.png'
-                class="img-fluid z-dept-1 rounded" -%}
-            </div>
+        <div class="image">
+            {% include figure.html 
+            path='assets/img/5.png'
+            class="img-fluid z-dept-1 rounded" -%}
         </div>
         <div class="name">
             Hyunseung Lim
