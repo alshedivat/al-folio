@@ -10,12 +10,10 @@ order: 0
 <!-- _pages/members.md -->
 <div class="members">
     <div class="member">
-        <div class="image_wrapper">
-            <div class="image">
-                {% include figure.html 
-                path='assets/img/1.png'
-                class="img-fluid z-dept-1 rounded" -%}
-            </div>
+        <div class="image">
+            {% include figure.html 
+            path='assets/img/2.png'
+            class="img-fluid z-dept-1 rounded" -%}
         </div>
         <div class="name">
             Hwajung Hong
@@ -46,7 +44,7 @@ order: 0
         <div class="member">
         <div class="image">
             {% include figure.html 
-            path='assets/img/3.png'
+            path='assets/img/2.png'
             class="img-fluid z-dept-1 rounded" -%}
         </div>
         <div class="name">
@@ -62,7 +60,7 @@ order: 0
         <div class="member">
         <div class="image">
             {% include figure.html 
-            path='assets/img/4.png'
+            path='assets/img/2.png'
             class="img-fluid z-dept-1 rounded" -%}
         </div>
         <div class="name">
@@ -78,7 +76,7 @@ order: 0
         <div class="member">
         <div class="image">
             {% include figure.html 
-            path='assets/img/5.png'
+            path='assets/img/2.png'
             class="img-fluid z-dept-1 rounded" -%}
         </div>
         <div class="name">

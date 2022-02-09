@@ -312,21 +312,6 @@ blockquote {
       border-radius: 110px;
       overflow: hidden;
     }
-    .image-wrapper {
-      position: relative;
-      width: 220px;
-      height: 220px;
-      .image {
-        position: absolute; 
-        top: 0; 
-        left: 0; 
-        transform: translate(50, 50); 
-        width: 100%; 
-        height: 100%; 
-        object-fit: cover; 
-        margin: auto;
-      }
-    }
     .name {
       font-weight: bolder;
     }
