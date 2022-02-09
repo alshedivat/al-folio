@@ -297,8 +297,10 @@ blockquote {
 // Member
 
 .members {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100px);
+  justify-content: space-between;
+  grid-gap: 40px;
   .member {
     display: flex;
     flex-direction: column;    
