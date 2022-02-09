@@ -302,8 +302,10 @@ blockquote {
   .member {
     display: flex;
     flex-direction: column;    
-    margin: 0 40px 60px 0;
-    
+    margin: 0 0 60px 0;
+    .image {
+      width: 200px;
+    }
     .name {
       font-weight: bolder;
     }

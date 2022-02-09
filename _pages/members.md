@@ -29,7 +29,7 @@ order: 0
         <div class="image">
             {% include figure.html 
             path='assets/img/2.png'
-            class="img-thumbnail z-dept-1 rounded" -%}
+            class="img-fluid z-dept-1 rounded" -%}
         </div>
         <div class="name">
             Taewan Kim
