@@ -298,15 +298,18 @@ blockquote {
 
 .members {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 100px);
+  grid-template-columns: repeat(auto-fill, 200px);
   justify-content: space-between;
   grid-gap: 40px;
   .member {
     display: flex;
     flex-direction: column;    
-    margin: 0 0 60px 0;
+    margin-bottom: 60px;
     .image {
       width: 200px;
+      height: 200px;
+      border-radius: 100px;
+      overflow:hidden;
     }
     .name {
       font-weight: bolder;
