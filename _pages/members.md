@@ -16,13 +16,77 @@ order: 0
               class="img-fluid z-dept-1 rounded" -%}
         </div>
         <div class="name">
-            Hyunseung Lim
+            Hwajung Hong
         </div>
         <div class="position">
-            professor
+            Associate Professor
         </div>
         <div class="mail">
             hwajung@kaist.ac.kr
+        </div>
+    </div>
+        <div class="member">
+        <div class="image">
+            {% include figure.html 
+              path='assets/img/kaist_logo.png'
+              class="img-fluid z-dept-1 rounded" -%}
+        </div>
+        <div class="name">
+            Taewan Kim
+        </div>
+        <div class="position">
+            Ph.D Student
+        </div>
+        <div class="mail">
+            hwajung@kaist.ac.kr
+        </div>
+    </div>
+        <div class="member">
+        <div class="image">
+            {% include figure.html 
+              path='assets/img/kaist_logo.png'
+              class="img-fluid z-dept-1 rounded" -%}
+        </div>
+        <div class="name">
+            Dasom Choi
+        </div>
+        <div class="position">
+            Ph.D Student
+        </div>
+        <div class="mail">
+            hwajung@kaist.ac.kr
+        </div>
+    </div>
+        <div class="member">
+        <div class="image">
+            {% include figure.html 
+              path='assets/img/kaist_logo.png'
+              class="img-fluid z-dept-1 rounded" -%}
+        </div>
+        <div class="name">
+            Chowon Kang
+        </div>
+        <div class="position">
+            Master's Student
+        </div>
+        <div class="mail">
+            hwajung@kaist.ac.kr
+        </div>
+    </div>
+        <div class="member">
+        <div class="image">
+            {% include figure.html 
+              path='assets/img/kaist_logo.png'
+              class="img-fluid z-dept-1 rounded" -%}
+        </div>
+        <div class="name">
+            Hyunseung Lim
+        </div>
+        <div class="position">
+            Master's Student
+        </div>
+        <div class="mail">
+            charlie9807@kaist.ac.kr
         </div>
     </div>
 </div>
