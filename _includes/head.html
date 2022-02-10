@@ -2,6 +2,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+{% include analytics.html %}
+
 <title>
 {% if site.title == "blank" %}
   {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
@@ -49,6 +51,3 @@
 <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
 {% endif %}
 
-{% if site.google_analytics and jekyll.environment == 'production' %}
-{% include analytics.html %}
-{% endif %}
