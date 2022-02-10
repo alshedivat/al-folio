@@ -89,4 +89,21 @@ order: 0
             charlie9807@kaist.ac.kr
         </div>
     </div>
+    </div>
+        <div class="member">
+        <div class="image">
+            {% include figure.html 
+            path='assets/img/jong.png'
+            class="img-fluid z-dept-1 rounded" -%}
+        </div>
+        <div class="name">
+            Jongok Hong
+        </div>
+        <div class="position">
+            Intern
+        </div>
+        <div class="mail">
+            rubfrogjo@kaist.ac.kr
+        </div>
+    </div>
 </div>
