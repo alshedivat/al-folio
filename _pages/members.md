@@ -25,7 +25,7 @@ order: 0
             hwajung@kaist.ac.kr
         </div>
     </div>
-        <div class="member">
+    <div class="member">
         <div class="image">
             {% include figure.html 
             path='assets/img/kim.png'
@@ -41,7 +41,7 @@ order: 0
             hwajung@kaist.ac.kr
         </div>
     </div>
-        <div class="member">
+    <div class="member">
         <div class="image">
             {% include figure.html 
             path='assets/img/choi.png'
@@ -57,7 +57,7 @@ order: 0
             hwajung@kaist.ac.kr
         </div>
     </div>
-        <div class="member">
+    <div class="member">
         <div class="image">
             {% include figure.html 
             path='assets/img/kang.png'
@@ -73,7 +73,7 @@ order: 0
             hwajung@kaist.ac.kr
         </div>
     </div>
-        <div class="member">
+    <div class="member">
         <div class="image">
             {% include figure.html 
             path='assets/img/lim.png'
@@ -89,8 +89,7 @@ order: 0
             charlie9807@kaist.ac.kr
         </div>
     </div>
-    </div>
-        <div class="member">
+    <div class="member">
         <div class="image">
             {% include figure.html 
             path='assets/img/jong.png'
