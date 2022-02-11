@@ -21,9 +21,6 @@ order: 0
         <div class="position">
             Associate Professor
         </div>
-        <div class="mail">
-            hwajung@kaist.ac.kr
-        </div>
     </div>
     <div class="member">
         <div class="image">
@@ -36,9 +33,6 @@ order: 0
         </div>
         <div class="position">
             Ph.D Student
-        </div>
-        <div class="mail">
-            hwajung@kaist.ac.kr
         </div>
     </div>
     <div class="member">
@@ -53,9 +47,6 @@ order: 0
         <div class="position">
             Ph.D Student
         </div>
-        <div class="mail">
-            hwajung@kaist.ac.kr
-        </div>
     </div>
     <div class="member">
         <div class="image">
@@ -68,9 +59,6 @@ order: 0
         </div>
         <div class="position">
             Master's Student
-        </div>
-        <div class="mail">
-            hwajung@kaist.ac.kr
         </div>
     </div>
     <div class="member">
@@ -85,9 +73,6 @@ order: 0
         <div class="position">
             Master's Student
         </div>
-        <div class="mail">
-            charlie9807@kaist.ac.kr
-        </div>
     </div>
     <div class="member">
         <div class="image">
@@ -99,10 +84,7 @@ order: 0
             Jongok Hong
         </div>
         <div class="position">
-            Intern
-        </div>
-        <div class="mail">
-            rubfrogjo@kaist.ac.kr
+            Undergraduate Intern
         </div>
     </div>
 </div>
