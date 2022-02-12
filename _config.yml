@@ -109,6 +109,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  people:
+    output: true
+    permalink: /people/:path/
   calgaryandrockies:
     output: true
     permalink: /calgaryandrockies/:path/

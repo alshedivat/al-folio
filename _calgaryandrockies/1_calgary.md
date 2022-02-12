@@ -2,7 +2,7 @@
 layout: page
 title: Calgary
 description: The City of Calgary
-img: assets/img/calgaryphotos/calgaryskyline.jpg
+img: assets/img/calgaryphotos/calgaryskylineveryclose.jpg
 importance: 1
 category: Calgary
 ---
