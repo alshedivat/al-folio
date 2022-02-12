@@ -2,6 +2,7 @@
 layout: group
 title: group
 permalink: /group/
+nav: true
 description: Sustainable Energy Systems Laboratory (SENSL)
 ---
 For openings in my research group, please see [Openings](#openings).
