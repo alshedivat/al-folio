@@ -13,3 +13,27 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
+
+img.navbar {
+  height: 3em;
+  outline: none;
+  border: none; 
+};
+
+img.title {
+  height: 1em;
+  outline: none;
+  border: none; 
+};
+
+svg.ucalgary-outline-color {
+  font-family: proxima-nova, "Proxima Nova", "Raleway", Arial, Helvetica;
+  font-weight: 800;
+}
+
+text.ucalgary-outline-color {
+  fill            : #{$uc-red-color};
+  stroke          : #{$uc-gold-color};
+  stroke-width    : 2px;
+  stroke-linejoin : round;
+}
