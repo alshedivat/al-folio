@@ -555,6 +555,9 @@ html.transition *:after {
       }
     }
   }
+  .post-title{
+    text-transform:capitalize;
+  }
   .post-content{
         blockquote {
           border-left: 5px solid var(--global-theme-color);

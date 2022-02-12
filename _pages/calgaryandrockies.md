@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Calgary & The Canadian Rockies
+title: calgary
 permalink: /calgaryandrockies/
-description: An Overview of Calgary & Surrounding Area
+description: Calgary & The Canadian Rockies
 nav: true
 display_categories: [Calgary, Canadian Rockies]
 horizontal: false
