@@ -351,7 +351,7 @@ footer.sticky-bottom {
       width: 100%;
     }
     .card-title {
-      color: $black-color;
+      color: var(--global-text-color)
     }
   }
 
@@ -394,18 +394,19 @@ footer.sticky-bottom {
   }
 
   .card {
+    box-shadow: none;
     background-color: var(--global-bg-color);
     img {
       width: 100%;
     }
     .card-title {
-      color: $black-color;
+      color: var(--global-text-color)
     }
   }
 
   .card-item {
     width: auto;
-    margin-bottom: 10px;
+    margin-bottom: 0.5em;
 
     .row {
       display: flex;
@@ -414,13 +415,13 @@ footer.sticky-bottom {
   }
 
   .grid-item {
-    width: 250px;
-    margin-bottom: 10px;
+    width: 18em;
+    margin-bottom: 0.5em;
   }
 
   h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
+    color: var(--global-fg-color);
+    border-bottom: 2px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;

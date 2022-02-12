@@ -10,14 +10,16 @@
           {%- if person.img %}
             {%- include figure.html 
               path=person.img 
-              alt="Portrait Thumbnail" -%}
+              alt="Portrait" class="img-fluid rounded-circle z-depth-0" -%}
           {%- endif %}
           <div class="card-body">
             <h2 class="card-title text-capitalize">{{ person.firstname }} {{ person.lastname }}</h2>
             <h3 class="card-text">{{ person.description }}</h3>
             <div class="row ml-1 mr-1 p-0">
               {%- if person.email -%}
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
               <a href="mailto:{{ person.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a>
+              </div>
               {% endif %}
               {%- if person.orcid_id -%}
               <a href="https://orcid.org/{{ person.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a>

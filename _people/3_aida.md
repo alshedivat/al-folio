@@ -2,7 +2,7 @@
 layout: page
 firstname: Aida
 lastname: Mohammadshahi
-description: Msc Student
+description: Msc Student (Starting Sep. 2022)
 img: assets/img/people/aidamohammadshahi.jpg
 redirect: https://github.com/aidamohammadshahi
 linkedin_username: aida-mohammadshahi-9845861b3
