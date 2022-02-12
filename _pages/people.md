@@ -8,26 +8,26 @@ display_categories: [PI, PhD Students, MSc Students]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-  <!-- Display categorized projects -->
+<!-- pages/people.md -->
+<div class="people">
+  <!-- Display categorized people -->
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.people | where: "category", category -%}
-  {%- assign sorted_projects = categorized_projects | sort: "lastname" %}
-  <!-- Generate cards for each project -->
+  {%- assign categorized_people = site.people | where: "category", category -%}
+  {%- assign sorted_people = categorized_people | sort: "lastname" %}
+  <!-- Generate cards for each person -->
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
+    {%- for person in sorted_people -%}
+      {% include people_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
+    {%- for person in sorted_people -%}
+      {% include people.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
