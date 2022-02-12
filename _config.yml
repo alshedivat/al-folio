@@ -8,7 +8,7 @@ middle_name: ML
 last_name: Lab
 email: yani.ioannou@ucalgary.ca
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Calgary Machine Learning Lab
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -55,7 +55,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: yanii # your GitHub user name
+github_username: calgaryml # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: yaniioannou # your Twitter handle
 linkedin_username: yanii # your LinkedIn user name
@@ -175,13 +175,13 @@ github: [metadata]
 # -----------------------------------------------------------------------------
 
 # HTML remove comments (<!-- .... -->)
-remove_HTML_comments: false
+remove_HTML_comments: true
 
 # HTML beautifier (_plugins/beautify.rb) / https://github.com/threedaymonk/htmlbeautifier
 beautify: false # This function has conflict with the code snippets, they can be displayed incorrectly
 
 # HTML minify (_plugins/minify.rb) Thanks to: https://www.ffbit.com/blog/2021/03/17/html-minification-in-jekyll.html
-minify: false
+minify: true
 
 # CSS/SASS minify
 sass:
@@ -209,7 +209,7 @@ jekyll-archives:
 scholar:
 
   last_name: Ioannou
-  first_name: [Yani, A.]
+  first_name: [Yani, Yani Andrew, Yani A., Y., Y.A.]
 
   style: apa
   locale: en
@@ -256,9 +256,9 @@ imagemagick:
 # Jekyll Diagrams
 # -----------------------------------------------------------------------------
 
-jekyll-diagrams:
-    # configuration, see https://github.com/zhustec/jekyll-diagrams.
-    # feel free to comment out this section if not using jekyll diagrams.
+# jekyll-diagrams:
+#     # configuration, see https://github.com/zhustec/jekyll-diagrams.
+#     # feel free to comment out this section if not using jekyll diagrams.
 
 
 # -----------------------------------------------------------------------------

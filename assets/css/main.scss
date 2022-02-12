@@ -14,6 +14,11 @@ $max-content-width: {{ site.max_width }};
   "distill"
 ;
 
+* {
+font-family: proxima-nova, "Proxima Nova", "Raleway", Arial, Helvetica;
+font-weight: 400;
+};
+
 img.navbar {
   height: 3em;
   outline: none;

@@ -2,10 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<a href='https://schulich.ucalgary.ca/electrical-software'>Dept. Electrical & Software Engineering, Schulich School of Engineering</a><br>"
+subtitle:
 
 profile:
-  align: right
+  align: left
   image: ucmllogo-text.svg
   # address: >
   #   <p>ICT 402, University of Calgary</p>
@@ -21,6 +21,6 @@ The Calgary Machine Learning Lab
 is a research group led by [Yani Ioannou](https://yani.ai) within the [Schulich School of Engineering](https://schulich.ucalgary.ca) at the [University of Calgary](https://www.ucalgary.ca).
 
 The lab has a research focus on improving Deep Neural Network (DNN) training and models, in particular for computer vision applications. Topics of research include:
-Sparse Neural Network Training, Bias and Robustness of Efficient Deep Learning methods and Domain-Agnostic Self-Supervised Learning (see [Research](research)).
+Sparse Neural Network Training, Bias and Robustness of Efficient Deep Learning methods and Domain-Agnostic Self-Supervised Learning (see [Research](projects)).
 
 We collaborate with other research groups within the university with the [Artificial Intelligence Research Group](https://www.calgaryai.org), and broader, on applying machine learning and computer vision to novel problems.

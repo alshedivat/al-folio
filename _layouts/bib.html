@@ -74,7 +74,7 @@
           {% if entry.type == "article" -%}
             {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
           {%- elsif entry.type == "inproceedings" -%}
-            {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+            {%- capture entrytype -%}<em>In {{entry.booktitle}}, {{entry.venue}}</em> {%- endcapture -%}
           {%- endif -%}
           {%- if entry.month -%}
             {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
@@ -93,8 +93,11 @@
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
-          {%- if entry.arxiv %}
-            <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+          {%- if entry.arxiv or entry.arxivid%}
+            <a href="http://arxiv.org/abs/{{ entry.arxiv }}{{ entry.arxivid }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+          {%- endif %}
+          {%- if entry.doi %}
+            <a href="http://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
           {%- endif %}
           {%- if entry.bibtex_show %}
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>

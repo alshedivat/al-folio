@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-01-12 13:24:00-0500
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our paper, {% cite evci2022gradientflowsparse %} has been accepted in the 2022 AAAI Conference!
+

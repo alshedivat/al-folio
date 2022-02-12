@@ -7,7 +7,10 @@ layout: default
         <header class="post-header">
           <h1 class="post-title">
            {% if site.middle_name == "ML" %}
-           <span><svg class="ucalgary-outline-color" viewBox="0 0 450 50"><text class="ucalgary-outline-color" y="50">{{ site.first_name }}</text></svg><img src="/assets/img/ucmllogo-2block.svg" class="title" alt="ML"></img> {{ site.last_name }}</span>
+           <!-- <span><svg class="ucalgary-outline-color" viewbox="0 0 300 70"><text class="ucalgary-outline-color" y="50">{{ site.first_name }}</text></svg><img src="/assets/img/ucmllogo-2block.svg" class="title" alt="ML"></img> {{ site.last_name }}</span> -->
+           <!-- <span><img src="/assets/img/ucmllogo-textfull.svg" class="title" alt="ML"></img> {{ site.last_name }}</span> -->
+           <!-- <span><img src="/assets/img/ucmllogo-text.svg" class="title" alt="ML"></img> {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}</span> -->
+           <span><svg class="ucalgary-outline-color" viewbox="0 0 600 70"><text class="ucalgary-outline-color" y="50">{{ site.first_name }} Machine Learning {{ site.last_name }}</text></svg></span>
            {% elsif site.title == "blank" -%}
            <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
            {%- else -%}

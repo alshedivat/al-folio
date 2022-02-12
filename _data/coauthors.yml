@@ -1,18 +1,25 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Evci":
+  - firstname: ["Utku", "U."]
+    url: http://www.utkuevci.com
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Dauphin":
+  - firstname: ["Yann", "Y."]
+    url: https://www.dauphin.io
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Taylor":
+  - firstname: ["Graham", "G."]
+    url: https://www.gwtaylor.ca
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Keskin":
+  - firstname: ["Cem", "C."]
+    url: https://scholar.google.ca/citations?user=9HoiYnYAAAAJ
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Ansdell":
+  - firstname: ["Megan", "M."]
+    url: https://science.nasa.gov/researchers/sara/program-officers-list/megan-ansdell
+"Cipolla":
+  - firstname: ["Roberto", "R."]
+    url: http://mi.eng.cam.ac.uk/~cipolla
+"Criminisi":
+  - firstname: ["Antonio", "A."]
+    url: https://scholar.google.co.uk/citations?user=YHmzvmMAAAAJ
