@@ -59,13 +59,16 @@ blockquote {
 // Profile
 
 .profile {
-  margin-left: 1rem;
+  // margin-left: 1rem;
+  margin-right: 2rem;
   width: 100%;
 
-  .address {
+  .name {
+    font-weight: 500;
+    text-align: center;
+    color: var(--global-theme-color);
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
     p {
       display: inline-block;
       margin: 0;
@@ -76,7 +79,7 @@ blockquote {
 @media (min-width: 576px) {
   .profile {
     width: 30%;
-    .address {
+    .name {
       p { display: block; }
     }
   }
