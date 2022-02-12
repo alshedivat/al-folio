@@ -84,7 +84,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: none  # your blog must have a name for it to show up in the nav bar
+blog_name:  # your blog must have a name for it to show up in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
@@ -109,6 +109,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  calgaryandrockies:
+    output: true
+    permalink: /calgaryandrockies/:path/
 
 news_limit: 5
 
@@ -151,6 +154,7 @@ plugins:
   - jekyll-github-metadata
   - jekyll-imagemagick
   - jekyll-paginate-v2
+  - jekyll-responsive-image
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-target-blank
