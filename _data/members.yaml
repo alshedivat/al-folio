@@ -1,0 +1,22 @@
+- name: Hantao Cui
+  photo: hantao-cui.jpg
+  info: Assistant Professor
+  email: h.cui@okstate.edu
+  number_educ: 2
+  education1: PhD, University of Tennessee
+  education2: IEEE Senior Member
+
+- name: Zaid Mahmood
+  photo: zaid-mahmood.jpg
+  info: PhD student (Spring 2022)
+  email: zaid.mahmood@okstate.edu
+  number_educ: 1
+  education1: B.S., BUET, Bangladesh
+
+- name: Ahmad Ali
+  photo: ahmad-ali.jpg
+  info: PhD student (Spring 2022)
+  email: ahmad.ali@okstate.edu
+  number_educ: 2
+  education1: M.S. in 2021, NUST, Pakistan
+  education2: B.S. in 2016, NUST, Pakistan

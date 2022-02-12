@@ -2,10 +2,18 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Past teching experience.
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+- [Spring 2022]
+    Instructur of ECEN 4283/5080 (Computer Networks)
 
-Organize your courses by years, topics, or universities, however you like!
+- [Fall 2021]
+    Instructor of ECEN 5113 (Power System Analysis by Computer Methods)
+
+- [Spring 2019 - Spring 2021 at UTK]
+    Instructor of ECE 496/691 (CURENT Power and Energy Seminar)
+
+- [Fall 2019 at UTK]
+    Co-instructor of ECE 421 (Electric Energy Systems)
