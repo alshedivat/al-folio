@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Banff
-description: Banff National Park
+description: "Banff National Park: 1.5 Hours from Calgary"
 img: assets/img/banffphotos/peytolakepano.jpg
 importance: 1
 category: The Canadian Rockies
