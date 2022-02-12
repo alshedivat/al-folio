@@ -1,5 +1,5 @@
 ---
-layout: group
+layout: page
 title: group
 permalink: /group/
 nav: true
@@ -12,9 +12,9 @@ For openings in my research group, please see [Openings](#openings).
 {% for member in site.data.members%}
 
 <div class="row">
-<div class="clearfix">
+<div class="col">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/teampics/{{ member.photo }}"
-       class="img-responsive" width="25%" style="float: left;vertical-align:middle;margin:20px 20px" />
+       class="img-responsive" width="22%" style="float: left;vertical-align:middle;margin:20px 20px" />
 
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>email: {{ member.email }}</i>
