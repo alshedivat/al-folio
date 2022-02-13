@@ -12,4 +12,5 @@ email: yani.ioannou@ucalgary.ca
 scholar_userid: Qy9yv44AAAAJ
 twitter_username: yaniioannou
 category: Lab Director
+show: true
 ---

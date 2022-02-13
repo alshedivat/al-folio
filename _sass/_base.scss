@@ -403,7 +403,19 @@ footer.sticky-bottom {
       width: 100%;
     }
     .card-title {
+      text-align: center;
       color: var(--global-text-color)
+    }
+    .card-icons {
+      text-align: center;
+      color: var(--global-text-color)
+    }
+    .card-text {
+      text-align: center;
+      font-size: larger
+    }
+    .icon {
+      font-size: larger;
     }
   }
 
@@ -418,12 +430,14 @@ footer.sticky-bottom {
   }
 
   .grid-item {
-    width: 18em;
+    width: 15em;
     margin-bottom: 0.5em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
   }
 
   h2.category {
-    color: var(--global-fg-color);
+    color: var(--global-theme-color);
     border-bottom: 2px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;

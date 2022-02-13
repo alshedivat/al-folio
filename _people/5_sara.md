@@ -2,11 +2,12 @@
 layout: page
 firstname: Sara
 lastname: Kodeiri
-description: Msc Student (Co-Supervised with Prof. Sayeh Bayat, Starting Sep. 2022)
+description: Msc Student<br/>Co-supervised with <a href="https://www.healthycitylab.ca">Prof. Sayeh Bayat</a><br/>(Starting Sep. 2022)
 img: assets/img/people/sarakodeiri.jpg
 redirect: https://sarakodeiri.github.io
 linkedin_username: sarakodeiri
 github_username: sarakodeiri
 twitter_username: sarakodeiri
 category: MSc Students
+show: true
 ---

@@ -16,20 +16,12 @@ horizontal: false
   {%- assign categorized_people = site.people | where: "category", category -%}
   {%- assign sorted_people = categorized_people | sort: "lastname" %}
   <!-- Generate cards for each person -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for person in sorted_people -%}
-      {% include people_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
   <div class="grid">
     {%- for person in sorted_people -%}
-      {% include people.html %}
+      {%- if person.show -%}
+        {% include people.html %}
+      {%- endif -%}
     {%- endfor %}
   </div>
-  {%- endif -%}
   {% endfor %}
 </div>
