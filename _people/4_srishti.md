@@ -9,5 +9,5 @@ linkedin_username: srishti-yadav
 github_username: copperwiring
 scholar_userid: LW9fQacAAAAJ
 category: PhD Students
-show: true
+show: false
 ---
