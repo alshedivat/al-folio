@@ -3,6 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle:
+nav-order: 0
 
 profile:
   align: left

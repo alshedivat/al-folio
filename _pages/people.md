@@ -4,6 +4,7 @@ title: people
 permalink: /people/
 description: Lab Members
 nav: true
+nav-order: 1
 display_categories: [Lab Director, PhD Students, MSc Students]
 horizontal: false
 ---
