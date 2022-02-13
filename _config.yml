@@ -57,19 +57,19 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: calgaryml # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: yaniioannou # your Twitter handle
-linkedin_username: yanii # your LinkedIn user name
-scholar_userid: Qy9yv44AAAAJ # your Google Scholar ID
-orcid_id: 0000-0002-9797-5888 # your ORCID ID
+twitter_username: UCalgaryML # your Twitter handle
+# linkedin_username: yanii # your LinkedIn user name
+# scholar_userid: Qy9yv44AAAAJ # your Google Scholar ID
+# orcid_id: 0000-0002-9797-5888 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
-publons_id: AAL-6029-2021 # your ID on Publons
+# publons_id: AAL-6029-2021 # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: https://schulich.ucalgary.ca/electrical-software # work page URL
+# work_url: https://schulich.ucalgary.ca/electrical-software # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
-dblp_url: https://dblp.org/pid/119/5087 # your DBLP profile url
+# dblp_url: https://dblp.org/pid/119/5087 # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
