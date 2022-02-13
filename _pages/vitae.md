@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: page
+permalink: /vitae/
 title: Vitae
 nav: true
 ---
 <!-- _pages/publications.md -->
 Last updated: Feb 13, 2022
 
-<a href="{{ '/assets/pdf/Noppayut-CV-22Feb.pdf' | prepend: site.baseurl | prepend: site.url }}">Download my CV</a>
+[Download my CV]({{ site.url }}/download/NoppayutS-CV-22Feb.pdf)
