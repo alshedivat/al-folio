@@ -42,3 +42,49 @@ text.ucalgary-outline-color {
   stroke-width    : 2px;
   stroke-linejoin : round;
 }
+
+.territorial-acknowledgement {
+  background-color: var(--global-background-highlight-color);
+  color: var(--global-fg-color);
+  text-align: justify;
+  border-color: var(--global-background-color);
+  border-width: 2pt;
+}
+
+.card {
+  box-shadow: none;
+  background-color: var(--global-bg-color);
+  img {
+    width: 100%;
+  }
+  .card-title {
+    text-align: center;
+    color: var(--global-text-color)
+  }
+  .card-icons {
+    text-align: center;
+    color: var(--global-text-color);
+    a {
+      i::before {
+        color: var(--global-text-color);
+        transition-property: all 0.2s ease-in-out;
+      }
+      &:hover {
+        i::before {
+          color: var(--global-theme-color);
+        }
+      }
+    }
+  }
+  .card-text {
+    text-align: center;
+    font-size: larger
+  }
+  .card-pronouns {
+    text-align: center;
+    font-size: larger;
+  }
+  .icon {
+    font-size: larger;
+  }
+}
