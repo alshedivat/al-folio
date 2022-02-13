@@ -59,7 +59,6 @@ blockquote {
 // Profile
 
 .profile {
-  // margin-left: 1rem;
   margin-right: 2rem;
   width: 100%;
 
@@ -67,8 +66,8 @@ blockquote {
     font-weight: 500;
     text-align: center;
     color: var(--global-theme-color);
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 1em;
+    margin-top: 1em;
     p {
       display: inline-block;
       margin: 0;
@@ -494,7 +493,7 @@ footer.sticky-bottom {
   }
 
   .grid-item {
-    width: 40em;
+    width: auto;
     margin-bottom: 0.5em;
   }
 
