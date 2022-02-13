@@ -13,6 +13,9 @@
               alt="Portrait" class="img-fluid rounded-circle z-depth-0" -%}
           {%- endif %}
           <h2 class="card-title text-capitalize">{{ person.firstname }} {{ person.lastname }}</h2>
+          {%- if person.pronouns -%}
+          <h3 class="card-pronouns mb-2">{{ person.pronouns}}</h3>
+          {%- endif -%}
           <div class="card-icons">
             {%- if person.email -%}
             <a href="mailto:{{ person.email | encode_email }}" title="e-mail"><i class="icon mr-1 p-0 fas fa-envelope"></i></a>

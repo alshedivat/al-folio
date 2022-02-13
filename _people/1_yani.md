@@ -2,6 +2,7 @@
 layout: page
 firstname: Yani
 lastname: Ioannou
+pronouns: he/him
 description: Assistant Professor, Schulich School of Engineering
 img: assets/img/people/yaniioannou.jpg
 redirect: https://yani.ai
