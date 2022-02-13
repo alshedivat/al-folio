@@ -240,7 +240,8 @@ scholar:
   details_link: Details
 
   query: "@*"
-
+  
+  relative: "/publications/"
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images

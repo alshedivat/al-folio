@@ -2,7 +2,7 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <!-- <div class="col-sm-1 abbr">
+        <div class="col-sm-1 abbr">
         {%- if entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%}
           <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
@@ -10,10 +10,10 @@
           <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
         {%- endif -%}
-        </div> -->
+        </div>
 
         <!-- Entry bib key -->
-        <div id="{{entry.key}}" class="col-sm-10">
+        <div id="{{entry.key}}" class="col-sm-9">
         {% if entry.type == "thesis" -%}
           {{reference}}
         {%- else %}
@@ -73,6 +73,8 @@
           <!-- Journal/Book title and date -->
           {% if entry.type == "article" -%}
             {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
+          {%- elsif entry.type == "report" -%}
+            {%- capture entrytype -%}<em>{{entry.institution}} {{entry.booktitle}}, {{entry.number}}</em>{%- endcapture -%}
           {%- elsif entry.type == "inproceedings" -%}
             {%- capture entrytype -%}<em>In {{entry.booktitle}}, {{entry.venue}}</em> {%- endcapture -%}
           {%- endif -%}
