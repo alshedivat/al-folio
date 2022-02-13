@@ -72,10 +72,15 @@ wikidata_id: # your wikidata id
 # dblp_url: https://dblp.org/pid/119/5087 # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
-contact_note: >
-  <strong>Graduate Applicants</strong>: Please see <a href="https://grad.ucalgary.ca/future-students/supervisor/yani-ioannou">here for information on applying to the lab</a>.</br>
-  <strong>Potential Collaborators/Industry Partners</strong>: Please reach out to the lab director by e-mail directly.</br>
-  <strong>Media</strong>: Please reach out to the media contact listed <a href="https://profiles.ucalgary.ca/yani-ioannou">here</a>.
+# contact_note: >
+#   <dl>
+#   <dt>Mailing Address</dt>
+#   <dd>ICT 402, 2500 University Drive NW,<br/>
+#   Calgary, AB T2N 1N4</dd>
+#   <dt>Graduate Applicants</dt><dd>Please see <a href="https://grad.ucalgary.ca/future-students/supervisor/yani-ioannou">here for information on applying to the lab</a>.</dd>
+#   <dt>Potential Collaborators/Industry Partners</dt><dd>Please reach out to the lab director by e-mail directly.</dd>
+#   <dt>Media</dt><dd>Please reach out to the media contact listed <a href="https://profiles.ucalgary.ca/yani-ioannou">here</a>.</dd>
+#   </dl>
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -279,7 +284,7 @@ enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
+enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories

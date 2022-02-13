@@ -14,7 +14,8 @@
               {{ site.title }}
               {%- endif -%}
           </a>
-          {%- elsif site.enable_navbar_social -%}
+          {% endif %}
+          {%- if site.enable_navbar_social -%}
           <!-- Social Icons -->
           <div class="navbar-brand social">
             {% include social.html %}

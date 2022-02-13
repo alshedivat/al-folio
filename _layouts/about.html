@@ -52,16 +52,15 @@ layout: default
           {%- endif %}
           {%- if page.social %}
           <!-- Social -->
-          <h2>contact us:</h2>
           <div class="social">
+            {%- if site.enable_navbar_social != true -%}
             <div class="contact-icons">
             {% include social.html %}
             </div>
-
+            {%- endif -%}
             <div class="contact-note">
               {{ site.contact_note }}
             </div>
-            
           </div>
           {%- endif %}
         </article>
