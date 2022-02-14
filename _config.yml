@@ -87,14 +87,6 @@ google_site_verification:  # your google-site-verification ID (Google Search Con
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-
-blog_name:  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
-
 # Pagination
 pagination:
   enabled: true
@@ -113,9 +105,6 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
   people:
     output: true
     permalink: /people/:path/
@@ -150,6 +139,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
 keep_files:
   - CNAME
   - .nojekyll
@@ -177,6 +167,7 @@ defaults:
       path:            "assets/**/*.*"
     values:
       sitemap:         false
+
 # Extras
 github: [metadata]
 
@@ -208,9 +199,6 @@ jekyll-archives:
     tag: archive-tag
     category: archive-category
   permalinks:
-    year: '/blog/:year/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
