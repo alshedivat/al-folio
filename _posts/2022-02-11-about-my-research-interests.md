@@ -1,12 +1,11 @@
 ---
 layout: distill
-title: Towards Artificial Natural Intelligence
-description: About my research interests and goals
+title: About My Research Interests
 date: 2022-02-11
 
 authors:
   - name: Zheyuan Zhang
-    url: "zheyuanzhang@umass.edu"
+    url: "https://cozheyuanzhangde.github.io/"
     affiliations:
       name: University of Massachusetts Amherst
 
