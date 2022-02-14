@@ -11,4 +11,5 @@ My research interests lie in the intersection of computer science(artificial int
 Artificial intelligence progressed rapidly over years. Following the trend of new models or even new paradigm in machine learning, we can see that some of them incorporate psychological concepts. For example, reinforcement learning. Sutton & Barto's book[1] introduces RL by letting us to think about the nature of learning which is the interaction between environment and ourselves. Although it's not explicit, our brain is generating actions based on environment to maximize reward both in the short term and long term. 
 
 References
+
 [1] Sutton, R. S., & Barto, A. G. (2018). Reinforcement learning: An introduction. MIT press.
