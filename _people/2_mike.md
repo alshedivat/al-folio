@@ -2,6 +2,7 @@
 layout: page
 firstname: Michael
 lastname: Lasby
+pronouns: he/him
 description: PhD Student<br/>Co-supervised with <a href="https://profiles.ucalgary.ca/roberto-souza">Prof. Roberto Souza</a>
 img: assets/img/people/mikelasby.jpg
 redirect: http://www.mikelasby.com
