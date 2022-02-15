@@ -2,6 +2,7 @@
 layout: page
 firstname: Aida
 lastname: Mohammadshahi
+pronouns: she/her
 description: Msc Student<br/>(Starting Sep. 2022)
 img: assets/img/people/aidamohammadshahi.jpg
 redirect: https://github.com/aidamohammadshahi
