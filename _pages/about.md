@@ -26,7 +26,7 @@ Giulia is generally interested in the intersection of High-Performance Computing
 
 <!--Currently, she is developing a novel algorithm for de novo assembly of genomes in distributed memory using long-read sequencing data and sparse matrix abstraction as part of the [ExaBiome](https://sites.google.com/lbl.gov/exabiome) project.-->
 
-**I am on the academic job market**---here are a recent **[CV](https://drive.google.com/file/d/1DmJgPIFg6S-B0bqvqWFUmrmk6czYVmy5/view?usp=sharing)** (Dec 2021) and the Tl;dr version of my **[Research Statement](https://drive.google.com/file/d/1_HVC4HkkyBMqUx8AiTHeyjgwlSdYG3j6/view?usp=sharing)**.
+**I am on the academic job market**---here are a recent **[CV](https://drive.google.com/file/d/1DmJgPIFg6S-B0bqvqWFUmrmk6czYVmy5/view?usp=sharing)** (Feb 2022) and the Tl;dr version of my **[Research Statement](https://drive.google.com/file/d/1_HVC4HkkyBMqUx8AiTHeyjgwlSdYG3j6/view?usp=sharing)**.
 
 <!--, and my [academic genealogy tree](https://academictree.org/computerscience/tree.php?pid=864537&pnodecount=15&cnodecount=5&fontsize=1).-->
 
