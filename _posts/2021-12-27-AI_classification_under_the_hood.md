@@ -306,27 +306,29 @@ model.compile(
 model.summary()
 ```
 
-    Model: "model_1"
-    _________________________________________________________________
-     Layer (type)                Output Shape              Param #   
-    =================================================================
-     input_1  (InputLayer)          [(None, 32, 32, 3)]    0         
-     conv2d_2  (Conv2D)              (None, 32, 32, 64)    4864      
-     activation_3 (Activation)       (None, 32, 32, 64)    0         
-     max_pooling2d_4 (MaxPooling2D)  (None, 16, 16, 64)    0         
-     conv2d_5 (Conv2D)               (None, 16, 16, 64)    36928     
-     max_pooling2d_6 (MaxPooling2D)  (None, 8, 8, 64)      0         
-     flatten_7 (Flatten)             (None, 4096)          0         
-     dropout_8 (Dropout)             (None, 4096)          0         
-     dense_9 (Dense)                 (None, 256)           1048832   
-     batch_normalization_10 (Batch   (None, 256)           1024      
-     Normalization)                                                  
-     dense_11 (Dense)                (None, 10)            2570      
-    =================================================================
-    Total params: 1,094,218
-    Trainable params: 1,093,706
-    Non-trainable params: 512
-    _________________________________________________________________
+```code
+Model: "model_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_1  (InputLayer)          [(None, 32, 32, 3)]    0         
+ conv2d_2  (Conv2D)              (None, 32, 32, 64)    4864      
+ activation_3 (Activation)       (None, 32, 32, 64)    0         
+ max_pooling2d_4 (MaxPooling2D)  (None, 16, 16, 64)    0         
+ conv2d_5 (Conv2D)               (None, 16, 16, 64)    36928     
+ max_pooling2d_6 (MaxPooling2D)  (None, 8, 8, 64)      0         
+ flatten_7 (Flatten)             (None, 4096)          0         
+ dropout_8 (Dropout)             (None, 4096)          0         
+ dense_9 (Dense)                 (None, 256)           1048832   
+ batch_normalization_10 (Batch   (None, 256)           1024      
+ Normalization)                                                  
+ dense_11 (Dense)                (None, 10)            2570      
+=================================================================
+Total params: 1,094,218
+Trainable params: 1,093,706
+Non-trainable params: 512
+_________________________________________________________________
+```
 
 This is certainly not the most efficient, nor the best performing network, but it allows us to observe the inner workings of a neural network. But before we go ahead and train the network, let's take a look at the 'raw' and untrained version of it.
 
@@ -657,8 +659,10 @@ loss, acc = model.evaluate(x_test, y_te)
 print("Accuracy on test set: %f" % acc)
 ```
 
-    313/313 [==========] - 3s 11ms/step - loss: 1.1656 - accuracy: 0.6589
-    Accuracy on test set: 0.658900
+```code
+313/313 [==========] - 3s 11ms/step - loss: 1.1656 - accuracy: 0.6589
+Accuracy on test set: 0.658900
+```
 
 Last but not least, and for fun, let's select a few images from this test set and see how the individual prediction probabilities become more and more opinionated during training.
 

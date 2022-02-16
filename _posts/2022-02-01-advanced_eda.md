@@ -45,7 +45,9 @@ Before looking at the content of our feature matrix $X$, let's first look at the
 df_X.shape
 ```
 
-    (363243, 67)
+```code
+(363243, 67)
+```
 
 So we know that this dataset has 363'243 samples and 67 features. And how many different data types do these 67 features contain?
 
@@ -56,9 +58,11 @@ import pandas as pd
 pd.value_counts(df_X.dtypes)
 ```
 
-    float64    61
-    object      6
-    dtype: int64
+```code
+float64    61
+object      6
+dtype: int64
+```
 
 ## 1.1. Structure of non-numerical features
 
@@ -255,7 +259,9 @@ n_duplicates = df_X.drop(labels=["Accident_Index"], axis=1).duplicated().sum()
 print(f"You seem to have {n_duplicates} duplicates in your database.")
 ```
 
-    You seem to have 22 duplicates in your database.
+```code
+You seem to have 22 duplicates in your database.
+```
 
 To handle these duplicates you can just simply drop them with `.drop_duplicates()`.
 
@@ -268,7 +274,9 @@ df_X = df_X.drop_duplicates(subset=columns_to_consider)
 df_X.shape
 ```
 
-    (363221, 67)
+```code
+(363221, 67)
+```
 
 ## 2.2. Missing values
 
@@ -308,7 +316,9 @@ df_X = df_X.dropna(thresh=df_X.shape[1] * 0.80, axis=0).reset_index(drop=True)
 df_X.shape
 ```
 
-    (319790, 67)
+```code
+(319790, 67)
+```
 
 ### 2.2.2. Per Feature
 
@@ -330,7 +340,9 @@ df_X = df_X.dropna(thresh=df_X.shape[0] * 0.85, axis=1)
 df_X.shape
 ```
 
-    (319790, 60)
+```code
+(319790, 60)
+```
 
 ### 2.2.3. Small side note
 
@@ -479,7 +491,9 @@ df_X = df_X[~df_X["Accident_Index"].isin(accident_ids)]
 df_X.shape
 ```
 
-    (317665, 60)
+```code
+(317665, 60)
+```
 
 ## 2.4. Conclusion of quality investigation
 
@@ -524,12 +538,14 @@ display(df_freq.head())
 df_freq.plot.bar(figsize=(15, 4));
 ```
 
-    Pedestrian_Crossing-Human_Control    0.995259
-    Was_Vehicle_Left_Hand_Drive?         0.990137
-    Carriageway_Hazards                  0.983646
-    Towing_and_Articulation              0.983221
-    Vehicle_Location-Restricted_Lane     0.982088
-    dtype: float64
+```code
+Pedestrian_Crossing-Human_Control    0.995259
+Was_Vehicle_Left_Hand_Drive?         0.990137
+Carriageway_Hazards                  0.983646
+Towing_and_Articulation              0.983221
+Vehicle_Location-Restricted_Lane     0.982088
+dtype: float64
+```
 
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/03_advanced_eda/output_48_1.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
 
@@ -571,7 +587,9 @@ df_continuous = df_X[cols_continuous[cols_continuous].index]
 df_continuous.shape
 ```
 
-    (317665, 11)
+```code
+(317665, 11)
+```
 
 Given that in our case we only have 11 features, we can go ahead with the pairplot. Otherwise, using something like `df_continuous.iloc[:, :5]` could help to reduce the number of features to plot.
 
@@ -606,7 +624,9 @@ df_discrete = df_X[cols_continuous[~cols_continuous].index]
 df_discrete.shape
 ```
 
-    (317665, 44)
+```code
+(317665, 44)
+```
 
 As always, there are multiple way for how we could investigate all of these features. Let's try one example, using seaborn's `stripplot()` together with a handy `zip()` for-loop for subplots.
 
@@ -710,18 +730,20 @@ df_corr_stacked = df_corr.where(lower_triangle_mask).stack().sort_values()
 display(df_corr_stacked)
 ```
 
-    Local_Authority_(District)  Longitude                -0.509343
-                                Location_Easting_OSGR    -0.502919
-    Police_Force                Longitude                -0.471327
-                                Location_Easting_OSGR    -0.461112
-    Speed_limit                 1st_Road_Class           -0.438931
-                                                            ...   
-    Age_Band_of_Casualty        Age_of_Casualty           0.974397
-    Age_Band_of_Driver          Age_of_Driver             0.979019
-    Local_Authority_(District)  Police_Force              0.984819
-    Longitude                   Location_Easting_OSGR     0.999363
-    Latitude                    Location_Northing_OSGR    0.999974
-    Length: 1485, dtype: float64
+```code
+Local_Authority_(District)  Longitude                -0.509343
+                            Location_Easting_OSGR    -0.502919
+Police_Force                Longitude                -0.471327
+                            Location_Easting_OSGR    -0.461112
+Speed_limit                 1st_Road_Class           -0.438931
+                                                        ...   
+Age_Band_of_Casualty        Age_of_Casualty           0.974397
+Age_Band_of_Driver          Age_of_Driver             0.979019
+Local_Authority_(District)  Police_Force              0.984819
+Longitude                   Location_Easting_OSGR     0.999363
+Latitude                    Location_Northing_OSGR    0.999974
+Length: 1485, dtype: float64
+```
 
 As you can see, the investigation of feature correlations can be very informative. But looking at everything at once can sometimes be more confusing than helpful. So focusing only on one feature with something like `df_X.corrwith(df_X["Speed_limit"])` might be a better approach.
 

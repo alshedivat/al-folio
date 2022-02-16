@@ -611,9 +611,11 @@ loss_orig_te, acc_orig_te = model_orig.evaluate(X_te, y_te)
 plot_classification_report(X_te, y_te, model_orig)
 ```
 
-    Train score: loss = 0.0537 - accuracy = 0.9817
-    Valid score: loss = 0.1816 - accuracy = 0.9492
-    Test score:  loss = 0.1952 - accuracy = 0.9421
+```code
+Train score: loss = 0.0537 - accuracy = 0.9817
+Valid score: loss = 0.1816 - accuracy = 0.9492
+Test score:  loss = 0.1952 - accuracy = 0.9421
+```
 
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/02_color_engineering_medmnist/output_43_1.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
 
@@ -643,9 +645,11 @@ loss_gray_te, acc_gray_te = model_gray.evaluate(X_te_gray, y_te)
 plot_classification_report(X_te_gray, y_te, model_gray)
 ```
 
-    Train score: loss = 0.1118 - accuracy = 0.9619
-    Valid score: loss = 0.2255 - accuracy = 0.9287
-    Test score:  loss = 0.2407 - accuracy = 0.9220
+```code
+Train score: loss = 0.1118 - accuracy = 0.9619
+Valid score: loss = 0.2255 - accuracy = 0.9287
+Test score:  loss = 0.2407 - accuracy = 0.9220
+```
 
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/02_color_engineering_medmnist/output_47_1.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
 
@@ -675,9 +679,11 @@ loss_stretch_te, acc_stretch_te = model_stretch.evaluate(X_te_stretch, y_te)
 plot_classification_report(X_te_stretch, y_te, model_stretch)
 ```
 
-    Train score: loss = 0.0229 - accuracy = 0.9921
-    Valid score: loss = 0.1672 - accuracy = 0.9533
-    Test score:  loss = 0.1975 - accuracy = 0.9491
+```code
+Train score: loss = 0.0229 - accuracy = 0.9921
+Valid score: loss = 0.1672 - accuracy = 0.9533
+Test score:  loss = 0.1975 - accuracy = 0.9491
+```
 
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/02_color_engineering_medmnist/output_51_1.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
 
@@ -707,9 +713,11 @@ loss_pca_te, acc_pca_te = model_pca.evaluate(X_te_pca, y_te)
 plot_classification_report(X_te_pca, y_te, model_pca)
 ```
 
-    Train score: loss = 0.0289 - accuracy = 0.9918
-    Valid score: loss = 0.1459 - accuracy = 0.9509
-    Test score:  loss = 0.1898 - accuracy = 0.9448
+```code
+Train score: loss = 0.0289 - accuracy = 0.9918
+Valid score: loss = 0.1459 - accuracy = 0.9509
+Test score:  loss = 0.1898 - accuracy = 0.9448
+```
 
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/02_color_engineering_medmnist/output_55_1.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
 
