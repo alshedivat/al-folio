@@ -357,7 +357,7 @@ plt.show();
 
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/04_audio_data_analysis/output_40_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
 
-This seems about write, but how can we now use that for feature engineering? Well, what we could do is compute specific characteristics of this f0.
+The turquoise lines that you see around 100 Hz are the fundamental frequencies. So, this seems about write. But how can we now use that for feature engineering? Well, what we could do is compute specific characteristics of this f0.
 
 ```python
 # Computes mean, median, 5%- and 95%-percentile value of fundamental frequency
