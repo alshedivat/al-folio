@@ -7,6 +7,10 @@ description: How to perform EDA and data modeling on audio data
 
 ## How to perform EDA and data modeling on audio data
 
+*[Find the Jupyter Notebook to this article [here](https://github.com/miykael/miykael.github.io/blob/master/assets/nb/04_audio_data_analysis/nb_audio_eda_and_modeling.ipynb).]*
+
+---
+
 Most people are familiar with how to run a data science project on image, text or tabular data. But not many have experience with analyzing audio data. In this article, we will how we can do exactly that. How to prepare, explore and analyze audio data with the help of machine learning. In short: As for all other modalities (e.g. text or images) as well, the trick is to get the data into a machine interpretable format.
 
 The interesting thing with audio data is that you can treat it as many different modalities:
