@@ -58,7 +58,7 @@ plt.show();
 
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/nb/04_audio_data_analysis/output_6_0.png" data-zoomable width=800px style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px">
 
-What you can see is a temporal signal that oscillates around the value 0 with different frequencies and amplitudes.This signal represents the air pressure change over time, or the physical displacement of a loud speaker's membraner the membrane in your ear for that matter). That's why this depiction of the audio data is also called **waveform**.
+What you can see is a temporal signal that oscillates around the value 0 with different frequencies and amplitudes.This signal represents the air pressure change over time, or the physical displacement of a loud speaker's membrane (or the membrane in your ear for that matter). That's why this depiction of the audio data is also called **waveform**.
 
 The **frequency** is the speed with which this signal oscillates. Low frequency, e.g. 60 Hz could be the sound of bass guitar, while a birds song could be in the higher frequency of 8000 Hz. Human speech is usually anywhere between that.
 
@@ -645,7 +645,7 @@ Interesting! What we can see is that our extracted `f0` features seem to have a 
 
 For now we haven't looked at the actual audio recordings during our EDA. As we saw before, we have a lot of options (i.e. in waveform or as STFT, mel or mfccs spectrogram). For this exploration here, let's go ahead look at the mel spectrograms.
 
-**However**, before we can do that we need to consider one thing: The audio samples are all of different length, meaning that the spectrograms will also have different length. Therefore, to normalize all recordings, let's put cut them to a lenght of exactly 3 second. Meaning, samples that are too short will be filled up, while samples that are too long will be cut.
+**However**, before we can do that we need to consider one thing: The audio samples are all of different length, meaning that the spectrograms will also have different length. Therefore, to normalize all recordings, let's put cut them to a length of exactly 3 second. Meaning, samples that are too short will be filled up, while samples that are too long will be cut.
 
 ```python
 # Two helper functions for audio data preparation
