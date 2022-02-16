@@ -372,8 +372,10 @@ print("""This audio signal has a mean of {:.2f}, a median of {:.2f}, a
 std of {:.2f}, a 5-percentile at {:.2f} and a 95-percentile at {:.2f}.""".format(*f0_values))
 ```
 
-    This audio signal has a mean of 81.98, a median of 80.46, a
-    std of 4.42, a 5-percentile at 76.57 and a 95-percentile at 90.64.
+```code
+This audio signal has a mean of 81.98, a median of 80.46, a
+std of 4.42, a 5-percentile at 76.57 and a 95-percentile at 90.64.
+``
 
 **Note:** There are of course many more audio feature extraction techniques that you could explore. For a nice summary
 of a few of them, check out [musicinformationretrieval.com](https://musicinformationretrieval.com/#Signal-Analysis-and-Feature-Extraction).
