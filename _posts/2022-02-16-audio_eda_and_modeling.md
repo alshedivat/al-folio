@@ -11,7 +11,7 @@ description: How to perform EDA and data modeling on audio data
 
 ---
 
-Most people are familiar with how to run a data science project on image, text or tabular data. But not many have experience with analyzing audio data. In this article, we will how we can do exactly that. How to prepare, explore and analyze audio data with the help of machine learning. In short: As for all other modalities (e.g. text or images) as well, the trick is to get the data into a machine interpretable format.
+Most people are familiar with how to run a data science project on image, text or tabular data. But not many have experience with analyzing audio data. In this article, we will learn how we can do exactly that. How to prepare, explore and analyze audio data with the help of machine learning. In short: As for all other modalities (e.g. text or images) as well, the trick is to get the data into a machine interpretable format.
 
 The interesting thing with audio data is that you can treat it as many different modalities:
 
@@ -379,7 +379,7 @@ std of {:.2f}, a 5-percentile at {:.2f} and a 95-percentile at {:.2f}.""".format
 ```code
 This audio signal has a mean of 81.98, a median of 80.46, a
 std of 4.42, a 5-percentile at 76.57 and a 95-percentile at 90.64.
-``
+```
 
 **Note:** There are of course many more audio feature extraction techniques that you could explore. For a nice summary
 of a few of them, check out [musicinformationretrieval.com](https://musicinformationretrieval.com/#Signal-Analysis-and-Feature-Extraction).
