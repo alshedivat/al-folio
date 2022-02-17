@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My student, Rachel Lin, just got a grant to do research with me this semester 🥳!! 
+title: My student, Rachel Lin, just got a grant to do research with me this semester! 🥳
 date: 2022-02-17 12:35:00-0400
 inline: false
 ---
