@@ -32,8 +32,8 @@ layout: default
       {{ content }}
     </div>
 
-    {% if page.news %}
-      {% include news.html %}
+    {% if page.selected_news %}
+      {% include selected_news.html %}
     {% endif %}
 
     {% if page.selected_papers %}
