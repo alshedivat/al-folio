@@ -9,15 +9,7 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
 }
 
-.clearfix {
-  
-    font-family: "Roboto",sans-serif;
-   
 
-    font-weight: 300;
-  line-height: 2rem;
-  font-size: 0.8rem;
-}
 
 hr {
   border-top: 1px solid var(--global-divider-color);
@@ -113,6 +105,8 @@ blockquote {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  font-family: 'Times New Roman', Times, serif;
+
 }
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
@@ -553,10 +547,17 @@ html.transition *:after {
 .post{
   margin-left: var(--posts-margin);
   margin-right: var(--posts-margin);
-  font-family: "Roboto",sans-serif;
-  font-weight: 300;
-  line-height: 2rem;
-  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  line-height: 1.7rem;
+  font-size: 14px;
+
+  .header-bar h1{
+    font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  }
+
+  
     
 
   .post-meta{
