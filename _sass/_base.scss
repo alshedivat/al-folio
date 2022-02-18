@@ -12,8 +12,11 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
 .clearfix {
   
     font-family: "Roboto",sans-serif;
+   
+
     font-weight: 300;
-    line-height: 2rem;
+  line-height: 2rem;
+  font-size: 0.8rem;
 }
 
 hr {
@@ -586,7 +589,7 @@ html.transition *:after {
 }
   .post-header{
     margin: auto;
-    width: 70%;
+    width: 100%;
     padding: 2px;
     font-size: 24px;
     margin-left: var(--posts-margin);
