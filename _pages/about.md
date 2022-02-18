@@ -1,14 +1,16 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: AI Undergrad @ Amrita Vishwa Vidhyapeetham
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   address: >
-    AI Undergrad @ Amrita Vishwa Vidhyapeetham
+    Coimbatore,
+    Tamil Nadu,
+    India
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
