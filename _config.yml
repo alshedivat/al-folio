@@ -16,7 +16,6 @@ footer_text: >
 keywords: calgary, ucalgary, university of calgary, machine learning, ml, deep learning, lab, research group, yani ioannou, academic-website # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🤖 # the emoji used as the favicon
 logo: /assets/img/ucmllogo-text.svg
 url: https://calgaryml.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
