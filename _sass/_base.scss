@@ -556,7 +556,7 @@ html.transition *:after {
   font-family: "Roboto",sans-serif;
   font-weight: 300;
   line-height: 2rem;
-  font-size: 0.8rem;
+  font-size: 16px;
     
 
   .post-meta{
@@ -577,10 +577,8 @@ html.transition *:after {
     }
   }
   .post-content{
-    font-size: 0.8rem;
-    margin-left: var(--posts-margin);
-    margin-right: var(--posts-margin);
-    line-height: 2rem;
+  
+    
     
         blockquote {
           border-left: 5px solid var(--global-theme-color);
@@ -592,8 +590,7 @@ html.transition *:after {
     width: 100%;
     padding: 2px;
     font-size: 24px;
-    margin-left: var(--posts-margin);
-    margin-right: var(--posts-margin);
+
     
   }
 }
