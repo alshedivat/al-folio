@@ -9,6 +9,13 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
 }
 
+.clearfix {
+  
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -164,6 +171,7 @@ blockquote {
     }
   }
 }
+
 
 .navbar-toggler {
   .icon-bar {
@@ -528,11 +536,6 @@ code {
   padding: 3px 3px;
 }
 
-.clearfix{
-  font-size: 16px;
-  
-  line-height: 1.7rem;
-}
 
 // Transitioning Themes
 html.transition,
@@ -547,7 +550,10 @@ html.transition *:after {
 .post{
   margin-left: var(--posts-margin);
   margin-right: var(--posts-margin);
-  line-height: 1.6rem;
+  font-family: "Roboto",sans-serif;
+  font-weight: 300;
+  line-height: 2rem;
+  font-size: 0.8rem;
     
 
   .post-meta{
