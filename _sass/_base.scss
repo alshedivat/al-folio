@@ -4,6 +4,7 @@
 
 // Typography
 
+
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
 }
@@ -65,7 +66,6 @@ blockquote {
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
     p {
       display: inline-block;
       margin: 0;
@@ -93,6 +93,7 @@ blockquote {
     }
   }
 }
+
 
 
 // Navbar customization
@@ -216,7 +217,7 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -230,7 +231,7 @@ blockquote {
     }
   }
   .contact-note {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 }
 
@@ -271,6 +272,8 @@ footer.sticky-bottom {
   h1 {
     color: var(--global-theme-color);
     font-size: 5rem;
+    font-family: -apple-system, Helvetica, arial, sans-serif;
+    
   }
 }
 
@@ -525,6 +528,11 @@ code {
   padding: 3px 3px;
 }
 
+.clearfix{
+  font-size: 16px;
+  
+  line-height: 1.7rem;
+}
 
 // Transitioning Themes
 html.transition,
@@ -537,6 +545,11 @@ html.transition *:after {
 
 // Extra Markdown style (post Customization)
 .post{
+  margin-left: var(--posts-margin);
+  margin-right: var(--posts-margin);
+  line-height: 1.6rem;
+    
+
   .post-meta{
     color: var(--global-text-color-light);
     font-size: 0.875rem;
@@ -555,15 +568,23 @@ html.transition *:after {
     }
   }
   .post-content{
+    font-size: 14px;
+    margin-left: var(--posts-margin);
+    margin-right: var(--posts-margin);
+    line-height: 1.6rem;
+    
         blockquote {
           border-left: 5px solid var(--global-theme-color);
           padding: 8px;
       }
 }
-}
-
-.post-tags {
-  color: var(--global-text-color-light);
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
+  .post-header{
+    margin: auto;
+    width: 70%;
+    padding: 2px;
+    font-size: 24px;
+    margin-left: var(--posts-margin);
+    margin-right: var(--posts-margin);
+    
+  }
 }

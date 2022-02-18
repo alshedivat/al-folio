@@ -1,7 +1,7 @@
 ---
 layout: page
-title: submenus
-nav: true
+title: 
+nav: false
 dropdown: true
 children: 
     - title: publications
