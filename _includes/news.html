@@ -1,7 +1,7 @@
           
           <div class="news">
             <h2>news</h2>
-            {% if site.news  -%} 
+            {% if site.news != blank -%} 
             <div class="table-responsive">
               <table class="table table-sm table-borderless">
               {%- assign news = site.news | reverse -%} 
