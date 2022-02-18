@@ -12,13 +12,15 @@ profile:
     Tamil Nadu,
     India
 
-news: true  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! I am an Undergraduate student at Amrita Vishwa Vidhyapeetham pursuing my betech in Artificial Intelligence. 
+Hello! I am an Undergraduate student at  [Amrita Vishwa Vidhyapeetham](https://amrita.edu/). I have been fascinated by the power of modelling natural systems for long. I beleive that modelling systems gives us great power, which liberates us in some sense, to do what we intend to do. So, Here I am, on a quest to build intelligent systems that help us understand natural phenomenons and to push the frontiers of human  knowldege.Currently I am pursuing my BTech at the [Center for Computational Engineering and Networking](https://amrita.edu/center/computational-engineering-and-networking/) Headed by [Dr. K.P. Soman](https://scholar.google.co.in/citations?user=R_zpXOkAAAAJ&hl=en).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+At present, My research Intrests are in predecitive modelling , self-organizing systems, emergent phenomenons , agent based modelling, Graphs, Networks , Non-Linear Dynamics , Software Defined Radio and prospects of ILP methods on Graph Representation.  I am equipped with a strong foundation of Linear Algebra , Optimiszation techniques and Signal Processing Techniques, which largely aids my exploration. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am an curious researcher , love writing, both technical or otherwise. In my free time I write poems in English and Tamil, and into Photography and Cricket as well. If you wanna connect with me, Feel free to connect over [LinkedIn](https://www.linkedin.com/in/aadharsh-aadhithya-9a6982149/) or [Email](mailto:aadharshaadhithya@gmail.com) . For an Informal Interaction , I prefer [Instagram](https://www.instagram.com/aadharsh_aadhithya/). 
+
+
