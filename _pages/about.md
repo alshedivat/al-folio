@@ -1,6 +1,6 @@
 ---
 title: About
-layout: about
+layout: About
 permalink: /
 subtitle: CS PhD Student | ML Researcher
 
