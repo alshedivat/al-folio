@@ -1,6 +1,6 @@
 ---
+title: About
 layout: about
-title: about
 permalink: /
 subtitle: CS PhD Student | ML Researcher
 
@@ -14,13 +14,13 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am currently a 1st year Computer Science PhD student at University of Maryland, College Park, working on ML research in [Professor Tom Goldstein's](https://www.cs.umd.edu/~tomg/) Lab. My research interests are in board deep learning space from everything from Meta-Learning to Algorithmic Recourse. 
+I am a 1st year [Computer Science PhD student](https://www.cs.umd.edu/people/njain17) at [University of Maryland, College Park](https://www.umd.edu/), working on ML research in [Professor Tom Goldstein's](https://www.cs.umd.edu/~tomg/) Lab. My research interests are in the board deep learning area. 
 
-Prior to UMD, I graduated from Williams College in 2019 with Honors in Mathematics. At Williams, I was lucky to write a  thesis on graph theory under [Professor Pamela Harris](https://www.pamelaeharris.com/). After Williams, I worked as a Data Scientist for Booz Allen Hamilton, where I worked on various topics including math modeling and machine learning.
+Prior to UMD, I graduated from [Williams College](https://www.williams.edu/) in 2019 with Honors in Mathematics. At Williams, I wrote my thesis on graph theory under [Professor Pamela Harris](https://www.pamelaeharris.com/), which lead to a publication in Graphs and Combinatorics. After Williams, I worked as a Data Scientist for [Booz Allen Hamilton](https://www.boozallen.com/), where I worked on projects of various topics including math modeling and machine learning.
 
 In my spare time, I enjoy hiking, playing sports, and so much more.
 
-I am the current TA for CMCS 320 Intro to Data Science. My office hours are listed on the [course website](https://cmsc320.github.io/).
+I am the current TA for CMSC 320 Intro to Data Science. My office hours are listed on the [course website](https://cmsc320.github.io/).
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 

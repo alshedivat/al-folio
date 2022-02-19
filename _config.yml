@@ -16,7 +16,7 @@ footer_text: >
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: <i class="fa-brands fa-connectdevelop"></i> # the emoji used as the favicon
+icon: 👨🏾‍🏫 # the emoji used as the favicon
 url: https://alshedivat.github.io # the base hostname & protocol for your site
 baseurl: /al-folio # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
@@ -57,8 +57,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: neeljain1717
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+linkedin_username: neel-jain-0a6a239 # your LinkedIn user name
+scholar_userid: nSn7jtIAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -72,8 +72,8 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  To contact me, email me at njain17 [ at ] umd [dot] edu.
-  # You can even add a little note about which of these is the best way to reach you.
+  To contact me, email me at njain17 [ at ] umd [dot] edu. 
+# You can even add a little note about which of these is the best way to reach you.
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -84,17 +84,17 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+# blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
+# blog_description: a simple whitespace theme for academics
+# permalink: /blog/:year/:title/
 
-# Pagination
-pagination:
-  enabled: true
+# # Pagination
+# pagination:
+#   enabled: true
 
-# Comments
-disqus_shortname: al-folio # put your disqus shortname
-# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+# # Comments
+# disqus_shortname: al-folio # put your disqus shortname
+# # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -105,7 +105,7 @@ collections:
     defaults:
       layout: post
     output: true
-    permalink: /news/:path/
+    permalink: /News/:path/
   projects:
     output: true
     permalink: /projects/:path/
@@ -204,8 +204,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Jain
+  first_name: [N., Neel, N.]
 
   style: apa
   locale: en
