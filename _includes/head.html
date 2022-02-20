@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
     <!-- Code Syntax Highlighting -->
-    <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/{{ site.highlight_theme }}.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/{{ site.highlight_theme_light | append: '.css' }}" media="none" id="highlight_theme_light" />
 
     <!-- Styles -->
     {% if site.icon != empty -%}
@@ -20,71 +20,11 @@
     {%- endif %}
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-
-    {%- if site.enable_darkmode %}
-
-<<<<<<< HEAD
-<!-- Styles -->
-{% if site.icon != empty %}
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>">
-{% endif %}
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-<<<<<<< HEAD
-
-<link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-<!-- JQuery -->
-{% include scripts/jquery.html %}
-
-<!-- Theming-->
-{% if site.enable_darkmode %}
-  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
-  <!-- Load DarkMode JS -->
-<script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
-{% endif %}
-
-{% if site.enable_google_analytics %}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', '{{ site.google_analytics }}');
-  </script>
-{% endif %}
-
-{% if site.enable_panelbear_analytics %}
-<!-- Panelbear Analytics - We respect your privacy -->
-<script async src="https://cdn.panelbear.com/analytics.js?site={{site.panelbear_analytics}}"></script>
-<script>
-    window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
-    panelbear('config', { site: '{{site.panelbear_analytics}}' });
-</script>
-{% endif %}
-=======
->>>>>>> 9c36be1 (Optimize Website Load Time (#435))
-=======
-=======
-<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
->>>>>>> 7f10dc3 (Lighthouse enhancements (#445))
-
-{% if site.enable_darkmode %}
-<!-- Dark Mode -->
-<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
-{% endif %}
-<<<<<<< HEAD
-
->>>>>>> d500e08 (Remove theming dependence on jquery)
-=======
->>>>>>> 7f10dc3 (Lighthouse enhancements (#445))
-=======
+    
     <!-- Dark Mode -->
+    {% if site.enable_darkmode %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/{{ site.highlight_theme_dark | append: '.css' }}" media="none" id="highlight_theme_dark" />
+
     <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
-    {%- endif -%}
->>>>>>> b950fc3 (Better SEO, OpenGraph, schema.org and clean generated code (#481))
+    {% endif %}

@@ -51,6 +51,30 @@ blockquote {
   text-align: center;
 }
 
+// Card
+
+.card {
+  background-color: var(--global-card-bg-color);
+  
+  img {
+    width: 100%;
+  }
+
+  .card-title {
+    color: var(--global-text-color);
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
 // Citation
 .citation, .citation-number {
   color: var(--global-theme-color);
@@ -335,6 +359,25 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
+<<<<<<< HEAD
+=======
+  a {
+    text-decoration: none;
+
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .card {
+    img {
+      width: 100%;
+    }
+  }
+
+>>>>>>> 77b60dc (Theme and responsiveness fixes (#509))
   .card-item {
     width: auto;
     margin-bottom: 10px;
@@ -355,7 +398,7 @@ footer.sticky-bottom {
     }
   }
 
-  .grid-item {
+  .grid-sizer, .grid-item {
     width: 250px;
     margin-bottom: 10px;
 
