@@ -14,10 +14,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/{{ site.highlight_theme_light | append: '.css' }}" media="none" id="highlight_theme_light" />
 
     <!-- Styles -->
-    {% if site.icon.size == 1 %}
+    {% if site.icon.size < 3 %}
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>">
     {% elsif site.icon != blank %}
-    <link rel="shortcut icon" href="{{ site.icon | prepent: '/assets/img/' | relative_url}}"/>
+    <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url}}"/>
     {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">

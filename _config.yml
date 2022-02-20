@@ -16,8 +16,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 # keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 
-
-
+lang: en
 icon: 🤗 # the emoji used as the favicon
 url:  https://cverluise.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
