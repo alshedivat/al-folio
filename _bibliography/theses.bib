@@ -1,4 +1,143 @@
 
+@article{2021wei,
+  title={Serverless memory deduplication.},
+  author={Qiu Wei},
+  year={2021},
+  journal = {Master Thesis},
+  abstract = {
+    Serverless computing is an emerging cloud computing paradigm well-
+known for its high scalability and cost-efficiency. Serverless applications
+are defined as a collection of short-lived, stateless serverless functions
+that can be executed massively in parallel in lightweight containers. We
+notice that redundancy exists in the memory footprint of the functions
+which use the same libraries, frameworks or pull the same Docker
+images. However, this redundancy is not fully exploited by the cloud
+providers. Even with the page cache sharing in OverlayFS used by
+Docker containers, identical memory that is anonymous or comes from
+different disk files still cannot be shared.
+We propose USM, a build-in module in the Linux kernel which enables
+memory sharing among different serverless functions based on the
+content-based page sharing concept. USM allows the user to advise the
+kernel of a memory area that can be shared with others through the
+madvise system call, no matter the memory is anonymous or file-backed.
+We demonstrate that USM reduces up to 20\% of memory consumption
+on 16 concurrent containers running a typical image recognition func-
+tion, allowing adding three more containers running the same function
+to the system.
+  }
+}
+
+@article{2021tobler,
+  title={Serverless GPU functions.},
+  author={Lukas Tobler},
+  year={2021},
+  journal = {Master Thesis},
+  abstract = {
+    For many years, serverless has been an emerging computing paradigm,
+with Function-as-a-Service (FaaS) being especially popular. When it
+comes to GPU-enabled machine learning applications, commercial op-
+tions for FaaS are limited. GPU execution nodes are not typically avail-
+able because of their high cost and the difficulty of efficiently sharing
+them between tenants in isolated environments.
+Multi-Instance GPU (MIG) is a new feature of the NVIDIA A100 device
+of the Ampere architecture that provides performance and security
+isolation by partitioning one physical GPU into multiple GPU instances
+of configurable size. MIG opens up the possibility to build serverless
+platforms with stronger isolation than what was possible previously.
+We present the GPUless system, a prototype client-server CUDA execu-
+tion service based on MIG isolation. The client intercepts the CUDA API
+and is compatible with current-generation PyTorch machine learning
+applications. The server provides dynamic resource management for
+MIG devices of requested size for clients and provides an execution
+environment. We present a novel way of transporting CUDA API calls
+over the network: Aggregating call traces and only synchronizing with
+the remote executor when necessary, reducing network overheads.
+We show that in cold-start scenarios, our system can be very effective.
+We apply some optimizations to overcome implementation inefficiencies
+in machine learning frameworks that lead to a cold-start performance of
+our system that is even faster than native execution in some cases. We
+can also show that in a hot execution setting (model is pre-initialized),
+we can achieve performance close to native execution while still being
+orders of magnitudes faster than execution in the AWS (Amazon Web
+Services) Lambda environment. An analysis of bandwidth requirements
+shows that our system will perform well if at least 1 Gbps of network
+bandwidth is available.
+  }
+}
+
+@article{2021colin,
+  title={Verification of representativeness of benchmarking suite.},
+  author={Arnet Colin},
+  year={2021},
+  journal = {Bachelor Thesis},
+  abstract = {
+      The representativeness of a benchmark is achieved with programs that
+  cover different characteristics. A benchmark is more reliable when it
+  shows the system performance of as many different applications as
+  possible. In this thesis, we develop a new benchmark and compare
+  it with the SPEC benchmark to check its representativeness. The idea
+  for the new benchmark is to select popular C++ open-source projects.
+  These programs should represent tasks that computers encounter every
+  day.
+  It is a challenge to generate inputs for programs that provide good
+  code coverage. We tried using the KLEE symbolic execution engine
+  to automatically generate inputs. KLEE is constructed to generate test
+  inputs. It turned out that it is very hard to turn test inputs into suitable
+  benchmark inputs. So we selected the inputs manually.
+  With the completed new benchmark we started the comparison with
+  SPEC. By measuring hardware events with perf we can compare the
+  characteristics of both benchmarks. The comparison revealed that Linux
+  kernel compilation has widely different program properties than every
+  other benchmark. Showing that there can always be program behaviors
+  that aren’t covered by a benchmark.
+  }
+}
+
+@article{2021roman,
+  title={Serverless collectives.},
+  author={Roman B\"ohringer},
+  year={2021},
+  journal = {Master Thesis},
+  abstract = {
+      Serverless platforms provide massive parallelism with very high elasticity and fine-grained billing.
+      Because of these properties, they are increasingly used for stateful, distributed jobs at large scales. How-
+  ever, a major limitation of the commonly used platforms is communi-
+  cation: Individual functions cannot communicate directly and using
+  external storage or databases for ephemeral data can be slow and ex-
+  pensive. We present FMI, the FaaS Message Interface, to overcome
+  this limitation. FMI is an easy-to-use, high-performance framework for
+  general-purpose communication in Function as a Service platforms. It
+  supports different communication channels (including direct commu-
+  nication with our TCP NAT hole punching system), a model-driven
+  channel selection according to performance or cost, and provides op-
+  timized collective implementations that exploit characteristics of the
+  different channels.
+  In our experiments, FMI can speed up communication for a distributed
+  machine learning job by up to 1,200x, while reducing cost at the same
+  time by factors of up to 365. It provides a simple interface and can be
+  integrated into existing codebases with a few minor changes.
+  }
+}
+
+@article{2021isman,
+  title={FaaStest collectives: reliable communication in serverless world},
+  author={Emir İşman},
+  year={2021},
+  journal = {Bachelor Thesis},
+  abstract = {
+    Since its inception, serverless functions have been deployed for many
+    different scenarios, yet there has been little research into performing ef-
+    fective collective operations with serverless functions. Ephemeral nature
+    of functions and the absence of native inter-function communication
+    present challenges for communication-heavy workloads. We investi-
+    gate the current state of the field on inter-function communication and
+    propose a design for tree-based collective operations. We evaluate our
+    design with different options for communication between functions that
+    include both shared storage based and network based solutions on a
+    serverless reduce prototype we have deployed on AWS Lambda.
+  }
+}
+
 @article{2021handrick,
   title={FaaStest collectives: reliable communication in serverless world},
   author={Emir İşman},
