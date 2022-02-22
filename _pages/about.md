@@ -2,23 +2,29 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Ph. D., Lead Machine Learning Engineer @<a href='https://es.nttdata.com/'>NTTDATA Europe & LATAM</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: jfernbes.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Centro empresarial El Trovador, </p>
+    <p>Pl. de Antonio Beltrán Martínez, 1, Planta 9,</p>
+    <p> 50002 Zaragoza (Spain)</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Telecommunication Engineer, and Ph. D. specialist in Big Data and Signal Processing Technologies from Universidad Carlos III de Madrid (both with honors). During the Ph. D. I researched about the application of Signal Processing and Machine Learning into Internet of the things (IoT) with publications in international research journals of the field. Also, I have been lecturer at undergraduate and graduate level both in Spanish and English in different courses: Data Processing, Image Processing, Signals and Systems.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+After, the Ph. D. I was as a postdoc in I3A (Instituto de Investigación en Ingeniería de Aragón) working in mathematical modeling of cardiac cells in BSICoS (Biomedical Signal Interpretation and Computational Simulation) group. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Since 2019 I am Artificial Intelligence Engineer in NTTDATA (formerly Everis) where I coordinate the technical team in charge of the Artificial Intelligence of Knowler, an innovative product of smart knowledge management. 
+
+I have professional experience in the use of machine learning and Natural Language Processing techniques and frameworks; in the design and implementation of intelligent information systems: e.g., Information extraction systems, Document Classifiers, Recommendation Systems, etc. Also I have proficiency in Python and professional Java and Big Data techniques experience.
+
+I have Interest in all levels of Research, Development, Innovation and Competitive Intelligence. 
+
+
