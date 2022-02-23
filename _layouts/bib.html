@@ -9,7 +9,7 @@ layout: default
     <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
     {% else %}
       {% include figure.html 
-        path=src="{{ site.data.pubimg[entry.abbr] | prepend: '/assets/pubimg/' | relative_url }}"
+        path="{{ site.data.pubimg[entry.abbr] | prepend: '/assets/pubimg/' | relative_url }}"
         class="img-fluid z-dept-1 rounded"%}
     {% endif %}
   {% endif %}
