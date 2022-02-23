@@ -8,7 +8,9 @@ layout: default
     {% if site.data.venues[entry.abbr] %}
     <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
     {% else %}
-    <img class="img-fluid z-dept-1 rounded" src="{{ site.data.pubimg[entry.abbr] | prepend: '/assets/pubimg/' | relative_url }}">
+      {% include figure.html 
+        path=src="{{ site.data.pubimg[entry.abbr] | prepend: '/assets/pubimg/' | relative_url }}"
+        class="img-fluid z-dept-1 rounded"%}
     {% endif %}
   {% endif %}
   </div>
