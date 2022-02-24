@@ -8,6 +8,9 @@ person_types: ["Principal Investigator","Collaborators","PhD","PhD Rotation Stud
 lab_types: ["Current","Former"]
 ---
 
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+
 <!-- PI -->
 <div class="bg-white">
   <div class="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
@@ -61,7 +64,7 @@ lab_types: ["Current","Former"]
         <p class="text-xl text-gray-500">The Best Of The Best</p>
       </div>
 
-      <ul role="list" class="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
+      <ul role="list" class="h-auto mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
         {% assign members = site.people | where:"type","Collaborators" %}
         {% assign sorted_people = members | sort:"lab_types" %}
 
@@ -91,27 +94,16 @@ lab_types: ["Current","Former"]
   </div>
 </div>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 <!-- PhD Rotation Students -->
 <div class="bg-white">
   <div class="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
-    <div class="space-y-8 sm:space-y-12">
+    <div class="flex-none space-y-8 sm:space-y-12">
       <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
         <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">PhD Rotation Students</h2>
         <p class="text-xl text-gray-500">The Future Of The Program</p>
       </div>
 
-      <ul role="list" class="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
+      <ul role="list" class="h-auto mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
         {% assign members = site.people | where:"type","PhD Rotation Students" %}
         {% assign sorted_people = members | sort:"lab_types" %}
 
@@ -141,9 +133,6 @@ lab_types: ["Current","Former"]
   </div>
 </div>
 
-<br>
-<br>
-
 <!-- Master's -->
 <div class="bg-white">
   <div class="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
@@ -153,7 +142,7 @@ lab_types: ["Current","Former"]
         <p class="text-xl text-gray-500">Getting Ahead Of The Curve</p>
       </div>
 
-      <ul role="list" class="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
+      <ul role="list" class="h-auto mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
         {% assign members = site.people | where:"type","Master's" %}
         {% assign sorted_people = members | sort:"lab_types" %}
 
@@ -183,17 +172,6 @@ lab_types: ["Current","Former"]
   </div>
 </div>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 <!-- Undergraduates -->
 <div class="bg-white">
   <div class="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
@@ -203,7 +181,7 @@ lab_types: ["Current","Former"]
         <p class="text-xl text-gray-500">Always Learning, Always Growing</p>
       </div>
 
-      <ul role="list" class="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
+      <ul role="list" class="h-auto mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
         {% assign members = site.people | where:"type","Undergraduates" %}
         {% assign sorted_people = members | sort:"lab_types" %}
 
@@ -233,17 +211,6 @@ lab_types: ["Current","Former"]
   </div>
 </div>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 <!-- High School Summer -->
 <div class="bg-white">
   <div class="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
@@ -253,7 +220,7 @@ lab_types: ["Current","Former"]
         <p class="text-xl text-gray-500">Our Future Rockstars</p>
       </div>
 
-      <ul role="list" class="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
+      <ul role="list" class="h-auto mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
         {% assign members = site.people | where:"type","High School Summer" %}
         {% assign sorted_people = members | sort:"lab_types" %}
 
@@ -282,47 +249,3 @@ lab_types: ["Current","Former"]
     </div>
   </div>
 </div>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
