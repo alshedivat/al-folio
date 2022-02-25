@@ -6,7 +6,7 @@ roles: [Director, Ph.D., Master, Undergraduate]
 nav: false
 ---
 
-** Ph.D. Students**
+**Ph.D. Students**
 Sourabh Yadav (2022 Spring -- ) 
 
 <div class="people">
