@@ -8,10 +8,14 @@ nav: false
 
 **Ph.D. Students**
 
-Sourabh Yadav (2022 Spring -- ) 
+Sourabh Yadav (2022 Spring --) 
 
 
 **Master Students**
+
+Harshitha Gorrepati (2022 Spring --) 
+
+Tanuja Polineni (2021 Fall --)
 
 <div class="people">
 
