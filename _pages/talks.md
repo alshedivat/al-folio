@@ -23,6 +23,12 @@ The list of talks, presentations, and public appearances.
 
 -----------
 
+## 2022
+
+* **SIAM Conference on Parallel Processing for Scientific Computing (PP22)**, February (virtual).  
+_Extracting Clean Performance Models from Tainted Programs_, minisymposium presentation.
+[Slides](/assets/pdf/2022_perf_taint_siampp_slides.pdf).
+
 ## 2021
 
 * **26th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming**, March (virtual).  
