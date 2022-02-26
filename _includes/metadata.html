@@ -46,7 +46,7 @@
     <!-- Twitter card -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="{%- if page.title -%}{{ page.title }}{%- else -%}{{ title }}{%- endif -%}" />
-    <meta name="twitter:description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />
+    <meta name="twitter:description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.long_description }}{%- endif -%}" />
     {% if page.og_image or site.og_image -%}
     <meta name="twitter:image" content="{%- if page.og_image -%}{{ page.og_image| prepend: site.baseurl | prepend: site.url }}{%- else -%}{{ site.og_image | prepend: site.baseurl | prepend: site.url }}{%- endif -%}" />
     {%- endif %}
