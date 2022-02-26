@@ -141,7 +141,7 @@
           "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}"
         },
         "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "logo": "{{ site.profile.image | absolute_url }}",
+        "logo": "{{ site.logo | absolute_url }}",
         "@type": "WebSite",
         "description": "{%- if page.description -%}{{ page.description }}{%- else if site.description -%}{{ site.description }}{%- endif -%}",
         "headline": "{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}",
