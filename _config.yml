@@ -9,8 +9,7 @@ last_name: Lab
 email: yani.ioannou@ucalgary.ca
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Calgary Machine Learning Lab
-long_description:
-  "The Calgary Machine Learning Lab is a research group led by Yani Ioannou within the Schulich School of Engineering at the University of Calgary. The lab has a research focus on improving Deep Neural Network (DNN) training and models, in particular for computer vision applications. Topics of research include: Sparse Neural Network Training, Bias and Robustness of Efficient Deep Learning methods and Domain-Agnostic Self-Supervised Learning. We collaborate with other research groups within the university with the Calgary Artificial Intelligence Research Group, and broader, on applying machine learning and computer vision to novel problems."
+long_description: "The Calgary Machine Learning Lab is a research group led by Yani Ioannou within the Schulich School of Engineering at the University of Calgary. The lab has a research focus on improving Deep Neural Network (DNN) training and models, in particular for computer vision applications. Topics of research include: Sparse Neural Network Training, Bias and Robustness of Efficient Deep Learning methods and Domain-Agnostic Self-Supervised Learning. We collaborate with other research groups within the university with the Calgary Artificial Intelligence Research Group, and broader, on applying machine learning and computer vision to novel problems."
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/calgaryml/calgaryml.github.io">customized theme</a> based on <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
