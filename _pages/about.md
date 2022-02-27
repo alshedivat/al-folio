@@ -7,7 +7,9 @@ subtitle: <a href='#'>Data Analyst</a> Data Scientist
 profile:
   align: right
   image: prof_pic.jpg
-  address: analytics is</p>know is</p>power
+  address: <p><a href='#'>analytics</a> is</p>
+           <p><a href='#'>knowledge</a> is</p>
+           <p><a href='#'>power</a>⚡</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
