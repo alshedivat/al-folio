@@ -16,6 +16,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+I translate valuable data into comprehensible insights. My goal is to improve results, help make the right decisions and save costs.
 
-
-I currently work as a dataLink to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am experienced in data analysis, machine learning, and data visualization techniques to present the results. I use SQL, Python, Power BI and Tableau for my data projects.
