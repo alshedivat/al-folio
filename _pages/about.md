@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>LinkedIn</a>Hello! Glad to see you here. This is a portfolio of my data projects.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: me.png
   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
