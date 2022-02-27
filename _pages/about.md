@@ -2,15 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Data Analyst</a>Hello! Glad to see you here. This is a portfolio of my data projects.
+subtitle: <a href='#'>Data Analyst</a> Data Scientist
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    #<p>Data Analyst</p>
-    #<p>Data Scien</p>
-    #<p>Your City, State 12345</p>
+  address: analytics is</p>know is</p>power
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
