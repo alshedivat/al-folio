@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Data Science Portfolio — Shaina Lolin -  # the website title (if blank, full name will be used instead)
+title: # the website title (if blank, full name will be used instead)
 first_name: Shaina
 middle_name: >
 last_name: Lolin
