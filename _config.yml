@@ -27,7 +27,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -71,9 +71,9 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  <p><b>Contact me! ✉</b></p>
-  <a href="ShainaLolin@Gmail.com" target="_blank">ShainaLolin@gmail.com</a> | 
-  <a href="https://www.linkedin.com/in/shainalolin/" target="_blank"></a>(LinkedIn)
+  <p><b>Contact Me</b></p>
+  <a href="mailto:shainaLolin@gmail.com" target="_blank">shainalolin@gmail.com</a> | 
+  <a href="https://www.linkedin.com/in/shainalolin/" target="_blank"></a>LinkedIn
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
