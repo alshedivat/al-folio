@@ -16,10 +16,10 @@ social: true  # includes social icons at the bottom of the page
 ---
 
  
- <a href='#'>About me</a>
+ <a href='#'><b>About me</b></a>
 
  I currently work as a data analyst that specializes in marketing analytics in the automotive industry.
 
- I am experienced in data analysis, mahine learning an data visualization. The tools I use include SQL, Pythob, Power BI and Tableau.
+ I am experienced in data analysis, machine learning an data visualization. The main tools I use are [SQL, Python, Power BI and Tableau]().
 
- Besides data science, I also love golfing and body building. So if you ever want to bounce ideas off me, please feel free to contact me: shainalolin@gmail.com
+ Besides data science, I also love golfing and body building. So if you ever want to bounce ideas off me, please feel free to contact me: [subreddit](shainalolin@gmail.com).
