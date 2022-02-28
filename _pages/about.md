@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>🎓 M.S., Business Analytics</p>
+    <p>🎓 MS, Business Analytics</p>
     <p>📍 Orange County, CA</p>
     
     

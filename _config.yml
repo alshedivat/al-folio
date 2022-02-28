@@ -14,7 +14,7 @@ footer_text: >
 keywords: portfolio-website, data-science, data-analytics, data-visualization  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🍺  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: Portfolio —   # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://slaisha.github.io # the base hostname & protocol for your site
 baseurl: /me # the subpath of your site, e.g. /blog/
@@ -71,9 +71,8 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  <p><b>Contact Me</b></p>
-  <a href="mailto:shainaLolin@gmail.com" target="_blank">shainalolin@gmail.com</a> | 
-  <a href="https://www.linkedin.com/in/shainalolin/" target="_blank"></a>LinkedIn
+  <a href="mailto:shainaLolin@gmail.com" target="_blank">Email</a>
+  <a href="https://www.linkedin.com/in/shainalolin/" target="_blank">LinkedIn</a> | 
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
