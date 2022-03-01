@@ -73,7 +73,12 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
+<<<<<<< Updated upstream
   You can even add a little note about which of these is the best way to reach you.
+=======
+  <a href="mailto:shainaLolin@gmail.com" target="_blank">Email</a> | 
+  <a href="https://www.linkedin.com/in/shainalolin/" target="_blank">LinkedIn</a> 
+>>>>>>> Stashed changes
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
