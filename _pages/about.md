@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>📍 Orange County, CA</p>
+    <p>🍊 Orange County, CA</p>
     
     
 news: false  # includes a list of news items
