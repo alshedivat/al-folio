@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A collection of data-related projects I made during my free time.
+description: A collection of data-science projects I made during my free time.
 nav: true
 display_categories: [data science, data visualization]
 horizontal: false
