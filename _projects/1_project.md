@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Subject Line Analysis - Natural Language Processing
+title: project 1
 description: a project with a background image
 img: assets/img/12.jpg
 importance: 1
