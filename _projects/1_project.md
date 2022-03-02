@@ -1,17 +1,52 @@
 ---
 layout: page
-title: Predicting Email Click Rates
-description: Natural Language Processing (NLP) and Random Forest
-img: assets/img/12.jpg
+title: Customer Segmentation
+description: The 'average customer' is a concept of the past
+img: assets/img/lego.jpg
 importance: 1
 category: data science
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Businesses need to be able to segment their customer base into clusters and tailor experiences for each customer segment. A company may segment their customers according to demographics like age, gender, marital status, location, or buying habits.
+<br>
+By segmenting customers, a company can—
+    ◦ Create and communicate targeted marketing messages that will resonate more with a particular segment
+    ◦ Find the best communication channel for a segment
+    ◦ Establish stronger customer relationships
+    ◦ Identify which segments are particularly profitable.
+<br>
+Hitting the average does not mean hitting the majority. Modern marketplaces require companies to provide tailored experiences to a diverse set of customers.
+<br>
+<h2>Shaina's Game Plan</h2>
+<br>
+Today you will see customer segmentation applied on an E-commerce database that lists purchases made by ~40000 customers over a period of one year. Based on the analysis, we will develop a model that will be made by a new customer for the upcoming year.
+<br>
+High-Level Overview<br>
+1. Data Preparation<br>
+2. Data Exploration<br>
+3. Data Analysis on Product Categories<br>
+4. Data Analysis on Customer Categories<br>
+5. Classifying Customers<br>
+6. Testing Predictions<br>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<br>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/custsegheader.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Customer Segmentation Data
+</div>
+
+
+
+
+
+
+
+
 
     ---
     layout: page
