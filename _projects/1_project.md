@@ -44,7 +44,7 @@ High-Level Overview—
 We will load and clean the data.
 
 
-{% highlight c++ linenos %}
+{% highlight python linenos %}
 # READ THE DATA
 df_initial = pd.read_csv('data.csv',encoding="ISO-8859-1",
                          dtype={'CustomerID': str,'InvoiceID': str})
@@ -62,3 +62,5 @@ display(tab_info)
 # show first lines
 display(df_initial[:5])
 {% endhighlight %}
+
+There are 541,909 rows
