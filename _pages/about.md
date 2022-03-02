@@ -16,10 +16,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
- <p></p>
- <a href='#' style="text-decoration:none"><b>About Me</b></a>
+ <!-- <p></p>
+ <a href='#' style="text-decoration:none"><b>About Me</b></a> -->
 
- I currently work as a data analyst for Honda. Previously, I attended CSUF where I earned my <a href='#' style="text-decoration:none">MS in Business Analytics</a> and my BA in Accounting & Information Systems / Decision Sciences.
+ I currently work as a data analyst for Honda. Previously, I attended CSUF where I earned my <a href='#' style="text-decoration:none">MS in Business Analytics</a> and BA in Accounting & Information Systems / Decision Sciences.
 
  I am experienced in data analysis, machine learning and data visualization. The main tools I use are <a href='#' style="text-decoration:none">SQL</a>, <a href='#' style="text-decoration:none">Python</a>, <a href='#' style="text-decoration:none">Power BI</a> and <a href='#' style="text-decoration:none">Tableau</a>.
 
