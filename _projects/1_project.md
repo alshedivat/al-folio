@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Predicting Email Click Rates
+description: Natural Language Processing (NLP) and Random Forest
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: data science
 ---
 
 Every project has a beautiful feature showcase page.

@@ -71,13 +71,7 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  
-  # <a href="mailto:shainaLolin@gmail.com" target="_blank">Email</a>
-  # <p style="color:lightgrey;">    •    
-  # <a href="https://www.linkedin.com/in/shainalolin/" target="_blank">LinkedIn</a> 
-  # <p style="color:lightgrey;">    •    
-  # <a href="https://github.com/slaisha" target="_blank">GitHub</a> 
-  
+  Please check out my <a href="https://slaisha.github.io/me/projects/" target="_blank">projects</a>. ♡
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -275,7 +269,7 @@ enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       true  # enables displaying social links in the
+enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
