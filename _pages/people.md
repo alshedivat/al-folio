@@ -28,7 +28,7 @@ lab_types: ["Current","Former"]
               {% if person.img %}
                 {% if person.img=="placeholder" %}
                   <div class="flex justify-center aspect-w-3 aspect-h-2">
-                    <img class="object-cover shadow-lg rounded-lg" src="https://picsum.photos/200" alt="">
+                    <img class="object-cover shadow-lg rounded-lg" src="/assets/img/blank_profile.png" alt="">
                   </div>
                 {% else %}
                   <div class="flex justify-center aspect-w-3 aspect-h-2">
@@ -73,7 +73,7 @@ lab_types: ["Current","Former"]
               <div class="space-y-4">
                     {% if person.img %}
                       {% if person.img=="placeholder" %}
-                        <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="https://picsum.photos/200" alt="">
+                        <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="/levylab/assets/img/blank_profile.png" alt="">
                       {% else %}
                         <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="{{ person.img | prepend: site.baseurl | prepend: site.url }}" alt="">
                       {% endif %}
@@ -112,7 +112,7 @@ lab_types: ["Current","Former"]
               <div class="space-y-4">
                     {% if person.img %}
                       {% if person.img=="placeholder" %}
-                        <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="https://picsum.photos/200" alt="">
+                        <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="/levylab/assets/img/blank_profile.png" alt="">
                       {% else %}
                         <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="{{ person.img | prepend: site.baseurl | prepend: site.url }}" alt="">
                       {% endif %}
@@ -151,7 +151,7 @@ lab_types: ["Current","Former"]
               <div class="space-y-4">
                     {% if person.img %}
                       {% if person.img=="placeholder" %}
-                        <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="https://picsum.photos/200" alt="">
+                        <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="/levylab/assets/img/blank_profile.png" alt="">
                       {% else %}
                         <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="{{ person.img | prepend: site.baseurl | prepend: site.url }}" alt="">
                       {% endif %}
@@ -190,7 +190,7 @@ lab_types: ["Current","Former"]
               <div class="space-y-4">
                     {% if person.img %}
                       {% if person.img=="placeholder" %}
-                        <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="https://picsum.photos/200" alt="">
+                        <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="/levylab/assets/img/blank_profile.png" alt="">
                       {% else %}
                         <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="{{ person.img | prepend: site.baseurl | prepend: site.url }}" alt="">
                       {% endif %}
@@ -229,7 +229,7 @@ lab_types: ["Current","Former"]
               <div class="space-y-4">
                     {% if person.img %}
                       {% if person.img=="placeholder" %}
-                        <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="https://picsum.photos/200" alt="">
+                        <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="/levylab/assets/img/blank_profile.png" alt="">
                       {% else %}
                         <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="{{ person.img | prepend: site.baseurl | prepend: site.url }}" alt="">
                       {% endif %}
