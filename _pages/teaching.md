@@ -7,9 +7,7 @@ nav: true
 ---
 ___
 
-## seminar series 2022
-
-**Computer Science Colloqium, [University of Copenhagen](https://di.ku.dk/english/), Denmark**, *Sparse Matrices and High-Performance Computing Meet Biology*, Spring 2022.
+## recent seminar series
 
 **[Computer Engineering Colloqium](https://www.ece.ucsb.edu/events/all/2022/feb-16-wed-1000am-sparse-matrices-and-high-performance-computing-meet-biology), University of California, Santa Barbara**, *Sparse Matrices and High-Performance Computing Meet Biology*, Spring 2022.
 
