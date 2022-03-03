@@ -1,80 +1,29 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Stewardship of Global Collective Behavior
+description: Communication technology radically reshapes our global social network. How do we ensure these changes will lead towards a sustainable, equitable and healthy world?
+img: assets/img/ConnectedWorld.jpg
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+We have built and adopted technology that alters behavior at global scales without a theory of what will happen or a coherent strategy for reducing harm. Much of my research focuses on understanding the emergent consequences of digital communication technology and identifying strategies to reduce harm.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Trained as an ecologist, I spent the early years of my PhD surrounded by researchers studying our natural world. Although they worked on systems ranging in scale from viruses to global climate, much of the work shared a common theme of understanding the impact of human activity on once-stable complex systems. Through technological innovation and subsequent over-exploitation, our natural world now exists in a precarious state that requires an urgent, evidence-based response.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+My research takes this framing and applies it to human social behavior. Over the past 12,000 years, we've gone solving local problems vocally to being faced with global challenges and communicating through smartphones. Much like our natural systems, digital communication technology has been developed largely to mine our attention for profit. There is no reason to believe that these changes will bring about a healthy, equitable and sustainable world. Along with co-authors across the natural, physical, an social sciences, we published a <a href="https://www.pnas.org/doi/10.1073/pnas.2025764118"> paper </a> in PNAS arguing that our global collective behavior is in urgent need of stewardship.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+This project emerged from a workshop hosted in 2017 on Princeton's campus and remains ongoing. Since that time it has broadened out to involve researchers at over a dozen institutions. We brougt these researchers together with experts in tech and policy for a <a  <a href="https://cyber.harvard.edu/story/2021-12/social-media-crisis-discipline">recent workshop</a> hosted by the <a href="https://cyber.harvard.edu/programs/institute-rebooting-social-media"><i>Institute for for rebooting social media</i></a> at Harvard University. You can read more about that workshop <a href="https://medium.com/rebooting-social-media/social-media-as-a-crisis-discipline-c0ea4dae374a">here</a>.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+<h3>Related Publications</h3>
+<li><a href="https://www.pnas.org/doi/10.1073/pnas.2025764118">Stewardship of global collective behavior</a> <i>PNAS</i></li>
+<li><a href="https://blogs.scientificamerican.com/observations/the-ignorance-of-the-crowd/">The Ignorance of the Crowd</a> <i>Scientific American</i></li>
+<li><a href="https://www.wired.com/2016/12/donald-trump-get-elected-ask-bees/">Why Did Donald Trump Get Elected? Ask the Bees</a> <i>Wired</i></li>
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+<h3>Selected Media Coverage</h3>
+<li><a href="https://www.bnnbloomberg.ca/as-climate-change-fries-the-world-social-media-is-frying-our-brains-1.1623057">As Climate Change Fries the World, Social Media Is Frying Our Brains</a>, <i>Bloomberg</i>
+<li><a href="https://www.vox.com/recode/2021/6/26/22550981/carl-bergstrom-joe-bak-coleman-biologists-ecologists-social-media-risk-humanity-research-academics">Why some biologists and ecologists think social media is a risk to humanity</a>, <i>Vox</i></li>
+<li><a href="https://www.univision.com/noticias/salud/cuales-son-peligros-redes-sociales">¿Y si las redes sociales fueran un peligro para la humanidad? Un grupo de expertos alerta sobre una hipótesis cada vez menos descabellada</a>, <i>Univision</i></li>
+<li><a href="https://www.pnas.org/content/118/27/e2025764118">Recode</a>
