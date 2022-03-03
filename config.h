@@ -1,1 +1,0 @@
-../../../../Headers/ruby/config.h
