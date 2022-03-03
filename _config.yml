@@ -29,7 +29,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -84,9 +84,9 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Fish and Fascists  # your blog must have a name for it to show up in the nav bar
-blog_description: Unpublishable thoughts collective behavior, statistics, and technology
-permalink: /blog/:year/:title/
+#blog_name: Fish and Fascists  # your blog must have a name for it to show up in the nav bar
+#blog_description: Unpublishable thoughts collective behavior, statistics, and technology
+#permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
