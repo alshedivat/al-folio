@@ -10,5 +10,5 @@ linkedin_username: sarakodeiri
 github_username: sarakodeiri
 twitter_username: sarakodeiri
 category: MSc Students
-show: true
+show: false
 ---
