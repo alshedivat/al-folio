@@ -12,7 +12,7 @@ profile:
     <p>Gerberding Hall</p>
     <p>University of Washington</p>
     <p>1400 NE Campus Pkwy</p>
-    <p> Seattle, WA 98195. r</p>
+    <p> Seattle, WA 98195</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
