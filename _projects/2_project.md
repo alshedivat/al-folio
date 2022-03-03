@@ -7,74 +7,18 @@ importance: 2
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Groups have the potential to outperform the cognitive capabilities of individuals, making better decisions with less information. This phenomenon, collective wisdom, is widespread in animal socieities and is a primary benefit of group living. However, it is not an instrinsic property of any group and depends on how individuals interact and share information. For animals, these actions and interactions are shaped by natural selection to produce collectively wise choices.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+With the advent of social media, we now have the ability to alter how we interact and share information with likely consequences for collective wisdom. If we do so prudently, we can promote wise and misinformation-robust societies. Unfortunately, our current approach is to organize society around engagement and ad sales.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+A portion of my research focuses on understanding the conditions that promote collective wisdom over folly and how it can be improved through platform design. This work ranges from purely theoretical studies on how spatial and temporal correlations impact wisdom to empirical work on the consequences of polarization and interventions to reduce misinformation online.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
+<h3>Related Work</h3>
+<li><a href="https://osf.io/preprints/socarxiv/4jtvm">Combining interventions to reduce the spread of viral misinformation</a></li>
+<li><a href="https://royalsocietypublishing.org/doi/full/10.1098/rsif.2018.0130">Counteracting estimation bias and social influence to improve the wisdom of crowds</a></li>
+<li><a href="https://royalsocietypublishing.org/doi/full/10.1098/rspb.2020.1802">The wisdom of stalemates: consensus and clustering as filtering mechanisms for improving collective accuracy.</a></li>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+<h3>Selected Media Coverage</h3>
+<li><a href="https://www.sciencedaily.com/releases/2018/04/180418092038.htm">New study improves 'crowd wisdom' estimates</a>, <i>Science Daily</i></li>
