@@ -22,7 +22,7 @@ lab_types: ["Current","Former"]
 
 
       {% assign members = site.people | where:"type","Principal Investigator" %}
-      {% assign sorted_people = members | sort:"lab_types" %}
+      {% assign sorted_people = members | sort:"lab_type" %}
 
       {% for person in sorted_people %}
               {% if person.img %}
@@ -44,7 +44,6 @@ lab_types: ["Current","Former"]
                     Profile
                   </a>
                 </div>
-
               </div>
         {% endfor %}
 
@@ -65,12 +64,14 @@ lab_types: ["Current","Former"]
       </div>
 
       <ul role="list" class="h-auto mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
+
         {% assign members = site.people | where:"type","Collaborators" %}
-        {% assign sorted_people = members | sort:"lab_types" %}
+        {% assign sorted_people = members | sort:"lab_type" %}
 
         {% for person in sorted_people %}
             <li>
-              <div class="space-y-4">
+            <a class="text-indigo-600 hover:no-underline" href="{{ person.url | prepend: site.baseurl | prepend: site.url }}">
+              <div class="p-2 space-y-4 rounded transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-100 duration-300">
                     {% if person.img %}
                       {% if person.img=="placeholder" %}
                         <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="/levylab/assets/img/blank_profile.png" alt="">
@@ -78,14 +79,26 @@ lab_types: ["Current","Former"]
                         <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="{{ person.img | prepend: site.baseurl | prepend: site.url }}" alt="">
                       {% endif %}
                     {% endif %}
-                    <div class="space-y-2">
-                      <div class="text-xs font-medium lg:text-sm">
-                        <h3>{{ person.title }}</h3>
-                        <p class="text-indigo-600">{{ person.description }}</p>
-                        <a class="text-indigo-600" href="{{ person.url | prepend: site.baseurl | prepend: site.url }}">profile</a>
+
+                    <!-- Gray font if "Former" -->
+                    {% if person.lab_type=="Current" %}
+                      <div class="space-y-2">
+                        <div class="text-xs font-medium lg:text-sm">
+                          <h3>{{ person.title }}</h3>
+                          <p class="text-indigo-600">{{ person.lab_type }} {{ person.description }}</p>
+                        </div>
                       </div>
-                    </div>
-                </div>
+                    {% else %}
+                      <div class="space-y-2">
+                        <div class="text-xs font-medium lg:text-sm">
+                          <h3>{{ person.title }}</h3>
+                          <p class="text-gray-600">{{ person.lab_type }} {{ person.description }}</p>
+                        </div>
+                      </div>
+                    {% endif %}
+                    
+                  </div>
+                </a>
             </li>
 
         {% endfor %}
@@ -105,26 +118,39 @@ lab_types: ["Current","Former"]
 
       <ul role="list" class="h-auto mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
         {% assign members = site.people | where:"type","PhD Rotation Students" %}
-        {% assign sorted_people = members | sort:"lab_types" %}
+        {% assign sorted_people = members | sort:"lab_type" %}
 
         {% for person in sorted_people %}
             <li>
-              <div class="space-y-4">
-                    {% if person.img %}
+              <a class="text-indigo-600 hover:no-underline" href="{{ person.url | prepend: site.baseurl | prepend: site.url }}">
+                <div class="p-2 space-y-4 rounded transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-100 duration-300">                    
+                  {% if person.img %}
                       {% if person.img=="placeholder" %}
                         <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="/levylab/assets/img/blank_profile.png" alt="">
                       {% else %}
                         <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="{{ person.img | prepend: site.baseurl | prepend: site.url }}" alt="">
                       {% endif %}
                     {% endif %}
-                    <div class="space-y-2">
-                      <div class="text-xs font-medium lg:text-sm">
-                        <h3>{{ person.title }}</h3>
-                        <p class="text-indigo-600">{{ person.description }}</p>
-                        <a class="text-indigo-600" href="{{ person.url | prepend: site.baseurl | prepend: site.url }}">profile</a>
+
+                    <!-- Gray font if "Former" -->
+                    {% if person.lab_type=="Current" %}
+                      <div class="space-y-2">
+                        <div class="text-xs font-medium lg:text-sm">
+                          <h3>{{ person.title }}</h3>
+                          <p class="text-indigo-600">{{ person.lab_type }} {{ person.description }}</p>
+                        </div>
                       </div>
-                    </div>
+                    {% else %}
+                      <div class="space-y-2">
+                        <div class="text-xs font-medium lg:text-sm">
+                          <h3>{{ person.title }}</h3>
+                          <p class="text-gray-600">{{ person.lab_type }} {{ person.description }}</p>
+                        </div>
+                      </div>
+                    {% endif %}
+
                 </div>
+              </a>
             </li>
 
         {% endfor %}
@@ -144,26 +170,37 @@ lab_types: ["Current","Former"]
 
       <ul role="list" class="h-auto mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
         {% assign members = site.people | where:"type","Master's" %}
-        {% assign sorted_people = members | sort:"lab_types" %}
+        {% assign sorted_people = members | sort:"lab_type" %}
 
         {% for person in sorted_people %}
             <li>
-              <div class="space-y-4">
-                    {% if person.img %}
+              <a class="text-indigo-600 hover:no-underline" href="{{ person.url | prepend: site.baseurl | prepend: site.url }}">
+                <div class="p-2 space-y-4 rounded transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-100 duration-300">                      
+                  {% if person.img %}
                       {% if person.img=="placeholder" %}
                         <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="/levylab/assets/img/blank_profile.png" alt="">
                       {% else %}
                         <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="{{ person.img | prepend: site.baseurl | prepend: site.url }}" alt="">
                       {% endif %}
                     {% endif %}
-                    <div class="space-y-2">
-                      <div class="text-xs font-medium lg:text-sm">
-                        <h3>{{ person.title }}</h3>
-                        <p class="text-indigo-600">{{ person.description }}</p>
-                        <a class="text-indigo-600" href="{{ person.url | prepend: site.baseurl | prepend: site.url }}">profile</a>
+                    <!-- Gray font if "Former" -->
+                    {% if person.lab_type=="Current" %}
+                      <div class="space-y-2">
+                        <div class="text-xs font-medium lg:text-sm">
+                          <h3>{{ person.title }}</h3>
+                          <p class="text-indigo-600">{{ person.lab_type }} {{ person.description }}</p>
+                        </div>
                       </div>
-                    </div>
+                    {% else %}
+                      <div class="space-y-2">
+                        <div class="text-xs font-medium lg:text-sm">
+                          <h3>{{ person.title }}</h3>
+                          <p class="text-gray-600">{{ person.lab_type }} {{ person.description }}</p>
+                        </div>
+                      </div>
+                    {% endif %}
                 </div>
+              </a>
             </li>
 
         {% endfor %}
@@ -183,26 +220,39 @@ lab_types: ["Current","Former"]
 
       <ul role="list" class="h-auto mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
         {% assign members = site.people | where:"type","Undergraduates" %}
-        {% assign sorted_people = members | sort:"lab_types" %}
+        {% assign sorted_people = members | sort:"lab_type" %}
 
         {% for person in sorted_people %}
             <li>
-              <div class="space-y-4">
-                    {% if person.img %}
+              <a class="text-indigo-600 hover:no-underline" href="{{ person.url | prepend: site.baseurl | prepend: site.url }}">
+                <div class="p-2 space-y-4 rounded transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-100 duration-300">                      
+                  {% if person.img %}
                       {% if person.img=="placeholder" %}
                         <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="/levylab/assets/img/blank_profile.png" alt="">
                       {% else %}
                         <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="{{ person.img | prepend: site.baseurl | prepend: site.url }}" alt="">
                       {% endif %}
                     {% endif %}
-                    <div class="space-y-2">
-                      <div class="text-xs font-medium lg:text-sm">
-                        <h3>{{ person.title }}</h3>
-                        <p class="text-indigo-600">{{ person.description }}</p>
-                        <a class="text-indigo-600" href="{{ person.url | prepend: site.baseurl | prepend: site.url }}">profile</a>
+
+                    <!-- Gray font if "Former" -->
+                    {% if person.lab_type=="Current" %}
+                      <div class="space-y-2">
+                        <div class="text-xs font-medium lg:text-sm">
+                          <h3>{{ person.title }}</h3>
+                          <p class="text-indigo-600">{{ person.lab_type }} {{ person.description }}</p>
+                        </div>
                       </div>
-                    </div>
+                    {% else %}
+                      <div class="space-y-2">
+                        <div class="text-xs font-medium lg:text-sm">
+                          <h3>{{ person.title }}</h3>
+                          <p class="text-gray-600">{{ person.lab_type }} {{ person.description }}</p>
+                        </div>
+                      </div>
+                    {% endif %}
+
                 </div>
+              </a>
             </li>
 
         {% endfor %}
@@ -222,26 +272,39 @@ lab_types: ["Current","Former"]
 
       <ul role="list" class="h-auto mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
         {% assign members = site.people | where:"type","High School Summer" %}
-        {% assign sorted_people = members | sort:"lab_types" %}
+        {% assign sorted_people = members | sort:"lab_type" %}
 
         {% for person in sorted_people %}
             <li>
-              <div class="space-y-4">
-                    {% if person.img %}
+              <a class="text-indigo-600 hover:no-underline" href="{{ person.url | prepend: site.baseurl | prepend: site.url }}">
+                <div class="p-2 space-y-4 rounded transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-100 duration-300">   
+                  {% if person.img %}
                       {% if person.img=="placeholder" %}
                         <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="/levylab/assets/img/blank_profile.png" alt="">
                       {% else %}
                         <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="{{ person.img | prepend: site.baseurl | prepend: site.url }}" alt="">
                       {% endif %}
                     {% endif %}
-                    <div class="space-y-2">
-                      <div class="text-xs font-medium lg:text-sm">
-                        <h3>{{ person.title }}</h3>
-                        <p class="text-indigo-600">{{ person.description }}</p>
-                        <a class="text-indigo-600" href="{{ person.url | prepend: site.baseurl | prepend: site.url }}">profile</a>
+
+                    <!-- Gray font if "Former" -->
+                    {% if person.lab_type=="Current" %}
+                      <div class="space-y-2">
+                        <div class="text-xs font-medium lg:text-sm">
+                          <h3>{{ person.title }}</h3>
+                          <p class="text-indigo-600">{{ person.lab_type }} {{ person.description }}</p>
+                        </div>
                       </div>
-                    </div>
+                    {% else %}
+                      <div class="space-y-2">
+                        <div class="text-xs font-medium lg:text-sm">
+                          <h3>{{ person.title }}</h3>
+                          <p class="text-gray-600">{{ person.lab_type }} {{ person.description }}</p>
+                        </div>
+                      </div>
+                    {% endif %}
+
                 </div>
+              </a>
             </li>
 
         {% endfor %}
