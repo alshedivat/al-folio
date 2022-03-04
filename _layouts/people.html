@@ -27,9 +27,15 @@ layout: page
           </svg>
           <div class="relative text-base mx-auto max-w-prose lg:max-w-none">
             <figure>
-              <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
-                <img class="rounded-lg shadow-lg object-cover object-center" src="{{ page.profile.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="profile image" width="1184" height="1376">
-              </div>
+              {% if page.profile.image and page.profile.image != "" %}
+                <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
+                  <img class="rounded-lg shadow-lg object-cover object-center" src="{{ page.profile.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="profile image" width="1184" height="1376">
+                </div>
+              {% else %}
+                <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
+                  <img class="rounded-lg shadow-lg object-cover object-center" src="/levylab/assets/img/blank_profile.png" alt="profile image" width="1184" height="1376">
+                </div>
+              {% endif %}
               <figcaption class="mt-3 flex text-sm text-gray-500">
                 <!-- Heroicon name: solid/camera -->
                 <svg class="flex-none w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">

@@ -12,7 +12,7 @@ lab_type: "Current"
 description: Collaborator
 ---
 
-**Website:** https://jasonwei20.github.io/
+**Website:** [https://jasonwei20.github.io/](https://jasonwei20.github.io/)
 
 **Undergrad:** CS Student Dartmouth
 
