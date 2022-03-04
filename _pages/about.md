@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 I'm Joe Bak-Coleman, a computational social scientist and postdoctoral fellow at the [University of Washington Center for an Informed Public](https://www.cip.uw.edu/) and the [eScience Institute](https://escience.washington.edu/). I earned my PhD in [Ecology and Evolutionary](https://eeb.princeton.edu/) at Princeton University in 2020, working with [Iain Couzin](https://collectivebehaviour.com/people/couzin-iain/) and [Dan Rubenstein](https://eeb.princeton.edu/people/daniel-rubenstein).
 
-My research focuses on understanding how collectives make decisions in the face of uncertainty. I'm particularly interested in understanding makes collective decision-making work and how it can go awry. Over the past decade, this interest has led my work from nervous systems and animal groups to social media and metascience. 
+My research focuses on understanding how collectives make decisions in the face of uncertainty. I'm particularly interested in understanding what makes collective decision-making work and how it can go awry. Over the past decade, this interest has led my work from nervous systems and animal groups to social media and metascience. 
 
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
