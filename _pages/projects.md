@@ -1,10 +1,10 @@
 ---
 layout: page
-title: projects
+title: data science projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: My data science projects coded in Python.
 nav: true
-display_categories: [data science, data visualization]
+display_categories: [data science, data viz]
 horizontal: false
 ---
 

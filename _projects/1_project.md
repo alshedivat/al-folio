@@ -5,13 +5,8 @@ description: The 'average customer' is a concept of the past
 img: assets/img/lego.jpg
 importance: 1
 category: data science
+github: https://github.com/slaisha/Customer-Segmentation
 ---
-
-
-
-
-
-
 
 Businesses need to be able to segment their customer base into clusters and tailor experiences for each customer segment. A company may segment their customers according to demographics like age, gender, marital status, location, or buying habits.
 
@@ -37,30 +32,3 @@ High-Level Overview—
 4. Data Analysis on Customer Categories
 5. Classifying Customers
 6. Testing Predictions
-
-<br>
-<h2>1. Data Preparation</h2>
-<br>
-We will load and clean the data.
-
-
-{% highlight python linenos %}
-# READ THE DATA
-df_initial = pd.read_csv('data.csv',encoding="ISO-8859-1",
-                         dtype={'CustomerID': str,'InvoiceID': str})
-print('Dataframe dimensions:', df_initial.shape)
-#______
-df_initial['InvoiceDate'] = pd.to_datetime(df_initial['InvoiceDate'])
-#____________________________________________________________
-# gives some infos on columns types and number of null values
-tab_info=pd.DataFrame(df_initial.dtypes).T.rename(index={0:'column type'})
-tab_info=tab_info.append(pd.DataFrame(df_initial.isnull().sum()).T.rename(index={0:'null values (nb)'}))
-tab_info=tab_info.append(pd.DataFrame(df_initial.isnull().sum()/df_initial.shape[0]*100).T.
-                         rename(index={0:'null values (%)'}))
-display(tab_info)
-#__________________
-# show first lines
-display(df_initial[:5])
-{% endhighlight %}
-
-There are 541,909 rows
