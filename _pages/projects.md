@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A collection of my data science projects.
+description: Hello! Glad to see you here. This is a growing collection of my data science projects.
 nav: true
 display_categories: [data science]
 horizontal: false

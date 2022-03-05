@@ -5,8 +5,8 @@ description: Python · E-Commerce Data · Classification · Clustering · Market
 img: assets/img/lego.jpg
 importance: 1
 category: data science
-github: https://github.com/slaisha/Customer-Segmentation
-redirect: https://github.com/slaisha/Customer-Segmentation
+github: https://github.com/slaisha/Customer-Segmentation/blob/f6b77c246beab1aa565f702aca76c470ea087f8e/customer%20segmentation.ipynb
+redirect: https://github.com/slaisha/Customer-Segmentation/blob/f6b77c246beab1aa565f702aca76c470ea087f8e/customer%20segmentation.ipynb
 ---
 
 Businesses need to be able to segment their customer base into clusters and tailor experiences for each customer segment. A company may segment their customers according to demographics like age, gender, marital status, location, or buying habits.
