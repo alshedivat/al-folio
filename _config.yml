@@ -59,7 +59,7 @@ twitter_username: # your Twitter handle
 linkedin_username: shainalolin # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
-medium_username: # your Medium username
+medium_username: shainalolin # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
@@ -71,7 +71,7 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  Please check out my <a href="https://slaisha.github.io/me/projects/" target="_blank">projects</a>. ♡
+  Please check out my <a href="https://slaisha.github.io/me/projects/" target="_blank"><b>projects</b></a>. ♡
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)

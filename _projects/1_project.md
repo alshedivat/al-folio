@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Customer Segmentation
-description: The 'average customer' is a concept of the past
+description: Python · E-Commerce Data<br>
+Classification, Clustering, Marketing
 img: assets/img/lego.jpg
 importance: 1
 category: data science
