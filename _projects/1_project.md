@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Customer Segmentation
-description: Python · E-Commerce Data<br>
-Classification, Clustering, Marketing
+description: Python · E-Commerce Data · Classification · Clustering · Marketing
 img: assets/img/lego.jpg
 importance: 1
 category: data science
