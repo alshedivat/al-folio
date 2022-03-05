@@ -56,7 +56,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: noppayut # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: miwmewmu # your Twitter handle
-linkedin_username: noppyut # your LinkedIn user name
+linkedin_username: noppayut # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -71,7 +71,7 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  I'm trying to be more responsive on any channel. I read every message but cherry-pick which to response.
+  I'm trying to be more responsive on every channel. I read every message but cherry-pick which to response.
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
