@@ -27,6 +27,7 @@ This list will grow as I remember books and poetry I enjoyed.
   Anne Carson was my favourite poet for a very long time. She masters the balance between otherworldly poetry and grounding narration. Geryon's childhood has so many moments I automatically imagine tinged in sepia light. She models Geryon as a symbol for otherness but makes it an intensely relatable brand of otherness, in what Sam Anderson calls her classic "Carsonian distant closeness."
 </details>
 
+
 ## Origami 
 
 I enjoy making Kusudamas. Someday I would love to make [Hideo Komatsu's horse](https://origami-art.us/instructions/209-horse-hideo-komatsu). Here's my first Kusudama from 2018!
