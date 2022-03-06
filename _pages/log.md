@@ -2,7 +2,7 @@
 layout: page
 permalink: /log/
 title: log
-description: Periodic log of my academic/professional progress.
+description: periodic log of my academic/professional progress.
 nav: true
 ---
 
