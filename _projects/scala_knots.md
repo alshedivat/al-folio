@@ -2,8 +2,8 @@
 layout: page
 title: scala_knots
 description: Knot algorithms in Scala, 2020.
-img: assets/img/py_knots.png
-importance: 1
+img: assets/img/scala_knots.png
+importance: 2
 category: computer-assisted mathematics
 ---
 
