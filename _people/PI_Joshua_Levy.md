@@ -4,12 +4,12 @@ title: Joshua Levy
 img: /assets/img/jlevy_thumbnail.jpg
 profile:
   align: right
-  image: joshua_levy.jpg
+  image: P1010350.jpg
 news: false
 social: false
 type: "Principal Investigator"
 lab_type: "Current"
-description: Lab Director & Co-Head EDIT ML
+description: Lab Director & Co-Director of EDIT Machine Learning Group
 ---
 Github: [jlevy44](https://github.com/jlevy44/)  
 

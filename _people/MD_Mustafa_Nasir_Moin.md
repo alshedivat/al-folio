@@ -8,6 +8,6 @@ profile:
 news: false
 social: false
 type: "Medical Student"
-lab_type: "Former"
+lab_type: "Previous"
 description: Prospective Medical Student
 ---

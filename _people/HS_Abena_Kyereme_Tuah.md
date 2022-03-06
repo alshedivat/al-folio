@@ -8,7 +8,7 @@ profile:
 news: false
 social: false
 type: "High School Summer"
-lab_type: "Former"
+lab_type: "Previous"
 description: Summer Intern 2021
 ---
 

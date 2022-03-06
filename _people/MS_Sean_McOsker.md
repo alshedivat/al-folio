@@ -8,6 +8,6 @@ profile:
 news: false
 social: false
 type: "Master's"
-lab_type: "Former"
+lab_type: "Previous"
 description: QBS Master's QBS110.5 Mentee
 ---
