@@ -5,7 +5,7 @@ title: people
 description:
 nav: true
 person_types: ["Principal Investigator","Collaborators","PhD","PhD Rotation Students","Medical Students","Master's","Undergraduates","High School Summer"]
-lab_types: ["Current","Former"]
+lab_types: ["Current","Previous"]
 ---
 
 <!-- Tailwind CSS -->
@@ -85,18 +85,18 @@ lab_types: ["Current","Former"]
                       <div class="space-y-2">
                         <div class="text-xs font-medium lg:text-sm">
                           <h3>{{ person.title }}</h3>
-                          <p class="text-indigo-600">{{ person.lab_type }} {{ person.description }}</p>
+                          <p class="text-indigo-600"> {{ person.lab_type }}  {{ person.description }}</p>
                         </div>
                       </div>
                     {% else %}
                       <div class="space-y-2">
                         <div class="text-xs font-medium lg:text-sm">
                           <h3>{{ person.title }}</h3>
-                          <p class="text-gray-600">{{ person.lab_type }} {{ person.description }}</p>
+                          <p class="text-gray-600"> {{ person.lab_type }}  {{ person.description }}</p>
                         </div>
                       </div>
                     {% endif %}
-                    
+
                   </div>
                 </a>
             </li>
@@ -137,14 +137,14 @@ lab_types: ["Current","Former"]
                       <div class="space-y-2">
                         <div class="text-xs font-medium lg:text-sm">
                           <h3>{{ person.title }}</h3>
-                          <p class="text-indigo-600">{{ person.lab_type }} {{ person.description }}</p>
+                          <p class="text-indigo-600"> {{ person.lab_type }}  {{ person.description }}</p>
                         </div>
                       </div>
                     {% else %}
                       <div class="space-y-2">
                         <div class="text-xs font-medium lg:text-sm">
                           <h3>{{ person.title }}</h3>
-                          <p class="text-gray-600">{{ person.lab_type }} {{ person.description }}</p>
+                          <p class="text-gray-600"> {{ person.lab_type }}  {{ person.description }}</p>
                         </div>
                       </div>
                     {% endif %}
@@ -188,14 +188,14 @@ lab_types: ["Current","Former"]
                       <div class="space-y-2">
                         <div class="text-xs font-medium lg:text-sm">
                           <h3>{{ person.title }}</h3>
-                          <p class="text-indigo-600">{{ person.lab_type }} {{ person.description }}</p>
+                          <p class="text-indigo-600"> {{ person.lab_type }}  {{ person.description }}</p>
                         </div>
                       </div>
                     {% else %}
                       <div class="space-y-2">
                         <div class="text-xs font-medium lg:text-sm">
                           <h3>{{ person.title }}</h3>
-                          <p class="text-gray-600">{{ person.lab_type }} {{ person.description }}</p>
+                          <p class="text-gray-600"> {{ person.lab_type }}  {{ person.description }}</p>
                         </div>
                       </div>
                     {% endif %}
@@ -239,14 +239,14 @@ lab_types: ["Current","Former"]
                       <div class="space-y-2">
                         <div class="text-xs font-medium lg:text-sm">
                           <h3>{{ person.title }}</h3>
-                          <p class="text-indigo-600">{{ person.lab_type }} {{ person.description }}</p>
+                          <p class="text-indigo-600"> {{ person.lab_type }}  {{ person.description }}</p>
                         </div>
                       </div>
                     {% else %}
                       <div class="space-y-2">
                         <div class="text-xs font-medium lg:text-sm">
                           <h3>{{ person.title }}</h3>
-                          <p class="text-gray-600">{{ person.lab_type }} {{ person.description }}</p>
+                          <p class="text-gray-600"> {{ person.lab_type }}  {{ person.description }}</p>
                         </div>
                       </div>
                     {% endif %}
@@ -291,14 +291,14 @@ lab_types: ["Current","Former"]
                       <div class="space-y-2">
                         <div class="text-xs font-medium lg:text-sm">
                           <h3>{{ person.title }}</h3>
-                          <p class="text-indigo-600">{{ person.lab_type }} {{ person.description }}</p>
+                          <p class="text-indigo-600"> {{ person.lab_type }}  {{ person.description }}</p>
                         </div>
                       </div>
                     {% else %}
                       <div class="space-y-2">
                         <div class="text-xs font-medium lg:text-sm">
                           <h3>{{ person.title }}</h3>
-                          <p class="text-gray-600">{{ person.lab_type }} {{ person.description }}</p>
+                          <p class="text-gray-600"> {{ person.lab_type }}  {{ person.description }}</p>
                         </div>
                       </div>
                     {% endif %}
