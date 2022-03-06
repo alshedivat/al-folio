@@ -6,7 +6,7 @@ description: other stuff about me.
 nav: true
 ---
 
-I enjoy salsa/bachata, origami, reading (fiction/poetry/creative non-fiction), solving linguistics puzzles, watching movies and TV/shows, a wide variety of wordle variants, group-solving crosswords, browsing XKCD/PHD comics. I intend to get better at ice skating.
+I enjoy salsa/bachata, origami, reading (fiction/poetry/creative non-fiction), solving linguistics puzzles, watching movies and TV/shows, a wide variety of wordle variants, group-solving crosswords, browsing xkcd/smbc/PHD comics and occasionally, Calvin and Hobbes. I intend to get better at ice skating.
 
 ## Origami 
 
