@@ -1,6 +1,6 @@
 ---
 layout: page
 title: talks
-description: Various talks I have given.
+description: A list of talks I have given.
 nav: true
 ---
