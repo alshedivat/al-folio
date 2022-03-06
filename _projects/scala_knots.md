@@ -18,5 +18,3 @@ Implemented the generalized Seifert matrix algorithm from my summer research in 
 **Meta takeaways:** Another data point for my 2022 conclusion that for long-term commitments, I like working on more tangible things, like an actual program implementing my algorithm. Or a constructive proof. It seems like I enjoy the abstract more as a means to a tangible end. 
 
 [Link](https://github.com/Chinmaya-Kausik/py_knots) to the Github Repository.
-
-More details to come soon. 
