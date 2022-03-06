@@ -19,4 +19,3 @@ Re-implemented the generalized Seifert matrix algorithm from my summer research 
 
 [Link](https://github.com/Chinmaya-Kausik/py_knots) to the Github Repository.
 
-More details to come soon. 
