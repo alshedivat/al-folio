@@ -12,7 +12,7 @@ I enjoy salsa/bachata, origami, reading (fiction/poetry/creative non-fiction), s
 
 I enjoy making Kusudamas. Someday I would love to make [Hideo Komatsu's horse](https://origami-art.us/instructions/209-horse-hideo-komatsu). Here's my first Kusudama from 2018!
 
-{% include figure.html path="assets/img/origami.jpg" title="First Kusudama!" class="img-fluid rounded z-depth-1" width="100" %}
+{% include figure.html path="assets/img/origami.jpg" title="First Kusudama!" class="img-fluid rounded z-depth-1" width="20" %}
 
 ## Reading 
 
