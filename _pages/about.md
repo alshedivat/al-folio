@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Mathematics Ph.D. Student, <a href='https://lsa.umich.edu/math/'>University of Michigan</a>. <a href= 'https://drive.google.com/file/d/1pV7LDvrkQnjGSgIWx_p1lZVHNNT9oOgp/view?usp=sharing'>CV</a>.
+subtitle: Mathematics Ph.D. Student, University of Michigan. <a href= 'https://drive.google.com/file/d/1pV7LDvrkQnjGSgIWx_p1lZVHNNT9oOgp/view?usp=sharing'>CV</a>.
 
 profile:
   align: right
