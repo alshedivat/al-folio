@@ -7,4 +7,8 @@ importance: 1
 category: computer-assisted mathematics
 ---
 
-Re-implemented the generalized Seifert matrix algorithm from my summer research in Python, upon discovering several bottlenecks coming from the scarcity of good Scala libraries. More details to come soon.
+Re-implemented the generalized Seifert matrix algorithm from my summer research in Python, upon discovering several bottlenecks coming from the scarcity of good Scala libraries. The GUI is being refined. 
+
+Github Repository: https://github.com/Chinmaya-Kausik/py_knots.
+
+More details to come soon. 
