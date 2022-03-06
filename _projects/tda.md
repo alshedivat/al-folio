@@ -7,7 +7,7 @@ importance: 3
 category: machine learning/data analysis
 ---
 
-Analysed UNGA votes over the years using the Kepler Mapper. Computational Topology course project. [Presentation slides](https://drive.google.com/file/d/1gKTEKSmHxGr-nKpcJysoUi0Y8ftwjFe4/view?usp=sharing)
+Analysed United Nations General Assembly votes over the years using the Kepler Mapper. Computational Topology course project. [Presentation slides](https://drive.google.com/file/d/1gKTEKSmHxGr-nKpcJysoUi0Y8ftwjFe4/view?usp=sharing)
 
 **Positives:** Finally got hands on data analysis experience. Was very happy when it resonated with known historical facts. 
 
