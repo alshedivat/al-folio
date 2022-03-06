@@ -16,7 +16,7 @@ nav: true
   <summary markdown="span"> Cut, Fold, Paste: Homology and the Classification of Surfaces, 2021 </summary>
 
   
-**Desccription:** How many truly different shapes can you get by pasting polygons at their boundaries? Mathematicians often like to “classify objects” - many big research endeavours in mathematics are geared towards classification. What does it mean to classify a mathematical object? 
+**Description:** How many truly different shapes can you get by pasting polygons at their boundaries? Mathematicians often like to “classify objects” - many big research endeavours in mathematics are geared towards classification. What does it mean to classify a mathematical object? 
 
 This will be illustrated using the “classification of surfaces,” which is related to our first question. We will try to understand how a surface might be defined from our intuitive idea of it, reduce it to a combinatorial object and then classify these combinatorial objects using tools we develop on the way. We will see powerful tools like the Euler characteristic, homology and the Mayer-Vietoris sequence.
 
@@ -26,6 +26,7 @@ This will be illustrated using the “classification of surfaces,” which is re
 </details>
 
 <details>
+  
 <summary markdown="span"> **Geometry, Symmetry and Hyperbolic Space, 2020** </summary>
   
   
