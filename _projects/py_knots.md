@@ -15,7 +15,7 @@ Re-implemented the generalized Seifert matrix algorithm from my summer research 
 
 **Technical takeaways:** Python refresher. PEP8-aligned Python code formatting. Objected oriented GUI design. Experience with Tkinter and matplotlib. 
 
-**Meta takeaways:** A reminder that often, starting from scratch (Python) is much better than wading through vastly inefficient setups created by sunk costs (Scala). Much like my experience with solving math problems, it can be good to take an exploratory leap of faith with confidence. If things still aren't working out, it can help to increase your exploration time for a given idea, which takes courage. The benefits of exploring start outweighing the benefits of exploiting your current comfort zone the longer you stay in the latter without fruit. 
+**Meta takeaways:** A reminder that often, starting from scratch (Python) is much better than wading through vastly inefficient setups created by sunk costs (Scala). Much like my experience with solving math problems, it can be good to take an exploratory leap of faith with confidence. If things still aren't working out, it can help to increase your exploration time for a given idea, which takes courage. The benefits of exploring start outweighing the benefits of exploiting your current comfort zone, the longer you stay in the latter without fruit. 
 
 [Link](https://github.com/Chinmaya-Kausik/py_knots) to the Github Repository.
 
