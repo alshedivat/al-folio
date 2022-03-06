@@ -1,8 +1,8 @@
 <details>
-  <summary> 2022 </summary>
+  <summary markdown="span"> 2022 </summary>
     
 <details>
-  <summary> March 2022 </summary>
+  <summary markdown="span"> March 2022 </summary>
   
 </details>
 </details>
