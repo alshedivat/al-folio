@@ -13,4 +13,4 @@ nav: true
 5. An Algorithm for the Generalized Seifert Matrix. Regensburg internal seminar, 2020. [Slides](https://drive.google.com/file/d/1H4rFem1Rx36fN7Fv-CKTXhALzkWXTgG8/view?usp=sharing). The algorithm has been simplified since.
 6. Infinite Galois Theory. IISc commutative algebra course talk, 2020. [Slides](https://drive.google.com/file/d/1YGzl1pTWj7WrbRI-1t2e1B6TBwgQy2Mk/view?usp=sharing)
 7. Graded Commutativity of the Cup Product. IISc algebraic topology course talk, 2020.
-8. The classification of 1-manifolds. IISc undergraduate math club, 2019.
+8. The Classification of 1-Manifolds. IISc undergraduate math club, 2019.
