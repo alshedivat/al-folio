@@ -5,6 +5,7 @@ permalink: /projects/
 description: some computational projects I have initiated/been involved in, along with my thoughts on them.
 nav: true
 display_categories: [computer-assisted mathematics, machine learning/data analysis]
+nav_num=1
 horizontal: false
 ---
 
