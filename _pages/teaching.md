@@ -27,7 +27,7 @@ This will be illustrated using the “classification of surfaces,” which is re
 
 <details>
   
-<summary markdown="span"> **Geometry, Symmetry and Hyperbolic Space, 2020** </summary>
+<summary markdown="span"> Geometry, Symmetry and Hyperbolic Space, 2020 </summary>
   
   
 **Description:** Exposure to a lot of Euclidean geometry may create the impression that higher geometry is the study of generalized distance spaces. This course will try to convince participants that in some cases, a better view of geometry is the interaction between a space and its group of transformations, via material on elementary hyperbolic geometry. We will see basic results in hyperbolic geometry, the hyperbolic Gauss-Bonnet Theorem, the Iwasawa decomposition, a quick version of material on Fuchsian groups and quotienting, and if time permits, the Milnor-Svarc lemma.
