@@ -9,7 +9,7 @@ category: computer-assisted mathematics
 
 Re-implemented the generalized Seifert matrix algorithm from my summer research in Python, upon discovering several bottlenecks coming from the scarcity of good Scala libraries. The GUI is being refined. 
 
-**Positives:** Getting back to Python after so many years was fun! The wealth of libraries was extremely convenient, especially matplotlib and linear algebra libraries. Had a much better experience this time, now that I rigorously organize my programming habits and code.
+**Positives:** Getting back to Python after so many years was fun! The wealth of libraries was extremely convenient, especially matplotlib and linear algebra libraries. Had a much better experience this time, now that I rigorously organize my programming habits and code. My code was also able to conveniently accommodate optimizations added in later, because of the way I had organized it. 
 
 **Negatives:** Sympy. The Bareiss determinant algorithm has trouble with large matrices since sympy's division of multivariable polynomials is not very efficient. Will implement the Bareiss determinant in C using the FLINT library's extremely fast multivariable polynomial division and then use ctypes to import it to Python.
 
