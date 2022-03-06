@@ -3,6 +3,7 @@ layout: page
 permalink: /talks/
 title: talks
 description: a list of talks that I have given.
+nav_num: 3
 nav: true
 ---
 
