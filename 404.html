@@ -3,8 +3,11 @@ layout: page
 permalink: /404.html
 title: "Page not found"
 description: "Meap. Looks Like you landed on the wrong planet."
-image: meap_error.jpg
 redirect: true
 ---
+
+<div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/meap_error.jpg" title="Meap." class="img-fluid rounded z-depth-1" %}
+</div>
 
 <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="{{ site.baseurl | prepend: site.url }}/">here</a>.</p>
