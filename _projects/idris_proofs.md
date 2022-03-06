@@ -15,7 +15,7 @@ Implemented proofs of various (relatively) elementary mathematical results in Id
 
 **Technical takeaways:** Programming in a dependently typed language. Mixing algorithms for establishing elementary theorems with proofs that they work is probably a good way to set one up for program verification. 
 
-**Meta takeaways:** Something can continue to be an attractive idea even if you grow to loathe the process, as was the case with interactive theorem proving.
+**Meta takeaways:** My first experience working on a large computational project. Hands-on experience with the practice of dividing up a huge problem into smaller ones and tackling them separately.
 
-[Link](https://github.com/siddhartha-gadgil/LTS2019/tree/master/Code) to the code. [Link](https://github.com/siddhartha-gadgil/LTS2019/blob/master/_reports/chinmaya/chinmaya.md) to a file listing my contributions.
+[Link](https://github.com/siddhartha-gadgil/LTS2019/tree/master/Code) to the code on Prof. Gadgil's repository. [Link](https://github.com/siddhartha-gadgil/LTS2019/blob/master/_reports/chinmaya/chinmaya.md) to a file listing my contributions.
 
