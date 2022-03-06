@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Courses taught at UMich and Monsoon Math.
+description: courses taught at UMich and Monsoon Math.
 nav: true
 ---
 
