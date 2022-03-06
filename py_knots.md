@@ -2,7 +2,7 @@
 layout: page
 title: py_knots
 description: a project with a background image
-img: assets/img/py_knots.jpg
+img: assets/img/py_knots.png
 importance: 1
 category: computer-assisted mathematics
 ---
