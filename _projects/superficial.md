@@ -3,7 +3,7 @@ layout: page
 title: superficial
 description: Algorithms for surfaces in Scala, 2020.
 img: assets/img/idris_icon.png
-importance: 1
+importance: 2
 category: computer-assisted mathematics
 ---
 
