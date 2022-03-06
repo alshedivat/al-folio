@@ -5,6 +5,5 @@ title: CV
 description: Click below for a copy of my Curriculum Vitae
 nav: true
 ---
-<object data="/al-folio/assets/pdf/BakColemanCV.pdf" type="application/pdf" width="300" height="200">
-<embed src="/al-folio/assets/pdf/BakColemanCV.pdf" type="application/pdf" width="100%" height="100%">
-</object>
+
+<object data="../assets/pdf/BakColemanCV.pdf" width="80%" height="100%" type='application/pdf'></object>
