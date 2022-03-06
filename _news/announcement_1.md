@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-03-05
 inline: true
 ---
 
-A simple inline announcement.
+Monsoon Math is gearing up for 2022! Email me for more details.
