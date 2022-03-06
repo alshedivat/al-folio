@@ -11,6 +11,19 @@ nav: true
 2. Math 115, Fall 2021.
 
 ## Monsoon Math Camp 
+
+<details>
+  <summary> Cut, Fold, Paste: Homology and the Classification of Surfaces </summary>
+
+**Desccription:** How many truly different shapes can you get by pasting polygons at their boundaries? Mathematicians often like to “classify objects” - many big research endeavours in mathematics are geared towards classification. What does it mean to classify a mathematical object? 
+
+This will be illustrated using the “classification of surfaces,” which is related to our first question. We will try to understand how a surface might be defined from our intuitive idea of it, reduce it to a combinatorial object and then classify these combinatorial objects using tools we develop on the way. We will see powerful tools like the Euler characteristic, homology and the Mayer-Vietoris sequence.
+
+**Prerequisites:** Comfort with the ideas of sets, functions and induction. Visual intuition and familiarity with the notion of a graph will be very helpful. 
+
+**Verdict:** Lower prerequisites and a gentler pace than my 2020 course. Far more successful than that one. Avoided the rookie mistake of doing something too advanced for students. Students were following well enough to be able to point out minor/some not-so-minor errors. I had to work out the details of the combinatorial version of a smooth argument made by Mike Miller in a blogpost, which was also fun for me. 
+</details>
+
 <details>
 <summary> Geometry, Symmetry and Hyperbolic Space, 2020 </summary>
   
