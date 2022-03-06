@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello there! I'm Chinmaya Kausik, a first-year mathematics Ph.D. student at UMich, with a background in geometry, topology and dynamics. A lot of my undergraduate work is in computer-assisted topology and geometry. I have nascent interests in statistical and reinforcement learning, especially offline RL and causality.
+Hi there! I'm Chinmaya Kausik, a first-year mathematics Ph.D. student at UMich, with a background in geometry, topology and dynamics. A lot of my undergraduate work is in computer-assisted topology and geometry. I have nascent interests in statistical and reinforcement learning, especially offline RL and causality.
 
 Other things I'm eager to learn more about: geometric insights for representation learning (for example, representation learning techniques that use curvature-sensitive embeddings), algorithmic fairness.
 
