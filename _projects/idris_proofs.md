@@ -17,5 +17,5 @@ Implemented proofs of various (relatively) elementary mathematical results in Id
 
 **Technical takeaways:** Programming in a dependently typed language. Mixing algorithms for establishing elementary theorems with proofs that they work is probably a good way to set one up for program verification. 
 
-**Meta takeaways:** As my first experience working on a large computational project, I got hands-on experience with the practice of dividing up a truly huge problem into smaller ones and tackling them separately. 
+**Meta takeaways:** My first experience working on a large computational project. I got hands-on experience with the practice of dividing up a truly huge problem into smaller ones and tackling them separately. 
 
