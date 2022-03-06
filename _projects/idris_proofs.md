@@ -1,7 +1,7 @@
 ---
 layout: page
 title: idris
-description: Interactive proofs in Idris.
+description: Interactive proofs in Idris, 2020.
 img: assets/img/idris_icon.png
 importance: 3
 category: computer-assisted mathematics
