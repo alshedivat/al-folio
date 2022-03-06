@@ -134,6 +134,7 @@ kramdown:
 # Includes & excludes
 include: ['_pages']
 exclude:
+  - unused_templates
   - bin
   - Gemfile
   - Gemfile.lock
