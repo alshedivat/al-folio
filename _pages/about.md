@@ -23,4 +23,4 @@ Other things I'm eager to learn more about: geometric and topological insights f
 
 I also care about increasing accessibility to higher mathematics, and this is part of why I co-founded and co-organize [Monsoon Math Camp](www.monsoonmath.org) - an online math camp for promising high school students introducing them to advanced undergraduate and graduate-level math. You should check it out! 
 
-To provide a better glimpse into graduate student life and also create a greater sense of accountability for myself, I will attempt to maintain a periodic log of my academic/professional progress on this website. Check out my other [projects](projects) and reading suggestions!
+To provide a better glimpse into graduate student life and also create a greater sense of accountability for myself, I will attempt to maintain a periodic log of my academic/professional progress on this website. Check out my other [projects](projects.md) and reading suggestions!
