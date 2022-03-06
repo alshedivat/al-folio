@@ -9,7 +9,7 @@ nav: true
 
 I enjoy salsa/bachata, origami, reading (fiction/poetry/creative non-fiction), solving linguistics puzzles, watching movies and TV/shows, a wide variety of wordle variants, group-solving crosswords, browsing xkcd/smbc/PHD comics and occasionally, Calvin and Hobbes. I intend to get better at ice skating.
 
-## Reading 
+#### Reading 
 
 This list will grow as I remember books and poetry I enjoyed.
 
@@ -29,7 +29,7 @@ This list will grow as I remember books and poetry I enjoyed.
 </details>
 
 
-## Origami 
+#### Origami 
 
 I enjoy making Kusudamas. Someday I would love to make [Hideo Komatsu's horse](https://origami-art.us/instructions/209-horse-hideo-komatsu). Here's my first Kusudama from 2018!
 
