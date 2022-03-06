@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Mathematics Ph.D. Student, University of Michigan. <a href= 'https://drive.google.com/file/d/1pV7LDvrkQnjGSgIWx_p1lZVHNNT9oOgp/view?usp=sharing'>CV</a>.
+subtitle: Mathematics Ph.D. Student, University of Michigan. <a href= 'https://drive.google.com/file/d/1pV7LDvrkQnjGSgIWx_p1lZVHNNT9oOgp/view?usp=sharing'>Curriculum Vitae</a>.
 
 profile:
   align: right
@@ -23,4 +23,4 @@ Other things I'm eager to learn more about: geometric and topological insights f
 
 These days, I increasingly care about mathematical problems motivated by tangible, real-world questions. This is behind my new interests above. I also care about increasing accessibility to higher mathematics and creating strong communities where ideas cross-pollinate and people pull each other up. This is part of why I co-founded and co-organize [Monsoon Math Camp](https://www.monsoonmath.org) - an online math camp for promising high school students introducing them to advanced undergraduate and graduate-level math. You should check it out! I have also been involved in building and expanding other mathematical communities, like platforms for the PolyMath REU, DRP programs and the undergraduate math organization at IISc, etc.
 
-To provide a glimpse into graduate student life and also create a greater sense of accountability for myself, I will attempt to maintain a periodic log of my academic/professional progress on this website. Check out my other [projects](projects) (along with my thoughts on them) and [interests](more)!
+To provide a glimpse into graduate student life and also create a greater sense of accountability for myself, I will attempt to maintain a [periodic log](log) of my academic/professional progress on this website. Check out my other [projects](projects) (along with my thoughts on them) and [interests](more)!
