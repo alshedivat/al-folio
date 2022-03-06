@@ -2,24 +2,21 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
+title: "Levy Lab" #EDIT Machine Learning Group:  the website title (if blank, full name will be used instead)
+first_name: Joshua
+middle_name: J.
+last_name: Levy
+email: joshua.j.levy@dartmouth.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  data driven solutions to public health problems
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+
+keywords: deep learning, biomedical informatics, hierarchical bayesian, digital pathology, dermatology  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
+icon: ⚕️ # the emoji used as the favicon
+url: https://jlevy44.github.io # the base hostname & protocol for your site
+baseurl: /levylab # /levylab the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -28,8 +25,6 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # -----------------------------------------------------------------------------
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
-
-rss_icon: true
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -55,12 +50,12 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: jlevy44 # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+orcid_id: 0000-0001-8050-1291 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -72,8 +67,10 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
+rss_icon: true
+
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Feel free to reach out to me over email.
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -84,8 +81,8 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: levy-lab  # your blog must have a name for it to show up in the nav bar
+blog_description: data driven solutions to public health problems
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -93,7 +90,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: jlevy # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------
@@ -109,7 +106,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-
+  people:
+    output: true
+    permalink: /people/:path/
 news_limit: 5
 
 # -----------------------------------------------------------------------------
@@ -119,8 +118,7 @@ news_limit: 5
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
-highlight_theme_light: github  # https://github.com/jwarby/jekyll-pygments-themes
-highlight_theme_dark: native  # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
 kramdown:
   input: GFM
   syntax_highlighter_opts:
@@ -155,7 +153,7 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-target-blank
-  - jekyll-twitter-plugin
+  # - jekyll-twitter-plugin
   - jemoji
 
 # Sitemap settings
@@ -189,7 +187,7 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them). 
+  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
     year: archive-year
     tag: archive-tag
@@ -240,7 +238,7 @@ imagemagick:
     - 800
     - 1400
   input_directories:
-    - assets/img/
+    - assets/img
   input_formats:
     - ".jpg"
     - ".jpeg"
@@ -266,7 +264,7 @@ enable_google_analytics:    false  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
-enable_masonry:             true   # enables automatic project cards arangement
+enable_mansory:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
@@ -283,32 +281,32 @@ enable_medium_zoom:         true   # enables image zoom feature (as on medium.co
 # -----------------------------------------------------------------------------
 
 academicons:
-  version: "1.9.1"
-  integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
+  version: "1.9.0"
+  integrity: "sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg=="
 bootstrap:
-  version: "4.6.1"
+  version: "4.5.2"
   integrity:
-    css: "sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY="
-    js: "sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI="
+    css: "sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg=="
+    js: "sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ=="
 fontawesome:
-  version: "5.15.4"
-  integrity: "sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4="
+  version: "5.14.0"
+  integrity: "sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
 jquery:
-  version: "3.6.0"
-  integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  version: "3.5.1"
+  integrity: "sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
 mathjax:
   version: "3.2.0"
-masonry:
+mansory:
   version: "4.2.2"
   integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
 mdb:
-  version: "4.20.0"
+  version: "4.19.1"
   integrity:
-    css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
-    js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
+    css: "sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q=="
+    js: "sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw=="
 popper:
-  version: "2.11.2"
-  integrity: "sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4="
+  version: "2.4.4"
+  integrity: "sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A=="
 medium_zoom:
   version: "1.0.6"
   integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="

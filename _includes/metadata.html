@@ -145,7 +145,7 @@
         "description": "{%- if page.description -%}{{ page.description }}{%- else if site.description -%}{{ site.description }}{%- endif -%}",
         "headline": "{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}",
         {% if sameaslinks != blank -%}
-        "sameAs": {{ sameaslinks }}, 
+        "sameAs": {{ sameaslinks }},
         {%- endif %}
         "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
         "@context": "https://schema.org"
