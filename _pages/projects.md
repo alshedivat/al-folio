@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Some of my computational projects.
 nav: true
 display_categories: [computer-assisted mathematics, machine learning/data analysis]
 horizontal: false
