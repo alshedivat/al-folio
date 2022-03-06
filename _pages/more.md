@@ -11,7 +11,8 @@ I enjoy salsa/bachata, origami, reading (fiction/poetry/creative non-fiction), s
 ## Origami 
 
 Here's my first Kusudama from 2018! 
-{% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+{% include figure.html path="assets/img/Origami.jpg" title="Kusudama" class="img-fluid rounded z-depth-1" %}
 
 ## Reading 
 
