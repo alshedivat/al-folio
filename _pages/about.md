@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi there! I'm Chinmaya Kausik, a first-year mathematics Ph.D. student at UMich, with a background in geometry, topology and dynamics. A lot of my undergraduate work is in computer-assisted topology and geometry. I have nascent interests in statistical and reinforcement learning, especially offline RL and causality.
 
-Other things I'm eager to learn more about: geometric insights for representation learning (for example, representation learning techniques that embed into metric spaces with non-positive curvature), algorithmic fairness.
+Other things I'm eager to learn more about: geometric and topological insights for dealing with data (for example, representation learning techniques that embed into metric spaces with non-positive curvature), algorithmic fairness.
 
 Of late, I increasingly care about mathematical problems motivated by tangible, real-world questions. I also care about increasing accessibility to higher mathematics, and this is part of why I co-founded and co-organize [Monsoon Math Camp](www.monsoonmath.org) - an online math camp for promising high school students introducing them to advanced undergraduate and graduate-level math. You should check it out! 
 
