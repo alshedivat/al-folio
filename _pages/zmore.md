@@ -8,12 +8,6 @@ nav: true
 
 I enjoy salsa/bachata, origami, reading (fiction/poetry/creative non-fiction), solving linguistics puzzles, watching movies and TV/shows, a wide variety of wordle variants, group-solving crosswords, browsing xkcd/smbc/PHD comics and occasionally, Calvin and Hobbes. I intend to get better at ice skating.
 
-## Origami 
-
-I enjoy making Kusudamas. Someday I would love to make [Hideo Komatsu's horse](https://origami-art.us/instructions/209-horse-hideo-komatsu). Here's my first Kusudama from 2018!
-
-{% include figure.html path="assets/img/origami.jpg" title="First Kusudama!" class="img-fluid rounded z-depth-1" width="20" %}
-
 ## Reading 
 
 This list will grow as I remember books and poetry I enjoyed.
@@ -32,4 +26,10 @@ This list will grow as I remember books and poetry I enjoyed.
   <summary> Autobiography of Red </summary>
   Anne Carson was my favourite poet for a very long time. She masters the balance between otherworldly poetry and grounding narration. Geryon's childhood has so many moments I automatically imagine tinged in sepia light. She models Geryon as a symbol for otherness but makes it an intensely relatable brand of otherness, in what Sam Anderson calls her classic "Carsonian distant closeness."
 </details>
+
+## Origami 
+
+I enjoy making Kusudamas. Someday I would love to make [Hideo Komatsu's horse](https://origami-art.us/instructions/209-horse-hideo-komatsu). Here's my first Kusudama from 2018!
+
+{% include figure.html path="assets/img/origami.jpg" title="First Kusudama!" class="img-fluid rounded z-depth-1" width="20" %}
 
