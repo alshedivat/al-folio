@@ -7,11 +7,11 @@ nav_num: 6
 nav: true
 ---
 
-I enjoy salsa/bachata, origami, reading (fiction/poetry/creative non-fiction), solving linguistics puzzles, watching movies and TV/shows, a wide variety of wordle variants, group-solving crosswords, browsing xkcd/smbc/PHD comics and occasionally, Calvin and Hobbes. I intend to get better at ice skating.
+I enjoy salsa/bachata, origami, reading (fiction/poetry/creative non-fiction), solving linguistics puzzles, watching movies and TV/shows, a wide variety of wordle variants, group-solving crosswords, browsing [xkcd](https://xkcd.com/)/[SMBC](https://www.smbc-comics.com/)/[PHD comics](https://phdcomics.com/)/[The Oatmeal](https://theoatmeal.com/) and occasionally, Calvin and Hobbes. I intend to get better at ice skating.
 
 #### Reading 
 
-This list will grow as I remember books and poetry I enjoyed.
+This list will grow as I remember books and poetry I particularly enjoyed.
 
 <details>
   <summary> We Are All Completely Beside Ourselves</summary>
