@@ -9,7 +9,7 @@ category: computer-assisted mathematics
 
 Implemented the generalized Seifert matrix algorithm from my summer research in Scala.
 
-[Link](https://github.com/Chinmaya-Kausik/py_knots) to the Github Repository.
+[Link](https://github.com/Chinmaya-Kausik/scala_knots) to the Github Repository.
 
 **Positives:** It was great to see my algorithm in action! Scala's static-typing makes a lot of errors very easy to spot. A certain number of things are far more intuitive with tail recursion and functional programming.
 
