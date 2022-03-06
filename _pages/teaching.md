@@ -18,3 +18,4 @@ nav: true
 Prerequisites: High School Calculus and High School Matrices.
   
 Verdict: The course was one of the more challenging ones at camp, but students still seemed to engage with the lectures. 
+  </details>
