@@ -4,6 +4,7 @@ permalink: /more/
 title: more
 description: other stuff about me.
 nav: true
+nav_num=6
 ---
 
 I enjoy salsa/bachata, origami, reading (fiction/poetry/creative non-fiction), solving linguistics puzzles, watching movies and TV/shows, a wide variety of wordle variants, group-solving crosswords, browsing xkcd/smbc/PHD comics and occasionally, Calvin and Hobbes. I intend to get better at ice skating.
