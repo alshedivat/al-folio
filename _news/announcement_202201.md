@@ -4,4 +4,4 @@ date: 2022-01-15 15:59:00-0400
 inline: true
 ---
 
-Our paper “CatCharger: Deploying In-motion Wireless Chargers in a Metropolitan Road Network via Categorization and Clustering of Vehicle Traffic” was accepted by IEEE Internet of Things Journal.
+Mr. Sourabh Yadav joined our lab. Welcome Sourabh! 
