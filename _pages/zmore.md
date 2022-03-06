@@ -6,13 +6,13 @@ description: other stuff about me.
 nav: true
 ---
 
-I enjoy salsa/bachata, origami, reading (fiction/poetry/creative non-fiction), solving linguistics puzzles, watching movies and TV/shows, a wide variety of wordle variants, group-solving crosswords. I intend to get better at ice skating.
+I enjoy salsa/bachata, origami, reading (fiction/poetry/creative non-fiction), solving linguistics puzzles, watching movies and TV/shows, a wide variety of wordle variants, group-solving crosswords, browsing XKCD/PHD comics. I intend to get better at ice skating.
 
 ## Origami 
 
-Here's my first Kusudama from 2018! 
+I enjoy making Kusudamas. Someday I would love to make [Hideo Komatsu's horse](https://origami-art.us/instructions/209-horse-hideo-komatsu). Here's my first Kusudama from 2018!
 
-{% include figure.html path="assets/img/origami.jpg" title="Kusudama" class="img-fluid rounded z-depth-1" %}
+{% include figure.html path="assets/img/origami.jpg" title="First Kusudama!" class="img-fluid rounded z-depth-1" %}
 
 ## Reading 
 
