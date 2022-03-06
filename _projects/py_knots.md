@@ -1,7 +1,7 @@
 ---
 layout: page
 title: py_knots
-description: Knot algorithms in Python.
+description: Knot algorithms in Python, 2022 (work in progress).
 img: assets/img/py_knots.png
 importance: 1
 category: computer-assisted mathematics
