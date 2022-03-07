@@ -9,6 +9,10 @@ ___
 
 ## recent seminar series
 
+**[Berkeley's International Genetically Engineered Machine (iGEM) Group](https://callink.berkeley.edu/organization/igematberkeley), University of California, Berkeley**, *BELLA: Berkeley Efficient Long-Read to Long-Read Aligner and Overlapper*, Spring 2022.
+
+**[Computer Science and Engineering Colloqium](https://engineering.ucsc.edu/departments/computer-science-and-engineering), University of California, Santa Cruz**, *Sparse Matrices and High-Performance Computing Meet Biology*, Spring 2022.
+
 **[Computer Engineering Colloqium](https://www.ece.ucsb.edu/events/all/2022/feb-16-wed-1000am-sparse-matrices-and-high-performance-computing-meet-biology), University of California, Santa Barbara**, *Sparse Matrices and High-Performance Computing Meet Biology*, Spring 2022.
 
 **[Invited Talk](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=73138), SIAM Parallel Programming minisymposium on “Graph Algorithms in the ExaScale Era”**, *Sparse Matrices and High-Performance Computing Meet Biology*, Spring 2022.
