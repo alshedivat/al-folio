@@ -7,22 +7,6 @@ nav: true
 ---
 ___
 
-## recent seminar series
-
-**[Berkeley's International Genetically Engineered Machine (iGEM) Group](https://callink.berkeley.edu/organization/igematberkeley), University of California, Berkeley**, *BELLA: Berkeley Efficient Long-Read to Long-Read Aligner and Overlapper*, Spring 2022.
-
-**[Computer Science and Engineering Colloqium](https://engineering.ucsc.edu/departments/computer-science-and-engineering), University of California, Santa Cruz**, *Sparse Matrices and High-Performance Computing Meet Biology*, Spring 2022.
-
-**[Computer Engineering Colloqium](https://www.ece.ucsb.edu/events/all/2022/feb-16-wed-1000am-sparse-matrices-and-high-performance-computing-meet-biology), University of California, Santa Barbara**, *Sparse Matrices and High-Performance Computing Meet Biology*, Spring 2022.
-
-**[SIAM Parallel Programming minisymposium on “Graph Algorithms in the ExaScale Era”](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=73138), SIAM Parallel Programming 2022**, *Sparse Matrices and High-Performance Computing Meet Biology*, Spring 2022.
-
-**[School of Computing and Information Systems Colloqium](https://memento.epfl.ch/event/ic-talk-sparse-matrices-and-high-performance-com-2/), The University of Melbourne**, *Sparse Matrices and High-Performance Computing Meet Biology*, Spring 2022.
-
-**[Cornell Bowers CIS Colloqium](https://cis.cornell.edu/cornell-computing-information-science), Cornell University**, *Sparse Matrices and High-Performance Computing Meet Biology*, Spring 2022.
-
-**[IC Seminar](https://memento.epfl.ch/event/ic-talk-sparse-matrices-and-high-performance-com-2/), EPFL IC**, *Sparse Matrices and High-Performance Computing Meet Biology*, Summer 2021.
-
 ## guest lectures
 
 **[Languages, Systems, and Data Seminar](https://lsd-ucsc.github.io/lsd-seminar/2021fa/), UC Santa Cruz**, *Sparse Matrices and High-Performance Computing Meet Biology*, Fall 2021.
