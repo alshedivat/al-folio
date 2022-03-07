@@ -21,13 +21,13 @@ ___
 
 **[Cornell Bowers CIS Colloqium](https://cis.cornell.edu/cornell-computing-information-science), Cornell University**, *Sparse Matrices and High-Performance Computing Meet Biology*, Spring 2022.
 
+**[IC Seminar](https://memento.epfl.ch/event/ic-talk-sparse-matrices-and-high-performance-com-2/), EPFL IC**, *Sparse Matrices and High-Performance Computing Meet Biology*, Summer 2021.
+
 ## guest lectures
 
 **[Languages, Systems, and Data Seminar](https://lsd-ucsc.github.io/lsd-seminar/2021fa/), UC Santa Cruz**, *Sparse Matrices and High-Performance Computing Meet Biology*, Fall 2021.
 
 [slides](https://drive.google.com/file/d/1YRL5HIorMkPQOcEiQ4lTJp6BRrVTN95B/view?usp=sharing)
-
-**[IC Seminar](https://memento.epfl.ch/event/ic-talk-sparse-matrices-and-high-performance-com-2/), EPFL IC**, *Sparse Matrices and High-Performance Computing Meet Biology*, Summer 2021.
 
 **[Applications of Parallel Computers](https://sites.google.com/lbl.gov/cs267-spr2021), UC Berkeley**: *Parallel Algorithms for De Novo Genome Assembly*, Spring 2021.
 
