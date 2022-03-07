@@ -23,6 +23,8 @@ ___
 
 **[IC Seminar](https://memento.epfl.ch/event/ic-talk-sparse-matrices-and-high-performance-com-2/), EPFL IC**, *Sparse Matrices and High-Performance Computing Meet Biology*, Summer 2021.
 
+___
+
 ## projects
 
 **10 years later: cloud computing is closing the performance gap:** Computational sciences, such as computational cosmology, provide an important pool of first-class, large-scale problems. Although scientists have historically relied on the massive computational resources of High-Performance Computing (HPC) systems to run their software, in the last decade cloud computing has gained popularity among scientists as an alternative to HPC. Despite the extensive literature comparing HPC and cloud systems and promising results, the question of whether cloud computing can match HPC performance for a wide range of scientific applications is still open, and the answer may lead to a better design of cloud systems to promote scientific computing in the cloud.
