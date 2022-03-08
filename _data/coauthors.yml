@@ -2,7 +2,6 @@
   - firstname: ["Zoe", "Z."]
     url: https://www.linkedin.com/in/zoedesimone/
 
-
 "Mermelstein":
   - firstname: ["Remy", "R."]
     url: https://www.linkedin.com/in/remy-mermelstein
@@ -10,7 +9,6 @@
 "Dogan":
   - firstname: ["Timur", "T.", "T. K.", "Timur Kamil"]
     url: https://aap.cornell.edu/people/timur-dogan
-
 
 "Natanian":
   - firstname: ["Jonathan", "J."]
@@ -23,21 +21,15 @@
 "Young":
   - firstname: ["Elizabeth", "Liz", "L."]
     url: https://www.linkedin.com/in/elizabethlynyoung/
-    
-    
+
 "Mokhtar":
   - firstname: ["Sarah", "S."]
-    url: https://architecture.mit.edu/student/sarah-mokhtar 
-    
-    
+    url: https://architecture.mit.edu/student/sarah-mokhtar
+
 "Chokhachian":
   - firstname: ["Ata", "A."]
-    url: https://www.arc.ed.tum.de/ai/team/mitarbeiter/ata-chokhachian/  
-    
-    
+    url: https://www.arc.ed.tum.de/ai/team/mitarbeiter/ata-chokhachian/
 
 "Reinhart":
   - firstname: ["Christoph", "C."]
-    url: https://architecture.mit.edu/faculty/christoph-reinhart 
-    
-    
+    url: https://architecture.mit.edu/faculty/christoph-reinhart

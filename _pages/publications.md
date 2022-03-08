@@ -9,7 +9,7 @@ nav: true
 
 <div class="publications">
 
-My publications in reverse-chronological order. As of {{ "now" | date: '%B %d, %Y' }}, my work received {{ site.data.gscholar.total_citations }} citations. Please find most up-to-date citation metrics via <a href="https://gscholar.patrickkastner.de">Google Scholar</a>.
+My publications in reverse-chronological order. As of {{ "now" | date: '%B %d, %Y' }}, my academic work received {{ site.data.gscholar.total_citations }} citations by the research community. Please find most up-to-date citation metrics via <a href="https://gscholar.patrickkastner.de">Google Scholar</a>.
 
 {% for y in page.years %}
  <h2 class="year">{{y}}</h2>
