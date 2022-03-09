@@ -4,7 +4,7 @@ group :jekyll_plugins do
     gem 'jekyll-archives'
     gem 'jekyll-feed'
     gem 'jekyll-github-metadata'
-    gem 'jekyll-paginate-v2'
+    gem 'jekyll-paginate'
     gem 'jekyll-sitemap'
     gem 'jekyll-target-blank'
     gem 'jekyll-twitter-plugin'
@@ -15,4 +15,5 @@ group :jekyll_plugins do
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
     gem 'jekyll-strapi'
+    gem 'jekyll-relative-links'
 end

@@ -155,12 +155,13 @@ plugins:
   - jekyll-archives
   - jekyll-feed
   - jekyll-github-metadata
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
   - jekyll-strapi
+  - jekyll-relative-links
 
 # Sitemap settings
 defaults:
@@ -172,7 +173,15 @@ defaults:
 github: [metadata]
 
 # -----------------------------------------------------------------------------
-# Jekyll Minifier
+# Jekyll Relative Links
+# -----------------------------------------------------------------------------
+
+relative_links:
+  enabled: true
+  collections: false
+
+# -----------------------------------------------------------------------------
+# Jekyll optimization
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
