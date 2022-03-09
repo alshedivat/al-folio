@@ -20,6 +20,10 @@ nav: true
   <summary markdown="span"> March 7 </summary>
   Outside of a day full of classes and talks, spent about 3 hours ironing out Q.1., which proved to be non-trivial, and discovered an error in my solution to Q.4. Eventually talked to a student who said they saw the first passage decomposition being used in Q.4, which worked out very nicely. Read about some practical issues with RL research to mentally prepare myself before launching back into reading Sutton/Barto and following Silver's RL course.
 </details>
+  <details>
+  <summary markdown="span"> March 8 </summary>
+  Wrote up my assignment, attended Math 626. We constructed the stationary distribution for an irreducible Markov chain with a positively recurrent state. Started talking about periods of Markov chains and aperiodic Makrov chains. Completed Chapter 3 of Sutton/Barto and reviewed chapter 2, added my questions to Workflowy. Alekh Agrawal et al's RL book seems way more mathematically sound and attractive. Once I get a general overview of things from Sutton/Barto and Silver, I'll go to that book.
+</details>
 </details>
 </details>
     
