@@ -22,7 +22,7 @@ nav: true
 </details>
   <details>
   <summary markdown="span"> March 8 </summary>
-  Wrote up and submitted my assignment, attended Math 626. We constructed the stationary distribution for an irreducible Markov chain with a positively recurrent state. Started talking about periods of Markov chains and aperiodic Makrov chains. Completed Chapter 3 of Sutton/Barto and reviewed chapter 2, added my questions to Workflowy. Alekh Agrawal et al's RL book seems way more mathematically sound and attractive. Once I get a general overview of things from Sutton/Barto and Silver, I'll go to that book.
+  Wrote up and submitted my assignment, attended Math 626. We constructed the stationary distribution for an irreducible Markov chain with a positively recurrent state. Started talking about periods of Markov chains and aperiodic Makrov chains. Completed Chapter 3 of Sutton/Barto and reviewed chapter 2, added my questions to Workflowy. Alekh Agarwal et al's RL book seems way more mathematically sound and attractive. Once I get a general overview of things from Sutton/Barto and Silver, I'll go to that book.
 </details>
 </details>
 </details>
