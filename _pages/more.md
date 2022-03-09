@@ -15,7 +15,7 @@ This list will grow as I remember books and poetry I particularly enjoyed.
 
 <details>
   <summary> We Are All Completely Beside Ourselves</summary>
-  Karen Joy Fowler's exploration of memory and the psyche in a wonderfully written maybe-family-drama that squarely avoids whatever trope you had in mind. The novel has a rich and syrupy but sharp undertone, and while the ending felt a bit forced in parts, it still leaves a lasting memory. The writing is immersive and easy-going, at times almost lyrical. A must-read for people who want a fresh voice.
+  Karen Joy Fowler's exploration of memory and the psyche in a wonderfully written maybe-family-drama that squarely whatever trope you had in mind. The novel has a rich and syrupy but sharp undertone, and while the ending felt a bit forced in parts, it still leaves a lasting memory. The writing is immersive and easy-going, at times almost lyrical. A must-read for people who want a fresh voice.
 </details>
 
 <details>
