@@ -51,6 +51,30 @@ blockquote {
   text-align: center;
 }
 
+// Card
+
+.card {
+  background-color: var(--global-card-bg-color);
+  
+  img {
+    width: 100%;
+  }
+
+  .card-title {
+    color: var(--global-text-color);
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
 // Citation
 .citation, .citation-number {
   color: var(--global-theme-color);
@@ -349,9 +373,6 @@ footer.sticky-bottom {
     img {
       width: 100%;
     }
-    .card-title {
-      color: $black-color;
-    }
   }
 
   .card-item {
@@ -364,7 +385,7 @@ footer.sticky-bottom {
     }
   }
 
-  .grid-item {
+  .grid-sizer, .grid-item {
     width: 250px;
     margin-bottom: 10px;
   }
