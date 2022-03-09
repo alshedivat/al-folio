@@ -39,7 +39,7 @@ $$^2$$ Boston University
     <div class="col-sm mt-3 mt-md-0">
         <div class="bbb">
             <i class="far fa-file-pdf"></i>
-            <a href="https://www-ens.iro.umontreal.ca/~puhachoi/SUPPL.pdf">Supplementary (23MB) </a>
+            <a href="https://drive.google.com/file/d/1UlV73XXFZWpBlQz2VEowgZZN-qC15dzH/view?usp=sharing">Supplementary (105MB) </a>
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
