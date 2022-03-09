@@ -63,9 +63,9 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-#blog_name: प्रज्ञ | prajña   # your blog must have a name for it to show up in the nav bar
-#blog_description: observe, question, learn, and change
-#permalink: /blog/:year/:title/
+blog_name: प्रज्ञ | prajña   # your blog must have a name for it to show up in the nav bar
+blog_description: observe, question, learn, and change
+permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
