@@ -89,8 +89,11 @@ blog_description: Long life learner's journey
 permalink: /blog/:year/:title/
 
 # Pagination
-pagination:
-  enabled: true
+# pagination:
+#   enabled: true
+
+paginate: 3
+paginate_path: "/blog/:num/"
 
 # Comments
 disqus_shortname: gung_satya # put your disqus shortname
