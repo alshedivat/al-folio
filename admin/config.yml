@@ -3,7 +3,7 @@ backend:
   name: github
   repo: gungsatya/gungsatya.github.io # Path to your GitHub repository
   # optional, defaults to master
-  branch: main
+  # branch: main
 media_folder: "assets/uploads"
 collections:
   - name: "blog"
