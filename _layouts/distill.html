@@ -22,16 +22,11 @@
       "description": "{{ page.description }}",
       "published": "{{ page.date | date: '%B %-d, %Y' }}",
       "authors": [
-        {% for author in page.authors -%}
+        {% for author in site.authors | where: 'name', page.author %}
         {
           "author": "{{ author.name }}",
-          "authorURL": "{{ author.url }}",
-          "affiliations": [
-            {
-              "name": "{{ author.affiliations.name }}",
-              "url": "{{ author.affiliations.url }}"
-            }
-          ]
+          "authorURL": "{{ author.site_url }}",
+          "affiliation": "{{ author.affiliation }}"
         }{% if forloop.last == false %},{% endif %}
         {% endfor %}
       ],
@@ -68,23 +63,12 @@
       <d-byline></d-byline>
 
       <d-article>
-        {% if page.toc -%}
         <d-contents>
           <nav class="l-text figcaption">
-          <h3>Contents</h3>
-            {% for section in page.toc -%}
-            <div><a href="#{{ section.name | slugify }}">{{ section.name }}</a></div>
-            {% if section.subsections -%}
-            <ul>
-              {% for subsection in section.subsections -%}
-              <li><a href="#{{ subsection.name | slugify }}">{{ subsection.name }}</a></li>
-              {% endfor %}
-            </ul>
-            {%- endif -%}
-            {%- endfor %}
+          <h3>Daftar Isi</h3>
+            {% toc %}
           </nav>
         </d-contents>
-        {%- endif %}
 
         {{ content }}
       </d-article>

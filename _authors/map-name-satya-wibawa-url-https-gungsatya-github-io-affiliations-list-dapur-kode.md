@@ -1,6 +1,5 @@
 ---
 name: Satya Wibawa
-url: https://gungsatya.github.io
-affiliations:
-  - Dapur Kode
+site_url: https://gungsatya.github.io
+affiliation: Dapur Kode
 ---

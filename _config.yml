@@ -104,6 +104,7 @@ disqus_shortname: gung_satya # put your disqus shortname
 # -----------------------------------------------------------------------------
 
 collections:
+  authors:
   news:
     defaults:
       layout: post
@@ -158,6 +159,7 @@ plugins:
   - jemoji
   - jekyll-strapi
   - jekyll-relative-links
+  - jekyll-toc
 
 # Sitemap settings
 defaults:

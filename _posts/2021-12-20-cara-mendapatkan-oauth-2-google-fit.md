@@ -3,21 +3,8 @@ layout: distill
 title: Cara Mendapatkan OAuth 2.0 dari Google Fit
 description: Mengatur autensikasi aplikasi terhadap Google Fit
 date: 2021-12-20
-authors:
-  - Satya Wibawa
-toc:
-  - name: Pendahuluan
-  - name: 1 Masuk ke dalam Google Console
-  - name: 2 Buat project baru
-  - name: 3 Sesuaikan data aplikasi
-  - name: 4 Konfirmasi project
-  - name: 5 Mengaktifkan Google Fit API
-  - name: 6 Buka halaman credentials
-  - name: 7 Membuat credentials
-  - name: 8 Atur tipe pengguna
-  - name: 9 Mengatur consent screen
-  - name: 10 Membuat OAuth Client ID
-  - name: 11 Mengunduh data credential
+authors: Satya Wibawa
+toc: true
 ---
 
 ## Pendahuluan
