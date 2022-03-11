@@ -7,7 +7,7 @@
 SRC_BRANCH="master"
 DEPLOY_BRANCH="gh-pages"
 
-USAGE_MSG="usage: deploy [-h|--help] [-u|--user] [-s|--src SRC_BRANCH] [-d|--deploy DEPLOY_BRANCH]"
+USAGE_MSG="usage: deploy [-h|--help] [-u|--user] [-s|--src SRC_BRANCH] [-d|--deploy DEPLOY_BRANCH] [--verbose] [--no-push]"
 
 while [[ $# > 0 ]]; do
     key="$1"
@@ -20,7 +20,6 @@ while [[ $# > 0 ]]; do
         -u|--user)
         SRC_BRANCH="source"
         DEPLOY_BRANCH="master"
-        shift
         ;;
         -s|--src)
         SRC_BRANCH="$2"
@@ -30,10 +29,16 @@ while [[ $# > 0 ]]; do
         DEPLOY_BRANCH="$2"
         shift
         ;;
+        --verbose)
+        set -x
+        ;;
+        --no-push)
+        NO_PUSH="--no-push"
+        ;;
         *)
-        echo "Option $1 is unknown."
-        echo $USAGE_MSG
-        exit 0
+        echo "Option $1 is unknown." >&2
+        echo $USAGE_MSG >&2
+        exit 1
         ;;
     esac
     shift
@@ -58,6 +63,15 @@ if ! git diff-index --quiet HEAD --; then
     echo "Changes to the following files are uncommitted:"
     git diff-index --name-only HEAD --
     echo "Please commit the changes before proceeding."
+    echo "Aborting."
+    [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
+fi
+
+# Check if there are any untracked files
+if ! test -z "$(git ls-files --exclude-standard --others)"; then
+    echo "There are untracked files:"
+    git ls-files --exclude-standard --others
+    echo "Please commit those files or stash them before proceeding."
     echo "Aborting."
     [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
 fi
@@ -88,7 +102,7 @@ rm -R _site/
 # Push to DEPLOY_BRANCH
 git add -fA
 git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
-git push -f -q origin $DEPLOY_BRANCH
+[[ ${NO_PUSH} ]] || git push -f -q origin $DEPLOY_BRANCH
 
 # Move back to SRC_BRANCH
 git checkout $SRC_BRANCH
