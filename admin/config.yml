@@ -3,7 +3,8 @@ backend:
   name: github
   repo: gungsatya/gungsatya.github.io # Path to your GitHub repository
   # optional, defaults to master
-  # branch: main
+  branch: master
+  site_domain: pensive-jang-bb39ae.netlify.app
 media_folder: "assets/uploads"
 collections:
   - name: "blog"
