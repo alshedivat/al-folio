@@ -133,6 +133,7 @@ highlighter: rouge
 highlight_theme_light: github # https://github.com/jwarby/jekyll-pygments-themes
 highlight_theme_dark: native # https://github.com/jwarby/jekyll-pygments-themes
 kramdown:
+  parse_block_html: true
   input: GFM
   syntax_highlighter_opts:
     css_class: "highlight"
