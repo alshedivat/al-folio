@@ -160,7 +160,6 @@ plugins:
   - jemoji
   - jekyll-strapi
   - jekyll-relative-links
-  - jekyll-toc
 
 # Sitemap settings
 defaults:

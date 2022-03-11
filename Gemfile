@@ -15,5 +15,4 @@ group :jekyll_plugins do
     gem 'htmlbeautifier'
     gem 'jekyll-strapi'
     gem 'jekyll-relative-links'
-    gem 'jekyll-toc'
 end
