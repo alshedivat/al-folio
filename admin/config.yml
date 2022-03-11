@@ -13,7 +13,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
-      preview: false
+      preview: true
     fields:
       - {
           label: "Layout",
@@ -34,6 +34,12 @@ collections:
           value_field: "name",
         }
       - { label: "TOC", name: "toc", widget: "hidden", default: true }
+      - {
+          label: "Comments",
+          name: "comments",
+          widget: "boolean",
+          default: true,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "authors"
     label: "Authors"
@@ -60,3 +66,43 @@ collections:
       preview: false
     fields:
       - { label: "Name", name: "name", widget: "string" }
+  - name: "news"
+    label: "News"
+    folder: "_news/"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    create: true
+    editor:
+      preview: true
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Inline", name: "inline", widget: "boolean", default: true }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "projects"
+    label: "Projects"
+    folder: "_projects/"
+    slug: "{{year}}-{{slug}}"
+    create: true
+    editor:
+      preview: true
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Date", name: "date", widget: "string" }
+      - { label: "Image", name: "img", widget: "image", allow_multiple: false }
+      - {
+          label: "Importance",
+          name: "importance",
+          widget: "number",
+          min: 0,
+          max: 5,
+        }
+      - {
+          label: "Category",
+          name: "category",
+          widget: "select",
+          options: ["work", "fun"],
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
