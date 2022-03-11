@@ -1,7 +1,9 @@
 # config.yml
 backend:
-  name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  name: github
+  repo: gungsatya/gungsatya.github.io # Path to your GitHub repository
+  # optional, defaults to master
+  # branch: main
 media_folder: "assets/uploads"
 collections:
   - name: "blog"
