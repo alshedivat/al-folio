@@ -29,8 +29,8 @@ collections:
           name: "author",
           widget: "relation",
           collection: "authors",
-          display_fields: [name],
-          search_fields: [name],
+          display_fields: [display_name],
+          search_fields: [display_name],
           value_field: "name",
         }
       - { label: "Body", name: "body", widget: "markdown" }
@@ -42,14 +42,15 @@ collections:
       preview: false
     fields:
       - { label: "Name", name: "name", widget: "string" }
+      - { label: "Display Name", name: "display_name", widget: "string" }
       - { label: "URL", name: "url", widget: "string" }
       - {
           label: "Affiliations",
           name: "affiliations",
           widget: "relation",
           collection: "authors",
-          display_fields: [name],
-          search_fields: [name],
+          display_fields: [display_name],
+          search_fields: [display_name],
           value_field: "name",
           multiple: true,
         }
@@ -61,3 +62,4 @@ collections:
       preview: false
     fields:
       - { label: "Name", name: "name", widget: "string" }
+      - { label: "Display Name", name: "display_name", widget: "string" }
