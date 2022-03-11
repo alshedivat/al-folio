@@ -7,8 +7,8 @@ backend:
   site_domain: pensive-jang-bb39ae.netlify.app
 media_folder: "assets/uploads"
 collections:
-  - name: "blog"
-    label: "Blog"
+  - name: "posts"
+    label: "Posts"
     folder: "_posts/"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -18,21 +18,22 @@ collections:
       - {
           label: "Layout",
           name: "layout",
-          widget: "hidden",
-          default: "distill",
+          widget: "select",
+          options: ["distill", "post"],
+          default: "post",
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - {
-          label: "Authors",
-          name: "authors",
+          label: "Author",
+          name: "author",
           widget: "relation",
           collection: "authors",
           search_fields: ["name"],
           value_field: "name",
-          multiple: true,
         }
+      - { label: "TOC", name: "toc", widget: "hidden", default: true }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "authors"
     label: "Authors"
@@ -42,15 +43,14 @@ collections:
       preview: false
     fields:
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Site URL", name: "site_url", widget: "string" }
       - {
-          label: "Affiliations",
-          name: "affiliations",
+          label: "Affiliation",
+          name: "affiliation",
           widget: "relation",
           collection: "affiliations",
           search_fields: ["name"],
           value_field: "name",
-          multiple: true,
         }
   - name: "affiliations"
     label: "Affiliations"
