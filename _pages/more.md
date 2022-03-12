@@ -7,7 +7,7 @@ nav_num: 6
 nav: true
 ---
 
-I enjoy 
+Outside of math and outreach, I enjoy a large variety of things. Of course, I'm only focusing on a few of them at any given time.
 
 * Salsa/Bachata and trying out new dance forms (excited about electroswing right now!)
 * Origami
