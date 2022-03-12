@@ -14,7 +14,8 @@ I enjoy
 * Reading fiction, poetry and creative non-fiction (major highlights below)
 * Playing board games like Catan, Spirit Island and Betrayal at the House on the Hill
 * Solving [linguistics puzzles](https://ioling.org/)
-* Watching movies and TV shows and thinking, reading and learning about the creative process and critique of literature and cinema
+* Watching movies and TV shows
+* Thinking, reading and learning about the creative process and critique of literature and cinema 
 * A wide variety of wordle variants and group-solving crosswords
 * Browsing [xkcd](https://xkcd.com/)/[SMBC](https://www.smbc-comics.com/)/[PHD comics](https://phdcomics.com/)/[The Oatmeal](https://theoatmeal.com/) and occasionally, Calvin and Hobbes 
 * Ice skating, which I'm a complete beginnner at
