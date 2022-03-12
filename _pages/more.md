@@ -9,9 +9,9 @@ nav: true
 
 I enjoy 
 
-* Salsa/Bachata
+* Salsa/Bachata and trying out new dance forms (excited about electroswing right now!)
 * Origami
-* Reading fiction, poetry and creative non-fiction)
+* Reading fiction, poetry and creative non-fiction (major highlights below).
 * Playing board games like Catan, Spirit Island and Betrayal at the House on the Hill
 * Solving [linguistics puzzles](https://ioling.org/)
 * Watching movies and TV shows and thinking, reading and learning about the creative process and critique of literature and cinema
