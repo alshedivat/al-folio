@@ -7,7 +7,7 @@ nav_num: 6
 nav: true
 ---
 
-Outside of math and outreach, I enjoy a large variety of things. Of course, I'm only focusing on a few of them at any given time.
+As an excitable person, I have developed an interest in a large variety of things outside of math and outreach. Of course, at any given point, I'm engaged in only a small subset of them, but I'm happy to interact with people about any of these (and more).
 
 * Salsa/Bachata and trying out new dance forms (excited about electroswing right now!)
 * Origami
@@ -15,7 +15,7 @@ Outside of math and outreach, I enjoy a large variety of things. Of course, I'm 
 * Playing board games like Catan, Spirit Island and Betrayal at the House on the Hill
 * Solving [linguistics puzzles](https://ioling.org/)
 * Watching movies and TV shows
-* Thinking, reading and learning about the creative process and critique of literature and cinema 
+* Thinking, reading and learning about the creative process and critique of literature and cinema: this includes film theory, "making of" pieces, talking about what makes certain poems or short stories work, and more.
 * A wide variety of wordle variants and group-solving crosswords
 * Browsing [xkcd](https://xkcd.com/)/[SMBC](https://www.smbc-comics.com/)/[PHD comics](https://phdcomics.com/)/[The Oatmeal](https://theoatmeal.com/) and occasionally, Calvin and Hobbes 
 * Ice skating, which I'm a complete beginnner at
