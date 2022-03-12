@@ -7,7 +7,7 @@ nav_num: 6
 nav: true
 ---
 
-I enjoy salsa/bachata, origami, reading (fiction/poetry/creative non-fiction), playing board games like Catan/Spirit Island/Betrayal, solving [linguistics puzzles](https://ioling.org/), watching movies and TV/shows, thinking/reading/learning about the creative process and critique of literature and cinema, a wide variety of wordle variants, group-solving crosswords, browsing [xkcd](https://xkcd.com/)/[SMBC](https://www.smbc-comics.com/)/[PHD comics](https://phdcomics.com/)/[The Oatmeal](https://theoatmeal.com/) and occasionally, Calvin and Hobbes. I intend to get better at ice skating.
+I enjoy salsa/bachata, origami, reading (fiction/poetry/creative non-fiction), playing board games like Catan/Spirit Island/Betrayal, solving [linguistics puzzles](https://ioling.org/), watching movies and TV shows, thinking, reading and learning about the creative process and critique of literature and cinema, a wide variety of wordle variants, group-solving crosswords, browsing [xkcd](https://xkcd.com/)/[SMBC](https://www.smbc-comics.com/)/[PHD comics](https://phdcomics.com/)/[The Oatmeal](https://theoatmeal.com/) and occasionally, Calvin and Hobbes. I intend to get better at ice skating.
 
 #### Reading 
 
