@@ -1,7 +1,6 @@
 ---
 layout: about
 title: about
-permalink: /
 subtitle: <p> MS(Reserach) @ IIT Dharwad <p>
 
 profile:
