@@ -7,7 +7,7 @@ nav_num: 6
 nav: true
 ---
 
-As an excitable person, I have developed an interest in a large variety of things outside of math and outreach. Of course, at any given point, I'm engaged in only a small subset of them, but I'm happy to interact with people about any of these (and be exposed to new things).
+Here are some things other than math/CS and outreach that interest me. While I'm engaged in only a small subset of them at any given point, I'm happy to interact with people about any of these (and get exposed to new things).
 
 * Salsa/Bachata and trying out new dance forms (excited about electroswing right now!)
 * Origami
