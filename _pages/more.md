@@ -21,7 +21,7 @@ I enjoy
 
 #### Reading 
 
-This list will grow as I remember books and poetry I particularly enjoyed.
+This list will grow as I remember books and poetry I particularly enjoyed
 
 <details>
   <summary> We Are All Completely Beside Ourselves</summary>
