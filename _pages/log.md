@@ -26,7 +26,7 @@ nav: true
 </details>
   <details>
   <summary markdown="span"> March 9, 10 and 11 </summary>
-  Corrected mistakes in my assignment, almost finished the Math 597 assignment due next week. Read part of Rishi Sonthalia's TreeRep paper. Love how they're leveraging the finite combinatorial possiblities in a tree stemming from Gromov products! Will finish this over the weekend. Read a bulk of chapter 1 of the AJKS RL theory book, finished chapter 4 of Sutton/Barto and went through some of chapter 5. Glanced at Chen and Poor's paper on learning mixtures of linear dynamical systems sample efficiently, which seems like a fun problem! Also found Vidyasagar's notes on RL, which seem nice. 
+  Corrected mistakes in my Math 626 assignment, almost finished the Math 597 assignment due next week. Read part of Rishi Sonthalia's TreeRep paper. Love how they're leveraging the finite combinatorial possiblities in a tree stemming from Gromov products! Will finish this over the weekend. Read a bulk of chapter 1 of the AJKS RL theory book, finished chapter 4 of Sutton/Barto and went through some of chapter 5. Glanced at Chen and Poor's paper on learning mixtures of linear dynamical systems sample efficiently, which seems like a fun problem! Also found Vidyasagar's notes on RL, which seem nice. Talked to a few more people about my changing interests, got more advice and got greenlighted by some relevant entities for exploring RL and statistical learning theory.
 </details>
 </details>
 </details>
