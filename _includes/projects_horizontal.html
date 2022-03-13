@@ -6,10 +6,10 @@
   {%- endif -%}
     <div class="card hoverable">
       <div class="row g-0">
-        {%- if project.img -%}
+        {%- if project.thumbnail -%}
         <div class="card-img col-md-6">
           {% responsive_image_block %}
-            path: {{ project.img }}
+            path: {{ project.thumbnail }}
             alt: "project thumbnail"
           {% endresponsive_image_block %}
         </div>

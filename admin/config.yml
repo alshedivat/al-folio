@@ -24,14 +24,7 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Tags", name: "tags", widget: "string", required: false }
-      - {
-          label: "Categories",
-          name: "categories",
-          widget: "string",
-          required: false,
-        }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Publish Date", name: "date", widget: "date" }
       - {
           label: "Author",
           name: "author",
@@ -39,6 +32,7 @@ collections:
           collection: "authors",
           search_fields: ["name"],
           value_field: "name",
+          default: "Satya Wibawa",
         }
       - { label: "TOC", name: "toc", widget: "hidden", default: true }
       - {
@@ -46,6 +40,13 @@ collections:
           name: "comments",
           widget: "boolean",
           default: true,
+        }
+      - { label: "Tags", name: "tags", widget: "string", required: false }
+      - {
+          label: "Categories",
+          name: "categories",
+          widget: "string",
+          required: false,
         }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "authors"
@@ -97,8 +98,13 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Date", name: "date", widget: "string" }
-      - { label: "Image", name: "img", widget: "image", allow_multiple: false }
+      - { label: "Date", name: "date", widget: "date" }
+      - {
+          label: "Image",
+          name: "thumbnail",
+          widget: "image",
+          allow_multiple: false,
+        }
       - {
           label: "Importance",
           name: "importance",
