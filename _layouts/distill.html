@@ -22,7 +22,8 @@
       "description": "{{ page.description }}",
       "published": "{{ page.date | date: '%B %-d, %Y' }}",
       "authors": [
-        {% for author in site.authors | where: 'name', page.author %}
+        {% assign filteredAuthors = site.authors | where: 'name', page.author %}
+        {% for author in filteredAuthors %}
         {
           "author": "{{ author.name }}",
           "authorURL": "{{ author.site_url }}",

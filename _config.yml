@@ -85,7 +85,7 @@ panelbear_analytics: # panelbear analytics site ID (format: XXXXXXXXX)
 # -----------------------------------------------------------------------------
 
 blog_name: satya-blog # your blog must have a name for it to show up in the nav bar
-blog_description: Long life learner's journey
+blog_description: long life learner's journey
 permalink: /blog/:year/:title/
 
 # Pagination
