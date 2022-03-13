@@ -8,10 +8,7 @@
       <div class="row g-0">
         {%- if project.thumbnail -%}
         <div class="card-img col-md-6">
-          {% responsive_image_block %}
-            path: {{ project.thumbnail }}
-            alt: "project thumbnail"
-          {% endresponsive_image_block %}
+          <img src="{{ project.thumbnail  }}" class="img-fluid z-depth-1 rounded" alt="project thumbnail">
         </div>
         <div class="col-md-6">
         {%- else -%}
