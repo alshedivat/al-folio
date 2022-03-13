@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: some computational projects I have initiated/been involved in, along with my thoughts on them.
+description: some computational projects that I have initiated/been involved in, along with post-mortems.
 nav_num: 1
 nav: true
 display_categories: [computer-assisted mathematics, machine learning/data analysis]
