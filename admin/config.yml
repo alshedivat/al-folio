@@ -13,7 +13,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
-      preview: true
+      preview: false
     fields:
       - {
           label: "Layout",
@@ -24,6 +24,13 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "string", required: false }
+      - {
+          label: "Categories",
+          name: "categories",
+          widget: "string",
+          required: false,
+        }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - {
           label: "Author",
@@ -72,7 +79,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string" }
@@ -85,7 +92,7 @@ collections:
     slug: "{{year}}-{{slug}}"
     create: true
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
       - { label: "Title", name: "title", widget: "string" }
