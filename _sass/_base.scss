@@ -8,6 +8,13 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
 }
 
+div.lala {
+  color: var(--global-divider-color);
+  border-top: thin solid;
+  border-bottom: thin solid;
+  width: 60%;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -55,7 +62,7 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
-  
+
   img {
     width: 100%;
   }
@@ -89,7 +96,6 @@ blockquote {
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
     p {
       display: inline-block;
       margin: 0;
@@ -119,7 +125,7 @@ blockquote {
 }
 
 
-// Navbar customization
+// Navbar customizglobal-bg-coloration
 
 .navbar {
   box-shadow: none;
@@ -364,7 +370,7 @@ footer.sticky-bottom {
 
     &:hover {
       .card-title {
-        color: var(--global-theme-color);
+        color: var(--global-hover-color);
       }
     }
   }
@@ -439,6 +445,7 @@ footer.sticky-bottom {
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
+          color: var(--global-bg-color) !important;
           padding-left: 1rem;
           padding-right: 1rem;
           a {
@@ -465,14 +472,14 @@ footer.sticky-bottom {
           }
         }
         > em {
-          border-bottom: 1px solid;
+          // border-bottom: 1px solid;
           font-style: normal;
         }
       }
       .links {
         a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
+          color: var(--global-button-color);
+          border: 1px solid var(--global-button-color);
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
@@ -560,7 +567,7 @@ html.transition *:after {
 .post{
   .post-meta{
     color: var(--global-text-color-light);
-    font-size: 0.875rem;
+    font-size: 0.875 rem;
     margin-bottom: 0;
   }
   .post-tags{

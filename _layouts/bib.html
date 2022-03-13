@@ -2,7 +2,7 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr">
+        <div class="col-sm-1 abbr">
         {%- if entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%}
           <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
@@ -13,14 +13,8 @@
         </div>
 
         <!-- Entry bib key -->
-        <div id="{{entry.key}}" class="col-sm-8">
-        {% if entry.type == "thesis" -%}
-          {{reference}}
-        {%- else %}
-          <!-- Title -->
-          <div class="title">{{entry.title}}</div>
+        <div id="{{entry.key}}" class="col-sm-9">
           <!-- Author -->
-          <div class="author">
           {%- for author in entry.author_array -%}
             {%- assign author_is_self = false -%}
             {%- if author.last == site.scholar.last_name%}
@@ -28,6 +22,7 @@
                 {%- assign author_is_self = true -%}
               {%- endif -%}
             {%- endif -%}
+
             {%- assign coauthor_url = nil -%}
             {%- if site.data.coauthors[author.last] -%}
               {%- for coauthor in site.data.coauthors[author.last] -%}
@@ -37,12 +32,12 @@
                 {%- endif -%}
               {%- endfor -%}
             {%- endif -%}
-            
+
             {%- if forloop.length == 1 -%}
               {%- if author_is_self %}
-                <em>{{author.last}}, {{author.first}}</em>
+                <em>{{author.last}}, {{author.first}}</em>.
               {%- else -%}
-                {{author.last}}, {{author.first}}
+                {{author.last}}, {{author.first}}.
               {%- endif -%}
             {%- else -%}
               {%- unless forloop.last -%}
@@ -57,37 +52,30 @@
                 {%- endif -%}
               {%- else -%}
                 {% if author_is_self -%}
-                  and <em>{{author.last}}, {{author.first}}</em>
+                  and <em>{{author.last}}, {{author.first}}</em>.
                 {% else -%}
                   {%- if coauthor_url -%}
-                    and <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>
+                    and <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>.
                   {% else -%}
-                    and {{author.last}}, {{author.first}}
+                    and {{author.last}}, {{author.first}}.
                   {%- endif -%}
                 {%- endif -%}
               {%- endunless -%}
             {%- endif -%}
           {%- endfor %}
-          </div>
+          {{entry.year}}.
+          {{entry.title}}.
+          {%- if entry.type == "Poster presentation" or entry.type == "Conference talk" -%}
+            {{ " " }}{{ entry.note }}.
+          {%- endif -%}
+          {%- if entry.type == "thesis" -%}
+            {{ " " }}{{ entry.note }},{{ " " }} {{ entry.school }}.
+          {%- endif -%}
+          {%- if entry.type == "refereed proceedings" -%}
+            {{ " " }} In {{ " " }} {{ entry.booktitle }}.
+          {%- endif -%}
 
-          <!-- Journal/Book title and date -->
-          {% if entry.type == "article" -%}
-            {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
-          {%- elsif entry.type == "inproceedings" -%}
-            {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
-          {%- endif -%}
-          {%- if entry.month -%}
-            {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
-          {%- endif -%}
-          {%- if entry.year -%}
-            {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
-          {%- endif -%}
-          {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
-          <div class="periodical">
-            {{ periodical | strip }}
-          </div>
-        {%- endif %}
-        
+
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}
@@ -106,7 +94,7 @@
             {% if entry.pdf contains '://' -%}
             <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
             {%- else -%}
-            <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_new">PDF</a>
             {%- endif %}
           {%- endif %}
           {%- if entry.supp %}

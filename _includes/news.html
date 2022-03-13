@@ -1,25 +1,29 @@
-          
+
           <div class="news">
-            <h2>news</h2>
-            {% if site.news != blank -%} 
+            <h2>Recent:</h2>
+            {% if site.news != blank -%}
             <div class="table-responsive">
               <table class="table table-sm table-borderless">
-              {%- assign news = site.news | reverse -%} 
-              {% for item in news limit: site.news_limit %} 
+              {%- assign news = site.news | reverse -%}
+              {% for item in news limit: site.news_limit %}
                 <tr>
-                  <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+                  {%- if item.day_unknown==false -%}
+                  <th scope="row">{{ item.date | date: "%b %d, %Y" }}</th>
+                  {%- else -%}
+                  <th scope="row">{{ item.date | date: "%b %Y" }}</th>
+                  {%- endif %}
                   <td>
-                    {% if item.inline -%} 
+                    {% if item.inline -%}
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                    {%- else -%} 
+                    {%- else -%}
                       <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                    {%- endif %} 
+                    {%- endif %}
                   </td>
                 </tr>
-              {%- endfor %} 
+              {%- endfor %}
               </table>
             </div>
-          {%- else -%} 
+          {%- else -%}
             <p>No news so far...</p>
-          {%- endif %} 
+          {%- endif %}
           </div>
