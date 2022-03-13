@@ -41,5 +41,5 @@ Check out my [projects](projects) (along with post-mortems) and [interests](more
 4. Geometric and topological insights for data analysis and machine learning (for example, non-positive curvature representation learning).
 5. Algorithmic fairness.
 
-**Collaborators and mentors**
-This list is highly incomplete and unordered, but I have greatly benefitted from interacting with and learning from the following amazing people: Prof. Alex Wright, Prof. Siddhartha Gadgil, Prof. Subhojoy Gupta, Prof. Stefan Friedl, Jos&eacute Pedro Quintanilha, Miraya Poddar-Agrawal, Julian D'Costa, Abishek Rajan. 
+**Collaborators and mentors:**
+This list is highly incomplete and unordered, but I have greatly benefitted from interacting with and learning from the following amazing people: Prof. Alex Wright, Prof. Siddhartha Gadgil, Prof. Subhojoy Gupta, Prof. Stefan Friedl, Jose Pedro Quintanilha, Miraya Poddar-Agrawal, Julian D'Costa, Abishek Rajan. 
