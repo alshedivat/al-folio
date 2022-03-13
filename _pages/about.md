@@ -37,7 +37,7 @@ Check out my [projects](projects) (along with post-mortems) and [interests](more
 **What do I want to learn about in the future?**
 1. Causality and its interaction with sequential decision making and RL.
 2. Natural Language Processing.
-3. Using insights from machine learning for biology. In a specific example, how to learning a hierarchical or causal structure from genomics data.
+3. Using insights from machine learning for biology. In a specific example, learning a hierarchical or causal structure from genomics data.
 4. Geometric and topological insights for data analysis and machine learning (for example, non-positive curvature representation learning).
 5. Algorithmic fairness.
 
