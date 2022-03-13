@@ -35,11 +35,11 @@ Check out my [projects](projects) (along with post-mortems) and [interests](more
 * Fleshing out ideas for more academic communities like Monsoon Math.
 
 **What do I want to learn about in the future?**
-1. Causality and its interaction with sequential decision making and RL.
-2. Natural Language Processing.
-3. Using insights from machine learning for biology. In a specific example, learning a hierarchical or causal structure from genomics data.
-4. Geometric and topological insights for data analysis and machine learning (for example, non-positive curvature representation learning).
-5. Algorithmic fairness.
+* Causality and its interaction with sequential decision making and RL.
+* Geometric and topological insights for data analysis and machine learning (for example, non-positive curvature representation learning).
+* Natural Language Processing.
+* Using insights from machine learning for biology. In a specific example, learning a hierarchical or causal structure from genomics data.
+* Algorithmic fairness.
 
 **Collaborators and mentors:**
-This list is highly incomplete and unordered, but I have greatly benefitted from interacting with and learning from the following amazing people: Prof. Alex Wright, Prof. Siddhartha Gadgil, Prof. Subhojoy Gupta, Prof. Stefan Friedl, Jose Pedro Quintanilha, Miraya Poddar-Agrawal, Julian D'Costa, Abishek Rajan. 
+This list is highly incomplete and unordered, but I have greatly benefitted from interacting with and learning from the following amazing people - Prof. Alex Wright, Prof. Siddhartha Gadgil, Prof. Subhojoy Gupta, Prof. Stefan Friedl, Jose Pedro Quintanilha, Miraya Poddar-Agrawal, Julian D'Costa, Abishek Rajan. 
