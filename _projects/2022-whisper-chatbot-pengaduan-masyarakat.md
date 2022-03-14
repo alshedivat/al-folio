@@ -7,11 +7,12 @@ thumbnail: /assets/uploads/photo_2018-05-22_21-47-02.jpg
 importance: 1
 category: work
 ---
-{:toc}
+
+<nav id="toc" data-toggle="toc"></nav>
 
 ## Latar Belakang
 
-Whisper adalah aplikasi yang saya buat untuk memenuhi syarat dalam menyelesaikan pendidikan S1 saya. Saya merancang sebuah aplikasi chatbot "berbasis aturan" guna menjembatani aspirasi masyarakat yang disimpan dan diregistrasi langsung kepada pemerintah. Aplikasi ini kemudian saya beri nama "Whisper". 
+Whisper adalah aplikasi yang saya buat untuk memenuhi syarat dalam menyelesaikan pendidikan S1 saya. Saya merancang sebuah aplikasi chatbot[^1] "berbasis aturan" guna menjembatani aspirasi masyarakat yang disimpan dan diregistrasi langsung kepada pemerintah. Aplikasi ini kemudian saya beri nama "Whisper".
 {: .text-justify }
 
 ## Mekanisme Aplikasi
@@ -21,7 +22,7 @@ Whisper adalah aplikasi yang saya buat untuk memenuhi syarat dalam menyelesaikan
     Alur mekanisme Whisper
 </div>
 
-Whisper memiliki 2 modul aplikasi yaitu aplikasi chatbot pada Telegram, dan aplikasi website untuk pemerintah. Masyarakat yang ingin mengadukan permasalah mengirim pesan pengaduan  pada aplikasi chatbot Whisper. Pesan tersebut diolah menggunakan bahasa pemrograman Python dan disimpan pada basis data MySQL. Pengaduan yang dibuat tadi akan diregistrasi dengan nomor pengaduan Nomor pengaduan ini nantinya akan digunakan oleh masyarakat untuk memonitor apakah pengaduannya telah disampaikan kepada pemerintah yang terkait. Pemerintah yang terkait dapat melihat kumpulan pengaduan masyarakat melalui aplikasi website.
+Whisper memiliki 2 modul aplikasi yaitu aplikasi chatbot[^1] pada Telegram, dan aplikasi website untuk pemerintah. Masyarakat yang ingin mengadukan permasalah mengirim pesan pengaduan  pada aplikasi chatbot[^1] Whisper. Pesan tersebut diolah menggunakan bahasa pemrograman Python dan disimpan pada basis data MySQL. Pengaduan yang dibuat tadi akan diregistrasi dengan nomor pengaduan Nomor pengaduan ini nantinya akan digunakan oleh masyarakat untuk memonitor apakah pengaduannya telah disampaikan kepada pemerintah yang terkait. Pemerintah yang terkait dapat melihat kumpulan pengaduan masyarakat melalui aplikasi website.
 {: .text-justify }
 
 ## Tangkapan Layar Aplikasi
@@ -42,7 +43,7 @@ Beberapa tangkapan layar dari aplikasi Whisper.
     </div>
 </div>
 <div class="caption">
-    Tangkapan layar aplikasi chatbot Whisper
+    Tangkapan layar aplikasi chatbot[^1] Whisper
 </div>
 
 ### Aplikasi Modul Website
@@ -61,3 +62,7 @@ Beberapa tangkapan layar dari aplikasi Whisper.
 <div class="caption">
     Tangkapan layar aplikasi website Whisper
 </div>
+
+*[^1]: Sebuah program komputer yang dirancang untuk menyimulasikan percakapan intelektual dengan satu atau lebih manusia baik secara audio maupun teks. ([Sumber](https://id.wikipedia.org/wiki/Chatterbot))
+
+
