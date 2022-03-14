@@ -29,10 +29,27 @@ Beberapa tangkapan layar dari aplikasi Whisper.
 ### Aplikasi Modul Chatbot
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+        <img src="/assets/uploads/chatbot_whisper_1.png" title="Tangkap layar chatbot Whisper 1" class="img-fluid rounded z-depth-1" >
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <img src="/assets/uploads/chatbot_whisper_2.png" title="Tangkap layar chatbot Whisper 2" class="img-fluid rounded z-depth-1" >
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        <img src="/assets/uploads/chatbot_whisper_3.png" title="Tangkap layar chatbot Whisper 3" class="img-fluid rounded z-depth-1" >
+    </div>
+</div>
+
+### Aplikasi Modul Website
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-12">
+        <img src="/assets/uploads/website_whisper_1.png" title="Tangkap layar website Whisper 1" class="img-fluid rounded z-depth-1" >
+    </div>
+    <div class="col-sm-12">
+        <img src="/assets/uploads/website_whisper_2.png" title="Tangkap layar website Whisper 2" class="img-fluid rounded z-depth-1" >
+    </div>
+    <div class="col-sm-12">
+        <img src="/assets/uploads/website_whisper_3.png" title="Tangkap layar website Whisper 3" class="img-fluid rounded z-depth-1" >
     </div>
 </div>
