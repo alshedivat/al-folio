@@ -8,7 +8,12 @@ importance: 1
 category: work
 ---
 
-<nav id="toc" data-toggle="toc"></nav>
+
+<nav class="l-text figcaption">
+    <h3>Daftar Isi</h3>
+    {% include toc.html html=content %}
+</nav>
+
 
 ## Latar Belakang
 
