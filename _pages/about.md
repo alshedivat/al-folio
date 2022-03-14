@@ -40,6 +40,3 @@ Check out my [projects](projects) (along with post-mortems) and [interests](more
 * Natural Language Processing.
 * Using insights from machine learning for biology. In a specific example, learning a hierarchical or causal structure from genomics data.
 * Algorithmic fairness.
-
-**Collaborators and mentors:**
-This list is highly incomplete and unordered, but I have greatly benefitted from interacting with and learning from the following amazing people - Prof. Alex Wright, Prof. Siddhartha Gadgil, Prof. Subhojoy Gupta, Prof. Stefan Friedl, Jose Pedro Quintanilha, Miraya Poddar-Agrawal, Julian D'Costa, Abishek Rajan. 
