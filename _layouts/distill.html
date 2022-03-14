@@ -65,8 +65,11 @@
 
       <d-article>
         <d-contents>
-          <h3>Daftar Isi</h3>
-          <nav id="toc" data-toggle="toc" class="l-text figcaption"></nav>
+          <nav class="l-text figcaption">
+            <h3>Daftar Isi</h3>
+            {% include toc.html html=content %}
+          </nav>
+          
           
         </d-contents>
 
