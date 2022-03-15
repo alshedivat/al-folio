@@ -17,6 +17,8 @@ categories: web-development
 
 Berangkat dari keinginan untuk mencari hostingan handal dan gratis untuk website pribadi saya, [Github Pages](https://pages.github.com/) menarik perhatian saya. 
 
+---
+
 ### Hosting gratis Github Pages
 
 Github Pages adalah salah satu fitur dari Github yang memungkinkan kita meng-hosting website dari repository kita secara langsung. Untuk tingkat keamanan dan kehandalan dari Github Pages sendiri tidak usah diragukan lagi. Terlebih lagi Github Pages memberikan kebebasan kita mengkustomisasi website kita dari sisi kode. Dan juga Github Pages menggunakan simple flat-file based, yang membuat website kita ditampilkan secara cepat, was wes wos, sat set sot. Kalau kita ingin mengkustomisasi domain website kita nantinya, Github Pages memfasilitasi hal tersebut. Karena keuntungan-keuntungan inilah akhirnya saya memilih Github Pages menjadi tempat hosting saya.  
@@ -25,15 +27,19 @@ Lihat [Pembaruan Website Personal Gung Satya dengan Jekyll](https://gungsatya.gi
 
 Namun sayangnya Github Pages hanya mendukung static site hosting. Jadi tidak bisa tuh yang namanya kita hosting wordpress di Github Pages. Kita hanya menyimpan HTML, CSS dan Javascript static yang nantinya akan di-hosting pada Github Pages yang bersifat serverless. Karena itulah akhirnya saya mencari sebuah generator website statis yang berujung dengan sesuatu yang bernama Jekyll.
 
+---
+
 ### Pembuat website statis Jekyll
 
 Menurut menurut penjelasan yang dimuat pada [repositori Github](https://github.com/jekyll/jekyll)-nya, Jekyll adalah sebuah generator website statis simple yang cocok dalam mengembangkan website personal, project dan perusahaan. Hal-hal yang disorot pada wesbite resminya adalah *simple, static, dan blog-aware*.
 
-> **Simple**: Jekyll tidak membutuhkan basis data serta konfigurasinya yang rumit, tidak ada moderator komentar dan pembaruan yang mengganggu. Jekyll hanya berfokus pada konten.
->
-> **Static**: Segala produk yang dihasilkan jekyll bersifat statis dan siap untuk langsung di-deploy.
->
-> **Blog-Aware**: Jekyll lebih didesain untuk kepentingan blog sehingga dilengkapi dengan hal-hal pendukung blog yaitu permalinks, pengkategorian konten, pages, posts dan kustomisasi layout.
+**Simple**: Jekyll tidak membutuhkan basis data serta konfigurasinya yang rumit, tidak ada moderator komentar dan pembaruan yang mengganggu. Jekyll hanya berfokus pada konten.
+
+**Static**: Segala produk yang dihasilkan jekyll bersifat statis dan siap untuk langsung di-deploy.
+
+**Blog-Aware**: Jekyll lebih didesain untuk kepentingan blog sehingga dilengkapi dengan hal-hal pendukung blog yaitu permalinks, pengkategorian konten, pages, posts dan kustomisasi layout.
+
+---
 
 ### Pengalaman saya menggunakan Github Pages dan Jekyll
 
@@ -59,6 +65,8 @@ Setelah saya mencoba menggunakan Github Pages dan meng-hosting website pribadi s
 * Tidak tersedia customer support, jadi segala masalah harus diselesaikan sendiri. 
 * Feedback dari penggunjung seperti komentar pada website tidak tersedia, terkecuali menggunakan aplikasi pihak ketiga.
 
+---
+
 ### Kesimpulan
 
 Saya merekomendasikan penggunaan Github Pages dan Jekyll kepada pengguna yang mencari hosting simple dan gratis dengan response yang cepat. Direkomendasikan untuk memanfaatkannya untuk kepentingan blog dan pembagian konten statis yang ringan, misalnya website blog pribadi, website pengenalan perusahaan, website dokumentasi project.
@@ -67,7 +75,9 @@ Saya tidak merekomendasikan pengguanaan Github Pages dan Jekyll untuk kepentinga
 
 Demikian yang dapat saya share terkait Pengalaman saya menggunakan Github Pages dan Jekyll, semoga artikel ini bermanfaat. Terimakasih sudah membaca.
 
-Artikel pendukung yang berkaitan.
+---
+
+***Artikel pendukung yang berkaitan.***
 
 * [Blogging on GitHub Pages: The Pros and Cons](https://www.bloggingpro.com/42537-2/)
 * [The Pros and Cons of Building a Website with Jekyll](https://ericnish.io/blog/jekyll-pros-and-cons/)
