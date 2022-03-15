@@ -22,4 +22,4 @@ My research interests lie in the intersection of computer science (artificial in
 Artificial intelligence progressed rapidly over years. Following the trend of new models or even new paradigm in machine learning, we can see that some of them incorporate psychological concepts. For example, reinforcement learning. Sutton & Barto's book<d-cite key="sutton2018reinforcement"></d-cite> introduces RL by letting us to think about the nature of learning which is the interaction between environment and ourselves. Although maybe it's not explicit, our brain is generating actions based on environment to maximize reward both in the short term and long term. Therefore, psychology/cognitive science and neuroscience are crucial to build AI algorithms toward natural intelligence. 
 
 ## Areas
-General AI, machine learning, deep learning, CV/NLP, robotics.
+Artificial Intelligence, Machine Learning, Deep Learning, Computational Cognitive Modeling, Cognitive Psychology, Computer Vision, Natural Language Processing, Robotics.
