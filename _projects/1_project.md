@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Implementation of Model Free Training for End-to-End Communication Systems
-description: Implemented model based and model free auto-encoder based end-to-end communication system for AWGN and Rayleigh Block Fading (RBF) channels as given in the paper: Fay¸cal Ait Aoudia and Jakob Hoydis, “Model-Free Training of End-to-End Communication Systems” .
+description: Implemented model based and model free auto-encoder based end-to-end communication system for AWGN and Rayleigh Block Fading (RBF) channels as given in the paper - Fay¸cal Ait Aoudia and Jakob Hoydis, "Model-Free Training of End-to-End Communication Systems".
 img: 
 importance: 1
 category: work
