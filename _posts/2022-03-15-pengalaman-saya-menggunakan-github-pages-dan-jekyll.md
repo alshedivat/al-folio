@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: distill
 title: Pengalaman saya menggunakan Github Pages dan Jekyll
 description: Mengenal Github Pages dan Jekyll serta pengalaman saya pertama kali
   menggunakannya.
