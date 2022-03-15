@@ -1,6 +1,18 @@
 ---
 ---
 
+@misc{kang2022personalized,
+      title="Towards Personalized Intelligence at Scale", 
+      author="Yiping Kang and Ashish Mahendra and Christopher Clarke and Lingjia Tang and Jason Mars",
+      year="2022",
+      archivePrefix="arXiv",
+      primaryClass="cs.CL",
+      abbr = "ARXIV",
+      arxiv = "2203.06668",
+      pdf = "https://arxiv.org/pdf/2203.06668.pdf",
+      abstract = "Personalized Intelligence (PI) is the problem of providing customized AI experiences tailored to each individual user. In many applications, PI is preferred or even required. Existing personalization approaches involve fine-tuning pre-trained models to create new customized models. However, these approaches require a significant amount of computation to train, scaling with model size and the number of users, inhibiting PI to be realized widely. In this work, we introduce a novel model architecture and training/inference framework to enable Personalized Intelligence at scale. We achieve this by attaching a Personalization Head (PH) to pre-trained language models (LM). During training, the base LMs are frozen and only the parameters in PH are updated and are unique per user. This results in significantly smaller overall model sizes and training cost than traditional fine-tuning approaches when scaled across many users. We evaluate PHs on academia and industry-focused datasets and show that the PHs outperform zeroshot baseline in F1 score and are significantly more scalable than traditional fine-tuning approaches. We identify key factors required for effective PH design and training."
+}
+
 @inproceedings{larson-etal-2019-evaluation,
     title = "An Evaluation Dataset for Intent Classification and Out-of-Scope Prediction",
     author = "Larson, Stefan  and
@@ -23,7 +35,7 @@
     doi = "10.18653/v1/D19-1131",
     pages = "1311--1316",
     abbr = "EMNLP",
-    arxiv = "https://arxiv.org/abs/1909.02027",
+    arxiv = "1909.02027",
     pdf = "https://aclanthology.org/D19-1131.pdf",
     abstract = "Task-oriented dialog systems need to know when a query falls outside their range of supported intents, but current text classification corpora only define label sets that cover every example. We introduce a new dataset that includes queries that are out-of-scope{---}i.e., queries that do not fall into any of the system{'}s supported intents. This poses a new challenge because models cannot assume that every query at inference time belongs to a system-supported intent class. Our dataset also covers 150 intent classes over 10 domains, capturing the breadth that a production task-oriented agent must handle. We evaluate a range of benchmark classifiers on our dataset along with several different out-of-scope identification schemes. We find that while the classifiers perform well on in-scope intent classification, they struggle to identify out-of-scope queries. Our dataset and evaluation fill an important gap in the field, offering a way of more rigorously and realistically benchmarking text classification in task-driven dialog systems.",
 }
