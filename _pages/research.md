@@ -9,6 +9,8 @@ ___
 
 ## recent seminar series
 
+**[CRPL Seminar](https://crpl.cis.udel.edu/), [Department of Computer and Information Sciences](https://www.cis.udel.edu/), University of Delaware**, *Sparse Matrices and High-Performance Computing Meet Biology*, Spring 2022.
+
 **[Berkeley's International Genetically Engineered Machine (iGEM) Group](https://callink.berkeley.edu/organization/igematberkeley), University of California, Berkeley**, *BELLA: Berkeley Efficient Long-Read to Long-Read Aligner and Overlapper*, Spring 2022.
 
 **[Computer Science and Engineering Colloqium](https://engineering.ucsc.edu/departments/computer-science-and-engineering), University of California, Santa Cruz**, *Sparse Matrices and High-Performance Computing Meet Biology*, Spring 2022.
