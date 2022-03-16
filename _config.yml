@@ -89,11 +89,11 @@ blog_description: long life learner's journey
 permalink: /blog/:year/:title/
 
 # Pagination
-# pagination:
-#   enabled: true
+pagination:
+  enabled: true
 
-paginate: 3
-paginate_path: "/blog/:num/"
+# paginate: 3
+# paginate_path: "/blog/:num/"
 
 # Comments
 disqus_shortname: gung_satya # put your disqus shortname
@@ -152,7 +152,8 @@ plugins:
   - jekyll-archives
   - jekyll-feed
   - jekyll-github-metadata
-  - jekyll-paginate
+  - jekyll-imagemagick
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-target-blank
   - jekyll-twitter-plugin
@@ -208,6 +209,35 @@ jekyll-archives:
     year: "/blog/:year/"
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
+
+# -----------------------------------------------------------------------------
+# Responsive WebP Images
+# -----------------------------------------------------------------------------
+
+imagemagick:
+  enabled: true
+  widths:
+    - 480
+    - 800
+    - 1400
+  input_directories:
+    - assets/img/
+    - assets/uploads/
+  input_formats:
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+    - ".tiff"
+  output_formats:
+    webp: "-quality 75%"
+
+# -----------------------------------------------------------------------------
+# Jekyll Diagrams
+# -----------------------------------------------------------------------------
+
+jekyll-diagrams:
+  # configuration, see https://github.com/zhustec/jekyll-diagrams.
+  # feel free to comment out this section if not using jekyll diagrams.
 
 # -----------------------------------------------------------------------------
 # Optional Features
