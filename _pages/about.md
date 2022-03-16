@@ -14,3 +14,5 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a Master's student at the Indian Institute of Technology, Dharwad. I am currently researching on "Age of Information in wireless communication networks" with Asst. Prof. Rajshekhar V Bhat.
+
+My current research interests are in Wireless Communication, Optimization and (Deep) Reinforcement Learning
