@@ -105,7 +105,7 @@ git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
 [[ ${NO_PUSH} ]] || git push -f -q origin $DEPLOY_BRANCH
 
 # Move back to SRC_BRANCH
-git checkout $SRC_BRANCH
+git checkout $SRC_BRANCH 
 
 echo "Deployed successfully!"
 
