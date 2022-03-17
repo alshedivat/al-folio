@@ -8,6 +8,18 @@ category: work
 date: 2021-05-15
 
 bibliography: 2021-vectorgan.bib
+toc:
+  - name: TLDR
+    #   - name: Example Child Subsection 1
+    #   - name: Example Child Subsection 2
+  - name: Motivation
+  - name: Related work
+  - name: Experiments
+  - name: Dataset
+  - name: GAN architectures
+  - name: Evaluation
+  - name: Results
+  - name: Latent space interpolation
 
 authors:
   - name: Ivan Puhachov
