@@ -2,9 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A glance at some of my recent works...
+description: A growing collection of your cool projects.
 nav: true
-display_categories: [Model-based, Model-free]
+display_categories: [work, fun]
 horizontal: false
 ---
 
