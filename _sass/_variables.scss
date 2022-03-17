@@ -39,3 +39,17 @@ $code-bg-color-dark:      #2c3237 !default;
 
 // neizod import
 $border-color: lightgray;
+
+// this is preset size, you should not change this.
+$content-width: 720px;
+$mobile-width: 640px;
+
+//TODO if you've change data.theme.color.palette to null,
+//     specify your own colors here.
+$major-color: darkgray;
+$minor-color: white;
+$border-color: lightgray;
+$background-color: white;
+
+$font-color: black;
+$link-color: navy;

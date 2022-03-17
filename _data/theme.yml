@@ -1,0 +1,78 @@
+#TODO set each item to null then define your css color in _sass/ dir.
+#     preset: palette = { north-pole, aurora }, highlight = { github, monokai }
+color:
+  palette:   north-pole
+  highlight: github
+
+
+#TODO set short, long to null then define your display in _include/date/ dir.
+#     set allow_long to false if you don't want to show time.
+date:
+  short:      "%B %e, %Y"
+  long:       "%A, %B %e, %Y, %I:%M %p"
+  allow_long: sometimes
+
+
+#TODO you may change navigation behavior here.
+navigation:
+  menu:
+    - name: Posts
+      path: "/posts"
+    - name: Projects
+      path: "/projects"
+    - name: About
+      path: "/about"
+  paginate:
+    older: right
+
+
+#TODO you may customize padding text here.
+text:
+  meta:
+    title_sep:    "|"
+  menu:
+    item_sep:     "⋅"
+  unconfig:
+    title:        untitled
+    description:  unconfigured theme
+  empty:
+    announcement: Announcement
+  excerpt:
+    read_more:    Read More
+    item_sep:     "/"
+  paginate:
+    left_symbol:  «
+    right_symbol: »
+    at_page:      "Page: "
+    of_page:      " of "
+    prev_page:    Prev
+    next_page:    Next
+  post:
+    origin:       "Originally published on: "
+    revise:       "Revision notes:"
+    archive:      Archive
+    tags:         Tags
+  project:
+    demo:         Live Demo!
+    source:       Source Code
+
+
+#TODO you may change/add more font here.
+font:
+  head:
+    families:
+      - name: Raleway
+        weight: 300
+    default: sans-serif
+  body:
+    families:
+      - name: Lora
+    default: serif
+  mono:
+    families:
+      - name: Ubuntu Mono
+    default: monospace
+    size: 1.0em
+    line-height: 1.2
+  languages:
+    - latin-ext

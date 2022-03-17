@@ -1,0 +1,21 @@
+{% capture NOOUT %}
+  {% assign types = "head body mono" | split: " " %}
+  {% for type in types %}
+    {% assign specs = site.empty_array %}
+    {% for font in site.data.theme.font[type].families %}
+      {% assign name = font.name | prepend: '"' | append: '"' %}
+      {% assign specs = specs | push: name %}
+    {% endfor %}
+    {% assign specs = specs | push: site.data.theme.font.head.default | join: ", " %}
+    {% case type %}
+      {% when "head" %}
+        {% assign font_head = specs %}
+      {% when "body" %}
+        {% assign font_body = specs %}
+      {% when "mono" %}
+        {% assign font_mono = specs %}
+    {% endcase %}
+  {% endfor %}
+  {% assign font_mono_size = site.data.theme.font.mono.size %}
+  {% assign font_mono_line_height = site.data.theme.font.mono.line-height %}
+{% endcapture %}

@@ -3,11 +3,19 @@
 ---
 @charset "utf-8";
 
+{% include variables/fonts.liquid %}
+$font-head: {{ font_head }};
+$font-body: {{ font_body }};
+$font-mono: {{ font_mono }};
+$font-mono-size: {{ font_mono_size }};
+$font-mono-line-height: {{ font_mono_line_height }};
+
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
 @import
   "variables",
+  "mixins",
   "themes",
   "layout",
   "base",

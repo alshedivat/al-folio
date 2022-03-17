@@ -1,0 +1,15 @@
+@mixin mobile {
+    @media screen and (max-width: $mobile-width) {
+        @content;
+    }
+}
+
+
+@mixin selection {
+    ::-moz-selection {
+        @content;
+    }
+    ::selection {
+        @content;
+    }
+}

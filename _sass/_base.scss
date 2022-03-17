@@ -311,11 +311,17 @@ footer.sticky-bottom {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
       margin-bottom: 0;
+      flex: 0 0 auto;
+      padding-top: 0.25rem;
+      align-self: stretch;
     }
     .post-tags {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
       padding-top: 0.25rem;
+      flex: 0 0 auto;
+      align-self: stretch;
+      margin: 0 1em;
       
       .neizod-tag{
         font-family: "Raleway", sans-serif;
@@ -595,4 +601,52 @@ html.transition *:after {
   color: var(--global-text-color-light);
   font-size: 0.875rem;
   padding-top: 0.25rem;
+}
+
+// neizod import
+@include mobile {
+  h1, h2, h3, h4, h5, h6 {
+      line-height: 1.2;
+      margin: 0.5em 0 0;
+  }
+}
+
+.flex {
+  display: -ms-flex;
+  display:     flex;
+}
+
+.flex.column {
+  flex-direction: column;
+}
+
+.flex.align-center {
+  align-items: center;
+}
+
+.flex.wrap {
+  flex-wrap: wrap;
+}
+
+.flex.mobile-column {
+  @include mobile {
+      flex-direction: column;
+  }
+}
+
+.flex.mobile-column.align-center {
+  @include mobile {
+      text-align: center;
+  }
+}
+
+
+.flexitem.fill {
+  flex: 1;
+}
+
+.flexitem.mobile-first {
+  @include mobile {
+      order: -1;
+  }
 }

@@ -38,45 +38,49 @@ pagination:
           {% endif %}
         </h3>
 
-        <!-- Read Time + Date -->
-        <p class="post-meta"> 
-          <!-- 
-            {{read_time}} min read &nbsp; &middot; &nbsp;
-          -->
-          {{ post.date | date: '%B %-d, %Y' }}
-        </p>
+        <div class="flex mobile-column align-center">
+          <!-- Read Time + Date -->
+          <div class="post-meta"> 
+            <!-- 
+              {{read_time}} min read &nbsp; &middot; &nbsp;
+            -->
+            {{ post.date | date: '%B %-d, %Y' }}
+          </div>
 
-        <!-- Post Tags -->
-        <p class="post-tags">
-          <!-- "year bag" icon.
-            <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
-            <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
-          -->
+          <!-- Post Tags -->
+          <div class="post-tags">
+            <!-- "year bag" icon.
+              <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
+              <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
+            -->
 
-          {% if tags != "" %}
-          <!-- 
-            &nbsp; &middot; &nbsp;
-          -->
-            {% for tag in post.tags %}
-              <a href="{{ tag | prepend: '/blog/tag/' | prepend: site.baseurl}}" class="neizod-tag">
-                <!-- hashtag icon
-                <i class="fas fa-hashtag fa-sm"></i> 
-                -->
-                {{ tag | strip | | capitalize }}</a>
-            {% endfor %}
-          {% endif %}
-
-          {% if categories != "" %}
             {% if tags != "" %}
+            <!-- 
               &nbsp; &middot; &nbsp;
+            -->
+              {% for tag in post.tags %}
+                <a href="{{ tag | prepend: '/blog/tag/' | prepend: site.baseurl}}" class="neizod-tag">
+                  <!-- hashtag icon
+                  <i class="fas fa-hashtag fa-sm"></i> 
+                  -->
+                  {{ tag | strip | capitalize }}</a>
+              {% endfor %}
             {% endif %}
-            {% for category in post.categories %}
-              <a href="{{ category | prepend: '/blog/category/' | prepend: site.baseurl}}">
-              <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
-            {% endfor %}
-          {% endif %}
-        </p>
 
+            <!-- Category
+            {% if categories != "" %}
+              {% if tags != "" %}
+                &nbsp; &middot; &nbsp;
+              {% endif %}
+              {% for category in post.categories %}
+                <a href="{{ category | prepend: '/blog/category/' | prepend: site.baseurl}}">
+                <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
+              {% endfor %}
+            {% endif %}
+            -->
+          </div>
+        </div>
+        
         <!-- Post Description -->
         <p>{{ post.description }}</p>
 
