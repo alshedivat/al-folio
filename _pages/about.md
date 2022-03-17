@@ -18,4 +18,4 @@ At NAVER, I'm researching <strong>generalizable representation learning</strong>
 
 I received my B.S. and M.S. degree in Aerospace Engineering from KAIST in 2017 and 2019, respectively, 
 under the supervision of <a href="https://scholar.google.com/citations?user=v5hGAWMAAAAJ&hl=en">Prof. Han-Lim Choi</a>.
-During my master’s degree, I researched <strong>planning and control </strong> for robots (e.g., humanoid) and 2) <strong> hierarchical RL </strong> to bridge the gap between high-level reasoning and low-level control policies.
+During my master’s degree, I researched 1) <strong>efficient planning and control frameworks </strong> and 2) <strong> hierarchical RL </strong> to bridge the gap between high-level reasoning and low-level control policies, for robots (e.g., humanoid).
