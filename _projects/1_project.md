@@ -1,16 +1,11 @@
 ---
 layout: page
-title: Policy optimization on stabilizing submanifold
+title: project 1
 description: a project with a background image
 img: assets/img/12.jpg
 importance: 1
-<<<<<<< HEAD
-category: Model-based
-=======
 category: work
->>>>>>> parent of 4138095 (Update 1_project.md)
 ---
-
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
