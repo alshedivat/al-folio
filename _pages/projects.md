@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: A glance at some of my recent works...
 nav: true
-display_categories: [Policy optimization on stabilizing submanifold, Regularizability and online control, Data-driven distributed control]
+display_categories: [Model-based, Model-free]
 horizontal: false
 ---
 
