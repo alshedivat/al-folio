@@ -2,9 +2,13 @@
 layout: page
 title: Policy optimization on stabilizing submanifold
 description: a project with a background image
-img: assets/img/motivation.jpg
+img: assets/img/12.jpg
 importance: 1
+<<<<<<< HEAD
 category: Model-based
+=======
+category: work
+>>>>>>> parent of 4138095 (Update 1_project.md)
 ---
 
 
