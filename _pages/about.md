@@ -28,6 +28,7 @@ Check out my [projects](projects) (along with post-mortems) and [interests](more
 **What am I doing these days?**
 * Learning reinforcement learning from a combination of Sutton/Barto, David Silver's course, the AJKS RL theory book and [Prof. Tewari's course](https://ambujtewari.github.io/stats701-winter2021/). 
 * Taking graduate electives in math - especially excited about Math 626 (topics course in probability covering ergodic theory, Markov chains and mixing times) and Math 797 (the coarse geometry of Teichmuller space).
+* Reading [this](http://dept.stat.lsa.umich.edu/~tewaria/research/tewari13learning.pdf) survey of statistical and computational aspects of learning theory.
 * Reading Rishi Sonthalia's paper about the TreeRep algorithm for efficiently learning metrics on trees (hyperbolic representation learning).
 * To provide a glimpse into graduate student life and also create a greater sense of accountability for myself, attempting to maintain a [periodic log](log) of my academic/professional progress on this website. 
 * Working on finishing up the GUI for my algorithm for generalized Seifert matrices. 
