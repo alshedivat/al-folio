@@ -316,6 +316,14 @@ footer.sticky-bottom {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
       padding-top: 0.25rem;
+      
+      .neizod-tag{
+        font-family: "Raleway", sans-serif;
+        border: 1px dashed $border-color;
+        border-radius: 5px;
+        padding: 0 0.333em;
+        margin: 0.125em;
+      }
     }
     a {
       color: var(--global-text-color);
