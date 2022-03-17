@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Regularizability and online control
-description: a simultaneous system identification and control appraoch
+title: project 2
+description: a project with a background image
 img: assets/img/3.jpg
 importance: 2
-category: Model-free
+category: work
 ---
 
 Every project has a beautiful feature showcase page.
