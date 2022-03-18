@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Ivan Puhachov
+title: about
 permalink: /
 description: PhD student, UdeM, LIGUM
 
