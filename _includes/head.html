@@ -1,4 +1,4 @@
-    <!-- Metadata, OpenGraph and Schema.org -->
+<!-- Metadata, OpenGraph and Schema.org -->
     {% include metadata.html %}
 
     <!-- Bootstrap & MDB -->
@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@{{ site.fontawesome.version }}/css/all.min.css" integrity="{{ site.fontawesome.integrity }}" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@{{ site.academicons.version }}/css/academicons.min.css" integrity="{{ site.academicons.integrity }}" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+    {% assign site_font = site.data.theme.font %}
+    {% assign fonts = site_font.head.families | concat: site_font.body.families | concat: site_font.mono.families | concat: site_font.sign.families %}
+    {% for font in fonts %}
+        {% assign name = font.name | split: ' ' | join: '+' %}
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ name }}">
+    {% endfor %}
 
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/{{ site.highlight_theme_light | append: '.css' }}" media="none" id="highlight_theme_light" />

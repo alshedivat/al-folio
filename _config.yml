@@ -38,7 +38,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 720px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -311,3 +311,8 @@ popper:
 medium_zoom:
   version: "1.0.6"
   integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="
+
+# ---------------------------------------------------------------------------
+# Neizod Import
+# ---------------------------------------------------------------------------
+empty_array: []

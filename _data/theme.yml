@@ -63,10 +63,16 @@ font:
     families:
       - name: Raleway
         weight: 300
+      - name: Kanit
+        weight: 200
+      - name: Noto Sans JP
+        weight: 300
     default: sans-serif
   body:
     families:
       - name: Lora
+      - name: Maitree
+        weight: 400
     default: serif
   mono:
     families:
@@ -74,5 +80,11 @@ font:
     default: monospace
     size: 1.0em
     line-height: 1.2
+  sign:
+    families:
+      - name: Tangerine
+    default: san-serif
   languages:
     - latin-ext
+    - thai
+    - japanese

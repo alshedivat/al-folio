@@ -46,8 +46,8 @@ $mobile-width: 640px;
 
 //TODO if you've change data.theme.color.palette to null,
 //     specify your own colors here.
-$major-color: darkgray;
-$minor-color: white;
+$major-color: lighten($purple-color, 50%);
+$minor-color: rgb(236, 236, 236);
 $border-color: lightgray;
 $background-color: white;
 

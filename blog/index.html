@@ -5,20 +5,31 @@ pagination:
   enabled: true
   collection: posts
   permalink: /page/:num/
-  per_page: 3
+  per_page: 10
   sort_field: date
   sort_reverse: true
   trail:
     before: 1 # The number of links before the current page
     after: 3  # The number of links after the current page
+blog_post: true
 ---
+<div class="submenu info flex mobile-column">
+  <div class="primary flexitem fill">
+    Archive
+  </div>
+  <div class="secondary flexitem fill">
+    Tags
+  </div>
+</div>
 
 <div class="post">
 
+  <!-- Title
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
-  </div>
+  </div> 
+  -->
 
 
   <ul class="post-list">
@@ -32,9 +43,9 @@ pagination:
       <li>
         <h3>
           {% if post.redirect == blank %}
-            <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <a class="blog-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           {% else %}
-          <a class="post-title" href="{% if post.redirect contains '://' %}{{ post.redirect }}{% else %}{{ post.redirect | relative_url }}{% endif %}">{{ post.title }}</a>
+          <a class="blog-title" href="{% if post.redirect contains '://' %}{{ post.redirect }}{% else %}{{ post.redirect | relative_url }}{% endif %}">{{ post.title }}</a>
           {% endif %}
         </h3>
 
@@ -53,36 +64,37 @@ pagination:
               <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
               <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
             -->
-
-            {% if tags != "" %}
-            <!-- 
-              &nbsp; &middot; &nbsp;
-            -->
-              {% for tag in post.tags %}
-                <a href="{{ tag | prepend: '/blog/tag/' | prepend: site.baseurl}}" class="neizod-tag">
-                  <!-- hashtag icon
-                  <i class="fas fa-hashtag fa-sm"></i> 
-                  -->
-                  {{ tag | strip | capitalize }}</a>
-              {% endfor %}
-            {% endif %}
-
-            <!-- Category
-            {% if categories != "" %}
+            
               {% if tags != "" %}
+              <!-- 
                 &nbsp; &middot; &nbsp;
+              -->
+                {% for tag in post.tags %}
+                  <a href="{{ tag | prepend: '/blog/tag/' | prepend: site.baseurl}}" class="neizod-tag">
+                    <!-- hashtag icon
+                    <i class="fas fa-hashtag fa-sm"></i> 
+                    -->
+                    {{ tag | strip | capitalize }}</a>
+                {% endfor %}
               {% endif %}
-              {% for category in post.categories %}
-                <a href="{{ category | prepend: '/blog/category/' | prepend: site.baseurl}}">
-                <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
-              {% endfor %}
-            {% endif %}
-            -->
+
+              <!-- Category
+              {% if categories != "" %}
+                {% if tags != "" %}
+                  &nbsp; &middot; &nbsp;
+                {% endif %}
+                {% for category in post.categories %}
+                  <a href="{{ category | prepend: '/blog/category/' | prepend: site.baseurl}}">
+                  <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
+                {% endfor %}
+              {% endif %}
+              -->
+            
           </div>
         </div>
         
         <!-- Post Description -->
-        <p>{{ post.description }}</p>
+        <p class="post-description">{{ post.description }}</p>
 
       </li>
 

@@ -309,22 +309,35 @@ footer.sticky-bottom {
     padding-bottom: 2rem;
     .post-meta {
       color: var(--global-text-color-light);
-      font-size: 0.875rem;
-      margin-bottom: 0;
+      font-size: 1rem;
+      font-style: italic;
+      //margin-bottom: 0;
+      //margin: 0.125em;
       flex: 0 0 auto;
       padding-top: 0.25rem;
-      align-self: stretch;
+      //align-self: stretch;
     }
     .post-tags {
       color: var(--global-text-color-light);
-      font-size: 0.875rem;
+      font-size: 1rem;
       padding-top: 0.25rem;
       flex: 0 0 auto;
       align-self: stretch;
       margin: 0 1em;
-      
+      align-items: center;
+      box-sizing: border-box;
+      //margin-bottom: 0;
+      padding-bottom: 0;
+
+      a {
+        color: $light-purple-color;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
       .neizod-tag{
         font-family: "Raleway", sans-serif;
+        font-variant-ligatures: common-ligatures;
         border: 1px dashed $border-color;
         border-radius: 5px;
         padding: 0 0.333em;
@@ -337,6 +350,12 @@ footer.sticky-bottom {
       &:hover {
         color: var(--global-theme-color);
       }
+    }
+    .post-description {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      font-weight: 350;
     }
   }
 }
@@ -603,7 +622,9 @@ html.transition *:after {
   padding-top: 0.25rem;
 }
 
+// ------------------------------------------------------------------
 // neizod import
+// ------------------------------------------------------------------
 @include mobile {
   h1, h2, h3, h4, h5, h6 {
       line-height: 1.2;
@@ -649,4 +670,31 @@ html.transition *:after {
   @include mobile {
       order: -1;
   }
+}
+
+.submenu.info {
+  font-family: $font-head;
+
+  div {
+      padding: 0.33em;
+      text-align: center;
+  }
+
+  .primary {
+      background: $major-color;
+  }
+
+  .secondary {
+      background: $minor-color;
+  }
+}
+
+
+// ------------------------------------------------------------------
+// Additional
+// ------------------------------------------------------------------
+.blog-title {
+  font-family: $font-head;
+  line-height: 1.7;
+  font-size: 2rem;
 }
