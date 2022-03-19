@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Zheyuan(Brian)
 middle_name:
 last_name: Zhang
-email: zheyuanzhang@umass.edu
+email: # zheyuanzhang@umass.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Zheyuan(Brian) Zhang's Personal Page
 footer_text: >
@@ -71,7 +71,8 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  You can also reach me at my personal email: cozzyde@gmail.com
+  zheyuanzhang [at] umass [dot] edu
+  cozzyde [at] gmail [dot] com
 
 google_analytics: G-GCJZ9EV9M8 # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification: _w-JPsbKKLeqMqTroyAJLmdtVH1_9xF46o9yjQopgqg # your google-site-verification ID (Google Search Console)
