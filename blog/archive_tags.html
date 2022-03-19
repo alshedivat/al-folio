@@ -1,0 +1,17 @@
+---
+layout: default
+permalink: /blog/tags
+title: Archive Tags
+no_top_margin: true
+neizod: true
+---
+{% include neizod_header.html %}
+
+<div class="posts">
+    <h2 class="blog-title" style="padding: 1rem 0; margin-bottom: 0;">Tags</h2>
+    {% for tag in site.tags %}
+        {% if tag[1].size > 0 %}
+            <a href="{{ tag[0] | prepend: '/blog/tag/' | prepend: site.baseurl}}" class="neizod-tag">{{ tag[0] }} ({{ tag[1].size }})</a>
+        {% endif %}
+    {% endfor %}
+</div>

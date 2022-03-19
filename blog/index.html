@@ -11,16 +11,10 @@ pagination:
   trail:
     before: 1 # The number of links before the current page
     after: 3  # The number of links after the current page
-blog_post: true
+no_top_margin: true
+neizod: true
 ---
-<div class="submenu info flex mobile-column">
-  <div class="primary flexitem fill">
-    Archive
-  </div>
-  <div class="secondary flexitem fill">
-    Tags
-  </div>
-</div>
+{% include neizod_header.html %}
 
 <div class="post">
 
@@ -40,7 +34,7 @@ blog_post: true
       {% assign tags = post.tags | join: "" %}
       {% assign categories = post.categories | join: "" %}
 
-      <li>
+      <li style="padding: 1.75rem 0">
         <h3>
           {% if post.redirect == blank %}
             <a class="blog-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -94,9 +88,16 @@ blog_post: true
         </div>
         
         <!-- Post Description -->
-        <p class="post-description">{{ post.description }}</p>
+        <p class="post-description">{{ post.excerpt }}</p>
 
-      </li>
+        <div>
+          {% if post.redirect == blank %}
+          <a class="readmore" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+          {% else %}
+          <a class="readmore" href="{% if post.redirect contains '://' %}{{ post.redirect }}{% else %}{{ post.redirect | relative_url }}{% endif %}">Read More</a>
+          {% endif %}
+        </div>
+        </li>
 
     {% endfor %}
   </ul>

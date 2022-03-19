@@ -1,0 +1,27 @@
+---
+layout: default
+permalink: /blog/archives
+title: Archive
+no_top_margin: true
+neizod: true
+---
+{% include neizod_header.html %}
+
+<div class="posts">
+    <h2 class="blog-title" style="padding: 1rem 0; margin-bottom: 0;">Archives</h2>
+    {% assign posts = site.posts %}
+    {% assign cur = -1 %}
+
+    {% for post in posts %}
+        {% assign year = post.date | date: "%Y" %}
+        {% if year != cur %}
+            <h3 class="blog-title" style="font-size: 1.5rem">{{ post.date | date: "%Y" }}</h3>
+            {% assign cur = year %}
+        {% endif %}
+        <!-- For date filter, please refer to https://shopify.dev/api/liquid/filters/additional-filters#date -->
+        <div class="flex mobile-column">
+            <div class="date">{{ post.date | date: "%B %e" }}</div>
+            <div class="mini-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+        </div>
+    {% endfor %}
+</div>

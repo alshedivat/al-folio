@@ -19,7 +19,7 @@ layout: parse
     {%- include header.html %}
 
     <!-- Content -->
-    <div class="container mt-5" {% if page.blog_post %}style="margin-top: 0 !important;"{% endif %}>
+    <div class="container mt-5" {% if page.no_top_margin %}style="margin-top: 0 !important;"{% endif %}>
       {{ content }}
     </div>
 

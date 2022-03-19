@@ -10,7 +10,7 @@ email: laoaron@wisc.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A webpage about me!
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> and <a href="https://github.com/neizod/polar">polar</a> themes.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
@@ -137,6 +137,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - _pages/teaching.md
+  - _pages/publications.md
+  - _pages/dropdown.md
 keep_files:
   - CNAME
   - .nojekyll

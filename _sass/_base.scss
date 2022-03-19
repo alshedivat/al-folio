@@ -573,7 +573,7 @@ pre {
 }
 
 code {
-  color: var(--global-theme-color);
+  color: $pink-color;
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
@@ -688,7 +688,19 @@ html.transition *:after {
       background: $minor-color;
   }
 }
-
+.mini-title {
+  font-family: $font-head;
+  margin: 0 1em;
+  align-self: stretch;
+}
+.date {
+  //font-family: $font-body;
+  color: $grey-color;
+  font-style: italic;
+  flex: 0 0 auto;
+  width: 120px;
+  font-variant-ligatures: common-ligatures;
+}
 
 // ------------------------------------------------------------------
 // Additional
@@ -697,4 +709,20 @@ html.transition *:after {
   font-family: $font-head;
   line-height: 1.7;
   font-size: 2rem;
+}
+.neizod-tag{
+  font-family: $font-body;
+  font-variant-ligatures: common-ligatures;
+  border: 1px dashed $border-color;
+  border-radius: 5px;
+  padding: 0 0.333em;
+  margin: 0.125em;
+}
+.neizod-link .nav-link{
+  letter-spacing: 1px !important;
+  font-family: $font-head !important;
+}
+.readmore {
+  font-family: $font-body;
+  color: $light-purple-color !important;
 }
