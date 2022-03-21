@@ -3,6 +3,41 @@
 
 @string{aps = {American Physical Society,}}
 
+@InProceedings{jitterbug,
+author="Carisimo, Esteban
+and Mok, Ricky K. P.
+and Clark, David D.
+and Claffy, Kc",
+editor="Hohlfeld, Oliver
+and  Moura, Giovane C. M. 
+and Pelsser, Cristel",
+title="Jitterbug: A new framework for jitter-based congestion inference",
+year="2022",
+publisher="Springer International Publishing",
+address="Cham",
+pages="",
+abstract="We investigate a novel approach to the use of jitter to infer network congestion using data collected by probes in access networks. We discovered a set of features in jitter and jitter dispersion —a jitter- derived time series we define in this paper— time series that are char- acteristic of periods of congestion. We leverage these concepts to create a jitter-based congestion inference framework that we call Jitterbug. We apply Jitterbug’s capabilities to a wide range of traffic scenarios and discover that Jitterbug can correctly identify both recurrent and one-off congestion events. We validate Jitterbug inferences against state-of-the- art autocorrelation-based inferences of recurrent congestion. We find that the two approaches have strong congruity in their inferences, but Jitter- bug holds promise for detecting one-off as well as recurrent congestion. We identify several future directions for this research including lever- aging ML/AI techniques to optimize performance and accuracy of this approach in operational settings.",
+isbn="",
+pdf={papers/2022-pam-jitterbug.pdf},
+github={https://github.com/estcarisimo/jitterbug/},
+selected={true}
+}
+
+@InProceedings{cti,
+author = {Gamero-Garrido, Alexander and Carisimo, Esteban and Hao, Shuai and Huffaker, Bradley and Snoeren, Alex C. and Dainotti, Alberto},
+editor="Hohlfeld, Oliver
+and  Moura, Giovane C. M. 
+and Pelsser, Cristel",
+title="Quantifying Nations' Exposure to Traffic Observation and Selective Tampering",
+year="2022",
+publisher="Springer International Publishing",
+address="Cham",
+pages="",
+abstract="Almost all popular Internet services are hosted in a select set of countries, forcing other nations to rely on international connectivity to access them. We identify nations where traffic towards a large portion of the country is serviced by a small number of Autonomous Systems, and, therefore, may be exposed to observation or selective tampering by these ASes. We introduce the Country-level Transit Influence (CTI) metric to quantify the significance of a given AS on the international transit service of a particular country. By studying the CTI values for the top ASes in each country, we find that 34 nations have transit ecosystems that render them particularly exposed, where a single AS is privy to traffic destined to over 40% of their IP addresses. In the nations where we are able to validate our findings with in-country operators, our top- five ASes are 90% accurate on average. In the countries we examine, CTI reveals two classes of networks frequently play a particularly prominent role: submarine cable operators and state-owned ASes.",
+isbn="",
+pdf={papers/2022-pam-cti.pdf},
+}
+
 
 @inbook{10.1145/3487552.3487822,
 author = {Carisimo, Esteban and Gamero-Garrido, Alexander and Snoeren, Alex C. and Dainotti, Alberto},
@@ -94,3 +129,5 @@ series = {LANCOMM '16},
 html={https://dl.acm.org/doi/10.1145/2940116.2940118},
 pdf={papers/2016-lancomm-latam.pdf},
 }
+
+
