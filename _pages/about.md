@@ -10,15 +10,20 @@ profile:
   address: >
     <p>Wellington Rd</p>
     <p>Clayton VIC 3800</p>
+    <p>Melbourne, Australia</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a third-year PhD student studying at Monash University now. My project, Big code augmented Android app development, aims to learn from "big code" to solve various programming tasks such as automated API usage recommendation and automated program patching.
+I am a 3rd-year PhD student studying at Monash University. 
 
-If you would like to contact me, please send an email to <a href='#'>Yanjie.Zhao#monash.edu</a>.
+In 2019, I graduated from Beijing University of Posts and Telecommunications with a bachelor's degree. Following that, I moved to Monash University to begin my PhD studies.
+
+My supervisors are Dr. Li Li and Prof. John Grundy. My project, Big code augmented Android app development, aims to learn from "big code" to solve various programming tasks such as automated API usage recommendation and automated program patching.
+
+If you need to reach me, please send an email to <a href='#'>Yanjie.Zhao#monash.edu</a>.
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
