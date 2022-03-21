@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a 3rd-year PhD student studying at Monash University. 
+I am a 3rd-year PhD student studying at <a href='https://www.monash.edu/'>Monash University</a>. 
 
 In 2019, I graduated from <a href='https://www.bupt.edu.cn/'>Beijing University of Posts and Telecommunications</a> with a bachelor's degree. Following that, I moved to <a href='https://www.monash.edu/'>Monash University</a> to begin my PhD studies.
 
