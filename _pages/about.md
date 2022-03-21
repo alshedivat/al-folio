@@ -21,7 +21,7 @@ I am a 3rd-year PhD student studying at Monash University.
 
 In 2019, I graduated from Beijing University of Posts and Telecommunications with a bachelor's degree. Following that, I moved to Monash University to begin my PhD studies.
 
-My supervisors are Dr. Li Li and Prof. John Grundy. My project, Big code augmented Android app development, aims to learn from "big code" to solve various programming tasks such as automated API usage recommendation and automated program patching.
+My supervisors are <a href='http://lilicoding.github.io/'>Dr. Li Li</a> and <a href='https://sites.google.com/site/johncgrundy/'>Prof. John Grundy. My project, Big code augmented Android app development, aims to learn from "big code" to solve various programming tasks such as automated API usage recommendation and automated program patching.
 
 If you need to reach me, please send an email to <a href='#'>Yanjie.Zhao#monash.edu</a>.
 
