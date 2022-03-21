@@ -8,6 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
+    <p>Monash University</p>
     <p>Wellington Rd</p>
     <p>Clayton VIC 3800</p>
     <p>Melbourne, Australia</p>
@@ -21,7 +22,7 @@ I am a 3rd-year PhD student studying at Monash University.
 
 In 2019, I graduated from <a href='https://www.bupt.edu.cn/'>Beijing University of Posts and Telecommunications</a> with a bachelor's degree. Following that, I moved to Monash University to begin my PhD studies.
 
-My supervisors are <a href='http://lilicoding.github.io/'>Dr. Li Li</a> and <a href='https://sites.google.com/site/johncgrundy/'>Prof. John Grundy</a>. My project, Big code augmented Android app development, aims to learn from "big code" to solve various programming tasks such as automated API usage recommendation and automated program patching.
+My supervisors are <a href='http://lilicoding.github.io/'>Dr. Li Li</a> and <a href='https://sites.google.com/site/johncgrundy/'>Prof. John Grundy</a>. My research topic, Big Code Augmented Android App Development, seeks to learn from "big code" to handle various programming tasks such as automated API usage recommendation and program patching.
 
 If you need to reach me, please send an email to <a href='#'>Yanjie.Zhao#monash.edu</a>.
 
