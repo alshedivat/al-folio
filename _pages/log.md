@@ -28,6 +28,10 @@ nav: true
   <summary markdown="span"> March 9, 10 and 11 </summary>
   Corrected mistakes in my Math 626 assignment, almost finished the Math 597 assignment due next week. Read part of Rishi Sonthalia's TreeRep paper. Love how they're leveraging the finite combinatorial possiblities in a tree stemming from Gromov products! Will finish this over the weekend. Read a bulk of chapter 1 of the AJKS RL theory book, finished chapter 4 of Sutton/Barto and went through some of chapter 5. Glanced at Chen and Poor's paper on learning mixtures of linear dynamical systems sample efficiently, which seems like a fun problem! Also found Vidyasagar's notes on RL, which seem nice. Talked to a few more people about my changing interests, got more advice and got my exploration of RL and statistical learning theory greenlit by one more relevant entity in the math department.
 </details>
+  <details>
+  <summary markdown="span"> March 12-21 </summary>
+  Completed and submitted the 597 assignment, read more AJKS and Sutton/Barto, took a segue into importance sampling and statistical theory (Slustky's theorem, the delta method, etc). Read Chapter 4 and about half of Chapter 5 of Sutton/Barto. Completed implementing the GUI for py_knots. Added an implementation of Casson-Gordon invariants. Thought more about using Chen and Poor's ideas for learning confounded MDPs (met the undergrad involved in the project). Read about the optimal solution to the gambling problem (from How To Gamble If You Must, adapted from the book on inequalities for stochastic processes).
+</details>
 </details>
 </details>
     
