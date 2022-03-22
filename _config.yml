@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Computational Intelligence Lab # the website title (if blank, full name will be used instead)
 first_name: You
 middle_name: R.
 last_name: Name
@@ -134,6 +134,11 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  group:
+    defaults:
+      layout: member
+    output: true
+    permalink: /group/:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
 news_limit: 5 # leave blank to include all the news in the `_news` folder
@@ -297,6 +302,8 @@ enable_navbar_social:       false  # enables displaying social links in the
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
+enable_group_categories:    true   # enables categorization of group members into
+                                   # multiple categories
 
 
 # -----------------------------------------------------------------------------

@@ -84,6 +84,30 @@ blockquote {
   }
 }
 
+.member-card {
+  background-color: var(--global-card-bg-color);
+  height: 100%;
+  img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .card-title {
+    color: var(--global-text-color);
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
 // Citation
 
 .citation, .citation-number {
