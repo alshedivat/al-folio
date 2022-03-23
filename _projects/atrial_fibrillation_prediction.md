@@ -63,6 +63,15 @@ assumed to generate economic, clinical and societal challenges in the next decad
 Episodes of AF may come and go which can make it hard to diagnose. Treatment
 options for AF are medications, cardioversion and surgery.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/AF-Episode.png" title="ECG Signal of AF Episode" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    ECG Signal of an AF Episode.
+</div>
+
 ***
 
 ## Research Objective
@@ -101,6 +110,17 @@ We created non-overlapping segments of 30-second ECG recordings using both ECG
 channels. Each segment was tied to a variable that indicates if AF begins in the 30
 minutes following the recording.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Preprocessing.png" title="Processing the ECG Signal" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Processing the ECG Signal.
+</div>
+
+***
+
 ## Model
 
 A convolutional neural network (CNN) model designed for reading a 30-second ECG
@@ -121,10 +141,28 @@ that AF will occur in the next 30 minutes.
 
 The data (30 second non-overlapping ECG segments) was split randomly: 80% of it
 was used for training the model and 20% was used for testing the model.
-Successfully predicted 927 AF episodes.
-AUC is the measure of the ability of a classifier to distinguish between results.
-Higher AUC indicates better performance of the model to distinguish between the
-positive and negative results.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Confusion-Matrix.png" title="Confusion Matrix" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Successfully predicted 927 AF episodes.
+</div>
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/AUC-Graph.png" title="AUC Graph" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    AUC is the measure of the ability of a classifier to distinguish between results.
+    Higher AUC indicates better performance of the model to distinguish between the
+    positive and negative results.
+</div>
+
 Evaluation methods:
 • $$𝑨𝒄𝒄𝒖𝒓𝒂𝒄𝒚 = 𝑻𝑷 + 𝑻𝑵 𝑻𝑷 + 𝑻𝑵 + 𝑭𝑷 + 𝑭𝑵 = 𝟖𝟕. 𝟗% $$
 • 𝑹𝒆𝒄𝒂𝒍𝒍 =
