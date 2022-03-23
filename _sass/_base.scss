@@ -84,6 +84,12 @@ blockquote {
   }
 }
 
+.card-img-no-margin {
+  figure {
+    margin: 0 0 0rem;
+  }
+}
+
 .member-card {
   background-color: var(--global-card-bg-color);
   height: 100%;
@@ -451,6 +457,11 @@ footer.sticky-bottom {
     img {
       width: 100%;
     }
+  }
+
+  .card-horizontal {
+    -webkit-box-shadow: none;
+    box-shadow: none;
   }
 
   .card-item {

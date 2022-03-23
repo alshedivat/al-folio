@@ -4,7 +4,9 @@
   {% if project.redirect -%}
   <a href="{{ project.redirect }}">
     {%- else -%}
+    {%- if project.page -%}
     <a href="{{ project.url | relative_url }}">
+    {%- endif -%}
       {%- endif %}
       <div class="card hoverable">
         {%- if project.img %}
@@ -32,5 +34,7 @@
           </div>
         </div>
       </div>
-    </a>
+  {%- if project.redirect or project.page -%}
+  </a>
+  {%- endif -%}
 </div>
