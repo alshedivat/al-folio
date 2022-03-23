@@ -11,6 +11,8 @@ let toggleTheme = (theme) => {
 
 let setTheme = (theme) =>  {
   transTheme();
+  setHighlight(theme);
+
   if (theme) {
     document.documentElement.setAttribute("data-theme", theme);
   }
@@ -27,6 +29,16 @@ let setTheme = (theme) =>  {
     })
   }
 };
+
+let setHighlight = (theme) => {
+  if (theme == "dark") {
+    document.getElementById("highlight_theme_light").media = "none";
+    document.getElementById("highlight_theme_dark").media = "";
+  } else {
+    document.getElementById("highlight_theme_dark").media = "none";
+    document.getElementById("highlight_theme_light").media = "";
+  }
+}
 
 
 let transTheme = () => {
