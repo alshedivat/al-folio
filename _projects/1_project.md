@@ -2,7 +2,7 @@
 layout: page
 title: Atrial Fibrillation Prediction
 description: Atrial Fibrillation Prediction
-img: assets/img/12.jpg
+img: assets/img/AF-Episode.png
 importance: 1
 category: work
 ---
