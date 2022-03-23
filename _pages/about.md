@@ -14,7 +14,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a computer science BSc. graduate from the Technion and currently working as an algorithm engineer.
+I'm a computer science MSc. student from the Technion and currently working as an algorithm engineer.
 
 Interested in solving difficult problems which don't yet have a solution, mostly in the fields of algorithms, autonomous systems and quantum physics.
 Enjoy designing system architectures and providing end to end solutions.
