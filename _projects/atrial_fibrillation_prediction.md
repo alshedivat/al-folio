@@ -2,6 +2,8 @@
 layout: distill
 title: Atrial Fibrillation Prediction
 description: This page describes the work achieved in the project.
+img: assets/img/AF-Episode.png
+importance: 1
 date: 2022-03-23
 
 authors:
