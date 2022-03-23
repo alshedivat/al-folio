@@ -75,8 +75,6 @@ options for AF are medications, cardioversion and surgery.
     ECG Signal of an AF Episode.
 </div>
 
-***
-
 ## Research Objective
 
 Successfully predict if a patient is going to have an atrial fibrillation episode in the
@@ -95,8 +93,6 @@ Such advancements may mitigate the patient’s risk for ischemic stroke and
 potentially save many lives. They will also allow preparing for episodes during
 surgery and reducing the number of medications patients with AF must take, thus
 reducing the risk of side-effects.
-
-***
 
 ## Data
 
@@ -122,8 +118,6 @@ minutes following the recording.
     Processing the ECG Signal.
 </div>
 
-***
-
 ## Model
 
 A convolutional neural network (CNN) model designed for reading a 30-second ECG
@@ -137,8 +131,6 @@ summarized version of them.
 space.
 The final layer consists of a SoftMax activation function that outputs the probability
 that AF will occur in the next 30 minutes.
-
-***
 
 ## Results
 
@@ -167,28 +159,19 @@ was used for training the model and 20% was used for testing the model.
 </div>
 
 Evaluation methods:
-• $$𝑨𝒄𝒄𝒖𝒓𝒂𝒄𝒚 = 𝑻𝑷 + 𝑻𝑵 𝑻𝑷 + 𝑻𝑵 + 𝑭𝑷 + 𝑭𝑵 = 𝟖𝟕. 𝟗% $$
-• 𝑹𝒆𝒄𝒂𝒍𝒍 =
-𝑻𝑷
-𝑻𝑷 + 𝑭𝑵
-= 𝟕𝟒. 𝟒%
-• 𝑷𝒓𝒆𝒄𝒊𝒔𝒊𝒐𝒏 =
-𝑻𝑷
-𝑻𝑷 + 𝑭𝑷
-= 𝟕𝟐. 𝟏%
-• 𝑺𝒑𝒆𝒄𝒊𝒇𝒊𝒄𝒊𝒕𝒚 =
-𝑻𝑵
-𝑻𝑵 + 𝑭𝑷
-= 𝟗𝟏. 𝟖%
-• 𝑭𝟏 𝑺𝒄𝒐𝒓𝒆 =
-𝟐∗𝑷𝒓𝒆𝒄𝒊𝒔𝒊𝒐𝒏∗𝑹𝒆𝒄𝒂𝒍𝒍
-𝑷𝒓𝒆𝒄𝒊𝒔𝒊𝒐𝒏+𝑹𝒆𝒄𝒂𝒍𝒍
-= 𝟕𝟑. 𝟐%
+
+$$𝑨𝒄𝒄𝒖𝒓𝒂𝒄𝒚 = ((𝑻𝑷 + 𝑻𝑵) / (𝑻𝑷 + 𝑻𝑵 + 𝑭𝑷 + 𝑭𝑵)) = 87.9\% $$
+
+$$Recall = ((TP) / (TP + FN)) = 74.4\% $$
+
+$$Precision = ((𝑻𝑷) / (TP + FP)) = 72.1\% $$
+
+$$Specifity = ((TN) / (TN + FP)) = 91.8\% $$
+
+$$F1 Score = ((2*Precision*Recall) / (Precision + Recall))) = 73.2\% $$
 
 Recall is the most important evaluation method as it indicates the ability of the
 model to correctly predict future AF episodes.
-
-***
 
 ## Discussion
 
@@ -203,4 +186,3 @@ for the same patient.
 Future work should also include the use of data from wearable technologies such as
 smartwatches that allow ECG recording.
 
-***
