@@ -6,7 +6,7 @@ research_interest: 隐私保护机器学习、自然语言处理、金融领域�
 img: assets/img/cc.png
 importance: 1
 category: Professor
-# redirect: https://sites.google.com/site/chencenpersonalwebsite/
+redirect: https://sites.google.com/site/chencenpersonalwebsite/
 ---
 
 
