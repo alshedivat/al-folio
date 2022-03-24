@@ -1,0 +1,51 @@
+<!-- _includes/members.html -->
+<div class="card">
+  {% if member.redirect -%}
+  <a href="{{ member.redirect }}">
+    {%- else -%}
+    {% if member.page %}
+    <a href="{{ member.url | relative_url }}">
+    {% endif %}
+      {%- endif %}
+      {% if member.page %}
+        <div class="member-card hoverable">
+      {% else %}
+        <div class="member-card">
+      {% endif %}
+      {%- if member.img %}
+      {%- include figure.html
+        path=member.img
+        alt="thumbnail" -%}
+      {%- endif %}
+        <div class="card-body">
+          <h2 class="card-title">{{ member.name }}</h2>
+          {%- if member.self_introduction %}
+            <p class="card-sub-title mb-0">自我介绍</p>
+            <p class="card-text">{{ member.self_introduction }}</p>
+          {%- endif %}
+          {%- if member.research_interest %}
+            <p class="card-sub-title mb-0">研究兴趣</p>
+            <p class="card-text">{{ member.research_interest }}</p>
+          {%- endif %}
+          {%- if member.publications %}
+            <p class="card-sub-title mb-0">研究成果</p>
+            <p class="card-text">{{ member.publications }}</p>
+          {%- endif %}
+          {%- if member.github %}
+            <p class="card-sub-title mb-0">GitHub</p>
+            <p class="card-text">{{ member.github }}</p>
+          {%- endif %}
+          {%- if member.email %}
+          <p class="card-sub-title mb-0">Email</p>
+          <p class="card-text">{{ member.email }}</p>
+        {%- endif %}
+        {%- if member.contact %}
+        <p class="card-sub-title mb-0">联系</p>
+        <p class="card-text">{{ member.contact }}</p>
+      {%- endif %}
+        </div>
+      </div>
+    {% if member.page %}
+    </a>
+    {% endif %}
+</div>
