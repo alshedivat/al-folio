@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /group/
-title: group
+title: 成员
 description: MEET OUR TEAM
 nav: true
 display_categories: [Professor, PhD Students, Master Students]
@@ -22,15 +22,17 @@ display_categories: [Professor, PhD Students, Master Students]
   <div class="container">
     <div class="row row-cols-2">
     {%- for member in sorted_members -%}
-      {% include group_horizontal.html %}
+      {% include member_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
-  <div class="grid">
+  <div class="container">
+  <div class="card-columns">
     {%- for member in sorted_members -%}
-      {% include group.html %}
+      {% include member.html %}
     {%- endfor %}
+  </div>
   </div>
   {%- endif -%}
   {% endfor %}
@@ -43,14 +45,14 @@ display_categories: [Professor, PhD Students, Master Students]
   <div class="container">
     <div class="row row-cols-2">
     {%- for member in sorted_members -%}
-      {% include group_horizontal.html %}
+      {% include member_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for member in sorted_members -%}
-      {% include group.html %}
+      {% include member.html %}
     {%- endfor %}
   </div>
   {%- endif -%}

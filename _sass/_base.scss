@@ -84,6 +84,13 @@ blockquote {
   }
 }
 
+.card-columns {
+  @media (min-width: 576px) {
+    column-count: 2;
+  }
+  column-count: 1;
+}
+
 .card-img-no-margin {
   figure {
     margin: 0 0 0rem;
@@ -94,8 +101,10 @@ blockquote {
   background-color: var(--global-card-bg-color);
   height: 100%;
   img {
-    width: 250px;
-    height: 250px;
+    // width: 250px;
+    // height: 250px;
+    width: 61.8% !important;
+    border-radius: 0px 0px 30px 0px;
     object-fit: cover;
   }
 
