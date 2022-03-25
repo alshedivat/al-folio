@@ -32,6 +32,10 @@ nav: true
   <summary markdown="span"> March 12-21 </summary>
   Completed and submitted the 597 assignment, read more AJKS and Sutton/Barto, took a segue into importance sampling and statistical theory (Slustky's theorem, the delta method, etc). Read Chapter 4 and about half of Chapter 5 of Sutton/Barto. Completed implementing the GUI for py_knots. Added an implementation of Casson-Gordon invariants. Thought more about using Chen and Poor's ideas for learning confounded MDPs (met the undergrad involved in the project). Read about the optimal solution to the gambling problem (from How To Gamble If You Must, adapted from the book on inequalities for stochastic processes).
 </details>
+  <details>
+  <summary markdown="span"> March 22-24 </summary>
+  Completed and submitted another 597 assignment. Completed chapter 5 of Sutton Barto and formulated some questions I had with greater precision. Read the proof of MCES convergence for stochastic feed forwards MDPs as given by Che Wang and Keith Ross. The idea is nice, but I'd also like to understand the counterexamples to the general convergence of MCES someday. Read Rishi Sonthalia's TreeRep paper, which was fun! Graded Math 116 exams. Contacted a few more people for advice about switching into RL/ML and data analysis work.
+</details>
 </details>
 </details>
     
