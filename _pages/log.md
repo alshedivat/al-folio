@@ -34,7 +34,7 @@ nav: true
 </details>
   <details>
   <summary markdown="span"> March 22-24 </summary>
-  Completed and submitted another 597 assignment. Completed chapter 5 of Sutton Barto and formulated some questions I had with greater precision. Read the proof of MCES convergence for stochastic feed forwards MDPs as given by Che Wang and Keith Ross. The idea is nice, but I'd also like to understand the counterexamples to the general convergence of MCES someday. Read Rishi Sonthalia's TreeRep paper, which was fun! Graded Math 116 exams. Contacted a few more people for advice about switching into RL/ML and data analysis work.
+  Completed and submitted another 597 assignment. Completed chapter 5 of Sutton Barto and formulated some questions I had with greater precision. Read the proof of MCES convergence for stochastic feed forwards MDPs as given by Che Wang and Keith Ross. The idea is nice, but I'd also like to understand the counterexamples to the general convergence of MCES someday. Read Rishi Sonthalia's TreeRep paper, which was fun! Graded Math 116 exams. Contacted a few more people for advice about switching into RL/ML and data analysis work. Wrote some more
 </details>
 </details>
 </details>
