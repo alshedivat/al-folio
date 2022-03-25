@@ -5,6 +5,7 @@ title: 成员
 description: MEET OUR TEAM
 nav: true
 display_categories: [Professor, PhD Students, Master Students]
+importance: 1
 ---
 
 
@@ -18,43 +19,25 @@ display_categories: [Professor, PhD Students, Master Students]
   {%- if sorted_members.size != 0 %} <h2 class="category">{{ category }}</h2> {%- endif -%}
 
   <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
   <div class="container">
-    <div class="row row-cols-2">
+  <div class="row">
     {%- for member in sorted_members -%}
-      {% include member_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="container">
-  <div class="card-columns">
-    {%- for member in sorted_members -%}
+    <div class="col-md-4">
       {% include member.html %}
+    </div>
     {%- endfor %}
   </div>
   </div>
-  {%- endif -%}
   {% endfor %}
 
 {%- else -%}
 <!-- Display projects without categories -->
   {%- assign sorted_members = site.group | sort: "importance" -%}
   <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for member in sorted_members -%}
-      {% include member_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
   <div class="grid">
     {%- for member in sorted_members -%}
       {% include member.html %}
     {%- endfor %}
   </div>
-  {%- endif -%}
 {%- endif -%}
 </div>

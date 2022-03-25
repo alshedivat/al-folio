@@ -17,14 +17,15 @@
           {%- endif -%}
         {%- endif -%}
         </div>
+        -->
 
         <!-- Entry bib key -->
-        <div id="{{entry.key}}" class="col-sm-8">
+        <div id="{{entry.key}}" class="col-sm-12">
         {% if entry.type == "thesis" -%}
           {{reference}}
         {%- else %}
           <!-- Title -->
-          <div class="title">{{entry.title}}</div>
+          <span class="title mr-2">{{entry.title}}</span>
           <!-- Author -->
           <div class="author">
           {% assign author_array_size = entry.author_array | size %}
@@ -134,13 +135,15 @@
             {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
           {%- endif -%}
           {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
-          <div class="periodical">
+          <span class="periodical">
             {{ periodical | strip }}
-          </div>
+          </span>
         {%- endif %}
+      
         
           <!-- Links/Buttons -->
-          <div class="links">
+
+          <span class="links float-sm-right">
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
@@ -190,11 +193,12 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
-          </div>
+          </span>
+
 
           {% if entry.abstract -%}
           <!-- Hidden abstract block -->
-          <div class="abstract hidden">
+          <div class="abstract hidden float-sm-right">
             <p>{{ entry.abstract }}</p>
           </div>
           {%- endif -%}
@@ -206,4 +210,5 @@
           </div>
           {%- endif %}
         </div>
+
       </div>
