@@ -155,6 +155,7 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-target-blank
+  - jekyll-include-cache
   - jekyll-twitter-plugin
   - jemoji
 

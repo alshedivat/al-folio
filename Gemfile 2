@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-gem 'github-pages', '>=104', group: :jekyll_plugins do
+gem 'github-pages', '104', group :jekyll_plugins
+do
     gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
@@ -18,5 +19,3 @@ gem 'github-pages', '>=104', group: :jekyll_plugins do
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
 end
-
-gem "jekyll", "~> 3.9"
