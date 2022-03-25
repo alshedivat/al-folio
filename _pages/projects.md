@@ -6,6 +6,7 @@ description: # A growing collection of cool projects.
 nav: true
 display_categories: [项目, 源代码, 数据集]
 horizontal: true
+importance: 2
 ---
 
 <!-- pages/projects.md -->

@@ -5,6 +5,7 @@ title: 发表
 description: publications
 years: [1956, 1950, 1935, 1905]
 nav: true
+importance: 3
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
