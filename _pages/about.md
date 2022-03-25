@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Random dude
+subtitle: <a href='#'>Affiliations</a>, Random dude
 
 #<a href=''>Affiliations</a>
 
