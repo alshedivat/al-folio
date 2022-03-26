@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Rundong 润东
+first_name: Rundong
 middle_name: #
-last_name: Zhou 周
+last_name: Zhou
 email: rundong.zhou@mail.utoronto.ca
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -84,8 +84,8 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: rundong-zhou  # your blog must have a name for it to show up in the nav bar
-blog_description: alo
+blog_name: Random things  # your blog must have a name for it to show up in the nav bar
+blog_description: hello! :>
 permalink: /blog/:year/:title/
 
 # Pagination

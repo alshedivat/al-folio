@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>, Random dude
+subtitle: <b>润东</b> 周    #<a href='#'>Affiliations</a>, Random dude
 
 #<a href=''>Affiliations</a>
 
@@ -10,9 +10,9 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Not in water</p>
+    <p>Not in water >_< </p>
     <p>Earth</p>
-    <p>Milky way, Universe</p>
+    <p>Milky way, Known Universe</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
