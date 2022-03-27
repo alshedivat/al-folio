@@ -14,7 +14,7 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/calgaryml/calgaryml.github.io">customized theme</a> based on <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos &copy; Yani Ioannou.
-keywords: calgary, ucalgary, university of calgary, machine learning, ml, deep learning, lab, research group, yani ioannou, academic-website # add your own keywords or leave empty
+keywords: Calgary, ucalgary, University of Calgary, Alberta, u of c, machine learning, ml, neural networks, NN, deep learning, artificial intelligence, AI, lab, research lab, research group, yani ioannou, schulich, engineering # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 logo: /assets/img/ucmllogo-text.svg
