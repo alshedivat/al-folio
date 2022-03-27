@@ -2,9 +2,21 @@
 layout: page
 permalink: /contact/
 title: 联系我们
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 nav: true
 nav_order: 5
 ---
 
-发邮件至：cenchen@dase.ecnu.edu.cn
+陈岑，华东师范大学数据科学与工程学院准聘副教授，博士生导师。2017年本硕博毕业于新加坡管理大学，信息系统专业；2015年至16年曾赴卡内基梅隆大学访问；毕业后加入蚂蚁集团担任算法专家；2021年加入华东师范大学。主要研究方向包括数据挖掘、隐私保护机器学习、NLP应用，近期工作内容包含有联邦学习、迁移学习等。
+
+计划招收x名博士和x名硕士（2022年入学，推免生优先）。招生对象是计算机、软件、信息、自动化、数学等相关专业学生。
+
+希望申请本实验室的同学具有：
+- 较强的自我驱动力（最重要的）
+- 较好的数学、英语基础 
+- 计算机理论基础、算法基础和编程能力 
+- 较强的抗压能力
+
+在此，我们衷心欢迎所有踏实、认真、有追求的同学深入了解我们小组。我们的联系方式有：
+
+邮件：cenchen@dase.ecnu.edu.cn

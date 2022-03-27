@@ -9,7 +9,7 @@ profile:
   image: logo.png
   image_cicular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
+    <p>cenchen@dase.ecnu.edu.cn</p>
     <p>华东师范大学<br/>数据科学与工程学院</p>
 
 news: true  # includes a list of news items
@@ -19,13 +19,17 @@ social: true  # includes social icons at the bottom of the page
 #### 欢迎来到华东师范大学计算智能实验室！
 <br/>
 
-我们来自华东师范大学数据科学与工程学院，致力于打造一支学科交叉融合、学术氛围浓厚的一流研究团队。
+华东师范大学计算智能实验室成立于2021年，是一个年轻的团体，致力于打造一支学科交叉融合、学术氛围浓厚的一流研究团队。实验室指导老师为陈岑，准聘副教授，曾担任阿里巴巴算法专家。
 
-目前我们聚焦于：
+目前我们聚焦但不仅限于以下方向：
 
 - 隐私保护机器学习
 - 自然语言处理
 - 金融领域数据挖掘相关应用及技术
+
+我们力争在所研究的领域，努力创新，撰写高质量论文，进行高质量研究，培养高质量人才。目前实验室与阿里巴巴、瞰点科技等互联网公司的核心算法研发团队有密切稳定的合作关系，共同培养学术与工程的人才。对于想要做研究的同学，我们会每周组织学术研究的探讨；对于想要去工业界发展的研究生，我们会着重培养动手能力与参与、领导项目的能力。
+
+本实验室计划招收 名博士和 名硕士，欢迎您的加入。
 
 
 "The proper function of man is to live, not to exist.<br/>I shall not waste my days in trying to prolong them. I shall use my time."
