@@ -70,6 +70,12 @@
           {%- endfor %}
           </div>
 
+          <div style="padding-bottom: 0px">
+          {% if entry.award %}
+          <span><i class="fas fa-trophy"></i> <strong> {{entry.award}}  </strong></span><br>
+          {% endif %}
+          </div>
+
           <!-- Journal/Book title and date -->
           {% if entry.type == "article" -%}
             {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
