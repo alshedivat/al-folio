@@ -18,7 +18,9 @@ social: true  # includes social icons at the bottom of the page
 
 Greetings!
 
-My name is Zheyuan Zhang(张喆元 in chinese). You can call me Brian which is my English name chosen by myself. I am an undergraduate student at [UMass Amherst](https://www.umass.edu/). View my latest CV [here](assets/cv.pdf).
+My name is Zheyuan Zhang(张喆元 in chinese). You can call me Brian. I am an undergraduate student at [UMass Amherst](https://www.umass.edu/). 
+
+View my latest CV [here](assets/cv.pdf).
 
 My [research interests](blog/2022/about-my-research-interests/) lie in the intersection of computer science(artificial intelligence and machine learning), robotics, psychology and neuroscience. I am particularly passionate about exploring how the brain works and how we understand the world. My goal is to build robots with high-level intelligence to have similar thinking processes like humans and other animals, including perception, learning, decision-making and other cognitive modeling.
 
