@@ -1,72 +1,270 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@STRING{bstj	= "Bell Syst. Tech. J." }
+@STRING{ic	= "Inf. Control" }
+@STRING{ire_tit	= "{IRE} Trans. Inf. Theory" }
+@STRING{pcit	= "Probl. Control Inf. Theory" }
+@STRING{ppi	= "Probl. Inf. Transm." }
+@STRING{tit	= "{IEEE} Trans. Inf. Theory" }
+@STRING{jsac	= "{IEEE} J. Sel. Areas Commun."}
+@STRING{isit    = "Proc. {IEEE} Int. Symp. Inf. Theory (ISIT)"}
+@STRING{isita   = "Proc. {IEEE} Int. Symp. Inf. Theory Appl. (ISITA)"}
+@STRING{itw   = "Proc. {IEEE} Inf. Theory Workshop (ITW)"}
+@STRING{ita   = "Proc. {UCSD} Inf. Theory Appl. Workshop (ITA)"}
+@STRING{allerton_37 = "Proc. 37th Ann. Allerton Conf. Comm. Control Comput."}
+@STRING{allerton_41 = "Proc. 41st Ann. Allerton Conf. Comm. Control Comput."}
+@STRING{allerton_42 = "Proc. 42nd Ann. Allerton Conf. Comm. Control Comput."}
+@STRING{allerton_43 = "Proc. 43rd Ann. Allerton Conf. Comm. Control Comput."}
+@STRING{allerton_44 = "Proc. 44th Ann. Allerton Conf. Comm. Control Comput."}
+@STRING{allerton_45 = "Proc. 45th Ann. Allerton Conf. Comm. Control Comput."}
+@STRING{allerton_46 = "Proc. 46th Ann. Allerton Conf. Comm. Control Comput."}
+@STRING{allerton_47 = "Proc. 47th Ann. Allerton Conf. Comm. Control Comput."}
+@STRING{allerton_48 = "Proc. 48th Ann. Allerton Conf. Comm. Control Comput."}
+@STRING{allerton_49 = "Proc. 49th Ann. Allerton Conf. Comm. Control Comput."}
+@STRING{allerton_50 = "Proc. 50th Ann. Allerton Conf. Comm. Control Comput."}
+@STRING{allerton = "Proc. Ann. Allerton Conf. Comm. Control Comput. (Allerton)"}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+% MACHINE LEARNING
+%% CONFERENCE PROCEEDINGS
+@STRING{colt = "Conf. Learn. Theory (COLT)"}
+@STRING{neurips = "Adv. Neural Inf. Proc. Syst. (NeurIPS)"}
+@STRING{icml = "Proc. Int. Conf. Mach. Learn. (ICML)"}
+@STRING{iclr = "Int. Conf. Learn. Repr. (ICLR)"}
+@STRING{aistats = "Proc. Int. Conf. Artif. Int. Statist. (AISTATS)"}
+%% JOURNAL
+@STRING{jmlr = "J. Mach. Learn. Res. (JMLR)"}
+@STRING{ml = "Mach. Learn."}
+@STRING{tpami = "{IEEE} Trans. Pattern Anal. Mach. Intell. (TPAMI)"}
+@STRING{jacm = "J. ACM"}
+
+% COMPUTER VISION
+%% CONFERENCE PROCEEDINGS
+@STRING{iccv = "{IEEE} Int. Conf. Comp. Vis. (ICCV)"}
+@STRING{bmvc = "Proc. British Mach. Vis. Conf. (BMVC)"}
+@STRING{cvpr = "Proc. {IEEE} Comput. Soc. Conf. Comput. Vis. Pattern Recognit. (CVPR)"}
+
+% SIGNAL/IMAGE PROCESSING
+%% CONFERENCE PROCEEDINGS
+@STRING{icip = "Proc. {IEEE} Int. Conf. Image Proc. (ICIP)"}
+@STRING{icassp = "Proc. IEEE Int. Conf. Acoust. Speech Signal Process. (ICASSP)"}
+%% JOURNAL
+@STRING{tip = "{IEEE} Trans. Image Proc. (TIP)"}
+@STRING{tsp = "{IEEE} Trans. Signal Process. (TSP)"}
+@STRING{spm = "{IEEE} Signal Process. Mag."}
+@STRING{sp = "Signal Process."}
+
+% STATISTICS
+@STRING{annstat = "Ann. Statist."}
+@STRING{annmathstat = "Ann. Math. Statist."}
+@STRING{jnonstat = "J. Nonparametr. Statist."}
+@STRING{sjstat = "Scand. Statist. Theory Appl."}
+@STRING{jma = "J. Multivar. Anal."}
+@STRING{jrssb = "J. R. Stat. Soc. B"}
+@STRING{ijssm = "Int. J. Math. Statist. Sci."}
+@STRING{annism = "Ann. Inst. Statist. Math."}
+@STRING{cstm = "Commun. Statist. Theory Methods"}
+@STRING{pr = "Pattern Recogni."}
+@STRING{jasa = "J. Am. Statist. Assoc."}
+
+% MATHEMATICS
+@STRING{ams = "Proc. Am. Math. Soc."}
+
+% PHYSICS
+@STRING{pre = "Phys. Rev. E. Statist. Phys. Plasmas Fluids Relat. Interdiscip. Topics"}
+
+
+% ETC.
+@STRING{ploscompbio = "{PL}o{S} Comput. Biol."}
+@STRING{advece = "Adv. Electr. Comput. Eng."}
+@STRING{csda = "Comput. Statist. Data Anal."}
+@STRING{ajmms = "Am. J. Math. Manag. Sci."}
+@STRING{statplinf = "J. Statist. Plan. Inference"} % Journal of Statistical Planning and Inference
+@STRING{sac = "Proc. Symp. Appl. Comput."} % Proceedings of the 30th Annual ACM Symposium on Applied Computing
+
+% MONTHS
+@STRING{ jan = "January" }
+@STRING{ feb = "February" }
+@STRING{ mar = "March" }
+@STRING{ apr = "April" }
+@STRING{ may = "May" }
+@STRING{ jun = "June" }
+@STRING{ jul = "July" }
+@STRING{ aug = "August" }
+@STRING{ sep = "September" }
+@STRING{ oct = "October" }
+@STRING{ nov = "November" }
+@STRING{ dec = "December" }
+
+@PREAMBLE{"\newcommand{\noopsort}[1]{}"}
+
+
+@article{Yoo--Ha--Yi--Ryu--Kim--Ha--Kim--Yoon2017,
+  abbr={Preprint},
+  title={Energy-based sequence gans for recommendation and their connection to imitation learning},
+  author={Yoo, Jaeyoon and Ha, Heonseok and Yi, Jihun and Ryu, Jongha and Kim, Chanju and Ha, Jung-Woo and Kim, Young-Han and Yoon, Sungroh},
+  journal={arXiv},
+  arxiv={1706.09200},
+  year={2017}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{Ryu--Kim2018CUDE,
+  abbr={ICIP},
+  title={Conditional distribution learning with neural networks and its application to universal image denoising},
+  author={Ryu, Jongha and Kim, Young-Han},
+  booktitle=icip,
+  pages={3214--3218},
+  year={2018},
+  organization={IEEE},
+  author+an={1=highlight},
+  html={https://ieeexplore.ieee.org/document/8451573/},
+  pdf={icip2018.pdf},
+  poster={icip2018-poster.pdf},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@inproceedings{Bhatt--Huang--Kim--Ryu--Sen2018ITW,
+  abbr={ITW},
+  title={Variations on a theme by {L}iu, {C}uff, and {V}erd{\'u}: The power of posterior sampling},
+  author={Bhatt<sup>†</sup>, Alankrita and Huang<sup>†</sup>, Jiun-Ting and Kim<sup>†</sup>, Young-Han and Ryu<sup>†</sup>, J. Jon and Sen<sup>†</sup>, Pinar},
+  booktitle=itw,
+  pages={1--5},
+  year={2018},
+  organization={IEEE},
+  author+an={1=abc;2=abc;3=abc;4=abc,highlight;5=abc},
+  html={https://ieeexplore.ieee.org/document/8613436},
+  pdf={itw2018.pdf},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{Bhatt--Huang--Kim--Ryu--Sen2018Allerton,
+  abbr={Allerton},
+  title={Monte {C}arlo methods for randomized likelihood decoding},
+  author={Bhatt<sup>†</sup>, Alankrita and Huang<sup>†</sup>, Jiun-Ting and Kim<sup>†</sup>, Young-Han and Ryu<sup>†</sup>, J. Jon and Sen<sup>†</sup>, Pinar}, 
+  booktitle=allerton,
+  pages={204--211},
+  year={2018},
+  organization={IEEE},
+  author+an={1=abc;2=abc;3=abc;4=abc,highlight;5=abc},
+  html={https://ieeexplore.ieee.org/document/8636049/},
+  pdf={allerton2018.pdf},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{Ryu--Ganguly--Kim--Noh--Lee2018,
+  abbr={TIT},
+  title={Nearest neighbor density functional estimation from inverse {L}aplace transform},
+  author={Ryu<sup>*</sup>, J. Jon and Ganguly<sup>*</sup>, Shouvik and Kim, Young-Han and Noh, Yung-Kyun and Lee, Daniel D.},
+  journal=tit,
+  year={2022},
+  archivePrefix = {arXiv},
+  eprint = {1805.08342},
+  primaryClass = {math.ST},
+  author+an={1=highlight,equal;2=equal},
+  html={https://ieeexplore.ieee.org/document/9712283},
+  pdf={tit2022.pdf},
+  arxiv={1805.08342},
+  code={https://github.com/jongharyu/knn-functional-estimation},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{Ryu--Huang--Kim2021,
+  abbr={ISIT},
+  title={On the Role of Eigendecomposition in Kernel Embedding},
+  author={Ryu, J. Jon and Huang, Jiun-Ting and Kim, Young-Han},
+  booktitle=isit,
+  pages={2030--2035},
+  year={2021},
+  organization={IEEE},
+  author+an={1=highlight},
+  html={https://ieeexplore.ieee.org/document/9517746},
+  pdf={isit2021.pdf},
+}
+
+@article{Ryu--Kim2021,
+  abbr={Preprint},
+  title={One-Nearest-Neighbor Search Is All You Need for Minimax Regression and Classification},
+  author={Ryu, J. Jon and Kim, Young-Han},
+  year={2021},
+  archivePrefix = {arXiv},
+  eprint = {2202.02464},
+  primaryClass = {math.ST},
+  author+an={1=highlight},
+  journal={arXiv},
+  arxiv={2202.02464},
+  code={https://github.com/jongharyu/split-knn-rules},
+}
+
+@inproceedings{Ryu--Bhatt--Kim2022,
+  abbr={AISTATS},
+  title={Parameter-Free Online Linear Optimization with Side Information via Universal Coin Betting},
+  author={Ryu, J. Jon and Bhatt, Alankirta and Kim, Young-Han},
+  year={2022},
+  archivePrefix = {arXiv},
+  eprint = {2202.02406},
+  primaryClass = {cs.IT},
+  author+an={1=highlight},
+  booktitle=aistats,
+  arxiv={2202.02406},
+  pdf={aistats2022.pdf},
+  poster={aistats2022-poster.pdf},
+  code={https://github.com/jongharyu/olo-with-side-information},
+}
+
+@article{Bhatt--Ryu--Kim2021,
+  abbr={Preprint},
+  title={On Universal Portfolios with Continuous Side Information},
+  author={Bhatt<sup>†</sup>, Alankirta and Ryu<sup>†</sup>, J. Jon and Kim, Young-Han},
+  year={2021},
+  archivePrefix = {arXiv},
+  eprint = {2202.02431},
+  primaryClass = {cs.IT},
+  note={\emph{{S}ubmitted}},
+  author+an={1=equal;2=highlight,equal},
+  arxiv={2202.02431},
+}
+
+@article{Ryu--Choi--Kim--El-Khamy--Lee2019,
+  abbr={Preprint},
+  title={Wyner {VAE}: Joint and Conditional Generation with Succinct Common Representation Learning},
+  author={Ryu, J. Jon and Choi, Yoojin and Kim, Young-Han and El-Khamy, Mostafa and Lee, Jungwon},
+  year={2018},
+  journal={An extended abstract was presented in Bayesian Deep Learning Workshop at NeurIPS},
+  author+an={1=highlight},
+  arxiv={1905.10945},
+  poster={neuripsw-bdl2018-poster.pdf},
+  html={http://bayesiandeeplearning.org/2018/papers/122.pdf},
+}
+
+@article{Ryu--Choi--Kim--El-Khamy--Lee2021,
+  abbr={Work in Progress},
+  title={Adversarial Learning of a Variational Generative Model with Succinct Bottleneck Representation},
+  author={Ryu, J. Jon and Choi, Yoojin and Kim, Young-Han and El-Khamy, Mostafa and Lee, Jungwon},
+  year={2021},
+  journal={An extended abstract was presented in Bayesian Deep Learning Workshop at NeurIPS},
+  author+an={1=highlight},
+  html={http://bayesiandeeplearning.org/2021/papers/67.pdf},
+  poster={neuripsw-bdl2021-poster.pdf},
+}
+
+@inproceedings{Yang--Sautiere--Ryu--Cohen2020,
+  abbr={ICASSP},
+  title={Feedback Recurrent Autoencoder},
+  author={Yang, Yang and Sauti{\`e}re, Guillaume and Ryu, J. Jon and Cohen, Taco S.},
+  booktitle=icassp,
+  pages={3347--3351},
+  year={2020},
+  organization={IEEE},
+  author+an={3=highlight},
+  arxiv={1911.04018},
+  html={https://ieeexplore.ieee.org/document/9054074},
+}
+
+@article{Ryu--Kim2022,
+  abbr={Preprint},
+  title={An Information-Theoretic Proof of {K}ac--{B}ernstein Theorem},
+  author={Ryu, J. Jon and Kim, Young-Han},
+  archivePrefix = {arXiv},
+  eprint = {2202.06005},
+  primaryClass = {cs.IT},
+  year={2022},
+  author+an={1=highlight},
+  arxiv={2202.06005},
+  journal={arXiv},
 }
