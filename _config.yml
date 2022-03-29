@@ -101,7 +101,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: off-the-record  # your blog must have a name for it to show up in the nav bar
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: what I am thinking of, when I am procrastinating
+blog_description: what I am thinking about, when I am procrastinating
 permalink: /blog/:year/:title/
 
 # Pagination
