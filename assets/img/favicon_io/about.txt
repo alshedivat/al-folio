@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Pacifico
+- Font Author: Copyright 2018 The Pacifico Project Authors (https://github.com/googlefonts/Pacifico)
+- Font Source: http://fonts.gstatic.com/s/pacifico/v21/FwZY7-Qmy14u9lezJ96A4sijpFu_.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
