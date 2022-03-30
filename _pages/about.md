@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://ucsd.edu/'>Ph.D. Candidate at University of California, San Diego</a>
+subtitle: Ph.D. Candidate at <a href='https://ucsd.edu/'>University of California, San Diego</a>
 
 profile:
   align: right
