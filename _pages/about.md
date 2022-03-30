@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: in Chinese, last name is placed in the front <br> so my name actually goes&#58 周 润东, with <a href='https://en.wikipedia.org/wiki/Pinyin'>p&#299ny&#299n&#58</a> Zh&#333u R&#249nd&#333ng    #<a href='#'>Affiliations</a>, Random dude
+subtitle: in Chinese, last name is placed in the front, <br> so my name actually goes&#58 周 润东, with <a href='https://en.wikipedia.org/wiki/Pinyin'>p&#299ny&#299n&#58</a> Zh&#333u R&#249nd&#333ng    #<a href='#'>Affiliations</a>, Random dude
 
 #<a href='https://en.wikipedia.org/wiki/Pinyin'>p&#299ny&#299n&#58</a>
 
