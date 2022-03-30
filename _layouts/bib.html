@@ -38,14 +38,14 @@ layout: default
           
           {% if forloop.length == 1 %}
             {% if author_is_self %}
-              <em>{{author.last}}, {{author.first}}</em>
+              <b>{{author.last}}, {{author.first}}</b>
             {% else %}
               {{author.last}}, {{author.first}}
             {% endif %}
           {% else %}
             {% unless forloop.last %}
               {% if author_is_self %}
-                <em>{{author.last}}, {{author.first}}</em>,
+                <b>{{author.last}}, {{author.first}}</b>,
               {% else %}
                 {% if coauthor_url %}
                   <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>,
@@ -55,7 +55,7 @@ layout: default
               {% endif %}
             {% else %}
               {% if author_is_self %}
-                and <em>{{author.last}}, {{author.first}}</em>
+                and <b>{{author.last}}, {{author.first}}</b>
               {% else %}
                 {% if coauthor_url %}
                   and <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>
@@ -77,9 +77,9 @@ layout: default
       {% if entry.month %}
         {{entry.month | capitalize}}
       {% endif %}
-      {% if entry.year %}
+      <!--{% if entry.year %}
         {{entry.year}}
-      {% endif %}
+      {% endif %}-->
       </div>
     {% endif %}
 
