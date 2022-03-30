@@ -83,9 +83,9 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Random things  # your blog must have a name for it to show up in the nav bar
-blog_description: hello! :>
-permalink: /blog/:year/:title/
+blog_name: random stuffs...  # your blog must have a name for it to show up in the nav bar
+blog_description: hello! you've found a forbidden page <br> :>
+permalink: /meihaodeshikebukeyifashengzaiwoshenshang/:year/:title/
 
 # Pagination
 pagination:
