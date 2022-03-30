@@ -207,6 +207,8 @@ scholar:
 
   style: apa
   locale: en
+  sort_by: year
+  order: descending
 
   source: /_bibliography/
   bibliography: papers.bib
