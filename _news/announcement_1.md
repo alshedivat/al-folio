@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2022-03-24 15:59:00-0400
+date: 2021-06-01
 inline: true
 ---
 
-Rejected by NYU AOSM yikes :>
+Bachelor of Applied Science in [Engineering Science](https://engsci.utoronto.ca), Major in Engineering Physics  
+<b>University of Toronto</b>
