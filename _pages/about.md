@@ -34,5 +34,5 @@ Research keywords include:
 - nonparameteric methods, nearest-neighbor-based algorithms;
 - universal information processing.
 
-Check out my [Curriculum Vitae](/assets/pdf/cv_jhryu.pdf) for more information.
+Check out my [resume](/resume) for more information.
 
