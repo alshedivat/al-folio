@@ -14,9 +14,7 @@ I argue that these non-English language newspapers were pivotal for the developm
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/map.png" title="Covers overlay on map" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-</div>
+    </div>    
     <div class="caption">
         Left is the cover of the Brazilian newspaper <em>O Novo Mundo</em> and on the right is a Cuban-Puerto Rican publication called <em>La América Ilustrada</em>. The brackground shows a map created in Tableau with each line representing a reference to a newspaper appearing in the Spanish language publication.
     </div>
