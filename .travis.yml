@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 3.0.0
+  - 2.4.1
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.

@@ -18,9 +18,9 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-#url: https://jogaorba.github.io # the base hostname & protocol for your site
+url: https://joshuaortizbaco.com # the base hostname & protocol for your site
 #baseurl: /blog # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -59,7 +59,7 @@ github_username:  jogaorba
 gitlab_username: # your GitLab user name
 twitter_username:  jgob
 linkedin_username:  joshua-g-ortiz-baco
-scholar_userid:  https://scholar.google.com/citations?user=ssBtZ9UAAAAJ&hl=en&authuser=1
+scholar_userid:  ssBtZ9UAAAAJ&hl
 orcid_id: 0000-0002-9723-4262
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -85,7 +85,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 blog_name: Joshua Ortiz Baco  # your blog must have a name for it to show up in the nav bar
 blog_description: A thing I made! #
-permalink: /:year/:title/
+permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
@@ -109,7 +109,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 5
+news_limit: 3
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -194,9 +194,9 @@ jekyll-archives:
     tag: archive-tag
     category: archive-category
   permalinks:
-    year: '/:year/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
+    year: '/blog/:year/'
+    tag: '/blog/tag/:name/'
+    category: '/blog/category/:name/'
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -204,7 +204,7 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Ortiz Baco
+  last_name: [Ortiz Baco]
   first_name: [Joshua]
 
   style: apa
@@ -252,7 +252,7 @@ imagemagick:
 # Jekyll Diagrams
 # -----------------------------------------------------------------------------
 
-jekyll-diagrams:
+#jekyll-diagrams:
     # configuration, see https://github.com/zhustec/jekyll-diagrams.
     # feel free to comment out this section if not using jekyll diagrams.
 
