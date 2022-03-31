@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. PhD Student, Department of Spanish and Portuguese, UT Austin.
+subtitle: <a href='https://liberalarts.utexas.edu/spanish/graduate-program/profile.php?id=jgo384#home'>Affiliations</a>. PhD Student, Department of Spanish and Portuguese, UT Austin.
 
 profile:
   align: right

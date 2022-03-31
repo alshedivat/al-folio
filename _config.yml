@@ -83,7 +83,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Joshua Ortiz Baco  # your blog must have a name for it to show up in the nav bar
+blog_name: Paralelepípedo  # your blog must have a name for it to show up in the nav bar
 blog_description: A thing I made! #
 permalink: /blog/:year/:title/
 
