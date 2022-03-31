@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Thank you!"
+date:   2021-05-14 11:44:34 -0500
+categories: jekyll update
+
+---
+
+This project is supported by a grant-in-aid from the US Latino Digital Humanities program (USLDH) and The Andrew W. Mellon Foundation. For more information about USLDH-Mellon grants-in-aid initiative at Recovering the US Hispanic Literary Heritage/Arte Público Press, please visit: https://artepublicopress.com/2020-usldh-mellon-funded-grants-in-aid-projects/
+
+Also, this project would not have been possible without the guidance, support and patience from doctors <b>Carolina Villarroel, Lorena Gautherau, and Gabriela Baeza<b>. ¡Mil gracias! 
