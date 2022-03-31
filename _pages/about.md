@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <font size=2><tt>and the beautiful engineers are all dead, <br> the secret technicians conspire for their own glamour... </tt> <br> &#160&#160&#160&#160&#160&#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160&#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160  &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160  &#160 &#160 &#160 &#160  &#8212 Allen Ginsberg, <i>Kral Majales (King of May) </i> </font>
+subtitle: <font size=2><tt>...and the beautiful engineers are all dead, <br> the secret technicians conspire for their own glamour <br> in the Future...</tt> <br> &#160&#160&#160&#160&#160&#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160&#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160  &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160  &#160 &#160 &#160 &#160  &#8212 Allen Ginsberg, <i>Kral Majales (King of May) </i> </font>
 #<a href='#'>Affiliations</a>, Random dude
 
 #<a href='https://en.wikipedia.org/wiki/Pinyin'>p&#299ny&#299n&#58</a>
