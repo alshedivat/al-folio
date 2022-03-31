@@ -27,7 +27,7 @@ Out of academics, I am a wine and whisky enthusiast with the [WSET 3](https://ww
 
 <font size=2>
 ...<b>a bit more on my name</b> <br>
-In Chinese, last name is placed in the front, so my name actually goes as: 周 润东, with <a href='https://en.wikipedia.org/wiki/Pinyin'>pīnyīn</a>: zhōu rùn/dōng. <br>And I always forgive people who don't speak Mandarin to pronounce it without the tones. :></font>
+In Chinese, last names are placed in the front, so my name actually goes as: 周 润东, with <a href='https://en.wikipedia.org/wiki/Pinyin'>pīnyīn</a>: zhōu rùn/dōng. <br>And I always forgive people who don't speak Mandarin to pronounce it without the tones. :></font>
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
