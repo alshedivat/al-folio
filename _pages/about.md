@@ -11,9 +11,9 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Currently located in: </p>
-    <p>downtown Toronto,</p>
-    <p>Ontario, Canada</p>
+    <p align="right">Fashion District</p>
+    <p align="right">Downtown Toronto</p>
+    <p align="right">Ontario, Canada</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -21,12 +21,12 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <b> ...a little about me</b> <br>
-I was an [Engineering Science](https://engsci.utoronto.ca)[ ](https://youtu.be/BcPO4yhWSUg) student major in Engineering Physics at the University of Toronto. I am interested in computational physics, dynamical systems, numerical (spectral methods) approaches to fluid mechanics, and all the other fields in physics. <br>
-I am working with [Prof. Nicolas Grisouard](https://sites.physics.utoronto.ca/nicolasgrisouard) from the Department of Physics at UofT. My current research project is on developing a [Fourier-Bessel](https://en.wikipedia.org/wiki/Fourier%E2%80%93Bessel_series) based spectral Laplacian solver in 2D polar coordinates to solve [Gross-Pitaevskii equation](https://en.wikipedia.org/wiki/Gross%E2%80%93Pitaevskii_equation). I am also working on discovering new types of discrete [generalized Fourier methods](https://en.wikipedia.org/wiki/Generalized_Fourier_series) in polar coordinates with [Prof. Natalie Baddour](https://engineering.uottawa.ca/people/baddour-natalie) from the Department of Mechanical Engineering at the University of Ottawa. <br>
+I was an [Engineering Science](https://engsci.utoronto.ca)[ ](https://youtu.be/BcPO4yhWSUg) student major in Engineering Physics at the University of Toronto. I am interested in computational physics, dynamical systems, numerical (spectral methods) approaches to fluid mechanics, and all the other fields in physics and mathematics. <br>
+I am working with [Prof. Nicolas Grisouard](https://sites.physics.utoronto.ca/nicolasgrisouard) from the Department of Physics at the University of Toronto. My current research project is on developing a [Fourier-Bessel](https://en.wikipedia.org/wiki/Fourier%E2%80%93Bessel_series) based spectral Laplacian solver in 2D polar coordinates for [Gross-Pitaevskii equation](https://en.wikipedia.org/wiki/Gross%E2%80%93Pitaevskii_equation) which governs Bose–Einstein condensates. I am also working on discovering new types of discrete generalized Fourier methods using [Dini series](https://mathworld.wolfram.com/DiniExpansion.html) in polar coordinates with [Prof. Natalie Baddour](https://engineering.uottawa.ca/people/baddour-natalie) from the Department of Mechanical Engineering at the University of Ottawa. <br>
 Out of academics, I am a wine and whisky enthusiast with the [WSET 3](https://www.wsetglobal.com/qualifications/wset-level-3-award-in-wines/) qualification. I also enjoy playing [DOTA2](https://www.dota2.com/home), I used to play competitively for team UofT at [CSL Esports](https://cslesports.com/#who) league.
 
 <font size=2>
-...<b>a bit more about my name</b> <br>
+...<b>a bit more on my name</b> <br>
 In Chinese, last name is placed in the front, so my name actually goes as: 周 润东, with <a href='https://en.wikipedia.org/wiki/Pinyin'>pīnyīn</a>: zhōu rùn/dōng. <br>And I always forgive people who don't speak Mandarin to pronounce it without the tones. :></font>
 
 

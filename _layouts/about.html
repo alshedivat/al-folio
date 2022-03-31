@@ -22,6 +22,7 @@ layout: default
               alt=page.profile.image -%}
             {% endif -%}
             {%- if page.profile.address %}
+            <div align="right"><font size=2><i>Currently located in:</i></font></div>
             <div class="address">
               {{ page.profile.address }}
             </div>
@@ -34,7 +35,7 @@ layout: default
           </div>
 
 
-          
+
           {% if page.news -%}
           <!-- News -->
           {%- include news.html %}
