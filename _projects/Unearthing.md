@@ -32,8 +32,9 @@ I argue that these non-English language newspapers were pivotal for the developm
     </div>
 </div>
 </div>
-<div class="caption">
-    Left is the cover of the Brazilian newspaper <em>O Novo Mundo</em> and on the right is a Cuban-Puerto Rican publication called <em>La América Ilustrada</em>. The brackground shows a map created in Tableau with each line representing a reference to a newspaper appearing in the Brazilian
+    <div class="caption">
+        Left is the cover of the Brazilian newspaper <em>O Novo Mundo</em> and on the right is a Cuban-Puerto Rican publication called <em>La América Ilustrada</em>. The brackground shows a map created in Tableau with each line representing a reference to a newspaper appearing in the Spanish language publication.
+    </div>
 </div>
 
 This particular project is a section of the first chapter of my dissertation which focuses on a case study of an abolitionist periodical in 19th century New York, edited by Cubans and Puerto Ricans titled _La América Ilustrada_, the famed Cuban newspaper _el Diario de la Mariana_, and the _New York Herald_. From late 1872 until mid 1873 all three papers were involved in a very public and heated exchange related to Herald correspondent that traveled to Cuba. This episode demonstrates how information was constantly traveling and being reinterpreted across languages, geographies, and political affiliations.
@@ -109,28 +110,10 @@ The small dataset constructed from a Spanish-language publication offers a diffe
 
 <center><iframe src="https://public.tableau.com/views/presentationstory/VisualizingAbolitionismsinUSImmigrantPress?:showVizHome=no&:embed=true" width="1000" height="827" frameborder="0"></iframe></center>
 
-While the contradictions between the articles related to Cuba that discuss abolitionism and those that primarily rely on a deracialized discourse may be evident at the text level, recreating the network created and projected by <em>La América Ilustrada</em> is an attempt to destabilize the harmonious narrative suggested by the glossy pages and the careful layout of the content. In other words, the presence of other newspapers within its pages reveals the constructedness of the page, which in turn mirrors the ways in which abolitionist discourse, sovereignty, and internationalization of the Cuban insurgency are themselves rhetorical constructions also predicated on circulation.
+While the contradictions between the articles related to Cuba that discuss abolitionism and those that primarily rely on a deracialized discourse may be evident at the text level, recreating the network created and projected by <em>La América Ilustrada</em>is an attempt to destabilize the harmonious narrative suggested by the glossy pages and the careful layout of the content. In other words, the presence of other newspapers within its pages reveals the constructedness of the page, which in turn mirrors the ways in which abolitionist discourse, sovereignty, and internationalization of the Cuban insurgency are themselves rhetorical constructions also predicated on circulation.
 
 
-My goal is that recreating this mobility and circulation as a guiding principle of visualizations presents these materials and debates anew. Thank you slide! To wrap up: this project would not have been possible without the guidance, support and patience from doctors Carolina Villarroel, Lorena Gautherau, and Gabriela Baeza. ¡Mil gracias! 
+My goal is that recreating this mobility and circulation as a guiding principle of visualizations presents these materials and debates anew. Thank you slide! 
 
+This project would not have been possible without the guidance, support and patience from doctors Carolina Villarroel, Lorena Gautherau, and Gabriela Baeza. ¡Mil gracias! 
 
-<!--
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
