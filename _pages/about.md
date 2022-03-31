@@ -12,7 +12,7 @@ profile:
   image: prof_pic.jpg
   address: >
     <p>Currently located in: </p>
-    <p>Toronto</p>
+    <p>downtown Toronto,</p>
     <p>Ontario, Canada</p>
 
 news: true  # includes a list of news items
