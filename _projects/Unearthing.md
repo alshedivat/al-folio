@@ -11,20 +11,20 @@ This project centers on recreating hemispheric debates about race and emancipati
 
 I argue that these non-English language newspapers were pivotal for the development of racial discourses across the hemisphere and that their nature as diasporic, as opposed to nationally, produced newspapers offers a rare chance to understand the circulation of racial constructs during the 19th century. Simultaneously, I am interested in why materials like these papers, which I term diasporic newspapers, have too often been excluded from the historical record of histories of race and how their inclusion in the digital cultural record can reframe how we practice digital humanities as a more expansive and inclusive discipline that is responsive to the ways that diverse voices create and express knowledge. 
 
-<!-- <div class="row">
+<div class="row">
     <div class="col-md mt-3 mt-md-0">
         {% include figure.html path="assets/img/map.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/map.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/map.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Left is the cover of the Brazilian newspaper _O Novo Mundo_ and on the right is a Cuban-Puerto Rican publication called _La América Ilustrada_. The brackground shows a map created in Tableau with each line representing a reference to a newspaper appearing in the Brazilian
-</div> -->
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
