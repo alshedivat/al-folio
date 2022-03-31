@@ -26,11 +26,9 @@ This particular project is a section of the first chapter of my dissertation whi
 <div class="row justify-content-sm-left">
     <div class="col-sm-4 mt-3 mt-sm-0">
         {% include figure.html path="assets/img/diario.jpg" title="<em>El Diario de la Marina</em>" class="img-fluid rounded z-depth-1" %}
-    </div>
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-sm-0">
         {% include figure.html path="assets/img/herald.jpg" title="<em>The New York Herald</em>" class="img-fluid rounded z-depth-1" %}
-    </div>
 <div class="row justify-content-sm-right">
     <div class="col-sm-4 mt-3 mt-sm-0">
         {% include figure.html path="assets/img/laamerica.jpg" title="<em>La América Ilustrada</em>" class="img-fluid rounded z-depth-1" %}
