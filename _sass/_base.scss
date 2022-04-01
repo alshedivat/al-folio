@@ -125,16 +125,16 @@ blockquote {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
-  opacity: 0.95;
+  opacity: 100;
 }
 .navbar .dropdown-menu {
-  background-color: var(--global-bg-color);
+  background-color: var(--global-hover-color);
   border: 1px solid var(--global-divider-color);
   a:not(.active) {
     color: var(--global-text-color);
   }
   a:hover {
-    color: var(--global-hover-color);
+    color: var(--global-text-color-light);
   }
   .dropdown-divider {
     border-top: 1px solid var(--global-divider-color) !important;
