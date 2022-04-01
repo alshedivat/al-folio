@@ -5,7 +5,7 @@ nav: true
 dropdown: true
 children: 
     - title: Print history
-      permalink: research_plan/print_history
+      permalink: pages/research_plan/print_history
     - title: divider
     - title: Multiethnic print history
       permalink: /multiethnic/
