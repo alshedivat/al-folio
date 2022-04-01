@@ -22,22 +22,25 @@ I argue that these non-English language newspapers were pivotal for the developm
 
 This particular project is a section of the first chapter of my dissertation which focuses on a case study of an abolitionist periodical in 19th century New York, edited by Cubans and Puerto Ricans titled _La América Ilustrada_, the famed Cuban newspaper _el Diario de la Mariana_, and the _New York Herald_. From late 1872 until mid 1873 all three papers were involved in a very public and heated exchange related to Herald correspondent that traveled to Cuba. This episode demonstrates how information was constantly traveling and being reinterpreted across languages, geographies, and political affiliations.
 
-
-<div class="row justify-content-sm-left">
-    <div class="col-sm-4 mt-3 mt-sm-0">
-        {% include figure.html path="assets/img/diario.jpg" title="<em>El Diario de la Marina</em>" class="img-fluid rounded z-depth-1" %}
-<div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-3 mt-sm-0">
-        {% include figure.html path="assets/img/herald.jpg" title="<em>The New York Herald</em>" class="img-fluid rounded z-depth-1" %}
-<div class="row justify-content-sm-right">
-    <div class="col-sm-4 mt-3 mt-sm-0">
-        {% include figure.html path="assets/img/laamerica.jpg" title="<em>La América Ilustrada</em>" class="img-fluid rounded z-depth-1" %}
+<div class="container-fluid">
+    <div class="row justify-content-sm-left">
+        <div class="col-sm-3 mt-3 mt-sm-0">
+            {% include figure.html path="assets/img/diario.jpg" title="<em>El Diario de la Marina</em>" class="img-fluid rounded z-depth-1" %}
+        </div>
+    <div class="row justify-content-sm-center">
+        <div class="col-sm-3 mt-3 mt-sm-0">    
+            {% include figure.html path="assets/img/herald.jpg" title="<em>The New York Herald</em>" class="img-fluid rounded z-depth-1" %}   
+    <div class="row justify-content-sm-right">
+        <div class="col-sm-3 mt-3 mt-sm-0">
+            {% include figure.html path="assets/img/laamerica.jpg" title="<em>La América Ilustrada</em>" class="img-fluid rounded z-depth-1" %}
+        </div>
     </div>
-<div class="caption">
-    Pages from all three newspapers with headlines regarding the <em>Herald's</em> report from Cuba, the response from <em> el Diario</em>, and <em>La América Ilustrada</em>.
+    <div class="caption">
+        Pages from all three newspapers with headlines regarding the <em>Herald's</em> report from Cuba, the response from <em> el Diario</em>, and <em>La América Ilustrada</em>.
+    </div>
 </div>
 
-In the Herald’s view, their reporter had been forced into a hasty escape from Cuba after El Diario published an incendiary letter from its New York correspondent and a follow up article that put him at risk of being arrested or executed by Spanish authorities. They further claimed that Herald’s favorable depictions of the insurgency had caused consternation on the island because they ran counter to the official narrative reported in El Diario. The letter from El Diario’s correspondent in New York and subsequent articles insisted, however, that the original affront had been committed by the editors of the Herald whose reporter had travelled to Cuba under false pretenses which led to his detainment. The two newspapers continued to trade blows months later, with El Diario accusing the New York publication of having lost its standards to the point of printing, “unas paparruchas inventadas en la agencia laborante y puestas en forma de documentos mambises acabados de llegar de la manigua.”
+<p>In the Herald’s view, their reporter had been forced into a hasty escape from Cuba after El Diario published an incendiary letter from its New York correspondent and a follow up article that put him at risk of being arrested or executed by Spanish authorities. They further claimed that Herald’s favorable depictions of the insurgency had caused consternation on the island because they ran counter to the official narrative reported in El Diario. The letter from El Diario’s correspondent in New York and subsequent articles insisted, however, that the original affront had been committed by the editors of the Herald whose reporter had travelled to Cuba under false pretenses which led to his detainment. The two newspapers continued to trade blows months later, with El Diario accusing the New York publication of having lost its standards to the point of printing, “unas paparruchas inventadas en la agencia laborante y puestas en forma de documentos mambises acabados de llegar de la manigua.”</p>
 
 <div class="row">
     <div class="row justify-content-md-center">
@@ -51,7 +54,7 @@ In the Herald’s view, their reporter had been forced into a hasty escape from 
 </div>
 
 
-In responding to the charge of printing false documents and serving as the mouthpiece of the Cuban insurgents, the Herald’s response alluded to the Spanish government’s control of the newspaper by mocking the writer of El Diario in saying that: “A correspondent with such wonderful sources of information at his command and so great an acquaintance with the inner life of New York journalism must be of inestimable value to the Diario, which is a somewhat dull and sombre sheet, with that air of officialism”.
+<p>In responding to the charge of printing false documents and serving as the mouthpiece of the Cuban insurgents, the Herald’s response alluded to the Spanish government’s control of the newspaper by mocking the writer of El Diario in saying that: “A correspondent with such wonderful sources of information at his command and so great an acquaintance with the inner life of New York journalism must be of inestimable value to the Diario, which is a somewhat dull and sombre sheet, with that air of officialism”.</p>
 
 The dispute between the newspapers reveals an interconnectedness and familiarity between the public spheres of Cuba and the U.S. It also reveals the contest to control the circulation of news. In essence, the allegations of printing false documents and operating as state media are arguments about the veracity of circulation. That is, if it's printing fabricated news or only the perspective of a colonial government, can a newspaper actually be part of the flows of information in the modern print networks, or is this image merely a fabrication. 
 
