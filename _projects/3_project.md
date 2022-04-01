@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
+title: Langevin dynamics
+description: what happens Langevin dynamics meets Markov chain meets simulated annealing? :o
+img: assets/img/project_3_profile.png
 redirect: https://unsplash.com
 importance: 3
 category: work

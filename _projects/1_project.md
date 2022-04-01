@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: spectral Laplacian solver
+description: fun with Fourier-Bessel series and quantum vortices :>
+img: assets/img/project_1_profile.png
 importance: 1
 category: work
 ---
