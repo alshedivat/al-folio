@@ -123,15 +123,15 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
+  border-bottom: 1px solid var(--global-text-color);
+  background-color: var(--global-text-color);
   opacity: 100;
 }
 .navbar .dropdown-menu {
   background-color: var(--global-hover-color);
   border: 1px solid var(--global-divider-color);
   a:not(.active) {
-    color: var(--global-text-color);
+    color: var(--global-card-bg-color);
   }
   a:hover {
     color: var(--global-text-color-light);
@@ -193,7 +193,7 @@ blockquote {
     display: block;
     width: 22px;
     height: 2px;
-    background-color: var(--global-text-color);
+    background-color: var(--global-footer-bg-color);
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
