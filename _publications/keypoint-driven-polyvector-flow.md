@@ -16,9 +16,9 @@ _styles: >
     margin-bottom: 10px;
   }
 
-  .bbb:hover {
-    border: 1px solid black;
-  }
+#   .bbb:hover {
+#     border: 1px solid black;
+#   }
 ---
 # Keypoint-Driven Line Drawing Vectorization via PolyVector Flow
 
@@ -51,7 +51,7 @@ $$^2$$ Boston University
     <div class="col-sm mt-3 mt-md-0">
         <div class="bbb">
             <i class="fab fa-github"></i>
-            Code (TBD)
+            <a href="https://github.com/ivanpuhachov/line-drawing-vectorization-polyvector-flow"> Code </a>
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
