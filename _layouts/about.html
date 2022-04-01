@@ -41,6 +41,14 @@ layout: default
             <!-- Selected papers -->
             {%- include selected_papers.html %}
           {%- endif %}
+          {% if page.research_plan -%}
+            <!-- Research plans -->
+            {%- include research_plans.html %}
+          {%- endif %}
+          {% if page.research_plan -%}
+            <!-- Print history -->
+            {%- include print_history.html %}
+          {%- endif %}
           {%- if page.social %}
           <!-- Social -->
           <div class="social">
