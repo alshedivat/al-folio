@@ -1,12 +1,20 @@
 ---
 layout: page
-title: Submenus
+title: Research Plan
 nav: true
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: Print history
+      permalink: /print history/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: Multiethnic print history
+      permalink: /multiethnic/
+    - title: divider      
+    - title: Computational periodicals studies
+      permalink: /computational ps/
+    - title: divider
+    - title: Século 19 Brasil
+      permalink: /brasil 19th/
+    - title: divider
+
 ---
