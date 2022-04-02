@@ -43,8 +43,10 @@ nav: true
 ## industry experience
 - Research intern, Qualcomm AI Research, San Diego, CA.
     - Source Compression Group, Jun. 2019--Dec. 2019.
+    - Mentor: [Yang Yang](https://yyang768osu.github.io/).
 - Research intern, Samsung Semiconductor Inc., San Diego, CA.
     - Deep Learning Group, Jun. 2018--Sep. 2018.
+    - Mentor: [Yoojin Choi](https://scholar.google.com/citations?user=haggDAwAAAAJ&hl=en).
 
 ## teaching exerpience
 At UCSD, I was a teaching assistant for the following courses:
