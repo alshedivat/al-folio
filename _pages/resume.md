@@ -10,7 +10,7 @@ nav: true
 ## education
 - **University of California, San Diego**, Sep. 2015--Jun. 2022 (expected)
     - Ph.D. candidate, Electrical and Computer Engineering.
-        - Advisor: Young-Han Kim, Sanjoy Dasgupta.
+        - Advisor: [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/), [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/).
     - M.S., Electrical and Computer Engieering, Dec. 2018.
 - **Seoul National University**, Mar. 2008--Aug. 2015.
     - B.S., Electrical and Computer Engineering.
@@ -23,8 +23,9 @@ nav: true
 
 ## honors and awards
 - Departmental Fellowship, Department of ECE, UCSD, 2015--2016.
-- Kwanjeong Scholarship for Graduate Study (5 years), [Kwanjeong Educational Foundation](http://en.ikef.or.kr/), 2015--2020.
-- Kwanjeong Scholarship for Undergraduate Study (2 years), [Kwnajeong Educational Foundation](http://en.ikef.or.kr/), 2010--2013.
+- Kwanjeong Scholarship [Kwanjeong Educational Foundation](http://en.ikef.or.kr/), 
+    - For Graduate Study (5 years), 2015--2020.
+    - For Undergraduate Study (2 years), 2010--2013.
 - University Students Contest of Mathematics, Korean Mathematical Society
     - Bronze Prize (2013) (math majors).
     - Gold Prize (2010), Honorable Mention (2009) (non-math majors).
@@ -59,11 +60,11 @@ At UCSD, I was a teaching assistant for the following courses:
     - designed hands-on programming assignments for the class based on Julia.
     - topics: basic source coding and channel coding algrotihms.
 
-## selected coursework
+## selected graduate coursework
 - **ECE**: Information Theory, Universal Information Processing, Network Information Theory, Algebraic Coding Theory, Probabilistic Coding Theory, Random Processes, Dynamical Systems under Uncertainty, Image and Video Restoration, Semidefinite Optimization and Sum-Of-Squares.
 - **CSE**: Probabilistic Reasoning and Learning, Distribution Learning and Testing, Randomized Algorithms, Advanced Optimization, Online Learning, Unsupervised Learning.
 - **MATH/STAT/DS**: Probability Theory (A,B,C), Mathematical Statistics (A,B,C), Applied Statistics (A,B), Markov Chains and Mixing Times, Convex Analysis and Optimization (A,B,C), Highdimensional Statistics, Multivariate Analysis, Probabilistic Combinatorics and Algorithms (A), Geometry of Data.
 
 ## miscellaneous
-- Military service (21 months), Republic of Korea Army, 2011--2012.
+- Military service, Republic of Korea Army, Mar. 2011--Dec. 2012.
 
