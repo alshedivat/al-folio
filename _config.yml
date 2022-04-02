@@ -82,8 +82,8 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: off-the-record  # your blog must have a name for it to show up in the nav bar
-blog_description: what I am thinking about, when I am procrastinating
+blog_name: # off-the-record  # your blog must have a name for it to show up in the nav bar
+blog_description: # what I am thinking about, when I am procrastinating
 permalink: /blog/:year/:title/
 
 # Pagination
