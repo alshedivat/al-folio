@@ -1,10 +1,9 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: Ngan Thi Dong
+description: a project with a background image
+img: assets/img/hppi_star.png
+importance: 1
 ---
 
 Every project has a beautiful feature showcase page.

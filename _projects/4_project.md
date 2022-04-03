@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Transparency in Graph ML
+description: Interpreting graph neural networks
+img: assets/img/Interpret.pdf
 importance: 3
-category: fun
+category: Graph ML
 ---
 
 Every project has a beautiful feature showcase page.

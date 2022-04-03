@@ -1,12 +1,11 @@
 ---
 layout: page
-title: submenus
+title: students
+permalink: /students/
+description: 
 nav: true
-dropdown: true
-children: 
-    - title: publications
-      permalink: /publications/
-    - title: divider
-    - title: projects
-      permalink: /projects/
+horizontal: false
 ---
+
+
+

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: privacy preserving graph ML
+description: Attacks and defenses for graph neural networks
+img: assets/img/privacy.pdf
 importance: 2
-category: work
+category: Graph ML
 ---
 
 Every project has a beautiful feature showcase page.
