@@ -6,7 +6,7 @@ subtitle: <a href='#'>Assistant Professor, TU Delft</a>. Address. Contacts. Moto
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic.jpg
   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
