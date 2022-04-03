@@ -13,6 +13,7 @@ $font-mono-line-height: {{ font_mono_line_height }};
 
 // Dimensions
 $max-content-width: {{ site.max_width }};
+// $max-content-width: {{ site.max_width }};
 
 @import
   "variables",

@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: default_no-top-margin
+no_top_margin: true
 ---
 <!-- _layouts/post.html -->
 {%- assign year = page.date | date: "%Y" -%}
@@ -16,7 +17,9 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h1 class="blog-title">{{ page.title }}</h1>
+
+    <!-- 
     <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} • {{ page.author }}{%- endif -%}{%- if page.meta -%} • {{ page.meta }}{%- endif -%}</p>
     <p class="post-tags">
       <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}"> <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
@@ -37,6 +40,51 @@ layout: default
       {% endif %}
 
     </p>
+    -->
+
+    <div class="flex mobile-column align-center">
+      <!-- Read Time + Date -->
+      <div class="post-meta"> 
+        <!-- 
+          {{read_time}} min read &nbsp; &middot; &nbsp;
+        -->
+        {{ page.date | date: '%A, %B %-d, %Y, %H:%M:%S' }}
+      </div>
+
+      <!-- Post Tags -->
+      <div class="post-tags">
+        <!-- "year bag" icon.
+          <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
+          <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
+        -->
+        
+          {% if tags != "" %}
+          <!-- 
+            &nbsp; &middot; &nbsp;
+          -->
+            {% for tag in page.tags %}
+              <a href="{{ tag | prepend: '/blog/tag/' | prepend: site.baseurl}}" class="neizod-tag">
+                <!-- hashtag icon
+                <i class="fas fa-hashtag fa-sm"></i> 
+                -->
+                {{ tag | strip | capitalize }}</a>
+            {% endfor %}
+          {% endif %}
+
+          <!-- Category
+          {% if categories != "" %}
+            {% if tags != "" %}
+              &nbsp; &middot; &nbsp;
+            {% endif %}
+            {% for category in post.categories %}
+              <a href="{{ category | prepend: '/blog/category/' | prepend: site.baseurl}}">
+              <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
+            {% endfor %}
+          {% endif %}
+          -->
+        
+      </div>
+    </div>
   </header>
 
   <article class="post-content">

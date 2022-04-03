@@ -329,20 +329,6 @@ footer.sticky-bottom {
       //margin-bottom: 0;
       padding-bottom: 0;
 
-      a {
-        color: $light-purple-color;
-        text-decoration: none;
-        cursor: pointer;
-      }
-
-      .neizod-tag{
-        font-family: "Raleway", sans-serif;
-        font-variant-ligatures: common-ligatures;
-        border: 1px dashed $border-color;
-        border-radius: 5px;
-        padding: 0 0.333em;
-        margin: 0.125em;
-      }
     }
     a {
       color: var(--global-text-color);
@@ -590,18 +576,27 @@ html.transition *:after {
 }
 
 // Extra Markdown style (post Customization)
+
 .post{
+  .post-header {
+    .blog-title{
+      margin: 1em 0 0.5em;
+      font-size: 2.1em;
+    }
+  }
   .post-meta{
     color: var(--global-text-color-light);
-    font-size: 0.875rem;
     margin-bottom: 0;
+    font-size: 1rem;
+    font-style: italic;
   }
   .post-tags{
     color: var(--global-text-color-light);
-    font-size: 0.875rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
+    font-size: 1rem;
+    margin: 0 1em;
     a {
-      color: var(--global-text-color-light);
+      color: var(--global-link-color);
       text-decoration: none;
       &:hover {
         color: var(--global-theme-color);
@@ -609,17 +604,12 @@ html.transition *:after {
     }
   }
   .post-content{
-        blockquote {
-          border-left: 5px solid var(--global-theme-color);
-          padding: 8px;
-      }
-}
-}
-
-.post-tags {
-  color: var(--global-text-color-light);
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
+    margin-top: 1.11rem;
+    blockquote {
+      border-left: 5px solid var(--global-theme-color);
+      padding: 8px;
+    }
+  }
 }
 
 // ------------------------------------------------------------------
@@ -708,10 +698,10 @@ html.transition *:after {
 .blog-title {
   font-family: $font-head;
   line-height: 1.7;
-  font-size: 2rem;
+  font-size: 2rem; // In Polar's theme, this is 2rem
 }
 .neizod-tag{
-  font-family: $font-body;
+  font-family: $font-head;
   font-variant-ligatures: common-ligatures;
   border: 1px dashed $border-color;
   border-radius: 5px;
