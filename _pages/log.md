@@ -39,6 +39,7 @@ nav: true
   <summary markdown="span"> March 25-April 2 </summary>
   Explained Rishi's TreeRep paper to Alex, derived a possible distortion bound for TreeRep based on Gromov's tree approximation algorithm from 1987 *which Alex pointed me to). Worked out some initial ideas for a related problem that Rishi told me about. Completed Part I of Sutton and Barto (so chapters 6, 7 and 8), which covers all of their treatment of tabular RL. Watched David Silver's Lectures 1-5. Looked up the proof of convergence of generalized Q-learning in the GMDP paper by Littman and Szepesvari, tried to pin down the bottlenecks for convergence rates. Seems to involve convergence rates for the Robbins-Monro type fixed point approximation algorithm. Is that the bottleneck for convergence rates? Looked up a few other early papers in RL. Completed another 597 assignment. Added clarifications in an earlier assignment and corrected some mistakes in the new one. 
 </details>
+  </details>
  <details>
    <summary markdown="span"> April </summary>
 </details>
