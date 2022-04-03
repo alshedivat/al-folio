@@ -128,7 +128,7 @@ blockquote {
   opacity: 100;
 }
 .navbar .dropdown-menu {
-  background-color: var(--global-hover-color);
+  background-color: var(--global-text-color-light);
   border: 1px solid var(--global-divider-color);
   a:not(.active) {
     color: var(--global-text-color);
@@ -144,7 +144,7 @@ blockquote {
   color: var(--global-text-color);
     &:hover {
       color: var(--global-hover-color);
-      background-color: var(--global-bg-color);
+      background-color: var(--global-background-color);
     }
 }
 .navbar.navbar-light {
