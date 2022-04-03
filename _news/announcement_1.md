@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2021-12-15 
 inline: true
 ---
 
-A simple inline announcement.
+Our paper "Membership Inference on Graph Neural Networks" together with Emmanuel Iyiola and Wolfgang Nejdl won the best student paper award at IEEE TPS 2021
