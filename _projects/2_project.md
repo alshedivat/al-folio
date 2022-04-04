@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Predicting House Prices
-description: Python · Advanced Regression Techniques · Price Prediction
+description: Python · House Data · Regression
 img: assets/img/house.jpg
 importance: 2
 category: data science
