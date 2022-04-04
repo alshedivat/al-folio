@@ -13,7 +13,7 @@ Journal: A+: top 7%, A: top 17%;
 
 Conferences: A+: top 4%, A: top 14%
 
-First authors with * are the students in our lab. 
+Authors with * are the students in our lab. 
 
 <div class="publications">
 
