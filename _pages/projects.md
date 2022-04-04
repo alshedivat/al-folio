@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: fun only!
+description: a collection of my fun projects! :>
 nav: true
 display_categories: [work, no unfun]
 horizontal: false
