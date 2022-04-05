@@ -27,7 +27,7 @@ _styles: >
 $$^1$$ Université de Montréal \\
 $$^2$$ Boston University
 
-**Accepted to SIGGRPAPH Asia 2021**
+**SIGGRPAPH Asia 2021**
 
 <div class="row justify-content-center">
     <div class="col-sm mt-3 mt-md-0 mx-auto">
@@ -57,7 +57,7 @@ $$^2$$ Boston University
     <div class="col-sm mt-3 mt-md-0">
         <div class="bbb">
             <i class="fas fa-database"></i>
-            Dataset (TBD)
+            <a href="https://github.com/ivanpuhachov/line-drawing-vectorization-polyvector-flow-dataset"> Data </a>
         </div>
     </div>
 </div>
