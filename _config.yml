@@ -156,6 +156,8 @@ plugins:
   - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
+  - csl-styles
+  - citeproc-ruby
 
 # Sitemap settings
 defaults:
