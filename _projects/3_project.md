@@ -7,18 +7,18 @@ importance: 1
 category: Graph ML
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Graphs are a highly informative, flexible, and a natural way to represent data. Machine
+Learning for graphs (MLG), whereby classical ML is generalized to irregular graph domains, has
+enjoyed a recent renaissance, leading to a dizzying array of models and their applications in drug
+design, Web and recommender systems, social networks, and many more. The key challenge in MLG is to effectively learn to encode 
+discrete graph structure into low-dimensional vector representations or embeddings which are then used in various prediction tasks. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The most popular GRL approaches include (i) random-walk based methods  which first transforms the graph into node sequences, in which, the co-occurrence of two nodes measures the structural distance between them; (ii) matrix-factorization based methods which uses low ranked
+decomposition of some node similarity matrix as node embeddings; and (iii) graph neural networks
+(GNNs) which encode graph structure directly in the latent representations via neighborhood aggregation strategies. While these methods have shown state of the art improvements in various node/edge/graph level tasks on graphs, there are still open questions about their effectiveness for datasets with varying structural and task properties.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

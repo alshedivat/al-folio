@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: research
 permalink: /projects/
-description: Current projects
+description: 
 nav: true
 display_categories: [Graph ML, Applications]
 horizontal: false
