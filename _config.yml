@@ -207,7 +207,7 @@ scholar:
   last_name: [Ortiz Baco]
   first_name: [Joshua]
 
-  style: apa
+  style: modern-language-association-8th-edition
   locale: en
 
   source: /_bibliography/
