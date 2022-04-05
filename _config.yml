@@ -210,13 +210,13 @@ scholar:
   first_name: [Joshua]
 
   dependent:
-    style: mla
+    style: apa
   locale: en
 
   source: /_bibliography/
   bibliography: papers.bib
-  print_history: print_history.bib
-  brasil_19th: brasil_19.bib
+#  print_history: print_history.bib
+#  brasil_19th: brasil_19.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
