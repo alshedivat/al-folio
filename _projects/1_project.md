@@ -37,4 +37,5 @@ $$
 
 where $$ a_s $$ is the boson–boson <i>s</i>-wave scattering length. $$ V(r,\theta) $$ is the potential. In our case, we want to confine the BECs inside an infinite circular potential well. The potential is then infinite outside the domain, and equals to some constant inside.
 
-The key to numerically solve the Gross-Pitaevskii equation is dealing with the Laplacian operator $$ \nabla^2 $$. Due to the infinite potential well, the BEC vanishes at the domain edge. This facts make Fourier-Bessel series an ideal choice to decompse the wave function in the radial direction.
+The key to numerically solve the Gross-Pitaevskii equation is dealing with the Laplacian operator $$ \nabla^2 $$. Due to the infinite potential well, the BEC vanishes at the domain edge (homogeneous Dirichlet boundary condition). This fact makes Fourier-Bessel series an ideal choice to decompse the wave function in the radial direction. We uses the Fast Fourier transform in the azimuthal direcation to isolate all angular modes, followed by a discrete Hankel transform of corresponding order within each mode for radial decomposition. Bessel functions are the eigenfunctions of the Laplacian, and the eigenvalues are their roots. The integration of the Laplacian is then achieved by a pure spectral time scheme:
+
