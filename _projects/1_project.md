@@ -29,10 +29,12 @@ $$
 i\hbar \frac{\partial }{\partial t} \psi (r,\theta) =  -\frac{\hbar^2}{2m} \nabla^2 \psi + V(r,\theta)\psi + U_0 |\psi|^2 \psi.
 $$
 
-$$ \psi (r,\theta) $$ is the wave function describing the state of BEC. $$ i $$ is the imaginary number, $$ m $$ is the mass of each individual partial, $$ \hbar $$ is the reduced [Planck constant](https://en.wikipedia.org/wiki/Planck_constant). $$ U_0 $$ represents the interactions between particles, defined as:
+$$ \psi (r,\theta) $$ is the wave function describing the state of BEC. $$ i $$ is the imaginary number, $$ m $$ is the mass of each individual particles, $$ \hbar $$ is the reduced [Planck constant](https://en.wikipedia.org/wiki/Planck_constant). $$ U_0 $$ represents the interactions between particles, defined as:
 
 $$
 U_0 = \frac{4 \pi \hbar^2 a_s}{m},
 $$
 
 where $$ a_s $$ is the boson–boson <i>s</i>-wave scattering length. $$ V(r,\theta) $$ is the potential. In our case, we want to confine the BECs inside an infinite circular potential well. The potential is then infinite outside the domain, and equals to some constant inside.
+
+The key to numerically solve the Gross-Pitaevskii equation is dealing with the Laplacian operator $$ \nabla^2 $$. Due to the infinite potential well, the BEC vanishes at the domain edge. This facts make Fourier-Bessel series an ideal choice to decompse the wave function in the radial direction.
