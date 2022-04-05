@@ -12,15 +12,6 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
-table {
-    td, th {
-      color: var(--global-text-color);
-    }
-    td {
-      font-size: 1rem;
-    }
-}
-
 a, table.table a {
   color: var(--global-theme-color);
   &:hover {
@@ -85,7 +76,6 @@ blockquote {
 }
 
 // Citation
-
 .citation, .citation-number {
   color: var(--global-theme-color);
 }
@@ -138,7 +128,7 @@ blockquote {
   opacity: 100;
 }
 .navbar .dropdown-menu {
-  background-color: var(--global-text-color-light);
+  background-color: var(--global-hover-color);
   border: 1px solid var(--global-divider-color);
   a:not(.active) {
     color: var(--global-text-color);
@@ -154,7 +144,7 @@ blockquote {
   color: var(--global-text-color);
     &:hover {
       color: var(--global-hover-color);
-      background-color: var(--global-background-color);
+      background-color: var(--global-bg-color);
     }
 }
 .navbar.navbar-light {
@@ -231,6 +221,18 @@ blockquote {
   .bottom-bar {
     transform: rotate(0);
   }
+}
+
+
+// News
+
+.news table td {
+  font-size: 1rem;
+  color: var(--global-text-color);
+}
+
+.news table th {
+  color: var(--global-text-color);
 }
 
 // Social (bottom)

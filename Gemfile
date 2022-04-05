@@ -17,6 +17,4 @@ group :jekyll_plugins do
     gem 'webrick'
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
-    gem 'citeproc-ruby'
-    gem 'csl-styles' 	
 end
