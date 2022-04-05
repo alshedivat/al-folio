@@ -8,13 +8,13 @@ children:
       permalink: pages/research_plan/print_history
     - title: divider
     - title: Multiethnic print history
-      permalink: /multiethnic/
+      permalink: pages/research_plan/multiethnic
     - title: divider      
     - title: Computational periodicals studies
-      permalink: /computational ps/
+      permalink: pages/research_plan/computational_periodical_studies
     - title: divider
     - title: Século 19 Brasil
-      permalink: /brasil 19th/
+      permalink: pages/research_plan/brasil_19th
     - title: divider
 
 ---
