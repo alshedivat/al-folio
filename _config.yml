@@ -210,7 +210,7 @@ scholar:
   first_name: [Joshua]
 
   dependent:
-    style: modern-language-association-8th-edition
+    style: mla
   locale: en
 
   source: /_bibliography/
