@@ -1,14 +1,19 @@
 "Gera":
-  - firstname: ["Gera", "Pulkit"]
-  - lastname: ["Pulkit", "Gera"]
-    url: "https://darthgera123.github.io/"
+  - firstname: ["Gera", "Pulkit", "Pulkit Gera", "Gera Pulkit"]
+    url: https://darthgera123.github.io
 
 "KT":
-  - firstname: ["Aakash", "KT"]
-  - lastname: ["KT", "Aakash"]
-    url: "https://aakashkt.github.io/"
+  - firstname: ["Aakash", "KT", "KT Aakash", "Aakash KT"]
+    url: https://aakashkt.github.io
 
 "Narayanan":
-  - firstname: ["P.J.", "Narayanan"]
-  - lastname: ["Narayanan", "PJ", "P.J."]
-    url: "https://en.wikipedia.org/wiki/P._J._Narayanan"
+  - firstname: ["P.J.", "Narayanan", "P.J. Narayanan", "Narayanan P.J.", "P. J. Narayanan"]
+    url: https://scholar.google.com/citations?user=3HKjt_IAAAAJ
+
+"Sakurikar":
+  - firstname: ["Parikshit Sakurikar", "Sakurikar", "Parikshit"]
+    url: https://researchweb.iiit.ac.in/~parikshit.sakurikar
+
+"Dhawal":
+  - firstname: ["Dhawal", "Sirikonda", "Sirikonda Dhawal", "Dhawal Sirikonda"]
+    url: https://dhawals1939.github.io

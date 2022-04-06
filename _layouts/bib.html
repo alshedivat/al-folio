@@ -20,7 +20,7 @@
           <!-- Title -->
           <div class="title">{{entry.title}}</div>
           <!-- Conference -->
-          <div class="Conf"><b>Venue:</b><i>{{entry.conference}}</i></div>
+          <div class="Conf"><b>Venue:</b> <i>{{entry.conference}}</i></div>
           <brea></brea>
           <!-- Author -->
           <div class="author">
@@ -43,14 +43,14 @@
             
             {%- if forloop.length == 1 -%}
               {%- if author_is_self %}
-                <em>{{author.first}} {{author.last}}</em>
+              <em>{{author.first}} {{author.last}}</em>
               {%- else -%}
                 {{author.first}} {{author.last}}
               {%- endif -%}
             {%- else -%}
               {%- unless forloop.last -%}
                 {% if author_is_self %}
-                  <em>{{author.first}} {{author.last}}</em>,&nbsp;
+                <em>{{author.first}} {{author.last}}</em>,&nbsp;
                 {%- else -%}
                   {% if coauthor_url -%}
                     <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
