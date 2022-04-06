@@ -2,7 +2,7 @@
 layout: page
 title: Customer Segmentation
 description: · Python<BR>· E-Commerce Data<BR> · Classification
-img: assets/img/lego.jpg
+img: assets/img/fruit.jpg
 importance: 1
 category: data science
 github: https://github.com/slaisha/Customer-Segmentation/blob/f6b77c246beab1aa565f702aca76c470ea087f8e/customer%20segmentation.ipynb
