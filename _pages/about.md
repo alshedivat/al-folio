@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Hello! Welcome to my data science portfolio.
+subtitle: Hello! Welcome to my <a href='https://slaisha.github.io/me/projects/'>data science portfolio</a>.
 
 profile:
   align: right
