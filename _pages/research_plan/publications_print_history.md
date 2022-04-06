@@ -10,7 +10,7 @@ years: [2020, 2019, 2014, 2013, 2012, 2009, 2008, 2003, 2000, 1999, 1941, 1990, 
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f print_history -q @*[year=>1900] %}
+  {% bibliography -f print_history -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
