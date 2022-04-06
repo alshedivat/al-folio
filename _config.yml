@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Paralelepípedo # the website title (if blank, full name will be used instead)
+title: # the website title (if blank, full name will be used instead)
 first_name: Joshua
 middle_name: G.
 last_name: Ortiz Baco
@@ -83,7 +83,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Paralelepípedo  # your blog must have a name for it to show up in the nav bar
+blog_name: paralelepípedo  # your blog must have a name for it to show up in the nav bar
 blog_description: A thing I made! #
 permalink: /blog/:year/:title/
 
