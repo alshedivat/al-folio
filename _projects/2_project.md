@@ -9,10 +9,10 @@ category: work
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/2sym_neu.gif" title="2 vortices" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./assets/img/2sym_neu.gif" title="2 vortices" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/2vortex.gif" title="1 vortex" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="/assets/img/2vortex.gif" title="1 vortex" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

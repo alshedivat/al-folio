@@ -10,13 +10,13 @@ This project develops a fast and accurate [Fourier-Bessel](https://en.wikipedia.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/2asym_dirich.gif" title="2 vortices" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./assets/img/2asym_dirich.gif" title="2 vortices" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/anime.gif" title="1 vortex" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./assets/img/anime.gif" title="1 vortex" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Pousuille.png" title="Zeroth order Bessel functions of the first kind" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./assets/img/Pousuille.png" title="Zeroth order Bessel functions of the first kind" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
