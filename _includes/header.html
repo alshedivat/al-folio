@@ -42,6 +42,15 @@
                   {%- endif -%}
                 </a>
               </li>
+              {% if site.cv_name %}
+              <!-- CV -->
+              <li class="nav-item {% if page.url contains 'cv' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/cv/' | relative_url }}">CV
+                  {%- if page.title == "CV" -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
               {%- endif %}
 
               <!-- Other pages -->

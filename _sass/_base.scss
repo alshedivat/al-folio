@@ -143,7 +143,7 @@ blockquote {
 .dropdown-item {
   color: var(--global-text-color);
     &:hover {
-      color: var(--global-hover-color);
+      color: var(--global-text-color-light);
       background-color: var(--global-bg-color);
     }
 }
@@ -159,7 +159,7 @@ blockquote {
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
     &:hover {
-      color: var(--global-hover-color);
+      color: var(--global-divider-color);
     }
   }
   .navbar-nav .nav-item.active>.nav-link {
@@ -167,7 +167,7 @@ blockquote {
       font-weight: bolder;
       color: var(--global-theme-color);
       &:hover {
-        color: var(--global-hover-color);
+        color: var(--global-divider-color);
       }
   }
   .navbar-brand.social {
