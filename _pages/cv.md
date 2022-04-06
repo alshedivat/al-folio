@@ -1,7 +1,6 @@
 ---
-layout: pages
+layout: cv
 title: CV
-permalink: /
 years: [2021, 2020, 2019]
 ---
 # Joshua G. Ortiz Baco
