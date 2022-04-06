@@ -117,6 +117,7 @@ news_limit: 3
 
 # Markdown and syntax highlight
 markdown: kramdown
+style:  kjhealy
 highlighter: rouge
 highlight_theme_light: github  # https://github.com/jwarby/jekyll-pygments-themes
 highlight_theme_dark: native  # https://github.com/jwarby/jekyll-pygments-themes
