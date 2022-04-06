@@ -8,6 +8,8 @@ category: work
 ---
 This project develops a fast and accurate [Fourier-Bessel](https://en.wikipedia.org/wiki/Fourier%E2%80%93Bessel_series) based spectral Laplacian solver in 2D polar coordinates using [discrete Hankel transform](https://www.intechopen.com/chapters/65719). We use it to study quantum vortices in Bose-Einstein condensates and some other physical equations associated with Laplacian operator!
 
+<!-- <img src="/assets/img/2asym_dirich.gif"> -->
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="./assets/img/2asym_dirich.gif" title="2 vortices" class="img-fluid rounded z-depth-1" %}
