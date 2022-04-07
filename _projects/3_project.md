@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Customer Segmentation
-description: · Python<BR>· E-Commerce Data<BR> · Classification
+description: · E-Commerce Data<BR> · Classification
 img: assets/img/fruit.jpg
 importance: 1
 category: data science
