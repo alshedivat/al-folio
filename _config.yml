@@ -209,7 +209,7 @@ scholar:
   first_name: [Joshua]
 
   dependent:
-    style: apa
+    style: modern-language-association
   locale: en
 
   source: /_bibliography/
