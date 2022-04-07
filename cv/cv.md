@@ -7,7 +7,7 @@ years: [2021, 2020, 2019]
 # Joshua G. Ortiz Baco
 Digital Humanist, Digital Scholarship Librarian.
 
-
+---
 ## Currently
 
 `April 2022-current`<br>
@@ -16,16 +16,17 @@ __Digital Scholarship Librarian, Assistant Professor__<br>University Libraries, 
 __Digital Repository Manager__<br>Puerto Rico Archivo de Herencia Arquitectónica | Puerto Rico Architectural Heritage Archive
 <br><br>`January 2017-August 2019`<br>
 __Digital Scholarship Office Graduate Research Assistant__<br>Latin American Digital Initiatives and Digital Scholarship Office, LLILAS Benson, University of Texas at Austin
+---
 ### Research areas
 
 Multilingual DH applied to 19th century Brazilian cultural studies, Cuban and Puerto Rican cultural studies, and the history of race and abolitionism.
 
-
+---
 ### Research interests
 
 My research combines cultural studies, digital humanities, and critical analog/digital archival theory<sup>[1]</sup> to remediate non-English historical objects in underresourced and underrepresentated cultural heritage institutions. 
 
-
+---
 ### Education
 
 `2016-2022`<br>
@@ -37,7 +38,7 @@ __M.A. - Department of Comparative Literature__ <br> Universidad de Puerto Rico,
 `2011-2012`<br>
 __M.A. - Facultad de Filosofía y Letras__ <br> Universidad Autónoma de Madrid
 
-
+---
 ### Awards
 
 `2020-2021` Graduate School Thematic Diversity Dissertation Fellowship, College of Liberal Arts, UT Austin.
