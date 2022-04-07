@@ -2,7 +2,7 @@
 layout: page
 title: Customer Segmentation
 description: · E-Commerce Data<BR> · Classification
-img: assets/img/fruit.jpg
+img: assets/img/fruit.png
 importance: 2
 category: data science
 github: https://github.com/slaisha/Customer-Segmentation/blob/f6b77c246beab1aa565f702aca76c470ea087f8e/customer%20segmentation.ipynb
