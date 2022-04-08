@@ -16,7 +16,7 @@ category: work
     Samples drawn from a uniform (left) and a non-uniform (right) distribution
 </div>
 
-Blah
+ToDo
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -34,4 +34,3 @@ Collaborators: Lolian Shtembari (MPP)
 Preprint available [here](https://arxiv.org/abs/2111.02252)
 
 PyPI project page: <https://pypi.org/project/spacings/>
-The project is currently funded by the Munich Data Science Institute (MDSI): <https://www.mdsi.tum.de/en/mdsi/research/seed-funds-2021/netrium/>
