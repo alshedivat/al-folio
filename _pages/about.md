@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 description: 
-# <strong><font color=gray> Ph.D. Candidate | CSE | The Chinese University of Hong Kong </font></strong><br /> 
+# <strong><font color=gray> Ph.D. | CSE | The Chinese University of Hong Kong </font></strong><br /> 
 
 profile:
   align: right
@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 # teaching: true
 ---
 <br> 
-<strong>Ph.D. Candidate</strong><br> 
+<strong>Ph.D.</strong><br> 
 Department of Computer Science and Engineering<br> 
 The Chinese University of Hong Kong<br> 
 
@@ -30,7 +30,7 @@ Email: yuli@cse.cuhk.edu.hk<br>
 <br> 
 <br> 
 
-I am persuing my Ph.D degree at **[The Chinese University of Hong Kong](https://www.cse.cuhk.edu.hk/)** (Shatin, N.T., Hong Kong), under the supervision of Prof.**[Qiang Xu](https://www.cse.cuhk.edu.hk/people/faculty/qiang-xu/)**. I received my Master degree with 'Cum Laude' in 2017 from **[Katholieke Universiteit Leuven](https://www.kuleuven.be/kuleuven/)** (KU Leuven, Leuven, Belgium), under the supervision of **[Prof.Erik Jan Marinissen](https://www.linkedin.com/in/erikjanmarinissen/?originalSubdomain=be)** and **[Prof.Hailong Jiao](http://www.pku-vlsi.com/sample-page/hailong_jiao/)**. Before that, I received the Bachelor of Science and Bachelor of Engineering degree in 2016 from both **KU Leuven** and **[University of Electronic Science and Technology of China](https://www.uestc.edu.cn/)** (UESTC, Chengdu, China), respectively.
+I have sucessfully defended my Ph.D thesis at **[The Chinese University of Hong Kong](https://www.cse.cuhk.edu.hk/)** (Shatin, N.T., Hong Kong), under the supervision of Prof.**[Qiang Xu](https://www.cse.cuhk.edu.hk/people/faculty/qiang-xu/)**. I received my Master degree with 'Cum Laude' in 2017 from **[Katholieke Universiteit Leuven](https://www.kuleuven.be/kuleuven/)** (KU Leuven, Leuven, Belgium), under the supervision of **[Prof.Erik Jan Marinissen](https://www.linkedin.com/in/erikjanmarinissen/?originalSubdomain=be)** and **[Prof.Hailong Jiao](http://www.pku-vlsi.com/sample-page/hailong_jiao/)**. Before that, I received the Bachelor of Science and Bachelor of Engineering degree with honor in 2016 from both **KU Leuven** and **[University of Electronic Science and Technology of China](https://www.uestc.edu.cn/)** (第四轮学科评估A+学科，UESTC, Chengdu, China), respectively.
 
 Currently, my research interest lies in the intersection among computer security, machine learning and software engineering, with special emphasis in AI security and AI testing.
 
