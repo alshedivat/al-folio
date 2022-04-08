@@ -1,3 +1,14 @@
+---
+layout: post
+date: 2024-06-01
+inline: true
+expect: true
+---
+
+Master of Science in Complex Adaptive Systems <br>
+<b>Chalmers University of Technology, Sweden </b>
+
+
 <!-- ---
 layout: post
 title: A long announcement with details

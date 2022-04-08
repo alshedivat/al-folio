@@ -5,4 +5,4 @@ inline: true
 ---
 
 Bachelor of Applied Science in Engineering Science, Major in Engineering Physics  
-<b>University of Toronto</b>
+<b>University of Toronto, Canada</b>
