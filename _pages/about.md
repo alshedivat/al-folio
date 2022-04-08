@@ -1,24 +1,36 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+nav: false
+subtitle: <a href='https://www.tum.de/'>TU Munich</a>, Department of Physics, <a href="https://www.ph.nat.tum.de/cosmic-particles/experimental-physics-with-cosmic-particles/">Experimental Physics with Cosmic Particles</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: southpole.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Room 2019</p>
+    <p>James-Franck-Straße 1</p>
+    <p>D-85748, Garching bei München</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Neutrinos are the most abundand constituents of matter in our universe, and at the same time the least well known. With large sacle experiments, such as the IceCube Neutrino Observatory at the South Pole, we collect data to better understand these elusive particles, and to uncover long standing mysteries.
+With the usage of cutting edge technology and methods, such as moden machine learning aided data science, I want to extract as much knowledge out of our data as possible.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+As a scientist I am working mostly on, and am interested in:
+* Neutrino physics, in paricular oscillations
+* Statistiacal and computational methods
+* Machine learning and data science
+
+The [projects page](/projects/) describes some of my current and recent works.
+
+I am a:
+* Member of the <a href="https://icecube.wisc.edu/">IceCube collaboration</a>
+* PI in the <a href="https://www.sfb1258.de/">Collaborative Reserach Center 1258</a>
+* Member of the <a href="https://www.punch4nfdi.de/">PUNCH4NFDI</a> consortium
+* Fellow of the <a href="https://www.origins-cluster.de/infrastruktur/odsl">Origins Data Science Lab</a>
