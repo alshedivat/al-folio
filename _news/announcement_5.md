@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I am now a Reseach Fellow at Ole Jensen's Neuronal Oscillations Research Group! 😄
-date: 2022-04-09 09:40:00-0400
+date: 2022-04-09
 inline: false
 ---
 
