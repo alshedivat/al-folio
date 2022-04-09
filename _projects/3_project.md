@@ -38,7 +38,7 @@ The simulation results are very interesting, the particles spontaneously go into
     </div>
 </div>
 <div class="caption">
-    Simulation of 9, 16, and 25 particles. <b>Black dots</b>: Initial position, <b>Red dots</b>: Ending position, <b>Blue arrows</b>: Initial velocities. The particle trajectories are omitted for the sanity of viewers. :>
+    Simulation of 9, 16, and 25 particles. <b>Black dots</b>: Initial position, <b>Red dots</b>: Ending position, <b>Blue arrows</b>: Initial velocities. The particle trajectories are omitted for viewer's sanity. :>
 </div>
 
 For more details on this project, you can read my [report](/assets/pdf/Final_project_report_RundongZhou.pdf).
