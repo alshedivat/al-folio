@@ -17,10 +17,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello. I am an Applied Economist from Nicaragua. Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an Applied Economist from Universidad Centroamericana (UCA), Nicaragua. So far, my research experience has comprised international economics and development economics. Macroeconomics, monetary economics, public policy and data science are also part of my academic and professional interests.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before entering UCA, I had participated in several mathematical olympiads, most notably, the International Mathematical Olympiad (IMO) and the Iberoamerican Mathematical Olympiad. On account of my performance in these competitions, UNO Foundation awarded me an Academic Excellence Scholarship for Undegraduate Studies. I am still actively involved in olympiad activities as an Euclidean Geometry instructor at Academia Sabatina de Jóvenes Talento (ASJTNIC), Nicaragua.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I engaged in research contests during higher education, such as the 17th Symposium for Young Researchers, organized by UCA, and the 2020 Economics, Finance, and Development Award, carried out by the Central Bank of Nicaragua. Last but not least, I also collaborated as an assistant student for two undergraduate courses, namely, Intermediate Macroeconomics 20201S and Time Series Econometrics 20202S.
 
-Currently looking for graduate opportunities.
+Presently, I am looking forward to pursuing graduate studies in Economics.
