@@ -72,8 +72,8 @@ wikidata_id: # your wikidata id
 dblp_url: https://dblp.org/pid/299/0233.html # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
-# contact_note: >
-  # You can even add a little note about which of these is the best way to reach you.
+contact_note: >
+  You can even add a little note about which of these is the best way to reach you.
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -85,7 +85,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # -----------------------------------------------------------------------------
 
 blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_description: Template now, will add more.
 permalink: /blog/:year/:title/
 
 # Pagination
