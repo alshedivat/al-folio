@@ -2,23 +2,69 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Embedded Systems, Mobile Software, Sensors, Epidermal Electronics</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Engineering Building 1</p>
+    <p>Sungkyunkwan University</p>
+    <p>Suwon, South Korea</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Undergraduate-Masters combined course student at [Won Research Group](https://www.skkuwongroup.online/), Sungkyunkwan University(SKKU). My research interests include **edge computing in bio-related sensors** and **sensory-neuromorphic systems**. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+#### Education 
+* B.S., Bio-Mechatronic Engineering, Sungkyunkwan University
+  * Mar 2015 - Feb 2023 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+* B.S., Electrical and Electronic Engineering, Sungkyunkwan University 
+ * Mar 2018 - Feb 2023 
+
+* M.S., Electrical and Computer Engineering, Sungkyunkwan University
+ * Advisor : [Sang Min Won](https://scholar.google.co.kr/citations?user=YZPo--YAAAAJ&hl=en)
+ * Mar 2023  - Jun 2024
+
+#### Experience
+* Sergeant, Republic of Korea Army(ROKA)
+  * English Interpretor at USAG Humphreys
+  * Jul 2016 - Apr 2018 
+
+* Intern, Fromnull Software
+  * Embedded Software, Application Software
+  * Apr 2018 - Nov 2018 
+
+* Intern(Long Term Training Program), Samsung Electronics 
+  * S.LSI Advanced Sensor Development 
+  * Image sensors, software framework, design patterns
+  * Aug 2020 - Dec 2020
+
+* Intern, Won Research Group 
+    * 2020 Dec - Current
+    * nRF52 embedded software, flexible electronics 
+   
+
+#### Awards & Scholarships
+* Creativity-Success Scholarship 
+  * 2019 Dec 
+  * Grantor : Sungkyunkwan University
+* Academic Scholarship 
+  * 2020 Jun, 2020 Dec
+  * Grantor : Sungkyunkwan University
+* Design Award, Smart car design competition 
+  * 2020 Aug
+  * Grantor : Sungkyunkwan University
+*  SKKU President's List 
+  * 2020 Dec
+  * Grantor : President, Sungkyunkwan University 
+* Capstone Project Award 
+  * 2021 Jun
+  * Grantor : Sungkyunkwan University
+* ICT Colloquium Outstanding Research Award
+  * 2021 Nov
+  * Grantor : Minister of Science and ICT, South Korea 
