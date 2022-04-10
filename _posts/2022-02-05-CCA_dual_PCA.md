@@ -160,7 +160,7 @@ We can also check this approximation:
 $$
 \begin{aligned}
 |XY^T  - Z_XZ_Y^T| &= | U\Sigma V^T - U_{1:n,1:k}\Sigma_{1:k}^\frac{1}{2} (V_{1:n, 1:k}\Sigma_{1:k}^\frac{1}{2})^T| \\
-&= | U\Sigma V^T - U_{1:n,1:k}\Sigma_{1:k} (V_{1:n, 1:k})^T|
+&= | U\Sigma V^T - U_{1:n,1:k}\Sigma_{1:k} (V_{1:m, 1:k})^T|
 \end{aligned}
 $$
 
@@ -174,7 +174,7 @@ $$Z_XZ_Y^T$$ is the similarity matrix based on the low dimensional embeddings.
 
 <hr>
 
-Based on SVD, $$U_{1:n,1:k}\Sigma_{1:k} (V_{1:n, 1:k})^T$$ is the best low-rank approximation of $$U\Sigma V^T$$.
+Based on SVD, $$U_{1:n,1:k}\Sigma_{1:k} (V_{1:m, 1:k})^T$$ is the best low-rank approximation of $$U\Sigma V^T$$.
 
 ## Summary of Math
 
