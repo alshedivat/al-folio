@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /
+order: 1
 subtitle: <i>Incoming Ph.D. Student, <a href="https://economics.emory.edu/">Department of Economics, Emory University</a>.</i>
 
 profile:
