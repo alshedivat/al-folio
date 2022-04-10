@@ -19,8 +19,9 @@ nav: true
 </div>
   
 Along the last five years, I have come up with several notes on Euclidean Geometry problem-solving strategies, 
-aimed at students preparing for international mathematical contests. All of these documents have been written in Spanish. 
-I do not intend, at least in the short term, to translate these handouts into English (there is already a profuse number of English-written materials
-out there). From my standpoint, one of the main reasons behind Central-American countries' poor performance in high-level competitions
-is the lack of adequate training resources in Spanish. I hope these notes prove useful for olympiad enthusiasts, 
-especially those from these countries. 
+aimed at students preparing for international mathematical contests. All of these documents have been written in Spanish. I hope these notes prove useful for olympiad enthusiasts, especially those from Central American countries. 
+    
+### Introductory
+
+* [Cuadriláteros cíclicos](http://jbacaob.github.io/files/cyclic_quad.pdf)
+* [Puntos notables del triángulo](http://jbacaob.github.io/files/triangle_centers.pdf)
