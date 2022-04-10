@@ -34,15 +34,6 @@
                 </a>
               </li>
               {% if site.blog_name %}
-              <!-- Blog -->
-              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/blog/' | relative_url }}">blog
-                  {%- if page.title == "blog" -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
-                </a>
-              </li>
-              {%- endif %}
 
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "title" -%}
@@ -77,6 +68,16 @@
               {%- endif -%}
               {% endfor -%}
               {%- if site.enable_darkmode %}
+                
+              <!-- Blog -->
+              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/blog/' | relative_url }}">Blog
+                  {%- if page.title == "Blog" -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
+              {%- endif %}
 
               <!-- Toogle theme mode -->
               <div class = "toggle-container">
