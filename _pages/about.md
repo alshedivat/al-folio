@@ -2,11 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='http://kdischool.ac.kr'>KDI School of Public Policy and Management</a>. 
-layout: about
-title: about
-permalink: /
-subtitle: <a href='http://cch.edu.pk'>Cadet College Hasanabdal</a>. 
+subtitle: <a href='http://kdischool.ac.kr'>KDI School of Public Policy and Management; </a>. subtitle: <a href='http://cch.edu.pk'>Cadet College Hasanabdal</a>. 
+
 
 profile:
   align: right
