@@ -15,7 +15,7 @@ aimed at students preparing for international mathematical contests. All of thes
 
 
 * [Cuadriláteros cíclicos](http://jbacaob.github.io/files/cyclic_quad.pdf)
-* [Puntos notables del triángulo](http://jbacaob.github.io/files/triangle_centers.pdf) </li>
+* [Puntos notables del triángulo](http://jbacaob.github.io/files/triangle_centers.pdf)
 
 
 ### Intermediate
