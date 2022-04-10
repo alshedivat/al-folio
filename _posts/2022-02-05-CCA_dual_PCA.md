@@ -10,9 +10,7 @@ categories: blog
 
 ## Introduction
 
-The canonical correlation analysis (CCA) implemented as part of Seurat software package is one of the most popular methods for batch effects correction in single-cell RNA-seq datasets.
-
-However, the _Method_ part of the original paper<a href="https://doi.org/10.1016/j.cell.2019.05.031"> Comprehensive Integration of Single-Cell Data</a> is not easy to read. After carefully reading the math, and also doing some experiments, my friend (Ziyu Chen) and I realized that the math behind the so-called CCA method actually is better described by the dual form of PCA (“dual PCA” for short). This understanding provides more clarity into the objective function solved by the “Seurat CCA algorithm” and also, as I describe later, provides some insights to improve it.
+The canonical correlation analysis (CCA) implemented as part of Seurat software package is one of the most popular methods for batch effects correction in single-cell RNA-seq datasets. However, the _Method_ part of the original paper<a href="https://doi.org/10.1016/j.cell.2019.05.031"> Comprehensive Integration of Single-Cell Data</a> is not easy to read. After carefully reading the math, and also doing some experiments, my friend (Ziyu Chen) and I realized that the math behind the so-called CCA method actually is better described by the dual form of PCA (“dual PCA” for short). This understanding provides more clarity into the objective function solved by the “Seurat CCA algorithm” and also, as I describe later, provides some insights to improve it.
 
 In this blog,
 
@@ -178,12 +176,11 @@ Based on SVD, $$U_{1:n,1:k}\Sigma_{1:k} (V_{1:m, 1:k})^T$$ is the best low-rank 
 
 ## Summary of Math
 
-### PCA and Dual PCA
+### Dual PCA
 
 - **Data**: $$X\in R^{n\times g}$$, $$n$$ is the number of cells, $$g$$ is the number of genes.
-- **Task**: $$Z \in R^{n\times k}$$ to represent the data $$X$$.
-- **Object**: Minimize $$\|Z^TZ - X^TX\|$$(PCA) or $$\|ZZ^T - XX^T\|$$ (Dual PCA).
-- **Direct PCA Solution**: $$X^TX = V \Sigma^2V^T$$, $$Z = XV_{1:g,1:k} = U\Sigma VV_{1:g,1:k} = U_{1:n,1:g}\Sigma_{1:k}$$
+- **Task**: $$Z $$ to represent the data $$X$$.
+- **Object**: Minimize $$\|ZZ^T - XX^T\|$$ (Dual PCA).
 - **Dual PCA Solution**: $$XX^T= U\Sigma^2U^T$$, $$Z = U_{1:n,1:g}\Sigma_{1:k} $$.
 
 ### Dual PCA Extended to Two Datasets
