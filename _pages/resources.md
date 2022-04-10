@@ -62,3 +62,8 @@ For those interested in additional training resources and feel comfortable readi
 - [Alexander Remorov's notes](https://alexanderrem.weebly.com/math-competitions.html)
 - [Evan Chen's articles](https://web.evanchen.cc/olympiad.html)
 - [Canadian IMO Training site](https://sites.google.com/site/imocanada/2021-winter-camp)
+
+##### Research Directions
+- Speech recognition for single-speaker or multi-speaker
+- Speech separation
+- Speech translation
