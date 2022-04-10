@@ -22,6 +22,13 @@ nav: true
   {% bibliography -f papers -q @*[year={{y}} & abbr={{"Working paper"}}]* %}
 {% endfor %}
 -->
+    
+<!--
+{% for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f papers -q @*[year={{y}} & abbr={{"Research assistance"}}]* %}
+{% endfor %}
+-->
 
 <!--
 {% for y in page.years %}
