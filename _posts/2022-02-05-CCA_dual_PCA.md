@@ -265,4 +265,4 @@ The above assumptions are clearly observable in “real data”. We can plot a h
 
 ## Acknowledge
 
-Thanks for my girl friend Jiahui Peng's help on the blog writing. Thanks for Ziyu Chen, Zhijie Cao, Weixu Wang's discussion and comments.
+Thanks for my advisor Sara's revision and my girl friend Jiahui Peng's help on the blog writing. Thanks for Ziyu Chen, Zhijie Cao, Weixu Wang's discussion and comments.
