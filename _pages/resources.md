@@ -31,8 +31,11 @@ aimed at students preparing for international mathematical contests. All of thes
 <h2> Introductory </h2>
 </div>
 
+<ul>
+<li>
 - [Cuadriláteros cíclicos](http://jbacaob.github.io/files/cyclic_quad.pdf)
-- [Puntos notables del triángulo](http://jbacaob.github.io/files/triangle_centers.pdf)
+- [Puntos notables del triángulo](http://jbacaob.github.io/files/triangle_centers.pdf) </li>
+</ul>
 
 <div class="myDiv2">
 <h2> Intermediate </h2>
@@ -50,6 +53,7 @@ aimed at students preparing for international mathematical contests. All of thes
 - [Elementos de geometría proyectiva para olimpiadas](http://jbacaob.github.io/files/proj_geo.pdf)
 - [Incírculos mixtilíneos](http://jbacaob.github.io/files/mixt_incircles.pdf)
 - [Inversión y reflexión](http://jbacaob.github.io/files/inv_refl.pdf)
+<br/>
 
 Do not hesitate to notify me any typo or any kind of inaccuracy you find along the way. Thanks in advance for your feedback!  
 
