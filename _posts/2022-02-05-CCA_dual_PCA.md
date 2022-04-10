@@ -42,7 +42,7 @@ $$
     </div>
 </div>
 
-$$X\in R^{n\times g}$$ is the gene-gene expression matrix. $$X^TX \in R^{g\times g}$$ are the gene co-variance matrix. Equivalently put, the SVD provides the best low rank approximation of gene-gene co-variance matrix as the multiplication of top K singular values and vectors of X shown below:
+$$X\in R^{n\times g}$$ is the gene-gene expression matrix. $$X^TX \in R^{g\times g}$$ are the gene co-variance matrix. Equivalently put, the SVD provides the best low rank approximation of gene-gene co-variance matrix as the multiplication of top $$K$$ singular values and vectors of $$X$$ shown below:
 
 <hr>
 
