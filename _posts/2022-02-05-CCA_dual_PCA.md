@@ -188,7 +188,7 @@ Based on SVD, $$U_{1:n,1:k}\Sigma_{1:k} (V_{1:m, 1:k})^T$$ is the best low-rank 
 - **Data**: $$X\in R^{n\times g}, Y\in R^{m \times g}$$, $$n$$ and $$m$$ are the number of cells, $$g$$ is the number of genes
 - **Task**: $$Z_X\in R^{n\times k}$$ and $$Z_Y\in R^{m \times k} $$ to represent the two datasets $$X$$ ane $$Y$$.
 - **Object**: Minimize $$\|Z_XZ_Y^T - XY^T\|$$ .
-- **Solution**: $$XY^T = U\Sigma V$$, $$Z_X = U\Sigma^\frac{1}{2}, Z_Y = V \Sigma^\frac{1}{2}$$
+- **Solution**: $$XY^T = U\Sigma V^T$$, $$Z_X = U\Sigma^\frac{1}{2}, Z_Y = V \Sigma^\frac{1}{2}$$
 
 ## Back to the "Seurat CCA" paper
 
