@@ -6,12 +6,30 @@ description: publications by categories in reversed chronological order. generat
 years: [2021, 2020, 2019]
 nav: true
 ---
-<!-- _pages/publications.md -->
+
+<style>
+.myDiv {
+    margin: 30px 0px 30px 0px;
+}
+</style>
+
 <div class="publications">
 
+<!-- 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
+-->
+  
+<div class="myDiv">
+<h2> Working Papers </h2>
+{% bibliography -f papers -q @*[type=Working paper]* %}
+</div>
+
+<div class="myDiv">
+<h2> Mathematical Handouts </h2>
+{% bibliography -f papers -q @*[type=Math handout]* %}
+</div>
 
 </div>
