@@ -5,7 +5,7 @@ permalink: /
 subtitle: <a href='#'>Embedded Systems, Mobile Software, Sensors, Epidermal Electronics</a>
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   address: >
     <p>Engineering Building 1</p>
@@ -24,11 +24,11 @@ I am a Undergraduate-Masters combined course student at [Won Research Group](htt
   * Mar 2015 - Feb 2023 
 
 * B.S., Electrical and Electronic Engineering, Sungkyunkwan University 
- * Mar 2018 - Feb 2023 
+  * Mar 2018 - Feb 2023 
 
 * M.S., Electrical and Computer Engineering, Sungkyunkwan University
- * Advisor : [Sang Min Won](https://scholar.google.co.kr/citations?user=YZPo--YAAAAJ&hl=en)
- * Mar 2023  - Jun 2024
+  * Advisor : [Sang Min Won](https://scholar.google.co.kr/citations?user=YZPo--YAAAAJ&hl=en)
+  * Mar 2023  - Jun 2024
 
 #### Experience
 * Sergeant, Republic of Korea Army(ROKA)
@@ -45,8 +45,8 @@ I am a Undergraduate-Masters combined course student at [Won Research Group](htt
   * Aug 2020 - Dec 2020
 
 * Intern, Won Research Group 
-    * 2020 Dec - Current
-    * nRF52 embedded software, flexible electronics 
+  * 2020 Dec - Current
+  * nRF52 embedded software, flexible electronics 
    
 
 #### Awards & Scholarships
@@ -58,7 +58,7 @@ I am a Undergraduate-Masters combined course student at [Won Research Group](htt
   * Grantor : Sungkyunkwan University
 * Design Award, Smart car design competition 
   * 2020 Aug
-  * Grantor : Sungkyunkwan University
+  * Grantor : Sungkyunkwan University <br/>
 *  SKKU President's List 
   * 2020 Dec
   * Grantor : President, Sungkyunkwan University 
