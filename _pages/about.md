@@ -5,7 +5,7 @@ permalink: /
 subtitle: <a href='#'>Embedded Systems, Mobile Software, Sensors, Epidermal Electronics</a>
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   address: >
     <p>Engineering Building 1</p>
@@ -51,17 +51,17 @@ I am a Undergraduate-Masters combined course student at [Won Research Group](htt
 
 #### Awards & Scholarships
 * Creativity-Success Scholarship 
-  * 2019 Dec 
+  * Dec 2019 
   * Grantor : Sungkyunkwan University
 * Academic Scholarship 
   * 2020 Jun, 2020 Dec
   * Grantor : Sungkyunkwan University
 * Design Award, Smart car design competition 
-  * 2020 Aug
+  * Aug 2020
   * Grantor : Sungkyunkwan University <br/>
 *  SKKU President's List 
-  * 2020 Dec
-  * Grantor : President, Sungkyunkwan University 
+    * Dec 2020
+    * Grantor : President, Sungkyunkwan University 
 * Capstone Project Award 
   * 2021 Jun
   * Grantor : Sungkyunkwan University
