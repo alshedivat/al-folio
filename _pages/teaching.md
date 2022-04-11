@@ -12,10 +12,15 @@ nav: true
 <style>
 table th:first-of-type {
     width: 70%;
+    text-align: left;
+    margin-right: 1em;
 }
 table th:nth-of-type(2) {
     width: 30%;
+    text-align: right;
+    margin-left: 1em;
 }
+
 </style>
 
 |                                                                                                                                                                                                          |             |
