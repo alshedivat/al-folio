@@ -2,7 +2,7 @@
 layout: page
 title: MOC
 description: Meta-RL; Curriculum Learning
-img: assets/img/multi_objective.jpg
+img: assets/img/multi_objective.png
 importance: 1
 category: work
 ---
@@ -13,7 +13,7 @@ Various automatic curriculum learning (ACL) methods have been proposed to improv
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/multi_objective.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/multi_objective.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
