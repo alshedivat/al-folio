@@ -56,7 +56,7 @@ I am a Undergraduate-Masters combined course student at [Won Research Group](htt
 * Academic Scholarship 
   * 2020 Jun, 2020 Dec
   * Grantor : Sungkyunkwan University
-* Design Award, Smart car design competition 
+* Design Award, Smart Car Design Competition 
   * Aug 2020
   * Grantor : Sungkyunkwan University <br/>
 *  SKKU President's List 
