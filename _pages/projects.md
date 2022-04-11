@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: Hello! Glad to see you here. This is a growing collection of my data science projects.
 nav: true
-display_categories: [data science]
+display_categories: [data science, data viz]
 horizontal: false
 ---
 
