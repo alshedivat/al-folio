@@ -11,10 +11,10 @@ nav: true
 
 |                                                                                                                                                                                                          |             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
-| **Econometrics II (Time Series Econometrics)**                                                                                                                                                           |   Fall 2020 |
+| **Econometrics II (Time Series Econometrics)**                                                                                                                                                           |    Fall 2020|
 | Professor: A. López-Espinoza, M. Sc.                                                                                                                                                                     |             |
 | Relevant topics: Statistical theory of time series, filtering and decomposition,<br /> multivariate and univariate time series models                                                                          |             |
 |                                                                                                                                                                                                          |             |
-| **Macroeconomics II (Intermediate Macroeconomics)**                                                                                                                                                      | Spring 2020 |
+| **Macroeconomics II (Intermediate Macroeconomics)**                                                                                                                                                      |  Spring 2020|
 | Professor: C. Pacheco, M. Sc.                                                                                                                                                                            |             |
 | Relevant topics: Introduction to modern macroeconomic analysis, modern short-run<br /> model of a closed/open economy, applied general equilibrium models,<br /> alternative approaches to mainstream macroeconomics |             |
