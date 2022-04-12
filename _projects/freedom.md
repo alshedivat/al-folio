@@ -16,6 +16,11 @@ category: work
     Example likelihood contours for a toy neutrino event as a function of vertex position. Compared are the freedom NN approximations (solid lines) compared to the true lielihood (dashed lines).
 </div>
 
+While in the project [retro](/projects/retro) we built a reconstruction for IceCube DeepCore based on an event model together with pre-tabulated photon propagation values to build an approximate, fast likelihood.
+
+In the project [graphnet](/projects/graphnet) in contrast, we are building a framework to use GNNs as regressors (and classifiers) for event reconstruction.
+
+In this project, we explore a middle ground between the two. We use a technique of likelihood-free inference to build a NN surrogate likelihood, that can then be used in conjunction with optimizers or samplers for the inference of reconstruction quantities, such as an event's energy. 
 
 
 ## Further Information
