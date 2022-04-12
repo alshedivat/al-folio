@@ -19,18 +19,18 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-Neutrinos are the most abundand constituents of matter in our universe, and at the same time the least well known. With large sacle experiments, such as the IceCube Neutrino Observatory at the South Pole, we collect data to better understand these elusive particles, and to uncover long standing mysteries.
-With the usage of cutting edge technology and methods, such as moden machine learning aided data science, I want to extract as much knowledge out of our data as possible.
+Neutrinos are the most abundant constituents of matter in our universe, and at the same time the least well known. With large scale experiments, such as the IceCube Neutrino Observatory at the South Pole, we collect data to better understand these elusive particles, and to uncover long standing mysteries.
+With the usage of cutting edge technology and methods, such as modem machine learning aided data science, I want to extract as much knowledge out of our data as possible.
 
 As a scientist I am working mostly on, and am interested in:
-* Neutrino physics, in paricular oscillations
-* Statistiacal and computational methods
+* Neutrino physics, in particular oscillations
+* Statistical and computational methods
 * Machine learning and data science
 
 The [projects page](/projects/) describes some of my current and recent works.
 
 I am a:
 * Member of the <a href="https://icecube.wisc.edu/">IceCube collaboration</a>
-* PI in the <a href="https://www.sfb1258.de/">Collaborative Reserach Center 1258</a>
+* PI in the <a href="https://www.sfb1258.de/">Collaborative Research Center 1258</a>
 * Member of the <a href="https://www.punch4nfdi.de/">PUNCH4NFDI</a> consortium
 * Fellow of the <a href="https://www.origins-cluster.de/infrastruktur/odsl">Origins Data Science Lab</a>

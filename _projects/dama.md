@@ -8,10 +8,10 @@ category: work
 ---
 
 The dama (**da**ta **ma**nipulator) python library guides you through your data and translates between different representations.
-Its aim is to offer a consistant and pythonic way to handle different datasaets and translations between them.
-A dataset can for instance be simple colum/row data, or it can be data on a grid.
+Its aim is to offer a consistent and pythonic way to handle different datasaets and translations between them.
+A dataset can for instance be simple column/row data, or it can be data on a grid.
 
-One of the key features of dama is the seamless translation from one data represenation into any other. 
+One of the key features of dama is the seamless translation from one data representation into any other. 
 Convenience `pyplot` plotting functions are also available, in order to produce standard plots without any hassle.
 
 Installation: `pip install dama`

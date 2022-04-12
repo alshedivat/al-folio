@@ -15,8 +15,8 @@ PISA is a software written to analyze the results (or expected results) of an ex
 In particular, PISA was written by and for the IceCube Collaboration for analyses employing the [IceCube Neutrino Observatory](https://icecube.wisc.edu/), including the [DeepCore](https://arxiv.org/abs/1109.6096) and the proposed [PINGU](https://arxiv.org/abs/1401.2046) low-energy in-fill arrays.
 However, any such experiment—or any experiment at all—can make use of PISA for analyzing expected and actual results.
 
-PISA was originally developed to cope with low-statistics Monte Carlo (MC) for PINGU when iterating on multiple proposed geometries by using parameterizations of the MC and operate on histograms of the data rather than directly reweighting the MC (as is traditionally done in high-energy Physics experiments).
-However, PISA's methods apply equally well to high-MC situations, and PISA also performs traditional reweighted-MC analysis as well.
+PISA was originally developed to cope with low-statistics Monte Carlo (MC) for PINGU when iterating on multiple proposed geometries by using parameterizations of the MC and operate on histograms of the data rather than directly re-weighting the MC (as is traditionally done in high-energy Physics experiments).
+However, PISA's methods apply equally well to high-MC situations, and PISA also performs traditional re-weighted MC analysis as well.
 
 
 <div class="row">
@@ -31,7 +31,7 @@ However, PISA's methods apply equally well to high-MC situations, and PISA also 
 
 ## Further Information
 
-PISA is open source, and devlopped by and for the IceCube collaboration
+PISA is open source, and developed by and for the IceCube collaboration
 
 GitHub repository: https://github.com/icecube/pisa
 

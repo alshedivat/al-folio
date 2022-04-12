@@ -16,13 +16,13 @@ category: work
     Sketch of the Karlsruhe Tritium Neutrino (KATRIN) experiment
 </div>
 
-The main goal of the Karlsruhe Tritium Neutrino (KATRIN) experiment is to measure the abolute neutrino mass scale. To do so, precise predictions of the measurement spectrum as a function of the anti-electron neutrino mass, and a multitude of parameters describing systematic uncertainties, are needed.
-The calculations needed to make such predictions are computatiaonlly very costly, and hence prohibitive for using sophisticated statsitcal methods for the analysis of the neutrino mass.
+The main goal of the Karlsruhe Tritium Neutrino (KATRIN) experiment is to measure the absolute neutrino mass scale. To do so, precise predictions of the measurement spectrum as a function of the anti-electron neutrino mass, and a multitude of parameters describing systematic uncertainties, are needed.
+The calculations needed to make such predictions are computationally very costly, and hence prohibitive for using sophisticated statistical methods for the analysis of the neutrino mass.
 
-By pre-calculating spectra over a range of intelligently chosen points in the parameter space, and then interpolating between with a deep neural network, we manage to predict spectra to very high accuracy at a fraction of the original cost.
-This does not only allow to run the same analyses much faster, but actually puts us into a position to analyze all of KATRIN data, including a full suite of syatamatic uncertainties, in a combined fit. Also techniques such as fully fledged MCMC sampling become possible.
+By per-calculating spectra over a range of intelligently chosen points in the parameter space, and then interpolating between with a deep neural network, we manage to predict spectra to very high accuracy at a fraction of the original cost.
+This does not only allow to run the same analyses much faster, but actually puts us into a position to analyze all of KATRIN data, including a full suite of systematic uncertainties, in a combined fit. Also techniques such as fully fledged MCMC sampling become possible.
 
-In our recent paper that is surrently under review at the European Physics Journal C (EPJ-C), we show that we can reproduce the official results of the first two KATRIN measurement compagins with great agreement, and at a fraction of the cost.
+In our recent paper that is currently under review at the European Physics Journal C (EPJ-C), we show that we can reproduce the official results of the first two KATRIN measurement campaigns with great agreement, and at a fraction of the cost.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

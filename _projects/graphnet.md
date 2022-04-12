@@ -7,10 +7,10 @@ importance: 2
 category: work
 ---
 
-GraphNeT is a larger project to provide classification and reconstruction models for neutrino telescopes, based on graph neural netowrks.
+GraphNeT is a larger project to provide classification and reconstruction models for neutrino telescopes, based on graph neural networks.
 This type of NN architecture is very well suited to represent the data on a event-by-event basis without the need to resort to approximations or compression.
 
-With my PhD students, and collaborators from the NBI, we devlopped some very successful prototypes, that already today are able to out-perform the classic algorithms in both accuracy and speed. A first publication is currently under review.
+With my PhD students, and collaborators from the NBI, we developed some very successful prototypes, that already today are able to out-perform the classic algorithms in both accuracy and speed. A first publication is currently under review.
 
 ## Further Information
 
