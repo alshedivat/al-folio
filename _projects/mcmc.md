@@ -7,12 +7,21 @@ importance: 1
 category: work
 ---
 
-Sampling from arbitrary distributions, that are often not analytically available, is often a difficult but important task.
-For exampe in the context of Bayesian inference, drawing samples from the posterior distribution is the go-to method to characterize the posterior. But also calculating integral values of unnnormalized distributions, as for example the bayesian "evidence" (or marginla likelihood) is a key ingredient to model comparison.
+Sampling from arbitrary distributions, that are usually not analytically available, can be a challenging but important task.
+For exampe in the context of Bayesian inference, drawing samples from the posterior distribution is the go-to method to characterize this otherwise inaccessible distribution. Furthermore, calculating integral values of unnnormalized distributions, as for example the Bayesian "evidence" (i.e. marginal likelihood) is a key ingredient to model comparison.
 
 In our paper "Integration with an Adaptive Harmonic Mean Algorithm" we introdcue a technique that can reliably estomate integrals and uncertainties over a set of avialbale samples, without any need to generate new samples.
 
 In our more recent work "Parallelizing MCMC Sampling via Space Partitioning" we use the above technique together with a space-partitioning scheme to parallelize the otherwise inhernetly serie Markov chain process. By doing so we can achievesuper-linear scaling with the number of workers.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/space_partitionaing.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Illustration fo the space partitioning algorithm sampling a multi-modal density. (1) initial exploration phase, (2) partitioning of the space, (3) sampling of individual sub-spaces, (4) re-weighting and stichting back together individual samples
+</div>
 
 ## Further Information
 
