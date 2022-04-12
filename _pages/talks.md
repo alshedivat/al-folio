@@ -7,7 +7,7 @@ nav_num: 3
 nav: true
 ---
 
-1. (Upcoming) Entropy and topological entropy. UMich student DGT seminar, 2022.
+1. Entropy and topological entropy. UMich student DGT seminar, Winter 2022.
 2. Holomorphic Differentials, Measured Foliations and the Hubbard-Masur Theorem. Undergraduate thesis defence, 2021. [Slides](https://drive.google.com/file/d/1-juD-iqgaag6Nun5l4RebZx4oNhzYSc1/view?usp=sharing)
 3. From Jones to Khovanov. IISc undergraduate math club, 2021.
 4. Tracking Global Politics with Topological Data Analysis. Computational Topology course project presentation, 2020. [Slides](https://drive.google.com/file/d/1gKTEKSmHxGr-nKpcJysoUi0Y8ftwjFe4/view?usp=sharing).
