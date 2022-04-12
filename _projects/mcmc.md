@@ -20,8 +20,9 @@ In our more recent work "Parallelizing MCMC Sampling via Space Partitioning" we 
     </div>
 </div>
 <div class="caption">
-    Illustration fo the space partitioning algorithm sampling a multi-modal density. (1) initial exploration phase, (2) partitioning of the space, (3) sampling of individual sub-spaces, (4) re-weighting and stichting back together individual samples
+Illustration for the space partitioning algorithm sampling a multi-modal density. (1) initial exploration phase, (2) partitioning of the space, (3) sampling of individual sub-spaces, (4) re-weighting and stitching back together individual samples
 </div>
+
 
 ## Further Information
 
