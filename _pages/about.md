@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: PhD candidate in Computer Science at UC Berkeley (she/her).
+description: PhD candidate in Computer Science at UC Berkeley and Assistant Professor of Computer Science at Cornell University (Starting Spring 2023) | she/her
 
 profile:
   align: right
@@ -16,7 +16,9 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Giulia is a PhD candidate in Computer Science at UC Berkeley and a graduate research assistant at the Computational Research Division of Lawrence Berkeley National Laboratory advised by [Aydın Buluç](http://people.eecs.berkeley.edu/~aydin/) and [Kathy Yelick](https://people.eecs.berkeley.edu/~yelick/), and a [2020 SIGHPC Computational & Data Science Fellow](https://www.sighpc.org/for-your-career/fellowships/2020-fellowship-winners?fbclid=IwAR2N8swtCYgNH3phRmrFtASSC42b4oN5joG1l5XHFSdnkMY6U4HvZt3olLE).
+Giulia is a PhD candidate in Computer Science at UC Berkeley and a graduate research assistant at the Computational Research Division of Lawrence Berkeley National Laboratory advised by [Aydın Buluç](http://people.eecs.berkeley.edu/~aydin/) and [Kathy Yelick](https://people.eecs.berkeley.edu/~yelick/), and a [2020 SIGHPC Computational & Data Science Fellow](https://www.sighpc.org/for-your-career/fellowships/2020-fellowship-winners?fbclid=IwAR2N8swtCYgNH3phRmrFtASSC42b4oN5joG1l5XHFSdnkMY6U4HvZt3olLE). 
+
+Giulia will be an Assistant Professor of Computer Science at [Cornell University](https://www.cs.cornell.edu/) starting Spring 2021.
 
 <!--and a member of the [PASSION Lab](https://passion.lbl.gov/), the [BeBOp Group](https://bebop.cs.berkeley.edu/), and the [Performance and Algorithms Research (PAR) Group](https://crd.lbl.gov/departments/computer-science/par/members/students/giulia-guidi/). Giulia received her M.Sc. and B.Sc. in Biomedical Engineering from [Politecnico di Milano](http://polimi.it/en).-->
 
@@ -26,7 +28,9 @@ Giulia is generally interested in the intersection of High-Performance Computing
 
 <!--Currently, she is developing a novel algorithm for de novo assembly of genomes in distributed memory using long-read sequencing data and sparse matrix abstraction as part of the [ExaBiome](https://sites.google.com/lbl.gov/exabiome) project.-->
 
-**I am on the academic job market**---here are a recent **[CV](https://drive.google.com/file/d/1DmJgPIFg6S-B0bqvqWFUmrmk6czYVmy5/view?usp=sharing)** (Feb 2022) and the Tl;dr version of my **[Research Statement](https://drive.google.com/file/d/1_HVC4HkkyBMqUx8AiTHeyjgwlSdYG3j6/view?usp=sharing)**.
+Here are a recent **[CV](https://drive.google.com/file/d/1DmJgPIFg6S-B0bqvqWFUmrmk6czYVmy5/view?usp=sharing)** (April 2022) and the Tl;dr version of my **[Research Statement](https://drive.google.com/file/d/1_HVC4HkkyBMqUx8AiTHeyjgwlSdYG3j6/view?usp=sharing)**.
+
+**I am recruiting PhD students for the 2023/24 Academic Year.**
 
 <!--, and my [academic genealogy tree](https://academictree.org/computerscience/tree.php?pid=864537&pnodecount=15&cnodecount=5&fontsize=1).-->
 
