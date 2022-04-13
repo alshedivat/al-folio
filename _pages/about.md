@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: PhD candidate in Computer Science at UC Berkeley and Assistant Professor of Computer Science at Cornell University (Starting Spring 2023) | she/her
+description: PhD candidate in Computer Science at UC Berkeley and Assistant Professor of Computer Science at Cornell University (starting Spring 2023) | she/her
 
 profile:
   align: right
@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 Giulia is a PhD candidate in Computer Science at UC Berkeley and a graduate research assistant at the Computational Research Division of Lawrence Berkeley National Laboratory advised by [Aydın Buluç](http://people.eecs.berkeley.edu/~aydin/) and [Kathy Yelick](https://people.eecs.berkeley.edu/~yelick/), and a [2020 SIGHPC Computational & Data Science Fellow](https://www.sighpc.org/for-your-career/fellowships/2020-fellowship-winners?fbclid=IwAR2N8swtCYgNH3phRmrFtASSC42b4oN5joG1l5XHFSdnkMY6U4HvZt3olLE). 
 
-Giulia will be an Assistant Professor of Computer Science at [Cornell University](https://www.cs.cornell.edu/) starting Spring 2021.
+Giulia will be an Assistant Professor of Computer Science at [Cornell University](https://www.cs.cornell.edu/) starting Spring 2023.
 
 <!--and a member of the [PASSION Lab](https://passion.lbl.gov/), the [BeBOp Group](https://bebop.cs.berkeley.edu/), and the [Performance and Algorithms Research (PAR) Group](https://crd.lbl.gov/departments/computer-science/par/members/students/giulia-guidi/). Giulia received her M.Sc. and B.Sc. in Biomedical Engineering from [Politecnico di Milano](http://polimi.it/en).-->
 
