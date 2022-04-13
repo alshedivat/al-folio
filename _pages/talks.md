@@ -31,6 +31,10 @@ _Extracting Clean Performance Models from Tainted Programs_, minisymposium prese
 
 ## 2021
 
+* **22nd ACM/IFIP International Middleware Conference**, December (virtual).  
+_SeBS: A Serverless Benchmark Suite for Function-as-a-Service Computing_, research paper presentation.  
+[Slides](/assets/pdf/2021_sebs_middleware_slides.pdf), [recording on SPCL YouTube.](https://www.youtube.com/watch?v=Z_CQfh0pQjc).
+
 * **26th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming**, March (virtual).  
 _Extracting Clean Performance Models from Tainted Programs_, research paper presentation.  
 [Slides](/assets/pdf/2021_perf_taint_ppopp_slides.pdf), [recording on SPCL YouTube.](https://www.youtube.com/watch?v=eGEvFXK4owc).
