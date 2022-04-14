@@ -2,7 +2,7 @@
 layout: page
 title: students
 permalink: /students/
-description: 
+description: Phd students
 nav: true
 ---
 

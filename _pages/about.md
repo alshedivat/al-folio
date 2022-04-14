@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Assistant Professor, Delft University of Technology (TU Delft)</a> 
+subtitle: <a href='https://www.tudelft.nl/en/ewi/over-de-faculteit/afdelingen/intelligent-systems/multimedia-computing/people/megha-khosla'>Assistant Professor, Delft University of Technology (TU Delft)</a> 
 
 profile:
   align: right
