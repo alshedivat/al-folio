@@ -19,4 +19,3 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I'm a Senior Research Associate at the [Cambridge Machine Learning Systems Lab](https://mlsys.cst.cam.ac.uk/). My research interests include Computer Vision, Navigation under adverse conditions, Sensor Fusion, and Distributed Machine Learning. 
-

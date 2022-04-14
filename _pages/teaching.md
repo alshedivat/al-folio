@@ -18,6 +18,6 @@ nav: true
  
 **Where:** Department of Computer Science, Oxford University. 
 
-**Next Iterations:** 22/11/2021. 
+**Next Iterations:** 21/11/2022. 
 
 **More Details**: [SEP-Deep Neural Networks](https://www.cs.ox.ac.uk/softeng/subjects/DNN.html)
