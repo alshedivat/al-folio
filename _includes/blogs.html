@@ -1,0 +1,24 @@
+<div class="blogs">
+    <h2>blogs</h2>
+    {% if site.blog_name != blank -%}
+    <div class="table-responsive">
+        <table class="table table-sm table-borderless">
+            {%- assign blogs = site.blogs_name | reverse -%}
+            {% for item in blogs_name limit: site.blogs_limit %}
+            <tr>
+                <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+                <td>
+                    {% if item.inline -%}
+                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                    {%- else -%}
+                    <a class="blogs-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {%- endif %}
+                </td>
+            </tr>
+            {%- endfor %}
+        </table>
+    </div>
+    {%- else -%}
+    <p>No blogs so far...</p>
+    {%- endif %}
+</div>

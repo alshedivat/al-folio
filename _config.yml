@@ -84,8 +84,8 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: Template now, will add more.
+blog_name: Jikun's Notebook # your blog must have a name for it to show up in the nav bar
+blog_description: Stay Hungry, Stay Foolish!
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -106,11 +106,17 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
+  # blogs:
+  #   defaults:
+  #     layout: post
+  #   output: true
+  #   permalink: /blogs/:path/
   projects:
     output: true
     permalink: /projects/:path/
 
 news_limit: 5
+blogs_limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
