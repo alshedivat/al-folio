@@ -32,9 +32,9 @@ aimed at students preparing for international mathematical contests. All of thes
 * [Incírculos mixtilíneos](http://jbacaob.github.io/files/mixt_incircles.pdf)
 * [Inversión y reflexión](http://jbacaob.github.io/files/inv_refl.pdf)
 
-Do not hesitate to notify me any typo or any kind of inaccuracy you find along the way. Thanks in advance for your feedback!  
+Do not hesitate to notify me any typo or inaccuracy you find along the way. Thanks in advance for your feedback!  
 
-For those interested in additional training resources and comfortably read explanations and proofs in English, I recommend the following authors and sites:
+For those interested in additional training resources and comfortably read explanations and proofs in English comfortably enough, I recommend the following authors and sites:
 * [Yufei Zhao's training handouts](https://yufeizhao.com/olympiad/)
 * [Alexander Remorov's notes](https://alexanderrem.weebly.com/math-competitions.html)
 * [Evan Chen's articles](https://web.evanchen.cc/olympiad.html)
