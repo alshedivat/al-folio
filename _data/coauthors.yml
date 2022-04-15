@@ -1,18 +1,20 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Olenski":
+  - firstname: ["Andrew"]
+    url: https://sites.google.com/view/andrewolenski/home
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Simonov":
+  - firstname: ["Andrey"]
+    url: https://www.andreysimonov.com/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Dube":
+  - firstname: ["Jean-Pierre"]
+    url: https://www.jp-dube.com/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Biswas":
+  - firstname: ["Shirsho"]
+    url: http://faculty.washington.edu/shirsho/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Hansen":
+  - firstname: ["Stephen"]
+    url: https://sekhansen.github.io/
+  

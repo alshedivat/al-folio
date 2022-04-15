@@ -1,24 +1,43 @@
 ---
 layout: about
-title: about
+title: Szymon Sacher
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+#  image: szymonsacher.jpg
+#  address: >
+#    <p>555 your office number</p>
+#    <p>123 your address street</p>
+#    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+### About me
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a PhD Student in Economics at [Columbia University](https://econ.columbia.edu/). Previously I studied at [the University of Edinburgh](https://www.ed.ac.uk/economics) and was a Visited Researcher at [Imperial College](https://www.imperial.ac.uk/business-school/)      
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research instrests include Industrial Organization, Public Economics, Bayesian Econometrics and Natural Language Processing. This website is a work in progress!
+
+### Contact
+
+szymon.sacher[at]columbia.edu
+
+Department of Economics, Columbia University
+420 w 118th st, NYC, NY 10027
+
+
+## Research
+### Working Papers
+
+<div class="publications">
+{% bibliography -f papers -q @*[published=false]* %}
+</div>
+
+### Published
+<div class="publications">
+{% bibliography -f papers -q @*[published=true]* %}
+</div>
