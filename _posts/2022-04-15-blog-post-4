@@ -1,0 +1,17 @@
+---
+layout: post
+title: Resolviendo el problema 6 de la EGMO 2022
+date: 2022-03-06
+permalink: /posts/egmo2022p6/
+tags:
+  - problem solving
+  - euclidean geometry
+  - power of a point
+---
+
+**Problema.** Sea $$ABCD$$ un cuadrilátero cíclico con circuncentro $$O$$. Sea $$X$$ el punto de intersección de las bisectrices de los ángulos 
+$$\angle DAB$$ y $$\angle ABC$$; sea $$Y$$ el punto de intersecci\'on de de las bisectrices de los \'angulos $$\angle ABC$$ y $$\angle BCD$$; sea
+$$Z$$ el punto de intersecci\'on de de las bisectrices de los \'angulos $$\angle BCD$$ y $$\angle CDA$$; y sea $$W$$ el punto de intersecci\'on de
+de las bisectrices de los \'angulos $$\angle CDA$$ y $$\angle DAB$$. Sea $$P$$ el punto de intersección de las rectas $$AC$$ y $$BD$$. Suponga que los
+puntos $$O,\ P,\ X,\ Y,\ Z$$ y $$W$$ son distintos. Probar que $$O,\ X,\ Y,\ Z$$ y $$W$$ están sobre una misma circunferencia si y solo si
+$$P,\ X,\ Y,\ Z$$ y $$W$$ están sobre una misma circunferencia.
