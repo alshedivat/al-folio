@@ -3,7 +3,7 @@ layout: about
 title: Szymon Sacher
 permalink: /
 
-profile:
+profile: 
   align: right
 #  image: szymonsacher.jpg
 #  address: >
@@ -24,7 +24,7 @@ My research instrests include Industrial Organization, Public Economics, Bayesia
 
 ### Contact
 
-szymon.sacher[at]columbia.edu
+szymon.sacher@columbia.edu
 
 Department of Economics, Columbia University
 420 w 118th st, NYC, NY 10027
