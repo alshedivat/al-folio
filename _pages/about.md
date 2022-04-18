@@ -14,4 +14,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I love computer science! I am a graduate student at The University of Texas Rio Grande Valley completing my master's degree. I research with the Algorithmic Self-Assembly Research Group (ASARG) here on campus. Previously, I attended The University of Texas at Austin and recieved a B.S. in Computer Science.
+I love computer science! I am a graduate student at The University of Texas Rio Grande Valley completing my master’s degree. I research with the Algorithmic Self-Assembly Research Group (ASARG) here on campus. Previously, I attended The University of Texas at Austin and received a B.S. in Computer Science.
