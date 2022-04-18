@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Andrew Rodriguez | Graduate Reseacher
+subtitle: Andrew Rodriguez | Graduate Student Reseacher
 
 profile:
   align: right
