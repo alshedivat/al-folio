@@ -1,7 +1,9 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2021-12-27 15:59:00-0400
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Joined the brilliant team of researchers at [I3D Lab][i3d], Indian Institute of Science for robotics internship
+
+[i3d]: https://cambum.net/I3D.htm

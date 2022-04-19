@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Multi-agent collaboration
+description: Collaboration between a robotic arm and a mobile robot for a pick and place task. Established communication between the two robots for collaboration
+img: assets/img/8.png
+redirect: https://docs.google.com/presentation/d/1P2C15fG2h7S4zaUGFIum5oQw0CAKb9NI/edit?usp=sharing&ouid=104828991690990902218&rtpof=true&sd=true
 importance: 2
-category: work
 ---
 
 Every project has a beautiful feature showcase page.

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Monopod Robot Simulation Using Reinforcement Learning
+description: A single-legged hopping robot simulation created using ROS and Gazebo. The robot retains its position using the QLearning algorithm
+img: assets/img/10.png
+redirect: https://github.com/arushikhokhar/Monopod-Robot
+importance: 4
 ---
 
 Every project has a beautiful feature showcase page.

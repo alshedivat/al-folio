@@ -1,24 +1,23 @@
 ---
 layout: about
 title: about
+subtitle: Undergraduate robotics researcher
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+#subtitle: <a href='#'>Undergraduate Robotics Researcher</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+#selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I am Arushi Khokhar, a third year undergraduate majoring in Computer Science and Engineering from Jaypee University of Information Technology, India. Currently, I hold concurrent research positions at the Indian Institute of Science, Bangalore and National University of Singapore (NUS). At IISc, I'm a part of the [Intelligent Inclusive Interaction Design Lab](https://cambum.net/I3D.htm) advised by [Dr Pradipta Biswas](https://cambum.net/PB/about-me.php). At NUS, I am a part of the [Multi-Agent Robotic Motion Lab](https://marmotlab.org/) advised by [Dr Guillaume Sartoretti](https://marmotlab.org/bio.html).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## Research Interests
+My long term research goal is to develop autonomous systems which are capable of robust real-time decision-making just like the human brain. To achieve this, I've been working at the intersection of machine learning (deep learning and reinforcement learning) and robotics. Currently, I'm working on multi-agent collaboration using distributed approaches. <BR> <BR>
+Along with this, the biomechanics of various human activities have always sparked my curiosity. Since my freshmen year, I've been learning various aspects of mobility in humans and animals. I'm really interested to work on intelligent rehabilitative and assitive devices using robotics, machine learning and reinforcement learning.
+Prior to my current research internships, I've spent 7 months working with Dr Vineet Vashista at the Human-Centered Lab, Indian Institute of Technology (IIT), Gandhinagar. During these months, I studied the biomechanics of walking and worked on a controlled, monitored, and digitized alternative to conducting standardized functional gait assessment tests.

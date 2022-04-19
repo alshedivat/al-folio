@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: An Autonomous UAV-UGV Collaborative Framework for Search and Rescue Operations
+description: I'm doing this 3-credit project as a part of my coursework. It's still in the process of development. The slides will give a detailed overview of the project.
+img: assets/img/9.png
+redirect: https://docs.google.com/presentation/d/1o2d1ubLdblmgICCMlwHuEHcM1HFvazh9/edit?usp=sharing&ouid=118383620586536291096&rtpof=true&sd=true
 importance: 1
-category: work
 ---
 
 Every project has a beautiful feature showcase page.
