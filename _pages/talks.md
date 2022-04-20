@@ -12,7 +12,7 @@ nav: true
 
 {% for y in page.talk_cats %}
   <div class="title">{{y}}</div>
-      {% bibliography -T talks -f talks -q @*[title={{y}}]* %}
+      {% bibliography -T papers -f talks -q @*[title={{y}}]* %}
 {% endfor %}
 
 </div>
