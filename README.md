@@ -118,14 +118,23 @@ You need to do these step to get `ai-folio` up and running in your local machine
       cd <your-repo-name>
 ```
 
-- Download necessary modules and install them into a docker image called `mywebsite:Dockerfile` (this command will build an image which is used to run your website afterwards. Note that you only need to do this step once. After you have the image, you no longer need to do this anymore):
+Then you can use Dockerhub prebuilt image to run your website. Note that for the first time it would download an image of size 300MB or so. 
+
+```bash
+      bin/dockerhub_run.sh
+```
+
+##### More Advanced Users
+You can also build your own docker image. 
+
+So first, download necessary modules and install them into a docker image called `mywebsite:Dockerfile` (this command will build an image which is used to run your website afterwards. Note that you only need to do this step once. After you have the image, you no longer need to do this anymore):
   
 
 ```bash
     bin/docker_build_image.sh  
 ```
 
-- Run the website!
+Run the website!
 
 ```bash
     bin/docker_run.sh
