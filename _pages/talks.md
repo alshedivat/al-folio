@@ -3,15 +3,15 @@ layout: page
 permalink: /talks/
 title: talks
 order: 3
-description: My Talks
-years: [2021,2019,2018,2017,2016,2015, 2014,2012,2010]
+description:
+talk_cats: [EMD_VAE]
 nav: true
 ---
 
 <div class="publications">
 
-{% for y in page.years %}
-  <h2 class="year">{{y}}</h2>
+{% for y in page.talk_cats %}
+  <h2 class="talk_topic">{{y}}</h2>
       {% bibliography -f talks -q @*[year={{y}}]* %}
           {% endfor %}
 
