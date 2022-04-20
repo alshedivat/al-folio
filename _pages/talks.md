@@ -4,7 +4,7 @@ permalink: /talks/
 title: talks
 order: 3
 description:
-talk_cats: [EMD_VAE]
+talk_cats: [The Learnt Geometry of Collider Events]
 nav: true
 ---
 
@@ -12,7 +12,7 @@ nav: true
 
 {% for y in page.talk_cats %}
   <div class="title">{{y}}</div>
-      {% bibliography -f talks -q @*[year={{y}}]* %}
+      {% bibliography -f talks -q @*[title={{y}}]* %}
           {% endfor %}
 
 </div>
