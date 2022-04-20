@@ -105,6 +105,9 @@
           {%- if entry.osf %}
             <a href="{{ entry.osf }}" class="btn btn-sm z-depth-0" role="button">OSF</a>
           {%- endif %}
+          {%- if entry.ieeexplore %}
+            <a href="{{ entry.ieeexplore }}" class="btn btn-sm z-depth-0" role="button">IEEE Xplore</a>
+          {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
             <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
