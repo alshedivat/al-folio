@@ -11,7 +11,7 @@ nav: true
 <div class="publications">
 
 {% for y in page.talk_cats %}
-  <h2 class="talk_topic">{{y}}</h2>
+  <div class="title">{{y}}</div>
       {% bibliography -f talks -q @*[year={{y}}]* %}
           {% endfor %}
 
