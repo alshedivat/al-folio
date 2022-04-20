@@ -95,7 +95,7 @@
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
-          {%- if entry.arxiv %}
+          {%- if entry.eprint %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
           {%- endif %}
           {%- if entry.bibtex_show %}
@@ -141,7 +141,7 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
-	  {%- if entry.inspire %}
+	  {%- if entry.url %}
 	    <a href="{{ entry.inspire }}" class="btn btn-sm z-depth-0" role="button">INSPIRE</a>
 	  {%- endif %}
 	  {%- if entry.openreview %}
