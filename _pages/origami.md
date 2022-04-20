@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Origami
+title: origami
 order: 5
 permalink: /origami/
 description: My folds

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /talks/
-title: Talks
+title: talks
 order: 3
 description: My Talks
 nav: true
