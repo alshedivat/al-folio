@@ -4,7 +4,7 @@ permalink: /talks/
 title: talks
 order: 3
 description:
-talk_cats: [The Learnt Geometry of Collider Events]
+talk_cats: [A]
 nav: true
 ---
 
