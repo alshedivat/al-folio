@@ -5,9 +5,6 @@
 
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
-        {% if entry.type == "thesis" -%}
-          {{reference}}
-        {%- else %}
 
           <!-- Journal/Book title and date -->
           {%- if entry.month -%}
@@ -32,7 +29,6 @@
           <div class="periodical">
             {{ periodical | strip }}
           </div>
-        {%- endif %}
         
           <!-- Links/Buttons -->
           <div class="links">
