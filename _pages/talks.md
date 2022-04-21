@@ -8,7 +8,7 @@ talk_titles: [The Learnt Geometry of Collider Events,CWoLa Hunting]
 nav: true
 ---
 
-<div class="publications">
+<div class="talks">
 
 {% for y in page.talk_titles %}
   <h2 class="title">{{y}}</h2>
