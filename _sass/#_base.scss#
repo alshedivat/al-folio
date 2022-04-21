@@ -441,7 +441,7 @@ footer.sticky-bottom {
   }
   h2.talk_topic {
       margin-bottom: 0.25rem;
-      font-size: 0.75rem;
+      font-size: 0.85rem;
       font-weight: bolder;
   }
   h2.year {
