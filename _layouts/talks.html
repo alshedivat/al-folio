@@ -14,9 +14,12 @@
             {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
           {%- endif -%}
 	  {%- if entry.venue -%}
-            {%- capture entryvenue -%}{{ ": &emsp;" }}{{entry.venue}}{%- endcapture -%}
+            {%- capture entryvenue -%}{{ ":   " }}{{entry.venue}}{%- endcapture -%}
 	  {%- endif -%}
           {%- capture periodical -%}{{ entrymonth }}{{ entryyear }}{{ entryvenue }}{%- endcapture -%}
+          <div class="periodical" style="display: inline">
+            {{ periodical | strip }}
+          </div>
         
           <!-- Links/Buttons -->
           <div class="links" style="display: inline">
