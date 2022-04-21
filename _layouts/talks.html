@@ -14,7 +14,7 @@
             {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
           {%- endif -%}
 	  {%- if entry.venue -%}
-            {%- capture entryvenue -%}{{ ":   " }}{{entry.venue}}{%- endcapture -%}
+            {%- capture entryvenue -%}{{ ": &emsp;" }}{{entry.venue}}{%- endcapture -%}
 	  {%- endif -%}
           {%- capture periodical -%}{{ entrymonth }}{{ entryyear }}{{ entryvenue }}{%- endcapture -%}
           <div class="periodical" style="display: inline">
@@ -23,11 +23,12 @@
 	      {% if entry.slides contains '://' -%}
 	        <a href="{{ entry.slides }}">[Slides]</a>  
 	      {%- else -%}
-	        <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}">[Slides]</a>  
+	        <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}">[Slides]</a>
 	      {%- endif %}
 	    {%- endif %}
+		
             {%- if entry.video %}
-	      <a href="{{ entry.video }}">[Video]</a>
+	      &emsp;<a href="{{ entry.video }}">[Video]</a>
 	    {%- endif %}
           </div>
         
