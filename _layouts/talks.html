@@ -29,8 +29,7 @@
 	      {% if entry.slides contains '://' -%}
 	      <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
 	      {%- else -%}
-	      <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button"\
-		 >Slides</a>
+	      <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
 	                  {%- endif %}
           </div>
         {%- endif %}
