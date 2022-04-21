@@ -21,14 +21,14 @@
             {{ periodical | strip }}
 	    {%- if entry.slides %}
 	      {% if entry.slides contains '://' -%}
-	        <a href="{{ entry.slides }}">[Slides]</a>  
+	      &ensp;<a href="{{ entry.slides }}">[Slides]</a>  
 	      {%- else -%}
-	        <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}">[Slides]</a>
+	      &ensp;<a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}">[Slides]</a>
 	      {%- endif %}
 	    {%- endif %}
 		
             {%- if entry.video %}
-	      &emsp;<a href="{{ entry.video }}">[Video]</a>
+	    &ensp;<a href="{{ entry.video }}">[Video]</a>
 	    {%- endif %}
           </div>
         
