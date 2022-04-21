@@ -420,6 +420,15 @@ footer.sticky-bottom {
 	font-size: 1rem;
 	font-weight: bolder;
     }
+
+    ol.bibliography {
+	list-style: none;
+	padding: 0;
+	margin-top: 0;
+
+	li {margin-bottom: 0.25rem;
+	   }
+    }
 }
 
 // Publications
@@ -440,8 +449,8 @@ footer.sticky-bottom {
     }
   }
   h2.talk_topic {
-      margin-bottom: 0.25rem;
-      font-size: 0.75rem;
+      margin-bottom: 1rem;
+      font-size: 0.85rem;
       font-weight: bolder;
   }
   h2.year {

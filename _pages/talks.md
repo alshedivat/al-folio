@@ -8,7 +8,7 @@ talk_titles: [The Learnt Geometry of Collider Events,"Anomaly Detection: CWoLa H
 nav: true
 ---
 
-<div class="publications">
+<div class="talks">
 
 {% for y in page.talk_titles %}
   <h2 class="talk_topic">{{y}}</h2>
