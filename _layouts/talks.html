@@ -22,15 +22,6 @@
           {%- capture periodical -%}{{ entrymonth }}{{ entryyear }}{{ entryvenue }}{%- endcapture -%}
           <div class="periodical">
             {{ periodical | strip }}
-	    {%- if entry.abstract %}
-	      <a>Abs</a>
-	    {%- endif %}
-	      {%- if entry.slides %}
-	      {% if entry.slides contains '://' -%}
-	      <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
-	      {%- else -%}
-	      <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
-	                  {%- endif %}
           </div>
         {%- endif %}
         
