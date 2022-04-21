@@ -20,7 +20,7 @@
             {%- capture entryvenue -%}{{ ":   " }}{{entry.venue}}{%- endcapture -%}
 	  {%- endif -%}
           {%- capture periodical -%}{{ entrymonth }}{{ entryyear }}{{ entryvenue }}{%- endcapture -%}
-          <div class="periodical">
+          <div class="periodical" style="display: inline">
             {{ periodical | strip }}
 	    {%- if entry.slides %}
 	    <a href="{{ entry.slides }}">Slides</a>
@@ -29,7 +29,7 @@
         {%- endif %}
         
           <!-- Links/Buttons -->
-          <div class="links">
+          <div class="links" style="display: inline">
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
