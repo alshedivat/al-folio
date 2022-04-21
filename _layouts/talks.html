@@ -22,6 +22,9 @@
           {%- capture periodical -%}{{ entrymonth }}{{ entryyear }}{{ entryvenue }}{%- endcapture -%}
           <div class="periodical">
             {{ periodical | strip }}
+	    {%- if entry.abstract %}
+	      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+	    {%- endif %}
           </div>
         {%- endif %}
         
