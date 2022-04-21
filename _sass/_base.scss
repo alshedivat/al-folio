@@ -402,6 +402,23 @@ footer.sticky-bottom {
 
 .talks{
     margin-top: 1rem;
+    h1 {
+	color: var(--global-theme-color);
+	font-size: 2rem;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+    }
+    h2 {
+	margin-bottom: 1rem;
+	span {
+	    font-size: 1.5rem;
+	}
+    }
+    h2.talk_topic {
+	margin-bottom: 1rem;
+	font-size: 1rem;
+	font-weight: bolder;
 }
 
 // Publications
