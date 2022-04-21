@@ -4,16 +4,15 @@ permalink: /talks/
 title: talks
 order: 3
 description:
-talk_cats: [A]
+years: [2021,2019,2018,2017,2016,2015, 2014,2012,2010]
 nav: true
 ---
 
 <div class="publications">
 
-{% for y in page.talk_cats %}
-  <div class="title">{{y}}</div>
-      {% bibliography -T papers -f talks -q @*[title={{y}}]* %}
-{% endfor %}
+{% for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+      {% bibliography -f papers -q @*[year={{y}}]* %}
+          {% endfor %}
 
 </div>
-
