@@ -5,24 +5,37 @@
 
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
+        {% if entry.type == "thesis" -%}
+          {{reference}}
+        {%- else %}
+          <!-- Title -->
+          <div class="title">{{entry.title}}</div>
 
           <!-- Journal/Book title and date -->
+          {% if entry.type == "article" -%}
+            {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
+          {%- elsif entry.type == "inproceedings" -%}
+            {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+          {%- else -%}
+            {%- capture entrytype -%}{%- endcapture -%}
+          {%- endif -%}
           {%- if entry.month -%}
             {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
           {%- endif -%}
           {%- if entry.year -%}
             {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
           {%- endif -%}
-	  {%- if entry.venue -%}
-	    {%- capture entryvenue -%}{{ " " }}{{entry.venue}}{%- endcapture -%}
-	  {%- endif -%}
-          {%- capture periodical -%}{{ entrymonth }}{{ entryyear }} {{entryvenue}}{%- endcapture -%}
+          {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
           <div class="periodical">
             {{ periodical | strip }}
           </div>
+        {%- endif %}
         
           <!-- Links/Buttons -->
           <div class="links">
+          {%- if entry.abstract %}
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          {%- endif %}
           {%- if entry.eprint %}
             <a href="http://arxiv.org/abs/{{ entry.eprint }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
           {%- endif %}
