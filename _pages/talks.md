@@ -4,7 +4,7 @@ permalink: /talks/
 title: talks
 order: 3
 description:
-talk_titles: [A,B]
+talk_titles: [The Learnt Geometry of Collider Events,CWoLa Hunting]
 nav: true
 ---
 
