@@ -70,6 +70,16 @@ gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 instagram_id: # your instagram id
 kaggle_id: # your kaggle id
+twitter_username: limyewjin # your Twitter handle
+linkedin_username: yewjinlim # your LinkedIn user name
+scholar_userid: cvY_q0MAAAAJ # your Google Scholar ID
+orcid_id: # your ORCID ID
+medium_username: # your Medium username
+quora_username: # your Quora username
+publons_id: # your ID on Publons
+research_gate_profile: # your profile on ResearchGate
+blogger_url: # your blogger URL
+work_url: # work page URL
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
