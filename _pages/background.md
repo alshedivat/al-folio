@@ -6,26 +6,12 @@ description: To provide a bit more background information, here is my not so str
 nav: true
 ---
 ___
-## Education
-
-<p style="font-size:0.85rem; margin-bottom: 0">2016 - 2021</p>
-<p style="font-size:1.25rem; margin-bottom: 0"><b>PhD in Neuroscience</b> · <i>University of Lausanne</i></p>
-**Thesis**: <a href="/assets/pdf/Thesis_2021_PhD_Notter.pdf">Innovation and standardization of processing pipelines for functional MRI data analysis</a><br>**Work**: Development of 8 neuroimaging toolboxes to facilitate the processing and analysis of MRI, EEG and eye-tracking data, with a focus on human cognitive mechanisms, such as multisensory integration and rhythm perception. Planning and execution of 7 research studies, including the acquisition of various datasets, using novel measuring techniques. Analysis methods included classical statistical analysis, as well as machine learning approaches.
-
-<p style="font-size:0.85rem; margin-bottom: 0">2012 - 2014</p>
-<p style="font-size:1.25rem; margin-bottom: 0"><b>Master of Science in Neuroscience with minor in Neuroinformatics</b> · <i>University of Zurich</i></p>
-
-**Thesis**: <a href="/assets/pdf/Thesis_2014_Master_Notter.pdf">Differences and similarities between the brains of children with attention deficit hyperactivity disorder and children with autism spectrum disorder - An analysis of 700 anatomical MRI scans</a><br>**Lectures** in neuroinformatics, neurobiology, cognitive psychology, neuroimaging methods, neural networks, models of computation & computational vision.
-
-<p style="font-size:0.85rem; margin-bottom: 0">2007 - 2012</p>
-<p style="font-size:1.25rem; margin-bottom: 0"><b>Bachelor of Science in Psychology with minor in Neuroinformatics</b> · <i>University of Zurich</i></p>
-
-**Thesis**: On achieving satisfaction and subjective well-being. A review of intervention studies from positive psychology<br>**Lectures** in psychology, neuroinformatics, statistics, neuroscience, informatics, biology, mathematics & AI.
-
-<br>
-
-___
 ## Professional Experience
+
+<p style="font-size:0.85rem; margin-bottom: 0">2022 - present</p>
+<p style="font-size:1.25rem; margin-bottom: 0"><b>Machine Learning Staff Engineer</b> · <i>ams OSRAM, Martigny</i></p>
+
+As a researcher in the Artificial Intelligence and Machine Learning team in the Innovation Office of <a href="https://ams-osram.com/">ams OSRAM</a>, I work on several projects in the field of computer vision and signal processing in general. I am using data from vertical-cavity surface-emitting lasers (VCSELs) and combining it with advanced signal processing and machine learning routines to improve the performance, expand the capabilities, and reduce the resource requirements of next-generation 3D sensing and scene recognition applications. In particular, but not exclusively, I strive to improve the real-time capabilities of direct time-of-flight (dToF) and next-generation sensor technologies, such as self-mixing interferometry (SMI), to provide low-power, high measurement accuracy sensor technologies at very high speed.
 
 <p style="font-size:0.85rem; margin-bottom: 0">2019 - 2022</p>
 <p style="font-size:1.25rem; margin-bottom: 0"><b>Data Science Course Developer & Instructor</b> · <i>EPFL, Lausanne</i></p>
@@ -55,6 +41,27 @@ Counseling, stress prevention and guidance to soldiers and cadre of the Armed Fo
 <p style="font-size:1.25rem; margin-bottom: 0"><b>Clerk in payment transactions</b> · <i>Migros Bank, Zurich</i></p>
 
 Data analysis for the purpose of anomaly detection and process optimization.
+
+<br>
+
+___
+## Education
+
+<p style="font-size:0.85rem; margin-bottom: 0">2016 - 2021</p>
+<p style="font-size:1.25rem; margin-bottom: 0"><b>PhD in Neuroscience</b> · <i>University of Lausanne</i></p>
+**Thesis**: <a href="/assets/pdf/Thesis_2021_PhD_Notter.pdf">Innovation and standardization of processing pipelines for functional MRI data analysis</a><br>**Work**: Development of 8 neuroimaging toolboxes to facilitate the processing and analysis of MRI, EEG and eye-tracking data, with a focus on human cognitive mechanisms, such as multisensory integration and rhythm perception. Planning and execution of 7 research studies, including the acquisition of various datasets, using novel measuring techniques. Analysis methods included classical statistical analysis, as well as machine learning approaches.
+
+<p style="font-size:0.85rem; margin-bottom: 0">2012 - 2014</p>
+<p style="font-size:1.25rem; margin-bottom: 0"><b>Master of Science in Neuroscience with minor in Neuroinformatics</b> · <i>University of Zurich</i></p>
+
+**Thesis**: <a href="/assets/pdf/Thesis_2014_Master_Notter.pdf">Differences and similarities between the brains of children with attention deficit hyperactivity disorder and children with autism spectrum disorder - An analysis of 700 anatomical MRI scans</a><br>**Lectures** in neuroinformatics, neurobiology, cognitive psychology, neuroimaging methods, neural networks, models of computation & computational vision.
+
+<p style="font-size:0.85rem; margin-bottom: 0">2007 - 2012</p>
+<p style="font-size:1.25rem; margin-bottom: 0"><b>Bachelor of Science in Psychology with minor in Neuroinformatics</b> · <i>University of Zurich</i></p>
+
+**Thesis**: On achieving satisfaction and subjective well-being. A review of intervention studies from positive psychology<br>**Lectures** in psychology, neuroinformatics, statistics, neuroscience, informatics, biology, mathematics & AI.
+
+<br>
 
 ___
 ## Awards & Fellowships
