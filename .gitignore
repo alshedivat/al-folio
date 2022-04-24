@@ -13,3 +13,5 @@ vendor
 *.sav
 *.tmp
 _bibliography/betterbib_cache.sqlite
+bin/
+
