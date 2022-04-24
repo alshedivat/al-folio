@@ -19,7 +19,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://limyewjin.github.io # the base hostname & protocol for your site
-baseurl: /about/ # the subpath of your site, e.g. /blog/
+baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -107,7 +107,7 @@ whatsapp_number: # your WhatsApp number (full phone number in international form
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
-x_username: # your X handle
+x_username: @limyewjin # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
@@ -132,8 +132,13 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 blog_name: al-folio # blog_name will be displayed in your blog page
 blog_description: a simple whitespace theme for academics
+=======
+blog_name: Yew Jin Lim # your blog must have a name for it to show up in the nav bar
+blog_description: a simple about page
+>>>>>>> bb5415a7 (remove baseurl)
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -141,6 +146,7 @@ lsi: false # produce an index for related posts
 pagination:
   enabled: true
 
+<<<<<<< HEAD
 related_blog_posts:
   enabled: true
   max_related: 5
@@ -162,6 +168,10 @@ giscus:
 
 # Disqus comments (DEPRECATED)
 disqus_shortname: al-folio # put your disqus shortname
+=======
+# Comments
+disqus_shortname: # put your disqus shortname
+>>>>>>> bb5415a7 (remove baseurl)
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
