@@ -8,7 +8,8 @@
     {% endfor -%}
 
     <!-- Fallback to the original file -->
-    <img {% if include.class %}class="{{ include.class }}"{% endif %} src="{{ include.path | relative_url }}" {% if include.alt %}alt="{{ alt }}"{% endif %} {% if include.title %}title="{{ title }}"{% endif %} {% if include.zoomable %}data-zoomable{% endif %} />
+    <img {% if include.class %}class="{{ include.class }}"{% endif %} src="{{ include.path | relative_url }}" {% if include.alt %}alt="{{ include.alt }}"{% endif %} {% if include.title %}title="{{ include.title }}"{% endif %} {% if include.zoomable %}data-zoomable{% endif %} />
+
   </picture>
 
   {%- if include.caption -%}<figcaption class="caption">{{ include.caption }}</figcaption>{%- endif %}
