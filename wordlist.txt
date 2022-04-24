@@ -65,6 +65,7 @@ MRC
 Magdeburg
 Manoeuvre
 Marburg
+Martigny
 MaxPooling
 MedMNIST
 Migros
@@ -76,6 +77,7 @@ Neuroinformatics
 Nibabel
 Nilearn
 Nipype
+OSRAM
 OVGU
 OpenML
 OpenNeuro
@@ -95,6 +97,7 @@ RGBs
 ReLU
 ResNet
 RobustScaler
+SMI
 SNE
 SPM
 SSN
@@ -115,6 +118,7 @@ UMAP
 UMAP's
 UserWarnings
 VAE
+VCSELs
 VarianceScaling
 Viessman
 WhitakerLab
@@ -129,6 +133,7 @@ ai
 al
 amld
 amongs
+ams
 annot
 arange
 argmax
@@ -170,6 +175,7 @@ cp
 crossentropy
 csv
 cv
+dToF
 dacac
 dataflow
 dataframe
@@ -244,6 +250,7 @@ init
 initializer
 initializers
 inplace
+interferometry
 interpretable
 io
 ipynb
