@@ -179,11 +179,9 @@ collections:
   news:
     defaults:
       layout: post
+      comments: true
     output: true
     permalink: /news/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
 
 announcements:
   enabled: true
@@ -299,14 +297,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-<<<<<<< HEAD
-  last_name: [Einstein]
-  first_name: [Albert, A.]
-=======
-
   last_name: Lim
   first_name: [Yew Jin]
->>>>>>> 712c868b (blog updates)
 
   style: apa
   locale: en
