@@ -18,3 +18,7 @@ group :jekyll_plugins do
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
 end
+group :other_plugins do
+    gem 'httparty'
+    gem 'feedjira'
+end

@@ -58,7 +58,15 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://julianstreyczek.github.io" target="_blank">★</a>
 <a href="https://sdaza.com" target="_blank">★</a>
 <a href="https://niweera.gq" target="_blank">★</a>
-   
+<a href="https://www.alihkw.com" target="_blank">★</a>
+<a href="https://amirpourmand.ir" target="_blank">★</a>
+<a href="https://scottleechua.github.io" target="_blank">★</a>
+<a href="https://sk1y101.github.io" target="_blank">★</a>
+<a href="https://yyang768osu.github.io" target="_blank">★</a>
+<a href="https://veedata.github.io" target="_blank">★</a>
+<a href="https://K-Wu.github.io" target="_blank">★</a>
+<a href="https://amalawilson.com" target="_blank">★</a>
+<a href="https://tirtharajdash.github.io" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -337,7 +345,7 @@ Easily create beautiful grids within your blog posts and project pages:
 
 <p align="center">
   <a href="https://alshedivat.github.io/al-folio/projects/1_project/">
-    <img src="assets/img/photos-screenshot.png" width="75%">
+    <img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/photos-screenshot.png" width="75%">
   </a>
 </p>
 
