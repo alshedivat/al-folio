@@ -12,7 +12,7 @@ In order for our memory to work successfully, we need to guide the retrieval of 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/CNS_Poster.svg" title="CNS Poster" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="/assets/img/CNS_Poster.jpg" title="CNS Poster" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
