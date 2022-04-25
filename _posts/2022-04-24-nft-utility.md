@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Investing in NFTs?
-date: 2022-04-24 21:00:00
+date: 2022-04-24 21:00:30
 description: No need to get angry at NFTs
 ---
 I recently found a (short) [investment thesis on Bitcoin](https://docs.google.com/document/d/1-3R10vhbe5GgBeREda3nAXtlT5YpwEviBao340H3tgM/edit) which I wrote for myself in July 2014. I think I was way smarter in 2014. :-)
