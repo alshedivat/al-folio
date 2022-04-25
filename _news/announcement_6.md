@@ -16,12 +16,10 @@ In order for our memory to work successfully, we need to guide the retrieval of 
     </div>
 </div>-->
 
-<div>
-    <a href="/assets/img/CNS_Poster.jpg">
-        <img 
-            src="/assets/img/CNS_Poster.jpg" 
-            alt="CNS Poster 2022"
-            class="img-fluid rounded z-depth-1"
-        >
-    </a>
-</div>
+<a href="/assets/img/CNS_Poster.jpg">
+    <img 
+        src="/assets/img/CNS_Poster.jpg" 
+        alt="CNS Poster 2022"
+        class="img-fluid rounded z-depth-1"
+    />
+</a>
