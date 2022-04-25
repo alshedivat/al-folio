@@ -10,11 +10,11 @@ In order for our memory to work successfully, we need to guide the retrieval of 
 
 <!--![CNS_Poster](/assets/img/CNS_Poster_2022.png)-->
 
-<div class="row">
+<!--<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="/assets/img/CNS_Poster.jpg" title="CNS Poster" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
+</div>-->
 
 <a href="/assets/img/CNS_Poster.jpg">
     <img 
