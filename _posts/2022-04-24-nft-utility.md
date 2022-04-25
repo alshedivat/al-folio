@@ -1,17 +1,16 @@
 ---
 layout: post
 comments: true
-title: Investing in NFTs?
+title: No need to get angry at NFTs
 date: 2022-04-24 21:00:30
-description: No need to get angry at NFTs
+description: But you might want to consider investing in them
 ---
 I recently found a (short) [investment thesis on Bitcoin](https://docs.google.com/document/d/1-3R10vhbe5GgBeREda3nAXtlT5YpwEviBao340H3tgM/edit) which I wrote for myself in July 2014. I think I was way smarter in 2014. :-)
 
-> "Bitcoin, at its current valuation, provides a reasonable risk / reward profile."
+> "Bitcoin, at its current valuation, provides a reasonable risk / reward profile."<br>
+> -- me, in 2014
 
-I dove into the NFT space in early 2022, and let's say I feel compelled to write another investment thesis.
-
-The first rule of the NFT club is "forget everything you think you know about NFTs".
+I dove into the NFT space in early 2022, and let's say I feel compelled to write another investment thesis - this time on NFTs. And the first rule of the NFT club is "forget everything you think you know about NFTs".
 
 Let's go through 3 observations:<br>
 1) NFT economics<br>
