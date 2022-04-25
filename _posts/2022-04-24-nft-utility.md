@@ -59,6 +59,8 @@ Access is a bit more loosey goosey, but right now it looks like access to:
 - more / WL access to other NFTs: totally not recursion
 If you are worried about this being a unsustainable bubble, talk to the country clubs.
 
+{% twitter https://twitter.com/limyewjin/status/1518269182013366273 %}
+
 At the end of the day, the main question I have is if web3 can scale beyond an enclave of a small group of early-movers in a smokey cigar room? Maybe, but if you're yelling at the JPEG, yell at the poor "utility" instead.
 
 # 3) Art is the hook
