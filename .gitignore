@@ -11,3 +11,5 @@ assets/libs/
 node_modules/
 vendor
 .idea
+package.json
+yarn.lock
