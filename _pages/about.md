@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Undergraduate Student @ <a href='https://www.umass.edu/'>UMass Amherst</a>
+subtitle: Undergraduate Student @ <a href='https://www.umass.edu/'>UMass Amherst</a> • zheyuanzhang [at] umass [dot] edu
 
 profile:
   align: right
