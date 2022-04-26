@@ -512,7 +512,7 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
       }
       div.abstract.hidden {
-        border: dashed 1px var(--global-bg-color);
+        border: dashed 0px var(--global-bg-color);
       }
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
