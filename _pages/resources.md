@@ -38,4 +38,5 @@ For those interested in additional training resources and comfortably read expla
 * [Yufei Zhao's training handouts](https://yufeizhao.com/olympiad/)
 * [Alexander Remorov's notes](https://alexanderrem.weebly.com/math-competitions.html)
 * [Evan Chen's articles](https://web.evanchen.cc/olympiad.html)
+* [David Altizio's problems and materials](https://davidaltizio.web.illinois.edu/mathlinks.html)
 * [Canadian IMO Training site](https://sites.google.com/site/imocanada/2021-winter-camp)
