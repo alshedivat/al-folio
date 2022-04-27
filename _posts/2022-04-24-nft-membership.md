@@ -5,7 +5,7 @@ title: Monetizing using NFTs
 date: 2022-04-26 21:00:30
 description: Is the new monetization model already here?
 ---
-I've been thinking about monetization beyond ads; is it already here?
+I've been thinking about next monetization model after freemium models. Is it already here?
 
 It is used by many NFT tools. Here's an example: [SuperSea](https://nonfungible.tools/supersea).
 
