@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: chawins AT berkeley DOT edu.
+subtitle: chawins AT berkeley DOT edu
 
 profile:
   align: right
