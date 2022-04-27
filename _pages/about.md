@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-[CV](/assets/Chawin_Sitawarin_CV.pdf) &nbsp;&nbsp;&nbsp;&nbsp; [Google Scholar](https://scholar.google.com/citations?hl=en&authuser=1&user=AxUAEQ4AAAAJ)
+[CV](/assets/pdf/Chawin_Sitawarin_CV.pdf) &nbsp;&nbsp;&nbsp;&nbsp; [Google Scholar](https://scholar.google.com/citations?hl=en&authuser=1&user=AxUAEQ4AAAAJ)
 
 Hello! My name is Chawin Sitawarin. I am a PhD student in Computer Science at UC Berkeley, and I am a part of [the security group](https://security.cs.berkeley.edu/), [Berkeley Artificial Intelligence Research (BAIR)](https://bair.berkeley.edu/) and [Berkeley DeepDrive (BDD)](https://bdd-data.berkeley.edu/). My advisor is [Prof. David Wagner](https://people.eecs.berkeley.edu/~daw/).
 
