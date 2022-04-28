@@ -96,6 +96,9 @@ layout: default
     {% if entry.html %}
       <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">Link</a>
     {% endif %}
+    {% if entry.data %}
+      <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">Data</a>
+    {% endif %}
     {% if entry.pdf %}
       {% if entry.pdf contains '://' %}
       <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
