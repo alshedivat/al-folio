@@ -6,7 +6,7 @@ title: Rômulo Drumond # the website title (if blank, full name will be used ins
 first_name: Rômulo
 middle_name: B. P.
 last_name: Drumond
-email: rbp.drumond@gmail.com
+email: romulo.b.p.drumond@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -69,7 +69,7 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  Don't forget to think about people, in the end, it is all about the people.
+  Feel free to reach out.
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
