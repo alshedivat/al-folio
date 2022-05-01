@@ -322,6 +322,8 @@ There are several custom bibtex keywords that you can use to affect how the entr
    
 You can implement your own buttons by editing the bib.html file.
    
+</details>
+   
 ### Collections
 
 This Jekyll theme implements `collections` to let you break up your work into categories.
