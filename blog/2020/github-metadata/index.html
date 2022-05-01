@@ -2,16 +2,16 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://alshedivat.github.io/al-folio/" />    <!-- Metadata, OpenGraph and Schema.org -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>You R. Name | Page not found</title>
+    <title>You R. Name | a post with github metadata</title>
     <meta name="author" content="You R. Name" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="a quick run down on accessing github metadata." />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -32,7 +32,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
     
     <link rel="stylesheet" href="/al-folio/assets/css/main.css">
-    <link rel="canonical" href="https://alshedivat.github.io/al-folio/404.html">
+    <link rel="canonical" href="https://alshedivat.github.io/al-folio/blog/2020/github-metadata/">
     
     <!-- Dark Mode -->
     
@@ -71,7 +71,7 @@
               </li>
               
               <!-- Blog -->
-              <li class="nav-item ">
+              <li class="nav-item active">
                 <a class="nav-link" href="/al-folio/blog/">blog</a>
               </li>
 
@@ -109,20 +109,66 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <!-- page.html -->
-        <div class="post">
+      <!-- _layouts/post.html -->
 
-          <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
-          </header>
+<div class="post">
 
-          <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://alshedivat.github.io/al-folio/">here</a>.</p>
+  <header class="post-header">
+    <h1 class="post-title">a post with github metadata</h1>
+    <p class="post-meta">September 28, 2020</p>
+    <p class="post-tags">
+      <a href="/al-folio/blog/2020"> <i class="fas fa-calendar fa-sm"></i> 2020 </a>
+        ·  
+        <a href="/al-folio/blog/category/sample-posts">
+          <i class="fas fa-tag fa-sm"></i> sample-posts</a>  
+          <a href="/al-folio/blog/category/external-services">
+          <i class="fas fa-tag fa-sm"></i> external-services</a>  
+          
 
-          </article>
+    </p>
+  </header>
 
-        </div>
+  <article class="post-content">
+    <p>A sample blog page that demonstrates the accessing of github meta data.</p>
+
+<h2 id="what-does-github-metadata-do">What does Github-MetaData do?</h2>
+<ul>
+  <li>Propagates the site.github namespace with repository metadata</li>
+  <li>Setting site variables :
+    <ul>
+      <li>site.title</li>
+      <li>site.description</li>
+      <li>site.url</li>
+      <li>site.baseurl</li>
+    </ul>
+  </li>
+  <li>Accessing the metadata - duh.</li>
+  <li>Generating edittable links.</li>
+</ul>
+
+<h2 id="additional-reading">Additional Reading</h2>
+<ul>
+  <li>If you’re recieving incorrect/missing data, you may need to perform a Github API<a href="https://github.com/jekyll/github-metadata/blob/master/docs/authentication.md" target="_blank" rel="noopener noreferrer"> authentication</a>.</li>
+  <li>Go through this <a href="https://jekyll.github.io/github-metadata/" target="_blank" rel="noopener noreferrer">README</a> for more details on the topic.</li>
+  <li>
+<a href="https://github.com/jekyll/github-metadata/blob/master/docs/site.github.md" target="_blank" rel="noopener noreferrer">This page</a> highlights all the feilds you can access with github-metadata.
+<br>
+</li>
+</ul>
+
+<h2 id="example-metadata">Example MetaData</h2>
+<ul>
+  <li>Host Name :</li>
+  <li>URL :</li>
+  <li>BaseURL :</li>
+  <li>Archived :</li>
+  <li>Contributors :</li>
+</ul>
+
+
+  </article>
+
+</div>
 
     </div>
 

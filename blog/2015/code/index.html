@@ -2,16 +2,16 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://alshedivat.github.io/al-folio/" />    <!-- Metadata, OpenGraph and Schema.org -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>You R. Name | Page not found</title>
+    <title>You R. Name | a post with code</title>
     <meta name="author" content="You R. Name" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="an example of a blog post with some code" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -32,7 +32,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
     
     <link rel="stylesheet" href="/al-folio/assets/css/main.css">
-    <link rel="canonical" href="https://alshedivat.github.io/al-folio/404.html">
+    <link rel="canonical" href="https://alshedivat.github.io/al-folio/blog/2015/code/">
     
     <!-- Dark Mode -->
     
@@ -71,7 +71,7 @@
               </li>
               
               <!-- Blog -->
-              <li class="nav-item ">
+              <li class="nav-item active">
                 <a class="nav-link" href="/al-folio/blog/">blog</a>
               </li>
 
@@ -109,20 +109,83 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <!-- page.html -->
-        <div class="post">
+      <!-- _layouts/post.html -->
 
-          <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
-          </header>
+<div class="post">
 
-          <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://alshedivat.github.io/al-folio/">here</a>.</p>
+  <header class="post-header">
+    <h1 class="post-title">a post with code</h1>
+    <p class="post-meta">July 15, 2015</p>
+    <p class="post-tags">
+      <a href="/al-folio/blog/2015"> <i class="fas fa-calendar fa-sm"></i> 2015 </a>
+        ·  
+        <a href="/al-folio/blog/tag/formatting">
+          <i class="fas fa-hashtag fa-sm"></i> formatting</a>  
+          <a href="/al-folio/blog/tag/code">
+          <i class="fas fa-hashtag fa-sm"></i> code</a>  
+          
+        ·  
+        <a href="/al-folio/blog/category/sample-posts">
+          <i class="fas fa-tag fa-sm"></i> sample-posts</a>  
+          
 
-          </article>
+    </p>
+  </header>
 
-        </div>
+  <article class="post-content">
+    <p>This theme implements a built-in Jekyll feature, the use of Rouge, for syntax highlighting.
+It supports more than 100 languages.
+This example is in C++.
+All you have to do is wrap your code in a liquid tag:</p>
+
+<p>{% highlight c++ linenos %}  <br> code code code <br> {% endhighlight %}</p>
+
+<p>The keyword <code class="language-plaintext highlighter-rouge">linenos</code> triggers display of line numbers.
+Produces something like this:</p>
+
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td>
+<td class="code"><pre><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="err">\</span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<span class="p">{</span>
+    <span class="n">string</span> <span class="n">myString</span><span class="p">;</span>
+
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input a string: "</span><span class="p">;</span>
+    <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
+    <span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
+
+    <span class="kt">char</span> <span class="n">charArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">char</span> <span class="o">*</span> <span class="p">[</span><span class="n">length</span><span class="p">];</span>
+
+    <span class="n">charArray</span> <span class="o">=</span> <span class="n">myString</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+
+  </article>
+
+</div>
 
     </div>
 
