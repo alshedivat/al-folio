@@ -17,6 +17,16 @@
         {% if entry.type == "thesis" -%}
           {{reference}}
         {%- else %}
+        <!-- Teaser Image -->
+          <!-- <div class="col-sm-2">
+            {%- if entry.teaser -%}
+              {% if entry.teaser contains '://' -%}
+              <img class="teaser" src="{{ entry.teaser }}.jpg" >
+              {%- else -%}
+              <img class="teaser" src="{{ entry.teaser | prepend: '/assets/img/paper_teasers/' | relative_url }}.jpg" width="240px" height="200px">
+              {%- endif -%}
+            {%- endif -%}
+          </div> -->
           <!-- Title -->
           <div class="title">{{entry.title}}</div>
           <!-- Conference -->
@@ -72,6 +82,7 @@
             {%- endif -%}
           {%- endfor %}
           </div>
+        
 
           <!-- Journal/Book title and date -->
           {% if entry.type == "article" -%}
