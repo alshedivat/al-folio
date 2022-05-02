@@ -1,80 +1,29 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: animating flows
+description: time-lapse visualization of mobility patterns
+img: assets/img/3dheb_flow.png
 importance: 3
-category: fun
+category: visualization
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Porto buses are equipped with a Mobile Wi-Fi service from [Veniam](http://www.veniam.com), which provides free Wi-Fi to bus passengers. The system stores the start and end locations and times of Wi-Fi sessions, allowing to infer mobility patterns from Wi-Fi usage. The video below shows these mobility patterns. Locations were clustered with K-means, highly decreasing the complexity of the mobility graph and allowing to understand the major flows in the city.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<div style="padding:51.76% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/124638700?h=0441f0b86c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Origins and destinations of Porto&amp;rsquo;s bus passengers based on Wi-Fi"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div class="caption"></div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Clustering locations enables to understand the major patterns, but detail is lost in the way. Another approach for visualizing mobility flows is illustrated in the video below. Here, instead of clustering locations, the origin-destination pairs are bundled. Edges connecting the start and end location of a Wi-Fi session are deformed and grouped in order to identify major flows. These edges do not represent the paths (they are not mapped to roads) but flows in the city. In this version, flows that have different direction avoid each other while flows that have similar direction are attracted together. A blue to red gradient is used to illustrate flow, with flows starting blue at the origin and red at the destination.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+<div style="padding:51.88% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/124650835?h=d1f988fd75&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Animated edge bundling for visualising the flow of bus passengers in Porto"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div class="caption"></div>
 
+Different criteria can be explored to bundle edges together. Some examples are illustrated in the video below here flows and their coloring are based on the trip's distance or on the destination of the trip, for example.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+<div style="padding:40.7% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/125892304?h=c701324d0e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="3DHEB in action: visualising the same data using different bundling criteria"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div class="caption"></div>
 
+Finally, and mainly for fun, we can do the animation in 3D and play with the height of the flows. In the next video, the direction of the flows is ignored, and height is calculated from the density of flows, creating interesting visual effects.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+<div style="padding:51.88% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/129894173?h=a8840a587e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Under the Skin (of Porto&amp;#039;s bus network)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div class="caption"></div>

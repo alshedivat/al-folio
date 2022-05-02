@@ -2,23 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address:
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a computer scientist and engineer who loves data and algorithms.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have a PhD in Computer Engineering and a Master in Artificial Intelligence. I worked for several years at the University of Porto, where I lectured computer science subjects and researched pattern matching and other AI-related topics. I was fortunate to work with École Polytechnique de Montréal, University College of London, the University of Gent, and Carnegie Mellon University. In 2015 I joined [Veniam](http://www.veniam.com), an exciting startup where I am currently the Principal Data Scientist and where I am driving Data (Science, Engineering and Analytics).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I love to learn and to share what I learn. I also love to build new things and solve problems. That is why I have created [SPyQL](https://github.com/dcmoura/spyql), an open source project for querying data with SQL powered by Python expressions.
+
+I love being surrounded by nature, hiking, dancing, and spending time with my family and friends. I also love playing sports, from football/soccer to chess :-)

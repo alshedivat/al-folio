@@ -1,80 +1,66 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: SPyQL
+description: SQL with Python in the Middle
+img: assets/img/spyql_logo2.png
 importance: 1
-category: work
+category: tools
+github: https://github.com/dcmoura/spyql
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+[SPyQL](https://github.com/dcmoura/spyql) is SQL with Python in the middle, an open-source project fully written in Python for making command-line data processing more intuitive, readable and powerful. Try mixing in the same pot:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+* a SQL SELECT for providing the structure;
+* Python expressions for defining transformations and conditions;
+* the essence of awk as a data-processing language;
+* the JSON handling capabilities of jq.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## How does a SPyQL query look like?
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 ```
-{% endraw %}
+IMPORT pendulum AS p
+SELECT
+    (p.now() - p.from_timestamp(purchase_ts)).in_days() AS days_ago,
+    sum_agg(price * quantity) AS total
+FROM csv
+WHERE department.upper() == 'IT' and purchase_ts is not Null
+GROUP BY 1
+ORDER BY 1
+TO json
+```
+
+Simple, readable, and, as with all SPyQL programs, it's an 1-liner. In a single statement, we are:
+1. reading a CSV (of purchases) with automatic header detection, dialect detection, type inference and casting,
+2. filtering out records that do not belong to the IT department or do not have a purchase timestamp
+3. summing the total purchases and grouping by how many days ago they happened,
+4. sorting from the most to the least recent day and
+5. writing the result in JSON format.
+
+All this without loading the dataset into memory.
+
+SPyQL will change data-processing in the terminal, making it accessible to anyone who knows a little-bit of Python and understands the basics of a SQL SELECT. On the other hand, it will give super-powers to experienced users. The possibilities are endless as you can import any Python library, and pipe data from/to any command-line tool. From querying APIs and Kafka, to write to files or databases, SPyQL will be the tool of choice for processing data in the command-line!
+
+## Testimonials
+
+<blockquote>
+I'm very impressed - this is some very neat pragmatic software design.
+— Simon Willison, Creator of Datasette, co-creator of Django
+</blockquote>
+
+
+<blockquote>
+I love this tool! I use it every day...
+— Alin Panaitiu, Creator of Lunar
+</blockquote>
+
+<blockquote>
+Brilliant tool, thanks a lot for creating it and for the example here!
+— Greg Sadetsky, Co-founder and CTO at Decibel Ads
+</blockquote>
+
+
+## Pointers
+
+* [Repo @ GitHub](https://github.com/dcmoura/spyql)
+* [Demo video](https://vimeo.com/danielcmoura/spyqldemo)
+* [Slides from FOSDEM22](https://fosdem.org/2022/schedule/event/python_spyql/attachments/slides/5054/export/events/attachments/python_spyql/slides/5054/spyql_fosdem22_slides.pdf)
