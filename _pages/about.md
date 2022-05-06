@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='http://qu.edu.qa'>College of Business and Economics, Qatar Universitys</a>. Doha, Qatar.
+subtitle: <a href='http://qu.edu.qa'>College of Business and Economics, Qatar University</a>. Doha, Qatar.
 
 profile:
   align: right
