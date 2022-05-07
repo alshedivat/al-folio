@@ -47,13 +47,13 @@ cv_pdf: example_pdf.pdf
 					<li class="list-group-item">
 						<div class="row">
 							{% if content.year %}
-								<div class="col-xs-2 cl-sm-2 col-md-auto text-left" style="width: 75px;">
+								<div class="col-xs-2 cl-sm-2 col-md-2 text-left" style="width: 75px;">
 									<span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="width: 75px;">
 										{{ content.year }}
 									</span>
 								</div>
 							{% endif %}
-							<div class="col-xs-10 cl-sm-10 col-md mt-2 mt-md-0">
+							<div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
 								{% if content.title %}
 								<h6 class="title font-weight-bold ml-1 ml-md-4">{{content.title}}</h6>
 								{% endif %}
