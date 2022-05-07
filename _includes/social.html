@@ -19,6 +19,9 @@
             {%- if site.linkedin_username -%}
             <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
             {% endif %}
+            {%- if site.cv -%}
+            <a href="assets/pdf/cv.pdf" title="cv"><i class="ai ai-cv ai"></i></a>
+            {% endif %}
             {%- if site.twitter_username -%}
             <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a>
             {% endif %}
