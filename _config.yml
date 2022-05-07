@@ -128,7 +128,6 @@ news_limit: 5
 markdown: kramdown
 highlighter: rouge
 highlight_theme_light: github  # https://github.com/jwarby/jekyll-pygments-themes
-highlight_theme_dark: native  # https://github.com/jwarby/jekyll-pygments-themes
 kramdown:
   input: GFM
   syntax_highlighter_opts:
