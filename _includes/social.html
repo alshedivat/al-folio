@@ -1,5 +1,5 @@
             {%- if site.email -%}
-            <a href="mailto:{{ site.email | encode_email }}" style="font-size:50px;" title="email"><i class="fas fa-envelope"></i></a>
+            <a href="mailto:{{ site.email | encode_email }}" style="font-size:30px;" title="email"><i class="fas fa-envelope"></i></a>
             {% endif %}
             {%- if site.orcid_id -%}
             <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a>
@@ -14,13 +14,13 @@
             <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
             {% endif %}
             {%- if site.github_username -%}
-            <a href="https://github.com/{{ site.github_username }}" style="font-size:50px;" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/{{ site.github_username }}" style="font-size:30px;" title="GitHub"><i class="fab fa-github"></i></a>
             {% endif %}
             {%- if site.linkedin_username -%}
-            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn" style="font-size:50px;"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn" style="font-size:30px;"><i class="fab fa-linkedin"></i></a>
             {% endif %}
             {%- if site.cv -%}
-            <a href="assets/pdf/cv.pdf" style="font-size:50px;" title="cv"><i class="ai ai-cv ai"></i></a>
+            <a href="assets/pdf/cv.pdf" style="font-size:30px;" title="cv"><i class="ai ai-cv ai"></i></a>
             {% endif %}
             {%- if site.twitter_username -%}
             <a href="https://twitter.com/{{ site.twitter_username }}" style="font-size:30px;" title="Twitter"><i class="fab fa-twitter"></i></a>
