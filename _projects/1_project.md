@@ -34,3 +34,12 @@ We define two important variables for the dataset analysis:
 
   $$Lethality = \sum_{event}Severity(event)$$</li>
 </ul>
+
+We use the following notation $L_i$ to define the lethality at year $i$. and we introduce the evolution vector defined by: $E_i = L_} - L_{i-1}$, which we hope it captures the pattern of evolution of groups. We are interestd in constructing a graphical representation of terrorist groups relation network thanks to a common feature that gives information of related events. Although, one terrorist group could lead to many attacks which represent a remarkable limitation to the model in order to analyze the connection between different groups, we are only interesed in discovering the connection between different groups through an investigation of the temporal evolution patterns of those different groups in terms of their lethalities.
+
+<h1>Attempts to solve the problem</h1>
+
+<h3>Part 1: Summary graph construction by clustering groups</h3>
+
+We proceed in a pairwise manner, and we evaluate the similarity score between different evolution vectors (not limited to lethality, but also by extending the definition of evolution vector to other variables including the geographic area in which the group is active). After calculating the similarity between different groups represented by the similarity matrix, we can decide if there's a connection represented by an edge between the groups based on an intuitive threshold ( too small threshold leads to a dense graph representation, and too large threshold leads to a sparse graph  representation).
+<img src="/assets/img/similarity.png" title="3D representation of terrorist groups connections">
