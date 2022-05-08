@@ -22,7 +22,15 @@ In this project, I used the open-source <a href="https://ccjs.umd.edu/sites/ccjs
 <h1>Problem definition</h1>
 
 We define two important variables for the dataset analysis:
+<ul>
+  <li>Severity with respect to an event defined as:
 
-$$
-Severity(event) = \alpha*N^{death}(event) + N^{injured}(event)
-$$
+  $$
+  Severity(event) = \alpha*N^{death}(event) + N^{injured}(event)
+  $$
+
+  Intuitively, $\alpha$ is a parameter that makes sense of the definition; it represents the equivalent of one dead person wrt the number of injured people.</li>
+  <li>Lethality with respect to a terrorist group:
+
+  $$Lethality = \sum_{event}Severity(event)$$</li>
+</ul>
