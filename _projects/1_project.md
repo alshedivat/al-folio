@@ -50,4 +50,4 @@ The goal of this part is to predict the spread of terrorist groups accross the g
 
 <h1>Possible ways to improve the accuracy of the model</h1>
 
-Particle filters are known for their inaccurate results, to help increase the accuracy of the model, we choose change the way we approach the problem and include other important information (media news, other technical data representing the connection between groups, etc...), then we can study the causality between terrorist groups to help predict the direction of the spread of terrorist attacks.
+Particle filters are known for their inaccurate results, to help increase the accuracy of the model, we choose change the way we approach the problem and include other important information (media news, other technical data representing the connection between groups, etc...), then we can study the causality between the evolution of a terrorist group and another to help predict the direction of the spread of terrorist attacks.
