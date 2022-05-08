@@ -43,3 +43,11 @@ We use the following notation $L_i$ to define the lethality at year $i$. and we 
 
 We proceed in a pairwise manner, and we evaluate the similarity score between different evolution vectors (not limited to lethality, but also by extending the definition of evolution vector to other variables including the geographic area in which the group is active). After calculating the similarity between different groups represented by the similarity matrix, we can decide if there's a connection represented by an edge between the groups based on an intuitive threshold ( too small threshold leads to a dense graph representation, and too large threshold leads to a sparse graph  representation).
 <img src="/assets/img/similarity.png" title="3D representation of terrorist groups connections">
+
+<h3>Part 2: Predicting the spread of terrorist attacks</h3>
+
+The goal of this part is to predict the spread of terrorist groups accross the globe, we study the evolution of the graph where nodes represents the groups and the edges represent the connection between groups. A first way to approach the problem is by using particle filters: Having longitude and lattitude for all terrorist event, we discretize the earth globe to 180*90 grids, the particle filter initiate the simulation by a uniform distribution of particles (terrorist events in this case) around the globe. When a terrorist group is accumulating events, the algorithm updates the weight of all the particles representing the groups. By the end, the particle filter calculates the weighted expected particle from all particles scattered to return the predicted state of groups.
+
+<h1>Possible ways to improve the accuracy of the model</h1>
+
+Particle filters are known for their inaccurate results, to help increase the accuracy of the model, we choose change the way we approach the problem and include other important information (media news, other technical data representing the connection between groups, etc...), then we can study the causality between terrorist groups to help predict the direction of the spread of terrorist attacks.
