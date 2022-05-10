@@ -2,16 +2,16 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://nrstillman.github.io/" />    <!-- Metadata, OpenGraph and Schema.org -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Namid  Stillman | Page not found</title>
+    <title>Namid  Stillman | a post with comments</title>
     <meta name="author" content="Namid  Stillman" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="an example of a blog post with comments" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -30,7 +30,7 @@
     <!-- Styles -->
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://nrstillman.github.io/404.html">
+    <link rel="canonical" href="https://nrstillman.github.io/blog/2015/comments/">
     
     <!-- Dark Mode -->
     
@@ -92,20 +92,43 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <!-- page.html -->
-        <div class="post">
+      <!-- _layouts/post.html -->
 
-          <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
-          </header>
+<div class="post">
 
-          <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://nrstillman.github.io/">here</a>.</p>
+  <header class="post-header">
+    <h1 class="post-title">a post with comments</h1>
+    <p class="post-meta">October 20, 2015</p>
+    <p class="post-tags">
+      <a href="/blog/2015"> <i class="fas fa-calendar fa-sm"></i> 2015 </a>
+        ·  
+        <a href="/blog/category/sample-posts">
+          <i class="fas fa-tag fa-sm"></i> sample-posts</a>  
+          <a href="/blog/category/external-services">
+          <i class="fas fa-tag fa-sm"></i> external-services</a>  
+          
 
-          </article>
+    </p>
+  </header>
 
-        </div>
+  <article class="post-content">
+    <p>This post shows how to add DISQUS comments.</p>
+
+  </article><div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_shortname  = 'nrstillman';
+      var disqus_identifier = '/blog/2015/comments';
+      var disqus_title      = "a post with comments";
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript" target="_blank" rel="noopener noreferrer">comments powered by Disqus.</a>
+</noscript>
+
+</div>
 
     </div>
 
