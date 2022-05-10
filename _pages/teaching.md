@@ -2,10 +2,8 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description:
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+In 2021-2022, I had fun preparing and teaching the exercise sessions of [Machine Learning for Physicists](https://edu.epfl.ch/coursebook/en/machine-learning-for-physicists-PHYS-467) (taught by Prof. Lenka Zdeborova) and teaching PyTorch and deep learning foundations as an introduction to research for Master's projects in deep learning theory.
