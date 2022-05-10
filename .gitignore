@@ -9,3 +9,5 @@ _site
 Gemfile.lock
 vendor
 
+_old_md/
+local_scrap.md
