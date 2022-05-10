@@ -23,4 +23,4 @@ The goal of my research is to advance the science of modern **machine learning**
 
 I enjoy working both studying analytical models and performing numerical experiments.
 
-Before, I completed a joint Master's degree in **theoretical physics** at Sorbonne Université, Politecnico di Torino, SISSA, and ICTP. In the past, I also worked on experimental quantum physics.
+Before, I completed a joint Master's degree in **theoretical physics** at Sorbonne Université, Politecnico di Torino, SISSA, and ICTP. In the past, I also worked on quantum information science in Turin.
