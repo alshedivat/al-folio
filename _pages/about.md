@@ -17,10 +17,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I'm Alessandro and I'm a PhD candidate at EPFL in the [Physics of Complex Systems Laboratory](https://www.epfl.ch/labs/pcsl/) and in the [Laboratory for Signal Processing](https://www.epfl.ch/labs/lts4/), advised by Prof. Matthieu Wyart and Prof. Pascal Frossards.
+Hi! I'm Alessandro and I'm a PhD candidate at EPFL in the [Physics of Complex Systems Laboratory](https://www.epfl.ch/labs/pcsl/) and in the [Laboratory for Signal Processing](https://www.epfl.ch/labs/lts4/), advised by Prof. Matthieu Wyart and Prof. Pascal Frossard.
 
-The goal of my research is to advance the science of modern **machine learning** algorithms. I aim to understand why and how **artificial neural networks** work and how to improve them further. I focus primarily on generalization properties, the role of **invariants**, and scaling theories, often building on insights from statistical physics. Lately, I'm studying the impact of **pre-existing knowlegde** about the world, for instance **geometric priors**, on the learning performance.
+The goal of my research is to advance the science of modern **machine learning** algorithms. I aim to understand why and how **artificial neural networks** work and how to improve them further. I focus primarily on generalization properties, the role of **invariants**, and scaling theories, often building on insights from statistical physics. Lately, I'm studying the impact of **pre-existing knowledge** about the world, for instance **geometric priors**, on learning performance.
 
 I enjoy working both studying analytical models and performing numerical experiments.
 
-Before, I completed a Master in **theoretical physics** at Sorbonne Université, Politecnico di Torino, SISSA, and ICTP. In the past, I also worked on experimental quantum physics.
+Before, I completed a joint Master's degree in **theoretical physics** at Sorbonne Université, Politecnico di Torino, SISSA, and ICTP. In the past, I also worked on experimental quantum physics.
