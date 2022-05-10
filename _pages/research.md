@@ -1,10 +1,10 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: research
+permalink: /research/
+description: List of current research projects
 nav: true
-display_categories: [work, fun]
+display_categories: [approximate inference, geometric learning, collective systems, generative models, nanotechnology]
 horizontal: false
 ---
 

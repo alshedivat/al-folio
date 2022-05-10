@@ -2,26 +2,23 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>UCL</a>. Address. Contacts. Moto. Etc.
-<!-- 
-profile:
-  align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
- -->
+subtitle: Researcher at UCL 
+
+#profile:
+#  align: right
+#  image: prof_pic.jpg
+#  address: >
+#    <p>555 your office number</p>
+#    <p>123 your address street</p>
+#    <p>Your City, State 12345</p>
+
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+I am interested in developing interpretable AI methods for scientific research. These methods include **approximate inference**, **geometric learning**, **deep generative models**, and **symbolic regression**. I am particularly interested in applying these methods to **complex and collective systems** to derive new rules for living and non-equilibrium systems and integrating these rules into **active learning** and **experiment design**.
 
-Research associate on the intersection of statistical physics, Bayesian inference, and deep learning. Interested in how to extract meaningful models from complex data. Currently working on combining likelihood-free inference with active matter to understand cell migration using geometric learning. 
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I completed my PhD in Engineering Mathematics from University of Bristol in 2018 for my research on how to `hear' material stiffnesses at the nanoscale. Following my PhD, I worked on the evonano project where I developed a computational pipeline for the automatic discovery of nanomedicines. I am now a researcher in the Mayor lab, developing computational models for cell migration and investigating how to extract mathematical models directly from data. My research has been generously supported by funding from EDF, Sellafield, and EPSRC (2014/18), EU Horizon 2020 FET-Open (2018/20), Wellcome Trust (21/22) and the Alan Turing Institute (2021).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
- -->
+In my free time, I hike, hitchhike (pre-pandemic), cross-country run, and look after a scruffy Bedlington Whippet. 
