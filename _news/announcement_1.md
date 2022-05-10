@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-05-10 00:00:00-0000
+date: 2022-04-06 00:00:00-0000
 inline: true
 ---
 
-Starting new website :smile:
+I gave a lightning talk on the locality prior of convolutional networks at the Workshop on the Theory of Overparameterized Machine Learning organised by Rice University :smile:
