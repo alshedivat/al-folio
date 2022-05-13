@@ -22,7 +22,7 @@ _styles: >
 ---
 # Keypoint-Driven Line Drawing Vectorization via PolyVector Flow
 
-[Ivan Puhachov](/)$$^1$$, William Neveu$$^1$$, [Edward Chien](https://cs-people.bu.edu/edchien/)$$^2$$, [Mikhail Bessmeltsev](http://www-labs.iro.umontreal.ca/~bmpix/)$$^1$$
+[Ivan Puhachov](/)$$^1$$, [William Neveu](https://wwwnev.github.io/)$$^1$$, [Edward Chien](https://cs-people.bu.edu/edchien/)$$^2$$, [Mikhail Bessmeltsev](http://www-labs.iro.umontreal.ca/~bmpix/)$$^1$$
 
 $$^1$$ Université de Montréal \\
 $$^2$$ Boston University

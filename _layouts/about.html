@@ -39,11 +39,14 @@ layout: default
 
     <h2>publications</h2>
     {% for item in site.publications %}
-      <img class="img-fluid rounded z-depth-1 tiny-shadow" src="{{ item.teaser }}" alt="teaser" title="teaser" data-zoomable/>
-      <h4>
-        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-      </h4>
-      {{ item.authors }} <br>
+      <img class="img-fluid rounded z-depth-1 no-shadow" src="{{ item.teaser }}" alt="teaser" title="teaser" data-zoomable/>
+      {% if item.redirect %}
+        <h4><a href="{{item.redirect}}"> {{ item.title }} </a></h4>
+      {% else %}
+        <h4><a href="{{ item.url | relative_url }}"> {{ item.title }} </a></h4>
+      {% endif %}
+      {{ item.authors }} 
+      <br>
       <b>{{ item.paper_info }}</b>
     {% endfor %}
 
