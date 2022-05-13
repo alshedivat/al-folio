@@ -8,6 +8,7 @@ teaser: /assets/img/paper_stabilitynetworks/stabilitycurves.png
 authors: William Neveu, Ivan Puhachov, Bernard Thomaszewski, Mikhail Bessmeltsev
 paper_info: SIGGRAPH North America 2022
 redirect: http://www-labs.iro.umontreal.ca/~bmpix/curve_networks/
+date: 2022-05-13
 
 _styles: >
   .bbb {

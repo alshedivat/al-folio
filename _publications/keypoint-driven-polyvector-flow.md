@@ -7,6 +7,7 @@ img: /assets/img/paper_vector/mini-min.png
 teaser: /assets/img/paper_vector/teaser-min.png
 authors: Ivan Puhachov, William Neveu, Edward Chien, Mikhail Bessmeltsev
 paper_info: SIGGRAPH Asia 2021
+date: 2021-09-15
 
 _styles: >
   .bbb {

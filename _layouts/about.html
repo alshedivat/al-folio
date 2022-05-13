@@ -38,7 +38,9 @@ layout: default
     {% endif %}
 
     <h2>publications</h2>
-    {% for item in site.publications %}
+    {% assign sorted = site.publications | sort: 'date' | reverse %}
+    {% for item in sorted %}
+      <div style="margin-top: 20px; border: 1px solid var(--global-bg-color); padding: 10px; border-left: 3px solid rgb(182, 182, 182);">
       <img class="img-fluid rounded z-depth-1 no-shadow" src="{{ item.teaser }}" alt="teaser" title="teaser" data-zoomable/>
       {% if item.redirect %}
         <h4><a href="{{item.redirect}}"> {{ item.title }} </a></h4>
@@ -48,6 +50,7 @@ layout: default
       {{ item.authors }} 
       <br>
       <b>{{ item.paper_info }}</b>
+      </div>
     {% endfor %}
 
     {% if page.social %}
