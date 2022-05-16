@@ -38,3 +38,5 @@ It is important to note that Vitalik's opposition is actually more nuanced - he 
 It is therefore important to consider how we might see the successes of the NFT ecosystem and consider how it might be adapted or scaled up to effect meaningful societal changes - look past the monkey pictures and ask what are the mechanisms that make it a viable ecosystem and consider how we might use this incentive framework in a more productive manner. Also appreciate that you stop saying that people pay hundreds of thousands and millions for overpriced JPEGs. 👇
 
 {% twitter https://twitter.com/limyewjin/status/1517506098990788608 %}
+
+Edit 2022-05-16: The interwebz is upset with web3: [Web3 is just expensive P2P (netfuture.ch)](https://news.ycombinator.com/item?id=31396329) (hackernews).
