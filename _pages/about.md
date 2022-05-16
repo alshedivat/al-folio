@@ -2,23 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Ph.D. Candidate</a>. Department of Statistics & Data Sciences, Carnegie Mellon University.
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>317 FMS Bldg</p> 
+    <p> Carnegie Mellon University</p>
+    <p>5000 Forbes Ave</p>
+    <p>Pittsburgh, PA 15213</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a fifth-year Ph.D. student in the [Department of Statistics and Data Sciences](http://stat.cmu.edu/), Carnegie Mellon University (CMU), Pittsburgh, Pennsylvania. Before I came to CMU, I received my B.S. in Mathematics from the [Department of Mathematics](http://www.math.snu.ac.kr/), Seoul National University, Seoul, Korea in 2017. I also worked as a drill instructor for 2 years (2013-2015) in Republic of Korea Air Force.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interest is in understanding how mammal brains analyze rewarding patterns and change behaviors more adaptive. I am approaching this problem with statistical analyses on neural recordings during behaviors followed  by rewards. In CMU, I am participating to NeuroStats lab group and advised on my thesis by [Robert E. Kass](http://www.stat.cmu.edu/~kass/) and [Valerie Ventura](http://www.stat.cmu.edu/~vventura) on Discovery of functional predictivity across brain regions from local field potentials.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am defending soon (early July) and looking for postdoctoral research positions starting F22.
