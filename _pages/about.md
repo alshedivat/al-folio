@@ -8,9 +8,9 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>325 FMS Bldg</p> 
+    <p>325 FMS Bldg.</p> 
     <p>Carnegie Mellon University</p>
-    <p>5000 Forbes Ave</p>
+    <p>5000 Forbes Ave.</p>
     <p>Pittsburgh, PA 15213</p>
 
 news: true  # includes a list of news items
