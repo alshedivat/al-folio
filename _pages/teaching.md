@@ -23,5 +23,5 @@ Teaching assistant
 Volunteered tutor
 
 * Winter 2015, 3341.201, Introduction to Mathematical Analysis 1, SNU.
-* Fall 2015: 033.007, Calculus for Life Science 1, SNU.
-* Summer 2015,3341.202, Introduction to Mathematical Analysis 2, SNU.
+* Fall 2015, 033.007, Calculus for Life Science 1, SNU.
+* Summer 2015, 3341.202, Introduction to Mathematical Analysis 2, SNU.
