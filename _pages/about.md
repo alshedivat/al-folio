@@ -13,7 +13,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an Economics enthusiast from Nicaragua. My current academic interests are Macroeconomics, International Economics and Monetary Economics.
+I am an Economics enthusiast from Nicaragua. My current academic interests are Macroeconomics and International Economics.
 
 Prior to attending Universidad Centroamericana (UCA), I partook in some mathematical olympiads, most notably, the International Mathematical Olympiad (IMO) and the Iberoamerican Mathematical Olympiad (IbMO). I graduated *Magna Cum Laude* from UCA in April 2021 with a Bachelor's Degree in Applied Economics.
 
