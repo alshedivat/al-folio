@@ -8,7 +8,8 @@
   pdf={https://arxiv.org/pdf/2106.08619.pdf},
   slides={neurips21-locality-slides.pdf},
   poster={neurips21-locality-poster-web.pdf},
-  bibtex_show={true},
+  video={https://nips.cc/virtual/2021/poster/27703},
+  abstract={Convolutional neural networks perform a local and translationally-invariant treatment of the data: quantifying which of these two aspects is central to their success remains a challenge. We study this problem within a teacher-student framework for kernel regression, using `convolutional' kernels inspired by the neural tangent kernel of simple convolutional architectures of given filter size. Using heuristic methods from physics, we find in the ridgeless case that locality is key in determining the learning curve exponent β (that relates the decay of the test error to the size of the training set P), whereas translational invariance is not. In particular, if the filter size of the teacher t is smaller than that of the student s, β is a function of s only and does not depend on the input dimension. We confirm our predictions on β empirically. We conclude by proving, using a natural universality assumption, that performing kernel regression with a ridge that decreases with the size of the training set leads to similar learning curve exponents to those we obtain in the ridgeless case.}
 }
 
 @article{petrini2021relative,
@@ -19,5 +20,5 @@
   volume={34},
   year={2021},
   pdf={https://arxiv.org/pdf/2105.02468.pdf},
-  bibtex_show={true},
+  abstract={Understanding why deep nets can classify data in large dimensions remains a challenge. It has been proposed that they do so by becoming stable to diffeomorphisms, yet existing empirical measurements support that it is often not the case. We revisit this question by defining a maximum-entropy distribution on diffeomorphisms, that allows to study typical diffeomorphisms of a given norm. We confirm that stability toward diffeomorphisms does not strongly correlate to performance on benchmark data sets of images. By contrast, we find that the stability toward diffeomorphisms relative to that of generic transformations Rf correlates remarkably with the test error ε. It is of order unity at initialization but decreases by several decades during training for state-of-the-art architectures. For CIFAR10 and 15 known architectures, we find ε≈0.2√Rf, suggesting that obtaining a small Rf is important to achieve good performance. We study how Rf depends on the size of the training set and compare it to a simple model of invariant learning.}
 }
