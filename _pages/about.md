@@ -17,6 +17,8 @@ I am Dhawal, I am a Masters student at [IIIT-Hyderabad](https://www.iiit.ac.in/)
 
 I am very much interested in [Light-fields](https://en.wikipedia.org/wiki/Light_field#:~:text=The%20light%20field%20is%20a,is%20given%20by%20its%20radiance.) and [PBR](https://en.wikipedia.org/wiki/Physically_based_rendering). My current work is centered around Spherical harmonic representation of Lighting and Visibility Information advancing the works of Precomputed Radiance Transfer.
 
+Please find the [resume](/assets/pdf/dhawal1939_cv.pdf) for further details.
+
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
