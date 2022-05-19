@@ -24,4 +24,4 @@ View my latest CV [here](assets/cv.pdf).
 
 My [research interests](blog/2022/about-my-research-interests/) lie in the intersection of Artificial Intelligence, Robotics and Cognitive Science (Cognitive Psychology and Neuroscience). I am particularly passionate about exploring how the brain works and how we understand the world. My goal is to build robots with high-level intelligence to have similar thinking processes like humans and other animals, including perception, learning, decision-making and other cognitive functionalities in the brain.
 
-I have many hobbies. In my spare time, I enjoy watching TV-series. I went to gym 3-5 times a week lifting weights to train my physique. Besides, I am an audiophile who loves Hi-Fi devices including headphones, speakers, DACs, amplifiers.
+I have many hobbies. In my spare time, I enjoy playing games and watching TV-series. I went to gym 3-5 times a week lifting weights to train my physique. Besides, I am an audiophile who loves Hi-Fi devices including headphones, speakers, DACs, amplifiers.
