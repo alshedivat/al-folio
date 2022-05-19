@@ -4,13 +4,13 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Ivan
-middle_name: 
-last_name: Puhachov 🇺🇦
+middle_name: 🇺🇦
+last_name: Puhachov
 email: 
 description: My personal webpage and log. Working on my PhD in CS at computer graphics lab. Process sketches and line drawings to make fine art. Research activities here - computer graphics, applied geometry, image processing.
 name: ivan puhachov
 footer_text: Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: geometry, graphics, phd, montreal, computer graphics  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🍿 # the emoji used as the favicon
