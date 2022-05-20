@@ -19,7 +19,7 @@ I am a **Researcher** in the Cognitive Computing Lab at [Baidu Research](http://
 
 <!-- I received my Ph.D. in Computer Science from [Virginia Polytechnic Institute and State University](cs.vt.edu), and MS in Computer Science from [University of Maryland, College Park](cs.umd.edu). -->
 
-<h5>{{ "Research Interests"}}</h5>
+<h5><a href="/bio" style="color:black;">{{"Research Interests"}}</a></h5>
 My research seeks answers to the following question: *Are existing ML methods easier-to-use and reliable for practical uses*? I am interested in developing computational frameworks that enable existing complex/deep models to be more suitable for practical uses. I focus on improving the following aspects of existing models: (i) **training**, (i) **inference**, (iii) **realistic assumptions**, and (iv) **security understanding**. Most of my ML/AI solutions center around generative-based approaches that have low computational complexity and require less human effort. More about my research interests **[HERE](/bio#research_interests)**.
 
 <!-- <b>{{ "Information Retrieval and Applications"}}</b>
