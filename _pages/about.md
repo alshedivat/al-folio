@@ -15,7 +15,7 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 ---
 
 Hello, I am Heejong Bong. I am a fifth-year Ph.D. student in the [Department of Statistics and Data Sciences](http://stat.cmu.edu/), Carnegie Mellon University (CMU), Pittsburgh, Pennsylvania. Before I came to CMU, I received my B.S. in Mathematics from the [Department of Mathematics](http://www.math.snu.ac.kr/), Seoul National University, Seoul, Korea in 2017. I also worked as a drill instructor for 2 years (2013-2015) in Republic of Korea Air Force.
