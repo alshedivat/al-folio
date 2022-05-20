@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Yuanshao
-middle_name: 
+middle_name:
 last_name: Zhu
 email: yasozhu@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -16,9 +16,9 @@ footer_text: >
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🐼 # the emoji used as the favicon
 url: Yasoz.github.io #https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/
+baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -49,11 +49,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: jindongwang # your GitHub user name
+github_username: Yasoz # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
-scholar_userid: hBZ_tKsAAAAJ # your Google Scholar ID
+scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -63,16 +63,16 @@ blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
-dblp_url: https://dblp.org/pid/19/2969-1.html # your DBLP profile url
+dblp_url: https://dblp.org/pid/286/7280.html # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 rss_icon: true
 
-contact_note: 
+contact_note:
   #You can even add a little note about which of these is the best way to reach you.
 
-google_analytics: G-LRLQJKW7E9 # out your google-analytics code
-panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
+google_analytics: # out your google-analytics code
+panelbear_analytics: # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -104,7 +104,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 5
+news_limit: 4
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -113,11 +113,11 @@ news_limit: 5
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
-highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme: github # https://github.com/jwarby/jekyll-pygments-themes
 kramdown:
   input: GFM
   syntax_highlighter_opts:
-    css_class: 'highlight'
+    css_class: "highlight"
     span:
       line_numbers: false
     block:
@@ -125,7 +125,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ['_pages']
+include: ["_pages"]
 exclude:
   - bin
   - Gemfile
@@ -154,9 +154,9 @@ plugins:
 # Sitemap settings
 defaults:
   - scope:
-      path:            "assets/**/*.*"
+      path: "assets/**/*.*"
     values:
-      sitemap:         false
+      sitemap: false
 
 # Extras
 github: [metadata]
@@ -166,22 +166,21 @@ github: [metadata]
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them). 
+  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
     year: archive-year
     tag: archive-tag
     category: archive-category
   permalinks:
-    year: '/blog/:year/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
+    year: "/blog/:year/"
+    tag: "/blog/tag/:name/"
+    category: "/blog/category/:name/"
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-
   last_name: Wang
   first_name: Jindong
 
@@ -205,7 +204,6 @@ scholar:
 
   query: "@*"
 
-
 # -----------------------------------------------------------------------------
 # Jekyll Responsive Images
 # -----------------------------------------------------------------------------
@@ -222,33 +220,33 @@ responsive_image:
   # Strip EXIF and other JPEG profiles. Helps to minimize JPEG size.
   strip: true
 
-
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
 # -----------------------------------------------------------------------------
 
 jekyll-diagrams:
-    # configuration, see https://github.com/zhustec/jekyll-diagrams.
-    # feel free to comment out this section if not using jekyll diagrams.
-
+  # configuration, see https://github.com/zhustec/jekyll-diagrams.
+  # feel free to comment out this section if not using jekyll diagrams.
 
 # -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
-enable_panelbear_analytics: false  # enables panelbear analytics
-enable_mansory:             false   # enables automatic project cards arangement
-enable_math:                true   # enables math typesetting (uses MathJax)
-enable_tooltips:            false  # enables automatic tooltip links generated
-                                   # for each section titles on pages and posts
-enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       true  # enables displaying social links in the
-                                   # navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into
-                                   # multiple categories
-enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
-
+enable_google_analytics: false # enables google analytics
+enable_panelbear_analytics: false # enables panelbear analytics
+enable_mansory: false # enables automatic project cards arangement
+enable_math: true # enables math typesetting (uses MathJax)
+enable_tooltips:
+  false # enables automatic tooltip links generated
+  # for each section titles on pages and posts
+enable_darkmode: false # enables switching between light/dark modes
+enable_navbar_social:
+  true # enables displaying social links in the
+  # navbar on the about page
+enable_project_categories:
+  true # enables categorization of projects into
+  # multiple categories
+enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 
 # -----------------------------------------------------------------------------
 # Library versions

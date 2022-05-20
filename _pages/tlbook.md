@@ -28,10 +28,17 @@ nav: true
 请使用如下格式引用本书：
 ```
 @book{tlbook,
- author = "Wang, Jindong and Chen, Yiqiang",
- title = "Introduction to Transfer Learning",
- year = 2021,
- url = "jd92.wang/tlbook"
+ author = {Wang, Jindong and Chen, Yiqiang},
+ title = {Introduction to Transfer Learning},
+ year = {2021},
+ url = {jd92.wang/tlbook}
+}
+
+@book{tlbookchinese,
+ author = {王晋东 and 陈益强},
+ title = {迁移学习导论},
+ year = {2021},
+ url = {jd92.wang/tlbook}
 }
 ```
 
