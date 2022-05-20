@@ -18,23 +18,23 @@ My goal, therefore, is to develop computational frameworks that enable existing 
 * Interpretable Graph Similarity Computation via Differentiable Optimal Alignment of Node Embeddings (*SIGIR* 2021 by Doan et al.)
 * Efficient Implicit Unsupervised Text Hashing using Adversarial Autoencoder (*WWW* 2020 by Doan et al.)
 * Image Hashing by Minimizing Discrete Component-wise Wasserstein Distance (*arxiv* 2021 by Doan et al.)
-* Generative Hashing Network (*Under submission* 2021 by Doan et al.)
-* EBM Hashing Network (*Under submission* 2021 by Doan et al.)
-* Fast Learning-to-Hash Ranking  (*Under submission* 2021 by Doan et al.)
+* Generative Hashing Network (*Under Submission* 2021 by Doan et al.)
+* EBM Hashing Network (*Under Submission* 2021 by Doan et al.)
+* Fast Learning-to-Hash Ranking  (*Under Preparation* 2022 by Doan et al.)
 * One Loss for Quantization: Deep Hashing with Discrete Wasserstein Distributional Matching  (*CVPR* 2022 by Doan et al.)
 
 <b>{{ "Generative Models" }}</b>
 
-* Image Generation Via Minimizing Frechet Distance in Discriminator Feature Space (*Under submission* 2021 by Doan et al.)
+* Image Generation Via Minimizing Frechet Distance in Discriminator Feature Space (*arxiv* 2021 by Doan et al.)
 * Regression via implicit models and optimal transport cost minimization (*arxiv* 2020 by Manchanda et al.)
 
 <b>{{ "AI Backdoor Security with Generative Models" }}</b>
 
-* Attack with Stealthy Embedding Space Modification (*Under submission* 2021 by Doan et al.)
-* Imperceptible Backdoor Attacks (*ICCV* 2021 by Doan et al.)
+* Backdoor Attack with Imperceptible Input and Latent Modification (*NeurIPS* 2021 by Doan et al.)
+* LIRA: Learnable, Imperceptible and Robust Backdoor Attacks (*ICCV* 2021 by Doan et al.)
 * Backdoor Attacks for Vision Transformers   (*Under Submission* 2022 by Doan et al.)
 * Adversarial Defenses for Vision Transformers   (*Under Submission* 2022 by Peng et al.)
-* Backdoor Attacks with Any Target (*Under Submission* 2022 by Doan et al.)
+* Backdoor Attacks with Any Target (*Under Preparation* 2022 by Doan et al.)
 
 <h1 class="post-title">{{ "Professional Service"}}</h1><a name="services"></a>
 
@@ -55,7 +55,7 @@ My goal, therefore, is to develop computational frameworks that enable existing 
 * ACM SIGKDD International Conference on Knowledge discovery and data mining (**KDD**): 2017-2019
 * ACM InternationalConferenceonInformationandKnowledgeManagement(**CIKM**):2017- 2019
 * ACM International Conference on Web Search and Data Mining (**WSDM**): 2017-2019
-* The Web Conference (WWW): 2017-2019
+* The Web Conference (**WWW**): 2017-2019
 * International Joint Conference on Artificial Intelligence (**IJCAI**): 2017-2019
 
 <b>{{ "Journal Reviewer:" }}</b>
