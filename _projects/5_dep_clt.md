@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Central Limit Theorems for High-dimensional Dependent Samples
-description: 
+title: central limit theorem
+description: Central Limit Theorems for High-dimensional Dependent Samples
 img:
 importance: 3
 category: statistical theory

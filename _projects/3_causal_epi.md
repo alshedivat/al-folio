@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Frequentist Causal Inference for Semi-mechanistic Epidemic Models with Interventions
-description: 
+title: causal inference
+description: Frequentist Causal Inference for Semi-mechanistic Epidemic Models with Interventions
 img: assets/img/causal_epi_project.jpg
 importance: 2
 category: methodology & application

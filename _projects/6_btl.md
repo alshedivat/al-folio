@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Theoretical Analyses on Pair-wise Comparison Data and Ranking Models
-description: 
+title: ranking
+description: Theoretical Analyses on Pair-wise Comparison Data and Ranking Models
 img: assets/img/btl_project.jpg
 importance: 3
 category: statistical theory

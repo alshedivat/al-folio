@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Simultaneous Inference in Multiple Matrix-Variate Graphs for High-Dimensional Neural Recordings
-description: 
+title: matrix-variate graphical model
+description: Simultaneous Inference in Multiple Matrix-Variate Graphs for High-Dimensional Neural Recordings
 img: assets/img/mmge_project.jpg
 importance: 2
 category: statistical theory

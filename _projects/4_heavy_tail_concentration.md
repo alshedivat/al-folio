@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Optimal Concentration Inequalities for Sums of Sub-Weibull Random Variables
-description: 
+title: concentration inequality
+description: Optimal Concentration Inequalities for Sums of Sub-Weibull Random Variables
 img:
 importance: 3
 category: statistical theory
