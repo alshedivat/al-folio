@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <b>AI Researcher</b> • <i>Cognitive Computing Lab</i> • <a href="http://research.baidu.com/">Baidu Research</a>
+description: <b>AI Researcher</b> • <i>Cognitive Computing Lab</i> • <a href="http://research.baidu.com/">Baidu Research</a> | <b><a href="https://en.wikipedia.org/wiki/M%E1%BB%B9_Tho">Vietnamese</a></b>
 
 profile:
   align: right
