@@ -4,7 +4,7 @@ title: matrix-variate graphical model
 description: Simultaneous Inference in Multiple Matrix-Variate Graphs for High-Dimensional Neural Recordings
 img: assets/img/mmge_project.jpg
 importance: 2
-category: statistical theory
+category: methodology & application
 ---
 
 This is a collaborated work with Professor Robert E. Kass (Department of Statistics & Data Sciences, CMU) and Professor Zhao Ren (Department of Statistics, University of Pittsburgh).

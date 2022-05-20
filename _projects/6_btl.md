@@ -3,7 +3,7 @@ layout: page
 title: ranking
 description: Theoretical Analyses on Pair-wise Comparison Data and Ranking Models
 img: assets/img/btl_project.jpg
-importance: 3
+importance: 2
 category: statistical theory
 ---
 

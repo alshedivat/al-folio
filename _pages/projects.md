@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 1
 display_categories: [methodology & application, statistical theory]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
