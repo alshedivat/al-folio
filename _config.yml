@@ -78,8 +78,8 @@ panelbear_analytics: # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-# blog_name: Jindong Wang  # your blog must have a name for it to show up in the nav bar
-# blog_description: Jindong Wang's personal website
+# blog_name:    # your blog must have a name for it to show up in the nav bar
+# blog_description:  #
 # permalink: /blog/:year/:title/
 
 # Pagination
@@ -132,7 +132,6 @@ exclude:
   - Gemfile.lock
   - vendor
 keep_files:
-  - CNAME
   - .nojekyll
   - .git
 
@@ -181,8 +180,8 @@ jekyll-archives:
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: Wang
-  first_name: Jindong
+  last_name: Yuanshao
+  first_name: Zhu
 
   style: apa
   locale: en

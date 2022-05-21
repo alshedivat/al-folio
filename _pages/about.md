@@ -14,8 +14,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-PhD, SUSTech<br>
-xxxxxx<br>
+Master Student, SUSTech<br>
+Shenzhen, China<br>
 zhuys2019 [at] mail.sustech.edu.cn<br>
 [Google scholar](https://scholar.google.com/) | [Github](https://github.com/YasoZ) | [DBLP](https://dblp.org/pid/286/7280.html)
 
