@@ -1,5 +1,5 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+"Liu":
+  - firstname: ["Yi", "E.", "E. P.", "Yi Liu"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
 "Podolsky":
@@ -10,7 +10,7 @@
   - firstname: ["Nathan", "N."]
     url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-"Bach": 
+"Bach":
   - firstname: ["Johann Sebastian", "J. S."]
     url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 

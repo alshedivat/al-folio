@@ -14,7 +14,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🐼 # the emoji used as the favicon
+icon: # the emoji used as the favicon
 url: Yasoz.github.io #https://alshedivat.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
@@ -180,8 +180,8 @@ jekyll-archives:
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: Yuanshao
-  first_name: Zhu
+  last_name: Zhu
+  first_name: Yuanshao
 
   style: apa
   locale: en
