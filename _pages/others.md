@@ -2,7 +2,7 @@
 layout: page
 title: Others
 permalink: /others/
-nav: true
+nav: false
 ---
 
 ##### Interns at OPPO
