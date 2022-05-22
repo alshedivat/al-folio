@@ -2,23 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
+description: '<a href="https://www.copenlu.com">University of Copenhagen</a>'
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+  image: foto.jpg
+news: false
+selected_papers: true
+social: false
+published: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a second-year PhD student at the University of Copenhagen supervised by Professor Isabelle Augenstein. Before joining the [CopeNLU](https://www.copenlu.com/){:target="\_blank"} group I've completed the MSc in Statistics at the Humboldt University of Berlin. Before that, I've obtained a Bachelor of Science in Economics also at the Humboldt University of Berlin. I'm a member of [Rycolab](https://rycolab.io/){:target="\_blank"} at ETH Zürich co-supervised by Ryan Cotterell.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My PhD work focuses on gender bias detection in cross-lingual setups and interpretability. My primary research interests are bias and fairness in NLP, interpretability, and statistical methods.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Besides, prior to starting my PhD I have worked as a data science consultant for [Deloitte Analytics Institute](https://www2.deloitte.com/de/de.html){:target="\_blank"}.
+
+You can find me on: [Twitter](https://twitter.com/karstanczak){:target="\_blank"}, [GitHub](https://github.com/kstanczak){:target="\_blank"}, [LinkedIn](https://www.linkedin.com/in/kstanczak/){:target="\_blank"}.
