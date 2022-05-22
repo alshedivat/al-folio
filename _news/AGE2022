@@ -1,0 +1,29 @@
+---
+layout: post
+title: Poster presentation AGE
+date: 2022-05-20
+inline: false
+---
+<i>Scroll down for the poster</i>
+
+This week I preseted a poster at the <a href="https://www.americanagingassociation.org/annual-meeting">American Aging Association (AGE) Annual Meeting</a>. The organisers offered me an online travel grant, so I was very happy to take part in their meeting!
+
+<b>Summary</b>: You probably can imagine that it is hard to study for a test when there are people talking loudly next to you. In order to focus on the material you need to learn, you need to focus your attention to inhibit the distracting conversation. The brain is thought to apply this attentional control by utilizing rhythmic activity around 8-13 Hz <i>(alpha oscillations)</i>. The alpha oscillations enable you to attend to relevant information, while inhibiting distraction. However, it is thought that older adults might have trouble using these alpha oscillations to learn new information when distraction is present. This inhibition deficit could explain memory decline when we age. In the current experiment we investigated whether younger and older adults use alpha oscillations to the same extent to learn new information in distracting situations. We recoded brain activity <i>(electroencephalogram; EEG)</i> from the participants while they were either learning new items with low distraction or with high distraction present. We later tested their memory for these items, and we found that older adults had a lower memory, as compared to the younger adults. However, the memory performance of older adults was not further decreased by the presence of highly distracting information. In addition, older adults were able to use alpha oscillations during high-distraction learning to the same extent as younger adults. We therefore conclude that even though older adults have a reduced memory performance, their attentional control appears to be intact and able to preserve memories. For more detailed information, see the poster below or our <a href="https://doi.org/10.1111/ejn.15086">paper</a>.
+
+<!--![CNS_Poster](/assets/img/CNS_Poster_2022.png)-->
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <div><a href="/assets/img/CNS_Poster.jpg">
+            {% include figure.html path="/assets/img/CNS_Poster.jpg" title="CNS Poster" class="img-fluid rounded z-depth-1" src="/assets/img/CNS_Poster.jpg" %}
+        </a></div>
+    </div>
+</div>
+
+<!--<a href="/assets/img/CNS_Poster.jpg">
+    <img 
+        src="/assets/img/CNS_Poster.jpg" 
+        alt="CNS Poster 2022"
+        class="img-fluid rounded z-depth-1"
+    />
+</a>-->
