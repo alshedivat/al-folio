@@ -14,8 +14,8 @@ footer_text: >
 
 
 #url: https://hsingyuehuo.github.io/
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-#url:
+#url: https://alshedivat.github.io # the base hostname & protocol for your site
+url:
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 
