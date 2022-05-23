@@ -25,18 +25,20 @@ $max-content-width: {{ site.max_width }};
   margin: 0;
   padding: 5px;
   text-align: center;
+  vertical-align: top;
 }
 
 .project-summary li {
   text-align: center;
-  width: 49.5%;
+  width: 19%;
   margin-bottom: 3px!important;
   background-color: #fffff;
   display: inline-block;
   margin: auto;
-  font-size: 70px;
+  font-size: 40px;
   padding:0;
-  border: 2px solid #eee;
+  vertical-align: top;
+  //border: 2px solid #eee;
 }
 
 .project-summary i {
@@ -59,8 +61,8 @@ $max-content-width: {{ site.max_width }};
 }
 
 .project-summary a span{
-  color:black;
-  font-size:20px;
+  //color:black;
+  font-size:15px;
   padding:5px 0 10px 0;
   display:block;
 	font-weight:bold;
