@@ -2,21 +2,11 @@
 layout: page
 permalink: /students/
 title: students
-sort_key: 4
 description:
-nav: true
 years: [2021, 2020, 2019]
 year: [2021]
+nav_order: 4
 ---
-
-Coming soon! Students, thesses ideas, active theses.
-
-{:.no_toc}
-
-* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
-{:toc}
-
------------
 
 ### Open Thesis Topics
 

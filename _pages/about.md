@@ -4,7 +4,6 @@ title: about
 permalink: /
 redirect_from: /about
 description: High-performance computing, serverless, and all that jazz!
-
 profile:
   align: right
   image: prof_pic.jpg

@@ -1,4 +1,4 @@
-name: Deploy
+name: deploy
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: Setup Ruby
-      uses: ruby/setup-ruby@v1.99.0
+      uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.0.2'
     - name: Enable bundler cache
@@ -48,6 +48,6 @@ jobs:
         fi
         echo "::set-output name=DEPLOY_BRANCH::gh-pages"
     - name: Deploy website 
-      run:  yes | bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
+      run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 
                     --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 

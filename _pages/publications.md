@@ -4,10 +4,10 @@ permalink: /publications/
 title: publications
 description:
 nav: true
-sort_key: 2
+nav_order: 2
 years: [2022, 2021, 2020, 2019, 2018, 2017, 2016, 2014]
 ---
-
+<!-- _pages/publications.md -->
 
 <!--Allow to jump to a specific publication and display it a little below top of page, allowing for a headerr-->
 <style>
@@ -18,7 +18,7 @@ html {
 
 <div class="publications">
 
-{% for y in page.years %}
+{%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}

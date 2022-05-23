@@ -1,5 +1,7 @@
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
 <div class="grid-item">
-  {% if project.redirect %}
+  {% if project.redirect -%}
   <a href="{{ project.redirect }}">
   {% else %}
   <a href="{{ project.url | relative_url }}">
@@ -17,16 +19,10 @@
             <div class="icon" data-toggle="tooltip" title="Code Repository">
               <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
             </div>
-            {% if project.github_stars %}
-            <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-              <i class="fas fa-star"></i>
-              <span id="{{ project.github_stars }}-stars"></span>
-            </span>
-            {% endif %}
+            {%- endif %}
           </div>
           {% endif %}
         </div> -->
       </div>
-    </div>
-  </a>
+    </a>
 </div>
