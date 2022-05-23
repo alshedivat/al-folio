@@ -62,3 +62,7 @@ My goal, therefore, is to develop computational frameworks that enable existing 
 
 * ACM Transactions on Knowledge Discovery from Data (**TKDD**): 2020
 * ACM Transactions on Internet Technology (**TOIT**): 2018-2021
+
+<b>{{ "Service Awards:" }}</b>
+
+* 2021: **CVPR** (Outstanding Reviewer) 
