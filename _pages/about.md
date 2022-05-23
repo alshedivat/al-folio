@@ -14,13 +14,13 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am a 1st year [Computer Science PhD student](https://www.cs.umd.edu/people/njain17) at [University of Maryland, College Park](https://www.umd.edu/), working on ML research in [Professor Tom Goldstein's](https://www.cs.umd.edu/~tomg/) Lab. My research interests are in the broad deep learning area. 
+I am a 1st year [Computer Science PhD student](https://www.cs.umd.edu/people/njain17) at [University of Maryland, College Park](https://www.umd.edu/), working on ML research in [Professor Tom Goldstein's](https://www.cs.umd.edu/~tomg/) Lab. My research interests are in the broad area of deep learning. 
 
 Prior to UMD, I graduated from [Williams College](https://www.williams.edu/) in 2019 with Honors in Mathematics. At Williams, I wrote my thesis on graph theory under [Professor Pamela Harris](https://www.pamelaeharris.com/), which lead to a publication in Graphs and Combinatorics. After Williams, I worked as a Data Scientist for [Booz Allen Hamilton](https://www.boozallen.com/), where I worked on projects of various topics including math modeling and machine learning.
 
-In my spare time, I enjoy hiking, playing sports, and so much more.
+In my spare time, I enjoy hiking, playing sports, cooking, baking, and so much more.
 
-I am the current TA for CMSC 320 Intro to Data Science. My office hours are listed on the [course website](https://cmsc320.github.io/).
+<!-- I am the current TA for CMSC 320 Intro to Data Science. My office hours are listed on the [course website](https://cmsc320.github.io/). -->
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
