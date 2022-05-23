@@ -1,59 +1,235 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-          </h1>
-          <p class="desc">{{ page.subtitle }}</p>
-        </header>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <article>
-          {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
-              {% include figure.html 
-              path=profile_image_path 
-              class="img-fluid z-dept-1 rounded"
-              alt=page.profile.image -%}
-            {% endif -%}
-            {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-            {%- endif %}
-          </div>
-          {%- endif %}
+  <title>Xingyue Huo | About</title>
+  <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
 
-          <div class="clearfix">
-            {{ content }}
-          </div>
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
-          {% if page.news -%}
-          <!-- News -->
-          {%- include news.html %}
-          {%- endif %}
-          {% if page.selected_papers -%}
-            <!-- Selected papers -->
-            {%- include selected_papers.html %}
-          {%- endif %}
-          {%- if page.social %}
-          <!-- Social -->
-          <div class="social">
-            <div class="contact-icons">
-            {% include social.html %}
-            </div>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/about/">
 
-            <div class="contact-note">
-              {{ site.contact_note }}
-            </div>
+  <!-- Include custom icon fonts -->
+  <link rel="stylesheet" href="/assets/css/responsive-grid.css">
+  <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="/assets/css/academicons.min.css">
+
+</head>
+ 
+
+  <body>
+
+    
+<header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+        
+        <a class='site-title' href="/">
+        <strong>Chris</strong> Bryan
+        </a>
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <a class="page-link" href="/about/">about</a>
+        <a class="page-link" style='margin-left:10px;' href="/research/">research</a>
+        <a class="page-link" style='margin-left:10px;' href="/students/">students</a>
+        <a class="page-link" style='margin-left:10px;' href="/publications/">publications</a>
+        <a class="page-link" style='margin-left:10px;' href="/teaching/">teaching</a>  
+        <a class="page-link" style='margin-left:10px;' href="/service/">service</a>  
+        <!-- <a class="page-link" style='margin-left:10px;' href="/contact/">contact</a> -->
+        <!-- <span style='margin-left:15px;margin-right:5px;'>|</span> -->
+        <!-- <a class="page-link" style='margin-left:5px;' href="https://svl-at-asu.github.io" target="_blank"> SVL @ ASU :</a> -->
+        
+        
+        <!-- Blog -->
+<!--         <a class="page-link" href="/blog/">blog</a> -->
+
+        <!-- Pages -->
+<!-- 
+        
+          
+        
+          
+            <a class="page-link" href="/about/">About</a>
+          
+        
+          
+            <a class="page-link" href="/contact/">Contact Information</a>
+          
+        
+          
+            <a class="page-link" href="/prospective/">Prospective Students</a>
+          
+        
+          
+        
+          
+            <a class="page-link" href="/projects/">projects</a>
+          
+        
+          
+            <a class="page-link" href="/publications/">Publications</a>
+          
+        
+          
+            <a class="page-link" href="/research/">Research</a>
+          
+        
+          
+            <a class="page-link" href="/service/">Service</a>
+          
+        
+          
+            <a class="page-link" href="/students/">Students</a>
+          
+        
+          
+            <a class="page-link" href="/teaching/">Teaching</a>
+          
+        
+          
+            <a class="page-link" href="/undergrad_explainer/">Prospective Students</a>
+          
+        
+          
+        
+ -->
+
+        <!-- CV link -->
+        <!-- <a class="page-link" href="/assets/pdf/CV.pdf">vitae</a> -->
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">About</h1>
+    <h5 class="post-description"></h5>
+  </header>
+
+  <article class="post-content About clearfix">
+    <!-- <div class="section group">
+	<div class="col span_2_of_3">
             
-          </div>
-          {%- endif %}
-        </article>
+      </div>
+      <div class="col span_1_of_3">
+            <img class="one" src="/assets/img/profile.png">
+      </div>
+</div> -->
+
+<div class="section group">
+	<div class="col span_2_of_3">
+            Chris Bryan is an assistant professor of Computer Science at Arizona State University in the School of Computing, Informatics, &amp; Decision Systems (CIDSE). He received his Ph.D. in 2018 from the University of California, Davis, as a part of the VIDI lab under Dr. Kwan-Liu Ma. His research spans the areas of data visualization, human-computer interaction, and data science. At ASU, he heads the Sonoran Visualization Laboratory.
+            <br />
+            <br />
+            <span style="font-size:1.2em;">🔗</span> <a href="https://isearch.asu.edu/profile/3335256" target="_blank">ASU directory bio (iSearch)</a>
+            <br />
+            <span style="font-size:1.2em;">🔗</span> <a href="https://www.asu.edu/" target="_blank">Arizona State University homepage</a>
+            <br />
+            <span style="font-size:1.2em;">🔗</span> <a href="https://cidse.engineering.asu.edu/" target="_blank">CIDSE homepage</a>
+            
+            
+  </div>
+  <div class="col span_1_of_3">
+    <img class="thumbnail" src="/assets/img/profile.png" />
+  </div>
+</div>
+
+<!-- For more details about his lab's research, see their site. If you are interested  -->
+
+<!-- <span style='font-size:1.2em'>🌵</span> Are you interesting in learning more about my resesarch? See the SVL's research [primer page](https://svl-at-asu.github.io/research). -->
+
+<!-- <span style='font-size:1.2em'>🔬</span> Are you a student who would like to join the lab? [Read this first.](policies) -->
+
+<!-- <span style='font-size:1.2em'>📝 </span> [CV](assets/pdf/CV_July2019.pdf) (last updated July 2019) -->
+
+<!-- Chris Bryan received the PhD degree in computer science from the University of California, Davis, in 2018. He is an assistant professor of computer science in the School of Computing, Informatics, and Decision Systems Engineering at Arizona State University, where he directs the Sonoran Visualization Laboratory (SVL @ ASU). His research areas include information visualization, human-computer interaction, and virtual reality. He is a member of the IEEE. -->
+
+<!-- [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} -->
+<!-- [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"} -->
+
+  </article>
+
+  
+
+  
+
+  
 
 </div>
+
+      </div>
+    </div>
+
+    <footer>
+
+  <div class="wrapper">
+    &copy; Copyright 2021 Chris Bryan.
+<!--      -->
+<!--      -->
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-135303653-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+</html>
