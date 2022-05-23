@@ -23,7 +23,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -94,8 +94,6 @@ disqus_shortname: mcopik # put your disqus shortname
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -277,7 +275,7 @@ enable_medium_zoom:         true   # enables image zoom feature (as on medium.co
 
 academicons:
   version: "1.9.1"
-  integrity: "sha512-WgL+hxwL4NdLGGZ4Euo/BmGAcQgyRRJsTQbNPGui+nWlzaF+3f2zf2rh578ccU3YINJCi8LvHyV1OHLJ8effBA=="
+  integrity: "sha512-/mxem9uktmINi21TsBhaKnfsuDRVErXb/zoi2gT1LrErLa0IM6nsJURu9upShDdQKFebFB43yZps+0k8eKeQBw=="
 bootstrap:
   version: "4.6.1"
   integrity:

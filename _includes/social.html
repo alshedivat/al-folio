@@ -1,7 +1,7 @@
             {%- if site.email -%}
             <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a>
             {% endif %}
-            {% if site.cv %}
+            {%- if site.cv -%}
             <a href="{{ site.cv | relative_url }}"><i class="ai ai-cv"></i></a>
             {% endif %}
             {%- if site.orcid_id -%}

@@ -3,10 +3,19 @@ layout: page
 permalink: /students/
 title: students
 description:
+nav: true
 years: [2021, 2020, 2019]
 year: [2021]
 nav_order: 4
 ---
+
+
+{:.no_toc}
+
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
+
+-----------
 
 ### Open Thesis Topics
 
