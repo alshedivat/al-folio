@@ -149,6 +149,7 @@ plugins:
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-github-metadata
+  - jekyll-redirect-from
   - jekyll-imagemagick
   - jekyll-paginate-v2
   - jekyll/scholar
