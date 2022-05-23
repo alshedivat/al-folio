@@ -4,7 +4,7 @@ title: miscellaneous
 permalink: /misc/
 description: 
 nav: true
-sort_key: 5
+nav_order: 5
 horizontal: false
 ---
 
