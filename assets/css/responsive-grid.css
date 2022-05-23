@@ -1,0 +1,191 @@
+.thumbnail {
+	width:100%;	
+	border:1px solid gray;
+	border-radius:4px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.02), 
+				0 2px 2px rgba(0,0,0,0.02), 
+				0 4px 4px rgba(0,0,0,0.02), 
+				0 8px 8px rgba(0,0,0,0.02),
+				0 16px 16px rgba(0,0,0,0.02);
+}
+
+
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+	width: 100%;
+}
+.span_2_of_3 {
+	width: 66.1%;
+}
+.span_1_of_3 {
+	width: 32.2%;
+}
+
+/*  GRID OF NINE  */
+.span_9_of_9 {
+	width: 100%;
+}
+
+.span_8_of_9 {
+  	width: 88.71%;
+}
+
+.span_7_of_9 {
+  	width: 77.42%;
+}
+
+.span_6_of_9 {
+  	width: 66.13%;
+}
+
+.span_5_of_9 {
+  	width: 54.84%;
+}
+
+.span_4_of_9 {
+  	width: 43.55%;
+}
+
+.span_3_of_9 {
+  	width: 32.26%;
+}
+
+.span_2_of_9 {
+  	width: 20.97%;
+}
+
+.span_1_of_9 {
+  	width: 9.688%;
+}
+
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 74.6%;
+}
+.span_2_of_4 {
+	width: 49.2%;
+}
+.span_1_of_4 {
+	width: 23.8%;
+}
+
+/*  GRID OF EIGHT  */
+.span_8_of_8 {
+	width: 100%;
+}
+
+.span_7_of_8 {
+  	width: 87.3%;
+}
+
+.span_6_of_8 {
+  	width: 74.6%;
+}
+
+.span_5_of_8 {
+  	width: 61.9%;
+}
+
+.span_4_of_8 {
+  	width: 49.2%;
+}
+
+.span_3_of_8 {
+  	width: 36.5%;
+}
+
+.span_2_of_8 {
+  	width: 23.8%;
+}
+
+.span_1_of_8 {
+  	width: 11.1%;
+}
+
+.span_10_of_10 {
+	width: 100%;
+}
+
+.span_9_of_10 {
+  	width: 89.84%;
+}
+
+.span_8_of_10 {
+  	width: 79.68%;
+}
+
+.span_7_of_10 {
+  	width: 69.52%;
+}
+
+.span_6_of_10 {
+  	width: 59.36%;
+}
+
+.span_5_of_10 {
+  	width: 49.2%;
+}
+
+.span_4_of_10 {
+  	width: 39.04%;
+}
+
+.span_3_of_10 {
+  	width: 28.88%;
+}
+
+.span_2_of_10 {
+  	width: 18.72%;
+}
+
+.span_1_of_10 {
+  	width: 8.56%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { margin: 1% 0 1% 0%;}
+	.span_3_of_3, .span_2_of_3, .span_1_of_3, 
+    .span_1of_9, .span_2_of_9, .span_3_of_9, 
+    .span_4_of_9, .span_5_of_9, .span_6_of_9, 
+    .span_7_of_9, .span_8_of_9, .span_9_of_9 { width: 100%; }
+
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+
+	.span_1_of_8, .span_2_of_8, .span_3_of_8, .span_4_of_8, 
+	.span_5_of_8, .span_6_of_8, .span_7_of_8, .span_8_of_8 { width: 100%; }
+}
+

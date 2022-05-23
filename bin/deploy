@@ -7,7 +7,7 @@
 SRC_BRANCH="master"
 DEPLOY_BRANCH="gh-pages"
 
-USAGE_MSG="usage: deploy [-h|--help] [-u|--user] [-s|--src SRC_BRANCH] [-d|--deploy DEPLOY_BRANCH] [--verbose] [--no-push]"
+USAGE_MSG="usage: deploy [-h|--help] [-u|--user] [-s|--src SRC_BRANCH] [-d|--deploy DEPLOY_BRANCH]"
 
 while [[ $# > 0 ]]; do
     key="$1"
@@ -20,6 +20,7 @@ while [[ $# > 0 ]]; do
         -u|--user)
         SRC_BRANCH="source"
         DEPLOY_BRANCH="master"
+        shift
         ;;
         -s|--src)
         SRC_BRANCH="$2"
@@ -29,16 +30,10 @@ while [[ $# > 0 ]]; do
         DEPLOY_BRANCH="$2"
         shift
         ;;
-        --verbose)
-        set -x
-        ;;
-        --no-push)
-        NO_PUSH="--no-push"
-        ;;
         *)
-        echo "Option $1 is unknown." >&2
-        echo $USAGE_MSG >&2
-        exit 1
+        echo "Option $1 is unknown."
+        echo $USAGE_MSG
+        exit 0
         ;;
     esac
     shift
@@ -67,15 +62,6 @@ if ! git diff-index --quiet HEAD --; then
     [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
 fi
 
-# Check if there are any untracked files
-if ! test -z "$(git ls-files --exclude-standard --others)"; then
-    echo "There are untracked files:"
-    git ls-files --exclude-standard --others
-    echo "Please commit those files or stash them before proceeding."
-    echo "Aborting."
-    [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
-fi
-
 # Switch to source branch (creates it if necessary from the current branch)
 if [ `git branch | grep $SRC_BRANCH | tr ' ' '\n' | tail -1` ]
 then
@@ -91,9 +77,6 @@ then
 fi
 git checkout -b $DEPLOY_BRANCH
 
-# Export JEKYLL_ENV=production
-export JEKYLL_ENV=production
-
 # Build site
 bundle exec jekyll build
 
@@ -104,8 +87,8 @@ rm -R _site/
 
 # Push to DEPLOY_BRANCH
 git add -fA
-git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
-[[ ${NO_PUSH} ]] || git push -f -q origin $DEPLOY_BRANCH
+git commit --allow-empty -m "$(git log -1 --pretty=%B)"
+git push -f -q origin $DEPLOY_BRANCH
 
 # Move back to SRC_BRANCH
 git checkout $SRC_BRANCH
