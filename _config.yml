@@ -81,6 +81,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 blog_name: Marcin Copik # your blog must have a name for it to show up in the nav bar
 blog_description: tutorials, tips, observations and interesting papers
+blog_nav_title: blog
 permalink: /blog/:year/:title/
 
 # Pagination
