@@ -26,6 +26,7 @@
   abstract = {Non-invasive surface registration methods have been developed to register and track breathing motions in a patient's abdomen and thorax. We evaluated several different registration methods, including marker tracking using a stereo camera, chessboard image projection, and abdominal point clouds. Our point cloud approach was based on a time-of-flight (ToF) sensor that tracked the abdominal surface. We tested different respiratory phases using additional markers as landmarks for the extension of the non-rigid Iterative Closest Point (ICP) algorithm to improve the matching of irregular meshes. Four variants for retrieving the correspondence data were implemented and compared. Our evaluation involved 9 healthy individuals (3 females and 6 males) with point clouds captured in opposite breathing phases (i.e., inhalation and exhalation). We measured three factors: surface distance, correspondence distance, and marker error. To evaluate different methods for computing the correspondence measurements, we defined the number of correspondences for every target point and the average correspondence assignment error of the points nearest the markers.},
   html = {https://doi.org/10.3109/10929088.2014.891657},
   pdf = {2014_respiratory_motion_cas_paper.pdf},
+  bibtex_show = {True}
 }
 
 @inproceedings{2016gpu,
@@ -50,7 +51,8 @@
   html = {http://ceur-ws.org/Vol-1698/},
   pdf = {2016_prism_gpu_csp_paper.pdf},
   slides = {2016_prism_gpu_csp_slides.pdf},
-  abstract = {We describe a GPGPU–based Monte Carlo simulator integrated with Prism. It supports Markov chains with discrete or continuous time and a subset of properties expressible in PCTL, CSL and their variants extended with rewards. The simulator allows an automated statistical verification of results obtained using Prism’s formal methods.}
+  abstract = {We describe a GPGPU–based Monte Carlo simulator integrated with Prism. It supports Markov chains with discrete or continuous time and a subset of properties expressible in PCTL, CSL and their variants extended with rewards. The simulator allows an automated statistical verification of results obtained using Prism’s formal methods.},
+  bibtex_show = {True}
 }
 
 @inproceedings{2017sycl,
@@ -72,6 +74,7 @@
   slides = {2017_hpx_compute_iwocl_slides.pdf},
   html = {https://dl.acm.org/doi/10.1145/3078155.3078187},
   pdf = {2017_hpx_compute_iwocl_paper.pdf},
+  bibtex_show = {True}
 }
 
 @inproceedings{10.1145/3168804,
@@ -92,7 +95,8 @@
   series = {CGO 2018},
   arxiv = {1804.04021},
   html = {https://dl.acm.org/doi/10.1145/3168804},
-  pdf = {2018_matrix_chain_cgo_paper.pdf}
+  pdf = {2018_matrix_chain_cgo_paper.pdf},
+  bibtex_show = {True}
 }
 
 @InProceedings{10.1007/978-3-030-47956-5_15,
@@ -116,7 +120,8 @@
   abstract="Performance models are powerful tools allowing developers to understand the behavior of their applications, and empower them to address performance issues already during the design or prototyping phase. Unfortunately, the difficulties of creating such models manually and the effort involved render performance modeling a topic limited to a relatively small community of experts. This article summarizes the results of the two projects Catwalk, which aimed to create tools that automate key activities of the performance modeling process, and ExtraPeak, which built upon the results of Catwalk and worked toward making this powerful methodology more flexible, streamlined and easy to use. The sew projects both provide accessible tools and methods that bring performance modeling to a wider audience of HPC application developers. Since its outcome represents the final state of the two projects, we expand to a greater extent on the results of ExtraPeak.",
   isbn="978-3-030-47956-5",
   html = {https://link.springer.com/chapter/10.1007/978-3-030-47956-5_15},
-  pdf = {2020_extrapeak_paper.pdf}
+  pdf = {2020_extrapeak_paper.pdf},
+  bibtex_show = {True}
 }
 
 @article{2017prefixsum,
@@ -137,7 +142,8 @@
   pdf = {2017_prefix_sum_thesis.pdf},
   journal = {Master Thesis},
   abstract = {Recent advances in the technology of transmission electron microscopy have allowed for a more precise visualization of materials and physical processes, such as metal oxidation. Nevertheless, the quality of information is limited by the damage caused by an electron beam, movement of the specimen or other environmental factors. A novel registration method has been proposed to remove those limitations by acquiring a series of low dose microscopy frames and performing a computational registration on them to understand and visualize the sample. This process can be represented as a prefix sum with a complex and computationally intensive binary operator and a parallelization is necessary to enable processing long series of microscopy images. With our parallelization scheme, the time of registration of results from ten seconds of microscopy acquisition has been decreased from almost thirteen hours to less than seven minutes on 512 Intel IvyBridge cores.},
-  arxiv = {1712.02533}
+  arxiv = {1712.02533},
+  bibtex_show = {True}
 }
 
 @misc{2021rfaas,
@@ -149,49 +155,54 @@
   archivePrefix={arXiv},
   primaryClass={cs.DC},
   abstract={The rigid MPI programming model and batch scheduling dominate high-performance computing. While clouds brought new levels of elasticity into the world of computing, supercomputers still suffer from low resource utilization rates. To enhance supercomputing clusters with the benefits of serverless computing, a modern cloud programming paradigm for pay-as-you-go execution of stateless functions, we present rFaaS, the first RDMA-aware Function-as-a-Service (FaaS) platform. With hot invocations and decentralized function placement, we overcome the major performance limitations of FaaS systems and provide low-latency remote invocations in multi-tenant environments. We evaluate the new serverless system through a series of microbenchmarks and show that remote functions execute with negligible performance overheads. We demonstrate how serverless computing can bring elastic resource management into MPI-based high-performance applications. Overall, our results show that MPI applications can benefit from modern cloud programming paradigms to guarantee high performance at lower resource costs.},
-  code={https://github.com/spcl/rFaaS/}
+  code={https://github.com/spcl/rFaaS/},
+  bibtex_show = {True}
 }
 
 @periodical{2020prefixsum,
   title={Work-stealing prefix scan: Addressing load imbalance in large-scale image registration}, 
   author={Marcin Copik and Tobias Grosser and Torsten Hoefler and Paolo Bientinesi and Benjamin Berkels},
   year={2022},
-  eprint={2010.12478},
-  archivePrefix={arXiv},
-  primaryClass={cs.DC},
   arxiv = {2010.12478},
   pdf = {2021_prefix_sum_TPDS.pdf},
   code = {https://github.com/berkels/match-series/},
   type = {article},
   journal = {IEEE Transactions on Parallel and Distributed Systems},
   html = {https://ieeexplore.ieee.org/document/9477174},
+  url = {https://ieeexplore.ieee.org/document/9477174},
   abstract = {
     Parallelism patterns (e.g., map or reduce) have proven to be effective tools for parallelizing high-performance applications. In this paper, we study the recursive registration of a series of electron microscopy images - a time consuming and imbalanced computation necessary for nano-scale microscopy analysis. We show that by translating the image registration into a specific instance of the prefix scan, we can convert this seemingly sequential problem into a parallel computation that scales to over thousand of cores. We analyze a variety of scan algorithms that behave similarly for common low-compute operators and propose a novel work-stealing procedure for a hierarchical prefix scan. Our evaluation shows that by identifying a suitable and well-optimized prefix scan algorithm, we reduce time-to-solution on a series of 4,096 images spanning ten seconds of microscopy acquisition from over 10 hours to less than 3 minutes (using 1024 Intel Haswell cores), enabling derivation of material properties at nanoscale for long microscopy image series. 
   },
   volume={33},
   number={3},
   pages={523-535},
-  doi={10.1109/TPDS.2021.3095230}
+  doi={10.1109/TPDS.2021.3095230},
+  bibtex_show = {True}
 }
 
 @inproceedings{copik2020sebs,
   title={SeBS: A Serverless Benchmark Suite for Function-as-a-Service Computing}, 
   author={Marcin Copik and Grzegorz Kwasniewski and Maciej Besta and Michal Podstawski and Torsten Hoefler},
   year={2021},
-  eprint={2012.14132},
   arxiv={2012.14132},
-  archivePrefix={arXiv},
-  primaryClass={cs.DC},
   abstract = {Function-as-a-Service (FaaS) is one of the most promising directions for the future of cloud services, and serverless functions have immediately become a new middleware for building scalable and cost-efficient microservices and applications. However, the quickly moving technology hinders reproducibility, and the lack of a standardized benchmarking suite leads to ad-hoc solutions and microbenchmarks being used in serverless research, further complicating metaanalysis and comparison of research solutions. To address this challenge, we propose the Serverless Benchmark Suite: the first benchmark for FaaS computing that systematically covers a wide spectrum of cloud resources and applications. Our benchmark consists of the specification of representative workloads, the accompanying implementation and evaluation infrastructure, and the evaluation methodology that facilitates reproducibility and enables interpretability. We demonstrate that the abstract model of a FaaS execution environment ensures the applicability of our benchmark to multiple commercial providers such as AWS, Azure, and Google Cloud. Our work facilities experimental evaluation of serverless systems, and delivers a standardized, reliable and evolving evaluation methodology of performance, efficiency, scalability and reliability of middleware FaaS platforms.},
-  code = {https://github.com/spcl/serverless-benchmarks},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3464298.3476133},
+  pages = {64–78},
+  numpages = {15},
+  keywords = {function-as-a-service, benchmark, serverless, FaaS},
+  location = {Qu\'{e}bec city, Canada},
   booktitle = {Proceedings of the 22nd International Middleware Conference},
   series = {Middleware '21},
+  code = {https://github.com/spcl/serverless-benchmarks},
   doi = {10.1145/3464298.3476133},
   artifact= {https://zenodo.org/record/5357597},
   pdf = {2021_sebs_middleware.pdf},
   slides = {2021_sebs_middleware_slides.pdf},
   html = {https://dl.acm.org/doi/10.1145/3464298.3476133},
   recording = {https://www.youtube.com/watch?v=Z_CQfh0pQjc},
+  bibtex_show = {True}
 }
 
 @article{2019perftaint,
@@ -229,7 +240,8 @@
   code = {https://github.com/spcl/perf-taint/},
   recording = {https://www.youtube.com/watch?v=eGEvFXK4owc},
   slides = {2021_perf_taint_ppopp_slides.pdf},
-  artifact = {https://zenodo.org/record/4381803}
+  artifact = {https://zenodo.org/record/4381803},
+  bibtex_show = {True}
 }
 
 @inproceedings{besta2021graphminesuite,
@@ -247,29 +259,27 @@
   html={http://vldb.org/pvldb/vol14-volume-info/},
   pdf={2021_gms_paper.pdf},
   artifact = {https://graphminesuite.spcl.inf.ethz.ch/},
-  doi = {10.14778/3476249.3476252}
+  doi = {10.14778/3476249.3476252},
+  bibtex_show = {True}
 }
 
 @inproceedings{besta2021sisa,
   title={SISA: Set-Centric Instruction Set Architecture for Graph Mining on Processing-in-Memory Systems}, 
   author={Maciej Besta and Raghavendra Kanakagiri and Grzegorz Kwasniewski and Rachata Ausavarungnirun and Jakub Beránek and Konstantinos Kanellopoulos and Kacper Janda and Zur Vonarburg-Shmaria and Lukas Gianinazzi and Ioana Stefan and Juan Gómez Luna and Marcin Copik and Lukas Kapp-Schwoerer and Salvatore Di Girolamo and Marek Konieczny and Onur Mutlu and Torsten Hoefler},
   year={2021},
-  eprint={2104.07582},
   arxiv={2104.07582},
-  archivePrefix={arXiv},
-  primaryClass={cs.AR},
-  journal={arXiv},
-  url={https://arxiv.org/abs/2104.07582},
   abstract={Simple graph algorithms such as PageRank have recently been the target of numerous hardware accelerators. Yet, there also exist much more complex graph mining algorithms for problems such as clustering or maximal clique listing. These algorithms are memory-bound and thus could be accelerated by hardware techniques such as Processing-in-Memory (PIM). However, they also come with non-straightforward parallelism and complicated memory access patterns. In this work, we address this with a simple yet surprisingly powerful observation: operations on sets of vertices, such as intersection or union, form a large part of many complex graph mining algorithms, and can offer rich and simple parallelism at multiple levels. This observation drives our cross-layer design, in which we (1) expose set operations using a novel programming paradigm, (2) express and execute these operations efficiently with carefully designed set-centric ISA extensions called SISA, and (3) use PIM to accelerate SISA instructions. The key design idea is to alleviate the bandwidth needs of SISA instructions by mapping set operations to two types of PIM: in-DRAM bulk bitwise computing for bitvectors representing high-degree vertices, and near-memory logic layers for integer arrays representing low-degree vertices. Set-centric SISA-enhanced algorithms are efficient and outperform hand-tuned baselines, offering more than 10x speedup over the established Bron-Kerbosch algorithm for listing maximal cliques. We deliver more than 10 SISA set-centric algorithm formulations, illustrating SISA's wide applicability.},
   month={10},
   publisher = {Association for Computing Machinery},
   address = {New York, NY, USA},
   html = {https://doi.org/10.1145/3466752.3480133},
+  url = {https://doi.org/10.1145/3466752.3480133},
   doi = {10.1145/3466752.3480133},
   booktitle = {MICRO-54: 54th Annual IEEE/ACM International Symposium on Microarchitecture},
   series = {MICRO '21},
   pdf={2021_micro_paper.pdf},
-  artifact = {https://graphminesuite.spcl.inf.ethz.ch/}
+  artifact = {https://graphminesuite.spcl.inf.ethz.ch/},
+  bibtex_show = {True}
 }
 
 @inproceedings{schmid2022perfdetective,
@@ -279,7 +289,8 @@
   abstract = {The many configuration options of modern applications make it difficult for users to select a performance-optimal configuration. Performance models help users in understanding system performance and choosing a fast configuration. Existing performance modeling approaches for applications and configurable systems either require a full-factorial experiment design or a sampling design based on heuristics. This results in high costs for achieving accurate models. Furthermore, they require repeated execution of experiments to account for measurement noise. We propose Performance-Detective, a novel code analysis tool that deduces insights on the interactions of program parameters. We use the insights to derive the smallest necessary experiment design and avoiding repetitions of measurements when possible, significantly lowering the cost of performance modeling. We evaluate Performance-Detective using two case studies where we reduce the number of measurements from up to 3125 to only 25, decreasing cost to only 2.9% of the previously needed core hours, while maintaining accuracy of the resulting model with 91.5% compared to 93.8% using all 3125 measurements.},
   booktitle = {Proceedings of the 2022 International Conference on Supercomputing (ICS'22)},
   series = {ICS' 22},
-  pdf = {2022_ics_schmid_perf_detective.pdf}
+  pdf = {2022_ics_schmid_perf_detective.pdf},
+  bibtex_show = {True}
 }
 
 @misc{copik2022faaskeeper,
@@ -291,6 +302,7 @@
   publisher = {arXiv},
   year = {2022},
   copyright = {arXiv.org perpetual, non-exclusive license},
-  code={https://github.com/spcl/faaskeeper/}
+  code={https://github.com/spcl/faaskeeper/},
+  bibtex_show = {True}
 }
 
