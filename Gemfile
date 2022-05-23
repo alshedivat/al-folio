@@ -7,7 +7,7 @@ group :jekyll_plugins do
     gem 'jekyll-feed'
     gem 'jekyll-imagemagick'
     gem 'jekyll-minifier'
-    gem 'jekyll-paginate-v2'
+    gem 'jekyll-paginate'
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-target-blank'
@@ -16,6 +16,7 @@ group :jekyll_plugins do
     gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'github-pages'
 end
 group :other_plugins do
     gem 'httparty'
