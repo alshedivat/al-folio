@@ -189,7 +189,9 @@
   doi = {10.1145/3464298.3476133},
   artifact= {https://zenodo.org/record/5357597},
   pdf = {2021_sebs_middleware.pdf},
-  slides = {2021_sebs_middleware_slides.pdf}
+  slides = {2021_sebs_middleware_slides.pdf},
+  html = {https://dl.acm.org/doi/10.1145/3464298.3476133},
+  recording = {https://www.youtube.com/watch?v=Z_CQfh0pQjc},
 }
 
 @article{2019perftaint,
@@ -283,13 +285,12 @@
 @misc{copik2022faaskeeper,
   url = {https://arxiv.org/abs/2203.14859},
   author = {Copik, Marcin and Calotoiu, Alexandru and Taranov, Konstantin and Hoefler, Torsten},
-  keywords = {Distributed, Parallel, and Cluster Computing (cs.DC), FOS: Computer and information sciences, FOS: Computer and information sciences},
   title = {FaasKeeper: a Blueprint for Serverless Services},
   abstract = {FaaS (Function-as-a-Service) brought a fundamental shift into cloud computing: (persistent) virtual machines have been replaced with dynamically allocated resources, trading locality and statefulness for a pay-as-you-go model more suitable for varying and infrequent workloads. However, adapting services to function within the serverless paradigm while still fulfilling requirements is challenging. In this work, we introduce a design blueprint for creating complex serverless services and contribute a set of requirements for efficient and scalable FaaS computing. To showcase our approach, we focus on ZooKeeper, a centralized coordination service that offers a safe and wait-free consensus mechanism but requires a persistent allocation of computing resources that does not offer the flexibility needed to handle variable workloads. We design FaaSKeeper, the first coordination service built on serverless functions and cloud-native services. FaaSKeeper provides the same consistency guarantees and interface as ZooKeeper with a price model proportional to the activity in the system. In addition, we define synchronization primitives to extend the capabilities of scalable cloud storage ser- vices with consensus semantics needed for strong data consistency.},
   arxiv={2203.14859},
   publisher = {arXiv},
   year = {2022},
-  copyright = {arXiv.org perpetual, non-exclusive license}
+  copyright = {arXiv.org perpetual, non-exclusive license},
   code={https://github.com/spcl/faaskeeper/}
 }
 
