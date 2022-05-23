@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-first_name: Xingyue
+first_name: Xingyue_con
 last_name: Huo
 email: you@example.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -19,7 +19,7 @@ icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name
 
 
 
-url: https://hsingyuehuo.github.io/
+url: 
 #url: https://alshedivat.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
