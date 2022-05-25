@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: On Campus Matcher
+description: A mobile app that aims to make university students more social.
 img: assets/img/12.jpg
 importance: 1
 category: work

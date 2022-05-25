@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: SECC Website
+description: I built the SECC's website and educational web portal. STEM Education and Coordination Center Project is co-financed by the European Union and Turkish Republic Ministry of Labor and Social Security.
 img: assets/img/3.jpg
 importance: 2
 category: work
