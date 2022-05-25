@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: profilePhoto.jpg
+  image: ProfilePhoto.jpg
   address: >
     <p>Bilkent University</p>
     <p>Ankara, Turkey</p>
