@@ -11,4 +11,6 @@ children:
       permalink: /movies/
     - title: People
       permalink: /people/
+    - title: Links
+      permalink: /links/
 ---
