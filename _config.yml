@@ -55,16 +55,16 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: https://bean061.github.io # your GitHub user name
+github_username: Bean061 # your GitHub user name
 #gitlab_username: # your GitLab user name
 twitter_username: Bean_061 # your Twitter handle
 #linkedin_username: # your LinkedIn user name
-scholar_userid: https://scholar.google.com/citations?user=weMOLQcAAAAJ&hl=en&oi=ao # your Google Scholar ID
+#scholar_userid: weMOLQcAAAAJ&hl=en&oi=ao # your Google Scholar ID
 orcid_id: 0000-0003-4413-2227 # your ORCID ID
 #medium_username: # your Medium username
 #quora_username: # your Quora username
 #publons_id: # your ID on Publons
-research_gate_profile: https://www.researchgate.net/profile/Wenbin-Zhou-10 # your profile on ResearchGate
+research_gate_profile: Wenbin-Zhou-10 # your profile on ResearchGate
 #blogger_url: # your blogger URL
 #work_url: # work page URL
 #keybase_username: # your keybase user name
