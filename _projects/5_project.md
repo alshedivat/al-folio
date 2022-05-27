@@ -2,7 +2,7 @@
 layout: page
 title: Bilkent Section Selection Wizard
 description: The program calculates and lists each instructor's average evaluations and sectiong GPAs for any course to help students select their instructors in a more analytical way :)
-img: assets/img/bilkent-pro.jpg
+img: assets/img/bilkent-wizard.jpg
 importance: 3
 category: fun
 ---
