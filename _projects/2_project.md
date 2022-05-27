@@ -2,7 +2,7 @@
 layout: page
 title: STEM Education and Coordination Center Website and Portal Design
 description: I built the SECC's website and educational web portal. STEM Education and Coordination Center Project is co-financed by the European Union and Turkish Republic Ministry of Labor and Social Security.
-img: assets/img/3.jpg
+img: assets/img/secc_cover.jpeg
 importance: 2
 category: work
 ---

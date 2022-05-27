@@ -2,7 +2,7 @@
 layout: page
 title: Autonomous Object Tracking UAV
 description: TEKNOFEST 2021 3th Place
-img: assets/img/7.jpg
+img: assets/img/teknofest_cover.png
 redirect: https://unsplash.com
 importance: 3
 category: work
