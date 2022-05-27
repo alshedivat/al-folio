@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: Bilkent Section Selection Wizard
+description: The program calculates and lists each instructor's average evaluations and sectiong GPAs for any course to help students select their instructors in a more analytical way :)
+img: assets/img/bilkent-pro.jpg
 importance: 3
 category: fun
 ---
