@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Autonomous Object Tracking UAV
-description: TEKNOFEST 2021 3th Place
-img: assets/img/teknofest_cover.png
-importance: 3
+title: VEDES Project / TÜBİTAK 49. Interhighschool Research Project Competition
+description: VEDES is a comprehensive system that maximizes up to 90% better power savings on highways.
+img: assets/img/vedes_cover.png
+redirect: 
+importance: 4
 category: work
 ---
 
