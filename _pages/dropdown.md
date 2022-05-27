@@ -14,5 +14,5 @@ children:
     - title: Links
       permalink: /links/
     - title: ENG 102 Calc
-      permalink: /enc-102-calc/
+      permalink: /eng-102-calc/
 ---
