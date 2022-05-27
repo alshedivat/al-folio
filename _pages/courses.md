@@ -7,7 +7,7 @@ nav: true
 ---
 <!-- ####  -->
 ### **University of Maryland, College Park**
-Courses taken during the PhD program at UMD.
+<!-- Courses taken during the PhD program at UMD. -->
 #### **Spring 2022** 
 >  [CMSC 848Q: How and Why Artificial Intelligence Answers Questions](http://users.umiacs.umd.edu/~jbg/teaching/CMSC_848/) taught by Jordan Boyd-Graber<br />
 >  [CMSC 764: Advanced Numerical Optimization](https://www.cs.umd.edu/~tomg/cmsc764_2022/) taught by Tom Goldstein<br />
