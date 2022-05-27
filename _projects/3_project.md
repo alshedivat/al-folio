@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Syntex Safir
-description: Autonomous Object Tracking UAV, TEKNOFEST 2021 3th Place
+title: Autonomous Object Tracking UAV
+description: TEKNOFEST 2021 3th Place
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
