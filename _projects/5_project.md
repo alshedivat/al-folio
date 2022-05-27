@@ -2,68 +2,40 @@
 layout: page
 title: PPD
 description: pipeline
-img: assets/img/1.jpg
+img: assets/img/36.png
 importance: 5
 category: Ph.D.
 ---
 
-Restriction site‐associated DNA sequencing (RAD‐seq) enables obtaining thousands of genetic markers for phylogenomic studies. However, RAD‐seq data are subject to allele dropout (ADO) due to polymorphisms at enzyme cutting sites. We developed a new pipeline, RAD‐seq Allele Dropout Remedy in our study of the gymnosperm genus, Torreya, to mitigate ADO in outgroups by recovering missing loci from previously published transcriptomes. By using RADADOR to supplement
+Target enrichment (such as Hyb-Seq) is a well-established high throughput sequencing method that has been increasingly used for phylogenomic studies. Unfortunately, current widely used pipelines for analysis of target enrichment data do not have a vigorous procedure to remove paralogs in target enrichment data. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/37.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Fig. 1. Paralogs vs. orthologs and current pipeline for Hyb-Seq data.
 </div>
+
+In this study, we develop a pipeline we call Putative Paralogs Detection (PPD) to better address putative paralogs from enrichment data. The new pipeline is an add-on to the existing HybPiper pipeline, and the entire pipeline applies criteria in both sequence similarity and heterozygous sites at each locus in the identification of paralogs. 
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/36.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Fig. 2. Flow chart of PPD (add link).
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+The new pipeline also removes highly polymorphic sites attributed to errors in sequence assembly and gappy regions in the alignment. We demonstrated the value of the new pipeline using empirical data generated from Hyb-Seq and the Angiosperm 353 kit for two woody genera Castanea (Fagaceae, Fagales) and Hamamelis (Hamamelidaceae, Saxifragales). Comparisons of datasets showed that the PPD identified many more putative paralogs than the popular method HybPiper. Comparisons of tree topologies and divergence times showed evident differences between data from HybPiper and data from our new PPD pipeline. We further evaluated the accuracy and error rates of PPD by BLAST mapping of putative paralogous and orthologous sequences to a reference genome sequence of Castanea mollissima. Compared to HybPiper alone, PPD identified substantially more paralogous gene sequences that mapped to multiple regions of the reference genome (31 genes for PPD compared with 4 genes for HybPiper alone). In conjunction with HybPiper, paralogous genes identified by both pipelines can be removed resulting in the construction of more robust orthologous gene datasets for phylogenomic and divergence time analyses. Our study demonstrates the value of Hyb-Seq with data derived from the Angiosperm 353 probe set for elucidating species relationships within a genus, and argues for the importance of additional steps to filter paralogous genes and poorly aligned regions (e.g., as occur through assembly errors), such as our new PPD pipeline described in this study.
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/38.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Fig. 3. similar divergence time result tested in Castanea and Hamamelis.
 </div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
