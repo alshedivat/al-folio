@@ -1,8 +1,8 @@
 ---
 layout: page
-title: VEDES Project / TÜBİTAK 49. Interhighschool Research Project Competition
+title: VEDES Project
 description: VEDES is a comprehensive system that maximizes up to 90% better power savings on highways.
-img: assets/img/vedes_cover.png
+img: assets/img/vedes-cover.jpg
 redirect: 
 importance: 4
 category: work
