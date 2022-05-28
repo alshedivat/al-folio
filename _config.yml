@@ -164,7 +164,7 @@ github: [metadata]
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them). 
+  enabled: [tags, categories] # enables year, tag and category archives (remove if you need to disable one of them). 
   layouts:
     year: archive-year
     tag: archive-tag
