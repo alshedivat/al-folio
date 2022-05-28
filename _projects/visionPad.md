@@ -3,7 +3,7 @@ layout: page
 title: VisionPad
 date: 2013-10-17 13:00:00-0400
 description: VisionPad is a trackpad. It uses a camera to detect finger movements and imitates a real laptop trackpad thanks to comprehensive computer vision algorithm.
-img: assets/img/visionPad.png
+img: assets/img/visionPad.jpg
 importance: 1
 category: fun
 ---
