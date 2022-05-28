@@ -5,7 +5,6 @@ group :jekyll_plugins do
     gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
-    gem 'jekyll-github-metadata'
     gem 'jekyll-imagemagick'
     gem 'jekyll-paginate-v2'
     gem 'jekyll-scholar'
@@ -15,4 +14,8 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     gem 'webrick'
+end
+group :other_plugins do
+    gem 'httparty'
+    gem 'feedjira'
 end
