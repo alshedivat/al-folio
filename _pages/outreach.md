@@ -7,6 +7,9 @@ nav: true
 nav_order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+##### **Teaching Experience**
+- 2018 - 2019 &ensp;&ensp; NCSU Plant Biology PB250 Lab TA
+- 2019 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; NCSU Plant Biology PB200 Lab TA (non major students)
+- 2020 - 2021 &ensp;&ensp; NCSU Plant Systematics PB403/503 Lab TA
+- 2022.5.23-25 &ensp; [BAAGs](https://tarheels.live/baags/) workshop (basic assembly and annotation of genomes)
 
-Organize your courses by years, topics, or universities, however you like!
