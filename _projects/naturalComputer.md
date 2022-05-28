@@ -4,7 +4,7 @@ title: Homemade Natural Computer
 date: 2009-10-17 13:00:00-0400
 description: The first computer I ever "produce". It looks really solid and very natural but difficult to program. Unfortunately there is no more on the production line.
 img: assets/img/naturalComputer.jpg
-importance: 1
+importance: 5
 category: fun
 ---
 
