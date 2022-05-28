@@ -7,8 +7,8 @@ first_name: Syanah
 middle_name: C.
 last_name: Wynn
 email: s.wynn@bham.ac.uk
-description: >
-  Website of Syanah Wynn # the ">" symbol means to ignore newlines until "footer_text:"
+description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  Website of Syanah Wynn
 footer_text: 
 keywords: syanah, wynn, neuroscience, memory, eeg, oscillations, neuropscychology  # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
