@@ -12,4 +12,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi. I am Diego Wang, an undergraduate student at University of Virginia. Thanks for visiting my page!
+Hi, I am Letao Wang, an undergrad at University of Virginia. I also go by Diego. Thanks for visiting my page!
