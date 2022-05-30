@@ -7,8 +7,7 @@ first_name: Anna
 middle_name: E.
 last_name: Kijas
 email:
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+description: Musicology, digital humanities, bibliographic research, music encoding, and information sciences
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -55,12 +54,12 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: annakijas1# your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
+twitter_username: anna_kijas# your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+orcid_id: 0000-0001-7450-5093 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -73,7 +72,6 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -200,13 +198,12 @@ jekyll-archives:
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
-
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Kijas
+  first_name: [Anna, Anna E.]
 
-  style: apa
+  style: chicago-author-date-16th-edition
   locale: en
 
   source: /_bibliography/
