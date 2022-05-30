@@ -21,6 +21,8 @@ Here are the reasons why people are excited about the Merge:
 
     In effect, Ethereum shifts from a relatively high structral supply (~$27M/day) to a lower structural supply. Assuming that structural demand remains robust (otherwise where are all the current demand for ETH is coming from), this suggests that there will be price appreciation over the medium to long term post-Merge.
 
+    There is a question about the impact of stakers selling post-Merge. For now consider what happens immediately post-Merge, and for six months stakers are not able to access their staked coins and staking rewards. This means up to ~$5B worth of sell pressure is taken off the market. Even after six months, only six validators will be able to enter or exit a staking spot every epoch, which happens every 32 blocks, or 225 epochs per day so a maximum of 1350 validators can stake or unstake in one day. However, after The Merge all transaction tips go to stakers which are estimated to add 5-10% on top of today's APR for staking, and at that rate it seems there should be a demand for continued staking.
+
 2. **Environmental Impact**: The move to proof of stake means that Ethereum's energy consumption will be [cut by 99%](https://ethereum.org/en/energy-consumption/).
 
 3. **Triple Halving**: The Merge will result in a highly reduced Ether token issuance rate dubbed the "Triple Halving".
