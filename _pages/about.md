@@ -2,23 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: 2018-mla-portland.jpg
+  address:
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am the Head of [Lilly Music Library](https://tischlibrary.tufts.edu/our-locations/tisch-branches/lilly-music-library) at Tufts University. My academic training includes master’s degrees in library and information science from Simmons College, music with a concentration in musicology from Tufts University, as well as a bachelor of arts in music literature and performance from Northeastern University.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am interested in the exploration and application of digital humanities tools and methods in historical (music) research, and in the application of standards, including TEI and MEI, for open access research and publishing, and the use of minimal computing. I also work on nineteenth century music topics with a focus on gender, women, and performance criticism and reception.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I recently published a book on [*The Life and Music of Teresa Carreño (1853-1917): A Guide to Research*](https://www.areditions.com/kijas-life-and-music-of-teresa-carre-o-ib041.html), and have a [digital project](https://documentingcarreno.org/), which documents Carreño’s performance career with primary source materials, metadata, and transcriptions, as well as explores her performances and texts through data analysis and visualization tools. I also write about using digital humanities tools and methods to explore, visualize, and augment scholarship.
+
+My work has been supported by the Music Library Association with a [Walter Gerboth Award](http://www.musiclibraryassoc.org/?page=gerbothaward&terms=%22gerboth%22) and the University of Connecticut with a School of Fine Arts Dean’s Research Grant.
