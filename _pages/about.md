@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: 2018-mla-portland.jpg
+  image: mla-portland.jpg
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
