@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /publications/
+permalink: /akijas/publications/
 title: Publications
 description:
 years: [2021, 2020, 2019, 2017, 2016, 2015, 2014, 2013, 2012, 2010, 2005, 2003]
