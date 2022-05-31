@@ -204,7 +204,7 @@ scholar:
   last_name: Kijas
   first_name: [Anna E.]
 
-  style: chicago-author-date-16th-edition
+  style: chicago-fullnote-bibliography
   locale: en
 
   source: /_bibliography/
