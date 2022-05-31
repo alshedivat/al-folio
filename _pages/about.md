@@ -9,7 +9,7 @@ profile:
   image: mla-portland.jpg
   address: >
    <hr>
-   <p style="text-align:center"><a href="">my c.v.</a></p>
+   <p style="text-align:center"><a href="https://docs.google.com/document/d/1TYPEJx-pEsAjISva_ByyiJwoQzAAybC4Zx8VXf5JqNw/edit?usp=sharing">my c.v.</a></p>
    <hr>
 
 news: false  # includes a list of news items
