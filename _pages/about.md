@@ -7,6 +7,10 @@ subtitle:
 profile:
   align: right
   image: mla-portland.jpg
+  address: >
+   <hr>
+   <p style="text-align:center"><a href="">my c.v.</a></p>
+   <hr>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
