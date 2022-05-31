@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: assets/img/2018-mla-portland.jpg
+  image: 2018-mla-portland.jpg
   address:
 
 news: false  # includes a list of news items
