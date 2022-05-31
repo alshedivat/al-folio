@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: Research Fellow at the <a href="https://www.birmingham.ac.uk/research/centre-for-human-brain-health/index.aspx">Centre for Human Brain Health at University of Birmingham</a> <i><small>&nbsp;&nbsp;&nbsp; &nbsp;(she/her)</small></i>
+description: Research Fellow at the <a href="https://www.birmingham.ac.uk/research/centre-for-human-brain-health/index.aspx">Centre for Human Brain Health at the University of Birmingham</a> <i><small>&nbsp;&nbsp;&nbsp; &nbsp;(she/her)</small></i>
 
 profile:
   align: right
