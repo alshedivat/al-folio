@@ -7,7 +7,8 @@ first_name: Anna
 middle_name: E.
 last_name: Kijas
 email:
-description: Musicology, digital humanities, bibliographic research, music encoding, and information sciences
+description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  Musicology, digital humanities, bibliographic research, music encoding, and information sciences
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -99,7 +100,7 @@ disqus_shortname:  # put your disqus shortname
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: 
+  - name:
     rss_url:
 
 # -----------------------------------------------------------------------------
