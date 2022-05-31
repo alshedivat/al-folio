@@ -54,9 +54,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: annakijas1# your GitHub user name
+github_username: annakijas1 # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: anna_kijas# your Twitter handle
+twitter_username: anna_kijas # your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: 0000-0001-7450-5093 # your ORCID ID
@@ -92,15 +92,15 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname:  # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+  - name: 
+    rss_url:
 
 # -----------------------------------------------------------------------------
 # Collections
