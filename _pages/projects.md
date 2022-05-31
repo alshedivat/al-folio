@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+permalink: /akijas/projects/
+description:
 nav: true
 nav_order: 1
-display_categories: [work, fun]
+display_categories:
 horizontal: false
 ---
 
