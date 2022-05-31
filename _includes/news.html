@@ -5,9 +5,10 @@
       <table class="table table-sm table-borderless">
       {% assign news = site.news | reverse %}
       {% for item in news limit: site.news_limit %}
-        <tr>
-          <th>[{{ item.date | date: "%m/%d/%Y" }}]</th>
-          <td>
+        <tr >
+          <!-- <th>[{{ item.date | date: "%m/%d/%Y" }}]</th> -->
+          <th style="padding: 0px 10px 0px 0px;">[{{ item.date | date: "%m/%Y" }}]</th>
+          <td style="padding: 0px 13px 0px 0px;">
             {% if item.inline %}
               {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
             {% else %}
