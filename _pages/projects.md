@@ -2,11 +2,13 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: This is a selection of my projects. Additional projects are listed in my C.V.
+description:
 nav: true
 nav_order: 3
 horizontal: false
 ---
+
+<p>This is a selection of my projects. Additional projects are listed in [my C.V.](https://annakijas1.github.io/2022-Kijas_CV.pdf/)</p>
 
 <!-- pages/projects.md -->
 <div class="projects">
