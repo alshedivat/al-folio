@@ -1,12 +1,18 @@
 ---
-layout: default
+layout: page
 permalink: /presentations/
 title: Presentations
 description:
+years: [2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2004, 2003]
 nav: true
 nav_order: 2
 ---
+<!-- _pages/presentations.md -->
+<div class="presentations">
 
- <script src=" <script src="https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fusers%2F386737%2Fcollections%2F992P57VX%2Fitems%3Fkey%3DTHpZQBGPI9JXMyHBKUSHsMyh%26format%3Dbibtex%26limit%3D100&jsonp=1"></script>
+{%- for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f presentations -q @*[year={{y}}]* %}
+{% endfor %}
 
-<!--Test later https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fusers%2F386737%2Fcollections%2F992P57VX%2Fitems%3Fkey%3DTHpZQBGPI9JXMyHBKUSHsMyh%26format%3Dbibtex%26limit%3D100&jsonp=1&theme=divider&nocache=1&authorFirst=1"-->
+</div>
