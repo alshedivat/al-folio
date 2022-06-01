@@ -2,15 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: This is a selection of my projects.
-profile:
-  align: left
-  image:
-  address: >
-   <hr>
-   <p style="text-align:center"><a href="/2022-Kijas_CV.pdf/">Additional projects can be found in my c.v.</a></p>
-   <hr>
-
+description: This is a selection of my projects. Additional projects are listed in my C.V.
 nav: true
 nav_order: 3
 horizontal: false
