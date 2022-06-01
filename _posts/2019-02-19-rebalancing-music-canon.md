@@ -9,7 +9,7 @@ I'd like to share news about a [project](https://bcdigschol.github.io/rebalancin
 
 There are a number of resources out there that can aid in the creation of this repository, one in particular stood out to me as a good candidate for the first corpus. I reached out to Molly Murdock (Eastman School of Music) and Ben Parsell (St. Olaf College) of [Music Theory Examples by Women](https://musictheoryexamplesbywomen.com/contributors/) and discussed my idea of encoding a small corpus of works by women, what the benefits of this would be, and how the data could be used by other scholars, students, and researchers for a variety of purposes, including rendering the scores from [MEI](https://music-encoding.org/) to HTML using a tool called [Verovio](https://www.verovio.org/index.xhtml).
 
-(insert Music Theory Examples by Women project image)
+`musictheoryexamples.png`
 
 This appealed to them so I got to work by training two of our Boston College Libraries Digital Studio students (Nicolas Sucre and Alben Chingo) over the summer of 2018. They tested a workflow that I put together (currently an internal manual) that provided guidance on how to extract, correct, and encode data from this initial corpus. The testing and workflow has developed into an upcoming publication with [Raffaele Viglianti](https://mith.umd.edu/people/person/raffaele-viglianti/) (MITH) for the [DLF Digital Library Pedagogy Cookbook](https://www.diglib.org/dlfteach-digital-library-pedagogy-cookbook/), which will be shared widely once it is published online.
 
