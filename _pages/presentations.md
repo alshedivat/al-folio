@@ -8,7 +8,7 @@ nav: true
 nav_order: 2
 ---
 <!-- _pages/presentations.md -->
-<div class="presentations">
+<div class="publications">
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
