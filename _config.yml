@@ -84,7 +84,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
+blog_name: Blog # blog_name will be displayed in your blog page
 blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
@@ -204,7 +204,7 @@ scholar:
   last_name: Kijas
   first_name: [Anna E.]
 
-  style: chicago-fullnote-bibliography
+  style: chicago-author-date-16th-edition
   locale: en
 
   source: /_bibliography/
