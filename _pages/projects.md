@@ -8,7 +8,7 @@ nav_order: 3
 horizontal: false
 ---
 
-This is a selection of my projects. Additional projects are listed in [my C.V.](/2022-Kijas_CV.pdf).
+This is a selection of my projects. Additional projects are listed in [my C.V.](2022-Kijas_CV.pdf).
 
 
 <!-- pages/projects.md -->
