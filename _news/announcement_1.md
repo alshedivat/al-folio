@@ -1,7 +1,6 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-06-01 12:22:00-0400
 inline: true
 ---
-
-A simple inline announcement.
+My first website is going life. Wup Wup. ✨ 😄
