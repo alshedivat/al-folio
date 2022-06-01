@@ -8,7 +8,8 @@ nav_order: 3
 horizontal: false
 ---
 
-This is a selection of my projects. Additional projects are listed in <a href="/assets/pdf/2022-Kijas_CV.pdf/">my C.V.</a>
+This is a selection of my projects. Additional projects are listed in [my C.V.](assets/pdf/2022-Kijas_CV.pdf).
+
 
 <!-- pages/projects.md -->
 <div class="projects">
