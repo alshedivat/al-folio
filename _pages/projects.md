@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /projects/
 title: Projects
+permalink: /projects/
 description: This is a selection of my projects. Additional projects can be viewed on my [C.V.](https://docs.google.com/document/d/1TYPEJx-pEsAjISva_ByyiJwoQzAAybC4Zx8VXf5JqNw/edit?usp=sharing)
 nav: true
 nav_order: 3
