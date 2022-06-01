@@ -74,6 +74,15 @@
               {%- endif -%}
               {% endfor -%}
 
+              <!-- Projects -->
+              <li class="nav-item {% if page.url contains 'projects' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/projects' | relative_url }}">{{ p.title }}
+                  {%- if page.url contains 'projects' -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
+
               {% if site.blog_nav_title %}
               <!-- Blog -->
               <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
@@ -84,7 +93,7 @@
                 </a>
               </li>
               {%- endif %}
-              
+
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->
