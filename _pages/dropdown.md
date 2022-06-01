@@ -9,3 +9,5 @@ children:
     - title: divider
     - title: Projects
       permalink: /projects/
+    - title: C.V.
+      permalink: /2022-Kijas_CV.pdf/

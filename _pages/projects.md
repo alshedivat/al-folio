@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: This is a selection of my projects. Additional projects can be viewed in my C.V. 
+description: This is a selection of my projects. Additional projects can be viewed in my <a href="/2022-Kijas_CV.pdf/">my c.v.</a>
 nav: true
 nav_order: 3
 horizontal: false
