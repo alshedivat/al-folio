@@ -8,7 +8,7 @@ nav: true
 nav_order: 1
 ---
 
-Full list of publications can be found in <a href="https://annakijas1.github.io/2022-Kijas_CV.pdf/">my C.V.</a>.
+Full list of publications can be found in <a href="/assets/pdf/2022-Kijas_CV.pdf/">my C.V.</a>
 
 
 <!-- _pages/publications.md -->
