@@ -62,6 +62,9 @@ layout: default
                             {% if content.title %}
                             <h6 class="title font-weight-bold ml-1 ml-md-4">{{content.title}}</h6>
                             {% endif %}
+                            {% if content.institution %}
+                            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{content.institution}}</h6>
+                            {% endif %}
                             {% if content.description %}
                               <ul class="items">
                                 {% for item in content.description %}
