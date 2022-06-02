@@ -11,7 +11,8 @@
 - title: Education
   type: table
   contents:
-    - title: PhD, University of Zurich, Zurich, Switzerland
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
       year: 1905
       description:
         - Description 1.
@@ -20,7 +21,8 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma, Eidgenössische Technische Hochschule, Zurich, Switzerland
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
       year: 1900
       description:
         - Description 1.
@@ -29,7 +31,8 @@
 - title: Experience
   type: table
   contents:
-    - title: Professor of Theoretical Physics, Institute for Advanced Study, Princeton University
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
       year: 1933 - 1955
       description:
         - Description 1.
@@ -38,20 +41,24 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor, California Institute of Technology, Pasadena, California, US
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
       year: 1933
       description:
         - Description 1.
         - Description 2.
 
-    - title: Director, Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
       year: 1917-1933
 
-    - title: Professor of Theoretical Physics, Karl-Ferdinand University, Prague, Czechoslovakia
+    - title: Professor of Theoretical Physics
+      institution: Karl-Ferdinand University, Prague, Czechoslovakia
       year: 1911 - 1917
       description:
 
-    - title: Associate Professor of Theoretical Physics, University of Zurich, Zurich, Switzerland
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
 
 - title: Open Source Projects
