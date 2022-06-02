@@ -1,6 +1,6 @@
 # al-folio
 
-[![build status](https://travis-ci.org/alshedivat/al-folio.svg?branch=master)](https://travis-ci.org/alshedivat/al-folio)
+[![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
 [![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
 [![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://github.com/alshedivat/al-folio/graphs/contributors/)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alshedivat/al-folio)
@@ -67,6 +67,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://K-Wu.github.io" target="_blank">★</a>
 <a href="https://amalawilson.com" target="_blank">★</a>
 <a href="https://tirtharajdash.github.io" target="_blank">★</a>
+<a href="https://carolinacarreira.github.io" target="_blank">★</a>
 </td>
 </tr>
 <tr>
