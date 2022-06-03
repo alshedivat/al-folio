@@ -3,7 +3,7 @@ layout: page
 title: competitive programming
 description: data structures, algorithms & quick problem-solving
 img: assets/img/lspcpc.jpg
-importance: 2
+importance: 1
 category: academic
 ---
 
