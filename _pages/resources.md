@@ -40,3 +40,4 @@ For those interested in additional training resources and comfortably read expla
 * [Evan Chen's articles](https://web.evanchen.cc/olympiad.html)
 * [David Altizio's problems and materials](https://davidaltizio.web.illinois.edu/mathlinks.html)
 * [Canadian IMO Training site](https://sites.google.com/site/imocanada/2021-winter-camp)
+* [Leo's blog](https://blog.nekomath.com/) (Great posts about linear algebra, geometry and much more.)
