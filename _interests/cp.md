@@ -34,8 +34,8 @@ category: academic
       <td>Gold</td>
     </tr>
     <tr>
-      <th scope="row"><b>2021</b></th>
-      <td>Hong Kong Olympiad in Informatics (Senior)</td>
+      <th scope="row"><b>2020</b></th>
+      <td>Hong Kong Olympiad in Informatics (Junior)</td>
       <td>Silver</td>
     </tr>
   </tbody>
