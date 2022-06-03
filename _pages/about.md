@@ -14,8 +14,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hey! I'm Brian, a Form 5 student at La Salle College. My aspiration is to become a neuroscientist; I'm broadly interested in computational neuroscience and neurology.
+Hey! Thanks for stopping by.
 
-Outside neuroscience, I have an eclectic mix of interests ranging from programming to calligraphy. Check them out in the `interests` tab!
+I'm a Form 5 student at La Salle College aspiring to become a neuroscientist. My interests are mainly in cognitive neuroscience, computational neuroscience and neurology.
 
-This website is currently under construction. If you spot an error, please do shoot me a text.
+This website is currently under construction. If you spot an error, please shoot me a text.
