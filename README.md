@@ -141,7 +141,7 @@ Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0
 4. Make changes, commit, and push!
 5. After deployment, the webpage will become available at `<your-github-username>.github.io`.
 
-**For project pages:**
+**For interest pages:**
 1. In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and `baseurl` to `/<your-repository-name>/`.
 2. Set up automatic deployment of your webpage (see instructions below).
 3. Make changes, commit, and push!
@@ -173,7 +173,7 @@ $ bundle exec jekyll build
 which will (re-)generate the static webpage in the `_site/` folder.
 Then simply copy the contents of the `_site/` foder to your hosting server.
 
-**Note:** Make sure to correctly set the `url` and `baseurl` fields in `_config.yml` before building the webpage. If you are deploying your webpage to `your-domain.com/your-project/`, you must set `url: your-domain.com` and `baseurl: /your-project/`. If you are deploing directly to `your-domain.com`, leave `baseurl` blank.
+**Note:** Make sure to correctly set the `url` and `baseurl` fields in `_config.yml` before building the webpage. If you are deploying your webpage to `your-domain.com/your-interest/`, you must set `url: your-domain.com` and `baseurl: /your-interest/`. If you are deploing directly to `your-domain.com`, leave `baseurl` blank.
 
 </details>
 
@@ -251,7 +251,7 @@ If you have a different question, please ask using [Discussions](https://github.
    **A:** Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`.
    Set `url` to `https://<your-github-username>.github.io` or to `https://<your.custom.domain>` if you are using a custom domain.
    If you are deploying a personal or organization website, leave `baseurl` blank.
-   If you are deploying a project page, set `baseurl: /<your-project-name>/`.
+   If you are deploying a interest page, set `baseurl: /<your-interest-name>/`.
 
 4. **Q:** Atom feed doesn't work. Why?
    <br>
@@ -328,14 +328,14 @@ You can implement your own buttons by editing the bib.html file.
 ### Collections
 
 This Jekyll theme implements `collections` to let you break up your work into categories.
-The theme comes with two default collections: `news` and `projects`.
+The theme comes with two default collections: `news` and `interests`.
 Items from the `news` collection are automatically displayed on the home page.
-Items from the `projects` collection are displayed on a responsive grid on projects page.
+Items from the `interests` collection are displayed on a responsive grid on interests page.
 
-<p align="center"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/projects-screenshot.png" width=700></p>
+<p align="center"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/interests-screenshot.png" width=700></p>
 
 You can easily create your own collections, apps, short stories, courses, or whatever your creative work is.
-To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
+To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/interests.md`.
    
 ### Layouts
 
@@ -361,10 +361,10 @@ For more details on how to create distill-styled posts using `<d-*>` tags, pleas
 #### Photos
 
 Photo formatting is made simple using [Bootstrap's grid system](https://getbootstrap.com/docs/4.4/layout/grid/).
-Easily create beautiful grids within your blog posts and project pages:
+Easily create beautiful grids within your blog posts and interest pages:
 
 <p align="center">
-  <a href="https://alshedivat.github.io/al-folio/projects/1_project/">
+  <a href="https://alshedivat.github.io/al-folio/interests/1_interest/">
     <img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/photos-screenshot.png" width="75%">
   </a>
 </p>
