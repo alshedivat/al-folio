@@ -1,16 +1,16 @@
 <div class="card-item col">
-  {%- if project.redirect -%}
-  <a href="{{ project.redirect }}">
+  {%- if interest.redirect -%}
+  <a href="{{ interest.redirect }}">
   {%- else -%}
-  <a href="{{ project.url | relative_url }}">
+  <a href="{{ interest.url | relative_url }}">
   {%- endif -%}
     <div class="card hoverable">
       <div class="row g-0">
-        {%- if project.img -%}
+        {%- if interest.img -%}
         <div class="card-img col-md-6">
           {% responsive_image_block %}
-            path: {{ project.img }}
-            alt: "project thumbnail"
+            path: {{ interest.img }}
+            alt: "interest thumbnail"
           {% endresponsive_image_block %}
         </div>
         <div class="col-md-6">
@@ -18,18 +18,18 @@
         <div class="col-md-12">
         {%- endif -%}
           <div class="card-body">
-            <h3 class="card-title text-lowercase">{{ project.title }}</h3>
-            <p class="card-text">{{ project.description }}</p>
+            <h3 class="card-title text-lowercase">{{ interest.title }}</h3>
+            <p class="card-text">{{ interest.description }}</p>
             <div class="row ml-1 mr-1 p-0">
-              {%- if project.github -%}
+              {%- if interest.github -%}
               <div class="github-icon">
                 <div class="icon" data-toggle="tooltip" title="Code Repository">
-                  <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
+                  <a href="{{ interest.github }}"><i class="fab fa-github gh-icon"></i></a>
                 </div>
-                {%- if project.github_stars -%}
+                {%- if interest.github_stars -%}
                 <span class="stars" data-toggle="tooltip" title="GitHub Stars">
                   <i class="fas fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
+                  <span id="{{ interest.github_stars }}-stars"></span>
                 </span>
                 {%- endif -%}
               </div>
