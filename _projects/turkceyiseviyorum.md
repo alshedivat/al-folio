@@ -1,6 +1,6 @@
 ---
 layout: page
-title: I love Turkish Desktop Game
+title: I Love Turkish Desktop Game
 description: A game app that aims to make people to learn Turkish language and its rules while having fun.
 img: assets/img/turkceyiseviyorum.jpg
 importance: 5
