@@ -14,4 +14,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hey! I'm Brian, a Form 5 student from La Salle College.
+Hey! I'm Brian, a Form 5 student from La Salle College aspiring to become a neuroscientist. 

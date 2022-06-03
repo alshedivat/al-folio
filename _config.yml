@@ -114,9 +114,9 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
+  interests:
     output: true
-    permalink: /projects/:path/
+    permalink: /interests/:path/
 
 news_limit: 5
 

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: interests
+permalink: /interests/
+description: an eclectic, ever-growing list of my interests.
 nav: true
 nav_order: 1
-display_categories: [work, fun]
+display_categories: [academic, casual]
 horizontal: false
 ---
 
