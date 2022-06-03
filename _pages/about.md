@@ -18,4 +18,4 @@ Hey! I'm Brian, a Form 5 student at La Salle College. My aspiration is to become
 
 Outside neuroscience, I have an eclectic mix of interests ranging from programming to calligraphy. Check them out in the `interests` tab!
 
-The website is currently under construction. If you spot an error, please do shoot me a text.
+This website is currently under construction. If you spot an error, please do shoot me a text.
