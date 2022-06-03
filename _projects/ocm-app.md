@@ -29,7 +29,8 @@ sections with similar interests.
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Used **Java** as main language, developed database using **Firebase**. Managed the project using
+**Github**, **Github Projects**.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
