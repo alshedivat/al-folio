@@ -18,4 +18,4 @@ Hey! Thanks for stopping by.
 
 I'm a Form 5 student at La Salle College aspiring to become a neuroscientist. My interests are mainly in cognitive neuroscience, computational neuroscience and neurology.
 
-This website is currently under construction. If you spot an error,<br>please do shoot me a text!
+If you spot an error on this website, please do shoot me a text!
