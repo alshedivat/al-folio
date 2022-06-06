@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Candidate at <a href='https://ucsd.edu/'>University of California, San Diego</a>
+subtitle: Ph.D. in Electrical Engineering (UC San Diego)
 
 profile:
   align: right
@@ -17,7 +17,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a final-year graduate student in the [Department of Electrical and Computer Engineering](https://ece.ucsd.edu/) at [UC San Diego](https://ucsd.edu/), being advised by [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/).
+I received my Ph.D. in [Electrical Engineering](https://ece.ucsd.edu/) from [UC San Diego](https://ucsd.edu/). 
+I was fortunate to be advised by [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/).
 My graduate study was generously supported by the [Kwanjeong scholarship](http://www.ikef.or.kr/).
 
 [//]: <span style="font-weight:bold"><mark>
@@ -28,9 +29,10 @@ I received my B.S. in [Electrical and Computer Engineering](https://ece.snu.ac.k
 
 My research interests lie at the intersection of <b>information theory</b> and <b>machine learning</b>.
 In particular, I am interested in developing fast data-processing algorithms with provable guarantees, using ideas and insights from information theory.
-Research keywords include:
-- low-dimensional embedding, representation learning;
-- nonparameteric methods, nearest-neighbor-based algorithms;
+
+Recent research topics include:
+- representation learning;
+- nonparameteric methods for large-scale data;
 - universal information processing.
 
 Check out my [resume](/resume) for more information.
