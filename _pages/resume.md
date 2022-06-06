@@ -8,10 +8,10 @@ nav: true
 
 ---
 ## education
-- **University of California, San Diego**, Sep. 2015--Jun. 2022.
+- **University of California San Diego**, Sep. 2015--Jun. 2022.
     - Ph.D., Electrical Engineering.
-        - Advisor: [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/), [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/).
-        - Thesis title: ``From Information Theory to Machine Learning Algorithms: A Few Vignettes'' (defended on 06/03/2022.)
+        - Advisors: [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/).
+        - Thesis title: "From Information Theory to Machine Learning Algorithms: A Few Vignettes" (defended on 06/03/2022.)
     - M.S., Electrical Engieering, Dec. 2018.
 - **Seoul National University**, Mar. 2008--Aug. 2015.
     - B.S., Electrical and Computer Engineering.
