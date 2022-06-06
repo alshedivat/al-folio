@@ -8,10 +8,11 @@ nav: true
 
 ---
 ## education
-- **University of California, San Diego**, Sep. 2015--Jun. 2022 (expected)
-    - Ph.D. candidate, Electrical and Computer Engineering.
+- **University of California, San Diego**, Sep. 2015--Jun. 2022.
+    - Ph.D., Electrical Engineering.
         - Advisor: [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/), [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/).
-    - M.S., Electrical and Computer Engieering, Dec. 2018.
+        - Thesis title: ``From Information Theory to Machine Learning Algorithms: A Few Vignettes'' (defended on 06/03/2022.)
+    - M.S., Electrical Engieering, Dec. 2018.
 - **Seoul National University**, Mar. 2008--Aug. 2015.
     - B.S., Electrical and Computer Engineering.
     - B.S., Mathematical Sciences.
@@ -23,9 +24,9 @@ nav: true
 
 ## honors and awards
 - Departmental Fellowship, Department of ECE, UCSD, 2015--2016.
-- Kwanjeong Scholarship [Kwanjeong Educational Foundation](http://en.ikef.or.kr/), 
-    - For Graduate Study (5 years), 2015--2020.
-    - For Undergraduate Study (2 years), 2010--2013.
+- Kwanjeong Scholarship, [Kwanjeong Educational Foundation](http://en.ikef.or.kr/), 
+    - for graduate study (5 years), 2015--2020.
+    - for undergraduate study (2 years), 2010--2013.
 - University Students Contest of Mathematics, Korean Mathematical Society
     - Bronze Prize (2013) (math majors).
     - Gold Prize (2010), Honorable Mention (2009) (non-math majors).
@@ -37,7 +38,7 @@ nav: true
 
 ## reviewer service
 - **Journal**: [JSAIT](https://www.itsoc.org/jsait).
-- **Conference**: ISIT 2017, AISTATS 2022, ICML 2022, NeurIPS 2022.
+- **Conference**: ISIT 2017, AISTATS 2022, ICML 2022, NeurIPS 2022, ITW 2022.
 
 ---
 
