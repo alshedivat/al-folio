@@ -24,15 +24,15 @@ nav: true
 
 ## honors and awards
 - Departmental Fellowship, Department of ECE, UCSD, 2015--2016.
-- Kwanjeong Scholarship, [Kwanjeong Educational Foundation](http://en.ikef.or.kr/), 
+- Kwanjeong Scholarship, [Kwanjeong Educational Foundation](http://en.ikef.or.kr/).
     - for graduate study (5 years), 2015--2020.
     - for undergraduate study (2 years), 2010--2013.
-- University Students Contest of Mathematics, Korean Mathematical Society
+- University Students Contest of Mathematics, Korean Mathematical Society.
     - Bronze Prize (2013) (math majors).
     - Gold Prize (2010), Honorable Mention (2009) (non-math majors).
 
 ## invited talks
-- **From Information Theory to Machine Learning Algorithms: Two Vignettes**
+- **From Information Theory to Machine Learning Algorithms: Two Vignettes**.
     - at the [Signals, Information and Algorithms Laboratory](https://www.rle.mit.edu/sia/), MIT, Cambridge, MA, USA, Mar. 2022.
     - at the [Center for AI and Natural Sciences](http://www.kias.re.kr/sub04/sub04_06.jsp), KIAS, Seoul, South Korea, Mar. 2022. 
 
