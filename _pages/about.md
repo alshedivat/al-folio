@@ -18,8 +18,8 @@ selected_papers: yes # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I received my Ph.D. in [Electrical Engineering](https://ece.ucsd.edu/) from [UC San Diego](https://ucsd.edu/). 
-I was fortunate to be advised by [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/).
+I received my Ph.D. in [Electrical Engineering](https://ece.ucsd.edu/) from [UC San Diego](https://ucsd.edu/), 
+where I was fortunate to be advised by [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/).
 My graduate study was generously supported by the [Kwanjeong scholarship](http://www.ikef.or.kr/).
 
 [//]: <span style="font-weight:bold"><mark>
@@ -28,8 +28,8 @@ My graduate study was generously supported by the [Kwanjeong scholarship](http:/
 
 I received my B.S. in [Electrical and Computer Engineering](https://ece.snu.ac.kr/en) and B.S. in [Mathematical Sciences](https://www.math.snu.ac.kr/) (with minor in [Physics](https://physics.snu.ac.kr/en)) with the highest distinction from [Seoul National University](https://en.snu.ac.kr) in 2015.
 
-My research interests lie at the intersection of <b>information theory</b> and <b>machine learning</b>.
-In particular, I am interested in developing fast data-processing algorithms with provable guarantees, using ideas and insights from information theory.
+In general, I am interested in developing fast <b>machine-learning algorithms</b> with provable guarantees, 
+using insights and tools from <b>information theory</b>.
 
 Recent research topics include:
 - representation learning;
