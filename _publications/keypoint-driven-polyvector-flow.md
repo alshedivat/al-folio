@@ -79,7 +79,8 @@ Line drawing vectorization is a daily task in graphic design, computer animation
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1 no-shadow" src="{{ '/assets/img/paper_vector/pipeline.png' | relative_url }}" alt="pipeline" title="pipeline" data-zoomable/>
+        <iframe src="https://drive.google.com/file/d/1hrXmsBAb8A1s87whfefnJYw2rOszeyu7/preview" width="640" height="360" allow="autoplay"></iframe>
+        <!-- <img class="img-fluid rounded z-depth-1 no-shadow" src="{{ '/assets/img/paper_vector/pipeline.png' | relative_url }}" alt="pipeline" title="pipeline" data-zoomable/> -->
     </div>
 </div>
 ***
