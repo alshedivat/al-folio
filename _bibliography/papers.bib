@@ -1,19 +1,48 @@
 ---
 ---
 
-@article{shib2022word2box,
-  category={main},
-  selected={true},
-  abbr={Long Paper},
-  title={Word2Box: Capturing Set-Theoretic Semantics of Words using Box Embeddings},
-  author={Shib Sankar Dasgupta and Michael Boratko and Siddhartha Mishra and Shriya Atmakuri and Xiang Lorraine Li and Dhruvesh Patel and Andrew McCallum},
-  booktitle={ACL},
-  year={2022},
-  pdf={https://openreview.net/pdf?id=NThz_6MqDuG}
+@misc{https://doi.org/10.48550/arxiv.2204.07705,
+  doi = {10.48550/ARXIV.2204.07705},  
+  url = {https://arxiv.org/abs/2204.07705},
+  author = {Wang, Yizhong and Mishra, Swaroop and Alipoormolabashi, Pegah and Mishra, Siddhartha and others},
+  keywords = {Computation and Language (cs.CL), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Benchmarking Generalization via In-Context Instructions on 1,600+ Language Tasks},
+  publisher = {arXiv},
+  booktitle = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution 4.0 International}, 
+  abstract={How can we measure the generalization of models to a variety of unseen tasks when provided with their language instructions? To facilitate progress in this goal, we introduce Natural-Instructions v2, a benchmark of 1,600+ diverse language tasks and their expert-written instructions. It covers 70+ distinct task types, such as tagging, in-filling, and rewriting. These tasks are collected with contributions of NLP practitioners in the community and through an iterative peer review process to ensure their quality. With this large and diverse collection of tasks, we are able to rigorously benchmark cross-task generalization of models -- training on a subset of tasks and evaluating on the remaining unseen ones. For instance, we quantify generalization as a function of various scaling parameters, such as the number of observed tasks, the number of instances, and model sizes. Based on these insights, we introduce Tk-Instruct, an encoder-decoder Transformer that is trained to follow a variety of in-context instructions (plain language task definitions or k-shot examples) which outperforms existing larger models on our benchmark. We hope this benchmark facilitates future progress toward more general-purpose language understanding models.},
+  code={https://github.com/allenai/natural-instructions},
+  category = {main},
+  abbr = {Preprint},
+  selected = {true}
 }
 
+@inproceedings{dasgupta-etal-2022-word2box,
+    title="{W}ord2{B}ox: Capturing Set-Theoretic Semantics of Words using Box Embeddings",
+    author={Dasgupta, Shib  and
+      Boratko, Michael  and
+      Mishra, Siddhartha  and
+      Atmakuri, Shriya  and
+      Patel, Dhruvesh  and
+      Li, Xiang  and
+      McCallum, Andrew},
+    booktitle = "ACL",
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.161",
+    doi = "10.18653/v1/2022.acl-long.161",
+    pages = "2263--2276",
+    abstract = "Learning representations of words in a continuous space is perhaps the most fundamental task in NLP, however words interact in ways much richer than vector dot product similarity can provide. Many relationships between words can be expressed set-theoretically, for example, adjective-noun compounds (eg. {``}red cars{''}⊆{``}cars{''}) and homographs (eg. {``}tongue{''}∩{``}body{''} should be similar to {``}mouth{''}, while {``}tongue{''}∩{``}language{''} should be similar to {``}dialect{''}) have natural set-theoretic interpretations. Box embeddings are a novel region-based representation which provide the capability to perform these set-theoretic operations. In this work, we provide a fuzzy-set interpretation of box embeddings, and learn box representations of words using a set-theoretic training objective. We demonstrate improved performance on various word similarity tasks, particularly on less common words, and perform a quantitative and qualitative analysis exploring the additional unique expressivity provided by Word2Box.",
+    category={main},
+    abbr={Long Paper},
+    award={Poster},
+    selected={true}
+}
+
+
 @inproceedings{mishra2022clusthypeval,
-  bibtex_show={true},
   selected={true},
   abbr={Long Paper},
   award={Poster},
@@ -22,5 +51,7 @@
   author={Siddhartha Mishra and Nicholas Monath and Michael Boratko and Ari Kobren and Andrew McCallum},
   booktitle={AAAI},
   year={2022},
+  abstract={Abstract: Clustering algorithms are often evaluated using metrics which compare with ground-truth cluster assignments, such as Rand index and NMI. Algorithm performance may vary widely for different hyperparameters, however, and thus model selection based on optimal performance for these metrics is discordant with how these algorithms are applied in practice, where labels are unavailable and tuning is often more art than science. It is therefore desirable to compare clustering algorithms not only on their optimally tuned performance, but also some notion of how realistic it would be to obtain this performance in practice. We propose an evaluation of clustering methods capturing this ease-of-tuning by modeling the expected best clustering score under a given computation budget. To encourage the adoption of the proposed metric alongside classic clustering evaluations, we provide an extensible benchmarking framework. We perform an extensive empirical evaluation of our proposed metric on popular clustering algorithms over a large collection of datasets from different domains, and observe that our new metric leads to several noteworthy observations.},
+  url={https://aaai-2022.virtualchair.net/poster_aaai11084},
   code={https://github.com/mishra-sid/clustering_hyperparameters}
 }
