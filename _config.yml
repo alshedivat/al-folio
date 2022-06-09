@@ -232,7 +232,7 @@ filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, select
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: false
+  enabled: true
   widths:
     - 480
     - 800
