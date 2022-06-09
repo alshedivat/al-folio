@@ -6,7 +6,8 @@ subtitle: <p> MS(Research) @ IIT Dharwad </p>
 profile:
   align: right
   image: Profile_Pic.jpg
-  address : 📄 <a href="/assets/pdf/Jayanth_s_Resume.pdf" download>Resume</a>
+  address : 📄 <a href="/assets/pdf/Jayanth_s_Resume.pdf" target="_blank">Resume</a>
+
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
