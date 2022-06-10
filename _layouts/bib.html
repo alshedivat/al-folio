@@ -38,7 +38,7 @@ layout: default
           
           {% if forloop.length == 1 %}
             {% if author_is_self %}
-              <b>{{author.last}}, {{author.first}}</b>
+              <b><p style="color:purple">{{author.last}}, {{author.first}}</p></b>
             {% else %}
               {{author.last}}, {{author.first}}
             {% endif %}
