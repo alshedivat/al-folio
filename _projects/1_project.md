@@ -13,7 +13,8 @@ The authors in the paper "Model-Free Training of End-to-End Communication System
 
 * The objective was to train the autoencoder such that the decoder is able to detect the transmitted messages that are transmitted through the channel.
 
-* To train the autoencoder, the authors propose an alternating algorithm where the decoder (receiver) and the encoder (transmitter) are trained separatel.
+* To train the autoencoder, the authors propose an alternating algorithm where the decoder (receiver) and the encoder (transmitter) are trained separately.
+  
 * Since the encoder cann't be trained as the channel can be non-differentiable, approximate gradient of loss function is used to train the encoder (transmitter).
 
 #### *Neural Network Architecture:*
@@ -27,6 +28,7 @@ The authors in the paper "Model-Free Training of End-to-End Communication System
 * **Output**: Predict the transmitted symbol using the received symbol.
 
 * **Loss Function**: Categorical cross-entropy
+  
 * **Optimizer**: Adam
 
 * For each training iteration, the receiver and the transmitter are trained alternatively.
