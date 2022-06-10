@@ -14,6 +14,7 @@ nav: false
   <summary>AI EXPERTS</summary>
   
   * [AI EXPERTS LIST](https://turkiye.ai/kaynaklar/gurular/)
+
   - [x] The Singularity Is Near: When Humans Transcend Biology
   - [x] 50 Soruda Yapay Zeka
   - [x] Life 3.0: Being Human in the Age of Artificial Intelligence
