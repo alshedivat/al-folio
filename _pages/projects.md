@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Projects
+permalink: /Projects/
+description: My ever-expanding portfolio of work.
 nav: true
 nav_order: 1
-display_categories: [work, fun]
+display_categories: [Computer Vision, Robotics]
 horizontal: false
 ---
 
