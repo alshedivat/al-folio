@@ -38,7 +38,7 @@ layout: default
           
           {% if forloop.length == 1 %}
             {% if author_is_self %}
-              <b><p <span class="emphasis">{{author.last}}, {{author.first}}</span></p></b>
+              <div class="emphasis">{{author.last}}, {{author.first}}</div>
             {% else %}
               {{author.last}}, {{author.first}}
             {% endif %}
