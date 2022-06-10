@@ -30,8 +30,8 @@ html[data-theme='dark'] {
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #{$MediumPurple-color};
-  --global-hover-color: #{$MediumPurple-color};
+  --global-theme-color: #9370DB; //medium purple
+  --global-hover-color: #9370DB; //medium purple
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
