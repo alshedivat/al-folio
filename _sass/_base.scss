@@ -33,6 +33,7 @@ blockquote {
 
 .emphasis {
   color: var(--global-theme-color);
+  font-weight: bolder;
 }
 
 // Math
@@ -433,6 +434,7 @@ footer.sticky-bottom {
         }
       }
       .title {
+        color: var(--global-theme-color);
         font-weight: bolder;
       }
       .author {
