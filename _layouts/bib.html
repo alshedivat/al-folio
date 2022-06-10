@@ -45,7 +45,7 @@ layout: default
           {% else %}
             {% unless forloop.last %}
               {% if author_is_self %}
-                <b>{{author.last}}, {{author.first}}</b>,
+                <div class="emphasis">{{author.last}}, {{author.first}}</div>,
               {% else %}
                 {% if coauthor_url %}
                   <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>,
@@ -55,7 +55,7 @@ layout: default
               {% endif %}
             {% else %}
               {% if author_is_self %}
-                and <b>{{author.last}}, {{author.first}}</b>
+                and <div class="emphasis">{{author.last}}, {{author.first}}</div>
               {% else %}
                 {% if coauthor_url %}
                   and <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>
