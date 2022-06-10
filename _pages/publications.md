@@ -5,6 +5,7 @@ title: Publications
 description: 
 years: [2022, 2020, 2019, 2018, 2014]
 nav: true
+nav_order: 2
 ---
 
 <div class="publications">
