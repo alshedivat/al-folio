@@ -44,7 +44,7 @@ After draw lines() returns the desired output, I rerun the pipelines on the inpu
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" align="center">
-        {% include figure.html path="assets\img\basic_lane_lines\solidWhiteCurve.jpg" title="Output Example" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/basic_lane_lines/solidWhiteCurve.jpg" title="Output Example" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -55,7 +55,7 @@ If I combine all of the input photographs, it will appear like this.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" align="center">
-        {% include figure.html path="assets\img\basic_lane_lines\all_images.png" title="All Output" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/basic_lane_lines/all_images.png" title="All Output" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
