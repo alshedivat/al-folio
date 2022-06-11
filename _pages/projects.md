@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-permalink: /Projects/
+permalink: /projects/
 description: My ever-expanding portfolio of work.
 nav: true
 nav_order: 1

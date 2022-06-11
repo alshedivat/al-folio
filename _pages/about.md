@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpeg
   address: >
-    <p align="right">
+    <p align="center">
        <i class="fas fa-map-marker-alt"></i> Located in Singapore
     </p>
 
@@ -18,7 +18,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 <a href="/assets/pdf/resume.pdf" title="Resume"><i class="fas fa-file-alt"></i> Resume</a> || 
-<a href="/Projects" title="Projects"><i class="fas fa-file-alt"></i> Projects</a>
+<a href="/projects" title="Projects"><i class="fas fa-file-alt"></i> Projects</a>
 
 
 *Hi folks!*  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20px">
