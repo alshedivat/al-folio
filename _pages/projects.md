@@ -4,6 +4,7 @@ title: projects
 permalink: /projects/
 description: 
 nav: true
+nav_order: 1
 display_categories: [work, fun]
 horizontal: false
 ---
@@ -17,20 +18,19 @@ horizontal: false
   {%- assign categorized_projects = site.projects | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
-<!--   {% if page.horizontal -%} -->
+   {% if page.horizontal -%}
 
-<!--     {%- for project in sorted_projects -%} -->
-<!--       {% include projects_horizontal.html %} -->
-<!--     {%- endfor %} -->
-    
+     {%- for project in sorted_projects -%}
+       {% include projects_horizontal.html %} 
+     {%- endfor %} 
 <!--   </div> -->
-<!--   {%- else -%} -->
+  {%- else -%}
 
     {%- for project in sorted_projects -%}
       {% include projects.html %}
     {%- endfor %}
 
-<!--   {%- endif -%} -->
+  {%- endif -%}
   {% endfor %}
 
 {%- else -%}
