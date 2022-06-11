@@ -2,7 +2,7 @@
 layout: page
 title: Basic Lane Line Detection
 description: Implementing Python and OpenCV to detect lane lines
-img: assets\img\basic_lane_lines\whiteCarLaneSwitch.jpg
+img: assets/img/basic_lane_lines/whiteCarLaneSwitch.jpg
 importance: 1
 category: Computer Vision
 github: https://github.com/evanfebrianto/FindingLaneLines
