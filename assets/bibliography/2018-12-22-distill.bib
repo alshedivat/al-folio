@@ -1,7 +1,50 @@
-@article{gregor2015draw,
-  title={DRAW: A recurrent neural network for image generation},
-  author={Gregor, Karol and Danihelka, Ivo and Graves, Alex and Rezende, Danilo Jimenez and Wierstra, Daan},
-  journal={arXiv preprint, arXiv:1502.04623},
-  year={2015},
-  url={https://arxiv.org/pdf/1502.04623.pdf}
+@article{AoI_Gagan,  
+	abbr 		= {PAPER},
+	author		= {B, Gagan G and S, Jayanth and Bhat, Rajshekhar V},   
+        title		= {Age of Information Minimization with Power and Distortion Constraints in Multiple Access Channels},   
+	abstract	= "{Emerging fifth generation and beyond networks are expected to deliver accurate information as fresh as possible. In this work, we consider a wireless fading multiple access channel, where M users communicate to a base station (BS) in a time-slotted system. Each user can sample an information packet in any slot of interest, compress it to a finite number of bits and then transmit the compressed packet to the BS. The compression and transmission result in distortion and power consumption, respectively. Using the age of information (AoI) metric for quantifying freshness of information, we consider minimization of a long-term weighted average AoI across the users, subject to average power and distortion constraints at each user, for obtaining the number of bits to be transmitted by a user in a given slot. We cast the problem as a constrained Markov decision process (CMDP) and solve it via Lagrange relaxation. We show that a threshold-type policy is optimal for the relaxed problem. We also propose a convex optimization problem to obtain a suboptimal but simpler stationary randomized policy, whose minimum achievable average AoI is within twice that of the optimal policy. Via numerical simulations, we illustrate the threshold structure of the CMDP based solution and study variation of the average AoIs achieved by the proposed policies when the bounds on the average power and distortion constraints are varied.}",  
+        journal		= "{IEEE Wiopt}",  
+	pages		= {1-7}, 
+	year		= {2021},   
+	month		= {Oct},
+        doi		= {10.23919/WiOpt52861.2021.9589875},
+	url		= {https://ieeexplore.ieee.org/document/9589875}
+	}
+
+@INPROCEEDINGS{Bhat2205:Age,
+AUTHOR="Jayanth S and Rajshekhar Vishweshwar Bhat",
+TITLE="Age of Processed Information Minimization over Fading Multiple Access
+Channels",
+BOOKTITLE="2022 IEEE International Conference on Communications (ICC): Wireless
+Communications Symposium (IEEE ICC'22 - WC Symposium)",
+ADDRESS="Seoul, Korea (South)",
+DAYS=15,
+MONTH=may,
+YEAR=2022,
+ABSTRACT="In many real-time applications, timely accessibility
+to actionable insights, usually obtained by processing raw status
+updates, is an important requirement. In this paper, we consider
+users equipped with sensors and actuators. The sensors of a user
+generate status updates which need to be processed for driving
+the actuators of the user. The processing task of a user can be
+carried out locally or it can be offloaded to an edge server, located
+at a common base station (BS). The users access the BS via a
+fading multiple access channel using a non-orthogonal multiple
+access technique. To measure the timeliness of processed information, we
+adopt a metric called age of processed information
+(AoPI), defined as the time elapsed since the generation of last
+successfully processed packet available at the user. In this setting,
+we formulate a problem for minimizing a long-term average
+AoPI across the users, when the users are subjected to average
+power constraints. The BS has to decide when a user should
+generate a status update and whether it should be processed
+locally or at the edge server. We cast the problem as a constrained
+Markov decision process (CMDP) and obtain the optimal policy
+via Lagrange relaxation. We derive several structural properties
+of the policy. We also obtain a simpler but suboptimal policy
+via Lyapunov optimization and bound its performance. Using
+numerical simulations, we demonstrate the threshold structure
+of CMDP based solution and study behavior of the average AoPI
+under different policies when problem parameters are varied."
 }
+
