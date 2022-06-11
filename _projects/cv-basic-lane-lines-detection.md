@@ -8,20 +8,15 @@ category: Computer Vision
 
 ---
 
-## Description
+<!-- VIDEO LINKS
+https://youtu.be/zbxr5MJNSU8 "Solid White Video Output"
+https://youtu.be/vj48U4v-hig "Solid Yellow Video Output"
+https://youtu.be/VJY4PSqq33M "Challenge Video Output"
+ -->
 
-### This program is used to detect land lines using standard openCV library such as canny edge detection as well as Hough lines transformation. By implementing region of interest on top of that, you are able to eliminate unnecessary information on the image.
+This program is used to detect lane lines using standard openCV library such as canny edge detection as well as Hough lines transformation. By implementing region of interest on top of that, you are able to eliminate unnecessary information on the image.
 
-
-[//]: # (Image References)
-
-[image1]: assets/img/basic_lane_lines/test_images_output/slopes_distribution.png "Slopes Distribution"
-[image2]: assets\img\basic_lane_lines\test_images_output\solidWhiteCurve.jpg "Output Example"
-[image3]: assets\img\basic_lane_lines\test_images_output\all_images.png "All Output"
-
----
-
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+#### **Pipeline**
 
 My pipeline consisted of 5 steps. Below are the details:
 * Converting image from 3 color spaces to grayscale
@@ -66,6 +61,32 @@ If I put all the input images together, it will look like this
 <div class="caption">
     All Output
 </div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://youtu.be/zbxr5MJNSU8" title="Video Output">
+            <img src="../../../assets/img/basic_lane_lines/out_white.png" alt="Alternate Text" />
+        </a>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://youtu.be/zbxr5MJNSU8" title="Video Output">
+            <img src="../../../assets/img/basic_lane_lines/out_white.png" alt="Alternate Text" />
+        </a>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://youtu.be/zbxr5MJNSU8" title="Video Output">
+            <img src="../../../assets/img/basic_lane_lines/out_white.png" alt="Alternate Text" />
+        </a>
+    </div>
+</div>
+<div class="caption">
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
+
+
+
+
+<!-- [![Test Video](/../../../assets/img/basic_lane_lines/test_images_output/solidWhiteRight.jpg)](https://youtu.be/zbxr5MJNSU8 "Video Output") -->
 
 After applying the pipelines to the video input, I managed to get satifying results on the solidWhiteRight.mp4 and solidYellowLeft.mp4. However, I am still struggling on how to optimize the pipeline so that it works for the challenge.mp4 as well
 

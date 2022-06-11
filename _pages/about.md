@@ -8,14 +8,20 @@ profile:
   align: right
   image: prof_pic.jpeg
   address: >
-    <p align="right">Located in Singapore</p>
+    <p align="right">
+       <i class="fas fa-map-marker-alt"></i> Located in Singapore
+    </p>
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-*Hi folks! 👋*
+<a href="/assets/pdf/resume.pdf" title="Resume"><i class="fas fa-file-alt"></i> Resume</a> || 
+<a href="/Projects" title="Projects"><i class="fas fa-file-alt"></i> Projects</a>
+
+
+*Hi folks!*  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20px">
 
 My name is Evan Febrianto and I am a tech-addict.
 
