@@ -18,7 +18,7 @@ I am a 2nd year [Computer Science PhD student](https://www.cs.umd.edu/people/nja
 
 Prior to UMD, I graduated from [Williams College](https://www.williams.edu/) in 2019 with Honors in Mathematics. At Williams, I wrote my thesis on graph theory under [Professor Pamela Harris](https://www.pamelaeharris.com/), which lead to a publication in Graphs and Combinatorics. After Williams, I worked as a Data Scientist for [Booz Allen Hamilton](https://www.boozallen.com/), where I worked on projects of various topics including math modeling and machine learning.
 
-In my spare time, I enjoy hiking, playing sports, cooking, baking, and so much more.
+In my spare time, I enjoy hiking, playing sports, cooking, baking, and board games.
 
 <!-- I am the current TA for CMSC 320 Intro to Data Science. My office hours are listed on the [course website](https://cmsc320.github.io/). -->
 
