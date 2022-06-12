@@ -19,7 +19,7 @@ lang: ko # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://4ppreciator.github.io
-baseurl: /blog
+baseurl: 
 last_updated: true
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
