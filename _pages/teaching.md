@@ -4,6 +4,7 @@ permalink: /teaching/
 title: Teaching
 description: teaching experience
 nav: true
+nav_order: 2
 ---
 
 **Teaching assitant duties** at *City University of Hong Kong*.
