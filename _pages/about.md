@@ -28,7 +28,7 @@ Giulia is generally interested in the intersection of High-Performance Computing
 
 <!--Currently, she is developing a novel algorithm for de novo assembly of genomes in distributed memory using long-read sequencing data and sparse matrix abstraction as part of the [ExaBiome](https://sites.google.com/lbl.gov/exabiome) project.-->
 
-Here are a recent **[CV](https://drive.google.com/file/d/1DmJgPIFg6S-B0bqvqWFUmrmk6czYVmy5/view?usp=sharing)** (April 2022) and the Tl;dr version of my **[Research Statement](https://drive.google.com/file/d/1_HVC4HkkyBMqUx8AiTHeyjgwlSdYG3j6/view?usp=sharing)**.
+Here are a recent **[CV](https://drive.google.com/file/d/1DmJgPIFg6S-B0bqvqWFUmrmk6czYVmy5/view?usp=sharing)** (June 2022) and the Tl;dr version of my **[Research Statement](https://drive.google.com/file/d/1_HVC4HkkyBMqUx8AiTHeyjgwlSdYG3j6/view?usp=sharing)**.
 
 **I am recruiting PhD students for the 2023/24 Academic Year.** The best way to contact me is via **email**: gguidi at berkeley dot edu.
 
