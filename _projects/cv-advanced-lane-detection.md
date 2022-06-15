@@ -53,7 +53,7 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 After obtaining the matrix for the camera distortion correction, I performed the cv2.undistort() function to each image so that I could show this step. The following is an illustration of what one of the test photographs looks like after I have applied the distortion correction:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" align="center">
-        {% include figure.html path="./../../../assets/img/advanced_lane_lines/undistorted_test2.jpg" title="Transformed Frame" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./../../../assets/img/advanced_lane_lines/undistorted_test2.jpg" title="Transformed Frame" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -66,7 +66,7 @@ First, I explored all possible color spaces to all images to isolate yellow line
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" align="center">
-        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/01-original.png" title="Original color space from the camera frame" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/01-original.png" title="Original color space from the camera frame" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -75,7 +75,7 @@ First, I explored all possible color spaces to all images to isolate yellow line
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" align="center">
-        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/02-rgb.png" title="Each channel for RGB color space" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/02-rgb.png" title="Each channel for RGB color space" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -84,7 +84,7 @@ First, I explored all possible color spaces to all images to isolate yellow line
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" align="center">
-        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/03-hsv.png" title="Each channel for HSV color space" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/03-hsv.png" title="Each channel for HSV color space" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -93,7 +93,7 @@ First, I explored all possible color spaces to all images to isolate yellow line
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" align="center">
-        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/04-hls.png" title="Each channel for HLS color space" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/04-hls.png" title="Each channel for HLS color space" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -102,7 +102,7 @@ First, I explored all possible color spaces to all images to isolate yellow line
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" align="center">
-        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/05-yuv.png" title="Each channel for YUV color space" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/05-yuv.png" title="Each channel for YUV color space" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -111,7 +111,7 @@ First, I explored all possible color spaces to all images to isolate yellow line
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" align="center">
-        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/06-luv.png" title="Each channel for LUV color space" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/06-luv.png" title="Each channel for LUV color space" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -120,7 +120,7 @@ First, I explored all possible color spaces to all images to isolate yellow line
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" align="center">
-        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/07-lab.png" title="Each channel for LUV color space" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/07-lab.png" title="Each channel for LUV color space" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -129,7 +129,7 @@ First, I explored all possible color spaces to all images to isolate yellow line
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" align="center">
-        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/08-xyz.png" title="Each channel for XYZ color space" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/08-xyz.png" title="Each channel for XYZ color space" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -140,7 +140,7 @@ Based on those images, I decided to compare several options for yellow and white
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" align="center">
-        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/09-yellow-options.png" title="Color space comparison for yellow line" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/09-yellow-options.png" title="Color space comparison for yellow line" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -149,7 +149,7 @@ Based on those images, I decided to compare several options for yellow and white
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" align="center">
-        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/10-white-options.png" title="Color space comparison for white line" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/10-white-options.png" title="Color space comparison for white line" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -159,7 +159,7 @@ Based on those images, I decided to compare several options for yellow and white
 I used B channel from LAB color space to isolate yellow line and S channel from HLS to isolate white color. After applying color thresholding for yellow color, I applied sobel x gradient to detect white lines. Combining them is the final step. Below is the visualitation of thresholding contribution after applying to all test images. Green color is to detect yellow line and blue color is to detect white line. The right side is combined binary threshold.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" align="center">
-        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/11-combined-threshold.png" title="Color threshold" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./../../../assets/img/advanced_lane_lines/color_spaces/11-combined-threshold.png" title="Color threshold" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -216,7 +216,7 @@ I verified that my perspective transform was working as expected by drawing the 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" align="center">
-        {% include figure.html path="./../../../assets/img/advanced_lane_lines/perspective_transform/01-birds-eye-view.png" title="Bird's eye view" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./../../../assets/img/advanced_lane_lines/perspective_transform/01-birds-eye-view.png" title="Bird's eye view" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -231,10 +231,10 @@ I created `sliding_window_fit()` and `polyfit_tracking()` to identify lane lines
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0" align="center">
-        {% include figure.html path="./../../../assets/img/advanced_lane_lines/polyfit/01-sliding-window.png" title="Sliding Window" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./../../../assets/img/advanced_lane_lines/polyfit/01-sliding-window.png" title="Sliding Window" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0" align="center">
-        {% include figure.html path="./../../../assets/img/advanced_lane_lines/polyfit/02-polyfit-tracking.png" title="Polyfit Tracking" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./../../../assets/img/advanced_lane_lines/polyfit/02-polyfit-tracking.png" title="Polyfit Tracking" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -274,7 +274,7 @@ Here's an example of my output from a test image:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" align="center">
-        {% include figure.html path="./../../../assets/img/advanced_lane_lines/perspective_transform/03-invert-back.png" title="Invert back" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./../../../assets/img/advanced_lane_lines/perspective_transform/03-invert-back.png" title="Invert back" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
