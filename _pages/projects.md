@@ -5,7 +5,7 @@ permalink: /projects/
 description: My ever-expanding portfolio of work.
 nav: true
 nav_order: 1
-display_categories: [Computer Vision, Robotics]
+display_categories: [Computer Vision, Self-Driving Cars, Robotics]
 horizontal: false
 ---
 

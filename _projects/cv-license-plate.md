@@ -4,7 +4,7 @@ title: License Plate Recognition
 description: Plate recognition using simple kNN in Python and OpenCV
 img: assets/img/license_plate/thumbnail.jpg
 github: https://github.com/evanfebrianto/Licence-Plate-Recognition/tree/master/OpenCV_3_License_Plate_Recognition_Cpp-master
-importance: 13
+importance: cv-99
 category: Computer Vision
 ---
 

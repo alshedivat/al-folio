@@ -3,8 +3,8 @@ layout: page
 title: Advanced Lane Lines Detection
 description: Advanced lane lines detection using OpenCV
 img: assets/img/advanced_lane_lines/project_thumbnail.png
-importance: 2
-category: Computer Vision
+importance: sdc-98
+category: Self-Driving Cars
 github: https://github.com/evanfebrianto/AdvancedLaneLines
 ---
 

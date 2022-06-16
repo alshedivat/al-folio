@@ -93,7 +93,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname:  # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -145,6 +145,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - test_resize.ipynb
+  - webp_add.py
+  - webp_remove.py
 keep_files:
   - CNAME
   - .nojekyll
