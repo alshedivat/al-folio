@@ -1,3 +1,44 @@
+@article{submitted_MARI,
+  abbr      = {Comput. Stat.},
+  author    = {Martina Sundqvist and Julien Chiquet and Guillem Rigaill},
+  title     = {Adjusting the adjusted Rand Index - A multinomial story},
+  journal   = {Computational Statistics},
+  doi       = {10.1007/s00180-022-01230-7},
+  year      = {2022},
+  arxiv     = {2011.08708},
+  code      = {https://github.com/jchiquet/aricode},
+  abstract  = {The Adjusted Rand Index (ARI) is arguably one of the
+                  most popular measures for cluster comparison. The
+                  adjustment of the ARI is based on a hypergeometric
+                  distribution assumption which is not satisfactory
+                  from a modeling point of view because (i) it is not
+                  appropriate when the two clusterings are dependent,
+                  (ii) it forces the size of the clusters, and (iii)
+                  it ignores the randomness of the sampling. In this
+                  work, we present a new "modified" version of the
+                  Rand Index. First, as in Russell et al. (J Malar
+                  Inst India 3(1), 1940 ), we consider only the pairs
+                  consistent by similarity and ignore the pairs
+                  consistent by difference to define the MRI. Second,
+                  we base the adjusted version, called MARI, on a
+                  multinomial distribution instead of a hypergeometric
+                  distribution. The multinomial model is advantageous
+                  because it does not force the size of the clusters,
+                  correctly models randomness and is easily extended
+                  to the dependent case. We show that ARI is biased
+                  under the multinomial model and that the difference
+                  between ARI and MARI can be significant for small n
+                  but essentially vanishes for large n, where n is the
+                  number of individuals. Finally, we provide an
+                  efficient algorithm to compute all these quantities
+                  ((A)RI and M(A)RI) based on a sparse representation
+                  of the contingency table in our aricode package. The
+                  space and time complexity is linear with respect to
+                  the number of samples and, more importantly, does
+                  not depend on the number of clusters as we do not
+                  explicitly compute the contingency table.}
+}
+
 @incollection{DUBART2021367,
  ABBR =         {Adv. Ecol. Res.},
 title = {Chapter Nine - Coupling ecological network analysis with high-throughput sequencing-based surveys: Lessons from the next-generation biomonitoring project},
