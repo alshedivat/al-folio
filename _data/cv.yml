@@ -68,38 +68,33 @@
       year: 2018 - 2020
       description:
         - 'Undergraduate level: Introduction to Microeconomics, Introduction to Macroeconomics.'
+    
+    - title: Associate Instructor
+      institution: Universidad San Martín de Porres, Lima, Perú
+      year: 2017 - 2018
+      description:
+        - 'Undergraduate level: Time Series Econometrics, Mathematics for Economists, Microeconomics II.'
+    
+    - title: Associate Instructor
+      institution: Universidad del Pacífico, Lima, Perú
+      year: 2017 
+      description:
+        - 'Undergraduate level: Econometrics I.'
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Teaching Assistant
+      institution: Universidad del Pacífico, Lima, Perú
+      year: 2011 - 2016 
+      description:
+        - 'Graduate level: Advanced Macroeconomics I.'
+        - 'Undergraduate level: Econometrics I, Mathematics IV, Macroeconomics III, Macroeconomics I, Mathematics III.'
 
-- title: Honors and Awards
-  type: time_table
+- title: Academic Presentations
+  type: list
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+      - Macro Brown Bag, Indiana University, Bloomington (2022-2021). Hoosier Economics Conference, Indiana University, Bloomington (2021). Macro Brown Bag, Indiana University, Bloomington (2020). CIES Annual Research Seminar, Lima, Perú (2015). Central Reserve Bank of Peru Annual Meeting, Lima, Perú (2015). Peruvian Economics Association Annual Meeting, Lima, Perú (2015).
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - '<b>Sports</b>: cycling, hiking, soccer.'
+    - '<b>Hobbies</b>: grilling, music, movies, video games.'
