@@ -11,7 +11,7 @@ Firstly, remember that we are all cosmic specks of dust - we do, and yet, do not
 
 {% twitter https://twitter.com/neiltyson/status/1511364412283789317 %}
 
-Coinbase, BlockFi, http://Crypto.com, Gemini, Mercado Bitcoin, Bitso, and more have announced layoffs. Actions speak louder than words - these companies are all signaling that we should be bracing for (crypto) recession and winter. While it already feels painful, it seems like we are still in the early innings and there is more to drop from here. I joked about 3 digit ETH, but should we be thinking about 2 digit ETH?!
+Coinbase, BlockFi, Crypto.com, Gemini, Mercado Bitcoin, Bitso, and more have announced layoffs. Actions speak louder than words - these companies are all signaling that we should be bracing for (crypto) recession and winter. While it already feels painful, it seems like we are still in the early innings and there is more to drop from here. I joked about 3 digit ETH, but should we be thinking about 2 digit ETH?!
 
 {% twitter https://twitter.com/limyewjin/status/1536763018771517440 %}
 
