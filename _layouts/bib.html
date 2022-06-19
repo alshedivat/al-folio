@@ -2,18 +2,7 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr">
-        {%- if entry.abbr -%}
-          {%- if site.data.venues[entry.abbr] -%}
-          <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
-          {%- else -%}
-          <abbr class="badge">{{entry.abbr}}</abbr>
-          {%- endif -%}
-        {%- endif -%}
-        </div>
-
-        <!-- Entry bib key -->
-        <div id="{{entry.key}}" class="col-sm-8">
+        <div id="{{entry.key}}" class="col-sm-10">
         {% if entry.type == "thesis" -%}
           {{reference}}
         {%- else %}
@@ -103,6 +92,9 @@
           {%- endif %}
           {%- if entry.html %}
             <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          {%- endif %}
+          {%- if entry.url %}
+            <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">URL</a>
           {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
