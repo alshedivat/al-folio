@@ -5,11 +5,13 @@ title: This too shall pass
 date: 2022-06-18 08:00:00
 description: Crypto Twitter is dead. Long Live Crypto Twitter.
 ---
+Bitcoin fell below $20K and Ethereum broke $1000, and it feels more like the early stages than the later stages of a global recession.
+
 Firstly, remember that we are all cosmic specks of dust - we do, and yet, do not exist in the grand scheme of things.
 
 {% twitter https://twitter.com/neiltyson/status/1511364412283789317 %}
 
-Coinbase, BlockFi, http://Crypto.com, Gemini, Mercado Bitcoin, Bitso, and more have announced layoffs. Actions speak louder than words - these companies are all signaling that we should be bracing for (crypto) recession and winter.
+Coinbase, BlockFi, http://Crypto.com, Gemini, Mercado Bitcoin, Bitso, and more have announced layoffs. Actions speak louder than words - these companies are all signaling that we should be bracing for (crypto) recession and winter. I joked about 3 digit ETH, but should we be thinking about 2 digit ETH?!
 
 {% twitter https://twitter.com/limyewjin/status/1536763018771517440 %}
 
