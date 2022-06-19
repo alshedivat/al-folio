@@ -233,10 +233,7 @@ plugins:
   - jekyll-archives
   - jekyll-email-protect
   - jekyll-feed
-  - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
-  - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-regex-replace
@@ -254,8 +251,14 @@ defaults:
     values:
       sitemap: false
 
-sass:
-  style: compressed
+# -----------------------------------------------------------------------------
+# Jekyll Minifier
+# -----------------------------------------------------------------------------
+
+jekyll-minifier:
+  exclude: ['robots.txt']
+  uglifier_args:
+    harmony: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
@@ -313,54 +316,7 @@ scholar:
   group_by: year
   group_order: descending
 
-# Display different badges withs stats for your publications
-enable_publication_badges:
-  altmetric: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
-  dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
-
-# Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords:
-  [
-    abbr,
-    abstract,
-    additional_info,
-    altmetric,
-    annotation,
-    arxiv,
-    award,
-    award_name,
-    bibtex_show,
-    blog,
-    code,
-    html,
-    pdf,
-    poster,
-    preview,
-    selected,
-    slides,
-    supp,
-    video,
-    website,
-  ]
-
-# Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
-more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
-
-# Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
-enable_publication_thumbnails: true
-
-# -----------------------------------------------------------------------------
-# Jekyll Link Attributes
-# -----------------------------------------------------------------------------
-
-# These are the defaults
-external_links:
-  enabled: true
-  rel: external nofollow noopener
-  target: _blank
-  exclude:
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images

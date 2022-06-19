@@ -1,15 +1,7 @@
 # al-folio
 
-<div align="center">
-
-[![Preview](readme_preview/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
-
-**A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.**
-
----
-
 [![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
-[![Maintainers](https://img.shields.io/badge/maintainers-4-success.svg)](#maintainers)
+[![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
 [![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://github.com/alshedivat/al-folio/graphs/contributors/)
 [![Docker Image Version](https://img.shields.io/docker/v/amirpourmand/al-folio?sort=semver&label=docker%20image&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
 [![Docker Image Size](https://img.shields.io/docker/image-size/amirpourmand/al-folio?sort=date&label=docker%20image%20size&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
@@ -76,73 +68,6 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://amalawilson.com" target="_blank">★</a>
 <a href="https://tirtharajdash.github.io" target="_blank">★</a>
 <a href="https://carolinacarreira.github.io" target="_blank">★</a>
-<a href="https://manandey.github.io" target="_blank">★</a>
-<a href="https://johanneshoerner.github.io" target="_blank">★</a>
-<a href="https://ioannismavromatis.com" target="_blank">★</a>
-<a href="https://taidnguyen.github.io" target="_blank">★</a>
-<a href="https://lbugnon.github.io" target="_blank">★</a>
-<a href="https://joahannes.github.io" target="_blank">★</a>
-<a href="https://dominikstrb.github.io" target="_blank">★</a>
-<a href="https://tylerbarna.com" target="_blank">★</a>
-<a href="https://daviddmc.github.io/" target="_blank">★</a>
-<a href="https://andreaskuster.ch/" target="_blank">★</a>
-<a href="https://ellisbrown.github.io/" target="_blank">★</a>
-<a href="https://noman-bashir.github.io/" target="_blank">★</a>
-<a href="https://djherron.github.io/" target="_blank">★</a>
-<a href="https://rodosingh.github.io/" target="_blank">★</a>
-<a href="https://vdivakar.github.io/" target="_blank">★</a>
-<a href="https://george-gca.github.io/" target="_blank">★</a>
-<a href="https://bashirkazimi.github.io/" target="_blank">★</a>
-<a href="https://dohaison.github.io/" target="_blank">★</a>
-<a href="https://raphaaal.github.io/" target="_blank">★</a>
-<a href="https://varuniyer.info/" target="_blank">★</a>
-<a href="https://yukimasano.github.io/" target="_blank">★</a>
-<a href="https://hashe037.github.io/" target="_blank">★</a>
-<a href="https://wang-boyu.github.io/" target="_blank">★</a>
-<a href="https://qingqingchen.info" target="_blank">★</a>
-<a href="https://bajinsheng.github.io/" target="_blank">★</a>
-<a href="https://www.silviofanzon.com/" target="_blank">★</a>
-<a href="https://kaikaiyao.github.io/" target="_blank">★</a>
-<a href="https://alchemz.github.io/" target="_blank">★</a>
-<a href="https://samadamday.com/" target="_blank">★</a>
-<a href="https://fanpu.io/" target="_blank">★</a>
-<a href="https://abigalekim.github.io/" target="_blank">★</a>
-<a href="https://lucasresck.github.io/" target="_blank">★</a>
-<a href="https://users.wpi.edu/~lfichera/" target="_blank">★</a>
-<a href="https://anmspro.github.io/" target="_blank">★</a>
-<a href="https://berlyne.net/" target="_blank">★</a>
-<a href="https://filippomazzoli.github.io/" target="_blank">★</a>
-<a href="https://www.escontrela.me/" target="_blank">★</a>
-<a href="https://raffaem.github.io/" target="_blank">★</a>
-<a href="https://cbueth.de/" target="_blank">★</a>
-<a href="https://kyleaoman.github.io/" target="_blank">★</a>
-<a href="https://decwest.github.io/" target="_blank">★</a>
-<a href="https://www.jedburkat.com" target="_blank">★</a>
-<a href="https://hrzhang.me" target="_blank">★</a>
-<a href="https://kudhru.github.io/" target="_blank">★</a>
-<a href="https://mbarbetti.github.io/" target="_blank">★</a>
-<a href="https://www.zhivotenko.com/" target="_blank">★</a>
-<a href="https://giordanodaloisio.github.io/" target="_blank">★</a>
-<a href="https://aadityaura.github.io/" target="_blank">★</a>
-<a href="https://abhinav-mehta.github.io/" target="_blank">★</a>
-<a href="https://shubhashisroydipta.com/" target="_blank">★</a>
-<a href="https://astanziola.github.io" target="_blank">★</a>
-<a href="https://tinkerer.in" target="_blank">★</a>
-<a href="https://sam-bieberich.github.io/" target="_blank">★</a>
-<a href="https://afraniomelo.github.io/en/" target="_blank">★</a>
-<a href="https://jonaruthardt.github.io" target="_blank">★</a>
-<a href="https://www.zla.app/" target="_blank">★</a>
-<a href="https://stavros.github.io" target="_blank">★</a>
-<a href="https://ericslyman.com" target="_blank">★</a>
-<a href="https://ztjona.github.io/" target="_blank">★</a>
-<a href="https://chrischoi314.github.io" target="_blank">★</a>
-<a href="https://riccobelli.faculty.polimi.it" target="_blank">★</a>
-<a href="https://kishanved.tech/" target="_blank">★</a>
-<a href="https://abhilesh.github.io/" target="_blank">★</a>
-<a href="https://jackjburnett.github.io/" target="_blank">★</a>
-<a href="https://physics-morris.github.io/" target="_blank">★</a>
-<a href="https://sraf.ir" target="_blank">★</a>
-<a href="https://acad.garywei.dev/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -287,18 +212,43 @@ You can add extra information to a publication, like a PDF file in the [assets/p
 
 [![Publications Preview](readme_preview/publications.png)](https://alshedivat.github.io/al-folio/publications/)
 
----
+<details><summary>(click to expand) <strong>Buttons (through custom bibtex keywords):</strong></summary>
 
+There are several custom bibtex keywords that you can use to affect how the entries are displayed on the webpage:
+   
+- `abbr`: Adds an abbreviation to the left of the entry. You can add links to these by creating a venue.yaml-file in the _data folder and adding entries that match.
+- `abstract`: Adds an "Abs" button that expands a hidden text field when clicked to show the abstract text
+- `arxiv`: Adds a link to the Arxiv website (Note: only add the arxiv identifier here - the link is generated automatically)
+- `bibtex_show`: Adds a "Bib" button that expands a hidden text field with the full bibliography entry
+- `html`: Inserts a "HTML" button redirecting to the user-specified link
+- `pdf`: Adds a "PDF" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+- `supp`: Adds a "Supp" button to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+- `blog`: Adds a "Blog" button redirecting to the specified link
+- `code`: Adds a "Code" button redirecting to the specified link
+- `poster`: Adds a "Poster" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+- `slides`: Adds a "Slides" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+- `website`: Adds a "Website" button redirecting to the specified link
+   
+You can implement your own buttons by editing the bib.html file.
+   
+</details>
+   
 ### Collections
 
 This Jekyll theme implements `collections` to let you break up your work into categories. The theme comes with two default collections: `news` and `projects`. Items from the `news` collection are automatically displayed on the home page. Items from the `projects` collection are displayed on a responsive grid on projects page.
 
 [![Projects Preview](readme_preview/projects.png)](https://alshedivat.github.io/al-folio/projects/)
 
+<<<<<<< HEAD
 You can easily create your own collections, apps, short stories, courses, or whatever your creative work is. To do this, edit the collections in the [\_config.yml](_config.yml) file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
 
 ---
 
+=======
+You can easily create your own collections, apps, short stories, courses, or whatever your creative work is.
+To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
+   
+>>>>>>> 7c9ea769 (merged)
 ### Layouts
 
 **al-folio** comes with stylish layouts for pages and blog posts.
