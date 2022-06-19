@@ -2,7 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 title: Software Tutorial Services LLC # the website title (if blank, full name will be used instead)
+=======
+title: blank # the website title (if blank, full name will be used instead)
+>>>>>>> dc020c649f846b8372584b42d7d01b6ef5126622
 first_name: Software
 middle_name: Tutorial
 last_name: Services
@@ -233,7 +237,7 @@ filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, select
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true
+  enabled: false
   widths:
     - 480
     - 800
