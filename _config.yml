@@ -130,6 +130,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Yew Jin Lim # your blog must have a name for it to show up in the nav bar
+blog_nav_title: yewjin.eth
 blog_description: I reject your reality and substitute my own
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
