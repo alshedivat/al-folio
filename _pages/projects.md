@@ -4,7 +4,6 @@ title: projects
 permalink: /projects/
 description: koleksi project yang dikerjakan.
 nav: true
-nav_order: 1
 display_categories: [work, fun]
 horizontal: false
 ---
