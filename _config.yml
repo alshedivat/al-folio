@@ -6,12 +6,12 @@ title: Andy Wenk # the website title (if blank, full name will be used instead)
 first_name: Andy
 middle_name: 
 last_name: Wenk
-email: contact-andy@family-wenk.de
+email: post@andy-wenk.de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Personal website of Andy Wenk from Hamburg, Germany
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: andywenk, sumcumo, digitalblast
+keywords: andywenk, sumcumo, digitalblast, CTO
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.ico  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -74,7 +74,7 @@ contact_note: >
   Get in touch with me by sending me an email. 
 
 google_analytics: G-K0TB1250EC # your google-analytics ID (format: UA-XXXXXXXXX)
-google_site_verification:  # your google-site-verification ID (Google Search Console)
+google_site_verification:  r_l7npAYPpfg7XREZHkXx3kPCug6F1CnQILCoPX4KOU # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
@@ -84,7 +84,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 blog_name: andy-wenk # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: I write about stuff
+blog_description: I write about stuff I do
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -259,9 +259,9 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
-enable_google_verification: false  # enables google site verification
+enable_google_verification: true  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
