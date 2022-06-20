@@ -1,0 +1,12 @@
+global:
+  last-update: Pembaruan terakhir pada
+  current: saat ini
+  no-news: Sejauh ini tidak ada berita
+  newer: Terbaru
+  older: Terlama
+layout:
+  archive-category: Arsip postingan dalam kategori ini
+  archive-tag: Arsip postingan dalam label ini
+  archive-year: Arsip postingan dalam tahun ini
+  toc: Daftar isi
+  contact-me: Anda bisa menemukan saya pada kontak diatas.

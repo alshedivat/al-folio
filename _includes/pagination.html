@@ -9,7 +9,7 @@
         href="{{ paginator.previous_page_path | relative_url }}"
         tabindex="-1"
         aria-disabled="{{ paginator.previous_page }}"
-        >Newer</a
+        >{% t global.newer %}</a
       >
     </li>
     {%- if paginator.page_trail -%} {% for trail in paginator.page_trail -%}
@@ -26,7 +26,7 @@
       class="page-item {% unless paginator.next_page %}disabled{% endunless %}"
     >
       <a class="page-link" href="{{ paginator.next_page_path | relative_url }}"
-        >Older</a
+        >{% t global.older %}</a
       >
     </li>
   </ul>

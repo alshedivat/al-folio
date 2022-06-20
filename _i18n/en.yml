@@ -1,0 +1,12 @@
+global:
+  last-update: Last updated at
+  current: current
+  no-news: No news so far...
+  newer: Newer
+  older: Older
+layout:
+  archive-category: An archive of posts in this category
+  archive-tag: An archive of posts in this tag
+  archive-year: An archive of posts in this year
+  toc: Table of Content
+  contact-me: Keep in touch with me on social media above

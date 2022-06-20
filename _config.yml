@@ -1,4 +1,4 @@
---- # -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------
 # Site settings
@@ -72,8 +72,6 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
-
-contact_note: Anda bisa menemukan saya pada kontak diatas.
 
 google_analytics: G-76VPHQS6R9 # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification: nd_OYDsgEHkDqo_fjRW5O3duIuN_HdQlOakyin6q82Y # your google-site-verification ID (Google Search Console)
@@ -161,6 +159,7 @@ plugins:
   - jemoji
   - jekyll-strapi
   - jekyll-relative-links
+  - jekyll-multiple-languages-plugin
 
 # Sitemap settings
 defaults:
@@ -233,12 +232,23 @@ imagemagick:
     webp: "-quality 75%"
 
 # -----------------------------------------------------------------------------
-# Jekyll Diagrams
+# Jekyll Multiple Languages Plugin
 # -----------------------------------------------------------------------------
 
-jekyll-diagrams:
-  # configuration, see https://github.com/zhustec/jekyll-diagrams.
-  # feel free to comment out this section if not using jekyll diagrams.
+languages: ["id", "en"]
+
+exclude_from_localizations:
+  [
+    "javascript",
+    "images",
+    "css",
+    "scripts",
+    "favicon.ico",
+    "blog",
+    "bin",
+    "assets",
+    "admin",
+  ]
 
 # -----------------------------------------------------------------------------
 # Optional Features

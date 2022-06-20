@@ -6,8 +6,8 @@
     site.impressum_path -%}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}"
       >Impressum</a
-    >. {%- endif -%} {%- if site.last_updated -%} Pembaruan terakhir: {{ "now" |
-    date: '%B %d, %Y' }}. {%- endif %}
+    >. {%- endif -%} {%- if site.last_updated -%} {% t global.last-update %}: {{
+    "now" | date: '%B %d, %Y' }}. {%- endif %}
   </div>
 </footer>
 {%- else -%}
@@ -18,8 +18,8 @@
     site.impressum_path -%}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}"
       >Impressum</a
-    >. {%- endif -%} {%- if site.last_updated -%} Pembaruan terakhir: {{ "now" |
-    date: '%B %d, %Y' }}. {%- endif %}
+    >. {%- endif -%} {%- if site.last_updated -%}{% t global.last-update %}: {{
+    "now" | date: '%B %d, %Y' }}. {%- endif %}
   </div>
 </footer>
 {%- endif %}

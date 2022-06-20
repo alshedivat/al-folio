@@ -45,7 +45,7 @@
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}"
               >{{ about_title }} {%- if page.permalink == '/' -%}
-              <span class="sr-only">(current)</span>
+              <span class="sr-only">({% t global.current %})</span>
               {%- endif -%}
             </a>
           </li>
@@ -56,7 +56,7 @@
           >
             <a class="nav-link" href="{{ '/blog/' | relative_url }}"
               >{{ site.blog_nav_title }} {%- if page.url contains 'blog' -%}
-              <span class="sr-only">(current)</span>
+              <span class="sr-only">({% t global.current %})</span>
               {%- endif -%}
             </a>
           </li>
@@ -78,7 +78,7 @@
               aria-haspopup="true"
               aria-expanded="false"
               >{{ p.title }} {%- if page.title == p.title -%}
-              <span class="sr-only">(current)</span>
+              <span class="sr-only">({% t global.current %})</span>
               {%- endif -%}
             </a>
             <div
@@ -100,7 +100,7 @@
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
             <a class="nav-link" href="{{ p.url | relative_url }}"
               >{{ p.title }} {%- if page.title == p.title -%}
-              <span class="sr-only">(current)</span>
+              <span class="sr-only">({% t global.current %})</span>
               {%- endif -%}
             </a>
           </li>
