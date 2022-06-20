@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Advanced Lane Lines Detection
-description: Advanced lane lines detection using OpenCV
+description: Python, OpenCV
 img: assets/img/advanced_lane_lines/project_thumbnail.png
 importance: sdc-98
 category: Self-Driving Cars

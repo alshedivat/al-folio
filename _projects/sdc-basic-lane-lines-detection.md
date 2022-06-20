@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Basic Lane Line Detection
-description: Implementing Python and OpenCV to detect lane lines
+description: Python, OpenCV
 img: assets/img/basic_lane_lines/whiteCarLaneSwitch.jpg
 importance: sdc-99
 category: Self-Driving Cars
