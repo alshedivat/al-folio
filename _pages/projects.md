@@ -1,20 +1,28 @@
 ---
-layout: page
-title: projects
-permalink: /projects/
-description: koleksi project yang dikerjakan.
+layout: page-i18n
+title: links.projects
+
+namespace: projects
+
+permalink: /projek
+permalink_en: /projects
+
+description: pages.projects.description
 nav: true
-display_categories: [work, study, fun]
 horizontal: false
 ---
 
 <!-- pages/projects.md -->
 <div class="projects">
-{%- if site.enable_project_categories and page.display_categories %}
+{%- if site.enable_project_categories and site.translations[site.lang].pages.projects.display_categories %}
   <!-- Display categorized projects -->
-  {%- for category in page.display_categories %}
+  {%- for category in site.translations[site.lang].pages.projects.display_categories %}
   <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.projects | where: "category", category -%}
+  {% if site.lang == "id" %}
+  {%- assign categorized_projects =  site.projects | where: "category_id", category -%}
+  {% elsif site.lang == "en" %}
+  {%- assign categorized_projects =  site.projects | where: "category_en", category -%}
+  {% endif %}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}

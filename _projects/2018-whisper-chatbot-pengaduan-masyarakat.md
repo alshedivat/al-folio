@@ -5,7 +5,8 @@ description: Chatbot sarana pengaduan masyarakat kepada pemerintah.
 date: 2018-07-10T04:22:05.959Z
 thumbnail: /assets/uploads/website_whisper_1.png
 importance: 1
-category: study
+category_en: study
+category_id: belajar
 ---
 
 Whisper adalah aplikasi yang saya buat untuk memenuhi syarat dalam menyelesaikan pendidikan S1 saya. Saya merancang sebuah aplikasi chatbot "berbasis aturan" guna menjembatani aspirasi masyarakat yang disimpan dan diregistrasi langsung kepada pemerintah. Aplikasi ini kemudian saya beri nama "Whisper".

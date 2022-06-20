@@ -5,7 +5,8 @@ description: Sebuah aplikasi keselamatan mengemudi kendaraan roda empat
 date: 2017-06-09
 thumbnail: /assets/uploads/smart-car.jpg
 importance: 1
-category: work
+category_en: work
+category_id: pekerjaan
 ---
 
 Pada mata kuliah "Topik Khusus", saya bersama teman sekelas mendapat tugas untuk membuat sebuah project Internet of Things. Saat itu kami merancang sebuah aplikasi yang kami beri nama SmartCar. Aplikasi SmartCar merupakan sebuah aplikasi (sistem) yang dirancang untuk membantu pengendara mobil dalam hal keselamatan mengemudi di jalan raya agar terhindar dari kecelakaan baik skala kecil maupun besar, terhindar dari tindakan kriminal serta memudahkan pengguna lainnya (seperti orang tua, saudara, atau kerabat) untuk memantau keadaan atau kondisi dari mobil yang menjadi obyek dari aplikasi SmartCar. Berikut merupakan gambaran umum dari aplikasi SmartCar.

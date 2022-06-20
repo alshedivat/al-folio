@@ -4,9 +4,19 @@ global:
   no-news: Sejauh ini tidak ada berita
   newer: Terbaru
   older: Terlama
+
 layout:
   archive-category: Arsip postingan dalam kategori ini
   archive-tag: Arsip postingan dalam label ini
   archive-year: Arsip postingan dalam tahun ini
   toc: Daftar isi
   contact-me: Anda bisa menemukan saya pada kontak diatas.
+
+links:
+  about: "intro"
+  projects: "proyek"
+
+pages:
+  projects:
+    description: koleksi project yang dikerjakan.
+    display_categories: [pekerjaan, belajar, iseng]
