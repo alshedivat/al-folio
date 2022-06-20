@@ -50,7 +50,7 @@ Setelah APi aktif, silahkan menuju halaman _credentials_.
 
 ## 7. Membuat _credentials_
 
-Pada halaman _credentials_, klik tombol <i><b>Create Credentials</b></i> kemudian pilih 
+Pada halaman _credentials_, klik tombol <i><b>Create Credentials</b></i> kemudian pilih
 <i><b>Oauth client ID</b></i>.
 
 <img class="img-fluid z-depth-1 my-2" src="/assets/img/blog/2021-12-20-cara_mendapatkan_oauth_2_dari_google/7-membuat-credentials.png" alt="Membuat credentials">
@@ -61,26 +61,26 @@ Selanjutnya adalah mengatur tipe pengguna, pilih _user type_ <i><b>External</b><
 
 <img class="img-fluid z-depth-1 my-2" src="/assets/img/blog/2021-12-20-cara_mendapatkan_oauth_2_dari_google/8-atur-tipe-user.png" alt="Memilih tipe pengguna">
 
-## 9. Mengatur _consent screen_ 
+## 9. Mengatur _consent screen_
 
 _Whoops_ ternyata kita lupa mengatur _consent screen_ dari project yang kita buat. Untuk itu kita atur terlebih _consent screen_ dengan menekan tombol <i><b>Configure Consent Screen</b></i>.
 <img class="img-fluid z-depth-1 my-2" src="/assets/img/blog/2021-12-20-cara_mendapatkan_oauth_2_dari_google/9-atur-user-consent-1.png" alt="Mengatur consent screen 1">
 
-- Isi formulir _App Information_ dan pastikan semua _field_ bertanda bintang __(*)__ diisi. Kemudian klik tombol <i><b>Save and Continue</b></i>.
-<img class="img-fluid z-depth-1 my-2" src="/assets/img/blog/2021-12-20-cara_mendapatkan_oauth_2_dari_google/9-atur-user-consent-2.png" alt="Mengatur consent screen 2">
+- Isi formulir _App Information_ dan pastikan semua _field_ bertanda bintang **(\*)** diisi. Kemudian klik tombol <i><b>Save and Continue</b></i>.
+  <img class="img-fluid z-depth-1 my-2" src="/assets/img/blog/2021-12-20-cara_mendapatkan_oauth_2_dari_google/9-atur-user-consent-2.png" alt="Mengatur consent screen 2">
 
 - Atur _scope_ dari aplikasi dengan klik tombol<i><b>Add or Remove Scope</b></i>.
-<img class="img-fluid z-depth-1 my-2" src="/assets/img/blog/2021-12-20-cara_mendapatkan_oauth_2_dari_google/9-atur-user-consent-3.png" alt="Mengatur consent screen 3">
-Ketik `Google Fit` pada _filter_, centang semua yang ada pada tabel dan klik tombol <i><b>Update</b></i>.
-<img class="img-fluid z-depth-1 my-2" src="/assets/img/blog/2021-12-20-cara_mendapatkan_oauth_2_dari_google/9-atur-user-consent-4.jpg" alt="Mengatur consent screen 4">
-Kemudian klik tombol <i><b>Save and Continue</b></i>.
-<img class="img-fluid z-depth-1 my-2" src="/assets/img/blog/2021-12-20-cara_mendapatkan_oauth_2_dari_google/9-atur-user-consent-5.png" alt="Mengatur consent screen 5">
+  <img class="img-fluid z-depth-1 my-2" src="/assets/img/blog/2021-12-20-cara_mendapatkan_oauth_2_dari_google/9-atur-user-consent-3.png" alt="Mengatur consent screen 3">
+  Ketik `Google Fit` pada _filter_, centang semua yang ada pada tabel dan klik tombol <i><b>Update</b></i>.
+  <img class="img-fluid z-depth-1 my-2" src="/assets/img/blog/2021-12-20-cara_mendapatkan_oauth_2_dari_google/9-atur-user-consent-4.jpg" alt="Mengatur consent screen 4">
+  Kemudian klik tombol <i><b>Save and Continue</b></i>.
+  <img class="img-fluid z-depth-1 my-2" src="/assets/img/blog/2021-12-20-cara_mendapatkan_oauth_2_dari_google/9-atur-user-consent-5.png" alt="Mengatur consent screen 5">
 
 - Tambahkan email pengguna yang digunakan untuk mencoba aplikasi. Kemudian klik tombol <i><b>Save and Continue</b></i>.
-<img class="img-fluid z-depth-1 my-2" src="/assets/img/blog/2021-12-20-cara_mendapatkan_oauth_2_dari_google/9-atur-user-consent-6.png" alt="Mengatur consent screen 6">
+  <img class="img-fluid z-depth-1 my-2" src="/assets/img/blog/2021-12-20-cara_mendapatkan_oauth_2_dari_google/9-atur-user-consent-6.png" alt="Mengatur consent screen 6">
 
 - Cek kembali _summary consent screen_ dari aplikasi yang sudah kita atur.
-<img class="img-fluid z-depth-1 my-2" src="/assets/img/blog/2021-12-20-cara_mendapatkan_oauth_2_dari_google/9-atur-user-consent-7.jpg" alt="Mengatur consent screen 7">
+  <img class="img-fluid z-depth-1 my-2" src="/assets/img/blog/2021-12-20-cara_mendapatkan_oauth_2_dari_google/9-atur-user-consent-7.jpg" alt="Mengatur consent screen 7">
 
 - Kembali lagi ke [langkah 6](#6-buka-halaman-credentials) dan [langkah 7](#7-membuat-credentials)
 

@@ -12,6 +12,7 @@ Pada mata kuliah "Topik Khusus", saya bersama teman sekelas mendapat tugas untuk
 {: .text-justify }
 
 ![Mekanisme kerja Whisper](/assets/uploads/gambaran-umum-smart-car.jpg "Mekanisme kerja SmartCar"){:class="img-fluid rounded z-depth-1"}
+
 <div class="caption">
     Gambaran umum SmartCar
 </div>

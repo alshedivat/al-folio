@@ -3,10 +3,11 @@ layout: default
 ---
 
 <div class="post">
-
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-hashtag fa-sm"></i> {{ page.title }} </h1>
-    <p class="post-description"> an archive of posts with this tag </p>
+    <h1 class="post-title">
+      <i class="fas fa-hashtag fa-sm"></i> {{ page.title }}
+    </h1>
+    <p class="post-description">an archive of posts with this tag</p>
   </header>
 
   <article>
@@ -16,12 +17,13 @@ layout: default
         <tr>
           <th scope="row">{{ post.date | date: "%b %-d, %Y" }}</th>
           <td>
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <a class="post-link" href="{{ post.url | relative_url }}"
+              >{{ post.title }}</a
+            >
           </td>
         </tr>
-      {% endfor %}
+        {% endfor %}
       </table>
     </div>
   </article>
-
 </div>
