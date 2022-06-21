@@ -11,7 +11,7 @@ subtitle: >
 
 profile:
   align: right
-  image: pic1.jpeg
+  image: pic1.jpg
   address:
 
 news: false  # includes a list of news items
