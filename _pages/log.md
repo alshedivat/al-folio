@@ -53,13 +53,13 @@ nav: true
 </details>
   <details>
     <summary markdown="span"> May 2022 </summary>
-    Unaccounted for, sorry. Lost track of things.
+    Unaccounted for, sorry. Lost track of my website.
   </details>
     <details>
   <summary markdown="span"> June 2022 </summary>
   <details>
     <summary markdown="span"> June 1-June 20 </summary>
-    Unaccounted for.
+    Unaccounted for. Too busy to update this website,
 </details>
 </details>
     
