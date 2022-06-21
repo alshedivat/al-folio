@@ -32,8 +32,8 @@ Check out my [projects](projects) (along with post-mortems) and [interests](more
 * Thinking about offline RL in confounded tabular MDPs with global and i.i.d. confounders.
 * Thinking about minimax optimal algorithms for offline policy evaluation.
 * Trying to learn more about safe RL.
-* Participating in MREG 2022 in [Rishi Sonthalia's](https://sites.google.com/umich.edu/rsonthal/home?authuser=0) group on Double Descent and the NTK.
-* Preparing for LOGML 2022! I am a participant in Dr. Eli Meirom's group, planning to work on using RL for graph rewiring in GNNs to prevent oversquashing for long range problems.
+* Participating in [MREG 2022](https://sites.google.com/umich.edu/mreg-2022/home) in [Rishi Sonthalia's](https://sites.google.com/umich.edu/rsonthal/home?authuser=0) group on Double Descent and the NTK.
+* Preparing for [LOGML 2022](https://www.logml.ai/)! I am a participant in Dr. Eli Meirom's group, planning to work on using RL for graph rewiring in GNNs to prevent oversquashing for long range problems.
 * To provide a glimpse into graduate student life and also create a greater sense of accountability for myself, attempting to maintain a [periodic log](log) of my academic/professional progress on this website. 
 * Waiting to hear back from a journal about my paper on an algorithm for generalized Seifert matrices.
 * Gearing up for Monsoon Math 2022!
