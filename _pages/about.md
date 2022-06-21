@@ -28,7 +28,7 @@ Check out my [projects](projects) (along with post-mortems) and [interests](more
 [^1]: This is part of why I co-founded and co-organize [Monsoon Math Camp](https://www.monsoonmath.org) - an online math camp for promising high school students introducing them to advanced undergraduate and graduate-level math. You should check it out! I have also been involved in building and expanding other mathematical communities, like platforms for the PolyMath REU, DRP programs and the undergraduate math organization at IISc, etc.
 
 **What am I doing these days?**
-* Working in Prof. Ambuj Tewari's lab over summer.
+* Working in [Prof. Ambuj Tewari's lab](https://ambujtewari.github.io/) over summer.
 * Thinking about offline RL in confounded tabular MDPs with global and i.i.d. confounders.
 * Thinking about minimax optimal algorithms for offline policy evaluation, working towards the lofty goal of the equivalent of the Decision-Estimation Coefficient for offline RL.
 * Trying to learn more about safe RL.
