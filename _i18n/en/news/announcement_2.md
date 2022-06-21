@@ -1,0 +1,1 @@
+Currently [gungsatya.github.io](https://gungsatya.github.io) uses the Jekyll framework. According to wikipedia, Jekyll is a simple, blog-supported, static website generator intended for personal, project, or organizational sites. Jekyll is written in the Ruby programming language by Tom Preston-Werner, Co-Founder of GitHub, and is distributed under an open source license.

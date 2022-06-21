@@ -103,7 +103,6 @@ disqus_shortname: gung_satya # put your disqus shortname
 # -----------------------------------------------------------------------------
 
 collections:
-  authors:
   news:
     defaults:
       layout: post

@@ -22,3 +22,7 @@ pages:
   projects:
     description: collection of projects that have been done
     display_categories: [work, study, fun]
+
+news:
+  1: Dapur Kode establish
+  2: Personal website updates with Jekyll

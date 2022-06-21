@@ -11,8 +11,9 @@
           {% if item.inline -%} {{ item.content | remove: '
           <p>' | remove: '</p>
           ' | emojify }} {%- else -%}
-          <a class="news-title" href="{{ item.url | relative_url }}"
-            >{{ item.title }}</a
+          <a class="news-title" href="{% tl item.namespace %}"
+            >{% if item.title-i18n != nil and item.title-i18n != '' %} {% t
+            item.title-i18n %} {% else %} {{item.title}} {% endif %}</a
           >
           {%- endif %}
         </td>

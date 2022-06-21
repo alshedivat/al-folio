@@ -22,3 +22,7 @@ pages:
   projects:
     description: koleksi project yang dikerjakan.
     display_categories: [pekerjaan, belajar, iseng]
+
+news:
+  1: Mendirikan Dapur Kode
+  2: Pembaruan website personal dengan Jekyll
