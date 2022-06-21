@@ -22,7 +22,7 @@ Hi there! I'm Chinmaya Kausik, a first-year mathematics Ph.D. student at UMich w
 Check out my [projects](projects) (along with post-mortems) and [interests](more)!
 
 **What do I care about, broadly?** 
-* Mathematical problems motivated by tangible, real-world questions. These days, t
+* Mathematical problems motivated by tangible, real-world questions. 
 * Increasing accessibility to and in higher mathematics and creating communities where ideas cross pollinate and people pull each other up[^1].
 
 [^1]: This is part of why I co-founded and co-organize [Monsoon Math Camp](https://www.monsoonmath.org) - an online math camp for promising high school students introducing them to advanced undergraduate and graduate-level math. You should check it out! I have also been involved in building and expanding other mathematical communities, like platforms for the PolyMath REU, DRP programs and the undergraduate math organization at IISc, etc.
