@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there! I'm Chinmaya Kausik, a first-year mathematics Ph.D. student at UMich working on sequential decision making, statistics, optimization and machine learning. A lot of my undergraduate background is in geometry, topology and dynamics with work in computer-assisted topology and geometry.
+Hi there! I'm Chinmaya Kausik, a rising second-year mathematics Ph.D. student at UMich working on sequential decision making, statistics, optimization and machine learning. A lot of my undergraduate background is in geometry, topology and dynamics with work in computer-assisted topology and geometry.
 
 Check out my [projects](projects) (along with post-mortems) and [interests](more)!
 
