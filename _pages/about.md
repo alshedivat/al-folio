@@ -6,7 +6,7 @@ description: 1st year PhD student @ <a href="https://www.ics.uci.edu/~smyth/rese
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: cristorei.jpg
   address: >
     <p>4059</p>
     <p>Donald Bren Hall</p>
