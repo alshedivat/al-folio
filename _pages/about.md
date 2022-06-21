@@ -30,7 +30,7 @@ Check out my [projects](projects) (along with post-mortems) and [interests](more
 **What am I doing these days?**
 * Working in Prof. Ambuj Tewari's lab over summer.
 * Thinking about offline RL in confounded tabular MDPs with global and i.i.d. confounders.
-* Thinking about minimax optimal algorithms for offline bandit evaluation.
+* Thinking about minimax optimal algorithms for offline policy evaluation, working towards the lofty goal of the equivalent of the Decision-Estimation Coefficient for offline RL.
 * Trying to learn more about safe RL.
 * Participating in MREG 2022 in Rishi Sonthalia's group on Double Descent and the NTK.
 * To provide a glimpse into graduate student life and also create a greater sense of accountability for myself, attempting to maintain a [periodic log](log) of my academic/professional progress on this website. 
