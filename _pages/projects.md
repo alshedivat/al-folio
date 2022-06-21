@@ -1,13 +1,14 @@
 ---
-layout: page-i18n
-title: links.projects
-
+layout: page
 namespace: projects
 
-permalink: /projek
-permalink_en: /projects
+title: projects
+title-i18n: links.projects
 
-description: pages.projects.description
+permalink: /projek/
+permalink_en: /projects/
+
+description-i18n: pages.projects.description
 nav: true
 horizontal: false
 ---

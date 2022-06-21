@@ -4,6 +4,7 @@ global:
   no-news: No news so far...
   newer: Newer
   older: Older
+  news: News
 
 layout:
   archive-category: An archive of posts in this category
@@ -15,6 +16,7 @@ layout:
 links:
   about: "about"
   projects: "projects"
+  blog: blog
 
 pages:
   projects:

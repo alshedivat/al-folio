@@ -1,11 +1,12 @@
 ---
 layout: about
-title: links.about
-
 namespace: home
 
-permalink: /
+title: about
+title-i18n: links.about
 description: Website <b>Developer</b>
+
+permalink: /
 
 profile:
   align: center

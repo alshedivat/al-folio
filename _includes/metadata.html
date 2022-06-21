@@ -17,12 +17,13 @@
 />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <title>
-  {%- if site.title == "blank" -%} {%- capture title -%}{{ site.first_name }} {{
-  site.middle_name }} {{ site.last_name }}{%- endcapture -%} {%- else -%} {%-
-  capture title -%}{{ site.title }}{%- endcapture -%} {%- endif -%} {% if
-  page.url == '/blog/index.html' %} {{ site.blog_nav_title }} | {{ title }} {%-
-  elsif page.title != "blank" and page.url != "/" -%} {{ page.title }} | {{
-  title }} {%- else -%} {{ title }} {%- endif -%}
+  {%- if site.title == "blank" -%} {%- capture title -%} {{ site.first_name }}
+  {{ site.middle_name }} {{ site.last_name }} {%- endcapture -%} {%- else -%}
+  {%- capture title -%} {{ site.title }} {%- endcapture -%} {%- endif -%} {% if
+  page.url == '/blog/index.html' %} {{ site.blog_nav_title }} | {{ title }} {%
+  elsif page.title-i18n != nil and page.title-i18n != '' %} {% t page.title-i18n
+  %}{%- elsif page.title != "blank" and page.url != "/" -%} {{ page.title }} |
+  {{ title }} {%- else -%} {{ title }} {%- endif -%}
 </title>
 <meta
   name="author"
@@ -44,7 +45,7 @@
 <meta property="og:type" content="website" />
 <meta
   property="og:title"
-  content="{%- if page.title -%}{{ title }} | {{ page.title }}{%- else -%}{{ title }}{%- endif -%}"
+  content="{%- if page.title -%}{{ title }} | {% t page.title %}{%- else -%}{{ title }}{%- endif -%}"
 />
 <meta
   property="og:url"

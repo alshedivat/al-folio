@@ -39,7 +39,7 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           {%- for page in site.pages -%} {% if page.permalink == '/' %} {%
-          assign about_title = page.title %} {% endif %} {% endfor %}
+          assign about_title = page.title-i18n %} {% endif %} {% endfor %}
 
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
@@ -77,7 +77,9 @@
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
-              >{% t p.title %} {%- if page.title == p.title -%}
+              >{% if p.title-i18n != nil and p.title-i18n != '' %} {% t
+              p.title-i18n %} {% else %} {{p.title}} {% endif %} {%- if
+              page.title == p.title -%}
               <span class="sr-only">({% t global.current %})</span>
               {%- endif -%}
             </a>
@@ -89,7 +91,8 @@
               <div class="dropdown-divider"></div>
               {%- else %}
               <a class="dropdown-item" href="{% tl child.namespace  %}"
-                >{% t child.title %}</a
+                >{% if child.title-i18n != nil and child.title-i18n != '' %} {%
+                t child.title-i18n %} {% else %} {{child.title}} {% endif %}</a
               >
               {%- endif -%} {% endfor %}
             </div>
@@ -97,14 +100,29 @@
           {%- else %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
             <a class="nav-link" href="{% tl p.namespace  %}"
-              >{% t p.title %} {%- if page.title == p.title -%}
+              >{% if p.title-i18n != nil and p.title-i18n != '' %} {% t
+              p.title-i18n %} {% else %} {{p.title}} {% endif %} {%- if
+              page.title == p.title -%}
               <span class="sr-only">({% t global.current %})</span>
               {%- endif -%}
             </a>
           </li>
           {%- endif -%} {%- endif -%} {% endfor -%} {%- if site.enable_darkmode
           %}
-
+          <li class="nav-item">
+            {% if site.lang == "id" %}
+            <a
+              class="nav-link"
+              href="{% tl {{page.namespace}} en
+              %}"
+              ><i class="flag flag-united-kingdom"></i
+            ></a>
+            {% elsif site.lang == "en" %}
+            <a class="nav-link" href="{% tl {{page.namespace}} id %}"
+              ><i class="flag flag-indonesia"></i>
+            </a>
+            {% endif %}
+          </li>
           <!-- Toogle theme mode -->
           <div class="toggle-container">
             <a id="light-toggle">

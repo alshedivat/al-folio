@@ -5,8 +5,14 @@ layout: default
 <!-- page.html -->
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-description">{{ page.description }}</p>
+    <h1 class="post-title">
+      {% if page.title-i18n != nil and page.title-i18n != '' %} {% t
+      page.title-i18n %} {% else %} {{page.title}} {% endif %}
+    </h1>
+    <p class="post-description">
+      {% if page.description-i18n != nil and page.description-i18n != '' %} {% t
+      page.description-i18n %} {% else %} {{page.description}} {% endif %}
+    </p>
   </header>
 
   <article>{{ content }}</article>
