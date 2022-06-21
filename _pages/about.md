@@ -23,21 +23,26 @@ Check out my [projects](projects) (along with post-mortems) and [interests](more
 
 **What do I care about, broadly?** 
 * Mathematical problems motivated by tangible, real-world questions.
-* Increasing accessibility to and in higher mathematics and creating communities where ideas cross pollinate and people pull each other up. This is part of why I co-founded and co-organize [Monsoon Math Camp](https://www.monsoonmath.org) - an online math camp for promising high school students introducing them to advanced undergraduate and graduate-level math. You should check it out! I have also been involved in building and expanding other mathematical communities, like platforms for the PolyMath REU, DRP programs and the undergraduate math organization at IISc, etc.
+* Increasing accessibility to and in higher mathematics and creating communities where ideas cross pollinate and people pull each other up[^1].
+
+[^1]: This is part of why I co-founded and co-organize [Monsoon Math Camp](https://www.monsoonmath.org) - an online math camp for promising high school students introducing them to advanced undergraduate and graduate-level math. You should check it out! I have also been involved in building and expanding other mathematical communities, like platforms for the PolyMath REU, DRP programs and the undergraduate math organization at IISc, etc.
 
 **What am I doing these days?**
-* Learning reinforcement learning from a combination of Sutton/Barto, David Silver's course, the AJKS RL theory book and [Prof. Tewari's course](https://ambujtewari.github.io/stats701-winter2021/). 
-* Taking graduate electives in math - especially excited about Math 626 (topics course in probability covering ergodic theory, Markov chains and mixing times) and Math 797 (the coarse geometry of Teichmuller space).
-* Reading [this](http://dept.stat.lsa.umich.edu/~tewaria/research/tewari13learning.pdf) survey of statistical and computational aspects of learning theory.
-* Thinking about questions stemming from Rishi Sonthalia's paper about the TreeRep algorithm for efficiently learning metrics on trees (hyperbolic representation learning).
+* Working in Prof. Ambuj Tewari's lab over summer.
+* Thinking about offline RL in confounded tabular MDPs with global and i.i.d. confounders.
+* Thinking about minimax optimal algorithms for offline bandit evaluation.
+* Trying to learn more about safe RL.
+* Participating in MREG 2022 in Rishi Sonthalia's group on Double Descent and the NTK.
 * To provide a glimpse into graduate student life and also create a greater sense of accountability for myself, attempting to maintain a [periodic log](log) of my academic/professional progress on this website. 
-* Working on finishing up the GUI for my algorithm for generalized Seifert matrices. 
+* Waiting to hear back from a journal about my paper on an algorithm for generalized Seifert matrices.
 * Gearing up for Monsoon Math 2022!
 * Fleshing out ideas for more academic communities like Monsoon Math.
 
 **What do I want to learn about in the future?**
+* Safe RL, its relation to the problem of engineering good rewards and its relation to AI safety and alignment.
+* A comprehensive view of techniques that go into minimax lower bounds in RL.
 * Causality and its interaction with sequential decision making and RL.
+* Algorithmic fairness.
 * Geometric and topological insights for data analysis and machine learning (for example, non-positive curvature representation learning).
 * Natural Language Processing.
 * Using insights from machine learning for biology. In a specific example, learning a hierarchical or causal structure from genomics data.
-* Algorithmic fairness.
