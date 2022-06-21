@@ -17,12 +17,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there! I'm Chinmaya Kausik, a first-year mathematics Ph.D. student at UMich, with a background in geometry, topology and dynamics. A lot of my undergraduate work is in computer-assisted topology and geometry. I have nascent interests in statistical and reinforcement learning, especially offline RL and causality. 
+Hi there! I'm Chinmaya Kausik, a first-year mathematics Ph.D. student at UMich working on sequential decision making, statistics, optimization and machine learning. A lot of my undergraduate background is in geometry, topology and dynamics with work in computer-assisted topology and geometry.
 
 Check out my [projects](projects) (along with post-mortems) and [interests](more)!
 
 **What do I care about, broadly?** 
-* Mathematical problems motivated by tangible, real-world questions. 
+* Mathematical problems motivated by tangible, real-world questions. These days, t
 * Increasing accessibility to and in higher mathematics and creating communities where ideas cross pollinate and people pull each other up[^1].
 
 [^1]: This is part of why I co-founded and co-organize [Monsoon Math Camp](https://www.monsoonmath.org) - an online math camp for promising high school students introducing them to advanced undergraduate and graduate-level math. You should check it out! I have also been involved in building and expanding other mathematical communities, like platforms for the PolyMath REU, DRP programs and the undergraduate math organization at IISc, etc.
