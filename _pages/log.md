@@ -51,12 +51,12 @@ nav: true
 <summary markdown="span"> April 12-April 30 (morning) </summary>
   Complete chapters 11 and 13 of Sutton Barto and skimmed chapter 12 (more or less completing Part I and II of the book), along with lecture 7 of Silver's course and Emma Brunskill's tutorial on offline RL. Read through some of Csaba Szepesvari's notes from his RL theory graduate course. Completed and submitted the last 626 assignment, took the 597 exam. Wrapped up teaching and grading, proctored the Math 116 final and graded finals with other instructors. Met Prof. Tewari, read half of the NeurIPS 2016 paper on learning mixtures of Markov chains from 3-trails. I have a question about a certain sample complexity bound for estimating a key matrix used in their algorithm (I think it can be reduced?). Read parts of William Hamilton's graph representation learning book to get introduced to GNNs. Read the first bottlenecks and over-squashing paper for applying to LOGML, reading the second one now (on Stochastic discrete Ricci flow). Super excited! Skimming some introductions to optimal transport to better understand Wasserstein distance and how it relates to discrete notions of Ricci curvature (like Ollivier curvature). </details>
 </details>
-    </details>
   <details>
-  <details>
-    <summary markdown="span"> May </summary>
+    <summary markdown="span"> May 2022 </summary>
     Unaccounted for, sorry. Lost track of things.
   </details>
+    <details>
+  <summary markdown="span"> June 2022 </summary>
   <details>
     <summary markdown="span"> June 1-June 20 </summary>
     Unaccounted for.
