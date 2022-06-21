@@ -4,7 +4,7 @@
   {% if project.redirect -%}
   <a href="{{ project.redirect }}">
     {%- else -%}
-    <a href="{{ project.url | relative_url }}">
+    <a href="{% tl project.namespace %}">
       {%- endif %}
       <div class="card hoverable">
         {%- if project.thumbnail %}
@@ -13,8 +13,10 @@
           alt="project thumbnail" -%}
         {%- endif %}
         <div class="card-body">
-          <h2 class="card-title text-lowercase">{{ project.title }}</h2>
-          <p class="card-text">{{ project.description }}</p>
+          <h2 class="card-title text-lowercase">{% if project.title-i18n != nil and project.title-i18n != '' %} {% t
+            project.title-i18n %} {% else %} {{project.title}} {% endif %}</h2>
+          <p class="card-text">{% if project.description-i18n != nil and project.description-i18n != '' %} {% t
+            project.description-i18n %} {% else %} {{project.description}} {% endif %}</p>
           <div class="row ml-1 mr-1 p-0">
             {%- if project.github -%}
             <div class="github-icon">

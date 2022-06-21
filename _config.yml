@@ -13,7 +13,6 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: gung satya, programmer, web developer # add your own keywords or leave empty
-lang: id # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔥 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://gungsatya.github.io # the base hostname & protocol for your site
@@ -85,7 +84,7 @@ panelbear_analytics: # panelbear analytics site ID (format: XXXXXXXXX)
 blog_name: satya-blog # your blog must have a name for it to show up in the nav bar
 blog_nav_title: blog
 blog_description: long life learner's journey
-permalink: /blog/:year/:title/
+# permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
@@ -104,13 +103,11 @@ disqus_shortname: gung_satya # put your disqus shortname
 
 collections:
   news:
-    defaults:
-      layout: post
     output: true
-    permalink: /news/:path/
+    # permalink: /news/:path/
   projects:
     output: true
-    permalink: /projects/:path/
+    # permalink: /projects/:path/
 
 news_limit: 5
 
@@ -234,7 +231,7 @@ imagemagick:
 # Jekyll Multiple Languages Plugin
 # -----------------------------------------------------------------------------
 
-languages: ["id", "en"]
+languages: ["en", "id"]
 
 exclude_from_localizations:
   [

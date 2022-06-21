@@ -21,8 +21,19 @@ links:
 pages:
   projects:
     description: collection of projects that have been done
-    display_categories: [work, study, fun]
+    category:
+      work: work
+      fun: fun
+      study: study
 
 news:
   1: Dapur Kode establish
   2: Personal website updates with Jekyll
+
+projects:
+  1:
+    title: Smart Car
+    description: A safety riding car app
+  2:
+    title: Whisper
+    description: A citizen reporting chatbot

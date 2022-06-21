@@ -20,9 +20,20 @@ links:
 
 pages:
   projects:
-    description: koleksi project yang dikerjakan.
-    display_categories: [pekerjaan, belajar, iseng]
+    description: koleksi project yang telah dikerjakan.
+    category:
+      work: pekerjaan
+      fun: iseng
+      study: belajar
 
 news:
   1: Mendirikan Dapur Kode
   2: Pembaruan website personal dengan Jekyll
+
+projects:
+  1:
+    title: Smart Car
+    description: Sebuah aplikasi keselamatan mengemudi kendaraan roda empat
+  2:
+    title: Smart Car
+    description: Chatbot sarana pengaduan masyarakat kepada pemerintah.
