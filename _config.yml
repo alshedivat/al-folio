@@ -233,20 +233,20 @@ imagemagick:
 
 languages: ["en", "id"]
 
-# exclude_from_localizations:
-#   [
-#     "javascript",
-#     "images",
-#     "css",
-#     "scripts",
-#     "favicon.ico",
-#     "blog",
-#     "bin",
-#     "assets",
-#     "admin",
-#   ]
+exclude_from_localizations:
+  [
+    "javascript",
+    "images",
+    "css",
+    "scripts",
+    "favicon.ico",
+    "blog",
+    "bin",
+    "assets",
+    "admin",
+  ]
 
-default_locale_in_subfolder: true
+# default_locale_in_subfolder: true
 
 # -----------------------------------------------------------------------------
 # Optional Features
