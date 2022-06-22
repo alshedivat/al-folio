@@ -2,11 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: 427561A7-CBCD-4E8C-88E9-A3408E95ED70_1_201_a.jpeg
   address: >
     <p>Nagoya University</p>
     <p>Nagoya,Japan</p>
