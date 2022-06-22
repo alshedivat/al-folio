@@ -6,7 +6,7 @@ description:
 ---
 Awards given at the Music Encoding Conference are listed below
 
-{% for row in site.assets.MEC_awards %}
+{% for row in site.data.awards %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
