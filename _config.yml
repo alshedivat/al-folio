@@ -211,7 +211,7 @@ jekyll-archives:
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: false
+  enabled: true
   widths:
     - 480
     - 800
