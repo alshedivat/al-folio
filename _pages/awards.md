@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: none
 title: Table test
 permalink: /awards/
 description:
