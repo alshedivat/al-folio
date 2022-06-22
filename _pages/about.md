@@ -13,7 +13,7 @@ profile:
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 Hello! I am an undergraduate student at <a href="http://www.mein.nagoya-u.ac.jp/en/index.html">Intelligent Robotics and Bio-Mechatronics Lab</a> at Nagoya University, Japan. I am interested at the intersection of robotics and natural language processing, especially how we can build intelligent robots that will need least of human supervision and operate via language instructions.    
