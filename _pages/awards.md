@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: default
 title: Table test
 permalink: /awards/
 description:
