@@ -3,10 +3,10 @@
 <div class="grid-item">
   {% if project.redirect -%}
   <a href="{{ project.redirect }}">
-    {%- else -%}
-    <a href="{% tl project.namespace %}">
-      {%- endif %}
-      <div class="card hoverable">
+  {%- else -%}
+  <a href="{% tl project.namespace %}">
+  {%- endif %}
+    <div class="card hoverable">
         {%- if project.thumbnail %}
         {%- include figure.html
           path=project.thumbnail
