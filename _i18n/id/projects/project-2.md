@@ -1,7 +1,7 @@
 Whisper adalah aplikasi yang saya buat untuk memenuhi syarat dalam menyelesaikan pendidikan S1 saya. Saya merancang sebuah aplikasi chatbot "berbasis aturan" guna menjembatani aspirasi masyarakat yang disimpan dan diregistrasi langsung kepada pemerintah. Aplikasi ini kemudian saya beri nama "Whisper".
 {: .text-justify }
 
-![Mekanisme kerja Whisper](/assets/uploads/mekanisme-whisper.png "Mekanisme kerja Whisper"){:class="img-fluid rounded z-depth-1"}
+![Mekanisme kerja Whisper](/assets/img/portfolio/whisper/mekanisme-whisper.png "Mekanisme kerja Whisper"){:class="img-fluid rounded z-depth-1"}
 
 <div class="caption">
     Alur mekanisme Whisper
@@ -14,13 +14,13 @@ Beberapa tangkapan layar dari aplikasi Whisper.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        <img src="/assets/uploads/chatbot_whisper_1.png" title="Tangkap layar chatbot Whisper 1" class="img-fluid rounded z-depth-1 p-1" >
+        <img src="/assets/img/portfolio/whisper/chatbot_whisper_1.png" title="Tangkap layar chatbot Whisper 1" class="img-fluid rounded z-depth-1 p-1" >
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        <img src="/assets/uploads/chatbot_whisper_2.png" title="Tangkap layar chatbot Whisper 2" class="img-fluid rounded z-depth-1 p-1" >
+        <img src="/assets/img/portfolio/whisper/chatbot_whisper_2.png" title="Tangkap layar chatbot Whisper 2" class="img-fluid rounded z-depth-1 p-1" >
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        <img src="/assets/uploads/chatbot_whisper_3.png" title="Tangkap layar chatbot Whisper 3" class="img-fluid rounded z-depth-1 p-1" >
+        <img src="/assets/img/portfolio/whisper/chatbot_whisper_3.png" title="Tangkap layar chatbot Whisper 3" class="img-fluid rounded z-depth-1 p-1" >
     </div>
 </div>
 <div class="caption">
@@ -29,7 +29,7 @@ Beberapa tangkapan layar dari aplikasi Whisper.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-12">
-        <img src="/assets/uploads/website_whisper_3.png" title="Tangkap layar website Whisper 3" class="img-fluid rounded z-depth-1 p-1" >
+        <img src="/assets/img/portfolio/whisper/website_whisper_3.png" title="Tangkap layar website Whisper 3" class="img-fluid rounded z-depth-1 p-1" >
     </div>
 </div>
 <div class="caption">

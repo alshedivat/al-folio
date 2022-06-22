@@ -13,7 +13,7 @@ title-i18n: projects.2.title
 description-i18n: projects.2.description
 
 date: 2018-07-10T04:22:05.959Z
-thumbnail: /assets/uploads/website_whisper_1.png
+thumbnail: /assets/img/portfolio/whisper/website_whisper_1.png
 importance: 1
 category: study
 ---

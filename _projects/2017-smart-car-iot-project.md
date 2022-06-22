@@ -13,7 +13,7 @@ title-i18n: projects.1.title
 description-i18n: projects.1.description
 
 date: 2017-06-09
-thumbnail: /assets/uploads/smart-car.jpg
+thumbnail: /assets/img/portfolio/smartcar/smart-car.jpg
 importance: 1
 category: study
 ---

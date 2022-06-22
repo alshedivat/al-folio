@@ -11,7 +11,7 @@ tags: github-pages jekyll ruby
 categories: web-development
 ---
 
-![Logo Github Pages dan Jekyll](/assets/uploads/pengalaman-saya-menggunakan-github-pages-dan-jekyll.png "Logo Github Pages dan Jekyll"){:class="img-fluid rounded z-depth-1"}
+![Logo Github Pages dan Jekyll](/assets/img/blog/2022-03-15-pengalaman-saya-menggunakan-github-pages-dan-jekyll/pengalaman-saya-menggunakan-github-pages-dan-jekyll.png "Logo Github Pages dan Jekyll"){:class="img-fluid rounded z-depth-1"}
 
 <div class="caption">
     Logo Github Pages dan Jekyll

@@ -1,7 +1,7 @@
 In the "Topik Khusus" course, my classmates and I were had Internet of Things project. We designed an application that we named SmartCar. The SmartCar application is an application (system) designed to assist car drivers in terms of driving safety on the highway to avoid accidents, avoid criminal acts and make it easier for other users (such as parents or relatives) to monitor the state or condition of the car that is the object of the SmartCar application. The following is an overview of the SmartCar application.
 {: .text-justify }
 
-![SmartCar Mechanism](/assets/uploads/gambaran-umum-smart-car.jpg "SmartCar Mechanism"){:class="img-fluid rounded z-depth-1"}
+![SmartCar Mechanism](/assets/img/portfolio/smartcar/gambaran-umum-smart-car.jpg "SmartCar Mechanism"){:class="img-fluid rounded z-depth-1"}
 
 <div class="caption">
     SmartCar Mechanism
@@ -13,6 +13,6 @@ SmartCar have six features. They are location tracking, safe distance, temperatu
 For more details, here is a book that we compiled to explain the project we made.
 
 <div class="row justify-content-center">
-        <embed src="/assets/uploads/SMARTCAR-V1.pdf" width="600" height="375"
+        <embed src="/assets/file/portfolio/smartcar/SMARTCAR-V1.pdf" width="600" height="375"
  type="application/pdf">
 </div>

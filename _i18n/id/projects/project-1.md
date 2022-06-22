@@ -1,7 +1,7 @@
 Pada mata kuliah "Topik Khusus", saya bersama teman sekelas mendapat tugas untuk membuat sebuah project Internet of Things. Saat itu kami merancang sebuah aplikasi yang kami beri nama SmartCar. Aplikasi SmartCar merupakan sebuah aplikasi (sistem) yang dirancang untuk membantu pengendara mobil dalam hal keselamatan mengemudi di jalan raya agar terhindar dari kecelakaan baik skala kecil maupun besar, terhindar dari tindakan kriminal serta memudahkan pengguna lainnya (seperti orang tua, saudara, atau kerabat) untuk memantau keadaan atau kondisi dari mobil yang menjadi obyek dari aplikasi SmartCar. Berikut merupakan gambaran umum dari aplikasi SmartCar.
 {: .text-justify }
 
-![Mekanisme kerja SmartCar](/assets/uploads/gambaran-umum-smart-car.jpg "Mekanisme kerja SmartCar"){:class="img-fluid rounded z-depth-1"}
+![Mekanisme kerja SmartCar](/assets/img/portfolio/smartcar/gambaran-umum-smart-car.jpg "Mekanisme kerja SmartCar"){:class="img-fluid rounded z-depth-1"}
 
 <div class="caption">
     Gambaran umum SmartCar
@@ -13,6 +13,6 @@ SmartCar yang terdiri dari enam fitur. Fitur yang tersedia diantaranya yaitu pel
 Untuk lebih jelasnya, berikut adalah buku yang kami susun untuk menjelaskan project yang kami buat.
 
 <div class="row justify-content-center">
-        <embed src="/assets/uploads/SMARTCAR-V1.pdf" width="600" height="375"
+        <embed src="/assets/file/portfolio/smartcar/SMARTCAR-V1.pdf" width="600" height="375"
  type="application/pdf">
 </div>
