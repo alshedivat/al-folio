@@ -9,6 +9,4 @@ children:
     - title: divider
     - title: CV
       permalink: https://annakijas1.github.io/assets/pdf/2022-Kijas_CV.pdf
-    - title: Blog
-      permalink: /blog/
 ---
