@@ -23,5 +23,5 @@ For my master thesis I researched the drivers of spatial-temporal heterogeneity 
 
 **Previously:**
 
-I hold M.Sc in Biomedical Informatics from [Universidad Peruana Cayetano Heredia](www.catetano.edu.pe) where I worked designing a maternal and child health program that aided with a mHealth application for Community Health Workers and community-based components approach, aimed to monitor pregnant women and newborns in remote basin native communities 
+I'm a peruvian physician and, besides my MPH, I hold M.Sc in Biomedical Informatics from [Universidad Peruana Cayetano Heredia](www.catetano.edu.pe) where I worked designing a maternal and child health program that aided with a mHealth application for Community Health Workers and community-based components approach, aimed to monitor pregnant women and newborns in remote basin native communities 
 
