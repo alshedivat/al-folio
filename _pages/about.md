@@ -15,11 +15,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am Horacio, a Global Health Master in Public Health (MPH) student in the [Department of Global Health](https://globalhealth.washington.edu) at the [University of Washington](https://www.washington.edu). I currently work as a Research Assistant at [I-TECH](https://www.go2itech.org). I am also a non-certificate trainee at the [Center for Studies in Demography and Ecology](https://csde.washington.edu).
+I am Horacio Chacon Torrico, a Global Health Master in Public Health (MPH) from the [Department of Global Health](https://globalhealth.washington.edu) at the [University of Washington](https://www.washington.edu). I workded as a Research Assistant at [I-TECH](https://www.go2itech.org) supporting the M&E data collection system from a Care and Treatment program in Zimbabwe. My work focus on the intersection of technology, data, and public health, and how to better use data to measure health outcomes in middle- and low-income countries. I will be pursuing a Global Health: Health Metrics and Evaluation PhD program at the [Institute for Health Metrics and Evaluation](https://www.healthdata.org) starting Fall 2022.
 
 **Research Interests:**
 
-Population health metrics, health data science, and biomedical informatics with a special emphasis on health inequalities in Latin American Populations. I have also interest in HIV related health metrics in Zimbabwe and Sub-Saharan Africa.
+For my master thesis I researched the drivers of spatial-temporal heterogeneity in COVID-19 outcomes in Peru with [Dr. Bobby Reiner](https://www.healthdata.org/about/bobby-reiner). I am also interested in population health metrics, health data science, biomedical informatics, surveillance and health systems, with a special emphasis in Low and Middle income countries.
 
 **Previously:**
 
