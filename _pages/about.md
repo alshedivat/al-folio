@@ -6,7 +6,7 @@ description: University of Washington • Department of Global Health
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_rainier.jpg
   address: >
     <p>Seattle, WA 98105</p>
 
