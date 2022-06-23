@@ -2,13 +2,13 @@
 layout: page
 title: Links
 nav: true
-nav_order: 3
 dropdown: true
 children:
-    - title: Publications
-      permalink: /publications/
+    - title: Press
+      permalink: /press/
     - title: divider
-    - title: Projects
-      permalink: /projects/
+    - title: CV
+      permalink: https://annakijas1.github.io/assets/pdf/2022-Kijas_CV.pdf
     - title: Blog
       permalink: /blog/
+---
