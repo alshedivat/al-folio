@@ -1,72 +1,141 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@inproceedings{10.1145/3143361.3143374,
+  author = {Zhang, Pengyu and Josephson, Colleen and Bharadia, Dinesh and Katti, Sachin},
+  title = {FreeRider: Backscatter Communication Using Commodity Radios},
+  year = {2017},
+  isbn = {9781450354226},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3143361.3143374},
+  doi = {10.1145/3143361.3143374},
+  abstract = {We introduce the design and implementation of FreeRider, the first system that enables backscatter communication with multiple commodity radios, such as 802.11g/n WiFi, ZigBee, and Bluetooth, while these radios are simultaneously used for productive data communication. Furthermore, we are, to our knowledge, the first to implement and evaluate a multi-tag system. The key technique used by FreeRider is codeword translation, where a tag can transform a codeword present in the original excitation signal into another valid codeword from the same codebook during backscattering. In other words, the backscattered signal is still a valid WiFi, ZigBee, or Bluetooth signal. Therefore, commodity radios decode the backscattered signal and extract the tag's embedded information. More importantly, FreeRider does codeword translation regardless of the data transmitted by these radios. Therefore, these radios can still do productive data communication. FreeRider accomplishes codeword translation by modifying one or more of the three dimensions of a wireless signal --- amplitude, phase and frequency. A tag ensures that the modified signal is still comprised of valid codewords that come the same codebook as the original excitation signal. We built a hardware prototype of FreeRider, and our empirical evaluations show a data rate of ~60kbps in single tag mode, 15kbps in multi-tag mode, and a backscatter communication distance up to 42m when operating on 802.11g/n WiFi.},
+  booktitle = {Proceedings of the 13th International Conference on Emerging Networking EXperiments and Technologies},
+  pages = {389–401},
+  numpages = {13},
+  keywords = {WiFi, Bluetooth, ZigBee, Wireless, Backscatter},
+  location = {Incheon, Republic of Korea},
+  series = {CoNEXT '17}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+
+@INPROCEEDINGS{8732532,
+  author={Josephson, Colleen and Yang, Lei and Zhang, Pengyu and Katti, Sachin},
+  booktitle={2019 18th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)}, 
+  title={Wireless Computer Vision Using Commodity Radios}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={229-240},
+  abstract={We introduce the design and implementation of BackCam, a low-power wireless camera sensor platform that supports continuous realtime vision applications, all using commodity radios. In the lowest power mode, our camera board consumes only 9.7mW and continuously transmits images for over one month on two AA batteries. We introduce a novel power management system that incorporates input from the camera itself to increase battery life up to 62%. Using images and system metadata as input, we designed a feedback system between the sensor and the gateway. This allows dynamic vision application requirements to be met while consuming as little power as possible. For example, our system can temporarily increase the resolution after an object of interest is detected, then reduce it again after it has disappeared. This increases the accuracy of simplistic facial recognition by at least 25% compared to operating constantly in the lowest power mode. We implement communications using a full-duplex WiFi backscatter radio, ensuring compatibility with commodity WiFi devices. We also designed an efficient data streaming and compression pipeline straight from the camera to the backscatter transmitter, allowing us to minimize latency and avoid expensive memory writes. We deployed BackCam in a real office environment, and as a proof-of-concept, implemented basic realtime face detection and recognition.},
+  keywords={},
+  doi={10.1145/3302506.3310403},
+  ISSN={},
+  month={April},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@misc{https://doi.org/10.48550/arxiv.1912.12382,
+  doi = {10.48550/ARXIV.1912.12382},
+  url = {https://arxiv.org/abs/1912.12382},
+  author = {Josephson, Colleen and Barnhart, Bradley and Katti, Sachin and Winstein, Keith and Chandra, Ranveer},
+  keywords = {Signal Processing (eess.SP), FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering},
+  title = {RF Soil Moisture Sensing via Radar Backscatter Tags},
+  publisher = {arXiv},
+  year = {2019},
+  copyright = {arXiv.org perpetual, non-exclusive license}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{10.1145/3460112.3472326,
+  author = {Josephson, Colleen and Kotaru, Manikanta and Winstein, Keith and Katti, Sachin and Chandra, Ranveer},
+  title = {Low-Cost In-Ground Soil Moisture Sensing with Radar Backscatter Tags},
+  year = {2021},
+  isbn = {9781450384537},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3460112.3472326},
+  doi = {10.1145/3460112.3472326},
+  abstract = {Despite decades of research confirming the benefits, most farms do not incorporate soil moisture sensing into their irrigation practices. Soil moisture sensing can be broken into two broad approaches, both of which have drawbacks. In situ sensors are installed in the ground, tend to be difficult to deploy and maintain, and have high costs. Remote-sensing based approaches use radars to infer soil moisture from surface reflection properties. While completely wireless, remote sensing suffers from lower resolution and accuracy compared to in situ sensing. We propose a hybrid approach that combines the advantages of both. This paper introduces the idea of using inexpensive in situ backscatter tags with above-ground radars, which enables completely wireless soil moisture measurements with high-accuracy and high-resolution. Our key idea is introducing a simple, power efficient modulation scheme that enables commodity radars to easily detect and range the underground tag. We have benchmarked our approach against oven-based, industry-standard ground-truth measurements and demonstrated that, at a realistic depth and across several types of soil, we achieve a 90th percentile error of 3.4%, which is the same accuracy as state-of-the-art in situ sensors. We also demonstrate that our approach works with similar accuracy at a real farm.},
+  booktitle = {ACM SIGCAS Conference on Computing and Sustainable Societies},
+  pages = {299–311},
+  numpages = {13},
+  location = {Virtual Event, Australia},
+  series = {COMPASS '21}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+@INPROCEEDINGS{9323308,
+  author={Josephson, Colleen and Barnhart, Bradley and Winstein, Keith and Katti, Sachin and Chandra, Ranveer},
+  booktitle={IGARSS 2020 - 2020 IEEE International Geoscience and Remote Sensing Symposium}, 
+  title={Time-of-Flight Soil Moisture Estimation Using RF Backscatter Tags}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={5049-5052},
+  abstract={Agricultural soil moisture measurement is usually done with extensive in situ sensor deployments. These sensor networks are often difficult to install and maintain. Ground penetrating radars have also been used to do fine-grained moisture measurements in farm fields, but usually require the radar to be in or near contact with the soil. In this paper we propose a hybrid approach that combines an in situ backscatter reflector with an ultra-wideband radar that is small enough to be handheld or mounted to a drone. The underground backscatter reflector allows for accurate time-of-flight measurements. The time-of-flight is determined by the permittivity of the soil, which is influenced primarily by the soil water content for non-saline soils. We performed both laboratory and in situ measurements, achieving an average accuracy within 0.013 cm<sup>3</sup>/ cm<sup>3</sup> of the ground truth with a 90th percentile of 0.034 cm<sup>3</sup>/cm<sup>3</sup>. This demonstrates the feasibility of our approach.},
+  keywords={},
+  doi={10.1109/IGARSS39084.2020.9323308},
+  ISSN={2153-7003},
+  month={Sep.},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@ARTICLE{9288938,
+  author={Josephson, Colleen and Jackson, Neal and Pannuto, Pat},
+  journal={IEEE Sensors Letters}, 
+  title={Farming Electrons: Galvanic Versus Microbial Energy in Soil Batteries}, 
+  year={2020},
+  volume={4},
+  number={12},
+  pages={1-4},
+  abstract={Recent work shows the exciting potential for soil microbes as a renewable energy harvesting source. However, the choice of materials in microbial fuel cells (MFCs) significantly impacts where the energy comes from. MFCs with metallic anodes draw energy from both renewable bacterial activity and nonrenewable galvanic corrosion of cell components. Previous studies do not analyze these two power sources separately. This letter clarifies the behavior of metallic MFCs by characterizing galvanic activity separately from biological activity. We find that the majority of energy attained from prior designs is most likely galvanic, not bacterial, and as a consequence is nonrenewable.},
+  keywords={},
+  doi={10.1109/LSENS.2020.3043666},
+  ISSN={2475-1472},
+  month={Dec},
+}
+
+@INPROCEEDINGS{9111013,
+  author={Josephson, Colleen and Barnhart, Bradley and Katti, Sachin and Winstein, Keith and Chandra, Ranveer},
+  booktitle={2020 19th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)}, 
+  title={Demo Abstract: RF Soil Moisture Sensing via Radar Backscatter Tags}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={365-366},
+  abstract={We present a sensing system that determines soil moisture via RF using backscatter tags paired with a commodity ultra-wideband RF transceiver. Despite decades of research confirming the benefits, soil moisture sensors are still not widely adopted on working farms for three key reasons: the high cost of sensors, the difficulty of deploying and maintaining these sensors, and the lack of reliable internet access in rural areas. We seek to address some of these obstacles by designing a low-cost soil moisture sensing system that uses a hybrid approach of pairing completely wireless backscatter tags with a mobile reader.(p)(/p)We designed and built a backscatter tag prototype and tested our system both in laboratory and in situ at an organic farm field. Our backscatter tag has a projected battery lifetime of up to 15 years on 4xAA batteries, and can operate at a depth of at least 30cm and up to 75cm. It achieves an average accuracy within 0.01-0.03cm<sup>3</sup>/cm<sup>3</sup> of the ground truth with a 90th percentile of 0.034cm<sup>3</sup>/cm<sup>3</sup>, which is comparable to state-of-the-art commercial soil sensors, at an order of magnitude lower cost.},
+  keywords={},
+  doi={10.1109/IPSN48710.2020.000-4},
+  ISSN={},
+  month={April},
+}
+
+@phdthesis{colleendissertation2020,
+  author={Josephson, Colleen, Sachin Katti, Amin Arbabian, and Keith Winstein},
+  title={Exploring low-power ubiquitous sensing using RF backscatter},
+  school={Standford University},
+  year={2020},
+  url={https://searchworks.stanford.edu/view/13753829},
+}
+
+@inproceedings{marcano2022iscasMFCs,
+	title = {Early Characterization of Soil Microbial Fuel Cells},
+	booktitle = {IEEE International Symposium on Circuits and Systems (ISCAS) Special Session on Smart Agriculture},
+	series = {ISCAS'22},
+	year = {2022},
+	month = {5},
+	publisher = {IEEE},
+	conference-url = {https://www.iscas2022.org/},
+  html={https://patpannuto.com/pubs/marcano2022iscasMFCs.pdf},
+	author = {Marcano, Gabriel and Josephson, Colleen, and Pannuto, Pat},
+  abstract={This paper discusses experiments on soil-based microbial fuel cells
+            (MFCs) as energy scavenging sources. We explain the mechanism of
+            operation for MFCs, perform controlled laboratory experiments of
+            MFCs, and deploy a small-scale in-situ pilot in an active farm. We
+            find that traditional energy harvester ICs draw power too
+            aggressively, which reduces overall energy capture. We show that
+            isolated MFCs can be combined in series or parallel to improve the
+            voltage or current output of the harvesting source. Lastly, we
+            observe that under a real-world, drip-irrigated agricultural
+            setting, MFC output is appreciably lower, but consistent at 0.5-2
+            microwatts.},
 }
