@@ -1,10 +1,10 @@
 ---
 layout: page
-title: submenus
+title: All sorts of other cool stuff
 nav: true
 nav_order: 3
 dropdown: true
-children: 
+children:
     - title: publications
       permalink: /publications/
     - title: divider
