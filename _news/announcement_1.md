@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2019-11-11
 inline: true
 ---
 
-A simple inline announcement.
+[Our poster won bset poster award at the SenSys '19 N2Women workshop](https://sensys.acm.org/2019/n2women/)
