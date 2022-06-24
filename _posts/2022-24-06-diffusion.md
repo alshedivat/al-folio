@@ -82,7 +82,7 @@ The task is now searching for the proper form of $$p_{\theta}$$, constructing th
 
 To make the later notation more readable, we make some transformation on the formulation as follow:
 
-Set $$\alpha_{t} = 1 - \beta_{t}$$ and $$\bar{\alpha}_{t} = \prod_{s=1}^{T} \alpha_{s}$$, thus we can re-write the distribution $$ q(x_{t}\|x_{t-1}) $$:
+Set $$\alpha_{t} = 1 - \beta_{t}$$ and $$\bar{\alpha}_{t} = \prod_{s=1}^{T} \alpha_{s}$$, thus we can re-write the distribution $$ q(x_{t}\vert x_{t-1}) $$:
 
 $$
 \begin{align*}
@@ -117,7 +117,7 @@ x_{t} &= \sqrt{\prod_{s=1}^{T} \alpha_{s}}\: x_{0} + \sqrt{(1-\prod_{s=1}^{T} \a
 \end{align*}
 $$
 
-Finally, we have the marginal distribution $$ q(x_{t}\| x_{0}) = \mathcal{N}(\sqrt{\bar{\alpha}_{t}}\: x_{0}, (1-\bar{\alpha}_{t})\mathrm{I}) $$, which allows us to sample an arbitrary $$x_{t}$$ from $$x_{0}$$.
+Finally, we have the marginal distribution $$ q(x_{t}\vert x_{0}) = \mathcal{N}(\sqrt{\bar{\alpha}_{t}}\: x_{0}, (1-\bar{\alpha}_{t})\mathrm{I}) $$, which allows us to sample an arbitrary $$x_{t}$$ from $$x_{0}$$.
 
 ***
 
@@ -146,7 +146,7 @@ $$
 \end{align*}
 $$
 
-Let $$ L_{t} = \mathbf{E}_{q}\left[- \log \frac{p_{\theta}(x_{t-1}\|x_{t})}{q(x_{t-1}\|x_{t}, x_{0})} \right] $$ as an example.
+Let $$ L_{t} = \mathbf{E}_{q}\left[- \log \frac{p_{\theta}(x_{t-1} \vert x_{t})}{q(x_{t-1}\vert x_{t}, x_{0})} \right] $$ as an example.
 
 $$
 \begin{align*}
@@ -159,7 +159,7 @@ $$
 \end{align*}
 $$
 
-One noticeable property is that with given $$x_{t-1}, x_{0}$$, $$q(x_{t-1}\| x_{0}, x_{t})$$ and $$p_{\theta}(x_{t-1}\|x_{t})$$ are completely defined and $$\mathrm{D}_{\mathrm{KL}}(q(x_{t-1}\| x_{0}, x_{t}) \| p_{\theta}(x_{t-1}\|x_{t}))$$ is known, or can be set as a constant. Thus, we have the following equation:
+One noticeable property is that with given $$x_{t-1}, x_{0}$$, $$q(x_{t-1}\vert x_{0}, x_{t})$$ and $$p_{\theta}(x_{t-1}\vert x_{t})$$ are completely defined and $$\mathrm{D}_{\mathrm{KL}}(q(x_{t-1}\vert x_{0}, x_{t}) \| p_{\theta}(x_{t-1}\vert x_{t}))$$ is known, or can be set as a constant. Thus, we have the following equation:
 
 $$
 \begin{align*}
@@ -188,8 +188,8 @@ $$
 \end{align*}
 $$
 
-Since the term $$ \mathrm{D}_{\mathrm{KL}}(q(x_{T} \| x_{0}) \|\:p(x_{T})) $$ is a constant, training is now 
-approximating the reverse distribution $$p_{\theta}(x_{t-1}\|x_{t})$$ to the posterior $$ q(x_{t-1}\|x_{t}, x_{0}) $$.
+Since the term $$ \mathrm{D}_{\mathrm{KL}}(q(x_{T} \vert x_{0}) \vert\:p(x_{T})) $$ is a constant, training is now 
+approximating the reverse distribution $$p_{\theta}(x_{t-1}\vert x_{t})$$ to the posterior $$ q(x_{t-1}\vert x_{t}, x_{0}) $$.
 
 ***
 
