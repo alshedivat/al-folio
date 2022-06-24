@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a graduate student in the [Deep Image Processing Lab](https://sites.google.com/view/deepiplab/home?authuser=0), Department 
-of Electrical Engineering, [Korea University](www.korea.ac.kr), Korea. I am currently pursuing the Ph.D degree in electrical from Korea University. Previously, I completed my B.S. in Electrical Engineering at [Kyunghee University](www.khu.ac.kr). My research interests are :
+of Electrical Engineering, [Korea University](www.korea.ac.kr), Korea. I am currently pursuing the Ph.D degree in electrical from Korea University. Previously, I completed my B.S. in Electrical Engineering at [Kyunghee University](https://www.khu.ac.kr/kor/main/index.do). My research interests are :
 - Conputer Vision
 - Deep Learning
 - Domain Adaptation
