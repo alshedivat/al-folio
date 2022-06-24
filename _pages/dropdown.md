@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: past publication
-nav: true
+nav: false
 nav_order: 3
 # dropdown: true
 # children: 

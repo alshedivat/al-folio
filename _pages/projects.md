@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Resources
+title: Projects
 permalink: /resources/
 description: A growing collection of cool resources.
-nav: true
+nav: false
 nav_order: 1
 display_categories: [work, fun]
 horizontal: false
