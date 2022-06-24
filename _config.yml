@@ -91,7 +91,7 @@ permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: flase
 
 # Comments
 disqus_shortname: al-folio # put your disqus shortname
