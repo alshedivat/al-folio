@@ -9,7 +9,7 @@ authors:
     affiliations:
       name: Hanoi
 
-bibliography: 2018-12-22-distill.bib
+bibliography: diffusiontheory.bib
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:
@@ -24,11 +24,7 @@ toc:
     # subsections:
     #   - name: Example Child Subsection 1
     #   - name: Example Child Subsection 2
-  - name: Citations
-  - name: Footnotes
-  - name: Code Blocks
-  - name: Layouts
-  - name: Other Typography?
+  - name: Posterior Distribution
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -60,7 +56,7 @@ In this blog, we will go through the idea and derivation of DDPM (the formulas a
     {% include figure.html path="assets/img/posts/diffusion/figure1.png" title="example image" class="img-fluid rounded z-depth-1" %}
 </div>
 
-The concept of diffusion model is diffusing the original image into a white noise with a given strategy and then learn a reverse process to approximate it. Behind the scene, (cite Feller theory) shows that if the noise schedule at each step is small enough then the reverse process shares the same form with the forward one, that is a vital factor which allows us to construct the loss functions and the learning algorithms.
+The concept of diffusion model is diffusing the original image into a white noise with a given strategy and then learn a reverse process to approximate it. Behind the scene, (cite Feller theory) shows that if the noise schedule at each step is small enough, the reverse process shares the same form with the forward one, that is a vital factor which allows us to construct the loss functions and the learning algorithms.
 
 In detail, forward process is formulated as follow:
 
@@ -84,210 +80,117 @@ $$
 
 The task is now searching for the proper form of $$p_{\theta}$$, constructing the loss function and learning algorithm.
 
+To make the later notation more readable, we make some transformation on the formulation as follow:
+
+Set $$\alpha_{t} = 1 - \beta_{t}$$ and $$\bar{\alpha}_{t} = \prod_{s=1}^{T} \alpha_{s}$$, thus we can re-write the distribution $$ q(x_{t}\|x_{t-1}) $$:
+
+$$
+\begin{align*}
+  q(x_{t}|x_{t-1}) = \mathcal{N}(\sqrt{\alpha_{t}}\:x_{t-1}, (1-\alpha_{t})\mathrm{I})
+\end{align*}
+$$
+
+Using above notation reveal a nice ability of sampling $$x_{t}$$ with a trivial effort:
+
+$$
+\begin{align*}
+x_{t} &= \sqrt{\alpha_{t}}\:x_{t-1} + \sqrt{(1-\alpha_{t})} z_{t} \\
+&= \sqrt{\alpha_{t}}\: (\sqrt{\alpha_{t-1}}\:x_{t-2} + \sqrt{(1-\alpha_{t-1})} z_{t-1}) + \sqrt{(1-\alpha_{t})} z_{t} \\
+&= \sqrt{\alpha_{t}\alpha_{t-1}}\: x_{t-2} + \sqrt{\alpha_{t}(1-\alpha_{t-1})} z_{t-1} + \sqrt{(1-\alpha_{t})} z_{t}
+\end{align*}
+$$
+
+Where $$ z_{t} $$ and $$ z_{t-1} $$ is random variable sampled from standard normal distribution $$ \mathcal{N}(\mathrm{0}, \mathrm{I}) $$. So let think the whole $$ \sqrt{\alpha_{t}(1-\alpha_{t-1})} z_{t-1} + \sqrt{(1-\alpha_{t})} z_{t} $$ term as a random variable, which is combined of two smaller term: $$ \sqrt{\alpha_{t}(1-\alpha_{t-1})} z_{t-1} $$ follows $$ \mathcal{N}(\mathrm{0}, \alpha_{t}(1-\alpha_{t-1}) \mathrm{I}) $$ and $$ \sqrt{(1-\alpha_{t})} z_{t} $$ follows $$ \mathcal{N}(\mathrm{0}, (1-\alpha_{t}) \mathrm{I}) $$. Because two terms $$ \sqrt{\alpha_{t}(1-\alpha_{t-1})} z_{t-1} $$ and $$ \sqrt{(1-\alpha_{t})} z_{t} $$ are independent, so the whole term $$ \sqrt{\alpha_{t}(1-\alpha_{t-1})} z_{t-1} + \sqrt{(1-\alpha_{t})} z_{t} $$ follows $$ \mathcal{N}(\mathrm{0}, (1-\alpha_{t-1}\alpha_{t}) \mathrm{I}) $$. Thus, we have:
+
+$$
+\begin{align*}
+x_{t} &= \sqrt{\alpha_{t}\alpha_{t-1}}\: x_{t-2} + \sqrt{(1-\alpha_{t-1}\alpha_{t})} \bar{z}_{t}
+\end{align*}
+$$
+
+Where $$\bar{z}_{t}$$ is random variable sampled from standard normal distribution. Do above transformation repeatly, we have:
+
+$$
+\begin{align*}
+x_{t} &= \sqrt{\prod_{s=1}^{T} \alpha_{s}}\: x_{0} + \sqrt{(1-\prod_{s=1}^{T} \alpha_{s})} \bar{z}_{t} \\
+&= \sqrt{\bar{\alpha}_{t}}\: x_{0} + \sqrt{(1-\bar{\alpha}_{t})} \bar{z}_{t}
+\end{align*}
+$$
+
+Finally, we have the marginal distribution $$ q(x_{t}\| x_{0}) = \mathcal{N}(\sqrt{\bar{\alpha}_{t}}\: x_{0}, (1-\bar{\alpha}_{t})\mathrm{I}) $$, which allows us to sample an arbitrary $$x_{t}$$ from $$x_{0}$$.
+
 ***
 
 ## Loss function construction
 
+The target is maximizing the likelihood of real data under the reverse distribution. To do so, training is minimizing the lower bound of the negative log-likelihood: <d-footnote>If you are confused by the lower bound, read the blog about VAE <d-cite key="vaetheory"></d-cite>.</d-footnote>
 
+$$
+\begin{align*}
+  \mathbf{E}[-\log p_{\theta}(x_{0})] \leq \mathbf{E}_{q} \left[ -\log\frac{p_{\theta}(x_{0:T})}{q(x_{1:T}|x_{0})} \right]
+\end{align*}
+$$
 
-***
+The loss function can be derived as follow:
 
-## Citations
+$$
+\begin{align*}
+  \mathbf{E}_{q} \left[ -\log\frac{p_{\theta}(x_{0:T})}{q(x_{1:T}|x_{0})} \right]
+  &=\mathbf{E}_{q}\left[-\log{\frac{p(x_{T}).\prod^{T}_{1} p_{\theta}(x_{t-1}|x_{t})}{q(x_{1:T}|x_{0})}}\right] \\
+  &=\mathbf{E}_{q}\left[ -\log{p(x_{T})} - \sum_{t\geq1} \log \frac{p_{\theta}(x_{t-1}|x_{t})}{q(x_{t}|x_{t-1})} \right] \\
+  &=\mathbf{E}_{q}\left[ -\log{p(x_{T})} - \sum_{t>1} \log \frac{p_{\theta}(x_{t-1}|x_{t})}{q(x_{t}|x_{t-1})} - \log(\frac{p_{\theta}(x_{0}|x_{1})}{q(x_{1}|x_{0})})\right] \\
+  &=\mathbf{E}_{q}\left[ -\log{p(x_{T})} - \sum_{t>1} \log \frac{p_{\theta}(x_{t-1}|x_{t})}{q(x_{t-1}|x_{t}, x_{0})}.\frac{q(x_{t-1}|x_{0})}{q(x_{t}|x_{0})} - \log(\frac{p_{\theta}(x_{0}|x_{1})}{q(x_{1}|x_{0})})\right] \text{(apply bayes rule)} \\
+	&=\mathbf{E}_{q}\left[ -\log{p(x_{T})} - \sum_{t>1} \log \frac{p_{\theta}(x_{t-1}|x_{t})}{q(x_{t-1}|x_{t}, x_{0})} -\sum_{t>1}\log\frac{q(x_{t-1}|x_{0})}{q(x_{t}|x_{0})} - \log(\frac{p_{\theta}(x_{0}|x_{1})}{q(x_{1}|x_{0})})\right] \\
+	&=\mathbf{E}_{q}\left[ -\log{p(x_{T})} - \sum_{t>1} \log \frac{p_{\theta}(x_{t-1}|x_{t})}{q(x_{t-1}|x_{t}, x_{0})} - \log\frac{1}{q(x_{T}|x_{0})} - \log(\frac{p_{\theta}(x_{0}|x_{1})}{q(x_{1}|x_{0})})\right] \\
+	&=\mathbf{E}_{q}\left[ -\log\frac{p(x_{T})}{q(x_{T}|x_{0})} - \sum_{t>1} \log \frac{p_{\theta}(x_{t-1}|x_{t})}{q(x_{t-1}|x_{t}, x_{0})} - \log(\frac{p_{\theta}(x_{0}|x_{1})}{q(x_{1}|x_{0})})\right] \\
+\end{align*}
+$$
 
-Citations are then used in the article body with the `<d-cite>` tag.
-The key attribute is a reference to the id provided in the bibliography.
-The key attribute can take multiple ids, separated by commas.
+Let $$ L_{t} = \mathbf{E}_{q}\left[- \log \frac{p_{\theta}(x_{t-1}\|x_{t})}{q(x_{t-1}\|x_{t}, x_{0})} \right] $$ as an example.
 
-The citation is presented inline like this: <d-cite key="gregor2015draw"></d-cite> (a number that displays more information on hover).
-If you have an appendix, a bibliography is automatically created and populated in it.
+$$
+\begin{align*}
+	\mathbf{E}_{q}\left[- \log \frac{p_{\theta}(x_{t-1}|x_{t})}{q(x_{t-1}|x_{t}, x_{0})} \right] 
+	&= \int q(x_{0:T})\log \frac{q(x_{t-1}|x_{t}, x_{0})}{p_{\theta}(x_{t-1}|x_{t})} dx_{0:T} \\
+	&= \int q(x_{t-1}|x_{t}, x_{0}) q(x_{t}, x_{0}) q(x_{1:t-2}, x_{t+1:T}|x_{0}, x_{t-1}, x_{t}) \log \frac{q(x_{t-1}|x_{t}, x_{0})}{p_{\theta}(x_{t-1}|x_{t})} dx_{0:T} \\
+	&= \int \left[ \int q(x_{t-1}|x_{t}, x_{0}) \log \frac{q(x_{t-1}|x_{t}, x_{0})}{p_{\theta}(x_{t-1}|x_{t})} dx_{t-1}\right] q(x_{0:t-2}, x_{t:T}|x_{t-1}) dx_{0:t-2, t:T} \\
+	&= \int [\mathrm{D}_{\mathrm{KL}}(q(x_{t-1}| x_{0}, x_{t}) || p_{\theta}(x_{t-1}|x_{t}))]\: q(x_{0:t-2}, x_{t:T}|x_{t-1}) dx_{0:t-2, t:T} \\
+	&= \mathbf{E}_{q(x_{0:t-2}, x_{t:T}|x_{t-1})} [\mathrm{D}_{\mathrm{KL}}(q(x_{t-1}| x_{0}, x_{t}) || p_{\theta}(x_{t-1}|x_{t}))]
+\end{align*}
+$$
 
-Distill chose a numerical inline citation style to improve readability of citation dense articles and because many of the benefits of longer citations are obviated by displaying more information on hover.
-However, we consider it good style to mention author last names if you discuss something at length and it fits into the flow well — the authors are human and it’s nice for them to have the community associate them with their work.
+One noticeable property is that with given $$x_{t-1}, x_{0}$$, $$q(x_{t-1}\| x_{0}, x_{t})$$ and $$p_{\theta}(x_{t-1}\|x_{t})$$ are completely defined and $$\mathrm{D}_{\mathrm{KL}}(q(x_{t-1}\| x_{0}, x_{t}) \| p_{\theta}(x_{t-1}\|x_{t}))$$ is known, or can be set as a constant. Thus, we have the following equation:
 
-***
+$$
+\begin{align*}
+\mathbf{E}_{q(x_{t-1})} [\mathrm{D}_{\mathrm{KL}}(q(x_{t-1}| x_{0}, x_{t}) || p_{\theta}(x_{t-1}|x_{t}))] = \mathrm{D}_{\mathrm{KL}}(q(x_{t-1}| x_{0}, x_{t}) || p_{\theta}(x_{t-1}|x_{t}))
+\end{align*}
+$$
 
-## Footnotes
+From that observation, we finally get the form of $$L_{t}$$:
 
-Just wrap the text you would like to show up in a footnote in a `<d-footnote>` tag.
-The number of the footnote will be automatically generated.<d-footnote>This will become a hoverable footnote.</d-footnote>
+$$
+\begin{align*}
+	\mathbf{E}_{q}\left[- \log \frac{p_{\theta}(x_{t-1}|x_{t})}{q(x_{t-1}|x_{t}, x_{0})} \right] 
+	&= \mathbf{E}_{q(x_{0:t-2}, x_{t:T}|x_{t-1})} [\mathrm{D}_{\mathrm{KL}}(q(x_{t-1}| x_{0}, x_{t}) || p_{\theta}(x_{t-1}|x_{t}))] \\
+	&= \mathbf{E}_{q(x_{0:t-2}, x_{t:T}|x_{t-1})} \mathbf{E}_{q(x_{t-1})} [\mathrm{D}_{\mathrm{KL}}(q(x_{t-1}| x_{0}, x_{t}) || p_{\theta}(x_{t-1}|x_{t}))] \\
+	&= \mathbf{E}_{q(x_{0:T})}[\mathrm{D}_{\mathrm{KL}}(q(x_{t-1}| x_{0}, x_{t}) || p_{\theta}(x_{t-1}|x_{t}))]
+\end{align*}
+$$
 
-***
+Applying above transformation to the general $$L$$, we get the final form of $$L$$:
 
-## Code Blocks
+$$
+\begin{align*}
+	L
+	&=\mathbf{E}_{q}\left[-\log{\frac{p_{\theta}(x_{0:T})}{q(x_{1:T}|x_{0})}}\right] \\
+	&=\mathbf{E}_{q}\left[ \mathrm{D}_{\mathrm{KL}}(q(x_{T}|x_{0})||\:p(x_{T})) + \sum_{t>1}\mathrm{D}_{\mathrm{KL}}(q(x_{t-1}|x_{t}, x_{0}) ||\: p_{\theta}(x_{t-1}|x_{t})) + \log(\frac{q(x_{1}|x_{0})}{p_{\theta}(x_{0}|x_{1})})\right]
+\end{align*}
+$$
 
-Syntax highlighting is provided within `<d-code>` tags.
-An example of inline code snippets: `<d-code language="html">let x = 10;</d-code>`.
-For larger blocks of code, add a `block` attribute:
-
-<d-code block language="javascript">
-  var x = 25;
-  function(x) {
-    return x * x;
-  }
-</d-code>
-
-**Note:** `<d-code>` blocks do not look well in the dark mode.
-You can always use the default code-highlight using the `highlight` liquid tag:
-
-{% highlight javascript %}
-var x = 25;
-function(x) {
-  return x * x;
-}
-{% endhighlight %}
-
-***
-
-## Layouts
-
-The main text column is referred to as the body.
-It is the assumed layout of any direct descendants of the `d-article` element.
-
-<div class="fake-img l-body">
-  <p>.l-body</p>
-</div>
-
-For images you want to display a little larger, try `.l-page`:
-
-<div class="fake-img l-page">
-  <p>.l-page</p>
-</div>
-
-All of these have an outset variant if you want to poke out from the body text a little bit.
-For instance:
-
-<div class="fake-img l-body-outset">
-  <p>.l-body-outset</p>
-</div>
-
-<div class="fake-img l-page-outset">
-  <p>.l-page-outset</p>
-</div>
-
-Occasionally you’ll want to use the full browser width.
-For this, use `.l-screen`.
-You can also inset the element a little from the edge of the browser by using the inset variant.
-
-<div class="fake-img l-screen">
-  <p>.l-screen</p>
-</div>
-<div class="fake-img l-screen-inset">
-  <p>.l-screen-inset</p>
-</div>
-
-The final layout is for marginalia, asides, and footnotes.
-It does not interrupt the normal flow of `.l-body` sized text except on mobile screen sizes.
-
-<div class="fake-img l-gutter">
-  <p>.l-gutter</p>
-</div>
+Since the term $$ \mathrm{D}_{\mathrm{KL}}(q(x_{T} \| x_{0}) \|\:p(x_{T})) $$ is a constant, training is now 
+approximating the reverse distribution $$p_{\theta}(x_{t-1}\|x_{t})$$ to the posterior $$ q(x_{t-1}\|x_{t}, x_{0}) $$.
 
 ***
 
-## Other Typography?
-
-Emphasis, aka italics, with *asterisks* (`*asterisks*`) or _underscores_ (`_underscores_`).
-
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
-
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
-Here's our logo (hover to see the title text):
-
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-
-Inline `code` has `back-ticks around` it.
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
- 
-```python
-s = "Python syntax highlighting"
-print s
-```
- 
-```
-No language indicated, so no syntax highlighting. 
-But let's throw in a <b>tag</b>.
-```
-
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
-
-
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
-
-This line is also a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+## Posterior Distribution
