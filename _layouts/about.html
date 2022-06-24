@@ -31,29 +31,47 @@ layout: default
 
           <div class="clearfix">
             {{ content }}
-          </div>
-
-          {% if page.news -%}
-          <!-- News -->
-          {%- include news.html %}
-          {%- endif %}
-          {% if page.selected_papers -%}
-            <!-- Selected papers -->
-            {%- include selected_papers.html %}
-          {%- endif %}
-          {%- if page.social %}
+                {%- if page.social %}
           <!-- Social -->
           <div class="social">
             <div class="contact-icons">
             {% include social.html %}
             </div>
-
+                
             <div class="contact-note">
               {{ site.contact_note }}
             </div>
             
           </div>
           {%- endif %}
+          </div>
+
+          {% if page.news -%}
+          <!-- News -->
+          {%- include news.html %}
+          {%- endif %}
+              
+          {% if page.education -%}
+          <!-- Education -->
+          {%- include education.html %}
+          {%- endif %}
+              
+          {% if page.selected_papers -%}
+            <!-- Selected papers -->
+            {%- include selected_papers.html %}
+          {%- endif %}
+          
+          {% if page.services -%}
+          <!-- Services -->
+          {%- include services.html %}
+          {%- endif %}
+          
+          {% if page.honors -%}
+          <!-- Services -->
+          {%- include honors.html %}
+          {%- endif %}
+              
+
         </article>
 
 </div>
