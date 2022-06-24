@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-02-05 
 inline: true
 ---
 
-A simple inline announcement.
+[Fiat-Shamir Bulletproofs are Non-Malleable (in the Algebraic Group Model)](https://eprint.iacr.org/2021/1393) has been accepted at [Eurocrypt 2022!
