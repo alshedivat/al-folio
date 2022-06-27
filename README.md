@@ -124,25 +124,26 @@ Then you can use Dockerhub prebuilt image to run your website. Note that for the
       bin/dockerhub_run.sh
 ```
 
-##### More Advanced Users
-You can also build your own docker image. 
+<details><summary>(click to expand) <strong>Build your own docker image (more advanced):</strong></summary>
 
-So first, download necessary modules and install them into a docker image called `mywebsite:Dockerfile` (this command will build an image which is used to run your website afterwards. Note that you only need to do this step once. After you have the image, you no longer need to do this anymore):
+First, download the necessary modules and install them into a docker image called `mywebsite:Dockerfile` (this command will build an image which is used to run your website afterwards. Note that you only need to do this step once. After you have the image, you no longer need to do this anymore):
   
 
-```bash
+\```bash
     bin/docker_build_image.sh  
-```
+\```
 
 Run the website!
 
-```bash
+\```bash
     bin/docker_run.sh
-```
+\```
 
-> In order to change port number, you can change `docker_run.sh` file.
+> To change port number, you can edit `docker_run.sh` file.
 
-> If you want to update jekyll or install new ruby packages or ... , all you have to do is to build the image again using `docker_build_image.sh`! It will download ruby and jekyll and installall ruby packages again.
+> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `docker_build_image.sh`! It will download ruby and jekyll and install all ruby packages again from scratch.
+
+</details>
 
 #### Local Setup (Legacy mode)
 
