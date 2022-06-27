@@ -18,8 +18,10 @@
     {%- else -%}
         {%- capture title -%}{{ site.title }}{%- endcapture -%}
     {%- endif -%}
-    {%- if page.title != "blank" and page.url != "/" -%}
-        {{ title }} | {{ page.title }}
+    {% if page.url == '/blog/index.html' %}
+        {{ site.blog_nav_title }} | {{ title }}
+    {%- elsif page.title != "blank" and page.url != "/" -%}
+        {{ page.title }} | {{ title }}
     {%- else -%}
         {{ title }}
     {%- endif -%}
@@ -33,9 +35,9 @@
 {%- if site.serve_og_meta %}
 
     <!-- OpenGraph -->
-    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:site_name" content="{{ title }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="{%- if page.title -%}{{ site.title }} | {{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}" />
+    <meta property="og:title" content="{%- if page.title -%}{{ title }} | {{ page.title }}{%- else -%}{{ title }}{%- endif -%}" />
     <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}" />
     <meta property="og:description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />
     {% if page.og_image or site.og_image -%}
@@ -45,7 +47,7 @@
 
     <!-- Twitter card -->
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}" />
+    <meta name="twitter:title" content="{%- if page.title -%}{{ page.title }}{%- else -%}{{ title }}{%- endif -%}" />
     <meta name="twitter:description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />
     {% if page.og_image or site.og_image -%}
     <meta name="twitter:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
