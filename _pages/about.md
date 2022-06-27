@@ -6,7 +6,8 @@ subtitle: Andrew Rodriguez | Graduate Student Researcher
 
 profile:
   align: right
-  image: profile_pic.jpg
+  image: prof_pic.jpg
+  image_cicular: false # crops the image to make it circular
   address:
 
 news: true  # includes a list of news items
