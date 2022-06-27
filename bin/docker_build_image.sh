@@ -2,4 +2,4 @@
 if [ -f "$FILE" ]; then
     rm $FILE
 fi
-  docker build -t "mywebsite:Dockerfile" . 
+  docker build -t "al-folio:Dockerfile" . 

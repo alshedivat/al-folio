@@ -115,9 +115,9 @@ Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/0
 
 ### Installation
 
-#### Local setup using Docker (Recommended)
+#### Local setup using Docker (Recommended on Windows)
 
-You need to do these step to get `ai-folio` up and running in your local machine:
+You need to do these step to get `al-folio` up and running in your local machine:
 
 - Install [docker](https://docs.docker.com/get-docker/)
 - Clone your repository
@@ -154,7 +154,7 @@ Run the website!
 
 </details>
 
-#### Local Setup (Legacy mode)
+#### Local Setup (Standard)
 
 Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first [fork](https://guides.github.com/activities/forking/) the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
 
