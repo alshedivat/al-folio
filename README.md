@@ -135,7 +135,7 @@ Then you can use Dockerhub prebuilt image to run your website. Note that for the
 
 <details><summary>(click to expand) <strong>Build your own docker image (more advanced):</strong></summary>
 
-First, download the necessary modules and install them into a docker image called `mywebsite:Dockerfile` (this command will build an image which is used to run your website afterwards. Note that you only need to do this step once. After you have the image, you no longer need to do this anymore):
+First, download the necessary modules and install them into a docker image called `al-folio:Dockerfile` (this command will build an image which is used to run your website afterwards. Note that you only need to do this step once. After you have the image, you no longer need to do this anymore):
   
 
 \```bash
