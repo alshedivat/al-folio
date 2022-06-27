@@ -461,6 +461,9 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
+      .teaser {
+        width: 100%;
+      }
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
