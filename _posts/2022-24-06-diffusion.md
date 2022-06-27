@@ -3,6 +3,7 @@ layout: distill
 title: Diffusion theory
 description: Explanation of DDPM.
 date: 2022-06-24
+tags: ["Generative Model", "Diffusion"]
 
 authors:
   - name: Giang Vu Long
@@ -18,13 +19,18 @@ bibliography: diffusiontheory.bib
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
-  - name: Problem Formulation
-  - name: Loss Function Construction
+  - name: Problem formulation
+  - name: Loss function construction
     # if a section has subsections, you can add them as follows:
     # subsections:
     #   - name: Example Child Subsection 1
     #   - name: Example Child Subsection 2
-  - name: Posterior Distribution
+  - name: Posterior distribution
+  - name: Parameterizing the reverse distribution
+  - name: Conclusion
+    subsections:
+    - name: Props
+    - name: Cons
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -46,17 +52,17 @@ _styles: >
 
 ---
 
-## Problem Formulation
+## Problem formulation
 
-In recent years, Generative Adversarial Network has dominated in the field of generative model in term of sample quality and inference rate. Yet GANs show the weakness about the data distribution coverage and the challenging problem of training. In 2015, the idea of diffusion model had came out and then in 2020, DDPM (cite something here) was introduced and illustrated amazing results regarding to image fidelty and the coverage of distribution. Furthermore, in 2021, (Diffusion model beat GANs) shows that Diffusion Models have the ability to overcome GANs in the sample quality and exhibit good behavior in distribution coverage, which is the critical weakness of GANs.
+In recent years, Generative Adversarial Network has dominated in the field of generative model in term of sample quality and inference rate. Yet GANs show the weakness about the data distribution coverage and the challenging problem of training. In 2015, the idea of diffusion model <d-cite key="sohl2015deep"></d-cite> had came out and then in 2020, DDPM <d-cite key="ho2020denoising"></d-cite> was introduced and illustrated amazing results regarding to image fidelity and the coverage of distribution. Furthermore, in 2021, Dhariwal and Nichol <d-cite key="dhariwal2021diffusion"></d-cite> shows that Diffusion Models have the ability to overcome GANs in the sample quality and exhibit good behavior in distribution coverage, which is the critical weakness of GANs.
 
-In this blog, we will go through the idea and derivation of DDPM (the formulas and ideas follows the DDPM.)
+In this blog, we will go through the idea and derivation of diffusion models (the formulas and ideas follows the DDPM <d-cite key="ho2020denoising"></d-cite>).
 
 <div class="l-body">
     {% include figure.html path="assets/img/posts/diffusion/figure1.png" title="example image" class="img-fluid rounded z-depth-1" %}
 </div>
 
-The concept of diffusion model is diffusing the original image into a white noise with a given strategy and then learn a reverse process to approximate it. Behind the scene, (cite Feller theory) shows that if the noise schedule at each step is small enough, the reverse process shares the same form with the forward one, that is a vital factor which allows us to construct the loss functions and the learning algorithms.
+The concept of diffusion model is diffusing the original image into a white noise with a given strategy and then learn a reverse process to approximate it. Behind the scene, for both Gaussian and binomial diffusion, <d-cite key="feller1949theory"></d-cite> if the noise schedule at each step is small enough, the reverse process shares the same form with the forward one, that is a vital factor which allows us to construct the loss functions and the learning algorithms.
 
 In detail, forward process is formulated as follow:
 
@@ -139,7 +145,7 @@ $$
   &=\mathbf{E}_{q}\left[-\log{\frac{p(x_{T}).\prod^{T}_{1} p_{\theta}(x_{t-1}|x_{t})}{q(x_{1:T}|x_{0})}}\right] \\
   &=\mathbf{E}_{q}\left[ -\log{p(x_{T})} - \sum_{t\geq1} \log \frac{p_{\theta}(x_{t-1}|x_{t})}{q(x_{t}|x_{t-1})} \right] \\
   &=\mathbf{E}_{q}\left[ -\log{p(x_{T})} - \sum_{t>1} \log \frac{p_{\theta}(x_{t-1}|x_{t})}{q(x_{t}|x_{t-1})} - \log(\frac{p_{\theta}(x_{0}|x_{1})}{q(x_{1}|x_{0})})\right] \\
-  &=\mathbf{E}_{q}\left[ -\log{p(x_{T})} - \sum_{t>1} \log \frac{p_{\theta}(x_{t-1}|x_{t})}{q(x_{t-1}|x_{t}, x_{0})}.\frac{q(x_{t-1}|x_{0})}{q(x_{t}|x_{0})} - \log(\frac{p_{\theta}(x_{0}|x_{1})}{q(x_{1}|x_{0})})\right] \text{(apply bayes rule)} \\
+  &=\mathbf{E}_{q}\left[ -\log{p(x_{T})} - \sum_{t>1} \log \frac{p_{\theta}(x_{t-1}|x_{t})}{q(x_{t-1}|x_{t}, x_{0})}.\frac{q(x_{t-1}|x_{0})}{q(x_{t}|x_{0})} - \log(\frac{p_{\theta}(x_{0}|x_{1})}{q(x_{1}|x_{0})})\right] \\
 	&=\mathbf{E}_{q}\left[ -\log{p(x_{T})} - \sum_{t>1} \log \frac{p_{\theta}(x_{t-1}|x_{t})}{q(x_{t-1}|x_{t}, x_{0})} -\sum_{t>1}\log\frac{q(x_{t-1}|x_{0})}{q(x_{t}|x_{0})} - \log(\frac{p_{\theta}(x_{0}|x_{1})}{q(x_{1}|x_{0})})\right] \\
 	&=\mathbf{E}_{q}\left[ -\log{p(x_{T})} - \sum_{t>1} \log \frac{p_{\theta}(x_{t-1}|x_{t})}{q(x_{t-1}|x_{t}, x_{0})} - \log\frac{1}{q(x_{T}|x_{0})} - \log(\frac{p_{\theta}(x_{0}|x_{1})}{q(x_{1}|x_{0})})\right] \\
 	&=\mathbf{E}_{q}\left[ -\log\frac{p(x_{T})}{q(x_{T}|x_{0})} - \sum_{t>1} \log \frac{p_{\theta}(x_{t-1}|x_{t})}{q(x_{t-1}|x_{t}, x_{0})} - \log(\frac{p_{\theta}(x_{0}|x_{1})}{q(x_{1}|x_{0})})\right] \\
@@ -188,9 +194,83 @@ $$
 \end{align*}
 $$
 
-Since the term $$ \mathrm{D}_{\mathrm{KL}}(q(x_{T} \vert x_{0}) \vert\:p(x_{T})) $$ is a constant, training is now 
-approximating the reverse distribution $$p_{\theta}(x_{t-1}\vert x_{t})$$ to the posterior $$ q(x_{t-1}\vert x_{t}, x_{0}) $$.
+Since the term $$ \mathrm{D}_{\mathrm{KL}}(q(x_{T} \vert x_{0}) \vert\:p(x_{T})) $$ is a constant, training is now approximating the reverse distribution $$p_{\theta}(x_{t-1}\vert x_{t})$$ to the posterior $$ q(x_{t-1}\vert x_{t}, x_{0}) $$.
 
 ***
 
-## Posterior Distribution
+## Posterior distribution
+
+In above section, we have gone through the ideas and transformations for the lost function. Noticeablely, the loss function if cummulative of KL divergence between the reverse distribution and the posterior over all timestep $$t$$. To complete the loss function transformation, let's take a glance at the posterior <d-cite key="weng2021diffusion"></d-cite>.
+
+$$
+\begin{align*}
+  q(x_{t-1}|x{t}, x_{0})
+	&= \frac{q(x_{t}, x_{t-1}|x_{0})}{q(x_{t}|x_{0})} \\
+	&= q(x_{t}|x_{t-1}, x_{0})\frac{q(x_{t-1}|x_{0})}{q(x_{t}|x_{0})} \\
+	&= q(x_{t}|x_{t-1})\frac{q(x_{t-1}|x_{0})}{q(x_{t}|x_{0})} \\
+	&\propto \text{exp} \left(- \frac{1}{2}(\frac{(x_{t} - \sqrt{\alpha_{t}}\,x_{t-1})^{2}}{\beta_{t}} + \frac{(x_{t-1}-\sqrt{\bar{\alpha}_{t-1}}\,x_{0})^2}{1 - \bar{\alpha}_{t-1}} - \frac{(x_{t}-\sqrt{\bar{\alpha}_{t}}x_{0})^2}{1-\bar{\alpha}_{t}})\right) \\
+	&= \text{exp} \left(- \frac{1}{2} ((\frac{\alpha_{t}}{\beta_{t}} + \frac{1}{1-\bar{\alpha}_{t-1}})x^{2}_{t-1} - (\frac{2\sqrt{\alpha_{t}}}{\beta_{t}}x_{t} + \frac{2\sqrt{\bar{\alpha}_{t-1}}}{1-\bar{\alpha}_{t-1}}x_{0})x_{t-1} + \mathbf{C}(x_{t}, x_{0}))\right)
+\end{align*}
+$$
+
+Take a look at the equation inside.
+
+$$
+\begin{align*}
+  &\   (\frac{\alpha_{t}}{\beta_{t}} + \frac{1}{1-\bar{\alpha}_{t-1}})x^{2}_{t-1} - (\frac{2\sqrt{\alpha_{t}}}{\beta_{t}}x_{t} + \frac{2\sqrt{\bar{\alpha}_{t-1}}}{1-\bar{\alpha}_{t-1}}x_{0})x_{t-1} + \mathbf{C}(x_{t}, x_{0}) \\
+	&= (\frac{\alpha_{t}(1-\bar{\alpha}_{t-1}) + \beta_{t}}{\beta_{t}(1-\bar{\alpha}_{t-1})})\,x_{t-1}^2 - 2(\frac{\sqrt{\alpha_{t}}(1-\bar{\alpha}_{t-1})x_{t} + \sqrt{\bar{\alpha}_{t-1}}\beta_{t}x_{0}}{\beta_{t}(1-\bar{\alpha}_{t-1})})x_{t-1} + \mathbf{C}(x_{t}, x_{0}) \\
+	&=\frac{\alpha_{t}-\alpha_{t}\bar{\alpha}_{t-1} + 1 - \alpha_{t}}{\beta_{t}(1-\bar{\alpha}_{t-1})}x_{t-1}^2 - 2(\frac{\sqrt{\alpha_{t}}(1-\bar{\alpha}_{t-1})}{\beta_{t}(1-\bar{\alpha}_{t-1})}x_{t} + \frac{\sqrt{\bar{\alpha}_{t-1}}\beta_{t}}{\beta_{t}(1-\bar{\alpha}_{t-1})}x_{0})x_{t-1} + \mathbf{C}(x_{t}, x_{0}) \\
+	&=\frac{1 - \bar{\alpha}_{t}}{\beta_{t}(1-\bar{\alpha}_{t-1})}x_{t-1}^2 - 2(\frac{\sqrt{\alpha_{t}}(1-\bar{\alpha}_{t-1})}{\beta_{t}(1-\bar{\alpha}_{t-1})}x_{t} + \frac{\sqrt{\bar{\alpha}_{t-1}}\beta_{t}}{\beta_{t}(1-\bar{\alpha}_{t-1})}x_{0})x_{t-1} + \mathbf{C}(x_{t}, x_{0}) \\
+	&=\frac{1 - \bar{\alpha}_{t}}{\beta_{t}(1-\bar{\alpha}_{t-1})}\left( x_{t-1}^2 - 2(\frac{\sqrt{\alpha_{t}}(1-\bar{\alpha}_{t-1})}{1 - \bar{\alpha}_{t}}x_{t} + \frac{\sqrt{\bar{\alpha}_{t-1}}\beta_{t}}{1 - \bar{\alpha}_{t}}x_{0})x_{t-1}\right) + \mathbf{C}(x_{t}, x_{0})
+\end{align*}
+$$
+
+From there $$ q(x_{t-1}\vert x{t}, x_{0}) $$ can be seen as a Gaussian with $$\mathbf{E}_{q(x_{t-1}\vert x_{t},x_{0})}[x_{t-1}] = \frac{\sqrt{\alpha_{t}}(1-\bar{\alpha}_{t-1})}{1 - \bar{\alpha}_{t}}x_{t} + \frac{\sqrt{\bar{\alpha}_{t-1}}\beta_{t}}{1 - \bar{\alpha}_{t}}x_{0}$$ and $${\mathbf{V}_{q(x_{t-1} \vert x_{t},x_{0})}[x_{t-1}] = \frac{\beta_{t}(1-\bar{\alpha}_{t-1})}{1 - \bar{\alpha}_{t}}}$$.
+
+Denote $$ \tilde{\mu}_{t} = \frac{\sqrt{\alpha_{t}}(1-\bar{\alpha}_{t-1})}{1 - \bar{\alpha}_{t}}x_{t} + \frac{\sqrt{\bar{\alpha}_{t-1}}\beta_{t}}{1 - \bar{\alpha}_{t}}x_{0} $$ and $$ \tilde{\beta}_{t} = \frac{\beta_{t}(1-\bar{\alpha}_{t-1})}{1 - \bar{\alpha}_{t}}$$, then we have $$ q(x_{t-1}\vert x_{t}, x_{0}) = \mathcal{N}(\tilde{\mu}_{t}, \tilde{\beta}_{t}\mathrm{I}) $$. Furthermore, we have $$ x_{t} = \sqrt{\bar{\alpha}_t} x_{0} + \sqrt{(1-\bar{\alpha}_{t})}\epsilon $$:
+
+$$
+\begin{align*}
+  \tilde{\mu}_{t} &= \frac{\sqrt{\alpha_{t}}(1-\bar{\alpha}_{t-1})}{1 - \bar{\alpha}_{t}}x_{t} + \frac{\sqrt{\bar{\alpha}_{t-1}}\beta_{t}}{1 - \bar{\alpha}_{t}}x_{0}  \\
+  &= \frac{\sqrt{\alpha_{t}}(1-\bar{\alpha}_{t-1})}{1 - \bar{\alpha}_{t}}x_{t} + \frac{\sqrt{\bar{\alpha}_{t-1}}\beta_{t}}{1 - \bar{\alpha}_{t}} \left( \frac{x_{t} - \sqrt{(1-\bar{\alpha}_{t})}\epsilon}{\sqrt{\bar{\alpha}_t}}\right) \\
+  &= \gamma_{t}x_{t} + \frac{\beta_{t}}{\sqrt{\alpha_{t}(1-\bar{\alpha}_{t})}} \epsilon
+\end{align*}
+$$
+
+***
+
+## Parameterizing the reverse distribution
+
+Because posterior distribution is gaussian, it is reasonable to construct reverse distribution as a gaussian one $$ p_{\theta}(x_{t-1} \vert x_{t}) = \mathcal{N}(\mu_{\theta}(x_{t}, t), \Sigma_{\theta}(x_{t}, t))$$. According to Ho <d-cite key="ho2020denoising"></d-cite>, fixed $$\Sigma_{\theta}$$ illustrates better results than trainable one. In detail, the authors use two options to fix $$\Sigma_{\theta}$$:
+
+* Fix to noise schedule: $$ \Sigma_{\theta} = \beta_{t}\mathrm{I} $$
+* Fix to posterior variance: $$ \Sigma_{\theta} = \tilde{\beta}_{t}\mathrm{I} $$
+
+Since $$\Sigma_{\theta}$$ is fix, KL divergence at t timestep has close form:
+
+$$
+\begin{align*}
+L_{t-1} &= \mathbf{E}_{q}(\mathrm{D}_{\mathrm{KL}}(q(x_{t-1}|x_{t}, x_{0}) ||\: p_{\theta}(x_{t-1}|x_{t}))) \\
+&= \mathbf{E}_{q}\left[ \frac{\beta_{t}^{2}}{2\sigma_{t}^{2}\alpha_{t}(1-\bar{\alpha}_{t})} || \epsilon - \epsilon_{\theta}(x_{t}, t)||^{2} \right]
+\end{align*}
+$$
+
+From here, one can calculate the loss function train the network.
+Below is the algorithm Ho <d-cite key="ho2020denoising"> </d-cite> used for his training.
+
+<div class="l-body">
+    {% include figure.html path="assets/img/posts/diffusion/figure2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+</div>
+
+***
+
+## Conclusion
+
+1. Props:
+
+   * Diffusion model show a new method to generate data with high-quality.
+   * Data generated using this family of model avoids mode collapse, which leads to higher number in likelihood score.
+  
+2. Cons:
+
+   * Because of the idea of gradually denoise from initial datapoint, diffusion model requires large number step to generate a sample, which is less efficient that prior method such as GANs or VAE.

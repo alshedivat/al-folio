@@ -8,10 +8,18 @@ layout: default
           <h1 class="post-title">
            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}<span class="font-weight-bold">{{ site.title }}</span>{%- endif %}
           </h1>
-          <p class="desc">{{ page.subtitle }}</p>
+          {% for subtitle in page.subtitle -%}
+          <p class="desc">
+            <span class="highlight"> {{subtitle.title}} </span>
+            at
+            <span class="highlight">{{subtitle.org}}</span>
+            
+          </p>
+          {% endfor -%}
+          <!--{{ page.subtitle }} -->
         </header>
 
-        <article>
+        <article style="margin-top:30px">
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             {%- if page.profile.image %}
