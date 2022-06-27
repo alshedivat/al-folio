@@ -2,7 +2,7 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 {% if entry.teaser %} teaser{% else %} abbr{% endif %}">
+        <div class="col-sm-3 {% if entry.teaser %} teaser{% else %} abbr{% endif %}">
         {%- if entry.teaser -%}
           {% if entry.teaser contains '://' -%}
           <img class="teaser" src="{{ entry.teaser }}">
