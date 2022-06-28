@@ -38,7 +38,7 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" align="center">
-        {% include figure.html path="./../../../assets/img/advanced_lane_lines/undistorted.png" title="Undistorted" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="./../../../assets/img/advanced_lane_lines/undistorted.png" title="Undistorted" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
