@@ -234,7 +234,7 @@ scholar:
 
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
 
-max_author_limit: 3 # maximum number of authors to be shown, other authors will be visible on hover, leave blank to show all authors
+max_author_limit: # maximum number of authors to be shown, other authors will be visible on hover, leave blank to show all authors
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
