@@ -5,15 +5,29 @@
   pfp: /assets/img/1.jpg
   email: cjosephson@ucsc.edu
   body: |
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-    ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-    parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-    pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec
-    pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
-    justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis
-    eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-    semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor
-    eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
-    viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius
-    laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
-    Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tortor
+    velit, cursus non dui rhoncus, luctus placerat lorem. Suspendisse ornare
+    aliquam leo, quis condimentum purus pulvinar sed. Aliquam commodo lacus
+    velit, sed sodales dolor venenatis eget. Proin tempor non orci vitae
+    gravida. Aliquam eu posuere nisl. Sed dictum tellus mi, aliquam tempus
+    ligula tristique sed. Aenean consectetur lorem quis nisl consectetur
+    tincidunt. Donec at fermentum erat. Proin tellus est, euismod sed nisl in,
+    ornare bibendum urna. Phasellus faucibus malesuada sapien, in facilisis
+    tellus. Praesent placerat, nunc quis posuere hendrerit, lacus felis
+    suscipit purus, nec aliquet tellus justo id ligula. Pellentesque.
+
+- name: John Madden
+  title: Assistant Lab Manager
+  pfp: /assets/img/2.jpg
+  email: jtmadden@ucsc.edu
+  body: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+    libero metus, scelerisque id ullamcorper sit amet, bibendum nec urna. Morbi
+    et sem non urna gravida euismod. Aliquam sit amet ligula hendrerit,
+    volutpat libero in, suscipit felis. Nam faucibus porttitor diam, a pretium
+    elit. Nulla iaculis, lacus vitae aliquam fringilla, sem leo iaculis felis,
+    ut consectetur quam odio eu nibh. Aliquam vestibulum tortor a eros egestas
+    sodales. Duis volutpat sem vitae aliquet viverra. Integer eu fermentum
+    tortor. Nullam nulla risus, consequat quis tortor sed, tempus faucibus mi.
+    Mauris sapien felis, porta a sodales quis, sodales a orci. Sed auctor id
+    turpis vel pretium.
