@@ -8,6 +8,16 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
 }
 
+span-github-link {
+  a {
+    color: var(--global-theme-color);
+    &:hover {
+      color: var(--global-hover-color);
+      text-decoration: none;
+    }
+  }
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -123,6 +133,19 @@ blockquote {
     color: inherit;
     &:hover {
       color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
+
+.post-github {
+  margin-top: -1.8rem;
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+  a {
+    color: var(--global-theme-color);
+    &:hover {
+      color: var(--global-hover-color);
       text-decoration: none;
     }
   }
