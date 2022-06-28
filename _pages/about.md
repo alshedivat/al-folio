@@ -12,7 +12,7 @@ profile:
        <i class="fas fa-map-marker-alt"></i> Located in Singapore
     </p>
 
-news: true  # includes a list of news items
+certs: true  # includes a list of certs items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---

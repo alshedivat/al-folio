@@ -108,16 +108,16 @@ external_sources:
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
+  certs:
     defaults:
       layout: post
     output: true
-    permalink: /news/:path/
+    permalink: /certs/:path/
   projects:
     output: true
     permalink: /projects/:path/
 
-news_limit: 5
+certs_limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

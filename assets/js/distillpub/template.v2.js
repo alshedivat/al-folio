@@ -1017,9 +1017,9 @@ ${math}
     // properties "name" and "url".
     for (let author of frontMatter.authors) {
       const hasOldStyle = Boolean(author.affiliation);
-      const hasNewStyle = Boolean(author.affiliations);
+      const hascertstyle = Boolean(author.affiliations);
       if (!hasOldStyle) continue;
-      if (hasNewStyle) {
+      if (hascertstyle) {
         console.warn(`Author ${author.author} has both old-style ("affiliation" & "affiliationURL") and new style ("affiliations") affiliation information!`);
       } else {
         let newAffiliation = {

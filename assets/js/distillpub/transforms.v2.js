@@ -373,9 +373,9 @@
     // properties "name" and "url".
     for (let author of frontMatter.authors) {
       const hasOldStyle = Boolean(author.affiliation);
-      const hasNewStyle = Boolean(author.affiliations);
+      const hascertstyle = Boolean(author.affiliations);
       if (!hasOldStyle) continue;
-      if (hasNewStyle) {
+      if (hascertstyle) {
         console.warn(`Author ${author.author} has both old-style ("affiliation" & "affiliationURL") and new style ("affiliations") affiliation information!`);
       } else {
         let newAffiliation = {
@@ -5121,8 +5121,8 @@
           "scriptscript": _Style2.default.SCRIPTSCRIPT
       };
 
-      var newStyle = styleMap[group.value.style];
-      var newOptions = options.havingStyle(newStyle);
+      var certstyle = styleMap[group.value.style];
+      var newOptions = options.havingStyle(certstyle);
       return sizingGroup(group.value.value, newOptions, options);
   };
 
@@ -6082,8 +6082,8 @@
           "scriptscript": _Style2.default.SCRIPTSCRIPT
       };
 
-      var newStyle = styleMap[group.value.style];
-      var newOptions = options.havingStyle(newStyle);
+      var certstyle = styleMap[group.value.style];
+      var newOptions = options.havingStyle(certstyle);
 
       var inner = buildExpression(group.value.value, newOptions);
 
