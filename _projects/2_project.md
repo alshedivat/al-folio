@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
-importance: 2
-category: work
+title: Gender bias in NLI
+description: evaluating gender bias in natural language inference.
+img: assets/img/gender_bias_nli.jpg
+importance: 3
+redirect: https://github.com/shanyas10/Evaluating-gender-bias
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.
@@ -36,7 +37,7 @@ To give your project a background in the portfolio page, just add the img tag to
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gender_bias_nli.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

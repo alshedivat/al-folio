@@ -1,9 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
+title: Metadata
+description: use of metadata while pre-training a model to improve various aspects (such as its zero-shot text generation abilities)
+img: #
+importance: 5
+redirect: https://github.com/bigscience-workshop/metadata
 category: fun
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-01-24 03:48:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+[PromptSource: An Integrated Development Environment and Repository for Natural Language Prompts](https://arxiv.org/abs/2202.01279), accepted at ACL, Demo Track, 2022

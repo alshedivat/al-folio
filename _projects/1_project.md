@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: PromptSource
+description: a toolkit for creating, sharing and using natural language prompts.
+img: assets/img/promptsource_template.jpg
 importance: 1
-category: work
+redirect: https://github.com/bigscience-workshop/promptsource
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.

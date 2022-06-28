@@ -16,16 +16,9 @@ layout: default
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             {%- if page.profile.image %}
               {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
-
-              {% if page.profile.image_cicular %}
-              {%- assign profile_image_class = "img-fluid z-dept-1 rounded-circle" -%}
-              {% else %}
-              {%- assign profile_image_class = "img-fluid z-dept-1 rounded" -%}
-              {% endif %}
-
               {% include figure.html 
               path=profile_image_path 
-              class=profile_image_class
+              class="img-fluid z-dept-1 rounded"
               alt=page.profile.image -%}
             {% endif -%}
             {%- if page.profile.address %}
@@ -50,10 +43,10 @@ layout: default
           {%- endif %}
           {%- if page.social %}
           <!-- Social -->
-          <div class="social">
+          <!-- <div class="social">
             <div class="contact-icons">
             {% include social.html %}
-            </div>
+            </div> -->
 
             <div class="contact-note">
               {{ site.contact_note }}

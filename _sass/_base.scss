@@ -6,19 +6,11 @@
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
+  font-family: 'EB Garamond', serif;
 }
 
 hr {
   border-top: 1px solid var(--global-divider-color);
-}
-
-table {
-  td, th {
-    color: var(--global-text-color);
-  }
-  td {
-    font-size: 1rem;
-  }
 }
 
 a, table.table a {
@@ -60,32 +52,7 @@ blockquote {
   text-align: center;
 }
 
-// Card
-
-.card {
-  background-color: var(--global-card-bg-color);
-
-  img {
-    width: 100%;
-  }
-
-  .card-title {
-    color: var(--global-text-color);
-  }
-
-  .card-item {
-    width: auto;
-    margin-bottom: 10px;
-
-    .row {
-      display: flex;
-      align-items: center;
-    }
-  }
-}
-
 // Citation
-
 .citation, .citation-number {
   color: var(--global-theme-color);
 }
@@ -233,14 +200,16 @@ blockquote {
   }
 }
 
-#light-toggle {
-  padding: 0;
-  border: 0;
-  background-color: inherit;
+
+// News
+
+.news table td {
+  font-size: 1rem;
   color: var(--global-text-color);
-  &:hover {
-    color: var(--global-hover-color);
-  }
+}
+
+.news table th {
+  color: var(--global-text-color);
 }
 
 // Social (bottom)
@@ -292,25 +261,6 @@ footer.sticky-bottom {
   font-size: 0.9rem;
 }
 
-// CV
-
-.cv {
-  margin-bottom: 40px;
-  
-  .card {
-    background-color: var(--global-card-bg-color);
-    border: 1px solid var(--global-divider-color);
-    
-    .list-group-item {
-      background-color: inherit;
-
-      .badge {
-        color: var(--global-card-bg-color) !important;
-        background-color: var(--global-theme-color) !important;
-      }
-    }
-  }
-}
 
 // Blog
 
@@ -343,7 +293,6 @@ footer.sticky-bottom {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
       padding-top: 0.25rem;
-      padding-bottom: 0;
     }
     a {
       color: var(--global-text-color);
@@ -401,6 +350,9 @@ footer.sticky-bottom {
     img {
       width: 100%;
     }
+    .card-title {
+      color: $black-color;
+    }
   }
 
   .card-item {
@@ -413,7 +365,7 @@ footer.sticky-bottom {
     }
   }
 
-  .grid-sizer, .grid-item {
+  .grid-item {
     width: 250px;
     margin-bottom: 10px;
   }
@@ -594,7 +546,6 @@ html.transition *:after {
   .post-tags{
     color: var(--global-text-color-light);
     font-size: 0.875rem;
-    padding-top: 0.25rem;
     padding-bottom: 1rem;
     a {
       color: var(--global-text-color-light);
@@ -605,9 +556,15 @@ html.transition *:after {
     }
   }
   .post-content{
-    blockquote {
-      border-left: 5px solid var(--global-theme-color);
-      padding: 8px;
-    }
-  }
+        blockquote {
+          border-left: 5px solid var(--global-theme-color);
+          padding: 8px;
+      }
+}
+}
+
+.post-tags {
+  color: var(--global-text-color-light);
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
 }

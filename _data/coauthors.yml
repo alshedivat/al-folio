@@ -1,18 +1,35 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Sanh":
+  - firstname: ["Victor", "V."]
+    url: https://scholar.google.fr/citations?user=6STg_7IAAAAJ&hl=fr
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Webson":
+  - firstname: ["Albert", "A.", "B. Y.", "Boris Yakovlevich"]
+    url: https://representation.ai/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Raffel":
+  - firstname: ["Colin", "C."]
+    url: https://colinraffel.com/
 
 "Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+  - firstname: ["Stephen", "Stephen H."]
+    url: http://cs.brown.edu/people/sbach/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Rush": 
+  - firstname: ["Alexander M", "Alexander M."]
+    url: http://rush-nlp.com/
+
+"Wolf": 
+  - firstname: ["Thomas"]
+    url: https://thomwolf.io/
+
+"Mielke": 
+  - firstname: ["Sabrina J."]
+    url: https://sjmielke.com/
+
+"Sharma": 
+  - firstname: ["Shanya", "Shanya Sharma"]
+    url: https://shanyas10.github.io/
+
+"Sinha": 
+  - firstname: ["Koustuv"]
+    url: https://www.cs.mcgill.ca/~ksinha4/

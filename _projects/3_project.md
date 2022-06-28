@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+title: analyzing depression in YouTube videos
+description: analyzing depression in youtube videos
+img: assets/img/depression.jpg
+importance: 4
+redirect: https://github.com/shanyas10/Detecting-Depression-through-YouTube-history
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.
@@ -37,11 +37,11 @@ To give your project a background in the portfolio page, just add the img tag to
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/depression.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Poster of our work from the NeurIPS AI for Social Good Workshop, 2019.
 </div>
 
 You can also put regular text between your rows of images.

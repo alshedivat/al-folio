@@ -11,7 +11,7 @@
               {% else %}
               {% assign news_limit = news_size %}
               {% endif %}
-              {% for item in news limit: news_limit %} 
+              {% for item in news limit: news_limit %}
                 <tr>
                   <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
                   <td>
@@ -24,6 +24,7 @@
                 </tr>
               {%- endfor %} 
               </table>
+              <a target="_self" href="https://manandey.github.io/miscellaneous/" text-decoration: underline>🕰️ view all news..</a>
             </div>
           {%- else -%} 
             <p>No news so far...</p>

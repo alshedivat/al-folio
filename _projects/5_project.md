@@ -1,9 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
+title: sentence transformers 
+description: sentence transformers (Hugging Face Flax/JAX event)
+img: assets/img/sentence_transformers.jpg
+importance: 2
+redirect: https://huggingface.co/spaces/flax-sentence-embeddings/sentence-embeddings
 category: fun
 ---
 
