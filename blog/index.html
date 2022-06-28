@@ -20,6 +20,18 @@ pagination:
     <h2>{{ site.blog_description }}</h2>
   </div>
 
+  <div class="tag-list">
+    <ul class="list-group list-group-horizontal">
+      {% for tag in site.display_tags %}
+        <li>
+          <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
+        </li>
+        {% unless forloop.last %}
+          <p>&bull;</p>
+        {% endunless %}
+      {% endfor %}
+    </ul>
+  </div>
 
   <ul class="post-list">
     {% for post in paginator.posts %}
