@@ -37,3 +37,15 @@
     arcu, eu blandit dui neque ut ipsum. Praesent eu augue at odio maximus
     rhoncus. Ut gravida pretium ex sit amet efficitur. Proin bibendum urna nec
     laoreet euismod.
+
+- name: Steven Taylor
+  title: unsure
+  pfp: /assets/imgm/4.jpg
+  email: sgtaylor@ucsc.edu
+  body: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus diam
+    semper nibh aliquam vulputate. Pellentesque tempor justo mauris, ac
+    tincidunt felis tincidunt eu. Integer fermentum, eros vel suscipit
+    volutpat, nulla turpis aliquam eros, in semper est lectus nec elit. Vivamus
+    id lobortis orci. Ut vulputate porta ipsum vitae rutrum. Duis aliquam vel
+    ante at egestas. Aenean consectetur scelerisque erat.
