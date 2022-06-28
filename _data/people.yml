@@ -11,10 +11,7 @@
     velit, sed sodales dolor venenatis eget. Proin tempor non orci vitae
     gravida. Aliquam eu posuere nisl. Sed dictum tellus mi, aliquam tempus
     ligula tristique sed. Aenean consectetur lorem quis nisl consectetur
-    tincidunt. Donec at fermentum erat. Proin tellus est, euismod sed nisl in,
-    ornare bibendum urna. Phasellus faucibus malesuada sapien, in facilisis
-    tellus. Praesent placerat, nunc quis posuere hendrerit, lacus felis
-    suscipit purus, nec aliquet tellus justo id ligula. Pellentesque.
+    tincidunt. Donec at fermentum erat.
 
 - name: John Madden
   title: Assistant Lab Manager
@@ -26,8 +23,17 @@
     et sem non urna gravida euismod. Aliquam sit amet ligula hendrerit,
     volutpat libero in, suscipit felis. Nam faucibus porttitor diam, a pretium
     elit. Nulla iaculis, lacus vitae aliquam fringilla, sem leo iaculis felis,
-    ut consectetur quam odio eu nibh. Aliquam vestibulum tortor a eros egestas
-    sodales. Duis volutpat sem vitae aliquet viverra. Integer eu fermentum
-    tortor. Nullam nulla risus, consequat quis tortor sed, tempus faucibus mi.
-    Mauris sapien felis, porta a sodales quis, sodales a orci. Sed auctor id
-    turpis vel pretium.
+    ut consectetur quam odio eu nibh.
+
+- name: Revanth
+  title: Primary Research Assistant
+  pfp: /assets/img/3.jpg
+  email: unsure
+  body: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elit magna,
+    pulvinar id cursus ullamcorper, posuere eget augue. Pellentesque vestibulum
+    pellentesque ornare. Suspendisse ullamcorper rhoncus erat, in cursus neque.
+    Aenean condimentum, ligula volutpat hendrerit lacinia, urna ligula commodo
+    arcu, eu blandit dui neque ut ipsum. Praesent eu augue at odio maximus
+    rhoncus. Ut gravida pretium ex sit amet efficitur. Proin bibendum urna nec
+    laoreet euismod.
