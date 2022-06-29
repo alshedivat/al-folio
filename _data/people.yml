@@ -4,6 +4,10 @@
   title: Primary Investigator
   pfp: /assets/img/1.jpg
   email: cjosephson@ucsc.edu
+  github_username: test
+  gitlab_username: test
+  linkedin_username: test
+  work_url: test
   body: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tortor
     velit, cursus non dui rhoncus, luctus placerat lorem. Suspendisse ornare

@@ -1,5 +1,6 @@
 <h3>{{ include.person.name }}</h3>
 <h6>{{ include.person.title }}</h6>
+
 <hr>
 
 <div class="container mb-4">
@@ -11,4 +12,23 @@
       {{ include.person.body }}
     </div>
   </div>
+
+  <div class="mx-auto text-center" style="font-size: 2em">
+    {% if include.person.email %}
+    <a href="mailto:{{ include.person.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a>
+    {% endif %}
+    {% if include.person.github_username %}
+    <a href="https://github.com/{{ include.person.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
+    {% endif %} 
+    {%- if include.person.gitlab_username -%}
+    <a href="https://gitlab.com/{{ include.person.gitlab_username }}" title="GitLab"><i class="fab fa-gitlab"></i></a>
+    {% endif %}
+    {%-if include.person.linkedin_username %}
+    <a href="https://www.linkedin.com/in/{{ include.person.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    {% endif %}
+    {% if include.person.work_url %}
+    <a href="{{ include.person.work_url }}" title="Work"><i class="fas fa-globe"></i></a>
+    {% endif %}
+  </div>
+
 </div>
