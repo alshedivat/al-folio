@@ -1,19 +1,9 @@
-<h3>{{ include.person.name }}</h3>
-<h6>{{ include.person.title }}</h6>
-
-<hr>
-
-<div class="container mb-4">
-  <div class="row">
-    <div class="col-5">
-			<img src="{{ include.person.pfp}}" class="img-fluid rounded">
-    </div>
-    <div class="col-7">
-      {{ include.person.body }}
-    </div>
+<div class="d-flex flex-row">
+  <div class="d-flex flex-column flex-grow-1">
+    <h3 class="mb-1">{{ include.person.name }}</h3>
+    <h6>{{ include.person.title }}</h6>
   </div>
-
-  <div class="mx-auto text-center" style="font-size: 2em">
+  <div class="p-2 align-self-end" style="font-size: 2em">
     {% if include.person.email %}
     <a href="mailto:{{ include.person.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a>
     {% endif %}
@@ -30,5 +20,17 @@
     <a href="{{ include.person.work_url }}" title="Work"><i class="fas fa-globe"></i></a>
     {% endif %}
   </div>
+</div>
 
+<hr class="mt-0">
+
+<div class="container mb-5">
+  <div class="row">
+    <div class="col-5">
+			<img src="{{ include.person.pfp}}" class="img-fluid rounded">
+    </div>
+    <div class="col-7">
+      {{ include.person.body }}
+    </div>
+  </div>
 </div>
