@@ -30,7 +30,7 @@ As a scientist I am working mostly on, and am interested in:
 The [projects page](/projects/) describes some of my current and recent works.
 
 I am a:
-* Member of the <a href="https://icecube.wisc.edu/">IceCube collaboration</a>
+* Member of the <a href="https://icecube.wisc.edu/">IceCube collaboration</a> and convener of oscillation physics
 * PI in the <a href="https://www.sfb1258.de/">Collaborative Research Center 1258</a>
 * Member of the <a href="https://www.punch4nfdi.de/">PUNCH4NFDI</a> consortium
 * Fellow of the <a href="https://www.origins-cluster.de/infrastruktur/odsl">Origins Data Science Lab</a>
