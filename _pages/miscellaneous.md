@@ -9,37 +9,40 @@ importance: 2
 
 <html>
 
+          
+<div class="news">
+  <h2>events</h2>
+  {% if site.news != blank -%} 
+  {%- assign news_size = site.news | size -%}
+  <div class="table-responsive" {% if site.news_scrollable and news_size > 3 %}style="max-height: 25vw"{% endif %}>
+    <table class="table table-sm table-borderless">
+    {%- assign news = site.news | reverse -%}
+    {% if site.news_limit %}
+    {% assign news_limit = 500 %}
+    {% else %}
+    {% assign news_limit = news_size %}
+    {% endif %}
+    {% for item in news limit: news_limit %}
+      <tr>
+        <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+        <td>
+          {% if item.inline -%} 
+            {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+          {%- else -%} 
+          <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {%- endif %} 
+        </td>
+      </tr>
+      {%- endfor %} 
+      </table>
+  </div>
+  {%- else -%} 
+    <p>No news so far...</p>
+  {%- endif %} 
+</div>
 
-<h3 id="activities">activities</h3>
 
-<ul>
-  <li>Hugging Face 🤗 events
-    <ul>
-      <li>Our team (Sentence-Transformers) was one of the special nominees at the Flax Community Event organized by Hugging Face  and Google.
-      </li>
-      <li>Participated in HuggingFace XLSR Fine-Tuning Sprint and submitted best performing models fine-tuned on Common Voice dataset in 3 languages (Tamil, Irish and Punjabi) 
-      </li>
-      <li>Participated in the HuggingFace Dataset sprint and added 3 datasets to the Datasets Library (XQuAD-R, msr_genomics_kbcomp, hippocorpus). Open-source contributor at Hugging Face Datasets library.
-      </li>
-    </ul>
-  </li>
-  <!-- <li><a href="https://framenet.icsi.berkeley.edu/fndrupal/node/5552/">Multilingual FrameNet</a> at COLING 2018.
-    <ul>
-      <li><a class="button button1" href="https://github.com/swabhs/coling18tutorial/">Slides</a></li>
-    </ul>
-  </li> -->
-</ul>
-
-<ul>
-  <li>BigScience workshop 🌸
-    <ul>
-      <li> Part of the prompt engineering working group and contributed to the prompt collection tool: PromptSource
-      </li>
-      <li>Part of the metadata modeling working group and working on using entities during pre-training to improve the zero/few-shot capabilities of the model.
-      </li>
-    </ul>
-   </li>
-</ul>
+<!-- <h3 id="activities">activities</h3>
 
 <ul>
   <li>Volunteering
@@ -66,30 +69,6 @@ importance: 2
         <li>SciMLCon, 2022</li>
     </ul>
    </li>
-</ul>
-
-<h3 id="achievements">achievements</h3>
-
-<ul>
-    <li>Received "XPRIZE AI for Good Travel Grant" for presenting a paper at the AI for Social Good workshop at NeurIPS 2019.</li>
-    <li>Abstract selected at the Montreal AI Symposium 2019.</li>
-    <li>Paper selected at the 3rd International Workshop on Mining Actionable Insights from Social Networks, 2019</li>
-    <li>Received Travel Award from NeurIPS for attending the conference in Vancouver - 2019</li>
-    <li>Received Honor Award at SAP for my contributions to a project and mentoring an intern.</li>
-</ul>
-
-<h3 id="certifications">online certifications</h3>
-
-<ul>
-    <li>6.00.1x: Introduction to Computer Science and Programming Using Python, MITx, edX </li>
-    <li>6.00.2x: Introduction to Computational Thinking and Data Science, MITx, edX </li>
-    <li>Machine Learning, Stanford, Coursera </li>
-    <li>Mining Massive Datasets, Stanford University, Coursera </li>
-    <li>CloudIntro.x: Introduction to Cloud Computing, IEEE, edX </li>
-    <li>DEV202x: Building Cloud Apps with Microsoft Azure, Microsoft, edX </li>
-    <li>R Programming, John Hopkins University, Coursera </li>
-    <li>LFS101x.2: Introduction to Linux, Linux Foundation, edX </li>
-</ul>
-
+</ul> -->
 
 </html>

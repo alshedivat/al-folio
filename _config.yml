@@ -241,7 +241,7 @@ filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, select
 enable_responsive_images: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
 
 imagemagick:
-  enabled: true # make it 'false' if not using responsive images
+  enabled: false # make it 'false' if not using responsive images
   widths:
     - 480
     - 800
