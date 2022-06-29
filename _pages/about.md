@@ -7,6 +7,7 @@ subtitle: PhD Candidate in Statistical Physics and Deep Learning Theory
 profile:
   align:
   image: prof_pic.jpg
+  image_cicular: false # crops the image to make it circular
   address: >
     <p>Institute of Physics</p>
     <p>Institute of Electrical and Micro Engineering</p>
