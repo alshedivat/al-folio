@@ -21,6 +21,7 @@
       "title": "{{ page.title }}",
       "description": "{{ page.description }}",
       "published": "{{ page.date | date: '%B %-d, %Y' }}",
+      "page_id": "ginlov.github.io{{ page.url }}",
       "authors": [
         {% for author in page.authors -%}
         {
@@ -62,11 +63,13 @@
 
       <d-title>
         <h1>{{ page.title }}</h1>
+        <p><img src="https://visitor-badge.glitch.me/badge?page_id=ginlov.github.io{{ page.url }}" alt="Views"/></p>
         <p>{{ page.description }}</p>
+        
       </d-title>
+      
 
       <d-byline></d-byline>
-
       <d-article>
         {% if page.toc -%}
         <d-contents>
