@@ -13,12 +13,12 @@ hr {
 }
 
 table {
-    td, th {
-      color: var(--global-text-color);
-    }
-    td {
-      font-size: 1rem;
-    }
+  td, th {
+    color: var(--global-text-color);
+  }
+  td {
+    font-size: 1rem;
+  }
 }
 
 a, table.table a {
@@ -233,6 +233,16 @@ blockquote {
   }
 }
 
+#light-toggle {
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+  color: var(--global-text-color);
+  &:hover {
+    color: var(--global-hover-color);
+  }
+}
+
 // Social (bottom)
 
 .social {
@@ -282,6 +292,25 @@ footer.sticky-bottom {
   font-size: 0.9rem;
 }
 
+// CV
+
+.cv {
+  margin-bottom: 40px;
+  
+  .card {
+    background-color: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    
+    .list-group-item {
+      background-color: inherit;
+
+      .badge {
+        color: var(--global-card-bg-color) !important;
+        background-color: var(--global-theme-color) !important;
+      }
+    }
+  }
+}
 
 // Blog
 

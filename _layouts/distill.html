@@ -4,10 +4,12 @@
   <head>
     {%- include head.html %}
 
+    {% include scripts/jquery.html %}
     {% include scripts/mathjax.html %}
     <!-- Distill js -->
     <script src="{{ '/assets/js/distillpub/template.v2.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/distillpub/transforms.v2.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/distillpub/overrides.js' | relative_url }}"></script>
     {% if page._styles %}
     <!-- Page/Post style -->
     <style type="text/css">
@@ -99,13 +101,9 @@
     <!-- Footer -->
     {%- include footer.html %}
 
+    <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
+    
+    {% include scripts/bootstrap.html %}
+    {% include scripts/analytics.html %}
   </body>
-
-  <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}">
-  </d-bibliography>
-
-  {% include scripts/jquery.html %}
-  {% include scripts/bootstrap.html %}
-  <script src="{{ '/assets/js/distillpub/overrides.js' | relative_url }}"></script>
-
 </html>
