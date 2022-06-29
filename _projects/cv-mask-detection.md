@@ -2,7 +2,7 @@
 layout: page
 title: Mask Detection
 description: Python, PyTorch, OpenCV
-img: assets/img/mask_detection/mask.gif
+img: assets/img/mask_detection/thumbnail.png
 importance: cv-94
 category: Computer Vision
 github: https://github.com/evanfebrianto/maskDetector
