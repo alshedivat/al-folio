@@ -2,11 +2,13 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Univerisity of Washington</a>. Seattle.
+
+subtitle: <a href="#">Univerisity of Washington</a>. Seattle.
 
 profile:
   align: right
   image: prof_pic_PKU.jpg
+  image_cicular: false # crops the image to make it circular
   address: >
     <p>Weiming Lake, Bo Ya Ta, Peking University</p>
 
