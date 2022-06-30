@@ -42,12 +42,8 @@ toc:
 - [知乎专栏 远东轶事 - 田渊栋](https://www.zhihu.com/column/yuandong)
   - [博士五年总结系列 - 田渊栋](http://yuandong-tian.com/five_year_summary_of_PhD.pdf)
   - 博士五年之后五年的总结
-    - [前言](https://zhuanlan.zhihu.com/p/45695338)
-    - [其一](https://zhuanlan.zhihu.com/p/45703402)
-    - [其二](https://zhuanlan.zhihu.com/p/45898250)
-    - [其三](https://zhuanlan.zhihu.com/p/46760428)
-    - [终篇](https://zhuanlan.zhihu.com/p/47840442)
-- [计算机视觉 | 哥大读博五年总结（全） - Mike Shou](https://zhuanlan.zhihu.com/p/338193330)
+    - [前言](https://zhuanlan.zhihu.com/p/45695338), [其一](https://zhuanlan.zhihu.com/p/45703402), [其二](https://zhuanlan.zhihu.com/p/45898250), [其三](https://zhuanlan.zhihu.com/p/46760428), [终篇](https://zhuanlan.zhihu.com/p/47840442)
+- [计算机视觉 哥大读博五年总结 Mike Shou](https://zhuanlan.zhihu.com/p/338193330)
 - [博士这五年 - 李沐](https://zhuanlan.zhihu.com/p/25099638)
 - [工作五年反思 - 李沐](https://zhuanlan.zhihu.com/p/374777591)
 
