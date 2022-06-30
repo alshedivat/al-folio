@@ -133,6 +133,8 @@ Then you can use Dockerhub prebuilt image to run your website. Note that for the
       bin/dockerhub_run.sh
 ```
 
+> Currently, you should opt this method, only if you are using newest version of al-folio. If you are using an old version. You should build your own image. 
+
 <details><summary>(click to expand) <strong>Build your own docker image (more advanced):</strong></summary>
 
 First, download the necessary modules and install them into a docker image called `al-folio:Dockerfile` (this command will build an image which is used to run your website afterwards. Note that you only need to do this step once. After you have the image, you no longer need to do this anymore):
