@@ -1,8 +1,8 @@
 ---
 layout: distill
-title: a distill-style blog post
+title: Collection of some resources related to the PhD journey.
 description: Collection of some resources related to the PhD journey.
-date: 2021-05-22
+date: 2022-06-30
 
 authors:
   - name: Xinming Tu
