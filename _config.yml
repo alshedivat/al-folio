@@ -14,9 +14,10 @@ footer_text: >
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: /assets/img/favicon.ico # the emoji used as the favicon
-use_custom_favicon: True # if this is true, you can set favicon path instead of using default emoji
+use_custom_favicon: True # if this is true, you can set favicon path instead of using default emoji#
 url: https://virajm.com # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/
+   # url: https://virajmehta.github.io
+baseurl:   # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
