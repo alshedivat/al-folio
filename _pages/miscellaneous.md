@@ -11,10 +11,10 @@ importance: 2
 
           
 <div class="news">
-  <h2>events</h2>
+  <h2>news</h2>
   {% if site.news != blank -%} 
   {%- assign news_size = site.news | size -%}
-  <div class="table-responsive" {% if site.news_scrollable and news_size > 3 %}style="max-height: 25vw"{% endif %}>
+  <div class="table-responsive">
     <table class="table table-sm table-borderless">
     {%- assign news = site.news | reverse -%}
     {% if site.news_limit %}
@@ -39,6 +39,21 @@ importance: 2
   {%- else -%} 
     <p>No news so far...</p>
   {%- endif %} 
+  <h2>activities</h2>
+  <div class="table-responsive">
+    <table class="table table-sm table-borderless">
+      <tbody>
+        <tr>
+          <td>volunteer</td>
+          <td><a href="https://www.jmlr.org/tmlr/">TMLR</a>, <a href="https://iclr.cc/Conferences/2021/Volunteers">ICLR (2020, 2021)</a>, <a href="https://icml.cc/">ICML (2020, 2021)</a>, <a href="https://nips.cc/">NeurIPS (2020)</a>, <a href="https://github.com/acl-org/emnlp-2020-virtual-conference/blob/master/static/pdf/volunteers.pdf">EMNLP {Sponsor Booth set-up for ByteDance} (2020)</a>, <a href="https://acl2020.org/">ACL (2021)</a>, <a href="https://2021.naacl.org/">NAACL (2021)</a></td>
+        </tr>
+        <tr>
+          <td>reviewer</td>
+          <td><a href="http://securedata.lol/">Workshop on Dataset Curation and Security, NeurIPS 2020</a>, <a href="https://ml4h2021.hotcrp.com/users/pc">ML4H: Machine Learning for Health, 2021 (Member of Program Committee)</a>, <a href="https://jupytercon.com/participate/#Reviewers">JupyterCon 2020</a>, <a href="https://github.com/psc-g/neurips19music#review-process">Live Music for the NeurIPS 2019 Banquet</a>, <a href="https://helloworld.calhacks.io/">hello:world Hackathon, 2020, 2021 [calhacks.io] (Judge)</a></td>
+        </tr>
+	    </tbody>
+    </table>
+  </div>
 </div>
 
 

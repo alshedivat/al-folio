@@ -124,7 +124,7 @@ collections:
     permalink: /projects/:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 4 # leave blank to include all the news in the `_news` folder
+news_limit: 8 # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -241,7 +241,7 @@ filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, select
 enable_responsive_images: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
 
 imagemagick:
-  enabled: false # make it 'false' if not using responsive images
+  enabled: true # make it 'false' if not using responsive images
   widths:
     - 480
     - 800
