@@ -1,11 +1,11 @@
 ---
 layout: page
 title: performance-detective
-description:
+description: 
 img:
-github: todo
-paper1: todo
-paper1_description: Preprint coming soon!
+artifact: https://doi.org/10.5445/IR/1000146001
+paper1: schmid2022perfdetective
+paper1_description: Paper @ ICS 2022
 importance: 2
 category: program analysis
 ---

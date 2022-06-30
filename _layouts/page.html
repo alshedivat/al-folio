@@ -34,14 +34,6 @@ layout: default
                   </li>
                 {% endif %}
 
-                {% if page.zenodo %}
-                  <li>
-                    <a href="https://doi.org/{{page.zenodo}}" title="zenodo" target="_blank" rel="nofollow">
-                      <i class="ai ai-zenodo"></i><span>Artifact</span>
-                    </a>
-                  </li>
-                {% endif %}
-
                 {% if page.github %}
                   <li>
                     {% if page.github != "todo" %}
@@ -51,6 +43,22 @@ layout: default
                       <a title="github" target="_blank" rel="nofollow">
                       <i class="fab fa-github"></i><span>Coming soon!</span>
                     {% endif %}
+                    </a>
+                  </li>
+                {% endif %}
+
+                {% if page.zenodo %}
+                  <li>
+                    <a href="https://doi.org/{{page.zenodo}}" title="zenodo" target="_blank" rel="nofollow">
+                      <i class="ai ai-zenodo"></i><span>Artifact</span>
+                    </a>
+                  </li>
+                {% endif %}
+
+                {% if page.artifact %}
+                  <li>
+                    <a href="{{page.artifact}}" title="artifact" target="_blank" rel="nofollow">
+                      <i class="fas fa-archive"></i><span>Artifact</span>
                     </a>
                   </li>
                 {% endif %}
