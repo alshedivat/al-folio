@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-07-01T16:50:55+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Giang Vu Long</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-07-01T22:30:27+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Giang Vu Long</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Diffusion theory</title><link href="http://localhost:4000/blog/2022/diffusion/" rel="alternate" type="text/html" title="Diffusion theory" /><published>2022-06-24T00:00:00+07:00</published><updated>2022-06-24T00:00:00+07:00</updated><id>http://localhost:4000/blog/2022/diffusion</id><content type="html" xml:base="http://localhost:4000/blog/2022/diffusion/"><![CDATA[<h2 id="problem-formulation">Problem formulation</h2>
 
 <p>In recent years, Generative Adversarial Network has dominated in the field of generative model in term of sample quality and inference rate. Yet GANs show the weakness about the data distribution coverage and the challenging problem of training. In 2015, the idea of diffusion model <d-cite key="sohl2015deep"></d-cite> came out and then in 2020, DDPM <d-cite key="ho2020denoising"></d-cite> was introduced and illustrated amazing results regarding to image fidelity and the coverage of distribution. Furthermore, in 2021, Dhariwal and Nichol <d-cite key="dhariwal2021diffusion"></d-cite> showed that Diffusion Models have the ability to overcome GANs in the sample quality and exhibit good behavior in distribution coverage, which is the critical weakness of GANs.</p>
@@ -135,7 +135,7 @@ x_{t} &amp;= \sqrt{\prod_{s=1}^{T} \alpha_{s}}\: x_{0} + \sqrt{(1-\prod_{s=1}^{T
 
 <h2 id="posterior-distribution">Posterior distribution</h2>
 
-<p>In above section, we have gone through the ideas and transformations for the loss function. Noticeablely, the loss function if cummulative of KL divergence between the reverse distribution and the posterior over all timestep \(t\). To complete the loss function transformation, let’s take a glance at the posterior <d-cite key="weng2021diffusion"></d-cite>.</p>
+<p>In above section, we have gone through the ideas and transformations for the loss function. Noticeablely, the loss function is cummulative of KL divergence between the reverse distribution and the posterior over all timestep \(t\). To complete the loss function transformation, let’s take a glance at the posterior <d-cite key="weng2021diffusion"></d-cite>.</p>
 
 \[\begin{align*}
   q(x_{t-1}|x{t}, x_{0})
@@ -227,8 +227,8 @@ Below is the algorithm Ho <d-cite key="ho2020denoising"> </d-cite> used for his 
     <p>Further work:</p>
 
     <ul>
-      <li>There are numerous works push efforts in accelerting inference rate of diffusion models such as Nicol <d-cite key="nichol2021improved"></d-cite>, Song <d-cite key="song2020denoising"></d-cite>. Inspite of large efforts on improving sampling speed, all methods succeeding in it show a trade-off between speed and quality of generated images.</li>
-      <li>Song <d-cite key="song2020score"></d-cite> proposes a statistical framework to explain diffusion models, with which, one have several options to constructs a new diffusion models. The authors also propose a method for boost up sampling speed while preserving image-quality.</li>
+      <li>There are numerous works pushing efforts in accelerating inference rate of diffusion models such as Nicol <d-cite key="nichol2021improved"></d-cite>, Song <d-cite key="song2020denoising"></d-cite>. Inspite of large efforts on improving sampling speed, all methods succeeding in it show a trade-off between speed and quality of generated images.</li>
+      <li>Song <d-cite key="song2020score"></d-cite> proposes a statistical framework to explain diffusion models, with which, one have several options to constructs a new diffusion models. The authors also propose a method for boosting up sampling speed while preserving image-quality.</li>
     </ul>
   </li>
 </ol>]]></content><author><name>Giang Vu Long</name></author><category term="Generative Model" /><category term="Diffusion" /><summary type="html"><![CDATA[Explanation of DDPM.]]></summary></entry></feed>

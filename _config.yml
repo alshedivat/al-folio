@@ -87,7 +87,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Machine Learning Theory and Applications # blog_name will be displayed in your blog page
+blog_name: Machine Learning Theories and Applications # blog_name will be displayed in your blog page
 blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: 
 permalink: /blog/:year/:title/
@@ -117,9 +117,9 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
+  ginlovtheorem:
     output: true
-    permalink: /projects/:path/
+    permalink: /ginlovtheorem/:path/
 
 news_limit: 5
 

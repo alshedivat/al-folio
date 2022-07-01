@@ -144,7 +144,7 @@
 
               <!-- Other pages -->
               <li class="nav-item ">
-                <a class="nav-link" href="/projects/">Projects</a>
+                <a class="nav-link" href="/ginlovtheorem/">GinlovTheorem</a>
               </li>
 
               <!-- Toogle theme mode -->
@@ -326,7 +326,7 @@ x_{t} &amp;= \sqrt{\prod_{s=1}^{T} \alpha_{s}}\: x_{0} + \sqrt{(1-\prod_{s=1}^{T
 
 <h2 id="posterior-distribution">Posterior distribution</h2>
 
-<p>In above section, we have gone through the ideas and transformations for the loss function. Noticeablely, the loss function if cummulative of KL divergence between the reverse distribution and the posterior over all timestep \(t\). To complete the loss function transformation, let’s take a glance at the posterior <d-cite key="weng2021diffusion"></d-cite>.</p>
+<p>In above section, we have gone through the ideas and transformations for the loss function. Noticeablely, the loss function is cummulative of KL divergence between the reverse distribution and the posterior over all timestep \(t\). To complete the loss function transformation, let’s take a glance at the posterior <d-cite key="weng2021diffusion"></d-cite>.</p>
 
 \[\begin{align*}
   q(x_{t-1}|x{t}, x_{0})
@@ -418,8 +418,8 @@ Below is the algorithm Ho <d-cite key="ho2020denoising"> </d-cite> used for his 
     <p>Further work:</p>
 
     <ul>
-      <li>There are numerous works push efforts in accelerting inference rate of diffusion models such as Nicol <d-cite key="nichol2021improved"></d-cite>, Song <d-cite key="song2020denoising"></d-cite>. Inspite of large efforts on improving sampling speed, all methods succeeding in it show a trade-off between speed and quality of generated images.</li>
-      <li>Song <d-cite key="song2020score"></d-cite> proposes a statistical framework to explain diffusion models, with which, one have several options to constructs a new diffusion models. The authors also propose a method for boost up sampling speed while preserving image-quality.</li>
+      <li>There are numerous works pushing efforts in accelerating inference rate of diffusion models such as Nicol <d-cite key="nichol2021improved"></d-cite>, Song <d-cite key="song2020denoising"></d-cite>. Inspite of large efforts on improving sampling speed, all methods succeeding in it show a trade-off between speed and quality of generated images.</li>
+      <li>Song <d-cite key="song2020score"></d-cite> proposes a statistical framework to explain diffusion models, with which, one have several options to constructs a new diffusion models. The authors also propose a method for boosting up sampling speed while preserving image-quality.</li>
     </ul>
   </li>
 </ol>
