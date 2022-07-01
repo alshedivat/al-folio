@@ -47,6 +47,19 @@ layout: default
                   </li>
                 {% endif %}
 
+                {% if page.github2 %}
+                  <li>
+                    {% if page.github2 != "todo" %}
+                      <a href="https://github.com/{{page.github2}}" title="github" target="_blank" rel="nofollow">
+                      <i class="fab fa-github"></i><span>{{page.github2}}</span>
+                    {% else %}
+                      <a title="github" target="_blank" rel="nofollow">
+                      <i class="fab fa-github"></i><span>Coming soon!</span>
+                    {% endif %}
+                    </a>
+                  </li>
+                {% endif %}
+
                 {% if page.zenodo %}
                   <li>
                     <a href="https://doi.org/{{page.zenodo}}" title="zenodo" target="_blank" rel="nofollow">
