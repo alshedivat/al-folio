@@ -133,4 +133,5 @@ the cold starts on some of the platforms indicate significant bottlenecks and no
 
 More insights and results can be found in [our benchmarking paper](/publications#2020sebs) that has been accepted at Middleware 2021.
 [The open-source release of SeBS is available on GitHub](https://github.com/spcl/serverless-benchmarks) - try it today!
-It supports AWS Lambda, Azure Functions, Google Cloud Functions, and OpenWhisk support is coming soon!
+It supports AWS Lambda, Azure Functions, Google Cloud Functions, and release 1.1 added support for OpenWhisk.
+
