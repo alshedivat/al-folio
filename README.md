@@ -102,9 +102,9 @@ Neural Compression (ICLR: <a href="https://neuralcompression.github.io/" target=
 </table>
 
 
-## Best practices
+## Lighthouse PageSpeed Insights
 
-[![Google PageSpeeg](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&tab=desktop)
+[![Google PageSpeeg](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=desktop)
 
 
 ## Getting started
