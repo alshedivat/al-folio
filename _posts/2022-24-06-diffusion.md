@@ -201,7 +201,7 @@ Since the term $$ \mathrm{D}_{\mathrm{KL}}(q(x_{T} \vert x_{0}) \vert\:p(x_{T}))
 
 ## Posterior distribution
 
-In above section, we have gone through the ideas and transformations for the loss function. Noticeablely, the loss function if cummulative of KL divergence between the reverse distribution and the posterior over all timestep $$t$$. To complete the loss function transformation, let's take a glance at the posterior <d-cite key="weng2021diffusion"></d-cite>.
+In above section, we have gone through the ideas and transformations for the loss function. Noticeablely, the loss function is cummulative of KL divergence between the reverse distribution and the posterior over all timestep $$t$$. To complete the loss function transformation, let's take a glance at the posterior <d-cite key="weng2021diffusion"></d-cite>.
 
 $$
 \begin{align*}
