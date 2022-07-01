@@ -278,5 +278,5 @@ Below is the algorithm Ho <d-cite key="ho2020denoising"> </d-cite> used for his 
 
 3. Further work:
    
-   * There are numerous works push efforts in accelerating inference rate of diffusion models such as Nicol <d-cite key="nichol2021improved"></d-cite>, Song <d-cite key="song2020denoising"></d-cite>. Inspite of large efforts on improving sampling speed, all methods succeeding in it show a trade-off between speed and quality of generated images.
-   * Song <d-cite key="song2020score"></d-cite> proposes a statistical framework to explain diffusion models, with which, one have several options to constructs a new diffusion models. The authors also propose a method for boost up sampling speed while preserving image-quality.
+   * There are numerous works pushing efforts in accelerating inference rate of diffusion models such as Nicol <d-cite key="nichol2021improved"></d-cite>, Song <d-cite key="song2020denoising"></d-cite>. Inspite of large efforts on improving sampling speed, all methods succeeding in it show a trade-off between speed and quality of generated images.
+   * Song <d-cite key="song2020score"></d-cite> proposes a statistical framework to explain diffusion models, with which, one have several options to constructs a new diffusion models. The authors also propose a method for boosting up sampling speed while preserving image-quality.
