@@ -31,6 +31,7 @@ toc:
     subsections:
     - name: Props
     - name: Cons
+    - name: Further works
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -54,7 +55,7 @@ _styles: >
 
 ## Problem formulation
 
-In recent years, Generative Adversarial Network has dominated in the field of generative model in term of sample quality and inference rate. Yet GANs show the weakness about the data distribution coverage and the challenging problem of training. In 2015, the idea of diffusion model <d-cite key="sohl2015deep"></d-cite> had came out and then in 2020, DDPM <d-cite key="ho2020denoising"></d-cite> was introduced and illustrated amazing results regarding to image fidelity and the coverage of distribution. Furthermore, in 2021, Dhariwal and Nichol <d-cite key="dhariwal2021diffusion"></d-cite> shows that Diffusion Models have the ability to overcome GANs in the sample quality and exhibit good behavior in distribution coverage, which is the critical weakness of GANs.
+In recent years, Generative Adversarial Network has dominated in the field of generative model in term of sample quality and inference rate. Yet GANs show the weakness about the data distribution coverage and the challenging problem of training. In 2015, the idea of diffusion model <d-cite key="sohl2015deep"></d-cite> came out and then in 2020, DDPM <d-cite key="ho2020denoising"></d-cite> was introduced and illustrated amazing results regarding to image fidelity and the coverage of distribution. Furthermore, in 2021, Dhariwal and Nichol <d-cite key="dhariwal2021diffusion"></d-cite> showed that Diffusion Models have the ability to overcome GANs in the sample quality and exhibit good behavior in distribution coverage, which is the critical weakness of GANs.
 
 In this blog, we will go through the idea and derivation of diffusion models (the formulas and ideas follows the DDPM <d-cite key="ho2020denoising"></d-cite>).
 
@@ -62,7 +63,7 @@ In this blog, we will go through the idea and derivation of diffusion models (th
     {% include figure.html path="assets/img/posts/diffusion/figure1.png" title="example image" class="img-fluid rounded z-depth-1" %}
 </div>
 
-The concept of diffusion model is diffusing the original image into a white noise with a given strategy and then learn a reverse process to approximate it. Behind the scene, for both Gaussian and binomial diffusion, <d-cite key="feller1949theory"></d-cite> if the noise schedule at each step is small enough, the reverse process shares the same form with the forward one, that is a vital factor which allows us to construct the loss functions and the learning algorithms.
+The concept of diffusion model is diffusing the original image into a white noise with a given strategy and then learn a reverse process to approximate it. Behind the scene, for both Gaussian and binomial diffusion, <d-cite key="feller1949theory"></d-cite> if the noise schedule at each step is small enough, the reverse process shares the same form with the forward one, that is a vital factor which guides the way of constructing the loss functions and the learning algorithms.
 
 In detail, forward process is formulated as follow:
 
@@ -73,9 +74,9 @@ $$
 \end{align*}
 $$
 
-where $$\beta_{t}$$ is the noise schedule that add noise to image sample, $$T$$ is the number of diffusion steps. The forward process is modeled as a Markov chain, in which the random variable $$x_{t}$$ only depends on the right previous one $$x_{t-1}$$.
+where $$\beta_{t}$$ is the noise schedule which is added to image sample, $$T$$ is the number of diffusion steps. In particular, Ho <d-cite key="ho2020denoising"></d-cite> models the forward process as a Markov chain, in which the random variable $$x_{t}$$ only depends on the right previous one $$x_{t-1}$$.
 
-The reverse process is straight forward reversal version of the forward one:
+The reverse process is straight forward reversal version of the forward procedure:
 
 $$
 \begin{align*}
@@ -86,9 +87,9 @@ $$
 
 The task is now searching for the proper form of $$p_{\theta}$$, constructing the loss function and learning algorithm.
 
-To make the later notation more readable, we make some transformation on the formulation as follow:
+To make the later notation more readable, some transformations are made on the formulation as follow:
 
-Set $$\alpha_{t} = 1 - \beta_{t}$$ and $$\bar{\alpha}_{t} = \prod_{s=1}^{T} \alpha_{s}$$, thus we can re-write the distribution $$ q(x_{t}\vert x_{t-1}) $$:
+Set $$\alpha_{t} = 1 - \beta_{t}$$ and $$\bar{\alpha}_{t} = \prod_{s=1}^{T} \alpha_{s}$$, the distribution can be re-writed as $$ q(x_{t}\vert x_{t-1}) $$:
 
 $$
 \begin{align*}
@@ -96,7 +97,7 @@ $$
 \end{align*}
 $$
 
-Using above notation reveal a nice ability of sampling $$x_{t}$$ with a trivial effort:
+Using above notation reveals a nice ability of sampling $$x_{t}$$ with a trivial effort:
 
 $$
 \begin{align*}
@@ -114,7 +115,7 @@ x_{t} &= \sqrt{\alpha_{t}\alpha_{t-1}}\: x_{t-2} + \sqrt{(1-\alpha_{t-1}\alpha_{
 \end{align*}
 $$
 
-Where $$\bar{z}_{t}$$ is random variable sampled from standard normal distribution. Do above transformation repeatly, we have:
+Where $$\bar{z}_{t}$$ is random variable sampled from standard normal distribution. Do above transformation repeatly, $$x_{t}$$ becomes:
 
 $$
 \begin{align*}
@@ -123,7 +124,7 @@ x_{t} &= \sqrt{\prod_{s=1}^{T} \alpha_{s}}\: x_{0} + \sqrt{(1-\prod_{s=1}^{T} \a
 \end{align*}
 $$
 
-Finally, we have the marginal distribution $$ q(x_{t}\vert x_{0}) = \mathcal{N}(\sqrt{\bar{\alpha}_{t}}\: x_{0}, (1-\bar{\alpha}_{t})\mathrm{I}) $$, which allows us to sample an arbitrary $$x_{t}$$ from $$x_{0}$$.
+Finally, the marginal distribution is well-defined $$ q(x_{t}\vert x_{0}) = \mathcal{N}(\sqrt{\bar{\alpha}_{t}}\: x_{0}, (1-\bar{\alpha}_{t})\mathrm{I}) $$, which allows us to sample an arbitrary $$x_{t}$$ from $$x_{0}$$.
 
 ***
 
@@ -165,7 +166,7 @@ $$
 \end{align*}
 $$
 
-One noticeable property is that with given $$x_{t-1}, x_{0}$$, $$q(x_{t-1}\vert x_{0}, x_{t})$$ and $$p_{\theta}(x_{t-1}\vert x_{t})$$ are completely defined and $$\mathrm{D}_{\mathrm{KL}}(q(x_{t-1}\vert x_{0}, x_{t}) \| p_{\theta}(x_{t-1}\vert x_{t}))$$ is known, or can be set as a constant. Thus, we have the following equation:
+One noticeable property is that with given $$x_{t-1}, x_{0}$$, $$q(x_{t-1}\vert x_{0}, x_{t})$$ and $$p_{\theta}(x_{t-1}\vert x_{t})$$ are completely defined and $$\mathrm{D}_{\mathrm{KL}}(q(x_{t-1}\vert x_{0}, x_{t}) \| p_{\theta}(x_{t-1}\vert x_{t}))$$ is known, or can be set as a constant. Thus, above formula is equal to:
 
 $$
 \begin{align*}
@@ -173,7 +174,7 @@ $$
 \end{align*}
 $$
 
-From that observation, we finally get the form of $$L_{t}$$:
+From that observation, $$L_{t}$$ has the form as below:
 
 $$
 \begin{align*}
@@ -184,7 +185,7 @@ $$
 \end{align*}
 $$
 
-Applying above transformation to the general $$L$$, we get the final form of $$L$$:
+Applying above transformation to the general $$L$$:
 
 $$
 \begin{align*}
@@ -200,7 +201,7 @@ Since the term $$ \mathrm{D}_{\mathrm{KL}}(q(x_{T} \vert x_{0}) \vert\:p(x_{T}))
 
 ## Posterior distribution
 
-In above section, we have gone through the ideas and transformations for the lost function. Noticeablely, the loss function if cummulative of KL divergence between the reverse distribution and the posterior over all timestep $$t$$. To complete the loss function transformation, let's take a glance at the posterior <d-cite key="weng2021diffusion"></d-cite>.
+In above section, we have gone through the ideas and transformations for the loss function. Noticeablely, the loss function if cummulative of KL divergence between the reverse distribution and the posterior over all timestep $$t$$. To complete the loss function transformation, let's take a glance at the posterior <d-cite key="weng2021diffusion"></d-cite>.
 
 $$
 \begin{align*}
@@ -213,7 +214,7 @@ $$
 \end{align*}
 $$
 
-Take a look at the equation inside.
+Consider the equation inside.
 
 $$
 \begin{align*}
@@ -225,7 +226,7 @@ $$
 \end{align*}
 $$
 
-From there $$ q(x_{t-1}\vert x{t}, x_{0}) $$ can be seen as a Gaussian with $$\mathbf{E}_{q(x_{t-1}\vert x_{t},x_{0})}[x_{t-1}] = \frac{\sqrt{\alpha_{t}}(1-\bar{\alpha}_{t-1})}{1 - \bar{\alpha}_{t}}x_{t} + \frac{\sqrt{\bar{\alpha}_{t-1}}\beta_{t}}{1 - \bar{\alpha}_{t}}x_{0}$$ and $${\mathbf{V}_{q(x_{t-1} \vert x_{t},x_{0})}[x_{t-1}] = \frac{\beta_{t}(1-\bar{\alpha}_{t-1})}{1 - \bar{\alpha}_{t}}}$$.
+From here $$ q(x_{t-1}\vert x{t}, x_{0}) $$ can be seen as a Gaussian with $$\mathbf{E}_{q(x_{t-1}\vert x_{t},x_{0})}[x_{t-1}] = \frac{\sqrt{\alpha_{t}}(1-\bar{\alpha}_{t-1})}{1 - \bar{\alpha}_{t}}x_{t} + \frac{\sqrt{\bar{\alpha}_{t-1}}\beta_{t}}{1 - \bar{\alpha}_{t}}x_{0}$$ and $${\mathbf{V}_{q(x_{t-1} \vert x_{t},x_{0})}[x_{t-1}] = \frac{\beta_{t}(1-\bar{\alpha}_{t-1})}{1 - \bar{\alpha}_{t}}}$$.
 
 Denote $$ \tilde{\mu}_{t} = \frac{\sqrt{\alpha_{t}}(1-\bar{\alpha}_{t-1})}{1 - \bar{\alpha}_{t}}x_{t} + \frac{\sqrt{\bar{\alpha}_{t-1}}\beta_{t}}{1 - \bar{\alpha}_{t}}x_{0} $$ and $$ \tilde{\beta}_{t} = \frac{\beta_{t}(1-\bar{\alpha}_{t-1})}{1 - \bar{\alpha}_{t}}$$, then we have $$ q(x_{t-1}\vert x_{t}, x_{0}) = \mathcal{N}(\tilde{\mu}_{t}, \tilde{\beta}_{t}\mathrm{I}) $$. Furthermore, we have $$ x_{t} = \sqrt{\bar{\alpha}_t} x_{0} + \sqrt{(1-\bar{\alpha}_{t})}\epsilon $$:
 
@@ -246,7 +247,7 @@ Because posterior distribution is gaussian, it is reasonable to construct revers
 * Fix to noise schedule: $$ \Sigma_{\theta} = \beta_{t}\mathrm{I} $$
 * Fix to posterior variance: $$ \Sigma_{\theta} = \tilde{\beta}_{t}\mathrm{I} $$
 
-Since $$\Sigma_{\theta}$$ is fix, KL divergence at t timestep has close form:
+Since $$\Sigma_{\theta}$$ is fix, KL divergence at timestep $$t$$ has close form:
 
 $$
 \begin{align*}
@@ -255,7 +256,7 @@ L_{t-1} &= \mathbf{E}_{q}(\mathrm{D}_{\mathrm{KL}}(q(x_{t-1}|x_{t}, x_{0}) ||\: 
 \end{align*}
 $$
 
-From here, one can calculate the loss function train the network.
+From here, one can calculate the loss function easily and train the network.
 Below is the algorithm Ho <d-cite key="ho2020denoising"> </d-cite> used for his training.
 
 <div class="l-body">
@@ -274,3 +275,8 @@ Below is the algorithm Ho <d-cite key="ho2020denoising"> </d-cite> used for his 
 2. Cons:
 
    * Because of the idea of gradually denoise from initial datapoint, diffusion model requires large number step to generate a sample, which is less efficient that prior method such as GANs or VAE.
+
+3. Further work:
+   
+   * There are numerous works push efforts in accelerting inference rate of diffusion models such as Nicol <d-cite key="nichol2021improved"></d-cite>, Song <d-cite key="song2020denoising"></d-cite>. Inspite of large efforts on improving sampling speed, all methods succeeding in it show a trade-off between speed and quality of generated images.
+   * Song <d-cite key="song2020score"></d-cite> proposes a statistical framework to explain diffusion models, with which, one have several options to constructs a new diffusion models. The authors also propose a method for boost up sampling speed while preserving image-quality.
