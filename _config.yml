@@ -16,7 +16,7 @@ footer_text: >
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: Phd_Logo.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://sarahsmithtripp.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -63,7 +63,7 @@ orcid_id: https://orcid.org/0000-0003-0347-7165 # your ORCID ID
 research_gate_profile: # your profile on ResearchGate
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  please send me an email at ssmithtr@wellesley.edu
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -79,7 +79,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
+blog_name: Smith-Tripp # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
@@ -96,8 +96,6 @@ disqus_shortname: ssmithtr # put your disqus shortname
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
