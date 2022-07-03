@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Methylation in ovarian cancer
+description: Genome-wide methylation analysis and selective bioinformatic criteria identify a panel of highly-specific methylation biomarkers for potential use in the diagnosis of ovarian cancer.
+img: assets/img/OC-methylation_pic.png
+redirect: http://clincancerres.aacrjournals.org/content/clincanres/24/24/6536.full.pdf
 importance: 3
-category: work
+category: cancer biology & biomarker discovery
 ---
 
 Every project has a beautiful feature showcase page.

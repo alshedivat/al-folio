@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: epiclass
+description: A computational method for leveraging single-molecule methylation density data to improve the performance of methylation biomarker-based cancer diagnostics. 
+img: assets/img/Epiclass_pic.png
+importance: 6
+redirect: https://clinicalepigeneticsjournal.biomedcentral.com/articles/10.1186/s13148-020-00939-w
+category: cancer diagnostics
 ---
 
 Every project has a beautiful feature showcase page.

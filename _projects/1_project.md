@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: DREAMing
+description: A novel method for detecting, analyzing and enumerating rare, heterogeneously-methlyated epialleles on a copy-by-copy basis.  
+img: assets/img/DREAMing-pic.png
+redirect: https://dx.doi.org/10.1093/nar/gkv795
 importance: 1
-category: work
+category: cancer diagnostics
 ---
 
 Every project has a beautiful feature showcase page.

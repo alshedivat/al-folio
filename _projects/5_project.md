@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: LINE-1 deregulation in precursor evolution
+description: LINE-1 retrotransposons become epigenetically deregulated during the progression of ovarian cancer precursor lesions.
+img: assets/img/LINE1_pic.jpg
+importance: 5
+category: cancer biology & biomarker discovery
 ---
 
 Every project has a beautiful feature showcase page.

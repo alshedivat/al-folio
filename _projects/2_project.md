@@ -1,10 +1,12 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: HYPERMelt
+description: A low-cost  digital microfluidic microfluidic platform for analyzing DNA methylation with an unprecedented combination of sensitivity, specificity and resolution.
+redirect: https://www.science.org/doi/10.1126/sciadv.aat6459
+img: assets/img/HyperMELT.png
+
 importance: 2
-category: work
+category: cancer diagnostics
 ---
 
 Every project has a beautiful feature showcase page.
