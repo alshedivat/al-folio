@@ -86,7 +86,7 @@
             and 
             <a class="author" title="
               {%- for author in entry.author_array offset: author_array_limit -%}
-                {{author.last}}, {{author.first}}{% unless forloop.last %}, {% endunless %}
+              {% if forloop.last %}and {% endif %}{{author.last}}, {{author.first}}{% unless forloop.last %}, {% endunless %}
               {%- endfor -%}
             ">{{ more_authors }} more author{% if more_authors > 1 %}s{% endif %}.</a>
           {% endif %}
