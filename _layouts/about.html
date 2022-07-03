@@ -6,37 +6,43 @@ layout: default
       <div class="post">
         <header class="post-header">
           <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+           <!--{% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %} -->
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
         </header>
 
         <article>
           {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
-
-              {% if page.profile.image_cicular %}
-              {%- assign profile_image_class = "img-fluid z-dept-1 rounded-circle" -%}
-              {% else %}
-              {%- assign profile_image_class = "img-fluid z-dept-1 rounded" -%}
-              {% endif %}
-
-              {% include figure.html 
-              path=profile_image_path 
-              class=profile_image_class
-              alt=page.profile.image -%}
-            {% endif -%}
-            {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-            {%- endif %}
+    <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      {% if page.profile.image %}
+        {% if page.profile.href %}<a href="{{ page.profile.href | relative_url }}">{% endif %}
+          <img class="img-fluid{% assign ext = page.profile.image | slice: -4, 4 %}{% if ext != '.svg' %} z-depth-1 rounded{% endif %}" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="{{ page.profile.name }}">
+        {% if page.profile.href %}</a>{% endif %}
+      {% endif %}
+      {% if page.profile.address %}
+        <div class="address">
+          <p>
+            {% if page.profile.href %}<a href="{{ page.profile.href | relative_url }}">{% endif %}
+              <span class="name">{{ page.profile.name }}</span>
+            {% if page.profile.href %}</a>{% endif %}
+            {% if page.profile.position %}<br />{{ page.profile.position }}{% endif %}
+            {% if page.profile.email %}<br /><a href="mailto:{{ page.profile.email }}"><i class="fas fa-envelope"></i> {{ page.profile.email }}</a>{% endif %}
+            {% if page.profile.phone %}<br /><a href="tel:{{ page.profile.phone }}"><i class="fas fa-phone"></i> {{ page.profile.phone }}</a>{% endif %}
+            {% if page.profile.orcid %}<br /><a href="https://orcid.org/{{ page.profile.orcid }}" target="_blank"><i class="fab fa-orcid"></i> {{ page.profile.orcid }}</a>{% endif %}
+            {% if page.profile.twitter %}<br /><a href="https://twitter.com/{{ page.profile.twitter }}" target="_blank"><i class="fab fa-twitter"></i> {{ page.profile.twitter }}</a>{% endif %}
+            {% if page.profile.github %}<br /><a href="https://github.com/{{ page.profile.github }}" target="_blank"><i class="fab fa-github"></i> {{ page.profile.github }}</a>{% endif %}
+            {% if page.profile.website %}<br /><a href="{{ page.profile.website }}" target="_blank"><i class="fas fa-globe"></i> {{ page.profile.website }}</a>{% endif %}
+          </p>
+          <p class="post">{{ page.profile.address }}</p>
+        </div>
+      {% endif %}
           </div>
           {%- endif %}
 
           <div class="clearfix">
+              <div class="about-logo">
+              <img style="margin-right: 11rem; padding-bottom: .8rem"; src="/assets/img/epidiagnostics-logo.png"; height = 150>
+            </div>
             {{ content }}
           </div>
 
