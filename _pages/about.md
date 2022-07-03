@@ -2,24 +2,23 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
 
 profile:
+  name: Thomas R. Pisanic II, PhD
+  position: Epidiagnostics Group Investigator <br />Associate Research Professor <br /> <a href="https://breakthroughcancer.org/">Break Through Cancer</a> Scientist</a>
   align: right
-  image: prof_pic.jpg
-  image_cicular: false # crops the image to make it circular
+  image: prof_pic.png
+  href: '/members/pisanic'
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+        Institute for NanoBioTechnology<br />
+        Shaffer 200E<br />
+        3400 N Charles St<br />        
+        Baltimore, MD 21218
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Welcome to to the Epidiagnostics Group at Johns Hopkins University! We are an interdisciplinary cadre of researchers working together to gain deeper insights into the epigenetics of carcinogenesis to apply this knowledge toward developing novel molecular analysis methods for cancer diagnostic applications. Our core group is comprised of faculty with a wide range of complementary expertise, including: <a href = "/members/Pisanic">Dr. Thomas Pisanic </a> (biomarker discovery and epigenetic assay development), <a href = "https://engineering.jhu.edu/faculty/tza-huei-jeff-wang/"> Dr. Tza-Huei Wang </a>(engineering and microfluidic technologies), <a href ="https://www.hopkinsmedicine.org/profiles/details/hariharan-easwaran">Dr. Hari Easwaran </a> (epigenetics of aging and cancer) and <a href="https://www.hopkinsmedicine.org/profiles/details/leslie-cope">Dr. Leslie Cope</a> (biostatistics and bioinformatics). We also work with a diverse array of <a href ="/collaborators">extraordinary collaborators</a> at Johns Hopkins as well as numerous partner institutions to apply our epigenetic methods to resolve manifold challenges in various areas of cancer research.
