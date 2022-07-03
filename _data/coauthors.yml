@@ -1,18 +1,21 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Wang":
+  - firstname: ["Tza-Huei", "T. H."]
+    url: https://me.jhu.edu/thwang/
+  - firstname: ["Tian-Li"]
+    url: https://pathology.jhu.edu/shihlab/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Shih":
+  - firstname: ["Ie-Ming", "I.", "I.M."]
+    url: https://pathology.jhu.edu/shihlab/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Herman": 
+  - firstname: ["James", "J. G.", "James G."]
+    url: https://profiles.dom.pitt.edu/hemaonc/faculty_info.aspx/Herman6493
+    
+"Azad":
+  - firstname: ["Nilofer", "N.S.", "Nilofer Saba", "Nilofer S."]
+    url: https://www.hopkinsmedicine.org/profiles/details/nilofer-azad
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Pisanic":
+  - firstname: ["Thomas", "T.R.", "Thomas Russell", "Thomas R.", "T."]
+  
