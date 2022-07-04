@@ -2,7 +2,7 @@
 layout: page
 title: orbitplastic
 description: the marketplace for recycled plastics
-img: assets/img/orbitplastic-logo.49c4bf81.svg
+img: assets/img/orbitplastic-logo.49c4bf81
 importance: 2
 category: personal
 ---

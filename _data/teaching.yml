@@ -1,0 +1,275 @@
+- name: Analog Signal Processing and Filtering
+  teacher: Prof. Hanspeter Schmid
+  type: master class
+  date:
+    year: 2015
+    autumn: False
+  supervisors:
+    - name: Hampus Malmberg
+  role: teaching assistant
+  link: https://isi.ee.ethz.ch/teaching/courses/asf.html
+
+- name: Analog Signal Processing and Filtering
+  teacher: Prof. Hanspeter Schmid
+  type: master class
+  date:
+    year: 2015
+    autumn: True
+  supervisors:
+    - name: Hampus Malmberg
+  role: teaching assistant
+  link: https://isi.ee.ethz.ch/teaching/courses/asf.html
+
+- name: Blackfin DSP
+  type: project and seminar
+  supervisors:
+    - name: Hampus Malmberg
+    - name: Federico Wadehn
+  date:
+    year: 2015
+    autumn: True
+  role: supervisor
+
+- name: Analog Signal Processing and Filtering
+  teacher: Prof. Hanspeter Schmid
+  type: master class
+  date:
+    year: 2016
+    autumn: True
+  supervisors:
+    - name: Hampus Malmberg
+  role: teaching assistant
+  link: https://isi.ee.ethz.ch/teaching/courses/asf.html
+
+- name: Blackfin DSP
+  type: project and seminar
+  supervisors:
+    - name: Hampus Malmberg
+    - name: Federico Wadehn
+    - name: Boxiao MA
+  date:
+    year: 2016
+    autumn: False
+  role: supervisor
+
+- name: Blackfin DSP
+  type: project and seminar
+  supervisors:
+    - name: Hampus Malmberg
+    - name: Federico Wadehn
+    - name: Boxiao MA
+  date:
+    year: 2016
+    autumn: True
+  role: supervisor
+
+- name: Analog Signal Processing and Filtering
+  teacher: Prof. Hanspeter Schmid
+  type: master class
+  date:
+    year: 2017
+    autumn: True
+  supervisors:
+    - name: Hampus Malmberg
+  role: teaching assistant
+  link: https://isi.ee.ethz.ch/teaching/courses/asf.html
+
+- name: Blackfin DSP
+  type: project and seminar
+  supervisors:
+    - name: Hampus Malmberg
+    - name: Federico Wadehn
+    - name: Boxiao MA
+  date:
+    year: 2017
+    autumn: False
+  role: supervisor
+
+- name: Electronic Circuits & Signals Exploration Laboratory
+  teacher: Hampus Malmberg
+  type: project and seminar
+  date:
+    year: 2017
+    autumn: False
+  supervisors:
+    - name: Hampus Malmberg
+    - name: Prof. Hans-Andrea Loeliger
+  role: creator
+  link: https://isi.ee.ethz.ch/teaching/pps/elab.html
+
+- name: Blackfin DSP
+  type: project and seminar
+  supervisors:
+    - name: Hampus Malmberg
+    - name: Federico Wadehn
+    - name: Boxiao MA
+  date:
+    year: 2017
+    autumn: True
+  role: supervisor
+
+- name: Electronic Circuits & Signals Exploration Laboratory
+  teacher: Hampus Malmberg
+  type: project and seminar
+  date:
+    year: 2017
+    autumn: True
+  supervisors:
+    - name: Hampus Malmberg
+    - name: Patrick Murer
+  role: creator
+  link: https://isi.ee.ethz.ch/teaching/pps/elab.html
+
+- name: Electronic Circuits & Signals Exploration Laboratory
+  teacher: Hampus Malmberg
+  type: project and seminar
+  date:
+    year: 2018
+    autumn: False
+  supervisors:
+    - name: Hampus Malmberg
+    - name: Raphael Keusch
+  role: creator
+  link: https://isi.ee.ethz.ch/teaching/pps/elab.html
+
+- name: Electronic Circuits & Signals Exploration Laboratory
+  teacher: Hampus Malmberg
+  type: project and seminar
+  date:
+    year: 2018
+    autumn: True
+  supervisors:
+    - name: Hampus Malmberg
+    - name: Raphael Keusch
+  role: creator
+  link: https://isi.ee.ethz.ch/teaching/pps/elab.html
+
+- name: Signal Analysis, Models, and Machine Learning
+  teacher: Prof. Hans-Andrea Loeliger
+  type: master class
+  supervisors:
+    - name: Patrick Murer
+    - name: Hampus Malmberg
+  date:
+    year: 2018
+    autumn: True
+  role: teaching assistant
+  link: https://isi.ee.ethz.ch/teaching/courses/asml.html
+
+- name: Electronic Circuits & Signals Exploration Laboratory
+  teacher: Hampus Malmberg
+  type: project and seminar
+  date:
+    year: 2019
+    autumn: False
+  supervisors:
+    - name: Hampus Malmberg
+    - name: Raphael Keusch
+  role: creator
+  link: https://isi.ee.ethz.ch/teaching/pps/elab.html
+
+- name: Electronic Circuits & Signals Exploration Laboratory
+  teacher: Hampus Malmberg
+  type: project and seminar
+  date:
+    year: 2019
+    autumn: True
+  supervisors:
+    - name: Hampus Malmberg
+    - name: Raphael Keusch
+  role: creator
+  link: https://isi.ee.ethz.ch/teaching/pps/elab.html
+
+- name: Electronic Circuits & Signals Exploration Laboratory
+  teacher: Hampus Malmberg
+  type: project and seminar
+  date:
+    year: 2020
+    autumn: False
+  supervisors:
+    - name: Hampus Malmberg
+    - name: Raphael Keusch
+  role: creator
+  link: https://isi.ee.ethz.ch/teaching/pps/elab.html
+
+- name: Electronic Circuits & Signals Exploration Laboratory
+  teacher: Hampus Malmberg
+  type: project and seminar
+  date:
+    year: 2020
+    autumn: True
+  supervisors:
+    - name: Hampus Malmberg
+    - name: Raphael Keusch
+  role: creator
+  link: https://isi.ee.ethz.ch/teaching/pps/elab.html
+
+- name: Electronic Circuits & Signals Exploration Laboratory
+  teacher: Hampus Malmberg
+  type: project and seminar
+  date:
+    year: 2021
+    autumn: False
+  supervisors:
+    - name: Hampus Malmberg
+    - name: Raphael Keusch
+  role: creator
+  link: https://isi.ee.ethz.ch/teaching/pps/elab.html
+
+- name: Electronic Circuits & Signals Exploration Laboratory
+  teacher: Hampus Malmberg
+  type: project and seminar
+  date:
+    year: 2021
+    autumn: True
+  supervisors:
+    - name: Hampus Malmberg
+    - name: Raphael Keusch
+  role: creator
+  link: https://isi.ee.ethz.ch/teaching/pps/elab.html
+
+- name: Analog Signal Processing and Filtering
+  teacher: Prof. Hanspeter Schmid
+  type: master class
+  date:
+    year: 2021
+    autumn: True
+  supervisors:
+    - name: Hampus Malmberg
+  role: teaching assistant
+  link: https://isi.ee.ethz.ch/teaching/courses/asf.html
+
+- name: Electronic Circuits & Signals Exploration Laboratory
+  teacher: Hampus Malmberg
+  type: project and seminar
+  date:
+    year: 2022
+    autumn: False
+  supervisors:
+    - name: Hampus Malmberg
+    - name: Raphael Keusch
+  role: creator
+  link: https://isi.ee.ethz.ch/teaching/pps/elab.html
+
+- name: Electronic Circuits & Signals Exploration Laboratory
+  teacher: Hampus Malmberg
+  type: project and seminar
+  date:
+    year: 2022
+    autumn: True
+  supervisors:
+    - name: Hampus Malmberg
+    - name: Raphael Keusch
+  role: creator
+  link: https://isi.ee.ethz.ch/teaching/pps/elab.html
+
+- name: Analog Signal Processing and Filtering
+  teacher: Prof. Hanspeter Schmid
+  type: master class
+  date:
+    year: 2022
+    autumn: True
+  supervisors:
+    - name: Hampus Malmberg
+  role: teaching assistant
+  link: https://isi.ee.ethz.ch/teaching/courses/asf.html

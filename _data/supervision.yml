@@ -1,0 +1,446 @@
+- title: Analog circuit design for control-bounded ADCs
+  type: Semester project
+  students:
+    - first: Till
+      last: Mettler
+  year: 2022
+  fall_semester: False
+  supervisors:
+    - first: Thomas
+      last: Burger
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Mathieu
+    last: Luisier
+    doctor: true
+
+- title: Signal processing algorithms for audio effects
+  type: Bachelor project
+  students:
+    - first: Cyrill
+      last: Achermann
+  year: 2022
+  fall_semester: False
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: Categorizing vehicles using machine learning and audio data
+  type: Group project
+  students:
+    - first: Sara Ben
+      last: Ali
+    - first: Leunat
+      last: Kelmendi
+    - first: Atien
+      last: Kosin
+  year: 2022
+  fall_semester: False
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: Circuit-level simulation framework for a control-bounded A/D onverter
+  type: Semester project
+  students:
+    - first: Jonas
+      last: Roth
+  year: 2021
+  fall_semester: True
+  supervisors:
+    - first: Darja
+      last: Nonaca
+    - first: Hampus
+      last: Malmberg
+    - first: Jérémy
+      last: Guichemerre
+  professor:
+    first: Christoph
+    last: Studer
+    doctor: true
+
+- title: Prototyping a control-bounded hadamard converter
+  type: Semester project
+  students:
+    - first: Jonas
+      last: Roth
+  year: 2021
+  fall_semester: False
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: Multi-input and control extensions to control-bounded A/D conversion
+  type: Semester project
+  students:
+    - first: Carla
+      last: Tettamanti
+  year: 2021
+  fall_semester: False
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: An architecture study of control-bounded ADCs for multi-channel receiver systems
+  type: Master project
+  students:
+    - first: Fredrik
+      last: Feyling
+  year: 2020
+  fall_semester: True
+  supervisors:
+    - first: Trond
+      last: Ytterdal
+    - first: Carsten
+      last: Wulff
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Trond
+    last: Ytterdal
+    doctor: true
+  link: "https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/2824253/no.ntnu%3Ainspera%3A77039769%3A11376481.pdf?sequence=1"
+
+- title: Automated Drumming Transcription
+  type: Semester project
+  students:
+    - first: Benjamin
+      last: Wolff
+  year: 2020
+  fall_semester: True
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: Multi-path analog-to-digital conversion
+  type: Master project
+  students:
+    - first: Ólafur
+      last: Thoroddsen
+  year: 2019
+  fall_semester: True
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: System identification of a sonar wind speed sensor using linear state space models
+  type: Semester project
+  students:
+    - first: Ólafur
+      last: Thoroddsen
+  year: 2018
+  fall_semester: False
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+    - first: Federico
+      last: Wadehn
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: Topology exploration for locally controlled sampling networks
+  type: Semester project
+  students:
+    - first: David
+      last: Schmutz
+  year: 2018
+  fall_semester: False
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: Sigma delta modulator reconstruction using neural networks
+  type: Group project
+  students:
+    - first: Alvin
+      last: Pyngottu
+    - first: Göktug
+      last: Alkan
+    - first: Jan
+      last: Schäppi
+  year: 2018
+  fall_semester: False
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+    - first: Raphael
+      last: Keusch
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: "Tomographic artifacts: analysis, simulation and correction"
+  type: Master project
+  students:
+    - first: Linus
+      last: Rüttimann
+  year: 2018
+  fall_semester: true
+  supervisors:
+    - first: Boxiao
+      last: MA
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: Signal processing methods for wind speed estimation
+  type: Semester project
+  students:
+    - first: Tobias
+      last: Keller
+  year: 2017
+  fall_semester: True
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+    - first: Federico
+      last: Wadehn
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor:
+
+- title: Signal quality assessment for intracranial pressure recordings
+  type: Semester project
+  students:
+    - first: Henry
+      last: Schulten
+  year: 2017
+  fall_semester: False
+  supervisors:
+    - first: Federico
+      last: Wadehn
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: Digital Synthesizer
+  type: Group project
+  students:
+    - first: Kian
+      last: Hunziker
+    - first: Jonathan
+      last: Kakon
+    - first: Paul
+      last: Lehmann
+  year: 2016
+  fall_semester: True
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+    - first: Patrick
+      last: Murer
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: "Continuous-time and hybrid Kalman filtering and smoothing: new implementations"
+  type: Semester project
+  students:
+    - first: Matthias
+      last: Heinzmann
+  year: 2016
+  fall_semester: True
+  supervisors:
+    - first: Federico
+      last: Wadehn
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: "Pidroponics: automatic hydroponic cultivation with pi(es)"
+  type: Group project
+  students:
+    - first: Cecilia
+      last: D'Errico
+    - first: Samuele
+      last: Darani
+  year: 2016
+  fall_semester: False
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+    - first: Nour
+      last: Zalmaï
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: "Binary-input estimation for linear Gaussian models"
+  type: Semester project
+  students:
+    - first: Martin
+      last: Lendi
+  year: 2016
+  fall_semester: True
+  supervisors:
+    - first: Nour
+      last: Zalmaï
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: "Robust click sound recognition in background noise environment"
+  type: Semester project
+  students:
+    - first: Zixuan
+      last: Peng
+  year: 2016
+  fall_semester: True
+  supervisors:
+    - first: Nour
+      last: Zalmaï
+    - first: Reto
+      last: Wildhaber
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: "Blind signal separation by automatic state space model selection and learning"
+  type: Master project
+  students:
+    - first: Raphael
+      last: Keusch
+  year: 2016
+  fall_semester: False
+  supervisors:
+    - first: Nour
+      last: Zalmaï
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: "Analog-to-digital conversion with cascade structure and additional extensibility to bandpass sampling"
+  type: Master project
+  students:
+    - first: Michael
+      last: Purghart
+  year: 2016
+  fall_semester: False
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: "Reconstructing non-uniformly sampled biosignals"
+  type: Semester project
+  students:
+    - first: Raphael
+      last: Keusch
+  year: 2015
+  fall_semester: True
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+    - first: Reto
+      last: Wildhaber
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: "Solving superpositions with sparse input estimation"
+  type: Semester project
+  students:
+    - first: Gabrielle
+      last: Buytaert
+  year: 2015
+  fall_semester: False
+  supervisors:
+    - first: Nour
+      last: Zalmaï
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: "A study of algorithms for system identification"
+  type: Semester project
+  students:
+    - first: Michail
+      last: Mylonakis
+  year: 2015
+  fall_semester: False
+  supervisors:
+    - first: Nour
+      last: Zalmaï
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: "Sparse input estimation for heart beat detection in ballistocardiogram recordings"
+  type: Semester project
+  students:
+    - first: Dario
+      last: Walser
+  year: 2015
+  fall_semester: False
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+    - first: Federico
+      last: Wadehn
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true

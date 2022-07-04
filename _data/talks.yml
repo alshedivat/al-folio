@@ -1,0 +1,99 @@
+- title: "Deconvolution of Weakly-Sparse Signals and Dynamical-System Identification by Gaussian Message Passing"
+  location:
+    name: ISIT Hong Kong
+    link: "http://isit2015.org/index.html"
+  pdf: "/assets/pdf/isit2015.pdf"
+  date:
+    year: 2015
+    month: "June"
+    days:
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+  abstract: "We use ideas from sparse Bayesian learning for estimating the (weakly) sparse input signal of a linear state space model. Variational representations of the sparsifying prior lead to algorithms that essentially amount to Gaussian message passing. The approach is extended to the case where the state space model is not known and must be estimated. Experimental results with a real-world application substantiate the applicability of the proposed method."
+
+- title: "Factor Graphs, State Space Models and Sparse Bayesian Learning"
+  location:
+    name: Chalmers University of Technology
+    contact: Prof. Tomas McKelvey
+    link: "https://www.chalmers.se/en/staff/Pages/tomas-mc-kelvey.aspx"
+  pdf: "/assets/pdf/chalmers2016.pdf"
+  date:
+    year: 2016
+    month: "November"
+    days:
+      - 18
+  abstract: "This presentation will focus on probabilistic graphical models for solving linear inverse problems on temporally correlated signals. In particular, we focus on combining sparsity (sparse Bayesian learning) with Gaussian message passing on systems that are represented using state space models. In the special case of additive Gaussian noise sources, message passing boils down to Kalman smoothing and as such, if the sources are i.i.d., it can be seen from a Wiener filtering perspective. We explore this perspective to formulate a transfer function analysis for our estimate. Finally, we consider estimating the state space model while jointly solving the primary inverse problem. Notably, these two estimation tasks work well together as the sparsifying prior enforces additional constraints on the system identification."
+
+- title: "Control-Bounded Analog-to-Digital Conversion"
+  location:
+    name: Stanford (Online)
+    contact: Prof. Boris Murmann
+    link: "https://profiles.stanford.edu/boris-murmann"
+  pdf: "/assets/pdf/Murmann2020.pdf"
+  date:
+    year: 2020
+    month: "July"
+    days:
+      - 28
+
+- title: "Control-Bounded Conversion (PhD Defence)"
+  location:
+    name: ISI, ETH, Zurich
+    link: "https://isi.ee.ethz.ch"
+  pdf: "/assets/pdf/phd_defence.pdf"
+  date:
+    year: 2020
+    month: "August"
+    days:
+      - 20
+
+- title: "Analog-to-Digital Conversion Using Self-Averaging Analog Hadamard Networks"
+  location:
+    name: IMSE-CNM, Sevilla (Online)
+    link: "http://www2.imse-cnm.csic.es/~jrosa/index.php/"
+    contact: "Prof. José M. de la Rosa"
+  pdf: "/assets/pdf/jose2021.pdf"
+  date:
+    year: 2021
+    month: "September"
+    days:
+      - 21
+
+- title: "Analog-to-Digital Conversion Using Self-Averaging Analog Hadamard Networks"
+  location:
+    name: ISCAS (Online)
+    link: "https://ieeexplore.ieee.org/document/9181151"
+  pdf: "/assets/pdf/iscas2020.pdf"
+  date:
+    year: 2020
+    month: "October"
+    days:
+      - 10
+      - 20
+
+- title: "Reinventing Analog-to-Digital Conversion"
+  location:
+    name: NTNU, Trondheim
+    link: "https://www.ntnu.edu/ies"
+    contact: Prof. Trond Ytterdal
+  pdf: "/assets/pdf/ntnu2022.pdf"
+  date:
+    year: 2022
+    month: "February"
+    days:
+      - 21
+
+- title: "Advances in Control-Bounded Converter"
+  location:
+    name: ISI, ETH, Zurich
+    link: "https://isi.ee.ethz.ch"
+  pdf: "/assets/pdf/isi2022.pdf"
+  date:
+    year: 2022
+    month: "April"
+    days:
+      - 19
