@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Methylation in precursors
-description: Methylomic analysis of fallopian tube precursor lesions shows that they are epigenetically similar to HGSCs and share regions of differential hypermethylation with potential use as biomarkers for early detection of ovarian HGSC.
-img: assets/img/precursor-methylation_pic.png
+title: Methylation in hgsc precursors
+description: Methylomic analyses show that fallopian tube precursor lesions are epigenetically similar to high-grade serous carcinomas and identify methylation biomarkers with potential use for early detection.
+img: assets/img/projects/precursor-methylation_pic.png
 redirect: https://doi.org/10.1158/1078-0432.CCR-20-0270
 importance: 4
 category: cancer biology & biomarker discovery

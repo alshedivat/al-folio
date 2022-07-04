@@ -1,8 +1,8 @@
 ---
 layout: page
 title: DREAMing
-description: A novel method for detecting, analyzing and enumerating rare, heterogeneously-methlyated epialleles on a copy-by-copy basis.  
-img: assets/img/DREAMing-pic.png
+description: A simple and cost-effective method for detecting, analyzing and enumerating rare, heterogeneously-methlyated epialleles in complex samples such as liquid biopsies.
+img: assets/img/projects/DREAMing-pic.png
 redirect: https://dx.doi.org/10.1093/nar/gkv795
 importance: 1
 category: cancer diagnostics

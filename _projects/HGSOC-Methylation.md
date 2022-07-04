@@ -1,12 +1,11 @@
 ---
 layout: page
-title: HYPERMelt
-description: A low-cost  digital microfluidic microfluidic platform for analyzing DNA methylation with an unprecedented combination of sensitivity, specificity and resolution.
-redirect: https://www.science.org/doi/10.1126/sciadv.aat6459
-img: assets/img/HyperMELT.png
-
-importance: 2
-category: cancer diagnostics
+title: Methylation in ovarian cancer
+description: Genome-wide methylation analysis and selective bioinformatic criteria identify a panel of highly-specific methylation biomarkers for potential use in the diagnosis of ovarian cancer.
+img: assets/img//projects/OC-methylation_pic.png
+redirect: http://clincancerres.aacrjournals.org/content/clincanres/24/24/6536.full.pdf
+importance: 3
+category: cancer biology & biomarker discovery
 ---
 
 Every project has a beautiful feature showcase page.
