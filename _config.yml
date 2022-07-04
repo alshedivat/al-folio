@@ -294,7 +294,7 @@ enable_medium_zoom:         true   # enables image zoom feature (as on medium.co
 academicons:
   version: "1"
 bootstrap:
-  version: "4"
+  version: "5"
 fontawesome:
   version: "6"
 jquery:
