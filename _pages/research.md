@@ -2,7 +2,7 @@
 layout: page
 title: research
 permalink: /research/
-description: Highlighted research from the Epidiagnostics Group
+description: Highlighted research from the Epidiagnostics Group.
 nav: true
 nav_order: 1
 display_categories: [cancer diagnostics, cancer biology & biomarker discovery]

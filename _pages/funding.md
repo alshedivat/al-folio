@@ -12,7 +12,7 @@ description: Our generous sponsors, without whom none of our exciting research w
 {% assign funders = site.funding | where: "active_funding", true | sort: "name" %}
 <div class="d-flex flex-wrap align-content-stretch justify-content-center m-n2 pt-4 no-gutters">
     {% for funder in funders %}
-        {% assign colsMod6 = forloop.length | modulo: 3 %}
+        {% assign colsMod6 = forloop.length | modulo: 4 %}
         {% assign colIdMod4 = forloop.index | modulo: 3 %}
         {% if colsMod6 == 1 and colIdMod4 == 1 %}<div class="col-md-3 w-100"></div>{% endif %}
         <div class="col-4 col-sm-1 col-md-3 mb-2">
