@@ -9,7 +9,10 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
 }
 
 hr {
-  border-top: 1px solid var(--global-divider-color);
+  height: 1px;
+  background-color: var(--global-divider-color);
+  border: none;
+  opacity: 1;
 }
 
 table {
