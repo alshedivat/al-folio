@@ -337,7 +337,7 @@ footer.sticky-bottom {
 .tag-list {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 1rem;
+  padding: 1rem;
 
   ul {
     justify-content: center;
@@ -346,7 +346,7 @@ footer.sticky-bottom {
     p, li {
       list-style: none;
       display: inline-block;
-      padding: 1rem 0.5rem;
+      padding: 0.5rem;
       color: var(--global-text-color-light);
     }
   }

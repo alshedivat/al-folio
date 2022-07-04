@@ -28,7 +28,7 @@ pagination:
           <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
         </li>
         {% unless forloop.last %}
-          <p>&bull;</p>
+          &bull;
         {% endunless %}
       {% endfor %}
     </ul>
