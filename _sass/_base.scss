@@ -204,6 +204,10 @@ blockquote {
 }
 
 .navbar-toggler {
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
   .icon-bar {
     display: block;
     width: 22px;
