@@ -4,5 +4,5 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 3
-cv_pdf: example_pdf.pdf
+cv_pdf: SmithTripp_CV_4July2022.pdf
 ---
