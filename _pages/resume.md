@@ -5,7 +5,7 @@ title: resume
 description: Curriculum Vitae.
 nav: true
 nav_order: 1
-cv_pdf: /assets/pdf/CV_2022.pdf
+#cv_pdf: /assets/pdf/CV_2022.pdf
 ---
 
 ---
@@ -13,8 +13,7 @@ Name: Wenbin (Bean) Zhou
 
 E-mail: wenbin.evolution@gmail.com
 
-<mark>resume_pdf<mark> (/assets/pdf/CV_2022.pdf)
-[get the PDF]({{ site.url }}/assets/pdf/CV_2022.pdf)
+[CV PDF](https://bean061.github.io/assets/pdf/CV_2022.pdf)
 
 ---
 #### **Current position**
