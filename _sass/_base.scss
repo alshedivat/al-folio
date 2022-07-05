@@ -151,8 +151,8 @@ blockquote {
   a:hover {
     color: var(--global-hover-color);
   }
-  .dropdown-divider {
-    border-top: 1px solid var(--global-divider-color) !important;
+  hr {
+    margin: 0;
   }
 }
 .dropdown-item {

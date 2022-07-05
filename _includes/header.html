@@ -64,7 +64,7 @@
                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                   {%- for child in p.children -%}
                   {%- if child.title == 'divider' %}
-                  <div class="dropdown-divider"></div>
+                  <hr>
                   {%- else %}
                   <a class="dropdown-item" href="{{ child.permalink | relative_url }}">{{ child.title }}</a>
                   {%- endif -%}
