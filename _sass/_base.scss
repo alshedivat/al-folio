@@ -313,7 +313,8 @@ footer.sticky-bottom {
       .badge {
         color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color);
-        min-width: 100%;
+        width: 100%;
+        max-width: 6rem;
       }
     }
   }
