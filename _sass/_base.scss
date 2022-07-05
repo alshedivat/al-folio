@@ -490,7 +490,7 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
       .preview {
-        width: 100%;
+        max-width: 100%;
         min-width: 80px;
       }
       .abbr {
