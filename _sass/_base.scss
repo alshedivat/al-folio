@@ -341,12 +341,13 @@ footer.sticky-bottom {
   ul {
     justify-content: center;
     display: flow-root;
+    color: var(--global-text-color-light);
 
-    p, li {
+    li {
       list-style: none;
       display: inline-block;
       padding: 0.5rem;
-      color: var(--global-text-color-light);
+      color: inherit;
     }
   }
 }
