@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching assignments
 description: list of yearly teaching assignments
 years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022]
-img: assets/img/leh_vorlesung_00289
+img: assets/img/leh_vorlesung_00289.jpg
 importance: 3
 category: academic
 ---

@@ -4,7 +4,7 @@ layout: page
 title: Student Supervision
 description: list of supervised student projects
 years: [2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015]
-img: assets/img/sta_zentrum_hauptgebaeude_044
+img: assets/img/sta_zentrum_hauptgebaeude_044.jpg
 importance: 2
 category: academic
 ---
