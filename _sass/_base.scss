@@ -494,6 +494,10 @@ footer.sticky-bottom {
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
+        .badge {
+          width: 100%;
+          max-width: 6rem;
+        }
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
