@@ -5,7 +5,7 @@ permalink: /funding
 nav: false
 nav_rank: 2
 sitetitle: true
-description: Our generous sponsors, without whom none of our exciting research would be possible.
+description: We are truly grateful to our generous sponsors, without whom none of our exciting research would be possible.
 
 ---
 
