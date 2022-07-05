@@ -76,7 +76,7 @@
 - title: Tearching Experience
   type: nested_list 
   contents:
-    -title: University of British Columbia
+    - title: University of British Columbia
     items: 
       - Remote Sensing of the Environment (FRST 443) - Term 2 2021, Term 2 2022
       - Advanced Geomatics for Natural Resource Management (FRST 538) - Term 1 2021
