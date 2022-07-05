@@ -13,7 +13,7 @@ Name: Wenbin (Bean) Zhou
 
 E-mail: wenbin.evolution@gmail.com
 
-[CV PDF](https://bean061.github.io/assets/pdf/CV_2022.pdf)
+[CV PDF version](https://bean061.github.io/assets/pdf/CV_2022.pdf)
 
 ---
 #### **Current position**
