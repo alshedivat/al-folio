@@ -23,7 +23,9 @@ nav_rank: 2
                 <div class="card-body">
                     {% if member.inline == false %}{% if member.external == true %} <a href="{{ member.profile.website }}">{% else %}<a href="{{ member.url | relative_url }}">{% endif %}{% endif %}
                     <h5 class="card-title">{{ member.profile.name }}</h5>
-                    {% if member.profile.position %}<h6 class="card-subtitle mb-2 text-muted">{{ member.profile.position }}</h6>{% endif %}
+                    {% if member.profile.position %}
+                    {% if member.profile.team-position %}<h6 class="card-subtitle mb-2 text-muted">{{ member.profile.team-position }}</h6>
+                    {% else %}<h6 class="card-subtitle mb-2 text-muted">{{ member.profile.position }}</h6>{% endif %}{% endif %}
                     <p class="card-text">
                         {{ member.teaser }}
                     </p>
