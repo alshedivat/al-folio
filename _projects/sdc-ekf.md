@@ -30,10 +30,10 @@ The simulator displays noisy lidar and radar readings as blue and red dots. Gree
 The results of dataset 1 & 2 are depicted in the animation below.
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0" align="center">
-        {% include figure.html path="./../../../assets/img/ekf/dataset1.gif" title="Dataset 1" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="./../../../assets/img/ekf/dataset1.jpg" title="Dataset 1" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0" align="center">
-        {% include figure.html path="./../../../assets/img/ekf/dataset2.gif" title="Dataset 1" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="./../../../assets/img/ekf/dataset2.jpg" title="Dataset 1" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
