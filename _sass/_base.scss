@@ -311,6 +311,7 @@ footer.sticky-bottom {
     border: 1px solid var(--global-divider-color);
     
     .list-group-item {
+      color: inherit;
       background-color: inherit;
 
       .badge {
