@@ -1,97 +1,88 @@
-- title: General Information
+- title: Education and Experience (see pdf for full CV)
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Sarah Smith-Tripp
+    - name: Current Position
+      value: PhD Student in the [Integrated Remote Sensing Studio](https://irsslab.forestry.ubc.ca/)
+    - name: Interests
+      value: Ecosystem Succession, Disturbance Ecology
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Forestry
+      institution: University of British Columbia
+      year: 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - collaborative project with [Silva21](https://www.silva21.com/)
+        - Structural forest regeneration after stand replacing disturbance
+        - Satellite monitoring of structural forest composition
+    - title: MSc in Geography
+      institution: University of British Columbia
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Forest structure and microclimate dynamics in disturbed forests
+    - title: BA in Geosciences (minor in Biological Sciences)
+      institution: Wellesley College
+      year: 2019
+      description:
+        - Magna Cum Laude, Dept. Honors 
+        - Honors Thesis: alterations in stream flow associated with Gypsy Moth outbreaks
 
-- title: Experience
+- title: Research Experiences
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Remote Sensing Consultant / Visiting Scholar
+      institution: Metro Vancouver Watershed and Environmental Management Division
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Outlined remote-sensing forest health monitoring program
+        - Completed remote-sensing (satellite and lidar) assessment of forest health in watershed
+    - title: Forest Inventory Research Assistant
+      institution: University of New Mexico
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Collected tree and vegetation data for forest carbon assesstments
+    - title: Albright Institute of Global Affairs Fellow
+      institution: Wellesley College
+      year: 2019 
+      description: 
+        -Collaborated with interdisciplinary team to learn about nationalism in Brazil. Presented
+         collaborations to honored guest Ambassador Samantha Powers
+    - title: Interdiscplinary Research Assistant
+      institution: Rutgers University 
+      year: 2018 
+      description: 
+        - Conducted anthropologic research; interviewed herders on weather variability
+        - Assisted in wild fish behavioral trials, looking specifically at species boldness
+    - title : Guest Student in [BOOMLAB](http://boomlab.whoi.edu/wordpress/)
+      institution: Woods Hole Oceanographic Institution
+      year: 2018 
+      description: 
+        - Completed sample preparation for oceanographic cruise monitoring carbon sequestration in the North Atlantic
+    - title: Ecology Intern
+      institution: Alberta Parks Department
+      year: 2017
+      description: 
+        - Developed trail use monitoring program for Kananaskis front country
+    - title: Interdisciplinary Research Assistant
+      institution: Wendy Paulson 1969 Ecology of Place
+      year: 2016 - 2019
       description:
+        - Constructed remote sensing temperature array to constantly pond temperature profile
+        - Organized diverse group of stakeholders to define layered landscape values
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
+- title: Tearching Experience
+  type: nested_list 
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    -title: University of British Columbia
+    items: 
+      - Remote Sensing of the Environment (FRST 443) - Term 2 2021, Term 2 2022
+      - Advanced Geomatics for Natural Resource Management (FRST 538) - Term 1 2021
+      - Atmospheric Environments (GEOB 200) - Term 1 2020 
+      - Environmental Impact Analyses (GEOB 314) - Term 2 2020
+    - title: Wellesley College
+    items: 
+      - Environmental Geochemistry - Spring 2019 
+      - Ecosystem Science - Fall 2018 
