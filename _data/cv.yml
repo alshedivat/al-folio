@@ -72,16 +72,16 @@
         - Constructed remote sensing temperature array to constantly measure pond temperature profile
         - Organized diverse group of stakeholders to define layered landscape values
 
-- title: Tearching Experience
+- title: Teaching Experience
   type: nested_list 
   contents:
-    - title: University of British Columbia
+   - title: University of British Columbia
     items: 
-      - Remote Sensing of the Environment (FRST 443) - Term 2 2021, Term 2 2022
-      - Advanced Geomatics for Natural Resource Management (FRST 538) - Term 1 2021
-      - Atmospheric Environments (GEOB 200) - Term 1 2020 
-      - Environmental Impact Analyses (GEOB 314) - Term 2 2020
-    - title: Wellesley College
+      - Remote Sensing of the Environment (FRST 443); Term 2 2021, Term 2 2022
+      - Advanced Geomatics for Natural Resource Management (FRST 538); Term 1 2021
+      - Atmospheric Environments (GEOB 200); Term 1 2020 
+      - Environmental Impact Analyses (GEOB 314); Term 2 2020
+  - title: Wellesley College
     items: 
-      - Environmental Geochemistry - Spring 2019 
-      - Ecosystem Science - Fall 2018 
+      - Environmental Geochemistry; Spring 2019 
+      - Ecosystem Science; Fall 2018 
