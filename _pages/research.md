@@ -4,7 +4,7 @@ title: research
 permalink: /research/
 description: Highlighted research from the Epidiagnostics Group.
 nav: true
-nav_order: 1
+nav_order: 3
 display_categories: [cancer diagnostics, cancer biology & biomarker discovery]
 horizontal: false
 ---

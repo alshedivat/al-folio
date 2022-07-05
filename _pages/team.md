@@ -4,6 +4,7 @@ permalink: /team
 title: team
 description: Members and faculty affiliated with the Epidiagnostics Group at JHU.
 nav: true
+nav_order: 2
 nav_rank: 2
 ---
 

@@ -3,7 +3,8 @@ layout: page
 title: collaborators
 permalink: /collaborators
 nav: false
-nav_rank: 2
+nav_rank: 5
+nav_order: 5
 sitetitle: true
 description: Meet our extraordinary collaborators!
 
