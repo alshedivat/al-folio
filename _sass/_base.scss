@@ -316,6 +316,7 @@ footer.sticky-bottom {
       .badge {
         color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color) !important;
+        min-width: 100%;
       }
     }
   }
