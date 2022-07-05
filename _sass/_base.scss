@@ -281,9 +281,8 @@ footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
   .container {
-    color: var(--global-footer-text-color) !important;
-    padding-top: 9px;
-    padding-bottom: 8px;
+    color: var(--global-footer-text-color);
+    padding: 0.5rem;
   }
   a {
     color: var(--global-footer-link-color);
