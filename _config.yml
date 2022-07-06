@@ -71,7 +71,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: akshitab # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: AkshitaB93 # your Twitter handle
+<<<<<<< HEAD
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
+=======
+>>>>>>> a7f1824 (website revamp)
 linkedin_username: # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
@@ -107,6 +110,10 @@ wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.
 stackoverflow_id: #your stackoverflow id
 wordpress_url: https://the-writers-nest.com # your wordpress URL
 goodreads_url: https://www.goodreads.com/user/show/20774648-akshita-bhagia # your goodreads profile
+<<<<<<< HEAD
+=======
+
+>>>>>>> a7f1824 (website revamp)
 
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
@@ -125,15 +132,22 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 blog_name: writings # blog_name will be displayed in your blog page
 blog_nav_title: writings # your blog must have a title for it to be displayed in the nav bar
 blog_description: technical and non-technical posts
+=======
+blog_name: tech musings # blog_name will be displayed in your blog page
+blog_nav_title: # blog # your blog must have a title for it to be displayed in the nav bar
+blog_description: tech musings
+>>>>>>> a7f1824 (website revamp)
 permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
   enabled: true
 
+<<<<<<< HEAD
 related_blog_posts:
   enabled: true
   max_related: 5
@@ -154,6 +168,10 @@ giscus:
 
 # Disqus comments (DEPRECATED)
 disqus_shortname: al-folio # put your disqus shortname
+=======
+# Comments
+disqus_shortname:  # put your disqus shortname
+>>>>>>> a7f1824 (website revamp)
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
