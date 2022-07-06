@@ -13,11 +13,20 @@ layout: default
 
         <article>
           {% if page.profile -%}
-    <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-      {% if page.profile.image %}
-        {% if page.profile.href %}<a href="{{ page.profile.href | relative_url }}">{% endif %}
-          <img class="img-fluid{% assign ext = page.profile.image | slice: -4, 4 %}{% if ext != '.svg' %} z-depth-1 rounded{% endif %}" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="{{ page.profile.name }}">
-        {% if page.profile.href %}</a>{% endif %}
+          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">            
+            {%- if page.profile.image %}
+              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+
+              {% if page.profile.image_cicular %}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+              {% else %}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+              {% endif %}
+
+              {% include figure.html 
+              path=profile_image_path 
+              class=profile_image_class
+              alt=page.profile.image -%}
       {% endif %}
       {% if page.profile.address %}
         <div class="address">
@@ -25,6 +34,7 @@ layout: default
             {% if page.profile.href %}<a href="{{ page.profile.href | relative_url }}">{% endif %}
               <span class="name">{{ page.profile.name }}</span>
             {% if page.profile.href %}</a>{% endif %}
+              <span class="data">
             {% if page.profile.position %}<br />{{ page.profile.position }}{% endif %}
             {% if page.profile.email %}<br /><a href="mailto:{{ page.profile.email }}"><i class="fas fa-envelope"></i> {{ page.profile.email }}</a>{% endif %}
             {% if page.profile.phone %}<br /><a href="tel:{{ page.profile.phone }}"><i class="fas fa-phone"></i> {{ page.profile.phone }}</a>{% endif %}
@@ -32,11 +42,15 @@ layout: default
             {% if page.profile.twitter %}<br /><a href="https://twitter.com/{{ page.profile.twitter }}" target="_blank"><i class="fab fa-twitter"></i> {{ page.profile.twitter }}</a>{% endif %}
             {% if page.profile.github %}<br /><a href="https://github.com/{{ page.profile.github }}" target="_blank"><i class="fab fa-github"></i> {{ page.profile.github }}</a>{% endif %}
             {% if page.profile.website %}<br /><a href="{{ page.profile.website }}" target="_blank"><i class="fas fa-globe"></i> {{ page.profile.website }}</a>{% endif %}
+            </span>                  
           </p>
           <p class="post">{{ page.profile.address }}</p>
-          <div><a href="https://inbt.jhu.edu"><img class="layout_commented"  style="margin-bottom: 20px" src="/assets/img/INBT-logo.png" height="60"></a>
-            <a href="https://breakthroughcancer.org"><img class="layout_commented" style="margin-bottom: 20px" src="/assets/img/BTC-logo.png" height="60" ></a>
+          {% if page.profile.logos %}
+          <div><a href="https://inbt.jhu.edu"><img class="layout_commented"  style="margin-bottom: 20px" src="/assets/logos/INBT-logo.png" height="60"></a>
+            <a href="https://breakthroughcancer.org"><img class="layout_commented" style="margin-bottom: 20px" src="/assets/logos/BTC-logo.png" height="60" ></a>
           </div>
+
+           {% endif %}
         </div>
       {% endif %}
           </div>
@@ -44,7 +58,7 @@ layout: default
 
           <div class="clearfix">
               <div class="about-logo">
-              <img style="padding-bottom: 1rem;"; src="/assets/img/epidiagnostics-logo.png"; height = 150>
+              <img style="padding-bottom: 1rem;"; src="/assets/logos/epidiagnostics-logo.png"; height = 150>
             </div>
             {{ content }}
           </div>

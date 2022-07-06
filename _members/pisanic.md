@@ -19,7 +19,8 @@ profile:
     position: Epidiagnostics Group Investigator <br />Associate Research Professor <br /> <a href="https://breakthroughcancer.org/">Break Through Cancer</a> Scientist
     team-position: INBT Associate Research Professor of Oncology - Cancer Genetics and Epigenetics<br />Break Through Cancer Scientist
     align: right 
-    image: prof_pic_tall.png
+    logos: true
+    image: prof_pic_tall.png 
     email: tpisanic@jhu.edu
     phone: +1 619 892 2567
     twitter: epidiagnostics

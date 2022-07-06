@@ -8,6 +8,7 @@ profile:
   name: Thomas R. Pisanic II, PhD
   position: Epidiagnostics Group Investigator <br />Associate Research Professor <br /> <a href="https://breakthroughcancer.org/">Break Through Cancer</a> Scientist
   align: right
+  logos: true
   image: prof_pic.png
   href: '/members/pisanic'
   address: >

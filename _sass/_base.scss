@@ -101,7 +101,8 @@ blockquote {
 // Profile
 
 .profile {
-  margin-left: 2rem;
+  margin-left: 1rem;
+  width: 100%;
 
   .address {
     .name {
@@ -109,6 +110,9 @@ blockquote {
     font-weight: bolder;
 
     }
+    .data {
+      font-size: 1rem;      
+      }       
     .post {
       font-size: .8rem;
     }
