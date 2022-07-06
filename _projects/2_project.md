@@ -1,80 +1,37 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Microclimate in burned forests
+description: MSc research in Geography
+img: assets/img/microclimate.jpg
 importance: 2
 category: work
+profile:
+  align: right
+  image: Figure3.jpg
+  image_cicular: false # crops the image to make it circular
+  
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Forest canopies can buffer from regional climate, but the climate of disturbed forest canopies is less understood. To investigate the relationship between disturbed forest canopies and climate I measured canopy height using a remotely piloted aircraft (RPA) and monitored microclimate with low-cost temperature and soil moisture sensors. I found growing season temperatures at -8 cm (soil), 0 cm (surface), and 15 cm (near-surface) relative to the ground surface were higher under shorter more disturbed canopies. Soil temperature was most sensitive to canopy height differences: linear models for the observed data range predicted a 2.0 °C increase in mean growing season soil temperature with every 10 m decrease in canopy height. There was observed a weak negative relationship between canopy height and mean growing season soil moisture. Importantly, we show canopy height summarized at moderate resolution (15 m) better explained differences in temperature in our disturbed landscape. This work informs future methods to produce gridded microclimate datasets and outlines the impact of disturbed forest structure on microclimate variables. Our results show that the characteristics of the forest canopy remaining after a burn impact microclimates, which has important implications for post-fire ecosystems.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/field_site.jpg" title="Research at Alex Fraser" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Data logger locations within burned forest in Interior British Columbia. Inset map shows the fire boundary from 2017 and an elevation map. Blue points are the locations of canopy verification plots to confirm DAP modeling. 
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/microclimate.jpg" title="Microclimate Research" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/microclimate_profil.jpg" title="TMS-data loggers" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    New data loggers like the TMS-4 dataloggers from TOMST have rapidly expanded our capacity for microclimate research
 </div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
