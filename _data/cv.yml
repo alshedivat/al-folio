@@ -9,6 +9,10 @@
       value: English, Swedish, German
     - name: GitHub
       value: <a href="https://github.com/hammal">hammal</a>
+    - name: Address
+      value: ETF D 109.3<br> Sternwartstrasse 7<br> 8092 Zürich, Switzerland
+    - name: Email
+      value: <a href="mailto:malmberg@isi.ee.ethz.ch">malmberg@isi.ee.ethz.ch</a>
 
 - title: Education
   type: time_table
