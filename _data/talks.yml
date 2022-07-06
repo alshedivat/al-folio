@@ -42,7 +42,7 @@
 
 - title: "Control-Bounded Conversion (PhD Defence)"
   location:
-    name: ISI, ETH, Zurich
+    name: ISI, ETH, Zürich
     link: "https://isi.ee.ethz.ch"
   pdf: "/assets/pdf/phd_defence.pdf"
   date:
@@ -51,7 +51,7 @@
     days:
       - 20
 
-- title: "Analog-to-Digital Conversion Using Self-Averaging Analog Hadamard Networks"
+- title: "The Control-Bounded A/D Conversion Principle"
   location:
     name: IMSE-CNM, Sevilla (Online)
     link: "http://www2.imse-cnm.csic.es/~jrosa/index.php/"
@@ -89,7 +89,7 @@
 
 - title: "Advances in Control-Bounded Converter"
   location:
-    name: ISI, ETH, Zurich
+    name: ISI, ETH, Zürich
     link: "https://isi.ee.ethz.ch"
   pdf: "/assets/pdf/isi2022.pdf"
   date:

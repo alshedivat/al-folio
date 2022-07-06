@@ -2,96 +2,163 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Hampu Malmberg
     - name: Date of Birth
-      value: 14th March 1879
+      value: 21st July 1988
     - name: Languages
-      value: English, German
+      value: English, Swedish, German
+    - name: GitHub
+      value: <a href="https://github.com/hammal">hammal</a>
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Doctor of Science in Electrical Engineering & Information Technology
+      institution: Eidgenössische Technische Hochschule (ETH) Zürich, Switzerland
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Doctoral thesis: <a href='https://doi.org/10.3929/ethz-b-000469192'>Control-Bounded Converters</a>"
+    - title: Master of Science in Electrical Engineering & Information Technology,
+      institution: Eidgenössische Technische Hochschule (ETH) Zürich, Switzerland
+      year: 2014
       description:
-        - Description 1.
-        - Description 2.
+        - "Master thesis: Sparse Bayesian Learning for Blind Deconvolution"
+
+    - title: Bachelor of Science in Electrical Engineering
+      institution: Chalmers University of Technology, Gothenburg, Sweden
+      year: 2012
+      description:
+        - "Bachelor thesis: <a href='https://odr.chalmers.se/bitstream/20.500.12380/159442/1/159442.pdf'>Musikeffekter med signalprocessor - Realtidsimplementation på plattformen C6416T DSK</a>"
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+      #   - title: Description 3.
+      #     contents:
+      #       - Sub-description 1.
+      #       - Sub-description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctorate Researcher
+      institution: <a href="https://isi.ee.ethz.ch">Signal and Information Processing Laboratory</a>, ETH Zürich, Switzerland
+      year: 2020 - now
+      description: in collaboration with <a href="https://people.ee.ethz.ch/~loeliger/">Prof. Hans-Andrea Loeliger</a>
+
+    - title: Guest Researcher
+      institution: <a href="https://www.ntnu.edu/employees/ehmalmbe">Department of Electronic Systems</a>, NTNU, Trondheim, Norway
+      year: 2022 - now
+      description: In collaboration with <a href="https://www.ntnu.edu/employees/trond.ytterdal">Prof. Trond Ytterdal</a>
+
+    - title: Fullstack Developer
+      institution: Orbit Plastic AB, Sweden
+      year: 2020 - 2021
+      description: Created <a href="https://orbitplastic.com">a trading platform</a> for recycled plastic in Typescript with a cloud deployment in GCP utilizing multiple services such as App Engine, Cloud Build, Cloud Storage.
+
+    - title: PhD Student
+      institution: Signal and Information Processing Laboratory, ETH Zürich, Switzerland
+      year: 2014 - 2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Invented the <a href="https://doi.org/10.1007/s00034-021-01837-z">control-bounded ADC</a> concept, a new paradigm for analog-to-digital conversion.
+        - Filed two patent applications related to the control-bounded ADC conversion concept.
+        - Co-authored 9 scientific publications, see <a href="/publications">publications</a>.
+
+    - title: Research Assistant
+      institution: Signal and Information Processing Laboratory, ETH Zürich, Switzerland
+      year: 2014 - 2020
+      description:
+        - title: Assisted, as primary teaching assistant, the following ETH master courses
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - <a href="https://isi.ee.ethz.ch/teaching/courses/sml.html">Signal analysis, models, and machine learning</a>
+            - <a href="https://isi.ee.ethz.ch/teaching/courses/asf.html">Analog signal processing and filtering</a>.
+        - Developed and taught the <a href="https://isi.ee.ethz.ch/teaching/pps/elab.html">electronic circuits & signals exploration laboratory</a> course.
+        - Supervised 20+ master and bachelor thesis work, see <a href="/projects/students/">student supervision</a>.
+
+    - title: Hackaton Participant
+      institution: Sonova AG, Zürich, Switzerland
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
+        - Enhanced speech quality from an audio signal, picked up by an accelerometer sensor by using DNNs developed in Tensorflow.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Product Developer
+      institution: Unfors RaySafe AB, Gothenburg, Sweden
+      year: 2012 (Summer)
       description:
+        - Increased process efficiency for X-ray equipment calibration by automating a filtration and motorized height control system of a medical X-ray machine.
+        - Developed an application, written in C#, for remotely steering the mentioned control system.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Teacher
+      institution: Chalmers University of Technology, Gothenburg, Sweden
+      year: 2011
+      description: Developed and taught a MATLAB introductory course for first year electrical engineering students.
+
+    - title: Calibration Technician
+      institution: Unfors RaySafe AB, Gothenburg, Sweden
+      year: 2009 - 2011 (Summers)
+      description: Calibrated, serviced and repaired medical X-ray measurement equipment.
+
+    # - title: Professor of Theoretical Physics
+    #   institution: Institute for Advanced Study, Princeton University
+    #   year: 1933 - 1955
+    #   description:
+    #     - Description 1.
+    #     - Description 2.
+    #     - title: Description 3.
+    #       contents:
+    #         - Sub-description 1.
+    #         - Sub-description 2.
+    # - title: Visiting Professor
+    #   institution: California Institute of Technology, Pasadena, California, US
+    #   year: 1933
+    #   description:
+    #     - Description 1.
+    #     - Description 2.
+
+    # - title: Director
+    #   institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+    #   year: 1917-1933
+
+    # - title: Professor of Theoretical Physics
+    #   institution: Karl-Ferdinand University, Prague, Czechoslovakia
+    #   year: 1911 - 1917
+    #   description:
+
+    # - title: Associate Professor of Theoretical Physics
+    #   institution: University of Zürich, Zürich, Switzerland
+    #   year: 1909 - 1911
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/hammal/cbadc">cbadc</a>
+      year: 2021-now
+      description: A design tool for aiding the construction of control-bounded A/D converters.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - year: 2013
       items:
-        - Description 1.
-        - Description 2.
+        - Industrial International Business Scholarship from the Tekn. Dr. Marcus Wallenberg's Foundation.
+    - year: 2007
+      items:
+        - Sigrid Rudebecks Gymnasium's - Student Musical Award of the Year.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Analog-to-Digital
+#       items:
+#         - Control-bounded analog-to-digital and digital-to-analog converters
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+#       #   - Description 2.
+#     - title: Factor graphs and Gaussian message passing
+#       # items:
+#       #   - Description 1.
+#       #   - Description 2.
+
+#     - title: Model-based signal processing and sparse recovery problems
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Compose, play and record music, freeriding (skiing), and tinkering with Raspberry Pis and Arduinos.

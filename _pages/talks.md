@@ -4,7 +4,7 @@ title: talks
 permalink: /talks/
 description: a list of previous presentations
 nav: true
-nav_order: 5
+nav_order: 4
 horizontal: true
 ---
 
