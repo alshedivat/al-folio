@@ -29,7 +29,7 @@ Check out my [projects](projects) (along with post-mortems) and [interests](more
 
 **What am I doing these days?**
 * Working in [Prof. Ambuj Tewari's lab](https://ambujtewari.github.io/) over summer.
-* Thinking about offline RL in confounded tabular MDPs with global and i.i.d. confounders.
+* Thinking about offline RL in confounded tabular MDPs.
 * Thinking about minimax optimal algorithms for offline policy evaluation.
 * Trying to learn more about safe RL.
 * Participating in [MREG 2022](https://sites.google.com/umich.edu/mreg-2022/home) in [Rishi Sonthalia's](https://sites.google.com/umich.edu/rsonthal/home?authuser=0) group on Double Descent and the NTK.
