@@ -32,6 +32,19 @@ toc:
 
 ## Introduction
 
+Before applying for the PhD, I would like to recommend some articles(What I read on the seminar) to read!
+
+<ul>
+    <li><a href="https://medium.com/great-research/do-you-need-a-ph-d-f78d2fb0f286">Do you need a PhD?</a>  by Nick Feamster</li>
+    <li><a href="https://freedom-to-tinker.com/2010/09/27/advice-new-graduate-students/">Advice for new graduate students</a> by Jennifer Rexford</li>
+</ul>
+
+<ul>
+    <li><a href="http://www.cs.virginia.edu/~robins/YouAndYourResearch.pdf">You and your research</a> by Richard Hamming </li>
+    <li><a href="https://greatresearch.org/2013/09/20/research-patterns/">Research patterns</a> by Nick Feamster</li>
+    <li><a href="https://journals.biologists.com/jcs/article/121/11/1771/30038/The-importance-of-stupidity-in-scientific-research">Importance of stupidity</a> by Martin Schwartz</li>
+</ul>
+
 ## Podcast
 
 - [Theory and Practice](https://podcast.gv.com)
