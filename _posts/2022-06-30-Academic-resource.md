@@ -45,6 +45,14 @@ Before applying for the PhD, I would like to recommend some articles(What I read
     <li><a href="https://journals.biologists.com/jcs/article/121/11/1771/30038/The-importance-of-stupidity-in-scientific-research">Importance of stupidity</a> by Martin Schwartz</li>
 </ul>
 
+<a href="https://press.uchicago.edu/ucp/books/book/chicago/C/bo23521678.html"> The Craft of Research, Fourth Edition</a> (You can download it from the <a href="https://libgen.is"> Library genesis</a>)
+
+## Academic writing
+
+## Presentation
+
+## Read paper
+
 ## Podcast
 
 - [Theory and Practice](https://podcast.gv.com)
