@@ -9,11 +9,7 @@ category: work
 
 ## COMPASS '19
 
-<div class="container p-4">
-    <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responseive-item" src="https://www.youtube-nocookie.com/embed/47rdjBX4u1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-</div>
+{% include video.html url="https://www.youtube-nocookie.com/embed/47rdjBX4u1U" %}
 
 Our work on low-cost, high accuracy in-situ soil moisture sensing has been accepted for publication at ACM COMPASS 2021. The paper is titled Low-cost In-ground Soil Moisture Sensing with Radar Backscatter Tags. ACM COMPASS aims to be the forum for the presentation and publication of original research from a broad array of disciplines, including computer and information sciences, social sciences, environmental sciences and engineering, that support the growth of sustainable societies worldwide.
 
@@ -33,8 +29,4 @@ Agricultural soil moisture measurement is usually done with extensive in situ se
 
 We were to present a live demo of our soil moisture sensing work at IPSN ‘20 in Sydney, Australia during April 21-24. Here’s a video for those who can’t make it to Australia: Note: due to the pandemic, IPSN 2020 was virtual, so nobody got to see this in-person. 
 
-<div class="container p-4">
-    <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responseive-item" src="https://www.youtube-nocookie.com/embed/4m8p9s8nrQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-</div>
+{% include video.html url="https://www.youtube-nocookie.com/embed/4m8p9s8nrQI" %}
