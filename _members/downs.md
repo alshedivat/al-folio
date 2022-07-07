@@ -14,6 +14,7 @@ teaser: >
 
 profile:
     name: Bradley Downs, PhD
+    position: Postdoctoral Researcher at INBT (PI&#58; Pisanic)
     align: right
     image: brad-profile.jpg
     role: Postdoctoral Researcher
