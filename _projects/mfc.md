@@ -2,7 +2,6 @@
 layout: page
 title: Microbe-powered sensors
 description: natural power generation
-img: assets/img/12.jpg
 importance: 1
 category: work
 ---

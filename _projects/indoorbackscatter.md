@@ -2,7 +2,7 @@
 layout: page
 title: Indoor Backscatter
 description:
-img: assets/img/12.jpg
+img: assets/img/backcam_size_comparison.png
 importance: 3
 category: work
 ---
