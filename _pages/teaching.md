@@ -33,9 +33,9 @@ ___
 
 ## mentorship and student advising
 
+* **[Gabriel Raulet](https://www.linkedin.com/in/gabriel-raulet-207b7b214)** (LBNL), since Fall 2021.
 * **David Schober** (ETH Zürich), Fall 2021, jointly with [Can Firtina](https://ee.ethz.ch/the-department/people-a-z/person-detail.MjQ2MzEx.TGlzdC8zMjc5LC0xNjUwNTg5ODIw.html).
 * **[Helena (Lena) Duplechin Seymour](https://www.linkedin.com/in/helena-lena-duplechin-seymour/)** (Washington State), Fall 2021, [SC21 Mentor-Protégé](https://sc21.supercomputing.org/program/studentssc/mentor-protege-matching/).
-* **[Gabriel Raulet](https://www.linkedin.com/in/gabriel-raulet-207b7b214)** (LBNL), Fall 2021.
 * **Bridget Agyare** (Undergrad, UC Berkeley), Summer/Fall 2021.
 * **Richard Lettich** (Undergrad, UC Berkeley), Spring/Summer 2021.
 * **[Elizabeth Koning](https://kodingkoning.github.io/)** (Currently Grad Student, UIUC), Summer 2019. Summer Undergraduate Program in Engineering Research at UC Berkeley ([SUPERB](https://eecs.berkeley.edu/resources/undergrads/research/superb)) mentor. 
@@ -43,6 +43,10 @@ ___
 ___
 
 ## services
+
+* **Program Committee**, [Principles and Practice of Parallel Programming (PPoPP) 2023](https://ppopp23.sigplan.org/).
+
+* **Publicity Chair (Americas)**, [Principles and Practice of Parallel Programming (PPoPP) 2023](https://ppopp23.sigplan.org/).
 
 * **Panelist** for ETH Zürich's Google Developer Student Club ["Panel Discussion - Doing a PhD in Computer Science"](https://gdsc.community.dev/events/details/developer-student-clubs-eth-zurich-presents-panel-discussion-doing-a-phd-in-computer-science/)—Dec 4, 2021.
 
