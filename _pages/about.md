@@ -20,6 +20,6 @@ social: true  # includes social icons at the bottom of the page
 
 Hello, I am Heejong Bong. I am a fifth-year Ph.D. student in the [Department of Statistics and Data Sciences](http://stat.cmu.edu/), Carnegie Mellon University (CMU), Pittsburgh, Pennsylvania. Before I came to CMU, I received my B.S. in Mathematics from the [Department of Mathematics](http://www.math.snu.ac.kr/), Seoul National University, Seoul, Korea in 2017. I also worked as a drill instructor for 2 years (2013-2015) in Republic of Korea Air Force.
 
-My research interest is in discovering communication across brain regions from high-dimensional LFP recordings. I am approaching this problem with statistical analyses based on latent factor time-series. In CMU, I am participating to NeuroStats lab group and advised by [Robert E. Kass](http://www.stat.cmu.edu/~kass/) and [Valerie Ventura](http://www.stat.cmu.edu/~vventura) on my Ph.D. thesis about Discovery of functional predictivity across brain regions from local field potentials.
+My thesis topic is discovering communication across brain regions from high-dimensional LFP recordings. I am addressing the high-dimensional time-series challenge with spatio-temporal methods, based on the matrix-variate graphical model and latent factor time-series models. In CMU, I am participating to NeuroStats lab group and advised by [Robert E. Kass](http://www.stat.cmu.edu/~kass/) and [Valerie Ventura](http://www.stat.cmu.edu/~vventura) on the Ph.D. thesis about Discovery of functional predictivity across brain regions from local field potentials.
 
-I am defending soon (early July) and looking for postdoctoral research positions starting F22.
+I defended my thesis in July 6th, 2022 and looking for postdoctoral research positions starting F22.
