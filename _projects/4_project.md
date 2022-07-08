@@ -23,4 +23,3 @@ I spent my undergraduate exploring my interests ranging from oceanography resear
 <div class="caption">
     Left; Burning a plant experiment to investigate the community dynamics early post-fire. Center; sensors launched in the North Atlantic to monitor dissolved oxygen, water speed, and temperature. Right; sailing across the South Pacific as part of SEA semester.
 </div>
-
