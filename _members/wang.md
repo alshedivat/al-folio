@@ -14,13 +14,13 @@ publications: 'author^=*Wang'
 
 
 teaser: >
-    Tza-Huei (Jeff) Wang is a professor in mechanical engineering and biomedical engineering at the Johns Hopkins University. His research focuses on the development of innovative micro- and nano-biotechnologies for molecular analysis and biomedical research. His vision is a healthier and more equitable world that is realized through new molecular analysis and diagnostic technologies that not only have unprecedented performances in sensitivity, specificity, speed, multiplexity, and temporal and spatial resolution, but are also affordable and accessible to the public.
+    Tza-Huei &#x22;Jeff&#x22; Wang is a professor in mechanical engineering and biomedical engineering at the Johns Hopkins University. His research focuses on the development of innovative micro- and nano-biotechnologies for molecular analysis and biomedical research. His vision is a healthier and more equitable world that is realized through new molecular analysis and diagnostic technologies that not only have unprecedented performances in sensitivity, specificity, speed, multiplexity, and temporal and spatial resolution, but are also affordable and accessible to the public.
 
 
 
 
 profile:
-    name: Tza-Huei 'Jeff' Wang, PhD
+    name: Tza-Huei &#x22;Jeff&#x22; Wang, PhD
     position: Professor of Mechanical and Biomedical Engineering
     align: right
     image: wang-pic.png
@@ -35,7 +35,7 @@ profile:
         Baltimore, MD 21218
 ---
 
-Tza-Huei (Jeff) Wang is a professor in mechanical engineering and biomedical engineering at the Johns Hopkins University, where he has served as faculty since 2002. He earned his doctorate in mechanical engineering from UCLA in 2002. His research focuses on the development of innovative micro- and nano-biotechnologies for molecular analysis and biomedical research. His vision is a healthier and more equitable world that is realized through new molecular analysis and diagnostic technologies that not only have unprecedented performances in sensitivity, specificity, speed, multiplexity, and temporal and spatial resolution, but are also affordable and accessible to the public.
+Tza-Huei &#x22;Jeff&#x22; Wang is a professor in mechanical engineering and biomedical engineering at the Johns Hopkins University, where he has served as faculty since 2002. He earned his doctorate in mechanical engineering from UCLA in 2002. His research focuses on the development of innovative micro- and nano-biotechnologies for molecular analysis and biomedical research. His vision is a healthier and more equitable world that is realized through new molecular analysis and diagnostic technologies that not only have unprecedented performances in sensitivity, specificity, speed, multiplexity, and temporal and spatial resolution, but are also affordable and accessible to the public.
 
 A major area of Wang’s research is advancing the detection of genetic and epigenetic biomarkers for cancer and related diseases, which will enable clinicians to identify patients at high cancer risk, to detect cancer at earlier stages, and to develop personalized treatments and improve patient outcomes. To do this, he leverages micro- and nano-scale sciences to create new biomolecular analysis and sensing technologies. For example, Wang created ultra-sensitive DNA nanosensors that use quantum dot-fluorescence resonance energy transfer (QD-FRET) to detect a variety of cancer biomarkers, including point mutations, DNA methylation, and gene copy variations in clinical laboratories. He also engineered a powerful single-molecule detection instrument called CICS (cylindrical illumination confocal spectroscopy) to enable precise direct measurements of circulating DNA in human blood serum—a promising surrogate marker for cancer and prenatal diseases that could not be precisely measured by PCR or sequencing due to sampling error and extraction-induced damage of DNA. In addition, Wang combined high-resolution melt curve analysis and microfluidics to develop a platform called HYPER-Melt (high-density profiling and enumeration by melt) for ultrasensitive detection of DNA methylation—an epigenetic marker for cancer. HYPER-Melt was capable of detecting as low as one methylated variant in 2 million unmethylated templates (0.00005%) while revealing epigenetic heterogeneity that had been challenging to detect by traditional methods. According to Wang, these technologies have great potential for realizing the full promise of genetics and epigenetics in improving the diagnosis and treatment of cancer and related diseases.
 
