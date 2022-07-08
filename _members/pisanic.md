@@ -16,11 +16,11 @@ teaser: >
 
 profile:
     name: Thomas R. Pisanic II, PhD
-    position: Epidiagnostics Group Investigator <br />Associate Research Professor <br /> <a href="https://breakthroughcancer.org/">Break Through Cancer</a> Scientist
-    team-position: INBT Associate Research Professor of Oncology - Cancer Genetics and Epigenetics<br />Break Through Cancer Scientist
+    position: Co-Director, Epidiagnostics Group <br />Associate Research Professor <br /> <a href="https://breakthroughcancer.org/">Break Through Cancer</a> Scientist
+    team-position: Co-Director, Epidiagnostics Group<br />INBT Associate Research Professor with Oncology - Cancer Genetics and Epigenetics<br />Break Through Cancer Scientist
     align: right 
     logos: true
-    image: prof_pic_tall.png 
+    image: prof_pic_extratall.png
     email: tpisanic@jhu.edu
     phone: +1 619 892 2567
     twitter: epidiagnostics
