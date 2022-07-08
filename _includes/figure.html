@@ -3,7 +3,7 @@
 <figure>
 
   <picture>
-    {% if site.enable_responsive_images %}
+    {% if site.imagemagick.enabled %}
     {% for i in site.imagemagick.widths -%}
       <source media="(max-width: {{ i }}px)" srcset="{{ path | relative_url }}-{{ i }}.webp" />
     {% endfor -%}
