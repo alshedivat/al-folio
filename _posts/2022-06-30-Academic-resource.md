@@ -32,16 +32,18 @@ toc:
 
 ## Introduction
 
-Before applying for the PhD, I would like to recommend some articles(What I read on the seminar) to read!
+Last quarter, I took the Tao of PhD seminar at University of Washington, Allen school. Even I am at california so I can't involoved so much, I learned a lot from the recommend resources covering many important topics for PhD students. In addition, I also learned a lot from the people on internet(Video, Blog, Article, Podcast) so I want to make a collection of them.
 
-<ul>
-    <li><a href="https://medium.com/great-research/do-you-need-a-ph-d-f78d2fb0f286">Do you need a PhD?</a>  by Nick Feamster</li>
-    <li><a href="https://freedom-to-tinker.com/2010/09/27/advice-new-graduate-students/">Advice for new graduate students</a> by Jennifer Rexford</li>
-</ul>
+I really enjoy learning about other people's stories. It's a virtual way to gain experience from the people who have gone through the the same journey - **playing a game and reading a cheat sheet**!
 
-<a href="https://press.uchicago.edu/ucp/books/book/chicago/C/bo23521678.html"> The Craft of Research, Fourth Edition</a> (You can download it from the <a href="https://libgen.is"> Library genesis</a>)
+Before applying for the PhD, I would like to recommend some articles to read! **PhD is not necessary for all people**.
+
+- [Do you need a PhD?](https://medium.com/great-research/do-you-need-a-ph-d-f78d2fb0f286) by Nick Feamster
+- [Advice for new graduate students](https://freedom-to-tinker.com/2010/09/27/advice-new-graduate-students/) by Jennifer Rexford
 
 ## Research Topic
+
+Research is one of the most important things in the life of a PhD student.
 
 - [You and your research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.pdf) by Richard Hamming
 - [Research patterns](https://greatresearch.org/2013/09/20/research-patterns/) by Nick Feamster
@@ -56,7 +58,7 @@ Before applying for the PhD, I would like to recommend some articles(What I read
 
 - [Storytelling 101: Writing Tips for Academics](https://greatresearch.org/2013/10/11/storytelling-101-writing-tips-for-academics/) by Nick Feamster.
 - [How to Write a Great Research Paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) by Simon Peyton Jones.
-- [The Craft of Research, Fourth Edition](https://press.uchicago.edu/ucp/books/book/chicago/C/bo23521678.html)
+- [The Craft of Research, Fourth Edition](https://press.uchicago.edu/ucp/books/book/chicago/C/bo23521678.html)(You can download it from the [Library genesis](https://libgen.is)
 
 ## Presentation
 
@@ -69,7 +71,9 @@ Before applying for the PhD, I would like to recommend some articles(What I read
 
 ## Read paper
 
-## Mental related
+## Coding
+
+- [The Good Research Code Handbook](https://goodresearch.dev) by Patrick J Mineault. **Highly Recommended** I really like the opinion _writing good research code is about freeing your memory_
 
 ## Podcast
 
@@ -77,6 +81,8 @@ Before applying for the PhD, I would like to recommend some articles(What I read
 - [李丁聊天室播客](https://www.lidingzeyu.com/podcast/)
 
 ## 中文总结
+
+We cannot replay the time but other people's stories are quite similar to counterfactual world.
 
 这一节主要是一些前人前辈的读博总结（也有工作之后的总结），**常读常新**。
 
@@ -95,7 +101,7 @@ Before applying for the PhD, I would like to recommend some articles(What I read
 ### Youtube
 
 - [我在纽约当教授 - TT YaYa YouTube Channels](https://www.youtube.com/channel/UCjWnhn8mmA3DEEHlniCEoXA/videos) 非常棒的一个视频频道，为数不多的生活向学术频道，学习到了超级多（包括怎么读博，美国 funding system，教职相关的经验等等）！ TT YaYa 和摄影师太有意思啦！强力推荐！！具体的一些 video 大家可以自己挖掘~
-- [Acsic People](https://www.youtube.com/channel/UC1PCPgKxjsK6P-po9DlBpQQ/videos) 干货浓度非常高！ [Two-body problem](https://youtu.be/gNkCcoJUJ-I), [What My Mentors Taught Me](https://youtu.be/lOOBJix9-Dw),[前车之鉴](https://youtu.be/KTcu33RghQs) 等等都非常精彩！
+- [Acsic People](https://www.youtube.com/channel/UC1PCPgKxjsK6P-po9DlBpQQ/videos) 干货浓度非常高！ [Two-body problem](https://youtu.be/gNkCcoJUJ-I), [What My Mentors Taught Me](https://youtu.be/lOOBJix9-Dw), [前车之鉴](https://youtu.be/KTcu33RghQs) 等等都非常精彩！
 
 ## Resources
 
