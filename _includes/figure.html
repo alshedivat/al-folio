@@ -6,7 +6,7 @@
     {% if site.imagemagick.enabled %}
     {% for i in site.imagemagick.widths -%}
       <source 
-        class="responsive_img_srcset"
+        class="responsive-img-srcset"
         media="(max-width: {{ i }}px)" 
         srcset="{{ img_path | relative_url }}-{{ i }}.webp"
       />
@@ -26,7 +26,7 @@
       {% if include.alt %}alt="{{ include.alt }}"{% endif %} 
       {% if include.title %}title="{{ include.title }}"{% endif %} 
       {% if include.zoomable %}data-zoomable{% endif %}
-      onerror="this.onerror=null; $('.responsive_img_srcset').remove();"
+      onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
     />
 
   </picture>
