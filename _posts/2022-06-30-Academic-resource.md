@@ -39,19 +39,37 @@ Before applying for the PhD, I would like to recommend some articles(What I read
     <li><a href="https://freedom-to-tinker.com/2010/09/27/advice-new-graduate-students/">Advice for new graduate students</a> by Jennifer Rexford</li>
 </ul>
 
-<ul>
-    <li><a href="http://www.cs.virginia.edu/~robins/YouAndYourResearch.pdf">You and your research</a> by Richard Hamming </li>
-    <li><a href="https://greatresearch.org/2013/09/20/research-patterns/">Research patterns</a> by Nick Feamster</li>
-    <li><a href="https://journals.biologists.com/jcs/article/121/11/1771/30038/The-importance-of-stupidity-in-scientific-research">Importance of stupidity</a> by Martin Schwartz</li>
-</ul>
-
 <a href="https://press.uchicago.edu/ucp/books/book/chicago/C/bo23521678.html"> The Craft of Research, Fourth Edition</a> (You can download it from the <a href="https://libgen.is"> Library genesis</a>)
+
+## Research Topic
+
+- [You and your research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.pdf) by Richard Hamming
+- [Research patterns](https://greatresearch.org/2013/09/20/research-patterns/) by Nick Feamster
+- [Importance of stupidity](https://journals.biologists.com/jcs/article/121/11/1771/30038/The-importance-of-stupidity-in-scientific-research) by Martin Schwartz
+- [Cultivating your research taste](https://greatresearch.org/2013/09/13/cultivating-your-research-taste/) by Nick Feamster
+- [How to choose a good scientific problem](https://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/nurturing/howtochoosegoodproblem.pdf) by Uri Alon
+- [Finding and proposing a PhD dissertation](https://medium.com/great-research/finding-and-proposing-a-ph-d-dissertation-topic-6bca29253a0f) topic by Nick Feamster
+- Technology and courage by Ivan Sutherland
+- Claude Shannon’s “creative thinking” speech by Jimmy Soni
 
 ## Academic writing
 
+- [Storytelling 101: Writing Tips for Academics](https://greatresearch.org/2013/10/11/storytelling-101-writing-tips-for-academics/) by Nick Feamster.
+- [How to Write a Great Research Paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) by Simon Peyton Jones.
+- [The Craft of Research, Fourth Edition](https://press.uchicago.edu/ucp/books/book/chicago/C/bo23521678.html)
+
 ## Presentation
 
+- [How to give a great research talk](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/) by Simon Peyton Jones
+- [How to give a technical presentation](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html) by Mike Ernst
+- [Creating an effective poster](https://docs.google.com/document/d/1gkUWgYMQ37kJ-Bu4wmcEi7x30ZEnmRw99ZMSUhZcQtI/edit) by John Wilkes
+- [How to speak](https://www.youtube.com/watch?v=Unzc731iCUY) by Patrick Winston
+- [How to give a bad talk](https://people.eecs.berkeley.edu/~pattrsn/talks/BadTalk.pdf) by David Patterson
+- [Tips for giving clear talks](http://graphics.stanford.edu/~kayvonf/misc/cleartalktips.pdf) by Kayvon Fatahalian
+
 ## Read paper
+
+## Mental related
 
 ## Podcast
 
