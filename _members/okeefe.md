@@ -11,7 +11,7 @@ lastname: O'Keefe
 publications: 'author^=*OKeefe'
 
 teaser: >
-    I am interested in 
+    Christine O'Keefe is a postdoctoral researcher in biomedical engineering developing microfluidic devices that use DNA to diagnose illness. 
 
 profile:
     name: Christine O'Keefe, PhD
@@ -32,4 +32,4 @@ profile:
         Baltimore , MD 21218
 ---
 
-I am interested in 
+Christine O'Keefe is a postdoctoral researcher in biomedical engineering developing microfluidic devices that use DNA to diagnose illness. Her research focuses on analyzing DNA methylation patterns of individual molecules within noninvasive samples to improve understanding of cancer development and facilitate early diagnosis.

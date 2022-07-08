@@ -1,6 +1,6 @@
 ---
 layout: page
-title: epiclass
+title: Epiclass
 description: A computational method for leveraging single-molecule methylation density data to improve the performance of methylation biomarkers for cancer diagnostics. 
 img: assets/img/projects/Epiclass_pic.png
 importance: 6
