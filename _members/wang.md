@@ -25,6 +25,7 @@ profile:
     align: right
     image: wang-pic.png
     email: thwang@jhu.edu
+    phone: +1 410 516 7086
     website: https://engineering.jhu.edu/faculty/tza-huei-jeff-wang/
     twitter: JHUBioMEMS
     orcid: 0000-0002-3540-9354
