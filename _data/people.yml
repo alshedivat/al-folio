@@ -29,6 +29,19 @@
     elit. Nulla iaculis, lacus vitae aliquam fringilla, sem leo iaculis felis,
     ut consectetur quam odio eu nibh.
 
+- name: Stephen Taylor
+  title: Undergraduate Microbial Fuel Cell Researcher
+  pfp: /assets/img/pfp/sgtaylor.jpg
+  email: sgtaylor@ucsc.edu
+  linkedin_username: stephen-g-taylor
+  work_url: https://slugsites.ucsc.edu/sgtaylor/
+  body: |
+    Stephen Taylor is an undergraduate researcher at the University of
+    California, Santa Cruz. With a focus on phenomena such as voltage reversal
+    in microbial fuel cells, and designing more robust containers for soil
+    microbial fuel cells. Stephen is set to graduate in the fall with a degree
+    in Robotics Engineering.
+
 - name: Revanth
   title: Primary Research Assistant
   pfp: /assets/img/3.jpg
@@ -42,17 +55,6 @@
     rhoncus. Ut gravida pretium ex sit amet efficitur. Proin bibendum urna nec
     laoreet euismod.
 
-- name: Steven Taylor
-  title: unsure
-  pfp: /assets/img/4.jpg
-  email: sgtaylor@ucsc.edu
-  body: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus diam
-    semper nibh aliquam vulputate. Pellentesque tempor justo mauris, ac
-    tincidunt felis tincidunt eu. Integer fermentum, eros vel suscipit
-    volutpat, nulla turpis aliquam eros, in semper est lectus nec elit. Vivamus
-    id lobortis orci. Ut vulputate porta ipsum vitae rutrum. Duis aliquam vel
-    ante at egestas. Aenean consectetur scelerisque erat.
 
 - name: Sridhar
   title: unsure
