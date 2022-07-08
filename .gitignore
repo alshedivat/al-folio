@@ -10,6 +10,7 @@ _posts/
 _news/
 _pages/dropdown.md
 _blog/
+_blog/index.html
 Gemfile.lock
 vendor
 
