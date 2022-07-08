@@ -7,20 +7,20 @@ group_order: 2
 external: true
 
 
-title: Tza-Huei "Jeff" Wang, PhD
+title: Tza-Huei (Jeff) Wang, PhD
 description: Profile of Dr. Jeff Wang, Microfluidic Technologies Group Leader.
 lastname: Wang
 publications: 'author^=*Wang'
 
 
 teaser: >
-    Tza-Huei &#x22;Jeff&#x22; Wang is a professor in mechanical engineering and biomedical engineering at the Johns Hopkins University. His research focuses on the development of innovative micro- and nano-biotechnologies for molecular analysis and biomedical research. His vision is a healthier and more equitable world that is realized through new molecular analysis and diagnostic technologies that not only have unprecedented performances in sensitivity, specificity, speed, multiplexity, and temporal and spatial resolution, but are also affordable and accessible to the public.
+    Tza-Huei (Jeff) Wang is a professor in mechanical engineering and biomedical engineering at the Johns Hopkins University. His research focuses on the development of innovative micro- and nano-biotechnologies for molecular analysis and biomedical research. His vision is a healthier and more equitable world that is realized through new molecular analysis and diagnostic technologies that not only have unprecedented performances in sensitivity, specificity, speed, multiplexity, and temporal and spatial resolution, but are also affordable and accessible to the public.
 
 
 
 
 profile:
-    name: Tza-Huei &#x22;Jeff&#x22; Wang, PhD
+    name: Tza-Huei (Jeff) Wang, PhD
     position: Co-Director, Epidiagnostics Group<br />Professor of Mechanical and Biomedical Engineering
     align: right
     image: wang-pic.png
