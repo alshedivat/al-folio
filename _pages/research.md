@@ -1,6 +1,7 @@
 ---
 layout: page
 title: research
+page-title: Research
 permalink: /research/
 description: Highlighted research from the Epidiagnostics Group.
 nav: true

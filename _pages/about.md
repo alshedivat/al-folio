@@ -1,6 +1,7 @@
 ---
 layout: about
 title: about
+page-title: About
 permalink: /
 subtitle:
 

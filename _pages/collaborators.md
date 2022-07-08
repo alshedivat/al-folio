@@ -1,6 +1,7 @@
 ---
 layout: page
 title: collaborators
+page-title: Collaborators
 permalink: /collaborators
 nav: false
 nav_rank: 5
