@@ -20,7 +20,7 @@ profile:
     team-position: Co-Director, Epidiagnostics Group<br />INBT Associate Research Professor with Oncology - Cancer Genetics and Epigenetics<br />Break Through Cancer Scientist
     align: right 
     logos: true
-    image: prof_pic_extratall.png
+    image: prof_pic_extratall.jpg
     email: tpisanic@jhu.edu
     phone: +1 619 892 2567
     twitter: epidiagnostics
