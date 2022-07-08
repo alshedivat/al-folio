@@ -44,6 +44,18 @@
     microbial fuel cells. Stephen is set to graduate in the fall with a degree
     in Robotics Engineering.
 
+- name: Brian Govers
+  title: Research Assistant
+  pfp: /assets/img/pfp/bgovers.jpg
+  email: bgovers@ucsc.edu
+  linkedin_username: brian-govers
+  body: |
+    Brian is a recent UCSC graduate with a degree in Electrical Engineering.
+    Now in his first year of the Electrical and Computer Engineering M.S.
+    program, he hopes to earn a degree with a focus in Robotics, Control, and
+    Cyber-Physical Systems. Brian is working on developing a communication
+    infrastructure to collect and process sensor data from the UCSC farm.
+
 - name: Revanth
   title: Primary Research Assistant
   pfp: /assets/img/3.jpg
@@ -70,15 +82,3 @@
     Curabitur pharetra, dui eu sodales porttitor, leo lacus condimentum dui, ut
     fringilla felis metus a nunc. In quis.
 
-- name: Brian Govers
-  title: unsure
-  pfp: /assets/img/6.jpg
-  email: unsure
-  body: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget
-    sagittis quam. Vivamus egestas, tellus quis tempor scelerisque, tortor
-    sapien tristique leo, auctor fringilla odio felis et metus. Aliquam
-    dignissim nulla vitae scelerisque hendrerit. Vivamus sagittis in diam vitae
-    viverra. Aliquam convallis est libero, non semper tellus condimentum et.
-    Vestibulum blandit semper urna, at fringilla turpis vulputate a. Maecenas
-    eu.
