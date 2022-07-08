@@ -8,6 +8,8 @@ _site
 .tweet-cache
 _posts/
 _news/
+_pages/dropdown.md
+_blog/
 Gemfile.lock
 vendor
 

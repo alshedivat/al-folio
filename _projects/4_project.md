@@ -2,7 +2,7 @@
 layout: page
 title: Past field research
 description: Field research in undergraduate and elsewhere
-img: fire_babies.jpg
+img: pond_research.jpg
 importance: 3
 category: fun
 ---
