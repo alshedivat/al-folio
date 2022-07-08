@@ -1,6 +1,6 @@
 ---
 layout: page
-title: LINE-1 deregulation in hgsc precursors
+title: LINE-1 deregulation in HGSC precursors
 description: LINE-1 retrotransposons become epigenetically deregulated during the progression of ovarian cancer precursor lesions.
 img: assets/img/projects/LINE1_pic.jpg
 importance: 5
