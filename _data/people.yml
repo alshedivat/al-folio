@@ -19,15 +19,17 @@
 
 - name: John Madden
   title: Assistant Lab Manager
-  pfp: /assets/img/2.jpg
+  pfp: /assets/img/pfp/jtmadden.jpg
   email: jtmadden@ucsc.edu
+  github_username: jmadden173
+  gitlab_username: jmadden173
   body: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-    libero metus, scelerisque id ullamcorper sit amet, bibendum nec urna. Morbi
-    et sem non urna gravida euismod. Aliquam sit amet ligula hendrerit,
-    volutpat libero in, suscipit felis. Nam faucibus porttitor diam, a pretium
-    elit. Nulla iaculis, lacus vitae aliquam fringilla, sem leo iaculis felis,
-    ut consectetur quam odio eu nibh.
+    John 5th year undergraduate at UC Santa Cruz working towards his B.S. in
+    Robotics Engineering. After he plans to continue towards a M.S. in
+    Electrical and Computer Engineering with a focus in Robotics, Controls, and
+    Cyber-Physical Systems. He help with administrative tasks, procurement and
+    managing the lab. With his extra time he acts as a jack of all trades,
+    helping his colleges with their research.
 
 - name: Stephen Taylor
   title: Undergraduate Microbial Fuel Cell Researcher
