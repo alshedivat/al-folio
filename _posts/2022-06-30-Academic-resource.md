@@ -22,6 +22,9 @@ toc:
     # subsections:
     #   - name: Example Child Subsection 1
     #   - name: Example Child Subsection 2
+  - name: Research Topic
+  - name: Academic writing
+  - name: Presentation
   - name: 中文总结
   - name: Podcast
   - name: Video Channels
@@ -32,7 +35,7 @@ toc:
 
 ## Introduction
 
-Last quarter, I took the Tao of PhD seminar at University of Washington, Allen school. Even I am at california so I can't involoved so much, I learned a lot from the recommend resources covering many important topics for PhD students. In addition, I also learned a lot from the people on internet(Video, Blog, Article, Podcast) so I want to make a collection of them.
+Last quarter, I took the Tao of PhD seminar at University of Washington, Allen school. Even I am at california so I can't involoved so much, I learned a lot from the recommend resources covering many important topics for PhD students. In addition, I also learned a lot from the people on internet(Video, Blog, Article, Podcast) so I want to make a collection of them.<d-footnote> Some of them are written in Chinese which means original posts are in Chinese </d-footnote>
 
 I really enjoy learning about other people's stories. It's a virtual way to gain experience from the people who have gone through the the same journey - **playing a game and reading a cheat sheet**!
 
@@ -83,6 +86,7 @@ Research is one of the most important things in the life of a PhD student.
 ## Podcast
 
 - [Theory and Practice](https://podcast.gv.com)
+  - In this
 - [李丁聊天室播客](https://www.lidingzeyu.com/podcast/)
 
 ## 中文总结
@@ -102,8 +106,6 @@ Other people's stories are quite similar to counterfactual world for us.
 - [工作五年反思 - 李沐](https://zhuanlan.zhihu.com/p/374777591) 集中分享了工作之后经验和感悟，和读博期间还挺不一样的。
 
 ## Video Channels
-
-### Youtube
 
 - [我在纽约当教授 - TT YaYa YouTube Channels](https://www.youtube.com/channel/UCjWnhn8mmA3DEEHlniCEoXA/videos) 非常棒的一个视频频道，为数不多的生活向学术频道，学习到了超级多（包括怎么读博，美国 funding system，教职相关的经验等等）！ TT YaYa 和摄影师太有意思啦！强力推荐！！具体的一些 video 大家可以自己挖掘~
 - [Acsic People](https://www.youtube.com/channel/UC1PCPgKxjsK6P-po9DlBpQQ/videos) 干货浓度非常高！ [Two-body problem](https://youtu.be/gNkCcoJUJ-I), [What My Mentors Taught Me](https://youtu.be/lOOBJix9-Dw), [前车之鉴](https://youtu.be/KTcu33RghQs) 等等都非常精彩！
