@@ -21,7 +21,7 @@ teaser: >
 
 profile:
     name: Tza-Huei (Jeff) Wang, PhD
-    position: Co-Director, Epidiagnostics Group<br />Professor of Mechanical and Biomedical Engineering
+    position: Professor of Mechanical and Biomedical Engineering
     align: right
     image: wang-pic.png
     email: thwang@jhu.edu
