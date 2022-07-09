@@ -49,7 +49,7 @@ Research is one of the most important things in the life of a PhD student.
 - [Research patterns](https://greatresearch.org/2013/09/20/research-patterns/) by Nick Feamster
 - [Importance of stupidity](https://journals.biologists.com/jcs/article/121/11/1771/30038/The-importance-of-stupidity-in-scientific-research) by Martin Schwartz
 - [Cultivating your research taste](https://greatresearch.org/2013/09/13/cultivating-your-research-taste/) by Nick Feamster
-- [How to choose a good scientific problem](https://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/nurturing/howtochoosegoodproblem.pdf) by Uri Alon
+- [How to choose a good scientific problem](https://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/nurturing/howtochoosegoodproblem.pdf) by Uri Alon. We should keep _The Feasibility-Interest Diagram for Choosing a Project_ in mind!
 - [Finding and proposing a PhD dissertation](https://medium.com/great-research/finding-and-proposing-a-ph-d-dissertation-topic-6bca29253a0f) topic by Nick Feamster
 - Technology and courage by Ivan Sutherland
 - Claude Shannon’s “creative thinking” speech by Jimmy Soni
@@ -73,7 +73,8 @@ Research is one of the most important things in the life of a PhD student.
 
 ## Coding
 
-- [The Good Research Code Handbook](https://goodresearch.dev) by Patrick J Mineault. **Highly Recommended** I really like the opinion _writing good research code is about freeing your memory_
+- [The Good Research Code Handbook](https://goodresearch.dev) by Patrick J Mineault. **Highly Recommended** I really like the opinion
+  > writing good research code is about freeing your memory
 
 ## Podcast
 
@@ -82,7 +83,7 @@ Research is one of the most important things in the life of a PhD student.
 
 ## 中文总结
 
-We cannot replay the time but other people's stories are quite similar to counterfactual world.
+Other people's stories are quite similar to counterfactual world for us.
 
 这一节主要是一些前人前辈的读博总结（也有工作之后的总结），**常读常新**。
 
