@@ -27,9 +27,8 @@ table {
 a, table.table a {
   color: var(--global-theme-color);
   text-decoration: none;
-
   &:hover {
-    color: var(--global-theme-color);
+    color: var(--global-hover-color);
     text-decoration: underline;
   }
   &:hover:after :not(.nav-item.dropdown) {
@@ -124,7 +123,7 @@ blockquote {
   a {
     color: inherit;
     &:hover {
-      color: var(--global-theme-color);
+      color: var(--global-hover-color);
       text-decoration: none;
     }
   }
@@ -372,7 +371,7 @@ footer.sticky-bottom {
       color: var(--global-text-color);
       text-decoration: none;
       &:hover {
-        color: var(--global-theme-color);
+        color: var(--global-hover-color);
       }
     }
   }
@@ -401,7 +400,7 @@ footer.sticky-bottom {
 
 .distill {
   a:hover {
-    border-bottom-color: var(--global-theme-color);
+    border-bottom-color: var(--global-hover-color);
     text-decoration: none;
   }
 }
@@ -415,7 +414,7 @@ footer.sticky-bottom {
 
     &:hover {
       .card-title {
-        color: var(--global-theme-color);
+        color: var(--global-hover-color);
       }
     }
   }
@@ -534,8 +533,8 @@ footer.sticky-bottom {
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            color: var(--global-hover-color);
+            border-color: var(--global-hover-color);
           }
         }
       }
@@ -628,7 +627,7 @@ html.transition *:after {
       color: var(--global-text-color-light);
       text-decoration: none;
       &:hover {
-        color: var(--global-theme-color);
+        color: var(--global-hover-color);
       }
     }
   }
