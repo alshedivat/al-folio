@@ -20,7 +20,7 @@ Greetings!
 
 My name is Zheyuan Zhang (张喆元 in chinese). You can call me Brian. I am an incoming Robotics MS student in the [Robotics Institute](https://robotics.umich.edu/) at the [University of Michigan](https://umich.edu/). Prior to U of M, I received my undergraduate degree in Computer Science (B.S.) from [UMass Amherst](https://www.umass.edu/), [College of Information & Computer Sciences](https://www.cics.umass.edu/).
 
-View my latest CV [here](assets/cv.pdf).
+Click to view my latest [Curriculum Vitae](assets/cv.pdf).
 
 My [research interests](blog/2022/about-my-research-interests/) lie in the intersection of artificial intelligence, robotics and cognitive science (cognitive psychology and neuroscience). I am particularly passionate about exploring how the brain works and how we understand the world. My goal is to build robots with high-level intelligence to have similar cognitive functionalities like humans and other animals, including perception, remembering, learning, reasoning, decision-making and motor control.
 
