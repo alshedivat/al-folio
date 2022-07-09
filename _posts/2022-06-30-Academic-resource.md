@@ -51,8 +51,8 @@ Research is one of the most important things in the life of a PhD student.
 - [You and your research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.pdf) by Richard Hamming
 - [Research patterns](https://greatresearch.org/2013/09/20/research-patterns/) by Nick Feamster
 - [Importance of stupidity](https://journals.biologists.com/jcs/article/121/11/1771/30038/The-importance-of-stupidity-in-scientific-research) by Martin Schwartz
-  - > Science involves confronting our ‘absolute stupidity’. That kind of stupidity is an existential fact, inherent in our efforts to push our way into the unknown.
-    > The more comfortable we become with being stupid, the deeper we will wade into the unknown and the more likely we are to make big discoveries.
+  > Science involves confronting our ‘absolute stupidity’. That kind of stupidity is an existential fact, inherent in our efforts to push our way into the unknown.
+  > The more comfortable we become with being stupid, the deeper we will wade into the unknown and the more likely we are to make big discoveries.
 - [Cultivating your research taste](https://greatresearch.org/2013/09/13/cultivating-your-research-taste/) by Nick Feamster
 - [How to choose a good scientific problem](https://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/nurturing/howtochoosegoodproblem.pdf) by Uri Alon.
   - We should keep _The Feasibility-Interest Diagram for Choosing a Project_ and the _The Schema of Research_ in mind
@@ -81,7 +81,7 @@ Research is one of the most important things in the life of a PhD student.
 
 - [The Good Research Code Handbook](https://goodresearch.dev) by Patrick J Mineault.
   - **Highly Recommended** I really like the opinion
-  - > writing good research code is about freeing your memory
+    > writing good research code is about freeing your memory
 
 ## Podcast
 
