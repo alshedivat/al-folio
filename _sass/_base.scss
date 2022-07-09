@@ -98,9 +98,6 @@ blockquote {
 // Profile
 
 .profile {
-  margin-left: 1rem;
-  width: 100%;
-
   .address {
     margin: 0.25rem 0;
     font-family: monospace;
@@ -113,6 +110,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
+    margin-left: 1rem;
     width: 30%;
     .address {
       p { display: block; }
