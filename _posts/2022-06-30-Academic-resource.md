@@ -51,8 +51,8 @@ Research is one of the most important things in the life of a PhD student.
 - [You and your research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.pdf) by Richard Hamming
 - [Research patterns](https://greatresearch.org/2013/09/20/research-patterns/) by Nick Feamster
 - [Importance of stupidity](https://journals.biologists.com/jcs/article/121/11/1771/30038/The-importance-of-stupidity-in-scientific-research) by Martin Schwartz
-  - Science involves confronting our ‘absolute stupidity’. That kind of stupidity is an existential fact, inherent in our efforts to push our way into the unknown.
-  - The more comfortable we become with being stupid, the deeper we will wade into the unknown and the more likely we are to make big discoveries.
+  - “Science involves confronting our ‘absolute stupidity’. That kind of stupidity is an existential fact, inherent in our efforts to push our way into the unknown.”
+  - "The more comfortable we become with being stupid, the deeper we will wade into the unknown and the more likely we are to make big discoveries."
 - [How to choose a good scientific problem](https://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/nurturing/howtochoosegoodproblem.pdf) by Uri Alon.
   - We should keep _The Feasibility-Interest Diagram for Choosing a Project_ and the _The Schema of Research_ in mind
 - [Finding and proposing a PhD dissertation](https://medium.com/great-research/finding-and-proposing-a-ph-d-dissertation-topic-6bca29253a0f) topic by Nick Feamster
@@ -64,7 +64,7 @@ Research is one of the most important things in the life of a PhD student.
 - [Storytelling 101: Writing Tips for Academics](https://greatresearch.org/2013/10/11/storytelling-101-writing-tips-for-academics/) by Nick Feamster.
 - [How to Write a Great Research Paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) by Simon Peyton Jones.
   - **Writing papers is a primary mechanism for doing research (not just for reporting it)** So let's try to write while doing research!!
-- [The Craft of Research, Fourth Edition](https://press.uchicago.edu/ucp/books/book/chicago/C/bo23521678.html)(You can download it from the [Library genesis](https://libgen.is)
+- [The Craft of Research, Fourth Edition](https://press.uchicago.edu/ucp/books/book/chicago/C/bo23521678.html)(You can download it from the [Library genesis](https://libgen.is))
 
 ## Presentation
 
@@ -73,7 +73,6 @@ Research is one of the most important things in the life of a PhD student.
 - [How to give a technical presentation](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html) by Mike Ernst
 - [Creating an effective poster](https://docs.google.com/document/d/1gkUWgYMQ37kJ-Bu4wmcEi7x30ZEnmRw99ZMSUhZcQtI/edit) by John Wilkes
 - [How to speak](https://www.youtube.com/watch?v=Unzc731iCUY) by Patrick Winston
-- [How to give a bad talk](https://people.eecs.berkeley.edu/~pattrsn/talks/BadTalk.pdf) by David Patterson
 - [Tips for giving clear talks](http://graphics.stanford.edu/~kayvonf/misc/cleartalktips.pdf) by Kayvon Fatahalian
 
 ## Read paper
@@ -104,6 +103,7 @@ Other people's stories are quite similar to counterfactual world for us.
 - [计算机视觉 哥大读博五年总结 by Mike Shou](https://zhuanlan.zhihu.com/p/338193330) 比较详细记录了博士生涯的心路历程和成长，特别是提到了一些踩过的坑（包括和 advisor 的交流，research 相关的思考）
 - [博士这五年 - 李沐](https://zhuanlan.zhihu.com/p/25099638) 相对而言有更多的 research 细节，但是同样有五年中的读博感想，很有启发。很喜欢最后一句话 _"更重要的是理想和情怀。人一生要工作五十年，为什么不花五年来追求下理想和情怀呢？"_。 另外沐神的 B 站账号[跟李沐学 AI](https://space.bilibili.com/1567748478/) 也超级棒！
 - [工作五年反思 - 李沐](https://zhuanlan.zhihu.com/p/374777591) 集中分享了工作之后经验和感悟，和读博期间还挺不一样的。
+- [YY 硕 博士第三年](https://zhuanlan.zhihu.com/p/357353090) 因为 YY 硕 是做 Robotic 的，所以有很多是这方面的，但是很重要的一点是，读博前强如 YY 硕，还是在第一二年感到痛苦，甚至有退学的情绪。
 
 ## Video Channels
 
