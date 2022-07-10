@@ -18,6 +18,6 @@ I am a Senior Research Engineer on the [AllenNLP](https://allennlp.org/) team, i
 
 During my Master's at UMass Amherst, I worked with Prof. Mohit Iyyer on interpreting what neural models learn about stylistic content in fictional text, and with Prof. Eric Poehler from UMass Classics department to automate dataset construction and build an interface to explore art and architecture of Pompeii (ancient Roman city). I also collaborated with Scripps Research to improve the quality of crowd-sourced annotations in biomedical text using graphical models, for better named entity recognition.
 
-Previously, I have worked at Cerebellum Capital (Summer 2019), and at [InFoCusp](infocusp.in) (2015-2018), where I worked on building a data science platform.
+Previously, I have worked at Cerebellum Capital (Summer 2019), and at [InFoCusp](https://infocusp.in) (2015-2018), where I worked on building a data science platform.
 
 In my spare time, I enjoy [reading]({{site.goodreads_url}}) novels, [writing]({{site.wordpress_url}}) (especially poetry), and practising Yoga.
