@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "alshedivat",
+      "name": "Maruan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2126561?v=4",
+      "profile": "http://maruan.alshedivat.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "al-folio",
+  "projectOwner": "alshedivat",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
