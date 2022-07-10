@@ -132,22 +132,15 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-<<<<<<< HEAD
 blog_name: writings # blog_name will be displayed in your blog page
 blog_nav_title: writings # your blog must have a title for it to be displayed in the nav bar
 blog_description: technical and non-technical posts
-=======
-blog_name: tech musings # blog_name will be displayed in your blog page
-blog_nav_title: # blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: tech musings
->>>>>>> a7f1824 (website revamp)
 permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
   enabled: true
 
-<<<<<<< HEAD
 related_blog_posts:
   enabled: true
   max_related: 5
@@ -168,10 +161,6 @@ giscus:
 
 # Disqus comments (DEPRECATED)
 disqus_shortname: al-folio # put your disqus shortname
-=======
-# Comments
-disqus_shortname:  # put your disqus shortname
->>>>>>> a7f1824 (website revamp)
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -287,11 +276,15 @@ jekyll-archives:
     category: '/blog/category/:name/'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags will be displayed on the front page of your blog
 display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
 =======
 display_tags: ['technical', 'non-technical'] # this tags will be dispalyed on the front page of your blog
 >>>>>>> 16b6c62 (add writings)
+=======
+display_tags: ['technical', 'non-technical'] # this tags will be dispalyed on the front page of your blog
+>>>>>>> d1aa47a (add writings)
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
