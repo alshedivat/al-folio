@@ -68,6 +68,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://amalawilson.com" target="_blank">★</a>
 <a href="https://tirtharajdash.github.io" target="_blank">★</a>
 <a href="https://carolinacarreira.github.io" target="_blank">★</a>
+<a href="https://manandey.github.io" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -102,9 +103,9 @@ Neural Compression (ICLR: <a href="https://neuralcompression.github.io/" target=
 </table>
 
 
-## Best practices
+## Lighthouse PageSpeed Insights
 
-[![Google PageSpeeg](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&tab=desktop)
+[![Google PageSpeeg](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=desktop)
 
 
 ## Getting started
