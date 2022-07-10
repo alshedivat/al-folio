@@ -68,8 +68,8 @@ Research is one of the most important things in the life of a PhD student.
 ## Academic writing
 
 - [Storytelling 101: Writing Tips for Academics](https://greatresearch.org/2013/10/11/storytelling-101-writing-tips-for-academics/) by Nick Feamster.
-- [How to Write a Great Research Paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) by Simon Peyton Jones.
-  - **Writing papers is a primary mechanism for doing research (not just for reporting it)** So let's try to write while doing research!!
+- [How to Write a Great Research Paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) by Simon Peyton Jones. \*
+  - **Writing papers is a primary mechanism for doing research (not just for reporting it)** I am so surprised that I didn't know this before. So let's try to write while doing research!!
 - [The Craft of Research, Fourth Edition](https://press.uchicago.edu/ucp/books/book/chicago/C/bo23521678.html)(You can download it from the [Library genesis](https://libgen.is))
 
 ## Presentation
@@ -115,7 +115,6 @@ Other people's stories are counterfactual worlds for us.
 ## Podcast
 
 - [Theory and Practice](https://podcast.gv.com)
-  - In this
 - [李丁聊天室播客](https://www.lidingzeyu.com/podcast/)
 
 ## Resources
