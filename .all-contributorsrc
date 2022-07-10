@@ -1,9 +1,15 @@
 {
-  "files": [
-    "README.md"
-  ],
+  "files": ["README.md"],
   "imageSize": 100,
   "commit": false,
+  "contributorsPerLine": 7,
+  "projectName": "al-folio",
+  "projectOwner": "alshedivat",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "badgeTemplate": "[![Core Contributors](https://img.shields.io/badge/core_contributors-<%= contributors.length %>-orange.svg)](#contributors)",
+  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
+  "skipCi": true,
   "contributors": [
     {
       "login": "alshedivat",
@@ -15,11 +21,5 @@
         "code"
       ]
     }
-  ],
-  "contributorsPerLine": 7,
-  "projectName": "al-folio",
-  "projectOwner": "alshedivat",
-  "repoType": "github",
-  "repoHost": "https://github.com",
-  "skipCi": true
+  ]
 }
