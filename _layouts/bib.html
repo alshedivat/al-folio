@@ -11,9 +11,9 @@
           {%- endif -%}
         {%- elsif entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%}
-          <abbr class="badge d-flex fw-bold justify-content-center align-middle"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
+          <abbr class="badge d-md-flex fw-bold justify-content-center align-middle"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
           {%- else -%}
-          <abbr class="badge d-flex fw-bold justify-content-center align-middle">{{entry.abbr}}</abbr>
+          <abbr class="badge d-md-flex fw-bold justify-content-center align-middle">{{entry.abbr}}</abbr>
           {%- endif -%}
         {%- endif -%}
         </div>
