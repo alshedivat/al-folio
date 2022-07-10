@@ -101,13 +101,14 @@
             and
             <span
                 class="more-authors"
+                title="click to view {{more_authors_hide}}"
                 onclick="
                   var element = $('span.more-authors');
                   var more_authors_text = element.text() == '{{more_authors_hide}}' ? '{{more_authors_show}}' : '{{more_authors_hide}}';
-                  console.log(more_authors_text);
                   var cursorPosition = 0;
                   var textAdder = setInterval(function(){
                     element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    element.attr('title', '');
                     if (++cursorPosition == more_authors_text.length){
                       clearInterval(textAdder);
                     }
