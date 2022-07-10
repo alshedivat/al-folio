@@ -25,6 +25,7 @@ This project emerged from a workshop hosted in 2017 on Princeton's campus and re
 
 
 <h3>Selected Media Coverage</h3>
+<li><a href="https://socialsciences.nature.com/posts/in-conversation-publishing-misinformation-research">Journals must do more to support misinformation research</a>, <i>Nature</i></li>
 <li><a href="https://www.cnet.com/news/misinformation/twitter-could-take-these-steps-to-slow-viral-misinformation-researchers-say/#ftag=CAD590a51e">Twitter Could Take These Steps to Slow Viral Misinformation, Researchers Say</a>, <i>CNET</i></li>
 <li><a href="https://www.bnnbloomberg.ca/as-climate-change-fries-the-world-social-media-is-frying-our-brains-1.1623057">As Climate Change Fries the World, Social Media Is Frying Our Brains</a>, <i>Bloomberg</i>
 <li><a href="https://www.vox.com/recode/2021/6/26/22550981/carl-bergstrom-joe-bak-coleman-biologists-ecologists-social-media-risk-humanity-research-academics">Why some biologists and ecologists think social media is a risk to humanity</a>, <i>Vox</i></li>

@@ -21,4 +21,7 @@ A portion of my research focuses on understanding the conditions that promote co
 <li><a href="https://royalsocietypublishing.org/doi/full/10.1098/rspb.2020.1802">The wisdom of stalemates: consensus and clustering as filtering mechanisms for improving collective accuracy.</a></li>
 
 <h3>Selected Media Coverage</h3>
+<li><a href="https://www.cnet.com/news/misinformation/twitter-could-take-these-steps-to-slow-viral-misinformation-researchers-say/#ftag=CAD590a51e">Twitter Could Take These Steps to Slow Viral Misinformation, Researchers Say</a>, <i>CNET</i></li>
+<li><a href="https://www.sciencedaily.com/releases/2018/04/180418092038.htm">New study improves 'crowd wisdom' estimates</a>, <i>Science Daily</i></li>
+<li><a href="https://www.nature.com/articles/s41562-022-01389-5">NModest interventions complement each other in reducing misinformation</a>, <i>Science Daily</i></li>
 <li><a href="https://www.sciencedaily.com/releases/2018/04/180418092038.htm">New study improves 'crowd wisdom' estimates</a>, <i>Science Daily</i></li>
