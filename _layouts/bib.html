@@ -31,7 +31,7 @@
 
           {%- for author in entry.author_array limit: author_array_limit -%}
             {%- assign author_is_self = false -%}
-            {%- if author.last == site.scholar.last_name%}
+            {%- if author.last == site.scholar.last_name %}
               {%- if site.scholar.first_name contains author.first -%}
                 {%- assign author_is_self = true -%}
               {%- endif -%}
@@ -64,15 +64,13 @@
                   {%- endif -%}
                 {%- endif -%}
               {%- else -%}
+                {%- if author_array_limit == author_array_size %} and {% endif %}
                 {% if author_is_self -%}
-                  {%- if author_array_limit == author_array_size %}and {% endif %}
                   <em>{{author.last}}, {{author.first}}</em>
                 {% else -%}
                   {%- if coauthor_url -%}
-                    {%- if author_array_limit == author_array_size %}and {% endif %}
-                  <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>
+                    <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>
                   {% else -%}
-                    {%- if author_array_limit == author_array_size %}and {% endif %}
                     {{author.last}}, {{author.first}}
                   {%- endif -%}
                 {%- endif -%}
@@ -82,13 +80,34 @@
 
           {% assign more_authors = author_array_size | minus: author_array_limit %}
 
-          {%- if author_array_limit < author_array_size %}
-            and 
-            <a class="author" title="
-              {%- for author in entry.author_array offset: author_array_limit -%}
-              {% if forloop.last %}and {% endif %}{{author.last}}, {{author.first}}{% unless forloop.last %}, {% endunless %}
-              {%- endfor -%}
-            ">{{ more_authors }} more author{% if more_authors > 1 %}s{% endif %}.</a>
+          {%- if more_authors > 0 %}
+            {% assign more_authors_hide = more_authors | append: " more author" %}
+            {% if more_authors > 1 %}
+              {% assign more_authors_hide = more_authors_hide | append: "s" %}
+            {% endif %}
+            {% assign more_authors_show = '' %}
+            {%- for author in entry.author_array offset: author_array_limit -%}
+              {% assign more_authors_show = more_authors_show | append: author.last | append: ", " | append: author.first %}
+              {% unless forloop.last %}
+                {% assign more_authors_show = more_authors_show | append: ",&nbsp;" %}
+              {% endunless %}
+            {%- endfor -%}
+            and
+            <span
+                class="more-authors"
+                onclick="
+                  var element = $('span.more-authors');
+                  var more_authors_text = element.text() == '{{more_authors_hide}}' ? '{{more_authors_show}}' : '{{more_authors_hide}}';
+                  console.log(more_authors_text);
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                  }, 15);
+                "
+            >{{more_authors_hide}}</span>
           {% endif %}
 
           </div>
