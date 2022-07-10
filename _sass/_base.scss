@@ -303,12 +303,11 @@ footer.sticky-bottom {
   .card {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
-    
     .list-group-item {
       color: inherit;
       background-color: inherit;
-
       .badge {
+        width: fit-content;
         color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color);
       }
@@ -493,6 +492,7 @@ footer.sticky-bottom {
         height: 2rem;
         margin-bottom: 0.5rem;
         abbr.badge {
+          width: fit-content;
           color: var(--global-bg-color) !important;
           background-color: var(--global-theme-color);
           a {
