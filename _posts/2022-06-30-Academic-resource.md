@@ -14,7 +14,7 @@ authors:
 # NOTES:
 #   - make sure that TOC names match the actual section names
 #     for hyperlinks within the post to work correctly.
-#   - we may want to automate TOC generation in the future using
+#   - we may want to automate TOC generation in the future by using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
   - name: Introduction
@@ -35,7 +35,7 @@ toc:
 
 ## Introduction
 
-Last quarter, I took the Tao of Ph.D. seminar at the University of Washington, Allen school. Even though I am in California, I can't be involved much; I learned a lot from the recommended resources covering many important topics for Ph.D. students. In addition, I also learned a lot from the people on the internet(Video, Blog, Article, Podcast), so I want to make a collection of them.<d-footnote> Some of them are written in Chinese, which means original posts are in Chinese </d-footnote>
+Last quarter, I took the Tao of the Ph.D. seminar at the University of Washington, Allen school. Even though I am in California, I can't be involved much; I learned a lot from the recommended resources covering many important topics for Ph.D. students. In addition, I also learned a lot from the people on the internet(Video, Blog, Article, Podcast), so I want to make a collection of them.<d-footnote> Some of them are written in Chinese, which means the original posts are in Chinese </d-footnote>
 
 I really enjoy learning about other people's stories. It's a virtual way to gain experience from the people who have gone through the same journey - **playing a game and reading a cheat sheet**!
 
@@ -51,10 +51,10 @@ Research is one of the most important things in the life of a PhD student.
 - [You and your research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.pdf) by Richard Hamming
 - [Research patterns](https://greatresearch.org/2013/09/20/research-patterns/) by Nick Feamster
 - [Importance of stupidity](https://journals.biologists.com/jcs/article/121/11/1771/30038/The-importance-of-stupidity-in-scientific-research) by Martin Schwartz
-  - “Science involves confronting our ‘absolute stupidity’. That kind of stupidity is an existential fact, inherent in our efforts to push our way into the unknown.”
+  - “Science involves confronting our ‘absolute stupidity. That kind of stupidity is an existential fact, inherent in our efforts to push our way into the unknown.”
   - "The more comfortable we become with being stupid, the deeper we will wade into the unknown and the more likely we are to make big discoveries."
 - [How to choose a good scientific problem](https://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/nurturing/howtochoosegoodproblem.pdf) by Uri Alon.
-  - We should keep _The Feasibility-Interest Diagram for Choosing a Project_ and the _The Schema of Research_ in mind
+  - We should keep _The Feasibility-Interest Diagram for Choosing a Project_ and _The Schema of Research_ in mind
 - [Finding and proposing a PhD dissertation](https://medium.com/great-research/finding-and-proposing-a-ph-d-dissertation-topic-6bca29253a0f) topic by Nick Feamster
 - Technology and courage by Ivan Sutherland
 - Claude Shannon’s “creative thinking” speech by Jimmy Soni
@@ -69,7 +69,7 @@ Research is one of the most important things in the life of a PhD student.
 ## Presentation
 
 - [How to give a great research talk](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/) by Simon Peyton Jones
-  - I think I will read the slides every time when I need to prepare for a talk!. It's an **Amazing talk** about how to give a great talk.
+  - I think I will read the slides every time when I need to prepare for a talk!. It's an **amazing talk** about how to give a great talk.
 - [Tips for giving clear talks](http://graphics.stanford.edu/~kayvonf/misc/cleartalktips.pdf) by Kayvon Fatahalian
   - **Twelve Important tips** and also provide examples for each tip.
 - [Creating an effective poster](https://docs.google.com/document/d/1gkUWgYMQ37kJ-Bu4wmcEi7x30ZEnmRw99ZMSUhZcQtI/edit) by John Wilkes
@@ -92,7 +92,7 @@ Research is one of the most important things in the life of a PhD student.
 
 ## 中文总结
 
-Other people's stories are quite similar to counterfactual world for us.
+Other people's stories are quite similar to the counterfactual world for us.
 
 这一节主要是一些前人前辈的读博总结（也有工作之后的总结），**常读常新**。
 
