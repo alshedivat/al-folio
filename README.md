@@ -113,52 +113,62 @@ Neural Compression (ICLR: <a href="https://neuralcompression.github.io/" target=
 
 ## Getting started
 
-For more about how to use Jekyll, check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
+Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
 Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
 
 
 ### Installation
 
+For a hands-on walkthrough al-folio installation, check out [this cool video tutorial](https://www.youtube.com/watch?v=g6AJ9qPPoyc) by one of the community members! 🎬 🍿
+
+---
+
 #### Local setup using Docker (Recommended on Windows)
 
-You need to do these step to get `al-folio` up and running in your local machine:
+You need to take the following steps to get `al-folio` up and running in your local machine:
 
-- Install [docker](https://docs.docker.com/get-docker/)
-- Clone your repository
-
-```bash
-      git clone git@github.com:<your-username>/<your-repo-name>.git
-      cd <your-repo-name>
-```
-
-Then you can use Dockerhub prebuilt image to run your website. Note that for the first time it would download an image of size 300MB or so. 
+- First, [install docker](https://docs.docker.com/get-docker/)
+- Then, clone this repository to your machine:
 
 ```bash
-      bin/dockerhub_run.sh
+$ git clone git@github.com:<your-username>/<your-repo-name>.git
+$ cd <your-repo-name>
 ```
 
-> Currently, you should opt this method, only if you are using newest version of al-folio. If you are using an old version. You should build your own image. 
+Finally, run the following command that will pull a pre-built image from DockerHub and will run your website.
+
+```bash
+$ ./bin/dockerhub_run.sh
+```
+
+Note that when you run it for the first time, it will download a docker image of size 300MB or so.
+
+Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`bin/dockerhub_run.sh`) to render the webpage with all you changes. Also, make sure to commit your final changes.
 
 <details><summary>(click to expand) <strong>Build your own docker image (more advanced):</strong></summary>
+
+> Note: this approach is only necessary if you would like to build an older or very custom version of al-folio.
 
 First, download the necessary modules and install them into a docker image called `al-folio:Dockerfile` (this command will build an image which is used to run your website afterwards. Note that you only need to do this step once. After you have the image, you no longer need to do this anymore):
   
 
-\```bash
-    bin/docker_build_image.sh  
-\```
+```bash
+$ ./bin/docker_build_image.sh  
+```
 
 Run the website!
 
-\```bash
-    bin/docker_run.sh
-\```
+```bash
+$ ./bin/docker_run.sh
+```
 
 > To change port number, you can edit `docker_run.sh` file.
 
 > If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `docker_build_image.sh`! It will download ruby and jekyll and install all ruby packages again from scratch.
 
 </details>
+
+---
 
 #### Local Setup (Standard)
 
@@ -173,6 +183,8 @@ $ bundle exec jekyll serve
 
 Now, feel free to customize the theme however you like (don't forget to change the name!).
 After you are done, **commit** your final changes.
+
+---
 
 #### Deployment
 
@@ -255,6 +267,8 @@ In its default configuration, al-folio will copy the top-level `README.md` to th
 
 </details>
 
+---
+
 #### Upgrading from a previous version
 
 If you installed **al-folio** as described above, you can upgrade to the latest version as follows:
@@ -270,6 +284,8 @@ If you have extensively customized a previous version, it might be trickier to u
 You can still follow the steps above, but `git rebase` may result in merge conflicts that must be resolved.
 See [git rebase manual](https://help.github.com/en/github/using-git/about-git-rebase) and how to [resolve conflicts](https://help.github.com/en/github/using-git/resolving-merge-conflicts-after-a-git-rebase) for more information.
 If rebasing is too complicated, we recommend to re-install the new version of the theme from scratch and port over your content and changes from the previous version manually.
+
+---
 
 ### FAQ
 
@@ -303,6 +319,7 @@ If you have a different question, please ask using [Discussions](https://github.
    **A:** Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`.
   RSS Feed plugin works with these correctly set up fields: `title`, `url`, `description` and `author`.
   Make sure to fill them in an appropriate way and try again.
+
 
 ## Features
 
@@ -369,7 +386,9 @@ There are several custom bibtex keywords that you can use to affect how the entr
 You can implement your own buttons by editing the bib.html file.
    
 </details>
-   
+
+---
+
 ### Collections
 
 This Jekyll theme implements `collections` to let you break up your work into categories.
@@ -381,7 +400,9 @@ Items from the `projects` collection are displayed on a responsive grid on proje
 
 You can easily create your own collections, apps, short stories, courses, or whatever your creative work is.
 To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
-   
+
+---
+
 ### Layouts
 
 **al-folio** comes with stylish layouts for pages and blog posts.
@@ -414,6 +435,7 @@ Easily create beautiful grids within your blog posts and project pages:
   </a>
 </p>
 
+---
 
 ### Other features
 
