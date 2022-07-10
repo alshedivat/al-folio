@@ -63,8 +63,7 @@ Research is one of the most important things in the life of a PhD student.
 - [How to choose a good scientific problem](https://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/nurturing/howtochoosegoodproblem.pdf) by Uri Alon.
   - We should keep _The Feasibility-Interest Diagram for Choosing a Project_ and _The Schema of Research_ in mind
 - [Finding and proposing a PhD dissertation](https://medium.com/great-research/finding-and-proposing-a-ph-d-dissertation-topic-6bca29253a0f) topic by Nick Feamster
-- Technology and courage by Ivan Sutherland
-- Claude Shannon’s “creative thinking” speech by Jimmy Soni
+- [Claude Shannon’s “creative thinking” speech](https://web.archive.org/web/20190421034536/https://medium.com/the-mission/a-genius-explains-how-to-be-creative-claude-shannons-long-lost-1952-speech-fbbcb2ebe07f) by Jimmy Soni
 
 ## Academic writing
 
