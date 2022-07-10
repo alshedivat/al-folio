@@ -35,7 +35,7 @@ toc:
 
 ## Introduction
 
-Last quarter, I took the Tao of the Ph.D. seminar at the University of Washington, Allen school, I was in California and couldn't get involved as much. But I learned a lot from the recommended resources covering many important topics for Ph.D. students. In addition, I also learned a lot from the internet(Video, Blog, Article, Podcast), so I want to make a collection of them.<d-footnote> Some of them are written in Chinese, which means the original posts are in Chinese </d-footnote>
+Last quarter, I took the Tao of the Ph.D. seminar at the University of Washington. I was in California and couldn't get involved as much but I still learned a lot from the recommended resources covering many important topics for Ph.D. students. In addition, I also learned a lot from the internet(Video, Blog, Article, Podcast), so I want to make a collection of them.<d-footnote> Some of them are written in Chinese, which means the original posts are in Chinese </d-footnote>
 
 Reading stories of people who have gone through the same journey is a virtual way to gain experience - It's like **reading a cheat sheet while playing games**!
 
