@@ -48,8 +48,15 @@ Before applying for the Ph.D., I recommend some articles to read! **PhD is not n
 
 Research is one of the most important things in the life of a PhD student.
 
-- [You and your research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.pdf) by Richard Hamming
-- [Research patterns](https://greatresearch.org/2013/09/20/research-patterns/) by Nick Feamster
+- [You and your research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.pdf) by Richard Hamming. It's a little bit hard for early career researchers to follow all instructions but we should always remind ourselves of these points.
+  - "Once you get your courage up and believe that you can do important problems, then you can. "
+  - "If you do not work on an important problem, it's unlikely you'll do important work. It's perfectly obvious."
+  - "If you really want to be a first-class scientist you need to know yourself, your weaknesses, your strengths, and your bad faults"
+- [Research patterns](https://greatresearch.org/2013/09/20/research-patterns/) by Nick Feamster. He provided some patterns for finding a problem and solving it. Check more detail in the post!
+  - "Revisit old problems where assumptions may have changed."
+  - "Hop on a trend; look “upstream” for the trends."
+  - "Specialize the general. Generalize the specific "
+  - "Think in speech or pictures"
 - [Importance of stupidity](https://journals.biologists.com/jcs/article/121/11/1771/30038/The-importance-of-stupidity-in-scientific-research) by Martin Schwartz
   - “Science involves confronting our ‘absolute stupidity. That kind of stupidity is an existential fact, inherent in our efforts to push our way into the unknown.”
   - "The more comfortable we become with being stupid, the deeper we will wade into the unknown and the more likely we are to make big discoveries."
@@ -84,12 +91,6 @@ Research is one of the most important things in the life of a PhD student.
 - [The Good Research Code Handbook](https://goodresearch.dev) by Patrick J Mineault.
   - **Highly Recommended** I really like the opinion **writing good research code is about freeing your memory**
 
-## Podcast
-
-- [Theory and Practice](https://podcast.gv.com)
-  - In this
-- [李丁聊天室播客](https://www.lidingzeyu.com/podcast/)
-
 ## 中文总结
 
 Other people's stories are quite similar to the counterfactual world for us.
@@ -112,6 +113,15 @@ Other people's stories are quite similar to the counterfactual world for us.
 - [我在纽约当教授 - TT YaYa YouTube Channels](https://www.youtube.com/channel/UCjWnhn8mmA3DEEHlniCEoXA/videos) 非常棒的一个视频频道，为数不多的生活向学术频道，学习到了超级多（包括怎么读博，美国 funding system，教职相关的经验等等）！ TT YaYa 和摄影师太有意思啦！强力推荐！！具体的一些 video 大家可以自己挖掘~
 - [Acsic People](https://www.youtube.com/channel/UC1PCPgKxjsK6P-po9DlBpQQ/videos) 干货浓度非常高！ [Two-body problem](https://youtu.be/gNkCcoJUJ-I), [What My Mentors Taught Me](https://youtu.be/lOOBJix9-Dw), [前车之鉴](https://youtu.be/KTcu33RghQs) 等等都非常精彩！
 
+## Podcast
+
+- [Theory and Practice](https://podcast.gv.com)
+  - In this
+- [李丁聊天室播客](https://www.lidingzeyu.com/podcast/)
+
 ## Resources
 
-[The Tao of PhD at UW](https://courses.cs.washington.edu/courses/cse590x/22wi/)
+- [The Tao of PhD at UW](https://courses.cs.washington.edu/courses/cse590x/22wi/). Most of the above articles is from this seminar. Thanks a lot, Anna Karlin, Mike Ernst and Pratyush Patel!
+- ["Graduate school", "Productivity", "Writing", and "Giving presentations"](https://matt.might.net/articles/) by Matthew Might
+- [Advice for research students](https://www.cs.cmu.edu/~jasonh/advice.html) by Jason Eisner
+- [Dave’s advice collection](https://www.cs.virginia.edu/~evans/advice/) by David Evans
