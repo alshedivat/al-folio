@@ -1,5 +1,7 @@
 {
-  "files": ["README.md"],
+  "files": [
+    "README.md"
+  ],
   "imageSize": 100,
   "commit": false,
   "contributorsPerLine": 7,
@@ -18,6 +20,15 @@
       "profile": "http://maruan.alshedivat.com",
       "contributions": [
         "design",
+        "code"
+      ]
+    },
+    {
+      "login": "rohandebsarkar",
+      "name": "Rohan Deb Sarkar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50144004?v=4",
+      "profile": "http://rohandebsarkar.github.io",
+      "contributions": [
         "code"
       ]
     }
