@@ -35,11 +35,11 @@ toc:
 
 ## Introduction
 
-Last quarter, I took the Tao of PhD seminar at University of Washington, Allen school. Even I am at california so I can't involoved so much, I learned a lot from the recommend resources covering many important topics for PhD students. In addition, I also learned a lot from the people on internet(Video, Blog, Article, Podcast) so I want to make a collection of them.<d-footnote> Some of them are written in Chinese which means original posts are in Chinese </d-footnote>
+Last quarter, I took the Tao of Ph.D. seminar at the University of Washington, Allen school. Even though I am in California, I can't be involved much; I learned a lot from the recommended resources covering many important topics for Ph.D. students. In addition, I also learned a lot from the people on the internet(Video, Blog, Article, Podcast), so I want to make a collection of them.<d-footnote> Some of them are written in Chinese, which means original posts are in Chinese </d-footnote>
 
-I really enjoy learning about other people's stories. It's a virtual way to gain experience from the people who have gone through the the same journey - **playing a game and reading a cheat sheet**!
+I really enjoy learning about other people's stories. It's a virtual way to gain experience from the people who have gone through the same journey - **playing a game and reading a cheat sheet**!
 
-Before applying for the PhD, I would like to recommend some articles to read! **PhD is not necessary for all people**.
+Before applying for the Ph.D., I recommend some articles to read! **PhD is not necessary for all people**.
 
 - [Do you need a PhD?](https://medium.com/great-research/do-you-need-a-ph-d-f78d2fb0f286) by Nick Feamster
 - [Advice for new graduate students](https://freedom-to-tinker.com/2010/09/27/advice-new-graduate-students/) by Jennifer Rexford
@@ -70,10 +70,12 @@ Research is one of the most important things in the life of a PhD student.
 
 - [How to give a great research talk](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/) by Simon Peyton Jones
   - I think I will read the slides every time when I need to prepare for a talk!. It's an **Amazing talk** about how to give a great talk.
-- [How to give a technical presentation](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html) by Mike Ernst
-- [Creating an effective poster](https://docs.google.com/document/d/1gkUWgYMQ37kJ-Bu4wmcEi7x30ZEnmRw99ZMSUhZcQtI/edit) by John Wilkes
-- [How to speak](https://www.youtube.com/watch?v=Unzc731iCUY) by Patrick Winston
 - [Tips for giving clear talks](http://graphics.stanford.edu/~kayvonf/misc/cleartalktips.pdf) by Kayvon Fatahalian
+  - **Twelve Important tips** and also provide examples for each tip.
+- [Creating an effective poster](https://docs.google.com/document/d/1gkUWgYMQ37kJ-Bu4wmcEi7x30ZEnmRw99ZMSUhZcQtI/edit) by John Wilkes
+  - There are many concrete tips to create a good poster.
+- [How to speak](https://www.youtube.com/watch?v=Unzc731iCUY) by Patrick Winston
+- [How to give a technical presentation](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html) by Mike Ernst
 
 ## Read paper
 
