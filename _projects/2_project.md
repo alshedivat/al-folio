@@ -16,7 +16,8 @@ A portion of my research focuses on understanding the conditions that promote co
 
 
 <h3>Related Work</h3>
-<li><a href="https://osf.io/preprints/socarxiv/4jtvm">Combining interventions to reduce the spread of viral misinformation</a></li>
+
+<li><a href="https://www.nature.com/articles/s41562-022-01388-6">Combining interventions to reduce the spread of viral misinformation</a> <i>Nature Human Behavior</i></li>
 <li><a href="https://royalsocietypublishing.org/doi/full/10.1098/rsif.2018.0130">Counteracting estimation bias and social influence to improve the wisdom of crowds</a></li>
 <li><a href="https://royalsocietypublishing.org/doi/full/10.1098/rspb.2020.1802">The wisdom of stalemates: consensus and clustering as filtering mechanisms for improving collective accuracy.</a></li>
 
