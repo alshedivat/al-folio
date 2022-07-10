@@ -92,7 +92,7 @@ Research is one of the most important things in the life of a PhD student.
 
 ## 中文总结
 
-Other people's stories are quite similar to the counterfactual world for us.
+Other people's stories are counterfactual worlds for us.
 
 这一节主要是一些前人前辈的读博总结（也有工作之后的总结），**常读常新**。
 
