@@ -75,7 +75,7 @@ Research is one of the most important things in the life of a PhD student.
 ## Presentation
 
 - [How to give a great research talk](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/) by Simon Peyton Jones
-  - I think I will read the slides every time when I need to prepare for a talk!. It's an **amazing talk** about how to give a great talk.
+  - I will read the slides every time when I need to prepare for a talk!. It's an **amazing talk** about how to give a great talk.
 - [Tips for giving clear talks](http://graphics.stanford.edu/~kayvonf/misc/cleartalktips.pdf) by Kayvon Fatahalian
   - **Twelve Important tips** and also provide examples for each tip.
 - [Creating an effective poster](https://docs.google.com/document/d/1gkUWgYMQ37kJ-Bu4wmcEi7x30ZEnmRw99ZMSUhZcQtI/edit) by John Wilkes
