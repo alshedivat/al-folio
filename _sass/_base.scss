@@ -492,13 +492,11 @@ footer.sticky-bottom {
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
-        abbr {
-          display: inline-block;
+        abbr.badge {
+          color: var(--global-bg-color) !important;
           background-color: var(--global-theme-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
           a {
-            color: white;
+            color: var(--global-text-color);
             &:hover {
               text-decoration: none;
             }
