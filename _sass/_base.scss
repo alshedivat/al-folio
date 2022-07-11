@@ -382,12 +382,13 @@ footer.sticky-bottom {
   .page-item {
     .page-link {
       color: var(--global-text-color);
+      background-color: var(--global-bg-color);
       &:hover {
-        color: $black-color;
+        color: var(--global-hover-color);
       }
     }
     &.active .page-link {
-      color: $white-color;
+      color: var(--global-bg-color);
       background-color: var(--global-theme-color);
       &:hover {
         background-color: var(--global-theme-color);
