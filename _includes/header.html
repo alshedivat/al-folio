@@ -6,7 +6,7 @@
         <div class="container">
           {% if page.permalink != '/' -%}
           <a class="navbar-brand title fw-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-              {%- if site.title == "blank" -%}<span class="fw-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}
+              {%- if site.title == "blank" -%}<span class="fw-bold pe-1">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}
           </a>
           {%- elsif site.enable_navbar_social -%}
           <!-- Social Icons -->
