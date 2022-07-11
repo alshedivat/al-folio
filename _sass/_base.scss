@@ -154,9 +154,10 @@ blockquote {
 }
 .dropdown-item {
   color: var(--global-text-color);
-    &:hover {
+  background-color: var(--global-bg-color);
+    &:hover, &:focus {
       color: var(--global-hover-color);
-      background-color: var(--global-bg-color);
+      background-color: inherit;
     }
 }
 .navbar.navbar-light {
