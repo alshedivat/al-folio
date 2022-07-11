@@ -20,7 +20,8 @@ description: GitHub repo cards.
   {% assign url =  repo | split: '/' %}
     <div class="repo p-1">
       <a href="https://github.com/{{ repo }}">
-        <img class="repo-img" alt="{{ repo }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ url.first }}&repo={{ url.last }}{{style}}">
+        <img class="repo-img-light" alt="{{ repo }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ url.first }}&repo={{ url.last }}">
+        <img class="repo-img-dark" alt="{{ repo }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ url.first }}&repo={{ url.last }}&theme=dark">
       </a>
     </div>
   {% endfor %}
