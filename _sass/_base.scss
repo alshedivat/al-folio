@@ -68,19 +68,15 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
-
   img {
     width: 100%;
   }
-
   .card-title {
     color: var(--global-text-color);
   }
-
   .card-item {
     width: auto;
-    margin-bottom: 10px;
-
+    margin-bottom: 0.75rem;
     .row {
       display: flex;
       align-items: center;
@@ -413,24 +409,20 @@ footer.sticky-bottom {
 .projects {
   a {
     text-decoration: none;
-
     &:hover {
       .card-title {
         color: var(--global-hover-color);
       }
     }
   }
-
   .card {
     img {
       width: 100%;
     }
   }
-
   .card-item {
     width: auto;
-    margin-bottom: 10px;
-
+    margin-bottom: 0.75rem;
     .row {
       display: flex;
       align-items: center;
