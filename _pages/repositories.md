@@ -18,7 +18,7 @@ description: GitHub repo cards.
 
 ---
 
-## Repositories
+## GitHub Repositories
 
 {% if site.data.repositories.repositories %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
