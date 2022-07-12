@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repo/
-title: repo
+title: Repositories
 nav: true
 description: GitHub repo cards.
 ---
