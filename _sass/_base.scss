@@ -314,13 +314,15 @@ footer.sticky-bottom {
 
 // Repositories
 
-.repositories{
+.repo {
+  a img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
   .repo {
-    max-width: 50%;
-    a img {
-      min-height: 5rem;
-      max-width: 100%;
-    }
+    width: 50%;
   }
 }
 
