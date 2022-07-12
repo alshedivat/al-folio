@@ -1,8 +1,7 @@
-repositories:
-    - alshedivat/al-folio
-    - twbs/bootstrap
-    - jekyll/jekyll
-    - jquery/jquery
-    - FortAwesome/Font-Awesome
-    - jpswalsh/academicons
-    - mathjax/mathjax
+- alshedivat/al-folio
+- twbs/bootstrap
+- jekyll/jekyll
+- jquery/jquery
+- FortAwesome/Font-Awesome
+- jpswalsh/academicons
+- mathjax/mathjax
