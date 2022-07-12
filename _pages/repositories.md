@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /repo/
+permalink: /repositories/
 title: repositories
 nav: true
 description: GitHub repo cards.
