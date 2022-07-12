@@ -6,7 +6,16 @@
         <div class="container">
           {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-              {%- if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}
+              {%- if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}
+              <div class="contact-icons">
+                <a href="https://www.kaggle.com/addicejeremy" title="Kaggle" target='_blank' rel="noopener nonreferrer"><i class="fab fa-kaggle"></i></a>
+                <a href="mailto:lij061703@gmail.com" title="email"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/addice-Jeremy" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jiabin-jeremy-li/" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/jeremy.li.0617/" title="Facebook" target='_blank' rel="noopener nonreferrer"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/addice_jeremy/" title="Instagram" target='_blank' rel="noopener nonreferrer"><i class="fab fa-instagram"></i></a>
+                </div>
+              {%- endif -%}
           </a>
           {%- elsif site.enable_navbar_social -%}
           <!-- Social Icons -->
