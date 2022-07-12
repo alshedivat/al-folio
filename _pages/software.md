@@ -7,7 +7,7 @@ nav: true
 ---
 ___
 
-* **[diBELLA.2D](https://github.com/PASSIONLab/diBELLA.2D)**: Parallel String Graph Construction and Transitive Reduction for De Novo Genome Assembly.
+* **[ELBA](https://github.com/PASSIONLab/ELBA)**: Parallel String Graph Construction, Transitive Reduction, and Contig Generation for Long-Read De Novo Genome Assembly.
 * **[BELLA](https://github.com/PASSIONLab/BELLA)**: Computationally-Efficient and Highly-Accurate Long-Read to Long-Read Aligner and Overlapper.
 * **[LOGAN](https://github.com/albertozeni/LOGAN)**: High-Performance GPU-Based X-Drop Long-Read Alignment.
 * **[PASTIS](https://github.com/PASSIONLab/PASTIS)**: Distributed Protein Sequence Aligner.
