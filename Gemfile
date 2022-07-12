@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'wdm', '>= 0.1.0'
-    # gem 'mini_racer', '~> 0.6.2'
     gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
