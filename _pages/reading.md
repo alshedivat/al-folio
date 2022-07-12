@@ -200,4 +200,8 @@ nav_order: 4
 * Gone with the Wind - Margaret Mitchell
 * The Picture of Dorian Gray - Oscar Wilde
 * The Hen Who Dreamed She Could Fly - Sun-mi Hwang
+<<<<<<< HEAD
 * A Room of One's Own - Virginia Woolf
+=======
+* A Room of One's Own - Virginia Woolf
+>>>>>>> bfbe8d3 (readings)
