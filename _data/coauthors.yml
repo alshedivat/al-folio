@@ -12,17 +12,30 @@
 
 "Keskin":
   - firstname: ["Cem", "C."]
+    lastname: ["Keskin"]
     url: https://scholar.google.ca/citations?user=9HoiYnYAAAAJ
 
 "Ansdell":
   - firstname: ["Megan", "M."]
+    lastname: ["Ansdell"]
     url: https://science.nasa.gov/researchers/sara/program-officers-list/megan-ansdell
 "Cipolla":
   - firstname: ["Roberto", "R."]
+    lastname: ["Cipolla"]
     url: http://mi.eng.cam.ac.uk/~cipolla
 "Criminisi":
   - firstname: ["Antonio", "A."]
+    lastname: ["Criminisi"]
     url: https://scholar.google.co.uk/citations?user=YHmzvmMAAAAJ
 "Adnan":
-  - firstname: ["Mohd", "M.", "Mohammed"]
+  - firstname: ["Mohd"]
+    lastname: ["M.", "Mohammed"]
     url: https://adnan1306.github.io
+"Anna":
+  - firstname: ["Anna"]
+    lastname: ["Golubeva"]
+    url: https://annagolubeva.github.io/
+"Mike":
+  - firstname: ["Mike"]
+    lastname: ["Lasby"]
+    url: https://github.com/mklasby
