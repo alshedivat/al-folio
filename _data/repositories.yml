@@ -1,8 +1,8 @@
-usernames:
+github_users:
   - torvalds
   - alshedivat
 
-repositories:
+github_repos:
   - alshedivat/al-folio
   - twbs/bootstrap
   - jekyll/jekyll
