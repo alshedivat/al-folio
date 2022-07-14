@@ -33,3 +33,7 @@ profile:
 ---
 
 Christine O'Keefe is a postdoctoral researcher in biomedical engineering developing microfluidic devices that use DNA to diagnose illness. Her research focuses on analyzing DNA methylation patterns of individual molecules within noninvasive samples to improve understanding of cancer development and facilitate early diagnosis.
+
+## Short Bio
+
+Christine O'Keefe received her B.A. in Bioengineering from University of Maryland, College Park and her Ph.D. in Biomedical Engineering at Johns Hopkins University.  She is currently a postdoctoral researcher in biomedical engineering developing microfluidic devices that use DNA to diagnose illness. Her research focuses on analyzing DNA methylation patterns of individual molecules within noninvasive samples to improve understanding of cancer development and facilitate early diagnosis.
