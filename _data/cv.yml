@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Yash Sharma
     - name: Date of Birth
-      value: 14th March 1879
+      value: 07 March 2002
     - name: Languages
-      value: English, German
+      value: English, Hindi
 
 - title: Education
   type: time_table
