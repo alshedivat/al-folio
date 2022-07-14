@@ -22,7 +22,7 @@ pagination:
 
   {% if site.display_tags %}
   <div class="tag-list">
-    <ul class="list-group list-group-horizontal">
+    <ul class="p-0 m-0">
       {% for tag in site.display_tags %}
         <li>
           <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
