@@ -16,26 +16,26 @@
     url: https://scholar.google.ca/citations?user=9HoiYnYAAAAJ
 
 "Ansdell":
-  - firstname: ["Megan", "M."]
+  - firstname: ["Megan", "M.", "Megan Ansdell"]
     lastname: ["Ansdell"]
     url: https://science.nasa.gov/researchers/sara/program-officers-list/megan-ansdell
 "Cipolla":
-  - firstname: ["Roberto", "R."]
+  - firstname: ["Roberto", "R.", "Roberto Cipolla"]
     lastname: ["Cipolla"]
     url: http://mi.eng.cam.ac.uk/~cipolla
 "Criminisi":
-  - firstname: ["Antonio", "A."]
+  - firstname: ["Antonio", "A.", "Antonio Criminisi"]
     lastname: ["Criminisi"]
     url: https://scholar.google.co.uk/citations?user=YHmzvmMAAAAJ
 "Adnan":
-  - firstname: ["Mohd"]
+  - firstname: ["Mohd", "Adnan Mohammed"]
     lastname: ["M.", "Mohammed"]
     url: https://adnan1306.github.io
 "Anna":
-  - firstname: ["Anna"]
+  - firstname: ["Anna", "A.", "Anna Golubeva"]
     lastname: ["Golubeva"]
     url: https://annagolubeva.github.io/
 "Mike":
-  - firstname: ["Mike"]
+  - firstname: ["Mike", "Mike Lasby"]
     lastname: ["Lasby"]
     url: https://github.com/mklasby
