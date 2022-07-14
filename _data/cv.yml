@@ -2,31 +2,30 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Paulina Ezquerra
     - name: Date of Birth
-      value: 14th March 1879
+      value: May 17th, 1999
     - name: Languages
-      value: English, German
+      value: English, Spanish
+    - name: Research Interests
+      value: Ethics, Philosophy of Action, Latin American Philosophy
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MA in Philosophy
+      institution: University of Houston, Department of Philosophy
+      year: 2021-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - GPA 4.0
+        
+    - title: BA in Philosophy and Political Science
+      institution: University of Houston, Department of Philosophy
+      year: 2017-2021
       description:
-        - Description 1.
-        - Description 2.
+        - Summa cum laude 
+        - University Honors with Honors in Major
+
 
 - title: Experience
   type: time_table
