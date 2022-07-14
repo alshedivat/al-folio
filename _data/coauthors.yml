@@ -1,13 +1,16 @@
 "Evci":
   - firstname: ["Utku", "U."]
+    lastname: "Evci"
     url: http://www.utkuevci.com
 
 "Dauphin":
   - firstname: ["Yann", "Y."]
+    lastname: "Dauphin"
     url: https://www.dauphin.io
 
 "Taylor":
   - firstname: ["Graham", "G."]
+    lastname: "Graham Taylor"
     url: https://www.gwtaylor.ca
 
 "Keskin":
@@ -16,26 +19,26 @@
     url: https://scholar.google.ca/citations?user=9HoiYnYAAAAJ
 
 "Ansdell":
-  - firstname: ["Megan", "M.", "Megan Ansdell"]
-    lastname: ["Ansdell"]
+  - firstname: ["Megan", "M."]
+    lastname: "Ansdell"
     url: https://science.nasa.gov/researchers/sara/program-officers-list/megan-ansdell
 "Cipolla":
-  - firstname: ["Roberto", "R.", "Roberto Cipolla"]
-    lastname: ["Cipolla"]
+  - firstname: ["Roberto", "R."]
+    lastname: "Cipolla"
     url: http://mi.eng.cam.ac.uk/~cipolla
 "Criminisi":
-  - firstname: ["Antonio", "A.", "Antonio Criminisi"]
-    lastname: ["Criminisi"]
+  - firstname: ["Antonio", "A."]
+    lastname: "Criminisi"
     url: https://scholar.google.co.uk/citations?user=YHmzvmMAAAAJ
 "Adnan":
-  - firstname: ["Mohd", "Adnan Mohammed"]
-    lastname: ["M.", "Mohammed"]
+  - firstname: ["Mohd", "Adnan"]
+    lastname: "Mohammed"
     url: https://adnan1306.github.io
 "Anna":
-  - firstname: ["Anna", "A.", "Anna Golubeva"]
-    lastname: ["Golubeva"]
+  - firstname: ["Anna", "A."]
+    lastname: "Golubeva"
     url: https://annagolubeva.github.io/
 "Mike":
-  - firstname: ["Mike", "Mike Lasby"]
-    lastname: ["Lasby"]
+  - firstname: ["Mike", "Michael", "M."]
+    lastname: "Lasby"
     url: https://github.com/mklasby
