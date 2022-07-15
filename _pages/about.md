@@ -20,5 +20,3 @@ social: false  # includes social icons at the bottom of the page
 
 I am a philosopher. I like thinking about ethics. My amazing [husband](http://phkieval.com) whomst I love is also a philosopher and he made me this awesome website. 
 
-
- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
