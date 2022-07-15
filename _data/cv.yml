@@ -2,11 +2,23 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Phillip Hintikka Kieval
     - name: Date of Birth
-      value: 14th March 1879
+      value: 5 September 1994
     - name: Languages
-      value: English, German
+      value: English, Spanish
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Specialization
+      items: 
+        - Description 1.
+        - Description 2.
+    - title: Competence
+      items:
+        - Description 1.
+        - Description 2.
 
 - title: Education
   type: time_table
@@ -79,17 +91,7 @@
       items: 
         - Max Planck Medal
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+
 
 - title: Other Interests
   type: list

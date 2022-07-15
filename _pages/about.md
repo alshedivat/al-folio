@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_cicular: false # crops the image to make it circular
+  image_cicular: true # crops the image to make it circular
   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
@@ -18,8 +18,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+ I am a PhD student in the [Department of History and Philosophy of Science](https://www.hps.cam.ac.uk) at the University of Cambridge where I am generously funded by the [Gates Cambridge Scholarship](https://www.gatescambridge.org/biography/18408/)
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+ My research lies primarily at the intersection philosophy of artificial intelligence and empiricist philosophy of science. I am especially interested in the role of deep neural networks as scientific instruments, their utility as measurement tools (especially in cognitive neuroscience), the prospects of generating genuine scientific progress using machine learning, the role of Big Data in science, and how best to promote the egalitarian implementation of AI in society. I am also interested in machine learning's role in our epistemic systems, especially with respect to public discourse about science and politics. Tackling these issues leads me to confront fundamental questions concerning non-epistemic values in science, the epistemology of scientific practice, epistemic virtues, pluralism, and pragmatism. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+ My thinking is coloured by issues of normativity more generally, including the intersections of agency and value with belief, the constitution of truth, and the indelible connection between these concepts and our social norms and practices. My approach to these topics is especially informed by historical developments in the philosophy of science, American pragmatism, and feminist philosophy.
+
+ Before Cambridge I was a student at the University of Houston where I earned my BA and MA in Philosophy.
+
+ I share my life with my brilliant [wife](https://paulinaezquerra.github.io) and our cat Winston.
