@@ -9,7 +9,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    if: github.repository_owner == 'Upvision'
     steps:
     - name: Checkout
       uses: actions/checkout@v2
