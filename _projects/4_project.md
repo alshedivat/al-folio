@@ -1,80 +1,58 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: work in progress
+description: Click here for abstracts
+img: assets/img/7.jpg
 importance: 3
-category: fun
+category: papers
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Automating Exploration: Machine Learning, Understanding, and the Aims of Data-Driven Science (In Progress)
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<p>
+  <button class="btn " type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+ Abstract
+  </button>
+</p>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="collapse" id="collapse1">
+  <div class="card card-body">
+    In this paper, I draw a parallel between data-driven science and exploratory experiments which sheds light on the generative aims of data-intensive methodologies. Exploratory is thought to provide the conditions for the development of new scientific concepts. I then go on to bring attention to an under-theorized problem for the application of  machine learning (ML) algorithms in service of these aims. I call this problem semantic opacity. Semantic opacity occurs when the knowledge needed to translate the output of an ML system into scientific concepts depends on theoretical assumptions about the same domain of inquiry into which the model purports to grant insight. Semantic opacity is especially likely to occur in exploratory contexts, wherein experimentation is not strongly guided by extant theory. However, when exploratory methods are mediated by ML, we lack the interpretative tools needed to decide if the predictions of a model correspond to robust, scientific kinds rather than jerry-rigged ones tied to spurious correlations in Big Data. Furthermore, I argue that techniques in explainable AI (XAI) that aim to make these models more interpretable are not well suited to address semantic opacity. 
+
+  </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+  
+
+Artiface of Objectivity: why algorithms are necessarily value-laden (In Progress)  
+
+ <p> <button class="btn " type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+ Abstract
+  </button>
+</p>
+<div class="collapse" id="collapse2">
+  <div class="card card-body">
+    Algorithmic decision-making systems applied in social contexts drape value-laden solutions in an illusory veil of objectivity. I argue that these systems are necessarily value-laden and that this follows from the need to construct a quantifiable objective function. Many researchers have convincingly argued that machine learning systems learn to replicate and amplify pre-existing biases of moral import found in training data. But these arguments permit a strategic retreat for those who nevertheless maintain that algorithms themselves are value-neutral. Proponents of the value-neutrality of algorithms argue that while the existence of algorithmic bias is undeniable such bias is merely the product of bad data curation practices. On such a view, eliminating biased data would obliterate any values embedded in algorithmic decision-making. This position can be neatly summarized by the slogan “Algorithms aren’t biased, data is biased.” However, this attitude towards algorithms is misguided. Training machine learning algorithms involves optimization, which requires either minimizing an error function or maximizing an objective function by iteratively adjusting a model’s parameters. The objective function represents the quality of the solution found by the algorithm as a single real number. Training an algorithm thus aggregates countless indicators of predictive success into a single, automatically generated, weighted index. But deciding to operationalize a particular goal in this way is itself a value-laden choice. This is because many qualities we want to predict are qualitative concepts with multifaceted meanings. Such concepts like “health” or “job-applicant-quality” lack sharp boundaries and admit plural and context-dependent meanings. Collapsing concepts into a quantifiable ratio scale of predictive success flattens out their quality dimensions. This process is often underdetermined and arbitrary, but convenient for enterprises that rely on precise and unambiguous predictions. Hence, the very choice to use an algorithm in the first place reflects the values and priorities of particular stakeholders.
+
+  </div>
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+Getting Real About Neural Data Science (In Progress)
 
+<p>  <button class="btn " type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+ Abstract
+  </button>
+</p>
+<div class="collapse" id="collapse3">
+  <div class="card card-body">
+    Recent research seems to suggest that manifolds play an important role in neural computations. These manifolds are continuous, low-dimensional structures embedded in high-dimensional neural activity. Investigators purport to uncover these structures by using data-analytic techniques to reduce the dimensionality of patterns of neural activity and subsequently reveal the underlying dynamics that are functionally relevant to a specific task. However, the practice of uncovering low-dimensional structures with dimensionality reduction involves modeling choices that introduce a range of implicit assumptions which threaten to cloud our analysis. Yet, the theoretical importance of these modeling choices are rarely discusses by the modellers themselves. I argue that low-dimensional structures uncovered through data-analysis are akin to rational reconstructions of the underlying dimensionality on the basis of what is empirically accessible to us. These structures reflect only our analyses and are strictly speaking non-factive. However, we can evaluate competing analyses and adjudicate between cases of underdetermination by asking which analysis best reconstructs our best theoretical hypotheses concerning the neural task under investigation. This approach, however, demands a much more robust role for theoretical work concerning the nature and structure of neural computations. . 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+  </div>
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+
+
+
+
