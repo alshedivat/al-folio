@@ -151,6 +151,7 @@ blockquote {
 .dropdown-item {
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  border-radius: inherit;
     &:hover, &:focus {
       color: var(--global-hover-color);
       background-color: inherit;
