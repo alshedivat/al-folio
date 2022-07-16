@@ -26,8 +26,7 @@ toc:
   - name: Academic writing
   - name: Presentation
   - name: 中文总结
-  - name: Podcast
-  - name: Video Channels
+  - name: Video & Podcast
   - name: Resources
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -107,13 +106,10 @@ Other people's stories are counterfactual worlds for us.
 - [工作五年反思 - 李沐](https://zhuanlan.zhihu.com/p/374777591) 集中分享了工作之后经验和感悟，和读博期间还挺不一样的。
 - [YY 硕 博士第三年](https://zhuanlan.zhihu.com/p/357353090) 因为 YY 硕 是做 Robotic 的，所以有很多是这方面的，但是很重要的一点是，读博前强如 YY 硕，还是在第一二年感到痛苦，甚至有退学的情绪。
 
-## Video Channels
+## Video & Podcast
 
 - [我在纽约当教授 - TT YaYa YouTube Channels](https://www.youtube.com/channel/UCjWnhn8mmA3DEEHlniCEoXA/videos) 非常棒的一个视频频道，为数不多的生活向学术频道，学习到了超级多（包括怎么读博，美国 funding system，教职相关的经验等等）！ TT YaYa 和摄影师太有意思啦！强力推荐！！具体的一些 video 大家可以自己挖掘~
 - [Acsic People](https://www.youtube.com/channel/UC1PCPgKxjsK6P-po9DlBpQQ/videos) 干货浓度非常高！ [Two-body problem](https://youtu.be/gNkCcoJUJ-I), [What My Mentors Taught Me](https://youtu.be/lOOBJix9-Dw), [前车之鉴](https://youtu.be/KTcu33RghQs) 等等都非常精彩！
-
-## Podcast
-
 - [Theory and Practice](https://podcast.gv.com)
 - [李丁聊天室播客](https://www.lidingzeyu.com/podcast/)
 
