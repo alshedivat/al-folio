@@ -24,11 +24,44 @@ I personally think that vision-based tactile sensors are becoming popular due to
         {% include figure.html path="assets/img/0036.png" title="sample DIGIT image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gelsight.jpeg" title="sample GelSight image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gelsight 2.jpeg" title="sample GelSight image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Sample RGB image outputs from Digit (Left), GelSight( Right)
 </div>
+Here are the sample tactile information we can get from digit
+<h2>
+    Depth
+</h2>
+Estimating how much of a deformation happens on the gel when the object is pressed:
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/plot2.jpeg" title="depth heatmap" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/depth.gif" title="sample depth real-time" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Sample depth construction heatmap(Left) an grayscale depth map with contact area detection video (Right)
+</div>
+<h2>
+    Contact Area Estimation
+</h2>
+Using the depth information and applying thresholding techniques, PCA analysis, OpenCV ellipse fitting algorithms, we can estimate the orientation angle of the object being pressed on the sensor. This is especially useful when the robot needs to estimate the 2D pose of the object in grasp and use this feedback to manipulate the object pose.
+<h2>
+    Force direction tracking
+</h2>
+Adding black markers (dots) on top of the gel can help us track the direction of the forces, as well as their magnitude with some extra calibration.  
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/markers.gif" title="marker tracking" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   Markers on the gel surface provides information about the direction of different forces: normal, shear.
+</div>
 
+You can find detailed explanations and the code for all of tasks mentioned above at the following [repo](https://github.com/vocdex/digit-marker-tracking) I created.
