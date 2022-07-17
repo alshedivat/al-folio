@@ -5,7 +5,7 @@ permalink: /projects/
 description: A few of the projects I've been involved with
 nav: true
 nav_order: 1
-display_categories: [NLP,Robotics,Vision]
+display_categories: [NLP,Robotics,General,Vision]
 horizontal: false
 ---
 
