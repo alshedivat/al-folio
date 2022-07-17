@@ -66,7 +66,6 @@ Research is one of the most important things in the life of a PhD student.
   - "Set your filters on ‘important problems’", "Investigate failures / annoyances", "Use analogies", and "Challenge the status quo"
 - [Organizing and evaluating research ideas](https://medium.com/@marcotcr/organizing-and-evaluating-research-ideas-e137637b599e) by Marco Tulio Ribeiro
   - The Checklist/template for Organizing and Evaluating Research Ideas is very helpful!
-- [Researching](https://medium.com/@marcotcr/researching-e8f8f8f8f8f8) by Marco Tulio Ribeiro
 - [Finding and proposing a PhD dissertation](https://medium.com/great-research/finding-and-proposing-a-ph-d-dissertation-topic-6bca29253a0f) topic by Nick Feamster
 - [Claude Shannon’s “creative thinking” speech](https://web.archive.org/web/20190421034536/https://medium.com/the-mission/a-genius-explains-how-to-be-creative-claude-shannons-long-lost-1952-speech-fbbcb2ebe07f) by Jimmy Soni
 
