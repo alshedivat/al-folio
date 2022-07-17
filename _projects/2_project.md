@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 2
+title: Text Summarizer
 description: Text Summarizer with Flask, HuggingFace pipeline
 img: assets/img/text-summarizer-logo.jpeg
 importance: 2
@@ -12,7 +12,7 @@ Distilled BART is a distilled version of BART that keeps up 97% of BART performa
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://github.com/vocdex/text-summarizer/blob/0a15e0d03c4d6bd03bc1f800149c35afec04a563/text-summarizer.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/text-summarizer.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
