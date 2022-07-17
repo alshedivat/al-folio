@@ -61,6 +61,12 @@ Research is one of the most important things in the life of a PhD student.
   - "The more comfortable we become with being stupid, the deeper we will wade into the unknown and the more likely we are to make big discoveries."
 - [How to choose a good scientific problem](https://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/nurturing/howtochoosegoodproblem.pdf) by Uri Alon.
   - We should keep _The Feasibility-Interest Diagram for Choosing a Project_ and _The Schema of Research_ in mind
+- [Coming up with research ideas](https://medium.com/@marcotcr/coming-up-with-research-ideas-3032682e5852) by Marco Tulio Ribeiro
+  - "Precondition: expand your adjacent possible"
+  - "Set your filters on ‘important problems’", "Investigate failures / annoyances", "Use analogies", and "Challenge the status quo"
+- [Organizing and evaluating research ideas](https://medium.com/@marcotcr/organizing-and-evaluating-research-ideas-e137637b599e) by Marco Tulio Ribeiro
+  - The Checklist/template for Organizing and Evaluating Research Ideas is very helpful!
+- [Researching](https://medium.com/@marcotcr/researching-e8f8f8f8f8f8) by Marco Tulio Ribeiro
 - [Finding and proposing a PhD dissertation](https://medium.com/great-research/finding-and-proposing-a-ph-d-dissertation-topic-6bca29253a0f) topic by Nick Feamster
 - [Claude Shannon’s “creative thinking” speech](https://web.archive.org/web/20190421034536/https://medium.com/the-mission/a-genius-explains-how-to-be-creative-claude-shannons-long-lost-1952-speech-fbbcb2ebe07f) by Jimmy Soni
 
@@ -115,7 +121,7 @@ Other people's stories are counterfactual worlds for us.
 
 ## Resources
 
-- [The Tao of PhD at UW](https://courses.cs.washington.edu/courses/cse590x/22wi/). Most of the above articles is from this seminar. Thanks a lot, Anna Karlin, Mike Ernst and Pratyush Patel!
+- [The Tao of PhD at UW](https://courses.cs.washington.edu/courses/cse590x/22wi/). Most of the above articles are from this seminar. Thanks a lot, Anna Karlin, Mike Ernst and Pratyush Patel!
 - ["Graduate school", "Productivity", "Writing", and "Giving presentations"](https://matt.might.net/articles/) by Matthew Might
 - [Advice for research students](https://www.cs.cmu.edu/~jasonh/advice.html) by Jason Eisner
 - [Dave’s advice collection](https://www.cs.virginia.edu/~evans/advice/) by David Evans
