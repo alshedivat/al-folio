@@ -2,7 +2,7 @@
 layout: page
 title: project 2
 description: Text Summarizer with Flask, HuggingFace pipeline
-img: assets/img/3.jpg
+img: assets/img/text-summarizer-logo.jpeg
 importance: 2
 category: NLP
 ---
