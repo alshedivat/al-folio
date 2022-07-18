@@ -2,10 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Syanah C. Wynn, PhD # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Syanah
 middle_name: C.
 last_name: Wynn
+degree: PhD
+pronouns: she/her
 email: s.wynn@bham.ac.uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Website of Syanah Wynn
