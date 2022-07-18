@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Rice Univeristy</a>. bill.qian at rice.edu
+subtitle: <a href='www.rice.edu'>Rice Univeristy</a>. bill.qian at rice.edu
 
 profile:
   align: right
