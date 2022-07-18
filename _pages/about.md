@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.rice.edu'>Rice Univeristy</a>. bill.qian at rice.edu
+subtitle: <a href='https://www.rice.edu'>Rice University</a> 
 
 profile:
   align: right
@@ -17,7 +17,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi, I am a student majoring in computer science at Rice University. Currently, I am researching on facilitating effective human-AI collaboration with [Liubove Orlov Savko](https://www.linkedin.com/in/lorlov/) under Dr. [Vaibhav Unhelkar](https://unhelkar.github.io)'s supervision.
+Hi, I am a student at Rice University majoring in computer science. Currently, I am researching on facilitating effective human-AI collaboration with [Liubove Orlov Savko](https://www.linkedin.com/in/lorlov/) under Dr. [Vaibhav Unhelkar](https://unhelkar.github.io)'s supervision.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
