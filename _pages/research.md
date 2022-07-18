@@ -8,11 +8,28 @@ nav: true
 nav_order: 3
 ---
 <!-- _pages/publications.md -->
+<h2>Publications</h2>
 <div class="publications">
-
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
-
 </div>
+<hr>
+
+<!-- Working Papers
+<div class="publications">
+{%- for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f working_papers -q @*[year={{y}}]* %}
+{% endfor %}
+</div>
+<hr>
+
+Works in Progress
+<div class="publications">
+{%- for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f works_in_progress -q @*[year={{y}}]* %}
+{% endfor %}
+</div> -->

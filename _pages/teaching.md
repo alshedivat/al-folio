@@ -13,7 +13,7 @@ nav_order: 4
   * Introduction to Algorithms <a href="/assets/pdf/teaching/Design and Analysis of Algorithms 32341402.pdf">View Syllabus</a>
   * Advanced Data Structures and Algorithms <a href="/assets/pdf/teaching/Advanced Algorithms.pdf">View Syllabus</a>
   * Linear Algebra <a href="/assets/pdf/teaching/Linear Algebra.pdf">View Syllabus</a>
-  * R Programming for Data Science <a href="/assets/pdf/teaching/R programming for Data Science.pdf">View Syllabus</a>
+  * Introduction to Data Science <a href="/assets/pdf/teaching/Data Science.pdf">View Syllabus</a>
   * Data Mining <a href="/assets/pdf/teaching/Data Mining.pdf">View Syllabus</a>
   * Computer System Architecture <a href="/assets/pdf/teaching/CSA(H).pdf">View Syllabus</a>
 
