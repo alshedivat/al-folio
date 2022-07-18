@@ -8,8 +8,7 @@ profile:
   align: right
   image: my_pic.jpg
   address: >
-    <p>540 Thompson Street</p>
-    <p>Ann Arbor, MI 48104</p>
+    <p>Ann Arbor, MI</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
