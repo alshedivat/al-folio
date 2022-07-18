@@ -99,7 +99,11 @@ blockquote {
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-family: "Roboto",sans-serif; /* changed by Gabriel, original: monospace */
+    /* added by Gabriel */
+    font-size: 0.875rem;
+    text-align: center;
+    /* end */
     p {
       display: inline-block;
       margin: 0;
