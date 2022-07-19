@@ -7,8 +7,8 @@ dropdown: true
 children: 
     - title: publications
       permalink: /publications/
-    - title: teaching
-      permalink: /teaching/
+    - title: services
+      permalink: /services/
     # - title: projects
     #   permalink: /projects/
 ---
