@@ -2,20 +2,19 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.cs.ucsb.edu'>Department of Computer Science, University of California, Santa Barbara</a>.
 
 profile:
-  align: center
-  image: prof_pic.jpg
-  image_cicular: true # crops the image to make it circular
+  align: right
+  image: Saikumar_Yadugiri.jpg
+  image_cicular: false # crops the image to make it circular
   address: >
-    <p>Harold Frank Hall, Building 556</p>
-    <p>University of California, Santa Barbara,</p>
-    <p>Santa Barbara, California 93106</p>
+    <p>Name in Telugu:</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+telugu_name: true # Native language name
 social: true  # includes social icons at the bottom of the page
+news: true  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 ---
 
 Hello There! I am Saikumar Yadugiri. You can call me Sai.

@@ -105,6 +105,11 @@ blockquote {
       margin: 0;
     }
   }
+  .native_string {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: 'Noto Serif Telugu', serif;
+  }
 }
 
 @media (min-width: 576px) {
@@ -165,6 +170,9 @@ blockquote {
   }
   .navbar-brand {
     color: var(--global-text-color);
+    .glitch_string {
+        font-family: 'Rubik Glitch', cursive;
+	}
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
@@ -296,11 +304,11 @@ footer.sticky-bottom {
 
 .cv {
   margin-bottom: 40px;
-  
+
   .card {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
-    
+
     .list-group-item {
       background-color: inherit;
 
