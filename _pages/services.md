@@ -1,9 +1,11 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
+permalink: /service/
+title: services
 nav: true
 ---
+
+## teaching
 
 - [TA] **Introduction to Machine Learning**, Fall 2020, UC Berkeley
 - [Lab TA] **Contemporary Logic Design**, Fall 2016, Princeton University
@@ -13,6 +15,8 @@ nav: true
 
 ## student mentees/collaborators
 
+I am very fortunate to have mentored and worked with lots of brilliant students!
+
 ### master's students
 
 - [Arvind Sridhar](https://www.arvindpsridhar.com/)
@@ -21,11 +25,13 @@ nav: true
 
 ### undergraduate students
 
+- [Kornrapat Pongmala](https://th.linkedin.com/in/kornrapat-pongmala-a734451a3)
 - [Nabeel Hingun](https://nabeelhingun.com/)
 - [Chendi Wu](https://www.linkedin.com/in/chendi-wu-66632693/)
 - [Ken Guan](https://www.linkedin.com/in/ruihan-guan/)
 - [Angelyna Ye](https://www.linkedin.com/in/yilin-angelyna-ye/)
 
-## services
+## academic services
 
-- ICML 2022 Reviewer
+- Reviewer: ICML 2022 (Outstanding Reviewer), NeurIPS 2022
+- Program Committee: AISec 2022
