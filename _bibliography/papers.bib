@@ -1,82 +1,142 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+
+@InProceedings{pmlr-v80-hartford18a,
+  title = 	 {Deep Models of Interactions Across Sets},
+  author =       {Hartford, Jason and Graham, Devon and Leyton-Brown, Kevin and Ravanbakhsh, Siamak},
+  booktitle = 	 {Proceedings of the 35th International Conference on Machine Learning},
+  pages = 	 {1909--1918},
+  year = 	 {2018},
+  editor = 	 {Dy, Jennifer and Krause, Andreas},
+  volume = 	 {80},
+  bibtex_show = {True},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {10--15 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v80/hartford18a/hartford18a.pdf},
+  url = 	 {https://proceedings.mlr.press/v80/hartford18a.html},
+  abstract = 	 {We use deep learning to model interactions across two or more sets of objects, such as user{–}movie ratings or protein{–}drug bindings. The canonical representation of such interactions is a matrix (or tensor) with an exchangeability property: the encoding’s meaning is not changed by permuting rows or columns. We argue that models should hence be Permutation Equivariant (PE): constrained to make the same predictions across such permutations. We present a parameter-sharing scheme and prove that it is maximally expressive under the PE constraint. This scheme yields three benefits. First, we demonstrate performance competitive with the state of the art on multiple matrix completion benchmarks. Second, our models require a number of parameters independent of the numbers of objects and thus scale well to large datasets. Third, models can be queried about new objects that were not available at training time, but for which interactions have since been observed. We observed surprisingly good generalization performance on this matrix extrapolation task, both within domains (e.g., new users and new movies drawn from the same distribution used for training) and even across domains (e.g., predicting music ratings after training on movie ratings).}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{NEURIPS2020_993edc98,
+ author = {Hartford, Jason and Leyton-Brown, Kevin and Raviv, Hadas and Padnos, Dan and Lev, Shahar and Lenz, Barak},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},
+ pages = {13163--13173},
+ bibtex_show = {True},
+ publisher = {Curran Associates, Inc.},
+ title = {Exemplar Guided Active Learning},
+ url = {https://proceedings.neurips.cc/paper/2020/file/993edc98ca87f7e08494eec37fa836f7-Paper.pdf},
+ volume = {33},
+ year = {2020}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@misc{https://doi.org/10.48550/arxiv.2206.01101,
+  doi = {10.48550/ARXIV.2206.01101},
+  bibtex_show = {True},
+  url = {https://arxiv.org/abs/2206.01101},
+  selected={true},
+  author = {Ahuja, Kartik and Hartford, Jason and Bengio, Yoshua},
+  
+  keywords = {Machine Learning (cs.LG), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Weakly Supervised Representation Learning with Sparse Perturbations},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+ @phdthesis{Hartford_2021,
+ bibtex_show = {True}, 
+ series={Electronic Theses and Dissertations (ETDs) 2008+}, title={Architectures and learning algorithms for data-driven decision making}, url={https://open.library.ubc.ca/collections/ubctheses/24/items/1.0397441}, DOI={http://dx.doi.org/10.14288/1.0397441}, school={University of British Columbia}, author={Hartford, Jason Siyanda}, year={2021}, collection={Electronic Theses and Dissertations (ETDs) 2008+}}
+
+
+@article{Cameron_Hartford_Lundy_Leyton-Brown_2022,
+bibtex_show = {True}, title={The Perils of Learning Before Optimizing}, volume={36}, url={https://ojs.aaai.org/index.php/AAAI/article/view/20284}, DOI={10.1609/aaai.v36i4.20284}, abstractNote={Formulating real-world optimization problems often begins with making predictions from historical data (e.g., an optimizer that aims to recommend fast routes relies upon travel-time predictions). Typically, learning the prediction model used to generate the optimization problem and solving that problem are performed in two separate stages. Recent work has showed how such prediction models can be learned end-to-end by differentiating through the optimization task. Such methods often yield empirical improvements, which are typically attributed to end-to-end making better error tradeoffs than the standard loss function used in a two-stage solution. We refine this explanation and more precisely characterize when end-to-end can improve performance. When prediction targets are stochastic, a two-stage solution must make an a priori choice about which statistics of the target distribution to model---we consider expectations over prediction targets---while an end-to-end solution can make this choice adaptively. We show that the performance gap between a two-stage and end-to-end approach is closely related to the \emph{price of correlation} concept in stochastic optimization and show the implications of some existing POC results for the predict-then-optimize problem. We then consider a novel and particularly practical setting, where multiple prediction targets are combined to obtain each of the objective function’s coefficients. We give explicit constructions where (1) two-stage performs unboundedly worse than end-to-end; and (2) two-stage is optimal. We use simulations to experimentally quantify performance gaps and identify a wide range of real-world applications from the literature whose objective functions rely on multiple prediction targets, suggesting that end-to-end learning could yield significant improvements.}, number={4}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Cameron, Chris and Hartford, Jason and Lundy, Taylor and Leyton-Brown, Kevin}, year={2022}, month={Jun.}, pages={3708-3715} }
+
+@inproceedings{
+layne2022leveraging,
+bibtex_show = {True},
+title={Leveraging Structure Between Environments: Phylogenetic Regularization Incentivizes Disentangled Representations},
+author={Elliot Layne and Dhanya Sridhar and Jason Hartford and Mathieu Blanchette},
+booktitle={UAI 2022 Workshop on Causal Representation Learning},
+year={2022},
+url={https://openreview.net/forum?id=ilGixSIzaa6}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{
+ahuja2022properties,
+bibtex_show = {True},
+selected={true},
+title={Properties from mechanisms: an equivariance perspective on identifiable representation learning},
+author={Kartik Ahuja and Jason Hartford and Yoshua Bengio},
+booktitle={International Conference on Learning Representations},
+year={2022},
+url={https://openreview.net/forum?id=g5ynW-jMq4M}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+
+@inproceedings{NIPS2016_7eb3c8be,
+	author = {Hartford, Jason and Wright, James R and Leyton-Brown, Kevin},
+  bibtex_show = {True},
+	booktitle = {Advances in Neural Information Processing Systems},
+	editor = {D. Lee and M. Sugiyama and U. Luxburg and I. Guyon and R. Garnett},
+	publisher = {Curran Associates, Inc.},
+	title = {Deep Learning for Predicting Human Strategic Behavior},
+	url = {https://proceedings.neurips.cc/paper/2016/file/7eb3c8be3d411e8ebfab08eba5f49632-Paper.pdf},
+	volume = {29},
+	year = {2016},
+	bdsk-url-1 = {https://proceedings.neurips.cc/paper/2016/file/7eb3c8be3d411e8ebfab08eba5f49632-Paper.pdf}}
+
+
+@InProceedings{pmlr-v139-hartford21a,
+  title = 	 {Valid Causal Inference with (Some) Invalid Instruments},
+  author =       {Hartford, Jason and Veitch, Victor and Sridhar, Dhanya and Leyton-Brown, Kevin},
+  booktitle = 	 {Proceedings of the 38th International Conference on Machine Learning},
+  pages = 	 {4096--4106},
+  year = 	 {2021},
+  bibtex_show = {True},
+  selected={true},
+  editor = 	 {Meila, Marina and Zhang, Tong},
+  volume = 	 {139},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {18--24 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v139/hartford21a/hartford21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v139/hartford21a.html},
+  abstract = 	 {Instrumental variable methods provide a powerful approach to estimating causal effects in the presence of unobserved confounding. But a key challenge when applying them is the reliance on untestable "exclusion" assumptions that rule out any relationship between the instrument variable and the response that is not mediated by the treatment. In this paper, we show how to perform consistent IV estimation despite violations of the exclusion assumption. In particular, we show that when one has multiple candidate instruments, only a majority of these candidates—or, more generally, the modal candidate-response relationship—needs to be valid to estimate the causal effect. Our approach uses an estimate of the modal prediction from an ensemble of instrumental variable estimators. The technique is simple to apply and is "black-box" in the sense that it may be used with any instrumental variable estimator as long as the treatment effect is identified for each valid instrument independently. As such, it is compatible with recent machine-learning based estimators that allow for the estimation of conditional average treatment effects (CATE) on complex, high dimensional data. Experimentally, we achieve accurate estimates of conditional average treatment effects using an ensemble of deep network-based estimators, including on a challenging simulated Mendelian Randomization problem.}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@InProceedings{pmlr-v70-hartford17a,
+  title = 	 {Deep {IV}: A Flexible Approach for Counterfactual Prediction},
+  author =       {Jason Hartford and Greg Lewis and Kevin Leyton-Brown and Matt Taddy},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {1414--1423},
+  year = 	 {2017},
+  selected={true},
+  editor = 	 {Precup, Doina and Teh, Yee Whye},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--11 Aug},
+  publisher =    {PMLR},
+  bibtex_show = {True},
+  pdf = 	 {http://proceedings.mlr.press/v70/hartford17a/hartford17a.pdf},
+  url = 	 {https://proceedings.mlr.press/v70/hartford17a.html},
+  abstract = 	 {Counterfactual prediction requires understanding causal relationships between so-called treatment and outcome variables. This paper provides a recipe for augmenting deep learning methods to accurately characterize such relationships in the presence of instrument variables (IVs) – sources of treatment randomization that are conditionally independent from the outcomes. Our IV specification resolves into two prediction tasks that can be solved with deep neural nets: a first-stage network for treatment prediction and a second-stage network whose loss function involves integration over the conditional treatment distribution. This Deep IV framework allows us to take advantage of off-the-shelf supervised learning techniques to estimate causal effects by adapting the loss function. Experiments show that it outperforms existing machine learning approaches.}
 }
+
+
+
+@article{Cameron_Chen_Hartford_Leyton-Brown_2020, 
+title={Predicting Propositional Satisfiability via End-to-End Learning}, 
+volume={34}, 
+bibtex_show = {True},
+url={https://ojs.aaai.org/index.php/AAAI/article/view/5733}, 
+DOI={10.1609/aaai.v34i04.5733}, 
+abstractNote={&lt;p&gt;Strangely enough, it is possible to use machine learning models to predict the satisfiability status of hard SAT problems with accuracy considerably higher than random guessing. Existing methods have relied on extensive, manual feature engineering and computationally complex features (e.g., based on linear programming relaxations). We show for the first time that even better performance can be achieved by end-to-end learning methods — i.e., models that map directly from raw problem inputs to predictions and take only linear time to evaluate. Our work leverages deep network models which capture a key invariance exhibited by SAT problems: satisfiability status is unaffected by reordering variables and clauses. We showed that end-to-end learning with deep networks can outperform previous work on random 3-SAT problems at the solubility phase transition, where: (1) exactly 50% of problems are satisfiable; and (2) empirical runtimes of known solution methods scale exponentially with problem size (e.g., we achieved 84% prediction accuracy on 600-variable problems, which take hours to solve with state-of-the-art methods). We also showed that deep networks can generalize across problem sizes (e.g., a network trained only on 100-variable problems, which typically take about 10 ms to solve, achieved 81% accuracy on 600-variable problems).&lt;/p&gt;}, number={04}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Cameron, Chris and Chen, Rex and Hartford, Jason and Leyton-Brown, Kevin}, year={2020}, month={Apr.}, pages={3324-3331} }
