@@ -6,8 +6,8 @@ subtitle: MS student in CS at UC Santa Barbara<br /><a href="https://santabarbar
 
 profile:
   align: right
-  image: Saikumar_Yadugiri.jpg
-  image_cicular: false # crops the image to make it circular
+  image: Saikumar_Yadugiri.jpeg
+  image_cicular: true # crops the image to make it circular
   address: >
     <p>Name in Telugu:</p>
 
@@ -28,7 +28,7 @@ I am broadly interested in the theoretical aspects of classical and (post-)quant
 I completed my Bachelors of Technology in [Electrical Engineering](https://www.ee.iitm.ac.in) from Indian Institute of Technology, Madras(IIT Madras).
 I have been immensely fortunate to be advised by [Prof. Shweta Agrawal](http://www.cse.iitm.ac.in/~shwetaag/) for my Bachelor's thesis on the recognizing and applying blockchain-based solutions to various every day scenarios. This was part of the preliminary phase 1 of [National Blockchain Project](https://blockchain.cse.iitk.ac.in).
 
-I was also gainfully employed at Oracle R&D India, in Bengaluru, India as a software development engineer working on Oracle Cloud Database solutions.
+I was also gainfully employed at Oracle R&D in Bengaluru, India as a software development engineer working on Oracle Cloud Database solutions.
 I lead the cloud database patching and exadata cloud grid patching and upgrade infrastructure along with various other parts in Cloud@Customer offerings.
 
 This site is a :warning::construction: work in progress :warning::construction:.
