@@ -1,8 +1,8 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Hampu Malmberg
+    - name: Name
+      value: Hampus Malmberg
     - name: Date of Birth
       value: 21st July 1988
     - name: Languages
@@ -22,7 +22,7 @@
       year: 2020
       description:
         - "Doctoral thesis: <a href='https://doi.org/10.3929/ethz-b-000469192'>Control-Bounded Converters</a>"
-    - title: Master of Science in Electrical Engineering & Information Technology,
+    - title: Master of Science in Electrical Engineering & Information Technology
       institution: Eidgenössische Technische Hochschule (ETH) Zürich, Switzerland
       year: 2014
       description:
