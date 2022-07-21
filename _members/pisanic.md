@@ -11,7 +11,7 @@ lastname: Pisanic
 publications: 'author^=*Pisanic'
 
 teaser: >
-   Thomas Pisanic is an Associate Research Professor at the Johns Hopkins Institute for NanoBioTechnology and BTC Scientist for the Break Through Cancer foundation. His research focuses on the development of molecular analysis methods that leverage advanced microfluidic technologies, as well as bespoke bioinformatic tools to elucidate the epigenetics of carcinogenesis and to translate this knowledge into new approaches for cancer diagnostics.
+   Thomas Pisanic is an Associate Research Professor at the Johns Hopkins Institute for NanoBioTechnology and BTC Scientist for the Break <i>Through</i> Cancer foundation. His research focuses on the development of molecular analysis methods that leverage advanced microfluidic technologies, as well as bespoke bioinformatic tools to elucidate the epigenetics of carcinogenesis and to translate this knowledge into new approaches for cancer diagnostics.
 
 
 profile:
