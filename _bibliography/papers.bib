@@ -320,3 +320,19 @@
   bibtex_show = {True}
 }
 
+@misc{copik2022fmi,
+  author = {Copik, Marcin and Böhringer, Roman and Calotoiu, Alexandru and Hoefler, Torsten},
+  title = {FMI: Fast and Cheap Message Passing for Serverless Functions},
+  abstract = {Serverless functions provide elastic scaling with a fine-grained billing model. However, for distributed jobs that benefit from large-scale and dynamic parallelism, the lack of fast and cheap communication is a major limitation of FaaS computing. Individual functions do not communicate directly and group operations do not exist, and users resort to manual implementations of storage-based communication. We overcome this limitation and present the FaaS Message Interface (FMI). FMI is an easy-to-use, high-performance framework for general-purpose point-to-point and collective communication. We support different communication channels and offer a model-driven channel selection according to performance and cost expectations. We model the interface after MPI and show message passing can be integrated into serverless applications with minor changes. In our experiments, FMI can speed up communication for a distributed machine learning job by up to 162x while at the same time reducing cost by up to 941 times.},
+  year = {2022},
+  code={https://github.com/spcl/fmi/},
+  bibtex_show = {True}
+}
+
+@misc{copik2022disagg,
+  author = {Copik, Marcin and Chrapek, Marcin and Calotoiu, Alexandru and Hoefler, Torsten},
+  title = {Software Resource Disaggregation for HPC with Serverless Computing},
+  abstract = {The aggregated HPC resources with rigid allocation systems and programming models struggle to adapt to diverse and changing workloads. Thus, HPC systems fail to efficiently use the large pools of unused memory and increase the utilization of idle computing resources. Prior work attempted to increase the throughput and efficiency of supercomputing systems through workload co-location and resource disaggregation. However, these methods fall short of providing a solution that can be applied to existing systems without major hardware modifications and performance losses. In this paper, we use the new cloud paradigm of serverless computing to improve the utilization of supercom- puters. We show that the FaaS programming model satisfies the requirements of high-performance applications and how idle memory helps resolve cold startup issues. We demonstrate a software resource disaggregation approach where the co-location of functions allows to utilize idle cores and accelerators while retaining near-native performance.},
+  year = {2022},
+  bibtex_show = {True}
+}

@@ -17,7 +17,7 @@ functions must use cloud storage, resulting in cost and performance overheads.
 
 <div style="vertical-align:middle; text-align:center">
   <a href="/assets/img/fmi/overview.png">
-    <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/fmi/overview.png' | relative_url }}" alt="" title="ZooKeeper system model."/>
+    <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/fmi/overview.png' | relative_url }}" alt="" title="Overview of the FMI system."/>
   </a>
 </div>
 <div class="caption">
