@@ -64,6 +64,11 @@
       year: May 2016 - Jul 2016
       description:
 
+- title: Publications
+  type: list
+  contents:
+    - For a detailed list, check <a href="/publications">publications</a>
+
 - title: Projects
   type: list
   contents:
