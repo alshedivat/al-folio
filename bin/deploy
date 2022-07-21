@@ -1,17 +1,11 @@
-#!/usr/bin/env bash
-
+#!/usr/bin/env bash 
 # Run this script to deploy the app to Github Pages
-
 # Parse cmd arguments
-
 SRC_BRANCH="master"
 DEPLOY_BRANCH="gh-pages"
-
 USAGE_MSG="usage: deploy [-h|--help] [-u|--user] [-s|--src SRC_BRANCH] [-d|--deploy DEPLOY_BRANCH] [--verbose] [--no-push]"
-
 while [[ $# > 0 ]]; do
     key="$1"
-
     case $key in
         -h|--help)
         echo $USAGE_MSG
