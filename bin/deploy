@@ -53,9 +53,9 @@ then
 fi
 
 # Check if there are any uncommitted changes
-if ! git diff-index HEAD --; then
+if ! git diff HEAD --; then
     echo "Changes to the following files are uncommitted:"
-    git diff-index --name-only HEAD --
+    git diff --name-only HEAD --
     echo "Please commit the changes before proceeding."
     echo "Aborting."
     [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
