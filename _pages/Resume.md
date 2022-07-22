@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: _site/assets/pdf/resume.pdf
+permalink: assets/pdf/resume.pdf
 title: Resume
 description: 
 nav: true
