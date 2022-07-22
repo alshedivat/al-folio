@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Run this script to deploy the app to Github Pages
 # Parse cmd arguments
+#not commit first
 SRC_BRANCH="master"
 DEPLOY_BRANCH="gh-pages"
 USAGE_MSG="usage: deploy [-h|--help] [-u|--user] [-s|--src SRC_BRANCH] [-d|--deploy DEPLOY_BRANCH] [--verbose] [--no-push]"
@@ -62,7 +63,7 @@ fi
 # fi
 
 # Check if there are any untracked files
-if ! test -z "$(git ls-files --exclude-standard --others)"; then
+if ! test -z "$(git ls-files --exclude-standard --others)"; then #problem
     echo "There are untracked files:"
     git ls-files --exclude-standard --others
     echo "Please commit those files or stash them before proceeding."
@@ -71,19 +72,19 @@ if ! test -z "$(git ls-files --exclude-standard --others)"; then
 fi
 
 # Switch to source branch (creates it if necessary from the current branch)
-if [ `git branch | grep $SRC_BRANCH | tr ' ' '\n' | tail -1` ]
+if [ `git branch | grep $SRC_BRANCH | tr ' ' '\n' | tail -1` ] #problem
 then
     git checkout $SRC_BRANCH
 else
-    git checkout -b $SRC_BRANCH
+    git checkout -b $SRC_BRANCH #problem
 fi
 
 # Checkout DEPLOY_BRANCH branch
-if [ `git branch | grep $DEPLOY_BRANCH` ]
+if [ `git branch | grep $DEPLOY_BRANCH` ] #problem
 then
   git branch -D $DEPLOY_BRANCH
 fi
-git checkout -b $DEPLOY_BRANCH
+git checkout -b $DEPLOY_BRANCH #problem
 
 # Export JEKYLL_ENV=production
 export JEKYLL_ENV=production
