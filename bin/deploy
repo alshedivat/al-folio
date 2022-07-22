@@ -52,14 +52,14 @@ then
     [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
 fi
 
-# Check if there are any uncommitted changes
-if ! git diff HEAD --; then
-    echo "Changes to the following files are uncommitted:"
-    git diff --name-only HEAD --
-    echo "Please commit the changes before proceeding."
-    echo "Aborting."
-    [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
-fi
+# # Check if there are any uncommitted changes
+# if ! git diff HEAD --; then
+#     echo "Changes to the following files are uncommitted:"
+#     git diff --name-only HEAD --
+#     echo "Please commit the changes before proceeding."
+#     echo "Aborting."
+#     [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
+# fi
 
 # Check if there are any untracked files
 if ! test -z "$(git ls-files --exclude-standard --others)"; then
