@@ -1,311 +1,227 @@
-# -----------------------------------------------------------------------------
-# Site settings
-# -----------------------------------------------------------------------------
-
-title: Yavuz Alp Sencer ÖZTÜRK # the website title (if blank, full name will be used instead)
+---
+title: Yavuz Alp Sencer ÖZTÜRK
+timezone: UTC
+collections:
+  news:
+    title: News
+    output: true
+    permalink: "/news/:path/"
+    defaults:
+      layout: post
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: true
+    permalink: "/projects/:path/"
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: assets/**/*.*
+  values:
+    sitemap: false
 first_name: Yavuz Alp Sencer
 middle_name: 
 last_name: ÖZTÜRK
 email: alpsencerzozturk@gmail.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Curious, Computer science enthusiast, Inventor, Explorer, Designer, Illusionist 
-footer_text: > # Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: alpsencer, yavuz alp sencer ozturk, bio # add your own keywords or leave empty
-
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 👨‍💻  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-
-url: https://alpsencer.com # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/
-last_updated: true # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-
-# -----------------------------------------------------------------------------
-# RSS Feed
-# -----------------------------------------------------------------------------
-# will use title and url fields
-# Take a look to https://github.com/jekyll/jekyll-feed for more customization
-
+description: "Curious, Computer science enthusiast, Inventor, Explorer, Designer,
+  Illusionist \n"
+footer_text: ''
+keywords: alpsencer, yavuz alp sencer ozturk, bio
+lang: en
+icon: "\U0001F468‍\U0001F4BB"
+url: https://alpsencer.com
+baseurl: 
+last_updated: true
+impressum_path: 
 rss_icon: true
-
-# -----------------------------------------------------------------------------
-# Layout
-# -----------------------------------------------------------------------------
-
 navbar_fixed: true
 footer_fixed: true
-
-# Dimensions
 max_width: 800px
+serve_og_meta: false
+serve_schema_org: false
+og_image: 
+github_username: alpsencer
+gitlab_username: 
+twitter_username: alpsencerozturk
+linkedin_username: yavuzalpsencerozturk
+scholar_userid: 
+orcid_id: 
+medium_username: 
+quora_username: 
+publons_id: 
+research_gate_profile: 
+blogger_url: 
+work_url: 
+keybase_username: 
+wikidata_id: 
+dblp_url: 
+stackoverflow_id: 
+contact_note: 'You can even add a little note about which of these is the best way
+  to reach you.
 
-# TODO: add layout settings (single page vs. multi-page)
-
-# -----------------------------------------------------------------------------
-# Open Graph & Schema.org
-# -----------------------------------------------------------------------------
-# Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
-
-# -----------------------------------------------------------------------------
-# Social integration
-# -----------------------------------------------------------------------------
-
-github_username: alpsencer # your GitHub user name
-gitlab_username: # your GitLab user name
-twitter_username: alpsencerozturk # your Twitter handle
-linkedin_username: yavuzalpsencerozturk # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
-blogger_url: # your blogger URL
-work_url: # work page URL
-keybase_username: # your keybase user name
-wikidata_id: # your wikidata id
-dblp_url: # your DBLP profile url
-stackoverflow_id: #your stackoverflow id
-
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-
-google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
-google_site_verification:  # your google-site-verification ID (Google Search Console)
-bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
-panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
-
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-
-blog_name: Yavuz Alp Sencer OZTURK # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+'
+google_analytics: 
+google_site_verification: 
+bing_site_verification: 
+panelbear_analytics: 
+blog_name: Yavuz Alp Sencer OZTURK
+blog_nav_title: blog
 blog_description: Projects and life
-permalink: /blog/:year/:title/
-
-# Pagination
+permalink: "/blog/:year/:title/"
 pagination:
   enabled: true
-
-# Comments
-disqus_shortname: al-folio # put your disqus shortname
-# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-
-# External sources.
-# If you have blog posts published on medium.com or other exteranl sources,
-# you can display them in your blog by adding a link to the RSS feed.
+disqus_shortname: al-folio
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@alpsencer/feed
-
-
-# -----------------------------------------------------------------------------
-# Collections
-# -----------------------------------------------------------------------------
-
-collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
-
+- name: medium.com
+  rss_url: https://medium.com/@alpsencer/feed
 news_limit: 5
-
-# -----------------------------------------------------------------------------
-# Jekyll settings
-# -----------------------------------------------------------------------------
-
-# Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
-highlight_theme_light: github  # https://github.com/jwarby/jekyll-pygments-themes
-highlight_theme_dark: native  # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_light: github
+highlight_theme_dark: native
 kramdown:
   input: GFM
   syntax_highlighter_opts:
-    css_class: 'highlight'
+    css_class: highlight
     span:
       line_numbers: false
     block:
       line_numbers: false
       start_line: 1
-
-# Includes & excludes
-include: ['_pages']
+include:
+- _pages
 exclude:
-  - bin
-  - Gemfile
-  - Gemfile.lock
-  - vendor
+- bin
+- Gemfile
+- Gemfile.lock
+- vendor
 keep_files:
-  - CNAME
-  - .nojekyll
-  - .git
-
-# Plug-ins
+- CNAME
+- ".nojekyll"
+- ".git"
 plugins:
-  - jekyll-archives
-  - jekyll-diagrams
-  - jekyll-email-protect
-  - jekyll-feed
-  - jekyll-imagemagick
-  - jekyll-minifier
-  - jekyll-paginate-v2
-  - jekyll/scholar
-  - jekyll-sitemap
-  - jekyll-target-blank
-  - jekyll-twitter-plugin
-  - jemoji
-
-# Sitemap settings
-defaults:
-  - scope:
-      path: "assets/**/*.*"
-    values:
-      sitemap: false
-
-# -----------------------------------------------------------------------------
-# Jekyll Minifier
-# -----------------------------------------------------------------------------
-
+- jekyll-archives
+- jekyll-diagrams
+- jekyll-email-protect
+- jekyll-feed
+- jekyll-imagemagick
+- jekyll-minifier
+- jekyll-paginate-v2
+- jekyll/scholar
+- jekyll-sitemap
+- jekyll-target-blank
+- jekyll-twitter-plugin
+- jemoji
 jekyll-minifier:
-  exclude: ['robots.txt']
+  exclude:
+  - robots.txt
   uglifier_args:
     harmony: true
-
-# -----------------------------------------------------------------------------
-# Jekyll Archives
-# -----------------------------------------------------------------------------
-
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  enabled:
+  - year
+  - tags
+  - categories
   layouts:
     year: archive-year
     tag: archive-tag
     category: archive-category
   permalinks:
-    year: '/blog/:year/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
-
-# -----------------------------------------------------------------------------
-# Jekyll Scholar
-# -----------------------------------------------------------------------------
-
+    year: "/blog/:year/"
+    tag: "/blog/tag/:name/"
+    category: "/blog/category/:name/"
 scholar:
-
   last_name: Einstein
-  first_name: [Albert, A.]
-
+  first_name:
+  - Albert
+  - A.
   style: apa
   locale: en
-
-  source: /_bibliography/
+  source: "/_bibliography/"
   bibliography: papers.bib
   bibliography_template: bib
-  # Note: if you have latex math in your bibtex, the latex filter
-  # preprocessing may conflict with MathJAX if the latter is enabled.
-  # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
-
+  bibtex_filters:
+  - latex
+  - smallcaps
+  - superscript
   replace_strings: true
   join_strings: true
-
   details_dir: bibliography
   details_layout: bibtex.html
   details_link: Details
-
   query: "@*"
-
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
-
-# -----------------------------------------------------------------------------
-# Responsive WebP Images
-# -----------------------------------------------------------------------------
-
+filtered_bibtex_keywords:
+- abbr
+- abstract
+- arxiv
+- bibtex_show
+- html
+- pdf
+- selected
+- supp
+- blog
+- code
+- poster
+- slides
+- website
 imagemagick:
   enabled: true
   widths:
-    - 480
-    - 800
-    - 1400
+  - 480
+  - 800
+  - 1400
   input_directories:
-    - assets/img/
+  - assets/img/
   input_formats:
-    - ".jpg"
-    - ".jpeg"
-    - ".png"
-    - ".tiff"
+  - ".jpg"
+  - ".jpeg"
+  - ".png"
+  - ".tiff"
   output_formats:
     webp: "-quality 75%"
-
-# -----------------------------------------------------------------------------
-# Jekyll Diagrams
-# -----------------------------------------------------------------------------
-
-jekyll-diagrams:
-    # configuration, see https://github.com/zhustec/jekyll-diagrams.
-    # feel free to comment out this section if not using jekyll diagrams.
-
-
-# -----------------------------------------------------------------------------
-# Optional Features
-# -----------------------------------------------------------------------------
-
-enable_google_analytics:    false  # enables google analytics
-enable_panelbear_analytics: false  # enables panelbear analytics
-enable_google_verification: false  # enables google site verification
-enable_bing_verification:   false  # enables bing site verification
-enable_masonry:             true   # enables automatic project cards arangement
-enable_math:                true   # enables math typesetting (uses MathJax)
-enable_tooltips:            false  # enables automatic tooltip links generated
-                                   # for each section titles on pages and posts
-enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
-                                   # navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into
-                                   # multiple categories
-enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
-
-
-# -----------------------------------------------------------------------------
-# Library versions
-# -----------------------------------------------------------------------------
-
+jekyll-diagrams: 
+enable_google_analytics: false
+enable_panelbear_analytics: false
+enable_google_verification: false
+enable_bing_verification: false
+enable_masonry: true
+enable_math: true
+enable_tooltips: false
+enable_darkmode: true
+enable_navbar_social: false
+enable_project_categories: true
+enable_medium_zoom: true
 academicons:
-  version: "1.9.1"
-  integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
+  version: 1.9.1
+  integrity: sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=
 bootstrap:
-  version: "4.6.1"
+  version: 4.6.1
   integrity:
-    css: "sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY="
-    js: "sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI="
+    css: sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=
+    js: sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI=
 fontawesome:
-  version: "5.15.4"
-  integrity: "sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4="
+  version: 5.15.4
+  integrity: sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=
 jquery:
-  version: "3.6.0"
-  integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  version: 3.6.0
+  integrity: sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=
 mathjax:
-  version: "3.2.0"
+  version: 3.2.0
 masonry:
-  version: "4.2.2"
-  integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
+  version: 4.2.2
+  integrity: sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=
 mdb:
-  version: "4.20.0"
+  version: 4.20.0
   integrity:
-    css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
-    js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
+    css: sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=
+    js: sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=
 popper:
-  version: "2.11.2"
-  integrity: "sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4="
+  version: 2.11.2
+  integrity: sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4=
 medium_zoom:
-  version: "1.0.6"
-  integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="
+  version: 1.0.6
+  integrity: sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=

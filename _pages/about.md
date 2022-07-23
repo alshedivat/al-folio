@@ -1,20 +1,16 @@
 ---
-layout: about
 title: about
+permalink: "/"
+layout: about
 nav_order: 1
-permalink: /
 subtitle: 
-
 profile:
   align: right
   image: ProfilePhoto.png
-  address: >
-    <p>Bilkent University</p>
-    <p>Ankara, Turkey</p>
-
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+  address: "<p>Bilkent University</p> <p>Ankara, Turkey</p>\n"
+news: true
+selected_papers: true
+social: true
 ---
 
 I am,

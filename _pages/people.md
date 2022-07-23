@@ -1,7 +1,8 @@
 ---
-layout: page
-permalink: /people/
 title: People
+permalink: "/people/"
+layout: page
 description: 
 nav: false
 ---
+

@@ -1,10 +1,11 @@
 ---
-layout: page
-permalink: /course-notes/learning-how-to-learn
 title: Learning How to Learn
+permalink: "/course-notes/learning-how-to-learn"
+layout: page
 description: 
 nav: false
 ---
+
 up:: [[Courses 💻]]
 tags:: #source/course🏛
 dates::  (2014)

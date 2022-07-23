@@ -1,11 +1,13 @@
 ---
-layout: page
 title: VEDES Project
-description: VEDES is a comprehensive system that maximizes up to 90% better power savings on highways.
+categories:
+- work
+layout: page
+description: VEDES is a comprehensive system that maximizes up to 90% better power
+  savings on highways.
 img: assets/img/vedes-cover.jpg
 redirect: 
 importance: 4
-category: work
 ---
 
 Every project has a beautiful feature showcase page.

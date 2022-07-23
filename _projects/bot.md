@@ -1,11 +1,14 @@
 ---
-layout: page
 title: Bilkent Companion Bot
-date: 2021-10-17 13:00:00-0400
-description: A multifunctional Telegram bot.Sends daily menus of Bilkent University Catering Center and daily weather forecast. Moreover, users can reach opening and closing hours of many services in Bilkent. 
+date: 2021-10-17 17:00:00 Z
+categories:
+- fun
+layout: page
+description: A multifunctional Telegram bot.Sends daily menus of Bilkent University
+  Catering Center and daily weather forecast. Moreover, users can reach opening and
+  closing hours of many services in Bilkent.
 img: assets/img/bilkent-pro.png
 importance: 3
-category: fun
 ---
 
 Every project has a beautiful feature showcase page.

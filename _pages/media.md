@@ -1,8 +1,8 @@
 ---
-layout: page
 title: Media
+permalink: "/media"
+layout: page
 nav_order: 4
-permalink: /media
 subtitle: 
-
 ---
+

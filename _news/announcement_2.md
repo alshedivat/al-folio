@@ -1,6 +1,8 @@
 ---
+title: Announcement_2
+date: 2022-03-30 19:00:00 Z
 layout: post
-date: 2022-3-30 15:00:00-0400
 inline: true
 ---
+
 STEM Education and Coordination Center opening

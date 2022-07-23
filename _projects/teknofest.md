@@ -1,10 +1,11 @@
 ---
-layout: page
 title: Autonomous Object Tracking UAV
+categories:
+- work
+layout: page
 description: TEKNOFEST 2021 3th Place
 img: assets/img/teknofest_cover.png
 importance: 3
-category: work
 ---
 
 Every project has a beautiful feature showcase page.

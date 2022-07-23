@@ -1,7 +1,7 @@
 ---
-layout: page
-permalink: /links/
 title: Links
+permalink: "/links/"
+layout: page
 description: 
 nav: false
 ---

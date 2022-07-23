@@ -1,6 +1,8 @@
 ---
+title: Announcement_0
+date: 2021-09-17 17:00:00 Z
 layout: post
-date: 2021-9-17 13:00:00-0400
 inline: true
 ---
+
 TEKNOFEST Autonomous Unmanned Aerial Vehicles Competition 3th place

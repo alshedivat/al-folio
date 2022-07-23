@@ -1,10 +1,12 @@
 ---
-layout: page
 title: Medieval Scorpion
-description: Medieval style wheeled scorpion with a range of 70 meters (security measures were taken :) )
+categories:
+- fun
+layout: page
+description: Medieval style wheeled scorpion with a range of 70 meters (security measures
+  were taken :) )
 img: assets/img/scorpion.jpg
 importance: 4
-category: fun
 ---
 
 Every project has a beautiful feature showcase page.

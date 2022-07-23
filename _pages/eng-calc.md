@@ -1,7 +1,7 @@
 ---
-layout: page
-permalink: /eng-102-calc/
 title: Eng 102 Calculator
+permalink: "/eng-102-calc/"
+layout: page
 description: 
 nav: false
 ---

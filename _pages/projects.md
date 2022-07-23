@@ -1,11 +1,13 @@
 ---
-layout: page
 title: projects
-permalink: /projects/
+permalink: "/projects/"
+layout: page
 description: Producing is my passion
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories:
+- work
+- fun
 horizontal: false
 ---
 
