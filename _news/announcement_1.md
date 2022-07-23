@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: Sept. 2017
 inline: true
 ---
 
-A simple inline announcement.
+Successfully Completed <b>Bachelors in Electronics and Communication Engineering </b> from Institute of Engineering, Pulchowk, Tribhuvan University, Nepal (Average Percentage: <b>76.39%</b>):sparkles: 

@@ -89,7 +89,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Deep Research Blogs # blog_name will be displayed in your blog page
+blog_name: My Research Blogs # blog_name will be displayed in your blog page
 blog_nav_title: Blogs # your blog must have a title for it to be displayed in the nav bar
 blog_description: High level overview of my research interests
 permalink: /blog/:year/:title/

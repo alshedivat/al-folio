@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'>Ph.D. Student</a>. Rochester Institute of Technology, NY <br>
 
