@@ -2,96 +2,64 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Deep Shankar Pandey
     - name: Date of Birth
-      value: 14th March 1879
+      value: March 10, 1997
     - name: Languages
-      value: English, German
+      value: English, Nepali, Hindi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD - Computer Science
+      institution: Rochester Institute of Technology, Rochester, NY
+      year: 2019-2024 (Expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Research ways to develop trustworthy deep learning models for limited data problems. Key focus is on accurate uncertainty awareness, robustness, and data effeciency in the model 
+    - title: BE in Electronics and Communication Engineering
+      institution: Institute of Engineering, Pulchowk, Tribhuvan University, Nepal
+      year:   Nov 2013 – Sept 2017
       description:
-        - Description 1.
-        - Description 2.
+        - Undergraduate Studies
+        - Electives Taken: Data Mining, Big Data, Artificial Intelligence
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Game Developer
+      institution: Paracosma, Nepal
+      year:  Nov. 2017 – Apr. 2018
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Was as a part of the core developer team, created game special effects, scripted character behaviors, and game environment logic
+    - title: Game Developer Intern
+      institution: Paracosma, Nepal
+      year: Dec. 2016 – Oct. 2017
       description:
-        - Description 1.
-        - Description 2.
+        - Was as a part of the Game Developer Team. Worked on implementation of redirected walking, character behaviors and game mechanics
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Student Intern
+      institution: E&T, Nepal
+      year: May 2016 – Sep. 2016
+      description: Was a part of E&T-TU Collaboration Project for Blockchain Application. I developed dynamic UI interfaces for the project
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Undergraduate Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
+    - year: Nov 2013 – Sept 2017
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+        - Received Merit Based Tuition Waiver, Institute of Engineering, T.U. during my Undergraduate Studies
+        - 1st Runner Up at “Tech. Bihani 2.0 Software Competition-2016” organized by ’Project Association for Computer and Electronics’.Communication.I was the leader and our team worked on “Food Tour Nepal” an android/web based solution to help tourists find popular food destinations near them. I also made the android application and built a system to handle the backend data.
+        - Best Idea Category Winner, “Yomari Code Camp-2015” organized by ‘LOCUS 2015’. I was the main developer for “Lingo App” – Android application solution to promote and conserve endangered languages of our country.
+        - 2nd Runner Up, “Windows 8.1 Dev. Camp-2014”, organized by ‘Microsoft Innovation Center, Nepal’. I was the leader and main programmer for our game idea ‘Save the tree’. We made a game for windows 8 promoting nature protection while offering entertainment.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Deep Learning, Meta-Learning, Uncertainty Awareness, Adversarial Robustness, Pattern recognition, Few-Shot Learning, Any-Shot Learning
+    - title: Application of Deep Learning to real-world problems
+
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Writing Fiction Stories, Chess, Cycling, Trekking
