@@ -2,7 +2,7 @@
 layout: page
 title: Arduino Water Consumption Device
 description: Embedded Systems<br> Electrical Engineering<br> Software Engineering
-img: assets/img/12.jpg
+img: assets/img/waterconsumption.png
 importance: 3
 category: work
 ---

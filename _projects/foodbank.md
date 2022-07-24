@@ -2,7 +2,7 @@
 layout: page
 title: Food Bank Hamper Automation
 description: Software Engineering<br> Object-Oriented Design<br> Test-Driven Development
-img: assets/img/7.jpg
+img: assets/img/foodbank.png
 importance: 3
 category: work
 ---

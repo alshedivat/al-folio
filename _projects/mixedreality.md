@@ -2,7 +2,7 @@
 layout: page
 title: Mixed Reality Software System to Improve Outcomes for Autistic Students
 description: Augmented Reality <br> Software Engineering<br>Agile Methodologies<br> Object-Oriented Design
-img: assets/img/3.jpg
+img: assets/img/mixedreality.png
 importance: 1
 category: work
 ---
