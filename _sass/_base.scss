@@ -405,6 +405,7 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
+  
   a {
     text-decoration: none;
 
@@ -422,7 +423,7 @@ footer.sticky-bottom {
   }
 
   .card-item {
-    width: auto;
+    width: 100%;
     margin-bottom: 10px;
 
     .row {
@@ -433,10 +434,11 @@ footer.sticky-bottom {
 
   .grid-sizer, .grid-item {
     width: 250px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   h2.category {
+    font-size: 18px;
     color: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;

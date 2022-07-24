@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: <h5>Mixed Reality Software System to Improve Outcomes for Autistic Students</h5>
+description: Augmented Reality <br> Software Engineering<br>Agile Methodologies<br> Object-Oriented Design
+img: assets/img/3.jpg
+importance: 1
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

@@ -49,3 +49,10 @@ html[data-theme='dark'] {
     display : none;
   }
 }
+
+html[data-theme='light'] {
+  --global-code-bg-color: #{$grey-color-light};
+  --global-theme-color: #{$blue-color-dark};
+  --global-hover-color: #{$blue-color-dark};
+  
+}

@@ -1,9 +1,8 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: <h5>Food Bank Hamper Automation</h5>
+description: Software Engineering<br> Object-Oriented Design<br> Test-Driven Development
 img: assets/img/7.jpg
-redirect: https://unsplash.com
 importance: 3
 category: work
 ---
