@@ -10,6 +10,8 @@ category: work
 **Technologies Used:** <br>
 `Hololens2` , `C#` ,  `JIRA` , `Unity`
 
+- <a href="https://ucalgary.yuja.com/V/Video?v=529305&node=2163324&a=281614694&autoplay=1" target="_blank">Demo</a>
+-  <a href="https://schulich.ucalgary.ca/news/myth-busting-technology-gives-people-non-verbal-autism-voice" target="_blank">Article</a>
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
