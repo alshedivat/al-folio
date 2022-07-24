@@ -1,7 +1,7 @@
 ---
 layout: page
-title: <h5>Arduino Water Consumption Device</h5>
-description: <i>Embedded Systems<br> Electrical Engineering<br> Software Engineering</i>
+title: Arduino Water Consumption Device
+description: Embedded Systems<br> Electrical Engineering<br> Software Engineering
 img: assets/img/12.jpg
 importance: 3
 category: work

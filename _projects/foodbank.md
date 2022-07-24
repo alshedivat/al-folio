@@ -1,7 +1,7 @@
 ---
 layout: page
-title: <h5>Food Bank Hamper Automation</h5>
-description: <i>Software Engineering<br> Object-Oriented Design<br> Test-Driven Development</i>
+title: Food Bank Hamper Automation
+description: Software Engineering<br> Object-Oriented Design<br> Test-Driven Development
 img: assets/img/7.jpg
 importance: 3
 category: work
