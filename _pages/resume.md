@@ -1,6 +1,8 @@
 ---
 layout:
-permalink: example_pdf.pdf
+permalink: jashdubal.pdf
 title: resume
-
+nav: true
+nav_order: 3
+cv_pdf: example_pdf.pdf
 ---
