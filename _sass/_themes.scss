@@ -49,8 +49,3 @@ html[data-theme='dark'] {
     display : none;
   }
 }
-
-html[data-theme='light'] {
-  --global-theme-color: #{$green-color-dark};
-  --global-hover-color: #{$green-color-dark};
-}
