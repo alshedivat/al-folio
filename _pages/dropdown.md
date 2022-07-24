@@ -1,11 +1,11 @@
 ---
 layout: page
-title: submenus changed
+title:
 nav: true
 nav_order: 5
-dropdown: true
+dropdown: false
 children:
-    - title: publications
+    - title: skills
       permalink: /publications/
     - title: divider
     - title: projects
