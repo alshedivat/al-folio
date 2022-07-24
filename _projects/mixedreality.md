@@ -8,7 +8,7 @@ category: work
 ---
 
 **Technologies Used:** <br>
-`Hololens2` , `C#`,  `JIRA` , `Unity`
+`Hololens2` , `C#` ,  `JIRA` , `Unity`
 
 
 Every project has a beautiful feature showcase page.
