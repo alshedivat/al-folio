@@ -1,11 +1,14 @@
 ---
 layout: page
 title: <h5>Arduino Water Consumption Device</h5>
-description: Embedded Systems<br> Electrical Engineering<br> Software Engineering
+description: <i>Embedded Systems<br> Electrical Engineering<br> Software Engineering</i>
 img: assets/img/12.jpg
 importance: 3
 category: work
 ---
+
+**Technologies Used:** <br>
+`Arduino` , `C++`,  `PCB`
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

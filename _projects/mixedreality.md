@@ -1,11 +1,15 @@
 ---
 layout: page
 title: <h5>Mixed Reality Software System to Improve Outcomes for Autistic Students</h5>
-description: Augmented Reality <br> Software Engineering<br>Agile Methodologies<br> Object-Oriented Design
+description: <i>Augmented Reality <br> Software Engineering<br>Agile Methodologies<br> Object-Oriented Design</i>
 img: assets/img/3.jpg
 importance: 1
 category: work
 ---
+
+**Technologies Used:** <br>
+`Hololens2` , `C#`,  `JIRA` , `Unity`
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

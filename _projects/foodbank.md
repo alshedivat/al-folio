@@ -1,11 +1,14 @@
 ---
 layout: page
 title: <h5>Food Bank Hamper Automation</h5>
-description: Software Engineering<br> Object-Oriented Design<br> Test-Driven Development
+description: <i>Software Engineering<br> Object-Oriented Design<br> Test-Driven Development</i>
 img: assets/img/7.jpg
 importance: 3
 category: work
 ---
+
+**Technologies Used:** <br>
+`Java` , `JUnit`,  `mySQL`
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
