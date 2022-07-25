@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Project ATHENA
+description: Augmenting Therapeutic Effectiveness through Novel Analytics
+img: assets/img/athena.png
 importance: 2
 category: work
 ---
