@@ -183,7 +183,7 @@ A concrete example of dot-product kernels over hypersphere is provided to illust
 
 @article{Ryu--Kim2021,
   abbr={Preprint},
-  title={One-Nearest-Neighbor Search Is All You Need for Minimax Regression and Classification},
+  title={One-Nearest-Neighbor Search Is All You Need for Minimax Optimal Regression and Classification},
   author={Ryu, J. Jon and Kim, Young-Han},
   year={2022},
   archivePrefix = {arXiv},
@@ -218,6 +218,25 @@ Concrete examples are studied in which the side information has a tree structure
 By modifying the context-tree weighting technique of Willems, Shtarkov, and Tjalkens (1995), the proposed algorithm is further refined to achieve the best performance over all adaptive algorithms with tree-structured side information of a given maximum order in a computationally efficient manner.},
 }
 
+@article{Ryu--Bhatt2022,
+  abbr={Preprint},
+  title={On Confidence Sequences for Bounded Random Processes via Universal Gambling Strategies},
+  author={Ryu, J. Jon and Bhatt, Alankrita},
+  year={2022},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.IT},
+  author+an={1=highlight},
+  arxiv={2207.12382},
+  journal={arXiv},
+  code={https://github.com/jongharyu/confidence-sequence-via-gambling},
+  selected={true},
+  abstract={This paper considers the problem of constructing a confidence sequence for bounded random processes. 
+Building upon the gambling approach pioneered by Hendriks (2018) and Jun and Orabona (2019) and following the recent work of Waudby-Smith and Ramdas (2020) and Orabona and Jun (2021),
+this paper revisits the idea of Cover (1991)'s universal portfolio in constructing confidence sequences and demonstrates new properties, based on a natural \emph{two-horse race} perspective on the gambling approach.
+The main result of this paper is a new algorithm based on a mixture of lower bounds, which closely approximates the performance of Cover's universal portfolio with only constant per-round time complexity. 
+A higher-order generalization of a lower bound in (Fan et al, 2015), which is invoked in the proposed algorithm, may be of independent interest.},
+}
+
 @article{Bhatt--Ryu--Kim2021,
   abbr={Preprint},
   title={On Universal Portfolios with Continuous Side Information},
@@ -226,51 +245,12 @@ By modifying the context-tree weighting technique of Willems, Shtarkov, and Tjal
   archivePrefix = {arXiv},
   eprint = {2202.02431},
   primaryClass = {cs.IT},
-  note={\emph{{S}ubmitted}},
   author+an={1=equal;2=highlight,equal},
   arxiv={2202.02431},
   journal={arXiv},
   abstract={A new portfolio selection strategy that adapts to a continuous side-information sequence is presented, with a universal wealth guarantee against a class of state-constant rebalanced portfolios with respect to a state function that maps each side-information symbol to a finite set of states.
 In particular, given that a state function belongs to a collection of functions of finite Natarajan dimension, the proposed strategy is shown to achieve, asymptotically to first order in the exponent, the same wealth as the best state-constant rebalanced portfolio with respect to the best state function, chosen in hindsight from observed market.
 This result can be viewed as an extension of the seminal work of Cover and Ordentlich (1996) that assumes a single state function.},
-}
-
-@article{Ryu--Choi--Kim--El-Khamy--Lee2019,
-  abbr={Preprint},
-  title={Wyner {VAE}: Joint and Conditional Generation with Succinct Common Representation Learning},
-  author={Ryu, J. Jon and Choi, Yoojin and Kim, Young-Han and El-Khamy, Mostafa and Lee, Jungwon},
-  year={2018},
-  journal={An extended abstract was presented in Bayesian Deep Learning Workshop at NeurIPS},
-  author+an={1=highlight},
-  arxiv={1905.10945},
-  poster={neuripsw-bdl2018-poster.pdf},
-  html={http://bayesiandeeplearning.org/2018/papers/122.pdf},
-}
-
-# Adversarial Learning of a Variational Generative Model with Succinct Bottleneck Representation,
-@article{Ryu--Choi--Kim--El-Khamy--Lee2021,
-  abbr={Preprint},
-  title={Learning with Succinct Common Representation with Wyner's Common Information},
-  author={Ryu, J. Jon and Choi, Yoojin and Kim, Young-Han and El-Khamy, Mostafa and Lee, Jungwon},
-  year={2021},
-  journal={An extended abstract was presented in Bayesian Deep Learning Workshop at NeurIPS},
-  author+an={1=highlight},
-  html={http://bayesiandeeplearning.org/2021/papers/67.pdf},
-  poster={neuripsw-bdl2021-poster.pdf},
-  selected={true},
-}
-
-@inproceedings{Yang--Sautiere--Ryu--Cohen2020,
-  abbr={ICASSP},
-  title={Feedback Recurrent Autoencoder},
-  author={Yang, Yang and Sauti{\`e}re, Guillaume and Ryu, J. Jon and Cohen, Taco S.},
-  booktitle=icassp,
-  pages={3347--3351},
-  year={2020},
-  organization={IEEE},
-  author+an={3=highlight},
-  arxiv={1911.04018},
-  html={https://ieeexplore.ieee.org/document/9054074},
 }
 
 @article{Ryu--Kim2022,
@@ -286,3 +266,34 @@ This result can be viewed as an extension of the seminal work of Cover and Orden
   journal={arXiv},
   abstract={A short, information-theoretic proof of the Kac--Bernstein theorem, which is stated as follows, is presented: For any independent random variables $X$ and $Y$, if $X+Y$ and $X-Y$ are independent, then $X$ and $Y$ are normally distributed.},
 }
+
+@article{Ryu--Choi--Kim--El-Khamy--Lee2022,
+  abbr={Preprint},
+  title={Learning with Succinct Common Representation with {W}yner's Common Information},
+  author={Ryu, J. Jon and Choi, Yoojin and Kim, Young-Han and El-Khamy, Mostafa and Lee, Jungwon},
+  year={2022},
+  journal={Submitted; arXiv},
+  author+an={1=highlight},
+  abstract={A new bimodal generative model is proposed for generating conditional and joint samples, accompanied with a training method with learning a succinct bottleneck representation.
+The proposed model, dubbed as the variational Wyner model, is designed based on two classical problems in network information theory---distributed simulation and channel synthesis---in which Wyner's common information arises as the fundamental limit on the succinctness of the common representation.
+The model is trained by minimizing the symmetric Kullback--Leibler divergence between variational and model distributions with regularization terms for common information, reconstruction consistency, and latent space matching terms, which is carried out via an adversarial density ratio estimation technique.
+The utility of the proposed approach is demonstrated through experiments for joint and conditional generation with synthetic and real-world datasets, as well as a challenging zero-shot image retrieval task.},
+  arxiv={1905.10945},
+  code={https://github.com/jongharyu/wyner-model},
+  selected={true},
+  note={<a href="http://bayesiandeeplearning.org/2018/papers/122.pdf">{A preliminary version}</a> of this manuscript was presented at the Bayesian Deep Learning Workshop at NeurIPS 2018, and <a href="http://bayesiandeeplearning.org/2021/papers/67.pdf">{an abridged version}</a> of the current manuscript was presented at the Bayesian Deep Learning workshop at NeurIPS 2021.},
+}
+
+@inproceedings{Yang--Sautiere--Ryu--Cohen2020,
+  abbr={ICASSP},
+  title={Feedback Recurrent Autoencoder},
+  author={Yang, Yang and Sauti{\`e}re, Guillaume and Ryu, J. Jon and Cohen, Taco S.},
+  booktitle=icassp,
+  pages={3347--3351},
+  year={2020},
+  organization={IEEE},
+  author+an={3=highlight},
+  arxiv={1911.04018},
+  html={https://ieeexplore.ieee.org/document/9054074},
+}
+
