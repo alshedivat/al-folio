@@ -8,7 +8,7 @@ category: work
 ---
 
 **Technologies Used:** <br>
-`Hololens2` , `C#` ,  `JIRA` , `Unity`
+`Hololens2` , `C#` ,  `Jira` , `Unity`
 
 - <a href="https://ucalgary.yuja.com/V/Video?v=529305&node=2163324&a=281614694&autoplay=1" target="_blank">Demo</a>
 -  <a href="https://schulich.ucalgary.ca/news/myth-busting-technology-gives-people-non-verbal-autism-voice" target="_blank">Article</a>
