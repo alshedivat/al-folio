@@ -73,7 +73,11 @@
               {%- else -%}
                 {%- if author_array_limit == author_array_size %} and {% endif %}
                 {% if author_is_self -%}
+<<<<<<< HEAD
                   <em><b>{{author.first}} {{author.last}}</b></em>
+=======
+                  and <em><b>{{author.first}} {{author.last}}</b></em>
+>>>>>>> 4d5f49567151fe6cb006771d7f92a341f3384eba
                 {% else -%}
                   {%- if coauthor_url -%}
                     and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
