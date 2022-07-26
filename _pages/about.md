@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 I received my Ph.D. in [Electrical Engineering](https://ece.ucsd.edu/) from [UC San Diego](https://ucsd.edu/), 
 where I was fortunate to be advised by [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/).
-My graduate study was generously supported by the [Kwanjeong scholarship](http://www.ikef.or.kr/).
+My graduate study was generously supported by the [Kwanjeong Educational Foundation](http://www.ikef.or.kr/).
 
 [//]: <span style="font-weight:bold"><mark>
 [//]: I am on the job market this academic year, looking for a postdoctoral position starting in Summer 2022.
