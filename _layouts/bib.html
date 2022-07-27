@@ -36,14 +36,15 @@
 
           {%- for author in entry.author_array limit: author_array_limit -%}
             {%- assign author_is_self = false -%}
-            {%- if author.last == site.scholar.last_name %}
+            {%- assign author_last_name = author.last | remove: "*" -%}
+            {%- if author_last_name == site.scholar.last_name -%}
               {%- if site.scholar.first_name contains author.first -%}
                 {%- assign author_is_self = true -%}
               {%- endif -%}
             {%- endif -%}
             {%- assign coauthor_url = nil -%}
-            {%- if site.data.coauthors[author.last] -%}
-              {%- for coauthor in site.data.coauthors[author.last] -%}
+            {%- if site.data.coauthors[author_last_name] -%}
+              {%- for coauthor in site.data.coauthors[author_last_name] -%}
                 {%- if coauthor.firstname contains author.first -%}
                   {%- assign coauthor_url = coauthor.url -%}
                   {%- break -%}
