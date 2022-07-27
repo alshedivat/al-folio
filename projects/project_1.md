@@ -1,3 +1,0 @@
-
-
-A simple inline project.
