@@ -6,6 +6,7 @@ description: research publications by year
 years: [2021, 2019, 2018, 2008]
 years2: [2017, 2014, 2013, 2012, 2008, 2009]
 nav: true
+nav_order: 1
 ---
 
 #### :pushpin: if you can't access a paywalled article, feel free to email <br> I can usually share a pre-print version

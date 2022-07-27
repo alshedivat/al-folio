@@ -6,7 +6,7 @@ subtitle: I am a Senior Research Fellow at Monash University's <a href="https://
 
 profile:
   align: right
-  image: profile.png
+  image: assets/img/Profile.png
 #  address: >
 #    <p>My office number</p>
 #    <p>Monash University</p>
