@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - jongharyu
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - jongharyu/wyner-model
+  - jongharyu/split-knn-rules
+  - jongharyu/knn-functional-estimation 
+  - jongharyu/confidence-sequence-via-gambling
+  - jongharyu/olo-with-side-information
