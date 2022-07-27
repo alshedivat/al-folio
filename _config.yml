@@ -239,6 +239,8 @@ filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, select
 
 # Maximum number of authors to be shown, other authors will be visible on hover, leave blank to show all authors
 max_author_limit: 3
+# Show "and" before "more authors", otherwise before the last author
+max_author_separated: true
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images

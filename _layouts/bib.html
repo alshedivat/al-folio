@@ -56,16 +56,15 @@
               {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
             {%- endif -%}
             {%- if author_is_self -%}
-              <em>{{author.last}}, {{author.first}}</em>
+              <em>{{author.first}} {{author.last}}</em>
             {%- else -%}
               {%- if coauthor_url -%}
-                <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>
+                <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
               {%- else -%}
-                {{author.last}}, {{author.first}}
+                {{author.first}} {{author.last}}
               {%- endif -%}
             {%- endif -%}
           {%- endfor -%}
-
           {%- assign more_authors = author_array_size | minus: author_array_limit -%}
           
           {%- if author_array_limit == 0 -%}
@@ -79,11 +78,13 @@
             {%- endif -%}
             {%- assign more_authors_show = '' -%}
             {%- for author in entry.author_array offset: author_array_limit -%}
-              {%- unless forloop.last -%}
-                {%- assign more_authors_show = more_authors_show | append: ", " -%}
-              {%- else -%}
+              {%- if forloop.first and site.max_author_separated -%}
+                {%- assign more_authors_show = more_authors_show | append: " and " -%}
+              {%- elsif forloop.last and site.max_author_separated == false -%}
                 {%- assign more_authors_show = more_authors_show | append: ", and " -%}
-              {%- endunless -%}
+              {%- else -%}
+                {%- assign more_authors_show = more_authors_show | append: ", " -%}
+              {%- endif -%}
               {%- assign more_authors_show = more_authors_show | append: author.first | append: " " | append: author.last -%}
             {%- endfor -%}
             <span
