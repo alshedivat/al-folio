@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - jbial
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - jbial/neural-planets 
+  - jbial/miscellaneous-math
+  - jbial/ml-tutorials
+  - jbial/deep-ebms
+
