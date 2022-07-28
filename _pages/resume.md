@@ -3,6 +3,7 @@ layout: page
 permalink: /resume/
 title: resume
 description:
+nav_order: 3
 nav: true
 ---
 
