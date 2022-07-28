@@ -7,6 +7,7 @@ description: PhD student, UdeM, LIGUM
 profile:
   align: right
   image: prof_pic.jpg
+  image_cicular: false # crops the image to make it circular
   address: >
     <p>name.surname</p>
     <p>at</p>

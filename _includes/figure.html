@@ -1,14 +1,33 @@
-{%- assign path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" -%}
+{%- assign img_path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" -%}
 
 <figure>
 
   <picture>
+    {% if site.imagemagick.enabled %}
     {% for i in site.imagemagick.widths -%}
-      <source media="(max-width: {{ i }}px)" srcset="{{ path | relative_url }}-{{ i }}.webp" />
+      <source 
+        class="responsive-img-srcset"
+        media="(max-width: {{ i }}px)" 
+        srcset="{{ img_path | relative_url }}-{{ i }}.webp"
+      />
     {% endfor -%}
+    {% endif %}
 
     <!-- Fallback to the original file -->
-    <img {% if include.class %}class="{{ include.class }}"{% endif %} src="{{ include.path | relative_url }}" {% if include.alt %}alt="{{ include.alt }}"{% endif %} {% if include.title %}title="{{ include.title }}"{% endif %} {% if include.zoomable %}data-zoomable{% endif %} />
+    <img 
+      src="{{ include.path | relative_url }}"
+      {% if include.class %}class="{{ include.class }}"{% endif %}  
+      {% if include.width %}width="{{ include.width }}"{% else %}width="auto"{% endif %} 
+      {% if include.height %}height="{{ include.height }}"{% else %}height="auto"{% endif %} 
+      {% if include.min-width %}min-width="{{ include.min-width }}"{% endif %} 
+      {% if include.min-height %}min-height="{{ include.min-height }}"{% endif %} 
+      {% if include.max-width %}max-width="{{ include.max-width }}"{% endif %} 
+      {% if include.max-height %}height="{{ include.max-height }}"{% endif %} 
+      {% if include.alt %}alt="{{ include.alt }}"{% endif %} 
+      {% if include.title %}title="{{ include.title }}"{% endif %} 
+      {% if include.zoomable %}data-zoomable{% endif %}
+      onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
+    />
 
   </picture>
 
