@@ -2,96 +2,116 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: NGUYEN, Huu Hoang
     - name: Date of Birth
-      value: 14th March 1879
+      value: January 21st, 1990
     - name: Languages
-      value: English, German
+      value: English, Vietnamese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Engineering in Computer Science
+      institution: HCMC University of Technology - HCMUT, Vietnam
+      year: 2017
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Major - Computer Security
+        - Thesis - Generating Control-Flow Graph from Android Binary Code
+    - title: Bachelor of Science in Electronics and Telecommunications
+      institution: HCMC University of Science - HCMUS, Vietnam
+      year: 2013
       description:
-        - Description 1.
-        - Description 2.
+        - Major - Computer and Embedded Systems
 
-- title: Experience
+- title: Working Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Researcher PhD Candidate
+      institution: L3S Research Center, Leibniz University Hannover, Germany
+      year: 2020 - Now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Applying graph embeddings and deep learning for social network analysis to establish or predict unobserved connections of the entities such as persons, organizations, and locations, to enhance investigation capabilities for large criminal cases
+        - Applying graph learning on control-flow graphs, program call graphs, and data dependency for vulnerability detection in blockchain smart contracts
+        - Building a database for storing and retrieving blockchain-powered social network data, which is suitable for the analytics of massive-scale social networks and cross-domain user behaviors
+
+    - title: Research Collaborator
+      institution: HCMC University of Technology - HCMUT, Vietnam
+      year: 2018 - 2019
       description:
-        - Description 1.
-        - Description 2.
+        - Modeling of control flow and data dependency of Ethereum smart contracts
+        - Using machine learning techniques to analyze security vulnerabilities in transaction data of Bitcoin and Ethereum networks
+        - Analyzing real-time data of warehouse and transportation management systems, which integrate to Ethereum and EOS blockchain
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Associate
+      institution: Singapore Management University, Singapore
+      year: 2017 - 2018
       description:
+        - Generating control-flow graphs and data dependencies of Android platform
+        - Analyzing Android apps behaviors based on whole-network graphs
+        - Context-aware code localization and recommendation
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Research Assistant
+      institution: Livelabs, Singapore Management University, Singapore
+      year: 2016 - 2017
+      description:
+        - Generating control-flow graph of Android framework
+        - Analyzing Android apps behaviors based on whole-system control flow
+        - Identifying private data leaks in Android framework APIs
 
-- title: Open Source Projects
+    - title: Android Developer
+      institution: Fabrica Vietnam Co., Ltd, Vietnam
+      year: 2014 - 2015
+      description:
+        - User experience analysis using Material Design
+        - QR Code and Image Processing technologies
+        - Building apps related to Coupon & Auction, Car Selling, and Overlay Photo
+
+    - title: Android Team Leader
+      institution: EFSE Co., Ltd, Vietnam
+      year: 2013 - 2014
+      description:
+        - Exploring/Designing mobile apps' user-interaction interface for the young
+        - Near Field Communication and Call Blocking technologies
+        - Analyzing Android native launcher
+        - Designing new techniques for floating apps
+        - Building apps related to Android Launcher, NFC, Call Blocker, and Location
+
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+- title: Achievements
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
+    - year: 2018
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Silver Award $7000 at Blockchain Hackathon, Vietnam Blockchain Hub
+    - year: 2016
       items: 
-        - Max Planck Medal
+        - SMU Internship Scholarship for Excellent Graduate Students, HCMC University of Technology
+    - year: 2015
+      items: 
+        - 500,000 app downloads, Google Play Store
 
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Graph Mining
       items:
-        - Description 1.
-        - Description 2.
+        - Machine Learning 
+        - Graph Learning
+        - Multimodal Network Analysis
+    - title: Software Engineering
+      items:
+        - Program Analysis
+        - Software Security
+        - Blockchain Technology
+        - Smart Contracts
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
