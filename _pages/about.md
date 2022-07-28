@@ -10,7 +10,7 @@ profile:
   position: Epidiagnostics Group Investigator<br />Associate Research Professor <br /> <a href="https://breakthroughcancer.org/">Break <i>Through</i> Cancer</a> Scientist
   align: right
   logos: true
-  image: prof_pic.jpg
+  image: prof_pic.png
   href: '/members/pisanic'
   address: >
         Institute for NanoBioTechnology<br />
