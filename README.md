@@ -72,6 +72,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://tirtharajdash.github.io" target="_blank">★</a>
 <a href="https://carolinacarreira.github.io" target="_blank">★</a>
 <a href="https://manandey.github.io" target="_blank">★</a>
+<a href="https://johanneshoerner.github.io" target="_blank">★</a>
 </td>
 </tr>
 <tr>
