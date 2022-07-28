@@ -3,6 +3,7 @@ layout: post
 title: Naive pointcoud visualization in Blender
 date: 2021-07-21 11:12:00-0400
 description: Piece of code to load a pointcloud data in Blender
+tags: blender
 ---
 
 There is a point cloud vidualizer for Blender - [uhlik/bpy](https://github.com/uhlik/bpy). You can follow along with this short youtube tutorial.

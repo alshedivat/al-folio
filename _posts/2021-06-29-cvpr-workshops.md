@@ -3,6 +3,7 @@ layout: post
 title: CVPR selected workshops
 date: 2021-06-29 11:12:00-0400
 description: Personal connection of CVPR 2021 workshops and papers
+tags: links
 ---
 
 OpenAccess link: [openaccess.thecvf.com](https://openaccess.thecvf.com/CVPR2021_workshops/menu)

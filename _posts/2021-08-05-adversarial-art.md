@@ -3,6 +3,7 @@ layout: post
 title: Adversarial Art
 date: 2021-08-05 11:12:00-0400
 description: Updated list of artists doing art by adversarial attacks. With examples!
+tags: links images
 ---
 
 Today I learned about Tom White (a.k.a. [dribnet](https://twitter.com/dribnet)) and his works on fooling vision systems with artisitc images. My [project on adversarial vandalism](/projects/adversarial_vandal/) was inspired by another work by Matty Mariansky on [Neurips Workshop](http://www.aiartonline.com/highlights-2020/matty-mariansky/). 

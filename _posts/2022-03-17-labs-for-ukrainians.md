@@ -3,6 +3,7 @@ layout: post
 title: 🇺🇦 Ukrainian scholars are welcomed in North America
 date: 2022-03-17 11:12:00-0400
 description: If you want to continue your research in USA or Canada, take a look here.
+tags: links
 ---
 
 📐 Terrence Tao blogpost for displaced mathematicians: [terrytao.wordpress.com](https://terrytao.wordpress.com/2022/03/02/resources-for-displaced-mathematicians/)
