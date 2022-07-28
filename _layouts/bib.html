@@ -38,7 +38,7 @@
           {%- for author in entry.author_array limit: author_array_limit -%}
             {% assign last_trimmed = author.last | remove: "<sup>†</sup>" | remove: "<sup>*</sup>"%}
             {%- assign author_is_self = false -%}
-            {%- if last_trimmed == site.scholar.last_name%}
+            {%- if last_trimmed == site.scholar.last_name %}
               {%- if site.scholar.first_name contains author.first -%}
                 {%- assign author_is_self = true -%}
               {%- endif -%}
@@ -73,16 +73,12 @@
               {%- else -%}
                 {%- if author_array_limit == author_array_size %} and {% endif %}
                 {% if author_is_self -%}
-<<<<<<< HEAD
                   <em><b>{{author.first}} {{author.last}}</b></em>
-=======
-                  and <em><b>{{author.first}} {{author.last}}</b></em>
->>>>>>> 4d5f49567151fe6cb006771d7f92a341f3384eba
                 {% else -%}
                   {%- if coauthor_url -%}
-                    and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                    <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
                   {% else -%}
-                    and {{author.first}} {{author.last}}
+                    {{author.first}} {{author.last}}
                   {%- endif -%}
                 {%- endif -%}
               {%- endunless -%}
