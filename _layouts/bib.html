@@ -3,13 +3,13 @@
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr">
-        {%- if entry.abbr -%}
-          {%- if site.data.venues[entry.abbr] -%}
-          <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
-          {%- else -%}
-          <abbr class="badge">{{entry.abbr}}</abbr>
+          {%- if entry.preview -%}
+            {% if entry.preview contains '://' -%}
+            <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+            {%- else -%}
+            <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
+            {%- endif -%}
           {%- endif -%}
-        {%- endif -%}
         </div>
 
         <!-- Entry bib key -->
