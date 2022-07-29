@@ -16,3 +16,33 @@
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+
+"Cihang":
+  - firstname: ["Cihang", "C."]
+    url: https://cihangxie.github.io/
+
+"Huan":
+  - firstname: ["Huan", "H."]
+    url: https://www.huan-zhang.com/
+
+"Zhaoran":
+  - firstname: ["Zhaoran", "Z."]
+    url: https://zhaoranwang.github.io/
+
+"Zhuoran":
+  - firstname: ["Zhuoran", "Z."]
+    url: https://www.princeton.edu/~zy6/
+
+"Gene":
+  - firstname: ["Gene", "G."]
+    url: https://gxli97.github.io/
+
+"Xianhang":
+  - firstname: ["Xianhang", "X."]
+    url: https://xhl-video.github.io/xianhangli/
+
+
+"Nathan":
+  - firstname: ["Nathan", "N."]
+    url: https://nati.ttic.edu/
+
