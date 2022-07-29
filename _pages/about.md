@@ -10,7 +10,7 @@ profile:
   image_cicular: false # crops the image to make it circular
   address: >
     <p>name.surname</p>
-    <p>at</p>
+    <p>@</p>
     <p>umontreal.ca</p>
 
 news: true  # includes a list of news items
