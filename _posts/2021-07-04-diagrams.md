@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: a post with diagrams
 date: 2021-07-04 17:39:00
@@ -40,4 +40,4 @@ sequenceDiagram
     participant Alice
     Alice->>John: Hello John, how are you?
     John-->>Alice: Great!
-{% endmermaid %}
+{% endmermaid %} -->
