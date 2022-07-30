@@ -5,5 +5,5 @@ github_repos:
   - jongharyu/wyner-model
   - jongharyu/split-knn-rules
   - jongharyu/knn-functional-estimation 
-  - jongharyu/confidence-sequence-via-gambling
   - jongharyu/olo-with-side-information
+  - jongharyu/confidence-sequence-via-gambling
