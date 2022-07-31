@@ -6,6 +6,7 @@ description: Materials for courses you taught. Replace this text with your descr
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+At Rice University (2017-2022):
+- Biochmistry I(BIOC 301): I worked as a Teaching Assistant in the 2019 Fall semester.
+- Molecular Biophysics I (BIOC 481/551): I worked as a Teaching Assistant in the 2018 Fall semester.
 
-Organize your courses by years, topics, or universities, however you like!
