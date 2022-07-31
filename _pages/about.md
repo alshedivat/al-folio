@@ -20,4 +20,4 @@ I am a fifth-year Ph.D. student in Department of Biosciences, Rice University. M
 
 I completed my Bachelor degree in Biosciences in 2017 from Zhejiang University.
 
-Beyond the research, I like playing badminton and traveling. 
+Beyond the research, I like playing the piano, badminton, diving, plant identification, and traveling. 
