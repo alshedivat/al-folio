@@ -18,4 +18,6 @@ social: true  # includes social icons at the bottom of the page
 
 I am a fifth-year Ph.D. student in Department of Biosciences, Rice University. My research area of interests are protein folding, molecular dynamics, deep learning, and general computational biology problems.
 
-I completed my Bachelor degree in Biosciences in 2017 from Zhejiang University. 
+I completed my Bachelor degree in Biosciences in 2017 from Zhejiang University.
+
+Beyond the research, I like playing badminton and traveling. 
