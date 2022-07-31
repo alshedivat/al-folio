@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 2
-display_categories: [Class Projects, Personal]
+display_categories: [Thesis, Class Projects, Personal]
 horizontal: false
 ---
 

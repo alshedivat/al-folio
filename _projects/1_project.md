@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Blockchains for Business	Networks
+description: Blockchains for Business Networks
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: Thesis
 ---
 
 Every project has a beautiful feature showcase page.
