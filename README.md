@@ -9,7 +9,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/fork)
 [![support](https://img.shields.io/badge/support-Ko--fi-yellow.svg)](https://ko-fi.com/alshedivat)
 
-To DO list: Adding new blog posts, achievements write in table, denote co-first and highlight my name, find a logo
+To DO list: Adding new blog posts, achievements write in table, denote co-first, find a logo
 
 
 A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.
