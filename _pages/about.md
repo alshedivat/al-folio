@@ -17,4 +17,4 @@ I am a Ph.D. student at the Machine Learning Department, School of Computer Scie
 
 Over the past two years, I’ve been on a leave of absence from CMU to build the ML team of an [early stage data privacy startup](https://www.relyance.ai/). I’m returning to CMU to finish my Ph.D. working on Embodied AI. \\
 
-In my spare time, I enjoy food and wine, nature and traveling, and lifting weights. Also, I grew up in Paris and my English accent has long been stuck at a local optimum.
+In my spare time, I enjoy food, wine, nature, traveling, and lifting weights. Also, I grew up in Paris and my English accent has long been stuck at a local optimum.
