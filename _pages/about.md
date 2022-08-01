@@ -17,6 +17,9 @@ social: false  # includes social icons at the bottom of the page
 
 I am a **Researcher** in the Cognitive Computing Lab at [Baidu Research](http://research.baidu.com/) working with [Dr. Ping Li](http://research.baidu.com/People/index-view?id=111) on generative modeling and its practical applications (e.g., Information Retrieval and AI Security). Previously, I was at [Virginia Tech](https://cs.vt.edu/)/[Sanghani Center for Artificial Intelligence & Data Analytics](https://sanghani.cs.vt.edu/) ([Prof. Chandan K. Reddy](https://people.cs.vt.edu/reddy)) &#10229; [Criteo AI Lab](https://ailab.criteo.com/) ([Dr. Sathiya Keerthi Selvaraj](http://www.keerthis.com/) and Dr. Fengjiao Wang)  &#10229; [UMCP](https://www.cs.umd.edu/)/[NASA Goddard Space Flight Center](https://www.nasa.gov/goddard). More about me **[HERE](/bio)** and my professional/academic services **[HERE](/bio#services)**.
 
+I'm looking for <span style="font-weight:bold;color:red">motivated research interns</span> in Vietnam (and potentially other Asian countries), working on <span style="font-weight:bold;color:red">Robust NLP</span> (e.g., defensive algorithms against ML Model Attacks, spurious feature detection/removal...) and <span style="font-weight:bold;color:red">NLP Understanding</span>. Please <a href="https://docs.google.com/forms/d/e/1FAIpQLSf7O3-3HmcNlZMQM5OnBZP0jygQMIXVM0ooGQulo6KSCN2dpg/viewform">fill out this form</a> if you are interested!
+
+
 <!-- I received my Ph.D. in Computer Science from [Virginia Polytechnic Institute and State University](cs.vt.edu), and MS in Computer Science from [University of Maryland, College Park](cs.umd.edu). -->
 
 <h5><a href="/bio" style="color:black;">{{"Research Interests"}}</a></h5>
