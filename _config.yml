@@ -213,9 +213,7 @@ jekyll-archives:
 
 scholar:
 
-  last_name: 
-    - Jin
-    - Jin*
+  last_name: Jin
   first_name: Shikai
 
   style: apa
