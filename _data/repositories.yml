@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - michaellwood
+
+gitlab_users:
+ - michaelleewood
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+
+gitlab_repos:
+  - woodstoltz/brickplot
