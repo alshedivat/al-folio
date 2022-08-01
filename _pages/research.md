@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /research/
-title: Research
+title: 
 description:
 nav: true
 nav_order: 2
@@ -13,5 +13,5 @@ My recent work has been related to covariance estimation, small area estimation,
 
 I am particularly interested in improving inferential precision in settings where small sample sizes are obtained from multiple groups or sources. 
 
-Pre-Prints
+<h3>Pre-Prints</h3>
 
