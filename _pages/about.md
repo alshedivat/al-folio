@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   address: >
     <p>6100 Main St</p>
-    <p>Houston, TX, 77030</p>
+    <p>Houston, TX, 77005</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
