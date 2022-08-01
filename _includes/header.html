@@ -6,7 +6,7 @@
         <div class="container">
           {% if page.title != "about" -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-              {%- if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}
+              {%- if site.header_title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.header_title }}{%- endif -%}
           </a>
           {%- elsif site.enable_navbar_social -%}
           <!-- Social Icons -->
