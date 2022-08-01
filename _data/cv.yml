@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Michael Lee Wood
     - name: Date of Birth
       value: 14th March 1879
     - name: Languages
@@ -12,8 +12,8 @@
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Notre Dame, Notre Dame, IN
+      year: 2019
       description:
         - Description 1.
         - Description 2.
