@@ -26,7 +26,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
 -->
 
-My name is **Sinong Wang**. I am a sophomore at the _Northeastern University of China_ and I expect to graduate in 2023. And I participated in the joint training program and received a master's degree in computer science from the _University of Texas at Arlington_ (2021-2023).
+My name is **Sinong Wang**. I am a sophomore at the **Northeastern University of China** and I expect to graduate in 2023. And I participated in the joint training program and received a master's degree in computer science from the **University of Texas at Arlington** (2021-2023).
 
 I also got a **4.0/4.0** GPA at UTA which has taught me Machine Learning and AI.
 
