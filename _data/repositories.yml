@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - BatyLeo
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - axelparmentier/InferOpt.jl
+  - BatyLeo/ConstrainedShortestPaths.jl
+  - BatyLeo/batyleo.github.io
