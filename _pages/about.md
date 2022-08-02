@@ -9,10 +9,10 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>first.last@purdue.edu</p>
-    <p>305 N. University Street</p>
-    <p>Purdue University</p>
-    <p>West Lafayette, IN 47907</p>
+    <p>lastname.takefirst()++firstname()@illinois.edu</p>
+    <p>Siebel Center, 4111-09</p>
+    <p>University of Illinois Urbana-Champaign</p>
+    <p>Urbana, IL</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -21,10 +21,10 @@ social: true  # includes social icons at the bottom of the page
 
 "I keep the subject constantly before me, and wait 'till the first dawnings open slowly, by little and little, into a full and clear light." -- Isaac Newton
 
-I'm currently working with [Dr. Tiark Rompf](https://tiarkrompf.github.io) and [Dr. Oliver Bračevac](https://bracevac.org/teaching/) on the Dependent Object Types. 
+I'm currently working with [Dr. Talia Ringer](https://dependenttyp.es) and [Dr. Christopher W. Fletcher](http://cwfletcher.net) on verifying security properties of [Oblivious RAM](https://en.m.wikipedia.org/wiki/Oblivious_RAM). 
 
 
-I love talking to people who are passionate about programming language design and verification, computer systems, meta theory, formal systems, computational geometry and entrepreneurship. 
+I love talking to people who are passionate about programming language design and verification, computer systems, meta theory, formal systems, computational geometry and entrepreneurship.
 
 If you'd like to chat, book me via [this link](https://hleung.youcanbook.me). 
 
