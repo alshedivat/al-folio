@@ -13,6 +13,6 @@ At Rice University (2017-2022):
 
 ### Volunteer
 At Chinese Antibody Society (2021-Now):
-- Organize the monthly webinar of Chinese Antibody Society
+- Organized the monthly webinar of Chinese Antibody Society
 - Contacted the presenter of the monthly webinar
 - Wrote the Chinese and English publicity articles for the webinar
