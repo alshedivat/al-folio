@@ -15,7 +15,7 @@ I am particularly interested in improving inferential precision in settings wher
 
 <h3>Pre-Prints</h3>
 
-{% bibliography -f papers -q  %}
+{% bibliography -f papers %}
 
 
 <!-- <h3> Presentations </h3>
