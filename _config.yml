@@ -224,7 +224,7 @@ scholar:
   last_name: Einstein
   first_name: [Albert, A.]
 
-  style: chicago
+  style: chicago-fullnote-bibliography
   locale: en
 
   source: /_bibliography/
