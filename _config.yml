@@ -235,8 +235,8 @@ scholar:
   # See https://github.com/alshedivat/al-folio/issues/357.
   # bibtex_filters: [latex, smallcaps, superscript]
 
-  replace_strings: true
-  join_strings: true
+  # replace_strings: true
+  # join_strings: true
 
   details_dir: bibliography
   details_layout: bibtex.html
