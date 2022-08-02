@@ -17,6 +17,6 @@ nav: true
   <li>Exploring the translocation mechanism of bacteriophage T7 gp4 helicase. Gulf Coast Consortia, <b>3rd Annual GCC Cellular and Molecular Biophysics Conference</b>. Rice University. Nov/30/2021</li>
   <li>The advances in the protein structure prediction problem. <b>Advanced structural biology seminar (Rice BIOS 537)</b>. Rice University. Sep/7/2021</li>
   <li>Exploring the translocation mechanism of bacteriophage T7 helicase using molecular dynamic simulations. The Physics of Living Systems (PoLS), <b>iPoLS student seminar</b>. Virtual symposium. May/27/2021</li>
-  <li>Using ab initio predicted protein structure to aid in solving crystallographic phase problems. Xiamen University, <b>Nanqiang Young Scholars Forum</b>. Virtual symposium. Mar/19/2021</li>
+  <li>Using <em>ab initio</em> predicted protein structure to aid in solving crystallographic phase problems. Xiamen University, <b>Nanqiang Young Scholars Forum</b>. Virtual symposium. Mar/19/2021</li>
 </ol>
 
