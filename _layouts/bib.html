@@ -32,7 +32,8 @@
             {%- assign author_is_self = false -%}
             {%- if author.last == site.scholar.last_name%}
               {%- if site.scholar.first_name contains author.first -%}
-                {%- assign author_is_self = true -%}
+                <!-- {%- assign author_is_self = true -%} -->
+                {%- assign author_is_self = false -%}
               {%- endif -%}
             {%- endif -%}
             {%- assign coauthor_url = nil -%}
