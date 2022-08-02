@@ -63,7 +63,7 @@ Research is one of the most important things in the life of a PhD student.
   - We should keep _The Feasibility-Interest Diagram for Choosing a Project_ and _The Schema of Research_ in mind
 - [Coming up with research ideas](https://medium.com/@marcotcr/coming-up-with-research-ideas-3032682e5852) by Marco Tulio Ribeiro
   - "Precondition: expand your adjacent possible"
-  - "Set your filters on ‘important problems’", "Investigate failures / annoyances", "Use analogies", and "Challenge the status quo"
+  - "Set your filters on ‘important problems’", "Investigate failures/annoyances", "Use analogies", and "Challenge the status quo"
 - [Organizing and evaluating research ideas](https://medium.com/@marcotcr/organizing-and-evaluating-research-ideas-e137637b599e) by Marco Tulio Ribeiro
   - The Checklist/template for Organizing and Evaluating Research Ideas is very helpful!
 - [Finding and proposing a PhD dissertation](https://medium.com/great-research/finding-and-proposing-a-ph-d-dissertation-topic-6bca29253a0f) topic by Nick Feamster
@@ -86,8 +86,6 @@ Research is one of the most important things in the life of a PhD student.
   - There are many concrete tips to create a good poster.
 - [How to speak](https://www.youtube.com/watch?v=Unzc731iCUY) by Patrick Winston
 - [How to give a technical presentation](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html) by Mike Ernst
-
-## Read paper
 
 ## Coding
 
