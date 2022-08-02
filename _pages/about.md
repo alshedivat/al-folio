@@ -20,6 +20,6 @@ social: false  # includes social icons at the bottom of the page
 
 I am a PhD student at Université de Montréal, computer graphics lab (<a href="http://www.ligum.umontreal.ca/">LIGUM</a>), supervisor: <a href="http://www-labs.iro.umontreal.ca/~bmpix/">Mikhail Bessmeltsev</a>. 
 
-My work is about sketch and line drawing image processing, using mathematical modeling and machine learning. Take a look on my <a href="/projects/">projects</a> for an overview.
+My work is about sketch and line drawing image processing, using mathematical modeling and machine learning. Take a look on my [publications](#publications) and [projects](/projects/) for an overview.
 
 I've completed my MSc cum laude in Applied Mathematics under Joint MSc program "[InterMaths](http://www.intermaths.eu/)" between [University of L'Aquila](https://www.univaq.it/en/) (Italy) and [V.N.Karazin Kharkiv National University](https://www.univer.kharkov.ua/) (Ukraine) in 2019. BSc in Mathematics was completed in 2017 at V.N.Karazin Kharkiv National University.

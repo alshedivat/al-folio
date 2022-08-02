@@ -49,7 +49,7 @@ layout: default
       {% include selected_papers.html %}
     {% endif %}
 
-    <h2>publications</h2>
+    <h2 id="publications">publications</h2>
     {% assign sorted = site.publications | sort: 'date' | reverse %}
     {% for item in sorted %}
       <div style="margin-top: 20px; border: 1px solid var(--global-bg-color); padding: 10px; border-left: 3px solid rgb(182, 182, 182);">
