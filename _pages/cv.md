@@ -14,3 +14,5 @@ cv_pdf: cv.pdf
 ---
 
 Can I embed the PDF here?
+<iframe src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" width="100%" height="500px">
+</iframe>
