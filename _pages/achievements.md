@@ -6,11 +6,11 @@ description: Some selected achievements that I like to show off.
 nav: true
 ---
 
-### Award and Fellowship
+### Awards and Fellowships
 - **Aug 2022** - Selected for the 2022 Shirley Chan Student Travel Award in 2022 APS March Meeting.
 - **Nov 2021** - Selected for the 2022 Biophysical Society Annual Meeting Travel Award in 2022 BPS Annual Meeting.
 
-### Invited Oral Presentation
+### Invited Oral Presentations
 
 <ol reversed="reversed">
   <li>Deep learning-based prediction of electron density maps of proteins. Biophysical Society, <b>2022 Biophysical Society Annual Meeting</b>. San Francisco. Feb/21/2022</li>
