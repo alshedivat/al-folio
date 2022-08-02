@@ -7,13 +7,12 @@ nav: true
 ---
 
 ### Award and Fellowship
-- **Jul 2022** - Selected for the 2021 Outstanding Self-Financed Foreign Student Award.
 - **Aug 2022** - Selected for the 2022 Shirley Chan Student Travel Award in 2022 APS March Meeting.
 - **Nov 2021** - Selected for the 2022 Biophysical Society Annual Meeting Travel Award in 2022 BPS Annual Meeting.
 
 ### Invited Oral Presentation
 
-<ol start="5" reversed="reversed">
+<ol reversed="reversed">
   <li>Deep learning-based prediction of electron density maps of proteins. Biophysical Society, <b>2022 Biophysical Society Annual Meeting</b>. San Francisco. Feb/21/2022</li>
   <li>Exploring the translocation mechanism of bacteriophage T7 gp4 helicase. Gulf Coast Consortia, <b>3rd Annual GCC Cellular and Molecular Biophysics Conference</b>. Rice University. Nov/30/2021</li>
   <li>The advances in the protein structure prediction problem. <b>Advanced structural biology seminar (Rice BIOS 537)</b>. Rice University. Sep/7/2021</li>
