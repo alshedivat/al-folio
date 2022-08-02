@@ -2,11 +2,16 @@
 layout: page
 permalink: /Teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 nav: true
 nav_order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<h3> Teaching Assistant </h3>
 
-Organize your courses by years, topics, or universities, however you like!
+
+- STA 440: Case Studies in the Practice of Statistics (Fall 2021 at Duke)
+- STA 210: Regression Analysis (Fall 2020, Spr 2021 at Duke)
+- STA 111: Probability and Statistical Inference (Fall 2019 at Duke)
+- MATH 301: Discrete Mathematics (at Alabama)
+- MATH 343: Applied Diff Eq II (at Alabama)
