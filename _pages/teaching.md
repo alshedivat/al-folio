@@ -44,7 +44,11 @@ ___
 
 ## services
 
-* **Program Committee**, [Principles and Practice of Parallel Programming (PPoPP) 2023](https://ppopp23.sigplan.org/).
+* **Special Program Committee Member**, [International Parallel and Distributed Processing Symposium (IPDPS) 2023](https://www.ipdps.org/).
+
+* **Panelist** for the [OpenACC](https://www.openacc.org/) panel on "Current and Future Approaches to Parallel Programming"—Aug 4, 2022.
+
+* **Program Committee Member**, [Principles and Practice of Parallel Programming (PPoPP) 2023](https://ppopp23.sigplan.org/).
 
 * **Publicity Chair (Americas)**, [Principles and Practice of Parallel Programming (PPoPP) 2023](https://ppopp23.sigplan.org/).
 
