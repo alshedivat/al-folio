@@ -14,4 +14,4 @@ Next, secure your hardware wallets with the following protocol:
 2. Utilize [BIP39 passphrase](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki#from-mnemonic-to-seed) to require a password on top of the seed phrase.
 3. Shamir's secret sharing to shard seed phrases to store steel plates/capsules in multiple locations, and prevents any single discovery to be an issue like [Shamir39](https://github.com/iancoleman/shamir39)
 
-Recovery therefore requires knowledge (BIP39 passphrase) on top of just physically recovering multiple seeds.
+i.e., multisig wallet with the hardware wallets access to multiple factors with password/pins, and recovery of hardware wallets in case of hardware failure requires knowledge (BIP39 passphrase) on top of just physically recovering multiple seeds. The hardware wallets are somewhat optional but it can be a security risk itself to try and recover your private keys often.
