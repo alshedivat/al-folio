@@ -30,7 +30,7 @@ Giulia is generally interested in the intersection of High-Performance Computing
 
 Here are a recent **[CV](https://drive.google.com/file/d/1DmJgPIFg6S-B0bqvqWFUmrmk6czYVmy5/view?usp=sharing)** (August 2022) and the Tl;dr version of my **[Research Statement](https://drive.google.com/file/d/1_HVC4HkkyBMqUx8AiTHeyjgwlSdYG3j6/view?usp=sharing)**.
 
-**I am recruiting PhD students for the 2023/24 Academic Year.** The best way to contact me is via **email**: gguidi at berkeley dot edu.
+**I am recruiting PhD students for the 2023/24 Academic Year.** The best way to contact me is via **email**: gg434 at cornell dot edu.
 
 Dog person, in general. German Shepherd person, in particular.
 
