@@ -12,6 +12,6 @@ Use [Gnosis Safe](https://gnosis-safe.io/) to manage a multi-sig wallet secured 
 Next, secure your hardware wallets with the following protocol:
 1. Use steel plates/capsules to protect from physical events and degradation over time.
 2. Utilize [BIP39 passphrase](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki#from-mnemonic-to-seed) to require a password on top of the seed phrase.
-3. Shamir's secret sharing to shard seed phrases to store steel plates/capsules in multiple locations, and prevents any single discovery to be an issue.
+3. Shamir's secret sharing to shard seed phrases to store steel plates/capsules in multiple locations, and prevents any single discovery to be an issue like [Shamir39](https://github.com/iancoleman/shamir39)
 
 Recovery therefore requires knowledge (BIP39 passphrase) on top of just physically recovering multiple seeds.
