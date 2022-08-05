@@ -9,7 +9,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>lastname.takefirst()++firstname()@illinois.edu</p>
+    <p>head(LN)++FN@illinois.edu</p>
     <p>Siebel Center, 4111-09</p>
     <p>University of Illinois Urbana-Champaign</p>
     <p>Urbana, IL</p>
