@@ -312,7 +312,7 @@
   year        = {2022}
 }
 
-@article{sitawarin_part_2019,
+@article{sitawarin_part_2022,
   abbr         = {Preprint},
   abstract     = {We show that combining human prior knowledge with end-to-end learning can improve the robustness of deep neural networks by introducing a part-based model for object classification. Our model combines a part segmentation model with a tiny classifier and is trained end-to-end to simultaneously segment objects into parts and then classify the segmented object. Empirically, our part-based models achieve both higher accuracy and higher adversarial robustness than a ResNet-50 baseline on all three datasets. For instance, the clean accuracy of our part models is up to 15 percentage points higher than the baseline's, given the same level of robustness. Our experiments indicate that these models also reduce texture bias and yield better robustness against common corruptions and spurious correlations. Our work provides evidence that the stronger learning signal from the part segmentation benefits robustness without requiring more samples.},
   author       = {Sitawarin, Chawin and Pongmala, Kornrapat and Chen, Yizheng and Carlini, Nicholas and Wagner, David},
@@ -321,5 +321,17 @@
   month        = jul,
   primaryclass = {cs},
   title        = {Part-Based Models Improve Adversarial Robustness},
+  year         = {2022}
+}
+
+@article{sitawarin_preprocessor_2022,
+  abbr         = {Preprint},
+  abstract     = {Decision-based adversarial attacks construct inputs that fool a machine learning model into making targeted mispredictions. For the most part, these attacks have been applied directly to isolated neural network models. However, in practice, machine learning models are just a component of a much larger system, and we find that state-of-the-art query-based attacks are as much as four times less effective at attacking a prediction pipeline with only one preprocessor than attacking the machine learning model alone. We can explain this discrepancy by the fact that most preprocessors introduce some notion of ``invariant'' to the input space (e.g., with center crop, the prediction is invariant to the border pixels). Hence, attacks that are unaware of this invariance inevitably wastes a large number of queries to re-discover or to overcome it. We therefore develop techniques to first reverse-engineer preprocessors and then use the extracted information to attack the end-to-end system. Our extraction method uses only a few hundreds queries to learn the preprocessors used by most publicly available models, and our preprocessor-aware attack recovers the same efficacy as just attacking the model alone.},
+  author       = {Sitawarin, Chawin and Tram{\`e}r, Florian and Carlini, Nicholas},
+  bibtex_show  = {false},
+  journal      = {Under submission},
+  month        = aug,
+  primaryclass = {cs},
+  title        = {Preprocessors Matter! Realistic Decision-BasedAttacks on Machine Learning Systems},
   year         = {2022}
 }
