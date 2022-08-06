@@ -2,96 +2,114 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Matin Kositchutima
     - name: Date of Birth
-      value: 14th March 1879
+      value: 27th June 2006
     - name: Languages
-      value: English, German
+      value: English, Thai
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Middle School
+      institution: Bodindecha (Sing Singhaseni) School
+      year: 2018 - 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Gifted-Science Class
+        - Accepted at 2nd place
         - title: Description 3.
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: High School
+      institution: Kamnoetvidya Science Academy (KVIS)
+      year: 2021 - present
       description:
-        - Description 1.
-        - Description 2.
+        - Thailand leading science academy
+        - Also accepted at Triamudom (18th place) and MWIT
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Attender at POSN camp
+      institution: Computer POSN
+      year: 2018 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - First attended at grade 7
+        - title: Awards
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+            - TOI17 participation certificate
+            - TOI18 participation certificate 
+            - TOI18 silver medal 
+            - TOI18 special award (2nd highest improvement)
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Video Editing
+      institution: KVISdom
+      year: 2021
+      description: Edited videos for the nonprofit educational club, KVISdom.
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Teaching
+      institution: Helloworld.exe club
+      year: 2022
+      description: A computer science club that teaches variety of computer-related subjects, eg. Machine Learning.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Debating
+      institution: TNTC
+      year: 2022
+      description: A national debating team competition
+    
+    - title: Photography
+      institution: KVIS
+      year: 2021 - present
+      description: 
+        - A photography for many events at KVIS
+        - title: Events
+          contents: 
+            - PSC8 
+            - Academic Camp
+            - Sports Festival
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: Yound Scientist Competition (YSC) Regional Golden Certificate
+      institution: Yound Scientist Competition (YSC)
+      year: 2021
+      description: Thailand national project competition.
+
+    - title: POSN Computer Silver medal
+      institution: POSN
+      year: 2022
+      description: Thailand national competitive programming competition.
+
+    - title: Thailand Cyber Top Talent (TCTT) 3rd place (Junior)
+      institution:  NCSA
+      year: 2021
+      description: Thailand national CTF competition.
+
+    - title: Thailand Nation Teal Cup (TNTC) 2nd place 
+      year: 2021
+      description: Thailand national team debating competition.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Computer Science
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - General Computer Science
+        - Artificial Intelligence
+        - Bioinformatics
+        - Data structres & Algorithms
+    - title: Cyber Security
       items:
-        - Description 1.
-        - Description 2.
+        - general cyber security
+        - CTF competitions
+    - title: Philosophy
+      items:
+        - Philosophical Essays
+        - Philosophical Debates
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Photography, Philosophy writing, Blogging.
