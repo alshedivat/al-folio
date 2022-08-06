@@ -68,26 +68,19 @@
           {%- endfor -%}
           {%- assign more_authors = author_array_size | minus: author_array_limit -%}
           
-          {%- if author_array_limit == 0 -%}
-            {%- assign more_authors_hide = more_authors | append: " more author" -%}
-          {%- else -%}
-            {%- assign more_authors_hide = ", and " | append: more_authors | append: " more author" -%}
-          {%- endif -%}
+          {%- assign more_authors_hide = more_authors | append: " more author" -%}
           {%- if more_authors > 0 -%}
             {%- if more_authors > 1 -%}
               {%- assign more_authors_hide = more_authors_hide | append: "s" -%}
             {%- endif -%}
             {%- assign more_authors_show = '' -%}
             {%- for author in entry.author_array offset: author_array_limit -%}
-              {%- if forloop.first and site.max_author_separated -%}
-                {%- assign more_authors_show = more_authors_show | append: " and " -%}
-              {%- elsif forloop.last and site.max_author_separated == false -%}
-                {%- assign more_authors_show = more_authors_show | append: ", and " -%}
-              {%- else -%}
-                {%- assign more_authors_show = more_authors_show | append: ", " -%}
-              {%- endif -%}
               {%- assign more_authors_show = more_authors_show | append: author.first | append: " " | append: author.last -%}
+              {%- unless forloop.last -%}
+                {%- assign more_authors_show = more_authors_show | append: ", " -%}
+              {%- endunless -%}
             {%- endfor -%}
+            , and
             <span
                 class="more-authors"
                 title="click to view {{more_authors_hide}}"
@@ -101,7 +94,7 @@
                     if (++cursorPosition == more_authors_text.length){
                       clearInterval(textAdder);
                     }
-                  }, 15);
+                }, '{{site.more_authors_animation_delay}}');
                 "
             >{{more_authors_hide}}</span>
           {%- endif -%}
