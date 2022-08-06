@@ -6,7 +6,7 @@ subtitle: Ph.D. Student at University of Pittsburgh
 
 profile:
   align: right
-  image: _pages/prof_pic.JPG
+  image: img/prof_pic.JPG
   image_cicular: false # crops the image to make it circular
 
 news: true  # includes a list of news items
