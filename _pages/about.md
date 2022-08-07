@@ -6,9 +6,9 @@ subtitle: <a href='https://www.reddit.com/r/Cornell/'> Ithaca, NY.</a>  he/him/h
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpeg
   address: >
-    <p>Washington DC, 10 Jan 22</p>
+    <p>Washington DC, 7 Aug 22</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
