@@ -12,14 +12,10 @@
 #  type: nested_list
   type: list
   contents:
-    - title: Topic 1.
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Efficient Deep Learning.
+        - Generative Modeling.
+        - Medical Image Analysis.
 
 - title: Education
   type: time_table
