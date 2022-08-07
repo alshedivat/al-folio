@@ -16,8 +16,9 @@ students to find problems and limitations on the existing models.
 
 ***
 
-My responsibilities include the creation of interactive notebooks. 
+My responsibilities include the creation of [interactive notebooks](https://github.com/PastelBelem8/ml4nlp-cogsci-summer22). 
 We use mostly HuggingFace and OpenAI APIs to interact with state-of-the-art
-NLP models.   
+NLP models. These notebooks were inspired on several other available blogposts
+and resources.
 
 ***
