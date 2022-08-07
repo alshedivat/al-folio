@@ -6,8 +6,8 @@ nav_order: 5
 dropdown: true
 children: 
     - title: funding
-      permalink: /funding
+      permalink: /funding.html
     - title: divider
     - title: collaborators
-      permalink: /collaborators
+      permalink: /collaborators.html
 ---
