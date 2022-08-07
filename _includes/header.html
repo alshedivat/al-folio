@@ -5,7 +5,7 @@
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
      <div class="container px-md-3">
       <a href="{{ '/' | relative_url }}" class="{% if page.title == 'Home' %}active{% endif %}">
-        <img src="{{ '/assets/logos/epidiagnostics-logo.png' |   relative_url }}" height =45 alt="{% if site.title != 'blank' %}{{ site.title }}{% else %}{{ site.first_name }} {{ site.middle_name }}  {{ site.last_name }}{% endif %}"/>
+        <img src="{{ '/assets/img/logos/epidiagnostics-logo.png' |   relative_url }}" height =45 alt="{% if site.title != 'blank' %}{{ site.title }}{% else %}{{ site.first_name }} {{ site.middle_name }}  {{ site.last_name }}{% endif %}"/>
       </a>          
          {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
