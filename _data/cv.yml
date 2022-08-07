@@ -15,7 +15,7 @@
       institution: University of Pittsburgh, PA, USA
       year: 2019 - 2024
       description:
-        - Research Assistant in Data Science lab at ECE Department working under supervision of [Prof. Heng Huang](https://sites.pitt.edu/~heh45/).
+        - Research Assistant in Data Science lab at ECE Department working under supervision of <a href=(https://sites.pitt.edu/~heh45/)>Prof. Heng Huang</a>
 #        - Description 2.
 #        - title: Description 3.
 #          contents:
@@ -25,7 +25,7 @@
       institution: University of Tehran, Tehran, Iran.
       year: 2014 - 2019
       description:
-        - GPA: 18.85/20 (3.99/4), ranked 4th among 148 students (top 3%).
+        - GPA 18.85/20 (3.99/4), ranked 4th among 148 students (top 3%).
 
 - title: Experience
   type: time_table
