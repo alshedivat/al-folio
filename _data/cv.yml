@@ -40,14 +40,14 @@
   type: time_table
   contents:
     - title: Deep Learning Intern
-          institution: Enlitic Inc, San Fransico, CA, USA
-          year: 2021
-          description:
-            - Designed a new multi-label classification model capable of leveraging visual and characteristic similarity
-              of the disease during training to enhance the model’s performance. Moreover, in close collaboration with
-              Enlitic’s radiology team, I designed a new augmentation pipeline that mimics the lightning situation that
-              radiologists use in their daily decisions for each disease. The pipeline improved model training and the
-              final model’s accuracy
+      institution: Enlitic Inc, San Fransico, CA, USA
+      year: 2021
+      description:
+        - Designed a new multi-label classification model capable of leveraging visual and characteristic similarity
+          of the disease during training to enhance the model’s performance. Moreover, in close collaboration with
+          Enlitic’s radiology team, I designed a new augmentation pipeline that mimics the lightning situation that
+          radiologists use in their daily decisions for each disease. The pipeline improved model training and the
+          final model’s accuracy
 
     - title: Research Assistant
       institution: Electrical and Computer Engineering Department, University of Pittsburgh
