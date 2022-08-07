@@ -18,8 +18,10 @@ Hi! I am a Ph.D. student at Electrical and Computer Engineering Department at Un
 under supervision of [Prof. Heng Huang](https://sites.pitt.edu/~heh45/). My research interest is to make deep neural networks
 efficient and deployable in real-world applications. I am also interested in generative modeling and automated medical image analysis.  
 
+I spent Summer 2021 as a Deep Learning Intern at [Enlitic](https://www.enlitic.com/).
+
 Previously I get my Bachelor of Science (B.Sc) from University of Tehran, working with [Dr. Reshad Hosseini](https://ece.ut.ac.ir/en/~reshad.hosseini)
-on 3D Reconstruction of symmetric structures.
+on 3D Reconstruction of Symmetric Structures.
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
