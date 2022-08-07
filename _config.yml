@@ -70,9 +70,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: Alii-Ganjj # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: Alii_Ganjj # your Twitter handle
-linkedin_username: https://www.linkedin.com/in/alireza-ganjdanesh-bb28b0169/
+linkedin_username: alireza-ganjdanesh-bb28b0169
  # your LinkedIn user name
-scholar_userid: https://scholar.google.com/citations?user=T0TdGgwAAAAJ&hl=en&oi=ao
+scholar_userid: T0TdGgwAAAAJ
  # your Google Scholar ID
 orcid_id: 0000-0002-9324-6135 # your ORCID ID
 medium_username: # your Medium username
@@ -86,8 +86,8 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+#contact_note: >
+#  You can even add a little note about which of these is the best way to reach you.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
