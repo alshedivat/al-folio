@@ -17,6 +17,9 @@ nav: false
   - [*Finite Elements and Fast Iterative Solvers: with Applications in Incompressible Fluid Dynamics* by Howard Elman, David Silvester, and Andy Wathen](https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780199678792.001.0001/acprof-9780199678792)
   - [*Various Course notes* by Long Chen at University of California Irvine](https://www.math.uci.edu/~chenlong/lectures.html)
 
+**Ordinary Differential Equations (ODEs)**
+  - [*Parallel Time Integration* CBMS Conference (2022)](https://conferences.math.mtu.edu/cbms2020/program/)
+
 **Solvers**
   - [*Iterative Methods for Linear Systems* by Yousef Saad](https://www-users.cse.umn.edu/~saad/IterMethBook_2ndEd.pdf)
   - [*Multigrid Methods Tutorials* from Copper Mountain Conference](https://github.com/copper-multigrid-conference)
@@ -30,4 +33,4 @@ nav: false
   - [*Designing and Building Applications for Extreme Scale Systems (CS598)* by Bill Gropp at UIUC](http://wgropp.cs.illinois.edu/courses/cs598-s16/index.htm)
   - [*Parallel Computing and Algorithms courses* by James Demmel at University of California Berkeley](https://people.eecs.berkeley.edu/~demmel/)
   - [*Languages and Abstractions for High-Performance Scientific Computing (CS 598APK)* by Andreas Kloeckner at University of Illinois at Urbana-Champaign](https://relate.cs.illinois.edu/course/cs598apk-f18/)
-  - [*Heterogeneous and parallel programming course with an emphasis on CUDA*](http://lumetta.web.engr.illinois.edu/408-S22/)
+  - [*Heterogeneous and parallel programming course with an emphasis on CUDA* taught at UIUC](http://lumetta.web.engr.illinois.edu/408-S22/)
