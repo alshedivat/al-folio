@@ -19,12 +19,13 @@ nav: false
 
 **Ordinary Differential Equations (ODEs)**
   - [*Parallel Time Integration* CBMS Conference (2022)](https://conferences.math.mtu.edu/cbms2020/program/)
+    - [XBraid Documentation](https://github.com/XBraid/xbraid)
 
 **Solvers**
   - [*Iterative Methods for Linear Systems* by Yousef Saad](https://www-users.cse.umn.edu/~saad/IterMethBook_2ndEd.pdf)
   - [*Multigrid Methods Tutorials* from Copper Mountain Conference](https://github.com/copper-multigrid-conference)
     - [*A Multigrid Tutorial* by William L. Briggs, Van Emden Henson, and Steve F. McCormick](https://doi.org/10.1137/1.9780898719505)
-      - [Slides](https://www.caam.rice.edu/~caam551/mgtut.pdf) are also exist.
+      - [Slides](https://www.caam.rice.edu/~caam551/mgtut.pdf) also exist.
   - [*Multigrid* by Ulrich Trottenberg, Cornelius Oosterlee, and Anton Schuller](https://www.elsevier.com/books/multigrid/trottenberg/978-0-08-047956-9)
   - [*APPM 6640* at University of Colorado Boulder](https://grandmaster.colorado.edu/~stevem/appm6640/)
   
