@@ -21,6 +21,6 @@ My name is Zheyuan Zhang (张喆元 in chinese). You can call me Brian. I am an 
 
 Click to view my latest [Curriculum Vitae](assets/cv.pdf).
 
-My [research interests](blog/2022/about-my-research-interests/) lie in the intersection of artificial intelligence, robotics and cognitive science (cognitive psychology and neuroscience). I am particularly passionate about exploring how the brain works and how we understand the world. My goal is to build robots with high-level intelligence to have similar cognitive functionalities like humans and other animals, including perception, remembering, learning, reasoning, decision-making and motor control.
+My [research interests](blog/2022/research-interests/) lie in the intersection of artificial intelligence, robotics and cognitive science (cognitive psychology and neuroscience). I am particularly passionate about exploring how the brain works and how we understand the world. My goal is to build robots with high-level intelligence to have similar cognitive functionalities like humans and other animals, including perception, remembering, learning, reasoning, decision-making and motor control.
 
 I have many hobbies. In my spare time, I enjoy playing games and watching TV-series. I go to gym 3-5 times a week lifting weights to train my physique. Besides, I am an audiophile who loves Hi-Fi devices including headphones, speakers, DACs and amplifiers.
