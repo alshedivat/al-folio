@@ -2,7 +2,7 @@
 layout: page
 title: collaborators
 page-title: Collaborators
-permalink: /collaborators
+permalink: /collaborators.html
 nav: false
 nav_rank: 5
 nav_order: 5
