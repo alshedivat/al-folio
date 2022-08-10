@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Basics
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
@@ -13,7 +13,7 @@ profile:
     <p>650 E Tyler Mall</p>
     <p>Tempe, Arizona 85282</p>
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
