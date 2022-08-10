@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description:
+description: teaching assistant experience
 nav: true
 nav_order: 4
 ---
@@ -13,7 +13,9 @@ nav_order: 4
 Instructor: Dr. Weng Kee Wong
 
 <h2 class="category">{{"imperial"}}</h2>
+<font size="+2"><strong>Undergraduate Teaching Assistant</strong></font> <br />
+<font size="+1"><em>2020-2021 Academic Year</em></font> <br />
+Lead weekly sessions with first-year students to help them with their courses and solve problems in a group; support them in their transition to university.
 
-blah blah
 
 </div>
