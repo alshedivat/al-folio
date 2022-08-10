@@ -8,13 +8,13 @@
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
             {%- if site.title == "blank" -%}
               {%- if site.first_name -%}
-                <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
+              {{- site.first_name -}}&nbsp;
               {%- endif -%}
               {%- if site.middle_name -%}
                 {{- site.middle_name -}}&nbsp;
               {%- endif -%}
               {%- if site.last_name -%}
-                {{- site.last_name -}}
+                <span class="font-weight-bold">{{- site.last_name -}}</span>
               {%- endif -%}
             {%- else -%}
               {{- site.title -}}
@@ -51,16 +51,16 @@
                   {%- endif -%}
                 </a>
               </li>
-              {% if site.blog_nav_title %}
+              <!-- {% if site.blog_nav_title %} -->
               <!-- Blog -->
-              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+              <!-- <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
                 <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
                   {%- if page.url contains 'blog' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
-              </li>
-              {%- endif %}
+              </li> -->
+              <!-- {%- endif %} -->
 
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}

@@ -1,8 +1,12 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
-title: cv
+title: CV
 nav: true
 nav_order: 4
-cv_pdf: example_pdf.pdf
+
 ---
+
+
+Please feel free to contact me at: <b>ahmed</b><small>(dot)</small><b>abdeljawad</b><small>(at)</small><b>ricam</b><small>(dot)</small><b>oeaw</b><small>(dot)</small><b>ac</b><small>(dot)</small><b>at</b>
+for a detailed CV.
