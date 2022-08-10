@@ -6,6 +6,7 @@ description:
 nav: true
 nav_order: 4
 ---
+<div class="teaching">
 
 <h2 class="category">{{ ucla }}</h2>
 
@@ -16,4 +17,6 @@ Organize your courses by years, topics, or universities, however you like!
 
 <h2 class="category">{{ imperial }}</h2>
 
-blah blah 
+blah blah
+
+</div>
