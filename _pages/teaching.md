@@ -13,7 +13,7 @@ For now, this page is assumed to be a static description of your courses. You ca
 
 Organize your courses by years, topics, or universities, however you like!
 
-<h2 class="category">{{imperial}}</h2>
+<h2 class="category">{{"imperial"}}</h2>
 
 blah blah
 
