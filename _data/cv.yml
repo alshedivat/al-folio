@@ -40,7 +40,7 @@
             - Solve the single image super-resolution algorithm based on deep learning from the following two aspects
             - Adopt Transformer Encoder to abstract global features and apply it to whole image patches.
             - Add new constraint to shrink hypothesis space to find a more reasonable convergence position.
-        - title: Research Achievements:
+        - title: Research Achievements
           contents:
             - Designed a new model which the performance on test set is in the first echelon, and the details of the model need to be optimized.
             - Coded a deep learning training and testing system based on PyTorch.
