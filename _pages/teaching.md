@@ -14,6 +14,7 @@ nav_order: 5
 
 ---
 
-
-I was a TA for the [ECE 0401 - Analytical Methods](https://www.coursicle.com/pitt/courses/ECE/0401/) in Fall 2019. Then,
-I was the 
+- [ECE 0401 - Analytical Methods](https://www.coursicle.com/pitt/courses/ECE/0401/)  
+  I was a TA for the  in Fall 2019 semester. Then, I was the Chief TA of it for Spring and Fall 2020 semesters.
+- [ECE 1560 - Digital Signal Processing](https://www.coursicle.com/pitt/courses/ECE/1560/)  
+  I was the Chief TA of this course in the Spring 2021 semester.
