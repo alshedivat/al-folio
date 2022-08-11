@@ -1,9 +1,9 @@
 "ECCV":
   url: https://eccv2022.ecva.net/
-  color: "#00369f"
 
 "PNAS":
   url: https://academic.oup.com/pnasnexus
+  color: "#00369f"
 
 "MICCAI":
   url: https://www.miccai2020.org/en/

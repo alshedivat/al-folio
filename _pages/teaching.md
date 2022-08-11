@@ -6,7 +6,7 @@ permalink: /teaching/
 
 title: Teaching
 
-description: Materials for courses you taught. Replace this text with your description.
+[//]: # (description: Materials for courses you taught. Replace this text with your description.)
 
 nav: true
 
@@ -15,7 +15,5 @@ nav_order: 5
 ---
 
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-
-Organize your courses by years, topics, or universities, however you like!
+I was a TA for the [ECE 0401 - Analytical Methods](https://www.coursicle.com/pitt/courses/ECE/0401/) in Fall 2019. Then,
+I was the 
