@@ -17,9 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a 5th year PhD student at UIUC in the Scientific Computing group, working with [Luke Olson](https://lukeo.cs.illinois.edu/).
+I am a 5th-year Ph.D. student at UIUC in the Scientific Computing group, working with [Luke Olson](https://lukeo.cs.illinois.edu/).
 
-My research interests lie at the intersection of applied mathematics, high performance computing and physics/engineering applications. 
+My research interests lie at the intersection of applied mathematics, high-performance computing, and physics/engineering applications. 
 My current work involves developing numerical solvers for (non)linear PDE systems resulting from coupled physics and engineering applications. This includes the design of scalable parallel solvers based on monolithic multigrid preconditioners. 
 
 Please see my [CV](https://alexey-voronin.github.io/assets/pdf/alexey-voronin-cv.pdf) for more information.

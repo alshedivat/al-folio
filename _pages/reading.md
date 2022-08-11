@@ -2,10 +2,15 @@
 layout: page
 permalink: /reading/
 title: Reading
-description: Books, slides, courses and notebooks that I have found especially helpful during my time in the field of scientific computing. 
+description: Books, slides, courses, and notebooks that I have found especially helpful during my time in scientific computing. 
 
 nav: false
 ---
+
+**Linear Algebra**
+  - *Linear Algebra for Everyone* by Gilber Stang
+    - [*The Art of Linear Algebra* by Kenji Hiranabe](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra)
+      - gentle visual introduction to linear algebra
 
 **Scientific Computing**
   - [*Scientific Computing: An Introductory Survey* by Michael T. Heath](https://doi.org/10.1137/1.9781611975581)
@@ -29,9 +34,9 @@ nav: false
   - [*Multigrid* by Ulrich Trottenberg, Cornelius Oosterlee, and Anton Schuller](https://www.elsevier.com/books/multigrid/trottenberg/978-0-08-047956-9)
   - [*APPM 6640* at University of Colorado Boulder](https://grandmaster.colorado.edu/~stevem/appm6640/)
   
-**High Performance Computing (HPC)**
+**High-Performance Computing (HPC)**
   - [*MPI Tutorial* from Lawrence Livermore National Laboratory](https://hpc-tutorials.llnl.gov/mpi/)
   - [*Designing and Building Applications for Extreme Scale Systems (CS598)* by Bill Gropp at UIUC](http://wgropp.cs.illinois.edu/courses/cs598-s16/index.htm)
   - [*Parallel Computing and Algorithms courses* by James Demmel at University of California Berkeley](https://people.eecs.berkeley.edu/~demmel/)
-  - [*Languages and Abstractions for High-Performance Scientific Computing (CS 598APK)* by Andreas Kloeckner at University of Illinois at Urbana-Champaign](https://relate.cs.illinois.edu/course/cs598apk-f18/)
+  - [*Languages and Abstractions for High-Performance Scientific Computing (CS 598APK)* by Andreas Kloeckner at the University of Illinois at Urbana-Champaign](https://relate.cs.illinois.edu/course/cs598apk-f18/)
   - [*Heterogeneous and parallel programming course with an emphasis on CUDA* taught at UIUC](http://lumetta.web.engr.illinois.edu/408-S22/)

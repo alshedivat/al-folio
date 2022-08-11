@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: I served as a teaching assistant (TA) for the courses listed below. My dutites included leading discussion sessions, holding office hours, and course content creation.
+description: I served as a teaching assistant (TA) for the courses listed below. My duties included leading discussion sessions, holding office hours, and course content creation.
 nav: true
 ---
 
@@ -14,5 +14,5 @@ Undergraduate/graduate level course covering linear system solvers, optimization
 
 **Numerical Methods (CS357)**
 
-Undergraduate level course covering floating-point computation, systems of linear equations, approximation of functions and integrals, the single nonlinear equation, and the numerical solution of ordinary differential equations; various applications in science and engineering; programming exercises and use of high quality mathematical library routines.
+An undergraduate course covering floating-point computation, systems of linear equations, approximation of functions and integrals, the single nonlinear equation, and the numerical solution of ordinary differential equations; various applications in science and engineering; programming exercises, and use of high-quality mathematical library routines.
   - [Spring 2022](https://courses.grainger.illinois.edu/cs357/sp2022/), [Fall 2021](https://courses.grainger.illinois.edu/cs357/fa2021/), [Fall 2020](https://courses.grainger.illinois.edu/cs357/fa2020/)
