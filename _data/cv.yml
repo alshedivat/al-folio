@@ -9,16 +9,19 @@
 #      value: English, German
 
 - title: Research Interests
-#  type: nested_list
-  type: list
+  type: nested_list
+#  type: map
   contents:
-      - Efficient Deep Learning,
-      - Generative Modeling,  Medical Image Analysis.
+      - items:
+          - Efficient Deep Learning
+          - Generative Modeling
+          - Interpretable Machine Learning
+          - Medical Image Analysis
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: Ph.D. in Computer Engineering
       institution: University of Pittsburgh, PA, USA
       year: 2019 - 2024
       description:
