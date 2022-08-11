@@ -91,7 +91,7 @@ contact_note: # You can even add a little note about which of these is the best 
 google_analytics:  # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
-google_site_verification:  cQLSDxE2HoWUQrLwm0F5b7otqCrBkYF65uH7O1Ala5g # your google-site-verification ID (Google Search Console)
+google_site_verification: cQLSDxE2HoWUQrLwm0F5b7otqCrBkYF65uH7O1Ala5g # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
