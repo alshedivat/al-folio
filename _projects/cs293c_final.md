@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Blockchains for Business	Networks
-description: Blockchains for Business Networks
-img: assets/img/12.jpg
-importance: 1
-category: Thesis
+title: project 3
+description: a project that redirects to another website
+img: assets/img/CS293C_Final_Cover.webp
+importance: 3
+category: Class Projects
 ---
 
 Every project has a beautiful feature showcase page.

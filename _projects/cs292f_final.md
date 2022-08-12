@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: project 4
+description: another without an image
+img: assets/img/CS292F_Final_Cover.png
+importance: 3
+category: Class Projects
 ---
 
 Every project has a beautiful feature showcase page.
