@@ -4,3 +4,7 @@
 
 "PhysRev":
   url: https://journals.aps.org/
+
+"CoRR":
+  url: https://arxiv.org/corr
+  color: "#00369f"
