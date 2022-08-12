@@ -18,10 +18,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am Célia Wafa AYAD a Doctoral Researcher, under the supervision of Prof. <a href='https://jmread.github.io'>Jesse Read</a>, in the Data Science and Mining Team at the Laboratoire d'Informatique of École Polytechnique in France. Previously, 
+I am Célia Wafa AYAD a Ph.D candidate, under the supervision of Prof. <a href='https://jmread.github.io'>Jesse Read</a>, in the Data Science and Mining Team at the Laboratoire d'Informatique of École Polytechnique in France. Previously, 
 I completed my Masters in Machine Learning for Data Sciences at University of Paris.
 
-My current research interests include: ML Explainability, Probabilistic graphical models, Uncertainty quantification and Causality.
+My current research interests include: Machine Learning Explainability, Probabilistic Graphical Models, Uncertainty Quantification and Causality.
 
 My academic CV can be accessed <a href='#'>here</a>.
 
