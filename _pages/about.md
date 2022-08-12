@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>PhD candidate in Machine Learning</a>. wafa[dot]ayad[at]polytechnique[dot]edu
+subtitle: <a>PhD candidate in Machine Learning. <br>wafa [dot] ayad [at] polytechnique [dot] edu </a></a>
 
 profile:
   align: right
@@ -12,6 +12,7 @@ profile:
     <p>Office 1066</p>
     <p>1 Rue Honoré d'Estienne d'Orves</p>
     <p>91120 Palaiseau</p>
+
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
