@@ -64,21 +64,18 @@
         - Awarded 500€ for general academic success by the School of Science, Aalto
     - year: 2020
       items:
-        - Awarded 2x500€ for general academic success by the School of Science, Aalto
+        - Awarded 1000€ for general academic success by the School of Science, Aalto
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Massively Parallel Computation
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - The complexity landscape of LCL problems
+        - Connectivity
+        - Arboricity-based colorings
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Mountaineering, Alpinism
