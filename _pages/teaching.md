@@ -7,8 +7,8 @@ nav: true
 nav_order: 5
 ---
 
-**Advanced Course in Algorithms**
+**Advanced Course in Algorithms**<br/>
 Aalto University, Fall 2022
 
-**Principles of Algorithmic Techniques**
+**Principles of Algorithmic Techniques**<br/>
 Aalto University, Fall 2021
