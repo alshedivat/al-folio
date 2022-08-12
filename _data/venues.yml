@@ -8,3 +8,7 @@
 "DISC":
   url: http://www.disc-conference.org/wp/disc2021/
   color: "#00369f"
+
+"CoRR":
+  url: https://arxiv.org/corr
+  color: "#00369f"
