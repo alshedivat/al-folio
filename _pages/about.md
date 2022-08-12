@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.aalto.fi/en'>Aalto University</a>, <a href='https://research.cs.aalto.fi/theory/'>CS Theory Group</a> -- firstname.lastname [at] aalto.fi
+subtitle: <a href='https://www.aalto.fi/en'>Aalto University</a>, <a href='https://research.cs.aalto.fi/theory/'>CS Theory Group</a>
 
 profile:
   align: right
@@ -22,4 +22,4 @@ I am a second-year PhD student, advised by Prof. Jara Uitto. Funded by the Compu
 
 Interested in distributed systems and parallel computing, with an emphasis on the Massively Parallel Computation (MPC) model. Current research revolves around charting the complexity landscape of fundamental graph problems (Locally checkable labeling problems), and exploring the algorithmic applications of powerful probabilistic tools (e.g., Lovász local lemma) in the context of MPC. Other interests include graph algorithms, graph theory and optimization.
 
-Always up for new topics and collaboration.
+Always up for new topics and collaboration: firstname.lastname [at] aalto.fi
