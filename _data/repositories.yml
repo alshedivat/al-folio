@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - rustamlatypov
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - rustamlatypov/masters-thesis
+  - rustamlatypov/cpu-matrix-multiplication
+  - rustamlatypov/tile-matching
+  - rustamlatypov/parallel-radixsort
+  - rustamlatypov/bachelors-thesis
+  - rustamlatypov/genre-classification     
