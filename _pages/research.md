@@ -13,7 +13,7 @@ My recent work has been related to covariance estimation, small area estimation,
 
 I am particularly interested in improving inferential precision in settings where small sample sizes are obtained from multiple groups or sources. 
 
-<h3>Pre-Prints</h3>
+<h3>Preprints</h3>
 
 {% bibliography -f papers %}
 
