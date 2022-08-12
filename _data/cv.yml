@@ -36,43 +36,35 @@
       year: 2021 -
       description:
         - Charting the complexity landscape of fundamental graph problems, and exploring the algorithmic applications of powerful probabilistic tools in the context of Massively Parallel Computation.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+
+    - title: Research assistant
+      institution: Aalto University, Finland
+      year: 2020-2021
       description:
-        - Description 1.
-        - Description 2.
+        - Worked on distributed graph algorithms in low-space Massively Parallel Computation. Developed a deterministic, state-of-the-art 3-coloring algorithm for trees (Master’s thesis, see manuscript below).
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Giant Leap Intern
+      institution: Vaisala Oyj
+      year: 2019
       description:
+        - Developed software for forecasting 20% of the test failures in large scale radiosonde production using data mining, feature engineering and machine learning (XGBoost, Python).
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Research assistant
+      institution: Aalto University, Finland
+      year: 2018
+      description: Solved non-linear, ill-posed inverse problems for resistor networks both symbolically and numerically using the Gauss-Newton algorithm and Tikhonov regularization (Bachelor’s thesis, see project below).
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Granted 24-month funding for my doctoral studies by the Dept. of CS Aalto
+        - Awarded 1000€ for academic success in mathematics by the Professor E. J. Nyström Fund
+        - Awarded 500€ for general academic success by the School of Science, Aalto
+    - year: 2020
       items:
-        - Max Planck Medal
+        - Awarded 2x500€ for general academic success by the School of Science, Aalto
 
 - title: Academic Interests
   type: nested_list
