@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>PhD candidate in Machine Learning</a>
+subtitle: <a href='#'>PhD candidate in Machine Learning</a>. wafa[dot]ayad[at]polytechnique[dot]edu
 
 profile:
   align: right
@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 I am Célia Wafa AYAD a Doctoral Researcher, under the supervision of Prof. <a href='https://jmread.github.io'>Jesse Read</a>, in the Data Science and Mining Team at the Laboratoire d'Informatique of École Polytechnique in France. Previously, 
 I completed my Masters in Machine Learning for Data Sciences at University of Paris.
 
-My current research interests include: 
+My current research interests include: ML Explainability, Probabilistic graphical models, Uncertainty quantification and Causality.
 
 My academic CV can be accessed <a href='#'>here</a>.
 
