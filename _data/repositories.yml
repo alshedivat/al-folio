@@ -3,8 +3,8 @@ github_users:
 
 github_repos:
   - rustamlatypov/masters-thesis
-  - rustamlatypov/bachelors-thesis
   - rustamlatypov/cpu-matrix-multiplication
   - rustamlatypov/parallel-radixsort
+  - rustamlatypov/bachelors-thesis
   - rustamlatypov/tile-matching
   - rustamlatypov/genre-classification

@@ -2,32 +2,31 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Rustam Latypov
     - name: Date of Birth
-      value: 14th March 1879
+      value: 18th Februay 1995
     - name: Languages
-      value: English, German
+      value: Finnish, Russian, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Science
+      institution: Aalto University, Finland
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Mathematics and Operations Research (GPA 4.9/5)
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Major Applied Mathematics
+            - Minor Computer Science
+    - title: Bachelor of Science
+      institution: Aalto University, Finland
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
-
+        - Engineering Physics and Mathematics
+          contents:
+            - Major Mathematics and Systems Analysis
+            - Minor Computer Science
 - title: Experience
   type: time_table
   contents:
@@ -72,18 +71,18 @@
   type: time_table
   contents:
     - year: 1921
-      items: 
-        - Nobel Prize in Physics 
+      items:
+        - Nobel Prize in Physics
         - Matteucci Medal
     - year: 2029
-      items: 
+      items:
         - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Topic 1.
-      items: 
+      items:
         - Description 1.
         - Description 2.
     - title: Topic 2.
