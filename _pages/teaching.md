@@ -7,6 +7,8 @@ nav: true
 nav_order: 5
 ---
 
-2022 Advanced Course in Algorithms (Head TA)
+**Advanced Course in Algorithms**
+Aalto University, Fall 2022
 
-2021 Principles of Algorithmic Techniques (TA)
+**Principles of Algorithmic Techniques**
+Aalto University, Fall 2021
