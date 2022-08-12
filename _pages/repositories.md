@@ -2,9 +2,9 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: 
+description:
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 ## GitHub users

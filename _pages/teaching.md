@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description:
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 **Advanced Course in Algorithms** - <a href="https://sisu.aalto.fi/student/courseunit/otm-27b3b776-0001-4f5c-b42a-219b28a7cbe7/brochure">CS-E4500</a><br/>
