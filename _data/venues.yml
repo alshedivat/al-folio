@@ -1,14 +1,7 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
 "DISC":
   url: http://www.disc-conference.org/wp/disc2021/
-  color: "#00369f"
+  color: "#009E69"
 
 "CoRR":
   url: https://arxiv.org/corr
-  color: "#00369f"
+  color: "#888178"
