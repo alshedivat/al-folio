@@ -41,7 +41,7 @@
       institution: Aalto University, Finland
       year: 2020-2021
       description:
-        - Worked on distributed graph algorithms in low-space Massively Parallel Computation. Developed a deterministic, state-of-the-art 3-coloring algorithm for trees (Master’s thesis, see manuscript below).
+        - Worked on distributed graph algorithms in low-space Massively Parallel Computation. Developed a deterministic, state-of-the-art 3-coloring algorithm for trees.
 
     - title: Giant Leap Intern
       institution: Vaisala Oyj
@@ -52,7 +52,7 @@
     - title: Research assistant
       institution: Aalto University, Finland
       year: 2018
-      description: Solved non-linear, ill-posed inverse problems for resistor networks both symbolically and numerically using the Gauss-Newton algorithm and Tikhonov regularization (Bachelor’s thesis, see project below).
+      description: Solved non-linear, ill-posed inverse problems for resistor networks both symbolically and numerically using the Gauss-Newton algorithm and Tikhonov regularization.
 
 - title: Honors and Awards
   type: time_table
@@ -72,6 +72,7 @@
     - title: Massively Parallel Computation
       items:
         - The complexity landscape of LCL problems
+        - Probabilistic methods
         - Arboricity-based colorings
         - Connectivity
 
