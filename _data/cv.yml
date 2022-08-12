@@ -72,12 +72,10 @@
     - title: Massively Parallel Computation
       items:
         - The complexity landscape of LCL problems
-        - Connectivity
         - Arboricity-based colorings
+        - Connectivity
 
 - title: Other Interests
   type: list
   contents:
-    - Mountaineering
-    - Alpinism
-    - Analog photography
+    - Mountaineering, Alpinism, Analog photography
