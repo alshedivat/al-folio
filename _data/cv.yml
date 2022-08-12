@@ -16,7 +16,7 @@
       institution: Aalto University, Finland
       year: 2019 - 2021
       description:
-        - title: Mathematics and Operations Research -- GPA 4.9/5
+        - title: Mathematics and Operations Research - GPA 4.9/5
           contents:
             - Major in Applied Mathematics
             - Minor in Computer Science
@@ -24,23 +24,18 @@
       institution: Aalto University, Finland
       year: 2016 - 2019
       description:
-        - title: Engineering Physics and Mathematics -- GPA 4.9/5
+        - title: Engineering Physics and Mathematics - GPA 4.9/5
           contents:
             - Major in Mathematics and Systems Analysis
             - Minor in Computer Science
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Doctoral candidate
+      institution: Aalto University, Finland
+      year: 2021 -
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Charting the complexity landscape of fundamental graph problems, and exploring the algorithmic applications of powerful probabilistic tools in the context of Massively Parallel Computation.
     - title: Visiting Professor
       institution: California Institute of Technology, Pasadena, California, US
       year: 1933
