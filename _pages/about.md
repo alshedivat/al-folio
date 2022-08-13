@@ -14,7 +14,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an incoming Fall 2022 MSE CS student at Johns Hopkins University's Whiting School of Engineering. For the past 2 years I was working as an [Associate Machine Learning Scientist-I (formerly Research Fellow)](https://www.wadhwaniai.org/team/pulkit-madaan/) at [Wadhwani Institute for Artificial Intelligence](https://www.wadhwaniai.org/), a non-profit organisation using AI for Social Good. I am interested in working on AI solutions that lead to on-ground change. My broad interests include AI for Impact, AI for Social Good, Representation Learning, Machine Translation, Object Detection and Deep Learning in general.
+I am an incoming Fall 2022 MSE CS student at Johns Hopkins University's Whiting School of Engineering. 
+For the past 2 years I was working as an [Associate Machine Learning Scientist-I (formerly Research Fellow)](https://www.wadhwaniai.org/team/pulkit-madaan/) at [Wadhwani Institute for Artificial Intelligence](https://www.wadhwaniai.org/), a non-profit organisation using AI for Social Good. I am interested in working on AI solutions that lead to on-ground change. My broad interests include AI for Impact, AI for Social Good, Representation Learning, Machine Translation, Object Detection and Deep Learning in general.
 
 At Wadhwani AI I am currently woking on an AI solution for small to medium landholder farmers to predict pest infestation in their farms. This [project](https://www.wadhwaniai.org/work/cotton-farming) reached 15,000 farmers in 4 districts across 3 of the largest cotton-producing states in India, who saw a benefit through increase in profit as well as a reduction in pesticide cost.
 
