@@ -17,7 +17,9 @@
       year: 2021 -
       description:
         - title: Computer Science
-        
+          contents:
+            - Major in Applied Mathematics
+            - Minor in Computer Science
     - title: Master of Science
       institution: Aalto University, Finland
       year: 2019 - 2021
