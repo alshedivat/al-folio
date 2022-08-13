@@ -1,10 +1,11 @@
 ---
-layout: page
 title: project 4
+categories:
+- fun
+layout: page
 description: another without an image
-img:
+img: 
 importance: 3
-category: fun
 ---
 
 Every project has a beautiful feature showcase page.
