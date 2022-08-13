@@ -12,11 +12,12 @@
 - title: Education
   type: time_table
   contents:
-    - title: Master of Science
+    - title: Doctor of Science
       institution: Aalto University, Finland
-      year: 2019 - 2021
+      year: 2021 -
       description:
-        - title: Mathematics and Operations Research - GPA 4.9/5
+        - title: Computer Science
+        
     - title: Master of Science
       institution: Aalto University, Finland
       year: 2019 - 2021
