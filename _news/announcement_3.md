@@ -1,8 +1,7 @@
-<!---
 ---
 layout: post
-date: 2020-09-7 07:59:00-0400
+date: 2021-04-21 15:59:00-0400
 inline: true
 ---
 
-Submitted our work on boosting adversarial robustness using feature level stochastic smoothing at AAAI 2021. --->
+Started working as a research intern at [Theoretical foundations in AI](https://www.in.tum.de/tfai/people/students-and-interns) at the [Technical University of Munich](https://www.tum.de/).
