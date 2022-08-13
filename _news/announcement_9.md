@@ -1,8 +1,6 @@
-<!--- ---
+---
 layout: post
-# title: A long announcement with details
-date: 2021-11-19 16:11:00-0400
+date: 2022-04-20 15:59:00-0400
 inline: true
 ---
-
-Submitted our work on Scaling adversarial training to large perturbation bounds at CVPR 2021. --->
+Glad to be recognized as [Outstanding Reviewer](https://cvpr2022.thecvf.com/outstanding-reviewers) (top 200 reviewers) at CVPR 2022.
