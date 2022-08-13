@@ -17,4 +17,4 @@ I am an Economics enthusiast from Nicaragua. My current academic interests are M
 
 Prior to attending Universidad Centroamericana (UCA), I partook in some mathematical olympiads, most notably, the International Mathematical Olympiad (IMO) and the Iberoamerican Mathematical Olympiad (IbMO). I graduated *Magna Cum Laude* from UCA in April 2021 with a Bachelor's Degree in Applied Economics.
 
-I will join the Economics Department of Emory University as a Ph.D. student in Fall 2022.
+Currently, I am a first year Ph.D. student in Economics at Emory University
