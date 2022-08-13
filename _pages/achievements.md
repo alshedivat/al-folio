@@ -9,12 +9,13 @@ nav: true
 
 **Reviewer**
  
-  * Serving as a reviewer at **ICLR 2022** and **CVPR 2022**.
+  * Served as a reviewer at **ICLR 2022**, **CVPR 2022**, **ECCV 2022** and **NeurIPS 2022**.
   * Subreviewer: ICML 2021, ICCV 2021, NeurIPS 2021.
   * Volunteer: ICML 2021, NeurIPS 2021.
 
 **Achievements**
-   
+* Recognized as an Outstanding reviewer at CVPR 2022.
+* Recognized as a highlighted reviewer at ICLR 2022.
 * Recipient of [DAAD-WISE](https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015295) a prestigious research oriented scholarship 
 programme by German Government.
 
