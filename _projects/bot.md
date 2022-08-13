@@ -1,7 +1,7 @@
 ---
 title: Bilkent Companion Bot
 date: 2021-10-17 17:00:00 Z
-categories:
+category:
 - fun
 layout: page
 description: A multifunctional Telegram bot.Sends daily menus of Bilkent University

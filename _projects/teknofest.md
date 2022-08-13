@@ -1,6 +1,6 @@
 ---
 title: Autonomous Object Tracking UAV
-categories:
+category:
 - work
 layout: page
 description: TEKNOFEST 2021 3th Place

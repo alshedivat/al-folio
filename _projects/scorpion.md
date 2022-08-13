@@ -1,6 +1,6 @@
 ---
 title: Medieval Scorpion
-categories:
+category:
 - fun
 layout: page
 description: Medieval style wheeled scorpion with a range of 70 meters (security measures

@@ -1,6 +1,6 @@
 ---
 title: On Campus Matcher App
-categories:
+category:
 - work
 layout: page
 description: A mobile app that aims to make university students more social.

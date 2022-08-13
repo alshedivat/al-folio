@@ -1,6 +1,6 @@
 ---
 title: Bilkent Section Selection Wizard
-categories:
+category:
 - fun
 layout: page
 description: The program calculates and lists each instructor's average evaluations
