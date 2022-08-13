@@ -1,8 +1,8 @@
 ---
 title: Announcement_1
-date: 2015-10-22 19:59:00 Z
+date: 2020-09-30 19:00:00 Z
 layout: post
 inline: true
 ---
 
-A simple inline announcement.
+Bilkent CS: I started computer engineering at Bilkent University.
