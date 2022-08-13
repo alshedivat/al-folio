@@ -1,6 +1,6 @@
 ---
 title: VEDES Project
-categories:
+category:
 - work
 layout: page
 description: VEDES is a comprehensive system that maximizes up to 90% better power

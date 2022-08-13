@@ -1,7 +1,7 @@
 ---
 title: VisionPad
 date: 2013-10-17 17:00:00 Z
-categories:
+category:
 - fun
 layout: page
 description: VisionPad is a trackpad. It uses a camera to detect finger movements
