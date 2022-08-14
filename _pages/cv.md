@@ -28,7 +28,7 @@ See [Publications](https://jbacaob.github.io/publications/) page.
 
 ## Technical skills
 
-* R, Python, Stata, EViews, SQL, Spreadsheets, $\LaTeX$, JabRef, Mendeley.
+* R, Python, Stata, EViews, SQL, Spreadsheets, $$\LaTeX$$, JabRef, Mendeley.
 
 ## Volunteering
 
