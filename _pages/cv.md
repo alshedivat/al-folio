@@ -22,13 +22,13 @@ See [Publications](https://jbacaob.github.io/publications/) page.
 * Economics, Finance, and Development Award 2020, Central Bank of Nicaragua. Third place with the research paper ["Economic Growth and the External Constraint in a Multisectoral and Multilateral Framework: The Case of Nicaragua"](https://www.bcn.gob.ni/system/files_force/documentos/DT085_Crecimiento_econ%C3%B3mico_y_la_restricci%C3%B3n_externa.pdf?download=1).
 * Knowledge Production Contest "Humanity in the face of Global Challenges: COVID-19", Universidad Centroamericana, 2020. Essay category, first place.
 * Business & Economic Sciences Faculty, Universidad Centroamericana. Academic Excellence Certificates 2017-2020.
-* Bronze Medal, 31st Iberoamerican Mathematical Olympiad 2016, Chile.
-* Silver Medal, Iranian Geometry Olympiad 2016, Advanced Level.
-* Honourable Mention, 56th International Mathematical Olympiad 2015, Thailand.
+* Bronze Medal, 2016 Iberoamerican Mathematical Olympiad, Chile.
+* Silver Medal, 2016 Iranian Geometry Olympiad, Advanced Level.
+* Honourable Mention, 2015 International Mathematical Olympiad, Thailand.
 
 ## Technical skills
 
-* R, Python, Stata, EViews, SQL, Spreadsheets, $\LaTeX$, JabRef, Mendeley
+* R, Python, Stata, EViews, SQL, Spreadsheets, $\LaTeX$, JabRef, Mendeley.
 
 ## Volunteering
 
