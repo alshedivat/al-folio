@@ -10,8 +10,8 @@ nav: true
 ## Education
 
 * Ph.D. in Economics, Emory University. August 2022 - May 2027 (expected).
-
-* B. Sc. in Applied Economics, Universidad Centroamericana. April 2021, Magna Cum Laude Distinction.
+* B. Sc. in Applied Economics, Universidad Centroamericana (UCA). April 2021, Magna Cum Laude Distinction.
+* High School Certificate, Instituto Nacional de Excelencia Académica Sandino (IDEAS).
 
 ## Publications
 
