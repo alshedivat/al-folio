@@ -17,7 +17,7 @@ description: Ege'de bir haftalık gezimizden kısa notlar
     <li>Pamukkale Travertenleri, Pamukkale, Denizli</li>
     <li>Afrodisias Antik Kenti, Geyre, Aydın</li>
     <li>Kuşadası, Aydın</li>
-    <li>Efes Antik Kenti, Selçuk, Zzmir</li>
+    <li>Efes Antik Kenti, Selçuk, İzmir</li>
     <li>Alsancak ve Karşıyaka, İzmir</li>
     <li>Bergama Antik Kenti, İzmir"</li>
     <li>Ayvalık ve Alibey Adası, Ayvalık, Balıkesir</li>
