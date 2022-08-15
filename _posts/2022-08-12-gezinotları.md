@@ -16,14 +16,14 @@ description: Ege'de bir haftalık gezimizden kısa notlar
     <li>Hierapolis Antik Kenti, Pamukkale, Denizli</li>
     <li>Pamukkale Travertenleri, Pamukkale, Denizli</li>
     <li>Afrodisias Antik Kenti, Geyre, Aydın</li>
-    <li>Kuşadası, Aydın<li>
-    <li>Efes Antik Kenti, Selçuk, Zzmir<li>
-    <li>Alsancak ve Karşıyaka, İzmir<li>
-    <li>Bergama Antik Kenti, İzmir"<li>
-    <li>Ayvalık ve Alibey Adası, Ayvalık, Balıkesir<li>
+    <li>Kuşadası, Aydın</li>
+    <li>Efes Antik Kenti, Selçuk, Zzmir</li>
+    <li>Alsancak ve Karşıyaka, İzmir</li>
+    <li>Bergama Antik Kenti, İzmir"</li>
+    <li>Ayvalık ve Alibey Adası, Ayvalık, Balıkesir</li>
 </ul>
 
 <blockquote>
     Güncellenecektir.
-    —A
+    — A
 </blockquote>
