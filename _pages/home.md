@@ -2,9 +2,9 @@
 title: My Brain
 permalink: "/brain"
 layout: page
-nav_order: 6
+nav_order: 4
 description: 
-nav: false
+nav: true
 ---
 
 [LINKS](https://alpsencer.com/links)  
