@@ -15,9 +15,6 @@ Awards given at the Music Encoding Conference are listed below
     <tr>
       {% for pair in row %}
         <th>{{ pair[0] }}</th>
-        <td style="margin: auto;">
-      {% endfor %}
-      </td>
       {% endfor %}
     </tr>
     {% endif %}
