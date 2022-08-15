@@ -312,6 +312,14 @@ footer.sticky-bottom {
   }
 }
 
+// Repositories
+
+@media (min-width: 768px) {
+  .repo {
+    max-width: 50%;
+  }
+}
+
 // Blog
 
 .header-bar {
