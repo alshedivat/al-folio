@@ -1,5 +1,5 @@
 ---
-title: My Brain
+title: brain
 permalink: "/brain"
 layout: page
 nav_order: 4
@@ -7,11 +7,12 @@ description:
 nav: true
 ---
 
-[LINKS](https://alpsencer.com/links)  
+[Links](https://alpsencer.com/links)  
 
-[BOOKS](https://alpsencer.com/books)  
+[Readings](https://alpsencer.com/books)  
 
-[MOVIES](https://alpsencer.com/movies)  
+[Movies](https://alpsencer.com/movies)  
 
-[PEOPLE](https://alpsencer.com/people)  
+[People](https://alpsencer.com/people)  
 
+[Youtube Channels](https://alpsencer.com/people) 
