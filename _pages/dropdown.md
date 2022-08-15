@@ -13,9 +13,8 @@ children:
   permalink: "/people/"
 - title: Links
   permalink: "/links/"
-- title: Course Notes
+- title: Notes
   permalink: "/course-notes/"
-- title: ENG 102 Calc
-  permalink: "/eng-102-calc/"
+
 ---
 
