@@ -1,5 +1,5 @@
 ---
-title: Repositories
+title: repositories
 permalink: "/repositories/"
 layout: page
 description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos`
