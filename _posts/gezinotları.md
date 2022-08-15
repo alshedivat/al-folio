@@ -1,13 +1,12 @@
 ---
-title: a post with formatting and links
-date: 2015-03-15 16:40:16 Z
+title: Ege Gezisi Notları
+date: 2022-08-12 08:40:16 Z
 categories:
-- sample-posts
+- travel
 tags:
-- formatting
-- links
+- travel
 layout: post
-description: march & april, looking forward to summer
+description: Ege'de bir haftalık gezimizden kısa notlar
 ---
 
  Seyahate başlamadan önce seyahat planımızı anlatarak başlayayım. Planımızı tek bir çanta eşya ile yaşanabilecek ortalama bir süre olarak 7 ila 10 gün arasını hedefleyerek başladık. Ege'yi dolaşmayı istememdeki en büyük neden ise bölgedeki tarihi kalıntıları görmekti. Bu neden rotamızı Denizli Hierapolis'ten başlatarak ve Balıkesir Ayvalık'ta bitirerek, genel olarak Orta Ege'yi dahil edecek şekilde belirledik. Planımızda antik kentler ve müzeler ağırlıklı olsa da ara arZ dinlenmeyi ve doğal güzelliklere de göz atmayı da unutmadık.
