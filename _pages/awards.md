@@ -6,12 +6,16 @@ description:
 ---
 Awards given at the Music Encoding Conference are listed below
 
-<table>
+<div>
+<div class="col-xs-12">
+
+<table style="margin: auto;">
 {% for row in site.data.awards %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
         <th>{{ pair[0] }}</th>
+        <td style="margin: auto;"
       {% endfor %}
     </tr>
     {% endif %}
@@ -21,3 +25,5 @@ Awards given at the Music Encoding Conference are listed below
     {% endtablerow %}
   {% endfor %}
 </table>
+</div>
+</div>
