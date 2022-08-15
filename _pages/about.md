@@ -11,6 +11,7 @@ profile:
 news: true
 selected_papers: true
 social: true
+image_cicular: true # crops the image to make it circular 
 ---
 
 I am,
