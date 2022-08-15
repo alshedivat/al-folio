@@ -74,6 +74,8 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://manandey.github.io" target="_blank">★</a>
 <a href="https://johanneshoerner.github.io" target="_blank">★</a>
 <a href="https://ioannismavromatis.com" target="_blank">★</a>
+<a href="https://taidnguyen.github.io" target="_blank">★</a>
+<a href="https://lbugnon.github.io" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -85,6 +87,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://decisionlab.ucsf.edu/" target="_blank">★</a>
 <a href="https://programming-group.com/" target="_blank">★</a>
 <a href="https://sailing-lab.github.io/" target="_blank">★</a>
+<a href="https://inbt.jhu.edu/epidiagnostics/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
