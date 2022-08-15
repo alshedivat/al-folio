@@ -1,16 +1,10 @@
 ---
-title: about
-permalink: "/"
-layout: about
+title: My Brain
+permalink: "/brain"
+layout: page
 nav_order: 6
-subtitle: 
-profile:
-  align: right
-  image: ProfilePhoto.png
-  address: "<p>Bilkent University</p> <p>Ankara, Turkey</p>\n"
-news: true
-selected_papers: true
-social: true
+description: 
+nav: false
 ---
 
 [LINKS](https://alpsencer.com/links)  
