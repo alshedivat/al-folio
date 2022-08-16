@@ -25,6 +25,19 @@ ___
   * that my work is of interest to you; and
   * include the sentence "mantua me genuit" somewhere random in the email.
 
+___
+
 ## useful resources for students
 
 Under construction.
+
+___
+
+## mentorship and student advising
+
+* **[Gabriel Raulet](https://www.linkedin.com/in/gabriel-raulet-207b7b214)** (LBNL), since Fall 2021.
+* **David Schober** (ETH Zürich), Fall 2021, jointly with [Can Firtina](https://ee.ethz.ch/the-department/people-a-z/person-detail.MjQ2MzEx.TGlzdC8zMjc5LC0xNjUwNTg5ODIw.html).
+* **[Helena (Lena) Duplechin Seymour](https://www.linkedin.com/in/helena-lena-duplechin-seymour/)** (Washington State), Fall 2021, [SC21 Mentor-Protégé](https://sc21.supercomputing.org/program/studentssc/mentor-protege-matching/).
+* **Bridget Agyare** (Undergrad, UC Berkeley), Summer/Fall 2021.
+* **Richard Lettich** (Undergrad, UC Berkeley), Spring/Summer 2021.
+* **[Elizabeth Koning](https://kodingkoning.github.io/)** (Currently Grad Student, UIUC), Summer 2019. Summer Undergraduate Program in Engineering Research at UC Berkeley ([SUPERB](https://eecs.berkeley.edu/resources/undergrads/research/superb)) mentor. 
