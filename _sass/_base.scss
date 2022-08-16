@@ -500,7 +500,7 @@ footer.sticky-bottom {
           color: var(--global-bg-color) !important;
           background-color: var(--global-theme-color);
           a {
-            color: var(--global-text-color);
+            color: var(--global-bg-color);
             &:hover {
               text-decoration: none;
             }
