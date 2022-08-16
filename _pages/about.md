@@ -8,10 +8,10 @@ profile:
   align: right
   image: ProfilePhoto.png
   address: "<p>Bilkent University</p> <p>Ankara, Turkey</p>\n"
+  image_cicular: true # crops the image to make it circular 
 news: true
 selected_papers: true
 social: true
-image_cicular: true # crops the image to make it circular 
 ---
 
 I am,
