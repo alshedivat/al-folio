@@ -13,7 +13,7 @@ ___
 
 * I'm interested in students with background and strong research interest in High-Performance Computing and Parallel Programming and Systems research; interest in Computatational Sciences (e.g., Computational Biology) is a plus.
 
-* Be aware that I ignore any email that doesn't clearly indicate a genuine interest in my work. 
+* Please be aware that I ignore any email that doesn't indicate a genuine interest in my work. 
 
 * To express interest in my work, you would need to show that you:
   * have an idea of what I do;
@@ -26,6 +26,9 @@ ___
 ## useful resources for students
 
 Under construction.
+
+* [Non-Technical Talks by David Patterson, UC Berkeley](https://people.eecs.berkeley.edu/~pattrsn/talks/nontech.html).
+* ...
 
 ___
 
