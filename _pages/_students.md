@@ -18,7 +18,7 @@ ___
 
 <!-- * It is fine if you don't have a strong background and research experience in High-Performance Computing and Parallel Programming, but then you must make a special effort to show me why you are interested in my work and why you think you are a good fit for my research. If you are interested in Deep Learning, Data Science, and the like (i.e., not Parallel Programming and Systems) without clearly explaining why this is of interest to me and my research, I will ignore your email.
  -->
-* To express interest in my work, you must show that you:
+* To express interest in my work, you would need to show that you:
   * have an idea of what I do;
   * have a background that at least intrigues me;
   * that my work is of interest to you; and
