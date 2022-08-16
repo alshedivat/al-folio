@@ -94,7 +94,7 @@ blockquote {
 
 .profile {
   margin-left: 1rem;
-  width: 100%;
+  width: 30%;
 
   .address {
     margin-bottom: 5px;
@@ -107,7 +107,7 @@ blockquote {
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 300px) {
   .profile {
     width: 30%;
     .address {
