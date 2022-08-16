@@ -15,6 +15,6 @@ nav: true
 
 [People](https://alpsencer.com/people)  
 
-[Youtube Channels](https://alpsencer.com/ytchannels)  
+[Youtube Channels](https://alpsencer.com/youtube-channels)  
 
 [Music](https://alpsencer.com/music) 
