@@ -2,7 +2,7 @@
 layout: page
 title: students
 permalink: /students/
-description: Collection of useful (and sometime critical) information for students
+description: Collection of useful (and sometime critical) information for students.
 nav: true
 ---
 ___
