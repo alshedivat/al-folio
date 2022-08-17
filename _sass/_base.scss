@@ -475,7 +475,6 @@ footer.sticky-bottom {
     }
     .card-title {
       color: var(--global-theme-color);
-      font-size: 0.6em;
     }
   }
 
@@ -492,10 +491,6 @@ footer.sticky-bottom {
   .grid-sizer, .grid-item {
     width: 100px;
     margin-bottom: 10px;
-  }
-
-  h2{
-    font-size: 0.61em; // changes title font size ??
   }
 
   h2.category {
