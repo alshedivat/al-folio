@@ -1,113 +1,48 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{ponton2022mmvr,
+	bibtex_show={true},
+    author = {Ponton, J.L. and Yun, H. and Andujar, C. and Pelechano, N.},
+    title = {Combining Motion Matching and Orientation Prediction to Animate Avatars for Consumer-Grade VR Devices},
+	booktitle = {ACM SIGGRAPH / Eurographics Symposium on Computer Animation},
+    journal = {Computer Graphics Forum},
+	year  = {2022},
+	month = {September},
+	preview = {mmvr.gif},
+	selected = {true},
+	code={https://github.com/UPC-ViRVIG/MMVR},
+	website={https://upc-virvig.github.io/MMVR/},
+	pdf={mmvr_sca2022.pdf},
+	preview={mmvr.gif},
+	abstract={The animation of user avatars plays a crucial role in conveying their pose, gestures, and relative distances to virtual objects
+				or other users. Consumer-grade VR devices typically include three trackers: the Head Mounted Display (HMD) and
+				two handheld VR controllers. Since the problem of reconstructing the user pose from such sparse data is ill-defined,
+				especially for the lower body, the approach adopted by most VR games consists of assuming the body orientation matches
+				that of the HMD, and applying animation blending and time-warping from a reduced set of animations. Unfortunately, this
+				approach produces noticeable mismatches between user and avatar movements. In this work we present a new approach to
+				animate user avatars for current mainstream VR devices. First, we use a neural network to estimate the user’s
+				body orientation based on the tracking information from the HMD and the hand controllers. Then we use this orientation
+				together with the velocity and rotation of the HMD to build a feature vector that feeds a Motion Matching algorithm. We built a
+				MoCap database with animations of VR users wearing a HMD and used it to test our approach on both self-avatars and other
+				users’ avatars. Our results show that our system can provide a large variety of lower body animations while correctly matching
+				the user orientation, which in turn allows us to represent not only forward movements but also stepping in any direction.}
 }
 
-@book{einstein1956investigations,
+@inproceedings {ponton2022avatargo,
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  booktitle = {Eurographics 2022 - Short Papers},
+  title = {{AvatarGo: Plug and Play self-avatars for VR}},
+  author = {Ponton, J.L. and Monclus, E. and Pelechano, N.},
+  month = {May},
+  year = {2022},
+  publisher = {The Eurographics Association},
+  ISSN = {1017-4656},
+  ISBN = {978-3-03868-169-4},
+  doi = {10.2312/egs.20221037},
+  preview={avatargo.gif},
+  selected={true},
+  code={https://github.com/UPC-ViRVIG/AvatarGo},
+  pdf={avatarGo_shortEG2022.pdf},
+  abstract={The use of self-avatars in a VR application can enhance presence and embodiment which leads to a better user experience. In collaborative VR it also facilitates non-verbal communication. Currently it is possible to track a few body parts with cheap trackers and then apply IK methods to animate a character. However, the correspondence between trackers and avatar joints is typically fixed ad-hoc, which is enough to animate the avatar, but causes noticeable mismatches between the user's body pose and the avatar. In this paper we present a fast and easy to set up system to compute exact offset values, unique for each user, which leads to improvements in avatar movement. Our user study shows that the Sense of Embodiment increased significantly when using exact offsets as opposed to fixed ones. We also allowed the users to see a semitransparent avatar overlaid with their real body to objectively evaluate the quality of the avatar movement with our technique.}
 }
