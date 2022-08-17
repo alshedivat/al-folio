@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://www.upc.edu/en'>UPC</a>. Computer Animation. Machine Learning. Computer Graphics. XR.
 
