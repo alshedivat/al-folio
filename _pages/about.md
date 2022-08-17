@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi everyone! My name is Le Hoang Khanh, but you can call me Harry. <br>
+Hi! Thank you for stopping by. My name is Le Hoang Khanh, but you can call me Harry. <br>
 I spent 3 years in high school learning and taking some Competitive Programming. <br>
 I graduated in Ho Chi Minh University of Technology, major in electrical Engineering. <br>
 I'm a Math and Data Science Enthusiast. Got some experiences at various domains such as: Embedded, Hardware Design, E-commerce, Digital Marketing, Bank & Finance, Web Development and Data Science of course. <br> <br>
