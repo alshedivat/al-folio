@@ -494,9 +494,12 @@ footer.sticky-bottom {
     margin-bottom: 10px;
   }
 
+  h2{
+    font-size: 0.61em; // changes title font size ??
+  }
+
   h2.category {
     color: var(--global-divider-color);
-    font-size: 0.6em; //useless
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
