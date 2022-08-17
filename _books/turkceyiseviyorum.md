@@ -1,13 +1,17 @@
 ---
+title: I Love Turkish Desktop Game
+category:
+- work
 layout: page
-title: Akış | Mutluluk Bilimi
-description: a book with a background image
-img: https://i.dr.com.tr/cache/500x400-0/originals/0001701127001-1.jpg
-importance: 1
-category: development
+description: A game app that aims to make people to learn Turkish language and its
+  rules while having fun.
+img: assets/img/turkceyiseviyorum.jpg
+importance: 5
 ---
 
-"Kitabın ana amacı modern psikolojinin bazı araçlarını kullanarak insan ne zaman en mutlu olur sorusuna yanıt bulmaktır"
+Every project has a beautiful feature showcase page.
+It's easy to include images in a flexible 3-column grid format.
+Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
