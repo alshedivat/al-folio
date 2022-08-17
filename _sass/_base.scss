@@ -473,6 +473,10 @@ footer.sticky-bottom {
     img {
       width: 100%;
     }
+    .card-title {
+      color: var(--global-theme-color);
+      font-size: 0.6em;
+    }
   }
 
   .card-item {
@@ -492,7 +496,7 @@ footer.sticky-bottom {
 
   h2.category {
     color: var(--global-divider-color);
-    font-size: 0.6em;
+    font-size: 0.6em; //useless
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
