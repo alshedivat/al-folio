@@ -464,13 +464,14 @@ footer.sticky-bottom {
     &:hover {
       .card-title {
         color: var(--global-theme-color);
+        font-size: 0.6em;
       }
     }
   }
 
   .card {
     img {
-      width: 50%;
+      width: 100%;
     }
   }
 
