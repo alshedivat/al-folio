@@ -5,12 +5,7 @@ layout: page
 description: “The reading of all good books is like conversation with the finest people of the past centuries.” - Descartes
 nav: false
 nav_order: 2
-display_categories:
-- philosophical
-- scientific
-- development
-- fictional
-- technical
+display_categories: [philosophical,scientific,development,fictional,technical]
 horizontal: false
 ---
 
