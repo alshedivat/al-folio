@@ -16,21 +16,19 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Giulia earned her Ph.D. in Computer Science from UC Berkeley under the supervision of [Aydın Buluç](http://people.eecs.berkeley.edu/~aydin/) and [Kathy Yelick](https://people.eecs.berkeley.edu/~yelick/) in August 2022. Giulia is a [2020 SIGHPC Computational & Data Science Fellow](https://www.sighpc.org/for-your-career/fellowships/2020-fellowship-winners?fbclid=IwAR2N8swtCYgNH3phRmrFtASSC42b4oN5joG1l5XHFSdnkMY6U4HvZt3olLE) and currently a Project Scientist in the Applied Math and Computational Sciences Division at Lawrence Berkeley National Laboratory.
 
-Giulia will be an **Assistant Professor of Computer Science** at [Cornell University](https://www.cs.cornell.edu/) starting Spring 2023.
+I will be starting as an **Assistant Professor of Computer Science** at [Cornell University](https://www.cs.cornell.edu/) starting Spring 2023.
 
 <!--and a member of the [PASSION Lab](https://passion.lbl.gov/), the [BeBOp Group](https://bebop.cs.berkeley.edu/), and the [Performance and Algorithms Research (PAR) Group](https://crd.lbl.gov/departments/computer-science/par/members/students/giulia-guidi/). Giulia received her M.Sc. and B.Sc. in Biomedical Engineering from [Politecnico di Milano](http://polimi.it/en).-->
 
-Giulia works on the challenges of large-scale computational biology and the algorithms and software infrastructures that meet the usability and performance demand of this community, as well as how to make cloud computing more accessible for high-performance scientific computing.
-Giulia's research goal is to make writing high-performance genomics code as easy as writing high-performance Deep Learning code.
-Giulia is generally interested in the intersection of High-Performance Computing (HPC), Computer Systems, and Computational Biology as enabling technologies that enable faster, higher-quality bioinformatics and biomedical research.
+My work concerns the intersection of computational biology algorithms and software infrastructures. I leverage High Performance Computing techniques and Computer Architecture to make processing genomics data more faster and more flexible for users, and enable high quality bioinformatoics and biomedical research. Another major thrust of my work is developing software to make cloud infrastructre more accessible for high-performance scientific computing.
 
-<!--Currently, she is developing a novel algorithm for de novo assembly of genomes in distributed memory using long-read sequencing data and sparse matrix abstraction as part of the [ExaBiome](https://sites.google.com/lbl.gov/exabiome) project.-->
+**I am recruiting PhD students with a background in Parallel Programming and interest in High-Performance Computing and systems research for the Academic Year 2023/24.** If you are a prospective PhD student, please read [the students page](https://giuliaguidi.github.io/students/). 
+
+I earned a Ph.D. in Computer Science from UC Berkeley under the supervision of [Aydın Buluç](http://people.eecs.berkeley.edu/~aydin/) and [Kathy Yelick](https://people.eecs.berkeley.edu/~yelick/) in August 2022. I currently hold a [2020 SIGHPC Computational & Data Science Fellowship](https://www.sighpc.org/for-your-career/fellowships/2020-fellowship-winners?fbclid=IwAR2N8swtCYgNH3phRmrFtASSC42b4oN5joG1l5XHFSdnkMY6U4HvZt3olLE) and work as a Project Scientist in the Applied Math and Computational Sciences Division at Lawrence Berkeley National Laboratory.
+<!--My work at LBNL is focused on developing a novel algorithm for de novo assembly of genomes in distributed memory using long-read sequencing data and sparse matrix abstraction as part of the [ExaBiome](https://sites.google.com/lbl.gov/exabiome) project.-->
 
 Here are a recent **[CV](https://drive.google.com/file/d/1DmJgPIFg6S-B0bqvqWFUmrmk6czYVmy5/view?usp=sharing)** (August 2022) and the Tl;dr version of my **[Research Statement](https://drive.google.com/file/d/1_HVC4HkkyBMqUx8AiTHeyjgwlSdYG3j6/view?usp=sharing)**.
-
-**I am recruiting PhD students with background and research interest in High-Performance Computing and Parallel Programming and Systems research for the Academic Year 2023/24.** If you are a prospective PhD student, please read [the students page](https://giuliaguidi.github.io/students/). 
 
 The best way to contact me is by **email**: gg434 at cornell dot edu.
 
