@@ -8,8 +8,7 @@ profile:
   image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
   address: >
-    <p>Quang Nam & Binh Phuoc</p>
-    <p>Cur Location: Dist.3 - HoChiMinh City</p>
+    <p>Location: HoChiMinh City</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -17,8 +16,8 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 Hi! Thank you for stopping by. My name is Le Hoang Khanh, but you can call me Harry. <br>
-I spent 3 years in high school learning and taking some Competitive Programming. <br>
-I graduated in Ho Chi Minh University of Technology, major in electrical Engineering. <br>
+I spent 3 years in high school learning and took some Competitive Programming. <br>
+I graduated in Ho Chi Minh University of Technology, major in Electrical Engineering. <br>
 I'm a Math and Data Science Enthusiast. Got some experiences at various domains such as: Embedded, Hardware Design, E-commerce, Digital Marketing, Bank & Finance, Web Development and Data Science of course. <br> <br>
 In career, I would love to find and solve some solutions or inventions that automate the human process, reduce human effort in daily job for a better life. <br>
 In lifestyle, I'm an audiophile, coffee lover, runner, biker and sometime a game player, lol. <br>
@@ -28,7 +27,7 @@ I've just finished a project related to AI Trader with 2 team members which I wi
 
 This website is built on <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. 
 Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. 
-Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a> and on the internet
+Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>
 
  
 <!-- . Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.

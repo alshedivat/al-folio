@@ -21,6 +21,13 @@ jobs:
       with:
         ruby-version: '3.0.2'
         bundler-cache: true
+    - name: Enable bundler cache
+      uses: actions/cache@v2
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
     - name: Install deps
       run: |
         npm install -g mermaid.cli
