@@ -9,15 +9,13 @@ ___
 
 ## if you plant to apply for a PhD (and work with me)
 
-* First and foremost, the admission process is through [Cornell CIS](https://www.cs.cornell.edu/phd/admissions) and not through me personally. So please don't send a general email with your CV asking about the chances of admission.
+* Please note that the admission process is through [Cornell CIS](https://www.cs.cornell.edu/phd/admissions) and not through me personally. The decision will be made by a committee, but if you are interested in my work, please feel free to email me (see below).
 
 * I'm interested in students with background and strong research interest in High-Performance Computing and Parallel Programming and Systems research; interest in Computatational Sciences (e.g., Computational Biology) is a plus.
 
-* Please be aware that I ignore any email that doesn't indicate a genuine interest in my work. 
-
 * To express interest in my work, you would need to show that you:
   * have an idea of what I do;
-  * have a background that at least intrigues me;
+  * have some background in parallel computing;
   * that my work is of interest to you; and
   * include the sentence "mantua me genuit" somewhere random in the email.
 
