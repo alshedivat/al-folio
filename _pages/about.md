@@ -30,9 +30,9 @@ Giulia is generally interested in the intersection of High-Performance Computing
 
 Here are a recent **[CV](https://drive.google.com/file/d/1DmJgPIFg6S-B0bqvqWFUmrmk6czYVmy5/view?usp=sharing)** (August 2022) and the Tl;dr version of my **[Research Statement](https://drive.google.com/file/d/1_HVC4HkkyBMqUx8AiTHeyjgwlSdYG3j6/view?usp=sharing)**.
 
-**I am recruiting PhD students for the Academic Year 2023/24.** The best way to contact me is by **email**: gg434 at cornell dot edu. If you are a prospective PhD student, before you write to me, please read [the students page](https://giuliaguidi.github.io/students/).
+**I am recruiting PhD students with background and research interest in High-Performance Computing and Parallel Programming and Systems research for the Academic Year 2023/24.** If you are a prospective PhD student, please read [the students page](https://giuliaguidi.github.io/students/). 
 
-Dog person, in general. German Shepherd person, in particular.
+The best way to contact me is by **email**: gg434 at cornell dot edu.
 
 <!--, and my [academic genealogy tree](https://academictree.org/computerscience/tree.php?pid=864537&pnodecount=15&cnodecount=5&fontsize=1).-->
 
