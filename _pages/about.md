@@ -2,24 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: AI Researcher and Ethical AI enthusiast. <a href='https://www.linkedin.com/in/mohanramesh/'>Be a friend :)</a>. 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Data Scientist by profession</p>
+    <p>P.O - Limerick and Berlin</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+A professional AI researcher with very good entrepreneurial skills. Proficient in NLP, and can work with programming languages and technologies such as - Python, R, JSON, Deep Learning, Machine Learning, Transformers, Haystack, Pandas, Sklearn, Pytorch, Tensorflow, FastAI, OpenCV, Detectron2, BERT, and more. Has a proven track record of entrepreneurial ventures through building startups from scratch, working with early-stage startups, and winning startup and business competitions. Has degrees in both Engineering and Business with a motto of applying science diligently and
+ethically to help build a happy, functional society. 

@@ -69,8 +69,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: Neuromancer24 # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
+twitter_username: MoandHan1# your Twitter handle
+linkedin_username: Mohan Ramesh # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -85,7 +85,7 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Please reach out to me on LinkedIn, do not email!
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -101,9 +101,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: Mohan's work # blog_name will be displayed in your blog page
+blog_nav_title: Research # your blog must have a title for it to be displayed in the nav bar
+blog_description: Work of a science enthusiast. Feel free to critique and improve any material. Everything on this site is free to use.
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -111,15 +111,15 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+  #- name: medium.com
+   # rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -221,15 +221,15 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: 
+  first_name: 
 
   style: apa
   locale: en
 
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
+  source: 
+  bibliography: 
+  bibliography_template: 
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
@@ -238,9 +238,9 @@ scholar:
   replace_strings: true
   join_strings: true
 
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
+  details_dir: 
+  details_layout: 
+  details_link: 
 
   query: "@*"
 
