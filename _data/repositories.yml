@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - neuromancer24
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - rasa-haystack
+  - haystack
+  - deepset-ai/haystack
+  - text-analytics-with-python
