@@ -9,7 +9,7 @@ ___
 
 ## if you plant to apply for a PhD (and work with me)
 
-* I am currently only hiring students with a background and interest in High-Performance Computing, Parallel Programming and Systems research. An interest in Computational Sciences (e.g., Computational Biology) is a plus. If you think we might be a good fit, please contact me via email and I will be happy to talk with you. However, please note that the admissions process goes through [Cornell CIS](https://www.cs.cornell.edu/phd/admissions) and not through me personally.
+* I am currently hiring students with a background and interest in High-Performance Computing, Parallel Programming and Systems research. An interest in Computational Sciences (e.g., Computational Biology) is a plus. If you think we might be a good fit, please contact me via email and I will be happy to talk with you. However, please note that the admissions process goes through [Cornell CIS](https://www.cs.cornell.edu/phd/admissions) and not through me personally.
 
 * A good introductory email should include a brief description of your experience with parallel programming and how it relates to my work (see [research section](https://giuliaguidi.github.io/research/) on my website); also include the sentence "mantua me genuit" in the email.
 
