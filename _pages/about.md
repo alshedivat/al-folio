@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: AI Researcher and Ethical AI enthusiast. <a href='https://www.linkedin.com/in/mohanramesh/'>Be a friend :)</a>. 
+subtitle: AI Researcher and Ethical AI enthusiast. <a href='https://www.instagram.com/molanmusk/'>Be a friend :)</a>. 
 
 profile:
   align: right
   image: prof.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Data Scientist by profession</p>
+    <p>Ph.D Prospect</p>
     <p>P.O - Limerick and Berlin</p>
 
 news: false  # includes a list of news items
