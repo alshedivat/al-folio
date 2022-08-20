@@ -6,20 +6,20 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Rajasekhar
 middle_name:
 last_name: Anguluri
-email: rangulur@asu.edu
+email: # rangulur@asu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Professional web page of Rajasekhar Anguluri
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: rajasekhar anguluri, control theory, cyber physical systems, power systems  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://rajanguluri.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -66,12 +66,12 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: raj-anguluri # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+linkedin_username: rajanguluri # your LinkedIn user name
+scholar_userid: GH4f3-sAAAAJ # your Google Scholar ID
+orcid_id: 0000-0003-2537-2778 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -83,8 +83,7 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note:
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -110,15 +109,15 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: rajanguluri # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+# external_sources:
+#  - name: medium.com
+#    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -134,7 +133,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
 news_limit: 5 # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
@@ -178,7 +177,7 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-target-blank
-  - jekyll-twitter-plugin
+  # - jekyll-twitter-plugin
   - jemoji
 
 # Sitemap settings
@@ -250,7 +249,7 @@ scholar:
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
 
 # Maximum number of authors to be shown, other authors will be visible on hover, leave blank to show all authors
-max_author_limit: 3
+max_author_limit: 4
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
@@ -294,9 +293,9 @@ enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
+enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into
+enable_project_categories:  false   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 
