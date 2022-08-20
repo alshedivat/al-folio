@@ -1,3 +1,3 @@
 # Dear,
 
-Please, visit my https://geize.github.io.
+https://geize.github.io.
