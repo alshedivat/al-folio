@@ -1,6 +1,6 @@
 ---
-layout: about
-title: about
+layout: about # Do not change here!!
+title: Geizecler Tomazetto
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
