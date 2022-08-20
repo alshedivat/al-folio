@@ -1,8 +1,8 @@
 ---
-layout: about
+layout: Geizecler Tomazetto
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Aarhus University</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
