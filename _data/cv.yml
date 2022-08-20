@@ -1,97 +1,93 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Name
+      value: Geizecler Tomazetto
+    - name: Ph.D.
+      value: Microbial Genetics
+    - name: Interests
+      value: Microbiome, holobiont (host + microbiome), enzymes, computational biology, biotechnology.
 
-- title: Education
+- title: Skills
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Microbiology and Molecular Biology
+      institution:
+      year:
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Expert on experience conducting aerobic and anaerobic microbial cultivation.
+        - Expert on molecular techniques (e.g., DNA/RNA extraction, PCR, SDS-PAGE, Western blot).
+        - Expert on cloning (e.g., Gibson assembly), expression and purification of enzymes.
+        - Expert on applying molecular biology approaches for biotechnology application.
+        - Hands-on developing and conducting enzymatic assays.
+        - Hands-on library preparation for next generation sequencing (Illumina and ONT).
+
+
+    - title: Computational Biology
+      institution:
+      year:
       description:
-        - Description 1.
-        - Description 2.
+        - Solid understanding and experience analyzing and integrating omics data (genomics, metagenomics, and proteomics).
+        - Expert on 16S processing data (e.g., QIIME2 and R package).
+        - Hands-on assembly of genome and metagenome, prediction, and annotation.
+        - Hands-on data processing using a high-performance cluster (Python and Shell).
+        - Solid knowledge in discovering enzymes and reconstructing metabolic pathways for biotechnology application.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Scientist
+      institution: <a href="https://bce.au.dk/en/"> Department of Biological and Chemical Engineering, Aarhus University, DK.</a>
+      year:
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Holo-omics approaches for investigating the adaptation of animals in the restricted diets to explore their holistic microbial community dynamics for complex polymer degradation.
+        - Fungal metabolism revealed by multi-omics approaches.
+
+    - title: Scientist
+      institution: <a href="https://www.mib.manchester.ac.uk"> Manchester Institute of Biotechnology, Manchester, UK.
+      year:
       description:
-        - Description 1.
-        - Description 2.
+        - Development of robust hosts for the conversion of biomass to biochemical products – synthetic biology.
+        - Development a bioinformatics workflow for genetic arrangements analysis across Bacteria domain.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Scientist
+      institution: <a href="https://lnbr.cnpem.br"> Brazilian Biorenewables National Laboratory, Campinas, BR.
+      year:
       description:
+        - Multi-omic directed discovery of enzymes and enzymatic complexes from an enriched anaerobic consortium.
+        - Biochemically characterization of lignocellulases from anaerobic fungi.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Scientist
+      institution: <a href="https://www.unibielefeld.de"> Center for Biotechnology, University of Bielefeld, GE.
+      year:
+      description:
+        - Monitoring of the microbial composition and structure in biogas reactors.
+        - Genomic and phylogenomic analyses of anaerobic isolates from biogas reactors.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - year:
       items:
-        - Description 1.
-        - Description 2.
+        - Rutherford Fund Strategic Partner Award - Postdoctoral Fellowship (one of six awarded Internationally) in Manchester Institute of Biotechnology, Manchester, UK..
 
-- title: Other Interests
-  type: list
+    - year:
+      items:
+
+
+- title: Education
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Ph.D.
+      institution: <a href="https://www.unicamp.br/unicamp/english"> University of Campinas, BR.
+      year:
+      description:
+        - Ph.D. in Microbial Genetics
+        - with intership in Center for Biotechnology, University of Bielefeld, GE.
+
+
+    - title: M.Sc. Molecular and Cell Biology
+      institution: <a href="http://www.ufrgs.br/english/home"> Federal University of Rio Grande do Sul, BR.
+      year:
+      description:
