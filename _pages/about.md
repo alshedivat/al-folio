@@ -16,8 +16,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am current working at the Department of Biological and Chemical Engineering at Aarhus University, Denmark.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research has been conducted in both the wet and dry labs using traditional microbiological methods, multi-omics approaches, bioinformatic analysis, and enzymology to reveal and characterize, microorganisms, microbiomes, enzymes, and metabolic pathways involved in  degradation of complex polymers (e.g., lignocellulose, lignin, and plastic).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+More recently, I have taken on a new challenge to investigate at the holo-omics level the adaptation of animals to imposed restricted diets with the aim of exploring their holistic microbial community dynamics for complex polymer conversion, following the study of enzymes secreted and metabolic pathways involved.
+How do I do that?  Combining comparative genomic, metagenome, metaproteome, and metabolome, I reveal the enzymes and metabolic pathways involved in all metabolic processes at the symbiotic level.
+By doing so, this information is translated into sustainable and effective strategies for biochemical products and enzyme production using synthetic biology.
+
+Feel free to contact me on Twitter, Linkedln, or reach out to me by email.
