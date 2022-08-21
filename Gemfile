@@ -13,10 +13,10 @@ group :jekyll_plugins do
     gem 'jekyll-target-blank'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    # gem 'mini_racer'
+    gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
-    gem 'wdm', '>=0.1.0'
+    # gem 'wdm', '>=0.1.0'
 end
 group :other_plugins do
     gem 'httparty'
