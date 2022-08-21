@@ -5,6 +5,3 @@ layout: page
 description: 
 nav: false
 ---
-
-- Batman
-- Matrix
