@@ -18,3 +18,5 @@ nav: true
 [Youtube Channels](https://alpsencer.com/youtube-channels)  
 
 [Music](https://alpsencer.com/music) 
+
+[Browser Extentions](https://alpsencer.com/browser-extentions) 
