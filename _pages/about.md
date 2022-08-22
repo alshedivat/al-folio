@@ -20,6 +20,6 @@ social: true  # includes social icons at the bottom of the page
 
 I'm a second year PhD student in Biostatistics at UCLA, working with [Donatello Telesca](http://donatello-telesca.com/). My current research focuses on Bayesian methods in functional data analysis, particularly curve registration, with applications to neuroscience.
 
-Prior to joining UCLA, I obtained an MSci (integrated masters) in Mathematics from [Imperial College London] (https://www.imperial.ac.uk/mathematics/). My thesis, supervised by [Seth Flaxman](https://sethrf.com/), analyzed the effects of Trump support and vaccine hesitancy on the SARS-CoV-2 time-varying reproduction number using a Bayesian semi-mechanistic model.
+Prior to joining UCLA, I obtained my integrated masters in Mathematics from [Imperial College London](https://www.imperial.ac.uk/mathematics/). My thesis, supervised by [Seth Flaxman](https://sethrf.com/), analyzed the effects of Trump support and vaccine hesitancy on the SARS-CoV-2 time-varying reproduction number using a Bayesian semi-mechanistic model.
 
 Outside research, I enjoy sports, in particular tennis, rock climbing, skiing, and now that I live in SoCal, surfing. Having grown up speaking French, Polish and English, I have also always been very interested in learning languages.
