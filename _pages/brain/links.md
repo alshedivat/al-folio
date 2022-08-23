@@ -1,5 +1,5 @@
 ---
-title: Links
+title: Misc. Links
 permalink: "/links/"
 layout: page
 description: 
