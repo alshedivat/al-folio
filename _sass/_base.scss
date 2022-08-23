@@ -312,16 +312,42 @@ footer.sticky-bottom {
   }
 }
 
+// Repositories
+
+@media (min-width: 768px) {
+  .repo {
+    max-width: 50%;
+  }
+}
+
 // Blog
 
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
   padding-top: 2rem;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
   h1 {
     color: var(--global-theme-color);
     font-size: 5rem;
+  }
+}
+
+.tag-list {
+  border-bottom: 1px solid var(--global-divider-color);
+  text-align: center;
+  padding-top: 1rem;
+
+  ul {
+    justify-content: center;
+    display: flow-root;
+
+    p, li {
+      list-style: none;
+      display: inline-block;
+      padding: 1rem 0.5rem;
+      color: var(--global-text-color-light);
+    }
   }
 }
 
@@ -461,6 +487,11 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
+      .preview {
+        width: 100%;
+        min-width: 80px;
+        max-width: 200px;
+      }
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
@@ -495,6 +526,15 @@ footer.sticky-bottom {
         > em {
           border-bottom: 1px solid;
           font-style: normal;
+        }
+        > span.more-authors {
+          color: var(--global-text-color-light);
+          border-bottom: 1px dashed var(--global-text-color-light);
+          cursor: pointer;
+          &:hover {
+              color: var(--global-text-color);
+              border-bottom: 1px dashed var(--global-text-color);
+          }
         }
       }
       .links {
