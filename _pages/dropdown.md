@@ -3,7 +3,7 @@ title: other
 layout: page
 nav: true
 nav_order: 7
-dropdown: true
+dropdown: false
 children:
 - title: Books
   permalink: "/books/"
