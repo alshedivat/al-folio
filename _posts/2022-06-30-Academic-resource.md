@@ -122,6 +122,3 @@ Other people's stories are counterfactual worlds for us.
 - ["Graduate school", "Productivity", "Writing", and "Giving presentations"](https://matt.might.net/articles/) by Matthew Might
 - [Advice for research students](https://www.cs.cmu.edu/~jasonh/advice.html) by Jason Eisner
 - [Dave’s advice collection](https://www.cs.virginia.edu/~evans/advice/) by David Evans
-
-If you like this blog, you can give me a like on twitter! Thanks!
-{% https://twitter.com/TuXinming/status/1554556900150153217?s=20&t=Auwgbnyene47QSQcQ9ThnA %}

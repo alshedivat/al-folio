@@ -81,7 +81,7 @@ $$
     </div>
 </div>
 
-When applying this “dual PCA” to gene expression matrix as formulated above, The SVD provides the best low rank approximation of cell-cell covariance matrix by select the Top $$k$$ singular value and the vectors.
+When applying this “dual PCA” to the gene expression matrix as formulated above, The SVD provides the best low rank approximation of cell-cell covariance matrix by select the Top $$k$$ singular value and the vectors.
 
 <hr>
 And $$Z = U_{1:n, 1:k}\Sigma_{1:k} $$ will be the embedding, which is the same as what we derived in PCA.
