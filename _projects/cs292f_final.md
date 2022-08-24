@@ -5,6 +5,8 @@ description: another without an image
 img: assets/img/CS292F_Final_Cover.png
 importance: 3
 category: Class Projects
+github: https://github.com/saikumarysk/cs292f_final
+report_pdf: cs292f_final_report.pdf
 ---
 
 Every project has a beautiful feature showcase page.
