@@ -7,6 +7,7 @@ subtitle: <a href='#'>Philosopher.</a> University of Houston
 profile:
   align: right
   image: prof_pic.jpg
+
   image_cicular: true # crops the image to make it circular
   address: >
     <p>508 Agnes Arnold Hall</p>

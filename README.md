@@ -72,6 +72,10 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://tirtharajdash.github.io" target="_blank">★</a>
 <a href="https://carolinacarreira.github.io" target="_blank">★</a>
 <a href="https://manandey.github.io" target="_blank">★</a>
+<a href="https://johanneshoerner.github.io" target="_blank">★</a>
+<a href="https://ioannismavromatis.com" target="_blank">★</a>
+<a href="https://taidnguyen.github.io" target="_blank">★</a>
+<a href="https://lbugnon.github.io" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -83,6 +87,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://decisionlab.ucsf.edu/" target="_blank">★</a>
 <a href="https://programming-group.com/" target="_blank">★</a>
 <a href="https://sailing-lab.github.io/" target="_blank">★</a>
+<a href="https://inbt.jhu.edu/epidiagnostics/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -438,6 +443,32 @@ Easily create beautiful grids within your blog posts and project pages:
 ---
 
 ### Other features
+
+#### GitHub repositories and user stats
+**al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) to display GitHub repositories and user stats on the the `/repositories/` page.
+
+Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the the `/repositories/` page.
+
+You may also use the following codes for displaying this in any other pages.
+```
+<!-- code for GitHub users -->
+{% if site.data.repositories.github_users %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for user in site.data.repositories.github_users %}
+    {% include repository/repo_user.html username=user %}
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- code for GitHub repositories -->
+{% if site.data.repositories.github_repos %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for repo in site.data.repositories.github_repos %}
+    {% include repository/repo.html repository=repo %}
+  {% endfor %}
+</div>
+{% endif %}
+```
 
 #### Theming
 Six beautiful theme colors have been selected to choose from.
