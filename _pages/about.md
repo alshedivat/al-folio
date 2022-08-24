@@ -7,8 +7,12 @@ subtitle: <a href='#'>Philosopher.</a> University of Houston
 profile:
   align: right
   image: prof_pic.jpg
+<<<<<<< HEAD
 
   image_cicular: false # crops the image to make it circular
+=======
+  image_cicular: true # crops the image to make it circular
+>>>>>>> parent of 946c046 (Merge branch 'master' into master)
   address: >
     <p>508 Agnes Arnold Hall</p>
     <p>3553 Cullen Boulevard</p>
