@@ -4,7 +4,11 @@ title: "Research Interests"
 date: 2022-08-08
 ---
 
-## "What I cannot create, I do not understand" - Richard Feynman
+## Favorite Quote
+"What I cannot create, I do not understand" - Richard Feynman
+
+<br /> 
+<br /> 
 
 ## Interested Areas
-AI/ML, Multimodal Learning, Generative Models, Computational Cognitive Science, Computational Neuroscience
+AI/ML, Multimodal Learning, Multitask Learning, Generative Models, Robotics, Cognitive Science
