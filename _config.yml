@@ -304,6 +304,7 @@ enable_medium_zoom:         true   # enables image zoom feature (as on medium.co
 # -----------------------------------------------------------------------------
 # Library versions
 # -----------------------------------------------------------------------------
+github: [metadata]
 
 academicons:
   version: "1.9.1"
