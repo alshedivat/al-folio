@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
 
-  image_cicular: false # crops the image to make it circular
+  image_cicular: true # crops the image to make it circular
   address: >
     <p>508 Agnes Arnold Hall</p>
     <p>3553 Cullen Boulevard</p>
