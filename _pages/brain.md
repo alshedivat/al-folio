@@ -11,6 +11,8 @@ nav: true
 
 [Readings](https://alpsencer.com/books)  
 
+[Course Notes](https://alpsencer.com/course-notes)
+
 [Movies](https://alpsencer.com/movies)  
 
 [People](https://alpsencer.com/people)  
