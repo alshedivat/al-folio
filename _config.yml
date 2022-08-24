@@ -126,14 +126,19 @@ external_sources:
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
+#  news:
+#    defaults:
+#      layout: post
+#    output: true
+#    permalink: /news/:path/
   projects:
     output: true
     permalink: /projects/:path/
+  teaching:
+    defaults:
+      layout: post
+    output: true
+    permalink: /teaching/:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
 news_limit: 5 # leave blank to include all the news in the `_news` folder
