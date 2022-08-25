@@ -74,13 +74,13 @@
    type: time_table
    contents:
     - year: 2023
-      description:
+      items:
         - "Panel organizer and presenter: “The Gorky Literary Institute as a Network.”  American Association of Teachers of Slavic and East European Languages (AATSEEL) Conference. Online. Forthcoming."
         - "Stream co-organizer and presenter: “Dagestan Literature of the Soviet period and the Gorky Literary Institute.” American Association of Teachers of Slavic and East European Languages (AATSEEL) Conference. Online. Forthcoming."
         - "Presenter: “Ivan Kharabarov and Iurii Pankratov at the Crossroads.” Modern Language Association (MLA) Convention. San Francisco, CA. Forthcoming."
         - "Speaker. Roundtable: War and Dissent in Slavic Literatures and Cultures. Modern Language Association (MLA) Convention. San Francisco, CA. Forthcoming."
      - year: 2022
-       description:
+       items:
         - "Panel organizer and presenter: “Networks, Coalitions, and Factions at the Gorky Literary Institute: a Digital Humanities Analysis.” Association for Slavic, East European, and Eurasian Studies (ASEEES) Convention. Chicago, IL. Forthcoming."
 
 - title: Other Interests
