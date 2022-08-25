@@ -3,7 +3,7 @@
   contents:
     - name: Full Name
       value: Akshita Bhagia
-    - name: Areas of Interest
+    - name: Academic Interests
       value: Natural Language Processing, Machine Learning, Deep Learning
 
 - title: Education
@@ -59,8 +59,12 @@
       description: NLP research library, built on PyTorch
     - title: <a href="https://github.com/allenai/tango">ai2-tango</a>
       description: Library to organize your experiments into discrete steps that can be cached and reused throughout the lifetime of your research project.
-    - title: <a href="https://github.com/allenai/allennlp">ai2-tailor</a>
+    - title: <a href="https://github.com/allenai/ai2-tailor">ai2-tailor</a>
       description: NLP library for generating perturbations in text with semantic controls.
+    - title: <a href="https://huggingface.co/datasets/allenai/wmt22_african">WMT22 African</a>
+      description: Dataset release. Dataset for the WMT22 Shared Task. Collaboration with Meta AI.
+    - title: <a href="https://huggingface.co/datasets/allenai/nllb">No Language Left Behind (NLLB)</a>
+      description: Dataset release. Mined bitext training data for the NLLB-200 models. Collaboration with Meta AI.
 
 - title: Talks and Panels
   type: list
@@ -78,7 +82,8 @@
 - title: Service
   type: list
   contents:
-    - Organizer for <a href="https://allennlp-hackathon.apps.allenai.org/">AllenNLP Hacks</a> (2021).
+    - Co-organizer for the <a href="https://www.statmt.org/wmt22/large-scale-multilingual-translation-task.html" >2022 WMT Shared Task on Large Scale Machine Translation Evaluation for African Languages</a>.
+    - Co-organizer for <a href="https://allennlp-hackathon.apps.allenai.org/">AllenNLP Hacks</a> (2021).
     - Master’s chair for CSWomen UMass; responsible for handling monthly travel grants (Feb 2019 - May 2020).
     - Grader for Programming with Data Structures (Fall 2018), Neural Networks (Fall 2019).
 

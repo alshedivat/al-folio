@@ -7,4 +7,5 @@ nav: true
 nav_order: 4
 ---
 
-[books](/reading)
+[books](/reading)<br>
+[creative writing]({{site.wordpress_url}})<br>
