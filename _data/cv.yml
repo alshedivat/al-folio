@@ -73,9 +73,7 @@
 - title: Conference Presentations and Talks
   type: time_table
   contents:
-    - title: abs
-      institution: abs
-      year: 2023
+    - year: 2023
       description:
         - "Panel organizer and presenter: “The Gorky Literary Institute as a Network.”  American Association of Teachers of Slavic and East European Languages (AATSEEL) Conference. Online. Forthcoming."
         
