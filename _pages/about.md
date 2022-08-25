@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://rees.sas.upenn.edu/people/olga-nechaeva'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://rees.sas.upenn.edu/people/olga-nechaeva'>REEES</a>. <a href='https://rees.sas.upenn.edu/people/olga-nechaeva'>CompLit</a>.
 
 profile:
   align: right
