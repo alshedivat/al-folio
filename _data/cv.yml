@@ -2,31 +2,31 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Olga Nechaeva
     - name: Date of Birth
-      value: 14th March 1879
+      value: 29th March 1991
     - name: Languages
-      value: English, German
+      value: Russian, English, French, German
+    - name: E-mail
+      value: nechaeva@sas.upenn.edu
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D.
+      institution: University of Pennsylvania, Philadelphia, PA
+      year: in progress
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Comparative Literature and Literary Theory
+        - PhD Candidate (ABD)
+        - Started in 2018
+    - title: M.A.
+      institution: National Research University Higher School of Economics, Moscow, Russia 
+      year: 2018
       description:
-        - Description 1.
-        - Description 2.
+        - Program in Comparative Studies: Russian Literature in the Cross-Cultural Perspective
+        - Magna cum laude
+        - Thesis: *The Higher Institute of Literature and Art in the Historical and Cultural Context of the 1920s*.
 
 - title: Experience
   type: time_table
