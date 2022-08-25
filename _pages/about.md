@@ -20,4 +20,4 @@ I am a PhD Candidate (ABD) in the Comparative Literature and Literary Theory Pro
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-teaser: 'https://litinstitut.ru/sites/default/files/lit_vm_boris_prihodko.jpg'
+teaser: https://litinstitut.ru/sites/default/files/lit_vm_boris_prihodko.jpg
