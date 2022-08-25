@@ -7,7 +7,7 @@ subtitle: <a href='https://rees.sas.upenn.edu/people/olga-nechaeva'>REEES</a>. <
 profile:
   align: right
   image: prof_pic.jpg
-  [Comment]: # image_circular: # false # crops the image to make it circular
+  image_circular: # false # crops the image to make it circular
   address: >
     <p>720 Williams Hall, University of Pennsylvania</p>
     <p>255 S. 36th Street</p>
