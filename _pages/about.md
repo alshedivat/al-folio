@@ -6,7 +6,7 @@ subtitle: <a href='https://rees.sas.upenn.edu/people/olga-nechaeva'>REEES</a>. <
 
 profile:
   align: right
-  image: my_site/assets/img/prof_pic.jpg
+  img: prof_pic.jpg
   [Comment]: # image_circular: # false # crops the image to make it circular
   address: >
     <p>720 Williams Hall, University of Pennsylvania</p>
@@ -20,4 +20,4 @@ I am a PhD Candidate (ABD) in the Comparative Literature and Literary Theory Pro
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-teaser: https://litinstitut.ru/sites/default/files/lit_vm_boris_prihodko.jpg
+image: https://litinstitut.ru/sites/default/files/lit_vm_boris_prihodko.jpg
