@@ -17,6 +17,8 @@ nav: true
 
 [People](https://alpsencer.com/people)  
 
+[Philosophy](https://alpsencer.com/philosophy) 
+
 [Youtube Channels](https://alpsencer.com/youtube-channels)  
 
 [Music](https://alpsencer.com/music) 
