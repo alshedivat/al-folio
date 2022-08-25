@@ -18,10 +18,8 @@
     {%- else -%}
         {%- capture title -%}{{ site.title }}{%- endcapture -%}
     {%- endif -%}
-    {% if page.url == '/blog/index.html' %}
-        {{ site.blog_nav_title }} | {{ title }}
-    {%- elsif page.title != "blank" and page.url != "/" -%}
-        {{ page.title }} | {{ title }}
+    {%- if page.title != "blank" and page.url != "/" -%}
+        {{ title }} | {{ page.title }}
     {%- else -%}
         {{ title }}
     {%- endif -%}
