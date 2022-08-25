@@ -209,8 +209,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Kieval
+  first_name: [Phillip H.]
 
   style: apa
   locale: en
