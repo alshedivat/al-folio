@@ -17,16 +17,30 @@
       institution: University of Pennsylvania, Philadelphia, PA
       year: in progress
       description:
-        - Comparative Literature and Literary Theory
+        - Comparative Literature and Literary Theory Program
         - PhD Candidate (ABD)
         - Started in 2018
+        - "Dissertation: The Gorky Literary Institute: Creative Writing under Socialism"
     - title: M.A.
       institution: National Research University Higher School of Economics, Moscow, Russia 
       year: 2018
       description:
         - Program in Comparative Studies Russian Literature in the Cross-Cultural Perspective
         - Magna cum laude
-        - Thesis *The Higher Institute of Literature and Art in the Historical and Cultural Context of the 1920s*.
+        - "Thesis: The Higher Institute of Literature and Art in the Historical and Cultural Context of the 1920s."
+    - title: M.Sc.
+      institution: Paris 1 Pantheon-Sorbonne University, Paris School of Economics, Paris, France, and National Research University Higher School of Economics, Moscow, Russia 
+      year: 2014
+      description:
+        - Program in Theoretical and Empirical Economics
+        - Double Degree
+        - "Thesis: Central Bank Transparency and Public Information Acquisition"
+    - title: B.Sc.
+      institution: National Research University Higher School of Economics, Moscow, Russia 
+      year: 2012
+      description:
+        - Program in Business Informatics
+        - "Thesis: The Development of the Procedures of Client Database Checks"
 
 - title: Experience
   type: time_table
