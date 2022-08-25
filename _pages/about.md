@@ -11,7 +11,7 @@ profile:
     <p><small>Campus Agro Paris-Saclay</small></p>
     <p><small>22 place de l'agronomie</small></p>
     <p><small>91120 Palaiseau</small></p>
-    <p><small><i class="fa fa-phone" aria-hidden="true"></i> +33(0)1 </small></p>
+    <p><small><i class="fa fa-phone" aria-hidden="true"></i> +33(0)1.89.10.09.37 </small></p>
     <p><small><a href="mailto:julien.chiquet[at]inrae[dot]fr">julien.chiquet[at]inrae[dot]fr</a</small></p>
     <p><small><a href="assets/pdf/hdr_chiquet.pdf">Habilitation (12/2015)</a></small></p>
     <p><small><a href="assets/pdf/cv_en_202108.pdf">Academic CV (08/2021)</a></small></p>
