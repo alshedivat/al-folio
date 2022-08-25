@@ -57,7 +57,7 @@
         - "“Незаменимые помощники или убийцы вдохновения: сравнительный анализ руководств по литературному мастерству 1920-х годов” [“Irreplaceable Assistants or Killers of Inspiration: A Comparative Analysis of Creative Writing Textbooks in the 1920s”]. In Литературное мастерство как дисциплина [Creative Writing as a Discipline]. Moscow: Novoe literaturnoe obozrenie, 2023. Forthcoming."
 
 - title: Research and Teaching Interests
-  type: list
+  type: nested_list
   contents:
       items: 
         - Soviet Literature
@@ -70,6 +70,19 @@
         - Modernism
         - Postcolonial Literature
         - Indigenous Studies
+        
+ - title: Conference Presentations and Talks
+   type: time_table
+   contents:
+    - year: 2023
+      description:
+        - "Panel organizer and presenter: “The Gorky Literary Institute as a Network.”  American Association of Teachers of Slavic and East European Languages (AATSEEL) Conference. Online. Forthcoming."
+        - "Stream co-organizer and presenter: “Dagestan Literature of the Soviet period and the Gorky Literary Institute.” American Association of Teachers of Slavic and East European Languages (AATSEEL) Conference. Online. Forthcoming."
+        - "Presenter: “Ivan Kharabarov and Iurii Pankratov at the Crossroads.” Modern Language Association (MLA) Convention. San Francisco, CA. Forthcoming."
+        - "Speaker. Roundtable: War and Dissent in Slavic Literatures and Cultures. Modern Language Association (MLA) Convention. San Francisco, CA. Forthcoming."
+     - year: 2022
+       description:
+        - "Panel organizer and presenter: “Networks, Coalitions, and Factions at the Gorky Literary Institute: a Digital Humanities Analysis.” Association for Slavic, East European, and Eurasian Studies (ASEEES) Convention. Chicago, IL. Forthcoming."
 
 - title: Other Interests
   type: list
