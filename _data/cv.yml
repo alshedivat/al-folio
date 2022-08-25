@@ -56,19 +56,19 @@
         - "“The Instruction of Non-Soviet Writers at the Gorky Literary Institute: Gaoussou Diawara and Malian Literature.” In The Soviet Cosmopolis: A Project of World Literature and its Global Impact. Berlin: de Gruyter, 2023. Forthcoming." 
         - "“Незаменимые помощники или убийцы вдохновения: сравнительный анализ руководств по литературному мастерству 1920-х годов” [“Irreplaceable Assistants or Killers of Inspiration: A Comparative Analysis of Creative Writing Textbooks in the 1920s”]. In Литературное мастерство как дисциплина [Creative Writing as a Discipline]. Moscow: Novoe literaturnoe obozrenie, 2023. Forthcoming."
 
-#- title: Research and Teaching Interests
- # type: list
-     # items: 
-      #  - Soviet Literature
-       # - Socialist Realism
-        #- Socialist Internationalism
-        #- Sociology of Literature
-        #- Digital Humanities
-        #- Soviet Education
-        #- Creative Writing
-        #- Modernism
-        #- Postcolonial Literature
-        #- Indigenous Studies     
+- title: Research and Teaching Interests
+  type: table
+      items: 
+        - Soviet Literature
+        - Socialist Realism
+        - Socialist Internationalism
+        - Sociology of Literature
+        - Digital Humanities
+        - Soviet Education
+        - Creative Writing
+        - Modernism
+        - Postcolonial Literature
+        - Indigenous Studies     
 
 - title: Conference Presentations and Talks
   type: time_table
