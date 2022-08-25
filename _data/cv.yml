@@ -57,8 +57,7 @@
         - "“Незаменимые помощники или убийцы вдохновения: сравнительный анализ руководств по литературному мастерству 1920-х годов” [“Irreplaceable Assistants or Killers of Inspiration: A Comparative Analysis of Creative Writing Textbooks in the 1920s”]. In Литературное мастерство как дисциплина [Creative Writing as a Discipline]. Moscow: Novoe literaturnoe obozrenie, 2023. Forthcoming."
 
 - title: Research and Teaching Interests
-  type: nested_list
-  contents:
+  type: list
       items: 
         - Soviet Literature
         - Socialist Realism
