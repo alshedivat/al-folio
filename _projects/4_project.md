@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Мои литературные эксперименты
+title: Мои тексты
 description: Здесь я публикую свои рассказы, стихи и литературные зарисовки
 img: assets/img/writing.jpeg
 importance: 3
