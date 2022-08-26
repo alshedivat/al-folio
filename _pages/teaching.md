@@ -29,4 +29,4 @@ Higher School of Economics, Moscow, Russia.
 
 #### Summer 2020
 - *REES-145 Masterpieces of 19C Russian Literature* (Instructor). University of Pennsylvania. Philadelphia. PA.
-[Syllabus]("my_site/assets/pdf/REES 145.pdf") 
+[Syllabus](my_site/assets/pdf/REES 145.pdf) 
