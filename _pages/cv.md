@@ -16,12 +16,12 @@ nav: true
 
 See [Publications](https://jbacaob.github.io/publications/) page.
 
-## Relevant professional experience
+## Relevant Professional Experience
 
 * Junior Economist of Quantitative Analysis, Fundación Nicaragüense para el Desarrollo Económico y Social (FUNIDES). July 2020 - June 2021.
 * Junior Economist of Social Studies, Fundación Nicaragüense para el Desarrollo Económico y Social (FUNIDES). July 2019 - July 2020.
 
-## Selected awards
+## Selected Awards
 
 * Economics, Finance, and Development Award 2020, Central Bank of Nicaragua. Third place with the research paper ["Economic Growth and the External Constraint in a Multisectoral and Multilateral Framework: The Case of Nicaragua"](https://www.bcn.gob.ni/system/files_force/documentos/DT085_Crecimiento_econ%C3%B3mico_y_la_restricci%C3%B3n_externa.pdf?download=1).
 * Knowledge Production Contest "Humanity in the face of Global Challenges: COVID-19", Universidad Centroamericana, 2020. Essay category, first place.
@@ -30,7 +30,7 @@ See [Publications](https://jbacaob.github.io/publications/) page.
 * Silver Medal, 2016 Iranian Geometry Olympiad, Advanced Level.
 * Honourable Mention, 2015 International Mathematical Olympiad, Thailand.
 
-## Technical skills
+## Technical Skills
 
 * R, Python, Stata, EViews, SQL, Spreadsheets, $$\LaTeX$$, JabRef, Mendeley, Geogebra, Inkscape.
 
