@@ -21,9 +21,13 @@ nav_order: 1
 
 {% assign sorted = site.publications | sort: 'date' | reverse %}
 {% for item in sorted %}
+{% assign publink = item.url | relative_url %}
+{% if item.redirect %}
+  {% assign publink = item.redirect %}
+{% endif %}
 
 <h3>
-<a href="{{ item.redirect | item.url | relative_url }}">{{ item.title }}</a>
+<a href="{{ publink }}">{{ item.title }}</a>
 </h3>
 {{ item.authors }} <br>
 <b>{{ item.paper_info }}</b>
