@@ -64,12 +64,12 @@
         - Socialist Realism
         - Socialist Internationalism
         - Sociology of Literature
-       # - Digital Humanities
-       # - Soviet Education
-       # - Creative Writing
-       # - Modernism
-       # - Postcolonial Literature
-        #- Indigenous Studies     
+        - Digital Humanities
+        - Soviet Education
+        - Creative Writing
+        - Modernism
+        - Postcolonial Literature
+        - Indigenous Studies     
 
 - title: Conference Presentations and Talks
   type: time_table
@@ -155,6 +155,12 @@
     - year: 2021 – 2022
       description:
         - "Mellon Mid-Doctoral Fellowship from the Price Lab for Digital Humanities at the University of Pennsylvania"
+    - year: 2018 – 2023
+      description:
+        - "Benjamin Franklin Fellowship from the University of Pennsylvania"
+    - year: 2013 – 2014
+      description:
+        - "French Government Scholarship (Bourse du gouvernement français)"
 
 - title: Other Interests
   type: list
