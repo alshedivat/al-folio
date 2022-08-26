@@ -23,7 +23,7 @@ nav_order: 1
 {% for item in sorted %}
 
 <h3>
-<a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+<a href="{{ item.redirect | item.url | relative_url }}">{{ item.title }}</a>
 </h3>
 {{ item.authors }} <br>
 <b>{{ item.paper_info }}</b>
