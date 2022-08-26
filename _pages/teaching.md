@@ -15,6 +15,16 @@ nav_order: 5
 #### Spring 2022
 - *Advanced Russian II Russian Society Today* (Independent Study, Instructor, co-taught with [Maria Alley](https://rees.sas.upenn.edu/people/maria-alley)). University of Pennsylvania. Philadelphia. PA.
 
+#### Spring 2021
+- *RUSS 002 Elementary Russian II* (Instructor). University of Pennsylvania. Philadelphia. PA.
+
+#### Fall 2020
+- *RUSS 001 Elementary Russian I* (Instructor, co-taught with [Maria Alley](https://rees.sas.upenn.edu/people/maria-alley)). University of Pennsylvania. Philadelphia. PA.
+
+#### Fall 2017
+- *Russian Language in Literature and Media* (Lecturer). International College of Economics and Finance, National Research University
+Higher School of Economics, Moscow, Russia.
+
 ### Russian Literature Courses
 
 #### Summer 2020
