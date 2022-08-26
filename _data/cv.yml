@@ -114,21 +114,21 @@
       description:
         - "Conference co-organizer. World Literature as a Soviet Cultural Project. National Research University Higher School of Economics. Moscow, Russia."
         
-- title: Teaching Experience
-  type: time_table
-  contents:
-    - year: Summer 2022
-      description:
-        - Middlebury College, Middlebury, VT
-        - Middlebury Language Schools
-        - Russian Language Instructor
-        - Enhanced Intermediate Russian  
-    - year: Spring 2022
-      description:
-        - University of Pennsylvania, Philadelphia, PA
-        - Russian Language Instructor, Co-teaching with Maria Alley
-        - Advance Conversation and Composition 
-        - Independent Study
+#- title: Teaching Experience
+ # type: time_table
+ # contents:
+   # - year: Summer 2022
+   #   description:
+    #    - Middlebury College, Middlebury, VT
+      #  - Middlebury Language Schools
+      #  - Russian Language Instructor
+      #  - Enhanced Intermediate Russian  
+  #  - year: Spring 2022
+      #description:
+       # - University of Pennsylvania, Philadelphia, PA
+       # - Russian Language Instructor, Co-teaching with Maria Alley
+        #- Advance Conversation and Composition 
+       # - Independent Study
 
 - title: Other Interests
   type: list
