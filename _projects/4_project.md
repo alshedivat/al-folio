@@ -1,9 +1,9 @@
 ---
 layout: page
-title: FUN
-description: 123 
-img: 
-importance: 1
+title: Мои литературные эксперименты
+description: Здесь я публикую свои рассказы, стихи и литературные зарисовки
+img: assets/img/writing.jpeg
+importance: 3
 category: fun
 ---
 
