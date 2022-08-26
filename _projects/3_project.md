@@ -2,7 +2,7 @@
 layout: page
 title: Creative Writing Textbooks
 description: This project investigates  
-img: 
+img: assets/img/CWT_background.jpg
 importance: 3
 category: work
 ---
