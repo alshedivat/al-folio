@@ -129,12 +129,12 @@
     - year: Fall 2020
       description:
         - "Instructor (co-taught with Maria Alley). RUSS 001 Elementary Russian I. University of Pennsylvania. Philadelphia, PA."
-    #- year: Summer 2020
-     # description:
-      #  - "Instructor. REES-145 Masterpieces of 19C Russian Literature. University of Pennsylvania. Philadelphia, PA."
-    #- year: Spring 2020
-     # description:
-      #  - "TA. REES-155 Masterpieces of 20C Russian Literature. University of Pennsylvania. Philadelphia, PA." 
+    - year: Summer 2020
+      description:
+        - "Instructor. REES-145 Masterpieces of 19C Russian Literature. University of Pennsylvania. Philadelphia, PA."
+    - year: Spring 2020
+      description:
+        - "TA. REES-155 Masterpieces of 20C Russian Literature. University of Pennsylvania. Philadelphia, PA." 
     #- year: Fall 2019
      # description:
       #  - "TA. RUSS-145 Masterpieces of 19C Russian Literature. University of Pennsylvania. Philadelphia, PA."
