@@ -10,7 +10,10 @@ nav_order: 5
 ### Russian Language Courses
 
 #### Summer 2022
-- *Enhanced Intermediate Russian* (Instructor, Co-taught with [Tom Dolack](https://wheatoncollege.edu/academics/faculty-directory/dolack-thomas/) and [Julia Katsnelson](https://www.uvm.edu/cas/germanrussian/profiles/julia-katsnelson)). Middlebury College. Middlebury Language Schools. Middlbery, VT.
+- *Enhanced Intermediate Russian* (Instructor, co-taught with [Tom Dolack](https://wheatoncollege.edu/academics/faculty-directory/dolack-thomas/) and [Julia Katsnelson](https://www.uvm.edu/cas/germanrussian/profiles/julia-katsnelson)). Middlebury College. Middlebury Language Schools. Middlbery, VT.
+
+#### Spring 2022
+- *Advanced Russian II Russian Society Today* (Independent Study, Instructor, co-taught with [Maria Alley](https://rees.sas.upenn.edu/people/maria-alley)). University of Pennsylvania. Philadelphia. PA.
 
 ### Russian Literature Courses
 
