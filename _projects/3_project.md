@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Creative Writing Textbooks
-description: This project investigates  
+description: This project examines the questions of methods and recipes as they were given to novice writers in Soviet textbooks on creative writing and compares them with the Western analogues.  
 img: assets/img/CWT_background.jpg
 importance: 3
 category: work
