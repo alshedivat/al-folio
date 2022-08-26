@@ -7,7 +7,7 @@ description:
 nav: true
 ---
 
-### Teaching Assistance - Undegraduate courses
+### Teaching Assistance - Undegraduate Courses
 
 |                                                                                                                                                                                                          |             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
@@ -17,4 +17,4 @@ nav: true
 |                                                                                                                                                                                                          |             |
 | **Macroeconomics II (Intermediate Macroeconomics)**                                                                                                                                                      |  Spring 2020|
 | Professor: C. Pacheco, M. Sc.                                                                                                                                                                            |             |
-| Relevant topics: Introduction to modern macroeconomic analysis, modern short-run<br /> model of a closed/open economy, applied general equilibrium models,<br /> alternative approaches to mainstream macroeconomics |             |
+| Relevant topics: Introduction to modern macroeconomic analysis, modern short-run<br /> model of a closed/open economy, alternative approaches to <br /> mainstream macroeconomics |             |
