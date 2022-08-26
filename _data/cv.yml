@@ -204,6 +204,22 @@
       description:
         - "“How to Teach in the Contemporary Political Moment,” Center for Teaching and Learning, University of Pennsylvania, taught by Kevin Platt, November 5, 2018"
         
+- title: Professional Memberships and Affiliations
+  type: time_table
+  contents:
+    - year: 2022 – 2023
+      description:
+        - "Humboldt University of Berlin. Berlin, Germany"
+        - "Friedrich Schlegel Graduate School of Literary Studies. Berlin, Germany"
+        - "Modern Language Association (MLA)"
+    - year: 2020 – present
+      description:
+        - "American Association of Teachers of Slavic and East European Languages (AATSEEL)"
+        - "American Comparative Literature Association (ACLA)"
+    - year: 2018 – present
+      description:
+        - "Association for Slavic, East European, and Eurasian Studies (ASEEES)"
+
 - title: Other Interests
   type: list
   contents:
