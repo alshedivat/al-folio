@@ -19,6 +19,4 @@ nav_order: 5
 
 #### Summer 2020
 - *REES-145 Masterpieces of 19C Russian Literature* (Instructor). University of Pennsylvania. Philadelphia. PA.
----
-pdf: REEES 145.pdf
----
+<object data="my_site/assets/pdf/REES 145.pdf" width="1000" height="1000" type='application/pdf'></object>
