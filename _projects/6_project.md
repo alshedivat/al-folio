@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Translations/переводы/traductions/Übersetzungen
+title: "Translation/перевод/   traduction/Übersetzung"
 description: My translations of various literary works (EN, RU, FR, DE) 
 img: 
 importance: 2
