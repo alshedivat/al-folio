@@ -17,6 +17,7 @@ nav_order: 5
 
 ##### Spring 2021
 - *RUSS 002 Elementary Russian II* (Instructor). University of Pennsylvania. Philadelphia, PA.
+[Syllabus](https://olyanechaeva.github.io/my_site/assets/pdf/RUSS002-syllabus.pdf)
 
 ##### Fall 2020
 - *RUSS 001 Elementary Russian I* (Instructor, co-taught with [Maria Alley](https://rees.sas.upenn.edu/people/maria-alley)). University of Pennsylvania. Philadelphia, PA.
