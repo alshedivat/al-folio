@@ -2,7 +2,7 @@
 layout: page
 title: The Gorky Literary Institute as a Network
 description: The goal of this project is to visualize the network of students, instructors, translators, and editors who were involved with the Gorky Literary Institute one way or another between 1933 and 1991.  
-img: my_site/assets/img/backround_image.jpg
+img: assets/img/LI_backround.jpeg
 importance: 1
 category: work
 ---
