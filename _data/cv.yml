@@ -117,14 +117,13 @@
 - title: Teaching Experience
   type: time_table
   contents:
-    - title: Language Courses
-      institution: Middlebury College, Middlebury, VT
+    - institution: Middlebury College, Middlebury, VT
       year: Summer 2022
       description:
         - Russian Language Instructor
         - Enhanced Intermediate Russian
         - Middlebury Language School
-      institution: University of Pennsylvania, Philadelphia, PA
+    - institution: University of Pennsylvania, Philadelphia, PA
       year: Spring 2022
       description:
         - Russian Language Instructor, Co-teaching
