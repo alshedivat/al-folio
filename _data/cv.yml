@@ -161,6 +161,18 @@
     - year: 2013 – 2014
       description:
         - "French Government Scholarship (Bourse du gouvernement français)"
+        
+- title: Research Groups
+  type: time_table
+  contents:
+    - year: 2020 – present
+      description:
+        - "DH Project “Nineteenth-Century Russian Literature in Translation.” University of Pennsylvania"
+        - "Research Project “19C and 20C Literary Circles: History of Literary Education.” National Research University Higher School of Economics"
+        - "The Graduate Initiative on Indigenous Studies in Russia"
+    - year: 2017 – 2018
+      description:
+        - "Research Group “The Questions of the Translation of Style.” National Research University Higher School of Economics"
 
 - title: Other Interests
   type: list
