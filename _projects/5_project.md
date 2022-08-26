@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: Russian Humour
+description: Middlebury Club
+img: assets/img/naukomol-1.jpeg
 importance: 3
 category: fun
 ---
