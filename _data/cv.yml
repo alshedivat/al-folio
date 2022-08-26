@@ -59,10 +59,10 @@
 - title: Research and Teaching Interests
   type: table
   contents:
-     - items: 
+     - description: 
         - Soviet Literature
         - Socialist Realism
-     #   - Socialist Internationalism
+        - Socialist Internationalism
       #  - Sociology of Literature
        # - Digital Humanities
        # - Soviet Education
