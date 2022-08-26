@@ -29,9 +29,7 @@ Higher School of Economics. Moscow, Russia.
 
 ##### Summer 2020
 - *REES-145 Masterpieces of 19C Russian Literature* (Instructor). University of Pennsylvania. Philadelphia, PA.
----
-course_pdf: CV_Nechaeva_August25_2022.pdf
----
+pdf: CV_Nechaeva_August25_2022.pdf
 
 ##### Spring 2020
 - *REES-155 Masterpieces of 20C Russian Literature* (TA for [Kevin M. F. Platt](https://rees.sas.upenn.edu/people/kevin-mf-platt)). University of Pennsylvania. Philadelphia, PA.
