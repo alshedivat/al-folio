@@ -143,7 +143,19 @@
       description:
         - "TA. War in 20C European Literature. National Research University Higher School of Economics. Moscow, Russia."
         - "Lecturer. Russian Language in Literature and Media. National Research University Higher School of Economics. Moscow, Russia."
-        
+
+- title: Fellowships and Awards
+  type: time_table
+  contents:
+    - year: 2022 – 2023
+      description:
+        - "International Dissertation Research Fellowship from the Social Science Research Council (IDRF SSRC)"
+        - "German Academic Exchange Service (DAAD) One-Year Research Grant"
+        - "Dissertation Research Award from the University of Pennsylvania"
+    - year: 2021 – 2022
+      description:
+        - "Mellon Mid-Doctoral Fellowship from the Price Lab for Digital Humanities at the University of Pennsylvania"
+
 - title: Other Interests
   type: list
   contents:
