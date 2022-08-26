@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 19C Russian Literature in Translation
-description: MAPS. 
+title: 19CRLT: Nineteenth-Century Russian Literature in Translation
+description: This project investigates the role of translation in nineteenth-century Russian literature’s rise to prominence in world literature as a case study in the processes whereby a nationally or linguistically defined literature may achieve circulation and recognition on a global level. 
 img: 
 importance: 2
 category: work
