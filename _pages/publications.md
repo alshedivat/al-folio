@@ -38,17 +38,17 @@ nav: true
 -->
   
 <div class="myDiv">
-<h2> Working Papers </h2>
+<h2> Working papers </h2>
 {% bibliography -f papers -q @*[type=Working paper]* %}
 </div>
 
 <div class="myDiv">
-<h2> Research Assistance </h2>
+<h2> Research assistance </h2>
 {% bibliography -f papers -q @*[type=Research assistance]* %}
 </div>
 
 <div class="myDiv">
-<h2> Mathematical Publications </h2>
+<h2> Mathematical contributions </h2>
 {% bibliography -f papers -q @*[type=Math handout]* %}
 </div>
 
