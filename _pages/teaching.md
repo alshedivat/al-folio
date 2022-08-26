@@ -2,11 +2,12 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Syllabi for selected courses I taught
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+### Russian Language Classes
 
-Organize your courses by years, topics, or universities, however you like!
+#### Summer 2022
+Enhanced Intermediate Russian (co-taught with Tom Dolack and Julia Katsnelson). Middlebury College. Middlebury Language Schools. Middlbery, VT
