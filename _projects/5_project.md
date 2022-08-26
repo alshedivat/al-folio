@@ -3,7 +3,7 @@ layout: page
 title: Russian Humour
 description: Middlebury Club
 img: assets/img/naukomol-1.jpeg
-importance: 3
+importance: 1
 category: fun
 ---
 
