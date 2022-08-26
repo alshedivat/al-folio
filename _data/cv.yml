@@ -181,6 +181,29 @@
       description:
         - "Representative of the Comparative Literature and Literary Theory Program at SASGov – a student government body for graduate students of Penn’s School of Arts & Sciences. University of Pennsylvania"
 
+- title: Additional Training
+  type: time_table
+  contents:
+    - year: 2022
+      description:
+        - "“Digital Humanities in the Classroom,” Dream Lab, Price Lab for Digital Humanities, University of Pennsylvania, taught by Roberto Vargas and Dorothy Berry, June 13-16, 2022"
+    - year: 2021
+      description:
+        - "“Text Analysis,” Dream Lab, Price Lab for Digital Humanities, University of Pennsylvania, taught by Katie Rawson and Scott Enderle, June 14-17, 2021"
+        - "“Price Lab Summer Projects,” Price Lab for Digital Humanities, University of Pennsylvania, taught by Cassandra Hradil and J.D. Porter, June 14 – August 9, 2021"
+    - year: 2020
+      description:
+        - "“Creating Community in the Remote Literature Classroom,” Center for Teaching and Learning, University of Pennsylvania, taught by Jo Park and D. Brian Kim, August 11, 2020"
+        - "“Creating Community in Your Online Class,” Center for Teaching and Learning, University of Pennsylvania, taught by Ian Petrie, August 5, 2020"
+        - "“Incorporating Theory into Undergraduate Courses,” Center for Teaching and Learning, University of Pennsylvania, taught by Emily Steinlight, February 25, 2020"
+        - "“Russian Language Pedagogy,” University of Pennsylvania, taught by Maria Alley, January 21-May 26, 2020"
+    - year: 2019
+      description:
+        - "“Teaching in Translation: Using Translated Works and the Practice of Translation in the Classroom,” Center for Teaching and Learning, University of Pennsylvania, taught by Emily Wilson, February 11, 2019"
+    - year: 2018
+      description:
+        - "“How to Teach in the Contemporary Political Moment,” Center for Teaching and Learning, University of Pennsylvania, taught by Kevin Platt, November 5, 2018"
+        
 - title: Other Interests
   type: list
   contents:
