@@ -123,12 +123,12 @@
     - year: Spring 2022
       description:
         - "Instructor (co-taught with Maria Alley). Advance Conversation and Composition (Independent Study). University of Pennsylvania. Philadelphia, PA." 
-   # - year: Spring 2021
-    #  description:
-     #   - "Instructor. RUSS 002 Elementary Russian II. University of Pennsylvania. Philadelphia, PA." 
-    #- year: Fall 2020
-     # description:
-      #  - "Instructor (co-taught with Maria Alley). RUSS 001 Elementary Russian I. University of Pennsylvania. Philadelphia, PA."
+    - year: Spring 2021
+      description:
+        - "Instructor. RUSS 002 Elementary Russian II. University of Pennsylvania. Philadelphia, PA." 
+    - year: Fall 2020
+      description:
+        - "Instructor (co-taught with Maria Alley). RUSS 001 Elementary Russian I. University of Pennsylvania. Philadelphia, PA."
     #- year: Summer 2020
      # description:
       #  - "Instructor. REES-145 Masterpieces of 19C Russian Literature. University of Pennsylvania. Philadelphia, PA."
