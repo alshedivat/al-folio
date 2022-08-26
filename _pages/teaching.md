@@ -28,7 +28,9 @@ Higher School of Economics. Moscow, Russia.
 ### Russian Literature Courses
 
 ##### Summer 2020
-- *REES-145 Masterpieces of 19C Russian Literature* (Instructor). University of Pennsylvania. Philadelphia, PA. [Download Syllabus](./assets/pdf/REES 145.pdf)
+- *REES-145 Masterpieces of 19C Russian Literature* (Instructor). University of Pennsylvania. Philadelphia, PA.
+
+<a href="/pdf/REES 145.pdf" class="image fit"><img src="images/ON_new.png" alt=""></a> 
 
 ##### Spring 2020
 - *REES-155 Masterpieces of 20C Russian Literature* (TA for [Kevin M. F. Platt](https://rees.sas.upenn.edu/people/kevin-mf-platt)). University of Pennsylvania. Philadelphia, PA.
