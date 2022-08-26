@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Russian Humour
-description: Middlebury Club
+description: Originally started as an extra-curricular club at the Middlebury Russian Language School. I translate and comment on Russian jokes, memes, stand-up, and caricatures.
 img: assets/img/naukomol-1.jpeg
 importance: 1
 category: fun
