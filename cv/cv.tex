@@ -1,0 +1,215 @@
+%------------------------
+% Credits to
+% Resume Template
+% Author : Anubhav Singh
+% Github : https://github.com/xprilion
+% License : MIT
+% Link: https://www.overleaf.com/latex/templates/resume-template-by-anubhav/dhmkrwtksdgy
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{tabto}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{amssymb}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+	\vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+	\item\small{
+		\textbf{#1}{: #2 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+	\item\small{
+		{\vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeSubheading}[4]{
+	\vspace{-1pt}\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		#3 & #4 \\
+	\end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSmallheading}[4]{
+	\vspace{-1pt}\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		#1 & {#2} \\ 
+		#3 & #4 \\
+	\end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+	\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+	\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+	
+	%----------HEADING-----------------
+	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{{\LARGE Ivan Puhachov}} & Email: \href{mailto:}{ivan.puhachov@gmail.com}\\
+		Website:~\href{https://puhachov.xyz/}{\texttt{[puhachov.xyz]}} & Mobile: +1-514-XXXX-XXX \\
+		Github:~~\href{https://github.com/ivanpuhachov/}{\texttt{[github.com/ivanpuhachov]}} & Last updated: July 2022\\
+	\end{tabular*}
+
+\vspace{5pt}
+	
+	I am a PhD-student working on geometry processing and machine learning applications to process natural drawings. 
+
+	\vspace{5pt}
+	\section{Publications}
+	\resumeSubHeadingListStart
+	\vspace{5pt}
+	
+	\resumeSubheading
+	{Stability-Aware Simplification of Curve Networks}
+	{SIGGRAPH 2022}
+	{William Neveu, \underline{Ivan Puhachov}, Bernard Thomaszewski, Mikhail Bessmeltsev}
+	{\href{http://www-labs.iro.umontreal.ca/~bmpix/curve_networks/}{\texttt{[project page]}}\href{https://dl.acm.org/doi/10.1145/3528233.3530711}{\texttt{[acm]}}}
+	
+	\vspace{2pt}
+	\resumeSubheading
+	{Keypoint-Driven Line Drawing Vectorization via PolyVector Flow}
+	{SIGGRAPH Asia 2021}
+	{\underline{Ivan Puhachov}, William Neveu, Edward Chien, Mikhail Bessmeltsev}
+	{\href{https://puhachov.xyz/publications/keypoint-driven-polyvector-flow/}{\texttt{[project page]}}
+	\href{https://dl.acm.org/doi/10.1145/3478513.3480529}{\texttt{[acm]}}}
+	
+	\resumeSubHeadingListEnd
+	
+	%-----------EDUCATION-----------------
+	\vspace{5pt}
+	\section{Education}
+	\resumeSubHeadingListStart
+	
+	\resumeSubheading
+	{Universit\'e de Montr\'eal}{Montreal, Canada}
+	{PhD in Computer Science,  \href{https://diro.umontreal.ca/accueil/}{DIRO}, \href{https://diro.umontreal.ca/accueil/}{LIGUM}}{Sept 2019 - 2024 (expected)}
+	{\scriptsize { \footnotesize{\newline{}\textbf{Research supervisor:}  \href{http://www-labs.iro.umontreal.ca/~bmpix/}{Mikhail Bessmeltsev}}}}
+	
+	\resumeSubheading
+	{University of L'Aquila \& Kharkiv National University}{L'Aquila, Italy}
+	{MSc (cum laude) in Mathematical Engineering; GPA: 3.93 / 4.0}{Sept 2017 - June 2019}
+	{\scriptsize { \footnotesize{\newline{}Joint MSc Programme \href{http://www.intermaths.eu/}{Intermaths}} \newline{}
+	\textbf{Thesis:} “Catacaustics of surfaces” (advisor: \href{http://geometry.karazin.ua/en/~yampolsky}{Alexander L. Yampolsky})
+	}}
+	
+	\resumeSubheading
+	{V.N. Karazin Kharkiv National University}{Kharkiv, Ukraine}
+	{BSc in Mathematics, School of Mathematics and Informatics, \href{http://geometry.karazin.ua/en}{Geometry}; GPA 3.66 / 4.0}{Sept 2013 - June 2017}
+	{\scriptsize { \footnotesize{\newline{}\textbf{Thesis:} “Caustics of curves and surfaces in space” (advisor: \href{http://geometry.karazin.ua/en/~yampolsky}{Alexander L. Yampolsky})}}}
+	
+	\resumeSubHeadingListEnd
+	
+	\vspace{-5pt}
+	\section{Skills Summary}
+	\vspace{2pt}
+	\textbf{Languages: }{\texttt{Python, C++, bash, Matlab}}
+	
+	\vspace{1pt}
+	
+	\textbf{Frameworks: }{\texttt{PyTorch, NumPy, SciPy, CGAL, libigl, Eigen}}
+	
+	\vspace{1pt}
+	
+	\textbf{Tools: }{\texttt{Blender, git, Ubuntu, Blender scripting, Adobe Illustrator scripting}}
+
+	
+	%-----------EXPERIENCE-----------------
+	
+	\vspace{3pt}
+	\section{Experience}
+	\resumeSubHeadingListStart
+	
+	\resumeSubheading{Research Engineering Intern}{Montreal, Canada}
+	{Quantum Technology Recruiting Inc. on assignment with Huawei Canada}{Oct 2021 - Present}
+	\resumeItemListStart
+	\resumeItem
+	{Currently}
+	{Research project to submit}
+	\resumeSubHeadingListEnd
+	
+	%\vspace{-5pt}
+	\vspace{5pt}
+	
+	\resumeSubheading
+	{Machine Learning Research Intern}{Kharkiv, Ukraine}
+	{\href{https://mobidev.biz/}{MobiDev}}{Feb 2019 -  Aug 2019}
+	\resumeItemListStart
+	\resumeItem{Bio-verification system}
+	{Image quality assesment system; fine-tuning face verification system}
+	\resumeItem{Object detection and tracking}
+	{PoC for multiple object tracking}
+	\resumeItem{Sales forecast}{Time-series analysis}
+	\resumeItemListEnd
+	
+	\resumeSubHeadingListEnd
+	
+	%-----------Activities-----------------
+	\vspace{-5pt}
+	\section{Activities}
+	\resumeSubHeadingListStart
+	\resumeSmallheading{\textbf{Teaching Assistant, IFT 6113} \textit{"Geometric Modeling and Shape Analysis"}} {Fall 2022, 2021, 2020}  {Homework code templates, assessment, face-to-face evaluation, tech support, forum moderation}{\href{http://www-labs.iro.umontreal.ca/~bmpix/teaching/6113/2022/}{\texttt{[course page]}}}
+	\vspace{2pt}
+	\resumeSmallheading{\textbf{Project IFT 6756} \textit{"Game Theory and Machine Learning"}} {Spring 2021}  {Trained a GAN models to generate vector images, short comparison with regular raster GANs}{\href{https://puhachov.xyz/projects/vector_gan/}{\texttt{[project page]}}}
+	\vspace{2pt}
+	\resumeSmallheading{\textbf{Project IFT 6010} \textit{"Modern Natural Language Processing"}} {Spring 2021}  {Recurrent Neural Network with attention to generate simple drawings}{\href{https://puhachov.xyz/projects/sketchrnn_attention/}{\texttt{[project page]}}}
+	\vspace{2pt}
+	\resumeSubHeadingListEnd
+	
+	\vspace{-5pt}
+	%-----------Awards-----------------
+	\section{Honors and Awards}
+	\begin{description}[font=$\bullet$]
+		\item {PhD Excellence Scholarship, DIRO, Ud\'eM -- April 2021}
+		\vspace{-5pt}
+		\item {PhD Excellence Scholarship, DIRO, Ud\'eM -- April 2020}
+		
+	\end{description}
+
+	
+\end{document}
