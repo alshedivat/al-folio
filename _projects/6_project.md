@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Metadata
-description: use of metadata while pre-training a model to improve various aspects (such as its zero-shot text generation abilities)
+title: BIG-bench 🪑
+description: Indic Cause and Effect - task to measure a model's ability to perform causal reasoning in 3 different Indic languages (Bengali, Hindi and Malayalam)
 img: #
-importance: 6
-redirect: https://github.com/bigscience-workshop/metadata
+importance: 5
+redirect: https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/indic_cause_and_effect
 category: fun
 ---
 
