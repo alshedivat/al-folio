@@ -182,7 +182,7 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-target-blank
-  # - jekyll-twitter-plugin  # does not work on Github Pages
+  - jekyll-twitter-plugin
   - jemoji
 
 # Sitemap settings

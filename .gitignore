@@ -8,4 +8,7 @@ _site
 .tweet-cache
 Gemfile.lock
 vendor
-
+# node stuff
+node_modules
+package.json
+package-lock.json
