@@ -9,8 +9,8 @@ nav: true
 
 #### University of Michigan 
 The sole instructor for a section of 15-20 students.
-1. [Math 116](http://www.math.lsa.umich.edu/courses/116/), Winter 2022.
-2. [Math 115](http://www.math.lsa.umich.edu/courses/115/), Fall 2021.
+2. [Math 116](http://www.math.lsa.umich.edu/courses/116/), Winter 2022, Fall 2022.
+3. [Math 115](http://www.math.lsa.umich.edu/courses/115/), Fall 2021.
 
 #### Monsoon Math Camp 
 
