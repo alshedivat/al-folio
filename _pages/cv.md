@@ -36,5 +36,5 @@ See [Publications](https://jbacaob.github.io/publications/) page.
 
 ## Volunteering
 
-* Euclidean Geometry instructor at Academia Sabatina de Jóvenes Talento Nicaragua, October 2016 - July 2022.
-* Differential and Integral Calculus Monitor at Universidad Centroamericana, February 2019 - June 2019.
+* Euclidean Geometry Instructor at Academia Sabatina de Jóvenes Talento Nicaragua, October 2016 - July 2022.
+* Differential and Integral Calculus Assistant at Universidad Centroamericana, February 2019 - June 2019.
