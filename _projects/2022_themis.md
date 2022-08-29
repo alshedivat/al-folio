@@ -1,80 +1,33 @@
 ---
 layout: page
 title: THEMIS
-description: blubb
-img: assets/img/12.jpg
+description: "Leveraging background knowledge for understanding and modeling complex systems (<strong>BMBF Junior Research Group</strong>)"
+img: assets/img/projects/themis_fig1_small.png
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<img src="/assets/img/projects/themis_fig1.png" style="float: right; width:100%; padding: 1em"/>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+## Motivation
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Complex systems are ubiquitous, whether in environmental processes, human behavior or biomedical applications. Understanding the underlying processes of such systems better and being able to make adequate predictions is a major challenge. Machine learning methods and in particular deep learning models deal with this mainly by relying on huge amounts of data. This often leads to models that are difficult to understand and from which it is not easily possible to gain deeper insights into the corresponding domain. At the same time, background knowledge and a deeper understanding of complex systems are essential for practical decision-making and planning. This highlights the central role of background knowledge, whose integration with machine learning has the potential to enable explanatory as well as predictive models with significantly increased predictive power, robustness, generalizability and fairness.
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<!-- Komplexe Systeme sind allgegenwärtig, ob in Umweltprozessen, menschlichem Verhalten oder biomedizinischen Anwendungen. Die zugrundeliegenden Prozesse solcher System besser zu verstehen und adäquate Vorhersagen treffen zu koennen, stellt eine große Herausforderung dar. Maschinelle Lernverfahren und insbesondere Deep-Learning-Modelle bewältigen dies hauptsächlich, indem sie sich auf riesige Datenmengen stützen. Dies führt zu oft schwer verständlichen Modellen, aus denen es nicht ohne weiteres möglich ist, tiefere Einblicke in die entsprechende Domäne zu gewinnen. Gleichzeitig sind Hintergrundwissen sowie ein tieferes Verständnis komplexer Systeme für praktische Entscheidungsfindung und Planung unerlässlich. Dies hebt die zentrale Rolle von Hintergrundwissen hervor, dessen Integration mit maschinellem Lernen das Potential birgt, erklärende sowie prädiktive Modelle mit deutlich erhöhter Vorhersageleistung, Robustheit, Generalisierbarkeit und Fairness zu ermöglichen. -->
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+## Goals and approach
+
+Therefore, the AI ​​junior research group Themis deals with knowledge extraction and knowledge integration for machine learning. The project aims to develop knowledge extraction methods to explain and understand complex systems along three axes: horizontal (interactions between components of the system), vertical (differences in the collected data, such as for different groups of people), and temporal (over time). Furthermore, the limits and the potential of knowledge integration in practical applications are examined and optimized. The methods developed are to be tested in case studies and projects with users.
+<!-- 
+Deshalb befasst sich die KI-Nachwuchsgruppe Themis mit Wissensextraktion und Wissensintegration für maschinelles Lernen. Das Projekt zielt darauf ab, Methoden zur Wissensextraktion zu entwickeln, um komplexe Systeme entlang dreier Achsen zu erklären und zu verstehen: horizontal (Interaktionen zwischen Komponenten des Systems), vertikal (Unterschiede in den gesammelten Daten, wie etwa für unterschiedliche Personengruppen), sowie temporal (über die Zeit). Weiterhin werden die Grenzen sowie das Potenzial von Wissensintegration in praktischen Anwendungen  untersucht und optimiert. Die entwickelten Methoden sollen in Fallstudien und Projekten mit Anwendern erprobt werden.  -->
+
+## Innovation und perspectives
+
+The methods developed will thus form the basis for gaining new insights in a wide variety of application scenarios and optimally using existing knowledge for comprehensible machine learning. In the medium term, this should enable the practical application of knowledge-based machine learning in a variety of industries such as environmental modelling, behavioral analysis or biomedical development.
+
+<!-- 
+Die entwickelten Methoden werden so die Grundlage bilden, neue Erkenntnisse in unterschiedlichsten Anwendungsszenarien zu gewinnen und vorhandenes Wissen optimal für nachvollziehbares maschinelles Lernen zu nutzen. Mittelfristig soll dies die praktische Anwendung des wissensbasierten maschinellen Lernens in einer Vielzahl von Branchen ermöglichen wie etwa in der Umwelt-modellierung, Verhaltensanalyse oder in der biomedizinischen Entwicklung.  -->
+
