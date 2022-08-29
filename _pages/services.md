@@ -33,6 +33,10 @@ Session chair of The IEEE International Conference on Distributed Computing Syst
 
 **Technical Programm Committee (TPC) Member**
 
+The ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (SIGSPATIAL) 2022
+
+The ACM Workshop on Privacy in the Electronic Society (WPES) 2022
+
 The IEEE Wireless Communications and Networking Conference (WCNC) 2021
 
 The IEEE/ACM International Symposium on Cluster, Cloud, and Grid Computing (CCGrid) 2019, 2020
