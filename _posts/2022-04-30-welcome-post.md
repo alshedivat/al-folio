@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Welcome! This is my first post"
-date: 2022-04-30 00:00:01
+date: 2022-04-30 04:00:00
 description: Just a short welcome post 
 ---
+
 Hi there! Welcome to my blog!
 
 I finally had the energy (and time) to launch my website, and with it, I'm launching a blog! So, what will it be about? Mostly technical stuff I'm interested in and maybe some career thoughts/advice, but other topics may show up, who knows? 

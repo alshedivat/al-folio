@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>Data Scientist, Machine Learning Engineer, {add_other_fancy_title_here} </b>
+subtitle: <b>Data Scientist, Machine Learning Engineer, Researcher </b>
 
 profile:
   align: right
