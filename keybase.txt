@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/sanjitb
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sanjit-bhat.github.io
+  * I am sanjitb (https://keybase.io/sanjitb) on keybase.
+  * I have a public key ASAm8QHZFObg19gVSRLvWYiCNUr8ANumI3x_V8FrL1R85go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012026f101d914e6e0d7d8154912ef598882354afc00dba6237c7f57c16b2f547ce60a",
+      "host": "keybase.io",
+      "kid": "012026f101d914e6e0d7d8154912ef598882354afc00dba6237c7f57c16b2f547ce60a",
+      "uid": "d6d6c770f0f644191800cfa85792bb19",
+      "username": "sanjitb"
+    },
+    "merkle_root": {
+      "ctime": 1648070214,
+      "hash": "88d8c33b20ca1a2b88ab2b606f5685a095f35fd36a1e7e790e5801463460fd4c33413a30446cf9210dd98b5c16206f466ff60bea41cb3ab486af6c919c819bd2",
+      "hash_meta": "5273cc1a081dd2886be550f012c54901c152df2134e619b41ed18418fd35e71d",
+      "seqno": 22147778
+    },
+    "service": {
+      "entropy": "DSEZcnOv+HQnUrUi4WYZWaqk",
+      "hostname": "sanjit-bhat.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.2"
+  },
+  "ctime": 1648070274,
+  "expire_in": 504576000,
+  "prev": "c58c195574f415c6b1650b65cb1143d38e36297c27afebfa6147c6ff38c95100",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgJvEB2RTm4NfYFUkS71mIgjVK/ADbpiN8f1fBay9UfOYKp3BheWxvYWTESpcCBsQgxYwZVXT0FcaxZQtlyxFD0442KXwnr+v6YUfG/zjJUQDEIIhSLIRYgkFLM9s5mvwfigoAGf8lV6TCzAynjpiQXQO0AgHCo3NpZ8RARpDKHBzKC6gY3g1eZLP2CZP36fxgmAW+BK1XrYQH3jFhxVeaVKR+WG0iFxJjWWC8G6Vut9j9tXt9eEHB57CfAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEwwaNBZkeC6mubt6niEWfh2wZXeyJCku4fqYYoBbtSWo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sanjitb
+
+==================================================================

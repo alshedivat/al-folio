@@ -1,6 +1,8 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"OSDI Poster":
+  url: https://www.usenix.org/conference/osdi22
 
-"PhysRev":
-  url: https://journals.aps.org/
+"PETS":
+  url: https://petsymposium.org
+
+"WPES":
+  url: https://arc.encs.concordia.ca/wpes22/index.html

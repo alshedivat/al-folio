@@ -1,8 +1,8 @@
 ---
-layout: cv
+layout: default
 permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: example_pdf.pdf
+redirect_to: /assets/pdf/sanjit-bhat-cv-fall-2021.pdf
 ---
