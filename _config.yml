@@ -321,6 +321,6 @@ mathjax:
 masonry:
   version: "4"
 mdb:
-  version: "4"
+  version: "5"
 medium_zoom:
   version: "1"
