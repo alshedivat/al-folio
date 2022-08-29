@@ -9,17 +9,21 @@ nav: true
 
 ---
 ## education
-- **University of California San Diego**, Sep. 2015--Jun. 2022.
-    - Ph.D., Electrical Engineering.
+- **University of California San Diego**, 2015--2022.
+    - Ph.D. in  Electrical Engineering, June 2022.
         - Advisors: [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/).
         - Thesis title: "From Information Theory to Machine Learning Algorithms: A Few Vignettes" (defended on 06/03/2022.)
-    - M.S., Electrical Engieering, Dec. 2018.
-- **Seoul National University**, Mar. 2008--Aug. 2015.
-    - B.S., Electrical and Computer Engineering.
-    - B.S., Mathematical Sciences.
-    - Minor in Physics.
+    - M.S. in Electrical Engieering, December 2018.
+- **Seoul National University**, 2008--2015.
+    - B.S. in Electrical and Computer Engineering and Mathematical Sciences (double major), August 2015.
     - Honors: summa cum laude (GPA: 4.11/4.3).
-- **Seoul Science High School**, Mar. 2006--Feb. 2008.
+- **Seoul Science High School**, 2006--2008.
+
+---
+## employment
+- **Massachusetts Institute of Technology**, 2022--
+    - Postdoctoral Associate, August 2022--present
+    - Advisor: [Gregory W. Wornell](http://allegro.mit.edu/~gww/)
 
 ---
 
@@ -33,6 +37,8 @@ nav: true
     - Gold Prize (2010), Honorable Mention (2009) (non-math majors).
 
 ## invited talks
+- **Nearest Neighbor Density Functional Estimation From Inverse Laplace Transform**
+    - at the [Center for AI and Natural Sciences](http://www.kias.re.kr/sub04/sub04_06.jsp), KIAS, Seoul, South Korea, Aug. 2022.
 - **From Information Theory to Machine Learning Algorithms: Two Vignettes**.
     - at the [Signals, Information and Algorithms Laboratory](https://www.rle.mit.edu/sia/), MIT, Cambridge, MA, USA, Mar. 2022.
     - at the [Center for AI and Natural Sciences](http://www.kias.re.kr/sub04/sub04_06.jsp), KIAS, Seoul, South Korea, Mar. 2022. 
