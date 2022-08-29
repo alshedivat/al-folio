@@ -49,9 +49,17 @@ The IEEE Wireless Communications and Networking Conference (WCNC) 2020
 
 **Journal Reviewr**
 
-2021, 2020, 2017: IEEE Transactions on Mobile Computing (TMC)
+2022, 2021, 2020, 2017: IEEE Transactions on Mobile Computing (TMC)
 
-2021, 2018, 2015: IEEE/ACM Transactions on Networking (ToN)
+2022: Transactions on Intelligent Transportation Systems (T-ITS)
+
+2022: IEEE Transactions on Dependable and Secure Computing (TDSC)
+
+2022, 2016: IEEE Communications Letters (CL)
+
+2022, 2021, 2018, 2015: IEEE/ACM Transactions on Networking (ToN)
+
+2022: An International Journal on Advances of Computer Science for Geographic Information Systems (GeoInformatica)
 
 2021, 2018: IEEE Transactions on Information Forensics & Security (TIFS)
 
@@ -61,15 +69,13 @@ The IEEE Wireless Communications and Networking Conference (WCNC) 2020
 
 2018, 2015: IEEE Transactions on Vehicular Technology (TVT)
 
+2018, 2017: International Journal of Cooperative Information Systems (IJCIS)
+
 2017: IEEE Transactions on Wireless Communications (TWC)
 
 2017: International Journal of Communication Systems (IJCS)
 
-2016: IEEE Communications Letters (CL)
-
 2015: International Journal of Distributed Sensor Networks (IJDSN)
-
-2018, 2017: International Journal of Cooperative Information Systems (IJCIS)
 
 2017: Computer Networks Journal (CONNET), Computer Networks
 
