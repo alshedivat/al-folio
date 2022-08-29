@@ -523,3 +523,6 @@ The theme is available as open source under the terms of the [MIT License](https
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license).
 Since then, it got a full re-write of the styles and many additional cool features.
 
+## Notes
+
+* If you get an error like `notifier.rb:69:in 'initialize': Too many open files`, run `echo 256 > /proc/sys/fs/inotify/max_user_instances`. ([source](https://stackoverflow.com/a/38486048/991496))
