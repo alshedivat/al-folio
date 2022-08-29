@@ -2,11 +2,16 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Please email me for course materials.
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+- Lecturer at University at Buffalo:
+  - Spring 20 – Introduction to Statistical Inference (MTH 512, graduate class)
+- Teaching Assistant at University of California Riverside:
+  - Summer 19  – Introduction to Statistics (STAT 100A, undergraduate class)
+  - Summer 19  – Introduction to Linear Systems (ME 120, undergraduate class)
+  - Winter 18  – Mechatronics (ME 133, undergraduate class)
+  - Winter 19  – Mechatronics (ME 133, undergraduate class)
+  - Spring 16  – Secure and Reliable Control Systems (ME 223, graduate class)

@@ -5,7 +5,8 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Rajasekhar
 middle_name:
-last_name: Anguluri
+last_name: Anguluri 
+
 email: # rangulur@asu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Professional web page of Rajasekhar Anguluri
@@ -219,8 +220,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: Rajasekhar
-  first_name: [Anguluri]
+  last_name: Anguluri
+  first_name: [Rajasekhar]
 
   style: apa
   locale: en
@@ -229,7 +230,7 @@ scholar:
   order: descending, descending
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: papers.bib, raj-preprints.bib, raj-thesis.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.

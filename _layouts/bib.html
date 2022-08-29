@@ -51,7 +51,7 @@
                 {%- endif -%}
               {%- endfor -%}
             {%- endif -%}
-            
+
             {%- if forloop.length == 1 -%}
               {%- if author_is_self %}
                 <em>{{author.last}}, {{author.first}}</em>
@@ -138,7 +138,7 @@
             {{ periodical | strip }}
           </div>
         {%- endif %}
-        
+
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}
@@ -188,7 +188,7 @@
             {%- endif %}
           {%- endif %}
           {%- if entry.website %}
-            <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+            <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
           {%- endif %}
           </div>
 
