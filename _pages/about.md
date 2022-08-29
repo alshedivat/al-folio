@@ -2,11 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: Mathematics Ph.D. Student, University of Michigan. [Curriculum Vitae
-](https://drive.google.com/file/d/1lXFeZx2ozzytd_JVF74125q_PTBW0gUL/view?usp=sharing).
+subtitle: Mathematics Ph.D. Student, University of Michigan. <a href= 'https://drive.google.com/file/d/1lXFeZx2ozzytd_JVF74125q_PTBW0gUL/view?usp=sharing'>Curriculum Vitae</a>.
 
-profile:[
-](https://drive.google.com/file/d/1lXFeZx2ozzytd_JVF74125q_PTBW0gUL/view?usp=sharing)
+profile:
   align: right
   image: prof_pic.jpg
   address: >
