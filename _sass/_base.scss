@@ -30,6 +30,7 @@ a, table.table a {
   &:hover:after :not(.nav-item.dropdown) {
     width: 100%;
   }
+  font-weight: 400;
 }
 
 figure, img {
@@ -612,6 +613,7 @@ code {
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
+  font-weight: 400;
 }
 
 
