@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: 
 
@@ -46,7 +46,7 @@ social: true  # includes social icons at the bottom of the page
 </div>
 -->
 
-> **[We are hiring!](/open-positions)** We are looking for up tp **four PhD students or Postdocs** and at least **two student assistants**.
+> **[Join us!](/open-positions)** 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are looking for up to **four PhD students or Postdocs** and at least **two student assistants**.
 You will work on amazing [projects](projects) such as extracting and integrating domain knowledge from and into machine learning methods in the context of high-impact applications like (bio-)medicine and environmental change.
 
 The **Becker Lab** aims to **impact high-stake real-world problem settings** at the intersection of **medicine, environmental change, and human behavior** through **artificial intelligence and machine learning**.
@@ -56,6 +56,6 @@ In this context, the main focus of our group is threefold:
 
 * **understanding complex systems** by extracting novel insights into their underlying processes,
 * **modeling complex systems** by integrating existing domain knowledge into machine learning methods,
-* and developing methods for **knowledge management and representation**.
+* and developing methods for **knowledge management, representation, and interaction**.
 
 Our approaches range from multi-modal learning, network analysis, and exceptional model mining to Bayesian modeling, deep learning, representation learning, explainable AI, and human computer interaction.

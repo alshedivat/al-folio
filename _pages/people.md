@@ -1,6 +1,6 @@
 ---
 layout: page
-title: people
+title: People
 permalink: /people/
 description: People in the lab.
 nav: true

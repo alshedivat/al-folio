@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /open-positions/
-title: open positions
+permalink: /join-us/
+title: Join Us!
 description: Open positions in the lab
 nav: true
 nav_order: 6
@@ -12,12 +12,14 @@ nav_order: 6
 <!-- The Becker Lab is looking for **up to four PhD students and postdocs** motivated to work on high-impact problem settings in real-world applications like medicine, biology, environmental change, or human behavior.
 You will be working on developing and applying methods from artificial intelligence, machine learning, data mining, explainable AI and HCI. -->
 
-Up to **four machine learning PhD student or postoc positions** are available at the [Becker Lab](https://bckrlab.net) at the [University of Rostock, Germany](https://www.uni-rostock.de).
-You will join a machine learning group with a strong global network, e.g., including Stanford University, UC San Diego, or UNC Chapel Hill, as well as local expertise providing direct access to world-experts in machine learning, (bio-)medicine, and marine ecology.
+Up to **four machine learning PhD student or postoc positions** are available at the [Becker Lab](https://bckrlab.org) at the [University of Rostock, Germany](https://www.uni-rostock.de).
+You will join a machine learning group in a beautiful city at the ocean with a strong global network, e.g., including Stanford University, UC San Diego, or UNC Chapel Hill, as well as local expertise providing direct access to world-experts in machine learning, (bio-)medicine, and marine ecology.
 This is a unique opportunity for PhD students and postocs to work in and shape a young and versatile research group that aims to directly impact real-world problem settings in medical as well as environmental settings by developing and applying cutting-edge machine learning methods.
+We are particularly passionate about methods to gain deeper insights into the complex systems of the corresponding application domain, domain knowledge integration into machine learning methods, as well as human interaction with existing knowledge in general.
 <!-- Our research will cover a wide range of high-impact topics ranging from clinical and bio-medical applications to environmental change and marine ecosystems. -->
 <!-- integrating for example experimental biomarkers, single cell data, mental health, physical fitness, immune . -->
 <!-- Particular areas of interest include pregnancy and neonatology, physical and biological aging, ... -->
+For this we employ a multitude of machine learning approaches ranging from multi-modal learning, deep learning, Bayesian modeling, and exceptional model mining to explainable artificial intelligence, fairness and human computer interaction.
 
 Our group has a strong commitment to translating research to actionable insights and applications with real-world impact and scalability. <!-- We encourage (and financially support) our postdoctoral fellows to receive extensive training in entrepreneurship and business management from Stanford’s School of Business.  --> This is an excellent environment for candidates who are not only focused on participating in state-of-the-art academic research, but who are also interested in the application of their work with practitioners or in exploring industrial and entrepreneurial avenues.
 
@@ -46,8 +48,8 @@ Applicants from groups traditionally underrepresented in computer science and ma
 ### Requirements
 
 * inherent curiosity and extraordinary drive to explore and learn
-* strong intrinsic motivation and interest in applying and developing machine learning methods in high-impact application scenarios like (bio-)medicine and environmental change
 * high engagement and ability to work independently
+* strong intrinsic motivation and interest in applying and developing machine learning methods in high-impact application scenarios like (bio-)medicine and environmental change
 * graduate degree (Diplom, master, etc.) in fields like computer science, mathematics, physics, computational biology, medicine, or comparable
 * affinity to coding or willingness to learn outside of regular working hours
 * optimally
