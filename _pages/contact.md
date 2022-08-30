@@ -14,8 +14,7 @@ nav_order: 2
 </header>
 
 The best way to contact me is to send an email to
-{% assign email_path = 'ucsb-email.png' | prepend: 'assets/img/' %}
-{% include figure.html path=email_path class='img-fluid' alt='My Email Address' %}
+<h1 class="email">my-first-name-here@cs.ucsb.edu</h1>
 
 <h3 class='font-weight-bold'> OR </h3>
 
