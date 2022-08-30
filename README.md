@@ -1,5 +1,4 @@
-# al-folio
-# GET_PASSES_THIS_REPO_UDACITY_PLEASE 
+# al-folio theme
 
 [![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
 [![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
@@ -12,3 +11,4 @@
 
 This website is built on simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics (https://github.com/alshedivat/al-folio).
 
+GET_PASSES_THIS_REPO_UDACITY_PLEASE
