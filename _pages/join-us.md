@@ -8,14 +8,16 @@ nav_order: 6
 ---
 
 ## PhD students and Postdocs
-
-<!-- The Becker Lab is looking for **up to four PhD students and postdocs** motivated to work on high-impact problem settings in real-world applications like medicine, biology, environmental change, or human behavior.
-You will be working on developing and applying methods from artificial intelligence, machine learning, data mining, explainable AI and HCI. -->
-
-Up to **four machine learning PhD student or postoc positions** are available at the [Becker Lab](https://bckrlab.org) at the [University of Rostock, Germany](https://www.uni-rostock.de).
+<!--
+> Up to **four machine learning PhD student or postoc positions** are available at the [Becker Lab](https://bckrlab.org) at the [University of Rostock, Germany](https://www.uni-rostock.de) and can be filled ASAP.
 You will join a machine learning group in a beautiful city at the ocean with a strong global network, e.g., including Stanford University, UC San Diego, or UNC Chapel Hill, as well as local expertise providing direct access to world-experts in machine learning, (bio-)medicine, and marine ecology.
-This is a unique opportunity for PhD students and postocs to work in and shape a young and versatile research group that aims to directly impact real-world problem settings in medical as well as environmental settings by developing and applying cutting-edge machine learning methods.
-We are particularly passionate about methods to gain deeper insights into the complex systems of the corresponding application domain, domain knowledge integration into machine learning methods, as well as human interaction with existing knowledge in general.
+This is a unique opportunity for PhD students and postdocs to work in and shape a young and versatile research group that aims to directly impact real-world problem settings in medical as well as environmental settings by developing and applying cutting-edge machine learning methods.
+We are particularly passionate about methods to gain deeper insights into the complex systems of the corresponding application domain, domain knowledge integration into machine learning methods, as well as human interaction with existing knowledge. For more details see: https://bckrlab.org/join-us -->
+
+Up to **four machine learning PhD student or postoc positions** are available at the [Becker Lab](https://bckrlab.org) at the [University of Rostock, Germany](https://www.uni-rostock.de) and can be filled **ASAP**.
+You will join a machine learning group in a beautiful city at the ocean with a strong global network, e.g., including Stanford University, UC San Diego, or UNC Chapel Hill, as well as local expertise providing direct access to world-experts in machine learning, (bio-)medicine, and marine ecology.
+This is a unique opportunity for PhD students and postdocs to work in and shape a young and versatile research group that aims to directly impact real-world problem settings in medical as well as environmental settings by developing and applying cutting-edge machine learning methods.
+We are particularly passionate about methods to gain deeper insights into the complex systems of the corresponding application domain, domain knowledge integration into machine learning methods, as well as human interaction with existing knowledge.
 <!-- Our research will cover a wide range of high-impact topics ranging from clinical and bio-medical applications to environmental change and marine ecosystems. -->
 <!-- integrating for example experimental biomarkers, single cell data, mental health, physical fitness, immune . -->
 <!-- Particular areas of interest include pregnancy and neonatology, physical and biological aging, ... -->
@@ -56,7 +58,21 @@ Applicants from groups traditionally underrepresented in computer science and ma
     * experience in applying or developing statistics or machine learning methods
     * practical experience in project work and/or publishing academic papers
 
+## Application
 
-## Student assistants
+We are looking forward to your application.
+The **earliest start date is October, 1st 2022.**
+Please send your material as soon as possible to: [martin.becker@uni-rostock.de](mailto:martin.becker@uni-rostock.de) with subject **"Application 2022"**.
+Your application should encompass a single PDF with the following content:
+
+* cover letter
+* CV including 
+    * potential previous projects, industry experience, etc.
+    * two contacts for potential recommendations (e.g., your bachelor and master thesis advisors)
+* grade transcript
+* letter detailing your motivation for pursuing a PhD in general and in particular in our lab (max. 1 page)
+* anything else you want to share 😄
+
+## Students
 
 **Come talk to us!** We have many interesting [projects and problem settings](/projects). Also, if you have **your own project ideas**, don't hesitate to contact us. We will try to support you as best as we can!
