@@ -9,7 +9,9 @@ nav: true
 
 [Links](https://alpsencer.com/links)  
 
-[Readings](https://alpsencer.com/books)  
+[Readings](https://alpsencer.com/books) 
+
+[Books From Bilkent University Library](https://alpsencer.com/bilkent-library )
 
 [Course Notes](https://alpsencer.com/course-notes)
 
