@@ -11,8 +11,6 @@ nav: true
 
 [Readings](https://alpsencer.com/books) 
 
-[Books From Bilkent University Library](https://alpsencer.com/bilkent-library )
-
 [Course Notes](https://alpsencer.com/course-notes)
 
 [Movies](https://alpsencer.com/movies)  
