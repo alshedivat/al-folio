@@ -76,16 +76,16 @@ orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: https://www.researchgate.net/profile/Miguel-Castano-Arranz-2 # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: # work page URL
+work_url: https://www.ltu.se/staff/m/migcas-1.32306?l=en # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to contact me is through my personal email, which you can make as <my first last name with n instead of ñ>.<my second last name>@gmail.com 
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
