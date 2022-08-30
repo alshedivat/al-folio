@@ -1,5 +1,5 @@
 ---
-title: Leonardo Da Vinci: Engineer and Architect
+title: Leonardo Da Vinci | Engineer and Architect
 date: 2022-08-30 08:40:16 Z
 categories:
 - reading
