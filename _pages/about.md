@@ -46,7 +46,8 @@ social: true  # includes social icons at the bottom of the page
 </div>
 -->
 
-> **[We are hiring!](/open-positions)** We are looking for up tp **four PhD students or Postdocs** and at least **two student assistants** to work on amazing [projects](projects).
+> **[We are hiring!](/open-positions)** We are looking for up tp **four PhD students or Postdocs** and at least **two student assistants**.
+You will work on amazing [projects](projects) such as extracting and integrating domain knowledge from and into machine learning methods in the context of high-impact applications like (bio-)medicine and environmental change.
 
 The **Becker Lab** aims to **impact high-stake real-world problem settings** at the intersection of **medicine, environmental change, and human behavior** through **artificial intelligence and machine learning**.
 For this, we **develop novel approaches and methodology** in close collaboration with practitioners and domain experts that enable **unprecedented insights into complex systems**.

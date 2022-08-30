@@ -13,7 +13,7 @@ nav_order: 6
 You will be working on developing and applying methods from artificial intelligence, machine learning, data mining, explainable AI and HCI. -->
 
 Up to **four machine learning PhD student or postoc positions** are available at the [Becker Lab](https://bckrlab.net) at the [University of Rostock, Germany](https://www.uni-rostock.de).
-The scholar will join a machine learning group with a strong global network, e.g., including Stanford University, UC San Diego, or UNC Chapel Hill, as well as local expertise providing direct access to world-experts in machine learning, (bio-)medicine, and marine ecology.
+You will join a machine learning group with a strong global network, e.g., including Stanford University, UC San Diego, or UNC Chapel Hill, as well as local expertise providing direct access to world-experts in machine learning, (bio-)medicine, and marine ecology.
 This is a unique opportunity for PhD students and postocs to work in and shape a young and versatile research group that aims to directly impact real-world problem settings in medical as well as environmental settings by developing and applying cutting-edge machine learning methods.
 <!-- Our research will cover a wide range of high-impact topics ranging from clinical and bio-medical applications to environmental change and marine ecosystems. -->
 <!-- integrating for example experimental biomarkers, single cell data, mental health, physical fitness, immune . -->
@@ -35,6 +35,7 @@ Applicants from groups traditionally underrepresented in computer science and ma
 
 ### Perks
 
+* a friendly, supportive, and inclusive work environment with highly motivated colleagues
 * fully funded position (PhD students: temporary appointment for three years); [TVL-E13, 40 hrs/week](https://oeffentlicher-dienst.info/c/t/rechner/tv-l/west?id=tv-l-2021&g=E_13&s=1&zv=VBL&z=100&zulage=&stj=2022b&stkl=1&r=0&zkf=0&kk=15.5%25), this is far beyond international standards (> EUR 50k) and includes health insurance, a retirement plan, and more!
 * flexible work hours
 * 30 paid vacation days
@@ -51,8 +52,9 @@ Applicants from groups traditionally underrepresented in computer science and ma
 * affinity to coding or willingness to learn outside of regular working hours
 * optimally
     * experience in applying or developing statistics or machine learning methods
-    * practical experience project work, paper publishing
+    * practical experience in project work and/or publishing academic papers
+
 
 ## Student assistants
 
-Come talk to us! We have many interesting [projects and problem settings](/projects). Also, if you have **your own project ideas**, don't hesitate to contact us. We will try to support you as best as we can!
+**Come talk to us!** We have many interesting [projects and problem settings](/projects). Also, if you have **your own project ideas**, don't hesitate to contact us. We will try to support you as best as we can!
