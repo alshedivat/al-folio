@@ -14,7 +14,7 @@ description: Leonardo Da Vinci'nin çok çeşitli çizimlerini içeren güzel bi
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/blog/davinci/leonardo (6).webp" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/blog/davinci/leonardo(6).webp" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -23,7 +23,7 @@ description: Leonardo Da Vinci'nin çok çeşitli çizimlerini içeren güzel bi
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/blog/davinci/leonardo (7).webp" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/blog/davinci/leonardo(7).webp" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -32,7 +32,7 @@ description: Leonardo Da Vinci'nin çok çeşitli çizimlerini içeren güzel bi
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/blog/davinci/leonardo (3).webp" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/blog/davinci/leonardo(3).webp" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -41,7 +41,7 @@ description: Leonardo Da Vinci'nin çok çeşitli çizimlerini içeren güzel bi
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/blog/davinci/leonardo (4).webp" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/blog/davinci/leonardo(4).webp" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -50,7 +50,7 @@ description: Leonardo Da Vinci'nin çok çeşitli çizimlerini içeren güzel bi
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/blog/davinci/leonardo (1).webp" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/blog/davinci/leonardo(1).webp" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -59,7 +59,7 @@ description: Leonardo Da Vinci'nin çok çeşitli çizimlerini içeren güzel bi
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/blog/davinci/leonardo (1).webp" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/blog/davinci/leonardo(1).webp" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -68,7 +68,7 @@ description: Leonardo Da Vinci'nin çok çeşitli çizimlerini içeren güzel bi
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/blog/davinci/leonardo (5).webp" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/blog/davinci/leonardo(5).webp" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
