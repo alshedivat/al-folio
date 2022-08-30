@@ -31,13 +31,10 @@ $grey-900:            #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
-$green-palette-color-1:  #dad7cd !default;
-$green-palette-color-2: #a3b18a !default;
-$green-palette-color-3: #588157 !default;
-$green-palette-color-4: #3a5a40 !default;
-$green-palette-color-5: #344e41 !default;
+$green-palette-color-1: #709775 !default;
+$green-palette-color-2: #415d43 !default;
 
 // Theme colors
 
-$code-bg-color-light:     rgba($purple-color, 0.05);
+$code-bg-color-light:     rgba($green-palette-color-1, 0.05);
 $code-bg-color-dark:      #2c3237 !default;
