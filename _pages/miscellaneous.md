@@ -11,7 +11,7 @@ importance: 2
 
           
 <div class="news">
-  <h2>news</h2>
+  <h2>updates</h2>
   {% if site.news != blank -%} 
   {%- assign news_size = site.news | size -%}
   <div class="table-responsive">
