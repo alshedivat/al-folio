@@ -9,9 +9,9 @@ profile:
   image: jon.jpg
   image_cicular: false # crops the image to make it circular
   address: >
-    <p>4th floor, Atkinson Hall</p>
-    <p>9500 Gilman Drive</p>
-    <p>La Jolla, CA 92037</p>
+    <p>Room 36-677</p>
+    <p>50 Vassar St</p>
+    <p>Cambridge, MA 02139</p>
 
 news: yes  # includes a list of news items
 selected_papers: yes # includes a list of papers marked as "selected={true}"
