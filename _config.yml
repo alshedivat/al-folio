@@ -5,7 +5,7 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Becker
 middle_name: 
-last_name: Lab
+last_name: Lab 
 email: martin.becker@uni-rostock.de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Becker Lab Homepage
@@ -16,10 +16,10 @@ footer_text: >
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🌊 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://bckrlab.github.io # the base hostname & protocol for your site
-baseurl: / # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -85,7 +85,7 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  You can best reach me via e-mail.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -102,7 +102,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Blog # blog_name will be displayed in your blog page
-blog_nav_title: # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title:  # your blog must have a title for it to be displayed in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 

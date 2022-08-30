@@ -4,13 +4,13 @@ title: about
 permalink: /
 subtitle: 
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p>Jun.-Prof. Dr.</p>
-    <p>Martin Becker</p>
+# profile:
+#   align: right
+#   image: prof_pic.jpg
+#   image_circular: false # crops the image to make it circular
+#   address: >
+#     <p>Jun.-Prof. Dr.</p>
+#     <p>Martin Becker</p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -46,5 +46,15 @@ social: true  # includes social icons at the bottom of the page
 </div>
 -->
 
+> **[We are hiring!](/open-positions)** We are looking for up tp **four PhD students or Postdocs** and at least **two student assistants** to work on amazing [projects](projects).
 
-The **Becker Lab** aims to develop and apply machine learning to translational ...
+The **Becker Lab** aims to **impact high-stake real-world problem settings** at the intersection of **medicine, environmental change, and human behavior** through **artificial intelligence and machine learning**.
+For this, we **develop novel approaches and methodology** in close collaboration with practitioners and domain experts that enable **unprecedented insights into complex systems**.
+This allows us to directly impact real-world scenarios like local patient populations or ecosystems maximizing translational and synergetic effects of our work.
+In this context, the main focus of our group is threefold:
+
+* **understanding complex systems** by extracting novel insights into their underlying processes,
+* **modeling complex systems** by integrating existing domain knowledge into machine learning methods,
+* and developing methods for **knowledge management and representation**.
+
+Our approaches range from multi-modal learning, network analysis, and exceptional model mining to Bayesian modeling, deep learning, representation learning, explainable AI, and human computer interaction.
