@@ -297,6 +297,8 @@ enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
+enable_book_categories:  true      # enables categorization of books into
+                                   # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 
 
