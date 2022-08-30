@@ -9,6 +9,8 @@ display_categories: [philosophical,scientific,development,fictional,technical]
 horizontal: false
 ---
 
+
+
 <!-- pages/books.md -->
 <div class="books">
 {%- if site.enable_book_categories and page.display_categories %}
