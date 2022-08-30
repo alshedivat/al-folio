@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Miguel Castaño. Professional Showcase # the website title (if blank, full name will be used instead)
+title: Miguel Castaño Arranz (web under construction) # the website title (if blank, full name will be used instead)
 first_name: Miguel
 middle_name: 
-last_name: Castaño Arranz (web under construction)
+last_name: Castaño Arranz 
 email: miguel.castano@ltu.se
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
