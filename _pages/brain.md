@@ -23,4 +23,6 @@ nav: true
 
 [Music](https://alpsencer.com/music) 
 
-[Browser Extentions](https://alpsencer.com/browser-extentions) 
+[Browser Extentions](https://alpsencer.com/browser-extentions)  
+
+[Computer Programs](https://alpsencer.com/useful-programs)  
