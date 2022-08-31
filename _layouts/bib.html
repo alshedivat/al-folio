@@ -93,7 +93,7 @@
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">abstract</a>
           {%- endif %}
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
@@ -141,12 +141,22 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
+          {%- if entry.coverage %}
+          <a class="coverage btn btn-sm z-depth-0" role="button">Media Coverage</a>
+          {%- endif %}
           </div>
 
           {% if entry.abstract -%}
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
             <p>{{ entry.abstract }}</p>
+          </div>
+          {%- endif -%}
+
+          {% if entry.coverage -%}
+          <!-- Hidden coverage block -->
+          <div class="coverage hidden">
+            <p>{{ entry.coverage }}</p>
           </div>
           {%- endif -%}
 

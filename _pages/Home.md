@@ -20,11 +20,15 @@ social: true  # includes social icons at the bottom of the page
 
 I am a PhD Student in Economics at [Columbia University](https://econ.columbia.edu/). Previously I studied at [the University of Edinburgh](https://www.ed.ac.uk/economics) and was a Visiting Researcher at [Imperial College](https://www.imperial.ac.uk/business-school/).      
 
-My research instrests include Industrial Organization, Public Economics, Bayesian Econometrics and Natural Language Processing. This website is a work in progress!
+My research interests include Industrial Organization, Public Economics, Bayesian Econometrics and Natural Language Processing.
+
+My Erdos number is [6](https://www.csauthors.net/distance/paul-erdos/szymon-sacher) and my Carlsen number is [3](https://freopen.org/@/FlaxJax).
 
 ### Contact
 
 szymon.sacher@columbia.edu
+
++1-347-324-0314
 
 Department of Economics, Columbia University
 420 w118th st, NYC, NY 10027
