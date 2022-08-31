@@ -15,7 +15,7 @@ social: true
 ---
 
 I am,
-- 1nd year **Computer Science** student at **Bilkent University** 👨‍💻
+- 2nd year **Computer Science** student at **Bilkent University** 👨‍💻
 - Co-founder of [Syntex UAV](https://gokordu.com) 🚁
 
 ### Currently working on:
