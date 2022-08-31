@@ -22,7 +22,7 @@ The digital humanities project *Nineteenth-Century Russian Literature in Transla
     </div>
     </div>
 <div class="caption">
-    On the left, Alexander Sergeevich Pushkin (1799-1837). Source: Bridgeman Art Library. On the right, Nikolai Vasil'evich Gogol (1809-1852). Source: Arxivist.
+    On the left, Alexander Sergeevich Pushkin (1799-1837). Source: Bridgeman Art Library, Wikimedia Commons. On the right, Nikolai Vasil'evich Gogol (1809-1852). Source: Arxivist, Wikimedia Commons.
 </div>
 
 <div class="row">
@@ -37,7 +37,7 @@ The digital humanities project *Nineteenth-Century Russian Literature in Transla
     </div>
 </div>
 <div class="caption">
-On the left, Ivan Sergeevich Turgenev (1818-1883). Source: Unknown photographer. Middle, Fedor Mikhailovich Dostoevsky (1821-1881). Source: The National Library of Russia. Right, Lev Nikolaevich Tolstoy (1821-1910). Photo by Sergei Prokudin Gorskii. Source: Wikimedia Commons.
+On the left, Ivan Sergeevich Turgenev (1818-1883). Photo by unknown photographer. Source: Wikimedia Commons. Middle, Fedor Mikhailovich Dostoevsky (1821-1881). Source: The National Library of Russia, Wikimedia Commons. Right, Lev Nikolaevich Tolstoy (1821-1910). Photo by Sergei Prokudin Gorskii. Source: Wikimedia Commons.
 </div>
 
 What was the role of France in the canonization of Russian literature (was Paris, as Pascale Casanova proposed, really the most important “capital” of the “World Republic of Letters”)? Did other locales play an equally important role in this process? In what ways was the canon of Russian literature composed differently in different translated contexts? How does our data reflect the various distinct configurations of literary space and institutions and of the culture of translation in the target languages? These are the major questions the project seeks to answer.
