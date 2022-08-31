@@ -31,8 +31,8 @@ However, PISA's methods apply equally well to high-MC situations, and PISA also 
 
 ## Further Information
 
-PISA is open source, and developed by and for the IceCube collaboration
+PISA is open source and developed by and for the IceCube collaboration
 
 GitHub repository: https://github.com/icecube/pisa
 
-Paper published in NIM A available [here](https://arxiv.org/abs/1803.05390).
+Paper published in NIM A: <https://arxiv.org/abs/1803.05390)>

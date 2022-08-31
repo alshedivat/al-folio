@@ -11,15 +11,15 @@ category: work
 
 The Bayesian Analysis Toolkit (BAT) is an MCMC sampling suite, and its current version [BAT.jl](https://github.com/bat/BAT.jl) is implemented in the Julia programming language.
 To bring this package, featuring many different samplers and integration algorithms, to the python user community, we started developing the batty package.
-It provides a python API, and allows to use any python callable that evaluates the log-likelihood of your model for different parameter values.
+It provides a python API and allows to use any python callable that evaluates the log-likelihood of your model for different parameter values.
 The project is currently in early development.
 
 ## Further Information
 
 Collaborators: Rasmus Orsoe (TUM), Dr. Oliver Schulz (MPP)
 
-GitHub project page: <https://github.com/philippeller/batty/blob/main/batty.py>
+GitHub project page: <https://github.com/bat/batty>
 
 PyPI project page: <https://pypi.org/project/batty/>
 
-The project is currently funded by by the PUNCH4NFDI consortium: <https://www.punch4nfdi.de/>
+The project is currently funded by the PUNCH4NFDI consortium: <https://www.punch4nfdi.de/>

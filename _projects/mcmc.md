@@ -8,7 +8,7 @@ category: work
 ---
 
 Sampling from arbitrary distributions, that are usually not analytically available, can be a challenging but important task.
-For example in the context of Bayesian inference, drawing samples from the posterior is the go-to method to characterize this otherwise inaccessible distribution. Furthermore, calculating integral values of unnormalized distributions, as for example the Bayesian "evidence" (i.e. marginal likelihood) is a key ingredient to model comparison.
+For example in the context of Bayesian inference, drawing samples from the posterior is the go-to method to characterize this otherwise inaccessible distribution. Furthermore, calculating integral values of unnormalized distributions, for example the Bayesian "evidence" (i.e. marginal likelihood) is a key ingredient to model comparison.
 
 In our paper "Integration with an Adaptive Harmonic Mean Algorithm" we introduce a technique that can reliably estimate integrals and uncertainties over a set of available samples, without any need to generate new samples.
 
@@ -30,4 +30,4 @@ Collaborators: Prof. Dr. Allen Caldwell (MPP), Dr. Vasyl Hafytch (MPP), Dr. Oliv
 
 Paper on the adaptive harmonic integration: <https://arxiv.org/abs/1808.08051>
 
-Preprint on the parallel MCMC via space partitioning: <https://arxiv.org/abs/2008.03098>
+Paper on the parallel MCMC via space partitioning: <https://arxiv.org/abs/2008.03098>

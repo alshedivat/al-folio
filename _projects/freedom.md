@@ -13,7 +13,7 @@ category: work
     </div>
 </div>
 <div class="caption">
-    Example likelihood contours for a toy neutrino event as a function of vertex position. Compared are the freedom NN approximations (solid lines) compared to the true lielihood (dashed lines).
+    Example likelihood contours for a toy neutrino event as a function of vertex position. Compared are the freedom NN approximations (solid lines) compared to the true likelihood (dashed lines).
 </div>
 
 While in the project [retro](/projects/retro) we built a reconstruction for IceCube DeepCore based on an event model together with pre-tabulated photon propagation values to build an approximate, fast likelihood.
@@ -25,6 +25,6 @@ In this project, we explore a middle ground between the two. We use a technique 
 
 ## Further Information
 
-Collaborators: Jan Weldert (JGU), Garrett Wendel (PSU), Dr. Aaron Fienberg (PSU), Prof. Dr. Doug Cowen (PSU)
+Collaborators: Jan Weldert (JGU), Garrett Wendel (PSU), Dr. Aaron Fienberg (PSU), Prof. Dr. Sebastian Böser (JGU), Prof. Dr. Doug Cowen (PSU)
 
-Pepaer in preparation
+Preprint available here: <https://arxiv.org/abs/2208.10166>

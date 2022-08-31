@@ -19,9 +19,9 @@ category: work
 The figure above shows two examples of a set of samples drawn from a uniform and a non-uniform distribution, respectively. The aim here is to construct a sensitive test to decide if samples are compatible with the hypothesis of a uniform distribution.
 
 Some standard tests to assess this goodness-of-fit are, for example, the Kolmogorov-Smirnov, or the Anderson-Darling tests. In our work, we investigated test statistics based on the spacings between ordered samples, i.e. the distance between consecutive samples.
-Under a uniform distribution, the expectation value for such a spacing is 1/n. If the samples are, however, drawn for example from a distribution featuring narrow "peaks", we expect much smaller spacings. Our new test statistic "Recursive Product of Spacings" (RPS), can be very sensitive to such non-uniformities, and outperform other tests, as show in the figure below.
+Under a uniform distribution, the expectation value for such spacing is 1/n. If the samples are, however, drawn for example from a distribution featuring narrow "peaks", we expect much smaller spacings. Our new test statistic "Recursive Product of Spacings" (RPS), can be very sensitive to such non-uniformities, and outperform other tests, as shown in the figure below.
 
-Such tests find applications in in many areas, ranging from the natural and social sciences over engineering to quality control.
+Such tests find applications in many areas, ranging from the natural and social sciences over engineering to quality control.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -36,6 +36,6 @@ Such tests find applications in in many areas, ranging from the natural and soci
 
 Collaborators: Lolian Shtembari (MPP)
 
-Preprint available [here](https://arxiv.org/abs/2111.02252)
+Preprint available: <https://arxiv.org/abs/2111.02252>
 
 PyPI project page: <https://pypi.org/project/spacings/>
