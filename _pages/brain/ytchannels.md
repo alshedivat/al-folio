@@ -5,7 +5,7 @@ layout: page
 description: 
 nav: false
 ---
-Önerdiğiniz kanalları benimle paylaşabilirsiniz:
+Önerdiğiniz kanalları benimle paylaşabilirsiniz:  
 [Mail](mailto:a@as.com)   
 [Telegram](https://t.me/curiousmachine)  
 ## Podcast
