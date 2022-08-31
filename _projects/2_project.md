@@ -22,7 +22,7 @@ The digital humanities project *Nineteenth-Century Russian Literature in Transla
     </div>
     </div>
 <div class="caption">
-    On the left, Alexander Sergeevich Pushkin (1799-1837). Source: Bridgeman Art Library, Wikimedia Commons. On the right, Nikolai Vasil'evich Gogol (1809-1852). Source: Arxivist, Wikimedia Commons.
+    On the left, Alexander Sergeevich Pushkin (1799-1837). Source: Bridgeman Art Library, Wikimedia Commons. On the right, Nikolai Vasil'evich Gogol (1809-1852). Portrait clipped from the group daguerreotype taken by S. L. Levitskii in 1845. Source: Wikimedia Commons.
 </div>
 
 <div class="row">
