@@ -114,6 +114,7 @@ Other people's stories are counterfactual worlds for us.
 - [我在纽约当教授 - TT YaYa YouTube Channels](https://www.youtube.com/channel/UCjWnhn8mmA3DEEHlniCEoXA/videos) 非常棒的一个视频频道，为数不多的生活向学术频道，学习到了超级多（包括怎么读博，美国 funding system，教职相关的经验等等）！ TT YaYa 和摄影师太有意思啦！强力推荐！！具体的一些 video 大家可以自己挖掘~
 - [Acsic People](https://www.youtube.com/channel/UC1PCPgKxjsK6P-po9DlBpQQ/videos) 干货浓度非常高！ [Two-body problem](https://youtu.be/gNkCcoJUJ-I), [What My Mentors Taught Me](https://youtu.be/lOOBJix9-Dw), [前车之鉴](https://youtu.be/KTcu33RghQs) 等等都非常精彩！
 - [Theory and Practice](https://podcast.gv.com)
+- [Night Science](https://night-science.org/the-night-science-podcast/)
 - [李丁聊天室播客](https://www.lidingzeyu.com/podcast/)
 
 ## Resources
