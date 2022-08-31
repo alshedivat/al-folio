@@ -21,7 +21,7 @@ The digital humanities project “Nineteenth-Century Russian Literature in Trans
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
-div class="row">
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
