@@ -41,23 +41,23 @@ What was the role of France in the canonization of Russian literature (was Paris
 The project would be impossible without the immense support of the [Price Lab of Digital Humanities](https://pricelab.sas.upenn.edu/) and the [Russian and East European Studies](https://rees.sas.upenn.edu/) department at the University of Pennsylvania.
 
 Our team includes faculty members at the University of Pennsylvania and at other institutions, independent scholars, graduate students and undergrads. We are working to keep things as collaborative and horizontal as possible. Here is the list of people currently working on this project as well as those who used to work on it in the past. The list is in the alphabatical order:
-    - Scott Bartling
-    - Drew Basile
-    - [Aliyah Bixby-Driesen](https://anthropology.sas.upenn.edu/people/aliyah-bixby-driesen)
-    - Rachel Dennis
-    - Emily Despinoy
-    - Catherine Fantuzzo
-    - Aisha Garaeva
-    - [Cassandra Hradil](https://pricelab.sas.upenn.edu/fellows/hradil-cassandra)
-    - [D. Brian Kim](https://rees.sas.upenn.edu/people/d-brian-kim)
-    - [Hilah Kohen](https://complit.sas.upenn.edu/people/hilah-kohen)
-    - Ekaterina Kokovikhina
-    - Sergei Miroshkin
-    - [Natalia Morozova](https://ajif-ucm.academia.edu/NataliaMorozova)
-    - [Olga Nechaeva](https://olyanechaeva.github.io/my_site/)
-    - Jan Nowak
-    - [Kevin M. F. Platt](https://rees.sas.upenn.edu/people/kevin-mf-platt)
-    - [J. D. Porter](https://pricelab.sas.upenn.edu/fellows/porter-jd)
-    - Lydia Shaw
-    - [Helen Stuhr-Rommereim](https://www.swarthmore.edu/russian/faculty-staff)
-    - [Eugenia Ulanova](https://complit.sas.upenn.edu/people/eugenia-ulanova)
+- Scott Bartling
+- Drew Basile
+- [Aliyah Bixby-Driesen](https://anthropology.sas.upenn.edu/people/aliyah-bixby-driesen)
+- Rachel Dennis
+- Emily Despinoy
+- Catherine Fantuzzo
+- Aisha Garaeva
+- [Cassandra Hradil](https://pricelab.sas.upenn.edu/fellows/hradil-cassandra)
+- [D. Brian Kim](https://rees.sas.upenn.edu/people/d-brian-kim)
+- [Hilah Kohen](https://complit.sas.upenn.edu/people/hilah-kohen)
+- Ekaterina Kokovikhina
+- Sergei Miroshkin
+- [Natalia Morozova](https://ajif-ucm.academia.edu/NataliaMorozova)
+- [Olga Nechaeva](https://olyanechaeva.github.io/my_site/)
+- Jan Nowak
+- [Kevin M. F. Platt](https://rees.sas.upenn.edu/people/kevin-mf-platt)
+- [J. D. Porter](https://pricelab.sas.upenn.edu/fellows/porter-jd)
+- Lydia Shaw
+- [Helen Stuhr-Rommereim](https://www.swarthmore.edu/russian/faculty-staff)
+- [Eugenia Ulanova](https://complit.sas.upenn.edu/people/eugenia-ulanova)
