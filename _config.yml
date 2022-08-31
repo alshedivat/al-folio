@@ -257,7 +257,7 @@ more_authors_animation_delay: 10  # more authors are revealed on click using ani
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
@@ -276,7 +276,7 @@ imagemagick:
 # Jekyll Diagrams
 # -----------------------------------------------------------------------------
 
-jekyll-diagrams:
+#jekyll-diagrams:
     # configuration, see https://github.com/zhustec/jekyll-diagrams.
     # feel free to comment out this section if not using jekyll diagrams.
 
