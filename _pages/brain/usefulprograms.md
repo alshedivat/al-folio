@@ -7,11 +7,11 @@ nav: false
 ---
 
 ## Personal Knowledge Management
-Obsidian
+Obsidian  
 
 ## Memory
-Anki
+Anki  
 
 ## Power User Tools
-Power Toys (Win)
-FlowLauncher (Win)
+Power Toys (Win)  
+FlowLauncher (Win)  
