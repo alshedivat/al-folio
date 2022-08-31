@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <font size=2><tt>...and the beautiful engineers are all dead, <br> the secret technicians conspire for their own glamour <br> in the Future...</tt> <br> &#160&#160&#160&#160&#160&#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160&#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160  &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160  &#160 &#160 &#160 &#160  &#8212 Allen Ginsberg, <i>Kral Majales (King of May) </i> </font>
+subtitle: <font size=2><tt>...and the beautiful engineers are all dead, <br> the secret technicians conspire for their own glamour <br> in the Future...</tt> <br> &#160&#160&#160&#160&#160&#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160&#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160  &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160  &#160 &#160 &#160 &#160  &#8212 Allen Ginsberg, Kral Majales (King of May)
 #<a href='#'>Affiliations</a>, Random dude
 
 #<a href='https://en.wikipedia.org/wiki/Pinyin'>p&#299ny&#299n&#58</a>
@@ -21,7 +21,9 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <b> ...a little about me</b> <br>
-I was an [Engineering Scie](https://engsci.utoronto.ca/program/what-is-engsci/)[nce ](https://youtu.be/BcPO4yhWSUg) student major in Engineering Physics at the University of Toronto, Canada. I am primarily interested in computational physics, dynamical systems, numerical (spectral methods) approaches to fluid mechanics, and all the other fields in physics and mathematics. I shall start my graduate study in [Complex Adaptive Systems](https://www.chalmers.se/en/education/programmes/masters-info/Pages/Complex-Adaptive-Systems.aspx) at Chalmers University of Technology, Sweden from September 2022. Click [here](/assets/pdf/RundongZhou_CV.pdf) for my complete CV.
+I am a master student of [Complex Adaptive Systems](https://www.chalmers.se/en/education/programmes/masters-info/Pages/Complex-Adaptive-Systems.aspx) at Chalmers University of Technology, Sweden. I earned my Bachelor degree in
+[Engineering Scie](https://engsci.utoronto.ca/program/what-is-engsci/)[nce ](https://youtu.be/BcPO4yhWSUg) major in Engineering Physics at the University of Toronto, Canada. I am primarily interested in computational physics, dynamical systems, numerical (spectral methods) approaches to fluid mechanics, and all the other fields in physics and mathematics.
+Click [here](/assets/pdf/RundongZhou_CV.pdf) for my complete CV.
 
 I am working with [Prof. Nicolas Grisouard](https://sites.physics.utoronto.ca/nicolasgrisouard) from the Department of Physics at the University of Toronto. My current research project is on developing a [Fourier-Bessel](https://en.wikipedia.org/wiki/Fourier%E2%80%93Bessel_series) based spectral Laplacian solver in 2D polar coordinates for [Gross-Pitaevskii equation](https://en.wikipedia.org/wiki/Gross%E2%80%93Pitaevskii_equation) which governs Bose–Einstein condensates. I am also working on discovering new types of discrete generalized Fourier methods using [Dini series](https://mathworld.wolfram.com/DiniExpansion.html) in polar coordinates with [Prof. Natalie Baddour](https://engineering.uottawa.ca/people/baddour-natalie) from the Department of Mechanical Engineering at the University of Ottawa. For more detailed introductions on my works, please click [here](/projects).
 
