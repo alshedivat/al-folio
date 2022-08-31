@@ -21,6 +21,21 @@ The digital humanities project “Nineteenth-Century Russian Literature in Trans
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
+div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
+
 What was the role of France in the canonization of Russian literature (was Paris, as Pascale Casanova proposed, really the most important “capital” of the “World Republic of Letters”)? Did other locales play an equally important role in this process? In what ways was the canon of Russian literature composed differently in different translated contexts? How does our data reflect the various distinct configurations of literary space and institutions and of the culture of translation in the target languages? These are the major questions the project seeks to answer.
 
 The project would be impossible without the immense support of the [Price Lab of Digital Humanities](https://pricelab.sas.upenn.edu/) and the [Russian and East European Studies](https://rees.sas.upenn.edu/) department at the University of Pennsylvania.
