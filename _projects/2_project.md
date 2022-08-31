@@ -16,6 +16,10 @@ The digital humanities project “Nineteenth-Century Russian Literature in Trans
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.html path="assets/img/Gogol.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+    </div>
+<div class="caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
 
 What was the role of France in the canonization of Russian literature (was Paris, as Pascale Casanova proposed, really the most important “capital” of the “World Republic of Letters”)? Did other locales play an equally important role in this process? In what ways was the canon of Russian literature composed differently in different translated contexts? How does our data reflect the various distinct configurations of literary space and institutions and of the culture of translation in the target languages? These are the major questions the project seeks to answer.
 
