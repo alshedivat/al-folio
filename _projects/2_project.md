@@ -22,7 +22,7 @@ The digital humanities project “Nineteenth-Century Russian Literature in Trans
     </div>
     </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    On the left, Alexander Sergeevich Pushkin (1799-1837). Source: Bridgeman Art Library. On the right, Nikolai Vasil'evich Gogol (1809-1852). Source: Arxivist.
 </div>
 
 <div class="row">
