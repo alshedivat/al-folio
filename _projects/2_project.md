@@ -18,7 +18,7 @@ The digital humanities project *Nineteenth-Century Russian Literature in Transla
         {% include figure.html path="assets/img/Alexander_Pushkin_res.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Gogol_res.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gogol.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     </div>
 <div class="caption">
