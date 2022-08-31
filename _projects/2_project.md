@@ -42,7 +42,7 @@ On the left, Ivan Sergeevich Turgenev (1818-1883). Source: Unknown photographer.
 
 What was the role of France in the canonization of Russian literature (was Paris, as Pascale Casanova proposed, really the most important “capital” of the “World Republic of Letters”)? Did other locales play an equally important role in this process? In what ways was the canon of Russian literature composed differently in different translated contexts? How does our data reflect the various distinct configurations of literary space and institutions and of the culture of translation in the target languages? These are the major questions the project seeks to answer.
 
-The project would be impossible without the immense support of the [Price Lab of Digital Humanities](https://pricelab.sas.upenn.edu/) and the [Russian and East European Studies](https://rees.sas.upenn.edu/) department at the University of Pennsylvania.
+The project would be impossible without the immense support of the [Price Lab of Digital Humanities](https://pricelab.sas.upenn.edu/) and the [Russian and East European Studies](https://rees.sas.upenn.edu/) department at the [University of Pennsylvania](https://www.upenn.edu/).
 
 Our team includes faculty members at the University of Pennsylvania and at other institutions, independent scholars, graduate students and undergrads. We are working to keep things as collaborative and horizontal as possible. Here is the list of people currently working on this project as well as those who used to work on it in the past. The list is in the alphabatical order:
 - Scott Bartling
