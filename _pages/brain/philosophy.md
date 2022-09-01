@@ -6,6 +6,7 @@ description:
 nav: false
 ---
 
+[Questions](https://alpsencer.com/questions)  
 ## Websites & Links  
 [The Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/)  
 [Öncül Analitik Felsefe Dergisi [TR]](https://onculanalitikfelsefe.com/)  
