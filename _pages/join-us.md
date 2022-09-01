@@ -4,7 +4,7 @@ permalink: /join-us/
 title: Join Us!
 description: Open positions in the lab
 nav: true
-nav_order: 6
+nav_order: 9
 ---
 
 ## PhD students and Postdocs
