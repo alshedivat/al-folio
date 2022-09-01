@@ -35,6 +35,13 @@ _styles: >
   }
 ---
 
+<div class="row mt-3">
+    <div class="col-sm mt-6 mt-md-0">
+        {% include figure.html path="assets/img/udacity/ecommerce.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+---
+
 **NOTE:**
 This blog base on my work. See full code in my [repository](https://github.com/lekhanhh/udacity_1st_project)
 
@@ -49,22 +56,15 @@ we want to know the revenue that customers can bring to our business in their li
 
 ## Data preparation
 
-Read dataframe using pandas, show a preview of data.
+Firstly, I have to read data, here is sample of how data look like
 
-<d-code block language="python">
-df = pd.read_csv(data_path, encoding= 'unicode_escape')
-df.sample(10)
-</d-code>
 <div class="row mt-3">
     <div class="col-sm mt-6 mt-md-0">
         {% include figure.html path="assets/img/udacity/quick_view.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-Quick describe dataset
-<d-code block language="python">
-df.describe()
-</d-code>
+Quick describe of data
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -97,10 +97,7 @@ Assume that each row which missing customerID as a new Customer -> assign them a
 
 ## Data cleaning
 
-In cleaning phase, I remove all rows with customerID is Null, can be done easily
-<d-code block language="python">
-df.dropna(axis = 0, subset = ['CustomerID'], inplace = True)
-</d-code>
+In cleaning phase, I remove all rows with customerID is Null (mentions above)
 Then, revome duplicates if any.
 
 In previous section, I mentioned that there're some pattern relate to special character in StockCode and InvoiceNo,
@@ -170,9 +167,13 @@ I create new DataFrame that count the number of orders made by each customerID. 
     </div>
 </div>
 
-Do some featuring, to calculate Recency, Frequency, Monetary
-I also calculate MostRecent and EngagedAge of each customer base on Earliest and Lastest Invoice.
-Let's plot the price range to see the distribution of Customer spending
+Do some featuring, to calculate Recency, Frequency, Monetary, which are
+
+- Recency: How recently a customer has made a purchase
+- Frequency: How often a customer makes a purchase
+- Monetary Value: How much money a customer spends on purchases
+  I also calculate MostRecent and EngagedAge of each customer base on Earliest and Lastest Invoice.
+  Let's plot the price range to see the distribution of Customer spending
 
 <div class="row mt-3">
     <div class="col-sm mt-6 mt-md-0">
@@ -195,16 +196,10 @@ Look at the density plotting figures:
 
 - Data should have one year transaction, and a lot of customers have not bought any items for a long time.
 - A high number of customer have not bought frequently.
-- There're some strange orders with high value and number of items so that density is left-skewed
+- There're some strange orders with high value and number of items so that density is left-skewed, if this blog turn into Risk management, these high values should consider as fraud/anomaly orders.
 
 RFM Calculation, Transform, Scale and put scaled data into KMean.
-<d-code block language="python">
-from sklearn.preprocessing import StandardScaler
-scaler = StandardScaler()
-scaler.fit(df_customers)
-df_customers = scaler.transform(df_customers)
-</d-code>
-
+KMean is a unsupervised learning algorithm that segment all customers into small groups.
 With KMean, I use Elbow Method to optimize number of cluster (k).
 
 <div class="row mt-3">
@@ -234,6 +229,7 @@ Groupby Cluster, we can see differences between groups
 Group 0 : Customers recently buy at high frequency and the amount buying is amazing (average 10000) <br>
 Group 1 : Customers shopped for a long time, rarely shop with a decent amount, we shoud try to acquire these customer by trying to figure out why they churned <br>
 Group 2 : Customers from last month, regularly and highly purchased. <br>
+Group 3 : Customers from last month, rarely and decent amount
 
 ---
 
