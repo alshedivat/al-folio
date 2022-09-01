@@ -2,7 +2,7 @@
 layout: page
 permalink: /madpulsar/
 title: madPulsAr
-description: Materials for courses you taught. Replace this text with your description.
+description: Select details about my personal life for the world to see. 
 nav: true
 ---
 
