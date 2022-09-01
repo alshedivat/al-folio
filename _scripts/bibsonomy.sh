@@ -1,0 +1,1 @@
+curl https://www.bibsonomy.org/bib/user/becker/myown?bibtex.entriesPerPage=999 > _bibliography/bibsonomy.bib

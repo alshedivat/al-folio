@@ -66,7 +66,7 @@ Please send your material as soon as possible to: [martin.becker@uni-rostock.de]
 Your application should encompass a single PDF with the following content:
 
 * cover letter
-* CV including 
+* CV including
     * potential previous projects, industry experience, etc.
     * two contacts for potential recommendations (e.g., your bachelor and master thesis advisors)
 * grade transcript
