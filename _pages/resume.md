@@ -22,7 +22,12 @@ nav: true
 
 # Leadership and Outreach Activities
 
-### University of Oxford - Blavatnik School of Government `Jun 2021 - Present`
+### Viterbi Graduate Student Organization - University of Southern California `Aug 2022 - Present`
+
+_Data Science Senator_<br>
+Department Senators are student-elected representatives for their respective departments and organize events that cater to individual department needs.
+
+### University of Oxford - Blavatnik School of Government `Jun 2021 - Feb 2022`
 
 _Oxford's COVID-19 Government Response Tracker coder_<br>
 Collected Brazilian subnational data for the tracker regarding policy measures focused on combating the COVID-19 pandemic in Brazil, contributing to a global effort on information transparency. [COVID-19 GOVERNMENT RESPONSE TRACKER](https://www.bsg.ox.ac.uk/research/research-projects/covid-19-government-response-tracker)
