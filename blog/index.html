@@ -1,6 +1,6 @@
 ---
-layout: default
-title: blog
+layout: page
+title: blog posts about my research
 pagination:
   enabled: true
   collection: posts
@@ -15,26 +15,26 @@ pagination:
 
 <div class="post">
 
-  <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
-  </div>
+  <!-- <div class="header-bar"> -->
+    <!-- <h1>{{ site.blog_name }}</h1> -->
+    <!-- <h2>{{ site.blog_description }}</h2> -->
+  <!-- </div> -->
 
-  {% if site.display_tags %}
-  <div class="tag-list">
-    <ul class="p-0 m-0">
-      {% for tag in site.display_tags %}
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
-        </li>
-        {% unless forloop.last %}
-          <p>&bull;</p>
-        {% endunless %}
-      {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
-
+  <!-- {% if site.display_tags %} -->
+  <!-- <div class="tag-list"> -->
+    <!-- <ul class="p-0 m-0"> -->
+      <!-- {% for tag in site.display_tags %} -->
+        <!-- <li> -->
+          <!-- <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a> -->
+        <!-- </li> -->
+        <!-- {% unless forloop.last %} -->
+          <!-- <p>&bull;</p> -->
+        <!-- {% endunless %} -->
+      <!-- {% endfor %} -->
+    <!-- </ul> -->
+  <!-- </div> -->
+  <!-- {% endif %} -->
+  <hr>
   <ul class="post-list">
     {% for post in paginator.posts %}
 
@@ -64,7 +64,7 @@ pagination:
       </h3>
       <p>{{ post.description }}</p>
       <p class="post-meta">
-        {{ read_time }} min read &nbsp; &middot; &nbsp;
+        <!-- {{ read_time }} min read &nbsp; &middot; &nbsp; -->
         {{ post.date | date: '%B %-d, %Y' }}
         {%- if post.external_source %}
         &nbsp; &middot; &nbsp; {{ post.external_source }}

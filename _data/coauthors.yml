@@ -1,34 +1,35 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Abraham":
+  - firstname: ["Ittai", "I. Abraham", "Ittai Abraham"]
+    url: https://research.vmware.com/researchers/ittai-abraham
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Jovanovic":
+  - firstname: ["Philipp", "P. Jovanovic", "Philipp Jovanovic"]
+    url: https://philipp.jovanovic.io/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Maller":
+  - firstname: ["Mary", "M. Maller", "Mary Maller"]
+    url: https://www.marymaller.com/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Meiklejohn": 
+  - firstname: ["Sarah", "S. Meiklejohn", "Sarah Meiklejohn"]
+    url: https://smeiklej.com/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Tomescu":
+  - firstname: ["Alin", "A. Tomescu", "Alin Tomescu"]
+    url: https://alinush.github.io/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Dolev":
+  - firstname: ["Danny", "D. Dolev", "Danny Dolev"]
+    url: https://www.cs.huji.ac.il/~dolev/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Zohar":
+  - firstname: ["Aviv", "A. Zohar", "Aviv Zohar"]
+    url: https://www.avivz.net/
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Yaish":
+  - firstname: ["Aviv", "A. Yaish", "Aviv Yaish"]
+    url: https://www.avivyaish.com/
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Gurkan":
+  - firstname: ["Kobi", "K. Gurkan", "Kobi Gurkan"]
+    url: https://kobi.one/  

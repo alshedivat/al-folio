@@ -2,11 +2,25 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<hr>
+<h4>Introduction to Cryptography and Software Security</h4>
+<h5>2021 TA, 2023 Lecturer</h5>
+TA in the Hebrew University's inroductory cryptography and software security course. Due to be the lecturer in 2023.
 
-Organize your courses by years, topics, or universities, however you like!
+<hr>
+<h4>Algorithms</h4>
+<h5>2020-present</h5>
+TA in the Hebrew University's general algorithms course.
+
+<hr>
+<h4>Introduction to Computer Science</h4>
+<h5>2018-2019</h5>
+<p>TA in the Hebrew University's introductory programming and computer science course, taught in Python.</p>
+<p>Received a teaching excellence award.</p>
+
+<hr>
