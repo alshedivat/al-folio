@@ -35,7 +35,7 @@ Higher School of Economics. Moscow, Russia.
 ##### Spring 2020
 - *REES-155 Masterpieces of 20C Russian Literature* (TA for [Kevin M. F. Platt](https://rees.sas.upenn.edu/people/kevin-mf-platt)). University of Pennsylvania. Philadelphia, PA.
 
-#### Fall 2019
+##### Fall 2019
 - *RUSS-145 Masterpieces of 19C Russian Literature* (TA for [D. Brian Kim](https://rees.sas.upenn.edu/people/d-brian-kim)). University of Pennsylvania. Philadelphia, PA.
 
 ##### Fall 2017
