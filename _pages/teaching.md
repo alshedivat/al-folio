@@ -26,7 +26,7 @@ nav_order: 5
 - *Russian Language in Literature and Media* (Lecturer). International College of Economics and Finance, National Research University
 Higher School of Economics. Moscow, Russia.
 
-### Russian Literature Courses
+### Literature Courses
 
 ##### Summer 2020
 - *REES-145 Masterpieces of 19C Russian Literature* (Instructor). University of Pennsylvania. Philadelphia, PA.
