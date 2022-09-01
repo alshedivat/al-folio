@@ -86,7 +86,11 @@ More details on describing dataset
 </div>
 
 4070 unique StockCode but 4223 unique Description => It might have multiple version of Product name, we should aware working with Product name.
-4372 CustomerID = 4372 Customers, compared to 541909 records. But we're missing 24.9% (135080 records) of customerID. I got 2 options for missing customerID:
+4372 CustomerID = 4372 Customers, compared to 541909 records. But we're missing 24.9% (135080 records) of customerID.
+
+###### As 25% is high number, what should we do in this situation?
+
+I got 2 options for missing customerID:
 
 Assume that each row which missing customerID as a new Customer -> assign them as a new CustomerID. In real life, we can use some Data Engineer techiques to acquire missing data in DataWarehouse or DataLake.
 
@@ -124,7 +128,7 @@ I decide to drop all rows as it don't relate to order & customer behavior, these
 
 ## Data Understanding, Data Featuring, Data Visualizing and Data Modeling
 
-In order to measure how each customer contribute to the business, we have to minus all cancelled order.
+###### In case of cancelled orders, How do we know each customer contribute to the business?
 
 My hypothesis: The InvoiceNo of canceled orders is added 'C' character from orginal InvoiceNo
 Ex: Order invoiceNo 222222, if the customer cancel, the cancel invoiceNo should be C222222
@@ -173,7 +177,8 @@ Do some featuring, to calculate Recency, Frequency, Monetary, which are
 - Frequency: How often a customer makes a purchase
 - Monetary Value: How much money a customer spends on purchases
   I also calculate MostRecent and EngagedAge of each customer base on Earliest and Lastest Invoice.
-  Let's plot the price range to see the distribution of Customer spending
+
+###### Can we see the price range to see the distribution of Customer spending?
 
 <div class="row mt-3">
     <div class="col-sm mt-6 mt-md-0">
