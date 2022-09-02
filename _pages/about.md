@@ -23,7 +23,7 @@ Algorithms embedded in recent systems have inherent risks of providing non- or l
 <br>
 
 <b>Human-Centered AI for Mental Health</b><br>
-Can AI empower individuals to be their own mental health agent? We examine AI's potential for our mental health and propose several ML/NLP applications that can support informed health decision. We also design novel methods to uncover underlying users' perceptions and behaviors associated with algorithmic systems.
+Can AI empower individuals to be their own mental health agent? We examine AI's potential for our mental health and propose ML/NLP applications that can support informed health decision. We also design novel methods to uncover underlying users' perceptions and behaviors associated with algorithmic systems.
 <br>
 
 <b>Data Humanism</b><br>
