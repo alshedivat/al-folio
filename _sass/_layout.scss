@@ -48,3 +48,17 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+
+/*****************************************************************************
+* Teaching
+*****************************************************************************/
+
+.teaching-title, .music-title {
+  color: var(--global-theme-color);
+  font-weight: 400;
+}
+
+h4 a {
+  text-decoration: underline;
+}

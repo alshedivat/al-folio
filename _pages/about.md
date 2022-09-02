@@ -2,24 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: masters student | EECS @ MIT
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>mid-hike</p>
+    <p><a href='https://www.google.com/maps/@21.3856757,-157.7166577,3a,75y,20.89h,104.12t/data=!3m8!1e1!3m6!1sAF1QipMhyEMvFdtnPwALh5LUrjL8lMKieiT0k-7y0-Y-!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMhyEMvFdtnPwALh5LUrjL8lMKieiT0k-7y0-Y-%3Dw203-h100-k-no-pi-0-ya55.89416-ro-0-fo100!7i8704!8i4352'>somewhere in o'ahu</a></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an incoming MEng student at MIT, advised by <a href='http://web.mit.edu/phillipi/'>Professor Phillip Isola</a>. Previously, I graduated from MIT with degrees in computer science and music. During my undergrad, I had the opportunity to work on exciting research under <a href='https://billf.mit.edu/'>Professor Bill Freeman</a>, in <a href='http://mit-pbg.mit.edu/'>Professor Yoel Fink</a>'s fibers@mit group, and under <a href='http://web.mit.edu/phillipi/'>Professor Phillip Isola</a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am broadly interested in computer vision and machine learning, particularly in <b>AI that can see</b>: using insights from natural visual intelligence to build AI that can understand the world around us.
+<hr>
+In 2019, I co-founded <a href='https://tedx.mit.edu'>TEDxMIT</a> and helped launch the inaugural conference at MIT CSAIL. Since then, TEDxMIT has brought community across the Greater Boston area together with three more conferences and adapted to the COVID-19 pandemic by holding a virtual event. Check out the highlight reels from past events and details about the upcoming conference <a href='https://tedx.mit.edu/'>here</a>!
+<hr>

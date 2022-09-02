@@ -19,6 +19,9 @@ table {
   td {
     font-size: 1rem;
   }
+  th {
+    width: 7rem;
+  }
 }
 
 a, table.table a {
@@ -104,6 +107,7 @@ blockquote {
     p {
       display: inline-block;
       margin: 0;
+      text-align: right;
     }
   }
 }
@@ -249,7 +253,7 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2.5rem;
     a {
       i::before {
         color: var(--global-text-color);
