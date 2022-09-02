@@ -12,9 +12,10 @@ authors:
 
 toc:
   - name: Preface
-  - name: Data preparation
-  - name: Data cleaning
-  - name: Data Understanding, Data Featuring, Data Visualizing and Data Modeling
+  - name: How e-commerce data look like?
+  - name: What if there're cancelled orders?
+  - name: How each customer contributed to the business?
+  - name: Can we see the distribution of Customer spending?
   - name: Conclusion
 
 # If you use this post as a template, delete this _styles block.
@@ -54,27 +55,15 @@ we want to know the revenue that customers can bring to our business in their li
 
 ---
 
-## Data preparation
+## How e-commerce data look like?
 
-Firstly, I have to read data, here is sample of how data look like
+In order to read data from database, Python and R are the most popular and powerfull language to handle with huge dataset.
 
-<div class="row mt-3">
-    <div class="col-sm mt-6 mt-md-0">
-        {% include figure.html path="assets/img/udacity/quick_view.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+With basic view of dataset, we should notice that:
 
-Quick describe of data
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/udacity/describe.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-With basic view of dataset, we can notice that:
 - Quantity and UnitPrice has min value lower than Zero, this may caused by cancelled orders, discount or sth.
 - Invoice and StockCode contain special character, should be a pattern that we have to be cleared.
-- There're anomalies in Quantity and UnitPrice. The min, max values in far away from the standard deviation (compare min, max vs std value). But this might happend in real life, when a customer/enterprise had bulk order. 
+- There're anomalies in Quantity and UnitPrice. The min, max values in far away from the standard deviation (compare min, max vs std value). But this might happend in real life, when a customer/enterprise had bulk order.
 - There's some missing values from CustomerID
 
 More details on describing dataset
@@ -88,7 +77,7 @@ More details on describing dataset
 4070 unique StockCode but 4223 unique Description => It might have multiple version of Product name, we should aware working with Product name.
 4372 CustomerID = 4372 Customers, compared to 541909 records. But we're missing 24.9% (135080 records) of customerID.
 
-###### As 25% is high number, what should we do in this situation?
+#### As 25% is high number, what should we do in this situation?
 
 I got 2 options for missing customerID:
 
@@ -99,36 +88,30 @@ Assume that each row which missing customerID as a new Customer -> assign them a
 
 ---
 
-## Data cleaning
+## What if there're cancelled orders?
 
 In cleaning phase, I remove all rows with customerID is Null (mentions above)
 Then, revome duplicates if any.
 
 In previous section, I mentioned that there're some pattern relate to special character in StockCode and InvoiceNo,
 I have hypothesis that InvoiceNo with "C" character is cancel order base on my observation (Quantity and UnitPrice are negative)
-Then I wrote function that detect strange characters in both StockCode and InvoiceNo, here's result:
+Then I wrote function that detect strange characters in both StockCode and InvoiceNo:
 
-<div class="row mt-3">
-    <div class="col-sm mt-6 mt-md-0">
-        {% include figure.html path="assets/img/udacity/strange-character.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-I proved my hypothesis using code, all of "C" InvoiceNO are negative using code (see more at my notebook - "C" pattern).
-Beside, there're some strange string in StockCode stand alone without number: 
+I proved my hypothesis using code, all of "C" InvoiceNO are negative using python code, so "C" is stand for "Cancelled"
+Beside, there're some strange string in StockCode stand alone without number:
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/udacity/strange-string.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-So these transactions should represent for some extra Postages/Carriage/Charges from bank/extra pad as present/CRUK commission.
+These transactions should represent for some extra Postages/Carriage/Charges from bank/extra pad as present/CRUK commission, some for Discount.
 I decide to drop all rows as it don't relate to order & customer behavior, these should belong to business side.
 
 ---
 
-## Data Understanding, Data Featuring, Data Visualizing and Data Modeling
-
-###### In case of cancelled orders, How do we know each customer contribute to the business?
+## How each customer contributed to the business?
 
 My hypothesis: The InvoiceNo of canceled orders is added 'C' character from orginal InvoiceNo
 Ex: Order invoiceNo 222222, if the customer cancel, the cancel invoiceNo should be C222222
@@ -178,7 +161,7 @@ Do some featuring, to calculate Recency, Frequency, Monetary, which are
 - Monetary Value: How much money a customer spends on purchases
   I also calculate MostRecent and EngagedAge of each customer base on Earliest and Lastest Invoice.
 
-###### Can we see the price range to see the distribution of Customer spending?
+## Can we see the distribution of Customer spending?
 
 <div class="row mt-3">
     <div class="col-sm mt-6 mt-md-0">
