@@ -26,13 +26,14 @@ social: true  # includes social icons at the bottom of the page
     <i>University of Rostock</i>
   </div>
 
+  <!-- 
   <div style="display: inline-block; margin-right: .5em; vertical-align: middle">
     <img src="assets/img/stanford-medicine_logo_small.png" width=50em>
   </div>
   <div style="display: inline-block; vertical-align: middle">
-    <!-- <i>External Researcher</i><br/> -->
     <i>Stanford University</i>
-  </div>
+  </div> 
+  -->
 </div>
 <!-- 
 <div style="margin-bottom: 2em">
