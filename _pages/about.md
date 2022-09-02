@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Senior Member of Research Staff at <a href="www.parc.com">Xerox PARC</a>
+description: Principal Scientist at <a href="www.parc.com">Xerox PARC</a>
 
 profile:
   align: right
