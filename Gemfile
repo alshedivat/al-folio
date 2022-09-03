@@ -1,23 +1,21 @@
 source 'https://rubygems.org'
-group :jekyll_plugins do
-    gem 'jekyll'
-    gem 'jekyll-archives'
-    gem 'jekyll-diagrams'
-    gem 'jekyll-email-protect'
-    gem 'jekyll-feed'
-    gem 'jekyll-imagemagick'
-    gem 'jekyll-minifier'
-    gem 'jekyll-paginate-v2'
-    gem 'jekyll-scholar'
-    gem 'jekyll-sitemap'
-    gem 'jekyll-target-blank'
-    gem 'jekyll-twitter-plugin'
-    gem 'jemoji'
-    gem 'mini_racer'
-    gem 'unicode_utils'
-    gem 'webrick'
-end
-group :other_plugins do
-    gem 'httparty'
-    gem 'feedjira'
-end
+
+gem 'jekyll-scholar', group: :jekyll_plugins
+gem 'jekyll', group: :jekyll_plugins
+gem 'jekyll-archives', group: :jekyll_plugins
+gem 'jekyll-diagrams', group: :jekyll_plugins
+gem 'jekyll-email-protect', group: :jekyll_plugins
+gem 'jekyll-feed', group: :jekyll_plugins
+gem 'jekyll-imagemagick', group: :jekyll_plugins
+gem 'jekyll-minifier', group: :jekyll_plugins
+gem 'jekyll-paginate-v2', group: :jekyll_plugins
+gem 'jekyll-scholar', group: :jekyll_plugins
+gem 'jekyll-sitemap', group: :jekyll_plugins
+gem 'jekyll-target-blank', group: :jekyll_plugins
+gem 'jekyll-twitter-plugin', group: :jekyll_plugins
+gem 'jemoji', group: :jekyll_plugins
+gem 'mini_racer', group: :jekyll_plugins
+gem 'unicode_utils', group: :jekyll_plugins
+gem 'webrick', group: :jekyll_plugins
+gem 'httparty', group: :other_plugins
+gem 'feedjira', group: :other_plugins
