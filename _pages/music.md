@@ -27,7 +27,7 @@ Your browser does not support the audio element.
 
 
 <h4 class='music-title'>Cottonwood Rag</h4>
-This very first composition was written in a Ragtime Composition class - I composed it without much music theory knowledge, so had quite the adventure trying to distill the spirit of Scott Joplin into a rag without knowing my Roman Numerals... enjoy this recording performed by <a href='https://mta.mit.edu/person/charles-shadle'>Professor Charles Shadle</a>!
+My very first piece was written in a Ragtime Composition class - I composed it without much music theory knowledge, so had quite the adventure trying to distill the spirit of Scott Joplin into a rag without knowing my Roman Numerals... enjoy this recording performed by <a href='https://mta.mit.edu/person/charles-shadle'>Professor Charles Shadle</a>!
 <audio controls>
   <source src="../assets/music/rag.wav" type="audio/wav">
 Your browser does not support the audio element.
