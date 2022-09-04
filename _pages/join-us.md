@@ -7,7 +7,7 @@ nav: true
 nav_order: 9
 ---
 
-**We are hiring!** We are currently looking for **several PhD students, postdocs, and student assistants** with an interest in machine learning.
+**We are hiring!** We are currently looking for **several PhD students, postdocs, and student assistants** with an interest in machine learning with the earliest start date of **October 1st, 2022**.
 
 ## Our Mission & Values
 You will join a machine learning group in a beautiful city by the ocean with a strong global network, including Stanford University, UC San Diego, or UNC Chapel Hill, as well as local expertise. This provides you with direct access and collaborations with world-experts in machine learning, (bio-)medicine, and marine ecology. Joining us will give you the unique opportunity to help us shape a young, highly collaborative, and team-oriented group, that aims to impact real-world problem settings through cutting edge machine learning. We are particularly passionate about methods to understand the underlying processes of complex systems, domain knowledge integration into machine learning methods for accurate modeling, as well as human interaction with existing knowledge. For this we employ a multitude of approaches ranging from multi-modal learning, deep learning, Bayesian modeling, and exceptional model mining to explainable artificial intelligence, fairness, and human computer interaction.
