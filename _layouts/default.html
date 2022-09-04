@@ -7,7 +7,16 @@
     <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
   {%- endif -%}
   {% include head.html %}
-  
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+
   </head>
 
   <!-- Body -->
@@ -30,6 +39,6 @@
     {% include scripts/masonry.html %}
     {% include scripts/misc.html %}
     {% include scripts/mathjax.html %}
-    {% include scripts/analytics.html %}
+    <!-- {% include scripts/analytics.html %} -->
   </body>
 </html>
