@@ -45,6 +45,7 @@ Our focus lies on developing and applying cutting-edge machine learning methods 
 **Perks**
 
 * a friendly, supportive, team-oriented, and inclusive work environment with highly motivated colleagues
+* international network including universities like Stanford, UC San Diego, or UNC Chapel Hill
 * fully funded position (PhD students: temporary appointment for three years); [TVL-E13, 40 hrs/week](https://oeffentlicher-dienst.info/c/t/rechner/tv-l/west?id=tv-l-2021&g=E_13&s=1&zv=VBL&z=100&zulage=&stj=2022b&stkl=1&r=0&zkf=0&kk=15.5%25), this is far beyond international standards (> EUR 50k) and includes health insurance, a retirement plan, and more!
 * flexible work hours
 * 30 paid vacation days
@@ -52,13 +53,11 @@ Our focus lies on developing and applying cutting-edge machine learning methods 
 * a multitude of educational programs
 * discounted university sports
 
+**Application:**
 
-
-## Application
-
-We are looking forward to your application.
+We are really looking forward to your application.
 The **earliest start date is October, 1st 2022.**
-Please send your material as soon as possible to: [martin.becker@uni-rostock.de](mailto:martin.becker@uni-rostock.de) with subject **"Application 2022"**.
+Please send your material directly to Martin Becker: [martin.becker@uni-rostock.de](mailto:martin.becker@uni-rostock.de) with subject **"PhD Application 2022"**.
 Your application should encompass a single PDF with the following content:
 
 * cover letter
