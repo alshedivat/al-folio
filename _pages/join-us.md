@@ -2,14 +2,12 @@
 layout: page
 permalink: /join-us/
 title: Join Us!
-description: Open positions in the lab
+description: 
 nav: true
 nav_order: 9
 ---
 
-## We are hiring!
-
-We are currently looking for **several PhD students, postdocs, and student assistants** with an interest in machine learning.
+**We are hiring!** We are currently looking for **several PhD students, postdocs, and student assistants** with an interest in machine learning.
 
 ## Our Mission & Values
 You will join a machine learning group in a beautiful city by the ocean with a strong global network, including Stanford University, UC San Diego, or UNC Chapel Hill, as well as local expertise. This provides you with direct access and collaborations with world-experts in machine learning, (bio-)medicine, and marine ecology. Joining us will give you the unique opportunity to help us shape a young, highly collaborative, and team-oriented group, that aims to impact real-world problem settings through cutting edge machine learning. We are particularly passionate about methods to understand the underlying processes of complex systems, domain knowledge integration into machine learning methods for accurate modeling, as well as human interaction with existing knowledge. For this we employ a multitude of approaches ranging from multi-modal learning, deep learning, Bayesian modeling, and exceptional model mining to explainable artificial intelligence, fairness, and human computer interaction.
@@ -20,11 +18,11 @@ Our group has a strong commitment to translating research to actionable insights
 
 ## Available projects and research directions
 
-Our focus lies on developing and applying cutting-edge machine learning methods in high-impact application scenarios, e.g., in (bio-)medicine and environmental change. The developed methods will, for example, revolve around understanding complex systems by background knowledge extraction end exploitation in the context of the BMBF funded research group [THEMIS](/projects/themis). Nevertheless, we are always interested in your own project ideas, thus, don’t hesitate to contact us! We will support you as best as we can.
+Our focus lies on developing and applying cutting-edge machine learning methods in high-impact application scenarios, e.g., in (bio-)medicine and environmental change. The developed methods will, for example, revolve around understanding complex systems by background knowledge extraction end exploitation in the context of the BMBF funded research group [THEMIS](/projects/2022_themis). Nevertheless, we are always interested in your own project ideas, thus, don’t hesitate to contact us! We will support you as best as we can.
 
 ## Prospective PhD students
 
-We are looking for:
+**We are looking for:**
 
 * inherent curiosity and extraordinary drive to explore and learn
 * high engagement and ability to work independently
@@ -35,8 +33,7 @@ We are looking for:
     * experience in applying or developing statistics or machine learning methods
     * practical experience in project work and/or publishing academic papers
 
-
-### Your job
+**What you will be doing:**
 
 * Research in data science, machine learning, and artificial intelligence in application settings like (bio-)medicine and environmental change with the goal to gain a doctorate/PhD
 * Application and development of methods ranging from multi-modal learning, deep learning, Bayesian modeling, and exceptional model mining to explainable artificial intelligence, fairness and human computer interaction
@@ -45,9 +42,9 @@ We are looking for:
 * Engagement in academic self-governance, organizing and running academic events, support of student organizations, etc.
 * Involvement in teaching activities (seminars, tutorials, grading, etc); roughly 4 hours a week
 
-### Perks
+**Perks**
 
-* a friendly, supportive, and inclusive work environment with highly motivated colleagues
+* a friendly, supportive, team-oriented, and inclusive work environment with highly motivated colleagues
 * fully funded position (PhD students: temporary appointment for three years); [TVL-E13, 40 hrs/week](https://oeffentlicher-dienst.info/c/t/rechner/tv-l/west?id=tv-l-2021&g=E_13&s=1&zv=VBL&z=100&zulage=&stj=2022b&stkl=1&r=0&zkf=0&kk=15.5%25), this is far beyond international standards (> EUR 50k) and includes health insurance, a retirement plan, and more!
 * flexible work hours
 * 30 paid vacation days
