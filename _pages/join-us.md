@@ -7,7 +7,7 @@ nav: true
 nav_order: 9
 ---
 
-**We are hiring!** We are currently looking for **several PhD students, postdocs, and student assistants** with an interest in machine learning with the earliest start date of **October 1st, 2022**.
+**We are hiring!** 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are currently looking for **several PhD students, postdocs, and student assistants** with an interest in machine learning with the earliest start date of **October 1st, 2022**.
 
 ## Our Mission & Values
 
