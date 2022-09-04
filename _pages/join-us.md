@@ -57,18 +57,19 @@ Our focus lies on developing and applying cutting-edge machine learning methods 
 
 We are really looking forward to your application.
 The **earliest start date is October, 1st 2022.**
-Please send your material directly to Martin Becker: [martin.becker@uni-rostock.de](mailto:martin.becker@uni-rostock.de) with subject **"PhD Application 2022"**.
-Your application should encompass a single PDF with the following content:
+Please send your material directly to Martin Becker: [martin.becker@uni-rostock.de](mailto:martin.becker@uni-rostock.de).
+The subject should be **"PhD Application 2022"**.
+Please including the following as a single PDF: 
 
-* cover letter
+* cover letter detailing your motivation for pursuing a PhD in general and in particular in our lab (max. 1-2 page)
 * CV including
     * potential previous projects, industry experience, etc.
     * two contacts for potential recommendations (e.g., your bachelor and master thesis advisors)
 * grade transcript
-* letter detailing your motivation for pursuing a PhD in general and in particular in our lab (max. 1 page)
-* anything else you want to share 😄
+* anything else you would like to share 😄
 
 ## Postdocs
+
 Post-doctoral candidates are encouraged to contact Dr. Becker directly via e-mail to inquire about post-doctoral positions. The Laboratory is most interested in candidates with expertise in XXX. Candidates with a background in XXX are also strongly encouraged to apply. All candidates must have a strong record of independent research.
 
 ## Students
