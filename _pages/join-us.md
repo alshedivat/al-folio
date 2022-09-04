@@ -75,6 +75,7 @@ Please including the following as a single PDF:
 Post-doctoral candidates are encouraged to contact Dr. Becker directly via e-mail to inquire about post-doctoral positions (subject: "Postdoc Application {YEAR}").
 The Laboratory is most interested in candidates with expertise in methods development, mentoring experience, and a drive to help build an internationally competitive, team-oriented group.
 All candidates must have a strong record of independent research.
+Postdocs will be hired according to [TVL-E13 or E14, 40 hrs/week](https://oeffentlicher-dienst.info/c/t/rechner/tv-l/west?id=tv-l-2021&g=E_13&s=1&zv=VBL&z=100&zulage=&stj=2022b&stkl=1&r=0&zkf=0&kk=15.5%25) depending on their experience.
 
 ## Students
 
