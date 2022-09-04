@@ -47,8 +47,8 @@ social: true  # includes social icons at the bottom of the page
 </div>
 -->
 
-> **[Join us!](/join-us)** 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are looking for several **PhD students or Postdocs** and at least **two student assistants**.
-You will work on amazing [projects](projects) such as extracting and integrating domain knowledge from and into machine learning methods in the context of high-impact applications like (bio-)medicine and environmental change.
+> **[Join us!](/join-us)** 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are looking for several **PhD students or Postdocs** and **student assistants**.
+You will work on [projects](projects) encompassing for example extracting and integrating domain knowledge from and into machine learning methods in the context of high-impact applications like (bio-)medicine and environmental change.
 
 The **Becker Lab** is a you machine learning lab with a strong international network including for example Stanford University, UC San Diego, or UNC Chapel Hill.
 We aim to **impact high-stake real-world problem settings** at the intersection of **medicine, environmental change, and human behavior** through **artificial intelligence and machine learning**.
