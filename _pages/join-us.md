@@ -7,26 +7,34 @@ nav: true
 nav_order: 9
 ---
 
-## PhD students and Postdocs
-<!--
-> Up to **four machine learning PhD student or postoc positions** are available at the [Becker Lab](https://bckrlab.org) at the [University of Rostock, Germany](https://www.uni-rostock.de) and can be filled ASAP.
-You will join a machine learning group in a beautiful city at the ocean with a strong global network, e.g., including Stanford University, UC San Diego, or UNC Chapel Hill, as well as local expertise providing direct access to world-experts in machine learning, (bio-)medicine, and marine ecology.
-This is a unique opportunity for PhD students and postdocs to work in and shape a young and versatile research group that aims to directly impact real-world problem settings in medical as well as environmental settings by developing and applying cutting-edge machine learning methods.
-We are particularly passionate about methods to gain deeper insights into the complex systems of the corresponding application domain, domain knowledge integration into machine learning methods, as well as human interaction with existing knowledge. For more details see: https://bckrlab.org/join-us -->
+## We are hiring!
 
-Up to **four machine learning PhD student or postoc positions** are available at the [Becker Lab](https://bckrlab.org) at the [University of Rostock, Germany](https://www.uni-rostock.de) and can be filled **ASAP**.
-You will join a machine learning group in a beautiful city at the ocean with a strong global network, e.g., including Stanford University, UC San Diego, or UNC Chapel Hill, as well as local expertise providing direct access to world-experts in machine learning, (bio-)medicine, and marine ecology.
-This is a unique opportunity for PhD students and postdocs to work in and shape a young and versatile research group that aims to directly impact real-world problem settings in medical as well as environmental settings by developing and applying cutting-edge machine learning methods.
-We are particularly passionate about methods to gain deeper insights into the complex systems of the corresponding application domain, domain knowledge integration into machine learning methods, as well as human interaction with existing knowledge.
-<!-- Our research will cover a wide range of high-impact topics ranging from clinical and bio-medical applications to environmental change and marine ecosystems. -->
-<!-- integrating for example experimental biomarkers, single cell data, mental health, physical fitness, immune . -->
-<!-- Particular areas of interest include pregnancy and neonatology, physical and biological aging, ... -->
-For this we employ a multitude of machine learning approaches ranging from multi-modal learning, deep learning, Bayesian modeling, and exceptional model mining to explainable artificial intelligence, fairness and human computer interaction.
+We are currently looking for **several PhD students, postdocs, and student assistants** with an interest in machine learning.
 
-Our group has a strong commitment to translating research to actionable insights and applications with real-world impact and scalability. <!-- We encourage (and financially support) our postdoctoral fellows to receive extensive training in entrepreneurship and business management from Stanford’s School of Business.  --> This is an excellent environment for candidates who are not only focused on participating in state-of-the-art academic research, but who are also interested in the application of their work with practitioners or in exploring industrial and entrepreneurial avenues.
+## Our Mission & Values
+You will join a machine learning group in a beautiful city by the ocean with a strong global network, including Stanford University, UC San Diego, or UNC Chapel Hill, as well as local expertise. This provides you with direct access and collaborations with world-experts in machine learning, (bio-)medicine, and marine ecology. Joining us will give you the unique opportunity to help us shape a young, highly collaborative, and team-oriented group, that aims to impact real-world problem settings through cutting edge machine learning. We are particularly passionate about methods to understand the underlying processes of complex systems, domain knowledge integration into machine learning methods for accurate modeling, as well as human interaction with existing knowledge. For this we employ a multitude of approaches ranging from multi-modal learning, deep learning, Bayesian modeling, and exceptional model mining to explainable artificial intelligence, fairness, and human computer interaction.
 
-Diversity across all dimensions is a core value for our lab and a key contributor to our innovative research.
-Applicants from groups traditionally underrepresented in computer science and machine learning are strongly encouraged to apply.
+We thrive to create a friendly, supportive, team-oriented, and inclusive work environment with highly motivated colleagues. Diversity across all dimensions is a core value for our lab and a key contributor to our innovative research. Applicants from groups traditionally underrepresented in computer science and machine learning are strongly encouraged to apply.
+
+Our group has a strong commitment to translating research to actionable insights and applications with real-world impact and scalability. This is an excellent environment for candidates who are not only focused on participating in state-of-the-art academic research but are also interested in translating their work in industrial and entrepreneurial avenues.
+
+## Available projects and research directions
+
+Our focus lies on developing and applying cutting-edge machine learning methods in high-impact application scenarios, e.g., in (bio-)medicine and environmental change. The developed methods will, for example, revolve around understanding complex systems by background knowledge extraction end exploitation in the context of the BMBF funded research group [THEMIS](/projects/themis). Nevertheless, we are always interested in your own project ideas, thus, don’t hesitate to contact us! We will support you as best as we can.
+
+## Prospective PhD students
+
+We are looking for:
+
+* inherent curiosity and extraordinary drive to explore and learn
+* high engagement and ability to work independently
+* strong intrinsic motivation and interest in applying and developing machine learning methods in high-impact application scenarios like (bio-)medicine and environmental change
+* graduate degree (Diplom, master, etc.) in fields like computer science, mathematics, physics, computational biology, medicine, or comparable
+* affinity to coding or willingness to learn outside of regular working hours
+* optimally
+    * experience in applying or developing statistics or machine learning methods
+    * practical experience in project work and/or publishing academic papers
+
 
 ### Your job
 
@@ -47,16 +55,7 @@ Applicants from groups traditionally underrepresented in computer science and ma
 * a multitude of educational programs
 * discounted university sports
 
-### Requirements
 
-* inherent curiosity and extraordinary drive to explore and learn
-* high engagement and ability to work independently
-* strong intrinsic motivation and interest in applying and developing machine learning methods in high-impact application scenarios like (bio-)medicine and environmental change
-* graduate degree (Diplom, master, etc.) in fields like computer science, mathematics, physics, computational biology, medicine, or comparable
-* affinity to coding or willingness to learn outside of regular working hours
-* optimally
-    * experience in applying or developing statistics or machine learning methods
-    * practical experience in project work and/or publishing academic papers
 
 ## Application
 
@@ -72,6 +71,9 @@ Your application should encompass a single PDF with the following content:
 * grade transcript
 * letter detailing your motivation for pursuing a PhD in general and in particular in our lab (max. 1 page)
 * anything else you want to share 😄
+
+## Postdocs
+Post-doctoral candidates are encouraged to contact Dr. Becker directly via e-mail to inquire about post-doctoral positions. The Laboratory is most interested in candidates with expertise in XXX. Candidates with a background in XXX are also strongly encouraged to apply. All candidates must have a strong record of independent research.
 
 ## Students
 
