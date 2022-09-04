@@ -42,7 +42,7 @@ Our focus lies on developing and applying cutting-edge machine learning methods 
 * Engagement in academic self-governance, organizing and running academic events, support of student organizations, etc.
 * Involvement in teaching activities (seminars, tutorials, grading, etc); roughly 4 hours a week
 
-**Perks**
+**Perks:**
 
 * a friendly, supportive, team-oriented, and inclusive work environment with highly motivated colleagues
 * international network including universities like Stanford, UC San Diego, or UNC Chapel Hill
@@ -55,23 +55,29 @@ Our focus lies on developing and applying cutting-edge machine learning methods 
 
 **Application:**
 
-We are really looking forward to your application.
+We are really looking forward to your application!
 The **earliest start date is October, 1st 2022.**
 Please send your material directly to Martin Becker: [martin.becker@uni-rostock.de](mailto:martin.becker@uni-rostock.de).
 The subject should be **"PhD Application 2022"**.
-Please including the following as a single PDF: 
+Please including the following as a single PDF:
 
-* cover letter detailing your motivation for pursuing a PhD in general and in particular in our lab (max. 1-2 page)
-* CV including
+* **cover letter** (max. 1-2 page) detailing 
+    * your motivation for pursuing a PhD in general
+    * why our lab is interesting to you
+* **CV** including
     * potential previous projects, industry experience, etc.
     * two contacts for potential recommendations (e.g., your bachelor and master thesis advisors)
-* grade transcript
+* **grade transcript**
 * anything else you would like to share 😄
 
 ## Postdocs
 
-Post-doctoral candidates are encouraged to contact Dr. Becker directly via e-mail to inquire about post-doctoral positions. The Laboratory is most interested in candidates with expertise in XXX. Candidates with a background in XXX are also strongly encouraged to apply. All candidates must have a strong record of independent research.
+Post-doctoral candidates are encouraged to contact Dr. Becker directly via e-mail to inquire about post-doctoral positions (subject: "Postdoc Application {YEAR}").
+The Laboratory is most interested in candidates with expertise in methods development, mentoring experience, and a drive to help build an internationally competitive, team-oriented group.
+All candidates must have a strong record of independent research.
 
 ## Students
 
-**Come talk to us!** We have many interesting [projects and problem settings](/projects). Also, if you have **your own project ideas**, don't hesitate to contact us. We will try to support you as best as we can!
+**Come talk to us!** We have many interesting [projects and problem settings](/projects). 
+Also, if you have **your own project ideas**, don't hesitate to contact us!
+We will support you as best as we can!
