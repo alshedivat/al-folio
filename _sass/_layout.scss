@@ -30,7 +30,14 @@ body.sticky-bottom-footer {
 .profile {
   img {
     width: 100%;
+    height: 100%;
+    display: inline;
+    margin: 0 auto;
   }
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
 }
 
 // TODO: redefine content layout.

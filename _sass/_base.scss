@@ -34,6 +34,10 @@ a, table.table a {
 
 figure, img {
   max-width: 90vw;
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
 }
 
 blockquote {
@@ -97,8 +101,8 @@ blockquote {
   width: 100%;
 
   .address {
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     font-family: monospace;
     p {
       display: inline-block;
@@ -110,6 +114,10 @@ blockquote {
 @media (min-width: 576px) {
   .profile {
     width: 30%;
+    height: 30%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
     .address {
       p { display: block; }
     }
@@ -248,7 +256,7 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -458,7 +466,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 0rem;
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
