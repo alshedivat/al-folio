@@ -1,8 +1,8 @@
 ---
 layout: page
 title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+description: Fluent Text Transcription Using Pretrained Audio Representations
+# img: assets/img/12.jpg
 importance: 1
 category: work
 ---

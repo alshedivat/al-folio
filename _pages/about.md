@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Data Scientist at Spotify with the Publishing Solutions group, M.Sc student at NYU's Center for Data Science
+subtitle: Data Scientist with Spotify's Publishing Solutions group,  M.S student at NYU's Center for Data Science
 
 profile:
   align: left

@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - davidsroth
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - davidsroth/hubert-disfl
+  - davidsroth/SFD_pytorch
+  - djangoUnUnSharded/django-sharded
