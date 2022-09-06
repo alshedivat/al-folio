@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Data Scientist at Spotify with the Publishing Solutions group, M.Sc student at NYU's Center for Data Science
 
 profile:
   align: left
