@@ -2,13 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
+title: David Roth # the website title (if blank, full name will be used instead)
+first_name: David
+middle_name: S.
+last_name: Roth
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Data Scientist at Spotify with the Publishing Solutions group, M.Sc student at NYU's Center for Data Science
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -18,9 +17,9 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+url: https://davidsroth.github.io/ # the base hostname & protocol for your site
+baseurl: / # the subpath of your site, e.g. /blog/
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -85,7 +84,7 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  For questions/opportunities, the best place to reach me is at davidroth6 {at} gmail {dot} com
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
