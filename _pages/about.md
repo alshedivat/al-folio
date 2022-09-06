@@ -5,7 +5,7 @@ permalink: /
 subtitle: Data Scientist at Spotify with the Publishing Solutions group, M.Sc student at NYU's Center for Data Science
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   # address: >
