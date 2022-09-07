@@ -6,5 +6,5 @@ nav: true
 nav_order: 4
 ---
 
- {% pdf "/main/assets/pdf/SzymonSacher_CV.pdf" no_link %}
+ {% pdf "/assets/pdf/SzymonSacher_CV.pdf" no_link %}
 
