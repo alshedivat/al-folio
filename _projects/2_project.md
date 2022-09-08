@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 2
+title: reactive capsules
 description: a project with a background image
-img: assets/img/3.jpg
+img: assets/img/cage1.png
 importance: 2
-category: work
+category: chemistry
+redirect : /assets/pdf/FaradayPoster_InPerson_JMarrett.pdf
 ---
 
 Every project has a beautiful feature showcase page.

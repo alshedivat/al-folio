@@ -2,33 +2,30 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Joseph M. Marrett
+    - #name: Date of Birth
+      #value: 18th March 1879
     - name: Languages
-      value: English, German
+      value: English, basic Spanish
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD Candidate, Chemistry (Materials)
+      institution: University of Birmingham 
+      year: 2022-
+    - title: M.Sc., Chemistry (Materials)
+      institution: McGill University
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Thesis titled "Molecular Self-Assembly of Reactive Organic and Metal-Organic Solids""
+    - title: B.Sc., Honors Chemistry
+      institution: McGill University 
+      year: 2018
       description:
-        - Description 1.
-        - Description 2.
+        - Thesis titled "ZIF Synthesis in Supercritical Carbon Dioxide"
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
     - title: Professor of Theoretical Physics
