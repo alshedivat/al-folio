@@ -139,12 +139,12 @@ $ cd <your-repo-name>
 Finally, run the following command that will pull a pre-built image from DockerHub and will run your website.
 
 ```bash
-$ ./bin/dockerhub_run.sh
+$ docker-compose up
 ```
 
 Note that when you run it for the first time, it will download a docker image of size 300MB or so.
 
-Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`bin/dockerhub_run.sh`) to render the webpage with all you changes. Also, make sure to commit your final changes.
+Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`docker-compose up`) to render the webpage with all you changes. Also, make sure to commit your final changes.
 
 <details><summary>(click to expand) <strong>Build your own docker image (more advanced):</strong></summary>
 
@@ -154,18 +154,18 @@ First, download the necessary modules and install them into a docker image calle
   
 
 ```bash
-$ ./bin/docker_build_image.sh  
+$ docker-compose -f docker-local.yml build
 ```
 
 Run the website!
 
 ```bash
-$ ./bin/docker_run.sh
+$ docker-compose -f docker-local.yml up
 ```
 
-> To change port number, you can edit `docker_run.sh` file.
+> To change port number, you can edit `docker-compose.yml` file.
 
-> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `docker_build_image.sh`! It will download ruby and jekyll and install all ruby packages again from scratch.
+> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again! It will download ruby and jekyll and install all ruby packages again from scratch.
 
 </details>
 
