@@ -1,1 +1,1 @@
-docker-compose -f docker-local.yml up --remove-orphans
+docker-compose -f docker-local.yml up
