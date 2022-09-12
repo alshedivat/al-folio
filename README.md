@@ -117,6 +117,33 @@ Neural Compression (ICLR: <a href="https://neuralcompression.github.io/" target=
 [![Google PageSpeeg](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=desktop)
 
 
+## Table Of Contents
+
+  * [User community](#user-community)
+  * [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
+  * [Getting started](#getting-started)
+    + [Installation](#installation)
+      - [Local setup using Docker (Recommended on Windows)](#local-setup-using-docker-recommended-on-windows)
+      - [Local Setup (Standard)](#local-setup-standard)
+      - [Deployment](#deployment)
+      - [Upgrading from a previous version](#upgrading-from-a-previous-version)
+    + [FAQ](#faq)
+  * [Features](#features)
+    + [Publications](#publications)
+    + [Collections](#collections)
+    + [Layouts](#layouts)
+      - [The iconic style of Distill](#the-iconic-style-of-distill)
+      - [Full support for math & code](#full-support-for-math--code)
+      - [Photos](#photos)
+    + [Other features](#other-features)
+      - [GitHub repositories and user stats](#github-repositories-and-user-stats)
+      - [Theming](#theming)
+      - [Social media previews](#social-media-previews)
+      - [Atom (RSS-like) Feed](#atom-rss-like-feed)
+  * [Contributing](#contributing)
+    + [Core Contributors](#core-contributors)
+  * [License](#license)
+
 ## Getting started
 
 Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
