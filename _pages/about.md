@@ -23,7 +23,7 @@ I will be starting as an **Assistant Professor of Computer Science** at [Cornell
 
 I work on challenges at the intersection of large-scale computational biology and the algorithms and software infrastructures. I leverage high-performance computing techniques and computer systems and architectures to make genomics data processing faster and more flexible for the community, and to enable higher-quality bioinformatics and biomedical research. Another important focus of my work is developing software to make cloud infrastructures more accessible for high-performance scientific computing.
 
-**I am recruiting PhD students with a background in Parallel Programming and interest in High-Performance Computing and Systems research for the Academic Year 2023/24.** If you are a prospective PhD student, please read [the students page](https://giuliaguidi.github.io/students/). 
+**I am recruiting PhD students with a background in parallel programming and interest in high-performance computing for computational sciences.** If you are a prospective PhD student, please read [the students page](https://giuliaguidi.github.io/students/). 
 
 I received my PhD in Computer Science from UC Berkeley in August 2022 under the supervision of [Aydın Buluç](http://people.eecs.berkeley.edu/~aydin/) and [Kathy Yelick](https://people.eecs.berkeley.edu/~yelick/). I currently hold a [2020 SIGHPC Computational & Data Science Fellowship](https://www.sighpc.org/for-your-career/fellowships/2020-fellowship-winners?fbclid=IwAR2N8swtCYgNH3phRmrFtASSC42b4oN5joG1l5XHFSdnkMY6U4HvZt3olLE) and work as a Project Scientist in the Applied Math and Computational Sciences Division at Lawrence Berkeley National Laboratory.
 
