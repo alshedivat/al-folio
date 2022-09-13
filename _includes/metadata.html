@@ -159,6 +159,10 @@
         {%- capture link -%}https://facebook.com/{{ site.facebook_id }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
+    {%- if site.discord_id -%}
+        {%- capture link -%}https://discord.com/users/{{ site.discord_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
     {%- if sameaslinks != blank -%}
         {%- assign sameaslinks = sameaslinks | split: "" -%}
     {%- endif -%}
