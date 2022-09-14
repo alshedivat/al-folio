@@ -18,7 +18,7 @@ I'm a first-year CS Ph.D. student at [MIT PDOS](https://pdos.csail.mit.edu/),
 advised by [Frans Kaashoek](https://people.csail.mit.edu/kaashoek/) and [Nickolai Zeldovich](https://people.csail.mit.edu/nickolai/),
 and supported by an [NSF GRFP](https://www.nsfgrfp.org/) fellowship.
 I enjoy hacking on big computer systems, especially when that results in increased security, reliability, and correctness.
-Recently, I've been excited about the use of **formal verification** to guarantee such properties.
+Recently, I've been excited about the use of formal verification to guarantee such properties.
 
 Prior to MIT, I was a [Turing Scholar](https://www.cs.utexas.edu/turing-scholars)
 honors computer science undergraduate at [UT Austin](https://www.utexas.edu/),
@@ -27,7 +27,9 @@ Before that, I spent three years in the [MIT PRIMES](http://math.mit.edu/researc
 working with [Srini Devadas](https://people.csail.mit.edu/devadas/)
 and [Aleksander Mądry](https://people.csail.mit.edu/madry/).
 
-Outside of academia, I interned at the
-AWS [automated reasoning research group](https://www.amazon.science/research-areas/automated-reasoning)
+Outside of academia, I interned at
+Amazon's [automated reasoning research group](https://www.amazon.science/research-areas/automated-reasoning)
 and at [Gradient](https://www.gradient.tech),
 a deep tech cybersecurity and identity infrastructure startup.
+
+[Link to my CV](/cv).
