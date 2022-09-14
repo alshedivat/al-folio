@@ -80,7 +80,14 @@ blockquote {
     .row {
       display: flex;
       align-items: center;
+      margin: auto;
+      text-align: center;
     }
+
+  }
+  .icon-item {
+    margin: auto;
+    padding: 5px;
   }
 }
 
@@ -424,20 +431,24 @@ footer.sticky-bottom {
   }
 
   .card {
-    img {
-      width: 100%;
-    }
+    text-align: center;
+    padding-top: 20px;
+    // img {
+    //   // width: 100%;
+    // }
   }
 
   .card-item {
     width: auto;
     margin-bottom: 10px;
 
+  }
     .row {
       display: flex;
       align-items: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
-  }
 
   .grid-sizer, .grid-item {
     width: 250px;
@@ -451,6 +462,19 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: right;
+  }
+
+  .person-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    object-fit: cover;
+    // margin-right: 1rem;
+  }
+
+  .person-icon {
+
   }
 }
 

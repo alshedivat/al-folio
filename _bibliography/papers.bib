@@ -1,82 +1,81 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+@article{hayes_disembodied_2022,
+  abbr     = {JAES},
+  title    = {Disembodied {{Timbres}}: {{A Study}} on {{Semantically Prompted FM Synthesis}}},
+  abstract = {Disembodied electronic sounds constitute a large part of the modern auditory lexicon, but research into timbre perception has focused mostly on the tones of conventional acoustic musical instruments. It is unclear whether insights from these studies generalise to electronic sounds, nor is it obvious how these relate to the creation of such sounds. In this work, we present an experiment on the semantic associations of sounds produced by FM synthesis with the aim of identifying whether existing models of timbre semantics are appropriate for such sounds. We applied a novel experimental paradigm in which experienced sound designers responded to semantic prompts by programming a synthesiser, and provided semantic ratings on the sounds they created. Exploratory factor analysis revealed a ﬁve-dimensional semantic space. The ﬁrst two factors mapped well to the concepts of luminance, texture, and mass. The remaining three factors did not have clear parallels, but correlation analysis with acoustic descriptors suggested an acoustical relationship to luminance and texture. Our results suggest that further enquiry into the timbres of disembodied electronic sounds, their synthesis, and their semantic associations would be worthwhile, and that this could beneﬁt research into auditory perception and cognition, as well as synthesis control and audio engineering.},
+  author   = {Hayes, Ben and Saitis, Charalampos and Fazekas, Gy{\"o}rgy},
+  year     = {2022},
+  month    = may,
+  journal  = {Journal of the Audio Engineering Society},
+  volume   = {70},
+  number   = {5},
+  pages    = {373--391},
+  issn     = {15494950},
+  doi      = {10.17743/jaes.2022.0006},
+  pdf      = {hayes_disembodied_2022.pdf},
+  selected = {true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+
+@inproceedings{hayes_neural_2021,
+  abbr      = {ISMIR},
+  abstract  = {We present the Neural Waveshaping Unit (NEWT): a novel, lightweight, fully causal approach to neural audio synthesis which operates directly in the waveform domain, with an accompanying optimisation (FastNEWT) for efficient CPU inference. The NEWT uses time-distributed multilayer perceptrons with periodic activations to implicitly learn nonlinear transfer functions that encode the characteristics of a target timbre. Once trained, a NEWT can produce complex timbral evolutions by simple affine transformations of its input and output signals. We paired the NEWT with a differentiable noise synthesiser and reverb and found it capable of generating realistic musical instrument performances with only 260k total model parameters, conditioned on F0 and loudness features. We compared our method to state-of-the-art benchmarks with a multi-stimulus listening test and the Fréchet Audio Distance and found it performed competitively across the tested timbral domains. Our method significantly outperformed the benchmarks in terms of generation speed, and achieved real-time performance on a consumer CPU, both with and without FastNEWT, suggesting it is a viable basis for future creative sound design tools.},
+  title     = {Neural Waveshaping Synthesis},
+  booktitle = {Proceedings of the 22nd International Society for Music Information Retrieval Conference},
+  author    = {Hayes, Ben and and Saitis, Charalampos and Fazekas, George},
+  year      = {2021},
+  address   = {{Online}},
+  selected  = {true},
+  pdf       = {hayes_neural_2021.pdf}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@inproceedings{hayes_perceptual_2021,
+  abbr      = {ICMPC},
+  abstract  = {Electronic sound has a rich history, yet timbre research has typically focused on the sounds of physical instruments, while synthesised sound is often relegated to functional roles like recreating acoustic timbres. Studying the perception of synthesised sound can broaden our conception of timbre and improve musical synthesis tools. We aimed to identify the perceptually salient acoustic attributes of sounds produced by frequency modulation synthesis. We also aimed to test Zacharakis et al’s luminance-texture-mass timbre semantic model [Music Perception, 31, 339–358 (2014)] in this domain. Finally, we aimed to identify effects of prior music or synthesis experience on these results. Our results suggest that discrimination of abstract electronic timbres may rely on attributes distinct from those used with acoustic timbres. Further, the most salient attributes vary with expertise. However, the use of semantic descriptors is similar to that of acoustic instruments, and is consistent across expertise levels.},
+  title     = {Perceptual and semantic scaling of FM synthesis timbres: Common dimensions and the role of expertise},
+  booktitle = {16th International Conference on Music Perception and Cognition},
+  author    = {Hayes, Ben and and Saitis, Charalampos and Fazekas, George},
+  year      = {2021},
+  address   = {{Sheffield, UK}},
+  selected  = {false},
+  pdf       = {hayes_perceptual_2021.pdf}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{hayes_perceptual_2020,
+  abbr      = {DMRN},
+  abstract  = {Many neural audio synthesis models learn a representational space which can be used for control or exploration of the sounds generated. It is unclear what relationship exists between this space and human perception of these sounds. In this work, we compute configurational similarity metrics between an embedding space learned by a neural audio synthesis model and conventional perceptual and seman- tic timbre spaces. These spaces are computed using abstract synthesised sounds. We find significant similarities between these spaces, suggesting a shared organisational influence.},
+  title     = {Perceptual {{Similarities}} in {{Neural Timbre Embeddings}}},
+  booktitle = {{{DMRN}}+15: {{Digital Music Research Network One}}-Day {{Workshop}} 2020},
+  author    = {Hayes, Ben and Brosnahan, Luke and Saitis, Charalampos and Fazekas, George},
+  year      = {2020},
+  address   = {{London, UK}},
+  selected  = {false},
+  pdf       = {hayes_perceptual_2020.pdf}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{hayes_theres_2020,
+  abbr      = {Timbre},
+  abstract  = {Much previous research into timbre semantics (such as when an oboe is described as “hollow”) has focused on sounds produced by acoustic instruments, particularly those associated with western tonal music (Saitis & Weinzierl, 2019). Many synthesisers are capable of producing sounds outside the timbral range of physical instruments, but which are still discriminable by their timbre. Research into the perception of such sounds, therefore, may help elucidate further the mechanisms underpinning our experience of timbre in the broader sense. In this paper, we present a novel paradigm on the application of semantic descriptors to sounds produced by experienced sound designers using an FM synthesiser with a full set of controls.},
+  title     = {There's More to Timbre than Musical Instruments: Semantic Dimensions of {{FM}} Sounds},
+  booktitle = {Proceedings of the 2nd {{International Conference}} on {{Timbre}}},
+  author    = {Hayes, Ben and Saitis, Charalampos},
+  year      = {2020},
+  address   = {{Thessaloniki, Greece (Online)}},
+  selected  = {false},
+  pdf       = {hayes_theres_2020.pdf}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{zacharakis_evidence_2020,
+  abbr      = {Timbre},
+  abstract  = {Research on timbre perception is typically conducted under controlled laboratory conditions where every effort is made to maintain stimulus presentation conditions fixed (McAdams, 2019). This conforms with the ANSI (1973) definition of timbre suggesting that in order to judge the timbre differences between a pair of sounds the rest perceptual attributes (i.e., pitch, duration and loudness) should remain unchanged. Therefore, especially in pairwise dissimilarity studies, particular care is taken to ensure that loudness is not used by participants as a criterion for judgements by equalising it across experimental stimuli. On the other hand, conducting online experiments is an increasingly favoured practice in the music perception and cognition field as targeting relevant communities can potentially provide a large number of suitable participants with relatively little time investment from the side of the experimenters (e.g., Woods et al., 2015). However, the strict requirements for stimuli preparation and presentation prevents timbre studies from conducting online experimentation. Despite the obvious difficulties in imposing equal loudness on online experiments, the different playback equipment chain (DACs, pre-amplifiers, headphones) will also almost inevitably ‘colour’ the sonic outcome in a different way. Despite the above limitations, in a social distancing time like this, it would be of major importance to be able to lift some of the physical requirements in order to carry on conducting behavioural research on timbre perception. Therefore, this study aims to investigate the extent to which an uncontrolled online replication of a past laboratory-conducted pairwise dissimilarity task will distort the findings.},
+  title     = {Evidence for Timbre Space Robustness to an Uncontrolled Online Stimulus Presentation},
+  booktitle = {Proceedings of the 2nd {{International Conference}} on {{Timbre}}},
+  author    = {Zacharakis, Asterios and Hayes, Ben and Saitis, Charalampos and Pastiadis, Konstantinos},
+  year      = {2020},
+  address   = {{Thessaloniki, Greece (Online)}},
+  selected  = {false},
+  pdf       = {zacharakis_evidence_2020.pdf}
 }

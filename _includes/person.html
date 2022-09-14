@@ -1,0 +1,55 @@
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  {% if person.redirect -%}
+    <a href="{{ person.redirect }}">
+  {%- else -%}
+    <a href="{{ person.url | relative_url }}">
+  {%- endif %}
+  <div class="card hoverable">
+    {%- if person.avatar %}
+    {%- assign profile_image_class = "person-img" -%}
+      {%- include figure.html
+        path=person.avatar
+        class=profile_image_class
+        alt=person.name
+      -%}
+    {%- endif %}
+    <div class="card-body">
+      <h2 class="card-title ">{{ person.name }}</h2>
+      <p class="card-text">{{ person.position }}</p>
+      <div class="row ml-1 mr-1 p-0">
+        {%- if person.email -%}
+        <div class="email-icon icon-item">
+          <div class="icon" data-toggle="tooltip" title="Email">
+            <a href="mailto:{{ person.email }}"><i class="fas fa-envelope fa-xl"></i></a>
+          </div>
+        </div>
+        {%- endif %}
+        {%- if person.twitter -%}
+        <div class="email-icon icon-item">
+          <div class="icon" data-toggle="tooltip" title="Twitter">
+            <a href="{{ person.twitter }}"><i class="fab fa-twitter fa-xl"></i></a>
+          </div>
+        </div>
+        {%- endif %}
+        {%- if person.scholar -%}
+        <div class="email-icon icon-item">
+          <div class="icon" data-toggle="tooltip" title="Twitter">
+            <a href="{{ person.scholar }}"><i class="fas fa-graduation-cap fa-xl"></i></a>
+          </div>
+        </div>
+        {%- endif %}
+        {%- if person.github -%}
+        <div class="github-icon icon-item">
+          <div class="icon" data-toggle="tooltip" title="GitHub">
+            <a href="{{ person.github }}"><i class="fab fa-github gh-icon fa-xl"></i></a>
+          </div>
+        </div>
+        {%- endif %}
+      </div>
+      <p class="card-text">{{ person.research-interests }}</p>
+    </div>
+  </div>
+    </a>
+</div>

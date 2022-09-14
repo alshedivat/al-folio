@@ -2,24 +2,35 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: # Centre for Digital Music, Queen Mary University of London
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: # qmul.jpeg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: #>
+    #<p>Queen Mary University of London</p>
+    #<p>Mile End Road</p>
+    #<p>London E1 4NS</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+The **Communication Acoustics Lab (COMMA)** is part of the [Centre for Digital Music](http://c4dm.eecs.qmul.ac.uk/) (C4DM) at [Queen Mary University of London](https://www.qmul.ac.uk/), conducting cutting edge research into the ways people perceive sound and technologies for improving communication.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+We work across disciplines of music, engineering, psychology, and cognitive science to study audio communication between humans and between humans and machines.
+  
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Our research themes include:
+
+* Perception, cognition, and aesthetics of sound
+* Cross-sensory perception involving sound
+* Enabling digital audio systems with an understanding of how we listen
+* Modelling human values (and biases) with multimodal music data
+* Digital tools for education, outreach, and research 
+
+Founded in 2021, COMMA is led by Charalampos Saitis. Members and collaborators come from across C4DM and the Schools of EECS, SEMS, and SMS, including PhD students on the [Artificial Intelligence & Music](http://aim.qmul.ac.uk/) (AIM), [Data-informed Audience-centric Media Engineering](https://dame.qmul.ac.uk/) (DAME), and [China Scholarship Council](https://www.qmul.ac.uk/scholarships/items/china-scholarship-council-scholarships.html) (QMUL-CSC) programmes.
+
+The lab has received funding from the [British Academy](https://www.thebritishacademy.ac.uk/), [SSHRC-ACTOR](https://www.actorproject.org/), and [QMUL's Centre for Public Engagement](https://www.qmul.ac.uk/publicengagement/about-engagement/centre-for-public-engagement/).

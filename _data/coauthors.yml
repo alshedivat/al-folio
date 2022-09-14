@@ -1,3 +1,15 @@
+"Saitis":
+  - firstname: ["Charis", "C.", "Charalampos"]
+    url: https://twitter.com/noindent?lang=en
+
+"Fazekas":
+  - firstname: ["George", "G.", "Gyorgy", "György"]
+    url: http://www.eecs.qmul.ac.uk/~gyorgyf/index.html
+
+"Zacharakis":
+  - firstname: ["Asterios", "A.", "Asteris"]
+    url: https://asteriszacharakis.wixsite.com/science
+
 "Adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
@@ -10,7 +22,7 @@
   - firstname: ["Nathan", "N."]
     url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-"Bach": 
+"Bach":
   - firstname: ["Johann Sebastian", "J. S."]
     url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
