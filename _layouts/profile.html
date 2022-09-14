@@ -1,0 +1,90 @@
+---
+layout: default
+---
+<!-- profile.html -->
+      <div class="post">
+        <header class="post-header">
+          <h1 class="post-title"><span class="font-weight-bold">{{ page.name }}</span></h1>
+          <!-- <h1 class="post-title">
+           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+          </h1> -->
+          <p class="desc text-muted">{{ page.position }}</p>
+        </header>
+
+        <article>
+          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+            {%- assign profile_image_path = page.avatar -%}
+
+            {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+
+              {% include figure.html 
+              path=profile_image_path 
+              class=profile_image_class
+              alt=page.profile.image -%}
+            <div class="address">
+              <!-- Education here -->
+            </div>
+          </div>
+
+          <div class="clearfix">
+            {{ content }}
+          </div>
+          
+
+          {% if page.education -%}
+          <div class="education">
+            <h2>Education</h2>
+            <ul class="fa-ul">
+              {% for course in page.education.courses %}
+              <li>
+                <span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
+                <span class="font-weight-bold" style="display: inline-block; width: 24pt">{{ course.level}}</span><span style="margin-left: 20px">{{ course.course }}</span>
+                <span class="text-muted">({{ course.year }})</span>
+                <br>
+                <span class="text-muted">{{ course.institution }}</span>
+              </li>
+              {% endfor %}
+
+            </ul>
+          </div>
+          {%- endif %}
+
+          <div style="text-align: center">
+            {% if page.email -%}
+            <a href="mailto:{{ page.email }}"><i class="fas fa-envelope fa-2x"></i></a>
+            {%- endif %}
+            {% if page.github -%}
+            <a href="{{ page.github }}"><i class="fab fa-github fa-2x"></i></a>
+            {%- endif %}
+            {% if page.scholar -%}
+            <a href="{{ page.scholar }}"><i class="fas fa-graduation-cap fa-2x"></i></a>
+            {%- endif %}
+            {% if page.twitter -%}
+            <a href="{{ page.twitter }}"><i class="fab fa-twitter fa-2x"></i></a>
+            {%- endif %}
+          </div>
+
+          {% if page.news -%}
+          <!-- News -->
+          {%- include news.html %}
+          {%- endif %}
+          {% if page.selected_papers -%}
+            <!-- Selected papers -->
+            {%- include selected_papers.html %}
+          {%- endif %}
+          {%- if page.social %}
+          <!-- Social -->
+          <div class="social">
+            <div class="contact-icons">
+            {% include social.html %}
+            </div>
+
+            <div class="contact-note">
+              {{ site.contact_note }}
+            </div>
+            
+          </div>
+          {%- endif %}
+        </article>
+
+</div>

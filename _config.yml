@@ -136,7 +136,7 @@ collections:
   people:
     output: true
     defaults:
-      layout: about
+      layout: profile
     permalink: /people/:path/
   news:
     defaults:
