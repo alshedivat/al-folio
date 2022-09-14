@@ -25,7 +25,7 @@
   abstract  = {We present the Neural Waveshaping Unit (NEWT): a novel, lightweight, fully causal approach to neural audio synthesis which operates directly in the waveform domain, with an accompanying optimisation (FastNEWT) for efficient CPU inference. The NEWT uses time-distributed multilayer perceptrons with periodic activations to implicitly learn nonlinear transfer functions that encode the characteristics of a target timbre. Once trained, a NEWT can produce complex timbral evolutions by simple affine transformations of its input and output signals. We paired the NEWT with a differentiable noise synthesiser and reverb and found it capable of generating realistic musical instrument performances with only 260k total model parameters, conditioned on F0 and loudness features. We compared our method to state-of-the-art benchmarks with a multi-stimulus listening test and the Fréchet Audio Distance and found it performed competitively across the tested timbral domains. Our method significantly outperformed the benchmarks in terms of generation speed, and achieved real-time performance on a consumer CPU, both with and without FastNEWT, suggesting it is a viable basis for future creative sound design tools.},
   title     = {Neural Waveshaping Synthesis},
   booktitle = {Proceedings of the 22nd International Society for Music Information Retrieval Conference},
-  author    = {Hayes, Ben and and Saitis, Charalampos and Fazekas, George},
+  author    = {Hayes, Ben and and Saitis, Charalampos and Fazekas, Gy{\"o}rgy},
   year      = {2021},
   address   = {{Online}},
   selected  = {true},
@@ -37,7 +37,7 @@
   abstract  = {Electronic sound has a rich history, yet timbre research has typically focused on the sounds of physical instruments, while synthesised sound is often relegated to functional roles like recreating acoustic timbres. Studying the perception of synthesised sound can broaden our conception of timbre and improve musical synthesis tools. We aimed to identify the perceptually salient acoustic attributes of sounds produced by frequency modulation synthesis. We also aimed to test Zacharakis et al’s luminance-texture-mass timbre semantic model [Music Perception, 31, 339–358 (2014)] in this domain. Finally, we aimed to identify effects of prior music or synthesis experience on these results. Our results suggest that discrimination of abstract electronic timbres may rely on attributes distinct from those used with acoustic timbres. Further, the most salient attributes vary with expertise. However, the use of semantic descriptors is similar to that of acoustic instruments, and is consistent across expertise levels.},
   title     = {Perceptual and semantic scaling of FM synthesis timbres: Common dimensions and the role of expertise},
   booktitle = {16th International Conference on Music Perception and Cognition},
-  author    = {Hayes, Ben and and Saitis, Charalampos and Fazekas, George},
+  author    = {Hayes, Ben and and Saitis, Charalampos and Fazekas, Gy{\"o}rgy},
   year      = {2021},
   address   = {{Sheffield, UK}},
   selected  = {false},
@@ -49,7 +49,7 @@
   abstract  = {Many neural audio synthesis models learn a representational space which can be used for control or exploration of the sounds generated. It is unclear what relationship exists between this space and human perception of these sounds. In this work, we compute configurational similarity metrics between an embedding space learned by a neural audio synthesis model and conventional perceptual and seman- tic timbre spaces. These spaces are computed using abstract synthesised sounds. We find significant similarities between these spaces, suggesting a shared organisational influence.},
   title     = {Perceptual {{Similarities}} in {{Neural Timbre Embeddings}}},
   booktitle = {{{DMRN}}+15: {{Digital Music Research Network One}}-Day {{Workshop}} 2020},
-  author    = {Hayes, Ben and Brosnahan, Luke and Saitis, Charalampos and Fazekas, George},
+  author    = {Hayes, Ben and Brosnahan, Luke and Saitis, Charalampos and Fazekas, Gy{\"o}rgy},
   year      = {2020},
   address   = {{London, UK}},
   selected  = {false},
@@ -96,7 +96,7 @@
 }
 
 @incollection{Timbre_chapter1,
-  abbr 	= {tBOOK},
+  abbr 	= {Chapter},
   abstract = {Timbre is a foundational aspect of hearing. The remarkable ability of humans to recognize sound sources and events (e.g., glass breaking, a friend’s voice, a tone from a piano) stems primarily from a capacity to perceive and process differences in the timbre of sounds. Roughly defined, timbre is thought of as any property other than pitch, duration, and loudness that allows two sounds to be distinguished. Current research unfolds along three main fronts: (1) principal perceptual and cognitive processes; (2) the role of timbre in human voice perception, perception through cochlear implants, music perception, sound quality, and sound design; and (3) computational acoustic modeling. Along these three scientific fronts, significant breakthroughs have been achieved during the decade prior to the production of this volume. Bringing together leading experts from around the world, this volume provides a joint forum for novel insights and the first comprehensive modern account of research topics and methods on the perception, cognition, and acoustic modeling of timbre. This chapter provides background information and a roadmap for the volume.},
   author = {Siedenburg, Kai and Saitis, Charalampos and McAdams, Stephen},
   booktitle = {Timbre: Acoustics, perception, and cognition},
@@ -106,5 +106,56 @@
   year = {2019},
   selected  = {false},
   pdf = {Timbre_chapter1.pdf}
+}
+
+@inproceedings{IJCNN_2021_Accepted,
+  abbr={IJCNN},
+  abstract = {Convolutional Neural Networks have been extensively explored in the task of automatic music tagging. The problem can be approached by using either engineered time-frequency features or raw audio as input. Modulation filter bank representations that have been actively researched as a basis for timbre perception have the potential to facilitate the extraction of perceptually salient features. We explore end-to-end learned front-ends for audio representation learning, ModNet and SincModNet, that incorporate a temporal modulation processing block. The structure is effectively analogous to a modulation filter bank, where the FIR filter center frequencies are learned in a data-driven manner. The expectation is that a perceptually motivated filter bank can provide a useful representation for identifying music features. Our experimental results provide a fully visualisable and interpretable front-end temporal modulation decomposition of raw audio. We evaluate the performance of our model against the state-of-the-art of music tagging on the MagnaTagATune dataset. We analyse the impact on performance for particular tags when time-frequency bands are subsampled by the modulation filters at a progressively reduced rate. We demonstrate that modulation filtering provides promising results for music tagging and feature representation, without using extensive musical domain knowledge in the design of this frontend.},
+  title={A Modulation Front-End for Music Audio Tagging},
+  author={Vahidi, Cyrus and Saitis, Charalampos and Fazekas, Gy{\"o}rgy},
+  booktitle={2021 International Joint Conference on Neural Networks},
+  pages={1--7},
+  year={2021},
+  publisher={IEEE},
+  selected={false},
+  pdf = {IJCNN_2021_Accepted.pdf}
+}
+
+@inproceedings{Alejandro_AES151,
+  abbr = {AES},
+  abstract = {Vocal Percussion Transcription (VPT) aims at detecting vocal percussion sound events in a beatboxing performance and classifying them into the correct drum instrument class (kick, snare, or hi-hat). To do this in an online (real-time) setting, however, algorithms are forced to classify these events within just a few milliseconds after they are detected. The purpose of this study was to investigate which phoneme-to-instrument mappings are the most robust for online transcription purposes. We used three different evaluation criteria to base our decision upon: frequency of use of phonemes among different performers, spectral similarity to reference drum sounds, and classification separability. With these criteria applied, the recommended mappings would potentially feel natural for performers to articulate while enabling the classification algorithms to achieve the best performance possible. Given the final results, we provided a detailed discussion on which phonemes to choose given different contexts and applications.},
+  title = {Phoneme Mappings for Online Vocal Percussion Transcription},
+  author = {Alejandro, Delgado and Saitis, Charalampos and Sandler, Mark},
+  booktitle = {Audio Engineering Society Convention 151},
+  year = {2021},
+  publisher = {Audio Engineering Society},
+  selected = {false},
+  pdf = {Alejandro_AES151.pdf}
+}
+
+@inproceedings{Lam_NIME21,
+  abbr={NIME},
+  abstract = {When two sounds are played at the same loudness, pitch, and duration, what sets them apart are their timbres. This study documents the design and implementation of the Timbre Explorer, a synthesizer interface based on efforts to dimensionalize this perceptual concept. The resulting prototype controls four perceptually salient dimensions of timbre in real-time: attack time, brightness, spectral flux, and spectral density. A graphical user interface supports user understanding with live visualizations of the effects of each dimension. The applications of this interface are three-fold; further perceptual timbre studies, usage as a practical shortcut for synthesizers, and educating users about the frequency domain, sound synthesis, and the concept of timbre. The project has since been expanded to a standalone version independent of a computer and a purely online web-audio version.},
+  title={The Timbre Explorer: A Synthesizer Interface for Educational Purposes and Perceptual Studies},
+  author={Lam, Joshua Ryan and Saitis, Charalampos},
+  booktitle={The International Conference on New Interfaces for Musical Expression},
+  year={2021},
+  organization={PubPub},
+  selected  = {false},
+  pdf = {Lam_NIME21.pdf}
+}
+
+@incollection{Saitis_chap5,
+  abbr = {Chapter},
+  abstract = {Because humans lack a sensory vocabulary for auditory experiences, timbral qualities of sounds are often conceptualized and communicated through readily available sensory attributes from different modalities (e.g., bright, warm, sweet) but also through the use of onomatopoeic attributes (e.g., ringing, buzzing, shrill) or nonsensory attributes relating to abstract constructs (e.g., rich, complex, harsh). The analysis of the linguistic description of timbre, or timbre semantics, can be considered as one way to study its perceptual representation empirically. In the most commonly adopted approach, timbre is considered as a set of verbally defined perceptual attributes that represent the dimensions of a semantic timbre space. Previous studies have identified three salient semantic dimensions for timbre along with related acoustic properties. Comparisons with similarity-based multidimensional models confirm the strong link between perceiving timbre and talking about it. Still, the cognitive and neural mechanisms of timbre semantics remain largely unknown and underexplored, especially when one looks beyond the case of acoustic musical instruments.},
+  address = {Cham},
+  author = {Saitis, Charalampos and Weinzierl, Stefan},
+  booktitle = {{Timbre: Acoustics, Perception, and Cognition}},
+  pages = {119--149},
+  publisher = {Springer},
+  title = {The Semantics of Timbre},
+  year = {2019},
+  selected={false},
+  pdf = {Saitis_chap5.pdf}
 }
 
