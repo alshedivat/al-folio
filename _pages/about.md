@@ -13,7 +13,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm PhD Student at MIT. My current research interest lies in developing a safe and flexible machine learning framework.
+I'm PhD Student at <a href="https://lids.mit.edu/people/faculty-pi">MIT LIDS</a>, advised by <a href="https://azizan.mit.edu/index.html">Prof. Navid Azizan</a>. My current research interest lies in developing a safe and flexible machine learning framework.
 
 I was an AI research engineer at <a href="https://naver-career.gitbook.io/en/teams/clova-cic">NAVER AI Lab & CLOVA</a>.
 At NAVER, I researched <strong>generalizable representation learning</strong> for temporal and relational data, while developing a large-scale recommender system and demand forecasting system.
