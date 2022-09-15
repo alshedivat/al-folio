@@ -6,7 +6,7 @@ description: Find out more about the members of COMMA Lab.
 nav: true
 nav_order: 2
 display_categories: [people]
-horizontal: true
+horizontal: false
 ---
 
 <!-- pages/projects.md -->
