@@ -7,7 +7,7 @@ description: <sup>*</sup>authors contributed equally. <br> <br>
   <a href=graph>#Graph representation learning</a>
   <a href=latent>#Probabilistic LVMs</a>
   <a href=sensor>#Sensors</a>
-years: [2021, 2020, 2019, 2018, 2017, 2016]
+years: [2022, 2021, 2020, 2019, 2018, 2017, 2016]
 nav: true
 ---
 
