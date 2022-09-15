@@ -34,7 +34,7 @@ My goal, therefore, is to develop computational frameworks that enable existing 
 * LIRA: Learnable, Imperceptible and Robust Backdoor Attacks (*ICCV* 2021 by Doan et al.)
 * Backdoor Attacks for Vision Transformers   (*Under Submission* 2022 by Doan et al.)
 * Adversarial Defenses for Vision Transformers   (*Under Submission* 2022 by Peng et al.)
-* Backdoor Attacks with Any Target (*Under Preparation* 2022 by Doan et al.)
+* Marksman Backdoor: Backdoor Attacks with Arbitrary Target Class (*NeurIPS* 2022 by Doan et al.)
 
 <h1 class="post-title">{{ "Professional Service"}}</h1><a name="services"></a>
 
@@ -65,4 +65,4 @@ My goal, therefore, is to develop computational frameworks that enable existing 
 
 <b>{{ "Service Awards:" }}</b>
 
-* 2021: **CVPR** (Outstanding Reviewer) 
+* 2021: **CVPR** (Outstanding Reviewer)
