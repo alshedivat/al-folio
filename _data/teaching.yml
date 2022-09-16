@@ -1,16 +1,22 @@
 - title: Current Teaching Assistantship Positions
   type: time_table
   contents:
+    - title: <a href="#">CMPSC 130A - Data Structures and Graph Algorithms</a>
+      institution: UC Santa Barbara, Instructor - <a href="https://sites.cs.ucsb.edu/~vigoda/">Prof. Eric Vigoda</a>
+      year: Fall 2022
+      description:
+        - TODO - Finish This
+        - Other responsibilities - grading, hosting office hours, and discussion sessions.
+
+- title: Previous Teaching Assistantship Positions
+  type: time_table
+  contents:
     - title: <a href="https://ucsb-csw8.github.io/m22-ykk/">CMPSCW 8 - Introduction to Computer Science</a>
       institution: UC Santa Barbara, Instructor - <a href="http://yekaterina.info/">Prof. Yekaterina(Kate) Kharitonova</a>
       year: Summer B 2022
       description:
         - <strong>Lead TA</strong>. Also handled the class forum on Piazza. Designed final project.
         - Other responsibilities - grading, hosting office hours, classroom sessions, and lab sessions.
-
-- title: Previous Teaching Assistantship Positions
-  type: time_table
-  contents:
     - title: <a href="https://ucsb-csw8.github.io/m22-shereen/">CMPSCW 8 - Introduction to Computer Science</a>
       institution: UC Santa Barbara, Instructor - Shereen Elsayed
       year: Summer A 2022
