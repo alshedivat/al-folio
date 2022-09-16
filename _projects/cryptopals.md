@@ -1,6 +1,7 @@
 ---
 layout: page
 title: project 5
+project_page: true
 description: a project with a background image
 img: assets/img/Cryptopals_Cover.jpg
 importance: 3

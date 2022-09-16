@@ -1,6 +1,7 @@
 ---
 layout: page
 title: project 6
+project_page: true
 description: a project with no image
 img: assets/img/Descartes_Cover.png
 importance: 4

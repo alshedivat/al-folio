@@ -1,6 +1,7 @@
 ---
 layout: page
 title: project 3
+project_page: true
 description: a project that redirects to another website
 img: assets/img/CS293C_Final_Cover.webp
 importance: 3

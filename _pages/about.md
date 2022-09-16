@@ -20,7 +20,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 Hello There!
 I am Saikumar Yadugiri.
 You can call me Sai.
-I am a first-year master's degree student in the [computer science department](https://www.cs.ucsb.edu) at the University of California, Santa Barbara.
+I am a second-year master's degree student in the [computer science department](https://www.cs.ucsb.edu) at the University of California, Santa Barbara.
 I am currently advised by [Prof. Prabhanjan Ananth](https://sites.google.com/site/prabhanjanva) for my thesis requirements.
 We are currently working on improving the efficiency of functional encryption in both single and multi input settings for various privacy critical scenarios.
 I am broadly interested in the theoretical aspects of classical and (post-)quantum cryptography.

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Blockchain For Business Networks
+project_page: true
 description: Undergraduate Thesis
 img: assets/img/Thesis_Cover.jpg
 importance: 1

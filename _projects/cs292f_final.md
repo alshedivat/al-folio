@@ -1,6 +1,7 @@
 ---
 layout: page
 title: project 4
+project_page: true
 description: another without an image
 img: assets/img/CS292F_Final_Cover.png
 importance: 3

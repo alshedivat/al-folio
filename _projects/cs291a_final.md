@@ -1,6 +1,7 @@
 ---
 layout: page
 title: project 2
+project_page: true
 description: a project with a background image
 img: assets/img/CS291A_Final_Cover.png
 importance: 2
