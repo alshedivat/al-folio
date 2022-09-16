@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /contact/
-title: contact
+title: Contact us
 description: Want to get in touch?
 nav: true
 nav_order: 4
