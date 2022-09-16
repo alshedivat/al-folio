@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 
 Greetings!
 
-My name is Zheyuan Zhang (张喆元 in chinese). You can call me Brian. I am an incoming Robotics MS student in the [Robotics Institute](https://robotics.umich.edu/) at the [University of Michigan](https://umich.edu/). Prior to U of M, I received my undergraduate degree in Computer Science (B.S.) from [UMass Amherst](https://www.umass.edu/), [College of Information & Computer Sciences](https://www.cics.umass.edu/).
+My name is Zheyuan Zhang (张喆元 in chinese). You can call me Brian. I am a Robotics MS student in the [Robotics Institute](https://robotics.umich.edu/) at the [University of Michigan](https://umich.edu/). Prior to U of M, I received my undergraduate degree in Computer Science (B.S.) from [UMass Amherst](https://www.umass.edu/), [College of Information & Computer Sciences](https://www.cics.umass.edu/).
 
 Click to view my latest [Curriculum Vitae](assets/cv.pdf).
 
