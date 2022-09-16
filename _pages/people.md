@@ -6,11 +6,11 @@ description:
 nav: true
 nav_order: 2
 display_categories: [people]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
-<div class="projects">
+<div class="projects_horizontal">
 
 <!-- Display projects without categories -->
   <!-- Generate cards for each project -->
