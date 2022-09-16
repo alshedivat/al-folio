@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: # Centre for Digital Music, Queen Mary University of London
 

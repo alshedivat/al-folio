@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: Publications from COMMA Lab members
+title: Publications
+description:
 years: [2022, 2021, 2020, 2019]
 nav: true
 nav_order: 1
