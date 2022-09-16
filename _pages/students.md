@@ -17,10 +17,13 @@ Thank you for your interest, best of luck.
 
 ___
 
-## useful resources for students
+## useful resources for (prospective) students
 
 Under construction.
 
+* [A doc with advice elated to graduate school application](https://docs.google.com/document/d/1et1FK4_GlAZrxd7JoPzfqcLAZh_9sOm7HMov_hDGo98/preview?pli=1) (I wrote as a graduate student at UCB, but it generally applies to any research university).
+* [A curated list of application resources for prospective graduate students in Computer Science](https://github.com/chinasaokolo/csGraduateApps).
+* [A repository with advice related to graduate school application, research, and PhD related to (mostly) CS, NLP, and ML](https://github.com/shaily99/advice).
 * [Non-Technical Talks by David Patterson, UC Berkeley](https://people.eecs.berkeley.edu/~pattrsn/talks/nontech.html).
 * ...
 
