@@ -1,8 +1,8 @@
 ---
 layout: page
-title: people
+title: People
 permalink: /people/
-description: Find out more about the members of COMMA Lab.
+description:
 nav: true
 nav_order: 2
 display_categories: [people]
