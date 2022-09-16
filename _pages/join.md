@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /join-us/
-title: Joining the lab
+title: Join
 description: 
 nav: true
 nav_order: 3
