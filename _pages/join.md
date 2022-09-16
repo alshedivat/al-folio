@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /join-us/
-title: join
-description: Interested in joining us?
+title: Joining the lab
+description: 
 nav: true
 nav_order: 3
 ---
@@ -15,15 +15,15 @@ We are part of the world-leading [Centre for Digital Music](http://c4dm.eecs.qmu
 If you are interested in joining us, please reach out with a CV and short proposal. Projects should address psychologically or technologically relevant questions in communication acoustics, digital music, or [social interaction](https://www.qmul.ac.uk/research/faculties-and-research-centres/science-and-engineering/social-interaction-health-and-wellbeing/).   
 
 
-## Postdocs
+### Postdocs
 
 Postdoctoral research positions will be listed here as they become available.
 
-## PhD research
+### PhD research
 
 PhD funding is currently available through the [Centre for Doctoral Training in Artificial Intelligence and Music](https://aim.qmul.ac.uk/).
 
-## Masters students
+### Masters students
 
 There are a number of masters level programmes at the School of EECS relevant to our lab's work. If you are interested in conducting your masters research under the supervision of a COMMA member, please reach out by email.
 
