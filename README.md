@@ -15,7 +15,7 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/amirpourmand/al-folio)](https://hub.docker.com/r/amirpourmand/al-folio)
 [![Image Size](https://img.shields.io/docker/image-size/amirpourmand/al-folio?sort=date)](https://hub.docker.com/r/amirpourmand/al-folio)
-[![Image Size](https://img.shields.io/docker/v/amirpourmand/al-folio?sort=semver&label=docker%20image)](https://hub.docker.com/r/amirpourmand/al-folio)
+[![Docker Image Version](https://img.shields.io/docker/v/amirpourmand/al-folio?sort=semver&label=docker%20image)](https://hub.docker.com/r/amirpourmand/al-folio)
 
 A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.
 If you like the theme, give it a star!
