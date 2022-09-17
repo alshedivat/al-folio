@@ -1,6 +1,6 @@
-# Ravinithesh's comment
+Personal Website at https://ravinitheshreddy.github.io/
 
-Personal Website and left readme as it is
+***
 
 # al-folio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
