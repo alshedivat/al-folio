@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Una tesi per la sicurezza nazionale
+title: Received "Una tesi per la sicurezza nazionale" award
 date: 2020-01-22 00:00:00-0000
 inline: true
 ---

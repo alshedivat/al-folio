@@ -1,6 +1,5 @@
 ---
 layout: post
-title: Featured on Corriere della Sera
 date: 2022-03-22 00:00:00-0000
 inline: false
 ---

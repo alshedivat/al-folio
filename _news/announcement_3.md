@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SocCom Quant Summer School
+title: Attended SocCom Quant Summer School
 date: 2022-07-29 00:00:00-0000
 inline: false
 ---
