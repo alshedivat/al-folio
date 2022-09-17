@@ -1,82 +1,64 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+@article{Annapureddy:295221,
+  abbr     = {Master Thesis},
+  title    = {Searching for visual patterns in a children's drawings  collection},
+  author   = {Annapureddy, Ravinithesh},
+  year     = {2022},
+  abstract = {The success of large-scale digitization projects at  museums, archives, and libraries is pushing other cultural  institutions to embrace digitization to preserve their  collections. By juxtaposing digital tools with digitized  collections, it is now possible to study these cultural  objects at a previously unknown scale. This thesis is the  first attempt to explore a recently digitized children's  drawings collection while developing a system to identify  patterns in them linked with popular cultural objects.  Artists, as young as three and as old as 25, created nearly  90,000 drawings in the span of three decades from most  countries in the world. The preliminary examination unveils  that these drawings mirror a solid cultural ethos by using  specific iconographic subjects, objects, and colors, and  the distinction between children of different parts of the  globe is visible in their works. These factors not only  make the dataset distinct from other sketch datasets but  place it distantly from them in terms of size and  multifariousness of creations and the creators. The  essential and another dimension of the project is matching  the drawings and the popular cultural objects they  represent. A deep learning model that learns a metric to  rank the visual similarity between the images is used to  identify the drawing-artwork pairs. Though the networks  developed for image classification perform inadequately for  the matching task, networks used for pattern matching in  paintings show good performance. Fine-tuning the models  increases the performance drastically. The primary outcomes  of this work are (1) systems trained with a few  methodically chosen examples perform comparably to the  systems trained on thousands of generic samples and (2)  using drawings enriched by adding generic effects of  watercolor, oil painting, pencil sketch, and texturizing  mitigates the situation of network learning examples by  heart.},
+  html     = {http://infoscience.epfl.ch/record/295221}
+}
+@inproceedings{8628664,
+  abbr      = {SSCI},
+  author    = {Annapureddy, Ravinithesh and Bhattacharya, Arya K. and M, Niranjan Reddy},
+  booktitle = {2018 IEEE Symposium Series on Computational Intelligence (SSCI)},
+  title     = {Adaptive Critic Design for Extreme Learning Machines applied to noisy and drifting industrial processes},
+  year      = {2018},
+  abstract  = {Natural and manmade continuous-time dynamic systems are susceptible to adverse digressions, i.e. periods of rapid deterioration of performance. Conceptually, digressions of a given type are engendered when specific parameters of the system get into definitive combinatorial relationships. Machine Learning (ML) techniques can in principle identify in real time the acquisition (formation) of such relationships and release warnings that consequently command actions that can return the system to normality. Here a manufacturing system, namely the continuous casting process of steel making, is the object of study and both Artificial Neural Networks (ANNs) and Extreme Learning Machines (ELMs) have been shown to perform the above function. A specific characteristic of industrial systems isprocess drift; in such processes the drift is induced into the inter-parameter data relationship learnt by the ML mechanism and the latter has to adapt to the evolving relationship else lose out on accuracy. Adaptive-Critic techniques can function as enablers for the ML mechanism to adapt to this drift. In this work two such Adaptive-Critic techniques are developed, the first for ANNs and then for ELMs, which are demonstrated to work successfully for the industrial process of interest. Importantly, this is the first development in public domain of an Adaptive-Critic technique using ELMs for adaptation to industrial drift. The techniques are generic and amenable for drifting processes in any industrial environment.},
+  html      = {10.1109/SSCI.2018.8628664}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@article{REDDY201898,
+  abbr     = {ACODS},
+  title    = {Advance Predictions of critical digressions in a noisy industrial process- performance of Extreme Learning Machines versus Artificial Neural Networks},
+  journal  = {IFAC-PapersOnLine},
+  volume   = {51},
+  number   = {1},
+  pages    = {98-105},
+  year     = {2018},
+  note     = {5th IFAC Conference on Advances in Control and Optimization of Dynamical Systems ACODS 2018},
+  issn     = {2405-8963},
+  doi      = {https://doi.org/10.1016/j.ifacol.2018.05.017},
+  html     = {https://www.sciencedirect.com/science/article/pii/S2405896318301770},
+  author   = {Ravinithesh, Annapureddy and Arya K. Bhattacharya and G. Rishita},
+  keywords = {Continuous-time systems, adverse digressions, advance prediction, Internet of Things, Artificial Neural Networks, Adaptive Critic Systems, Extreme Learning Machines, Ensembles, Continuous Casting, breakout},
+  abstract = {Manmade continuous-time systems like vehicles, grids and industrial processes are susceptible to adverse digressions in performance which can result in losses to severe breakdowns. Traditionally, emergence of faults in systems was detected by algorithms based on specific sensory signals responding to the incipience of the fault. However, the fault itself is engendered by the fact that certain specific system state parameters acquire a specific combinatorial relationship preceding the fault, thus if the acquisition of this relationship can be detected immediately on formation, neutralization of the fault can be effected early - something particularly relevant to critical systems. The advent of the industrial IoT has made real time systemic data (state parameters) across a chain of processes available at computing platforms, and potentially enabled data-based algorithms - specifically Artificial Neural Networks - to predict such adverse digressions before actual initiation. However, most manmade systems are subject to drift, due to which ANNs trained on data acquired over a certain operational period lose accuracy going forward. Adaptive Critic systems are designed to enable ANNs to neutralize this drift effect, but these need frequent retraining hitting the constraint on computational time. Extreme Learning Machines have emerged as alternatives to ANNs with training times less by orders of magnitude, but their accuracy has to be tested against real noisy industrial data. This work investigates the accuracy of ELM performance versus that of ANNs for such data, and synthesizes ensembles of ELMs to provide accuracy at similar levels as ANNs. This facilitates the incorporation of ELM ensembles into Adaptive Critic frameworks for accurate pre-initiation prediction of faults and related control functions.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@inproceedings{8487562,
+  abbr      = {INDICON},
+  author    = {Gupta, Aditya and Manikumar, PLN and Ravinithesh and Bhattacharya, Arya K.},
+  booktitle = {2017 14th IEEE India Council International Conference (INDICON)},
+  title     = {Extreme Learning Machines with frequency based noise filtering for prediction of critical digressions in a noisy industrial process},
+  year      = {2017},
+  pages     = {1-6},
+  abstract  = {Many systems that are continuous in time are also susceptible to adverse digressions that can result in severe losses. Conventional algorithms tend to use signals from sensors and detect faults after incipience, consequent to which corrective measures can be taken for mitigation. From an alternate perspective, it may be visualized that when some of the state parameters of the system combine to form specific relationships, such adverse digressions are engendered. Therefore, identifying these combinatorial relationships immediately upon formation can help in mitigation of such adverse effects. The advent of IoT in industry helped bring real time data to computing platforms where Machine Learning techniques can potentially be developed to detect formation of such relationships. Traditional Neural Networks (NN) can be used as a Machine Learning tool, but they require lot of time for training, and moreover, because the industrial data comes with a significant noise component, further processing of the NN outputs are needed before they can be used for such prediction purposes. Extreme Learning Machines (ELM) require about two orders of magnitude less training time, but are even more susceptible to noise corruption than NN due to reasons discussed in this paper. In this work, a method is developed to first filter out noise from industrial sensory data in real time from its spectral content, and then its downstream use in ELMs designed in ensemble pattern is found to generate outputs for predicting adverse digressions that are at least as accurate as traditional neural networks but with significantly reduced training time.},
+  html      = {10.1109/INDICON.2017.8487562},
+  issn      = {2325-9418},
+  month     = {Dec}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{Rangu_2016,
+  abbr      = {IOP Science},
+  doi       = {10.1088/1742-6596/759/1/012044},
+  html      = {https://doi.org/10.1088/1742-6596/759/1/012044},
+  year      = 2016,
+  month     = {oct},
+  publisher = {{IOP} Publishing},
+  volume    = {759},
+  pages     = {012044},
+  author    = {Shashank Rangu and Kamireddy Sreekar and Ravinithesh Reddy Annapureddy and Kausik Basak and Murtaza Bohra and Dibakar Roy Chowdhury},
+  title     = {Magnetic Metamaterials: A comparative study of resonator geometry and metal conductivity},
+  journal   = {Journal of Physics: Conference Series},
+  abstract  = {In this work, split ring resonators based metamaterials are studied for microwave, terahertz and infrared frequency regimes. Two different geometries, circular and rectangular split ring resonators based metamaterials are investigated numerically for different frequency regimes. Our study indicates that the effect of metal conductivity and resonator geometry shows very little impact on the fundamental resonance mode. However the higher order modes go through significant frequency tuning because of the change in resonator geometry. We have further shown that the metal conductivity is an important parameter for the metamaterials employed in infrared domains.}
 }
