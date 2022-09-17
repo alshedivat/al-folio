@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
-inline: true
+title: SocCom Quant Summer School
+date: 2022-07-29 00:00:00-0000
+inline: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Attended [SocCom Quant Summer School 2022](https://socialcomquant.ku.edu.tr/summer-school-2022/) at Koç University.
