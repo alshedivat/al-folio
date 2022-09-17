@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: 
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: 
 horizontal: false
 ---
 
@@ -22,14 +22,18 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
+      {% if project.include -%}
+        {% include projects_horizontal.html %}
+      {%- endif -%}  
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for project in sorted_projects -%}
-      {% include projects.html %}
+      {% if project.include -%}
+        {% include projects.html %}
+      {%- endif -%}
     {%- endfor %}
   </div>
   {%- endif -%}
@@ -43,14 +47,18 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
+      {% if project.include -%}
+        {% include projects_horizontal.html %}
+      {%- endif -%}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for project in sorted_projects -%}
-      {% include projects.html %}
+      {% if project.include -%}
+        {% include projects.html %}
+      {%- endif -%}
     {%- endfor %}
   </div>
   {%- endif -%}
