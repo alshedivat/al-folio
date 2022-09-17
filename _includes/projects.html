@@ -9,11 +9,11 @@
       <div class="card hoverable">
         {%- if project.img %}
         {%- include figure.html
-          path=project.img
-          alt="project thumbnail" -%}
+        path=project.img
+        alt="project thumbnail" -%}
         {%- endif %}
         <div class="card-body">
-          <h2 class="card-title text-lowercase">{{ project.title }}</h2>
+          <h4 class="card-title text-capitalize">{{ project.title }}</h4>
           <p class="card-text">{{ project.description }}</p>
           <div class="row ml-1 mr-1 p-0">
             {%- if project.github -%}
@@ -27,6 +27,22 @@
                 <span id="{{ project.github_stars }}-stars"></span>
               </span>
               {%- endif %}
+            </div>
+            {%- endif %}
+
+            {%- if project.report -%}
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Report">
+                <a style="padding-left:15px;" href="{{ project.report }}"><i class="fas fa-file-pdf"></i></a>
+              </div>
+            </div>
+            {%- endif %}
+
+            {%- if project.website -%}
+            <div class="chrome-icon">
+              <div class="icon" data-toggle="tooltip" title="Website">
+                <a style="padding-left:15px;" href="{{ project.website }}"><i class="fab fa-chrome"></i></a>
+              </div>
             </div>
             {%- endif %}
           </div>
