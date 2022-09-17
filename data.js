@@ -14,11 +14,13 @@ import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
 import Logo from "./images/logo.svg";
 
 // Hero Images (add your images to the /images directory with the same names)
+import HeroSUAS from "./images/hero-light.jpeg";
 import HeroLight from "./images/hero-light.jpg";
 import HeroDark from "./images/hero-dark.jpg";
 // If you change the import names above then you need to change the export names below
 export { HeroLight as Light };
 export { HeroDark as Dark };
+export {HeroSUAS as Suas}
 
 /* START HERE
  **************************************************************
@@ -86,6 +88,12 @@ export const skillData = [
     skill: <FaGithubSquare className="display-4" />,
     name: "GitHub",
   },
+  {
+    id: 10,
+    skill: <SiLinux className="display-4" />,
+    name: "Linux",
+  },
+
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)

@@ -30,8 +30,10 @@ export default function Home() {
       </Element>
       <main>
         <AboutMe />
+        <Experience/>
         <Skills />
         <Projects />
+        <Publications/>
         <Contact />
       </main>
       <BackToTop home={"Home"} />
