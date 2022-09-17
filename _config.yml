@@ -3,18 +3,20 @@
 # -----------------------------------------------------------------------------
 
 title: Communication Acoustics Lab # the website title (if blank, full name will be used instead)
-first_name:
+first_name: Communication Acoustics Lab,
 middle_name:
-last_name:
+last_name: Queen Mary University of London
 email: c.saitis@qmul.ac.uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   The Communication Acoustics Lab (COMMA) is part of the Centre for Digital Music (C4DM) at Queen Mary University of 
   London, conducting cutting edge research into the ways people perceive sound and technologies for improving
   communication.
-footer_text:
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ， # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ，# the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://comma-lab.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -46,7 +48,7 @@ rss_icon: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 800px
@@ -109,7 +111,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: # COMMA Lab News # blog_name will be displayed in your blog page
-blog_nav_title: news # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: # your blog must have a title for it to be displayed in the nav bar
 blog_description: The latest news from COMMA Lab
 permalink: /blog/:year/:title/
 
