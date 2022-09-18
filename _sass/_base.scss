@@ -409,6 +409,22 @@ footer.sticky-bottom {
     margin-bottom: -2rem;
     text-align: right;
   }
+  // h2.pyear {
+  //   color: $red-color;
+  //   border-bottom: 5px solid $black-color;
+  //   padding-top: 1rem;
+  //   margin-top: 2rem;
+  //   margin-bottom: -2rem;
+  //   text-align: right;
+  // }
+  h2.pyear {
+    color: $white-color;
+    background-color: $blue-color;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    text-align: right;
+  }
   ol.bibliography {
     list-style: none;
     padding: 0;
