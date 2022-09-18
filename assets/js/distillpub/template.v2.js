@@ -1620,7 +1620,7 @@ d-appendix > distill-appendix {
   // import { Template } from '../mixins/template';
   // import { Controller } from '../controller';
 
-  const isOnlyWhitespace = /^\s*$/;
+  const isOnlyWhitespace = /^*$/;
 
   class Article extends HTMLElement {
     static get is() { return 'd-article'; }
@@ -2609,12 +2609,12 @@ d-citation-list .references .title {
   		var grammar = _.languages[language];
 
   		// Set language on the element, if not present
-  		element.className = element.className.replace(lang, '').replace(/\s+/g, ' ') + ' language-' + language;
+  		element.className = element.className.replace(lang, '').replace(/+/g, ' ') + ' language-' + language;
 
   		// Set language on the parent, for styling
   		var parent = element.parentNode;
   		if (parent && parent.nodeName.toLowerCase() === 'pre') {
-  			parent.className = parent.className.replace(lang, '').replace(/\s+/g, ' ') + ' language-' + language;
+  			parent.className = parent.className.replace(lang, '').replace(/+/g, ' ') + ' language-' + language;
   		}
 
   		var code = element.textContent;
@@ -3082,31 +3082,31 @@ d-citation-list .references .title {
   ********************************************** */
 
   Prism.languages.markup = {
-  	'comment': /<!--[\s\S]*?-->/,
-  	'prolog': /<\?[\s\S]+?\?>/,
+  	'comment': /<!--[]*?-->/,
+  	'prolog': /<\?[]+?\?>/,
   	'doctype': {
-  		pattern: /<!DOCTYPE(?:[^>"'[\]]|"[^"]*"|'[^']*')+(?:\[(?:(?!<!--)[^"'\]]|"[^"]*"|'[^']*'|<!--[\s\S]*?-->)*\]\s*)?>/i,
+  		pattern: /<!DOCTYPE(?:[^>"'[\]]|"[^"]*"|'[^']*')+(?:\[(?:(?!<!--)[^"'\]]|"[^"]*"|'[^']*'|<!--[]*?-->)*\]*)?>/i,
   		greedy: true
   	},
-  	'cdata': /<!\[CDATA\[[\s\S]*?]]>/i,
+  	'cdata': /<!\[CDATA\[[]*?]]>/i,
   	'tag': {
-  		pattern: /<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/i,
+  		pattern: /<\/?(?!\d)[^>\/=$<%]+(?:(?:*[^>\/=]+(?:*=*(?:"[^"]*"|'[^']*'|[^'">=]+(?=[>]))|(?=[/>])))+)?*\/?>/i,
   		greedy: true,
   		inside: {
   			'tag': {
-  				pattern: /^<\/?[^\s>\/]+/i,
+  				pattern: /^<\/?[^>\/]+/i,
   				inside: {
   					'punctuation': /^<\/?/,
-  					'namespace': /^[^\s>\/:]+:/
+  					'namespace': /^[^>\/:]+:/
   				}
   			},
   			'attr-value': {
-  				pattern: /=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+)/i,
+  				pattern: /=*(?:"[^"]*"|'[^']*'|[^'">=]+)/i,
   				inside: {
   					'punctuation': [
   						/^=/,
   						{
-  							pattern: /^(\s*)["']|["']$/,
+  							pattern: /^(*)["']|["']$/,
   							lookbehind: true
   						}
   					]
@@ -3114,9 +3114,9 @@ d-citation-list .references .title {
   			},
   			'punctuation': /\/?>/,
   			'attr-name': {
-  				pattern: /[^\s>\/]+/,
+  				pattern: /[^>\/]+/,
   				inside: {
-  					'namespace': /^[^\s>\/:]+:/
+  					'namespace': /^[^>\/:]+:/
   				}
   			}
 
@@ -3151,7 +3151,7 @@ d-citation-list .references .title {
   	value: function addInlined(tagName, lang) {
   		var includedCdataInside = {};
   		includedCdataInside['language-' + lang] = {
-  			pattern: /(^<!\[CDATA\[)[\s\S]+?(?=\]\]>$)/i,
+  			pattern: /(^<!\[CDATA\[)[]+?(?=\]\]>$)/i,
   			lookbehind: true,
   			inside: Prism.languages[lang]
   		};
@@ -3159,18 +3159,18 @@ d-citation-list .references .title {
 
   		var inside = {
   			'included-cdata': {
-  				pattern: /<!\[CDATA\[[\s\S]*?\]\]>/i,
+  				pattern: /<!\[CDATA\[[]*?\]\]>/i,
   				inside: includedCdataInside
   			}
   		};
   		inside['language-' + lang] = {
-  			pattern: /[\s\S]+/,
+  			pattern: /[]+/,
   			inside: Prism.languages[lang]
   		};
 
   		var def = {};
   		def[tagName] = {
-  			pattern: RegExp(/(<__[\s\S]*?>)(?:<!\[CDATA\[[\s\S]*?\]\]>\s*|[\s\S])*?(?=<\/__>)/.source.replace(/__/g, function () { return tagName; }), 'i'),
+  			pattern: RegExp(/(<__[]*?>)(?:<!\[CDATA\[[]*?\]\]>*|[])*?(?=<\/__>)/.source.replace(/__/g, function () { return tagName; }), 'i'),
   			lookbehind: true,
   			greedy: true,
   			inside: inside
@@ -3192,16 +3192,16 @@ d-citation-list .references .title {
 
   (function (Prism) {
 
-  	var string = /("|')(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1/;
+  	var string = /("|')(?:\\(?:\r\n|[])|(?!\1)[^\\\r\n])*\1/;
 
   	Prism.languages.css = {
-  		'comment': /\/\*[\s\S]*?\*\//,
+  		'comment': /\/\*[]*?\*\//,
   		'atrule': {
-  			pattern: /@[\w-]+[\s\S]*?(?:;|(?=\s*\{))/,
+  			pattern: /@[\w-]+[]*?(?:;|(?=*\{))/,
   			inside: {
   				'rule': /^@[\w-]+/,
   				'selector-function-argument': {
-  					pattern: /(\bselector\s*\((?!\s*\))\s*)(?:[^()]|\((?:[^()]|\([^()]*\))*\))+?(?=\s*\))/,
+  					pattern: /(\bselector*\((?!*\))*)(?:[^()]|\((?:[^()]|\([^()]*\))*\))+?(?=*\))/,
   					lookbehind: true,
   					alias: 'selector'
   				}
@@ -3216,12 +3216,12 @@ d-citation-list .references .title {
   				'punctuation': /^\(|\)$/
   			}
   		},
-  		'selector': RegExp('[^{}\\s](?:[^{};"\']|' + string.source + ')*?(?=\\s*\\{)'),
+  		'selector': RegExp('[^{}\](?:[^{};"\']|' + string.source + ')*?(?=\*\\{)'),
   		'string': {
   			pattern: string,
   			greedy: true
   		},
-  		'property': /[-_a-z\xA0-\uFFFF][-\w\xA0-\uFFFF]*(?=\s*:)/i,
+  		'property': /[-_a-z\xA0-\uFFFF][-\w\xA0-\uFFFF]*(?=*:)/i,
   		'important': /!important\b/i,
   		'function': /[-a-z0-9]+(?=\()/i,
   		'punctuation': /[(){};:,]/
@@ -3235,13 +3235,13 @@ d-citation-list .references .title {
 
   		Prism.languages.insertBefore('inside', 'attr-value', {
   			'style-attr': {
-  				pattern: /\s*style=("|')(?:\\[\s\S]|(?!\1)[^\\])*\1/i,
+  				pattern: /*style=("|')(?:\\[]|(?!\1)[^\\])*\1/i,
   				inside: {
   					'attr-name': {
-  						pattern: /^\s*style/i,
+  						pattern: /^*style/i,
   						inside: markup.tag.inside
   					},
-  					'punctuation': /^\s*=\s*['"]|['"]\s*$/,
+  					'punctuation': /^*=*['"]|['"]*$/,
   					'attr-value': {
   						pattern: /.+/i,
   						inside: Prism.languages.css
@@ -3262,7 +3262,7 @@ d-citation-list .references .title {
   Prism.languages.clike = {
   	'comment': [
   		{
-  			pattern: /(^|[^\\])\/\*[\s\S]*?(?:\*\/|$)/,
+  			pattern: /(^|[^\\])\/\*[]*?(?:\*\/|$)/,
   			lookbehind: true
   		},
   		{
@@ -3272,11 +3272,11 @@ d-citation-list .references .title {
   		}
   	],
   	'string': {
-  		pattern: /(["'])(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1/,
+  		pattern: /(["'])(?:\\(?:\r\n|[])|(?!\1)[^\\\r\n])*\1/,
   		greedy: true
   	},
   	'class-name': {
-  		pattern: /(\b(?:class|interface|extends|implements|trait|instanceof|new)\s+|\bcatch\s+\()[\w.\\]+/i,
+  		pattern: /(\b(?:class|interface|extends|implements|trait|instanceof|new)+|\bcatch+\()[\w.\\]+/i,
   		lookbehind: true,
   		inside: {
   			'punctuation': /[.\\]/
@@ -3305,50 +3305,50 @@ d-citation-list .references .title {
   	],
   	'keyword': [
   		{
-  			pattern: /((?:^|})\s*)(?:catch|finally)\b/,
+  			pattern: /((?:^|})*)(?:catch|finally)\b/,
   			lookbehind: true
   		},
   		{
-  			pattern: /(^|[^.]|\.\.\.\s*)\b(?:as|async(?=\s*(?:function\b|\(|[$\w\xA0-\uFFFF]|$))|await|break|case|class|const|continue|debugger|default|delete|do|else|enum|export|extends|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)\b/,
+  			pattern: /(^|[^.]|\.\.\.*)\b(?:as|async(?=*(?:function\b|\(|[$\w\xA0-\uFFFF]|$))|await|break|case|class|const|continue|debugger|default|delete|do|else|enum|export|extends|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)\b/,
   			lookbehind: true
   		},
   	],
   	'number': /\b(?:(?:0[xX](?:[\dA-Fa-f](?:_[\dA-Fa-f])?)+|0[bB](?:[01](?:_[01])?)+|0[oO](?:[0-7](?:_[0-7])?)+)n?|(?:\d(?:_\d)?)+n|NaN|Infinity)\b|(?:\b(?:\d(?:_\d)?)+\.?(?:\d(?:_\d)?)*|\B\.(?:\d(?:_\d)?)+)(?:[Ee][+-]?(?:\d(?:_\d)?)+)?/,
   	// Allow for all non-ASCII characters (See http://stackoverflow.com/a/2008444)
-  	'function': /#?[_$a-zA-Z\xA0-\uFFFF][$\w\xA0-\uFFFF]*(?=\s*(?:\.\s*(?:apply|bind|call)\s*)?\()/,
+  	'function': /#?[_$a-zA-Z\xA0-\uFFFF][$\w\xA0-\uFFFF]*(?=*(?:\.*(?:apply|bind|call)*)?\()/,
   	'operator': /--|\+\+|\*\*=?|=>|&&|\|\||[!=]==|<<=?|>>>?=?|[-+*/%&|^!=<>]=?|\.{3}|\?[.?]?|[~:]/
   });
 
-  Prism.languages.javascript['class-name'][0].pattern = /(\b(?:class|interface|extends|implements|instanceof|new)\s+)[\w.\\]+/;
+  Prism.languages.javascript['class-name'][0].pattern = /(\b(?:class|interface|extends|implements|instanceof|new)+)[\w.\\]+/;
 
   Prism.languages.insertBefore('javascript', 'keyword', {
   	'regex': {
-  		pattern: /((?:^|[^$\w\xA0-\uFFFF."'\])\s])\s*)\/(?:\[(?:[^\]\\\r\n]|\\.)*]|\\.|[^/\\\[\r\n])+\/[gimyus]{0,6}(?=(?:\s|\/\*[\s\S]*?\*\/)*(?:$|[\r\n,.;:})\]]|\/\/))/,
+  		pattern: /((?:^|[^$\w\xA0-\uFFFF."'\])])*)\/(?:\[(?:[^\]\\\r\n]|\\.)*]|\\.|[^/\\\[\r\n])+\/[gimyus]{0,6}(?=(?:|\/\*[]*?\*\/)*(?:$|[\r\n,.;:})\]]|\/\/))/,
   		lookbehind: true,
   		greedy: true
   	},
   	// This must be declared before keyword because we use "function" inside the look-forward
   	'function-variable': {
-  		pattern: /#?[_$a-zA-Z\xA0-\uFFFF][$\w\xA0-\uFFFF]*(?=\s*[=:]\s*(?:async\s*)?(?:\bfunction\b|(?:\((?:[^()]|\([^()]*\))*\)|[_$a-zA-Z\xA0-\uFFFF][$\w\xA0-\uFFFF]*)\s*=>))/,
+  		pattern: /#?[_$a-zA-Z\xA0-\uFFFF][$\w\xA0-\uFFFF]*(?=*[=:]*(?:async*)?(?:\bfunction\b|(?:\((?:[^()]|\([^()]*\))*\)|[_$a-zA-Z\xA0-\uFFFF][$\w\xA0-\uFFFF]*)*=>))/,
   		alias: 'function'
   	},
   	'parameter': [
   		{
-  			pattern: /(function(?:\s+[_$A-Za-z\xA0-\uFFFF][$\w\xA0-\uFFFF]*)?\s*\(\s*)(?!\s)(?:[^()]|\([^()]*\))+?(?=\s*\))/,
+  			pattern: /(function(?:+[_$A-Za-z\xA0-\uFFFF][$\w\xA0-\uFFFF]*)?*\(*)(?!)(?:[^()]|\([^()]*\))+?(?=*\))/,
   			lookbehind: true,
   			inside: Prism.languages.javascript
   		},
   		{
-  			pattern: /[_$a-z\xA0-\uFFFF][$\w\xA0-\uFFFF]*(?=\s*=>)/i,
+  			pattern: /[_$a-z\xA0-\uFFFF][$\w\xA0-\uFFFF]*(?=*=>)/i,
   			inside: Prism.languages.javascript
   		},
   		{
-  			pattern: /(\(\s*)(?!\s)(?:[^()]|\([^()]*\))+?(?=\s*\)\s*=>)/,
+  			pattern: /(\(*)(?!)(?:[^()]|\([^()]*\))+?(?=*\)*=>)/,
   			lookbehind: true,
   			inside: Prism.languages.javascript
   		},
   		{
-  			pattern: /((?:\b|\s|^)(?!(?:as|async|await|break|case|catch|class|const|continue|debugger|default|delete|do|else|enum|export|extends|finally|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)(?![$\w\xA0-\uFFFF]))(?:[_$A-Za-z\xA0-\uFFFF][$\w\xA0-\uFFFF]*\s*)\(\s*)(?!\s)(?:[^()]|\([^()]*\))+?(?=\s*\)\s*\{)/,
+  			pattern: /((?:\b||^)(?!(?:as|async|await|break|case|catch|class|const|continue|debugger|default|delete|do|else|enum|export|extends|finally|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)(?![$\w\xA0-\uFFFF]))(?:[_$A-Za-z\xA0-\uFFFF][$\w\xA0-\uFFFF]**)\(*)(?!)(?:[^()]|\([^()]*\))+?(?=*\)*\{)/,
   			lookbehind: true,
   			inside: Prism.languages.javascript
   		}
@@ -3358,7 +3358,7 @@ d-citation-list .references .title {
 
   Prism.languages.insertBefore('javascript', 'string', {
   	'template-string': {
-  		pattern: /`(?:\\[\s\S]|\${(?:[^{}]|{(?:[^{}]|{[^}]*})*})+}|(?!\${)[^\\`])*`/,
+  		pattern: /`(?:\\[]|\${(?:[^{}]|{(?:[^{}]|{[^}]*})*})+}|(?!\${)[^\\`])*`/,
   		greedy: true,
   		inside: {
   			'template-punctuation': {
@@ -3376,7 +3376,7 @@ d-citation-list .references .title {
   					rest: Prism.languages.javascript
   				}
   			},
-  			'string': /[\s\S]+/
+  			'string': /[]+/
   		}
   	}
   });
@@ -3489,7 +3489,7 @@ d-citation-list .references .title {
   		lookbehind: true
   	},
   	'string-interpolation': {
-  		pattern: /(?:f|rf|fr)(?:("""|''')[\s\S]+?\1|("|')(?:\\.|(?!\2)[^\\\r\n])*\2)/i,
+  		pattern: /(?:f|rf|fr)(?:("""|''')[]+?\1|("|')(?:\\.|(?!\2)[^\\\r\n])*\2)/i,
   		greedy: true,
   		inside: {
   			'interpolation': {
@@ -3508,11 +3508,11 @@ d-citation-list .references .title {
   					rest: null
   				}
   			},
-  			'string': /[\s\S]+/
+  			'string': /[]+/
   		}
   	},
   	'triple-quoted-string': {
-  		pattern: /(?:[rub]|rb|br)?("""|''')[\s\S]+?\1/i,
+  		pattern: /(?:[rub]|rb|br)?("""|''')[]+?\1/i,
   		greedy: true,
   		alias: 'string'
   	},
@@ -3521,15 +3521,15 @@ d-citation-list .references .title {
   		greedy: true
   	},
   	'function': {
-  		pattern: /((?:^|\s)def[ \t]+)[a-zA-Z_]\w*(?=\s*\()/g,
+  		pattern: /((?:^|)def[ \t]+)[a-zA-Z_]\w*(?=*\()/g,
   		lookbehind: true
   	},
   	'class-name': {
-  		pattern: /(\bclass\s+)\w+/i,
+  		pattern: /(\bclass+)\w+/i,
   		lookbehind: true
   	},
   	'decorator': {
-  		pattern: /(^\s*)@\w+(?:\.\w+)*/im,
+  		pattern: /(^*)@\w+(?:\.\w+)*/im,
   		lookbehind: true,
   		alias: ['annotation', 'punctuation'],
   		inside: {
@@ -3551,7 +3551,7 @@ d-citation-list .references .title {
   Prism.languages.clike = {
   	'comment': [
   		{
-  			pattern: /(^|[^\\])\/\*[\s\S]*?(?:\*\/|$)/,
+  			pattern: /(^|[^\\])\/\*[]*?(?:\*\/|$)/,
   			lookbehind: true
   		},
   		{
@@ -3561,11 +3561,11 @@ d-citation-list .references .title {
   		}
   	],
   	'string': {
-  		pattern: /(["'])(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1/,
+  		pattern: /(["'])(?:\\(?:\r\n|[])|(?!\1)[^\\\r\n])*\1/,
   		greedy: true
   	},
   	'class-name': {
-  		pattern: /(\b(?:class|interface|extends|implements|trait|instanceof|new)\s+|\bcatch\s+\()[\w.\\]+/i,
+  		pattern: /(\b(?:class|interface|extends|implements|trait|instanceof|new)+|\bcatch+\()[\w.\\]+/i,
   		lookbehind: true,
   		inside: {
   			'punctuation': /[.\\]/
@@ -3580,15 +3580,15 @@ d-citation-list .references .title {
   };
 
   Prism.languages.lua = {
-  	'comment': /^#!.+|--(?:\[(=*)\[[\s\S]*?\]\1\]|.*)/m,
+  	'comment': /^#!.+|--(?:\[(=*)\[[]*?\]\1\]|.*)/m,
   	// \z may be used to skip the following space
   	'string': {
-  		pattern: /(["'])(?:(?!\1)[^\\\r\n]|\\z(?:\r\n|\s)|\\(?:\r\n|[\s\S]))*\1|\[(=*)\[[\s\S]*?\]\2\]/,
+  		pattern: /(["'])(?:(?!\1)[^\\\r\n]|\\z(?:\r\n|)|\\(?:\r\n|[]))*\1|\[(=*)\[[]*?\]\2\]/,
   		greedy: true
   	},
   	'number': /\b0x[a-f\d]+\.?[a-f\d]*(?:p[+-]?\d+)?\b|\b\d+(?:\.\B|\.?\d*(?:e[+-]?\d+)?\b)|\B\.\d+(?:e[+-]?\d+)?\b/i,
   	'keyword': /\b(?:and|break|do|else|elseif|end|false|for|function|goto|if|in|local|nil|not|or|repeat|return|then|true|until|while)\b/,
-  	'function': /(?!\d)\w+(?=\s*(?:[({]))/,
+  	'function': /(?!\d)\w+(?=*(?:[({]))/,
   	'operator': [
   		/[-+*%^&|#]|\/\/?|<[<=]?|>[>=]?|[=~]=?/,
   		{
@@ -3614,13 +3614,13 @@ d-citation-list .references .title {
   		'variable': [
   			// [0]: Arithmetic Environment
   			{
-  				pattern: /\$?\(\([\s\S]+?\)\)/,
+  				pattern: /\$?\(\([]+?\)\)/,
   				greedy: true,
   				inside: {
   					// If there is a $ sign at the beginning highlight $(( and )) as variable
   					'variable': [
   						{
-  							pattern: /(^\$\(\([\s\S]+)\)\)/,
+  							pattern: /(^\$\(\([]+)\)\)/,
   							lookbehind: true
   						},
   						/^\$\(\(/
@@ -3662,7 +3662,7 @@ d-citation-list .references .title {
 
   	Prism.languages.bash = {
   		'shebang': {
-  			pattern: /^#!\s*\/.*/,
+  			pattern: /^#!*\/.*/,
   			alias: 'important'
   		},
   		'comment': {
@@ -3676,29 +3676,29 @@ d-citation-list .references .title {
   			// but not “foo {”
   			{
   				// a) and c)
-  				pattern: /(\bfunction\s+)\w+(?=(?:\s*\(?:\s*\))?\s*\{)/,
+  				pattern: /(\bfunction+)\w+(?=(?:*\(?:*\))?*\{)/,
   				lookbehind: true,
   				alias: 'function'
   			},
   			{
   				// b)
-  				pattern: /\b\w+(?=\s*\(\s*\)\s*\{)/,
+  				pattern: /\b\w+(?=*\(*\)*\{)/,
   				alias: 'function'
   			}
   		],
   		// Highlight variable names as variables in for and select beginnings.
   		'for-or-select': {
-  			pattern: /(\b(?:for|select)\s+)\w+(?=\s+in\s)/,
+  			pattern: /(\b(?:for|select)+)\w+(?=+in)/,
   			alias: 'variable',
   			lookbehind: true
   		},
   		// Highlight variable names as variables in the left-hand part
   		// of assignments (“=” and “+=”).
   		'assign-left': {
-  			pattern: /(^|[\s;|&]|[<>]\()\w+(?=\+?=)/,
+  			pattern: /(^|[;|&]|[<>]\()\w+(?=\+?=)/,
   			inside: {
   				'environment': {
-  					pattern: RegExp("(^|[\\s;|&]|[<>]\\()" + envVars),
+  					pattern: RegExp("(^|[\;|&]|[<>]\\()" + envVars),
   					lookbehind: true,
   					alias: 'constant'
   				}
@@ -3709,7 +3709,7 @@ d-citation-list .references .title {
   		'string': [
   			// Support for Here-documents https://en.wikipedia.org/wiki/Here_document
   			{
-  				pattern: /((?:^|[^<])<<-?\s*)(\w+?)\s*(?:\r?\n|\r)[\s\S]*?(?:\r?\n|\r)\2/,
+  				pattern: /((?:^|[^<])<<-?*)(\w+?)*(?:\r?\n|\r)[]*?(?:\r?\n|\r)\2/,
   				lookbehind: true,
   				greedy: true,
   				inside: insideString
@@ -3717,13 +3717,13 @@ d-citation-list .references .title {
   			// Here-document with quotes around the tag
   			// → No expansion (so no “inside”).
   			{
-  				pattern: /((?:^|[^<])<<-?\s*)(["'])(\w+)\2\s*(?:\r?\n|\r)[\s\S]*?(?:\r?\n|\r)\3/,
+  				pattern: /((?:^|[^<])<<-?*)(["'])(\w+)\2*(?:\r?\n|\r)[]*?(?:\r?\n|\r)\3/,
   				lookbehind: true,
   				greedy: true
   			},
   			// “Normal” string
   			{
-  				pattern: /(^|[^\\](?:\\\\)*)(["'])(?:\\[\s\S]|\$\([^)]+\)|`[^`]+`|(?!\2)[^\\])*\2/,
+  				pattern: /(^|[^\\](?:\\\\)*)(["'])(?:\\[]|\$\([^)]+\)|`[^`]+`|(?!\2)[^\\])*\2/,
   				lookbehind: true,
   				greedy: true,
   				inside: insideString
@@ -3735,22 +3735,22 @@ d-citation-list .references .title {
   		},
   		'variable': insideString.variable,
   		'function': {
-  			pattern: /(^|[\s;|&]|[<>]\()(?:add|apropos|apt|aptitude|apt-cache|apt-get|aspell|automysqlbackup|awk|basename|bash|bc|bconsole|bg|bzip2|cal|cat|cfdisk|chgrp|chkconfig|chmod|chown|chroot|cksum|clear|cmp|column|comm|cp|cron|crontab|csplit|curl|cut|date|dc|dd|ddrescue|debootstrap|df|diff|diff3|dig|dir|dircolors|dirname|dirs|dmesg|du|egrep|eject|env|ethtool|expand|expect|expr|fdformat|fdisk|fg|fgrep|file|find|fmt|fold|format|free|fsck|ftp|fuser|gawk|git|gparted|grep|groupadd|groupdel|groupmod|groups|grub-mkconfig|gzip|halt|head|hg|history|host|hostname|htop|iconv|id|ifconfig|ifdown|ifup|import|install|ip|jobs|join|kill|killall|less|link|ln|locate|logname|logrotate|look|lpc|lpr|lprint|lprintd|lprintq|lprm|ls|lsof|lynx|make|man|mc|mdadm|mkconfig|mkdir|mke2fs|mkfifo|mkfs|mkisofs|mknod|mkswap|mmv|more|most|mount|mtools|mtr|mutt|mv|nano|nc|netstat|nice|nl|nohup|notify-send|npm|nslookup|op|open|parted|passwd|paste|pathchk|ping|pkill|pnpm|popd|pr|printcap|printenv|ps|pushd|pv|quota|quotacheck|quotactl|ram|rar|rcp|reboot|remsync|rename|renice|rev|rm|rmdir|rpm|rsync|scp|screen|sdiff|sed|sendmail|seq|service|sftp|sh|shellcheck|shuf|shutdown|sleep|slocate|sort|split|ssh|stat|strace|su|sudo|sum|suspend|swapon|sync|tac|tail|tar|tee|time|timeout|top|touch|tr|traceroute|tsort|tty|umount|uname|unexpand|uniq|units|unrar|unshar|unzip|update-grub|uptime|useradd|userdel|usermod|users|uudecode|uuencode|v|vdir|vi|vim|virsh|vmstat|wait|watch|wc|wget|whereis|which|who|whoami|write|xargs|xdg-open|yarn|yes|zenity|zip|zsh|zypper)(?=$|[)\s;|&])/,
+  			pattern: /(^|[;|&]|[<>]\()(?:add|apropos|apt|aptitude|apt-cache|apt-get|aspell|automysqlbackup|awk|basename|bash|bc|bconsole|bg|bzip2|cal|cat|cfdisk|chgrp|chkconfig|chmod|chown|chroot|cksum|clear|cmp|column|comm|cp|cron|crontab|csplit|curl|cut|date|dc|dd|ddrescue|debootstrap|df|diff|diff3|dig|dir|dircolors|dirname|dirs|dmesg|du|egrep|eject|env|ethtool|expand|expect|expr|fdformat|fdisk|fg|fgrep|file|find|fmt|fold|format|free|fsck|ftp|fuser|gawk|git|gparted|grep|groupadd|groupdel|groupmod|groups|grub-mkconfig|gzip|halt|head|hg|history|host|hostname|htop|iconv|id|ifconfig|ifdown|ifup|import|install|ip|jobs|join|kill|killall|less|link|ln|locate|logname|logrotate|look|lpc|lpr|lprint|lprintd|lprintq|lprm|ls|lsof|lynx|make|man|mc|mdadm|mkconfig|mkdir|mke2fs|mkfifo|mkfs|mkisofs|mknod|mkswap|mmv|more|most|mount|mtools|mtr|mutt|mv|nano|nc|netstat|nice|nl|nohup|notify-send|npm|nslookup|op|open|parted|passwd|paste|pathchk|ping|pkill|pnpm|popd|pr|printcap|printenv|ps|pushd|pv|quota|quotacheck|quotactl|ram|rar|rcp|reboot|remsync|rename|renice|rev|rm|rmdir|rpm|rsync|scp|screen|sdiff|sed|sendmail|seq|service|sftp|sh|shellcheck|shuf|shutdown|sleep|slocate|sort|split|ssh|stat|strace|su|sudo|sum|suspend|swapon|sync|tac|tail|tar|tee|time|timeout|top|touch|tr|traceroute|tsort|tty|umount|uname|unexpand|uniq|units|unrar|unshar|unzip|update-grub|uptime|useradd|userdel|usermod|users|uudecode|uuencode|v|vdir|vi|vim|virsh|vmstat|wait|watch|wc|wget|whereis|which|who|whoami|write|xargs|xdg-open|yarn|yes|zenity|zip|zsh|zypper)(?=$|[);|&])/,
   			lookbehind: true
   		},
   		'keyword': {
-  			pattern: /(^|[\s;|&]|[<>]\()(?:if|then|else|elif|fi|for|while|in|case|esac|function|select|do|done|until)(?=$|[)\s;|&])/,
+  			pattern: /(^|[;|&]|[<>]\()(?:if|then|else|elif|fi|for|while|in|case|esac|function|select|do|done|until)(?=$|[);|&])/,
   			lookbehind: true
   		},
   		// https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html
   		'builtin': {
-  			pattern: /(^|[\s;|&]|[<>]\()(?:\.|:|break|cd|continue|eval|exec|exit|export|getopts|hash|pwd|readonly|return|shift|test|times|trap|umask|unset|alias|bind|builtin|caller|command|declare|echo|enable|help|let|local|logout|mapfile|printf|read|readarray|source|type|typeset|ulimit|unalias|set|shopt)(?=$|[)\s;|&])/,
+  			pattern: /(^|[;|&]|[<>]\()(?:\.|:|break|cd|continue|eval|exec|exit|export|getopts|hash|pwd|readonly|return|shift|test|times|trap|umask|unset|alias|bind|builtin|caller|command|declare|echo|enable|help|let|local|logout|mapfile|printf|read|readarray|source|type|typeset|ulimit|unalias|set|shopt)(?=$|[);|&])/,
   			lookbehind: true,
   			// Alias added to make those easier to distinguish from strings.
   			alias: 'class-name'
   		},
   		'boolean': {
-  			pattern: /(^|[\s;|&]|[<>]\()(?:true|false)(?=$|[)\s;|&])/,
+  			pattern: /(^|[;|&]|[<>]\()(?:true|false)(?=$|[);|&])/,
   			lookbehind: true
   		},
   		'file-descriptor': {
@@ -3769,7 +3769,7 @@ d-citation-list .references .title {
   		},
   		'punctuation': /\$?\(\(?|\)\)?|\.\.|[{}[\];\\]/,
   		'number': {
-  			pattern: /(^|\s)(?:[1-9]\d*|0)(?:[.,]\d+)?\b/,
+  			pattern: /(^|)(?:[1-9]\d*|0)(?:[.,]\d+)?\b/,
   			lookbehind: true
   		}
   	};
@@ -3806,7 +3806,7 @@ d-citation-list .references .title {
   	'operator': /[*\/%^!=]=?|\+[=+]?|-[=-]?|\|[=|]?|&(?:=|&|\^=?)?|>(?:>=?|=)?|<(?:<=?|=|-)?|:=|\.\.\./,
   	'number': /(?:\b0x[a-f\d]+|(?:\b\d+\.?\d*|\B\.\d+)(?:e[-+]?\d+)?)i?/i,
   	'string': {
-  		pattern: /(["'`])(?:\\[\s\S]|(?!\1)[^\\])*\1/,
+  		pattern: /(["'`])(?:\\[]|(?!\1)[^\\])*\1/,
   		greedy: true
   	}
   });
@@ -3900,11 +3900,11 @@ d-citation-list .references .title {
   				// ```optional language
   				// code block
   				// ```
-  				pattern: /^```[\s\S]*?^```$/m,
+  				pattern: /^```[]*?^```$/m,
   				greedy: true,
   				inside: {
   					'code-block': {
-  						pattern: /^(```.*(?:\n|\r\n?))[\s\S]+?(?=(?:\n|\r\n?)^```$)/m,
+  						pattern: /^(```.*(?:\n|\r\n?))[]+?(?=(?:\n|\r\n?)^```$)/m,
   						lookbehind: true
   					},
   					'code-language': {
@@ -3922,7 +3922,7 @@ d-citation-list .references .title {
 
   				// title 2
   				// -------
-  				pattern: /\S.*(?:\n|\r\n?)(?:==+|--+)(?=[ \t]*$)/m,
+  				pattern: /.*(?:\n|\r\n?)(?:==+|--+)(?=[ \t]*$)/m,
   				alias: 'important',
   				inside: {
   					punctuation: /==+$|--+$/
@@ -3931,7 +3931,7 @@ d-citation-list .references .title {
   			{
   				// # title 1
   				// ###### title 6
-  				pattern: /(^\s*)#+.+/m,
+  				pattern: /(^*)#+.+/m,
   				lookbehind: true,
   				alias: 'important',
   				inside: {
@@ -3944,7 +3944,7 @@ d-citation-list .references .title {
   			// ---
   			// * * *
   			// -----------
-  			pattern: /(^\s*)([*-])(?:[\t ]*\2){2,}(?=\s*$)/m,
+  			pattern: /(^*)([*-])(?:[\t ]*\2){2,}(?=*$)/m,
   			lookbehind: true,
   			alias: 'punctuation'
   		},
@@ -3953,7 +3953,7 @@ d-citation-list .references .title {
   			// + item
   			// - item
   			// 1. item
-  			pattern: /(^\s*)(?:[*+-]|\d+\.)(?=[\t ].)/m,
+  			pattern: /(^*)(?:[*+-]|\d+\.)(?=[\t ].)/m,
   			lookbehind: true,
   			alias: 'punctuation'
   		},
@@ -3962,7 +3962,7 @@ d-citation-list .references .title {
   			// [id]: http://example.com 'Optional title'
   			// [id]: http://example.com (Optional title)
   			// [id]: <http://example.com> "Optional title"
-  			pattern: /!?\[[^\]]+\]:[\t ]+(?:\S+|<(?:\\.|[^>\\])+>)(?:[\t ]+(?:"(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'|\((?:\\.|[^)\\])*\)))?/,
+  			pattern: /!?\[[^\]]+\]:[\t ]+(?:+|<(?:\\.|[^>\\])+>)(?:[\t ]+(?:"(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'|\((?:\\.|[^)\\])*\)))?/,
   			inside: {
   				'variable': {
   					pattern: /^(!?\[)[^\]]+/,
@@ -3983,7 +3983,7 @@ d-citation-list .references .title {
   			greedy: true,
   			inside: {
   				'content': {
-  					pattern: /(^..)[\s\S]+(?=..$)/,
+  					pattern: /(^..)[]+(?=..$)/,
   					lookbehind: true,
   					inside: {} // see below
   				},
@@ -4000,7 +4000,7 @@ d-citation-list .references .title {
   			greedy: true,
   			inside: {
   				'content': {
-  					pattern: /(^.)[\s\S]+(?=.$)/,
+  					pattern: /(^.)[]+(?=.$)/,
   					lookbehind: true,
   					inside: {} // see below
   				},
@@ -4015,7 +4015,7 @@ d-citation-list .references .title {
   			greedy: true,
   			inside: {
   				'content': {
-  					pattern: /(^~~?)[\s\S]+(?=\1$)/,
+  					pattern: /(^~~?)[]+(?=\1$)/,
   					lookbehind: true,
   					inside: {} // see below
   				},
@@ -4026,7 +4026,7 @@ d-citation-list .references .title {
   			// [example](http://example.com "Optional title")
   			// [example][id]
   			// [example] [id]
-  			pattern: createInline(/!?\[(?:(?!\])<inner>)+\](?:\([^\s)]+(?:[\t ]+"(?:\\.|[^"\\])*")?\)| ?\[(?:(?!\])<inner>)+\])/.source, false),
+  			pattern: createInline(/!?\[(?:(?!\])<inner>)+\](?:\([^)]+(?:[\t ]+"(?:\\.|[^"\\])*")?\)| ?\[(?:(?!\])<inner>)+\])/.source, false),
   			lookbehind: true,
   			greedy: true,
   			inside: {
@@ -4162,7 +4162,7 @@ d-citation-list .references .title {
   		pattern: /(^|[^\\])#.*/,
   		lookbehind: true
   	},
-  	'string': /("""|''')[\s\S]+?\1|("|')(?:\\.|(?!\2)[^\\\r\n])*\2/,
+  	'string': /("""|''')[]+?\1|("|')(?:\\.|(?!\2)[^\\\r\n])*\2/,
   	'keyword' : /\b(?:abstract|baremodule|begin|bitstype|break|catch|ccall|const|continue|do|else|elseif|end|export|finally|for|function|global|if|immutable|import|importall|in|let|local|macro|module|print|println|quote|return|struct|try|type|typealias|using|while)\b/,
   	'boolean' : /\b(?:true|false)\b/,
   	'number' : /(?:\b(?=\d)|\B(?=\.))(?:0[box])?(?:[\da-f]+\.?\d*|\.\d+)(?:[efp][+-]?\d+)?j?/i,
@@ -4222,7 +4222,7 @@ ${css}
       if (this.hasAttribute('block')) {
         // normalize the tab indents
         content = content.replace(/\n/, '');
-        const tabs = content.match(/\s*/);
+        const tabs = content.match(/*/);
         content = content.replace(new RegExp('\n' + tabs, 'g'), '\n');
         content = content.trim();
         // wrap code block in pre tag if needed
@@ -5129,9 +5129,9 @@ p small {
   var darker = 0.7;
   var brighter = 1 / darker;
 
-  var reI = "\\s*([+-]?\\d+)\\s*",
-      reN = "\\s*([+-]?\\d*\\.?\\d+(?:[eE][+-]?\\d+)?)\\s*",
-      reP = "\\s*([+-]?\\d*\\.?\\d+(?:[eE][+-]?\\d+)?)%\\s*",
+  var reI = "\*([+-]?\\d+)\*",
+      reN = "\*([+-]?\\d*\\.?\\d+(?:[eE][+-]?\\d+)?)\*",
+      reP = "\*([+-]?\\d*\\.?\\d+(?:[eE][+-]?\\d+)?)%\*",
       reHex = /^#([0-9a-f]{3,8})$/,
       reRgbInteger = new RegExp("^rgb\\(" + [reI, reI, reI] + "\\)$"),
       reRgbPercent = new RegExp("^rgb\\(" + [reP, reP, reP] + "\\)$"),
@@ -7057,7 +7057,7 @@ p small {
   }
 
   var pads = {"-": "", "_": " ", "0": "0"},
-      numberRe = /^\s*\d+/, // note: ignores next directive
+      numberRe = /^*\d+/, // note: ignores next directive
       percentRe = /^%/,
       requoteRe = /[\\^$*+?|[\]().{}]/g;
 
@@ -7388,7 +7388,7 @@ p small {
 
   function dispatch() {
     for (var i = 0, n = arguments.length, _ = {}, t; i < n; ++i) {
-      if (!(t = arguments[i] + "") || (t in _) || /[\s.]/.test(t)) throw new Error("illegal type: " + t);
+      if (!(t = arguments[i] + "") || (t in _) || /[.]/.test(t)) throw new Error("illegal type: " + t);
       _[t] = [];
     }
     return new Dispatch(_);
@@ -7399,7 +7399,7 @@ p small {
   }
 
   function parseTypenames(typenames, types) {
-    return typenames.trim().split(/^|\s+/).map(function(t) {
+    return typenames.trim().split(/^|+/).map(function(t) {
       var name = "", i = t.indexOf(".");
       if (i >= 0) name = t.slice(i + 1), t = t.slice(0, i);
       if (t && !types.hasOwnProperty(t)) throw new Error("unknown type: " + t);
@@ -7957,7 +7957,7 @@ p small {
   }
 
   function classArray(string) {
-    return string.trim().split(/^|\s+/);
+    return string.trim().split(/^|+/);
   }
 
   function classList(node) {
@@ -8182,7 +8182,7 @@ p small {
   }
 
   function parseTypenames$1(typenames) {
-    return typenames.trim().split(/^|\s+/).map(function(t) {
+    return typenames.trim().split(/^|+/).map(function(t) {
       var name = "", i = t.indexOf(".");
       if (i >= 0) name = t.slice(i + 1), t = t.slice(0, i);
       return {type: t, name: name};

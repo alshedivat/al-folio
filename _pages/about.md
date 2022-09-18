@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: CTO at <a href="https://www.digitalblast.com" target="_blank">Digital Blast</a>
 

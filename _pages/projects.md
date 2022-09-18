@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Activities
+permalink: /activities/
+description: Some projects I work on!
 nav: true
 nav_order: 1
-display_categories: [work, fun]
+display_categories: [All]
 horizontal: false
 ---
 
