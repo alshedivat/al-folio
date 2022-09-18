@@ -26,7 +26,7 @@ education:
     level: BSc
     institution: National and Kapodistrian University of Athens
     year: 2005
-
+redirect: http://eecs.qmul.ac.uk/profiles/saitischaralampos.html
 order: 1
 ---
 
