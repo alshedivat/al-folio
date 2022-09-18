@@ -18,7 +18,7 @@ My goal, therefore, is to develop computational frameworks that enable existing 
 * Interpretable Graph Similarity Computation via Differentiable Optimal Alignment of Node Embeddings (*SIGIR* 2021 by Doan et al.)
 * Efficient Implicit Unsupervised Text Hashing using Adversarial Autoencoder (*WWW* 2020 by Doan et al.)
 * Image Hashing by Minimizing Discrete Component-wise Wasserstein Distance (*arxiv* 2021 by Doan et al.)
-* Generative Hashing Network (*Under Submission* 2021 by Doan et al.)
+* Generative Hashing Network (*ACCV* 2022 by Doan et al.)
 * EBM Hashing Network (*Under Submission* 2021 by Doan et al.)
 * Fast Learning-to-Hash Ranking  (*Under Preparation* 2022 by Doan et al.)
 * One Loss for Quantization: Deep Hashing with Discrete Wasserstein Distributional Matching  (*CVPR* 2022 by Doan et al.)
