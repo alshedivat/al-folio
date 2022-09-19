@@ -178,6 +178,9 @@
           {%- if entry.link %}
             <a href="{{ entry.link }}" class="btn btn-sm z-depth-0" role="button">Link</a>
           {%- endif %}
+          {%- if entry.psyarxiv %}
+            <a href="http://psyarxiv.com/{{ entry.psyarxiv }}" class="btn btn-sm z-depth-0" role="button">PsyArXiv</a>
+          {%- endif %}
 
           </div>
 
