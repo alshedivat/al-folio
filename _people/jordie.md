@@ -20,6 +20,6 @@ education:
     year: 2017
 
 redirect: https://jordieshier.com/
-order: 6
+order: 9
 ---
 Test
