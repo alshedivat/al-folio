@@ -13,12 +13,13 @@ education:
   - course: Electronic Music
     level: MSc
     institution: Conservatorio di Milano
- #   year: 2020
+    year: 2021
   - course: Sound Engineering
     level: BSc
     institution: Conservatorio di Milano
- #   year: 2020
+    year: 2019
 
 order: 6
 ---
 
+I am a PhD at the Artificial Intelligence and Music CDT of Queen Mary University of London. I worked for several projects and installations including the award winning 2019 Prague Quadrennial exhibit The Prague Experiment. My research interests are focused on music perception, HCI and sonification, and especially on healthcare and social applications of musical interfaces. Musician, art lover, Half-Life 3 believer. 
