@@ -183,17 +183,15 @@
 
           </div>
 
-          <!-- Journal/Book title and date -->
+          <!-- Journal/Book title/Publisher and date -->
           {% if entry.type == "article" -%}
             {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
           {%- elsif entry.type == "inproceedings" -%}
             {%- capture entrytype -%}<em>{{entry.booktitle}}</em> {%- endcapture -%}
           {%- elsif entry.type == "incollection" -%}
             {%- capture entrytype -%}<em>{{entry.booktitle}}</em> {%- endcapture -%}
-          {%- elsif entry.type == "book" -%}
-            {%- capture entrytype -%}{{entry.publisher}} {%- endcapture -%}
           {%- else -%}
-            {%- capture entrytype -%}{%- endcapture -%}
+            {%- capture entrytype -%}{{entry.publisher}} {%- endcapture -%}
           {%- endif -%}
           {%- if entry.year -%}
             {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
