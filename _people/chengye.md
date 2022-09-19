@@ -3,7 +3,7 @@ layout: profile
 name: Chengye Wu
 position: PhD Student in Computer Science
 # avatar: assets/img/people/bleiz.jpg
-research-interests: Crossmodal & multisensory perception involving sound, Sound visualization
+research-interests: Crossmodal & multisensory perception, Audiovisual interaction design, Sound visualization
 github: https://github.com/chengye0417
 # email: 
 # scholar: https://scholar.google.com/citations?user=6EyygmQAAAAJ&hl=zh-CN
