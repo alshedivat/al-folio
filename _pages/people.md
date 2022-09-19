@@ -4,7 +4,7 @@ title: People
 permalink: /people/
 description:
 nav: true
-nav_order: 2
+nav_order: 1
 display_categories: [people]
 horizontal: false
 ---
