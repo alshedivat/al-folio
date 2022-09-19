@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Crypto Thoughts
 date: 2022-09-18 08:00:00
-description: \#cryptocrash trending on Twitter as I write this
+description: #cryptocrash trending on Twitter as I write this
 ---
 (This is going to be an ongoing blog post that I will add to over the next few days)
 
