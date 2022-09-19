@@ -103,21 +103,6 @@
           {%- endif -%}
 
           </div>   
-             
-              <!-- Publisher and date -->
-          {% if entry.type == "book" -%}
-            {%- capture entrytype -%}{{entry.publisher}}{%- endcapture -%}
-          {%- else -%}
-            {%- capture entrytype -%}{%- endcapture -%}
-          {%- endif -%}
-          {%- if entry.year -%}
-            {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
-          {%- endif -%}
-          {%- capture periodical -%}{{ entrytype }}, {{ entryyear }}{%- endcapture -%}
-          <div class="periodical">
-            {{ periodical | strip }}
-          </div>
-        {%- endif %}
             
         {%- else %}
           <!-- Title -->
@@ -198,7 +183,7 @@
 
           </div>
 
-          <!-- Journal/Book title and date -->
+          <!-- Journal/Book title/Publisher and date -->
           {% if entry.type == "article" -%}
             {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
           {%- elsif entry.type == "inproceedings" -%}
@@ -206,7 +191,7 @@
           {%- elsif entry.type == "incollection" -%}
             {%- capture entrytype -%}<em>{{entry.booktitle}}</em> {%- endcapture -%}
           {%- else -%}
-            {%- capture entrytype -%}{%- endcapture -%}
+            {%- capture entrytype -%}{{entry.publisher}} {%- endcapture -%}
           {%- endif -%}
           {%- if entry.year -%}
             {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
