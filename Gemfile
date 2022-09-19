@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
-
+    gem 'nokogiri'
+    gem 'jekyll-content-security-policy-generator'
     gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
