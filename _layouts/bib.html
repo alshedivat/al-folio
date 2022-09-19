@@ -103,8 +103,7 @@
           {%- endif -%}
 
           </div>   
-            {%- capture entrytype -%}{{entry.publisher}}{%- endcapture -%}
-              
+            
         {%- else %}
           <!-- Title -->
           <div class="title">{{entry.title}}</div>
@@ -191,6 +190,8 @@
             {%- capture entrytype -%}<em>{{entry.booktitle}}</em> {%- endcapture -%}
           {%- elsif entry.type == "incollection" -%}
             {%- capture entrytype -%}<em>{{entry.booktitle}}</em> {%- endcapture -%}
+          {%- elsif entry.type == "book" -%}
+            {%- capture entrytype -%}{{entry.publisher}} {%- endcapture -%}
           {%- else -%}
             {%- capture entrytype -%}{%- endcapture -%}
           {%- endif -%}
