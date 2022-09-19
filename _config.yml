@@ -11,7 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website of Andy Wenk - Hamburg, Germany
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: andywenk, sumcumo, digitalblast, CTO
+keywords: andywenk, digitalblast, sumcumo, CTO
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.ico  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
