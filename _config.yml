@@ -119,6 +119,30 @@ external_sources:
     rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
+# Texts
+# -----------------------------------------------------------------------------
+
+texts_name: Olga's writingd # blog_name will be displayed in your blog page
+#blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+texts_description: I write what I want
+permalink: /projects/4_project//:year/:title/
+
+# Pagination
+pagination:
+  enabled: true
+
+# Comments
+disqus_shortname: onechaeva # put your disqus shortname
+# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+
+# External sources.
+# If you have blog posts published on medium.com or other exteranl sources,
+# you can display them in your blog by adding a link to the RSS feed.
+#external_sources:
+  #- name: medium.com
+  #  rss_url: https://medium.com/@al-folio/feed
+
+# -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
 
