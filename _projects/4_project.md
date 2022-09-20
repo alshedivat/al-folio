@@ -10,6 +10,6 @@ category: fun
 ### Опубликованные тексты
 
 ##### 2017
-- *Больно не было*. Восток свыше. 2017. №2. С. 83-84. [Скачать журнал.](https://olyanechaeva.github.io/assets/pdf/Vostok43.pdf)
+- "Больно не было." *Восток свыше*. 2017. №2. С. 83-84. [Скачать журнал.](https://olyanechaeva.github.io/assets/pdf/Vostok43.pdf)
 
 
