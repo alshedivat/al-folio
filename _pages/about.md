@@ -18,6 +18,9 @@ social: true  # includes social icons at the bottom of the page
 
 I am a fifth-year Ph.D. student in Department of Biosciences, Rice University. My research area of interests are protein folding, molecular dynamics, deep learning, and general computational biology problems.
 
-I completed my Bachelor degree in Biosciences in 2017 from Zhejiang University.
+I completed my Bachelor degree in Biosciences in 2017 from Zhejiang University. 
+
+<!-- Shikai received a PhD from Rice University, where he built deep and broad expertise in computational biophysics, structural biology and machine learning. He has authored/co-authored more than 115 peer-reviewed scientific papers. -->
 
 Beyond the research, I like playing the piano, badminton, diving, plant identification, and traveling. 
+
