@@ -158,7 +158,7 @@ plugins:
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-imagemagick
-  - jekyll-minifier
+ # - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
