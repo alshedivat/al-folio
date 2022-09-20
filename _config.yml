@@ -137,6 +137,8 @@ kramdown:
       line_numbers: false
       start_line: 1
 
+incremental: true
+
 # Includes & excludes
 include: ['_pages']
 exclude:
