@@ -92,13 +92,13 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: # put your disqus shortname
+# disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
+# external_sources:
   #- name: medium.com
   #  rss_url: https://medium.com/@al-folio/feed
 
@@ -178,7 +178,7 @@ defaults:
 jekyll-minifier:
   exclude: ['robots.txt']
   uglifier_args:
-    harmony: true
+    harmony: false
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
@@ -264,7 +264,7 @@ enable_panelbear_analytics: false  # enables panelbear analytics
 enable_google_verification: true  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arangement
-enable_math:                true   # enables math typesetting (uses MathJax)
+enable_math:                false   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
