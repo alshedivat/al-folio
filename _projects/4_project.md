@@ -67,10 +67,10 @@ pagination:
         {% endif %}
       </h3>
       <p>{{ text.description }}</p>
-      <p class="post-meta">
+      <p class="text-meta">
         {{ read_time }} min read &nbsp; &middot; &nbsp;
         {{ text.date | date: '%B %-d, %Y' }}
-        {%- if post.external_source %}
+        {%- if text.external_source %}
         &nbsp; &middot; &nbsp; {{ text.external_source }}
         {%- endif %}
       </p>
@@ -88,7 +88,7 @@ pagination:
 
           {% if categories != "" %}
           &nbsp; &middot; &nbsp;
-            {% for category in post.categories %}
+            {% for category in text.categories %}
             <a href="{{ category | prepend: '/texts/category/' | prepend: site.baseurl}}">
               <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
               {% endfor %}
