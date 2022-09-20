@@ -122,9 +122,9 @@ external_sources:
 # Texts
 # -----------------------------------------------------------------------------
 
-texts_name: Olga's writingd # blog_name will be displayed in your blog page
+#texts_name: Olga's writings # blog_name will be displayed in your blog page
 #blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-texts_description: I write what I want
+#texts_description: I write what I want
 permalink: /projects/4_project//:year/:title/
 
 # Pagination
