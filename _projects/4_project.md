@@ -7,7 +7,7 @@ importance: 3
 category: fun
 pagination:
   enabled: true
-  collection: posts
+  collection: texts
   permalink: /page/:num/
   per_page: 5
   sort_field: date
