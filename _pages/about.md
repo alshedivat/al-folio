@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Assistant professor, Discovery Park F228, Denton, Texas 76207. 
+description: Assistant professor, Discovery Park F228, Denton, Texas 76207. Email: chenxi dot qiu at dot edu
 
 profile:
   align: right
