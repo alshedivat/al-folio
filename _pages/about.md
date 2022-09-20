@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Assistant professor, Discovery Park F228, Denton, Texas 76207. chenxi dot qiu at unt dot edu
+description: Assistant professor, Discovery Park F228, Denton, Texas 76207. chenxi.qiu(at)unt.edu
 
 profile:
   align: right
