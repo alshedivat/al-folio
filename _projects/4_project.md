@@ -1,105 +1,13 @@
 ---
 layout: page
 title: Мои тексты
-description: Здесь я публикую свои рассказы, стихи и литературные зарисовки
+description: Здесь я публикую свои рассказы, стихи и литературные зарисовки  
 img: assets/img/writing.jpeg
 importance: 3
 category: fun
-pagination:
-  enabled: true
-  collection: texts
-  permalink: /page/:num/
-  per_page: 5
-  sort_field: date
-  sort_reverse: true
-  trail:
-    before: 1 # The number of links before the current page
-    after: 3  # The number of links after the current page
 ---
 
-<div class="text">
-
-  <div class="header-bar">
-    <h1>{{ site.texts_name }}</h1>
-    <h2>{{ site.texts_description }}</h2>
-  </div>
-
-  {% if site.display_tags %}
-  <div class="tag-list">
-    <ul class="p-0 m-0">
-      {% for tag in site.display_tags %}
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | prepend: '/texts/tag/' | relative_url }}">{{ tag }}</a>
-        </li>
-        {% unless forloop.last %}
-          <p>&bull;</p>
-        {% endunless %}
-      {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
-
-  <ul class="text-list">
-    {% for text in paginator.texts %}
-
-    {% if text.external_source == blank %}
-      {% assign read_time = text.content | number_of_words | divided_by: 180 | plus: 1 %}
-    {% else %}
-      {% assign read_time = text.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
-    {% endif %}
-    {% assign year = text.date | date: "%Y" %}
-    {% assign tags = text.tags | join: "" %}
-    {% assign categories = text.categories | join: "" %}
-
-    <li>
-      <h3>
-        {% if text.redirect == blank %}
-          <a class="text-title" href="{{ text.url | prepend: site.baseurl }}">{{ text.title }}</a>
-        {% else %}
-          {% if text.redirect contains '://' %}
-            <a class="text-title" href="{{ text.redirect }}" target="_blank">{{ text.title }}</a>
-            <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-              <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-          {% else %}
-            <a class="text-title" href="{{ text.redirect | relative_url }}">{{ text.title }}</a>
-          {% endif %}
-        {% endif %}
-      </h3>
-      <p>{{ text.description }}</p>
-      <p class="text-meta">
-        {{ read_time }} min read &nbsp; &middot; &nbsp;
-        {{ text.date | date: '%B %-d, %Y' }}
-        {%- if text.external_source %}
-        &nbsp; &middot; &nbsp; {{ text.external_source }}
-        {%- endif %}
-      </p>
-      <p class="text-tags">
-        <a href="{{ year | prepend: '/texts/' | prepend: site.baseurl}}">
-          <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
-
-          {% if tags != "" %}
-          &nbsp; &middot; &nbsp;
-            {% for tag in texts.tags %}
-            <a href="{{ tag | prepend: '/texts/tag/' | prepend: site.baseurl}}">
-              <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
-              {% endfor %}
-          {% endif %}
-
-          {% if categories != "" %}
-          &nbsp; &middot; &nbsp;
-            {% for category in text.categories %}
-            <a href="{{ category | prepend: '/texts/category/' | prepend: site.baseurl}}">
-              <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
-              {% endfor %}
-          {% endif %}
-    </p>
-    </li>
-
-    {% endfor %}
-  </ul>
-
-  {% include pagination.html %}
-
-</div>
+Every project has a beautiful feature showcase page.
+It's easy to include images in a flexible 3-column grid format.
+Make your photos 1/3, 2/3, or full width.
 
