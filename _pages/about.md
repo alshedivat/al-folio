@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Ph.D. Candidate</a>. Department of Statistics & Data Sciences, Carnegie Mellon University.
+subtitle: <a href='#'>Special Faculty - Postdoctoral Researcher</a>. Department of Statistics & Data Sciences, Carnegie Mellon University.
 
 profile:
   align: right
@@ -18,8 +18,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello, I am Heejong Bong. I am a fifth-year Ph.D. student in the [Department of Statistics and Data Sciences](http://stat.cmu.edu/), Carnegie Mellon University (CMU), Pittsburgh, Pennsylvania. Before I came to CMU, I received my B.S. in Mathematics from the [Department of Mathematics](http://www.math.snu.ac.kr/), Seoul National University, Seoul, Korea in 2017. I also worked as a drill instructor for 2 years (2013-2015) in Republic of Korea Air Force.
+I am a postdoctoral researcher in the Department of Statistics and Data Sciences, Carnegie Mellon University (CMU). My current research consists of three projects, in collaboration with Professors Robert E. Kass, Valérie Ventura, Larry Wasserman, Zhao Ren, Alessandro Rinaldo, and Arun Kuchibhotla. Please see the [projects](https://heejongbong.github.io/projects/) page for the current and previous research topics. I am on the 2022-23 job market and looking for faculty and postdoctoral positions. 
 
-My thesis topic is discovering communication across brain regions from high-dimensional LFP recordings. I am addressing the high-dimensional time-series challenge with spatio-temporal methods, based on the matrix-variate graphical model and latent factor time-series models. In CMU, I am participating to NeuroStats lab group and advised by [Robert E. Kass](http://www.stat.cmu.edu/~kass/) and [Valerie Ventura](http://www.stat.cmu.edu/~vventura) on the Ph.D. thesis about Discovery of functional predictivity across brain regions from local field potentials.
+I received my Ph.D. in Statistics at CMU, advised by Professors Robert E. Kass and Valérie Ventura. My doctoral thesis developed and studied statistical methods of discovering communication across brain regions from neural recordings. I solved the high-dimensional challenge with latent factor time-series and matrix-variate Graphical models. Alongside the thesis, I was fortunate to collaborate with Professor Alessandro Rinaldo on the theoretical consistency of ranking from pairwise comparisons.
 
-I defended my thesis in July 6th, 2022 and looking for postdoctoral research positions starting F22.
+My research interests include spatiotemporal methods, graphical models, causal inference on time-series data, high-dimensional central limit theorem, and ranking from pairwise comparisons.
