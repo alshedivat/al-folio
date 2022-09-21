@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - rafaelmartinelli
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - rafaelmartinelli/Knapsacks.jl
+  - rafaelmartinelli/FacilityLocationProblems.jl
+  - rafaelmartinelli/AssignmentProblems.jl
+  - rafaelmartinelli/BPPLib.jl
+  - rafaelmartinelli/CARPData.jl
