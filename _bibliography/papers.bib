@@ -54,6 +54,20 @@
   psyarxiv={ghcxv}
 }
 
+@inproceedings{marentakis:hal-03234063,
+  abbr      = {Forum Acusticum},
+  abstract  = {The psychoacoustic investigation of timbre traditionally relies on audio descriptors extracted from anechoic or semi-anechoic recordings of musical instrument sounds, which are presented to listeners in diotic fashion. As a result, the extent to which spectral modifications due to the outer ear interact with timbre perception is not fully understood. As a first step towards investigating this research question, we examine here whether timbre descriptors calculated using HRTF filtered instrumental sounds deviate across ears and from values obtained from the same sounds without HRTF filtering for different listeners. The sound set comprised isolated notes played at the same fundamental frequency and dynamic from a database of anechoic recordings of modern orchestral instruments and some of their classical and baroque precursors. These were convolved with anechoic high spatial resolution HRTFs of human listeners. We present results and discuss implications for research on timbre perception and cognition.},
+  title = {{Timbre in Binaural Listening: A Comparison of Timbre Descriptors in Anechoic and HRTF Filtered Orchestral Sounds}},
+  author = {Marentakis, Georgios and Saitis, Charalampos},
+  booktitle = {{Forum Acusticum}},
+  address = {Lyon, France},
+  pages = {1047-1052},
+  year = {2020},
+  month = Dec,
+  DOI = {10.48465/fa.2020.0992},
+  pdf = {https://hal.archives-ouvertes.fr/hal-03234063/file/000992.pdf}
+}
+
 @inproceedings{vjosa_ismir_2022,
   abbr      = {ISMIR},
   abstract  = {This study explores the association between music preferences and moral values by applying text analysis techniques to lyrics. Harvesting data from a Facebook-hosted application, we align psychometric scores of 1,386 users to lyrics from the top 5 songs of their preferred music artists as emerged from Facebook Page Likes. We extract a set of lyrical features related to each song's overarching narrative, moral valence, sentiment, and emotion. A machine learning framework was designed to exploit regression approaches and evaluate the predictive power of lyrical features for inferring moral values. Results suggest that lyrics from top songs of artists people like inform their morality. Virtues of hierarchy and tradition achieve higher prediction scores (between .20 and .30) than values of empathy and equality (between .08 and .11), while basic demographic variables only account for a small part in the models' explainability. This shows the importance of music listening behaviours, as assessed via lyrical preferences, alone in capturing moral values. We discuss the technological and musicological implications and possible future improvements.},
@@ -127,7 +141,7 @@
 
 @inproceedings{luca_euromedia_2022,
   abbr      = {EuroMedia},
-  abstract  = {},
+  abstract  = {As evidenced by a large body of literature, the gender-stereotyped nature of toy adverts has been widely scrutinised. However, little work has been done in examining the affective impact of these commercials on the audience. It has been proven that repeated exposure to gender-stereotyped messages has the capacity to influence behaviours, beliefs and attitudes. In particular, media can influence emotion socialization, and gender differences in emotion expression might emerge (Scherr 2018). In this study, we investigated whether commercials elicit emotions at different intensities with respect to the gender of their target audience. Furthermore, we evaluated whether such emotions follow distinct underlying latent structures. A total of 1081 ratings of 10 unipolar aesthetic emotion scales were collected for 135 commercials (45 for each masculine, feminine, and mixed target audience) from 80 UK nationals (35 F, 45 M) aged 18 to 76. The main reason for collecting our ratings from adults was that, already by age 11, children exhibit adult-like emotion recognition capabilities (Hunter 2011). Seven scales showed significant differences between commercials for distinct audiences; with five, in particular, revealing a strong polarization (happiness, amusement, beauty, calm, and anger). In addition, parallel analysis showed that a minimum of three factors are needed to explain the ratings for masculine and mixed targeted commercials, while only two are needed for the feminine ones, thereby indicating that the latter elicit emotions following a simpler underlying structure. Both results reflect larger issues in toy marketing, where gender essentialism is still dominant, and prompt further discussion and research.},
   title     = {Exploring the Dimensionality of the Affective Space Elicited by Gendered Toy Commercials},
   booktitle = {9th European Conference on Media, Communication & Film},
   author    = {Marinelli, Luca and Saitis, Charalampos},
@@ -224,6 +238,42 @@
   address   = {{London, UK}},
   selected  = {false},
   pdf       = {hayes_perceptual_2020.pdf}
+}
+
+@inproceedings{hayes_nash_2021,
+  abbr      = {DMRN},
+  abstract = {The field of neural audio synthesis aims to produce audio using neural networks. A recent surge in its popularity has led to several high profile works achieving impressive feats of speech and music synthesis. The development of broadly accessible neural audio synthesis tools, conversely, has been limited, and creative applications of these technologies are mostly undertaken by those with technical know-how. Research has focused largely on tasks such as realistic speech and musical instrument synthesis, whereas investigations into high-level control, esoteric sound design capabilities, and interpretability have received less attention. To encourage innovative work addressing these gaps, C4DM’s Special Interest Group on Neural Audio Synthesis (SIGNAS) propose to host our first Neural Audio Synthesis Hackathon: a two day event, with results to be presented in a session at DMRN+16.},
+  title     = {NASH: the Neural Audio Synthesis Hackathon},
+  booktitle = {{{DMRN}}+16: {{Digital Music Research Network One}}-Day {{Workshop}}},
+  author    = {Hayes, Ben and Vahidi, Cyrus and Saitis, Charalampos},
+  year      = {2021},
+  address   = {{London, UK}},
+  selected  = {false},
+  pdf       = {ben-DMRN-16.pdf}
+}
+
+@inproceedings{cyrus_dmrn_2021,
+  abbr      = {DMRN},
+  abstract = {In this work, we outline initial steps towards modelling perceptual timbre dissimilarity. We use stimuli from 17 distinct subjective timbre studies and compute pairwise distances in the spaces of MFCCs, joint time-frequency scattering coefficients and Open-L3 embeddings. We analyze agreement of distances in these spaces with human dissimilarity ratings and highlight challenges of this task.},
+  title     = {Acoustic Representations for Perceptual Timbre Similarity},
+  booktitle = {{{DMRN}}+16: {{Digital Music Research Network One}}-Day {{Workshop}}},
+  author    = {Vahidi, Cyrus and Hayes, Ben and Saitis, Charalampos and Gy{\"o}rgy},
+  year      = {2021},
+  address   = {{London, UK}},
+  selected  = {false},
+  pdf       = {cyrus-DMRN-16.pdf}
+}
+
+@inproceedings{russell_dmrn_2021,
+  abbr      = {DMRN},
+  abstract = {The combination of Variational Autoencoders (VAE) with Generative Adversarial Networks (GAN) motivates meaningful representations of audio in the context of timbre transfer. This was applied to different datasets for transferring vocal timbre between speakers and musical timbre between instruments. Variations of the approach were trained and generalised performance was compared using the Structural Similarity Index and Frechet Audio Distance. Many-to-many style transfer was found to improve reconstructive performance over one-to-one style transfer.},
+  title     = {Variational Auto Encoding and Cycle-Consistent Adversarial Networks for Timbre Transfer},
+  booktitle = {{{DMRN}}+16: {{Digital Music Research Network One}}-Day {{Workshop}}},
+  author    = {Sammut Bonnici, Russell and Benning, Martin and Saitis, Charalampos},
+  year      = {2021},
+  address   = {{London, UK}},
+  selected  = {false},
+  pdf       = {russell-DMRN-16.pdf}
 }
 
 @inproceedings{hayes_theres_2020,
