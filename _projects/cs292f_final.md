@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 4
+title: Comparing Heuristic and SAT Based Approaches for Graph Coloring
 project_page: true
-description: another without an image
+description: CMPSC 292F Final Project
 img: assets/img/CS292F_Final_Cover.png
 importance: 3
 category: Class Projects
@@ -10,74 +10,45 @@ github: https://github.com/saikumarysk/cs292f_final
 report_pdf: cs292f_final_report.pdf
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In this project, we compared different approaches to solve the NP-complete graph 3-coloring problem.
+As the problem is Karp-reducible to 3-SAT, we can use many modern SAT solvers and efficient boolean SAT solvers to solve 3-coloring.
+But many exciting graphs with high connectivity negate this approach inefficient, taking hours to solve.
+Another approach is to use efficient heuristic methods that might not be 100% correct.
+A caveat in using heuristic approaches is that they also break down when faced with massive graphs.
+So, currently, which is the best approach to solve this problem?
+Our project aims to address this question.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The test suite we used for this project deserves a separate discussion.
+We used Texas A&M's SparseSuite Matrices database.
+We converted approximately 1600 sparse matrices into appropriate adjacency matrices.
+These matrices are converted to graphs and, ultimately, boolean SAT formulas.
+As the matrices are sparse, the number of edges is minimal, and my local machine will be able to handle the load better compared to massive dense graphs.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+We used boolean SAT solvers such as PySAT and Z3 to find the efficient SAT solver that can solve the graph 3-coloring problem.
+We found that PySAT's Glucose4 is far better than Z3 in solving boolean SAT problems.
+Moreover, we saw over a 90% decrease in average solving time when using PySAT.
+But a significant portion of the matrices remains unsolved, taking more than 45 minutes to be solved.
+We then proceeded to use the eigenvector partition-based heuristic approach for coloring.
+A significant limitation of this approach is that it only works on block-regular matrices.
+We found roughly 800 block regular matrices and used them to calculate the approximate graph coloring.
+In many instances, the heuristic approach failed when Z3 and PySAT were successful.
+Overall, we found that the SAT-based approach is still superior to the eigenvector-based partitioning approach, and in general, PySAT's Glucose4 is the ideal candidate to solve graph 3-coloring.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.html path="assets/img/Z3_PySAT.png" title="Comparison between Z3 and PySAT" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+	<div class="col-sm mt-2 mt-md-0">
+        {% include figure.html path="assets/img/Heuristic.png" title="Comparison between SAT and heuristic based approach" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Results of our project which show the average time for all the approaches
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class='social'>
+<div class="contact-icons">
+  Source Code: <a href="{{ page.github }}" title="GitHub"><i class="fab fa-github"></i></a>
+  Report: <a href="{{ page.report_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i></a>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}

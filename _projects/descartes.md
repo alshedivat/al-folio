@@ -1,11 +1,12 @@
 ---
 layout: page
-title: project 6
+title: A 128-bit Feistel Cipher
 project_page: true
-description: a project with no image
+description: Descartes
 img: assets/img/Descartes_Cover.png
 importance: 4
 category: Class Projects
+github: https://github.com/saikumarysk/Descartes
 ---
 
 Every project has a beautiful feature showcase page.

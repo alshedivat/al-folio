@@ -21,15 +21,16 @@ Hello There!
 I am Saikumar Yadugiri.
 You can call me Sai.
 I am a second-year master's degree student in the [computer science department](https://www.cs.ucsb.edu) at the University of California, Santa Barbara.
-I am currently advised by [Prof. Prabhanjan Ananth](https://sites.google.com/site/prabhanjanva) for my thesis requirements.
-We are currently working on improving the efficiency of functional encryption in both single and multi input settings for various privacy critical scenarios.
+[Prof. Prabhanjan Ananth](https://sites.google.com/site/prabhanjanva) currently advises me on my thesis requirements.
+We are currently working on improving the efficiency of functional encryption in both single and multi-input settings for various privacy-critical scenarios.
 I am broadly interested in the theoretical aspects of classical and (post-)quantum cryptography.
 
-I completed my Bachelors of Technology in [Electrical Engineering](https://www.ee.iitm.ac.in) from Indian Institute of Technology, Madras(IIT Madras).
-I have been immensely fortunate to be advised by [Prof. Shweta Agrawal](http://www.cse.iitm.ac.in/~shwetaag/) for my Bachelor's thesis on the recognizing and applying blockchain-based solutions to various every day scenarios. This was part of the preliminary phase 1 of [National Blockchain Project](https://blockchain.cse.iitk.ac.in).
+I graduated with a bachelor's degree in [Electrical Engineering](https://www.ee.iitm.ac.in) from Indian Institute of Technology, Madras(IIT Madras).
+I have been immensely fortunate to be advised by [Prof. Shweta Agrawal](http://www.cse.iitm.ac.in/~shwetaag/) for my Bachelor's thesis on recognizing and applying blockchain-based solutions to various everyday scenarios.
+My thesis was part of the preliminary phase 1 of [National Blockchain Project](https://blockchain.cse.iitk.ac.in).
 
 I was also gainfully employed at Oracle R&D in Bengaluru, India as a software development engineer working on Oracle Cloud Database solutions.
-I lead the cloud database patching and exadata cloud grid patching and upgrade infrastructure along with various other parts in Cloud@Customer offerings.
+I lead the cloud database patching and Exadata cloud grid patching and upgrade infrastructure along with various other parts in Cloud@Customer offerings.
 
 This site is a :warning::construction: work in progress :warning::construction:.
 

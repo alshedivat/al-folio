@@ -10,6 +10,8 @@ github: https://github.com/saikumarysk/BlockchainForBusinessNetworks
 report_pdf: Thesis_report.pdf
 ---
 
+:warning: Hyperledger Composer is deprecated as of August 2019 :disappointed: :warning:
+
 In this project, I worked on the
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
