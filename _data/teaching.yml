@@ -1,11 +1,11 @@
 - title: Current Teaching Assistantship Positions
   type: time_table
   contents:
-    - title: <a href="#">CMPSC 130A - Data Structures and Graph Algorithms</a>
+    - title: <a href="https://sites.cs.ucsb.edu/~vigoda/130A/">CMPSC 130A - Data Structures and Graph Algorithms</a>
       institution: UC Santa Barbara, Instructor - <a href="https://sites.cs.ucsb.edu/~vigoda/">Prof. Eric Vigoda</a>
       year: Fall 2022
       description:
-        - TODO - Finish This
+        - I handle the class forum on EdStem. I also designed the project questions on Kattis.
         - Other responsibilities include grading, hosting office hours, and discussion sessions.
 
 - title: Previous Teaching Assistantship Positions
