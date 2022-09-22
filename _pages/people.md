@@ -5,7 +5,7 @@ hide_header: true
 permalink: /people/
 nav: true
 nav_order: 1
-groups: [Members]
+groups: [Members, Associate Members, Master's Students, Visitors]
 ---
 
 <!-- pages/projects.md -->
