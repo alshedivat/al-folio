@@ -4,7 +4,7 @@ name: Jordie Shier
 group: Members
 position: PhD Student in Artificial Intelligence and Music
 avatar: assets/img/people/jordie.jpg
-research-interests: Audio synthesis, intelligent music production tools, creative machine learning
+research-interests: Audio synthesis, Intelligent music production tools, Deep learning for audio
 github: https://github.com/jorshi
 email: j.m.shier@qmul.ac.uk
 scholar: https://scholar.google.com/citations?user=A9UCVU8AAAAJ&hl=en 
