@@ -1,6 +1,7 @@
 ---
 # layout: profile
 name: Jordie Shier
+group: Members
 position: PhD Student in Artificial Intelligence and Music
 avatar: assets/img/people/jordie.jpg
 research-interests: Audio synthesis, intelligent music production tools, creative machine learning

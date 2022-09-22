@@ -1,23 +1,26 @@
 ---
 layout: page
 title: People
+hide_header: true
 permalink: /people/
-description:
 nav: true
 nav_order: 1
-display_categories: [people]
-horizontal: false
+groups: [Members]
 ---
 
 <!-- pages/projects.md -->
 <div class="people">
 
-<!-- Display projects without categories -->
-  <!-- Generate cards for each project -->
-  <div>
-    {%- assign sorted_people = site.people | sort: "order" %}
-    {%- for person in sorted_people -%}
-      {% include person.html %}
-    {%- endfor %}
-  </div>
+{%- for group in page.groups -%}
+    {%- assign sorted_members = site.people | sort: "order" | where: "group", group %}
+    {%- unless sorted_members == empty -%}
+      <h1 class="post-title">{{ group }}</h1>
+      <div>
+        {%- for person in sorted_members -%}
+          {% include person.html %}
+        {%- endfor %}
+      </div>
+    {%- endunless -%}
+{%- endfor -%}
+
 </div>
