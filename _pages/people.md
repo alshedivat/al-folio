@@ -10,11 +10,11 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
-<div class="projects">
+<div class="people">
 
 <!-- Display projects without categories -->
   <!-- Generate cards for each project -->
-  <div class="grid">
+  <div class="">
     {%- assign sorted_people = site.people | sort: "order" %}
     {%- for person in sorted_people -%}
       {% include person.html %}

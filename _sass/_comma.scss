@@ -1,0 +1,15 @@
+/*******************************************************************************
+ * Custom styles for COMMA site
+ ******************************************************************************/
+
+.people img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.team-member.row {
+  padding-bottom: 50px;
+}
