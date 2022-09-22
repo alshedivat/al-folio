@@ -3,11 +3,11 @@
 <div class="row team-member">
     <div class="col-12 col-md-3">
         {%- if person.avatar %}
-            <img src="{{ person.avatar | relative_url }}" class="img-responsive">
+            <img src="{{ person.avatar | relative_url }}" class="img-fluid mx-auto mx-lg-0 h-100 col-3 my-auto">
         {%- endif %}
     </div>
     <div class="col-12 col-md-9">
-      <h4 class="person-name">{{ person.name }}</h4>
+        <h4 class="person-name"><b>{{ person.name }}</b></h4>
       <div>
         <div class="person-position">{{ person.position }}</div>
         {%- if person.research-interests -%}
