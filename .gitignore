@@ -9,3 +9,5 @@ _site
 Gemfile.lock
 vendor
 
+# Pycharm
+.idea/
