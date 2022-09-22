@@ -1,5 +1,7 @@
 ---
-layout: publication
+layout: page
+title: Publications
+hide_header: true
 permalink: /publications/
 years: [2022, 2021, 2020, 2019]
 nav: true
