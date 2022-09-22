@@ -7,6 +7,25 @@
         {%- endif %}
     </div>
     <div class="col-8">
-      <h2>{{ person.name }}</h2>
+      <h2 class="person-name">{{ person.name }}</h2>
+      <div>
+        <div>{{ person.position }}</div>
+        {%- if person.research-interests -%}
+            <div><b>Research Interests: </b>{{ person.research-interests }}</div>
+        {%- endif -%}
+        {%- if person.education -%}
+            {% for course in person.education.courses %}
+                {%- capture c -%}
+                    {{ course.level }}{{" "}}{{ course.course }}{{", "}}{{ course.institution }}{{", "}}{{ course.year }}
+                {%- endcapture -%}
+                {%- if forloop.index == 1 -%}
+                    {%- capture education -%}{{ c }}{%- endcapture -%}
+                {%- else -%}
+                    {%- capture education -%}{{ education }}{{ "; "}}{{ c }}{%- endcapture -%}
+                {%- endif -%}
+            {% endfor %}
+            <div><b>Education: </b>{{ education }}</div>
+        {%- endif -%}
+      </div>
     </div>
 </div>
