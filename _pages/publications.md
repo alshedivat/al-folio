@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-hide_header: true
+# hide_header: true
 permalink: /publications/
 years: [2022, 2021, 2020, 2019]
 nav: true
@@ -10,10 +10,9 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 <!-- Forthcoming publications are displayed first i.e. forthcorming=true in bibtex -->
-<header class="post-header">
+<!-- <header class="post-header"> -->
 <!--     <h1 class="post-title">Forthcoming</h1> -->
-    <h2 class="post-title">Publications</h2>
-</header> 
+<!-- </header>  -->
 
 <div class="publications">
   <h2 class="year" style="margin-bottom: 0px;"></h2>

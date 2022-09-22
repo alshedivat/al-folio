@@ -2,14 +2,12 @@
 
 <div class="row team-member">
     <div class="col-12 col-md-3">
-        <div class="img-responsive">
         {%- if person.avatar %}
-            <img src="{{ person.avatar | relative_url }}" />
+            <img src="{{ person.avatar | relative_url }}" class="img-responsive">
         {%- endif %}
-        </div>
     </div>
     <div class="col-12 col-md-9">
-      <h2 class="person-name">{{ person.name }}</h2>
+      <h4 class="person-name">{{ person.name }}</h4>
       <div>
         <div class="person-position">{{ person.position }}</div>
         {%- if person.research-interests -%}
