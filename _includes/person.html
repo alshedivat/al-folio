@@ -1,17 +1,17 @@
 <!-- _includes/person.html -->
 
 <div class="row team-member">
-    <div class="col-4">
+    <div class="col-12 col-md-4">
         {%- if person.avatar %}
             <img src="{{ person.avatar | relative_url }}" />
         {%- endif %}
     </div>
-    <div class="col-8">
+    <div class="col-12 col-md-8">
       <h2 class="person-name">{{ person.name }}</h2>
       <div>
-        <div>{{ person.position }}</div>
+        <div class="person-position">{{ person.position }}</div>
         {%- if person.research-interests -%}
-            <div><b>Research Interests: </b>{{ person.research-interests }}</div>
+            <div class="person-interests"><b>Research Interests: </b>{{ person.research-interests }}</div>
         {%- endif -%}
         {%- if person.education -%}
             {% for course in person.education.courses %}
