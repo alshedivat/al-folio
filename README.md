@@ -422,6 +422,13 @@ You can implement your own buttons by editing the bib.html file.
    
 </details>
 
+Additional custom bibtex keywords for the COMMA site:
+
+- `forthcoming`: If included and has a value of `true`, the entry will be included in
+the "Forthcoming" section on the publications page. *Note*: if there is no
+  year for the entry yet, it is best to remove the year keyword as opposed to leaving it blank
+- `note`: Appends a short note to the publication
+
 ---
 
 ### Collections
