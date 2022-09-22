@@ -1,5 +1,6 @@
 ---
 layout: profile
+group: Members
 name: Jincheng Zhang
 position: PhD Student in Computer Science
 avatar: assets/img/people/jincheng.jpg

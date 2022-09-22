@@ -1,5 +1,6 @@
 ---
 layout: profile
+group: Members
 name: Vjosa Preniqi
 position: PhD Student in Data-informed Audience-centric Media Engineering
 avatar: assets/img/people/vjosa.jpg

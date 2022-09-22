@@ -1,5 +1,6 @@
 ---
 layout: profile
+group: Members
 name: Maryam Torshizi
 position: PhD Student in Artificial Intelligence and Music
 # avatar: assets/img/people/bleiz.jpg

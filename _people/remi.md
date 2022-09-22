@@ -1,5 +1,6 @@
 ---
 layout: profile
+group: Members
 name: Remi Falowo
 position: PhD Student in Artificial Intelligence and Music
 avatar: assets/img/people/remi.jpg

@@ -1,5 +1,6 @@
 ---
 name: Ben Hayes
+group: Members
 position: PhD Student in Artificial Intelligence and Music
 avatar: assets/img/people/ben.jpg
 research-interests: Neural audio synthesis, Meta-learning for audio, Differentiable signal processing, Deep psychoacoustic models

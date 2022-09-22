@@ -1,5 +1,6 @@
 ---
 layout: profile
+group: Members
 name: Chengye Wu
 position: PhD Student in Computer Science
 # avatar: assets/img/people/bleiz.jpg

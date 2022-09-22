@@ -1,5 +1,6 @@
 ---
 layout: profile
+group: Members
 name: Charalampos Saitis
 position: Lecturer (Assistant Professor) in Digital Music Processing
 avatar: assets/img/people/charis.jpg
