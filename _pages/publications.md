@@ -10,9 +10,9 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 <!-- Forthcoming publications are displayed first i.e. forthcorming=true in bibtex -->
-<header class="post-header">
+<!-- <header class="post-header"> -->
 <!--     <h1 class="post-title">Forthcoming</h1> -->
-</header> 
+<!-- </header>  -->
 
 <div class="publications">
   <h2 class="year" style="margin-bottom: 0px;"></h2>
