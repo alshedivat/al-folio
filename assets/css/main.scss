@@ -13,3 +13,11 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
+.bibliography span {
+  display: block;
+  max-width: 90%;
+}
+.badge {
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+}
