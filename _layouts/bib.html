@@ -109,9 +109,11 @@
             {%- capture entrytype -%}{{entry.publisher}}{%- endcapture -%}
           {%- endif -%}
           {%- if entry.year -%}
-            {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
+            {%- capture entryyear -%}{{ ", " }}{{entry.year}}{%- endcapture -%}
+          {%- else -%}
+            {%- capture entryyear -%}{{ " " }}{%- endcapture -%}
           {%- endif -%}
-          {%- capture periodical -%}{{ entrytype }}, {{ entryyear }}{%- endcapture -%}
+          {%- capture periodical -%}{{ entrytype }}{{ entryyear }}{%- endcapture -%}
           <div class="periodical">
             {{ periodical | strip }}
           </div>
@@ -206,9 +208,11 @@
             {%- capture entrytype -%}{%- endcapture -%}
           {%- endif -%}
           {%- if entry.year -%}
-            {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
+            {%- capture entryyear -%}{{ ", " }}{{entry.year}}{%- endcapture -%}
+          {%- else -%}
+            {%- capture entryyear -%}{{ " " }}{%- endcapture -%}
           {%- endif -%}
-          {%- capture periodical -%}{{ entrytype }}, {{ entryyear }}{%- endcapture -%}
+          {%- capture periodical -%}{{ entrytype }}{{ entryyear }}{%- endcapture -%}
           <div class="periodical">
             {{ periodical | strip }}
           </div>
