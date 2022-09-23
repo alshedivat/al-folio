@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
+    
+    <!-- Website verification -->
+    <meta name="google-site-verification" content="r_l7npAYPpfg7XREZHkXx3kPCug6F1CnQILCoPX4KOU" />
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ruby: create a Hash from Arrays | Andy Wenk</title>
+    <meta name="author" content="Andy  Wenk" />
+    <meta name="description" content="Ruby: create a Hash from Arrays" />
+    <meta name="keywords" content="andywenk, digitalblast, sumcumo, CTO" />
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+      {
+        "author":
+        {
+          "@type": "Person",
+          "name": "Andy  Wenk"
+        },
+        "url": "https://www.andy-wenk.de/blog/2014/ruby-create-a-hash-from-arrays/",
+        "@type": "WebSite",
+        "description": "Ruby: create a Hash from Arrays",
+        "headline": "Ruby: create a Hash from Arrays",
+        "sameAs": ["https://scholar.google.com/citations?user=dqdo9MgAAAAJ", "https://github.com/andywenk", "https://www.linkedin.com/in/andreas-wenk-88773a239", "https://www.digitalblast.com"],
+        "name": "Andy  Wenk",
+        "@context": "https://schema.org"
+      }
+    </script>
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="none" id="highlight_theme_light" />
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="/assets/img/favicon.ico"/>
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://www.andy-wenk.de/blog/2014/ruby-create-a-hash-from-arrays/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark" />
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="https://www.andy-wenk.de/">Andy Wenk</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">About</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog/">Blog<span class="sr-only">(current)</span></a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/activities/">Activities</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/">Publications</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <div class="toggle-container">
+                <a id="light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Ruby: create a Hash from Arrays</h1>
+    <p class="post-meta">June 27, 2014</p>
+    <p class="post-tags">
+      <a href="/blog/2014"> <i class="fas fa-calendar fa-sm"></i> 2014 </a>
+        ·  
+        <a href="/blog/tag/ruby">
+          <i class="fas fa-hashtag fa-sm"></i> ruby</a>  
+          
+        ·  
+        <a href="/blog/category/Programming">
+          <i class="fas fa-tag fa-sm"></i> Programming</a>  
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    <p>Ruby has a very beatutiful expressiveness and offers a great standard library. This helps a lot when dealing with data structures. Especially when you have to convert, merge or combine Arrays and Hashes. This post is showing just a little example out of the big area of possibilities.</p>
+
+<h2 id="the-target">The target</h2>
+
+<p>One thing we likely stumble upon when creating data structures is the task to create a <code class="language-plaintext highlighter-rouge">Hash</code> from two Arrays where one <code class="language-plaintext highlighter-rouge">Array</code> holds the <code class="language-plaintext highlighter-rouge">keys</code> and the other one the <code class="language-plaintext highlighter-rouge">values</code> of the resulting <code class="language-plaintext highlighter-rouge">Hash</code>. Based upon our example Arrays, one result could look like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+    "Verena" =&gt; "reading",
+     "Kiana" =&gt; "swimming",
+      "Naya" =&gt; "painting"
+}
+</code></pre></div></div>
+
+<p>Or even:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+    "Verena" =&gt; "rock",
+     "Kiana" =&gt; [
+        [0] "folk",
+        [1] "disco"
+    ],
+      "Naya" =&gt; "metal"
+}
+</code></pre></div></div>
+
+<p>The following sections will describe how we can create these data structures.</p>
+
+<h2 id="the-data">The data</h2>
+
+<p>We have three simple Arrays with the following structure:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>names = %w(Verena Kiana Naya)
+[
+    [0] "Verena",
+    [1] "Kiana",
+    [2] "Naya"
+]
+
+hobbies = %w(reading swimming painting)
+[
+    [0] "reading",
+    [1] "swimming",
+    [2] "painting"
+]
+
+music = ['rock', %w(folk disco), 'metal']
+[
+    [0] "rock",
+    [1] [
+        [0] "folk",
+        [1] "disco"
+    ],
+    [2] "metal"
+]
+</code></pre></div></div>
+
+<p>These Arrays are the base for all subsequent steps to create our <code class="language-plaintext highlighter-rouge">Hash</code>.</p>
+
+<h2 id="combine-data-with-the-arrayzip-method">Combine data with the <code class="language-plaintext highlighter-rouge">Array#zip</code> method</h2>
+
+<p>From the <a href="http://www.ruby-doc.org/core-2.1.2/Array.html#method-i-zip" target="_blank" rel="noopener noreferrer">documentation</a></p>
+<blockquote>
+  <p>Converts any arguments to arrays, then merges elements of self with
+corresponding elements from each argument. …</p>
+</blockquote>
+
+<p>So when using our data structures, we can do something like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>names.zip(hobbies)
+[
+    [0] [
+        [0] "Verena",
+        [1] "reading"
+    ],
+    [1] [
+        [0] "Kiana",
+        [1] "swimming"
+    ],
+    [2] [
+        [0] "Naya",
+        [1] "painting"
+    ]
+]
+</code></pre></div></div>
+
+<p>As you can see, <code class="language-plaintext highlighter-rouge">Array#zip</code> is creating a new Array from our two Arrays <code class="language-plaintext highlighter-rouge">name</code> and <code class="language-plaintext highlighter-rouge">hobbies</code>. The resulting Array consists of pairs from <code class="language-plaintext highlighter-rouge">name[0] -&gt; hobbies[0]</code>, <code class="language-plaintext highlighter-rouge">name[1] -&gt; hobbies[1]</code> and so on. If no corresponding value can be found, <code class="language-plaintext highlighter-rouge">nil</code> will be inserted in the resulting Array.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">zip</code> method is very helpful for creating data structures as we will see when we will create a Hash.</p>
+
+<h2 id="a-flat-array-from-a-nested-array-with-arrayzip">A flat Array from a nested Array with <code class="language-plaintext highlighter-rouge">Array#zip</code>
+</h2>
+
+<p>From the <a href="http://www.ruby-doc.org/core-2.1.2/Array.html#method-i-flatten" target="_blank" rel="noopener noreferrer">documentation</a></p>
+
+<blockquote>
+  <p>Returns a new array that is a one-dimensional flattening of self
+(recursively).</p>
+</blockquote>
+
+<p>The resulting Array of Arrays created with the <code class="language-plaintext highlighter-rouge">Array#zip</code> method is not yet in the correct form to be able to throw it into our resulting <code class="language-plaintext highlighter-rouge">Hash</code>. We have to convert it into a <code class="language-plaintext highlighter-rouge">one dimensional Array</code> because later we will create the <code class="language-plaintext highlighter-rouge">key</code> - <code class="language-plaintext highlighter-rouge">value</code> pairs like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>key0 = Array[0]
+value1 = Array[1]
+key1 = Array[2]
+value1 = Array[3]
+</code></pre></div></div>
+
+<p>I think you got the idea. <code class="language-plaintext highlighter-rouge">Array#flatten</code> will help us to get the job done. It is as simple as this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>names.zip(hobbies).flatten
+[
+    [0] "Verena",
+    [1] "reading",
+    [2] "Kiana",
+    [3] "swimming",
+    [4] "Naya",
+    [5] "painting"
+]
+</code></pre></div></div>
+
+<p>That was easy. Now let’s see how we create the final <code class="language-plaintext highlighter-rouge">Hash</code> in the next section.</p>
+
+<h2 id="reaching-the-target-creating-the-hash-from-arrays">Reaching the target: creating the <code class="language-plaintext highlighter-rouge">Hash</code> from <code class="language-plaintext highlighter-rouge">Arrays</code>
+</h2>
+
+<p>We are nearly done. In the last section we saw, how to create a flattened Array. This Array has the correct form to throw it into our Hash. So let’s do it:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hash[names.zip(hobbies).flatten]
+(irb):47: warning: wrong element type String at 0 (expected array)
+(irb):47: warning: ignoring wrong elements is deprecated, remove them explicitly
+(irb):47: warning: this causes ArgumentError in the next release
+(irb):47: warning: wrong element type String at 1 (expected array)
+</code></pre></div></div>
+
+<p>Oh WTF? That is not the expected result. Why is this?</p>
+
+<p>The problem is, that a Hash expects to receive a list of arguments. And here comes the <code class="language-plaintext highlighter-rouge">splat</code> operator <code class="language-plaintext highlighter-rouge">*</code> into play. It is able to convert a list into a group of parameters and is able to fill an Array with a group of parameters. Following we look at some examples.</p>
+
+<p><em>Convert a Hash into an Array</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hash = *{'Andy' =&gt; 'Daddy'}
+[
+    [0] [
+        [0] "Andy",
+        [1] "Daddy"
+    ]
+]
+</code></pre></div></div>
+
+<p><em>Convert a (flat) Array into a Hash</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hash[*n.flatten]
+{
+    "Andy" =&gt; "Daddy"
+}
+</code></pre></div></div>
+
+<p>Interesting is to examing the result with the <code class="language-plaintext highlighter-rouge">class</code> method:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hash = {'Andy' =&gt; 'Daddy'}.class
+=&gt; Hash
+
+hash = *{'Andy' =&gt; 'Daddy'}.class
+=&gt; [Hash]
+</code></pre></div></div>
+
+<p>As you can see, the second one is a <code class="language-plaintext highlighter-rouge">Hash</code> in a list (Array).</p>
+
+<p>You can also do other cool stuff with the splat operator. Please have a look at the <a href="http://4loc.wordpress.com/2009/01/16/the-splat-operator-in-ruby/" target="_blank" rel="noopener noreferrer">4loc Blog</a> for more details.</p>
+
+<h2 id="but-now-the-final-hash">But now: the final Hash</h2>
+
+<p>After we understood why the error occured and know how to circumvent it, we are finally able to create our <code class="language-plaintext highlighter-rouge">Hash</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hash[*names.zip(hobbies).flatten]
+{
+    "Verena" =&gt; "reading",
+     "Kiana" =&gt; "swimming",
+      "Naya" =&gt; "painting"
+}
+</code></pre></div></div>
+
+<p>Woot! That’s the result we expected. Cool. But what if the <code class="language-plaintext highlighter-rouge">hobbies</code> data structure would have nested Arrays? Let’s see what happens, when we use the <code class="language-plaintext highlighter-rouge">music</code> Array instead of the <code class="language-plaintext highlighter-rouge">hobbies</code> Array:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hash[*names.zip(music).flatten]
+ArgumentError: odd number of arguments for Hash
+    from (irb):79:in `[]'
+    from (irb):79
+    from /Users/andwen/.rvm/rubies/ruby-2.0.0-p353/bin/irb:12:in `&lt;main&gt;'
+</code></pre></div></div>
+
+<p>Hm - that did not work. Ruby does not know what to do with the <code class="language-plaintext highlighter-rouge">not flat</code> data structure of <code class="language-plaintext highlighter-rouge">music</code>. We need to create the Hash a bit differently:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>result = {}
+Hash[names.zip(music).each {|a,b| result[a] = b }]
+{
+    "Verena" =&gt; "rock",
+     "Kiana" =&gt; [
+        [0] "folk",
+        [1] "disco"
+    ],
+      "Naya" =&gt; "metal"
+}
+</code></pre></div></div>
+
+<p>That did the trick. Please note that this is working for an Array one level deep nested. I leave it to you to also find a solution for n-level deep nested Arrays :-) .</p>
+
+<h2 id="further-info-for-array-and-hash">Further info for Array and Hash</h2>
+
+<p>Dealing with Arrays and Hashes is daily business for developers. That for sure also counts for Rubyists. You should definitely dive into the documentation for the <a href="http://www.ruby-doc.org/core-2.1.2/Array.html" target="_blank" rel="noopener noreferrer">Array</a> and <a href="http://www.ruby-doc.org/core-2.1.2/Hash.html" target="_blank" rel="noopener noreferrer">Hash</a> Classes included in the Ruby standard library.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>In this post we examined how to convert two Arrays with simple data structures in a Hash with a <code class="language-plaintext highlighter-rouge">key - value data structure</code>. This is very helpful when dealing with data and we have seen, that Ruby offers good solutions to handle these tasks.</p>
+
+<p>How are you creating similar data structures? I am curious and would love to receive a message from you … simply send it to <a href="mailto:andy@nms.de">andy@nms.de</a>.</p>
+
+<p>##UPDATE</p>
+
+<p>Thanks to <a href="https://twitter.com/nosuchthingas2" target="_blank" rel="noopener noreferrer">Nathan Wallace</a> who pointed out that you can do this since <a href="http://ruby-doc.org/core-2.1.0/Array.html#method-i-to_h" target="_blank" rel="noopener noreferrer">Ruby 2.1</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>names.zip(music).to_h
+{
+    "Verena" =&gt; "rock",
+     "Kiana" =&gt; [
+        [0] "folk",
+        [1] "disco"
+    ],
+      "Naya" =&gt; "metal"
+}
+</code></pre></div></div>
+
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2022 Andy  Wenk. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme.
+Last updated: September 23, 2022.
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+  <script src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script src="/assets/js/common.js"></script>
+
+    
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K0TB1250EC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-K0TB1250EC');
+  </script>
+  </body>
+</html>

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
+    
+    <!-- Website verification -->
+    <meta name="google-site-verification" content="r_l7npAYPpfg7XREZHkXx3kPCug6F1CnQILCoPX4KOU" />
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PHPUnit - testing PHP App | Andy Wenk</title>
+    <meta name="author" content="Andy  Wenk" />
+    <meta name="description" content="Personal website of Andy Wenk - Hamburg, Germany
+" />
+    <meta name="keywords" content="andywenk, digitalblast, sumcumo, CTO" />
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+      {
+        "author":
+        {
+          "@type": "Person",
+          "name": "Andy  Wenk"
+        },
+        "url": "https://www.andy-wenk.de/blog/2009/testing-php-apps-with-phpunit/",
+        "@type": "WebSite",
+        "description": "Personal website of Andy Wenk - Hamburg, Germany
+",
+        "headline": "PHPUnit - testing PHP App",
+        "sameAs": ["https://scholar.google.com/citations?user=dqdo9MgAAAAJ", "https://github.com/andywenk", "https://www.linkedin.com/in/andreas-wenk-88773a239", "https://www.digitalblast.com"],
+        "name": "Andy  Wenk",
+        "@context": "https://schema.org"
+      }
+    </script>
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="none" id="highlight_theme_light" />
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="/assets/img/favicon.ico"/>
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://www.andy-wenk.de/blog/2009/testing-php-apps-with-phpunit/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark" />
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="https://www.andy-wenk.de/">Andy Wenk</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">About</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog/">Blog<span class="sr-only">(current)</span></a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/activities/">Activities</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/">Publications</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <div class="toggle-container">
+                <a id="light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">PHPUnit - testing PHP App</h1>
+    <p class="post-meta">June 8, 2009</p>
+    <p class="post-tags">
+      <a href="/blog/2009"> <i class="fas fa-calendar fa-sm"></i> 2009 </a>
+        ·  
+        <a href="/blog/tag/php">
+          <i class="fas fa-hashtag fa-sm"></i> php</a>  
+          <a href="/blog/tag/phpunit">
+          <i class="fas fa-hashtag fa-sm"></i> phpunit</a>  
+          
+        ·  
+        <a href="/blog/category/Programming">
+          <i class="fas fa-tag fa-sm"></i> Programming</a>  
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    <p>Moin Moin,</p>
+
+<p>
+I am a bad programmer! This is the conclusion after reading the first lines of <a href="http://sebastian-bergmann.de/" target="_blank" rel="noopener noreferrer">Sebastian Bergmanns</a> <a href="http://www.phpunit.de/manual/3.4/en/index.html" target="_blank" rel="noopener noreferrer">manual for PHPUnit</a>.
+</p>
+<p>
+<em>"Even good programmers make mistakes. The difference between a good programmer and a bad programmer is that the good programmer uses tests to detect his mistakes as soon as possible. The sooner you test for a mistake the greater your chance of finding it and the less it will cost to find and fix."</em>
+</p>
+<p>
+Ok - I will take my first words not too serious but I have to admit, that I do not develop test driven. The reason for that is the fact, that I never had an idea how to do it. I bought Sebastian Bergmanns <a href="http://www.amazon.de/PHPUnit-kurz-gut-Sebastian-Bergmann/dp/3897215152/ref=sr_1_2?ie=UTF8&amp;s=books&amp;qid=1244538197&amp;sr=8-2" target="_blank" rel="noopener noreferrer">"quick and dirty" PHPUnit</a> book some years ago but did not tune in to it any further. Another reason ist the fact, that <a href="http://www.e-unique.com" target="_blank" rel="noopener noreferrer">eUNIQUE</a> for example was started without any testing. Drilling tests afterwards into was expected too expensive.
+</p>
+<p>
+Since I have an account at <a href="http://github.com/andywenk" target="_blank" rel="noopener noreferrer">github</a> and are following some folks programming in Python or Ruby I recognized, that no software is going over the wire without tests. Which is a good thing in my opinion. Realizing that we have some really stupid bugs in our software (and also in other projects of mine) opened the disussion about using tests again - at least in my mind. But mentioning, using tests would definitely be a good idea was thrown to ground with the answer: there’s no time to do that. I don’t believe in that. I think the opposite is the truth. Thanks to a tweet from Stefan Bergmann, that the PHPUnit Manual has a new CSS style, I started to read it. I will drop my experiences here in the next few posts because now I will start using tests!
+</p>
+<p>
+<strong>Installing PHPUnit</strong>
+</p>
+<p>
+You know that I am using an <a href="http://www.debian.org" target="_blank" rel="noopener noreferrer">Debian based system</a>. So sorry to all the other geeks out there when I just explain stuff based on this OS. It shouldn’t be a big thing to adapt this to other OS.
+</p>
+<p>
+PHPUnit is delivered by <a href="http://pear.php.net/" target="_blank" rel="noopener noreferrer">PEAR</a>. I was running in a small issue when trying to install PHPUnit like explained in the manual. The reason was the wrong PEAR Installer. Fix it like this:
+</p>
+<p>
+If you never used PEAR or it might be old, simply reinstall it (just to be save):
+</p>
+
+<pre>$ sudo aptitude reinstall php-pear</pre>
+
+<p>Next step is to add the channel for PHPUnit</p>
+<pre>$ sudo pear channel-discover pear.phpunit.de
+Adding Channel "pear.phpunit.de" succeeded
+Discovery of channel "pear.phpunit.de" succeeded</pre>
+
+<p>Good - now we try to install PHPUnit (output shortened):</p>
+
+<pre>$ sudo pear install phpunit/PHPUnit
+...
+phpunit/PHPUnit requires PEAR Installer (version &gt;= 1.8.1), installed version is 1.7.1
+...
+No valid packages found
+install failed</pre>
+<p>
+Ok - this did not work. So we have to update the PEAR installer. Checking out the PEAR page helps. Follow these steps (shortened):
+</p>
+<pre>$ sudo pear upgrade --force <a href="http://pear.php.net/get/PEAR-1.4.3.tar" target="_blank" rel="noopener noreferrer">http://pear.php.net/get/PEAR-1.4.3.tar</a>
+downloading PEAR-1.4.3.tar ...
+Starting to download PEAR-1.4.3.tar (Unknown size)
+.............done: 1,745,408 bytes
+WARNING: channel "pear.php.net" has updated its protocols, use "channel-update pear.php.net" to update
+...
+downloading Archive_Tar-1.3.3.tgz ...
+Starting to download Archive_Tar-1.3.3.tgz (18,119 bytes)
+...done: 18,119 bytes
+upgrade ok: channel://pear.php.net/Archive_Tar-1.3.3
+upgrade ok: channel://pear.php.net/PEAR-1.4.3
+...
+</pre>
+<p>Ok - now we follow the instructions of upgrading the protocol:</p>
+
+<pre>$ sudo pear channel-update pear.php.net
+Retrieving channel.xml from remote server
+Update of Channel "pear.php.net" succeeded</pre>
+
+<p>Then we upgrade PEAR (output shortened):</p>
+<pre>
+$ sudo pear upgrade PEAR
+downloading PEAR-1.8.1.tgz ...
+Starting to download PEAR-1.8.1.tgz (290,382 bytes)
+........................................done: 290,382 bytes
+downloading XML_Util-1.2.1.tgz ...
+Starting to download XML_Util-1.2.1.tgz (17,729 bytes)
+...done: 17,729 bytes
+upgrade ok: channel://pear.php.net/XML_Util-1.2.1
+upgrade ok: channel://pear.php.net/PEAR-1.8.1</pre>
+
+<p>And finally we install PHPUnit (shortened):</p>
+
+<pre>$ sudo pear install phpunit/PHPUnit
+downloading PHPUnit-3.3.17.tgz ...
+Starting to download PHPUnit-3.3.17.tgz (272,418 bytes)
+..........................................done: 272,418 bytes
+install ok: channel://pear.phpunit.de/PHPUnit-3.3.17</pre>
+
+<p>
+Tata … that’s it. If you want, you can install the optional packages. If want to install all the dependencies add the option —alldeps to the install command. The output will be like this (quite long - sorry):
+</p>
+<pre>$ sudo pear install --alldeps phpunit/PHPUnit
+WARNING: "pear/DB" is deprecated in favor of "pear/MDB2"
+phpunit/PHPUnit can optionally use PHP extension "pdo_sqlite"
+phpunit/PHPUnit can optionally use PHP extension "xdebug" (version &gt;= 2.0.0)
+pear/Log can optionally use PHP extension "sqlite"
+downloading PHPUnit-3.3.17.tgz ...
+Starting to download PHPUnit-3.3.17.tgz (272,418 bytes)
+........................................done: 272,418 bytes
+downloading Image_GraphViz-1.2.1.tgz ...
+Starting to download Image_GraphViz-1.2.1.tgz (4,872 bytes)
+...done: 4,872 bytes
+downloading Log-1.11.4.tgz ...
+Starting to download Log-1.11.4.tgz (44,275 bytes)
+...done: 44,275 bytes
+downloading DB-1.7.13.tgz ...
+Starting to download DB-1.7.13.tgz (132,246 bytes)
+
+
+...done: 132,246 bytes
+downloading MDB2-2.4.1.tgz ...
+Starting to download MDB2-2.4.1.tgz (119,790 bytes)
+...done: 119,790 bytes
+downloading Mail-1.1.14.tgz ...
+Starting to download Mail-1.1.14.tgz (17,537 bytes)
+...done: 17,537 bytes
+downloading Net_SMTP-1.3.2.tgz ...
+Starting to download Net_SMTP-1.3.2.tgz (10,247 bytes)
+...done: 10,247 bytes
+downloading Auth_SASL-1.0.2.tgz ...
+Starting to download Auth_SASL-1.0.2.tgz (5,645 bytes)
+...done: 5,645 bytes
+install ok: channel://pear.phpunit.de/PHPUnit-3.3.17
+install ok: channel://pear.php.net/Image_GraphViz-1.2.1
+install ok: channel://pear.php.net/Log-1.11.4
+install ok: channel://pear.php.net/DB-1.7.13
+install ok: channel://pear.php.net/MDB2-2.4.1
+install ok: channel://pear.php.net/Mail-1.1.14
+install ok: channel://pear.php.net/Net_SMTP-1.3.2
+install ok: channel://pear.php.net/Auth_SASL-1.0.2
+MDB2: Optional feature fbsql available (Frontbase SQL driver for MDB2)
+MDB2: Optional feature ibase available (Interbase/Firebird driver for MDB2)
+MDB2: Optional feature mysql available (MySQL driver for MDB2)
+MDB2: Optional feature mysqli available (MySQLi driver for MDB2)
+MDB2: Optional feature mssql available (MS SQL Server driver for MDB2)
+MDB2: Optional feature oci8 available (Oracle driver for MDB2)
+MDB2: Optional feature pgsql available (PostgreSQL driver for MDB2)
+MDB2: Optional feature querysim available (Querysim driver for MDB2)
+MDB2: Optional feature sqlite available (SQLite2 driver for MDB2)
+MDB2: To install optional features use "pear install pear/MDB2#featurename"</pre>
+<p>
+As you can see it’s quiet simple to install PHPUnit. The last step is to check wheter everything is good or not by writing a simple test (taken from the manual). Create a new file named StackTest.php and write the following into it:
+</p>
+<pre>
+&lt;?php require_once 'PHPUnit/Framework.php';
+
+class StackTest extends PHPUnit_Framework_TestCase {
+    public function testPushAndPop() {
+        $stack = array();
+        $this-&gt;assertEquals(0, count($stack));
+
+        array_push($stack, 'foo');
+        $this-&gt;assertEquals('foo', $stack[count($stack)-1]);
+        $this-&gt;assertEquals(1, count($stack));
+
+        $this-&gt;assertEquals('foo', array_pop($stack));
+        $this-&gt;assertEquals(0, count($stack));
+    }
+}
+?&gt;</pre>
+
+<p>Now let’s see if we can use PHPUnit:</p>
+
+<pre>$ phpunit --verbose StackTest
+PHPUnit 3.3.17 by Sebastian Bergmann.
+
+StackTest
+.
+
+Time: 0 seconds
+
+OK (1 test, 5 assertions)</pre>
+<p>
+If you see this result, everything works.
+</p>
+<p>
+That’s it for this time. In the next posts I will write about the integration of unit tests in our software - but don’t ask me when ;-). Please go and read the manual for PHPUnit in the meantime. Thanks to Sebastian Bergman!
+</p>
+<p>Andy</p>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2022 Andy  Wenk. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme.
+Last updated: September 23, 2022.
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+  <script src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script src="/assets/js/common.js"></script>
+
+    
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K0TB1250EC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-K0TB1250EC');
+  </script>
+  </body>
+</html>

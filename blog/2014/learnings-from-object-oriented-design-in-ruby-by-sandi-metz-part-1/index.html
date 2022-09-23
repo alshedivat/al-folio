@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
+    
+    <!-- Website verification -->
+    <meta name="google-site-verification" content="r_l7npAYPpfg7XREZHkXx3kPCug6F1CnQILCoPX4KOU" />
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Learnings from 'Object Oriented Design in Ruby' by Sandi Metz - Part I | Andy Wenk</title>
+    <meta name="author" content="Andy  Wenk" />
+    <meta name="description" content="Learnings from 'Object Oriented Design in Ruby' by Sandi Metz - Part I" />
+    <meta name="keywords" content="andywenk, digitalblast, sumcumo, CTO" />
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+      {
+        "author":
+        {
+          "@type": "Person",
+          "name": "Andy  Wenk"
+        },
+        "url": "https://www.andy-wenk.de/blog/2014/learnings-from-object-oriented-design-in-ruby-by-sandi-metz-part-1/",
+        "@type": "WebSite",
+        "description": "Learnings from 'Object Oriented Design in Ruby' by Sandi Metz - Part I",
+        "headline": "Learnings from 'Object Oriented Design in Ruby' by Sandi Metz - Part I",
+        "sameAs": ["https://scholar.google.com/citations?user=dqdo9MgAAAAJ", "https://github.com/andywenk", "https://www.linkedin.com/in/andreas-wenk-88773a239", "https://www.digitalblast.com"],
+        "name": "Andy  Wenk",
+        "@context": "https://schema.org"
+      }
+    </script>
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="none" id="highlight_theme_light" />
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="/assets/img/favicon.ico"/>
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://www.andy-wenk.de/blog/2014/learnings-from-object-oriented-design-in-ruby-by-sandi-metz-part-1/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark" />
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="https://www.andy-wenk.de/">Andy Wenk</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">About</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog/">Blog<span class="sr-only">(current)</span></a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/activities/">Activities</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/">Publications</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <div class="toggle-container">
+                <a id="light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Learnings from 'Object Oriented Design in Ruby' by Sandi Metz - Part I</h1>
+    <p class="post-meta">July 29, 2014</p>
+    <p class="post-tags">
+      <a href="/blog/2014"> <i class="fas fa-calendar fa-sm"></i> 2014 </a>
+        ·  
+        <a href="/blog/tag/ruby">
+          <i class="fas fa-hashtag fa-sm"></i> ruby</a>  
+          
+        ·  
+        <a href="/blog/category/Programming">
+          <i class="fas fa-tag fa-sm"></i> Programming</a>  
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    <p>During my holidays in Finisterre (or the more correct name Fisterra in Gailego) in the most western part of Spain, and after having finished several greate Scify books by <a href="http://www.amazon.com/#" target="_blank" rel="noopener noreferrer">James S.A. Corey</a> (‘The Expanse’ series), I started to read <a href="http://www.amazon.com/#" target="_blank" rel="noopener noreferrer"><code class="language-plaintext highlighter-rouge">Practical Object-Oriented Programming Design in Ruby</code></a> by Sandi Metz again. This is the first post of some posts I plan to write. The posts will provide a look at the practices Sandi is covering in her great book. The intention of this writing is to intorduce the most basic ideas behind good software design and serve as guidelines you should follow.</p>
+
+<p>In the last two years I was able to identify some of the Ruby-People in the community every Ruby-Programmer should listen to. Among various others, there is <a href="http://" target="_blank" rel="noopener noreferrer">Avid Grim</a> with his great writings, <a href="http://" target="_blank" rel="noopener noreferrer">Justin Weiss</a> with his great blog and <a href="http://" target="_blank" rel="noopener noreferrer">Brandon Hilkert</a> with a great book about how to build Rubygems and a great blog also. Sandi belongs definitely in this club of great Rubyists and I encourge you to follow thes fine people.</p>
+
+<p>In the first part of the posts we are going to have a look at the basics of Object-Oriented Design.</p>
+
+<p>##Introduction</p>
+
+<p>##Object-Orient Design</p>
+
+<p>Sandi writes:</p>
+
+<blockquote>
+  <p>Object-oriented design is about <em>managing dependencies</em>. It is a set of coding techniques that arrange dependencies such that objects can tolerate change.</p>
+</blockquote>
+
+<p>Everything is about to change. When we start a software project, we never know which requirements are coming along the way. That means we have to try to avoid heavy dependencies between classes and methods. We should always expect the need for a change in our code. But because we don’t know which part of our code is going to need a change, we need to write code that is changeable.</p>
+
+<p>Change in requirements is the reason why we should not fall into the trap of thinking, that it’s ok to have <em>some</em> dependencies in our <em>small</em> application. Sandi knows why:</p>
+
+<blockquote>
+  <p>The problem with poorly designed <em>small</em> applications is that if they are successfull they grow up to be poorly designed <em>big</em> applications.</p>
+</blockquote>
+
+<p>I am 100% sure everyone fell into the snake pit where this sentence was true. So we can conclude that it is highly recommended to write well designed applications. It is not easy to achieve this goal. It need’s us to practice a lot because:</p>
+
+<blockquote>
+  <p>Design is thus an art, the art of arranging code.</p>
+</blockquote>
+
+<p>##Tools</p>
+
+<p>What are the tools available helping us achieving the goal of good object-oriented design? We are not lost and we do not have to reinvent the wheel. Here is a list of some well known and broadly used principles of object-oriented design.</p>
+
+<p>###<a href="http://" target="_blank" rel="noopener noreferrer">SOLID</a></p>
+
+<p><em>SOLID</em> stands for five principles originally defined by <a href="http://" target="_blank" rel="noopener noreferrer">Michael Feathers</a> and broadcasted by <a href="http://" target="_blank" rel="noopener noreferrer">Uncle Bob Martin</a>:</p>
+
+<ul>
+  <li>
+<em>Single Responsibility</em>:
+each method or class has exactly one responsibility and nothing more</li>
+  <li>
+<em>Open-Closed</em>:
+tbc</li>
+  <li>
+<em>Liskov Substitution</em>:
+tbc</li>
+  <li>
+<em>Interface Segregation</em>:
+tbc</li>
+  <li>
+<em>Dependency Inversion</em>:
+tbc</li>
+</ul>
+
+<p>###<a href="http://" target="_blank" rel="noopener noreferrer">DRY</a></p>
+
+<p><em>DRY</em> stands for <em>Don’t Repeat Yourself</em> and it was defined by <a href="http://" target="_blank" rel="noopener noreferrer">Andy Hunt</a> and <a href="http://" target="_blank" rel="noopener noreferrer">Dave Thomas</a>. The idea behind this principle is to avaid duplication in our code. When we recognize duplicated code, we should refactor out the code part to a place (e.g. a method) we can reuse. Doing so, we are able ot remove the duplication.</p>
+
+<p>###<a href="http://" target="_blank" rel="noopener noreferrer">LoD</a></p>
+
+<p><em>LoD</em> stands for <em>Law of Demeter</em> and was defined by the <a href="http://" target="_blank" rel="noopener noreferrer">Demeter project at Northeastern University</a>. tbc</p>
+
+<p>Using these tools will help us improving our code. I can definitely acknowledge this <strong>THESE/AUSSAGE</strong> out of my own experience. And Sandi is seconding this with writing:</p>
+
+<blockquote>
+  <p>The principles of good design represent measurable truths and following them improve your code.</p>
+</blockquote>
+
+<p>##What is the Design process?</p>
+
+<p>Sandi writes:</p>
+
+<blockquote>
+  <p>Design is a process of progressive discovery that relies on a feedback loop. This feedback loop should be timely and incremental.</p>
+</blockquote>
+
+<p>The <em>Feedback Loop</em> is one of the most important tools when creating object-oriented applications. Sandi is mentioning the <a href="http://agilemanifesto.org" target="_blank" rel="noopener noreferrer"><em>iterative techniques of the Agile software movement</em></a>. This is very true but in my opinion even when not following agile practices, we should definitely at least use a feedback loop with the people, we are creating the applicatin for (aka: product owner in agile speak). It is the only way to recognize changes in the requirements and also missunderstandings of requirements. So Sandi states perfectly well, that the feedback loop has to be <em>timely</em> and <em>incremental</em>. Therfore we define the length of one loop (aka: sprint in agile speak). The length depends on the kind of project but the experience showed, that one up to two weeks is fitting very good. The loops are going to be repeated until everybody is satisfied with the results.</p>
+
+<p>##The difference between object-oriented and procedural programming languages</p>
+
+<p>In this section we are having a very quick view to the difference between object-oriented and procedural programming languages.</p>
+
+<p>A procedural language has a fixed set of data types and the syntax of the language is providing operations to work with these data types. We are not able to create new operations or create new data types. But we are able to create <em>functions</em> or <em>methods</em> where we can group together functionality to work on our data to create behaviour. Still, <em>data</em> and <em>behaviour</em> are two complete different things.</p>
+
+<p>In object-oriented languages, <em>data</em> and <em>behaviour</em> are packed into one thing: an <em>object</em>. The operations we can use on a specific object (like String) are <em>‘built into the object itself instead of into the syntax of the language’</em>. Each object contains it’s own <em>data</em> but the <em>behaviour</em> of similar objects is always the same. Because of this reason, <em>‘every object decides for itself how much, or how little, of its data to expose’</em>.</p>
+
+<p>A class-based object-oriented language like Ruby has builtin classes for every data type we expect as programmers. These data types are overlapping with the ones provided by procedural languages like <em>String</em>, <em>Fixnum</em> among others. All these classes are based on the class <em>Class</em>. This brings the ability to create new data-type classes based on <em>Class</em>. We are not limited to the builtin data-ytpes provided by procedural languages. This is a big advantage (among others) of object-oriented languages and most likely the reason why we want to use them.</p>
+
+<p>Even though there are the outlined advantages of object-oriented programming languages, we should definitely not forget the many usecases where we don’t want to use OO languages but languages like <em>C</em> or <em>Erlang</em>.</p>
+
+<p>##Summary</p>
+
+<p>The topic of this first post in the series we had a look to Object-Orient Design. tbc</p>
+
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2022 Andy  Wenk. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme.
+Last updated: September 23, 2022.
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+  <script src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script src="/assets/js/common.js"></script>
+
+    
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K0TB1250EC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-K0TB1250EC');
+  </script>
+  </body>
+</html>

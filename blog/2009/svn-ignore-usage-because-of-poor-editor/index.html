@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
+    
+    <!-- Website verification -->
+    <meta name="google-site-verification" content="r_l7npAYPpfg7XREZHkXx3kPCug6F1CnQILCoPX4KOU" />
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>svn:ignore property usage | Andy Wenk</title>
+    <meta name="author" content="Andy  Wenk" />
+    <meta name="description" content="Personal website of Andy Wenk - Hamburg, Germany
+" />
+    <meta name="keywords" content="andywenk, digitalblast, sumcumo, CTO" />
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+      {
+        "author":
+        {
+          "@type": "Person",
+          "name": "Andy  Wenk"
+        },
+        "url": "https://www.andy-wenk.de/blog/2009/svn-ignore-usage-because-of-poor-editor/",
+        "@type": "WebSite",
+        "description": "Personal website of Andy Wenk - Hamburg, Germany
+",
+        "headline": "svn:ignore property usage",
+        "sameAs": ["https://scholar.google.com/citations?user=dqdo9MgAAAAJ", "https://github.com/andywenk", "https://www.linkedin.com/in/andreas-wenk-88773a239", "https://www.digitalblast.com"],
+        "name": "Andy  Wenk",
+        "@context": "https://schema.org"
+      }
+    </script>
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="none" id="highlight_theme_light" />
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="/assets/img/favicon.ico"/>
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://www.andy-wenk.de/blog/2009/svn-ignore-usage-because-of-poor-editor/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark" />
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="https://www.andy-wenk.de/">Andy Wenk</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">About</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog/">Blog<span class="sr-only">(current)</span></a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/activities/">Activities</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/">Publications</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <div class="toggle-container">
+                <a id="light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">svn:ignore property usage</h1>
+    <p class="post-meta">May 27, 2009</p>
+    <p class="post-tags">
+      <a href="/blog/2009"> <i class="fas fa-calendar fa-sm"></i> 2009 </a>
+        ·  
+        <a href="/blog/tag/svn">
+          <i class="fas fa-hashtag fa-sm"></i> svn</a>  
+          <a href="/blog/tag/netbeans">
+          <i class="fas fa-hashtag fa-sm"></i> netbeans</a>  
+          <a href="/blog/tag/subversion">
+          <i class="fas fa-hashtag fa-sm"></i> subversion</a>  
+          <a href="/blog/tag/svn:ignore">
+          <i class="fas fa-hashtag fa-sm"></i> svn:ignore</a>  
+          
+        ·  
+        <a href="/blog/category/Server">
+          <i class="fas fa-tag fa-sm"></i> Server</a>  
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    <p>Moin Moin,</p>
+
+<p>first to my fans at <a href="http://www.nmmn.com" target="_blank" rel="noopener noreferrer">NMMN</a>: cooool ;-)</p>
+
+<p>Ok - a little more serious. It’s kind of a hobby or philosophy to find the best editor for hacking. Have you found your’s yet? I know that all the MAC users mostly use <a href="http://macromates.com/" target="_blank" rel="noopener noreferrer">TextMate</a>. And a lot of Linux users like <a href="http://www.eclipse.org/" target="_blank" rel="noopener noreferrer">eclipse</a>. After having tested and used eclipse for about two years (and three versions and three times fuckups with upgrading) I am using <a href="http://www.netbeans.org/downloads/index.html" target="_blank" rel="noopener noreferrer">Netbeans</a> these days. I installed the PHP and Python version which is running well.</p>
+
+<p>One point that made me go crazy all the time is the <a href="http://subversion.tigris.org/" target="_blank" rel="noopener noreferrer">SVN</a> implementation in eclipse and Netbeans. Well, the developers of Netbeans integrated svn assistance in the standard version. But it’s working so la la. So I decided to use svn from the shell. Since I use <a href="http://github.com/andywenk" target="_blank" rel="noopener noreferrer">git</a> for some stuff, this is even more familiar to me (I know that there are git clients - but hey come on! that’s not cool ;-) ).</p>
+
+<p>In each project there are always files or directories which you don’t want to have in your svn repo. So you want to use the svn:ignore command. Here is a brief introduction of it’s usage.</p>
+
+<p><strong>svn property commands</strong></p>
+
+<p>Basically you can use these property commands with svn:</p>
+
+<pre>propdel (pdel, pd)
+propedit (pedit, pe)
+propget (pget, pg)
+proplist (plist, pl)
+propset (pset, ps)</pre>
+
+<p>This is part of the output when you type</p>
+
+<pre>$ svn help</pre>
+
+<p>For ignoring a file or a directory you use basically pl (proplist), pg (propget) and ps (propset).</p>
+
+<p><strong>Using svn:ignore</strong></p>
+
+<p>Let’s say we are in the working directory of our project. Because we use Netbeans, there is a folder called “nbprojects” with project settings in it. We don’t want this folder to be added to the svn repo. Also, there is a file called “info” with some reminding stuff. This file is also not needed in the svn repo. So let’s start by ignoring the folder:</p>
+
+<pre>$ ll
+insgesamt 4
+-rw-r--r-- 1 duke duke    0 2009-05-28 12:24 info
+drwxr-xr-x 3 duke duke 4096 2009-05-28 12:18 nbproject
+$ svn ps svn:ignore nbproject .
+Eigenschaft »svn:ignore« für ».« gesetzt</pre>
+
+<p>The command line means, that we use the program svn and its command ps (propset) with the option svn:ignore to set the property for this folder ( . at the end) with ignoring the folder nbproject. Let’s see if this is correct:</p>
+
+<pre>$ svn pl
+Eigenschaften zu ».«:
+  svn:ignore</pre>
+
+<p>Ok - that means, we have set a svn property for the folder . (the actual folder). Now let’s examine what exactly is ignored:</p>
+
+<pre>$ svn pg svn:ignore
+nbproject</pre>
+
+<p>Yep - that means, the folder nbproject is ognored for commits - as expected.</p>
+
+<p><strong>adding more files or folders to the svn:ignore list</strong></p>
+
+<p>This is importnat now. If you want to add more folders or files to the svn:ignore list, you have to keep in mind, that each usage of svn ps svn:ignore will overwrite the list for this folder. So you have to add the allready ignored files / folders and the new one again to the list. The first approach will not bring the expected result:</p>
+
+<pre>$ svn ps svn:ignore info .
+Eigenschaft »svn:ignore« für ».« gesetzt
+$ svn pg svn:ignore
+info --&gt; nbproject is lost</pre>
+
+<p>The better way:</p>
+
+<pre>$ svn ps svn:ignore nbproject,info .
+Eigenschaft »svn:ignore« für ».« gesetzt
+$ svn pg svn:ignore
+nbproject,info</pre>
+
+<p>And there is another way to avoid overwriting allready set propertys. Use the command</p>
+
+<pre>$svn propedit svn:ignore .</pre>
+
+<p>This will call your standard editor and is giving you the possibility to write down all the files or folders to be ignored in the actual choosen folder. I recommend to use this way ‘cause it’s the safest.</p>
+
+<p>That’s it.</p>
+
+<p><strong>Deleting a property</strong></p>
+
+<p>Sure we need also a possibility to delete a property. Therfore we use pd (propdel). Here is the usage:</p>
+<pre>
+$ svn pd svn:ignore .
+Eigenschaft »svn:ignore« wurde von ».« gelöscht.</pre>
+
+<p>That means we deleted the property svn:ignore form the folder . . Using svn pg svn:ignore will now return no result.</p>
+
+<p>So have fun using svn!</p>
+
+<p>Andreas</p>
+
+<p>P.S.: the online svn book is <a href="http://svnbook.red-bean.com/" target="_blank" rel="noopener noreferrer">here</a></p>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2022 Andy  Wenk. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme.
+Last updated: September 23, 2022.
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+  <script src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script src="/assets/js/common.js"></script>
+
+    
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K0TB1250EC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-K0TB1250EC');
+  </script>
+  </body>
+</html>

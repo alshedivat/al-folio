@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
+    
+    <!-- Website verification -->
+    <meta name="google-site-verification" content="r_l7npAYPpfg7XREZHkXx3kPCug6F1CnQILCoPX4KOU" />
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bundler problem with git: source | Andy Wenk</title>
+    <meta name="author" content="Andy  Wenk" />
+    <meta name="description" content="Bundler problem with git: source" />
+    <meta name="keywords" content="andywenk, digitalblast, sumcumo, CTO" />
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+      {
+        "author":
+        {
+          "@type": "Person",
+          "name": "Andy  Wenk"
+        },
+        "url": "https://www.andy-wenk.de/blog/2014/bundler-problem-with-git-source/",
+        "@type": "WebSite",
+        "description": "Bundler problem with git: source",
+        "headline": "Bundler problem with git: source",
+        "sameAs": ["https://scholar.google.com/citations?user=dqdo9MgAAAAJ", "https://github.com/andywenk", "https://www.linkedin.com/in/andreas-wenk-88773a239", "https://www.digitalblast.com"],
+        "name": "Andy  Wenk",
+        "@context": "https://schema.org"
+      }
+    </script>
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="none" id="highlight_theme_light" />
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="/assets/img/favicon.ico"/>
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://www.andy-wenk.de/blog/2014/bundler-problem-with-git-source/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark" />
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="https://www.andy-wenk.de/">Andy Wenk</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">About</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog/">Blog<span class="sr-only">(current)</span></a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/activities/">Activities</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/">Publications</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <div class="toggle-container">
+                <a id="light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Bundler problem with git: source</h1>
+    <p class="post-meta">June 11, 2014</p>
+    <p class="post-tags">
+      <a href="/blog/2014"> <i class="fas fa-calendar fa-sm"></i> 2014 </a>
+        ·  
+        <a href="/blog/tag/rails">
+          <i class="fas fa-hashtag fa-sm"></i> rails</a>  
+          <a href="/blog/tag/ruby">
+          <i class="fas fa-hashtag fa-sm"></i> ruby</a>  
+          
+        ·  
+        <a href="/blog/category/Rails">
+          <i class="fas fa-tag fa-sm"></i> Rails</a>  
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    <p>Starting with a fresh Rails application I stumbled upon a confusing problem. I started to integrate the gem <a href="https://github.com/melvinsembrano/cms-fortress" target="_blank" rel="noopener noreferrer">cms-fortress</a> as an extension for the quite cool <a href="https://github.com/comfy/comfortable-mexican-sofa" target="_blank" rel="noopener noreferrer">ComfortableMexicanSofa</a> CMS. The integration in the Gemfile looked like this (the source is now our <a href="https://github.com/sumcumo/cms-fortress" target="_blank" rel="noopener noreferrer">fork</a> on github):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem 'cms-fortress', :git =&gt; 'git@github.com:sumcumo/cms-fortress.git', :branch =&gt; 'master'
+</code></pre></div></div>
+
+<p>Straight forward, but Rails was not able to use the gem. The error message when starting Rails was:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~/p/s/kenny git:cms-fortress ❯❯❯ rails s
+git@github.com:sumcumo/cms-fortress.git (at master) is not yet checked out. Run `bundle install` first.
+git@github.com:sumcumo/cms-fortress.git (at master) is not yet checked out. Run `bundle install` first.
+no ruby in PATH/CONFIG
+=&gt; Booting Puma
+[...]
+</code></pre></div></div>
+
+<h2 id="bundler-config-files">Bundler config files</h2>
+
+<p>After trying out various possible solutions with no luck, I thought it must have to do with a setting in a config file. Basically there are two config files. One is <em>~/.bundle/config</em> and the other one is in <em>RAILS_ROOT/.bundle/config</em>. Actually nothing obviously wrong in there. Removing them did not help.</p>
+
+<h2 id="bundler-cache">Bundler cache</h2>
+
+<p>There are various places where bundler is caching gems. One is <em>~/.gems/cache/bundler/</em>, another is <em>$GEM_HOME/cache/bundler/</em> where <em>$GEM_HOME</em> is the directory when using <em>rvm</em> and <em>gemsets</em> and finally there is <em>RAILS_ROOT/vendor/cache/</em>. I am not sure when and if I cleared the cache directories. But it did not help anyway.</p>
+
+<h2 id="gemfilelock">Gemfile.lock</h2>
+
+<p>Bundler is writing all used gems and it’s dependencies into the <em>Gemfile.lock</em> file. There are circumstances, where you may want to delete that file if you have some strange behaviour like not being able to install gems or during a deployment process with capistrano. No problems arise when you delete the file because when running <em>bundle install</em> it will be recreated. Deleteing the file and recreating it did not help either.</p>
+
+<h2 id="more-confusion">More confusion</h2>
+
+<p>After several attempts to fix the problem, checking out the <a href="http://bundler.io/v1.6/man/bundle.1.html" target="_blank" rel="noopener noreferrer">bundler documentation</a>, deleting the gemset with <em>rvm gemset delete GEMSET_NAME</em> and finally removing the Ruby version completely and reinstalling it, I was stuck. My attempts to find a solution at Google was also not fruitful … beside one SO entry:</p>
+
+<p><a href="http://stackoverflow.com/questions/22554365/bundle-doesnt-want-to-install-a-gem-not-yet-checked-out" target="_blank" rel="noopener noreferrer">Bundle doesn’t want to install a gem (not yet checked out)</a></p>
+
+<p>Andreas Lyngstad pointed to the <a href="https://github.com/bundler/bundler/blob/master/ISSUES.md" target="_blank" rel="noopener noreferrer">Bundler issue page</a> and it’s troubleshooting section. It does recommend to fire these commands:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># remove user-specific gems and git repos
+rm -rf ~/.bundle/ ~/.gem/bundler/ ~/.gems/cache/bundler/
+
+# remove system-wide git repos and git checkouts
+rm -rf $GEM_HOME/bundler/ $GEM_HOME/cache/bundler/
+
+# remove project-specific settings
+rm -rf .bundle/
+
+# remove project-specific cached gems and repos
+rm -rf vendor/cache/
+
+# remove the saved resolve of the Gemfile
+rm -rf Gemfile.lock
+
+# uninstall the rubygems-bundler and open_gem gems
+rvm gemset use global # if using rvm
+gem uninstall rubygems-bundler open_gem
+
+# try to install one more time
+bundle install
+</code></pre></div></div>
+
+<p>I did follow the recommendation and deleted and recreated the gemset again in addition. This is done with:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rvm gemset delete GEMSET_NAME
+rvm use ruby-2.1.1@GEMSET_NAME --create
+</code></pre></div></div>
+
+<p>Then I ran <em>bundle install</em> and afterwards <em>rails s</em> … but:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Warning: You're using Rubygems 2.0.14 with Spring. Upgrade to at least Rubygems 2.1.0 and run `gem pristine --all` for better startup performance.
+Could not find json-1.8.1 in any of the sources
+Run `bundle install` to install missing gems.
+</code></pre></div></div>
+
+<p>This is completely nonsens because I am using rubgygems 2.2.2 what is confirmed by the following check:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem -v
+2.2.2
+</code></pre></div></div>
+
+<p>Strangely, when stepping out of the directory and reentering again and trying to start the application … ta ta … everything worked. Uh …</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>My conslusion is, that there have been basically two problems. First, bundler is installed globally and is used with the global configuration. And in addition, there is the rubygems-bundler gem what imho caused problems. Because when examining the <a href="https://github.com/mpapis/rubygems-bundler" target="_blank" rel="noopener noreferrer">README</a> of the gem you will find</p>
+
+<blockquote>
+  <p><em>Generally, this gem is not needed on RubyGems &gt;= 2.2.0.</em></p>
+</blockquote>
+
+<p>That means removing the gem did help. Furthermore there must have been some sttings or cached stuff what was forcing these problems. Removing everything did help at the end … I think and hope.</p>
+
+<p>But why in the world did the above output say:</p>
+
+<blockquote>
+  <p><em>Warning: You’re using Rubygems 2.0.14 …</em></p>
+</blockquote>
+
+<p>I suspect that there is a mismatch when creating a fresh gemset with the used rubygems version. And this was resolved, when reinitialising the gemset with</p>
+
+<blockquote>
+  <p><em>rvm use ruby-2.1.1@GEMSET_NAME</em></p>
+</blockquote>
+
+<p>To be honest, I have no clue why that problem occured.</p>
+
+<h2 id="i-hope-it-helps-at-least">I Hope it helps at least</h2>
+
+<p>Unfortunately this post is not explaining why the problems occured. I have some ideas but am not entirely sure. At least, I could find a way to solve the problem for me and hope that it will solve also issues for some other folks also. It’s unfortunate, that it feels a bit like a black box with no way to shine into it …</p>
+
+<p>Thanks also to my fellow colleague Moritz for helping investigating this.</p>
+
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2022 Andy  Wenk. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme.
+Last updated: September 23, 2022.
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+  <script src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script src="/assets/js/common.js"></script>
+
+    
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K0TB1250EC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-K0TB1250EC');
+  </script>
+  </body>
+</html>

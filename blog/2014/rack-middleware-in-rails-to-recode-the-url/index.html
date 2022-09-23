@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
+    
+    <!-- Website verification -->
+    <meta name="google-site-verification" content="r_l7npAYPpfg7XREZHkXx3kPCug6F1CnQILCoPX4KOU" />
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rack middleware in Rails to recode the URL | Andy Wenk</title>
+    <meta name="author" content="Andy  Wenk" />
+    <meta name="description" content="Rack middleware in Rails to recode the URL" />
+    <meta name="keywords" content="andywenk, digitalblast, sumcumo, CTO" />
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+      {
+        "author":
+        {
+          "@type": "Person",
+          "name": "Andy  Wenk"
+        },
+        "url": "https://www.andy-wenk.de/blog/2014/rack-middleware-in-rails-to-recode-the-url/",
+        "@type": "WebSite",
+        "description": "Rack middleware in Rails to recode the URL",
+        "headline": "Rack middleware in Rails to recode the URL",
+        "sameAs": ["https://scholar.google.com/citations?user=dqdo9MgAAAAJ", "https://github.com/andywenk", "https://www.linkedin.com/in/andreas-wenk-88773a239", "https://www.digitalblast.com"],
+        "name": "Andy  Wenk",
+        "@context": "https://schema.org"
+      }
+    </script>
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="none" id="highlight_theme_light" />
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="/assets/img/favicon.ico"/>
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://www.andy-wenk.de/blog/2014/rack-middleware-in-rails-to-recode-the-url/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark" />
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="https://www.andy-wenk.de/">Andy Wenk</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">About</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog/">Blog<span class="sr-only">(current)</span></a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/activities/">Activities</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/">Publications</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <div class="toggle-container">
+                <a id="light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Rack middleware in Rails to recode the URL</h1>
+    <p class="post-meta">June 11, 2014</p>
+    <p class="post-tags">
+      <a href="/blog/2014"> <i class="fas fa-calendar fa-sm"></i> 2014 </a>
+        ·  
+        <a href="/blog/tag/rails">
+          <i class="fas fa-hashtag fa-sm"></i> rails</a>  
+          <a href="/blog/tag/ruby">
+          <i class="fas fa-hashtag fa-sm"></i> ruby</a>  
+          
+        ·  
+        <a href="/blog/category/Rails">
+          <i class="fas fa-tag fa-sm"></i> Rails</a>  
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    <p>I have created the <a href="https://www.qraex.de" target="_blank" rel="noopener noreferrer">Qräx online shop</a> for a good friend. During the last days, a lot of exceptions were thrown. As the application is quite small I do not use a bug tracker but send exception emails to my mailbox. Keep it simple.</p>
+
+<p>The content of the exception email is looking like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Fehler in Qraex production:
+
+PG::InvalidTextRepresentation: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...artridge_id FROM "printer_cartridges"  WHERE (printer_id='')
+                                                                    ^
+: SELECT cartridge_id FROM "printer_cartridges"  WHERE (printer_id='')
+
+* Aktion:   inkshop#show_qraex_products
+* Client:   37.16.72.124
+* Session:
+* Request:  /tintenshop/tintenstrahl_drucker_produkte/hp/PSC/HP-56/PSC+2510?page=2
+* Knoten:   nms02
+* Prozess:  23810
+</code></pre></div></div>
+
+<p>I wondered where the URL is coming from because the <em>+</em> sign in the URL should be a <em>%20</em> what is a blank.</p>
+
+<p>The Client is nearly always the same. So I checked the webserver log files and recognized, that it is a bot from <a href="http://archivethe.net" target="_blank" rel="noopener noreferrer">http://archivethe.net</a>. The log entries are looking like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>37.16.72.124 - - [08/Jun/2014:08:42:37 +0200] "GET /tintenshop/tintenstrahl_drucker/hp/OfficeJet+D,+E,+G,+H HTTP/1.1" 500 5493 "-" "Mozilla/5.0 (compatible; memorybot/1.20.71 +http://archivethe.net/en/index.php/about/internet_memory1 on behalf of DNB)" "-"
+</code></pre></div></div>
+
+<h2 id="what-to-do">What to do?</h2>
+
+<p>I was thinking about where the bot found the URL’s and I understood, that they have been received from the <a href="https://www.qraex.de/sitemap.xml" target="_blank" rel="noopener noreferrer">sitemap.xml</a>. A short check showed, that the sitemap has entries like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;url&gt;
+    &lt;loc&gt;
+        https://www.qraex.de/tintenshop/anfrage_stellen/drucker/Hewlett+Packard,+OfficeJet+7100
+    &lt;/loc&gt;
+    &lt;priority&gt;0.0004&lt;/priority&gt;
+&lt;/url&gt;
+</code></pre></div></div>
+
+<p>Ok - my fault. I guess I made a mistake when generating the sitemap. That means blocking the IP from the bot would be the wrong path.</p>
+
+<h2 id="fixing-the-problem">Fixing the problem</h2>
+
+<p>The Rails application is using the part from the URL to make a lookup to the database. But the <em>+</em> sign in there is completely wrong. As mentioned before it should be <em>%20</em>. I decided to find a way to recode the URL for each GET request.</p>
+
+<p>Doing this in the webserver is possible but not too sexy. The other idea would be to use a gem for rewriting the URL. Nah, to heavy. The simplest possible solution is to write a very small Rack middleware and put it into the Rails Middleware stack.</p>
+
+<h2 id="the-code">The code</h2>
+
+<p>I will not dig deeper into <a href="http://rack.github.io/" target="_blank" rel="noopener noreferrer">Rack</a> and the <a href="http://guides.rubyonrails.org/rails_on_rack.html" target="_blank" rel="noopener noreferrer">Rails middleware</a> stack. What you have to know is, that the middleware has to be put together in a special order. If my middleware would be included too early, the application would crash.</p>
+
+<p>I found out that a good place is after <em>Rack::ETag</em>. I called the middleware <em>RecodeUrl</em>. When checking the existing middleware, you will see this list:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>use ActionDispatch::Static
+use Rack::Lock
+use #&lt;ActiveSupport::Cache::Strategy::LocalCache::Middleware:0x0000010ab81ae0&gt;
+use Rack::Runtime
+use Rack::MethodOverride
+use ActionDispatch::RequestId
+use Rails::Rack::Logger
+use ActionDispatch::ShowExceptions
+use ActionDispatch::DebugExceptions
+use BetterErrors::Middleware
+use ActionDispatch::RemoteIp
+use ActionDispatch::Reloader
+use ActionDispatch::Callbacks
+use ActiveRecord::ConnectionAdapters::ConnectionManagement
+use ActiveRecord::QueryCache
+use ActionDispatch::Cookies
+use ActionDispatch::Session::CacheStore
+use ActionDispatch::Flash
+use ActionDispatch::ParamsParser
+use ActionDispatch::Head
+use Rack::ConditionalGet
+use Rack::ETag
+use RecodeUrl
+use ActionDispatch::BestStandardsSupport
+use Warden::Manager
+use Bullet::Rack
+use MetaRequest::Middlewares::MetaRequestHandler
+use MetaRequest::Middlewares::Headers
+use MetaRequest::Middlewares::AppRequestHandler
+run Qraex::Application.routes
+</code></pre></div></div>
+
+<p>The code for the middleware is a simple Ruby class and is placed in lib/recode_url.rb:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class RecodeUrl
+  def initialize(app, options = {})
+    @app = app
+  end
+
+  def call(env)
+    env['PATH_INFO'] = env['PATH_INFO'].gsub('+','%20') if env['REQUEST_METHOD'] == 'GET'
+    @app.call(env)
+  end
+end
+</code></pre></div></div>
+
+<p>The <em>initialize</em> and <em>call</em> methods are Rack standard and have to be there (see the documentation). Every attribute is located in the Hash <em>env</em>. So waht I do with the code above is simply changing the <em>+</em> sign to <em>%20</em> in <em>env[‘PATH_INFO’]</em> if it is a <em>GET</em> request. Nothing more.</p>
+
+<p>To activate the middleware, an entry in <em>config/application.rb</em> is neccessary:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>module Qraex
+  class Application &lt; Rails::Application
+    [... other config settings ommited]
+    require 'recode_url'
+    config.middleware.insert_after Rack::ETag, RecodeUrl
+  end
+end
+</code></pre></div></div>
+
+<p>When the server is started and the URL</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>http://localhost:3000/tintenshop/tintenstrahl_drucker/hp/Business+InkJet
+</code></pre></div></div>
+
+<p>is called, it will be recoded to</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>http://localhost:3000/tintenshop/tintenstrahl_drucker/hp/Business%20InkJet
+</code></pre></div></div>
+
+<p>internally and everything is fine.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Rack middleware is an extremely simple but powerfull tool to get special jobs done. Every Rails developer should understand, that Rails is a Rack application. And furthermore most of the Ruby web-frameworks like <a href="http://www.sinatrarb.com/" target="_blank" rel="noopener noreferrer">sinatra</a> and <a href="http://www.padrinorb.com/" target="_blank" rel="noopener noreferrer">padrino</a> are Rack applications too. The great advantage is the fact, that it is possible to hook into the HTTP requests before the Rails stack is gone through.</p>
+
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2022 Andy  Wenk. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme.
+Last updated: September 23, 2022.
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+  <script src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script src="/assets/js/common.js"></script>
+
+    
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K0TB1250EC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-K0TB1250EC');
+  </script>
+  </body>
+</html>
