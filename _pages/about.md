@@ -6,7 +6,7 @@ subtitle: MS student in CS at UC Santa Barbara<br /><a href="https://santabarbar
 
 profile:
   align: right
-  image: Saikumar_Yadugiri.jpeg
+  image: Saikumar_Yadugiri.JPG
   image_cicular: true # crops the image to make it circular
   address: >
     <p>Name in Telugu:</p>

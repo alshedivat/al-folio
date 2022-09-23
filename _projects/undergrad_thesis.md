@@ -7,7 +7,7 @@ img: assets/img/Thesis_Cover.jpg
 importance: 1
 category: Thesis
 github: https://github.com/saikumarysk/BlockchainForBusinessNetworks
-report_pdf: Thesis_report.pdf
+report_pdf: Undergrad_Thesis_report.pdf
 ---
 
 :warning: Hyperledger Composer is deprecated as of August 2019 :disappointed: :warning:

@@ -9,10 +9,10 @@ category: Class Projects
 github: https://github.com/saikumarysk/Descartes
 ---
 
-In this project, I wrote a new cipher called "Descartes" named after the French mathematician and philosopher René Descartes.
-The cipher is feistel cipher that uses 128-bit key and runs in 10 layers.
-The cipher also uses 4 different 16-by-4 strongly-linear compression s-boxes.
-These s-boxes do not obey SAC property.
+In this project, I wrote a new cipher called "Descartes," named after the French mathematician and philosopher René Descartes.
+The cipher is a Feistel cipher that uses a 128-bit key and runs in 7 rounds.
+The cipher also uses four different 16-by-4 strongly-linear compression s-boxes.
+These s-boxes take 96-bit sub-key as input and do not obey the SAC property.
 The cipher also utilizes a 96-by-64 diffusion layer.
 
 <div class="row">
@@ -24,9 +24,9 @@ The cipher also utilizes a 96-by-64 diffusion layer.
     A single round in Descartes
 </div>
 
-Looking at the picture, each round in the encryption layer uses $$L_{i+1} = R_i$$ & $$R_{i+1} = L_i \oplus F(R_i, K_i)$$ whereas the decryption layer uses $$R_i = L_{i+1}$$ & $$L_i = R_{i+1} \oplus F(L_{i+1}, K_i)$$.
+Looking at the picture, each round in the encryption layer uses $$L_{i+1} = R_i$$ & $$R_{i+1} = L_i \oplus F(R_i, K_i)$$, whereas the decryption layer uses $$R_i = L_{i+1}$$ & $$L_i = R_{i+1} \oplus F(L_{i+1}, K_i)$$.
 I implemented the cipher and checked the non-linearity of s-boxes by calculating its similarity with any affine transformations.
-The linear approximations and the differential approximations are also present in the repo.
+The linear approximations, differential approximations, and timing attack information are also present in the repo.
 
 <div class='social'>
 <div class="contact-icons">
