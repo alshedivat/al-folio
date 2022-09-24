@@ -25,6 +25,15 @@ The list of talks, presentations, and public appearances.
 
 ## 2022
 
+* **Combined International Workshop on Interactive Urgent Supercomputing (UrgentHPC), ACM/IEEE Supercomputing (SC22)**, November, Dallas, USA (to appear).  
+_Interactive Computing with Serverless Functions in rFaaS_, workshop lighting talk.  
+
+* **6th Workshop on Interoperability of Supercomputing and Cloud Technologies (SuperCompCloud), ACM/IEEE Supercomputing (SC22)**, November, Dallas, USA (to appear).  
+_Software Resource Disaggregation for HPC with Serverless Computing_, workshop paper lighting talk.  
+
+* **ACM Student Research Competition at ACM/IEEE Supercomputing (SC22)**, November, Dallas, USA (to appear).
+_Software Resource Disaggregation for HPC with Serverless Computing_, research poster.
+
 * **SIAM Conference on Parallel Processing for Scientific Computing (PP22)**, February (virtual).  
 _Extracting Clean Performance Models from Tainted Programs_, minisymposium presentation.
 [Slides](/assets/pdf/2022_perf_taint_siampp_slides.pdf).
@@ -46,7 +55,7 @@ _Extracting Clean Performance Models from Tainted Programs_, research paper pres
 Presentation of the [perf-taint project](/projects/perf_taint) results.  
 [Slides](/assets/pdf/2019_perf_taint_sppexa.pdf).
 
-* **ACM Student Research Competition at ACM/IEEE Supercomputing**, November, Denver, USA.  
+* **ACM Student Research Competition at ACM/IEEE Supercomputing (SC19)**, November, Denver, USA.  
 _perf-taint: Taint Analysis for Automatic Many-Parameter Performance Modeling_, research poster.  
 **Gold Medal presentation**.  
 [Poster](/assets/pdf/2019_perf_taint_poster.pdf), [finals presentation slides](/assets/pdf/2019_perf_taint_slides.pdf).
@@ -75,7 +84,7 @@ _Parallel Prefix Algorithms for the Registration of Arbitrarily Long Electron Mi
 _Using SYCL as an Implementation Framework for HPX Compute_, research paper presentation.  
 [Slides](/assets/pdf/2017_hpx_compute_iwocl_slides.pdf).
 
-* **ACM Student Research Competition at ACM/IEEE Supercomputing 2017**, November, Denver, USA.  
+* **ACM Student Research Competition at ACM/IEEE Supercomputing 2017 (SC17)**, November, Denver, USA.  
 _Parallel Prefix Algorithms for the Registration of Arbitrarily Long Electron Micrograph Series_, poster.  
 [Poster](/assets/pdf/2017_prefix_sum_poster_SC.pdf).
 
