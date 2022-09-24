@@ -127,6 +127,7 @@
         
           <!-- Links/Buttons -->
           <div class="links">
+            <i class="fas fa-book"></i> <!--<b>Paper</b> -->
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
@@ -156,8 +157,29 @@
           {%- if entry.blog %}
             <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
           {%- endif %}
+          {%- if entry.website %}
+            <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+          {%- endif %}
+          </div>
+
+          <div class="links">
+          {%- if entry.code or entry.docker or entry.artifact %}
+          <i class="fas fa-file-code"></i> <!-- <b>Code</b> -->
+          {%- endif %}
           {%- if entry.code %}
             <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+          {%- endif %}
+          {%- if entry.docker %}
+            <a href="https://hub.docker.com/repository/docker/{{ entry.docker }}" class="btn btn-sm z-depth-0" role="button">Docker</a>
+          {%- endif %}
+          {% if entry.artifact %}
+            <a href="{{ entry.artifact }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Artifact</a>
+          {% endif %}
+          </div>
+
+          <div class="links">
+          {%- if entry.poster or entry.slides or entry.recording %}
+          <i class="fas fa-chalkboard"></i> <!-- <b>Presentation</b> -->
           {%- endif %}
           {%- if entry.poster %}
             {% if entry.poster contains '://' -%}
@@ -170,21 +192,12 @@
             {% if entry.slides contains '://' -%}
             <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
             {%- else -%}
-            <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+            <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button"><i class="fa-solid fa-presentation-screen"></i>Slides</a>
             {%- endif %}
           {%- endif %}
           {% if entry.recording %}
             <a href="{{ entry.recording }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Recording</a>
           {% endif %}
-          {% if entry.artifact %}
-            <a href="{{ entry.artifact }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Artifact</a>
-          {% endif %}
-          {%- if entry.docker %}
-            <a href="https://hub.docker.com/repository/docker/{{ entry.docker }}" class="btn btn-sm z-depth-0" role="button">Docker</a>
-          {%- endif %}
-          {%- if entry.website %}
-            <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
-          {%- endif %}
           </div>
 
           {% if entry.abstract -%}
