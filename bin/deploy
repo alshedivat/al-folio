@@ -102,6 +102,9 @@ find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name 'CNAME' ! -name '.giti
 mv _site/* .
 rm -R _site/
 
+# Create `.nojekyll` file (bypass GitHub Pages Jekyll processing)
+touch .nojekyll
+
 # Push to DEPLOY_BRANCH
 git add -fA
 git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"

@@ -8,6 +8,7 @@ subtitle: High-performance computing, serverless, and all that jazz!
 profile:
   align: right
   image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
   address: >
     <p>SPCL</p>
     <p>Department of Computer Science (D-INFK)</p>

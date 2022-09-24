@@ -5,7 +5,6 @@ title: students
 description:
 nav: true
 years: [2021, 2020, 2019]
-year: [2021]
 nav_order: 4
 ---
 
