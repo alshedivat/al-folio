@@ -5,7 +5,8 @@
   pdf = {2014_prism_gpu_bachelor_thesis.pdf},
   slides = {2014_prism_gpu_bachelor_thesis_slides.pdf},
   journal = {Bachelor Thesis},
-  abstract = {This project provides a new simulator engine for the PRISM model checker, an enhancement allowing for faster approximate model checking. The simulator is designed as a substitute for the current engine for simple integration with GUI and CLI. The engine was implemented with the OpenCL, an open standard for massively parallel computing on heterogeneous platforms. The engine generates a proper OpenCL kernel for a PRISM model, which will execute on OpenCL devices. This approach enables the generation of samples both on CPU and GPU. The performance and correctness tests included three case studies taken from the official PRISM benchmark. The results showed a huge gain in performance over the existing simulator; in the most extreme case, the new engine, working on seven years old NVIDIA GPU, verified a test property in 20 seconds, where the existing simulator engine needed over two hours.}
+  abstract = {This project provides a new simulator engine for the PRISM model checker, an enhancement allowing for faster approximate model checking. The simulator is designed as a substitute for the current engine for simple integration with GUI and CLI. The engine was implemented with the OpenCL, an open standard for massively parallel computing on heterogeneous platforms. The engine generates a proper OpenCL kernel for a PRISM model, which will execute on OpenCL devices. This approach enables the generation of samples both on CPU and GPU. The performance and correctness tests included three case studies taken from the official PRISM benchmark. The results showed a huge gain in performance over the existing simulator; in the most extreme case, the new engine, working on seven years old NVIDIA GPU, verified a test property in 20 seconds, where the existing simulator engine needed over two hours.},
+  abbr = {Thesis}
 }
 
 @Article{doi:10.3109/10929088.2014.891657,
@@ -23,7 +24,8 @@
   abstract = {Non-invasive surface registration methods have been developed to register and track breathing motions in a patient's abdomen and thorax. We evaluated several different registration methods, including marker tracking using a stereo camera, chessboard image projection, and abdominal point clouds. Our point cloud approach was based on a time-of-flight (ToF) sensor that tracked the abdominal surface. We tested different respiratory phases using additional markers as landmarks for the extension of the non-rigid Iterative Closest Point (ICP) algorithm to improve the matching of irregular meshes. Four variants for retrieving the correspondence data were implemented and compared. Our evaluation involved 9 healthy individuals (3 females and 6 males) with point clouds captured in opposite breathing phases (i.e., inhalation and exhalation). We measured three factors: surface distance, correspondence distance, and marker error. To evaluate different methods for computing the correspondence measurements, we defined the number of correspondences for every target point and the average correspondence assignment error of the points nearest the markers.},
   html = {https://doi.org/10.3109/10929088.2014.891657},
   pdf = {2014_respiratory_motion_cas_paper.pdf},
-  bibtex_show = {True}
+  bibtex_show = {True},
+  abbr = {CAS}
 }
 
 @inproceedings{2016gpu,
@@ -49,7 +51,8 @@
   pdf = {2016_prism_gpu_csp_paper.pdf},
   slides = {2016_prism_gpu_csp_slides.pdf},
   abstract = {We describe a GPGPU–based Monte Carlo simulator integrated with Prism. It supports Markov chains with discrete or continuous time and a subset of properties expressible in PCTL, CSL and their variants extended with rewards. The simulator allows an automated statistical verification of results obtained using Prism’s formal methods.},
-  bibtex_show = {True}
+  bibtex_show = {True},
+  abbr = {CS&P}
 }
 
 @inproceedings{2017sycl,
@@ -71,7 +74,8 @@
   slides = {2017_hpx_compute_iwocl_slides.pdf},
   html = {https://dl.acm.org/doi/10.1145/3078155.3078187},
   pdf = {2017_hpx_compute_iwocl_paper.pdf},
-  bibtex_show = {True}
+  bibtex_show = {True},
+  abbr = {IWOCL}
 }
 
 @inproceedings{10.1145/3168804,
@@ -93,7 +97,8 @@
   arxiv = {1804.04021},
   html = {https://dl.acm.org/doi/10.1145/3168804},
   pdf = {2018_matrix_chain_cgo_paper.pdf},
-  bibtex_show = {True}
+  bibtex_show = {True},
+  abbr = {CGO}
 }
 
 @InProceedings{10.1007/978-3-030-47956-5_15,
@@ -118,7 +123,8 @@
   isbn="978-3-030-47956-5",
   html = {https://link.springer.com/chapter/10.1007/978-3-030-47956-5_15},
   pdf = {2020_extrapeak_paper.pdf},
-  bibtex_show = {True}
+  bibtex_show = {True},
+  abbr = {Book Chapter}
 }
 
 @article{2017prefixsum,
@@ -129,7 +135,8 @@
   poster = {2017_prefix_sum_poster_SC.pdf},
   abstract = {Recent advances in the technology of transmission electron microscopy have allowed for a more precise visualization of materials and physical processes, such as metal oxidation. Nevertheless, the quality of information is limited by the damage caused by an electron beam, movement of the specimen or other environmental factors. A novel registration method has been proposed to remove those limitations by acquiring a series of low dose microscopy frames and performing a computational registration on them to understand and visualize the sample. This process can be represented as a prefix sum with a complex and computationally intensive binary operator and a parallelization is necessary to enable processing long series of microscopy images. With our parallelization scheme, the time of registration of results from ten seconds of microscopy acquisition has been decreased from almost thirteen hours to less than seven minutes on 512 Intel IvyBridge cores.},
   html = {https://sc17.supercomputing.org/SC17%20Archive/src_poster/src_poster_pages/spost118.html},
-  journal = {ACM Student Research Competition at ACM/IEEE Supercomputing}
+  journal = {ACM Student Research Competition at ACM/IEEE Supercomputing},
+  abbr = {ACM SRC}
 }
 
 @article{2017masterthesis,
@@ -140,7 +147,8 @@
   journal = {Master Thesis},
   abstract = {Recent advances in the technology of transmission electron microscopy have allowed for a more precise visualization of materials and physical processes, such as metal oxidation. Nevertheless, the quality of information is limited by the damage caused by an electron beam, movement of the specimen or other environmental factors. A novel registration method has been proposed to remove those limitations by acquiring a series of low dose microscopy frames and performing a computational registration on them to understand and visualize the sample. This process can be represented as a prefix sum with a complex and computationally intensive binary operator and a parallelization is necessary to enable processing long series of microscopy images. With our parallelization scheme, the time of registration of results from ten seconds of microscopy acquisition has been decreased from almost thirteen hours to less than seven minutes on 512 Intel IvyBridge cores.},
   arxiv = {1712.02533},
-  bibtex_show = {True}
+  bibtex_show = {True},
+  abbr = {Thesis}
 }
 
 @misc{2021rfaas,
@@ -153,7 +161,8 @@
   primaryClass={cs.DC},
   abstract={The rigid MPI programming model and batch scheduling dominate high-performance computing. While clouds brought new levels of elasticity into the world of computing, supercomputers still suffer from low resource utilization rates. To enhance supercomputing clusters with the benefits of serverless computing, a modern cloud programming paradigm for pay-as-you-go execution of stateless functions, we present rFaaS, the first RDMA-aware Function-as-a-Service (FaaS) platform. With hot invocations and decentralized function placement, we overcome the major performance limitations of FaaS systems and provide low-latency remote invocations in multi-tenant environments. We evaluate the new serverless system through a series of microbenchmarks and show that remote functions execute with negligible performance overheads. We demonstrate how serverless computing can bring elastic resource management into MPI-based high-performance applications. Overall, our results show that MPI applications can benefit from modern cloud programming paradigms to guarantee high performance at lower resource costs.},
   code={https://github.com/spcl/rFaaS/},
-  bibtex_show = {True}
+  bibtex_show = {True},
+  abbr = {arXiv}
 }
 
 @periodical{2020prefixsum,
@@ -174,7 +183,8 @@
   number={3},
   pages={523-535},
   doi={10.1109/TPDS.2021.3095230},
-  bibtex_show = {True}
+  bibtex_show = {True},
+  abbr = {TPDS}
 }
 
 @inproceedings{copik2020sebs,
@@ -200,7 +210,8 @@
   html = {https://dl.acm.org/doi/10.1145/3464298.3476133},
   recording = {https://www.youtube.com/watch?v=Z_CQfh0pQjc},
   docker = {spcleth/serverless-benchmarks},
-  bibtex_show = {True}
+  bibtex_show = {True},
+  abbr = {Middleware}
 }
 
 @article{2019perftaint,
@@ -213,7 +224,8 @@
   abstract = {Performance modeling is a well-known technique for understanding the scaling behavior of an application. Although the modeling process is today often automatic, it still relies on a domain expert selecting program parameters and deciding relevant sampling intervals. Since existing empirical methods attempt blackbox modeling, the decision on which parameters influence a selected part of the program is based on measured data, making empirical modeling sensitive to human errors and instrumentation noise. We introduce a hybrid analysis to mitigate the current limitations of empirical modeling, combining the confidence of static analysis with the ability of dynamic taint analysis to capture the effects of control-flow and memory operations. We construct models of computation and communication volumes that help the modeler to remove effects of noise and improve the correctness of estimated models. Our automatic analysis prunes irrelevant program parameters and brings an understanding of parameter dependencies which helps in designing the experiment.},
   html = {https://sc19.supercomputing.org/proceedings/src_poster/src_poster_pages/spostg110.html},
   journal = {ACM Student Research Competition at ACM/IEEE Supercomputing},
-  note = {Gold Medal in the competition}
+  note = {Gold Medal in the competition},
+  abbr = {ACM SRC}
 }
 
 @inproceedings{2021perftaint,
@@ -240,7 +252,8 @@
   slides = {2021_perf_taint_ppopp_slides.pdf},
   artifact = {https://zenodo.org/record/4381803},
   docker = {spcleth/perf-taint},
-  bibtex_show = {True}
+  bibtex_show = {True},
+  abbr = {PPoPP}
 }
 
 @inproceedings{besta2021graphminesuite,
@@ -259,7 +272,8 @@
   pdf={2021_gms_paper.pdf},
   artifact = {https://graphminesuite.spcl.inf.ethz.ch/},
   doi = {10.14778/3476249.3476252},
-  bibtex_show = {True}
+  bibtex_show = {True},
+  abbr = {VLDB}
 }
 
 @inproceedings{besta2021sisa,
@@ -278,7 +292,8 @@
   series = {MICRO '21},
   pdf={2021_micro_paper.pdf},
   artifact = {https://graphminesuite.spcl.inf.ethz.ch/},
-  bibtex_show = {True}
+  bibtex_show = {True},
+  abbr = {MICRO}
 }
 
 @inproceedings{schmid2022perfdetective,
@@ -300,7 +315,8 @@
   pdf = {2022_ics_schmid_perf_detective.pdf},
   html = {https://doi.org/10.1145/3524059.3532391},
   artifact = {https://doi.org/10.5445/IR/1000146001},
-  bibtex_show = {True}
+  bibtex_show = {True},
+  abbr = {ICS}
 }
 
 @misc{copik2022faaskeeper,
@@ -314,7 +330,8 @@
   copyright = {arXiv.org perpetual, non-exclusive license},
   code={https://github.com/spcl/faaskeeper/},
   pdf = {2022_faaskeeper_preprint.pdf},
-  bibtex_show = {True}
+  bibtex_show = {True},
+  abbr = {arXiv}
 }
 
 @misc{copik2022fmi,
@@ -323,7 +340,8 @@
   abstract = {Serverless functions provide elastic scaling with a fine-grained billing model. However, for distributed jobs that benefit from large-scale and dynamic parallelism, the lack of fast and cheap communication is a major limitation of FaaS computing. Individual functions do not communicate directly and group operations do not exist, and users resort to manual implementations of storage-based communication. We overcome this limitation and present the FaaS Message Interface (FMI). FMI is an easy-to-use, high-performance framework for general-purpose point-to-point and collective communication. We support different communication channels and offer a model-driven channel selection according to performance and cost expectations. We model the interface after MPI and show message passing can be integrated into serverless applications with minor changes. In our experiments, FMI can speed up communication for a distributed machine learning job by up to 162x while at the same time reducing cost by up to 941 times.},
   year = {2022},
   code={https://github.com/spcl/fmi/},
-  bibtex_show = {True}
+  bibtex_show = {True},
+  abbr = {arXiv}
 }
 
 @misc{copik2022disagg,
@@ -331,6 +349,7 @@
   title = {Software Resource Disaggregation for HPC with Serverless Computing},
   abstract = {The aggregated HPC resources with rigid allocation systems and programming models struggle to adapt to diverse and changing workloads. Thus, HPC systems fail to efficiently use the large pools of unused memory and increase the utilization of idle computing resources. Prior work attempted to increase the throughput and efficiency of supercomputing systems through workload co-location and resource disaggregation. However, these methods fall short of providing a solution that can be applied to existing systems without major hardware modifications and performance losses. In this paper, we use the new cloud paradigm of serverless computing to improve the utilization of supercom- puters. We show that the FaaS programming model satisfies the requirements of high-performance applications and how idle memory helps resolve cold startup issues. We demonstrate a software resource disaggregation approach where the co-location of functions allows to utilize idle cores and accelerators while retaining near-native performance.},
   year = {2022},
-  bibtex_show = {True}
+  bibtex_show = {True},
+  abbr = {arXiv}
 }
 

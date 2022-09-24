@@ -1,6 +1,47 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"PPoPP":
+  url: https://ppopp21.sigplan.org/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"arXiv":
+  url: https://arxiv.org/search/?query=Marcin+Copik&searchtype=author&source=header
+  color: "#00ab37"
+
+"ICS":
+  url: https://ics2022.github.io/
+  color: "#00369f"
+
+"MICRO":
+  color: "#00369f"
+
+"VLDB":
+  color: "#00369f"
+
+"Middleware":
+  color: "#00369f"
+
+"IWOCL":
+  color: "#00369f"
+
+"CGO":
+  color: "#00369f"
+
+"CS&P":
+  color: "#00369f"
+
+"TPDS":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=71
+  color: "#2698ba"
+
+"CAS":
+  url: https://www.tandfonline.com/journals/icsu21
+  color: "#2698ba"
+
+"Thesis":
+  color: "#873e23"
+
+"Book Chapter":
+  color: "#873e23"
+
+"ACM SRC":
+  color: "#e28743"
+
