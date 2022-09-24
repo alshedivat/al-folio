@@ -28,6 +28,9 @@
 "CS&P":
   color: "#00369f"
 
+"IMPACT":
+  color: "#00369f"
+
 "TPDS":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=71
   color: "#2698ba"
