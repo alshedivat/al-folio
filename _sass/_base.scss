@@ -133,13 +133,13 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
-  border: 1px solid $grey-color-light
+  border: 1px solid var(--global-divider-color);
   a:not(.active) {
     color: var(--global-text-color);
   }
@@ -286,7 +286,7 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid $grey-color-light;
+  border-top: 1px solid var(--global-divider-color);
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
@@ -323,7 +323,7 @@ footer.sticky-bottom {
 // Blog
 
 .header-bar {
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 3rem;
@@ -356,7 +356,7 @@ footer.sticky-bottom {
   margin-bottom: 40px;
   padding: 0;
   li {
-    border-bottom: 1px solid $grey-color-light;
+    border-bottom: 1px solid var(--global-divider-color);
     list-style: none;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -445,8 +445,8 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: $grey-color-dark;
-    border-bottom: 1px solid $grey-color-dark;
+    color: var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -473,8 +473,8 @@ footer.sticky-bottom {
     }
   }
   h2.year {
-    color: $grey-color-dark;
-    border-top: 1px solid $grey-color-dark;
+    color: var(--global-divider-color);
+    border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
     margin-bottom: -2rem;
