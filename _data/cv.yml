@@ -2,96 +2,109 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Marcin Copik
     - name: Languages
-      value: English, German
+      value: Polish, English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computer Science
+      institution: ETH Zürich, Zürich, Switzerland
+      year: in progress
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Core focus - high-performance solutions for serverless computing.
+        - Published three peer-reviewed publications and five preprints.
+    - title: MSc in Simulation Sciences
+      institution: RWTH Aachen University, Aachen, Germany
+      year: 2017
       description:
-        - Description 1.
-        - Description 2.
+        - Core focus - high-performance computing.
+
+    - title: BSc in Computer Science
+      institution: Silesian University of Technology, Gliwice, Poland
+      year: 2014
+      description:
+        - Core focus - software engineering.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Intern
+      institution: Microsoft Research, Redmond, USA
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Analyzing microarchitectural implications of serverless workloads.
+
+    - title: Research Assistant
+      institution: Louisiana State University, Baton Rouge, USA
+      year: 2016
       description:
-        - Description 1.
-        - Description 2.
+        - Integrating single-source GPU programming in HPX.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Software Engineer, Mentor
+      institution: Google Summer of Code
+      year: 2014-2018
       description:
+        - Improving statistical model checking in PRISM model checker.
+        - Integrating single-source GPU programming in HPX.
+        - Mentoring students working on HPX.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Student Assistant 
+      institution: Jülich Supercomputing Centre, Jülich, Germany
+      year: 2014-2016
+      description:
+        - Developing tools for performance analysis of parallel applications at Scalasca.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Student Assistant 
+      institution: Silesian University of Technology, Gliwice, Poland
+      year: 2012-2014
+      description:
+        - Implementing versions of ICP algorithm for registration of respiratory motion.
+
+    - title: Student Assistant 
+      institution: The Institute of Theoretical and Applied Informatics of the Polish Academy of Sciences, Gliwice, Poland
+      year: 2012-2013
+      description:
+        - Implementing GPU simulator of Markov Chains.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - AWS Cloud Credits for Research Applications
+        - Google Cloud Research Credits
+    - year: 2021
       items: 
-        - Max Planck Medal
+        - <b>Microsoft Research PhD Fellowship</b>
+    - year: 2019
+      items: 
+        - <b>Gold Medal at the ACM Student Research Competition</b>, ACM/IEEE Supercomputing
 
-- title: Academic Interests
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/spcl/serverless-benchmarks">SeBS, Serverless Benchmark Suite</a>
+      year: 2020 - now
+      description: A comprehensive benchmarking suite for serverless computing.
+    - title: <a href="https://github.com/spcl/rfaas">rFaaS</a>
+      year: 2021 - now
+      description: FaaS platform with RDMA acceleration and decentralized allocations for high-performance computing.
+    - title: <a href="https://github.com/spcl/faaskeeper">FaaSKeeper</a>
+      year: 2021 - now
+      description: Serverless storage system supporting ZooKeeper synchronizationd and consistency model.
+
+- title: Experience
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming Languages
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - <b>Experienced</b> C++, Python, Java
+        - <b>Familiar</b> Matlab, Julia, Mathematica, R, Pascal, JavaScript, x86 assembly.
+    - title: Technologies
+      items: 
+        - <b>Software Engineering</b> git, SVN, Mercurial, CMake, LLVM
+        - <b>HPC</b> MPI, OpenMP, OpenCL, SYCL, C++AMP, SLURM
+        - <b>Cloud</b> FaaS, Docker, Kubernetes, AWS
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
