@@ -256,8 +256,6 @@ filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, select
 max_author_limit: 3  # leave blank to always show all authors
 more_authors_animation_delay: 10  # more authors are revealed on click using animation; smaller delay means faster animation
 
->>>>>>> upstream/master
-
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
