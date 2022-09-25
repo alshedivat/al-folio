@@ -7,7 +7,7 @@ subtitle: <a href='#'>Electrical Engineering</a> Telkom University
 profile:
   align: right
   image: bramas.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: >
     <p>Cipayung, East Jakarta </p>
     
