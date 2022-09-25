@@ -13,19 +13,19 @@
         {%- if person.research-interests -%}
             <div class="person-interests"><b>Research Interests: </b>{{ person.research-interests }}</div>
         {%- endif -%}
-        {%- if person.education -%}
-            {% for course in person.education.courses %}
-                {%- capture c -%}
-                    {{ course.level }} {{ course.course }}, {{ course.institution }}, {{ course.year }}
-                {%- endcapture -%}
-                {%- if forloop.index == 1 -%}
-                    {%- capture education -%}{{ c }}{%- endcapture -%}
-                {%- else -%}
-                    {%- capture education -%}{{ education }}; {{ c }}{%- endcapture -%}
-                {%- endif -%}
-            {% endfor %}
-            <div><b>Education: </b>{{ education }}</div>
-        {%- endif -%}
+<!--         {%- if person.education -%} -->
+<!--             {% for course in person.education.courses %} -->
+<!--                 {%- capture c -%} -->
+<!--                     {{ course.level }} {{ course.course }}, {{ course.institution }}, {{ course.year }} -->
+<!--                 {%- endcapture -%} -->
+<!--                 {%- if forloop.index == 1 -%} -->
+<!--                     {%- capture education -%}{{ c }}{%- endcapture -%} -->
+<!--                 {%- else -%} -->
+<!--                     {%- capture education -%}{{ education }}; {{ c }}{%- endcapture -%} -->
+<!--                 {%- endif -%} -->
+<!--             {% endfor %} -->
+<!--             <div><b>Education: </b>{{ education }}</div> -->
+<!--         {%- endif -%} -->
       </div>
 
       <div class="row ml-1 mr-1 p-0">
