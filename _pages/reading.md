@@ -7,6 +7,10 @@ nav: false
 nav_order: 4
 ---
 
+2022
+
+* Genghis Khan and the Making of the Modern World - Jack Weatherford
+
 2021
 
 * P.G. Wodehouse Volume 1: The Jeeves Collection - P.G. Wodehouse
