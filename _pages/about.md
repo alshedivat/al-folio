@@ -14,6 +14,7 @@ profile:
     #<p>London E1 4NS</p>
 
 news: true  # includes a list of news items
+livetweets: true # includes live twitter feed
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
@@ -36,4 +37,5 @@ Our research themes include:
 Founded in 2021, COMMA is led by Charalampos Saitis. Members and collaborators come from across C4DM and the Schools of EECS, SEMS, and SMS, including PhD students on the [Artificial Intelligence & Music](http://aim.qmul.ac.uk/) (AIM), [Data-informed Audience-centric Media Engineering](https://dame.qmul.ac.uk/) (DAME), and [China Scholarship Council](https://www.qmul.ac.uk/scholarships/items/china-scholarship-council-scholarships.html) (QMUL-CSC) programmes.
 
 The lab has received funding from the [British Academy](https://www.thebritishacademy.ac.uk/), [SSHRC-ACTOR](https://www.actorproject.org/), and [QMUL's Centre for Public Engagement](https://www.qmul.ac.uk/publicengagement/about-engagement/centre-for-public-engagement/).
-<br>
+<br><br>
+
