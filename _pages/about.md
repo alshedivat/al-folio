@@ -11,9 +11,8 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p align="right">Fashion District</p>
-    <p align="right">Downtown Toronto</p>
-    <p align="right">Ontario, Canada</p>
+    <p align="right">Johanneberg</p>
+    <p align="right">Göteborg, Sweden</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
