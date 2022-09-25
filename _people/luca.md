@@ -24,6 +24,6 @@ education:
     institution: University of Padova
     year: 2015
 
-order: 3
+order: 2
 ---
 I am a PhD student at the [UKRI CDT in Artificial Intelligence and Music](https://www.aim.qmul.ac.uk). My PhD project sits at the intersection of music data science, gender and media studies, with the aim of implementing multimodal deep learning models for a critical analysis of gendered markers in large corpora of television adverts. Theorising music as a multimodal discourse enables us to account for the influence of gender-based market segmentation strategies on the selection of sound and music for advertising.

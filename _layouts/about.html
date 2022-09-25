@@ -39,28 +39,40 @@ layout: default
           <div class="clearfix">
             {{ content }}
           </div>
+          
+          <div class="row">
+          <div class="col-12 col-md-7">
+            {% if page.news -%}
+            <!-- News -->
+            {%- include news.html %}
+            {%- endif %}
+            {% if page.selected_papers -%}
+              <!-- Selected papers -->
+              {%- include selected_papers.html %}
+            {%- endif %}
+            {%- if page.social %}
+            <!-- Social -->
+            <div class="social">
+              <div class="contact-icons">
+              {% include social.html %}
+              </div>
 
-          {% if page.news -%}
-          <!-- News -->
-          {%- include news.html %}
-          {%- endif %}
-          {% if page.selected_papers -%}
-            <!-- Selected papers -->
-            {%- include selected_papers.html %}
-          {%- endif %}
-          {%- if page.social %}
-          <!-- Social -->
-          <div class="social">
-            <div class="contact-icons">
-            {% include social.html %}
+              <div class="contact-note">
+                {{ site.contact_note }}
+              </div>
+              
             </div>
+            {%- endif %}
+        </div>
+        
+        <div class="col-12 col-md-5">
+          {% if page.livetweets -%}
+            <!-- live Twitter feed -->
+            {%- include livetweets.html %}
+            {%- endif %}
+        </div>
+      </div>
 
-            <div class="contact-note">
-              {{ site.contact_note }}
-            </div>
-            
-          </div>
-          {%- endif %}
         </article>
 
 </div>

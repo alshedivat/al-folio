@@ -22,5 +22,5 @@ education:
     institution: Guildhall School of Music and Drama
     year: 2016
 redirect: https://benhayes.net/
-order: 2
+order: 3
 ---
