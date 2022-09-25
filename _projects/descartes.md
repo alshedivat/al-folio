@@ -9,6 +9,7 @@ category: Class Projects
 github: https://github.com/saikumarysk/Descartes
 ---
 
+This project is part of my graduate applied cryptography course taught by Prof. Chester Rebeiro in Jan-May 2017 semester.
 In this project, I wrote a new cipher called "Descartes," named after the French mathematician and philosopher René Descartes.
 The cipher is a Feistel cipher that uses a 128-bit key and runs in 7 rounds.
 The cipher also uses four different 16-by-4 strongly-linear compression s-boxes.

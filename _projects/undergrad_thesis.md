@@ -10,9 +10,19 @@ github: https://github.com/saikumarysk/BlockchainForBusinessNetworks
 report_pdf: Undergrad_Thesis_report.pdf
 ---
 
-:warning: Hyperledger Composer is deprecated as of August 2019 :disappointed: :warning:
+Blockchains are distributed ledger services introduced by Satoshi Nakamoto in 2009 to serve as a decentralized open-source anonymous ledger for his infamous cryptocurrency, Bitcoin.
+In my thesis advisor, Prof. Shweta Agrawal's words, blockchains are a beautiful blend of theory and practice to solve the ornate problem of distributed anonymous consensus.
+Although the infamy of Bitcoin has clouded the potential of blockchain, they are nevertheless one of the best ways to achieve consensus among unacquainted parties.
+In this project, we explored the intricacies of using blockchains as a distributed ledger to produce a consensus among intra-organizational and inter-organizational groups.
+This project was part of Phase I of a joint venture between IIT Madras, IIT Kanpur, and the Government of Uttar Pradesh, India, under the [National Blockchain Project](https://blockchain.cse.iitk.ac.in/index.html#about)'s umbrella.
 
-In this project, I worked on the
+To delve deeper into the project, I investigated several open source blockchain implementations and several blockchain settings to find an optimal framework that any organization can readily use as a ledger service.
+For organizational use, we need blockchains that are more privileged than the general purpose blockchains, unlike in the general purpose Bitcoin setting.
+Hence, we narrowed our search towards the permissioned blockchain setting, less restricted than the private and more privileged than the public blockchain setting.
+We also explored solutions for optimal blockchain settings, such as [Fruitchains](https://eprint.iacr.org/2016/916.pdf).
+We used IBM's Hyperledger project, an open-source permissioned blockchain implementation consisting of several suites of blockchain products.
+We utilized Hyperledger Fabric to build a database that stores CRUD operations on a blockchain and Hyperledger Composer to create a business application using NodeJS & AngularJS and expose several APIs that UI components can use.
+
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/Thesis_Composer.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -24,38 +34,33 @@ In this project, I worked on the
 <div class="caption">
     Brief overview of Hyperledger Composer and Hyperledger Fabric and their interplay in the project.
 </div>
+
+As part of the implementation, we created two business networks.
+A business network is a network of individuals who use the permissioned blockchain to make changes to their database.
+A central blockchain database stores these ledger updates.
+The first business network is a student record business network which consists of records of several students in IIT Madras.
+We derived as much information as possible from the institute to stress test the underlying Hyperledger Composer-based blockchain database can handle.
+We included several multimedia blobs and various dummy information about students to populate the database.
+In addition, we created a completely fake land record network in which individuals can add/view/modify land record information visible to all the network participants (technically, individuals with sufficient access).
+This network was used to stress test the implementation and has random values.
+The records themselves are stored in a LAMP stack to reduce the storage disadvantages inherent to blockchains.
+The report contains several details about implementation and testing.
+UI applications can use the various APIs exposed by these networks.
+The project's main aim was to demonstrate the use of blockchains as a viable method to store and access information to increase transparency and trust while reducing corruption.
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-md-0">
+        {% include figure.html path="assets/img/Thesis_REST.png" title="Exposed APIs" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+	    APIs exposed by our project for the student business network.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+**Work After Graduation:** I continued working on this project after I graduated from IIT Madras.
+I worked with several master's degree students who were building on my solution to use the Hyperledger composer-based blockchain database as secure storage for doctor-patient records, which can be accessed using a proxy re-encryption scheme to build anonymity and trust in the network.
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
-
+:warning: [Hyperledger Composer](https://hyperledger.github.io/composer/latest/) is deprecated as of August 2019 and reached its End of Life by August 2021 :disappointed: :warning:
 <div class='social'>
 <div class="contact-icons">
   Source Code: <a href="{{ page.github }}" title="GitHub"><i class="fab fa-github"></i></a>

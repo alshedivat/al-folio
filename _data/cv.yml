@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: April 10th, 1997
     - name: Languages
-      value: Telugu, Hindi, English, Tamil, Kannada
+      value: English, Telugu, Hindi, Tamil, Kannada
 
 - title: Academic Interests
   type: list
