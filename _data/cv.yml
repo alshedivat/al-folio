@@ -1,97 +1,84 @@
 - title: General Information
   type: map
   contents:
+  
     - name: Full Name
-      value: Albert Einstein
+      value: Zhihao LIU
+      
     - name: Date of Birth
-      value: 14th March 1879
+      value: 26th March 1993
+      
     - name: Languages
-      value: English, German
-
+      value: Chinese (汉语), English, Norsk(beginner)
+      
+    - name: IT skills
+  
+      value: Python, Matlab, QGIS, 
+  
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+  
+    - title: Master - Geoscience
+      institution: University of Oslo, Oslo, Norway
+      year: 2021-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Advanced Remote Sensing and Topographic Analysis
+        - Surveying, photogrammetry and spatial analysis
+        - Geophysical data-science
+        - Floods, Avalanches and Landslides
+        - The Surface Energy Balance in Cold Environments
+    - title: Bacherlor - Geodesy and Geomatics
+      institution: South West Petroleum University, Chengdu, P.R.C
+      year: 2010-2014
       description:
-        - Description 1.
-        - Description 2.
+        - With background in Engineering, GIS, GNSS and Cartography.
+        - Thesis: WebGIS System for Urban Infrastructures
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+  
+    - title: Field Technician & Geomatics professional
+      institution: BGP Offshore, CNPC
+      year: 2014 - 2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+        - Onboard seismic vessel as a (shift-lead) navigator and technician.
+          - Global operation: offshore Norway, UK, Morocco, Senegal, Nigeria...
+          - HSEQ awareness and multidisciplinary environment.
+        - Register of Licensed Surveyors of P.R.C.
+    - title: Assistant Party Chief
+      institution: BGP Offshore, CNPC
+      year: 2021.04
+      description: .
+  
+- title: Part-time and Volunteer
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
+  
+    - title: [IMO 2022](https://www.imo2022.org/) - Volunteer
+      year: 2022.07
+      description: For the first time, UiO (or Norway) hosted the 63rd International Mathematical Olympiad where we proudly represent the city of Oslo to welcome young mathematicians as a tour guide.
+    - title: IT Helper - UiO Geo
+      year: 2021.11 - Present
+      description: IT troubleshooting.
+  
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+  
+    - title: Cryosphere x Remote Sensing
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Snow and DEM
+        - Glaciers and periglacial geomorphology (not good at)
+    - title: Geospatial data science
       items:
-        - Description 1.
-        - Description 2.
+        - Open source GIS tools (staying away from ArcGIS)
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+  
+    - <u>Writing:</u> Combat fake news in climate change and Energy transition. 
+    - <u>Hobbies:</u> Marathon with 1h28 (21K) 3h29 (42K) of PB.
+
