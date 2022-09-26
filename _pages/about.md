@@ -25,7 +25,7 @@ I work on challenges at the intersection of large-scale computational biology an
 
 **I am recruiting PhD students with some background in parallel programming and interest in high-performance computing for computational sciences.** If you are a prospective PhD student, please read [the students page](https://giuliaguidi.github.io/students/). 
 
-I received my PhD in Computer Science from UC Berkeley in August 2022 under the supervision of [Aydın Buluç](http://people.eecs.berkeley.edu/~aydin/) and [Kathy Yelick](https://people.eecs.berkeley.edu/~yelick/) and my dissertation was title "Parallel Algorithms for De Novo Long Read Genome Assembly via Sparse Linear Algebra", you can read about it [here](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2022/EECS-2022-196.html) and watch the defense recording [here](https://www.youtube.com/watch?v=pMDICvkA5zw). 
+I received my PhD in Computer Science from UC Berkeley in August 2022 under the supervision of [Aydın Buluç](http://people.eecs.berkeley.edu/~aydin/) and [Kathy Yelick](https://people.eecs.berkeley.edu/~yelick/) and my dissertation is titled "Parallel Algorithms for De Novo Long Read Genome Assembly via Sparse Linear Algebra". You can read about it [here](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2022/EECS-2022-196.html) and watch the defense recording [here](https://www.youtube.com/watch?v=pMDICvkA5zw). 
 
 I received a [2020 SIGHPC Computational & Data Science Fellowship](https://www.sighpc.org/for-your-career/fellowships/2020-fellowship-winners?fbclid=IwAR2N8swtCYgNH3phRmrFtASSC42b4oN5joG1l5XHFSdnkMY6U4HvZt3olLE) and work as a Project Scientist in the Applied Math and Computational Sciences Division at Lawrence Berkeley National Laboratory.
 
