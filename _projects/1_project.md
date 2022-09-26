@@ -64,4 +64,4 @@ Adding black markers (dots) on top of the gel can help us track the direction of
    Markers on the gel surface provides information about the direction of different forces: normal, shear.
 </div>
 
-You can find detailed explanations and the code for all of tasks mentioned above at the following [repo](https://github.com/vocdex/digit-marker-tracking) I created.
+You can find detailed explanations and the code for all of tasks mentioned above at the following [repo](https://github.com/vocdex/digit-depth) I created.
