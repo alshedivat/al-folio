@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Ph.D. in Computer Science from UC Berkeley and Assistant Professor of Computer Science at Cornell University (starting Spring 2023) | she/her
+description: Project Scientist in the Applied Math and Computational Sciences Division at Lawrence Berkeley National Laboratory | she/her
 
 profile:
   align: right
@@ -23,9 +23,11 @@ I will be starting as an **Assistant Professor of Computer Science** at [Cornell
 
 I work on challenges at the intersection of large-scale computational biology and the algorithms and software infrastructures. I leverage high-performance computing techniques and computer systems and architectures to make genomics data processing faster and more flexible for the community, and to enable higher-quality bioinformatics and biomedical research. Another important focus of my work is developing software to make cloud infrastructures more accessible for high-performance scientific computing.
 
-**I am recruiting PhD students with a background in parallel programming and interest in high-performance computing for computational sciences.** If you are a prospective PhD student, please read [the students page](https://giuliaguidi.github.io/students/). 
+**I am recruiting PhD students with some background in parallel programming and interest in high-performance computing for computational sciences.** If you are a prospective PhD student, please read [the students page](https://giuliaguidi.github.io/students/). 
 
-I received my PhD in Computer Science from UC Berkeley in August 2022 under the supervision of [Aydın Buluç](http://people.eecs.berkeley.edu/~aydin/) and [Kathy Yelick](https://people.eecs.berkeley.edu/~yelick/). I currently hold a [2020 SIGHPC Computational & Data Science Fellowship](https://www.sighpc.org/for-your-career/fellowships/2020-fellowship-winners?fbclid=IwAR2N8swtCYgNH3phRmrFtASSC42b4oN5joG1l5XHFSdnkMY6U4HvZt3olLE) and work as a Project Scientist in the Applied Math and Computational Sciences Division at Lawrence Berkeley National Laboratory.
+I received my PhD in Computer Science from UC Berkeley in August 2022 under the supervision of [Aydın Buluç](http://people.eecs.berkeley.edu/~aydin/) and [Kathy Yelick](https://people.eecs.berkeley.edu/~yelick/) and my dissertation was title "Parallel Algorithms for De Novo Long Read Genome Assembly via Sparse Linear Algebra", you can read about it [here](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2022/EECS-2022-196.html) and watch the defense recording [here](https://www.youtube.com/watch?v=pMDICvkA5zw). 
+
+I received a [2020 SIGHPC Computational & Data Science Fellowship](https://www.sighpc.org/for-your-career/fellowships/2020-fellowship-winners?fbclid=IwAR2N8swtCYgNH3phRmrFtASSC42b4oN5joG1l5XHFSdnkMY6U4HvZt3olLE) and work as a Project Scientist in the Applied Math and Computational Sciences Division at Lawrence Berkeley National Laboratory.
 
 Here are a recent **[CV](https://drive.google.com/file/d/1DmJgPIFg6S-B0bqvqWFUmrmk6czYVmy5/view?usp=sharing)** and the Tl;dr version of my **[Research Statement](https://drive.google.com/file/d/1_HVC4HkkyBMqUx8AiTHeyjgwlSdYG3j6/view?usp=sharing)**.
 
