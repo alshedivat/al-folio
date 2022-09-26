@@ -17,7 +17,7 @@ groups: [Members, Associate Members, Master's Students, Visitors]
       <h1 class="post-title">{{ group }}</h1>
       <div class="row align-items-stretch">
         {%- for person in sorted_members -%}
-          {% include person_old.html %}
+          {% include person_project_layout.html %}
         {%- endfor %}
       </div>
     {%- endunless -%}
