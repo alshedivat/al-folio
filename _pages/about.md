@@ -30,4 +30,4 @@ Broadly I am interested in research topics related to:
 \\
 **Theory:** Generalization, Learning dynamics, Critical point solutions, Linear autoencoder
 \\
-**Generative models:** GANS, VAE, Normalizing flows
+**Generative models:** GANS, VAE, Diffusion models
