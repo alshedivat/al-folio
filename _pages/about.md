@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I will be starting as an **Assistant Professor of Computer Science** at [Cornell University](https://www.cs.cornell.edu/) starting Spring 2023.
+I will be starting as an **Assistant Professor of Computer Science** at [Cornell University](https://www.cs.cornell.edu/) in Spring 2023.
 
 <!--and a member of the [PASSION Lab](https://passion.lbl.gov/), the [BeBOp Group](https://bebop.cs.berkeley.edu/), and the [Performance and Algorithms Research (PAR) Group](https://crd.lbl.gov/departments/computer-science/par/members/students/giulia-guidi/). Giulia received her M.Sc. and B.Sc. in Biomedical Engineering from [Politecnico di Milano](http://polimi.it/en).-->
 
