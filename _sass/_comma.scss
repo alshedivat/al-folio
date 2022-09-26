@@ -29,5 +29,13 @@
 }
 
 .person-interests {
-  margin-bottom: 0	em;
+  margin-bottom: 0em;
+}
+
+.grid-item-people {
+  padding: 5px;
+}
+
+.grid-item-people > .card {
+  height: 100%;
 }
