@@ -51,12 +51,13 @@ layout: default
           {%- endif %}
           
           {% if page.projects -%}
+          <h2>Projects</h2>
           <!-- Display projects without categories -->
             {%- assign sorted_projects = site.projects | sort: "importance" -%}
             <!-- Generate cards for each project -->
              <div class="container">
-             	 <div class="grid">
-               {%- for project in sorted_projects -%}
+             	 <div class="grid" style="--bs-columns: 2;">
+               {%- for project in sorted_projects.slice(0, 6) -%}
                  {% include projects.html %}
                {%- endfor %}
                </div>
