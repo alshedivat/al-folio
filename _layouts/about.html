@@ -44,12 +44,13 @@ layout: default
           <!-- News -->
           {%- include news.html %}
           {%- endif %}
+          
           {% if page.selected_papers -%}
             <!-- Selected papers -->
             {%- include selected_papers.html %}
           {%- endif %}
+          
           {% if page.projects -%}
-          <!-- Projects -->
           <!-- Display projects without categories -->
             {%- assign sorted_projects = site.projects | sort: "importance" -%}
             <!-- Generate cards for each project -->
