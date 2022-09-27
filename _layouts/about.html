@@ -49,13 +49,14 @@ layout: default
             <!-- Selected papers -->
             {%- include selected_papers.html %}
           {%- endif %}
-          
+
+
           {% if page.projects -%}
-          <h2>projects</h2>
+          <h2>projects </h2>
           <!-- Display projects without categories -->
             {%- assign sorted_projects = site.projects | sort: "importance" -%}
             <!-- Generate cards for each project -->
-             	 <div class="grid-containner">
+             	 <div class="grid" style="position: relative; height: 423.724px;">
                {%- for project in sorted_projects -%}
                  {% include projects.html %}
                {%- endfor %}
