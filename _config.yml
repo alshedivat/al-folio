@@ -57,8 +57,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: jlab-sensing # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: cjosephsonful # your Twitter handle
-linkedin_username: colleen-josephson-4b3a9216 # your LinkedIn user name
+twitter_username: # your Twitter handle
+linkedin_username: # your LinkedIn user name
 scholar_userid: sWnjlj0AAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -85,7 +85,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # -----------------------------------------------------------------------------
 
 blog_name: jlab # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: # your blog must have a title for it to be displayed in the nav bar
 blog_description: informal updates on progress
 permalink: /blog/:year/:title/
 
