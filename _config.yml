@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Zhihao
 middle_name: 
 last_name: LIU
-email: zhihaol@uio.com
+email: zhihaol[at]uio.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   My way to be Geospatial Data Scientist
 footer_text: >
@@ -118,8 +118,8 @@ disqus_shortname: https-zhihaol-eu-org # put your disqus shortname
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+#  - name: medium.com
+#    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections

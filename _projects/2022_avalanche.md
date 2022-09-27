@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
-importance: 2
-category: work
+title: Avalanche mass movement modelling
+description: How to bury Longyearbyen by an avalanche
+img: assets/img/1.jpg
+importance: 3
+year: 2022
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.

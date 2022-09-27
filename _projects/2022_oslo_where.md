@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Iceblock Expedition 2021
-description: another without an image
+title: MCDA Oslo housing model
+description: where to buy in Oslo? 
 img:
-importance: 3
+importance: 4
+year: 2022
 category: fun
 ---
 

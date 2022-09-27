@@ -1,10 +1,12 @@
 ---
 layout: page
-title: project 2
+title: project 5
 description: a project with a background image
-img: assets/img/3.jpg
-importance: 2
-category: work
+img: assets/img/1.jpg
+importance: 3
+year: 2020 # if tag 2019-2022, it will show up in the project page
+category: fun  # if tag fun or work, it will show up in the about page.
+#redirect: https://unsplash.com
 ---
 
 Every project has a beautiful feature showcase page.

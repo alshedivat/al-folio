@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Hybrid Seismic Acquisition
-description: The first commercial hybrid seismic acquisition combined streamer and OBN, Quad 35, Norway.
-img: assets/img/12.jpg
-importance: 1
-category: work
+title: What if the ice block expedition 1959 happens in 2021? 
+description: You cannot blame it to climate change
+img:
+importance: 3
+year: 2022
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.

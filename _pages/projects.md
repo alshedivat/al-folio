@@ -2,20 +2,20 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A growing collection of my cool projects.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+year_categories: [2024,2023,2022,2021,2020,2019] # Projects show in project page
 horizontal: false
 ---
 
 <!-- pages/projects.md -->
 <div class="projects">
-{%- if site.enable_project_categories and page.display_categories %}
+{%- if site.enable_project_categories and page.year_categories %}
   <!-- Display categorized projects -->
-  {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.projects | where: "category", category -%}
+  {%- for year in page.year_categories %}
+  <h2 class="category">{{ year }}</h2>
+  {%- assign categorized_projects = site.projects | where: "year", year -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
