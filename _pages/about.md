@@ -9,7 +9,7 @@ profile:
   image: [](https://i.imgur.com/FxAtCs6.jpg)
   image_circular: false # crops the image to make it circular
   address: >
-    <p> 📍  Oslo, Norway</p>
+    <p> 📍 Oslo, Norway</p>
     <p>🎯 Driving the world better with geodata</p>
 
 news: true # includes a list of news items
