@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Hybrid Seismic
-description: The first commercial hybrid seismic acquisition combined streamer and OBN, Quad 35, Norway.
-img: assets/img/12.jpg
-importance: 1
+title: project 2
+description: a project with a background image
+img: assets/img/3.jpg
+importance: 2
 category: work
 ---
 

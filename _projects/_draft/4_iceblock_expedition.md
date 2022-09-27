@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Hybrid Seismic
-description: The first commercial hybrid seismic acquisition combined streamer and OBN, Quad 35, Norway.
-img: assets/img/12.jpg
-importance: 1
-category: work
+title: Iceblock Expedition 2021
+description: another without an image
+img:
+importance: 3
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.
