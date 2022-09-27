@@ -55,13 +55,11 @@ layout: default
           <!-- Display projects without categories -->
             {%- assign sorted_projects = site.projects | sort: "importance" -%}
             <!-- Generate cards for each project -->
-             <div class="container">
              	 <div class="grid" style="--bs-columns: 2;">
                {%- for project in sorted_projects.slice(0, 6) -%}
                  {% include projects.html %}
                {%- endfor %}
                </div>
-            </div>
           {%- endif %}
           
           {%- if page.social %}
