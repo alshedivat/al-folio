@@ -16,21 +16,21 @@ We use context-free JSON grammar for our project.
 In particular, we use the Backus-Naur form of grammar available in many sources.
 We concentrate on using all the Unicode encoded characters available as - more often than not - modern parsers have difficulty dealing with them.
 We couldn't utilize the reserved UTF-16 characters as we developed our project in Python.
-
-We start with a simple grammar-based fuzzer for JSON, entirely written from scratch.
-Our software under test(SUT) was two famous JSON parsers, Google's GSON and nlohmann/json.
+Our softwares under test(SUT) were two famous JSON parsers, Google's GSON and nlohmann/json.
 While GSON was in Java, nlohmann/json was for C++.
 Both the parsers have mechanisms to parse JSON files and convert them to respective JSON objects.
-We uncovered one bug in nlohmann/JSON, triggered by JSON fields using large integers.
-We reported this bug, and the developers fixed it in the latest release.
 
+We start with a simple grammar-based fuzzer for JSON, entirely written from scratch.
 Our methodology utilized line and function coverages using C++'s lcov and Java's jacoco.
 Using these metrics, we determined the JSON files that increased the coverage as iterating this approach would surely lead to buggy parts of the parsers.
 To utilize the metrics, we include updated probabilities in the JSON grammar to guide the fuzzer to a specific location.
 Then, we feed the newly generated JSON files to the parsers, and command line execution reports any errors and communicates them back to our error handler.
 In the next iteration, we utilize the top 10% of the previous iteration's files to learn new probabilities for the grammar, and the iterative process starts over again.
 We uncovered a bug in the nlohmann/JSON parser within three iterations.
+
 We generated more than 6.5 GiB data while working on this project.
+We uncovered one bug in nlohmann/JSON, triggered by JSON fields using large integers.
+We reported this bug, and the developers fixed it in the latest release.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
