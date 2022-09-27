@@ -56,7 +56,7 @@ layout: default
             {%- assign sorted_projects = site.projects | sort: "importance" -%}
             <!-- Generate cards for each project -->
              	 <div class="grid-containner">
-               {%- for project in sorted_projects -%}
+               {%- for project in sorted_projects.slice(0,4) -%}
                  {% include projects.html %}
                {%- endfor %}
                </div>

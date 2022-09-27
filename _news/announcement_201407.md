@@ -4,4 +4,4 @@ date: 2014-07-01 15:59:00-0400
 inline: true
 ---
 
-Work for BGP, CNPC. Moving from Chengdu to Tianjin
+Working as a field technician at BGP, CNPC. Moving from Chengdu to 🌍
