@@ -9,9 +9,9 @@ profile:
   image: Saikumar_Yadugiri.jpg
   image_cicular: true # crops the image to make it circular
   address: >
-    <p>Name in Telugu:</p>
+    Name Pronunciation:
 
-telugu_name: true # Native language name
+telugu_name: false # Native language name
 social: true  # includes social icons at the bottom of the page
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
