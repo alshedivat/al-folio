@@ -13,7 +13,7 @@
       
     - name: IT skills
   
-      value: Python, Matlab, QGIS, 
+      value: Python, Matlab, QGIS, Adobe Premiere 
   
 - title: Education
   type: time_table
@@ -28,12 +28,12 @@
         - Geophysical data-science
         - Floods, Avalanches and Landslides
         - The Surface Energy Balance in Cold Environments
-    - title: Bacherlor - Geodesy and Geomatics
+    - title: Bachelor - Geodesy and Geomatics
       institution: South West Petroleum University, Chengdu, P.R.C
       year: 2010-2014
       description:
         - With background in Engineering, GIS, GNSS and Cartography.
-        - Thesis: WebGIS System for Urban Infrastructures
+        - Thesis - WebGIS System for Urban Infrastructures
 
 - title: Experience
   type: time_table
@@ -50,9 +50,9 @@
     - title: Assistant Party Chief
       institution: BGP Offshore, CNPC
       year: 2021.04
-      description: .
+      description:
   
-- title: Part-time and Volunteer
+- title: Part-time and Volunteering
   type: time_table
   contents:
 
@@ -75,11 +75,13 @@
     - title: Geospatial data science
       items:
         - Open source GIS tools (staying away from ArcGIS)
-
+        - Modelling, data-driving solutions.
+  
 - title: Other Interests
   type: list
   contents:
   
-    - <u>Writing:</u> Combat fake news in climate change and Energy transition. 
-    - <u>Hobbies:</u> Marathon with 1h28 (21K) 3h29 (42K) of PB.
+    - <u>Writing:</u> Combat fake news in climate change and energy transition. 
+    - <u>Hobbies:</u> Marathon with 1h28 (21K) 3h29 (42K) of PB, Cross-country skiing.
+    - <u>OnePiece:</u> What's the will of D?
 
