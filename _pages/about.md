@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Reasearch Assistant</a>. Sem Sælands vei 1, Geologibygningen, 0371 Oslo.
+subtitle: <a href='#'>Reasearch Assistant</a>. 0371 Oslo.
 
 profile:
   align: right
   image: blog_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p> 📍 Oslo, Norway</p>
+    <p> 📍 Oslo</p>
     <p>🎯 Driving the world better with geodata</p>
 
 news: true # includes a list of news items
