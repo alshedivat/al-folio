@@ -48,8 +48,9 @@ layout: default
             <!-- Selected papers -->
             {%- include selected_papers.html %}
           {%- endif %}
-          <!-- Projects -->
           {% if page.projects -%}
+          <!-- pages/projects.md -->
+          <!-- Projects -->
           <!-- Display projects without categories -->
             {%- assign sorted_projects = site.projects | sort: "importance" -%}
             <!-- Generate cards for each project -->
@@ -69,6 +70,7 @@ layout: default
             </div>
             {%- endif -%}
           {%- endif %}
+          
           {%- if page.social %}
           <!-- Social -->
           <div class="social">
