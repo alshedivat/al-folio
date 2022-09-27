@@ -6,7 +6,7 @@ subtitle: <a href='#'>Reasearch Assistant</a>. Sem Sælands vei 1, Geologibygnin
 
 profile:
   align: right
-  image: [](https://i.imgur.com/FxAtCs6.jpg)
+  image: blog_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p> 📍 Oslo, Norway</p>
