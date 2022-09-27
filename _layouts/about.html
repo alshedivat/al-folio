@@ -54,12 +54,10 @@ layout: default
           <!-- Display projects without categories -->
             {%- assign sorted_projects = site.projects | sort: "importance" -%}
             <!-- Generate cards for each project -->
-            <div class="container">
-              <div class="row row-cols-2">
-              {%- for project in sorted_projects -%}
-                {% include projects_horizontal.html %}
-              {%- endfor %}
-              </div>
+            <div class="grid">
+               {%- for project in sorted_projects -%}
+                 {% include projects.html %}
+               {%- endfor %}
             </div>
           {%- endif %}
           
