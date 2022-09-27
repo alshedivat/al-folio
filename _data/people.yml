@@ -2,20 +2,19 @@
 
 - name: Josephson Colleen
   title: Principal Investigator
-  pfp: /assets/img/1.jpg
+  pfp: /assets/img/pfp/cjosephson.jpg
   email: cjosephson@ucsc.edu
-  github_username: test
-  gitlab_username: test
-  linkedin_username: test
-  work_url: test
+  github_username: cjosephson
+  linkedin_username: colleen-josephson-4b3a9216
+  work_url: https://cjosephson.net/
   body: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tortor
-    velit, cursus non dui rhoncus, luctus placerat lorem. Suspendisse ornare
-    aliquam leo, quis condimentum purus pulvinar sed. Aliquam commodo lacus
-    velit, sed sodales dolor venenatis eget. Proin tempor non orci vitae
-    gravida. Aliquam eu posuere nisl. Sed dictum tellus mi, aliquam tempus
-    ligula tristique sed. Aenean consectetur lorem quis nisl consectetur
-    tincidunt. Donec at fermentum erat.
+    My name is Colleen Josephson, and I research wireless communication and
+    sensing systems, with a focus on how we can leverage sensing for
+    sustainability. I am an Assistant Professor at UC Santa Cruz, and
+    a research scientist at VMware. I also chair the Societal and Economic
+    Needs working group and co-chair the GreenG Working Group within the ATIS
+    NextG Alliance. I received my PhD in Electrical Engineering at Stanford in
+    2020. My advisors were Sachin Katti and Keith Winstein. 
 
 - name: John Madden
   title: Assistant Lab Manager
@@ -59,26 +58,7 @@
 - name: Revanth
   title: Primary Research Assistant
   pfp: /assets/img/3.jpg
-  email: unsure
+  email: proacc576@gmail.com
   body: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elit magna,
-    pulvinar id cursus ullamcorper, posuere eget augue. Pellentesque vestibulum
-    pellentesque ornare. Suspendisse ullamcorper rhoncus erat, in cursus neque.
-    Aenean condimentum, ligula volutpat hendrerit lacinia, urna ligula commodo
-    arcu, eu blandit dui neque ut ipsum. Praesent eu augue at odio maximus
-    rhoncus. Ut gravida pretium ex sit amet efficitur. Proin bibendum urna nec
-    laoreet euismod.
-
-
-- name: Sridhar
-  title: unsure
-  pfp: /assets/img/5.jpg
-  email: unsure
-  body: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt
-    erat vitae augue faucibus, nec laoreet mauris consectetur. Sed enim est,
-    imperdiet ultrices libero porta, hendrerit varius dui. Mauris eu volutpat
-    nisi, a ultrices odio. Praesent lacinia urna at libero pellentesque mollis.
-    Curabitur pharetra, dui eu sodales porttitor, leo lacus condimentum dui, ut
-    fringilla felis metus a nunc. In quis.
-
+    Revanth Kottur Sivakumar is in the class of 2023 at Amrita University
+    (India). He majors in electrical engineering.
