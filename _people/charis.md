@@ -2,7 +2,8 @@
 layout: profile
 group: Members
 name: Charalampos Saitis
-position: Lecturer in Digital Music Processing; Turing Fellow 2021–2023
+position: Lecturer
+position-other: Turing Fellow 2021-23
 avatar: assets/img/people/charis.jpg
 research-interests: Timbre perception & semantics, Crossmodal correspondences, Musical/sonic interaction, Musical acoustics & haptics
 email: c.saitis@qmul.ac.uk

@@ -2,7 +2,8 @@
 layout: profile
 group: Members
 name: Vjosa Preniqi
-position: PhD Student in Data-informed Audience-centric Media Engineering
+position: QM-BBC DAME PhD Student
+position-other: Jointly with Kyriaki Kalimeri
 avatar: assets/img/people/vjosa.jpg
 research-interests: Data Science, Machine Learning and AI, Psychometrics, Computational Social Science
 github: https://github.com/vjosapreniqi

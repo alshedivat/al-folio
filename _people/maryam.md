@@ -2,7 +2,8 @@
 layout: profile
 group: Members
 name: Maryam Torshizi
-position: PhD Student in Artificial Intelligence and Music
+position: UKRI AIM PhD Student
+position-other: Jointly with György Fazekas
 # avatar: assets/img/people/bleiz.jpg
 # research-interests: Human-Computer Interaction, Sonification, eHealth/mHealth, AI-music for Healthcare
 # github: https://github.com/tkyubi

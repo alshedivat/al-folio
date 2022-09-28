@@ -15,9 +15,9 @@
       -%}
     {%- endif %}
     <div class="card-body">
-      <h2 class="card-title ">{{ person.name }}</h2>
-      <p class="card-text">{{ person.position }}</p>
-      <div class="row ml-1 mr-1 p-0">
+      <h5 class="card-title ">{{ person.name }}</h5>
+      <p class="card-text">{{ person.position }}<br>{{ person.position-other }}</p>
+      <!-- <div class="row ml-1 mr-1 p-0">
         {%- if person.email -%}
         <div class="email-icon icon-item">
           <div class="icon" data-toggle="tooltip" title="Email">
@@ -46,8 +46,8 @@
           </div>
         </div>
         {%- endif %}
-      </div>
-      <p class="card-text">{{ person.research-interests }}</p>
+      </div> -->
+      <!-- <p class="card-text">{{ person.research-interests }}</p> -->
     </div>
   </div>
     </a>
