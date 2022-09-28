@@ -1,0 +1,37 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- type: jekyll-pages
+  label: Pages
+  create: all
+- type: jekyll-posts
+  label: Posts
+  create: all
+- type: directory
+  path: _projects
+  label: Projects
+  create: all
+  match: "**/*"
+- type: directory
+  path: _news
+  label: News
+  create: all
+  match: "**/*"
+upload_dir: uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_env:
+  - JEKYLL_ENV=staging
+  preview_output_directory: _site
+  install_dependencies_command: bundle install --path vendor/bundle
+  preview_docker_image: forestryio/ruby:2.6
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
+    -d _site
