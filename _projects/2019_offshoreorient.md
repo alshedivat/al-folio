@@ -1,16 +1,14 @@
 ---
 layout: page
-title: Offshoreorient studio
-description: Seismic lazily. A python toolbox for offshore seismic QC
+title: Seismic lazily!
+description: Offshoreorient studio - A python toolbox for offshore seismic QC
 img: assets/img/post/OOS/oos.jpg
 importance: 3
-year: 2019
+year: 2020
 category: work
-#redirect: https://unsplash.com
 ---
 
-
-OffshoreOrient Studio(OOS) is a offshore seismic QC toolbox, a good friend for lazy seismic QC/GEO/NAV/Client. OOS had applied for software copyright (Registration No. 5073387) under the National Copyright Administration.
+`OffshoreOrient Studio` (OOS) is an offshore seismic QC toolbox, a good friend for lazy seismic QC/GEO/NAV/Client. This is my independent work that have been tested and used by my colleges for several years. Sadly, I will not update it anymore. OOS had applied for software copyright (Registration No. 5073387) under the National Copyright Administration.
 
 In OffshoreOrient Studio v1.0.3 toolbox, *NavPy* focus on the **shot by shot or sequence by sequence QC**. *QcPy* is mainly used for **Trace edit** and **RMS analysis**. *SourcePy* is  a **real-time solution for near field Gun QC**.
 
@@ -38,7 +36,6 @@ In OffshoreOrient Studio v1.0.3 toolbox, *NavPy* focus on the **shot by shot or 
 <div class="caption">
     (left) Attribute map displays all kinds of attributes information, which is an interactive map. (middle) Feather plays a key role in 4D seismic.(right) Streamer attributes line by line. No need excel at all.
 </div>
-
 
 
 <div class="row">

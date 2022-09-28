@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Avalanche mass movement modelling
-description: How to bury Longyearbyen by an avalanche?
+title: How to bury Longyearbyen by an avalanche?
+description: Avalanche mass movement modelling
 img: assets/img/post/Avalanche/3d_220_all.jpg
 importance: 4
 year: 2022
@@ -49,7 +49,7 @@ For more information lease refer to RAMMS_AVAL_Manual.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/Avalanche/workflows.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/Avalanche/workflows.jpg" title="workflows" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -58,7 +58,7 @@ For more information lease refer to RAMMS_AVAL_Manual.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/Avalanche/overview.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/Avalanche/overview.jpg" title="overview" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -84,7 +84,7 @@ And we also compared the results with NVE's evaluation.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/Avalanche/export_pressure.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/Avalanche/export_pressure.jpg" title="export_pressure" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -93,7 +93,7 @@ And we also compared the results with NVE's evaluation.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/Avalanche/VS.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/Avalanche/VS.jpg" title="export_velocity" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -107,7 +107,7 @@ When release depth increases to 5 m, using mu/xi files *300L_150_50*, the 10kPa 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/Avalanche/3d_500_.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/Avalanche/3d_500_.jpg" title="5m release depth scenario" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -122,7 +122,7 @@ Compared to an extreme-release-depth-event, an extreme-release-size-event is mor
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/Avalanche/3d_220_all.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/Avalanche/3d_220_all.jpg" title="2.2m release depth scenario" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -133,6 +133,6 @@ Compared to an extreme-release-depth-event, an extreme-release-size-event is mor
 
 RAMMS results are highly dependent on release parameters (altitude, size, depth), particularly the size is not easy to decide. Therefore, I recommend that the model be run based on more field observations, such as, back analysis, rather than relying on pure assumptions.
 
-RAMMS::avalanche is a slab avalanche runout analysis tool. The main results are the distributions of pressure, velocity and fluid height. When we need to classify the area in danger, we can use the pressure. When it comes to design avalanche dams, we can use [the velocity and the fluid height](https://www.researchgate.net/publication/50359078_The_design_of_avalanche_protection_dams_Recent_practical_and_theoretical_developments).
+RAMMS::avalanche is a slab avalanche run-out analysis tool. The main results are the distributions of pressure, velocity and fluid height. When we need to classify the area in danger, we can use the pressure. When it comes to design avalanche dams, we can use [the velocity and the fluid height](https://www.researchgate.net/publication/50359078_The_design_of_avalanche_protection_dams_Recent_practical_and_theoretical_developments).
 
 The aim of this study was to bury Longyearbyen as much as possible by an avalanche. The closest simulation is shown in figure, an avalanche with 2.2 m release depth and 447,600 m2 release size. In practice, if there is enough snow, this can be done by bomb blasting, which this report does not recommend. 

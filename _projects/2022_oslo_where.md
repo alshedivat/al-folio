@@ -1,30 +1,27 @@
 ---
 layout: page
-title: MCDA Oslo housing model
-description: Where to buy in Oslo? 
+title: Using 5.8 million to buy a unit in Oslo, which one is worth?
+description: Housing Price MCDA Model - a perspective from spatial contributions
 img: assets/img/post/MCA/gis6_price.jpg
 importance: 4
 year: 2022
 category: fun
 ---
 
-## Oslo Housing Price MCDA Model: a Perspective from Spatial Contributions
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/MCA/gis6_price.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/MCA/gis6_price.jpg" title="oslo_finn_unit_price" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     The on-sale units of Oslo from Finn in Feb 2022. N = 950, Mean = 7.56M kr, Median = 5.77M kr. Which one is a good choice? it's up to your own preference!
 </div>
 
-
 There are so many factors contributing on house price. At the same location, the price varies by building’s attributes, e.g., the cost of construction, design, decoration, furnishings. If a pair of twin buildings exist, which are at different locations, the surrounding environment will decide price. In this report, we defined surroundings as `spatial contributions`, or `spatial score`.
 
 Someone like to lives in the city center, enjoying night pubs, shopping malls, whereas the other one prefers being near forest. So, **the unit’s price or value varies under different perspective. Multi-criterion decision analysis (MCDA) is to support decision-makers solving such problems(Meng et al., 2011; “Multiple-Criteria Decision Analysis,” 2022).**
 
-This report proposed a Housing Price MCDA Model (HPMM) to value the spatial contributions by inputting user’s preferences, basing on spatial information from open access database (Norwegian Public Roads Administration, Statistics Norway), OpenStreetMap, and satellite images. The model is aimed to provide best-fitting options for house buyers and assess the living conditions in various areas of Oslo for better urban planning regulation. In the last, I discussed the weakness of the model, and the several shopping tips revealed by model.
+This report proposed a Housing Price MCDA Model (HPMM) to value the spatial contributions by inputting user’s preferences, basing on spatial information from open access database (Norwegian Public Roads Administration, Statistics Norway), OpenStreetMap, and satellite images. **The model is aimed to provide best-fitting options for house buyers and assess the living conditions in various areas of Oslo for better urban planning regulation**. In the end, I discussed the weakness of the model, and the several shopping tips revealed by model.
 
 This is a demonstration model that could be extended to other cities easily. The post-processed datasets in this project are good materials for automating GIS or WebGIS training courses. But I had no time to make this model online due to limited time.
 
@@ -32,12 +29,12 @@ This is a demonstration model that could be extended to other cities easily. The
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/MCA/mca1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/MCA/mca1.png" title="mca_step1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/MCA/mca2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/MCA/mca2.png" title="mca_step2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -50,7 +47,7 @@ Oslo County polygon was resampled into 50x50 meters grid firstly. All spatial in
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/MCA/workflows.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/MCA/workflows.png" title="mca_workflows" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -86,10 +83,10 @@ The parameters used in demo model:
 Taking public transportation or driving? Or half-half.
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/MCA/result_pt.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/MCA/result_pt.jpg" title="result_public_transportation" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/MCA/result_parking.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/MCA/result_parking.jpg" title="result_parking" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -100,10 +97,10 @@ Shops and supermarket.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/MCA/result_s.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/MCA/result_s.jpg" title="result_shops" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/MCA/result_sm.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/MCA/result_sm.jpg" title="result_supermarket" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -114,7 +111,7 @@ When we use NDVI as a criterion, there is an obvious underestimation for units l
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/MCA/result_NDVI.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/MCA/result_NDVI.jpg" title="result_NDVI" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -125,7 +122,7 @@ The average noise level below 55db over 24 hours would be thought harmless, 10 p
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/MCA/result_noise.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/MCA/result_noise.jpg" title="result_noise" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -136,7 +133,7 @@ The average noise level below 55db over 24 hours would be thought harmless, 10 p
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/MCA/result2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/MCA/result.jpg" title="result_aggregation" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -145,7 +142,7 @@ The average noise level below 55db over 24 hours would be thought harmless, 10 p
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/MCA/plot.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/MCA/plot.png" title="result_scores_price" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -155,11 +152,11 @@ The average noise level below 55db over 24 hours would be thought harmless, 10 p
 
 Aggregation was carried out under two scenarios, aggregation_1 based on demo parameters (table 1) and aggregation_2. When changing to the latter, shops, entertainment, NDVI and Noise were set from 5% to 10%, 5% to 10%, 20 % to 15% and 20% to 15%. 
 
-To be short, here is the recommended units list:
+To be short, here is the recommended list of the units:
 
 **Table 2.** *The best-fits (Aggregation_1 > 8).*
 
-| **Finn_code**                                                | **District**      | **Size** | **Price**   **(Kr)** | **Type**                                | **Ppsm**  **(Kr)** | **Aggregation_1** |
+| **Finn_code**                                                | **District**      | **Size** | **Price (Kr)** | **Type**                                | **Ppsm (Kr)** | **Aggregation_1** |
 | ------------------------------------------------------------ | ----------------- | -------- | -------------------- | --------------------------------------- | ------------------ | ----------------- |
 | [249110832](https://www.finn.no/realestate/homes/ad.html?finnkode=249110832) | Gamle Oslo        | 71       | 6029516              | Andel • Leilighet • 3 soverom           | 84923              | 8.28              |
 | [248981927](https://www.finn.no/realestate/homes/ad.html?finnkode=248981927) | Frogner           | 76       | 6909620              | Eier (Selveier) • Leilighet • 2 soverom | 90916              | 8.15              |
@@ -171,11 +168,11 @@ To be short, here is the recommended units list:
 
  
 
-There is a sensitivity test, using the second parameters:
+There is a sensitivity test, using the second group of parameters:
 
 **Table 3.** *The best-fits (Aggregation_2 > 8).*
 
-| **Finn_code**                                                | **District** | **Size ** | **Price**  **(Kr)** | **Type**                                | **Aggregation 2** | **Aggregation 1** |
+| **Finn_code**                                                | **District** | **Size ** | **Price (Kr)** | **Type**                                | **Aggregation 2** | **Aggregation 1** |
 | ------------------------------------------------------------ | ------------ | --------- | ------------------- | --------------------------------------- | ----------------- | ----------------- |
 | [249110832](https://www.finn.no/realestate/homes/ad.html?finnkode=249110832) | Gamle Oslo   | 71        | 6029516             | Andel • Leilighet • 3 soverom           | 8.4               | 8.28              |
 | [248219200](https://www.finn.no/realestate/homes/ad.html?finnkode=248219200) | Frogner      | 84        | 9754142             | Eier (Selveier) • Leilighet • 2 soverom | 8.2               | 7.80              |
@@ -188,7 +185,7 @@ There is a sensitivity test, using the second parameters:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/MCA/result2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/MCA/result2.jpg" title="result_aggregation_2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -198,7 +195,7 @@ There is a sensitivity test, using the second parameters:
 
 #### Anything else?
 
-A unit ([finn code 248049271](https://www.finn.no/realestate/homes/ad.html?finnkode=248049271)) from Søndre Nordstrand with extreme low price (3.6 million Kr) and good size (81 m2) got 8.18 points. Sadly, it is sold already. Most of units recommend by model are sold already in the past month, which means the best-fit units are popular in some degree.
+A unit ([finn code 248049271](https://www.finn.no/realestate/homes/ad.html?finnkode=248049271)) at Søndre Nordstrand with extreme low price (3.6 million Kr) and good size (81 m2) got 8.18 points. Sadly, it is sold already. Most of the units recommend by model are sold already in the past month, which means the best-fit units are popular in some degree.
 
 I know there are **several issues** in my method, but I have to limit my time on this project under 30 hours. Otherwise, **a Web-based, automating GIS-MCDA model** could be super fun for exploring dataset from Finn.
 
@@ -207,10 +204,10 @@ In general, the housing price MCDA model could provide the best-fitting options 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/MCA/plot2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/MCA/plot2.png" title="plot2" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/post/MCA/plot3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/MCA/plot3.png" title="plot3" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
