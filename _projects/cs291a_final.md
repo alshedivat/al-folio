@@ -10,10 +10,13 @@ github: https://github.com/saikumarysk/HackOverflow
 report_pdf: cs291a_final_report.pdf
 ---
 
-In this project, we created our mock e-commerce website, "eKirana."
+The demand for online shopping is more than ever, and it will keep growing.
+To meet the escalating user arrival rate demand, a website's application servers and UI servers must use several optimizations and load-balancing techniques.
+But at what junction should we stop thinking about optimizations, start throwing money at the problem, and use more servers?
+To explore this, in this project, we created our mock e-commerce website, "eKirana."
 We added dummy users, sellers, products, ratings, authentication, and comments, mimicking the state of a functional e-commerce website.
 We used vanilla Ruby on Rails hosted on AWS, backed up by the Postgres database for the production environment.
-The project's main aim was not the website itself but how well the website could handle the incoming requests from the users and still serve with low latency.
+As mentioned, the project's main aim was not the website itself but how well the website could handle the incoming requests from the users and still serve with low latency.
 
 <div class="row">
     <div class="col-sm mt-md-0">
