@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Snowdepth Remote Sensing
-description: Why snowdepth matter?
+description: Why snowdepth matter? Why we know little much about snowdepth?
 img: assets/img/post/snowdepth/drone-snow-5.jpg
 importance: 1
 year: 2022
