@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 Welcome to my site! 
 
 <p align="justify">
-I am a PhD student in Economics at Indiana University, Bloomington. My research interests focus on macroeconomics with emphasis on household finance and financial markets. Throughout my work, I study the interaction of micro-level heterogeneity, idiosyncratic and aggregate shocks and economic policy.
+Holaaaa I am a PhD student in Economics at Indiana University, Bloomington. My research interests focus on macroeconomics with emphasis on household finance and financial markets. Throughout my work, I study the interaction of micro-level heterogeneity, idiosyncratic and aggregate shocks and economic policy.
 </p>
 
 <br>
