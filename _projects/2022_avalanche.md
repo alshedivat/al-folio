@@ -2,7 +2,7 @@
 layout: page
 title: Avalanche mass movement modelling
 description: How to bury Longyearbyen by an avalanche?
-img: assets\img\post\Avalanche\3d_220_all.jpg
+img: assets/img/post/Avalanche/3d_220_all.jpg
 importance: 4
 year: 2022
 category: fun
@@ -22,13 +22,13 @@ RAMMS is a Voellymy-fluid friction based model.This model divides the
 frictional resistance into two parts: a dry-Coulomb type friction (coefficient µ) that scales with the normal stress and a velocity-squared drag or viscous-turbulent friction (coefficient ξ). µ dominates when the flow is close to stopping, ξ dominates when the flow is running quickly.
 
 $$
-S=\mu N+\frac{\rho g \boldsymbol{u}^2}{\xi} with N=\rho h \operatorname{gcos}(\phi)
+S=/mu N+/frac{/rho g /boldsymbol{u}^2}{/xi} with N=/rho h /operatorname{gcos}(/phi)
 $$
 
 Since Version 1.6.20 the basic Voellmy equation has been modified to include a yield stress (cohe-sion). Many materials, like mud and snow, do not exhibit a simple linear relation (µ = constant),
 
 $$
-S=\mu N+\frac{\rho g \boldsymbol{u}^2}{\xi}+(1-\mu) N_0-(1-\mu) N_0 e^{-\frac{N}{N_0}}
+S=/mu N+/frac{/rho g /boldsymbol{u}^2}{/xi}+(1-/mu) N_0-(1-/mu) N_0 e^{-/frac{N}{N_0}}
 $$
 
 For more information lease refer to RAMMS_AVAL_Manual.
@@ -49,7 +49,7 @@ For more information lease refer to RAMMS_AVAL_Manual.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets\img\post\Avalanche\workflows.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/Avalanche/workflows.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -58,7 +58,7 @@ For more information lease refer to RAMMS_AVAL_Manual.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets\img\post\Avalanche\overview.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/Avalanche/overview.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -84,7 +84,7 @@ And we also compared the results with NVE's evaluation.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets\img\post\Avalanche\export_pressure.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/Avalanche/export_pressure.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -93,7 +93,7 @@ And we also compared the results with NVE's evaluation.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets\img\post\Avalanche\VS.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/Avalanche/VS.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -107,7 +107,7 @@ When release depth increases to 5 m, using mu/xi files *300L_150_50*, the 10kPa 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets\img\post\Avalanche\3d_500_.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/Avalanche/3d_500_.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -122,7 +122,7 @@ Compared to an extreme-release-depth-event, an extreme-release-size-event is mor
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets\img\post\Avalanche\3d_220_all.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/Avalanche/3d_220_all.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

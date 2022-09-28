@@ -2,7 +2,7 @@
 layout: page
 title: What if the ice block expedition 1959 happens in 2021? 
 description: You cannot blame it to climate change
-img: assets\img\post\ICEBLOCK\ice-block.jpg
+img: assets/img/post/ICEBLOCK/ice-block.jpg
 importance: 3
 year: 2022
 category: fun
@@ -17,7 +17,7 @@ Using the EAR5 climate reanalysis dataset (Muñoz Sabater, 2021), this study is 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets\img\post\ICEBLOCK\figure1_illustration.png" title="The ice block expedition 1959" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/ICEBLOCK/figure1_illustration.png" title="The ice block expedition 1959" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -47,7 +47,7 @@ Please find the solutions from [liuh886/the_ice_block_expedition_1959: Simulate 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets\img\post\ICEBLOCK\weatherplot_1959.png" title="weatherplot_1959" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/ICEBLOCK/weatherplot_1959.png" title="weatherplot_1959" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -56,7 +56,7 @@ Please find the solutions from [liuh886/the_ice_block_expedition_1959: Simulate 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets\img\post\ICEBLOCK\weatherplot_2021.png" title="weatherplot_2021" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/ICEBLOCK/weatherplot_2021.png" title="weatherplot_2021" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -71,7 +71,7 @@ What if the expedition went with an ice block without any protection?
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets\img\post\ICEBLOCK\bare_ice.png" title="bare_ice" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/ICEBLOCK/bare_ice.png" title="bare_ice" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -88,7 +88,7 @@ In the simulations, Figure below displays that ice mass loss of 352.3 Kg and 348
 Table shows that, in the scenario of aluminum_glasswool_1959, the mass loss is 26.5 Kg until Algiers, 14.3 Kg per day in desert, 352.3 Kg in the final destination, which are slightly different with the original records.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets\img\post\ICEBLOCK\1959vs2021_b.png" title="1959vs2021_b" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/ICEBLOCK/1959vs2021_b.png" title="1959vs2021_b" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -112,7 +112,7 @@ The surface energy balance model can only give the amount of heat transfer, whic
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets\img\post\ICEBLOCK\heatequation1.png" title="heatequation1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/ICEBLOCK/heatequation1.png" title="heatequation1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -121,7 +121,7 @@ The surface energy balance model can only give the amount of heat transfer, whic
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets\img\post\ICEBLOCK\heatequation2.png" title="heatequation2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/post/ICEBLOCK/heatequation2.png" title="heatequation2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
