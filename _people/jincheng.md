@@ -2,7 +2,8 @@
 layout: profile
 group: Members
 name: Jincheng Zhang
-position: PhD Student in Computer Science
+position: QMUL-CSC PhD Student
+position-other: Jointly with György Fazekas
 avatar: assets/img/people/jincheng.jpg
 research-interests: Artificial intelligence applied to music, Natural language processing, Deep learning-based image analysis
 github: https://github.com/jinchengzhanggg

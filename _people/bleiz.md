@@ -2,7 +2,7 @@
 layout: profile
 name: Bleiz Del Sette
 group: Members
-position: PhD Student in Artificial Intelligence and Music
+position: UKRI AIM PhD Student
 avatar: assets/img/people/bleiz.jpg
 research-interests: Human-Computer Interaction, Sonification, eHealth/mHealth, AI-music for Healthcare
 github: https://github.com/tkyubi

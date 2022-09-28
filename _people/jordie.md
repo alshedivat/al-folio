@@ -2,7 +2,8 @@
 # layout: profile
 name: Jordie Shier
 group: Members
-position: PhD Student in Artificial Intelligence and Music
+position: UKRI AIM PhD Student
+position-other: Jointly with A. McPherson
 avatar: assets/img/people/jordie.jpg
 research-interests: Audio synthesis, Intelligent music production tools, Deep learning for audio
 github: https://github.com/jorshi

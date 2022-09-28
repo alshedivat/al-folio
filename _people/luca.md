@@ -2,7 +2,8 @@
 layout: profile
 group: Members
 name: Luca Marinelli
-position: PhD Student in Artificial Intelligence and Music
+position: PhD Student (AIM)
+position-other:
 avatar: assets/img/people/luca.jpg
 research-interests: Music information retrieval, Multimodal deep learning, Gender and media studies, Music cognition
 github: https://github.com/marinelliluca

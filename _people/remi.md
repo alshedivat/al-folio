@@ -2,7 +2,7 @@
 layout: profile
 group: Members
 name: Remi Falowo
-position: PhD Student in Artificial Intelligence and Music
+position: UKRI AIM PhD Student
 avatar: assets/img/people/remi.jpg
 research-interests: Embodied Cognition, Natural Computing, Multimodal Deep Learning
 github: https://github.com/RFalowo
