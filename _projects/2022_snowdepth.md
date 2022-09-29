@@ -8,7 +8,7 @@ year: 2022
 category: work
 ---
 
-As a research assistant in this scientist group, I joined the field (drone) trip and now working on the algorithm development for processing DEM and ICESat-2 datasets. This research is key to understanding the snow-depth-related climate mechanism or application, e.g. permafrost, high-mountain precipitation, hydropower...
+As a research assistant in this scientist group (SNOWDEPTH), I joined the field (drone) trip and currently working on the algorithm development for processing DEM and ICESat-2 datasets. The topic is highly related to my thesis: `Benchmarking DEM uncertainties by ICESat-2 - a workflow and application on snowdepth`. This research is key to understanding the snow-depth-related climate mechanism or application, e.g. permafrost, high-mountain precipitation, hydropower...
 
 ## The state of the snow depth problem
 
@@ -90,7 +90,7 @@ There are some photos I am keen to share.
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Cross-country skiing is an essential skill for snow study.🎿
 </div>
 
 

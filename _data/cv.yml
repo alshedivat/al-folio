@@ -9,10 +9,9 @@
       value: 26th March 1993
       
     - name: Languages
-      value: Chinese (汉语), English, Norsk(beginner)
+      value: Chinese (汉语), English, Norsk (pre-beginner)
       
     - name: IT skills
-  
       value: Python, Matlab, QGIS, Adobe Premiere 
   
 - title: Education
@@ -24,8 +23,8 @@
       year: 2021-2023
       description:
         - Advanced Remote Sensing and Topographic Analysis
-        - Surveying, photogrammetry and spatial analysis
-        - Geophysical data-science
+        - Surveying, Photogrammetry and Spatial Analysis
+        - Geophysical Data-science
         - Floods, Avalanches and Landslides
         - The Surface Energy Balance in Cold Environments
     - title: Bachelor - Geodesy and Geomatics
@@ -43,14 +42,14 @@
       institution: BGP Offshore, CNPC
       year: 2014 - 2020
       description:
-        - Onboard seismic vessel as a (shift-lead) navigator and technician.
-          - Global operation among offshore Norway, UK, Morocco, Senegal, Nigeria
-          - HSEQ awareness and multidisciplinary environment.
+        - Onboard seismic vessel as a (shift-lead) navigator and a technician.
+        - Global 3D/4D seismic operation among offshore Norway, UK, Morocco, Senegal, Nigeria...
+        - HSEQ awareness and multidisciplinary environment.
         - Registered Licensed Surveyors of P.R.C.
     - title: Assistant Party Chief
       institution: BGP Offshore, CNPC
-      year: 2021.04
-      description:
+      year: 2021 - 2021.07
+      description: was promoted✨
   
 - title: Part-time and Volunteering
   type: time_table
@@ -74,8 +73,8 @@
         - Glaciers and periglacial geomorphology (not good at)
     - title: Geospatial data science
       items:
-        - Open source GIS tools (staying away from ArcGIS)
-        - Modelling, data-driving solutions.
+        - Open source geospatial tools (staying away from ArcGIS)
+        - Numerical modelling, data-driving solutionsm, machine learning (sometimes)
   
 - title: Other Interests
   type: list
