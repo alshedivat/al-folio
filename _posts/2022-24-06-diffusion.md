@@ -267,7 +267,7 @@ Below is the algorithm Ho <d-cite key="ho2020denoising"> </d-cite> used for his 
 
 ## Conclusion
 
-1. Props:
+1. Pros:
 
    * Diffusion model show a new method to generate data with high-quality.
    * Data generated using this family of model avoids mode collapse, which leads to higher number in likelihood score.
