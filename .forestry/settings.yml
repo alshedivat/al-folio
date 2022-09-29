@@ -13,18 +13,15 @@ sections:
 - type: document
   path: _bibliography/papers.bib
   label: Publications
-  match: "**/*"
 - type: directory
   path: _projects
   label: Projects
   create: all
   match: "**/*"
-- type: directory
-  path: _data
-  label: CV / Portfolio
-  create: documents
+- type: document
+  path: _pages/teaching.md
+  label: Teaching
   match: "**/*"
-  new_doc_ext: ".yml"
 - type: jekyll-pages
   label: Pages
   create: all
