@@ -18,7 +18,7 @@ projects: true # includes projects
 display_categories: [work, fun] # Projects show in about page
 ---
 
-After so many years sitting with *Meteorologist, geomorphologist, hydrologist, glaciologist, sedimentologist, geodesist, geologist, geophysicist,*, **I am still none of them** 🤷‍♂️. 
+After so many years sitting with *Meteorologist, geomorphologist, hydrologist, glaciologist, sedimentologist, geodesist, geologist, geophysicist*, **I am still none of them** 🤷‍♂️. 
 
 Spatial professional sounds like can do everything but end up doing nothing 💊. 
 
