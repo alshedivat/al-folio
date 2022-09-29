@@ -4,7 +4,7 @@ name: Sebastian Löbbers
 group: Associate Members
 position: UKRI MAT PhD Student
 position-other: Seeing Music project
-avatar: assets/img/people/sebastian.jpg
+avatar: assets/img/people/sebastian.png
 research-interests: Cross-modal perception of sound, human-computer interaction, music production 
 github: https://github.com/SFR
 email: s.lobbers@qmul.ac.uk
