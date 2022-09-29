@@ -75,6 +75,7 @@ Research is one of the most important things in the life of a PhD student.
 - [How to Write a Great Research Paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) by Simon Peyton Jones. \*
   - **Writing papers is a primary mechanism for doing research (not just for reporting it)** I am so surprised that I didn't know this before. So let's try to write while doing research!!
 - [The Craft of Research, Fourth Edition](https://press.uchicago.edu/ucp/books/book/chicago/C/bo23521678.html)(You can download it from the [Library genesis](https://libgen.is))
+- [Writing, part 1 — the process](https://medium.com/@marcotcr/writing-part-1-the-process-6bb92cb522eb) by Marco Tulio Ribeiro
 
 ## Presentation
 
