@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Reasearch assistant, geospatial professional</a>. 0371 Oslo.
+subtitle: <a href='#'>Reasearch assistant on geomatics</a>. 0371 Oslo.
 
 profile:
   align: right
@@ -18,13 +18,8 @@ projects: true # includes projects
 display_categories: [work, fun] # Projects show in about page
 ---
 
-A `spatial professional` can do everything but end up doing nothing 💊. 
+After so many years sitting with *Meteorologist, geomorphologist, hydrologist, glaciologist, sedimentologist, geodesist, geologist, geophysicist,*, **I am still none of them** 🤷‍♂️. 
 
-*Meteorologist, geomorphologist, hydrologist, glaciologist, sedimentologist, geodesist, geologist, geophysicist,* after sitting with them so many years, **I am none of them** 🤷‍♂️. 
+Spatial professional sounds like can do everything but end up doing nothing 💊. 
 
-But, it's a fantastic journey to explore multidiscipline. 
-- Geomorphology = terrain process (glacial, periglacial, tectonic, fluvial, geotechnical process) + context (geology, paleoclimatology) + data (remote sensing, geophysics)
-- Hydrology = water process (precipitation, accumulation, runoff, groundwater, evaporation) + context (energy balance, environment, climate) + data (remote sensing, geophysics)
-
-Remote sensing/geomatics/GIS is the data science of geoscience.
-
+It's still a fantastic journey to [explore multidiscipline by using geodata](https://geo.w.uib.no/files/2020/01/Poster-The-Geological-Society-Geoscience-for-the-future-scaled.jpg)
