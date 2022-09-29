@@ -10,6 +10,11 @@ sections:
 - type: jekyll-posts
   label: Blog Posts
   create: all
+- type: directory
+  path: _bibliography
+  label: Bibliography
+  create: none
+  match: "**/*"
 - type: document
   path: _bibliography/papers.bib
   label: Publications
