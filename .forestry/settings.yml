@@ -19,6 +19,12 @@ sections:
   label: Projects
   create: all
   match: "**/*"
+- type: directory
+  path: _data
+  label: CV / Portfolio
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".yml"
 - type: jekyll-pages
   label: Pages
   create: all
