@@ -7,12 +7,11 @@ sections:
 - type: document
   path: _pages/about.md
   label: About
-- type: document
-  path: _posts
+- type: jekyll-posts
   label: Blog Posts
-  match: "**/*"
+  create: all
 - type: document
-  path: _bibliography
+  path: _bibliography/papers.bib
   label: Publications
   match: "**/*"
 - type: directory
@@ -22,9 +21,6 @@ sections:
   match: "**/*"
 - type: jekyll-pages
   label: Pages
-  create: all
-- type: jekyll-posts
-  label: Posts
   create: all
 - type: directory
   path: _news
