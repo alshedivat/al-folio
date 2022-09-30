@@ -32,7 +32,9 @@ ___
 
 ## teaching assistantship
 
-**Applications of Parallel Computers, UC Berkeley**, Spring 2021/2020.
+**Applications of Parallel Computers, UC Berkeley**, Spring 2021.
+
+**Applications of Parallel Computers, UC Berkeley**, Spring 2020.
 
 **Informatica ed Elementi di Informatica Medica, Politecnico di Milano**, Spring 2018.
 
