@@ -9,6 +9,7 @@ nav_order: 4
 
 2022
 
+* Briar Rose - Jane Yolen
 * Genghis Khan and the Making of the Modern World - Jack Weatherford
 
 2021
