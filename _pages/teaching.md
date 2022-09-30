@@ -7,7 +7,14 @@ nav: true
 ---
 ___
 
+## teaching
+
+**Applications of Parallel Computers, Cornell University**, Spring 2023.
+___
+
 ## guest lectures
+
+**[Artificial Intelligence Seminar](https://www.cs.cornell.edu/content/fall-2022-artificial-intelligence-seminar), Cornell University**, *Parallel Computing for Computational Genomics and AI*, Fall 2022.
 
 **[Languages, Systems, and Data Seminar](https://lsd-ucsc.github.io/lsd-seminar/2021fa/), UC Santa Cruz**, *Sparse Matrices and High-Performance Computing Meet Biology*, Fall 2021.
 
