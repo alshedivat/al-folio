@@ -13,4 +13,4 @@ profile:
     <p>Your City, State 12345</p>
 
 ---
-I am interested in quantum materials. I'm a graduate student at MIT.
+I am interested in quantum materials. I'm a graduate student at MIT and love physics.
