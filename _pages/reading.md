@@ -7,37 +7,8 @@ nav: false
 nav_order: 4
 ---
 
-2023
-
-* Chronicles of Avonlea - L. M. Montgomery
-* The Collectors - Philip Pullman
-* The Pregnant King - Devdutt Pattanaik
-* Durga - Kevin Missal
-* Stardust - Neil Gaiman
-* The Emissary - Yoko Tawada
-* Victoria - Daisy Goodwin 
-* The Bombay Prince - Sujata Massey
-* The Secret Commonwealth - Philip Pullman 
-* La Belle Sauvage - Philip Pullman 
-* Kaikeyi - Vaishnavi Patel
-* The Tenth Riddle - Sapan Saxena
-* Serpentine - Philip Pullman
-* Breasts and Eggs - Mieko Kawakami
-* Babel, Or the Necessity of Violence: An Arcane History of the Oxford Translators' Revolution - R. F. Kuang
-
 2022
 
-* The Winter of the Witch - Katherine Arden
-* Lyra's Oxford - Philip Pullman
-* She Said: Breaking the Sexual Harassment Story That Helped Ignite A Movement - Jodi Kantor and Megan Twohey
-* The Amber Spyglass - Philip Pullman
-* The Subtle Knife - Philip Pullman
-* The Golden Compass - Philip Pullman
-* The Girl in the Tower - Katherine Arden
-* Jonathan Strange and Mr. Norrell - Susanna Clarke
-* The Bear and the Nightingale - Katherine Arden
-* Piranesi - Susanna Clarke
-* Digital Minimalism: Choosing a Focused Life in a Noisy World - Cal Newport
 * Briar Rose - Jane Yolen
 * Genghis Khan and the Making of the Modern World - Jack Weatherford
 
