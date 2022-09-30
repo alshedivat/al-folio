@@ -10,6 +10,7 @@ ___
 ## teaching
 
 **Applications of Parallel Computers, Cornell University**, Spring 2023.
+
 ___
 
 ## guest lectures
