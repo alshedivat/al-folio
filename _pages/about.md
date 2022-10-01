@@ -6,7 +6,7 @@ description: Project Scientist in the Applied Math and Computational Sciences Di
 
 profile:
   align: right
-  image: edit-01.jpg
+  image: profpic.jpg
   address: >
     <p>584-2</p>
     <p>Soda Hall, UC Berkeley</p>
