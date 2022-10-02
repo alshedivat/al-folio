@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Epi-Proj 
+description: Efficiently computing epigraphical and level set projections for problems in nonsmooth optimization
 img: assets/img/12.jpg
 importance: 1
 category: work
