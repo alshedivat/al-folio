@@ -1,14 +1,14 @@
-"Saitis":
-  - firstname: ["Charis", "C.", "Charalampos"]
-    url: https://twitter.com/noindent?lang=en
+# "Saitis":
+#   - firstname: ["Charis", "C.", "Charalampos"]
+#     url: https://twitter.com/noindent?lang=en
 
-"Fazekas":
-  - firstname: ["George", "G.", "Gyorgy", "György"]
-    url: http://www.eecs.qmul.ac.uk/~gyorgyf/index.html
+# "Fazekas":
+#   - firstname: ["George", "G.", "Gyorgy", "György"]
+#     url: http://www.eecs.qmul.ac.uk/~gyorgyf/index.html
 
-"Zacharakis":
-  - firstname: ["Asterios", "A.", "Asteris"]
-    url: https://asteriszacharakis.wixsite.com/science
+# "Zacharakis":
+#   - firstname: ["Asterios", "A.", "Asteris"]
+#     url: https://asteriszacharakis.wixsite.com/science
 
 "Adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
