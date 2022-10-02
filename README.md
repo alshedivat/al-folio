@@ -500,9 +500,13 @@ You may also use the following codes for displaying this in any other pages.
 ```
 
 #### Theming
-Six beautiful theme colors have been selected to choose from.
-The default is purple, but you can quickly change it by editing `$theme-color` variable in the `_sass/_themes.scss` file.
+A variety of beautiful theme colors have been selected for you to choose from.
+The default is purple, but you can quickly change it by editing the 
+`--global-theme-color` variable in the `_sass/_themes.scss` file.
 Other color variables are listed there as well.
+The stock theme color options available can be found at `_sass/variables.scss`.
+You can also add your own colors to this file assigning each a name for ease of
+use across the template.
 
 #### Social media previews
 **al-folio** supports preview images on social media.
