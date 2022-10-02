@@ -3,7 +3,7 @@ layout: profile
 group: Members
 name: Chengye Wu
 position: QMUL-CSC PhD Student
-# avatar: assets/img/people/bleiz.jpg
+avatar: assets/img/people/chengye.jpeg
 research-interests: Crossmodal & multisensory perception, Audiovisual interaction design, Sound visualization
 github: https://github.com/chengye0417
 # email: 

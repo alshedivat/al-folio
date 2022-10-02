@@ -2,7 +2,7 @@
 layout: profile
 group: Members
 name: Vjosa Preniqi
-position: QM-BBC DAME PhD Student
+position: QMUL-BBC DAME PhD Student
 position-other: Jointly with Kyriaki Kalimeri
 avatar: assets/img/people/vjosa.jpg
 research-interests: Data Science, Machine Learning and AI, Psychometrics, Computational Social Science

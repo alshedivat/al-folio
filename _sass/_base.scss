@@ -467,7 +467,8 @@ footer.sticky-bottom {
 
   .person-img {
     width: 100%;
-    height: 210px;
+    aspect-ratio: 1 / 1;
+  //  height: 240px;
   //  border-radius: 5%;
   //  margin: auto;
     object-fit: cover;

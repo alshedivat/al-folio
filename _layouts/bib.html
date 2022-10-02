@@ -233,7 +233,13 @@
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            {%- if entry.abstract contains '://' %}
+             <a href="{{ entry.abstract }}" class="btn btn-sm z-depth-0" role="button">Abs</a>
+             {% elsif entry.abstract contains '.pdf' %}
+             <a href="{{ entry.abstract | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Abs</a>
+             {%- else -%}
+             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+             {%- endif %}
           {%- endif %}
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
@@ -283,6 +289,9 @@
           {%- endif %}
           {%- if entry.link %}
             <a href="{{ entry.link }}" class="btn btn-sm z-depth-0" role="button">Link</a>
+          {%- endif %}
+          {%- if entry.video %}
+            <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
           {%- endif %}
           {%- if entry.psyarxiv %}
             <a href="http://psyarxiv.com/{{ entry.psyarxiv }}" class="btn btn-sm z-depth-0" role="button">PsyArXiv</a>
