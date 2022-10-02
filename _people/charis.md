@@ -2,7 +2,7 @@
 layout: profile
 group: Members
 name: Charalampos Saitis
-position: Lecturer
+position: Lecturer, lab leader
 position-other: Turing Fellow 2021-23
 avatar: assets/img/people/charis.jpg
 research-interests: Timbre perception & semantics, Crossmodal correspondences, Musical/sonic interaction, Musical acoustics & haptics

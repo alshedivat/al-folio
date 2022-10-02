@@ -6,7 +6,7 @@ subtitle: # Centre for Digital Music, Queen Mary University of London
 
 profile:
   align: right
-  image: # qmul.jpeg
+  image: # logos/c4dm_qml-logo.png
   image_circular: false # crops the image to make it circular
   address: #>
     #<p>Queen Mary University of London</p>
@@ -28,13 +28,19 @@ We work across disciplines of music, engineering, psychology, and cognitive scie
 
 Our research themes include:
 
-* Perception, cognition, and aesthetics of sound
+<!-- * Perception, cognition, and aesthetics of sound
 * Cross-sensory perception involving sound
 * Enabling digital audio systems with an understanding of how we listen
 * Modelling human values (and biases) with multimodal music data
-* Digital tools for education, outreach, and research 
+* Digital tools for education, outreach, and research  -->
 
-Founded in 2021, COMMA is led by Charalampos Saitis. Members and collaborators come from across C4DM and the Schools of EECS, SEMS, and SMS, including PhD students on the [Artificial Intelligence & Music](http://aim.qmul.ac.uk/) (AIM), [Data-informed Audience-centric Media Engineering](https://dame.qmul.ac.uk/) (DAME), and [China Scholarship Council](https://www.qmul.ac.uk/scholarships/items/china-scholarship-council-scholarships.html) (QMUL-CSC) programmes.
+* Audio/ timbre psychoacoustics and semantics
+* Timbre tools for digital lutherie and interaction
+* Cross-sensory perception involving sound/ timbre
+* Neural audio/ timbre synthesis and processing
+* Social music data science
+
+Founded in 2021, COMMA is led by Charalampos Saitis. Members and collaborators come from across C4DM and the Schools of EECS, SEMS, and SMS, including PhD students on the [Artificial Intelligence & Music](http://aim.qmul.ac.uk/) (UKRI AIM), [Data-informed Audience-centric Media Engineering](https://dame.qmul.ac.uk/) (QMUL-BBC DAME), and [China Scholarship Council](https://www.qmul.ac.uk/scholarships/items/china-scholarship-council-scholarships.html) (QMUL-CSC) programmes.
 
 The lab has received funding from the [British Academy](https://www.thebritishacademy.ac.uk/), [SSHRC-ACTOR](https://www.actorproject.org/), and [QMUL's Centre for Public Engagement](https://www.qmul.ac.uk/publicengagement/about-engagement/centre-for-public-engagement/).
 <br><br>

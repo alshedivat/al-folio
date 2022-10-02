@@ -1,7 +1,7 @@
 ---
 # layout: profile
 name: Sebastian Löbbers
-group: Associate Members
+group: Associate members
 position: UKRI MAT PhD Student
 position-other: Seeing Music project
 avatar: assets/img/people/sebastian.png
