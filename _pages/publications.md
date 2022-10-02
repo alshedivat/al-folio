@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Collection of my published works. 
+description: A collection of my published works and preprints. 
 years: [2022]
 nav: true
 nav_order: 1

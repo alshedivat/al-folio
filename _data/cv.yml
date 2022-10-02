@@ -6,5 +6,32 @@
         - Nonsmooth Optimization Session (contributed talk)
         - Lehigh University, Bethlehem, PA, July 2022
         - <a href="cramer.pdf" target="_blank">Slides</a>
+
+- title: Maximum Entropy on the Mean and the Cramer Rate Function in Statistical Estimation 
+  type: nested_list
+  contents:
+    - title: RMT + OPT + ML Seminar (2022)
+      items: 
+        - McGill University, Montreal, QC, March 2022
+        - <a href="memm.pdf" target="_blank">Slides</a>
+
+- title: Introduction to the Calculus of Variations 
+  type: nested_list
+  contents:
+    - title: Seminars on Undergraduate Mathematics in Montreal (SUMM 2022)
+      items: 
+        - Online, Montreal, QC, January 2022
+        - <a href="calcofvar.pdf" target="_blank">Slides</a>
+
+- title: Epigraphical Projections in Nonsmooth Optimization
+  type: nested_list
+  contents:
+    - title: Undergraduate Research Conference (2020)
+      items: 
+        - McGill University (online), Montreal, QC, August 2020
+        - <a href="epiproj.pdf" target="_blank">Slides</a>
+
+
+
        
 

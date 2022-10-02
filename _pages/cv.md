@@ -1,8 +1,7 @@
 ---
-layout: cv
-permalink: /cv/
-title: Talks 
+layout: post 
+title: CV 
 nav: true
-nav_order: 4
-cv_pdf: cv.pdf
+nav_order: 6
+redirect: /assets/pdf/cv.pdf
 ---
