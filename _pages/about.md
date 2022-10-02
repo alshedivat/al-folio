@@ -20,7 +20,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 
-### <br> The COMMA Lab is part of the [Centre for Digital Music](http://c4dm.eecs.qmul.ac.uk/) (C4DM) at [Queen Mary University of London](https://www.qmul.ac.uk/), conducting cutting edge research into the ways people perceive sound and technologies for improving communication.
+### <br> The COMMA Lab is part of the [Centre for Digital Music](http://c4dm.eecs.qmul.ac.uk/) (C4DM) at [Queen Mary University of London](https://www.qmul.ac.uk/), conducting research into the ways people perceive sound and technologies for improving communication.
 
 <br>
 We work across disciplines of music, engineering, psychology, and cognitive science to understand and model audio communication between humans and between humans and machines.
