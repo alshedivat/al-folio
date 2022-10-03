@@ -15,13 +15,11 @@ categories: conference-posts
 #### Tradition and Innovation in the Soviet Literary Education: Who and How Taught Literature and Writing in the 1920s-1970s
 
 Papers:
-[Olga Nechaeva](https://www.onechaeva.com/), U of Pennsylvania
+-[Olga Nechaeva](https://www.onechaeva.com/), U of Pennsylvania
 “Creative Writing Programs in the Soviet Union in the 1920s-1930s: From Bryusov’s Writers Institute to Gorky Literature Institute”
-
-[Maria Mayofis](https://my.wlu.edu/directory/profile?ID=x15997), NRU Higher School of Economics (Russia)
+-[Maria Mayofis](https://my.wlu.edu/directory/profile?ID=x15997), NRU Higher School of Economics (Russia)
 “New Approaches to Teaching Literature in Soviet Secondary Schools, 1956-1965”
-
-[Maya Kucherskaya](https://www.hse.ru/org/persons/135567), NRU Higher School of Economics (Russia)
+-[Maya Kucherskaya](https://www.hse.ru/org/persons/135567), NRU Higher School of Economics (Russia)
 “Professor Brodsky: Between Freedom and Didacticism” Disc.: William Mills Todd III, Harvard U
 
 Disc.: [William Mills Todd III](https://faculty.slavic.fas.harvard.edu/william-todd/home), Harvard U
