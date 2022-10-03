@@ -4,7 +4,7 @@ title: AATSEEL 2020 Soviet Literary Institutions
 date: 2020-01-24 23:22:00
 description: program of the stream
 tags: aatseel conference
-categories: conference-post
+categories: conference-posts
 ---
 Please join us at the upcoming _Soviet Literary Institutions_ stream at the AATSEEL conference in San Diego. The stream was co-organized by [Kevin M. F. Platt](https://rees.sas.upenn.edu/people/kevin-mf-platt), [Olga Nechaeva](https://www.onechaeva.com/), and [Maya Kucherskaya](https://www.hse.ru/en/org/persons/135567).
 
