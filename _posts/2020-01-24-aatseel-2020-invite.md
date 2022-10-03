@@ -68,3 +68,5 @@ Title: Literary Value in the Age of Three Worlds
 Discussant: [Serguei Oushakine](https://slavic.princeton.edu/people/serguei-alex-oushakine), Princeton University
 
 *Concluding discussion of all participants of the results of the stream.*
+
+![pervyi s''ezd](assets/img/aatseel.jpeg)
