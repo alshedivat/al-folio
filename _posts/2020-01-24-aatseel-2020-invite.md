@@ -14,9 +14,9 @@ You can find the progam below.
 
 **FRIDAY, FEBRUARY 7, 2020**
 
-8:00am–10:00am, Gallery 2
+*8:00am–10:00am, Gallery 2*
 
-*Stream 2A: Soviet Literary Institutions (I)*
+Stream 2A: Soviet Literary Institutions (I)
 
 Chair: [Kevin M. F. Platt](https://rees.sas.upenn.edu/people/kevin-mf-platt), University of Pennsylvania
 
@@ -32,3 +32,19 @@ Title: “Stop Writing About Moonshine!” — How Rural Correspondents Were Tra
 Title: ‘Dom tvorchestva pisatelei’ and ‘Literaturnyi fond’: A Dubulti Dom Case Study
 
 Discussant: [Galin Tihanov](https://www.qmul.ac.uk/sllf/comparative-literature-and-culture/people/academic/profiles/tihanov.html), Queen Mary University of London
+
+*10:30-12:15, Gallery 2*
+
+Stream 2A: Soviet Literary Institutions (II)
+
+Chair: [Maya Kucherskaya](https://www.hse.ru/en/org/persons/135567), HSE
+
+Group panelists:
+
+[Alexander Jacobson](https://slavic.princeton.edu/people/alexander-jacobson), Princeton University
+Title: Material Spiritualism: Viestnik teosofii and Theosophical Publishing under Bolshevik Rule
+
+[Laura Little](https://www.conncoll.edu/directories/faculty-profiles/laura-little/), Connecticut College
+Title: Aping Tradition: Elena Shvarts’s “Chimposiums”
+
+Discussant: [Kevin M. F. Platt](https://rees.sas.upenn.edu/people/kevin-mf-platt), University of Pennsylvania
