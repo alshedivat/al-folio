@@ -1,6 +1,6 @@
 ---
 layout: post
-title: a post about ASEEES 2019 and life in Russia
+title: ASEEES 2019 and life in Russia
 date: 2019-12-06 09:10:00
 description: my thoughts about ASEEES 2019 and academic conferences in general
 tags: aseees aseees2019 conference
