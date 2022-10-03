@@ -12,7 +12,7 @@ categories: conference-posts
 Я очень благодарна своим научным руководителям [Кевину Платту](https://rees.sas.upenn.edu/people/kevin-mf-platt) и [Майе Кучерской](https://www.hse.ru/org/persons/135567) за их помощь и поддержку, а также всем участникам нашей панели.
 
 Информация о панели:
-#####Tradition and Innovation in the Soviet Literary Education: Who and How Taught Literature and Writing in the 1920s-1970s
+##### Tradition and Innovation in the Soviet Literary Education: Who and How Taught Literature and Writing in the 1920s-1970s
 
 Papers:
 [Olga Nechaeva](https://www.onechaeva.com/), U of Pennsylvania
