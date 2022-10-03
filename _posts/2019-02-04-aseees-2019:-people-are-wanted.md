@@ -15,4 +15,5 @@ I am planning to participate in the [2019 ASEEES](https://www.aseees.org/convent
 - Russian Modernism
 
 If you are interested or you know people who might be interested, please email me at nechaeva@sas.upenn.edu! Thank you!
+
 ![ASEEES19_cover](/assets/img/conventionprogram_17.jpeg)
