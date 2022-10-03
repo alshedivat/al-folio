@@ -3,7 +3,7 @@ layout: post
 title: ВШЭПРОТИВЦЕНЗУРЫ 
 date: 2020-01-22 18:00:00
 description: петиция против политической цензуры
-tags: russianlife
+tags: russianlife вшэпротивцензуры
 categories: action-posts 
 ---
 
