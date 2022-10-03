@@ -15,4 +15,4 @@ profile:
     
 
 ---
-I am interested in quantum materials. I'm a graduate student at MIT and love physics.
+I am a Physics graduate student at MIT. I previously graduated from the University of Cambridge, with a specialization in Theoretical Physics. I am currently in the Condensed Matter Experiment division, working on ultrafast optical techniques to study correlations in quantum materials. 
