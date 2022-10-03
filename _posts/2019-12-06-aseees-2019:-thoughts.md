@@ -14,7 +14,8 @@ categories: conference-posts
 Информация о панели:
 **Tradition and Innovation in the Soviet Literary Education: Who and How Taught Literature and Writing in the 1920s-1970s**
 
-Papers: [Olga Nechaeva](https://www.onechaeva.com/), U of Pennsylvania
+Papers:
+[Olga Nechaeva](https://www.onechaeva.com/), U of Pennsylvania
 “Creative Writing Programs in the Soviet Union in the 1920s-1930s: From Bryusov’s Writers Institute to Gorky Literature Institute”
 
 [Maria Mayofis](https://my.wlu.edu/directory/profile?ID=x15997), NRU Higher School of Economics (Russia)
