@@ -1,10 +1,10 @@
 ---
 layout: post
-title: ASEEES 2019: panel on Soviet Cultural Institutions
-date: 2019-02-04 19:00:00
-description: search for people for the ASEEES 2019 convention
+title: ASEEES 2019: search for presenters
+date: 2019-02-04 15:10:00
+description: for people interested in participating in ASEEES 2019
 tags: aseees aseees2019 conference
-categories: 
+categories: conference-posts 
 ---
 
 Dear all:
