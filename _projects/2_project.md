@@ -2,7 +2,7 @@
 layout: page
 title: MEMM 
 description: Using the Maximum Entropy on the Mean Method (MEMM) to solve ill-posed inverse problems.
-img: assets/img/3.jpg
+img: assets/img/cramer.png
 importance: 2
 category: work
 ---

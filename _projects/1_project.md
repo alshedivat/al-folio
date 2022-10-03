@@ -2,79 +2,67 @@
 layout: page
 title: Epi-Proj 
 description: Efficiently computing epigraphical and level set projections for problems in nonsmooth optimization
-img: assets/img/12.jpg
+img: assets/img/epigraph.png
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Given an extended-valued convex function $$f\colon \mathbb{R}^n \to [-\infty,\infty]$$ its epigraph is defined by 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+$$\mathrm{epi}(f) = \{(x,\alpha) \in \mathbb{R}^n \times \mathbb{R} \mid f(x) \leq \alpha\}$$
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Intuitively, the epigraph is the area that lives above the graph of the function. A related concept
+is that of a level set. Fixing $$\alpha\in \mathbb{R}$$, the $$\alpha$$ level set for $$f$$ is defined by
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+$$\mathrm{lev}(f,\alpha) = \{x\in \mathbb{R}^n \mid f(x) \leq \alpha \}$$
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+Level sets are quite familiar. For example, given a vector norm $$\| \cdot \|$$ on $$\mathbb{R}^n$$
+the closed ball centred at the origin of radius $$r$$ is the $$r$$ level set for the norm:
+
+$$B_{r,\|\cdot\|}(0) = \mathrm{lev}(\|\cdot\|, r)$$ 
+
+In particular, many optimization problems with origins in machine learning, compressed sensing, and statistical estimation employ the $$\ell_1$$ norm as a regularizer to encourage sparse solutions. These problems can be recast as constrained optimization problems where the constraint is of the form $$\|x\|_1 \leq \delta$$.
+In problems with epigraphical or level set constraints such as this, many optimization algorithms will often 
+need to compute the projection onto the corresponding epigraph or level set at each iteration.
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+    <img src = "/assets/img/epigraph%20copy.png" width= "350" height = "244">
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    The projection of a point onto the epigraph of a convex function
 </div>
 
+ Efficiently solving this sub-problem is of interest, and it turns out to yield a fruitful study of the variational analytic
+properties of the so-called proximal operator (due to Moreau):
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+$$\mathrm{prox}_f(\bar{x}) := \mathrm{argmin}_{u\in \mathbb{R}^n}\{f(u) + \frac{1}{2}\|u-\bar{x}\|^2\}$$ 
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+The prox operator is a generalization of the usual Euclidean projection operator, and plays an important role in modern first-order methods for optimization.
+
+Our result shows that the projection onto the epigraph can be computed by solving a differentiable scalar
+convex optimization problem, and moreover when the objective function has semismooth structure this technique
+is amenable to superlinear convergence guarantees. More precisely:
+
+Suppose $$f \colon \mathbb{R}^n \to (-\infty,+\infty]$$ is a closed (meaning its epigraph is closed), proper 
+($$f(x) < \infty$$ for some $$x$$), convex function, and $$(\bar{x},\bar{\alpha})\in \mathbb{R}^n\times\mathbb{R}$$. Then 
+
+$$P_{\mathrm{epi}(f)}(\bar{x},\bar{\alpha}) = \begin{cases} \left( P_{\mathrm{cl}(\mathrm{dom} f)}(\bar{x}),\bar{\alpha}\right), & \text{if } f( P_{\mathrm{cl}(\mathrm{dom} f)}(\bar{x})) \leq \bar{\alpha}\\
+\left(\mathrm{prox}_{\bar{\lambda}f}(\bar{x}),\bar{\alpha} + \bar{\lambda}\right), &\text{else}
+\end{cases} $$
+
+where $$\bar{\lambda} > 0$$ is the unique root of the strictly decreasing function 
+$$0 < \lambda \mapsto f(\mathrm{prox}_{\bar{\lambda}f}(\bar{x}))-\lambda - \bar{\alpha}$$.
+
+For level sets, the situation is largely the same except the problem is no longer strongly convex, so the
+root may not be unique. The analogous formula is
+
+$$P_{\mathrm{lev}(f,\bar{\alpha})}(\bar{x}) = \begin{cases} P_{\mathrm{cl}(\mathrm{dom} f)}(\bar{x}), & \text{if } f( P_{\mathrm{cl}(\mathrm{dom} f)}(\bar{x})) \leq \bar{\alpha}\\
+\mathrm{prox}_{\bar{\lambda}f}(\bar{x}), &\text{else}
+\end{cases} $$
+
+where $$\bar{\lambda} > 0$$ is any root of the non-increasing function 
+$$0 < \lambda \mapsto f(\mathrm{prox}_{\bar{\lambda}f}(\bar{x})) - \bar{\alpha}$$.
+
+
+

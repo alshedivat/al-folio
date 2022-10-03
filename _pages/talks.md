@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: cv 
 permalink: /talks/
 title: Talks 
 nav: true
