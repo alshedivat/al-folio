@@ -14,11 +14,9 @@ You can find the progam below.
 
 **FRIDAY, FEBRUARY 7, 2020**
 
-8:00am–10:00am
+8:00am–10:00am, Gallery 2
 
-Stream 2A: Soviet Literary Institutions (I)
-
-Gallery 2
+*Stream 2A: Soviet Literary Institutions (I)*
 
 Chair: [Kevin M. F. Platt](https://rees.sas.upenn.edu/people/kevin-mf-platt), University of Pennsylvania
 
