@@ -3,7 +3,7 @@ layout: post
 title: ASEEES 2019 presenters wanted
 date: 2019-02-04 13:27:00
 description: for those interested in talking about Soviet creative writing
-tages: conference aseees
+tags: conference aseees
 categories: conference-posts
 ---
 Dear all:
