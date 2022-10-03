@@ -7,7 +7,7 @@ profile:
   align: right
   image: ProfilePic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
+  address: 
     <p>13-2134,</p>
     <p>105 Massachusetts Ave,</p>
     <p>Cambridge, MA 02139</p>
