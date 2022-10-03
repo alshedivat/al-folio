@@ -35,7 +35,7 @@ Discussant: [Galin Tihanov](https://www.qmul.ac.uk/sllf/comparative-literature-a
 
 
 
-*10:30-12:15, Gallery 2*
+*10:30am-12:15pm, Gallery 2*
 
 Stream 2A: Soviet Literary Institutions (II)
 
@@ -50,3 +50,21 @@ Title: Material Spiritualism: Viestnik teosofii and Theosophical Publishing unde
 Title: Aping Tradition: Elena Shvarts’s “Chimposiums”
 
 Discussant: [Kevin M. F. Platt](https://rees.sas.upenn.edu/people/kevin-mf-platt), University of Pennsylvania
+
+*1:30pm-3:30pm, Gallery 2*
+
+Stream 2A: Soviet Literary Institutions (III)
+
+Chair: [Olga Nechaeva](https://www.onechaeva.com/), University of Pennsylvania
+
+Group panelists:
+
+[Galin Tihanov](https://www.qmul.ac.uk/sllf/comparative-literature-and-culture/people/academic/profiles/tihanov.html), Queen Mary University of London
+Title: I(M)LI: Towards an Institutional History of the Soviet "World Literature" Project
+
+[Kevin M. F. Platt](https://rees.sas.upenn.edu/people/kevin-mf-platt), University of Pennsylvania
+Title: Literary Value in the Age of Three Worlds
+
+Discussant: [Serguei Oushakine](https://slavic.princeton.edu/people/serguei-alex-oushakine), Princeton University
+
+*Concluding discussion of all participants of the results of the stream.*
