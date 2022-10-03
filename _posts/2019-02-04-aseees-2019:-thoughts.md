@@ -4,7 +4,7 @@ title: ASEEES 2019 and life in Russia
 date: 2019-12-06 09:10:00
 description: my thoughts about ASEEES 2019 and academic conferences in general
 tags: aseees aseees2019 conference
-categories: thoughts-posts 
+categories: conference-posts 
 ---
 
 Вот и закончилась замечательная конференция ASEEES в Сан-Франциско.
