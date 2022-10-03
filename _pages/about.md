@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: "/"
-subtitle: "<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc."
+subtitle: "<a href='#'>Department of Physics, Massachusetts Institute of Technology</a>.  Cambridge, Massachusetts 02139, USA"
 profile:
   align: right
   image: ProfilePic.jpg
