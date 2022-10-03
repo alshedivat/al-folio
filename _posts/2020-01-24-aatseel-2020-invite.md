@@ -6,7 +6,7 @@ description: program of the stream
 tags: aatseel conference
 categories: conference-post
 ---
-Please join us at the upcoming Soviet Literary Institutions stream at the AATSEEL conference in San Diego.
+Please join us at the upcoming _Soviet Literary Institutions_ stream at the AATSEEL conference in San Diego. The stream was co-organized by [Kevin M. F. Platt](https://rees.sas.upenn.edu/people/kevin-mf-platt), [Olga Nechaeva](https://www.onechaeva.com/), and [Maya Kucherskaya](https://www.hse.ru/en/org/persons/135567).
 
 We will hear about Soviet literary worlds, journals, creative retreats (Дома творчества), Creative Writing teaching institutions, rural journalists, and much more.
 
