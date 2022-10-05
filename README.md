@@ -1,16 +1,20 @@
 # al-folio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[core_contributors]: https://img.shields.io/badge/core_contributors-3-orange.svg 'Number of core contributors'
+[maintainers]: https://img.shields.io/badge/maintainers-3-success.svg 'Number of maintainers'
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
 [![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
 [![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://github.com/alshedivat/al-folio/graphs/contributors/)
-[![Core Contributors][core_contributors]](#core-contributors-)
+[![Maintainers][maintainers]](#maintainers)
 [![GitHub release](https://img.shields.io/github/v/release/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/releases/latest)
 [![GitHub license](https://img.shields.io/github/license/alshedivat/al-folio?color=blue)](https://github.com/alshedivat/al-folio/blob/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/alshedivat/al-folio)](https://github.com/alshedivat/al-folio)
 [![GitHub forks](https://img.shields.io/github/forks/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/fork)
+
+[![Docker Image Version](https://img.shields.io/docker/v/amirpourmand/al-folio?sort=semver&label=docker%20image&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
+[![Docker Image Size](https://img.shields.io/docker/image-size/amirpourmand/al-folio?sort=date&label=docker%20image%20size&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
+[![Docker Pulls](https://img.shields.io/docker/pulls/amirpourmand/al-folio?color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
 
 A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.
 If you like the theme, give it a star!
@@ -367,13 +371,13 @@ You can also add new `*.bib` files and customize the look of your publications h
 
 <details><summary>(click to expand) <strong>Author annotation:</strong></summary>
 
-In publications, the author entry for yourself is identified by string `scholar:last_name` and string array `scholar:first_name` in `_config.yml`:
+In publications, the author entry for yourself is identified by string array `scholar:last_name` and string array `scholar:first_name` in `_config.yml`:
 ```
 scholar:
-  last_name: Einstein
+  last_name: [Einstein]
   first_name: [Albert, A.]
 ```
-If the entry matches the last name and one form of the first names, it will be underlined.
+If the entry matches one form of the last names and the first names, it will be underlined.
 Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
 The coauthor data format in `_data/coauthors.yml` is as follows,
 ```
@@ -500,9 +504,13 @@ You may also use the following codes for displaying this in any other pages.
 ```
 
 #### Theming
-Six beautiful theme colors have been selected to choose from.
-The default is purple, but you can quickly change it by editing `$theme-color` variable in the `_sass/_themes.scss` file.
+A variety of beautiful theme colors have been selected for you to choose from.
+The default is purple, but you can quickly change it by editing the 
+`--global-theme-color` variable in the `_sass/_themes.scss` file.
 Other color variables are listed there as well.
+The stock theme color options available can be found at `_sass/variables.scss`.
+You can also add your own colors to this file assigning each a name for ease of
+use across the template.
 
 #### Social media previews
 **al-folio** supports preview images on social media.
@@ -527,7 +535,7 @@ Before you get started, please take a look at [the guidelines](CONTRIBUTING.md).
 If you would like to improve documentation, add your webpage to the list below, or fix a minor inconsistency or bug, please feel free to send a PR directly to `master`.
 For more complex issues/bugs or feature requests, please open an issue using the appropriate template.
 
-### Core Contributors
+### Maintainers
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->

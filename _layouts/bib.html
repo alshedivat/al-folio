@@ -41,7 +41,7 @@
           {%- for author in entry.author_array limit: author_array_limit -%}
             {%- assign author_is_self = false -%}
             {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
-            {%- if author_last_name == site.scholar.last_name -%}
+            {%- if site.scholar.last_name contains author_last_name -%}
               {%- if site.scholar.first_name contains author.first -%}
                 {%- assign author_is_self = true -%}
               {%- endif -%}
@@ -106,9 +106,10 @@
           </div>
 
           <!-- Journal/Book title and date -->
+          {% assign proceedings = "inproceedings, incollection" | split: ','%}
           {% if entry.type == "article" -%}
             {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
-          {%- elsif ["inproceedings", "incollection"] contains entry.type -%}
+          {%- elsif proceedings contains entry.type -%}
             {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
           {%- else -%}
             {%- capture entrytype -%}{%- endcapture -%}
