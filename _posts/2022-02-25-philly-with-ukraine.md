@@ -21,3 +21,12 @@ categories: thought-posts
 Хватит бомбить украинские города и убивать людей. 
 
 Для желающих как-то помочь финансово, вот [список](https://www.cnet.com/culture/more-than-3-7-million-ukrainian-refugees-have-fled-the-country-heres-how-to-help/) организаций, собирающих средства для пострадавших от войны в Украине.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="/olyanechaeva.github.io/assets/img/Ukraine3.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="/olyanechaeva.github.io/assets/img/Ukraine2.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
