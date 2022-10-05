@@ -25,9 +25,9 @@ Discussants:
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/olyanechaeva.github.io/assets/img/aatseel2022.jpeg" class="img-fluid rounded z-depth-1" % zoomable=true %}
+        {% include figure.html path="/olyanechaeva.github.io/assets/img/aatseel2022.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/olyanechaeva.github.io/assets/img/A_l'Odeon_Crime_et_Chatiment_Michelet.JPEG" class="img-fluid rounded z-depth-1" % zoomable=true %}
+        {% include figure.html path="/olyanechaeva.github.io/assets/img/A_l'Odeon_Crime_et_Chatiment_Michelet.JPEG" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
