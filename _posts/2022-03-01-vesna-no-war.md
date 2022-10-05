@@ -20,7 +20,7 @@ categories: action-posts
 
 Призываем вас каждый день агитировать. Рассказывайте об акции друзьям и родственникам, клейте анонсы в подъездах, создавайте стикеры, граффити. Используйте все доступные средства. 
 
-[Полный план антивоенной кампании] (https://skat.media/post/1241?fbclid=IwAR2BHnhiJBX4UsyzTkCegBvH6RCC5KLawVz_NhajcYYlGz0ZakCgvKNvBOs). 
+[Полный план антивоенной кампании](https://skat.media/post/1241?fbclid=IwAR2BHnhiJBX4UsyzTkCegBvH6RCC5KLawVz_NhajcYYlGz0ZakCgvKNvBOs). 
 
 --------
 
