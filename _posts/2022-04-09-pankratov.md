@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Юрий Панкратов "Страна Керосиния"
+date: 2022-04-09 22:34:24
 description: написанное в 1955 году, стихотворение актуально сегодня, как никогда
 tags: нетвойне russianlife poetry
 categories: tought-posts
