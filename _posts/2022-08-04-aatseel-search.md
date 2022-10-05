@@ -19,7 +19,7 @@ This stream will consist of two research panels and a roundtable on decolonial p
 
 Works Cited
 
-- Alekseeva, Sasha. 2019. “Decolonization Is Not a Metaphor.” Strelka Institute, February 8. https://www.youtube.com/watch?v=HA_2gK3wnK0.
+- Alekseeva, Sasha. 2019. [“Decolonization Is Not a Metaphor.”](https://www.youtube.com/watch?v=HA_2gK3wnK0) Strelka Institute, February 8. 
 - Balthaser, Benjamin. 2020. “From Lapwai to Leningrad: Archie Phinney, Marxism, and the Making of Indigenous Modernity.” _Ab Imperio_ 2020 (1): 39–58.
 - Dzhabbarova, Egana. 2022. _Dekolonial’nost’: nastoiashchee i budushchee. Sbornik statiei._ Moscow: Gorizontal’.
 - Grenoble, Lenore A. 2021. “Learning Even and Evenki in the Northern Linguistic Landscape.” In Kohen, Hilah, Irina Sadovina, Tetyana Dzyadevych, Dylan Charter, Anna Gomboeva, Lenore A. Grenoble, Jessica Kantarovich, and Rossina Soyan. “Teaching and Learning Indigenous Languages of the Russian Federation.” _Russian Language Journal / Русский Язык_ 71 (3): 89–115.
