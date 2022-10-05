@@ -8,7 +8,7 @@ year: 2020
 category: work
 ---
 
-`OffshoreOrient Studio` (OOS) is an offshore seismic QC toolbox, a good friend for lazy seismic QC/GEO/NAV/Client. This is my independent work that have been tested and used by my colleges for several years. Sadly, I will not update it anymore. OOS had applied for software copyright (Registration No. 5073387) under the National Copyright Administration.
+`OffshoreOrient Studio` (OOS) is an offshore seismic QC toolbox, a good friend for lazy seismic QC/GEO/NAV/Client. This is my independent work that have been tested and used by my colleagues for several years. Sadly, I will not update it anymore. OOS had applied for software copyright (Registration No. 5073387) under the National Copyright Administration.
 
 In OffshoreOrient Studio v1.0.3 toolbox, *NavPy* focus on the **shot by shot or sequence by sequence QC**. *QcPy* is mainly used for **Trace edit** and **RMS analysis**. *SourcePy* is  a **real-time solution for near field Gun QC**.
 
@@ -126,4 +126,3 @@ v.1.0.0 beta 01 Mar 2019: NavPy
 <div class="caption">
     Offshoreorient studio: Data Driving Solutions for Marine Seismc QC
 </div>
-
