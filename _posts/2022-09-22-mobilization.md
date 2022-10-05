@@ -6,7 +6,9 @@ description: В России объявлена мобилизация. Паде
 tags: нетвойне russianlife poetry
 categories: thought-posts
 ---
-#нетвойне #нетмобилизации #нетмогилизации
+# #нетвойне
+# #нетмобилизации
+# #нетмогилизации
 
 Больше нечего сказать. Посмотрите [реакцию](https://meduza.io/feature/2022/09/22/povestka-dlya-golubya-mira-i-mobilizatsiya-domashnih-zhivotnyh) художников.
 
