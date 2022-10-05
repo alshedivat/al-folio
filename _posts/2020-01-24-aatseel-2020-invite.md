@@ -22,7 +22,7 @@ Chair: [Kevin M. F. Platt](https://rees.sas.upenn.edu/people/kevin-mf-platt), Un
 
 #### Group Panelists:
 <ul>
-  <li>[Olga Nechaeva](https://www.onechaeva.com/), University of Pennsylvania. Title: The Gorky Institute of Literature: on the Emergence of a New Class of Soviet Writers in the 1930s - Early 1940s</li>
+  <li><a href="[url](https://www.onechaeva.com/)">link Olga Nechaeva</a>, University of Pennsylvania. Title: The Gorky Institute of Literature: on the Emergence of a New Class of Soviet Writers in the 1930s - Early 1940s</li>
   <li>[Maya Kucherskaya](https://www.hse.ru/en/org/persons/135567), Higher School of Economics. Title: “Stop Writing About Moonshine!” — How Rural Correspondents Were Trained in the 1920s</li>
   <li>[Benjamin Musachio](https://slavic.princeton.edu/people/benjamin-musachio), Princeton University. Title: ‘Dom tvorchestva pisatelei’ and ‘Literaturnyi fond’: A Dubulti Dom Case Study</li>
 </ul>
