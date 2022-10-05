@@ -69,4 +69,4 @@ Discussant: [Serguei Oushakine](https://slavic.princeton.edu/people/serguei-alex
 
 *Concluding discussion of all participants of the results of the stream.*
 
-![pervyi s''ezd](assets/img/aatseel.jpeg)
+![pervyi s''ezd](/olyanechaeva.github.io/assets/img/aatseel.jpeg)
