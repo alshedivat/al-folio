@@ -30,4 +30,4 @@ The event will take place online in February and you will be able to participate
 
 We are very much interested in a diverse range of topics and welcome all contributions.
 
-Please consider applying and feel free to reach out if you have any questions! The deadline for abstract submission is August 15th. You can sublit your abstract via the AATSEEL [website](https://www.aatseel.org/cfp_main).
+Please consider applying and feel free to reach out if you have any questions! The deadline for abstract submission is **August 15th**. You can sublit your abstract via the AATSEEL [website](https://www.aatseel.org/cfp_main).
