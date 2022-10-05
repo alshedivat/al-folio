@@ -13,7 +13,7 @@ footer_text: >
 keywords: yavuz alp sencer ozturk, alpsencer, alp sencer ozturk  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: /assets/img/favicon-32x32.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: /assets/img/favicon.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://alpsencer.com # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
