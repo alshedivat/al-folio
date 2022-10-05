@@ -16,4 +16,4 @@ categories: conference-posts
 
 Можно подключиться по зуму. Приходите!
 
-![logo](assets/img/theory_practice_2022.jpeg)
+![logo](/olyanechaeva.github.io/assets/img/theory_practice_2022.jpeg)
