@@ -3,7 +3,7 @@ layout: post
 title: Теории и практики литературного мастерства 2022
 date: 2022-09-15 10:34:45
 description: Приглашение на конференцию
-tags: conference theory&practice
+tags: conference theory&practice litinstitut
 categories: conference-posts
 ---
 16 и 17 сентября в Вышке проходит конференция, посвященная теориям и практикам литературного мастерства.
