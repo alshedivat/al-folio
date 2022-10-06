@@ -154,7 +154,7 @@
   contents:
     - year: 2022 – 2023
       description:
-        - "International Dissertation Research Fellowship from the Social Science Research Council (IDRF SSRC)"
+        - "International Dissertation Research Fellowship from the Social Science Research Council (IDRF SSRC): for dissertation work abroad in Germany, Lithuania, Ghana, Mali, and Russia"
         - "German Academic Exchange Service (DAAD) One-Year Research Grant"
         - "Dissertation Research Award from the University of Pennsylvania"
     - year: 2021 – 2022
@@ -170,27 +170,34 @@
 - title: Research Groups
   type: time_table
   contents:
+    - year: 2022 – 2023
+      description:
+        - "Cluster of Excellence 2020 “Temporal Communities: Doing Literature in a Global Perspective.” Freie Universität Berlin."
     - year: 2020 – present
       description:
-        - "DH Project “Nineteenth-Century Russian Literature in Translation.” University of Pennsylvania"
-        - "Research Project “19C and 20C Literary Circles: History of Literary Education.” National Research University Higher School of Economics"
-        - "The Graduate Initiative on Indigenous Studies in Russia"
+        - "DH Project “Nineteenth-Century Russian Literature in Translation.” University of Pennsylvania."
+        - "Research Project “19C and 20C Literary Circles: History of Literary Education.” National Research University Higher School of Economics."
+        - "The Graduate Initiative on Indigenous Studies in Russia."
     - year: 2017 – 2018
       description:
-        - "Research Group “The Questions of the Translation of Style.” National Research University Higher School of Economics"
+        - "Research Group “The Questions of the Translation of Style.” National Research University Higher School of Economics."
 
 - title: Service
   type: time_table
   contents:
+    - year: 2023
+      description:
+        - "Volunteer for the Prospectus Workshop for third-year students of the Comparative Literature and Literary Theory Program. University of Pennsylvania."
     - year: 2019 – 2020
       description:
-        - "Representative of the Comparative Literature and Literary Theory Program at SASGov – a student government body for graduate students of Penn’s School of Arts & Sciences. University of Pennsylvania"
+        - "Representative of the Comparative Literature and Literary Theory Program at SASGov – a student government body for graduate students of Penn’s School of Arts & Sciences. University of Pennsylvania."
 
 - title: Additional Training
   type: time_table
   contents:
     - year: 2022
       description:
+        - "The Center for Teaching and Learning (CTL) Teaching Certificate, University of Pennsylvania, October 6, 2022."
         - "“Digital Humanities in the Classroom,” Dream Lab, Price Lab for Digital Humanities, University of Pennsylvania, taught by Roberto Vargas and Dorothy Berry, June 13-16, 2022"
     - year: 2021
       description:
@@ -215,7 +222,7 @@
     - year: 2022 – 2023
       description:
         - "Humboldt University of Berlin. Berlin, Germany"
-        - "Friedrich Schlegel Graduate School of Literary Studies. Berlin, Germany"
+        - "Friedrich Schlegel Graduate School of Literary Studies. Freie Universität. Berlin, Germany"
         - "Modern Language Association (MLA)"
     - year: 2020 – present
       description:
@@ -229,3 +236,4 @@
   type: list
   contents:
     - <u>Hobbies:</u> Cross-Country Running, Figure Skating, Hiking, Playing Violin
+    - <u>Comminity Service:</u> "Volunteer in a Russian non-governmental charitable organization "Podari Zhizn (Gift of Life)" that focuses on treatment, support and rehabilitation of children and young adults with oncological, hematological and other life-threatening conditions in Russia and CIS" 
