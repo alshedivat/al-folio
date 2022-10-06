@@ -3,7 +3,7 @@ layout: post
 title: НЕТМОБИЛИЗАЦИИ
 date: 2022-09-22 07:45:00
 description: В России объявлена мобилизация. Падение в бездну продолжается, хотя, казалось бы, что хуже быть не может.
-tags: нетвойне russianlife poetry
+tags: нетвойне russianlife poetry litinstitut
 categories: thought-posts
 ---
 # #нетвойне
@@ -12,7 +12,7 @@ categories: thought-posts
 
 Больше нечего сказать. Посмотрите [реакцию](https://meduza.io/feature/2022/09/22/povestka-dlya-golubya-mira-i-mobilizatsiya-domashnih-zhivotnyh) художников.
 
-И еще: вот замечательный стих Наума Коржавина.
+И еще: вот замечательный стих Наума Коржавина, выпускника Литинститута (1959).
 
 <html>
       <head>
