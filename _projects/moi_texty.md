@@ -1,0 +1,21 @@
+---
+layout: page
+title: Мои тексты
+description: Здесь я публикую свои рассказы, стихи и литературные зарисовки  
+img: assets/img/writing.jpeg
+importance: 3
+category: fun
+---
+
+### Опубликованные тексты
+
+##### 2018
+- Absent Sunday. [_Extraversion. Introversion. Perversion._](https://open.spotify.com/album/5cDEbCifPstSvrWkjc4KeC) Это не текст, а музыкальный альбом, который мы выпустили совместными усилиями с группой Absent Sunday. Скрипки: Александра Демьянова и Ольга Нечаева.
+
+##### 2017
+- "Больно не было." *Восток свыше*. 2017. №2. С. 83-84. [Скачать журнал.](https://olyanechaeva.github.io/assets/pdf/Vostok43.pdf)
+
+### Тексты, опубликованные в социальных сетях
+
+
+
