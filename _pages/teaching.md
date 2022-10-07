@@ -53,5 +53,19 @@ Higher School of Economics. Moscow, Russia. [Syllabus](olyanechaeva.github.io/as
      - Kovalenko Anzhelika (year 3). "Economics of Digital Goods."
      - Shisharin Nikolai (year 3). "Analysis of the correlation between the exchange rate and the interest rate."
    - _2017-2018_
+     - Abliatifova Khatidzhe (year 2). "Deflation in the Eurozone: Causes, Consequences, and Solutions."
+     - Chagovets Alina (year 2)."Russian Stock Market Performance and Risk."
+     - Deniakina Vasilina (year 2). "Analysis of Foreign Exchange Reserves in Developing Countries."
+     - Ezergail Olga (year 2). "Analysis of the Activities of the Central Bank of Russia: Goals, Objectives and Tools."
+     - Kovalenko Anzhelika (year 2). "Russian Stock Market Performance and Risk."
+     - Kraiushkin Arkadii. "Financial Instruments in the Modern World."
+     - Olefirenko Igor (year 2). "Economic Aspects of Environmental Protection in Theory and Practice."
+     - Shisharin Nikolai (year 2). "Factors Influencing Bank Risk Taking: Evidence from Russia."
+     - Barbikova Anastasiia (year 3). "Analysis of Okun’s law in Russia."
+     - Berezhnaia Polina (year 3). "Empirical Evidence of Kondratieff Long Waves."
+     - Filiashkina Daria (year 3). "Factors Influencing Bank Risk Taking: Evidence from Russia."
+     - Lian Andrei (year 3). "History of Financial Crises in Russia. Comparative Analysis of 1998 and 2008 Crises."
+     - Mirzaianova Mariam (year 3). "Comparison of the Crises in 2008 and 2015 in Russia"
+     - Solovev Maxim (year 3). "Factors Influencing Bank Risk Taking: Evidence from Russia."
    - _2016-2017_
    - _2015-2016_
