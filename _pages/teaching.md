@@ -24,7 +24,7 @@ nav_order: 5
 
 ##### Fall 2017
 - *Russian Language in Literature and Media* (Lecturer). International College of Economics and Finance, National Research University
-Higher School of Economics. Moscow, Russia.[Syllabus](olyanechaeva.github.io/assets/pdf/rus_lang_literature_media.pdf)
+Higher School of Economics. Moscow, Russia. [Syllabus](olyanechaeva.github.io/assets/pdf/rus_lang_literature_media.pdf)
 
 ### Literature Courses
 
