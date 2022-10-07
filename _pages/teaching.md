@@ -47,7 +47,11 @@ Higher School of Economics. Moscow, Russia. [Syllabus](olyanechaeva.github.io/as
 - *Introduction to Macroeconomics.* National Research University Higher School of Economics. International College of Economics and Finance. Moscow, Russia.
 - B.Sc. Thesis Advisor. National Research University Higher School of Economics. International College of Economics and Finance. Moscow, Russia.
    - _2018-2019_
-     - Shisharin Nikolai. _Analysis of the correlation between the exchange rate and the interest rate_
+     - Bylbas Daria (year 2). "Monetary Policy in Russian and the Financial Crisis 2008."
+     - Chagovets Alina (year 3). "Stock Correlation in the Constructed Portfolio: Analysis of Russian Stock Market."
+     - Dumitskaya Anna (year 3). "Analysis of Foreign Exchange Reserves in Russia."
+     - Kovalenko Anzhelika (year 3). "Economics of Digital Goods."
+     - Shisharin Nikolai (year 3). "Analysis of the correlation between the exchange rate and the interest rate."
    - _2017-2018_
    - _2016-2017_
    - _2015-2016_
