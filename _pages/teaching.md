@@ -45,27 +45,25 @@ Higher School of Economics. Moscow, Russia. [Syllabus](olyanechaeva.github.io/as
 
 ##### 2015-2018 
 - *Introduction to Macroeconomics.* National Research University Higher School of Economics. International College of Economics and Finance. Moscow, Russia.
-- B.Sc. Perm Paper Advisor. National Research University Higher School of Economics. International College of Economics and Finance. Moscow, Russia.
-   - _2018-2019_
-     - Bylbas Daria (year 2). "Monetary Policy in Russian and the Financial Crisis 2008."
-     - Chagovets Alina (year 3). "Stock Correlation in the Constructed Portfolio: Analysis of Russian Stock Market."
-     - Dumitskaya Anna (year 3). "Analysis of Foreign Exchange Reserves in Russia."
-     - Kovalenko Anzhelika (year 3). "Economics of Digital Goods."
-     - Shisharin Nikolai (year 3). "Analysis of the correlation between the exchange rate and the interest rate."
-   - _2017-2018_
-     - Abliatifova Khatidzhe (year 2). "Deflation in the Eurozone: Causes, Consequences, and Solutions."
-     - Chagovets Alina (year 2)."Russian Stock Market Performance and Risk."
-     - Deniakina Vasilina (year 2). "Analysis of Foreign Exchange Reserves in Developing Countries."
-     - Ezergail Olga (year 2). "Analysis of the Activities of the Central Bank of Russia: Goals, Objectives and Tools."
-     - Kovalenko Anzhelika (year 2). "Russian Stock Market Performance and Risk."
-     - Kraiushkin Arkadii. "Financial Instruments in the Modern World."
-     - Olefirenko Igor (year 2). "Economic Aspects of Environmental Protection in Theory and Practice."
-     - Shisharin Nikolai (year 2). "Factors Influencing Bank Risk Taking: Evidence from Russia."
-     - Barbikova Anastasiia (year 3). "Analysis of Okun’s law in Russia."
-     - Berezhnaia Polina (year 3). "Empirical Evidence of Kondratieff Long Waves."
-     - Filiashkina Daria (year 3). "Factors Influencing Bank Risk Taking: Evidence from Russia."
-     - Lian Andrei (year 3). "History of Financial Crises in Russia. Comparative Analysis of 1998 and 2008 Crises."
-     - Mirzaianova Mariam (year 3). "Comparison of the Crises in 2008 and 2015 in Russia"
-     - Solovev Maxim (year 3). "Factors Influencing Bank Risk Taking: Evidence from Russia."
+- B.Sc. Perm Paper Advisor. National Research University Higher School of Economics. International College of Economics and Finance. Moscow, Russia. Topics:
+   - Monetary Policy in Russian and the Financial Crisis 2008
+   - Russian Stock Market Performance and Risk.
+   - Stock Correlation in the Constructed Portfolio: Analysis of Russian Stock Market.
+   - Analysis of Foreign Exchange Reserves in Russia.
+   - Analysis of Foreign Exchange Reserves in Developing Countries.
+   - Economics of Digital Goods.
+   - Analysis of the Correlation Between Exchange Rate and Interest Rate.
+   - Deflation in the Eurozone: Causes, Consequences, and Solutions.
+   - Analysis of the Activities of the Central Bank of Russia: Goals, Objectives and Tools.
+   - Financial Instruments in the Modern World.
+   - Economic Aspects of Environmental Protection in Theory and Practice.
+   - Factors Influencing Bank Risk Taking: Evidence from Russia."
+   - Analysis of Okun’s law in Russia.
+   - Empirical Evidence of Kondratieff Long Waves.
+   - History of Financial Crises in Russia. Comparative Analysis of 1998 and 2008 Crises.
+   - Comparison of the Crises in 2008 and 2015 in Russia.
+ 
    - _2016-2017_
+     - Olimova
+     - Filiashkina
    - _2015-2016_
