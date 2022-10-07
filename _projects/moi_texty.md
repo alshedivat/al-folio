@@ -27,3 +27,6 @@ category: fun
 ##### 2012
 - "Вагонные споры." [Pdf](olyanechaeva.github.io/assets/pdf/vagonnye_spory.pdf).
 - Детки в клетке. [Pdf](olyanechaeva.github.io/assets/pdf/detki_v_kletke.pdf).
+
+##### 2009
+- Кто-то очень маленький. [Pdf](olyanechaeva.github.io/assets/pdf/kto-to.pdf).
