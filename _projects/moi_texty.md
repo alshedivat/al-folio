@@ -18,12 +18,12 @@ category: fun
 ### Тексты, опубликованные в социальных сетях и цифровых изданиях
 
 ##### 2015
-- Кошачья история. *[Рефлексия абсурда](https://www.facebook.com/refleksiya/)*. 2015. № 3. К сожалению, издание больше не существует. Прочитать рассказ можно [здесь](olyanechaeva.github.io/assets/pdf/Кошачья история.pdf).
-- Осень. *[Рефлексия абсурда](https://www.facebook.com/refleksiya/)*. 2015. № 2. Прочитать рассказ можно [здесь](olyanechaeva.github.io/assets/pdf/Осень.pdf).
+- Кошачья история. *[Рефлексия абсурда](https://www.facebook.com/refleksiya/)*. 2015. № 3. К сожалению, издание больше не существует. Прочитать рассказ можно [здесь](olyanechaeva.github.io/assets/pdf/koshachia_istoriia.pdf).
+- Осень. *[Рефлексия абсурда](https://www.facebook.com/refleksiya/)*. 2015. № 2. Прочитать рассказ можно [здесь](olyanechaeva.github.io/assets/pdf/osen.pdf).
 
 ##### 2013
-- Парижанин. Pdf.
+- Парижанин. [Pdf](olyanechaeva.github.io/assets/pdf/parizhanin.pdf).
 
 ##### 2012
-- "Вагонные споры." [Pdf](olyanechaeva.github.io/assets/pdf/Вагонные споры.pdf).
-- Детки в клетке. [Pdf](olyanechaeva.github.io/assets/pdf/Детки в клетке.pdf).
+- "Вагонные споры." [Pdf](olyanechaeva.github.io/assets/pdf/vagonnye_spory.pdf).
+- Детки в клетке. [Pdf](olyanechaeva.github.io/assets/pdf/detki_v_kletke.pdf).
