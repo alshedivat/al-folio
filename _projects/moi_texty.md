@@ -40,6 +40,6 @@ category: fun
 - Пакетик. [Pdf](olyanechaeva.github.io/assets/pdf/paketik.pdf).
 - Нелюбовь Веры. [Pdf](olyanechaeva.github.io/assets/pdf/neliubov_very.pdf).
 - О сестрах и собаках. [Pdf](olyanechaeva.github.io/assets/pdf/o_sestrakh_i_sobakakh.pdf).
+- О пчелах и цаплях. [Pdf](olyanechaeva.github.io/assets/pdf/o_pchelakh_i_tsapliakh.pdf).
+- О зайцах и кроликах. [Pdf](olyanechaeva.github.io/assets/pdf/o_zaitsakh_i_krolikakh.pdf).
 - Малиновый развод (отрывок). [Pdf](olyanechaeva.github.io/assets/pdf/malinovyi_razvod.pdf).
-- 
-
