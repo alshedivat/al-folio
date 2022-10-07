@@ -45,7 +45,7 @@ Higher School of Economics. Moscow, Russia. [Syllabus](olyanechaeva.github.io/as
 
 ##### 2015-2018 
 - *Introduction to Macroeconomics.* National Research University Higher School of Economics. International College of Economics and Finance. Moscow, Russia.
-- B.Sc. Thesis Advisor. National Research University Higher School of Economics. International College of Economics and Finance. Moscow, Russia.
+- B.Sc. Perm Paper Advisor. National Research University Higher School of Economics. International College of Economics and Finance. Moscow, Russia.
    - _2018-2019_
      - Bylbas Daria (year 2). "Monetary Policy in Russian and the Financial Crisis 2008."
      - Chagovets Alina (year 3). "Stock Correlation in the Constructed Portfolio: Analysis of Russian Stock Market."
