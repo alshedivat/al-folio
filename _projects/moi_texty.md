@@ -8,9 +8,9 @@ category: fun
 ---
 
 ### Опубликованные тексты
-<br>
+
 ##### 2018
-- Absent Sunday. [_Extraversion. Introversion. Perversion._](https://open.spotify.com/album/5cDEbCifPstSvrWkjc4KeC) Это не текст, а музыкальный альбом, который мы выпустили совместными усилиями с группой Absent Sunday. Скрипки: Александра Демьянова и Ольга Нечаева.
+- Absent Sunday. [Extraversion. Introversion. Perversion.](https://open.spotify.com/album/5cDEbCifPstSvrWkjc4KeC) Это не текст, а музыкальный альбом, который мы выпустили совместными усилиями с группой Absent Sunday. Скрипки: Александра Демьянова и Ольга Нечаева.
 
 ##### 2017
 - Больно не было. *Восток свыше*. 2017. №2. С. 83-84. [Скачать журнал.](https://olyanechaeva.github.io/assets/pdf/Vostok43.pdf)
@@ -31,15 +31,15 @@ category: fun
 
 ##### 2009
 - Кто-то очень маленький. [Pdf](olyanechaeva.github.io/assets/pdf/kto-to.pdf).
-- Она была. [Pdf]().
+- Она была. [Pdf](olyanechaeva.github.io/assets/pdf/ona_byla.pdf).
 
 
 ### Неопубликованные тексты
 
 ##### 2017
-- Пакетик. [Pdf] ().
-- Нелюбовь Веры. [Pdf]().
-- О сестрах и собаках. [Pdf].()
-- Малиновый развод (отрывок). [Pdf]().
+- Пакетик. [Pdf](olyanechaeva.github.io/assets/pdf/paketik.pdf).
+- Нелюбовь Веры. [Pdf](olyanechaeva.github.io/assets/pdf/neliubov_very.pdf).
+- О сестрах и собаках. [Pdf](olyanechaeva.github.io/assets/pdf/o_sestrakh_i_sobakakh.pdf).
+- Малиновый развод (отрывок).[Pdf](olyanechaeva.github.io/assets/pdf/malinovyi_razvod.pdf).
 - 
 
