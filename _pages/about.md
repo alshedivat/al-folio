@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>University of Colorado Boulder</a>. Address. Contacts. Moto. Etc.
+subtitle: University of Colorado Boulder. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
