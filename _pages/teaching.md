@@ -40,3 +40,9 @@ Higher School of Economics. Moscow, Russia.[Syllabus](olyanechaeva.github.io/ass
 
 ##### Fall 2017
 - *War in 20C European Literature* (TA for [Elena Ostrovskaya](https://www.hse.ru/en/org/persons/34803711)). National Research University Higher School of Economics. Moscow, Russia.
+
+### Economics Courses
+
+##### 2015-2018 
+- *Introduction to Macroeconomics.* National Research University Higher School of Economics. International College of Economics and Finance. Moscow, Russia.
+- B.Sc. Thesis Advisor. International College of Economics and Finance. National Research University Higher School of Economics. Moscow, Russia.
