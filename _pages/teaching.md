@@ -46,3 +46,4 @@ Higher School of Economics. Moscow, Russia. [Syllabus](olyanechaeva.github.io/as
 ##### 2015-2018 
 - *Introduction to Macroeconomics.* National Research University Higher School of Economics. International College of Economics and Finance. Moscow, Russia.
 - B.Sc. Thesis Advisor. National Research University Higher School of Economics. International College of Economics and Finance. Moscow, Russia.
+   - jkh
