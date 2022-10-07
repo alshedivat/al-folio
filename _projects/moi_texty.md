@@ -8,7 +8,7 @@ category: fun
 ---
 
 ### Опубликованные тексты
-
+<br>
 ##### 2018
 - Absent Sunday. [_Extraversion. Introversion. Perversion._](https://open.spotify.com/album/5cDEbCifPstSvrWkjc4KeC) Это не текст, а музыкальный альбом, который мы выпустили совместными усилиями с группой Absent Sunday. Скрипки: Александра Демьянова и Ольга Нечаева.
 
