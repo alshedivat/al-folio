@@ -17,9 +17,9 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+Hello! My name is Michelle Pirrone and I am currently a PhD student at the University of Colorado Boulder in the Electrical,Computer, and Energy Engineering Department (ECEE). Before coming to Colorado, I attended the State University of New York at New Paltz and graduated with a Bachelor's of Science, majoring in Electrical Engineering and minoring in Biology.
 
+My current research interests are in the fields of optimization and machine learning theory and techniques and how these can be applied to improve performance in feedback systems. I have previously worked on RF design, specifically amplifiers and antennas, 3D-printed RF structures, and on kinematics in the biology department. I enjoy interdisciplinary work and am always looking to make connections between different fields of research for exciting new opportunities and projects. 
 Testing. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `profile.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Check out the rest of my website for more information on current and past research [projects](/al-folio/projects/), [publications](/al-folio/publications/), work history, and [awards](/al-folio/awards/) I have received. Also, be sure to connect on LinkedIn or reach out to me by email to get in touch!
