@@ -93,7 +93,6 @@ blockquote {
 // Profile
 
 .profile {
-  margin-left: 1rem;
   width: 100%;
 
   .address {
@@ -105,6 +104,12 @@ blockquote {
       margin: 0;
     }
   }
+}
+.profile.float-right{
+  margin-left: 1rem;
+}
+.profile.float-left{
+  margin-right: 1rem;
 }
 
 @media (min-width: 576px) {
