@@ -7,7 +7,7 @@ importance: 1
 category: work
 ---
 
-Tanya Iudenich (9th grade of high school, Tashkent) in a personal letter to Stalin:
+Tanya Iudenich (9th grade of high school, Tashkent) in a personal letter to Stalin (quoted from the institute's archive: RGALI, f. 632[^1]):
 <blockquote>
       Joseph Vissarionovich!<br>  
       I want to ask you:<br>  
@@ -15,15 +15,11 @@ Tanya Iudenich (9th grade of high school, Tashkent) in a personal letter to Stal
       How to become<br>  
       A Soviet poet!!!<br>  
 </blockquote>
-
-Quoted from the institute's archive (RGALI, f. 632[^1]).
       
-Maria Beletskaia (24 years, Stavropolskii region) in a personal letter to the People’s Commissariat for Education Andrei Bubnov:
+Maria Beletskaia (24 years, Stavropolskii region) in a personal letter to the People’s Commissariat for Education Andrei Bubnov[^2]:
 <blockquote>
       …12 years I’ve been racking my brain with vain thoughts, but it won’t help… In my brain there is so much thought, but I cannot put in on paper, and all because I did not study…
 </blockquote>
-
-From the institute's archive[^2].
 
 The Writers’ Union resolution stated: 
 <blockquote>
