@@ -9,11 +9,11 @@ category: work
 
 Tanya Iudenich (9th grade of high school, Tashkent) in a personal letter to Stalin:
 <blockquote>
-      Joseph Vissarionovich!  
-      I want to ask you:\
-      Help me and show it!\
-      How to become\
-      A Soviet poet!!!
+      Joseph Vissarionovich!<br>  
+      I want to ask you:<br>  
+      Help me and show it!<br>  
+      How to become<br>  
+      A Soviet poet!!!<br>  
 </blockquote>
       
 Maria Beletskaia (24 years, Stavropolskii region) in a personal letter to the People’s Commissariat for Education Andrei Bubnov:\
