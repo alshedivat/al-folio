@@ -18,7 +18,7 @@ Tanya Iudenich (9th grade of high school, Tashkent) in a personal letter to Stal
 
 Quoted from the institute archive (RGALI, f. 632[^1]).
       
-Maria Beletskaia (24 years, Stavropolskii region) in a personal letter to the People’s Commissariat for Education Andrei Bubnov:\
+Maria Beletskaia (24 years, Stavropolskii region) in a personal letter to the People’s Commissariat for Education Andrei Bubnov:
 <blockquote>
       …12 years I’ve been racking my brain with vain thoughts, but it won’t help… In my brain there is so much thought, but I cannot put in on paper, and all because I did not study…
 </blockquote>
@@ -38,13 +38,13 @@ The main research question that this project is trying to answer is how the time
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/litinstitut_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/litinstitut_1.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/litinstitut_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/litinstitut_2.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/litinstitut_3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/litinstitut_3.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
