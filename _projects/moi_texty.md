@@ -31,7 +31,7 @@ category: fun
 ##### 2010
 - Уля. [Pdf](https://olyanechaeva.github.io/assets/pdf/ulia.pdf).
 - Диалоги не Платона. [Pdf](https://olyanechaeva.github.io/assets/pdf/dialogi.pdf).
-- Письма тому, кого больше нет [Pdf](https://olyanechaeva.github.io/assets/pdf/pisma).
+- Письма тому, кого больше нет [Pdf](https://olyanechaeva.github.io/assets/pdf/pisma.pdf).
 
 ##### 2009
 - Кто-то очень маленький. [Pdf](https://olyanechaeva.github.io/assets/pdf/kto-to.pdf).
