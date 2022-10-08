@@ -224,7 +224,7 @@ I have started to translate poetry and other literary works relatively recently.
 			навек… <br>
 </blockquote>
 
-## Petr Vegin, “Perpendiculars and Parallels,” 1962 (my English translation)
+## Petr Vegin, “Perpendiculars and Parallels,” 1962 (work in process, excerpt)
 <blockquote>
   And in the same way the poets are rushing up<br>
   Through the ceilings and attics.<br>
