@@ -65,6 +65,18 @@
       year: May 2016 - Jul 2016
       description:
 
+- title: Technical Skills
+  type: map
+  contents:
+    - name: Programming Languages
+      value: Python, Java SE & EE, Perl, Matlab, JavaScript, C++11
+    - name: Database
+      value: Oracle Database Administration for 11g and 12cR2, Postgres, Oracle SQL, MySQL
+    - name: Web Development
+      value: Ruby on Rails, Sinatra, Python Flask, React, PHP, LAMP stack, Google Cloud Run
+    - name: Other
+      value: Git, Tsung, Hyperledger Fabric, Kubernetes, Docker, LaTeX, Ionic
+
 - title: Publications
   type: list
   contents:
@@ -79,6 +91,12 @@
   type: list
   contents:
     - For a detailed list, check <a href="/teaching">teaching</a>
+
+- title: Extracurricular Activities
+  type: list
+  contents:
+    - Head of the Institute Web Operations club. Designed and deployed websites for various clubs and activities. Handled institute elections website. Technical lead for Shaastra 2016. Designed an interactive Kinect game to raise awareness for climate change.
+    - Developed an interactive game to raise deforestation awareness with Microsoft Kinect, Unity using Javascript. Edited the sound required and choreographed the movements required for the game.
 
 - title: Other Interests
   type: list
