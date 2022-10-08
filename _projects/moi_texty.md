@@ -19,7 +19,7 @@ category: fun
 
 ##### 2015
 - Кошачья история. *[Рефлексия абсурда](https://www.facebook.com/refleksiya/)*. 2015. № 3. К сожалению, издание больше не существует. Прочитать рассказ можно [здесь](https://olyanechaeva.github.io/assets/pdf/koshachia_istoriia.pdf).
-- Осень. *[Рефлексия абсурда](https://www.facebook.com/refleksiya/)*. 2015. № 2. Прочитать рассказ можно [здесь] (https://olyanechaeva.github.io/assets/pdf/osen.pdf).
+- Осень. *[Рефлексия абсурда](https://www.facebook.com/refleksiya/)*. 2015. № 2. Прочитать рассказ можно [здесь](https://olyanechaeva.github.io/assets/pdf/osen.pdf).
 
 ##### 2013
 - Парижанин. [Pdf](https://olyanechaeva.github.io/assets/pdf/parizhanin.pdf).
