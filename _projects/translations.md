@@ -9,42 +9,42 @@ category: fun
 
 I have started to translate English-, German-, and French-laguage poetry and other literary works into Russian relatively recently. Here you can find a few examples of this endeavor. 
 
-Наум Коржавин, "Восемнадцать лет"[^1]:
+# Наум Коржавин, "Восемнадцать лет," 1944[^1]:
 <blockquote>
-Мне каждое слово                        Every word<br> 
-Будет уликою<br>                        Will be evidence against me<br>
-Минимум<br> 
-На десять лет.<br> 
-Иду по Москве,<br> 
-Переполненной шпиками,<br> 
-Как настоящий поэт.<br> 
-Не надо слежек!<br> 
-К чему шатания!<br> 
-А папки бумаг?<br> 
-Дефицитные!<br> 
-Жаль!<br> 
-Я сам<br> 
-Всем своим существованием -<br> 
-Компрометирующий материал!<br> 
+  Мне каждое слово<br> 
+  Будет уликою<br>                      
+  Минимум<br> 
+  На десять лет.<br> 
+  Иду по Москве,<br> 
+  Переполненной шпиками,<br> 
+  Как настоящий поэт.<br> 
+  Не надо слежек!<br> 
+  К чему шатания!<br> 
+  А папки бумаг?<br> 
+  Дефицитные!<br> 
+  Жаль!<br> 
+  Я сам<br> 
+  Всем своим существованием -<br> 
+  Компрометирующий материал!<br> 
 </blockquote>
 
-Every word
-Will be evidence against me 
-For at least 
-Ten years.
-I’m walking through Moscow
-Crowded with spies
-Like a real poet.
-No need for surveillance!
-What’s the point of wandering?
-What about paper folders?
-Scarce!
-Too bad!
-I, myself,
-With all my existence
-Am compromising material!
-Naum Korzhavin, “Eighteen Years,” 1944 
-
+## Naum Korzhavin, “Eighteen Years” (my translation)
+<blockquote>
+  Every word<br>
+  Will be evidence against me<br> 
+  For at least<br> 
+  Ten years.<br>
+  I’m walking through Moscow<br>
+  Crowded with spies<br>
+  Like a real poet.<br>
+  No need for surveillance!<br>
+  What’s the point of wandering?<br>
+  What about paper folders?<br>
+  Scarce!<br>
+  Too bad!<br>
+  I, myself,<br>
+  With all my existence<br>
+  Am compromising material!<br>
 
 ## References
 
