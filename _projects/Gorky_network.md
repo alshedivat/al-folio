@@ -7,18 +7,22 @@ importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Tanya Iudenich (9th grade of high school, Tashkent) in a personal letter to Stalin:\
+      Joseph Vissarionovich!  
+      I want to ask you:\
+      Help me and show it!\
+      How to become\
+      A Soviet poet!!!
+      
+Maria Beletskaia (24 years, Stavropolskii region) in a personal letter to the People’s Commissariat for Education Andrei Bubnov:\
+"…12 years I’ve been racking my brain with vain thoughts, but it won’t help… In my brain there is so much thought, but I cannot put in on paper, and all because I did not study…"
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The Writers’ Union resolution stated: 
+<blockquote>
+    As can be seen from the second excerpt, the girl still does not have a good command of the Russian language. In her letter there are many spelling mistakes, but she has a great desire for knowledge.
+</blockquote>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+People wanted to learn! The workers of the numerous literary clubs (litkruzhki) had a strong desire to make their contribution to the socialist construction by creating of high-quality artistic works, they wanted to reflect in literature the heroic struggles of the builders of socialism. But there was one problem: workers lacked culture and literary technique. That is what motivated (at least officially on paper) the Soviet Writers’ Union to organize the Evening Workers’ Literary University, VRLU[^1] in Moscow in 1933. The enterprise turned out to be enormously successful: its predecessors could not last more than 4-5 years, but VRLU survived the purges, it survived the war, in 1946 it was renamed the Gorky Literary Institute, and it still exists today under the same name after nine decades and the education of countless celebrated Soviet and Russian authors.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -42,6 +46,9 @@ To give your project a background in the portfolio page, just add the img tag to
 <div class="caption">
     This image can also have a caption. It's like magic.
 </div>
+
+Timeline
+<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1HFXQmxapiv9F6_YU_bghm5WarBMwSapxOnubgocHgrI&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
@@ -78,3 +85,7 @@ Here's the code for the last row of images above:
 </div>
 ```
 {% endraw %}
+
+## References
+
+[^1]: Vechernyi rabochii literaturnyi universitet, predecessor of the Gorky Literary Institute.
