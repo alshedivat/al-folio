@@ -32,7 +32,7 @@ Some of the Gorky Institute's graduates became renowned stars of world literatur
 
 The main research question that this project is trying to answer is how the time at the Literary Institute impacted the future career of its graduates. My hypothesis is that their career path depended not only on their talent and political reliability but also on the position of the head of their creative writing seminar in literature and Soviet literary bureaucracy. The lager goal of this project is to demonstrate how network analysis can improve our understanding of the formation of Soviet literary reputations and fame.
 
-The fist visualizations will be shared here in November 2022. The preliminary results will be presented at ASEEES 2022 in Chicago and at AATSEEL 2023 (online). 
+The fist visualizations will be shared here in November 2022. The preliminary results will be presented at the ASEEES Convention 2022 in Chicago and at the AATSEEL Conference 2023 (online). 
 
 Sources of the database:
 - The institute's archive at the Russian State Archive of Literature and Art (RGALI, f. 632).
