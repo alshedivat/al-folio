@@ -9,7 +9,7 @@ category: fun
 
 I have started to translate poetry and other literary works relatively recently. Here you can find a few examples of this endeavor. 
 
-## Наум Коржавин, "Восемнадцать лет," 1944[^1]:
+## Наум Коржавин, "Восемнадцать лет," 1944[^1]
 <blockquote>
   Мне каждое слово<br> 
   Будет уликою<br>                      
@@ -111,7 +111,7 @@ I have started to translate poetry and other literary works relatively recently.
 <blockquote>
   When lightning is raining down the sky,<br>
   Trees appear to be lilac,<br>
-	And sweet and wet cheeks<br>
+  And sweet and wet cheeks<br>
   Become enameled.<br>
   <br>
   A birch tree has been tossed and circled<br>
@@ -135,7 +135,54 @@ I have started to translate poetry and other literary works relatively recently.
   Of two lips to kiss for the first time!<br>
 </blockquote>
 
-## Петр Вегин, "Перпендикуляры и параллели," 1962[^5]:
+## Юрий Панкратов, "Фестиваль," 1962[^4]
+<blockquote>
+	Я славлю утреннее солнце<br>
+	в движенье праздничного танца,<br>
+	в улыбке смуглого японца,<br>
+	в глазах поющего испанца!<br>
+	<br>
+	Пусть никогда темно и сонно<br>
+	пожар над миром не клубится—<br>
+	я славлю молодое солнце<br>
+	в сердцах шагающих кубинцев.<br>
+	<br>
+	Пою, как радостную землю,<br>
+	как рощу, тронутую зернью,<br>
+	весь мир, который благосклонно<br>
+	лежит в ладонях небосклона!<br>
+	<br>
+	Пусть никогда не уставая,<br>
+	Сопутствуемое зарею,<br>
+	Цветной эмблемой фестиваля<br>
+	Восходит солнце над землею!<br>
+</blockquote>
+
+## Iurii Pankratov, "The Festival," 1962 (my English translation)
+<blockquote>
+	I am praising the morning sun<br>
+	in the movement of a celebratory dance,<br>
+	in the smile of a swarthy Japanese,<br>
+	in the eyes of a signing Spaniard!<br>
+	<br>
+	Let there never be dark and sleepy<br>
+	whirling fire over the world—<br>
+	I am praising the young sun<br>
+	in the hearts of marching Cubans.<br>
+	<br>
+	I am singing to the cheerful land,<br>
+	To the blossoming grove,<br>
+	To the whole world, which is graciously<br>
+	Held in the hands of the firmament!<br>
+	<br>
+	Let the sun rise above the ground <br>
+	Always tirelessly,<br>
+	Accompanied by the dawn<br>
+	And the colorful emblem of the festival!<br>
+	<br>
+</blockquote>
+
+## Петр Вегин, "Перпендикуляры и параллели," 1962[^5]
 
 ## Petr Vegin, “Perpendiculars and Parallels,” 1962 (my English translation)
 <blockquote>
