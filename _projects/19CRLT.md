@@ -11,7 +11,7 @@ category: work
 
 ##### General Information
 
-The digital humanities project [*Nineteenth-Century Russian Literature in Translation (19CRLT)*](https://pricelab.sas.upenn.edu/projects/19c-rlt-nineteenth-century-russian-literature-translation) was launched at the University of Pennsylvania in fall 2020. It currently tracks book publications of works by Pushkin, Gogol, Turgenev, Tolstoy, and Dostoevsky in translation into English, French, German, and Spanish from the death of Pushkin in 1837 to the outbreak of the Great War in 1914, comprising a growing database as well as maps, graphs, and other visualizations of the data. Future phases will add more authors and expand the scope to include other global contexts in which Russian literature became an important translated literature in the twentieth century.
+The digital humanities project [Nineteenth-Century Russian Literature in Translation (19CRLT)](https://pricelab.sas.upenn.edu/projects/19c-rlt-nineteenth-century-russian-literature-translation) was launched at the University of Pennsylvania in fall 2020. It currently tracks book publications of works by Pushkin, Gogol, Turgenev, Tolstoy, and Dostoevsky in translation into English, French, German, and Spanish from the death of Pushkin in 1837 to the outbreak of the Great War in 1914, comprising a growing database as well as maps, graphs, and other visualizations of the data. Future phases will add more authors and expand the scope to include other global contexts in which Russian literature became an important translated literature in the twentieth century.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
