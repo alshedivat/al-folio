@@ -26,7 +26,7 @@ category: fun
 
 ##### 2012
 - "Вагонные споры." [Pdf](https://olyanechaeva.github.io/assets/pdf/vagonnye_spory.pdf).
-- Детки в клетке. [Pdf](https://olyanechaeva.github.io/assets/pdf/detki_v_kletke.pdf).
+- Детки в клетке. [Pdf](https://olyanechaeva.github.io/assets/pdf/detli_v_kletke.pdf).
 
 ##### 2010
 - Уля. [Pdf](https://olyanechaeva.github.io/assets/pdf/ulia.pdf).
