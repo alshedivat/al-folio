@@ -62,8 +62,3 @@ Higher School of Economics. Moscow, Russia. [Syllabus](olyanechaeva.github.io/as
    - Empirical Evidence of Kondratieff Long Waves.
    - History of Financial Crises in Russia. Comparative Analysis of 1998 and 2008 Crises.
    - Comparison of the Crises in 2008 and 2015 in Russia.
- 
-   - _2016-2017_
-     - Olimova
-     - Filiashkina
-   - _2015-2016_
