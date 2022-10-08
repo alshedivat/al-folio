@@ -37,6 +37,9 @@ category: fun
 - Кто-то очень маленький. [Pdf](olyanechaeva.github.io/assets/pdf/kto-to.pdf).
 - Она была. [Pdf](olyanechaeva.github.io/assets/pdf/ona_byla.pdf).
 
+##### 2007
+- Последняя. Слова, музыка, исполнение мои. Послушать можно [здесь](olyanechaeva.github.io/assets/music/posledniia.mp3).
+
 ### Неопубликованные тексты
 
 ##### 2017
