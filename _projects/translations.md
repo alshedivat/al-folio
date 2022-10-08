@@ -7,7 +7,7 @@ importance: 2
 category: fun
 ---
 
-I have started to translate English-, German-, and French-laguage poetry and other literary works into Russian relatively recently. Here you can find a few examples of this endeavor. 
+I have started to translate poetry and other literary works relatively recently. Here you can find a few examples of this endeavor. 
 
 ## Наум Коржавин, "Восемнадцать лет," 1944[^1]:
 <blockquote>
@@ -28,7 +28,7 @@ I have started to translate English-, German-, and French-laguage poetry and oth
   Компрометирующий материал!<br> 
 </blockquote>
 
-## Naum Korzhavin, “Eighteen Years” (my translation)
+## Naum Korzhavin, “Eighteen Years” (my English translation)
 <blockquote>
   Every word<br>
   Will be evidence against me<br> 
@@ -47,9 +47,41 @@ I have started to translate English-, German-, and French-laguage poetry and oth
   Am compromising material!<br>
 </blockquote>
 
+## Юрий Панкратов, "... Около ландыша..." 1957[^3]
+<blockquote>
+  … Около ландыша<br>
+  Лапоть уродливый.<br>
+  Около кладбища<br>
+  Рваный юродивый.<br>
+  Хочу молчу<br>
+  А захочу<br>
+  На дрожь лачуг захохочу<br>
+  ……………………………<br>
+  Хочу омлчу,<br>
+  Хочу ркичу.<br>
+  А азхочу<br>
+  Азхохочу<br>
+</blockquote>
+
+## Iurii Pankratov, "... Near a Lily of the Valley..." 1957 (my English translation)
+<blockquote>
+  … Near a Lily of the Valley<br>
+  There is an ugly bast shoe.<br>
+  Near a cemetery <br>
+  There is a ragged holy fool. <br>
+  If I want I don’t talk<br>
+  But if I want<br>
+  I laugh out at trembling hovels<br>
+  ……………………………<br>
+  If I want I don’t atlk,<br>
+  If I want I csream.<br>
+  But if I tuowant<br>
+  I tuolaugh<br>
+</blockquote>
+
 ## Петр Вегин, "Перпендикуляры и параллели," 1962[^2]:
 
-## Petr Vegin, “Perpendiculars and Parallels” 
+## Petr Vegin, “Perpendiculars and Parallels,” 1962 (my English translation)
 <blockquote>
   And in the same way the poets are rushing up<br>
   Through the ceilings and attics.<br>
@@ -67,38 +99,6 @@ I have started to translate English-, German-, and French-laguage poetry and oth
   I sleep anxiously like a deer...<br>
   I am perpendicular forever<br>
   To those who advocate for the parallel!<br>
-</blockquote>
-
-## Юрий Панкратов
-<blockquote>
-  … Около ландыша<br>
-  Лапоть уродливый.<br>
-  Около кладбища<br>
-  Рваный юродивый.<br>
-  Хочу молчу<br>
-  А захочу<br>
-  На дрожь лачуг захохочу<br>
-  ……………………………<br>
-  Хочу омлчу,<br>
-  Хочу ркичу.<br>
-  А азхочу<br>
-  Азхохочу<br>
-</blockquote>
-
-## Iurii Pankratov, "... Near a Lily of the Valley..." 1957[^3]:
-<blockquote>
-  … Near a Lily of the Valley<br>
-  There is an ugly bast shoe.<br>
-  Near a cemetery <br>
-  There is a ragged holy fool. <br>
-  If I want I don’t talk<br>
-  But if I want<br>
-  I laugh out at trembling hovels<br>
-  ……………………………<br>
-  If I want I don’t atlk,<br>
-  If I want I csream.<br>
-  But if I tuowant<br>
-  I tuolaugh<br>
 </blockquote>
 
 ## References
