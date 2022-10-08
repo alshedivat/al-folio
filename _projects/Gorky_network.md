@@ -15,7 +15,7 @@ Tanya Iudenich (9th grade of high school, Tashkent) in a personal letter to Stal
       How to become<br>  
       A Soviet poet!!!<br>  
 </blockquote>
-[^1]
+Цитата из архива Литературного института (РГАЛИ, ф. 632)[^1].
       
 Maria Beletskaia (24 years, Stavropolskii region) in a personal letter to the People’s Commissariat for Education Andrei Bubnov:\
 <blockquote>
