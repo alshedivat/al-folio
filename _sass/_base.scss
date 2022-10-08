@@ -559,6 +559,14 @@ footer.sticky-bottom {
     text-align: right;
   }
 
+  h2.year2 {
+    //color: var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+
   ol.bibliography {
     list-style: none;
     padding: 0;
