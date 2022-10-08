@@ -135,7 +135,7 @@ I have started to translate poetry and other literary works relatively recently.
   Of two lips to kiss for the first time!<br>
 </blockquote>
 
-## Петр Вегин, "Перпендикуляры и параллели," 1962[^2]:
+## Петр Вегин, "Перпендикуляры и параллели," 1962[^5]:
 
 ## Petr Vegin, “Perpendiculars and Parallels,” 1962 (my English translation)
 <blockquote>
@@ -162,4 +162,4 @@ I have started to translate poetry and other literary works relatively recently.
 [^1]: Naum Korzhavin, Vremia dano (Moscow: Khudozhestvennaia literatura, 1992), 11.
 [^2]: Quoted in Alexander Kovalenkov, “Do pervoi knigi,” Znamia, no. 8, 1957: 181. 
 [^3]: Iurii Pankratov, “Groza noch’iu,” in Iurii Pankratov, Bibliotechka izbrannoi liriki (Moscow: Molodaia gvardia, 1964).
-[^4]: I could not find the text in the published format yet, so I am citing it using the archival source: RGALI, f. 2464, op. 3, ed. khr. 45, l. 71-72. 
+[^5]: I could not find the text in the published format yet, so I am citing it using the archival source: RGALI, f. 2464, op. 3, ed. khr. 45, l. 71-72. 
