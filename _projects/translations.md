@@ -47,7 +47,7 @@ I have started to translate poetry and other literary works relatively recently.
   Am compromising material!<br>
 </blockquote>
 
-## Юрий Панкратов, "... Около ландыша..." 1957[^3]
+## Юрий Панкратов, "... Около ландыша..." 1957[^2]
 <blockquote>
   … Около ландыша<br>
   Лапоть уродливый.<br>
@@ -79,6 +79,62 @@ I have started to translate poetry and other literary works relatively recently.
   I tuolaugh<br>
 </blockquote>
 
+## Юрий Панкратов, "Гроза ночью," 1957[^3]
+<blockquote>
+  Когда по небу ходят молнии,<br>
+  Деревья кажутся лиловыми,<br>
+  А щёки, милые и мокрые,<br>
+  Становятся эмалированными.<br>
+  <br>
+  Как будто наволочку в прачечной,<br>
+  Берёзку кружит и бросает.<br>
+  А ты стоишь в сирени плачущей,<br>
+  Смеющаяся и босая!<br>
+  <br>
+  Когда по небу ходят молнии,<br>
+  Родятся женщины красивые,<br>
+  И возникают песни вольные,<br>
+  И умирают люди сильные.<br>
+  <br>
+  Когда по небу ходят возгласы,<br>
+  Земля наполнена духами,<br>
+  А мы летим с тобой по воздуху,<br>
+  И грудь — на полное дыханье!<br>
+  <br>
+  Но как торопко ты померкла,<br>
+  Сирень в блестящем целлофане!<br>
+  О, эта робкая примерка<br>
+  Двух губ при первом целованье!<br>
+</blockquote>
+
+## Iurii Pankratov, "Thunderstorm at Night," 1957 (my English translation)
+<blockquote>
+  When lightning is raining down the sky,<br>
+  Trees appear to be lilac,<br>
+	And sweet and wet cheeks<br>
+  Become enameled.<br>
+  <br>
+  A birch tree has been tossed and circled<br>
+  As if it is a pillow case in the washer.<br>
+  But you, laughing and barefoot,<br>
+  Are standing in crying lilac!<br>
+  <br>
+  When lightning is raining down the sky,<br>
+  Beautiful women are born,<br>
+  And songs of freedom are arising,<br>
+  And strong people are dying.<br>
+  <br>
+  When cries are raining down the sky,<br>
+  The earth is full of scents,<br>
+  But you and I are flying in the air<br>
+  And talking a deep breath!<br>
+  <br>
+  But how hastily you have faded, <br>
+  Lilac in shining cellophane!<br>
+  Oh, this timid attempt <br>
+  Of two lips to kiss for the first time!<br>
+</blockquote>
+
 ## Петр Вегин, "Перпендикуляры и параллели," 1962[^2]:
 
 ## Petr Vegin, “Perpendiculars and Parallels,” 1962 (my English translation)
@@ -104,5 +160,6 @@ I have started to translate poetry and other literary works relatively recently.
 ## References
 
 [^1]: Naum Korzhavin, Vremia dano (Moscow: Khudozhestvennaia literatura, 1992), 11.
-[^2]: I could not find the text in the published format yet, so I am citing it using the archival source: RGALI, f. 2464, op. 3, ed. khr. 45, l. 71-72. 
-[^3]:Quoted in Alexander Kovalenkov, “Do pervoi knigi,” Znamia, no. 8, 1957: 181. 
+[^2]:Quoted in Alexander Kovalenkov, “Do pervoi knigi,” Znamia, no. 8, 1957: 181. 
+[^4]: I could not find the text in the published format yet, so I am citing it using the archival source: RGALI, f. 2464, op. 3, ed. khr. 45, l. 71-72. 
+
