@@ -58,5 +58,5 @@ Here is the **timeline** of the institute' history which will be will be continu
 ## References
 
 [^1]: Text in the original: "Иосиф Виссарионович! / Я хочу Вас просить / Помочь мне в этом, / Чтобы стать настоящим / Советским поэтом!!!"
-[^2]: Text in the original: "…12 лет ломаю голову напрасными мыслями, а толку нет… В моем мозгу так много мысли, но пером изложить не могу, а потому, что не училась…"
+[^2]: Also from the institute's archive. Text in the original: "…12 лет ломаю голову напрасными мыслями, а толку нет… В моем мозгу так много мысли, но пером изложить не могу, а потому, что не училась…"
 [^3]: Vechernyi rabochii literaturnyi universitet, predecessor of the Gorky Literary Institute.
