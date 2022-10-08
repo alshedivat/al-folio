@@ -34,7 +34,7 @@ The main research question that this project is trying to answer is how the time
 
 The fist visualizations will be shared here in November 2022. The preliminary results will be presented at the ASEEES Convention 2022 in Chicago and at the AATSEEL Conference 2023 (online). 
 
-Sources of the database:
+**Sources of the database**:
 - The institute's archive at the Russian State Archive of Literature and Art (RGALI, f. 632).
 - Tikhonenko B. (ed). _Oni uchilis' v Litinstitute. Materialy k biobibliograficheskomu spravochniku studentov dnevnogo i zaochnogo otdelenii i slushatelei Vysshikh kursov Literaturnogo instituta im. A. M. Gor'kogo (1933-2006)._ Moskva: Literaturnyi institut im. A. M. Gor'kogo, 2006.
 - _Vospominaniia o Literaturnom institute._ Moskva: Literaturnyi institut im. A. M. Gor'kogo, 2008-2013. (In 4 volumes).
