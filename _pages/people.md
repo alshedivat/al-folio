@@ -21,7 +21,7 @@ Harshitha Gorrepati (2022 Spring --)
 
 **Alumni**
 
-Tanuja Polineni (M.S., 2022) First employment: Tricentis
+Tanuja Polineni (M.S., 2022) Current employment: Tricentis
 
 <div class="people">
 
