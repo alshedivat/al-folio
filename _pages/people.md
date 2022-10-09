@@ -21,7 +21,7 @@ I am fortunate to work with several bright students:
   <figcaption class="figure-caption">xxxxx</figcaption>
 </figure>
     
-<img src="/img/Sourabh.png" align="left" width="200px"/>
+<img src="./img/Sourabh.png" align="left" width="200px"/>
 some text floating around the image
 
 <br clear="left"/>
