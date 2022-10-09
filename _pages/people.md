@@ -8,8 +8,8 @@ nav: false
 
 I am fortunate to work with several bright students:
 
+-----------------------
 **Ph.D. Students**
-<div class="Ph.D.">
     <div class="row justify-content-md-center">
         <div class="col-sm-3">
             <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Sourabh.png' | relative_url }}" alt="" title="xxxxxxx"/>
@@ -24,20 +24,20 @@ I am fortunate to work with several bright students:
         <div class="col-sm-4">
             Sourabh receives his BS degree in xxx and MS degree in xxx. Currently, he is working on xxx. 
         </div>
-    </div>
-</div>    
+    </div>  
 
 <br clear="left"/>
 
 
-<div class="Master">
+-----------------------
 **Master Students**
 
     Harshitha Gorrepati (2022 Spring --) 
 
     Bharath Datta Chary Vadla (2022 Fall --)
-</div>  
 
+
+-----------------------
 **Alumni**
 
 Tanuja Polineni (M.S., 2022) Current employment: Tricentis
