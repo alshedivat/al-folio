@@ -23,7 +23,7 @@ I am fortunate to work with several bright students:
         <a href="[url](https://scholar.google.com/citations?user=Luc18E4AAAAJ&hl=en)">Google scholar</a>
     </div>
     <div class="col-sm-5">
-        Sourabh receives 
+        Sourabh receives his BS degree in xxx and MS degree in xxx. Currently, he is working on xxx. 
     </div>
 </div>
 
