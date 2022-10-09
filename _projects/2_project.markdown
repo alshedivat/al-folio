@@ -6,4 +6,6 @@ img: /assets/img/connected_vehicles.jpg
 importance: 2
 ---
 
-TBD
+**Task 1: Data exchange decision making.**
+
+Publications: ICDCS 2022
