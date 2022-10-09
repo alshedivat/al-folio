@@ -17,7 +17,7 @@ I am fortunate to work with several bright students:
 </div>
 
 <figure class="figure">
-  <src="{{ '/assets/img/Sourabh.png' | relative_url }}" class="figure-img img-fluid rounded" alt="">
+  <src="{{ 'img/Sourabh.png' | relative_url }}" class="figure-img img-fluid rounded" alt="Sourabh">
   <figcaption class="figure-caption"></figcaption>
 </figure>
 
