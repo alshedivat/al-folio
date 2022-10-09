@@ -22,8 +22,7 @@ Mathematics and Computer Science. In 2020 I collaborated with
 <a href='https://friedlander.io/'>Michael P. Friedlander</a>
 on a research project about the variational analysis and efficient computation of epigraphical projections in nonsmooth optimization.
 In 2021 I continued working with Tim Hoheisel,  <a href='https://www.math.mcgill.ca/rchoksi/'>Rustum Choksi</a>, <a href='https://yakov-vaisbourd.github.io/'>Yakov Vaisbourd</a>, and <a href='https://www.damtp.cam.ac.uk/user/cbs31/Home.html'>Carola-Bibiane Schöenlieb</a> 
- on a research project about using probability distributions to induce custom
- regularizers for ill-posed inverse problems. Check out my <a href="/projects/">Projects</a> for more details.
+ on an information-theoretic approach for regularizing ill-posed inverse problems. Check out my <a href="/projects/">Projects</a> for more details.
 
 I am interested in continuous optimization and variational analysis with an emphasis on geometry, as 
 well as probability, algorithm design, and applications thereof to data science, scientific computing, machine learning, and finance.
