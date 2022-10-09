@@ -33,11 +33,12 @@ xxxxxx some text floating around the image
 
 
 Sourabh Yadav (2022 Spring --) 
-Bharath Datta Chary Vadla (2022 Fall --)
 
 **Master Students**
 
 Harshitha Gorrepati (2022 Spring --) 
+
+Bharath Datta Chary Vadla (2022 Fall --)
 
 
 **Alumni**
