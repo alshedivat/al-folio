@@ -10,10 +10,8 @@ I am fortunate to work with several bright students:
 
 
 **Ph.D. Students**
-<div class="row justify-content-md-center">
-    <div class="col-sm-9">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Sourabh.png' | relative_url }}" alt="" title=""/>
-    </div>
+<div class="col-sm-9">
+    <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Sourabh.png' | relative_url }}" alt="" title=""/>
 </div>
 
 <figure class="figure">
