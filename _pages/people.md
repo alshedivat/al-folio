@@ -16,7 +16,7 @@ I am fortunate to work with several bright students:
             <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Sourabh.png' | relative_url }}" alt="" title="xxxxxxx"/>
         </div>
         <div class="col-sm-4">
-            Sourabh Yadav <br>
+            <b>Sourabh Yadav</b> <br>
             Ph.D. student (2022 Spring) <br><br>
             Data privacy, Machine Learning, Deep Learning, and Blockchain <br><br>
             Email: sourabhyadav AT my.unt.edu <br>
