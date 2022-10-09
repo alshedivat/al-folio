@@ -12,7 +12,7 @@ I am fortunate to work with several bright students:
 **Ph.D. Students**
 
 <div class="row justify-content-md-center">
-    <div class="col-sm-3">
+    <div class="col-sm-2">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Sourabh.png' | relative_url }}" alt="" title="xxxxxxx"/>
     </div>
     <div class="col-sm-3">
@@ -21,19 +21,10 @@ I am fortunate to work with several bright students:
         Differential privacy, Artificial Intelligence, Machine Learning, Deep Learning, and Blockchain <br>
         sourabhyadav AT my.unt.edu
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-5">
         Sourabh receives 
     </div>
 </div>
-
-<div class="col-sm-9">
-    <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Sourabh.png' | relative_url }}" alt="" title="xxxxxxx"/>
-    some text floating around the image xxxxx
-</div>
-
-
-<img class="img-fluid rounded z-depth-1" src="{{./img/Sourabh.png | relative_url}}" align="left" width="200px"/>
-xxxxxx some text floating around the image 
 
 <br clear="left"/>
 
