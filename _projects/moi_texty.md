@@ -3,7 +3,7 @@ layout: page
 title: Мои тексты
 description: Здесь я публикую свои рассказы, стихи и литературные зарисовки  
 img: assets/img/writing.jpeg
-importance: 2
+importance: 1
 category: fun
 ---
 
