@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://rees.sas.upenn.edu/people/olga-nechaeva'>REEES</a>. <a href='https://rees.sas.upenn.edu/people/olga-nechaeva'>CompLit</a>.
+subtitle: <a href='https://complit.sas.upenn.edu/people/olga-nechaeva'>CompLit</a>. <a href='https://rees.sas.upenn.edu/people/olga-nechaeva'>REEES</a>. 
 
 profile:
   align: right
