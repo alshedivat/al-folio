@@ -11,6 +11,6 @@ nav: false
     </div>
     <div class="col-sm-8">
         <b>NSF SaTC PI Meeting 2022 (06/01/2022 -- 06/02/2022)</b> <br>
-        On June 1st and June 2, 2022, I attended the NSF SaTC PI Meeting at Washington, D.C. I presented our current SaTC project “Privacy protection of Vehicles location in Spatial Crowdsourcing under realistic adversarial models” during the poster session. I had many exciting discussions with other researchers about data privacy, security of AI, and cybersecurity!
+        On June 1st and June 2, 2022, I attended the NSF SaTC PI Meeting in Washington, D.C. I presented some of the research progress made in our current SaTC project “Privacy protection of Vehicles location in Spatial Crowdsourcing under realistic adversarial models” during the poster session. I had many exciting discussions with other researchers about data privacy, the security of AI, and cybersecurity!
     </div>
 </div>  
