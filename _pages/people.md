@@ -15,7 +15,6 @@ I am fortunate to work with several bright students:
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Sourabh.png' | relative_url }}" alt="" title=""/>
     </div>
 </div>
-<div class="caption">
 Sourabh Yadav (2022 Spring --) 
 
 
