@@ -40,6 +40,8 @@ Bharath Datta Chary Vadla (2022 Fall --)
 -----------------------
 **Alumni**
 
+Ce Pang (B.S., 2020) Currently studying at Santa Clara University and collaborating with our lab. 
+
 Tanuja Polineni (M.S., 2022) Current employment: Tricentis
 
 <div class="people">
