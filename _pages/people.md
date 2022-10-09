@@ -14,11 +14,7 @@ I am fortunate to work with several bright students:
     <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Sourabh.png' | relative_url }}" alt="" title="xxxxxxx"/>
 </div>
 
-<figure class="figure">
-  <src="/img/Sourabh.png' | relative_url" class="figure-img img-fluid rounded" alt="Sourabh">
-  <figcaption class="figure-caption">xxxxx</figcaption>
-</figure>
-    
+
 <img class="img-fluid rounded z-depth-1" src="./img/Sourabh.png" align="left" width="200px"/>
 some text floating around the image
 
