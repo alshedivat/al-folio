@@ -8,4 +8,4 @@ importance: 2
 
 **Task 1: Data exchange decision making.**
 
-Publications: ICDCS 2022
+Publications: **ICDCS 2022**
