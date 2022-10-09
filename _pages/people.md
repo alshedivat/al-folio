@@ -11,8 +11,6 @@ I am fortunate to work with several bright students:
 
 **Ph.D. Students**
 
-![plot](./assets/img/Sourabh.png)
-
 ![Sourabh Yadav](./img/Sourabh.png)
 Sourabh Yadav (2022 Spring --) 
 
