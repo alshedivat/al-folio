@@ -32,7 +32,7 @@ I am fortunate to work with several bright students:
 
 
 <div class="Master">
-    **Master Students**
+**Master Students**
 
     Harshitha Gorrepati (2022 Spring --) 
 
