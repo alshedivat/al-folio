@@ -12,7 +12,6 @@ profile:
     <p>720 Williams Hall, University of Pennsylvania</p>
     <p>255 S. 36th Street</p>
     <p>Philadelphia, PA 19104</p>
-    <p>nechaeva@sas.upenn.edu</p>
     
 social: true  # includes social icons at the bottom of the page
 ---
