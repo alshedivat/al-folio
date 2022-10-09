@@ -11,7 +11,7 @@ I am fortunate to work with several bright students:
 
 **Ph.D. Students**
 
-![alt text](chenxiunt.github.io/assets/img/Sourabh.png?raw=true)
+![Sourabh Yadav](chenxiunt.github.io/assets/img/Sourabh.png?raw=true)
 Sourabh Yadav (2022 Spring --) 
 
 
