@@ -26,7 +26,7 @@ importance: 1
     Figure 2. Example: a traffic aware attacker can accurately track a taxicab’s locations (in Shenzhen mobility trace dataset) even when the taxicab’s location has been obfuscated with a state-of-the-art obfuscation algorithm.
 </div>
 
-Publications: IPSN 2020
+Publications: Sigspatial 2022, IPSN 2020
 
 The MATLAB code of vehicle location tracking has been released [here](https://github.com/chenxiq1986/vehicle-traffic-flow-aware-attack).
 
