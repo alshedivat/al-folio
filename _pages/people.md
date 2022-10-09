@@ -20,6 +20,12 @@ I am fortunate to work with several bright students:
   <src="/img/Sourabh.png' | relative_url" class="figure-img img-fluid rounded" alt="Sourabh">
   <figcaption class="figure-caption">xxxxx</figcaption>
 </figure>
+    
+<img src="/img/Sourabh.png" align="left" width="200px"/>
+some text floating around the image
+
+<br clear="left"/>
+
 
 Sourabh Yadav (2022 Spring --) 
 
