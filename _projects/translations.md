@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Translation/перевод/   traduction/Übersetzung"
-description: My translations of various literary works (EN, RU, FR, DE) 
+description: My translations of various literary works  
 img: assets/img/translations_back.jpeg
 importance: 2
 category: fun
