@@ -13,7 +13,7 @@ I am fortunate to work with several bright students:
 
 ![plot](./assets/img/Sourabh.png)
 
-![Sourabh Yadav](./assets/img/Sourabh.png)
+![Sourabh Yadav](chenxiunt.github.io/assets/img/Sourabh.png)
 Sourabh Yadav (2022 Spring --) 
 
 
