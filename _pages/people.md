@@ -12,11 +12,17 @@ I am fortunate to work with several bright students:
 **Ph.D. Students**
 
 <div class="row justify-content-md-center">
-    <div class="col-sm-4">
+    <div class="col-sm-3">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Sourabh.png' | relative_url }}" alt="" title="xxxxxxx"/>
     </div>
-    <div class="col-sm-8">
-        xxxxxx some text floating around the image 
+    <div class="col-sm-3">
+        Sourabh Yadav <br>
+        Ph.D. student (2022 Spring) <br>
+        Differential privacy, Artificial Intelligence, Machine Learning, Deep Learning, and Blockchain <br>
+        sourabhyadav AT my.unt.edu
+    </div>
+    <div class="col-sm-3">
+        Sourabh receives 
     </div>
 </div>
 
@@ -32,7 +38,7 @@ xxxxxx some text floating around the image
 <br clear="left"/>
 
 
-Sourabh Yadav (2022 Spring --) 
+
 
 **Master Students**
 
