@@ -15,7 +15,7 @@ I am fortunate to work with several bright students:
 </div>
 
 
-<img class="img-fluid rounded z-depth-1" src="./img/Sourabh.png | relative_url " align="left" width="200px"/>
+<img class="img-fluid rounded z-depth-1" src="{{./img/Sourabh.png | relative_url}}" align="left" width="200px"/>
 some text floating around the image
 
 <br clear="left"/>
