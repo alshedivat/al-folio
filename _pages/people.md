@@ -18,7 +18,9 @@ Sourabh Yadav (2022 Spring --)
 
 Harshitha Gorrepati (2022 Spring --) 
 
-Tanuja Polineni (2021 Fall --)
+
+**Alumni**
+Tanuja Polineni (M.S., 2022) First employment: Tricentis
 
 <div class="people">
 
