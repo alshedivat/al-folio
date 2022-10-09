@@ -19,7 +19,8 @@ I am fortunate to work with several bright students:
         Sourabh Yadav <br>
         Ph.D. student (2022 Spring) <br>
         Differential privacy, Artificial Intelligence, Machine Learning, Deep Learning, and Blockchain <br>
-        sourabhyadav AT my.unt.edu
+        Email: sourabhyadav AT my.unt.edu <br>
+        <a href="[url](https://scholar.google.com/citations?user=Luc18E4AAAAJ&hl=en)">Google scholar</a>
     </div>
     <div class="col-sm-5">
         Sourabh receives 
