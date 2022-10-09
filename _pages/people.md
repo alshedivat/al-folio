@@ -18,7 +18,7 @@ I am fortunate to work with several bright students:
 
 <figure class="figure">
   <src="{{ '/img/Sourabh.png' | relative_url }}" class="figure-img img-fluid rounded" alt="Sourabh">
-  <figcaption class="figure-caption">xxx</figcaption>
+  <figcaption class="figure-caption">xxxxx</figcaption>
 </figure>
 
 Sourabh Yadav (2022 Spring --) 
