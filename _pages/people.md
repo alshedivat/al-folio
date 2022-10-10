@@ -26,7 +26,7 @@ I am fortunate to work with several bright students:
     </div>   
 </div>  
 
-<br><br>
+<br>
 
 <div class="row justify-content-md-center">
     <div class="col-sm-3">
