@@ -2,24 +2,30 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <b>Postdoctoral Researcher</b>, Tampere University, Finland.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Room TC336, Tietotalo,</p>
+    <p>Tampere University, Hervanta campus,</p>
+    <p>Korkeakoulunkatu 10, Tampere 33720</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a postdoc at [Machine Listening Group](https://research.tuni.fi/machinelistening/), Tampere University, Finland, working with [Professor Annamaria Mesaros](https://homepages.tuni.fi/annamaria.mesaros/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+ I obtained a Ph.D. in the department of Computer Science and Engineering, National Institute of Technology Karnataka Surathkal India, advised by [Professor Shashidhar G. Koolagudi](https://cse.nitk.ac.in/faculty/shashidhar-g-koolagudi). 
+
+
+ Previously, I worked as a Summer Research Fellow at the Indian Institute of Technology Delhi and the Indian Institute of Space Science and Technology, Thiruvananthapuram (sponsored by the Indian Academy of Sciences).
+ 
+ 
+ 
+ My research interests include audio signal processing, machine learning, acoustic scene classification, audio tagging and sound event detection.
