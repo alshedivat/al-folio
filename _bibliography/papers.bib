@@ -1,6 +1,33 @@
 ---
 ---
 
+@inproceedings{bhagoji_enhancing_2018,
+  abbr        = {CISS},
+  abstract    = {We propose the use of data transformations as a defense against evasion attacks on ML classifiers. We present and investigate strategies for incorporating a variety of data transformations including dimensionality reduction via Principal Component Analysis and data "anti-whitening" to enhance the resilience of machine learning, targeting both the classification and the training phase. We empirically evaluate and demonstrate the feasibility of linear transformations of data as a defense mechanism against evasion attacks using multiple real-world datasets. Our key findings are that the defense is (i) effective against the best known evasion attacks from the literature, resulting in a two-fold increase in the resources required by a white-box adversary with knowledge of the defense for a successful attack, (ii) applicable across a range of ML classifiers, including Support Vector Machines and Deep Neural Networks, and (iii) generalizable to multiple application domains, including image classification and human activity classification.},
+  author      = {Bhagoji, Arjun Nitin and Cullina, Daniel and Sitawarin, Chawin and Mittal, Prateek},
+  bibtex_show = {false},
+  booktitle   = {52nd Annual Conference on Information Sciences and Systems ({{CISS}})},
+  code        = {https://github.com/inspire-group/ml_defense},
+  copyright   = {All rights reserved},
+  doi         = {10.1109/CISS.2018.8362326},
+  pages       = {1--5},
+  pdf         = {https://arxiv.org/abs/1704.02654},
+  title       = {Enhancing Robustness of Machine Learning Systems via Data Transformations},
+  year        = {2018}
+}
+
+@article{hingun_reap_2022,
+  abbr         = {Preprint},
+  abstract     = {Machine learning models are known to be susceptible to adversarial perturbation. One famous attack is the adversarial patch, a sticker with a particularly crafted pattern that makes the model incorrectly predict the object it is placed on. This attack presents a critical threat to cyber-physical systems that rely on cameras such as autonomous cars. Despite the significance of the problem, conducting research in this setting has been difficult; evaluating attacks and defenses in the real world is exceptionally costly while synthetic data are unrealistic. In this work, we propose the REAP (REalistic Adversarial Patch) Benchmark, a digital benchmark that allows the user to evaluate patch attacks on real images, and under real-world conditions. Built on top of the Mapillary Vistas dataset, our benchmark contains over 14,000 traffic signs. Each sign is augmented with a pair of geometric and lighting transformations, which can be used to apply a digitally generated patch realistically onto the sign, while matching real-world conditions. Using our benchmark, we perform the first large-scale assessments of adversarial patch attacks under realistic conditions. Our experiments suggest that adversarial patch attacks may present a smaller threat than previously believed and that the success rate of an attack on simpler digital simulations is not predictive of its actual effectiveness in practice.},
+  author       = {Hingun, Nabeel and Sitawarin, Chawin and Li, Jerry and Wagner, David},
+  bibtex_show  = {false},
+  journal      = {Under submission},
+  month        = oct,
+  primaryclass = {cs},
+  title        = {REAP: A Large-Scale Realistic Adversarial Patch Benchmark},
+  year         = {2022}
+}
+
 @inproceedings{lin_inversedesigned_2016,
   abbr        = {CLEO},
   abstract    = {\textcopyright{} 2016 OSA. We describe a large-scale computational approach based on topology optimization that enables automatic discovery of novel nonlinear photonic structures. As examples, we design complex cavity and fiber geometries that can achieve high-efficiency nonlinear frequency conversion.},
@@ -31,58 +58,24 @@
   year          = {2017}
 }
 
-@inproceedings{bhagoji_enhancing_2018,
-  abbr        = {CISS},
-  abstract    = {We propose the use of data transformations as a defense against evasion attacks on ML classifiers. We present and investigate strategies for incorporating a variety of data transformations including dimensionality reduction via Principal Component Analysis and data "anti-whitening" to enhance the resilience of machine learning, targeting both the classification and the training phase. We empirically evaluate and demonstrate the feasibility of linear transformations of data as a defense mechanism against evasion attacks using multiple real-world datasets. Our key findings are that the defense is (i) effective against the best known evasion attacks from the literature, resulting in a two-fold increase in the resources required by a white-box adversary with knowledge of the defense for a successful attack, (ii) applicable across a range of ML classifiers, including Support Vector Machines and Deep Neural Networks, and (iii) generalizable to multiple application domains, including image classification and human activity classification.},
-  author      = {Bhagoji, Arjun Nitin and Cullina, Daniel and Sitawarin, Chawin and Mittal, Prateek},
+@inproceedings{sehwag_analyzing_2019,
+  abbr        = {AISec},
+  abstract    = {When deploying machine learning models in real-world applications, an open-world learning framework is needed to deal with both normal in-distribution inputs and undesired out-of-distribution (OOD) inputs. Open-world learning frameworks include OOD detectors that aim to discard input examples which are not from the same distribution as the training data of machine learning classifiers. However, our understanding of current OOD detectors is limited to the setting of benign OOD data, and an open question is whether they are robust in the presence of adversaries. In this paper, we present the first analysis of the robustness of open-world learning frameworks in the presence of adversaries by introducing and designing \o odAdvExamples. Our experimental results show that current OOD detectors can be easily evaded by slightly perturbing benign OOD inputs, revealing a severe limitation of current open-world learning frameworks. Furthermore, we find that \o odAdvExamples also pose a strong threat to adversarial training based defense methods in spite of their effectiveness against in-distribution adversarial attacks. To counteract these threats and ensure the trustworthy detection of OOD inputs, we outline a preliminary design for a robust open-world machine learning framework.},
+  address     = {{New York, NY, USA}},
+  author      = {Sehwag, Vikash and Bhagoji, Arjun Nitin and Song, Liwei and Sitawarin, Chawin and Cullina, Daniel and Chiang, Mung and Mittal, Prateek},
   bibtex_show = {false},
-  booktitle   = {52nd Annual Conference on Information Sciences and Systems ({{CISS}})},
-  code        = {https://github.com/inspire-group/ml_defense},
+  booktitle   = {Proceedings of the 12th {{ACM}} Workshop on Artificial Intelligence and Security},
+  code        = {https://github.com/inspire-group/OOD-Attacks},
   copyright   = {All rights reserved},
-  doi         = {10.1109/CISS.2018.8362326},
-  pages       = {1--5},
-  pdf         = {https://arxiv.org/abs/1704.02654},
-  title       = {Enhancing Robustness of Machine Learning Systems via Data Transformations},
-  year        = {2018}
-}
-
-@article{sitawarin_inversedesigned_2018,
-  abbr        = {Photon. Res.},
-  abstract    = {Typically, photonic waveguides designed for nonlinear frequency conversion rely on intuitive and established principles, including index guiding and bandgap engineering, and are based on simple shapes with high degrees of symmetry. We show that recently developed inverse-design techniques can be applied to discover new kinds of microstructured fibers and metasurfaces designed to achieve large nonlinear frequency-conversion efficiencies. As a proof of principle, we demonstrate complex, wavelength-scale chalcogenide glass fibers and gallium phosphide three-dimensional metasurfaces exhibiting some of the largest nonlinear conversion efficiencies predicted thus far, e.g.,\&\#x00A0;lowering the power requirement for third-harmonic generation by 104 and enhancing second-harmonic generation conversion efficiency by 107. Such enhancements arise because, in addition to enabling a great degree of tunability in the choice of design wavelengths, these optimization tools ensure both frequency- and phase-matching in addition to large nonlinear overlap factors.},
-  arxiv       = {1711.07810},
-  author      = {Chawin Sitawarin and Weiliang Jin and Zin Lin and Alejandro W. Rodriguez},
-  bibtex_show = {false},
-  doi         = {10.1364/PRJ.6.000B82},
-  journal     = {Photon. Res.},
-  keywords    = {Nonlinear optics, fibers; Harmonic generation and mixing ; Nonlinear optics, devices; Computational electromagnetic methods ; Nanophotonics and photonic crystals ; Chalcogenide fibers; Harmonic generation; Light matter interactions; Microstructured fibers; Phase matching; Second harmonic generation},
-  month       = {May},
-  number      = {5},
-  pages       = {B82--B89},
-  pdf         = {https://www.osapublishing.org/prj/fulltext.cfm?uri=prj-6-5-B82&id=385779},
-  publisher   = {OSA},
-  title       = {Inverse-designed photonic fibers and metasurfaces for nonlinear frequency conversion (Invited)},
-  url         = {http://www.osapublishing.org/prj/abstract.cfm?URI=prj-6-5-B82},
-  volume      = {6},
-  year        = {2018}
-}
-
-@article{sitawarin_rogue_2018,
-  abbr          = {DLS},
-  abstract      = {We propose a new real-world attack against the computer vision based systems of autonomous vehicles (AVs). Our novel Sign Embedding attack exploits the concept of adversarial examples to modify innocuous signs and advertisements in the environment such that they are classified as the adversary's desired traffic sign with high confidence. Our attack greatly expands the scope of the threat posed to AVs since adversaries are no longer restricted to just modifying existing traffic signs as in previous work. Our attack pipeline generates adversarial samples which are robust to the environmental conditions and noisy image transformations present in the physical world. We ensure this by including a variety of possible image transformations in the optimization problem used to generate adversarial samples. We verify the robustness of the adversarial samples by printing them out and carrying out drive-by tests simulating the conditions under which image capture would occur in a real-world scenario. We experimented with physical attack samples for different distances, lighting conditions and camera angles. In addition, extensive evaluations were carried out in the virtual setting for a variety of image transformations. The adversarial samples generated using our method have adversarial success rates in excess of 95\% in the physical as well as virtual settings.},
-  archiveprefix = {arXiv},
-  author        = {Sitawarin, Chawin and Bhagoji, Arjun Nitin and Mosenia, Arsalan and Mittal, Prateek and Chiang, Mung},
-  bibtex_show   = {true},
-  code          = {https://github.com/inspire-group/advml-traffic-sign},
-  copyright     = {All rights reserved},
-  eprint        = {1801.02780},
-  eprinttype    = {arxiv},
-  journal       = {arXiv:1801.02780 [cs]},
-  month         = mar,
-  pdf           = {https://arxiv.org/abs/1801.02780},
-  primaryclass  = {cs},
-  shorttitle    = {Rogue Signs},
-  title         = {Rogue Signs: Deceiving Traffic Sign Recognition with Malicious Ads and Logos},
-  year          = {2018}
+  doi         = {10.1145/3338501.3357372},
+  isbn        = {978-1-4503-6833-9},
+  keywords    = {adversarial example,deep learning,open world recognition},
+  pages       = {105--116},
+  pdf         = {https://dl.acm.org/doi/pdf/10.1145/3338501.3357372},
+  publisher   = {{Association for Computing Machinery}},
+  series      = {{{AISec}}'19},
+  title       = {Analyzing the Robustness of Open-World Machine Learning},
+  year        = {2019}
 }
 
 @inproceedings{sehwag_not_2018,
@@ -106,6 +99,18 @@
   year        = {2018}
 }
 
+@inproceedings{sitawarin_adversarial_2021,
+  abbr        = {NeurIPS},
+  author      = {Sitawarin, Chawin and Kornaropoulos, Evgenios M and Song, Dawn and Wagner, David},
+  bibtex_show = {false},
+  booktitle   = {Advances in Neural Information Processing Systems},
+  pdf         = {https://openreview.net/forum?id=2j3B_YkC8r},
+  publisher   = {{Curran Associates, Inc.}},
+  title       = {Adversarial Examples for k-Nearest Neighbor Classifiers Based on Higher-Order Voronoi Diagrams},
+  volume      = {34},
+  year        = {2021}
+}
+
 @article{sitawarin_darts_2018,
   abbr          = {Preprint},
   abstract      = {Sign recognition is an integral part of autonomous cars. Any misclassification of traffic signs can potentially lead to a multitude of disastrous consequences, ranging from a life-threatening accident to even a large-scale interruption of transportation services relying on autonomous cars. In this paper, we propose and examine security attacks against sign recognition systems for Deceiving Autonomous caRs with Toxic Signs (we call the proposed attacks DARTS). In particular, we introduce two novel methods to create these toxic signs. First, we propose Out-of-Distribution attacks, which expand the scope of adversarial examples by enabling the adversary to generate these starting from an arbitrary point in the image space compared to prior attacks which are restricted to existing training/test data (In-Distribution). Second, we present the Lenticular Printing attack, which relies on an optical phenomenon to deceive the traffic sign recognition system. We extensively evaluate the effectiveness of the proposed attacks in both virtual and real-world settings and consider both white-box and black-box threat models. Our results demonstrate that the proposed attacks are successful under both settings and threat models. We further show that Out-of-Distribution attacks can outperform In-Distribution attacks on classifiers defended using the adversarial training defense, exposing a new attack vector for these defenses.},
@@ -123,26 +128,6 @@
   shorttitle    = {{{DARTS}}},
   title         = {{{DARTS}}: Deceiving Autonomous Cars with Toxic Signs},
   year          = {2018}
-}
-
-@inproceedings{sehwag_analyzing_2019,
-  abbr        = {AISec},
-  abstract    = {When deploying machine learning models in real-world applications, an open-world learning framework is needed to deal with both normal in-distribution inputs and undesired out-of-distribution (OOD) inputs. Open-world learning frameworks include OOD detectors that aim to discard input examples which are not from the same distribution as the training data of machine learning classifiers. However, our understanding of current OOD detectors is limited to the setting of benign OOD data, and an open question is whether they are robust in the presence of adversaries. In this paper, we present the first analysis of the robustness of open-world learning frameworks in the presence of adversaries by introducing and designing \o odAdvExamples. Our experimental results show that current OOD detectors can be easily evaded by slightly perturbing benign OOD inputs, revealing a severe limitation of current open-world learning frameworks. Furthermore, we find that \o odAdvExamples also pose a strong threat to adversarial training based defense methods in spite of their effectiveness against in-distribution adversarial attacks. To counteract these threats and ensure the trustworthy detection of OOD inputs, we outline a preliminary design for a robust open-world machine learning framework.},
-  address     = {{New York, NY, USA}},
-  author      = {Sehwag, Vikash and Bhagoji, Arjun Nitin and Song, Liwei and Sitawarin, Chawin and Cullina, Daniel and Chiang, Mung and Mittal, Prateek},
-  bibtex_show = {false},
-  booktitle   = {Proceedings of the 12th {{ACM}} Workshop on Artificial Intelligence and Security},
-  code        = {https://github.com/inspire-group/OOD-Attacks},
-  copyright   = {All rights reserved},
-  doi         = {10.1145/3338501.3357372},
-  isbn        = {978-1-4503-6833-9},
-  keywords    = {adversarial example,deep learning,open world recognition},
-  pages       = {105--116},
-  pdf         = {https://dl.acm.org/doi/pdf/10.1145/3338501.3357372},
-  publisher   = {{Association for Computing Machinery}},
-  series      = {{{AISec}}'19},
-  title       = {Analyzing the Robustness of Open-World Machine Learning},
-  year        = {2019}
 }
 
 @article{sitawarin_defending_2019,
@@ -169,23 +154,67 @@
   year          = {2019}
 }
 
-@inproceedings{sitawarin_robustness_2019,
-  abbr        = {DLS},
-  abstract    = {Despite a large amount of attention on adversarial examples, very few works have demonstrated an effective defense against this threat. We examine Deep k-Nearest Neighbor (DkNN), a proposed defense that combines k-Nearest Neighbor (kNN) and deep learning to improve the model's robustness to adversarial examples. It is challenging to evaluate the robustness of this scheme due to a lack of efficient algorithm for attacking kNN classifiers with large k and high-dimensional data. We propose a heuristic attack that allows us to use gradient descent to find adversarial examples for kNN classifiers, and then apply it to attack the DkNN defense as well. Results suggest that our attack is moderately stronger than any naive attack on kNN and significantly outperforms other attacks on DkNN.},
-  address     = {{Los Alamitos, CA, USA}},
-  author      = {Sitawarin, Chawin and Wagner, David},
+@inproceedings{sitawarin_demystifying_2022,
+  abbr        = {ICML},
+  abstract    = {Neural networks' lack of robustness against attacks raises concerns in security-sensitive settings 
+                 such as autonomous vehicles. While many countermeasures may look promising, only a few withstand rigorous evaluation. 
+                 Defenses using random transformations (RT) have shown impressive results, particularly BaRT (Raff et al., 2019) on ImageNet. 
+                 However, this type of defense has not been rigorously evaluated, leaving its robustness properties poorly understood. 
+                 Their stochastic properties make evaluation more challenging and render many proposed attacks on deterministic models inapplicable. 
+                 First, we show that the BPDA attack (Athalye et al., 2018a) used in BaRT’s evaluation is ineffective and likely over-estimates its robustness. 
+                 We then attempt to construct the strongest possible RT defense through the informed selection of transformations and 
+                 Bayesian optimization for tuning their parameters. Furthermore, we create the strongest possible attack to evaluate our RT defense. 
+                 Our new attack vastly outperforms the baseline, reducing the accuracy by 83% compared to the 19% reduction by the commonly 
+                 used EoT attack (4.3x improvement). Our result indicates that the RT defense on Imagenette dataset (ten-class subset of ImageNet) 
+                 is not robust against adversarial examples. Extending the study further, we use our new attack to adversarially train RT defense 
+                 (called AdvRT), resulting in a large robustness gain.},
+  arxiv       = {2207.03574},
+  author      = {Chawin Sitawarin and Zachary Golan-Strieb and David Wagner},
   bibtex_show = {false},
-  booktitle   = {2019 {{IEEE}} Security and Privacy Workshops ({{SPW}})},
-  copyright   = {All rights reserved},
-  doi         = {10.1109/SPW.2019.00014},
-  keywords    = {adaptation models,deep learning,neural networks,optimization,perturbation methods,robustness,training},
-  month       = may,
-  pages       = {1--7},
-  pdf         = {https://arxiv.org/abs/1903.08333},
-  publisher   = {{IEEE Computer Society}},
-  talk        = {https://youtu.be/PmgKS3zckx8},
-  title       = {On the Robustness of Deep K-Nearest Neighbors},
-  year        = {2019}
+  booktitle   = {Proceedings of the 39th International Conference on Machine Learning (Short Presentation), AAAI-2022 Workshop on Adversarial Machine Learning and Beyond (Best Paper)},
+  pdf         = {https://proceedings.mlr.press/v162/sitawarin22a/sitawarin22a.pdf},
+  slides      = {demysify_random_transform_icml22_slides.pdf},
+  poster      = {demysify_random_transform_icml22_poster.pdf},
+  talk        = {https://slideslive.com/38983632/demystifying-the-adversarial-robustness-of-random-transformation-defenses},
+  code        = {https://github.com/wagner-group/demystify-random-transform},
+  title       = {Demystifying the Adversarial Robustness of Random Transformation Defenses},
+  url         = {https://proceedings.mlr.press/v162/sitawarin22a/sitawarin22a.pdf},
+  year        = {2022}
+}
+
+@inproceedings{sitawarin_improving_2021,
+  abbr        = {Workshop},
+  abstract    = {While Adversarial Training remains the standard in improving robustness to adversarial attack, it often sacrifices accuracy on natural (clean) samples to a significant extent. Dual-domain training, optimizing on both clean and adversarial objectives, can help realize a better trade-off between clean accuracy and robustness. In this paper, we develop methods to improve dual-domain training for large adversarial perturbations and complex datasets. We first demonstrate that existing methods suffer from poor performance in this setting, due to a poor training procedure and overfitting to a particular attack. Then, we develop novel methods to address these issues. First, we show that adding KLD regularization to the dual training objective mitigates this overfitting and achieves a better trade-off, on CIFAR-10 and a 10-class subset of ImageNet. Then, inspired by domain adaptation, we develop a new normalization technique, Dual Batch Normalization, to further improve accuracy. Combining these two strategies, our model sets a new state of the art in trade-off performance for dual-domain adversarial training.},
+  author      = {Sitawarin, Chawin and Sridhar, Arvind P and Wagner, David},
+  bibtex_show = {false},
+  booktitle   = {Workshop on {{Uncertainty}} and {{Robustness}} in {{Deep Learning}}},
+  copyright   = {Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC-BY-NC-ND)},
+  language    = {en},
+  month       = jul,
+  pages       = {10},
+  pdf         = {https://chawins.github.io/assets/pdf/UDL2021-paper-048.pdf},
+  title       = {Improving the Accuracy-Robustness Trade-off for Dual-Domain Adversarial Training},
+  year        = {2021}
+}
+
+@article{sitawarin_inversedesigned_2018,
+  abbr        = {Photon. Res.},
+  abstract    = {Typically, photonic waveguides designed for nonlinear frequency conversion rely on intuitive and established principles, including index guiding and bandgap engineering, and are based on simple shapes with high degrees of symmetry. We show that recently developed inverse-design techniques can be applied to discover new kinds of microstructured fibers and metasurfaces designed to achieve large nonlinear frequency-conversion efficiencies. As a proof of principle, we demonstrate complex, wavelength-scale chalcogenide glass fibers and gallium phosphide three-dimensional metasurfaces exhibiting some of the largest nonlinear conversion efficiencies predicted thus far, e.g.,\&\#x00A0;lowering the power requirement for third-harmonic generation by 104 and enhancing second-harmonic generation conversion efficiency by 107. Such enhancements arise because, in addition to enabling a great degree of tunability in the choice of design wavelengths, these optimization tools ensure both frequency- and phase-matching in addition to large nonlinear overlap factors.},
+  arxiv       = {1711.07810},
+  author      = {Chawin Sitawarin and Weiliang Jin and Zin Lin and Alejandro W. Rodriguez},
+  bibtex_show = {false},
+  doi         = {10.1364/PRJ.6.000B82},
+  journal     = {Photon. Res.},
+  keywords    = {Nonlinear optics, fibers; Harmonic generation and mixing ; Nonlinear optics, devices; Computational electromagnetic methods ; Nanophotonics and photonic crystals ; Chalcogenide fibers; Harmonic generation; Light matter interactions; Microstructured fibers; Phase matching; Second harmonic generation},
+  month       = {May},
+  number      = {5},
+  pages       = {B82--B89},
+  pdf         = {https://www.osapublishing.org/prj/fulltext.cfm?uri=prj-6-5-B82&id=385779},
+  publisher   = {OSA},
+  title       = {Inverse-designed photonic fibers and metasurfaces for nonlinear frequency conversion (Invited)},
+  url         = {http://www.osapublishing.org/prj/abstract.cfm?URI=prj-6-5-B82},
+  volume      = {6},
+  year        = {2018}
 }
 
 @inproceedings{sitawarin_minimumnorm_2020,
@@ -208,34 +237,71 @@
   year        = {2020}
 }
 
-@inproceedings{sitawarin_improving_2021,
-  abbr        = {Workshop},
-  abstract    = {While Adversarial Training remains the standard in improving robustness to adversarial attack, it often sacrifices accuracy on natural (clean) samples to a significant extent. Dual-domain training, optimizing on both clean and adversarial objectives, can help realize a better trade-off between clean accuracy and robustness. In this paper, we develop methods to improve dual-domain training for large adversarial perturbations and complex datasets. We first demonstrate that existing methods suffer from poor performance in this setting, due to a poor training procedure and overfitting to a particular attack. Then, we develop novel methods to address these issues. First, we show that adding KLD regularization to the dual training objective mitigates this overfitting and achieves a better trade-off, on CIFAR-10 and a 10-class subset of ImageNet. Then, inspired by domain adaptation, we develop a new normalization technique, Dual Batch Normalization, to further improve accuracy. Combining these two strategies, our model sets a new state of the art in trade-off performance for dual-domain adversarial training.},
-  author      = {Sitawarin, Chawin and Sridhar, Arvind P and Wagner, David},
-  bibtex_show = {false},
-  booktitle   = {Workshop on {{Uncertainty}} and {{Robustness}} in {{Deep Learning}}},
-  copyright   = {Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC-BY-NC-ND)},
-  language    = {en},
-  month       = jul,
-  pages       = {10},
-  pdf         = {https://chawins.github.io/assets/pdf/UDL2021-paper-048.pdf},
-  title       = {Improving the Accuracy-Robustness Trade-off for Dual-Domain Adversarial Training},
-  year        = {2021}
+@article{sitawarin_part_2022,
+  abbr         = {Preprint},
+  abstract     = {We show that combining human prior knowledge with end-to-end learning can improve the robustness of deep neural networks by introducing a part-based model for object classification. Our model combines a part segmentation model with a tiny classifier and is trained end-to-end to simultaneously segment objects into parts and then classify the segmented object. Empirically, our part-based models achieve both higher accuracy and higher adversarial robustness than a ResNet-50 baseline on all three datasets. For instance, the clean accuracy of our part models is up to 15 percentage points higher than the baseline's, given the same level of robustness. Our experiments indicate that these models also reduce texture bias and yield better robustness against common corruptions and spurious correlations. Our work provides evidence that the stronger learning signal from the part segmentation benefits robustness without requiring more samples.},
+  author       = {Sitawarin, Chawin and Pongmala, Kornrapat and Chen, Yizheng and Carlini, Nicholas and Wagner, David},
+  bibtex_show  = {false},
+  journal      = {Under submission},
+  month        = jul,
+  primaryclass = {cs},
+  title        = {Part-Based Models Improve Adversarial Robustness},
+  year         = {2022},
+  arxiv        = {2209.09117},
+  code         = {https://github.com/chawins/adv-part-model}
 }
 
-@inproceedings{sridhar_mitigating_2021,
-  abbr        = {Workshop},
-  abstract    = {The adversarial training paradigm has become the standard in training deep neural networks for robustness. Yet, it remains unstable, with the mechanisms driving this instability poorly understood. In this study, we discover that this instability is primarily driven by a non-smooth optimization landscape and an internal covariate shift phenomenon, and show that Batch Normalization (BN) can effectively mitigate both these issues. Further, we demonstrate that BN universally improves clean and robust performance across various defenses, datasets, and model types, with greater improvement on more difficult tasks. Finally, we confirm BN's heterogeneous distribution issue with mixed-batch training and propose a solution.},
-  author      = {Sridhar, Arvind P and Sitawarin, Chawin and Wagner, David},
+@article{sitawarin_preprocessor_2022,
+  abbr         = {Preprint},
+  abstract     = {Decision-based adversarial attacks construct inputs that fool a machine learning model into making targeted mispredictions. For the most part, these attacks have been applied directly to isolated neural network models. However, in practice, machine learning models are just a component of a much larger system, and we find that state-of-the-art query-based attacks are as much as four times less effective at attacking a prediction pipeline with only one preprocessor than attacking the machine learning model alone. We can explain this discrepancy by the fact that most preprocessors introduce some notion of ``invariant'' to the input space (e.g., with center crop, the prediction is invariant to the border pixels). Hence, attacks that are unaware of this invariance inevitably wastes a large number of queries to re-discover or to overcome it. We therefore develop techniques to first reverse-engineer preprocessors and then use the extracted information to attack the end-to-end system. Our extraction method uses only a few hundreds queries to learn the preprocessors used by most publicly available models, and our preprocessor-aware attack recovers the same efficacy as just attacking the model alone.},
+  author       = {Sitawarin, Chawin and Tram{\`e}r, Florian and Carlini, Nicholas},
+  bibtex_show  = {false},
+  journal      = {Under submission},
+  month        = aug,
+  primaryclass = {cs},
+  title        = {Preprocessors Matter! Realistic Decision-Based Attacks on Machine Learning Systems},
+  year         = {2022},
+  code         = {https://github.com/google-research/preprocessor-aware-black-box-attack},
+  arxiv        = {2210.03297},
+  pdf          = {https://arxiv.org/abs/2210.03297}
+}
+
+@inproceedings{sitawarin_robustness_2019,
+  abbr        = {DLS},
+  abstract    = {Despite a large amount of attention on adversarial examples, very few works have demonstrated an effective defense against this threat. We examine Deep k-Nearest Neighbor (DkNN), a proposed defense that combines k-Nearest Neighbor (kNN) and deep learning to improve the model's robustness to adversarial examples. It is challenging to evaluate the robustness of this scheme due to a lack of efficient algorithm for attacking kNN classifiers with large k and high-dimensional data. We propose a heuristic attack that allows us to use gradient descent to find adversarial examples for kNN classifiers, and then apply it to attack the DkNN defense as well. Results suggest that our attack is moderately stronger than any naive attack on kNN and significantly outperforms other attacks on DkNN.},
+  address     = {{Los Alamitos, CA, USA}},
+  author      = {Sitawarin, Chawin and Wagner, David},
   bibtex_show = {false},
-  booktitle   = {Security and {{Safety}} in {{Machine Learning Systems Workshop}}},
-  copyright   = {Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC-BY-NC-ND)},
-  language    = {en},
+  booktitle   = {2019 {{IEEE}} Security and Privacy Workshops ({{SPW}})},
+  copyright   = {All rights reserved},
+  doi         = {10.1109/SPW.2019.00014},
+  keywords    = {adaptation models,deep learning,neural networks,optimization,perturbation methods,robustness,training},
   month       = may,
-  pages       = {13},
-  pdf         = {https://aisecure-workshop.github.io/aml-iclr2021/papers/43.pdf},
-  title       = {Mitigating Adversarial Training Instability with Batch Normalization},
-  year        = {2021}
+  pages       = {1--7},
+  pdf         = {https://arxiv.org/abs/1903.08333},
+  publisher   = {{IEEE Computer Society}},
+  talk        = {https://youtu.be/PmgKS3zckx8},
+  title       = {On the Robustness of Deep K-Nearest Neighbors},
+  year        = {2019}
+}
+
+@article{sitawarin_rogue_2018,
+  abbr          = {DLS},
+  abstract      = {We propose a new real-world attack against the computer vision based systems of autonomous vehicles (AVs). Our novel Sign Embedding attack exploits the concept of adversarial examples to modify innocuous signs and advertisements in the environment such that they are classified as the adversary's desired traffic sign with high confidence. Our attack greatly expands the scope of the threat posed to AVs since adversaries are no longer restricted to just modifying existing traffic signs as in previous work. Our attack pipeline generates adversarial samples which are robust to the environmental conditions and noisy image transformations present in the physical world. We ensure this by including a variety of possible image transformations in the optimization problem used to generate adversarial samples. We verify the robustness of the adversarial samples by printing them out and carrying out drive-by tests simulating the conditions under which image capture would occur in a real-world scenario. We experimented with physical attack samples for different distances, lighting conditions and camera angles. In addition, extensive evaluations were carried out in the virtual setting for a variety of image transformations. The adversarial samples generated using our method have adversarial success rates in excess of 95\% in the physical as well as virtual settings.},
+  archiveprefix = {arXiv},
+  author        = {Sitawarin, Chawin and Bhagoji, Arjun Nitin and Mosenia, Arsalan and Mittal, Prateek and Chiang, Mung},
+  bibtex_show   = {true},
+  code          = {https://github.com/inspire-group/advml-traffic-sign},
+  copyright     = {All rights reserved},
+  eprint        = {1801.02780},
+  eprinttype    = {arxiv},
+  journal       = {arXiv:1801.02780 [cs]},
+  month         = mar,
+  pdf           = {https://arxiv.org/abs/1801.02780},
+  primaryclass  = {cs},
+  shorttitle    = {Rogue Signs},
+  title         = {Rogue Signs: Deceiving Traffic Sign Recognition with Malicious Ads and Logos},
+  year          = {2018}
 }
 
 @inproceedings{sitawarin_sat_2021,
@@ -276,79 +342,17 @@
   year        = {2021}
 }
 
-@inproceedings{sitawarin_adversarial_2021,
-  abbr        = {NeurIPS},
-  author      = {Sitawarin, Chawin and Kornaropoulos, Evgenios M and Song, Dawn and Wagner, David},
+@inproceedings{sridhar_mitigating_2021,
+  abbr        = {Workshop},
+  abstract    = {The adversarial training paradigm has become the standard in training deep neural networks for robustness. Yet, it remains unstable, with the mechanisms driving this instability poorly understood. In this study, we discover that this instability is primarily driven by a non-smooth optimization landscape and an internal covariate shift phenomenon, and show that Batch Normalization (BN) can effectively mitigate both these issues. Further, we demonstrate that BN universally improves clean and robust performance across various defenses, datasets, and model types, with greater improvement on more difficult tasks. Finally, we confirm BN's heterogeneous distribution issue with mixed-batch training and propose a solution.},
+  author      = {Sridhar, Arvind P and Sitawarin, Chawin and Wagner, David},
   bibtex_show = {false},
-  booktitle   = {Advances in Neural Information Processing Systems},
-  pdf         = {https://openreview.net/forum?id=2j3B_YkC8r},
-  publisher   = {{Curran Associates, Inc.}},
-  title       = {Adversarial Examples for k-Nearest Neighbor Classifiers Based on Higher-Order Voronoi Diagrams},
-  volume      = {34},
+  booktitle   = {Security and {{Safety}} in {{Machine Learning Systems Workshop}}},
+  copyright   = {Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC-BY-NC-ND)},
+  language    = {en},
+  month       = may,
+  pages       = {13},
+  pdf         = {https://aisecure-workshop.github.io/aml-iclr2021/papers/43.pdf},
+  title       = {Mitigating Adversarial Training Instability with Batch Normalization},
   year        = {2021}
-}
-
-@inproceedings{sitawarin_demystifying_2022,
-  abbr        = {ICML},
-  abstract    = {Neural networks' lack of robustness against attacks raises concerns in security-sensitive settings 
-                 such as autonomous vehicles. While many countermeasures may look promising, only a few withstand rigorous evaluation. 
-                 Defenses using random transformations (RT) have shown impressive results, particularly BaRT (Raff et al., 2019) on ImageNet. 
-                 However, this type of defense has not been rigorously evaluated, leaving its robustness properties poorly understood. 
-                 Their stochastic properties make evaluation more challenging and render many proposed attacks on deterministic models inapplicable. 
-                 First, we show that the BPDA attack (Athalye et al., 2018a) used in BaRT’s evaluation is ineffective and likely over-estimates its robustness. 
-                 We then attempt to construct the strongest possible RT defense through the informed selection of transformations and 
-                 Bayesian optimization for tuning their parameters. Furthermore, we create the strongest possible attack to evaluate our RT defense. 
-                 Our new attack vastly outperforms the baseline, reducing the accuracy by 83% compared to the 19% reduction by the commonly 
-                 used EoT attack (4.3x improvement). Our result indicates that the RT defense on Imagenette dataset (ten-class subset of ImageNet) 
-                 is not robust against adversarial examples. Extending the study further, we use our new attack to adversarially train RT defense 
-                 (called AdvRT), resulting in a large robustness gain.},
-  arxiv       = {2207.03574},
-  author      = {Chawin Sitawarin and Zachary Golan-Strieb and David Wagner},
-  bibtex_show = {false},
-  booktitle   = {Proceedings of the 39th International Conference on Machine Learning (Short Presentation), AAAI-2022 Workshop on Adversarial Machine Learning and Beyond (Best Paper)},
-  pdf         = {https://openreview.net/forum?id=p4SrFydwO5},
-  slides      = {aaai_advml_workshop_2022.pdf},
-  talk        = {https://slideslive.com/38983632/demystifying-the-adversarial-robustness-of-random-transformation-defenses},
-  title       = {Demystifying the Adversarial Robustness of Random Transformation Defenses},
-  url         = {https://openreview.net/forum?id=p4SrFydwO5},
-  year        = {2022}
-}
-
-@article{sitawarin_part_2022,
-  abbr         = {Preprint},
-  abstract     = {We show that combining human prior knowledge with end-to-end learning can improve the robustness of deep neural networks by introducing a part-based model for object classification. Our model combines a part segmentation model with a tiny classifier and is trained end-to-end to simultaneously segment objects into parts and then classify the segmented object. Empirically, our part-based models achieve both higher accuracy and higher adversarial robustness than a ResNet-50 baseline on all three datasets. For instance, the clean accuracy of our part models is up to 15 percentage points higher than the baseline's, given the same level of robustness. Our experiments indicate that these models also reduce texture bias and yield better robustness against common corruptions and spurious correlations. Our work provides evidence that the stronger learning signal from the part segmentation benefits robustness without requiring more samples.},
-  author       = {Sitawarin, Chawin and Pongmala, Kornrapat and Chen, Yizheng and Carlini, Nicholas and Wagner, David},
-  bibtex_show  = {false},
-  journal      = {Under submission},
-  month        = jul,
-  primaryclass = {cs},
-  title        = {Part-Based Models Improve Adversarial Robustness},
-  year         = {2022},
-  arxiv        = {2209.09117},
-  code         = {https://github.com/chawins/adv-part-model}
-}
-
-@article{sitawarin_preprocessor_2022,
-  abbr         = {Preprint},
-  abstract     = {Decision-based adversarial attacks construct inputs that fool a machine learning model into making targeted mispredictions. For the most part, these attacks have been applied directly to isolated neural network models. However, in practice, machine learning models are just a component of a much larger system, and we find that state-of-the-art query-based attacks are as much as four times less effective at attacking a prediction pipeline with only one preprocessor than attacking the machine learning model alone. We can explain this discrepancy by the fact that most preprocessors introduce some notion of ``invariant'' to the input space (e.g., with center crop, the prediction is invariant to the border pixels). Hence, attacks that are unaware of this invariance inevitably wastes a large number of queries to re-discover or to overcome it. We therefore develop techniques to first reverse-engineer preprocessors and then use the extracted information to attack the end-to-end system. Our extraction method uses only a few hundreds queries to learn the preprocessors used by most publicly available models, and our preprocessor-aware attack recovers the same efficacy as just attacking the model alone.},
-  author       = {Sitawarin, Chawin and Tram{\`e}r, Florian and Carlini, Nicholas},
-  bibtex_show  = {false},
-  journal      = {Under submission},
-  month        = aug,
-  primaryclass = {cs},
-  title        = {Preprocessors Matter! Realistic Decision-Based Attacks on Machine Learning Systems},
-  year         = {2022},
-  code         = {https://github.com/google-research/preprocessor-aware-black-box-attack}
-}
-
-@article{hingun_reap_2022,
-  abbr         = {Preprint},
-  abstract     = {Machine learning models are known to be susceptible to adversarial perturbation. One famous attack is the adversarial patch, a sticker with a particularly crafted pattern that makes the model incorrectly predict the object it is placed on. This attack presents a critical threat to cyber-physical systems that rely on cameras such as autonomous cars. Despite the significance of the problem, conducting research in this setting has been difficult; evaluating attacks and defenses in the real world is exceptionally costly while synthetic data are unrealistic. In this work, we propose the REAP (REalistic Adversarial Patch) Benchmark, a digital benchmark that allows the user to evaluate patch attacks on real images, and under real-world conditions. Built on top of the Mapillary Vistas dataset, our benchmark contains over 14,000 traffic signs. Each sign is augmented with a pair of geometric and lighting transformations, which can be used to apply a digitally generated patch realistically onto the sign, while matching real-world conditions. Using our benchmark, we perform the first large-scale assessments of adversarial patch attacks under realistic conditions. Our experiments suggest that adversarial patch attacks may present a smaller threat than previously believed and that the success rate of an attack on simpler digital simulations is not predictive of its actual effectiveness in practice.},
-  author       = {Hingun, Nabeel and Sitawarin, Chawin and Li, Jerry and Wagner, David},
-  bibtex_show  = {false},
-  journal      = {Under submission},
-  month        = oct,
-  primaryclass = {cs},
-  title        = {REAP: A Large-Scale Realistic Adversarial Patch Benchmark},
-  year         = {2022}
 }
