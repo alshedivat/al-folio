@@ -18,7 +18,7 @@ projects: true # includes projects
 display_categories: [work, fun] # Projects show in about page
 ---
 
-After so many years sitting with *meteorologist, geomorphologist, hydrologist, glaciologist, sedimentologist, geodesist, geologist, geophysicist*, **I am still none of them** 🤷‍♂️. But It's still a fantastic journey to [explore multidiscipline by using geodata](https://geo.w.uib.no/files/2020/01/Poster-The-Geological-Society-Geoscience-for-the-future-scaled.jpg), from discovering oil and gas to carbon capture and storage, from glacial mass balance to hydrological model, from the origin of landforms to permafrost projection at 2100. [**Everything is connected!**][![](https://i.imgur.com/RLuAtrB.png)]
+After so many years sitting with *meteorologist, geomorphologist, hydrologist, glaciologist, sedimentologist, geodesist, geologist, geophysicist*, **I am still none of them** 🤷‍♂️. But It's still a fantastic journey to [explore multidiscipline by using geodata](https://geo.w.uib.no/files/2020/01/Poster-The-Geological-Society-Geoscience-for-the-future-scaled.jpg), from discovering oil and gas to carbon capture and storage, from glacial mass balance to hydrological model, from the origin of landforms to permafrost projection at 2100. [**Everything is connected!**](https://i.imgur.com/RLuAtrB.png)
 
 This is spatial professional, sounds like can do everything but end up doing nothing💊. 
 
