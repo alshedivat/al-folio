@@ -12,6 +12,7 @@ nav_order: 2
 | Semester  | Course |
 | --------------------- | --------------------- |
 | Sem A, 2022-2023 <img width=100/> | CS2311  Computer Programming |
+| Sem B, 2022-2023 <img width=100/> | CS6290  Privacy-enhancing Technologies |
 
 <br />
 
