@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hello! I am a Research Assistant at [Universitat Politècnica de Catalunya](https://www.upc.edu/en) in Barcelona (Spain), working at the [ViRVIG](https://www.virvig.eu/) research group.
+Hello! I am a Ph.D. student at [Universitat Politècnica de Catalunya](https://www.upc.edu/en) in Barcelona (Spain), working at the [ViRVIG](https://www.virvig.eu/) research group.
 
 My research interests are **computer animation**, **virtual and augmented reality**, **deep learning** and **computer graphics**.
 
