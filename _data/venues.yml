@@ -1,5 +1,9 @@
+"SODA":
+  url: https://www.siam.org/conferences/cm/conference/soda23
+  color: "#006CB4"
+
 "DISC":
-  url: http://www.disc-conference.org/wp/disc2021/
+  url: http://www.disc-conference.org/wp/
   color: "#009E69"
 
 "CoRR":
