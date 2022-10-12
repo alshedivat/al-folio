@@ -4,3 +4,9 @@
 "Weir":
   - firstname: ["Michael", "M."]
     url: https://risweb.st-andrews.ac.uk/portal/en/persons/michael-kenneth-weir(609b0bc6-bbe9-4f05-bd90-92772b19acf9).html
+"Harrison":
+  - firstname: ["David", "D.", "David J", "D. J."]
+    url: https://risweb.st-andrews.ac.uk/portal/en/persons/david-james-harrison(6bb6c114-15d1-4b0d-9091-8ce3ce9c2c7d).html
+"Um":
+  - firstname: ["In Hwa", "I. H."]
+    url: https://risweb.st-andrews.ac.uk/portal/en/persons/in-hwa-um(0ac978a2-6ef8-4397-bc36-f920a77696a3).html

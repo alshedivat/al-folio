@@ -11,7 +11,7 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{%- for y in page.years %}
+{% for y in page.years %}
 
   <h2 class="year">{{y}}</h2>
   {% bibliography -f publications -q !@thesis[year={{y}}]* %}
