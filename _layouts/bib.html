@@ -6,7 +6,7 @@
   {% if badge == nil %}
     {% assign badge = entry.abbr %}
   {% endif %}
-  <div class="col-sm-3 {% if entry.preview %}preview{% endif %}{% if badge %}abbr{% endif %}">
+  <div class="col-sm-3 {% if entry.preview %}preview{% endif %} {% if badge %}abbr{% endif %}">
     {% if entry.url %}
       <a href="{{entry.url}}" target="blank">
     {% endif %}
