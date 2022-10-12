@@ -10,4 +10,4 @@ date: 2022-08-08
 <br />
 
 ## Interested Areas
-Computer Vision, Multimodal Learning, Multitask Learning, Generative Models, Robotics, Cognitive Science (Cognitive Psychology and Neuroscience)
+Computer Vision, Natural Language Processing, Multimodal Learning, Multitask Learning, Generative Models, Robotics, Cognitive Science (Cognitive Psychology and Neuroscience)
