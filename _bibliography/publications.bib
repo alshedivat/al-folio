@@ -1,7 +1,20 @@
+@STRING{UNDERREVIEW = {under review}}
 @STRING{JIMAGING = {Journal of Imaging}}
 @STRING{CANCERS = {Cancers}}
-@STRING{UNDERREVIEW = {under review}}
 @STRING{OSF = {Open Science Foundation}}
+@STRING{WACV = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)}}
+
+@inproceedings{woelflein2022,
+  title     = {{HoechstGAN}: Virtual Lymphocyte Staining Using Generative Adversarial Networks},
+  author    = {W\"{o}lflein, Georg and Um, In Hwa and Harrison, David J and Arandjelovi\'{c}, Ognjen},
+  author+an = {1=highlight},
+  booktitle = WACV,
+  month     = {1},
+  year      = {2023},
+  code      = {https://github.com/georg-wolflein/hoechstgan},
+  abstract  = {The presence and density of specific types of immune cells are important to understand a patient's immune response to cancer. However, immunofluorescence staining required to identify T cell subtypes is expensive, timeconsuming, and rarely performed in clinical settings. We present a framework to virtually stain Hoechst images (which are cheap and widespread) with both CD3 and CD8 to identify T cell subtypes in clear cell renal cell carcinoma using generative adversarial networks. Our proposed method jointly learns both staining tasks, incentivising the network to incorporate mutually beneficial information from each task. We devise a novel metric to quantify the virtual staining quality, and use it to evaluate our method.},
+  keywords  = {conference,paper}
+}
 
 @article{defilippis2022,
   title        = {Use of high-plex data reveals novel insights into the tumour microenvironment of clear cell renal cell carcinoma},
@@ -10,8 +23,7 @@
   firstauthors = {2},
   journal      = UNDERREVIEW,
   year         = {2022},
-  keywords     = {journal,paper},
-  img          = {/assets/img/publications/highplex.png}
+  keywords     = {journal,paper}
 }
 
 @article{wolflein2021jimaging,
