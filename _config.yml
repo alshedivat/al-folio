@@ -211,7 +211,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code"] # this tags will be dispalyed on the front page of your blog
+display_tags: # ["formatting", "images", "links", "math", "code"] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -261,7 +261,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown, other authors will be visible on hover, leave blank to show all authors
-max_author_limit: 3
+max_author_limit: 
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images

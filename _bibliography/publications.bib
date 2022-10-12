@@ -1,17 +1,21 @@
 @STRING{UNDERREVIEW = {under review}}
 @STRING{JIMAGING = {Journal of Imaging}}
+@STRING{JIMAGING_SHORT = {J. Imaging}}
 @STRING{CANCERS = {Cancers}}
+@STRING{CANCERS_SHORT = {Cancers}}
 @STRING{OSF = {Open Science Foundation}}
 @STRING{WACV = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)}}
+@STRING{WACV_SHORT = {WACV}}
 
-@inproceedings{woelflein2022,
+@inproceedings{woelflein2023wacv,
   title     = {{HoechstGAN}: Virtual Lymphocyte Staining Using Generative Adversarial Networks},
   author    = {W\"{o}lflein, Georg and Um, In Hwa and Harrison, David J and Arandjelovi\'{c}, Ognjen},
   author+an = {1=highlight},
   booktitle = WACV,
+  abbr      = WACV_SHORT,
   month     = {1},
   year      = {2023},
-  img       = {/assets/img/publications/hoechstgan.png},
+  preview   = {hoechstgan.png},
   code      = {https://github.com/georg-wolflein/hoechstgan},
   abstract  = {The presence and density of specific types of immune cells are important to understand a patient's immune response to cancer. However, immunofluorescence staining required to identify T cell subtypes is expensive, timeconsuming, and rarely performed in clinical settings. We present a framework to virtually stain Hoechst images (which are cheap and widespread) with both CD3 and CD8 to identify T cell subtypes in clear cell renal cell carcinoma using generative adversarial networks. Our proposed method jointly learns both staining tasks, incentivising the network to incorporate mutually beneficial information from each task. We devise a novel metric to quantify the virtual staining quality, and use it to evaluate our method.},
   keywords  = {conference,paper}
@@ -24,7 +28,7 @@
   firstauthors = {2},
   journal      = UNDERREVIEW,
   year         = {2022},
-  img          = {/assets/img/publications/highplex.png},
+  preview      = {highplex.png},
   keywords     = {journal,paper}
 }
 
@@ -33,19 +37,21 @@
   author         = {W\"olflein, Georg and Arandjelovi\'c, Ognjen},
   author+an      = {1=highlight},
   journal        = JIMAGING,
+  abbr           = JIMAGING_SHORT,
   volume         = {7},
   year           = {2021},
   month          = {6},
   number         = {6},
   article-number = {94},
   url            = {https://www.mdpi.com/2313-433X/7/6/94},
+  arxiv_         = {2104.14963},
   doi            = {10.3390/jimaging7060094},
   keywords       = {journal,paper},
   code           = {https://github.com/georg-wolflein/chesscog},
   website        = {https://www.chesscog.com},
   abstract       = {Identifying the configuration of chess pieces from an image of a chessboard is a problem in computer vision that has not yet been solved accurately. However, it is important for helping amateur chess players improve their games by facilitating automatic computer analysis without the overhead of manually entering the pieces. Current approaches are limited by the lack of large datasets and are not designed to adapt to unseen chess sets. This paper puts forth a new dataset synthesised from a 3D model that is an order of magnitude larger than existing ones. Trained on this dataset, a novel end-to-end chess recognition system is presented that combines traditional computer vision techniques with deep learning. It localises the chessboard using a RANSAC-based algorithm that computes a projective transformation of the board onto a regular grid. Using two convolutional neural networks, it then predicts an occupancy mask for the squares in the warped image and finally classifies the pieces. The described system achieves an error rate of 0.23\% per square on the test set, 28 times better than the current state of the art. Further, a few-shot transfer learning approach is developed that is able to adapt the inference system to a previously unseen chess set using just two photos of the starting position, obtaining a per-square accuracy of 99.83\% on images of that new chess set. The code, dataset, and trained models are made available online.},
   selected       = {true},
-  img            = {/assets/img/publications/chesscog.png},
+  preview        = {chesscog.png},
   pdf            = {https://www.mdpi.com/2313-433X/7/6/94/pdf},
   blog           = {/blog/2021/chesscog}
 }
@@ -61,7 +67,7 @@
   year         = {2021},
   month        = {5},
   keywords     = {dataset},
-  img          = {/assets/img/publications/chesscog-dataset.png},
+  preview      = {chesscog-dataset.png},
   abstract     = {This dataset contains 4,888 synthetic images of chess game states that occurred in games played by Magnus Carlsen. The images were rendered in Blender at different angles and lighting conditions.}
 }
 
@@ -74,7 +80,7 @@
   year        = {2021},
   month       = {1},
   badge       = {MSci},
-  img         = {/assets/img/publications/chesscog.png},
+  preview     = {chesscog.png},
   pdf         = {https://github.com/georg-wolflein/chesscog-report/raw/master/report.pdf},
   code        = {https://github.com/georg-wolflein/chesscog},
   url         = {https://www.chesscog.com},
@@ -92,7 +98,7 @@
   year        = {2020},
   month       = {4},
   badge       = {BSc},
-  img         = {/assets/img/publications/neural-surfing.png},
+  preview     = {neural-surfing.png},
   pdf         = {https://github.com/georg-wolflein/neural-surfing/raw/master/report/report.pdf},
   code        = {https://github.com/georg-wolflein/neural-surfing},
   url         = {https://github.com/georg-wolflein/neural-surfing},
