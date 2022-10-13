@@ -21,12 +21,22 @@ Cancer acts as a complex system for some of the same reasons ant colonies do: tu
 
 One other example I like to use to explain complex systems, and specifically why we need mathematical modeling to understand them, is Conway’s Game of Life. There is a well fleshed out Wikipedia article on this, so I won’t go into too much detail here. The concept of this game, devised by mathematician John Horton Conway in 1970, is very simple: little “cells” or automatons (agents acting according their own set of rules, without centralized control) evolve in a way that depends only on where they begin in a grid of indeterminate size. For example, let’s start like this:
 
+<div class="img">
+    <img src="{{ site.baseurl }}/assets/img/complexity/complexity1.jpg" style='height: 100%; width: 100%; object-fit: contain'>
+</div>
+
+
 Any live cell with fewer than two live neighbors dies, as if by underpopulation.Each black square is a cell that acts according to these simple rules regarding its interactions with its 8 neighboring cells (including corners):
 
 Any live cell with two or three live neighbors lives on to the next generation.
 Any live cell with more than three live neighbors dies, as if by overpopulation.
 Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 So in the next iteration of our game above, some of the cells will “die” due to underpopulation (red cells), and some new cells will spring up where they touch three live neighbors (grey):
+
+<div class="img">
+    <img src="{{ site.baseurl }}/assets/img/complexity/complexity2.jpg" style='height: 100%; width: 100%; object-fit: contain'>
+</div>
+
 
 That’s all there is to it. You can continue the game we have above, and eventually you’ll get to a point where the cells won’t change any more (steady state equilibrium), or where they flicker through a cycle of the same few states (usually between 2 states, but sometimes more—this is a cyclical equilibrium). Can you guess how the game above will end?
 
