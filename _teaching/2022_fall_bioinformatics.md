@@ -1,11 +1,12 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: Introduction to Bioinformatics
+description: I was a Guest Lecturer for this course at Vanderbilt University.
+img: assets/img/teaching/bioinformatics_2022.png
 importance: 3
-category: fun
+category: 2022
 ---
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
