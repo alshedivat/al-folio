@@ -22,34 +22,55 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Post-doctoral Research Trainee in Computational & Systems Biology
+    - title: Post-doctoral Research Trainee
       institution: Vanderbilt University, Nashville, TN
       year: Current
       description:
+        - Computational & Systems Biology
         - Advisors- Vito Quaranta, M.D. and Scott Hiebert, Ph.D.
-        - Analyzing chromatin accessibility and transcriptomics datasets (scATAC-seq & scRNA-seq) to understand epigenetic regulation of lung cancer phenotypes. Facilitating collaboration between two labs at Vanderbilt to plan experimental design and coordinate omics data collection. The goal of this project is to combine computational modeling and bioinformatics tools to predict lineage drivers for variant SCLC models. 
     - title: Data Science Intern
       institution: Decode Health, Nashville, TN
       year: Current
-      description:
-        - Developing pipelines for data processing and analysis such as feature selection, machine learning models, and visualization. Decode Health is a healthcare AI company that unlocks discovery with data.
     - title: Graduate Student Researcher
       institution: Vanderbilt University, Nashville, TN
       year: 2017-2022
       description: 
+        - Chemical and Physical Biology (Systems Biology Track)
         - Dissertation- Network Control of Cell Identity and Plasticity in Small Cell Lung Cancer (SCLC)
-        - Developed and applied a network inference algorithm to determine the epigenetic regulation and stability of phenotypic subtypes of SCLC. Developed a bioinformatics pipeline for analyzing changes in cell identity (scRNA-seq) in classic and variant models of SCLC. Overall, this project led to insights into how intratumoral heterogeneity and plasticity may allow SCLC tumors to overcome therapy and gain resistance.
     - title: Graduate Student Researcher, Laboratory Rotations
       institution: Vanderbilt University, Nashville, TN
       year: 2016-2017
       description:
-        - Completed four 8-week rotations in labs studying myosin tracking to tips of microvilli, effect of ECM stiffness on cancer cell growth, modeling of drug-induced dynamics in melanoma, and fetal membrane developmental dynamics.
+        - Rotations in several laboratories- Cell & Developmental Biology, Physics, and System Biology.
     - title: Undergraduate Student Researcher
-      institution: College of William & Mary, Nashville, TN
+      institution: College of William & Mary, Williamsburg, VA
       year: 2015-2016
       description:
+        - Department of Physics
         - Senior Thesis- Quantitative Analysis of Vital Signs in Premature Infants
-        - Programmed a biophysical 'Query User Data Interface' in MATLAB for the Apnea of Prematurity group at UVA and William & Mary. The goal of this project was to streamline data acquirement for the neonatal intensive care unit at UVA.
+    - title: Undergraduate Summer Research Student
+      institution: University of Michigan and CERN, Geneva, Switzerland
+      year: 2015
+      description:
+        - Design of Experiments for the 2015 CLOUD Run
+    - title: Undergraduate Student Researcher
+      institution: College of William & Mary, Williamsburg, VA
+      year: 2014-2015
+      description:
+        - Department of Applied Science
+        - Properties of Silk Studied by Atomic Force Microscopy
+    - title: Undergraduate Summer Research Student
+      institution: University of Chicago and Argonne National Laboratory, Chicago, IL
+      year: 2014
+      description:
+        - Materials Research Science and Engineering Center
+        - Analyzing the Viscoelastic Properties of Langmuir Monolayers
+    - title: Undergraduate Student Researcher
+      institution: College of William & Mary, Williamsburg, VA
+      year: 2014-2015
+      description:
+        - Department of Physics
+        - Global Fits to the Precision Proton Form Factor Data from Mainz
 
 # - title: Open Source Projects
 #   type: time_table
