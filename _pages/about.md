@@ -6,7 +6,7 @@ subtitle: Postdoctoral Researcher at <a href='https://www.vanderbilt.edu'>Vander
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   address: >
     <p>Nashville, TN, 37212</p>
