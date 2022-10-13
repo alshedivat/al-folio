@@ -8,9 +8,6 @@ categories:
 tags:
     - complexity
     - impact
-header:
-    image_fullwidth: "header_8.jpg"
-permalink: "/blog/complexity/"
 ---
 
 
