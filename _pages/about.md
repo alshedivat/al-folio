@@ -9,7 +9,7 @@ profile:
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>sarah.f.maddox{at}vanderbilt.edu</p>
+    <p>sarah.f.maddox@vanderbilt.edu</p>
     <p>Nashville, TN, 37212</p>
 
 news: true  # includes a list of news items
