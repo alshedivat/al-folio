@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: Scientific Communication for CPB
+description: I was a Teaching Assistant for this course at Vanderbilt University.
+img: assets/img/teaching/cpb_retreat.jpg
+importance: 3
+category: 2022
+redirect: https://medschool.vanderbilt.edu/cpb/
 ---
 
 Every project has a beautiful feature showcase page.
