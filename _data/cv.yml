@@ -2,18 +2,19 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Sarah Maddox Groves
+    - name: Maiden Name
+      value: Sarah Frances Maddox
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Post-doctoral Research Trainee in Computational & Systems Biology
+      institution: Vanderbilt University, Nashville, TN
+      year: Current
+    - title: PhD in Chemical and Physical Biology (Systems Biology Track)
+      institution: Vanderbilt University, Nashville, TN
+      year: 2016-2022
       description:
         - Description 1.
         - Description 2.
