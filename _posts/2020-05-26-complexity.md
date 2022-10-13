@@ -3,7 +3,7 @@ layout: post
 title:  What is Complexity?
 date:   2020-05-26 16:40:16
 description: Cancer acts as a complex system for some of the same reasons ant colonies do--tumors are made up of single cells, which are made up of relatively simpler components (proteins, DNA, RNA), which, at their heart, are just made up of chemicals, and yet the tumor system as a whole is able to devastate the human body.
-tags: complexity
+tags: complexity posts
 categories: blog
 ---
 
@@ -22,7 +22,7 @@ Cancer acts as a complex system for some of the same reasons ant colonies do: tu
 One other example I like to use to explain complex systems, and specifically why we need mathematical modeling to understand them, is Conway’s Game of Life. There is a well fleshed out Wikipedia article on this, so I won’t go into too much detail here. The concept of this game, devised by mathematician John Horton Conway in 1970, is very simple: little “cells” or automatons (agents acting according their own set of rules, without centralized control) evolve in a way that depends only on where they begin in a grid of indeterminate size. For example, let’s start like this:
 
 <div class="img">
-    <img src="{{ site.baseurl }}/assets/img/complexity/complexity1.jpg" style='height: 100%; width: 100%; object-fit: contain'>
+    <img src="{{ site.baseurl }}/assets/img/complexity/complexity1.jpg" style='height: 50%; width: 50%; object-fit: contain'>
 </div>
 
 
@@ -34,7 +34,7 @@ Any dead cell with exactly three live neighbors becomes a live cell, as if by re
 So in the next iteration of our game above, some of the cells will “die” due to underpopulation (red cells), and some new cells will spring up where they touch three live neighbors (grey):
 
 <div class="img">
-    <img src="{{ site.baseurl }}/assets/img/complexity/complexity2.jpg" style='height: 100%; width: 100%; object-fit: contain'>
+    <img src="{{ site.baseurl }}/assets/img/complexity/complexity2.jpg" style='height: 50%; width: 50%; object-fit: contain'>
 </div>
 
 
