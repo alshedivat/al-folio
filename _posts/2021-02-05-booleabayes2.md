@@ -109,4 +109,3 @@ Next post, I'll talk about how we actually figure out the rules in the first pla
 
 <sup>**</sup> If you're super savvy with this Boolean language stuff, you might also include XOR, which means "exclusive or." In Boolean language, "or" means something a little different than everyday language; instead of meaning "one or the other, but not both," it means "at least one or the other, including both." XOR is what we mean when we say "or" in the English langauge-- "one of the other, but not both." 
 
-{% include list-posts tag='booleabayes' %}
