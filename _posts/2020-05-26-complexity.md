@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  What is Complexity?
-date:   2020-05-26 16:40:16
+date:   2020-05-26
 description: Cancer acts as a complex system for some of the same reasons ant colonies do--tumors are made up of single cells, which are made up of relatively simpler components (proteins, DNA, RNA), which, at their heart, are just made up of chemicals, and yet the tumor system as a whole is able to devastate the human body.
-tags: complexity posts
-categories: blog
+tags: posts
+categories: complexity
 ---
 
 What is complexity? This is the question we start with each spring semester for the Introduction to Cancer Systems Biology course I teach at Vanderbilt. We usually ask the students to come up with examples of what they think qualify as complex systems. Because it is a class focused on cancer, someone usually pipes up with just that response: a tumor, an organ, or even an entire human begin, can be thought of as a complex system. Someone usually thinks of the weather—maybe because they’ve heard before that weather is chaotic, or something about a butterfly effect. Sometimes someone will mix up “complex” with “complicated” systems, and, to be fair, these words generally mean the same thing except in the context of systems biology. (Complex systems are what I will describe below. Complicated systems are, well, just hard problems.)
