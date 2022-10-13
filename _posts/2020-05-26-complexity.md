@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  a post with formatting and links
+title:  What is Complexity?
 date:   2015-03-15 16:40:16
-description: march & april, looking forward to summer
-tags: formatting links
-categories: sample-posts
+description: Cancer acts as a complex system for some of the same reasons ant colonies do--tumors are made up of single cells, which are made up of relatively simpler components (proteins, DNA, RNA), which, at their heart, are just made up of chemicals, and yet the tumor system as a whole is able to devastate the human body.
+tags: complexity
+categories: blog
 ---
 Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
 
