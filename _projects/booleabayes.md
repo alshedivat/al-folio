@@ -5,7 +5,7 @@ description: Boolean Network Inference Toolkit
 img: assets/img/msapplication_tileimage.png
 redirect: https://pypi.org/project/booleabayes/
 importance: 1
-category: work
+category: packages
 ---
 
 Every project has a beautiful feature showcase page.
