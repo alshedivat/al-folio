@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I defended my thesis for my Ph.D.! :sparkles:
+title: I defended my thesis for my Ph.D.! 
 date: 2022-03-15 14:00:00-0400
 inline: false
 ---
