@@ -66,7 +66,7 @@ We also have data that tells us, for RNA sequenced from different samples (which
 Remember how, in the last blog post, we considered every possible combination of the "parent nodes," or the ones affecting the thing we care about, by making a table? We can represent this in another, more compact, way:
 
 <div class="img">
- <img src="{{ site.baseurl }}/assets/img/bb/4_node_tress.jpg"  style='height: 100%; width: 100%; object-fit: contain'>
+ <img src="{{ site.baseurl }}/assets/img/bb/4_node_tress.jpeg"  style='height: 100%; width: 100%; object-fit: contain'>
 </div>
 
 In this "tree," we've enumerated every possible combination of nodes A, B, and C as leaves at the bottom. For example, if we want to know what happens when A, B, and C are all off, we can look at the first leaf:
