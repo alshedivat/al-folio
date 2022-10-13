@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Groves et al. (2022) Cell Systems
+description: Code associated with my publication in Cell Systems.
 img:
 importance: 3
-category: fun
+category: work
 ---
 
 Every project has a beautiful feature showcase page.
