@@ -15,11 +15,11 @@ In this first post, I explain why we care about transcription factor networks an
 
 ## Part 2: Network structure and dynamics
 This post takes a look what information we will need to gather in order to understand how cell identity is controlled. \
-<a href='https://smgroves.github.io/projects/booleabayes/2/'>Read More</a>.
+<a href='https://smgroves.github.io/blog/2021/booleabayes2/'>Read More</a>.
 
 ## Part 3: Using data to build a network for Small Cell Lung Cancer
 We begin to look at how BooleaBayes, the computational tool developed in the Quaranta lab by David Wooten, PhD and me, can be applied to Small Cell Lung Cancer Data. \
-<a href='https://smgroves.github.io/projects/booleabayes/3/'>Read More</a>.
+<a href='https://smgroves.github.io/blog/2021/booleabayes3/'>Read More</a>.
 
 ## Part 4: How good is our model?
 How can we be sure that our model's predictions will be accurate and tell us something new?
