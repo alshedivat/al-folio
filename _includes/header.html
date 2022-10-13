@@ -68,7 +68,7 @@
           {%- for p in sorted_pages -%}
           {%- if p.nav and p.autogen == nil -%}
           {%- if p.dropdown %}
-          <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
+          <!-- <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">{{ p.title }}
               {%- if page.title == p.title -%}
@@ -84,7 +84,7 @@
               {%- endif -%}
               {% endfor %}
             </div>
-          </li>
+          </li> -->
           {%- else %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
             <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
