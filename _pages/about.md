@@ -35,29 +35,27 @@ social: true  # includes social icons at the bottom of the page
 I work in the area of <b>satellite communication</b>, and I especially focus on the following topics:
 <table align="center">
   <tr>
-    <td align="center" width="250">Statistical signal processing, adaptive filters, and optimization theory</td>
-  </tr>
-  <tr>
-    <td><img height="250" width="350" src="assets/img/figs/signal.gif"></td>
-  </tr>
-  <tr>
+    <td align="center" width="250">Statistical signal processing and adaptive filters</td>
     <td align="center" width="350">Machine learning, neural networks, and pattern recognition</td>
   </tr>
   <tr>
-    <td valign="middle" align="center"><img height="250" width="350" src="assets/img/figs/test.gif"></td>
+    <td><img height="250" width="350" src="assets/img/figs/signal.gif"></td>
+    <td valign="middle" align="center"><img height="250" width="350" src="assets/img/figs/mlp.gif"></td>
   </tr>
   <tr>
-    <td width="350">Embedded systems (in such as FPGA and DSP) for Implementation of digital modems</td>
+    <td width="350" align="center">Embedded systems (in such as FPGA and DSP) for Implementation of digital modems</td>
+    <td width="350" align="center">Optimization theory</td>
   </tr>
   <tr>
     <td valign="top" align="center"><img height="250" width="350" src="assets/img/figs/embedded systems microprocessor.png"></td>
+    <td valign="top" align="center"><img height="250" width="350" src="assets/img/figs/linear_programming.gif"></td>
   </tr>
  </table>
 <hr>
 
 <h1 align="center">Skills</h1>
 <ul>
-<li> <p align="center">Programing (or hardware description) Languages: </p>
+<p><h5 align="center">&bull; Programing (or hardware description) Languages:</h5></p>
     <table align="center">
         <tr>
             <td align="center" width="96">
@@ -90,11 +88,9 @@ I work in the area of <b>satellite communication</b>, and I especially focus on 
                 </a>
                 <br>Shell scripting
             </td>
-        </tr>
-        <tr>
             <td align="center" width="96">
                 <a href="https://en.wikipedia.org/wiki/VHDL">
-                    <img alt="VHDL" height="40" src="assets/img/figs/VHDL.jfif" />
+                    <img alt="VHDL" height="40" width="56" src="assets/img/figs/VHDL.jfif" />
                 </a>
                 <br>VHDL
             </td>
@@ -104,6 +100,8 @@ I work in the area of <b>satellite communication</b>, and I especially focus on 
                 </a>
                 <br>C
             </td>
+        </tr>
+        <tr>
             <td align="center" width="96">
                 <a href="https://en.wikipedia.org/wiki/C%2B%2B">
                     <img alt="cpp" height="40" src="assets/img/figs/cpp_colorful.svg" />
@@ -124,9 +122,8 @@ I work in the area of <b>satellite communication</b>, and I especially focus on 
             </td>
         </tr>
     </table>
-</li>
 <br>
-<li> <p align="center">Tools:</p>
+<p><h5 align="center">&bull; Tools:</h5></p>
     <table align="center">
         <tr>
             <td align="center" width="96">
@@ -161,8 +158,10 @@ I work in the area of <b>satellite communication</b>, and I especially focus on 
             </td>
         </tr>
     </table>
-</li>
 </ul>
+<br>
+<br>
+<hr>
 <!-- <details>
     <summary>More info</summary>
     <ul>
