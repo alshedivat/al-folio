@@ -28,7 +28,3 @@ How can we be sure that our model's predictions will be accurate and tell us som
 Where we are with targeting cell plasticity as a form of therapy.
 
 *Posts are adapted from my talk on <a href = "http://smgroves.github.io/about/talks/">Network Control of Phenotypic Plasticity in SCLC.</a>
-
-## Links to all posts
-Please come back soon; these posts are still being updated.
-{% include list-posts tag='booleabayes' %}
