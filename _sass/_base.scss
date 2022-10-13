@@ -103,6 +103,12 @@ blockquote {
     }
   }
 }
+.profile.float-right{
+  margin-left: 1rem;
+}
+.profile.float-left{
+  margin-right: 1rem;
+}
 
 @media (min-width: 576px) {
   .profile {
