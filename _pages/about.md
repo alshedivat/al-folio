@@ -2,24 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Undergraduate Researcher, AUEB, Athens, Greece & Brown University, Providence, RI
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Business Analytics Lab</p>
+    <p>2 Troias street</p>
+    <p>Athens, Greece 113 62</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a **senior undergraduate student** in in the Department of <a href='https://www.dept.aueb.gr/en/dmst'>Management Science and Technology</a> **Athens University of Economics and Business**. I am also a member of <a href='https://www.balab.aueb.gr'>BALab</a>, where I conduct research related to software engineering and programming languages, under the supervision of Prof. <a href='https://www2.dmst.aueb.gr/dds/index.el.html'>Diomidis Spinellis</a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am also a **research affiliate** at the Computer Science Department of **Brown University**, working on the <a href='https://binpa.sh'>PaSh</a> project, a shell-script parallelization project hosted by the Linux Foundation, under the supervision of Prof. <a href='http://nikos.vasilak.is/'>Nikos Vasilakis</a>.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My **research interests** include programming languages, software analytics, empirical software engineering and computer systems. I am always willing to speak with anyone (junior or senior) who feels the need to share or discuss anything, whether it be directly related to the above topics or not. I find the field of security particularly interesting but had not yet studied them in depth.
