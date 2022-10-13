@@ -1,8 +1,9 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: BooleaBayes
+description: Boolean Network Inference Toolkit
+img: assets/img/msapplication_tileimage.png
+redirect: https://pypi.org/project/booleabayes/
 importance: 1
 category: work
 ---

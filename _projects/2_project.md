@@ -1,8 +1,9 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Mazebox
+description: Single-cell Transcriptomics Analysis Pipeline
+img: assets/img/mazebox_ctrp.png
+redirect: https://pypi.org/project/mazebox/
 importance: 2
 category: work
 ---
