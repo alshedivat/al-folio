@@ -15,4 +15,8 @@ The second lecture focused on what to do with a counts matrix. The standard step
 
 <iframe src="https://onedrive.live.com/embed?cid=B9339AD34A30F7D3&amp;resid=B9339AD34A30F7D3%21160&amp;authkey=AOAga9Amw7EftJ0&amp;em=2&amp;wdAr=1.7777777777777777" width="952px" height="576px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
 
-I also made two practice Google Colab notebooks for the second lecture. The <a href="https://colab.research.google.com/drive/11WUQeR6Kv9ORbKhGNhWCVZ2MmAHNKoVZ?usp=sharing">first notebook</a> is a general introduction to working with large datasets. The <a href="https://colab.research.google.com/drive/1pZmwxpIL1y3O0Ck2i1uSYqoNKxP8wvzI?usp=sharing">second notebook</a> uses DESeq2 to run a differential expression analysis on sequencing data.
+I also made two practice Google Colab notebooks for the second lecture. The first notebook is a general introduction to working with large datasets:
+> <a href="https://colab.research.google.com/drive/11WUQeR6Kv9ORbKhGNhWCVZ2MmAHNKoVZ?usp=sharing">Practice Working with Big Data</a>
+
+The second notebook uses DESeq2 to run a differential expression analysis on sequencing data:
+> <a href="https://colab.research.google.com/drive/1pZmwxpIL1y3O0Ck2i1uSYqoNKxP8wvzI?usp=sharing">Practice using DESeq2 for Differential Expression Analysis</a>
