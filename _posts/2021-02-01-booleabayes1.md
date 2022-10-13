@@ -13,14 +13,18 @@ These are all questions of cell identity. Cell identity can be defined in many d
 
 <div class="img">
  <img src="{{ site.baseurl }}/assets/img/bb/lungcells.jpg"  style='height: 50%; width: 50%; object-fit: contain'>
-  <caption>Wagner et al., 2016.</caption>
+</div>
+<div class="caption">
+  Wagner et al., 2016.
 </div>
 
 All of these cells likely have the same genome, or specific patterns of DNA, if they come from the same (healthy) person. But they have different *phenotypes* and *proteomes* (amounts of an array of proteins in each cell), which can be driven by non-genetic processes at the *transcriptomic*, or RNA expression, level. So a cell’s identity– distinguished by its behaviors– is governed by the expression of genes required for certain functions. 
 
 <div class="img">
  <img src="{{ site.baseurl }}/assets/img/bb/dogma.jpg"  style='height: 50%; width: 50%; object-fit: contain'>
-  <caption>Like an old-school printing press, DNA is a template that can be used to make many copies of messenger RNA, or mRNA. These RNA copies then get translated into proteins, which are the cellular machines that allow cells to function in different ways. The number of copies of RNA made from the DNA depends on many things, one of which is other proteins whose function is to decide how much DNA is transcribed. These proteins are called transcription factors.</caption>
+</div>
+<div class="caption">
+  Like an old-school printing press, DNA is a template that can be used to make many copies of messenger RNA, or mRNA. These RNA copies then get translated into proteins, which are the cellular machines that allow cells to function in different ways. The number of copies of RNA made from the DNA depends on many things, one of which is other proteins whose function is to decide how much DNA is transcribed. These proteins are called transcription factors.
 </div>
 
 Often the control of gene expression, or transcriptional regulation, is ascribed to networks of transcription factors that affect the level of gene expression (amount of that gene's RNA) in each cell. For example, the image below is showing three different TFs (two activators and one repressor), and when the TFs bind to their targeted regions of DNA, they affect how much of the target gene is transcribed and therefore how much of that protein is made. 
@@ -29,11 +33,14 @@ Often the control of gene expression, or transcriptional regulation, is ascribed
  <img src="{{ site.baseurl }}/assets/img/bb/tfs.jpg"  style='height: 50%; width: 50%; object-fit: contain'>
 </div>
 
+
 These TFs do not work independently, but instead can be placed in a network that we call a gene regulatory network (GRN). Sets of interacting transcription factors (TFs) can “drive” cells towards a specific “identity” through concerted activities. GRNs can exist in multiple states and their dynamics can explain the coexistence of multiple stable cell types even within an isogenic (same genome) population. These dynamics also give cells the plasticity they need to undergo epigenetic changes necessary for response to perturbations and external signals. For example, in response to an external signal, the dynamics of the network shown here may cause the green gene expression to increase and the blue to decrease until the cell’s expression profile reaches a stable point. These dynamics of gene expression are how a cell might change its phenotype– for example, from a lung basal cell to a club cell.
 
 <div class="img">
  <img src="{{ site.baseurl }}/assets/img/bb/grn.jpg" style='height: 50%; width: 50%; object-fit: contain'>
-  <caption>Transcription factors form a network, and the network changes over time, causing expression of genes to change over time. This is how a cell may change its identity from a basal cell, expressing the <i>blue</i> gene, to a club cell, expressing <i>green</i>.</caption>
+</div>
+<div class="caption">
+  Transcription factors form a network, and the network changes over time, causing expression of genes to change over time. This is how a cell may change its identity from a basal cell, expressing the <i>blue</i> gene, to a club cell, expressing <i>green</i>.
 </div>
 
 Because this single network under different conditions can produce varying phenotypes, we say that the network is capable of explaining the multi-stability of cell phenotypes that share a single genome. 
@@ -42,7 +49,9 @@ A very helpful (albeit limited) visualization tool for thinking about multiple s
 
 <div class="img">
  <img src="{{ site.baseurl }}/assets/img/bb/landscape.jpg" style='height: 50%; width: 50%; object-fit: contain'>
-  <caption>The network will eventually "calm down" until it reaches an equilibrium, like a thermostat (a very simple network) that eventually shuts off the AC when it reaches the right temperature. These steady states are the stable "attractors" of the network, and can be represented by valleys in a landscape. States higher in the landscape will continue to change until they eventually reach an attractor. </caption>
+</div>
+<div class="caption">
+  The network will eventually "calm down" until it reaches an equilibrium, like a thermostat (a very simple network) that eventually shuts off the AC when it reaches the right temperature. These steady states are the stable "attractors" of the network, and can be represented by valleys in a landscape. States higher in the landscape will continue to change until they eventually reach an attractor. 
 </div>
 
 Where these cells stop are called attractor states in the network, and these correspond to stable cell phenotypes we would see empirically, such as the basal and club cells we saw before. Importantly, attractor states are self-stabilizing, which means that if you perturb a cell by moving it a small distance from the attractor, it will roll back to its original starting place. We therefore think of the stability of each attractor as the depth and relative size of the basin of attraction surrounding it.  Often this stability comes from feedback loops in the underlying network of interactions. 
@@ -53,7 +62,9 @@ Genetic instability is accompanied by non-genetic instability, or “plasticity,
 
 <div class="img">
  <img src="{{ site.baseurl }}/assets/img/bb/hill.jpg" style='height: 50%; width: 50%; object-fit: contain'>
-  <caption> Sui Huang, 2013. <i> Cancer Metastasis Rev. </i></caption>
+</div>
+<div class="caption">
+  Sui Huang, 2013. <i> Cancer Metastasis Rev. </i>
 </div>
 
 So now we come to the problems we are trying to solve: 
