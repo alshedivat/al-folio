@@ -1,0 +1,31 @@
+---
+layout: noheader
+---
+
+<!-- page.html -->
+<div class="project">
+  <header class="project-header">
+    <h1 class="project-title">{{ page.title }}</h1>
+    <p class="project-description">{{ page.description }}</p>
+    <p class="project-authors">
+      {% for author in page.authors %}
+      <span>
+        {% if author.url %}
+        <a href="{{ author.url }}">
+          {% endif %} {{author.name}}{% if author.url %}</a
+        >{% endif %}<sup
+          >{% for inst in author.institutions %}{{inst}}{% unless forloop.last
+          %},{% endunless %}{% endfor %}</sup
+        > </span
+      >{% endfor %}
+    </p>
+    <p class="project-institutions">
+      {% for inst in page.institutions %}
+      <sup>{{inst.id}}</sup>
+      {{inst.name}} <br />{% endfor %}
+    </p>
+    <p class="project-venue">{{page.venue}}</p>
+  </header>
+
+  <article>{{ content }}</article>
+</div>

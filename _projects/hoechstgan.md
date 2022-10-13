@@ -1,0 +1,61 @@
+---
+layout: project
+title: HoechstGAN
+description: Virtual Lymphocyte Staining Using Generative Adversarial Networks
+img: assets/img/publication_preview/hoechstgan.png
+importance: 1
+venue: WACV 2023
+authors:
+  - name: Georg Wölflein
+    institutions: [1]
+    url: https://georg.woelflein.eu
+  - name: In Hwa Um
+    institutions: [2]
+    url: https://risweb.st-andrews.ac.uk/portal/en/persons/in-hwa-um(0ac978a2-6ef8-4397-bc36-f920a77696a3).html
+  - name: David J Harrison
+    institutions: [2, 3]
+    url: https://risweb.st-andrews.ac.uk/portal/en/persons/david-james-harrison(6bb6c114-15d1-4b0d-9091-8ce3ce9c2c7d).html
+  - name: Ognjen Arandjelović
+    institutions: [1]
+    url: https://risweb.st-andrews.ac.uk/portal/en/persons/oggie-arandelovic(fdd98ab1-564a-42a3-bf0c-fab7afbbd63c).html
+institutions:
+  - id: 1
+    name: School of Computer Science, University of St Andrews
+  - id: 2
+    name: School of Medicine, University of St Andrews
+  - id: 3
+    name: Division of Laboratory Medicine, Lothian NHS University Hospitals, Edinburgh
+---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="https://raw.githubusercontent.com/georg-wolflein/hoechstgan/master/img/hoechstgan_notex.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<!-- <div class="caption">
+    Information flow in the proposed model.
+</div> -->
+
+# Abstract
+
+_The presence and density of specific types of immune cells are important to understand a patient's immune response to cancer. However, immunofluorescence staining required to identify T cell subtypes is expensive, timeconsuming, and rarely performed in clinical settings. We present a framework to virtually stain Hoechst images (which are cheap and widespread) with both CD3 and CD8 to identify T cell subtypes in clear cell renal cell carcinoma using generative adversarial networks. Our proposed method jointly learns both staining tasks, incentivising the network to incorporate mutually beneficial information from each task. We devise a novel metric to quantify the virtual staining quality, and use it to evaluate our method._
+
+**TLDR:** We present a means of translating a cheap type of chemical staining to multiple more expensive ones using generative adversarial networks.
+
+# Data
+
+We are in the process of making our dataset available to the public.
+
+# Citation
+
+If you would like to cite our work, please use:
+
+```bibtex
+@inproceedings{hoechstgan,
+  title = {HoechstGAN: Virtual Lymphocyte Staining Using Generative Adversarial Networks},
+  author = {W\"{o}lflein, Georg and Um, In Hwa and Harrison, David J and Arandjelovi\'{c}, Ognjen},
+  booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  month = {January},
+  year = {2023}
+}
+```

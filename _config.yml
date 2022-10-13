@@ -128,8 +128,8 @@ collections:
     output: false # prevent generation of separate page for each news item
     permalink: /news/:path/
   projects:
-    output: false
-    permalink: /projects/:path/
+    output: true
+    permalink: /:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
 news_limit: 5 # leave blank to include all the news in the `_news` folder
@@ -178,13 +178,6 @@ plugins:
   - jekyll-twitter-plugin
   - jekyll-sitemap
   - jemoji
-
-# Sitemap settings
-defaults:
-  - scope:
-      path: "assets/**/*.*"
-    values:
-      sitemap: false
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
@@ -260,7 +253,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown, other authors will be visible on hover, leave blank to show all authors
-max_author_limit: 
+max_author_limit:
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images

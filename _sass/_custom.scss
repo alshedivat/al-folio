@@ -55,3 +55,33 @@ div.post {
   margin-right: auto;
   width: 50%;
 }
+
+.project-header {
+  text-align: center;
+  h1.project-title {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  p.project-description {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  p.project-authors {
+    span {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}
+.project {
+  p.abstract {
+    font-style: italic;
+  }
+  h1, h2, h3 {
+    text-align: center;
+    font-weight: 500;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
