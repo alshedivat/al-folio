@@ -36,7 +36,7 @@ jobs:
           echo "::set-output name=SRC_BRANCH::${GITHUB_REF#refs/heads/}"
         fi
         if [[ ${{ github.repository }} = *.github.io ]]; then # user/org repo
-          echo "::set-output name=DEPLOY_BRANCH::master"
+          echo "::set-output name=DEPLOY_BRANCH::source"
         else
           echo "::set-output name=DEPLOY_BRANCH::gh-pages"
         fi    
