@@ -22,13 +22,13 @@ RAMMS is a Voellymy-fluid friction based model.This model divides the
 frictional resistance into two parts: a dry-Coulomb type friction (coefficient µ) that scales with the normal stress and a velocity-squared drag or viscous-turbulent friction (coefficient ξ). µ dominates when the flow is close to stopping, ξ dominates when the flow is running quickly.
 
 $$
-S=/mu N+/frac {/rho g /boldsymbol{u}^2} {/xi}  with N=/rho h /operatorname{gcos}(/phi)
+S=\mu N+\frac {\rho g \boldsymbol{u}^2} {\xi}  with N=\rho h \operatorname{gcos}(\phi)
 $$
 
 Since Version 1.6.20 the basic Voellmy equation has been modified to include a yield stress (cohe-sion). Many materials, like mud and snow, do not exhibit a simple linear relation (µ = constant),
 
 $$
-S=/mu N+/frac {/rho g /boldsymbol{u}^2} {/xi} + (1-/mu) N_0-(1-/mu) N_0 e^{-/frac{N}{N_0}}
+S=\mu N+\frac {\rho g \boldsymbol{u}^2} {\xi} + (1-\mu) N_0-(1-\mu) N_0 e^{-\frac{N}{N_0}}
 $$
 
 For more information please refer to RAMMS_AVAL_Manual.
