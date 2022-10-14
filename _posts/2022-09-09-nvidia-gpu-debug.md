@@ -2,7 +2,7 @@
 layout: post
 title: Debugging Ubuntu / NVidia / CUDA / PyTorch relations 
 date: 2022-09-09 13:20:00-0400
-tags: code, cuda
+tags: code cuda
 description: My notes on debugging GPU-related issues
 ---
 Personal story: got a weird issue right in the middle of the training: `Unable to determine the device handle for GPU 0000:01:00.0:Unknow Error`. Never happened to me before, had been training successfully for few month on this machine, long training sessions. Even worse, the process `python training.py` got stuck, unresponsive to `kill`, while GPU fans are ramping full-speed and stuck.
