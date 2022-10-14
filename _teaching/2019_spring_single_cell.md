@@ -15,7 +15,7 @@ This notebook is an introduction to RNA velocity using the Python package `veloc
 ## Background on RNA Velocity
 
 <div class="img">
- <img src="{{ site.baseurl }}/assets/img/bb/lungcells.jpg"  style='height: 100%; width: 100%; object-fit: contain'>
+ <img src="{{ site.baseurl }}/assets/img/rna-velocity/background.png"  style='height: 100%; width: 100%; object-fit: contain'>
 </div>
 
 * A. Both read-based and UMI based techniques can be used to align unspliced and spliced reads. Usually % unspliced reads is around 15% to 20% (higher than expected in inDrop and other 3'-end based protocols because of internal splicing). Cannot use `inDrops` pipeline, because it aligns the data to the exome and the structure of the output is difficult to generate a loom file from using the velocyto pipeline. Use `DropEst` instead (thanks to Qi Liu).
