@@ -2242,10 +2242,9 @@ low_shadac.sort_values('pcp_per_100k').head(10)
 
 
 
-<div class="alert alert-block alert-info" >
-    There are 31 counties with low access to physicians, by SHADAC category.
-    <b>In particular, 4 counties have 0 physicians: Van Buren, Crockett, Grundy, and Lake.<b> All four are rural, though Crockett and Grundy have almost 15,000 residents.
-</div>
+There are 31 counties with low access to physicians, by SHADAC category.
+<b>In particular, 4 counties have 0 physicians: Van Buren, Crockett, Grundy, and Lake.</b> All four are rural, though Crockett and Grundy have almost 15,000 residents.
+
 
 
 ```python
