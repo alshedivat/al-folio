@@ -2,7 +2,7 @@
 layout: page
 title: Data Science Essentials
 description: Final Project for Data Science Essentials Course
-img: assets/img/msapplication_tileimage.png
+img: assets/img/tn_map.png
 importance: 1
 category: fun
 ---
