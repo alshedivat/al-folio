@@ -7,3 +7,4 @@ importance: 1
 category: fun
 ---
 
+[My final project for Data Science Essentials](data-science-project/Final_Project.md)
