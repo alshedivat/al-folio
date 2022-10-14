@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Introduction to Bioinformatics
-description: I was a Guest Lecturer for this course at Vanderbilt University.
+description: I was a Guest Lecturer for this course at Vanderbilt University. Click here to see my lectures and Google Colab Notebooks.
 img: assets/img/teaching/bioinformatics_2022.png
 importance: 3
 category: 2022

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Single Cell Analysis
-description: I was a Guest Lecturer for this course at Vanderbilt University.
+description: I was a Guest Lecturer for this course at Vanderbilt University. Click here to see the RNA Velocity Tutorial I taught.
 img: assets/img/teaching/velocity.png
 importance: 3
 category: 2019
