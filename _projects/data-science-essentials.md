@@ -3,6 +3,7 @@ layout: page
 title: Data Science Essentials
 description: Final Project for Data Science Essentials Course
 img: assets/img/tn_map.png
+redirect: https://nbviewer.org/github/smgroves/data-science-essentials-4/blob/main/project/Final%20Project.ipynb
 importance: 1
 category: fun
 ---
