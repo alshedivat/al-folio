@@ -4,14 +4,20 @@ title: Single Cell Analysis
 description: I was a Guest Lecturer for this course at Vanderbilt University.
 img: assets/img/teaching/velocity.png
 importance: 3
-category: 2020
+category: 2019
 ---
+For my guest lecture, I taught the students how to use an RNA velocity package called `velocyto`, based on <a href="https://pubmed.ncbi.nlm.nih.gov/30089906/">La Manno et al. (2018)</a>. I was asked to give the same lecture the following year. The notebook I used for the presentation and gave to the students is shown below, which provides an overview of RNA velocity analysis on a tumor dataset.
 
 # RNA Velocity
 
 This notebook is an introduction to RNA velocity using the Python package `velocyto`. The code below is run on a dataset of Small Cell Lung Cancer mouse tumor cells, originally published in Wooten et al., 2019 (TKO1). The data was deposited in GEO under accession number GSE137749, and a loom file can be generated as described below (with `velocyto`'s command line interface).
 
 ## Background on RNA Velocity
+
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/rna-velocity/background.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div>     
+
 * A. Both read-based and UMI based techniques can be used to align unspliced and spliced reads. Usually % unspliced reads is around 15% to 20% (higher than expected in inDrop and other 3'-end based protocols because of internal splicing). Cannot use `inDrops` pipeline, because it aligns the data to the exome and the structure of the output is difficult to generate a loom file from using the velocyto pipeline. Use `DropEst` instead (thanks to Qi Liu).
 * B. Simple model used to calculate velocity. $\alpha$ can be difficult to fit (rate of transcription), so other assumptions are necessary in order to solve the set of differential equations (constant velocity or constant unspliced counts per gene). $\beta$ is set to one, so the units of time are in terms of the splicing rate. Most of the velocyto pipeline to calculate velocity involves fitting $\gamma$, the degradation rate. 
 * C. Because of the time lag in splicing, a transcription rate increase will increase unspliced RNA faster than spliced RNA. This lag is also shown in E, where unspliced RNA from one timepoint can predict spliced RNA 3 hours later for circadian genes.
@@ -19,8 +25,6 @@ This notebook is an introduction to RNA velocity using the Python package `veloc
 * E. Example using circadian genes. This is a proof of principle, that we can predict future expression of RNA based on this model. Prediction is for a time step of approximately 3-4 hours, and trajectory analysis through the landscape based on velocity can extrapolate farther into the future. However, this assumes that there are no hidden variables in the model, and therefore **cell trajectories are Markovian, and any form of cellular memory is encoded _only_ in their measured RNA expression.** In other words, a specific location in phenotypic space (i.e. a gene expression vector) has one defined velocity, and the properties of the cell available for measurement fully encode a probability distribution over its possible future states. Keep in mind that any trajectory analysis (graph-based or otherwise) that only considers RNA expression is also making this assumption.
 * F. and G. Examples of two circadian genes over a 24 hour time course. Any circadian (cyclic) pattern of gene expression will be a loop in this space.
 * H. Observed state versus extrapolated state based on RNA velocity in a PCA. Most of the plots we will look at will be like this: actually cells in PCA (or other dimensionality-reduced) space with arrows suggesting their extrapolated state. Importantly, to visualize these arrows (which may not actually align with the dimensionality reduction/transformation), we must _embed_ the velocity arrows into that space as well. This allows us to predict _both_ the future state of each cell (which does not need embedding) _and_ the transition probabilities to other cell states in the landscape (which requires embedding). 
-
-![](background.png)
 
 ## Creation of loom file
 
