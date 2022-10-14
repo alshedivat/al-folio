@@ -50,3 +50,7 @@ If you would like to cite our work, please use:
   year = {2023}
 }
 ```
+
+# Acknowledgements
+
+GW is supported by Lothian NHS. This project received funding from the European Union’s Horizon 2020 research and innovation programme under Grant Agreement No. 101017453 as part of the KATY project. This work is sup- ported in part by the Industrial Centre for AI Research in Digital Diagnostics (iCAIRD) which is funded by Innovate UK on behalf of UK Research and Innovation (UKRI) (project number 104690).
