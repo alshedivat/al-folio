@@ -2768,8 +2768,7 @@ disparities.loc[(disparities.pcp_per_100k < 15) &
 
 
 
-<div class="alert alert-block alert-info">
-    The counties above are the ones with fewer than 2 open hospitals and fewer than 15 pcp per 100k
+The counties above are the ones with fewer than 2 open hospitals and fewer than 15 pcp per 100k
 
 Lastly, we can take a look at number of beds. We need to fillna (-999) with 0 so it doesn't mess up the counts.
 
