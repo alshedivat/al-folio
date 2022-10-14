@@ -33,6 +33,7 @@ The mean annual ground surface temperature:
 $$ 
 MAGST = \frac{n_{t}*TDD_{air} - {n_{f}*FDD_{air}}}{\tau}
 $$
+
 where
 
 $$
