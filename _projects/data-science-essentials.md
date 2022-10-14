@@ -583,9 +583,9 @@ plt.title("SHADAC Category by Type of County")
 
 
 
-    
-![png](data-science-project/output_33_1.png)
-    
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_33_1.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div>     
 
 
 
@@ -1077,10 +1077,9 @@ plt.title("Unemployment by Type of County")
 
 
 
-
-    
-![png](data-science-project/output_39_2.png)
-    
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_39_2.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div>     
 
 
 
@@ -1095,10 +1094,10 @@ plt.ylabel = "PCP per 100k residents"
 plt.xlabel = "Unemployment Rate"
 ```
 
-
-    
-![png](data-science-project/output_41_0.png)
-    
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_41_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
+        
 
 
 
@@ -1868,10 +1867,11 @@ sns.pairplot(disparities[['analysis_value_well',
     <seaborn.axisgrid.PairGrid at 0x19f0b01c0>
 
 
-
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_58_1.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
 
     
-![png](data-science-project/output_58_1.png)
     
 
 
@@ -1893,9 +1893,10 @@ sns.boxplot(disparities.shadac_category, disparities.pcp_per_100k)
 
 
 
-
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_60_2.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_60_2.png)
     
 
 
@@ -2735,9 +2736,10 @@ sns.scatterplot(data = disparities, x = 'pcp_per_100k', y = 'num_hospitals_open'
 
 
 
-
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_77_1.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_77_1.png)
     
 
 
@@ -2811,9 +2813,10 @@ sns.scatterplot(data = disparities.loc[disparities.urban == 'Rural'], x = 'num_h
 
 
 
-
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_86_1.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_86_1.png)
     
 
 
@@ -2828,10 +2831,11 @@ sns.scatterplot(data = disparities, x = 'pcp_per_100k', y = 'num_beds', hue = 'u
     <AxesSubplot:xlabel='pcp_per_100k', ylabel='num_beds'>
 
 
-
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_87_1.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
 
     
-![png](data-science-project/output_87_1.png)
     
 
 
@@ -3162,10 +3166,10 @@ plt.title('Median Household Income by County, 2018', fontsize = 18)
 ax.axis('off');
 ```
 
-
-    
-![png](data-science-project/output_100_0.png)
-    
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_100_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
+        
 
 
 
@@ -3879,9 +3883,10 @@ plt.title('Number of Hospitals per 100K Residents by County', fontsize = 18)
 ax.axis('off');
 ```
 
-
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_104_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_104_0.png)
     
 
 
@@ -3948,9 +3953,10 @@ plt.title('Number of PCP per 100K Residents by County', fontsize = 18)
 ax.axis('off');
 ```
 
-
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_105_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_105_0.png)
     
 
 
@@ -3966,10 +3972,10 @@ sns.scatterplot(data = counties, x = 'Median Household Income', y = 'num_beds', 
 
 
 
-
-    
-![png](data-science-project/output_106_1.png)
-    
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_106_1.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
+        
 
 
 
@@ -3989,10 +3995,10 @@ sns.scatterplot(data = counties, x = 'Median Household Income', y = 'num_hospita
 
 
 
-
-    
-![png](data-science-project/output_108_1.png)
-    
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_108_1.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
+        
 
 
 
@@ -4002,10 +4008,10 @@ plt.ylabel("Number Open Hospitals per 100K Residents")
 plt.savefig('income_vs_hosp_urban.pdf')
 ```
 
-
-    
-![png](data-science-project/output_109_0.png)
-    
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_109_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
+        
 
 
 
@@ -4270,10 +4276,9 @@ sns.kdeplot(disparities.num_hospitals_open, hue = disparities.urban)
 
 
 
-
-    
-![png](data-science-project/output_112_1.png)
-    
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_112_1.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div>    
 
 
 
@@ -4515,8 +4520,10 @@ plt.xlabel("PCP per 100k")
 
 
 
-    
-![png](data-science-project/output_123_1.png)
+
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_123_1.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
 
 
@@ -4537,8 +4544,10 @@ plt.xlabel("Median Household Income")
 
 
 
-    
-![png](data-science-project/output_124_1.png)
+
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_124_1.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
 
 
@@ -4557,9 +4566,10 @@ plt.ylabel("Hospitalizations per 1K")
 
 
 
-    
-![png](data-science-project/output_125_1.png)
-    
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_125_1.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
+        
 
 
 ## Association between the percentage of beneficiaries who had an annual wellness visit and rate of hospitalizations or emergency department visits
@@ -4585,9 +4595,10 @@ plt.xlabel("Percentage annual wellness visits")
 
 
 
-    
-![png](data-science-project/output_127_2.png)
-    
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_127_2.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
+        
 
 
 
@@ -4615,9 +4626,10 @@ sns.pairplot(rates, hue = 'shadac', corner = True)
 
 
 
-    
-![png](data-science-project/output_130_1.png)
-    
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_130_1.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
+        
 
 
 
@@ -5931,9 +5943,10 @@ plt.grid(True)
 ```
 
 
-    
-![png](data-science-project/output_198_0.png)
-    
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_198_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
+        
 
 
 ### AUC - percentage of the ROC plot that is under the curve
@@ -6002,9 +6015,10 @@ plot_confusion_matrix(y_test, y_pred, labels = ['No', 'Yes'])
 ```
 
 
-    
-![png](data-science-project/output_206_0.png)
-    
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_206_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
+        
 
 
 There are a number of metrics you can use to evalute your model. 
@@ -6016,10 +6030,10 @@ There are a number of metrics you can use to evalute your model.
 plot_confusion_matrix(y_test, y_pred, labels = ['No', 'Yes'], metric = 'accuracy')
 ```
 
-
-    
-![png](data-science-project/output_208_0.png)
-    
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_208_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
+        
 
 
 **Sensitivity/True Positive Rate:** The proportion of true positives (in our case, people who survived) that are identified as such.
@@ -6030,9 +6044,10 @@ plot_confusion_matrix(y_test, y_pred, labels = ['No', 'Yes'], metric = 'sensitiv
 ```
 
 
-    
-![png](data-science-project/output_210_0.png)
-    
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_210_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
+        
 
 
 **Specificity/True Negative Rate:** The proportion of true negatives (in our case, people who died) that are identified as such.
@@ -6043,8 +6058,11 @@ plot_confusion_matrix(y_test, y_pred, labels = ['No', 'Yes'], metric = 'specific
 ```
 
 
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_212_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_212_0.png)
+
     
 
 
@@ -6056,8 +6074,11 @@ plot_confusion_matrix(y_test, y_pred, labels = ['No', 'Yes'], metric = 'precisio
 ```
 
 
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_214_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_214_0.png)
+
     
 
 
@@ -6126,8 +6147,11 @@ plt.title('Logistic Regression Coefficients');
 ```
 
 
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_221_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_221_0.png)
+
     
 
 
@@ -6146,8 +6170,11 @@ plt.vlines(x = 0, ymin = ymin, ymax = ymax);
 ```
 
 
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_222_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_222_0.png)
+
     
 
 
@@ -6180,8 +6207,11 @@ plot_confusion_matrix(y_train, tree.predict(X_train), labels = ['No', 'Yes'], me
 ```
 
 
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_229_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_229_0.png)
+
     
 
 
@@ -6208,8 +6238,11 @@ plot_confusion_matrix(y_test, y_pred, labels = ['No', 'Yes'], metric = 'accuracy
 ```
 
 
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_232_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_232_0.png)
+
     
 
 
@@ -6254,8 +6287,11 @@ plot_confusion_matrix(y_test, y_pred, labels = ['No', 'Yes'], metric = 'accuracy
 ```
 
 
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_237_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_237_0.png)
+
     
 
 
@@ -6300,8 +6336,11 @@ plot_confusion_matrix(y_test, y_pred, labels = ['No', 'Yes'], metric = 'accuracy
 ```
 
 
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_241_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_241_0.png)
+
     
 
 
@@ -6316,8 +6355,11 @@ plot_confusion_matrix(y_test, y_pred, labels = ['No', 'Yes'], metric = 'sensitiv
 ```
 
 
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_243_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_243_0.png)
+
     
 
 
@@ -6329,8 +6371,11 @@ plot_confusion_matrix(y_test, y_pred, labels = ['No', 'Yes'], metric = 'specific
 ```
 
 
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_245_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_245_0.png)
+
     
 
 
@@ -6360,8 +6405,11 @@ plt.grid(True)
 ```
 
 
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_247_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_247_0.png)
+
     
 
 
@@ -6382,8 +6430,11 @@ plt.title('Random Forest Feature Importance');
 ```
 
 
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_249_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_249_0.png)
+
     
 
 
@@ -8791,8 +8842,11 @@ sns.scatterplot(full_df['Health_plan'] , full_df.predict_prob)
 
 
 
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_283_2.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_283_2.png)
+
     
 
 
@@ -8837,8 +8891,11 @@ plt.xticks(rotation = 90)
 
 
 
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_284_1.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_284_1.png)
+
     
 
 
@@ -9068,7 +9125,10 @@ ax.axis('off');
 ```
 
 
+<div class="img">
+ <img src="{{ site.baseurl }}/assets/img/bb/data-science-project/output_292_0.png"  style='height: 100%; width: 100%; object-fit: contain'>
+</div> 
     
-![png](data-science-project/output_292_0.png)
+
     
 
