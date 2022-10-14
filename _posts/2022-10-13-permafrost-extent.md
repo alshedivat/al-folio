@@ -93,6 +93,11 @@ The extent of permafrost can be derived purely from MAAT or MAGST. That is to sa
 Adjusting nf (the coefficient related to snow cover) from 1 to 0.4, the permafrost zone has significantly shifted from north to south, except the Tibet Plateau where the altitude controls local climate (Figure 2b). The snow condition is equivalent to few degrees of temperature change.
 The size of the permafrost, or the size of the land where MAGST is between 0 C to 2 C, is around 4.2 – 4.6 million km2 which is undermined right in front by global warming. The accurate estimation of parmorfrost sensitivity relys on the Arctic amplification effect and parmorfrost transient response to warming. Topoclimate variables once again be cricial to explain the thaw lags behind the climate warming.
 
+### References
+
+Chadburn, S. E., Burke, E. J., Cox, P. M., Friedlingstein, P., Hugelius, G., & Westermann, S. (2017). An observation-based constraint on permafrost loss as a function of global warming. Nature Climate Change, 7(5), 340–344. 2022-10-04. https://doi.org/10.1038/nclimate3262
+Gisnås, K., Etzelmüller, B., Farbrot, H., Schuler, T. V., & Westermann, S. (2013). CryoGRID 1.0: Permafrost Distribution in Norway estimated by a Spatial Numerical Model. Permafrost and Periglacial Processes, 24(1), 2–19. https://doi.org/10.1002/ppp.1765
+
 
 
 

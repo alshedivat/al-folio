@@ -10,7 +10,7 @@ category: fun
 
 ## Where and how
 
-Avalanches are rapid snow mass movements over snow covered slopes, which could be dangerous for people living in mountainous terrain due to long-time exposure. So, **how to bury a town with a design avalanche?**
+Avalanches are rapid snow mass movements over snow covered slopes, which could be dangerous for people living in mountainous terrain due to long-time exposure. So, **how to bury a town with a designed avalanche?**
 
 There must be enough snow on slopes. Sukkertoppen is a mountain close to the town of Longyearbyen, Svalbard. The north-facing side can accumulate a substantial amount of snow during wintertime, especially with easterly and south-easterly winds. In 2015 and 2017, there were avalanches hitting the houses close to the slope.
 
