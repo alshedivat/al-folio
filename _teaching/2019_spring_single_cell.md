@@ -288,8 +288,8 @@ vlm.to_hdf5('vlm_tk01_example')
 
 When estimating probability of transitioning to another cell, you must embed the velocity arrows into the manifold and thus must specify this by `embed`. The other settings are explained below.
 <table> <tr>
-    <td> <img src="visualize_a.png" alt="Drawing" style="width: 500px;"/> </td>
-    <td> <img src="visualize_b.png" alt="Drawing" style="width: 500px;"/> </td>
+    <td> <img src="{{ site.baseurl }}/assets/img/rna-velocity/visualize_a.png" alt="Drawing" style="width: 500px;"/> </td>
+    <td> <img src="{{ site.baseurl }}/assets/img/rna-velocity/visualize_b.png" alt="Drawing" style="width: 500px;"/> </td>
     </tr>
 </table>
 
