@@ -56,8 +56,41 @@ div.post {
   width: 50%;
 }
 
+.project {
+  p {
+    text-align: justify;
+  }
+  p.abstract {
+    font-style: italic;
+  }
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    font-weight: 500;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  div.abstract-container {
+    justify-content: center;
+    display: flex;
+    div.abstract-content {
+      flex: none;
+      width: 80%;
+    }
+  }
+}
+
 .project-header {
   text-align: center;
+  margin-bottom: 1.5rem;
+  h1,
+  h2,
+  p,
+  div {
+    text-align: center;
+  }
   h1.project-title {
     font-size: 3rem;
     font-weight: 500;
@@ -72,16 +105,22 @@ div.post {
       padding-right: 10px;
     }
   }
-}
-.project {
-  p.abstract {
-    font-style: italic;
-  }
-  h1, h2, h3 {
-    text-align: center;
-    font-weight: 500;
-  }
-  h1 {
-    font-size: 2rem;
+  div.project-links {
+    margin-bottom: 1rem;
+    a.btn {
+      margin-top: 0;
+      margin-bottom: 0;
+      color: #{$white-color};
+      background-color: var(--global-theme-color);
+      border: 1px solid var(--global-theme-color);
+      // padding-left: 1rem;
+      // padding-right: 1rem;
+      // padding-top: 0.25rem;
+      // padding-bottom: 0.25rem;
+      &:hover {
+        border-color: var(--global-hover-color);
+        border-color: var(--global-hover-color);
+      }
+    }
   }
 }

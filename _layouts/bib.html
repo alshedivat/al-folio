@@ -143,6 +143,9 @@
     {% if entry.arxiv %}
       <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
     {% endif %}
+    {% if entry.medrxiv %}
+      <a href="http://medrxiv.org/content/{{ entry.medrxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">medRxiv</a>
+    {% endif %}
     {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     {% endif %}

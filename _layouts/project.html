@@ -2,7 +2,7 @@
 layout: noheader
 ---
 
-<!-- page.html -->
+<!-- project.html -->
 <div class="project">
   <header class="project-header">
     <h1 class="project-title">{{ page.title }}</h1>
@@ -25,7 +25,36 @@ layout: noheader
       {{inst.name}} <br />{% endfor %}
     </p>
     <p class="project-venue">{{page.venue}}</p>
+    {% if page.links %}
+    <div class="project-links">
+      {% for link in page.links %}
+      <a href="{{ link[1] }}" class="btn btn-sm z-depth-0" role="button"
+        >{{link[0]}}</a
+      >
+      {% endfor %}
+    </div>
+    {% endif %}
   </header>
 
-  <article>{{ content }}</article>
+  <article>
+    <div class="row">
+      <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path=page.figure title="main figure"
+        class="img-fluid rounded z-depth-1" %}
+      </div>
+    </div>
+    <!--
+    <div class="caption">
+      Information flow in the proposed model.
+    </div>
+    -->
+    <div class="abstract-container">
+      <div class="abstract-content">
+        <h1>Abstract</h1>
+        <p>{{ page.abstract }}</p>
+        <p><b>TLDR:</b> {{ page.tldr }}</p>
+      </div>
+    </div>
+    {{ content }}
+  </article>
 </div>
