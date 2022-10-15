@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /awards/
-title: awards
+title: distinctions
 description: Distinctions, honors, and awards 
 nav: true
 nav_order: 5
@@ -28,6 +28,8 @@ nav_order: 5
 	<li>Academic Year Undergraduate Research Experience (AYURE) Grant State University of New York at New Paltz for kinematic analysis in amphibians (January 2018-May 2018)</li>
 
 	<li>Dean's List all semesters at State University of New York at New Paltz (August 2016-May 2020)</li>
+	
+	<li>Honor's Program at State University of New York at New Paltz (August 2016-May 2020)</li>
 
 	<li>Presidential Scholarship from State University of New York at New Paltz (August 2016-May 2020)</li>
 
