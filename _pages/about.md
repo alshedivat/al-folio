@@ -4,21 +4,21 @@ title: about
 permalink: /
 description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+The purpose of the PanExperiment Galactic Science Group is to gather expertise across all Cosmic Microwave Background experiments, provide a central hub to coordinate joint efforts across experiments and in collaboration with scientists studying the Milky Way.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Current focus
+-------------
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+We currently have weekly telecons alternating between a Journal Club on Galactic Science and a meeting about the implementation of new Galactic models into [PySM 3](https://github.com/galsci/pysm).
+
+How to join
+-----------
+
+So far the leadership in the ACT, BICEP/Keck, BLAST, CCAT-prime, CMB-S4, LiteBIRD, SO, and SPT collaborations have endorsed membership in the GS Pan-Experiment Group, but we hope to grow to include other CMB experiments. We are now also accepting members from the ISM community who are not affiliated with any CMB experiments. 
+
+Please [fill this Google Form to join](https://docs.google.com/forms/d/e/1FAIpQLSfIW5Djk13u9y23lRY5VUblIb4EfwZZBsrP3ZuUBWYdAlzAuw/viewform)
