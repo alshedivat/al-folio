@@ -8,6 +8,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+![Planck composite image of Galactic emission](/assets/img/planck-composite.jpg)
+
+<div class="caption">
+    Composite image of Galactic emissions as measured by the Planck satellite, it includes Dust, Synchrotron, Free-free and Carbon Monoxide line emission. Credit ESA/NASA/JPL-Caltech.
+</div>
+
 The purpose of the PanExperiment Galactic Science Group is to gather expertise across all Cosmic Microwave Background experiments, provide a central hub to coordinate joint efforts across experiments and in collaboration with scientists studying the Milky Way.
 
 Current focus
