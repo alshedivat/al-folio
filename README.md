@@ -42,3 +42,8 @@ then in any markdown file include it with:
 ```
 ![my image](/assets/img/filename.png)
 ```
+
+## How to add publications
+
+Edit [`_bibliography/papers.bib`](https://github.com/galsci/galsci.github.io/blob/master/_bibliography/papers.bib)
+Add `selected={true}` to the citation to have it included in the homepage.
