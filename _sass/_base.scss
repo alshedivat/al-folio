@@ -605,6 +605,8 @@ pre {
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
+  text-align: left;
+  direction: ltr;
   pre, code {
     background-color: transparent;
     border-radius: 0;
