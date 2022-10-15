@@ -9,18 +9,6 @@ nav: true
 
 [[Conference papers](#conference-papers)] | [[Journal papers](#journal-papers)]
 
-#### Conference papers
-
-<div class="publications">
-
-{% for y in page.years %}
-
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f confs -q @*[year={{y}}]* %}
-{% endfor %}
-
-</div>
-
 #### Journal papers
 
 <div class="publications">
@@ -29,6 +17,18 @@ nav: true
 
   <h2 class="year">{{y}}</h2>
   {% bibliography -f journal -q @*[year={{y}}]* %}
+{% endfor %}
+
+</div>
+
+#### Conference papers
+
+<div class="publications">
+
+{% for y in page.years %}
+
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f confs -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
