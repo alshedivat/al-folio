@@ -101,7 +101,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: News
 blog_nav_title: blog
-blog_description: a simple whitespace theme for academics
+blog_description: News and annoucement from the group
 permalink: /blog/:year/:title/
 
 # Pagination
