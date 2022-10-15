@@ -8,6 +8,9 @@ nav: true
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
+
+Publications of interest to members of the group
+
 <div class="publications">
 
 {%- for y in page.years %}
