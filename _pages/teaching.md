@@ -10,7 +10,7 @@ nav: true
   <h2 class="pbtypes">2022-2023</h2>
   <ol class="bibliography">
     <li> &#9679; Electoral and Protest Dynamics in Western and Eastern
-Europe – <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master/index.html" target="_blank">European Societies MA</a>, Freie Universität Berlin, Department of Political and Social Sciences, Berlin, Germany
+Europe, <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master/index.html" target="_blank">Sociology – European Societies MA</a>, Freie Universität Berlin, Department of Political and Social Sciences, Berlin, Germany
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       <a href="{{ '/assets/pdf/Borbath_syllabus.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">syllabus</a>
@@ -22,7 +22,7 @@ Europe – <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master
     </li>
   <h2 class="pbtypes">2021-2022</h2>
   <ol class="bibliography">
-    <li> &#9679; The Politicization of Civil Society – <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master/index.html" target="_blank">European Societies MA</a>, Freie Universität Berlin, Department of Political and Social Sciences, Berlin, Germany
+    <li> &#9679; The Politicization of Civil Society, <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master/index.html" target="_blank">Sociology – European Societies MA</a>, Freie Universität Berlin, Department of Political and Social Sciences, Berlin, Germany
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
      </div>
@@ -34,9 +34,9 @@ Europe – <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master
   </ol>
   <h2 class="pbtypes">2020-2021</h2>
   <ol class="bibliography">
-    <li> &#9679; Master Colloquium – <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master/index.html" target="_blank">European Societies MA</a>, Freie Universität Berlin, Department of Political and Social Sciences, Berlin, Germany
+    <li> &#9679; Master Colloquium, <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master/index.html" target="_blank">Sociology – European Societies MA</a>, Freie Universität Berlin, Department of Political and Social Sciences, Berlin, Germany
     </li>
-    <li> &#9679; Corona and Civil Society, Sociology – <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master/index.html" target="_blank">European Societies MA</a>, Freie Universität Berlin, Department of Political and Social Sciences, Berlin, Germany
+    <li> &#9679; Corona and Civil Society, <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master/index.html" target="_blank">Sociology – European Societies MA</a>, Freie Universität Berlin, Department of Political and Social Sciences, Berlin, Germany
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
      </div>
@@ -48,9 +48,9 @@ Europe – <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master
   </ol>
 	<h2 class="pbtypes">2019-2020</h2>
   <ol class="bibliography">
-  	<li> &#9679; Master Colloquium – <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master/index.html" target="_blank">European Societies MA</a>, Freie Universität Berlin, Department of Political and Social Sciences, Berlin, Germany
+  	<li> &#9679; Master Colloquium, <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master/index.html" target="_blank">Sociology – European Societies MA</a>, Freie Universität Berlin, Department of Political and Social Sciences, Berlin, Germany
   	</li>
-  	<li> &#9679; Conflicts in the public sphere: Approaches to quantitative content analysis of media texts, graduate course, Sociology – <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master/index.html" target="_blank">European Societies MA</a>, Freie Universität Berlin, Department of Political and Social Sciences, Berlin, Germany
+  	<li> &#9679; Conflicts in the public sphere: Approaches to quantitative content analysis of media texts, graduate course, <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master/index.html" target="_blank">Sociology – European Societies MA</a>, Freie Universität Berlin, Department of Political and Social Sciences, Berlin, Germany
   	<div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
      </div>
@@ -63,9 +63,9 @@ Europe – <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master
   </ol>
 	<h2 class="pbtypes">2018-2019</h2>
   <ol class="bibliography">
-  	<li> &#9679; Master Colloquium – <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master/index.html" target="_blank">European Societies MA</a>, Freie Universität Berlin, Department of Political and Social Sciences, Berlin, Germany
+  	<li> &#9679; Master Colloquium, <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master/index.html" target="_blank">Sociology – European Societies MA</a>, Freie Universität Berlin, Department of Political and Social Sciences, Berlin, Germany
   	</li>
-  	<li> &#9679; Dynamics of Protest and Electoral Politics in Europe, graduate course, Sociology – <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master/index.html" target="_blank">European Societies MA</a>, Freie Universität Berlin, Department of Political and Social Sciences, Berlin, Germany
+  	<li> &#9679; Dynamics of Protest and Electoral Politics in Europe, graduate course, <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master/index.html" target="_blank">Sociology – European Societies MA</a>, Freie Universität Berlin, Department of Political and Social Sciences, Berlin, Germany
   	<div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
      </div>
