@@ -1,34 +1,27 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Hutter":
+  - firstname: ["Swen", "S.", "Swen Hutter"]
+    url: https://www.swen-hutter.eu/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Gessler":
+  - firstname: ["Theresa", "T.", "Theresa Gessler"]
+    url: https://theresagessler.github.io/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Rone":
+  - firstname: ["Julia", "J.", "Julia Rone"]
+    url: https://www.juliarone.eu/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Löblová":
+  - firstname: ["Olga", "O.", "Olga Löblová"]
+    url: https://sites.google.com/view/olgaloblova/home
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Hunger":
+  - firstname: ["Sophia", "S.", "Sophia Hunger"]
+    url: https://www.wzb.eu/en/persons/sophia-hunger
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Oana":
+  - firstname: ["Ioana", "I.", "Ioana-Elena"]
+    url: https://scholar.google.com/citations?user=Xb00HXAAAAAJ&hl=en
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Weisskircher":
+  - firstname: ["Manès", "M.", "Manès Weisskircher"]
+    url: https://scholar.google.com/citations?user=Gu8QMaEAAAAJ&hl=en
