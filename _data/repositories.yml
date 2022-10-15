@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - gliargovas
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - gliargovas/python-exam-generator
+  - gliargovas/applied-software-engineering-assignments
+  - binpash/pash 
+  - gliargovas/AML_2021_Assignments
