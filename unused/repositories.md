@@ -1,5 +1,5 @@
 ---
-layout: page
+# layout: page
 permalink: /repositories/
 title: repositories
 description: My GitHub stats and repositories.
