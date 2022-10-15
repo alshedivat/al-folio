@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Optimized Simultaneous Transmit and Receive (STAR) Design
+description: Application of machine learning techniques to reduce self interference in STAR architecture
 img: assets/img/12.jpg
 importance: 1
 category: work
