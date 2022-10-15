@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: Machine learning techniques for matching networks
+description: Investigation of the abilities and limiations of machine learning techniques to the application of real-time, tunable matching networks.
 img: assets/img/3.jpg
 importance: 2
 category: work

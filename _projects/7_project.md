@@ -1,9 +1,9 @@
 ---
 layout: page
-title: 3-D Printed Dielectrically Loaded Antennas
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
+title: Kinematic Analysis of Amphibians
+description: a project with no image
+img:
+importance: 4
 category: fun
 ---
 

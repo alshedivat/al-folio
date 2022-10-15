@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 4
+title: EMI Shielding with Antenna in Package (AiP)
 description: another without an image
 img:
 importance: 3

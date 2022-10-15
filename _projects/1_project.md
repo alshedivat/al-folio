@@ -1,51 +1,37 @@
 ---
 layout: page
-title: Optimized Simultaneous Transmit and Receive (STAR) Design
-description: Application of machine learning techniques to reduce self interference in STAR architecture
-img: assets/img/12.jpg
+title: STAR Design
+description: Application of machine learning techniques to reduce self interference in full-duplex system
+img: assets/img/overview-v4.png
 importance: 1
 category: work
 ---
+This work is developing new ways to dynamically cancel interference in full-duplex systems. Specifically, a balanced amplifier architecture is 
+being implemented, which can simultaneously transmit and receive signals at the same frequency (Gold-STAR). Full-duplex systems suffer from unacceptable levels 
+of self-interference (SI), thus this project aims to reduce this by injecting a self-interference cancellation (SIC) signal at the second input of the architecture.
+This SIC signal must be the same magnitude and opposite phase of the SI in the system to perfectly cancel the interference at the receiver port.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Previous work has shown that a SIC signal can be successfully injected with prerequisite knowledge of the system behavior, however there has been little work shown on how to 
+operate this architecture and cancellation scheme when the load of the system is dynamically changing. We are working to demonstrate that a dynamic SIC signal can be used to cancel changing interference in the system by implementing machine learning and optimization techniques that update the SIC signal in real time.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/overview-v4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Conceptual overview of optimization integrated in balanced amplifier STAR architecture.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+Areas of Research and Development:
+<ul>
+<li> Further exploration into experimental balanced amplifier, full-duplex architecture's capabilities and limitations</li>
+<li>Implementation of off-the-shelf components to verify the robustness of this architecture</li>
+<li>Creation of real-time feedback system using NI USRP-N200 devices for signal generation and power measurement</li>
+<li>Development of Python code in Linux operating system for system control</li>
+<li>Analysis of gradient descent techniques in feedback loop including robustness under varying condtions</li>
+<li>Exploration of dynamic loading trajectories and their impact on interference cancellation</li>
+</ul>
 
 
 <div class="row justify-content-sm-center">
