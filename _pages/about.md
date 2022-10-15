@@ -8,7 +8,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-![Planck composite image of Galactic emission](/assets/img/planck-composite.jpg)
+<p align="center">
+  <img src="/assets/img/planck-composite.jpg" />
+</p>
 
 <div class="caption">
     Composite image of Galactic emissions as measured by the Planck satellite, it includes Dust, Synchrotron, Free-free and Carbon Monoxide line emission. Credit ESA/NASA/JPL-Caltech.
