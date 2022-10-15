@@ -16,7 +16,8 @@
     {%- include header.html %}
 
     <!-- Content -->
-    <div class="container mt-5">
+    <div class="container mt-5" {% if site.rtl_langs contains page.lang %}dir="rtl" align="right"{% endif %}
+>
       {{ content }}
     </div>
 
