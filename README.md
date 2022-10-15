@@ -47,3 +47,5 @@ then in any markdown file include it with:
 
 Edit [`_bibliography/papers.bib`](https://github.com/galsci/galsci.github.io/blob/master/_bibliography/papers.bib)
 Add `selected={true}` to the citation to have it included in the homepage.
+
+Also modify [`_pages/publications.md`](https://github.com/galsci/galsci.github.io/blob/master/_pages/publications.md) to include the publication year if not included already.
