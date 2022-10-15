@@ -13,6 +13,8 @@
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
+  --global-divider-color: rgba(0,0,0,.1);
+  --global-card-bg-color: #{$white-color};
 
   .fa-sun {
     display : none;
@@ -21,6 +23,13 @@
     padding-left: 10px;
     padding-top: 12px;
     display : block;
+  }
+
+  .repo-img-light {
+    display: block;
+  }
+  .repo-img-dark {
+    display: none;
   }
 }
 
@@ -35,6 +44,8 @@ html[data-theme='dark'] {
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
+  --global-divider-color: #424246;
+  --global-card-bg-color: #{$grey-900};
 
   .fa-sun {
     padding-left: 10px;
@@ -43,5 +54,12 @@ html[data-theme='dark'] {
   }
   .fa-moon {
     display : none;
+  }
+
+  .repo-img-light {
+    display: none;
+  }
+  .repo-img-dark {
+    display: block;
   }
 }

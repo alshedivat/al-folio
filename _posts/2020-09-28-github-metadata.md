@@ -3,13 +3,14 @@ layout: post
 title:  a post with github metadata
 date: 2020-09-28 21:01:00
 description: a quick run down on accessing github metadata.
+categories: sample-posts external-services
 ---
 
 A sample blog page that demonstrates the accessing of github meta data.
 
 ## What does Github-MetaData do?
 * Propagates the site.github namespace with repository metadata
-* Setting site variables : 
+* Setting site variables :
   * site.title
   * site.description
   * site.url
@@ -28,7 +29,7 @@ A sample blog page that demonstrates the accessing of github meta data.
 * URL : {{ site.github.url }}
 * BaseURL : {{ site.github.baseurl }}
 * Archived : {{ site.github.archived}}
-* Contributors : 
+* Contributors :
 {% for contributor in site.github.contributors %}
   * {{ contributor.login }}
 {% endfor %}
