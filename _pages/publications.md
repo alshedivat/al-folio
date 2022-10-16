@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
+title: publications
 description: Publications of interest to members of the group
 years: [2023, 2022, 2021, 2020]
 nav: true
