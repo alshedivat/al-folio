@@ -50,5 +50,6 @@ Edit [`_bibliography/papers.bib`](https://github.com/galsci/galsci.github.io/blo
 * Add `selected={true}` to the citation to have it included in the homepage.
 * Add `arxiv={xxxx.xxxxxx}` to have the ARXIV button added to the page
 * Make sure it has a `url` attribute so that the URL button is prepopulated
+* Make sure that the paper name doesn't include a URL (Like an Arxiv link)
 
 Also modify [`_pages/publications.md`](https://github.com/galsci/galsci.github.io/blob/master/_pages/publications.md) to include the publication year if not included already.
