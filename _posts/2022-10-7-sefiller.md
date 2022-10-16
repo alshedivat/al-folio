@@ -20,4 +20,13 @@ sequenceDiagram
     John-->>Alice: Great!
 {% endmermaid %}
 
-
+{%mermaid%}
+ graph TD
+    X[Önerme: Protein tüketimimizde hayvansal proteinlere büyük oranda yer vermeliyiz.]
+    X-->|Bu önerme yeterince açık değil. Amacını daha net belli etmesi gerekli.| Y(Düzenli olarak kas egzersizi yapıyorsak sağlıklı kas gelişimi <u>için</u> protein tüketimimizde büyük oranda hayvansal proteinlere yer vermeliyiz.)
+    Y --> A[Neden bilimsel bir konuda karşıt görüşler var? ] 
+    A --> |Bilimsel bir konunun sadece bir doğru sonucu olduğunu varsayarsak| B(Karşılaştırdığım görüşler bilimsel kanıtlara dayanıyor mu?)
+    B --> C("Bu kanıtlar geçerli ve konu bağlamıyla uyuşuyor mu? " <a href='https://www.youtube.com/watch?v=bVG2OQp6jEQ'><b>Video</b></a>)
+    C --> |Eğer hala iki görüş de bu adıma ulaştıysa demek ki bu iki görüş, önermemizi farklı amaçlara göre değerlendiriyor| D(Bu görüşler artı ve eksileriyle değerlendirildiğinde hangisi benim amacıma daha uygun.)
+    D --> |Bu noktada problem çözümü stratejilerine başvurabiliriz. <br> Konuyla ilgili Ken Watabane'nin <b>Problem Çözümüne Giriş 101</b> kitabından <br> Olumlu-Olumsuz yönler değerlendirme metodunu kullanabiliriz. <br> Method genel olarak olumlu ve olumsuz yönlerin listelenmesi ve <br> kişisel önemli kriterlerine göre puanlandırılıp sonrasında puanlar <br> karşılaştırılarak bir sonuca ulaşılmasını kapsıyor. <br> Bu yöntemin en zor adımı da bu puanlandırmayı yapabilmek.| F[Sonuç belirlendi]
+{% endmermaid %}
