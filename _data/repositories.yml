@@ -3,7 +3,7 @@ github_users:
   #- alshedivat
 
 github_repos:
-  - aasgherali/BisectionMethod
+  - aasgherali/Root_Finding_Algorithms
   - aasgherali/Boundary_Value_Problems
   #- alshedivat/al-folio
   #- twbs/bootstrap
