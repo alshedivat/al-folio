@@ -7,6 +7,7 @@ subtitle: <b>Data Scientist, Machine Learning Engineer, Researcher </b>
 profile:
   align: right
   image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
   address: # >
     "\"Don't forget to think about people, in the end, it is all about them.\""
     # <p>555 your office number</p>

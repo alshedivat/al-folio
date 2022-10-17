@@ -91,6 +91,9 @@ then
 fi
 git checkout -b $DEPLOY_BRANCH
 
+# Export JEKYLL_ENV=production
+export JEKYLL_ENV=production
+
 # Build site
 bundle exec jekyll build
 
@@ -98,6 +101,9 @@ bundle exec jekyll build
 find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name 'CNAME' ! -name '.gitignore' -exec rm -rf {} \;
 mv _site/* .
 rm -R _site/
+
+# Create `.nojekyll` file (bypass GitHub Pages Jekyll processing)
+touch .nojekyll
 
 # Push to DEPLOY_BRANCH
 git add -fA
