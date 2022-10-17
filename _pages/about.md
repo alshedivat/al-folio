@@ -6,13 +6,10 @@ subtitle: <b>Data Scientist, Machine Learning Engineer, Researcher </b>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_picture.jpg
   image_circular: false # crops the image to make it circular
   address: # >
     "\"Don't forget to think about people, in the end, it is all about them.\""
-    # <p>555 your office number</p>
-    # <p>123 your address street</p>
-    # <p>Your City, State 12345</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
