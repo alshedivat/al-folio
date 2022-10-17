@@ -1,12 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - aasgher385
+  #- alshedivat
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - aasgher385/BisectionMethod
+  - aasgher385/Boundary_Value_Problems
+  #- alshedivat/al-folio
+  #- twbs/bootstrap
+  #- jekyll/jekyll
+  #- jquery/jquery
+  #- FortAwesome/Font-Awesome
+  #- jpswalsh/academicons
+  #- mathjax/MathJax
