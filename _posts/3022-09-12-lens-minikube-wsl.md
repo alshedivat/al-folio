@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using Lens to inspect a minikube cluster on WSL"
-date: 2022-09-12 00:00:01
+date: 3022-09-12 00:00:01
 description: Learn how to use Lens to see clusters on WSL
 ---
 - [1. A bit of context](#1-a-bit-of-context)
