@@ -1,0 +1,167 @@
+I"²-<!-- _pages/publications.md -->
+<div class="publications">
+  <h2 class="year">2022</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">BMVC</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="jang2022signing" class="col-sm-9">
+        
+          <!-- Title -->
+          <div class="title">Signing Outside the Studio: Benchmarking Background Robustness for Continuous Sign Language Recognition</div>
+          <!-- Author -->
+          <div class="author"><!-- set equal contribution info -->Yeong-Jun Jang,&nbsp;<!-- set equal contribution info -->
+                  <em>Youngtaek Oh</em>,&nbsp;<!-- set equal contribution info --><a href="https://chojw.github.io/">Jae Won Cho</a>,&nbsp;<!-- set equal contribution info --><a href="https://sites.google.com/site/djkimcv/">Dong-Jin Kim</a>,&nbsp;<!-- set equal contribution info --><a href="https://mm.kaist.ac.kr/joon/">Joon Son Chung</a>,&nbsp;<!-- set equal contribution info -->and In So Kweon</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In British Machine Vision Conference (BMVC)</em>, 2022.
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">BIBTEX</a>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">jang2022signing</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Signing Outside the Studio: Benchmarking Background Robustness for Continuous Sign Language Recognition}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Jang, Yeong-Jun and Oh, Youngtaek and Cho, Jae Won and Kim, Dong-Jin and Chung, Joon Son and Kweon, In So}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{British Machine Vision Conference (BMVC)}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">CVPR</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="oh2022daso" class="col-sm-9">
+        
+          <!-- Title -->
+          <div class="title">DASO: Distribution-Aware Semantics-Oriented Pseudo-Label for Imbalanced Semi-Supervised Learning</div>
+          <!-- Author -->
+          <div class="author"><!-- set equal contribution info -->
+                  <em>Youngtaek Oh</em>,&nbsp;<!-- set equal contribution info --><a href="https://sites.google.com/site/djkimcv/">Dong-Jin Kim</a>,&nbsp;<!-- set equal contribution info -->and In So Kweon</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2022.
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">BIBTEX</a>
+            <a href="https://ytaek-oh.github.io/daso" class="btn btn-sm z-depth-0" role="button" target="_blank">Project</a>
+            <a href="http://arxiv.org/abs/2106.05682" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+            <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Oh_DASO_Distribution-Aware_Semantics-Oriented_Pseudo-Label_for_Imbalanced_Semi-Supervised_Learning_CVPR_2022_paper.html" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="https://github.com/ytaek-oh/daso" class="btn btn-sm z-depth-0" role="button">Code</a>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">oh2022daso</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{DASO: Distribution-Aware Semantics-Oriented Pseudo-Label for Imbalanced Semi-Supervised Learning}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Oh, Youngtaek and Kim, Dong-Jin and Kweon, In So}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{{IEEE} Conference on Computer Vision and Pattern Recognition (CVPR)}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{9786--9796}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2021</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">FG</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="ham2021ksl" class="col-sm-9">
+        
+          <!-- Title -->
+          <div class="title">KSL-Guide: A Large-scale Korean Sign Language Dataset Including Interrogative Sentences for Guiding the Deaf and Hard-of-Hearing</div>
+          <!-- Author -->
+          <div class="author"><!-- set equal contribution info -->Soomin Ham,&nbsp;<!-- set equal contribution info -->Kibaek Park,&nbsp;<!-- set equal contribution info -->YeongJun Jang,&nbsp;<!-- set equal contribution info -->
+                  <em>Youngtaek Oh</em>,&nbsp;<!-- set equal contribution info -->Seokmin Yun,&nbsp;<!-- set equal contribution info -->Sukwon Yoon,&nbsp;<!-- set equal contribution info -->Chang Jo Kim,&nbsp;<!-- set equal contribution info --><a href="https://sites.google.com/view/hanmupark">Han-Mu Park</a>,&nbsp;<!-- set equal contribution info -->and In So Kweon</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In International Conference on Automatic Face and Gesture Recognition (FG)</em>, 2021.
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">BIBTEX</a>
+            <a href="https://ieeexplore.ieee.org/abstract/document/9667011/" class="btn btn-sm z-depth-0" role="button">HTML</a>
+            <a href="https://github.com/ChelseaGH/KSL-Guide" class="btn btn-sm z-depth-0" role="button">Code</a>
+            <a href="https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&amp;topMenu=100&amp;aihubDataSe=realm&amp;dataSetSn=103" class="btn btn-sm z-depth-0" role="button">Website</a>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">ham2021ksl</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{KSL-Guide: A Large-scale Korean Sign Language Dataset Including Interrogative Sentences for Guiding the Deaf and Hard-of-Hearing}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Ham, Soomin and Park, Kibaek and Jang, YeongJun and Oh, Youngtaek and Yun, Seokmin and Yoon, Sukwon and Kim, Chang Jo and Park, Han-Mu and Kweon, In So}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{International Conference on Automatic Face and Gesture Recognition (FG)}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1--8}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">organization</span> <span class="p">=</span> <span class="s">{IEEE}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2020</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">IROS</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="park2020sideguide" class="col-sm-9">
+        
+          <!-- Title -->
+          <div class="title">SideGuide: A Large-scale Sidewalk Dataset for Guiding Impaired People</div>
+          <!-- Author -->
+          <div class="author"><!-- set equal contribution info --><b>{</b>Kibaek Park,&nbsp;<!-- set equal contribution info -->
+                  <em>Youngtaek Oh</em>,&nbsp;<!-- set equal contribution info -->Soomin Ham,&nbsp;<!-- set equal contribution info --><a href="http://unist.info/?page_id=194">Kyungdon Joo</a><b>}*</b>,&nbsp;<!-- set equal contribution info -->Hyokyoung Kim,&nbsp;<!-- set equal contribution info -->Hyoyoung Kum,&nbsp;<!-- set equal contribution info -->and In So Kweon<i>&nbsp;(*: equal contributions)</i></div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In International Conference on Intelligent Robots and Systems (IROS)</em>, 2020.
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">BIBTEX</a>
+            <a href="https://ieeexplore.ieee.org/document/9340734" class="btn btn-sm z-depth-0" role="button">HTML</a>
+            <a href="http://ras.papercept.net/images/temp/IROS/files/1873.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="https://github.com/ChelseaGH/sidewalk_prototype_AI_Hub" class="btn btn-sm z-depth-0" role="button">Code</a>
+            <a href="https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&amp;topMenu=100&amp;aihubDataSe=realm&amp;dataSetSn=189" class="btn btn-sm z-depth-0" role="button">Website</a>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">park2020sideguide</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{SideGuide: A Large-scale Sidewalk Dataset for Guiding Impaired People}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Park, Kibaek and Oh, Youngtaek and Ham, Soomin and Joo, Kyungdon and Kim, Hyokyoung and Kum, Hyoyoung and Kweon, In So}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{International Conference on Intelligent Robots and Systems (IROS)}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{10022--10029}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">organization</span> <span class="p">=</span> <span class="s">{IEEE}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+
+</div>
+:ET

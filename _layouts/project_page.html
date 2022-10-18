@@ -1,0 +1,210 @@
+---
+layout: none
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="{{ page.description }}">
+  <meta name="keywords" content="{{ page.keywords }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  {% include scripts/analytics.html %}
+  <!-- mathjax -->
+  <script type="text/x-mathjax-config"> 
+    MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], processEscapes: true } }); 
+  </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+  <!--/ mathjax -->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/nerfies/css/bulma.min.css">
+  <link rel="stylesheet" href="./assets/nerfies/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./assets/nerfies/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./assets/nerfies/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./assets/nerfies/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./assets/nerfies/js/fontawesome.all.min.js"></script>
+  <script src="./assets/nerfies/js/bulma-carousel.min.js"></script>
+  <script src="./assets/nerfies/js/bulma-slider.min.js"></script>
+  <script src="./assets/nerfies/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://ytaek-oh.github.io">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-3 publication-title">{{ page.title }}</h1>
+          <div class="is-size-4 publication-authors">
+            <span class="author-block">
+              <a href="https://ytaek-oh.github.io">Youngtaek Oh</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://sites.google.com/site/djkimcv/">Dong-Jin Kim</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="#">In So Kweon</a><sup>1</sup>,
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>KAIST, South Korea.</span>
+            <span class="author-block"><sup>2</sup>UC Berkeley / ICSI, CA.</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              {%- if page.pdf %}
+              <span class="link-block">
+                <a href="{{ page.pdf }}" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              {%- endif %}
+              {%- if page.arxiv %}
+              <span class="link-block">
+                <a href="{{ page.arxiv }}"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              {%- endif %}
+              {%- if page.video %}
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="{{ page.video }}"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              {%- endif %}
+              {%- if page.code %}
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="{{ page.code }}"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              {%- endif %}
+              {%- if page.slide %}
+              <!-- slide Link. -->
+              <span class="link-block">
+                <a href="{{ page.slide | prepend: '/assets/daso/' }}" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-file-powerpoint"></i>
+                  </span>
+                  <span>Slides</span>
+                  </a>
+              </span>
+              {%- endif %}
+              {%- if page.poster %}
+              <!-- poster Link. -->
+              <span class="link-block">
+                <a href="{{ page.poster | prepend: '/assets/daso/' }}" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-powerpoint"></i>
+                  </span>
+                  <span>Poster</span>
+                  </a>
+              </span>
+              {%- endif %}
+            </div>
+          </div>
+          <div class="column has-text-centered">
+            <div class="is-size-5 publication-authors">
+              {{ page.venue }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ content }}
+
+{%- if page.bibtex %}
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <p>
+      If you find our work useful for your research, please cite with the following bibtex:
+    </p>
+    <pre><code>{{ page.bibtex }}</code></pre>
+  </div>
+</section>
+{%- endif %}
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      {%- if page.pdf %}
+      <a class="icon-link"
+         href="{{ page.pdf }}">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      {%- endif %}
+      {%- if page.code %}
+      <a class="icon-link" href="{{ page.code }}" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+      {%- endif %}
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>This website is based on the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies website template</a>,
+            which is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

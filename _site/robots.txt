@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://0.0.0.0:4000/sitemap.xml

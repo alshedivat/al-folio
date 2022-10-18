@@ -1,26 +1,29 @@
+# deploy settings
+host: 0.0.0.0
+port: 4000
+
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Minjun Kang # the website title (if blank, full name will be used instead)
-first_name: Minjun
-middle_name: R.
-last_name: Kang
-email: kmmj2005@kaist.com
+title: blank # the website title (if blank, full name will be used instead)
+first_name: Youngtaek
+middle_name: 
+last_name: Oh
+email: youngtaek.oh@kaist.ac.kr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: 
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon:   # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://MinJunKang.github.io # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+baseurl:  # the subpath of your site, e.g. /blog/
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -29,7 +32,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -39,7 +42,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 920px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -55,11 +58,12 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: MinJunKang # your GitHub user name
+cv: cv.pdf
+github_username: ytaek-oh # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+twitter_username: ytaek_oh # your Twitter handle
+linkedin_username: young-taek-oh # your LinkedIn user name
+scholar_userid: JSUafnAAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -72,25 +76,18 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-
-# -----------------------------------------------------------------------------
-# Analytics and search engine verification
-# -----------------------------------------------------------------------------
+contact_note:  
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
-panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
-
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
+panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+blog_name:  # your blog must have a name for it to show up in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
@@ -102,13 +99,6 @@ pagination:
 disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
-# External sources.
-# If you have blog posts published on medium.com or other exteranl sources,
-# you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
@@ -117,14 +107,13 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
     permalink: /news/:path/
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
 
-news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 5 # leave blank to include all the news in the `_news` folder
+news_limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -163,8 +152,8 @@ plugins:
   - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-feed
+  - jekyll-github-metadata
   - jekyll-imagemagick
-  - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
@@ -175,25 +164,35 @@ plugins:
 # Sitemap settings
 defaults:
   - scope:
-      path: "assets/**/*.*"
+      path:            "assets/**/*.*"
     values:
-      sitemap: false
+      sitemap:         false
+# Extras
+github: [metadata]
 
 # -----------------------------------------------------------------------------
-# Jekyll Minifier
+# Jekyll optimization
 # -----------------------------------------------------------------------------
 
-jekyll-minifier:
-  exclude: ['robots.txt']
-  uglifier_args:
-    harmony: true
+# HTML remove comments (<!-- .... -->)
+remove_HTML_comments: false
+
+# HTML beautifier (_plugins/beautify.rb) / https://github.com/threedaymonk/htmlbeautifier
+beautify: false # This function has conflict with the code snippets, they can be displayed incorrectly
+
+# HTML minify (_plugins/minify.rb) Thanks to: https://www.ffbit.com/blog/2021/03/17/html-minification-in-jekyll.html
+minify: false
+
+# CSS/SASS minify
+sass:
+  style: compressed
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them). 
   layouts:
     year: archive-year
     tag: archive-tag
@@ -203,16 +202,13 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will be dispalyed on the front page of your blog
-
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Oh
+  first_name: [Youngtaek]
 
   style: apa
   locale: en
@@ -224,7 +220,8 @@ scholar:
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
   bibtex_filters: [latex, smallcaps, superscript]
-
+  # 'bibtex_skip_fields'     => [ :abstract, :month_numeric ],
+  bibtex_skip_fields: [abstract, abbr, bibtex_show, selected, html, website, code, pdf, eqcontrib_start, eqcontrib_end, arxiv, project]
   replace_strings: true
   join_strings: true
 
@@ -234,18 +231,13 @@ scholar:
 
   query: "@*"
 
-# Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
-
-# Maximum number of authors to be shown, other authors will be visible on hover, leave blank to show all authors
-max_author_limit: 3
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: true
   widths:
     - 480
     - 800
@@ -258,7 +250,7 @@ imagemagick:
     - ".png"
     - ".tiff"
   output_formats:
-    webp: "-resize 800x"
+    webp: "-quality 75%"
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
@@ -300,7 +292,7 @@ bootstrap:
   version: "4.6.1"
   integrity:
     css: "sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY="
-    js: "sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8="
+    js: "sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI="
 fontawesome:
   version: "5.15.4"
   integrity: "sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4="
@@ -317,6 +309,9 @@ mdb:
   integrity:
     css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
     js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
+popper:
+  version: "2.11.2"
+  integrity: "sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4="
 medium_zoom:
   version: "1.0.6"
   integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="
