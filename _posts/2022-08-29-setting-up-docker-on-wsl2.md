@@ -3,6 +3,7 @@ layout: post
 title: "Setting up Docker on WSL2"
 date: 2022-08-29 04:00:00
 description: Quick tutorial to ease up using Docker on WSL without Docker Desktop
+tags: WSL
 ---
 - [1. A bit of context](#1-a-bit-of-context)
 - [2. Setting up Docker on WSL2](#2-setting-up-docker-on-wsl2)

@@ -3,6 +3,7 @@ layout: post
 title: "Welcome! This is my first post"
 date: 2022-04-30 04:00:00
 description: Just a short welcome post 
+tags: 
 ---
 
 Hi there! Welcome to my blog!
