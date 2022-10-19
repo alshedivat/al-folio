@@ -45,7 +45,7 @@ Higher School of Economics. Moscow, Russia. [Syllabus](https://olyanechaeva.gith
 
 ##### 2015-2018 
 - *Introduction to Macroeconomics.* National Research University Higher School of Economics. International College of Economics and Finance. Moscow, Russia.
-- B.Sc. Perm Paper Advisor. National Research University Higher School of Economics. International College of Economics and Finance. Moscow, Russia. Topics:
+- B.Sc. Term Paper Advisor. National Research University Higher School of Economics. International College of Economics and Finance. Moscow, Russia. Topics:
    - Monetary Policy in Russian and the Financial Crisis 2008
    - Russian Stock Market Performance and Risk.
    - Stock Correlation in the Constructed Portfolio: Analysis of Russian Stock Market.
