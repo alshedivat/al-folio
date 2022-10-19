@@ -16,4 +16,4 @@ tags: litinstitut
 </blockquote>
 
 Ссылки:
-[^1](Л62).
+[^1]: (Л62).
