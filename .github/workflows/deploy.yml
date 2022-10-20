@@ -3,12 +3,13 @@ name: deploy
 on:
   push:
     branches:
+      - test
+      - cloudflare
       - master
-      - main
   pull_request:
     branches:
       - master
-      - main
+      - test
 
 jobs:
   deploy:
