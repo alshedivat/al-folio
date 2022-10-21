@@ -23,7 +23,7 @@ layout: default
       {%- if tags != "" %}
       &nbsp; &middot; &nbsp;
         {% for tag in page.tags -%}
-        <a href="{{ tag | prepend: '/blog/tag/' | prepend: site.baseurl}}">
+        <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}">
           <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
           {% endfor -%}
       {% endif %}
@@ -31,7 +31,7 @@ layout: default
       {%- if categories != "" %}
       &nbsp; &middot; &nbsp;
         {% for category in page.categories -%}
-        <a href="{{ category | prepend: '/blog/category/' | prepend: site.baseurl}}">
+        <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
           <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
           {% endfor -%}
       {% endif %}
