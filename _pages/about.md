@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD Student in Astrophysics at the University of Minnesota
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>[John T. Tate Hall](https://goo.gl/maps/ofDqMg7ey6cfp4oe6)</p>
+    <p>116 Church St SE</p>
+    <p>Minneapolis, MN 55455</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
