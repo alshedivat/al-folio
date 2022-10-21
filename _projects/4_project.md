@@ -2,7 +2,7 @@
 layout: page
 title: EMI Shielding with Antenna in Package (AiP)
 description: Design of 3-D printed antenna and EMI shielding material analysis
-img:assets/img/sem_dra.jpg
+img: assets/img/sem_dra.jpg
 importance: 3
 category: work
 ---
