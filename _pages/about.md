@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>John T. Tate Hall</p>
+    <p>John T. Tate Hall 201-06</p>
     <p><a href="https://goo.gl/maps/ofDqMg7ey6cfp4oe6">116 Church St SE</a></p>
     <p>Minneapolis, MN 55455</p>
 
