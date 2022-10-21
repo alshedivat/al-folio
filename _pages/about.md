@@ -8,10 +8,8 @@ profile:
   align: right
   image: profile.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>930 .</p>
-    <p>Unit 57</p>
-    <p>Longmont, Colorado 80504</p>
+  address: 
+    
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
