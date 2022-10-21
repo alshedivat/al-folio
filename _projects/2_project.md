@@ -33,71 +33,33 @@ Further work is currently being explored on additional machine learning methods 
 </div>
 <div class="caption">
 On the left, the matching network with varactor tuning. A characterization of possible good, acceptable, and bad matches for this specific matching network are shown in the middle. On the right, one example of trajectory of the algorithm for capacitor 1 and 2 tuning over a heat map of the reflection coefficient.
-
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/possible_loads.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-<<<<<<< HEAD
-<<<<<<< HEAD
-    Image of the matching network seen on the left. Load characterization of the matching network is shown on the right. Green loads could have a match better than -20dB, orange loads could match between -10 and -20dB, and red loads could not be matched better than -10dB.
-=======
-    This image can also have a caption. It's like magic.
->>>>>>> parent of 1858503 (update p2/3)
-=======
-    Load characterization of the matching network. Green loads could have a match better than -20dB, orange loads could match between -10 and -20dB, and red loads could not be matched better than -10dB.
->>>>>>> parent of bc472c9 (p4)
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
->>>>>>> parent of 1858503 (update p2/3)
-=======
 
 
->>>>>>> parent of bc472c9 (p4)
+</div>
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-5 mt-md-0">
         {% include figure.html path="assets/img/TMN.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/constant_step.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/possible_loads.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<<<<<<< HEAD
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Matching network seen on left. Image of the matching network seen on the left. Load characterization of the matching network is shown on the right. Green loads could have a match better than -20dB, orange loads could match between -10 and -20dB, and red loads could not be matched better than -10dB.
 </div>
-=======
-```
-{% endraw %}
->>>>>>> parent of 1858503 (update p2/3)
+
+</div>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-5 mt-md-0">
+        {% include figure.html path="assets/img/constant_step.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/adaptive_step.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Matching network seen on left. Image of the matching network seen on the left. Load characterization of the matching network is shown on the right. Green loads could have a match better than -20dB, orange loads could match between -10 and -20dB, and red loads could not be matched better than -10dB.
+</div>
