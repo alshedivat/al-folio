@@ -1,7 +1,7 @@
 ---
 layout: page
-title: LMBA Design
-description: a project that redirects to another website
+title: Load Modulated Balanced Amplifier (LMBA)
+description:A new MMIC LMBA design
 img: assets/img/LMBA.png
 #redirect: https://unsplash.com
 importance: 3
