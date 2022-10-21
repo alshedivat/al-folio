@@ -2,7 +2,7 @@
 layout: page
 title: 3-D Printed Dielectrically Loaded Antennas
 description: a project with a background image
-img: assets/img/1.jpg
+img: assets/img/patches.jpg
 importance: 3
 category: work
 ---
