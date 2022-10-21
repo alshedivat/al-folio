@@ -4,7 +4,7 @@ title: 3-D Printed Dielectrically Loaded Antennas
 description: a project with a background image
 img: assets/img/1.jpg
 importance: 3
-category: undergraduate research 
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

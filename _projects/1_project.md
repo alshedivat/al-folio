@@ -4,7 +4,7 @@ title: STAR Design
 description: Application of machine learning techniques to reduce self interference in full-duplex system
 img: assets/img/overview-v4.png
 importance: 1
-category: graduate research
+category: work
 ---
 This work is developing new ways to dynamically cancel interference in full-duplex systems. Specifically, a balanced amplifier architecture is 
 being implemented, which can simultaneously transmit and receive signals at the same frequency (Gold-STAR). Full-duplex systems suffer from unacceptable levels 
