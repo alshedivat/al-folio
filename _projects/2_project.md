@@ -65,5 +65,5 @@ Areas of Research and Development:
 <li>Creation of real-time feedback system using MATLAB and GPIB protocols</li>
 <li>Development of algorithms in MATLAB</li>
 <li>Analysis of multiple optimization and machine learning techniques in feedback loop including robustness under varying conditions</li>
-<li>Exploration of dynamic loading trajectories and their impact on algorithm performance and reflections in the system/li>
+<li>Exploration of dynamic loading trajectories and their impact on algorithm performance and reflections in the system</li>
 </ul>
