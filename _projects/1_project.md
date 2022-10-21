@@ -23,14 +23,6 @@ operate this architecture and cancellation scheme when the load of the system is
     Conceptual overview of optimization integrated in balanced amplifier STAR architecture.
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/star_plot.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Simulated behavior of the output power of the STAR architecture when the self interference multipliers (x and y) are varies.
-</div>
 Areas of Research and Development:
 <ul>
 <li> Further exploration into experimental balanced amplifier, full-duplex architecture's capabilities and limitations</li>
