@@ -4,7 +4,7 @@
     - name: Full Name
       value: Michelle Pirrone
     - name: Position
-      value: PhD Student- University of Colorado Boulder
+      value: PhD Student - University of Colorado Boulder
     - name: Languages
       value: English, Spanish
 
@@ -19,11 +19,11 @@
         - Co-advised by Taylor Barton and Emiliano Dall'Anese
         - title: Areas of Concentration
           contents:
-            - RF/ Microwave Engineering
-            - Machine Learning/ Optimization
-    - title: BS Electrical Engineering, Minor- Biology
+            - RF / Microwave Engineering
+            - Machine Learning / Optimization
+    - title: BS Electrical Engineering, Minor - Biology
       institution: State University of New York (SUNY) at New Paltz
-      year: 2012-2016
+      year: 2016-2020
       description:
         - Funded by SUNY New Paltz President Scholarship and New York State Regents Scholarship
         - Participated in research in RF engineering and vertebrate kinematics
@@ -70,7 +70,7 @@
       institution: University of Colorado Boulder
       year: 2022
       description:
-        - Provided office hours for assistance on materials
+        - Provided recitations with practice problems
         - Participated in grading of assignments
 #        - title: Description 3.
 #          contents:
