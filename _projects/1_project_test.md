@@ -3,7 +3,7 @@ layout: page
 title: Load Modulated Balanced Amplifier 
 description: Application of machine learning techniques to reduce self interference in full-duplex system
 img: assets/img/LMBA.png
-importance: 2
+importance: 3
 category: work
 ---
 Load modulated balanced amplifiers (LMBAs) are a balanced amplifier architecture that addresses efficiency issues at back-off operation power levels. Many modern communication standards have large peak-to-average power ratios (PAPR), which require amplifiers to operate at a wide range of power levels. Additionally, there has been a push for devices that are wideband in bandwidth and that meet high linearity requirements. Typical single amplifier designs or other amplifier architectures like the Doherty design cannot handle backoff power levels well or are narrowband.
