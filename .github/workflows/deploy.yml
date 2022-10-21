@@ -4,9 +4,9 @@ on:
   push:
     branches:
       - org-testing
-#    pull_request:
-#      branches:
-#        - testing
+  pull_request:
+    branches:
+      - cloudflare
 
 jobs:
   deploy:
