@@ -2,7 +2,7 @@
 layout: page
 title: ML for matching networks
 description: Investigation of the abilities and limitations of machine learning techniques to the application of real-time, tunable matching networks.
-img: assets/img/smithchart_fxns_v1(1).png
+img: assets/img/smithchart_fxns_v1 (1).png
 importance: 2
 category:  graduate research
 ---
