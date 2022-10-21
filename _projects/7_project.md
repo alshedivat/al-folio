@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Kinematic Analysis of Amphibians
-description: a project with no image
+description: Motion and force study of locomotion in mutated salamanders
 img: assets/img/salamander.jpg
 importance: 4
 category: work

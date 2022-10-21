@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Wearable Virtual Reality Controller
-description: a project with no image
+description: Integrated force and movement sensing with virtual reality demo
 img: assets/img/force.jpg
 importance: 4
 category: work
