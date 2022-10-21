@@ -112,7 +112,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: My Posts # blog_name will be displayed in your blog page
 blog_nav_title: posts # your blog must have a title for it to be displayed in the nav bar
-blog_description: I also have a <a href="https://past.pages.dev/">Blog➚</a> for my acquired handy knowledge
+blog_description: also <a herf="https://past.pages.dev/" target="_blank">past.pages.dev</a>
 permalink: /blog/:year/:title/
 
 # Pagination
