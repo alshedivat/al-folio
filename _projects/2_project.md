@@ -24,9 +24,9 @@ Further work is currently being explored on additional machine learning methods 
 
 
 
-</div>
+
 <div class="row justify-content-sm-center">
-    <div class="col-sm-7 mt-5 mt-md-0">
+    <div class="col-sm-7 mt-5 mt-md-.5">
         {% include figure.html path="assets/img/TMN.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-5 mt-5 mt-md-0">
@@ -34,18 +34,18 @@ Further work is currently being explored on additional machine learning methods 
     </div>
 </div>
 <div class="caption">
-    Matching network seen on left. Image of the matching network seen on the left. Load characterization of the matching network is shown on the right. Green loads could have a match better than -20dB, orange loads could match between -10 and -20dB, and red loads could not be matched better than -10dB.
+    The physical matching network is seen on left with varactors used as tunable elements. Load characterization of the matching network is shown on the right. Green loads could have a match better than -20dB, orange loads could match between -10 and -20dB, and red loads could not be matched better than -10dB.
 
 
-</div>
+
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-4 mt-md-0">
         {% include figure.html path="assets/img/constant_step.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-4 mt-md-0">
+    <div class="col-sm-4.1 mt-4.1 mt-md-0">
         {% include figure.html path="assets/img/adaptive_step.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Matching network seen on left. Image of the matching network seen on the left. Load characterization of the matching network is shown on the right. Green loads could have a match better than -20dB, orange loads could match between -10 and -20dB, and red loads could not be matched better than -10dB.
+    These plots represent the function space where the x and y axes are the capacitor values and the heat map is the value of the reflection. Blue regions are areas of minimized reflections. A comparison of two different types of stepsizes used in the gradient descent approach is shown for VSWR 6 angle 45 degrees. ON the left is the constant stepsize approach, which consists of setting it to one value. This method is shown to jump around a lot in the function space. On the right is the adaptive stepsize approach, which scales with the gradient. This method more closely follows the region of minimization. 
 </div>
