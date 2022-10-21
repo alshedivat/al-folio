@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Template Project
+description: A template project to compare against
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.
