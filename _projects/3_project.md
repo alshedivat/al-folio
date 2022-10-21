@@ -1,19 +1,8 @@
 ---
 layout: page
-<<<<<<< HEAD
-<<<<<<< HEAD
 title: Load Modulated Balanced Amplifier (LMBA)
 description:A new MMIC LMBA design
-=======
-title: LMBA Design
-description: a project that redirects to another website
->>>>>>> parent of bc472c9 (p4)
 img: assets/img/LMBA.png
-=======
-title: LMBA Design
-description: a project that redirects to another website
-img: assets/img/7.jpg
->>>>>>> parent of 1858503 (update p2/3)
 #redirect: https://unsplash.com
 importance: 3
 category: work

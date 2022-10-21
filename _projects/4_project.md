@@ -6,19 +6,13 @@ img:
 importance: 3
 category: work
 ---
+A study was performed on an antenna in package (AiP) design produced with 3-D printing on the impact of different coating solutions in reducing electromagnetic interference (EMI) in the system. As the market for higher frequency devices, especially for 5G cellular increases, there is a need for high radiation efficiency in devices for these frequencies. Additionally, the footprint of RF designs must be compact and in many cases, reduced.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Dielectric resonator antennas (DRAs) have been shown to increase radiation efficiency and can also be produced with inexpensive materials and processes, such as the commonly used ABS material in 3-D printing. Additionally, antenna in package (AiP) designs allow electronics such as amplifiers to be packaged inside of the antenna itself, reducing footprint significantly. This comes with the challenge of interference occurring between the antenna and electronics, however, and is an important consideration for these types of designs.
+ 
+An AiP design was produced using 3-D printed Preperm ABS1000 material with a dielectric constant of roughly 6.5. A Mini-Circuits PSA-5043+ amplifier was integrated into the antenna hollow and cosimulations were performed between HFSS and ADS to validate performance. A comparison was performed on different shielding materials to reduce EMI in the system. The shielding materials included copper tape, sputtered copper with the AJA Orion system, and ultrasonically coated conductive ink from Tatsuta which used the Sono-Tek ExactaCoat System.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+A comparison was performed which examined radiation patterns of the antenna and linearity measurements of the amplifier. It was found that the Sono-Tek ultrasonically coated ink most drastically reduced the EMI in the system and yielded the best performance for both the antenna and the amplifier. A cost effective method for producing AiP designs was validated and the importance of conformal conductive coating inside of the antenna to prevent EMI was demonstrated. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
