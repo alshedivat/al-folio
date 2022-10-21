@@ -8,18 +8,11 @@ importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Load modulated balanced amplifiers (LMBAs) are a balanced amplifier architecture that addresses efficiency issues at back-off operation power levels. Many modern communication standards have large peak-to-average power ratios (PAPR), which require amplifiers to operate at a wide range of power levels. Additionally, there has been a push for devices that are wideband in bandwidth and that meet high linearity requirements. Typical single amplifier designs or other amplifier architectures like the Doherty design cannot handle backoff power levels well or are narrowband.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The LMBA architecture consists of a balanced amplifier structure along with an additional control amplifier that injects a signal into one of the output ports of the balanced amplifier. The signal of the control amplifier is varied in magnitude and phase to load modulate the output of the balanced amplifiers to maintain output power or efficiency at a wide range of power levels or frequencies. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Our work explored a MMIC LMBA design in the WIN Semiconductor .15 micrometer GaN HEMT process designed for X-band. An emphasis was given to high efficiency performance at a variety of conditions and an analysis was performed on operation at different frequencies, power levels, and for different device sizes. Further testing and performance metrics will be examined in future work.   
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
