@@ -49,3 +49,12 @@ Further work is currently being explored on additional machine learning methods 
 <div class="caption">
     These plots represent the function space where the x and y axes are the capacitor values and the heat map is the value of the reflection. Blue regions are areas of minimized reflections. A comparison of two different types of stepsizes used in the gradient descent approach is shown for VSWR 6 angle 45 degrees. ON the left is the constant stepsize approach, which consists of setting it to one value. This method is shown to jump around a lot in the function space. On the right is the adaptive stepsize approach, which scales with the gradient. This method more closely follows the region of minimization. 
 </div>
+
+Areas of Research and Development:
+<ul>
+<li> Characterization and mapping of reflection behavior over capacitor values at different loads and frequencies</li>
+<li>Creation of real-time feedback system using MATLAB and GPIB protocols</li>
+<li>Development of algorithms in MATLAB</li>
+<li>Analysis of multiple optimization and machine learning techniques in feedback loop including robustness under varying conditions</li>
+<li>Exploration of dynamic loading trajectories and their impact on algorithm performance and reflections in the system/li>
+</ul>
