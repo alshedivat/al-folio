@@ -11,7 +11,7 @@ profile:
   address: >
     <p>John T. Tate Hall 201-06</p>
     <p><a href="https://goo.gl/maps/ofDqMg7ey6cfp4oe6">116 Church St SE</a></p>
-    <p>Minneapolis, MN 55455</p>
+    <p><a href="https://goo.gl/maps/ofDqMg7ey6cfp4oe6">Minneapolis, MN 55455</a></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
