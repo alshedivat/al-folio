@@ -2,7 +2,7 @@
 layout: page
 title: 研究项目
 permalink: /projects/
-description: # A growing collection of cool projects.
+description: PROJECTS # A growing collection of cool projects.
 nav: true
 display_categories: [项目, 源代码, 数据集]
 horizontal: true

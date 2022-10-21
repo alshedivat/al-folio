@@ -2,19 +2,20 @@
 layout: page
 permalink: /publications/
 title: 发表
-description: publications
-years: [1956, 1950, 1935, 1905]
+description: PUBLICATIONS
 nav: true
 importance: 3
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
 
-<!--{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}-->
-
-{% bibliography %}
-
+  {%- assign sorted_publications = site.publications | sort: "year" | reverse -%}
+  <!-- Generate cards for each project -->
+  {%- for project in sorted_publications -%}
+  <h2 class="bibliography">
+    {{ project.year }}
+  </h2>
+  {{ project.content }}
+  {%- endfor -%}
+    
 </div>
