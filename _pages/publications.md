@@ -4,6 +4,7 @@ permalink: /publications/
 title: Publications
 description: <sup>*</sup>authors contributed equally. <br> <br> 
   <a href=dynamical>#Dynamical systems</a>
+  <a href=uncertainty>#Uncertainty estimation</a>
   <a href=graph>#Graph representation learning</a>
   <a href=latent>#Probabilistic LVMs</a>
   <a href=sensor>#Sensors</a>
