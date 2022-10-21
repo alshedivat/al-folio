@@ -26,7 +26,7 @@ Further work is currently being explored on additional machine learning methods 
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-7 mt-5 mt-md-.5">
+    <div class="col-sm-7 mt-5 mt-md-.25">
         {% include figure.html path="assets/img/TMN.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-5 mt-5 mt-md-0">
@@ -42,7 +42,7 @@ Further work is currently being explored on additional machine learning methods 
     <div class="col-sm-4 mt-4 mt-md-0">
         {% include figure.html path="assets/img/constant_step.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4.1 mt-4.1 mt-md-0">
+    <div class="col-sm-4 mt-4 mt-md-0">
         {% include figure.html path="assets/img/adaptive_step.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
