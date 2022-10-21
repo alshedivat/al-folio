@@ -23,7 +23,7 @@ operate this architecture and cancellation scheme when the load of the system is
     Conceptual overview of optimization integrated in balanced amplifier STAR architecture.
 </div>
 
-<div class="row justify-content-sm-center">
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/star_plot.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -38,6 +38,6 @@ Areas of Research and Development:
 <li>Implementation of off-the-shelf components to verify the robustness of this architecture</li>
 <li>Creation of real-time feedback system using NI USRP-N200 devices for signal generation and power measurement</li>
 <li>Development of Python code in Linux operating system for system control</li>
-<li>Analysis of gradient descent techniques in feedback loop including robustness under varying conditions</li>
+<li>Analysis of gradient descent techniques in feedback loop including robustness under varying condtions</li>
 <li>Exploration of dynamic loading trajectories and their impact on interference cancellation</li>
 </ul>
