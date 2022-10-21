@@ -12,7 +12,7 @@ profile:
     
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 Hello! My name is Michelle Pirrone and I am currently a PhD student at the University of Colorado Boulder in the Electrical,Computer, and Energy Engineering Department (ECEE). Before coming to Colorado, I attended the State University of New York at New Paltz and graduated with a Bachelor's of Science, majoring in Electrical Engineering and minoring in Biology.
