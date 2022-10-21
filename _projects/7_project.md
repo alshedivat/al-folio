@@ -2,7 +2,7 @@
 layout: page
 title: Kinematic Analysis of Amphibians
 description: a project with no image
-img:assets/img/salamander.jpg
+img: assets/img/salamander.jpg
 importance: 4
 category: work
 ---

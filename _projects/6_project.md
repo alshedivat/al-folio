@@ -2,7 +2,7 @@
 layout: page
 title: Wearable Virtual Reality Controller
 description: a project with no image
-img:assets/img/force.jpg
+img: assets/img/force.jpg
 importance: 4
 category: work
 ---
