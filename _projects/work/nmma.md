@@ -1,7 +1,7 @@
 ---
 layout: page
-title: TTemplate Project
-description: A template project to compare against
+title: NMMA
+description: A framework for fast fitting transients
 img: assets/img/12.jpg
 importance: 1
 category: work
