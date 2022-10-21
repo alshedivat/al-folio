@@ -21,3 +21,11 @@ Our work explored a MMIC LMBA design in the WIN Semiconductor .15 micrometer GaN
 <div class="caption">
     Conceptual overview of LMBA system.
 </div>
+
+Areas of Research and Development:
+<ul>
+<li> Wideband design of LMBA at high frequency (6-12 GHz)</li>
+<li>Analysis of transistor size impact on performance for both the balanced and control amplifiers</li>
+<li>MMIC design in GaN process </li>
+<li>Exploration of efficiency and output power metrics at various power levels</li>
+</ul>
