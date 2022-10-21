@@ -18,7 +18,7 @@ Further work is currently being explored on additional machine learning methods 
 
 
 
-    
+
 
 
 
@@ -35,7 +35,7 @@ Further work is currently being explored on additional machine learning methods 
 </div>
 <div class="caption">
     The physical matching network is seen on left with varactors used as tunable elements. Load characterization of the matching network is shown on the right. Green loads could have a match better than -20dB, orange loads could match between -10 and -20dB, and red loads could not be matched better than -10dB.
-
+</div>
 
 
 <div class="row justify-content-sm-center">
