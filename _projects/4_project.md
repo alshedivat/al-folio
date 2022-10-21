@@ -29,3 +29,11 @@ A comparison was performed which examined radiation patterns of the antenna and 
 <div class="caption">
     On the left is a schematic of the AiP structure. On the right is an image of the actual, 3-D printed antenna.
 </div>
+
+Areas of Research and Development:
+<ul>
+<li> Examine effects of 3-D printing on dielectric resonator antennas (DRAs)</li>
+<li>Design and cosimulate DRA in HFSS and biasing network in AWR for amplifier</li>
+<li>Test and validate antenna and amplifier behavior</li>
+<li>Compare different types of EMI shielding with amplifier linearity and antenna radiation</li>
+</ul>
