@@ -1,10 +1,8 @@
 ---
-
----
 layout: page
 title: submenus
-nav: true
-nav_order: 6
+nav: false
+nav_order: 0
 dropdown: true
 children: 
     - title: publications
@@ -12,3 +10,4 @@ children:
     - title: divider
     - title: projects
       permalink: /projects/
+---

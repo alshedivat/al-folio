@@ -4,8 +4,8 @@ permalink: /group/
 title: 成员
 description: MEET OUR TEAM
 nav: true
+nav_order: 1
 display_categories: [Professor, PhD Students, Master Students]
-importance: 1
 ---
 
 
