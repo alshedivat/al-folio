@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - tylerbarna
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - tylerbarna/nmma_fitter
+  - nuclear-multimessenger-astronomy/nmma
+  - skyportal/skyportal
+  - mcoughlin/ztf_summer_school_2022
+  - tylerbarna/BarnaSeniorHonorsThesis
+  - tylerbarna/tylerbarna.github.io
