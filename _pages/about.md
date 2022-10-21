@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>John T. Tate Hall</p>
-    <p>[116 Church St SE](https://goo.gl/maps/ofDqMg7ey6cfp4oe6)</p>
+    <p><a href="https://goo.gl/maps/ofDqMg7ey6cfp4oe6">116 Church St SE</a></p>
     <p>Minneapolis, MN 55455</p>
 
 news: true  # includes a list of news items
