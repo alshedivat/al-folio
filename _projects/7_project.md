@@ -4,7 +4,7 @@ title: Kinematic Analysis of Amphibians
 description: a project with no image
 img:
 importance: 4
-category: fun
+category: undergraduate research
 ---
 
 Every project has a beautiful feature showcase page.

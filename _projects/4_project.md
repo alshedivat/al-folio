@@ -4,7 +4,7 @@ title: EMI Shielding with Antenna in Package (AiP)
 description: another without an image
 img:
 importance: 3
-category: fun
+category: undergraduate research
 ---
 
 Every project has a beautiful feature showcase page.

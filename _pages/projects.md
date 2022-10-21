@@ -2,16 +2,16 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of my research-
+description: A growing collection of my research:
 nav: true
 nav_order: 2
 display_categories: [work, fun]
 horizontal: false
 ---
-layout: page
+<!---layout: page
 title: project
 description: a project with a background image
-img: /assets/img/12.jpg
+img: /assets/img/12.jpg -->
 
 
 <!-- pages/projects.md -->
