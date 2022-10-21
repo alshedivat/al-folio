@@ -3,7 +3,8 @@ name: deploy
 on:
   push:
     branches:
-      - cloudflare
+      - org-testing
+
   pull_request:
     branches:
       - cloudflare
