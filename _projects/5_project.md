@@ -6,7 +6,7 @@ img: assets/img/patches.jpg
 importance: 3
 category: work
 ---
-Patch antennas are popular antenna designs due to their small footprint 
+Patch antennas are popular antenna designs due to their small footprint, cheap manufacturing, and versatility in design.  
     ---
 
 <div class="row">

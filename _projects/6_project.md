@@ -24,22 +24,31 @@ A demonstration of the system was provided with a wearable device that showcased
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/force.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/battery.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Example of tracking force in forearm, with areas of sustained force and areas of opening and closing of hand shown on left. On right, the heat analysis of the battery.
 </div>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/VU_prototype.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/flow_VU.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Prototype of the device shown on left. Flow diagram of the microprocessor and Unity demo shown on right.
 </div>
+
+Areas of Research and Development:
+<ul>
+<li> Development of sensor integration into device: MyoWare Muscle Sensor, coin motors, and inertial measurement unit (IMU)</li>
+<li>Mechanical and heat analysis of components and robustness of device</li>
+<li>Integration of microprocessor for feedback and control of system</li>
+<li> Creation of demo in Unity software</li>
+<li>USe of motion tracking in TensorFLow</li>
+</ul>
