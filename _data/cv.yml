@@ -15,7 +15,7 @@
       institution: University of Minnesota-Twin Cities
       year: 2027 (expected)
       description:
-        - Advisor: Assistant Professor Michael Coughlin
+        - Advised by Assistant Professor Michael Coughlin
         - title: Member of the Data Science in Multi Messenger Astronomy Program
           contents:
             - Awards a minor in Data Science in Astrophysics
@@ -35,7 +35,7 @@
       institution: Department of Physics and Astronomy, University of Minnesota-Twin Cities
       year: 2021-Present
       description:
-        - Advisor: Assistant Professor Michael Coughlin
+        - Advised by Assistant Professor Michael Coughlin
         - Working with large collaboration (NMMA) to study kilonovae via gravitational wave detection and electromagnetic observation.
         - title: Leading development on a pipeline to automate follow-up observations of potential gravitational wave companions with the Zwicky Transient Facility.
           contents:
@@ -45,16 +45,18 @@
       institution: Department of Physics and Astronomy, Rutgers University
       year: 2020-2021
       description:
-        - Advisor: Professor Saurabh Jha
+        - Advised by Professor Saurabh Jha
         - Research conducted as part of a Senior Honors Thesis
         - Conducted independent research on SNe Ia observed by the Transiting Exo-planet Survey Satellite (TESS) at early rise times
         - Outside of the scope of the thesis, I also engaged in monthly remote observation shifts on the Keck II Telescope
 
     - title: Undergraduate Researcher
       institution: Department of Astrophysical Sciences, Princeton University
-      year: 1917-1933
+      year: 2018-2020
       description:
-        -
+        - title: Advised by Dr. Melinda Soares-Furtado
+          contents:
+            - 
 
     - title: Professor of Theoretical Physics
       institution: Karl-Ferdinand University, Prague, Czechoslovakia
