@@ -4,8 +4,8 @@ title: Modeling permafrost global extent in three steps
 author: Zhihao
 description: Lap report
 date: 2022-10-13
-tags: notes # notes\links\code\math\images
-categories: Permafrost Climate # topic
+tags: notes code # notes\links\code\math\images
+categories: permafrost climate # topic, in small case
 bibliography: C:\Users\ZOZN109\AppData\Local\Pandoc\My _Library.bib
 csl: C:\Users\ZOZN109\AppData\Local\Pandoc\apa.csl
 lang: eng
