@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Tyler Barna
     - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: March 1st, 1999
+    # - name: Languages
+    #   value: English
 
 - title: Education
   type: time_table
