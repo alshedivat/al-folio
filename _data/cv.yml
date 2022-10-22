@@ -78,6 +78,11 @@
 #       year: 2015-now
 #       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
+- title: Publications
+  type: map
+  contents:
+      - See the <a href="https://tylerbarna.com/publications/">Publications</a> page for a full list of publications.
+
 - title: Honors and Awards
   type: time_table
   contents:
