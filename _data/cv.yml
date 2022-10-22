@@ -125,6 +125,15 @@
 #       items:
 #         - Description 1.
 #         - Description 2.
+- title: Technical Skills
+  type: map
+  contents:
+    - name: Languages 
+      value: Python, Latex, Javascript, HTML
+    - name: Applications
+      value: Visual Studio Code, Emacs, Anaconda, Mathematica, Git, VirtualBox, Slurm, WinSCP, PuTTY, Adobe Creative Suite, Microsoft Office Suite
+    - name: Operating Systems
+      value: Linux, Windows, Windows Subsystem for Linux, Android
 
 - title: Other Interests
   type: list
