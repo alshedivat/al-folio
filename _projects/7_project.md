@@ -7,74 +7,19 @@ importance: 4
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Axolotl salamanders are vertebrates that continue to be extensively studied because of their remarkable regenerative abilities. For example, these animals have lost limbs or even parts of their head and were able to totally regenerate. Typically, axolotls remain aquatic for their entire lives. However, very rarely do they mutate to become terrestrial animals, as other salamanders do. These mutations can occur in juvenile or adult salamanders and completely changes their morphology. When they do mutate, they lose all ability to regenerate and additionally have been observed to have poor locomotive abilities.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Our work aimed at identifying key differences in motion patterns between metamorphosed axolotls and a common terrestrial salamander- the tiger salamander. This information could be used to inform physiological differences in the metamorphosed axolotls and provide more insights on how their bodies can so abruptly change and how they lose their regenerative abilities. The motion of the metamorphosed axolotls and tiger salamanders were examined using high speed photography and tracking as they walked and ran. Additional tests were performed to measure the position and amount of force applied using a sensitive force measurement apparatus. From this information, insights could be extracted on acceleration, force patterns, rotation of joints, and center of balance.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+It was found that on average, the metamorphosed axolotls had more abrupt movement patterns and an unstable center of mass. Additionally, as compared to the tiger salamanders, the metamorphosed axolotls typically moved slower. Overall, this work demonstrated that the metamorphosis the axolotls underwent was incomplete or otherwise partially incompatible with terrestrial lifestyle and that its negative impacts on the physical movement may have also impacted the poorly understood regenerative abilities that they lost. This work was presented at poster sessions at two conferences: The Society of Integrative and Comparative Biology and The Society of Developmental Biology.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/salamander_track.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Example of tracking critical points of motion on tiger salamander.
 </div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
