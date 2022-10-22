@@ -83,6 +83,21 @@
   contents:
       - See the <a href="https://tylerbarna.com/publications/">Publications</a> page for a full list of publications.
 
+
+- title: Conferences
+  type: time_table
+  contents:
+    - title: ZTF Summer School 
+      institution: Minneapolis, MN
+      year: 2022
+      items: 
+        - Coordination Assistant for NMMA Topics
+    - title: NASA Kepler and K2 SciCon V
+      institution: Glendale, California
+      year: 2019
+      items: 
+        - Poster Presentation: "Searching for Exoplanets in Dense Clusters with Image Subtraction"
+
 - title: Honors and Awards
   type: time_table
   contents:
@@ -110,3 +125,15 @@
   type: list
   contents:
     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
+
+# - title: Template
+#   type: time_table
+#   contents:
+#     - year: 
+#       items: 
+#         - 
+#         - 
+#     - year: 
+#       items: 
+#         - 
