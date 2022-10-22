@@ -96,4 +96,6 @@ There are some photos I am keen to share.
 
 For more information about SNOWDEPTH, please visit [UiO website](https://www.mn.uio.no/geo/english/research/projects/snowdepth/index.html).
 
+Read the [news article (in Norwegian)](https://titan.uio.no/geologi-klima/2022/hvor-mye-sno-er-det-egentlig-i-fjellet)
+
 
