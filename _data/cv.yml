@@ -101,13 +101,18 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - year: 2022
+      title: Winner of UMN Departmental 3 Minute Thesis Competition
+    - year: 2022-2023
+      title: Awarded Data Science in Multi Messenger Astronomy Research Fellowship
+    - year: 2022
+      title: Awarded Ney Fellowship
+    - year: 2017-2021
+      title: Awarded Rutgers University Trustee Scholarship
+    - year: 2017
+      title: Awarded Hoffman DiMuzio Community Scholarship
+    - year: 2017
+      title: Awarded Brett Fenster Memorial Scholarship
 
 - title: Academic Interests
   type: nested_list
