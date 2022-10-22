@@ -11,24 +11,26 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Astrophysics
+      institution: University of Minnesota-Twin Cities
+      year: 2027 (expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Advisor: Assistant Professor Michael Coughlin
+        - title: Working with large collaboration to study kilonovae via gravitational wave detection and electromagnetic observation
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Leading development on a pipeline to automate follow-up observations of potential gravitational wave companions with the Zwicky Transient Facility
+        - title: Member of the Data Science in Multi Messenger Astronomy Program
+          contents:
+            - Awards a minor in Data Science in Astrophysics
+    - title: Bachelor of Science in Astrophysics
+      institution: Rutgers, The State University of New Jersey-New Brunswick
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Member of the Rutgers Honors College
+        - Graduated Cum Laude
+        - Received High Honors on Senior Thesis
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
     - title: Professor of Theoretical Physics
