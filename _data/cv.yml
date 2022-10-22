@@ -135,6 +135,23 @@
     - name: Operating Systems
       value: Linux, Windows, Windows Subsystem for Linux, Android
 
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: USSF Certified Soccer Referee
+      institution: South Jersey Soccer League & South Jersey Girls Soccer League
+      year: 2015-2021
+      description:
+        - Worked with other referees to make quick decisions in games ranging from adolescent to collegiate levels
+
+    - title: Red Cross Certified Lifeguard
+      institution: Del Val Pool Maintenance
+      year: 2016-2019
+      description:
+        - Managed community pools both alone and with other lifeguards to ensure safety of patrons
+        - Measured and recorded chemical levels on an hourly basis, making adjustments to satisfy safety standards
+
 - title: Other Interests
   type: list
   contents:
