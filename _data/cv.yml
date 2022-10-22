@@ -152,10 +152,27 @@
         - Managed community pools both alone and with other lifeguards to ensure safety of patrons
         - Measured and recorded chemical levels on an hourly basis, making adjustments to satisfy safety standards
 
+
+- title: Outreach
+  type: time_table
+  contents:
+    - year: 2022-Present
+      title: MIfA Public Observing Nights
+    - year: 2022-Present
+      title: Astronomy on Tap - Twin Cities
+    - year: 2022-Present
+      title: Coughlin Group Elementary School Outreach
+    - year: 2021-2022
+      title: MIfA Universe@Home Program
+    - year: 2017-2021
+      title: Rutgers Astronomical Society
+    - year: 2017-2018
+      title: Rutgers Honors College Mentoring Program
+
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Computers & Technology, Cooking, Guitar, Lutherie, Music, History, Literature
 
 
 # - title: Template
