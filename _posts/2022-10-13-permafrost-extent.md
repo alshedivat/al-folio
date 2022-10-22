@@ -64,6 +64,97 @@ $$
 
 ### Step 3: Implement
 
+{% highlight matlib linenos %}
+
+load areas.mat
+load ipa_map.mat
+load NCEP_reanalysis.mat
+
+%% Calculate TTOP
+greenland = 1710000;
+nf = 0.7;
+r = 0.7; % rk * nt
+offset = 0; % -5 to +5
+
+aitT = airT.*land + offset;
+TTOP = mean(airT.*(airT>0).*r + airT.*(airT<0).*nf,3);   % mean on aix=3 time domian(825 month)
+
+%% make figure   -5 0 5
+
+figure 
+worldmap([25 90],[-180,180])
+surfm(lat_ipa,lon_ipa,ipa_simple)
+hold on
+contourm(lat,lon,TTOP',[-5 -5],'b--')
+hold on
+contourm(lat,lon,TTOP',[5 5],'b--')
+hold on
+contourm(lat,lon,TTOP',[0 0],'k')
+hold on
+load coastlines
+plotm(coastlat,coastlon)
+
+%% nf=1 0.7 0.4
+TTOP = mean(airT.*(airT>0).*r + airT.*(airT<0).*1,3);   % mean on aix=3 time domian(825 month)
+TTOP_07 = mean(airT.*(airT>0).*r + airT.*(airT<0).*0.7,3);   % mean on aix=3 time domian(825 month)
+TTOP_04 = mean(airT.*(airT>0).*r + airT.*(airT<0).*0.4,3);   % mean on aix=3 time domian(825 month)
+
+figure 
+worldmap([25 90],[-180,180])
+surfm(lat_ipa,lon_ipa,ipa_simple)
+hold on
+contourm(lat,lon,TTOP',[0],'b')
+hold on
+contourm(lat,lon,TTOP_07',[0],'k')
+hold on
+contourm(lat,lon,TTOP_04',[0],'r')
+hold on
+%legend({'','nf=1','nf=0.8','nf=0.4'},'Location','southwest')
+
+TTOP = TTOP.*land;
+nansum(nansum(areas(1:60,:)'.*double(TTOP(:,1:60)<=0))) - greenland;
+TTOP_07 = TTOP_07.*land;
+nansum(nansum(areas(1:60,:)'.*double(TTOP_07(:,1:60)<=0))) - greenland;
+
+%% As nf=1 and r =1, so TTOP = Annual air temp
+AAT = mean(airT,3);   % mean on aix=3 time domian(825 month)
+
+%% Time series
+
+s_year = 1961;
+e_year = 1990;
+period = 12* (e_year -s_year );
+
+start_i = find(time==datenum(s_year,1,1));
+end_i = find(time==datenum(e_year,1,1));
+
+global_PF_area = [];
+
+for offset = -5:0.1:5
+    airT_pos = airT+offset;
+    airT_pos(airT_pos<0) = 0;
+    TDD = sum(airT_pos(:,:,start_i:end_i),3);
+  
+    airT_neg = airT+offset;
+    airT_neg(airT_neg>0) = 0;
+    FDD = sum(airT_neg(:,:,start_i:end_i),3);
+    
+    nf = 0.7;
+    r = 0.7;
+    
+    TTOP = (nf.*FDD + r.*TDD)/period;
+    TTOP = TTOP.*land;
+    global_PF_area = [global_PF_area;offset nansum(nansum(areas(1:60,:)'.*double(TTOP(:,1:60)<=0)))];
+
+end
+figure
+plot(global_PF_area(:,1),(global_PF_area(:,2)-greenland))
+xlabel('Temp [C]') 
+ylabel('Size of the permafrost [m2]') 
+
+
+{% endhighlight %}
+
 (1) Trying different temperature threshold
 - Fit the MAGST with IPA map.
 - Monthly average temperature from 1948 to 2016.

@@ -14,7 +14,7 @@ category: fun
     </div>
 </div>
 <div class="caption">
-    The on-sale units of Oslo from Finn in Feb 2022. N = 950, Mean = 7.56M kr, Median = 5.77M kr. Which one is a good choice? it's up to your own preference!
+    The on-sale units of Oslo from Finn in Feb 2022. N = 950, Mean = 7.56M kr, Median = 5.77M kr. Which one is a good choice? it's up to your own preferences!
 </div>
 
 There are so many factors contributing on house price. At the same location, the price varies by building’s attributes, e.g., the cost of construction, design, decoration, furnishings. If a pair of twin buildings exist, which are at different locations, the surrounding environment will decide price. In this report, we defined surroundings as `spatial contributions`, or `spatial score`.
@@ -118,7 +118,7 @@ When we use NDVI as a criterion, there is an obvious underestimation for units l
     Is your place greener than the average?
 </div>
 
-The average noise level below 55db over 24 hours would be thought harmless, 10 points, otherwise can only get 2 point (<60db), 1 points (<65db), 0 point (>65db). The noise exposure is a modelling results, not indoor noise exposure, resulting an uncertainty to final results. Since normally noise model considers vegetation as an important parameter, so the area close to park, and away from highway and railway get excellent scores from both two criteria.
+The average noise level below 55db over 24 hours would be thought harmless, 10 points, otherwise can only get 2 point (<60db), 1 points (<65db), 0 point (>65db). The noise exposure is the result from modelling, not indoor noise exposure, resulting an uncertainty to final results. Since normally noise model considers vegetation as an important parameter, so the area close to park and away from highway and railway get excellent scores from both two criteria.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -197,7 +197,7 @@ There is a sensitivity test, using the second group of parameters:
 
 A unit ([finn code 248049271](https://www.finn.no/realestate/homes/ad.html?finnkode=248049271)) at Søndre Nordstrand with extreme low price (3.6 million Kr) and good size (81 m2) got 8.18 points. Sadly, it is sold already. Most of the units recommend by model are sold already in the past month, which means the best-fit units are popular in some degree.
 
-I know there are **several issues** in my method, but I have to limit my time on this project under 30 hours. Otherwise, **a Web-based, automating GIS-MCDA model** could be super fun for exploring dataset from Finn.
+I know there are **several issues** in my method, but I have to limit my time on this project. Otherwise, **a Web-based, automating GIS-MCDA model** could be super fun for exploring dataset from Finn.
 
 In general, the housing price MCDA model could provide the best-fitting options for house buyers but is not capable of suggesting selling price for landlords, because personnel preferences are totally different from the market average, and the model does not count the attributions of the house itself. But it is still possible and fun to do price estimation after gathering more information about market average and normalizing house attributions with coefficients.
 
