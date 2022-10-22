@@ -3,7 +3,7 @@ layout: page
 title: Template Project
 description: A template project to compare against
 img: assets/img/12.jpg
-importance: 1
+importance: 2
 category: fun
 ---
 
