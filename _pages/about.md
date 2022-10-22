@@ -17,9 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an incoming MEng student at <a href='https://csail.mit.edu/'>MIT CSAIL</a>, advised by <a href='http://web.mit.edu/phillipi/'>Professor Phillip Isola</a>. Previously, I graduated from MIT with degrees in computer science and music. During my undergrad, I had the opportunity to work on exciting research under <a href='https://billf.mit.edu/'>Professor Bill Freeman</a>, <a href='http://mit-pbg.mit.edu/'>Professor Yoel Fink</a>, and <a href='http://web.mit.edu/phillipi/'>Professor Phillip Isola</a>.
+I am an MEng student at <a href='https://csail.mit.edu/'>MIT CSAIL</a>, advised by <a href='http://web.mit.edu/phillipi/'>Professor Phillip Isola</a>. Previously, I graduated from MIT with degrees in computer science and music. During my undergrad, I had the opportunity to work on exciting research under <a href='https://billf.mit.edu/'>Professor Bill Freeman</a>, <a href='http://mit-pbg.mit.edu/'>Professor Yoel Fink</a>, and <a href='http://web.mit.edu/phillipi/'>Professor Phillip Isola</a>.
 
-I am broadly interested in computer vision and machine learning, particularly in <b>AI that can see</b>: using insights from natural visual intelligence to build AI that can understand the world around us.
+I am broadly interested in machine learning and representation learning, especially when applied to computer vision. My goal is to use ML as a tool to uncover models that can see: using insights from natural visual intelligence for AI to understand the world around us.
 <hr>
 In 2019, I co-founded <a href='https://tedx.mit.edu'>TEDxMIT</a> and helped launch the inaugural conference at MIT CSAIL. Since then, TEDxMIT has brought communities across the Greater Boston area together with three more conferences and adapted to the COVID-19 pandemic by holding a virtual event. Check out the highlight reels from past events and details about the upcoming conference <a href='https://tedx.mit.edu/'>here</a>!
 <hr>
