@@ -30,6 +30,17 @@ A comparison was performed which examined radiation patterns of the antenna and 
     On the left is a schematic of the AiP structure. On the right is an image of the actual, 3-D printed antenna.
 </div>
 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/sem_dra.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    SEM imaging of ultrasonic coating on 3-D printed DRA antenna, which closely conformed to the imperfect surface of the device.
+</div>
+
+
 Areas of Research and Development:
 <ul>
 <li> Examine effects of 3-D printing on dielectric resonator antennas (DRAs)</li>
