@@ -66,9 +66,22 @@
 - title: Research Experience
   type: time_table
   contents:
-    - title: Graduate Research Assistant
+    - title: Graduate Research Assistant - RF Power and Analog Lab and Dall'Anese Lab
       institution: University of Colorado Boulder
       year: 2020-2025
+      description:
+          -Integrate RF circuits and systems into feedback control loops with optimization and machine Learning
+          -Explore new transceiver architectures
+          -Research new methods of optimization
+    - title: Research Assistant - Dahle Lab and Mass Lab
+      institution: State University of New York at New Paltz
+      year: 2018-2020
+      description:
+          -Develop 3-D printing parameter characterization in RF devices, specifically antennas
+          -Investigate dielectric loading in patch antennas and dielectric resonator antennas
+          -Research EMI solutions in antenna in package (AiP) designs
+          -Additional research performed in biology department on kinematics and development in amphibians 
+          
 - title: Work Experience
   type: time_table
   contents:
