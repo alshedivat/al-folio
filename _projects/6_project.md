@@ -2,7 +2,7 @@
 layout: page
 title: Wearable Virtual Reality Controller
 description: Integrated force and movement sensing with virtual reality demo
-img: assets/img/force.jpg
+img: assets/img/force_clear.png
 importance: 4
 category: undergraduate research
 ---
@@ -22,7 +22,7 @@ A demonstration of the system was provided with a wearable device that showcased
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-2 mt-md-0">
-        {% include figure.html path="assets/img/force_new.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/force_clear.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/battery_new.png" title="example image" class="img-fluid rounded z-depth-1" %}
