@@ -21,7 +21,7 @@ A demonstration of the system was provided with a wearable device that showcased
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-2 mt-md-0">
         {% include figure.html path="assets/img/force_new.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -41,7 +41,7 @@ A demonstration of the system was provided with a wearable device that showcased
     </div>
 </div>
 <div class="caption">
-    Prototype of the device shown on left. Flow diagram of the microprocessor and Unity demo shown on right.
+    Prototype of the device shown on top. Flow diagram of the microprocessor and Unity demo shown on bottom.
 </div>
 
 Areas of Research and Development:
