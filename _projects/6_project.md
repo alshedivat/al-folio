@@ -21,11 +21,11 @@ A demonstration of the system was provided with a wearable device that showcased
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-7 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/force.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/force_new.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/battery.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/battery_new.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -34,10 +34,10 @@ A demonstration of the system was provided with a wearable device that showcased
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-7 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/VU_prototype.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/VU_prototype_new.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/flow_VU.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/vr_flow_new.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
