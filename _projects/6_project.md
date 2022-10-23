@@ -24,7 +24,7 @@ A demonstration of the system was provided with a wearable device that showcased
     <div class="col-sm-6 mt-2 mt-md-0">
         {% include figure.html path="assets/img/force_clear.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-4 mt-md-0">
         {% include figure.html path="assets/img/battery_new.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
