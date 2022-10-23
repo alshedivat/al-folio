@@ -14,7 +14,7 @@ Our work aimed at identifying key differences in motion patterns between metamor
 It was found that on average, the metamorphosed axolotls had more abrupt movement patterns and an unstable center of mass. Additionally, as compared to the tiger salamanders, the metamorphosed axolotls typically moved slower. Overall, this work demonstrated that the metamorphosis the axolotls underwent was incomplete or otherwise partially incompatible with terrestrial lifestyle and that its negative impacts on the physical movement may have also impacted the poorly understood regenerative abilities that they lost. This work was presented at poster sessions at two conferences: The Society of Integrative and Comparative Biology and The Society of Developmental Biology.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-1">
         {% include figure.html path="assets/img/salamander_track.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-1">
@@ -22,7 +22,7 @@ It was found that on average, the metamorphosed axolotls had more abrupt movemen
     </div>
 </div>
 <div class="caption">
-    ExAmple of tracking critical points of salamander on right.
+    Example of tracking critical points of salamander on right.
 </div>
 
 

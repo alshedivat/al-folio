@@ -25,7 +25,7 @@ operate this architecture and cancellation scheme when the load of the system is
 
 <div class="row">
     <div class="col-sm mt-2 mt-md-1">
-        {% include figure.html path="assets/img/star_plot.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/star_plot_new.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
