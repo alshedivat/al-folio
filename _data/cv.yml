@@ -64,7 +64,11 @@
         - Exploration of new theory and applications in the field of optimization
 
 - title: Research Experience
-
+  type: time_table
+  contents:
+    - title: Graduate Research Assistant
+      institution: University of Colorado Boulder
+      year: 2020-2025
 - title: Work Experience
   type: time_table
   contents:
