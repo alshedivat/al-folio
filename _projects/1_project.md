@@ -23,7 +23,7 @@ operate this architecture and cancellation scheme when the load of the system is
     Conceptual overview of optimization integrated in balanced amplifier STAR architecture.
 </div>
 
-<div class="row justify-content-sm-center">
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/star_plot.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>

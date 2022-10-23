@@ -27,12 +27,12 @@ A comparison was performed which examined radiation patterns of the antenna and 
     </div>
 </div>
 <div class="caption">
-    On the left is a schematic of the AiP structure. On the right is an image of the actual, 3-D printed antenna.
+    On the top is a schematic of the AiP structure. On the bottom is an image of the actual, 3-D printed antenna.
 </div>
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row">
+    <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.html path="assets/img/sem_dra.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

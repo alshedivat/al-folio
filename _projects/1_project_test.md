@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Load Modulated Balanced Amplifier 
-description: Application of machine learning techniques to reduce self interference in full-duplex system
+description: A new MMIC LMBA design in GaN
 img: assets/img/LMBA.png
 importance: 3
 category: work
