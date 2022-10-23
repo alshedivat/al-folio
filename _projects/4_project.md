@@ -4,7 +4,7 @@ title: EMI Shielding with Antenna in Package (AiP)
 description: Design of 3-D printed antenna and EMI shielding material analysis
 img: assets/img/sem_dra.jpg
 importance: 3
-category: work
+category: undergraduate research
 ---
 A study was performed on an antenna in package (AiP) design produced with 3-D printing on the impact of different coating solutions in reducing electromagnetic interference (EMI) in the system. As the market for higher frequency devices, especially for 5G cellular increases, there is a need for high radiation efficiency in devices for these frequencies. Additionally, the footprint of RF designs must be compact and in many cases, reduced.
 

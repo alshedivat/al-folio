@@ -4,7 +4,7 @@ title: Patch antenna designs
 description: 3-D printed patch antennas with dielectric loading
 img: assets/img/patches.jpg
 importance: 3
-category: work
+category: undergraduate research
 ---
 This work examined patch antenna performance and manufacturing differences when producing dielectrically loaded patch antennas with 3-D printing. Patch antennas are popular antenna designs due to their small footprint, cheap manufacturing, and versatility in design. Two different areas of research with antennas are with 3-D printing and dielectric loading. The development of antennas using 3-D printing is of interest because it can be cheap, have a quick turnaround time in manufacturing, and allow for greater customization in designs. Additionally, dielectric loading, in which two different materials are integrated into the antenna to modify the performance, have been shown to enhance or customize performance, such as with radiation patterns and dual band operation.
 

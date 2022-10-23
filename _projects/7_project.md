@@ -4,7 +4,7 @@ title: Kinematic Analysis of Amphibians
 description: Motion and force study of locomotion in mutated salamanders
 img: assets/img/salamander.jpg
 importance: 4
-category: work
+category: undergraduate research
 ---
 
 Axolotl salamanders are vertebrates that continue to be extensively studied because of their remarkable regenerative abilities. For example, these animals have lost limbs or even parts of their head and were able to totally regenerate. Typically, axolotls remain aquatic for their entire lives. However, very rarely do they mutate to become terrestrial animals, as other salamanders do. These mutations can occur in juvenile or adult salamanders and completely changes their morphology. When they do mutate, they lose all ability to regenerate and additionally have been observed to have poor locomotive abilities.

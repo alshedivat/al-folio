@@ -4,7 +4,7 @@ title: ML for matching networks
 description: Investigation of the abilities and limitations of machine learning techniques to the application of real-time, tunable matching networks.
 img: assets/img/smith.png
 importance: 2
-category:  work
+category: graduate research
 ---
 Tunable matching networks are important devices in RF engineering that allow for devices such as amplifiers to continuously be matched 
 under varying operating conditions. These are especially important in transceiver systems where the antenna impedance may vary. However, previous

@@ -4,7 +4,7 @@ title: Wearable Virtual Reality Controller
 description: Integrated force and movement sensing with virtual reality demo
 img: assets/img/force.jpg
 importance: 4
-category: work
+category: undergraduate research
 ---
 
 Virtual reality (VR) technology has continued to garner interest as both an immersive form of entertainment and for different job training applications. This senior design capstone project focused on exploring further developments of VR controllers by creating a wearable device that could measure not only position of the hand, but also measure additional variables like acceleration and force applied in the arm. 
