@@ -6,7 +6,7 @@ subtitle: University of Colorado Boulder. michelle.pirrone@colorado.edu
 
 profile:
   align: right
-  image: profile.jpg
+  image: profile_new.jpg
   image_circular: false # crops the image to make it circular
   address: www.linkedin.com/in/michelle-pirrone
     
