@@ -7,7 +7,7 @@ importance: 1
 category: work
 ---
 
-*updated October 2022*
+*Updated October 2022*
 
 ## Overview
 
