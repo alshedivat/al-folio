@@ -28,6 +28,14 @@
         - Graduated Cum Laude
         - Received High Honors on Senior Thesis
 
+# - title: Relevant Coursework
+#   type: map
+#   contents:
+#     - name: Undergraduate
+#       value: 
+#     - name: Graduate 
+#       value: 
+
 - title: Research Experience
   type: time_table
   contents:
@@ -126,6 +134,7 @@
 #       items:
 #         - Description 1.
 #         - Description 2.
+
 - title: Technical Skills
   type: map
   contents:
