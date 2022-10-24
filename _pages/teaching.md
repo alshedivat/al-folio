@@ -7,6 +7,11 @@ nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+#### Courses at The Univesity of Texas at Dallas (as TA)
 
-Organize your courses by years, topics, or universities, however you like!
+- CS/SE 4347 Database Systems - Spring 2022
+
+#### Courses at Southern University of Science and Technology (as SA)
+
+- CS 304 Software Engineering - Spring 2020, Spring 2021
+- CS 102 Computer Programming Fundamentals - Fall 2018

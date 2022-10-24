@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - zhouyinn
+  - codegex-analysis
+  - gloNelson
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - CheeseeMaster/Prolog-Chinese-Chess
+  - codegex-analysis/Codegex
+  - sea-lab-wm/burt
