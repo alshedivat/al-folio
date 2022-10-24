@@ -449,7 +449,7 @@ To do this, edit the collections in the `_config.yml` file, create a correspondi
 
 The theme allows you to create blog posts in the [distill.pub](https://distill.pub/) style:
 
-<p align="center"><a href="https://alshedivat.github.io/al-folio/blog/2018/distill/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/distill-screenshot.png" width=700></a></p>
+<p align="center"><a href="https://alshedivat.github.io/al-folio/blog/2021/distill/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/distill-screenshot.png" width=700></a></p>
 
 For more details on how to create distill-styled posts using `<d-*>` tags, please refer to [the example](https://alshedivat.github.io/al-folio/blog/2021/distill/).
 
