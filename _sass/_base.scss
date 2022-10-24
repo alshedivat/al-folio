@@ -656,3 +656,58 @@ html.transition *:after {
     }
   }
 }
+
+progress {
+     /* Positioning */
+     position: fixed;
+     left: 0;
+     top: 56px;
+     z-index: 10;
+   
+     /* Dimensions */
+     width: 100%;
+     height: 5px;
+   
+     /* Reset the appearance */
+     -webkit-appearance: none;
+        -moz-appearance: none;
+             appearance: none;
+   
+     /* Get rid of the default border in Firefox/Opera. */
+     border: none;
+   
+     /* Progress bar container for Firefox/IE10  */
+     background-color: transparent;
+   
+     /* Progress bar value for IE10  */
+     color: var(--global-theme-color);
+ }
+ 
+ progress::-webkit-progress-bar {
+     background-color: transparent;
+ }
+   
+ progress::-webkit-progress-value {
+     background-color: var(--global-theme-color);
+ }
+   
+ progress::-moz-progress-bar {
+     background-color: var(--global-theme-color);
+ }
+ 
+ .progress-container {
+     width: 100%;
+     background-color: transparent;
+     position: fixed;
+     top: 56px;
+     left: 0;
+     height: 5px;
+     display: block;
+ }
+ 
+ .progress-bar {
+     background-color: var(--global-theme-color);
+     width: 0%;
+     display: block;
+     height: inherit;
+ }
