@@ -2,96 +2,118 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Luis Norberto Zúñiga Morales
     - name: Date of Birth
-      value: 14th March 1879
+      value: 24th September 1992
     - name: Languages
-      value: English, German
+      value: Spanish, English, French
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Computer Science
+      institution: Center for Computing Research, IPN, Mexico City, Mexico
+      year: 2017
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Financial Markets Analysis Under the Effect of Information Difusion on Social Networks
+        - In this work we use sentiment analysis for financial applications. With the combination of natural language processing, machine learning, and time series analysis, we justify the use of public sentiment present in opinions expressed on Twitter towards companies listed in the Mexican Stock Exchange to predict the future movement of their stock prices.
+        #- title: Description 3.
+        #  contents:
+        #    - Sub-description 1.
+        #    - Sub-description 2.
+    - title: Mathematical Engineer
+      institution: National Polithecnic Institute, Mexico City, Mexico
+      year: 2014
+      #description:
+      #  - Description 1.
+      #  - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Adjunct Professor
+      institution: Department of Engineering Studies For Innovation, Universidad Iberoamericana
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Technology Trends -  Current trends in business intelligence areas, mainly students related to business administration.
+        - Data Intelligence - Advanced Machine Learning methods, Actuary.
+        - Machine Learning - Introduction to Machine Learning, Actuary.
+        # - title: Description 3.
+        #  contents:
+        #    - Sub-description 1.
+        #    - Sub-description 2.
+    - title: Postgraduate Instructor
+      institution: Universidad Iberoamericana
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Social Network Analysis module instructor for the Big Data Analytics professional program.
+    - title: Data Scientist
+      institution: Freelance
+      year: 2017-2022
       description:
+        - Twitter analysis app based on the Twitter API featuring network analysis, social media mediation tools, data mining, natural language processing, and data analysis.
+        - Data mining and analysis for a Covid-19 social network sentiment analysis focused in Mexico since the pandemic started. Article submitted and accepted at COMIA 21. Publication pending.
+        - Currently working with Dr. César Villanueva Rivas in project <i>Imagen México</i> at Universidad Iberoamericana.
+        - Multiple freelance projects with local business.
+    #- title: Director
+    #  institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+    #  year: 1917-1933
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    #- title: Professor of Theoretical Physics
+    #  institution: Karl-Ferdinand University, Prague, Czechoslovakia
+    #  year: 1911 - 1917
+    #  description:
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    #- title: Associate Professor of Theoretical Physics
+    #  institution: University of Zurich, Zurich, Switzerland
+    #  year: 1909 - 1911
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items: 
+#         - Nobel Prize in Physics 
+#         - Matteucci Medal
+#     - year: 2029
+#       items: 
+#         - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Sentiment Analysis
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Multimodal Sentiment Analysis
+        - Application on Digital Social Networks
+    - title: Natural Language Processing
       items:
-        - Description 1.
-        - Description 2.
+        - Build resources in Spanish
+        - Word embedding models
+    - title: Machine Learning
+      items:
+        - Imbalanced Classification
+        - Support Vector Machines
+    - title: Deep Learning
+      items:
+        - Language Models (Transformer)
+    - title: Social Network Analysis
+      items:
+        - Network Science applied to digital social networks
+        - Sentiment Analysis application on Twitter
+    - title: Misc. Areas
+      items:
+        - Game Theory
+        - Programming in Python
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Open Academic Content Creation in Spanish, Videogames, Music, Programming
