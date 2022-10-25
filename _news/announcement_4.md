@@ -4,4 +4,4 @@ date: 2022-09-14
 inline: true
 ---
 
-One paper accepted by NeurIPS 2022 as the oral presentation. 
+One paper accepted by NeurIPS 2022 as the **oral** presentation. 
