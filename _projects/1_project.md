@@ -38,6 +38,6 @@ Areas of Research and Development:
 <li>Implementation of off-the-shelf components to verify the robustness of this architecture</li>
 <li>Creation of real-time feedback system using NI USRP-N200 devices for signal generation and power measurement</li>
 <li>Development of Python code in Linux operating system for system control</li>
-<li>Analysis of gradient descent techniques in feedback loop including robustness under varying conditions</li>
+<li>Analysis of optimization techniques in feedback loop including robustness under varying conditions</li>
 <li>Exploration of dynamic loading trajectories and their impact on interference cancellation</li>
 </ul>

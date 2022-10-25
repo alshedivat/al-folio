@@ -22,7 +22,7 @@ It was found that on average, the metamorphosed axolotls had more abrupt movemen
     </div>
 </div>
 <div class="caption">
-    Example of tracking critical points of salamander on right.
+    Example of tracking critical points of salamander on left.
 </div>
 
 

@@ -11,7 +11,7 @@ Virtual reality (VR) technology has continued to garner interest as both an imme
 
 The critical categories of design for this project included: motion tracking, measuring applied force externally, tracking acceleration and rotation, incorporating the battery and microprocessor into a comfortable wearable device, and integration with a demonstration software. One of the new concepts and challenges in the design was to incorporate force sensing without invasive components. A MyoWare Muscle Sensor was incorporated into the design with some customization to the programming due to replacing the typical gel electrodes with conductive 3-D printed dry electrodes. 
 
-Additional electronic components included coin motor for haptic feedback and an inertial measurement unit (IMU) for tracking rotation and acceleration. The device was made wireless, so an analysis of the heating of a rechargeable battery was considered to ensure wearability. These devices were controlled by an ESP32-S microprocessor.
+Additional electronic components included coin motors for haptic feedback and an inertial measurement unit (IMU) for tracking rotation and acceleration. The device was made wireless, so an analysis of the heating of a rechargeable battery was considered to ensure wearability. These devices were controlled by an ESP32-S microprocessor.
 
 For the software of the project, TensorFlow was used for general motion tracking of the hand. A virtual reality demo was created in Unity software, where custom codes were created in C. 
 
@@ -50,5 +50,5 @@ Areas of Research and Development:
 <li>Mechanical and heat analysis of components and robustness of device</li>
 <li>Integration of microprocessor for feedback and control of system</li>
 <li> Creation of demo in Unity software</li>
-<li>USe of motion tracking in TensorFLow</li>
+<li>Use of motion tracking in TensorFLow</li>
 </ul>
