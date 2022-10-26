@@ -32,6 +32,4 @@ My thesis was part of the preliminary phase 1 of [National Blockchain Project](h
 I was also gainfully employed at Oracle R&D in Bengaluru, India as a software development engineer working on Oracle Cloud Database solutions.
 I lead the cloud database patching and Exadata cloud grid patching and upgrade infrastructure along with various other parts in Cloud@Customer offerings.
 
-This site is a :warning::construction: work in progress :warning::construction:.
-
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=saikumarysk.github.io&left_color=blue&right_color=green)

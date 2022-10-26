@@ -32,13 +32,13 @@
   contents:
     - title: UC Santa Barbara
       items:
-        - Major Area - Quantum Cryptography, Spectral Graph Theory, Quantitative Information Flow, Computer Aided Reasoning for Software
+        - Major Area - Topics in Quantum Cryptography, Spectral Graph Theory and Laplacian Matrices, Quantitative Information Flow and Side Channel Analysis, Computer Aided Reasoning for Software
         - Breadth Requirement - Scalable Internet Services, Software Fuzzing for Security and Correctness
         - Other - Matrix Analysis and Computation
     - title: IIT Madras
       items:
         - Minor - Number Theory, Combinatorial Optimization, Mathematical Logic
-        - Electives - Foundations of Cryptography, Lattice Cryptography, Applied Cryptography, Error Control Coding Theory
+        - Electives - Foundations of Cryptography, Lattice Cryptography(Recent Dev. in Theoretical CS), Applied Cryptography, Error Control Coding Theory
         - Foundational - Linear Algebra, Probability for Electrcial Engineers
     - title: <a href="https://github.com/saikumarysk/MOOCs">Online Course Certifications</a>
       items:
@@ -52,18 +52,33 @@
       institution: UC Santa Barbara, Guide - <a href="https://sites.google.com/site/prabhanjanva/">Prof. Prabhanjan Ananth</a>
       year: Jun 2022 - Present
       description:
+        - Designed an efficient, novel public-key functional encryption scheme for specific functionality in the static collusion bound model whose time complexity and size of the ciphertexts are linear in the static query bound.
+        - Designed a new, efficient unbounded-collusion private-key functional encryption for the same functionality.
+        - Currently optimizing the private-key functional encryption scheme using secure multi-party computation.
+        - Implementing the public and private key FE schemes using optimal blocks for efficient execution in C/C++.
+        - Surveyed FHE based Private Machine Learning protocols and the feasibility of optimal FE-based solutions.
+        - A paper based on the work will be published soon at an undecided conference. Work to be included as part of master's dissertation.
     - title: Member Technical Staff
       institution: Oracle R&D India, Bengaluru, India
       year: Jun 2018 - Jul 2021
       description:
+        - Head of Database and RAC infrastructure upgrade in Oracle Public Cloud that includes Autonomous Database (ADB-D), Exadata Cloud at Customer(ExaCC), Exadata Cloud Services(ExaCS), ADB-D on ExaCC cloud offerings.
+        - Fixed 50+ business-critical bugs in Database security, VM shape-scale performance issues, Database upgrade, RAC Infrastructure upgrade, Database Home Backup & Recovery, and Dataguard reliability.
+        - Completed 10+ individually initiated projects used by several industry pioneers.
+        - Drafted a document about Python security measures, which cloud software developers should use.
+        - Designed and implemented parallel VM upgrades and database patching to decrease the time by over 80%.
     - title: Software Engineering Intern
       institution: Qualcomm Inc, Hyderabad, India
       year: May 2017 - Jul 2017
-
+      description:
+        - Implemented various finite-state automaton techniques using Python, which improved the workflow time of 4G LTE testing and log parsing automation on on-chip devices of Qualcomm 205 Mobile by 31%.
+        - Completed 6 testing scenarios involving signal scattering, re-establishment, etc., in 2 months.
     - title: GUI Platform Development Intern
       institution: Detect Technologies, Chennai, India
       year: May 2016 - Jul 2016
       description:
+        - Worked on raw data visualization for real-time health monitoring for gas pipelines based on the backscattering signature of ultrasonic waves produced by magnetostrictive sensors.
+        - Using WxPython, generated a GUI application for the same. Used three.js for website model rendering.
 
 - title: Technical Skills
   type: map
@@ -76,6 +91,24 @@
       value: Ruby on Rails, Sinatra, Python Flask, React, PHP, LAMP stack, Google Cloud Run
     - name: Other
       value: Git, Tsung, Hyperledger Fabric, Kubernetes, Docker, LaTeX, Ionic
+
+- title: Key Achievements
+  type: map
+  contents:
+    - name: 2022
+      value: Nominated for the Best TA Award in the computer science department at UC Santa Barbara.
+    - name: 2020
+      value: Placed 6th among ~500 developers in Oracle Security Evangelist Cup organized by SCW platform.
+    - name: 2015
+      value: Awarded 'Star Volunteer' for NSS IIT Madras chapter's `Teach Your Neighbor' project.
+    - name: 2014
+      value: Stood 878th among 150,000 students in JEE Advanced.
+    - name: 2014
+      value: Secured a national rank of 374th in JEE Mains among 500,000+ students.
+    - name: 2014
+      value: Ranked 211st in Telangana state-wide engineering entrance examination, EAMCET.
+    - name: 2012
+      value: Among the top 1% of students with a rank of 7 in APRJC for entrance into IIITs.
 
 - title: Publications
   type: list
