@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /dsc/
+permalink: /datascienceclub/
 title: Data Science Club
 description: 
 nav: true
-nav_order: 10
+nav_order: 8
 ---
 
 **We are hiring!** 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are currently looking for **several PhD students, postdocs, and student assistants** with an interest in machine learning with the earliest start date of **October 1st, 2022**.
