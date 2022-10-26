@@ -42,6 +42,11 @@ blockquote {
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   font-size: 1.2rem;
+  
+  [dir=rtl] & {
+    border-left: none;
+    border-right: 2px solid var(--global-theme-color);
+  }
 }
 
 // Math
@@ -655,6 +660,10 @@ html.transition *:after {
     blockquote {
       border-left: 5px solid var(--global-theme-color);
       padding: 8px;
+    [dir=rtl] & {
+        border-right: 5px solid var(--global-theme-color);
+        border-left: none;
+        }
     }
   }
 }
