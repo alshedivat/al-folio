@@ -87,6 +87,8 @@ Research is one of the most important things in the life of a PhD student.
   - There are many concrete tips to create a good poster.
 - [How to speak](https://www.youtube.com/watch?v=Unzc731iCUY) by Patrick Winston
 - [How to give a technical presentation](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html) by Mike Ernst
+- [How to create a better research poster in less time](https://youtu.be/SYk29tnxASs) by Mike Morrison
+  - An **amazing** video with many examples and high-level principles. Highly recommend it!!
 
 ## Coding
 
