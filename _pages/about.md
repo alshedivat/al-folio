@@ -22,4 +22,4 @@ Prior to coming to Duke, I worked on macroeconomic theory research with The Macr
 
 <h3> Research Interests </h3>
 
-Broadly, I develop (often Bayesian) methodology that improves inferential precision in analyses with data obtained from multiple groups or sources. I am particularly interested in settings with small to moderate group-level sample sizes. My recent work is related to covariance estimation, small area estimation, and conformal prediction.
+Broadly, I develop (often Bayesian) methodology that improves inferential precision in analyses with data obtained from multiple groups or sources. I am particularly interested in developing straightforward methods that are robust to mis-specification without sacrificing usefulness. My recent work is related to covariance estimation, small area estimation, and conformal prediction.
