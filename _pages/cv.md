@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /cv/
+permalink: /assets/pdf/CV_Akshita_Bhagia.pdf
 title: cv
 nav: true
 nav_order: 3
