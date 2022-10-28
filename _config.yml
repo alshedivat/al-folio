@@ -15,7 +15,7 @@ footer_text: >
 keywords: astrophysics, astronomy, academics, academia, graduate, physics, computers, multi-messenger, observation, computation, academic-website, portfolio-website, barna, tylerbarna, tyler, tyler barna, minnesota, mma, dsmma, rutgers,  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: icons/snIcon.png #⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://tylerbarna.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
