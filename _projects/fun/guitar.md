@@ -8,3 +8,6 @@ category: fun
 ---
 
 Work in Progress!
+
+
+{% include guitarSlideshow.html %}
