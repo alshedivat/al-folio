@@ -10,12 +10,12 @@
   number   = {5},
   pages    = {1405-1412},
   year     = {2019},
-  month    = {10},
-  abstract = {{Convolutional neural networks (CNNs) have outperformed conventional methods in modeling the sequence specificity of DNA–protein binding. While previous studies have built a connection between CNNs and probabilistic models, simple models of CNNs cannot achieve sufficient accuracy on this problem. Recently, some methods of neural networks have increased performance using complex neural networks whose results cannot be directly interpreted. However, it is difficult to combine probabilistic models and CNNs effectively to improve DNA–protein binding predictions.In this article, we present a novel global pooling method: expectation pooling for predicting DNA–protein binding. Our pooling method stems naturally from the expectation maximization algorithm, and its benefits can be interpreted both statistically and via deep learning theory. Through experiments, we demonstrate that our pooling method improves the prediction performance DNA–protein binding. Our interpretable pooling method combines probabilistic ideas with global pooling by taking the expectations of inputs without increasing the number of parameters. We also analyze the hyperparameters in our method and propose optional structures to help fit different datasets. We explore how to effectively utilize these novel pooling methods and show that combining statistical methods with deep learning is highly beneficial, which is promising and meaningful for future studies in this field.All code is public in https://github.com/gao-lab/ePooling.Supplementary data are available at Bioinformatics online.}},
+  abstract = {{Convolutional neural networks (CNNs) have outperformed conventional methods in modeling the sequence specificity of DNA-protein binding. While previous studies have built a connection between CNNs and probabilistic models, simple models of CNNs cannot achieve sufficient accuracy on this problem. Recently, some methods of neural networks have increased performance using complex neural networks whose results cannot be directly interpreted. However, it is difficult to combine probabilistic models and CNNs effectively to improve DNA-protein binding predictions.In this article, we present a novel global pooling method: expectation pooling for predicting DNA-protein binding. Our pooling method stems naturally from the expectation maximization algorithm, and its benefits can be interpreted both statistically and via deep learning theory. Through experiments, we demonstrate that our pooling method improves the prediction performance DNA-protein binding. Our interpretable pooling method combines probabilistic ideas with global pooling by taking the expectations of inputs without increasing the number of parameters. We also analyze the hyperparameters in our method and propose optional structures to help fit different datasets. We explore how to effectively utilize these novel pooling methods and show that combining statistical methods with deep learning is highly beneficial, which is promising and meaningful for future studies in this field.All code is public in https://github.com/gao-lab/ePooling.Supplementary data are available at Bioinformatics online.}},
   issn     = {1367-4803},
   pdf      = {epooling_paper.pdf},
   doi      = {10.1093/bioinformatics/btz768},
   url      = {https://doi.org/10.1093/bioinformatics/btz768},
+  html     = {https://doi.org/10.1093/bioinformatics/btz768},
   eprint   = {https://academic.oup.com/bioinformatics/article-pdf/36/5/1405/32793985/btz768.pdf}
 }
 @article{10.1093/bib/bbab233,
@@ -26,21 +26,22 @@
   volume   = {22},
   number   = {6},
   year     = {2021},
-  month    = {07},
-  abstract = {{Motif identification is among the most common and essential computational tasks for bioinformatics and genomics. Here we proposed a novel convolutional layer for deep neural network, named variable convolutional (vConv) layer, for effective motif identification in high-throughput omics data by learning kernel length from data adaptively. Empirical evaluations on DNA-protein binding and DNase footprinting cases well demonstrated that vConv-based networks have superior performance to their convolutional counterparts regardless of model complexity. Meanwhile, vConv could be readily integrated into multi-layer neural networks as an ‘in-place replacement’ of canonical convolutional layer. All source codes are freely available on GitHub for academic usage.}},
+  abstract = {{Motif identification is among the most common and essential computational tasks for bioinformatics and genomics. Here we proposed a novel convolutional layer for deep neural network, named variable convolutional (vConv) layer, for effective motif identification in high-throughput omics data by learning kernel length from data adaptively. Empirical evaluations on DNA-protein binding and DNase footprinting cases well demonstrated that vConv-based networks have superior performance to their convolutional counterparts regardless of model complexity. Meanwhile, vConv could be readily integrated into multi-layer neural networks as an 'in-place replacement' of canonical convolutional layer. All source codes are freely available on GitHub for academic usage.}},
   issn     = {1477-4054},
   doi      = {10.1093/bib/bbab233},
   url      = {https://doi.org/10.1093/bib/bbab233},
+  html     = {https://doi.org/10.1093/bib/bbab233},
   note     = {bbab233},
   eprint   = {https://academic.oup.com/bib/article-pdf/22/6/bbab233/41087860/bbab233.pdf}
 }
 
 @article{10.1093/NeurIPS/bbab2dsf,
-  abbr    = {NeurIPS},
-  author  = {Tu*, Xinming and Cao*, Zhi-Jie and Xia, Chen-Rui and Mostafavi, Sara and Gao, Ge},
-  title   = {{Cross-Linked Unified Embedding
-             for cross-modality representation learning}},
-  journal = {NeurIPS(Oral)},
-  pdf     = {clue_paper.pdf},
-  year    = {2022}
+  abbr     = {NeurIPS},
+  author   = {Tu*, Xinming and Cao*, Zhi-Jie and Xia, Chen-Rui and Mostafavi, Sara and Gao, Ge},
+  title    = {{Cross-Linked Unified Embedding
+              for cross-modality representation learning}},
+  journal  = {NeurIPS(Oral)},
+  abstract = {{Multi-modal learning is essential for understanding information in the real world. Jointly learning from multi-modal data enables global integration of both shared and modality-specific information, but current strategies often fail when observa- tions from certain modalities are incomplete or missing for part of the subjects. To learn comprehensive representations based on such modality-incomplete data, we present a semi-supervised neural network model called CLUE (Cross-Linked Unified Embedding). Extending from multi-modal VAEs, CLUE introduces the use of cross-encoders to construct latent representations from modality-incomplete observations. Representation learning for modality-incomplete observations is common in genomics. For example, human cells are tightly regulated across multi- ple related but distinct modalities such as DNA, RNA, and protein, jointly defining a cell's function. We benchmark CLUE on multi-modal data from single cell measurements, illustrating CLUE's superior performance in all assessed categories of the NeurIPS 2021 Multimodal Single-cell Data Integration Competition. While we focus on analysis of single cell genomic datasets, we note that the proposed cross-linked embedding strategy could be readily applied to other cross-modality representation learning problems.}},
+  pdf      = {clue_paper.pdf},
+  year     = {2022}
 }
