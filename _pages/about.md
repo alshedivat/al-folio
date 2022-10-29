@@ -14,7 +14,7 @@ profile:
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
 I am a second year PhD student at the [Paul Allen School of Computer Science and Engineering](https://www.cs.washington.edu) at University of Washington supervised by [Sara Mostafavi](http://saramostafavi.github.io). Before my PhD, I earned BSs in Biology and Computer Science from Peking University. During my undergraduate, I did some bioinformatics research at [Gao Lab](http://www.gao-lab.org/index.php/en/home/). In addition, I also worked as a summer intern at [Zhao Lab](http://zhaocenter.org) at Yale University and [Sheng Lab](https://homes.cs.washington.edu/~swang/) at the University of Washington. I also spent six months on [ML Group of Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/machine-learning-research-group/) as a Full-time research Intern. Please see my [CV](https://xinmingtu.cn/assets/pdf/CV_homepage.pdf) for more information.
