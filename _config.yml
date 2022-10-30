@@ -72,6 +72,7 @@ twitter_username: # your Twitter handle
 linkedin_username: tyler-barna-37592619b # your LinkedIn user name
 scholar_userid: vK3bTDoAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
+whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: 0000-0002-4843-345X # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -254,7 +255,7 @@ scholar:
   query: "@*"
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 3  # leave blank to always show all authors
@@ -308,6 +309,8 @@ enable_navbar_social:       false  # enables displaying social links in the
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
+
+enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
 
 
 # -----------------------------------------------------------------------------
