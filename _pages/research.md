@@ -72,6 +72,7 @@ ___
 
 * Vivek Bharadwaj (UC Berkeley)
 * Aydin Buluç (UC Berkeley, LBNL)
+* Luk Burchard (Simula Research Laboratory)
 * David Culler (UC Berkeley, Google)
 * Lorenzo Di Tucci (Politecnico di Milano, Huxelerate)
 * Saliya Ekanayake (Microsoft)
