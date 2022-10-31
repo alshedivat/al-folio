@@ -128,7 +128,7 @@ For a hands-on walkthrough of al-folio installation, check out [this cool video 
 
 You need to take the following steps to get `al-folio` up and running in your local machine:
 
-- First, [install docker](https://docs.docker.com/get-docker/)
+- First, install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/).
 - Then, clone this repository to your machine:
 
 ```bash
