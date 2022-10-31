@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Navigating to Objects in the Real World
+description: 
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: research
 ---
 
 Every project has a beautiful feature showcase page.
