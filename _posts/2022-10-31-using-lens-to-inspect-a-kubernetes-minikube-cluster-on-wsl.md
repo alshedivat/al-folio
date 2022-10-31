@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Using Lens to inspect a Kubernetes minikube cluster on WSL"
-date: 2022-10-31 00:00:01
+date: 2022-10-31 04:00:00
 description: Learn how to use Lens to see K8s clusters on WSL
-tags: Kubernetes WSL
+tags: ['Kubernetes', 'WSL']
 ---
 
 
