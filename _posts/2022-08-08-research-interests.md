@@ -6,7 +6,7 @@ date: 2022-08-08
 
 Last Edit: 11/01/2022
 
-## Some Facts About Me
+## About
 1. My favorite quote is: "What I cannot create, I do not understand" - Richard Feynman
    
 2. For me, the fundamental problem in artificial intelligence is not higher performance metrics or faster computation, but how to make machines more like humans. 
