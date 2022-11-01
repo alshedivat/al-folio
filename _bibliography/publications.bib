@@ -25,16 +25,23 @@
 }
 
 @article{defilippis2022,
-  title        = {Use of high-plex data reveals novel insights into the tumour microenvironment of clear cell renal cell carcinoma},
-  author       = {De Filippis, Raffaele and W\"{o}lflein, Georg and Um, In Hwa and Caie, Peter D and Warren, Sarah and White, Andrew and Suen, Elizabeth and To, Emily and Arandjelovi\'{c}, Ognjen and Harrison, David J},
-  author+an    = {1=first; 2=first, highlight},
-  firstauthors = {2},
-  journal      = UNDERREVIEW,
-  medrxiv      = {10.1101/2022.10.13.22281035},
-  year         = {2022},
-  preview      = {highplex.png},
-  abstract     = {Although Immune Checkpoint Inhibitors (ICIs) have significantly improved Clear Cell Renal Cell Carcinoma (ccRCC) prognosis, about one third of patients experience recurrence. Current prognostic algorithms like the Leibovich Score (LS) rely on morphological features manually assessed by pathologists, and are therefore subject to bias. Moreover, these tools do not consider the heterogeneous molecular milieu present in the Tumour Microenvironment (TME), which may have prognostic value. We systematically developed a semi-automated method to investigate 62 markers and their combinations in 150 primary ccRCCs using multiplex Immunofluorescence (mIF), NanoString GeoMx {\textregistered} Digital Spatial Profiling (DSP) and Artificial Intelligence (AI)-assisted image analysis in order to find novel prognostic signatures and investigate their spatial relationship. We found that coexpression of Cancer Stem Cell (CSC) and Epithelial-to-Mesenchymal Transition (EMT) markers such as OCT4 and ZEB1 are indicative of poor outcome. OCT4 and the immune markers CD8, CD34 and CD163 significantly stratified patients at intermediate LS. Furthermore, augmenting the LS with OCT4 and CD34 improved patient stratification by outcome. Our results support the hypothesis that combining molecular markers has prognostic value and can be integrated with morphological features to improve risk stratification and personalised therapy. To conclude, GeoMx {\textregistered} DSP and AI image analysis are complementary tools providing high multiplexing capability required to investigate the TME of ccRCC, while reducing observer bias.},
-  keywords     = {journal,paper}
+  title          = {Use of High-Plex Data Reveals Novel Insights into the Tumour Microenvironment of Clear Cell Renal Cell Carcinoma},
+  author         = {De Filippis, Raffaele and W\"{o}lflein, Georg and Um, In Hwa and Caie, Peter D and Warren, Sarah and White, Andrew and Suen, Elizabeth and To, Emily and Arandjelovi\'{c}, Ognjen and Harrison, David J},
+  author+an      = {1=first; 2=first, highlight},
+  firstauthors   = {2},
+  journal        = CANCERS,
+  abbr           = CANCERS_SHORT,
+  volume         = {14},
+  year           = {2022},
+  number         = {21},
+  article-number = {5387},
+  url            = {https://www.mdpi.com/2072-6694/14/21/5387},
+  pdf            = {https://www.mdpi.com/2072-6694/14/21/5387/pdf},
+  abstract       = {Although immune checkpoint inhibitors (ICIs) have significantly improved the oncological outcomes, about one-third of patients affected by clear cell renal cell carcinoma (ccRCC) still experience recurrence. Current prognostic algorithms, such as the Leibovich score (LS), rely on morphological features manually assessed by pathologists and are therefore subject to bias. Moreover, these tools do not consider the heterogeneous molecular milieu present in the Tumour Microenvironment (TME), which may have prognostic value. We systematically developed a semi-automated method to investigate 62 markers and their combinations in 150 primary ccRCCs using Multiplex Immunofluorescence (mIF), NanoString GeoMx&reg; Digital Spatial Profiling (DSP) and Artificial Intelligence (AI)-assisted image analysis in order to find novel prognostic signatures and investigate their spatial relationship. We found that coexpression of cancer stem cell (CSC) and epithelial-to-mesenchymal transition (EMT) markers such as OCT4 and ZEB1 are indicative of poor outcome. OCT4 and the immune markers CD8, CD34, and CD163 significantly stratified patients at intermediate LS. Furthermore, augmenting the LS with OCT4 and CD34 improved patient stratification by outcome. Our results support the hypothesis that combining molecular markers has prognostic value and can be integrated with morphological features to improve risk stratification and personalised therapy. To conclude, GeoMx&reg; DSP and AI image analysis are complementary tools providing high multiplexing capability required to investigate the TME of ccRCC, while reducing observer bias.},
+  doi            = {10.3390/cancers14215387},
+  medrxiv        = {10.1101/2022.10.13.22281035},
+  keywords       = {journal,paper},
+  selected       = {true}
 }
 
 @article{wolflein2021jimaging,
@@ -55,7 +62,6 @@
   code           = {https://github.com/georg-wolflein/chesscog},
   website        = {https://www.chesscog.com},
   abstract       = {Identifying the configuration of chess pieces from an image of a chessboard is a problem in computer vision that has not yet been solved accurately. However, it is important for helping amateur chess players improve their games by facilitating automatic computer analysis without the overhead of manually entering the pieces. Current approaches are limited by the lack of large datasets and are not designed to adapt to unseen chess sets. This paper puts forth a new dataset synthesised from a 3D model that is an order of magnitude larger than existing ones. Trained on this dataset, a novel end-to-end chess recognition system is presented that combines traditional computer vision techniques with deep learning. It localises the chessboard using a RANSAC-based algorithm that computes a projective transformation of the board onto a regular grid. Using two convolutional neural networks, it then predicts an occupancy mask for the squares in the warped image and finally classifies the pieces. The described system achieves an error rate of 0.23\% per square on the test set, 28 times better than the current state of the art. Further, a few-shot transfer learning approach is developed that is able to adapt the inference system to a previously unseen chess set using just two photos of the starting position, obtaining a per-square accuracy of 99.83\% on images of that new chess set. The code, dataset, and trained models are made available online.},
-  selected       = {true},
   preview        = {chesscog.png},
   pdf            = {https://www.mdpi.com/2313-433X/7/6/94/pdf},
   blog           = {/blog/2021/chesscog}
