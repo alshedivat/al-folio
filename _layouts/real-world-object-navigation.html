@@ -217,21 +217,22 @@
       <div style="width:800px; margin:0 auto; text-align:justify">
         We instantiate semantic navigation with the Object Goal navigation task, where a robot starts in a completely unseen environment and is asked to find an instance of an object category, let's say a toilet.
         The robot has access to only a first-person RGB and depth camera and a pose sensor.
-      </div><br/>
+      </div>
       <table align=center width=1000px>
         <p style="margin-top:4px;"></p>
         <tr><td width=1200px>
-          <center><a href="../../assets/real-world-object-navigation/objectnav_problem.png"><img src = "../../assets/real-world-object-navigation/objectnav_problem.png" width="800px"></img></a><br></center>
+          <center><a href="../../assets/real-world-object-navigation/objectnav_problem.png"><img src = "../../assets/real-world-object-navigation/objectnav_problem.png" width="800px"></img></a></center>
         </td></tr>
       </table>
+      <br>
 
       <div style="width:800px; margin:0 auto; text-align:justify">
         This task is challenging. 
-        The robot requires not only spatial scene understanding of distinguishing free space and obstacles and semantic scene understanding of detecting objects, but also requires learning semantic priors. 
+        The robot requires not only spatial scene understanding of distinguishing free space and obstacles and semantic scene understanding of detecting objects, but also requires learning semantic exploration priors. 
         For example, if a human wants to find a toilet in this scene, most of us would choose the hallway because it is most likely to lead to a toilet. 
         Teaching this kind of common sense or semantic priors to an autonomous agent is challenging.
         While exploring the scene for the desired object, the robot also needs a long-term episodic memory to remember explored and unexplored areas.
-      </div><br/>
+      </div>
       <table align=center width=1000px>
         <p style="margin-top:4px;"></p>
         <tr><td width=1200px>
@@ -242,10 +243,10 @@
       <center><h1>Methods</h1></center>
       <div style="width:800px; margin:0 auto; text-align:justify">
       So how do we train autonomous agents capable of efficient navigation while tackling all these challenges?
-      A classical approach to this problem builds a geometric map using depth sensors, explore the environment with a heuristic, like frontier exploration, which explores the closest unexplored region, and use an analytical planner to reach exploration goals and the goal object as soon as it is in sight.
+      A classical approach to this problem builds a geometric map using depth sensors, explores the environment with a heuristic, like frontier exploration, which explores the closest unexplored region, and uses an analytical planner to reach exploration goals and the goal object as soon as it is in sight.
       An end-to-end learning approach predicts actions directly from raw observations with a deep neural network consisting of visual encoders for image frames followed by a recurrent layer for memory.
-      A modular learning approach builds a semantic map by projecting predicted semantic segmentation using the depth, predicts an exploration goal with a goal-oriented semantic policy as a function of the semantic map and the goal object, and reaches it with a planner.
-      </div><br/>
+      A modular learning approach builds a semantic map by projecting predicted semantic segmentation using depth, predicts an exploration goal with a goal-oriented semantic policy as a function of the semantic map and the goal object, and reaches it with a planner.
+      </div>
       <table align=center width=1000px>
         <p style="margin-top:4px;"></p>
         <tr><td width=1200px>
@@ -255,9 +256,9 @@
 
       <center><h1>Large-scale Real-world Empirical Evaluation</h1></center>
       <div style="width:800px; margin:0 auto; text-align:justify">
-        While many approaches to navigate to objects have been proposed over the past few years, learned navigation policies have predominantly been evaluated in simulation.
+        While many approaches to navigate to objects have been proposed over the past few years, learned navigation policies have predominantly been evaluated in simulation, which opens the field to the risk of sim-only research that does not generalize to the real world.
         We address this issue through a large-scale empirical evaluation of representative classical, end-to-end learning, and modular learning approaches across 6 unseen homes and 6 goal object categories.
-      </div><br/>
+      </div>
       <table align=center width=1000px>
         <p style="margin-top:4px;"></p>
         <tr><td width=1000px>
@@ -267,16 +268,18 @@
 
       <center><h1>Results</h1></center>
       <div style="width:800px; margin:0 auto; text-align:justify">
+     We compare approaches in terms of success rate within a limited budget of 200 robot actions and Success weighted by Path Length (SPL), a measure of path efficiency.
       In simulation, all approaches perform comparably, at around 80% success rate.
       But in the real world, modular learning and classical approaches transfer really well, up from 81% to 90% and 78% to 80% success rates, respectively.
       While end-to-end learning fails to transfer, down from 77% to 23% success rate.
-      </div><br/>
+      </div>
       <table align=center width=1000px>
         <p style="margin-top:4px;"></p>
         <tr><td width=1000px>
           <center><a href="../../assets/real-world-object-navigation/results_quantitative.png"><img src = "../../assets/real-world-object-navigation/results_quantitative.png" width="800px"></img></a><br></center>
         </td></tr>
       </table>
+      <br>
 
       <div style="width:800px; margin:0 auto; text-align:justify">
         We illustrate these results qualitatively with one representative trajectory. 
@@ -284,7 +287,7 @@
         On the left, modular learning first successfully reaches the couch goal. 
         In the middle, end-to-end learning fails after colliding too many times. 
         On the right, the classical policy finally reaches the couch goal after a detour through the kitchen.
-      </div><br/>
+      </div>
       <table align=center width=1000px>
         <p style="margin-top:4px;"></p>
         <tr><td width=1000px>
@@ -296,7 +299,7 @@
       <div style="width:800px; margin:0 auto; text-align:justify">
         We find that modular learning is very reliable on a robot, with a 90% success rate.
         Here, we can see it finds a plant in a first home efficiently, a chair in a second home, and a toilet in a third.
-      </div><br/>
+      </div>
       <table align=center width=1000px>
         <p style="margin-top:4px;"></p>
         <tr><td width=1000px>
@@ -310,7 +313,7 @@
         On the left, the goal-oriented semantic exploration policy directly heads towards the bedroom and finds the bed in 98 steps with an SPL of 0.90. 
         On the right, because frontier exploration is agnostic to the bed goal, the policy makes detours through the kitchen and the entrance hallway before finally reaching the bed in 152 steps with an SPL of 0.52. 
         With a limited time budget, inefficient exploration can lead to failure.
-      </div><br/>
+      </div>
       <table align=center width=1000px>
         <p style="margin-top:4px;"></p>
         <tr><td width=1000px>
@@ -322,7 +325,7 @@
       <div style="width:800px; margin:0 auto; text-align:justify">
         While classical and modular learning approaches work well on a robot, end-to-end learning does not, at only 23% success rate.
         The policy collides often, revisits the same places, and even fails to stop in front of goal objects when they are in sight.
-      </div><br/>
+      </div>
       <table align=center width=1000px>
         <p style="margin-top:4px;"></p>
         <tr><td width=1000px>
@@ -336,13 +339,14 @@
       <div style="width:800px; margin:0 auto; text-align:justify">
         Why does modular learning transfer so well while end-to-end learning does not? 
         To answer this question, we reconstructed one real-world home in simulation and conducted experiments with identical episodes in sim and reality.
-      </div><br/>
+      </div>
       <table align=center width=1000px>
         <p style="margin-top:4px;"></p>
         <tr><td width=1000px>
           <center><a href="../../assets/real-world-object-navigation/reconstruction.gif"><img src = "../../assets/real-world-object-navigation/reconstruction.gif" width="800px"></img></a><br></center>
         </td></tr>
       </table>
+      <br>
 
       <div style="width:800px; margin:0 auto; text-align:justify">
         The semantic exploration policy of the modular learning approach takes a semantic map as input, while the end-to-end policy directly takes the RGB-D frames as input. 
@@ -350,7 +354,7 @@
         In contrast, the image space exhibits a large gap between sim and reality. 
         This gap causes a large drop in performance when transferring a segmentation model trained in the real world to simulation and vice versa. 
         If semantic segmentation transfers poorly from sim to reality, it is reasonable to expect an end-to-end semantic navigation policy trained on sim images to transfer poorly to real-world images.
-      </div><br/>
+      </div>
       <table align=center width=1000px>
         <p style="margin-top:4px;"></p>
         <tr><td width=1000px>
@@ -361,11 +365,12 @@
       <center><h2>Sim vs Real Error Modes for Modular Learning</h2></center>
       <div style="width:800px; margin:0 auto; text-align:justify">
         Surprisingly, modular learning works even better in reality than simulation. 
-        Detailed analysis reveals indicates that a lot of the failures of the modular learning policy that occur in sim are due to reconstruction errors, which do not happen in reality.
+        Detailed analysis reveals that a lot of the failures of the modular learning policy that occur in sim are due to reconstruction errors, which do not happen in reality.
         Visual reconstruction errors represent 10% out of the total 19% episode failures, and physical reconstruction errors another 5%.        
         In contrast, failures in the real world are predominantly due to depth sensor errors, while most semantic navigation benchmarks in simulation assume perfect depth sensing. 
         Besides explaining the performance gap between sim and reality for modular learning, this gap in error modes is concerning because it limits the usefulness of simulation to diagnose bottlenecks and further improve policies.
-      </div><br/>
+        We show representative examples of each error mode and propose concrete steps forward to close this gap in the paper.
+      </div>
       <table align=center width=1000px>
         <p style="margin-top:4px;"></p>
         <tr><td width=1000px>
