@@ -239,6 +239,7 @@
           <center><a href="../../assets/real-world-object-navigation/challenging_problem.png"><img src = "../../assets/real-world-object-navigation/challenging_problem.png" width="800px"></img></a><br></center>
         </td></tr>
       </table>
+      <br><hr>
 
       <center><h1>Methods</h1></center>
       <div style="width:800px; margin:0 auto; text-align:justify">
@@ -253,6 +254,7 @@
           <center><a href="../../assets/real-world-object-navigation/methods.gif"><img src = "../../assets/real-world-object-navigation/methods.gif" width="800px"></img></a><br></center>
         </td></tr>
       </table>
+      <br><hr>
 
       <center><h1>Large-scale Real-world Empirical Evaluation</h1></center>
       <div style="width:800px; margin:0 auto; text-align:justify">
@@ -265,10 +267,11 @@
           <center><a href="../../assets/real-world-object-navigation/empirical_evaluation.gif"><img src = "../../assets/real-world-object-navigation/empirical_evaluation.gif" width="800px"></img></a><br></center>
         </td></tr>
       </table>
+      <br><hr>
 
       <center><h1>Results</h1></center>
       <div style="width:800px; margin:0 auto; text-align:justify">
-     We compare approaches in terms of success rate within a limited budget of 200 robot actions and Success weighted by Path Length (SPL), a measure of path efficiency.
+      We compare approaches in terms of success rate within a limited budget of 200 robot actions and Success weighted by Path Length (SPL), a measure of path efficiency.
       In simulation, all approaches perform comparably, at around 80% success rate.
       But in the real world, modular learning and classical approaches transfer really well, up from 81% to 90% and 78% to 80% success rates, respectively.
       While end-to-end learning fails to transfer, down from 77% to 23% success rate.
@@ -295,7 +298,7 @@
         </td></tr>
       </table>
 
-      <center><h2>Modular Learning is Reliable</h2></center>
+      <center><h2>Result 1: Modular Learning is Reliable</h2></center>
       <div style="width:800px; margin:0 auto; text-align:justify">
         We find that modular learning is very reliable on a robot, with a 90% success rate.
         Here, we can see it finds a plant in a first home efficiently, a chair in a second home, and a toilet in a third.
@@ -307,7 +310,7 @@
         </td></tr>
       </table>
 
-      <center><h2>Classical vs Modular Learning</h2></center>
+      <center><h2>Result 2: Modular Learning Explores more Efficiently than Classical</h2></center>
       <div style="width:800px; margin:0 auto; text-align:justify">
         Modular learning improves by 10% real-world success rate over the classical approach.
         On the left, the goal-oriented semantic exploration policy directly heads towards the bedroom and finds the bed in 98 steps with an SPL of 0.90. 
@@ -321,7 +324,7 @@
         </td></tr>
       </table>
 
-      <center><h2>End-to-end Learning fails to Transfer</h2></center>
+      <center><h2>Result 3: End-to-end Learning Fails to Transfer</h2></center>
       <div style="width:800px; margin:0 auto; text-align:justify">
         While classical and modular learning approaches work well on a robot, end-to-end learning does not, at only 23% success rate.
         The policy collides often, revisits the same places, and even fails to stop in front of goal objects when they are in sight.
@@ -332,10 +335,11 @@
           <center><a href="../../assets/real-world-object-navigation/end_to_end_failures.gif"><img src = "../../assets/real-world-object-navigation/end_to_end_failures.gif" width="800px"></img></a><br></center>
         </td></tr>
       </table>
+      <br><hr>
 
       <center><h1>Analysis</h1></center>
 
-      <center><h2>Modular vs End-to-end Transfer</h2></center>
+      <center><h2>Insight 1: Why does Modular Transfer while End-to-end does not?</h2></center>
       <div style="width:800px; margin:0 auto; text-align:justify">
         Why does modular learning transfer so well while end-to-end learning does not? 
         To answer this question, we reconstructed one real-world home in simulation and conducted experiments with identical episodes in sim and reality.
@@ -362,7 +366,7 @@
         </td></tr>
       </table>
 
-      <center><h2>Sim vs Real Error Modes for Modular Learning</h2></center>
+      <center><h2>Insight 2: Sim vs Real Gap in Error Modes for Modular Learning</h2></center>
       <div style="width:800px; margin:0 auto; text-align:justify">
         Surprisingly, modular learning works even better in reality than simulation. 
         Detailed analysis reveals that a lot of the failures of the modular learning policy that occur in sim are due to reconstruction errors, which do not happen in reality.
@@ -377,6 +381,7 @@
           <center><a href="../../assets/real-world-object-navigation/error_modes.png"><img src = "../../assets/real-world-object-navigation/error_modes.png" width="800px"></img></a><br></center>
         </td></tr>
       </table>
+      <br><hr>
 
       <center><h1>Takeaways</h1></center>
       <table align=center width=1000px>
@@ -386,7 +391,7 @@
         </td></tr>
       </table>
 
-      <br/><hr>
+      <br><hr>
 
       <center><h1>Short Presentation</h1></center>
       <table align=center width=300px>
