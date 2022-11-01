@@ -3,7 +3,7 @@ layout: page
 title: talks
 permalink: /talks/
 description: a list of previous presentations
-nav: true
+nav: false
 nav_order: 4
 horizontal: true
 ---
