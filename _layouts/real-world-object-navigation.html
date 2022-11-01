@@ -144,7 +144,7 @@
       <table align=center width=600px>
       <tr>
         <td align=center width=100px>
-        <center><span style="font-size:22px"><a href="https://theophilegervet.github.io/" target="_blank">Theo Gervet</a></span></center></td>
+        <center><span style="font-size:22px"><a href="https://theophilegervet.github.io/" target="_blank">Theophile Gervet</a></span></center></td>
 
         <td align=center width=100px>
         <center><span style="font-size:22px"><a href="https://soumith.ch/" target="_blank">Soumith Chintala</a></span></center></td>
@@ -158,9 +158,6 @@
         <td align=center width=160px>
         <center><span style="font-size:22px"><a href="https://devendrachaplot.github.io/" target="_blank">Devendra Singh Chaplot</a></span></center></td>
           
-
-    
-
       <tr/>
       <tr>
         <td align=center width=100px>
@@ -188,18 +185,17 @@
             <td align=center width=100px><center><span style="font-size:28px"><a href="">[Slides]</a></span></center></td>
 <!--            <td align=center width=100px><center><span style="font-size:28px"><a href='https://github.com/devendrachaplot/Neural-SLAM'>[GitHub Code]</a></span></center></td>-->
           <tr/>
-      </table><br/>
-
-<!--       <center><h2>Project Video</h2></center> -->
-      <table align=center width=300px>
-      <tr><td align=center width=300px>
-<!--      <iframe width="768" height="432" src="https://youtu.be/tlyz68j_jvE" frameborder="0" allowfullscreen></iframe>-->
-<!--          <iframe width="768" height="432" src="https://www.youtube.com/embed/tlyz68j_jvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-          <center><img src = "./resources/seal.gif" height="300px"></img></a><br></center>
-      </td></tr>
       </table>
-      <br>
+      
+      </table>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1000px>
+          <center><a href="../../assets/real-world-object-navigation/empirical_evaluation.gif"><img src = "../../assets/real-world-object-navigation/empirical_evaluation.gif" width="800px"></img></a><br></center>
+        </td></tr>
+      </table><br>
 
+      <!--
       <div style="width:800px; margin:0 auto; text-align:justify">
         Semantic navigation is necessary to deploy mobile robots in uncontrolled environments like our homes, schools, and hospitals. 
         Many learning-based approaches have been proposed in response to the lack of semantic understanding of the classical pipeline for spatial navigation, which builds a geometric map using depth sensors and plans to reach point goals. 
@@ -210,6 +206,19 @@
         In contrast, end-to-end learning does not, dropping from 77% simulation to 23% real-world success rate due to a large image domain gap between simulation and reality. 
         For practitioners, we show that modular learning is a reliable approach to navigate to objects. 
         For researchers, we identify two key issues that prevent today's simulators from being reliable evaluation benchmarks: (A) a large Sim-to-Real gap in images, which causes design choices to easily overfit to simulation, and (B) a disconnect between simulation and real-world error modes, which limits the usefulness of simulation to diagnose bottlenecks and further improve methods.
+      </div>
+      <br><hr>
+      -->
+      <div style="width:800px; margin:0 auto; text-align:justify">
+        Semantic navigation is necessary to deploy mobile robots in uncontrolled environments like our homes, schools, and hospitals. 
+        Many learning-based approaches have been proposed in response to the lack of semantic understanding of the classical pipeline for spatial navigation. 
+        But learned visual navigation policies have predominantly been evaluated in simulation, and it is unclear whether simulation is useful as an evaluation benchmark.
+        We address this issue through a large-scale real-world empirical study of semantic visual navigation methods comparing classical, end-to-end and modular learning approaches on a mobile robot platform.
+        We find that modular learning transfers well, rising from a 81% simulation to a 90% real-world success rate. 
+        In contrast, end-to-end learning does not, dropping from 77% simulation to 23% real-world success rate due to a large image domain gap between simulation and reality. 
+        For practitioners, we show that modular learning is a reliable approach to navigate to objects. 
+        For researchers, we identify two key issues that prevent today’s simulators from being reliable evaluation benchmarks: (A) a large Sim-to-Real gap in images, which causes design choices to easily overfit to simulation, and (B) a disconnect between simulation and real-world error modes, which limits the usefulness of simulation to diagnose bottlenecks and further improve methods. 
+        We propose concrete steps along two orthogonal paths forward: improve simulation to better reflect real-world conditions and improve practices to work with imperfect simulation.
       </div>
       <br><hr>
 
@@ -396,56 +405,52 @@
       <center><h1>Short Presentation</h1></center>
       <table align=center width=300px>
       <tr><td align=center width=300px>
-        <iframe width="800" height="450" src="https://www.youtube.com/embed/NmObuQRLNWA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/zZ6nlkTZVds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </td></tr>
       </table>
-      <br><hr>
 
+      <!--
+      <br><hr>
       <table align=center width=850px>
         <center><h1>Paper and Bibtex</h1></center>
         <tr>
         <td width=200px align=left>
-        <!-- <p style="margin-top:4px;"></p> -->
         <a href="../papers/neurips21_seal.pdf"><img style="width:200px" src="resources/thumbnail_nts.jpeg"/></a>
         <center>
         <span style="font-size:20pt"><a href="../papers/neurips21_seal.pdf">[Paper]</a>
-<!--        <span style="font-size:20pt"><a href="https://arxiv.org/abs/1902.05546v2">[ArXiv]</a>-->
-<!--        <span style="font-size:20pt"><a href="resources/slides.pdf">[Slides]</a></span>-->
-<!--        <span style="font-size:20pt"><a href="resources/poster.pdf">[Poster]</a></span>-->
         </center>
         </td>
         <td width=50px align=center>
         </td>
         <td width=550px align=left>
-        <!-- <p style="margin-top:4px;"></p> -->
-<!--            Chaplot, D.S., Gandhi, D., Gupta, S., Gupta, A. and Salakhutdinov, R., 2020. Learning To Explore Using Active Neural SLAM. In International Conference on Learning Representations (ICLR).-->
         <p style="text-align:left;"><b><span style="font-size:20pt">Citation</span></b><br/><span style="font-size:6px;">&nbsp;<br/></span> <span style="font-size:15pt">Chaplot, D.S., Dalal, M., Gupta, S., Malik, J. and Salakhutdinov, R. 2021. SEAL: Self-supervised Embodied Active Learning. In NeurIPS.</span></p>
-        <!-- <p style="margin-top:20px;"></p> -->
         <span style="font-size:20pt"><a shape="rect" href="javascript:togglebib('assemblies19_bib')" class="togglebib">[Bibtex]</a></span>
         <div class="paper" id="assemblies19_bib">
                 <pre xml:space="preserve">
-@inproceedings{chaplot2021seal,
-  title={SEAL: Self-supervised Embodied Active Learning},
-  author={Chaplot, Devendra Singh and Dalal, Murtaza, and Gupta, Saurabh 
-          and Malik, Jitendra and Salakhutdinov, Ruslan},
-  booktitle={NeurIPS},
-  year={2021}}
-                </pre>
-          </div>
-        </td>
-        </tr>
-        <tr>
-        <td width=250px align=left>
-        </td>
-        <td width=50px align=center>
-        </td>
-        <td width=550px align=left>
-          
-          </td>
-          </tr>
-      </table>
-    <br><hr>
+    @inproceedings{chaplot2021seal,
+    title={SEAL: Self-supervised Embodied Active Learning},
+    author={Chaplot, Devendra Singh and Dalal, Murtaza, and Gupta, Saurabh 
+            and Malik, Jitendra and Salakhutdinov, Ruslan},
+    booktitle={NeurIPS},
+    year={2021}}
+                    </pre>
+            </div>
+            </td>
+            </tr>
+            <tr>
+            <td width=250px align=left>
+            </td>
+            <td width=50px align=center>
+            </td>
+            <td width=550px align=left>
+            
+            </td>
+            </tr>
+        </table>
+        <br><hr>
+        -->
 
+    <!--
     <center><h1>Related Projects</h1></center>
       <table align=center width=900px>
       <tr>
@@ -464,7 +469,9 @@
       </tr>
       </table>
     <br><hr>
+    -->
 
+    <!--
     <table align=center width=800px>
       <tr><td width=800px><left>
       <center><h1>Acknowledgements</h1></center>
@@ -473,6 +480,8 @@
           Website template from <a href="https://richzhang.github.io/colorization">here</a> and <a href="https://pathak22.github.io/modular-assemblies/">here</a>. <br>
       </left></td></tr>
     </table>
+    -->
+
   <br><br>
 <script xml:space="preserve" language="JavaScript">
 hideallbibs();
