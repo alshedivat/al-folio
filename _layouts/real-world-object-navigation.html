@@ -140,7 +140,7 @@
 
 <body>
       <br>
-      <center><span style="font-size:44px;font-weight:bold;">Navigating to Objects in Real-world</span></center><br/>
+      <center><span style="font-size:44px;font-weight:bold;">Navigating to Objects in the Real World</span></center><br/>
       <table align=center width=600px>
       <tr>
         <td align=center width=100px>
@@ -213,56 +213,174 @@
       </div>
       <br><hr>
 
-      <center><h1>SEAL: Self-Supervised Embodied Active Learning</h1></center>
+      <center><h1>Object Goal Navigation</h1></center>
       <div style="width:800px; margin:0 auto; text-align:justify">
-        Our framework called Self-supervised Embodied Active Learning (SEAL) consists of two phases, <b>Action</b>, where we learn an active exploration policy, and <b>Perception</b>, where we train the Perception Model on data gathered using the exploration policy and labels obtained using spatio-temporal label propagation. Both action and perception are learnt in a completely self-supervised manner without requiring access to the ground-truth semantic annotations or map information.
+        We instantiate semantic navigation with the Object Goal navigation task, where a robot starts in a completely unseen environment and is asked to find an instance of an object category, let's say a toilet.
+        The robot has access to only a first-person RGB and depth camera and a pose sensor.
       </div><br/>
       <table align=center width=1000px>
         <p style="margin-top:4px;"></p>
         <tr><td width=1200px>
-          <center><a href="resources/overview_seal.png"><img src = "resources/overview_seal.png" width="800px"></img></a><br></center>
+          <center><a href="../../assets/real-world-object-navigation/objectnav_problem.png"><img src = "../../assets/real-world-object-navigation/objectnav_problem.png" width="800px"></img></a><br></center>
         </td></tr>
       </table>
 
-      <center><h2>3D Semantic Mapping</h2></center>
       <div style="width:800px; margin:0 auto; text-align:justify">
-      The 3D Semantic Mapping module takes in a sequence of RGB and Depth images and produces a 3D Semantic Map.
+        This task is challenging. 
+        The robot requires not only spatial scene understanding of distinguishing free space and obstacles and semantic scene understanding of detecting objects, but also requires learning semantic priors. 
+        For example, if a human wants to find a toilet in this scene, most of us would choose the hallway because it is most likely to lead to a toilet. 
+        Teaching this kind of common sense or semantic priors to an autonomous agent is challenging.
+        While exploring the scene for the desired object, the robot also needs a long-term episodic memory to remember explored and unexplored areas.
       </div><br/>
       <table align=center width=1000px>
         <p style="margin-top:4px;"></p>
         <tr><td width=1200px>
-          <center><a href="resources/seal_3d_semantic_map.png"><img src = "resources/seal_3d_semantic_map.png" width="600px"></img></a><br></center>
-        </td></tr>
-      </table>
-      <table align=center width=1000px>
-        <p style="margin-top:4px;"></p>
-        <tr><td width=1200px>
-          <center><a href="resources/seal_3dmap.gif"><img src = "resources/seal_3dmap.gif" width="600px"></img></a><br></center>
+          <center><a href="../../assets/real-world-object-navigation/challenging_problem.png"><img src = "../../assets/real-world-object-navigation/challenging_problem.png" width="800px"></img></a><br></center>
         </td></tr>
       </table>
 
-      <center><h2>Learning Action</h2></center>
+      <center><h1>Methods</h1></center>
       <div style="width:800px; margin:0 auto; text-align:justify">
-      We define an intrinsic motivation reward called <b>Gainful Curiosity</b> to train the active exploration policy to learn such behavior of maximizing exploration of objects with high confidence. We define <em>s'</em> (= 0.9) to be the score threshold for confident predictions. The Gainful Curiosity reward is then defined to be the number of voxels in the 3D Semantic Map having greater than <em>s'</em> score for at least one semantic category. This reward encourages the agent to find new objects and keep looking at the object from different viewpoints until it gets a highly confident prediction for the object from at least one viewpoint.
+      So how do we train autonomous agents capable of efficient navigation while tackling all these challenges?
+      A classical approach to this problem builds a geometric map using depth sensors, explore the environment with a heuristic, like frontier exploration, which explores the closest unexplored region, and use an analytical planner to reach exploration goals and the goal object as soon as it is in sight.
+      An end-to-end learning approach predicts actions directly from raw observations with a deep neural network consisting of visual encoders for image frames followed by a recurrent layer for memory.
+      A modular learning approach builds a semantic map by projecting predicted semantic segmentation using the depth, predicts an exploration goal with a goal-oriented semantic policy as a function of the semantic map and the goal object, and reaches it with a planner.
+      </div><br/>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1200px>
+          <center><a href="../../assets/real-world-object-navigation/methods.gif"><img src = "../../assets/real-world-object-navigation/methods.gif" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+
+      <center><h1>Large-scale Real-world Empirical Evaluation</h1></center>
+      <div style="width:800px; margin:0 auto; text-align:justify">
+        While many approaches to navigate to objects have been proposed over the past few years, learned navigation policies have predominantly been evaluated in simulation.
+        We address this issue through a large-scale empirical evaluation of representative classical, end-to-end learning, and modular learning approaches across 6 unseen homes and 6 goal object categories.
       </div><br/>
       <table align=center width=1000px>
         <p style="margin-top:4px;"></p>
         <tr><td width=1000px>
-          <center><a href="resources/seal_gainful_curiosity.gif"><img src = "resources/seal_gainful_curiosity.gif" width="600px"></img></a><br></center>
+          <center><a href="../../assets/real-world-object-navigation/empirical_evaluation.gif"><img src = "../../assets/real-world-object-navigation/empirical_evaluation.gif" width="800px"></img></a><br></center>
         </td></tr>
       </table>
 
-      <center><h2>Learning Perception</h2></center>
+      <center><h1>Results</h1></center>
       <div style="width:800px; margin:0 auto; text-align:justify">
-      We present a method called <b>3DLabelProp</b> to obtain self-supervised labels from the 3D Semantic map. To perform disambiguation, each voxel is labelled with the category having the maximum score above <em>s'</em>. If all categories have a score less than <em>s'</em> for a voxel, we label it as not belonging to any object category. After labeling each voxel in the map, we find the set of connected voxels labeled with the same category to find object instances. The instance label for each pixel in each observation in the trajectory is then obtained using ray-tracing in the labeled 3D map based on the agent's pose. Pixel-wise instance labels are used to obtain masks and bounding boxes for each instance. Note that this labeling process is completely self-supervised and does not require any human annotation. The set of observations and self-supervised labels are used to fine-tune the pre-trained perception model.
+      In simulation, all approaches perform comparably, at around 80% success rate.
+      But in the real world, modular learning and classical approaches transfer really well, up from 81% to 90% and 78% to 80% success rates, respectively.
+      While end-to-end learning fails to transfer, down from 77% to 23% success rate.
       </div><br/>
       <table align=center width=1000px>
         <p style="margin-top:4px;"></p>
         <tr><td width=1000px>
-          <center><a href="resources/seal_labelprop.gif"><img src = "resources/seal_labelprop.gif" width="600px"></img></a><br></center>
+          <center><a href="../../assets/real-world-object-navigation/results_quantitative.png"><img src = "../../assets/real-world-object-navigation/results_quantitative.png" width="800px"></img></a><br></center>
         </td></tr>
       </table>
-      
+
+      <div style="width:800px; margin:0 auto; text-align:justify">
+        We illustrate these results qualitatively with one representative trajectory. 
+        All approaches start in a bedroom and are tasked with finding a couch. 
+        On the left, modular learning first successfully reaches the couch goal. 
+        In the middle, end-to-end learning fails after colliding too many times. 
+        On the right, the classical policy finally reaches the couch goal after a detour through the kitchen.
+      </div><br/>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1000px>
+          <center><a href="../../assets/real-world-object-navigation/results_qualitative.gif"><img src = "../../assets/real-world-object-navigation/results_qualitative.gif" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+
+      <center><h2>Modular Learning is Reliable</h2></center>
+      <div style="width:800px; margin:0 auto; text-align:justify">
+        We find that modular learning is very reliable on a robot, with a 90% success rate.
+        Here, we can see it finds a plant in a first home efficiently, a chair in a second home, and a toilet in a third.
+      </div><br/>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1000px>
+          <center><a href="../../assets/real-world-object-navigation/modular_reliability.gif"><img src = "../../assets/real-world-object-navigation/modular_reliability.gif" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+
+      <center><h2>Classical vs Modular Learning</h2></center>
+      <div style="width:800px; margin:0 auto; text-align:justify">
+        Modular learning improves by 10% real-world success rate over the classical approach.
+        On the left, the goal-oriented semantic exploration policy directly heads towards the bedroom and finds the bed in 98 steps with an SPL of 0.90. 
+        On the right, because frontier exploration is agnostic to the bed goal, the policy makes detours through the kitchen and the entrance hallway before finally reaching the bed in 152 steps with an SPL of 0.52. 
+        With a limited time budget, inefficient exploration can lead to failure.
+      </div><br/>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1000px>
+          <center><a href="../../assets/real-world-object-navigation/modular_vs_classical.gif"><img src = "../../assets/real-world-object-navigation/modular_vs_classical.gif" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+
+      <center><h2>End-to-end Learning fails to Transfer</h2></center>
+      <div style="width:800px; margin:0 auto; text-align:justify">
+        While classical and modular learning approaches work well on a robot, end-to-end learning does not, at only 23% success rate.
+        The policy collides often, revisits the same places, and even fails to stop in front of goal objects when they are in sight.
+      </div><br/>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1000px>
+          <center><a href="../../assets/real-world-object-navigation/end_to_end_failures.gif"><img src = "../../assets/real-world-object-navigation/end_to_end_failures.gif" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+
+      <center><h1>Analysis</h1></center>
+
+      <center><h2>Modular vs End-to-end Transfer</h2></center>
+      <div style="width:800px; margin:0 auto; text-align:justify">
+        Why does modular learning transfer so well while end-to-end learning does not? 
+        To answer this question, we reconstructed one real-world home in simulation and conducted experiments with identical episodes in sim and reality.
+      </div><br/>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1000px>
+          <center><a href="../../assets/real-world-object-navigation/reconstruction.gif"><img src = "../../assets/real-world-object-navigation/reconstruction.gif" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+
+      <div style="width:800px; margin:0 auto; text-align:justify">
+        The semantic exploration policy of the modular learning approach takes a semantic map as input, while the end-to-end policy directly takes the RGB-D frames as input. 
+        The semantic map space is invariant between sim and reality, which allows the modular learning approach to transfer well from sim to reality.
+        In contrast, the image space exhibits a large gap between sim and reality. 
+        This gap causes a large drop in performance when transferring a segmentation model trained in the real world to simulation and vice versa. 
+        If semantic segmentation transfers poorly from sim to reality, it is reasonable to expect an end-to-end semantic navigation policy trained on sim images to transfer poorly to real-world images.
+      </div><br/>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1000px>
+          <center><a href="../../assets/real-world-object-navigation/gaps_and_invariances.png"><img src = "../../assets/real-world-object-navigation/gaps_and_invariances.png" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+
+      <center><h2>Sim vs Real Error Modes for Modular Learning</h2></center>
+      <div style="width:800px; margin:0 auto; text-align:justify">
+        Surprisingly, modular learning works even better in reality than simulation. 
+        Detailed analysis reveals indicates that a lot of the failures of the modular learning policy that occur in sim are due to reconstruction errors, which do not happen in reality.
+        Visual reconstruction errors represent 10% out of the total 19% episode failures, and physical reconstruction errors another 5%.        
+        In contrast, failures in the real world are predominantly due to depth sensor errors, while most semantic navigation benchmarks in simulation assume perfect depth sensing. 
+        Besides explaining the performance gap between sim and reality for modular learning, this gap in error modes is concerning because it limits the usefulness of simulation to diagnose bottlenecks and further improve policies.
+      </div><br/>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1000px>
+          <center><a href="../../assets/real-world-object-navigation/error_modes.png"><img src = "../../assets/real-world-object-navigation/error_modes.png" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+
+      <center><h1>Takeaways</h1></center>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1000px>
+          <center><a href="../../assets/real-world-object-navigation/takeaways.png"><img src = "../../assets/real-world-object-navigation/takeaways.png" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+
       <br/><hr>
 
       <center><h1>Short Presentation</h1></center>
