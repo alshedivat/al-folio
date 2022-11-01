@@ -37,6 +37,10 @@ $grey-color-lightdark: lighten($grey-color, 20%);
     left: 0px;
     top: 7px;
   }
+  ol.bibliography li .abbr {
+    height: fit-content;
+    min-height: 2rem;
+  }
 }
 
 div.post {
