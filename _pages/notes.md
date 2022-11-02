@@ -3,7 +3,7 @@ layout: page
 permalink: /notes/
 title: notes
 description: documents that I have written up - course notes, reports, etc.
-nav_num: 5
+nav_num: 4
 nav: true
 ---
 
