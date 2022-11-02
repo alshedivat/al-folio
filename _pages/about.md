@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /about/
 subtitle: Mathematics Ph.D. Student, University of Michigan. <a href= 'https://drive.google.com/file/d/1lXFeZx2ozzytd_JVF74125q_PTBW0gUL/view?usp=sharing'>Curriculum Vitae</a>.
 
 profile:
@@ -16,7 +16,6 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-
 Hi there! I'm Chinmaya Kausik, a rising 2nd year mathematics Ph.D. student at UMich working on **sequential decision making, statistics, optimization and machine learning**. I am being co-advised by [Prof. Ambuj Tewari](https://ambujtewari.github.io/) and [Prof. Martin Strauss](https://web.eecs.umich.edu/~martinjs/).
 
 Check out my [past projects](projects) (along with post-mortems), [publications](publications) and [interests](more)!
