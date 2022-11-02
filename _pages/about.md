@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi there! I'm Chinmaya Kausik, a rising 2nd year mathematics Ph.D. student at UMich working on sequential decision making, statistics, optimization and machine learning. I am being co-advised by [Prof. Ambuj Tewari](https://ambujtewari.github.io/) and [Prof. Martin Strauss](https://web.eecs.umich.edu/~martinjs/).
 
-These days, my work focuses on sequential decision making with offline data, with side projects in deep learning and control theory. I intend to combine my interests with differential privacy very soon. On the other hand, a lot of my undergraduate background is in geometry, topology and dynamics with work in computer-assisted topology and geometry. Check out my [projects](current engagements, future plans and past projects) (along with post-mortems) and [interests](more)!
+These days, my work focuses on sequential decision making with offline data, with side projects in deep learning and control theory. I intend to add differential privacy to the mix very soon. On the other hand, a lot of my undergraduate background is in geometry, topology and dynamics with work in computer-assisted topology and geometry. Check out my [projects](current engagements, future plans and past projects) (along with post-mortems) and [interests](more)!
 
 **What do I care about, broadly?** 
 * Mathematical problems motivated by tangible, real-world questions. 
