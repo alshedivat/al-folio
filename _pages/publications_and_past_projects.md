@@ -10,7 +10,7 @@ nav_num: 1
 nav: true
 ---
 
-<div style="text-align: right"> <h2> preprints <\h2> </div>
+<div style="text-align: right"> <h2> preprints </h2> </div>
 
 <!-- _pages/publications.md -->
 <div class="publications">
@@ -22,7 +22,7 @@ nav: true
 
 </div>
 
-<div style="text-align: right"> <h2> past projects <\h2> </div>
+<div style="text-align: right"> <h2> past projects </h2> </div>
 
 <!-- pages/past_projects.md -->
 <div class="projects">
