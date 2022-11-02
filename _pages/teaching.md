@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: courses taught at UMich and Monsoon Math.
-nav_num: 2
+nav_num: 4
 nav: true
 ---
 
