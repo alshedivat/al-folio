@@ -19,8 +19,9 @@ Here are some things other than math/CS and outreach that interest me. While I'm
 * A wide variety of wordle variants and group-solving crosswords
 * Browsing [xkcd](https://xkcd.com/)/[SMBC](https://www.smbc-comics.com/)/[PHD comics](https://phdcomics.com/)/[The Oatmeal](https://theoatmeal.com/) and occasionally, Calvin and Hobbes 
 * Ice skating, which I'm a complete beginnner at
+</br>
 
-#### Reading 
+#### reading 
 
 This list will grow as I remember books and poetry I particularly enjoyed. 
 
@@ -38,9 +39,9 @@ This list will grow as I remember books and poetry I particularly enjoyed.
   <summary> Autobiography of Red </summary>
   Anne Carson was my favourite poet for a very long time. She masters the balance between otherworldly poetry and grounding narration. Geryon's childhood has so many moments I automatically imagine tinged in sepia light. She models Geryon as a symbol for otherness but makes it an intensely relatable brand of otherness, in what Sam Anderson calls her classic "Carsonian distant closeness."
 </details>
+</br>
 
-
-#### Origami 
+#### origami 
 
 I enjoy making Kusudamas. Someday I would love to make [Hideo Komatsu's horse](https://origami-art.us/instructions/209-horse-hideo-komatsu). Here's my first Kusudama from 2018!
 
