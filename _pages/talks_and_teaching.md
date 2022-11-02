@@ -7,7 +7,7 @@ nav_num: 3
 nav: true
 ---
 
-## Talks 
+### talks 
 1. Entropy and topological entropy. UMich student DGT seminar, Winter 2022.
 2. Holomorphic Differentials, Measured Foliations and the Hubbard-Masur Theorem. Undergraduate thesis defence, 2021. [Slides](https://drive.google.com/file/d/1-juD-iqgaag6Nun5l4RebZx4oNhzYSc1/view?usp=sharing)
 3. From Jones to Khovanov. IISc undergraduate math club, 2021.
@@ -17,7 +17,7 @@ nav: true
 7. Graded Commutativity of the Cup Product. IISc algebraic topology course talk, 2020.
 8. The Classification of 1-Manifolds. IISc undergraduate math club, 2019.
 
-## Teaching
+### teaching
 
 #### University of Michigan 
 The sole instructor for a section of 15-20 students.
