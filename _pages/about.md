@@ -60,6 +60,4 @@ Check out my [past projects](projects) (along with post-mortems), [publications]
   * Natural Language Processing.
   * Using insights from machine learning for biology. In a specific example, learning a hierarchical or causal structure from genomics 
 
- </details>
- 
- <br>
+ </details> <br>
