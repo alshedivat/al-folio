@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
+permalink: /projects/
+title: projects
 description: past projects (from my undergraduate days) and their post-mortems. 
 display_categories: [machine learning/data analysis, computer-assisted mathematics]
 horizontal: false
