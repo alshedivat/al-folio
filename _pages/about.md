@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>B723 East Hall</p>
+    <p>3852 East Hall</p>
     <p>530 Church Street</p>
     <p>Ann Arbor, MI 48104</p>
 
@@ -17,35 +17,33 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there! I'm Chinmaya Kausik, a rising 2nd year mathematics Ph.D. student at UMich working on sequential decision making, statistics, optimization and machine learning. I am being co-advised by [Prof. Ambuj Tewari](https://ambujtewari.github.io/) and [Prof. Martin Strauss](https://web.eecs.umich.edu/~martinjs/).
+Hi there! I'm Chinmaya Kausik, a rising 2nd year mathematics Ph.D. student at UMich working on **sequential decision making, statistics, optimization and machine learning**. I am being co-advised by [Prof. Ambuj Tewari](https://ambujtewari.github.io/) and [Prof. Martin Strauss](https://web.eecs.umich.edu/~martinjs/).
 
-These days, my work focuses on sequential decision making with offline data. I also have side projects in deep learning and control theory, and I intend to combine my current interests with ideas in differential privacy very soon. 
-
-On the other hand, a lot of my undergraduate background was in geometry, topology and dynamics, with work in computer-assisted topology and geometry. Check out my [past projects](projects) (along with post-mortems) and [interests](more)!
+Check out my [past projects](projects) (along with post-mortems), [publications](publications) and [interests](more)!
 
 <details markdown="1">
-  <summary markdown="span"> <b> What do I care about, broadly? </b> </summary>
+  <summary markdown="span"> <b> What do I care about, academically? </b> </summary>
 
-  * Mathematical problems motivated by tangible, real-world questions. 
-  * Increasing accessibility to and in higher mathematics and creating communities where ideas cross pollinate and people pull each other up. This is part of why I co-founded and co-organize [Monsoon Math Camp](https://www.monsoonmath.org) - an online math camp for promising high school students introducing them to advanced undergraduate and graduate-level math. You should check it out! I have also been involved in building and expanding other mathematical communities, like platforms for the PolyMath REU, DRP programs and the undergraduate math organization at IISc, etc.
+  * Mathematical problems motivated by tangible, real-world questions. These days, my work focuses on **sequential decision making with offline data**. I also have side projects in **deep learning and control theory**, and I intend to combine my current interests with ideas in **differential privacy** very soon. On the other hand, a lot of my undergraduate background was in geometry, topology and dynamics, with work in computer-assisted topology and geometry. 
+  * **Increasing accessibility** to and in higher mathematics and **creating communities** where ideas cross pollinate and people pull each other up. This is part of why I co-founded and co-organize [Monsoon Math Camp](https://www.monsoonmath.org) - an online math camp for promising high school students introducing them to advanced undergraduate and graduate-level math. You should check it out! I have also been involved in building and expanding other mathematical communities, like platforms for the PolyMath REU, DRP programs and the undergraduate math organization at IISc, etc.
 </details>
   
 <details markdown="1">
   <summary markdown="span"> <b> What am I doing these days? </b></summary>
-
-  * Working in [Prof. Ambuj Tewari's lab](https://ambujtewari.github.io/).
-  * Working on projects on offline RL in confounded tabular MDPs and learning mixtures of latent MDPs.
-  * Thinking about minimax optimal algorithms for offline policy evaluation and the role of the geometry of action sets.
-  * Working on double descent in denoising under the guidance of [Rishi Sonthalia](https://sites.google.com/umich.edu/rsonthal/home?authuser=0). Work continued from [MREG 2022](https://sites.google.com/umich.edu/mreg-2022/home).
-  * Continuing work on our project from [LOGML 2022](https://www.logml.ai/)! I was a participant in Dr. Eli Meirom's group, planning to work on using RL for graph rewiring in GNNs to prevent oversquashing for long range problems.
-  * Mentoring a project on using machine learning to enhance mdoel predictive control.
-  * Fleshing out ideas for more academic communities like Monsoon Math.
+  </br>
+  
+  * Working on projects on offline RL in **confounded** tabular MDPs and learning **mixtures of MDPs**.
+  * Thinking about **minimax optimal** algorithms for offline policy evaluation (**OPE**) and the role of the geometry of action sets.
+  * Working on **double descent** in denoising under the guidance of [Rishi Sonthalia](https://sites.google.com/umich.edu/rsonthal/home?authuser=0). Work continued from [MREG 2022](https://sites.google.com/umich.edu/mreg-2022/home).
+  * Continuing work on our project from [LOGML 2022](https://www.logml.ai/)! I was a participant in Dr. Eli Meirom's group, planning to work on using RL for graph **rewiring in GNNs** to prevent oversquashing for long range problems.
+  * Mentoring undergraduate students on a project about using machine learning to enhance **model predictive control**.
+  * Fleshing out ideas for more academic communities like **Monsoon Math**.
 
   </details>
 
 <details markdown="1">
   <summary markdown="span"> <b> What do I want to learn about/do in the future? </b></summary>
-
+  </br>
 
   _Primary goals_
   * Work on learning other mixtures of time series with control input.
@@ -65,4 +63,6 @@ On the other hand, a lot of my undergraduate background was in geometry, topolog
   * Using insights from machine learning for biology. In a specific example, learning a hierarchical or causal structure from genomics 
 
  </details>
+ 
+ </br>
 
