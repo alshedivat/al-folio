@@ -19,12 +19,16 @@ social: true  # includes social icons at the bottom of the page
 
 Hi there! I'm Chinmaya Kausik, a rising 2nd year mathematics Ph.D. student at UMich working on sequential decision making, statistics, optimization and machine learning. I am being co-advised by [Prof. Ambuj Tewari](https://ambujtewari.github.io/) and [Prof. Martin Strauss](https://web.eecs.umich.edu/~martinjs/).
 
-These days, my work focuses on sequential decision making with offline data, with side projects in deep learning and control theory. I intend to combine my current interests with ideas in differential privacy very soon. On the other hand, a lot of my undergraduate background was in geometry, topology and dynamics, with work in computer-assisted topology and geometry. I maintain a list of [current engagements, future plans and a progress log](projects). Check out my [past projects](past projects) (along with post-mortems) and [interests](more)!
+These days, my work focuses on sequential decision making with offline data. I also have side projects in deep learning and control theory, and I intend to combine my current interests with ideas in differential privacy very soon. 
 
-**What do I care about, broadly?** 
+On the other hand, a lot of my undergraduate background was in geometry, topology and dynamics, with work in computer-assisted topology and geometry. Check out my [past projects](projects) (along with post-mortems) and [interests](more)!
+
+<details>
+  <summary markdown="span"> <b> What do I care about, broadly? </b> </summary>
 * Mathematical problems motivated by tangible, real-world questions. 
-* Increasing accessibility to and in higher mathematics and creating communities where ideas cross pollinate and people pull each other up[^1].
-
+* Increasing accessibility to and in higher mathematics and creating communities where ideas cross pollinate and people pull each other up. This is part of why I co-founded and co-organize [Monsoon Math Camp](https://www.monsoonmath.org) - an online math camp for promising high school students introducing them to advanced undergraduate and graduate-level math. You should check it out! I have also been involved in building and expanding other mathematical communities, like platforms for the PolyMath REU, DRP programs and the undergraduate math organization at IISc, etc.
+</details>
+  
 <details>
   <summary markdown="span"> <b> What am I doing these days? </b></summary>
   
@@ -36,6 +40,7 @@ These days, my work focuses on sequential decision making with offline data, wit
 * Mentoring a project on using machine learning to enhance mdoel predictive control.
 * Fleshing out ideas for more academic communities like Monsoon Math.
   </details>
+  
 <details>
   <summary markdown="span"> <b>What do I want to learn about/do in the future? </b></summary>
   
@@ -56,5 +61,3 @@ These days, my work focuses on sequential decision making with offline data, wit
 * Natural Language Processing.
 * Using insights from machine learning for biology. In a specific example, learning a hierarchical or causal structure from genomics 
  </details>
-
-[^1]: This is part of why I co-founded and co-organize [Monsoon Math Camp](https://www.monsoonmath.org) - an online math camp for promising high school students introducing them to advanced undergraduate and graduate-level math. You should check it out! I have also been involved in building and expanding other mathematical communities, like platforms for the PolyMath REU, DRP programs and the undergraduate math organization at IISc, etc.
