@@ -19,15 +19,15 @@ nav: true
 
 ### teaching
 
-##### University of Michigan 
+**University of Michigan**
 The sole instructor for a section of 15-20 students.
 1. [Math 116](http://www.math.lsa.umich.edu/courses/116/), Winter 2022, Fall 2022.
 2. [Math 115](http://www.math.lsa.umich.edu/courses/115/), Fall 2021.
 
-##### Monsoon Math Camp 
+**Monsoon Math Camp**
 
 <details>
-<summary markdown="span"> <strong> Cut, Fold, Paste: Homology and the Classification of Surfaces, 2021 </strong> </summary>
+<summary markdown="span"> Cut, Fold, Paste: Homology and the Classification of Surfaces, 2021 </summary>
 <strong>Description:</strong> How many truly different shapes can you get by pasting polygons at their boundaries? Mathematicians often like to “classify objects” - many big research endeavours in mathematics are geared towards classification. What does it mean to classify a mathematical object? <br>
 This will be illustrated using the “classification of surfaces,” which is related to our first question. We will try to understand how a surface might be defined from our intuitive idea of it, reduce it to a combinatorial object and then classify these combinatorial objects using tools we develop on the way. We will see powerful tools like the Euler characteristic and homology.
 <br>
@@ -37,7 +37,7 @@ This will be illustrated using the “classification of surfaces,” which is re
 </details>
 
 <details>
-<summary markdown="span"> <strong> Geometry, Symmetry and Hyperbolic Space, 2020 </strong> </summary>
+<summary markdown="span"> Geometry, Symmetry and Hyperbolic Space, 2020 </summary>
 <strong>Description:</strong> Exposure to a lot of Euclidean geometry may create the impression that higher geometry is the study of generalized distance spaces. This course will try to convince participants that in some cases, a better view of geometry is the interaction between a space and its group of transformations, via material on elementary hyperbolic geometry. We will see basic results in hyperbolic geometry, the hyperbolic Gauss-Bonnet Theorem, the Iwasawa decomposition, a quick version of material on Fuchsian groups and quotienting, and if time permits, the Milnor-Svarc lemma.
 <br>
   <strong>Prerequisites:</strong> High School Calculus and High School Matrices.
