@@ -9,7 +9,7 @@ nav_num: 1
 nav: true
 ---
 
-## preprints
+<div style="text-align: right"> <h2> preprints </h2> </div>
 
 <!-- _pages/publications.md -->
 <div class="publications">
