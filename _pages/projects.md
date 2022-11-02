@@ -6,7 +6,7 @@ description: current projects, plans for the future and an attempt at a progress
 nav_num: 2
 nav: true
 ---
-## What am I doing these days?
+## what am I doing these days?
 * Working in [Prof. Ambuj Tewari's lab](https://ambujtewari.github.io/).
 * Working on projects on offline RL in confounded tabular MDPs and learning mixtures of latent MDPs.
 * Thinking about minimax optimal algorithms for offline policy evaluation and the role of the geometry of action sets.
@@ -15,8 +15,8 @@ nav: true
 * Mentoring a project on using machine learning to enhance mdoel predictive control.
 * Fleshing out ideas for more academic communities like Monsoon Math.
 
-## What do I want to learn about/do in the future?
-#### More Palatable Goals
+## what do I want to learn about/do in the future?
+#### more palatable goals
 * Work on learning other mixtures of time series with control input.
 * Work on generating synthetic data privately for time series, starting with MDPs and Markov Chains.
 * Learn about differential privacy and its intersection with sequential decision-making.
@@ -25,7 +25,7 @@ nav: true
 * Watch lectures from the Data Driven Decision Processes program at the Simons Institute this semester.
 * Gain a comprehensive view of techniques that go into minimax lower bounds in RL.
 
-#### Loftier Learning Goals
+#### loftier learning goals
 * The theory behind GNNs and deep learning in general.
 * Causality and its interaction with sequential decision making and RL.
 * Algorithmic fairness.
@@ -33,7 +33,7 @@ nav: true
 * Natural Language Processing.
 * Using insights from machine learning for biology. In a specific example, learning a hierarchical or causal structure from genomics 
 
-## Progress Log
+## progress log
 
 <details>
   <summary markdown="span"> 2022 </summary>
