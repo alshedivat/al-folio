@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /log/
-title: log
-description: periodic log of my academic/professional progress.
+permalink: /the lowdown/
+title: the lowdown
+description: things that I'm up to these days, and an attempt at a periodic log of my academic/professional progress.
 nav_num: 5
 nav: true
 ---
