@@ -370,7 +370,8 @@ footer.sticky-bottom {
   }
 
   .grid-item {
-    width: 250px;
+    max-width: 300px;
+    max-height: 300px;
     margin-bottom: 10px;
   }
 
@@ -381,6 +382,40 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: right;
+  }
+}
+
+// Funding
+
+.funding {
+  a {
+    text-decoration: none;
+  }
+
+  .card {
+    background-color: var(--global-bg-color);
+    img {
+      width: 25em;
+      height: auto;
+    }
+    .card-title {
+      color: var(--global-text-color)
+    }
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 0.5em;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .grid-item {
+    width: auto;
+    margin-bottom: 0.5em;
   }
 }
 
