@@ -2,9 +2,8 @@
 layout: page
 permalink: /log/
 title: log
-description: An attempt at a progress log and a glimpse into grad school life.
-nav_num: 5
-nav: true
+description: an attempt at a progress log and a glimpse into grad school life.
+nav: false
 ---
 
 <details>
