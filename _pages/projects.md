@@ -3,7 +3,7 @@ layout: page
 permalink: /projects/
 title: projects
 description: current projects, plans for the future and an attempt at a progress log.
-nav_num: 1
+nav_num: 2
 nav: true
 ---
 ## What am I doing these days?
