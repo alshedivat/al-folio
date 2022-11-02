@@ -25,14 +25,14 @@ On the other hand, a lot of my undergraduate background was in geometry, topolog
 
 <details>
   <summary markdown="span"> <b> What do I care about, broadly? </b> </summary>
-  
+
 * Mathematical problems motivated by tangible, real-world questions. 
 * Increasing accessibility to and in higher mathematics and creating communities where ideas cross pollinate and people pull each other up. This is part of why I co-founded and co-organize [Monsoon Math Camp](https://www.monsoonmath.org) - an online math camp for promising high school students introducing them to advanced undergraduate and graduate-level math. You should check it out! I have also been involved in building and expanding other mathematical communities, like platforms for the PolyMath REU, DRP programs and the undergraduate math organization at IISc, etc.
 </details>
   
 <details>
   <summary markdown="span"> <b> What am I doing these days? </b></summary>
-  
+
 * Working in [Prof. Ambuj Tewari's lab](https://ambujtewari.github.io/).
 * Working on projects on offline RL in confounded tabular MDPs and learning mixtures of latent MDPs.
 * Thinking about minimax optimal algorithms for offline policy evaluation and the role of the geometry of action sets.
@@ -40,12 +40,13 @@ On the other hand, a lot of my undergraduate background was in geometry, topolog
 * Continuing work on our project from [LOGML 2022](https://www.logml.ai/)! I was a participant in Dr. Eli Meirom's group, planning to work on using RL for graph rewiring in GNNs to prevent oversquashing for long range problems.
 * Mentoring a project on using machine learning to enhance mdoel predictive control.
 * Fleshing out ideas for more academic communities like Monsoon Math.
+
   </details>
-  
+
 <details>
   <summary markdown="span"> <b>What do I want to learn about/do in the future? </b></summary>
-  
-  
+
+
 **More palatable goals**
 * Work on learning other mixtures of time series with control input.
 * Work on generating synthetic data privately for time series, starting with MDPs and Markov Chains.
@@ -62,4 +63,5 @@ On the other hand, a lot of my undergraduate background was in geometry, topolog
 * Geometric and topological insights for data analysis and machine learning (for example, non-positive curvature representation learning).
 * Natural Language Processing.
 * Using insights from machine learning for biology. In a specific example, learning a hierarchical or causal structure from genomics 
+
  </details>
