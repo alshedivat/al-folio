@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /projects/
-title: projects
+permalink: /progress/
+title: progress
 description: current projects, plans for the future and an attempt at a progress log.
 nav_num: 2
 nav: true
