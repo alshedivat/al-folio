@@ -64,5 +64,5 @@ Check out my [past projects](projects) (along with post-mortems), [publications]
 
  </details>
  
-
+<br>
 
