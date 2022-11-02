@@ -19,12 +19,12 @@ nav: true
 
 ### teaching
 
-#### University of Michigan 
+##### University of Michigan 
 The sole instructor for a section of 15-20 students.
 1. [Math 116](http://www.math.lsa.umich.edu/courses/116/), Winter 2022, Fall 2022.
 2. [Math 115](http://www.math.lsa.umich.edu/courses/115/), Fall 2021.
 
-#### Monsoon Math Camp 
+##### Monsoon Math Camp 
 
 <details>
 <summary markdown="span"> <strong> Cut, Fold, Paste: Homology and the Classification of Surfaces, 2021 </strong> </summary>
