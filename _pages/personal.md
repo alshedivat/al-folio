@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /more/
-title: more
+permalink: /personal/
+title: personal
 description: other stuff about me.
 nav_num: 6
 nav: true
