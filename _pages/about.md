@@ -30,7 +30,7 @@ Check out my [past projects](projects) (along with post-mortems), [publications]
   
 <details markdown="1">
   <summary markdown="span"> <b> What am I doing these days? </b></summary>
-  </br>
+  <br>
   
   * Working on projects on offline RL in **confounded** tabular MDPs and learning **mixtures of MDPs**.
   * Thinking about **minimax optimal** algorithms for offline policy evaluation (**OPE**) and the role of the geometry of action sets.
@@ -43,9 +43,9 @@ Check out my [past projects](projects) (along with post-mortems), [publications]
 
 <details markdown="1">
   <summary markdown="span"> <b> What do I want to learn about/do in the future? </b></summary>
-  </br>
-
-  _Primary goals_
+   <br>
+   
+  _primary goals_
   * Work on learning other mixtures of time series with control input.
   * Work on generating synthetic data privately for time series, starting with MDPs and Markov Chains.
   * Learn about differential privacy and its intersection with sequential decision-making.
@@ -54,7 +54,7 @@ Check out my [past projects](projects) (along with post-mortems), [publications]
   * Watch lectures from the Data Driven Decision Processes program at the Simons Institute this semester.
   * Gain a comprehensive view of techniques that go into minimax lower bounds in RL.
 
-  _Side-quests_
+  _side-quests_
   * The theory behind GNNs and deep learning in general.
   * Causality and its interaction with sequential decision making and RL.
   * Algorithmic fairness.
@@ -64,5 +64,5 @@ Check out my [past projects](projects) (along with post-mortems), [publications]
 
  </details>
  
- </br>
+
 
