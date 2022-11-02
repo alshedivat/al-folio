@@ -9,14 +9,4 @@ nav_num: 1
 nav: true
 ---
 
-<div style="text-align: right"> <h2> preprints </h2> </div>
-
-<!-- _pages/publications.md -->
-<div class="publications">
-
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f preprints -q @*[year={{y}}]* %}
-{% endfor %}
-
-</div>
+* An algorithm to calculate generalized Seifert matrices. _Stefan Friedl, __Chinmaya Kausik__ and Jose Pedro Quintanilha_ **(alphabetical order)**. Journal of Knot Theory and Its Ramifications, 2022 _(to appear)_. [arXiv](https://arxiv.org/abs/2204.10004)
