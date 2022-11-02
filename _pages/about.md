@@ -47,7 +47,7 @@ On the other hand, a lot of my undergraduate background was in geometry, topolog
   <summary markdown="span"> <b> What do I want to learn about/do in the future? </b></summary>
 
 
-  **More palatable goals**
+  ##### More palatable goals
   * Work on learning other mixtures of time series with control input.
   * Work on generating synthetic data privately for time series, starting with MDPs and Markov Chains.
   * Learn about differential privacy and its intersection with sequential decision-making.
@@ -56,7 +56,7 @@ On the other hand, a lot of my undergraduate background was in geometry, topolog
   * Watch lectures from the Data Driven Decision Processes program at the Simons Institute this semester.
   * Gain a comprehensive view of techniques that go into minimax lower bounds in RL.
 
-  **Loftier learning goals**
+  ##### Loftier learning goals
   * The theory behind GNNs and deep learning in general.
   * Causality and its interaction with sequential decision making and RL.
   * Algorithmic fairness.
