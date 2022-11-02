@@ -25,6 +25,7 @@ On the other hand, a lot of my undergraduate background was in geometry, topolog
 
 <details>
   <summary markdown="span"> <b> What do I care about, broadly? </b> </summary>
+  
 * Mathematical problems motivated by tangible, real-world questions. 
 * Increasing accessibility to and in higher mathematics and creating communities where ideas cross pollinate and people pull each other up. This is part of why I co-founded and co-organize [Monsoon Math Camp](https://www.monsoonmath.org) - an online math camp for promising high school students introducing them to advanced undergraduate and graduate-level math. You should check it out! I have also been involved in building and expanding other mathematical communities, like platforms for the PolyMath REU, DRP programs and the undergraduate math organization at IISc, etc.
 </details>
@@ -43,6 +44,7 @@ On the other hand, a lot of my undergraduate background was in geometry, topolog
   
 <details>
   <summary markdown="span"> <b>What do I want to learn about/do in the future? </b></summary>
+  
   
 **More palatable goals**
 * Work on learning other mixtures of time series with control input.
