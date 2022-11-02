@@ -29,7 +29,7 @@ Check out my [past projects](projects) (along with post-mortems), [publications]
 </details>
   
 <details markdown="1">
-  <summary markdown="span"> <b> What am I doing these days? </b></summary> <br>
+  <summary markdown="span"> <b> What am I doing these days? </b></summary>  
   
   * Working on projects on offline RL in **confounded** tabular MDPs and learning **mixtures of MDPs**.
   * Thinking about **minimax optimal** algorithms for offline policy evaluation (**OPE**) and the role of the geometry of action sets.
@@ -41,7 +41,7 @@ Check out my [past projects](projects) (along with post-mortems), [publications]
   </details>
 
 <details markdown="1">
-  <summary markdown="span"> <b> What do I want to learn about/do in the future? </b></summary> <br>
+  <summary markdown="span"> <b> What do I want to learn about/do in the future? </b></summary>  
    
   _primary goals_
   * Work on learning other mixtures of time series with control input.
