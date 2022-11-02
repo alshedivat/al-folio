@@ -3,7 +3,7 @@ layout: page
 permalink: /more/
 title: more
 description: other stuff about me.
-nav_num: 5
+nav_num: 6
 nav: true
 ---
 
