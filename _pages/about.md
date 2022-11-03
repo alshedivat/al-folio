@@ -27,11 +27,9 @@ Check out my [past projects](projects) (along with post-mortems), [publications]
   * Mathematical problems motivated by tangible, real-world questions. These days, my work focuses on **sequential decision making with offline data**. I also have side projects in **deep learning and control theory**, and I intend to combine my current interests with ideas in **differential privacy** very soon. On the other hand, a lot of my undergraduate background was in geometry, topology and dynamics, with work in computer-assisted topology and geometry. 
   * **Increasing accessibility** to and in higher mathematics and **creating communities** where ideas cross pollinate and people pull each other up. This is part of why I co-founded and co-organize [Monsoon Math Camp](https://www.monsoonmath.org) - an online math camp for promising high school students introducing them to advanced undergraduate and graduate-level math. You should check it out! I have also been involved in building and expanding other mathematical communities, like platforms for the PolyMath REU, DRP programs and the undergraduate math organization at IISc, etc.
 </details>
-\
   
 <details markdown="1">
   <summary markdown="span"> <b> What am I doing these days? </b></summary>
-  \
   
   * Working on projects on offline RL in **confounded** tabular MDPs and learning **mixtures of MDPs**.
   * Thinking about **minimax optimal** algorithms for offline policy evaluation (**OPE**) and the role of the geometry of action sets.
@@ -41,11 +39,9 @@ Check out my [past projects](projects) (along with post-mortems), [publications]
   * Fleshing out ideas for more academic communities like **Monsoon Math**.
 
   </details>
-  \
 
 <details markdown="1">
   <summary markdown="span"> <b> What do I want to learn about/do in the future? </b></summary>
-  \
    
   _primary goals_
   * Work on learning other mixtures of time series with control input.
@@ -65,5 +61,3 @@ Check out my [past projects](projects) (along with post-mortems), [publications]
   * Using insights from machine learning for biology. In a specific example, learning a hierarchical or causal structure from genomics 
 
  </details>
-\
-\
