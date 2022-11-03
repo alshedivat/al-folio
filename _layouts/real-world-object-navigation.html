@@ -191,7 +191,7 @@
       <table align=center width=1000px>
         <p style="margin-top:4px;"></p>
         <tr><td width=1000px>
-          <center><a href="../../assets/real-world-object-navigation/empirical_evaluation.gif"><img src = "../../assets/real-world-object-navigation/empirical_evaluation.gif" width="800px"></img></a><br></center>
+          <center><a href="../../assets/real-world-object-navigation/summary.gif"><img src = "../../assets/real-world-object-navigation/summary.gif" width="800px"></img></a><br></center>
         </td></tr>
       </table><br>
 
@@ -211,14 +211,14 @@
       -->
       <div style="width:800px; margin:0 auto; text-align:justify">
         Semantic navigation is necessary to deploy mobile robots in uncontrolled environments like our homes, schools, and hospitals. 
-        Many learning-based approaches have been proposed in response to the lack of semantic understanding of the classical pipeline for spatial navigation. 
-        But learned visual navigation policies have predominantly been evaluated in simulation, and it is unclear whether simulation is useful as an evaluation benchmark.
-        We address this issue through a large-scale real-world empirical study of semantic visual navigation methods comparing classical, end-to-end and modular learning approaches on a mobile robot platform.
-        We find that modular learning transfers well, rising from a 81% simulation to a 90% real-world success rate. 
+        Many learning-based approaches have been proposed in response to the lack of semantic understanding of the classical pipeline for spatial navigation.
+        But learned visual navigation policies have predominantly been evaluated in simulation. 
+        How well do different classes of methods work on a robot? 
+        We present a large-scale empirical study of semantic visual navigation methods comparing representative methods from classical, modular, and end-to-end learning approaches across six homes with no prior experience, maps, or instrumentation.
+        We find that modular learning works well in the real world, attaining a 90% success rate. 
         In contrast, end-to-end learning does not, dropping from 77% simulation to 23% real-world success rate due to a large image domain gap between simulation and reality. 
-        For practitioners, we show that modular learning is a reliable approach to navigate to objects. 
-        For researchers, we identify two key issues that prevent today’s simulators from being reliable evaluation benchmarks: (A) a large Sim-to-Real gap in images, which causes design choices to easily overfit to simulation, and (B) a disconnect between simulation and real-world error modes, which limits the usefulness of simulation to diagnose bottlenecks and further improve methods. 
-        We propose concrete steps along two orthogonal paths forward: improve simulation to better reflect real-world conditions and improve practices to work with imperfect simulation.
+        For practitioners, we show that modular learning is a reliable approach to navigate to objects: modularity and abstraction in policy design enable Sim-to-Real transfer.
+        For researchers, we identify two key issues that prevent today's simulators from being reliable evaluation benchmarks — (A) a large Sim-to-Real gap in images and (B) a disconnect between simulation and real-world error modes — and propose concrete steps forward.
       </div>
       <br><hr>
 
@@ -362,10 +362,21 @@
       <br>
 
       <div style="width:800px; margin:0 auto; text-align:justify">
-        The semantic exploration policy of the modular learning approach takes a semantic map as input, while the end-to-end policy directly takes the RGB-D frames as input. 
-        The semantic map space is invariant between sim and reality, which allows the modular learning approach to transfer well from sim to reality.
-        In contrast, the image space exhibits a large gap between sim and reality. 
-        This gap causes a large drop in performance when transferring a segmentation model trained in the real world to simulation and vice versa. 
+        The semantic exploration policy of the modular learning approach takes a semantic map as input, while the end-to-end policy directly operates on the RGB-D frames.
+        The semantic map space is invariant between sim and reality, while the image space exhibits a large domain gap. 
+        In this example, this gap leads to a segmentation model trained on real-world images to predict a bed false positive in the kitchen.
+      </div>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1000px>
+          <center><a href="../../assets/real-world-object-navigation/sim_vs_real_episode.gif"><img src = "../../assets/real-world-object-navigation/sim_vs_real_episode.gif" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+      <br>
+
+      <div style="width:800px; margin:0 auto; text-align:justify">
+        The semantic map domain invariance allows the modular learning approach to transfer well from sim to reality.
+        In contrast, the image domain gap causes a large drop in performance when transferring a segmentation model trained in the real world to simulation and vice versa. 
         If semantic segmentation transfers poorly from sim to reality, it is reasonable to expect an end-to-end semantic navigation policy trained on sim images to transfer poorly to real-world images.
       </div>
       <table align=center width=1000px>
