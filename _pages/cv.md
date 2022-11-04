@@ -1,8 +1,8 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: CV
 nav: true
-nav_order: 4
-cv_pdf: example_pdf.pdf
+nav_order: 2
+cv_pdf: CV_MohammadhosseinMalekpour.pdf
 ---

@@ -1,12 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - mh-malekpour
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - AUT-Twitter-Analytics/Streamlit-Dashboard
+  - DailyDiet/DailyDiet-API
+  - mh-malekpour/Chat-Harassment-Detection
+  - mh-malekpour/Persian-Spam-Detection
+  - mh-malekpour/Bank-Loan-Modelling
+  - mh-malekpour/NER
+  - mh-malekpour/Houzz-Scrapy
+  - mh-malekpour/Charity

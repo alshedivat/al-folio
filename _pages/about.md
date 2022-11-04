@@ -1,25 +1,24 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: CS Student @ <a href='https://www.topuniversities.com/universities/amirkabir-university-technology'>AUT</a> | Data Analyst @ <a href='https://www.linkedin.com/company/divarofficial/about/'>Divar</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: avatar.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>+989123198422</p>
+    <p>Tehran, Iran</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am Mohammadhossein Malekpour. I have a bachelor's degree in Computer Science with minor in Economics from the Amirkabir University of Technology, ranked among the top 3 universities in Iran. My last two-year GPA is 3.67/4.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+During my bachelor's, I was a teaching assistant in six courses such as "Machine Learning", "Principles of Software Design", and "Applied Data Science". Moreover, I am currently working as a Data Analyst-Scientist and performing analysis on a wide variety of big data. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My **research interest** sits at the intersection of data science, machine learning, deep learning, software engineering, MLOps, distributed systems, and big data. Since then, I have been actively reading papers in this area and found this field is what I would like to pursue in my graduate studies.
