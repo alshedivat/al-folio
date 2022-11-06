@@ -1,4 +1,37 @@
 
+@article{2022brandner,
+  title={Serverless workflows benchmarking.},
+  author={Laurin Brandner},
+  year={2022},
+  journal = {Master Thesis},
+  html={https://www.research-collection.ethz.ch/handle/20.500.11850/574821},
+  abstract = {
+In recent years, Serverless Computing has gained increasing attention in research and industry. Its potential in scalability and efficiency has led major cloud vendors to introduce workflow services that orchestrate serverless functions efficiently. However, these frameworks are based on entirely different architectures, whose characteristics have only poorly been studied. Moreover, the rapid development of these commercial systems makes it hard to keep track of their pros and cons. To fill the knowledge gap, we introduce a framework to compare and evaluate serverless workflow systems. It consists of three components: a model, a platform-agnostic workflow definition, and a benchmark suite. The model is a high-level abstraction of workflows and acts as the basis for a rigorous analysis. We introduce a new workflow definition that transcribes into multiple proprietary paradigms. We use it to implement the benchmark suite, composed of four micro-benchmarks and five application benchmarks. Together, they serve as a great tool to analyze in-depth the services offered by AWS, Azure, and Google Cloud. We evaluate them in terms of scalability, runtime, overhead, and more, yielding a great overview of the current state-of-the-art.
+  }
+}
+
+@article{2022moeller,
+  title={Serverless C++ Executor.},
+  author={Lukas M\"oller},
+  year={2022},
+  journal = {Bachelor Thesis},
+  pdf={students/2022_cppless_moeller.pdf},
+  abstract = {
+Serverless functions have lately been getting traction in the world of high-performance applications where the dynamic scheduling features that serverless cloud environments exhibit can be used to offload CPU-intensive work to the cloud. This is especially advantageous for workloads where dynamic parallelism is required. However, using serverless platforms for this purpose remains difficult in languages like C++ which is traditionally used for high-performance application. To solve this problem we introduce cppless, a single-source programming model for high-performance serverless applications. Cppless allows users to write serverless functions together with the code that uses them to a low transparent offloading. This allows us to provide a common abstraction layer for serverless platforms and enables composable, modular architectures that make use of serverless functions. We evaluate Cppless using several high-performance problems. The results show that Cppless provides a low-overhead interface for serverless applications.
+  }
+}
+
+@article{2022waechter,
+  title={Profiling and optimizations of serverless functions.},
+  author={Malte W\"achter},
+  year={2022},
+  journal = {Bachelor Thesis},
+  pdf={students/2022_profiler_waechter.pdf},
+  abstract = {
+Serverless computing or Function-as-a-Service is an emerging and promising cloud execution model. The critical difference between Function-as-a-Service versus a traditional cloud execution method is that applications are broken down into smaller stateless functions that interact with each other driven by results, and the executing infrastructure is abstracted away for ease of use. In this process, the ability to collect performance metrics is hampered. We present the profiling and tracing framework FaaS-Profiler. The framework generalizes executions in a serverless environment. It is designed with the goal of instrumenting serverless functions without much effort, taking measurements to collect metrics, and tracing functions end to end. We evaluate our design with a concrete implementation in Python on Amazon Web Services and Google Cloud Platform.
+  }
+}
+
 @article{2021wei,
   title={Serverless memory deduplication.},
   author={Qiu Wei},
@@ -123,25 +156,6 @@ bandwidth is available.
 }
 
 @article{2021isman,
-  title={FaaStest collectives: reliable communication in serverless world},
-  author={Emir İşman},
-  year={2021},
-  journal = {Bachelor Thesis},
-  abstract = {
-    Since its inception, serverless functions have been deployed for many
-    different scenarios, yet there has been little research into performing ef-
-    fective collective operations with serverless functions. Ephemeral nature
-    of functions and the absence of native inter-function communication
-    present challenges for communication-heavy workloads. We investi-
-    gate the current state of the field on inter-function communication and
-    propose a design for tree-based collective operations. We evaluate our
-    design with different options for communication between functions that
-    include both shared storage based and network based solutions on a
-    serverless reduce prototype we have deployed on AWS Lambda.
-  }
-}
-
-@article{2021handrick,
   title={FaaStest collectives: reliable communication in serverless world},
   author={Emir İşman},
   year={2021},
