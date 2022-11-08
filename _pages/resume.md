@@ -12,7 +12,7 @@ nav: true
 - **University of California San Diego**, 2015--2022.
     - Ph.D. in  Electrical Engineering, June 2022.
         - Advisors: [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/).
-        - Thesis title: "[From Information Theory to Machine Learning Algorithms: A Few Vignettes](https://escholarship.org/uc/item/5fc8x66w)" (defended on 06/03/2022; [[slides]](assets/pdf/talks/defense.pdf))
+        - Thesis title: "[From Information Theory to Machine Learning Algorithms: A Few Vignettes](https://escholarship.org/uc/item/5fc8x66w)" (defended on 06/03/2022; [[slides]](../assets/pdf/talks/defense.pdf))
     - M.S. in Electrical Engieering, December 2018.
 - **Seoul National University**, 2008--2015.
     - B.S. in Electrical and Computer Engineering and Mathematical Sciences (double major), August 2015.
