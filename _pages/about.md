@@ -22,4 +22,4 @@ I have designed collaborative agents for a variety of application domains [gener
 
 I am a graduate of the [Soar lab](https://soar.eecs.umich.edu/) led by [John E. Laird](https://laird.engin.umich.edu) that traces its legacy to [foundational research on human cognition](https://en.wikipedia.org/wiki/Unified_Theories_of_Cognition) by [Allen Newell](https://en.wikipedia.org/wiki/Allen_Newell) and [human decision making](https://www.goodreads.com/book/show/4286601-human-problem-solving) by [Herbert Simon](https://en.wikipedia.org/wiki/Herbert_A._Simon). My graduate experience set me on this wonderful journey in studying the computational underpinnings of human intelligence and building intelligent systems that support people in their goals. PARC's [legacy](https://www.nngroup.com/articles/top-research-laboratories-in-human-computer-interaction-hci/) in leveraging cognitive psychology to design more effective technology has only made this journey more adventurous.
 
-I am active on [Mastodon](https://mastodon.social/@shiwali).
+I am active on [Mastodon](https://sigmoid.social/@shiwali).
