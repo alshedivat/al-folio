@@ -9,36 +9,47 @@ category: work
 
 For my senior capstone class, Design of Medical Devices, my team and I sought out to create an improved connection system for peritoneal dialysis. Peritoneal dialysis (PD) can be done at home and has the potential to be less expensive than its in-clinic counterpart Hemodialysis, but it is currently not available to many patients because current systems require great dexterity from the user and are costly. Our solution was to design an improved, low-cost connection system that could interface with existing systems to make PD accessible to more patients.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+    ---
+    Skills Learned:
+    -SOLIDWORKS
+    -Rapid prototyping
+    -3D printing
+    -Medical device design
+    ---
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+# Conceptualizing
+
+The short time-frame and the relatively large solution space for this problem meant we had to thoughtfully consider every step of the design process. We identified ease of sterility, water tightness, and complexity as the main functional requirements for our design, and these functional requirements would serve to guide our entire design process. 
+
+From our established design requirements we proceeded to generate potential strategies and concepts to eventually formulate a most critical module for our system.
+
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.html path="assets/img/frdprc.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-5 mt-md-">
+        {% include figure.html path="assets/img/concept-prot.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    (Left) Prof Slocum's FRDPARRC design framework. (Right) design iterations of connection coupling including a bench-level test using off-the-shelf components.
 </div>
+
+# Final Prototype
+
+The final prototype of our system consisted of a quick-connect mechanism and a proposed assembly station for assisting the patient in forming the connection. The patient would simply place the two ends of the connection into the assembly station and pull a lever to complete the setup for PD. This system significantly reduces the number of caps and clamps the patient needs to handle, allowing for a simpler and safer way to do PD. The actual connection consisted of a spring loaded element closing off the fluid flow at each connection end. When the two ends are mated, the spring loaded elements compress against each other, allowing fluid to pass through the connection. The mating is secured by small clips at the side which prevent accidental disengagement of the connection.
+
+
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/coupling.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    FInal prototype of the connection coupling consisting of a spring-loaded ball that enables flow wren engaged and a set of side clips to keep the two sides connected while coupling is in use.
 </div>
 
 You can also put regular text between your rows of images.
