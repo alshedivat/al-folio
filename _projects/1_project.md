@@ -1,15 +1,13 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Design of a quick-connect coupling for dialysis
+description: Semester project for MIT's Medical Device Design class
+img: assets/img/meddev_1.jpeg
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+For my senior capstone class, Design of Medical Devices, my team and I sought out to create an improved connection system for peritoneal dialysis. Peritoneal dialysis (PD) can be done at home and has the potential to be less expensive than its in-clinic counterpart Hemodialysis, but it is currently not available to many patients because current systems require great dexterity from the user and are costly. Our solution was to design an improved, low-cost connection system that could interface with existing systems to make PD accessible to more patients.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
