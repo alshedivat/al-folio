@@ -231,8 +231,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: Aspling
-  first_name: [Albert, A.]
+  last_name: [Aspling]
+  first_name: [Eric W.]
 
   style: apa
   locale: en
