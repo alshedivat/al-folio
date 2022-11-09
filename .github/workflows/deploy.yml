@@ -37,7 +37,7 @@ jobs:
         fi
         echo "::set-output name=DEPLOY_BRANCH::gh-pages"
     - name: Fix permission
-          run: |
+          run:|
             chmod a+x bin/*
             git commit -am "add execute permission to bin/deploy"
     - name: Deploy website
