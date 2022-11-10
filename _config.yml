@@ -234,7 +234,7 @@ scholar:
   last_name: [Aspling]
   first_name: [Eric W.]
 
-  style: apa
+  style: physical-review-d
   locale: en
 
   source: /_bibliography/
