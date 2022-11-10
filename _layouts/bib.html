@@ -11,9 +11,13 @@
           {%- endif -%}
         {%- elsif entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%}
-          <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
+            {%- assign venue_style = nil -%}
+            {%- if site.data.venues[entry.abbr].color != blank -%}
+              {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
+            {%- endif -%}
+            <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
           {%- else -%}
-          <abbr class="badge">{{entry.abbr}}</abbr>
+            <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
         {%- endif -%}
         </div>
@@ -29,22 +33,22 @@
           <div class="author">
           {% assign author_array_size = entry.author_array | size %}
 
+          {% assign author_array_limit = author_array_size %}
           {%- if site.max_author_limit and author_array_size > site.max_author_limit %}
             {% assign author_array_limit = site.max_author_limit %}
-          {% else %}
-            {% assign author_array_limit = author_array_size %}
           {% endif %}
 
           {%- for author in entry.author_array limit: author_array_limit -%}
             {%- assign author_is_self = false -%}
-            {%- if author.last == site.scholar.last_name %}
+            {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+            {%- if site.scholar.last_name contains author_last_name -%}
               {%- if site.scholar.first_name contains author.first -%}
                 {%- assign author_is_self = true -%}
               {%- endif -%}
             {%- endif -%}
             {%- assign coauthor_url = nil -%}
-            {%- if site.data.coauthors[author.last] -%}
-              {%- for coauthor in site.data.coauthors[author.last] -%}
+            {%- if site.data.coauthors[author_last_name] -%}
+              {%- for coauthor in site.data.coauthors[author_last_name] -%}
                 {%- if coauthor.firstname contains author.first -%}
                   {%- assign coauthor_url = coauthor.url -%}
                   {%- break -%}
@@ -52,53 +56,35 @@
               {%- endfor -%}
             {%- endif -%}
             
-            {%- if forloop.length == 1 -%}
-              {%- if author_is_self %}
-                <em>{{author.last}}, {{author.first}}</em>
-              {%- else -%}
-                {{author.last}}, {{author.first}}
-              {%- endif -%}
-            {%- else -%}
-              {%- unless forloop.last -%}
-                {% if author_is_self %}
-                  <em>{{author.last}}, {{author.first}}</em>,&nbsp;
-                {%- else -%}
-                  {% if coauthor_url -%}
-                    <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>,&nbsp;
-                  {%- else -%}
-                    {{author.last}}, {{author.first}},&nbsp;
-                  {%- endif -%}
-                {%- endif -%}
-              {%- else -%}
-                {%- if author_array_limit == author_array_size %} and {% endif %}
-                {% if author_is_self -%}
-                  <em>{{author.last}}, {{author.first}}</em>
-                {% else -%}
-                  {%- if coauthor_url -%}
-                    <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>
-                  {% else -%}
-                    {{author.last}}, {{author.first}}
-                  {%- endif -%}
-                {%- endif -%}
-              {%- endunless -%}
+            {%- if forloop.length > 1 -%}
+              {%- if forloop.first == false -%},&nbsp;{%- endif -%}
+              {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
             {%- endif -%}
-          {%- endfor %}
-
-          {% assign more_authors = author_array_size | minus: author_array_limit %}
-
-          {%- if more_authors > 0 %}
-            {% assign more_authors_hide = more_authors | append: " more author" %}
-            {% if more_authors > 1 %}
-              {% assign more_authors_hide = more_authors_hide | append: "s" %}
-            {% endif %}
-            {% assign more_authors_show = '' %}
+            {%- if author_is_self -%}
+              <em>{{author.first}} {{author.last}}</em>
+            {%- else -%}
+              {%- if coauthor_url -%}
+                <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+              {%- else -%}
+                {{author.first}} {{author.last}}
+              {%- endif -%}
+            {%- endif -%}
+          {%- endfor -%}
+          {%- assign more_authors = author_array_size | minus: author_array_limit -%}
+          
+          {%- assign more_authors_hide = more_authors | append: " more author" -%}
+          {%- if more_authors > 0 -%}
+            {%- if more_authors > 1 -%}
+              {%- assign more_authors_hide = more_authors_hide | append: "s" -%}
+            {%- endif -%}
+            {%- assign more_authors_show = '' -%}
             {%- for author in entry.author_array offset: author_array_limit -%}
-              {% assign more_authors_show = more_authors_show | append: author.last | append: ", " | append: author.first %}
-              {% unless forloop.last %}
-                {% assign more_authors_show = more_authors_show | append: ",&nbsp;" %}
-              {% endunless %}
+              {%- assign more_authors_show = more_authors_show | append: author.first | append: " " | append: author.last -%}
+              {%- unless forloop.last -%}
+                {%- assign more_authors_show = more_authors_show | append: ", " -%}
+              {%- endunless -%}
             {%- endfor -%}
-            and
+            , and
             <span
                 class="more-authors"
                 title="click to view {{more_authors_hide}}"
@@ -112,17 +98,18 @@
                     if (++cursorPosition == more_authors_text.length){
                       clearInterval(textAdder);
                     }
-                  }, 15);
+                }, '{{site.more_authors_animation_delay}}');
                 "
             >{{more_authors_hide}}</span>
-          {% endif %}
+          {%- endif -%}
 
           </div>
 
           <!-- Journal/Book title and date -->
+          {% assign proceedings = "inproceedings, incollection" | split: ','%}
           {% if entry.type == "article" -%}
             {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
-          {%- elsif entry.type == "inproceedings" -%}
+          {%- elsif proceedings contains entry.type -%}
             {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
           {%- else -%}
             {%- capture entrytype -%}{%- endcapture -%}
@@ -189,6 +176,9 @@
           {%- endif %}
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+          {%- endif %}
+          {%- if entry.altmetric %}
+            <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-altmetric-id="{{ entry.altmetric }}" class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-popover="right" data-badge-type="2" style="display:inline"></div>
           {%- endif %}
           </div>
 
