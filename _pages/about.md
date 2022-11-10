@@ -9,6 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
+    <p> CP308-2 </p>
+    <p> Centre du Parc </p>
+    <p> Rue Marconi 19, Martigny </p>
     <p> Switzerland </p>
 
 news: true  # includes a list of news items
