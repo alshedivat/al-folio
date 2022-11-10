@@ -24,6 +24,6 @@ nav: false
     </div>
     <div class="col-sm-8">
         <b>ACM SIGSPATIAL 2022 (11/01/2022 -- 11/04/2022)</b> <br><br>
-        From November 1st to 4th, 2022, I attended the 30th ACM SIGSPATIAL in Seattle, WA. I presented our paper, which is about protecting vehicles' location privacy against traffic flow aware inference attack.
+        From November 1st to 4th, 2022, I attended the 30th ACM SIGSPATIAL in Seattle, WA. I presented our paper <b>TrafficAdaptor: An Adaptive Obfuscation Strategy for Vehicle Location Privacy Against Vehicle Traffic Flow Aware Attacks</b>.
     </div>
 </div>  
