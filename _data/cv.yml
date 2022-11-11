@@ -2,11 +2,13 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Pedro Leandro La Rotta
     - name: Date of Birth
-      value: 14th March 1879
+      value: 1st February 1999
     - name: Languages
-      value: English, German
+      value: English, Spanish, French
+    - name: Citizenships
+      value: USA, Colombia
 
 - title: Education
   type: time_table
