@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - nis-ane
+  - NischlMhrzn
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - NischlMhrzn/math_ocr
+  - nis-ane/Transfer-Learning-Implementation
+  - nis-ane/Horse-Navigation
+  - nis-ane/3D-point-cloud-construction

@@ -2,96 +2,202 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Nischal Maharjan
     - name: Date of Birth
-      value: 14th March 1879
+      value: 7th January 1999
     - name: Languages
-      value: English, German
+      value: English, Nepali, Newari, Hindi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor's in Electronics and Communication Engineering
+      institution: Tribhuvan University, IOE Pulchowk Campus, Nepal
+      year: 2016-2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Full Scholarship
+        - Aggregate 79.43%
+        - Rank 9th in University (Top 1%)
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+    - title: Machine Learning Engineer
+      institution: Fusemachines Nepal Pvt. Ltd., Kathmandu, Nepal
+      year: April 2021 - Present
+      description: 
+        - Joined as an Associate Engineer and gained knowledge and experience by working in projects under experienced Supervisors.
+        - Promoted to an Machine Learning Engineer
+        - Worked as a Project Lead in client project regarding Couterfeit product detection.  
+        - title: Counterfeit product Detection
+          contents: 
+            - Developed a computer vision pipeline for counterfeit product identification from images. Using multiple areas of interest of given product the custom designed model was trained to classify the product as real or fake. Improved sensitivity and Specificity from 91% to 95% in the test set provided by the client.
+        - title: AutoPricing of Products
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Developed a pipeline for price prediction of a product given its features such as condition, published date,and other parameters. LightGBM model was used for the task. Various techniques of Outlier rejection and feature engineering was implemented.
+        - title: Area of Interest(AOI) Region detection of Product
+          contents:
+            - Implemented object detection model(yolov5) to train and detect multiple area of interest region of a product. Multiple Yolov5 models trained in different settings were combined to generate detection with high precision.
+        - title: Human Trafficking Recognition from Escort Ads and Inter Ad Matching
+          contents:
+            - Trafficking Classification on basis of ad image along with various tags such as nudity, age, gender etc. 
+        - title: FuseStudio Project
+          contents:
+            - Developed a pipeline to convert of Slides and Scripts into the Videos. The slides designed in Google slides were converted into video and the scripts written for slides were used to generate audio. Text to speech model were used along with image processing techniques.
+        - title: FuseAcademics Course Creation
+          contents:
+            - Collaborated in syllabus design and content creation for Automation2Go , Basics of Automation & Programming and AI2GO Workshop  
+            - As a substitute instructor took few online class through fuseclassroom platform on Computer Science For AI for students of QI Roberts High School.
+
+    - title: Robotics Engineer
+      institution: Robotics Club, IOE Pulchowk Campus, Lalitpur, Nepal
+      year: 2018-2020
       description:
-        - Description 1.
-        - Description 2.
+        - title: Robots for ABU Robocon 2019
+          contents:
+            - Construction of autonomous robots and their control according to the <a href="https://www.youtube.com/watch?v=Z385ZXDbQc8">theme of the ABU Robocon competition </a>. The robots took part in the annual internationl competition held in Ulaanbaatar, Mongolia.
+        - Mentored and oversaw junior batch for ABU Robocon 2020.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Academics and Personal Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Real Time Visual Localisation and Mapping of Mobile Robot in Dynamic Environment<b>(College Major Project)</b> 
+      year: 2019-2021
+      description: Localisation of the mobile robot in case of changing environment by help of camera using concept of multiview geometry and computer vision.
+    - title: Precision Livestock Farming 
+      year: 2019
+      description: Smart poultry system with automatic maintenance of suitable environment and behavior analysis of chicken using image and sound analysis
+    - title: Vehicle Traffic Analysis and Management(College Minor Project)
+      year: 2019
+      description: Estimation of Traffic Congestion  and controlling of traffic lights for proper management of traffic.
+    - title: Sign Language to Speech Conversion Using Gloves
+      year: 2018
+      description: Translates sign into speech by detecting gesture of hand by the gloves.
+    - title: Intelligent Character Recognition for Mathematical Documents <b>(Freelancing)</b>
+      year: April 2022 - June 2022
+      description: OCR for mathematical documents containing equations
+    - title: Changing Background in Livestream Video <b>(Freelancing)</b>
+      year: Oct 2022 - Nov 2022
+      description: Background segmentation and replacement with overlay images or other effects 
+    
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Computer Vision
+      items: 
+        - Medical Imaging
+        - Robotic Perception
+        - Image Classification
+        - Object Detection
+        - Image Segmentation
+        - 3D Vision and Reconstruction
+        - Image Similarity
+        - Feature Extraction and Matching
+        - Optical Character Recognition
+        
+    - title: Machine Learning
+      items:
+        - Feature Engineering
+    - title: Deep Learning
+    - title: Automation and Robotics
+      items:
+        - SLAM
+        - Navigation  
+        - Control System
+
+- title: Technical Skills
+  type: list
+  contents:
+    - <u><b>Programming Languages:</b></u> Python, C, C++, MATLAB, Assembly, MySQL
+    - <u><b>Computer Vision and Image Processing:</b></u> OpenCV, scikit-image, Pillow,Yolo, Detectron2
+    - <u><b>Deep Learning:</b></u> Pytorch, Tensorflow,  Tensorboard, Keras, CometML
+    - <u><b>Machine Learning:</b></u> scikit-learn, SciPy, LightGBM
+    - <u><b>Natural Language Processing:</b></u> NLTK, spaCy
+    - <u><b>Data Anlaysis and Filter:</b></u> Numpy, Pandas, Matplotlib, Seaborn
+    - <u><b>Frontend:</b></u> HTML, CSS, Bootstrap
+    - <u><b>Backend:</b></u> Flask, Rest Framework
+    - <u><b>Hardware design and Fabrication</b></u>
+    - <u><b>Embedded System Design and Programming</b></u>
+    - <u><b>Miscellaneous:</b></u> Git Version Control, AWS, Linux, Excel
+
+- title: Soft Skills
+  type: list
+  contents:
+    - Teamwork, Problem Solving, Leadership, Time Management, Project Management, Good Communication
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - title: Hardware Thematic Project Winner
+      year: 2019
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+        - Received for <b>Project Precision Livestock Farming</b> in <a href="https://edusanjal.com/event/16th-national-technological-festival-locus-2019/">LOCUS 2019, 16th National Technological Festivals</a>
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
+    - title: Rohm Award
+      year: 2019
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - presented to Team Nepal in the <a href="http://aburobocon2019.mnb.mn/en">ABU Robocon 2019 Competition</a>, held in Ulaanbaatar, Mongolia.
+
+    - title: Institute of Engineering Scholarship for B.E.
+      year: 2017
+      items: 
+        - Received Full scholarship for studying Bachelor degree in one of the most reputed engineering college of Nepal for securing 160th Rank in entrance examination
+
+- title: Participation
+  type: time_table
+  contents:
+    - title: 18th ABU Robocon Competition a 
+      year: 2019
+      institution: Held in Ulaanbaatar, Mongolia
+    - title: First Winter School in AI
+      year: 2018
+      institution: Organized by NAAMII(NepAl Applied Mathematics and Informatics Institute for Research)
+    - title: Deep Learning in Medical Imaging (DLMI) Workshop
+      year: 2021
+      institution: Organized by NAAMII(NepAl Applied Mathematics and Informatics Institute for Research)
+    - title: 3 Days in AI Bursarship Workshop
+      year: 2019
+      institution: Organized by Mpercept
+    - title: AT Hackathon
+      year: 2018
+      institution: Organized by Thapathali Campus
+    - title: LOCUS Exhibition and Competitions
+      year: 2017-2018-2019
+      institution: Organised by LOCUS, IOE Pulchowk Campus
+
+- title: Volunteering and Teaching Experience
+  type: time_table
+  contents:
+    - title: Instructor for Hardware Fellowship 
+      year: 2017 and 2019
+      institution: Organized by LOCUS
+    - title: Children in Technology (CIT) 
+      year: 2018
+      institution: Organized by LOCUS
+    - title: Organizer of Robowarz 
+      year: 2019
+      institution: Organized by LOCUS
+
+- title: Online Certifications
+  type: list
+  contents:
+    - <a href="https://coursera.org/share/f0399ab3b4eb5cdb16f84fcf7ec53e27">Introduction to Deep Learning – Coursera</a>
+    - <a href="https://coursera.org/share/619dc63284faefa9e310782781a52be0">Deep Learning in Computer Vision - Coursera</a>
+    - <a href="https://coursera.org/share/f459a7662f3a9d67e775123b48826dd6">AI for Medical Diagnosis -  Coursera</a>
+    - <a href="https://coursera.org/share/db31ed70e522272078784c92e6876148">AI for Medical Prognosis - Coursera</a>
+    - <a href="https://coursera.org/share/4413d67c2b75fb5068809da072c6ce8a">Robotics:Perception - Coursera</a>
+    - <a href="https://coursera.org/share/e060c70907be7a579ae81ab4faf2da78">Robotics:Estimation and Learning - Coursera</a>
+    - <a href="https://coursera.org/share/33c20fa1bca4b4c7285bf41b800c77d1">Advanced Recommender System - Coursera</a>
+    - <a href="https://coursera.org/share/238e80f752379230debe7ed18b88a30f">AWS Cloud Technical Essentials – Coursera</a>
+    - <a href="https://coursera.org/share/d09eebdc1cb35e9ce0511d3cd4541d9e">AWS Cloud Practitioner Essentials - Coursera</a>
+    - <a href="https://coursera.org/share/18e980363a2549fb555edb40265099ae">Computer Vision Basics - Coursera</a>
+    - <a href="https://coursera.org/share/8cd3b84022c203ef5d9ca571ba64b975">Introduction to Computer Vision and Image Processing - Coursera</a>
+    - <a href="https://coursera.org/share/33c20fa1bca4b4c7285bf41b800c77d1">Advanced Recommender System - Coursera</a>
+    - <a href="https://coursera.org/share/70440df79913c12d3c89918e08a0edf9">The Raspberry Pi Platform and Python Programming for the Raspberry Pi - Coursera</a>
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Sports:</u> Basketball, Badminton
+    - <u>Music:</u> Flute
+    - <u>Art:</u> Sketch, String-Arts, Straw-Arts, Crafts 

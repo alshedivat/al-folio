@@ -1,80 +1,64 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Visual Localisation of Robot
+description: Localisation of the mobile robot in case of changing environment by help of camera using concept of multiview geometry and computer vision.
+img: assets/img/turtlebot.jpg
 importance: 1
-category: work
+category: academics
+pdf: POSTER_Major_Project.pdf
 ---
+<iframe src="https://player.vimeo.com/video/757833955?h=f6b17b597f" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<a href="/assets/pdf/Visual_Localization.pdf">Get Full Project Report here</a> <br>
+<a href="/assets/pdf/Major_Project_pos.pdf">Get Project Poster here</a><br>
+<a href="/assets/pdf/Major_Project_Slides.pdf">Get Presentation Slides of Project here</a>
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Autonoumous navigation of robot has been a popular task in the field of robotics. In order to navigate the robot needs to first of all perceive the surroundings. How do we human perceive the environment?? We have five senses among which vision is most important one. Similar to human eye camera is used by the robots as a sensor to perceive enviornment through vision. For purpose of mapping the unknown environment and then localising yourself SLAM frameworks are used in robotics. Visual SLAM is type of SLAM which is based upon vision sensor such as monocular camera, stereo camera, kinects etc. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/map.png " title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/localize.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/trajectory.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div>
+    <div class="caption">
+        <b>a)</b> Mapping of a room.<b>b)</b>Localization in the map<b>c)</b>Trajectory of the camera 
+</div>
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/sfm_paradigm.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Workflow of Structure from motion paradigm used in VSLAM
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+Structure from motion paradigm is used in this project generate the map of the environment and localise the camera in the map. It uses monocular camera only to for purpose of mapping and localisation. Dynamic enviornment, varying lighting condition and changing surrounding are major drawbacks for SLAM. We have tried to overcome the problem of dynamic environment as well. Moving objects such as people needs to be rejected while generating map and only static entities are to be considered. We have used segmentation technique to mask the dynamic objects while creating map.
 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/dynamic_env.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/turtlebot.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    <b>Left:</b> Dynamic objects segmentation <b>Right:</b>Turtlebot
 </div>
 
+<h3> TEAM </h3>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/team_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-```
-{% endraw %}
