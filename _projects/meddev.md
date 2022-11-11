@@ -4,7 +4,7 @@ title: MIT Medical Device Design
 description: Design of a quick-connect coupling for dialysis
 img: assets/img/meddev_1.jpeg
 importance: 1
-category: work
+category: hardware
 ---
 
 For my senior capstone class, Design of Medical Devices, my team and I sought out to create an improved connection system for peritoneal dialysis. Peritoneal dialysis (PD) can be done at home and has the potential to be less expensive than its in-clinic counterpart Hemodialysis, but it is currently not available to many patients because current systems require great dexterity from the user and are costly. Our solution was to design an improved, low-cost connection system that could interface with existing systems to make PD accessible to more patients.

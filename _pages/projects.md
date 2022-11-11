@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of projects from recent years.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [hardware]
 horizontal: false
 ---
 

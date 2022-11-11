@@ -4,7 +4,7 @@ title: roxie the robot
 description: Competition robot for MIT's Design & Manufacturing class
 img: assets/img/roxie_view1.jpeg
 importance: 2
-category: work
+category: hardware
 ---
 
 For 2.007 (Design and Manufacturing I), I designed and fabricated a fully functioning robot to complete in a class-wide tournament. During my semester, the competition adopted a Home Alone theme based on the movie, and it was held virtually over zoom. Build kits were shipped to all class participants, and we did all of our design and fabrication work from home.
