@@ -5,10 +5,16 @@ title: teaching
 description: Materials for students.
 nav: true
 nav_order: 4
-horizontal: false
+dropdown: true
+children: 
+    - title: Machine Learning
+      permalink: /teaching/2_teaching
+    - title: divider
+    - title: Inteligencia de Datos
+      permalink: /teaching/1_teaching
 ---
 
-This page hosts different academic resources for courses I teach. This includes lecture notes, presentations, links, videos, and Google Colab programs. Feel free to lurk around.
+This page hosts different academic resources for some academic programs I have/had the pleasure to teach. This might include lecture notes, presentations, links, videos, and Google Colab programs. Feel free to lurk around.
 
 <!-- pages/projects.md -->
 <div class="projects">

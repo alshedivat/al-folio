@@ -16,9 +16,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome to my personal website! Here you can learn a little about myself, my interests, current projects, and important information/resources (in Spanish) for my courses. 
+Welcome to my personal website! Here you can learn a little about myself, my current projects, and more. Also, this website hosts academic resources (in Spanish) for the courses I had the pleasure to teach. Useful for past and future students! 
 
-I am a PhD student at Universidad Iberoamericana under the guidance of Dr. Jorge Ángel González Ordiano, Dr. José Emilio Quiroz Ibarra, and Dr. Steve Simske. The research topic is *Multimodal Sentiment Analysis on Digital Social Networks*.
+I am a PhD student at Universidad Iberoamericana Ciudad de México under the guidance of Dr. Jorge Ángel González Ordiano, Dr. José Emilio Quiroz Ibarra, and Dr. Steve Simske. The research project is named *Multimodal Sentiment Analysis on Digital Social Networks*.
 
 Additionally, I have the fortune to work teaching undergraduates at the university since spring 2022. Teaching urges you to improve and update your knowledge, thus challenging yourself to be a better academic for your student's sake.
 
