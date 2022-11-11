@@ -12,7 +12,7 @@ horizontal: false
 #Science Communication Projects
 ##World Science Festival
 
-![me dressed as einstein](/assets/img/ericaseinstien.jpg)
+![me dressed as einstein](/assets/img/ericaseinstein.jpg)
 
 The [World Science Festival](https://www.worldsciencefestival.com/) was highly influential in my decision to return to school. I was lucky enough to volunteer for the WSF on several occasions before the pandemic. As a Science Ambassador for the WSF, I would occasionally spend weekends teaching physics to students of all ages through demonstrations and presentations in the *City of Science* program. If the program returns, I highly suggest volunteering as much as your schedule allows. Sign up at [World Science Festival](https://www.worldsciencefestival.com/).
 
