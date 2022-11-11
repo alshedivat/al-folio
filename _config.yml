@@ -8,7 +8,6 @@ middle_name: A.
 last_name: Martinez
 email: bekamtz@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Hi! I'm Beka Martinez, an analytics developer and forever a machine learning student living in ~~Saigon~~ New York. 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -269,7 +268,7 @@ more_authors_animation_delay: 10  # more authors are revealed on click using ani
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
