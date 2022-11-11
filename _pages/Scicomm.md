@@ -10,14 +10,14 @@ horizontal: false
 ---
 
 
-World Science Festival
+<font size="+2">World Science Festival</font>
 
 <!-- ![me dressed as einstein](/assets/img/ericaseinstein.jpg) -->
 <img src="/assets/img/ericaseinstein.jpg" alt="me dressed as einstein" width="500"/>
 
 The [World Science Festival](https://www.worldsciencefestival.com/) was highly influential in my decision to return to school. I was lucky enough to volunteer for the WSF on several occasions before the pandemic. As a Science Ambassador for the WSF, I would occasionally spend weekends teaching physics to students of all ages through demonstrations and presentations in the *City of Science* program. If the program returns, I highly suggest volunteering as much as your schedule allows. Sign up at [World Science Festival](https://www.worldsciencefestival.com/).
 
-Physics Office Hours (PhysicsOH)
+<font size="+2">Physics Office Hours (PhysicsOH)</font>
 
 <!-- ![Physics Office Hours ](/assets/img/Scicommpic.png) -->
 <img src="/assets/img/Scicommpic.png" alt="Physics Office Hours" width="500"/>
