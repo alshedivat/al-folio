@@ -1,12 +1,14 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Lecture Notes
 description: Materials for courses you taught. Replace this text with your description.
-nav: false
+nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<font size="+3">Lecture Notes</font>
 
-Organize your courses by years, topics, or universities, however you like!
+<font size="+1">PHYS 132: Introduction to Electricity and Magnetism (Calc Based) </font>
+
+These lecture notes are from summer sessions 2021 and 2022. Video recordings of the 2021 summer sessions are available for Binghamton University students through Panopto (BU login required). The course follows [Halliday and Resnick](https://www.amazon.com/Fundamentals-Physics-Binder-Ready-Version/dp/1118230647): [Lecture Notes](https://drive.google.com/drive/folders/1m4fHfKRW3h1h9YPrp1GtryUB92oPLM87?usp=share_link)
