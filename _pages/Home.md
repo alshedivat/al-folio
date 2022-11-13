@@ -22,8 +22,7 @@ I am a PhD Student in Economics at [Columbia University](https://econ.columbia.e
 
 My research interests include Industrial Organization, Public Economics, Bayesian Statistics and Natural Language Processing.
 
-My Erdos number is [6](https://www.csauthors.net/distance/paul-erdos/szymon-sacher) and my Carlsen number is [3](https://freopen.org/@/FlaxJax). I have recently joined <a rel="me" href="https://econtwitter.net/@szymon_sacher">Mastodon</a>.
-
+My Erdos number is [6](https://www.csauthors.net/distance/paul-erdos/szymon-sacher) and my Carlsen number is [3](https://freopen.org/@/FlaxJax). 
 ### Contact
 
 szymon.sacher@columbia.edu
