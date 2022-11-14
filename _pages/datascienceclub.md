@@ -12,8 +12,11 @@ nav_order: 8
 A weekly meeting for anyone who wants to learn about and apply Data Science for real-world problem settings in a casual environment!
 
 <div style="background-color:orange; color: black; padding: 1em">
-    <strong>First meeting</strong>: Monday, 14.11.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 362. <strong>Bring your laptops!</strong><br/>
+    <strong>First meeting</strong>: Monday, 14.11.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210. <strong>Bring your laptops!</strong><br/>
     Please <a href="https://docs.google.com/spreadsheets/d/1ZPt9m8JrT8ZRWUpqNRBokjKOl4eNtEJrlXDeJEhBFyk/edit?usp=sharing"><b>sign up here</b></a>, so I can plan a little.
+</div>
+<div style="background-color:lightblue; color: black; padding: 1em">
+    <strong>Room change</strong>: Monday, 14.11.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room <strong>210</strong>.
 </div>
 
 <div style="text-align: center; margin-bottom: 1em">
