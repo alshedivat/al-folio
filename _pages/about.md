@@ -22,5 +22,3 @@ My name is Zheyuan Zhang (张喆元 in chinese). You can call me Brian. I am a R
 Click to view my latest [Curriculum Vitae](assets/cv.pdf).
 
 My [research interests](blog/2022/research-interests/) lie in the intersection of artificial intelligence and cognitive science because I am extremely passionate about exploring how the brain works and how we understand the world by using computational models, that includes how humans and animals process visual and semantic information. To this end, I want to use insights and inspirations from cognitive psychology and neuroscience to advance interesting topics including deep learning, computer vision, natural language processing, multimodal learning, continual learning, embodied intelligence, generative models and robotics.
-
-I have many hobbies. In my spare time, I enjoy watching TV-series (especially for the genres of mystery and thriller) and playing games (was). I usually go to gym 3-5 times a week lifting weights to train my strength and physique. Besides, I am an audiophile who loves Hi-Fi (High Fidelity) devices including headphones, speakers, DACs and amplifiers.
