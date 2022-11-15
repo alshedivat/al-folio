@@ -34,7 +34,7 @@ jobs:
         elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. master, source etc
           echo "::set-output name=SRC_BRANCH::${GITHUB_REF#refs/heads/}"
         fi
-        echo "::set-output name=DEPLOY_BRANCH::cf-pages"
+        echo "::set-output name=DEPLOY_BRANCH::testing"
     - name: Deploy website 
       run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 
