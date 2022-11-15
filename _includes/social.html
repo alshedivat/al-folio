@@ -88,3 +88,9 @@
             {%- if site.rss_icon -%}
             <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
             {% endif %}
+            {%- if site.philpeople_username -%}
+            <a href="https://philpeople.org/profiles/{{site.philpeople_username}}" title="PhilPeople"> <i class="ai ai-archive"></i> </a>
+            {% endif %}
+            {%- if site.lattes_id -%}
+            <a href="http://lattes.cnpq.br/{{site.lattes_id}}" title="PhilPeople"> <i class="ai ai-archive-square ai-3x"></i> </a>
+            {% endif %}
