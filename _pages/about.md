@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'><b>SITE</b></a> **IS UNDER MAINTENANCE** this is only a preview
+subtitle: <b><a href='#'>SITE</a> IS UNDER MAINTENANCE</b> this is only a preview
 
 profile:
   align: right
