@@ -9,6 +9,8 @@ tags:
 
 <img src="/assets/img/transitionary.png" alt="Chef to Physicist" width="600"/>
 
+(The date reflected on the post is the date that I migrated the post over from LinkedIn. The original story is from 2019)
+
 (Preface (08/21/2020); I wrote this a few years ago and edited/updated it last year. This is the story of my career change and the emotions that were experienced along the way. I have no ill feelings toward those who took advantage of me, and I hope those who I was unpleasant to have none for me as well. This is my story of the inevitable downfall, and my painful climb back up.)
 
 Sitting on the porch during a warm fall evening, a close friend whom I have known for years pleaded passionately with me about my underperformance with grades. There was a calm expression on my face as the words, passed through my emotions like wind through a swing-set. My research was moving forward nicely, with several professors interested in my abilities, my performance in several competitions was above average, but the GPA I was sporting as I entered my fourth year of undergraduate was dangerously low. However, I was overly confident in my ability to squeeze by and become the modern Reimann. Despite my acute ability for theoretical mathematics, I was unable to follow the pattern that was predicting the letter I received shortly following my marriage less than a year after that anticipatory conversation. I was “academically dismissed”, which was the most pleasant way possible, for the registrar’s office of Rowan University to inform me that I had failed.
