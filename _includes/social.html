@@ -8,7 +8,7 @@
             <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a>
             {% endif %}
             {%- if site.scholar_userid -%}
-            <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+            <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar-square"></i></a>
             {% endif %}
             {%- if site.semanticscholar_id -%}
             <a href="https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a>
@@ -24,9 +24,6 @@
             {% endif %}
             {%- if site.linkedin_username -%}
             <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            {% endif %}
-            {%- if site.twitter_username -%}
-            <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a>
             {% endif %}
             {%- if site.mastodon_username -%}
             <a rel="me" href="https://{{ site.mastodon_username  }}" title="Mastodon"><i class="fab fa-mastodon"></i></a>
@@ -89,8 +86,11 @@
             <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
             {% endif %}
             {%- if site.philpeople_username -%}
-            <a href="https://philpeople.org/profiles/{{site.philpeople_username}}" title="PhilPeople"> <i class="ai ai-archive"></i> </a>
+            <a href="https://philpeople.org/profiles/{{site.philpeople_username}}" title="PhilPeople"> <i class="ai ai-psyarxiv-square"></i> </a>
             {% endif %}
             {%- if site.lattes_id -%}
-            <a href="http://lattes.cnpq.br/{{site.lattes_id}}" title="PhilPeople"> <i class="ai ai-archive-square ai-3x"></i> </a>
+            <a href="http://lattes.cnpq.br/{{site.lattes_id}}" title="Lattes"> <i class="ai ai-lattes"></i> </a>
+            {% endif %}
+            {%- if site.twitter_username -%}
+            <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a>
             {% endif %}
