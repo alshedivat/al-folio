@@ -4,10 +4,12 @@ on:
   push:
     branches:
       - org-testing
+      - cloudflare
 
   pull_request:
     branches:
       - cloudflare
+      - org-testing
 
 jobs:
   deploy:
