@@ -1,0 +1,5 @@
+tap "homebrew/bundle"
+tap "homebrew/core"
+brew "proj"
+brew "gdal"
+brew "hugo"
