@@ -28,8 +28,8 @@
             {%- if site.twitter_username -%}
             <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a>
             {% endif %}
-            {%- if site.mastodon_instance and site.mastodon_username -%}
-            <a rel="me" href="https://{{ site.mastodon_instance  }}/@{{site.mastodon_username}}" title="Mastodon"><i class="fab fa-mastodon"></i></a>
+            {%- if site.mastodon_username -%}
+            <a rel="me" href="https://{{ site.mastodon_username  }}" title="Mastodon"><i class="fab fa-mastodon"></i></a>
             {% endif %}
             {%- if site.medium_username -%}
             <a href="https://medium.com/@{{ site.medium_username }}" title="Medium"><i class="fab fa-medium"></i></a>
