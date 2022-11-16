@@ -7,7 +7,7 @@ comments: true
 tags:
 ---
 
-<img src="https://ericaspling.com/assets/img/transitionary.png" alt="Chef to Physicist" width="600"/>
+<img src="https://ericaspling.github.io/assets/img/transitionary.png" alt="Chef to Physicist" width="600"/>
 
 (The date reflected on the post is the date that I migrated the post over from LinkedIn. The original story is from 2019)
 
