@@ -9,6 +9,7 @@ nav_order: 4
 
 2022
 
+* Piranesi - Susanna Clarke
 * Digital Minimalism: Choosing a Focused Life in a Noisy World - Cal Newport
 * Briar Rose - Jane Yolen
 * Genghis Khan and the Making of the Modern World - Jack Weatherford
