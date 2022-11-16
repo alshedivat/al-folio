@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Robot Grasping and Manipulation
+description: My work related with robot grasping and manipulation
+img: assets/img/grasp.jpg
 importance: 2
 category: work
 ---
