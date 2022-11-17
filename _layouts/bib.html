@@ -41,7 +41,7 @@
     </div>
     {% if entry.type == "thesis" %}
       <div class="author">
-        <em>{{site.scholar.last_name}}, {{site.scholar.first_name}}</em>
+        <em>{{site.scholar.first_name}} {{site.scholar.last_name}}</em>
         {% if entry.advisor %}
           (supervised by
           {% assign advisor = entry.advisor | split: ", " | reverse %}
@@ -56,7 +56,7 @@
             {% endfor %}
           {% endif %}
           {% if advisor_url %}
-            <a href="{{advisor_url}}" target="_blank">{{advisor_last}}, {{advisor_first}}</a>)
+            <a href="{{advisor_url}}" target="_blank">{{advisor_first}} {{advisor_last}}</a>)
           {% else %}
             {{author.first}} {{author.last}})
           {% endif %}
