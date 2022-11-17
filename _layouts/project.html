@@ -27,9 +27,11 @@ layout: noheader
     <p class="project-venue">{{page.venue}}</p>
     {% if page.links %}
     <div class="project-links">
-      {% for link in page.links %}
-      <a href="{{ link[1] }}" class="btn btn-sm z-depth-0" role="button"
-        >{{link[0]}}</a
+      {% for link in page.links %} {% assign link_text = link[0] %} {% assign
+      link_url = link[1] %} {% unless link_url contains '://' %} {% assign
+      link_url = link_url | relative_url %} {% endunless %}
+      <a href="{{ link_url }}" class="btn btn-sm z-depth-0" role="button"
+        >{{link_text}}</a
       >
       {% endfor %}
     </div>
