@@ -20,4 +20,4 @@ social: true  # includes social icons at the bottom of the page
 
 I am Qingqin Liu (刘晴钦 in Chinese), a second-year Master student in the Department of Communication of Science and Technology at University of Science and Technology of China, advised by Prof. Yanxiang Zhang.
 
-I am interested in enabling interactions using different modalities(touch, gestures, haptics, gaze, etc.), and on different devices (hand-held, head-mounted, in midair, esp. VR/AR/MR). Also, I am excited about game interaction and interfaces, the design and development of games, and player experience evaluation.
+I am interested in enabling human-computer interactions using different modalities(touch, gestures, haptics, gaze, etc.), and on different devices (hand-held, head-mounted, in midair, esp. VR/AR/MR). Also, I am interested in game interaction and interfaces, the design and development of games, and player experience evaluation.
