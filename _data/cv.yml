@@ -8,7 +8,7 @@
     - name: Languages
       value: English, Chinese, Cantonese
     - name: ➡️
-      value: Please download my CV for more information!
+      value: Please download my <a href="/assets/pdf/Qingqin_Liu-CV-1116-2022.pdf"> CV </a> for more information!
 
 - title: Academic Interests
   type: nested_list
@@ -28,19 +28,19 @@
   type: time_table
   contents:
     - title: Master of Journalism and Communication
-      institution: University of Science and Technology, Hefei, P.R. China
+      institution: University of Science and Technology of China, Hefei, P.R. China
       year: 2021 - 2023
       description:
         - Department of Communication of Science and Technology
         - "Advisor: Prof. Yanxiang Zhang"
     - title: Research Assistant
-      institution: University of Science and Technology, Hefei, P.R. China
+      institution: University of Science and Technology of China, Hefei, P.R. China
       year: 2019 - present
       description:
         - Digital Art Lab
-        - Description 2.
+        - "Supervisor: Prof. Yanxiang Zhang"
     - title: Bachelor of Natural Science in Astronomy
-      institution: University of Science and Technology, Hefei, P.R. China
+      institution: University of Science and Technology of China, Hefei, P.R. China
       year: 2015 - 2019
       description:
         - Department of Astronomy
@@ -49,4 +49,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Game(Play/Design/Create), Reading, GUNDAM, Football.
