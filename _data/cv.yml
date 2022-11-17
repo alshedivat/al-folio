@@ -10,26 +10,12 @@
     - name: ➡️
       value: Please download my <a href="/assets/pdf/Qingqin_Liu-CV-1116-2022.pdf"> CV </a> for more information!
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Human-computer Interaction
-      items:
-        - VR/AR/MR
-        - Natural Interaction
-        - User Perception
-    - title: Digital Game
-      items:
-        - Game Design
-        - Player Experience
-        - Metafictional Game
-
 - title: Education
   type: time_table
   contents:
     - title: Master of Journalism and Communication
-      institution: University of Science and Technology of China, Hefei, P.R. China
-      year: 2021 - 2023
+      institution: University of Science and Technology of China(USTC), Hefei, P.R. China
+      year: 2021 - 2023(Expected)
       description:
         - Department of Communication of Science and Technology
         - "Advisor: Prof. Yanxiang Zhang"
@@ -45,6 +31,34 @@
       description:
         - Department of Astronomy
         - School of Physical Sciences
+
+- title: Teaching Assistant
+  type: time_table
+  contents:
+    - title: HS1584 Contemporary Sci-Tech ART
+      institution: USTC
+      year: FALL 2021
+      description:
+        - "Instructor: Prof. Yanxiang Zhang"
+    - title: NNM1501 Creative Design and Application of VR/AR/MR Technology
+      institution: USTC
+      year: FALL 2021
+      description:
+        - "Instructor: Prof. Yanxiang Zhang"
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Human-computer Interaction
+      items:
+        - VR/AR/MR
+        - Natural Interaction
+        - User Perception
+    - title: Digital Game
+      items:
+        - Game Design
+        - Player Experience
+        - Metafictional Game
 
 - title: Other Interests
   type: list
