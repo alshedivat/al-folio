@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 group :jekyll_plugins do
     gem 'jekyll'
     gem 'jekyll-archives'
@@ -21,3 +21,4 @@ group :other_plugins do
     gem 'httparty'
     gem 'feedjira'
 end
+
