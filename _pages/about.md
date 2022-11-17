@@ -23,7 +23,7 @@ Currently, I'm completing my Master's degree at the beautiful Federal University
 
 The focus of my current work is how mechanistic crtieria of constitution can help us to delineate the neurocognitive systems for episodic memory and imagination. 
 
-You can find out more about my research by taking a look at [my CV](/cv/), or my [PhilPeople's page](https://philpeople.org/profiles/matheus-diesel-werberich).
+You can find out more about my research by taking a look at [my CV](/cv/), or my [PhilPeople page](https://philpeople.org/profiles/matheus-diesel-werberich).
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
