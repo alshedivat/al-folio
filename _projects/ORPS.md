@@ -1,0 +1,16 @@
+---
+layout: page
+title: Operating theater
+description: Planning and scheduling under uncertainty
+img: assets/img/OR.jpg
+importance: 4
+category: Healthcare
+---
+
+Healthcare expenditures account for more than 10% of the majority of developed countries, of which the most of costs were spent in hospitals. It is also known that more than 50% of hospitals’ costs are incurred by operating theaters due to their expensive resources and complex resource allocation decisions. For example, it is reported that a functioning *Operating Room* (OR) in California, the US costs $36/minute on average. Also, surgery is a vital process in health centers. It is known that more than 60% of patients visiting health centers require treatments in operating theaters. With an aging population, the need for surgical capacity is likely to increase. All this underlines the importance of ensuring the efficient use of resources in operating theaters.
+
+OR planning and scheduling systems could be classified as follows: open scheduling, block scheduling and modified block scheduling. In the open scheduling system, surgery time is allocated to the first surgeon who requests it. The block scheduling system assigns each OR-block to a specialty; so, two different specialties cannot operate in the same OR-block. Here, a block is an interval of time. Its length must be greater than the time unit which can be assigned to a specialty in an OR. For using the benefits of open and block scheduling systems, the modified block scheduling system combines them.
+
+Generally, the OR planning and scheduling problem includes three hierarchical decision-making levels: strategic, tactical, and operational. At the strategic level, management and experts determine the time, throughout a planning horizon, when each specialty can operate on its surgical cases. At the tactical level, available ORs are allocated to each specialty (master surgical scheduling) based on the decision made at the previous level. Each OR’s available time is split up into some blocks, then, these blocks are allocated to specialties. At the operational level, each surgical case is assigned to a specific OR-block (advance scheduling problem). Furthermore, the sequence of surgeries can be specified at this level (allocation scheduling problem).
+
+This project aims to optimize the use of ORs and a variety of expensive upstream and downstream resources (e.g., the post-anesthesia care unit, intensive care unit, hospital beds, equipment resources such as mobile diagnostic imaging devices), and human resources (e.g., surgeons, nurses, anesthesiologists, and other staff). The unpredictable nature of surgery results in uncertainty in the duration of surgery and patient recovery. This can be caused by many factors including the varying experience of surgeons and operating room teams, the presence of residents or surgical fellows in academic medical centers, or patient characteristics like age, weight, or unobservable physiological factors that only become known at the time of surgery. Accordingly, this research incorporates a stochastic optimization method by which practitioners can take different sources of uncertainty into account. We propose multi-disciplinary and holistic solution approaches to address the OR planning and scheduling problem while satisfying the interests of all stakeholders.
