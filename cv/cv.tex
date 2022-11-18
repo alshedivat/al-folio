@@ -61,7 +61,7 @@
 
 \newcommand{\resumeSubheading}[4]{
 	\vspace{-1pt}\item
-	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
 		\textbf{#1} & #2 \\
 		#3 & #4 \\
 	\end{tabular*}\vspace{-5pt}
@@ -69,7 +69,7 @@
 
 \newcommand{\resumeSmallheading}[4]{
 	\vspace{-1pt}\item
-	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
 		#1 & {#2} \\ 
 		#3 & #4 \\
 	\end{tabular*}\vspace{-5pt}
@@ -80,7 +80,7 @@
 \renewcommand{\labelitemii}{$\circ$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
-	\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 	\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
@@ -93,7 +93,7 @@
 	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
 		\textbf{{\LARGE Ivan Puhachov}} & Email: \href{mailto:}{ivan.puhachov@gmail.com}\\
 		Website:~\href{https://puhachov.xyz/}{\texttt{[puhachov.xyz]}} & Mobile: +1-514-XXXX-XXX \\
-		Github:~~\href{https://github.com/ivanpuhachov/}{\texttt{[github.com/ivanpuhachov]}} & Last updated: July 2022\\
+		Github:~~\href{https://github.com/ivanpuhachov/}{\texttt{[github.com/ivanpuhachov]}} & Last updated: November 2022\\
 	\end{tabular*}
 
 \vspace{5pt}
@@ -108,18 +108,75 @@
 	\resumeSubheading
 	{Stability-Aware Simplification of Curve Networks}
 	{SIGGRAPH 2022}
-	{William Neveu, \underline{Ivan Puhachov}, Bernard Thomaszewski, Mikhail Bessmeltsev}
+	{
+		\begin{tabular}[t]{l}
+			William Neveu, \underline{Ivan Puhachov}, Bernard Thomaszewski, Mikhail Bessmeltsev \\
+			\textbf{TLDR}: design a curve network on a shape by worst-case stability criterion.\\
+			Simplified mixed-integer semi-definite programming to an efficient greedy algorithm.\\
+		\end{tabular}
+		
+	}
 	{\href{http://www-labs.iro.umontreal.ca/~bmpix/curve_networks/}{\texttt{[project page]}}\href{https://dl.acm.org/doi/10.1145/3528233.3530711}{\texttt{[acm]}}}
 	
-	\vspace{2pt}
+	\vspace{4pt}
 	\resumeSubheading
 	{Keypoint-Driven Line Drawing Vectorization via PolyVector Flow}
 	{SIGGRAPH Asia 2021}
-	{\underline{Ivan Puhachov}, William Neveu, Edward Chien, Mikhail Bessmeltsev}
+	{
+		\begin{tabular}[t]{l}
+			\underline{Ivan Puhachov}, William Neveu, Edward Chien, Mikhail Bessmeltsev \\
+			\textbf{TLDR}: novel PolyVector flow aligns curve to a smooth cross-field over bitmap image. \\
+			Combined with ML detection to vectorize drawings.\\
+		\end{tabular}
+	}
 	{\href{https://puhachov.xyz/publications/keypoint-driven-polyvector-flow/}{\texttt{[project page]}}
 	\href{https://dl.acm.org/doi/10.1145/3478513.3480529}{\texttt{[acm]}}}
 	
 	\resumeSubHeadingListEnd
+	
+	%-----------EXPERIENCE-----------------
+	
+	\vspace{1pt}
+	\section{Experience}
+	\resumeSubHeadingListStart
+	
+	\resumeSubheading{Research Engineering Intern}{Montreal, Canada}
+	{Quantum Technology Recruiting Inc. on assignment with Huawei Canada}{Oct 2021 - Present}
+	\resumeItemListStart
+	\resumeItem
+	{TBD}
+	{Research project to submit: 3D shape reconstruction from a single raster sketch. \\ In collaboration with \href{http://www-labs.iro.umontreal.ca/~bmpix/}{Mikhail Bessmeltsev} and \href{https://www.cs.mcgill.ca/~kry/}{Paul Kry}}
+	\resumeSubHeadingListEnd
+	
+	%\vspace{-5pt}
+	\vspace{2pt}
+	
+	\resumeSubheading
+	{Machine Learning Research Intern}{Kharkiv, Ukraine}
+	{\href{https://mobidev.biz/}{MobiDev}}{Feb 2019 -  Aug 2019}
+	\resumeItemListStart
+	\resumeItem{Bio-verification system}
+	{Image quality assesment system; fine-tuning face verification system}
+	\resumeItem{Object detection and tracking}
+	{PoC for multiple object tracking}
+	\resumeItem{Sales forecast}{Time-series analysis}
+	\resumeItemListEnd
+	
+	\resumeSubHeadingListEnd
+	
+	%-----------EDUCATION-----------------
+	\section{Skills Summary}
+	\vspace{2pt}
+	\textbf{Languages: }{\texttt{Python, C++, bash, Matlab}}
+	
+	\vspace{1pt}
+	
+	\textbf{Frameworks: }{\texttt{PyTorch, NumPy, SciPy, CGAL, libigl, Eigen}}
+	
+	\vspace{1pt}
+	
+	\textbf{Tools: }{\texttt{Blender, git, Ubuntu, Blender scripting, Adobe Illustrator scripting}}
+	
 	
 	%-----------EDUCATION-----------------
 	\vspace{5pt}
@@ -141,51 +198,6 @@
 	\resumeSubheading
 	{V.N. Karazin Kharkiv National University}{Kharkiv, Ukraine}
 	{BSc in Mathematics, School of Mathematics and Informatics, \href{http://geometry.karazin.ua/en}{Geometry}; GPA 3.66 / 4.0}{Sept 2013 - June 2017}
-	{\scriptsize { \footnotesize{\newline{}\textbf{Thesis:} “Caustics of curves and surfaces in space” (advisor: \href{http://geometry.karazin.ua/en/~yampolsky}{Alexander L. Yampolsky})}}}
-	
-	\resumeSubHeadingListEnd
-	
-	\vspace{-5pt}
-	\section{Skills Summary}
-	\vspace{2pt}
-	\textbf{Languages: }{\texttt{Python, C++, bash, Matlab}}
-	
-	\vspace{1pt}
-	
-	\textbf{Frameworks: }{\texttt{PyTorch, NumPy, SciPy, CGAL, libigl, Eigen}}
-	
-	\vspace{1pt}
-	
-	\textbf{Tools: }{\texttt{Blender, git, Ubuntu, Blender scripting, Adobe Illustrator scripting}}
-
-	
-	%-----------EXPERIENCE-----------------
-	
-	\vspace{3pt}
-	\section{Experience}
-	\resumeSubHeadingListStart
-	
-	\resumeSubheading{Research Engineering Intern}{Montreal, Canada}
-	{Quantum Technology Recruiting Inc. on assignment with Huawei Canada}{Oct 2021 - Present}
-	\resumeItemListStart
-	\resumeItem
-	{Currently}
-	{Research project to submit}
-	\resumeSubHeadingListEnd
-	
-	%\vspace{-5pt}
-	\vspace{5pt}
-	
-	\resumeSubheading
-	{Machine Learning Research Intern}{Kharkiv, Ukraine}
-	{\href{https://mobidev.biz/}{MobiDev}}{Feb 2019 -  Aug 2019}
-	\resumeItemListStart
-	\resumeItem{Bio-verification system}
-	{Image quality assesment system; fine-tuning face verification system}
-	\resumeItem{Object detection and tracking}
-	{PoC for multiple object tracking}
-	\resumeItem{Sales forecast}{Time-series analysis}
-	\resumeItemListEnd
 	
 	\resumeSubHeadingListEnd
 	
@@ -193,6 +205,8 @@
 	\vspace{-5pt}
 	\section{Activities}
 	\resumeSubHeadingListStart
+	\resumeSmallheading{\textbf{Volunteer, FoieGraph 2022} \textit{Annual Ontario-Quebec-Maritimes pre-SIGGRAPH Workshop}} {Fall 2022}  {Website dev, discord admin, presenter }{\href{https://foiegraph2022.github.io/}{\texttt{[website]}}}
+	\vspace{2pt}
 	\resumeSmallheading{\textbf{Teaching Assistant, IFT 6113} \textit{"Geometric Modeling and Shape Analysis"}} {Fall 2022, 2021, 2020}  {Homework code templates, assessment, face-to-face evaluation, tech support, forum moderation}{\href{http://www-labs.iro.umontreal.ca/~bmpix/teaching/6113/2022/}{\texttt{[course page]}}}
 	\vspace{2pt}
 	\resumeSmallheading{\textbf{Project IFT 6756} \textit{"Game Theory and Machine Learning"}} {Spring 2021}  {Trained a GAN models to generate vector images, short comparison with regular raster GANs}{\href{https://puhachov.xyz/projects/vector_gan/}{\texttt{[project page]}}}
