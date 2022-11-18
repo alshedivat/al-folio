@@ -32,6 +32,28 @@
         - Department of Astronomy
         - School of Physical Sciences
 
+- title: Selected Research Experiences
+  type: time_table
+  contents:
+    - title: more details in my <a href="/assets/pdf/Qingqin_Liu-CV-1116-2022.pdf"> CV </a>
+    - title: Metafictional Interaction Design and Player Experience in Virtual Reality
+      year: 08.2022 - present
+#      description:
+#        - Conducting formal analysis of VR and non-VR metafictional games, focusing on the interactions of these games to achieve breaking the fourth wall effect, currently expanding the number of games being analyzed.
+#        - Designed and developed a prototype of VR metafictional game, wrote game scripts and game plots.
+#        - Implemented in-game interactions (applying eye tracking and motion sensing), using Unity and plugins.
+#        - Currently evaluating the player experience of my designed VR metafictional game in a within-subjects user study (using SUS, GEQ and semi-structured interview).
+    - title: Video Game Network Based on User-generated Tags on Steam Platform
+      year: 03.2022 - 05.2022
+    - title: Redirected Walking (RDW) in 360° Video, User Perception and Applications
+      year: 07.2021 - 01.2022
+    - title: Combine Passive Haptic with 360° Videos in Augmented Virtuality
+      year: 09.2021 - 01.2022
+    - title: Human Perception of Slope Walking in Virtual Reality
+      year: 09.2021 - 01.2022
+    - title: Application of Augmented Reality in Web and Mobile Applications
+      year: 06.2018 – 05.2019
+
 - title: Teaching Assistant
   type: time_table
   contents:
