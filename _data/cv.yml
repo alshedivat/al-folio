@@ -12,7 +12,7 @@
       value: Chinese (汉语), English, Norsk (pre-beginner)
       
     - name: IT skills
-      value: Python, Matlab, QGIS, Adobe Premiere 
+      value: Python, Matlab, QGIS, GIS Automating
   
 - title: Education
   type: time_table
@@ -70,11 +70,12 @@
     - title: Cryosphere x Remote Sensing
       items: 
         - Snow and DEM
-        - Glaciers and periglacial geomorphology (not good at)
+        - Glaciers and periglacial geomorphology
     - title: Geospatial data science
       items:
-        - Open source geospatial tools (staying away from ArcGIS)
-        - Numerical modelling, data-driving solutions, machine learning (sometimes)
+        - Open source geospatial tools
+        - Geodata as a service
+        - Numerical modelling, data-driving solutions, machine learning
   
 - title: Other Interests
   type: list
