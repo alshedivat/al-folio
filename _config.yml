@@ -72,7 +72,7 @@ gitlab_username: # adehghanzadeh # your GitLab user name
 twitter_username: # infodior # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: dehghanzadeh # your LinkedIn user name
-telegram_username: # your Telegram user name
+telegram_username: iAlirezaD # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
@@ -81,7 +81,7 @@ medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
-blogger_url: https://past.pages.dev # your blogger URL
+blogger_url: # your blogger URL
 work_url: #https://alireza.pages.dev # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
