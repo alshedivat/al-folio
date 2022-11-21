@@ -13,7 +13,7 @@ For the foreground components we recommend 3 different sky models of increasing 
 
 For each model we specify the most important features, check [in the PySM 3 documentation](https://pysm3.readthedocs.io/en/latest/models.html) for more details.
 
-### Optimistic model
+### Low complexity
 
 PySM 3 emissions: `d9,s4,f1,a1,co1`
 
@@ -23,7 +23,7 @@ PySM 3 emissions: `d9,s4,f1,a1,co1`
 * AME: PySM 2 un-polarized AME model based on Commander up to $$N_{side}=512$$
 * CO: Galactic CO emissions of 3 main lines from Planck MILCA, un-polarized, $$N_{side}=2048$$
 
-### Bestguess model
+### Medium complexity
 
 PySM 3 emissions: `d10,s5,f1,a1,co3`
 
@@ -33,7 +33,7 @@ PySM 3 emissions: `d10,s5,f1,a1,co3`
 * AME: Optimistic
 * CO: Optimistic + .1% polarization
 
-### Pessimistic
+### High complexity
 
 PySM 3 emissions: `d12,s7,f1,a2,co3`
 
