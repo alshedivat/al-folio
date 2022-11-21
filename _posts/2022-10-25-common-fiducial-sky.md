@@ -27,18 +27,18 @@ PySM 3 emissions: `d9,s4,f1,a1,co1`
 
 PySM 3 emissions: `d10,s5,f1,a1,co3`
 
-* Dust: Optimistic + GNILC spectral index and black body temperature maps with small scales added
-* Synchrotron: Optimistic + spectral index maps with small scales added
-* Free-free: Optimistic
-* AME: Optimistic
-* CO: Optimistic + .1% polarization
+* Dust: Low-complexity + GNILC spectral index and black body temperature maps with small scales added
+* Synchrotron: Low-complexity + spectral index maps with small scales added
+* Free-free: Low-complexity
+* AME: Low-complexity
+* CO: Low-complexity + .1% polarization
 
 ### High complexity
 
 PySM 3 emissions: `d12,s7,f1,a2,co3`
 
 * Dust: 3D model of polarized dust emission with 6 layers, MKD, $$N_{side}=2048$$
-* Synchrotron: Bestguess + curvature map from ARCADE with small scales added
-* Free-free: Optimistic
-* AME: Optimistic + 2% polarization
-* CO: Bestguess
+* Synchrotron: Medium-complexity + curvature map from ARCADE with small scales added
+* Free-free: Low-complexity
+* AME: Low-complexity + 2% polarization
+* CO: Medium-complexity
