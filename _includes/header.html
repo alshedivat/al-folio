@@ -94,6 +94,16 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+                
+              <!-- My Blog -->
+              <li class="nav-item {% if page.permalink == '/past' %}active{% endif %}">
+                <a class="nav-link" href="https://past.pages.dev/">Blog➚
+                  {%- if page.permalink == '/past' -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
+                
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->
@@ -108,6 +118,7 @@
           </div>
         </div>
       </nav>
+
 {% if site.enable_progressbar %}
       <!-- Scrolling Progress Bar -->
       <progress id="progress" value="0">
