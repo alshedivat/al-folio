@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Some projects created by design-mind.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [Software Development, ML Model]
 horizontal: false
 ---
 
