@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-12-31 07:59:00-0400
+date: present
 inline: true
 ---
 
-Software Engineer at a trading firm / Continuous learning.
+Continuous learning, somehow trying to dicover a little bit more about life, Software Engineer at a trading firm
