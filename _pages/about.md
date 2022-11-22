@@ -15,9 +15,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Computer Science student at Cornell University with interests in cryptos, stocks, systems, and machine learning.
+I am a software engineer with professional interets in trading and finance. 
 
-Please feel free to connect with me on LinkedIn or shoot me an email for future collabs on [side projects](https://github.com/cliu0013), [hackathons](https://devpost.com/cl2373), or [other endeavors](https://opensea.io/collection/cryptokitties). I speak Mandarin and English.
+In my spare time I like to play various sports, and my favorites ones are basketball, snowboarding, and bouldering. Had some previous endeavors towards novel writing in Mandarin. It turned out to be kinda cheesy. If you'd like to take a look of my writing, please DM me and I would very much like to consider mailing you a free paperback version of my only work so far. You don't need to buy it [here](https://store.showwe.tw/books.aspx?b=129215).
+
+Please feel free to connect with me on LinkedIn or shoot me an email for future collabs on [side projects](https://github.com/cliu0013), [hackathons](https://devpost.com/cl2373), or [other endeavors](https://opensea.io/collection/cryptokitties). I speak Mandarin and English. Cheers!
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
