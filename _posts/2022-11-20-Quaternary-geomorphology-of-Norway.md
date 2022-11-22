@@ -5,7 +5,7 @@ author: Zhihao
 description: Quaternary geomorphology of Norway
 date: 2022-11-20
 tags: notes # notes\links\code\math\images
-categories: Geomorphology Glacier # topic
+categories: geomorphology glacier # topic
 bibliography: C:\Users\ZOZN109\AppData\Local\Pandoc\My _Library.bib
 csl: C:\Users\ZOZN109\AppData\Local\Pandoc\apa.csl
 lang: eng
