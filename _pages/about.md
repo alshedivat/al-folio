@@ -1,5 +1,5 @@
 ---
-layout: About
+layout: about
 title: About me
 permalink: /
 subtitle: Software Developer
