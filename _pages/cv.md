@@ -1,8 +1,8 @@
 ---
-layout: cv
-permalink: /cv/
+layout: 
+permalink: /assets/pdf/CV_ConstanzaAbuin.pdf
 title: cv
 nav: true
-nav_order: 4
-cv_pdf: example_pdf.pdf
+nav_order: 1
+cv_pdf: 
 ---

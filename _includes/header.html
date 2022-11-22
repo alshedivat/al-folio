@@ -52,7 +52,7 @@
                 </a>
               </li>
               {% if site.blog_nav_title %}
-              <!-- Blog -->
+              <!-- Blog 
               <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
                 <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
                   {%- if page.url contains 'blog' -%}
@@ -60,6 +60,7 @@
                   {%- endif -%}
                 </a>
               </li>
+              -->
               {%- endif %}
 
               <!-- Other pages -->
@@ -67,6 +68,7 @@
               {%- for p in sorted_pages -%}
               {%- if p.nav and p.autogen == nil -%}
               {%- if p.dropdown %}
+              <!--
               <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ p.title }}
                   {%- if page.title == p.title -%}
@@ -83,6 +85,7 @@
                   {% endfor %}
                 </div>
               </li>
+            -->
               {%- else %}
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
                 <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
