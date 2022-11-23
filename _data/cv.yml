@@ -1,7 +1,6 @@
 - title: General Information
   type: map
   contents:
-  
     - name: Full Name
       value: Zhihao LIU
       
@@ -12,12 +11,11 @@
       value: Chinese (汉语), English, Norsk (pre-beginner)
       
     - name: IT skills
-      value: Python, Matlab, Automating GIS, Git
+      value: Python, Matlab, Automating GIS, Git, Numerical Modeling
   
 - title: Education
   type: time_table
   contents:
-  
     - title: Master - Geoscience
       institution: University of Oslo, Oslo, Norway
       year: 2021-2023
@@ -27,17 +25,17 @@
         - Geophysical Data-science
         - Floods, Avalanches and Landslides
         - The Surface Energy Balance in Cold Environments
+        - Glacial and Periglacial Geomorphology
     - title: Bachelor - Geodesy and Geomatics
       institution: South West Petroleum University, Chengdu, P.R.C
       year: 2010-2014
       description:
-        - With background in Engineering, GIS, GNSS and Cartography.
+        - Background in Engineering, GIS, GNSS and Cartography.
         - Thesis - WebGIS System for Urban Infrastructures
 
 - title: Experience
   type: time_table
   contents:
-  
     - title: Field Technician & Geomatics professional
       institution: BGP Offshore, CNPC
       year: 2014 - 2020
@@ -54,11 +52,10 @@
 - title: Part-time and Volunteering
   type: time_table
   contents:
-
     - title: IT Helper - UiO Geo
       year: 2021.11 - Present
       description: IT troubleshooting.
-
+  
     - title: IMO 2022 - Volunteer  
       year: 2022.07
       description: For the first time, UiO (or Norway) hosted the 63rd International Mathematical Olympiad where we proudly represent the city of Oslo to welcome young mathematicians as a tour guide.
@@ -75,13 +72,13 @@
       items:
         - Open source geospatial tools
         - Geodata as a service
-        - Numerical modelling, data-driving solutions, machine learning
+        - Numerical modeling, data-driving solutions, machine learning
   
 - title: Other Interests
   type: list
   contents:
   
-    - <u>Writing:</u> Combat fake news in climate change and energy transition. 
-    - <u>Hobbies:</u> Marathon with 1h28 (21K) 3h29 (42K) of PB, Cross-country skiing.
+    - <u>Writing:</u> Combat fake news in climate change and energy transition at Zhihu.com 
+    - <u>Hobbies:</u> Marathon with 1h28 (21K) 3h29 (42K) of PB, Cross-country skiing. OSI Friluft (Board member).
     - <u>OnePiece:</u> What's the will of D?
 
