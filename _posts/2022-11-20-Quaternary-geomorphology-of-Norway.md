@@ -304,7 +304,7 @@ This field trip and the related lab exercise give a good description of the proc
  - The age of the palsa. How long it can persist under 'unsuitable climate conditions? or how long it has persisted? There is no direct correlation between the rate of degradation and increasing MAAT, precipitation or snow depth [@borge.etal_2017], why?
 - The snow-covered shrub branches also cool permafrost by thermal bridging [@domine.etal_2022], acting like the blockfield [@juliussen.humlum_2008]?
 
-In summary, it was a fun field trip, covering so many interesting topics, and connecting everything! Many thanks to Henning, Karianne, Benn, and Martin for guiding us getting through this Ice Age Museum.
+In summary, it was a fun field trip, covering so many interesting topics, and connecting everything! Many thanks to Henning, Karianne, Bernd, and Martin for guiding us getting through this Ice Age Museum.
 
 ## References
 - Alley, R. B. (2000). Ice-core evidence of abrupt climate changes. Proceedings of the National Academy of Sciences, 97(4), 1331–1334. https://doi.org/10.1073/pnas.97.4.1331
