@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Sonia's site # the website title (if blank, full name will be used instead)
+title: # the website title (if blank, full name will be used instead)
 first_name: Sonia
 middle_name: Khasanah
 last_name: Amalia
@@ -16,7 +16,7 @@ footer_text: >
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://alshedivat.github.io # the base hostname & protocol for your site
 baseurl: /sonia-site # the subpath of your site, e.g. /blog/
@@ -47,8 +47,8 @@ rss_icon: true
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: false
-footer_fixed: false
+navbar_fixed: true
+footer_fixed: true
 
 # Dimensions
 max_width: 800px
@@ -114,7 +114,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: sonia-site # blog_name will be displayed in your blog page
+blog_name: Site of Sonia # blog_name will be displayed in your blog page
 blog_nav_title: Portofolio # your blog must have a title for it to be displayed in the nav bar
 blog_description: Welcome to Sonia's Portofolio Digital
 permalink: /blog/:year/:title/
