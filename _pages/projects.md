@@ -5,7 +5,7 @@ permalink: /projects/
 description: Some projects created by design-mind.
 nav: true
 nav_order: 2
-display_categories: [Software Development, ML Model]
+display_categories: [Program, ML Model]
 horizontal: false
 ---
 
