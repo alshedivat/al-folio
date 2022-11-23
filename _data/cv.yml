@@ -12,7 +12,7 @@
       value: Chinese (汉语), English, Norsk (pre-beginner)
       
     - name: IT skills
-      value: Python, Matlab, QGIS, GIS Automating
+      value: Python, Matlab, Automating GIS, Git
   
 - title: Education
   type: time_table
