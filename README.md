@@ -1,4 +1,4 @@
-# al-folio
+# edit from al-folio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [core_contributors]: https://img.shields.io/badge/core_contributors-3-orange.svg 'Number of core contributors'
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -17,6 +17,11 @@ If you like the theme, give it a star!
 
 [![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
 
+## edit
+
+- add project into main page.
+- better image size parameters in css.
+- few bugs in config
 
 ## User community
 
