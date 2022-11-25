@@ -26,8 +26,8 @@ Here is the link to my [CV](https://drive.google.com/file/d/1LjafRhfC1lFDyyjZVlT
 \\
 Broadly I am interested in research topics related to:
 \\
-**Robustness:** Adversarial Robustness, Domain Generalization, OOD Robustness, Explainable AI
+**Robustness:** Adversarial Robustness, , OOD Robustness
 \\
-**Theory:** Generalization, Learning dynamics, Critical point solutions, Linear autoencoder
+**Explainability of ML models:** Generalization, Mode Connectivity, Spurious Features, Learning dynamics, Domain Generalization
 \\
-**Generative models:** GANS, VAE, Diffusion models
+**Generative models:** GANS, Diffusion models
