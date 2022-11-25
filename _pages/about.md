@@ -28,6 +28,6 @@ Broadly I am interested in research topics related to:
 \\
 **Robustness:** Adversarial Robustness, , OOD Robustness
 \\
-**Explainability of ML models:** Generalization, Mode Connectivity, Spurious Features, Learning dynamics, Domain Generalization
+**Explainability of ML:** Generalization, Mode Connectivity, Spurious Features, Learning dynamics, Domain Generalization
 \\
 **Generative models:** GANS, Diffusion models
