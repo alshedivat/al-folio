@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Oracle Aligned Adversarial Training 
-description: Implementation of our work "Towards Achieving Adversarial Robustness Beyond Perceptual Limits", accepted at the ICML 2021 Workshop, where we propose an adversarial training method to achieve robustness at larger bound perturbations.
+description: Implementation of our work "Scaling Adversarial Training to Large Perturbation Bounds", accepted at the ECCV-22, where we propose an adversarial training method to achieve robustness at larger bound perturbations.
 redirect: https://github.com/val-iisc/OAAT
 img: 
 importance: 1
