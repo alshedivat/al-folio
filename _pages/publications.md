@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: dgfj
-years: [2018]
+title: publications
+years: [2023]
 nav: true
 ---
 
