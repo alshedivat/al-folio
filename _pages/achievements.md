@@ -19,7 +19,7 @@ nav: true
 * Recipient of [DAAD-WISE](https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015295) a prestigious research oriented scholarship 
 programme by German Government.
 
-* Recipient of [Summer Research Fellowship 2020(SRFP)](https://www.ias.ac.in/) a research oriented programme by Indian Government.
+* Recipient of [Summer Research Fellowship 2020 (SRFP)](https://www.ias.ac.in/) a research oriented programme by Indian Government.
 
 * Secured all India rank of **922** in the JEE Advanced ’18 and **346** in JEE Mains’18 out of 1 million+ candidates.
 
