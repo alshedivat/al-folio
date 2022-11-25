@@ -9,7 +9,7 @@ nav: true
 
 **Reviewer**
  
-  * Served as a reviewer at **ICLR 2022**, **CVPR 2022**, **ECCV 2022** and **NeurIPS 2022**.
+  * Served as a reviewer at **ICLR 2022**, **CVPR 2022**, **ECCV 2022**, **NeurIPS 2022** and **CVPR 2023**.
   * Subreviewer: ICML 2021, ICCV 2021, NeurIPS 2021.
   * Volunteer: ICML 2021, NeurIPS 2021.
 
