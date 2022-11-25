@@ -11,7 +11,7 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={false}"
 social: true  # includes social icons at the bottom of the page
 ---
-Pre-Final Year Master's student at IIT (BHU) Varanasi
+Final Year Master's student at IIT (BHU) Varanasi
 \\
 \\
 Hi! I am Samyak.  I am pursuing integrated Bachelor and Master of Technology in [Computer Science and Engineering](https://www.iitbhu.ac.in/dept/cse) at the [Indian Institute of Technology (BHU), Varansi](https://www.iitbhu.ac.in/). For the last few years I have been broadly working on Machine Learning with a particular focus on Adversarial Robustness along with Generalizable and Explainable Machine Learning.
