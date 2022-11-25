@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Implementation of various generative models in pytorch
-description: Implemented GANS, VAE, Adversarial Autoencoders and sparse autoencoders in torch and also studied their latent space using tsne and latent space interpolation.
-redirect: https://github.com/samyakjain0112/Generative-models-papers-and-code
+title: Diverse Augmentation Based Joint Adversarial Training
+description: Official Code of our NeurIPS-22 paper Efficient and Effective Strategy for Adversarial Training.
+redirect: https://github.com/val-iisc/DAJAT
 img:
 importance: 3
 category: fun
