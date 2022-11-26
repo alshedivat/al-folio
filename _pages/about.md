@@ -19,7 +19,8 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a PhD student at <a style="text-decoration:none" href="https://www.imtlucca.it/en" target="_blank">IMT Lucca</a> in the Dynamical Systems, Control, and Optimization (<a style="text-decoration:none" href="http://dysco.imtlucca.it/" target="_blank">DYSCO</a>) research group under the supervision of Professor <a style="text-decoration:none" href="http://cse.lab.imtlucca.it/~bemporad/" target="_blank">Alberto Bemporad</a>.
-research interests:
+
+**research interests:**
 ======
 * recurrent neural networks
 * second-order optimization
