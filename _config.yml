@@ -40,7 +40,7 @@ repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-s
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -50,7 +50,7 @@ navbar_fixed: true
 footer_fixed: false
 
 # Dimensions
-max_width: 800px
+max_width: 400px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -66,7 +66,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: adeyemiadeoye # your GitHub user name
+github_username: #adeyemiadeoye # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: theYemiAdeoye # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
