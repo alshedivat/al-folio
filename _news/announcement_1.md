@@ -4,4 +4,4 @@ date: 2022-11-26
 inline: true
 ---
 
-Changed this site template.
+Moved this site to a new template.
