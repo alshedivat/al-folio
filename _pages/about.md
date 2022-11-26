@@ -30,12 +30,12 @@ Check out my [past projects](projects) (along with post-mortems), [publications]
 <details markdown="1">
   <summary markdown="span"> <b> What am I doing these days? </b></summary>
   
-  * Working on projects on offline RL in **confounded** tabular MDPs and learning **mixtures of MDPs**.
-  * Thinking about **minimax optimal** algorithms for offline policy evaluation (**OPE**) and the role of the geometry of action sets.
-  * Working on **double descent** in denoising under the guidance of [Rishi Sonthalia](https://sites.google.com/umich.edu/rsonthal/home?authuser=0). Work continued from [MREG 2022](https://sites.google.com/umich.edu/mreg-2022/home).
-  * Continuing work on our project from [LOGML 2022](https://www.logml.ai/)! I was a participant in Dr. Eli Meirom's group, planning to work on using RL for graph **rewiring in GNNs** to prevent oversquashing for long range problems.
-  * Mentoring undergraduate students on a project about using machine learning to enhance **model predictive control**.
-  * Fleshing out ideas for more academic communities like **Monsoon Math**.
+  * Working on projects on offline RL in confounded tabular MDPs and learning mixtures of MDPs.
+  * Thinking about minimax optimal algorithms for offline policy evaluation (OPE) and the role of the geometry of action sets.
+  * Working on double descent in denoising under the guidance of [Rishi Sonthalia](https://sites.google.com/umich.edu/rsonthal/home?authuser=0). Work continued from [MREG 2022](https://sites.google.com/umich.edu/mreg-2022/home).
+  * Continuing work on our project from [LOGML 2022](https://www.logml.ai/)! I was a participant in Dr. Eli Meirom's group, planning to work on using RL for graph rewiring in GNNs to prevent oversquashing for long range problems.
+  * Mentoring undergraduate students on a project about using machine learning to enhance model predictive control.
+  * Fleshing out ideas for more academic communities like Monsoon Math.
 
   </details>
 
