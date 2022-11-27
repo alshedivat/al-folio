@@ -9,8 +9,6 @@ profile:
   image: photograph.png
   image_circular: false # crops the image to make it circular
   address: >
-<!---    <p>Trier University</p> -->
-<!---    <p>123 your address street</p> --> 
     <p>44135 Dortmund, Germany</p>
 
 news: true  # includes a list of news items
