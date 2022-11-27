@@ -1,6 +1,0 @@
-{% pdf "/assets/pdf/Adeyemi_CV.pdf" no_link %}
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Weight training, Table tennis
