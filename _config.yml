@@ -2,9 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Adeyemi D. Adeoye # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Adeyemi
-middle_name: Damilare
+middle_name: D.
 last_name: Adeoye
 email: "name1.name3@imtlucca.it"
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
