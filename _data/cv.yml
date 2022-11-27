@@ -111,7 +111,14 @@
       description:
         - "“Literary Canon in Russia in the 1920s: the Role Models for Aspiring Writers.” Russian Literature in Comparative Perspective. National Research University Higher School of Economics. Moscow, Russia."
         - "“The Writer’s Profession: Literary Educational Institutions in Russia in the 1920s.” Tradition and Innovation in Historical Perspectives. Central European University. Budapest, Hungary."
-        
+
+- title: Conferences, Streams, and Panels Organized
+  type: time_table
+  contents:
+    - year: 2023
+      description:
+         - "“Network Analysis of Soviet and Post-Soviet Literature.” Panel organizer. American Association of Teachers of Slavic and East European Languages (AATSEEL) Conference. Online. Forthcoming."
+
 - title: Teaching Experience
   type: time_table
   contents:
