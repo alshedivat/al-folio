@@ -232,8 +232,8 @@ display_tags: ['math', 'code', 'machine learning'] # this tags will be dispalyed
 
 scholar:
 
-  last_name: [Adeoye]
-  first_name: [Adeyemi, D.]
+  last_name: Adeoye
+  first_name: [Adeyemi D., AD, A. D., Adeyemi]
 
   style: apa
   locale: en
