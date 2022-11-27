@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Adeyemi D. Adeoye # the website title (if blank, full name will be used instead)
+title: Adeyemi Damilare Adeoye # the website title (if blank, full name will be used instead)
 first_name: Adeyemi
 middle_name: Damilare
 last_name: Adeoye
@@ -146,7 +146,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
+news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
 news_limit: #5 # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
