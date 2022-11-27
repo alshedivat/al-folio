@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Adeyemi D. Adeoye # the website title (if blank, full name will be used instead)
+title: Adeyemi Damilare Adeoye # the website title (if blank, full name will be used instead)
 first_name: Adeyemi
 middle_name: Damilare
 last_name: Adeoye
@@ -75,7 +75,7 @@ telegram_username: # your Telegram user name
 scholar_userid: G8fKpqwAAAAJ&hl=en # your Google Scholar ID
 semanticscholar_id: 2145264837 # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
+orcid_id: 0000-0001-7048-0984 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -113,7 +113,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: blog # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: #blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: coming soon...
 permalink: /blog/:year/:title/
 
