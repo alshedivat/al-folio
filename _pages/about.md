@@ -6,7 +6,7 @@ subtitle: <a href='#'>Northwestern University</a>. Evanston. Contacts. Moto. Etc
 
 profile:
   align: left
-  image: img/prof_pic.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>888-666-1234</p>
