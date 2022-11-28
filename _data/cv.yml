@@ -1,97 +1,79 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Halle-Wittenberg, Halle (Saale), Germany
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Intensive training on quantitative methods and mathematical fundamentals.
+        - Develop and employ the best quantitative models of causal inference to predict individual behaviors and decisions.
+        - title: Causal inference methods employed
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
+            - Propensity Score based matching estimator - K-Nearest Neighbor Matching algorithm
+            - Difference-in-differences estimator
+            - Instrumental variables estimator, incl. Lewbel estimator 
+    - title: Master in Public Policy and Development Economics
+      institution: Toulouse School of Economics, Toulouse, France
+      year: 2013
+    - title: Maîtrise in Ingénierie Economique et Financière
+      institution: Aix-Marseille School of Economics, Marseille, France
+      year: 2012
+    - title: Bachelor of Technology (Electrical Engineering)
+      institution: University of Mumbai, Mumbai, India
+      year: 2008
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Product Owner
+      Company: Cognigy GmbH, Düsseldorf, Germany 
+      year: 2022 - 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Ideate and implement a customer-centric product roadmap for two products providing Analytics and CCaaS solutions in the fast-paced Conversational AI industry.
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - OData visualization and data cleaning using Power BI to generate new analytics ideas and create mockups using Figma to ease software development.
+        - Foster interaction with internal stakeholders and conduct competitor analysis and customer feedback to continue nurturing the product backlog.
+        - title: Facilitate cross-functional Scrum team collaboration and organize sprint planning to realize product goal 
+          contents:
+            - Goal tracking using Leapsome OKRs.
+    - title: Research fellow (Wissenschaftlicher Mitarbeiter)
+      institution: Universität der Bundeswehr München, Munich, Germany
+      year: 2021-2022
       description:
-        - Description 1.
-        - Description 2.
+        - Coordinate various departmental activities, incl. creating and publishing scientific research and teaching Masters and Bachelors courses.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research fellow (Wissenschaftlicher Mitarbeiter)
+      institution: Technische Universität Dortmund, Dortmund, Germany
+      year: 2019-2021
       description:
+        - Coordinate various departmental activities, incl. creating and publishing scientific research and teaching Masters and Bachelors courses.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Research fellow (Wissenschaftlicher Mitarbeiter)
+      institution: University of Halle-Wittenberg, Halle (Saale), Germany
+      year: 2013 - 2019
+      description:
+        - Conceive and implement innovative research ideas and statistical models
+        - Construct datasets and learn effective data cleaning 
+        - Publish research in reputed scientific outlets
+        - title: Courses taught
+          contents:
+            - Optimal control techniques, Macroeconomics 
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Software engineer
+      institution: Capgemini SE (*formerly* Patni Computer Systems Ltd), Mumbai, India
+      year: 2008 - 2010
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2018-2020
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Best Paper Award (3 consecutive years), University of Halle-Wittenberg, Germany
+    - year: 2011
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Eiffel Scholarship Program of Excellence, French Ministry for Europe and Foreign Affairs, France 
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Cricket, Listening to podcasts, etc.
