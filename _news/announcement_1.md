@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-01-01
+date: 2022-11-25
 inline: true
 ---
 
-Starting a new position as a Wissenschaftlicher Mitarbeiter (Research fellow) at the University of Trier, Germany
+Forthcoming research in [Labour Economics](https://doi.org/10.1016/j.labeco.2022.102295) (with Max Deter and Yue Huang)
