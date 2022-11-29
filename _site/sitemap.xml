@@ -17,8 +17,6 @@
 <lastmod>2022-06-24T00:00:00+07:00</lastmod>
 </url>
 <url>
-<<<<<<< HEAD
-=======
 <loc>http://localhost:4000/projects/1_project/</loc>
 <lastmod>2022-09-29T09:03:55+07:00</lastmod>
 </url>
@@ -43,7 +41,6 @@
 <lastmod>2022-09-29T09:03:55+07:00</lastmod>
 </url>
 <url>
->>>>>>> 2d57efa (feat: fix spell mistake)
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
@@ -54,6 +51,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/blog/tag/diffusion/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tag/vae/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/blog/2022/</loc>

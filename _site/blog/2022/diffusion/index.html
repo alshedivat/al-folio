@@ -192,7 +192,7 @@
 
         <h2 id="problem-formulation">Problem formulation</h2>
 
-<p>In recent years, Generative Adversarial Network has dominated in the field of generative model in term of sample quality and inference rate. Yet GANs show the weakness about the data distribution coverage and the challenging problem of training. In 2015, the idea of diffusion model <d-cite key="sohl2015deep"></d-cite> came out and then in 2020, DDPM <d-cite key="ho2020denoising"></d-cite> was introduced and illustrated amazing results regarding to image fidelity and the coverage of distribution. Furthermore, in 2021, Dhariwal and Nichol <d-cite key="dhariwal2021diffusion"></d-cite> showed that Diffusion Models have the ability to overcome GANs in the sample quality and exhibit good behavior in distribution coverage, which is the critical weakness of GANs.</p>
+<p>In recent years, Generative Adversarial Network has dominated the field of the generative model in terms of sample quality and inference rate. Yet GANs show the weakness in the data distribution coverage and the challenging problem of training. In 2015, the idea of diffusion model <d-cite key="sohl2015deep"></d-cite> came out and then in 2020, DDPM <d-cite key="ho2020denoising"></d-cite> was introduced and illustrated amazing results regarding to image fidelity and the coverage of distribution. Furthermore, in 2021, Dhariwal and Nichol <d-cite key="dhariwal2021diffusion"></d-cite> showed that Diffusion Models have the ability to overcome GANs in the sample quality and exhibit good behavior in distribution coverage, which is the critical weakness of GANs.</p>
 
 <p>In this blog, we will go through the idea and derivation of diffusion models (the formulas and ideas follows the DDPM <d-cite key="ho2020denoising"></d-cite>).</p>
 
@@ -212,7 +212,7 @@
 
 </div>
 
-<p>The concept of diffusion model is diffusing the original image into a white noise with a given strategy and then learn a reverse process to approximate it. Behind the scene, for both Gaussian and binomial diffusion, <d-cite key="feller1949theory"></d-cite> if the noise schedule at each step is small enough, the reverse process shares the same form with the forward one, that is a vital factor which guides the way of constructing the loss functions and the learning algorithms.</p>
+<p>The concept of diffusion model is diffusing the original image into white noise with a given strategy and then learning a reverse process to approximate it. Behind the scene, for both Gaussian and binomial diffusion, <d-cite key="feller1949theory"></d-cite> if the noise schedule at each step is small enough, the reverse process shares the same form as the forward one, which is a vital factor that guides the way of constructing the loss functions and the learning algorithms.</p>
 
 <p>In detail, forward process is formulated as follow:</p>
 
@@ -230,9 +230,9 @@
   p(x_{T}) = \mathcal{N}(\mathrm{0}, \mathrm{I})
 \end{align*}\]
 
-<p>The task is now searching for the proper form of \(p_{\theta}\), constructing the loss function and learning algorithm.</p>
+<p>The task is now searching for the proper form of \(p_{\theta}\), constructing the loss function and the learning algorithm.</p>
 
-<p>To make the later notation more readable, some transformations are made on the formulation as follow:</p>
+<p>To make the later notation more readable, some transformations are made to the formulation as follows:</p>
 
 <p>Set \(\alpha_{t} = 1 - \beta_{t}\) and \(\bar{\alpha}_{t} = \prod_{s=1}^{T} \alpha_{s}\), the distribution can be re-writed as \(q(x_{t}\vert x_{t-1})\):</p>
 
@@ -326,7 +326,7 @@ x_{t} &amp;= \sqrt{\prod_{s=1}^{T} \alpha_{s}}\: x_{0} + \sqrt{(1-\prod_{s=1}^{T
 
 <h2 id="posterior-distribution">Posterior distribution</h2>
 
-<p>In above section, we have gone through the ideas and transformations for the loss function. Noticeablely, the loss function is cummulative of KL divergence between the reverse distribution and the posterior over all timestep \(t\). To complete the loss function transformation, let’s take a glance at the posterior <d-cite key="weng2021diffusion"></d-cite>.</p>
+<p>In the above section, we have gone through the ideas and transformations for the loss function. Noticeablly, the loss function is cumulative of KL divergence between the reverse distribution and the posterior over all timestep \(t\). To complete the loss function transformation, let’s take a glance at the posterior <d-cite key="weng2021diffusion"></d-cite>.</p>
 
 \[\begin{align*}
   q(x_{t-1}|x{t}, x_{0})
@@ -403,8 +403,8 @@ Below is the algorithm Ho <d-cite key="ho2020denoising"> </d-cite> used for his 
     <p>Pros:</p>
 
     <ul>
-      <li>Diffusion model show a new method to generate data with high-quality.</li>
-      <li>Data generated using this family of model avoids mode collapse, which leads to higher number in likelihood score.</li>
+      <li>Diffusion model shows a new method to generate data with high quality.</li>
+      <li>Data generated using this family of models avoid mode collapse, which leads to a higher number in likelihood score.</li>
     </ul>
   </li>
   <li>
@@ -419,7 +419,7 @@ Below is the algorithm Ho <d-cite key="ho2020denoising"> </d-cite> used for his 
 
     <ul>
       <li>There are numerous works pushing efforts in accelerating inference rate of diffusion models such as Nicol <d-cite key="nichol2021improved"></d-cite>, Song <d-cite key="song2020denoising"></d-cite>. Inspite of large efforts on improving sampling speed, all methods succeeding in it show a trade-off between speed and quality of generated images.</li>
-      <li>Song <d-cite key="song2020score"></d-cite> proposes a statistical framework to explain diffusion models, with which, one have several options to constructs a new diffusion models. The authors also propose a method for boosting up sampling speed while preserving image-quality.</li>
+      <li>Song <d-cite key="song2020score"></d-cite> proposes a statistical framework to explain diffusion models, with which, one has several options to construct new diffusion models. The authors also propose a method for boosting sampling speed while preserving image quality.</li>
     </ul>
   </li>
 </ol>
@@ -437,7 +437,7 @@ Below is the algorithm Ho <d-cite key="ho2020denoising"> </d-cite> used for his 
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2022 Giang Long Vu. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
-Last updated: September 29, 2022.
+Last updated: November 29, 2022.
       </div>
     </footer>
 

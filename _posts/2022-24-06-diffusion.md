@@ -55,7 +55,7 @@ _styles: >
 
 ## Problem formulation
 
-In recent years, Generative Adversarial Network has dominated in the field of generative model in term of sample quality and inference rate. Yet GANs show the weakness about the data distribution coverage and the challenging problem of training. In 2015, the idea of diffusion model <d-cite key="sohl2015deep"></d-cite> came out and then in 2020, DDPM <d-cite key="ho2020denoising"></d-cite> was introduced and illustrated amazing results regarding to image fidelity and the coverage of distribution. Furthermore, in 2021, Dhariwal and Nichol <d-cite key="dhariwal2021diffusion"></d-cite> showed that Diffusion Models have the ability to overcome GANs in the sample quality and exhibit good behavior in distribution coverage, which is the critical weakness of GANs.
+In recent years, Generative Adversarial Network has dominated the field of the generative model in terms of sample quality and inference rate. Yet GANs show the weakness in the data distribution coverage and the challenging problem of training. In 2015, the idea of diffusion model <d-cite key="sohl2015deep"></d-cite> came out and then in 2020, DDPM <d-cite key="ho2020denoising"></d-cite> was introduced and illustrated amazing results regarding to image fidelity and the coverage of distribution. Furthermore, in 2021, Dhariwal and Nichol <d-cite key="dhariwal2021diffusion"></d-cite> showed that Diffusion Models have the ability to overcome GANs in the sample quality and exhibit good behavior in distribution coverage, which is the critical weakness of GANs.
 
 In this blog, we will go through the idea and derivation of diffusion models (the formulas and ideas follows the DDPM <d-cite key="ho2020denoising"></d-cite>).
 
@@ -63,7 +63,7 @@ In this blog, we will go through the idea and derivation of diffusion models (th
     {% include figure.html path="assets/img/posts/diffusion/figure1.png" title="example image" class="img-fluid rounded z-depth-1" %}
 </div>
 
-The concept of diffusion model is diffusing the original image into a white noise with a given strategy and then learn a reverse process to approximate it. Behind the scene, for both Gaussian and binomial diffusion, <d-cite key="feller1949theory"></d-cite> if the noise schedule at each step is small enough, the reverse process shares the same form with the forward one, that is a vital factor which guides the way of constructing the loss functions and the learning algorithms.
+The concept of diffusion model is diffusing the original image into white noise with a given strategy and then learning a reverse process to approximate it. Behind the scene, for both Gaussian and binomial diffusion, <d-cite key="feller1949theory"></d-cite> if the noise schedule at each step is small enough, the reverse process shares the same form as the forward one, which is a vital factor that guides the way of constructing the loss functions and the learning algorithms.
 
 In detail, forward process is formulated as follow:
 
@@ -85,9 +85,9 @@ $$
 \end{align*}
 $$
 
-The task is now searching for the proper form of $$p_{\theta}$$, constructing the loss function and learning algorithm.
+The task is now searching for the proper form of $$p_{\theta}$$, constructing the loss function and the learning algorithm.
 
-To make the later notation more readable, some transformations are made on the formulation as follow:
+To make the later notation more readable, some transformations are made to the formulation as follows:
 
 Set $$\alpha_{t} = 1 - \beta_{t}$$ and $$\bar{\alpha}_{t} = \prod_{s=1}^{T} \alpha_{s}$$, the distribution can be re-writed as $$ q(x_{t}\vert x_{t-1}) $$:
 
@@ -201,7 +201,7 @@ Since the term $$ \mathrm{D}_{\mathrm{KL}}(q(x_{T} \vert x_{0}) \vert\:p(x_{T}))
 
 ## Posterior distribution
 
-In above section, we have gone through the ideas and transformations for the loss function. Noticeablely, the loss function is cummulative of KL divergence between the reverse distribution and the posterior over all timestep $$t$$. To complete the loss function transformation, let's take a glance at the posterior <d-cite key="weng2021diffusion"></d-cite>.
+In the above section, we have gone through the ideas and transformations for the loss function. Noticeablly, the loss function is cumulative of KL divergence between the reverse distribution and the posterior over all timestep $$t$$. To complete the loss function transformation, let's take a glance at the posterior <d-cite key="weng2021diffusion"></d-cite>.
 
 $$
 \begin{align*}
@@ -269,8 +269,8 @@ Below is the algorithm Ho <d-cite key="ho2020denoising"> </d-cite> used for his 
 
 1. Pros:
 
-   * Diffusion model show a new method to generate data with high-quality.
-   * Data generated using this family of model avoids mode collapse, which leads to higher number in likelihood score.
+   * Diffusion model shows a new method to generate data with high quality.
+   * Data generated using this family of models avoid mode collapse, which leads to a higher number in likelihood score.
   
 2. Cons:
 
@@ -279,4 +279,4 @@ Below is the algorithm Ho <d-cite key="ho2020denoising"> </d-cite> used for his 
 3. Further work:
    
    * There are numerous works pushing efforts in accelerating inference rate of diffusion models such as Nicol <d-cite key="nichol2021improved"></d-cite>, Song <d-cite key="song2020denoising"></d-cite>. Inspite of large efforts on improving sampling speed, all methods succeeding in it show a trade-off between speed and quality of generated images.
-   * Song <d-cite key="song2020score"></d-cite> proposes a statistical framework to explain diffusion models, with which, one have several options to constructs a new diffusion models. The authors also propose a method for boosting up sampling speed while preserving image-quality.
+   * Song <d-cite key="song2020score"></d-cite> proposes a statistical framework to explain diffusion models, with which, one has several options to construct new diffusion models. The authors also propose a method for boosting sampling speed while preserving image quality.
