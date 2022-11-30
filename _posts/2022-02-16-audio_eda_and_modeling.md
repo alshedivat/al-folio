@@ -172,7 +172,7 @@ plt.show();
 
 # 2. Data cleaning
 
-Now that we understand a bit better what audio data looks like, let's visualize a few more examples. **Note:** You can download these four examples via these links: [Audio 1](https://www.dropbox.com/s/01fxe29565p5dez/c4_sample-1.mp3?dl=1), [Audio 2](https://www.dropbox.com/s/wslszprnhygypow/c4_sample-2.mp3?dl=1), [Audio 3](https://www.dropbox.com/s/mo0jdyfak8p0hn2/c4_sample-3.mp3?dl=3), [Audio 4](https://www.dropbox.com/s/5gfy3ia6jo9wb6z/c4_sample-4.mp3?dl=4).
+Now that we understand a bit better what audio data looks like, let's visualize a few more examples. **Note:** You can download these four examples via these links: [Audio 1](https://www.dropbox.com/s/d18yep5a4ljrfcq/c4_sample-1.mp3?dl=1), [Audio 2](https://www.dropbox.com/s/kkowbp9on57ugoa/c4_sample-2.mp3?dl=1), [Audio 3](https://www.dropbox.com/s/skgx2pygubayh5h/c4_sample-3.mp3?dl=1), [Audio 4](https://www.dropbox.com/s/mdv4f2csuyefo17/c4_sample-4.mp3?dl=1).
 
 ```python
 # Visualization of four mp3 files
@@ -390,7 +390,7 @@ Now that we know what audio data looks like and how we can process it, let's go 
 
 ```python
 # Download and unzip dataset
-!wget -qO c4_audio_dataset.zip https://www.dropbox.com/s/3ibn2br901vvtgz/c4_audio_dataset.zip?dl=1
+!wget -qO c4_audio_dataset.zip https://www.dropbox.com/s/tkqpq16cu4i1oyd/c4_audio_dataset.zip?dl=1
 !unzip -q c4_audio_dataset.zip
 !rm c4_audio_dataset.zip
 ```
