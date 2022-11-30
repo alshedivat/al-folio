@@ -138,7 +138,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-  - _pages/projects
+  # - _pages/projects
   # - _pages/publications
 keep_files:
   - CNAME
