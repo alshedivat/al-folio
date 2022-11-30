@@ -1,8 +1,8 @@
 ---
 layout: page
-title: <h2 class="transformacion1">GenLAC</h2>
-description: Indicators of employment and skills, family and time use, childhood and youth, and gender roles for Latin America and the Caribbean.
-img: assets/img/genlac.jpg
+title: project 1
+description: a project with a background image
+img: assets/img/genlac.png
 importance: 1
 category: work
 ---
