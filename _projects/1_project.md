@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/genlac.png
+title: <div style="text-transform:capitalize;">GenLAC</div> 
+description: Indicators of employment and skills, family and time use, childhood and youth, and gender roles for Latin America and the Caribbean.
+img: assets/img/genlac.jpg
 importance: 1
 category: work
 ---
@@ -17,7 +17,7 @@ To give your project a background in the portfolio page, just add the img tag to
     layout: page
     title: project
     description: a project with a background image
-    img: /assets/img/genlac.png
+    img: /assets/img/genlac.jpg
     ---
 
 <div class="row">
