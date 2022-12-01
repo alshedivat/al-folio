@@ -73,7 +73,8 @@
   contents:
     - title: Human-computer Interaction
       items:
-        - VR/AR/MR
+        - Immersive Media, VR/AR/MR
+        - Tangible, Embodied, Embodied
         - Natural Interaction
         - User Perception
     - title: Digital Game
