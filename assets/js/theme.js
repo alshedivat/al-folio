@@ -2,7 +2,7 @@
 
 let toggleTheme = (theme) => {
   if (theme == "dark") {
-    setTheme("light");
+    setTheme("dark");
   } else {
     setTheme("dark");
   }
