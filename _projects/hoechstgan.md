@@ -30,6 +30,7 @@ links:
   paper: https://arxiv.org/abs/2210.06909
   code: https://github.com/georg-wolflein/hoechstgan
   poster: /assets/pdf/hoechstgan_poster.pdf
+  video: https://www.youtube.com/watch?v=ZSGeX33TeEM
 abstract: The presence and density of specific types of immune cells are important to understand a patient's immune response to cancer. However, immunofluorescence staining required to identify T cell subtypes is expensive, timeconsuming, and rarely performed in clinical settings. We present a framework to virtually stain Hoechst images (which are cheap and widespread) with both CD3 and CD8 to identify T cell subtypes in clear cell renal cell carcinoma using generative adversarial networks. Our proposed method jointly learns both staining tasks, incentivising the network to incorporate mutually beneficial information from each task. We devise a novel metric to quantify the virtual staining quality, and use it to evaluate our method.
 tldr: We present a means of translating a cheap type of chemical staining to multiple more expensive ones using generative adversarial networks.
 ---
