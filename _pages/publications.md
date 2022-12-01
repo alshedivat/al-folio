@@ -14,10 +14,10 @@ nav_order: 2
 <!--     <h1 class="post-title">Forthcoming</h1> -->
 <!-- </header>  -->
 
-<!-- <div class="publications"> -->
-<!--   <h2 class="year" style="margin-bottom: 0px;"></h2> -->
-<!--   {% bibliography -f papers -q @*[forthcoming=true]* %} -->
-<!-- </div> -->
+<div class="publications">
+  <h2 class="year" style="margin-bottom: 0px;"></h2>
+  {% bibliography -f papers -q @*[forthcoming=true]* %}
+</div>
 
 <!-- All other publications (forthcorming!=true) are displayed in descending year order -->
 <!-- <header class="post-header" style="margin-top: 50px"> -->
