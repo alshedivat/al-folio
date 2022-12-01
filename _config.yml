@@ -28,7 +28,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # -----------------------------------------------------------------------------
 
 # code highlighter theme
-highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_light: native   # https://github.com/jwarby/jekyll-pygments-themes
 highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
 
 # repo color theme
