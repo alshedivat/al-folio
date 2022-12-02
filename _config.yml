@@ -215,7 +215,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['Kubernetes', 'WSL', 'Spark', 'Deep Learning'] #['formatting', 'images', 'links', 'math', 'code'] # this tags will be dispalyed on the front page of your blog
+display_tags: ['Kubernetes', 'WSL', 'Spark', 'Deep Learning', 'MLOps'] #['formatting', 'images', 'links', 'math', 'code'] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
