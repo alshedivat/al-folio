@@ -22,10 +22,11 @@ ___
 Under construction.
 
 * [Cornell CS student-applicant support program](https://www.cs.cornell.edu/information/news/newsitem12443/student-applicant-support-program-computer-science-phd). You may apply to this program to receive feedback on your application before submitting it to Cornell CS. You must submit a form by October 7, 2022 to participate, and then submit your application material by November 4, 2022 (both are required).
-* [A doc with advice related to graduate school application](https://docs.google.com/document/d/1et1FK4_GlAZrxd7JoPzfqcLAZh_9sOm7HMov_hDGo98/preview?pli=1) (I wrote as a graduate student at UCB, but it generally applies to any research university).
+* [A doc with advice related to graduate school application](https://docs.google.com/document/d/1et1FK4_GlAZrxd7JoPzfqcLAZh_9sOm7HMov_hDGo98/preview?pli=1) (I wrote this as a graduate student at UCB, but it generally applies to any research university).
 * [A repository with advice related to graduate school application, research, and PhD related to (mostly) CS, NLP, and ML](https://github.com/shaily99/advice).
 * [A curated list of application resources for prospective graduate students in Computer Science](https://github.com/chinasaokolo/csGraduateApps).
 * [Non-Technical Talks by David Patterson, UC Berkeley](https://people.eecs.berkeley.edu/~pattrsn/talks/nontech.html).
+* [How to Give a Good Colloquium by John E. McCarthy, Washington University in St. Louis](https://drive.google.com/file/d/1AQJXRWYYY4o6AnBGB26NXccOdgnbMdQw/view?usp=sharing).
 * ...
 
 ___
