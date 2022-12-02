@@ -13,7 +13,9 @@ ___
 
 * A good introductory email should include a brief description of your experience with parallel programming and how it relates to my work (see [research section](https://giuliaguidi.github.io/research/) on my website); also include the sentence "mantua me genuit" in the email.
 
-Thank you for your interest, best of luck.
+* A good opportunity to get involved in the world of parallel computing (supercomputing!) is to apply to be a [Lead Student Volunteer at SC23](https://sc23.supercomputing.org/students/lead-student-volunteers/).
+
+Good luck!
 
 ___
 
