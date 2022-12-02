@@ -7,7 +7,7 @@ nav: true
 ---
 ___
 
-## if you plant to apply for a PhD (and work with me)
+## if you plan to apply for a PhD (and work with me)
 
 * I am currently hiring students with a background in parallel programming and interest in high-performance computing for computational sciences. If you think we might be a good fit, please contact me via email and I will be happy to talk with you. However, please note that the admissions process goes through [Cornell CIS](https://www.cs.cornell.edu/phd/admissions) and not through me personally.
 
