@@ -147,6 +147,9 @@
           {%- if entry.coverage %}
           <a class="coverage btn btn-sm z-depth-0" role="button">Media Coverage</a>
           {%- endif %}
+          {%- if entry.song %}
+          <a class="song btn btn-sm z-depth-0" role="button">Song</a>
+        {%- endif %}
           </div>
 
           {% if entry.abstract -%}
@@ -160,6 +163,13 @@
           <!-- Hidden coverage block -->
           <div class="coverage hidden">
             <p>{{ entry.coverage }}</p>
+          </div>
+          {%- endif -%}
+
+          {% if entry.song -%}
+          <!-- Hidden coverage block -->
+          <div class="song hidden">
+            <p>{{ entry.song }}</p>
           </div>
           {%- endif -%}
 
