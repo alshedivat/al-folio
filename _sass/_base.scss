@@ -522,6 +522,12 @@ footer.sticky-bottom {
       div.coverage.hidden.open {
         border-color: var(--global-text-color);
       }
+      div.song.hidden {
+        border: dashed 1px var(--global-bg-color);
+      }
+      div.song.hidden.open {
+        border-color: var(--global-text-color);
+      }
     }
   }
 }
