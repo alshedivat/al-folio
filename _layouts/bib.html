@@ -96,7 +96,13 @@
           <div class="periodical">
             {{ periodical | strip }}
           </div>
+          {%- if entry.repub -%}
+            <div class="periodical">{{entry.repub}}</div>
+          {%- endif -%}
         {%- endif %}
+
+          
+
         
           <!-- Links/Buttons -->
           <div class="links">
