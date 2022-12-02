@@ -8,7 +8,6 @@ profile:
   align: right
   image: profpic.jpg
   address: >
-    <p>437</p>
     <p>Gates Hall, Cornell University</p>
     <p>Campus Rd, Ithaca, NY 14853</p>
 
