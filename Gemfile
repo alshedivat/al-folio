@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
+    gem 'rake'
     gem 'github-pages'
     gem 'jekyll'
     gem 'jekyll-email-protect'
@@ -9,5 +10,4 @@ group :jekyll_plugins do
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     gem 'unicode_utils'
-    gem 'rake'
 end
