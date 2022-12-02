@@ -15,6 +15,8 @@ ___
 
 ## guest lectures
 
+**[GPU Computing](https://webapps.unitn.it/du/en/Persona/PER0211629/Didattica), University of Trento**, *TBD*, Spring 2023.
+
 **[Artificial Intelligence Seminar](https://www.cs.cornell.edu/content/fall-2022-artificial-intelligence-seminar), Cornell University**, *Parallel Computing for Computational Genomics and AI*, Fall 2022.
 
 **[Languages, Systems, and Data Seminar](https://lsd-ucsc.github.io/lsd-seminar/2021fa/), UC Santa Cruz**, *Sparse Matrices and High-Performance Computing Meet Biology*, Fall 2021.
@@ -42,6 +44,14 @@ ___
 ___
 
 ## services
+
+* **Program Committee Member**, [The International Conference for High Performance Computing, Networking, Storage, and Analysis  (SC) 2023](https://sc23.supercomputing.org/).
+
+* **Program Committee Member**, [SIAM Conference on Applied and Computational Discrete Algorithms (ACDA) 2023](https://www.siam.org/conferences/cm/conference/acda23).
+
+* **Program Committee Member**, [29th International European Conference on Parallel and Distributed Computing (EuroPar) 2023](https://2023.euro-par.org/).
+
+* **Program Committee Member**, [IEEE Cluster Conference 2023](https://clustercomp.org/2023/).
 
 * **Special Program Committee Member**, [International Parallel and Distributed Processing Symposium (IPDPS) 2023](https://www.ipdps.org/).
 
