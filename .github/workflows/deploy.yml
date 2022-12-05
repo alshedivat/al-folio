@@ -46,6 +46,10 @@ jobs:
         fi
         echo "DEPLOY_BRANCH=testing" >> $GITHUB_OUTPUT
     - name: Deploy website 
+      with:
+        files_ignore: |
+          package.json
+          notion.js
       run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 
                     --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 

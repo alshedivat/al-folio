@@ -1,11 +1,10 @@
 ---
+layout: post
 title: The Idea behind my blog
-date: 2022-11-24
-tags:
-  - site
-categories: [test, site]
-math: false
-mermaid: false
+date: 2022-11-24 16:40:16
+description: Why I create a blog and a personal website
+tags: site
+categories: site
 ---
 
 > In the name of the God of Rainbow
