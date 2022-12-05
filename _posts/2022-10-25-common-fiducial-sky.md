@@ -15,6 +15,8 @@ For the foreground components we recommend 3 different sky models of increasing 
 
 For each model we specify the most important features, check [in the PySM 3 documentation](https://pysm3.readthedocs.io/en/latest/models.html) for more details.
 
+All models below are currently implemented in PySM `3.4.0b5`.
+
 ### Low complexity
 
 PySM 3 emissions: `d9,s4,f1,a1,co1`
