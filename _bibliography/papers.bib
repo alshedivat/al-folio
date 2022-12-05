@@ -7,6 +7,54 @@
 #publisher_version add this tag for url, add comming_soon if proceeding yet to happen
 # add teaser in the assets image and use arxiv number with _ instead of .
 
+
+@misc{dhawal2022prtsdf,
+    author = {Dhawal, Sirikonda and KT, Aakash and Narayanan, P. J.},
+    title = {Real-Time Rendering of Arbitrary Surface Geometries using Learnt Transfer},
+    year = {2022},
+    abstract = {Precomputed Radiance Transfer (PRT) is widely used for real-time photorealistic effects. PRT disentangles the rendering equation into transfer and  lighting, enabling their precomputation. Transfer accounts for the cosine-weighted visibility of points in the scene while lighting for emitted radiance from the environment. Prior art stored precomputed transfer in a tabulated manner, either in vertex or texture space. These values are fetched with interpolation at each point for shading. Vertex space methods require densely tessellated mesh vertices for high quality images. Texture space methods require non-overlapping and area-preserving UV mapping to be available. They also require a high-resolution texture to avoid rendering artifacts. In this paper, we propose a compact transfer representation that is learnt directly on scene geometry points. Specifically, we train a small multi-layer perceptron (MLP) to predict the transfer at sampled surface points. Our approach is most beneficial where inherent mesh storage structure and natural UV mapping are not available, such as Implicit Surfaces as it learns the transfer values directly on the surface. We demonstrate real-time, photorealistic renderings of diffuse and glossy materials on SDF geometries with PRT using our approach.},
+    author_version = {https://iiitaphyd-my.sharepoint.com/:b:/g/personal/dhawal_sirikonda_research_iiit_ac_in/EUKOrBzrxrxFsOhmYFLArFcBtWBpY2nfx_CziCUC-JHneg?e=MrdxAJ},
+    selected={true},
+    doi = {10.1145/3571600.3571640},
+    conference = {ICVGIP 2022},
+}
+
+@misc{dhawal2022prtsdf,
+    author = {Dhawal, Sirikonda and KT, Aakash and Narayanan, P. J.},
+    title = {Learnt Transfer for Surface Geometries},
+    year = {2022},
+    selected={true},
+    url = {https://www.highperformancegraphics.org/posters22/HPG2022_Poster7_Learnt_Transfer_for_Surface_Geometries.pdf},
+    conference = {High Performance Graphics (HPG) 2022-Poster},
+}
+
+@inproceedings{goel2022styletrf,
+    author = {Goel, Rahul and Dhawal, Sirikonda and Saini, Saurabh and Narayanan, P. J.},
+    title = {StyleTRF: Stylizing Tensorial Radiance Fields},
+    year = {2022},
+    abstract = {Stylized view generation of scenes captured casually using a camera has received much attention recently. The geometry and appearance of the scene are typically captured as neural point sets or neural radiance fields in the previous work. An image stylization method is used to stylize the captured appearance by training its network jointly or iteratively with the structure capture network. The state-of-the-art SNeRF method trains the NeRF and stylization network in an alternating manner. These methods have high training time and require joint optimization. In this work, we present StyleTRF, a compact, quick-to-optimize strategy for stylized view generation using TensoRF. The appearance part is fine-tuned using sparse stylized priors of a few views rendered using the TensoRF representation for a few iterations. Our method thus effectively decouples style-adaption from view capture and is much faster than the previous methods. We show state-of-the-art results on several scenes used for this purpose.},
+    doi = {10.1145/3571600.3571643},
+    author_version={https://iiitaphyd-my.sharepoint.com/:b:/g/personal/dhawal_sirikonda_research_iiit_ac_in/EfERIufS5s5HowJY1Yth5i0BkZTPK6JywI1CI5GUBluzRA?e=qL6Byu},
+    booktitle = {Proceedings of the Thirteenth Indian Conference on Computer Vision, Graphics and Image Processing},
+    conference = {ICVGIP 2022}
+}
+@misc{https://doi.org/10.48550/arxiv.2203.12399,
+  doi = {10.48550/ARXIV.2203.12399},
+  url = {https://arxiv.org/abs/2203.12399},
+  author = {Dhawal, Sirikonda and KT, Aakash and Narayanan, P.J.},
+  keywords = {Graphics (cs.GR), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {PRTT: Precomputed Radiance Transfer Textures},
+  publisher = {arXiv},
+  abstract = {Precomputed Radiance Transfer (PRT) can achieve high quality renders of glossy materials at real-time framerates. PRT involves precomputing a k-dimensional transfer vector of Spherical Harmonic (SH) coefficients at specific points for a scene. Most prior art precomputes transfer at vertices of the mesh and interpolates color for interior points. They require finer mesh tessellations for high quality renderings. In this paper, we explore and present the use of textures for storing transfer. Using transfer textures decouples mesh resolution from transfer storage and sampling which is useful especially for glossy renders. We further demonstrate glossy inter-reflections by precomputing additional textures. We thoroughly discuss practical aspects of transfer textures and analyze their performance in real-time rendering applications. We show equivalent or higher render quality and FPS and demonstrate results on several challenging scenes.},
+  year = {2022},
+  copyright = {Creative Commons Attribution 4.0 International},
+  author_version = {https://arxiv.org/abs/2203.12399},
+  publisher_version = {https://diglib.eg.org/handle/10.2312/egp20221012},
+  conference = {Eurographics(EG) 2022-Poster},
+  selected={true},
+  teaser={2203_12399}
+}
+
 @misc{https://doi.org/10.48550/arxiv.2110.07674,
   doi = {10.48550/ARXIV.2110.07674},
   url = {https://arxiv.org/abs/2110.07674},
@@ -21,23 +69,5 @@
   author_version = {https://arxiv.org/abs/2110.07674},
   conference = {ICVGIP 2021},
   publisher_version = {https://dl.acm.org/doi/abs/10.1145/3490035.3490299},
-  selected={true},
   teaser={2110_07674} 
-}
-
-@misc{https://doi.org/10.48550/arxiv.2203.12399,
-  doi = {10.48550/ARXIV.2203.12399},
-  url = {https://arxiv.org/abs/2203.12399},
-  author = {Dhawal, Sirikonda and KT, Aakash and Narayanan, P.J.},
-  keywords = {Graphics (cs.GR), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {PRTT: Precomputed Radiance Transfer Textures},
-  publisher = {arXiv},
-  abstract = {Precomputed Radiance Transfer (PRT) can achieve high quality renders of glossy materials at real-time framerates. PRT involves precomputing a k-dimensional transfer vector of Spherical Harmonic (SH) coefficients at specific points for a scene. Most prior art precomputes transfer at vertices of the mesh and interpolates color for interior points. They require finer mesh tessellations for high quality renderings. In this paper, we explore and present the use of textures for storing transfer. Using transfer textures decouples mesh resolution from transfer storage and sampling which is useful especially for glossy renders. We further demonstrate glossy inter-reflections by precomputing additional textures. We thoroughly discuss practical aspects of transfer textures and analyze their performance in real-time rendering applications. We show equivalent or higher render quality and FPS and demonstrate results on several challenging scenes.},
-  year = {2022},
-  copyright = {Creative Commons Attribution 4.0 International},
-  author_version = {https://arxiv.org/abs/2203.12399},
-  publisher_version = {https://diglib.eg.org/handle/10.2312/egp20221012},
-  conference = {EG 2022-Poster},
-  selected={true},
-  teaser={2203_12399}
 }
