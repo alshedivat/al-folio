@@ -192,15 +192,13 @@ Now, feel free to customize the theme however you like (don't forget to change t
 
 > Note: this approach is only necessary if you would like to build an older or very custom version of al-folio.
 
-First, download the necessary modules and install them into a docker image called `al-folio:Dockerfile` (this command will build an image which is used to run your website afterwards. Note that you only need to do this step once. After you have the image, you no longer need to do this anymore):
-
+First, build the image locally using:
 
 ```bash
 $ docker-compose -f docker-local.yml build
 ```
 
-Run the website!
-
+Then run it using:
 ```bash
 $ docker-compose -f docker-local.yml up
 ```
