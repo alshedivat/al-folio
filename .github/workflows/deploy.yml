@@ -13,6 +13,12 @@ on:
       - cloudflare
       - org-testing
 
+  workflow_run:
+    workflows: [Build Notion Posts]
+    types:
+      - completed
+
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
