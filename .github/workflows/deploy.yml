@@ -30,6 +30,9 @@ jobs:
       with:
         ruby-version: '3.0.2'
         bundler-cache: true
+        files_ignore: |
+          package.json
+          notion.js
     - name: Install deps
       run: |
         npm install -g mermaid.cli
@@ -46,10 +49,6 @@ jobs:
         fi
         echo "DEPLOY_BRANCH=testing" >> $GITHUB_OUTPUT
     - name: Deploy website 
-      with:
-        files_ignore: |
-          package.json
-          notion.js
       run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 
                     --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
