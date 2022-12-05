@@ -6,7 +6,7 @@ on:
       - org-testing
       - cloudflare
     paths-ignore:
-      - '.github/workflows/**'
+    #  - '.github/workflows/**'
 
   pull_request:
     branches:
@@ -25,8 +25,6 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-    - name: remove unnecesery files
-      run: rm $GITHUB_WORKSPACE/package.json & rm $GITHUB_WORKSPACE/notion.js
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
