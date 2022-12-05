@@ -30,9 +30,6 @@ jobs:
       with:
         ruby-version: '3.0.2'
         bundler-cache: true
-        files_ignore: |
-          package.json
-          notion.js
     - name: Install deps
       run: |
         npm install -g mermaid.cli
