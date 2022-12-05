@@ -23,10 +23,10 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: remove unnecesery files
-      run: rm $GITHUB_WORKSPACE/package.json & rm $GITHUB_WORKSPACE/notion.js
     - name: Checkout code
       uses: actions/checkout@v3
+    - name: remove unnecesery files
+      run: rm $GITHUB_WORKSPACE/package.json & rm $GITHUB_WORKSPACE/notion.js
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
