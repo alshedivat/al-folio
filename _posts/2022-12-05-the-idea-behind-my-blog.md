@@ -14,7 +14,7 @@ mermaid: false
 I’m writing this post, better say, my first post, in days of being upset for the kid, Kiyan Peerfalak, and the phrase “In the name of the God of Rainbow” was used by him. (In lots of notes, its written "Kian Pirfalak” but I used Google Translate to check the pronunciation)
 
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2d15c430-f569-4e9c-989e-a544a47c2ec0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221205%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221205T123159Z&X-Amz-Expires=3600&X-Amz-Signature=68fdb3e71f8c3411e206bbd9801a5724d45118b70e78b57cf9f502c45f1f47cd&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2d15c430-f569-4e9c-989e-a544a47c2ec0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221205%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221205T123302Z&X-Amz-Expires=3600&X-Amz-Signature=96365c44ca73f9051c5ae5b47a8d6ee36cf06e01b8c0978cb16e2c965baacdb4&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 I dont know maybe this post is my mind trick to escape from the reality, but what ever is this, it doesnt come from a good feeling.
