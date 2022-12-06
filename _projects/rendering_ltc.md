@@ -1,15 +1,23 @@
 ---
 layout: page
 title: Rendering using Linearly Transformed Cosines
-description: a project with a background image
-img: assets/img/3.jpg
+description: Is it possible to get Ray Traced Effects in Rasterized Framework or at the least minimal Ray Tracing
+img: assets/img/projects/ltcs/ltc_teaser.gif
 importance: 2
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Rasterization is widely used methods of rendering geometries with suitable approximations, to acheive photo-realistic effects. Many works have tried incorporating the photo-realisim using required approximation namely Spherical Harmonics Lighting.
+
+One of the complex scenario to reproduce is as follows:
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-7 mt-3 mt-md-0" >
+        {% include figure.html path="assets/img/projects/ltcs/direct_label.png" title="Direct Illumination" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+$$  \mathcal{L}_{o} = \mathcal{L}_{e}(x, \omega_o) + \int_{\Omega} f_{r}(x, \omega_i, \omega_o)\mathcal{L}_{i}(x, \omega_i)(\omega_{i} \cdot n)d\omega_{i} $$
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
@@ -78,3 +86,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 {% endraw %}
+col-sm mt-3 mt-md-0
