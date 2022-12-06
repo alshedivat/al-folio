@@ -51,11 +51,16 @@ Hmmmm, what is JAMstack?
 
 
 {% capture details %}
+
+
 > Jamstack is an architectural approach that decouples the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability.  
 > Jamstack removes the need for business logic to dictate the web experience.  
-> It enables a composable architecture for the web where custom logic and 3rd party services are consumed through APIs.
+> It enables a composable architecture for the web where custom logic and 3rd party services are consumed through APIs.  
+> ~ [https://jamstack.org/](https://jamstack.org/)
+
+
 {% endcapture %}
-{% capture summary %}[jamstack.org](https://jamstack.org/) says:{% endcapture %}{% include toggle.html %}
+{% capture summary %}jamstack.org says:{% endcapture %}{% include toggle.html %}
 
 
 After all, struggling with infrastructure (eg. pure Linux, webservers, blogging platforms like wordpress, unpredictable traffics and so on) is time consuming and I dont really like to deal with them again 😬 so, in JAMstack, everything is ready, you only have to focus on writing and and blog.
