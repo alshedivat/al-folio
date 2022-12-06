@@ -36,7 +36,7 @@ If you type `pages.dev` and hit enter, you will get into `pages.cloudflare.com` 
 > Cloudflare Pages is a JAMstack platform for frontend developers to collaborate and deploy websites.
 
 {% endcapture %}
-{% capture summary %}What is Cloudflare Pages? ac{% endcapture %}{% include toggle.html %}
+{% capture summary %}What is Cloudflare Pages?{% endcapture %}{% include toggle.html %}
 
 
 And so far, Cloudflare is the most popular CDN provider with a bunch of free features, so _why create my own site and put it behind Cloudflare?!!! Deploy it ON Cloudflare_ 😎
