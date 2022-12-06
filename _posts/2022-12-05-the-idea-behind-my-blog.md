@@ -32,7 +32,7 @@ This is my first post in my personal website and I want to explain the idea behi
 
 If you type `pages.dev` and hit enter, you will get into `pages.cloudflare.com` but what is Cloudflare Pages?!
 
-{% capture toggle %}
+{% capture details %}
 > Cloudflare Pages is a JAMstack platform for frontend developers to collaborate and deploy websites.
 
 {% endcapture %}
