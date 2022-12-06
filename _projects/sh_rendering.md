@@ -1,7 +1,7 @@
----
+<!-- ---
 layout: page
-title: Spherical Harmonics
-description: a project with a background image
+title: Spherical Harmonics Rendering
+description: Rendering Arbitrary Geometries using Precomputed Radiance Transfer
 img: assets/img/12.jpg
 importance: 1
 category: work
@@ -77,4 +77,4 @@ Here's the code for the last row of images above:
     </div>
 </div>
 ```
-{% endraw %}
+{% endraw %} -->
