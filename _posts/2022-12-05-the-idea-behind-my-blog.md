@@ -6,6 +6,7 @@ description: undefined
 tags: site
 categories: test
 ---
+
 > In the name of the God of Rainbow
 
 
@@ -32,8 +33,12 @@ This is my first post in my personal website and I want to explain the idea behi
 
 If you type `pages.dev` and hit enter, you will get into `pages.cloudflare.com` but what is Cloudflare Pages?!
 
+
 {% capture details %}
+
+
 > Cloudflare Pages is a JAMstack platform for frontend developers to collaborate and deploy websites.
+
 
 {% endcapture %}
 {% capture summary %}What is Cloudflare Pages?{% endcapture %}{% include toggle.html %}
@@ -42,12 +47,15 @@ If you type `pages.dev` and hit enter, you will get into `pages.cloudflare.com` 
 And so far, Cloudflare is the most popular CDN provider with a bunch of free features, so _why create my own site and put it behind Cloudflare?!!! Deploy it ON Cloudflare_ 😎
 
 
-Hmmmm, what is JAMstack? …. [jamstack.org](https://jamstack.org/) says:
+Hmmmm, what is JAMstack?
 
 
+{% capture details %}
 > Jamstack is an architectural approach that decouples the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability.  
 > Jamstack removes the need for business logic to dictate the web experience.  
 > It enables a composable architecture for the web where custom logic and 3rd party services are consumed through APIs.
+{% endcapture %}
+{% capture summary %}[jamstack.org](https://jamstack.org/) says:{% endcapture %}{% include toggle.html %}
 
 
 After all, struggling with infrastructure (eg. pure Linux, webservers, blogging platforms like wordpress, unpredictable traffics and so on) is time consuming and I dont really like to deal with them again 😬 so, in JAMstack, everything is ready, you only have to focus on writing and and blog.
