@@ -34,8 +34,9 @@ If you type `pages.dev` and hit enter, you will get into `pages.cloudflare.com` 
 
 
 <details>
-<summary class="text-monospace">View Code...</summary>
-Cloudflare Pages is a JAMstack platform for frontend developers to collaborate and deploy websites.
+<summary>What is Cloudflare Pages?</summary>
+> Cloudflare Pages is a JAMstack platform for frontend developers to collaborate and deploy websites.
+
 </details>
 
 
