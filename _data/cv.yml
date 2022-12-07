@@ -2,96 +2,109 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Adam Joseph Eisen
     - name: Date of Birth
-      value: 14th March 1879
+      value: November 8th 1996
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Brain and Cognitive Sciences
+      institution: <b>Massachusetts Institute of Technology</b>, Cambridge, MA, USA
+      year: Sep 2020 - Present
+      advisors: Earl Miller and Ila Fiete 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Applying dynamical systems models to neural data to investigate how dynamic stability varies across conscious states - primarily focused on propofol-induced unconsciousness
+    - title: Bachelor of Applied Science in Mathematics & Engineering, Computing and Communications Option
+      institution: <b>Queen's University</b>, Kingston, Ontario, Canada
+      year: Sep 2014 - Apr 2018
+      advisor: Abdol-Reza Mansouri
+      description:
+        - title: Undergraduate thesis - “Image Restoration Algorithms for Musical Style Transfer”
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - Applied machine learning and computer vision to learn a musical style, and adapted a stochastic image model and Markov chain Monte Carlo methods to transform any audio sample into the learned style
+            - Recipient of the Keyser Prize awarded to the two best Mathematics & Engineering theses
+        - <b>GPA</b> - 4.12/4.3
+        - <b>Dean's Scholar Designation</b> - (2015, 2016, 2017, 2018)
 
-- title: Experience
+- title: Research and Work Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research and Development
+      institution: <b>Heliolytics</b>, Toronto, ON, Canada
+      year: Sep 2018 - Aug 2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed and integrated machine learning and computer-vision algorithms for pixel-level aerial image matching, improving accuracy from about 75% to 99.9%
+        - Designed and constructed a distributed network of computing and monitoring systems to implement high volume image processing and analysis pipelines
+        - Constructed a framework using quantitative metrics and statistics to assess algorithm performance and improvement
+    - title: Machine Learning Researcher
+      institution: <b>The Hospital for Sick Children Department of Genetics & Genome Biology</b>, Toronto, ON, Canada
+      year: May 2017 - Aug 2017
+      supervisor: Lisa Strug
       description:
-        - Description 1.
-        - Description 2.
+        - Harnessed deep neural nets to build a TensorFlow model for predicting the likelihood of comorbidities in patients with cystic fibrosis (such as meconium ileus and decreased lung function), based on genetic data
+        - Built and compared the predictive power of additional models including random forests and LASSO regression
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Assistant
+      institution: <b>University of Toronto Department of Biochemistry</b>, Toronto, ON, Canada
+      supervisors: Hue Sun Chan and Lewis Kay
+      year: May 2016 - Aug 2016
       description:
+        - Optimized and expanded a C++ model to carry out Monte Carlo simulations of interactions among charged polymers leading to polymer phase separation
+        - Devised efficient algorithmic solutions to complex logical and three-dimensional problems related to protein structure, movements and interactions
+        - Validated an analytic theory regarding polymer radius of gyration
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Distinctions and Awards
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
+    - year: 2018
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - <b>Annie Bentley Lillie Prize in Mathematics</b>, awarded to the graduating student in Mathematics and Engineering who has the highest average on courses in mathematics in the final year
+    - year: 2017
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - <b>Nellie and Ralph Jeffrey Award in Mathematics</b>, awarded to the student entering the fourth year of the Mathematics and Engineering program, or of an honours program with a Mathematics major, having the highest standing in the mathematics courses of the first three years and an overall first-class average
+    - year: 2016
       items:
-        - Description 1.
-        - Description 2.
+        - <b>Nellie and Ralph Jeffrey Award in Mathematics</b>
+        - <b>Susan Near Scholarship</b>, for standing on year's work</b>
+    - year: 2015
+      items:
+        - <b>H. Janzen Memorial Scholarship</b>, awarded annually to the student who attained the highest standing in the first year physics courses in Applied Science
+        - <b>R.L. Dorrance Memorial Scholarship</b>, given by the Engineering Society for highest standing in the first year chemistry courses in Applied Science
+        - <b>Annie Bentley Lillie Prize in First Year Calculus</b>, awarded to students with high standing in any first year calculus course
+    - year: 2014
+      items:
+        - <b>Carl Reinhardt Entrance Scholarship in Physics</b>, for high standing in physics
+        - <b>Principal's Entrance Scholarship</b>, for obtaining grade 12 average of 98%
+        - <b>Valedictorian of the high school graduating class</b>, selected by peers and faculty
 
-- title: Other Interests
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Teaching Assistant
+      institution: <b>Massachusetts Institute of Technology</b>, Cambridge, MA, USA
+      year: Sep 2021 - Dec 2021
+      description:
+        - TA for 9.07 Statistics for Neuroscience - led recitations, conducted review sessions, and filled in as primary lecturer when the instructor was unavailable
+    - title: Tutor and Workshop Leader
+      institution: <b>EngLinks Tutoring, Queen's University</b>, Kingston, ON, Canada
+      year: Sep 2016 - Apr 2018
+      description:
+        - title: Prepared materials and conducted in-depth exam workshops for courses such as Differential Equations, Real Analysis and Electricity and Magnetism
+          contents:
+          - Led workshops of 60-100 students
+    - title: Private Tutor
+      institution: Toronto, ON, Canada
+      year: May 2015 - Jul 2015
+      description:
+        - Delivered tutoring services in math, science and jazz history to 10 high school and university-level students, with successful academic outcomes
+
+- title: Additional Information
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Tools:</u> Python, PyTorch, Slurm, SQL, Matlab, Keras, Tensorflow, OpenCV, R, React, Java, C++
+    - Co-wrote, recorded and released several albums with <a href="https://open.spotify.com/artist/7CIDRraBIHz8BenhnkJGnz?si=hC92IJtHRpWN2CiejkO_ug">Erez Zobary</a> (Jul 2019 - Present)
+    - Released an <a href="https://open.spotify.com/album/0SfHjngoQeGYHsgChWULTP?si=rt4qh5t1Q0OKEoRF05Z-YA">EP</a> under moniker Kodachrome (Nov 2016)
+    - Yoga, hiking, running, biking and long-distance cardio – completed triathlon in Aug 2018

@@ -16,6 +16,22 @@
             {% if content.institution %}
             <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{content.institution}}</h6>
             {% endif %}
+            {% if content.advisor %}
+            <i class="ml-1 ml-md-4" style="font-size: 0.95rem;">Advisor:</i>
+            <h6 style="font-size: 0.95rem; display:inline">{{content.advisor}}</h6>
+            {% endif %}
+            {% if content.advisors %}
+            <i class="ml-1 ml-md-4" style="font-size: 0.95rem;">Advisors:</i>
+            <h6 style="font-size: 0.95rem; display:inline">{{content.advisors}}</h6>
+            {% endif %}
+            {% if content.supervisor %}
+            <i class="ml-1 ml-md-4" style="font-size: 0.95rem;">Supervisor:</i>
+            <h6 style="font-size: 0.95rem; display:inline">{{content.supervisor}}</h6>
+            {% endif %}
+            {% if content.supervisors %}
+            <i class="ml-1 ml-md-4" style="font-size: 0.95rem;">Supervisors:</i>
+            <h6 style="font-size: 0.95rem; display:inline">{{content.supervisors}}</h6>
+            {% endif %}
             {% if content.description %}
               <ul class="items">
                 {% for item in content.description %}
