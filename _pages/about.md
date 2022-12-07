@@ -22,4 +22,4 @@ Hello! I'm a PhD candidate in [Brain and Cognitive Sciences](https://bcs.mit.edu
 
 I'm interested in understanding consciousness and the nature of thought using dynamical systems theory and stability.
 
-Aside from research, I love to write & play music :musical_keyboard:, hike and be active :mountain: :yoga:, and cook :carrot: :fried_egg: :leafy_green:. If you're bored and looking for some music to listen to, I'm a writer and musician for my good pal [Erez Zobary](https://open.spotify.com/artist/7CIDRraBIHz8BenhnkJGnz?si=wid3gX6HTyaSejXmHSjX8Q).
+Aside from research, I love to write & play music :musical_keyboard:, hike and be active :mountain:, and cook :carrot: :fried_egg: :leafy_green:. If you're bored and looking for some music to listen to, I'm a writer and musician for my good pal [Erez Zobary](https://open.spotify.com/artist/7CIDRraBIHz8BenhnkJGnz?si=wid3gX6HTyaSejXmHSjX8Q).
