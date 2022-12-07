@@ -1,12 +1,6 @@
-github_users:
-  - torvalds
-  - alshedivat
+github_usershttps://github.com/spraise/spraise.github.io/blob/master/_data/repositories.yml:
+  - spraise
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - PRIS-CV/BSNet
+  - PRIS-CV/Bi-FRN
