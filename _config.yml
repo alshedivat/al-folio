@@ -100,11 +100,6 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # -----------------------------------------------------------------------------
 
 collections:
-    #  news:
-    #    defaults:
-    #      layout: post
-    #    output: true
-    #    permalink: /news/:path/
   projects:
     output: true
     permalink: /projects/:path/

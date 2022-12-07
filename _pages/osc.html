@@ -1,0 +1,328 @@
+---
+layout: page
+title: oscillogram
+permalink: /osc.html
+description: A little interactive neutrino oscillogram.
+nav: true
+---
+
+
+  <!-- 
+Copyright 2022 Philipp Eller
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+  -->
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.5.0/math.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-array@3"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-scale@4"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-ternary@2"></script>
+<script src="https://cdn.jsdelivr.net/npm/complex-js"></script>
+<script type="text/x-mathjax-config">
+         MathJax.Hub.Config({ extensions: ["tex2jax.js"], jax: ["input/TeX", "output/HTML-CSS"], tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], displayMath: [ ['$$','$$'], ["\\[","\\]"] ], processEscapes: true }, "HTML-CSS": { availableFonts: ["TeX"] } });
+</script>
+
+  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+
+<table style="width:800">
+  <tr><td colspan="2">Mass splittings (eV$^2$):</td>
+    <td>CP phase (rad):</td>
+  </tr>
+  <tr>
+    <td> <span>$\Delta m^2_{21}$ = </span> <span id="val_dm21"></span>
+      <div>
+<input type="range" min="0.00005" max="0.0001" step="0.000001" value="0.000074" id="dm21_slider">
+      </div>
+</td>
+    <td><span>$|\Delta m^2_{31}|$ = </span> <span id="val_dm31">x</span>
+      <div>
+<input type="range" min="0.001" max="0.005" step="0.0001" value="0.0024" id="dm31_slider">
+      </div>
+</td>
+    <td><span>$\delta_{CP}$= </span> <span id="val_deltaCP"></span>
+      <div>
+      <input type="range" min="0." max="6.28" step="0.01" value="0" id="deltaCP_slider">
+      </div>
+    </td>
+  </tr>
+  
+  <tr><td colspan="3">Mixing Angles (rad):</td></tr>
+  <tr>
+    <td><span>$\theta_{12}$ = </span><span id="val_theta12">x</span>
+      <div>
+<input type="range" min="0" max="3.14" step="0.01" value="1" id="theta12_slider">
+      </div>
+</td>
+    <td><span>$\theta_{13}$ = </span> <span id="val_theta13">x</span>
+      <div>
+<input type="range" min="0" max="3.14" step="0.01" value="0.2" id="theta13_slider">
+      </div>
+</td>
+    <td><span>$\theta_{23}$ = </span> <span id="val_theta23">x</span>
+      <div>
+<input type="range" min="0" max="3.14" step="0.01" value="1" id="theta23_slider">
+      </div>
+</td>
+  </tr>
+
+<tr>
+<td>
+Initial flavour:<br>
+  <input type="radio" id="nue" checked="checked" name="initial_flavour" value=0>
+  <label for="nue" style="background-color:rgb(255, 255, 0, 0.5)">$\nu_e$</label><br>
+  <input type="radio" id="numu" name="initial_flavour" value=1>
+  <label for="numu" style="background-color:rgb(0, 128, 128, 0.5)">$\nu_\mu$</label><br>
+  <input type="radio" id="nutau" name="initial_flavour" value=2>
+  <label for="nutau" style="background-color:rgb(0, 0, 255, 0.5)">$\nu_\tau$</label>
+  </td>
+  <td>
+(Anti)neutrino:<br>
+  <input type="radio" id="nu" checked="checked" name="anti" value=1>
+  <label for="nu">$\nu$</label><br>
+  <input type="radio" id="antinu" name="anti" value=-1>
+  <label for="antinu">$\bar{\nu}$</label><br>
+  </td>
+   <td>
+Mass Ordering:<br>
+  <input type="radio" id="normal" checked="checked" name="nmo" value=0>
+  <label for="normal">Normal</label><br>
+  <input type="radio" id="inverted" name="nmo" value=1>
+  <label for="inverted">Inverted</label><br>
+  </td> 
+  </tr>
+  
+ </table>
+
+<p>
+<button class="favorite styled" type="button">Nufit 5.1</button>
+</p>
+
+
+
+ <div class="container">    
+ <svg id="root"></svg>
+</div>
+
+<script>
+
+
+// Convention: https://bl.ocks.org/mbostock/3019563
+const margin = { top: 10, right: 50, bottom: 50, left: 50 },
+  width = 800 - margin.left - margin.right,
+  height = 400 - margin.top - margin.bottom;
+
+const svg = d3.select("#root").attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom)
+  .append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+// Define chart area
+svg
+  .append("clipPath")
+  .attr("id", "chart-area")
+  .append("rect")
+  .attr("x", 0)
+  .attr("y", 0)
+  .attr("width", width)
+  .attr("height", height)
+
+// Add Axes
+const xMax = 40000;
+const yMax = 1;
+let xScale = d3.scaleLinear([0, xMax], [0, width])
+let yScale = d3.scaleLinear([0, yMax], [height, 0])
+let xAxis = d3.axisBottom(xScale)
+let yAxis = d3.axisLeft(yScale)
+svg.append("g")
+  .attr("transform", `translate(0,${height})`)
+  .call(xAxis)
+svg.append("g")
+  .attr("transform", `translate(0,0)`)
+  .call(yAxis)
+
+// Axes label
+svg.append("text")
+  .attr("class", "x label")
+  .attr("text-anchor", "end")
+  .attr("x", width / 2 + 5)
+  .attr("y", height + 35)
+  .text("L/E (GeV/km)");
+
+svg.append("text")
+  .attr("class", "y label")
+  .attr("text-anchor", "end")
+  .attr("y", -35)
+  .attr("x", -height / 2)
+  .attr("transform", "rotate(-90)")
+  .html("P")
+
+x = d3.range(0, xMax, xMax/1000)
+
+svg.selectAll(".blah")
+  .data([0, 0])
+  .enter().append("path")
+  .attr("class", "blah")
+
+svg.selectAll(".blah2")
+  .data([0, 0])
+  .enter().append("path")
+  .attr("class", "blah2")
+
+function graphFunction(dm21, dm31, theta12, theta13, theta23, deltacp, init, anti, inverted) {
+  d3.select('#val_dm21').text(dm21)
+  d3.select('#val_dm31').text(dm31)
+  d3.select('#val_theta12').text(theta12)
+  d3.select('#val_theta13').text(theta13)
+  d3.select('#val_theta23').text(theta23)
+  d3.select('#val_deltaCP').text(deltacp)
+  
+  flav_in = parseInt(init)
+  //console.log(i_flav)
+  inv = parseInt(inverted)
+  
+  s12 = Math.sin(parseFloat(theta12));
+  c12 = Math.cos(parseFloat(theta12));
+  s13 = Math.sin(parseFloat(theta13));
+  c13 = Math.cos(parseFloat(theta13));
+  s23 = Math.sin(parseFloat(theta23));
+  c23 = Math.cos(parseFloat(theta23));
+  
+  cp_phase = math.exp(math.complex(0, -1. * parseInt(anti) * parseFloat(deltacp)))
+  
+  if (inv) {
+    dm = [parseFloat(dm31), parseFloat(dm31)+parseFloat(dm21), 0]
+  }
+  else {
+    dm = [0, parseFloat(dm21), parseFloat(dm31)]
+  }
+  
+  U = [[c12*c13, s12*c13, math.multiply(s13, cp_phase)],
+       [math.subtract(-s12*c23, math.multiply(c12*s23*s13, math.conj(cp_phase))), math.subtract(c12*c23, math.multiply(s12*s23*s13, math.conj(cp_phase))), s23*c13],
+       [math.subtract(s12*s23, math.multiply(c12*c23*s13, math.conj(cp_phase))), math.subtract(-c12*s23, math.multiply(s12*c23*s13, math.conj(cp_phase))), c23*c13]
+      ];
+
+  ps = []
+  function f(x, a, b) {
+    p = math.complex(0,0);
+    for (let i = 0; i < 3; i++) {
+       phase = math.complex(0, -2 * 1.27 * dm[i] * x)
+       U2 = math.multiply(math.conj(U[a][i]), U[b][i]);
+       p = math.add(p, math.multiply(U2, math.exp(phase)));
+    };
+    return math.multiply(math.conj(p), p).re;
+  }
+
+  for (let flav_out = 0; flav_out < 3; flav_out++) {
+    ps.push(x.map(x => f(x, flav_in, flav_out)))
+  }
+  
+  data = d3.zip(x,ps[0], ps[1], ps[2])//.map(x => 1-x)); // ps[0].map((e,i) => e+ps[1][i]));
+
+  svg.selectAll("path")
+    .data([0, data])
+    .attr("clip-path", "url(#chart-area)")
+    .attr("fill", "yellow")
+    .attr("opacity", 0.5)
+    .attr("stroke", "black")
+    .attr("stroke-width", 1)
+    // .attr("d", d3.line()
+    //   .x(d => xScale(d[0]))
+    //   .y(d => yScale(d[1]))
+    //  ); 
+    .attr("d", d3.area()
+      .x0(d => xScale(d[0]))
+      .y0(d => yScale(0))
+      .x1(d => xScale(d[0]))
+      .y1(d => yScale(d[1]))
+     ); 
+
+    svg.selectAll(".blah")
+    .data([0, data])
+    .attr("class", "blah")
+    .attr("clip-path", "url(#chart-area)")
+    .attr("fill", "teal")
+    .attr("opacity", 0.5)
+    .attr("stroke", "black")
+    .attr("stroke-width", 1)
+    .attr("d", d3.area()
+      .x0(d => xScale(d[0]))
+      .y0(d => yScale(d[1]))
+      .x1(d => xScale(d[0]))
+      .y1(d => yScale(d[1]+d[2]))
+     ); 
+  
+    svg.selectAll(".blah2")
+    .data([0, data])
+    .attr("class", "blah2")
+    .attr("clip-path", "url(#chart-area)")
+    .attr("fill", "blue")
+    .attr("opacity", 0.5)
+    .attr("stroke", "black")
+    .attr("stroke-width", 1)
+    .attr("d", d3.area()
+      .x0(d => xScale(d[0]))
+      .y0(d => yScale(d[1]+d[2]))
+      .x1(d => xScale(d[0]))
+      .y1(d => yScale(d[1]+d[2]+d[3]))
+     );   
+ 
+}
+
+
+function update() {
+  
+ graphFunction(d3.select('#dm21_slider').property("value"),
+               d3.select('#dm31_slider').property("value"), 
+               d3.select('#theta12_slider').property("value"),
+               d3.select('#theta13_slider').property("value"),
+               d3.select('#theta23_slider').property("value"),
+               d3.select('#deltaCP_slider').property("value"),
+               d3.select('input[name="initial_flavour"]:checked').node().value,
+               d3.select('input[name="anti"]:checked').node().value,
+               d3.select('input[name="nmo"]:checked').node().value
+              );
+}
+
+// Event slider for input slider
+d3.selectAll('input').on('input', function() {
+ update();
+});
+
+const pi = 3.1416
+
+d3.selectAll('button').on('click', function() {
+  
+  if (d3.select('#normal').property("checked")){
+  d3.select('#dm21_slider').property("value", 0.0000742);
+  d3.select('#dm31_slider').property("value", 0.002515);
+  d3.select('#theta12_slider').property("value", 33.44/180*pi);
+  d3.select('#theta13_slider').property("value", 8.57/180*pi);
+  d3.select('#theta23_slider').property("value", 49.2/180*pi);
+  d3.select('#deltaCP_slider').property("value", 194/180*pi);
+  }
+  else{
+  d3.select('#dm21_slider').property("value", 0.0000742);
+  d3.select('#dm31_slider').property("value", 0.002498 - 0.0000742);
+  d3.select('#theta12_slider').property("value", 33.45/180*pi);
+  d3.select('#theta13_slider').property("value", 8.57/180*pi);
+  d3.select('#theta23_slider').property("value", 49.5/180*pi);
+  d3.select('#deltaCP_slider').property("value", 287/180*pi);
+  }
+  update();
+});
+
+
+update();
+
+</script>
