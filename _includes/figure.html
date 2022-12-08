@@ -1,6 +1,6 @@
 {%- assign img_path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" -%}
 
-<figure>
+
 
   <picture>
     {% if site.imagemagick.enabled %}
@@ -31,7 +31,7 @@
 
   {%- if include.caption -%}<figcaption class="caption">{{ include.caption }}</figcaption>{%- endif %}
 
-</figure>
+
 
 
 {{ include.path | relative_url }}
