@@ -9,8 +9,6 @@ inf_width: 400px
 profile:
   align: right
   image: prof_pic.jpg
-  width: 400px
-  margin: 400px
   image_circular: false # crops the image to make it circular
 
 news: true  # includes a list of news items
