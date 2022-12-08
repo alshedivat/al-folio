@@ -7,6 +7,7 @@ subtitle: <a href='https://www.lut.edu.cn/'>Lanzhou University of Technology, La
 profile:
   align: right
   image: prof_pic.jpg
+  width: 10
   image_circular: false # crops the image to make it circular
 
 news: true  # includes a list of news items
