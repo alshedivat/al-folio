@@ -23,8 +23,8 @@ Ciao 👋
 
 I'm Alessandro and I'm a PhD candidate at EPFL in the [Physics of Complex Systems Laboratory](https://www.epfl.ch/labs/pcsl/) and the [Signal Processing Laboratory](https://www.epfl.ch/labs/lts4/), co-advised by Matthieu Wyart and Pascal Frossard.
 
-The goal of my research is to advance the understanding of modern machine learning. I primarily focus on the *statistical aspects of deep learning* and the interplay between *data structure* and generalization. In particular, I'm interested in elucidating what structures in real data (e.g., symmetries, invariances, scale separation) allow for *efficient learning* in high dimensions.
+The aim of my research is to enhance our understanding of modern machine learning algorithms, with a focus on the interplay between *data structure*, *architecture*, and *generalization* in deep learning. In particular, I'm interested in exploring how the geometric structure of natural data, for instance symmetries, invariances, and compositionality, enables *efficient learning* in high-dimensional spaces.
 
-I enjoy working both studying analytical models and performing numerical experiments.
+I enjoy working both studying analytical (toy) models and performing numerical experiments.
 
-Before, I completed a joint Master's degree in *theoretical physics* at Sorbonne Université, Politecnico di Torino, SISSA, and ICTP.
+Previously, I completed a joint Master's degree in *theoretical physics* at Sorbonne Université, Politecnico di Torino, SISSA, and ICTP.
