@@ -10,12 +10,13 @@ group :jekyll_plugins do
     gem 'jekyll-paginate-v2'
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
-    gem 'jekyll-link-attributes'
+    gem 'jekyll-target-blank'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'jekyll-seo-tag'
 end
 group :other_plugins do
     gem 'httparty'
