@@ -11,30 +11,30 @@
 - title: Education
   type: time_table
   contents:
-    - title: M.E and Ph.D
-      institution: Lanzhou University of Technology, Lanzhou, China
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
       year: 1905
       description:
-        - M.E. in Computer Science and Technology
-        - Ph.D. in Manufacturing Information System
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: B.E
-      institution: Lanzhou University of Technology, Lanzhou, China
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
       year: 1900
       description:
-        - B.E. in Software Engineering
+        - Description 1.
+        - Description 2.
+
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/PRIS-CV/BSNet">BSNet</a>
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
       year: 2015-now
-      description: Code realease for the TIP (2021) paper.
-    - title: <a href="https://github.com/PRIS-CV/Bi-FRN">Bi-FRN</a>
-      year: 2015-now
-      description: Code realease for the AAAI-23 paper.
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
@@ -58,3 +58,4 @@
       items:
         - Description 1.
         - Description 2.
+
