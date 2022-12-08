@@ -15,14 +15,14 @@
       institution: Lanzhou University of Technology, Lanzhou, China
       year: 2019-now
       description:
-        - M.E. in Computer Science and Technology.
+        - M.E. in Computer Science and Technology
         - Ph.D. in Manufacturing Information System
           contents:
-            - Adviser: Prof. Xiaoxu Li
-            - Focus: Few-shot Image Classification, Meta-Learning
+            - Adviser- Prof. Xiaoxu Li
+            - Focus- Few-shot Image Classification, Meta-Learning
     - title: Federal teaching diploma
       institution: Lanzhou University of Technology, Lanzhou, China
-      year: 2015-2019
+      year: 2015 - 2019
       description:
         - B.E. in Software Engineering
 
@@ -32,10 +32,10 @@
   contents:
     - title: <a href="https://github.com/PRIS-CV/BSNet">BSNet</a>
       year: 2020
-      description: Code realease for TIP (2021) paper.
+      description: Code realease for the TIP (2021) paper.
     - title: <a href="https://github.com/PRIS-CV/Bi-FRN">Bi-FRN</a>
       year: 2022
-      description: Code realease for AAAi-23 paper.
+      description: Code realease for the AAAI-23 paper.
 
 - title: Honors and Awards
   type: time_table
@@ -43,7 +43,7 @@
     - year: 2019
       items: 
         - Lanzhou University of Technology Excellent Master’s Thesis
-    - year: 2020-2021
+    - year: 2020 - 2021
       items: 
         - Lanzhou University of Technology First Level Scholarship
 
