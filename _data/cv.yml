@@ -11,50 +11,49 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: M.E and Ph.D
       institution: Lanzhou University of Technology, Lanzhou, China
-      year: 1905
+      year: 2019 - now
       description:
         - M.E. in Computer Science and Technology
         - title: Ph.D. in Manufacturing Information System
           contents:
-            - Adviser: Prof. Xiaoxu Li
-            - Focus: Few-shot Image Classification, Meta-Learning
-    - title: Federal teaching diploma
+            - Adviser- Prof. Xiaoxu Li
+            - Focus- Few-shot Image Classification, Meta-Learning
+    - title: B.E
       institution: Lanzhou University of Technology, Lanzhou, China
-      year: 1900
+      year: 2015 - 2019
       description:
-        - Description 1.
-        - Description 2.
+        - B.E. in Software Engineering
 
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/PRIS-CV/BSNet">BSNet</a>
+      year: 2020
+      description: Code realease for the TIP (2021) paper.
+    - title: <a href="https://github.com/PRIS-CV/Bi-FRN">Bi-FRN</a>
+      year: 2022
+      description: Code realease for the AAAI-23 paper.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2019
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Lanzhou University of Technology Excellent Master’s Thesis
+    - year: 2020 - 2021
       items: 
-        - Max Planck Medal
+        - Lanzhou University of Technology First Level Scholarship
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Computer Vision
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Image Classification
+    - title: Few-shot Learning
       items:
-        - Description 1.
-        - Description 2.
+        - Few-shot Image Classification
 
