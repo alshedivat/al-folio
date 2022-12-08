@@ -15,12 +15,11 @@
       institution: Lanzhou University of Technology, Lanzhou, China
       year: 1905
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - M.E. in Computer Science and Technology
+        - title: Ph.D. in Manufacturing Information System
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - Adviser: Prof. Xiaoxu Li
+            - Focus: Few-shot Image Classification, Meta-Learning
     - title: Federal teaching diploma
       institution: Lanzhou University of Technology, Lanzhou, China
       year: 1900
