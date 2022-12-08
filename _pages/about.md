@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.lut.edu.cn/'>Lanzhou University of Technology, Lanzhou, China</a>
 
 profile:
   align: right
