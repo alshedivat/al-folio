@@ -1,9 +1,6 @@
-github_usershttps://github.com/spraise/spraise.github.io/blob/master/_data/repositories.yml:
+github_users:
   - spraise
   - PRIS-CV
-  - torvalds
-  - alshedivat
-
 
 github_repos:
   - PRIS-CV/BSNet
