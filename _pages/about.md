@@ -9,6 +9,7 @@ profile:
   image: prof_pic.jpg
   width: 10px
   margin: 100px
+  inf_width: 100px
   image_circular: false # crops the image to make it circular
 
 news: true  # includes a list of news items
