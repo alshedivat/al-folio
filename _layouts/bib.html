@@ -6,7 +6,7 @@
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
             <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
-          {% elsif entry.preview contains '.' -%}
+          {% elsif entry.preview contains '.jpg' -%}
             <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
           {%- else -%}
             <!-- <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;"> -->
