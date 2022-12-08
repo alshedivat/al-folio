@@ -2,37 +2,34 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Ronny Litvack-Katzman
+#    - name: Date of Birth
+#      value: 3rd June 1999
     - name: Languages
-      value: English, German
+      value: English, French
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master's of Arts (MA)
+      institution: McGill University, Montréal, Quebec, Canada
+      year: est. 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Thesis﹕The Unnatural, Framed
+        - Supervisor﹕Tabitha Sparks
+
+    - title: Bachelor's of Arts and Science (BASc)
+      institution: McGill University, Montréal, Quebec, Canada
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Dual Major in Biology and English Literature
+        - Research Paper﹕Knowledgeable Practice and the Practice of Knowledge: Epistemic Anxieties and the Creation of Scientific Images in Nineteenth Century Science Fiction 
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
+    - title: Research Assistant/Project Lead
+      institution: Rare Books and Special Collections, McGill Library
       year: 1933 - 1955
       description:
         - Description 1.
@@ -64,17 +61,19 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
+    - title: <a href="https://github.com/libraryponders/ciphersofthetimes">Ciphers of The Times</a>
+      year: 2021-now
+      description: A McGill Library reserach project and exhibition exploring newspapers, novels, and cyrptic commuication in the Victorian era.
+- title: Honours and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
+        - Hugh MacLennan Fellowship for the Study of English ($1000)
+        - Graduate Mobility Award ($2500)
+    - year: 2021
+      items: 
+        - SSHRCC Bombardier Canada Graduate Scholarship ($17,500) 
     - year: 2029
       items: 
         - Max Planck Medal
