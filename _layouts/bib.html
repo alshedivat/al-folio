@@ -138,50 +138,50 @@
             <a class="abstract badge bg-secondary z-depth-0" role="button">Abs</a>
           {%- endif %}
           {%- if entry.arxiv %}
-            <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="badge bg-secondary z-depth-0" role="button">arXiv</a>
+            <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="badge bg-secondary z-depth-0" role="button" target="_blank">arXiv</a>
           {%- endif %}
           {%- if entry.bibtex_show %}
             <a class="bibtex badge bg-secondary z-depth-0" role="button">Bib</a>
           {%- endif %}
           {%- if entry.html %}
-            <a href="{{ entry.html }}" class="badge bg-secondary z-depth-0" role="button">HTML</a>
+            <a href="{{ entry.html }}" class="badge bg-secondary z-depth-0" role="button" target="_blank">HTML</a>
           {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
-            <a href="{{ entry.pdf }}" class="badge bg-secondary z-depth-0" role="button">PDF</a>
+            <a href="{{ entry.pdf }}" class="badge bg-secondary z-depth-0" role="button" target="_blank">PDF</a>
             {%- else -%}
-            <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="badge bg-secondary z-depth-0" role="button">PDF</a>
+            <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="badge bg-secondary z-depth-0" role="button" target="_blank">PDF</a>
             {%- endif %}
           {%- endif %}
           {%- if entry.supp %}
             {% if entry.supp contains '://' -%}
-            <a href="{{ entry.supp }}" class="badge bg-secondary z-depth-0" role="button">Supp</a>
+            <a href="{{ entry.supp }}" class="badge bg-secondary z-depth-0" role="button" target="_blank">Supp</a>
             {%- else -%}
-            <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="badge bg-secondary z-depth-0" role="button">Supp</a>
+            <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="badge bg-secondary z-depth-0" role="button" target="_blank">Supp</a>
             {%- endif %}
           {%- endif %}
           {%- if entry.blog %}
-            <a href="{{ entry.blog }}" class="badge bg-secondary z-depth-0" role="button">Blog</a>
+            <a href="{{ entry.blog }}" class="badge bg-secondary z-depth-0" role="button" target="_blank">Blog</a>
           {%- endif %}
           {%- if entry.code %}
-            <a href="{{ entry.code }}" class="badge bg-secondary z-depth-0" role="button">Code</a>
+            <a href="{{ entry.code }}" class="badge bg-secondary z-depth-0" role="button" target="_blank">Code</a>
           {%- endif %}
           {%- if entry.poster %}
             {% if entry.poster contains '://' -%}
-            <a href="{{ entry.poster }}" class="badge bg-secondary z-depth-0" role="button">Poster</a>
+            <a href="{{ entry.poster }}" class="badge bg-secondary z-depth-0" role="button" target="_blank">Poster</a>
             {%- else -%}
-            <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="badge bg-secondary z-depth-0" role="button">Poster</a>
+            <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="badge bg-secondary z-depth-0" role="button" target="_blank">Poster</a>
             {%- endif %}
           {%- endif %}
           {%- if entry.slides %}
             {% if entry.slides contains '://' -%}
-            <a href="{{ entry.slides }}" class="badge bg-secondary z-depth-0" role="button">Slides</a>
+            <a href="{{ entry.slides }}" class="badge bg-secondary z-depth-0" role="button" target="_blank">Slides</a>
             {%- else -%}
-            <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="badge bg-secondary z-depth-0" role="button">Slides</a>
+            <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="badge bg-secondary z-depth-0" role="button" target="_blank">Slides</a>
             {%- endif %}
           {%- endif %}
           {%- if entry.website %}
-            <a href="{{ entry.website }}" class="badge bg-secondary z-depth-0" role="button">Website</a>
+            <a href="{{ entry.website }}" class="badge bg-secondary z-depth-0" role="button" target="_blank">Website</a>
           {%- endif %}
           {%- if entry.altmetric %}
             <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-altmetric-id="{{ entry.altmetric }}" class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-popover="right" data-badge-type="2" style="display:inline"></div>
