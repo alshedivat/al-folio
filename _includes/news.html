@@ -13,7 +13,10 @@
               {% endif %}
               {% for item in news limit: news_limit %} 
                 <tr>
-                  <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+                  <th scope="row"><a class="badge font-weight-bold bg-secondary text-uppercase align-middle" style="width: 75px;">
+                              {{ item.date | date: "%b %-d, %Y" }}
+                            </a>
+                  </th>
                   <td>
                     {% if item.inline -%} 
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
