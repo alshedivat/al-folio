@@ -29,9 +29,12 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+    - title: <a href="https://github.com/PRIS-CV/BSNet">BSNet</a>
       year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+      description: Code realease for the TIP (2021) paper.
+    - title: <a href="https://github.com/PRIS-CV/Bi-FRN">Bi-FRN</a>
+      year: 2015-now
+      description: Code realease for the AAAI-23 paper.
 
 - title: Honors and Awards
   type: time_table
