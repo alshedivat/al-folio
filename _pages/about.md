@@ -7,7 +7,7 @@ subtitle: PhD Candidate @ <a href="https://www.epfl.ch/en/">EPFL</a> in Statisti
 profile:
   align:
   image: prof_pic.jpg
-  image_cicular: false # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: #>
     # <em>Ocean Beach, San Francisco (CA)</em>
     #<p>Institute of Physics</p>

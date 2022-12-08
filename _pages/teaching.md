@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description:
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 ![Teaching](/assets/img/teaching_adobestock.jpg){: width="300" style="border-radius:3%" }

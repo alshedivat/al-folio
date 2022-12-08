@@ -22,6 +22,18 @@ last_updated: false # set to true if you want to display last updated in the foo
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
+# Theme
+# -----------------------------------------------------------------------------
+
+# code highlighter theme
+highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
+
+# repo color theme
+repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+
+# -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
 # will use title and url fields
@@ -56,8 +68,12 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: alesfav # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: alesfav # your Twitter handle
+mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: alesfav # your LinkedIn user name
+telegram_username: # your Telegram user name
 scholar_userid: E0sOorcAAAAJ # your Google Scholar ID
+semanticscholar_id: # your Semantic Scholar ID
+whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: 0000-0002-7640-5501 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -68,7 +84,15 @@ work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
-stackoverflow_id: #your stackoverflow id
+stackoverflow_id: # your stackoverflow id
+kaggle_id: # your kaggle id
+lastfm_id: # your lastfm id
+spotify_id: # your spotify id
+pinterest_id: # your pinterest id
+unsplash_id: # your unsplash id
+instagram_id: # your instagram id
+facebook_id: # your facebook id
+discord_id: # your discord id (18-digit unique numerical identifier)
 arxiv: alessandro+and+favero
 
 contact_note:
@@ -83,7 +107,7 @@ contact_note:
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
+google_analytics:  # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -137,8 +161,6 @@ news_limit: 5 # leave blank to include all the news in the `_news` folder
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
-highlight_theme_light: github  # https://github.com/jwarby/jekyll-pygments-themes
-highlight_theme_dark: native  # https://github.com/jwarby/jekyll-pygments-themes
 kramdown:
   input: GFM
   syntax_highlighter_opts:
@@ -174,7 +196,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
-  - jekyll-target-blank
+  - jekyll-link-attributes
   - jekyll-twitter-plugin
   - jemoji
 
@@ -209,6 +231,8 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
+display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will be dispalyed on the front page of your blog
+
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
@@ -238,16 +262,32 @@ scholar:
 
   query: "@*"
 
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
+# Filter out certain bibtex entry keywords used internally from the bib output
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
+
+# Maximum number of authors to be shown for each publication (more authors are visible on click)
+max_author_limit: 3  # leave blank to always show all authors
+more_authors_animation_delay: 10  # more authors are revealed on click using animation; smaller delay means faster animation
+
+
+# -----------------------------------------------------------------------------
+# Jekyll Link Attributes 
+# -----------------------------------------------------------------------------
+
+# These are the defaults
+external_links:
+  enabled: true
+  rel: external nofollow noopener
+  target: _blank
+  exclude:
+
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
 
-enable_responsive_images: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
-
 imagemagick:
-  enabled: true # make it 'false' if not using responsive images
+  enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
@@ -260,7 +300,7 @@ imagemagick:
     - ".png"
     - ".tiff"
   output_formats:
-    webp: "-quality 75%"
+    webp: "-resize 800x"
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
@@ -289,7 +329,7 @@ enable_navbar_social:       true  # enables displaying social links in the
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
-
+enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
 
 # -----------------------------------------------------------------------------
 # Library versions
@@ -302,7 +342,7 @@ bootstrap:
   version: "4.6.1"
   integrity:
     css: "sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY="
-    js: "sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI="
+    js: "sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8="
 fontawesome:
   version: "5.15.4"
   integrity: "sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4="
@@ -319,9 +359,6 @@ mdb:
   integrity:
     css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
     js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
-popper:
-  version: "2.11.2"
-  integrity: "sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4="
 medium_zoom:
   version: "1.0.6"
   integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="
