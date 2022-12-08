@@ -5,20 +5,8 @@
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
           {% if page.permalink != '/' -%}
-          <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-            {%- if site.title == "blank" -%}
-              {%- if site.first_name -%}
-                <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
-              {%- endif -%}
-              {%- if site.middle_name -%}
-                {{- site.middle_name -}}&nbsp;
-              {%- endif -%}
-              {%- if site.last_name -%}
-                {{- site.last_name -}}
-              {%- endif -%}
-            {%- else -%}
-              {{- site.title -}}
-            {%- endif -%}
+          <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
+              {%- if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}
           </a>
           {%- elsif site.enable_navbar_social -%}
           <!-- Social Icons -->
@@ -47,6 +35,15 @@
               <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
                 <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}
                   {%- if page.permalink == '/' -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
+
+              <!-- Bio -->
+              <li class="nav-item {% if page.url contains 'bio' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/bio/' | relative_url }}">bio
+                  {%- if page.url contains 'bio' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
@@ -84,6 +81,7 @@
                 </div>
               </li>
               {%- else %}
+              {%- unless p.title contains 'bio' -%}
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
                 <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
                   {%- if page.title == p.title -%}
@@ -91,10 +89,21 @@
                   {%- endif -%}
                 </a>
               </li>
+              {%- endunless -%}
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
               {%- if site.enable_darkmode %}
+
+              <!-- CV link -->
+              <!-- stolen from https://mayankm96.github.io -->
+              <li class="nav-item {% if page.url contains 'cv' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/assets/pdf/cv_jsm.pdf' }}">cv
+                  {%- if page.url contains 'cv' -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
 
               <!-- Toogle theme mode -->
               <li class="toggle-container">
@@ -108,12 +117,4 @@
           </div>
         </div>
       </nav>
-{% if site.enable_progressbar %}
-      <!-- Scrolling Progress Bar -->
-      <progress id="progress" value="0">
-        <div class="progress-container">
-          <span class="progress-bar"></span>
-        </div>
-      </progress>
-{%- endif %}
     </header>

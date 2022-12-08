@@ -1,20 +1,20 @@
+# My personal [webpage](https://jsmatte.github.io)
+
+My personal website based on the al-folio template (with edits). See below for instructions on how to do the same.
+
 # al-folio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[maintainers]: https://img.shields.io/badge/maintainers-3-success.svg 'Number of maintainers'
+[core_contributors]: https://img.shields.io/badge/core_contributors-3-orange.svg 'Number of core contributors'
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
 [![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
 [![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://github.com/alshedivat/al-folio/graphs/contributors/)
-[![Maintainers][maintainers]](#maintainers)
+[![Core Contributors][core_contributors]](#core-contributors-)
 [![GitHub release](https://img.shields.io/github/v/release/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/releases/latest)
 [![GitHub license](https://img.shields.io/github/license/alshedivat/al-folio?color=blue)](https://github.com/alshedivat/al-folio/blob/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/alshedivat/al-folio)](https://github.com/alshedivat/al-folio)
 [![GitHub forks](https://img.shields.io/github/forks/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/fork)
-
-[![Docker Image Version](https://img.shields.io/docker/v/amirpourmand/al-folio?sort=semver&label=docker%20image&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
-[![Docker Image Size](https://img.shields.io/docker/image-size/amirpourmand/al-folio?sort=date&label=docker%20image%20size&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
-[![Docker Pulls](https://img.shields.io/docker/pulls/amirpourmand/al-folio?color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
 
 A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.
 If you like the theme, give it a star!
@@ -76,16 +76,6 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://tirtharajdash.github.io" target="_blank">★</a>
 <a href="https://carolinacarreira.github.io" target="_blank">★</a>
 <a href="https://manandey.github.io" target="_blank">★</a>
-<a href="https://johanneshoerner.github.io" target="_blank">★</a>
-<a href="https://ioannismavromatis.com" target="_blank">★</a>
-<a href="https://taidnguyen.github.io" target="_blank">★</a>
-<a href="https://lbugnon.github.io" target="_blank">★</a>
-<a href="https://joahannes.github.io" target="_blank">★</a>
-<a href="https://dominikstrb.github.io" target="_blank">★</a>
-<a href="https://tylerbarna.com" target="_blank">★</a>
-<a href="https://daviddmc.github.io/" target="_blank">★</a>
-<a href="https://andreaskuster.ch/" target="_blank">★</a>
-<a href="https://ellisbrown.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -97,7 +87,6 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://decisionlab.ucsf.edu/" target="_blank">★</a>
 <a href="https://programming-group.com/" target="_blank">★</a>
 <a href="https://sailing-lab.github.io/" target="_blank">★</a>
-<a href="https://inbt.jhu.edu/epidiagnostics/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -115,8 +104,7 @@ CMU Distributed Systems (<a href="https://andrew.cmu.edu/course/15-440/" target=
 ML Retrospectives (NeurIPS: <a href="https://ml-retrospectives.github.io/neurips2019/" target="_blank">2019</a>, <a href="https://ml-retrospectives.github.io/neurips2020/" target="_blank">2020</a>; ICML: <a href="https://ml-retrospectives.github.io/icml2020/" target="_blank">2020</a>) <br>
 HAMLETS (NeurIPS: <a href="https://hamlets-workshop.github.io/" target="_blank">2020</a>) <br>
 ICBINB (NeurIPS: <a href="https://i-cant-believe-its-not-better.github.io/" target="_blank">2020</a>, <a href="https://i-cant-believe-its-not-better.github.io/neurips2021/" target="_blank">2021</a>) <br>
-Neural Compression (ICLR: <a href="https://neuralcompression.github.io/" target="_blank">2021</a>) <br>
-Score Based Methods (NeurIPS: <a href="https://score-based-methods-workshop.github.io/" target="_blank">2022</a>)
+Neural Compression (ICLR: <a href="https://neuralcompression.github.io/" target="_blank">2021</a>)
 </td>
 </tr>
 </table>
@@ -126,33 +114,6 @@ Score Based Methods (NeurIPS: <a href="https://score-based-methods-workshop.gith
 
 [![Google PageSpeeg](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=desktop)
 
-
-## Table Of Contents
-
-  * [User community](#user-community)
-  * [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
-  * [Getting started](#getting-started)
-    + [Installation](#installation)
-      - [Local setup using Docker (Recommended on Windows)](#local-setup-using-docker-recommended-on-windows)
-      - [Local Setup (Standard)](#local-setup-standard)
-      - [Deployment](#deployment)
-      - [Upgrading from a previous version](#upgrading-from-a-previous-version)
-    + [FAQ](#faq)
-  * [Features](#features)
-    + [Publications](#publications)
-    + [Collections](#collections)
-    + [Layouts](#layouts)
-      - [The iconic style of Distill](#the-iconic-style-of-distill)
-      - [Full support for math & code](#full-support-for-math--code)
-      - [Photos](#photos)
-    + [Other features](#other-features)
-      - [GitHub repositories and user stats](#github-repositories-and-user-stats)
-      - [Theming](#theming)
-      - [Social media previews](#social-media-previews)
-      - [Atom (RSS-like) Feed](#atom-rss-like-feed)
-  * [Contributing](#contributing)
-    + [Core Contributors](#core-contributors)
-  * [License](#license)
 
 ## Getting started
 
@@ -170,7 +131,7 @@ For a hands-on walkthrough of al-folio installation, check out [this cool video 
 
 You need to take the following steps to get `al-folio` up and running in your local machine:
 
-- First, install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/).
+- First, [install docker](https://docs.docker.com/get-docker/)
 - Then, clone this repository to your machine:
 
 ```bash
@@ -181,12 +142,12 @@ $ cd <your-repo-name>
 Finally, run the following command that will pull a pre-built image from DockerHub and will run your website.
 
 ```bash
-$ docker-compose up
+$ ./bin/dockerhub_run.sh
 ```
 
 Note that when you run it for the first time, it will download a docker image of size 300MB or so.
 
-Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`docker-compose up`) to render the webpage with all you changes. Also, make sure to commit your final changes.
+Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`bin/dockerhub_run.sh`) to render the webpage with all you changes. Also, make sure to commit your final changes.
 
 <details><summary>(click to expand) <strong>Build your own docker image (more advanced):</strong></summary>
 
@@ -196,18 +157,18 @@ First, download the necessary modules and install them into a docker image calle
 
 
 ```bash
-$ docker-compose -f docker-local.yml build
+$ ./bin/docker_build_image.sh  
 ```
 
 Run the website!
 
 ```bash
-$ docker-compose -f docker-local.yml up
+$ ./bin/docker_run.sh
 ```
 
-> To change port number, you can edit `docker-compose.yml` file.
+> To change port number, you can edit `docker_run.sh` file.
 
-> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again! It will download ruby and jekyll and install all ruby packages again from scratch.
+> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `docker_build_image.sh`! It will download ruby and jekyll and install all ruby packages again from scratch.
 
 </details>
 
@@ -376,13 +337,13 @@ You can also add new `*.bib` files and customize the look of your publications h
 
 <details><summary>(click to expand) <strong>Author annotation:</strong></summary>
 
-In publications, the author entry for yourself is identified by string array `scholar:last_name` and string array `scholar:first_name` in `_config.yml`:
+In publications, the author entry for yourself is identified by string `scholar:last_name` and string array `scholar:first_name` in `_config.yml`:
 ```
 scholar:
-  last_name: [Einstein]
+  last_name: Einstein
   first_name: [Albert, A.]
 ```
-If the entry matches one form of the last names and the first names, it will be underlined.
+If the entry matches the last name and one form of the first names, it will be underlined.
 Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
 The coauthor data format in `_data/coauthors.yml` is as follows,
 ```
@@ -425,7 +386,6 @@ There are several custom bibtex keywords that you can use to affect how the entr
 - `poster`: Adds a "Poster" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
 - `slides`: Adds a "Slides" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
 - `website`: Adds a "Website" button redirecting to the specified link
-- `altmetric`: Adds an [Altmetric](https://www.altmetric.com/) badge (Note: only add the altmetric identifier here - the link is generated automatically)
 
 You can implement your own buttons by editing the bib.html file.
 
@@ -455,9 +415,9 @@ To do this, edit the collections in the `_config.yml` file, create a correspondi
 
 The theme allows you to create blog posts in the [distill.pub](https://distill.pub/) style:
 
-<p align="center"><a href="https://alshedivat.github.io/al-folio/blog/2021/distill/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/distill-screenshot.png" width=700></a></p>
+<p align="center"><a href="https://alshedivat.github.io/al-folio/blog/2018/distill/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/distill-screenshot.png" width=700></a></p>
 
-For more details on how to create distill-styled posts using `<d-*>` tags, please refer to [the example](https://alshedivat.github.io/al-folio/blog/2021/distill/).
+For more details on how to create distill-styled posts using `<d-*>` tags, please refer to [the example](https://alshedivat.github.io/al-folio/blog/2018/distill/).
 
 #### Full support for math & code
 
@@ -483,40 +443,10 @@ Easily create beautiful grids within your blog posts and project pages:
 
 ### Other features
 
-#### GitHub repositories and user stats
-**al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) to display GitHub repositories and user stats on the the `/repositories/` page.
-
-Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the the `/repositories/` page.
-
-You may also use the following codes for displaying this in any other pages.
-```
-<!-- code for GitHub users -->
-{% if site.data.repositories.github_users %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.html username=user %}
-  {% endfor %}
-</div>
-{% endif %}
-
-<!-- code for GitHub repositories -->
-{% if site.data.repositories.github_repos %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.html repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
-```
-
 #### Theming
-A variety of beautiful theme colors have been selected for you to choose from.
-The default is purple, but you can quickly change it by editing the
-`--global-theme-color` variable in the `_sass/_themes.scss` file.
+Six beautiful theme colors have been selected to choose from.
+The default is purple, but you can quickly change it by editing `$theme-color` variable in the `_sass/_themes.scss` file.
 Other color variables are listed there as well.
-The stock theme color options available can be found at `_sass/variables.scss`.
-You can also add your own colors to this file assigning each a name for ease of
-use across the template.
 
 #### Social media previews
 **al-folio** supports preview images on social media.
@@ -541,7 +471,7 @@ Before you get started, please take a look at [the guidelines](CONTRIBUTING.md).
 If you would like to improve documentation, add your webpage to the list below, or fix a minor inconsistency or bug, please feel free to send a PR directly to `master`.
 For more complex issues/bugs or feature requests, please open an issue using the appropriate template.
 
-### Maintainers
+### Core Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
