@@ -15,16 +15,16 @@
       institution: Lanzhou University of Technology, Lanzhou, China
       year: 2019 - now
       description:
-        - M.E. in Computer Science and Technology
-        - title: Ph.D. in Manufacturing Information System
+        - M.E. in Computer Science and Technology.
+        - title: Ph.D. in Manufacturing Information System.
           contents:
-            - Adviser- Prof. Xiaoxu Li
-            - Focus- Few-shot Image Classification, Meta-Learning
+            - "Adviser: Prof. Xiaoxu Li."
+            - "Focus: Few-shot Image Classification, Meta-Learning."
     - title: B.E
       institution: Lanzhou University of Technology, Lanzhou, China
       year: 2015 - 2019
       description:
-        - B.E. in Software Engineering
+        - B.E. in Software Engineering.
 
 
 - title: Open Source Projects
