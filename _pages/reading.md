@@ -9,6 +9,7 @@ nav_order: 4
 
 2022
 
+* The Girl in the Tower - Katherine Arden
 * Jonathan Strange and Mr. Norrell - Susanna Clarke
 * The Bear and the Nightingale - Katherine Arden
 * Piranesi - Susanna Clarke
