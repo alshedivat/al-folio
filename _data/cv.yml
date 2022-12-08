@@ -29,7 +29,7 @@
         - Description 2.
 
 - title: Experience
-  type: time_table
+  type: nested_list
   contents:
     - title: Professor of Theoretical Physics
       institution: Institute for Advanced Study, Princeton University
@@ -62,14 +62,14 @@
       year: 1909 - 1911
 
 - title: Open Source Projects
-  type: time_table
+  type: map
   contents:
     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
-  type: time_table
+  type: list
   contents:
     - year: 1921
       items: 
