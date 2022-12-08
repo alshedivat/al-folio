@@ -4,12 +4,13 @@ title: About
 permalink: /
 subtitle: <a href='https://www.lut.edu.cn/'>Lanzhou University of Technology, Lanzhou, China</a>
 
+inf_width: 100px
+
 profile:
   align: right
   image: prof_pic.jpg
   width: 10px
   margin: 100px
-  inf_width: 100px
   image_circular: false # crops the image to make it circular
 
 news: true  # includes a list of news items
