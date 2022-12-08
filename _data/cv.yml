@@ -2,31 +2,29 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Jijie Wu
     - name: Date of Birth
-      value: 14th March 1879
+      value: 3th April 1996
     - name: Languages
-      value: English, German
+      value: Chinese, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
+    - title: M.E and Ph.D
+      institution: Lanzhou University of Technology, Lanzhou, China
       year: 1905
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - M.E. in Computer Science and Technology
+        - Ph.D. in Manufacturing Information System
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+    - title: B.E
+      institution: Lanzhou University of Technology, Lanzhou, China
       year: 1900
       description:
-        - Description 1.
-        - Description 2.
+        - B.E. in Software Engineering
 
 - title: Open Source Projects
   type: time_table
