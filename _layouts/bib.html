@@ -70,7 +70,7 @@
               <b><span style="color:#9933CC; text-decoration:underline;">{{author.first}} {{author.last}}</span></b>
             {%- else -%}
               {%- if coauthor_url -%}
-                <span style="color:black; text-decoration:none;"><a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a></span>
+                <span><a style="color:black; text-decoration:none;" href="{{coauthor_url}}">{{author.first}} {{author.last}}</a></span>
               {%- else -%}
                 {{author.first}} {{author.last}}
               {%- endif -%}
