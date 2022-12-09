@@ -19,18 +19,18 @@
         - Supervisor﹕Tabitha Sparks
 
     - title: Bachelor's of Arts and Science (BASc)
-      institution: McGill University, Montréal, Quebec, Canada
+      institution: McGill University, Montréal, Canada
       year: 2021
       description:
         - Dual Major in Biology and English Literature
-        - Research Paper﹕Knowledgeable Practice and the Practice of Knowledge: Epistemic Anxieties and the Creation of Scientific Images in Nineteenth Century Science Fiction 
+        - Research Paper﹕Knowledgeable Practice and the Practice of Knowledge:" Epistemic Anxieties and the Creation of Scientific Images in Nineteenth Century Science Fiction
 
 - title: Experience
   type: time_table
   contents:
     - title: Research Assistant/Project Lead
       institution: Rare Books and Special Collections, McGill Library
-      year: 1933 - 1955
+      year: 2021 - now
       description:
         - Description 1.
         - Description 2.
@@ -38,59 +38,70 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+
+    - title: Teaching Assistant
+      institution: McGill University, Montréal, Canada
+      year: 2021 - now
       description:
-        - Description 1.
-        - Description 2.
+        - ENGL 329 - 19th Century English Novel (Charlotte Brontë)
+        - SOCI 210 - Sociological Perspectives
+        - SOCI 235 - Technology and Society
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Editorial Assistant
+      institution: JMIR Publications, Toronto, Canada
+      year: Jan 2021 - Sep 2021
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Grant and Proposal Writer
+      institution: McGill University Health Centre Foundation, Montréal, Canada
+      year: 2019 - 2021
+
+    - title: Editor, Science and Technology
+      institution: The McGill Tribune, Montréal, Canada
+      year: 2017-2020
+
+    - title: Research Assistant - Chapman Lab
+      institution: Department of Biology, McGill University, Montréal, Canada
+      year: 2018 - 2020
       description:
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+- title: Professional Service
+  type: time_table
+  contents:
+    - title: Project Organizer
+      institution: Science and Technology Studies Working Group
+      year: 2022 - now
+
+    - title: Graduate Curriculum Representative
+      institution: English Graduate Students Association
+      year: 2021 - 2022
+
+    - title: Director of Event Logistics
+      institution: National Integrative Research Conference
+      year: 2021 - 2022
 
 - title: Open Source Projects
   type: time_table
   contents:
     - title: <a href="https://github.com/libraryponders/ciphersofthetimes">Ciphers of The Times</a>
-      year: 2021-now
+      year: 2021 - now
       description: A McGill Library reserach project and exhibition exploring newspapers, novels, and cyrptic commuication in the Victorian era.
+
 - title: Honours and Awards
   type: time_table
   contents:
     - year: 2022
-      items: 
+      items:
         - Hugh MacLennan Fellowship for the Study of English ($1000)
         - Graduate Mobility Award ($2500)
     - year: 2021
-      items: 
-        - SSHRCC Bombardier Canada Graduate Scholarship ($17,500) 
-    - year: 2029
-      items: 
-        - Max Planck Medal
+      items:
+        - SSHRC Bombardier Canada Graduate Scholarship ($17,500)
+    - year: 2018
+      items:
+        - Science Undergraduate Research Award (SURA) ($7500)
+        - Tomlinson Engagement Award for Mentoring ($300)
 
 - title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Nineteenth-century British literature and culture, science and literature, science and technology studies, science fiction, narrative theory
