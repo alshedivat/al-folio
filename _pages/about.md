@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: MS student in CS at UC Santa Barbara<br /><a href="https://santabarbaraca.com/"><i class="fas fa-map-marker-alt"></i> Santa Barbara, CA</a>
+subtitle: MS student in CS at UC Santa Barbara<br /><a href="https://www.ucsb.edu"><i class="fas fa-map-marker-alt"></i> Santa Barbara, CA</a>
 
 profile:
   align: right
@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 
 Hello There!
 I am Saikumar Yadugiri.
-You can call me Sai.
+You can call me Sai (like the greek god of sea :trident:, po-**sai**-don).
 I am a second-year master's degree student in the [computer science department](https://www.cs.ucsb.edu) at the University of California, Santa Barbara.
 [Prof. Prabhanjan Ananth](https://sites.google.com/site/prabhanjanva) currently advises me on my thesis requirements.
 We are currently working on improving the efficiency of functional encryption in both single and multi-input settings for various privacy-critical scenarios.
