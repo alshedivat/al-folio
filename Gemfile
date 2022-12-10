@@ -21,6 +21,7 @@ group :jekyll_plugins do
     gem 'webrick'
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
+    gem 'external-posts'
 end
 # group :other_plugins do
 #     gem 'httparty'
