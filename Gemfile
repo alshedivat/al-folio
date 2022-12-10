@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'wdm', '>= 0.1.0'
-    gem 'jekyll'
+    gem 'jekyll', '4.2.1'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
