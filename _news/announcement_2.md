@@ -2,14 +2,18 @@
 layout: post
 title: <strong>Event.</strong> In conversation with Kevis Goodman
 date: 2022-11-24 16:11:00-0400
-inline: false
+inline: true
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+<strong>Event.</strong> In conversation with Kevis Goodman
 
 ***
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+The STS Working Group invites you to an upcoming proseminar entitled “Pathologies of Motion: Historical Thinking in Medicine, Aesthetics and Poetics,” featuring Professor Kevis Goodman, Professor of English at the University of California, Berkeley.
+<div</div>
+Professor Goodman will be discussing her forthcoming book, “Pathologies of Motion” (Yale, 2022) as a way to open up larger questions of the ambiguous "and" in "science and literature" – how does one study them in a way that doesn't just involve analogy, or shared themes? What do these questions look like when one is studying these texts at a moment when "science" and "literature" were not, in fact, different disciplines?
+
+The seminar will take place via Zoom on Thursday, November 24 from 2:00 – 4:00pm. Graduate students, advanced undergraduates, and faculty are all welcome to attend. Please let us know of your interest by registering using the link in our bio!
 
 #### Hipster list
 <ul>

@@ -113,7 +113,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
+blog_name: literature and # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
@@ -265,7 +265,7 @@ more_authors_animation_delay: 10  # more authors are revealed on click using ani
 
 
 # -----------------------------------------------------------------------------
-# Jekyll Link Attributes 
+# Jekyll Link Attributes
 # -----------------------------------------------------------------------------
 
 # These are the defaults

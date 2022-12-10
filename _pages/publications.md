@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
-description: scholarship, academic, public or otherwise.
+permalink: /output/
+title: output
+description: academic, public or otherwise.
 years: [2021]
 nav: true
 nav_order: 1

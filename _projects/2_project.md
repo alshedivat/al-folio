@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: the unnatural, framed
+description: How H.G. Wells' innovative frame narratives refigured perceptions of evolution.
+img: assets/img/hg_w_skeleton.jpg
 importance: 2
-category: work
+category: academic research
 ---
 
 Every project has a beautiful feature showcase page.

@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+title: sts working group
+description: A student-led initiative at McGill to engage and connect interdisciplinary scholars across the humanities & the social, natural, & physical sciences.                                           
+img: assets/img/sci_lit.jpg
+importance: 2
+category: public scholarship
 ---
 
 Every project has a beautiful feature showcase page.
