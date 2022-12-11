@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MCLab
+title: Lab
 nav: true
 dropdown: true
 children: 
