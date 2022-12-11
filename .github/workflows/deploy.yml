@@ -45,5 +45,4 @@ jobs:
     - name: Deploy website 
       run:  yes | bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 
-                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
-Update about.md · chenxiunt/chenxiunt.github.io@b054a33
+                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }}
