@@ -14,3 +14,9 @@ The talk is a part of [Gazeta Speaker Series](https://gazetaworkshop.hcommons.or
 I would like to thank the organizers [Yelizaveta Raykhlina](https://www.yelizavetaraykhlina.com/) and [Ala Graff](https://www.alacgraff.com/) for the invitation.
 
 If you are interested in coming, please email gazeta.workshop@gmail.com to receive the Zoom link.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="/olyanechaeva.github.io/assets/img/Gazeta-2022_Nechaeva.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
