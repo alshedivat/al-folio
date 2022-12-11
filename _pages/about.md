@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 
 Dr. Chenxi Qiu is currently a tenure-track assistant professor in [The Department of Computer Science and Engineering](https://computerscience.engineering.unt.edu/) at [University of North Texas (UNT)](https://www.unt.edu/). He directs the Mobile Computing Lab (MCLab) at UNT.  
 
-Before joining UNT, he worked as an assistant professor in the Department of Computer Science at Rowan University from 2018 to 2021, and worked as a Postdoctoral Scholar in The College of Information Sciences and Technology at Pennsylvania State University from 2016 to 2018.
+Before joining UNT, he worked as an assistant professor in the Department of Computer Science at Rowan University from 2018 to 2021, and worked as a Postdoctoral Scholar in The College of Information Sciences and Technology at Pennsylvania State University from 2016 to 2018. 
 
 Dr. Qiu received his Ph.D. degree in The Holcombe Department of Electrical and Computer Engineering at Clemson University in 2015 and his B.Engr. degree in Telecommunication Engineering from Xidian University in China in 2009.
 
