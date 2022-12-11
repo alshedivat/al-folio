@@ -2,10 +2,11 @@ name: Deploy branch to Layer0
 
 on:
   push:
-    branches: [master, main]
+    branches: [cf-pages]
   pull_request:
   release:
     types: [published]
+  workflow_dispatch:
 
 jobs:
   deploy-to-layer0:
@@ -38,9 +39,7 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-      - name: Install packages
-        run: npm ci # if using npm for your project
-        #  run: rm -rf node_modules && yarn install --frozen-lockfile # if using yarn for your project
+
       - name: Deploy to Layer0
         run: |
           npm run deploy -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$deploy_token  \
