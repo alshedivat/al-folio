@@ -16,11 +16,11 @@ social: true  # includes social icons at the bottom of the page
 Hi There!
 \\
 \\
-I am Pranav, currently pursuing my Master of Technology in Computer Science and Engineering at the [Indian Institute of Technology (BHU), Varanasi](https://www.iitbhu.ac.in/). I am fascinated by the latest advancements in AI. For the last few years I have been working on Machine learning with a particular focus on Natural Language Processing and Information Retrieval. 
+I am Pranav, currently pursuing my integrated Bachelors and Masters of Technology in Computer Science and Engineering at the [Indian Institute of Technology (BHU), Varanasi](https://www.iitbhu.ac.in/). For the past few years I have been working in Natural Language Processing and Information Retrieval with my interests aliging with knowledge-driven AI, low resource NLP and training-parameter efficient transfer learning. 
 \\
 \\
-Currently, I am working on conversational question answering over knowledge graphs with [Chris Biemann](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html) and [Debayan Banerjee](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/debayan-banerjee.html) at the [University of Hamburg](https://www.uni-hamburg.de/). 
+I have previously worked on machine commonsene, summarization and low-resouece NLP at the [NLPRL](https://github.com/NLPRL), [IIT (BHU) Varanasi](https://www.iitbhu.ac.in/). Currently, at the [Language Technologies group](https://www.inf.uni-hamburg.de/en/inst/ab/lt/home.html), [University of Hamburg](https://www.uni-hamburg.de/) I am working on analyzing the effect of output vocabulary token length for SPARQL semantic parsing with prompt tuning and finetuning. Previously I have worked here on end-to-end KGQA and knowledge graphs.
 \\
-At my institue I have been working with [Anil Kumar Singh](https://www.iitbhu.ac.in/dept/cse/people/aksinghcse) on introducing commonsense knowledge in sequence to sequence models, reducing repetiton in abstractive summrization and adversarial training for sequence to sequence models.
+Also I am working on zero-shot abstractive summarization with prompt tuning at the [IR Lab](https://cse-iitbhu.github.io/irlab/index.html), [IIT (BHU) Varanasi](https://www.iitbhu.ac.in/).
 
 Here is the link to my [CV](https://drive.google.com/file/d/1sRR6d0zkJGryYo9mgLverRLUFDOBUSGL/view?usp=sharing).
