@@ -5,7 +5,7 @@ author: Zhihao
 description: The most interesting Quaternary geomorphology story of Norway
 date: 2022-11-20
 tags: notes # notes\links\code\math\images
-categories: geomorphology glacier climate permafrost# topic
+categories: geomorphology glacier climate permafrost #topic
 bibliography: C:\Users\ZOZN109\AppData\Local\Pandoc\My _Library.bib
 csl: C:\Users\ZOZN109\AppData\Local\Pandoc\apa.csl
 lang: eng
