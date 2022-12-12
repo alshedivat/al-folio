@@ -21,6 +21,6 @@ I am Pranav, currently pursuing my integrated Bachelors and Masters of Technolog
 \\
 I have previously worked on machine commonsene, summarization and low-resouece NLP at the [NLPRL](https://github.com/NLPRL), [IIT (BHU) Varanasi](https://www.iitbhu.ac.in/). Currently, at the [Language Technologies group](https://www.inf.uni-hamburg.de/en/inst/ab/lt/home.html), [University of Hamburg](https://www.uni-hamburg.de/) I am working on analyzing the effect of output vocabulary token length for SPARQL semantic parsing with prompt tuning and finetuning. Previously I have worked here on end-to-end KGQA and knowledge graphs.
 \\
-Also I am working on zero-shot abstractive summarization with prompt tuning at the [IR Lab](https://cse-iitbhu.github.io/irlab/index.html), [IIT (BHU) Varanasi](https://www.iitbhu.ac.in/).
+Also, I am working on zero-shot abstractive summarization with prompt tuning at the [IR Lab](https://cse-iitbhu.github.io/irlab/index.html), [IIT (BHU) Varanasi](https://www.iitbhu.ac.in/).
 
 Here is the link to my [CV](https://drive.google.com/file/d/1sRR6d0zkJGryYo9mgLverRLUFDOBUSGL/view?usp=sharing).
