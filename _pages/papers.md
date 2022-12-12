@@ -8,7 +8,7 @@ nav_order: 3
 ---
 
 ## publications  
-&nbsp; 
+&nbsp;
 
 **identity effects in social media**  
 with sean taylor, lev muchnik, and sinan aral  
@@ -22,9 +22,9 @@ marketing letters, 2019
 [pdf](https://mitsloan.mit.edu/shared/ods/documents?PublicationDocumentID=5970)  
 
 
-&nbsp;  
+&nbsp;
 ## working papers  
-&nbsp; 
+&nbsp;
 
 **scalable bundling via dense product embeddings**  
 with dean eckles, and sinan aral  
