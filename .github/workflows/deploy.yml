@@ -18,6 +18,8 @@ jobs:
       uses: actions/setup-ruby@v1
     - name: Setup Ruby, JRuby and TruffleRuby
       uses: ruby/setup-ruby@v1.127.0
+      with:
+        ruby-version: '2.7.1'
     - name: Enable bundler cache
       uses: actions/cache@v2
       with:
