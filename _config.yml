@@ -6,16 +6,15 @@ title: Aya Al Sabahi.
 first_name: Aya
 middle_name:
 last_name: Al Sabahi
-email: you@example.com
-description:  # the ">" symbol means to ignore newlines until "footer_text:"
-  Here is where you'll find my thoughts, projects, and art :)
+email: theayaalsabahi@gmail.com
+description: Here is where you'll find my thoughts, projects, and art :)
 footer_text: 
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords:   # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ;)  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: :3  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://alshedivat.github.io # the base hostname & protocol for your site
 baseurl: /al-folio # the subpath of your site, e.g. /blog/
@@ -95,8 +94,7 @@ instagram_id: # your instagram id
 facebook_id: # your facebook id
 discord_id: # your discord id (18-digit unique numerical identifier)
 
-contact_note: >
-  Reach me through email! ♡
+contact_note: hehehe
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
