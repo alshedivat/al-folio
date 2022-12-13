@@ -16,7 +16,7 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi, I'm Aya, a second year computer science student at Carnegie Mellon Univeristy Qatar by day, artist by night. Here you'll find my occasional thoughts and feelings, who I am, but most importantly my projects and current academi interests.
+Hi, I'm Aya, a second year computer science student at Carnegie Mellon Univeristy Qatar by day, artist by night. Here you'll find my occasional thoughts and feelings, who I am, but most importantly my projects and current academic interests.
  
 My enjoyment currently lie in technology for social good and delving deeper into computer systems. 
 

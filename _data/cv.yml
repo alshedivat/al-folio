@@ -2,96 +2,95 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Aya Al Sabahi
     - name: Languages
-      value: English, German
+      value: English, Arabic 
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.Sc. in Computer Science 
+      institution: Carnegie Mellon Univeristy, Qatar
+      year: 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Math Courses
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - Calculus 1, 2
+            - Calculus in 3D
+            - Concepts of Math (discrete math)
+            - Linear algebra
+        - title: Comp Sci Courses
+          contents:
+            - Fundementals of Programming (Python)
+            - Principles of Imperative Computation (C)
+            - Principles of Functional Programming (SML NJ)
+            - Introduction to Computer Systems
+        - Cognitive Psychology 
+       
+    - title: 
+      institution: International School of Chouifat, Muscat
+      year: 2021
+      description: 
+      - title: Advanced Placement Scholar with Honor
+        contents: Physics C, AB calculus, Computer Science A, Psychology
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Course Assistant for Fundementals of Programming 
+      institution: Carnegie Mellon Univeristy, Qatar
+      year: Jan 2022 - Apr 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+      - support students with clarifying concepts in weekly labs
+      - Hold office hours for students to ask questions (3 sessions/week)
+      - conduct homework interviews to keep track of students learning progress
+    - title: Software Developer on backend 
+      institution: PhazeRo
+      year: June/July 2022
       description:
-        - Description 1.
-        - Description 2.
+        - tools used; NodeJs, REST API
+        - Wokrked on an applicant managment anf filtering system for HR
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021 - present
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Scholarship from Qatari Amiri Diwan awarded to Omani students competitivley 
+    - year: 2020 - 2022
       items: 
-        - Max Planck Medal
+        - Board member for a non-profit magazine for Omani Youth, TwoThousand Magazine
+    - year: 2022 
+      items: Nashia Python Scheme run by Ministry of Education, Oman
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+- title: Projects
+  type: time_table
+  contents: 
+    - title: Computer Systems labs
+      year: 2022
+      description: 
+      - shell with several built-in commands
+      - proxy for static HTML web pages 
+      - dynamic memory allocator (malloc, calloc, realloc, free) with a segregated linked list implementation, 4 byte minimum block size
+    - title: Freshman Immigration Planner
+      year: 2021
+      description: 
+      - Imolimented using Python & tkinter library 
+      - Helps students transition from highschool to univeristy by visually tracking time spent in courses
+      - Includes ability to view & track office hours
+      - scalability to track by day, week, month and view all time statistics 
+    - title: Recreated Minesweeper
+      year: 2020
+      description: For nashia python scheme run by Ministry of Education in Oman
+- title: Activities & Leadership 
+  type: time_table 
+  contents: 
+    - year: 2022 - 2023 
+      items: Computing Club member
+    - year: 2019 - 2021
+      items: Features & Science head editor, ISC-Muscat newsletter 
+    - year: 2018 - Present
+      items: Sold copies of my art in local saturday market, also run an art account (@ayasbrushes on instagram)
+    - year: 2017 - 2019
+      items: tutoring grades 1 - 7 mathematics
