@@ -67,13 +67,13 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: https://github.com/Momin-Ahmad-Khan # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+twitter_username: https://twitter.com/MominAhmadKhan1
+linkedin_username: https://www.linkedin.com/in/momin-ahmad-aa448b186/ # your LinkedIn user name
+scholar_userid: https://scholar.google.com/citations?user=rYs8N78AAAAJ&hl=en
 semanticscholar_id: # your Semantic Scholar ID
-orcid_id: # your ORCID ID
+orcid_id: https://orcid.org/0000-0002-6009-514X
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -94,7 +94,7 @@ facebook_id: # your facebook id
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to reach me is via email :)
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -230,8 +230,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Khan]
+  first_name: [Momin Ahmad]
 
   style: apa
   locale: en
