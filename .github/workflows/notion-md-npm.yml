@@ -4,8 +4,8 @@ on:
 #  schedule:
 #  - cron: "*/30 * * * *"
   
-#  push:
-#    branches: [ "note" ]
+  push:
+   branches: [ "npm-notion" ]
 #  pull_request:
 #    branches: [ "note" ]
     
