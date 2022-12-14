@@ -12,7 +12,6 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -69,7 +68,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: VishalKandala # your GitHub user name
 gitlab_username: VishalKandala # your GitLab user name
-twitter_username: # your Twitter handle
+twitter_username: @IndivarVishal # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: vishalkandala # your LinkedIn user name
 telegram_username: # your Telegram user name
@@ -146,8 +145,8 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+  - name: https://ingenium.engr.tamu.edu/
+    rss_url: https://rss.app/feeds/Qz5A3vi7gioVAEIE.xml
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -249,8 +248,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Kandala]
+  first_name: [Vishal Indivar, V I.]
 
   style: apa
   locale: en
