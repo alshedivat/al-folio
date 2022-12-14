@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-10-20 00:00:00-0600
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I have succesfully <a href = 'https://drive.google.com/file/d/1wHHwJWdqLnuMC33E5DFY5A0se9elG_3B/view?usp=sharing'> passed </a> the Ph.D Qualifying Exam! :sparkles: :smile:
