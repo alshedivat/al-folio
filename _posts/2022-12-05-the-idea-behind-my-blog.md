@@ -2,9 +2,11 @@
 layout: post
 title: The Idea behind my blog
 date: 2022-11-24
-description: undefined
-tags: site
+description: A short article about my website and blog
+tags:
+  - site
 categories: test
+giscus_comments: true
 ---
 
 > In the name of the God of Rainbow
@@ -42,11 +44,7 @@ If you type `pages.dev` and hit enter, you will get into `pages.cloudflare.com` 
 
 {% endcapture %}
 {% capture summary %}What is Cloudflare Pages?{% endcapture %}{% include toggle.html %}
-
-
 And so far, Cloudflare is the most popular CDN provider with a bunch of free features, so _why create my own site and put it behind Cloudflare?!!! Deploy it ON Cloudflare_ 😎
-
-
 Hmmmm, what is JAMstack?
 
 
@@ -63,11 +61,22 @@ Hmmmm, what is JAMstack?
 {% capture summary %}jamstack.org says:{% endcapture %}{% include toggle.html %}
 
 
-After all, struggling with infrastructure (eg. pure Linux, webservers, blogging platforms like wordpress, unpredictable traffics and so on) is time consuming and I dont really like to deal with them again 😬 so, in JAMstack, everything is ready, you only have to focus on writing and and blog.
+In addition, struggling with infrastructure (eg. pure Linux, webservers, blogging platforms like wordpress, unpredictable traffics and so on) is time consuming and I dont really like to deal with them again 😬 so, in JAMstack, everything is ready, you only have to focus on writing and and blog.
 
 
 The same thing is true about IaaS (Infrastructure as a Service) and PaaS (Platform as a Service) which I will create a small post about Docker later in my [Blog](https://blog.alerezaa.ir).
+
+
+{% capture details %}
 - IaaS: In simple word, its like a VPS but based on cloud software and possibility to rent hourly.
 - PaaS: To know more search about Docker and Containers
+in summary:
+
+
+![](https://lh3.googleusercontent.com/I1IUtZ-xTWO0JHAV9Q4yismgXU4jjh_mCD8RsFg47auVdeKNeEl3YUKHx3vH8saEnwyf-BHl8jjmbGWWzJViq024uis01Sh48JPO99PT8Agw9R4BTnp-ufZZuklpNLZTaLrpXpxJAg=w2400)
+
+
+{% endcapture %}
+{% capture summary %}IaaS vs PaaS{% endcapture %}{% include toggle.html %}
 
 

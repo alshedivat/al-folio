@@ -9,3 +9,26 @@ _site
 Gemfile.lock
 vendor
 .github/workflows/deploy.yml
+
+# hidden files
+.*
+!.git*
+!.editorconfig
+!.nojekyll
+!.travis.yml
+!.husky
+!.commitlintrc.json
+!.versionrc.json
+
+# bundler cache
+_site
+vendor
+
+# rubygem
+*.gem
+
+# npm dependencies
+node_modules
+package-lock.json
+
+.github/*
