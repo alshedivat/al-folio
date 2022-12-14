@@ -9,7 +9,7 @@ nav_order: 5
 
 Statistical Inference (STAT 201)
 
-Syllabus: 
+Syllabus: \
 Chapter 1: Introduction to Data \
 Chapter 2: Exploratory Data Analysis \
 Chapter 3: Association and Correlation \
