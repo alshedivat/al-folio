@@ -6,7 +6,7 @@ subtitle: Graduate student in Philosophy at UFSM
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_circular.png
   image_circular: true # crops the image to make it circular
   address: #
 

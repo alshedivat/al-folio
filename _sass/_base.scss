@@ -121,6 +121,12 @@ blockquote {
   }
 }
 
+@media (max-width: 575px) {
+  .profile {
+    width: 40%;
+  }
+}
+
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
