@@ -70,7 +70,11 @@ The same thing is true about IaaS (Infrastructure as a Service) and PaaS (Platfo
 {% capture details %}
 - IaaS: In simple word, its like a VPS but based on cloud software and possibility to rent hourly.
 - PaaS: To know more search about Docker and Containers
+
+
 in summary:
+
+
 This picture show the parts that companies provide based on type of service (in IaaS, they provide you network and servers)
 
 
