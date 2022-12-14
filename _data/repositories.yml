@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - VishalKandala
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - VishalKandala/Project-Orion
+  - VishalKandala/1DiffCrank
+  - VishalKandala/Cantera1.8-Radcal
+  - VishalKandala/Py-ler
+  - VishalKandala/Reveille-TD
+  - VishalKandala/Utilities
