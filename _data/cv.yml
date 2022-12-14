@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Vishal Indivar Kandala
     - name: Date of Birth
-      value: 14th March 1879
+      value: 30th May 1996
     - name: Languages
-      value: English, German
+      value: English,Telugu,Hindi,Tamil,Spanish 
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD, Mechanical Engineering
+      institution: Texas A&M University
+      year: 2021 - 
       description:
         - Description 1.
         - Description 2.
@@ -21,9 +21,15 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: M.S, Aerospace Engineering
+      institution: Texas A&M University
+      year: 2019-2021
+      description:
+        - Description 1.
+        - Description 2.
+    - title: B.Tech, Mechanical Engineering
+      institution: Vellore Institute of Technology, India
+      year: 2014-2018
       description:
         - Description 1.
         - Description 2.
