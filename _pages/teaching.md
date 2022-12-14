@@ -17,4 +17,4 @@ Chapter 4: Probability and Distributions \
 Chapter 5: Sampling Distributions \
 Chapter 6: Statistical Inference \
 Chapter 7: Hypothesis Testing \
-Chapter 8: Regression \
+Chapter 8: Regression
