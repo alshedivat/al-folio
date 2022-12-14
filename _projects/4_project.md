@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 4
+title: projects.titles.project4
 description: another without an image
 img:
 importance: 3

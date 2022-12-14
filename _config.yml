@@ -192,6 +192,11 @@ plugins:
   - jekyll-link-attributes
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-multiple-languages-plugin
+
+# multi language settings
+languages: ["en", "pt-br"]
+default_locale_in_subfolder: false
 
 # Sitemap settings
 defaults:

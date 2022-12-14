@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: titles.about
 permalink: /
-subtitle: Graduate student in Philosophy at UFSM
+subtitle: about.subtitle
 
 profile:
   align: right
@@ -15,15 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hello! 
-
-My name is Matheus, and I'm a philosopher interested in episodic memory, cognition, and neuroscience!
-
-Currently, I'm completing my Master's degree at the beautiful Federal University of Santa Maria ([UFSM](https://www.ufsm.br)), in Brazil :brazil:
-
-The focus of my current work is how mechanistic crtieria of constitution can help us to delineate the neurocognitive systems for episodic memory and imagination. 
-
-You can find out more about my research by taking a look at [my CV](/cv/), or my [PhilPeople page](https://philpeople.org/profiles/matheus-diesel-werberich).
+{% translate_file pages/about.md %}
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
