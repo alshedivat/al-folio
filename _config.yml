@@ -191,6 +191,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - package.json
+  - notion.js
 keep_files:
   - CNAME
   - .nojekyll
