@@ -68,7 +68,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: VishalKandala # your GitHub user name
 gitlab_username: VishalKandala # your GitLab user name
-twitter_username: @IndivarVishal # your Twitter handle
+twitter_username: IndivarVishal # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: vishalkandala # your LinkedIn user name
 telegram_username: # your Telegram user name
@@ -145,8 +145,8 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: https://ingenium.engr.tamu.edu/
-    rss_url: https://rss.app/feeds/Qz5A3vi7gioVAEIE.xml
+  - name: 
+    rss_url: 
 
 # -----------------------------------------------------------------------------
 # Collections
