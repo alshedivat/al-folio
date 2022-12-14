@@ -18,11 +18,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-        if: github.ref == 'refs/heads/notion-to-md-npm'
         with:
-          node-version: 15.x
+          node-version: 16.x
       - name: Run a multi-line script
-        if: github.ref == 'refs/heads/notion-to-md-npm'
         run: |
           touch .env
           echo 'NOTION_TOKEN=${{ secrets.NOTION_TOKEN }}' >> .env
@@ -30,8 +28,5 @@ jobs:
           yarn
           yarn start
       - uses: stefanzweifel/git-auto-commit-action@v4
-        if: github.ref == 'refs/heads/notion-to-md-npm'
         with:
           commit_message: build pages from notion
-          push_options: '--force'
-          branch: org-testing
