@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://scbl.engr.tamu.edu/'>Scientific Computing and Biofluids Lab, Texas A&M University </a>.
 
 profile:
   align: right
