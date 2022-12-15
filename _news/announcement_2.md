@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vishal Kandala was Acknowledged in a Nature Scientific Reports paper !!
+title: Acknowledged in a Nature Scientific Reports paper !!
 date: 2022-03-31 00:00:00-0600
 inline: false
 ---
