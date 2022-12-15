@@ -1,5 +1,5 @@
 ---
-layout: Bio
+layout: about
 title: Bio
 permalink: /
 subtitle: <a href='https://scbl.engr.tamu.edu/'>Scientific Computing and Biofluids Lab, Texas A&M University </a>.
