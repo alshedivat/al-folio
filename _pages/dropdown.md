@@ -1,13 +1,13 @@
 ---
 layout: page
-title: submenus
+title: More
 nav: true
 nav_order: 6
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: Coursework
+      permalink: /courses/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: Art
+      permalink: /art/
 ---
