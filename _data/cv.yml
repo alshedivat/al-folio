@@ -59,32 +59,49 @@
       description:
          - Lectured and conducted lab sessions on Fundamentals of Statistics, Probability Distributions, Regression and Visualization.
          - Developed the excel data analysis tutorial module.
-
+    - title: Volunteer Tutor
+      institution: VITeach, VIT University, India
+      year: 2015-2018
+      description:
+         - Tutored high school students from underprivileged communities on weekends at the local public school.
+         - Significantly improved the scores of these students in Mathematics, Physics and English.
+         - Some students were identified to have high potential and AP level coursework was taught, which led to impressive performance in the IIT JEE entrance test. 
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - American Society of Indian Engineers - Chad Patel Scholarship
+    - year: 2020
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+        - Department of Aerospace Engineering, Texas A&M University - Graduate Academic Excellence Fellowship (Fall)
+        - Department of Aerospace Engineering, Texas A&M University - Graduate Academic Excellence Fellowship (Spring)
+        
+- title: Computational Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Languages
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - C/C++ , bash - Medium Proficiency.
+        - Python - High Proficiency.
+    - title: Tools
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
+        - Version Control - git.
+        - Debugging - gdb, valgrind.
+        - Front-end - jekyll, streamlit
+        - Deployment - Docker
+    -title: Libraries
+     items:
+        - HPC - PETSC-TAO, OpenMP, OpenCL, CUDA
+        - Scientific Computing - Numpy, Scipy, Sklearn, Pandas
+        - Machine Learning - Tensorflow, Pytorch, Keras
+     
+- title: Engineering Skills
+  type: nested_list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    -title: Design
+     items:
+        - CAD - SolidWorks, CATIA, 3-Matic
+        - Mesh Generation - Ansys ICEM CFD, Pointwise
+        - CAE - ANSYS Fluent
