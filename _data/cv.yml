@@ -100,8 +100,8 @@
 - title: Engineering Skills
   type: nested_list
   contents:
-    -title: Design
-     items:
+    - title: Design
+      items:
         - CAD - SolidWorks, CATIA, 3-Matic
         - Mesh Generation - Ansys ICEM CFD, Pointwise
         - CAE - ANSYS Fluent
