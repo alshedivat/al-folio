@@ -4,4 +4,4 @@ date: 2022-11-11 20:00:00-0600
 inline: true
 ---
 
-I was awarded the <a href = 'https://www.asiehouston.org/scholarships'> American Society of Indian Engineers </a> Scholarship. 
+Recieved the <a href = 'https://www.asiehouston.org/scholarships'> American Society of Indian Engineers </a> Scholarship. 
