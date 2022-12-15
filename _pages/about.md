@@ -2,24 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 8025 Bonhomme Ave, St. Louis, MO 63105. yon.cheng@wustl.edu.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: I.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>&nbsp;&nbsp;&nbsp; M.S. Computer Science, 2023</p>
+    <p>James McKelvey School of Engineering</p>
+    <p>&nbsp;Washington University in St. Louis</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;yon.cheng@wustl.edu</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a 2nd year master student at [Washington university in St. Louis](http://wustl.edu) majoring in computer science. I will graduate on May 2023. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Currently I am doing a research project under the supervision of [Prof. Ju](https://www.cse.wustl.edu/~taoju/). I am interested in developing algorithms and tools about graphics, visulization, and application products.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I always enjoy research and creatively solving problems with mathematical thinking. I believe that my experience would help me work as part of a team and effectively serve the industry.
+
+I have social media accounts such as [Linkedin](https://www.linkedin.com/in/yong-cheng-0426a4223/) and [Github](https://github.com/CocoYard).
