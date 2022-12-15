@@ -91,7 +91,7 @@
         - Debugging - gdb, valgrind.
         - Front-end - jekyll, streamlit
         - Deployment - Docker
-    -title: Libraries
+    - title: Libraries
      items:
         - HPC - PETSC-TAO, OpenMP, OpenCL, CUDA
         - Scientific Computing - Numpy, Scipy, Sklearn, Pandas
