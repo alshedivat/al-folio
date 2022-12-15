@@ -92,7 +92,7 @@
         - Front-end - jekyll, streamlit
         - Deployment - Docker
     - title: Libraries
-     items:
+      items:
         - HPC - PETSC-TAO, OpenMP, OpenCL, CUDA
         - Scientific Computing - Numpy, Scipy, Sklearn, Pandas
         - Machine Learning - Tensorflow, Pytorch, Keras
