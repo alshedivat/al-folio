@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - CocoYard
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - cocoyard/microtubule-tracking
+  - cocoyard/CSE-503S-Rapid-prototype-development-and-creative-programming
+  - cocoyard/ConvexHull-ChansAlgorithm
+  - cocoyard/412-pacman
+  - cocoyard/Ray-Tracing

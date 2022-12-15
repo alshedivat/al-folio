@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 8025 Bonhomme Ave, St. Louis, MO 63105. yon.cheng@wustl.edu.
+subtitle: St. Louis, MO 63105. yon.cheng@wustl.edu.
 
 profile:
   align: right
