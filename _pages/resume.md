@@ -46,29 +46,35 @@ E-mail: wenbin.evolution@gmail.com
 
 ---
 #### **Publications**
-13. **Zhou, W.**, Harris, AJ, Xiang, Q.Y. 2022. Phylogenomics and biogeography of *Torreya* (Taxaceae) – Integrating data from three organelle genomes, morphology, and fossils and a practical method for reducing missing data from RAD-seq. Journal of Systematics and Evolution. (IF: 4.098, JCR: Q1)
+16. **Zhou, W.**, Armijos, C., Lee, C., Lu, R., Wang, J., Ruhlman, T., Jansen, R., Jones, A. and Jones, C., 2022. Plastid Genome Assembly Using Long-read Data (ptGAUL). bioRxiv.
 
-12. **Zhou, W.**, Soghigian, J., Xiang, Q.Y., 2021. A new pipeline for removing paralogs in target enrichment data. Systematic Biology. (IF: 15.683, JCR: Q1)
+15. Zhang, Z., Xie, P., Guo, Y., **Zhou, W.**, Liu, E. and Yu, Y., 2022. Easy353: A tool to get Angiosperms353 genes for phylogenomic research. Molecular Biology and Evolution.
+
+14. Du, Z.Y., Xiang, Q.Y., Cheng, J., **Zhou, W.**, Wang, Q.F., Soltis, D.E. and Soltis, P.S., 2022. An updated phylogeny, biogeography, and PhyloCode‐based classification of Cornaceae based on three sets of genomic data. American Journal of Botany.
+
+13. **Zhou, W.**, Harris, AJ, Xiang, Q.Y. 2022. Phylogenomics and biogeography of *Torreya* (Taxaceae) – Integrating data from three organelle genomes, morphology, and fossils and a practical method for reducing missing data from RAD-seq. Journal of Systematics and Evolution.
+
+12. **Zhou, W.**, Soghigian, J., Xiang, Q.Y., 2021. A new pipeline for removing paralogs in target enrichment data. Systematic Biology.
 
 11. **Zhou, W.\***, Xiang, Q.Y.'\*, Wen, J., 2020. Phylogenomics, biogeography, and evolution of morphology and ecological niche of the eastern Asian‐eastern North American *Nyssa* (Nyssaceae). Journal of Systematics and Evolution. 58(5), pp.571-603. (IF: 4.098, JCR: Q1)
 
-10. Lindelof, K., Lindo, J.A., **Zhou, W.**, Ji, X., Xiang, Q.Y., 2020. Phylogenomics, biogeography, and evolution of the blue‐or white‐fruited dogwoods (*Cornus*)‐insights into morphological and ecological niche divergence following intercontinental geographic isolation. Journal of Systematics and Evolution. (IF: 4.098, JCR: Q1)
+10. Lindelof, K., Lindo, J.A., **Zhou, W.**, Ji, X., Xiang, Q.Y., 2020. Phylogenomics, biogeography, and evolution of the blue‐or white‐fruited dogwoods (*Cornus*)‐insights into morphological and ecological niche divergence following intercontinental geographic isolation. Journal of Systematics and Evolution.
 
-9. Wahlsteen, E., **Zhou, W.**, Xiang, Q.Y., Rushforth, K., 2020. Rediscovery of the lost little dogwood *Cornus wardiana* (Cornaceae)–its phylogenetic and morphological distinction and implication in the origin of the Arctic‐Sino‐Himalayan disjunction. Journal of Systematics and Evolution, 59(2), 405-416. (IF: 4.098, JCR: Q1)
+9. Wahlsteen, E., **Zhou, W.**, Xiang, Q.Y., Rushforth, K., 2020. Rediscovery of the lost little dogwood *Cornus wardiana* (Cornaceae)–its phylogenetic and morphological distinction and implication in the origin of the Arctic‐Sino‐Himalayan disjunction. Journal of Systematics and Evolution, 59(2), 405-416.
 
-8. Dong, Y., Chen, S., Cheng, S., **Zhou, W.**, Ma, Q., Chen, Z., Fu, C.X., Liu, X., Zhao, Y.P., Soltis, P.S., Wong, G.K.S., 2019. Natural selection and repeated patterns of molecular evolution following allopatric divergence. Elife, 8, p.e45199. (IF: 8.1, JCR: Q1)
+8. Dong, Y., Chen, S., Cheng, S., **Zhou, W.**, Ma, Q., Chen, Z., Fu, C.X., Liu, X., Zhao, Y.P., Soltis, P.S., Wong, G.K.S., 2019. Natural selection and repeated patterns of molecular evolution following allopatric divergence. Elife, 8, p.e45199.
 
-7. Chen, C., Zheng, L., Ma, Q., **Zhou, W.**, Zhao, Y., Fu, C., 2019, Impacts of Domestication on Population Genetics of a Traditional Chinese Medicine, *Atractylodes macrocephala* (Asteraceae), Journal of Systematics and Evolution, 57(3), pp.222-233. (IF: 4.098, JCR: Q1)
+7. Chen, C., Zheng, L., Ma, Q., **Zhou, W.**, Zhao, Y., Fu, C., 2019, Impacts of Domestication on Population Genetics of a Traditional Chinese Medicine, *Atractylodes macrocephala* (Asteraceae), Journal of Systematics and Evolution, 57(3), pp.222-233.
 
-6. **Zhou, W.**, Ji, X., Obata, S., Pais, A., Dong, Y., Peet, R., Xiang, Q.Y., 2018, Resolving relationships and phylogeographic history of the *Nyssa* sylvatica complex using data from RAD-seq and species distribution modeling, Molecular Phylogenetics and Evolution, 126, pp.1-16. (IF: 4.286, JCR: Q2)
+6. **Zhou, W.**, Ji, X., Obata, S., Pais, A., Dong, Y., Peet, R., Xiang, Q.Y., 2018, Resolving relationships and phylogeographic history of the *Nyssa* sylvatica complex using data from RAD-seq and species distribution modeling, Molecular Phylogenetics and Evolution, 126, pp.1-16.
 
-5. Koch, M., Hohmann, N., Wolf, E., Rigault, P., **Zhou, W.**, Kiefer, M., Zhao, Y., Fu, C., 2018, *Ginkgo biloba*´s footprint of dynamic Pleistocene history dates back only 400,000 years ago and indicates multiple range expansions and retractions, BMC Genomics, 19(1), p.299. (IF: 3.729, JCR: Q2)
+5. Koch, M., Hohmann, N., Wolf, E., Rigault, P., **Zhou, W.**, Kiefer, M., Zhao, Y., Fu, C., 2018, *Ginkgo biloba*´s footprint of dynamic Pleistocene history dates back only 400,000 years ago and indicates multiple range expansions and retractions, BMC Genomics, 19(1), p.299.
 
-4. Guan, R., Zhao, Y., Zhang, H., Fan, G., Liu, X., **Zhou, W.**, Shi, C., Wang, J., Liu, W., Liang, X., Fu, Y., 2016. Draft genome of the living fossil *Ginkgo biloba*. Gigascience, 5(1), p.49. (IF: 6.871, JCR: Q2)
+4. Guan, R., Zhao, Y., Zhang, H., Fan, G., Liu, X., **Zhou, W.**, Shi, C., Wang, J., Liu, W., Liang, X., Fu, Y., 2016. Draft genome of the living fossil *Ginkgo biloba*. Gigascience, 5(1), p.49.
 
 3. **Zhou, W.**, Cheng, Z., Zhao, Y.P., Fu, C.X., 2016. Contribution of environmental and genetic variation to chemical similarity of Maca (*Lepidium meyenii* Walp.). Journal of Zhejiang University, 42(6): 731-738. 
 
-2. Sun, Z.S., **Zhou, W.**, Jin, X., Ohi-Toma, T., Li, P., Fu, C.X., 2016. A tale of two islands: parallel evolution of dwarfism in *Smilax biflora* (Smilacaceae). Phytotaxa, 245(2), pp.89-106. (IF: 1.240, JCR: Q4)
+2. Sun, Z.S., **Zhou, W.**, Jin, X., Ohi-Toma, T., Li, P., Fu, C.X., 2016. A tale of two islands: parallel evolution of dwarfism in *Smilax biflora* (Smilacaceae). Phytotaxa, 245(2), pp.89-106.
 
 1. Shao, R., Shen, Y., **Zhou, W.**, Fang, J., Zheng, B., 2013. Recent advances for plant ATP-binding cassette transporters. Journal of Zhejiang AF University, 30, pp.761-768.
 
