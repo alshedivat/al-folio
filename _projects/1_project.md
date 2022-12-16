@@ -1,15 +1,13 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Design and development of a Counter Platfornm
+description: This project involves the design of a safe and ergonomically comfortable, raised working platform that provides the users with better accessibility to the top cabinets in the kitchen. 
+img: assets/img/p1_cover.png
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project was created for the course MEEN 632 (Advanced Computer Aided Engineering) at Texas A&M University along with three other team-mates.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
