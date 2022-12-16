@@ -3,11 +3,11 @@ layout: page
 title: Coursework
 permalink: /courses/
 description: A growing collection of your cool projects.
-nav: true
+nav: false
 nav_order: 6
 ---
-Graduate Courses:
-
+*Graduate Courses:*
+\
 MEEN 689: Computing Concepts \
 MEEN 610: Numerical Methods in Differential Equations \
 MEEN 689: Computational Fluid Dynamics \
