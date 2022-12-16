@@ -86,10 +86,10 @@ Part Specifications:
  - Load bearing members have been stress tested through FEA/ Engineering analysis.
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p1_6.jpg" title="Part specification table" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p1_6.png" title="Part specification table" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p1_7.jpg" title="Stress Contour of the Scissor member " class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p1_7.png" title="Stress Contour of the Scissor member " class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
