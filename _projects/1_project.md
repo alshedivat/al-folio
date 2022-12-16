@@ -11,7 +11,7 @@ This project involves the design of a safe and ergonomically comfortable, raised
 Motivations: 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p1_mot.jpg" title="motivating stock image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p1_mot.png" title="motivating stock image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -20,7 +20,9 @@ Motivations:
 
 Many a times, people find it difficult to reach the top cabinets in a kitchen due to their height and find it to be limiting and even confidence inhibiting, to overcome this, a simple mechanism is required that can be used to extend your reach while also ensuring user safety when raised higher than ground. 
 
-***
+---
+
+Final Design:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -44,13 +46,39 @@ Key Features:
  - High User Safety
  - Durable and Reliable
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/p1_4.png" title="Initial Sketches" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   Initial Sketches put together which were later developed into the final design.
+</div>
+---
+User Driven Requirements:
+ - Withstand a maximum load of 260lbs (95th Percentile US Male).
+ - Raise the height of the user by 6”.
+ - Stowable in kitchen Toe-kick area (3.5” Height when stocked).
+ - Weigh less than 50 lbs.
+ - Provide adequate foothold and be expandable. (11” width, 24”-48” length).
+ - Non-corrosive, fire resistant, adhering to appropriate standards.
+ - Durable, robust and easy to maintain.(Life span of ~3 years and 10,000 cycles)
 
+Course Driven Requirements:
+ - Shall have at least 12 non-trivial parts.
+ - Shall include welded parts. 
+ - Shall contain a dynamic mechanism.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
+Key Mechanisms:
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/p1_5.png" title="Initial Sketches" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   Key mechanisms that drive funcitionality of the product.
+</div>
+---
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -63,21 +91,3 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
