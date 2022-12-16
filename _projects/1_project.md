@@ -11,7 +11,7 @@ This project involves the design of a safe and ergonomically comfortable, raised
 <h2>Motivations:</h2> 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p1_mot.png" title="motivating stock image" class="img-fluid rounded z-depth-1" style="float:left" %}
+        {% include figure.html path="assets/img/p1_mot.png" title="motivating stock image" class="img-fluid rounded z-depth-1" style="float:center" %}
     </div>
 </div>
 <div class="caption">
@@ -79,15 +79,20 @@ Key Mechanisms:
    Key mechanisms that drive funcitionality of the product.
 </div>
 ---
+Part Specifications:
+ - 10 Custom Designed Parts.
+ - Self similar parts made of Sheet Metal to optimize costs.
+ - All parts have rounded corners.
+ - Load bearing members have been stress tested through FEA/ Engineering analysis.
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p1_6.jpg" title="Part specification table" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p1_7.jpg" title="Stress Contour of the Scissor member " class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+   On the left is a detailed part specification list with detailed information on material,quantity and whether the part is custom made or stock, while on the right, an example von-mises stress contour of the most impacted part (the scissor members) is shown. 
 </div>
 
