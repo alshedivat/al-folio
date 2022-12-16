@@ -1,13 +1,26 @@
 ---
 layout: page
 title: Counter Platform
-description: This project was created for the course MEEN 632 (Advanced Computer Aided Engineering) at Texas A&M University along with three other team-mates
+description: This project was created for the course MEEN 632 (Advanced Computer Aided Engineering) at Texas A&M University along with three other team-mates.
 importance: 1
 img: assets/img/p1_cover.png
-category: work
+category: Design
 ---
-This project involves the design of a safe and ergonomically comfortable, raised working platform that provides the users with better accessibility to the top cabinets in the kitchen. 
+This project involves the design of a safe and ergonomically comfortable, raised working platform that provides users with better accessibility to the top cabinets in a kitchen.
 
+Motivations: 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/p1_mot.jpg" title="motivating stock image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   stock image, illustrating the project motivation.
+</div>
+
+Many a times, people find it difficult to reach the top cabinets in a kitchen due to their height and find it to be limiting and even confidence inhibiting, to overcome this, a simple mechanism is required that can be used to extend your reach while also ensuring user safety when raised higher than ground. 
+
+***
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -31,14 +44,7 @@ Key Features:
  - High User Safety
  - Durable and Reliable
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+
 
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
