@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Design and development of a Counter Platfornm
+title: Counter Platform
 description: This project involves the design of a safe and ergonomically comfortable, raised working platform that provides the users with better accessibility to the top cabinets in the kitchen. 
 img: assets/img/p1_cover.png
 importance: 1
@@ -8,16 +8,6 @@ category: work
 ---
 
 This project was created for the course MEEN 632 (Advanced Computer Aided Engineering) at Texas A&M University along with three other team-mates.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
