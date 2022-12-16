@@ -24,13 +24,13 @@ Many a times, people find it difficult to reach the top cabinets in a kitchen du
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p1_cover.jpg" title="Extended Platform" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p1_cover.png" title="Extended Platform" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p1_2.jpg" title="Default Configuration" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p1_2.png" title="Default Configuration" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p1_3.jpg" title="Side View" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p1_3.png" title="Side View" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
