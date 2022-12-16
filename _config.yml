@@ -249,7 +249,7 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 scholar:
 
   last_name: [Kandala]
-  first_name: [Vishal Indivar, V.I,]
+  first_name: [Vishal Indivar, V.I]
 
   style: apa
   locale: en
