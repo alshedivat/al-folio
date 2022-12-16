@@ -11,7 +11,7 @@ This project involves the design of a safe and ergonomically comfortable, raised
 <h2>Motivations:</h2> 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p1_mot.png" title="motivating stock image" class="img-fluid rounded z-depth-1"i style = "float:left" %}
+        {% include figure.html path="assets/img/p1_mot.png" title="motivating stock image" class="img-fluid rounded z-depth-1" style="float:left" %}
     </div>
 </div>
 <div class="caption">
