@@ -14,7 +14,7 @@ profile:
     <p>College Station, TX 77840</p>
 
 news: true  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 I am a Ph.D. Student at the Department of Mechanical Engineering, Texas A&M University working under the guidance of <a href='https://engineering.tamu.edu/mechanical/profiles/borazjani-iman.html'> Dr. Iman Borazjani </a>
