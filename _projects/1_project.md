@@ -1,27 +1,36 @@
 ---
 layout: page
 title: Counter Platform
-description: This project involves the design of a safe and ergonomically comfortable, raised working platform that provides the users with better accessibility to the top cabinets in the kitchen. 
-img: assets/img/p1_cover.png
+description: This project was created for the course MEEN 632 (Advanced Computer Aided Engineering) at Texas A&M University along with three other team-mates
 importance: 1
+img: assets/img/p1_cover.png
 category: work
 ---
+This project involves the design of a safe and ergonomically comfortable, raised working platform that provides the users with better accessibility to the top cabinets in the kitchen. 
 
-This project was created for the course MEEN 632 (Advanced Computer Aided Engineering) at Texas A&M University along with three other team-mates.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p1_cover.jpg" title="Extended Platform" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p1_2.jpg" title="Default Configuration" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p1_3.jpg" title="Side View" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    An overview of the counter platform design with the extended configuration on the left, the default configuration in the center and a side view showing the platform raising on the right.
 </div>
+
+Key Features:
+ - Easy to Assemble (DIY)
+ - Wider Working are ( 24" - 48")
+ - Compact, Lite and Easy to store
+ - High User Safety
+ - Durable and Reliable
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
