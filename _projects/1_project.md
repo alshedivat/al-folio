@@ -8,10 +8,10 @@ category: Design
 ---
 This project involves the design of a safe and ergonomically comfortable, raised working platform that provides users with better accessibility to the top cabinets in a kitchen.
 
-Motivations: 
+<h2>Motivations:</h2> 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p1_mot.png" title="motivating stock image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p1_mot.png" title="motivating stock image" class="img-fluid rounded z-depth-1"i style = "float:left" %}
     </div>
 </div>
 <div class="caption">
