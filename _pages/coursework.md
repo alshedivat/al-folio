@@ -4,7 +4,7 @@ title: Coursework
 permalink: /courses/
 description: A growing collection of your cool projects.
 nav: true
-nav_order: 2
+nav_order: 6
 ---
 Graduate Courses:
 
