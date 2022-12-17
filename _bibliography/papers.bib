@@ -15,6 +15,7 @@
     abstract = {Precomputed Radiance Transfer (PRT) is widely used for real-time photorealistic effects. PRT disentangles the rendering equation into transfer and  lighting, enabling their precomputation. Transfer accounts for the cosine-weighted visibility of points in the scene while lighting for emitted radiance from the environment. Prior art stored precomputed transfer in a tabulated manner, either in vertex or texture space. These values are fetched with interpolation at each point for shading. Vertex space methods require densely tessellated mesh vertices for high quality images. Texture space methods require non-overlapping and area-preserving UV mapping to be available. They also require a high-resolution texture to avoid rendering artifacts. In this paper, we propose a compact transfer representation that is learnt directly on scene geometry points. Specifically, we train a small multi-layer perceptron (MLP) to predict the transfer at sampled surface points. Our approach is most beneficial where inherent mesh storage structure and natural UV mapping are not available, such as Implicit Surfaces as it learns the transfer values directly on the surface. We demonstrate real-time, photorealistic renderings of diffuse and glossy materials on SDF geometries with PRT using our approach.},
     author_version = {https://iiitaphyd-my.sharepoint.com/:b:/g/personal/dhawal_sirikonda_research_iiit_ac_in/EUKOrBzrxrxFsOhmYFLArFcBtWBpY2nfx_CziCUC-JHneg?e=MrdxAJ},
     selected={true},
+    website={https://dhawal1939.github.io/projects/sh_rendering/#learnttransfer},
     doi = {10.1145/3571600.3571640},
     conference = {ICVGIP 2022},
 }
@@ -24,6 +25,7 @@
     title = {Learnt Transfer for Surface Geometries},
     year = {2022},
     selected={true},
+    website={https://dhawal1939.github.io/projects/sh_rendering/#learnttransfer},
     publisher_version = {https://www.highperformancegraphics.org/posters22/HPG2022_Poster7_Learnt_Transfer_for_Surface_Geometries.pdf},
     conference = {High Performance Graphics (HPG) 2022-Poster},
 }
@@ -48,6 +50,7 @@
   publisher = {arXiv},
   abstract = {Precomputed Radiance Transfer (PRT) can achieve high quality renders of glossy materials at real-time framerates. PRT involves precomputing a k-dimensional transfer vector of Spherical Harmonic (SH) coefficients at specific points for a scene. Most prior art precomputes transfer at vertices of the mesh and interpolates color for interior points. They require finer mesh tessellations for high quality renderings. In this paper, we explore and present the use of textures for storing transfer. Using transfer textures decouples mesh resolution from transfer storage and sampling which is useful especially for glossy renders. We further demonstrate glossy inter-reflections by precomputing additional textures. We thoroughly discuss practical aspects of transfer textures and analyze their performance in real-time rendering applications. We show equivalent or higher render quality and FPS and demonstrate results on several challenging scenes.},
   year = {2022},
+  website={https://dhawal1939.github.io/projects/sh_rendering/#uvtransfer},
   copyright = {Creative Commons Attribution 4.0 International},
   author_version = {https://arxiv.org/abs/2203.12399},
   publisher_version = {https://diglib.eg.org/handle/10.2312/egp20221012},
