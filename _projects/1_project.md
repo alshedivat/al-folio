@@ -10,7 +10,7 @@ This project involves the design of a safe and ergonomically comfortable, raised
 
 <h2>Motivations:</h2> 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-md mt-3 mt-md-0">
         {% include figure.html path="assets/img/p1_mot.png" title="motivating stock image" class="img-fluid rounded z-depth-1" style="float:left" %}
     </div>
     <div class="col-sm mt-3 mt-dm-0">
@@ -88,7 +88,7 @@ Key Features:
  - Load bearing members have been stress tested through FEA/ Engineering analysis.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="mx-auto">
         {% include figure.html path="assets/img/p1_6.png" title="Part specification list" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -98,7 +98,7 @@ A detailed part specification list with detailed information on material,quantit
 </div>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="mx-auto">
         {% include figure.html path="assets/img/p1_7.png" title="Stress analysis of scissor member" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
