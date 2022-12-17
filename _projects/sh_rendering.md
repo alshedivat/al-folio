@@ -2,17 +2,16 @@
 layout: page
 title: PRT for Arbitrary Geometries
 description: How to store in transfer signals in implicit surfaces
-img: assets/img/projects/ltcs/ltc_teaser.gif
+img: assets/img/projects/sh_rendering/transfer_textures/teaser.gif
 importance: 1
 category: work
 ---
 The work is presented in two parts:
-- <font size="1">Store Transfer in UV-space instead of Vertex attributes</font> 
-    * [<font size="1">"Transfer Textures for Fast Precomputed Radiance Transfer - EuroGraphics'22 Poster"</font>](https://diglib.eg.org/handle/10.2312/egp20221012)
-    <!-- , [<font size="1">EuroGraphics'22 Poster</font>] -->
-- <font size="1">Using Implicit Surfaces for Precomputed Radiance Transfer </font> 
-    * [<font size="1">"Learnt Transfer for Surface Geometries - HPG'22 Poster</font>](https://www.highperformancegraphics.org/posters22/HPG2022_Poster7_Learnt_Transfer_for_Surface_Geometries.pdf)
-    * [<font size="1">"Real-time Rendering of Arbitrary Surface Geometries using Learnt Transfer"</font>](https://iiitaphyd-my.sharepoint.com/:b:/g/personal/dhawal_sirikonda_research_iiit_ac_in/EUKOrBzrxrxFsOhmYFLArFcBtWBpY2nfx_CziCUC-JHneg?e=MrdxAJ)
+- <font size="1.5">Store Transfer in UV-space instead of Vertex attributes</font> 
+    * [<font size="1.5">"Transfer Textures for Fast Precomputed Radiance Transfer - EuroGraphics'22 Poster"</font>](https://diglib.eg.org/handle/10.2312/egp20221012)
+- <font size="1.5">Using Implicit Surfaces for Precomputed Radiance Transfer </font> 
+    * [<font size="1.5">"Learnt Transfer for Surface Geometries - HPG'22 Poster</font>](https://www.highperformancegraphics.org/posters22/HPG2022_Poster7_Learnt_Transfer_for_Surface_Geometries.pdf)
+    * [<font size="1.5">"Real-time Rendering of Arbitrary Surface Geometries using Learnt Transfer"</font>](https://iiitaphyd-my.sharepoint.com/:b:/g/personal/dhawal_sirikonda_research_iiit_ac_in/EUKOrBzrxrxFsOhmYFLArFcBtWBpY2nfx_CziCUC-JHneg?e=MrdxAJ)
 
 
 ##### Part 1 - Unnecessary tessellations
@@ -73,9 +72,85 @@ We have used the multiple textures for each sub-geometry and it occupies same me
 
 Here are some results
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-5 mt-3 mt-md-0"> 
+        <video controls autoplay>
+            <source src="https://raw.githubusercontent.com/dhawal1939/dhawal1939.github.io/master/.github/videos/sh_rendering/transfer_textures/results_transfer_textures.webm" type="video/webm">
+        </video>
+    </div>
+    <div class="col-sm-5 mt-3 mt-md-0">
+        <video controls autoplay>
+            <source src="https://raw.githubusercontent.com/dhawal1939/dhawal1939.github.io/master/.github/videos/sh_rendering/transfer_textures/interreflection.webm" type="video/webm">
+        </video>
+    </div>
+    <caption>(left) Results of Transfer Textures, (right) Results of Interreflections</caption>
+</div>
 
 Still requires a good UV preserving mapping.
 
 
 ##### Part 2 - Use Neural Transfer Approximator
+
+
+What to do in case of Implicit surfaces?
+
+
+*Implicit surfaces do not have any UV locations*
+
+As the surface representation does not have a storage schema, how can we store transfer values? 
+
+- It does not have a Vertex Position
+- It does not have UV mapping
+
+
+What we do then?
+
+1) Sample points, calculate the visibility.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/sh_rendering/learnt_transfer/data_creation.png" title="Method" class="img-fluid rounded z-depth-1" %}
+        <center><caption>Data Creation</caption></center>
+    </div>
+</div>
+
+
+2) Fit a small shallow MLP which can regress a transfer from the surface parameters? (normal and position)
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/sh_rendering/learnt_transfer/mlp_fit.png" title="MLP FIT" class="img-fluid rounded z-depth-1" %}
+        <center><caption>MLP Fit</caption></center>
+    </div>
+</div>
+
+3) Once fit extract weights into mat4 ops rather than serial for loops
+
+4) Extract the MLP weights into GLSL for a forward evaluation
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/sh_rendering/learnt_transfer/glsl.png" title="GLSL" class="img-fluid rounded z-depth-1" %}
+        <center><caption> GLSL Implementation</caption></center>
+    </div>
+</div>
+
+5) In case network is big CUDA based implementation helps. Refer to the paper for more info
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/sh_rendering/learnt_transfer/cuda.png" title="CUDA" class="img-fluid rounded z-depth-1" %}
+        <center><caption> CUDA Implementation</caption></center>
+    </div>
+</div>
+
+6) Large scence
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/sh_rendering/learnt_transfer/large_scene.png" title="CUDA" class="img-fluid rounded z-depth-1" %}
+        <center><caption> Large Scenes</caption></center>
+    </div>
+</div>
+
 
