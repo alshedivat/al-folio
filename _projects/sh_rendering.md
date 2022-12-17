@@ -14,8 +14,10 @@ The work is presented in two parts:
     * [<font size="1.5">"Real-time Rendering of Arbitrary Surface Geometries using Learnt Transfer"</font>](https://iiitaphyd-my.sharepoint.com/:b:/g/personal/dhawal_sirikonda_research_iiit_ac_in/EUKOrBzrxrxFsOhmYFLArFcBtWBpY2nfx_CziCUC-JHneg?e=MrdxAJ)
 
 
-##### Part 1 - Unnecessary tessellations
+#### Part 1 - Unnecessary tessellations
+<a href="#uvtransfer">
 UV - Mapped Storage of Transfer rather than a using Vertex attribute storage.
+<a>
 
 
 The the naive approach of the using vertex attributes to store the transfer usually causes the following issues:
@@ -86,10 +88,11 @@ Here are some results
 Still requires a good UV preserving mapping.
 ```
 
-##### Part 2 - Use Neural Transfer Approximator
+#### Part 2 - Use Neural Transfer Approximator
 
-
+<a href="#learnttransfer">
 What to do in case of Implicit surfaces?
+<a>
 
 
 *Implicit surfaces do not have any UV locations*
