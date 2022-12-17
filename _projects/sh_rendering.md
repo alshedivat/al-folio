@@ -71,23 +71,20 @@ We have used the multiple textures for each sub-geometry and it occupies same me
 
 
 Here are some results
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-5 mt-3 mt-md-0"> 
-        <video controls autoplay>
-            <source src="https://raw.githubusercontent.com/dhawal1939/dhawal1939.github.io/master/.github/videos/sh_rendering/transfer_textures/results_transfer_textures.webm" type="video/webm">
-        </video>
-    </div>
-    <div class="col-sm-5 mt-3 mt-md-0">
-        <video controls autoplay>
-            <source src="https://raw.githubusercontent.com/dhawal1939/dhawal1939.github.io/master/.github/videos/sh_rendering/transfer_textures/interreflection.webm" type="video/webm">
-        </video>
-    </div>
+<div>
+    <video controls autoplay width="320" height="180">
+        <source src="https://raw.githubusercontent.com/dhawal1939/dhawal1939.github.io/master/.github/videos/sh_rendering/transfer_textures/results_transfer_textures.webm" type="video/webm">
+    </video>
+    <video controls autoplay width="320" height="180">
+        <source src="https://raw.githubusercontent.com/dhawal1939/dhawal1939.github.io/master/.github/videos/sh_rendering/transfer_textures/interreflection.webm" type="video/webm">
+    </video>
+    <br/>
     <caption>(left) Results of Transfer Textures, (right) Results of Interreflections</caption>
 </div>
 
+```
 Still requires a good UV preserving mapping.
-
+```
 
 ##### Part 2 - Use Neural Transfer Approximator
 
@@ -153,4 +150,8 @@ What we do then?
     </div>
 </div>
 
-
+<center>
+<video controls autoplay width="480" height="270">
+    <source src="https://raw.githubusercontent.com/dhawal1939/dhawal1939.github.io/master/.github/videos/sh_rendering/learnt_transfer/results_learnt_transfer.webm" type="video/webm">
+</video>
+</center>
