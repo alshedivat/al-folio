@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of interesting projects.
 nav: true
 nav_order: 3
-display_categories: [Computational,Design,Other]
+display_categories: [Design]
 horizontal: false
 ---
 
