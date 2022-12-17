@@ -84,15 +84,83 @@ Part Specifications:
  - Self similar parts made of Sheet Metal to optimize costs.
  - All parts have rounded corners.
  - Load bearing members have been stress tested through FEA/ Engineering analysis.
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p1_6.png" title="Part specification table" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/p1_7.png" title="Stress analysis of scissor member" class="img-fluid rounded z-depth-1" %}
+</div>
+<div class="caption">
+An example von-mises stress contour of the most impacted part (the scissor members) is shown. 
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/p1_6.png" title="Part specification list" class="img-fluid rounded z-depth-1" %}
+</div>
+<div class="caption">
+A detailed part specification list with detailed information on material,quantity and whether the part is custom made or stock.
+</div>
+---
+The runners and platform structures(bottom and top) are welded together, while most of the other parts are fastened.
+Some of the most important interfaces where careful tolerance analysis was undertaken include:
+ - Scissor member slots
+ - Top structure and extension plates
+ - Extension press-pins
+ - Extension Rod and Runner
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/p1_8.png" title="Tolerance at the scissor member slot" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p1_7.png" title="Stress Contour of the Scissor member " class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/p1_9.png" title="top Structure and Extension plate tolerance" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/p1_10.png" title="Extension rod and runner tolerance" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-   On the left is a detailed part specification list with detailed information on material,quantity and whether the part is custom made or stock, while on the right, an example von-mises stress contour of the most impacted part (the scissor members) is shown. 
+    The tolerances and fits measured in design are shown for various components.
 </div>
+---
+<h2>Fabrication Plan:</h2>
+The platform assembly consists of a number of parts, both fabricated and commercial off the shelf (COTS)
+ - Multiple sheet metals parts – Made from the 20 gauge steel
+ - Water or laser cutting – Rough cut outlines and interior features
+ - Bending – Single or multiple bends
+ - Brake Press – 630 KN Bending 
+ - Finishing machining where necessary – Pin holes 
+
+Many parts have multiple bending steps
+All bends are 90 degrees and the equal radii
+
+Plate steel or other fabrication processes:
+
+ - Machined parts – CNC mills for cutting and drilling
+ - Progressive die forging
+ - Injection molding – Nylon bumpers 
+ - Stock – Extruded pipe
+ - Stock – Steel bar
+ - COTS – Ball bearing slides, pins, fasteners.
+
+---
+<h2> Assembly Plan </h2>
+Multiple subassemblies are utilized to aid the flow of the assembly
+Press Fit pins also utilize a sub-step before final assembly
+Welds are completed at the subassembly level 
+The preferred process is MIG welding with small wire size
+Welds are commonly ⅛” fillet welds 
+
+Subassemblies of top, bottom, and extension platforms allows for the final assembly to be completed in a single step.  
+Clearance pins and mating members complete the final assembly
+This step can be done by the customer
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/p1_11.png" title="Top Assembly" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/p1_7.png" title="Scissor Assembly" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+
+<div>
 
