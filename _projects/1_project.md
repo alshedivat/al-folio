@@ -11,17 +11,15 @@ This project involves the design of a safe and ergonomically comfortable, raised
 <h2>Motivations:</h2> 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p1_mot.png" title="motivating stock image" class="img-fluid rounded z-depth-1" style="float:center" %}
+        {% include figure.html path="assets/img/p1_mot.png" title="motivating stock image" class="img-fluid rounded z-depth-1" style="float:left" %}
     </div>
+Many a times, people find it difficult to reach the top cabinets in a kitchen due to their height and find it to be limiting and even confidence inhibiting, to overcome this, a simple mechanism is required that can be used to extend your reach while also ensuring user safety when raised higher than ground. 
 </div>
 <div class="caption">
    stock image, illustrating the project motivation.
 </div>
 
-Many a times, people find it difficult to reach the top cabinets in a kitchen due to their height and find it to be limiting and even confidence inhibiting, to overcome this, a simple mechanism is required that can be used to extend your reach while also ensuring user safety when raised higher than ground. 
-
 ---
-
 Final Design:
 
 <div class="row">
@@ -79,7 +77,7 @@ Key Mechanisms:
    Key mechanisms that drive funcitionality of the product.
 </div>
 ---
-Part Specifications:
+<h2>Part Specifications:</h2>
  - 10 Custom Designed Parts.
  - Self similar parts made of Sheet Metal to optimize costs.
  - All parts have rounded corners.
@@ -87,6 +85,7 @@ Part Specifications:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/p1_7.png" title="Stress analysis of scissor member" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <div class="caption">
 An example von-mises stress contour of the most impacted part (the scissor members) is shown. 
@@ -94,11 +93,14 @@ An example von-mises stress contour of the most impacted part (the scissor membe
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/p1_6.png" title="Part specification list" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
+
 <div class="caption">
 A detailed part specification list with detailed information on material,quantity and whether the part is custom made or stock.
 </div>
 ---
+<h2> Key Interfaces,Fits and Tolerances: </h2>
 The runners and platform structures(bottom and top) are welded together, while most of the other parts are fastened.
 Some of the most important interfaces where careful tolerance analysis was undertaken include:
  - Scissor member slots
@@ -139,11 +141,10 @@ Plate steel or other fabrication processes:
  - Stock – Extruded pipe
  - Stock – Steel bar
  - COTS – Ball bearing slides, pins, fasteners.
-
 ---
 <h2> Assembly Plan </h2>
-Multiple subassemblies are utilized to aid the flow of the assembly
-Press Fit pins also utilize a sub-step before final assembly
+- Multiple subassemblies are utilized to aid the flow of the assembly.
+- Press Fit pins also utilize a sub-step before final assembly
 Welds are completed at the subassembly level 
 The preferred process is MIG welding with small wire size
 Welds are commonly ⅛” fillet welds 
