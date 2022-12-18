@@ -6,21 +6,26 @@ img: assets/img/projects/sh_rendering/transfer_textures/teaser.gif
 importance: 1
 category: work
 ---
-The work is presented in two parts:
-- <font size="1.5">Store Transfer in UV-space instead of Vertex attributes</font> 
-    * [<font size="1.5">"Transfer Textures for Fast Precomputed Radiance Transfer - EuroGraphics'22 Poster"</font>](https://diglib.eg.org/handle/10.2312/egp20221012)
-- <font size="1.5">Using Implicit Surfaces for Precomputed Radiance Transfer </font> 
-    * [<font size="1.5">"Learnt Transfer for Surface Geometries - HPG'22 Poster</font>](https://www.highperformancegraphics.org/posters22/HPG2022_Poster7_Learnt_Transfer_for_Surface_Geometries.pdf)
-    * [<font size="1.5">"Real-time Rendering of Arbitrary Surface Geometries using Learnt Transfer"</font>](https://iiitaphyd-my.sharepoint.com/:b:/g/personal/dhawal_sirikonda_research_iiit_ac_in/EUKOrBzrxrxFsOhmYFLArFcBtWBpY2nfx_CziCUC-JHneg?e=MrdxAJ)
-
-
-#### Part 1 - Unnecessary tessellations
+### Contents
 <a href="#uvtransfer">
-UV - Mapped Storage of Transfer rather than a using Vertex attribute storage.
-<a>
+Part 1 - Unnecessary tessellations
+</a><br/>
+<a href="#learnttransfer">
+Part 2 - Use Neural Transfer Approximator
+</a>
 
+What to do in case of Implicit surfaces?
+The work is presented in two parts:
+- <font size="2">Store Transfer in UV-space instead of Vertex attributes</font> 
+    * [<font size="2">"Transfer Textures for Fast Precomputed Radiance Transfer - EuroGraphics'22 Poster"</font>](https://diglib.eg.org/handle/10.2312/egp20221012) - 
+- <font size="2">Using Implicit Surfaces for Precomputed Radiance Transfer </font> 
+    * [<font size="2">"Learnt Transfer for Surface Geometries - HPG'22 Poster</font>](https://www.highperformancegraphics.org/posters22/HPG2022_Poster7_Learnt_Transfer_for_Surface_Geometries.pdf)
+    * [<font size="2">"Real-time Rendering of Arbitrary Surface Geometries using Learnt Transfer"</font>](https://iiitaphyd-my.sharepoint.com/:b:/g/personal/dhawal_sirikonda_research_iiit_ac_in/EUKOrBzrxrxFsOhmYFLArFcBtWBpY2nfx_CziCUC-JHneg?e=MrdxAJ) - [<font size="2">DOI HTML link</font>](https://camps.aptaracorp.com/ACM_PMS/PMS/ACM/ICVGIP22/40/4850c344-6a88-11ed-a76e-16bb50361d1f/OUT/icvgip22-40.html)
 
-The the naive approach of the using vertex attributes to store the transfer usually causes the following issues:
+<div id="uvtransfer">
+</div>
+#### Part 1 - Unnecessary tessellations
+    The the naive approach of the using vertex attributes to store the transfer usually causes the following issues:
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-2 mt-3 mt-md-0">
@@ -84,19 +89,12 @@ Here are some results
     <caption>(left) Results of Transfer Textures, (right) Results of Interreflections</caption>
 </div>
 
-```
-Still requires a good UV preserving mapping.
-```
-
+<div id="learnttransfer">
+    <h5><i>Still requires a good UV preserving mapping.</i></h5>
+</div>
 #### Part 2 - Use Neural Transfer Approximator
 
-<a href="#learnttransfer">
-What to do in case of Implicit surfaces?
-<a>
-
-
 *Implicit surfaces do not have any UV locations*
-
 As the surface representation does not have a storage schema, how can we store transfer values? 
 
 - It does not have a Vertex Position
