@@ -18,6 +18,8 @@ My name is Yew Jin, Lim. I am currently a Software Engineer at Google in its Mou
 
 I am very interested in crypto and web3 - [yewjin.eth](https://app.ens.domains/name/yewjin.eth) directs here.
 
+My social / web3 links are at [linktr.ee/yewjin](https://linktr.ee/yewjin)
+
 # Note about my name
 In Asia, the standard template for names is reversed
 i.e., [LAST NAME] [FIRST NAME]
