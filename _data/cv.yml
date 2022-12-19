@@ -58,7 +58,7 @@
 
     - title: IT Helper - UiO Geo
       year: 2021.11 - Present
-      description: I am paid to attend seminars, deputations, and other events but do IT-related tasks. As an ex-technician in oil and gas, I am skilled at troubleshooting.
+      description: I am paid to attend seminars, deputations, and other events but do IT-related supports. As an ex-technician in oil and gas, I am skilled at troubleshooting of machines.
   
     - title: IMO 2022 - Volunteer  
       year: 2022.07
@@ -67,7 +67,6 @@
 - title: Academic Interests
   type: nested_list
   contents:
-  
     - title: Cryosphere x Remote Sensing
       items: 
         - Snow and DEM
