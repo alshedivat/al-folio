@@ -30,11 +30,12 @@ The ***TTOP*** is the mean annual temperature at the top of the permafrost, whic
 
 The mean annual ground surface temperature:
 
-$$ 
+$$
 MAGST = \frac{n_{t}*TDD_{air} - {n_{f}*FDD_{air}}}{\tau}
 $$
 
 where
+
 
 $$
 FDD = \sum_{i} |T_{i} - T_{freezing}| 
@@ -54,10 +55,12 @@ $$
 
 From air temperature to MAGST, we add the two empirical ratio nf (e.g. the insulation of snow cover) and nt (e.g. albedo, vegetation, moisture). From MAGST to TTOP, as the thermal conductivity of ice is four times of water, we take into account by modifying the equation to:
 
-$$ 
+$$
 TTOP = \frac{n_{t}*TDD_{air}*r_{r} - {n_{f}*FDD_{air}}}{\tau}
 $$
 where
+
+
 $$
 r_{k} = \frac{k_{thawed}}{k_{frozen}}
 $$
@@ -134,7 +137,7 @@ for offset = -5:0.1:5
     airT_pos = airT+offset;
     airT_pos(airT_pos<0) = 0;
     TDD = sum(airT_pos(:,:,start_i:end_i),3);
-  
+
     airT_neg = airT+offset;
     airT_neg(airT_neg>0) = 0;
     FDD = sum(airT_neg(:,:,start_i:end_i),3);
@@ -188,7 +191,6 @@ The size of the permafrost, or the size of the land where MAGST is between 0 C t
 
 Chadburn, S. E., Burke, E. J., Cox, P. M., Friedlingstein, P., Hugelius, G., & Westermann, S. (2017). An observation-based constraint on permafrost loss as a function of global warming. Nature Climate Change, 7(5), 340–344. 2022-10-04. https://doi.org/10.1038/nclimate3262
 Gisnås, K., Etzelmüller, B., Farbrot, H., Schuler, T. V., & Westermann, S. (2013). CryoGRID 1.0: Permafrost Distribution in Norway estimated by a Spatial Numerical Model. Permafrost and Periglacial Processes, 24(1), 2–19. https://doi.org/10.1002/ppp.1765
-
 
 
 
