@@ -8,8 +8,9 @@ profile:
   align: right
   image: Saikumar_Yadugiri.jpg
   image_cicular: true # crops the image to make it circular
-  address: >
-    Name Pronunciation:
+  address: |
+    <p>Pronouns: He/Him/His</p>
+    <p>Name Pronunciation:</p>
 
 telugu_name: false # Native language name
 social: true  # includes social icons at the bottom of the page

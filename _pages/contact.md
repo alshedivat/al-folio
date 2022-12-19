@@ -14,7 +14,7 @@ nav_order: 2
 </header>
 
 The best way to contact me is to send an email to
-<h1 class="email">my-first-name-here@cs.ucsb.edu</h1>
+<h1 class="email">&lt;my-first-name-here&gt;@cs.ucsb.edu</h1>
 
 <h3 class='font-weight-bold'> OR </h3>
 
