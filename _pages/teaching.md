@@ -9,3 +9,4 @@ nav: true
 
 CSE144 Applied Machine Learning, 2022 Spring
 
+CSE20 Introduction to Python Programming, 2022 Fall
