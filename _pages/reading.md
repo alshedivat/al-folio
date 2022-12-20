@@ -21,6 +21,7 @@ nav: false
   - [*Introduction to Numerical Methods for Variational Problems* by Hans Petter Langtangen and Kent-Andre Mardal](https://github.com/hplgit/fem-book)
   - [*Finite Elements and Fast Iterative Solvers: with Applications in Incompressible Fluid Dynamics* by Howard Elman, David Silvester, and Andy Wathen](https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780199678792.001.0001/acprof-9780199678792)
   - [*Various Course notes* by Long Chen at University of California Irvine](https://www.math.uci.edu/~chenlong/lectures.html)
+  - [*High-Order Methods for Incompressible Fluid Flow* by Deville, M.O.; Fischer, P.F.; Mund, E.H.](https://www.cambridge.org/us/catalogue/catalogue.asp?isbn=0521453097)
 
 **Ordinary Differential Equations (ODEs)**
   - [*Parallel Time Integration* CBMS Conference (2022)](https://conferences.math.mtu.edu/cbms2020/program/)
@@ -40,3 +41,8 @@ nav: false
   - [*Parallel Computing and Algorithms courses* by James Demmel at University of California Berkeley](https://people.eecs.berkeley.edu/~demmel/)
   - [*Languages and Abstractions for High-Performance Scientific Computing (CS 598APK)* by Andreas Kloeckner at the University of Illinois at Urbana-Champaign](https://relate.cs.illinois.edu/course/cs598apk-f18/)
   - [*Heterogeneous and parallel programming course with an emphasis on CUDA* taught at UIUC](http://lumetta.web.engr.illinois.edu/408-S22/)
+
+**Deep Learning**
+  - [*Deep Learning* by Ian Goodfellow and Yoshua Bengio and Aaron Courville](https://www.deeplearningbook.org/)
+  - [*Deep Learning in Computational Mechanics* by Davide D'Angella, Leon Herrmann, and Moritz Jokeit](https://link.springer.com/book/10.1007/978-3-030-76587-3) 
+
