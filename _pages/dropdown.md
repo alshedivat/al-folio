@@ -1,6 +1,6 @@
 ---
 layout: page
-title: misc
+title: Misc
 nav: true
 dropdown: true
 children: 
