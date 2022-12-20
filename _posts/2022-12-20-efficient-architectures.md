@@ -2,12 +2,15 @@
 layout: distill
 title: Efficient Architectures
 description: A summary of efficienct transformer-based models
-date: 2022-12-11
+date: 2023-12-11
+tags: technical
+categories: transformers efficient-methods-for-nlp
 
 authors:
   - name: Akshita Bhagia
     url: "{{site.url}}"
 
+# TODO: change date in bib file.
 bibliography: 2022-12-11-efficient-architectures.bib
 
 # Optionally, you can add a table of contents to your post.
@@ -18,10 +21,6 @@ bibliography: 2022-12-11-efficient-architectures.bib
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
   - name: Overview
-    # if a section has subsections, you can add them as follows:
-    # subsections:
-    #   - name: Example Child Subsection 1
-    #   - name: Example Child Subsection 2
   - name: Efficiency in Transformers
     subsections:
       - name: Defining efficiency
@@ -69,7 +68,7 @@ _styles: >
 
 TODO: change this to make it broader, not just a paper summary. 
 
-Since the publication of the original transformers paper <d-cite key="Vaswani2017AttentionIA"></d-cite>, countless transformer variants have been proposed which mskr improvements over the vanilla transformer. Many of these focus on memory and computational efficiency. In this blog post, I will describe some of these variants, as well as broad categories of architecture types, as defined in *Efficient Transformers: A Survey* <d-cite key="Tay2020EfficientTA"></d-cite>. The first version of the survey was written in August 2020, and then revised in December 2021, and then, March 2022, where they included newer models and trends. 
+Since the publication of the original transformers paper <d-cite key="Vaswani2017AttentionIA"></d-cite>, countless transformer variants have been proposed which make improvements over the vanilla transformer. Many of these focus on memory and computational efficiency. In this blog post, I will discuss what we mean by efficiency in the context of language transformers. I will also describe some of the "X"-former variants, as well as broad categories of architecture types, as defined in *Efficient Transformers: A Survey* <d-cite key="Tay2020EfficientTA"></d-cite>. Finally, I will discuss the limitations of how efficiency is currently evaluated.
 
 ***
 
@@ -82,6 +81,8 @@ A transformer model's efficiency can be defined in terms of
 * Memory consumption (GPU sizes)
 * Computational costs (FLOPs)
 
+as applied to large inputs.
+
 These become especially relevant in case of scaling transformer models to work for longer sequences. TODO: add more details.
 
 ### The efficiency bottleneck
@@ -91,8 +92,7 @@ One can consider two major sources of inefficiency in the transformer:
 * Attention computation
 * Feedforward layers 
 
-Both of these can be addressed orthogonally, although, there is some work which explores reducing the sequence length as a means to make attention efficient, and it ends up improving the efficiency of the latter too (TODO: add citation). Most of the work in developing efficient architectures focuses on these two bottlenecks, which is also the focus of this blog post. Some other efforts to improve efficiency are weight sharing, quantization, task adapters, alternative architectures, etc.
-. *Efficient Methods for Natural Language Processing: A Survey* <d-cite key="Treviso2022EfficientMF"></d-cite> is a broader study of efficient methods in NLP.
+Both of these can be addressed orthogonally, although, there is some work which explores reducing the sequence length as a means to make attention efficient, and it ends up improving the efficiency of the latter too (TODO: add citation). Most of the work in developing efficient architectures focuses on these two bottlenecks, which is also the focus of this blog post. Some other efforts to improve efficiency are weight sharing, quantization, task adapters, alternative architectures, etc. *Efficient Methods for Natural Language Processing: A Survey* <d-cite key="Treviso2022EfficientMF"></d-cite> is a broader study of efficient methods in NLP.
 
 ### Complexity of Attention
 
