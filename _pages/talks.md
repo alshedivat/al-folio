@@ -25,39 +25,43 @@ The list of talks, presentations, and public appearances.
 
 ## 2022
 
-* **Combined International Workshop on Interactive Urgent Supercomputing (UrgentHPC), ACM/IEEE Supercomputing (SC22)**, November, Dallas, USA (to appear).  
-_Interactive Computing with Serverless Functions in rFaaS_, workshop lighting talk.  
+* **Combined International Workshop on Interactive Urgent Supercomputing (UrgentHPC), ACM/IEEE Supercomputing (SC22)**, November, Dallas, USA.
+_Interactive Computing with Serverless Functions in rFaaS_, workshop lighting talk.
+[Slides](/assets/pdf/2022_rfaas_urgenthpc_slides.pdf).
 
-* **6th Workshop on Interoperability of Supercomputing and Cloud Technologies (SuperCompCloud), ACM/IEEE Supercomputing (SC22)**, November, Dallas, USA (to appear).  
-_Software Resource Disaggregation for HPC with Serverless Computing_, workshop paper lighting talk.  
+* **6th Workshop on Interoperability of Supercomputing and Cloud Technologies (SuperCompCloud), ACM/IEEE Supercomputing (SC22)**, November, Dallas, USA.
+_Software Resource Disaggregation for HPC with Serverless Computing_, workshop paper lighting talk.
+[Slides](/assets/pdf/2022_softw_disagg_supercompcloud_slides.pdf).
 
-* **ACM Student Research Competition at ACM/IEEE Supercomputing (SC22)**, November, Dallas, USA (to appear).
+* **ACM Student Research Competition at ACM/IEEE Supercomputing (SC22)**, November, Denver, USA.
 _Software Resource Disaggregation for HPC with Serverless Computing_, research poster.
+**Gold Medal presentation**.
+[Poster](/assets/pdf/2022_softw_disagg_poster.pdf), [finals presentation slides](/assets/pdf/2022_softw_disagg_slides.pdf).
 
-* **SIAM Conference on Parallel Processing for Scientific Computing (PP22)**, February (virtual).  
+* **SIAM Conference on Parallel Processing for Scientific Computing (PP22)**, February (virtual).
 _Extracting Clean Performance Models from Tainted Programs_, minisymposium presentation.
 [Slides](/assets/pdf/2022_perf_taint_siampp_slides.pdf).
 
 ## 2021
 
-* **22nd ACM/IFIP International Middleware Conference**, December (virtual).  
-_SeBS: A Serverless Benchmark Suite for Function-as-a-Service Computing_, research paper presentation.  
+* **22nd ACM/IFIP International Middleware Conference**, December (virtual).
+_SeBS: A Serverless Benchmark Suite for Function-as-a-Service Computing_, research paper presentation.
 [Slides](/assets/pdf/2021_sebs_middleware_slides.pdf), [recording on SPCL YouTube.](https://www.youtube.com/watch?v=Z_CQfh0pQjc).
 
-* **26th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming**, March (virtual).  
-_Extracting Clean Performance Models from Tainted Programs_, research paper presentation.  
+* **26th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming**, March (virtual).
+_Extracting Clean Performance Models from Tainted Programs_, research paper presentation.
 [Slides](/assets/pdf/2021_perf_taint_ppopp_slides.pdf), [recording on SPCL YouTube.](https://www.youtube.com/watch?v=eGEvFXK4owc).
 
 
 ## 2019
 
-* **SPPEXA Final Symposium 2019**, October, Dresden, Germany.  
-Presentation of the [perf-taint project](/projects/perf_taint) results.  
+* **SPPEXA Final Symposium 2019**, October, Dresden, Germany.
+Presentation of the [perf-taint project](/projects/perf_taint) results.
 [Slides](/assets/pdf/2019_perf_taint_sppexa.pdf).
 
-* **ACM Student Research Competition at ACM/IEEE Supercomputing (SC19)**, November, Denver, USA.  
-_perf-taint: Taint Analysis for Automatic Many-Parameter Performance Modeling_, research poster.  
-**Gold Medal presentation**.  
+* **ACM Student Research Competition at ACM/IEEE Supercomputing (SC19)**, November, Denver, USA.
+_perf-taint: Taint Analysis for Automatic Many-Parameter Performance Modeling_, research poster.
+**Gold Medal presentation**.
 [Poster](/assets/pdf/2019_perf_taint_poster.pdf), [finals presentation slides](/assets/pdf/2019_perf_taint_slides.pdf).
 
 ## 2018
