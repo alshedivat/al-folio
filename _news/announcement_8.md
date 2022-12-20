@@ -4,5 +4,5 @@ date: 2022-10-19 07:59:00-0400
 inline: true
 ---
 
-Our paper [rFaaS: RDMA-Enabled FaaS Platform for Serverless High-Performance Computing](/projects/rfaas)
-has been accepted at IEEE IPDPS 2023 conference!
+Our poster [Software Resource Disaggregation for HPC with Serverless Computing](/publications#copik2022disaggregationsrc)
+has won the **gold medal** at the ACM Student Research Competition at ACM/IEEE Supercomputing 2022!
