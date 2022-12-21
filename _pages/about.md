@@ -20,10 +20,10 @@ Hi! I am Fangru and welcome to my page!
 
 I'm currently a second-year MPhil Linguistics student at University of Oxford. My academic interests mainly lie in:
 
-· Natural Language Processing
-· Syntax, Semantics, and Pragmatics in theoretical and experimental linguistics
+· Natural Language Processing<br>
+· Syntax, Semantics, and Pragmatics in theoretical and experimental linguistics<br>
 · Social computing
 
-Please see <a href="/fangru-lin.github.io/projects/" target="_blank">my project page</a> for more information!
+Please see <a href="fangru-lin.github.io/projects/" target="_blank">my project page</a> for more information!
 
 My non-academic interests are in music and sports! I have level-10 (highest level) piano player certificate. I have also been in many sing comps including Voice of China, and Chinese sing comp (唱响津城) at University of Oxford. For sports, I do Pilates very often. I also enjoy outdoor activities such as skiing!
