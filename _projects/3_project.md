@@ -3,7 +3,7 @@ layout: page
 title: Multi-domain Dependency Parsing Investigation in Mandarin Chinese
 description: Corpus linguistics option paper
 time: In process
-supervisor: Supervised by Dr Hanne Eckhoff
+supervisor: Supervised by Prof Hanne Eckhoff
 img:
 # redirect: https://unsplash.com
 importance: 2
