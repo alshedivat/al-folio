@@ -17,7 +17,7 @@ I am Dhawal, I am a Masters student at [IIIT-Hyderabad](https://www.iiit.ac.in/)
 
 My masters work is centered around Spherical harmonic representation of Lighting and Visibility Information advancing the works of Precomputed Radiance Transfer.
 I am currently working two projects 
-- extending [Ratio Estimated Stocastic stadows in analytic area light integrals](https://eheitzresearch.wordpress.com/705-2/) for global illumination 
+- extending [Ratio Estimated stochastic stadows in analytic area light integrals](https://eheitzresearch.wordpress.com/705-2/) for global illumination 
 - Editing of radiance fields; extraction, coloring etc
 
 
