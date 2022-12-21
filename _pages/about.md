@@ -19,6 +19,8 @@ My masters work is centered around Spherical harmonic representation of Lighting
 I am currently working two projects 
 - extending [Ratio Estimated Stocastic stadows in analytic area light integrals](https://eheitzresearch.wordpress.com/705-2/) for global illumination 
 - Editing of radiance fields; extraction, coloring etc
+
+
 Please find my [cv](/assets/pdf/dhawal1939_cv.pdf) for further details.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
