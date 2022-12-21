@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /publications/
+permalink: /
 title: Publications
 # description: My publications in preparation
 years: [In preparation]
