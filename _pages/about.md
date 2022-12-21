@@ -23,4 +23,4 @@ My very first website!
 I am a second year PhD student at UMass Amherst, working with [Professor Fatima Anwar](https://people.umass.edu/fanwar/). My areas of interest are security and privacy in distributed machine learning systems.
 Prior to joining UMass, I completed my undergraduate studies in Electrical Engineering from the [School of Electrical Engineering and Computer Science](https://seecs.nust.edu.pk/) at [National University of Sciences and Technology](https://nust.edu.pk/) in 2021.
 
-I enjoy reading fiction books, table tennis and most of all, playing Dota2!
+I enjoy reading, table tennis and most of all, playing Dota2!
