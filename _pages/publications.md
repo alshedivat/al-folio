@@ -13,7 +13,7 @@ nav_order: 4
 {%- for y in page.years %}
   <h4 class="year">{{y}}</h4>
   <h2>Assessing transformer models with scalar adjective expressions</h2>
-  <p>Please see <a href="/projects/1_project/" target="_blank">this page</a> for more information.</p>
+  <p>Please see [this page](https://fangru-lin.github.io/projects/1_project/) for more information.</p>
 {% endfor %}
 
 </div>
