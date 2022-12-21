@@ -8,6 +8,8 @@ nav: true
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
+
+You can also check out my [Semantic Scholar](https://www.semanticscholar.org/author/Akshita-Bhagia/2166136235) and [Google Scholar](https://scholar.google.com/citations?user=fzH3_G4AAAAJ) profiles.
 <div class="publications">
 
 {%- for y in page.years %}
