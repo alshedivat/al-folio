@@ -75,6 +75,8 @@ telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+scholar_userid: fzH3_G4AAAAJ # your Google Scholar ID
+semantic_scholar: https://www.semanticscholar.org/author/Akshita-Bhagia/2166136235
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
