@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 # description: My publications in preparation
 years: [In preparation]
 nav: true
