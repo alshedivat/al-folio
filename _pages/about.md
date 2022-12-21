@@ -15,8 +15,10 @@ social: true  # includes social icons at the bottom of the page
 
 I am Dhawal, I am a Masters student at [IIIT-Hyderabad](https://www.iiit.ac.in/). I am associated with [CVIT](https://cvit.iiit.ac.in/) working with Prof. [P.J. Narayanan](https://scholar.google.com/citations?user=3HKjt_IAAAAJ). I am currently working on Real-time Photorealistic Rendering.
 
-My current work is centered around Spherical harmonic representation of Lighting and Visibility Information advancing the works of Precomputed Radiance Transfer.
-
+My masters work is centered around Spherical harmonic representation of Lighting and Visibility Information advancing the works of Precomputed Radiance Transfer.
+I am currently working two projects 
+- working extending [Ratio Estimated Stocastic stadows in analytic area light integrals](https://eheitzresearch.wordpress.com/705-2/), 
+- Editing of radiance fields, extraction, coloring etc
 Please find my [cv](/assets/pdf/dhawal1939_cv.pdf) for further details.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
