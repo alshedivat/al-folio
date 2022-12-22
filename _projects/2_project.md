@@ -102,6 +102,6 @@ between the domains of $$\psi_P$$ and $$\psi_P^*$$:
 Now the bulk of the work is to compute these functions $$\psi_P^*$$ (known as Cramér's function from large
 deviations theory). Fortunately, we have derived closed-form expressions for the Cramér function for many
 popular probability distributions, as well as their (Bregman) proximal operators for solving the 
-regularized problems algorithmically. A preprint detailing these results will appear online soon, paired with
-a Python package allowing users to experiment with solving custom regularized problems in the MEM framework. In the meantime, an online 
-repository showcasing the library of Cramér functions and proximal operators can be found <a href = "https://arielgoodwin.github.io/memm.github.io/prox/#energy" >here</a>.
+regularized problems algorithmically. For more information, check out our <a href = "https://arxiv.org/pdf/2211.05205.pdf" >recent preprint,</a> soon to be
+ paired with
+a Python package allowing users to experiment with solving custom regularized problems in the MEM framework.
