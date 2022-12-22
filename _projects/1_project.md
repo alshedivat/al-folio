@@ -79,5 +79,5 @@ roots of $$g$$ in superlinear time. Numerical experiments for the problem of $$\
 showcase the effectiveness of our method compared to more specialized algorithms such as 
  <a href="https://hal.archives-ouvertes.fr/hal-01056171v2">[Condat, 2016]</a>. All the details can be 
 found in my recent paper
-with <a href='https://www.math.mcgill.ca/hoheisel/'>Tim Hoheisel</a> and <a href='https://friedlander.io/'>Michael P. Friedlander</a>, <a href="https://arxiv.org/abs/2102.06809" >From Perspective Maps to Epigraphical Projections,
-</a> to appear in <i>Mathematics of Operations Research</i>.
+with <a href='https://www.math.mcgill.ca/hoheisel/'>Tim Hoheisel</a> and <a href='https://friedlander.io/'>Michael P. Friedlander</a>, <a href="https://pubsonline.informs.org/doi/abs/10.1287/moor.2022.1317" >From Perspective Maps to Epigraphical Projections
+</a>.
