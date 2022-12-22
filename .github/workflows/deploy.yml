@@ -5,13 +5,15 @@ on:
     branches:
       - org-testing
       - cloudflare
-    paths-ignore:
-    #  - '.github/workflows/**'
+      - github
+#     paths-ignore:
+#       - '.github/workflows/**'
 
   pull_request:
     branches:
       - cloudflare
       - org-testing
+      - github
 
   workflow_run:
     workflows: [Build Notion Posts]
