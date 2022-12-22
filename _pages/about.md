@@ -21,11 +21,10 @@ social: false  # includes social icons at the bottom of the page
 
 I am an MA student in the [Department of Philosophy](https://www.uh.edu/class/philosophy/) at the University of Houston. 
 
-I work generally in ethics. My main research interests include practical reason, human agency, moral psychology, and Latin American Philosophy with a focus on the study and development of the history of Mexican philosophy. 
+My current research lies at the intersection of ethics, moral psychology, and theories of human agency, with an eye toward incorporating insights from undertheorized Latin American thinkers into discussions of value and rational action within analytic philosophy. I investigate how our choices shape who we are as moral agents and what we value, how we ought to reconcile internal conflicts between our values, the role of the emotions in our practical and moral reasoning, and how our identities and social practices give shape to human agency. 
 
-I am currently thinking about transformative experiences and the problem these pose for rational decision-making. 
 
-Outside of philosophy, I enjoy cuddling with my cat, making jewelry, drinking coffee, traveling and getting lost in bookshops with my [husband](http://phkieval.com). 
+Outside of philosophy, I enjoy cuddling with my cat, making jewelry and pottery, drinking coffee, traveling, and getting lost in bookshops with my [husband](http://phkieval.com). 
 
 You can reach me at [paezquer@cougarnet.uh.edu](mailto:paezquer@cougarnet.uh.edu)
 
