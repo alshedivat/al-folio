@@ -2,24 +2,19 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://lsa.umich.edu/stats'>University of Michigan, Department of Statistics</a>. 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>zipingxu at umich dot edu</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+I am a fifth-year Ph.D. candidate in Statistics at University of Michigan (enrolled in 2018). I am fortunate to work with Professor [Ambuj Tewari](https://ambujtewari.github.io). Before joining University of Michigan, I obtained my B.S. degree in Data Science from Peking University in 2018, where I was advised by Professor [Song Xi Chen](https://www.songxichen.com) on climate change and air pollution.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My current research interests are on the theory of Reinforcement Learning (RL), Transfer Learning and Multitask Learning. I am also interested in a wide range of scientific applications of ML. I work with Professor [Paul Zimmerman](https://sites.lsa.umich.edu/zimmerman-lab) on RL application to Chemistry.
