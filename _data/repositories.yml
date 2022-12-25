@@ -2,10 +2,9 @@ github_users:
   - mkareshk
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - mkareshk/PortFawn
+  - mkareshk/dafin
+  - mkareshk/twimer
+  - mkareshk/pyticle
+  - mkareshk/classic-ml
+  - mkareshk/linux-packages
