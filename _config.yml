@@ -81,12 +81,12 @@ medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
-blogger_url: https://past.pages.dev # your blogger URL
+blogger_url: #https://past.pages.dev # your blogger URL
 work_url: #https://alireza.pages.dev # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
-stackoverflow_id: # your stackoverflow id
+stackoverflow_id: 22043324/alireza?tab=accounts # your stackoverflow id
 kaggle_id: # your kaggle id
 lastfm_id: # your lastfm id
 spotify_id: # your spotify id
