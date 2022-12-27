@@ -10,6 +10,7 @@ bibliography: C:\Users\ZOZN109\AppData\Local\Pandoc\My_Library.bib
 csl: C:\Users\ZOZN109\AppData\Local\Pandoc\apa.csl
 lang: eng
 publish: yes
+comments: true
 ---
 
 

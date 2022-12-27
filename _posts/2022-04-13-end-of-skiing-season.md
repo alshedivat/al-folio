@@ -1,10 +1,13 @@
 ---
 layout: post
 title:  My ski trips 2022
+author: Zhihao
 description: What's the next?
 date: 2022-04-13
 tags: images # notes links code math images
 categories: withme norge
+lang: eng
+publish: yes
 ---
 
 ##### How's your winter?
