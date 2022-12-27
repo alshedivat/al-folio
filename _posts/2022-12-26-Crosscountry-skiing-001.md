@@ -59,12 +59,12 @@ I also recommend video below, which contains the following points:
 Now it's time to use poles. **Double stride is the basic poling motion of cross-country skiing.  Diagonal stride that combines polling with the shuffle-and-glide**, which you may need extra days to master.
 
 The first video:
--  Double stide (03:10 - 05:45).
--  Diagonal stide (05:45 - 07:00)
+-  Double stride (03:10 - 05:45).
+-  Diagonal stride (05:45 - 07:00)
 
 The second video: 
 
--  Double stide (09:45 - 12:15).
+-  Double stride (09:45 - 12:15).
 
 ## Lesson 3: Snowplow and turning
 
@@ -81,7 +81,7 @@ The second video:
 - Uphill herringbone (25:30 - 27:00).
 - C shape turning  (28:20 - 29:15).
 
-After the first three lessons, you can survive in the Nordmark area.
+After the first three lessons, you can survive in the Nordmark area. 
 
 ## Lesson 4: Skating
 
