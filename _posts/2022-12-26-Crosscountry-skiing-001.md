@@ -95,7 +95,7 @@ If you also wanna master how to skate skiing, the video below would be beneficia
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-yr0YtQ_UDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZFPttSGcaSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-That is too easy for you, here are advanced skills:
+Is that too easy for you. Here are advanced skills:
 - Parallel turning.
 - Telemarking turning.
 - Hockey stop.

@@ -35,15 +35,16 @@ $$
 MAGST = \frac{n_{t}*TDD_{air} - {n_{f}*FDD_{air}}}{\tau}
 $$
 
-where
 
+
+where
 
 $$
 FDD = \sum_{i} |T_{i} - T_{freezing}| 
 $$
 
 $$
-TDD = \sum_{j} T_{j} - T_{freezing} 
+TDD = \sum_{j} T_{j} - T_{freezing}
 $$
 
 $$
@@ -54,13 +55,15 @@ $$
 n_{t} = \frac{TDD_{ground surface}}{TDD_{air}}
 $$
 
-From air temperature to MAGST, we add the two empirical ratio nf (e.g. the insulation of snow cover) and nt (e.g. albedo, vegetation, moisture). From MAGST to TTOP, as the thermal conductivity of ice is four times of water, we take into account by modifying the equation to:
 
+
+From air temperature to MAGST, we add the two empirical ratio nf (e.g. the insulation of snow cover) and nt (e.g. albedo, vegetation, moisture). From MAGST to TTOP, as the thermal conductivity of ice is four times of water, we take into account by modifying the equation to:
 $$
 TTOP = \frac{n_{t}*TDD_{air}*r_{r} - {n_{f}*FDD_{air}}}{\tau}
 $$
-where
 
+
+where
 
 $$
 r_{k} = \frac{k_{thawed}}{k_{frozen}}

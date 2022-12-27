@@ -61,18 +61,24 @@ The diffusion GTL:
 $$
 \frac{\delta_z}{\delta_t} = k_d \triangledown^2z
 $$
+
+
 Where k_d is a diffusion parameter, and surface curvature is ∇.
 
 The channeling GTL:
 $$
 \frac{\delta_z}{\delta_t} = k_c A^m\triangledown_z^n
 $$
+
+
 Where k_c is streampower parameter, m, n are parameters as well, and A is contribution area.
 
 The uplift GTL:
 $$
 \frac{\delta_z}{\delta_t} = u_f
 $$
+
+
 Where u_f is the rate of uplifting.
 
 ### The study area
