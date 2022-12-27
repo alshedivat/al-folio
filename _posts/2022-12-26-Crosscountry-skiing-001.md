@@ -30,7 +30,7 @@ There are four types of skis available:
 - **Touring skis** are designed for backcountry use.
 - **Telemark skis** are designed for use in backcountry terrain and are typically wider and shorter than touring skis.
 
-Here I suggest starting with **classic skis**, which are **10 to 20cm longer than your height**. There are typically two types of binding, NNN and STS, so be sure you get compatible boots.
+Here I suggest starting with **classic skis**, which are **10 to 20 cm longer than your height**. There are typically two types of binding, NNN and STS, so be sure you get compatible boots.
 
 ![](https://i.imgur.com/3lUhiyO.png)
 
