@@ -13,7 +13,7 @@ publish: yes
 ---
 
 
-This is a tutorial for beginners with materials from youtube mainly.
+This is a tutorial for beginners with materials from Youtube mainly.
 
 ## The taste of cross-country skiing
 
