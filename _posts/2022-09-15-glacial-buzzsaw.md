@@ -1,6 +1,7 @@
 ---
 layout: post
 title: An old hypothesis that glacier limit mountain height
+author: Zhihao
 description: Glacier buzzsaw
 date: 2022-09-16
 tags: notes # notes links code math images

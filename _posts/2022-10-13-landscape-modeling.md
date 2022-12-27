@@ -1,6 +1,6 @@
 ---
 layout: post
-title: landscape modeling: erosion vs tectonic uplift
+title: landscape modeling - erosion vs tectonic uplift
 author: Zhihao
 description: large scale of geomorphology
 date: 2022-10-13
