@@ -97,16 +97,18 @@ In simulations, a 20 km * 20 km square area starts uplifting, erosion and diffus
 I use an iteration to approach the target terrain (Figure 4) by adjusting the parameters in each run (Table 1). **Run 1, Run 2 and Run 3 are my sensitivity tes**t, where I found that the 2x erosion and 2x uplift coefficient show that the erosion is more progressive (river reaches inland further, run 3), and the uplift also makes the mountain higher (Run 2). The diffusion parameter does not have that significant impact on result compared to erosion and uplift parameters (Run 3b is almost as same as Run 3)
 
 **Table 1.**  The parameters. Run 1,2,3 are sensitivity test, and space = 250 m.
-| Runs | Kd                    | Kc                   | mc  | nc  | Uf                   | comments                                      |
-| ---- | --------------------- | -------------------- | --- | --- | -------------------- | --------------------------------------------- |
-| 1    | 5e-3                  | 1e-4                 | 0.5 | 1   | 1e-3                 | Sensitivity test                              |
-| 2    | 5e-3                  | 1e-4                 | 0.5 | 1   | 2e-3                 | Sensitivity test: faster uplift               |
-| 3    | 5e-3                  | 2e-4                 | 0.5 | 1   | 2e-3                 | Sensitivity test: faster erosion   and uplift |
-| 3b   | exp(-X\space\50)5e-3  | 2e-4                 | 0.5 | 1   | 2e-3                 | Sensitivity test: Diffusion west              |
-| 4    | exp(-X\space\50)5e-3  | 2e-4                 | 0.5 | 1   | exp(X\space \50)2e-3 | diffusion west, uplift east                   |
-| 5    | 5e-3                  | exp(-X\space\30)5e-3 | 0.5 | 1   | exp(X\space \50)2e-3 | erosion west, uplift east                     |
-| 6    | exp(-X\space \50)5e-3 | exp(-X\space\60)5e-3 | 0.5 | 1   | exp(X\space \50)2e-3 | diffusion, erosion west, uplift   east        |
-|      |                       |                      |     |     |                      |                                               |
+
+| Runs | Kd                    | Kc                   | mc   | nc   | Uf                   | comments                                      |
+| ---- | --------------------- | -------------------- | ---- | ---- | -------------------- | --------------------------------------------- |
+| 1    | 5e-3                  | 1e-4                 | 0.5  | 1    | 1e-3                 | Sensitivity test                              |
+| 2    | 5e-3                  | 1e-4                 | 0.5  | 1    | 2e-3                 | Sensitivity test: faster uplift               |
+| 3    | 5e-3                  | 2e-4                 | 0.5  | 1    | 2e-3                 | Sensitivity test: faster erosion   and uplift |
+| 3b   | exp(-X\space\50)5e-3  | 2e-4                 | 0.5  | 1    | 2e-3                 | Sensitivity test: Diffusion west              |
+| 4    | exp(-X\space\50)5e-3  | 2e-4                 | 0.5  | 1    | exp(X\space \50)2e-3 | diffusion west, uplift east                   |
+| 5    | 5e-3                  | exp(-X\space\30)5e-3 | 0.5  | 1    | exp(X\space \50)2e-3 | erosion west, uplift east                     |
+| 6    | exp(-X\space \50)5e-3 | exp(-X\space\60)5e-3 | 0.5  | 1    | exp(X\space \50)2e-3 | diffusion, erosion west, uplift   east        |
+
+
 
 Run 4 introduces an exponential function that reduces diffusion and enhances uplift at the East side (x close to 20km), but enhances diffusion and reduces uplift at the west side (x close to 0). We can regard this function as a condition that the east side tectonic is more active and lithology has higher fracture resistance. The mountain reaches over 350 m, which is similar to my study area.
 
