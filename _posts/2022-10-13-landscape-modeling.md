@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: landscape modeling: erosion vs tectonic uplift
