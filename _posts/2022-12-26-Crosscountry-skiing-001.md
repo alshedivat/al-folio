@@ -22,7 +22,7 @@ Cross-country skiing, also known as Nordic skiing, differs from alpine skiing (d
 Contrary to downhill skiing's thrilling focus, cross-country skiing can be both intense and peaceful. (1) cross-country demands much more workout when uphill because there is no ski lift (2) skiing with dogs and crossing the flat forest can be extremely peaceful. Below are my favorite videos.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Bkql4akV5XU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jmGgriw7lmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-## Lesson 0: Equipment and clothing
+## Lesson 0: Equipments and clothing
 
 There are four types of skis available:
 - **Classic skis** are designed for use on groomed trails and are the most common ones.
@@ -36,11 +36,9 @@ Here I suggest starting with **classic skis**, which are **10 to 20cm longer tha
 
 The picture above also reminds us how to properly dress. (1) no cotton but fast drying, breathable synthetic clothing (2) be light and flexible, no need to dress like downhill skiers but like a runner.
 
-## Lesson 1: Gain your balance
+## Lesson 1: Gain your balance - From static to dynamic
 
-### From static to dynamic
-
-While we stand still, the weight is exactly beneath the feet. However, It's better to give up the feeling of standing still. Once you stand on skis and start moving, it involves dynamically shifting weight between two skis rather than standing still on skis](https://nordicskilab.com/courses/learn-diagonal-stride/))**.
+While we stand still, the weight is exactly beneath the feet. However, It's better to give up the feeling of standing still. Once you stand on skis and start moving, it involves [dynamically shifting weight between two skis rather than standing still on skis](https://nordicskilab.com/courses/learn-diagonal-stride/).
 
 Check the video below, in the first 3 minutes it shows: 
 - **Practice transferring your weight** (00:30)
@@ -62,8 +60,10 @@ Now it's time to use poles. **Double stride is the basic poling motion of cross-
 
 The first video:
 -  Double stide (03:10 - 05:45).
--  Diagonal stide (05:45 - 07:00).
-The second video:
+-  Diagonal stide (05:45 - 07:00)
+
+The second video: 
+
 -  Double stide (09:45 - 12:15).
 
 ## Lesson 3: Snowplow and turning
@@ -97,7 +97,8 @@ If you also wanna master how to skate skiing, the video below would be beneficia
 - [X-C ski and telemark technique videos](https://youtube.com/playlist?list=PL1bOaWHI_iMu2ENFQJmZmblpdGVzAGCPi)
 
 **The equipment**
-- [Cross-Country Skiing Equipment Guide | REI Co-op](https://www.rei.com/learn/expert-advice/crosscountry-ski-touring-gear.html)
+
+- [Cross-Country Skiing Equipment Guide REI Co-op](https://www.rei.com/learn/expert-advice/crosscountry-ski-touring-gear.html)
 - [Equipment for first time Cross-Country Skiers (xcskiing.ca)](http://xcskiing.ca/equipment.html)
 - [Waxing Your Skis - a Beginner's Guide (xcskiing.ca)](http://xcskiing.ca/wax-guide.html)
 - [XC Skiing Explained (Part 2): Geometry of Classic Cross-Country Skis - Tahoe Trail Guide](https://tahoetrailguide.com/cross-country-skiing-explained-part-2-geometry-of-classic-cross-country-skis/)
