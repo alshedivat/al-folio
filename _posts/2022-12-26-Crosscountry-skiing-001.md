@@ -5,7 +5,7 @@ author: Zhihao
 description: Learn XC skiing with me
 date: 2022-12-26
 tags: notes # notes\links\code\math\images
-categories: sports # topic
+categories: sports withme norge # topic
 bibliography: C:\Users\ZOZN109\AppData\Local\Pandoc\My_Library.bib
 csl: C:\Users\ZOZN109\AppData\Local\Pandoc\apa.csl
 lang: eng

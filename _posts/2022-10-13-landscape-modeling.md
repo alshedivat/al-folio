@@ -5,7 +5,7 @@ author: Zhihao
 description: large scale of geomorphology
 date: 2022-10-13
 tags: notes # notes\links\code\math\images
-categories: Permafrost Climate # topic
+categories: geomorphology # topic
 bibliography: C:\Users\ZOZN109\AppData\Local\Pandoc\My_Library.bib
 csl: C:\Users\ZOZN109\AppData\Local\Pandoc\apa.csl
 lang: eng
