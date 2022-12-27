@@ -42,13 +42,13 @@ While we stand still, the weight is exactly beneath the feet. However, It's bett
 
 Check the video below, in the first 3 minutes it shows: 
 - **Practice transferring your weight** (00:30)
-- **Kick and glide**. When we put all weight in one ski, the ski depresses, so that we can use the kick zone to generate a gliding forward (01:05 - 03:15)
+- **Kick and glide**. When we put all weight in one ski, the ski depresses, so that we can use the kick zone to generate a gliding forward (01:05 - 03:15). [This is how the skis are designed to work](https://tahoetrailguide.com/cross-country-skiing-explained-part-1-introduction-to-classic-cross-country-skis/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SuKn-acPvVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 I also recommend video below, which contains the following points:
-- The ready stance (04:30)
-- The camber of the skis(05:40)
+- The ready stance (04:30).  You can also jump with skis to feel the normal ready stance.
+- The camber of the skis (05:40). This help you understand the what happens to skis when you kick and glide.
 - How to fall and stand up (06:05)
 - Practice standing on one ski (transferring your weight) (07:20)
 - Step turn (transferring your weight) (08:00)
@@ -68,7 +68,7 @@ The second video:
 
 ## Lesson 3: Snowplow and turning
 
-Snowplowing is a wedge (V shape) to increase the edge contact with snow and gain extra force to uphill or to slow down while downhill.
+Snowplowing is a wedge (V shape) to increase the edge contact with snow and gain extra force to uphill or to slow down while downhill. The key of turning is still transferring your weight from one side to another side. If you do it step by step, that is stepping turn. If you do it constantly, that is C shape turning.
 
 The first video:
 - Snowplow (uphill herringbone) (07:00)
@@ -81,7 +81,7 @@ The second video:
 - Uphill herringbone (25:30 - 27:00).
 - C shape turning  (28:20 - 29:15).
 
-After the first three lessons, you can survive in the Nordmark area. 
+After the first three lessons (around 3 hours practice), you can survive in the Nordmarka area. Falling down while learning is unavoidable in the first month, but every time it increases your sense of balance.
 
 ## Lesson 4: Skating
 
@@ -90,9 +90,27 @@ If you also wanna master how to skate skiing, the video below would be beneficia
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-yr0YtQ_UDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZFPttSGcaSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+That is too easy for you, here are advanced skills:
+- Parallel turning.
+- Telemarking turning.
+- Hockey stop.
+
+
+
 ## My favorite online resources:
 
+**Useful links:**
+
+- [Skiforeningen - the map of ski tracks in Oslo](https://www.skiforeningen.no/)
+
+- [BUA - rent free skis for free in Oslo](https://www.bua.no/)
+
+- [SiO Athletica - Rent skis for entire season in cheap price](https://www.sio.no/en/sports/sio-athletica-offers-ski-rental)
+
+  
+
 **All in one Youtube video list**
+
 - [Cross-Country Skiing Technique & Demonstrations - Jared Manninen](https://www.youtube.com/@JaredManninen)
 - [X-C ski and telemark technique videos](https://youtube.com/playlist?list=PL1bOaWHI_iMu2ENFQJmZmblpdGVzAGCPi)
 
