@@ -34,6 +34,10 @@ Here I suggest starting with **classic skis**, which are **10 to 20 cm longer th
 
 ![](https://i.imgur.com/3lUhiyO.png)
 
+(Image edit from internet)
+
+
+
 The picture above also reminds us how to properly dress. (1) no cotton but fast drying, breathable synthetic clothing (2) be light and flexible, no need to dress like downhill skiers but like a runner.
 
 ## Lesson 1: Gain your balance - From static to dynamic
