@@ -9,6 +9,7 @@ categories: permafrost climate # topic, in small case
 bibliography: C:\Users\ZOZN109\AppData\Local\Pandoc\My _Library.bib
 csl: C:\Users\ZOZN109\AppData\Local\Pandoc\apa.csl
 lang: eng
+publish: yes
 ---
 
 In this permafrost distribution modeling lab, we use the temperature dataset from climate reanalysis (EAR5) to estimate the permafrost global extent present and future empirically. Step1 is a short introduction to definitions and short review of the previous studies. Step 2 describes the equations from air temperature to the top temperature of permafrost in detail, and Step 3 discusses the results and compares it with the literature.
