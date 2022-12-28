@@ -106,3 +106,12 @@ I have to note that I use digital note-taking applications like Obsidian, Anytyp
 Its not always about programming area or anything related to codes, but sometimes some information about a service or my experience about somehting.
 
 
+## and some more
+
+
+[life.alerezaa.ir](http://life.alerezaa.ir) → which I would like to dedicate to my time-to-time novels about me and my life
+
+
+[live.alerezaa.ir](http://live.alerezaa.ir) → track me daily
+
+
