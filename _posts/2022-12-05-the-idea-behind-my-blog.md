@@ -97,7 +97,7 @@ I use Vercel and Github-Pages too but for other web pages ([card.alerezaa.ir](ht
 ## What is blog.alerezaa.ir
 
 
-I've created this blog to share whatever I've learned and share my knowledge. In some cases it can be my knowledge backup service because I share as much as I can. (think of you have bought a new laptop, you have a self written introduction)
+I've created this blog to share whatever I've learned and share my knowledge. In some cases it can be my knowledge backup database because I share as much as I can. (think of you have bought a new laptop, you have a self written introduction)
 
 
 I have to note that I use digital note-taking applications like Obsidian, Anytype, Notion and some others; I named more commonly used ones. (a short introduction about how to [_create automated backup for Obsidian here_](https://blog.alerezaa.ir/posts/backup-obsidian-logseq/))
