@@ -32,7 +32,7 @@ The time I’d seen the approval email, I got happier than any time and I hope t
 
 ![certification](https://lh3.googleusercontent.com/5bDU09x5N0GC02OrC3g4Cio5OL-wBETIew1u9qZpAmCtkvaVYUgdLcYoAWR4XR7Ov_lnMrfEv7EotvLcyFQ48QBWA_2_Xx0vAxXdN9Qu0SqFJScdn3C53TPOKR3Udfa_DgO2INbqdQ=w2400)
 
-[<u>_**link to certification**_</u>](https://coursera.org/verify/BEYRHUN8XPLX)
+[_**link to certification**_](https://coursera.org/verify/BEYRHUN8XPLX)
 
 
 
