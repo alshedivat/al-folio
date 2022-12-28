@@ -62,7 +62,7 @@ Thesedays, there are many different modules written by expertise to-do machine l
 So think about this a little the more, if you would like to get more familiar with machine learning mathematical fundamentals this is one of the greatest courses available but if you like to learn about machine learning and and write code in Python or any other programming languages without great knowledge of mathematical fundamentals you have to go for other courses available
 
 
-Conclusion:
+**Conclusion:**
 Based on recent works on machine learning models mostly based on python, maybe it's better to go for a course to learn machine learning in Python
 
 
