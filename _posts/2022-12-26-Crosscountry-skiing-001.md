@@ -52,7 +52,7 @@ Check the video below, in the first 3 minutes it shows:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SuKn-acPvVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 I also recommend video below, which contains the following points:
-- The ready stance (04:30).  You can also jump with skis to feel the normal ready stance.
+- The ready stance (04:30).  You can also jump with skis to feel the normal ready stance. Normally the hands is always be front of the body.
 - The camber of the skis (05:40). This help you understand the what happens to skis when you kick and glide.
 - How to fall and stand up (06:05)
 - Practice standing on one ski (transferring your weight) (07:20)
