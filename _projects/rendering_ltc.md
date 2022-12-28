@@ -133,14 +133,14 @@ Visually we can notice a difference. It is a good approximation of ray-traced di
 
 Not exactly! What about GI?
 
-<div class="row justify-content-sm-center">
+<!-- <div class="row justify-content-sm-center">
     <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/ltcs/path_label.png" title="Path traced multibounce" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     The result of multibouce evaluation of path traced highly specular objects in Area light setting. 
-</div>
+</div> -->
 
 I built the `Stage 1` and `Stage 2` till now using `Optix 7.5` and I am currently trying figure out ways to incorporate *GI - Global Illumination* in this setting.
 
