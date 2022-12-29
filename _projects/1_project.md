@@ -15,13 +15,13 @@ This project involves the design of a safe and ergonomically comfortable, raised
     </div>
     <div class="col-md mt-3 mt-dm-0">
 Many a times, people find it difficult to reach the top cabinets in a kitchen due to their height and find it to be limiting and even confidence inhibiting, to overcome this, a simple mechanism is required that can be used to extend your reach while also ensuring user safety when raised higher than ground. 
-<br />
 The following are some of the key drivers and constraints for product design:
      <ul>
      <li> Robust Mechanism
      <li> Compact Design: The product is intended to be stored in the toe kick area of the kitchen cabinet while not being used.
      <li> User Safety: Compliant with ASTM F2613 (Standard consumer safety specification for Children’s chairs and stools), ANSI A14.2 (American National Standards for Ladders-Portable Metal-safety requirements) , OSHA 3124-12R-2003 (Stairways and Ladders)  and the American Ladder institute recommendation.
-     </div>
+     </ul>     
+    </div>
 </div>
 <div class="caption">
    stock image, illustrating the project motivation.
