@@ -9,6 +9,8 @@ nav_order: 4
 
 2022
 
+* The Winter of the Witch - Katherine Arden
+* Lyra's Oxford - Philip Pullman
 * She Said: Breaking the Sexual Harassment Story That Helped Ignite A Movement - Jodi Kantor and Megan Twohey
 * The Amber Spyglass - Philip Pullman
 * The Subtle Knife - Philip Pullman
