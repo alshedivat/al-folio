@@ -7,7 +7,7 @@ subtitle: Welcome to my personal homepage.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: julian_legere2.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>555 your office number</p>
