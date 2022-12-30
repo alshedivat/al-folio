@@ -2,7 +2,7 @@
 layout: post
 title: I’ve just finished Machine Learning course
 date: 2022-12-28T18:00:00.000+03:30
-description: Machine Learning Course introduced by Andrew Ng, offered by 
+description: Machine Learning Course introduced by Andrew Ng, offered by <a href="https://www.coursera.org/learn/machine-learning-course/">coursera</a>
 tags:
   - course
   - machine learning
