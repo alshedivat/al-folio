@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Welcome to my personal homepage.
+#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -13,12 +14,12 @@ profile:
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome to my personal homepage.
+
 
 I am a technology enthusiast with special interest in the latest developments in the field of NLP. My research interests include machine learning and AI methods, and applications to topics in (directed) technological change and innovation economics. I obtained my Ph.D. from Justus-Liebig-University Gießen in 2022.
 
