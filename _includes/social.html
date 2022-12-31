@@ -64,14 +64,8 @@
             {%- if site.stackoverflow_id -%}
             <a href="https://stackoverflow.com/users/{{ site.stackoverflow_id }}" title="Stackoverflow"><i class="fab fa-stack-overflow"></i></a>
             {% endif %}
-            {%- if site.kaggle_id -%}
-            <a href="https://www.kaggle.com/{{ site.kaggle_id }}" title="Kaggle"><i class="fab fa-kaggle"></i></a>
-            {% endif %}
             {%- if site.lastfm_id -%}
             <a href="https://www.last.fm/user/{{ site.lastfm_id }}" title="Last FM"><i class="fab fa-lastfm"></i></a>
-            {% endif %}
-            {%- if site.spotify_id -%}
-            <a href="https://open.spotify.com/user/{{ site.spotify_id }}" title="Last FM"><i class="fab fa-spotify"></i></a>
             {% endif %}
             {%- if site.pinterest_id -%}
             <a href="https://www.pinterest.com/{{ site.pinterest_id }}" title="Pinterest"><i class="fab fa-pinterest"></i></a>
@@ -90,4 +84,10 @@
             {% endif %}
             {%- if site.rss_icon -%}
             <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
+            {% endif %}
+            {%- if site.spotify_id -%}
+            <a href="https://open.spotify.com/user/{{ site.spotify_id }}" title="Last FM"><i class="fab fa-spotify"></i></a>
+            {% endif %}
+            {%- if site.kaggle_id -%}
+            <a href="https://www.kaggle.com/{{ site.kaggle_id }}" title="Kaggle"><i class="fab fa-kaggle"></i></a>
             {% endif %}
