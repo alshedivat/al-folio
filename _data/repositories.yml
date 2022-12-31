@@ -1,8 +1,10 @@
 github_users:
+  - rodosingh
   - torvalds
   - alshedivat
 
 github_repos:
+  - rodosingh/rodosingh.github.io
   - alshedivat/al-folio
   - twbs/bootstrap
   - jekyll/jekyll
