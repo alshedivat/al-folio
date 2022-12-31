@@ -19,9 +19,12 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hi there ✋
 
-My name is Alireza Dehghanzadeh (its written this way, you can type `alerezaa` in [Google Translate](https://translate.google.com) to hear the pronounciation)
-
+My name is Alireza Dehghanzadeh (written this way, type `alerezaa` in [Google Translate](https://translate.google.com), click to pronounce)
 BTW...
+I'm a
+- Researcher at [University of Tehran](https://ut.ac.ir/en) in Master Degree. (more in [CV](https://alerezaa.ir/cv/))
+- Bachelor graduated from [University of Tabriz](https://tabrizu.ac.ir/en) in Biosystems Engineering
+- Linux, coding, cyber security and machine learning enthuasiast
 
-I'm a Researcher at [University of Tehran](https://ut.ac.ir/en) in Master Degree. Bachelor completed at [University of Tabriz](https://tabrizu.ac.ir/en) in Biosystems Engineering.
+
 
