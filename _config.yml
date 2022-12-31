@@ -117,7 +117,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: rodo_blogs # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: Expository musings of some of my experiences and learnings. # blog description will be displayed in your blog page
 permalink: /blog/:year/:title/
 
@@ -150,7 +150,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+    rss_url: https://medium.com/@rodosingh/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -198,7 +198,7 @@ keep_files:
   - .nojekyll
   - .git
 
-# Plug-ins
+# Plug-ins (for Jekyll >= 3.5.0, use plugins: else use gems:)
 plugins:
   - jekyll-archives
   - jekyll-diagrams

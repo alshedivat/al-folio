@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <b>Graduate Research Student</b> @ <a href='https://cvit.iiit.ac.in/'>CVIT</a> Lab IIIT Hyderabad  •  <b>Previously:</b> <a href='https://www.isical.ac.in/'>ISI Kolkata</a> / <a href='https://www.iiserkol.ac.in/'>IISER Kolkata</a>
 
