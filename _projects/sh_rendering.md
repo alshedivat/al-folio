@@ -50,7 +50,7 @@ The work is presented in two parts:
     </div>
 </div>
 
-Earlier methods mostly concentrated on the using the high-tessellations `[PRT Sloan et al. 2022]` else it causes artefacts like one show in the results in 2nd left. Use of the UV-mapped space to store the Transfer is more appropriate option. In case of the Glossy surfaces it requires a storage of the a matrix which increases memory requirement. But we used Triple product formulations to allevate the problem and stored a vector instead of matrix as now we can store the vectors in the UV-mapped texture.
+Earlier methods mostly concentrated on the using the high-tessellations `[PRT Sloan et al. 2002]` else it causes artefacts like one show in the results in 2nd left. Use of the UV-mapped space to store the Transfer is more appropriate option. In case of the Glossy surfaces it requires a storage of the a matrix which increases memory requirement. But we used Triple product formulations to allevate the problem and stored a vector instead of matrix as now we can store the vectors in the UV-mapped texture.
 
 We also incorporated the secondary bounce information in the setting:
 
