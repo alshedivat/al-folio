@@ -125,9 +125,14 @@ plugins:
   - jekyll/scholar
   - jekyll-twitter-plugin
   - jemoji
-  # - bootstrap
-  # - material-sass
-
+  - jekyll-archives
+  - jekyll-diagrams
+  - jekyll-feed
+  - jekyll-imagemagick
+  - jekyll-sitemap
+  - jekyll-target-blank
+    # - bootstrap
+    # - material-sass
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
