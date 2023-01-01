@@ -5,5 +5,5 @@ title: cv
 description: Chronological curriculum vitae.
 nav: true
 nav_order: 4
-cv_pdf: example_pdf.pdf
+cv_pdf: CV.pdf
 ---
