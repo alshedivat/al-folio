@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Mtech Student @ <a href='https://www.ee.iitb.ac.in/'>Dept of Electrical Engineering, IIT Bombay.</a>
+subtitle: Mtech @ <a href='https://www.ee.iitb.ac.in/'>Dept of Electrical Engineering, IIT Bombay.</a>
 
 profile:
   align: right
@@ -18,7 +18,9 @@ profile:
 social: true  # includes social icons at the bottom of the page
 ---
 
-Work in progress
+Welcome to my website!
+
+I am currently pursuing Mtech in Communication and Signal Processing from IIT Bombay. My interests include cryptography and blockchains. I also write a [blog](/blog) on these topics.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
