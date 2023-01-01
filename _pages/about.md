@@ -18,9 +18,9 @@ projects: true # includes projects
 display_categories: [work, fun] # Projects show in about page
 ---
 
-After many years sitting with *meteorologists, geomorphologists, hydrologists, glaciologists, sedimentologists, geodesists, geologists, geophysicists*, **I am still none of them** 🤷‍♂️. But It's still a fantastic journey to [explore so many disciplines](https://geo.w.uib.no/files/2020/01/Poster-The-Geological-Society-Geoscience-for-the-future-scaled.jpg), from discovering oil and gas to carbon capture and storage, from glacial mass balance to hydrological model, from [the origin of landforms](https://zhihaol.eu.org/blog/2022/Quaternary-geomorphology-of-Norway/) to [permafrost projection at 2100](https://zhihaol.eu.org/blog/2022/permafrost-extent/). [**Everything connects each other!**](https://i.imgur.com/RLuAtrB.png)
+Throughout my career, I have worked with geologists, geophysicists, geomorphologists, hydrologists, and other specialists to explore the complex connections between different disciplines in geospatial science. Even though I am still none of them 🤷‍♂️. 
 
-This is a spatial professional, sounds like can do everything but end up doing nothing💊. 
+As a full stack geospatial professional with a diverse range of skills and experience in the field, It's a fantastic journey to [explore various disciplines](https://geo.w.uib.no/files/2020/01/Poster-The-Geological-Society-Geoscience-for-the-future-scaled.jpg), from discovering oil and gas to carbon capture and storage, from glacial mass balance to hydrological model, from [the origin of landforms](https://zhihaol.eu.org/blog/2022/Quaternary-geomorphology-of-Norway/) to [permafrost projection at 2100](https://zhihaol.eu.org/blog/2022/permafrost-extent/). [**Everything connects to each other!**](https://i.imgur.com/RLuAtrB.png)
 
 
 
