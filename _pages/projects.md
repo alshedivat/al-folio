@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: projects
 permalink: /projects/
@@ -9,7 +9,7 @@ nav_order: 2
 importance: 1
 display_categories: [fun]
 horizontal: false
----
+--- -->
 
 <!-- pages/projects.md -->
 <div class="projects">

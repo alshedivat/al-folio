@@ -20,9 +20,11 @@ social: true  # includes social icons at the bottom of the page
 
 I am currently working as a Software Engineer at [SAP Labs](https://en.wikipedia.org/wiki/SAP), Bangalore. Previously, I had worked as a data-science intern at [Impact Analytics](https://impactanalytics.co/), Bangalore and as a summer intern at the [Indian Institute of Technology, Guwahati](https://en.wikipedia.org/wiki/IIT_Guwahati) (IITG) under the guidance of [Dr. Pradip K. Das](http://www.iitg.ac.in/pkdas/).
 
-I did my undergraduate (Bachelor of Technology (B.Tech)) from [Kalinga Institute of Industrial Technology](https://en.wikipedia.org/wiki/Kalinga_Institute_of_Industrial_Technology) (KIIT University), Bhubaneswar with a major in Information Technology.
+<!-- I did my undergraduate (Bachelor of Technology (B.Tech)) from [Kalinga Institute of Industrial Technology](https://en.wikipedia.org/wiki/Kalinga_Institute_of_Industrial_Technology) (KIIT University), Bhubaneswar with a major in Information Technology. -->
 
 My **research interest** lies in the intersection of **Machine Learning, Deep Learning, and Natural Language Processing.** A list of my publications can be found [here](https://manandey.github.io/publications/). 
+
+I also love contributing to open-source projects and have been an active contributor to projects such as the [BigScience workshop](https://bigscience.huggingface.co/) and the [BigCode project](https://bigcode-project.org/). A list of my open-source contributions can be found [here](https://github.com/manandey).
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
