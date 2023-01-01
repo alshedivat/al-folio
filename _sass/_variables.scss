@@ -32,9 +32,9 @@ $my-color-light:      lighten($my-color, 100%);
 $my-color-two:          #949494 !default;
 $my-color-two-light:    lighten($my-color-two, 5%);
 
-$grey-color:          #000000 !default;
-$grey-color-light:    lighten($grey-color, 40%);
-$grey-color-dark:     darken($grey-color, 30%);
+$grey-color:          #282828 !default;
+$grey-color-light:    lighten($grey-color, 80%);
+$grey-color-dark:     darken($grey-color, 100%);
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;

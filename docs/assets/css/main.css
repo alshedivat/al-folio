@@ -11,7 +11,7 @@
   --global-theme-color: #002fa7;
   --global-hover-color: white;
   --global-footer-bg-color: black;
-  --global-footer-text-color: #666666;
+  --global-footer-text-color: #f4f4f4;
   --global-footer-link-color: #ffffff;
   --global-icon-color: black;
 }
@@ -142,7 +142,7 @@ a:hover:after, table.table a:hover:after {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid #666666;
+  border-bottom: 1px solid #f4f4f4;
   opacity: 0.95;
   background-color: var(--global-bg-color);
 }
@@ -248,14 +248,14 @@ footer.fixed-bottom a:hover {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid #666666;
+  border-top: 1px solid #f4f4f4;
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
 }
 
 .header-bar {
-  border-bottom: 1px solid #666666;
+  border-bottom: 1px solid #f4f4f4;
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 5rem;
@@ -271,13 +271,13 @@ footer.sticky-bottom {
   padding: 0;
 }
 .post-list li {
-  border-bottom: 1px solid #666666;
+  border-bottom: 1px solid #f4f4f4;
   list-style: none;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 .post-list li .post-meta {
-  color: #000000;
+  color: #282828;
   font-size: 0.875rem;
   margin-bottom: 0;
 }
@@ -339,8 +339,8 @@ footer.sticky-bottom {
   font-size: 1.5rem;
 }
 .publications h2.year {
-  color: #666666;
-  border-top: 1px solid #666666;
+  color: #f4f4f4;
+  border-top: 1px solid #f4f4f4;
   padding-top: 1rem;
   margin-top: 2rem;
   margin-bottom: -2rem;
