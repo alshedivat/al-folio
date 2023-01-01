@@ -2,28 +2,45 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Julian Oliver Dörr
     - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: 6th August 1991
+    - name: Nationality
+      value: German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D.
+      institution: Justus Liebig University Giessen, Gießen, Germany
+      year: 2022
+      description:
+        - ML, NLP, Economics of Innovation, Industrial Dynamics
+        - Thesis title ‘Essays on the Application of Statistical Learning in Empirical Economic Research’
+        - Final grade magna cum laude (equivalent to an A grade)
+    - title: M.Sc.
+      institution: Otto Friedrich University Bamberg, Bamberg, Germany
+      year: 2019
+      description:
+        - Economics, Statistics and Statistical Programming
+        - Thesis title ‘The Nonlinearity of Crises Machine Learning Approaches to Economic Forecasting’
+        - Final grade 1.0 (equivalent to an A grade)
+    - title: B.Sc.
+      institution: Eberhard Karls University Tübingen, Tübingen, Germany
+      year: 2016
+      description:
+        - Economics, Statistics and Finance
+        - Thesis title ‘Tax Incentives for International Profit Shifting within Multinational Groups - An empirical Analysis’
+        - Final grade 1.1 (equivalent to an A grade)
+    - title: Exchange Semester
+      institution: Temple University, Philadelphia, USA
+      year: 2014
       description:
         - Description 1.
         - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: High School Diploma
+      institution: Kaufmännische Schule Hechingen, Hechingen, Germany
+      year: 2011
       description:
         - Description 1.
         - Description 2.
