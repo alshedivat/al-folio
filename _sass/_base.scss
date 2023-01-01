@@ -551,6 +551,7 @@ footer.sticky-bottom {
           border: 1px solid var(--global-text-color);
           padding: 0.25rem 1rem;
           margin: 0.5rem;
+          vertical-align: middle;
           &:hover {
             color: var(--global-hover-color);
             border-color: var(--global-hover-color);
