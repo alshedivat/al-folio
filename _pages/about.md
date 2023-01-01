@@ -29,6 +29,6 @@ I'm a
 I have several website which I dedicate for different writting stuffs:
 - [blog.alerezaa.ir](https://blog.alerezaa.ir/): Write My knowledge aquired by research based on my questions or experiences
 - [live.alerezaa.ir](https://live.alerezaa.ir): Write here sometimes based on emotions and motivations
-- comming soon:
+- coming soon:
   - story.alerezaa.ir: write my life stories
   - timeline.alerezaa.ir: my life timeline (I found a nice template for it)
