@@ -131,8 +131,8 @@ plugins:
   - jekyll-imagemagick
   - jekyll-sitemap
   - jekyll-target-blank
-    # - bootstrap
-    # - material-sass
+  - bootstrap
+  - material-sass
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
