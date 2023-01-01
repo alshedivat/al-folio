@@ -7,7 +7,7 @@ description: <a href="https://www.wiwi.hu-berlin.de/de/forschung/irtg/participat
 profile:
   align: right
   image: profile_face_no_background.png
-  # address: min-bin.lin[at]hu-berlin.de
+  address: <p>&#160;</p>
   # address: >
   #   <p>R 003</p>
   #   <p>Dorotheenstr. 1</p>
@@ -17,7 +17,7 @@ news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-Hi, I'm Min-Bin :wave: I'm currently a PhD researcher under the supervision of [Prof. Wolfgang Karl Härdle](https://www.wiwi.hu-berlin.de/de/forschung/irtg/lvb/members/personalpages/wh){:target="_blank"} at [International Research Training Group (IRTG) 1792 “High Dimensional Nonstationary Time Series”](https://www.wiwi.hu-berlin.de/de/forschung/irtg){:target="_blank"} and [Blockchain Research Center (BRC)](https://blockchain-research-center.com/){:target="_blank"} of the Humboldt-Universität zu Berlin, Germany. I have MSc in Industrial Engineering and Engineering Management (IEEM) from the National Tsing Hua University, Taiwan.
+Hi, I'm Min-Bin :wave: I'm currently a PhD researcher under the supervision of Prof. Wolfgang Karl Härdle at [International Research Training Group (IRTG) 1792 “High Dimensional Nonstationary Time Series”](https://www.wiwi.hu-berlin.de/de/forschung/irtg){:target="_blank"} and [Blockchain Research Center (BRC)](https://blockchain-research-center.com/){:target="_blank"} of the Humboldt-Universität zu Berlin, Germany. I have an MSc in Industrial Engineering and Engineering Management (IEEM) from the National Tsing Hua University, Taiwan.
 My research interests center on blockchain technology and its applications (i.e. cryptos, NFTs) aiming to contribute towards a better understanding towards blockchain technology from dynamical, statistical, and economic perspectives and further solve the problems discovered in the blockchain ecosystem.
 
 **Research interests**: econometrics, time series analysis, blockchain and cryptocurrency, Fintech, digital humanities, digital economy.

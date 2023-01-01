@@ -9,11 +9,11 @@ last_name: Lin
 email: min-bin.lin[at]hu-berlin.de
 description: IRTG 1792, School of Business and Economics, Humboldt University of Berlin, Germany
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Built by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-url: https://linminbin.github.io # should be empty https://linminbin.github.io
+url: # should be empty https://linminbin.github.io
 baseurl: #should be empty /my_website/
 last_updated: true # set to true if you want to display last updated in the footer
 
@@ -54,7 +54,7 @@ keybase_username: # your keybase user name
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: UA-347787550 # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -150,11 +150,11 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:  false
+enable_google_analytics:  true
 enable_mansory:           true
 enable_math:              true
 enable_tooltips:          false
-enable_darkmode:          true
+enable_darkmode:          false
 show_social_icons:        true
 
 # -----------------------------------------------------------------------------

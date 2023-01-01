@@ -23,7 +23,7 @@ $green-color-bright:  #11D68B !default;
 $purple-color:        #B509AC !default;
 $light-purple-color:  lighten($purple-color, 25%);
 $pink-color:          #f92080 !default;
-$pink-color-light:    #ffdddd !default;
+$pink-color-light:    #f2f2f2 !default;
 $yellow-color:        #efcc00 !default;
 
 $my-color:            #002fa7 !default;
@@ -33,7 +33,7 @@ $my-color-two:          #949494 !default;
 $my-color-two-light:    lighten($my-color-two, 5%);
 
 $grey-color:          #282828 !default;
-$grey-color-light:    lighten($grey-color, 80%);
+$grey-color-light:    lighten($grey-color, 20%);
 $grey-color-dark:     darken($grey-color, 100%);
 
 $white-color: #ffffff !default;

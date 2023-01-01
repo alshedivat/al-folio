@@ -32,29 +32,29 @@
         {% for author in entry.author_array %}
           {% if forloop.length == 1 %}
             {% if author.last == site.scholar.last_name or author.last == site.scholar.last_name_star%}
-              <em>{{author.first}} {{author.last}}</em>
+              <em>{{author.last}} {{author.first}}</em>
             {% else %}
-              {{author.first}} {{author.last}}
+              {{author.last}} {{author.first}}
             {% endif %}
           {% else %}
             {% unless forloop.last %}
               {% if author.last == site.scholar.last_name or author.last == site.scholar.last_name_star %}
-                <em>{{author.first}} {{author.last}}</em>,
+                <em>{{author.last}} {{author.first}}</em>,
               {% else %}
                 {% if site.data.coauthors[author.last] %}
                   <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>,
                 {% else %}
-                  {{author.first}} {{author.last}},
+                  {{author.last}} {{author.first}},
                 {% endif %}
               {% endif %}
             {% else %}
               {% if author.last == site.scholar.last_name or author.last == site.scholar.last_name_star%}
-                and <em>{{author.first}} {{author.last}}</em>
+                and <em>{{author.last}} {{author.first}}</em>
               {% else %}
                 {% if site.data.coauthors[author.last] %}
                   and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>
                 {% else %}
-                  and {{author.first}} {{author.last}}
+                  and {{author.last}} {{author.first}}
                 {% endif %}
               {% endif %}
             {% endunless %}
