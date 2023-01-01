@@ -28,9 +28,9 @@ html[data-theme=dark] {
   --global-bg-color: black;
   --global-text-color: #ffffff;
   --global-theme-color: #949494;
-  --global-hover-color: white;
-  --global-footer-bg-color: white;
-  --global-footer-text-color: black;
+  --global-hover-color: #949494;
+  --global-footer-bg-color: #a1a1a1;
+  --global-footer-text-color: #a1a1a1;
   --global-footer-link-color: #000000;
   --global-icon-color: #002fa7;
 }

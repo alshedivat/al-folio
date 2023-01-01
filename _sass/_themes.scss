@@ -26,9 +26,9 @@ html[data-theme='dark'] {
   --global-bg-color: #{$grey-color-dark};
   --global-text-color: #{$white-color};
   --global-theme-color: #{$my-color-two};
-  --global-hover-color: #{$my-color-light};
-  --global-footer-bg-color: #{$my-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
+  --global-hover-color: #{$my-color-two};
+  --global-footer-bg-color: #{$my-color-two-light};
+  --global-footer-text-color: #{$my-color-two-light};
   --global-footer-link-color: #{$black-color};
   --global-icon-color: #002fa7;
 
