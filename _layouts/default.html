@@ -4,19 +4,18 @@
   <!-- Head -->
   <head>
   {%- if page.redirect -%}
-    <meta http-equiv="refresh" content="3; url={{ site.baseurl | prepend: site.url }}/" />
+    <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
   {%- endif -%}
-  {% include head.html %}  
+  {% include head.html %}
   </head>
 
   <!-- Body -->
-  <body class="{%- if site.navbar_fixed -%}fixed-top-nav{%- endif -%} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-    <!-- Header -->
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
-    {% include header.html %}
+    <!-- Header -->
+    {%- include header.html %}
 
     <!-- Content -->
-
     <div class="container mt-5">
       {{ content }}
     </div>
