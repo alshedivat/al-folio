@@ -1,6 +1,6 @@
 ---
 layout: post
-title: landscape modeling - erosion vs tectonic uplift
+title: Landscape modeling - erosion vs tectonic uplift
 author: Zhihao
 description: large scale of geomorphology
 date: 2022-10-13
@@ -66,6 +66,7 @@ $$
 Where k_d is a diffusion parameter, and surface curvature is ∇.
 
 The channeling GTL:
+
 $$
 \frac{\delta_z}{\delta_t} = k_c A^m\triangledown_z^n
 $$
@@ -74,6 +75,7 @@ $$
 Where k_c is streampower parameter, m, n are parameters as well, and A is contribution area.
 
 The uplift GTL:
+
 $$
 \frac{\delta_z}{\delta_t} = u_f
 $$
