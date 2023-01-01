@@ -13,9 +13,9 @@ footer_text: >
 # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-url: https://www.minbinlin.com # should be empty https://linminbin.github.io
+url: https://linminbin.github.io # should be empty https://linminbin.github.io
 baseurl: #should be empty /my_website/
-last_updated: true # set to true if you want to display last updated in the footer
+last_updated: false # set to true if you want to display last updated in the footer
 
 destination: ./docs
 # -----------------------------------------------------------------------------
@@ -24,6 +24,11 @@ destination: ./docs
 
 navbar_fixed: true
 footer_fixed: false
+
+# Dimensions
+max_width: 800px
+
+
 # TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
