@@ -1,14 +1,24 @@
 {% if site.enable_tooltips %}
-  <!-- Enable Tooltips -->
-  <script type="text/javascript">
-  $(function () {$('[data-toggle="tooltip"]').tooltip()})
-  </script>
-{%- endif %}
-{%- if site.enable_medium_zoom %}
-  <!-- Medium Zoom JS -->
-  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@{{ site.medium_zoom.version }}/dist/medium-zoom.min.js" integrity="{{ site.medium_zoom.integrity }}" crossorigin="anonymous"></script>
-  <script defer src="{{ '/assets/js/zoom.js' | relative_url }}"></script>
-{%- endif -%}
+<!-- Enable Tooltips -->
+<script type="text/javascript">
+$(function () {$('[data-toggle="tooltip"]').tooltip()})
+</script>
+{% endif %}
 
-  <!-- Load Common JS -->
-  <script defer src="{{ '/assets/js/common.js' | relative_url }}"></script>
+{% if site.enable_google_analytics %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.google_analytics }}');
+</script>
+{% endif %}
+
+<!-- Load Common JS -->
+<script src="{{ '/assets/js/common.js' | relative_url }}"></script>
+
+<!-- Load DarkMode JS -->
+<script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>

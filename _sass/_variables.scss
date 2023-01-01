@@ -3,6 +3,9 @@
  * To adjust anything, simply edit the variables below and rebuild the theme.
  ******************************************************************************/
 
+// Dimensions
+
+$max-content-width: 865px;
 
 // Colors
 $red-color:           #FF3636 !default;
@@ -23,16 +26,15 @@ $pink-color:          #f92080 !default;
 $pink-color-light:    #ffdddd !default;
 $yellow-color:        #efcc00 !default;
 
-$grey-color:          #828282 !default;
+$my-color:            #002fa7 !default;
+$my-color-light:      lighten($my-color, 100%);
+
+$my-color-two:          #949494 !default;
+$my-color-two-light:    lighten($my-color-two, 5%);
+
+$grey-color:          #000000 !default;
 $grey-color-light:    lighten($grey-color, 40%);
-$grey-color-dark:     #1C1C1D;
-$grey-900:            #212529;
+$grey-color-dark:     darken($grey-color, 30%);
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
-
-
-// Theme colors
-
-$code-bg-color-light:     rgba($purple-color, 0.05);
-$code-bg-color-dark:      #2c3237 !default;
