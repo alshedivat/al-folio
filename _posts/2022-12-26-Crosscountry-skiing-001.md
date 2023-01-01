@@ -131,4 +131,8 @@ Is that too easy for you. Here are advanced skills:
 - [Cross-Country Skiing for Absolute Beginners (xcskiing.ca)](http://xcskiing.ca/beginners.html)
 - [Beginner Lessons – Nordic Ski Lab](https://nordicskilab.com/tracks/)
 - [Best Cross-Country Skiing Youtube Videos - Cross-Country Skiing Planet (crosscountryskiingplanet.com)](https://crosscountryskiingplanet.com/best-cross-country-skiing-youtube-videos/)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Cqo3yu-j890" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7URFFSSw1co" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
