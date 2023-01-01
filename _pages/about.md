@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hi there ✋
 
-My name is Alireza Dehghanzadeh (written this way, type `alerezaa` in [Google Translate](https://translate.google.com), click to pronounce)
+My name is Alireza Dehghanzadeh (click on speaker icon to hear pronounciation at [Google Translate](https://translate.google.com/?sl=en&text=alerezaa))
 
 I'm a
 - Researcher at [University of Tehran](https://ut.ac.ir/en) in Master Degree. (more in [CV](https://alerezaa.ir/cv/))
@@ -27,5 +27,8 @@ I'm a
 - Linux, coding, cyber security and machine learning enthuasiast
 
 I have several website which I dedicate for different writting stuffs:
-- [Live](https://live.alerezaa.ir): Write here sometimes based on emotions and motivations
-- [Blog](https://blog.alerezaa.ir/): Write My knowledge aquired by research based on my questions or experiences
+- [blog.alerezaa.ir](https://blog.alerezaa.ir/): Write My knowledge aquired by research based on my questions or experiences
+- [live.alerezaa.ir](https://live.alerezaa.ir): Write here sometimes based on emotions and motivations
+- comming soon:
+  - story.alerezaa.ir: write my life stories
+  - timeline.alerezaa.ir: my life timeline (I found a nice template for it)
