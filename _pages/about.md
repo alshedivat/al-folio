@@ -25,4 +25,4 @@ I am a technology enthusiast with special interest in the latest developments in
 Throughout my non-academic career, I have had the opportunity to work at some of the most reputable companies in the financial services industry, including Teambank, the German Federal Reserve Bank, and BMW Financial Services. In these roles, I have gained a wealth of experience in risk management, model development and data-driven decision making.
 In my current position at BMW, I have been responsible for developing and implementing statistical models to support decision making in the setting of residual values of used car vehicles. I have also played a key role in the implementation of machine learning algorithms to improve the efficiency and accuracy of our processes.
 
-I am always excited about the opportunity to bring my skills and experience to new projects and thereby contribute to the success of the team and the organization.
+I am always excited about the opportunity to bring my skills and experience to new projects and thereby contribute to the success of the team and the organization. Feel free to reach out to me via mail or message me on Twitter.
