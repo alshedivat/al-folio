@@ -13,7 +13,7 @@ footer_text: >
 # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-url: # should be empty https://linminbin.github.io
+url: https://www.minbinlin.com # should be empty https://linminbin.github.io
 baseurl: #should be empty /my_website/
 last_updated: true # set to true if you want to display last updated in the footer
 
