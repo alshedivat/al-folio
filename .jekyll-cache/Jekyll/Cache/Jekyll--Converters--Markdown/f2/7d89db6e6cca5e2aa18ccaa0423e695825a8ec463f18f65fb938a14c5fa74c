@@ -1,0 +1,145 @@
+I"B<p>This is an example post with image galleries.</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/al-folio/assets/img/9-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/al-folio/assets/img/9-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/al-folio/assets/img/9-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/al-folio/assets/img/9.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/al-folio/assets/img/7-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/al-folio/assets/img/7-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/al-folio/assets/img/7-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/al-folio/assets/img/7.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+</div>
+
+<p>Images can be made zoomable.
+Simply add <code class="language-plaintext highlighter-rouge">data-zoomable</code> to <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code> tags that you want to make zoomable.</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/al-folio/assets/img/8-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/al-folio/assets/img/8-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/al-folio/assets/img/8-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/al-folio/assets/img/8.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/al-folio/assets/img/10-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/al-folio/assets/img/10-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/al-folio/assets/img/10-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/al-folio/assets/img/10.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<p>The rest of the images in this post are all zoomable, arranged into different mini-galleries.</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/al-folio/assets/img/11-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/al-folio/assets/img/11-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/al-folio/assets/img/11-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/al-folio/assets/img/11.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/al-folio/assets/img/12-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/al-folio/assets/img/12-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/al-folio/assets/img/12-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/al-folio/assets/img/12.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/al-folio/assets/img/7-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/al-folio/assets/img/7-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/al-folio/assets/img/7-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/al-folio/assets/img/7.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+:ET
