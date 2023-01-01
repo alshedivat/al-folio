@@ -20,7 +20,7 @@ The work is presented in two parts:
     * [<font size="2">"Transfer Textures for Fast Precomputed Radiance Transfer - EuroGraphics'22 Poster"</font>](https://diglib.eg.org/handle/10.2312/egp20221012) - 
 - <font size="2">Using Implicit Surfaces for Precomputed Radiance Transfer </font> 
     * [<font size="2">"Learnt Transfer for Surface Geometries - HPG'22 Poster</font>](https://www.highperformancegraphics.org/posters22/HPG2022_Poster7_Learnt_Transfer_for_Surface_Geometries.pdf)
-    * [<font size="2">"Real-time Rendering of Arbitrary Surface Geometries using Learnt Transfer"</font>](https://iiitaphyd-my.sharepoint.com/:b:/g/personal/dhawal_sirikonda_research_iiit_ac_in/EUKOrBzrxrxFsOhmYFLArFcBtWBpY2nfx_CziCUC-JHneg?e=MrdxAJ) - [<font size="2">DOI HTML link</font>](https://camps.aptaracorp.com/ACM_PMS/PMS/ACM/ICVGIP22/40/4850c344-6a88-11ed-a76e-16bb50361d1f/OUT/icvgip22-40.html)
+    * [<font size="2">"Real-time Rendering of Arbitrary Surface Geometries using Learnt Transfer"</font>](https://iiitaphyd-my.sharepoint.com/:b:/g/personal/dhawal_sirikonda_research_iiit_ac_in/EUKOrBzrxrxFsOhmYFLArFcBtWBpY2nfx_CziCUC-JHneg?e=MrdxAJ) - [<font size="2">ICVGIP'22 (to appear in ACM-DL) DOI HTML link</font>](https://camps.aptaracorp.com/ACM_PMS/PMS/ACM/ICVGIP22/40/4850c344-6a88-11ed-a76e-16bb50361d1f/OUT/icvgip22-40.html)
 
 <div id="uvtransfer">
 </div>
