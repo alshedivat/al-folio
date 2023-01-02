@@ -2,12 +2,13 @@
 layout: page
 permalink: /codes/
 title: Codes
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: Codes released for IIITH course assignments and projects  •  Open source projects.
+# description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
 nav: true
 nav_order: 3
 ---
 
-## GitHub users
+## GitHub User
 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">

@@ -253,6 +253,15 @@ After you are done, **commit** your final changes.
 
 *Version details for `Ruby` can be found [here](https://www.ruby-lang.org/en/downloads/releases/) and for `rubygems` [here](https://rubygems.org/gems/rubygems-update/versions).*
 
+To install `mermaid.cli` follow the below steps:
+```bash
+# If puppeteer version is not compatible with your node version, then install puppeteer with the following command:
+$ sudo PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install puppeteer
+
+# Next install mermaid.cli:
+$ sudo PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install -g mermaid.cli
+```
+
 ---
 
 #### Deployment

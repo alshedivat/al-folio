@@ -13,11 +13,22 @@ hr {
 }
 
 table {
+  border-spacing: 15px 0px;
   td, th {
     color: var(--global-text-color);
+    font-size: 1rem;
+  }
+  th {
+    white-space: nowrap;
+    font-weight: bold;
+    color: var(--global-text-color-light);
   }
   td {
-    font-size: 1rem;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+  }
+  td:last-child {
+    padding-right: 0;
   }
 }
 
@@ -449,7 +460,7 @@ footer.sticky-bottom {
   }
 
   .grid-sizer, .grid-item {
-    width: 250px;
+    width: 300px;
     margin-bottom: 10px;
   }
 

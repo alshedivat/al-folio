@@ -1,3 +1,13 @@
+# Description: Coauthors of the blog posts
+
+"Shankar":
+  - firstname: ["B. Uma", "B Uma", "B. U.", "B. Uma Shankar"]
+    url: https://www.isical.ac.in/~uma/
+
+# -------------------------------
+# Coauthors Template
+# -------------------------------
+
 "Adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
