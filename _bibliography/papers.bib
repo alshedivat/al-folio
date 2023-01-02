@@ -11,6 +11,7 @@
 @inproceedings{dhawal2022prtsdf,
     author = {Dhawal, Sirikonda and KT, Aakash and Narayanan, P.J.},
     title = {Real-Time Rendering of Arbitrary Surface Geometries using Learnt Transfer},
+    abbr={PRTonAnySurf},
     year = {2022},
     abstract = {Precomputed Radiance Transfer (PRT) is widely used for real-time photorealistic effects. PRT disentangles the rendering equation into transfer and  lighting, enabling their precomputation. Transfer accounts for the cosine-weighted visibility of points in the scene while lighting for emitted radiance from the environment. Prior art stored precomputed transfer in a tabulated manner, either in vertex or texture space. These values are fetched with interpolation at each point for shading. Vertex space methods require densely tessellated mesh vertices for high quality images. Texture space methods require non-overlapping and area-preserving UV mapping to be available. They also require a high-resolution texture to avoid rendering artifacts. In this paper, we propose a compact transfer representation that is learnt directly on scene geometry points. Specifically, we train a small multi-layer perceptron (MLP) to predict the transfer at sampled surface points. Our approach is most beneficial where inherent mesh storage structure and natural UV mapping are not available, such as Implicit Surfaces as it learns the transfer values directly on the surface. We demonstrate real-time, photorealistic renderings of diffuse and glossy materials on SDF geometries with PRT using our approach.},
     author_version = {https://iiitaphyd-my.sharepoint.com/:b:/g/personal/dhawal_sirikonda_research_iiit_ac_in/EUKOrBzrxrxFsOhmYFLArFcBtWBpY2nfx_CziCUC-JHneg?e=MrdxAJ},
@@ -24,6 +25,7 @@
 @misc{dhawal2022prtsdf,
     author = {Dhawal, Sirikonda and KT, Aakash and Narayanan, P.J.},
     title = {Learnt Transfer for Surface Geometries},
+    abbr={PRTonSDF},
     year = {2022},
     selected={true},
     website={https://dhawal1939.github.io/projects/sh_rendering/#learnttransfer},
@@ -32,7 +34,8 @@
 }
 
 @misc{goel2022isrf,
-  doi = {10.48550/ARXIV.2212.13545},  
+  doi = {10.48550/ARXIV.2212.13545},
+  abbr={ISRF},
   author_version = {https://arxiv.org/abs/2212.13545},
   website={https://rahul-goel.github.io/isrf/},
   author = {Goel, Rahul and Sirikonda, Dhawal and Saini, Saurabh and Narayanan, PJ},
@@ -47,6 +50,7 @@
 
 @inproceedings{goel2022styletrf,
     author = {Goel, Rahul and Dhawal, Sirikonda and Saini, Saurabh and Narayanan, P.J.},
+    abbr={StyleTRF},
     title = {StyleTRF: Stylizing Tensorial Radiance Fields},
     year = {2022},
     abstract = {Stylized view generation of scenes captured casually using a camera has received much attention recently. The geometry and appearance of the scene are typically captured as neural point sets or neural radiance fields in the previous work. An image stylization method is used to stylize the captured appearance by training its network jointly or iteratively with the structure capture network. The state-of-the-art SNeRF method trains the NeRF and stylization network in an alternating manner. These methods have high training time and require joint optimization. In this work, we present StyleTRF, a compact, quick-to-optimize strategy for stylized view generation using TensoRF. The appearance part is fine-tuned using sparse stylized priors of a few views rendered using the TensoRF representation for a few iterations. Our method thus effectively decouples style-adaption from view capture and is much faster than the previous methods. We show state-of-the-art results on several scenes used for this purpose.},
@@ -57,6 +61,7 @@
     conference = {ICVGIP 2022 - (To appear in ACM Digital Library)}
 }
 @misc{https://doi.org/10.48550/arxiv.2203.12399,
+  abbr={PRTT},
   doi = {10.48550/ARXIV.2203.12399},
   url = {https://arxiv.org/abs/2203.12399},
   author = {Dhawal, Sirikonda and KT, Aakash and Narayanan, P.J.},
@@ -77,6 +82,7 @@
 @misc{https://doi.org/10.48550/arxiv.2110.07674,
   doi = {10.48550/ARXIV.2110.07674},
   url = {https://arxiv.org/abs/2110.07674},
+  abbr={AppearaceEdit},
   author = {Gera, Pulkit and KT, Aakash and Dhawal, Sirikonda and Sakurikar, Parikshit and Narayanan, P.J.},
   keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
   title = {Appearance Editing with Free-viewpoint Neural Rendering},
