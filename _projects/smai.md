@@ -7,15 +7,15 @@ importance: 4
 category: course
 ---
 
-###### Objective:
+##### Objective:
 
 Given two Quora questions, determine whether they are similar or not using various traditional ML and DL models with an extensive feature engineering.
 
-###### Dataset:
+##### Dataset:
 
 The dataset is taken from the [Quora Question Pairs competition on Kaggle](https://www.kaggle.com/c/quora-question-pairs). The dataset contains 404,290 question pairs with a label that denotes whether the two questions are similar or not. The dataset is split into a training set and a test set. The training set contains 363,861 question pairs, while the test set contains 40,429 question pairs.
 
-###### Approach:
+##### Approach:
 
 The approach is divided into three parts:
 
@@ -34,4 +34,4 @@ The approach is divided into three parts:
     5. GloVe + BiLSTM + Attention
     6. BERT (Best Model)
 
-*More details can be found in the [project report](https://github.com/rodosingh/SMAI-IIITH/blob/main/Projects/Team-25_Abraca-Data/Team-25_SMAI_Final_Report_Abraca-Data.pdf) as well as the [project repo](https://github.com/DhavalTaunk08/smai_project).*
+$$\rightarrow$$ *More details can be found in the [project report](https://github.com/rodosingh/SMAI-IIITH/blob/main/Projects/Team-25_Abraca-Data/Team-25_SMAI_Final_Report_Abraca-Data.pdf) as well as the [project repo](https://github.com/DhavalTaunk08/smai_project).*
