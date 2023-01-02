@@ -12,8 +12,8 @@ nav_order: 8
 A weekly meeting for anyone who wants to learn about and apply Data Science for real-world problem settings in a casual environment!
 
 <div style="background-color:orange; color: black; padding: 1em">
-    <strong>Next meeting</strong>: Monday, 19.12.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210 (please watch for room changes). <strong>Bring your laptops!</strong>
-    Please <a href="https://docs.google.com/spreadsheets/d/1i1aAxqRePweL5u9WSeNviFABVuuRtfjJQK6wxaefHoA/edit?usp=sharing"><b>sign up here</b></a>, so I can plan a little.
+    <strong>Next meeting</strong>: Monday, 02.01.2022, 18:00 Uhr, Konrad-Zuse-Haus, Room 210 (please watch for room changes). <strong>Bring your laptops!</strong>
+    <!-- Please <a href="https://docs.google.com/spreadsheets/d/1i1aAxqRePweL5u9WSeNviFABVuuRtfjJQK6wxaefHoA/edit?usp=sharing"><b>sign up here</b></a>, so I can plan a little. -->
 </div>
 
 <div style="background-color:lightblue; color: black; padding: 1em">
@@ -34,6 +34,7 @@ A weekly meeting for anyone who wants to learn about and apply Data Science for 
 
 ## History
 
+- **Fifth meeting**: Monday, 19.12.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 123. Everybody was happily looking at our Kaggle image dataset 😄
 - **Fifth meeting**: Monday, 12.12.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210. Our Discord is online now and we decided on our first joint [Kaggle](https://www.kaggle.com/) challenge!
 - **Forth meeting**: Monday, 05.12.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210. We are getting a scoreboard! 😄
 - **Third meeting**: Monday, 28.11.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210. We are starting to compete against each other, which is amazing! 🤩
