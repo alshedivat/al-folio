@@ -1,13 +1,10 @@
-FROM jekyll/jekyll
+FROM bitnami/minideb:latest
 Label MAINTAINER Amir Pourmand
-#install imagemagick tool for convert command
-RUN apk add --no-cache --virtual .build-deps \
-        libxml2-dev \
-        shadow \
-        autoconf \
-        g++ \
-        make \
-    && apk add --no-cache imagemagick-dev imagemagick
+RUN apt-get update -y
+RUN apt-get install ruby-full build-essential zlib1g-dev -y
+RUN apt-get install imagemagick -y
+RUN gem install jekyll bundler
+RUN mkdir /srv/jekyll
+ADD Gemfile /srv/jekyll
 WORKDIR /srv/jekyll
-ADD Gemfile /srv/jekyll/
 RUN bundle install
