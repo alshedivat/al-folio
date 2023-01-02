@@ -5,7 +5,7 @@
     <div class="container">
       {% if page.title != "about" %}
       <!-- <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/"> -->
-      <a class="navbar-brand title font-weight-lighter">
+      <a class="navbar-brand title font-weight-lighter"  href="{{ '/' | relative_url }}>
        {% if site.title == blank %}{{ site.title }}{% else %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% endif %}
       </a>
       {% elsif site.show_social_icons %}
