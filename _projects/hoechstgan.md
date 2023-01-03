@@ -50,7 +50,7 @@ If you would like to cite our work, please use:
   booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
   month = {January},
   year = {2023},
-  pages = {4997-5007}
+  pages = {4997--5007}
 }
 ```
 
