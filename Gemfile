@@ -20,6 +20,7 @@ group :jekyll_plugins do
     gem 'jekyll-target-blank'
     gem 'bootstrap'
     gem 'material-sass'
+    gem 'jekyll-redirect-from'
 end
 group :other_plugins do
     gem 'httparty'

@@ -141,6 +141,7 @@ plugins:
   - jekyll-target-blank
   - bootstrap
   - material-sass
+  - jekyll-redirect-from
 
 # Sitemap settings
 defaults:
