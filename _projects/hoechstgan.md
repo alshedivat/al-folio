@@ -49,7 +49,8 @@ If you would like to cite our work, please use:
   author = {W\"{o}lflein, Georg and Um, In Hwa and Harrison, David J and Arandjelovi\'{c}, Ognjen},
   booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
   month = {January},
-  year = {2023}
+  year = {2023},
+  pages = {4997-5007}
 }
 ```
 
