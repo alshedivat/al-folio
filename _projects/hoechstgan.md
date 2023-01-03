@@ -27,7 +27,7 @@ institutions:
   - id: 3
     name: Division of Laboratory Medicine, Lothian NHS University Hospitals, Edinburgh
 links:
-  paper: https://arxiv.org/abs/2210.06909
+  paper: https://openaccess.thecvf.com/content/WACV2023/html/Wolflein_HoechstGAN_Virtual_Lymphocyte_Staining_Using_Generative_Adversarial_Networks_WACV_2023_paper.html
   code: https://github.com/georg-wolflein/hoechstgan
   poster: /assets/pdf/hoechstgan_poster.pdf
   video: https://www.youtube.com/watch?v=ZSGeX33TeEM
