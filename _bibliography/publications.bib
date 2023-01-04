@@ -6,6 +6,7 @@
 @STRING{OSF = {Open Science Foundation}}
 @STRING{WACV = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)}}
 @STRING{WACV_SHORT = {WACV}}
+@STRING{BIOIMAGES = {BioImage Archive}}
 
 @inproceedings{woelflein2023wacv,
   title     = {{HoechstGAN}: Virtual Lymphocyte Staining Using Generative Adversarial Networks},
@@ -27,6 +28,20 @@
   pages     = {4997--5007},
   abstract  = {The presence and density of specific types of immune cells are important to understand a patient's immune response to cancer. However, immunofluorescence staining required to identify T cell subtypes is expensive, timeconsuming, and rarely performed in clinical settings. We present a framework to virtually stain Hoechst images (which are cheap and widespread) with both CD3 and CD8 to identify T cell subtypes in clear cell renal cell carcinoma using generative adversarial networks. Our proposed method jointly learns both staining tasks, incentivising the network to incorporate mutually beneficial information from each task. We devise a novel metric to quantify the virtual staining quality, and use it to evaluate our method.},
   keywords  = {conference,paper}
+}
+
+@misc{wolflein2022bioimages,
+  author       = {W\"{o}lflein, Georg and Um, In Hwa and Harrison, David J and Arandjelovi\'{c}, Ognjen},
+  author+an    = {1=highlight},
+  title        = {{Whole slide images and patches of clear cell renal cell carcinoma counterstained with multiple immunofluorescence for Hoechst, CD3, and CD8}},
+  year         = {2022},
+  month        = {12},
+  organization = BIOIMAGES,
+  url          = {https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD605},
+  website      = {https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD605},
+  keywords     = {dataset},
+  preview      = {hoechstgan.png},
+  abstract     = {We provide a dataset of 10 whole slide images of clear cell renal cell carcinoma tissue sections that were counterstained with Hoechst 33342, Cy3 and Cy5. The fluorescent images were captured using Zeiss Axio Scan Z1. We used three different fluorescent channels (Hoechst 33342, Cy3 and Cy5) simultaneously to capture individual channel images under 20x object magnification with respective exposure times of 10 ms, 20 ms and 30 ms. We also provide clinical data including age at surgery, gender, disease free months, nuclear grade, and Leibovich score. Alongside the WSIs, we provide pre-processed and normalised patches (each 256x256 pixels) from the WSIs in a format that can be readily ingested by deep learning models for their training. For each patch, we provide normalised Hoechst, CD3, and CD8 images, as well as cell masks identified using the StarDist algorithm. Each cell is annotated as CD3, CD8 (a subset of CD3), or neither.}
 }
 
 @article{defilippis2022,
