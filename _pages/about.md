@@ -27,8 +27,8 @@ I'm a
 - Linux, coding, cyber security and machine learning enthuasiast
 
 I have several website which I dedicate for different writting stuffs:
-- [blog.alerezaa.ir](https://blog.alerezaa.ir/): Write My knowledge aquired by research based on my questions or experiences
-- [live.alerezaa.ir](https://live.alerezaa.ir): Write here sometimes based on emotions and motivations
+- [blog.alerezaa.ir](https://blog.alerezaa.ir/): My aquired knowledge by research based on my questions or experiences that I found useful for others
+- [now.alerezaa.ir](https://now.alerezaa.ir): Write daily based on emotions and motivations
+- [story.alerezaa.ir](https://story.alerezaa.ir): saddness, happiness, history, memory
 - coming soon:
-  - story.alerezaa.ir: write my life stories
   - timeline.alerezaa.ir: my life timeline (I found a nice template for it)
