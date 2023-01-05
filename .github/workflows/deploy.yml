@@ -36,19 +36,18 @@ jobs:
     - name: Setup deploy options
       id: setup
       run: |
-        echo "{environment_variable_name}={value}" >> $GITHUB_ENV
         git config --global user.name "GitHub Action"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         if [[ ${GITHUB_REF} = refs/pull/*/merge ]]; then # pull request
-          echo "::SRC_BRANCH=${GITHUB_HEAD_REF}" >> $GITHUB_OUTPUT
-          echo "::NO_PUSH=--no-push" >> $GITHUB_OUTPUT
+          echo "::set-output name=SRC_BRANCH::${GITHUB_HEAD_REF}"
+          echo "::set-output name=NO_PUSH::--no-push"
         elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. master, source etc
-          echo "::SRC_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
+          echo "::set-output name=SRC_BRANCH::${GITHUB_REF#refs/heads/}"
         fi
         if [[ ${{ github.repository }} = *.github.io ]]; then # user/org repo
-          echo "::DEPLOY_BRANCH=master" >> $GITHUB_OUTPUT
+          echo "::set-output name=DEPLOY_BRANCH::master"
         else
-          echo "::DEPLOY_BRANCH=gh-pages" >> $GITHUB_OUTPUT
+          echo "::set-output name=DEPLOY_BRANCH::gh-pages"
         fi
     - name: Deploy website 
       run:  yes | bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
