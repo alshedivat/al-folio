@@ -85,6 +85,8 @@ else
 fi
 
 # Checkout DEPLOY_BRANCH branch
+git checkout -b master origin/master
+
 if [ `git branch | grep $DEPLOY_BRANCH` ]
 then
   git branch -D $DEPLOY_BRANCH
