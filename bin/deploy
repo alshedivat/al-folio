@@ -88,8 +88,10 @@ fi
 if [ `git branch | grep $DEPLOY_BRANCH` ]
 then
   git branch -D $DEPLOY_BRANCH
+else 
+  git checkout -b $DEPLOY_BRANCH
 fi
-git checkout -b $DEPLOY_BRANCH
+
 
 # Build site
 bundle exec jekyll build
