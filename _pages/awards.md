@@ -5,7 +5,7 @@ title: Awards
 nav: true
 ---
 
-Outstanding Service Award in ACM/IEEE Conference on Internet of Things Design and Implementation (IoTDI), 2021
+Outstanding Service Award in ACM/IEEE Conference on Internet of Things Design and Implementation (IoTDI), 2021 
 
 Outstanding Service Award in IEEE International Conference on Mobile Ad hoc and Sensor Systems (MASS), 2019
 
