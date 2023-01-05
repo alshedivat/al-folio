@@ -11,6 +11,15 @@ on:
       - source
 
 jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # for git push
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - run: git push origin HEAD:v1
   deploy:
     runs-on: ubuntu-latest
     steps:
