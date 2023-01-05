@@ -48,7 +48,3 @@ jobs:
         else
           echo "::set-output name=DEPLOY_BRANCH::gh-pages"
         fi
-    - name: Deploy website 
-      run:  no | bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
-                    --src ${{ steps.setup.outputs.SRC_BRANCH }} 
-                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
