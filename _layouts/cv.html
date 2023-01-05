@@ -9,6 +9,12 @@ layout: default
             <p class="post-description">{{ page.description }}</p>
           </header>
 
+        <object data="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" width="1000" height="500" type='application/pdf'/>
+        </object>
+
+
+
+
           <article>
             <div class="cv">
               {% for entry in site.data.cv %}
