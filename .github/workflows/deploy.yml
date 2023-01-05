@@ -36,6 +36,7 @@ jobs:
     - name: Setup deploy options
       id: setup
       run: |
+        echo "{environment_variable_name}={value}" >> $GITHUB_ENV
         git config --global user.name "GitHub Action"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         if [[ ${GITHUB_REF} = refs/pull/*/merge ]]; then # pull request
