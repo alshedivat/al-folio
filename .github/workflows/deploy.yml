@@ -15,14 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Set the value
-      id: step_one
-      run: |
-        echo "action_state=yellow" >> $GITHUB_ENV
-    - name: Use the value
-      id: step_two
-      run: |
-        echo "${{ env.action_state }}" # This will output 'yellow'
     - name: Checkout code
       uses: actions/checkout@v3
     - uses: ruby/setup-ruby@v1
