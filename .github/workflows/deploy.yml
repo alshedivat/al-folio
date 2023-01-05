@@ -4,20 +4,22 @@ on:
   push:
     branches:
       - master
+      - source
   pull_request:
     branches:
       - master
+      - source
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2
     - name: Setup Ruby
-    - uses: actions/setup-ruby@v1
+      uses: actions/setup-ruby@v1
       with:
-        ruby-version: '3.0'
+        ruby-version: '2.7'
     - name: Enable bundler cache
       uses: actions/cache@v2
       with:
@@ -41,10 +43,12 @@ jobs:
         elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. master, source etc
           echo "::set-output name=SRC_BRANCH::${GITHUB_REF#refs/heads/}"
         fi
-        echo "::set-output name=DEPLOY_BRANCH::gh-pages"
+        if [[ ${{ github.repository }} = *.github.io ]]; then # user/org repo
+          echo "::set-output name=DEPLOY_BRANCH::master"
+        else
+          echo "::set-output name=DEPLOY_BRANCH::gh-pages"
+        fi
     - name: Deploy website 
       run:  yes | bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 
-                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }}
-    - name: Setup Ruby, JRuby and TruffleRuby
-      uses: ruby/setup-ruby@v1.133.0      
+                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
