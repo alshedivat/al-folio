@@ -13,14 +13,18 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+    - uses: actions/checkout@v3
     - uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.0' # Not needed with a .ruby-version file
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Setup Ruby
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.7'
     - name: Enable bundler cache
       uses: actions/cache@v2
       with:
@@ -50,6 +54,6 @@ jobs:
           echo "::set-output name=DEPLOY_BRANCH::gh-pages"
         fi
     - name: Deploy website 
-      run:  yes | bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
+      run:  no | bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 
                     --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
