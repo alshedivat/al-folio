@@ -7,6 +7,7 @@ description: Research Scientist at <a href="https://www.trmlabs.com/">TRM Labs</
 profile:
   align: right
   image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
   address: >
     <p>Berlin, Germany</p>
 
