@@ -13,11 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup Ruby
-      uses: actions/setup-ruby@v1
+    - uses: actions/setup-ruby@v1
+    - uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '2.7'
+        ruby-version: '3.0'
+        bundler-cache: true
     - name: Enable bundler cache
       uses: actions/cache@v2
       with:
