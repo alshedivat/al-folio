@@ -16,11 +16,8 @@ jobs:
       uses: actions/checkout@v3
     - name: Setup Ruby
     - uses: actions/setup-ruby@v1
-    - uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.0'
-        bundler-cache: true
-    - run: bundle exec rake
     - name: Enable bundler cache
       uses: actions/cache@v2
       with:
