@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>F011 Model Factory</p>
-    <p>Sumer Campus, Abdullah Gul Uni.</p>
+    <p>F011 Model Factory,</p>
+    <p>Abdullah Gul Uni.</p>
     <p>Kayseri / Turkey</p>
 
 news: true  # includes a list of news items
