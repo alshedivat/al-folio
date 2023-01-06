@@ -552,7 +552,7 @@ For more complex issues/bugs or feature requests, please open an issue using the
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-## License
+## License  
 
 The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/master/LICENSE).
 
