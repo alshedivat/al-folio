@@ -2,24 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD Student, Neubauer Family Economics and Public Policy Program \n (The Fletcher School and the Graduate School of Arts and Sciences at Tufts University)
+
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a first year PhD student in Economics and Public Policy at Tufts University. Broadly, I am interested in how big data can be leveraged to create novel data products and advise policy makers in low and middle income countries. I am eager to explore migration, urbanization, and inequality in developing economies.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before starting grad school, I was a Research Associate at [Development Data Lab](https://www.devdatalab.org/) where I worked with large administrative datasets in India as published on [SHRUG](https://www.devdatalab.org/shrug). I assisted on projects regarding residential segregation, judicial bias, upward mobility, and COVID-19 in India. I am currently coauthoring a paper on the long-run effects of canal irrigation on structural transformation in India. I also worked with a project management team to guide the development of the National Data and Analytics Platform, [NDAP] (https://ndap.niti.gov.in/), a site that harmonizes administrative datasets across time and space to ensure public data is truly publicly accessible.
