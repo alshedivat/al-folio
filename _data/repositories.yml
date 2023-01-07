@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - varunkausika
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - varunkausika/End-to-end-Spotify-genre-detector
+  - varunkausika/Competitive-Analysis-of-Luxury-Car-Market
+  - varunkausika/FIFA-2022-Qatar-Comment-Analysis
+  - varunkausika/Wine-Quality-Prediction
+  - varunkausika/Yelp-collage-rating-predictor
+  - varunkausika/Leetcode-solutions

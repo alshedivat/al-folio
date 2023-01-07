@@ -1,97 +1,48 @@
-- title: General Information
+- title: Background
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Varun Kausika
     - name: Languages
-      value: English, German
+      value: English, Tamil
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Science, Business Analytics [GPA - 3.82/4.0]
+      institution: The University of Texas at Austin
+      year: 2022 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Relevant Coursework - Predictive Modeling, Optimization, Information Management
+    - title: Bachelor of Technology, Chemical Engineering, Minor in Computer Applications [GPA - 8.7/10.0]
+      institution: National Institute of Technology, Tiruchirappalli
+      year: 2018 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Relevant Coursework - Calculus, Statistics, Linear Algebra, Database Management Systems
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Data Science Capstone Intern
+      institution: Dell Technologies
+      year: Jan 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Capacity Planning - Working as a part of the Customer Financial Services team to dynamically optimize levers such as
+          team meeting hours, outages and overtime hours to match 26 week forecasted order volumes against agents and
+          resources required to improve operational efficiency and semiannual staffing.
+    - title: Process Automation Intern
+      institution: FedEx
+      year: June 2021 - Oct 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Web scraping automation - Developed an algorithm to scrape dropdown bars, tables, and text boxes of any given
+          website. Generated a spreadsheet view of data using Selenium and Pandas. Tested on over 50 public domains.
+        - Query generation - Built a web service for data pooling and visualization. The app aggregated first and second party
+          data from disparate sources; utilities to recommend, execute and display results of PL/SQL queries were provided.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Research Intern
+      institution: Indian Institute of Technology, Madras
+      year: Nov 2019 - May 2020
+      description: 
+        - Developed a novel algorithm called piMF to decompose concentration time series data of any chemical reaction into
+          underlying coefficient and extent matrices using an alternating least squares approach (pending publication).
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
