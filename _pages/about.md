@@ -14,11 +14,13 @@ profile:
     <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hey! My name is Varun Kausika. This is just a test to see if the frontend would change or not.
+Hey! My name is Varun Kausika. I'm currently a Master's student at [The University of Texas at Austin](https://www.utexas.edu), majoring in Business Analytics. On a day to day basis at school, I enjoy learning to apply state of the art algorithmic techniques to solve challenging business problems. I recently graduated from [National Institute of Technology, Tiruchirappalli](https://www.nitt.edu) with distinction in Chemical Engineering. Outside of work, I enjoy playing Chess, solving Sudoku puzzles and long distance running.
+
+In no particular order, my favorite 
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
