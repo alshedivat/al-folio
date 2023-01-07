@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitleone: Neubauer Family Economics and Public Policy Program 
-subtitletwo: (The Fletcher School and the Graduate School of Arts and Sciences at Tufts University)
+subtitle: Neubauer Family Economics and Public Policy Program <br> (The Fletcher School and the Graduate School of Arts and Sciences at Tufts University)
 
 profile:
   align: right
