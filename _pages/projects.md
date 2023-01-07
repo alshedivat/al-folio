@@ -5,8 +5,8 @@ permalink: /projects/
 description: A growing collection of my cool projects.
 nav: true
 nav_order: 2
-display_categories: [programming, photoshop]
-horizontal: false
+display_categories: [Code World, University, Photoshop]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
