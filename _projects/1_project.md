@@ -36,11 +36,11 @@ To give your project a background in the portfolio page, just add the img tag to
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/metabolomics.jpg" title="Definition of Metabolomics" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Metabolomics is the studies that study the totality of metaboloites in a bio-system.
 </div>
 
 You can also put regular text between your rows of images.
@@ -61,12 +61,12 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
 </div>
 
 
-The code is simple.
+<!--- The code is simple.
 Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
 To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Here's the code for the last row of images above: -->
 
-{% raw %}
+<!--- {% raw %}
 ```html
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -77,4 +77,4 @@ Here's the code for the last row of images above:
     </div>
 </div>
 ```
-{% endraw %}
+{% endraw %} -->
