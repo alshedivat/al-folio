@@ -25,49 +25,45 @@
 - title: Industry Experience
   type: time_table
   contents:
-    - title: Software Engineer I
-      institution: Avalanche Insights
-      year: 2020-2021
-      description:
-      - Worked on a visualization interface using Visx reducing the time needed for preliminary data exploration by 2x
-      - Integrated an AWS service into the core product (backend and frontend) reducing the time taken to use the service by 4x
-      - Built a quick integration in response to increased business during the final two weeks of the 2020 election to enable our analysts to deliver 2x the work
-      - Helped build an interface that allowed users to process long surveys with thousands of responses
-      - Liaised with external vendors whose services we were considering; held these relationships once we were onboarded
-      - Conducted technical interviews for software engineering candidates
-    - title: Technical Analyst
-      institution: Avalanche Insights
-      year: 2019-2020
-      description:
-      - Designed, implemented, and standardized weighting methodology for sample collection in consultations with the Statistician, the CTO, and a review of survey literature in the political polling space 
-      - Streamlined data ingestion and collection to increase project capacity 4x by writing custom R packages and Python integrations with external vendor APIs
-      - Built a prototype using Shiny to show how a more automated ingestion process might work
-      - Conducted nlp experiments testing various annotation approaches on large volumes of open-ended text data using Spacy
-      - Made direct contributions to the engineering team by building some of these tools that I built and maintained externally directly into the core product
+    - title: Software Engineer I; Technical Analyst
+      institution: Avalanche Insights (tech-enabled public opinion research company)
+      year: 2019-2021
+      description: 
+        - title: Core Product Development
+          contents:
+            - Conceptualized and created an interactive tool to qualitatively code thousands of open-ended responses into quantifiable themes, delivering $10M in public opinion research between 2019-2021
+            - Created an interface that enabled analysts to combine and interact audience responses, decreasing analysis time by 50%
+            - Built a data visualization interface using Visx, enabling analysts to visualize as many as 10K responses in half the time
+            - Integrated AWS Mechanical Turk into the core product, reducing the time taken to use the service by 4x
+        - title: Methodological Testing and Prototyping
+          contents:
+            - Designed, implemented, and standardized the weighting methodology for sample collection, increasing accuracy and precision by 15%
+            - Streamlined data ingestion and collection by writing custom R packages and Python integrations with external vendor APIs, increasing project capacity by 4x
+            - Built a prototype SurveyMonkey integration, enabling analysts to field surveys twice as fast during the last two weeks of the 2020 US Presidential Cycle
+            - Conducted NLP experiments testing annotation approaches on open-ended text data, spanning thousands of responses
 
 - title: Research
   type: time_table
   contents:
     - title: Research Intern
-      institution: Certec @ Lund University
+      institution: Rehabilitation Engineering Lab (Certec) @ Lund University
       year: 2019
       description: 
-      - Worked in the Rehabilitation Engineering Lab at Lund University to develop communication devices for deafblind children
-      - Delivered a prototype at the end of the project to be tested by the National Knowledge Center for the Deafblind (NKCDB) in Sweden
-    - title: Reasearch Assistant 
+      - Developed pulse-vibration communication device for deafblind children to allow them to safely interact with caregivers
+      - Delivered prototype to be tested by the National Knowledge Center for the Deafblind (NKCDB) in Sweden
+    - title: Research Assistant 
       institution: Telecommunication Group @ ITESM 
       year: 2018
       description: 
-      - Did research with Dr. Leyre Azpilicueta on using deterministic 3D ray launching techniques to analyze smart parking wireless communication systems
-      - Reduced time required to analyze communications data by writing a  host of reusable MATLAB  scripts that automatically produced key metrics
-      - Produced 3D models of various campus spaces to feed into the ray launching simulation tool
-    - title: Reasearch Assistant 
+      - Conducted research with Dr. Leyre Azpilicueta on using deterministic 3D ray-launching techniques to analyze smart parking wireless communication systems
+      - Wrote reusable scripts that automatically produced key metrics, reducing time required to analyze communications data by 50%
+      - Produced 3D models of 4 campus spaces to test signal interference patterns, to assess wave propagation methods 
+    - title: Research Assistant 
       institution: Department of Statistics @ UBC
       year: 2017
       description: 
-      - Did research on the pitfalls of using linear regression models to analyze nonlinear phenomena
-      - Analyzed simulated datasets using standard regression techniques in R identifying cases where standard regression techniques were inadequate
-
+      - Conducted research on the pitfalls of using linear regression models to analyze nonlinear phenomena
+      - Analyzed simulated datasets using standard regression techniques to identify cases where standard linear regression was inadequate
 
 # - title: Interests
 #   type: list
