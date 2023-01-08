@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NuthKaab Coreg vs Gradient Descending Coreg
+title: NuthKaab 
 permalink: /2023-01-05-GradientDescendingCoreg
 author: Zhihao
 description: I created the best ever coreg algorithm?
@@ -114,7 +114,7 @@ result_nk_1 = get_dh_dem(dtm_1, sf_subset_dtm1,range=(-3,3),perc_t=99.75,order=1
     CPU times: total: 5min 58s
     Wall time: 5min 58s
 
-![png]({{ site.baseurl }}/assets/img/notebook/2023-01-05-GradientDescendingCoreg/2023-01-05-GradientDescendingCoreg_5_1.png){: .center-image }
+![png](/assets/img/notebook/2023-01-05-GradientDescendingCoreg/2023-01-05-GradientDescendingCoreg_5_1.png){: .center-image }
 
 ```python
 %%time
