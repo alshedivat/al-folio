@@ -38,7 +38,7 @@ Code and raw datasets are placed in <a href="https://github.com/TuoooLiu666/Appl
   - research question: Is there an effect of smoking cessation on weight gain?
 
 
-<!--- <div class="row">
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -95,4 +95,4 @@ Here's the code for the last row of images above:
     </div>
 </div>
 ```
-{% endraw %} -->
+{% endraw %} --->
