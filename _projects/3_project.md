@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Biostatistics
+title: Statistics
 description: A folder of projects on Biostatistics and Statistics
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+img: assets/img/statistics.jpg
+# redirect: https://unsplash.com
 importance: 3
 category: work
 ---
