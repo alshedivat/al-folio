@@ -37,14 +37,14 @@ jobs:
         uses: actions/setup-python@v2.2.2
       - name: Install JekyllNB
         run: pip install jekyllnb
-      - name: Convert Notebooks
-        run: jupyter jekyllnb --site-dir notes --page-dir _posts --image-dir assets/img/notebook _notebooks/*.ipynb
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v1
       - run: bundle exec jekyll build --baseurl ${{ steps.pages.outputs.base_path }} # defaults output to '/_site'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1 # This will automatically upload an artifact from the '/_site' directory
+      - name: Convert Notebooks
+        run: jupyter jekyllnb --site-dir notes --page-dir _posts --image-dir assets/img/notebook _notebooks/*.ipynb
 
   # Deployment job
   deploy:
