@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Urinary Metabolomics
-description: a folder for research projects on Urinary Metabolomics
+description: a folder of research projects on Urinary Metabolomics
 img: assets/img/metabolomics.jpg
 importance: 1
 category: work
