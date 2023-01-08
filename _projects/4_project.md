@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Data Science
-description: Data Science projects
+description: a folder for Data Science projects
 img: assets/img/8.jpg
 importance: 3
 category: Data Science

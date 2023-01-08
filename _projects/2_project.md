@@ -3,36 +3,42 @@ layout: page
 title: Statistics
 description: A folder of projects on Biostatistics and Statistics
 img: assets/img/statistics.png
-importance: 2
+importance: 1
 category: work
 ---
 
-This repository commits to the application of biostatistics knowledge on clinical, randomized trials and observational studies.
+This folder commits to the application of biostatistics knowledge on clinical, randomized trials and observational studies. Study goals include: 
+- write a good statistical analysis plan
+- understand the obstacles when dealing real-world data
+- experience biomedical/research statistical analyses
+- excel various analytical models
 
-- Proj 1:
+Code and raw datasets are placed in <a href="https://github.com/TuoooLiu666/Applied-Biostatistics-Projects">this Github repository</a>
+
+- <a href="https://github.com/TuoooLiu666/Applied-Biostatistics-Projects/tree/main/proj1">Proj 1</a>:
   - analytics: logistic regression model, build & interpretation
   - data source: Framingham longitudinal heart study
   - research question: Does quitting smoking reduce the likelihood of incident cardiovascular disease?
   
-- Proj 2:
+- <a href="https://github.com/TuoooLiu666/Applied-Biostatistics-Projects/tree/main/proj2">Proj 2</a>:
   - analytics: survey data analysis with weights
   - data source: National Health and Nutrition Examination Survey (NHANES) 2017-2018 data
   - research question: Is vaping associated with increased blood lead levels? Is there effect modification by age or gender?
 
-- Proj 3:
+- <a href="https://github.com/TuoooLiu666/Applied-Biostatistics-Projects/tree/main/proj3">Proj 3</a>:
   - analytics: longitudinal data analysis & missing data imputation
   - data source: longitudinal data from study "A Phase 3 placebo-controlled, double-blind, multi-site trial of the alpha-2-adrenergic agonist, lofexidine, for opioid withdrawal"
   - research question: 
     - Is there group difference between the treatment group and placebo group with respect to MHOWS (parallel group response profiles)?
     - Is there any time effect?
   
-- Proj 4:
+- <a href="https://github.com/TuoooLiu666/Applied-Biostatistics-Projects/tree/main/proj4">Proj 4</a>:
   - analytics: propensity score matching and outcome analysis 
   - data source: National Health and Nutrition Examination Survey Data I Epidemiologic Follow Up Study (NHEFS) 1971&1982 follow-up data
   - research question: Is there an effect of smoking cessation on weight gain?
 
 
-<div class="row">
+<!--- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -89,4 +95,4 @@ Here's the code for the last row of images above:
     </div>
 </div>
 ```
-{% endraw %}
+{% endraw %} -->
