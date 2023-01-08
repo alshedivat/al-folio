@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 
 I'm Georg, a PhD student in the [Computer Vision Research Group](https://cvrg.cs.st-andrews.ac.uk){:target="\_blank"} at the [University of St Andrews](https://www.st-andrews.ac.uk){:target="\_blank"}, advised by [Ognjen Arandjelović](http://oa7.host.cs.st-andrews.ac.uk){:target="\_blank"}.
 Prior to this, I studied an integrated master's (MSci) in Computer Science at the same university.
-My research lies at the intersection of computer vision, deep learning, and digital pathology.
+My research lies at the intersection of computer vision, deep learning, and computational pathology.
 
 Feel free to reach out via email!
 
