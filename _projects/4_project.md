@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Data Science
+description: Data Science projects
+img: assets/img/8.jpg
 importance: 3
 category: Data Science
 ---
