@@ -2,7 +2,7 @@
 layout: page
 title: Statistics
 description: A folder of projects on Biostatistics and Statistics
-img: assets/img/statistics.jpg
+img: assets/img/statistics.png
 importance: 2
 category: work
 ---
