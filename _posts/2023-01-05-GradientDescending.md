@@ -11,8 +11,6 @@ lang: eng
 publish: yes
 ---
 
-# DEM and ICESat-2 best-match: NuthKaab Coreg vs Gradient Descending Coreg
-
 DEM coregistration is an important step in improving the quality of a DEM by eliminating horizontal shift and vertical bias. However, it can be time-consuming, particularly for large datasets and global applications such as the SNOWDEPTH project. 
 
 In the past few months, I have found that the implementation of NuthKaab coregistration in xDEM is not fast enough for ICESat-2 datasets. As a result, I have developed a new method called 'Gradient Descending Coregistration,' which works similarly to ICP (Iterative Closest Point) but is significantly faster. I am eager to receive professional input to make this method more robust and useful for others.
