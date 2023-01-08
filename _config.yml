@@ -81,7 +81,7 @@ quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: # work page URL
+work_url: https://live-azs-furlonglab.pantheonsite.io/ # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
@@ -189,6 +189,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - dropdown.md
+  - repositories.md
+  - teaching.md
 keep_files:
   - CNAME
   - .nojekyll
