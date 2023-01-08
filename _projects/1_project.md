@@ -32,7 +32,7 @@ Just as genomics is the study of DNA and genetic information within a cell, and 
         {% include figure.html path="assets/img/omics.png" title="OMICs" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/phenotype-metabolomics.jpg" title="advantages of Metabolomics" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/phenotype_metabolomics.jpg" title="advantages of Metabolomics" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

@@ -9,8 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>3838 E Presidio Rd</p>
-    <p>Tucson, Arizona, 85716</p>
+    <p>Located in Tucson, Arizona</p>
 
 
 news: true  # includes a list of news items
@@ -18,7 +17,14 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Tuo Liu is a Ph.D. student at the University of Arizona. He majors in Environmental Health Sciences, and minors in Biostatistics. His research interests include metabolomics, and the application of Data Science tools in Public Health research. He serves as Research Associate in the Burgess Lab and the Furlong Lab and focuses on the application of metabolomics in firefighters’ occupational health improvement.
+Greetings!
+
+My name is Tuo Liu, feel free to call me LT. I am a Ph.D. student at the University of Arizona. I major in Environmental Health Sciences, and minor in Biostatistics. My research interests include: 
+- metabolomics
+- Exposomics
+- Application of Data Science tools in Public Health research, e.g., ML in biomarker identification 
+
+I serve as Research Associate in the Burgess Lab and the Furlong Lab and focuses on the application of metabolomics in firefighters’ occupational health improvement.
 
 <!--- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
