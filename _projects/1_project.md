@@ -11,13 +11,13 @@ Metabolomics is an emerging field of "omics" research specializing in the near g
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/population.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/population.png" title="study population" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/metabolomics_workflow_lab.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/metabolomics_workflow_lab.png" title="workflow" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/OverviewKurlandetal2013.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/OverviewKurlandetal2013.png" title="Overview of metabolomic data generation and data analysis. (Kurland et al., 2013)" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
