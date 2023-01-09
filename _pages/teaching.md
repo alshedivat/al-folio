@@ -30,14 +30,14 @@ EE 101: Introduction to Programming
   <div class="container">
     <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
+      {% include teaching_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for project in sorted_projects -%}
-      {% include projects.html %}
+      {% include teaching.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
@@ -51,14 +51,14 @@ EE 101: Introduction to Programming
   <div class="container">
     <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
+      {% include teaching_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for project in sorted_projects -%}
-      {% include projects.html %}
+      {% include teaching.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
