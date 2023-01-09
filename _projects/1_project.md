@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Urinary Metabolomics
-description: a folder of research projects on Urinary Metabolomics
+title: Metabolomics
+description: a folder of research projects on Metabolomics
 img: assets/img/metabolomics.jpg
 importance: 1
 category: work
@@ -11,13 +11,13 @@ Metabolomics is an emerging field of "omics" research specializing in the near g
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/population.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/metabolomics_workflow_lab.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/OverviewKurlandetal2013.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
