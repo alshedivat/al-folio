@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching
 description: Some of the courses I teach
 nav: true
-nav_order: 5
+nav_order: 2
 display_categories: [teaching, fun]
 horizontal: false
 ---
