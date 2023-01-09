@@ -217,6 +217,51 @@ $ bundle install
 $ bundle exec jekyll serve
 ```
 
+*Note: If you are in Ubuntu machine (>=20.04) and facing issues with `bundle install` and getting error message as follows:*
+> sass-embedded-1.57.1-x86_64-linux-gnu requires rubygems version >= 3.3.22, which is incompatible with the current version, 3.1.2
+then follow the steps below:
+
+```bash
+$ sudo apt-get install ruby-full
+# Create a folder by name ~/.rbenv and clone the rbenv repository into it.
+$ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+$ echo 'eval "$(~/.rbenv/bin/rbenv init - bash)"' >> ~/.bashrc # visit: https://github.com/rbenv/rbenv for more details
+
+# list the latest stable versions:
+$ rbenv install -l
+
+# list all local versions:
+$ rbenv install -L
+
+# install a Ruby version (e.g. 3.2.0 the latest stable version as of 2021-09-01):
+$ rbenv install 3.2.0
+$ rbenv install 3.0.5 # worked for me on Ubuntu 20.04 LTS(2022) as tainted method is deprecated in Ruby 3.2.0 (https://github.com/jekyll/jekyll/issues/9231)
+
+$ rbenv global 3.2.0   # set the default Ruby version for this machine
+# Good part: With 3.2.0, we can have latest version of rubygems (3.4.1) and bundler (2.4.1) installed by default.
+# or:
+$ rbenv local 3.0.5    # set the Ruby version for this directory (preferred)
+$ gem install bundler:2.4.1  # install bundler (as bundler is not installed by default with ruby 3.0.5)
+
+# With all that set, if you run `bundle install` again, it should work fine.
+# For me the nokogiri gem was failing to install, so I had to install it separately using:
+$ gem install nokogiri -- --use-system-libraries --with-xml2-include=$(brew --prefix libxml2)/include/libxml2 #https://nokogiri.org/tutorials/installing_nokogiri.html
+
+# Also for some gems like 'mini_racer' got stuck during installation, but that got resolved after installing standrd Ubuntu libraries as asked in the error message.
+```
+
+*Version details for `Ruby` can be found [here](https://www.ruby-lang.org/en/downloads/releases/) and for `rubygems` [here](https://rubygems.org/gems/rubygems-update/versions).*
+
+And to install `mermaid.cli` follow the below steps:
+
+```bash
+# If puppeteer version is not compatible with your node version, then install puppeteer with the following command:
+$ sudo PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install puppeteer
+
+# Next install mermaid.cli:
+$ sudo PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install -g mermaid.cli
+```
+
 Now, feel free to customize the theme however you like (don't forget to change the name!).
 After you are done, **commit** your final changes.
 
