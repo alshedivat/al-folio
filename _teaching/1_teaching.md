@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Introduction to Programming
+title: teaching 1
 description: This course covers C++ for beginners.
 img: assets/img/12.jpg
 importance: 1
@@ -16,7 +16,7 @@ To give your project a background in the portfolio page, just add the img tag to
     ---
     layout: page
     title: project
-    description: a project with a background image
+    description: a c++
     img: /assets/img/12.jpg
     ---
 
