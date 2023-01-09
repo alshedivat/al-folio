@@ -38,7 +38,7 @@ jobs:
       - name: Install JekyllNB
         run: pip install jekyllnb
       - name: Convert Notebooks
-        run: jupyter jekyllnb --page-dir _posts --image-dir assets/img/notebook _notebooks/*.ipynb
+        #run: jupyter jekyllnb --page-dir _posts --image-dir assets/img/notebook _notebooks/*.ipynb
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v1
