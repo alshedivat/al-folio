@@ -8,7 +8,7 @@ importance: 2
 category: work
 ---
 
-This repository commits to Data Visualization using lab obtained/open source data. 
+This repository commits to Data Visualization using lab obtained/open source data. To be updated.
 
 
 
