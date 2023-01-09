@@ -17,9 +17,6 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+I am an Assistant Professor at Abdullah Gül University. My research interest is in-vehicle communication, the security of cyber-physical systems, embedded systems, internet of things. I also have a curiosity about precision farming. I teach courses related to embedded systems and programming. 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I completed my postgraduate studies with a scholarship from the Turkish Ministry of Education. I received my Ph.D. in 2022 from Cranfield University where I focus on the security of in-vehicle CAN communication. Before that, I completed my MSc in embedded systems engineering from the University of Leeds with distinction in 2016.
