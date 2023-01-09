@@ -18,7 +18,7 @@ EE 101: Introduction to Programming
 
 
 <!-- pages/projects.md -->
-<div class="projects">
+<div class="teaching">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
