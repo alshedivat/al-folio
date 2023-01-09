@@ -5,6 +5,8 @@ title: Teaching
 description: Some of the courses I teach
 nav: true
 nav_order: 5
+display_categories: [teaching, fun]
+horizontal: false
 ---
 
 ##Fall Semester 2022 (Abdullah Gül University)
@@ -15,8 +17,8 @@ EE 304: Embedded Systems
 
 EE 101: Introduction to Programming
 
-<!-- pages/projects.md -->
-<div class="projects">
+<!-- pages/teaching.md -->
+<div class="courses">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
