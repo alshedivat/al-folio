@@ -14,10 +14,10 @@ DEM coregistration is an important step in improving the quality of a DEM by eli
 
 In the past few months, I have found that the implementation of NuthKaab coregistration in xDEM is not fast enough for ICESat-2 datasets. As a result, I have developed a new method called 'Gradient Descending Coregistration,' which works similarly to ICP (Iterative Closest Point) but is significantly faster. I am eager to receive professional input to make this method more robust and useful for others.
 
-The purpose of this section is 
+The purpose of this section is:
 - to compare the performance of NuthKaab coregistration and 'Gradient Descending Coregistration' on ICESat-2 datasets. 
-- In addition, I will explore the footprint problem: should I treat the point measurements of ICESat-2 as a footprint (zonal statistics) or using point interpolation.
-- Finally, I will consider the possibility of extending 'Gradient Descending Coregistration' to other scenarios beyond ICESat-2 point coregistration.
+- In addition, I will consider the possibility of extending 'Gradient Descending Coregistration' to other scenarios beyond ICESat-2 point coregistration.
+- Finally, I will explore the footprint problem: should I treat the point measurements of ICESat-2 as a footprint (zonal statistics) or using point interpolation.
 
 
 ```python
@@ -291,10 +291,7 @@ best_shift_px(dtm_10_shifted,df,x0=(0,0),footprint=False,bounds=(-3,3),z_name='z
 
 
 
-**From 1 minutes to 1 seconds!  it could be from 14 minutes to 5 seconds as well.**
-
-
-Now lets looks at some real datasets. Co-registering **Arctic DEM and DTM1.**
+The examples indicate that time reducing **from 1 minutes to 1 seconds!**  It could be from 14 minutes to 5 seconds. Now lets looks at some real datasets. Co-registering **Arctic DEM and DTM1**.
 
 ```python
 ## DTM1 
