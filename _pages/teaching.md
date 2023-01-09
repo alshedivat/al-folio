@@ -15,6 +15,3 @@ EE 304: Embedded Systems
 
 
 EE 101: Introduction to Programming
-
-
-[Link to a page]({{ site.baseurl }}{% _courses/1_ee_101_intro_prog.md %})
