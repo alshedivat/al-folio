@@ -24,7 +24,7 @@ My name is Tuo Liu, feel free to call me LT. I am a Ph.D. student at the Univers
 - Exposomics
 - Application of Data Science tools in Public Health research, e.g., ML in biomarker identification 
 
-I serve as Research Associate in the Burgess Lab and the Furlong Lab and focuses on the application of metabolomics in firefighters’ occupational health improvement.
+I serve as Research Associate in the Burgess Lab and the Furlong Lab and focus on the application of metabolomics on firefighters’ occupational health improvement.
 
 <!--- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
