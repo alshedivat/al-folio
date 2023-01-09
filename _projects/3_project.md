@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Data Visualization
-description: a folder for data visualization using Shiny and Streamlit
+description: A folder for data visualization using Shiny and Streamlit
 img: assets/img/3.jpg
 # redirect: https://unsplash.com
 importance: 2

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Metabolomics
-description: a folder of research projects on Metabolomics
+description: A folder of research projects on Metabolomics
 img: assets/img/metabolomics.jpg
 importance: 1
 category: work
