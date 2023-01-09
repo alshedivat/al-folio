@@ -1,7 +1,6 @@
 ---
 layout: post
 title: NuthKaab Coreg vs Gradient Descending Coreg
-permalink: /2023-01-05-gdc
 author: Zhihao
 description: I just created the best ever coreg tool?
 date: 2023-01-02
