@@ -48,7 +48,7 @@ Em filosofia da linguagem, Russell é especialmente conhecido por ter criado uma
 
 $$ \exists{x} / ReiFrança_x \land Careca_x \land (\forall{y} / ReiFrança_y \rightarrow x = y) $$
 
-Perceba que nessa teoria, para que a expressão ò atual rei da França` tenha sentido, não é necessário que nos comprometamos com a existência de tal rei. O mesmo serve para nomes como "Pégaso", "Batman", "elétron", ou mesmo "Bertrand Russell" - nessa teoria, nomes são apenas *formas abreviadas* para descrições maiores de certos indivíduos. Poderíamos substituir "Batman" por uma expressão como a abaixo sem qualquer perda de sentido:
+Perceba que nessa teoria, para que a expressão `o atual rei da França` tenha sentido, não é necessário que nos comprometamos com a existência de tal rei. O mesmo serve para nomes como "Pégaso", "Batman", "elétron", ou mesmo "Bertrand Russell" - nessa teoria, nomes são apenas *formas abreviadas* para descrições maiores de certos indivíduos. Poderíamos substituir "Batman" por uma expressão como a abaixo sem qualquer perda de sentido:
 
 $$ Batman_x \iff Herói_x \land MoraGotham_x \land Órfão_x ... $$ 
 
