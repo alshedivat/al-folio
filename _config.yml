@@ -1,6 +1,7 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
+incremental: true
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Joe
