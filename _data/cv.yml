@@ -26,8 +26,8 @@
     - title: Research Associate
       institution: Development Data Lab
       year: 2019-2022
-      PI: Profs. Sam Asher (Imperial College) and Paul Novosad (Dartmouth College)
       description:
+        - PIs: Profs. Sam Asher (Imperial College) and Paul Novosad (Dartmouth College)
         - Research assistance, data analysis, tool development in python and Stata
         - Worked with the government to design and build an open data platform to host government data under a single, harmonized schema
     - title: Data Scientist
