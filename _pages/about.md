@@ -15,8 +15,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a first year PhD student in Economics and Public Policy at Tufts University. Broadly, I am interested in rural-urban migration and economic mobility in low and middle income countries. 
+I am a first year PhD student in Economics and Public Policy at Tufts University. Broadly, I am interested in rural-urban migration, urbanization, and economic mobility in low and middle income countries. I hope to leverage big data and machine learning methods to generate new insights in these areas.
 
-Before starting grad school, I was a Research Associate at [Development Data Lab](https://www.devdatalab.org/) where I worked with large administrative datasets in India as published on [SHRUG](https://www.devdatalab.org/shrug). While there, I worked with a project management team to guide the development of the National Data and Analytics Platform, [NDAP](https://ndap.niti.gov.in), a site that harmonizes administrative datasets across time and space to ensure public data is truly publicly accessible.
+Before starting grad school, I was a Research Associate at [Development Data Lab](https://www.devdatalab.org/) where I worked with large administrative datasets in India as published on the [SHRUG](https://www.devdatalab.org/shrug) platform. While there, I also worked with a project management team to guide the development of the National Data and Analytics Platform, [NDAP](https://ndap.niti.gov.in), a site that harmonizes administrative datasets across time and space to ensure public data is truly publicly accessible.
 
 

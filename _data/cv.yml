@@ -3,22 +3,39 @@
   contents:
     - name: Full Name
       value: Alison Campion
+    - name:  Program
+      value: Neubauer Family Economics and Public Policy Program <br> The Fletcher School and the Graduate School of Arts & Sciences at Tufts University
     - name: Languages
       value: English (native), French (intermediate)
+
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: PhD in Economics and Public Policy
       institution: Tufts University, Medford, MA
-      year: 2027 (expected)
+      year: Current
       description:
-        - Neubauer Family Economics and Public Policy Program <br> (The Fletcher School and the Graduate School of Arts & Sciences)
-    - title: Bachelors of Arts
+        - 2022 - 2027 (expected)
+    - title: Bachelors of Arts in Geosciences
       institution: Princeton University, Princeton, NJ
       year: 2016
       description:
-        - Geosciences, with departmental honors
+        - departmental honors
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Development Economics
+      items: 
+        - Urbanization in low and middle income countries
+        - Rural-urban migration
+        - Economic mobility
+    - title: Big data
+      items:
+        - Making administrative data accessible to public users
+        - Data management, metadata standards
+        - Machine learning applications
 
 - title: Experience
   type: time_table
@@ -31,7 +48,7 @@
         - Research assistance, data analysis, tool development in python and Stata
         - Worked with the government to design and build an open data platform to host government data under a single, harmonized schema
     - title: Data Scientist
-      institution: <a href="https://kimetrica.com/">Kimetrica</a> (now American Institutes for Research)
+      institution: <a href="https://kimetrica.com/">Kimetrica</a> (now American Institute for Research)
       year: 2016-2019
       description:
         - Modeled food security in East Africa with socioeconomic, geospatial, and environmental data to optimize aid delivery and development policy
@@ -68,21 +85,15 @@
       items: 
         - Environmental Scholar - <a href="https://environment.princeton.edu/education/internships/environmental-scholars-program/">High Meadows Environmental Institute</a> <br> (formerly Newton Family Scholar)
 
-- title: Academic Interests
-  type: nested_list
+- title: Presentations
+  type: time_table
   contents:
-    - title: Development Economics
-      items: 
-        - Urbanization in low and middle income countries
-        - Rural-urban migration
-        - Economic mobility
-    - title: Big data
+    - year: 2021
       items:
-        - Making administrative data accessible to public users
-        - Data management, metadata standards
-        - Machine learning applications
+        - Northeast Universities Development Consortium (NEUDC) Conference
 
 - title: Skills
   type: list
   contents:
     - Python, Stata, R, Matlab, ArcGIS, Javascript, HTML
+        
