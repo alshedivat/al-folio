@@ -78,8 +78,9 @@
         - Economic mobility
     - title: Big data
       items:
-        - Increasing access to public administrative data
-        - Applications of machine learning
+        - Making administrative data accessible to public users
+        - Data management, metadata standards
+        - Machine learning applications
 
 - title: Skills
   type: list
