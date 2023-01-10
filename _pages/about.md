@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Beware_of_Bear.png
   image_circular: false # crops the image to make it circular
   address: >
     <p>Toronto, Ontario Canada</p>
