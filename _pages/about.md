@@ -13,7 +13,6 @@ social: true  # includes social icons at the bottom of the page
 ---
 Ph.D. scholar at IIT (BHU) Varanasi
 \\
-\\
 Hi! I am Nitika Nigam.  I am pursuing Ph.D. in [Computer Science and Engineering](https://www.iitbhu.ac.in/dept/cse) at the [Indian Institute of Technology (BHU), Varansi](https://www.iitbhu.ac.in/). My research areas include computer vision and deep learning. 
 \\
 \\
