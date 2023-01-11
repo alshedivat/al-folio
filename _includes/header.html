@@ -20,7 +20,8 @@
               {{- site.title -}}
             {%- endif -%}
           </a>
-          {%- elsif site.enable_navbar_social -%}
+          {% endif %}
+          {%- if site.enable_navbar_social -%}
           <!-- Social Icons -->
           <div class="navbar-brand social">
             {% include social.html %}
@@ -51,17 +52,21 @@
                   {%- endif -%}
                 </a>
               </li>
-              {% if site.blog_nav_title %}
+              <!-- {% if site.blog_nav_title %} -->
               <!-- Blog -->
-              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+              <!-- <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
                 <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
                   {%- if page.url contains 'blog' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
               </li>
-              {%- endif %}
-
+              {%- endif %} -->
+              <li class="nav-item">
+                <a class="nav-link" href="{{ '/assets/pdf/zhaoyu_wang_resume_ng.pdf' | relative_url }}" target="_blank">
+                  Résumé
+                </a>
+              </li>
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
