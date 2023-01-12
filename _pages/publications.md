@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description:
-article_years: [2022, 2021, 2020, 2019, 2012, 2011]
+article_years: [2023, 2022, 2021, 2020, 2019, 2012, 2011]
 review_years: [2022, 2017, 2016]
 chapter_years: [2022, 2021, 2020, 2019, 2018]
 in_list: 3
