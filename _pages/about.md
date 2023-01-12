@@ -2,26 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Professional Amateur @ Life.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>"Filth is my life!"</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Esta es mi página ahora. Me pueden encontrar en [mastodon](https://mastodon.lol/@paz). 
-
-You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Esta es mi página ahora. Este espacio me servirá para tener una presencia digital más centralizada y que en mi opinión tenga más sentido, a pesar que tal vez a nadie más le parezca así. Mi nombre importa poco, y lo que subiré acá será de todo un poco, desde algún comentario sobre lo que esté leyendo o escuchando, o algún texto más serio sobre cualquier tema que me esté quemando la cabeza. Me pueden encontrar en [mastodon](https://mastodon.lol/@paz). 
