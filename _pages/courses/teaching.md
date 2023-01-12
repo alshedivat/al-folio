@@ -2,8 +2,8 @@
 layout: page
 permalink: /courses/ee304
 title: EE 304 Embedded Systems
-description: Embedded Systems 
-nav: true
+description:
+nav: false
 display_categories: [embedded]
 ---
 
@@ -22,19 +22,19 @@ Description	Topics include Embedded Systems,
 
 ## Schedule 
 
-| Priority apples | Weekly Schedule | Third priority |
-|-------|--------|---------|
-| 1 | Introduction to embedded systems | red delicious |
-| 2  | ARM Architecture | macintosh |
-| 3 | ARM Assembly language –1 | fuji |
-| 4 | ARM Assembly language –2 | fuji |
-| 5 | ARM C programming – 1 | fuji |
-| 6 | ARM C programming – 2 | fuji |
-| 7 | Timers | fuji |
-| 8 | Interrupts and Exceptions | fuji |
-| 9 | GPIO Controllers| fuji |
-| 10 | Analog Interfacing & Measurement Techniques | fuji |
-| 11 | Digital / Analog Conversion | fuji |
-| 12 | Communication Protocols | fuji |
-| 13 | Display interface | fuji |
-| 14 | Review & Future Directions | fuji |
+| Week | Subject|
+|-------|--------|
+| 1 | Introduction to embedded systems |
+| 2  | ARM Architecture | 
+| 3 | ARM Assembly language –1 |
+| 4 | ARM Assembly language –2 | 
+| 5 | ARM C programming – 1 |
+| 6 | ARM C programming – 2 | 
+| 7 | Timers |
+| 8 | Interrupts and Exceptions | 
+| 9 | GPIO Controllers| 
+| 10 | Analog Interfacing & Measurement Techniques | 
+| 11 | Digital / Analog Conversion | 
+| 12 | Communication Protocols |
+| 13 | Display interface | 
+| 14 | Review & Future Directions |
