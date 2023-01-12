@@ -15,15 +15,16 @@ Description	Topics include Embedded Systems,
  , A/D & D/A Conversions, and Communication Protocols.
 
 ## Readings 
-### Mandatory Readings
-### Suggested Readings
+#### Mandatory Readings
+#### Suggested Readings
 
 
 
 ## Schedule 
 
+
 | Week | Subject|
-|-------|--------|
+|:-------|:--------|
 | 1 | Introduction to embedded systems |
 | 2  | ARM Architecture | 
 | 3 | ARM Assembly language –1 |
@@ -38,3 +39,4 @@ Description	Topics include Embedded Systems,
 | 12 | Communication Protocols |
 | 13 | Display interface | 
 | 14 | Review & Future Directions |
+
