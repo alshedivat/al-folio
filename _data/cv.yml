@@ -96,8 +96,9 @@
         - Metabolomics signals for early prostate cancer detection
     - title: Exposomics
       items:
-        - Description 1.
-        - Description 2.
+        - Metabolite-wide Association Study
+        - Data integration with Metabolomics, and other OMICs to reveal evidence for disease prevention
+        
 
 - title: Other Interests
   type: list
