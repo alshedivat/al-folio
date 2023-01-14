@@ -10,7 +10,7 @@ category: data science
 This repository commits to Data Science projects. 
 
 - <a href="https://github.com/TuoooLiu666/expense-tracker">Expense Tracker</a>:
-  - Learn basics and layout of *Streamlit* app
+  - Learnt basics and layout of *Streamlit* app
   - Built a *Python* web application built using Streamlit
   - Connected to and stored customer data in *NoSQL* database from deta
   - Visualized personal expense with an interactive Sankey chart using *Plotly*

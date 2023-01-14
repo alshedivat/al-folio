@@ -11,10 +11,9 @@ category: work
 This repository commits to Data Visualization using lab obtained/open source data. 
 
 - <a href="https://github.com/TuoooLiu666/expense-tracker">Arizona Pesticide Use</a>:
-  - Learn basics and layout of *Streamlit* app
-  - Built a *Python* web application built using Streamlit
-  - Connected to and stored customer data in *NoSQL* database from deta
-  - Visualized personal expense with an interactive Sankey chart using *Plotly*
+  - Learnt basics and layout of *Shiny* app
+  - Built a *R* web application built using *Shiny* and *Flexboard*
+  - Visualized the pesticide usage in the State of Arizona (1992-2016) with an interactive map and line chart using *mapview & Plotly*
 
 
 

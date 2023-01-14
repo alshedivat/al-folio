@@ -1,9 +1,9 @@
 ---
 layout: post
-title: DS project on LinkedIn
+title: Data Sience project on LinkedIn
 date: 2020-05-21 11:12:00-0400
 description: LT's first post
-tags: DS
+tags: DataScience
 categories: 
 ---
 
