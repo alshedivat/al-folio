@@ -47,7 +47,7 @@ Metabolomics is a **powerful** approach because metabolites and their concentrat
     </div>
 </div>
 <div class="caption">
-    Metabolomics is the studies that study the totality of metaboloites in a bio-system.
+    Metabolomics is one type of study that focuses on the totality of metabolites in a bio-system.
 </div>
 
 
