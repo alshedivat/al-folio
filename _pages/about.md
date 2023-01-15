@@ -27,7 +27,7 @@ I'm a
 - Linux, coding, cyber security and machine learning enthuasiast
 
 I have several website which I dedicate for different writting stuffs:
-- [blog.alerezaa.ir](https://blog.alerezaa.ir/): My aquired knowledge by research based on my questions or experiences that I found useful for others
+- [blog.alerezaa.ir](https://blog.alerezaa.ir/): My acquired knowledge by research based on my questions or experiences that I found useful for others
 - [now.alerezaa.ir](https://now.alerezaa.ir): Write daily based on emotions and motivations
 - [story.alerezaa.ir](https://story.alerezaa.ir): saddness, happiness, history, memory
 - coming soon:
