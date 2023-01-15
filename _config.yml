@@ -84,7 +84,12 @@ pagination:
   enabled: true
 
 # Comments
+<<<<<<< HEAD
 disqus_shortname: cverluise # put your disqus shortname
+=======
+disqus_shortname: al-folio # put your disqus shortname
+# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+>>>>>>> 5694d43 (Update _config.yml)
 
 # -----------------------------------------------------------------------------
 # Collections
