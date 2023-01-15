@@ -28,6 +28,6 @@ I'm a
 
 
 I have several website which I dedicated for different writting purposes:
-- [blog.alerezaa.ir](https://blog.alerezaa.ir/): My acquired knowledge by research based on my questions or experiences that I found useful for others
+- [blog.alerezaa.ir](https://blog.alerezaa.ir/): My acquired knowledge by searching based on my questions
 - [now.alerezaa.ir](https://now.alerezaa.ir): Write daily based on emotions and motivations
 - [story.alerezaa.ir](https://story.alerezaa.ir): saddness, happiness, history, memory
