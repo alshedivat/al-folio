@@ -1,25 +1,25 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: card.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+
+news: False  # includes a list of news items
+selected_papers: False # includes a list of papers marked as "selected={true}"
+social: False  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a first year PhD student in the School of Informatics at the University of Edinburgh, supervised by Dr. Chris Xiaoxuan Lu and co-funded by A*Star. My current research interest lies in robust autonomous perception under adverse weather with 4D Automotive radar. Prior to this, I received my B.Eng degree from Sun Yat-sen University(SYSU) in 2018. After that, I received my M.Sc from Université de Bourgogne(M1) and Université Grenoble Alpes(M2) in 2020.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<a href="https://github.com/DJNing"><i class="fab fa-github fa-3x"></i>
+<a href="mailto:jianning.deng@ed.ac.uk"><i class="fas fa-envelope fa-3x"></i>
+<a href="https://orcid.org/0000-0003-2096-4176"><i class="fab fa-orcid fa-3x"></i>
+
+
