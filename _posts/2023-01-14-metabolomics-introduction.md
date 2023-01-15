@@ -39,7 +39,7 @@ Just as genomics is the study of DNA and genetic information within a cell, and 
     Where is metabolomics posited in omics filed?
 </div>
 
-Metabolomics is a **powerful** approach because metabolites and their concentrations, unlike other "omics" measures, directly reflect the underlying biochemical activity and state of cells / tissues/biosystems. Collectively, these small molecules and their interactions within a biological system are known as the metabolome.Metabolome closely relates to and best represents the molecular phenotype. 
+Metabolomics is a **powerful** approach because metabolites and their concentrations, unlike other "omics" measures, directly reflect the underlying biochemical activity and state of cells/tissues/biosystems. Collectively, these small molecules and their interactions within a biological system are known as the metabolome.Metabolome closely relates to and best represents the molecular phenotype. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
