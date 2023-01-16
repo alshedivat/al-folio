@@ -31,7 +31,7 @@
       year: 2010-2014
       description:
         - Background in Engineering, GIS, GNSS and Cartography.
-        - Thesis - WebGIS System for Urban Infrastructures
+        - Thesis - WebGIS System for Urban Infrastructures.
 
 - title: Experience
   type: time_table
@@ -52,7 +52,7 @@
 - title: Part-time and Volunteering
   type: time_table
   contents:
-    - title: Reasearch Assistant
+    - title: Research Assistant
       year: 2021.12 - Present
       description: Scientists benefit from my assistance in coding and field trips.
 
@@ -63,10 +63,17 @@
     - title: IMO 2022 - Volunteer  
       year: 2022.07
       description: For the first time, UiO (or Norway) hosted the 63rd International Mathematical Olympiad where we proudly represent the city of Oslo to welcome young mathematicians as a tour guide.
+      
+    - title: OSI Friluft - Board member, Outdoor Volunteer
+  
+      year: 2022.01 - Present
+  
+      description: Enjoying nature with the closest friends.
   
 - title: Academic Interests
   type: nested_list
   contents:
+  
     - title: Cryosphere x Remote Sensing
       items: 
         - Snow and DEM
@@ -82,6 +89,6 @@
   contents:
   
     - <u>Writing:</u> Combat fake news in climate change and energy transition at Zhihu.com 
-    - <u>Hobbies:</u> Marathon with 1h28 (21K) 3h29 (42K) of PB, Cross-country skiing. OSI Friluft (Board member).
+    - <u>Hobbies:</u> Marathon with 1h28 (21K) 3h29 (42K) of PB, Cross-country skiing.
     - <u>OnePiece:</u> What's the will of D?
 
