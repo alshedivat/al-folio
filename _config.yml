@@ -58,7 +58,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: cverluise # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: CyrilVerluise # your Twitter handle
-linkedin_username: cyril-verluise-80184347 # your LinkedIn user name
+linkedin_username: cyril-verluise-phd-80184347 # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -75,7 +75,7 @@ stackoverflow_id: #your stackoverflow id
 contact_note: >
   💌 Let's get in touch? Drop me a mail! 
 
-google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
+google_analytics: G-N81KTH2671 # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)

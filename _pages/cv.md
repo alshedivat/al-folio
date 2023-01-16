@@ -115,61 +115,74 @@ Want to know more? You are at the right place 👇
 
 <p><br/></p>
 
-#### ✏️ Languages
+#### ✏️ Typescripts
 
-Language &nbsp; &nbsp; &nbsp; &nbsp;|Years' Experience &nbsp; &nbsp; &nbsp; &nbsp;|Proficiency &nbsp; &nbsp; &nbsp; &nbsp;
----|---|---
-Python	| 4			|Advanced
-R		| 2			|Intermediary/Rusty
+| Language &nbsp; &nbsp; &nbsp; &nbsp; | Years' Experience &nbsp; &nbsp; &nbsp; &nbsp; | Proficiency &nbsp; &nbsp; &nbsp; &nbsp; |
+|--------------------------------------|-----------------------------------------------|-----------------------------------------|
+| Python	                              | 5			                                          | Advanced                                |
+| R		                                  | 2			                                          | Intermediary/Rusty                      |
 
 <p><br/></p>
 
-#### 🏷️ Versioning
+#### 🏷️ Git/Dev-Ops
 
-Domain &nbsp; &nbsp; &nbsp; &nbsp;|Tools &nbsp; &nbsp; &nbsp; &nbsp;|Years' Experience &nbsp; &nbsp; &nbsp; &nbsp;|Proficiency &nbsp; &nbsp; &nbsp; &nbsp;
----|---|---|---
-Code	|git		|4	|Intermediary
-		|git-flow	|1	|Intermediary
-Data	|dvc		|1	|Intermediary
+| Domain &nbsp; &nbsp; &nbsp; &nbsp; | Tools &nbsp; &nbsp; &nbsp; &nbsp; | Years' Experience &nbsp; &nbsp; &nbsp; &nbsp; | Proficiency &nbsp; &nbsp; &nbsp; &nbsp; |
+|------------------------------------|-----------------------------------|-----------------------------------------------|-----------------------------------------|
+| Code	                              | git		                             | 5	                                            | Intermediary                            |
+|                                    | git-flow	                         | 2	                                            | Intermediary                            |
+|                                    | GitHub                            | 5                                             | Advanced                                |
+| CI/CD                              | CircleCi                          | 1                                             | Intermediary                            |
+
+<p><br/></p>
+
+#### 🔮 MLOps
+
+| Domain &nbsp; &nbsp; &nbsp; &nbsp; | Tools &nbsp; &nbsp; &nbsp; &nbsp; | Years' Experience &nbsp; &nbsp; &nbsp; &nbsp; | Proficiency &nbsp; &nbsp; &nbsp; &nbsp; |
+|------------------------------------|-----------------------------------|-----------------------------------------------|-----------------------------------------|
+| Data	                              | dvc		                             | 1	                                            | Intermediary                            |
+| Pipeline orchestration	            | kedro                             | 1	                                            | Intermediary                            |
+| Experiment tracking 	              | mlflow                            | 1	                                            | Intermediary                            |
+|                                    | WandB                             | 1	                                            | Intermediary                            |
+|                                    | hydra                             | 2                                             | Intermediary                            |
 
 <p><br/></p>
 
 #### 🐍 Python
 
-Domain &nbsp; &nbsp; &nbsp; &nbsp;|Tools &nbsp; &nbsp; &nbsp; &nbsp;|Years' Experience &nbsp; &nbsp; &nbsp; &nbsp;|Proficiency &nbsp; &nbsp; &nbsp; &nbsp;
----|---|---|---
-Data manipulation	    |pandas		    |4	            |Advanced
-						|vaex			|Discontinuous	|Intermediary
-Scientific Computation  |numpy 		    |4	            |Advanced
-						|scipy			|Discontinuous	|Intermediary
-Plotting				|matplotlib	    |4	            |Intermediary
-						|plotly		    |2	            |Rusty
-Pipeline                |kedro          |>1             |Intermediary						
-Machine Learning		|sklearn		|4	            |Advanced
-Deep Learning			|keras (Tensorflow)|2	        |Intermediary
-Natural Language Processing|SpaCy		|3	            |Advanced
-                        |gensim	        |1	            |Intermediary/Rusty
-Annotation              |Prodigy	    |2	            |Intermediary                        
-Experiment tracking     |hydra          |2              |Intermediary
+| Domain &nbsp; &nbsp; &nbsp; &nbsp; | Tools &nbsp; &nbsp; &nbsp; &nbsp; | Years' Experience &nbsp; &nbsp; &nbsp; &nbsp; | Proficiency &nbsp; &nbsp; &nbsp; &nbsp; |
+|------------------------------------|-----------------------------------|-----------------------------------------------|-----------------------------------------|
+| Data manipulation	                 | pandas		                          | 5                                             | Advanced                                |
+|                                    | pyspark			                        | Discontinuous	                                | Intermediary                            |
+| Scientific Computation             | numpy 		                          | 5	                                            | Advanced                                |
+|                                    | scipy			                          | Discontinuous	                                | Intermediary                            |                                         |
+| Optimisation                       | pulp                              | 1                                             | Intremediary                            |
+| Plotting				                       | matplotlib	                       | 5	                                            | Intermediary                            |
+|                                    | plotly		                          | 2	                                            | Rusty                                   |                                         |
+| Machine Learning		                 | sklearn		                         | 5	                                            | Advanced                                |
+| Deep Learning			                   | keras (Tensorflow)                | 2	                                            | Intermediary                            |
+| Natural Language Processing        | SpaCy		                           | 3	                                            | Advanced                                |
+|                                    | gensim	                           | 1	                                            | Intermediary/Rusty                      |
+| Annotation                         | Prodigy	                          | 2	                                            | Intermediary                            |
+
 
 <p><br/></p>
 
 #### ☁️ Cloud
 
-Cloud Service &nbsp; &nbsp; &nbsp; &nbsp;|Tools &nbsp; &nbsp; &nbsp; &nbsp;|Years' Experience &nbsp; &nbsp; &nbsp; &nbsp;|Proficiency &nbsp; &nbsp; &nbsp; &nbsp;
----|---|---|---
-Amazon Web Services	    |S3			    |3	|Intermediary
-                        |EC2		    |3	|Intermediary
-Google Cloud Platform   |BigQuery		|3	|Advanced
-                        |Google Storage |3	|Intermediary
-						|Compute Engine	|3	|Intermediary
+| Cloud Service &nbsp; &nbsp; &nbsp; &nbsp; | Tools &nbsp; &nbsp; &nbsp; &nbsp; | Years' Experience &nbsp; &nbsp; &nbsp; &nbsp; | Proficiency &nbsp; &nbsp; &nbsp; &nbsp; |
+|-------------------------------------------|-----------------------------------|-----------------------------------------------|-----------------------------------------|
+| Amazon Web Services	                      | S3			                             | 3	                                            | Intermediary                            |
+|                                           | EC2		                             | 3	                                            | Intermediary                            |
+| Google Cloud Platform                     | BigQuery		                        | 3	                                            | Advanced                                |
+|                                           | Google Storage                    | 3	                                            | Intermediary                            |
+|                                           | Compute Engine	                   | 3	                                            | Intermediary                            |
 
 <p><br/></p>
 						
 #### 🤖 Deployment
 
-Domain &nbsp; &nbsp; &nbsp; &nbsp;|Tools &nbsp; &nbsp; &nbsp; &nbsp;|Years' Experience &nbsp; &nbsp; &nbsp; &nbsp;|Proficiency &nbsp; &nbsp; &nbsp; &nbsp;
----|---|---|---
-Command Line Interface	|typer		    |2	            |Intermediary
-API						|fastapi		|2	            |Intermediary
-Container               |Docker         |2              |Intermediary
+| Domain &nbsp; &nbsp; &nbsp; &nbsp; | Tools &nbsp; &nbsp; &nbsp; &nbsp; | Years' Experience &nbsp; &nbsp; &nbsp; &nbsp; | Proficiency &nbsp; &nbsp; &nbsp; &nbsp; |
+|------------------------------------|-----------------------------------|-----------------------------------------------|-----------------------------------------|
+| Command Line Interface	            | typer		                           | 3	                                            | Intermediary                            |
+| API						                          | fastapi		                         | 3	                                            | Intermediary                            |
+| Container                          | Docker                            | 2                                             | Intermediary                            |

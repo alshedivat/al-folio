@@ -7,7 +7,12 @@ importance: 1
 category: live
 ---
 
-[patCit](https://github.com/cverluise/PatCit) aims at connecting patents to the rest of the Innovation system (scientific articles, technological standards, etc) by leveraging non-standard and in-text patent citations that were previously unused. It involves large data pipelines and Natural Language Processing at scale. The project keeps improving and has already found its fair amount of users (and stars) and the resulting dataset counts more than [5,000 downloads](https://zenodo.org/record/4391095).
+[patCit](https://github.com/cverluise/PatCit) aims at connecting patents to the rest 
+of the Innovation system (scientific articles, technological standards, etc) by 
+leveraging non-standard and in-text patent citations that were previously unused. It 
+involves large data pipelines and Natural Language Processing at scale. The project 
+keeps improving and has already found its fair amount of users (and stars) and the 
+resulting dataset counts more than [6,000 downloads](https://zenodo.org/record/4391095).
 
 ---
 

@@ -2,30 +2,46 @@
 layout: about
 title: about
 permalink: /
-description: <a href="https://www.college-de-france.fr/site/en-college/index.htm">Collège de France</a> and <a href="https://www.parisschoolofeconomics.eu/en/">Paris School of Economics</a> (PSE)
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Data scientist at <a href="https://www.quantumblack.com/"target="_blank">QuantumBlack</a>, AI by McKinsey <br>Fellow at <a href="https://www.college-de-france.fr/site/en-college/index.htm" target="_blank">Collège de France</a> (Economics) 
 
 profile:
   align: right
   image: CyrilVerluise_pic.jpg
   address: >
-    <p>3, rue d'ULM</p>
-    <p>75005 Paris</p>
-    <p>France</p>
+    <p>Cyril Verluise</p>
+    <p>cverluise</p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a final-year PhD candidate in Economics. My research programme is all about technology diffusion. I leverage data science and natural language processing to unpack the innovation black box - one commit at a time. I have received financial support from Collège de France, PSE, [EPFL](https://www.epfl.ch/en/) and [Google Cloud](https://cloud.google.com/).
+I am a data scientist at QuantumBlack. I'm there to help build and deploy tech 
+products in the industry. The core of my work is dedicated to climate-tech.  
 
-Prior to starting my PhD, I graduated in Management from [HEC Paris](https://www.hec.edu/en){:target="\_blank"} and Data Science from [ENSAE](https://www.ensae.fr/en/){:target="\_blank"}. During my last year at HEC Paris, I followed the Quantitative Economics and Finance track taught at [Ecole Polytechnique](https://www.polytechnique.edu/en){:target="\_blank"}. HEC Paris is consistently ranked among the world’s leading business schools, École Polytechnique is the leading French engineering school and ENSAE is the leading French school in data science. 
+Before that, I did a PhD in Economics. I leveraged data 
+science and natural language processing to 
+unpack the innovation diffusion black box - one commit at a time. I created 
+3 open source/data projects ([PatCit](projects/patcit), 
+[PatentCity](projects/patentcity) and [TechLandscape](projects/techdiff)) 
+which data have generated 14k+ downloads to date. I am thankful to Collège de France, 
+[Paris School of Economics](https://www.parisschoolofeconomics.eu/en/){:target="\_blank"}, 
+[EPFL](https://www.epfl.ch/en/){:target="\_blank"} and [Google Cloud](https://cloud.google.com/){:target="\_blank"} for their financial support. 
 
-Since the start of my PhD, my free time has been divided between data science consulting and open source contributions. 
+Before and during my PhD, I worked as a data scientist, mainly as a contractor. I 
+worked at [Kayrros](https://www.kayrros.com/){:target="\_blank"}, 
+a French scale-up bringing transparency to the energy sector. I also 
+contributed to [IPwe](https://ipwe.com/){:target="\_blank"}, a start-up on a mission 
+to make the Intellectual Property market more efficient using Blockchain and 
+Artificial Intelligence in partnership with IBM. Finally, I served at 
+[CarbonFact](https://www.carbonfact.com/){:target="\_blank"}, a YC-backed start-up 
+dedicated to automated carbon accounting of fashion items.   
 
-On the consulting side, I worked for [Kayrros](https://www.kayrros.com/){:target="\_blank"}, a fast growing French start-up bringing transparency to the energy sector. I also contributed to [IPwe](https://ipwe.com/){:target="\_blank"}, a start-up on a mission to make the Intellectual Property market more efficient using Blockchain and Artificial Intelligence in partnership with IBM.
+In my early academic life, I graduated in Management from 
+[HEC Paris](https://www.hec.edu/en){:target="\_blank"}, in Data Science from 
+[ENSAE](https://www.ensae.fr/en/){:target="\_blank"} and in Economics from 
+[Ecole Polytechnique](https://www.polytechnique.edu/en){:target="\_blank"}. I also 
+completed B.A.s in Applied Mathematics, Economics and Politics at [Université Paris I 
+Pantheon-Sorbonne](https://www.pantheonsorbonne.fr/){:target="\_blank"}.
 
-On the open source side, [PatCit](https://github.com/cverluise/PatCit){:target="\_blank"} has been and remains my main project. It aims at connecting patents to the rest of the Innovation system (scientific articles, technological standards, etc) by leveraging non-standard and in-text patent citations that were previously unused. It involves large data pipelines and Natural Language Processing at scale. The project keeps improving and has already found its fair amount of users (and stars) and the resulting dataset counts more than [5,000 downloads](https://zenodo.org/record/4391095). 
-
-<p style="font-family:courier">After completing my PhD in October 2021, I want to jump into a data science position in the tech industry. I would love to hear from you and your project, drop me a line!</p> 
+<p style="font-family:courier">Want to have a chat? Feel free to drop me a mail!</p>
