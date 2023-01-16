@@ -43,5 +43,3 @@ In my early academic life, I graduated in Management from
 [Ecole Polytechnique](https://www.polytechnique.edu/en){:target="\_blank"}. I also 
 completed B.A.s in Applied Mathematics, Economics and Politics at [Université Paris I 
 Pantheon-Sorbonne](https://www.pantheonsorbonne.fr/){:target="\_blank"}.
-
-<p style="font-family:courier">Want to have a chat? Feel free to drop me a mail!</p>
