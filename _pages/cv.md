@@ -147,7 +147,7 @@ Want to know more? You are at the right place 👇
 
 <p><br/></p>
 
-#### 🐍 Python
+#### 👨‍🔬 Data Science
 
 | Domain &nbsp; &nbsp; &nbsp; &nbsp; | Tools &nbsp; &nbsp; &nbsp; &nbsp; | Years' Experience &nbsp; &nbsp; &nbsp; &nbsp; | Proficiency &nbsp; &nbsp; &nbsp; &nbsp; |
 |------------------------------------|-----------------------------------|-----------------------------------------------|-----------------------------------------|
