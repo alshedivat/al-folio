@@ -69,17 +69,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: jbial # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
-<<<<<<< HEAD
-<<<<<<< HEAD
-mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
-telegram_username: # your Telegram user name
-=======
 linkedin_username: jblai # your LinkedIn user name
->>>>>>> b7898a4 (first version)
-=======
-linkedin_username: jblai # your LinkedIn user name
->>>>>>> 9e21a81ad167a417f3269705d5a1eb204e0aeae9
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
@@ -130,34 +120,24 @@ permalink: /blog/:year/:title/
 pagination:
   enabled: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
-giscus:
-  repo: alshedivat/al-folio      # <your-github-user-name>/<your-github-repo-name>
-  repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
-  category: Comments             # name of the category under which discussions will be created
-  category_id: DIC_kwDOA5PmLc4CTBt6
-  mapping: title                 # identify discussions by post title
-  strict: 1                      # use strict identification mode
-  reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
-  input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
-  theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
-  emit_metadata: 0
-  lang: en
+# giscus:
+#   repo: alshedivat/al-folio      # <your-github-user-name>/<your-github-repo-name>
+#   repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
+#   category: Comments             # name of the category under which discussions will be created
+#   category_id: DIC_kwDOA5PmLc4CTBt6
+#   mapping: title                 # identify discussions by post title
+#   strict: 1                      # use strict identification mode
+#   reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
+#   input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
+#   theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
+#   emit_metadata: 0
+#   lang: en
 
-# Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
-=======
 # Comments
 disqus_shortname:  # put your disqus shortname
->>>>>>> b7898a4 (first version)
-=======
-# Comments
-disqus_shortname:  # put your disqus shortname
->>>>>>> 9e21a81ad167a417f3269705d5a1eb204e0aeae9
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -265,18 +245,9 @@ display_tags: ['applied-math', 'machine-learning', 'physics'] # this tags will b
 
 scholar:
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  last_name: [Einstein]
-  first_name: [Albert, A.]
-=======
   last_name: Lai
   first_name: [Jeffrey, B.]
->>>>>>> b7898a4 (first version)
-=======
-  last_name: Lai
-  first_name: [Jeffrey, B.]
->>>>>>> 9e21a81ad167a417f3269705d5a1eb204e0aeae9
+
 
   style: apa
   locale: en
