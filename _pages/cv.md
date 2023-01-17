@@ -30,9 +30,9 @@ See [Publications](https://jbacaob.github.io/publications/) page.
 * Silver Medal, 2016 Iranian Geometry Olympiad, Advanced Level.
 * Honourable Mention, 2015 International Mathematical Olympiad, Thailand.
 
-## Technical Skills
+## Programming Skills
 
-* R, Python, Stata, EViews, SQL, Spreadsheets, $$\LaTeX$$, JabRef, Mendeley, Geogebra, Inkscape.
+* R, Python, Stata, EViews, SQL, MATLAB, $$\LaTeX$$.
 
 ## Volunteering
 
