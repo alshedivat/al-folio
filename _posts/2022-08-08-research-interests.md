@@ -4,16 +4,16 @@ title: "Research Interests"
 date: 2022-08-08
 ---
 
-Last Edit: 11/01/2022
+Last Edit: 1/17/2023
 
 ## About
 1. My favorite quote is: "What I cannot create, I do not understand" - Richard Feynman
    
-2. The fundamental problem in artificial intelligence for me is not higher performance metrics or faster computation, but how to make machines more like humans. 
+2. My fundamental research objective is to make machines more like humans. 
    
-3. My research interests in AI and cognitive science are greatly influenced by Professor Geoffrey Hinton and Professor Josh Tenenbaum.
+3. My research interests in AI and cognitive science are greatly influenced by Geoffrey Hinton and Joshua Tenenbaum.
 
 <br />
 
 ## Interested Areas
-Deep Learning, Computer Vision, Natural Language Processing, Multimodal Learning, Continual Learning, Embodied Intelligence, Generative Models, Robotics, Cognitive Science (Cognitive Psychology and Neuroscience)
+Deep Learning, Multimodal Learning, Continual Learning, Embodied Intelligence, Cognitive Science (Cognitive Psychology and Neuroscience)
