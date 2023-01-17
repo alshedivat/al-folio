@@ -1,80 +1,45 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
-importance: 2
-category: work
+title: Quadruped Morphology Design Study
+description: Research Assistant @ Upenn
+img: assets/img/QuadMorph/preview.png
+importance: 1
+category: lab
 ---
+#### __Twisting Spine or Rigid Torso: Exploring Quadrupedal Morphology via Trajectory Optimization__
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+---
+In this project, we developed a pipeline to generate trajectories for several steady-state and transitional behaviors, either in sagittal plane or 3D space, using large-scale nonlinear optimization. By analyzing the data, we investigated the effect of an axially twisting spinal joint for a quadrupedal robot. This work is accepted by ICRA 2023. Please check out the manuscript below
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<a href="{{ assets/pdf/Quadruped_Morphology_Design_Study_ICRA_2023.pdf | prepend: '/assets/pdf/Quadruped_Morphology_Design_Study_ICRA_2023.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The [optimization code](https://github.com/KodlabPenn/dairlib/tree/new-code-zf) is built on [MIT DRAKE](https://drake.mit.edu/).
 
+##### __Some Cool Bevaviors (x0.25)__ 
+__Bounding turn__
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/QuadMorph/bounding_turn3_twisting_ss_p5 00_00_00-00_00_30.gif" title="example image" class="img-fluid rounded z-depth-1" width="600" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+
+__Trot__
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/QuadMorph/trot4 00_00_00-00_00_10.gif" title="example image" class="img-fluid rounded z-depth-1" width="600" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+__Parkour wall jump__
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/QuadMorph/parkour9_p17_s3 00_00_00-00_00_30.gif" title="example image" class="img-fluid rounded z-depth-1" width="600" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+__Parkour bound__
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/QuadMorph/wall_run 00_00_00-00_00_30.gif" title="example image" class="img-fluid rounded z-depth-1" width="600" %}
     </div>
 </div>
-```
-{% endraw %}

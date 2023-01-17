@@ -2,13 +2,17 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A collection of your cool projects.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [lab, course]
 horizontal: false
+header-includes:
+  - \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+output:
+    pdf_document
 ---
-
+##### This page presents research projects that are not publishable, laboratorial projects, and selected course projects.
 <!-- pages/projects.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
