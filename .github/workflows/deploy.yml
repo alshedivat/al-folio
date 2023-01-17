@@ -36,6 +36,7 @@ jobs:
           echo "SRC_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
         fi
         echo "DEPLOY_BRANCH=gh-pages" >> $GITHUB_OUTPUT
+        echo "******* HARRY POTTER ********"
         echo $GITHUB_OUTPUT
     - name: Deploy website 
       run:
