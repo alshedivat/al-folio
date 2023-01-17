@@ -7,9 +7,12 @@ nav: false
 nav_order: 4
 ---
 
-2022
+2023
 
 * Babel, Or the Necessity of Violence: An Arcane History of the Oxford Translators' Revolution - R. F. Kuang
+
+2022
+
 * The Winter of the Witch - Katherine Arden
 * Lyra's Oxford - Philip Pullman
 * She Said: Breaking the Sexual Harassment Story That Helped Ignite A Movement - Jodi Kantor and Megan Twohey
