@@ -32,7 +32,7 @@ See [Publications](https://jbacaob.github.io/publications/) page.
 
 ## Programming Skills
 
-* R, Python, Stata, EViews, SQL, MATLAB, $$\LaTeX$$.
+* R, Python, Stata, EViews, SQL, Git, MATLAB, $$\LaTeX$$.
 
 ## Volunteering
 
