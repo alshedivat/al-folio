@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Tanvi Wamorkar
+    # - name: Date of Birth
+    #   value: 31st July 1991
     - name: Languages
-      value: English, German
+      value: English, Hindi, Marathi
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Northeastern University, Boston
+      year: 2021
       description:
         - Description 1.
         - Description 2.
