@@ -245,7 +245,7 @@ display_tags: ['applied-math', 'machine-learning', 'physics'] # this tags will b
 
 scholar:
 
-  last_name: Lai
+  last_name: [Lai]
   first_name: [Jeffrey, B.]
 
 
@@ -268,6 +268,7 @@ scholar:
   details_link: Details
 
   query: "@*"
+ 
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
