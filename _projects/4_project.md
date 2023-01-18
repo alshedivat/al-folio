@@ -14,5 +14,5 @@ We investigated the problem of personalized text-to-image synthesis in this proj
 Based on a cool work in this domain named DreamBooth, we incorporated a variational autoencoder (VAE) to mitigate a critical limitation---DreamBooth may change some the appearance/features of the input object due to the prompted context, in order to generate images with higher fidelity.
 
 For more details, please check out the project report below
-
+ 
 <a href="{{ assets/pdf/ESE546_report.pdf | prepend: '/assets/pdf/ESE546_report.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
