@@ -204,6 +204,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-link-attributes
   - jekyll-twitter-plugin
+  - jekyll-include-cache
   - jemoji
 
 # Sitemap settings
