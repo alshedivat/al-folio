@@ -12,7 +12,7 @@ header-includes:
 output:
     pdf_document
 ---
-##### This page presents research projects that are not publishable, laboratorial projects, and selected course projects.
+##### This page presents research projects that are not publishable, laboratorial projects, and selected course projects. 
 <!-- pages/projects.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
