@@ -40,6 +40,9 @@ jobs:
     #   run: |
     #     chmod a+x bin/*
     #     git commit -am "add execute permission to bin/deploy"
+    - name: Fix permission
+      run: |
+        git commit -am "add execute permission to bin/deploy"
     - name: Deploy website 
       run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 
