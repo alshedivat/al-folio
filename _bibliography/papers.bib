@@ -120,7 +120,7 @@
   html={https://ieeexplore.ieee.org/document/8451573/},
   pdf={icip2018.pdf},
   poster={icip2018-poster.pdf},
-  selected={true},
+  selected={false},
 }
 
 @inproceedings{Bhatt--Huang--Kim--Ryu--Sen2018ITW,
@@ -178,7 +178,7 @@
   author+an={1=highlight},
   html={https://ieeexplore.ieee.org/document/9517746},
   pdf={isit2021.pdf},
-  selected={true},
+  selected={false},
   abstract={This paper proposes a special variant of Laplacian eigenmaps, whose solution is characterized by the underlying density and the eigenfunctions of the associated Hilbert--Schmidt operator of a similarity kernel function.
 In contrast to existing kernel-based spectral methods such as kernel principal component analysis and Laplacian eigenmaps, the new embedding algorithm only involves estimating density at each query point without any eigendecomposition of a matrix.
 A concrete example of dot-product kernels over hypersphere is provided to illustrate the applicability of the proposed framework.},
@@ -234,7 +234,7 @@ By modifying the context-tree weighting technique of Willems, Shtarkov, and Tjal
   arxiv={2207.12382},
   journal={arXiv:2207.12382},
   code={https://github.com/jongharyu/confidence-sequence-via-gambling},
-  selected={true},
+  selected={false},
   abstract={This paper considers the problem of constructing a confidence sequence for bounded random processes. 
 Building upon the gambling approach pioneered by Hendriks (2018) and Jun and Orabona (2019) and following the recent work of Waudby-Smith and Ramdas (2020) and Orabona and Jun (2021),
 this paper revisits the idea of Cover (1991)'s universal portfolio in constructing confidence sequences and demonstrates new properties, based on a natural \emph{two-horse race} perspective on the gambling approach.
@@ -242,17 +242,18 @@ The main result of this paper is a new algorithm based on a mixture of lower bou
 A higher-order generalization of a lower bound in (Fan et al, 2015), which is invoked in the proposed algorithm, may be of independent interest.},
 }
 
-@article{Bhatt--Ryu--Kim2021,
-  abbr={ArXiv},
+@inproceedings{Bhatt--Ryu--Kim2023,
+  abbr={AISTATS},
   title={On Universal Portfolios with Continuous Side Information},
   author={Bhatt<sup>*</sup>, Alankirta and Ryu<sup>*</sup>, J. Jon and Kim, Young-Han},
-  year={preprint},
+  month=apr,
+  year=2023,
   archivePrefix = {arXiv},
   eprint = {2202.02431},
   primaryClass = {cs.IT},
   author+an={1=equal;2=highlight,equal},
   arxiv={2202.02431},
-  journal={arXiv:2202.02431},
+  booktitle=aistats,
   abstract={A new portfolio selection strategy that adapts to a continuous side-information sequence is presented, with a universal wealth guarantee against a class of state-constant rebalanced portfolios with respect to a state function that maps each side-information symbol to a finite set of states.
 In particular, given that a state function belongs to a collection of functions of finite Natarajan dimension, the proposed strategy is shown to achieve, asymptotically to first order in the exponent, the same wealth as the best state-constant rebalanced portfolio with respect to the best state function, chosen in hindsight from observed market.
 This result can be viewed as an extension of the seminal work of Cover and Ordentlich (1996) that assumes a single state function.},
