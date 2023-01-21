@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Suraj-Bhor
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - Suraj-Bhor/Sentiment-Analysis
+  - Suraj-Bhor/CartPole
+  - Suraj-Bhor/100-Days-of-ML-Code
+  - Suraj-Bhor/DL-Paper-Implementations
+  - Suraj-Bhor/ceph
+  - Suraj-Bhor/Machine-Learning-Algorithms

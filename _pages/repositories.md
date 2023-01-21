@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+title: Projects
+description: I am constantly expanding my portfolio of completed projects, which encompasses a diverse range of topics within the field of computer science, including developing efficient algorithms, creating robust software systems, and investigating new technologies.
 nav: true
 nav_order: 3
 ---
