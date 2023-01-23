@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - karthikaS03
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - karthikaS03/PushAdMiner
+  - karthikaS03/SW_Sec_Project
+  - karthikaS03/PhishInPattern
+  - karthikaS03/ChatterHub
+ 
