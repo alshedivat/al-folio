@@ -34,12 +34,12 @@ A weekly meeting for anyone who wants to learn about and apply Data Science for 
 
 ## History
 
-- **Eighth meeting**: Monday, 16.01.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Trying out servers.
-- **Eighth meeting**: Monday, 09.01.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Lot's of people today, awesome!
-- **Seventh meeting**: Monday, 02.01.2023, 18:00 Uhr, Konrad-Zuse-Haus, Room 116. Happy new year! We are getting back to coding again.
-- **Sixth meeting**: Monday, 19.12.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Everybody was happily looking at our Kaggle image dataset 😄
-- **Fifth meeting**: Monday, 12.12.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210. Our Discord is online now and we decided on our first joint [Kaggle](https://www.kaggle.com/) challenge!
-- **Forth meeting**: Monday, 05.12.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210. We are getting a scoreboard! 😄
-- **Third meeting**: Monday, 28.11.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210. We are starting to compete against each other, which is amazing! 🤩
-- **Second meeting**: Monday, 21.11.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210. Today pretty much everyone submitted their first challenge! And we found a place to get cheaper Pizza 😁
-- **First meeting**: Monday, 14.11.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210. It was a wonderful first meeting with more than 40 people attending!
+- **9th meeting**: Monday, 16.01.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Trying out servers.
+- **8th meeting**: Monday, 09.01.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Lot's of people today, awesome!
+- **7th meeting**: Monday, 02.01.2023, 18:00 Uhr, Konrad-Zuse-Haus, Room 116. Happy new year! We are getting back to coding again.
+- **6th meeting**: Monday, 19.12.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Everybody was happily looking at our Kaggle image dataset 😄
+- **5th meeting**: Monday, 12.12.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210. Our Discord is online now and we decided on our first joint [Kaggle](https://www.kaggle.com/) challenge!
+- **4th meeting**: Monday, 05.12.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210. We are getting a scoreboard! 😄
+- **3rd meeting**: Monday, 28.11.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210. We are starting to compete against each other, which is amazing! 🤩
+- **2nd meeting**: Monday, 21.11.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210. Today pretty much everyone submitted their first challenge! And we found a place to get cheaper Pizza 😁
+- **1st meeting**: Monday, 14.11.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210. It was a wonderful first meeting with more than 40 people attending!
