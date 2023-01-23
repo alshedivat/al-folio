@@ -39,7 +39,20 @@ Vector B has the temperature values at all grid locations from the previous time
 
 The Linear system of equations obtained from BTCS formulation is solved using an optimized Tridiagonal Matrix Solver based on the Thomas Algorithm (TDMA).
 
+## Example Material Configurations
 
+|                 |        Thickness [m]        |         |         |         |
+|-----------------|:---------------------------:|:-------:|:-------:|:-------:|
+| Material        |                     Layup 1 | Layup 2 | Layup 3 | Layup 4 |
+| Felt Insulation |                        0.02 |    0.03 |    0.02 |   0.005 |
+| Carbon Fiber    |                       0.005 |   0.003 |    0.01 |  0.0001 |
+| Epoxy           |                       0.001 |   0.001 |   0.001 |   0.001 |
+| Carbon Fiber    |                       0.008 |   0.012 |   0.012 |  0.0001 |
+| Epoxy           |                       0.001 |   0.001 |   0.001 |   0.001 |
+| Aluminum        |                           2 |     2.3 |     1.7 |     2.8 |
+| Steel           |                       1.965 |   1.653 |   2.256 |  1.1928 |
+|                 | Boundary Conditions [W/cm2] |         |         |         |
+|                 |                           2 |       4 |     3.2 |       5 |
   
 ## Dependencies
 
