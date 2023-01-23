@@ -6,10 +6,7 @@ img: assets/img/p2_1.png
 importance: 1
 category: Computational
 ---
-# Project Orion
 This C++ code is written by Team Nebula for Project 3 of MEEN 689 Computing Concepts course.
-
-This code simulates the 1D heat conduction in a spherical body with multiple layers of different material compositions of varying thicknesses in the radial direction.
 
 This code is based on the Implicit Backward in Time- Central in Space (BTCS) discretization scheme of the 1D heat equation.
 
@@ -85,7 +82,7 @@ You could enter the following values: 1, 2, 3, 4, 5
 
 *"you can choose the location to display $\frac{q}{k}$ in main.cpp"
 
-**"You can choose time step to display $T^{n+1}$ $T^{n}$ in Push_T() function in solver.cpp"
+ ** "You can choose time step to display $T^{n+1}$ $T^{n}$ in Push_T() function in solver.cpp"
 
 
 Then you would be prompted to input the desired grid size
@@ -165,16 +162,9 @@ To change the material properties, MatCon.csv is used where only the values must
 - Only predefined Boundary conditions
 - Only predifined geometric compositions
 - For the felt addition prompt "yes", "Y","y" allow to add felt to the domain.
-## Physical
+### Physical
 - The variation in material properties K(x), $\rho(x)$ and $C_{p}(x)$ is not considered in formulating the governing equations.
 - For felt, we assume that it fails anyway, we do not consider it's crystalization when checking for glass temperature of other interior materials. 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
