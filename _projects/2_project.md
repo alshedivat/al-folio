@@ -21,7 +21,7 @@ $$ q=-k\frac{\partial T}{\partial x}$$
 Discretizing the boundaries using ghost points, we get the following linear system.
 $$ A*T^{n+1} = T^{n} + B$$
 
-Matrix A has $1+2*\lambda$ on the main diagonal, then -$\lambda$ on the super and sub diagonals (except the first and last rows). For the first and last rows - which correspond to the boundary conditions - the first row has $-2*\lambda$ on the super diagonal, while the last row has $-2*\lambda$ on the sub-diagonal.
+Matrix A has $$1+2*\lambda$$ on the main diagonal, then -$\lambda$ on the super and sub diagonals (except the first and last rows). For the first and last rows - which correspond to the boundary conditions - the first row has $-2*\lambda$ on the super diagonal, while the last row has $-2*\lambda$ on the sub-diagonal.
 
 Vector B has the temperature values at all grid locations from the previous timestep. Again, the first and last element are modified to incorporate the Neumann boundary condition. 
 
