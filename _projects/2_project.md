@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Project Orion
+description: This is a software package written in C++ to simulate the 1D heat conduction in a spherical body with multiple layers of different material compositions of varying thicknesses in the radial direction.
+img: assets/img/p_2.png
 importance: 2
-category: work
+category: Computational
 ---
 
 Every project has a beautiful feature showcase page.
