@@ -12,7 +12,7 @@ To generate this package a specific code development paradigm was used that incl
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/p2_2.jpg" title="Project Workflow" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/p2_2.png" title="Project Workflow" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
