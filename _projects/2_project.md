@@ -21,7 +21,7 @@ $$ q=-k\frac{\partial T}{\partial x}$$
 Discretizing the boundaries using ghost points, we get the following linear system.
 $$ A*T^{n+1} = T^{n} + B$$
 
-Matrix A has $$1+2*\lambda$$ on the main diagonal, then -$\lambda$ on the super and sub diagonals (except the first and last rows). For the first and last rows - which correspond to the boundary conditions - the first row has $-2*\lambda$ on the super diagonal, while the last row has $-2*\lambda$ on the sub-diagonal.
+Matrix A has $$1+2*\lambda$$ on the main diagonal, then $$ -\lambda $$ on the super and sub diagonals (except the first and last rows). For the first and last rows - which correspond to the boundary conditions - the first row has $$-2*\lambda $$ on the super diagonal, while the last row has $$-2*\lambda $$ on the sub-diagonal.
 
 Vector B has the temperature values at all grid locations from the previous timestep. Again, the first and last element are modified to incorporate the Neumann boundary condition. 
 
@@ -68,7 +68,7 @@ Please select how verbose you would like the solver output:
 You could enter the following values: 1, 2, 3, 4, 5
  
 
-1: Basic information; $\lambda$ , No. of nodes , Grid size $\Delta x$ , Time step $\Delta t$ , No. of time steps , $\frac{q}{k}$*
+1: Basic information; $$ \lambda $$ , No. of nodes , Grid size $$ \Delta x $$ , Time step $$ \Delta t $$ , No. of time steps , $$ \frac{q}{k} $$ *
 
 2: Matrix A
 
@@ -80,9 +80,9 @@ You could enter the following values: 1, 2, 3, 4, 5
 
 
 
-*"you can choose the location to display $\frac{q}{k}$ in main.cpp"
+* "you can choose the location to display $\frac{q}{k}$ in main.cpp"
 
- ** "You can choose time step to display $T^{n+1}$ $T^{n}$ in Push_T() function in solver.cpp"
+** "You can choose time step to display $T^{n+1}$ $T^{n}$ in Push_T() function in solver.cpp"
 
 
 Then you would be prompted to input the desired grid size
@@ -163,7 +163,7 @@ To change the material properties, MatCon.csv is used where only the values must
 - Only predifined geometric compositions
 - For the felt addition prompt "yes", "Y","y" allow to add felt to the domain.
 ### Physical
-- The variation in material properties K(x), $\rho(x)$ and $C_{p}(x)$ is not considered in formulating the governing equations.
+- The variation in material properties K(x), $$ \rho(x) $$ and $$ C_{p}(x) $$ is not considered in formulating the governing equations.
 - For felt, we assume that it fails anyway, we do not consider it's crystalization when checking for glass temperature of other interior materials. 
 
 Every project has a beautiful feature showcase page.
