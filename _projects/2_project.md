@@ -2,8 +2,8 @@
 layout: page
 title: Project Orion
 description: This is a software package written in C++ to simulate the 1D heat conduction in a spherical body with multiple layers of different material compositions of varying thicknesses in the radial direction.
-img: assets/img/p_2.png
-importance: 2
+img: assets/img/p2_1.png
+importance: 1
 category: Computational
 ---
 
