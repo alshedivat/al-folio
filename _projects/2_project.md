@@ -8,6 +8,17 @@ category: Computational
 ---
 This C++ code is written by Team Nebula for Project 3 of MEEN 689 Computing Concepts course.
 
+To generate this package a specific code development paradigm was used that included listening for requirements,development of a brute force solution followed by optimization. This workflow is detailed in the following figure.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/p2_2.jpg" title="Project Workflow" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Project development workflow framework.
+</div>
+
 This code is based on the Implicit Backward in Time- Central in Space (BTCS) discretization scheme of the 1D heat equation.
 
 $$\frac{\partial T}{\partial t } = \alpha\frac{\partial^{2} T}{\partial x^{2} }$$
@@ -27,6 +38,7 @@ Vector B has the temperature values at all grid locations from the previous time
 
 
 The Linear system of equations obtained from BTCS formulation is solved using an optimized Tridiagonal Matrix Solver based on the Thomas Algorithm (TDMA).
+
 
   
 ## Dependencies
@@ -79,10 +91,10 @@ You could enter the following values: 1, 2, 3, 4, 5
 5: Vectors $T^{n+1}$ $T^{n}$ at desired time step **
 
 
+ 
+"you can choose the location to display $\frac{q}{k}$ in main.cpp" *
 
-* "you can choose the location to display $\frac{q}{k}$ in main.cpp"
-
-** "You can choose time step to display $T^{n+1}$ $T^{n}$ in Push_T() function in solver.cpp"
+"You can choose time step to display $T^{n+1}$ $T^{n}$ in Push_T() function in solver.cpp" *
 
 
 Then you would be prompted to input the desired grid size
@@ -193,14 +205,7 @@ To give your project a background in the portfolio page, just add the img tag to
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+
 
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
