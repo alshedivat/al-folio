@@ -1,13 +1,13 @@
 ---
 layout: page
-title: entertainment
+title: Entertainment
 nav: true
 nav_order: 6
 dropdown: true
 children: 
-    - title: comics
+    - title: Comics
       permalink: /comics/
     - title: divider
-    - title: cinema
+    - title: Cinema
       permalink: /cinema/
 ---
