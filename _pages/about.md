@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 
 Greetings!
 
-My name is Zheyuan (Brian) Zhang (张喆元 in chinese). I am a Robotics MS student in the [Robotics Institute](https://robotics.umich.edu/) at the [University of Michigan](https://umich.edu/). Currently, I am doing research at the [Situated Language and Embodied Dialogue (SLED)](https://sled.eecs.umich.edu/) lab, advised by Professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/). Prior to UMich, I received my undergraduate degree in Computer Science (B.S.) from [UMass Amherst](https://www.umass.edu/), [College of Information & Computer Sciences](https://www.cics.umass.edu/).
+My name is Zheyuan (Brian) Zhang (张喆元 in chinese). I am a master student at the [University of Michigan](https://umich.edu/) pursuing Robotics MS in the [Robotics Institute](https://robotics.umich.edu/) and Cognitive Science Graduate Certificate Program in the [Weinberg Institute for Cognitive Science | U-M LSA](https://lsa.umich.edu/weinberginstitute). Currently, I am doing research at the [Situated Language and Embodied Dialogue (SLED)](https://sled.eecs.umich.edu/) lab, advised by Professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/). Prior to UMich, I received my undergraduate degree in Computer Science (B.S.) from [UMass Amherst](https://www.umass.edu/), [College of Information & Computer Sciences](https://www.cics.umass.edu/).
 
 Click to view my latest [Curriculum Vitae](assets/cv.pdf).
 
