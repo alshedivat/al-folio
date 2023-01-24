@@ -2,9 +2,10 @@
   photo: hantao-cui.jpg
   info: Assistant Professor
   email: h.cui@okstate.edu
-  number_educ: 2
-  education1: PhD, University of Tennessee
-  education2: IEEE Senior Member
+  number_educ: 3
+  education1: PhD, University of Tennessee, Knoxville
+  education2: M.S., Southeast University, China
+  education3: IEEE Senior Member
 
 - name: Zaid Mahmood
   photo: zaid-mahmood.jpg
@@ -20,3 +21,10 @@
   number_educ: 2
   education1: M.S. in 2021, NUST, Pakistan
   education2: B.S. in 2016, NUST, Pakistan
+
+- name: Saima Alam
+  photo: saima-alam.jpg
+  info: PhD student (Fall 2022)
+  email: saima.alam@okstate.edu
+  number_educ: 1
+  education1: B.S. in 2021, MIST, Bangladesh
