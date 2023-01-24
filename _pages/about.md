@@ -43,4 +43,4 @@ Hantao Cui's research include:
 Hantao Cui publishes research papers and open-source software for research.
 Use the icons at the bottom of the page to checkout the most recent papers and tools.
 
-For open positions please visit [here](group/#openings).
+For open student positions, please visit [here](group/#openings).
