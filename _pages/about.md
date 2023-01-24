@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Robotics MS Student @ <a href='https://umich.edu/'>University of Michigan</a> • zheyuan [at] umich [dot] edu
+subtitle: <a href='https://robotics.umich.edu/profile/zheyuan-zhang/'>Robotics MS Student</a> @ <a href='https://umich.edu/'>University of Michigan</a> • zheyuan [at] umich [dot] edu
 
 profile:
   align: right
