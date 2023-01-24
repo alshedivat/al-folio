@@ -55,10 +55,11 @@ For openings in my research group, please see [Openings](#openings).
 </div>
 {% endfor %}
 
-## Undergraduate Students
-- Evelyn Wilson, Freshman Undergraduate Researcher, OSU-ECE, 2021-2022
+## Current Undergraduate Students
+None
 
 ### Former Students and Visitors
+- Evelyn Wilson, Freshman Undergraduate Researcher, OSU-ECE, 2021-2022
 - Paul Megna, Undergraduate Research Assistant, OSU-ECE, 2021
 
 ## Openings
