@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+title: Full-stack geospatial professional
+description: I just started to share my codes in GitHub profile, but my repositories soon are going to change the world!
 nav: true
 nav_order: 3
 ---
