@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: Full-stack geospatial professional
+title: repositories
 description: I just started to share my codes in GitHub profile, but my repositories soon are going to change the world!
 nav: true
 nav_order: 3
