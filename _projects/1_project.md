@@ -7,20 +7,20 @@ importance: 1
 category: work
 ---
 
-Metabolomics is an emerging field of "omics" research specializing in the near global analysis of small molecules found in biosystems. 
+My active research projects are listed below: 
 
-- <a href="https://github.com/TuoooLiu666/expense-tracker">Urinary Metabolomics in Tucson Firefighters: Pre-, and Post-fire exposure</a>:
+- Urinary Metabolomics in Tucson Firefighters: Pre-, and Post-fire exposure:
   - aims: Characterizing & compare metabolic profiles before and post fire exposure
   - data source: Fire Fighter Cancer Cohort Study(<a href="https://ffccs.org">FFCCS</a>)
   - research question: Does fire exposure alter the metabolic profiles in firefighters?
 
 
-- <a href="https://github.com/TuoooLiu666/expense-tracker">Urinary Metabolomics in Tucson Firefighters: differential metabolome by Hispanic ethnicity</a>:
+- Urinary Metabolomics in Tucson Firefighters: differential metabolome by Hispanic ethnicity:
   - aims: Characterizing differential metabolome by Hispanic ethnicity, before and post fire exposure
   - data source: Fire Fighter Cancer Cohort Study(<a href="https://ffccs.org">FFCCS</a>)
   - research question: Is there a difference in the metabolic profiling between Hispanic and Non-Hispanic firefighters? Is the difference strengthened by fire exposure?
 
-- <a href="https://github.com/TuoooLiu666/expense-tracker">Urinary Metabolomics in Wildland-urban interface Firefighters (LA): Pre-, and Post-fire exposure</a>:
+- Urinary Metabolomics in Wildland-urban interface Firefighters (LA): Pre-, and Post-fire exposure:
   - aims: TBD
   - data source: Fire Fighter Cancer Cohort Study(<a href="https://ffccs.org">FFCCS</a>)
   - research question: TBD
