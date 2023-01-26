@@ -1,5 +1,5 @@
 # My Personal Website
-- warning: This repository may not the current version of my website. 
+- warning: This repository may not be the current version of my website. 
 
 alpsencer.com includes:
   - personal info
