@@ -18,9 +18,9 @@ social: true  # includes social icons at the bottom of the page
 
 <!--and a member of the [PASSION Lab](https://passion.lbl.gov/), the [BeBOp Group](https://bebop.cs.berkeley.edu/), and the [Performance and Algorithms Research (PAR) Group](https://crd.lbl.gov/departments/computer-science/par/members/students/giulia-guidi/). Giulia received her M.Sc. and B.Sc. in Biomedical Engineering from [Politecnico di Milano](http://polimi.it/en).-->
 
-I work on challenges at the intersection of large-scale computational biology and the algorithms and software infrastructures. I leverage high-performance computing techniques and computer systems and architectures to make genomics data processing faster and more flexible for the community, and to enable higher-quality bioinformatics and biomedical research. Another important focus of my work is developing software to make cloud infrastructures more accessible for high-performance scientific computing.
-
-**I am recruiting [PhD students](https://www.cs.cornell.edu/phd/admissions) at [Cornell University](https://www.cs.cornell.edu/) with some background in parallel programming and interest in high-performance computing for computational sciences.** If you are a prospective PhD student, please read [the students page](https://giuliaguidi.github.io/students/). 
+I work in the field of high-performance computing for large-scale computational sciences (in particular, computational biology). I'm interested in the development of algorithms and software infrastructures on parallel machines to accelerate data processing without sacrificing programming productivity and to make high-performance computing more accessible.
+<!-- 
+**I am recruiting [PhD students](https://www.cs.cornell.edu/phd/admissions) at [Cornell University](https://www.cs.cornell.edu/) with some background in parallel programming and interest in high-performance computing for computational sciences.** If you are a prospective PhD student, please read [the students page](https://giuliaguidi.github.io/students/).  -->
 
 I received my PhD in Computer Science from UC Berkeley in August 2022 under the supervision of [Aydın Buluç](http://people.eecs.berkeley.edu/~aydin/) and [Kathy Yelick](https://people.eecs.berkeley.edu/~yelick/) and my dissertation is titled "Parallel Algorithms for De Novo Long Read Genome Assembly via Sparse Linear Algebra". You can read about it [here](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2022/EECS-2022-196.html) and watch the defense recording [here](https://www.youtube.com/watch?v=pMDICvkA5zw). 
 
