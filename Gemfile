@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
-    gem 'wdm' , '>=0.1.0'
     gem 'jekyll'
     gem "jekyll-sass-converter", "~> 2.0"
     gem 'jekyll-archives'
