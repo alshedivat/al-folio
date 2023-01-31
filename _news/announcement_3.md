@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-11-23
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Check it out [here](https://www.esciupfnews.com/2022/11/23/climate-change-dilemma-cop27/) what were my personal experiences and conclusions of my first time as an observer at a COP! :sparkles: :smile:
