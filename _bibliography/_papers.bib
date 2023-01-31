@@ -1,0 +1,138 @@
+---
+---
+
+@string{aps = {American Physical Society,}}
+
+
+@InProceedings{jitterbug,
+author="Carisimo, Esteban
+and Mok, Ricky K. P.
+and Clark, David D.
+and Claffy, Kc",
+editor="Hohlfeld, Oliver
+and  Moura, Giovane C. M. 
+and Pelsser, Cristel",
+title="Jitterbug: A new framework for jitter-based congestion inference",
+year="2022",
+booktitle="Passive and Active Measurement",
+publisher="Springer International Publishing",
+address="Cham",
+pages="155--179",
+abstract="We investigate a novel approach to the use of jitter to infer network congestion using data collected by probes in access networks. We discovered a set of features in jitter and jitter dispersion —a jitter- derived time series we define in this paper— time series that are char- acteristic of periods of congestion. We leverage these concepts to create a jitter-based congestion inference framework that we call Jitterbug. We apply Jitterbug’s capabilities to a wide range of traffic scenarios and discover that Jitterbug can correctly identify both recurrent and one-off congestion events. We validate Jitterbug inferences against state-of-the- art autocorrelation-based inferences of recurrent congestion. We find that the two approaches have strong congruity in their inferences, but Jitter- bug holds promise for detecting one-off as well as recurrent congestion. We identify several future directions for this research including lever- aging ML/AI techniques to optimize performance and accuracy of this approach in operational settings.",
+isbn="978-3-030-98785-5",
+pdf={papers/2022-pam-jitterbug.pdf},
+github={https://github.com/estcarisimo/jitterbug/},
+slides={slides/2022-pam-jitterbug.pdf},
+selected={true}
+}
+
+@InProceedings{cti,
+author = {Gamero-Garrido, Alexander and Carisimo, Esteban and Hao, Shuai and Huffaker, Bradley and Snoeren, Alex C. and Dainotti, Alberto},
+editor="Hohlfeld, Oliver
+and  Moura, Giovane C. M. 
+and Pelsser, Cristel",
+title="Quantifying Nations' Exposure to Traffic Observation and Selective Tampering",
+year="2022",
+booktitle="Passive and Active Measurement",
+publisher="Springer International Publishing",
+address="Cham",
+pages="645--674",
+abstract="Almost all popular Internet services are hosted in a select set of countries, forcing other nations to rely on international connectivity to access them. We identify nations where traffic towards a large portion of the country is serviced by a small number of Autonomous Systems, and, therefore, may be exposed to observation or selective tampering by these ASes. We introduce the Country-level Transit Influence (CTI) metric to quantify the significance of a given AS on the international transit service of a particular country. By studying the CTI values for the top ASes in each country, we find that 34 nations have transit ecosystems that render them particularly exposed, where a single AS is privy to traffic destined to over 40% of their IP addresses. In the nations where we are able to validate our findings with in-country operators, our top- five ASes are 90% accurate on average. In the countries we examine, CTI reveals two classes of networks frequently play a particularly prominent role: submarine cable operators and state-owned ASes.",
+isbn="978-3-030-98785-5",
+pdf={papers/2022-pam-cti.pdf},
+github={https://github.com/CAIDA/mapkit-cti-code},
+award = {Best dataset award},
+}
+
+@InProceedings{10.1145/3487552.3487822,
+author = {Carisimo, Esteban and Gamero-Garrido, Alexander and Snoeren, Alex C. and Dainotti, Alberto},
+title = {Identifying ASes of State-Owned Internet Operators},
+year = {2021},
+isbn = {9781450391290},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3487552.3487822},
+abstract = {In this paper we present and apply a methodology to accurately identify state-owned Internet operators worldwide and their Autonomous System Numbers (ASNs). Obtaining an accurate dataset of ASNs of state-owned Internet operators enables studies where state ownership is an important dimension, including research related to Internet censorship and surveillance, cyber-warfare and international relations, ICT development and digital divide, critical infrastructure protection, and public policy. Our approach is based on a multi-stage, in-depth manual analysis of datasets that are highly diverse in nature. We find that each of these datasets contributes in different ways to the classification process and we identify limitations and shortcomings of these data sources. We obtain the first data set of this type, make it available to the research community together with the several lessons we learned in the process, and perform a preliminary analysis based on our data. We find that 53\% (i.e., 123) of the world's countries are majority owners of Internet operators, highlighting that this is a widespread phenomenon. We also find and document the existence of subsidiaries of state-owned governments operating in foreign countries, an aspect that touches every continent and particularly affects Africa. We hope that this work and the associated data set will inspire and enable a broad set of Internet measurement studies and interdisciplinary research.},
+pages = {687–702},
+numpages = {16},
+booktitle={"ACM Internet Measurement Conference (IMC)"},
+html={https://dl.acm.org/doi/abs/10.1145/3487552.3487822},
+pdf={papers/2021-imc-state-owned.pdf},
+slides={slides/2021-imc-state-owned.pdf},
+github={https://github.com/estcarisimo/state-owned-ases/},
+selected={true}
+}
+
+@article{10.1145/3390251.3390255,
+author = {Carisimo, Esteban and Fiore, Juli\'{a}n M. Del and Dujovne, Diego and Pelsser, Cristel and Alvarez-Hamelin, J. Ignacio},
+title = {A First Look at the Latin American IXPs},
+year = {2020},
+issue_date = {January 2020},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {50},
+number = {1},
+issn = {0146-4833},
+url = {https://doi.org/10.1145/3390251.3390255},
+doi = {10.1145/3390251.3390255},
+abstract = {We investigated Internet eXchange Points (IXPs) deployed across Latin America. We discovered that many Latin American states have been actively involved in the development of their IXPs. We further found a correlation between the success of a national IXP and the absence of local monopolistic ASes that concentrate the country's IPv4 address space. In particular, three IXPs have been able to gain local traction: IX.br-SP, CABASE-BUE and PIT Chile-SCL. We further compared these larger IXPs with others outside Latin America. We found that, in developing regions, IXPs have had a similar growth in the last years and are mainly populated by regional ASes. The latter point clearly contrasts with more internationally re-known European IXPs whose members span multiple regions.},
+journal = {SIGCOMM Comput. Commun. Rev.},
+month = {mar},
+pages = {18–24},
+numpages = {7},
+keywords = {internet eXchange points, Latin America},
+html={https://dl.acm.org/doi/abs/10.1145/3390251.3390255},
+pdf={papers/2020-ccr-latam-ixps.pdf},
+}
+
+@article{CARISIMO201954,
+title = {Studying the evolution of content providers in IPv4 and IPv6 internet cores},
+journal = {Computer Communications},
+volume = {145},
+pages = {54-65},
+year = {2019},
+issn = {0140-3664},
+doi = {https://doi.org/10.1016/j.comcom.2019.05.022},
+url = {https://www.sciencedirect.com/science/article/pii/S0140366418310090},
+author = {Esteban Carisimo and Carlos Selmo and J. Ignacio Alvarez-Hamelin and Amogh Dhamdhere},
+keywords = {Content providers, CDNs, Topology, -cores},
+abstract = {There is recent evidence that the core of the Internet, which was formerly dominated by large transit providers, has been reshaped after the transition to a multimedia-oriented network, first by general-purpose CDNs and now by private CDNs. In this work we use k-cores, an element of graph theory, to define which ASes compose the core of the Internet and to track the evolution of the core since 1999. Specifically, we investigate whether large players in the Internet content and CDN ecosystem belong to the core and, if so, since when. In addition, we examine differences between the IPv4 and IPv6 cores. We further investigate regional differences in the evolution of large content providers. Finally, we show that the core of the Internet has incorporated an increasing number of content ASes in recent years. To enable reproducibility of this work, we provide a website to allow interactive analysis of our datasets to detect, for example, “up and coming” ASes using customized queries.},
+html={https://www.sciencedirect.com/science/article/abs/pii/S0140366418310090?via%3Dihub},
+pdf={papers/2019-comnets-cores.pdf},
+}
+
+@INPROCEEDINGS{8506513,  
+author={Carisimo, Esteban and Selmo, Carlos and Alvarez-Hamelin, J. Ignacio and Dhamdhere, Amogh},  
+booktitle={2018 Network Traffic Measurement and Analysis Conference (TMA)},   
+title={Studying the Evolution of Content Providers in the Internet Core},   
+year={2018},  
+volume={}, 
+number={},  
+pages={1-8},  
+doi={10.23919/TMA.2018.8506513},
+html={https://ieeexplore.ieee.org/document/8506513},
+pdf={papers/2018-tma-cores.pdf},
+slides={slides/2018-tma-cores.pdf},
+ }
+
+@inproceedings{10.1145/2940116.2940118,
+author = {Berenguer, Sof\'{\i}a Silva and Carisimo, Esteban and Alvarez-Hamelin, J. Ignacio and Pintor, Francisco Valera},
+title = {Hidden Internet Topologies Info: Truth or Myth?},
+year = {2016},
+isbn = {9781450344265},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2940116.2940118},
+doi = {10.1145/2940116.2940118},
+abstract = {Mapping projects usually get information from several routing data collectors or vantage points. The accuracy of maps relies on the amount and location of these collectors, which are usually located near the backbone or at large developed regions, such as ARIN's or RIPE NCC's. The lack of vantage points in Latin America makes these maps not really show the current actual status of the network in this region. For this reason, in this work we have added data from some local sources and measured how much information was missing without them.},
+booktitle = {Proceedings of the 2016 Workshop on Fostering Latin-American Research in Data Communication Networks},
+pages = {4–6},
+numpages = {3},
+keywords = {Network topology, Latin America, traceroute},
+location = {Florianopolis, Brazil},
+series = {LANCOMM '16},
+html={https://dl.acm.org/doi/10.1145/2940116.2940118},
+pdf={papers/2016-lancomm-latam.pdf},
+}
+
+
