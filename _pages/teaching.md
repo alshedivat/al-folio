@@ -6,6 +6,11 @@ description: I served as a teaching assistant (TA) for the courses listed below.
 nav: true
 ---
 
+**Numerical Methods for PDEs (CS555)**
+
+Graduate-level course in numerical techniques for initial and boundary value problems in partial differential equations. The material covered in the course includes finite difference and finite element discretization techniques, direct and iterative solution methods for discrete problems, and programming techniques and usage of software packages
+  - [Spring 2023](https://relate.cs.illinois.edu/course/cs555-s23/) 
+
 
 **Numerical Analysis (CS450)**
 
