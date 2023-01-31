@@ -2,8 +2,8 @@
 layout: page
 permalink: /students/
 title: students
-description: Amazing work of the students I supervised. _Note that some there are some joint dissertations done by more than one student_.
-years: [2021, 2020]
+description: Amazing work of the students I supervised. Some there are some joint dissertations done by more than one student.
+years: [2022, 2021, 2020]
 nav: true
 ---
 <!-- _pages/students.md -->
