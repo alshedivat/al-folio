@@ -125,13 +125,6 @@ blockquote {
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
-  a {
-    color: inherit;
-    &:hover {
-      color: var(--global-theme-color);
-      text-decoration: none;
-    }
-  }
 }
 
 
