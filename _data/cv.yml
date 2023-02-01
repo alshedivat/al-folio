@@ -2,96 +2,90 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Quentin Guimard
     - name: Languages
-      value: English, German
+      value: French, English
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: PhD student
+      institution: Laboratoire d'Informatique, Signaux et Systèmes de Sophia Antipolis (I3S), Sophia Antipolis, France
+      year: 2020 - 2023
+
+    - title: PhD intern
+      institution: Centrum Wiskunde & Informatica (CWI), Amsterdam, Netherlands
+      year: 2023
+
+    - title: Visiting PhD student
+      institution: Università degli Studi di Firenze, Florence, Italy
+      year: 2021
+
+    - title: Data scientist apprentice
+      institution:  Thales Services, Sophia Antipolis, France
+      year: 2019 - 2020
+      description:
+
+    - title: Research assistant intern
+      institution: Université du Québec à Montréal (UQAM), Montreal, Canada
+      year: 2019
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Université Côte d'Azur, France
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Machine Learning-based Strategies for Streaming and Experiencing Virtual Reality
+    - title: Master's degree
+      institution: Polytech Nice Sophia, France
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - Computer Science - Data Science
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+        - ACM MMSys 2022 Best Paper Award
 
-- title: Academic Interests
-  type: nested_list
+- title: Teaching Experience
+  type: time_table
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Introduction to Imperative Programming (Python)
+      institution: Polytech Nice Sophia, France
+      year: 2020 - 2023
+      description:
+        - Teaching assistant - Undergraduate course
+    - title: Algorithms and Data Structures (Java)
+      institution: Polytech Nice Sophia, France
+      year: 2020 - 2023
+      description:
+        - Teaching assistant - Undergraduate course
+    - title: Machine Learning
+      institution: Polytech Nice Sophia, France
+      year: 2022 - 2023
+      description:
+        - Teaching assistant - Graduate course
+    - title: From Shallow to Deep Learning
+      institution: Polytech Nice Sophia, France
+      year: 2020 - 2022
+      description:
+        - Teaching assistant - Graduate course
+    - title: Deep Reinforcement Learning
+      institution: UCA Deep Learning School, France
+      year: 2021
+      description:
+        - Teaching assistant - Summer school interactive tutorial
+    - title: Visual recognition and Domain adaptation
+      institution: UCA Deep Learning School, France
+      year: 2021
+      description:
+        - Teaching assistant - Summer school interactive tutorial
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Doctoral Association of the SophiaTech campus (<a href='https://adstic.i3s.univ-cotedazur.fr/en/index.php'>ADSTIC</a>) 2023 team member

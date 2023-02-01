@@ -1,6 +1,15 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"MMSys 2022":
+  url: https://dl.acm.org/doi/proceedings/10.1145/3524273
+  color: "#2AB571"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"MMVE 2022":
+  url: https://dl.acm.org/doi/proceedings/10.1145/3534086
+  color: "#00bcd4"
+
+"ICIP 2022":
+  url: https://ieeexplore.ieee.org/xpl/conhome/9897158/proceeding
+  color: "#069"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"

@@ -1,8 +1,9 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: CV
+description: More information on <a href='https://www.linkedin.com/in/quentinguimard/'>LinkedIn</a>.
 nav: true
-nav_order: 4
-cv_pdf: example_pdf.pdf
+nav_order: 2
+cv_pdf: cv.pdf
 ---
