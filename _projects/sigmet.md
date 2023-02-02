@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: sigmet
+description: a python library to quantify negative price shocks in financial data (1k+ downloads). based on our paper (https://paperswithcode.com/paper/quantifying-the-effects-of-the-2008-recession)  
+redirect: https://github.com/agupta01/sigmet
+img: assets/img/zillow.jpg
+importance: 5
+category: data science/analysis
 ---
 
 Every project has a beautiful feature showcase page.
