@@ -15,8 +15,8 @@ keywords: guimard, quentin, mardgui, personal-website  # add your own keywords o
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon/favicon.ico  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-+url: https://www.i3s.unice.fr # the base hostname & protocol for your site
-+baseurl: /~guimard/ # the subpath of your site, e.g. /blog/
+url: https://www.i3s.unice.fr  # the base hostname & protocol for your site
+baseurl: /~guimard  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
