@@ -2,7 +2,7 @@
 layout: page
 title: arpagen
 description: a corpus and LSTM benchmark for phoneme-based text generation.
-img: /assets/img/hdsi.jpg
+img: /assets/img/arpagen.jpg
 redirect: https://github.com/camille-004/arpagen
 importance: 1
 category: nlp
