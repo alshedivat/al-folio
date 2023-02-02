@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: attribution modeling
+description: multi-touch and probabilistic attribution modeling and budget optimization.
+img: assets/img/white-markov-removebg-preview.jpg
+redirect: https://github.com/camille-004/attribution-modeling
 importance: 3
-category: work
+category: data science/analysis
 ---
 
 Every project has a beautiful feature showcase page.
@@ -18,7 +18,7 @@ To give your project a background in the portfolio page, just add the img tag to
     layout: page
     title: project
     description: a project with a background image
-    img: /assets/img/12.jpg
+    img: /assets/img/markov.png
     ---
 
 <div class="row">

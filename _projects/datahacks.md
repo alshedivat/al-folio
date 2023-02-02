@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
-category: work
+title: details on lstm stock modeling
+description: datahacks 2021 submission. first place advanced track, only entry with a unanimous perfect score.
+img: assets/img/datahacks_2.png
+redirect: https://yu-lily.github.io/datahacks-2021-report/
+importance: 2
+category: deep learning
 ---
 
 Every project has a beautiful feature showcase page.

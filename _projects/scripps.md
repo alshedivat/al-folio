@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: vital signs signal correlations
+description: exploring the synchrony between body temperature and HR, RR, and aortic blood pressure in viral/bacterial disease onsets with signal dynamics
+img: /assets/img/sync.jpg
 importance: 4
-category: fun
+redirect: https://arxiv.org/pdf/2011.01877.pdf
+category: data science/analysis
 ---
 
 Every project has a beautiful feature showcase page.
