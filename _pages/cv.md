@@ -7,7 +7,7 @@ nav: true
 sort: 4
 ---
 <left>
-If the embedded version of my CV does not work, you can download a copy <a href="../assets/pdf/MinBin_CV_20230101.pdf" target="_blank">here</a>.
+If the embedded version of my CV does not work, you can download a copy <a href="../assets/pdf/Min-Bin Lin_CV.pdf" target="_blank">here</a>.
 </left>
 
 <br>
