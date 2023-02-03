@@ -41,7 +41,7 @@ c=\frac{\vec{a}\vec{b}}{\vec{b}\vec{b}}
 $$
 
 Because $$||\vec{b}||=\sqrt{\vec{b} \cdot \vec{b}}$$:
-<br>
+
 $$
 c=\frac{\vec{a}\vec{b}}{||\vec{b}||^2}
 $$
@@ -53,7 +53,7 @@ proj_{\vec{a}}\vec{b}=\frac{\vec{a}\vec{b}}{||\vec{b}||^2}\vec{b}
 $$
 
 where:
-- $$\vec{u}=\frac{\vec{b}}{||\vec{b}||}$$ is called unit vector defined by $$\vec{b}$$
+- $\vec{u}=\frac{\vec{b}}{||\vec{b}||}$ is called unit vector defined by $\vec{b}$
 
 Rewrite the projection in terms of the unit vector:
 <br>
@@ -61,4 +61,5 @@ $$
 proj_{\vec{a}}\vec{b}=\frac{\vec{a}\vec{b}}{||\vec{b}||}\vec{u}
 $$
 
-$$\frac{\vec{a}\vec{b}}{||\vec{b}||}$$ is called the scalar projection of $$\vec{a}$$ onto $$\vec{b}$$.
+$\frac{\vec{a}\vec{b}}{||\vec{b}||}$ is called the scalar projection of $\vec{a}$ onto $\vec{b}$.
+
