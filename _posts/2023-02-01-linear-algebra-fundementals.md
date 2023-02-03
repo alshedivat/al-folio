@@ -66,4 +66,21 @@ $$$$ \frac{\vec{a}\vec{b}}{\lVert \vec{b} \rVert} $$ is called the scalar projec
 
 
 ### Eigenvalue & Eigenvector 🆎
-Eigendecomposition is a pearl of linear algebra.
+
+Eigendecomposition is a pearl of linear algebra. Eigendecomposition (as wellas SVD) is among the most important contributions of lenear algebra to data science. <br>
+
+Eigendecomposition can be seen via difference lens and it has different interpretations:
+-  geometric interpretation (axes of rotational invariance)
+-  statistical interpetation (directions of maximal covariance)
+-  graph-theoretic interpretation (the impact of a node on its network)
+-  financial-market interpretation (identifying stocks that covary), 
+-  etc.
+
+Eigendecomposition is defined only for square matrices. Non-square matrices can be decomposed using SVD. Every sqaure matrix ($$ M \times M \mathbb{A} $$) has M eigenvalue-eigenvector pairs. The goal of eigendecomposition is to reveal these vector-scalar pairs. <br>
+
+#### Inpterpretation of Eigenvalues and Eigenvectors
+- Geometry
+  - a special combination of a matrix and a vector such that the matrix stretched—but did not rotate—that vector.
+  - $$\mathbb{A}\vec{v}=\lambda\vec{v}$$
+- Statistics
+  -  
