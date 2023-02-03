@@ -49,7 +49,9 @@ $$
 So:
 <br>
 $$
-proj_{\vec{a}}\vec{b}=\frac{\vec{a}\vec{b}}{||\vec{b}||^2}\vec{b}
+\begin{equation}
+    proj_{\vec{a}}\vec{b}=\frac{\vec{a}\vec{b}}{||\vec{b}||^2}\vec{b}
+\end{equation}
 $$
 
 where:
@@ -58,8 +60,11 @@ where:
 Rewrite the projection in terms of the unit vector:
 <br>
 $$
-proj_{\vec{a}}\vec{b}=\frac{\vec{a}\vec{b}}{||\vec{b}||}\vec{u}
+\begin{equation}
+    proj_{\vec{a}}\vec{b}=\frac{\vec{a}\vec{b}}{||\vec{b}||}\vec{u}
+\end{equation}
 $$
 
 $\frac{\vec{a}\vec{b}}{||\vec{b}||}$ is called the scalar projection of $\vec{a}$ onto $\vec{b}$.
 
+### Eigenvalue & Eigenvector 🆎
