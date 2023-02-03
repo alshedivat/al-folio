@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction to metabolomics
-date: 2020-01-14 11:12:00-0400
+date: 2022-01-14 11:12:00-0400
 description: metabolomics
 tags: work study MachineLearning DataScience
 categories: 
