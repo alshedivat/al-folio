@@ -81,6 +81,38 @@ Eigendecomposition is defined only for square matrices. Non-square matrices can 
 #### Inpterpretation of Eigenvalues and Eigenvectors
 - Geometry
   - a special combination of a matrix and a vector such that the matrix stretched—but did not rotate—that vector.
-  - $$\mathbb{A}\vec{v}=\lambda\vec{v}$$
+  
+$$\mathbb{A}\vec{v}=\lambda\vec{v}$$
+
 - Statistics
-  -  
+  -  multivariate data analysis requires the global pattern
+  -  typical question: 
+     - whether the entirety of the cryptospace operates as a single system? If so, one large eigenvalue accounts for the majority of the variance
+     - whether there are independent subcategories within that space. If so, several large eigenvalues exist.
+
+#### Finding Eigenvalues
+
+$$
+\mathbb{A}\vec{v}=\lambda\vec{v} \Rightarrow 
+\mathbb{A}\vec{v}-\lambda\vec{v} = \vec{0} \Rightarrow 
+(\mathbb{A}-\lambda\vec{I})\vec{v}=\vec{0}
+$$
+
+The eigenvector is in the null space of the matrix shifted by its eigenvalue. That mean the matrix shifted by its eigenvalue is singular and has a determinant $$ |\mathbb{A}-\lambda\vec{I}|=0 $$. Use a $$2 \times 2 $$ matrix as an example: 
+
+$$
+\det (\mathbb{A}-\lambda\vec{I}) =
+\begin{pmatrix}
+a & b \\
+c & d 
+\end{pmatrix}-
+\lambda
+\begin{pmatrix}
+1 & 0 \\
+0 & 1 
+\end{pmatrix} = 0 \\
+\Rightarrow
+\lambda^2-(a+d)\lambda+(ad-bc)=0
+$$
+
+The determinant of an eigenvalue-shifted matrix set to zero is called the **characteristic polynomial** of the matrix.
