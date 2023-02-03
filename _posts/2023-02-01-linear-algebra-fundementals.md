@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linear Algebra Fundamentals
-date: 2020-05-21 11:12:00-0400
+date: 2023-02-01 11:12:00-0400
 description: metabolomics
 tags: MachineLearning DataScience
 categories: 
@@ -17,7 +17,7 @@ $$
 \vec{a} \cdot \vec{b}=||\vec{a}||||\vec{b}||\cos\theta
 $$
 
-Importantly, when $||\vec{b}||=1$, the dot product above equals $||\vec{a}\cos\theta$.
+Importantly, when $||\vec{b}||=1$, the dot product above equals $||\vec{a}||\cos\theta$.
 
 
 
