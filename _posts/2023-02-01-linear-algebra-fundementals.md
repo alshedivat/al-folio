@@ -26,6 +26,7 @@ $$
 
 Importantly, when $$\vec{b}=1$$, the dot product above equals $$||\vec{a}||\cos\theta $$.
 
+
 ### Vector Projection🅱️
 Consider two vectors $$\vec{a}$$ and $$\vec{b}$$. We are projecting $$\vec{a}$$ onto $$\vec{b}$$, and we can scale $$\vec{b}$$ with a scalar $$c$$. $$c\vec{v}$$ defines a infinite line. We’re going to find the projection of $$\vec{a}$$ onto $$\vec{b}$$, written as:
 <br>
@@ -55,7 +56,7 @@ $$
 $$
 
 where:
-- $\vec{u}=\frac{\vec{b}}{||\vec{b}||}$ is called unit vector defined by $\vec{b}$
+- $$\vec{u}=\frac{\vec{b}}{||\vec{b}||}$$ is called unit vector defined by $$\vec{b}$$
 
 Rewrite the projection in terms of the unit vector:
 <br>
@@ -65,6 +66,7 @@ $$
 \end{equation}
 $$
 
-$\frac{\vec{a}\vec{b}}{||\vec{b}||}$ is called the scalar projection of $\vec{a}$ onto $\vec{b}$.
+$$\frac{\vec{a}\vec{b}}{||\vec{b}||}$$ is called the scalar projection of $$\vec{a}$$ onto $$\vec{b}$$.
+
 
 ### Eigenvalue & Eigenvector 🆎
