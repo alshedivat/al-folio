@@ -27,7 +27,7 @@ $$
 
 Importantly, when $$\vec{b}=1$$, the dot product above equals $$\lVert \vec{a} \rVert \cos\theta $$.
 
-\\
+\
 ### Vector Projection🅱️
 Consider two vectors $$\vec{a}$$ and $$\vec{b}$$. We are projecting $$\vec{a}$$ onto $$\vec{b}$$, and we can scale $$\vec{b}$$ with a scalar $$c$$. $$c\vec{v}$$ defines a infinite line. We’re going to find the projection of $$\vec{a}$$ onto $$\vec{b}$$, written as:
 
@@ -64,6 +64,6 @@ $$
 \end{equation}
 $$$$ \frac{\vec{a}\vec{b}}{\lVert \vec{b} \rVert} $$ is called the scalar projection of $$ \vec{a} $$ onto $$ \vec{b} $$.
 
-\\
+\
 ### Eigenvalue & Eigenvector 🆎
 Eigendecomposition is a pearl of linear algebra.
