@@ -20,14 +20,14 @@ and the **geometric** definition is given by:
 
 $$
 \begin{equation}
-\vec{a} \cdot \vec{b}=||\vec{a}||||\vec{b}||\cos\theta
+\vec{a} \cdot \vec{b}=\lVert \vec{a} \rVert \lVert \vec{b} \rVert\cos\theta
 \end{equation}
 $$
 
 
-Importantly, when $$\vec{b}=1$$, the dot product above equals $$||\vec{a}||\cos\theta $$.
+Importantly, when $$\vec{b}=1$$, the dot product above equals $$\lVert \vec{a} \rVert \cos\theta $$.
 
-
+<br>
 ### Vector Projection🅱️
 Consider two vectors $$\vec{a}$$ and $$\vec{b}$$. We are projecting $$\vec{a}$$ onto $$\vec{b}$$, and we can scale $$\vec{b}$$ with a scalar $$c$$. $$c\vec{v}$$ defines a infinite line. We’re going to find the projection of $$\vec{a}$$ onto $$\vec{b}$$, written as:
 
@@ -44,34 +44,26 @@ $$
 c=\frac{\vec{a}\vec{b}}{\vec{b}\vec{b}}
 $$
 
-Because $$||\vec{b}||=\sqrt{\vec{b} \cdot \vec{b}}$$:
-
-$$
-c=\frac{\vec{a}\vec{b}}{||\vec{b}||^2}
-$$
+Because $$\lVert \vec{b} \rVert=\sqrt{\vec{b} \cdot \vec{b}} \Rightarrow c=\frac{\vec{a}\vec{b}}{\lVert \vec{b} \rVert^2}$$
 
 So:
 <br>
 $$
 \begin{equation}
-    proj_{\vec{a}}\vec{b}=\frac{\vec{a}\vec{b}}{||\vec{b}||^2}\vec{b}
+    proj_{\vec{a}}\vec{b}=\frac{\vec{a}\vec{b}}{\lVert \vec{b} \rVert^2}\vec{b}
 \end{equation}
 $$
 
-where:
-- $$\vec{u}=\frac{\vec{b}}{||\vec{b}||} $$ is called unit vector defined by $$ \vec{b} $$
+where: $$\vec{u}=\frac{\vec{b}}{\lVert \vec{b} \rVert} $$ is called unit vector defined by $$ \vec{b} $$
 
 Rewrite the projection in terms of the unit vector:
 
 $$
 \begin{equation}
-    proj_{\vec{a}}\vec{b}=\frac{\vec{a}\vec{b}}{||\vec{b}||}\vec{u}
+    proj_{\vec{a}}\vec{b}=\frac{\vec{a}\vec{b}}{\lVert \vec{b} \rVert}\vec{u}
 \end{equation}
-$$
+$$$$ \frac{\vec{a}\vec{b}}{\lVert \vec{b} \rVert} $$ is called the scalar projection of $$ \vec{a} $$ onto $$ \vec{b} $$.
 
-$$ \frac{\vec{a}\vec{b}}{||\vec{b}||} $$ is called the scalar projection of $$ \vec{a} $$ onto $$ \vec{b} $$.
-
-
+<br>
 ### Eigenvalue & Eigenvector 🆎
-
 Eigendecomposition is a pearl of linear algebra.
