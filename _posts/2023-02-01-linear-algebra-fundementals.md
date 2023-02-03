@@ -54,7 +54,7 @@ $$
     proj_{\vec{a}}\vec{b}=\frac{\vec{a}\vec{b}}{||\vec{b}||^2}\vec{b}
 \end{equation}
 $$
-
+\\
 where:
 - $$\vec{u}=\frac{\vec{b}}{||\vec{b}||}$$ is called unit vector defined by $$\vec{b}$$
 
@@ -65,7 +65,7 @@ $$
     proj_{\vec{a}}\vec{b}=\frac{\vec{a}\vec{b}}{||\vec{b}||}\vec{u}
 \end{equation}
 $$
-
+\\
 $$\frac{\vec{a}\vec{b}}{||\vec{b}||}$$ is called the scalar projection of $$\vec{a}$$ onto $$\vec{b}$$.
 
 
