@@ -2,13 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral research associate at <a href='https://scigem-eng.sydney.edu.au/'>SciGEM</a>
+subtitle: Postdoctoral research associate: Computational Mechanics - Deep Learning - Fast dynamics - Geomechanics
 profile:
   align: right
   image: profile.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p></p>
+    <p><a href='https://scigem-eng.sydney.edu.au/'>SciGEM</a></p>
     <p>123 your address street</p>
     <p><a href='https://www.sydney.edu.au/engineering/about/our-people/academic-staff/filippo-masi.html'>The University of Sydney</a></p>
 
