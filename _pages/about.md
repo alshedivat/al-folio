@@ -11,7 +11,7 @@ profile:
   address: >
     <p>Postdoctoral research associate: Computational Mechanics - Deep Learning - Fast dynamics - Blast loading - Structural Mechanics - Geomechanics</p>
     <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><a href='https://www.sydney.edu.au/engineering/about/our-people/academic-staff/filippo-masi.html'>SciGEM, School of Civil Engineering, The University of Sydney</a></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
