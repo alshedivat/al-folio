@@ -3,7 +3,7 @@ layout: post
 title: Linear Algebra Fundamentals
 date: 2023-02-01 11:12:00-0400
 description: metabolomics
-tags: MachineLearning DataScience
+tags: LinearAlgebra DataScience 
 categories: 
 ---
 
@@ -101,7 +101,7 @@ $$
 (\mathbb{A}-\lambda\vec{I})\vec{v}=\vec{0}
 $$
 
-The eigenvector is in the null space of the matrix shifted by its eigenvalue. That mean the matrix shifted by its eigenvalue is singular and has a determinant $$ \det(\mathbb{A}-\lambda\vec{I})=0 $$
+The eigenvector is in the null space of the matrix shifted by its eigenvalue. That mean the matrix shifted by its eigenvalue is singular and has a determinant $$ \det(\mathbb{A}-\lambda\vec{I})=0 $$ <br>
 Use a $$2\times2$$ matrix as an example: 
 
 $$
@@ -134,4 +134,9 @@ Each eigenvalue corresponds to one eigenvector. Finding the eigenvectors is rela
 
 ### Quadratic Form, Definiteness, and Eigenvalues
 - The Quadratic form of a matrix: pre- and postmultiply a square matrix by the same vector w and get a scalar:
-  - $$\vec{w}^T\mathbb{A}\vec{w}=\alpha$$
+  - quadratic form: $$\vec{w}^T\mathbb{A}\vec{w}=\alpha$$
+  - which matrix and which vector do we use?
+- Definiteness:  a characteristic of a square matrix and is defined by the signs of the eigenvalues of the matrix, which is identical as the sign of $$\alpha$$
+- Diagonalization: diagonalizing a matric means to represent a matrix as $$\mathbb{V}^{-1}\Lambda\mathbb{V}$$
+  - where $$\mathbb{V}$$ is a matrix with eigenvectors in the columns
+  - and $$\mathbb{\Lambda}$$ is a diagonal matrix with eigenvalues in the diagonal elements
