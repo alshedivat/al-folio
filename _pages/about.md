@@ -9,9 +9,9 @@ profile:
   image: profile.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p><a href='https://scigem-eng.sydney.edu.au/'>SciGEM, School of Civil Engineering</a></p>
-    <p><a href='https://www.sydney.edu.au/engineering/about/our-people/academic-staff/filippo-masi.html'> The University of Sydney</a></p>
-    <p>NSW 2006 Australia</p>
+    #<p><a href='https://scigem-eng.sydney.edu.au/'>SciGEM, School of Civil Engineering</a></p>
+    #<p><a href='https://www.sydney.edu.au/engineering/about/our-people/academic-staff/filippo-masi.html'> The University of Sydney</a></p>
+    #<p>NSW 2006 Australia</p>
 
 
 
