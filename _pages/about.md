@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.sydney.edu.au/engineering/about/our-people/academic-staff/filippo-masi.html'>SciGEM, School of Civil Engineering, The University of Sydney</a>. Contacts. Moto. Etc.
+subtitle: Postdoctoral research associate at <a href='https://scigem-eng.sydney.edu.au/'>SciGEM</a>. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -11,7 +11,7 @@ profile:
   address: >
     <p></p>
     <p>123 your address street</p>
-    <p><a href='https://www.sydney.edu.au/engineering/about/our-people/academic-staff/filippo-masi.html'>SciGEM, School of Civil Engineering, The University of Sydney</a></p>
+    <p><a href='https://www.sydney.edu.au/engineering/about/our-people/academic-staff/filippo-masi.html'>The University of Sydney</a></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
