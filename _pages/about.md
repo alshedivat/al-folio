@@ -2,14 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.sydney.edu.au/engineering/about/our-people/academic-staff/filippo-masi.html'>SciGEM, School of Civil Engineering, The University of Sydney</a>. Contacts. Moto. Etc.
+subtitle: Postdoctoral research associate: Computational Mechanics - Deep Learning - Fast dynamics - Blast loading - Structural Mechanics - Geomechanics
 
 profile:
   align: right
   image: profile.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Postdoctoral research associate: Computational Mechanics - Deep Learning - Fast dynamics - Blast loading - Structural Mechanics - Geomechanics</p>
     <p>123 your address street</p>
     <p><a href='https://www.sydney.edu.au/engineering/about/our-people/academic-staff/filippo-masi.html'>SciGEM, School of Civil Engineering, The University of Sydney</a></p>
 
