@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral research associate at <a href='https://scigem-eng.sydney.edu.au/'>SciGEM</a>: Computational Mechanics - Deep Learning - Fast dynamics - Blast loading - Structural Mechanics - Geomechanics.
+subtitle: Postdoctoral research associate at <a href='https://scigem-eng.sydney.edu.au/'>SciGEM</a>
 profile:
   align: right
   image: profile.jpg
@@ -11,7 +11,6 @@ profile:
     <p></p>
     <p>123 your address street</p>
     <p><a href='https://www.sydney.edu.au/engineering/about/our-people/academic-staff/filippo-masi.html'>The University of Sydney</a></p>
-    <p>NSW 2006 Australia</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
