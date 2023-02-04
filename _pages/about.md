@@ -8,8 +8,8 @@ profile:
   image: profile.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Sydney Centre in Geomechanics and mining Materials</p>
-    <p>School of Civil Engineering</p>
+    <p></p>
+    <p>123 your address street</p>
     <p><a href='https://www.sydney.edu.au/engineering/about/our-people/academic-staff/filippo-masi.html'>The University of Sydney</a></p>
     <p>NSW 2006 Australia</p>
 
