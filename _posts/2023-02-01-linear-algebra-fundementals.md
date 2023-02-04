@@ -76,7 +76,7 @@ Eigendecomposition can be seen via difference lens and it has different interpre
 -  financial-market interpretation (identifying stocks that covary), 
 -  etc.
 
-Eigendecomposition is defined only for square matrices. Non-square matrices can be decomposed using SVD. Every sqaure matrix ($$ M \times M \mathbb{A} $$) has M eigenvalue-eigenvector pairs. The goal of eigendecomposition is to reveal these vector-scalar pairs. <br>
+Eigendecomposition is defined only for square matrices. Non-square matrices can be decomposed using SVD. Every sqaure matrix (MxM $$ \mathbb{A} $$) has M eigenvalue-eigenvector pairs. The goal of eigendecomposition is to reveal these vector-scalar pairs. <br>
 
 #### Inpterpretation of Eigenvalues and Eigenvectors
 - Geometry
@@ -90,6 +90,9 @@ $$\mathbb{A}\vec{v}=\lambda\vec{v}$$
      - whether the entirety of the cryptospace operates as a single system? If so, one large eigenvalue accounts for the majority of the variance
      - whether there are independent subcategories within that space. If so, several large eigenvalues exist.
 
+- more...
+  
+
 #### Finding Eigenvalues
 
 $$
@@ -98,7 +101,8 @@ $$
 (\mathbb{A}-\lambda\vec{I})\vec{v}=\vec{0}
 $$
 
-The eigenvector is in the null space of the matrix shifted by its eigenvalue. That mean the matrix shifted by its eigenvalue is singular and has a determinant $$ |\mathbb{A}-\lambda\vec{I}|=0 $$. Use a $$2 \times 2 $$ matrix as an example: 
+The eigenvector is in the null space of the matrix shifted by its eigenvalue. That mean the matrix shifted by its eigenvalue is singular and has a determinant $$ \det(\mathbb{A}-\lambda\vec{I})=0 $$
+Use a $$2\times2$$ matrix as an example: 
 
 $$
 \det (\mathbb{A}-\lambda\vec{I}) =
@@ -116,3 +120,18 @@ c & d
 $$
 
 The determinant of an eigenvalue-shifted matrix set to zero is called the **characteristic polynomial** of the matrix.
+
+
+#### Finding Eigenvectors
+Each eigenvalue corresponds to one eigenvector. Finding the eigenvectors is relatively easy. Use the example above, we can find one eigenvector [1 1]. But is [1 1] the only possible basis vector for the null space? Not even close, but any scaled version of vector [1 1] is a basis for that null space. In other words, if $$\vec{v}$$ is an eigenvector of a matrix, then so is $$\alpha\vec{v}$$ for any real-valued $$\alpha$$ except zero. The reason for this is, eigenvector is important because of its **direction**, not its *magnitude*.
+- There is no best basis vector
+- There is no correct sign of an eigenvector
+
+
+### Symmetric Matrices
+- Symmetric matrices have orthogonal eigenvectors.
+- Symmetric matrices have real-valued eigenvalues (and therefore real-valued eigenvectors).
+
+### Quadratic Form, Definiteness, and Eigenvalues
+- The Quadratic form of a matrix: pre- and postmultiply a square matrix by the same vector w and get a scalar:
+  - $$\vec{w}^T\mathbb{A}\vec{w}=\alpha$$
