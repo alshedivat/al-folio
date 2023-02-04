@@ -4,15 +4,16 @@ title: about
 permalink: /
 subtitle: >
   <p>Postdoctoral research associate</p>
-  <p>Computational Mechanics - Deep Learning - Fast dynamics - Blast loading - Structural Mechanics - Geomechanics</p>
+  <p>Computational Mechanics - Deep Learning - Fast dynamics - Structural Mechanics - Geomechanics</p>
 profile:
   align: right
   image: profile.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p><a href='https://scigem-eng.sydney.edu.au/'>Sydney Centre in Geomechanics and Mining Materials (SciGEM)</a></p>
-    <p>123 your address street</p>
+    <p>School of Civil Engineering</p>
     <p><a href='https://www.sydney.edu.au/engineering/about/our-people/academic-staff/filippo-masi.html'>The University of Sydney</a></p>
+    <p>NSW 2006 Australia</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
