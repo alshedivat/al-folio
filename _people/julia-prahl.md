@@ -8,3 +8,5 @@ category: admin
 ---
 
 <img src="{{ page.img }}" style="float: left; width: 10em; padding-right: 1em; padding-bottom: 1em"/>
+
+Julia manages all the day to day administrative processes.
