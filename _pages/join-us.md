@@ -4,7 +4,7 @@ permalink: /join-us/
 title: Join Us!
 description: 
 nav: true
-nav_order: 9
+nav_order: 21
 ---
 
 **We are hiring!** 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are currently looking for **several PhD students, postdocs, and student assistants** with an interest in machine learning with the earliest start date of **April 15th, 2023**.
@@ -60,7 +60,7 @@ We are really looking forward to your application!
 The **earliest start date is April 15th, 2023.**
 <!-- Please send your material directly to Martin Becker: [martin.becker@uni-rostock.de](mailto:martin.becker@uni-rostock.de).
 The subject should be **"PhD Application 2022"**. -->
-Please apply via the application portal of the [University of Rostock](https://jobs.uni-rostock.de/jobposting/9d8caafb70ad18899c92ca70fb2971886b14fbe60?ref=homepage).
+Please apply via the [application portal of the University of Rostock](https://jobs.uni-rostock.de/jobposting/9d8caafb70ad18899c92ca70fb2971886b14fbe60?ref=homepage).
 Please including the following as a single PDF:
 
 * **cover letter** (max. 1-2 page) detailing

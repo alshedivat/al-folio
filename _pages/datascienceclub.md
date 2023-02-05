@@ -4,7 +4,7 @@ permalink: /datascienceclub/
 title: Data Science Club
 description: University of Rostock
 nav: true
-nav_order: 8
+nav_order: 20
 ---
 
 <!-- <img src="/assets/img/datascienceclub/kaggle_pizza.png" style="float: right; width:100%"/> -->

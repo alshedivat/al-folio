@@ -137,6 +137,9 @@ collections:
   people:
     output: true
     permalink: /people/:path/
+  theses:
+    output: true
+    permalink: /theses/:path/
 
 news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
 news_limit: # leave blank to include all the news in the `_news` folder
@@ -302,6 +305,8 @@ enable_navbar_social:       false  # enables displaying social links in the
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_people_categories:   true   # enables categorization of people into
+                                   # multiple categories
+enable_thesis_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 
