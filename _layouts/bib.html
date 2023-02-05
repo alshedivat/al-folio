@@ -7,7 +7,11 @@
           {% if entry.preview contains '://' -%}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
           {%- else -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
+            {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
+            {% include figure.html 
+            path=entry_path 
+            class="preview z-depth-1 rounded"
+            alt=entry.preview -%}
           {%- endif -%}
         {%- elsif entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%}
