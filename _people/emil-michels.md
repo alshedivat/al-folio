@@ -1,8 +1,8 @@
 ---
 layout: page
-title: tom krueger
+title: Emil Michels
 description: Master student
-img: assets/img/tom-krueger.jpg
+img: /assets/img/people/placeholder.jpg
 importance: 1
 category: student
 ---

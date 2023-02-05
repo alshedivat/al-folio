@@ -1,8 +1,8 @@
 ---
 layout: page
-title: tom krueger
+title: Musa Kaleem
 description: Master student
-img: assets/img/people/musa-kaleem.jpg
+img: /assets/img/people/musa-kaleem.jpg
 importance: 1
 category: student
 ---
