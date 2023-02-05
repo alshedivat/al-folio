@@ -1,8 +1,8 @@
 ---
 layout: page
-title: tom krueger
-description: Master student
-img: assets/img/tom-krueger.jpg
+title: Julia Koch
+description: Bachelor student
+img: assets/img/placeholder.jpg
 importance: 1
 category: student
 ---
