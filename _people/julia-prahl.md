@@ -1,11 +1,11 @@
 ---
 layout: page
-title: tom krueger
-description: Master student
-img: assets/img/tom-krueger.jpg
+title: Julia Prahl
+description: Admin
+img: assets/img/people/julia-prahl.jpg
 importance: 1
-category: student
+category: admin
 ---
 
-<img src="/assets/img/people/tom-krueger.jpg" style="float: left; width: 10em; padding-right: 1em; padding-bottom: 1em"/>
+<img src="{{ page.img }}" style="float: left; width: 10em; padding-right: 1em; padding-bottom: 1em"/>
 
