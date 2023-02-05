@@ -2,12 +2,12 @@
 layout: page
 title: Martin Becker
 description: Jun.-Professor
-img: assets/img/people/martin-becker.jpg
+img: /assets/img/people/martin-becker.jpg
 importance: 1
 category: pi
 ---
 
-<img src="/assets/img/martin-becker.jpg" style="float: left; width: 10em; padding-right: 1em; padding-bottom: 1em"/>
+<img src="{{ page.img }}" style="float: left; width: 10em; padding-right: 1em; padding-bottom: 1em"/>
 
 I am passionate about highly collaborative projects and research that impact high-stake real-world problem settings at the intersection of medicine, environmental change, and human behavior through artificial intelligence and machine learning.
 
