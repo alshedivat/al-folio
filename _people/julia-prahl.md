@@ -2,7 +2,7 @@
 layout: page
 title: Julia Prahl
 description: Admin
-img: assets/img/people/julia-prahl.jpg
+img: /assets/img/people/julia-prahl.jpg
 importance: 1
 category: admin
 ---

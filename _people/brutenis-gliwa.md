@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Emil Michels
+title: Brutenis Gliwa
 description: Master student
-img: /assets/img/people/placeholder.jpg
+img: /assets/img/people/brutenis-gliwa.jpg
 importance: 1
 category: student
 ---
 
 <img src="{{ page.img }}" style="float: left; width: 10em; padding-right: 1em; padding-bottom: 1em"/>
 
-Emil works on building an overview of methods for integrating background knowledge into machine learning methods.
+Brutenis works on an industry project for analyzing spinal cords using deep learning methods.
