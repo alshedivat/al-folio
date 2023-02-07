@@ -62,7 +62,7 @@ $$
 \begin{equation}
     proj_{\vec{a}}\vec{b}=\frac{\vec{a}\vec{b}}{\lVert \vec{b} \rVert}\vec{u}
 \end{equation}
-$$$$ \frac{\vec{a}\vec{b}}{\lVert \vec{b} \rVert} $$ is called the scalar projection of $$ \vec{a} $$ onto $$ \vec{b} $$.
+$$ $$ \frac{\vec{a}\vec{b}}{\lVert \vec{b} \rVert} $$ is called the scalar projection of $$ \vec{a} $$ onto $$ \vec{b} $$.
 
 
 ### Eigenvalue & Eigenvector 🆎
@@ -81,8 +81,21 @@ Eigendecomposition is defined only for square matrices. Non-square matrices can 
 #### Inpterpretation of Eigenvalues and Eigenvectors
 - Geometry
   - a special combination of a matrix and a vector such that the matrix stretched—but did not rotate—that vector.
-  
-$$\mathbb{A}\vec{v}=\lambda\vec{v}$$
+
+the matrix eigenvalue equation:  
+$$
+\begin{equation}
+  \mathbb{A}\vec{v}=\lambda\vec{v}
+\end{equation}
+$$
+
+General form of the matrix eigenvalue equation
+$$
+\begin{equation}
+  \mathbb{AV}=\mathbb{V \Lambda} \Rightarrow \\
+  \mathbb{A}= \mathbb{V \Lambda V^{-1}}
+\end{equation}
+$$
 
 - Statistics
   -  multivariate data analysis requires the global pattern
@@ -140,3 +153,37 @@ Each eigenvalue corresponds to one eigenvector. Finding the eigenvectors is rela
 - Diagonalization: diagonalizing a matric means to represent a matrix as $$\mathbb{V}^{-1}\Lambda\mathbb{V}$$
   - where $$\mathbb{V}$$ is a matrix with eigenvectors in the columns
   - and $$\mathbb{\Lambda}$$ is a diagonal matrix with eigenvalues in the diagonal elements
+
+
+### Singular Value Decomposition (SVD) :cake:
+The purpose of SVD is to decompose a matric into the product of three matrices, called the left singular vectors ($$\mathbb{U}$$), the singular values ($$\mathbb{\Sigma}$$), and the right singular vectors ($$\mathbb{V}$$):
+
+$$
+\mathbb{A}=\mathbb{U} \mathbb{\Sigma} \mathbb{V}
+$$
+
+This looks similar to eigendecomposition, and in fact SVD is the generalization of eigendecomposition to nonsquare matrices. The singular values in the diagonal elements of $$\mathbb{\Sigma}$$ are compatible to eigenvalues, and the singular vetors matrices are comparable to eigenvectors.
+
+#### SVD from EIG
+SVD simply comes from computing the eigendecomposition of the matrix times
+its transpose:
+
+$$
+\begin{equation}
+    \mathbb{AA^T}=(\mathbb{U \Sigma V^T})(\mathbb{U \Sigma V^T})^T \\
+                 =\mathbb{U \Sigma V^T}\mathbb{V\Sigma^T U^T} \\
+                 = \mathbb{U \Sigma^2 U^T}
+\end{equation}
+$$
+
+The eigenvectors of $$\mathbb{AA^T}$$ are the left-singular vectors($$\mathbb{U}$$) of $$\mathbb{A}$$, and the squared eigenvalues of $$\mathbb{AA^T}$$ are the singular values($$\Sigma$$) of $$\mathbb{A}$$:
+- singular values are nonnegative because squared numbrets cannot be negative
+- singular values are real numbers
+- singular vectors are orthogonal because the eigenvectors of a symmetric matrix are orthogonal (linear independent)
+
+#### Singular Values and Variance (Explained)
+The sum of the singular values is the total amount of “variance” in the matrix. Tt is often useful to convert the singular values to percent total variance explained:
+
+$$
+\overline{\sigma_i} = \frac{100\sigma_i}{\sum\sigma}
+$$
