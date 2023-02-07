@@ -14,19 +14,12 @@
     - title: PhD in Sociology
       institution: University of Oxford, Nuffield College, UK
       year: 2020
-      description:
-        - Thesis title "How Class"
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Time-use
-            - Sub-description 2.
     - title: MA in Sociology
       institution: University of Geneva, Switzerland
       year: 2015
-      description:
-        - Description 1.
-        - Description 2.
+    - title: BA in Sociology and Anthropology
+      institution: Free University of Brussels, Belgium
+      year: 2012
 
 - title: Experience
   type: time_table
@@ -34,51 +27,7 @@
     - title: Part-Time Assistant Professor of Sociology
       institution: SPS, European University Institute
       year: 2022
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+
     - title: Max Weber Fellow
       institution: SPS, European University Institute
       year: 2021-2022
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

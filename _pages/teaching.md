@@ -2,11 +2,13 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description:
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+(2022-23) Introduction to Quantitative Methods. Department of Political and Social Sciences, European University in Florence.
 
-Organize your courses by years, topics, or universities, however you like!
+(2022) Introduction to R. Department of Political and Social Sciences, European University in Florence.
+
+(2021-22) Fundamentals of Statistical Programming for Policy Evaluation. School of Transnational Governance, European University in Florence.

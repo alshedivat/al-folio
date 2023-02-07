@@ -2,24 +2,42 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Max Weber Fellow, European University Institute</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address:
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to my professional page!
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am currently a Max Weber Fellow and Part-Time Assistant Professor at the Department of Political and Social Sciences at the European University Institute in Florence. You can view my profil on the [EUI website](https://www.eui.eu/people?id=giacomo-vagni). I completed my PhD in Sociology at Nuffield College, University of Oxford.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+You can reach me at [giacomo.vagni@eui.eu](mailto:giacomo.vagni@eui.eu)
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+-------------
+
+**Research interests**
+
+Families, inequality, time-use, demography, computational social science.
+
+-------------
+
+**Research Summary**
+
+My research addresses the question of inequality in daily life. I investigate how families, gender and social class stratification structure people’s activities such as paid work, housework, leisure, sleep and care. My work lies at the intersection of Family Sociology, Gender Sociology, Social Stratification and Time-Use Research; interdisciplinary in nature, it draws from various other disciplines besides Sociology, such as Economics, Demography and Political Science. My work is not only concerned with inequalities within countries but also comparatively explores inequalities between countries and through time. I use a number of quantitative surveys in my work, such as time-use surveys and household panel surveys, combining a variety of statistical methods, such as sequence analysis, fixed-effects models, synthetic control methods, etc.
+
+
+
+-------------
