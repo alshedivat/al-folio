@@ -32,7 +32,7 @@ The process can be broken down into three main steps:
   - For example, a prompt could be "What are the potential applications of combining X and Y in the field of Z?" or "What are the current limitations of using X in the study of Y and how could they be overcome?", "write a reserach proposal about X and Y in the field of Z", etc.
 - **Generating hypotheses and research ideas based on the prompts**: The final step is to use the LLM to generate hypotheses and research ideas based on the prompts. This can be done by feeding the prompts into the LLM and using its output as a starting point for further exploration and refinement.
 
-{% highlight python linenos %} 
+{% highlight python %} 
 input: list of keywords and concepts in field of study
 
 # Step 1: Find keywords and concepts
@@ -97,34 +97,37 @@ There are several disadvantages of using a large language model to propose scien
 
 ### Case 1 - generating hypotheses and research ideas by generate title and abstract of a paper
 
-the prompt
 
+<blockquote>
+**the prompt**
 Paper Title: "Exploring the Potential of Pre-Trained Language Models for Scientific Hypothesis Generation"
+Abstract: With the recent advancements in language models, such as GPT-3, there has been a surge of interest in using them for a variety of natural language processing tasks. In this paper, we examine the potential of these models for generating scientific hypotheses and research ideas. We propose a framework for leveraging the large pre-trained language models to extract relevant information from scientific articles, synthesize new knowledge, and generate hypotheses based on that knowledge. Our results demonstrate that the pre-trained language models can effectively extract scientific knowledge and generate novel and relevant hypotheses in various scientific domains. This study provides new insights into the potential of language models for scientific hypothesis generation and highlights the need for further research in this area.
+</blockquote>
 
-Abstract:
-With the recent advancements in language models, such as GPT-3, there has been a surge of interest in using them for a variety of natural language processing tasks. In this paper, we examine the potential of these models for generating scientific hypotheses and research ideas. We propose a framework for leveraging the large pre-trained language models to extract relevant information from scientific articles, synthesize new knowledge, and generate hypotheses based on that knowledge. Our results demonstrate that the pre-trained language models can effectively extract scientific knowledge and generate novel and relevant hypotheses in various scientific domains. This study provides new insights into the potential of language models for scientific hypothesis generation and highlights the need for further research in this area.
 
+> give me some possible research paper titles about spatial genomics + Proteomics + single cell 
 
-give me some possible research paper titles about spatial genomics + Proteomics + single cell 
+- "Integrating Spatial Genomics, Proteomics, and Single-Cell Analysis for a Comprehensive Understanding of Cellular Heterogeneity"
+- "Single-Cell Proteomics and Spatial Genomics: Decoding the Complexities of Tissue Microenvironments"
+- "Exploring the Intersection of Spatial Genomics, Proteomics, and Single-Cell Analysis in Cancer Research"
+- "Spatial Genomics, Proteomics, and Single-Cell Analysis: A Powerful Combination for Understanding Developmental Biology"
+- "Uncovering the Dynamics of Cellular Systems through Spatial Genomics, Proteomics, and Single-Cell Analysis"
+- "A systems biology approach to cellular heterogeneity: integrating Spatial Genomics, Proteomics, and Single-cell data"
+- "From single cell to organism: Spatial Genomics and Proteomics in Development"
+- "Exploring the Interplay between Chromatin, Proteins and transcriptional networks by integrating Spatial Genomics, Proteomics and single-cell analysis"
 
-"Integrating Spatial Genomics, Proteomics, and Single-Cell Analysis for a Comprehensive Understanding of Cellular Heterogeneity"
-"Single-Cell Proteomics and Spatial Genomics: Decoding the Complexities of Tissue Microenvironments"
-"Exploring the Intersection of Spatial Genomics, Proteomics, and Single-Cell Analysis in Cancer Research"
-"Spatial Genomics, Proteomics, and Single-Cell Analysis: A Powerful Combination for Understanding Developmental Biology"
-"Uncovering the Dynamics of Cellular Systems through Spatial Genomics, Proteomics, and Single-Cell Analysis"
-"A systems biology approach to cellular heterogeneity: integrating Spatial Genomics, Proteomics, and Single-cell data"
-"From single cell to organism: Spatial Genomics and Proteomics in Development"
-"Exploring the Interplay between Chromatin, Proteins and transcriptional networks by integrating Spatial Genomics, Proteomics and single-cell analysis"
+</blockquote>
 
+<blockquote>
 write 10 paper titles about reinforce learning and differential privacy
 
-"Differentially Private Deep Reinforcement Learning for Safe Navigation in Dynamic Environments"
-"Preserving Privacy in Multi-Agent Reinforcement Learning with Differential Privacy"
-"Differentially Private Reinforcement Learning for Privacy-Sensitive Decision Making in Healthcare"
-"Combining Reinforcement Learning and Differential Privacy for Secure Recommender Systems"
-"Differentially Private Reinforcement Learning for Robust Control of Autonomous Systems"
-"Applying Differential Privacy to Deep Reinforcement Learning for Safe Exploration in Robotics"
-"Differentially Private Reinforcement Learning for Privacy-Preserving Human-Robot Interaction"
-"Privacy-Aware Reinforcement Learning for Intelligent Traffic Control"
-"Differential Privacy for Reinforcement Learning in Decentralized Systems"
-"Differentially Private Reinforcement Learning for Secure Online Learning in Cyber-Physical Systems"
+- "Combining Reinforcement Learning and Differential Privacy for Secure Recommender Systems"
+- "Preserving Privacy in Multi-Agent Reinforcement Learning with Differential Privacy"
+- "Differentially Private Reinforcement Learning for Privacy-Sensitive Decision Making in Healthcare"
+- "Differentially Private Reinforcement Learning for Robust Control of Autonomous Systems"
+- "Applying Differential Privacy to Deep Reinforcement Learning for Safe Exploration in Robotics"
+- "Differentially Private Reinforcement Learning for Privacy-Preserving Human-Robot Interaction"
+- "Differentially Private Reinforcement Learning for Secure Online Learning in Cyber-Physical Systems"
+
+</blockquote>
+
