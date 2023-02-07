@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - domcritchlow
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - DomCritchlow/Point-in-Polygon
+  - DomCritchlow/TicTacToe
+  - dod-advana/gamechanger
+  - dod-advana/gamechanger-data
+  - dod-advana/gamechanger-web
+
