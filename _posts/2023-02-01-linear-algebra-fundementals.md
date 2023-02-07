@@ -2,7 +2,7 @@
 layout: post
 title: Linear Algebra Fundamentals
 date: 2023-02-01 11:12:00-0400
-description: metabolomics
+description: statistical-learning
 tags: LinearAlgebra DataScience 
 categories: 
 ---
