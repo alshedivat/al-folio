@@ -141,6 +141,7 @@ The goal of this proposal is to explore the use of single-cell proteomics and sp
 Characterize the protein content of individual cells within a tissue.
 Determine the spatial organization of proteins within tissues.
 Identify novel cell types and functional interactions between cells within a tissue.
+
 **Methods:**
 The study will involve the collection of tissue samples from a well-characterized model organism and the analysis of these samples using single-cell proteomics and spatial genomics techniques. To achieve the first objective, cells will be isolated and their protein content will be characterized through mass spectrometry. To achieve the second objective, the spatial organization of proteins will be determined through the use of tissue clearing and imaging methods such as CLARITY and Light-sheet Fluorescence Microscopy. To achieve the third objective, the data obtained from the first two objectives will be integrated with existing transcriptomic and genomic data to identify novel cell types and functional interactions within the tissue.
 
