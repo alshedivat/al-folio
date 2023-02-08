@@ -9,6 +9,9 @@ authors:
     url: "https://xinmingtu.cn"
     affiliations:
       name: University of Washington
+  - name: Jiahui Peng
+    affiliations:
+      name: California Institute of Technology
 ---
 
 ## Introduction
@@ -183,6 +186,6 @@ This study will contribute to the development of privacy-preserving solutions fo
 
 ## Acknowledgements
 
-I would like to extend our gratitude to Jiahui Peng, Zixuan Liu, and Hanwen Xu for their valuable feedback and discussion on this idea.
+I would like to extend our gratitude to Zixuan Liu, and Hanwen Xu for their valuable feedback and discussion on this idea.
 
 I would also like to give a special thank you to ChatGPT for its contributions to this post. With its language generation capabilities, it was instrumental in composing the majority of the paragraphs based on my given outline.
