@@ -119,7 +119,8 @@ Moreover, a Large Language Model can be leveraged to generate a paper title by i
 - "Uncovering the Dynamics of Cellular Systems through Spatial Genomics, Proteomics, and Single-Cell Analysis"
 - "Exploring the Interplay between Chromatin, Proteins and transcriptional networks by integrating Spatial Genomics, Proteomics and single-cell analysis"
 
-**Comments:**  The titles generated in the study are very relevant to the provided keywords and concepts, making it difficult to distinguish between real and generated titles. Upon conducting a Google search, there were real papers related to some of the generated titles, but no exact matches were found..
+
+> **Comments:**  *The titles generated in the study are very relevant to the provided keywords and concepts, making it difficult to distinguish between real and generated titles. Upon conducting a Google search, there were real papers related to some of the generated titles, but no exact matches were found.*
 
 Now, we can use the generated title as the starting point for the development of a comprehensive research proposal.
 
@@ -146,7 +147,7 @@ The study is expected to provide a comprehensive characterization of the protein
 **Conclusion:**
 In conclusion, this study will provide a cutting-edge investigation into the complexities of tissue microenvironments through the use of single-cell proteomics and spatial genomics. The findings of this study have the potential to significantly advance our understanding of tissues and will provide a foundation for future studies aimed at improving our understanding of the biological mechanisms underlying tissue function.
 
-**Comments:** *The generated research proposal is well-rounded and includes all essential components of a research proposal. The introduction and objectives align well with the generated title, and the methods and expected outcomes seem reasonable. Overall, it is a solid piece of work.*
+> **Comments:** *The generated research proposal is well-rounded and includes all essential components of a research proposal. The introduction and objectives align well with the generated title, and the methods and expected outcomes seem reasonable. Overall, it is a solid piece of work.*
 <hr>
 ### Scenario 3 - Direct Generation of a Research Proposal from Keywords
 
@@ -185,7 +186,7 @@ Increased understanding of the trade-off between privacy and accuracy in RL algo
 Conclusion:
 This study will contribute to the development of privacy-preserving solutions for personalized decision making based on RL algorithms. The proposed approach has the potential to impact various domains, including healthcare, finance, and transportation, where privacy and accuracy are both important concerns. The results of this research will inform future work in this area and provide new insights into the challenges and opportunities of combining RL algorithms and DP techniques.
 
-**Comments:** *The generated research proposal demonstrates the capabilities of the LLM model in linking seemingly disparate concepts and forming novel connections. The discovery of the connection between Personalized Decision Making, Reinforcement Learning, and Differential Privacy is impressive and highlights the potential for the use of LLMs in scientific research. The proposal is well-structured and covers all the essential elements of a research proposal, including the introduction, objectives, methods, and expected outcomes. Overall, this proposal is a good demonstration of the power of LLMs in generating novel and innovative research ideas.* 
+> **Comments:** *The generated research proposal demonstrates the capabilities of the LLM model in linking seemingly disparate concepts and forming novel connections. The discovery of the connection between Personalized Decision Making, Reinforcement Learning, and Differential Privacy is impressive and highlights the potential for the use of LLMs in scientific research. The proposal is well-structured and covers all the essential elements of a research proposal, including the introduction, objectives, methods, and expected outcomes. Overall, this proposal is a good demonstration of the power of LLMs in generating novel and innovative research ideas.* 
 <hr>
 
 ## Discussion
