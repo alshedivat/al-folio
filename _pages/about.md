@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: 1st year PhD student @ <a href="https://www.ics.uci.edu/~smyth/research_group.html">DataLab</a> & <a href="https://ucinlp.github.io/">UCI-nlp</a> | Organizer @ <a href="https://www.meetup.com/pt-BR/Deep-Learning-Sessions-Lisboa/">DLSPT</a> #uci-nlp | datalab | DLSPT
+description: 2nd year PhD student @ <a href="https://www.ics.uci.edu/~smyth/research_group.html">DataLab</a> & <a href="https://ucinlp.github.io/">UCI-nlp</a> | Organizer @ <a href="https://www.meetup.com/pt-BR/Deep-Learning-Sessions-Lisboa/">DLSPT</a>  #uci-nlp | datalab | DLSPT
 
 profile:
   align: right
