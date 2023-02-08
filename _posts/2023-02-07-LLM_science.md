@@ -46,7 +46,7 @@ In this section, I will give a initial idea about how to use LLMs to generate sc
 The process can be broken down into three main steps:
 
 - **Finding keywords and concepts**: The first step in using an LLM to generate scientific hypotheses and research ideas is to identify the relevant keywords and concepts in the field of study. This can be done by conducting a literature review by LLM, analyzing recent conference proceedings, or using other methods to identify trends and topics in the field.
-- **Generating prompts based on the combination of keywords and concepts**: Once the relevant keywords and concepts have been identified, the next step is to create a set of prompts based on the combination of these keywords and concepts. 
+- **Generating prompts based on the combination of keywords and concepts**: Once the relevant keywords and concepts have been identified, the next step is to create a set of prompts based on the combination of these keywords and concepts.
   - For example, a prompt could be "What are the potential applications of combining X and Y in the field of Z?" or "What are the current limitations of using X in the study of Y and how could they be overcome?", "write a reserach proposal about X and Y in the field of Z", etc.
 - **Generating hypotheses and research ideas based on the prompts**: The final step is to use the LLM to generate hypotheses and research ideas based on the prompts. This can be done by feeding the prompts into the LLM and using its output as a starting point for further exploration and refinement.
 
@@ -69,7 +69,7 @@ output: list of hypotheses and research ideas
 
 The use of Large Language Models (LLMs) for generating scientific hypotheses and research ideas presents several opportunities and challenges. In this section, we will discuss the advantages and limitations of using LLMs in the scientific process.
 
-### Advantages of using LLMs for scientific hypothesis/research ideas generation
+### Advantages
 
 There are several advantages to using large language models to propose scientific hypotheses and research ideas, such as:
 
@@ -78,7 +78,7 @@ There are several advantages to using large language models to propose scientifi
 - **Interdisciplinary reach**: Language models have been trained on a vast variety of text, therefore they have the capability to reach into many domains and interdisciplinary fields which could generate ideas that humans might not have thought of before.
 - **Continual learning**: Large language models can be retrained with new data, which would mean they can learn and develop with new research over time, which can lead to even more innovative ideas over time.
 
-### Disadvantages of Using a Large Language Model to Propose Scientific Hypotheses or Research Ideas
+### Limitations
 
 There are several disadvantages of using a large language model to propose scientific hypotheses or research ideas, including:
 
@@ -183,7 +183,7 @@ Increased understanding of the trade-off between privacy and accuracy in RL algo
 Conclusion:
 This study will contribute to the development of privacy-preserving solutions for personalized decision making based on RL algorithms. The proposed approach has the potential to impact various domains, including healthcare, finance, and transportation, where privacy and accuracy are both important concerns. The results of this research will inform future work in this area and provide new insights into the challenges and opportunities of combining RL algorithms and DP techniques.
 
-> **Comments:** *The generated research proposal demonstrates the capabilities of the LLM model in linking seemingly disparate concepts and forming novel connections. The discovery of the connection between Personalized Decision Making, Reinforcement Learning, and Differential Privacy is impressive and highlights the potential for the use of LLMs in scientific research. The proposal is well-structured and covers all the essential elements of a research proposal, including the introduction, objectives, methods, and expected outcomes. Overall, this proposal is a good demonstration of the power of LLMs in generating novel and innovative research ideas.* 
+> **Comments:** *The generated research proposal demonstrates the capabilities of the LLM model in linking seemingly disparate concepts and forming novel connections. The discovery of the connection between Personalized Decision Making, Reinforcement Learning, and Differential Privacy is impressive and highlights the potential for the use of LLMs in scientific research. The proposal is well-structured and covers all the essential elements of a research proposal, including the introduction, objectives, methods, and expected outcomes. Overall, this proposal is a good demonstration of the power of LLMs in generating novel and innovative research ideas.*
 <hr>
 
 ## Discussion
