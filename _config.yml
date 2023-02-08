@@ -202,7 +202,6 @@ plugins:
   - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-feed
-  - jekyll-gist
   - jekyll-imagemagick
   - jekyll-minifier
   - jekyll-paginate-v2
