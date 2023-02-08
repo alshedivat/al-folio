@@ -106,7 +106,7 @@ There are several disadvantages of using a large language model to propose scien
 
 In fact, we can utilize ChatGPT to generate content relevant to this blog post
 
-> **Prompt**: write a paper title about Leveraging Large Language Models to Propose Scientific Hypotheses and Research Ideas, and the abstract
+> **Prompt**: `write a paper title about Leveraging Large Language Models to Propose Scientific Hypotheses and Research Ideas, and the abstract`
 
 **Title**: "Exploring the Potential of Pre-Trained Language Models for Scientific Hypothesis Generation"
 
@@ -116,7 +116,7 @@ In fact, we can utilize ChatGPT to generate content relevant to this blog post
 
 Moreover, a Large Language Model can be leveraged to generate a paper title by inputting a list of relevant keywords.
 
-> `Prompt`: give me some possible research paper titles about spatial genomics + Proteomics + single cell
+> **Prompt**: `give me some possible research paper titles about spatial genomics + Proteomics + single cell`
 
 - "Integrating Spatial Genomics, Proteomics, and Single-Cell Analysis for a Comprehensive Understanding of Cellular Heterogeneity"
 - "Single-Cell Proteomics and Spatial Genomics: Decoding the Complexities of Tissue Microenvironments"
@@ -128,7 +128,7 @@ Moreover, a Large Language Model can be leveraged to generate a paper title by i
 <hr>
 Now, we can use the generated title as the starting point for the development of a comprehensive research proposal. 
 
-> `Prompt`: write a research proposal about "Single-Cell Proteomics and Spatial Genomics: Decoding the Complexities of Tissue Microenvironments"
+> **Prompt**: `write a research proposal about "Single-Cell Proteomics and Spatial Genomics: Decoding the Complexities of Tissue Microenvironments"`
 
 **Title:** Decoding the Complexities of Tissue Microenvironments through Single-Cell Proteomics and Spatial Genomics
 
@@ -156,9 +156,8 @@ In conclusion, this study will provide a cutting-edge investigation into the com
 
 In Scenario 3, the aim is to generate a complete research proposal directly from a set of keywords. This approach leverages the language generation capabilities of the LLM to transform the keywords into a full-fledged research proposal.
 
-> `Prompt`: write a research proposal about Reinforcement Learning + Differential Privacy
+> **Prompt**: `write a research proposal about Reinforcement Learning + Differential Privacy`
 
-<hr>
 **Title**: "Enhancing Differential Privacy in Reinforcement Learning Algorithms for Personalized Decision Making"
 
 **Introduction:**
