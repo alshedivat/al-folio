@@ -80,17 +80,16 @@ There are several disadvantages of using a large language model to propose scien
 - **Bias in the training data:** The training data used to train a large language model can reflect the biases and limitations of the people who created and annotated it. This could result in the model generating hypotheses or ideas that are biased or limited in some way.
 
 
-
 ## Conclusion
 
 
 ## Related links
 
-- [https://xcorr.net/2022/05/30/large-language-models-will-change-science/](Large language models will change science) by Patrick Mineault May 30, 2022, mainly discuss about understanding the information rather than "creativity"
-- [https://elicit.org](The AI Research Assistant)
+- [Large language models will change science](https://xcorr.net/2022/05/30/large-language-models-will-change-science/) by Patrick Mineault May 30, 2022, mainly discuss about understanding the information rather than "creativity"
+- [The AI Research Assistant](https://elicit.org)
   - "Elicit uses language models to help you automate research workflows, like parts of literature review. Elicit can find relevant papers without perfect keyword match, summarize takeaways from the paper specific to your question, and extract key information from the papers."
-- [https://future.com/how-to-build-gpt-3-for-science/](How to Build GPT-3 for Science) by Josh Nicholson August 18, 2022, mainly discuss about how to build a LLM for science.
-- [https://www.nature.com/articles/d41586-023-00340-6](What ChatGPT and generative AI mean for science) by Chris Stokel-Walker & Richard Van Noorden *Nature* Feb 03, 2023 , mainly discuss about the text revision.
+- [How to Build GPT-3 for Science](https://future.com/how-to-build-gpt-3-for-science/) by Josh Nicholson August 18, 2022, mainly discuss about how to build a LLM for science.
+- [What ChatGPT and generative AI mean for science](https://www.nature.com/articles/d41586-023-00340-6) by Chris Stokel-Walker & Richard Van Noorden *Nature* Feb 03, 2023 , mainly discuss about the text revision.
 
 ## Case study
 
