@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Strumien danych # the website title (if blank, full name will be used instead)
+title: Data flow # the website title (if blank, full name will be used instead)
 first_name: Szymon
 middle_name: 
 last_name: Kowalewski
