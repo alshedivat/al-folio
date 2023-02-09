@@ -2,11 +2,11 @@ github_users:
   - Szymok
 
 github_repos:
-  - etl-log-activity
-  - deepnote
-  - property-price-predict-kaggle
-  - job-salary-ai
-  - audiophile
-  - video_streaming_pipeline
-  - footstat
-  - blockchain-network
+  - Szymok/etl-log-activity
+  - Szymok/deepnote
+  - Szymok/property-price-predict-kaggle
+  - Szymok/job-salary-ai
+  - Szymok/audiophile
+  - Szymok/video_streaming_pipeline
+  - Szymok/footstat
+  - Szymok/blockchain-network
