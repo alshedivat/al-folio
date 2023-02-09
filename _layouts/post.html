@@ -43,6 +43,10 @@ layout: default
     {{ content }}
   </article>
 
+  {%- if page.related_posts -%}
+    {% include related_posts.html %}
+  {%- endif %}
+
   {%- if site.disqus_shortname and page.disqus_comments -%}
     {% include disqus.html %}
   {%- endif %}
