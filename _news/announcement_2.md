@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Udostępnienie wielu narzędzi AI do darmowego użytku
+date: 2023-02-11 16:11:00-0400
 inline: false
 ---
 
