@@ -101,7 +101,7 @@ In fact, we can utilize ChatGPT to generate content relevant to this blog post
 
 **Abstract**: With the recent advancements in language models, such as GPT-3, there has been a surge of interest in using them for a variety of natural language processing tasks. In this paper, we examine the potential of these models for generating scientific hypotheses and research ideas. We propose a framework for leveraging the large pre-trained language models to extract relevant information from scientific articles, synthesize new knowledge, and generate hypotheses based on that knowledge. Our results demonstrate that the pre-trained language models can effectively extract scientific knowledge and generate novel and relevant hypotheses in various scientific domains. This study provides new insights into the potential of language models for scientific hypothesis generation and highlights the need for further research in this area.
 
-**Comments**: *The generated title and abstract effectively capture the essence of the blog post, providing a clear and concise overview of its main content.*
+> **Comments**: *The generated title and abstract effectively capture the essence of the blog post, providing a clear and concise overview of its main content.*
 
 ### Scenario 2: Generation of a Research Proposal from a Generated Paper Title Using Keywords
 
