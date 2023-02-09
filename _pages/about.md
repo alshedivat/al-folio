@@ -19,5 +19,5 @@ Hong Kong, China<br>
 zhuys2019 [at] mail.sustech.edu.cn<br>
 [Google scholar](https://scholar.google.com/) | [Github](https://github.com/YasoZ) | [DBLP](https://dblp.org/pid/286/7280.html)
 
-I'm currently a joint PhD student in SUSTech and CityU under the supervision of Dr. [James J.Q. Yu](https://jamesyu.me/) and Dr. [Xiangyu Zhao](https://zhaoxyai.github.io/).
-Before that, I received my B.Eng. from Shandong University in Weihai, China. Then I received my M.Phil. in Computer Science and Engineering from Southern University of Science and Technology [CSE@SUSTech](https://cse.sustech.edu.cn/)), under the supervision of Dr. [James J.Q. Yu](https://jamesyu.me/).
+I'm currently a joint PhD student in SUSTech and CityU under the supervision of [James J.Q. Yu](https://jamesyu.me/) and [Xiangyu Zhao](https://zhaoxyai.github.io/).
+Before that, I received my B.Eng. from Shandong University in Weihai, China. Then I received my M.Phil. in Computer Science and Engineering from Southern University of Science and Technology [CSE@SUSTech](https://cse.sustech.edu.cn/)), under the supervision of Prof. [James J.Q. Yu](https://jamesyu.me/).
