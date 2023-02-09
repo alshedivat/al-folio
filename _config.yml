@@ -3,8 +3,8 @@
 # -----------------------------------------------------------------------------
 
 title: # the website title (if blank, full name will be used instead)
-first_name: Szymonek
-middle_name: 
+first_name: Szymon
+middle_name: T.
 last_name: Kowalewski
 email: szymonkowal019@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -104,7 +104,7 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics: 350990852
+google_analytics: G-GY820WSFQY
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
