@@ -67,7 +67,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: Szymok
+github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: SkSzymon
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
@@ -86,14 +86,14 @@ work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
-stackoverflow_id: 9528279
-kaggle_id: 7013179
+stackoverflow_id:  # your stackoverflow id
+kaggle_id: # your kaggle id
 lastfm_id: # your lastfm id
-spotify_id: 65ee36bedd0146fe
+spotify_id: # your spotify id
 pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
 instagram_id: 1413889434
-facebook_id: # your facebook id
+facebook_id: 100081061762554
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
