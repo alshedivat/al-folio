@@ -19,14 +19,17 @@ d-byline a, d-article d-byline a {
 
 d-article {
   border-top-color: var(--global-divider-color) !important;
-  a, p, h1, h2, h3, h4, h5, h6, li, table {
+  p, h1, h2, h3, h4, h5, h6, li, table {
     color: var(--global-text-color) !important;
   }
-  a, h1, h2, hr, table, table th, table td {
+  h1, h2, hr, table, table th, table td {
     border-bottom-color: var(--global-divider-color) !important;
   }
-  a:hover {
-    border-bottom-color: var(--global-hover-color) !important;
+  a {
+    color: var(--global-theme-color) !important;
+    &:hover {
+      color: var(--global-theme-color) !important;
+    }
   }
   b i {
     display: inline;
@@ -44,13 +47,13 @@ d-article {
     width: calc(max(70%, 300px));
     margin-right: 0px;
     margin-top:  0em;
-    display: grid;      
-    grid-template-columns: 
-      minmax(8px, 1fr) [toc] auto 
+    display: grid;
+    grid-template-columns:
+      minmax(8px, 1fr) [toc] auto
       minmax(8px, 1fr) [toc-line] 1px
       minmax(32px, 2fr);
-    
-    nav {      
+
+    nav {
       grid-column: toc;
       a {
         border-bottom: none !important;
@@ -86,6 +89,10 @@ d-article {
       border-right: 1px solid var(--global-divider-color);
       grid-column: toc-line;
     }
+  }
+
+  d-footnote {
+    scroll-margin-top: 66px;
   }
 }
 

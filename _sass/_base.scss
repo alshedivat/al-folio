@@ -12,6 +12,15 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+table {
+  td, th {
+    color: var(--global-text-color);
+  }
+  td {
+    font-size: 1rem;
+  }
+}
+
 a, table.table a {
   color: var(--global-theme-color);
   &:hover {
@@ -21,6 +30,10 @@ a, table.table a {
   &:hover:after :not(.nav-item.dropdown) {
     width: 100%;
   }
+}
+
+figure, img {
+  max-width: 90vw;
 }
 
 blockquote {
@@ -47,7 +60,32 @@ blockquote {
   text-align: center;
 }
 
+// Card
+
+.card {
+  background-color: var(--global-card-bg-color);
+
+  img {
+    width: 100%;
+  }
+
+  .card-title {
+    color: var(--global-text-color);
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
 // Citation
+
 .citation, .citation-number {
   color: var(--global-theme-color);
 }
@@ -55,7 +93,6 @@ blockquote {
 // Profile
 
 .profile {
-  margin-left: 1rem;
   width: 100%;
   margin-right: 0rem;
 
@@ -68,6 +105,12 @@ blockquote {
       margin: 0;
     }
   }
+}
+.profile.float-right{
+  margin-left: 1rem;
+}
+.profile.float-left{
+  margin-right: 1rem;
 }
 
 @media (min-width: 576px) {
@@ -150,7 +193,7 @@ blockquote {
     a {
       i::before {
         color: var(--global-text-color);
-        -webkit-transition: all 0.2s ease-in-out;
+        transition-property: all 0.2s ease-in-out;
       }
       &:hover {
         i::before {
@@ -196,16 +239,14 @@ blockquote {
   }
 }
 
-
-// News
-
-.news table td {
-  font-size: 1rem;
+#light-toggle {
+  padding: 0;
+  border: 0;
+  background-color: inherit;
   color: var(--global-text-color);
-}
-
-.news table th {
-  color: var(--global-text-color);
+  &:hover {
+    color: var(--global-hover-color);
+  }
 }
 
 .myicon {
@@ -222,7 +263,7 @@ blockquote {
     a {
       i::before {
         color: var(--global-text-color);
-        -webkit-transition: all 0.2s ease-in-out;
+        transition-property: all 0.2s ease-in-out;
       }
       &:hover {
         i::before {
@@ -262,6 +303,34 @@ footer.sticky-bottom {
   font-size: 0.9rem;
 }
 
+// CV
+
+.cv {
+  margin-bottom: 40px;
+  
+  .card {
+    background-color: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    
+    .list-group-item {
+      background-color: inherit;
+      border-color: var(--global-divider-color);
+
+      .badge {
+        color: var(--global-card-bg-color) !important;
+        background-color: var(--global-theme-color) !important;
+      }
+    }
+  }
+}
+
+// Repositories
+
+@media (min-width: 768px) {
+  .repo {
+    max-width: 50%;
+  }
+}
 
 // Blog
 
@@ -269,10 +338,28 @@ footer.sticky-bottom {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
   padding-top: 2rem;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
   h1 {
     color: var(--global-theme-color);
     font-size: 5rem;
+  }
+}
+
+.tag-list {
+  border-bottom: 1px solid var(--global-divider-color);
+  text-align: center;
+  padding-top: 1rem;
+
+  ul {
+    justify-content: center;
+    display: flow-root;
+
+    p, li {
+      list-style: none;
+      display: inline-block;
+      padding: 1rem 0.5rem;
+      color: var(--global-text-color-light);
+    }
   }
 }
 
@@ -294,6 +381,7 @@ footer.sticky-bottom {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
       padding-top: 0.25rem;
+      padding-bottom: 0;
     }
     a {
       color: var(--global-text-color);
@@ -351,9 +439,6 @@ footer.sticky-bottom {
     img {
       width: 100%;
     }
-    .card-title {
-      color: $black-color;
-    }
   }
 
   .card-item {
@@ -366,7 +451,7 @@ footer.sticky-bottom {
     }
   }
 
-  .grid-item {
+  .grid-sizer, .grid-item {
     width: 250px;
     margin-bottom: 10px;
   }
@@ -414,6 +499,11 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
+      .preview {
+        width: 100%;
+        min-width: 80px;
+        max-width: 200px;
+      }
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
@@ -449,6 +539,15 @@ footer.sticky-bottom {
           border-bottom: 1px solid;
           font-style: normal;
         }
+        > span.more-authors {
+          color: var(--global-text-color-light);
+          border-bottom: 1px dashed var(--global-text-color-light);
+          cursor: pointer;
+          &:hover {
+              color: var(--global-text-color);
+              border-bottom: 1px dashed var(--global-text-color);
+          }
+        }
       }
       .links {
         a.btn {
@@ -464,12 +563,24 @@ footer.sticky-bottom {
           }
         }
       }
+      .badges {
+        span {
+          display: inline-block;
+          color: $black-color;
+          height: 100%;
+          padding-left: 0.5rem;
+          vertical-align: middle;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
       .hidden {
         font-size: 0.875rem;
         max-height: 0px;
         overflow: hidden;
         text-align: justify;
-        -webkit-transition: 0.15s ease;
+        transition-property: 0.15s ease;
         -moz-transition: 0.15s ease;
         -ms-transition: 0.15s ease;
         -o-transition: 0.15s ease;
@@ -487,7 +598,7 @@ footer.sticky-bottom {
       }
       .hidden.open {
         max-height: 100em;
-        -webkit-transition: 0.15s ease;
+        transition-property: 0.15s ease;
         -moz-transition: 0.15s ease;
         -ms-transition: 0.15s ease;
         -o-transition: 0.15s ease;
@@ -547,6 +658,7 @@ html.transition *:after {
   .post-tags{
     color: var(--global-text-color-light);
     font-size: 0.875rem;
+    padding-top: 0.25rem;
     padding-bottom: 1rem;
     a {
       color: var(--global-text-color-light);
@@ -557,15 +669,64 @@ html.transition *:after {
     }
   }
   .post-content{
-        blockquote {
-          border-left: 5px solid var(--global-theme-color);
-          padding: 8px;
-      }
-}
+    blockquote {
+      border-left: 5px solid var(--global-theme-color);
+      padding: 8px;
+    }
+  }
 }
 
-.post-tags {
-  color: var(--global-text-color-light);
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-}
+progress {
+     /* Positioning */
+     position: fixed;
+     left: 0;
+     top: 56px;
+     z-index: 10;
+   
+     /* Dimensions */
+     width: 100%;
+     height: 1px;
+   
+     /* Reset the appearance */
+     -webkit-appearance: none;
+        -moz-appearance: none;
+             appearance: none;
+   
+     /* Get rid of the default border in Firefox/Opera. */
+     border: none;
+   
+     /* Progress bar container for Firefox/IE10  */
+     background-color: transparent;
+   
+     /* Progress bar value for IE10  */
+     color: var(--global-theme-color);
+ }
+ 
+ progress::-webkit-progress-bar {
+     background-color: transparent;
+ }
+   
+ progress::-webkit-progress-value {
+     background-color: var(--global-theme-color);
+ }
+   
+ progress::-moz-progress-bar {
+     background-color: var(--global-theme-color);
+ }
+ 
+ .progress-container {
+     width: 100%;
+     background-color: transparent;
+     position: fixed;
+     top: 56px;
+     left: 0;
+     height: 5px;
+     display: block;
+ }
+ 
+ .progress-bar {
+     background-color: var(--global-theme-color);
+     width: 0%;
+     display: block;
+     height: inherit;
+ }
