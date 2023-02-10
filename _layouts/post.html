@@ -43,7 +43,7 @@ layout: default
     {{ content }}
   </article>
 
-  {%- if page.related_posts -%}
+  {%- if page.related_posts == null or page.related_posts -%}
     {% include related_posts.html %}
   {%- endif %}
 
