@@ -48,17 +48,6 @@
     <meta property="og:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
     {%- endif %}
     <meta property="og:locale" content="{{ site.lang }}" />
-
-    <!-- Twitter card -->
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="{%- if page.title -%}{{ page.title }}{%- else -%}{{ title }}{%- endif -%}" />
-    <meta name="twitter:description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />
-    {% if page.og_image or site.og_image -%}
-    <meta name="twitter:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
-    {%- endif %}
-    {% if site.twitter_username -%}
-    <meta name="twitter:site" content="@{{ site.twitter_username }}" />
-    <meta name="twitter:creator" content="@{{ site.twitter_username }}" />
     {%- endif %}
 {%- endif %}
 
@@ -97,10 +86,6 @@
     {%- endif -%}
     {%- if site.linkedin_username -%}
         {%- capture link -%}https://www.linkedin.com/in/{{ site.linkedin_username }}{%- endcapture -%}
-        {%- assign sameaslinks = sameaslinks | push: link -%}
-    {%- endif -%}
-    {%- if site.twitter_username -%}
-        {%- capture link -%}https://twitter.com/{{ site.twitter_username }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
     {%- if site.medium_username -%}
