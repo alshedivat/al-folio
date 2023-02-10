@@ -11,7 +11,7 @@
 
 <meta name="author" content="LT" />
 
-<meta name="date" content="2023-02-07" />
+<meta name="date" content="2023-02-08" />
 
 <title>PLS</title>
 
@@ -342,6 +342,28 @@ if (window.hljs) {
 
 
 
+<style type="text/css">
+
+div.csl-bib-body { }
+div.csl-entry {
+clear: both;
+}
+.hanging div.csl-entry {
+margin-left:2em;
+text-indent:-2em;
+}
+div.csl-left-margin {
+min-width:2em;
+float:left;
+}
+div.csl-right-inline {
+margin-left:2em;
+padding-left:1em;
+}
+div.csl-indent {
+margin-left: 2em;
+}
+</style>
 
 
 
@@ -452,14 +474,24 @@ display: none;
 
 <h1 class="title toc-ignore">PLS</h1>
 <h4 class="author">LT</h4>
-<h4 class="date">2023-02-07</h4>
+<h4 class="date">2023-02-08</h4>
 
 </div>
 
 <div id="TOC">
 <ul>
-<li><a href="#introduction" id="toc-introduction">Introduction</a></li>
-<li><a href="#algorithm" id="toc-algorithm">Algorithm</a></li>
+<li><a href="#introduction" id="toc-introduction">Introduction</a>
+<ul>
+<li><a href="#pls12" id="toc-pls12">pls1/2</a></li>
+</ul></li>
+<li><a href="#algorithm" id="toc-algorithm">Algorithm</a>
+<ul>
+<li><a href="#objective-function" id="toc-objective-function">Objective
+function</a></li>
+<li><a href="#solution" id="toc-solution">Solution</a></li>
+</ul></li>
+<li><a href="#example" id="toc-example">Example</a></li>
+<li><a href="#reference" id="toc-reference">Reference</a></li>
 </ul>
 </div>
 
@@ -468,8 +500,8 @@ display: none;
 <p>Multivariate regression methods like Principal Component Regression
 (PCR) and Partial Least Squares Regression (PLS) enjoy wide popularity
 in a wide range of research fields.</p>
-<p>In traditional multivariate linear regression (MLR), the least-square
-solution for <span class="math display">\[
+<p>In traditional multivariate linear regression (MLR), the
+least-squares solution for <span class="math display">\[
 \tag{1}
 \begin{equation}
 \vec{Y}=\mathbb{X}\vec{\beta}+\vec{\epsilon}
@@ -481,41 +513,165 @@ solution for <span class="math display">\[
 \end{equation}
 \]</span> The problem is that <span class="math inline">\(\mathbb{X}^T\mathbb{X}\)</span> is often singular,
 either because the number of variables in <span class="math inline">\(\mathbb{X}\)</span> exceeds the number of
-observations, or due to linear dependence. One solution is, like the one
-provided by PLS and PCR, first decompose <span class="math inline">\(\mathbb{X}\)</span> and then regress <span class="math inline">\(\mathbb{Z}\)</span> (a small number of
+observations, or due to linear dependence of the feature vector set. One
+solution is, like the one provided by PCR, first to decompose <span class="math inline">\(\mathbb{X}\)</span> and then regress <span class="math inline">\(\mathbb{Z}\)</span> (a small number of
 eigenvectors with large eigenvalues chosen by cross-validation) on <span class="math inline">\(\mathbb{Y}\)</span>. In PCR, it only takes into
 account information in <span class="math inline">\(\mathbb{X}\)</span>,
 and therefore may be sub-optimal for prediction purposes.</p>
-<p>Here, the selection of the principal components to incorporate in the
-model is not supervised by the outcome variable. hence nothing
+<p>Here in PCR, the selection of the principal components to incorporate
+in the model is not supervised by the outcome variable. hence nothing
 guarantees that the principal components, which explain <span class="math inline">\(\mathbb{X}\)</span>, are relevant to <span class="math inline">\(\mathbb{Y}\)</span>. For example, one algorithm
-called SIMPLS, chooses eigenvectors and eigenvalues in such a way to
-describe as much as possible of the covariance between <span class="math inline">\(\mathbb{X}\)</span> and <span class="math inline">\(\mathbb{Y}\)</span>, where PCR concentrates on the
+called SIMPLS <span class="citation">(de Jong 1993)</span>, chooses
+eigenvectors and eigenvalues in such a way to describe as much as
+possible of the covariance between <span class="math inline">\(\mathbb{X}\)</span> and <span class="math inline">\(\mathbb{Y}\)</span>, where PCR concentrates on the
 <em>variance</em> of <span class="math inline">\(\mathbb{X}\)</span></p>
 <p><code>pls</code> regression finds components from X that are also
 relevant for Y. Specifically, <code>pls</code> regression searches for a
-set of components (called latent vectors) that performs a simultaneous
-decomposition of X and Y with the <em>constraint</em> that these
-components explain as much as possible of the
-<strong>covariance</strong> between X and Y.</p>
+set of components (called latent vectors or eigenvectors) that performs
+a simultaneous decomposition of X and Y with the <em>constraint</em>
+that these components explain as much as possible of the
+<strong>covariance</strong> between <span class="math inline">\(\mathbb{X}\)</span> and <span class="math inline">\(\mathbb{Y}\)</span> <span class="citation">(Mevik
+and Wehrens 2007)</span>.</p>
+<div id="pls12" class="section level3">
+<h3>pls1/2</h3>
+<p>Univariate response vector case is called pls1, and multivariate
+response matrix case is called pls2.</p>
+</div>
 </div>
 <div id="algorithm" class="section level2">
 <h2>Algorithm</h2>
+<div id="objective-function" class="section level3">
+<h3>Objective function</h3>
+<p>Step 1: Find the directions of a pair of unit vectors, <span class="math inline">\(\vec{v} \in \mathbb{R}^{m}\)</span> in the input
+space and <span class="math inline">\(\vec{w} \in
+\mathbb{R}^{l}\)</span> in the output space, that maximizes the
+correlation between the projection of input vector onto the unit vector,
+<span class="math inline">\(\vec{z}=\vec{v}^T\mathbb{X}\)</span>,a nd
+that of the output vector, <span class="math inline">\(\vec{r}=\vec{w}^T\mathbb{Y}\)</span>:</p>
+<p><span class="math display">\[
+\begin{aligned}
+\max_{\vec{v}, \vec{w}}E[\vec{z}\cdot\vec{r}]= \max_{\vec{v},
+\vec{w}}E[\vec{v}^T\mathbb{X}\cdot\vec{w}^T\mathbb{Y}]\\
+=\max_{\vec{v}, \vec{w}}\vec{v}^TE[\mathbb{X}\mathbb{Y}^T]\vec{w}
+\end{aligned}
+\]</span> where:</p>
 <ul>
-<li><p>s0: starts with singular value decomposing the crossproduct
-matrix <span class="math inline">\(\mathbb{S=X^TY}\)</span>, which
-includes information on variance and covariance of <span class="math inline">\(\mathbb{X, Y}\)</span>. The first left and right
-singular vectors, w and q, are used as weight vectors for X and Y ,
-respectively, to obtain scores <span class="math inline">\(t\)</span>
-and <span class="math inline">\(u\)</span>: <span class="math display">\[
-t=\mathbb{X}\vec{w}=\mathbb{E}\vec{w}
-\]</span> <span class="math display">\[
-u=\mathbb{Y}\vec{q}=\mathbb{F}\vec{q}
-\]</span></p></li>
-<li><p>s1: X and Y loadings are obtained by regressing against the same
-vector <span class="math inline">\(t\)</span>:</p></li>
-<li><p>s2:</p></li>
+<li><span class="math inline">\(E[\mathbb{X}\mathbb{Y}^T]=
+C_{XY}\)</span> is the covariance of mean-centered variables x and
+y</li>
+<li><span class="math inline">\(|\vec{v}|=|\vec{w}|=1\)</span></li>
+<li><span class="math display">\[\mathbb{X}=
+  \begin{pmatrix}
+  x_1 \\
+  x_2 \\
+  \vdots \\
+  x_m
+  \end{pmatrix}\]</span></li>
+<li><span class="math display">\[\mathbb{Y}=
+  \begin{pmatrix}
+  y_1 \\
+  y_2 \\
+  \vdots \\
+  y_l
+  \end{pmatrix}\]</span></li>
 </ul>
+<p><span class="math inline">\(\vec{z}=\vec{v}^T\mathbb{X}\)</span> is
+called the <strong>score</strong> of input <span class="math inline">\(\mathbb{X}\)</span> with respect to <span class="math inline">\(\vec{v\)</span>, and <span class="math inline">\(\vec{r}=\vec{w}^T\mathbb{Y}\)</span> is called the
+score of output <span class="math inline">\(\mathbb{Y}\)</span> with
+respect to <span class="math inline">\(\vec{w}\)</span>; they are the
+projection coordinates on <span class="math inline">\(\vec{v},
+\vec{w}\)</span>.</p>
+<p>Covariance Matrix: <span class="math display">\[
+\begin{equation}
+C_{XY}=E[\mathbb{XY^T}]=E[
+\begin{pmatrix}
+x_1 \\
+\cdots \\
+x_m
+\end{pmatrix}
+\begin{pmatrix}
+y_1 &amp; \cdots  y_l
+\end{pmatrix}
+]=
+\begin{pmatrix}
+E[\vec{x_1}\vec{y_1}] &amp; \cdots &amp; E[\vec{x_1}\vec{y_l}] \\
+\vdots &amp; \cdots &amp; \vdots \\
+E[\vec{x_m}\vec{y_1}] &amp; \cdots &amp; E[\vec{x_m}\vec{y_l}] \\
+\end{pmatrix}
+\end{equation}
+\]</span> ### Problem <span class="math display">\[
+\max_{\vec{v}, \vec{w}}\vec{v}^TC_{XY}\vec{w}
+\]</span> Subject to <span class="math inline">\(|\vec{v}|=1,
+|\vec{w}|=1\)</span>.</p>
+</div>
+<div id="solution" class="section level3">
+<h3>Solution</h3>
+<p>Using two Lagrange multipliers, the necessary conditions for <span class="math inline">\(\vec{v}\)</span> and <span class="math inline">\(\vec{w}\)</span> to maximize the correlation are:
+<span class="math display">\[
+\begin{equation}
+\frac{\partial }{\partial \vec{v}}=0 \Rightarrow
+C_{XY}\vec{w}-\lambda_{\vec{v}}\vec{v}=0
+\end{equation}
+\]</span> <span class="math display">\[
+\begin{equation}
+\frac{\partial }{\partial \vec{w}}=0 \Rightarrow
+C_{XY}^T\vec{v}-\lambda_{\vec{w}}\vec{w}=0
+\end{equation}
+\]</span> By definition, <span class="math inline">\(C_{XY}^T=C_{YX}\)</span>.</p>
+<ul>
+<li><p>s2: subtracted from the (current) data matrices E and F the
+information related to this latent variable, in the form of the outer
+products <span class="math inline">\(\vec{t}\vec{p^T}\)</span> and <span class="math inline">\(\vec{t}\vec{q^T}\)</span>, <span class="math display">\[
+\mathbb{E_{n+1}}=\mathbb{E_{n+1}}-\vec{t}\vec{p^T}
+\]</span><span class="math display">\[
+\mathbb{F_{n+1}}=\mathbb{F_{n+1}}-\vec{t}\vec{q^T}
+\]</span></p></li>
+<li><p>s3: iterate s0-s32 for remaining information (unexplained)-SVD on
+<span class="math inline">\(\mathbb{E_{n+1}}\mathbb{F_{n+1}}\)</span>.</p></li>
+</ul>
+</div>
+</div>
+<div id="example" class="section level2">
+<h2>Example</h2>
+<ul>
+<li>s0: SVD on the crossproduct of <span class="math inline">\(\mathbb{S=X^TY}\)</span></li>
+</ul>
+<pre class="r"><code>data(gasoline, package = &quot;pls&quot;)
+data(yarn, package = &quot;pls&quot;)
+data(oliveoil, package = &quot;pls&quot;)
+
+# easy way to split
+gasTrain &lt;- gasoline[1:50,]
+gasTest &lt;- gasoline[51:60,]
+
+# SVD
+X &lt;- gasTrain$NIR
+Y &lt;- gasTrain$octane
+dim(X)</code></pre>
+<pre><code>## [1]  50 401</code></pre>
+<ul>
+<li>s1:</li>
+</ul>
+</div>
+<div id="reference" class="section level2 unnumbered">
+<h2 class="unnumbered">Reference</h2>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-DEJONG1993251" class="csl-entry">
+de Jong, Sijmen. 1993. <span>“SIMPLS: An Alternative Approach to Partial
+Least Squares Regression.”</span> <em>Chemometrics and Intelligent
+Laboratory Systems</em> 18 (3): 251–63. https://doi.org/<a href="https://doi.org/10.1016/0169-7439(93)85002-X">https://doi.org/10.1016/0169-7439(93)85002-X</a>.
+</div>
+<div id="ref-GELADI19861" class="csl-entry">
+Geladi, Paul, and Bruce R. Kowalski. 1986. <span>“Partial Least-Squares
+Regression: A Tutorial.”</span> <em>Analytica Chimica Acta</em> 185:
+1–17. https://doi.org/<a href="https://doi.org/10.1016/0003-2670(86)80028-9">https://doi.org/10.1016/0003-2670(86)80028-9</a>.
+</div>
+<div id="ref-JSSv018i02" class="csl-entry">
+Mevik, Björn-Helge, and Ron Wehrens. 2007. <span>“The Pls Package:
+Principal Component and Partial Least Squares Regression in r.”</span>
+<em>Journal of Statistical Software</em> 18 (2): 1–23. <a href="https://doi.org/10.18637/jss.v018.i02">https://doi.org/10.18637/jss.v018.i02</a>.
+</div>
+</div>
 </div>
 
 
