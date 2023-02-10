@@ -20,18 +20,21 @@ PCA combines the statistical concept of **variance** with the linear algebra con
 Let $$\mathbb{X}$$ denote the data matrix, and $$\vec{w}$$ denote the vector of weights for linear combination. Objective function is defined as:  
 
 $$
+\tag{1.0}
 \lambda=||\mathbb{X}\vec{w}||^2 \Rightarrow \lambda=\frac{||\mathbb{X}\vec{w}||^2}{||\vec{w}||^2} \Rightarrow \lambda=\frac{\vec{w}^T\mathbb{X}^T\mathbb{X}\vec{w}}{\vec{w}^T\vec{w}}
 $$
 
 By definition, $$\mathbb{X^T}\mathbb{X}=C_{XX}$$:
 
 $$
+\tag{1.1}
 \lambda=\frac{\vec{w}^TC\vec{w}}{\vec{w}^T\vec{w}}
 $$
 
 The linear algebra approach here is to consider not just a single vector solution but an entire set of solutions. We rewrite the equation using vector matrix $$\mathbb{W}$$:
 
 $$
+\tag{1.2}
 \Lambda=(\mathbb{w}^T\mathbb{W})^{-1}\mathbb{W}^T\mathbb{C}\mathbb{W} \Rightarrow \Lambda=\mathbb{W}^{-1}\mathbb{C}\mathbb{W} \Rightarrow \mathbb{W}\Lambda=\mathbb{C}\mathbb{W}
 $$
 
