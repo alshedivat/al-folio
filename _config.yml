@@ -6,7 +6,7 @@ title: Ka Chung NG (Boris) # the website title (if blank, full name will be used
 first_name: Ka Chung
 middle_name: 
 last_name: NG (Boris)
-email: you@example.com
+email: kc-boris.ng@polyu.edu.hk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -76,7 +76,7 @@ telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
+orcid_id: 0000-0001-7875-8194 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
