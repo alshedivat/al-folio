@@ -11,7 +11,7 @@
 
 <meta name="author" content="LT" />
 
-<meta name="date" content="2023-02-08" />
+<meta name="date" content="2023-02-10" />
 
 <title>PLS</title>
 
@@ -474,7 +474,7 @@ display: none;
 
 <h1 class="title toc-ignore">PLS</h1>
 <h4 class="author">LT</h4>
-<h4 class="date">2023-02-08</h4>
+<h4 class="date">2023-02-10</h4>
 
 </div>
 
@@ -488,8 +488,11 @@ display: none;
 <ul>
 <li><a href="#objective-function" id="toc-objective-function">Objective
 function</a></li>
+<li><a href="#problem" id="toc-problem">Problem</a></li>
 <li><a href="#solution" id="toc-solution">Solution</a></li>
+<li><a href="#svd" id="toc-svd">SVD</a></li>
 </ul></li>
+<li><a href="#summary" id="toc-summary">Summary</a></li>
 <li><a href="#example" id="toc-example">Example</a></li>
 <li><a href="#reference" id="toc-reference">Reference</a></li>
 </ul>
@@ -546,7 +549,7 @@ response matrix case is called pls2.</p>
 space and <span class="math inline">\(\vec{w} \in
 \mathbb{R}^{l}\)</span> in the output space, that maximizes the
 correlation between the projection of input vector onto the unit vector,
-<span class="math inline">\(\vec{z}=\vec{v}^T\mathbb{X}\)</span>,a nd
+<span class="math inline">\(\vec{z}=\vec{v}^T\mathbb{X}\)</span>, and
 that of the output vector, <span class="math inline">\(\vec{r}=\vec{w}^T\mathbb{Y}\)</span>:</p>
 <p><span class="math display">\[
 \begin{aligned}
@@ -576,7 +579,7 @@ y</li>
   \end{pmatrix}\]</span></li>
 </ul>
 <p><span class="math inline">\(\vec{z}=\vec{v}^T\mathbb{X}\)</span> is
-called the <strong>score</strong> of input <span class="math inline">\(\mathbb{X}\)</span> with respect to <span class="math inline">\(\vec{v\)</span>, and <span class="math inline">\(\vec{r}=\vec{w}^T\mathbb{Y}\)</span> is called the
+called the <strong>score</strong> of input <span class="math inline">\(\mathbb{X}\)</span> with respect to <span class="math inline">\(\vec{v}\)</span>, and <span class="math inline">\(\vec{r}=\vec{w}^T\mathbb{Y}\)</span> is called the
 score of output <span class="math inline">\(\mathbb{Y}\)</span> with
 respect to <span class="math inline">\(\vec{w}\)</span>; they are the
 projection coordinates on <span class="math inline">\(\vec{v},
@@ -599,7 +602,11 @@ E[\vec{x_1}\vec{y_1}] &amp; \cdots &amp; E[\vec{x_1}\vec{y_l}] \\
 E[\vec{x_m}\vec{y_1}] &amp; \cdots &amp; E[\vec{x_m}\vec{y_l}] \\
 \end{pmatrix}
 \end{equation}
-\]</span> ### Problem <span class="math display">\[
+\]</span></p>
+</div>
+<div id="problem" class="section level3">
+<h3>Problem</h3>
+<p><span class="math display">\[
 \max_{\vec{v}, \vec{w}}\vec{v}^TC_{XY}\vec{w}
 \]</span> Subject to <span class="math inline">\(|\vec{v}|=1,
 |\vec{w}|=1\)</span>.</p>
@@ -608,50 +615,70 @@ E[\vec{x_m}\vec{y_1}] &amp; \cdots &amp; E[\vec{x_m}\vec{y_l}] \\
 <h3>Solution</h3>
 <p>Using two Lagrange multipliers, the necessary conditions for <span class="math inline">\(\vec{v}\)</span> and <span class="math inline">\(\vec{w}\)</span> to maximize the correlation are:
 <span class="math display">\[
+\tag{3}
 \begin{equation}
 \frac{\partial }{\partial \vec{v}}=0 \Rightarrow
 C_{XY}\vec{w}-\lambda_{\vec{v}}\vec{v}=0
 \end{equation}
 \]</span> <span class="math display">\[
+\tag{4}
 \begin{equation}
 \frac{\partial }{\partial \vec{w}}=0 \Rightarrow
 C_{XY}^T\vec{v}-\lambda_{\vec{w}}\vec{w}=0
 \end{equation}
-\]</span> By definition, <span class="math inline">\(C_{XY}^T=C_{YX}\)</span>.</p>
-<ul>
-<li><p>s2: subtracted from the (current) data matrices E and F the
-information related to this latent variable, in the form of the outer
-products <span class="math inline">\(\vec{t}\vec{p^T}\)</span> and <span class="math inline">\(\vec{t}\vec{q^T}\)</span>, <span class="math display">\[
-\mathbb{E_{n+1}}=\mathbb{E_{n+1}}-\vec{t}\vec{p^T}
-\]</span><span class="math display">\[
-\mathbb{F_{n+1}}=\mathbb{F_{n+1}}-\vec{t}\vec{q^T}
-\]</span></p></li>
-<li><p>s3: iterate s0-s32 for remaining information (unexplained)-SVD on
-<span class="math inline">\(\mathbb{E_{n+1}}\mathbb{F_{n+1}}\)</span>.</p></li>
-</ul>
+\]</span> By definition, <span class="math inline">\(C_{XY}^T=C_{YX}\)</span>.<br />
+From (4), <span class="math inline">\(\vec{w}=\frac{1}{\lambda_\vec{v}}C_{YX}\vec{v}\)</span>.
+Substituting this in (3) yields <span class="math inline">\(C_{XY}C_{YX}\vec{v}=\lambda_\vec{v}\lambda_\vec{w}\vec{v}\)</span>.<br />
+From (3), <span class="math inline">\(\vec{v}=\frac{1}{\lambda_\vec{w}}C_{YX}\vec{w}\)</span>.
+Substituting this in (4) yields <span class="math inline">\(C_{YX}C_{XY}\vec{w}=\lambda_\vec{v}\lambda_\vec{w}\vec{w}\)</span>.
+This implies <span class="math inline">\(\vec{v}, \vec{w}\)</span> are
+eigenvectors for matrix <span class="math inline">\(C_{XY}C_{YX}\)</span> and <span class="math inline">\(C_{YX}C_{XY}\)</span>.</p>
 </div>
+<div id="svd" class="section level3">
+<h3>SVD</h3>
+<p>Theorem: the unit vectors, <span class="math inline">\(\vec{v_0}\)</span> and <span class="math inline">\(\vec{w_0}\)</span>, that maximize the correlation
+between input and output scores, <span class="math inline">\(\vec{z}=\vec{v}^T\mathbb{X}\)</span> and <span class="math inline">\(\vec{r}=\vec{w}^T\mathbb{Y}\)</span>, are the left
+and right singular vectors, respectively, associated with the largest
+singular value of the cross-correlation matrix <span class="math inline">\(C_{XY}\)</span></p>
+<p>Step 2: optimal prediction with one latent variable optimal
+prediction <span class="math display">\[
+\vec{\hat{y}}=\vec{q^0}\vec{z}
+\]</span> <span class="math display">\[
+\vec{q^0}=arg \min_{q}E[|\vec{y}-\vec{\hat{y}}|^2]
+\]</span> It is conceivable that this optimal coefficient/parameter
+vector <span class="math inline">\(\vec{q^0}\)</span> is in the same
+direction as unit vector <span class="math inline">\(\vec{w}\)</span>.</p>
+<p><span class="math display">\[
+\vec{q^0}=\frac{C_{YX}\vec{v}}{\vec{v}^TC_{XX}\vec{v}}
+\]</span> This is called <strong>Output Loading Vector</strong>.</p>
+<p>Step 3: deflation <span class="math display">\[
+\vec{p^0}=\frac{C_{XX}\vec{v}}{\vec{v}^TC_{XX}\vec{v}}
+\]</span> This is called <strong>Input Loading Vector</strong>.</p>
+</div>
+</div>
+<div id="summary" class="section level2">
+<h2>Summary</h2>
+<p>The most significant <span class="math inline">\(m^*\)</span> sets of
+latent variables are obtained recursively, <span class="math display">\[
+\mathbb{C_{XX}}[1]=E[\vec{x}\vec{x}^T],
+\mathbb{C_{YX}}[1]=E[\vec{y}\vec{x}^T]
+\]</span></p>
+<p>For <span class="math inline">\(k=1,\dots,m^{\star}\)</span>: <span class="math display">\[
+\mathbb{C_{XX}}[k+1]=(\mathbb{I}-\vec{p}[k]\vec{v}^T[k])\mathbb{C_{XX}}[k];
+\]</span> <span class="math display">\[
+\mathbb{C_{YX}}[k+1]=\mathbb{C_{YX}}[k](\mathbb{I}-\vec{v}[k]\vec{p}^T[k]);
+\]</span> <span class="math display">\[
+\vec{p}[k]=\frac{\mathbb{C_{XX}}[k]\vec{v}[k]}{\vec{v}^T[k]\mathbb{C_{XX}}[k]\vec{v}[k]},
+\vec{q}[k]=\frac{\mathbb{C_{YX}}[k]\vec{v}[k]}{\vec{v}^T[k]\mathbb{C_{XX}}[k]\vec{v}[k]}
+\]</span> With these loading vectors, <span class="math inline">\(\mathbb{x,y}\)</span> can be approximated to:
+<span class="math display">\[
+\mathbb{x}=\sum_{k=1}^{m\star}\vec{z}[k]\vec{p}[k]+\mathbb{x}[m\star]
+\]</span> <span class="math display">\[
+\mathbb{y}=\sum_{k=1}^{m\star}\vec{z}[k]\vec{q}[k]+\mathbb{y}[m\star]
+\]</span></p>
 </div>
 <div id="example" class="section level2">
 <h2>Example</h2>
-<ul>
-<li>s0: SVD on the crossproduct of <span class="math inline">\(\mathbb{S=X^TY}\)</span></li>
-</ul>
-<pre class="r"><code>data(gasoline, package = &quot;pls&quot;)
-data(yarn, package = &quot;pls&quot;)
-data(oliveoil, package = &quot;pls&quot;)
-
-# easy way to split
-gasTrain &lt;- gasoline[1:50,]
-gasTest &lt;- gasoline[51:60,]
-
-# SVD
-X &lt;- gasTrain$NIR
-Y &lt;- gasTrain$octane
-dim(X)</code></pre>
-<pre><code>## [1]  50 401</code></pre>
-<ul>
-<li>s1:</li>
-</ul>
 </div>
 <div id="reference" class="section level2 unnumbered">
 <h2 class="unnumbered">Reference</h2>
