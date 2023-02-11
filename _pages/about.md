@@ -1,25 +1,27 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Assistant Professor, Presidential Young Scholar, Ph.D. (HKUST)
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Profile Picture.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Department of Management and Marketing</p>
+    <p>PolyU Business School</p>
+    <p>The Hong Kong Polytechnic University</p>
+    <p>M840, Li Ka Shing Tower</p>
+    <p>Hung Hom, Kowloon, Hong Kong</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Dr. Ka Chung Ng, Boris, is an Assistant Professor - Presidential Young Scholar in the Department of Management and Marketing, Faculty of Business, Hong Kong Polytechnic University. He received his Ph.D. in Information Systems from the Hong Kong University of Science and Technology.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+His works bridge multidisciplinary research areas and advanced machine learning methods to resolve significant societal issues and generate valuable business insights. His research contributes to the sustainable development of AI in business and FinTech. Specifically, his studies on `strategic manipulation in machine learning`, `computerized textual analysis of fake news`, and `behavioral aspects of cybersecurity` offer theoretical and practical implications to academia, institutions, and policymakers that are pivotal to promoting the social and corporate governance aspects of ESG. His research has appeared in leading business journals, such as Production and Operations Management and Journal of Management Information Systems, and top conferences on Information Systems.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<strong>Currently, I am working on projects that advance the theory and practice of FinTech, RegTech, and LegalTech. Motivated and intelligent students are welcome to join my group as research student helpers, research assistants, postdoctoral researchers, or Ph.D. students. Candidates with a strong background in Information Systems, Computer Science, Statistics, and/or Mathematics are preferred. Please email me your CV and transcript if you are interested in these areas as well as working with me at PolyU.</strong>
