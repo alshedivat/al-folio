@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
-importance: 2
-category: work
+title: AYMBO 
+description: Are you my bayesian one? Probability Prediction for the TV-Show Are You The One? using Bayesian Learning
+img: assets/img/dirichlet.png
+importance: 1
+category: future projects
+redirect: https://github.com/MikeLasz/
 ---
 
 Every project has a beautiful feature showcase page.

@@ -1,5 +1,5 @@
           
-          <div class="news">
+          <div class="News">
             {% if site.news != blank -%} 
             {%- assign news_size = site.news | size -%}
             <div class="table-responsive" {% if site.news_scrollable and news_size > 3 %}style="max-height: 10vw"{% endif %}>

@@ -1,0 +1,1 @@
+convert rdf2vec.png -resize 1000x1000 -gravity center -background white -extent 1200x1000 rdf2vec_pad.jpg

@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: deepgaldx
+description: How to generate fake Galdxs? Science-Slam Project about Style-Transfer using Cycle-GANs.
+img: assets/img/deepgaldx_pad.jpg
+importance: 2
+category: prior projects
+redirect: https://github.com/MikeLasz/deepgaldx
 ---
 
 Every project has a beautiful feature showcase page.

@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
-category: work
+title: Robustness of RDF2Vec
+description: Study about the robustness of RDF2Vec for knowledge graph embeddings
+img: assets/img/rdf2vec_pad.jpg
+redirect: https://github.com/MikeLasz/robustness_rdf2vec
+importance: 3
+category: prior projects
 ---
 
 Every project has a beautiful feature showcase page.

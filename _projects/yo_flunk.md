@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+title: Yo Flunk!
+description: Android Application that helps organizing Flunkyball leagues and tournaments 
+img: assets/img/yo_flunk.png
+importance: 1
+category: prior projects
+redirect: https://github.com/MikeLasz/yo_flunk
 ---
 
 Every project has a beautiful feature showcase page.
