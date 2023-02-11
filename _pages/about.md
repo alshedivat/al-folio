@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Assistant Professor, Presidential Young Scholar, Ph.D. (HKUST)
+subtitle: Assistant Professor | Presidential Young Scholar | Ph.D. (HKUST)
 
 profile:
   align: right
