@@ -1,20 +1,12 @@
 ---
 layout: page
 permalink: /service/
-<<<<<<< HEAD
 title: services
 nav: true
 nav_order: 5
 ---
 
 ## teaching
-=======
-title: Services
-nav: true
----
-
-## Teaching
->>>>>>> 1aa393c00d062ccb1c2b9bc7f8e7c8da64800e40
 
 - [TA] **Introduction to Machine Learning**, Fall 2020, UC Berkeley
 - [Lab TA] **Contemporary Logic Design**, Fall 2016, Princeton University
