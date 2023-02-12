@@ -1,97 +1,36 @@
-- title: General Information
-  type: map
+- title: Research Interests
+  type: list
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - Assessing and improving algorithmic fairness through practical and interdisciplinary methods
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: BA in Computer Science and Philosophy, Politics, & Economics
+      institution: University of Pennsylvania
+      year: 2013-2017
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - <i>Cumulative GPA:</i> 3.84 / 4.00 (Summa Cum Laude)
+        - <i>Relevant Courses:</i> Machine Learning; Modern Regression; Database and Information Systems; Software Design and Engineering; Data Analytics and Statistical Computing; Probability; Judgments and Decisions; Algorithmic Game Theory; Justice, Law, and Morality; Law and Social Change
 
-- title: Experience
+- title: Research and Teaching
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant, Compliant and Accountable Systems
+      institution: University of Cambridge
+      year: 2021-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Researching practical methods for conducting technical bias audits of decision-making algorithms when data on protected class membership is not available and proxy variables must be used instead under the supervision of <a href="https://www.cl.cam.ac.uk/~js573/">Dr. Jatinder Singh</a>
+    - title: Capstone Mentor, Data Science
+      institution: University of California San Diego
+      year: 2022-2023
       description:
-        - Description 1.
-        - Description 2.
+        - Co-developed a <a href="https://nanrahman.github.io/capstone-responsible-ai/">Responsible AI</a> section with <a href="https://www.daviddanks.org/">Dr. David Danks</a> for the Data Science Institute’s undergraduate capstone course
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
+- title: Skills
+  type: map
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - name: Technology
+      value: Python, R, SQL, Java, Tableau
+    - name: Languages
+      value: English (native), Spanish (conversational), Dutch (conversational)

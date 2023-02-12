@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-04-08
 inline: true
 ---
 
-A simple inline announcement.
+<i>Who Audits the Auditors?</i> was accepted to FAccT'22!
