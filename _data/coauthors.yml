@@ -1,34 +1,23 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Bala":
+  - firstname: ["Alba"]
+    url: https://www.esci.upf.edu/es/profesor/dra-alba-bala-1934
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Fullana-i-Palmer":
+  - firstname: ["Pere"]
+    url: https://www.esci.upf.edu/en/lecturer/dr-pere-fullana-1762
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Xifré":
+  - firstname: ["Ramon"]
+    url: https://www.esci.upf.edu/es/profesor/dr-ramon-xifre
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Malpartida":
+  - firstname: ["Irene"]
+    url: https://es.linkedin.com/in/irenemalpartida
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Lair":
+  - firstname: ["Valentin"]
+    url: https://ch.linkedin.com/in/valentin-lair/en
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Sazdovski":
+  - firstname: ["Ilija"]
+    url: https://www.esci.upf.edu/es/profesor/ilija-sazdovski

@@ -2,96 +2,95 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Sergi Arfelis Espinosa
     - name: Date of Birth
-      value: 14th March 1879
+      value: 13th January 1995
     - name: Languages
-      value: English, German
+      value: English, Spanish, French, Italian, Catalan
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD Candidate
+      institution: Polytechnic University of Catalonia, Barcelona, Spain
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - The main objective of the thesis is to identify environmental impacts of innovative syntheses for chemical production. The thesis will be developed in collaboration with the Swiss company DEASYL, which is a technology provider, relying on innovations, new horizons in mineral chemistry and organic chemistry. The research is hosted at the UNESCO Chair in Life Cycle and Climate Change facility at UPF-ESCI building in Barcelona. Close collaboration between the UNESCO Chair and the company was established in 2021.
+        - DEASYL will provide their support in the collection of necessary data and providing an overview of the chemical processes under evaluation. Furthermore, Life Cycle Assessments for chemical processes (from other companies) which are to be developed by the UNESCO Chair during the doctorate period (2021-2024) may be added to the final thesis regarding they fit with the contents and the complexity required in the report.
+    - title: Industry 4.0
+      institution: International University from La Rioja, La Rioja, Spain
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Training in the management of the transformation process in organizations, through the application of Internet of Things and the exponential technologies of Ecosystem 4.0 (robotics, blockchain, 3D printing, big data, cybersecurity).
+    - title: Environmental Engineering and Sustainable Energy
+      institution: Rovira i Virgili University, Tarragona, Spain
+      year: 2020
+      description:
+        - Training in the field of energy, environment and sustainable production with rigorous scientific and technical background, providing a flexible and multidisciplinary response to the challenges of building a sustainable society through the conception, design, evaluation, implementation and management of environmentally friendly processes, consumption of natural resources and health.
+    - title: Chemical Engineering
+      institution: Rovira i Virgili University, Tarragona, Spain
+      year: 2018
+      description:
+        - Multidisciplinary professional and expert training in the field of chemical engineering, with skills in the analysis, conception, calculation, design, construction, monitoring, control, optimization and operation of installations, equipment and products in the chemical industry.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Researcher
+      institution: UNESCO Chair in Life Cycle and Climate Change ESCI-UPF, Barcelona, Spain
+      year: 2021 - now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developing LCA and others environmental studies in chemical and industrial processes. Main tasks are linked to the Swiss company DEASYL, developing and applying the  Life Cycle Assessment (LCA) methodology to chemical synthesis reactions of DEASYL environmental technologies. The job includes participating in environmental projects for companies and organizations, participating in the public debate, preparing scientific proposals, presenting results in congresses and writing scientific articles in top-level international journals.
+
+    - title: Professor of Carbon Footprint
+      institution: School of Management, Pompeu Fabra University, Barcelona, Spain
+      year: 2022 - now
       description:
-        - Description 1.
-        - Description 2.
+        - Study of the total amount of greenhouse gases emitted into the atmosphere due to human activities and the methods for reducing these emissions. It covers the sources of carbon emissions, measurement methods, political and policy aspects, social and economic implications, and strategies for promoting sustainability. The course combines lectures with discussions and group projects to provide students with a comprehensive understanding of the carbon footprint concept and the tools and strategies available for reducing emissions and promoting sustainability.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Digital Strategy Manager
+      institution: CuidaPro, Tarragona, Spain
+      year: 2022 - now
       description:
+        - Relying on new technologies and seeking for open innovation collaboration opportunities with universities, research groups, companies in the elderly care sector and technology companies.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Final Master Thesis Director
+      institution: International University from La Rioja, La Rioja, Spain
+      year: 2022 - 2023
+      description:
+        - Supervising, advising, and evaluating students from the master of Industry 4.0 during the development of their thesis.
 
-- title: Open Source Projects
+    - title: Plant Engineer
+      institution: Dow Chemical, Tarragona, Spain
+      year: 2018 - 2021
+      description:
+        - Working on assignment to Dow Chemical Tarragona TurnAround (TA2021) team. Coordinating the octene plant catalyst recovery project and the installation of a temporary waste management system which takes care of the water with hydrocarbon effluent of the process. Water treatment and waste valorisation. Producing significant economic savings and a clear prioritization of tasks through the return on investment (ROI) study and the Add-on / Rest-on assessment for all the works orders of TA2021. Reliability, environmental and economic assessment.
+
+    - title: Chemical Engineer Intern
+      institution: Clariant, Tarragona, Spain
+      year: 2018 - 2018
+      description:
+        - Providing significant energy savings through the piping modifications proposals of the steam generation plant.
+
+    - title: Maintenance Engineer Intern
+      institution: TDE-AIE, Tarragona, Spain
+      year: 2017 - 2017
+      description:
+        - Achieving high standards of traceability on the historic events happened in the plant. Procuring the proper state of the plant by supervising visual inspections and Eddy Currents
+
+- title: Other Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://cuida-pro.com/">CuidaPro</a>
+      year: 2020-now
+      description: CuidaPro is a home care agency for elderly and dependent people specialising in rural and depopulated areas. The company links the families with professional caregivers and is in charge of all administrative procedures and monitoring of the service in order to ensure professionalism and excellent quality in the care of the elderly.
+    - title: Claus
+      year: 2023-now
+      description: Claus manages tourist accommodation in the Ebro Delta. It offers a complete and professional service that includes, the administrative procedures to acquire the tourist accommodation license, the delivery and collection of keys to guests, the logistics of cleaning between services, the analysis and proposals to improve the profitability of the accommodation, and others. The company aims to activate the economy and the tourism sector, promote sustainability and biodiversity of the territory, and work on the conservation of local culture.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - year: 2016
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - X-Culture International Bussiness Competition

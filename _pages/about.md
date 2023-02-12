@@ -2,25 +2,32 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpeg
   image_circular: true # crops the image to make it circular
-  address: #>
-    #<p>Footnote below the image</p>
+  address: >
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-This is the home page of Sergi Arfelis.
+Hey there! Welcome to my online homepage.
 
-Sergi is a researcher in the field of Environmental Sciences and Green Chemistry. He is currently finishing his PhD studies with the [UNESCO Chair in Life Cycle and Climate Change ESCI-UPF](https://www.esci.upf.edu/en/unesco-chair-in-life-cycle-and-climate-change/catedra-introduction) and the Swiss company, [Deasyl SA](https://deasyl.com/). He investigates the Life Cycle Assessment of different chemical reactions in the field of mechanochemistry, observes and communicates how these innovative processes improve the conventional ones.
+I am a researcher in the field of Environmental Sciences and Green Chemistry. I am currently finishing up my PhD studies with the [UNESCO Chair in Life Cycle and Climate Change ESCI-UPF](https://www.esci.upf.edu/en/unesco-chair-in-life-cycle-and-climate-change/catedra-introduction) and the Swiss company, [Deasyl SA](https://deasyl.com/). My focus is on investigating the Life Cycle Assessment of innovative chemical processes in the field of mechanochemistry and sharing my findings with the world.
 
- His parallel projects blend several of his passions, such as sustainability and technology:
+But my passions don't stop there. I am a big believer in using sustainability and technology to make a difference, which is why I've taken on a few side projects:
 
- - He was involved in the founding of the company [CuidaPro](https://cuida-pro.com/) in the field of home care for the elderly. The company is based in Ebro Delta, a rural area affected by the aging of its population, he continues to collaborate with them as Digital Strategy Manager.
+- I was part of the team that founded [CuidaPro](https://cuida-pro.com/), a home care company for the elderly in the Ebro Delta. I still work with them as Digital Strategy Manager, helping to bring top-notch care to the region.
 
- - In addition, he is in the midst of developing a new project, which consists of the creation of a tourist accommodation management company, called `Claus`. The idea is to focus the business also in the Ebro Delta, with the intention of promoting its economy as well as sustainable tourism and the conservation of its biodiversity as a natural park.
+- In addition, I'm in the midst of developing a new project in the same area - a tourist accommodation management company called `Claus` - with the goal of promoting sustainable tourism and conservation in the beautiful Ebro Delta.
+
+<strong> Reach me out to join forces and make positive impact. </strong> <br>
+I am down to work on:
+- Promoting new businesses based on circularity and sustainability
+- Moderating or speaking at events
+- Running corporate workshops
+- Individual consulting
+- Anything else where we could make a great team!
