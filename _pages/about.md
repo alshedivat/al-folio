@@ -1,13 +1,13 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: chawins AT berkeley DOT edu.
+subtitle: chawins AT berkeley DOT edu
 
 profile:
   align: right
   image: profile_pic.png
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: >
     <p>"Chawin"</p>
     <p>99.3% confidence</p>
@@ -20,9 +20,9 @@ social: true  # includes social icons at the bottom of the page
 
 [CV](/assets/pdf/Chawin_Sitawarin_CV.pdf) &nbsp;&nbsp;&nbsp;&nbsp; [Google Scholar](https://scholar.google.com/citations?hl=en&authuser=1&user=AxUAEQ4AAAAJ)
 
-Hello! My name is Chawin Sitawarin. I am a PhD student in Computer Science at UC Berkeley, and I am a part of [the security group](https://security.cs.berkeley.edu/), [Berkeley Artificial Intelligence Research (BAIR)](https://bair.berkeley.edu/) and [Berkeley DeepDrive (BDD)](https://bdd-data.berkeley.edu/). My advisor is [Prof. David Wagner](https://people.eecs.berkeley.edu/~daw/).
+Hello! My name is Chawin Sitawarin. I am a PhD candidate in Computer Science at UC Berkeley, and I am a part of [the security group](https://security.cs.berkeley.edu/), [Berkeley Artificial Intelligence Research (BAIR)](https://bair.berkeley.edu/) and [Berkeley DeepDrive (BDD)](https://bdd-data.berkeley.edu/). My advisor is [Prof. David Wagner](https://people.eecs.berkeley.edu/~daw/).
 
-I am broadly interested in the intersection between machine learning and computer security. Most of my current and previous works are in the domain of adversarial machine learning, particularly adversarial examples and robustness of machine learning algorithms. If you are wondering why I appear as a panda, give this [paper](https://arxiv.org/pdf/1412.6572.pdf) a read.
+I am broadly interested in the security and safety aspects of machine learning. Most of my current and previous works are in the domain of adversarial machine learning, particularly adversarial examples and robustness of machine learning algorithms. If you are wondering why I appear as a panda, give this [paper](https://arxiv.org/pdf/1412.6572.pdf) a read.
 
 Previously, I graduated from Princeton University in 2018 where I was very fortunate to be advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/), [Prof. Peter Ramadge](http://faculty.ee.princeton.edu/ramadge/doku.html), and [Prof. Alejandro Rodriguez](http://faculty.ee.princeton.edu/arodriguez/). I was mentored and introduced to adversarial machine learning by [Arjun Bhagoji](https://arjunbhagoji.github.io/).
 
