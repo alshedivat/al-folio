@@ -27,6 +27,25 @@
       description:
         - Co-developed a <a href="https://nanrahman.github.io/capstone-responsible-ai/">Responsible AI</a> section with <a href="https://www.daviddanks.org/">Dr. David Danks</a> for the Data Science Institute’s undergraduate capstone course
 
+- title: Service
+  type: time_table
+  contents:
+    - title: Pro Bono Research Consultant
+      institution: The Algorithmic Justice League
+      year: 2020-2023
+      description: 
+        - Provided pro bono support to the <a href="https://www.ajl.org/">Algorithmic Justice League's</a> efforts to advocate for equitable and accountable AI through a combination of art and research
+
+- title: Industry
+  type: time_table
+  contents:
+    - title: Data Scientist
+      institution: Deloitte Consulting
+      year: 2018-2023
+      description: 
+        - Worked with clients across healthcare and life sciences to improve health equity through an intersection of analytics and behavioral science
+        - Developed tools and frameworks to facilitate and conduct multiple fairness assessments of automated decision-making systems
+
 - title: Skills
   type: map
   contents:
