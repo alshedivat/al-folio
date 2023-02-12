@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 subtitle: chawins AT berkeley DOT edu
 
@@ -13,14 +13,17 @@ profile:
     <p>99.3% confidence</p>
     <p>(he/him/his)</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 [CV](/assets/pdf/Chawin_Sitawarin_CV.pdf) &nbsp;&nbsp;&nbsp;&nbsp; [Google Scholar](https://scholar.google.com/citations?hl=en&authuser=1&user=AxUAEQ4AAAAJ)
 
-Hello! My name is Chawin Sitawarin. I am a PhD candidate in Computer Science at UC Berkeley, and I am a part of [the security group](https://security.cs.berkeley.edu/), [Berkeley Artificial Intelligence Research (BAIR)](https://bair.berkeley.edu/) and [Berkeley DeepDrive (BDD)](https://bdd-data.berkeley.edu/). My advisor is [Prof. David Wagner](https://people.eecs.berkeley.edu/~daw/).
+Hello! My name is Chawin Sitawarin. 
+I am a PhD candidate in Computer Science at UC Berkeley, and I am a part of [the security group](https://security.cs.berkeley.edu/), [Berkeley Artificial Intelligence Research (BAIR)](https://bair.berkeley.edu/) and [Berkeley DeepDrive (BDD)](https://bdd-data.berkeley.edu/).
+My advisor is [Prof. David Wagner](https://people.eecs.berkeley.edu/~daw/).
+I have also spent some time at IBM Research, Nokia Bell Labs, and Google Research.
 
 I am broadly interested in the security and safety aspects of machine learning. Most of my current and previous works are in the domain of adversarial machine learning, particularly adversarial examples and robustness of machine learning algorithms. If you are wondering why I appear as a panda, give this [paper](https://arxiv.org/pdf/1412.6572.pdf) a read.
 

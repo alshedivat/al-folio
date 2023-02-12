@@ -25,7 +25,8 @@
   month        = oct,
   primaryclass = {cs},
   title        = {REAP: A Large-Scale Realistic Adversarial Patch Benchmark},
-  year         = {2022}
+  year         = {2022},
+  code         = {https://github.com/wagner-group/reap-benchmark}
 }
 
 @inproceedings{lin_inversedesigned_2016,
@@ -232,18 +233,20 @@
   year        = {2020}
 }
 
-@article{sitawarin_part_2022,
-  abbr         = {Preprint},
-  abstract     = {We show that combining human prior knowledge with end-to-end learning can improve the robustness of deep neural networks by introducing a part-based model for object classification. Our model combines a part segmentation model with a tiny classifier and is trained end-to-end to simultaneously segment objects into parts and then classify the segmented object. Empirically, our part-based models achieve both higher accuracy and higher adversarial robustness than a ResNet-50 baseline on all three datasets. For instance, the clean accuracy of our part models is up to 15 percentage points higher than the baseline's, given the same level of robustness. Our experiments indicate that these models also reduce texture bias and yield better robustness against common corruptions and spurious correlations. Our work provides evidence that the stronger learning signal from the part segmentation benefits robustness without requiring more samples.},
-  author       = {Sitawarin, Chawin and Pongmala, Kornrapat and Chen, Yizheng and Carlini, Nicholas and Wagner, David},
-  bibtex_show  = {false},
-  journal      = {Under submission},
-  month        = jul,
-  primaryclass = {cs},
-  title        = {Part-Based Models Improve Adversarial Robustness},
-  year         = {2022},
-  arxiv        = {2209.09117},
-  code         = {https://github.com/chawins/adv-part-model}
+@inproceedings{sitawarin_partbased_2023,
+  abbr        = {ICLR},
+  title       = {Part-Based Models Improve Adversarial Robustness},
+  booktitle   = {International Conference on Learning Representations},
+  author      = {Sitawarin, Chawin and Pongmala, Kornrapat and Chen, Yizheng and Carlini, Nicholas and Wagner, David},
+  year        = {2023},
+  copyright   = {All rights reserved},
+  url         = {https://openreview.net/forum?id=bAMTaeqluh4},
+  pdf         = {https://openreview.net/pdf?id=bAMTaeqluh4},
+  month       = may,
+  arxiv       = {2209.09117},
+  code        = {https://github.com/chawins/adv-part-model},
+  bibtex_show = {true},
+  preview     = {part_model_mlsafety_2022_thumbnail.png}
 }
 
 @article{sitawarin_preprocessor_2022,
@@ -320,7 +323,7 @@
   address     = {New York, NY, USA},
   arxiv       = {2003.09347},
   author      = {Sitawarin, Chawin and Chakraborty, Supriyo and Wagner, David},
-  bibtex_show = {false},
+  bibtex_show = {true},
   booktitle   = {Proceedings of the 14th ACM Workshop on Artificial Intelligence and Security},
   doi         = {10.1145/3474369.3486878},
   isbn        = {9781450386579},

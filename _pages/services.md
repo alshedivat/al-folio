@@ -8,11 +8,11 @@ nav_order: 5
 
 ## teaching
 
-- [TA] **Introduction to Machine Learning**, Fall 2020, UC Berkeley
-- [Lab TA] **Contemporary Logic Design**, Fall 2016, Princeton University
-- [Grader] **Information Security**, Fall 2016, Princeton University
-- [Grader] **Algorithms and Data Structures**, Spring 2016, Princeton University
-- [Grader] **General Computer Science**, Fall 2015, Princeton University
+- [TA] **Introduction to Machine Learning** (UC Berkeley): Fall 2020, Spring 2023
+- [Lab TA] **Contemporary Logic Design** (Princeton University): Fall 2016
+- [Grader] **Information Security** (Princeton University): Fall 2016
+- [Grader] **Algorithms and Data Structures** (Princeton University): Spring 2016
+- [Grader] **General Computer Science** (Princeton University): Fall 2015
 
 ## Student mentees/Collaborators
 
