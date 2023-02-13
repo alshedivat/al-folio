@@ -20,7 +20,7 @@ group :jekyll_plugins do
     gem 'webrick'
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
-    #gem 'nokogiri'
-    #gem 'feedjira'
-    #gem 'httparty'
+    gem 'nokogiri'
+    gem 'feedjira'
+    gem 'httparty'
 end
