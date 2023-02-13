@@ -21,4 +21,5 @@ group :jekyll_plugins do
     gem 'htmlbeautifier'
     gem 'nokogiri'
     gem 'feedjira'
+    gem 'httparty'
 end
