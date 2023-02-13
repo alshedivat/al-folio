@@ -23,4 +23,5 @@ group :jekyll_plugins do
     gem 'nokogiri'
     gem 'feedjira'
     gem 'httparty'
+    gem 'faraday-retry'
 end
