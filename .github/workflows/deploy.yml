@@ -36,7 +36,7 @@ jobs:
           echo "SRC_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
         fi
         echo "DEPLOY_BRANCH=gh-pages" >> $GITHUB_OUTPUT
-    - name: Deploy website 
+    - name: Deploy website
       run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
-                    --src ${{ steps.setup.outputs.SRC_BRANCH }} 
-                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
+                    --src ${{ steps.setup.outputs.SRC_BRANCH }}
+                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }}
