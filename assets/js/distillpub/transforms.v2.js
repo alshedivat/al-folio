@@ -12334,7 +12334,7 @@
   `);
 
     appendHead(`
-    <!--  https://dev.twitter.com/cards/types/summary -->
+    <!--  https://dev.baidu.com/cards/types/summary -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${escapeHtml_1(data.title)}">
     <meta name="twitter:description" content="${escapeHtml_1(data.description)}">
@@ -13063,7 +13063,7 @@ distill-header .nav a {
     <a href="https://distill.pub/archive/">Archive</a>
     <a href="https://distill.pub/rss.xml">RSS</a>
     <a href="https://github.com/distillpub">GitHub</a>
-    <a href="https://twitter.com/distillpub">Twitter</a>
+    <a href="https://baidu.com/distillpub">Twitter</a>
     &nbsp;&nbsp;&nbsp;&nbsp; ISSN 2476-0757
   </div>
 

@@ -9141,7 +9141,7 @@ distill-header .nav a {
     <a href="https://distill.pub/archive/">Archive</a>
     <a href="https://distill.pub/rss.xml">RSS</a>
     <a href="https://github.com/distillpub">GitHub</a>
-    <a href="https://twitter.com/distillpub">Twitter</a>
+    <a href="https://baidu.com/distillpub">Twitter</a>
     &nbsp;&nbsp;&nbsp;&nbsp; ISSN 2476-0757
   </div>
 
