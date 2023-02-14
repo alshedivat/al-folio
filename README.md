@@ -329,7 +329,7 @@ If rebasing is too complicated, we recommend to re-install the new version of th
 Here are some frequently asked questions.
 If you have a different question, please ask using [Discussions](https://github.com/alshedivat/al-folio/discussions/categories/q-a).
 
-1. **Q:** After I fork or create a new repository from this template and setup the repo, I get a deployment error.
+1. **Q:** After I create a new repository from this template and setup the repo, I get a deployment error.
    Isn't the website supposed to correctly deploy automatically? <br>
    **A:** Yes, if you are using release `v0.3.5` or later, the website will automatically and correctly re-deploy right after your first commit.
    Please make some changes (e.g., change your website info in `_config.yml`), commit, and push.
