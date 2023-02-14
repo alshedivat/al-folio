@@ -123,6 +123,11 @@ permalink: /blog/:year/:title/
 pagination:
   enabled: true
 
+related_blog_posts:
+  enabled: true
+  max_related: 5
+  min_common_tags: 1
+
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.

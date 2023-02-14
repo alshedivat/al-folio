@@ -1,22 +1,20 @@
-{% assign maxRelated = 5 %}
-{% assign minCommonTags =  1 %}
-{% assign maxRelatedCounter = 0 %}
-{% assign haveRelatedPosts = false %}
+{% assign max_related_counter = 0 %}
+{% assign have_related_posts = false %}
 
 {% for post in site.posts %}
-  {% assign sameTagCount = 0 %}
+  {% assign same_tag_count = 0 %}
 
   {% for tag in post.tags %}
     {% if post.url != page.url %}
       {% if page.tags contains tag %}
-        {% assign sameTagCount = sameTagCount | plus: 1 %}
+        {% assign same_tag_count = same_tag_count | plus: 1 %}
       {% endif %}
     {% endif %}
   {% endfor %}
 
-  {% if sameTagCount >= minCommonTags %}
-    {% unless haveRelatedPosts %}
-      {% assign haveRelatedPosts = true %}
+  {% if same_tag_count >= site.related_blog_posts.min_common_tags %}
+    {% unless have_related_posts %}
+      {% assign have_related_posts = true %}
 
   <br>
   <hr>
@@ -32,15 +30,15 @@
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </li>
 
-  {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+  {% assign max_related_counter = max_related_counter | plus: 1 %}
 
-  {% if maxRelatedCounter >= maxRelated %}
+  {% if max_related_counter >= site.related_blog_posts.max_related %}
     {% break %}
   {% endif %}
 
   {% endif %}
 {% endfor %}
 
-{% if maxRelatedCounter > 0 %}
+{% if max_related_counter > 0 %}
 </ul>
 {% endif %}
