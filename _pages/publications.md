@@ -14,8 +14,11 @@ nav_order: 1
 {% for y in page.years %}
 
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f publications -q !@thesis[year={{y}}]* %}
+  {% bibliography -f publications -q !@thesis[year={{y}} && keywords !~ dataset]* %}
 {% endfor %}
+
+<h1>datasets</h1>
+{% bibliography -f publications -q !@thesis[keywords ~= dataset]* %}
 
 <h1>theses</h1>
 {% bibliography -f publications -q @thesis %}
