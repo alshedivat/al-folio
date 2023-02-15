@@ -26,7 +26,7 @@
   doi            = {10.3390/data8020040},
   keywords       = {journal,paper},
   abstract       = {In recent years, there has been an increased effort to digitise whole-slide images of cancer tissue. This effort has opened up a range of new avenues for the application of deep learning in oncology. One such avenue is virtual staining, where a deep learning model is tasked with reproducing the appearance of stained tissue sections, conditioned on a different, often times less expensive, input stain. However, data to train such models in a supervised manner where the input and output stains are aligned on the same tissue sections are scarce. In this work, we introduce a dataset of ten whole-slide images of clear cell renal cell carcinoma tissue sections counterstained with Hoechst 33342, CD3, and CD8 using multiple immunofluorescence. We also provide a set of over 600,000 patches of size 256 × 256 pixels extracted from these images together with cell segmentation masks in a format amenable to training deep learning models. It is our hope that this dataset will be used to further the development of deep learning methods for digital pathology by serving as a dataset for comparing and benchmarking virtual staining models.},
-  preview        = {hoechstgan_wsi.png},
+  preview        = {hoechstgan-dataset.png},
   pdf            = {https://www.mdpi.com/2313-433X/7/6/94/pdf}
 }
 
@@ -62,7 +62,7 @@
   url          = {https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD605},
   website      = {https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD605},
   keywords     = {dataset},
-  preview      = {hoechstgan_wsi.png},
+  preview      = {hoechstgan-dataset.png},
   abstract     = {We provide a dataset of 10 whole slide images of clear cell renal cell carcinoma tissue sections that were counterstained with Hoechst 33342, Cy3 and Cy5. The fluorescent images were captured using Zeiss Axio Scan Z1. We used three different fluorescent channels (Hoechst 33342, Cy3 and Cy5) simultaneously to capture individual channel images under 20x object magnification with respective exposure times of 10 ms, 20 ms and 30 ms. We also provide clinical data including age at surgery, gender, disease free months, nuclear grade, and Leibovich score. Alongside the WSIs, we provide pre-processed and normalised patches (each 256x256 pixels) from the WSIs in a format that can be readily ingested by deep learning models for their training. For each patch, we provide normalised Hoechst, CD3, and CD8 images, as well as cell masks identified using the StarDist algorithm. Each cell is annotated as CD3, CD8 (a subset of CD3), or neither.}
 }
 
