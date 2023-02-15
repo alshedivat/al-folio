@@ -31,6 +31,7 @@ links:
   code: https://github.com/georg-wolflein/hoechstgan
   poster: /assets/pdf/hoechstgan_poster.pdf
   video: https://www.youtube.com/watch?v=ZSGeX33TeEM
+  dataset paper: https://www.mdpi.com/2306-5729/8/2/40
   dataset: https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD605
 abstract: The presence and density of specific types of immune cells are important to understand a patient's immune response to cancer. However, immunofluorescence staining required to identify T cell subtypes is expensive, timeconsuming, and rarely performed in clinical settings. We present a framework to virtually stain Hoechst images (which are cheap and widespread) with both CD3 and CD8 to identify T cell subtypes in clear cell renal cell carcinoma using generative adversarial networks. Our proposed method jointly learns both staining tasks, incentivising the network to incorporate mutually beneficial information from each task. We devise a novel metric to quantify the virtual staining quality, and use it to evaluate our method.
 tldr: We present a means of translating a cheap type of chemical staining to multiple more expensive ones using generative adversarial networks.
@@ -39,7 +40,7 @@ tldr: We present a means of translating a cheap type of chemical staining to mul
 # Data
 
 Our dataset is available in the [BioImage Archive](http://www.ebi.ac.uk/bioimage-archive) under accession number [S-BIAD-12345](https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD605).
-We are currently preparing to release a detailed description of the dataset.
+We have published an accompanying [article](https://www.mdpi.com/2306-5729/8/2/40) in the _Data_ journal that contains a detailed description of the dataset.
 
 # Citation
 
@@ -53,6 +54,17 @@ If you would like to cite our work, please use:
   month = {January},
   year = {2023},
   pages = {4997--5007}
+}
+
+@article{hoechstgan_dataset,
+  title = {Whole-Slide Images and Patches of Clear Cell Renal Cell Carcinoma Tissue Sections Counterstained with {Hoechst} 33342, {CD3}, and {CD8} Using Multiple Immunofluorescence},
+  author = {W\"{o}lflein, Georg and Um, In Hwa and Harrison, David J and Arandjelovi\'{c}, Ognjen},
+  journal = {Data},
+  volume = {8},
+  year = {2023},
+  month = {February},
+  number = {2},
+  article-number = {40}
 }
 ```
 
