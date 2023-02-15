@@ -2,11 +2,20 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 nav: true
-nav_order: 5
+nav_order: 2
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+# PhD level - European University Institute
+- Economic Measurement (2022), TA to Prof. Sule Alan & Prof. Thomas Crossley
+- Statistics and Econometrics II - Econometric Models for Micro Data (2020, 2021), TA to Prof. Sule Alan & Prof. Thomas Crossley
 
-Organize your courses by years, topics, or universities, however you like!
+# Graduate - Florence School of Banking and Finance 
+- Panel Data for Banking Sector Analysis (2021), TA to Prof. Jeffrey Wooldridge
+
+# Undergraduate - New York University Florence
+- Econometrics (2023), TA to Prof. Giampiero Gallo
+
+# Undergraduate - Universitat Pompeu Fabra
+- TA of Macroeconomics II, Economics and Analytical Instruments for the Study of Law (Statistics and Game Theory), Business Organization and Administration II (2017-2018)
