@@ -5,8 +5,8 @@ nav: true
 nav_order: 6
 dropdown: true
 children: 
-    - title: photogrphy
-      permalink: /photogrphy/
+    - title: photography
+      permalink: /photography/
     - title: divider
     - title: projects
       permalink: /projects/
