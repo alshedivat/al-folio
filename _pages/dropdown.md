@@ -8,6 +8,4 @@ children:
     - title: photography
       permalink: /photography/
     - title: divider
-    - title: projects
-      permalink: /projects/
 ---
