@@ -9,6 +9,7 @@ nav_order: 4
 
 2023
 
+* Breasts and Eggs - Mieko Kawakami
 * Babel, Or the Necessity of Violence: An Arcane History of the Oxford Translators' Revolution - R. F. Kuang
 
 2022
