@@ -20,6 +20,7 @@ g_{ik}=
       0, & \text{otherwise}
     \end{cases} \\
 $$
+
 $$
 \mathbb{G}=\begin{bmatrix}
     0 & 1 & 0 \\
@@ -29,6 +30,7 @@ $$
     0 & 0 & 1 \\
 \end{bmatrix} \\
 $$
+
 $$
 \tag{2}
 \mathbb{G1_k=1_n}
