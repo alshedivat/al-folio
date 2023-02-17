@@ -212,7 +212,7 @@ $ docker-compose -f docker-local.yml up
 
 #### Local Setup (Standard)
 
-Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first [fork](https://guides.github.com/activities/forking/) the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first click [Use this template](https://docs.github.com/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) above the file list, create a new repository at `github.com:<your-username>/<your-repo-name>` from `github.com:alshedivat/al-folio` and do the following:
 
 ```bash
 $ git clone git@github.com:<your-username>/<your-repo-name>.git
@@ -246,9 +246,10 @@ Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0
 
 **To enable automatic deployment:**
 1. Click on **Actions** tab and **Enable GitHub Actions**; do not worry about creating any workflows as everything has already been set for you.
-2. Make any other changes to your webpage, commit, and push. This will automatically trigger the **Deploy** action.
-3. Wait for a few minutes and let the action complete. You can see the progress in the **Actions** tab. If completed successfully, in addition to the `master` branch, your repository should now have a newly built `gh-pages` branch.
-4. Finally, in the **Settings** of your repository, in the Pages section, set the branch to `gh-pages` (**NOT** to `master`). For more details, see [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
+2. Go to Settings -> Actions -> General -> Workflow permissions, and give **Read and write permissions** to GitHub Actions
+3. Make any other changes to your webpage, commit, and push. This will automatically trigger the **Deploy** action.
+4. Wait for a few minutes and let the action complete. You can see the progress in the **Actions** tab. If completed successfully, in addition to the `master` branch, your repository should now have a newly built `gh-pages` branch.
+5. Finally, in the **Settings** of your repository, in the Pages section, set the branch to `gh-pages` (**NOT** to `master`). For more details, see [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
 
 
 <details><summary>(click to expand) <strong>Manual deployment to GitHub Pages:</strong></summary>
@@ -332,7 +333,7 @@ If rebasing is too complicated, we recommend to re-install the new version of th
 Here are some frequently asked questions.
 If you have a different question, please ask using [Discussions](https://github.com/alshedivat/al-folio/discussions/categories/q-a).
 
-1. **Q:** After I fork and setup the repo, I get a deployment error.
+1. **Q:** After I create a new repository from this template and setup the repo, I get a deployment error.
    Isn't the website supposed to correctly deploy automatically? <br>
    **A:** Yes, if you are using release `v0.3.5` or later, the website will automatically and correctly re-deploy right after your first commit.
    Please make some changes (e.g., change your website info in `_config.yml`), commit, and push.
