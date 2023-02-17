@@ -216,7 +216,7 @@ Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](
 $ git clone git@github.com:<your-username>/<your-repo-name>.git
 $ cd <your-repo-name>
 $ bundle install
-$ bundle exec jekyll serve
+$ bundle exec jekyll serve --lsi
 ```
 
 Now, feel free to customize the theme however you like (don't forget to change the name!).
@@ -263,7 +263,7 @@ uses the `master` branch for the source code and deploys the webpage to `gh-page
 
 If you decide to not use GitHub Pages and host your page elsewhere, simply run:
 ```bash
-$ bundle exec jekyll build
+$ bundle exec jekyll build --lsi
 ```
 which will (re-)generate the static webpage in the `_site/` folder.
 Then simply copy the contents of the `_site/` foder to your hosting server.
@@ -283,7 +283,7 @@ Firstly, from the deployment repo dir, checkout the git branch hosting your publ
 
 Then from the website sources dir (commonly your al-folio fork's clone):
 ```bash
-$ bundle exec jekyll build --destination $HOME/repo/publishing-source
+$ bundle exec jekyll build --lsi --destination $HOME/repo/publishing-source
 ```
 
 This will instruct jekyll to deploy the website under `$HOME/repo/publishing-source`.
