@@ -34,7 +34,9 @@ $$
 
 $$
 \tag{2}
+\begin{equation}
 \mathbb{G1_k}=\mathbb{1_n}
+\end{equation}
 $$
 
 These equations imply that each row of $$\mathbb{G}$$ has only one element taking 1, i.e.,each individual belongs to only one cluster. Such a matrix is also called an *indicator matrix* or a *design matrix*.
