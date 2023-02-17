@@ -31,11 +31,11 @@ $$
 \end{bmatrix} \\
 $$
 
-$$
+\[
 \tag{2}
 \mathbb{G1_k}=\mathbb{1_n}
-$$
-\
+\]
+
 These equations imply that each row of $$\mathbb{G}$$ has only one element taking 1, i.e.,each individual belongs to only one cluster. Such a matrix is also called an *indicator matrix* or a *design matrix*.
 
 A major goal of clustering analysis is to obtain $$\mathbb{G}$$ from an n-individuals $$\times$$ p-variables data matrix $$\mathbb{X}$$. For example, k-means clustering (KMC)  provides a membership matrix $$\mathbb{G}$$ together with a k-cluster $\times$ p-variable cluster feature matrix $$\mathbb{C}$$, which describes how each cluster is characterized by variables.
