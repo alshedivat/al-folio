@@ -31,7 +31,7 @@ $$
     0 & 0 & 1 \\
 \end{bmatrix} \\
 $$
-\
+
 $$
 \tag{2}
 \mathbb{G1_k}=\mathbb{1_n}
@@ -66,7 +66,7 @@ In general, statistical analysis procedures can be classified into the following
 -  those without explicit solutions as KMC
 
 The solution to KMC is given by iterative algorithms. Detailed solution is omitted, but general steps are present here:
-- step1: Set $$\mathbb{G}$$ and $$\mathbb{C}$$ to specified matrices $$\mathbb{G_t}$$ and $$\mathbb{C_t}$$, respectively, with $$t=0$$.
+- step1: Set $$\mathbb{G}$$ and $$\mathbb{C}$$ to specified matrices $$\mathbb{G_t}$$ and $$\mathbb{C_t}$$, respectively, with \\(t=0\\).
 - Step 2: Obtain $$\mathbb{C}$$ with $$\mathbb{G}$$ being fixed at $$\mathbb{G_t}$$, and express the resulting $$\mathbb{C}$$ as $$\mathbb{C_{t+1}}$$
 - Step 3: Obtain $$\mathbb{G}$$ with $$\mathbb{C}$$ being fixed at $$\mathbb{C_t}$$, and express the resulting $$\mathbb{G}$$ as $$\mathbb{G_{t+1}}$$
 - Step 4: Finish if convergence is reached; otherwise, go back to Step2 with $t$ increased by 1.
