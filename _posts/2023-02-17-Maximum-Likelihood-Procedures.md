@@ -88,7 +88,7 @@ $$
 where 
 - design matrix represented by $$\mathbf{x}=[\vec{x_1}, \cdots, \vec{x_p}]_{(n \times p)}$$ 
 - mean vector $$\vec{\mu}_{(p \times 1)}$$
-- covariance matrix  $$\mathbb{\Sigma}_(p \times p)$$, and $$|\Sigma|$$ denotes the determinant of $$\Sigma$$.
+- covariance matrix  $$\mathbb{\Sigma}_(p \times p)$$, and $$\mid\Sigma\mid$$ denotes the determinant of $$\Sigma$$.
 
 
 We denote a multivariate normal (MVN) distribution of p variables as
@@ -128,6 +128,7 @@ $$
 The $$(\vec{\mu}, \mathbb{\Sigma})$$ values are obtained in the ML method, such that the data matrix $$\mathbb{X}$$ is the most likely to be observed. That is, the maximum likelihood estimates (MLE) of $$(\vec{\mu}, \mathbb{\Sigma})$$ are estimated that maximizes (4) or its logarithm.
 
 $$
+\tag{5}
 \begin{equation}
     log \mathcal{P}(\mathbb{X}|\vec{\mu},\mathbb{\Sigma})=-\frac{np}{2}log2\pi-\frac{n}{2}log|\mathbb{\Sigma}|-\frac{n}{2}\sum_{i=1}^{n}(\vec{x_i}-\vec{\mu})^T\Sigma^T(\vec{x_i}-\vec{\mu})
 \end{equation}
@@ -141,4 +142,23 @@ $$
 
 where MLEs of $$(\vec{\mu}, \mathbb{\Sigma})$$ are found to be the mean vector and covariance matrix of the data set, respectively.
 
+Substituting MLEs into the log likelihood, the maximum likelihood is 
 
+$$
+\begin{equation}
+\tag{6}
+    \mathcal{l}(\overset{\wedge}{\vec{\mu}}, \overset{\wedge}{\mathbb{\Sigma}})=-\frac{n}{2}log(\mid\mathbb{V}\mid)--\frac{np}{2}
+\end{equation}
+$$
+
+### Model Selection
+Model selection refers to comparing models and selecting the model best fitted to a data set. An advantage of the ML method is its MLE can be used for model selection with statistics called **information criteria**.
+
+- Akaike's information criterion (AIC): $$AIC=-2\mathcal{l}(\overset{\wedge}{\mathbb{\Theta}})+2\eta$$ 
+- Bayesian information criterion (BIC): $$BIC=-2\mathcal{l}(\overset{\wedge}{\mathbb{\Theta}})+\eta log(n)$$
+
+where $$\mathcal{l}(\overset{\wedge}{\mathbb{\Theta}})$$ expresses the value of the log likelihood and $$\eta$$ is the number of parameters to be estimated.Both AIC and BIC penalize a model for having more parameters. 
+
+- Information Criteria and Philosophy:
+  - how well it explains a phenomenon (maximum log likelihood)
+  - how simple it is (smallness of number of parameters)
