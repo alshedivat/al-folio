@@ -21,7 +21,7 @@ where $$\Theta$$ denotes the parameters to be estimated. For instance, in KMC cl
 
 An analysis procedure modeled as (1) estimates parameter $$\Theta$$ values. This is formulated as-Obtaining $$\Theta$$ that optimizes an objective function obj($$\Theta$$) subject to a constraint on $$\Theta$$. 
 
-Here, the term "optimizes" refers to either "minimizes" or "maximizes", and some function can be used as obj($$\Theta$$). In *least squares method*, the least squares are used as obj($$\Theta$$), which are generally expressed as $$||\mathbb{X}-\phi(\Theta)||^2$$, with "optimizes" referring to "minimizes" and $$\Theta=[\vec{b},c]$$ is not constrained.
+Here, the term "optimizes" refers to either "minimizes" or "maximizes", and some function can be used as obj($$\Theta$$). In *least squares method*, the least squares are used as obj($$\Theta$$), which are generally expressed as $$\lVert\mathbb{X}-\phi(\Theta)\rVert^2$$, with "optimizes" referring to "minimizes" and $$\Theta=[\vec{b},c]$$ is not constrained.
 
 
 ### Maximum Likelihood Method
@@ -50,7 +50,7 @@ $$
 
 For estimation of the value of $$\theta$$, the ML method can be used. The idea of the method can be stated as “Obtaining the parameter value such that the occurrence of an event is the most likely”. Here, the “event” refers to the observation of a data set, i.e., observing $$\vec{d}$$ and “how likely it is that the event will occur” is measured by its *probability*. 
 
-Note that $$P(\vec{d}|\theta)$$ is treated as a function of parameter $$\theta$$ for a fixed $$\vec{d}$$ in the ML method. The probability, if it is treated as a function of parameters, is rephrased as likelihood, from which the name maximum likelihood method originates. A solution in the ML method is called a maximum likelihood estimate (MLE).
+Note that $$P(\vec{d}\mid\theta)$$ is treated as a function of parameter $$\theta$$ for a fixed $$\vec{d}$$ in the ML method. The probability, if it is treated as a function of parameters, is rephrased as likelihood, from which the name maximum likelihood method originates. A solution in the ML method is called a maximum likelihood estimate (MLE).
 
 
 ### Probability Density Function
