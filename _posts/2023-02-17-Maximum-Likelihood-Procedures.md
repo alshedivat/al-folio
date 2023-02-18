@@ -19,9 +19,10 @@ $$
 
 where $$\Theta$$ denotes the parameters to be estimated. For instance, in KMC cluster analysis $\Theta$ is [$$\mathbb{G, C}$$]. In regression analysis, the $$\Theta=[\vec{b},c]$$ and $$\phi(\vec{b},c)=\mathbb{X}\vec{b}+c\vec{1}$$. 
 
-An analysis procedure modeled as (1) estimates parameter $$\Theta$$ values. This is formulated as “Obtaining $$\Theta$$ that optimizes an objective function *obj($$\Theta$$)* subject to a constraint on $$\Theta$$”. 
+An analysis procedure modeled as (1) estimates parameter $$\Theta$$ values. This is formulated as-Obtaining $$\Theta$$ that optimizes an objective function obj($$\Theta$$) subject to a constraint on $$\Theta$$. 
 
-Here, the term "optimizes" refers to either "minimizes" or "maximizes", and some function can be used as *obj($$\Theta$$)*. In *least squares method*, the least squares are used as *obj($$\Theta$$)*, which are generally expressed as $$||Data-\phi(\Theta)||^2$$, with "optimizes" referring to "minimizes" and $$\Theta=[\vec{b},c]$$ is not constrained.
+Here, the term "optimizes" refers to either "minimizes" or "maximizes", and some function can be used as obj($$\Theta$$). In *least squares method*, the least squares are used as obj($$\Theta$$), which are generally expressed as $$||\mathbb{X}-\phi(\Theta)||^2$$, with "optimizes" referring to "minimizes" and $$\Theta=[\vec{b},c]$$ is not constrained.
+
 
 ### Maximum Likelihood Method
 A maximum likelihood (ML) method can be formulated by rephrasing“optimizing” and “an objective function” as "maximizing" and "probability", respectively. To note, ML uses notion of probabilities, which is not used in the LS method. 
@@ -29,20 +30,19 @@ A maximum likelihood (ML) method can be formulated by rephrasing“optimizing”
 An simple example illustrating ML: suppose a black box contains black and white balls, where the total number of balls is known to be 100, but the number of black or white balls is unknown. We use $$\theta$$ for the number of black ones. In order to estimate $$\theta$$, a ball was drawn from the box and returned back to the box five times, which produces the following data set
 
 $$
-\vec{d}=[1,0,,1,0]^T
+\vec{d}=[1,0,0,1,0]^T
 $$
 
 Here, $$d_i=1, d_i=0$$ indicate black and white balls drawn, respectively, with $$d_i$$ denotes the ith element of $$\vec{d}$$.
 
-The probability of \[d_i = 1\] observed (i.e., a black ball chosen) and that of \[d_i = 0\] are expressed as
+The probability of $$d_i = 1$$ observed (i.e., a black ball chosen) and that of $$d_i = 0$$ are expressed as
 
 $$
 P(d_i=1|\theta)=\frac{\theta}{100} \\
 P(d_i=0|\theta)=1-\frac{\theta}{100} 
 $$
 
-Further, we suppose the balls were chosen mutually independently. Then, the
-probability of the data set \(\vec{d}\) is
+Further, we suppose the balls were chosen mutually independently. Then, the probability of the data set $$\vec{d}$$ is
 
 $$
 P(\vec{d}|\theta)=(\frac{\theta}{100})^2(1-\frac{\theta}{100})^3
@@ -51,6 +51,7 @@ $$
 For estimation of the value of $$\theta$$, the ML method can be used. The idea of the method can be stated as “Obtaining the parameter value such that the occurrence of an event is the most likely”. Here, the “event” refers to the observation of a data set, i.e., observing $$\vec{d}$$ and “how likely it is that the event will occur” is measured by its *probability*. 
 
 Note that $$P(\vec{d}|\theta)$$ is treated as a function of parameter $$\theta$$ for a fixed $$\vec{d}$$ in the ML method. The probability, if it is treated as a function of parameters, is rephrased as likelihood, from which the name maximum likelihood method originates. A solution in the ML method is called a maximum likelihood estimate (MLE).
+
 
 ### Probability Density Function
 **Clarification**: in general, probability mass function (PMF) is used in the context of discrete random variables, while the probability density function (PDF) is used in the context of continuous random variables.
@@ -87,7 +88,7 @@ $$
 where 
 - design matrix represented by $$\mathbf{x}=[\vec{x_1}, \cdots, \vec{x_p}]_{(n \times p)}$$ 
 - mean vector $$\vec{\mu}_{(p \times 1)}$$
-- covariance matrix  $$\mathbb{\Sigma}_(p \times p)$$, and $$|\Sigma|$$ denotes the determinant of $$\Sigma$$
+- covariance matrix  $$\mathbb{\Sigma}_(p \times p)$$, and $$|\Sigma|$$ denotes the determinant of $$\Sigma$$.
 
 
 We denote a multivariate normal (MVN) distribution of p variables as
