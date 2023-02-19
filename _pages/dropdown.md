@@ -8,4 +8,6 @@ children:
     - title: photography
       permalink: /photography/
     - title: divider
+    - title: newsletter
+    - permalink: /newsletter/
 ---
