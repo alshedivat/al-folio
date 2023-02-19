@@ -23,7 +23,7 @@ url: https://afahadabdullah.github.io # the base hostname & protocol for your si
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-
+#
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
@@ -77,7 +77,7 @@ telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
+orcid_id: 0000-0001-8238-8739 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -243,7 +243,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will be dispalyed on the front page of your blog
+display_tags: ['Data Handling', 'Python', 'Dynamics', 'Software', 'Others'] #this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

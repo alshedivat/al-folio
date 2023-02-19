@@ -1,25 +1,18 @@
 ---
 layout: distill
-title: a distill-style blog post
-description: an example of a distill-style blog post and main elements
+title: Handling netCDF File Format
+description: This page contains simple commands that I use to handle NetCDF data in different tools. This page will be updated as I will stumble upon on to new commands.
 giscus_comments: true
-date: 2021-05-22
+date: 2018-10-18
 
 authors:
-  - name: Albert Einstein
-    url: "https://en.wikipedia.org/wiki/Albert_Einstein"
+  - name: Abdullah Al Fahad
+    url: "https://scholar.google.com/citations?user=60Bz9LYAAAAJ&hl=en&oi=sra"
     affiliations:
-      name: IAS, Princeton
-  - name: Boris Podolsky
-    url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
-    affiliations:
-      name: IAS, Princeton
-  - name: Nathan Rosen
-    url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
-    affiliations:
-      name: IAS, Princeton
+      name: NASA GSFC
 
-bibliography: 2018-12-22-distill.bib
+
+bibliography:
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:
@@ -27,18 +20,15 @@ bibliography: 2018-12-22-distill.bib
 #     for hyperlinks within the post to work correctly.
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
+
 toc:
-  - name: Equations
+  - name: Bash commands
+  - name: CDO
     # if a section has subsections, you can add them as follows:
     # subsections:
     #   - name: Example Child Subsection 1
     #   - name: Example Child Subsection 2
-  - name: Citations
-  - name: Footnotes
-  - name: Code Blocks
-  - name: Interactive Plots
-  - name: Layouts
-  - name: Other Typography?
+
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -60,6 +50,48 @@ _styles: >
 
 ---
 
+
+
+### Bash commands
+
+- See data that nc file contains:  `ncdump file.nc`
+
+- See only header of the data: `ncdump -c file.nc` (great for if you only want see the file information)
+
+- Compress nc data by removing unlimited time dimension and make file smaller: `nccopy -u -s -d6 file.nc file_compressed.nc`
+
+
+
+### CDO
+
+- Concatenate all nc files in a directory: `cdo cat *.nc merged_file.nc`
+
+- Shift Longitude of data from 0:360 to -180:180: `cdo sellonlatbox,-180,180,-90,90 input.nc output.nc`
+
+- Convert grib to nc: `cdo -f nc copy file.grb file.nc`
+
+- Merge datasets with the same number of timesteps and different variables in each dataset: `cdo merge infile1.nc infile2.nc infile3.nc outfile.nc`
+
+- Convert variable ts by subtraction from K to C: `cdo expr,’var1=ts-273.15;’ ifile.nc ofile.nc`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
 ## Equations
 
 This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine.
@@ -308,4 +340,4 @@ Here's a line for us to start with.
 This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
 
 This line is also a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+This line is only separated by a single newline, so it's a separate line in the *same paragraph*. -->
