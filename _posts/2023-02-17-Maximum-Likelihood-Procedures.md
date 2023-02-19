@@ -147,7 +147,7 @@ Substituting MLEs into the log likelihood, the maximum likelihood is
 $$
 \begin{equation}
 \tag{6}
-    \mathcal{l}(\overset{\wedge}{\vec{\mu}}, \overset{\wedge}{\mathbb{\Sigma}})=-\frac{n}{2}log(\mid\mathbb{V}\mid)--\frac{np}{2}
+    \mathcal{l}(\overset{\wedge}{\vec{\mu}}, \overset{\wedge}{\mathbb{\Sigma}})=-\frac{n}{2}log(\mid\mathbb{V}\mid)-\frac{np}{2}
 \end{equation}
 $$
 
