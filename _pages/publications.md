@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: check out my scientific research publications in a reverse timeline.
+description: check out my scientific research publications!
 years: [2023, 2022]
 nav: true
 nav_order: 1

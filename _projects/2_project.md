@@ -1,80 +1,18 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: Environmental consultancy
+description: Measuring environmental impacts for companies
 img: assets/img/3.jpg
 importance: 2
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Altogether with the <a href="https://www.esci.upf.edu/en/unesco-chair-in-life-cycle-and-climate-change/catedra-introduction">UNESCO Chair in Life Cycle and Climate Change ESCI-UPF</a>, we form a team specialized in helping businesses measure their environmental impact through various assessments such as carbon footprint, environmental footprint, and life cycle assessment for both products and organizations.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+We work closely with clients to develop tailored solutions that not only measure their environmental impact but also provide actionable recommendations for reducing their carbon footprint and improving sustainability. We believe that businesses have a critical role to play in mitigating the impact of climate change, and we are committed to working with them to achieve their sustainability goals.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Our services are designed to be comprehensive and adaptable to the needs of each client. Whether you are a small business looking to reduce your carbon footprint or a large organization seeking to improve your sustainability practices, we can provide the expertise and support you need.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+We pride ourselves on our commitment to quality, accuracy, and transparency in all our assessments. We use the latest scientific methods and industry standards to ensure that our clients receive reliable and meaningful data. Our team also prioritizes clear communication throughout the assessment process, ensuring that clients understand their results and are equipped to take action.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+We love collaborating with private industry to achieve a more sustainable future!
