@@ -80,6 +80,7 @@ orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
+osf_id: # your OSF ID
 research_gate_profile: # your profile on ResearchGate
 blogger_url: #https://past.pages.dev # your blogger URL
 work_url: #https://alireza.pages.dev # work page URL
@@ -104,7 +105,7 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics:  # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification: T2ERe-qbEapqTlC7TiojiwFWn27ACCJYx8ws5ZRwmq0  # your google-site-verification ID (Google Search Console)
