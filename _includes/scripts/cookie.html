@@ -1,0 +1,60 @@
+<link rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"
+    data-cfasync="false"></script>
+
+<script>
+    // Reads the value of a cookie by name or returns empty string
+    function getCookie(name) {
+        var b = document.cookie.match('(^|[^;]+)\\s*' + name + '\\s*=\\s*([^;]+)');
+        return b ? b.pop() : '';
+    }
+
+    // Actually starting analytics up
+    function addAnalytics() {
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+    }
+
+    // Waiting for the load event
+    window.addEventListener("load", function () {
+        // Reading "cookieconsent_status" cookie
+        const cookieConsent = getCookie('cookieconsent_status');
+
+        // Start analytics if user consented or did not deny
+        if (cookieConsent === 'allow' || cookieConsent === '') {
+            addAnalytics();
+        }
+
+        // Initialise cookie consent banner
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#efefef",
+                    "text": "#404040"
+                },
+                "button": {
+                    "background": "#8ec760",
+                    "text": "#ffffff"
+                }
+            },
+            "type": "opt-out",
+            "content": {
+                "allow": "Approve",
+                "dismiss": "Approve",
+                "deny": "Reject"
+            },
+            // Reload the page on user choice to make sure cookie is set
+            onStatusChange: function (status, chosenBefore) {
+                location.reload();
+            }
+        })
+    });
+</script>
