@@ -4,3 +4,10 @@
 
 "PhysRev":
   url: https://journals.aps.org/
+
+"Preprint":
+  url: https://arxiv.org/
+  color: "#b31b1b"
+
+"Workshop":
+  color: "#1f5e96"

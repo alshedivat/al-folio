@@ -15,15 +15,14 @@
     <abbr class="badge">{{entry.abbr}}</abbr>
     {%- endif -%}
     {%- endif -%}
-
     {%- if entry.preview -%}
     {% if entry.preview contains '://' -%}
-    <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+    <img class="preview z-depth-0" src="{{ entry.preview }}">
     {%- else -%}
     {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
     {% include figure.html
     path=entry_path
-    class="preview z-depth-1 rounded"
+    class="preview z-depth-0"
     alt=entry.preview -%}
     {%- endif -%}
     {%- endif -%}
