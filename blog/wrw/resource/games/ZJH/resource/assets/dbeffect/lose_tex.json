@@ -1,0 +1,1 @@
+{"SubTexture":[{"width":183,"y":1,"height":131,"name":"lose2","x":243},{"width":240,"y":1,"height":240,"name":"lose4","x":1},{"width":336,"y":243,"height":119,"name":"lose","x":1},{"frameY":0,"y":134,"frameWidth":183,"frameX":0,"frameHeight":107,"width":182,"height":107,"name":"lose3","x":243}],"width":512,"height":512,"name":"lose","imagePath":"lose_tex.png"}

@@ -1,0 +1,145 @@
+{
+  "file": "userInfo_DDZ.png",
+  "frames": {
+    "userinfo_diamonds_DDZ": {
+      "x": 107,
+      "y": 338,
+      "w": 30,
+      "h": 28,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 30,
+      "sourceH": 28
+    },
+    "userinfo_fangka_DDZ": {
+      "x": 435,
+      "y": 0,
+      "w": 56,
+      "h": 43,
+      "offX": 2,
+      "offY": 0,
+      "sourceW": 58,
+      "sourceH": 45
+    },
+    "userInfo_freegift_DDZ1": {
+      "x": 326,
+      "y": 115,
+      "w": 106,
+      "h": 110,
+      "offX": 1,
+      "offY": 3,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_freegift_DDZ2": {
+      "x": 107,
+      "y": 230,
+      "w": 106,
+      "h": 107,
+      "offX": 1,
+      "offY": 6,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_freegift_DDZ3": {
+      "x": 0,
+      "y": 341,
+      "w": 106,
+      "h": 107,
+      "offX": 1,
+      "offY": 6,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_freegift_DDZ4": {
+      "x": 214,
+      "y": 230,
+      "w": 106,
+      "h": 107,
+      "offX": 1,
+      "offY": 6,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_freegift_DDZ5": {
+      "x": 0,
+      "y": 0,
+      "w": 108,
+      "h": 114,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_freegift_DDZ6": {
+      "x": 0,
+      "y": 230,
+      "w": 106,
+      "h": 110,
+      "offX": 1,
+      "offY": 3,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_gift_DDZ1": {
+      "x": 327,
+      "y": 0,
+      "w": 107,
+      "h": 113,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_gift_DDZ2": {
+      "x": 109,
+      "y": 0,
+      "w": 108,
+      "h": 114,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_gift_DDZ3": {
+      "x": 0,
+      "y": 115,
+      "w": 108,
+      "h": 114,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_gift_DDZ4": {
+      "x": 218,
+      "y": 115,
+      "w": 107,
+      "h": 113,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_gift_DDZ5": {
+      "x": 109,
+      "y": 115,
+      "w": 108,
+      "h": 114,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_gift_DDZ6": {
+      "x": 218,
+      "y": 0,
+      "w": 108,
+      "h": 114,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 114
+    }
+  }
+}

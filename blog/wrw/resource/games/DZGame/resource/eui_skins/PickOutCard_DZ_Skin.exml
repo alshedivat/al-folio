@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PickOutCard_DZ_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="870" height="234">
+<e:Group  width="870" height="234" >
+<e:Image source="pickout_bg" left="0" right="0" top="0" bottom="0"/>
+	<e:Scroller scrollPolicyV="auto" scrollPolicyH="off" width="870" height="179" left="0" top="49" anchorOffsetY="0">
+	<e:Group id="pickOutGroup" width="870" height="234" >
+		<e:List id="pickOutList" itemRendererSkinName="PickOutCardItem_DZ_Skin">
+			<e:layout>
+				<e:TileLayout horizontalAlign="center" verticalAlign="middle" orientation="rows" requestedColumnCount="3" verticalGap="19" horizontalGap="50"/>
+			</e:layout>
+			
+		</e:List>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+		</e:Group>
+	</e:Scroller>
+</e:Group>
+</e:Skin>

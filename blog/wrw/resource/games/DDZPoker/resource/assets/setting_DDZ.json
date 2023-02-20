@@ -1,0 +1,125 @@
+{
+  "file": "setting_DDZ.png",
+  "frames": {
+    "dismiss_DDZ1": {
+      "x": 0,
+      "y": 0,
+      "w": 176,
+      "h": 58,
+      "offX": 5,
+      "offY": 0,
+      "sourceW": 185,
+      "sourceH": 59
+    },
+    "dismiss_DDZ2": {
+      "x": 0,
+      "y": 59,
+      "w": 176,
+      "h": 58,
+      "offX": 5,
+      "offY": 0,
+      "sourceW": 185,
+      "sourceH": 59
+    },
+    "exitGame_btn_DDZ1": {
+      "x": 0,
+      "y": 118,
+      "w": 169,
+      "h": 51,
+      "offX": 8,
+      "offY": 4,
+      "sourceW": 185,
+      "sourceH": 59
+    },
+    "exitGame_btn_DDZ2": {
+      "x": 0,
+      "y": 170,
+      "w": 169,
+      "h": 51,
+      "offX": 8,
+      "offY": 4,
+      "sourceW": 185,
+      "sourceH": 59
+    },
+    "Gold_chips": {
+      "x": 0,
+      "y": 222,
+      "w": 32,
+      "h": 24,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 24
+    },
+    "leaveRoom_DDZ1": {
+      "x": 177,
+      "y": 0,
+      "w": 169,
+      "h": 51,
+      "offX": 8,
+      "offY": 4,
+      "sourceW": 185,
+      "sourceH": 59
+    },
+    "leaveRoom_DDZ2": {
+      "x": 177,
+      "y": 52,
+      "w": 169,
+      "h": 51,
+      "offX": 8,
+      "offY": 4,
+      "sourceW": 185,
+      "sourceH": 59
+    },
+    "setting_check_DDZ": {
+      "x": 238,
+      "y": 152,
+      "w": 38,
+      "h": 38,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 38,
+      "sourceH": 38
+    },
+    "setting_checkbg_DDZ": {
+      "x": 170,
+      "y": 152,
+      "w": 67,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 67,
+      "sourceH": 67
+    },
+    "setting_music_DDZ": {
+      "x": 347,
+      "y": 0,
+      "w": 53,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 54,
+      "sourceH": 56
+    },
+    "setting_sound_DDZ": {
+      "x": 279,
+      "y": 104,
+      "w": 53,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 53,
+      "sourceH": 46
+    },
+    "setting_title_DDZ": {
+      "x": 177,
+      "y": 104,
+      "w": 101,
+      "h": 47,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 101,
+      "sourceH": 47
+    }
+  }
+}

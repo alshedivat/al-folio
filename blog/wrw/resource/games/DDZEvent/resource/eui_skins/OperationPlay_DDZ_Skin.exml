@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OperationPlay_DDZ_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="667" height="102">
+	<e:Button id="passOnlyBtn" label="" x="230" y="4">
+		<e:Skin states="up,down,disabled">
+		<e:Image source="bt_orange_bg" source.disabled="bt_gray_bg" anchorOffsetX="103" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+		<e:Image source="pass_only" anchorOffsetX="103" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+		</e:Skin>
+	</e:Button>
+	<e:Button id="passButton" label="" x="9" y="4">
+		<e:Skin states="up,down,disabled">
+		<e:Image source="bt_green_bg" anchorOffsetX="103"  source.disabled="bt_gray_bg" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+		<e:Image source="green_pass_card" anchorOffsetX="103" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+		</e:Skin>
+	</e:Button>
+	<e:Button id="tipButton" label="" x="230" y="4">
+		<e:Skin states="up,down,disabled">
+		<e:Image source="bt_green_bg" anchorOffsetX="103" source.disabled="bt_gray_bg" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+		<e:Image source="green_prompt_card" anchorOffsetX="103" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+		</e:Skin>
+	</e:Button>
+	<e:Button id="playButton" label="" x="450" y="4">
+		<e:Skin states="up,down,disabled">
+		<e:Image source="bt_orange_bg" source.disabled="bt_gray_bg" anchorOffsetX="103" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+		<e:Image source="orange_out_card" source.disabled="orange_out_card_gray" anchorOffsetX="103" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+		</e:Skin>
+	</e:Button>
+</e:Skin>

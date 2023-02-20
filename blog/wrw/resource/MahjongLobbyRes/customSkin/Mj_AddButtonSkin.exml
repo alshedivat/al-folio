@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Mj_AddButtonSkin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui">
+	<e:Image horizontalCenter="0" verticalCenter="0" width.down="80%" height.down="80%" source="lobby_add"/>
+	<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

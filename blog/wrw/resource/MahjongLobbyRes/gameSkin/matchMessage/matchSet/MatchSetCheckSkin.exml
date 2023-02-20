@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchSetCheckSkin" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down,upAndSelected,downAndSelected" >
+	<e:Image left="0" verticalCenter="0" source.upAndSelected="mjl_matchSet_check_2" source.downAndSelected="mjl_matchSet_check_2" source="mjl_matchSet_check_1"/>
+	<e:Label id="labelDisplay" text="Label" verticalCenter="0" left="45" fontFamily="Microsoft YaHei" textColor="0x16665a" size="24"/>
+</e:Skin>

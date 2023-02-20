@@ -1,0 +1,595 @@
+{
+  "file": "public_TDK.png",
+  "frames": {
+    "dlm_agree": {
+      "x": 649,
+      "y": 696,
+      "w": 111,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 111,
+      "sourceH": 52
+    },
+    "dlm_agree_dk": {
+      "x": 1019,
+      "y": 328,
+      "w": 111,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 111,
+      "sourceH": 52
+    },
+    "dlm_an_1guangbi_game": {
+      "x": 838,
+      "y": 428,
+      "w": 46,
+      "h": 40,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 46,
+      "sourceH": 40
+    },
+    "dlm_an_bp": {
+      "x": 1216,
+      "y": 218,
+      "w": 88,
+      "h": 57,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 88,
+      "sourceH": 57
+    },
+    "dlm_an_bp_dk": {
+      "x": 823,
+      "y": 626,
+      "w": 88,
+      "h": 57,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 88,
+      "sourceH": 57
+    },
+    "dlm_an_fasong": {
+      "x": 748,
+      "y": 310,
+      "w": 157,
+      "h": 74,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 157,
+      "sourceH": 74
+    },
+    "dlm_an_fasong_dk": {
+      "x": 932,
+      "y": 173,
+      "w": 157,
+      "h": 74,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 157,
+      "sourceH": 74
+    },
+    "dlm_an_guangbi": {
+      "x": 401,
+      "y": 448,
+      "w": 345,
+      "h": 54,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 345,
+      "sourceH": 54
+    },
+    "dlm_an_jies": {
+      "x": 932,
+      "y": 37,
+      "w": 227,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 227,
+      "sourceH": 67
+    },
+    "dlm_an_jies_dk": {
+      "x": 520,
+      "y": 310,
+      "w": 227,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 227,
+      "sourceH": 67
+    },
+    "dlm_an_qiehuanzhkaiqi": {
+      "x": 401,
+      "y": 503,
+      "w": 345,
+      "h": 54,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 345,
+      "sourceH": 54
+    },
+    "dlm_an_rp": {
+      "x": 936,
+      "y": 484,
+      "w": 88,
+      "h": 57,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 88,
+      "sourceH": 57
+    },
+    "dlm_an_rp_dk": {
+      "x": 761,
+      "y": 684,
+      "w": 88,
+      "h": 57,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 88,
+      "sourceH": 57
+    },
+    "dlm_an_shuax": {
+      "x": 520,
+      "y": 378,
+      "w": 226,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 226,
+      "sourceH": 67
+    },
+    "dlm_an_shuax_dk": {
+      "x": 932,
+      "y": 105,
+      "w": 226,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 226,
+      "sourceH": 67
+    },
+    "dlm_disagree": {
+      "x": 1204,
+      "y": 165,
+      "w": 111,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 111,
+      "sourceH": 52
+    },
+    "dlm_disagree_dk": {
+      "x": 588,
+      "y": 776,
+      "w": 111,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 111,
+      "sourceH": 52
+    },
+    "dlm_g_axx": {
+      "x": 0,
+      "y": 1017,
+      "w": 420,
+      "h": 2,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 420,
+      "sourceH": 2
+    },
+    "dlm_g_bangjyu_xbiaoi": {
+      "x": 0,
+      "y": 969,
+      "w": 665,
+      "h": 47,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 665,
+      "sourceH": 47
+    },
+    "dlm_g_bangzhu": {
+      "x": 475,
+      "y": 791,
+      "w": 112,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 112,
+      "sourceH": 55
+    },
+    "dlm_g_beijin": {
+      "x": 659,
+      "y": 605,
+      "w": 163,
+      "h": 37,
+      "offX": 2,
+      "offY": 7,
+      "sourceW": 167,
+      "sourceH": 49
+    },
+    "dlm_g_dblue": {
+      "x": 1160,
+      "y": 37,
+      "w": 164,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 164,
+      "sourceH": 46
+    },
+    "dlm_g_dgreen": {
+      "x": 659,
+      "y": 558,
+      "w": 164,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 164,
+      "sourceH": 46
+    },
+    "dlm_g_dinwei": {
+      "x": 1090,
+      "y": 173,
+      "w": 113,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 113,
+      "sourceH": 55
+    },
+    "dlm_g_dred": {
+      "x": 572,
+      "y": 649,
+      "w": 164,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 164,
+      "sourceH": 46
+    },
+    "dlm_g_dwbg": {
+      "x": 0,
+      "y": 0,
+      "w": 667,
+      "h": 269,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 667,
+      "sourceH": 269
+    },
+    "dlm_g_fzhuset": {
+      "x": 932,
+      "y": 0,
+      "w": 611,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 611,
+      "sourceH": 36
+    },
+    "dlm_g_liaotian": {
+      "x": 1241,
+      "y": 84,
+      "w": 111,
+      "h": 54,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 111,
+      "sourceH": 54
+    },
+    "dlm_g_ltq": {
+      "x": 668,
+      "y": 0,
+      "w": 263,
+      "h": 309,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 263,
+      "sourceH": 309
+    },
+    "dlm_g_lts": {
+      "x": 0,
+      "y": 270,
+      "w": 400,
+      "h": 309,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 400,
+      "sourceH": 309
+    },
+    "dlm_g_paise": {
+      "x": 747,
+      "y": 474,
+      "w": 163,
+      "h": 45,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 163,
+      "sourceH": 45
+    },
+    "dlm_g_shurukuan1": {
+      "x": 370,
+      "y": 877,
+      "w": 498,
+      "h": 56,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 498,
+      "sourceH": 56
+    },
+    "dlm_g_touxiangbg1": {
+      "x": 572,
+      "y": 558,
+      "w": 86,
+      "h": 90,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 86,
+      "sourceH": 90
+    },
+    "dlm_g_wangjia_bg": {
+      "x": 0,
+      "y": 877,
+      "w": 369,
+      "h": 91,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 369,
+      "sourceH": 91
+    },
+    "dlm_g_wangjia_fsbg": {
+      "x": 370,
+      "y": 934,
+      "w": 162,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 162,
+      "sourceH": 34
+    },
+    "dlm_g_wjtoukuan_bg": {
+      "x": 1160,
+      "y": 84,
+      "w": 80,
+      "h": 80,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 80,
+      "sourceH": 80
+    },
+    "dlm_g_xblue": {
+      "x": 0,
+      "y": 1020,
+      "w": 408,
+      "h": 2,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 408,
+      "sourceH": 2
+    },
+    "dlm_g_xgreen": {
+      "x": 1096,
+      "y": 279,
+      "w": 408,
+      "h": 2,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 408,
+      "sourceH": 2
+    },
+    "dlm_g_xred": {
+      "x": 1096,
+      "y": 282,
+      "w": 408,
+      "h": 2,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 408,
+      "sourceH": 2
+    },
+    "dlm_g_xxx1": {
+      "x": 1096,
+      "y": 285,
+      "w": 383,
+      "h": 2,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 383,
+      "sourceH": 2
+    },
+    "dlm_sz": {
+      "x": 911,
+      "y": 434,
+      "w": 114,
+      "h": 49,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 114,
+      "sourceH": 49
+    },
+    "dlm_yinxiao": {
+      "x": 475,
+      "y": 847,
+      "w": 158,
+      "h": 29,
+      "offX": 8,
+      "offY": 15,
+      "sourceW": 167,
+      "sourceH": 49
+    },
+    "dlm_yinyue": {
+      "x": 838,
+      "y": 385,
+      "w": 165,
+      "h": 42,
+      "offX": 0,
+      "offY": 6,
+      "sourceW": 167,
+      "sourceH": 49
+    },
+    "public_TDK1": {
+      "x": 1096,
+      "y": 229,
+      "w": 119,
+      "h": 49,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 121,
+      "sourceH": 51
+    },
+    "public_TDK2": {
+      "x": 401,
+      "y": 270,
+      "w": 118,
+      "h": 177,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 118,
+      "sourceH": 177
+    },
+    "public_TDK3": {
+      "x": 0,
+      "y": 580,
+      "w": 571,
+      "h": 210,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 573,
+      "sourceH": 210
+    },
+    "public_TDK4": {
+      "x": 0,
+      "y": 791,
+      "w": 474,
+      "h": 85,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 474,
+      "sourceH": 85
+    },
+    "public_TDK5": {
+      "x": 932,
+      "y": 248,
+      "w": 86,
+      "h": 88,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 87,
+      "sourceH": 88
+    },
+    "public_TDK6": {
+      "x": 906,
+      "y": 337,
+      "w": 45,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 45,
+      "sourceH": 46
+    },
+    "public_TDK7": {
+      "x": 952,
+      "y": 337,
+      "w": 45,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 45,
+      "sourceH": 46
+    },
+    "public_TDK8": {
+      "x": 1353,
+      "y": 90,
+      "w": 74,
+      "h": 72,
+      "offX": 5,
+      "offY": 3,
+      "sourceW": 82,
+      "sourceH": 78
+    },
+    "public_TDK9": {
+      "x": 747,
+      "y": 385,
+      "w": 90,
+      "h": 88,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 90,
+      "sourceH": 88
+    },
+    "tdk_an_queding": {
+      "x": 824,
+      "y": 520,
+      "w": 111,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 111,
+      "sourceH": 52
+    },
+    "tdk_an_queding_dk": {
+      "x": 1004,
+      "y": 381,
+      "w": 111,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 111,
+      "sourceH": 52
+    },
+    "tdk_an_quxiao": {
+      "x": 824,
+      "y": 573,
+      "w": 111,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 111,
+      "sourceH": 52
+    },
+    "tdk_an_quxiao_dk": {
+      "x": 1353,
+      "y": 37,
+      "w": 111,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 111,
+      "sourceH": 52
+    },
+    "tdk_an_tichu": {
+      "x": 1019,
+      "y": 248,
+      "w": 76,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 76,
+      "sourceH": 79
+    },
+    "tdk_an_tichu_dk": {
+      "x": 572,
+      "y": 696,
+      "w": 76,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 76,
+      "sourceH": 79
+    },
+    "tdk_ej_tishi": {
+      "x": 520,
+      "y": 270,
+      "w": 137,
+      "h": 29,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 137,
+      "sourceH": 29
+    }
+  }
+}

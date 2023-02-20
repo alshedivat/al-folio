@@ -1,0 +1,12 @@
+{"file":"lose_jiesuan.png","frames":{
+"-":{"x":1,"y":64,"w":43,"h":24,"offX":0,"offY":19,"sourceW":44,"sourceH":61},
+"0":{"x":1,"y":1,"w":44,"h":61,"offX":0,"offY":0,"sourceW":44,"sourceH":61},
+"1":{"x":226,"y":63,"w":27,"h":59,"offX":8,"offY":1,"sourceW":44,"sourceH":61},
+"2":{"x":93,"y":1,"w":44,"h":60,"offX":0,"offY":1,"sourceW":44,"sourceH":61},
+"3":{"x":47,"y":63,"w":42,"h":61,"offX":1,"offY":0,"sourceW":44,"sourceH":61},
+"4":{"x":185,"y":1,"w":43,"h":60,"offX":1,"offY":1,"sourceW":44,"sourceH":61},
+"5":{"x":47,"y":1,"w":44,"h":60,"offX":0,"offY":1,"sourceW":44,"sourceH":61},
+"6":{"x":91,"y":63,"w":41,"h":61,"offX":2,"offY":0,"sourceW":44,"sourceH":61},
+"7":{"x":139,"y":1,"w":44,"h":59,"offX":0,"offY":1,"sourceW":44,"sourceH":61},
+"8":{"x":139,"y":62,"w":42,"h":61,"offX":1,"offY":0,"sourceW":44,"sourceH":61},
+"9":{"x":183,"y":63,"w":41,"h":61,"offX":2,"offY":0,"sourceW":44,"sourceH":61}}}

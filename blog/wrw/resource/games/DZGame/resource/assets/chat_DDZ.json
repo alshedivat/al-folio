@@ -1,0 +1,545 @@
+{
+  "file": "chat_DDZ.png",
+  "frames": {
+    "chat_btn_normal_DDZ": {
+      "x": 0,
+      "y": 360,
+      "w": 307,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 307,
+      "sourceH": 55
+    },
+    "chat_btn_select_DDZ": {
+      "x": 414,
+      "y": 0,
+      "w": 307,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 307,
+      "sourceH": 55
+    },
+    "chat_fix_msg_bar_DDZ": {
+      "x": 0,
+      "y": 297,
+      "w": 598,
+      "h": 62,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 598,
+      "sourceH": 62
+    },
+    "chat_input_bg_DDZ": {
+      "x": 0,
+      "y": 211,
+      "w": 442,
+      "h": 85,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 445,
+      "sourceH": 85
+    },
+    "chat_pop_DDZ": {
+      "x": 218,
+      "y": 416,
+      "w": 66,
+      "h": 53,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 67,
+      "sourceH": 53
+    },
+    "face_DDZ1": {
+      "x": 329,
+      "y": 482,
+      "w": 107,
+      "h": 111,
+      "offX": 8,
+      "offY": 5,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ2": {
+      "x": 0,
+      "y": 760,
+      "w": 120,
+      "h": 99,
+      "offX": 0,
+      "offY": 11,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ3": {
+      "x": 221,
+      "y": 595,
+      "w": 108,
+      "h": 109,
+      "offX": 6,
+      "offY": 7,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ4": {
+      "x": 0,
+      "y": 651,
+      "w": 111,
+      "h": 108,
+      "offX": 4,
+      "offY": 9,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ5": {
+      "x": 330,
+      "y": 594,
+      "w": 105,
+      "h": 111,
+      "offX": 8,
+      "offY": 5,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ6": {
+      "x": 525,
+      "y": 602,
+      "w": 83,
+      "h": 84,
+      "offX": 14,
+      "offY": 11,
+      "sourceW": 103,
+      "sourceH": 103
+    },
+    "face_DDZ7": {
+      "x": 906,
+      "y": 0,
+      "w": 115,
+      "h": 113,
+      "offX": 3,
+      "offY": 4,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ8": {
+      "x": 106,
+      "y": 416,
+      "w": 111,
+      "h": 113,
+      "offX": 4,
+      "offY": 8,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ9": {
+      "x": 121,
+      "y": 705,
+      "w": 106,
+      "h": 111,
+      "offX": 9,
+      "offY": 8,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ10": {
+      "x": 228,
+      "y": 705,
+      "w": 97,
+      "h": 99,
+      "offX": 12,
+      "offY": 11,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ11": {
+      "x": 108,
+      "y": 930,
+      "w": 85,
+      "h": 89,
+      "offX": 9,
+      "offY": 7,
+      "sourceW": 103,
+      "sourceH": 103
+    },
+    "face_DDZ12": {
+      "x": 437,
+      "y": 482,
+      "w": 105,
+      "h": 111,
+      "offX": 8,
+      "offY": 5,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ13": {
+      "x": 111,
+      "y": 530,
+      "w": 109,
+      "h": 111,
+      "offX": 6,
+      "offY": 5,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ14": {
+      "x": 228,
+      "y": 805,
+      "w": 86,
+      "h": 90,
+      "offX": 9,
+      "offY": 8,
+      "sourceW": 103,
+      "sourceH": 103
+    },
+    "face_DDZ15": {
+      "x": 0,
+      "y": 416,
+      "w": 105,
+      "h": 121,
+      "offX": 8,
+      "offY": 0,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ16": {
+      "x": 221,
+      "y": 482,
+      "w": 107,
+      "h": 112,
+      "offX": 6,
+      "offY": 2,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ17": {
+      "x": 736,
+      "y": 422,
+      "w": 96,
+      "h": 71,
+      "offX": 4,
+      "offY": 16,
+      "sourceW": 103,
+      "sourceH": 103
+    },
+    "face_DDZ18": {
+      "x": 543,
+      "y": 512,
+      "w": 85,
+      "h": 89,
+      "offX": 10,
+      "offY": 7,
+      "sourceW": 103,
+      "sourceH": 103
+    },
+    "face_DDZ19": {
+      "x": 650,
+      "y": 422,
+      "w": 85,
+      "h": 89,
+      "offX": 9,
+      "offY": 7,
+      "sourceW": 103,
+      "sourceH": 103
+    },
+    "face_DDZ20": {
+      "x": 412,
+      "y": 706,
+      "w": 85,
+      "h": 89,
+      "offX": 9,
+      "offY": 7,
+      "sourceW": 103,
+      "sourceH": 103
+    },
+    "face_DDZ21": {
+      "x": 121,
+      "y": 817,
+      "w": 104,
+      "h": 112,
+      "offX": 10,
+      "offY": 8,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ22": {
+      "x": 194,
+      "y": 930,
+      "w": 84,
+      "h": 88,
+      "offX": 10,
+      "offY": 7,
+      "sourceW": 103,
+      "sourceH": 103
+    },
+    "face_DDZ23": {
+      "x": 0,
+      "y": 860,
+      "w": 107,
+      "h": 110,
+      "offX": 7,
+      "offY": 7,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ24": {
+      "x": 554,
+      "y": 422,
+      "w": 95,
+      "h": 89,
+      "offX": 4,
+      "offY": 7,
+      "sourceW": 103,
+      "sourceH": 103
+    },
+    "face_DDZ25": {
+      "x": 845,
+      "y": 353,
+      "w": 111,
+      "h": 115,
+      "offX": 4,
+      "offY": 4,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ26": {
+      "x": 315,
+      "y": 805,
+      "w": 85,
+      "h": 89,
+      "offX": 9,
+      "offY": 7,
+      "sourceW": 103,
+      "sourceH": 103
+    },
+    "face_DDZ27": {
+      "x": 326,
+      "y": 706,
+      "w": 85,
+      "h": 91,
+      "offX": 10,
+      "offY": 6,
+      "sourceW": 103,
+      "sourceH": 103
+    },
+    "face_DDZ28": {
+      "x": 629,
+      "y": 512,
+      "w": 82,
+      "h": 90,
+      "offX": 11,
+      "offY": 7,
+      "sourceW": 103,
+      "sourceH": 103
+    },
+    "face_DDZ29": {
+      "x": 845,
+      "y": 244,
+      "w": 121,
+      "h": 108,
+      "offX": 1,
+      "offY": 7,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ30": {
+      "x": 436,
+      "y": 594,
+      "w": 88,
+      "h": 88,
+      "offX": 8,
+      "offY": 9,
+      "sourceW": 103,
+      "sourceH": 103
+    },
+    "face_DDZ31": {
+      "x": 0,
+      "y": 538,
+      "w": 110,
+      "h": 112,
+      "offX": 4,
+      "offY": 8,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ32": {
+      "x": 414,
+      "y": 56,
+      "w": 122,
+      "h": 121,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ33": {
+      "x": 537,
+      "y": 56,
+      "w": 122,
+      "h": 121,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ34": {
+      "x": 308,
+      "y": 360,
+      "w": 122,
+      "h": 121,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ35": {
+      "x": 660,
+      "y": 56,
+      "w": 122,
+      "h": 121,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ36": {
+      "x": 431,
+      "y": 360,
+      "w": 122,
+      "h": 121,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ37": {
+      "x": 599,
+      "y": 178,
+      "w": 122,
+      "h": 121,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ38": {
+      "x": 783,
+      "y": 0,
+      "w": 122,
+      "h": 121,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ39": {
+      "x": 599,
+      "y": 300,
+      "w": 122,
+      "h": 121,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ40": {
+      "x": 722,
+      "y": 178,
+      "w": 122,
+      "h": 121,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ41": {
+      "x": 722,
+      "y": 300,
+      "w": 122,
+      "h": 121,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_DDZ42": {
+      "x": 845,
+      "y": 122,
+      "w": 122,
+      "h": 121,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "NDvoice_btn1_ddz": {
+      "x": 498,
+      "y": 687,
+      "w": 78,
+      "h": 77,
+      "offX": 1,
+      "offY": 6,
+      "sourceW": 80,
+      "sourceH": 88
+    },
+    "NDvoice_btn2_ddz": {
+      "x": 401,
+      "y": 798,
+      "w": 78,
+      "h": 76,
+      "offX": 2,
+      "offY": 6,
+      "sourceW": 80,
+      "sourceH": 88
+    },
+    "send_btn_DDZ": {
+      "x": 443,
+      "y": 178,
+      "w": 155,
+      "h": 72,
+      "offX": 1,
+      "offY": 4,
+      "sourceW": 157,
+      "sourceH": 76
+    },
+    "voice_icon_ddz": {
+      "x": 414,
+      "y": 178,
+      "w": 16,
+      "h": 22,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 16,
+      "sourceH": 22
+    },
+    "voice_paopao_ddz": {
+      "x": 112,
+      "y": 642,
+      "w": 100,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 100,
+      "sourceH": 48
+    },
+    "voice_recording_ddz": {
+      "x": 0,
+      "y": 0,
+      "w": 209,
+      "h": 210,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 209,
+      "sourceH": 210
+    },
+    "voiceloading_ddz": {
+      "x": 210,
+      "y": 0,
+      "w": 203,
+      "h": 203,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 203,
+      "sourceH": 203
+    }
+  }
+}

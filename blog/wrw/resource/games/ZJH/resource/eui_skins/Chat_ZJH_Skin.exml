@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Chat_ZJH_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Image source="public_ZJH2_png" scale9Grid="29,32,59,107" horizontalCenter="126" verticalCenter="0"/>
+	<e:Image source="public_ZJH2_png" scale9Grid="29,32,59,107" horizontalCenter="-126" scaleX="-1" verticalCenter="0"/>
+	<e:Image width="462" height="365" y="153" source="zjh_big_bg2_png" scale9Grid="29,29,34,26" horizontalCenter="0" left="409"/>
+	<e:Button id="closeButton" x="846" y="93.03" width="76" height="76">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image scaleX.down="0.9" scaleY.down="0.9" source="wrnn_close" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group x="400.07" y="136.2" anchorOffsetX="0" anchorOffsetY="0" height="455">
+		<e:Scroller id="chatScroller" width="400" height="365" y="17" anchorOffsetX="0" horizontalCenter="26.5" anchorOffsetY="0">
+		<e:Group id="chatGroup" y="10.61" x="21.21" anchorOffsetY="0"/>
+		</e:Scroller>
+		<e:Image x="0" y="390.16" source="chat_input_bg_ZJH_png" scale9Grid="55,22,229,9" scaleX="1" scaleY="1"/>
+		<e:EditableText id="textField" width="276.58" height="50" text="请输入聊天内容" x="21.24" y="391.68" size="28" textAlign="left" verticalAlign="middle" textColor="0xffffff" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+		<e:Button id="sendBtn" x="331.95" y="379.54" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="send_btn_DDZ"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Scroller id="faceScroller" width="400" y="153.01" height="365" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="27">
+		<e:Group id="faceGroup">
+		<e:layout>
+			<e:TileLayout horizontalGap="0" verticalGap="0"/>
+		</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:RadioButton id="chatRadioButton" x="409" y="329.13" label="" groupName="chattype" selected="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="wrnn_chat_btn_wenzi_normal" source.down="wrnn_chat_btn_wenzi_selected" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:RadioButton>
+	<e:RadioButton id="faceRadioButton" y="153.67" x="409" label="" groupName="chattype">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chat_btn_normal_DDZ" source.down="chat_btn_select_DDZ"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+
+
+</e:Skin>

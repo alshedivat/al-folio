@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubMyDataSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="540">
+    <e:Image source="mjl_common_json.common_title_bg" horizontalCenter="0" top="0"/>
+	<e:Image source="mjl_club_json.mjl_myData_title" y="23" horizontalCenter="0"/>
+	<e:Group width="794" height="452" horizontalCenter="0" bottom="0">
+		<e:Image scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" source="mjl_common_bj_3" scale9Grid="50,74,178,451"/>
+		<e:Button id="closeBtn" label="Button" right="-30" top="-30" skinName="MJ_CloseButton1Skin"/>
+		<e:Group width="670" height="191" y="67" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:Image left="0" right="0" top="0" bottom="0" source="mjl_myData_bg" scale9Grid="17,23,102,145"/>
+			<e:Image source="mjl_club_json.mjl_line" top="0" bottom="0" left="90"/>
+			<e:Image source="mjl_club_json.mjl_today" top="75" left="21"/>
+			<e:Image top="140" left="21" source="mjl_yesterday"/>
+			<e:Group height="55" left="90" right="0" top="0">
+				<e:Image source="mjl_matchmanage_json.matchmemeber17" x="30" y="13" scaleX="1" scaleY="1"/>
+				<e:Image source="mjl_matchmanage_json.matchmemeber8" x="212" y="15" scaleX="1" scaleY="1"/>
+				<e:Image source="mjl_matchmanage_json.matchmemeber7" x="443" y="14" scaleX="1" scaleY="1"/>
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="contentJustify" verticalAlign="bottom" gap="100" paddingLeft="50"/>
+				</e:layout>
+			</e:Group>
+			<e:Group top="55" left="90" right="0" bottom="0">
+				<e:Label id="scoreT" text="0" width="100" textAlign="center" verticalAlign="middle" textColor="0x53c2e3" top="20" left="45"/>
+				<e:Label id="bigWinNumT" text="0" width="100" textAlign="center" verticalAlign="middle" textColor="0x53c2e3" top="20" left="235"/>
+				<e:Label id="playNumT" text="0" width="100" textAlign="center" verticalAlign="middle" textColor="0x53c2e3" top="20" left="430"/>
+				<e:Label id="scoreY" text="0" width="100" textAlign="center" verticalAlign="middle" textColor="0x53c2e3" left="45" top="85"/>
+				<e:Label id="bigWinNumY" text="0" width="100" textAlign="center" verticalAlign="middle" textColor="0x53c2e3" top="85" left="235"/>
+				<e:Label id="playNumY" text="0" width="100" textAlign="center" verticalAlign="middle" textColor="0x53c2e3" top="85" left="430"/>
+				<e:layout>
+					<e:BasicLayout/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Button id="sureBtn" label="" horizontalCenter="0" bottom="60">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_commonBtn_sure_1" source.down="mjl_commonBtn_sure_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

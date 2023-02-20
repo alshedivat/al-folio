@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Slider_ZJH_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="234">
+	<e:Image id="track" source="wrnn_setting_slider_bg" horizontalCenter="0" verticalCenter="0" width="234"/>
+	<e:Button id="trackHighlight" label="" y="11">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image height="100%" source="wrnn_setting_slider_front" anchorOffsetX="0" left="0" right="-50" scale9Grid="26,21,197,8"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="thumb" source="wrnn_setting_slider" verticalCenter="4" x="0"/>
+</e:Skin>

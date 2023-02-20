@@ -1,0 +1,135 @@
+{
+  "file": "mjl_email.png",
+  "frames": {
+    "emai_player_info": {
+      "x": 0,
+      "y": 195,
+      "w": 207,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 207,
+      "sourceH": 53
+    },
+    "email_btn_get": {
+      "x": 0,
+      "y": 0,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "email_btn_getted": {
+      "x": 0,
+      "y": 65,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "email_deletAll_btn_1": {
+      "x": 0,
+      "y": 130,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "email_deletAll_btn_2": {
+      "x": 202,
+      "y": 0,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "email_diamong": {
+      "x": 109,
+      "y": 249,
+      "w": 55,
+      "h": 41,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 55,
+      "sourceH": 41
+    },
+    "email_fastGet_btn_1": {
+      "x": 202,
+      "y": 65,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "email_fastGet_btn_2": {
+      "x": 202,
+      "y": 130,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "email_icon_readed": {
+      "x": 0,
+      "y": 302,
+      "w": 59,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 59,
+      "sourceH": 59
+    },
+    "email_icon_unread": {
+      "x": 0,
+      "y": 362,
+      "w": 57,
+      "h": 34,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 59,
+      "sourceH": 35
+    },
+    "email_redDot": {
+      "x": 60,
+      "y": 302,
+      "w": 18,
+      "h": 18,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 18,
+      "sourceH": 18
+    },
+    "email_system": {
+      "x": 208,
+      "y": 195,
+      "w": 206,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 207,
+      "sourceH": 53
+    },
+    "email_title": {
+      "x": 0,
+      "y": 249,
+      "w": 108,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 52
+    }
+  }
+}

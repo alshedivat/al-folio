@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SixTableItemSkin" width="317" height="234" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image id="tableBg"  source="house_tableBg"/>
+    <e:Button id="infoBtn" horizontalCenter="0" y="75">
+		<e:Skin states="up,down,disabled">
+	<e:Group width="95" height="74" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95">
+		<e:Image id="tableMidBg" source="house_tableInfoBg" height.down="95%" width.down="95%" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="gameNameLabel" text="大连麻将" size="18" textColor="0xfff77d" horizontalCenter="0" y="14" fontFamily="Microsoft YaHei" width="72" height="18" textAlign="center" x="11" scaleX="1" scaleY="1" visible="false"/>
+		<e:Label id="labelDisplay" text="第20局" size="23" textColor="0xfff77d" horizontalCenter="0" fontFamily="Microsoft YaHei" textAlign="center" width="96" x="-1" scaleX="1" scaleY="1" verticalCenter="0"/>
+	</e:Group>
+		</e:Skin>
+	</e:Button>
+    <e:Button id="middleJoinBtn" horizontalCenter="0" y="76" label="加入" visible="false">
+        <e:Skin states="up,down,disabled">
+            <e:Image id="tableMidBg" height.down="95%" width.down="95%" horizontalCenter="0" verticalCenter="0"
+                     source="house_tableInfoBg" />
+            <e:Label id="labelDisplay" text="加入" size="32" textColor="0xfff789" horizontalCenter="0"
+                     fontFamily="Microsoft YaHei" height="32" textAlign="center" width="96" verticalCenter="-2"
+                     strokeColor="0x898126" stroke="2" />
+        </e:Skin>
+    </e:Button>
+    <e:Image id="roomIdBg" source="tea_tableId_bg" x="9" y="16" />
+    <e:Label id="roomId" text="房号:6837489" size="15" textColor="0x611000" fontFamily="SimHei" y="20" x="19" height="16" />
+    <e:Group id="player5" top="156" left="132">
+        <e:Label id="nameLabel5" text="" size="18" fontFamily="SimHei" height="15"
+                 bottom="0"  textColor="0xffea84" left="56"/>
+        <e:Image id="headMc5" source="" width="53" height="51" y="0"  left="0"/>
+        <e:Group id="outLine5" scaleX="1" scaleY="1" left="0" height="53" y="0" width="53" visible="false">
+			<e:Rect width="53" height="53" scaleX="1" scaleY="1" horizontalCenter="0" bottom="0" fillAlpha="0.5" fillColor="0x444444" x="1" y="18"/>
+			<e:Label text="离线" size="18" fontFamily="SimHei" height="15" bottom="20" horizontalCenter="0" textColor="0xf72727" x="10" y="36" scaleX="1" scaleY="1"/>
+		</e:Group>
+    </e:Group>
+    <e:Group id="player2" right="28" top="42">
+        <e:Label id="nameLabel2" text="" size="18" fontFamily="SimHei" height="15"
+                 horizontalCenter="0"  textColor="0xffea84"/>
+        <e:Image id="headMc2" source="" width="53" height="51" y="16" horizontalCenter="0" />
+        <e:Group id="outLine2" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Rect width="53" height="53" scaleX="1" scaleY="1" horizontalCenter="0" bottom="0" fillAlpha="0.5" fillColor="0x444444" x="1" y="18"/>
+			<e:Label text="离线" size="18" fontFamily="SimHei" height="15" bottom="20" horizontalCenter="0" textColor="0xf72727" x="10" y="36" scaleX="1" scaleY="1"/>
+		</e:Group>
+    </e:Group>
+    <e:Group id="player1" right="28" top="118">
+        <e:Label id="nameLabel1" text="" size="18" fontFamily="SimHei" height="15"
+                 horizontalCenter="0"  textColor="0xffea84"/>
+        <e:Image id="headMc1" source="" width="53" height="51" y="16" horizontalCenter="0" />
+        <e:Group id="outLine1" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Rect width="53" height="53" scaleX="1" scaleY="1" horizontalCenter="0" bottom="0" fillAlpha="0.5" fillColor="0x444444" x="1" y="18"/>
+			<e:Label text="离线" size="18" fontFamily="SimHei" height="15" bottom="20" horizontalCenter="0" textColor="0xf72727" x="10" y="36" scaleX="1" scaleY="1"/>
+		</e:Group>
+    </e:Group>
+    <e:Group id="player3" top="18" left="132">
+        <e:Label id="nameLabel3" text="" size="18" fontFamily="SimHei" height="15"
+                  textColor="0xffea84" left="56"/>
+        <e:Image id="headMc3" source="" width="53" height="51" y="0"  left="0"/>
+        <e:Group id="outLine3" scaleX="1" scaleY="1" left="0" height="53" y="0" width="53" visible="false">
+			<e:Rect width="53" height="53" scaleX="1" scaleY="1" horizontalCenter="0" bottom="0" fillAlpha="0.5" fillColor="0x444444" x="1" y="18"/>
+			<e:Label text="离线" size="18" fontFamily="SimHei" height="15" bottom="20" horizontalCenter="0" textColor="0xf72727" x="10" y="36" scaleX="1" scaleY="1"/>
+		</e:Group>
+    </e:Group>
+	<e:Group id="player6" top="18" left="132" visible="false">
+		<e:Label id="nameLabel6" text="" size="18" fontFamily="SimHei" height="15" textColor="0xffea84" left="56"/>
+		<e:Image id="headMc6" source="" width="53" height="51" y="0" x="0"/>
+        <e:Group id="outLine6" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Rect width="53" height="53" scaleX="1" scaleY="1" horizontalCenter="0" bottom="0" fillAlpha="0.5" fillColor="0x444444" x="1" y="18"/>
+			<e:Label text="离线" size="18" fontFamily="SimHei" height="15" bottom="20" horizontalCenter="0" textColor="0xf72727" x="10" y="36" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="player7" top="18" left="132" visible="false">
+		<e:Label id="nameLabel7" text="" size="18" fontFamily="SimHei" height="15" textColor="0xffea84" left="56"/>
+		<e:Image id="headMc7" source="" width="53" height="51" y="0" x="0"/>
+	</e:Group>
+	<e:Group id="player8" top="18" left="132" visible="false">
+		<e:Label id="nameLabel8" text="" size="18" fontFamily="SimHei" height="15" textColor="0xffea84" left="56"/>
+		<e:Image id="headMc8" source="" width="53" height="51" y="0" x="0"/>
+	</e:Group>
+    <e:Group id="player4" top="42" left="28">
+        <e:Label id="nameLabel4" text="" size="18" fontFamily="SimHei" height="15"
+                 horizontalCenter="0"  textColor="0xffea84"/>
+        <e:Image id="headMc4" source="" width="53" height="51" y="16" horizontalCenter="0" />
+    </e:Group>
+    <e:Group id="player0" top="118" left="28">
+        <e:Label id="nameLabel0" text="" size="18" fontFamily="SimHei" height="15"
+                 horizontalCenter="0"  textColor="0xffea84"/>
+        <e:Image id="headMc0" source="" width="53" height="51" y="16" horizontalCenter="0" />
+        <e:Group id="outLine0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Rect width="53" height="53" scaleX="1" scaleY="1" horizontalCenter="0" bottom="0" fillAlpha="0.5" fillColor="0x444444" x="1" y="18"/>
+			<e:Label text="离线" size="18" fontFamily="SimHei" height="15" bottom="20" horizontalCenter="0" textColor="0xf72727" x="10" y="36" scaleX="1" scaleY="1"/>
+		</e:Group>
+    </e:Group>
+    <e:Group id="joinGroup">
+        <e:Button id="joinBtn5" y="156" width="55" height="53" skinName="TableJoinBtnSkin" x="131" visible="false"></e:Button>
+        <e:Button id="joinBtn2" y="58" x="224" width="55" height="53" skinName="TableJoinBtnSkin" visible="false"></e:Button>
+        <e:Button id="joinBtn1" y="134" x="224" width="55" height="53" skinName="TableJoinBtnSkin" visible="false"></e:Button>
+        <e:Button id="joinBtn3" y="18" width="55" height="53" skinName="TableJoinBtnSkin" x="131" visible="false"></e:Button>
+        <e:Button id="joinBtn0" y="134" x="39" width="55" height="53" skinName="TableJoinBtnSkin" visible="false"></e:Button>
+        <e:Button id="joinBtn4" y="58" x="39" width="55" height="53" skinName="TableJoinBtnSkin" visible="false"></e:Button>
+    </e:Group>
+    <e:Image id="endIcon" x="220" y="140" source="house_tableEnd" visible="false" />
+    <e:Image id="playIcon" x="18" y="140" source="house_tablePlaying" visible="false" />
+</e:Skin>

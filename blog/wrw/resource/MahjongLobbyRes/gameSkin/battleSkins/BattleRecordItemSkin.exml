@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleRecordItemSkin" width="1220" height="160" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0">
+<e:Image source="match_json.match_inputBg" top="0" bottom="0" left="0" right="0" scale9Grid="20,16,197,23"/>
+		<e:Label id="_info" text="你在默默比赛中排名第1" left="0" right="0" top="0" bottom="0" textAlign="center" verticalAlign="middle" textColor="0xe82525"/>
+	</e:Group>
+</e:Skin>

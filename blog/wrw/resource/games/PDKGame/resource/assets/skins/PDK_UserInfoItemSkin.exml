@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PDK_UserInfoItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="137" height="150">
+	<e:Image source="userInfo_Item" anchorOffsetY="0" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="iconImage" source="userInfo_free_gift1" y="0" horizontalCenter="0"/>
+	<e:Label id="nameLabel" text="黄瓜" y="117" size="22" horizontalCenter="0"/>
+</e:Skin>

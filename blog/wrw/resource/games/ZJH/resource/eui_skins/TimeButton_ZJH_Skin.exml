@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TimeButton_ZJH_Skin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="140" height="140">
+	<e:Group width="100%" height="100%" scaleX="1" scaleY="1">
+		<e:Image id="rotateImage" source="wrnn_cutdown_circle" x="70" y="70" anchorOffsetX="84" anchorOffsetY="84" scaleX="0.7" scaleY="0.7"/>
+		<e:Image id="bg_image" verticalCenter="0" source="wrnn_cutdown_bg" horizontalCenter="0" x="24" y="24" scaleX="0.7" scaleY="0.7" width="130" height="130" anchorOffsetX="65" anchorOffsetY="65"/>
+		<e:BitmapLabel id="labelDisplay" font="gameNum_fnt" text="30" anchorOffsetX="0" anchorOffsetY="0" scaleX="1.2" scaleY="1.2" horizontalCenter="0" verticalCenter="0"/>
+
+	</e:Group>
+
+
+</e:Skin>

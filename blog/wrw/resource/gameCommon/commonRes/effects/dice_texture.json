@@ -1,0 +1,7 @@
+{"file":"dice_texture.png","frames":{
+"dice_6":{"x":71,"y":0,"w":65,"h":64,"offX":4,"offY":1,"sourceW":76,"sourceH":65},
+"dice_1":{"x":70,"y":67,"w":66,"h":64,"offX":3,"offY":1,"sourceW":76,"sourceH":65},
+"dice_2":{"x":70,"y":133,"w":65,"h":64,"offX":4,"offY":1,"sourceW":76,"sourceH":65},
+"dice_3":{"x":0,"y":0,"w":69,"h":65,"offX":3,"offY":0,"sourceW":76,"sourceH":65},
+"dice_4":{"x":0,"y":67,"w":68,"h":65,"offX":0,"offY":0,"sourceW":76,"sourceH":65},
+"dice_5":{"x":0,"y":134,"w":65,"h":64,"offX":4,"offY":1,"sourceW":76,"sourceH":65}}}

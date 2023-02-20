@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PDK_TotalRecordItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="total_itembg" x="0" y="0"/>
+	<e:Image source="total_item" y="210.67" horizontalCenter="0.5"/>
+	<e:Image source="total_headbg" x="19" y="15"/>
+	<e:Image id="headMask" source="total_headbg" x="22.99" y="18.99" width="94" height="94"/>
+	<e:Image id="hostImage" source="total_gamehost" x="16" y="17"/>
+	<e:Image id="winnerImage" source="total_win" x="81.32" y="10.65"/>
+	<e:Label id="nameLabel" text="Label" x="129.63" y="43.02" size="22" fontFamily="微软雅黑" width="140" height="22"/>
+	<e:Label id="idLabel" text="Label" x="129.63" y="89.02" size="22" fontFamily="微软雅黑" width="140"/>
+	<e:BitmapLabel id="pointLabel" y="144.06" horizontalCenter="0" font="lose_fnt" text="1"/>
+
+
+	<e:Group width="223" height="323" x="28" y="216" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Label id="label1" text="Label" y="25.650000000000006" size="25" horizontalCenter="0" x="79" scaleX="1" scaleY="1"/>
+		<e:Label id="label2" text="Label" y="145" size="25" horizontalCenter="0" x="79" scaleX="1" scaleY="1"/>
+		<e:Label id="label3" text="Label" y="263" size="25" horizontalCenter="0" x="79" scaleX="1" scaleY="1"/>
+		<e:Label id="label4" text="Label" y="263" size="25" horizontalCenter="0" x="79" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="justify" paddingTop="30"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

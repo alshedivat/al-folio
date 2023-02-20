@@ -1,0 +1,95 @@
+{
+  "file": "mjl_agent.png",
+  "frames": {
+    "mjl_agent_arrowIcon": {
+      "x": 218,
+      "y": 172,
+      "w": 42,
+      "h": 43,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 42,
+      "sourceH": 43
+    },
+    "mjl_agent_menu_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 116,
+      "h": 591,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 116,
+      "sourceH": 636
+    },
+    "mjl_agent_menu_btn_0": {
+      "x": 117,
+      "y": 172,
+      "w": 100,
+      "h": 84,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 101,
+      "sourceH": 84
+    },
+    "mjl_agent_menu_btn_1": {
+      "x": 253,
+      "y": 0,
+      "w": 101,
+      "h": 84,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 101,
+      "sourceH": 84
+    },
+    "mjl_agent_menu_btn_2": {
+      "x": 117,
+      "y": 87,
+      "w": 111,
+      "h": 84,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 112,
+      "sourceH": 84
+    },
+    "mjl_agent_menu_btn_3": {
+      "x": 117,
+      "y": 257,
+      "w": 97,
+      "h": 83,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 97,
+      "sourceH": 84
+    },
+    "mjl_agent_menu_btn_4": {
+      "x": 355,
+      "y": 0,
+      "w": 97,
+      "h": 84,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 97,
+      "sourceH": 84
+    },
+    "mjl_agent_menu_btn_5": {
+      "x": 229,
+      "y": 87,
+      "w": 99,
+      "h": 83,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 100,
+      "sourceH": 84
+    },
+    "mjl_agent_menuClosed_bg": {
+      "x": 117,
+      "y": 0,
+      "w": 135,
+      "h": 86,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 135,
+      "sourceH": 86
+    }
+  }
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchUserOprateSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image anchorOffsetY="0" height="500" anchorOffsetX="0" width="860" horizontalCenter="1" verticalCenter="0" source="mjl_common_bj_3" scale9Grid="51,48,178,488"/>
+	<e:Button id="sureBtn" label="" horizontalCenter="0" bottom="160">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_commonBtn_sure_1" source.down="mjl_commonBtn_sure_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="closeBtn" label="" skinName="MJ_CloseButton1Skin" right="190" top="85">
+
+	</e:Button>
+	<e:Label text="设 置" y="145.63" fontFamily="SimHei" bold="true" size="34" horizontalCenter="0.5" textColor="0xf7fbff"/>
+	<e:Group width="765.67" height="71" y="185" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="13">
+		<e:Label id="idLabel" text="ID:1234567891" x="4" fontFamily="SimHei" anchorOffsetX="0" textAlign="left" verticalCenter="0.5" textColor="0xf7fbff" width="212"/>
+		<e:Label id="nickNameLabel" text="昵称:巨闲网络" fontFamily="SimHei" anchorOffsetX="0" horizontalCenter="6.1650000000000205" textAlign="center" verticalCenter="0.5" textColor="0xf7fbff" width="200"/>
+		<e:Label id="integerLabel" text="当前匹配分:100" x="526" fontFamily="SimHei" anchorOffsetX="0" textAlign="left" verticalCenter="0.5" textColor="0xf7fbff" width="233"/>
+		<e:Button id="weChatBtn" label="Button" width="155" height="155" scaleX="0.3" scaleY="0.3" verticalCenter="0" horizontalCenter="-126.33499999999998">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="s_weixin"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group width="740" height="64.67" y="259.28" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="30"/>
+		</e:layout>
+		<e:RadioButton id="radioBox0" label="移除" x="109" y="33" enabled="true" scaleX="1" scaleY="1" height="45" value="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="160" height="45">
+				<e:Image width="35" height="35" left.down="0" verticalCenter.down="0" source="mjl_create_checkbg" verticalCenter="0"/>
+				<e:Image source="mjl_createPanel_json.mjl_check_small" verticalCenter.disabled="1.5" verticalCenter.up="1.5" visible.up="false" left="4" left.down="-1" source.down="mjl_create_check" width.down="35" height.down="35" verticalCenter.down="-2"/>
+				<e:Label id="labelDisplay" text="" textColor="0xf7fbff" fontFamily="SimHei" verticalCenter="0" left="50"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="radioBox1" label="白名单" x="119" y="43" enabled="true" scaleX="1" scaleY="1" height="45" value="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="160" height="45">
+				<e:Image width="35" height="35" left.down="0" verticalCenter.down="0" source="mjl_create_checkbg" verticalCenter="0"/>
+				<e:Image source="mjl_createPanel_json.mjl_check_small" verticalCenter.disabled="1.5" verticalCenter.up="1.5" visible.up="false" left="4" left.down="-1" source.down="mjl_create_check" width.down="35" height.down="35" verticalCenter.down="-2" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="8" text="黑名单" textColor="0xf7fbff" fontFamily="SimHei" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="radioBox2" label="黑名单" x="129" y="53" enabled="true" scaleX="1" scaleY="1" height="45" value="2">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="160" height="45">
+				<e:Image width="35" height="35" left.down="0" verticalCenter.down="0" source="mjl_create_checkbg" verticalCenter="0"/>
+				<e:Image source="mjl_createPanel_json.mjl_check_small" verticalCenter.disabled="1.5" verticalCenter.up="1.5" visible.up="false" left="4" left.down="-1" source.down="mjl_create_check" width.down="35" height.down="35" verticalCenter.down="-2" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="8" text="黑名单" textColor="0xf7fbff" fontFamily="SimHei" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="radioBox3" label="副群主" x="139" y="63" enabled="true" scaleX="1" scaleY="1" height="45" value="3">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="160" height="45">
+				<e:Image width="35" height="35" left.down="0" verticalCenter.down="0" source="mjl_create_checkbg" verticalCenter="0"/>
+				<e:Image source="mjl_createPanel_json.mjl_check_small" verticalCenter.disabled="1.5" verticalCenter.up="1.5" visible.up="false" left="4" left.down="-1" source.down="mjl_create_check" width.down="35" height.down="35" verticalCenter.down="-2" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="8" text="黑名单" textColor="0xf7fbff" fontFamily="SimHei" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+	</e:Group>
+	<e:Group width="740" height="188.33" y="329.67" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Group x="0" height="60" top="10">
+			<e:Label text="设置黄名单" x="5" textColor="0xf7fbff" fontFamily="SimHei" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Image x="185" anchorOffsetX="0" width="220" anchorOffsetY="0" height="50" source="mjl_create_match_inputBg" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:EditableText id="setYello" width="210" height="45" x="188" maxChars="8" size="25" prompt="输入ID添加黄名单" promptColor="0xD1D1D1" verticalAlign="middle" textColor="0xFFFFFF" text="" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" scaleX="1" scaleY="1" verticalCenter="0"/>
+		</e:Group>
+		<e:Group left="469" top="10">
+			<e:Label text="备注" x="0" textColor="0xf7fbff" fontFamily="SimHei" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Image x="82.10000000000002" anchorOffsetX="0" width="159" anchorOffsetY="0" height="50" source="mjl_create_match_inputBg" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:EditableText id="setDesc" width="145.66" height="44.11" x="85.63" maxChars="8" size="25" prompt="输入备注" promptColor="0xD1D1D1" verticalAlign="middle" textColor="0xFFFFFF" text="" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" scaleX="1" scaleY="1" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="donateGroup" x="0" top="90">
+			<e:RadioButton id="upPoint" label="赠送" enabled="true" scaleX="1" scaleY="1" left="0" anchorOffsetX="0" width="130" groupName="donate" x="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="160" height="45">
+				<e:Image width="35" height="35" left.down="0" verticalCenter.down="0" source="mjl_create_checkbg" verticalCenter="0"/>
+				<e:Image source="mjl_createPanel_json.mjl_check_small" verticalCenter.disabled="1.5" verticalCenter.up="1.5" visible.up="false" left="4" left.down="-1" source.down="mjl_create_check" width.down="35" height.down="35" verticalCenter.down="-2" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="8" text="黑名单" textColor="0xf7fbff" fontFamily="SimHei" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="reducePoint" label="捐献" x="129" enabled="true" scaleX="1" scaleY="1" anchorOffsetX="0" width="130" groupName="donate" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="160" height="45">
+				<e:Image width="35" height="35" left.down="0" verticalCenter.down="0" source="mjl_create_checkbg" verticalCenter="0"/>
+				<e:Image source="mjl_createPanel_json.mjl_check_small" verticalCenter.disabled="1.5" verticalCenter.up="1.5" visible.up="false" left="4" left.down="-1" source.down="mjl_create_check" width.down="35" height.down="35" verticalCenter.down="-2"/>
+				<e:Label id="labelDisplay" horizontalCenter="7.5" text="黑名单" textColor="0xf7fbff" fontFamily="SimHei" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:Image anchorOffsetX="0" width="200" anchorOffsetY="0" height="50" source="mjl_create_match_inputBg" left="250" x="250" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:EditableText id="setIntegerText" width="200" height="44.11" maxChars="8" size="25" prompt="请输入分数" promptColor="0xD1D1D1" verticalAlign="middle" textColor="0xffffff" text="" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" left="250" x="250" scaleX="1" scaleY="1" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="JoinweixinPanelSkin" width="900" height="642" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+	<e:Image source="joinweixinBg" horizontalCenter="0" verticalCenter="0"/>
+	<e:Button id="copyWeixin_button" label="" x="605" y="122.8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="copyWeixin_button1" source.down="copyWeixin_button2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="weChatNum" text="ZFWLKF" x="345" y="134" fontFamily="Microsoft YaHei"/>
+	<e:Label text="点击微信" fontFamily="Microsoft YaHei" bottom="50" size="25" textColor="0x075aa7" left="250"/>
+	<e:Label text="右上角“+”" fontFamily="Microsoft YaHei" bottom="50" size="25" horizontalCenter="0" textColor="0xffffff"/>
+	<e:Label text="添加朋友" fontFamily="Microsoft YaHei" bottom="50" size="25" textColor="0x075AA7" right="250"/>
+	<e:Button id="close_button" label="" horizontalCenter="381.5" verticalCenter="-238.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="close" horizontalCenter="0" verticalCenter="0" width.down="85" height.down="85" scaleX.down="0.9" scaleY.down="0.9"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

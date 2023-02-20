@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CancelEntrustButton_DDZ_Skin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="248" height="94">
+	<e:Label width="100%" height="100%"/>
+	<e:Image source="hosting_cancle_img" anchorOffsetX="104" anchorOffsetY="26"  scaleX.down="0.93" scaleY.down="0.93" x="124" y="47"/>
+</e:Skin>

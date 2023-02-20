@@ -1,0 +1,55 @@
+{
+  "file": "yaya_chat.png",
+  "frames": {
+    "yaya_chat_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 209,
+      "h": 38,
+      "offX": 2,
+      "offY": 2,
+      "sourceW": 216,
+      "sourceH": 45
+    },
+    "yaya_record": {
+      "x": 51,
+      "y": 39,
+      "w": 38,
+      "h": 38,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 38,
+      "sourceH": 38
+    },
+    "yaya_voice1": {
+      "x": 0,
+      "y": 39,
+      "w": 50,
+      "h": 41,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 50,
+      "sourceH": 41
+    },
+    "yaya_voice2": {
+      "x": 0,
+      "y": 81,
+      "w": 50,
+      "h": 41,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 50,
+      "sourceH": 41
+    },
+    "yaya_voice_icon": {
+      "x": 51,
+      "y": 78,
+      "w": 21,
+      "h": 27,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 21,
+      "sourceH": 27
+    }
+  }
+}

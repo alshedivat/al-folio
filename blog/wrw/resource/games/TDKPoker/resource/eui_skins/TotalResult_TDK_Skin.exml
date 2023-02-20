@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TotalResult_TDK_Skin" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1280">
+	<e:Image source="total_result_bg_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Button id="_backBtn" label="" y="10.6" scaleX="0.9" scaleY="0.9" left="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="public_TDK9" source.down="public_TDK9"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="_title" width="246" height="58" y="15" source="TDK_total_title" horizontalCenter="0"/>
+	<e:Label id="_roomId" text="房间号：123456 " x="95.33" y="20" anchorOffsetX="0" width="240" size="26" fontFamily="SimHei"/>
+	<e:Label id="_datatime" text="2017.06.27  17:11" y="20" anchorOffsetX="0" width="240" size="26" fontFamily="SimHei" right="0"/>
+	<e:Image width="1266" height="560" y="90.67" source="total_item_kuang" scale9Grid="25,17,66,72" anchorOffsetY="0" horizontalCenter="-7"/>
+	<e:List id="_itemList" width="1200" height="510" y="130.71" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" itemRendererSkinName="TotalItemSkin_win_TDK_Skin">
+		<e:layout>
+		<e:VerticalLayout gap="20" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object 啊啊="null"/>
+				<e:Object 啊啊="null"/>
+				<e:Object 啊啊="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+
+
+	</e:List>
+	<e:Button id="_shareBtn" label="" scaleX="0.9" scaleY="0.9" horizontalCenter="-254.5" bottom="6">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="total_share_btn" source.down="total_share_btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="playAgainBtn" width="234" height="70" horizontalCenter="228.5" y="651">
+		<e:Skin states="up,down,disabled">
+			<e:Image width="234" height="70" source="ddz_buttongreen" anchorOffsetX="117" anchorOffsetY="35" x="117" y="35"
+			         scaleX.down="0.9" scaleY.down="0.9" />
+			<e:Image source="btn_text_onemore" anchorOffsetX="59" anchorOffsetY="16" x="115" y="34" scaleX.down="0.9"
+			         scaleY.down="0.9" />
+		</e:Skin>
+	</e:Button>
+	<e:Label text="玩家" y="100" anchorOffsetY="0" height="32" horizontalCenter="-370"/>
+
+
+	<e:Label text="胜场" y="100" anchorOffsetY="0" height="32" horizontalCenter="-135"/>
+	<e:Label text="负场" y="100" anchorOffsetY="0" height="32" horizontalCenter="136"/>
+	<e:Label text="总分" y="100" anchorOffsetY="0" height="32" horizontalCenter="370"/>
+	<e:Label id="_happyPoints" text="喜分：" y="670.51" anchorOffsetY="0" height="32" fontFamily="SimHei" right="117"/>
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

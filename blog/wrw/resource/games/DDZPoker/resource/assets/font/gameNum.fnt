@@ -1,0 +1,11 @@
+{"file":"gameNum.png","frames":{
+"0":{"x":87,"y":39,"w":25,"h":38,"offX":0,"offY":0,"sourceW":25,"sourceH":38},
+"1":{"x":27,"y":79,"w":15,"h":37,"offX":0,"offY":0,"sourceW":15,"sourceH":37},
+"2":{"x":54,"y":40,"w":25,"h":37,"offX":0,"offY":0,"sourceW":25,"sourceH":37},
+"3":{"x":27,"y":40,"w":25,"h":37,"offX":0,"offY":0,"sourceW":25,"sourceH":37},
+"4":{"x":0,"y":0,"w":28,"h":37,"offX":0,"offY":0,"sourceW":28,"sourceH":37},
+"5":{"x":87,"y":0,"w":26,"h":37,"offX":0,"offY":0,"sourceW":26,"sourceH":37},
+"6":{"x":30,"y":0,"w":27,"h":38,"offX":0,"offY":0,"sourceW":27,"sourceH":38},
+"7":{"x":0,"y":79,"w":25,"h":36,"offX":0,"offY":0,"sourceW":25,"sourceH":36},
+"8":{"x":59,"y":0,"w":26,"h":38,"offX":0,"offY":0,"sourceW":26,"sourceH":38},
+"9":{"x":0,"y":39,"w":25,"h":38,"offX":0,"offY":0,"sourceW":25,"sourceH":38}}}

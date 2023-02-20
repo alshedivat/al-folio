@@ -1,0 +1,154 @@
+{
+	"groups": [
+		{
+			"keys": "TableShopConfig_json,gameList_json,TableGoodsConfig_json,TableLobbyGameList_json,TableRoomCostConfig_json,lobbyConfig_json,TablePlayTypeList_json,TableEventConfig_json,TableOfficalEventConfig_json,rule_5006_txt,rule_5029_txt,rule_5049_txt,rule_5050_txt,rule_5070_txt,rule_5071_txt,rule_5083_txt,rule_5144_txt,rule_5216_txt,TableQuesttypeConfig_json,TableQuestConfig_json,notice_Img_png,TableMatchSetConfig_json",
+			"name": "mjl_assets_self"
+		},
+		{
+			"keys": "TableLobbyGameList_json,TableCreateConfigList_json,big_logo_png,preLoad_bg_png,preLoad_icon_png,lobby_logo_main_png",
+			"name": "mjl_preload_self"
+		}
+	],
+	"resources": [
+		{
+			"url": "table/TableShopConfig.json",
+			"type": "json",
+			"name": "TableShopConfig_json"
+		},
+		{
+			"url": "table/TableEventConfig.json",
+			"type": "json",
+			"name": "TableEventConfig_json"
+		},
+		{
+			"url": "table/gameList.json",
+			"type": "json",
+			"name": "gameList_json"
+		},
+		{
+			"url": "table/TableCreateConfigList.json",
+			"type": "json",
+			"name": "TableCreateConfigList_json"
+		},
+		{
+			"url": "table/TableGoodsConfig.json",
+			"type": "json",
+			"name": "TableGoodsConfig_json"
+		},
+		{
+			"url": "table/TableLobbyGameList.json",
+			"type": "json",
+			"name": "TableLobbyGameList_json"
+		},
+		{
+			"url": "table/TableRoomCostConfig.json",
+			"type": "json",
+			"name": "TableRoomCostConfig_json"
+		},
+		{
+			"url": "table/TableCoreResources.json",
+			"type": "json",
+			"name": "TableCoreResources_json"
+		},
+		{
+			"url": "config/lobbyConfig.json",
+			"type": "json",
+			"name": "lobbyConfig_json"
+		},
+		{
+			"url": "table/TablePlayTypeList.json",
+			"type": "json",
+			"name": "TablePlayTypeList_json"
+		},
+		{
+			"url": "table/TableOfficalEventConfig.json",
+			"type": "json",
+			"name": "TableOfficalEventConfig_json"
+		},
+		{
+			"url": "assets/helpTxt/rule_5006.txt",
+			"type": "text",
+			"name": "rule_5006_txt"
+		},
+		{
+			"url": "assets/helpTxt/rule_5029.txt",
+			"type": "text",
+			"name": "rule_5029_txt"
+		},
+		{
+			"url": "assets/helpTxt/rule_5049.txt",
+			"type": "text",
+			"name": "rule_5049_txt"
+		},
+		{
+			"url": "assets/helpTxt/rule_5050.txt",
+			"type": "text",
+			"name": "rule_5050_txt"
+		},
+		{
+			"url": "assets/helpTxt/rule_5070.txt",
+			"type": "text",
+			"name": "rule_5070_txt"
+		},
+		{
+			"url": "assets/helpTxt/rule_5071.txt",
+			"type": "text",
+			"name": "rule_5071_txt"
+		},
+		{
+			"url": "assets/helpTxt/rule_5083.txt",
+			"type": "text",
+			"name": "rule_5083_txt"
+		},
+		{
+			"url": "assets/helpTxt/rule_5144.txt",
+			"type": "text",
+			"name": "rule_5144_txt"
+		},
+		{
+			"url": "assets/helpTxt/rule_5216.txt",
+			"type": "text",
+			"name": "rule_5216_txt"
+		},
+		{
+			"url": "table/TableQuesttypeConfig.json",
+			"type": "json",
+			"name": "TableQuesttypeConfig_json"
+		},
+		{
+			"url": "table/TableQuestConfig.json",
+			"type": "json",
+			"name": "TableQuestConfig_json"
+		},
+		{
+			"url": "assets/big_logo.png",
+			"type": "image",
+			"name": "big_logo_png"
+		},
+		{
+			"url": "assets/preLoad_bg.png",
+			"type": "image",
+			"name": "preLoad_bg_png"
+		},
+		{
+			"url": "assets/preLoad_icon.png",
+			"type": "image",
+			"name": "preLoad_icon_png"
+		},
+		{
+			"url": "assets/notice_Img.png",
+			"type": "image",
+			"name": "notice_Img_png"
+		},
+		{
+			"url": "assets/lobby_logo_main.png",
+			"type": "image",
+			"name": "lobby_logo_main_png"
+		},
+		{
+			"url": "table/TableMatchSetConfig.json",
+			"type": "json",
+			"name": "TableMatchSetConfig_json"
+		}
+	]
+}

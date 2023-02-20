@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DissPanel_new_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image horizontalCenter="0" verticalCenter="0"  source="commonBg_2" width="754" height="473" scale9Grid="116,116,94,222"/>
+	<e:Image horizontalCenter="0" width="695" source="box_bg" scale9Grid="34,35,110,40" bottom="166" height="230"/>
+    <e:Button id="noBtn" label="" horizontalCenter="118.5" bottom="175">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="box_disagree1" source.down="box_disagree2" source.disabled="box_disagree3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+    </e:Button>
+    <e:Button id="yesBtn" label="" horizontalCenter="-118.5" bottom="175">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="box_agree1" source.down="box_agree2" source.disabled="box_agree3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+    </e:Button>
+    <e:Label id="info" text="确定要退出" width="500" anchorOffsetY="0" verticalCenter="-100" height="110"
+             fontFamily="Microsoft YaHei" size="28" verticalAlign="middle" textAlign="center" lineSpacing="4"
+             horizontalCenter="0"  textColor="0x8f7831"/>
+    <e:Label id="_timeTxt" text="12" textColor="0xdf5e0b" fontFamily="SimHei" top="190" right="322" />
+    <e:Group id="playerListGroup" width="550" height="90" anchorOffsetY="0" horizontalCenter="0" verticalCenter="52">
+        <e:layout>
+            <e:TileLayout requestedRowCount="2" requestedColumnCount="2" horizontalGap="0" verticalGap="0"
+                          rowHeight="55" columnWidth="275" />
+        </e:layout>
+    </e:Group>
+</e:Skin>

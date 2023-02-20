@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ListenCardPanelSkin" width="676" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image source="listenCard_json.listenCard_bg" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="title" anchorOffsetY="0" left="0" right="0" top="0" height="60">
+			<e:Image source="listenCard_text" x="40" verticalCenter="0.5"/>
+			<e:Label text="点过后可取消报听！" right="100" verticalCenter="0" fontFamily="Microsoft JhengHei"/>
+		</e:Group>
+		<e:Group id="listGroup" anchorOffsetY="0" top="60" bottom="0" left="0" right="0">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="contentJustify" verticalAlign="top" gap="10"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="closeBtn" label="" width="60" height="60" right="0" top="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="60" height="60">
+				<e:Image source="game_listenBg_btn1" source.down="game_listenBg_btn2" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,188 @@
+{
+  "file": "huanhun.png",
+  "mc": {
+    "huanhun": {
+      "frames": [
+        {
+          "duration": 1,
+          "y": -138,
+          "res": "huanhun_0",
+          "x": -220
+        },
+        {
+          "duration": 1,
+          "y": -132,
+          "res": "huanhun_1",
+          "x": -204
+        },
+        {
+          "duration": 1,
+          "y": -68,
+          "res": "huanhun_2",
+          "x": -119
+        },
+        {
+          "duration": 1,
+          "y": -56,
+          "res": "huanhun_3",
+          "x": -97
+        },
+        {
+          "duration": 1,
+          "y": -74,
+          "res": "huanhun_4",
+          "x": -127
+        },
+        {
+          "duration": 1,
+          "y": -99,
+          "res": "huanhun_5",
+          "x": -147
+        },
+        {
+          "duration": 1,
+          "y": -125,
+          "res": "huanhun_6",
+          "x": -216
+        },
+        {
+          "duration": 1,
+          "y": -180,
+          "res": "huanhun_7",
+          "x": -316
+        },
+        {
+          "duration": 1,
+          "y": -49,
+          "res": "huanhun_8",
+          "x": -87
+        },
+        {
+          "duration": 1,
+          "y": -80,
+          "res": "huanhun_9",
+          "x": -90
+        },
+        {
+          "duration": 1,
+          "y": -79,
+          "res": "huanhun_10",
+          "x": -87
+        },
+        {
+          "duration": 1,
+          "y": -81,
+          "res": "huanhun_11",
+          "x": -87
+        },
+        {
+          "duration": 1,
+          "y": -49,
+          "res": "huanhun_12",
+          "x": -87
+        },
+        {
+          "duration": 1,
+          "y": -49,
+          "res": "huanhun_13",
+          "x": -86
+        }
+      ],
+      "labels": [
+        {
+          "end": 14,
+          "frame": 1,
+          "name": "huanhun"
+        }
+      ],
+      "frameRate": 24,
+      "events": []
+    }
+  },
+  "res": {
+    "huanhun_4": {
+      "x": 636,
+      "y": 196,
+      "w": 253,
+      "h": 148
+    },
+    "huanhun_1": {
+      "x": 442,
+      "y": 363,
+      "w": 409,
+      "h": 262
+    },
+    "huanhun_3": {
+      "x": 1,
+      "y": 891,
+      "w": 193,
+      "h": 112
+    },
+    "huanhun_12": {
+      "x": 196,
+      "y": 891,
+      "w": 172,
+      "h": 98
+    },
+    "huanhun_10": {
+      "x": 609,
+      "y": 795,
+      "w": 174,
+      "h": 163
+    },
+    "huanhun_7": {
+      "x": 1,
+      "y": 1,
+      "w": 633,
+      "h": 360
+    },
+    "huanhun_0": {
+      "x": 1,
+      "y": 363,
+      "w": 439,
+      "h": 274
+    },
+    "huanhun_11": {
+      "x": 433,
+      "y": 765,
+      "w": 174,
+      "h": 165
+    },
+    "huanhun_6": {
+      "x": 1,
+      "y": 639,
+      "w": 430,
+      "h": 250
+    },
+    "huanhun_5": {
+      "x": 636,
+      "y": 1,
+      "w": 293,
+      "h": 193
+    },
+    "huanhun_9": {
+      "x": 680,
+      "y": 627,
+      "w": 180,
+      "h": 166
+    },
+    "huanhun_13": {
+      "x": 853,
+      "y": 446,
+      "w": 170,
+      "h": 98
+    },
+    "huanhun_8": {
+      "x": 853,
+      "y": 346,
+      "w": 170,
+      "h": 98
+    },
+    "huanhun_2": {
+      "x": 442,
+      "y": 627,
+      "w": 236,
+      "h": 136
+    }
+  }
+}

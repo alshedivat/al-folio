@@ -1,0 +1,229 @@
+﻿{
+	"msgTxt":
+		{
+			"relogin":"重新登录",
+			"point":"番",
+			"changeRoom":"换桌",
+			"sysTitle":"系统消息",
+			"charge":"充 值",
+			"sure":"确 定",
+			"cancel":"取 消",
+			"close":"关闭",
+			"chatTip":"坐下之后才能聊天",
+			"wait":"敬请期待！",
+			"chatLenTip":"您输入的文字过长，请分段发送。",
+			"giftTip1":"对方不在座位上，不允许送礼",
+			"msgIsEmpty":"消息不能为空",
+			"msgTimerLimit":"您说话太快了，喝杯茶休息一会再说吧",
+			"chips":"金币",
+			"noOtherPlayer":"当前房间座位上沒有其他玩家"
+		
+		},
+	"warnTxt":
+		{
+			"enabledEnterRoom":"无法进入该房间!",
+			"cxceedLimit":"送礼失败！您已经超过了今日送礼上限"
+		},
+	"alertTxt":
+		{
+			"backTip":"返回大厅您的房间仍会保留哦",
+			"dismissTip":"是否确定解散房间？",
+			"dismissTip2":"解散房间消耗房卡，\n是否确定解散？",
+			"dismissOk":"解散房间已申请成功，请等待其它玩家选择",
+			"dismissFail":"由于玩家#拒绝房间解散失败，游戏继续",
+			"kickOut":"您已被VIP玩家踢出房间。",
+			"onlineAward":"恭喜您获得在线时长奖励",
+			"hideFail":"只有vip等级大于2级的玩家才能隐身",
+			"kickOutSuccess":"踢人成功！",
+			"djBuySuccess":"购买#道具成功！",
+			"djGetSuccess":"赠送#道具给#成功！",
+			"djGetNotice":"惊喜降临，#送给您一份礼物：#。赠送的礼物也会立即使用。",
+			"giftFail":"金币不足，送礼失败！",
+			"reLoginTip":"你的账号在另一地点登录，你被迫下线！",
+			"connectLost":"您的服务器连接已断开，请检查网络后重新登录",
+			"noChat":"此房间禁止聊天!",
+			"you":"你",
+			"allDesk":"全桌",
+			"giftTips1":"<font color='#1FE17D'>【系统提示】</font><font color='#14769C'> <a href='event:name1:userId1'>name1</a></font><font color='#1FE17D'>和</font><font color='#14769C'><a href='event:name2:userId2'>name2</a></font><font color='#1FE17D'>干杯了，</font>",
+			"giftTips2":"<font color='#1FE17D'>【系统提示】</font><font color='#14769C'> <a href='event:name1:userId1'>name1</a></font><font color='#1FE17D'>向</font><font color='#14769C'><a href='event:name2:userId2'>name2</a></font><font color='#1FE17D'>献上鲜花，</font>",
+			"giftTips3":"<font color='#1FE17D'>【系统提示】</font><font color='#14769C'> <a href='event:name1:userId1'>name1</a></font><font color='#1FE17D'>和</font><font color='#14769C'><a href='event:name2:userId2'>name2</a></font><font color='#1FE17D'>握了握手，</font>",
+			"giftTips4":"<font color='#1FE17D'>【系统提示】</font><font color='#14769C'> <a href='event:name1:userId1'>name1</a></font><font color='#1FE17D'>向</font><font color='#14769C'><a href='event:name2:userId2'>name2</a></font><font color='#1FE17D'>献上飞吻，</font>",
+			"giftTips5":"<font color='#1FE17D'>【系统提示】</font><font color='#14769C'> <a href='event:name1:userId1'>name1</a></font><font color='#1FE17D'>向</font><font color='#14769C'><a href='event:name2:userId2'>name2</a></font><font color='#1FE17D'>仍了个泥巴，</font>",
+			"giftTips6":"<font color='#1FE17D'>【系统提示】</font><font color='#14769C'> <a href='event:name1:userId1'>name1</a></font><font color='#1FE17D'>向</font><font color='#14769C'><a href='event:name2:userId2'>name2</a></font><font color='#1FE17D'>仍了个炸弹，</font>",
+			"gift_chips_charm":"<font color='#14769C'><a href='event:name:userId'>name</a></font><font color='#1FE17D'>的金币num1 魅力值num2</font>",
+			"gift_charm":"<font color='#14769C'><a href='event:name:userId'>name</a></font><font color='#1FE17D'>的魅力值num</font>",
+			"gift_chips":"<font color='#14769C'><a href='event:name:userId'>name</a></font><font color='#1FE17D'>的金币num</font>",
+			"isFriend":"你们已经是好友",
+			"addFriendSuccess":"添加好友成功!",
+			"chip_shortage":"请人离座失败，金币不足！",
+			"noBetUp":"您已经长时间未下注，已自动退出游戏 ！"
+			
+		},
+		"direction":
+		{
+			"direct0":"东",
+			"direct1":"南",
+			"direct2":"西",
+			"direct3":"北",
+			"wind":"风"
+		},
+	
+	"giftType":
+		{
+			"Btn1":"干杯：消耗senderSpendChips金币；",
+			"Btn2":"鲜花：消耗senderSpendChips金币；",
+			"Btn3":"握手：消耗senderSpendChips金币；",
+			"Btn4":"飞吻：消耗senderSpendChips金币；",
+			"Btn5":"泥巴：消耗senderSpendChips金币；",
+			"Btn6":"炸弹：消耗senderSpendChips金币；",
+			"sendTip":"您将向房间內所有玩家发送，预计花费chips金币，确定发送吗？"
+		},
+	"Shortcut":
+	[
+		"大家好，很高兴见到各位。",
+		"快点啊，我等的花儿都谢了！",
+		"风水轮流转，也该轮到我了吧！",
+		"都不要走，决战到天亮！",
+		"不好意思，有点事，容我去去就回！",
+		"不怕神一般的对手，就怕猪一般的队友！",
+		"你的牌打得也忒好了！",
+		"咱们真有缘，送你一根黄瓜！",
+		"你会员都不是还敢出来混？",
+		"他书读的少，大家快骗他！",
+		"青山不改，绿水长流，改日再战三百回合！",
+		"我玩牌的时候，你都不知道在哪！"
+	]
+	,
+		"uiTxt":
+		{
+		"GameMc":
+			{
+				"antes":"底注：",
+				"roomLabel":"房号："
+			},
+			"ConfirmRecharge":
+			{
+				"content1":"需要",
+				"content2":"金币,才能坐下游戏，是否充值？",
+				"yes":"充 值",
+				"cancel":"取 消"
+			},
+
+		"MyInfoMc":	
+			{
+				"charmLabel":"魅力：",
+				"scoreLabel":"积分：",
+				"chipsLabel":"金豆："
+			},
+		"UserInfoList":	
+			{
+				"nickLabel":"昵称",
+				"chipsLabel":"金币",
+				"levelLabel":"级别",
+				"charmLabel":"魅力",
+				"userLabel":"用户名",
+				"scoreLabel":"积分",
+				"winRateLabel":"胜率",
+				"timesLabel":"战斗次数",
+				"winLabel":"赢",
+				"failLabel":"输",
+				"drawLabel":"平",
+				"breakRateLabel":"断线率",
+				"tableLabel":"桌号"
+			},
+			"PlayerInfoPanel":
+			{
+				"giftTitle":"赠送礼品",
+				"nickLabel":"昵称：",
+				"idLabel":" I D ：",
+				"chipsLabel":"钻石：",
+				"sendTip": "您将向房间内所有玩家发送，预计花费chips筹码，确定发送吗？",
+				"levelLabel":" I P ：",
+				"scoreLabel":"积分："
+			},	
+			"ResultMc":
+			{
+				"winType1":"放炮给",
+				"winType2":"自摸",
+				"scoreLable":"得分：",
+				"sureBtn.txt":"确定"
+			},					
+			"RoomScoreMc":
+			{
+				"titleTxt":"积分榜",
+				"lastLabel":"剩余牌:",
+				"contentMc.nickLabel":"昵称",
+				"contentMc.lastScoreLabel":"上一局",
+				"contentMc.scoreLabel":"总成绩"
+			},
+			"DaoJuBuy":
+			{
+				"title":"购买道具",
+				"day":"天",
+				"day0":"未购买",
+				"buy":"购买",
+				"get":"赠送",
+				"nameLable":"名称:",
+				"priceLabel":"现价：",
+				"validityLabel":"有效期：",
+				"desLabel":"描述：",
+				"vipPriceLabel":"VIP价："
+			},
+			"DaoJuGetMc":
+			{
+				"title":"赠送道具",
+				"nameLabel":"赠送道具：",
+				"receiveLabel":"赠送对象：",
+				"get":"赠送",
+				"numLabel":"赠送数量:"
+			},
+			"GetGiftMc":	
+			{
+				"title":"赠送",
+				"priceLabel":"单价：",
+				"numLabel":"数量  （最多100）",
+				"add":"获得",
+				"less":"降低",
+				"infoTxt":"本次赠送将花费您#金币，对方收到#同时#魅力值，并有意想不到的效果哦！",
+				"get":"确认"
+			},
+			"GiftMc":	
+			{
+				"title":"赠送礼物"
+			},
+			"GameInfoMsg":	
+			{
+				"system":"【系统消息】",
+				"title":"本局结束，成绩统计："
+			},
+			"TotalRecordPanel":	
+			{
+				"label0":"胡牌次数",
+				"info":"游戏结果仅做娱乐用途，禁止用于赌博行为",
+				"label1":"开杠次数",
+				"label2":"飞宝次数",
+				"label3":"三游次数",
+				"label4":"开杠次数",
+				"total":"总成绩"
+			},
+			"DismissPanel":	
+			{
+				"info":"玩家#\n申请解散房间请问是否同意（超过5分钟未做选择，则默认同意）？",
+				"success":"经玩家#同意，房间解散成功",
+				"fail":"由于玩家#拒绝，房间解散失败，游戏继续",
+				"status1":"同意",
+				"status0":"等待选择",
+				"status2":"拒绝"
+			},
+			"SettingPanel":	
+			{
+				"music":"音乐",
+				"sound":"音效",
+				"open":"开",
+				"close":"关"
+			}						
+		}
+	
+}
+
+

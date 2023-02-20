@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BuyHorsePanel_2d5_new_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="horseCard_json.horseCard_bg" x="171" y="146.5"/>
+	<e:Image source="horseCard_json.horseCard_title" x="514" y="13.64"/>
+	<e:Image source="horseCard_json.horseCard_hitTitle" x="541.52" y="155.04"/>
+	<e:Label id="hitText" text="" x="605" y="161" textColor="0xfecf7d"/>
+	<e:Label text="Label" x="497" y="152"/>
+</e:Skin>

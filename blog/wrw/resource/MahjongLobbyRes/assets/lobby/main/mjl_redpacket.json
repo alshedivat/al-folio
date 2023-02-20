@@ -1,0 +1,225 @@
+{
+  "file": "mjl_redpacket.png",
+  "frames": {
+    "mjl_redpacket_bg": {
+      "x": 564,
+      "y": 290,
+      "w": 52,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 52,
+      "sourceH": 52
+    },
+    "mjl_redpacket_btn": {
+      "x": 0,
+      "y": 589,
+      "w": 148,
+      "h": 124,
+      "offX": 0,
+      "offY": 3,
+      "sourceW": 149,
+      "sourceH": 127
+    },
+    "mjl_redpacket_btn1": {
+      "x": 423,
+      "y": 290,
+      "w": 140,
+      "h": 118,
+      "offX": 4,
+      "offY": 6,
+      "sourceW": 149,
+      "sourceH": 127
+    },
+    "mjl_redpacket_detail_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 630,
+      "h": 289,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 630,
+      "sourceH": 289
+    },
+    "mjl_redpacket_line": {
+      "x": 423,
+      "y": 489,
+      "w": 561,
+      "h": 1,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 561,
+      "sourceH": 1
+    },
+    "mjl_redpacket_menu1_1": {
+      "x": 214,
+      "y": 671,
+      "w": 203,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 203,
+      "sourceH": 51
+    },
+    "mjl_redpacket_menu1_2": {
+      "x": 0,
+      "y": 952,
+      "w": 197,
+      "h": 49,
+      "offX": 3,
+      "offY": 0,
+      "sourceW": 203,
+      "sourceH": 51
+    },
+    "mjl_redpacket_menu2_1": {
+      "x": 214,
+      "y": 723,
+      "w": 203,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 203,
+      "sourceH": 51
+    },
+    "mjl_redpacket_menu2_2": {
+      "x": 363,
+      "y": 589,
+      "w": 197,
+      "h": 49,
+      "offX": 4,
+      "offY": 0,
+      "sourceW": 203,
+      "sourceH": 51
+    },
+    "mjl_redpacket_noreceive": {
+      "x": 215,
+      "y": 816,
+      "w": 89,
+      "h": 35,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 89,
+      "sourceH": 35
+    },
+    "mjl_redpacket_norecord": {
+      "x": 0,
+      "y": 512,
+      "w": 391,
+      "h": 76,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 391,
+      "sourceH": 76
+    },
+    "mjl_redpacket_open": {
+      "x": 0,
+      "y": 290,
+      "w": 216,
+      "h": 221,
+      "offX": 2,
+      "offY": 1,
+      "sourceW": 221,
+      "sourceH": 224
+    },
+    "mjl_redpacket_open1": {
+      "x": 217,
+      "y": 290,
+      "w": 205,
+      "h": 210,
+      "offX": 8,
+      "offY": 7,
+      "sourceW": 221,
+      "sourceH": 224
+    },
+    "mjl_redpacket_receive": {
+      "x": 215,
+      "y": 852,
+      "w": 88,
+      "h": 35,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 89,
+      "sourceH": 35
+    },
+    "mjl_redpacket_red": {
+      "x": 631,
+      "y": 0,
+      "w": 355,
+      "h": 468,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 355,
+      "sourceH": 468
+    },
+    "mjl_redpacket_share_back": {
+      "x": 0,
+      "y": 798,
+      "w": 214,
+      "h": 75,
+      "offX": 0,
+      "offY": 5,
+      "sourceW": 214,
+      "sourceH": 85
+    },
+    "mjl_redpacket_share_back1": {
+      "x": 392,
+      "y": 501,
+      "w": 210,
+      "h": 73,
+      "offX": 2,
+      "offY": 6,
+      "sourceW": 214,
+      "sourceH": 85
+    },
+    "mjl_redpacket_share_btn": {
+      "x": 0,
+      "y": 714,
+      "w": 213,
+      "h": 83,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 214,
+      "sourceH": 85
+    },
+    "mjl_redpacket_share_btn1": {
+      "x": 423,
+      "y": 409,
+      "w": 202,
+      "h": 79,
+      "offX": 5,
+      "offY": 2,
+      "sourceW": 214,
+      "sourceH": 85
+    },
+    "mjl_redpacket_share_confirm": {
+      "x": 149,
+      "y": 589,
+      "w": 213,
+      "h": 81,
+      "offX": 0,
+      "offY": 2,
+      "sourceW": 214,
+      "sourceH": 85
+    },
+    "mjl_redpacket_share_confirm1": {
+      "x": 0,
+      "y": 874,
+      "w": 203,
+      "h": 77,
+      "offX": 5,
+      "offY": 4,
+      "sourceW": 214,
+      "sourceH": 85
+    },
+    "mjl_redpacket_title": {
+      "x": 215,
+      "y": 775,
+      "w": 178,
+      "h": 40,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 178,
+      "sourceH": 40
+    }
+  }
+}

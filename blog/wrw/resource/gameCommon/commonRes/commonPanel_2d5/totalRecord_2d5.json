@@ -1,0 +1,135 @@
+{
+  "file": "totalRecord_2d5.png",
+  "frames": {
+    "backBtn2_2d5_1": {
+      "x": 221,
+      "y": 803,
+      "w": 214,
+      "h": 90,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 214,
+      "sourceH": 90
+    },
+    "backBtn2_2d5_2": {
+      "x": 221,
+      "y": 894,
+      "w": 214,
+      "h": 90,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 214,
+      "sourceH": 90
+    },
+    "hostMaster_2d5": {
+      "x": 763,
+      "y": 721,
+      "w": 84,
+      "h": 94,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 85,
+      "sourceH": 94
+    },
+    "playAgain_2d5_1": {
+      "x": 436,
+      "y": 803,
+      "w": 214,
+      "h": 90,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 214,
+      "sourceH": 90
+    },
+    "playAgain_2d5_2": {
+      "x": 436,
+      "y": 894,
+      "w": 214,
+      "h": 90,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 214,
+      "sourceH": 90
+    },
+    "shareBtn2_2d5_1": {
+      "x": 0,
+      "y": 803,
+      "w": 220,
+      "h": 90,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 220,
+      "sourceH": 90
+    },
+    "shareBtn2_2d5_2": {
+      "x": 0,
+      "y": 894,
+      "w": 220,
+      "h": 90,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 220,
+      "sourceH": 90
+    },
+    "totalRecord_bg_2d5": {
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 720,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 1280,
+      "sourceH": 720
+    },
+    "totalRecord_head_bg_2d5": {
+      "x": 552,
+      "y": 721,
+      "w": 69,
+      "h": 69,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 69,
+      "sourceH": 69
+    },
+    "totalRecord_timeBg_2d5": {
+      "x": 0,
+      "y": 985,
+      "w": 84,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 84,
+      "sourceH": 34
+    },
+    "totalRecordItem_bg_2d5": {
+      "x": 1281,
+      "y": 0,
+      "w": 276,
+      "h": 469,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 276,
+      "sourceH": 469
+    },
+    "totalRecordlogo_2d5": {
+      "x": 0,
+      "y": 721,
+      "w": 551,
+      "h": 81,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 551,
+      "sourceH": 81
+    },
+    "winner_2d5": {
+      "x": 651,
+      "y": 721,
+      "w": 111,
+      "h": 122,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 112,
+      "sourceH": 122
+    }
+  }
+}

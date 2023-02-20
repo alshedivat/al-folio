@@ -1,0 +1,17 @@
+{"file":"2d_cardNumFont.png","frames":{
+"0":{"x":110,"y":26,"w":16,"h":24,"offX":1,"offY":1,"sourceW":18,"sourceH":25},
+"1":{"x":75,"y":28,"w":9,"h":22,"offX":0,"offY":2,"sourceW":10,"sourceH":25},
+"2":{"x":45,"y":52,"w":15,"h":23,"offX":1,"offY":1,"sourceW":17,"sourceH":25},
+"3":{"x":60,"y":28,"w":15,"h":24,"offX":1,"offY":1,"sourceW":16,"sourceH":25},
+"4":{"x":89,"y":53,"w":15,"h":22,"offX":1,"offY":2,"sourceW":16,"sourceH":25},
+"5":{"x":75,"y":53,"w":14,"h":24,"offX":1,"offY":1,"sourceW":16,"sourceH":25},
+"6":{"x":45,"y":28,"w":15,"h":24,"offX":0,"offY":1,"sourceW":16,"sourceH":25},
+"7":{"x":60,"y":52,"w":15,"h":23,"offX":1,"offY":2,"sourceW":16,"sourceH":25},
+"8":{"x":111,"y":0,"w":15,"h":24,"offX":0,"offY":1,"sourceW":16,"sourceH":25},
+"9":{"x":110,"y":50,"w":15,"h":24,"offX":1,"offY":1,"sourceW":17,"sourceH":25},
+"除":{"x":104,"y":74,"w":13,"h":25,"offX":0,"offY":0,"sourceW":13,"sourceH":25},
+"局":{"x":84,"y":26,"w":26,"h":27,"offX":1,"offY":1,"sourceW":27,"sourceH":28},
+"圈":{"x":24,"y":28,"w":21,"h":25,"offX":3,"offY":2,"sourceW":27,"sourceH":28},
+"剩":{"x":0,"y":28,"w":24,"h":25,"offX":0,"offY":1,"sourceW":26,"sourceH":28},
+"未":{"x":0,"y":0,"w":84,"h":28,"offX":0,"offY":0,"sourceW":84,"sourceH":28},
+"张":{"x":84,"y":0,"w":27,"h":26,"offX":0,"offY":0,"sourceW":27,"sourceH":28}}}

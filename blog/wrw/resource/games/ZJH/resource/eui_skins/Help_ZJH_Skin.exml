@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Help_ZJH_Skin" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="1280">
+	<e:Image scale9Grid="17,13,67,68" anchorOffsetX="0" anchorOffsetY="0" source="zjh_big_bg_png" top="61"
+	         horizontalCenter="0" height="599"  width="809"/>
+	<e:Image source="zjh_big_bg2_png" scale9Grid="31,28,32,30" anchorOffsetY="0" height="470" top="143" anchorOffsetX="0"
+	         width="725" horizontalCenter="0" />
+	<e:Image y="75" source="label_help_png"  horizontalCenter="0"/>
+	<e:Button id="_close_btn" label="" x="995.35" y="55.35" width="76" height="76">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image scaleX.down="0.9" scaleY.down="0.9" source="wrnn_close" source.down="wrnn_close" horizontalCenter="0"
+				         verticalCenter="0" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+	<e:Image id="ruleImage" horizontalCenter="0" top="167"  source="guize_png"/>
+
+</e:Skin>

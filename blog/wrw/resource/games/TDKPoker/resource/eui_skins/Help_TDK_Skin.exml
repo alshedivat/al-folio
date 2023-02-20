@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Help_TDK_Skin" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1280">
+	<e:Image scale9Grid="23,16,34,35" anchorOffsetY="0" anchorOffsetX="8" horizontalCenter="0" verticalCenter="0" source="dlm_ej_bg_1_game_png"/>
+	<e:Image width="581" height="395" scale9Grid="17,13,67,68" source="role_frame_3_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" verticalCenter="-0.5" visible="false"/>
+	<e:Group y="191" horizontalCenter="-10">
+	<e:Image horizontalCenter="11" source="dlm_g_bangjyu_xbiaoi"/>
+	<e:Label size="23" textColor="0xf3cdb8" text="牌型规则" bold="true" horizontalCenter="-250.5" y="16.66"/>
+	</e:Group>
+	<e:Group y="360" horizontalCenter="-10" visible="false">
+		<e:Image horizontalCenter="11" source="dlm_g_bangjyu_xbiaoi"/>
+		<e:Label size="23" textColor="0xF3CDB8" text="牌型规则" bold="true" horizontalCenter="-250.5" y="16.66"/>
+	</e:Group>
+	<e:Image y="114" source="dlm_g_bangzhu" horizontalCenter="0"/>
+	<e:Label id="_rule_title" text="牌型规则" textColor="0x8f0e0e" fontFamily="Microsoft YaHei" size="26" horizontalCenter="0" verticalCenter="-160" visible="false"/>
+	<e:Button id="_close_btn" label="" y="120.5" horizontalCenter="316.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dlm_an_1guangbi_game"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Group id="tdk_ld" width="538.67" height="304" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-50" top="260">
+
+		<e:Label text="结算规则:" y="132.37" textColor="0x573127" fontFamily="黑体" size="28" left="0" bold="true"/>
+		<e:Group width="536.67" height="116" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-0.8349999999999795" top="2">
+			<e:Label id="bigKingLabel" text="大王=17" x="14" y="3" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+			<e:Label id="smallKingLabel" text="小王=16" x="23" y="13" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+			<e:Label text="A=15" x="34" y="23" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+
+
+			<e:Label text="K=13" x="234" y="41" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+			<e:Label text="Q=12" x="11" y="78" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+			<e:Label text="J=11" x="13" y="115" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+			<e:Label text="10=10" x="234" y="78" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+			<e:Label text="以此类推" x="234" y="78" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+			<e:Label id="specialCardLabel" text="特牌=21" x="234" y="78" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+			<e:layout>
+				<e:TileLayout horizontalGap="74" verticalGap="12"/>
+			</e:layout>
+		</e:Group>
+		<e:Group width="537.67" height="135.66" anchorOffsetX="0" anchorOffsetY="0" x="-0.34" top="176">
+			<e:Label text="所有牌点数相加比大小" x="14.329999999999984" y="3" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+			<e:Label text="三条额外+30,大小王额外+30" x="23.329999999999984" y="13" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+			<e:Label text="四连额外+60" x="11" y="41" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+			<e:Label text="龙虎炮&gt;四条&gt;三连   两个同为四条相互比分" x="21" y="51" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+			<e:layout>
+				<e:VerticalLayout gap="12"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="tdk_lr" width="538.67" height="304" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-50" top="260" visible="false">
+		<e:Label text="结算规则:" y="132.37" textColor="0x573127" fontFamily="黑体" size="28" left="0" bold="true"/>
+		<e:Group width="536.67" height="116" y="2.09" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-0.8349999999999795">
+		<e:Label text="大王=小王=A=15" x="14" y="3" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+		<e:Label text="K=13" x="234" y="41" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+		<e:Label text="Q=12" x="11" y="78" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+		<e:Label text="J=11" x="13" y="115" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+		<e:Label text="10=10" x="234" y="78" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+		<e:Label text="以此类推" x="234" y="78" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+		<e:layout>
+			<e:TileLayout horizontalGap="74" verticalGap="12"/>
+		</e:layout>
+		</e:Group>
+		<e:Group width="537.67" height="119.66" y="176" anchorOffsetX="0" anchorOffsetY="0" x="-0.34">
+		<e:Label text="所有牌点数相加比大小" x="14.329999999999984" y="3" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+		<e:Label text="三条额外+30" x="23.329999999999984" y="13" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+		<e:Label text="四条额外+60，大小王额外+30" x="11" y="41" textColor="0x573127" fontFamily="黑体" size="23" scaleX="1" scaleY="1" bold="true"/>
+		<e:layout>
+			<e:VerticalLayout gap="12"/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

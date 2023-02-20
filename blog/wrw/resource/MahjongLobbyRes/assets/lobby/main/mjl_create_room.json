@@ -1,0 +1,655 @@
+{
+  "file": "mjl_create_room.png",
+  "frames": {
+    "bk_bottom_new": {
+      "x": 0,
+      "y": 970,
+      "w": 119,
+      "h": 36,
+      "offX": 2,
+      "offY": 2,
+      "sourceW": 123,
+      "sourceH": 40
+    },
+    "bottom": {
+      "x": 447,
+      "y": 113,
+      "w": 170,
+      "h": 156,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 170,
+      "sourceH": 156
+    },
+    "btn_create_new": {
+      "x": 0,
+      "y": 0,
+      "w": 315,
+      "h": 117,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 315,
+      "sourceH": 117
+    },
+    "btn_create_new_1": {
+      "x": 689,
+      "y": 344,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "btn_create_new_2": {
+      "x": 723,
+      "y": 409,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "btn_create_new_3": {
+      "x": 0,
+      "y": 503,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "btn_create_new_4": {
+      "x": 0,
+      "y": 568,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "btn_create_new_5": {
+      "x": 0,
+      "y": 633,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 2,
+      "sourceW": 201,
+      "sourceH": 66
+    },
+    "btn_create_new_6": {
+      "x": 0,
+      "y": 698,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 2,
+      "sourceW": 201,
+      "sourceH": 66
+    },
+    "btn_create_title_new": {
+      "x": 0,
+      "y": 828,
+      "w": 219,
+      "h": 57,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 219,
+      "sourceH": 57
+    },
+    "btn_createMatch_title_new": {
+      "x": 447,
+      "y": 442,
+      "w": 275,
+      "h": 57,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 275,
+      "sourceH": 57
+    },
+    "btn_room_management_new": {
+      "x": 202,
+      "y": 686,
+      "w": 177,
+      "h": 49,
+      "offX": 3,
+      "offY": 4,
+      "sourceW": 182,
+      "sourceH": 56
+    },
+    "btTab_disable": {
+      "x": 618,
+      "y": 85,
+      "w": 237,
+      "h": 84,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 239,
+      "sourceH": 84
+    },
+    "btTab_n": {
+      "x": 618,
+      "y": 170,
+      "w": 237,
+      "h": 84,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 264,
+      "sourceH": 84
+    },
+    "btTab_P": {
+      "x": 575,
+      "y": 0,
+      "w": 264,
+      "h": 84,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 264,
+      "sourceH": 84
+    },
+    "create_room_bg_left": {
+      "x": 0,
+      "y": 886,
+      "w": 258,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 258,
+      "sourceH": 36
+    },
+    "create_room_bg_new": {
+      "x": 316,
+      "y": 0,
+      "w": 258,
+      "h": 112,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 258,
+      "sourceH": 112
+    },
+    "create_room_bg_right": {
+      "x": 840,
+      "y": 0,
+      "w": 137,
+      "h": 77,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 137,
+      "sourceH": 77
+    },
+    "create_room_btn_checkbox2_new": {
+      "x": 431,
+      "y": 661,
+      "w": 38,
+      "h": 39,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 40,
+      "sourceH": 41
+    },
+    "create_room_btn_checkbox_new": {
+      "x": 978,
+      "y": 0,
+      "w": 39,
+      "h": 39,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 41,
+      "sourceH": 43
+    },
+    "create_room_check_mark2_new": {
+      "x": 856,
+      "y": 164,
+      "w": 57,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 58,
+      "sourceH": 47
+    },
+    "create_room_check_mark_new": {
+      "x": 908,
+      "y": 215,
+      "w": 32,
+      "h": 38,
+      "offX": 4,
+      "offY": 4,
+      "sourceW": 41,
+      "sourceH": 43
+    },
+    "create_room_line_new": {
+      "x": 0,
+      "y": 1007,
+      "w": 945,
+      "h": 2,
+      "offX": 2,
+      "offY": 0,
+      "sourceW": 948,
+      "sourceH": 2
+    },
+    "createRoom_grayBg": {
+      "x": 856,
+      "y": 122,
+      "w": 104,
+      "h": 41,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 104,
+      "sourceH": 41
+    },
+    "createRoom_greenBg": {
+      "x": 202,
+      "y": 782,
+      "w": 104,
+      "h": 41,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 104,
+      "sourceH": 41
+    },
+    "createRoom_MJbg": {
+      "x": 0,
+      "y": 118,
+      "w": 446,
+      "h": 76,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 446,
+      "sourceH": 79
+    },
+    "createRoom_MJbg1": {
+      "x": 0,
+      "y": 195,
+      "w": 446,
+      "h": 76,
+      "offX": 0,
+      "offY": 2,
+      "sourceW": 446,
+      "sourceH": 79
+    },
+    "createRoom_MJText": {
+      "x": 311,
+      "y": 615,
+      "w": 170,
+      "h": 45,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 170,
+      "sourceH": 45
+    },
+    "createRoom_MJText1": {
+      "x": 202,
+      "y": 736,
+      "w": 170,
+      "h": 45,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 170,
+      "sourceH": 45
+    },
+    "createRoom_offBtn": {
+      "x": 976,
+      "y": 78,
+      "w": 47,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 47,
+      "sourceH": 48
+    },
+    "createRoom_onBtn": {
+      "x": 575,
+      "y": 500,
+      "w": 47,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 47,
+      "sourceH": 48
+    },
+    "createRoom_Pokerbg": {
+      "x": 0,
+      "y": 272,
+      "w": 446,
+      "h": 76,
+      "offX": 0,
+      "offY": 2,
+      "sourceW": 446,
+      "sourceH": 79
+    },
+    "createRoom_Pokerbg1": {
+      "x": 0,
+      "y": 349,
+      "w": 446,
+      "h": 76,
+      "offX": 0,
+      "offY": 2,
+      "sourceW": 446,
+      "sourceH": 79
+    },
+    "createRoom_Pokerbg2": {
+      "x": 0,
+      "y": 426,
+      "w": 446,
+      "h": 76,
+      "offX": 0,
+      "offY": 2,
+      "sourceW": 446,
+      "sourceH": 79
+    },
+    "createRoom_PokerText": {
+      "x": 404,
+      "y": 503,
+      "w": 170,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 170,
+      "sourceH": 46
+    },
+    "createRoom_PokerText1": {
+      "x": 0,
+      "y": 923,
+      "w": 170,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 170,
+      "sourceH": 46
+    },
+    "creatMatchUp": {
+      "x": 689,
+      "y": 255,
+      "w": 204,
+      "h": 88,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 204,
+      "sourceH": 88
+    },
+    "jia": {
+      "x": 380,
+      "y": 661,
+      "w": 50,
+      "h": 50,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 50,
+      "sourceH": 50
+    },
+    "jian": {
+      "x": 914,
+      "y": 164,
+      "w": 50,
+      "h": 50,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 50,
+      "sourceH": 50
+    },
+    "list_bk_new": {
+      "x": 202,
+      "y": 568,
+      "w": 108,
+      "h": 117,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 117
+    },
+    "mjl_btn_create_match_1": {
+      "x": 202,
+      "y": 503,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_btn_create_match_2": {
+      "x": 0,
+      "y": 763,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_check_small": {
+      "x": 542,
+      "y": 588,
+      "w": 32,
+      "h": 38,
+      "offX": 7,
+      "offY": 2,
+      "sourceW": 47,
+      "sourceH": 47
+    },
+    "mjl_checkbg_small": {
+      "x": 307,
+      "y": 782,
+      "w": 39,
+      "h": 39,
+      "offX": 4,
+      "offY": 6,
+      "sourceW": 47,
+      "sourceH": 47
+    },
+    "mjl_checkbg_smalldisable": {
+      "x": 380,
+      "y": 712,
+      "w": 39,
+      "h": 39,
+      "offX": 4,
+      "offY": 6,
+      "sourceW": 47,
+      "sourceH": 47
+    },
+    "mjl_create_arrow": {
+      "x": 856,
+      "y": 78,
+      "w": 119,
+      "h": 43,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 119,
+      "sourceH": 43
+    },
+    "mjl_create_check": {
+      "x": 155,
+      "y": 970,
+      "w": 30,
+      "h": 35,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 30,
+      "sourceH": 35
+    },
+    "mjl_create_checkbg": {
+      "x": 978,
+      "y": 40,
+      "w": 37,
+      "h": 37,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 37,
+      "sourceH": 37
+    },
+    "mjl_create_checkdisable": {
+      "x": 542,
+      "y": 550,
+      "w": 37,
+      "h": 37,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 37,
+      "sourceH": 37
+    },
+    "mjl_create_match_inputBg": {
+      "x": 311,
+      "y": 568,
+      "w": 230,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 230,
+      "sourceH": 46
+    },
+    "mjl_multiple_bg": {
+      "x": 278,
+      "y": 824,
+      "w": 38,
+      "h": 38,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 38,
+      "sourceH": 38
+    },
+    "mjl_multiple_check": {
+      "x": 856,
+      "y": 211,
+      "w": 51,
+      "h": 43,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 51,
+      "sourceH": 43
+    },
+    "mjl_multiple_disable": {
+      "x": 965,
+      "y": 127,
+      "w": 38,
+      "h": 38,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 38,
+      "sourceH": 38
+    },
+    "mjl_sub-multiple_bg": {
+      "x": 171,
+      "y": 923,
+      "w": 38,
+      "h": 39,
+      "offX": 10,
+      "offY": 7,
+      "sourceW": 59,
+      "sourceH": 53
+    },
+    "mjl_sub-multiple_check": {
+      "x": 220,
+      "y": 824,
+      "w": 57,
+      "h": 46,
+      "offX": 0,
+      "offY": 3,
+      "sourceW": 59,
+      "sourceH": 53
+    },
+    "mjl_sub-multiple_disable": {
+      "x": 482,
+      "y": 615,
+      "w": 38,
+      "h": 39,
+      "offX": 10,
+      "offY": 7,
+      "sourceW": 59,
+      "sourceH": 53
+    },
+    "OFF": {
+      "x": 575,
+      "y": 85,
+      "w": 32,
+      "h": 16,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 16
+    },
+    "ON": {
+      "x": 404,
+      "y": 550,
+      "w": 27,
+      "h": 16,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 27,
+      "sourceH": 16
+    },
+    "save_edit": {
+      "x": 447,
+      "y": 358,
+      "w": 230,
+      "h": 83,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 230,
+      "sourceH": 84
+    },
+    "show_more": {
+      "x": 447,
+      "y": 270,
+      "w": 241,
+      "h": 87,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 241,
+      "sourceH": 87
+    },
+    "T_duoxuan_di0": {
+      "x": 580,
+      "y": 549,
+      "w": 30,
+      "h": 30,
+      "offX": 3,
+      "offY": 3,
+      "sourceW": 36,
+      "sourceH": 36
+    },
+    "T_duoxuan_di1": {
+      "x": 120,
+      "y": 970,
+      "w": 34,
+      "h": 34,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 36,
+      "sourceH": 36
+    },
+    "T_duoxuan_di2": {
+      "x": 347,
+      "y": 782,
+      "w": 35,
+      "h": 37,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 35,
+      "sourceH": 37
+    },
+    "T_duoxuan_di13": {
+      "x": 678,
+      "y": 409,
+      "w": 31,
+      "h": 31,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 31,
+      "sourceH": 31
+    },
+    "wenhao": {
+      "x": 623,
+      "y": 500,
+      "w": 37,
+      "h": 37,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 37,
+      "sourceH": 37
+    }
+  }
+}

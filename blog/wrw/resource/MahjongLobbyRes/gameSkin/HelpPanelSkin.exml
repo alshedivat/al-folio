@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HelpPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image anchorOffsetX="0" width="1130" height="570" y="107" source="mjl_common_bj_1" horizontalCenter="0" scale9Grid="51,56,183,620"/>
+	<e:Image anchorOffsetX="0" width="1100" height="530" source="mjl_common_bj_2" top="120" horizontalCenter="0" scale9Grid="51,56,183,509"/>
+		<e:Group y="18" horizontalCenter="0" anchorOffsetY="0" width="830" height="81" anchorOffsetX="0" x="10">
+			<e:Image y="4.01" x="178"  source="common_title_bg"/>
+
+			<e:Image  source="mjl_rule_title" horizontalCenter="20" top="25"/>
+		</e:Group>
+	<e:Group id="right" width="800" height="500" anchorOffsetX="0" anchorOffsetY="0" top="140" left="360">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+		<e:Image id="rightBg" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="mjl_common_bj_6" scale9Grid="20,16,122,101" top="0" left="0" right="0" bottom="0"/>
+		<e:Image y="8.5" anchorOffsetX="0" width="722" anchorOffsetY="0" height="65" scale9Grid="30,30,15,15" scaleX="1" scaleY="1" horizontalCenter="0.5" source="match_topBtn_bg"/>
+		<e:Group id="title" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" height="51" width="714.67" horizontalCenter="0" top="15">
+			<e:layout>
+			<e:HorizontalLayout/>
+			</e:layout>
+			<e:List id="titleList" width="716" height="51" x="-1.33" y="0" anchorOffsetX="0">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+			</e:List>
+		</e:Group>
+		<e:Group id="ruleContent" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" height="396.33" y="86.67" width="761.33" horizontalCenter="0">
+			<e:layout>
+			<e:VerticalLayout horizontalAlign="left" verticalAlign="top"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="GameList" width="240" height="500" anchorOffsetX="0" anchorOffsetY="0" left="110" top="140">
+		<e:Image id="listBg" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" source="mjl_common_bj_7" scale9Grid="21,24,209,166"/>
+
+		<e:Scroller scrollPolicyV="on" scrollPolicyH="off"  touchEnabled="false" top="7" bottom="7" scaleX="1" x="0" anchorOffsetX="0" width="240">
+			<e:List id="buttonList" horizontalCenter="0" verticalCenter="0" right="0" left="0" bottom="0" top="0" itemRendererSkinName="MJ_RadioButton1Skin">
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" paddingTop="10" gap="2"/>
+				</e:layout>
+
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Button id="closeButton" x="1142" y="90.5">
+		<e:Skin states="up,down,disabled">
+		<e:Image source="close" scaleX.down="0.95" scaleY.down="0.95" anchorOffsetX="50" anchorOffsetY="50" x="50" y="50"/>
+		</e:Skin>
+	</e:Button>
+</e:Skin>

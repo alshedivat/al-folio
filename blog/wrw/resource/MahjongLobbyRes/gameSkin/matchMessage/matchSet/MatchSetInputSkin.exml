@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchSetInputSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mjl_create_match_inputBg" left="0" right="0" top="0" bottom="0" scale9Grid="28,5,174,36"/>
+	<e:EditableText id="text" text="" fontFamily="Microsoft YaHei" prompt="123" textAlign="center" textColor="0xffffff" promptColor="0xdbdbdb" size="24" left="0" right="0" top="0" bottom="0" verticalAlign="middle"/>
+</e:Skin>

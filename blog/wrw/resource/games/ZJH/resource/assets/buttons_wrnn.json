@@ -1,0 +1,295 @@
+{
+  "file": "buttons_wrnn.png",
+  "frames": {
+    "bt_cancle": {
+      "x": 480,
+      "y": 119,
+      "w": 120,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 120,
+      "sourceH": 55
+    },
+    "bt_cancle_down": {
+      "x": 595,
+      "y": 59,
+      "w": 120,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 120,
+      "sourceH": 55
+    },
+    "bt_gray_bg": {
+      "x": 109,
+      "y": 358,
+      "w": 154,
+      "h": 75,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 154,
+      "sourceH": 75
+    },
+    "bt_green_bg": {
+      "x": 109,
+      "y": 434,
+      "w": 154,
+      "h": 75,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 154,
+      "sourceH": 75
+    },
+    "bt_orange_bg": {
+      "x": 327,
+      "y": 224,
+      "w": 154,
+      "h": 75,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 154,
+      "sourceH": 75
+    },
+    "btn_bipai": {
+      "x": 257,
+      "y": 0,
+      "w": 108,
+      "h": 111,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 109,
+      "sourceH": 112
+    },
+    "btn_bipai_dis": {
+      "x": 366,
+      "y": 0,
+      "w": 108,
+      "h": 111,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 109,
+      "sourceH": 112
+    },
+    "btn_genzhu": {
+      "x": 262,
+      "y": 112,
+      "w": 108,
+      "h": 111,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 109,
+      "sourceH": 112
+    },
+    "btn_genzhu_dis": {
+      "x": 371,
+      "y": 112,
+      "w": 108,
+      "h": 111,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 109,
+      "sourceH": 112
+    },
+    "btn_jiazhu": {
+      "x": 0,
+      "y": 246,
+      "w": 108,
+      "h": 111,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 109,
+      "sourceH": 112
+    },
+    "btn_jiazhu_dis": {
+      "x": 109,
+      "y": 246,
+      "w": 108,
+      "h": 111,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 109,
+      "sourceH": 112
+    },
+    "btn_qiipai": {
+      "x": 0,
+      "y": 358,
+      "w": 108,
+      "h": 111,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 111
+    },
+    "btn_qiipai_dis": {
+      "x": 218,
+      "y": 246,
+      "w": 108,
+      "h": 111,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 111
+    },
+    "compare_btn": {
+      "x": 482,
+      "y": 229,
+      "w": 45,
+      "h": 23,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 46,
+      "sourceH": 23
+    },
+    "constanceBtnBg": {
+      "x": 482,
+      "y": 192,
+      "w": 134,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 36
+    },
+    "genzhu_btn": {
+      "x": 57,
+      "y": 470,
+      "w": 46,
+      "h": 23,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 46,
+      "sourceH": 23
+    },
+    "green_btn_big": {
+      "x": 0,
+      "y": 104,
+      "w": 248,
+      "h": 93,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 248,
+      "sourceH": 94
+    },
+    "jiazhu_btn": {
+      "x": 327,
+      "y": 328,
+      "w": 46,
+      "h": 23,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 46,
+      "sourceH": 23
+    },
+    "orange_btn_big": {
+      "x": 264,
+      "y": 358,
+      "w": 164,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 164,
+      "sourceH": 68
+    },
+    "orange_btn_big_2": {
+      "x": 264,
+      "y": 427,
+      "w": 164,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 164,
+      "sourceH": 68
+    },
+    "orange_call_landlord": {
+      "x": 0,
+      "y": 470,
+      "w": 56,
+      "h": 27,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 56,
+      "sourceH": 27
+    },
+    "qipai_btn": {
+      "x": 374,
+      "y": 328,
+      "w": 46,
+      "h": 23,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 46,
+      "sourceH": 23
+    },
+    "shuffle_btn": {
+      "x": 0,
+      "y": 0,
+      "w": 256,
+      "h": 103,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 256,
+      "sourceH": 103
+    },
+    "sitdown_1": {
+      "x": 429,
+      "y": 300,
+      "w": 82,
+      "h": 118,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 82,
+      "sourceH": 118
+    },
+    "sitdown_2": {
+      "x": 512,
+      "y": 0,
+      "w": 82,
+      "h": 118,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 82,
+      "sourceH": 118
+    },
+    "start_Game_icon": {
+      "x": 595,
+      "y": 0,
+      "w": 152,
+      "h": 58,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 153,
+      "sourceH": 58
+    },
+    "weixin_invite": {
+      "x": 0,
+      "y": 198,
+      "w": 261,
+      "h": 47,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 261,
+      "sourceH": 47
+    },
+    "wrnn_close": {
+      "x": 601,
+      "y": 115,
+      "w": 76,
+      "h": 76,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 76,
+      "sourceH": 76
+    },
+    "wrnn_text_buqiang": {
+      "x": 327,
+      "y": 300,
+      "w": 56,
+      "h": 27,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 56,
+      "sourceH": 27
+    }
+  }
+}

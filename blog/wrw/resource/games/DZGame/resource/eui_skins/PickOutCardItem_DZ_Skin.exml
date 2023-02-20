@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PickOutCardItem_DZ_Skin" width="237" height="74" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="pickout_itembg" left="0" right="0" top="0" bottom="0"/>
+		<e:Scroller scrollPolicyV="off" scrollPolicyH="auto" height="74" anchorOffsetX="0" top="0" left="8" right="8">
+			<e:Group id="pickCardGroup" width="237" height="74" left="0" top="0">
+				<e:List id="pickCardList" itemRendererSkinName="Card_DZ_Skin">
+					<e:layout>
+						<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="-33"/>
+					</e:layout>
+
+				
+				</e:List>
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" paddingTop="-1"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+</e:Skin>

@@ -1,0 +1,10 @@
+[
+{"goodId":156,"goodName":"1个钻石","goodType":4,"goodDesc":"钻石","goodIcon":"buy_diamond105","giftGoods":[{"goodId":6,"goodNbr":1}],"lobbyId":1003,"isSandbox":false},
+{"goodId":157,"goodName":"6个钻石","goodType":4,"goodDesc":"钻石","goodIcon":"buy_diamond106","giftGoods":[{"goodId":6,"goodNbr":6}],"lobbyId":1003,"isSandbox":false},
+{"goodId":158,"goodName":"18个钻石","goodType":4,"goodDesc":"钻石","goodIcon":"buy_diamond107","giftGoods":[{"goodId":6,"goodNbr":18}],"lobbyId":1003,"isSandbox":false},
+{"goodId":159,"goodName":"40个钻石","goodType":4,"goodDesc":"钻石","goodIcon":"buy_diamond108","giftGoods":[{"goodId":6,"goodNbr":40}],"lobbyId":1003,"isSandbox":false},
+{"goodId":156,"goodName":"1个钻石","goodType":4,"goodDesc":"钻石","goodIcon":"buy_diamond105","giftGoods":[{"goodId":6,"goodNbr":1}],"lobbyId":1042,"isSandbox":false},
+{"goodId":157,"goodName":"6个钻石","goodType":4,"goodDesc":"钻石","goodIcon":"buy_diamond106","giftGoods":[{"goodId":6,"goodNbr":6}],"lobbyId":1042,"isSandbox":false},
+{"goodId":158,"goodName":"18个钻石","goodType":4,"goodDesc":"钻石","goodIcon":"buy_diamond107","giftGoods":[{"goodId":6,"goodNbr":18}],"lobbyId":1042,"isSandbox":false},
+{"goodId":159,"goodName":"40个钻石","goodType":4,"goodDesc":"钻石","goodIcon":"buy_diamond108","giftGoods":[{"goodId":6,"goodNbr":40}],"lobbyId":1042,"isSandbox":false}
+]

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Setting_DDZ_Event_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="1" bottom="-1" alpha="0.1" fillColor="0x000000" />
+	<e:Image horizontalCenter="0" scale9Grid="71,48,448,113"  source="public_DDZ2" alpha="0.7" top="150" height="500"/>
+	<e:Image horizontalCenter="0.5"  source="public_DDZ2_1" top="150" width="749" scale9Grid="43,7,265,42"/>
+	<e:Image x="590" source="setting_title_DDZ"  top="155"/>
+	<e:Group id="contentGroup" height="398" width="565"  anchorOffsetY="0" horizontalCenter="0.5" top="210">
+		<e:Button id="leaveButton" y="340" x="20" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="leaveRoom_DDZ1" source.down="leaveRoom_DDZ2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Button id="refrenshButton"  y="340" x="190">
+			<e:Skin states="up,down,disabled">
+				<e:Image source="setting_DDZ_json.exitGame_btn_DDZ1" anchorOffsetX="93" anchorOffsetY="30" x="93" y="30"
+				         scaleX.down="0.95" scaleY.down="0.95" source.down="setting_DDZ_json.exitGame_btn_DDZ2"/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="backButton"  y="340" x="20" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="green_btn_big"/>
+	<e:Image source="buttons_DDZ_json.dissolve_room" horizontalCenter="0" verticalCenter="-3"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+
+	</e:Group>
+	<e:Button id="closeButton" top="148" right="261">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="public_btn_exit_1" source.down="public_btn_exit_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+</e:Skin>

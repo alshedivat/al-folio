@@ -1,0 +1,245 @@
+{
+  "file": "game_2d5.png",
+  "frames": {
+    "bottom_bg_2d5": {
+      "x": 210,
+      "y": 210,
+      "w": 93,
+      "h": 41,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 93,
+      "sourceH": 41
+    },
+    "chat1_2d5": {
+      "x": 112,
+      "y": 0,
+      "w": 69,
+      "h": 69,
+      "offX": 9,
+      "offY": 9,
+      "sourceW": 87,
+      "sourceH": 87
+    },
+    "chat2_2d5": {
+      "x": 0,
+      "y": 167,
+      "w": 69,
+      "h": 69,
+      "offX": 9,
+      "offY": 9,
+      "sourceW": 87,
+      "sourceH": 87
+    },
+    "gps1_2d5": {
+      "x": 182,
+      "y": 0,
+      "w": 69,
+      "h": 69,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 69
+    },
+    "gps2_2d5": {
+      "x": 70,
+      "y": 167,
+      "w": 69,
+      "h": 69,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 69
+    },
+    "green_bettery_2d5": {
+      "x": 462,
+      "y": 25,
+      "w": 33,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 33,
+      "sourceH": 20
+    },
+    "green_betteryPercent_2d5": {
+      "x": 151,
+      "y": 92,
+      "w": 4,
+      "h": 14,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 4,
+      "sourceH": 14
+    },
+    "green_data_2d5": {
+      "x": 0,
+      "y": 237,
+      "w": 16,
+      "h": 18,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 16,
+      "sourceH": 18
+    },
+    "green_wifi_2d5": {
+      "x": 151,
+      "y": 70,
+      "w": 29,
+      "h": 21,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 29,
+      "sourceH": 21
+    },
+    "guipai_2d5": {
+      "x": 0,
+      "y": 0,
+      "w": 111,
+      "h": 136,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 111,
+      "sourceH": 136
+    },
+    "help_btn1_2d5": {
+      "x": 140,
+      "y": 167,
+      "w": 69,
+      "h": 69,
+      "offX": 9,
+      "offY": 9,
+      "sourceW": 87,
+      "sourceH": 87
+    },
+    "help_btn2_2d5": {
+      "x": 252,
+      "y": 0,
+      "w": 69,
+      "h": 69,
+      "offX": 9,
+      "offY": 9,
+      "sourceW": 87,
+      "sourceH": 87
+    },
+    "miniCard": {
+      "x": 112,
+      "y": 70,
+      "w": 38,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 38,
+      "sourceH": 52
+    },
+    "operate_host1_2d5": {
+      "x": 184,
+      "y": 70,
+      "w": 69,
+      "h": 69,
+      "offX": 9,
+      "offY": 9,
+      "sourceW": 87,
+      "sourceH": 87
+    },
+    "operate_host2_2d5": {
+      "x": 322,
+      "y": 0,
+      "w": 69,
+      "h": 69,
+      "offX": 9,
+      "offY": 9,
+      "sourceW": 87,
+      "sourceH": 87
+    },
+    "pointBg_2d5": {
+      "x": 462,
+      "y": 0,
+      "w": 46,
+      "h": 24,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 46,
+      "sourceH": 24
+    },
+    "right_bg_2d5": {
+      "x": 350,
+      "y": 140,
+      "w": 92,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 92,
+      "sourceH": 36
+    },
+    "setting1_2d5": {
+      "x": 254,
+      "y": 70,
+      "w": 69,
+      "h": 69,
+      "offX": 9,
+      "offY": 9,
+      "sourceW": 87,
+      "sourceH": 87
+    },
+    "setting2_2d5": {
+      "x": 210,
+      "y": 140,
+      "w": 69,
+      "h": 69,
+      "offX": 9,
+      "offY": 9,
+      "sourceW": 87,
+      "sourceH": 87
+    },
+    "signal_bg_2d5": {
+      "x": 0,
+      "y": 137,
+      "w": 183,
+      "h": 29,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 183,
+      "sourceH": 29
+    },
+    "table_cloth1_2d5": {
+      "x": 392,
+      "y": 0,
+      "w": 69,
+      "h": 69,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 69
+    },
+    "table_cloth2_2d5": {
+      "x": 324,
+      "y": 70,
+      "w": 69,
+      "h": 69,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 69
+    },
+    "voice_btn1_2d5": {
+      "x": 280,
+      "y": 140,
+      "w": 69,
+      "h": 69,
+      "offX": 9,
+      "offY": 9,
+      "sourceW": 87,
+      "sourceH": 87
+    },
+    "voice_btn2_2d5": {
+      "x": 394,
+      "y": 70,
+      "w": 69,
+      "h": 69,
+      "offX": 9,
+      "offY": 9,
+      "sourceW": 87,
+      "sourceH": 87
+    }
+  }
+}

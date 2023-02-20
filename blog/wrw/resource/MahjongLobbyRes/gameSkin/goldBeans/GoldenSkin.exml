@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GoldenSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Image id="bg_1" source="coin_match_bg_jpg" left="0" right="0" top="0" bottom="0"/>
+	<e:Group id="topGroup" height="93" left="0" right="0" top="0">
+		<e:Image id="bg_2" source="coin_match_topBg" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" scale9Grid="16,11,97,71"/>
+		<e:Image id="bg_3" source="coin_match_spriteLine" anchorOffsetX="0" verticalCenter="0" left="140"/>
+		<e:Button id="backButton" label="" left="20" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="60" height="56">
+				<e:Image source="coin_match_spriteBack" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="curGameName" text="" size="40" fontFamily="SimHei" textColor="0xffd68c" verticalCenter="0" left="130"/>
+		<e:Button id="helpButton" label="" verticalCenter="0" right="30">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="65" height="66">
+				<e:Image source="coin_match_tips" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="moneyGroup" width="200" height="50" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" right="130">
+			<e:Image left="0" right="0" top="0" bottom="0" source="lobby_headFram" scale9Grid="16,11,21,12"/>
+			<e:Image verticalCenter="0" left="0" source="lobby_coin_icon"/>
+			<e:Button id="buyCoinButton" label="" verticalCenter="0" right="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%"  source="lobby_add"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="coinNum" text="200" verticalCenter="0" horizontalCenter="0" textColor="0xffae77" size="22" fontFamily="SimHei"/>
+		</e:Group>
+	</e:Group>
+	<e:List id="btnList" width="1054" height="448" y="130" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="GoldBtnSkin" left="174">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="60"/>
+		</e:layout>
+	</e:List>
+	<e:Rect id="panelMask" left="0" right="0" top="0" bottom="0" fillColor="0x474646" fillAlpha="0.5" visible="false"/>
+	<e:Scroller id="sc1" width="720" height="164" y="160" scrollPolicyH="off" scrollPolicyV="off" bounces="false" x="60">
+		<e:Group id="mahjongGroup" y="160" anchorOffsetX="0" anchorOffsetY="0" width="720" left="60">
+			<e:Image source="coin_match_choose_bg" verticalCenter="0" left="0" right="0" scale9Grid="36,20,601,124"/>
+			<e:Image id="closeMj" source="coin_match_choose_flag" verticalCenter="0" right="20" touchEnabled="true"/>
+			<e:List id="mahjongList" x="80" anchorOffsetX="0" verticalCenter="0" itemRendererSkinName="Mj_CheckBox">
+				<e:layout>
+					<e:TileLayout orientation="rows" horizontalAlign="center" requestedRowCount="2" requestedColumnCount="3" verticalAlign="middle" rowAlign="justifyUsingHeight" paddingLeft="0" rowHeight="50"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+	</e:Scroller>
+	<e:Scroller id="sc2" width="720" height="164" y="395" scrollPolicyH="off" scrollPolicyV="off" bounces="false" x="60">
+		<e:Group id="pokerGroup" y="160" anchorOffsetX="0" anchorOffsetY="0" width="720" left="60">
+		<e:Image source="coin_match_choose_bg" verticalCenter="0" left="0" right="0" scale9Grid="36,20,601,124"/>
+		<e:Image id="closePk" source="coin_match_choose_flag" verticalCenter="0" right="20" touchEnabled="true"/>
+		<e:List id="pokerList" x="80" anchorOffsetX="0" verticalCenter="0" itemRendererSkinName="Mj_CheckBox">
+			<e:layout>
+			<e:TileLayout orientation="rows" horizontalAlign="center" requestedRowCount="2" requestedColumnCount="3" verticalAlign="middle" rowAlign="justifyUsingHeight" rowHeight="20" paddingLeft="0"/>
+			</e:layout>
+		</e:List>
+		</e:Group>
+	</e:Scroller>
+	<e:Group id="selectGroup" width="100" height="500" top="93" anchorOffsetX="0" anchorOffsetY="0" left="10">
+		<e:Image source="coin_match_choose_line" horizontalCenter="0" top="0"/>
+		<e:RadioButton id="mahjongButton" label="" horizontalCenter="0" top="50" groupName="gameType">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="coin_match_choose_btnNoSelect" source.down="coin_match_choose_btnSelect"/>
+	<e:Image source="coin_match_choose_majiangNoSelect" horizontalCenter="0" verticalCenter="0" source.down="coin_match_choose_majiangSelect"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="pokerButton" label="" top="280" horizontalCenter="0" groupName="gameType">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="coin_match_choose_btnNoSelect" source.down="coin_match_choose_btnSelect"/>
+	<e:Image source="coin_match_choose_pokerNoSelect" horizontalCenter="0" verticalCenter="0" source.down="coin_match_choose_pokerSelect"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+	</e:Group>
+	<e:Button label="Button" x="622" y="634" visible="false"/>
+</e:Skin>

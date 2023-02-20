@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MJ_JoinRoomButtonSkin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="175" height="75">
+	<e:Image width.down="129" height.down="60" source="mjl_join_input_up" source.down="mjl_join_input_down"  left="0" right="0" top="0" bottom="0" scale9Grid="16,7,98,39"/>
+	<e:BitmapLabel id="_inputTxt" horizontalCenter="0" verticalCenter="0" font="mjl_input_fn2_fnt" font.down="mjl_input_fn2_down_fnt"/>
+</e:Skin>

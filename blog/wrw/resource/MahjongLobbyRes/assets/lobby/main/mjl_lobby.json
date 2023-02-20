@@ -1,0 +1,545 @@
+{
+  "file": "mjl_lobby.png",
+  "frames": {
+    "auth_code_btn1": {
+      "x": 601,
+      "y": 0,
+      "w": 132,
+      "h": 45,
+      "offX": 0,
+      "offY": 5,
+      "sourceW": 132,
+      "sourceH": 51
+    },
+    "auth_code_btn2": {
+      "x": 600,
+      "y": 46,
+      "w": 132,
+      "h": 45,
+      "offX": 0,
+      "offY": 5,
+      "sourceW": 132,
+      "sourceH": 51
+    },
+    "bindphone_btn1": {
+      "x": 0,
+      "y": 309,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "bindphone_btn2": {
+      "x": 0,
+      "y": 374,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "lobby_actFram": {
+      "x": 724,
+      "y": 205,
+      "w": 52,
+      "h": 27,
+      "offX": 3,
+      "offY": 3,
+      "sourceW": 59,
+      "sourceH": 33
+    },
+    "lobby_actFram2": {
+      "x": 179,
+      "y": 475,
+      "w": 59,
+      "h": 33,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 59,
+      "sourceH": 33
+    },
+    "lobby_actTitle1": {
+      "x": 582,
+      "y": 180,
+      "w": 59,
+      "h": 32,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 59,
+      "sourceH": 33
+    },
+    "lobby_actTitle3": {
+      "x": 239,
+      "y": 475,
+      "w": 59,
+      "h": 33,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 59,
+      "sourceH": 33
+    },
+    "lobby_add": {
+      "x": 675,
+      "y": 174,
+      "w": 48,
+      "h": 47,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 48,
+      "sourceH": 47
+    },
+    "lobby_bg_black": {
+      "x": 600,
+      "y": 92,
+      "w": 62,
+      "h": 87,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 62,
+      "sourceH": 87
+    },
+    "lobby_card": {
+      "x": 859,
+      "y": 0,
+      "w": 54,
+      "h": 58,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 54,
+      "sourceH": 58
+    },
+    "lobby_certificate": {
+      "x": 315,
+      "y": 309,
+      "w": 30,
+      "h": 41,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 30,
+      "sourceH": 41
+    },
+    "lobby_certificated": {
+      "x": 478,
+      "y": 451,
+      "w": 36,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 36,
+      "sourceH": 36
+    },
+    "lobby_coin_icon": {
+      "x": 499,
+      "y": 349,
+      "w": 54,
+      "h": 54,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 54,
+      "sourceH": 54
+    },
+    "lobby_diamond": {
+      "x": 420,
+      "y": 451,
+      "w": 57,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 57,
+      "sourceH": 52
+    },
+    "lobby_functionBtn_activity": {
+      "x": 311,
+      "y": 430,
+      "w": 108,
+      "h": 76,
+      "offX": 1,
+      "offY": 4,
+      "sourceW": 109,
+      "sourceH": 82
+    },
+    "lobby_functionBtn_agent": {
+      "x": 202,
+      "y": 395,
+      "w": 108,
+      "h": 79,
+      "offX": 1,
+      "offY": 3,
+      "sourceW": 109,
+      "sourceH": 82
+    },
+    "lobby_functionBtn_problem": {
+      "x": 514,
+      "y": 138,
+      "w": 67,
+      "h": 79,
+      "offX": 5,
+      "offY": 1,
+      "sourceW": 75,
+      "sourceH": 82
+    },
+    "lobby_GGFram": {
+      "x": 831,
+      "y": 84,
+      "w": 53,
+      "h": 27,
+      "offX": 3,
+      "offY": 3,
+      "sourceW": 59,
+      "sourceH": 33
+    },
+    "lobby_gold_icon": {
+      "x": 315,
+      "y": 351,
+      "w": 28,
+      "h": 28,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 28,
+      "sourceH": 28
+    },
+    "lobby_headbg": {
+      "x": 434,
+      "y": 138,
+      "w": 79,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 79,
+      "sourceH": 79
+    },
+    "lobby_headFram": {
+      "x": 780,
+      "y": 84,
+      "w": 50,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 50,
+      "sourceH": 36
+    },
+    "lobby_last_join_1": {
+      "x": 0,
+      "y": 0,
+      "w": 349,
+      "h": 102,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 349,
+      "sourceH": 102
+    },
+    "lobby_last_join_2": {
+      "x": 0,
+      "y": 103,
+      "w": 349,
+      "h": 102,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 349,
+      "sourceH": 102
+    },
+    "lobby_last_join_3": {
+      "x": 0,
+      "y": 206,
+      "w": 349,
+      "h": 102,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 349,
+      "sourceH": 102
+    },
+    "lobby_line": {
+      "x": 344,
+      "y": 351,
+      "w": 5,
+      "h": 60,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 5,
+      "sourceH": 60
+    },
+    "lobby_markpoint": {
+      "x": 179,
+      "y": 439,
+      "w": 21,
+      "h": 21,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 21,
+      "sourceH": 21
+    },
+    "lobby_matchBtn": {
+      "x": 663,
+      "y": 134,
+      "w": 117,
+      "h": 39,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 124,
+      "sourceH": 41
+    },
+    "lobby_matchFram": {
+      "x": 781,
+      "y": 121,
+      "w": 53,
+      "h": 27,
+      "offX": 3,
+      "offY": 3,
+      "sourceW": 59,
+      "sourceH": 33
+    },
+    "lobby_message": {
+      "x": 914,
+      "y": 0,
+      "w": 44,
+      "h": 33,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 44,
+      "sourceH": 33
+    },
+    "lobby_more": {
+      "x": 434,
+      "y": 307,
+      "w": 61,
+      "h": 79,
+      "offX": 7,
+      "offY": 3,
+      "sourceW": 75,
+      "sourceH": 82
+    },
+    "lobby_notice_btn": {
+      "x": 675,
+      "y": 222,
+      "w": 41,
+      "h": 41,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 41,
+      "sourceH": 41
+    },
+    "lobby_playmethod": {
+      "x": 496,
+      "y": 307,
+      "w": 109,
+      "h": 41,
+      "offX": 8,
+      "offY": 0,
+      "sourceW": 124,
+      "sourceH": 41
+    },
+    "lobby_record": {
+      "x": 663,
+      "y": 92,
+      "w": 116,
+      "h": 41,
+      "offX": 4,
+      "offY": 0,
+      "sourceW": 124,
+      "sourceH": 41
+    },
+    "lobby_roommanagement": {
+      "x": 734,
+      "y": 42,
+      "w": 116,
+      "h": 41,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 124,
+      "sourceH": 41
+    },
+    "lobby_setting": {
+      "x": 558,
+      "y": 218,
+      "w": 116,
+      "h": 41,
+      "offX": 4,
+      "offY": 0,
+      "sourceW": 124,
+      "sourceH": 41
+    },
+    "lobby_share": {
+      "x": 734,
+      "y": 0,
+      "w": 124,
+      "h": 41,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 124,
+      "sourceH": 41
+    },
+    "lobby_share_1": {
+      "x": 350,
+      "y": 0,
+      "w": 83,
+      "h": 214,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 84,
+      "sourceH": 218
+    },
+    "lobby_share_2": {
+      "x": 350,
+      "y": 215,
+      "w": 83,
+      "h": 214,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 84,
+      "sourceH": 218
+    },
+    "lobby_shop": {
+      "x": 202,
+      "y": 309,
+      "w": 112,
+      "h": 85,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 112,
+      "sourceH": 85
+    },
+    "lobby_speaker": {
+      "x": 606,
+      "y": 303,
+      "w": 45,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 45,
+      "sourceH": 34
+    },
+    "lobby_verify": {
+      "x": 499,
+      "y": 404,
+      "w": 41,
+      "h": 38,
+      "offX": 0,
+      "offY": 3,
+      "sourceW": 41,
+      "sourceH": 41
+    },
+    "lobby_wechatIcon": {
+      "x": 434,
+      "y": 387,
+      "w": 64,
+      "h": 63,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 64,
+      "sourceH": 63
+    },
+    "lobby_word_back": {
+      "x": 434,
+      "y": 46,
+      "w": 165,
+      "h": 45,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 165,
+      "sourceH": 45
+    },
+    "lobby_word_club": {
+      "x": 0,
+      "y": 439,
+      "w": 178,
+      "h": 62,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 178,
+      "sourceH": 62
+    },
+    "lobby_word_coin": {
+      "x": 434,
+      "y": 263,
+      "w": 125,
+      "h": 43,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 43
+    },
+    "lobby_word_create": {
+      "x": 434,
+      "y": 0,
+      "w": 166,
+      "h": 45,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 166,
+      "sourceH": 45
+    },
+    "lobby_word_event": {
+      "x": 434,
+      "y": 218,
+      "w": 123,
+      "h": 44,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 123,
+      "sourceH": 44
+    },
+    "lobby_word_join": {
+      "x": 434,
+      "y": 92,
+      "w": 165,
+      "h": 45,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 165,
+      "sourceH": 45
+    },
+    "new_main_word_match": {
+      "x": 434,
+      "y": 218,
+      "w": 123,
+      "h": 44,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 123,
+      "sourceH": 44
+    },
+    "paomadengbeijing": {
+      "x": 560,
+      "y": 260,
+      "w": 79,
+      "h": 42,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 79,
+      "sourceH": 42
+    },
+    "parting_line": {
+      "x": 0,
+      "y": 502,
+      "w": 166,
+      "h": 1,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 166,
+      "sourceH": 1
+    },
+    "winNun_text": {
+      "x": 554,
+      "y": 349,
+      "w": 53,
+      "h": 29,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 53,
+      "sourceH": 29
+    },
+    "winRate": {
+      "x": 724,
+      "y": 174,
+      "w": 53,
+      "h": 30,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 53,
+      "sourceH": 30
+    }
+  }
+}

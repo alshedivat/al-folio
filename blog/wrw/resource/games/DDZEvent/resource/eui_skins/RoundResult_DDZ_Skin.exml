@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoundResult_DDZ_Event_Skin" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="1280">
+	<e:Rect width="1280" height="720" x="-1.52" y="0" fillAlpha="0.6" />
+	<e:Image id="bg" y="150"  source="public_DDZ2" horizontalCenter="0" alpha="0.9" height="450"/>
+	<e:Image id="titleBg" y="205" anchorOffsetX="0" width="672"
+	         anchorOffsetY="0" height="68"  source="kuang_blue" horizontalCenter="0"/>
+	<e:Image id="_victory_image" source="win_anim_18" y="76" horizontalCenter="-5"/>
+	<e:Image id="_failed_image" source="lose_anim_30" y="76" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-5"/>
+	<e:Image source="nicheng" x="431" y="213" />
+	<e:Image source="difen" x="610" y="213" />
+	<e:Image source="beishu" x="717" y="213" />
+	<e:Image id="mutipleInfo" source="qm" x="791" y="228.33"  visible="false"/>
+	<e:Image x="846" y="213"  source="fenshu"/>
+	<e:Image source="listbackgrund" x="284" y="280.66"  visible="false"/>
+	<e:Group width="690" height="245" touchEnabled="false" touchChildren="true" horizontalCenter="0" y="259"
+	         anchorOffsetY="0" anchorOffsetX="0">
+		<e:Scroller width="690" height="245" x="0" y="0" touchEnabled="false" touchChildren="false" scaleX="1" scaleY="1"
+		            anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="_data_list" y="3.31" x="-14" itemRendererSkinName="RoundResultItem_DDZ_Event_Skin">
+				<e:layout>
+					<e:VerticalLayout gap="0" paddingLeft="11" />
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object iconUrl="null" nickName="null" scoreChanged="null" />
+						<e:Object iconUrl="null" nickName="null" scoreChanged="null" />
+						<e:Object iconUrl="null" nickName="null" scoreChanged="null" />
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Button id="_prepare_btn" label="" y="508.94" horizontalCenter="146">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="continue_play1" source.down="continue_play2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_shuffle_btn" label="" scaleX="1" scaleY="1" horizontalCenter="147" verticalCenter="178.5" width="174">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shuffle_btn1" source.disabled="bt_gray_bg" source.down="shuffle_btn2"/>
+			<e:Label id="labelDisplay" horizontalCenter="2" verticalCenter="1"/>
+			<e:Label id="cost" text="0.1" fontFamily="Microsoft YaHei" textColor="0xffffff" rotation="30" size="18" scaleX.down="1" scaleY.down="1" horizontalCenter.disabled="46" text.up="0.1" text.down="0.1" x="3.48" y="20.52" x.down="155.37" y.down="15.32" alpha.down="0.8" x.up="155.37" y.up="15.32"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+	<e:Button id="backLobbyButton" label="" y="510.44" left="418">
+		<e:Skin states="up,down,disabled">
+		<e:Image source.disabled="bt_gray_bg" anchorOffsetX="124" anchorOffsetY="47" scaleX.down="0.95" scaleY.down="0.95" source="orange_btn_big" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="back_lobby" source.disabled="orange_out_card_gray" anchorOffsetX="124" anchorOffsetY="47" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</e:Button>
+		<e:Button id="changeTableBtn" label="" y="511.96" x="419.71">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="huanzhuo1" source.down="huanzhuo2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+	</e:Button>
+	<e:Group id="group" width="200" height="200" x="161.45" y="475.74"/>
+</e:Skin>

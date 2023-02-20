@@ -1,0 +1,115 @@
+{
+  "file": "messageBox.png",
+  "frames": {
+    "box_agree1": {
+      "x": 0,
+      "y": 129,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "box_agree2": {
+      "x": 205,
+      "y": 0,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "box_agree3": {
+      "x": 205,
+      "y": 69,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "box_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 204,
+      "h": 128,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 204,
+      "sourceH": 128
+    },
+    "box_cancelBtn1": {
+      "x": 180,
+      "y": 138,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "box_cancelBtn2": {
+      "x": 0,
+      "y": 198,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "box_disagree1": {
+      "x": 0,
+      "y": 267,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "box_disagree2": {
+      "x": 0,
+      "y": 336,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "box_disagree3": {
+      "x": 180,
+      "y": 207,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "box_sureBtn1": {
+      "x": 0,
+      "y": 405,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "box_sureBtn2": {
+      "x": 180,
+      "y": 276,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    }
+  }
+}

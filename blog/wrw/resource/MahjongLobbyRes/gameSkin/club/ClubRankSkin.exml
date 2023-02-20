@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubRankSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="backRect" left="0" right="0" top="0" bottom="0" fillColor="0x111111" fillAlpha="0.8"/>
+	<e:Group id="contentGroup" width="690" height="660" verticalCenter="0" anchorOffsetX="0" x="40">
+		<e:Image id="brackground" source="lobby_rank_bg_2" scale9Grid="55,49,474,89" width="682" horizontalCenter="0" top="0" bottom="0"  />
+		<e:Image source="mjl_rank_json.lobby_rank_line" top="90" horizontalCenter="0" width="650"/>
+		<e:Image source="mjl_rank_json.lobby_rank_titleBg" top="0" left="25" alpha="0.8" />
+		<e:Image top="22" left="100" source="lobby_rank_title_1"/>
+		<e:Image id="rankTypeIcon" x="506" top="45" source="club_rank_type_1"/>
+		<e:Scroller anchorOffsetX="0" anchorOffsetY="0" left="25" right="25" bottom="35" top="160">
+			<e:List id="rankList" anchorOffsetY="0" x="0" y="-13.64" itemRendererSkinName="RankItemRenderSkin">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" gap="10" paddingTop="15"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="closeBtn" label="" verticalCenter="20" left="-50">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lobby_rankClose_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="rankTypeBtn" label="" top="40" left="370" touchEnabled="true" touchChildren="false" name="type">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lobby_rankChange_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group height="50" anchorOffsetX="0" anchorOffsetY="0" top="105" width="624" horizontalCenter="0">
+			<e:RadioButton id="today" label="" verticalCenter="0" x="112" groupName="day" value="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lobby_rank_todat_2" source.down="lobby_rank_todat_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="yesterday" label="" groupName="day" value="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lobby_rank_yesterday_2" source.down="lobby_rank_yesterday_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="week" label="" groupName="day" value="4">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lobby_rank_week_2" source.down="lobby_rank_week_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="mounth" label="" groupName="day" value="2">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="lobby_rank_m_2" source.down="lobby_rank_m_1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="1"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="rankRadioGroup" width="120" height="180" top="91" left="375" visible="false">
+			<e:Image left="0" right="0" top="0" bottom="0" source="lobby_rank_labelBg" scale9Grid="12,11,42,14"/>
+			<e:RadioButton id="rankType_1" label="上桌数" height="40" horizontalCenter="0" top="20" width="90" value="1">
+            <e:skinName>
+				<e:Skin states="up,down,disabled">
+	<e:Rect left="-10" right="-10" top="0" bottom="0" fillColor="0x444444" fillAlpha="0.4" ellipseWidth="20" ellipseHeight="20" visible.up="false" visible.disabled="false"/>
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" size="28" textAlign="center" verticalAlign="middle"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="rankType_2" label="大赢家" height="40" horizontalCenter="0" top="70" width="90" value="2">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Rect left="-10" right="-10" top="0" bottom="0" fillColor="0x444444" fillAlpha="0.4" ellipseWidth="20" ellipseHeight="20" visible.up="false" visible.disabled="false"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" size="28" textAlign="center" verticalAlign="middle"/>
+				</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="rankType_3" label="积分" height="40" horizontalCenter="0" top="120" width="90" value="3">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Rect left="-10" right="-10" top="0" bottom="0" fillColor="0x444444" fillAlpha="0.4" ellipseWidth="20" ellipseHeight="20" visible.up="false" visible.disabled="false"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" size="28" textAlign="center" verticalAlign="middle"/>
+				</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+
+
+</e:Skin>

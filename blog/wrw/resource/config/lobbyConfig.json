@@ -1,0 +1,15 @@
+{
+	"default": {
+		"login_url_test": "http://140.143.241.226:7000/httplogin",
+		"login_url": "http://140.143.241.226:7000/httplogin",
+		"upLoad_url": "http://upload.bwgame.com.cn:8011/form/upload",
+		"gameid":9503,
+		"zoneid":1003,
+		"version":"06081811",
+		"debug_level":5,
+		"notice":{
+			"version":"20160907",
+			"desc":"<font size='28'>【优化】丰富了火拼比大小界面功能</font>"
+		}   
+	}   
+}

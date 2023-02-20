@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GoldBeanItemSkin" width="210" height="260" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgIcon" horizontalCenter="0" verticalCenter="0" source="buy_goldbean1"/>
+	<e:Label id="priceLabel" text="6元" x="16" y="156" anchorOffsetX="0" width="175" anchorOffsetY="0" textAlign="center" fontFamily="SimHei" size="24" verticalAlign="middle"/>
+	<e:Label id="numLabel" text="500" x="110" y="11" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="SimHei" size="20" verticalAlign="middle" textColor="0xf9ab00"/>
+	<e:Button id="buyBtn" label="Button" x="11" y="176" width="187" height="73">
+		<e:Skin states="up,down,disable">
+		<e:Image source="buy_btn2" x="93" y="36" anchorOffsetY="36" anchorOffsetX="93" scaleX.down="0.95" scaleY.down="0.95"/>
+		</e:Skin>
+	</e:Button>
+</e:Skin>

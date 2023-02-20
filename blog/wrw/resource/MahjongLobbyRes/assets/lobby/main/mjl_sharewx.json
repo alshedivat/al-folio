@@ -1,0 +1,165 @@
+{
+  "file": "mjl_sharewx.png",
+  "frames": {
+    "copy_btn1": {
+      "x": 344,
+      "y": 712,
+      "w": 335,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 335,
+      "sourceH": 36
+    },
+    "copy_btn_bg": {
+      "x": 797,
+      "y": 159,
+      "w": 176,
+      "h": 57,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 176,
+      "sourceH": 57
+    },
+    "copyWeixin_button1": {
+      "x": 797,
+      "y": 217,
+      "w": 172,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 172,
+      "sourceH": 55
+    },
+    "copyWeixin_button2": {
+      "x": 156,
+      "y": 903,
+      "w": 172,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 172,
+      "sourceH": 55
+    },
+    "download_btn1": {
+      "x": 344,
+      "y": 643,
+      "w": 262,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 262,
+      "sourceH": 68
+    },
+    "download_btn2": {
+      "x": 156,
+      "y": 834,
+      "w": 262,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 262,
+      "sourceH": 68
+    },
+    "joinweixinBg": {
+      "x": 0,
+      "y": 0,
+      "w": 796,
+      "h": 642,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 796,
+      "sourceH": 642
+    },
+    "mjl_share_icon": {
+      "x": 344,
+      "y": 749,
+      "w": 127,
+      "h": 37,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 127,
+      "sourceH": 37
+    },
+    "mjl_share_icon_bg": {
+      "x": 0,
+      "y": 643,
+      "w": 187,
+      "h": 190,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 187,
+      "sourceH": 190
+    },
+    "mjl_share_pyq_icon": {
+      "x": 156,
+      "y": 959,
+      "w": 102,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 102,
+      "sourceH": 37
+    },
+    "mjl_share_titleg": {
+      "x": 797,
+      "y": 273,
+      "w": 111,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 111,
+      "sourceH": 53
+    },
+    "mjl_share_xl_icon": {
+      "x": 953,
+      "y": 0,
+      "w": 69,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 69,
+      "sourceH": 37
+    },
+    "s_pengyouquan": {
+      "x": 797,
+      "y": 0,
+      "w": 155,
+      "h": 158,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 158
+    },
+    "s_weixin": {
+      "x": 188,
+      "y": 643,
+      "w": 155,
+      "h": 158,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 158
+    },
+    "s_xianliao": {
+      "x": 0,
+      "y": 834,
+      "w": 155,
+      "h": 158,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 158
+    },
+    "weixinJoinqun": {
+      "x": 953,
+      "y": 37,
+      "w": 51,
+      "h": 44,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 51,
+      "sourceH": 44
+    }
+  }
+}

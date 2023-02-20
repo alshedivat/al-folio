@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LuckPoorRankItemSkin" width="420" height="65" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="headMask" width="63" height="63" ellipseWidth="90" verticalCenter="0" ellipseHeight="0" fillColor="0x4b66c1" left="0"/>
+	<e:Image id="headMc" width="63" height="63" left="0" verticalCenter="0"/>
+	<e:Label id="nickName" text="12345678" verticalCenter="0" width="150" size="24" left="120" fontFamily="SimHei" textColor="0xe4760d"/>
+	<e:Label id="reward" text="1203" size="24" fontFamily="SimHei" textColor="0xE4760D" right="0" width="120" verticalCenter="0" textAlign="center"/>
+</e:Skin>

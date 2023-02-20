@@ -1,0 +1,155 @@
+{
+  "file": "userInfo_2d5.png",
+  "frames": {
+    "gift_2d5_1": {
+      "x": 820,
+      "y": 0,
+      "w": 107,
+      "h": 107,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 107,
+      "sourceH": 109
+    },
+    "gift_2d5_2": {
+      "x": 709,
+      "y": 0,
+      "w": 110,
+      "h": 107,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 110,
+      "sourceH": 109
+    },
+    "gift_2d5_3": {
+      "x": 816,
+      "y": 216,
+      "w": 108,
+      "h": 104,
+      "offX": 0,
+      "offY": 3,
+      "sourceW": 108,
+      "sourceH": 109
+    },
+    "gift_2d5_4": {
+      "x": 709,
+      "y": 108,
+      "w": 109,
+      "h": 107,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 109,
+      "sourceH": 109
+    },
+    "gift_2d5_5": {
+      "x": 819,
+      "y": 108,
+      "w": 109,
+      "h": 105,
+      "offX": 0,
+      "offY": 3,
+      "sourceW": 109,
+      "sourceH": 109
+    },
+    "gift_2d5_6": {
+      "x": 709,
+      "y": 216,
+      "w": 106,
+      "h": 108,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 106,
+      "sourceH": 109
+    },
+    "userInfo_bg_2d5": {
+      "x": 0,
+      "y": 0,
+      "w": 708,
+      "h": 465,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 708,
+      "sourceH": 465
+    },
+    "userInfo_cost_2d5": {
+      "x": 928,
+      "y": 0,
+      "w": 66,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 66,
+      "sourceH": 79
+    },
+    "userInfo_diamond_2d5": {
+      "x": 106,
+      "y": 466,
+      "w": 52,
+      "h": 26,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 52,
+      "sourceH": 26
+    },
+    "userInfo_id_2d5": {
+      "x": 159,
+      "y": 466,
+      "w": 26,
+      "h": 22,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 26,
+      "sourceH": 22
+    },
+    "userInfo_ip_2d5": {
+      "x": 159,
+      "y": 489,
+      "w": 24,
+      "h": 22,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 24,
+      "sourceH": 22
+    },
+    "userInfo_name_2d5": {
+      "x": 0,
+      "y": 466,
+      "w": 52,
+      "h": 27,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 52,
+      "sourceH": 27
+    },
+    "userInfo_point_2d5": {
+      "x": 53,
+      "y": 466,
+      "w": 52,
+      "h": 27,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 52,
+      "sourceH": 27
+    },
+    "userinfo_sex0_2d5": {
+      "x": 709,
+      "y": 325,
+      "w": 38,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 38,
+      "sourceH": 52
+    },
+    "userinfo_sex1_2d5": {
+      "x": 929,
+      "y": 80,
+      "w": 37,
+      "h": 48,
+      "offX": 0,
+      "offY": 4,
+      "sourceW": 37,
+      "sourceH": 52
+    }
+  }
+}

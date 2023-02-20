@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchPlayerListSkin" width="915" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:MJLobby="MJLobby.*">
+	<e:Label id="rankingLabel" text="排名" x="6" verticalCenter="0" textAlign="center" anchorOffsetX="0" width="84" height="30" fontFamily="SimHei" size="30" textColor="0x53c2e3"/>
+	<e:Label id="playNameLabel" text="姓名" verticalCenter="0" textAlign="center" anchorOffsetX="0" width="168" height="30" fontFamily="SimHei" textColor="0x53c2e3" size="30" left="84" visible="false"/>
+	<MJLobby:TextImage id="nameLabelText" width="150" height="30" y="15" left="102"/>
+	<e:Label id="integralLabel" text="1" x="230" verticalCenter="0" textAlign="center" anchorOffsetX="0" width="145" height="30" fontFamily="SimHei" textColor="0x53c2e3" size="30"/>
+	<e:Label id="stateLabel" text="状态" x="420" verticalCenter="0" textAlign="center" anchorOffsetX="0" width="109" height="30" fontFamily="SimHei" textColor="0x53c2e3" size="30"/>
+	<e:Label id="typeLabel" text="类型" x="539.95" textColor="0x7d2f00" verticalCenter="0" anchorOffsetX="0" width="125" textAlign="center" height="30" visible="false"/>
+	<e:Label id="_bigWinnerNum" text="10000" x="570" verticalCenter="0" anchorOffsetX="0" textAlign="center" height="30" width="90" fontFamily="SimHei" textColor="0x53c2e3" size="30"/>
+	<e:Label id="_playNum" text="10000" x="710" verticalCenter="0" anchorOffsetX="0" width="90" textAlign="center" height="30" fontFamily="SimHei" textColor="0x53c2e3" size="30"/>
+	<e:Image source="matchMemberLine" bottom="0" horizontalCenter="0"/>
+	<e:Group id="operationGroup" width="235" x="680"  anchorOffsetY="0" anchorOffsetX="0" top="0" bottom="0" visible="false">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="25"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

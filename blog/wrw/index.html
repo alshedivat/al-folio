@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>万人玩麻将</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href=".favicon.ico" type="image/x-icon" />
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #888888;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+   <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="MJLobbyMain"
+         data-orientation="landscape"
+         data-scale-mode="showAll"
+         data-frame-rate="30"
+         data-content-width="1280"
+         data-content-height="720"
+         data-show-paint-rect="false"
+         data-multi-fingered="5"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    <script>
+
+	var loadScript = function (list, callback) {
+		var loaded = 0;
+		var loadNext = function () {
+			loadSingleScript(list[loaded], function () {
+				loaded++;
+				if (loaded >= list.length) {
+					callback();
+				}
+				else {
+					loadNext();
+				}
+			})
+		};
+		loadNext();
+	};
+	var isJsonString = function (str) {
+		try {
+			if (typeof JSON.parse(str) == "object") {
+				return true;
+			}
+		}
+		catch (e) {
+		}
+		return false;
+	}
+	var loadSingleScript = function (src, callback) {
+		var s = document.createElement('script');
+		s.async = false;
+		s.src = src;
+		s.addEventListener('load', function () {
+			s.parentNode.removeChild(s);
+			s.removeEventListener('load', arguments.callee, false);
+			callback();
+		}, false);
+		document.body.appendChild(s);
+	};
+	function start() {
+		var timer = null;
+		var xhr = new XMLHttpRequest();
+		var loadComplete = function () {
+			if (!isJsonString(xhr.response)) return
+			xhr.removeEventListener("load", loadComplete);
+			var manifest = JSON.parse(xhr.response);
+			var list = manifest.initial.concat(manifest.game);
+			loadScript(list, function () {
+				clearInterval(timer);
+				<!-- egret.runEgret({ renderMode: "webgl" }); -->
+                egret.runEgret({renderMode:"canvas"});
+			});
+		}
+		xhr.addEventListener("load", loadComplete);
+		var loadManifest = function (v) {
+			var file = "";
+			if (v) file = 'manifest.json?v=' + v;
+			else file = 'manifestFirst.json'
+			xhr.open('GET', file, true);
+			xhr.send(null);
+		}
+		localStorage.setItem("timeOutRun", "0");
+		var now = Date.now();
+		loadManifest(now);
+		let timeOutNum = 0;
+		timer = setInterval(function () {
+			let diff = Date.now() - now;
+			if (diff < 3000)
+				return;
+			timeOutNum++;
+			console.error("timeOutNum:" + timeOutNum);
+			if (timeOutNum > 4) {
+				console.error("loadjstimeout:" + diff);
+				localStorage.setItem("timeOutRun", "1");
+				loadManifest()
+				clearInterval(timer);
+			}
+			else {
+				var now = Date.now();
+				loadManifest(now);
+			}
+		}, 5000);
+	}
+	start();
+    </script>
+</body>
+</html>

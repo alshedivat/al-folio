@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BindPhonePanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image anchorOffsetX="0" width="765" anchorOffsetY="0"
+	         height="493" horizontalCenter="0.5" verticalCenter="1.5"  source="mjl_common_bj_3" scale9Grid="60,74,162,451"/>
+	<e:Label text="手机号:" fontFamily="黑体" width="180" textAlign="right"  textColor="0xffffff" top="220" left="320" size="32"/>
+	<e:Label text="验证码:" fontFamily="黑体" width="180" textAlign="right" textColor="0xffffff" top="290" left="320" size="32"/>
+	<e:Label id="passWordLabel" text="密码:" fontFamily="黑体" width="180" textAlign="right" anchorOffsetX="0" textColor="0xffffff" left="320" top="360" size="32"/>
+	<e:Label text="确认密码:" fontFamily="黑体" textAlign="right" textColor="0xffffff" left="320" top="430" size="32" width="180"/>
+	<e:Label text="证件号:" x="374" y="447" fontFamily="黑体" width="150" textAlign="right" textColor="0xFFFFFF" visible="false"/>
+	<e:TextInput id="phoneNum" width="320" height="50" anchorOffsetX="0" top="215" left="510" textColor="0xffffff" restrict="0-9">
+		<e:Skin width="334" height="50" minHeight="45" minWidth="300"
+		        states="normal,disabled,normalWithPrompt,disabledWithPrompt">
+			<e:Image source="mjl_create_match_inputBg" anchorOffsetX="0"  left="0" right="0" top="0" bottom="0" scale9Grid="28,5,174,36"/>
+			<e:EditableText id="textDisplay"  height="46" size="30" fontFamily="黑体"
+			                verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" textAlign="left"
+			                prompt="请输入手机号" textColor="0xffffff" promptColor="0xe8f3fa" verticalCenter="0" left="10" right="5"/>
+			<e:Label id="promptDisplay" verticalCenter="0" left="10" right="10" width="100%" height="35" size="30"
+			         touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" fontFamily="黑体" textAlign="left"
+			         textColor="0xffffff" />
+		</e:Skin>
+	</e:TextInput>
+	<e:TextInput id="keyNum" width="320" height="50" anchorOffsetX="0" left="510" top="280" restrict="0-9">
+		<e:Skin width="334" height="50" minHeight="45" minWidth="300" states="normal,disabled,normalWithPrompt,disabledWithPrompt">
+		<e:Image source="mjl_create_match_inputBg" anchorOffsetX="0" scale9Grid="28,5,174,36" left="0" right="0" top="0" bottom="0"/>
+		<e:EditableText id="textDisplay"  height="46" size="30" fontFamily="黑体" verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" prompt="请输入短信验证码" textColor="0xffffff" promptColor="0xe8f3fa" verticalCenter="0" left="10" right="0"/>
+		<e:Label id="promptDisplay" verticalCenter="0" left="10" right="10" width="100%" height="35" size="30" touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" fontFamily="黑体" textAlign="left" text="" textColor="0xffffff"/>
+		</e:Skin>
+	</e:TextInput>
+	<e:TextInput id="pswTxt" width="320" height="50" anchorOffsetX="0" top="355" left="510">
+		<e:Skin width="334" height="50" minHeight="45" minWidth="300" states="normal,disabled,normalWithPrompt,disabledWithPrompt">
+		<e:Image source="mjl_create_match_inputBg" anchorOffsetX="0" scale9Grid="28,5,174,36" left="0" right="0" top="0" bottom="0"/>
+		<e:EditableText id="textDisplay"  height="46" size="30" fontFamily="黑体" verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" width="324" textAlign="left" prompt="请输入密码" textColor="0xffffff" promptColor="0xe8f3fa" verticalCenter="0" left="10"/>
+		<e:Label id="promptDisplay" verticalCenter="0" left="10" right="10" width="100%" height="35" size="30" touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" fontFamily="黑体" textAlign="left" textColor="0xffffff"/>
+		</e:Skin>
+	</e:TextInput>
+	<e:TextInput id="pswAgainTxt" width="320" height="50" anchorOffsetX="0" left="511" top="425">
+		<e:Skin width="334" height="50" minHeight="45" minWidth="300" states="normal,disabled,normalWithPrompt,disabledWithPrompt">
+		<e:Image source="mjl_create_match_inputBg" anchorOffsetX="0" scale9Grid="28,5,174,36" left="0" right="0" top="0" bottom="0"/>
+		<e:EditableText id="textDisplay"  height="46" size="30" fontFamily="黑体" verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" width="324" textAlign="left" prompt="请再次确认密码" textColor="0xffffff" promptColor="0xe8f3fa" verticalCenter="0" left="10"/>
+		<e:Label id="promptDisplay" verticalCenter="0" left="10" right="10" width="100%" height="35" size="30" touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" fontFamily="黑体" textAlign="left" textColor="0xffffff"/>
+		</e:Skin>
+	</e:TextInput>
+	<e:TextInput id="idCardNum" width="260" height="45" x="536" y="442" anchorOffsetX="0" maxChars="18" visible="false">
+		<e:Skin width="334" height="50" minHeight="45" minWidth="300" states="normal,disabled,normalWithPrompt,disabledWithPrompt">
+		<e:Image source="mjl_create_match_inputBg" anchorOffsetX="0" scale9Grid="28,5,174,36" left="0" right="0" top="0" bottom="0"/>
+		<e:EditableText id="textDisplay"  height="46" size="25" fontFamily="黑体" verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" y="0" width="324" x="5" textAlign="left" prompt="请输入证件号" textColor="0xffffff"/>
+		<e:Label id="promptDisplay" verticalCenter="0" left="10" right="10" width="100%" height="35" size="35" touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" fontFamily="黑体" textAlign="left" textColor="0xffffff"/>
+		</e:Skin>
+	</e:TextInput>
+	<e:Button id="submitBtn" label="" anchorOffsetY="0" height="50" anchorOffsetX="0" width="170" bottom="165" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bindphone_btn1" source.down="bindphone_btn2"/>
+			<e:Label id="labelDisplay" stroke="2" strokeColor="0xaa5408" top="7" horizontalCenter="0" textColor="0xfcfcfc" fontFamily="楷体" size="35" scaleX.down="0.95" scaleY.down="0.95"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="registeredBtn" x="555" y="500" label="注册" anchorOffsetY="0" height="50" anchorOffsetX="0" width="170" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="buttonyellow"/>
+			<e:Label id="labelDisplay" stroke="2" strokeColor="0xaa5408" top="7" horizontalCenter="0" textColor="0xfcfcfc" fontFamily="楷体" size="35" scaleX.down="0.95" scaleY.down="0.95"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="yesButton" y="500" label="" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_commonBtn_sure_1" source.down="mjl_commonBtn_sure_2"/>
+			<e:Label id="labelDisplay" stroke="2" strokeColor="0xaa5408" top="7" horizontalCenter="0" textColor="0xfcfcfc" fontFamily="楷体" size="35" scaleX.down="0.95" scaleY.down="0.95"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="changeButton" x="555.5" y="500" label="换绑" anchorOffsetY="0" height="50" anchorOffsetX="0" width="170" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="buttonyellow"/>
+			<e:Label id="labelDisplay" stroke="2" strokeColor="0xaa5408" top="7" horizontalCenter="0" textColor="0xfcfcfc" fontFamily="楷体" size="35" scaleX.down="0.95" scaleY.down="0.95"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+		<e:Button id="closeButton" x="955" y="90" width="100" height="100"  skinName="MJ_CloseButton1Skin"/>
+	<e:Button id="getKeyBtn" label="" left="840" top="215">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="auth_code_btn1" source.down="auth_code_btn2"/>
+			<e:Label id="labelDisplay" size="16" textColor="0x020000" fontFamily="SimHei" horizontalCenter="0" width="121" height="20" textAlign="center" text="hahahaha" y="14"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Label id="tipsTxt" text="有问题有问题有问" x="276" y="165" width="725" textColor="0xfc0505" size="26" textAlign="center" anchorOffsetX="0"/>
+</e:Skin>

@@ -1,0 +1,165 @@
+{
+  "file": "settingPanel_2d5.png",
+  "frames": {
+    "background_2d5_icon": {
+      "x": 1042,
+      "y": 36,
+      "w": 135,
+      "h": 35,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 154,
+      "sourceH": 35
+    },
+    "checkBox_2d5_1": {
+      "x": 0,
+      "y": 937,
+      "w": 162,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 162,
+      "sourceH": 53
+    },
+    "checkBox_2d5_2": {
+      "x": 214,
+      "y": 777,
+      "w": 162,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 162,
+      "sourceH": 53
+    },
+    "dissBtn_2d5_1": {
+      "x": 0,
+      "y": 698,
+      "w": 213,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 214,
+      "sourceH": 80
+    },
+    "dissBtn_2d5_2": {
+      "x": 0,
+      "y": 778,
+      "w": 213,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 214,
+      "sourceH": 80
+    },
+    "language_2d5_icon": {
+      "x": 163,
+      "y": 937,
+      "w": 135,
+      "h": 33,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 154,
+      "sourceH": 33
+    },
+    "music_2d5_icon": {
+      "x": 215,
+      "y": 831,
+      "w": 134,
+      "h": 40,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 154,
+      "sourceH": 40
+    },
+    "radioBtn_2d5_1": {
+      "x": 1042,
+      "y": 72,
+      "w": 64,
+      "h": 66,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 64,
+      "sourceH": 66
+    },
+    "radioBtn_2d5_2": {
+      "x": 429,
+      "y": 698,
+      "w": 64,
+      "h": 66,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 64,
+      "sourceH": 66
+    },
+    "refreshBtn_2d5_1": {
+      "x": 0,
+      "y": 858,
+      "w": 214,
+      "h": 78,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 214,
+      "sourceH": 78
+    },
+    "refreshBtn_2d5_2": {
+      "x": 214,
+      "y": 698,
+      "w": 214,
+      "h": 78,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 214,
+      "sourceH": 78
+    },
+    "setting_bg_2d5": {
+      "x": 0,
+      "y": 0,
+      "w": 1041,
+      "h": 697,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 1041,
+      "sourceH": 697
+    },
+    "sound_2d5_icon": {
+      "x": 1042,
+      "y": 0,
+      "w": 154,
+      "h": 35,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 154,
+      "sourceH": 35
+    },
+    "tableBg_btn_blue": {
+      "x": 377,
+      "y": 777,
+      "w": 62,
+      "h": 61,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 62,
+      "sourceH": 61
+    },
+    "tableBg_btn_green": {
+      "x": 1107,
+      "y": 72,
+      "w": 61,
+      "h": 61,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 61,
+      "sourceH": 61
+    },
+    "view_icon_2d5": {
+      "x": 215,
+      "y": 872,
+      "w": 134,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 154,
+      "sourceH": 34
+    }
+  }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZZ_UserInfoSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect bottom="0" left="0" top="0" right="0" alpha="0.1" fillColor="0x000000"/>
+	<e:Image source="game_common2" x="226" y="97"/>
+	<e:Label id="titleLabel" text="道          具" y="100.48" textColor="0xFFFFFF" fontFamily="Microsoft YaHei" size="40" anchorOffsetX="0" width="525.99" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="73.93" bold="true" horizontalCenter="0"/>
+	<e:Button id="closeButton" label="" skinName="ZZ_CloseButtonSkin" anchorOffsetX="0" width="139.33" anchorOffsetY="0" height="84.75" x="916" y="97"/>
+	<e:Image id="headMask" source="game_userInfo_json.userInfo_headBg" x="295.72" y="196.04" anchorOffsetX="0" width="170" anchorOffsetY="0" height="170"/>
+	<e:Image id="headImage" source="game_userInfo_json.userInfo_headBg" x="295.72" y="196.04" width="170" height="170"/>
+	<e:Label id="nameLabel" text="Label" x="505.03" y="196.04" size="26" width="280"/>
+	<e:Label id="idLabel" text="Label" x="505.03" y="255.76" size="26" width="280"/>
+	<e:Label id="ipLabel" text="ipLabel" x="505.03" y="309.76" size="26" width="280"/>
+	<e:Label id="distanceLabel" text="distanceLabel" x="505.03" y="362.25" size="26" width="280"/>
+	<e:Label id="pointLabel" text="Label" x="802.88" y="309.76" size="26" width="230"/>
+	<e:Label id="diamondLabel" text="Label" x="802.88" y="255.76" size="26" width="230"/>
+	<e:Image id="sexImage" source="game_userInfo_json.userInfo_man" x="802" y="194.28"/>
+	<e:Scroller width="719.7" height="150" y="407.51" anchorOffsetX="0" horizontalCenter="0">
+		<e:List id="list">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

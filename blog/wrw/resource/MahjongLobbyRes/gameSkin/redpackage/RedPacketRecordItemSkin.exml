@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedPacketRecordItemSkin" width="540" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mjl_redpacket_json.mjl_redpacket_line" left="0" right="0" bottom="1"/>
+	<e:Label id="tipsLabel" text="   喜从天降！15321303在对局后，获得1.6元大红包，不由喜极而泣" right="10" top="5" bottom="5" size="26" fontFamily="黑体" anchorOffsetX="0" left="10"/>
+</e:Skin>

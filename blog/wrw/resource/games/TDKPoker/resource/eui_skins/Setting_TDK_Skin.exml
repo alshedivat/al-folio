@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Setting_TDK_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group left="235" right="235" top="85" bottom="85">
+
+		<e:Image horizontalCenter="0" verticalCenter="0" scale9Grid="18,16,114,102" anchorOffsetY="0" source="dlm_ej_bg_1_game_png"/>
+
+		<e:Image horizontalCenter="0" top="32" source="dlm_sz"/>
+		<e:Button id="closeButton" scaleX="1" scaleY="1" horizontalCenter="316" verticalCenter="-220">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dlm_an_1guangbi_game"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Image scaleX="1" scaleY="1" top="130" horizontalCenter="-244.5" source="dlm_yinxiao"/>
+		<e:Image scaleX="1" scaleY="1" top="238" horizontalCenter="-244.5" source="dlm_yinyue"/>
+		<e:HSlider id="soundSlider" skinName="Slider_TDK_Skin" scaleX="1" scaleY="1" top="98" horizontalCenter="0" visible="false"/>
+		<e:HSlider id="musicSlider" skinName="Slider_TDK_Skin" scaleX="1" scaleY="1" top="200" horizontalCenter="0" visible="false"/>
+		<e:ToggleButton id="soundSwitch" label="" top="131" horizontalCenter="99.5">
+		<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,downAndSelected">
+			<e:Image width="100%" height="100%" includeIn="upAndSelected,downAndSelected"  source="dlm_an_qiehuanzhkaiqi"/>
+			<e:Image width="100%" height="100%" includeIn="up,down"  source="dlm_an_guangbi" horizontalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+		</e:Skin>
+	</e:ToggleButton>
+		<e:ToggleButton id="musicSwitch" label="" scaleX="1" scaleY="1" top="242" horizontalCenter="100.5">
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,downAndSelected">
+			<e:Image width="100%" height="100%" includeIn="upAndSelected,downAndSelected" source="dlm_an_qiehuanzhkaiqi"/>
+			<e:Image width="100%" height="100%" includeIn="up,down" source="dlm_an_guangbi"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:ToggleButton>
+		<e:Image source="dlm_g_xx_xian" horizontalCenter="0" width="657" y="211"/>
+		<e:Image source="dlm_g_xx_xian" width="657" horizontalCenter="0" y="316"/>
+		<e:Image top="309" horizontalCenter="-245" source="dlm_g_beijin" visible="false"/>
+		<e:Image top="355" horizontalCenter="-245" source="dlm_g_paise"/>
+
+	<e:Group id="cardGroup" bottom="127" anchorOffsetX="0" horizontalCenter="191.5" height="86" width="505">
+		<e:RadioButton id="card1" label="" x="220.04" y="2" scaleX="1" scaleY="1" groupName="cardzu" width="120" height="84">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dlm_an_bp" source.down="dlm_an_bp_dk"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:RadioButton>
+
+		<e:RadioButton id="card2" label="" x="372.8" y="2" scaleX="1" scaleY="1" groupName="cardzu" width="120" height="84">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dlm_an_rp" source.down="dlm_an_rp_dk"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:RadioButton>
+
+
+		<e:layout>
+			<e:HorizontalLayout gap="83"/>
+		</e:layout>
+
+
+
+	</e:Group>
+
+		<e:Button id="_backBtn" label="" y="430" horizontalCenter="-162.5" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dlm_an_jies_dk" source.down="dlm_an_jies"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+
+		</e:Button>
+		<e:Button id="refrenshButton" label="" y="430" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dlm_an_shuax_dk" source.down="dlm_an_shuax"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+	</e:Group>
+</e:Skin>

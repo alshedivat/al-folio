@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GiftItem_2d5_new_skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="115" width="107">
+	<e:Image id="iconImage" source="gift_2d5_1" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

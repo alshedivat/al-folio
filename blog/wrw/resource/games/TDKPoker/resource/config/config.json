@@ -1,0 +1,9 @@
+{
+    "LoginUrl": "http://114.119.4.183:7000/httplogin",
+    "GameID": 5050,
+    "ZoneID": 301,
+    "testUserId": 10,
+    "debug": 1,
+    "cdnPath": "",
+    "gameVersion": "1.0"
+}

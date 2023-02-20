@@ -1,0 +1,13 @@
+{"file":"tabPointFont.png","frames":{
+"4":{"x":95,"y":33,"w":25,"h":30,"offX":0,"offY":3,"sourceW":25,"sourceH":35},
+"5":{"x":0,"y":75,"w":23,"h":28,"offX":1,"offY":4,"sourceW":25,"sourceH":35},
+"6":{"x":123,"y":64,"w":23,"h":30,"offX":1,"offY":3,"sourceW":25,"sourceH":35},
+"7":{"x":123,"y":33,"w":25,"h":28,"offX":0,"offY":4,"sourceW":25,"sourceH":35},
+"8":{"x":95,"y":0,"w":26,"h":30,"offX":0,"offY":3,"sourceW":26,"sourceH":35},
+"9":{"x":95,"y":65,"w":23,"h":30,"offX":1,"offY":3,"sourceW":25,"sourceH":35},
+"底":{"x":0,"y":38,"w":66,"h":35,"offX":0,"offY":0,"sourceW":66,"sourceH":35},
+"锅":{"x":0,"y":0,"w":92,"h":35,"offX":0,"offY":0,"sourceW":93,"sourceH":35},
+"0":{"x":69,"y":70,"w":23,"h":30,"offX":1,"offY":3,"sourceW":25,"sourceH":35},
+"1":{"x":27,"y":75,"w":15,"h":30,"offX":3,"offY":3,"sourceW":20,"sourceH":35},
+"2":{"x":69,"y":38,"w":23,"h":30,"offX":1,"offY":3,"sourceW":25,"sourceH":35},
+"3":{"x":124,"y":0,"w":26,"h":30,"offX":0,"offY":3,"sourceW":26,"sourceH":35}}}

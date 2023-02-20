@@ -1,0 +1,95 @@
+{
+  "file": "game_chat.png",
+  "frames": {
+    "chat_normal": {
+      "x": 0,
+      "y": 294,
+      "w": 225,
+      "h": 53,
+      "offX": 5,
+      "offY": 3,
+      "sourceW": 232,
+      "sourceH": 72
+    },
+    "chat_select": {
+      "x": 0,
+      "y": 148,
+      "w": 232,
+      "h": 72,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 232,
+      "sourceH": 72
+    },
+    "chatFrame": {
+      "x": 0,
+      "y": 348,
+      "w": 83,
+      "h": 84,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 83,
+      "sourceH": 84
+    },
+    "chatinput": {
+      "x": 0,
+      "y": 0,
+      "w": 682,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 682,
+      "sourceH": 68
+    },
+    "chatItemPoint": {
+      "x": 233,
+      "y": 164,
+      "w": 14,
+      "h": 14,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 14,
+      "sourceH": 14
+    },
+    "chatRecord_normal": {
+      "x": 228,
+      "y": 69,
+      "w": 225,
+      "h": 53,
+      "offX": 3,
+      "offY": 3,
+      "sourceW": 232,
+      "sourceH": 72
+    },
+    "chatRecord_select": {
+      "x": 0,
+      "y": 221,
+      "w": 232,
+      "h": 72,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 232,
+      "sourceH": 72
+    },
+    "chatTitle": {
+      "x": 233,
+      "y": 123,
+      "w": 166,
+      "h": 40,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 166,
+      "sourceH": 40
+    },
+    "sendChat": {
+      "x": 0,
+      "y": 69,
+      "w": 227,
+      "h": 78,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 227,
+      "sourceH": 78
+    }
+  }
+}

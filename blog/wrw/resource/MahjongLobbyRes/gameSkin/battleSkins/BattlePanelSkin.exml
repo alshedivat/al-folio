@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattlePanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="0" bottom="0" source="mjl_event_bg_png"/>
+	<e:Group height="95" top="0" left="25" right="24">
+		<e:Image scaleX="1" scaleY="1" horizontalCenter="0" top="0" source="lobby_logo_main_png"/>
+		<e:Button id="closeButton" x="14" top="5" skinName="MJ_CloseButton2Skin"/>
+		<e:Group width="200" height="50" anchorOffsetX="0" anchorOffsetY="0" right="50" verticalCenter="0">
+			<e:Image left="0" right="0" top="0" bottom="0" source="lobby_headFram" scale9Grid="16,11,21,12"/>
+			<e:Image verticalCenter="0" left="0" source="lobby_coin_icon"/>
+			<e:Button id="buyCoinButton" label="" verticalCenter="1" right="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="48" height="48">
+					<e:Image  source="lobby_add" height="48" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="coinLabel" text="200" verticalCenter="0" horizontalCenter="0" textColor="0xffae77" size="22" fontFamily="黑体"/>
+		</e:Group>
+		<e:Button label="" x="896" y="15">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="65" height="66">
+				<e:Image source="coin_match_tips" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group width="1220" height="560" anchorOffsetX="0" anchorOffsetY="0" top="115" horizontalCenter="0">
+		<e:Image scale9Grid="12,12,76,76" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="-44" source="mjl_common_bj_7" alpha= "0.7" visible="false"/>
+		<e:Group width="1132" height="530" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="20">
+			<e:Image scale9Grid="12,12,76,76" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="40" source="mjl_common_bj_7" visible="false"/>
+		<e:Scroller skinName="" left="0" right="0" top="5" bottom="45" anchorOffsetY="0">
+			<e:List id="eventList" width="1017" anchorOffsetX="0" anchorOffsetY="0" height="516" itemRendererSkinName="BattleItemSkin">
+				<e:layout>
+					<e:TileLayout horizontalAlign="left" verticalAlign="top" orientation="rows" requestedRowCount="2" requestedColumnCount="2" horizontalGap="50" verticalGap="50" rowAlign="justifyUsingHeight" columnAlign="justifyUsingWidth"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		</e:Group>
+	</e:Group>
+</e:Skin>

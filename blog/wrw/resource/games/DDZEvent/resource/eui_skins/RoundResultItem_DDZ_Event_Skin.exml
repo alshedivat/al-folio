@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoundResultItem_DDZ_Event_Skin" width="690" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" source="public_DDZ2_1" width="690" height="70" verticalCenter="0" scale9Grid="15,7,324,42" alpha="0.9"/>
+	<e:Image id="_player_icon" width="95" height="95" scaleX="0.7" scaleY="0.7" source="" verticalCenter="0" left="0"/>
+	<e:Image id="_player_icon_frame" anchorOffsetX="0" anchorOffsetY="0" source="Room_HeadFrame2" width="95" height="95" scaleX="0.7" scaleY="0.7" verticalCenter="0" left="1"/>
+	<e:Label id="_player_name" text="阿斯顿发撒" x="85" size="24" fontFamily="Microsoft YaHei" maxChars="5" y="28" anchorOffsetX="0" width="147" verticalAlign="middle" textAlign="center" height="26" textColor="0xffffff"/>
+	<e:Label id="endPoints" text="0" x="293" size="30" fontFamily="Microsoft YaHei" maxChars="5" y="25" anchorOffsetX="0" width="80" verticalAlign="middle" textAlign="center" height="30" textColor="0xffffff"/>
+	<e:Label id="timesLabel" text="0" x="401" size="30" fontFamily="Microsoft YaHei" maxChars="5" y="25" anchorOffsetX="0" width="80" verticalAlign="middle" textAlign="center" height="30" textColor="0xffffff"/>
+	<e:Label id="_changed_score" text="+10" textColor="0x210303" size="26" fontFamily="Microsoft YaHei" textAlign="center" maxChars="5" y="27" right="45" visible="false"/>
+	<e:Image id="_is_keng" x="0" y="-2" source="lord_icon"/>
+	<e:BitmapLabel id="scoreLabel" text="+10" scaleX="0.4" scaleY="0.4" letterSpacing="-18" anchorOffsetY="0" anchorOffsetX="0" font="glodBrightFont_fnt" verticalCenter="0.5" width="483" x="461" textAlign="center"/>
+</e:Skin>

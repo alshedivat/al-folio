@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchYelloItemSkin" width="915" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:MJLobby="MJLobby.*">
+
+	<e:Label id="nameLabel1" text="姓名" verticalCenter="0" textAlign="center" anchorOffsetX="0" width="173" height="30" x="0" textColor="0x53c2e3" visible="false"/>
+	<MJLobby:TextImage id="nameLabelText" width="150" height="30" verticalCenter="0" left="20"/>
+	<e:Label id="playerID" text="ID" x="150" verticalCenter="0" textAlign="center" anchorOffsetX="0" width="173" height="30" textColor="0x53c2e3"/>
+	<e:Label id="nameLabel_11" text="姓名" verticalCenter="0" textAlign="center" anchorOffsetX="0" width="173" height="30" textColor="0x53c2e3" x="340" visible="false"/>
+	<MJLobby:TextImage id="nameLabelText_1" width="150" height="30" verticalCenter="0" left="360"/>
+	<e:Label id="playerID_1" text="ID" x="550" verticalCenter="0" textAlign="center" anchorOffsetX="0" width="166" height="30" textColor="0x53c2e3"/>
+
+	<e:Image source="matchMemberLine" bottom="0" horizontalCenter="0"/>
+	<e:Button id="removeButton" label="" x="753" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.9" scaleY="0.9" y="9">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="removeListBtn1" source.down="removeListBtn2"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+
+</e:Skin>

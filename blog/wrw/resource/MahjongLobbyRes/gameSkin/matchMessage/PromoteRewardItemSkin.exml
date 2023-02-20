@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PromoteRewardItemSkin" width="1082" height="72" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="-10" bottom="-10" source="mjl_common_bj_6" scale9Grid="13,15,132,102"/>
+	<e:Label id="uid" text="123456789" size="28" fontFamily="SimHei" verticalCenter="0" width="150" left="35" textAlign="left" verticalAlign="middle" textColor="0x0271e3"/>
+	<e:Label id="nickName" text="一二三四五" size="28" fontFamily="SimHei" verticalCenter="0" width="180" textAlign="center" verticalAlign="middle" textColor="0x0271e3" left="200"/>
+	<e:Label id="rewardYst" text="1" size="28" fontFamily="SimHei" verticalCenter="0" width="200" textAlign="center" verticalAlign="middle" textColor="0x0271e3" left="450" anchorOffsetX="0"/>
+	<e:Label id="rewardTdy" text="1" size="28" fontFamily="SimHei" verticalCenter="0" left="650" width="200" textAlign="center" verticalAlign="middle" textColor="0x0271e3"/>
+	<e:Label id="rewardMou" text="1" size="28" fontFamily="SimHei" verticalCenter="0" left="850" width="200" textAlign="center" verticalAlign="middle" textColor="0x0271e3"/>
+
+</e:Skin>

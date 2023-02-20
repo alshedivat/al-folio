@@ -1,0 +1,105 @@
+{
+  "file": "mjl_teahouse.png",
+  "frames": {
+    "teahouse_arrow_icon": {
+      "x": 106,
+      "y": 227,
+      "w": 29,
+      "h": 18,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 29,
+      "sourceH": 18
+    },
+    "teahouse_btn_bg": {
+      "x": 77,
+      "y": 177,
+      "w": 102,
+      "h": 49,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 102,
+      "sourceH": 49
+    },
+    "teahouse_btn_normal": {
+      "x": 77,
+      "y": 227,
+      "w": 28,
+      "h": 24,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 28,
+      "sourceH": 24
+    },
+    "teahouse_btn_selected": {
+      "x": 77,
+      "y": 227,
+      "w": 28,
+      "h": 24,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 28,
+      "sourceH": 24
+    },
+    "teahouse_chanege_text": {
+      "x": 180,
+      "y": 177,
+      "w": 102,
+      "h": 37,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 102,
+      "sourceH": 37
+    },
+    "teahouse_id_text": {
+      "x": 243,
+      "y": 129,
+      "w": 96,
+      "h": 37,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 96,
+      "sourceH": 37
+    },
+    "teahouse_iden_icon": {
+      "x": 361,
+      "y": 0,
+      "w": 88,
+      "h": 83,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 88,
+      "sourceH": 83
+    },
+    "teahouse_list_bg": {
+      "x": 0,
+      "y": 129,
+      "w": 76,
+      "h": 122,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 76,
+      "sourceH": 122
+    },
+    "teahouse_texttitle": {
+      "x": 77,
+      "y": 129,
+      "w": 165,
+      "h": 47,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 165,
+      "sourceH": 47
+    },
+    "teahouse_title_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 360,
+      "h": 128,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 360,
+      "sourceH": 128
+    }
+  }
+}

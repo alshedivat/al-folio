@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GpsPanel_BSDDZ_Skin" width="720" height="420" xmlns:e="http://ns.egret.com/eui" xmlns:game="game.*" xmlns:uniLib="uniLib.*" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image fillMode="scale" scale9Grid="71,30,431,139" left="0" right="0" top="0" bottom="0" width="700" height="400" source="public_DDZ_json.public_DDZ3"/>
+	<e:Button id="_backBtn" label="" scaleX="1" scaleY="1" enabled="true" x="657" y="-21">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="public_DDZ5" scaleX.down="0.9" scaleY.down="0.9" verticalCenter="0" horizontalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="防作弊" bold="true" size="36" horizontalCenter="0.5" top="16" fontFamily="Microsoft YaHei" textColor="0xf92a2a"/>
+	<e:Group width="660" height="240" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" y="110">
+		<e:Image width="660" height="1" y="0" source="userInfo_json.userInfo_line" horizontalCenter="0" x="0" scaleX="1" scaleY="1"/>
+		<e:Image width="660" height="1" y="60" source="userInfo_json.userInfo_line" horizontalCenter="0" x="0" scaleX="1" scaleY="1"/>
+		<e:Image width="660" height="1" y="120" source="userInfo_json.userInfo_line" horizontalCenter="0" x="0" scaleX="1" scaleY="1"/>
+		<e:Image width="660" height="1" y="180" source="userInfo_json.userInfo_line" horizontalCenter="0" x="0" scaleX="1" scaleY="1"/>
+		<e:Image source="other_json.help_line" x="120" y="0" height="240"/>
+		<e:Image source="other_json.help_line" x="320" y="0" height="240"/>
+		<e:Image source="other_json.help_line" x="480" y="0" height="240"/>
+		<e:Label text="昵称" x="0" y="14" textColor="0x000000" bold="true" size="26" anchorOffsetX="0" width="120" textAlign="center"/>
+		<e:Label text="ip" x="121" y="14" textColor="0x000000" bold="true" size="26" anchorOffsetX="0" width="197" textAlign="center"/>
+		<e:Label text="最近玩家" x="320" y="14" textColor="0x000000" bold="true" size="26" anchorOffsetX="0" width="160" textAlign="center"/>
+		<e:Label text="最近玩家距离" x="480" y="14" textColor="0x000000" bold="true" size="26" anchorOffsetX="0" width="180" textAlign="center"/>
+		<e:Scroller width="662" height="180" x="0" y="60" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="_itemList" x="-111" y="40" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="659">
+			
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

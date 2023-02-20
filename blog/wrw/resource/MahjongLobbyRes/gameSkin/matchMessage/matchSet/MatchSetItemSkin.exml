@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchSetItemSkin" width="1000" height="132" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mjl_common_json.mjl_common_bj_6" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" scale9Grid="20,16,122,101"/>
+	<e:Label id="title" text="设置" top="30" left="30" textColor="0x2d5f82" fontFamily="Microsoft YaHei" bold="true" size="26"/>
+	<e:Group id="group1" height="40" bottom="15" left="29" right="10">
+		<e:Label id="info" text="设置描述" fontFamily="Microsoft YaHei" height="30" size="21" scaleX="1" scaleY="1" left="0" bottom="0" textColor="0x6693bd" bold="true" verticalAlign="bottom"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="bottom" gap="15"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="group2" height="40" anchorOffsetX="0" anchorOffsetY="0" top="20" left="240" right="10">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="bottom" gap="15"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="setBtn" label="" verticalCenter="0" right="30" width="169" height="53">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image id="icon" source="mjl_matchSet_sure" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

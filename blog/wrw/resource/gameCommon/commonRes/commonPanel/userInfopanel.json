@@ -1,0 +1,185 @@
+{
+  "file": "userInfopanel.png",
+  "frames": {
+    "gift_1": {
+      "x": 0,
+      "y": 718,
+      "w": 114,
+      "h": 117,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 114,
+      "sourceH": 117
+    },
+    "gift_2": {
+      "x": 793,
+      "y": 0,
+      "w": 114,
+      "h": 117,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 114,
+      "sourceH": 117
+    },
+    "gift_3": {
+      "x": 115,
+      "y": 718,
+      "w": 114,
+      "h": 117,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 114,
+      "sourceH": 117
+    },
+    "gift_4": {
+      "x": 0,
+      "y": 836,
+      "w": 114,
+      "h": 117,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 114,
+      "sourceH": 117
+    },
+    "gift_5": {
+      "x": 908,
+      "y": 0,
+      "w": 114,
+      "h": 117,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 114,
+      "sourceH": 117
+    },
+    "gift_6": {
+      "x": 793,
+      "y": 118,
+      "w": 114,
+      "h": 117,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 114,
+      "sourceH": 117
+    },
+    "user_coin_icon": {
+      "x": 325,
+      "y": 599,
+      "w": 62,
+      "h": 28,
+      "offX": 2,
+      "offY": 0,
+      "sourceW": 65,
+      "sourceH": 28
+    },
+    "user_diamond_icon": {
+      "x": 205,
+      "y": 629,
+      "w": 65,
+      "h": 28,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 65,
+      "sourceH": 28
+    },
+    "user_gift": {
+      "x": 230,
+      "y": 718,
+      "w": 114,
+      "h": 117,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 114,
+      "sourceH": 117
+    },
+    "user_giftBg": {
+      "x": 161,
+      "y": 599,
+      "w": 97,
+      "h": 29,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 97,
+      "sourceH": 29
+    },
+    "user_headbg": {
+      "x": 0,
+      "y": 515,
+      "w": 160,
+      "h": 160,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 160,
+      "sourceH": 160
+    },
+    "user_point_icon": {
+      "x": 259,
+      "y": 599,
+      "w": 65,
+      "h": 28,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 65,
+      "sourceH": 28
+    },
+    "userInfo_id": {
+      "x": 0,
+      "y": 676,
+      "w": 420,
+      "h": 41,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 420,
+      "sourceH": 41
+    },
+    "userInfo_ip": {
+      "x": 161,
+      "y": 515,
+      "w": 420,
+      "h": 41,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 420,
+      "sourceH": 41
+    },
+    "userInfo_name": {
+      "x": 161,
+      "y": 557,
+      "w": 420,
+      "h": 41,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 420,
+      "sourceH": 41
+    },
+    "userinfo_sex0": {
+      "x": 161,
+      "y": 629,
+      "w": 43,
+      "h": 43,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 44,
+      "sourceH": 44
+    },
+    "userinfo_sex1": {
+      "x": 271,
+      "y": 628,
+      "w": 41,
+      "h": 44,
+      "offX": 3,
+      "offY": 0,
+      "sourceW": 44,
+      "sourceH": 44
+    },
+    "userInfoBg": {
+      "x": 0,
+      "y": 0,
+      "w": 792,
+      "h": 514,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 792,
+      "sourceH": 514
+    }
+  }
+}

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActiveRoomListSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image anchorOffsetX="0" scale9Grid="57,48,177,488" left="0" right="0" top="0" bottom="0" source="mjl_common_bj_1"/>
+
+	<e:Image id="background" x="15" y="10" anchorOffsetX="0" width="1250" height="700" scale9Grid="57,48,177,488" source="mjl_common_bj_2"/>
+	<e:Group id="right" width="940" height="667" anchorOffsetX="0" anchorOffsetY="0" left="310" top="30">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+		<e:Image id="describe" anchorOffsetX="0" anchorOffsetY="0" source="mjl_common_bj_6" scale9Grid="24,22,120,97" left="0" right="0" top="0" bottom="0"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" height="45.33" source="mjl_common_bj_4" scaleY="-1" scale9Grid="15,12,74,63" bottom="0" left="0" right="0"/>
+
+		<e:Label text="房间管理" anchorOffsetX="0" width="752.67" size="36" fontFamily="SimHei" textAlign="center" top="30" verticalAlign="middle" textColor="0x1267b7" horizontalCenter="0"/>
+
+		<e:Group id="setGroup" height="530" y="89.67" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="left" verticalAlign="top"/>
+			</e:layout>
+			<e:Scroller width="915" height="527.12" x="0.34" y="70" anchorOffsetX="0" bounces="false" horizontalScrollBar="off" anchorOffsetY="0">
+				<e:List id="roomList" width="910" height="525.61" anchorOffsetY="0" x="0" y="74.67" itemRendererSkinName="Mj_ActiveRoomSkin">
+					<e:layout>
+            			<e:TileLayout horizontalAlign="left" verticalAlign="top" orientation="rows" requestedColumnCount="3" />
+        			</e:layout>
+				</e:List>
+			</e:Scroller>
+
+		</e:Group>
+
+	</e:Group>
+	<e:Group id="GameList" width="270" height="667" anchorOffsetX="0" anchorOffsetY="0" top="30" left="30">
+		<e:Image id="listBg" anchorOffsetY="0" scale9Grid="21,24,69,69" anchorOffsetX="0" source="mjl_common_bj_7" left="0" right="0" top="0" bottom="0"/>
+
+		<e:Scroller scrollPolicyV="auto" scrollPolicyH="off"  touchEnabled="true"  left="8" width="280" height="657.91" top="5" anchorOffsetY="0">
+			<e:List id="gameList" x="-6" y="4" anchorOffsetY="0" anchorOffsetX="0" height="623" width="232" itemRendererSkinName="MJ_RadioButton1Skin">
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="left" verticalAlign="middle" paddingTop="10" paddingLeft="8" gap="0"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Button id="closeButton" top="0" right="0">
+		<e:Skin states="up,down,disabled">
+		<e:Image source="close" scaleX.down="0.95" scaleY.down="0.95" anchorOffsetX="50" anchorOffsetY="50" x="50" y="50"/>
+		</e:Skin>
+	</e:Button>
+
+
+</e:Skin>

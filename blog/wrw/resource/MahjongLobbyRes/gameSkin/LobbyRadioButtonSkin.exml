@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LobbyRadioButtonSkin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" xmlns:e="http://ns.egret.com/eui" >
+    <e:Image  source="lobby_setting_checkbg" horizontalCenter="0" verticalCenter="0"/>
+    <e:Image  includeIn="upAndSelected,downAndSelected,disabledAndSelected" source="lobby_setting_check" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="labelDisplay" text="" verticalCenter="0" horizontalCenter="0" textAlign="center" textColor="0xefda40"/>
+</e:Skin>

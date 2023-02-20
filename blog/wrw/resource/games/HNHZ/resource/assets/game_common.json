@@ -1,0 +1,105 @@
+{
+  "file": "game_common.png",
+  "frames": {
+    "game_common1": {
+      "x": 0,
+      "y": 0,
+      "w": 1004,
+      "h": 592,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 1004,
+      "sourceH": 592
+    },
+    "game_common2": {
+      "x": 1005,
+      "y": 0,
+      "w": 829,
+      "h": 526,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 829,
+      "sourceH": 526
+    },
+    "game_common4": {
+      "x": 0,
+      "y": 926,
+      "w": 231,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 231,
+      "sourceH": 79
+    },
+    "game_common5": {
+      "x": 245,
+      "y": 760,
+      "w": 231,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 231,
+      "sourceH": 79
+    },
+    "game_common_cancel": {
+      "x": 0,
+      "y": 760,
+      "w": 244,
+      "h": 83,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 244,
+      "sourceH": 83
+    },
+    "game_common_sure": {
+      "x": 0,
+      "y": 844,
+      "w": 237,
+      "h": 81,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 237,
+      "sourceH": 81
+    },
+    "game_host_mask": {
+      "x": 238,
+      "y": 844,
+      "w": 205,
+      "h": 33,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 205,
+      "sourceH": 33
+    },
+    "game_host_maskBg": {
+      "x": 0,
+      "y": 593,
+      "w": 1280,
+      "h": 166,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 1280,
+      "sourceH": 166
+    },
+    "game_userInfo_close1": {
+      "x": 238,
+      "y": 878,
+      "w": 50,
+      "h": 49,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 50,
+      "sourceH": 49
+    },
+    "game_userInfo_close2": {
+      "x": 238,
+      "y": 878,
+      "w": 50,
+      "h": 49,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 50,
+      "sourceH": 49
+    }
+  }
+}

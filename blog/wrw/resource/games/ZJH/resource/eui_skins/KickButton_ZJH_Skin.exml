@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KickButton_ZJH_Skin" xmlns:e="http://ns.egret.com/eui" states="up,down,disabled">
+    <e:Image scaleX.down="0.9" scaleY.down="0.9"  horizontalCenter="1" verticalCenter="0" source="bt_orange_bg"/>
+    <e:Label id="labelDisplay" horizontalCenter="0" text="踢出" fontFamily="SimHei"
+              verticalCenter="-5.5" textColor="0x000000"/>
+</e:Skin>

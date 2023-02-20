@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchTaxSetSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:MJLobby="MJLobby.*">
+	<e:Group height="620" width="916" y="0" horizontalCenter="0">
+		<e:Image source="mjl_common_json.common_title_bg" scaleX="1" scaleY="1" horizontalCenter="0" top="41" scale9Grid="103,11,295,79"/>
+		<e:Image source="mjl_common_bj_3" scale9Grid="54,56,173,469" top="128" horizontalCenter="0" scaleX="1" scaleY="1" left="0" right="0" bottom="0"/>
+		<e:Image horizontalCenter="0" top="65" scaleX="1" scaleY="1" source="match_taxSet_title"/>
+		<e:Button id="saveBtn" label="" horizontalCenter="0" bottom="50">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_commonBtn_save_1" source.down="mjl_commonBtn_save_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="contentGroup" anchorOffsetX="0" anchorOffsetY="0" top="170" bottom="178" horizontalCenter="0" left="50" right="50">
+			<e:Group x="387" y="-147" scaleX="1" scaleY="1">
+				<e:TextInput id="minEnterTax" scaleX="1" scaleY="1" skinName="MJL_Input1Skin" left="0" bottom="0"/>
+				<e:TextInput id="minRobTax" scaleX="1" scaleY="1" skinName="MJL_Input1Skin" right="0" top="0"/>
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="30"/>
+				</e:layout>
+			</e:Group>
+			<e:Group x="397" y="-137" scaleX="1" scaleY="1">
+				<e:TextInput id="rebate1" scaleX="1" scaleY="1" skinName="MJL_Input1Skin" left="0" bottom="0"/>
+				<e:TextInput id="rebate2" scaleX="1" scaleY="1" skinName="MJL_Input1Skin" right="0" top="0"/>
+				<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="30"/>
+				</e:layout>
+			</e:Group>
+            <e:Group width="740" height="64.67" y="259.28" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" gap="60"/>
+		</e:layout>
+							<e:Label text="规则选项" x="115" y="25" fontFamily="Microsoft YaHei"/>
+		<e:RadioButton id="radioBox0" label="不可负基金" x="109" y="33" enabled="true" scaleX="1" scaleY="1" height="45" value="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="35" height="35" left.down="0" verticalCenter.down="0" source="mjl_create_checkbg" verticalCenter="0"/>
+				<e:Image source="mjl_createPanel_json.mjl_check_small" verticalCenter.disabled="1.5" verticalCenter.up="1.5" visible.up="false" left="4" left.down="2" source.down="mjl_create_check" verticalCenter.down="-2"/>
+				<e:Label id="labelDisplay" text="" textColor="0xf7fbff" fontFamily="Microsoft YaHei" verticalCenter="0" left="50"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="radioBox1" label="可负基金" x="109" y="33" enabled="true" scaleX="1" scaleY="1" height="45" value="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="35" height="35" left.down="0" verticalCenter.down="0" source="mjl_create_checkbg" verticalCenter="0"/>
+				<e:Image source="mjl_createPanel_json.mjl_check_small" verticalCenter.disabled="1.5" verticalCenter.up="1.5" visible.up="false" left="4" left.down="2" source.down="mjl_create_check" verticalCenter.down="-2"/>
+				<e:Label id="labelDisplay" text="" textColor="0xf7fbff" fontFamily="Microsoft YaHei" verticalCenter="0" left="50"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+	</e:Group>
+			<e:Group width="816" x="185" y="242">
+				<MJLobby:DropDown id="taxUserNumDrop" scaleX="1" scaleY="1" anchorOffsetX="0" skinName="MatchDropSkin" width="320" x="0"/>
+				<MJLobby:DropDown id="taxPerDrop" scaleX="1" scaleY="1" anchorOffsetX="0" skinName="MatchDropSkin" width="220" x="10" y="10"/>
+				<MJLobby:DropDown id="taxMinDrop" scaleX="1" scaleY="1" anchorOffsetX="0" skinName="MatchDropSkin" width="220" x="20" y="20"/>
+				<e:layout>
+					<e:HorizontalLayout gap="20" horizontalAlign="left" verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="left" verticalAlign="top" paddingLeft="0" paddingTop="20" gap="20"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="closeButton" label="Button" skinName="MJ_CloseButton1Skin" top="100" right="-14"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,105 @@
+{
+  "file": "game_roundResult.png",
+  "frames": {
+    "game_result_headBg": {
+      "x": 1281,
+      "y": 179,
+      "w": 105,
+      "h": 105,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 105,
+      "sourceH": 105
+    },
+    "game_result_loseBg": {
+      "x": 0,
+      "y": 850,
+      "w": 1110,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 1110,
+      "sourceH": 126
+    },
+    "game_result_winBg": {
+      "x": 0,
+      "y": 721,
+      "w": 1112,
+      "h": 128,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 1112,
+      "sourceH": 128
+    },
+    "game_resultBack": {
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 720,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 1280,
+      "sourceH": 720
+    },
+    "game_roundResilt_title": {
+      "x": 0,
+      "y": 977,
+      "w": 164,
+      "h": 42,
+      "offX": 29,
+      "offY": 26,
+      "sourceW": 219,
+      "sourceH": 95
+    },
+    "game_startBtn1": {
+      "x": 1281,
+      "y": 0,
+      "w": 298,
+      "h": 89,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 298,
+      "sourceH": 89
+    },
+    "game_startBtn2": {
+      "x": 1281,
+      "y": 90,
+      "w": 295,
+      "h": 88,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 295,
+      "sourceH": 88
+    },
+    "roundResult_shootIcon": {
+      "x": 165,
+      "y": 977,
+      "w": 77,
+      "h": 38,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 77,
+      "sourceH": 38
+    },
+    "roundResult_winIcon": {
+      "x": 315,
+      "y": 977,
+      "w": 36,
+      "h": 38,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 36,
+      "sourceH": 38
+    },
+    "roundResult_zimoIcon": {
+      "x": 243,
+      "y": 977,
+      "w": 71,
+      "h": 38,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 71,
+      "sourceH": 38
+    }
+  }
+}

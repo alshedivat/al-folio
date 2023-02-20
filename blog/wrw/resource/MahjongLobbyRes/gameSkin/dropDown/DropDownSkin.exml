@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DropDownSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down"  width.up="340" width.down="340" width="340">
+	<e:Group height="60" top="0" left="0" right="20">
+		<e:Image source="match_history_search_inputBg" left="0" right="0" top="2" bottom="2" scale9Grid="10,10,40,32"/>
+		<e:Button id="downBtn" label="" verticalCenter="0" right="-10">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="match_history_down_btn_1" source.down="match_history_down_btn_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="label" text="" horizontalCenter="-20" verticalCenter="3" fontFamily="Microsoft YaHei" textColor="0x844118" size="28" />
+		<e:Group id="dropDownGroup" height="300" left="5" top="55" visible.down="true" visible.up="false" right="40" touchEnabled="true" touchChildren="true">
+			<e:Image source="match_history_searchDown_bg" left="0" right="0" top="0" bottom="0" scale9Grid="6,5,39,32"/>
+			<e:Scroller id="dropSc" anchorOffsetX="0" left="0" height="300" scaleX="1" scaleY="1" top="0" touchEnabled="true" touchChildren="true" throwSpeed="0.2" right="0">
+				<e:List id="dropList" itemRendererSkinName="DropDownItemSkin" touchEnabled="true" touchChildren="true" useVirtualLayout="true">
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+</e:Skin>

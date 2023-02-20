@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SettingPanel_new_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image horizontalCenter="0" verticalCenter="0" source="set_bg" />
+    <e:Image verticalCenter="-120.5" left="330" source="set_sound_icon" />
+    <e:Image left="330" verticalCenter="80" source="set_bg_icon" />
+    <e:Image y="224" source="set_music_icon"  left="700"/>
+    <e:Image left="330" source="set_language_icon"  verticalCenter="-5"/>
+    <e:Button id="closeButton" label="" x="970.8" y="87.8">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="common_close1" source.down="common_close2" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="replaceButton" label="" right="402" bottom="140">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="set_refresh1" source.down="set_refresh2" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="dismissButton" label="" left="402" bottom="140">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="set_dissmiss1" source.down="set_dissmiss2" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:RadioButton id="bg_2" label="" verticalCenter="80" groupName="bg" right="380">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="set_radioBtn1" source.down="set_radioBtn2" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:RadioButton>
+    <e:RadioButton id="bg_1" label="" verticalCenter="80" groupName="bg" right="630">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="set_radioBtn1" source.down="set_radioBtn2" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:RadioButton>
+    <e:RadioButton id="dialect2RadioButton" label="" groupName="language" verticalCenter="0" right="380">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="set_radioBtn1" source.down="set_radioBtn2" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:RadioButton>
+    <e:RadioButton id="dialect1RadioButton" label="" groupName="language" verticalCenter="0" right="630">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="set_radioBtn1" source.down="set_radioBtn2" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:RadioButton>
+    <e:CheckBox id="soundButton" label="" verticalCenter="-120.5" left="450">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="set_checkBox1" source.down="set_checkBox2" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:CheckBox>
+    <e:CheckBox id="musicButton" label="" verticalCenter="-120.5" left="820">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="set_checkBox1" source.down="set_checkBox2" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:CheckBox>
+    <e:Image verticalCenter="80" right="465" source="set_icon_blue" />
+    <e:Image verticalCenter="80" source="set_icon_green"  right="715"/>
+    <e:Image right="720"  source="set_putong" verticalCenter="-5"/>
+    <e:Image right="470"  source="set_dialect" verticalCenter="-5"/>
+</e:Skin>

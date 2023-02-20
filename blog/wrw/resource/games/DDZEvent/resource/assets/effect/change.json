@@ -1,0 +1,52 @@
+{"mc":{
+	"change":{
+		"frameRate":12,
+		"labels":[
+			{"name":"change","frame":1,"end":6}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"playerComeRes_01_png",
+			"x":28,
+			"y":35
+			},
+			{
+			"res":"playerComeRes_02_png",
+			"x":26,
+			"y":20
+			},
+			{
+			"res":"playerComeRes_03_png",
+			"x":13,
+			"y":24
+			},
+			{
+			"res":"playerComeRes_04_png",
+			"x":2,
+			"y":15
+			},
+			{
+			"res":"playerComeRes_05_png",
+			"x":14,
+			"y":14
+			},
+			{
+			"res":"playerComeRes_06_png",
+			"x":6,
+			"y":14
+			}
+			]
+}},
+	"res":{
+		"playerComeRes_01_png":{"x":62,"y":177,"w":57,"h":46},
+		"playerComeRes_05_png":{"x":110,"y":91,"w":88,"h":84},
+		"playerComeRes_06_png":{"x":0,"y":0,"w":108,"h":90},
+		"playerComeRes_03_png":{"x":0,"y":92,"w":89,"h":70},
+		"playerComeRes_02_png":{"x":0,"y":164,"w":60,"h":66},
+		"playerComeRes_04_png":{"x":110,"y":0,"w":108,"h":89}
+	}}

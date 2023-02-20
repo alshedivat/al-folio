@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChatSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="bgRect" bottom="0" left="0" top="0" right="0" alpha="0.1" fillColor="0x000000"/>
+	<e:Image width="640" height="511" source="public_client2" scale9Grid="29,32,59,107" horizontalCenter="0" y="86"/>
+	<e:RadioButton id="chatRadioButton" y="90" width="310" height="60" label="常用语" groupName="chattype" selected="true" horizontalCenter="-158">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chat_btn_normal" source.down="chat_btn_select"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="faceRadioButton" y="90" width="310" height="60" label="表情" groupName="chattype" horizontalCenter="158">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chat_btn_normal" source.down="chat_btn_select"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:Group id="chatContent" y="153" horizontalCenter="0">
+		<e:Scroller id="chatScroller" width="600" height="349" y="0" x="0" anchorOffsetY="0">
+			<e:Group id="chatGroup">
+
+
+
+			</e:Group>
+		</e:Scroller>
+		<e:Image width="400" height="69" source="chat_input_bg" scale9Grid="55,22,335,34" horizontalCenter="-86" verticalCenter="176" x="14" y="349" scaleX="1" scaleY="1"/>
+		<e:EditableText id="textField" width="369" height="50" text="请输入聊天内容" size="28" textAlign="left" verticalAlign="middle" textColor="0xffffff" horizontalCenter="-86" verticalCenter="177" x="30" y="359" scaleX="1" scaleY="1"/>
+		<e:Button id="sendBtn" x="430.0000000000001" y="347" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="send_btn1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+
+
+
+	<e:Group id="faceContent" y="153" horizontalCenter="0">
+		<e:Scroller id="faceScroller" width="600" y="0" height="416" x="0">
+			<e:Group id="faceGroup">
+				<e:layout>
+					<e:TileLayout horizontalGap="0" verticalGap="0"/>
+				</e:layout>
+				
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

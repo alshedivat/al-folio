@@ -1,0 +1,115 @@
+{
+  "file": "mjl_market.png",
+  "frames": {
+    "mjl_market_backpack_1": {
+      "x": 1281,
+      "y": 0,
+      "w": 121,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 121,
+      "sourceH": 53
+    },
+    "mjl_market_backpack_2": {
+      "x": 590,
+      "y": 721,
+      "w": 121,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 121,
+      "sourceH": 53
+    },
+    "mjl_market_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 720,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 1280,
+      "sourceH": 720
+    },
+    "mjl_market_buy_1": {
+      "x": 276,
+      "y": 835,
+      "w": 253,
+      "h": 54,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 253,
+      "sourceH": 54
+    },
+    "mjl_market_buy_2": {
+      "x": 276,
+      "y": 890,
+      "w": 253,
+      "h": 54,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 253,
+      "sourceH": 54
+    },
+    "mjl_market_help": {
+      "x": 530,
+      "y": 835,
+      "w": 44,
+      "h": 44,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 44,
+      "sourceH": 44
+    },
+    "mjl_market_itemBg": {
+      "x": 0,
+      "y": 721,
+      "w": 275,
+      "h": 301,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 275,
+      "sourceH": 301
+    },
+    "mjl_market_pointBg": {
+      "x": 276,
+      "y": 945,
+      "w": 194,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 194,
+      "sourceH": 55
+    },
+    "mjl_market_recharge_1": {
+      "x": 1281,
+      "y": 54,
+      "w": 121,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 121,
+      "sourceH": 53
+    },
+    "mjl_market_recharge_2": {
+      "x": 590,
+      "y": 775,
+      "w": 121,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 121,
+      "sourceH": 53
+    },
+    "mjl_market_title": {
+      "x": 276,
+      "y": 721,
+      "w": 313,
+      "h": 113,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 313,
+      "sourceH": 113
+    }
+  }
+}

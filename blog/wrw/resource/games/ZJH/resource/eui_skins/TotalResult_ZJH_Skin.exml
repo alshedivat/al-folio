@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TotalResult_ZJH_Skin" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="1280">
+	<e:Rect fillAlpha="0.5"  left="0" right="0" top="0" bottom="0"/>
+	<e:Image horizontalCenter="246" source="zjh_big_1_bg_png" top="66"  anchorOffsetY="0" height="555"/>
+	<e:Image horizontalCenter="-246" source="zjh_big_1_bg_png" scaleX="-1" top="66"  anchorOffsetY="0" height="555"/>
+	<e:Image horizontalCenter="0.5" top="128" scale9Grid="126,114,788,117" source="zjh_result_bg_png" />
+	<e:Image source="zjh_title_bg_png" horizontalCenter="0" top="25" />
+	<e:Image id="_title" source="ZJH_total_title" horizontalCenter="0.5" top="45" />
+	<e:List id="_itemList" y="163.62" width="945" height="390" horizontalCenter="0" itemRendererSkinName="TotalItemSkin_lose_ZJH_Skin">
+		<e:layout>
+			<e:TileLayout/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object qwe="null" />
+				<e:Object qwe="null" />
+				<e:Object qwe="null" />
+				<e:Object qwe="null" />
+				<e:Object qwe="null" />
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	<e:Group y="134.2" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-8.5">
+		<e:Label id="_roomId" text="房间号：123456 " anchorOffsetX="0" width="220" size="26" verticalCenter="-184" left="185"
+		         x="32" y="18" scaleX="1" scaleY="1" />
+		<e:Label id="_gameNum" text="局数：20" anchorOffsetX="0" width="127" size="26" verticalCenter="-184" left="415"
+		         x="262.00000000000006" y="18" scaleX="1" scaleY="1" />
+		<e:Label id="_matchId" text="匹配号：123456 " anchorOffsetX="0" width="221" size="26" verticalCenter="-184" left="549"
+		         x="220.00000000000003" y="0" scaleX="1" scaleY="1" />
+		<e:Label id="_datatime" text="2017.06.27  17:11" anchorOffsetX="0" size="26" verticalCenter="-184" left="804" x="651"
+		         y="18" scaleX="1" scaleY="1" />
+		<e:layout>
+			<e:HorizontalLayout gap="39" />
+		</e:layout>
+	</e:Group>
+	<e:Button id="_shareBtn" label="" horizontalCenter="-258.5" width="227" height="85" bottom="0">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="total_share_btn" scaleX.down="0.9" scaleY.down="0.9" source.down="total_share_btn"
+			         horizontalCenter="0" verticalCenter="0" />
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+		</e:Skin>
+	</e:Button>
+	<e:Button id="exitBtn" horizontalCenter="258.5" width="227" height="85" bottom="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image scaleX.down="0.9" scaleY.down="0.9" source="wrnn_jiesuan_btn_leave" horizontalCenter="0" verticalCenter="0" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="oneMoreBtn" label="" horizontalCenter="0" verticalCenter="317.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="wrnn_oneMore_btn_up" source.down="wrnn_oneMore_btn_down" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="happyPoint" text="" textColor="0xffda46" fontFamily="SimHei" verticalCenter="233" horizontalCenter="337.5"/>
+</e:Skin>

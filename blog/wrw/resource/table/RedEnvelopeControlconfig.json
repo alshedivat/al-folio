@@ -1,0 +1,12 @@
+[
+{"id":5,"gameId":5006,"lobbyId":1003,"isOpen":1,"times":10.0,"openLimit":5.0},
+{"id":4,"gameId":5022,"lobbyId":1009,"isOpen":1,"times":4.0,"openLimit":0.0},
+{"id":1,"gameId":5028,"lobbyId":1014,"isOpen":1,"times":8.0,"openLimit":0.1},
+{"id":9,"gameId":5029,"lobbyId":1003,"isOpen":1,"times":10.0,"openLimit":5.0},
+{"id":10,"gameId":5030,"lobbyId":1015,"isOpen":1,"times":3.0,"openLimit":0.1},
+{"id":3,"gameId":5037,"lobbyId":1014,"isOpen":1,"times":3.0,"openLimit":0.1},
+{"id":6,"gameId":5049,"lobbyId":1003,"isOpen":1,"times":10.0,"openLimit":5.0},
+{"id":7,"gameId":5070,"lobbyId":1003,"isOpen":1,"times":10.0,"openLimit":5.0},
+{"id":8,"gameId":5071,"lobbyId":1003,"isOpen":1,"times":10.0,"openLimit":5.0},
+{"id":2,"gameId":5093,"lobbyId":1014,"isOpen":1,"times":5.1,"openLimit":0.1}
+]

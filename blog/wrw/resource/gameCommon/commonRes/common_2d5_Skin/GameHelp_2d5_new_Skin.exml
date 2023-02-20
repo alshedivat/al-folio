@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameHelp_2d5_new_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations></w:Declarations>
+	<e:Rect left="0" top="0" bottom="0" right="0" alpha="0.1" fillColor="0x000000" />
+	<e:Image id="bg" width="1080" height="700" x="100" y="55"  source="game_common2" scale9Grid="71,84,448,77"/>
+	<e:Image x="143.5" y="555.61"  source="hostSetting"/>
+	<e:Group anchorOffsetY="0" left="0" right="0" top="53" bottom="-53">
+		<e:Image id="headBg_2" horizontalCenter="0.5" source="headBg" top="100" x="294" y="-80.00000000000003" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="headBg_0" horizontalCenter="0" source="headBg" bottom="225" x="294" y="221.00000000000003" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="headBg_1" right="380" source="headBg" verticalCenter="-54" x="507" y="78.99999999999997" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="headBg_3" left="385" source="headBg" verticalCenter="-54" x="85.00000000000006" y="78.99999999999997" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="line_23" horizontalCenter="-108" source="line_01" top="146" x="157" y="-34.00000000000003" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="line_02" horizontalCenter="0" source="line_02" verticalCenter="-44.5" x="337" y="32" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="line_01" horizontalCenter="111" source="line_23" verticalCenter="35.5" x="376" y="149.99999999999997" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="line_12" horizontalCenter="109" source="line_12" verticalCenter="-148.5" x="374" y="-34.00000000000003" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="line_13" horizontalCenter="0.5" source="line_13" verticalCenter="-59" x="157" y="117.99999999999997" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="line_03" horizontalCenter="-110" source="line_04" verticalCenter="28" x="155" y="145.99999999999997" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="lineBg_23" source="distanceBg" top="190" left="455" x="155" y="9.999999999999972" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="lineBg_02" source="distanceBg" horizontalCenter="1" verticalCenter="5.5" x="290" y="166.99999999999997" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="lineBg_13" source="distanceBg" verticalCenter="-56.5" left="505" x="205" y="105.00000000000003" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="lineBg_01" source="distanceBg" right="456" verticalCenter="35.5" x="422" y="197.00000000000003" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="lineBg_03" source="distanceBg" verticalCenter="35.5" left="475" x="175" y="197.00000000000003" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="lineBg_12" source="distanceBg" right="456" top="190" x="422" y="9.999999999999972" scaleX="1" scaleY="1" visible="false"/>
+		<e:Label id="distance_23" text="" textColor="0x4d2402" width="102" height="37" fontFamily="Microsoft YaHei" size="20" textAlign="center" verticalAlign="middle" left="455" top="190" x="155" y="9.999999999999972" scaleX="1" scaleY="1" visible="false"/>
+		<e:Label id="distance_02" text="" textColor="0x4D2402" width="102" height="37" fontFamily="Microsoft YaHei" size="20" textAlign="center" verticalAlign="middle" horizontalCenter="1" bottom="336" x="290" y="166.99999999999997" scaleX="1" scaleY="1" visible="false"/>
+		<e:Label id="distance_13" text="" textColor="0x4D2402" width="102" height="37" fontFamily="Microsoft YaHei" size="20" textAlign="center" verticalAlign="middle" verticalCenter="-56.5" left="505" x="205" y="105.00000000000003" scaleX="1" scaleY="1" visible="false"/>
+		<e:Label id="distance_01" text="" textColor="0x4D2402" width="102" height="37" fontFamily="Microsoft YaHei" size="20" textAlign="center" verticalAlign="middle" right="456" verticalCenter="35.5" x="422" y="197.00000000000003" scaleX="1" scaleY="1" visible="false"/>
+		<e:Label id="distance_03" text="" textColor="0x4D2402" width="102" height="37" fontFamily="Microsoft YaHei" size="20" textAlign="center" verticalAlign="middle" verticalCenter="35.5" left="475" x="175" y="197.00000000000003" scaleX="1" scaleY="1" visible="false"/>
+		<e:Label id="distance_12" text="" textColor="0x4D2402" width="102" height="37" fontFamily="Microsoft YaHei" size="20" textAlign="center" verticalAlign="middle" right="456" top="190" x="422" y="9.999999999999972" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="headImage_0" width="75" height="75" horizontalCenter="0.5" bottom="234" x="303" y="230.99999999999997" scaleX="1" scaleY="1"/>
+		<e:Image width="75" height="75" id="headImage_1" right="389" verticalCenter="-54.5" x="516.0000000000001" y="87.99999999999997" scaleX="1" scaleY="1"/>
+		<e:Image width="75" height="75" id="headImage_2" horizontalCenter="0.5" top="109" x="303" y="-71.00000000000003" scaleX="1" scaleY="1"/>
+		<e:Image width="75" height="75" id="headImage_3" verticalCenter="-55.5" left="394" x="94" y="86.99999999999997" scaleX="1" scaleY="1"/>
+		<e:Label id="playerName_3" text="" size="20" textColor="0x1b4364" maxChars="4" width="80" height="20" textAlign="center" fontFamily="Microsoft YaHei" verticalCenter="5" left="392" x="92.00000000000006" y="174.99999999999997" scaleX="1" scaleY="1"/>
+		<e:Label id="playerName_2" text="" size="20" textColor="0x1B4364" maxChars="4" width="80" height="20" textAlign="center" fontFamily="Microsoft YaHei" horizontalCenter="-2" top="197" x="298" y="16.99999999999997" scaleX="1" scaleY="1"/>
+		<e:Label id="playerName_0" text="" size="20" textColor="0x1B4364" maxChars="4" width="80" height="20" textAlign="center" fontFamily="Microsoft YaHei" horizontalCenter="1" bottom="202" x="301" y="318" scaleX="1" scaleY="1"/>
+		<e:Label id="playerName_1" text="" size="20" textColor="0x1B4364" maxChars="4" width="80" height="20" textAlign="center" fontFamily="Microsoft YaHei" verticalCenter="5" right="384" x="516.0000000000001" y="174.99999999999997" scaleX="1" scaleY="1"/>
+		<e:Label id="address_3" text="" size="20" fontFamily="Microsoft YaHei" textColor="0xc14f12" width="130" height="40" left="327" top="209" x="27.000000000000057" y="28.99999999999997" scaleX="1" scaleY="1"/>
+		<e:Label id="address_1" text="" size="20" fontFamily="Microsoft YaHei" textColor="0xC14F12" width="130" height="40" right="294" top="209" x="556" y="28.99999999999997" scaleX="1" scaleY="1"/>
+		<e:Label id="address_2" text="" size="20" fontFamily="Microsoft YaHei" textColor="0xC14F12" width="130" height="40" top="100" right="454" x="396" y="-80.00000000000003" scaleX="1" scaleY="1"/>
+		<e:Label id="address_0" text="" size="20" fontFamily="Microsoft YaHei" textColor="0xC14F12" width="130" height="40" right="454" bottom="212" x="396" y="288" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Button id="closeButton" skinName="CloseButton_2d5_new_Skin" top="70" right="140" enabled="true"/>
+	<e:Label id="ruleTxt" text="" size="30" fontFamily="Microsoft YaHei" textColor="0xc14f12" width="950" horizontalCenter="0" textAlign="center" verticalAlign="middle" x="-135" scaleX="1" scaleY="1" bottom="100"/>
+</e:Skin>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SeatPlay_2d5_new_Skin" width="185" height="98" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="_nameTxt" text="" size="18" fontFamily="Microsoft YaHei" top="70" horizontalCenter="47.5"/>
+	<e:Image id="pointBg" source="pointBg_2d5" top="40" horizontalCenter="47.5" scale9Grid="10,8,38,8"/>
+	<e:Label id="_chipTxt" text="33" textColor="0xf5d94a" fontFamily="Microsoft YaHei" size="24" top="40" horizontalCenter="47.5"/>
+
+	<e:Rect id="headMask" width="76" height="76" verticalCenter="0" horizontalCenter="-43" ellipseWidth="8" ellipseHeight="8"/>
+	<e:Image scale9Grid="8,8,54,54" width="80" height="80" verticalCenter="0" horizontalCenter="-43" source="headbg_2d5"/>
+	<e:Image id="headImage" width="76" height="76" verticalCenter="0" horizontalCenter="-43"/>
+	<e:Image id="_grayBg" source="seat_gray" left="0" top="0" visible="false"/>
+	<e:Image id="_status" left="25" top="25"/>
+	<e:Image id="_signal" source="nosignal" left="25" top="15"/>
+	<e:Image id="_host" source="host" left="10" top="25"/>
+
+	<e:Image id="_badip" source="mj_zp_ip_alike" left="8" top="8" visible="false"/>
+	<e:Image id="_imgYou" x="6" y="32" scaleX="0.25" scaleY="0.25"/>
+	<e:Image id="_vipPanel" source="" scaleX="0.5" scaleY="0.5" left="0" top="-7"/>
+	<e:Group id="playingCartoonGroup" width="103" height="100" verticalCenter="0" horizontalCenter="-43">
+	</e:Group>
+	<e:Group id="_playerPause" height="34" anchorOffsetY="0" anchorOffsetX="0" width="185" x="0" y="86.6" visible="false">
+		<e:Rect id="leftTimeBg" y="-24" width="73" horizontalCenter="-43" height="20" ellipseWidth="20" ellipseHeight="20" fillColor="0x000000" visible="false"/>
+		<e:Image scaleX="0.9" scaleY="0.9" source="pause_leftTime_icon" anchorOffsetY="0" horizontalCenter="-10" verticalCenter="-1.5"/>
+
+
+		<e:Label id="leftTime" text="" horizontalCenter="-40" size="10" fontFamily="Microsoft YaHei" textColor="0xD98A21" verticalCenter="-31"/>
+		<e:Label id="pauseLeftTimeSec" text="" size="26" fontFamily="Microsoft YaHei" textColor="0xcbcbcb" horizontalCenter="35" verticalCenter="-1.5"/>
+	</e:Group>
+	<e:Image id="upSlopeIcon" x="66.4" y="23.6" source="" scaleX="0.65" scaleY="0.65"/>
+	<e:Image id="_listenIcon" source="hear" x="73.5" y="-11" visible="false"/>
+	<e:Group id="outlineGroup" height="36" y="115" anchorOffsetY="0" width="185" x="0" visible="false">
+		<e:Image source="outline_leftTime_icon" horizontalCenter="-10" scaleX="0.9" scaleY="0.9" verticalCenter="-2"/>
+		<e:Label id="outlineLeftTimeSec" text="" size="26" verticalCenter="-2" fontFamily="Microsoft YaHei" horizontalCenter="35" textColor="0xcbcbcb"/>
+	</e:Group>
+
+</e:Skin>

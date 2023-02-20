@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TotalItemSkinS_DZ_Skin" width="422" height="146" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="lose_item" width="422" height="146" x="0" y="0">
+		<e:Image x="0" y="0" source="total_item_bg" scaleX="1" scaleY="1"/>
+		<e:Image width="94" height="94" source="total_mc_bg" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" y="-5" scaleX="1" scaleY="1" left="18"/>
+		<e:Image id="_headmc" width="94" height="94" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" verticalCenter="0" left="18" source=""/>
+		<e:Rect id="headRect" left="22" verticalCenter="0" width="86" height="86" ellipseWidth="10" ellipseHeight="10" visible="false"/>
+		<e:Image id="_bank" width="40" height="40" x="74" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="15" y="5" scaleX="1" scaleY="1" source="total_bank" visible="false"/>
+		<e:Image id="rankIcon" source="total_resultfirst" left="-5" top="-34"/>
+		<e:Label id="_username" text="雅思的花饭盒" x="123" y="39" anchorOffsetX="0" width="161" height="30" textAlign="left" textColor="0x7f5733" size="25" fontFamily="Microsoft YaHei"/>
+		<e:Image source="total_itemscorebg" x="123" y="69"/>
+		<e:Label id="_uid" text="123456789" x="153" y="73" width="214" height="30" size="23" fontFamily="Microsoft YaHei" textColor="0x4a7b96"/>
+		<e:Label id="_maxCount" text="0" x="320" bold="true" verticalCenter="0" textColor="0xfffefc" textAlign="center" width="150" visible="false"/>
+		<e:Label id="_boomCount" text="0" x="530" bold="true" verticalCenter="0" textColor="0xfffefc" textAlign="center" width="150" visible="false"/>
+		<e:Label id="_winCount" text="0" bold="true" verticalCenter="0" textColor="0xfffefc" textAlign="center" width="150" horizontalCenter="141" visible="false"/>
+		<e:Image id="winner" source="label_winner_png" right="-6" top="0"/>
+		<e:Label id="_totalCount" text="0" bold="true" verticalCenter="0" textColor="0xfffefc" textAlign="center" width="150" horizontalCenter="136" visible="false"/>
+		<e:BitmapLabel id="winBitMapLabel" text="-350" font="game_lose_fnt" horizontalCenter="137" verticalCenter="0"/>
+
+	</e:Group>
+</e:Skin>

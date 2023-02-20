@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GpsPanel_TDK_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations></w:Declarations>
+	<e:Rect left="0" top="0" bottom="0" right="0" alpha="0.1" fillColor="0x000000"  visible="false"/>
+
+
+
+
+
+	<e:Group id="gpsGroup" width="665" height="520" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" y="49" visible="false">
+		<e:Image id="line_23" scaleX="1" scaleY="1" source="line_23_2d5" left="154" top="114" visible="false"/>
+		<e:Image id="line_12" scaleX="1" scaleY="1" source="line_12_2d5" right="154" top="114" visible="false"/>
+		<e:Image id="line_13" scaleX="1" scaleY="1" source="line_13_2d5" horizontalCenter="0" width="274" top="288" visible="false"/>
+
+
+
+
+		<e:Image id="lineBg_23" scaleX="1" scaleY="1" source="distanceBg_2d5" horizontalCenter="-119" top="173" visible="false"/>
+		<e:Image id="lineBg_13" scaleX="1" scaleY="1" horizontalCenter="0" source="distanceBg_2d5" top="272" visible="false"/>
+		<e:Image id="lineBg_12" scaleX="1" scaleY="1" source="distanceBg_2d5" horizontalCenter="119" top="173" visible="false"/>
+
+
+
+		<e:Panel id="head_1" skinName="HeadImage_2d5_new_Skin" width="80" height="80" right="116" top="248" visible="false"/>
+		<e:Panel id="head_2" width="80" skinName="HeadImage_2d5_new_Skin" horizontalCenter="0" height="80" top="75" visible="false"/>
+		<e:Panel id="head_3" width="80" height="80" skinName="HeadImage_2d5_new_Skin" left="117" top="248" visible="false"/>
+
+		
+		<e:Label id="distance_23" text="" fontFamily="Microsoft YaHei" size="18" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0xedffd9" horizontalCenter="-119" top="182"/>
+		<e:Label id="distance_13" text="" fontFamily="Microsoft YaHei" size="18" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0xedffd9" horizontalCenter="0" top="281"/>
+		<e:Label id="distance_12" text="" fontFamily="Microsoft YaHei" size="18" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0xedffd9" horizontalCenter="119" anchorOffsetX="0" top="183"/>
+
+
+
+
+		<e:Label id="playerName_3" text="" size="18" textColor="0x1b4364" maxChars="4" width="80" height="20" textAlign="center" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" horizontalCenter="-175.5" top="283"/>
+		<e:Label id="playerName_2" text="" size="18" textColor="0x1B4364" maxChars="4" width="80" height="20" textAlign="center" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" horizontalCenter="0" top="110"/>
+		<e:Label id="playerName_1" text="" size="18" textColor="0x1B4364" maxChars="4" width="80" height="20" textAlign="center" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" horizontalCenter="176.5" top="283"/>
+
+
+		<e:Label id="address_3" text="" size="16" fontFamily="Microsoft YaHei" width="90" scaleX="1" scaleY="1" textColor="0x8e591f" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" textAlign="center" height="32" left="27" top="244"/>
+		<e:Label id="address_1" text="" size="16" fontFamily="Microsoft YaHei" width="90" height="32" scaleX="1" scaleY="1" right="27" textAlign="center" verticalAlign="middle" textColor="0x8e591f" top="244"/>
+		<e:Label id="address_2" text="" x="196" size="16" fontFamily="Microsoft YaHei" width="90" height="32" scaleX="1" scaleY="1" textColor="0x8e591f" verticalAlign="middle" textAlign="center" top="28"/>
+
+		
+
+	</e:Group>
+	<e:Group verticalCenter="0" horizontalCenter="0" width="713" height="508">
+		<e:Image scaleX="1" scaleY="1" top="0" bottom="0" left="0" right="0" source="dlm_ej_bg_1_game_png"/>
+		<e:Image source="dlm_g_dinwei" horizontalCenter="0" top="0"/>
+		<e:Image source="dlm_g_touxiangbg1" scale9Grid="18,15,50,56" width="693" horizontalCenter="0" y="88" anchorOffsetY="0" height="295"/>
+		<e:Image source="dlm_g_dwbg" horizontalCenter="0" y="98.66"/>
+		<e:Group id="gpsListGroup" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" top="40" bottom="130" width="613" left="8">
+			<e:Image left="0" right="0" top="0" bottom="0" source="room_TDK_bg1_png" visible="false"/>
+			<e:Group id="usernameColumnGroup" width="150" anchorOffsetX="0" top="113" anchorOffsetY="0" left="0">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="top" paddingTop="0" gap="6"/>
+			</e:layout>
+			<e:Group width="200" height="200" x="129" y="1"/>
+			</e:Group>
+			<e:Group id="usernameRowGroup" height="60" anchorOffsetX="0" anchorOffsetY="0" top="49" left="130">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" gap="0"/>
+			</e:layout>
+			</e:Group>
+			<e:Group id="distanceGroup" anchorOffsetX="0" left="130" top="115">
+			<e:layout>
+				<e:TileLayout rowAlign="top" columnAlign="left" rowHeight="50" columnWidth="142" horizontalGap="0" paddingTop="0" verticalGap="5"/>
+			</e:layout>
+			</e:Group>
+			<e:Image y="70.52" left="0" right="0" source="room_TDK_line2" visible="false"/>
+			<e:Image x="163.32" top="0" bottom="0" source="room_TDK_line1" visible="false"/>
+		</e:Group>
+		<e:Button id="closeButton" scaleX="1" scaleY="1" top="10" horizontalCenter="317.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dlm_an_1guangbi_game"/>
+				<e:Label id="labelDisplay0" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Group id="ruleGroup" width="620" height="91" anchorOffsetY="0" anchorOffsetX="0" bottom="41" horizontalCenter="1" x="205" y="491" scaleX="1" scaleY="1">
+			<e:Image scaleX="1" scaleY="1" top="0" horizontalCenter="0" source="dlm_g_fzhuset"/>
+			<e:Label id="ruleTxt" text="" size="21" fontFamily="Microsoft YaHei" width="600" horizontalCenter="0" x="35" scaleX="1" scaleY="1" textColor="0x8a796c" lineSpacing="3" height="45" y="41" textAlign="center" verticalAlign="middle"/>
+		</e:Group>
+	</e:Group>
+	<e:Image id="gpsTips" source="twoPlayer_notice_2d5" horizontalCenter="0.5" verticalCenter="-40" x="64" y="75.99999999999999" scaleX="1" scaleY="1"/>
+
+
+
+</e:Skin>

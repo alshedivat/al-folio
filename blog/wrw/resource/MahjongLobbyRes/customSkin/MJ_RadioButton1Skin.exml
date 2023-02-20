@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MJ_RadioButton1Skin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected"
+        currentState="up" xmlns:e="http://ns.egret.com/eui" width="266" height="86">
+	<e:Image
+	         source="btTab_n" source.upAndSelected="btTab_P" source.downAndSelected="btTab_P"
+	         source.disabledAndSelected="btTab_P" source.disabled="btTab_disable" verticalCenter.disabled="0" left="0" verticalCenter="0"/>
+	<e:Group left="0" right="30" top="0" bottom="0">
+		<e:Label id="labelDisplay" verticalCenter="0" size="35" fontFamily="黑体" text="" textColor="0xffffff" bold="true" textAlign="center" horizontalCenter="0" x="133" y="43" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

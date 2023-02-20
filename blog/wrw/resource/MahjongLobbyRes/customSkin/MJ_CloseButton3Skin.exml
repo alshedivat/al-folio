@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MJ_CloseButton3Skin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" width="87" height="244">
+	<e:Image  scaleX.down="0.95" scaleY.down="0.95"  source="BgCommon_json.x_common" horizontalCenter="0" top.down="0" top="0"/>
+
+</e:Skin>

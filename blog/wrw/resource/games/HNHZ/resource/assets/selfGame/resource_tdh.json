@@ -1,0 +1,8 @@
+{"file":"resource_tdh.png","frames":{
+"hit_1":{"x":226,"y":0,"w":109,"h":95,"offX":0,"offY":0,"sourceW":111,"sourceH":95},
+"hit_2":{"x":113,"y":0,"w":111,"h":95,"offX":0,"offY":0,"sourceW":111,"sourceH":95},
+"hit_3":{"x":113,"y":97,"w":110,"h":95,"offX":0,"offY":0,"sourceW":111,"sourceH":95},
+"hit_4":{"x":225,"y":97,"w":109,"h":95,"offX":0,"offY":0,"sourceW":111,"sourceH":95},
+"hit_5":{"x":0,"y":97,"w":111,"h":95,"offX":0,"offY":0,"sourceW":111,"sourceH":95},
+"hit_6":{"x":0,"y":0,"w":111,"h":95,"offX":0,"offY":0,"sourceW":111,"sourceH":95},
+"hit_0":{"x":337,"y":0,"w":101,"h":76,"offX":5,"offY":10,"sourceW":111,"sourceH":95}}}

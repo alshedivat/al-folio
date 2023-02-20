@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="boxPanel_2d5_new_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image source="boxBg_2d5" horizontalCenter="0" verticalCenter="0" />
+    <e:Button id="closeButton" y="161" x="892.5">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="closeBtn_2d5_1" source.down="closeBtn_2d5_2" />
+                <e:Label id="labelDisplay0" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="yesBtn" label="" y="441" horizontalCenter="118.5">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="sureBtn_2d5_1" source.down="sureBtn_2d5_2" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="noBtn" label="" y="441" horizontalCenter="-118.5">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="cancelBtn_2d5_1" source.down="cancelBtn_2d5_2" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Label id="title" text="是否解散房间？"  horizontalCenter="0" size="30" fontFamily="Microsoft YaHei" textColor="0xed7a17" top="235"/>
+    <e:Label id="info" text="确定要退出"  width="450" anchorOffsetY="0" verticalCenter="-25" height="110" fontFamily="Microsoft YaHei" size="28" verticalAlign="middle" textAlign="center" lineSpacing="4" horizontalCenter="0" textColor="0x7f5733"/>
+</e:Skin>

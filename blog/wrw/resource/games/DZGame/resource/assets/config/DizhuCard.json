@@ -1,0 +1,542 @@
+[
+  {
+    "cardId": 11,
+    "thisId": 1114,
+    "name": "黑桃A",
+    "type": 1,
+    "weight": 44,
+    "icon": 101,
+    "point": 1,
+    "pairID": 1
+  },
+  {
+    "cardId": 12,
+    "thisId": 1115,
+    "name": "黑桃2",
+    "type": 1,
+    "weight": 48,
+    "icon": 102,
+    "point": 2,
+    "pairID": 1
+  },
+  {
+    "cardId": 13,
+    "thisId": 113,
+    "name": "黑桃3",
+    "type": 1,
+    "weight": 52,
+    "icon": 103,
+    "point": 3,
+    "pairID": 1
+  },
+  {
+    "cardId": 14,
+    "thisId": 114,
+    "name": "黑桃4",
+    "type": 1,
+    "weight": 4,
+    "icon": 104,
+    "point": 4,
+    "pairID": 1
+  },
+  {
+    "cardId": 15,
+    "thisId": 115,
+    "name": "黑桃5",
+    "type": 1,
+    "weight": 8,
+    "icon": 105,
+    "point": 5,
+    "pairID": 1
+  },
+  {
+    "cardId": 16,
+    "thisId": 116,
+    "name": "黑桃6",
+    "type": 1,
+    "weight": 12,
+    "icon": 106,
+    "point": 6,
+    "pairID": 1
+  },
+  {
+    "cardId": 17,
+    "thisId": 117,
+    "name": "黑桃7",
+    "type": 1,
+    "weight": 16,
+    "icon": 107,
+    "point": 7,
+    "pairID": 1
+  },
+  {
+    "cardId": 18,
+    "thisId": 118,
+    "name": "黑桃8",
+    "type": 1,
+    "weight": 20,
+    "icon": 108,
+    "point": 8,
+    "pairID": 1
+  },
+  {
+    "cardId": 19,
+    "thisId": 119,
+    "name": "黑桃9",
+    "type": 1,
+    "weight": 24,
+    "icon": 109,
+    "point": 9,
+    "pairID": 1
+  },
+  {
+    "cardId": 21,
+    "thisId": 1214,
+    "name": "红桃A",
+    "type": 2,
+    "weight": 43,
+    "icon": 201,
+    "point": 1,
+    "pairID": 1
+  },
+  {
+    "cardId": 22,
+    "thisId": 1215,
+    "name": "红桃2",
+    "type": 2,
+    "weight": 47,
+    "icon": 202,
+    "point": 2,
+    "pairID": 1
+  },
+  {
+    "cardId": 23,
+    "thisId": 123,
+    "name": "红桃3",
+    "type": 2,
+    "weight": 51,
+    "icon": 203,
+    "point": 3,
+    "pairID": 1
+  },
+  {
+    "cardId": 24,
+    "thisId": 124,
+    "name": "红桃4",
+    "type": 2,
+    "weight": 3,
+    "icon": 204,
+    "point": 4,
+    "pairID": 1
+  },
+  {
+    "cardId": 25,
+    "thisId": 125,
+    "name": "红桃5",
+    "type": 2,
+    "weight": 7,
+    "icon": 205,
+    "point": 5,
+    "pairID": 1
+  },
+  {
+    "cardId": 26,
+    "thisId": 126,
+    "name": "红桃6",
+    "type": 2,
+    "weight": 11,
+    "icon": 206,
+    "point": 6,
+    "pairID": 1
+  },
+  {
+    "cardId": 27,
+    "thisId": 127,
+    "name": "红桃7",
+    "type": 2,
+    "weight": 15,
+    "icon": 207,
+    "point": 7,
+    "pairID": 1
+  },
+  {
+    "cardId": 28,
+    "thisId": 128,
+    "name": "红桃8",
+    "type": 2,
+    "weight": 19,
+    "icon": 208,
+    "point": 8,
+    "pairID": 1
+  },
+  {
+    "cardId": 29,
+    "thisId": 129,
+    "name": "红桃9",
+    "type": 2,
+    "weight": 23,
+    "icon": 209,
+    "point": 9,
+    "pairID": 1
+  },
+  {
+    "cardId": 31,
+    "thisId": 1314,
+    "name": "梅花A",
+    "type": 3,
+    "weight": 42,
+    "icon": 301,
+    "point": 1,
+    "pairID": 1
+  },
+  {
+    "cardId": 32,
+    "thisId": 1315,
+    "name": "梅花2",
+    "type": 3,
+    "weight": 46,
+    "icon": 302,
+    "point": 2,
+    "pairID": 1
+  },
+  {
+    "cardId": 33,
+    "thisId": 133,
+    "name": "梅花3",
+    "type": 3,
+    "weight": 50,
+    "icon": 303,
+    "point": 3,
+    "pairID": 1
+  },
+  {
+    "cardId": 34,
+    "thisId": 134,
+    "name": "梅花4",
+    "type": 3,
+    "weight": 2,
+    "icon": 304,
+    "point": 4,
+    "pairID": 1
+  },
+  {
+    "cardId": 35,
+    "thisId": 135,
+    "name": "梅花5",
+    "type": 3,
+    "weight": 6,
+    "icon": 305,
+    "point": 5,
+    "pairID": 1
+  },
+  {
+    "cardId": 36,
+    "thisId": 136,
+    "name": "梅花6",
+    "type": 3,
+    "weight": 10,
+    "icon": 306,
+    "point": 6,
+    "pairID": 1
+  },
+  {
+    "cardId": 37,
+    "thisId": 137,
+    "name": "梅花7",
+    "type": 3,
+    "weight": 14,
+    "icon": 307,
+    "point": 7,
+    "pairID": 1
+  },
+  {
+    "cardId": 38,
+    "thisId": 138,
+    "name": "梅花8",
+    "type": 3,
+    "weight": 18,
+    "icon": 308,
+    "point": 8,
+    "pairID": 1
+  },
+  {
+    "cardId": 39,
+    "thisId": 139,
+    "name": "梅花9",
+    "type": 3,
+    "weight": 22,
+    "icon": 309,
+    "point": 9,
+    "pairID": 1
+  },
+  {
+    "cardId": 41,
+    "thisId": 1414,
+    "name": "方片A",
+    "type": 4,
+    "weight": 41,
+    "icon": 401,
+    "point": 1,
+    "pairID": 1
+  },
+  {
+    "cardId": 42,
+    "thisId": 1415,
+    "name": "方片2",
+    "type": 4,
+    "weight": 45,
+    "icon": 402,
+    "point": 2,
+    "pairID": 1
+  },
+  {
+    "cardId": 43,
+    "thisId": 143,
+    "name": "方片3",
+    "type": 4,
+    "weight": 49,
+    "icon": 403,
+    "point": 3,
+    "pairID": 1
+  },
+  {
+    "cardId": 44,
+    "thisId": 144,
+    "name": "方片4",
+    "type": 4,
+    "weight": 1,
+    "icon": 404,
+    "point": 4,
+    "pairID": 1
+  },
+  {
+    "cardId": 45,
+    "thisId": 145,
+    "name": "方片5",
+    "type": 4,
+    "weight": 5,
+    "icon": 405,
+    "point": 5,
+    "pairID": 1
+  },
+  {
+    "cardId": 46,
+    "thisId": 146,
+    "name": "方片6",
+    "type": 4,
+    "weight": 9,
+    "icon": 406,
+    "point": 6,
+    "pairID": 1
+  },
+  {
+    "cardId": 47,
+    "thisId": 147,
+    "name": "方片7",
+    "type": 4,
+    "weight": 13,
+    "icon": 407,
+    "point": 7,
+    "pairID": 1
+  },
+  {
+    "cardId": 48,
+    "thisId": 148,
+    "name": "方片8",
+    "type": 4,
+    "weight": 17,
+    "icon": 408,
+    "point": 8,
+    "pairID": 1
+  },
+  {
+    "cardId": 49,
+    "thisId": 149,
+    "name": "方片9",
+    "type": 4,
+    "weight": 21,
+    "icon": 409,
+    "point": 9,
+    "pairID": 1
+  },
+  {
+    "cardId": 110,
+    "thisId": 1110,
+    "name": "黑桃10",
+    "type": 1,
+    "weight": 28,
+    "icon": 110,
+    "point": 10,
+    "pairID": 1
+  },
+  {
+    "cardId": 111,
+    "thisId": 1111,
+    "name": "黑桃J",
+    "type": 1,
+    "weight": 32,
+    "icon": 111,
+    "point": 11,
+    "pairID": 1
+  },
+  {
+    "cardId": 112,
+    "thisId": 1112,
+    "name": "黑桃Q",
+    "type": 1,
+    "weight": 36,
+    "icon": 112,
+    "point": 12,
+    "pairID": 1
+  },
+  {
+    "cardId": 113,
+    "thisId": 1113,
+    "name": "黑桃K",
+    "type": 1,
+    "weight": 40,
+    "icon": 113,
+    "point": 13,
+    "pairID": 1
+  },
+  {
+    "cardId": 210,
+    "thisId": 1210,
+    "name": "红桃10",
+    "type": 2,
+    "weight": 27,
+    "icon": 210,
+    "point": 10,
+    "pairID": 1
+  },
+  {
+    "cardId": 211,
+    "thisId": 1211,
+    "name": "红桃J",
+    "type": 2,
+    "weight": 31,
+    "icon": 211,
+    "point": 11,
+    "pairID": 1
+  },
+  {
+    "cardId": 212,
+    "thisId": 1212,
+    "name": "红桃Q",
+    "type": 2,
+    "weight": 35,
+    "icon": 212,
+    "point": 12,
+    "pairID": 1
+  },
+  {
+    "cardId": 213,
+    "thisId": 1213,
+    "name": "红桃K",
+    "type": 2,
+    "weight": 39,
+    "icon": 213,
+    "point": 13,
+    "pairID": 1
+  },
+  {
+    "cardId": 310,
+    "thisId": 1310,
+    "name": "梅花10",
+    "type": 3,
+    "weight": 26,
+    "icon": 310,
+    "point": 10,
+    "pairID": 1
+  },
+  {
+    "cardId": 311,
+    "thisId": 1311,
+    "name": "梅花J",
+    "type": 3,
+    "weight": 30,
+    "icon": 311,
+    "point": 11,
+    "pairID": 1
+  },
+  {
+    "cardId": 312,
+    "thisId": 1312,
+    "name": "梅花Q",
+    "type": 3,
+    "weight": 34,
+    "icon": 312,
+    "point": 12,
+    "pairID": 1
+  },
+  {
+    "cardId": 313,
+    "thisId": 1313,
+    "name": "梅花K",
+    "type": 3,
+    "weight": 38,
+    "icon": 313,
+    "point": 13,
+    "pairID": 1
+  },
+  {
+    "cardId": 410,
+    "thisId": 1410,
+    "name": "方片10",
+    "type": 4,
+    "weight": 25,
+    "icon": 410,
+    "point": 10,
+    "pairID": 1
+  },
+  {
+    "cardId": 411,
+    "thisId": 1411,
+    "name": "方片J",
+    "type": 4,
+    "weight": 29,
+    "icon": 411,
+    "point": 11,
+    "pairID": 1
+  },
+  {
+    "cardId": 412,
+    "thisId": 1412,
+    "name": "方片Q",
+    "type": 4,
+    "weight": 33,
+    "icon": 412,
+    "point": 12,
+    "pairID": 1
+  },
+  {
+    "cardId": 413,
+    "thisId": 1413,
+    "name": "方片K",
+    "type": 4,
+    "weight": 37,
+    "icon": 413,
+    "point": 13,
+    "pairID": 1
+  },
+  {
+    "cardId": 514,
+    "thisId": 1520,
+    "name": "小王",
+    "type": 5,
+    "weight": 0,
+    "icon": 514,
+    "point": 14,
+    "pairID": 1
+  },
+  {
+    "cardId": 515,
+    "thisId": 1530,
+    "name": "大王",
+    "type": 5,
+    "weight": 0,
+    "icon": 515,
+    "point": 15,
+    "pairID": 1
+  }
+]

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchMsgExportSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="816" height="450" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="816" height="450"  source="mjl_common_bj_3" scale9Grid="50,74,178,451"/>
+
+		<e:Image source="msgextitle" horizontalCenter="0" top="43"/>
+		<e:Label fontFamily="Microsoft YaHei" size="32" textColor="0x495265" verticalAlign="middle" text="确定暂停:    包厢暂停服务   玩家不能进入牌桌" verticalCenter="-75" horizontalCenter="0"/>
+		<e:Label fontFamily="Microsoft YaHei" size="32" textColor="0x495265" verticalAlign="middle" text="导出战绩:    导出到其他包厢   此包厢继续服务" verticalCenter="-7" horizontalCenter="0"/>
+
+
+
+		<e:Button id="sureTButton" bottom="59" left="133">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="msg_surebtn1" source.down="msg_surebtn2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+
+		</e:Button>
+		<e:Button id="exportButton"  bottom="59" right="133">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="msg_exprotbtn1" source.down="msg_exprotbtn2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="closeButton" label="" width="100" height="100" skinName="MJ_CloseButton1Skin" right="-24" top="-24"/>
+	</e:Group>
+</e:Skin>

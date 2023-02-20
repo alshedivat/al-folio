@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HouseTablePanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image alpha="0.8" source="club_bigBg_png"  left="0" right="0" top="0" bottom="0"/>
+	<e:Group id="info" x="123" y="12" width="243" height="92" visible="false">
+		<e:Label id="tabelCount" text="桌数 : 19/20" y="28" size="25" textColor="0xffefce" bold="true"
+		         fontFamily="Microsoft YaHei" textAlign="center" width="175" horizontalCenter="0" />
+	</e:Group>
+	<e:Group top="0" horizontalCenter="0">
+		<e:Image  source="teahouse_title_bg" scale9Grid="45,0,270,108" width="429" horizontalCenter="0"/>
+		<e:Group id="headGroup" y="10" width="76" height="76" horizontalCenter="-130.5">
+			<e:Image id="headMc" height="72" width="72" horizontalCenter="0" verticalCenter="0" source="" />
+		</e:Group>
+		<e:Label id="teaName" text="玩家名字六六七" size="32" fontFamily="SimHei" textAlign="left" y="35" height="32"
+		         width="230" textColor="0xffffff"  horizontalCenter="45.5"/>
+	</e:Group>
+
+	<e:Group id="passWard" x="157" y="56">
+		<e:Label id="matchIdLabel" text="ID:57386999" size="32" fontFamily="Microsoft YaHei" textAlign="center"
+		         verticalCenter="0" horizontalCenter="0" stroke="0" strokeColor="0x084727" width="192" height="32"
+		         textColor="0xffffff"  visible="false"/>
+	</e:Group>
+	<e:Button id="shareBtn" verticalCenter="-300" horizontalCenter="541">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" height="80" width="198">
+				<e:Image source="house_share" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller width="224" height="518.66" y="140" horizontalScrollBar="off" anchorOffsetY="0" anchorOffsetX="0" x="0"
+	            visible="false">
+		<e:List id="matchList" itemRendererSkinName="MatchRadioButtonSkin" x="6" y="44.34" anchorOffsetY="0" height="468">
+			<e:layout>
+				<e:VerticalLayout gap="5" />
+			</e:layout>
+			<!--<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object aa="null" />
+				<e:Object aa="null" />
+				<e:Object aa="null" />
+			</e:Array>
+		</e:ArrayCollection>
+		-->
+	</e:List>
+</e:Scroller>
+<e:Group id="setGroup" height="476" width="964" y="173" horizontalCenter="0">
+	<e:layout>
+		<e:VerticalLayout horizontalAlign="left" verticalAlign="top" />
+	</e:layout>
+	<e:Scroller id="tableScoller" x="0.34" y="70" anchorOffsetX="0" bounces="false" horizontalScrollBar="off" width="964"
+	            scrollPolicyH="off" height="476">
+		<e:Group>
+			<e:List id="matchTableList" left="0" top="0" right="893">
+				<e:layout>
+					<e:TileLayout orientation="rows" horizontalAlign="left" verticalAlign="top" requestedColumnCount="3"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+	</e:Scroller>
+</e:Group>
+<e:Button id="applyBtn" horizontalCenter="-386.5" scaleX="0.9" scaleY="0.9" bottom="9" visible="false">
+	<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="house_apply1" source.down="house_apply2" />
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+		</e:Skin>
+	</e:skinName>
+</e:Button>
+<!--<e:Image id="applyWait" horizontalCenter="0" y="633" source="house_title" width="180" />
+-->
+<e:Label id="applyWait" text="正在等待通过审核，请联系包厢管理" fontFamily="Microsoft YaHei" textColor="0xbbf7da" y="660"
+         horizontalCenter="0" strokeColor="0x07331e"  visible="false"/>
+<e:Button id="quitBtn" y="646" horizontalCenter="0" visible="false">
+	<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="house_leaveTable1" source.down="house_leaveTable2" />
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+		</e:Skin>
+	</e:skinName>
+</e:Button>
+<e:Button id="backBtn" x="15.34" y="25" scaleX="1.2" scaleY="1.2" skinName="MJ_CloseButton2Skin"></e:Button>
+<e:Button id="refreshBtn" y="642" scaleX="1" scaleY="0.9" horizontalCenter="0" visible="false">
+	<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="houseBtn_refresh" width.down="95%" height.down="95%" horizontalCenter="0" verticalCenter="0" />
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+		</e:Skin>
+	</e:skinName>
+</e:Button>
+<e:Label id="playRule" text="Label" y="145" fontFamily="Microsoft YaHei" horizontalCenter="0" size="20" />
+<e:Button id="rankButton" label="" left="0" x="0" scaleX="1" scaleY="1" verticalCenter="0">
+	<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lobby_rankOpen_btn_1" />
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+		</e:Skin>
+	</e:skinName>
+</e:Button>
+<e:Button id="promoteBtn" label="" horizontalCenter="450" y="651">
+	<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_promote_1" source.down="club_promote_2" />
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+		</e:Skin>
+	</e:skinName>
+</e:Button>
+	<e:Button id="myDataBtn" label="" horizontalCenter="215" y="652.2">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_myData_btn1" source.down="mjl_myData_btn2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+<e:Image id="fundBg" y="658" source="fundBg" horizontalCenter="-324" />
+<e:Label id="fundNum" text="当前基金：20000" fontFamily="Microsoft YaHei" textColor="0x1e97ec" size="26" bottom="26"
+         horizontalCenter="-324" />
+<e:Button id="openAudienceListBtn" label="" verticalCenter="0" right="0">
+	<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="audienceOpenBtn" />
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+		</e:Skin>
+	</e:skinName>
+</e:Button>
+	<e:Group id="menuEffect" width="250" anchorOffsetX="0" height="375" scaleX="1" scaleY="1" anchorOffsetY="0" left="128" top="96" visible="false">
+		<e:Group id="menuBtnGroup" width="250" anchorOffsetX="0" height="375" scaleX="1" scaleY="1" x="0" y="0">
+		<e:Image scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" source="teahouse_list_bg" scale9Grid="15,26,47,84"/>
+		<e:Scroller left="0" right="0" top="0" bottom="0">
+			<e:List id="teaGroupList" itemRendererSkinName="TeaHouseRadioButtonSkin">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object a="null"/>
+				<e:Object a="null"/>
+				<e:Object a="null"/>
+				<e:Object a="null"/>
+				<e:Object a="null"/>
+				<e:Object a="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="top" gap="1"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		</e:Group>
+	</e:Group>
+	<e:CheckBox id="teaListButton" label="123456" y="48.32" width="285" height="50" currentState="up" right="887" anchorOffsetX="0" anchorOffsetY="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Label text="" left="0" right="0" top="0" bottom="0"/>
+			<e:Image verticalCenter="0" source="teahouse_btn_bg" scale9Grid="22,1,57,47" left="0" right="0"/>
+			<e:Image verticalCenter="0" scale9Grid="22,1,57,47" left="15" x="10" y="10" width="102" source="teahouse_chanege_text"/>
+			<e:Image id="menuBtnArrow" anchorOffsetX="15" anchorOffsetY="9" verticalCenter="2" source="teahouse_arrow_icon" right="15"/>
+			<e:Label id="labelDisplay" verticalCenter="2" textColor="0xb5dcff" left="120"/>
+		</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:Button id="cloudRecordBtn" label="" horizontalCenter="329.5" verticalCenter="-298">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="cloudRecord" scaleX.down="0.9" scaleY.down="0.9"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+<!--<e:Button id="tableOuteBtn" label="" x="501" y="44" width="142" height="46">
+<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="room_manage_btn1" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0" />
+	<e:Label text="离开" size="20" textColor="0xffffff" horizontalCenter="0" verticalCenter="0" fontFamily="SimHei" />
+</e:Skin>
+</e:Button>
+-->
+</e:Skin>

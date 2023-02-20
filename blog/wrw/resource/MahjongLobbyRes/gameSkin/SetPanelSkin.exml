@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mjl_common_bj_1" width="900" height="460" horizontalCenter="0" verticalCenter="35" scale9Grid="33,89,205,539"/>
+	<e:Image source="common_title_bg" top="80" horizontalCenter="0"/>
+	<e:Image source="mjl_setting_json.setting_word_set" top="105" horizontalCenter="0"/>
+
+
+	<e:Image anchorOffsetX="0" width="880" scale9Grid="51,53,176,477" anchorOffsetY="0" height="440" verticalCenter="32" horizontalCenter="0" source="mjl_common_bj_2"/>
+	<e:Image source="mjl_common_bj_6" width="840" height="400" scale9Grid="20,16,122,101" horizontalCenter="0" verticalCenter="32"/>
+	<e:Group id="content" width="745.45" height="268.18" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="220"/>
+	<e:Group id="disturbGroup"  width="748" bottom="231" anchorOffsetX="0" horizontalCenter="0">
+			<e:RadioButton id="disturb1" groupName="disturb" name="cardType0" icon="Card_1_1_1"  skinName="LobbyRadioButtonSkin" verticalCenter="0" horizontalCenter="-153.5"/>
+			<e:RadioButton id="disturb2" groupName="disturb" name="cardType1" icon="Brown_Card_1_1_1" skinName="LobbyRadioButtonSkin" verticalCenter="0" horizontalCenter="153.5"/>
+			<e:Label text="免打扰" fontFamily="SimHei" size="32" scaleX="1" scaleY="1" verticalCenter="0" left="0" textColor="0x0287e3"/>
+			<e:Label text="开" fontFamily="SimHei" size="32" scaleX="1" scaleY="1" verticalCenter="0.5" y="-100" textColor="0x0287e3" horizontalCenter="-81"/>
+			<e:Label text="关" fontFamily="SimHei" size="32" verticalCenter="0.5" verticalAlign="top" textAlign="left" width="108" y="-100" scaleX="1" scaleY="1" textColor="0x0287e3" horizontalCenter="264"/>
+			<!--<e:RadioButton id="cardBg2" groupName="cardBgGroup" skinName="LobbyRadioButtonSkin" x="480" name="cardBg2" />-->
+
+
+
+		</e:Group>
+	<e:Button id="_restartGameBtn" label="" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-200" enabled="true" bottom="150">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="setting_btn_restart_1" source.down="setting_btn_restart_2"/>
+			<e:Label id="labelDisplay" stroke="2" strokeColor="0xaa5408" top="7" horizontalCenter="0" textColor="0xfcfcfc" fontFamily="楷体" size="35" scaleX.down="0.95" scaleY.down="0.95"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_exitBtn" label="" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="200" enabled="true" bottom="150">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="setting_btn_logout_1" source.down="setting_btn_logout_2"/>
+			<e:Label id="labelDisplay" stroke="2" strokeColor="0xaa5408" top="7" horizontalCenter="0" textColor="0xfcfcfc" fontFamily="楷体" size="35" scaleX.down="0.95" scaleY.down="0.95"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="closeButton" label="Button" skinName="MJ_CloseButton1Skin" right="160" top="140"/>
+</e:Skin>

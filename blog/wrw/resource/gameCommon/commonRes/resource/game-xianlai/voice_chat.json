@@ -1,0 +1,45 @@
+{
+  "file": "voice_chat.png",
+  "frames": {
+    "voice_icon": {
+      "x": 0,
+      "y": 211,
+      "w": 16,
+      "h": 22,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 16,
+      "sourceH": 22
+    },
+    "voice_paopao": {
+      "x": 210,
+      "y": 204,
+      "w": 100,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 100,
+      "sourceH": 48
+    },
+    "voice_recording": {
+      "x": 0,
+      "y": 0,
+      "w": 209,
+      "h": 210,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 209,
+      "sourceH": 210
+    },
+    "voiceloading": {
+      "x": 210,
+      "y": 0,
+      "w": 203,
+      "h": 203,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 203,
+      "sourceH": 203
+    }
+  }
+}

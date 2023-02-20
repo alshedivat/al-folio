@@ -1,0 +1,65 @@
+{
+  "file": "game_effect.png",
+  "frames": {
+    "action_bu": {
+      "x": 0,
+      "y": 332,
+      "w": 164,
+      "h": 168,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 164,
+      "sourceH": 168
+    },
+    "action_chi": {
+      "x": 0,
+      "y": 0,
+      "w": 178,
+      "h": 168,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 178,
+      "sourceH": 168
+    },
+    "action_gang": {
+      "x": 0,
+      "y": 169,
+      "w": 178,
+      "h": 162,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 178,
+      "sourceH": 162
+    },
+    "action_peng": {
+      "x": 179,
+      "y": 0,
+      "w": 183,
+      "h": 162,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 183,
+      "sourceH": 162
+    },
+    "action_win": {
+      "x": 179,
+      "y": 163,
+      "w": 154,
+      "h": 175,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 154,
+      "sourceH": 175
+    },
+    "action_zimo": {
+      "x": 165,
+      "y": 339,
+      "w": 198,
+      "h": 136,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 198,
+      "sourceH": 136
+    }
+  }
+}

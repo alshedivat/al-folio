@@ -1,0 +1,475 @@
+{
+  "file": "public.png",
+  "frames": {
+    "active_refresh-blue": {
+      "x": 290,
+      "y": 211,
+      "w": 211,
+      "h": 234,
+      "offX": 22,
+      "offY": 11,
+      "sourceW": 256,
+      "sourceH": 256
+    },
+    "active_refresh-green": {
+      "x": 572,
+      "y": 0,
+      "w": 211,
+      "h": 234,
+      "offX": 22,
+      "offY": 11,
+      "sourceW": 256,
+      "sourceH": 256
+    },
+    "active_refresh-yellow": {
+      "x": 784,
+      "y": 0,
+      "w": 211,
+      "h": 234,
+      "offX": 22,
+      "offY": 11,
+      "sourceW": 256,
+      "sourceH": 256
+    },
+    "activeBg": {
+      "x": 0,
+      "y": 211,
+      "w": 289,
+      "h": 213,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 289,
+      "sourceH": 213
+    },
+    "activeDissolution_1": {
+      "x": 528,
+      "y": 912,
+      "w": 128,
+      "h": 43,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 128,
+      "sourceH": 43
+    },
+    "activeDissolution_2": {
+      "x": 621,
+      "y": 845,
+      "w": 128,
+      "h": 43,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 128,
+      "sourceH": 43
+    },
+    "activeInvitation_1": {
+      "x": 583,
+      "y": 801,
+      "w": 162,
+      "h": 43,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 162,
+      "sourceH": 43
+    },
+    "activeInvitation_2": {
+      "x": 822,
+      "y": 603,
+      "w": 162,
+      "h": 43,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 162,
+      "sourceH": 43
+    },
+    "arrows": {
+      "x": 588,
+      "y": 959,
+      "w": 70,
+      "h": 60,
+      "offX": 0,
+      "offY": 5,
+      "sourceW": 70,
+      "sourceH": 70
+    },
+    "btn_text_cancle": {
+      "x": 890,
+      "y": 697,
+      "w": 82,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 82,
+      "sourceH": 34
+    },
+    "btn_text_sure": {
+      "x": 643,
+      "y": 763,
+      "w": 83,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 83,
+      "sourceH": 34
+    },
+    "btnpopgreen": {
+      "x": 827,
+      "y": 235,
+      "w": 187,
+      "h": 64,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 188,
+      "sourceH": 64
+    },
+    "buttonyellow": {
+      "x": 434,
+      "y": 592,
+      "w": 234,
+      "h": 70,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 234,
+      "sourceH": 70
+    },
+    "common_bg1": {
+      "x": 735,
+      "y": 692,
+      "w": 79,
+      "h": 77,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 79,
+      "sourceH": 78
+    },
+    "deleteRoom": {
+      "x": 434,
+      "y": 663,
+      "w": 208,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 208,
+      "sourceH": 69
+    },
+    "frame_bg": {
+      "x": 621,
+      "y": 414,
+      "w": 127,
+      "h": 144,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 129,
+      "sourceH": 146
+    },
+    "inputBg": {
+      "x": 434,
+      "y": 801,
+      "w": 148,
+      "h": 50,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 148,
+      "sourceH": 50
+    },
+    "invitation_bg": {
+      "x": 0,
+      "y": 852,
+      "w": 500,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 500,
+      "sourceH": 59
+    },
+    "loading1": {
+      "x": 657,
+      "y": 889,
+      "w": 69,
+      "h": 69,
+      "offX": 4,
+      "offY": 3,
+      "sourceW": 76,
+      "sourceH": 74
+    },
+    "loading2": {
+      "x": 947,
+      "y": 495,
+      "w": 76,
+      "h": 74,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 76,
+      "sourceH": 74
+    },
+    "mjl_voice_bg": {
+      "x": 0,
+      "y": 912,
+      "w": 527,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 527,
+      "sourceH": 48
+    },
+    "mjl_voice_thumb": {
+      "x": 746,
+      "y": 770,
+      "w": 72,
+      "h": 45,
+      "offX": 0,
+      "offY": 9,
+      "sourceW": 72,
+      "sourceH": 63
+    },
+    "new_pub_btn_green_s": {
+      "x": 468,
+      "y": 961,
+      "w": 119,
+      "h": 49,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 121,
+      "sourceH": 51
+    },
+    "new_pub_btn_yellow_s": {
+      "x": 822,
+      "y": 647,
+      "w": 119,
+      "h": 49,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 121,
+      "sourceH": 51
+    },
+    "new_public_btn_yellow": {
+      "x": 0,
+      "y": 961,
+      "w": 256,
+      "h": 60,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 257,
+      "sourceH": 60
+    },
+    "notice_radioBtn_dl1": {
+      "x": 0,
+      "y": 532,
+      "w": 433,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 433,
+      "sourceH": 79
+    },
+    "notice_radioBtn_dl2": {
+      "x": 0,
+      "y": 612,
+      "w": 433,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 433,
+      "sourceH": 79
+    },
+    "public1": {
+      "x": 502,
+      "y": 414,
+      "w": 118,
+      "h": 177,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 118,
+      "sourceH": 177
+    },
+    "public2": {
+      "x": 0,
+      "y": 0,
+      "w": 571,
+      "h": 210,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 573,
+      "sourceH": 210
+    },
+    "public3": {
+      "x": 0,
+      "y": 446,
+      "w": 474,
+      "h": 85,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 474,
+      "sourceH": 85
+    },
+    "public4": {
+      "x": 735,
+      "y": 603,
+      "w": 86,
+      "h": 88,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 87,
+      "sourceH": 88
+    },
+    "public5": {
+      "x": 856,
+      "y": 495,
+      "w": 90,
+      "h": 88,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 90,
+      "sourceH": 88
+    },
+    "public6": {
+      "x": 643,
+      "y": 663,
+      "w": 91,
+      "h": 99,
+      "offX": 6,
+      "offY": 0,
+      "sourceW": 104,
+      "sourceH": 105
+    },
+    "public7": {
+      "x": 502,
+      "y": 235,
+      "w": 178,
+      "h": 178,
+      "offX": 2,
+      "offY": 2,
+      "sourceW": 180,
+      "sourceH": 180
+    },
+    "public8": {
+      "x": 434,
+      "y": 532,
+      "w": 45,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 45,
+      "sourceH": 46
+    },
+    "public9": {
+      "x": 681,
+      "y": 366,
+      "w": 45,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 45,
+      "sourceH": 46
+    },
+    "public10": {
+      "x": 815,
+      "y": 697,
+      "w": 74,
+      "h": 72,
+      "offX": 5,
+      "offY": 3,
+      "sourceW": 82,
+      "sourceH": 78
+    },
+    "public_cancel": {
+      "x": 749,
+      "y": 366,
+      "w": 208,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 208,
+      "sourceH": 69
+    },
+    "public_confirm": {
+      "x": 434,
+      "y": 732,
+      "w": 208,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 208,
+      "sourceH": 69
+    },
+    "redpacket_radioBtn1": {
+      "x": 0,
+      "y": 692,
+      "w": 433,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 433,
+      "sourceH": 79
+    },
+    "redpacket_radioBtn2": {
+      "x": 0,
+      "y": 772,
+      "w": 433,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 433,
+      "sourceH": 79
+    },
+    "roomCards": {
+      "x": 681,
+      "y": 235,
+      "w": 145,
+      "h": 130,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 150,
+      "sourceH": 136
+    },
+    "shop_bg2": {
+      "x": 749,
+      "y": 495,
+      "w": 106,
+      "h": 107,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 108
+    },
+    "title_01": {
+      "x": 257,
+      "y": 961,
+      "w": 210,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 210,
+      "sourceH": 59
+    },
+    "title_02": {
+      "x": 827,
+      "y": 300,
+      "w": 156,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 156,
+      "sourceH": 59
+    },
+    "title_03": {
+      "x": 749,
+      "y": 435,
+      "w": 211,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 211,
+      "sourceH": 59
+    },
+    "title_04": {
+      "x": 501,
+      "y": 852,
+      "w": 119,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 119,
+      "sourceH": 59
+    }
+  }
+}

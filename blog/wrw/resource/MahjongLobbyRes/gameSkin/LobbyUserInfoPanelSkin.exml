@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LobbyUserInfoPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="1000" height="554" verticalCenter="0" source="mjl_common_json.mjl_common_bj_3" scale9Grid="42,38,194,511" horizontalCenter="0"/>
+	<e:Button id="closeButton" x="1055.32" width="100" y="52.01" height="100" skinName="MJ_CloseButton1Skin"/>
+	<e:Image source="userinfo_bg" x="194" y="135" anchorOffsetX="0" width="893" scale9Grid="27,19,162,110"/>
+	<e:Image x="718.65" y="178.68" source="userInfo_score_bg"/>
+	<e:Image x="489" y="157" source="ipAddress_bg" visible="false"/>
+	<e:Image x="495" y="162" source="address_icon" visible="false"/>
+	<e:Group id="head" width="93" height="93" x="220" y="157" anchorOffsetX="0" anchorOffsetY="0">
+	</e:Group>
+	<e:Image source="headIcon_frame" x="210" y="146.6" width="113" height="113"/>
+	<e:Label id="_nameTxt" text="我就是玩家" x="340" y="157" fontFamily="Microsoft YaHei" size="26" textColor="0xfff000" anchorOffsetX="0" width="130" height="26"/>
+	<e:Label id="_idTxt" text="ID:121313" x="340" y="197.68" fontFamily="黑体" anchorOffsetX="0" size="20" textColor="0x1a2f66"/>
+	<e:Label id="_score" text="0" x="744.95" y="183.74" width="85" fontFamily="SimHei" anchorOffsetX="0" textAlign="center" size="26" textColor="0xffffff"/>
+	<e:Label id="_ipTxt" text="IP:255.255.255.255" x="340" y="234.35" fontFamily="黑体" size="20" textColor="0x1a2f66"/>
+	<e:Label text="性别:" x="650" y="232" fontFamily="Microsoft YaHei" anchorOffsetX="0" size="22" textColor="0x1e366b"/>
+	<e:Label text="积分：" x="650" y="185" fontFamily="Microsoft YaHei" anchorOffsetX="0" size="22" textColor="0x1e366b"/>
+
+
+
+
+	<e:Group width="366" height="57" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" verticalCenter="-10">
+		<e:Image source="lobbyRadio_bg" horizontalCenter="0" verticalCenter="0"/>
+		<e:RadioButton id="weekRadioBtn" label="RadioButton" scaleX="1" scaleY="1" width="123" groupName="rate" anchorOffsetX="0" top="0" bottom="0">
+		<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0" includeIn="up,down,disabled"/>
+
+			<e:Image includeIn="upAndSelected,downAndSelected,disabledAndSelected" source="weekIcon_down" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="week_label" verticalCenter="0" horizontalCenter="0"/>
+		</e:Skin>
+		</e:RadioButton>
+		<e:RadioButton id="monthRadioBtn" label="RadioButton" x="123" scaleX="1" scaleY="1" width="123" groupName="rate" top="0" bottom="0">
+		<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+	<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+
+			<e:Image includeIn="upAndSelected,downAndSelected,disabledAndSelected" source="monthIcon_down" width="124" x="-1" height="56" y="0"/>
+	<e:Image source="month_label" verticalCenter="0" horizontalCenter="0"/>
+		</e:Skin>
+		</e:RadioButton>
+		<e:RadioButton id="totalRadioBtn" label="RadioButton" x="246" scaleX="1" scaleY="1" width="123" groupName="rate" top="0" bottom="0">
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+
+			<e:Image includeIn="upAndSelected,downAndSelected,disabledAndSelected" source="totalIcon_down" width="120" x="-2" height="56" y="0"/>
+	<e:Image source="total_label" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:RadioButton>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+
+	</e:Group>
+	<e:Image source="record_show_title" y="338" horizontalCenter="-366"/>
+	<e:Group id="growthData" width="909" height="198" y="383" anchorOffsetX="0" horizontalCenter="0">
+		<e:Image source="data_background1" height="198" left="0" verticalCenter="0"/>
+		<e:Image height="198" source="data_background2" anchorOffsetX="0" width="865" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image height="198" source="data_background3" right="0" verticalCenter="0"/>
+
+		<e:Image source="inGame_text" x="155" y="3"/>
+		<e:Image x="355" y="3" source="winNum_icon"/>
+		<e:Image source="bigWinner_text" x="555" y="3"/>
+		<e:Image x="755" y="3" source="winRate_icon"/>
+		<e:Image source="inning_text" x="20" y="65"/>
+		<e:Image source="rank_text" x="20" y="123"/>
+		<e:Label id="inningLabel_1" text="" y="61.5" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" size="38" fontFamily="SimHei" horizontalCenter="-265" textColor="0x1c719a"/>
+		<e:Label id="inningLabel_2" text="" y="67" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" textColor="0x1c719a" size="26" fontFamily="SimHei" horizontalCenter="-68.5"/>
+		<e:Label id="inningLabel_3" text="" y="67" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" textColor="0x1c719a" size="26" fontFamily="SimHei" horizontalCenter="146"/>
+		<e:Label id="rateLabel" text="" y="66" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" textColor="0x438200" fontFamily="SimHei" size="29" horizontalCenter="329.5"/>
+		<e:Label id="rateLabel_1" text="" y="120.5" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" horizontalCenter="-264.5" size="38" fontFamily="SimHei" textColor="0x1c719a"/>
+		<e:Label id="rateLabel_2" text="" y="127" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" textColor="0x1c719a" size="26" fontFamily="SimHei" horizontalCenter="-68.5"/>
+		<e:Label id="rateLabel_3" text="" y="127" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" textColor="0x1c719a" size="26" fontFamily="SimHei" horizontalCenter="146"/>
+
+	</e:Group>
+	<e:Button id="logoutBtn" visible="true" top="225" left="960">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="userInfo_shop_logout_1" source.down="userInfo_shop_logout_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:RadioButton id="maleBtn" label="RadioButton" x="763" y="222" scaleX="1" scaleY="1" width="74" groupName="gender">
+		<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+		<e:Image source="lobby_radioBtn_normal" includeIn="up,down,disabled"/>
+		<e:Image source="lobby_radioBtn_selected" includeIn="upAndSelected,downAndSelected,disabledAndSelected"/>
+		</e:Skin>
+	</e:RadioButton>
+	<e:RadioButton id="famaleBtn" label="RadioButton" x="869" y="222" scaleX="1" scaleY="1" width="70" groupName="gender">
+		<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+		<e:Image source="lobby_radioBtn_normal" includeIn="up,down,disabled"/>
+		<e:Image source="lobby_radioBtn_selected" includeIn="upAndSelected,downAndSelected,disabledAndSelected"/>
+		</e:Skin>
+	</e:RadioButton>
+	<e:Image source="male_icon" x="713" y="225"/>
+	<e:Image source="famale_icon" x="829" y="224"/>
+	<e:Button id="weChatBtn" label="" x="499" y="148" scaleX="0.3" scaleY="0.3" width="155" height="155">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="s_weixin" horizontalCenter="0" verticalCenter="0" width.down="96%" height.down="96%"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+</e:Skin>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchPlayingPanelSkin" width="790" height="550" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="750" height="500" anchorOffsetX="0" anchorOffsetY="0"
+	         verticalCenter="13" horizontalCenter="0"  source="mjl_common_bj_3" scale9Grid="55,53,170,489"/>
+	<e:Button id="closeButton" x="700" width="104" height="105" y="0" skinName="MJ_CloseButton1Skin">
+
+	</e:Button>
+	<e:Label id="topTableNumber" text="桌号" horizontalCenter="0" verticalAlign="justify" fontFamily="SimHei" size="36" top="80" textColor="0xffffff"/>
+	
+	<e:Group id="playerGroup" width="650" height="300" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"
+	         top="125">
+		<e:Group id="title" width="650" height="50" anchorOffsetX="0" anchorOffsetY="0" x="0" scaleX="1" scaleY="1" top="0">
+			<e:Image scaleX="1" scaleY="1" source="userinfo_bg" anchorOffsetY="0" left="0" right="0" top="0" bottom="0" />
+			<e:Image id="rankText" x="66" scaleX="1" scaleY="1" verticalCenter="0.5"  source="matchid"/>
+			<e:Image id="nameText" source="matchmemeber2" x="232" scaleX="1" scaleY="1" verticalCenter="0" />
+			<e:Image id="playCount" x="412" y="8" rotation="0" scaleX="1" scaleY="1" source="matchmemeber4" />
+		</e:Group>
+		<e:Group width="650" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" top="50"
+		         horizontalCenter="0" bottom="0">
+			<e:Scroller left="0" right="0" top="0" bottom="0">
+				<e:List id="playerList" itemRendererSkinName="MatchPlayerItemSkin">
+					<e:layout>
+						<e:VerticalLayout gap="0" />
+					</e:layout>
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object qq="null"/>
+							<e:Object qq="null"/>
+							<e:Object qq="null"/>
+							<e:Object qq="null"/>
+							<e:Object qq="null"/>
+							<e:Object qq="null"/>
+							<e:Object qq="null"/>
+						</e:Array>
+					</e:ArrayCollection>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+	<e:Button id="dissBtn" label="" horizontalCenter="0" scaleX="0.8" scaleY="0.8" bottom="60">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="match_btn_diss_1" source.down="match_btn_diss_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

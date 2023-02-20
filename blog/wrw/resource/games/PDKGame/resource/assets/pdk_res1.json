@@ -1,0 +1,1035 @@
+{
+  "file": "pdk_res1.png",
+  "frames": {
+    "chat_normal": {
+      "x": 368,
+      "y": 695,
+      "w": 225,
+      "h": 53,
+      "offX": 5,
+      "offY": 3,
+      "sourceW": 232,
+      "sourceH": 72
+    },
+    "chat_select_pdk": {
+      "x": 0,
+      "y": 845,
+      "w": 232,
+      "h": 72,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 232,
+      "sourceH": 72
+    },
+    "chatFrame": {
+      "x": 594,
+      "y": 681,
+      "w": 83,
+      "h": 84,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 83,
+      "sourceH": 84
+    },
+    "chatinput": {
+      "x": 0,
+      "y": 558,
+      "w": 682,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 682,
+      "sourceH": 68
+    },
+    "chatItemPoint": {
+      "x": 497,
+      "y": 329,
+      "w": 14,
+      "h": 14,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 14,
+      "sourceH": 14
+    },
+    "chatRecord_normal": {
+      "x": 466,
+      "y": 627,
+      "w": 225,
+      "h": 53,
+      "offX": 3,
+      "offY": 3,
+      "sourceW": 232,
+      "sourceH": 72
+    },
+    "chatRecord_select": {
+      "x": 135,
+      "y": 711,
+      "w": 232,
+      "h": 72,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 232,
+      "sourceH": 72
+    },
+    "chatTitle": {
+      "x": 856,
+      "y": 417,
+      "w": 166,
+      "h": 40,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 166,
+      "sourceH": 40
+    },
+    "checkout_down": {
+      "x": 368,
+      "y": 749,
+      "w": 33,
+      "h": 33,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 33,
+      "sourceH": 33
+    },
+    "checkout_select": {
+      "x": 535,
+      "y": 975,
+      "w": 39,
+      "h": 39,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 39,
+      "sourceH": 39
+    },
+    "dice": {
+      "x": 663,
+      "y": 838,
+      "w": 61,
+      "h": 62,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 61,
+      "sourceH": 62
+    },
+    "dismiss": {
+      "x": 515,
+      "y": 271,
+      "w": 226,
+      "h": 77,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 227,
+      "sourceH": 77
+    },
+    "game_backLobby1": {
+      "x": 494,
+      "y": 975,
+      "w": 40,
+      "h": 39,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 40,
+      "sourceH": 39
+    },
+    "game_backLobby2": {
+      "x": 936,
+      "y": 378,
+      "w": 39,
+      "h": 38,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 39,
+      "sourceH": 38
+    },
+    "game_common4": {
+      "x": 277,
+      "y": 425,
+      "w": 231,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 231,
+      "sourceH": 79
+    },
+    "game_common5": {
+      "x": 515,
+      "y": 191,
+      "w": 231,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 231,
+      "sourceH": 79
+    },
+    "game_common_cancel": {
+      "x": 0,
+      "y": 627,
+      "w": 244,
+      "h": 83,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 244,
+      "sourceH": 83
+    },
+    "game_common_sure": {
+      "x": 671,
+      "y": 0,
+      "w": 237,
+      "h": 81,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 237,
+      "sourceH": 81
+    },
+    "game_dismiss": {
+      "x": 245,
+      "y": 627,
+      "w": 220,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 220,
+      "sourceH": 67
+    },
+    "game_host_mask": {
+      "x": 683,
+      "y": 582,
+      "w": 205,
+      "h": 33,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 205,
+      "sourceH": 33
+    },
+    "game_leaveRoom1": {
+      "x": 715,
+      "y": 349,
+      "w": 220,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 220,
+      "sourceH": 67
+    },
+    "game_ready": {
+      "x": 685,
+      "y": 424,
+      "w": 170,
+      "h": 70,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 170,
+      "sourceH": 70
+    },
+    "game_readyIcon": {
+      "x": 135,
+      "y": 784,
+      "w": 88,
+      "h": 37,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 88,
+      "sourceH": 37
+    },
+    "game_seat_bg": {
+      "x": 923,
+      "y": 101,
+      "w": 82,
+      "h": 102,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 82,
+      "sourceH": 102
+    },
+    "game_userInfo_close1": {
+      "x": 820,
+      "y": 684,
+      "w": 50,
+      "h": 49,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 50,
+      "sourceH": 49
+    },
+    "game_userInfo_close2": {
+      "x": 820,
+      "y": 684,
+      "w": 50,
+      "h": 49,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 50,
+      "sourceH": 49
+    },
+    "game_wx_share": {
+      "x": 233,
+      "y": 784,
+      "w": 220,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 220,
+      "sourceH": 70
+    },
+    "musicClose": {
+      "x": 859,
+      "y": 495,
+      "w": 70,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 71
+    },
+    "musicOpen": {
+      "x": 423,
+      "y": 939,
+      "w": 70,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 71
+    },
+    "num_1_0": {
+      "x": 722,
+      "y": 161,
+      "w": 21,
+      "h": 29,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 22,
+      "sourceH": 29
+    },
+    "num_1_1": {
+      "x": 910,
+      "y": 567,
+      "w": 19,
+      "h": 29,
+      "offX": 2,
+      "offY": 0,
+      "sourceW": 22,
+      "sourceH": 29
+    },
+    "num_1_2": {
+      "x": 660,
+      "y": 941,
+      "w": 19,
+      "h": 29,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 22,
+      "sourceH": 29
+    },
+    "num_1_3": {
+      "x": 756,
+      "y": 850,
+      "w": 18,
+      "h": 29,
+      "offX": 2,
+      "offY": 0,
+      "sourceW": 22,
+      "sourceH": 29
+    },
+    "num_1_4": {
+      "x": 699,
+      "y": 161,
+      "w": 22,
+      "h": 28,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 22,
+      "sourceH": 29
+    },
+    "num_1_5": {
+      "x": 903,
+      "y": 705,
+      "w": 18,
+      "h": 28,
+      "offX": 2,
+      "offY": 1,
+      "sourceW": 22,
+      "sourceH": 29
+    },
+    "num_1_6": {
+      "x": 889,
+      "y": 567,
+      "w": 20,
+      "h": 29,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 22,
+      "sourceH": 29
+    },
+    "num_1_7": {
+      "x": 639,
+      "y": 941,
+      "w": 20,
+      "h": 28,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 22,
+      "sourceH": 29
+    },
+    "num_1_8": {
+      "x": 995,
+      "y": 573,
+      "w": 20,
+      "h": 29,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 22,
+      "sourceH": 29
+    },
+    "num_1_9": {
+      "x": 430,
+      "y": 749,
+      "w": 21,
+      "h": 29,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 22,
+      "sourceH": 29
+    },
+    "num_2_0": {
+      "x": 630,
+      "y": 901,
+      "w": 31,
+      "h": 39,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_2_1": {
+      "x": 1001,
+      "y": 495,
+      "w": 21,
+      "h": 38,
+      "offX": 4,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_2_2": {
+      "x": 725,
+      "y": 850,
+      "w": 30,
+      "h": 38,
+      "offX": 2,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_2_3": {
+      "x": 575,
+      "y": 964,
+      "w": 31,
+      "h": 39,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_2_4": {
+      "x": 976,
+      "y": 378,
+      "w": 31,
+      "h": 38,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_2_5": {
+      "x": 820,
+      "y": 734,
+      "w": 31,
+      "h": 39,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_2_6": {
+      "x": 871,
+      "y": 679,
+      "w": 31,
+      "h": 39,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_2_7": {
+      "x": 694,
+      "y": 901,
+      "w": 29,
+      "h": 38,
+      "offX": 2,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_2_8": {
+      "x": 901,
+      "y": 625,
+      "w": 31,
+      "h": 39,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_2_9": {
+      "x": 933,
+      "y": 625,
+      "w": 31,
+      "h": 39,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_2_+": {
+      "x": 402,
+      "y": 749,
+      "w": 27,
+      "h": 30,
+      "offX": 3,
+      "offY": 8,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_3_0": {
+      "x": 740,
+      "y": 810,
+      "w": 31,
+      "h": 39,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_3_1": {
+      "x": 1001,
+      "y": 534,
+      "w": 21,
+      "h": 38,
+      "offX": 4,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_3_2": {
+      "x": 807,
+      "y": 774,
+      "w": 30,
+      "h": 38,
+      "offX": 2,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_3_3": {
+      "x": 662,
+      "y": 901,
+      "w": 31,
+      "h": 39,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_3_4": {
+      "x": 965,
+      "y": 625,
+      "w": 31,
+      "h": 38,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_3_5": {
+      "x": 607,
+      "y": 964,
+      "w": 31,
+      "h": 39,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_3_6": {
+      "x": 772,
+      "y": 810,
+      "w": 31,
+      "h": 39,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_3_7": {
+      "x": 935,
+      "y": 665,
+      "w": 29,
+      "h": 38,
+      "offX": 2,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_3_8": {
+      "x": 903,
+      "y": 665,
+      "w": 31,
+      "h": 39,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_3_9": {
+      "x": 852,
+      "y": 734,
+      "w": 31,
+      "h": 39,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "num_3_-": {
+      "x": 245,
+      "y": 695,
+      "w": 27,
+      "h": 14,
+      "offX": 3,
+      "offY": 16,
+      "sourceW": 32,
+      "sourceH": 39
+    },
+    "pdk_game_chat1": {
+      "x": 923,
+      "y": 204,
+      "w": 86,
+      "h": 86,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 86,
+      "sourceH": 86
+    },
+    "pdk_game_chat2": {
+      "x": 176,
+      "y": 933,
+      "w": 86,
+      "h": 86,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 86,
+      "sourceH": 86
+    },
+    "pdk_game_chupai_1": {
+      "x": 0,
+      "y": 918,
+      "w": 175,
+      "h": 89,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 175,
+      "sourceH": 89
+    },
+    "pdk_game_chupai_2": {
+      "x": 509,
+      "y": 424,
+      "w": 175,
+      "h": 89,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 175,
+      "sourceH": 89
+    },
+    "pdk_game_help1": {
+      "x": 685,
+      "y": 495,
+      "w": 86,
+      "h": 86,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 86,
+      "sourceH": 86
+    },
+    "pdk_game_help2": {
+      "x": 263,
+      "y": 933,
+      "w": 86,
+      "h": 86,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 86,
+      "sourceH": 86
+    },
+    "pdk_game_setting1": {
+      "x": 454,
+      "y": 749,
+      "w": 86,
+      "h": 86,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 86,
+      "sourceH": 86
+    },
+    "pdk_game_setting2": {
+      "x": 394,
+      "y": 852,
+      "w": 86,
+      "h": 86,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 86,
+      "sourceH": 86
+    },
+    "pdk_game_tishi_1": {
+      "x": 747,
+      "y": 161,
+      "w": 175,
+      "h": 89,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 175,
+      "sourceH": 89
+    },
+    "pdk_game_tishi_2": {
+      "x": 747,
+      "y": 251,
+      "w": 175,
+      "h": 89,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 175,
+      "sourceH": 89
+    },
+    "pdk_game_voice1": {
+      "x": 772,
+      "y": 495,
+      "w": 86,
+      "h": 86,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 86,
+      "sourceH": 86
+    },
+    "pdk_game_voice2": {
+      "x": 936,
+      "y": 291,
+      "w": 86,
+      "h": 86,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 86,
+      "sourceH": 86
+    },
+    "pdk_help1": {
+      "x": 765,
+      "y": 616,
+      "w": 70,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 67
+    },
+    "pdk_help2": {
+      "x": 692,
+      "y": 616,
+      "w": 72,
+      "h": 70,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 72,
+      "sourceH": 70
+    },
+    "pdk_NDchat1": {
+      "x": 930,
+      "y": 495,
+      "w": 70,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 67
+    },
+    "pdk_NDchat2": {
+      "x": 598,
+      "y": 838,
+      "w": 64,
+      "h": 62,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 64,
+      "sourceH": 62
+    },
+    "pdk_NDoperate_host1": {
+      "x": 494,
+      "y": 907,
+      "w": 70,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 67
+    },
+    "pdk_NDoperate_host2": {
+      "x": 350,
+      "y": 939,
+      "w": 72,
+      "h": 70,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 72,
+      "sourceH": 70
+    },
+    "pdk_NDsetting1": {
+      "x": 669,
+      "y": 766,
+      "w": 70,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 67
+    },
+    "pdk_NDsetting2": {
+      "x": 481,
+      "y": 836,
+      "w": 72,
+      "h": 70,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 72,
+      "sourceH": 70
+    },
+    "pdk_NDvoice_btn1": {
+      "x": 749,
+      "y": 687,
+      "w": 70,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 67
+    },
+    "pdk_NDvoice_btn2": {
+      "x": 836,
+      "y": 616,
+      "w": 64,
+      "h": 62,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 64,
+      "sourceH": 63
+    },
+    "pdk_setting_control1": {
+      "x": 565,
+      "y": 901,
+      "w": 64,
+      "h": 62,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 64,
+      "sourceH": 62
+    },
+    "pdk_setting_control2": {
+      "x": 930,
+      "y": 563,
+      "w": 64,
+      "h": 61,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 64,
+      "sourceH": 61
+    },
+    "replace": {
+      "x": 497,
+      "y": 349,
+      "w": 217,
+      "h": 74,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 218,
+      "sourceH": 74
+    },
+    "sendChat": {
+      "x": 671,
+      "y": 82,
+      "w": 227,
+      "h": 78,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 227,
+      "sourceH": 78
+    },
+    "setword": {
+      "x": 856,
+      "y": 458,
+      "w": 163,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 163,
+      "sourceH": 36
+    },
+    "slide": {
+      "x": 135,
+      "y": 822,
+      "w": 23,
+      "h": 19,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 23,
+      "sourceH": 19
+    },
+    "slideBg": {
+      "x": 277,
+      "y": 514,
+      "w": 392,
+      "h": 32,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 392,
+      "sourceH": 32
+    },
+    "soundClose": {
+      "x": 598,
+      "y": 766,
+      "w": 70,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 71,
+      "sourceH": 71
+    },
+    "soundOpen": {
+      "x": 678,
+      "y": 687,
+      "w": 70,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 71
+    },
+    "total_gamehost": {
+      "x": 749,
+      "y": 755,
+      "w": 57,
+      "h": 54,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 57,
+      "sourceH": 55
+    },
+    "total_headbg": {
+      "x": 909,
+      "y": 0,
+      "w": 100,
+      "h": 100,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 100,
+      "sourceH": 100
+    },
+    "total_item": {
+      "x": 277,
+      "y": 0,
+      "w": 237,
+      "h": 328,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 237,
+      "sourceH": 328
+    },
+    "total_itembg": {
+      "x": 0,
+      "y": 0,
+      "w": 276,
+      "h": 557,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 276,
+      "sourceH": 557
+    },
+    "total_share": {
+      "x": 233,
+      "y": 852,
+      "w": 160,
+      "h": 80,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 160,
+      "sourceH": 80
+    },
+    "total_win": {
+      "x": 554,
+      "y": 766,
+      "w": 43,
+      "h": 116,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 43,
+      "sourceH": 116
+    },
+    "total_word": {
+      "x": 277,
+      "y": 329,
+      "w": 219,
+      "h": 95,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 219,
+      "sourceH": 95
+    },
+    "userInfo_headBg": {
+      "x": 0,
+      "y": 711,
+      "w": 134,
+      "h": 133,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 133
+    },
+    "userInfo_Item": {
+      "x": 515,
+      "y": 0,
+      "w": 155,
+      "h": 190,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 190
+    },
+    "userInfo_man": {
+      "x": 671,
+      "y": 161,
+      "w": 27,
+      "h": 27,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 27,
+      "sourceH": 27
+    },
+    "userInfo_woman": {
+      "x": 1006,
+      "y": 101,
+      "w": 16,
+      "h": 27,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 16,
+      "sourceH": 27
+    }
+  }
+}

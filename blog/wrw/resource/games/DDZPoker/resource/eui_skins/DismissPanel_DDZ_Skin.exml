@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DismissPanel_DDZ_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+
+
+
+
+	<e:Group verticalCenter="0" anchorOffsetX="0" horizontalCenter="0" width="516" height="346">
+		<e:Image anchorOffsetY="0" anchorOffsetX="5.24" scaleX="1" scaleY="1" top="0" source="dlm_ej_bg_5_game_png" left="0" right="0" bottom="0" scale9Grid="64,91,388,143"/>
+		<e:Image y="16" horizontalCenter="0" source="tdk_ej_tishi" visible="false"/>
+		<e:Label id="info" text="" anchorOffsetY="0" horizontalCenter="4" textAlign="left" verticalAlign="top" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" size="20" anchorOffsetX="0" left="27" right="19" top="90" bottom="200" textColor="0x412417" bold="true"/>
+		<e:Label id="_timeTxt" text="100" scaleX="1" scaleY="1" textColor="0x9c8080" fontFamily="Microsoft YaHei" top="18" right="16"/>
+		<e:Group id="content" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0">
+		</e:Group>
+		<e:Button id="yesBtn" label="" horizontalCenter="-138" x="133" scaleX="1" scaleY="1" bottom="22">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dlm_agree_dk" source.down="dlm_agree"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" textColor="0x000000" fontFamily="SimHei"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Button id="noBtn" label="" horizontalCenter="138" x="393" scaleX="1" scaleY="1" bottom="22">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dlm_disagree_dk" source.down="dlm_disagree"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" textColor="0x000000" fontFamily="SimHei"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+	</e:Group>
+
+
+
+</e:Skin>

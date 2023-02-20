@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Slider_TDK_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="241">
+	<e:Image id="track" horizontalCenter="0" verticalCenter="0" width="241" scale9Grid="20,12,61,17" source=""/>
+	<e:Button id="trackHighlight" label="" y="4" x="0">
+
+
+
+	</e:Button>
+	<e:Image id="thumb" verticalCenter="-3" left="0" source=""/>
+</e:Skin>

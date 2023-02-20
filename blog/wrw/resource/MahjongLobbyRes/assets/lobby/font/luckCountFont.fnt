@@ -1,0 +1,11 @@
+{"file":"luckCountFont.png","frames":{
+"1":{"x":28,"y":0,"w":6,"h":16,"offX":2,"offY":1,"sourceW":13,"sourceH":19},
+"2":{"x":15,"y":0,"w":11,"h":16,"offX":1,"offY":1,"sourceW":13,"sourceH":19},
+"3":{"x":28,"y":18,"w":11,"h":16,"offX":1,"offY":1,"sourceW":13,"sourceH":19},
+"4":{"x":0,"y":18,"w":13,"h":16,"offX":0,"offY":1,"sourceW":13,"sourceH":19},
+"5":{"x":14,"y":36,"w":11,"h":16,"offX":1,"offY":1,"sourceW":13,"sourceH":19},
+"6":{"x":27,"y":36,"w":11,"h":16,"offX":1,"offY":1,"sourceW":13,"sourceH":19},
+"7":{"x":0,"y":36,"w":12,"h":16,"offX":1,"offY":1,"sourceW":13,"sourceH":19},
+"8":{"x":40,"y":0,"w":11,"h":16,"offX":1,"offY":1,"sourceW":13,"sourceH":19},
+"9":{"x":15,"y":18,"w":11,"h":16,"offX":1,"offY":1,"sourceW":13,"sourceH":19},
+"0":{"x":0,"y":0,"w":13,"h":16,"offX":0,"offY":1,"sourceW":13,"sourceH":19}}}

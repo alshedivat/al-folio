@@ -1,0 +1,48 @@
+{"mc":{
+	"lose":{
+		"frameRate":24,
+		"events":[
+			
+			],
+		"frames":[
+			
+			]
+},"winLight":{
+		"frameRate":24,
+		"labels":[
+			{"name":"winLight","frame":1,"end":4}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"win_light_1_png",
+			"x":3,
+			"y":3
+			},
+			{
+			"res":"win_light_2_png",
+			"x":3,
+			"y":3
+			},
+			{
+			"res":"win_light_3_png",
+			"x":3,
+			"y":3
+			},
+			{
+			"res":"win_light_4_png",
+			"x":6,
+			"y":4
+			}
+			]
+}},
+	"res":{
+		"win_light_2_png":{"x":0,"y":0,"w":522,"h":157},
+		"win_light_1_png":{"x":0,"y":318,"w":521,"h":157},
+		"win_light_3_png":{"x":0,"y":159,"w":522,"h":157},
+		"win_light_4_png":{"x":0,"y":477,"w":519,"h":156}
+	}}

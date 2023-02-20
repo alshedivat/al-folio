@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WaitPlayerItemSkin" width="590" height="50" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="uidLabel" text="ID" x="1" textAlign="center" anchorOffsetX="0"
+	         width="150" height="30" fontFamily="黑体"  size="26" verticalCenter="0" verticalAlign="middle" textColor="0xffffff"/>
+	<e:Label id="nameLabel" text="姓名" x="143.62" textAlign="center"
+	         anchorOffsetX="0" width="192" height="30" fontFamily="黑体"  size="26" verticalCenter="0" verticalAlign="middle" textColor="0xffffff"/>
+	<e:Label id="stateLabel" text="状态" x="345" textAlign="center" anchorOffsetX="0"
+	         width="125" height="30" fontFamily="黑体"  size="26" verticalCenter="0" verticalAlign="middle" textColor="0xffffff"/>
+	<e:Image source="matchMemberLine" bottom="0" horizontalCenter="0" height="2" width="590" />
+	<e:Button id="kickBtn" label="踢出" scaleX="0.7" scaleY="0.7" right="14" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="public_json.new_pub_btn_green_s"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0xffffff" fontFamily="SimHei"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

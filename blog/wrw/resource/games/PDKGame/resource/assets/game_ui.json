@@ -1,0 +1,205 @@
+{
+  "file": "game_ui.png",
+  "frames": {
+    "fanben": {
+      "x": 397,
+      "y": 294,
+      "w": 99,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 99,
+      "sourceH": 71
+    },
+    "pdk_buchu": {
+      "x": 0,
+      "y": 166,
+      "w": 175,
+      "h": 89,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 175,
+      "sourceH": 89
+    },
+    "pdk_buchu_1": {
+      "x": 214,
+      "y": 0,
+      "w": 175,
+      "h": 89,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 175,
+      "sourceH": 89
+    },
+    "pdk_changeRoom_1": {
+      "x": 176,
+      "y": 338,
+      "w": 181,
+      "h": 70,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 181,
+      "sourceH": 70
+    },
+    "pdk_changeRoom_2": {
+      "x": 221,
+      "y": 409,
+      "w": 181,
+      "h": 70,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 181,
+      "sourceH": 70
+    },
+    "pdk_chupai": {
+      "x": 214,
+      "y": 90,
+      "w": 175,
+      "h": 89,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 175,
+      "sourceH": 89
+    },
+    "pdk_chupai_press": {
+      "x": 0,
+      "y": 256,
+      "w": 175,
+      "h": 89,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 175,
+      "sourceH": 89
+    },
+    "pdk_qxtuoguan": {
+      "x": 0,
+      "y": 0,
+      "w": 213,
+      "h": 82,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 213,
+      "sourceH": 82
+    },
+    "pdk_qxtuoguan_press": {
+      "x": 0,
+      "y": 83,
+      "w": 213,
+      "h": 82,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 213,
+      "sourceH": 82
+    },
+    "pdk_star": {
+      "x": 507,
+      "y": 0,
+      "w": 178,
+      "h": 69,
+      "offX": 2,
+      "offY": 0,
+      "sourceW": 181,
+      "sourceH": 69
+    },
+    "pdk_star_press": {
+      "x": 390,
+      "y": 118,
+      "w": 178,
+      "h": 69,
+      "offX": 2,
+      "offY": 0,
+      "sourceW": 181,
+      "sourceH": 69
+    },
+    "pdk_tishi": {
+      "x": 0,
+      "y": 346,
+      "w": 175,
+      "h": 89,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 175,
+      "sourceH": 89
+    },
+    "pdk_tishi_press": {
+      "x": 176,
+      "y": 180,
+      "w": 175,
+      "h": 89,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 175,
+      "sourceH": 89
+    },
+    "playagain1": {
+      "x": 0,
+      "y": 436,
+      "w": 220,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 220,
+      "sourceH": 67
+    },
+    "playagain2": {
+      "x": 176,
+      "y": 270,
+      "w": 220,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 220,
+      "sourceH": 67
+    },
+    "seat_bg": {
+      "x": 390,
+      "y": 0,
+      "w": 116,
+      "h": 117,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 116,
+      "sourceH": 117
+    },
+    "seat_card": {
+      "x": 352,
+      "y": 180,
+      "w": 18,
+      "h": 24,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 18,
+      "sourceH": 24
+    },
+    "seat_gray": {
+      "x": 397,
+      "y": 188,
+      "w": 106,
+      "h": 105,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 106,
+      "sourceH": 105
+    },
+    "seat_kuang": {
+      "x": 569,
+      "y": 106,
+      "w": 118,
+      "h": 62,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 118,
+      "sourceH": 62
+    },
+    "seat_mask": {
+      "x": 686,
+      "y": 0,
+      "w": 106,
+      "h": 105,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 106,
+      "sourceH": 105
+    }
+  }
+}

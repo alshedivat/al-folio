@@ -1,0 +1,155 @@
+{
+  "file": "mjl_buy.png",
+  "frames": {
+    "buy_btn": {
+      "x": 0,
+      "y": 774,
+      "w": 185,
+      "h": 71,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 187,
+      "sourceH": 73
+    },
+    "buy_btn2": {
+      "x": 820,
+      "y": 0,
+      "w": 185,
+      "h": 71,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 187,
+      "sourceH": 73
+    },
+    "buy_diamond105": {
+      "x": 0,
+      "y": 0,
+      "w": 204,
+      "h": 257,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 205,
+      "sourceH": 257
+    },
+    "buy_diamond106": {
+      "x": 205,
+      "y": 0,
+      "w": 204,
+      "h": 257,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 205,
+      "sourceH": 257
+    },
+    "buy_diamond107": {
+      "x": 410,
+      "y": 0,
+      "w": 204,
+      "h": 257,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 205,
+      "sourceH": 257
+    },
+    "buy_diamond108": {
+      "x": 615,
+      "y": 0,
+      "w": 204,
+      "h": 257,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 205,
+      "sourceH": 257
+    },
+    "buy_diamond109": {
+      "x": 0,
+      "y": 258,
+      "w": 204,
+      "h": 257,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 205,
+      "sourceH": 257
+    },
+    "buy_goldbean1": {
+      "x": 205,
+      "y": 258,
+      "w": 204,
+      "h": 257,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 204,
+      "sourceH": 257
+    },
+    "buy_goldbean2": {
+      "x": 0,
+      "y": 516,
+      "w": 204,
+      "h": 257,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 204,
+      "sourceH": 257
+    },
+    "buy_goldbean3": {
+      "x": 410,
+      "y": 258,
+      "w": 204,
+      "h": 257,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 204,
+      "sourceH": 257
+    },
+    "buy_goldbean4": {
+      "x": 205,
+      "y": 516,
+      "w": 204,
+      "h": 257,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 204,
+      "sourceH": 257
+    },
+    "buy_title1": {
+      "x": 410,
+      "y": 516,
+      "w": 204,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 207,
+      "sourceH": 53
+    },
+    "buy_title2": {
+      "x": 0,
+      "y": 917,
+      "w": 207,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 207,
+      "sourceH": 53
+    },
+    "diamond_buy_btn": {
+      "x": 0,
+      "y": 846,
+      "w": 175,
+      "h": 70,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 175,
+      "sourceH": 70
+    },
+    "diamond_buy_btn2": {
+      "x": 615,
+      "y": 258,
+      "w": 175,
+      "h": 70,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 175,
+      "sourceH": 70
+    }
+  }
+}

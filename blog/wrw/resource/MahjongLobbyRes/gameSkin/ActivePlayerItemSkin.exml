@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivePlayerItemSkin" width="590" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label text="玩家：" left="0" verticalCenter="0" fontFamily="SimHei" textColor="0xffffff"/>
+	<e:Label id="nickName" text="1234万达阿" fontFamily="SimHei" x="100" verticalCenter="0" width="190" textColor="0xffffff"/>
+	<e:Label text="分数：" fontFamily="SimHei" x="300" width="100" verticalCenter="0" textColor="0xffffff"/>
+	<e:Label id="playerScore" text="暂无" fontFamily="SimHei" x="380" width="100" verticalCenter="0" textColor="0xffffff"/>
+	<e:Button id="kickBtn" label="踢出" right="0" scaleX="0.9" scaleY="0.9" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="public_json.new_pub_btn_green_s" source.down="public_json.new_pub_btn_yellow_s"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

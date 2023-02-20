@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameView_ZJH_Skin" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:game="game.*" width="1280">
+	<w:Config id="15bccfd0ad2" />
+	<e:Image id="tableclothImage" scaleX="1" source="bg_game_png" right="0" left="0" top="0" bottom="0"/>
+	<e:Image id="house_master_png" width="145" height="160" source="house_master_png" horizontalCenter="-4.5" anchorOffsetX="0" y="15.33"/>
+	<e:Image id="house_002" width="220" height="70" source="house-002" left="0" top="0"/>
+	<e:Image id="house_layer" top="182" source="house_layer" horizontalCenter="0"/>
+	<e:Label id="roomNumber" text="桌号：211111" fontFamily="黑体" height="40" textAlign="center"
+	         verticalAlign="middle" touchEnabled="false" size="30" bold="true" top="13" left="19"  textColor="0xa384e0"/>
+	<e:Button id="readyButton" label="" bottom="11" right="90" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="orange_btn_big" source.disabled="orange_btn_big_2" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="shuffleButton" label="" scaleX="0.8" scaleY="0.8" horizontalCenter="271.5" verticalCenter="312">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shuffle_btn" source.disabled="bt_gray_bg" scaleX.down="1" scaleY.down="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="cost" text="0" fontFamily="Microsoft YaHei" textColor="0xffffff" rotation="30" size="25" scaleX.down="1" scaleY.down="1" horizontalCenter.disabled="97.5" verticalCenter="12" verticalCenter.up="16.5" horizontalCenter.down="92.5" verticalCenter.down="12" text.up="0.1" left.up="206"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="chatButton" label="" anchorOffsetY="0" anchorOffsetX="0" width="65" height="60" right="10" bottom="89">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chat" source.down="chat_down"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" size="25" fontFamily="黑体" stroke="1" width="100%" height="100%"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="setBtn" label="" anchorOffsetY="0" anchorOffsetX="0" height="60" width="65" right="14" top="57">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image scaleX.down="0.9" scaleY.down="0.9" source="wrnn_btn_more" verticalCenter="0" width="66" height="58" horizontalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="house_group_01" width="210" height="52" source="house_group_01" right="0" top="0"/>
+	<e:Button id="betteryButton" label="" verticalCenter="-337" right="150">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="bettery_DDZ" verticalCenter="0"/>
+			<e:Image id="image" source="betteryPercent_DDZ" verticalCenter="-1" left="4" width="30" scale9Grid="3,1,3,12"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="wifiOrDataImage" source="data_DDZ"  verticalCenter="-336.5" right="103"/>
+	<e:Rect id="selectCard" width="40" height="40" fillColor="0xf23535" y="674"  horizontalCenter="-187" visible="false"/>
+	<e:Image id="house_roundRectangle_02" width="80" height="25" source="house_roundRectangle_02" right="12" verticalCenter="-337"/>
+	<e:Label id="timeNowLabel" text="24:24" anchorOffsetX="0" textAlign="center" verticalAlign="middle" fontFamily="黑体"
+	         size="20" anchorOffsetY="0"  height="20" textColor="0xeae0f2" width="75" verticalCenter="-337" right="14"/>
+	<e:BitmapLabel id="timesLabel" touchEnabled="false" text="0/6"
+	                bottom="511" font="wait_interface_number_fnt" horizontalCenter="0"/>
+	<e:Button id="startGameButton" label="" scaleX="1" scaleY="1" anchorOffsetX="0" width="235" bottom="11"
+	          horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ssl_btn_yazhu" source.down="ssl_btn_yazhu_down"/>
+			<e:Label id="labelDisplay" scaleX.down="0.9" scaleY.down="0.9" text="坐下" fontFamily="SimHei" horizontalCenter="0" verticalCenter="0" textColor="0xffffff"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+
+	<e:Label id="bottomPoint" text="底注:100" y="275.92" horizontalCenter="1" size="25" fontFamily="Microsoft YaHei" bold="true"/>
+	<e:Button id="_lookBtn" label="看牌" y="616" horizontalCenter="0" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="constanceBtnBg"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="SimHei" size="24"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="playButton" label="亮牌" anchorOffsetX="0" horizontalCenter="0.33499999999997954" y="616" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="constanceBtnBg"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" fontFamily="SimHei" verticalCenter="0" textColor="0xffffff" size="30"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="copyButton" label="" scaleX="0.7" scaleY="0.7" anchorOffsetX="0" anchorOffsetY="0"
+	          width="188" height="90" left="35" top="90" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image  width="100%" height="100%" source="wrnn_copy"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Group horizontalCenter="-2" top="223" width="400" height="40">
+		<e:Image width="400" height="40" source="house_dark" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0"/>
+		<e:BitmapLabel text="总" font="betTimesLabel_allchips_fnt" verticalCenter="1" horizontalCenter="-111.5" x="45" y="9" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="_betTimesLabel_lun" text="轮" font="betTimesLabel_allchips_fnt" verticalCenter="1" horizontalCenter="46.5" x="225.99999999999994" y="9" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="_allchips" font="betTimesLabel_allchips_fnt" text="5" verticalCenter="0" y="12" scaleX="1" scaleY="1" left="136"/>
+		<e:BitmapLabel id="_betTimesLabel" text="1/10" font="betTimesLabel_allchips_fnt" verticalCenter="0" y="12" scaleX="1" scaleY="1" left="273"/>
+	</e:Group>
+
+	<e:Label id="signalLabel" text="无网络" size="20" anchorOffsetY="0" height="21.52" right="90" top="12" visible="false"/>
+	<e:Label id="roomNumber0" text="匹配号：122222" left="5" top="75" textColor="0xa384e0" fontFamily="黑体"/>
+	<e:Button id="shareButton" label="" horizontalCenter="0" verticalCenter="96">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image width="300" height="98" source="green_btn_big" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="weixin_invite" horizontalCenter="0.5" verticalCenter="-2.5"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="seatDownBtn" label="" y="588" horizontalCenter="327">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="sitdown_1" source.down="sitdown_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+
+	<e:Image id="guanzhanImage" source="guanzhan_zjh" bottom="15" horizontalCenter="-400.5"/>
+</e:Skin>

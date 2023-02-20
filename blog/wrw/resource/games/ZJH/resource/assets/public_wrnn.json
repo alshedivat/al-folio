@@ -1,0 +1,195 @@
+{
+  "file": "public_wrnn.png",
+  "frames": {
+    "bipaishu": {
+      "x": 0,
+      "y": 426,
+      "w": 101,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 101,
+      "sourceH": 67
+    },
+    "bipaiying": {
+      "x": 225,
+      "y": 288,
+      "w": 101,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 101,
+      "sourceH": 67
+    },
+    "compareCard_bg": {
+      "x": 228,
+      "y": 0,
+      "w": 109,
+      "h": 152,
+      "offX": 3,
+      "offY": 0,
+      "sourceW": 116,
+      "sourceH": 159
+    },
+    "cow_2": {
+      "x": 338,
+      "y": 69,
+      "w": 134,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 68
+    },
+    "cow_3": {
+      "x": 0,
+      "y": 357,
+      "w": 135,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 135,
+      "sourceH": 68
+    },
+    "cow_4": {
+      "x": 338,
+      "y": 0,
+      "w": 136,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 136,
+      "sourceH": 68
+    },
+    "cow_5": {
+      "x": 0,
+      "y": 288,
+      "w": 137,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 137,
+      "sourceH": 68
+    },
+    "cow_6": {
+      "x": 0,
+      "y": 219,
+      "w": 198,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 198,
+      "sourceH": 68
+    },
+    "cow_7": {
+      "x": 199,
+      "y": 219,
+      "w": 134,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 68
+    },
+    "guanzhan": {
+      "x": 338,
+      "y": 138,
+      "w": 142,
+      "h": 32,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 142,
+      "sourceH": 32
+    },
+    "kanpai": {
+      "x": 136,
+      "y": 377,
+      "w": 101,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 101,
+      "sourceH": 67
+    },
+    "public_DDZ5": {
+      "x": 138,
+      "y": 288,
+      "w": 86,
+      "h": 88,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 87,
+      "sourceH": 88
+    },
+    "public_DDZ6": {
+      "x": 238,
+      "y": 356,
+      "w": 45,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 45,
+      "sourceH": 46
+    },
+    "public_DDZ7": {
+      "x": 327,
+      "y": 288,
+      "w": 45,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 45,
+      "sourceH": 46
+    },
+    "qipai": {
+      "x": 334,
+      "y": 219,
+      "w": 89,
+      "h": 64,
+      "offX": 6,
+      "offY": 2,
+      "sourceW": 101,
+      "sourceH": 67
+    },
+    "ssl_btn_yazhu": {
+      "x": 0,
+      "y": 0,
+      "w": 227,
+      "h": 87,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 227,
+      "sourceH": 87
+    },
+    "ssl_btn_yazhu_down": {
+      "x": 0,
+      "y": 88,
+      "w": 227,
+      "h": 85,
+      "offX": 0,
+      "offY": 2,
+      "sourceW": 227,
+      "sourceH": 87
+    },
+    "wrnn_location_checkTextBg": {
+      "x": 0,
+      "y": 174,
+      "w": 393,
+      "h": 44,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 393,
+      "sourceH": 44
+    },
+    "wrnn_peizhi_title": {
+      "x": 102,
+      "y": 445,
+      "w": 83,
+      "h": 56,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 83,
+      "sourceH": 56
+    }
+  }
+}

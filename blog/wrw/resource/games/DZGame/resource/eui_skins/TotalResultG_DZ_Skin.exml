@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TotalResultG_DZ_Skin" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="1280">
+	<e:Image source="game_totalbg_png" left="0" right="0" top="0" bottom="0"/>	
+	<e:Image source="total_result_bg"  top="95" left="0" right="0"/>
+
+	<e:Image id="_title"  source="total_title_DDZ" horizontalCenter="33.5" top="40"/>
+	<e:Label id="_roomId" text="房间号：123456 " x="30" y="120" anchorOffsetX="0" width="240" size="26"  visible="false"/>
+	<e:Label id="_datatime" text="2017.06.27  17:11" y="120" anchorOffsetX="0" width="240" size="26"  right="0" visible="false"/>
+	<e:Image source="total_winbg" y="161" left="0" right="0"/>
+	<e:Image source="total_losebg" y="350.48" left="0" right="0"/>
+	<e:Group verticalCenter="-112" width="1280" height="173" horizontalCenter="0">
+		<e:List id="_winList" y="172" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"
+				itemRendererSkinName="TotalItemSkinG_DZ_Skin">
+
+
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+<e:Group verticalCenter="77.5" width="1280" height="173" horizontalCenter="0">
+		<e:List id="_loseList" y="172" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"
+				itemRendererSkinName="TotalItemSkinG_DZ_Skin">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="_shareBtn" label="" bottom="77" horizontalCenter="-195">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="total_share_btn1" source.down="total_share_btn2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="playAgainBtn" bottom="77" horizontalCenter="198">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ddz_buttongreen1" source.down="ddz_buttongreen2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+
+
+
+
+
+	<e:Label id="reasonLabel" text="因解散房间啊啊啊啊" anchorOffsetY="0" height="32" horizontalCenter="0" verticalCenter="175" textColor="0xf21313" fontFamily="SimHei" size="35"/>
+	<e:Button id="_backBtn" label="" y="10.6" scaleX="0.9" scaleY="0.9" left="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="public_DDZ9" source.down="public_DDZ9"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

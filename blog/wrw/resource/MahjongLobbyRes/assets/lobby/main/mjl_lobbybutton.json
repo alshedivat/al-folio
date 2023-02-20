@@ -1,0 +1,105 @@
+{
+  "file": "mjl_lobbybutton.png",
+  "frames": {
+    "lobby_clubBtn_bg": {
+      "x": 666,
+      "y": 446,
+      "w": 332,
+      "h": 218,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 332,
+      "sourceH": 218
+    },
+    "lobby_clubBtn_bg1": {
+      "x": 666,
+      "y": 665,
+      "w": 332,
+      "h": 218,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 332,
+      "sourceH": 218
+    },
+    "lobby_coin": {
+      "x": 666,
+      "y": 0,
+      "w": 332,
+      "h": 222,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 332,
+      "sourceH": 222
+    },
+    "lobby_coin1": {
+      "x": 666,
+      "y": 223,
+      "w": 332,
+      "h": 222,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 332,
+      "sourceH": 222
+    },
+    "lobby_createroom": {
+      "x": 0,
+      "y": 447,
+      "w": 332,
+      "h": 219,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 332,
+      "sourceH": 219
+    },
+    "lobby_createroom1": {
+      "x": 0,
+      "y": 667,
+      "w": 332,
+      "h": 219,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 332,
+      "sourceH": 219
+    },
+    "lobby_joinroom": {
+      "x": 0,
+      "y": 0,
+      "w": 332,
+      "h": 446,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 332,
+      "sourceH": 446
+    },
+    "lobby_joinroom1": {
+      "x": 333,
+      "y": 0,
+      "w": 332,
+      "h": 446,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 332,
+      "sourceH": 446
+    },
+    "lobby_match": {
+      "x": 333,
+      "y": 447,
+      "w": 332,
+      "h": 219,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 334,
+      "sourceH": 219
+    },
+    "lobby_match1": {
+      "x": 333,
+      "y": 667,
+      "w": 332,
+      "h": 219,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 334,
+      "sourceH": 219
+    }
+  }
+}

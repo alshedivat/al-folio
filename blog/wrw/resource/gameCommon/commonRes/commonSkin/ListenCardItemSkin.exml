@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ListenCardItemSkin" width="676" height="88" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="0" bottom="0" source="listenCard_item" scale9Grid="3,11,22,66"/>
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Label text="打:" x="46" anchorOffsetX="0" textColor="0xfec02a" fontFamily="Microsoft YaHei" size="35" verticalCenter="0"/>
+		<e:Label text="胡:" x="248" anchorOffsetX="0" textColor="0xFEC02A" fontFamily="Microsoft YaHei" size="35" verticalCenter="0.5"/>
+		<e:Image id="outcard_image" width="42" height="62" x="107" verticalCenter="0"/>
+		<e:Group id="huGroup" anchorOffsetY="0" left="305" top="0" bottom="0" anchorOffsetX="0" right="0">
+			<e:layout>
+				<e:HorizontalLayout gap="0" horizontalAlign="left" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

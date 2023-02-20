@@ -1,0 +1,46 @@
+{"mc":{
+	"farmer_cry":{
+		"frameRate":6,
+		"labels":[
+			{"name":"farmer_cry","frame":1,"end":5}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"farmer1_png",
+			"x":1,
+			"y":0
+			},
+			{
+			"res":"farmer1_1_png",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"farmer1_2_png",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"farmer1_3_png",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"farmer1_4_png",
+			"x":0,
+			"y":0
+			}
+			]
+}},
+	"res":{
+		"farmer1_2_png":{"x":308,"y":0,"w":152,"h":177},
+		"farmer1_png":{"x":0,"y":185,"w":149,"h":179},
+		"farmer1_1_png":{"x":308,"y":179,"w":152,"h":177},
+		"farmer1_3_png":{"x":154,"y":0,"w":152,"h":183},
+		"farmer1_4_png":{"x":0,"y":0,"w":152,"h":183}
+	}}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BetSelect_TDK_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="716" height="125">
+	<e:Group id="operate_bet" width="716" height="125" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" horizontalCenter="0">
+		<e:Group id="operate_cartoon" width="716" height="125" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		</e:Group>
+
+		<e:Group id="jetton" anchorOffsetX="0" anchorOffsetY="0" width="475" scaleX="1" scaleY="1" x="15" verticalCenter="0">
+			<e:RadioButton id="betRadioButton" label="" groupName="chips" scaleX="1" scaleY="1" width="126" height="125" y="0">
+			<e:Skin states="up,down,disabled" width="126" height="125">
+				<e:Image source="tdk_1q_white" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="chipNum" source="bet1_1" x="-1.5" y="2.09"/>
+				<e:Label id="labelDisplay" text="" horizontalCenter="0" verticalCenter="-9" size="20" stroke="1"/>
+			</e:Skin>
+			</e:RadioButton>
+			<e:RadioButton label="" x="100" groupName="chips" scaleX="1" scaleY="1" width="126" height="125">
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" width="126" height="125">
+				<e:Image source="tdk_1w_white" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="chipNum" source="bet2_2" x="-1.31" y="1.65"/>
+				<e:Label id="labelDisplay" text="" horizontalCenter="0" verticalCenter="-9" size="20" stroke="1"/>
+			</e:Skin>
+			</e:RadioButton>
+			<e:RadioButton label="" x="200" groupName="chips" scaleX="1" scaleY="1" width="126" height="125">
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" width="126" height="125">
+				<e:Image source="tdk_1shw_white"  horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="chipNum" x="-1.32" y="1.28" source="bet3_3"/>
+				<e:Label id="labelDisplay" text="" horizontalCenter="0" verticalCenter="-9" size="20" stroke="1"/>
+			</e:Skin>
+			</e:RadioButton>
+			<e:RadioButton label="" x="300" groupName="chips" scaleX="1" scaleY="1" width="126" height="125">
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" width="126" height="125">
+				<e:Image source="tdk_1bw_white" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="chipNum" x="-1.5" y="1.35" source="bet4_4"/>
+				<e:Label id="labelDisplay" text="" horizontalCenter="0" verticalCenter="-9" size="20" stroke="1"/>
+			</e:Skin>
+			</e:RadioButton>
+			<e:RadioButton label="" groupName="chips" scaleX="1" scaleY="1" x="400" width="126" height="125">
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" width="126" height="125">
+				<e:Image source="tdk_5bw_white" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="chipNum" x="-1.4" y="1.4" source="bet5_5"/>
+				<e:Label id="labelDisplay" text="" horizontalCenter="0" verticalCenter="-9" size="20" stroke="1"/>
+			</e:Skin>
+			</e:RadioButton>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+
+		</e:Group>
+		<e:Button id="betInBtn" label="" scaleX="1" scaleY="1" verticalCenter="0" x="525">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="buttons_TDK_json.tdk_xy1" source.down="buttons_TDK_json.tdk_xy2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+	</e:Group>
+    <e:Group id="operate_main" anchorOffsetX="0" width="665" anchorOffsetY="0" height="93" verticalCenter="0" horizontalCenter="0" visible="false">
+			<e:Button id="leftBtn" label="" x="107" scaleX="0.9" scaleY="0.9" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image id="image" width="100%" height="100%" source="buttons_TDK_json.operate_15_btn" width.down="99%" height.down="99%"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="rightBtn" label="" x="403" scaleX="0.9" scaleY="0.9" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image id="image" width="100%" height="100%" source="buttons_TDK_json.operate_15_btn" width.down="99%" height.down="99%"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+
+
+	</e:Group>
+</e:Skin>

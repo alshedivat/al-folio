@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChatRadioButton_kna_Skin" states="up,down,disabled" width="377" height="50" xmlns:e="http://ns.egret.com/eui">
+	<e:Image  bottom="0" source="chat_newline" width="377" left="0"/>
+	<e:Label id="labelDisplay" size="24" verticalCenter="0" fontFamily="Microsoft YaHei" left="16" textColor="0x84634a"/>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchMemberItemSkin" width="970" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:MJLobby="MJLobby.*">
+
+	<e:Label text="" verticalCenter="0" textAlign="center" anchorOffsetX="0" width="170" height="30" textColor="0x53c2e3" fontFamily="SimHei" size="30" x="150" visible="false"/>
+	<MJLobby:TextImage id="nameLabelText" width="150" height="30" verticalCenter="0" left="170"/>
+	<e:Label id="matchPoint" text="" x="310" textAlign="center" anchorOffsetX="0" width="120" height="30" verticalCenter="0" textColor="0x53c2e3" fontFamily="SimHei" size="30"/>
+	<e:Label id="typeLabel" text="" x="429" textAlign="center" anchorOffsetX="0" width="60" height="30" verticalCenter="0" textColor="0x53C2E3" fontFamily="SimHei" size="30"/>
+	<e:Label id="tax" text="" x="496" verticalCenter="0" anchorOffsetX="0" width="110" textAlign="center" fontFamily="黑体" textColor="0x6BBCDD"/>
+	<e:Label text="" x="582" verticalCenter="0" textAlign="center" anchorOffsetX="0" width="105" height="30" fontFamily="SimHei" size="30" textColor="0x53c2e3" visible="false"/>
+	<MJLobby:TextImage id="descText" width="105" height="30" y="15" left="582"/>
+	<e:Label id="lastTime" text="" x="687" verticalCenter="0" textAlign="center" anchorOffsetX="0" width="117" height="30" textColor="0x53C2E3" fontFamily="SimHei" size="30"/>
+	<e:Label id="playerID" text="" verticalCenter="0" textAlign="center" anchorOffsetX="0" height="30" textColor="0x53c2e3" fontFamily="SimHei" size="30" horizontalCenter="-412.5"/>
+	<e:Image source="matchMemberLine" bottom="0" left="0" right="0"/>
+	<e:Button id="operateBtn" label="" verticalCenter="0" right="25">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_operate_1" source.down="btn_operate_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CreateRoomSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillColor="0xA7A7A7" left="0" top="0" right="0" bottom="0" alpha="0.4" visible="false"/>
+	<e:Image id="background" anchorOffsetX="0" left="0" right="0" top="1" bottom="-1" source="mjl_common_bj_1" scale9Grid="33,89,205,539"/>
+	<e:Image anchorOffsetX="0" left="5" right="5" top="5" bottom="5" scale9Grid="33,89,205,539" source="mjl_common_bj_2" width="1250" height="700"/>
+	<e:Group id="left" y="93.64" width="948" height="595.03" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="134">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+		<e:Image scaleX="1" scaleY="1" bottom="0" source="mjl_common_bj_6" scale9Grid="20,16,122,101" left="0" right="0" top="0"/>
+		<e:Group id="setGroup" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="24" bottom="104.02999999999997">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="left" verticalAlign="top"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Button id="createBtn" anchorOffsetX="0" anchorOffsetY="0" label="" bottom="50" horizontalCenter="376.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_create_new_1" source.down="btn_create_new_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="createMatchBtn" anchorOffsetX="0" anchorOffsetY="0" label="" bottom="50" horizontalCenter="-121.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_create_new_3" source.down="btn_create_new_4"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="createSijuBtn" anchorOffsetX="0" anchorOffsetY="0" label="" bottom="50" horizontalCenter="-121.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_create_new_5" source.down="btn_create_new_6"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="changeBtn" anchorOffsetX="0" anchorOffsetY="0" label="" bottom="50" horizontalCenter="150" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_commonBtn_sure_1" source.down="mjl_commonBtn_sure_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="GameList" width="272" anchorOffsetX="0" anchorOffsetY="0" height="592" top="90" horizontalCenter="-489">
+		<e:Image id="listBg" anchorOffsetY="0" anchorOffsetX="0" source="mjl_common_bj_7" left="0" right="0" top="0" bottom="0"/>
+			<e:Scroller scrollPolicyV="auto" scrollPolicyH="off"  touchEnabled="false" anchorOffsetY="0" left="0" right="-10" top="10" bottom="10">
+				<e:List id="gameList" x="-6" y="4" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="MJ_RadioButton1Skin">
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" paddingLeft="10" paddingTop="10"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+	</e:Group>
+	<e:Group id="gameTypeGroup" width="840" height="74" anchorOffsetX="0" anchorOffsetY="0" top="0" horizontalCenter="-25">
+		<e:RadioButton id="mahjongBtn" label="" x="102" y="40" groupName="mahjongOrpoker">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="446" height="79">
+				<e:Image source="createRoom_MJbg1" source.down="createRoom_MJbg" horizontalCenter="0" verticalCenter="0" verticalCenter.down="2"/>
+	<e:Image source="createRoom_MJText1" horizontalCenter="20" verticalCenter="0" source.down="createRoom_MJText"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="pokerBtn" label="" x="112" y="50" groupName="mahjongOrpoker">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="446" height="79">
+				<e:Image source="createRoom_Pokerbg" source.down="createRoom_Pokerbg1" verticalCenter.down="0" horizontalCenter.down="0" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image horizontalCenter="-20" verticalCenter="0" source.down="createRoom_PokerText1" source="createRoom_PokerText"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:layout>
+			<e:HorizontalLayout gap="1" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="closeButton" right="25" top="10" skinName="MJ_CloseButton1Skin"/>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InfoGroup_DDZ_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="123" height="72">
+	<e:Image source="name_gold_bg" x="0" y="0" anchorOffsetX="0" width="123"/>
+   <e:Label id="promptDisplay" size="25" stroke="1" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group height="72" width="123">
+		<e:Label id="nameLabel" text="" y="4" fontFamily="黑体" width="123" textAlign="center" size="24" height="30" verticalAlign="middle" horizontalCenter="0"/>
+		<e:BitmapLabel id="scoreLabel" y="38" text="0" horizontalCenter="0" letterSpacing="-7" scaleX="0.8" scaleY="0.8" anchorOffsetY="0" font="glodLittleFont_fnt"/>
+	</e:Group>
+</e:Skin>

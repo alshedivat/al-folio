@@ -1,0 +1,255 @@
+{
+  "file": "mjl_record.png",
+  "frames": {
+    "hist_btn_clear_1": {
+      "x": 125,
+      "y": 84,
+      "w": 261,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 261,
+      "sourceH": 59
+    },
+    "hist_btn_clear_2": {
+      "x": 125,
+      "y": 144,
+      "w": 261,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 261,
+      "sourceH": 59
+    },
+    "hist_btn_display_1": {
+      "x": 0,
+      "y": 338,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "hist_btn_display_2": {
+      "x": 0,
+      "y": 403,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "hist_btn_lookOther_1": {
+      "x": 0,
+      "y": 218,
+      "w": 261,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 261,
+      "sourceH": 59
+    },
+    "hist_btn_lookOther_2": {
+      "x": 0,
+      "y": 278,
+      "w": 261,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 261,
+      "sourceH": 59
+    },
+    "hist_btn_share_1": {
+      "x": 262,
+      "y": 204,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "hist_btn_share_2": {
+      "x": 262,
+      "y": 269,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "hist_item_bg": {
+      "x": 0,
+      "y": 84,
+      "w": 124,
+      "h": 133,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 124,
+      "sourceH": 133
+    },
+    "hist_recordItem_bg": {
+      "x": 387,
+      "y": 84,
+      "w": 111,
+      "h": 110,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 111,
+      "sourceH": 110
+    },
+    "hist_word_lookother": {
+      "x": 202,
+      "y": 338,
+      "w": 210,
+      "h": 44,
+      "offX": 1,
+      "offY": 3,
+      "sourceW": 212,
+      "sourceH": 48
+    },
+    "hist_word_record": {
+      "x": 202,
+      "y": 455,
+      "w": 108,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 52
+    },
+    "match_record_radioText_1": {
+      "x": 311,
+      "y": 455,
+      "w": 86,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 86,
+      "sourceH": 48
+    },
+    "match_record_radioText_2": {
+      "x": 469,
+      "y": 0,
+      "w": 85,
+      "h": 48,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 86,
+      "sourceH": 48
+    },
+    "match_record_radioText_3": {
+      "x": 398,
+      "y": 442,
+      "w": 86,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 86,
+      "sourceH": 48
+    },
+    "match_record_text_1": {
+      "x": 0,
+      "y": 468,
+      "w": 123,
+      "h": 38,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 123,
+      "sourceH": 38
+    },
+    "match_record_text_2": {
+      "x": 469,
+      "y": 49,
+      "w": 75,
+      "h": 31,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 75,
+      "sourceH": 31
+    },
+    "match_record_text_3": {
+      "x": 555,
+      "y": 0,
+      "w": 75,
+      "h": 31,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 75,
+      "sourceH": 31
+    },
+    "match_record_text_4": {
+      "x": 124,
+      "y": 468,
+      "w": 53,
+      "h": 28,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 53,
+      "sourceH": 28
+    },
+    "match_record_text_5": {
+      "x": 499,
+      "y": 81,
+      "w": 56,
+      "h": 40,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 56,
+      "sourceH": 40
+    },
+    "match_record_text_6": {
+      "x": 555,
+      "y": 32,
+      "w": 55,
+      "h": 40,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 56,
+      "sourceH": 40
+    },
+    "match_recordItem_info": {
+      "x": 202,
+      "y": 383,
+      "w": 127,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 127,
+      "sourceH": 71
+    },
+    "match_recordItem_title": {
+      "x": 0,
+      "y": 0,
+      "w": 468,
+      "h": 83,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 468,
+      "sourceH": 83
+    },
+    "match_recordItem_top_bg": {
+      "x": 330,
+      "y": 383,
+      "w": 102,
+      "h": 58,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 102,
+      "sourceH": 58
+    },
+    "task_cell_line": {
+      "x": 499,
+      "y": 122,
+      "w": 4,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 4,
+      "sourceH": 55
+    }
+  }
+}

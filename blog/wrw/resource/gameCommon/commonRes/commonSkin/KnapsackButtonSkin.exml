@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="KnapsackButtonSkin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" width="124" height="124">
+	<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" width.down="90%" height.down="90%" source="chat_knapsackbg"/>
+	<e:Label width="100%" height="100%"/>
+</e:Skin>

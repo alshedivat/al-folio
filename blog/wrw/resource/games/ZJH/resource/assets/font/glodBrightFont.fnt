@@ -1,0 +1,11 @@
+{"file":"glodBrightFont.png","frames":{
+"0":{"x":0,"y":0,"w":29,"h":33,"offX":1,"offY":7,"sourceW":30,"sourceH":42},
+"1":{"x":29,"y":70,"w":19,"h":33,"offX":3,"offY":7,"sourceW":25,"sourceH":42},
+"2":{"x":0,"y":35,"w":27,"h":33,"offX":2,"offY":7,"sourceW":30,"sourceH":42},
+"3":{"x":29,"y":35,"w":27,"h":33,"offX":2,"offY":7,"sourceW":30,"sourceH":42},
+"4":{"x":31,"y":0,"w":29,"h":33,"offX":1,"offY":7,"sourceW":31,"sourceH":42},
+"5":{"x":58,"y":35,"w":27,"h":33,"offX":2,"offY":7,"sourceW":30,"sourceH":42},
+"6":{"x":0,"y":70,"w":27,"h":33,"offX":2,"offY":7,"sourceW":30,"sourceH":42},
+"7":{"x":93,"y":0,"w":28,"h":33,"offX":1,"offY":7,"sourceW":30,"sourceH":42},
+"8":{"x":62,"y":0,"w":29,"h":33,"offX":1,"offY":7,"sourceW":30,"sourceH":42},
+"9":{"x":87,"y":35,"w":27,"h":33,"offX":2,"offY":7,"sourceW":30,"sourceH":42}}}

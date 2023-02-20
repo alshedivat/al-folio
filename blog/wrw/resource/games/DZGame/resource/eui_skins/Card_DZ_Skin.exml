@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Card_DZ_Skin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="51" height="56">
+	<e:Image id="cardSource" width="51" height="56" horizontalCenter="0" verticalCenter="0" source="Poker_4_14"/>
+
+</e:Skin>

@@ -1,0 +1,11 @@
+[
+{"level":1,"adminMax":3,"viceFounderMax":0,"agentMax":4,"memberMax":40,"roomMax":10,"upgradeCost":0},
+{"level":2,"adminMax":3,"viceFounderMax":1,"agentMax":6,"memberMax":60,"roomMax":15,"upgradeCost":680},
+{"level":3,"adminMax":4,"viceFounderMax":1,"agentMax":8,"memberMax":80,"roomMax":20,"upgradeCost":780},
+{"level":4,"adminMax":5,"viceFounderMax":1,"agentMax":10,"memberMax":100,"roomMax":30,"upgradeCost":880},
+{"level":5,"adminMax":6,"viceFounderMax":2,"agentMax":15,"memberMax":200,"roomMax":60,"upgradeCost":1840},
+{"level":6,"adminMax":10,"viceFounderMax":2,"agentMax":20,"memberMax":500,"roomMax":100,"upgradeCost":4720},
+{"level":7,"adminMax":12,"viceFounderMax":3,"agentMax":25,"memberMax":700,"roomMax":120,"upgradeCost":7320},
+{"level":8,"adminMax":15,"viceFounderMax":3,"agentMax":30,"memberMax":1000,"roomMax":150,"upgradeCost":11220},
+{"level":9,"adminMax":20,"viceFounderMax":3,"agentMax":40,"memberMax":1500,"roomMax":200,"upgradeCost":17720}
+]

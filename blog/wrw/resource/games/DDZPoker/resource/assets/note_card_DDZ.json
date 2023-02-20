@@ -1,0 +1,65 @@
+{
+  "file": "note_card_DDZ.png",
+  "frames": {
+    "ddz_card_count": {
+      "x": 78,
+      "y": 251,
+      "w": 50,
+      "h": 57,
+      "offX": 2,
+      "offY": 1,
+      "sourceW": 52,
+      "sourceH": 58
+    },
+    "ddz_room_note_card": {
+      "x": 0,
+      "y": 146,
+      "w": 561,
+      "h": 104,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 563,
+      "sourceH": 105
+    },
+    "ddz_super_card_counter": {
+      "x": 0,
+      "y": 0,
+      "w": 595,
+      "h": 145,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 597,
+      "sourceH": 146
+    },
+    "ddz_super_switch_btn": {
+      "x": 0,
+      "y": 251,
+      "w": 38,
+      "h": 121,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 38,
+      "sourceH": 121
+    },
+    "ddz_switch_btn": {
+      "x": 39,
+      "y": 251,
+      "w": 38,
+      "h": 80,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 38,
+      "sourceH": 80
+    },
+    "switch_icon": {
+      "x": 39,
+      "y": 332,
+      "w": 28,
+      "h": 31,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 28,
+      "sourceH": 31
+    }
+  }
+}

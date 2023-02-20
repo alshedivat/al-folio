@@ -1,0 +1,345 @@
+{
+  "file": "mjl_common.png",
+  "frames": {
+    "close": {
+      "x": 1450,
+      "y": 0,
+      "w": 85,
+      "h": 85,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 85,
+      "sourceH": 85
+    },
+    "common_title_bg": {
+      "x": 272,
+      "y": 604,
+      "w": 507,
+      "h": 90,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 507,
+      "sourceH": 90
+    },
+    "mjl_common_bj_1": {
+      "x": 0,
+      "y": 0,
+      "w": 271,
+      "h": 717,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 271,
+      "sourceH": 717
+    },
+    "mjl_common_bj_2": {
+      "x": 272,
+      "y": 0,
+      "w": 281,
+      "h": 603,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 281,
+      "sourceH": 603
+    },
+    "mjl_common_bj_3": {
+      "x": 554,
+      "y": 0,
+      "w": 277,
+      "h": 599,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 277,
+      "sourceH": 599
+    },
+    "mjl_common_bj_4": {
+      "x": 1040,
+      "y": 408,
+      "w": 100,
+      "h": 75,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 100,
+      "sourceH": 75
+    },
+    "mjl_common_bj_5": {
+      "x": 832,
+      "y": 0,
+      "w": 207,
+      "h": 517,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 207,
+      "sourceH": 517
+    },
+    "mjl_common_bj_6": {
+      "x": 242,
+      "y": 718,
+      "w": 162,
+      "h": 133,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 162,
+      "sourceH": 133
+    },
+    "mjl_common_bj_7": {
+      "x": 0,
+      "y": 718,
+      "w": 241,
+      "h": 208,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 241,
+      "sourceH": 208
+    },
+    "mjl_common_line_1": {
+      "x": 1239,
+      "y": 80,
+      "w": 2,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 2,
+      "sourceH": 55
+    },
+    "mjl_common_line_2": {
+      "x": 1242,
+      "y": 260,
+      "w": 13,
+      "h": 115,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 13,
+      "sourceH": 115
+    },
+    "mjl_commonBtn_back_1": {
+      "x": 405,
+      "y": 763,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_commonBtn_back_2": {
+      "x": 1040,
+      "y": 148,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_commonBtn_backLobby_1": {
+      "x": 1248,
+      "y": 0,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_commonBtn_backLobby_2": {
+      "x": 1040,
+      "y": 213,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_commonBtn_BindPhone_1": {
+      "x": 1040,
+      "y": 0,
+      "w": 207,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 207,
+      "sourceH": 79
+    },
+    "mjl_commonBtn_BindPhone_2": {
+      "x": 0,
+      "y": 927,
+      "w": 208,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 208,
+      "sourceH": 79
+    },
+    "mjl_commonBtn_cancle_1": {
+      "x": 441,
+      "y": 828,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_commonBtn_cancle_2": {
+      "x": 604,
+      "y": 695,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_commonBtn_change_1": {
+      "x": 1248,
+      "y": 65,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_commonBtn_change_2": {
+      "x": 1040,
+      "y": 278,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_commonBtn_prize_1": {
+      "x": 408,
+      "y": 958,
+      "w": 171,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 171,
+      "sourceH": 64
+    },
+    "mjl_commonBtn_prize_2": {
+      "x": 1242,
+      "y": 195,
+      "w": 171,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 171,
+      "sourceH": 64
+    },
+    "mjl_commonBtn_save_1": {
+      "x": 441,
+      "y": 893,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_commonBtn_save_2": {
+      "x": 832,
+      "y": 518,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_commonBtn_sure_1": {
+      "x": 607,
+      "y": 760,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_commonBtn_sure_2": {
+      "x": 1242,
+      "y": 130,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_commonBtn_toemail_1": {
+      "x": 1040,
+      "y": 343,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_commonBtn_toemail_2": {
+      "x": 780,
+      "y": 600,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "msg_exprotbtn1": {
+      "x": 242,
+      "y": 852,
+      "w": 198,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 198,
+      "sourceH": 67
+    },
+    "msg_exprotbtn2": {
+      "x": 1040,
+      "y": 80,
+      "w": 198,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 198,
+      "sourceH": 67
+    },
+    "msg_surebtn1": {
+      "x": 405,
+      "y": 695,
+      "w": 198,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 198,
+      "sourceH": 67
+    },
+    "msg_surebtn2": {
+      "x": 209,
+      "y": 927,
+      "w": 198,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 198,
+      "sourceH": 67
+    },
+    "msgextitle": {
+      "x": 643,
+      "y": 825,
+      "w": 151,
+      "h": 39,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 151,
+      "sourceH": 39
+    }
+  }
+}

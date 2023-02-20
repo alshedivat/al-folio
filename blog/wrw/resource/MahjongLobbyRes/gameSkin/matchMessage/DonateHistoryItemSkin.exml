@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DonateHistoryItemSkin" width="1082" height="72" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="-10" bottom="-10" source="mjl_common_bj_6" scale9Grid="13,15,132,102"/>
+	<e:Label id="uid" text="123456789" size="28" fontFamily="SimHei" verticalCenter="0" width="150" left="35" textAlign="left" verticalAlign="middle" textColor="0x0271e3"/>
+	<e:Label id="nickName" text="一二三四五" size="28" fontFamily="SimHei" verticalCenter="0" width="180" textAlign="left" verticalAlign="middle" textColor="0x0271e3" left="200"/>
+	<e:Label id="opTime" text="2018-04-12 - 2018-05-01" size="28" fontFamily="SimHei" verticalCenter="0" width="321.33" textAlign="left" verticalAlign="middle" textColor="0x0271e3" left="390" anchorOffsetX="0"/>
+	<e:Label id="change" text="1000" size="28" fontFamily="SimHei" verticalCenter="0" left="720" width="120" textAlign="left" verticalAlign="middle" textColor="0x0271e3"/>
+	<e:Label id="totalTax" text="1000000" size="28" fontFamily="SimHei" verticalCenter="0" left="850" width="120" textAlign="left" verticalAlign="middle" textColor="0x0271e3"/>
+	<e:Label id="type" text="赠送" size="28" fontFamily="SimHei" verticalCenter="0" textAlign="left" verticalAlign="middle" textColor="0x0271e3" right="30" width="60"/>
+</e:Skin>

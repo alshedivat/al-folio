@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Bet_ZJH_Skin" width="740" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        height="390">
+	<e:Button id="_compareBtn" label="比牌" y="155" width="109" height="140" x="108">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="btn_bipai" source.down="btn_bipai_dis" alpha.disabled="0.4" horizontalCenter="0" />
+				<e:Image source="time_bg" scale9Grid="19,14,56,8" horizontalCenter="98"  bottom="0" verticalCenter="-21"/>
+
+
+	<e:BitmapLabel id="btnNum" y="36" text="1000" font="compareBtn_allInBtn_fnt" scaleX="0.6" scaleY="0.6" horizontalCenter="0"/>
+	<e:Image horizontalCenter="98" bottom="6" source="compare_btn" verticalCenter="-21"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_followBtn" label="跟注" y="155" width="109" height="140" x="524">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="btn_genzhu" alpha.disabled="0.4" source.down="btn_genzhu_dis" horizontalCenter="0"/>
+			<e:Image source="time_bg" scale9Grid="19,14,56,8" horizontalCenter="0" bottom="0"/>
+
+
+			<e:BitmapLabel id="btnNum" text="1000" font="compareBtn_allInBtn_fnt" scaleX="0.6" scaleY="0.6" y="36" horizontalCenter="0"/>
+	<e:Image source="genzhu_btn" horizontalCenter="0" bottom="6"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_allInBtn" label="孤注一掷" y="155" width="109" height="140" x="524">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="btn_genzhu" alpha.disabled="0.4" source.down="btn_genzhu_dis" horizontalCenter="0"/>
+			<e:Image source="time_bg" scale9Grid="19,14,56,8" horizontalCenter="0" width="130" bottom="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" fontFamily="SimHei" size="23" bottom="6"/>
+			<e:BitmapLabel id="btnNum" width="113" height="48" y="38" text="1000" font="compareBtn_allInBtn_fnt" scaleX="0.6" scaleY="0.6" horizontalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_addBetBtn" label="加注" y="50" width="109" x="231" height="140">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="btn_jiazhu" alpha.disabled="0.4" source.down="btn_jiazhu_dis" horizontalCenter="0" />
+				<e:Image source="time_bg" scale9Grid="19,14,56,8" horizontalCenter="-100"  bottom="0" verticalCenter="-21"/>
+	<e:Image source="jiazhu_btn" horizontalCenter="-100" bottom="6" verticalCenter="-21"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_abandonCardBtn" label="弃牌" y="50" width="109" x="399" height="140">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="btn_qiipai" alpha.disabled="0.4" source.down="btn_qiipai_dis" horizontalCenter="0" />
+				<e:Image source="time_bg" scale9Grid="19,14,56,8" horizontalCenter="0"  bottom="0"/>
+	<e:Image source="qipai_btn" horizontalCenter="0" bottom="6"/>
+
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:ToggleButton id="_autoaddBtn" label="自动跟注" width="109" height="140" y="155" x="316">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="btn_genzhu" source.down="btn_genzhu_dis" horizontalCenter="0" />
+				<e:Image id="roundImage" source="wrnn_cutdown_circle" scaleX="0.6" scaleY="0.6" horizontalCenter="0"
+				         anchorOffsetX="84" anchorOffsetY="84" y="49" />
+				<e:Image width="130" source="time_bg" scale9Grid="19,14,56,8" horizontalCenter="0"  bottom="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" fontFamily="SimHei"  size="23" bottom="6"/>
+	<e:BitmapLabel id="btnNum" y="37" text="1000" font="compareBtn_allInBtn_fnt" scaleX="0.6" scaleY="0.6" horizontalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:Label id="_noticeLabel" text="点击头像选择比牌玩家" y="12" fontFamily="SimHei" horizontalCenter="0.5"  visible="false"/>
+	<e:Button id="_betRadioButton0" label="1" x="312.5" y="155">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hb_1q_white" source.down="hb_1q_white_down" />
+				<e:Label text="1" size="30" stroke="1" horizontalCenter="-2" verticalCenter="-4"
+				         fontFamily="SimHei"  visible="false"/>
+	<e:BitmapLabel id="labelDisplay" text="200" font="labelDisplay_blue_fnt" horizontalCenter="-3.5" verticalCenter="-5"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_betRadioButton1" label="1" x="313.5" y="155">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="hb_5bw_white" source.down="hb_5bw_white_down" horizontalCenter="0" verticalCenter="0" />
+				<e:Label text="1" size="30" stroke="1" verticalCenter="-4" horizontalCenter="-2"
+				         fontFamily="SimHei"  visible="false"/>
+	<e:BitmapLabel id="labelDisplay"  font="labelDisplay_red_fnt" text="1" horizontalCenter="-3.5" verticalCenter="-5"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_betRadioButton2" label="5" x="312.5" y="156">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="hb_1shw_white" source.down="hb_1shw_white_down"/>
+
+	<e:BitmapLabel id="labelDisplay" text="1" font="labelDisplay_yellow_fnt" horizontalCenter="-3.5" verticalCenter="-5"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_betRadioButton3" label="1" y="155" x="312">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="hb_1bw_white" source.down="hb_1bw_white_down" horizontalCenter="0" verticalCenter="0"/>
+
+	<e:BitmapLabel id="labelDisplay" text="" font="labelDisplay_green_fnt" horizontalCenter="-3.5" verticalCenter="-5"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_returnBtn" label="" anchorOffsetX="0" anchorOffsetY="0" y="0" horizontalCenter="-2">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bt_cancle" source.down="bt_cancle_down"/>
+			<e:Label id="labelDisplay" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0" textColor="0xf7f7f7" fontFamily="SimHei"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+</e:Skin>

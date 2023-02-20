@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TotalItemSkin_win_TDK_Skin" width="1174" height="84" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="1174" height="84" x="0" y="0" source="total_item_bg" scale9Grid="66,29,186,25" scaleX="1" scaleY="1"/>
+	<e:Image width="94" height="94" x="0" source="total_mc_bg" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" y="-5" scaleX="1" scaleY="1"/>
+	<e:Image id="_headmc" width="94" height="94" x="0" source="total_mc_bg" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+	<e:Image id="_bank" width="40" height="40" x="74" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="15" y="5" scaleX="1" scaleY="1" source="total_bank"/>
+	<e:Label id="_username" text="盼盼" x="140" y="12" textColor="0xfcc111" bold="true" width="160" textAlign="center" fontFamily="SimHei"/>
+	<e:Label id="_uid" text="123456789" x="140" y="42" textColor="0xFCC111" bold="true" width="160" textAlign="center" fontFamily="SimHei"/>
+
+
+	<e:Label id="_winCount" text="0" x="380" textColor="0xFCC111" bold="true" verticalCenter="0" textAlign="center" width="150" fontFamily="SimHei"/>
+	<e:Label id="_loseCount" text="0" x="650" textColor="0xFCC111" bold="true" verticalCenter="0" textAlign="center" width="150" fontFamily="SimHei"/>
+	<e:Label id="_totalCount" text="0" x="880" textColor="0xFCC111" bold="true" verticalCenter="0" textAlign="center" width="150" fontFamily="SimHei"/>
+	<e:Image width="70" height="70" source="total_win" right="40" verticalCenter="0"/>
+</e:Skin>

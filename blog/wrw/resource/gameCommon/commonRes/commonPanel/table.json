@@ -1,0 +1,435 @@
+{
+  "file": "table.png",
+  "frames": {
+    "table_backLobby1": {
+      "x": 701,
+      "y": 267,
+      "w": 195,
+      "h": 69,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 196,
+      "sourceH": 69
+    },
+    "table_backLobby2": {
+      "x": 701,
+      "y": 337,
+      "w": 195,
+      "h": 69,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 196,
+      "sourceH": 69
+    },
+    "table_bank_icon": {
+      "x": 252,
+      "y": 151,
+      "w": 42,
+      "h": 47,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 42,
+      "sourceH": 47
+    },
+    "table_battery": {
+      "x": 295,
+      "y": 151,
+      "w": 6,
+      "h": 14,
+      "offX": 0,
+      "offY": 4,
+      "sourceW": 6,
+      "sourceH": 22
+    },
+    "table_battery_bg": {
+      "x": 126,
+      "y": 114,
+      "w": 39,
+      "h": 22,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 39,
+      "sourceH": 22
+    },
+    "table_cancelBtn1": {
+      "x": 0,
+      "y": 495,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "table_cancelBtn2": {
+      "x": 0,
+      "y": 564,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "table_changeRoom1": {
+      "x": 0,
+      "y": 633,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "table_changeRoom2": {
+      "x": 0,
+      "y": 702,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "table_data_icon": {
+      "x": 252,
+      "y": 199,
+      "w": 23,
+      "h": 24,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 23,
+      "sourceH": 24
+    },
+    "table_dismissBtn1": {
+      "x": 0,
+      "y": 114,
+      "w": 125,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 126
+    },
+    "table_dismissBtn2": {
+      "x": 313,
+      "y": 0,
+      "w": 125,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 126
+    },
+    "table_dissMiss_1": {
+      "x": 504,
+      "y": 254,
+      "w": 196,
+      "h": 69,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 196,
+      "sourceH": 69
+    },
+    "table_dissMiss_2": {
+      "x": 817,
+      "y": 0,
+      "w": 196,
+      "h": 69,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 196,
+      "sourceH": 69
+    },
+    "table_gps1": {
+      "x": 313,
+      "y": 127,
+      "w": 125,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 126
+    },
+    "table_gps2": {
+      "x": 0,
+      "y": 241,
+      "w": 125,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 126
+    },
+    "table_headbg": {
+      "x": 126,
+      "y": 405,
+      "w": 80,
+      "h": 82,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 80,
+      "sourceH": 82
+    },
+    "table_headMask": {
+      "x": 0,
+      "y": 840,
+      "w": 72,
+      "h": 71,
+      "offX": 4,
+      "offY": 3,
+      "sourceW": 80,
+      "sourceH": 82
+    },
+    "table_hostBtn1": {
+      "x": 126,
+      "y": 151,
+      "w": 125,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 126
+    },
+    "table_hostBtn2": {
+      "x": 0,
+      "y": 368,
+      "w": 125,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 126
+    },
+    "table_invite1": {
+      "x": 691,
+      "y": 127,
+      "w": 196,
+      "h": 69,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 196,
+      "sourceH": 69
+    },
+    "table_invite2": {
+      "x": 504,
+      "y": 324,
+      "w": 196,
+      "h": 69,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 196,
+      "sourceH": 69
+    },
+    "table_leaveRoom1": {
+      "x": 504,
+      "y": 394,
+      "w": 196,
+      "h": 69,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 196,
+      "sourceH": 69
+    },
+    "table_leaveRoom2": {
+      "x": 701,
+      "y": 197,
+      "w": 196,
+      "h": 69,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 196,
+      "sourceH": 69
+    },
+    "table_left_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 204,
+      "h": 113,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 204,
+      "sourceH": 113
+    },
+    "table_menuBackBtn1": {
+      "x": 126,
+      "y": 278,
+      "w": 125,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 126
+    },
+    "table_menuBackBtn2": {
+      "x": 252,
+      "y": 254,
+      "w": 125,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 126
+    },
+    "table_menuBtn1": {
+      "x": 378,
+      "y": 254,
+      "w": 125,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 126
+    },
+    "table_menuBtn2": {
+      "x": 252,
+      "y": 381,
+      "w": 125,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 126
+    },
+    "table_message1": {
+      "x": 378,
+      "y": 381,
+      "w": 125,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 126
+    },
+    "table_message2": {
+      "x": 439,
+      "y": 0,
+      "w": 125,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 126
+    },
+    "table_personalBg": {
+      "x": 205,
+      "y": 0,
+      "w": 107,
+      "h": 150,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 107,
+      "sourceH": 150
+    },
+    "table_ready1": {
+      "x": 180,
+      "y": 508,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "table_ready2": {
+      "x": 180,
+      "y": 577,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "table_right_bg": {
+      "x": 701,
+      "y": 407,
+      "w": 177,
+      "h": 70,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 177,
+      "sourceH": 70
+    },
+    "table_rightGroup_bg": {
+      "x": 360,
+      "y": 508,
+      "w": 92,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 92,
+      "sourceH": 36
+    },
+    "table_set1": {
+      "x": 565,
+      "y": 0,
+      "w": 125,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 126
+    },
+    "table_set2": {
+      "x": 439,
+      "y": 127,
+      "w": 125,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 126
+    },
+    "table_voiceBtn1": {
+      "x": 691,
+      "y": 0,
+      "w": 125,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 126
+    },
+    "table_voiceBtn2": {
+      "x": 565,
+      "y": 127,
+      "w": 125,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 126
+    },
+    "table_wifi_icon": {
+      "x": 166,
+      "y": 114,
+      "w": 33,
+      "h": 24,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 33,
+      "sourceH": 24
+    },
+    "tableBeforeOpen1": {
+      "x": 0,
+      "y": 771,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "tableBeforeOpen2": {
+      "x": 180,
+      "y": 646,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    }
+  }
+}

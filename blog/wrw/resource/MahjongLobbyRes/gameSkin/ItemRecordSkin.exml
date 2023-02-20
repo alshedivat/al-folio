@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ItemRecordSkin" width="864" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="862" height="100" source="record_item_bg"/>
+	<e:Label id="nameText" text="兑换码" x="70" y="16" textColor="0xb5adad" fontFamily="黑体"/>
+	<e:Label id="exchangeNum" text="25asd14f5asd1f2adsf" x="70" y="54" fontFamily="黑体" anchorOffsetX="0" width="342" textColor="0xe0d9d9"/>
+	<e:Label id="state" text="未领取" x="692" y="31" textColor="0xB5ADAD" fontFamily="黑体" anchorOffsetX="0" width="111"/>
+</e:Skin>

@@ -1,0 +1,9 @@
+[
+{"giftId":1,"giftName":"黄瓜","giftCost":1,"giftCharm":0},
+{"giftId":2,"giftName":"棒棒糖","giftCost":5,"giftCharm":0},
+{"giftId":3,"giftName":"砖头","giftCost":10,"giftCharm":0},
+{"giftId":4,"giftName":"炸弹","giftCost":20,"giftCharm":0},
+{"giftId":5,"giftName":"柠檬汁","giftCost":50,"giftCharm":0},
+{"giftId":6,"giftName":"蓝色妖姬","giftCost":100,"giftCharm":0},
+{"giftId":7,"giftName":"房卡","giftCost":10,"giftCharm":0}
+]

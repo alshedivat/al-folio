@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SelectCard_DDZ_Panel" width="1280" height="350" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="350" x="0" y="0" alpha="0.6"/>
+	<e:Group width="1100" height="200" x="80" y="8" anchorOffsetX="0">
+		<e:List id="_cardList" width="1100" height="200" x="0" itemRendererSkinName="CardItem_DDZ_Skin">
+			<e:layout>
+				<e:TileLayout requestedRowCount="5" requestedColumnCount="11"  columnWidth="100" rowHeight="40" horizontalGap="0" orientation="rows" verticalGap="0"/>
+			</e:layout>
+			<e:Image source="bt_green_bg" x="190" y="73" />
+		</e:List>
+	</e:Group>
+	<e:Group width="1100" height="80" x="80" y="263" anchorOffsetX="0">
+		<e:List id="selectedCards" width="1100" height="80" x="0" y="0">
+			<e:layout>
+				<e:TileLayout requestedRowCount="2" requestedColumnCount="11" columnWidth="100" rowHeight="40" horizontalGap="0" verticalGap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	<e:Group width="1100" height="50" x="80" y="211" anchorOffsetY="0">
+		<e:List id="buttonList" width="521" height="50" x="350" y="0" anchorOffsetX="0">
+			<e:layout>
+				<e:HorizontalLayout gap="20" horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+</e:Skin>

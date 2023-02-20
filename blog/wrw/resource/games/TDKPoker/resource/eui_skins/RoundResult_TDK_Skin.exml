@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoundResult_TDK_Skin" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="1280">
+	<e:Rect width="1280" height="570" x="0" y="150" fillAlpha="0"  strokeColor="0xffffff" fillColor="0xffffff" anchorOffsetY="0"/>
+	<e:Button id="_shuffle_btn" label="" scaleX="0.8" scaleY="0.8" horizontalCenter="0.5" verticalCenter="121">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shuffle_btn" source.disabled="bt_gray_bg" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="cost" text="0" fontFamily="Microsoft YaHei" textColor="0xffffff" rotation="30" size="25" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="89.5" verticalCenter="12" horizontalCenter.up="92.5" verticalCenter.up="12" horizontalCenter.down="88" verticalCenter.down="11" textAlign="left"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_prepare_btn" label="" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="208">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="orange_btn_big" source.disabled="bt_gray_bg" anchorOffsetX="124" anchorOffsetY="47" x="124" y="47"
+			         scaleX.down="0.95" scaleY.down="0.95" />
+			<e:Image source="continue_play" source.disabled="orange_out_card_gray" anchorOffsetX="124" anchorOffsetY="47" x="124"
+			         y="50" scaleX.down="0.95" scaleY.down="0.95"/>
+		</e:Skin>
+	</e:Button>
+
+</e:Skin>

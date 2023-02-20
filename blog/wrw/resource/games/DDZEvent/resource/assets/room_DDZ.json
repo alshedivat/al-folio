@@ -1,0 +1,775 @@
+{
+  "file": "room_DDZ.png",
+  "frames": {
+    "agreeBtn1": {
+      "x": 0,
+      "y": 961,
+      "w": 173,
+      "h": 63,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 173,
+      "sourceH": 63
+    },
+    "agreeBtn2": {
+      "x": 915,
+      "y": 192,
+      "w": 173,
+      "h": 63,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 173,
+      "sourceH": 63
+    },
+    "basechip_tag": {
+      "x": 807,
+      "y": 526,
+      "w": 73,
+      "h": 33,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 73,
+      "sourceH": 33
+    },
+    "bettery_DDZ": {
+      "x": 321,
+      "y": 787,
+      "w": 32,
+      "h": 17,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 18
+    },
+    "betteryPercent_DDZ": {
+      "x": 433,
+      "y": 715,
+      "w": 11,
+      "h": 12,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 11,
+      "sourceH": 12
+    },
+    "bg_neikuang_1_png": {
+      "x": 300,
+      "y": 914,
+      "w": 42,
+      "h": 39,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 42,
+      "sourceH": 39
+    },
+    "bg_neikuang_2_png": {
+      "x": 958,
+      "y": 468,
+      "w": 80,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 80,
+      "sourceH": 51
+    },
+    "bg_neikuang_3_png": {
+      "x": 958,
+      "y": 519,
+      "w": 40,
+      "h": 40,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 40,
+      "sourceH": 40
+    },
+    "bg_tiaoti_2_png": {
+      "x": 507,
+      "y": 746,
+      "w": 152,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 152,
+      "sourceH": 51
+    },
+    "bgBox": {
+      "x": 0,
+      "y": 0,
+      "w": 699,
+      "h": 562,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 701,
+      "sourceH": 562
+    },
+    "bgBox2": {
+      "x": 1209,
+      "y": 66,
+      "w": 140,
+      "h": 44,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 140,
+      "sourceH": 44
+    },
+    "bottombar_bg": {
+      "x": 0,
+      "y": 562,
+      "w": 1280,
+      "h": 62,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 1280,
+      "sourceH": 62
+    },
+    "bottombar_common_bg_DDZ": {
+      "x": 808,
+      "y": 624,
+      "w": 84,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 84,
+      "sourceH": 46
+    },
+    "bottombar_gold": {
+      "x": 726,
+      "y": 757,
+      "w": 49,
+      "h": 50,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 50,
+      "sourceH": 50
+    },
+    "btn_dissolve_1_png": {
+      "x": 699,
+      "y": 0,
+      "w": 293,
+      "h": 110,
+      "offX": 3,
+      "offY": 0,
+      "sourceW": 299,
+      "sourceH": 110
+    },
+    "buy_gold": {
+      "x": 1151,
+      "y": 332,
+      "w": 48,
+      "h": 48,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 50,
+      "sourceH": 50
+    },
+    "cardcounter_bg": {
+      "x": 699,
+      "y": 276,
+      "w": 143,
+      "h": 124,
+      "offX": 8,
+      "offY": 13,
+      "sourceW": 160,
+      "sourceH": 140
+    },
+    "chat_1": {
+      "x": 568,
+      "y": 855,
+      "w": 62,
+      "h": 73,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 62,
+      "sourceH": 74
+    },
+    "chat_2": {
+      "x": 1239,
+      "y": 186,
+      "w": 62,
+      "h": 73,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 62,
+      "sourceH": 74
+    },
+    "data_DDZ": {
+      "x": 378,
+      "y": 787,
+      "w": 19,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 19,
+      "sourceH": 20
+    },
+    "event_time_icon": {
+      "x": 242,
+      "y": 787,
+      "w": 28,
+      "h": 26,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 28,
+      "sourceH": 26
+    },
+    "event_userNum_icon": {
+      "x": 296,
+      "y": 787,
+      "w": 25,
+      "h": 25,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 25,
+      "sourceH": 25
+    },
+    "eventData_bg": {
+      "x": 242,
+      "y": 624,
+      "w": 202,
+      "h": 91,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 202,
+      "sourceH": 91
+    },
+    "game_card_box": {
+      "x": 1370,
+      "y": 109,
+      "w": 59,
+      "h": 54,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 59,
+      "sourceH": 54
+    },
+    "help_line_png": {
+      "x": 786,
+      "y": 697,
+      "w": 4,
+      "h": 150,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 4,
+      "sourceH": 150
+    },
+    "host": {
+      "x": 699,
+      "y": 531,
+      "w": 67,
+      "h": 28,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 67,
+      "sourceH": 30
+    },
+    "icon_clock": {
+      "x": 1088,
+      "y": 168,
+      "w": 84,
+      "h": 91,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 84,
+      "sourceH": 91
+    },
+    "interrogation": {
+      "x": 270,
+      "y": 787,
+      "w": 26,
+      "h": 26,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 26,
+      "sourceH": 26
+    },
+    "kick_icon": {
+      "x": 1086,
+      "y": 397,
+      "w": 50,
+      "h": 48,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 51,
+      "sourceH": 50
+    },
+    "label_help_png": {
+      "x": 566,
+      "y": 682,
+      "w": 140,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 140,
+      "sourceH": 65
+    },
+    "label_set_png": {
+      "x": 1209,
+      "y": 0,
+      "w": 140,
+      "h": 66,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 140,
+      "sourceH": 66
+    },
+    "landlord_bottom_card_bg": {
+      "x": 699,
+      "y": 110,
+      "w": 352,
+      "h": 82,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 352,
+      "sourceH": 82
+    },
+    "landlord_bottom_card_fram": {
+      "x": 699,
+      "y": 192,
+      "w": 216,
+      "h": 84,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 216,
+      "sourceH": 84
+    },
+    "landlord_hat": {
+      "x": 0,
+      "y": 624,
+      "w": 242,
+      "h": 190,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 242,
+      "sourceH": 190
+    },
+    "lord": {
+      "x": 1102,
+      "y": 0,
+      "w": 107,
+      "h": 106,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 107,
+      "sourceH": 106
+    },
+    "mask_head": {
+      "x": 807,
+      "y": 442,
+      "w": 84,
+      "h": 84,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 84,
+      "sourceH": 84
+    },
+    "menu_btn_1": {
+      "x": 1349,
+      "y": 0,
+      "w": 67,
+      "h": 73,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 67,
+      "sourceH": 73
+    },
+    "menu_btn_2": {
+      "x": 741,
+      "y": 624,
+      "w": 67,
+      "h": 73,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 67,
+      "sourceH": 73
+    },
+    "multip_bg": {
+      "x": 726,
+      "y": 697,
+      "w": 60,
+      "h": 60,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 60,
+      "sourceH": 60
+    },
+    "multiple_tag": {
+      "x": 464,
+      "y": 978,
+      "w": 73,
+      "h": 33,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 73,
+      "sourceH": 33
+    },
+    "name_gold_bg": {
+      "x": 242,
+      "y": 715,
+      "w": 161,
+      "h": 72,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 161,
+      "sourceH": 72
+    },
+    "nativeData_bg": {
+      "x": 942,
+      "y": 339,
+      "w": 144,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 144,
+      "sourceH": 51
+    },
+    "player_call_landlord": {
+      "x": 566,
+      "y": 624,
+      "w": 175,
+      "h": 58,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 176,
+      "sourceH": 60
+    },
+    "player_grab_landlord": {
+      "x": 1051,
+      "y": 110,
+      "w": 176,
+      "h": 58,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 176,
+      "sourceH": 60
+    },
+    "player_pass": {
+      "x": 346,
+      "y": 958,
+      "w": 118,
+      "h": 58,
+      "offX": 30,
+      "offY": 0,
+      "sourceW": 176,
+      "sourceH": 60
+    },
+    "player_pass_call": {
+      "x": 1015,
+      "y": 259,
+      "w": 119,
+      "h": 58,
+      "offX": 29,
+      "offY": 0,
+      "sourceW": 176,
+      "sourceH": 60
+    },
+    "player_pass_score": {
+      "x": 450,
+      "y": 855,
+      "w": 118,
+      "h": 58,
+      "offX": 30,
+      "offY": 0,
+      "sourceW": 176,
+      "sourceH": 60
+    },
+    "player_ready": {
+      "x": 507,
+      "y": 797,
+      "w": 119,
+      "h": 58,
+      "offX": 29,
+      "offY": 1,
+      "sourceW": 176,
+      "sourceH": 60
+    },
+    "QQ": {
+      "x": 464,
+      "y": 913,
+      "w": 65,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 65,
+      "sourceH": 65
+    },
+    "refuseBtn1": {
+      "x": 842,
+      "y": 276,
+      "w": 173,
+      "h": 63,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 173,
+      "sourceH": 63
+    },
+    "refuseBtn2": {
+      "x": 173,
+      "y": 961,
+      "w": 173,
+      "h": 63,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 173,
+      "sourceH": 63
+    },
+    "role_frame_1_png": {
+      "x": 1227,
+      "y": 110,
+      "w": 76,
+      "h": 76,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 78,
+      "sourceH": 78
+    },
+    "role_frame_2_png": {
+      "x": 403,
+      "y": 715,
+      "w": 30,
+      "h": 30,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 30,
+      "sourceH": 30
+    },
+    "role_frame_3_png": {
+      "x": 842,
+      "y": 339,
+      "w": 100,
+      "h": 103,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 100,
+      "sourceH": 103
+    },
+    "role_frame_4_png": {
+      "x": 407,
+      "y": 746,
+      "w": 100,
+      "h": 103,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 100,
+      "sourceH": 103
+    },
+    "room_default_head_icon": {
+      "x": 992,
+      "y": 0,
+      "w": 110,
+      "h": 110,
+      "offX": 6,
+      "offY": 6,
+      "sourceW": 122,
+      "sourceH": 122
+    },
+    "Room_HeadFrame": {
+      "x": 444,
+      "y": 624,
+      "w": 122,
+      "h": 122,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 122,
+      "sourceH": 122
+    },
+    "Room_HeadFrame2": {
+      "x": 808,
+      "y": 670,
+      "w": 57,
+      "h": 57,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 57,
+      "sourceH": 57
+    },
+    "room_owner": {
+      "x": 630,
+      "y": 819,
+      "w": 40,
+      "h": 81,
+      "offX": 11,
+      "offY": 5,
+      "sourceW": 60,
+      "sourceH": 92
+    },
+    "shuffle_bg": {
+      "x": 0,
+      "y": 814,
+      "w": 407,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 407,
+      "sourceH": 48
+    },
+    "spoker_count": {
+      "x": 807,
+      "y": 400,
+      "w": 24,
+      "h": 33,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 24,
+      "sourceH": 34
+    },
+    "time_bg": {
+      "x": 1349,
+      "y": 73,
+      "w": 96,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 96,
+      "sourceH": 36
+    },
+    "tips_onlypass": {
+      "x": 0,
+      "y": 862,
+      "w": 354,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 354,
+      "sourceH": 52
+    },
+    "tips_outerror": {
+      "x": 0,
+      "y": 914,
+      "w": 300,
+      "h": 47,
+      "offX": 23,
+      "offY": 6,
+      "sourceW": 348,
+      "sourceH": 56
+    },
+    "Title": {
+      "x": 1416,
+      "y": 0,
+      "w": 95,
+      "h": 50,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 95,
+      "sourceH": 50
+    },
+    "tool_ai_1": {
+      "x": 1134,
+      "y": 259,
+      "w": 67,
+      "h": 73,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 67,
+      "sourceH": 73
+    },
+    "tool_ai_2": {
+      "x": 659,
+      "y": 746,
+      "w": 67,
+      "h": 73,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 67,
+      "sourceH": 73
+    },
+    "tool_button_bg": {
+      "x": 942,
+      "y": 390,
+      "w": 77,
+      "h": 78,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 79,
+      "sourceH": 79
+    },
+    "tool_help_1": {
+      "x": 1019,
+      "y": 390,
+      "w": 67,
+      "h": 73,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 67,
+      "sourceH": 74
+    },
+    "tool_help_2": {
+      "x": 891,
+      "y": 468,
+      "w": 67,
+      "h": 73,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 67,
+      "sourceH": 74
+    },
+    "tool_note_card": {
+      "x": 1201,
+      "y": 259,
+      "w": 56,
+      "h": 62,
+      "offX": 11,
+      "offY": 5,
+      "sourceW": 79,
+      "sourceH": 79
+    },
+    "tool_set_1": {
+      "x": 1172,
+      "y": 186,
+      "w": 67,
+      "h": 73,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 67,
+      "sourceH": 73
+    },
+    "tool_set_2": {
+      "x": 1303,
+      "y": 110,
+      "w": 67,
+      "h": 73,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 67,
+      "sourceH": 73
+    },
+    "user_ai_icon": {
+      "x": 699,
+      "y": 400,
+      "w": 108,
+      "h": 131,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 108,
+      "sourceH": 132
+    },
+    "user_dropped_icon": {
+      "x": 354,
+      "y": 862,
+      "w": 96,
+      "h": 96,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 96,
+      "sourceH": 96
+    },
+    "wcat": {
+      "x": 1086,
+      "y": 332,
+      "w": 65,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 65,
+      "sourceH": 65
+    },
+    "wifi_DDZ": {
+      "x": 353,
+      "y": 787,
+      "w": 25,
+      "h": 18,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 25,
+      "sourceH": 18
+    }
+  }
+}

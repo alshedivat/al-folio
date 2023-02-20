@@ -1,0 +1,14 @@
+<e:Skin class="MJL_Input1Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Group id="titleGroup" x="53" y="7">
+			<e:Label id="title" text="底注：" size="30" fontFamily="Microsoft YaHei" textColor="0xffffff" verticalCenter="0" left="2" x="-51" y="85" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="inputGroup" x="63" y="17" anchorOffsetX="0">
+			<e:Image source="mjl_create_match_inputBg" right="0" left="0" scale9Grid="9,7,215,29" scaleX="1" scaleY="1" top="0" bottom="0" anchorOffsetX="0" width="190"/>
+			<e:EditableText id="textDisplay" maxChars="8" size="28" promptColor="0xffffff" verticalAlign="middle" text="" anchorOffsetY="0" fontFamily="Microsoft YaHei" anchorOffsetX="0" textAlign="center" textColor="0xffffff" scaleX="1" scaleY="1" horizontalCenter="5" verticalCenter="0" width="180"/>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="20"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OpenRecordItemSkin" width="540" height="60" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mjl_redpacket_json.mjl_redpacket_line" left="0" right="0" bottom="1" />
+	<e:Label id="_amountLabel" text="名字" size="26" fontFamily="黑体" anchorOffsetX="0" verticalCenter="0" left="10" width="119" />
+	<e:Label id="_tiemLabel" text="2007年12月25日18点21分" size="22" fontFamily="黑体" anchorOffsetX="0" verticalCenter="0"
+	         horizontalCenter="0" textAlign="center" verticalAlign="middle" />
+	<e:ToggleButton id="_stateToggle" right="5" verticalCenter="0">
+		<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+			<e:Image source="mjl_redpacket_noreceive" includeIn="up,down" />
+			<e:Image source="mjl_redpacket_receive" includeIn="upAndSelected,downAndSelected" />
+		</e:Skin>
+	</e:ToggleButton>
+</e:Skin>

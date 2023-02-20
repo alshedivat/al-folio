@@ -1,0 +1,105 @@
+{
+  "file": "lib_res.png",
+  "frames": {
+    "mjl_closebtn": {
+      "x": 247,
+      "y": 291,
+      "w": 74,
+      "h": 74,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 75,
+      "sourceH": 75
+    },
+    "mjl_closebtn2": {
+      "x": 572,
+      "y": 0,
+      "w": 69,
+      "h": 69,
+      "offX": 3,
+      "offY": 4,
+      "sourceW": 75,
+      "sourceH": 75
+    },
+    "mjl_common_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 571,
+      "h": 210,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 573,
+      "sourceH": 210
+    },
+    "mjl_common_cancel1": {
+      "x": 0,
+      "y": 371,
+      "w": 245,
+      "h": 79,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 246,
+      "sourceH": 79
+    },
+    "mjl_common_cancel2": {
+      "x": 247,
+      "y": 211,
+      "w": 245,
+      "h": 79,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 246,
+      "sourceH": 79
+    },
+    "mjl_common_sure1": {
+      "x": 0,
+      "y": 211,
+      "w": 246,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 246,
+      "sourceH": 79
+    },
+    "mjl_common_sure2": {
+      "x": 0,
+      "y": 291,
+      "w": 246,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 246,
+      "sourceH": 79
+    },
+    "mjl_msgBoxBg": {
+      "x": 0,
+      "y": 0,
+      "w": 571,
+      "h": 210,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 573,
+      "sourceH": 210
+    },
+    "mjl_txt_cancel": {
+      "x": 98,
+      "y": 451,
+      "w": 85,
+      "h": 44,
+      "offX": 16,
+      "offY": 7,
+      "sourceW": 116,
+      "sourceH": 59
+    },
+    "mjl_txt_sure": {
+      "x": 0,
+      "y": 451,
+      "w": 97,
+      "h": 46,
+      "offX": 9,
+      "offY": 6,
+      "sourceW": 116,
+      "sourceH": 59
+    }
+  }
+}

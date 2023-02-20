@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UserInfoPanel_new_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image verticalCenter="0" horizontalCenter="0"  source="userInfoBg"/>
+	<e:Button id="closeBtn" label="" x="988" y="68">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="common_close1" source.down="common_close2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Panel id="_headMc" width="160" height="160"  skinName="HeadImage_new_Skin" top="193" left="336"/>
+
+	<e:Image horizontalCenter="72" verticalCenter="-78"  source="userInfo_id"/>
+	<e:Image horizontalCenter="72" verticalCenter="-27.5"  source="userInfo_ip"/>
+	<e:Image verticalCenter="-134"  source="userInfo_name" horizontalCenter="72"/>
+	<e:Image verticalCenter="-27.5"  source="user_point_icon" left="788"/>
+	<e:Image verticalCenter="-78" source="user_diamond_icon" left="788"/>
+	<e:Image id="_genderIcon" verticalCenter="-130"  source="userinfo_sex0" left="816"/>
+	<e:Label id="_nickTxt" text="玩家姓名玩家姓名" fontFamily="SimHei" size="26" verticalCenter="-132"
+	         left="590"  textColor="0x907935"/>
+	<e:Label id="_idTxt" text="19" fontFamily="SimHei" size="26" verticalCenter="-78" left="590"
+	          textColor="0x907935"/>
+	<e:Label id="_ipTxt" text="19" fontFamily="SimHei" size="26" verticalCenter="-29" left="590"
+	          textColor="0x907935"/>
+	<e:Label id="_diamondTxt" text="18" fontFamily="SimHei" size="26" verticalCenter="-78"
+	          left="870" textColor="0x907935"/>
+	<e:Label id="_scoreTxt" text="18" fontFamily="SimHei" size="26" verticalCenter="-27"
+	          left="870" textColor="0x907935"/>
+	<e:Label id="distanceLabel" text="asa" size="24" fontFamily="Microsoft YaHei" textColor="0xbba78d" left="340" top="323"  visible="false"/>
+	<e:Label id="addressLabel" text="asa" size="24" fontFamily="Microsoft YaHei" textColor="0xBBA78D" left="340" top="360"  visible="false"/>
+	<e:Scroller width="650" height="150" horizontalCenter="-3" scrollPolicyH="off" scrollPolicyV="off" bottom="160">
+		<e:Group>
+			<e:List id="giftList" left="0" right="0" top="0" bottom="0" touchChildren="true" touchEnabled="false"
+			        itemRendererSkinName="giftItem_new_Skin">
+				<e:layout>
+					<e:HorizontalLayout gap="0" />
+				</e:layout>
+			</e:List>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

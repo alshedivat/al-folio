@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PDK_UserInfoSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect bottom="0" left="0" top="0" right="0" alpha="0.1" fillColor="0x000000"/>
+	<e:Image source="game_common2" y="97" horizontalCenter="0.5"/>
+	<e:Label id="titleLabel" text="道          具" y="100.48" textColor="0xFFFFFF" fontFamily="Microsoft YaHei" size="40" anchorOffsetX="0" width="525.99" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="73.93" bold="true" horizontalCenter="0"/>
+	<e:Button id="closeButton" label="" skinName="PDK_CloseButtonSkin" anchorOffsetX="0" width="139.33" anchorOffsetY="0" height="84.75" y="97" horizontalCenter="345.5"/>
+	<e:Image id="headMask" source="userInfo_headBg" y="196.04" anchorOffsetX="0" width="170" anchorOffsetY="0" height="170" horizontalCenter="-259"/>
+	<e:Image id="headImage" source="userInfo_headBg" y="196.04" width="170" height="170" horizontalCenter="-259"/>
+	<e:Label id="nameLabel" text="Label" y="196.04" size="26" width="280" height="26" horizontalCenter="5"/>
+	<e:Label id="idLabel" text="Label" y="255.76" size="26" width="280" horizontalCenter="5"/>
+	<e:Label id="ipLabel" text="ipLabel" y="309.76" size="26" width="280" horizontalCenter="5"/>
+	<e:Label id="distanceLabel" text="distanceLabel" y="362.25" size="26" width="280" horizontalCenter="5"/>
+	<e:Label id="pointLabel" text="Label" y="309.76" size="26" width="230" horizontalCenter="278"/>
+	<e:Label id="addressLabe" text="Label" y="362" size="26" width="230" horizontalCenter="278"/>
+	<e:Label id="diamondLabel" text="Label" y="255.76" size="26" width="230" horizontalCenter="278"/>
+	<e:Image id="sexImage" source="userInfo_man" y="194.28" horizontalCenter="175.5"/>
+	<e:Scroller width="719.7" height="150" y="407.51" anchorOffsetX="0" horizontalCenter="0">
+		<e:List id="list" itemRendererSkinName="PDK_UserInfoItemSkin">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="55"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

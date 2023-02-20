@@ -1,0 +1,215 @@
+{
+  "file": "2d_table.png",
+  "frames": {
+    "2d_betteryBg": {
+      "x": 193,
+      "y": 270,
+      "w": 33,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 33,
+      "sourceH": 20
+    },
+    "2d_betteryPer": {
+      "x": 296,
+      "y": 178,
+      "w": 4,
+      "h": 14,
+      "offX": 0,
+      "offY": 3,
+      "sourceW": 4,
+      "sourceH": 20
+    },
+    "2d_chatBtn": {
+      "x": 379,
+      "y": 0,
+      "w": 65,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 65,
+      "sourceH": 68
+    },
+    "2d_dataIcon": {
+      "x": 280,
+      "y": 178,
+      "w": 15,
+      "h": 17,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 15,
+      "sourceH": 17
+    },
+    "2d_giveup": {
+      "x": 366,
+      "y": 78,
+      "w": 65,
+      "h": 67,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 65,
+      "sourceH": 68
+    },
+    "2d_gpsBtn": {
+      "x": 301,
+      "y": 149,
+      "w": 61,
+      "h": 67,
+      "offX": 2,
+      "offY": 0,
+      "sourceW": 64,
+      "sourceH": 67
+    },
+    "2d_headImageBg": {
+      "x": 301,
+      "y": 0,
+      "w": 77,
+      "h": 77,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 77,
+      "sourceH": 77
+    },
+    "2d_host": {
+      "x": 301,
+      "y": 78,
+      "w": 64,
+      "h": 70,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 64,
+      "sourceH": 70
+    },
+    "2d_menuBg": {
+      "x": 0,
+      "y": 0,
+      "w": 71,
+      "h": 342,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 71,
+      "sourceH": 342
+    },
+    "2d_menuBtn1": {
+      "x": 0,
+      "y": 343,
+      "w": 73,
+      "h": 76,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 73,
+      "sourceH": 76
+    },
+    "2d_menuBtn2": {
+      "x": 74,
+      "y": 389,
+      "w": 47,
+      "h": 30,
+      "offX": 13,
+      "offY": 26,
+      "sourceW": 73,
+      "sourceH": 76
+    },
+    "2d_pointBg": {
+      "x": 140,
+      "y": 320,
+      "w": 97,
+      "h": 33,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 97,
+      "sourceH": 33
+    },
+    "2d_ready": {
+      "x": 72,
+      "y": 270,
+      "w": 120,
+      "h": 49,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 120,
+      "sourceH": 49
+    },
+    "2d_record": {
+      "x": 74,
+      "y": 320,
+      "w": 65,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 65,
+      "sourceH": 68
+    },
+    "2d_setting": {
+      "x": 445,
+      "y": 0,
+      "w": 61,
+      "h": 71,
+      "offX": 2,
+      "offY": 0,
+      "sourceW": 64,
+      "sourceH": 71
+    },
+    "2d_tableBg1_left": {
+      "x": 72,
+      "y": 0,
+      "w": 228,
+      "h": 88,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 228,
+      "sourceH": 88
+    },
+    "2d_tableBg1_right": {
+      "x": 72,
+      "y": 178,
+      "w": 207,
+      "h": 45,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 207,
+      "sourceH": 45
+    },
+    "2d_tableBg2_left": {
+      "x": 72,
+      "y": 89,
+      "w": 228,
+      "h": 88,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 228,
+      "sourceH": 88
+    },
+    "2d_tableBg2_right": {
+      "x": 72,
+      "y": 224,
+      "w": 207,
+      "h": 45,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 207,
+      "sourceH": 45
+    },
+    "2d_voiceBtn": {
+      "x": 0,
+      "y": 420,
+      "w": 65,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 65,
+      "sourceH": 68
+    },
+    "2d_wifiIcon": {
+      "x": 193,
+      "y": 291,
+      "w": 29,
+      "h": 21,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 29,
+      "sourceH": 21
+    }
+  }
+}

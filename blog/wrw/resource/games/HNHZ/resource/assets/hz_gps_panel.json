@@ -1,0 +1,125 @@
+{
+  "file": "hz_gps_panel.png",
+  "frames": {
+    "distanceBg": {
+      "x": 560,
+      "y": 94,
+      "w": 102,
+      "h": 37,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 102,
+      "sourceH": 37
+    },
+    "GPS_button": {
+      "x": 300,
+      "y": 303,
+      "w": 83,
+      "h": 83,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 83,
+      "sourceH": 83
+    },
+    "GPS_icon": {
+      "x": 300,
+      "y": 253,
+      "w": 193,
+      "h": 50,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 193,
+      "sourceH": 50
+    },
+    "gps_line": {
+      "x": 0,
+      "y": 0,
+      "w": 560,
+      "h": 253,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 560,
+      "sourceH": 253
+    },
+    "headBg": {
+      "x": 560,
+      "y": 0,
+      "w": 93,
+      "h": 94,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 93,
+      "sourceH": 94
+    },
+    "hostSetting": {
+      "x": 653,
+      "y": 0,
+      "w": 165,
+      "h": 39,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 165,
+      "sourceH": 39
+    },
+    "line_01": {
+      "x": 148,
+      "y": 384,
+      "w": 148,
+      "h": 123,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 150,
+      "sourceH": 124
+    },
+    "line_02": {
+      "x": 560,
+      "y": 131,
+      "w": 6,
+      "h": 207,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 6,
+      "sourceH": 207
+    },
+    "line_04": {
+      "x": 0,
+      "y": 384,
+      "w": 148,
+      "h": 124,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 150,
+      "sourceH": 124
+    },
+    "line_12": {
+      "x": 0,
+      "y": 253,
+      "w": 150,
+      "h": 131,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 150,
+      "sourceH": 131
+    },
+    "line_13": {
+      "x": 296,
+      "y": 386,
+      "w": 367,
+      "h": 6,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 367,
+      "sourceH": 6
+    },
+    "line_23": {
+      "x": 150,
+      "y": 253,
+      "w": 150,
+      "h": 131,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 150,
+      "sourceH": 131
+    }
+  }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OperateBet_ZJH_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="171"
+        width="842">
+	<e:Group id="betGroup" horizontalCenter="0" bottom="0">
+		<e:Button id="oneScoreButton" label="" x="254" verticalCenter="0">
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image source="bt_green_bg" source.disabled="bt_gray_bg" horizontalCenter="0" verticalCenter="0" />
+				<e:BitmapLabel horizontalCenter="0" verticalCenter="-7" text="1倍" font="wrnn_bet_fnt" />
+			</e:Skin>
+		</e:Button>
+		<e:Button id="twoScoreButton" label="" x="264" verticalCenter="0" y="10">
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image source.disabled="bt_gray_bg"  horizontalCenter="0" verticalCenter="0" source="bt_green_bg" />
+				<e:BitmapLabel text="2倍" horizontalCenter="0" verticalCenter="-7" font="wrnn_bet_fnt" />
+			</e:Skin>
+		</e:Button>
+		<e:Button id="threeScoreButton" label="" x="264" verticalCenter="0">
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image source.disabled="bt_gray_bg"  horizontalCenter="0" verticalCenter="0" source="bt_green_bg" />
+				<e:BitmapLabel text="3倍" horizontalCenter="0" verticalCenter="-7" font="wrnn_bet_fnt" />
+			</e:Skin>
+		</e:Button>
+		<e:Button id="fourScoreButton" label="" x="479" verticalCenter="-13.5">
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image source.disabled="bt_gray_bg" source="bt_green_bg" horizontalCenter="0" verticalCenter="0" />
+				<e:BitmapLabel text="4倍" horizontalCenter="0" verticalCenter="-7" font="wrnn_bet_fnt" />
+			</e:Skin>
+		</e:Button>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image horizontalCenter="0.5" top="48" source="wrnn_location_checkTextBg"/>
+	<e:Label id="noticLabel" text="请下注" size="32" fontFamily="Microsoft YaHei" top="53" horizontalCenter="0"/>
+</e:Skin>

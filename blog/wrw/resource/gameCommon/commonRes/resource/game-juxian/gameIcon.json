@@ -1,0 +1,155 @@
+{
+  "file": "gameIcon.png",
+  "frames": {
+    "game_help1": {
+      "x": 206,
+      "y": 0,
+      "w": 70,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 67
+    },
+    "game_help2": {
+      "x": 348,
+      "y": 68,
+      "w": 59,
+      "h": 59,
+      "offX": 5,
+      "offY": 4,
+      "sourceW": 70,
+      "sourceH": 67
+    },
+    "game_NDchat1": {
+      "x": 206,
+      "y": 68,
+      "w": 70,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 67
+    },
+    "game_NDchat2": {
+      "x": 277,
+      "y": 136,
+      "w": 58,
+      "h": 62,
+      "offX": 5,
+      "offY": 3,
+      "sourceW": 70,
+      "sourceH": 67
+    },
+    "game_NDoperate_host1": {
+      "x": 277,
+      "y": 0,
+      "w": 70,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 67
+    },
+    "game_NDoperate_host2": {
+      "x": 408,
+      "y": 68,
+      "w": 57,
+      "h": 57,
+      "offX": 5,
+      "offY": 4,
+      "sourceW": 70,
+      "sourceH": 67
+    },
+    "game_NDsetting1": {
+      "x": 206,
+      "y": 136,
+      "w": 70,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 67
+    },
+    "game_NDsetting2": {
+      "x": 336,
+      "y": 136,
+      "w": 58,
+      "h": 59,
+      "offX": 5,
+      "offY": 4,
+      "sourceW": 70,
+      "sourceH": 67
+    },
+    "game_NDvoice_btn1": {
+      "x": 277,
+      "y": 68,
+      "w": 70,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 67
+    },
+    "game_NDvoice_btn2": {
+      "x": 419,
+      "y": 0,
+      "w": 57,
+      "h": 61,
+      "offX": 5,
+      "offY": 4,
+      "sourceW": 70,
+      "sourceH": 67
+    },
+    "game_setting_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 205,
+      "h": 206,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 205,
+      "sourceH": 206
+    },
+    "game_setting_control1": {
+      "x": 348,
+      "y": 0,
+      "w": 70,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 67
+    },
+    "game_setting_control2": {
+      "x": 395,
+      "y": 128,
+      "w": 57,
+      "h": 57,
+      "offX": 6,
+      "offY": 4,
+      "sourceW": 70,
+      "sourceH": 67
+    },
+    "gift_roomCard": {
+      "x": 0,
+      "y": 207,
+      "w": 46,
+      "h": 45,
+      "offX": 6,
+      "offY": 0,
+      "sourceW": 58,
+      "sourceH": 45
+    },
+    "result_line": {
+      "x": 0,
+      "y": 253,
+      "w": 183,
+      "h": 1,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 183,
+      "sourceH": 1
+    }
+  }
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchInfoRadioSkin" xmlns:e="http://ns.egret.com/eui" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSeleced" width="143" height="60">
+    <e:Image includeIn="upAndSelected,downAndSelected,disabledAndSeleced"  source="match_topBtn_bg" source.upAndSelected="match_topBtn_selected" source.downAndSelected="match_topBtn_selected" width="143" height="60" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="fangjian"  width="120" height="33" horizontalCenter="0" verticalCenter="0" source.upAndSelected="fangjian1" source.downAndSelected="fangjian1"/>
+</e:Skin>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeamCardItemSkin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="111" height="161">
+	<e:Image id="imageSousrce" horizontalCenter="0" verticalCenter="0" width="111" height="161" source="BackCard"/>
+	<e:Image id="headMc" source="http://image.gamelaoyou.com/img/0668a2465965d1ebabe2785a.jpg" horizontalCenter="0" verticalCenter="0" width="60" height="60"/>
+</e:Skin>

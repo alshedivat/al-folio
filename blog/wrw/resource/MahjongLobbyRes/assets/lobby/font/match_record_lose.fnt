@@ -1,0 +1,14 @@
+{"file":"match_record_lose.png","frames":{
+"-":{"x":88,"y":82,"w":30,"h":14,"offX":0,"offY":17,"sourceW":30,"sourceH":39},
+".":{"x":88,"y":98,"w":15,"h":16,"offX":1,"offY":23,"sourceW":16,"sourceH":39},
+":":{"x":88,"y":41,"w":24,"h":39,"offX":0,"offY":0,"sourceW":24,"sourceH":39},
+"0":{"x":0,"y":0,"w":29,"h":39,"offX":0,"offY":0,"sourceW":29,"sourceH":39},
+"1":{"x":61,"y":0,"w":20,"h":38,"offX":0,"offY":1,"sourceW":25,"sourceH":39},
+"2":{"x":60,"y":40,"w":26,"h":39,"offX":0,"offY":0,"sourceW":26,"sourceH":39},
+"3":{"x":30,"y":82,"w":27,"h":39,"offX":0,"offY":0,"sourceW":29,"sourceH":39},
+"4":{"x":0,"y":41,"w":28,"h":39,"offX":0,"offY":0,"sourceW":28,"sourceH":39},
+"5":{"x":59,"y":82,"w":27,"h":38,"offX":0,"offY":1,"sourceW":27,"sourceH":39},
+"6":{"x":0,"y":82,"w":28,"h":39,"offX":0,"offY":0,"sourceW":30,"sourceH":39},
+"7":{"x":31,"y":0,"w":28,"h":38,"offX":0,"offY":1,"sourceW":29,"sourceH":39},
+"8":{"x":88,"y":0,"w":25,"h":39,"offX":0,"offY":0,"sourceW":25,"sourceH":39},
+"9":{"x":30,"y":41,"w":28,"h":39,"offX":0,"offY":0,"sourceW":28,"sourceH":39}}}

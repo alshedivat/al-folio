@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchSetPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="0" bottom="0" source="lobby_main_bg_jpg"/>
+	<e:Group left="0" top="0" bottom="0">
+		<e:Image source="mjl_matchSet_title_bg1" scaleX="1" scaleY="1" top="40" left="0" bottom="0"/>
+		<e:Image source="mjl_matchSet_title_bg" scaleX="1" scaleY="1" left="0" top="0"/>
+		<e:Image source="mjl_matchSet_json.mjl_matchSet_title" top="15" left="56"/>
+		<e:Group width="200" top="100" left="0" bottom="0">
+			<e:RadioButton id="radio1" label="" x="75" y="76" height="82" value="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image source="mjl_matchSet_type_1_1" source.down="mjl_matchSet_type_1_2" verticalCenter="0" horizontalCenter="0"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="radio2" label="" x="85" y="86" height="82" value="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image source="mjl_matchSet_type_2_1" source.down="mjl_matchSet_type_2_2" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="radio3" label="" x="95" y="96" height="82" value="2">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image source="mjl_matchSet_type_3_1" source.down="mjl_matchSet_type_3_2" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="radio4" label="" x="105" y="106" height="82" value="3">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image source="mjl_matchSet_type_4_1" source.down="mjl_matchSet_type_4_2" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="left" verticalAlign="top" gap="6" paddingLeft="5"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Image id="commonTips" source="mjl_matchSet_json.mjl_matchSet_common_title" top="17" left="240" visible="false"/>
+	<e:Group width="1000" top="100" bottom="0" horizontalCenter="105">
+		<e:Scroller left="0" right="0" top="0" bottom="10">
+			<e:Group id="setGroup">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+	<e:Button id="clostBtn" label="Button" skinName="MJ_CloseButton1Skin" right="0" top="0"/>
+</e:Skin>

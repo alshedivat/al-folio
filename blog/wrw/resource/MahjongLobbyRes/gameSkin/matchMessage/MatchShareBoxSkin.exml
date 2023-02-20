@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchShareBoxSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="635" height="391" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="635" height="391"  source="mjl_common_bj_3" scale9Grid="48,66,179,475"/>
+		<e:Label id="title" text="分享" size="32" x="222" width="191"  textAlign="center" fontFamily="SimHei" textColor="0xffffff" top="14" visible="false"/>
+		<e:Button id="_wXinIcon" label="" scaleX="1" scaleY="1" verticalCenter="-11" left="89">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="187" height="190">
+				<e:Image source="s_weixin" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Image source="mjl_sharewx_json.mjl_share_icon" scaleX="1" scaleY="1" bottom="-35" horizontalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	<e:Button id="_xlIcon" label="" scaleX="1" scaleY="1" verticalCenter="-11" right="89">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="187" height="190">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="mjl_sharewx_json.s_xianliao"/>
+			<e:Image source="mjl_sharewx_json.mjl_share_xl_icon" scaleX="1" scaleY="1" bottom="-35" horizontalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="closeButton" top="-30" right="-28" skinName="MJ_CloseButton1Skin" scaleX="0.9" scaleY="0.9">
+	</e:Button>
+	</e:Group>
+</e:Skin>

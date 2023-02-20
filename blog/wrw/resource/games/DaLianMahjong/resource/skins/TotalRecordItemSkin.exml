@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TotalRecordItemSkin" width="270" height="500" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="total_itemBg" left="0" right="0" top="0" bottom="0"/>
+	<e:Label id="idLabel" text="标签" x="108" y="58" size="20" textColor="0xe53b1a"/>
+	<e:Label id="nameLabel" y="17" text="标签" x="108" size="20" textColor="0x7d2f00" width="150"/>
+	<e:Image id="hostImage" x="213" y="0" source="total_host"/>
+	<e:Label text="总成绩" y="398" fontFamily="隶书" textColor="0xab2603" x="90"/>
+	<e:BitmapLabel id="winBitMapLabel" y="439" font="win_fnt" text="0.1" anchorOffsetX="0" letterSpacing="-3" horizontalCenter="0"/>
+	<e:Group id="group" width="270" height="259" y="122">
+		<e:layout>
+		<e:TileLayout paddingTop="20"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="winIcon" x="8" y="363" width="100" height="100" anchorOffsetX="0" source="total_winner2"/>
+
+</e:Skin>

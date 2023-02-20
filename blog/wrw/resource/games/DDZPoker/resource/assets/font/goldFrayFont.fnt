@@ -1,0 +1,15 @@
+{"file":"goldFrayFont.png","frames":{
+"0":{"x":0,"y":75,"w":65,"h":88,"offX":8,"offY":3,"sourceW":80,"sourceH":92},
+"1":{"x":214,"y":0,"w":39,"h":85,"offX":19,"offY":5,"sourceW":80,"sourceH":92},
+"2":{"x":194,"y":90,"w":60,"h":87,"offX":10,"offY":3,"sourceW":80,"sourceH":92},
+"3":{"x":65,"y":179,"w":61,"h":87,"offX":9,"offY":3,"sourceW":80,"sourceH":92},
+"4":{"x":81,"y":0,"w":66,"h":87,"offX":6,"offY":3,"sourceW":80,"sourceH":92},
+"5":{"x":0,"y":253,"w":61,"h":86,"offX":9,"offY":4,"sourceW":80,"sourceH":92},
+"6":{"x":149,"y":0,"w":63,"h":88,"offX":8,"offY":3,"sourceW":80,"sourceH":92},
+"7":{"x":0,"y":165,"w":63,"h":86,"offX":9,"offY":5,"sourceW":80,"sourceH":92},
+"8":{"x":131,"y":90,"w":61,"h":88,"offX":9,"offY":3,"sourceW":80,"sourceH":92},
+"9":{"x":67,"y":89,"w":62,"h":88,"offX":9,"offY":3,"sourceW":80,"sourceH":92},
+".":{"x":128,"y":210,"w":25,"h":25,"offX":0,"offY":59,"sourceW":25,"sourceH":92},
+"k":{"x":194,"y":179,"w":59,"h":73,"offX":12,"offY":12,"sourceW":80,"sourceH":92},
+"-":{"x":128,"y":180,"w":62,"h":28,"offX":10,"offY":36,"sourceW":80,"sourceH":92},
+"w":{"x":0,"y":0,"w":79,"h":73,"offX":0,"offY":12,"sourceW":80,"sourceH":92}}}

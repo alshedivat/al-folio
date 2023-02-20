@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TotalRecordItem_2d5_new_Skin" width="276" height="469" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="totalRecordItem_bg_2d5" left="0" right="0" top="0" bottom="0"/>
+	<e:Label id="idLabel" text="标签" y="72" size="22" textColor="0xbf6414" fontFamily="Microsoft YaHei" left="107"/>
+	<e:Label id="nameLabel" y="41.5" text="标签" size="22" fontFamily="Microsoft YaHei" textColor="0x7f5733" left="107"/>
+	<e:Image source="totalRecord_head_bg_2d5" horizontalCenter="-76.5" verticalCenter="-171" visible="false"/>
+	<e:Image id="headMc" horizontalCenter="-76.5" verticalCenter="-171" source="" anchorOffsetY="0" height="65" anchorOffsetX="0" width="65"/>
+	<e:Image id="hostImage" source="hostMaster_2d5" top="0" left="0"/>
+	<e:BitmapLabel id="winBitMapLabel" text="+1222" bottom="35" horizontalCenter="0" font="win_jiesuan_fnt"/>
+	<e:Group id="group" height="256.33" anchorOffsetY="0" left="0" right="0" verticalCenter="0">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" gap="21"/>
+		</e:layout>
+
+		<e:Label text="自摸次数    0" y="17" verticalAlign="justify" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" x="54" size="28" textColor="0xc17c36"/>
+		<e:Label text="接炮次数：0" x="145" y="27" verticalAlign="justify" anchorOffsetX="0" textAlign="center" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0xc17c36" size="28"/>
+		<e:Label text="点炮次数：0" x="155" y="37" verticalAlign="justify" anchorOffsetX="0" textAlign="center" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0xc17c36" size="28"/>
+		<e:Label text="杠牌次数：0" x="165" y="47" verticalAlign="justify" anchorOffsetX="0" textAlign="center" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0xc17c36" size="28"/>
+		<e:Label text="查叫次数：0" x="175" y="57" verticalAlign="justify" anchorOffsetX="0" textAlign="center" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0xc17c36" size="28"/>
+	</e:Group>
+	<e:Image id="winIcon" anchorOffsetX="0" width="119" anchorOffsetY="0" height="121" source="winner_2d5" right="-2" top="-3"/>
+</e:Skin>

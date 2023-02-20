@@ -1,0 +1,45 @@
+{
+  "file": "game_userInfo.png",
+  "frames": {
+    "userInfo_headBg": {
+      "x": 156,
+      "y": 0,
+      "w": 134,
+      "h": 133,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 133
+    },
+    "userInfo_Item": {
+      "x": 0,
+      "y": 0,
+      "w": 155,
+      "h": 190,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 190
+    },
+    "userInfo_man": {
+      "x": 0,
+      "y": 191,
+      "w": 27,
+      "h": 27,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 27,
+      "sourceH": 27
+    },
+    "userInfo_woman": {
+      "x": 0,
+      "y": 219,
+      "w": 16,
+      "h": 27,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 16,
+      "sourceH": 27
+    }
+  }
+}

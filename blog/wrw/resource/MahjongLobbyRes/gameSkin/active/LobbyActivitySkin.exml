@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LobbyActivitySkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="1158" height="628" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image  source="mjl_common_bj_1" left="-10" right="-10" top="-10" bottom="-10" scale9Grid="33,89,205,539"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="mjl_common_bj_2" scale9Grid="27,33,227,540" left="0" right="0" top="0" bottom="0" scaleX="1" scaleY="1"/>
+		<e:Group id="leftGroup" width="240" height="500" left="18" top="100">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" scale9Grid="17,22,75,75" width="255" height="500" verticalCenter="0" horizontalCenter="0" source="mjl_common_bj_7"/>
+			<e:Scroller anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" width="270" height="490" left="0" top="5">
+				<e:List id="activeList" x="1.33" y="1.33" itemRendererSkinName="MJ_RadioButton1Skin" touchChildren="true" touchEnabled="false">
+				<e:layout>
+					<e:VerticalLayout gap="15" horizontalAlign="center" verticalAlign="middle" paddingTop="10"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+	</e:Group>
+		<e:Group id="rightGroup" width="866" height="500" top="100" anchorOffsetX="0" left="280">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" scale9Grid="17,22,75,75" source="mjl_common_bj_7" left="0" right="0" top="0" bottom="0"/>
+			<e:Group id="imgGroup" left="5" right="5" top="5" bottom="5" height="470" width="790">
+			</e:Group>
+			<e:Group id="loadingGroup" width="200" height="200" horizontalCenter="0" verticalCenter="0">
+				<e:Image id="loadMask" width="76" height="74" horizontalCenter="0" verticalCenter="0" source="loading1" anchorOffsetX="38" anchorOffsetY="37"/>
+				<e:Image id="loadMc" width="76" height="74" anchorOffsetX="0" anchorOffsetY="0" source="loading2" mask="loadMask" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Button id="shareButton" right="5" top="5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="activity_share1" horizontalCenter="0" source.down="activity_share2" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="noticeGroup" width="1010" horizontalCenter="0" anchorOffsetY="0" height="498" bottom="26" visible="false">
+		<e:Image   left="0" right="0" top="0" bottom="0" source="notice_imgbg" scale9Grid="31,74,187,365" visible="false"/>
+		<e:Image id="noticeImage" anchorOffsetY="0" horizontalCenter="-0.5" verticalCenter="11" source="notice_Imgnew_png"/>
+		</e:Group>
+		<e:Group id="buttonGroup" anchorOffsetX="0" anchorOffsetY="0" top="-2" width="780" height="79" horizontalCenter="0">
+		<e:RadioButton id="activityBtn" label="" x="102" y="40" groupName="noticebtn" selected="true">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="446" height="79">
+				<e:Image source="activity_buttonbg1" source.down="activity_buttonbg2" horizontalCenter="0" verticalCenter="0" verticalCenter.down="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="noticeBtn" label="" x="112" y="50" groupName="noticebtn">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="446" height="79">
+				<e:Image source="notice_buttonbg1" source.down="notice_buttonbg2" verticalCenter.down="0" horizontalCenter.down="0" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:layout>
+			<e:HorizontalLayout gap="-112" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+
+		<e:Button id="closeBtn" label="Button" skinName="MJ_CloseButton1Skin" right="-30" top="-30" x="592.0000000000001" y="129.99999999999994" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+</e:Skin>

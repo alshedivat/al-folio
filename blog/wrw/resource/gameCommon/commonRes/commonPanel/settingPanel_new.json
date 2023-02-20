@@ -1,0 +1,235 @@
+{
+  "file": "settingPanel_new.png",
+  "frames": {
+    "setting_majiang_1": {
+      "x": 456,
+      "y": 507,
+      "w": 47,
+      "h": 66,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 47,
+      "sourceH": 66
+    },
+    "setting_majiang_2": {
+      "x": 676,
+      "y": 299,
+      "w": 44,
+      "h": 66,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 44,
+      "sourceH": 66
+    },
+    "setting_new_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 455,
+      "h": 720,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 455,
+      "sourceH": 720
+    },
+    "setting_new_bg2": {
+      "x": 456,
+      "y": 0,
+      "w": 438,
+      "h": 162,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 438,
+      "sourceH": 162
+    },
+    "setting_new_bg_icon": {
+      "x": 456,
+      "y": 471,
+      "w": 134,
+      "h": 35,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 35
+    },
+    "setting_new_bg_icon_blue": {
+      "x": 787,
+      "y": 163,
+      "w": 60,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 60,
+      "sourceH": 59
+    },
+    "setting_new_bg_icon_green": {
+      "x": 895,
+      "y": 36,
+      "w": 61,
+      "h": 61,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 61,
+      "sourceH": 61
+    },
+    "setting_new_checkbox1": {
+      "x": 0,
+      "y": 787,
+      "w": 162,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 162,
+      "sourceH": 53
+    },
+    "setting_new_checkbox2": {
+      "x": 456,
+      "y": 361,
+      "w": 162,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 162,
+      "sourceH": 53
+    },
+    "setting_new_dialect_icon": {
+      "x": 895,
+      "y": 0,
+      "w": 125,
+      "h": 35,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 35
+    },
+    "setting_new_dissBtn1": {
+      "x": 0,
+      "y": 721,
+      "w": 219,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 219,
+      "sourceH": 65
+    },
+    "setting_new_dissBtn2": {
+      "x": 456,
+      "y": 295,
+      "w": 219,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 219,
+      "sourceH": 65
+    },
+    "setting_new_majiang_icon": {
+      "x": 0,
+      "y": 897,
+      "w": 133,
+      "h": 37,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 37
+    },
+    "setting_new_music_icon": {
+      "x": 677,
+      "y": 264,
+      "w": 133,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 34
+    },
+    "setting_new_refresh1": {
+      "x": 456,
+      "y": 163,
+      "w": 220,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 220,
+      "sourceH": 65
+    },
+    "setting_new_refresh2": {
+      "x": 456,
+      "y": 229,
+      "w": 220,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 220,
+      "sourceH": 65
+    },
+    "setting_new_sound_icon": {
+      "x": 677,
+      "y": 228,
+      "w": 138,
+      "h": 35,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 138,
+      "sourceH": 35
+    },
+    "setting_new_view_icon": {
+      "x": 0,
+      "y": 935,
+      "w": 134,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 34
+    },
+    "setting_new_viewBtn1": {
+      "x": 456,
+      "y": 415,
+      "w": 98,
+      "h": 55,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 99,
+      "sourceH": 57
+    },
+    "setting_new_viewBtn2": {
+      "x": 0,
+      "y": 841,
+      "w": 99,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 99,
+      "sourceH": 57
+    },
+    "setting_new_viewBtn_down1": {
+      "x": 677,
+      "y": 163,
+      "w": 109,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 109,
+      "sourceH": 64
+    },
+    "setting_new_viewBtn_down2": {
+      "x": 220,
+      "y": 721,
+      "w": 62,
+      "h": 60,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 62,
+      "sourceH": 61
+    },
+    "setting_new_viewBtn_down3": {
+      "x": 163,
+      "y": 787,
+      "w": 52,
+      "h": 70,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 52,
+      "sourceH": 70
+    }
+  }
+}

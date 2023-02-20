@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CertificationPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mjl_common_json.common_title_bg" top="46" horizontalCenter="8.5"/>
+
+	<e:Image anchorOffsetX="0" width="736" anchorOffsetY="0"
+	         height="556"  source="mjl_common_bj_3" scale9Grid="47,54,186,482" verticalCenter="49" horizontalCenter="0"/>
+	<e:Image source="verify_title" top="71" horizontalCenter="-4.5"/>
+	<e:Label text="姓名:" x="405" y="236" fontFamily="SimHei" textAlign="right"  textColor="0xf7fbff"/>
+	<e:Label text="身份证号:" x="348" y="375" fontFamily="黑体" textAlign="right"  textColor="0xf7fbff"/>
+	<e:Label x="498" y="305" text="*请填写正确的姓名" size="26" fontFamily="SimHei" textColor="0x183d9c"/>
+	<e:Label x="498" y="446" text="*请填写正确的身份证号" textColor="0x183d9c" fontFamily="SimHei" size="26"/>
+	<e:Label text="*您的身份信息，我们只用于实名注册，不会将此信息在其他场景使用" size="20" fontFamily="SimHei" textColor="0xf7fbff" bottom="87" horizontalCenter="0"/>
+	<e:TextInput id="userName" width="432" height="62" x="493" y="218" anchorOffsetX="0" textColor="0xffffff">
+		<e:Skin width="334" height="50" minHeight="45" minWidth="300"
+		        states="normal,disabled,normalWithPrompt,disabledWithPrompt">
+			<e:Image anchorOffsetX="0" width="432" height="62" source="verify_inputbg" scale9Grid="7,7,64,48"/>
+			<e:EditableText id="textDisplay" textColor.disabled="0x62b5f0" height="62" size="25" fontFamily="黑体"
+			                verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" width="415" textAlign="left"
+			                prompt="" textColor="0xFFFFFF"  verticalCenter="2" horizontalCenter="0"/>
+			<e:Label id="promptDisplay" verticalCenter="0" left="10" right="10" width="100%" height="35" size="35"
+			         touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" fontFamily="黑体" textAlign="left"
+			         textColor="0xFFFFFF" />
+		</e:Skin>
+	</e:TextInput>
+	<e:TextInput id="userNumber" width="432" height="62" x="493" y="357" anchorOffsetX="0" textColor="0xffffff">
+		<e:Skin width="334" height="50" minHeight="45" minWidth="300"
+		        states="normal,disabled,normalWithPrompt,disabledWithPrompt">
+			<e:Image anchorOffsetX="0" width="432" height="62" source="verify_inputbg" scale9Grid="7,7,64,48"/>
+			<e:EditableText id="textDisplay" textColor.disabled="0x62b5f0" height="62" size="25" fontFamily="黑体"
+			                verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" width="415" textAlign="left"
+			                prompt="" textColor="0xFFFFFF"  verticalCenter="2" horizontalCenter="0"/>
+			<e:Label id="promptDisplay" verticalCenter="0" left="10" right="10" width="100%" height="35" size="35"
+			         touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" fontFamily="黑体" textAlign="left"
+			         textColor="0xFFFFFF" />
+		</e:Skin>
+	</e:TextInput>
+
+	<e:Button id="submitBtn" label="" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" bottom="144">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="verify_sure1" source.down="verify_sure2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+		<e:Button id="closeButton" width="100" height="100" skinName="MJ_CloseButton1Skin"  right="240" top="99"/>
+</e:Skin>

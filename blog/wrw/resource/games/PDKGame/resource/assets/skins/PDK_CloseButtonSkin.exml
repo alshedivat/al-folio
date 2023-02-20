@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PDK_CloseButtonSkin" xmlns:e="http://ns.egret.com/eui" states="up,down" >
+    <e:Image scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0" source="game_userInfo_close1"/>
+    <e:Label width="100%" height="100%"/>
+</e:Skin>

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FaceButton_2d5_new_Skin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" width="100" height="90">
+	<e:Image id="iconDisplay" horizontalCenter="1" verticalCenter="1" width.down="90%" height.down="90%" width="60" height="60"/>
+	<e:Label width="100%" height="100%"/>
+</e:Skin>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TotalRecordSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="total_host_bg1" scale9Grid="23,19,58,64"/>
+	<e:Image source="public_client4" y="22.33" horizontalCenter="0" x="10"/>
+	<e:Image y="90.03" width="1202" height="562" alpha="0.8" source="total_contenbg2" scale9Grid="46,45,14,12" anchorOffsetY="0" horizontalCenter="0"/>
+	<e:Image y="39.67" source="total_title" horizontalCenter="0"/>
+	<e:Button id="closeButton" x="1157" y="3.34">
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image horizontalCenter="1" verticalCenter="1" width="100%" height="100%" width.down="80%" height.down="80%" source="public_client8"/>
+			<e:Label id="labelDisplay0" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</e:Button>
+	<e:Button y="640" id="shareButton" x="355.33" label="分享">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="total_button" scale9Grid="24,11,72,23" width="100%" height="100%" width.down="80%" height.down="80%" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x3E3E49"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="againButton" y="640" width="216" height="70" x="697.33" label="再来一局" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image source="total_button" scale9Grid="32,11,193,28" width="100%" height="100%" width.down="80%" height.down="80%" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x3E3E49"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:List id="list" y="122" horizontalCenter="0">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center"/>
+		</e:layout>
+	</e:List>
+	<e:Label id="roomIdLabel" text="标签" x="66" y="87.68" size="18" textColor="0xFFFFFF"/>
+	<e:Label id="roomTimeLabel" y="87.68" text="2017-12-12  11：11：11" x="1014" size="18" textColor="0xFFFFFF"/>
+	<e:Label id="roomTitleLabel" y="61" text="2017-12-12  11：11：11" size="18" x="66" textColor="0xFFFFFF"/>
+</e:Skin>

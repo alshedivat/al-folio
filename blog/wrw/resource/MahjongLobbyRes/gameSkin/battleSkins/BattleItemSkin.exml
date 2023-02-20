@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image source="mjl_event_item_1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="eventName" text="100金豆快速赛" top="15" horizontalCenter="50" size="40" fontFamily="黑体" textColor="0x296e0c"/>
+		<e:Label id="eventInfo" text="Label" horizontalCenter="50" fontFamily="黑体" textAlign="center" size="22" top="70" textColor="0x296000"/>
+		<e:BitmapLabel id="cost" font="luckPoorFont_2_fnt" scaleX="0.4" scaleY="0.4" text="100" horizontalCenter="50" bottom="40"/>
+	</e:Group>
+</e:Skin>

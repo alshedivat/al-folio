@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DropDownItemSkin" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down" >
+	<e:Image left="0" right="0" top="0" bottom="0" scale9Grid="6,5,39,32" source="match_history_selected_bg" visible.up="false" visible.down="true" visible="false"/>
+<e:Label id="label" text="2019-02-12 00:00" fontFamily="Microsoft YaHei" size="28" horizontalCenter="0" verticalCenter="0" textColor="0x844118"/>
+</e:Skin>

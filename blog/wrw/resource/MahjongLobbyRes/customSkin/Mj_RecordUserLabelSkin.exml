@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Mj_RecordUserLabelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:MJLobby="MJLobby.*" width="150" height="50">
+	<e:Label id="userName" text="Label" fontFamily="SimHei" left="0" right="0" textAlign="center" size="22" top="0" textColor="0x0154b1" visible="false"/>
+	<MJLobby:TextImage id="userNameText" width="70" height="22" top="0" left="50"/>
+	<e:Label id="score" text="123456" fontFamily="SimHei" left="0" right="0" textAlign="center" textColor="0x0154b1" size="22" bottom="0" width="150"/>
+</e:Skin>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ScoreRecordPanel_2d5_new_skin" width="518" height="560" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="scoreRecord_json.record_bg" scale9Grid="20,18,20,16" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0" right="6" bottom="0" x="0" y="0" scaleX="1" scaleY="1"/>
+	<e:Image id="_arrowR" source="scoreRecord_json.record_arrow" y="349" right="0" x="507" scaleX="1" scaleY="1" anchorOffsetY="11"/>
+	<e:Image source="scoreRecord_json.lblSocreDetail" x="28" y="34.5" scaleX="1" scaleY="1"/>
+	<e:Image id="_profile0" x="135" y="23" scale9Grid="1,1,10,10" width="60" height="60" source="" scaleX="1" scaleY="1"/>
+	<e:Image source="scoreRecord_json.record_bg_profile" x="135" y="23" scale9Grid="1,1,10,10" width="60" height="60" scaleX="1" scaleY="1"/>
+	<e:Image id="_profile1" x="225" y="23" scale9Grid="1,1,10,10" width="60" height="60" source="" scaleX="1" scaleY="1"/>
+	<e:Image source="scoreRecord_json.record_bg_profile" x="225" y="23" scale9Grid="1,1,10,10" width="60" height="60" scaleX="1" scaleY="1"/>
+	<e:Image id="_profile2" x="315" y="23" scale9Grid="1,1,10,10" width="60" height="60" source="" scaleX="1" scaleY="1"/>
+	<e:Image source="scoreRecord_json.record_bg_profile" x="315" y="23" scale9Grid="1,1,10,10" width="60" height="60" scaleX="1" scaleY="1"/>
+	<e:Image id="_profile3" x="405" y="23" scale9Grid="1,1,10,10" width="60" height="60" source="" scaleX="1" scaleY="1"/>
+	<e:Image source="scoreRecord_json.record_bg_profile" x="405" y="23" scale9Grid="1,1,10,10" width="60" height="60" scaleX="1" scaleY="1"/>
+	<e:Image source="scoreRecord_json.record_bg_tableHead" scale9Grid="1,5,9,42" right="20" left="14" top="96" x="14" y="96" scaleX="1" scaleY="1"/>
+	<e:Label text="总分" x="33" y="108" size="28" textColor="0xfd4d4d" scaleX="1" scaleY="1"/>
+	<e:Label text="0" y="108" size="28" textColor="0xFD4D4D" id="_totalScore0" horizontalCenter="-94"/>
+	<e:Label id="_totalScore1" text="0" y="108" size="28" textColor="0xFD4D4D" horizontalCenter="-3"/>
+	<e:Label text="0" y="108" size="28" textColor="0xFD4D4D" id="_totalScore2" horizontalCenter="87"/>
+	<e:Label text="0" y="108" size="28" textColor="0xFD4D4D" id="_totalScore3" horizontalCenter="176"/>
+	<e:Scroller width="484" x="14" anchorOffsetX="0" anchorOffsetY="0" top="149" bottom="23">
+		<e:Group id="_detailScroller" anchorOffsetX="0" width="484" anchorOffsetY="0" height="397">
+			<e:Label id="_lblNoData" text="战绩空空如也" textColor="0xce8a42" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

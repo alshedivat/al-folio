@@ -1,0 +1,105 @@
+{
+  "file": "messageBox_2d5.png",
+  "frames": {
+    "agreeBtn_2d5_1": {
+      "x": 622,
+      "y": 122,
+      "w": 162,
+      "h": 60,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 163,
+      "sourceH": 60
+    },
+    "agreeBtn_2d5_2": {
+      "x": 622,
+      "y": 0,
+      "w": 163,
+      "h": 60,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 163,
+      "sourceH": 60
+    },
+    "box_bg2_2d5": {
+      "x": 0,
+      "y": 0,
+      "w": 621,
+      "h": 360,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 621,
+      "sourceH": 360
+    },
+    "boxBg_2d5": {
+      "x": 0,
+      "y": 361,
+      "w": 621,
+      "h": 360,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 621,
+      "sourceH": 360
+    },
+    "cancelBtn_2d5_1": {
+      "x": 622,
+      "y": 183,
+      "w": 162,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 163,
+      "sourceH": 60
+    },
+    "cancelBtn_2d5_2": {
+      "x": 0,
+      "y": 844,
+      "w": 162,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 163,
+      "sourceH": 60
+    },
+    "rejectBtn_2d5_1": {
+      "x": 622,
+      "y": 61,
+      "w": 163,
+      "h": 60,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 163,
+      "sourceH": 60
+    },
+    "rejectBtn_2d5_2": {
+      "x": 0,
+      "y": 722,
+      "w": 163,
+      "h": 60,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 163,
+      "sourceH": 60
+    },
+    "sureBtn_2d5_1": {
+      "x": 0,
+      "y": 783,
+      "w": 162,
+      "h": 60,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 163,
+      "sourceH": 60
+    },
+    "sureBtn_2d5_2": {
+      "x": 786,
+      "y": 0,
+      "w": 162,
+      "h": 60,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 163,
+      "sourceH": 60
+    }
+  }
+}

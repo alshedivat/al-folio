@@ -1,0 +1,35 @@
+{
+  "file": "over.png",
+  "frames": {
+    "heBg_png": {
+      "x": 0,
+      "y": 0,
+      "w": 624,
+      "h": 266,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 626,
+      "sourceH": 266
+    },
+    "ju": {
+      "x": 149,
+      "y": 267,
+      "w": 140,
+      "h": 140,
+      "offX": 0,
+      "offY": 9,
+      "sourceW": 140,
+      "sourceH": 149
+    },
+    "liu": {
+      "x": 0,
+      "y": 267,
+      "w": 148,
+      "h": 135,
+      "offX": 0,
+      "offY": 10,
+      "sourceW": 148,
+      "sourceH": 149
+    }
+  }
+}

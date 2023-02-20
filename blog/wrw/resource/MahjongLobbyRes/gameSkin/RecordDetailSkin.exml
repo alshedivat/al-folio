@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RecordDetailSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image top="0" source="common_title_bg" horizontalCenter="0"/>
+	<e:Image width="1181" height="628" horizontalCenter="0" source="mjl_common_bj_3" scale9Grid="48,74,180,451" top="88"/>
+	<e:Image source="hist_word_record" horizontalCenter="0" top="25"/>
+	<e:Scroller width="1080" height="473" y="191" horizontalCenter="-1" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group left="0" top="0" right="0" bottom="0">
+		<e:List id="list" anchorOffsetX="0" itemRendererSkinName="RecordDetailItemSkin" x="1">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+		</e:Group>
+	</e:Scroller>
+	<e:Label id="tipLabel" text="" x="343" y="166" textColor="0x7F2D00" size="24" width="120" textAlign="center" fontFamily="黑体" visible="false"/>
+	<e:Group id="nameGroup" width="500" height="30" x="435" y="125" anchorOffsetX="0" anchorOffsetY="0">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="tipGroup" width="500" height="30" x="435" y="155" anchorOffsetX="0" anchorOffsetY="0">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="idGroup" width="500" height="30" x="445" y="165" anchorOffsetX="0" anchorOffsetY="0">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="closeButton" label="Button" x="1160.64" y="52" skinName="MJ_CloseButton1Skin"/>
+	<e:Label id="reason" textColor="0x0d3164" size="25" bottom="50" horizontalCenter="0" text="因xxxx申请解散房间" visible="false"/>
+</e:Skin>

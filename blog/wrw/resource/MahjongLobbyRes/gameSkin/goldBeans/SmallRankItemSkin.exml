@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SmallRankItemSkin" width="95" height="95" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="headBg" source="mjl_rank_json.lobby_rank_headBg" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

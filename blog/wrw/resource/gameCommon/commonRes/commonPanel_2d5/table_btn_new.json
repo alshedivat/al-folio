@@ -1,0 +1,105 @@
+{
+  "file": "table_btn_new.png",
+  "frames": {
+    "gps1_2d5_new": {
+      "x": 142,
+      "y": 143,
+      "w": 69,
+      "h": 69,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 69
+    },
+    "gps2_2d5_new": {
+      "x": 213,
+      "y": 0,
+      "w": 69,
+      "h": 69,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 69
+    },
+    "operate_help1_2d5_new": {
+      "x": 142,
+      "y": 0,
+      "w": 70,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 71
+    },
+    "operate_help2_2d5_new": {
+      "x": 0,
+      "y": 73,
+      "w": 70,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 71
+    },
+    "operate_host1_2d5_new": {
+      "x": 142,
+      "y": 72,
+      "w": 70,
+      "h": 70,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 71,
+      "sourceH": 70
+    },
+    "operate_host2_2d5_new": {
+      "x": 71,
+      "y": 145,
+      "w": 70,
+      "h": 70,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 71,
+      "sourceH": 70
+    },
+    "operate_record1_2d5_new": {
+      "x": 71,
+      "y": 73,
+      "w": 70,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 71
+    },
+    "operate_record2_2d5_new": {
+      "x": 0,
+      "y": 145,
+      "w": 70,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 71
+    },
+    "setting1_2d5_new": {
+      "x": 0,
+      "y": 0,
+      "w": 70,
+      "h": 72,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 72
+    },
+    "setting2_2d5_new": {
+      "x": 71,
+      "y": 0,
+      "w": 70,
+      "h": 72,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 72
+    }
+  }
+}

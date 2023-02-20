@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LobbyMenuDownSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="78" width="1280">
+	<e:Image source="mjl_lobby_json.lobby_bg_black" left="-40" right="-40" scale9Grid="5,12,53,75" top="5" bottom="0"/>
+	<e:Group anchorOffsetX="0" left="0" right="340" verticalCenter="5">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="justify" verticalAlign="middle" gap="5"/>
+		</e:layout>
+		<e:Button id="shopButton" enabled="true" touchEnabled="true" scaleY="1" anchorOffsetY="0" top="-10" left="0">
+			<e:Skin states="up,down,disabled" width="150" height="83">
+			<e:Image source="lobby_shop" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="recordButton" y="0" x="320" width="128" height="41">
+			<e:Skin states="up,down,disabled">
+				<e:Image source="lobby_record" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="roomButton" x="470" verticalCenter="0" width="128" height="41">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image source="lobby_roommanagement" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="matchBtn" x="910" verticalCenter="-12" width="128" height="41">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="150">
+				<e:Image source="lobby_matchBtn" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="ruleButton" x="610" y="0" width="128" height="41">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image source="lobby_playmethod" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0"/>
+
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Button id="setButton" x="750" y="0" width="128" height="41">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image source="lobby_setting" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+
+	</e:Group>
+	<e:Button id="fastJoinBtn" right="0" bottom="0" label="">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lobby_last_join_1" source.down="lobby_last_join_2" source.disabled="lobby_last_join_3"/>
+			<e:Label id="labelDisplay" bottom="10" fontFamily="Trebuchet MS" bold="true" text="" left="75" size="34" multiline="false" border="false" anchorOffsetX="0" verticalAlign="justify" textAlign="center"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+</e:Skin>

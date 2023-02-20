@@ -1,0 +1,105 @@
+{
+  "file": "scoreRecord.png",
+  "frames": {
+    "lblSocreDetail": {
+      "x": 70,
+      "y": 73,
+      "w": 74,
+      "h": 37,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 74,
+      "sourceH": 37
+    },
+    "record_arrow": {
+      "x": 94,
+      "y": 111,
+      "w": 11,
+      "h": 22,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 11,
+      "sourceH": 22
+    },
+    "record_bg": {
+      "x": 0,
+      "y": 143,
+      "w": 59,
+      "h": 61,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 59,
+      "sourceH": 61
+    },
+    "record_bg_profile": {
+      "x": 0,
+      "y": 205,
+      "w": 12,
+      "h": 12,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 12,
+      "sourceH": 12
+    },
+    "record_bg_tableHead": {
+      "x": 70,
+      "y": 111,
+      "w": 11,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 11,
+      "sourceH": 53
+    },
+    "record_bg_unit": {
+      "x": 82,
+      "y": 111,
+      "w": 11,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 11,
+      "sourceH": 53
+    },
+    "recordBtn1": {
+      "x": 0,
+      "y": 0,
+      "w": 72,
+      "h": 72,
+      "offX": 1,
+      "offY": 4,
+      "sourceW": 73,
+      "sourceH": 80
+    },
+    "recordBtn2": {
+      "x": 73,
+      "y": 0,
+      "w": 72,
+      "h": 72,
+      "offX": 1,
+      "offY": 4,
+      "sourceW": 73,
+      "sourceH": 80
+    },
+    "score_record_btn1": {
+      "x": 146,
+      "y": 0,
+      "w": 69,
+      "h": 69,
+      "offX": 9,
+      "offY": 9,
+      "sourceW": 87,
+      "sourceH": 87
+    },
+    "score_record_btn2": {
+      "x": 0,
+      "y": 73,
+      "w": 69,
+      "h": 69,
+      "offX": 9,
+      "offY": 9,
+      "sourceW": 87,
+      "sourceH": 87
+    }
+  }
+}

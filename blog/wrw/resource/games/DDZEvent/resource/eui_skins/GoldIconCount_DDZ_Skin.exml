@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GoldIconCount_DDZ_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="80"
+        height="34">
+    <e:Image x="0"  source="bottombar_gold" width="35" height="35" verticalCenter="0"/>
+    <e:BitmapLabel id="countLabel" x="38" font="glodLittleFont_fnt" text="20" scaleX="0.8" scaleY="0.8"
+                   letterSpacing="-6" anchorOffsetX="0" verticalCenter="0" />
+</e:Skin>

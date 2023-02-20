@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TotalItemSkin_lose_ZJH_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="194">
+	<e:Image id="_bgImage" scaleX="1" scaleY="1" verticalCenter="0" source="zjh_result_bg_1_png" horizontalCenter="0" scale9Grid="16,24,279,142"/>
+	<e:Image id="_headmc" width="60" height="60" source="total_mc_bg" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="12" top="12"/>
+	<e:Image id="_bank" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="room_owner" top="53" left="0"/>
+	<e:Label id="_username" text="的的" y="12" anchorOffsetX="0" textAlign="left" fontFamily="SimHei" size="25" left="82" width="151" textColor="0x000000"/>
+	<e:Label id="_uid" text="123456789" y="55.32" textAlign="center" size="22" left="82" fontFamily="SimHei" textColor="0xffda46"/>
+
+	<e:Image source="wrnn_round_result" left="22" bottom="32"/>
+	<e:BitmapLabel id="_totalCount" text="" right="20" bottom="35" font="OverWinFnt_fnt"/>
+	<e:Image id="WinLoseImage" y="-7" source="label_lose" right="16"/>
+
+</e:Skin>

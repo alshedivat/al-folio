@@ -1,0 +1,605 @@
+{
+  "file": "room_DDZ.png",
+  "frames": {
+    "basechip_tag": {
+      "x": 856,
+      "y": 303,
+      "w": 59,
+      "h": 32,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 60,
+      "sourceH": 32
+    },
+    "bettery_DDZ": {
+      "x": 294,
+      "y": 282,
+      "w": 31,
+      "h": 19,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 31,
+      "sourceH": 19
+    },
+    "betteryPercent_DDZ": {
+      "x": 379,
+      "y": 190,
+      "w": 4,
+      "h": 13,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 4,
+      "sourceH": 13
+    },
+    "bg_neikuang_1_png": {
+      "x": 301,
+      "y": 404,
+      "w": 42,
+      "h": 39,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 42,
+      "sourceH": 39
+    },
+    "bg_neikuang_2_png": {
+      "x": 517,
+      "y": 462,
+      "w": 40,
+      "h": 40,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 40,
+      "sourceH": 40
+    },
+    "bg_neikuang_3_png": {
+      "x": 928,
+      "y": 273,
+      "w": 40,
+      "h": 40,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 40,
+      "sourceH": 40
+    },
+    "bg_tiaoti_2_png": {
+      "x": 609,
+      "y": 262,
+      "w": 152,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 152,
+      "sourceH": 51
+    },
+    "bottombar_common_bg_DDZ": {
+      "x": 353,
+      "y": 464,
+      "w": 84,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 84,
+      "sourceH": 46
+    },
+    "bottombar_gold": {
+      "x": 682,
+      "y": 446,
+      "w": 49,
+      "h": 50,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 50,
+      "sourceH": 50
+    },
+    "btn_dissolve_1_png": {
+      "x": 0,
+      "y": 191,
+      "w": 293,
+      "h": 110,
+      "offX": 3,
+      "offY": 0,
+      "sourceW": 299,
+      "sourceH": 110
+    },
+    "buy_gold": {
+      "x": 468,
+      "y": 462,
+      "w": 48,
+      "h": 48,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 50,
+      "sourceH": 50
+    },
+    "cardcounter_bg": {
+      "x": 243,
+      "y": 0,
+      "w": 143,
+      "h": 124,
+      "offX": 8,
+      "offY": 13,
+      "sourceW": 160,
+      "sourceH": 140
+    },
+    "chat": {
+      "x": 762,
+      "y": 248,
+      "w": 108,
+      "h": 50,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 50
+    },
+    "data_DDZ": {
+      "x": 352,
+      "y": 282,
+      "w": 18,
+      "h": 19,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 18,
+      "sourceH": 19
+    },
+    "ddz_exit_guanzhan": {
+      "x": 658,
+      "y": 107,
+      "w": 147,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 147,
+      "sourceH": 65
+    },
+    "ddz_guanzhan": {
+      "x": 597,
+      "y": 196,
+      "w": 147,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 147,
+      "sourceH": 65
+    },
+    "help_line_png": {
+      "x": 834,
+      "y": 360,
+      "w": 4,
+      "h": 150,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 4,
+      "sourceH": 150
+    },
+    "host": {
+      "x": 856,
+      "y": 336,
+      "w": 67,
+      "h": 28,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 67,
+      "sourceH": 30
+    },
+    "icon_clock": {
+      "x": 294,
+      "y": 190,
+      "w": 84,
+      "h": 91,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 84,
+      "sourceH": 91
+    },
+    "interrogation": {
+      "x": 988,
+      "y": 205,
+      "w": 26,
+      "h": 26,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 26,
+      "sourceH": 26
+    },
+    "kick_icon": {
+      "x": 408,
+      "y": 292,
+      "w": 50,
+      "h": 48,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 51,
+      "sourceH": 50
+    },
+    "label_help_png": {
+      "x": 243,
+      "y": 125,
+      "w": 140,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 140,
+      "sourceH": 65
+    },
+    "label_set_png": {
+      "x": 468,
+      "y": 300,
+      "w": 140,
+      "h": 66,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 140,
+      "sourceH": 66
+    },
+    "landlord_hat": {
+      "x": 0,
+      "y": 0,
+      "w": 242,
+      "h": 190,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 242,
+      "sourceH": 190
+    },
+    "lord": {
+      "x": 621,
+      "y": 0,
+      "w": 107,
+      "h": 106,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 107,
+      "sourceH": 106
+    },
+    "mask_head": {
+      "x": 806,
+      "y": 104,
+      "w": 84,
+      "h": 84,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 84,
+      "sourceH": 84
+    },
+    "multip_bg": {
+      "x": 795,
+      "y": 299,
+      "w": 60,
+      "h": 60,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 60,
+      "sourceH": 60
+    },
+    "multiple_tag": {
+      "x": 928,
+      "y": 240,
+      "w": 60,
+      "h": 32,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 60,
+      "sourceH": 32
+    },
+    "name_gold_bg": {
+      "x": 496,
+      "y": 123,
+      "w": 161,
+      "h": 72,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 161,
+      "sourceH": 72
+    },
+    "player_call_landlord": {
+      "x": 177,
+      "y": 452,
+      "w": 175,
+      "h": 58,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 176,
+      "sourceH": 60
+    },
+    "player_grab_landlord": {
+      "x": 0,
+      "y": 452,
+      "w": 176,
+      "h": 58,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 176,
+      "sourceH": 60
+    },
+    "player_pass": {
+      "x": 563,
+      "y": 373,
+      "w": 118,
+      "h": 58,
+      "offX": 30,
+      "offY": 0,
+      "sourceW": 176,
+      "sourceH": 60
+    },
+    "player_pass_call": {
+      "x": 609,
+      "y": 314,
+      "w": 119,
+      "h": 58,
+      "offX": 29,
+      "offY": 0,
+      "sourceW": 176,
+      "sourceH": 60
+    },
+    "player_pass_score": {
+      "x": 563,
+      "y": 432,
+      "w": 118,
+      "h": 58,
+      "offX": 30,
+      "offY": 0,
+      "sourceW": 176,
+      "sourceH": 60
+    },
+    "player_ready": {
+      "x": 745,
+      "y": 189,
+      "w": 119,
+      "h": 58,
+      "offX": 29,
+      "offY": 1,
+      "sourceW": 176,
+      "sourceH": 60
+    },
+    "QQ": {
+      "x": 729,
+      "y": 314,
+      "w": 65,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 65,
+      "sourceH": 65
+    },
+    "redpacket_btn1_ddz": {
+      "x": 355,
+      "y": 351,
+      "w": 112,
+      "h": 112,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 115,
+      "sourceH": 115
+    },
+    "redpacket_btn2_ddz": {
+      "x": 468,
+      "y": 367,
+      "w": 94,
+      "h": 94,
+      "offX": 10,
+      "offY": 10,
+      "sourceW": 115,
+      "sourceH": 115
+    },
+    "role_frame_1_png": {
+      "x": 891,
+      "y": 97,
+      "w": 76,
+      "h": 76,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 78,
+      "sourceH": 78
+    },
+    "role_frame_2_png": {
+      "x": 957,
+      "y": 205,
+      "w": 30,
+      "h": 30,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 30,
+      "sourceH": 30
+    },
+    "role_frame_3_png": {
+      "x": 496,
+      "y": 196,
+      "w": 100,
+      "h": 103,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 100,
+      "sourceH": 103
+    },
+    "role_frame_4_png": {
+      "x": 729,
+      "y": 0,
+      "w": 100,
+      "h": 103,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 100,
+      "sourceH": 103
+    },
+    "room_default_head_icon": {
+      "x": 510,
+      "y": 0,
+      "w": 110,
+      "h": 110,
+      "offX": 6,
+      "offY": 6,
+      "sourceW": 122,
+      "sourceH": 122
+    },
+    "Room_HeadFrame": {
+      "x": 387,
+      "y": 0,
+      "w": 122,
+      "h": 122,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 122,
+      "sourceH": 122
+    },
+    "room_owner": {
+      "x": 748,
+      "y": 380,
+      "w": 40,
+      "h": 81,
+      "offX": 11,
+      "offY": 5,
+      "sourceW": 60,
+      "sourceH": 92
+    },
+    "shuffle_bg": {
+      "x": 0,
+      "y": 302,
+      "w": 407,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 407,
+      "sourceH": 48
+    },
+    "spoker_count": {
+      "x": 438,
+      "y": 464,
+      "w": 24,
+      "h": 33,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 24,
+      "sourceH": 34
+    },
+    "time_bg": {
+      "x": 379,
+      "y": 255,
+      "w": 96,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 96,
+      "sourceH": 36
+    },
+    "tips_onlypass": {
+      "x": 0,
+      "y": 351,
+      "w": 354,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 354,
+      "sourceH": 52
+    },
+    "tips_outerror": {
+      "x": 0,
+      "y": 404,
+      "w": 300,
+      "h": 47,
+      "offX": 23,
+      "offY": 6,
+      "sourceW": 348,
+      "sourceH": 56
+    },
+    "tool_ai": {
+      "x": 968,
+      "y": 79,
+      "w": 54,
+      "h": 62,
+      "offX": 10,
+      "offY": 5,
+      "sourceW": 79,
+      "sourceH": 79
+    },
+    "tool_button_bg": {
+      "x": 927,
+      "y": 0,
+      "w": 77,
+      "h": 78,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 79,
+      "sourceH": 79
+    },
+    "tool_exit": {
+      "x": 795,
+      "y": 360,
+      "w": 38,
+      "h": 53,
+      "offX": 17,
+      "offY": 10,
+      "sourceW": 79,
+      "sourceH": 79
+    },
+    "tool_help": {
+      "x": 891,
+      "y": 174,
+      "w": 65,
+      "h": 65,
+      "offX": 14,
+      "offY": 0,
+      "sourceW": 79,
+      "sourceH": 79
+    },
+    "tool_note_card": {
+      "x": 871,
+      "y": 240,
+      "w": 56,
+      "h": 62,
+      "offX": 11,
+      "offY": 5,
+      "sourceW": 79,
+      "sourceH": 79
+    },
+    "tool_set": {
+      "x": 968,
+      "y": 142,
+      "w": 53,
+      "h": 62,
+      "offX": 11,
+      "offY": 5,
+      "sourceW": 79,
+      "sourceH": 79
+    },
+    "user_ai_icon": {
+      "x": 387,
+      "y": 123,
+      "w": 108,
+      "h": 131,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 108,
+      "sourceH": 132
+    },
+    "user_dropped_icon": {
+      "x": 830,
+      "y": 0,
+      "w": 96,
+      "h": 96,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 96,
+      "sourceH": 96
+    },
+    "wcat": {
+      "x": 682,
+      "y": 380,
+      "w": 65,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 65,
+      "sourceH": 65
+    },
+    "wifi_DDZ": {
+      "x": 326,
+      "y": 282,
+      "w": 25,
+      "h": 18,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 25,
+      "sourceH": 18
+    }
+  }
+}

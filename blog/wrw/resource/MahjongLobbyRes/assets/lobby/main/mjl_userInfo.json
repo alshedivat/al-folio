@@ -1,0 +1,345 @@
+{
+  "file": "mjl_userInfo.png",
+  "frames": {
+    "address_icon": {
+      "x": 309,
+      "y": 634,
+      "w": 15,
+      "h": 21,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 15,
+      "sourceH": 21
+    },
+    "bigWinner_text": {
+      "x": 96,
+      "y": 743,
+      "w": 92,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 92,
+      "sourceH": 34
+    },
+    "data_background": {
+      "x": 0,
+      "y": 0,
+      "w": 909,
+      "h": 198,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 909,
+      "sourceH": 198
+    },
+    "data_background1": {
+      "x": 0,
+      "y": 673,
+      "w": 47,
+      "h": 266,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 47,
+      "sourceH": 266
+    },
+    "data_background2": {
+      "x": 202,
+      "y": 543,
+      "w": 41,
+      "h": 266,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 41,
+      "sourceH": 266
+    },
+    "data_background3": {
+      "x": 48,
+      "y": 673,
+      "w": 47,
+      "h": 266,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 47,
+      "sourceH": 266
+    },
+    "famale_icon": {
+      "x": 365,
+      "y": 556,
+      "w": 26,
+      "h": 37,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 26,
+      "sourceH": 37
+    },
+    "headIcon_frame": {
+      "x": 327,
+      "y": 347,
+      "w": 87,
+      "h": 87,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 87,
+      "sourceH": 87
+    },
+    "inGame_text": {
+      "x": 96,
+      "y": 778,
+      "w": 70,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 34
+    },
+    "inning_text": {
+      "x": 244,
+      "y": 634,
+      "w": 64,
+      "h": 35,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 64,
+      "sourceH": 35
+    },
+    "ipAddress_bg": {
+      "x": 367,
+      "y": 453,
+      "w": 151,
+      "h": 31,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 151,
+      "sourceH": 31
+    },
+    "lobby_radioBtn_normal": {
+      "x": 327,
+      "y": 435,
+      "w": 35,
+      "h": 38,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 35,
+      "sourceH": 38
+    },
+    "lobby_radioBtn_selected": {
+      "x": 244,
+      "y": 670,
+      "w": 35,
+      "h": 38,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 35,
+      "sourceH": 38
+    },
+    "lobbyRadio_bg": {
+      "x": 0,
+      "y": 485,
+      "w": 366,
+      "h": 57,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 366,
+      "sourceH": 57
+    },
+    "male_icon": {
+      "x": 540,
+      "y": 382,
+      "w": 34,
+      "h": 35,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 34,
+      "sourceH": 35
+    },
+    "month_label": {
+      "x": 96,
+      "y": 847,
+      "w": 19,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 19,
+      "sourceH": 21
+    },
+    "monthIcon_down": {
+      "x": 415,
+      "y": 347,
+      "w": 124,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 124,
+      "sourceH": 53
+    },
+    "rank_text": {
+      "x": 367,
+      "y": 520,
+      "w": 63,
+      "h": 35,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 63,
+      "sourceH": 35
+    },
+    "record_show_title": {
+      "x": 244,
+      "y": 596,
+      "w": 156,
+      "h": 37,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 156,
+      "sourceH": 37
+    },
+    "total_label": {
+      "x": 910,
+      "y": 27,
+      "w": 45,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 45,
+      "sourceH": 20
+    },
+    "totalIcon_down": {
+      "x": 415,
+      "y": 400,
+      "w": 118,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 118,
+      "sourceH": 53
+    },
+    "userinfo_bg": {
+      "x": 0,
+      "y": 199,
+      "w": 1044,
+      "h": 147,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 1044,
+      "sourceH": 147
+    },
+    "userInfo_score_bg": {
+      "x": 367,
+      "y": 485,
+      "w": 136,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 136,
+      "sourceH": 34
+    },
+    "userInfo_score_text": {
+      "x": 910,
+      "y": 0,
+      "w": 62,
+      "h": 26,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 62,
+      "sourceH": 26
+    },
+    "userInfo_shop_applyLogout_1": {
+      "x": 0,
+      "y": 347,
+      "w": 326,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 326,
+      "sourceH": 68
+    },
+    "userInfo_shop_applyLogout_2": {
+      "x": 0,
+      "y": 416,
+      "w": 326,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 326,
+      "sourceH": 68
+    },
+    "userInfo_shop_button_1": {
+      "x": 0,
+      "y": 543,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "userInfo_shop_button_2": {
+      "x": 0,
+      "y": 608,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "userInfo_shop_logout_1": {
+      "x": 96,
+      "y": 673,
+      "w": 101,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 101,
+      "sourceH": 34
+    },
+    "userInfo_shop_logout_2": {
+      "x": 96,
+      "y": 708,
+      "w": 101,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 101,
+      "sourceH": 34
+    },
+    "week_label": {
+      "x": 0,
+      "y": 940,
+      "w": 20,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 20,
+      "sourceH": 21
+    },
+    "weekIcon_down": {
+      "x": 244,
+      "y": 543,
+      "w": 120,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 120,
+      "sourceH": 53
+    },
+    "winNum_icon": {
+      "x": 540,
+      "y": 347,
+      "w": 62,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 62,
+      "sourceH": 34
+    },
+    "winRate_icon": {
+      "x": 96,
+      "y": 813,
+      "w": 57,
+      "h": 33,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 57,
+      "sourceH": 34
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XJ_ShuffleButtonSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down" >
+	<e:Button id="shuffleButton" label="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="wn_result_shuffleBtn1" source.down="wn_result_shuffleBtn2"/>
+			<e:Label id="labelDisplay" verticalCenter="-2.5" size="18" fontFamily="Microsoft YaHei" text="0.1" rotation="30" textAlign="left" left="168" textColor.down="0xbfbbbb"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

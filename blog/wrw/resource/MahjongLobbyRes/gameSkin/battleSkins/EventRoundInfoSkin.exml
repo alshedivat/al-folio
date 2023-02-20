@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EventRoundInfoSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="maskGroup" horizontalCenter="0" bottom="253" height="236">
+		<e:Image source="event_common_mask" left="0" right="0" top="0" bottom="0" scale9Grid="82,15,494,92"/>
+		<e:Image id="level" horizontalCenter="0" top="20" source="event_level_2"/>
+		<e:Label id="info" text="Label" horizontalCenter="0" textAlign="center" verticalAlign="middle" fontFamily="黑体" size="23" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

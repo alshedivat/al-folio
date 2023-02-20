@@ -1,0 +1,40 @@
+{"mc":{
+	"lord_laugh":{
+		"frameRate":6,
+		"labels":[
+			{"name":"lord_laugh","frame":1,"end":4}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"lord2_1_png",
+			"x":3,
+			"y":0
+			},
+			{
+			"res":"lord2_2_png",
+			"x":0,
+			"y":18
+			},
+			{
+			"res":"lord2_3_png",
+			"x":3,
+			"y":0
+			},
+			{
+			"res":"lord2_4_png",
+			"x":0,
+			"y":18
+			}
+			]
+}},
+	"res":{
+		"lord2_3_png":{"x":0,"y":190,"w":165,"h":206},
+		"lord2_2_png":{"x":0,"y":0,"w":182,"h":188},
+		"lord2_1_png":{"x":167,"y":190,"w":165,"h":206},
+		"lord2_4_png":{"x":184,"y":0,"w":182,"h":188}
+	}}

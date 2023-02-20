@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DismissPanel_ZJH_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui">
+	<e:Image scale9Grid="23,16,34,35" width="602.33" height="404.34" source="role_frame_1_png" anchorOffsetY="0" anchorOffsetX="5.24" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image width="572" height="375" scale9Grid="17,13,67,68" source="role_frame_3_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0"/>
+	<e:Button id="yesBtn" label="同意" horizontalCenter="-130" verticalCenter="137.5" width="154" height="61">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image scaleX.down="0.9" scaleY.down="0.9"  source="bt_green_bg" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" textColor="0x000000" fontFamily="SimHei"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="noBtn" label="拒绝" horizontalCenter="130" verticalCenter="137.5" width="154" height="61">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image  scaleX.down="0.9" scaleY.down="0.9" source="bt_orange_bg" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" textColor="0x000000" fontFamily="SimHei"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="info" text="" width="450" anchorOffsetY="0" horizontalCenter="0" height="176" textAlign="center" verticalAlign="middle" textColor="0x000000" verticalCenter="-12"/>
+	<e:Label id="_timeTxt" text="0" y="199" textColor="0x000000" horizontalCenter="235"/>
+</e:Skin>

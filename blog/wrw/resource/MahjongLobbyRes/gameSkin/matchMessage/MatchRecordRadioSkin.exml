@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchRecordRadioSkin"  height="85" width="208" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down,upAndSelected,downAndSelected" >
+	<e:Image source="match_btn_gameItem" verticalCenter="0" left="0" source.upAndSelected="match_btn_gameItem_1" source.downAndSelected="match_btn_gameItem_1"/>
+	<e:Image id="dayText" horizontalCenter="0" verticalCenter="0" source="match_record_radioText_1"/>
+</e:Skin>

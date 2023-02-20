@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChangeTeam_DZ_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="530" height="297">
+	<e:Image anchorOffsetX="0" source="game_bangbg" horizontalCenter="0" top="0"/>
+   <e:Label id="promptDisplay" size="25" stroke="1" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="cardGroup" height="212" width="530" horizontalCenter="0" top="0">
+
+
+
+	</e:Group>
+	<e:Button id="_selectBtn" label="" width="180" height="72" horizontalCenter="0" bottom="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_selectcard1" source.down="btn_selectcard2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:Button>
+</e:Skin>

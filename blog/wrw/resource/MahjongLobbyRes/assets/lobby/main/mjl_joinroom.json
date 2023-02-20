@@ -1,0 +1,255 @@
+{
+  "file": "mjl_joinroom.png",
+  "frames": {
+    "history_join": {
+      "x": 889,
+      "y": 133,
+      "w": 116,
+      "h": 87,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 116,
+      "sourceH": 87
+    },
+    "history_join1": {
+      "x": 0,
+      "y": 479,
+      "w": 116,
+      "h": 87,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 116,
+      "sourceH": 87
+    },
+    "history_tip": {
+      "x": 0,
+      "y": 604,
+      "w": 55,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 56,
+      "sourceH": 55
+    },
+    "history_tip1": {
+      "x": 0,
+      "y": 660,
+      "w": 55,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 56,
+      "sourceH": 55
+    },
+    "history_title": {
+      "x": 485,
+      "y": 68,
+      "w": 307,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 307,
+      "sourceH": 51
+    },
+    "join_roombg": {
+      "x": 0,
+      "y": 0,
+      "w": 484,
+      "h": 412,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 484,
+      "sourceH": 412
+    },
+    "joinroom_close1": {
+      "x": 117,
+      "y": 515,
+      "w": 42,
+      "h": 42,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 42,
+      "sourceH": 42
+    },
+    "joinroom_close2": {
+      "x": 56,
+      "y": 604,
+      "w": 42,
+      "h": 42,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 42,
+      "sourceH": 42
+    },
+    "mjl_his_backBtn_1": {
+      "x": 485,
+      "y": 172,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_his_backBtn_2": {
+      "x": 485,
+      "y": 237,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_his_extractBtn_1": {
+      "x": 485,
+      "y": 302,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_his_extractBtn_2": {
+      "x": 485,
+      "y": 367,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_his_infiBtn_1": {
+      "x": 687,
+      "y": 172,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_his_infiBtn_2": {
+      "x": 793,
+      "y": 68,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_his_joinBtn_1": {
+      "x": 439,
+      "y": 432,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_his_joinBtn_2": {
+      "x": 687,
+      "y": 237,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "mjl_join_fanghao": {
+      "x": 485,
+      "y": 120,
+      "w": 307,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 308,
+      "sourceH": 51
+    },
+    "mjl_join_his_bg": {
+      "x": 117,
+      "y": 479,
+      "w": 128,
+      "h": 35,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 128,
+      "sourceH": 36
+    },
+    "mjl_join_input_down": {
+      "x": 795,
+      "y": 412,
+      "w": 153,
+      "h": 70,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 153,
+      "sourceH": 71
+    },
+    "mjl_join_input_title": {
+      "x": 0,
+      "y": 567,
+      "w": 159,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 159,
+      "sourceH": 36
+    },
+    "mjl_join_input_up": {
+      "x": 641,
+      "y": 432,
+      "w": 153,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 153,
+      "sourceH": 71
+    },
+    "mjl_join_inputNum_bg": {
+      "x": 485,
+      "y": 0,
+      "w": 419,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 419,
+      "sourceH": 67
+    },
+    "mjl_join_title": {
+      "x": 687,
+      "y": 358,
+      "w": 208,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 208,
+      "sourceH": 53
+    },
+    "mjl_join_title_bg": {
+      "x": 0,
+      "y": 413,
+      "w": 438,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 438,
+      "sourceH": 65
+    },
+    "title_join_room": {
+      "x": 687,
+      "y": 302,
+      "w": 204,
+      "h": 55,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 205,
+      "sourceH": 55
+    }
+  }
+}

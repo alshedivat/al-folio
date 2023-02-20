@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MJ_PanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect top="0" bottom="0" left="0" right="0" alpha="0.8" fillAlpha="0.8" fillColor="0x000000"/>
+	<e:Image source="public2" y="92.67"  scale9Grid="46,38,477,122" width="1149" height="610" x="66.33"/>
+	<e:Group width="830" height="81" y="18" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image y="-8.15" x="177.5" source="public3"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="隶书" textColor="0xFFEFC6" bold="true" size="50" text=""/>
+	</e:Group>
+	<e:Button id="closeButton" x="1114" y="-1" width="100" height="100" skinName="MJ_CloseButton2Skin"/>
+</e:Skin>

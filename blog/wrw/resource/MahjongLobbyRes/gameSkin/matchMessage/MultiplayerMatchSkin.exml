@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MultiplayerMatchSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="common_title_bg" top="33" horizontalCenter="0"/>
+	<e:Image top="55" horizontalCenter="0" source="matching_title"/>
+
+	<e:Image y="121" horizontalCenter="-4.5" source="mjl_common_bj_3" scale9Grid="50,47,172,493" width="916" height="585"/>
+	<e:Image width="845" height="99" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-5" top="155" source="userinfo_bg" scale9Grid="0,0,215,131"/>
+	<e:Label id="ownerLabel" text="匹配主ID" size="24" fontFamily="SimHei" left="240" top="165" textColor="0xffffff"/>
+	<e:Label id="matchIdLabel" text="匹配号:123456" size="24" fontFamily="SimHei" left="240" top="200" textColor="0xffffff"/>
+	<e:Label id="describeLabel" text="匹配号:123456" y="563" horizontalCenter="0" size="24" fontFamily="SimHei" textColor="0xffffff" visible="false"/>
+	<e:Label id="promotionLabel" text="恭喜您成功晋级，等待下一轮比赛开始" y="261.44" horizontalCenter="0.5" size="24" fontFamily="SimHei" textColor="0xffffff" visible="false"/>
+	<e:Label id="curMatchLabel" text="匹配号:123456" right="260" size="24" fontFamily="SimHei" top="165" textColor="0xffffff"/>
+	<e:Label id="curMatchRound" text="上一房间已进行4/8局" right="260" size="24" fontFamily="SimHei" top="165" textColor="0xFFFFFF" visible="false"/>
+	<e:Label id="lastSecLabel" text="上次开局时间" size="24" fontFamily="SimHei" top="200" textColor="0xffffff" right="260"/>
+	<e:Label id="leftTimeLabel" text="剩余时间" y="206" fontFamily="SimHei" horizontalCenter="0.5" size="24" textColor="0xffffff"/>
+	<e:Button id="closeButton" label="" x="1021.33" y="90" width="100" height="100" skinName="MJ_CloseButton1Skin"/>
+	<e:Button id="signOutButton" label="" bottom="60" left="300" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="match_btn_exitmatch_new_1" source.down="match_btn_exitmatch_new_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:Button>
+	<e:Button id="shareButton" label="" bottom="60" left="300">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="match_btn_share_new_1" source.down="match_btn_share_new_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+
+
+	</e:Button>
+	<e:Button id="inviteButton" label="" bottom="60" right="300">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="match_btn_invite_new_1" source.down="match_btn_invite_new_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group width="670" height="305" y="255.02" horizontalCenter="0">
+		<e:Image top="0" left="0" scaleX="1" scaleY="1" right="0" bottom="0" source="mjl_common_bj_6" scale9Grid="20,16,122,101"/>
+		<e:Image top="0" left="0" y="64.97999999999999" scaleX="1" scaleY="1" right="0" height="46" source="mjl_common_bj_4" scale9Grid="12,9,76,66"/>
+		<e:Image source="match_panel_icon_2" top="15" left="20" x="25" y="54.97999999999999" scaleX="1" scaleY="1"/>
+		<e:Image top="15" left="195" x="195" y="44.97999999999999" scaleX="1" scaleY="1" source="match_panel_icon_3"/>
+		<e:Image top="15" left="395" x="395" y="44.97999999999999" scaleX="1" scaleY="1" source="match_panel_icon_1"/>
+		<e:Image top="15" left="545" x="545" y="44.97999999999999" scaleX="1" scaleY="1" source="match_panel_icon_4"/>
+		<e:Scroller anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" right="0" top="50" bottom="0">
+		<e:List id="waitList" itemRendererSkinName="MatchWaitMemberItemSkin" anchorOffsetY="0" height="195.76">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" gap="5" paddingTop="0"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+
+
+
+
+
+	<e:Group id="effectGroup" width="200" height="200" x="0" y="0"/>
+	<e:Label id="redPackTime" text="" left="0" fontFamily="黑体" textColor="0xffff00" y="60" width="200" height="30" size="24" textAlign="center"/>
+	<e:Button id="promoteBtn" label="" bottom="60" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_promote1" source.down="club_promote2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="fundNum" text="当前基金：20000" size="22" textColor="0xf5f9fc" fontFamily="Microsoft YaHei" right="330" bottom="130"/>
+</e:Skin>

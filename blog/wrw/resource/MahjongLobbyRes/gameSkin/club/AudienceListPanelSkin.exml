@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AudienceListPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="listRect" left="0" right="0" top="0" bottom="0" fillAlpha="0.8"/>
+	<e:Group id="listGroup" width="674" height="660" verticalCenter="0" x="550">
+		<e:Image source="lobby_rank_bg_2" left="0" right="0" top="0" bottom="0" scale9Grid="69,18,415,113" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="audienceListIcon" top="0" left="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Scroller height="546" y="102.00000000000001" anchorOffsetY="0" left="0" right="0" scrollPolicyH="off" scrollPolicyV="on" x="0" scaleX="1" scaleY="1">
+			<e:List id="audienceList" itemRendererSkinName="AudienceListItemSkin"/>
+		</e:Scroller>
+		<e:Button id="bankBtn" label="" verticalCenter="0" right="-65" x="671" y="289" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="audienceBackBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

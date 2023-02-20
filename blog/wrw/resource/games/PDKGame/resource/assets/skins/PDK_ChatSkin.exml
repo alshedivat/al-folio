@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PDK_ChatSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect bottom="0" left="0" top="0" right="0" alpha="0.1" fillColor="0x000000" visible="false"/>
+	<e:Image source="game_common1" x="138" y="64"/>
+	<e:Label id="titleLabel" text="聊          天" y="73.2" textColor="0xFFFFFF" fontFamily="Microsoft YaHei" size="40" anchorOffsetX="0" width="525.99" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="73.93" bold="true" horizontalCenter="0"/>
+	<e:Button id="closeBtn" label="" skinName="PDK_CloseButtonSkin" anchorOffsetX="0" width="139.33" anchorOffsetY="0" height="84.75" x="1003" y="64"/>
+	<e:Image source="chatFrame" x="180.12" y="182" anchorOffsetX="0" width="349" anchorOffsetY="0" height="378" scale9Grid="21,24,43,35"/>
+	<e:Image source="chatFrame" x="557" y="244" anchorOffsetX="0" width="537" anchorOffsetY="0" height="316" scale9Grid="21,24,43,35"/>
+	<e:RadioButton id="chatRadioButton" x="596.54" y="172" label="" groupName="chattype" selected="true" anchorOffsetX="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chat_normal" source.down="chat_select_pdk"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:RadioButton>
+	<e:RadioButton id="faceRadioButton" y="172" x="828.54" label="" groupName="chattype" anchorOffsetX="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chatRecord_normal" source.down="chatRecord_select"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:Scroller id="faceScroller" width="349" y="182" height="378" x="179.39" anchorOffsetX="0">
+		<e:Group id="faceGroup">
+			<e:layout>
+				<e:TileLayout horizontalGap="16" verticalGap="0"/>
+			</e:layout>
+			
+		</e:Group>
+	</e:Scroller>
+	<e:Scroller id="chatScroller" width="537" height="316" y="244" x="557" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="chatGroup">
+			<e:layout>
+				<e:VerticalLayout gap="2"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:Image x="182.64" y="574.36" width="678.79" height="69" source="chatinput" scale9Grid="39,13,600,32" anchorOffsetX="0"/>
+	<e:EditableText id="textField" width="656.88" height="50" text="请输入聊天内容" x="196.3" y="582.34" size="28" textColor="0x000000" textAlign="left" verticalAlign="middle" anchorOffsetX="0" fontFamily="Microsoft YaHei"/>
+	<e:Button id="sendBtn" x="867.56" y="574.36" width="227" height="78">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="sendChat" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

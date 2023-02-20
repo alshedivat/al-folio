@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MoneyRankSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="backRect" left="0" right="0" top="0" bottom="0" source="lobby_main_bg_jpg"/>
+	<e:Group id="contentGroup" width="690" height="660" verticalCenter="0" anchorOffsetX="0" x="40">
+		<e:Image id="brackground" source="lobby_rank_bg_2" scale9Grid="55,49,474,89" width="682" horizontalCenter="0" top="0" bottom="0" alpha="0.7" />
+		<e:Image source="mjl_rank_json.lobby_rank_line" top="98" horizontalCenter="0" width="650"/>
+		<e:Image source="mjl_rank_json.lobby_rank_titleBg" top="0" left="25" alpha="0.8" />
+		<e:Image source="mjl_rank_json.lobby_rank_title" top="22" left="100"/>
+		<e:Image id="rankType" source="mjl_rank_json.lobby_rank_type_1" x="506" top="45"/>
+		<e:Scroller anchorOffsetX="0" anchorOffsetY="0" left="25" right="25" bottom="35" top="110">
+			<e:List id="rankList" anchorOffsetY="0" x="0" y="-13.64" itemRendererSkinName="RankItemRenderSkin">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" gap="10" paddingTop="15"/>
+			</e:layout>
+				<e:ArrayCollection>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="closeBtn" label="" verticalCenter="20" left="-50">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lobby_rankClose_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+
+
+</e:Skin>

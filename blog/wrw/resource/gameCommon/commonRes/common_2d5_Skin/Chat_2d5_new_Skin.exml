@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Chat_2d5_new_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="chatBg_2d5" horizontalCenter="0" verticalCenter="0" />
+	<e:Button id="closeButton" label="" x="1051" y="55">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="closeBtn_2d5_1" source.down="closeBtn_2d5_2" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller id="faceScroller" width="350" height="375" x="226" anchorOffsetX="0" top="160">
+		<e:Group id="faceGroup">
+			<e:layout>
+				<e:TileLayout horizontalGap="16" verticalGap="0" />
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:Scroller id="chatScroller" width="461" height="375" x="603" anchorOffsetX="0" anchorOffsetY="0" top="160" scrollPolicyV="on" scrollPolicyH="off">
+		<e:Group id="chatGroup" anchorOffsetX="0" width="452.15">
+			<e:layout>
+				<e:VerticalLayout gap="2" />
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:EditableText id="textField" width="587.21" height="54.5" text="请输入聊天内容..." y="565" size="26" textColor="0x795B3D"
+	                textAlign="left" verticalAlign="middle" anchorOffsetX="0" fontFamily="Microsoft YaHei"
+	                horizontalCenter="-97.5" anchorOffsetY="0" />
+	<e:Button id="sendBtn" x="863" top="556">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="sendBtn_2d5_1" source.down="sendBtn_2d5_2" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

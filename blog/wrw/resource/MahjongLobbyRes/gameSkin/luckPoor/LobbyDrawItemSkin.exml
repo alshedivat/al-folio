@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LobbyDrawItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="165" height="160">
+	<e:Image id="selectedIcon" horizontalCenter="0" verticalCenter="0" alpha="0.3" source="mjl_luck_jackpot_item" height="160" width="165" visible="false"/>
+	<e:Image id="goodsIcon" alpha="1" horizontalCenter="0" source="" top="-13"/>
+	<e:Label id="nameLabel" text="钻石一颗" verticalAlign="middle" textAlign="center" fontFamily="SimHei" anchorOffsetX="17" anchorOffsetY="143" horizontalCenter="0" size="28" y="167" width="80" textColor="0xb7160b"/>
+</e:Skin>

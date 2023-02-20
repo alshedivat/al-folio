@@ -1,0 +1,13 @@
+{"file":"2d_pointFont.png","frames":{
+".":{"x":119,"y":2,"w":7,"h":7,"offX":5,"offY":16,"sourceW":18,"sourceH":24},
+"-":{"x":108,"y":29,"w":18,"h":4,"offX":0,"offY":10,"sourceW":18,"sourceH":24},
+"0":{"x":69,"y":29,"w":18,"h":23,"offX":0,"offY":0,"sourceW":18,"sourceH":24},
+"1":{"x":91,"y":29,"w":13,"h":23,"offX":0,"offY":0,"sourceW":13,"sourceH":24},
+"2":{"x":2,"y":2,"w":20,"h":23,"offX":0,"offY":0,"sourceW":20,"sourceH":24},
+"3":{"x":2,"y":29,"w":19,"h":23,"offX":0,"offY":0,"sourceW":19,"sourceH":24},
+"4":{"x":50,"y":2,"w":19,"h":23,"offX":0,"offY":0,"sourceW":19,"sourceH":24},
+"5":{"x":26,"y":2,"w":20,"h":23,"offX":0,"offY":0,"sourceW":20,"sourceH":24},
+"6":{"x":73,"y":2,"w":19,"h":23,"offX":0,"offY":0,"sourceW":19,"sourceH":24},
+"7":{"x":25,"y":29,"w":18,"h":24,"offX":1,"offY":0,"sourceW":19,"sourceH":24},
+"8":{"x":47,"y":29,"w":18,"h":23,"offX":0,"offY":0,"sourceW":19,"sourceH":24},
+"9":{"x":96,"y":2,"w":19,"h":23,"offX":0,"offY":0,"sourceW":19,"sourceH":24}}}
