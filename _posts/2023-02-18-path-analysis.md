@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Maximum Likelihood Procedures
+title: Path Analysis
 date: 2023-02-16 11:12:00-0400
 description: path-analysis
 tags: LinearAlgebra DataScience
