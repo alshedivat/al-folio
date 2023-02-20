@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetOpreate_ZJH_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1280"
+        height="720">
+	<e:Rect id="bgRect" fillColor="0xffffff" strokeAlpha="0" fillAlpha="0"  left="0" right="0" top="0" bottom="0"/>
+	<e:Group id="setGroup" y="120" anchorOffsetX="0" anchorOffsetY="0" right="0">
+		<e:Image source="zjh_menulistbg_png" scaleX="1" scaleY="1" verticalCenter="0"  horizontalCenter="0"/>
+		<e:Button id="playButton" label="" scaleX="1" scaleY="1" width="202" height="87" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Label id="labelDisplay" verticalCenter="0" left="0" right="0" bottom="0" top="0"/>
+	<e:Image width="100%" height="100%" source.down="set_zjh_01"/>
+	<e:Image source="set_down_zjh" horizontalCenter="0" bottom="0"/>
+	<e:Group x="31" verticalCenter="0">
+		<e:Image source="wrnn_btn_help_01" left="0" verticalCenter="0" x="-31" y="-6" scaleX="1" scaleY="1"/>
+		<e:Image source="wrnn_btn_help_02" left="0" verticalCenter="0" x="-21" y="4" scaleX="1" scaleY="1"/>
+		<e:layout>
+		<e:HorizontalLayout gap="18" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="helpButton" label="" scaleX="1" scaleY="1" width="202" height="87" y="84.48" horizontalCenter="0.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+
+				<e:Image width="100%" height="100%" source.down="set_zjh_02"/>
+	<e:Image source="set_down_zjh" horizontalCenter="0" bottom="0"/>
+	<e:Group x="31" verticalCenter="0">
+		<e:Image left="0" verticalCenter="0" x="-31" y="-6" scaleX="1" scaleY="1" source="wrnn_btn_shuoming_01"/>
+		<e:Image left="0" verticalCenter="0" x="-21" y="4" scaleX="1" scaleY="1" source="wrnn_btn_shuoming_02"/>
+		<e:layout>
+		<e:HorizontalLayout gap="18" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+		<e:Button id="setButton" label="" y="169.48" scaleX="1" scaleY="1" width="202" height="87" horizontalCenter="0.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+
+				<e:Image width="100%" height="100%" source.down="set_zjh_02"/>
+	<e:Image source="set_down_zjh" horizontalCenter="0" bottom="0"/>
+	<e:Group x="31" verticalCenter="0">
+		<e:Image left="0" verticalCenter="0" x="-31" y="-6" scaleX="1" scaleY="1" source="wrnn_btn_setting_01"/>
+		<e:Image left="0" verticalCenter="0" x="-21" y="4" scaleX="1" scaleY="1" source="wrnn_btn_setting_02"/>
+		<e:layout>
+		<e:HorizontalLayout gap="18" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Button id="exitButton" label="" scaleX="1" scaleY="1" width="202" height="87" y="252" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+
+				<e:Image width="100%" height="100%" source.down="set_zjh_03"/>
+	<e:Group x="31" verticalCenter="0">
+		<e:Image left="0" verticalCenter="0" x="-31" y="-6" scaleX="1" scaleY="1" source="wrnn_btn_jiesan_01"/>
+		<e:Image id="typeImage" left="0" verticalCenter="0" x="-21" y="4" scaleX="1" scaleY="1" source="wrnn_btn_jiesan_02"/>
+		<e:layout>
+		<e:HorizontalLayout gap="18" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+	</e:Group>
+</e:Skin>

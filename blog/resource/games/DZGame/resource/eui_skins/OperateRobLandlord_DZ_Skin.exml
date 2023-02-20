@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OperateRobLandlord_DZ_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="102" width="842">
+	<e:Group id="robLordGroup" horizontalCenter="0">
+		<e:Button id="passButton" label="" y="4">
+			<e:Skin states="up,down,disabled">
+			<e:Image source="bt_green_bg" source.disabled="bt_gray_bg" anchorOffsetX="103" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Image source="green_pass_call" anchorOffsetX="103" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="landlordButton" label="" x="254" y="4">
+			<e:Skin states="up,down,disabled">
+			<e:Image source="bt_orange_bg" source.disabled="bt_gray_bg" anchorOffsetX="103" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Image source="orange_call_landlord" anchorOffsetX="103" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="noRobBtn" label="" x="0" y="4" visible="false">
+			<e:Skin states="up,down,disabled">
+			<e:Image source="bt_green_bg" source.disabled="bt_gray_bg" anchorOffsetX="103" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Image source="green_pass_grab" anchorOffsetX="103" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="RobBtn" label="" x="254" y="4" visible="false">
+			<e:Skin states="up,down,disabled">
+			<e:Image source="bt_orange_bg" source.disabled="bt_gray_bg"  anchorOffsetX="103" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Image source="orange_grab_landlord" anchorOffsetX="103" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+			</e:Skin>
+		</e:Button>
+	</e:Group>
+	<e:Group id="callLordGroup" horizontalCenter="0" height="102" y="0" visible="false">
+		<e:Button id="passCallButton" label="" x="254" verticalCenter="0">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="bt_green_bg" source.down="bt_gray_bg" source.disabled="bt_gray_bg"/>
+			<e:Image source="green_pass_call"/>
+		</e:Skin>
+		</e:Button>
+		<e:Button id="callScoreButton1" label="" x="264" verticalCenter="0" y="10">
+			<e:Skin states="up,down,disabled">
+			<e:Image source="bt_orange_bg" source.down="bt_gray_bg" source.disabled="bt_gray_bg"/>
+			<e:Image source="callScore1"/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="callScoreButton2" label="" x="264" verticalCenter="0">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="bt_orange_bg" source.down="bt_gray_bg" source.disabled="bt_gray_bg"/>
+			<e:Image source="callScore2"/>
+		</e:Skin>
+		</e:Button>
+		<e:Button id="callScoreButton3" label="" x="274" verticalCenter="0">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="bt_orange_bg" source.down="bt_gray_bg" source.disabled="bt_gray_bg"/>
+			<e:Image source="callScore3"/>
+		</e:Skin>
+		</e:Button>
+		<e:layout>
+		<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="kickPlayGroup" horizontalCenter="0" height="102" y="0" anchorOffsetX="0" width="442" visible="false">
+		<e:Button id="kickPlayButton" label="踢" x="6" verticalCenter="-0.5">
+			<e:Skin states="up,down,disabled">
+				<e:Image source="bt_green_bg" source.down="bt_gray_bg" source.disabled="bt_gray_bg" />
+				<!--<e:Image source="green_pass_call" />
+				-->
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="黑体" size="40" />
+			</e:Skin>
+		</e:Button>
+		<e:Button id="noKickButton" label="不踢" x="230" y="4.5" scaleX="1" scaleY="1">
+			<e:Skin states="up,down,disabled">
+				<e:Image source="bt_orange_bg" source.down="bt_gray_bg" source.disabled="bt_gray_bg" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="黑体" size="40" />
+			</e:Skin>
+		</e:Button>
+	</e:Group>
+</e:Skin>

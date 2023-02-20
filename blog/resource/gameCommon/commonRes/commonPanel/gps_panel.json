@@ -1,0 +1,75 @@
+{
+  "file": "gps_panel.png",
+  "frames": {
+    "gps_distancebg": {
+      "x": 793,
+      "y": 151,
+      "w": 117,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 117,
+      "sourceH": 46
+    },
+    "gps_line12": {
+      "x": 793,
+      "y": 0,
+      "w": 144,
+      "h": 150,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 144,
+      "sourceH": 150
+    },
+    "gps_line13": {
+      "x": 145,
+      "y": 840,
+      "w": 290,
+      "h": 2,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 290,
+      "sourceH": 2
+    },
+    "gps_line23": {
+      "x": 0,
+      "y": 840,
+      "w": 144,
+      "h": 150,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 144,
+      "sourceH": 150
+    },
+    "gps_mainBg": {
+      "x": 0,
+      "y": 0,
+      "w": 792,
+      "h": 574,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 792,
+      "sourceH": 574
+    },
+    "gps_ruleBg": {
+      "x": 0,
+      "y": 749,
+      "w": 657,
+      "h": 90,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 657,
+      "sourceH": 90
+    },
+    "gps_twoPlayer_icon": {
+      "x": 0,
+      "y": 575,
+      "w": 539,
+      "h": 173,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 539,
+      "sourceH": 173
+    }
+  }
+}

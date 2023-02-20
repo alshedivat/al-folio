@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OperationPlay_DZ_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1280" height="102">
+	<e:Button id="passOnlyBtn" label="" x="557" y="45" width="167" height="73" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="card_passonlyBtn1" source.down="card_passonlyBtn2" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:Button>
+	<e:Button id="passButton" label="" verticalCenter="0" x="225" width="156" height="73">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="card_passBtn1" source.disabled="card_passBtn_enable" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+			</e:Skin>
+		</e:skinName>
+
+
+
+
+	</e:Button>
+	<e:Button id="tipButton" label="" verticalCenter="0" x="740" width="167" height="73">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="card_tipBtn1" source.down="card_tipBtn2" scaleX="0.8" scaleY="0.8" verticalCenter="0" horizontalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:Button>
+	<e:Button id="playButton" label="" verticalCenter="0" x="903" width="156" height="73">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="card_playBtn1" source.down="card_playBtn2" scaleX="0.8" scaleY="0.8" verticalCenter="0" horizontalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+			</e:Skin>
+		</e:skinName>
+
+	
+	</e:Button>
+</e:Skin>

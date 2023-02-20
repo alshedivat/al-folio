@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SeatPlay_2d_Skin" width="107" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="headImage" source="" width="70" height="70" x="18.3" y="16.2"/>
+	<e:Image horizontalCenter="0" verticalCenter="-24" source="2d_headImageBg"/>
+	<e:Image id="headMask" source="table_headMask" horizontalCenter="0" width="75" height="78" top="15" visible="false"/>
+	<e:Image source="2d_pointBg" horizontalCenter="0" verticalCenter="56"/>
+	<e:Label id="nameTxt" text="玩家姓名" horizontalCenter="0.5" size="20" fontFamily="Microsoft YaHei" top="91" textColor="0xb2e3d6"/>
+	<e:BitmapLabel id="chipTxt" text="-38" horizontalCenter="0"  verticalCenter="56" verticalAlign="MIDDLE" height="24" font="2d_pointFont_fnt"/>
+	<e:Image id="grayBg" source="seat_gray" horizontalCenter="0.5" verticalCenter="-3" width="94" height="132" visible="false"/>
+	<e:Image id="status" y="62" source="offline" horizontalCenter="0" visible="false"/>
+	<e:Image id="signal" y="62" source="nosignal" horizontalCenter="0" visible="false"/>
+	<e:Image id="host" source="host" horizontalCenter="0" top="57" visible="false"/>
+	<e:Image id="_listenIcon" x="69.68" y="-3.67" source="hear" visible="false"/>
+	<e:Group id="_playerPause" height="34" anchorOffsetY="0" anchorOffsetX="0" width="185" y="145" horizontalCenter="0" visible="false">
+		<e:Image scaleX="0.9" scaleY="0.9" source="pause_leftTime_icon" anchorOffsetY="0" horizontalCenter="-10" verticalCenter="-1.5"/>
+		<e:Label id="leftTime" text="11" size="10" fontFamily="Microsoft YaHei" textColor="0xD98A21" verticalCenter="19" horizontalCenter="0"/>
+		<e:Label id="pauseLeftTimeSec" text="11" size="26" fontFamily="Microsoft YaHei" textColor="0xcbcbcb" horizontalCenter="35" verticalCenter="-1.5"/>
+	</e:Group>
+</e:Skin>

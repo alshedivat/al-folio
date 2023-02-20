@@ -1,0 +1,125 @@
+{
+  "file": "result_panel.png",
+  "frames": {
+    "result_bank_icon": {
+      "x": 0,
+      "y": 987,
+      "w": 29,
+      "h": 32,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 29,
+      "sourceH": 32
+    },
+    "result_bg_new": {
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 613,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 1280,
+      "sourceH": 613
+    },
+    "result_continue1": {
+      "x": 440,
+      "y": 737,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "result_continue2": {
+      "x": 440,
+      "y": 806,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "result_fangpao_new": {
+      "x": 620,
+      "y": 737,
+      "w": 46,
+      "h": 72,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 46,
+      "sourceH": 72
+    },
+    "result_item_bg": {
+      "x": 0,
+      "y": 614,
+      "w": 1261,
+      "h": 122,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 1261,
+      "sourceH": 122
+    },
+    "result_lose_title": {
+      "x": 0,
+      "y": 737,
+      "w": 439,
+      "h": 124,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 439,
+      "sourceH": 124
+    },
+    "result_share_btn1": {
+      "x": 1281,
+      "y": 0,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "result_share_btn2": {
+      "x": 440,
+      "y": 875,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "result_win_new": {
+      "x": 440,
+      "y": 944,
+      "w": 46,
+      "h": 62,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 46,
+      "sourceH": 62
+    },
+    "result_win_title": {
+      "x": 0,
+      "y": 862,
+      "w": 439,
+      "h": 124,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 439,
+      "sourceH": 124
+    },
+    "result_zimo_new": {
+      "x": 1281,
+      "y": 69,
+      "w": 56,
+      "h": 102,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 56,
+      "sourceH": 102
+    }
+  }
+}

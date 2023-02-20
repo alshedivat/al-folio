@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LobbyIntegralMallSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mjl_market_bg" left="0" right="0" top="0" bottom="0"/>
+	<e:Button id="backBtn" label="" left="20" top="8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="house_back" source.down="house_back"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Image top="21" source="mjl_market_title" horizontalCenter="0.5" scale9Grid="111,42,74,27"/>
+	<e:Label id="tips" text="实物兑换请联系客服" horizontalCenter="0" top="108" size="28" fontFamily="Microsoft YaHei" textColor="0x9bcce6"/>
+	<e:Group width="218" height="40" anchorOffsetX="0" anchorOffsetY="0" top="25" left="125">
+		<e:Image source="mjl_market_json.mjl_market_pointBg" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="integral" text="0" verticalCenter="0" horizontalCenter="15" textColor="0xc3bde4" size="32" fontFamily="Microsoft YaHei" textAlign="center"/>
+	</e:Group>
+	<e:Group width="1180" height="570" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="139">
+		<e:Scroller left="0" right="0" top="0" bottom="0" height="570">
+				<e:List id="shopList" left="0" right="0" top="0" bottom="0" itemRendererSkinName="IntegralShopSkin" height="570">
+					<e:layout>
+						<e:TileLayout paddingLeft="35" horizontalAlign="left" verticalAlign="top" horizontalGap="10"/>
+					</e:layout>
+
+				</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Button id="helpBtn" label="" x="367.96" y="25">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_market_help"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="rechargeBtn" label="" x="840" y="22">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_market_recharge_1" source.down="mjl_market_recharge_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="backpackBtn" label="" x="980" y="22">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_market_backpack_1" source.down="mjl_market_backpack_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

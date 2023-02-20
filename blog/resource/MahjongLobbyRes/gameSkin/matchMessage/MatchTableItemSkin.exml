@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchTableItemSkin" xmlns:e="http://ns.egret.com/eui" width="284" height="209">
+	<e:Image source="matchGameItemBg" y="0"/>
+	<e:Label id="contentLabel" text="Label" horizontalCenter="0" verticalCenter="0" textColor="0xffffff" stroke="1"/>
+</e:Skin>

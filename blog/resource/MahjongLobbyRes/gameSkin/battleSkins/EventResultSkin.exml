@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EventResultSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgImg" source="event_win_bg_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:BitmapLabel id="rankLabel" font="eventRankFont_fnt" text="第100名" horizontalCenter="0" top="420"/>
+	<e:BitmapLabel id="rewardNum" font="eventRankFont_fnt" text="豆10000" horizontalCenter="0.5" top="233" scaleX="0.7" scaleY="0.7"/>
+	<e:Button id="backBtn" label="" bottom="85" horizontalCenter="-200">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="event_common_back_1" source.down="event_common_back_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="shareBtn" label="" bottom="85" horizontalCenter="200">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="event_common_share_1" source.down="event_common_share_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:BitmapLabel width="20" height="20" x="594" y="233"/>
+</e:Skin>

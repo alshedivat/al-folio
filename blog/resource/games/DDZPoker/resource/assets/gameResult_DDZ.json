@@ -1,0 +1,245 @@
+{
+  "file": "gameResult_DDZ.png",
+  "frames": {
+    "beishu": {
+      "x": 537,
+      "y": 420,
+      "w": 80,
+      "h": 42,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 80,
+      "sourceH": 42
+    },
+    "btn_text_onemore": {
+      "x": 690,
+      "y": 242,
+      "w": 118,
+      "h": 33,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 118,
+      "sourceH": 33
+    },
+    "ddz_buttongreen": {
+      "x": 302,
+      "y": 409,
+      "w": 234,
+      "h": 70,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 234,
+      "sourceH": 70
+    },
+    "difen": {
+      "x": 537,
+      "y": 376,
+      "w": 81,
+      "h": 43,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 81,
+      "sourceH": 43
+    },
+    "farmer1_4": {
+      "x": 420,
+      "y": 133,
+      "w": 152,
+      "h": 183,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 152,
+      "sourceH": 183
+    },
+    "farmer2_2": {
+      "x": 183,
+      "y": 225,
+      "w": 182,
+      "h": 183,
+      "offX": 0,
+      "offY": 16,
+      "sourceW": 182,
+      "sourceH": 199
+    },
+    "fenshu": {
+      "x": 690,
+      "y": 276,
+      "w": 80,
+      "h": 41,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 80,
+      "sourceH": 41
+    },
+    "jinbi": {
+      "x": 902,
+      "y": 71,
+      "w": 77,
+      "h": 41,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 77,
+      "sourceH": 41
+    },
+    "label_winner_png": {
+      "x": 690,
+      "y": 177,
+      "w": 92,
+      "h": 64,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 93,
+      "sourceH": 64
+    },
+    "lord1_4": {
+      "x": 592,
+      "y": 0,
+      "w": 140,
+      "h": 176,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 140,
+      "sourceH": 176
+    },
+    "lord2_4": {
+      "x": 0,
+      "y": 225,
+      "w": 182,
+      "h": 188,
+      "offX": 0,
+      "offY": 18,
+      "sourceW": 182,
+      "sourceH": 206
+    },
+    "lord_icon": {
+      "x": 619,
+      "y": 353,
+      "w": 60,
+      "h": 49,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 62,
+      "sourceH": 49
+    },
+    "lose_anim_30": {
+      "x": 0,
+      "y": 133,
+      "w": 419,
+      "h": 91,
+      "offX": 5,
+      "offY": 57,
+      "sourceW": 430,
+      "sourceH": 150
+    },
+    "nicheng": {
+      "x": 783,
+      "y": 171,
+      "w": 79,
+      "h": 42,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 79,
+      "sourceH": 42
+    },
+    "qm": {
+      "x": 366,
+      "y": 269,
+      "w": 34,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 34,
+      "sourceH": 34
+    },
+    "total_bank": {
+      "x": 366,
+      "y": 225,
+      "w": 44,
+      "h": 43,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 44,
+      "sourceH": 43
+    },
+    "total_item_bg": {
+      "x": 0,
+      "y": 414,
+      "w": 301,
+      "h": 84,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 301,
+      "sourceH": 84
+    },
+    "total_item_kuang": {
+      "x": 573,
+      "y": 177,
+      "w": 116,
+      "h": 112,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 116,
+      "sourceH": 112
+    },
+    "total_lose": {
+      "x": 613,
+      "y": 290,
+      "w": 69,
+      "h": 62,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 62
+    },
+    "total_mc_bg": {
+      "x": 733,
+      "y": 71,
+      "w": 95,
+      "h": 99,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 95,
+      "sourceH": 99
+    },
+    "total_share_btn": {
+      "x": 733,
+      "y": 0,
+      "w": 234,
+      "h": 70,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 234,
+      "sourceH": 70
+    },
+    "total_title_DDZ": {
+      "x": 366,
+      "y": 317,
+      "w": 246,
+      "h": 58,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 246,
+      "sourceH": 58
+    },
+    "total_win": {
+      "x": 829,
+      "y": 71,
+      "w": 72,
+      "h": 62,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 74,
+      "sourceH": 62
+    },
+    "win_anim_18": {
+      "x": 0,
+      "y": 0,
+      "w": 591,
+      "h": 132,
+      "offX": 4,
+      "offY": 86,
+      "sourceW": 600,
+      "sourceH": 220
+    }
+  }
+}

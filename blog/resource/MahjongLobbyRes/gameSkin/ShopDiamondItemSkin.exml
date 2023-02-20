@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopDiamondItemSkin" width="210" height="260" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgIcon" horizontalCenter="0" verticalCenter="0" source=""/>
+	<e:Button id="buyBtn" label="" y="176" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="diamond_buy_btn" source.down="diamond_buy_btn2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="priceLabel" text="" anchorOffsetX="0" width="64" anchorOffsetY="0" height="31" textAlign="center" fontFamily="Microsoft YaHei" size="25" verticalAlign="middle" bottom="40" left="26" bold="true"/>
+	<e:Label id="numLabel" text="" anchorOffsetX="0" anchorOffsetY="0" height="31" textAlign="left" fontFamily="SimHei" size="21" verticalAlign="top" textColor="0xffffff" rotation="-35" top="-10" left="52" width="56"/>
+</e:Skin>

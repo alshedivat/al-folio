@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FacePanel_knapsack_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="closeRect" left="0" right="0" top="0" bottom="0" fillAlpha="0.2" />
+	<e:Group id="facegroup" width="471" x="825" top="0" bottom="0">
+	<e:Image verticalCenter="0" right="0" x="0" y="0" scaleX="1" scaleY="1"  source="chat_newbg"/>
+	<e:Group id="chatContent" width="445" height="661" anchorOffsetX="0" anchorOffsetY="0" right="12" top="28" visible="false">
+	<e:Scroller id="chatScroller"  scrollPolicyH="off" scrollPolicyV="on" width="445" anchorOffsetY="0" height="561" y="10">
+		<e:Group id="chatGroup" anchorOffsetY="0">
+		</e:Group>
+	</e:Scroller>
+			<e:Image x="14.23" y="596.33" width="292" height="47" source="chat_new_talkbg" scale9Grid="7,7,71,34"/>
+			<e:EditableText id="textField" width="285" height="47" text="请输入聊天内容" x="21" y="596" size="22" textAlign="left" verticalAlign="middle" fontFamily="Microsoft YaHei" textColor="0xa27d62" anchorOffsetX="0"/>
+			<e:Button id="sendBtn" y="589.11" x="308.24">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="chat_new_send1" source.down="chat_new_send2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+	</e:Group>
+	<e:Scroller id="faceScroller" width="445" height="551.67" right="10" anchorOffsetY="0" top="37" visible="false">
+		<e:Group id="faceGroup">
+			<e:layout>
+				<e:TileLayout horizontalGap="0" verticalGap="0"/>
+			</e:layout>
+			
+		</e:Group>
+	</e:Scroller>
+	<e:Group id="knapsackContent" width="445" height="661" y="28" anchorOffsetX="0" anchorOffsetY="0" right="18">
+		<e:Scroller id="knapsackScroller" width="445" height="494" anchorOffsetY="0" right="-11" top="21">
+			<e:Group id="knapsackGroup">
+				<e:layout>
+					<e:TileLayout horizontalGap="0" verticalGap="0"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+		<e:Label fontFamily="Microsoft YaHei" size="22" textColor="0xa27d62" text="祝福自选包" bottom="104" x="15"/>
+			<e:Label fontFamily="Microsoft YaHei" size="22" textColor="0xa27d62" text="使用后，礼包内道具任选其一" bottom="48" x="15"/>
+			<e:Label fontFamily="Microsoft YaHei" size="22" textColor="0xa27d62" text="祝福自选包" bottom="15" x="15" visible="false"/>
+			<e:Button id="useBtn" bottom="5" right="10">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="chat_new_use1" source.down="chat_new_use2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+		</e:Button>
+	</e:Group>	
+		<e:Group right="-1" height="580.61" verticalCenter="-44.5" anchorOffsetY="0" width="81">
+			<e:RadioButton id="chatRadioButton" label="" groupName="chattype" selected="true" right="19" top="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chat_shorttalkbtn1" source.down="chat_shorttalkbtn2" x.down="2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="faceRadioButton" label="" groupName="chattype" right="19" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chat_facebtn1" source.down="chat_facebtn2" x.down="2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="knapsackRadioButton" label="" groupName="chattype" right="19" bottom="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chat_knapsackbtn1" source.down="chat_knapsackbtn2" x.down="2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+		</e:Group>
+
+
+
+
+
+	</e:Group>
+</e:Skin>

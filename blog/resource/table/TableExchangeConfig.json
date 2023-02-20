@@ -1,0 +1,12 @@
+[
+{"id":1,"type":1,"priceName":"钻石","priceDescribe":"钻石","price":60,"goodsName":"金币","goodsDescribe":"含600金币，格外送20","goods":620},
+{"id":2,"type":1,"priceName":"钻石","priceDescribe":"钻石","price":300,"goodsName":"金币","goodsDescribe":"含3000金币，格外送2百","goods":3200},
+{"id":3,"type":1,"priceName":"钻石","priceDescribe":"钻石","price":1280,"goodsName":"金币","goodsDescribe":"含12800金币，格外送1.2千","goods":14000},
+{"id":4,"type":1,"priceName":"钻石","priceDescribe":"钻石","price":3280,"goodsName":"金币","goodsDescribe":"含32800金币，格外送4.5千","goods":37300},
+{"id":5,"type":2,"priceName":"钻石","priceDescribe":"钻石","price":60,"goodsName":"俱乐部基金","goodsDescribe":"含600金币，格外送20","goods":620},
+{"id":6,"type":2,"priceName":"钻石","priceDescribe":"钻石","price":300,"goodsName":"俱乐部基金","goodsDescribe":"含3000金币，格外送200","goods":3200},
+{"id":7,"type":2,"priceName":"钻石","priceDescribe":"钻石","price":1280,"goodsName":"俱乐部基金","goodsDescribe":"含12800金币，格外送1200","goods":14000},
+{"id":8,"type":2,"priceName":"钻石","priceDescribe":"钻石","price":3280,"goodsName":"俱乐部基金","goodsDescribe":"含32800金币，格外送4500","goods":37300},
+{"id":9,"type":1,"priceName":"钻石","priceDescribe":"钻石","price":6480,"goodsName":"金币","goodsDescribe":"含64800金币，格外送11千","goods":75800},
+{"id":10,"type":2,"priceName":"钻石","priceDescribe":"钻石","price":6480,"goodsName":"俱乐部基金","goodsDescribe":"含64800金币，格外送11000","goods":75800}
+]

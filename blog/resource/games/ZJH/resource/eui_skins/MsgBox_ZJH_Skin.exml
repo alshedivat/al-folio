@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MsgBox_ZJH_Skin" height="420" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="630">
+	<e:Image scale9Grid="23,16,34,35" width="602.33" height="404.34" source="role_frame_1_png" anchorOffsetY="0"
+	         anchorOffsetX="5.24" horizontalCenter="-5" verticalCenter="9" />
+	<e:Image width="572" height="375" y="31" scale9Grid="17,13,67,68" source="role_frame_3_png" x="24.16" anchorOffsetX="0"
+	         anchorOffsetY="0" />
+	<e:Label id="desLabel" text="特殊规则" x="75.5" y="79" textColor="0x8f0e0e" fontFamily="Microsoft YaHei" size="30"
+	         anchorOffsetX="0" width="454" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="121" />
+	<e:Button id="closeBtn" label="" x="558" y="-3.5">
+
+	</e:Button>
+	<e:Group id="btnsGroup" width="520" height="93" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"
+	         verticalCenter="122">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="60" />
+		</e:layout>
+	</e:Group>
+</e:Skin>

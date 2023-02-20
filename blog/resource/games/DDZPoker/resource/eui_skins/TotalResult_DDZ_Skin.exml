@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TotalResult_DDZ_Skin" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="1280">
+	<e:Image source="ddz_total_result_bg_png"  left="0" right="0" top="0" bottom="0"/>
+	<e:Button id="_backBtn" label="" y="10.6" scaleX="0.9" scaleY="0.9" left="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="public_DDZ9" source.down="public_DDZ9" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="_title" width="246" height="58" y="21.2" source="total_title_DDZ" horizontalCenter="0" />
+	<e:Label id="_roomId" text="房间号：123456 " x="30" y="120" anchorOffsetX="0" width="240" size="26" />
+	<e:Label id="_datatime" text="2017.06.27  17:11" y="120" anchorOffsetX="0" width="240" size="26"  right="0"/>
+	<e:Image height="476" y="160" source="total_item_kuang" scale9Grid="25,17,66,72"  width="1266" horizontalCenter="-7"/>
+	<e:List id="_itemList" width="1200" height="340" y="220" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"
+	        itemRendererSkinName="TotalItemSkin_lose_DDZ_Skin">
+		<e:layout>
+			<e:VerticalLayout gap="20" horizontalAlign="center" verticalAlign="middle" />
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object 啊啊="null" />
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	<e:Button id="_shareBtn" label="" scaleX="0.9" scaleY="0.9" horizontalCenter="-195.5" bottom="14">
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="total_share_btn" source.down="total_share_btn" />
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+		</e:Skin>
+	</e:Button>
+	<e:Button id="playAgainBtn" width="234" height="70" horizontalCenter="228.5" bottom="14">
+		<e:Skin states="up,down,disabled">
+			<e:Image width="234" height="70" source="ddz_buttongreen" anchorOffsetX="117" anchorOffsetY="35" x="117" y="35"
+			         scaleX.down="0.9" scaleY.down="0.9" />
+			<e:Image source="btn_text_onemore" anchorOffsetX="59" anchorOffsetY="16" x="115" y="34" scaleX.down="0.9"
+			         scaleY.down="0.9" />
+		</e:Skin>
+	</e:Button>
+	<e:Label text="玩家" y="180" anchorOffsetY="0" height="32"  horizontalCenter="-377"/>
+	<e:Label text="单局最高得分" y="180" anchorOffsetY="0" height="32"  horizontalCenter="-180"/>
+	<e:Label text="打出炸弹数" y="180" anchorOffsetY="0" height="32"  horizontalCenter="25"/>
+	<e:Label text="胜负局数" y="180" anchorOffsetY="0" height="32"  horizontalCenter="220"/>
+	<e:Label text="总分" y="180" anchorOffsetY="0" height="32"  horizontalCenter="390"/>
+	<e:Label id="reasonLabel" text="总分" anchorOffsetY="0" height="32" horizontalCenter="0" verticalCenter="216" textColor="0xf21313" fontFamily="SimHei" size="35"/>
+</e:Skin>

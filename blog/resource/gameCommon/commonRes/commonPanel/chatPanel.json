@@ -1,0 +1,95 @@
+{
+  "file": "chatPanel.png",
+  "frames": {
+    "chat_bg2": {
+      "x": 0,
+      "y": 0,
+      "w": 264,
+      "h": 377,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 264,
+      "sourceH": 377
+    },
+    "chat_face1": {
+      "x": 330,
+      "y": 138,
+      "w": 58,
+      "h": 184,
+      "offX": 3,
+      "offY": 0,
+      "sourceW": 64,
+      "sourceH": 184
+    },
+    "chat_face2": {
+      "x": 265,
+      "y": 138,
+      "w": 64,
+      "h": 184,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 64,
+      "sourceH": 184
+    },
+    "chat_mesageBg": {
+      "x": 0,
+      "y": 378,
+      "w": 132,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 132,
+      "sourceH": 59
+    },
+    "chat_message1": {
+      "x": 265,
+      "y": 323,
+      "w": 58,
+      "h": 184,
+      "offX": 3,
+      "offY": 0,
+      "sourceW": 64,
+      "sourceH": 184
+    },
+    "chat_message2": {
+      "x": 445,
+      "y": 0,
+      "w": 64,
+      "h": 184,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 64,
+      "sourceH": 184
+    },
+    "chat_send1": {
+      "x": 265,
+      "y": 0,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "chat_send2": {
+      "x": 265,
+      "y": 69,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "chat_unputBg": {
+      "x": 0,
+      "y": 438,
+      "w": 148,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 148,
+      "sourceH": 48
+    }
+  }
+}

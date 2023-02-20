@@ -1,0 +1,995 @@
+{
+  "file": "room_DDZ.png",
+  "frames": {
+    "basechip_tag": {
+      "x": 323,
+      "y": 966,
+      "w": 57,
+      "h": 32,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 60,
+      "sourceH": 32
+    },
+    "bettery_DDZ": {
+      "x": 773,
+      "y": 544,
+      "w": 40,
+      "h": 25,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 40,
+      "sourceH": 25
+    },
+    "betteryPercent_DDZ": {
+      "x": 870,
+      "y": 215,
+      "w": 7,
+      "h": 12,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 7,
+      "sourceH": 12
+    },
+    "bg_jushubg": {
+      "x": 530,
+      "y": 620,
+      "w": 171,
+      "h": 30,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 171,
+      "sourceH": 30
+    },
+    "bg_me": {
+      "x": 982,
+      "y": 305,
+      "w": 109,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 109,
+      "sourceH": 65
+    },
+    "bg_neikuang_1_png": {
+      "x": 1127,
+      "y": 81,
+      "w": 42,
+      "h": 39,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 42,
+      "sourceH": 39
+    },
+    "bg_neikuang_2": {
+      "x": 775,
+      "y": 234,
+      "w": 256,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 256,
+      "sourceH": 53
+    },
+    "bg_neikuang_3_png": {
+      "x": 773,
+      "y": 504,
+      "w": 40,
+      "h": 40,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 40,
+      "sourceH": 40
+    },
+    "bg_other": {
+      "x": 1269,
+      "y": 96,
+      "w": 103,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 103,
+      "sourceH": 65
+    },
+    "bg_tiaoti_2_png": {
+      "x": 467,
+      "y": 811,
+      "w": 151,
+      "h": 50,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 152,
+      "sourceH": 51
+    },
+    "bottombar_bg": {
+      "x": 0,
+      "y": 658,
+      "w": 1280,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 1280,
+      "sourceH": 53
+    },
+    "bottombar_gold": {
+      "x": 882,
+      "y": 711,
+      "w": 49,
+      "h": 50,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 50,
+      "sourceH": 50
+    },
+    "btn_dissolve_1_png": {
+      "x": 0,
+      "y": 805,
+      "w": 292,
+      "h": 107,
+      "offX": 3,
+      "offY": 0,
+      "sourceW": 299,
+      "sourceH": 110
+    },
+    "buy_gold": {
+      "x": 794,
+      "y": 779,
+      "w": 47,
+      "h": 48,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 50,
+      "sourceH": 50
+    },
+    "cardcounter_bg": {
+      "x": 870,
+      "y": 0,
+      "w": 143,
+      "h": 123,
+      "offX": 8,
+      "offY": 13,
+      "sourceW": 160,
+      "sourceH": 140
+    },
+    "data_DDZ": {
+      "x": 1348,
+      "y": 58,
+      "w": 22,
+      "h": 25,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 24,
+      "sourceH": 25
+    },
+    "dz_gps1": {
+      "x": 730,
+      "y": 762,
+      "w": 64,
+      "h": 70,
+      "offX": 6,
+      "offY": 5,
+      "sourceW": 75,
+      "sourceH": 77
+    },
+    "dz_gps2": {
+      "x": 685,
+      "y": 851,
+      "w": 64,
+      "h": 70,
+      "offX": 6,
+      "offY": 5,
+      "sourceW": 75,
+      "sourceH": 77
+    },
+    "dz_hqxbtn": {
+      "x": 704,
+      "y": 711,
+      "w": 112,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 112,
+      "sourceH": 51
+    },
+    "dz_hzbtn": {
+      "x": 1211,
+      "y": 186,
+      "w": 112,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 112,
+      "sourceH": 51
+    },
+    "dz_jpbtn": {
+      "x": 618,
+      "y": 800,
+      "w": 112,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 112,
+      "sourceH": 51
+    },
+    "dz_spbtn": {
+      "x": 1012,
+      "y": 420,
+      "w": 112,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 112,
+      "sourceH": 51
+    },
+    "dz_suoicon": {
+      "x": 1164,
+      "y": 186,
+      "w": 28,
+      "h": 29,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 28,
+      "sourceH": 29
+    },
+    "dz_suoicon_1": {
+      "x": 1204,
+      "y": 394,
+      "w": 46,
+      "h": 47,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 46,
+      "sourceH": 47
+    },
+    "fangong": {
+      "x": 509,
+      "y": 861,
+      "w": 99,
+      "h": 65,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 101,
+      "sourceH": 67
+    },
+    "flyCoin": {
+      "x": 237,
+      "y": 912,
+      "w": 53,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 55,
+      "sourceH": 56
+    },
+    "game_bangbg": {
+      "x": 0,
+      "y": 446,
+      "w": 530,
+      "h": 212,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 530,
+      "sourceH": 212
+    },
+    "game_bangsixbg": {
+      "x": 0,
+      "y": 234,
+      "w": 775,
+      "h": 212,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 775,
+      "sourceH": 212
+    },
+    "game_exit1": {
+      "x": 592,
+      "y": 926,
+      "w": 66,
+      "h": 70,
+      "offX": 5,
+      "offY": 5,
+      "sourceW": 75,
+      "sourceH": 77
+    },
+    "game_exit2": {
+      "x": 1217,
+      "y": 288,
+      "w": 66,
+      "h": 70,
+      "offX": 5,
+      "offY": 5,
+      "sourceW": 75,
+      "sourceH": 77
+    },
+    "game_first": {
+      "x": 606,
+      "y": 711,
+      "w": 98,
+      "h": 89,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 101,
+      "sourceH": 91
+    },
+    "game_five": {
+      "x": 814,
+      "y": 487,
+      "w": 99,
+      "h": 89,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 101,
+      "sourceH": 91
+    },
+    "game_four": {
+      "x": 814,
+      "y": 397,
+      "w": 99,
+      "h": 90,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 101,
+      "sourceH": 91
+    },
+    "game_host": {
+      "x": 1025,
+      "y": 555,
+      "w": 116,
+      "h": 27,
+      "offX": 4,
+      "offY": 0,
+      "sourceW": 122,
+      "sourceH": 27
+    },
+    "game_host1": {
+      "x": 1138,
+      "y": 355,
+      "w": 66,
+      "h": 71,
+      "offX": 5,
+      "offY": 4,
+      "sourceW": 75,
+      "sourceH": 77
+    },
+    "game_host2": {
+      "x": 1372,
+      "y": 134,
+      "w": 66,
+      "h": 72,
+      "offX": 5,
+      "offY": 3,
+      "sourceW": 75,
+      "sourceH": 77
+    },
+    "game_keyicon": {
+      "x": 749,
+      "y": 832,
+      "w": 28,
+      "h": 31,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 28,
+      "sourceH": 32
+    },
+    "game_last": {
+      "x": 913,
+      "y": 390,
+      "w": 99,
+      "h": 89,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 101,
+      "sourceH": 91
+    },
+    "game_look1": {
+      "x": 1091,
+      "y": 305,
+      "w": 126,
+      "h": 50,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 128,
+      "sourceH": 51
+    },
+    "game_look2": {
+      "x": 1012,
+      "y": 370,
+      "w": 126,
+      "h": 50,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 128,
+      "sourceH": 51
+    },
+    "game_main_30": {
+      "x": 1211,
+      "y": 237,
+      "w": 112,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 112,
+      "sourceH": 51
+    },
+    "game_main_45": {
+      "x": 1505,
+      "y": 76,
+      "w": 78,
+      "h": 38,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 78,
+      "sourceH": 38
+    },
+    "game_main_96": {
+      "x": 913,
+      "y": 544,
+      "w": 112,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 112,
+      "sourceH": 51
+    },
+    "game_main_145": {
+      "x": 353,
+      "y": 783,
+      "w": 95,
+      "h": 20,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 97,
+      "sourceH": 24
+    },
+    "game_menu1": {
+      "x": 1440,
+      "y": 76,
+      "w": 65,
+      "h": 65,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 67,
+      "sourceH": 67
+    },
+    "game_rankbg": {
+      "x": 0,
+      "y": 711,
+      "w": 353,
+      "h": 94,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 353,
+      "sourceH": 94
+    },
+    "game_rankwebg1": {
+      "x": 1127,
+      "y": 0,
+      "w": 125,
+      "h": 81,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 127,
+      "sourceH": 83
+    },
+    "game_rankwebg2": {
+      "x": 389,
+      "y": 863,
+      "w": 120,
+      "h": 81,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 122,
+      "sourceH": 83
+    },
+    "game_second": {
+      "x": 1031,
+      "y": 215,
+      "w": 99,
+      "h": 90,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 101,
+      "sourceH": 91
+    },
+    "game_set1": {
+      "x": 618,
+      "y": 851,
+      "w": 67,
+      "h": 72,
+      "offX": 4,
+      "offY": 5,
+      "sourceW": 74,
+      "sourceH": 77
+    },
+    "game_set2": {
+      "x": 525,
+      "y": 926,
+      "w": 67,
+      "h": 72,
+      "offX": 4,
+      "offY": 5,
+      "sourceW": 74,
+      "sourceH": 77
+    },
+    "game_third": {
+      "x": 1170,
+      "y": 96,
+      "w": 99,
+      "h": 90,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 101,
+      "sourceH": 91
+    },
+    "game_timebg": {
+      "x": 530,
+      "y": 578,
+      "w": 240,
+      "h": 42,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 241,
+      "sourceH": 43
+    },
+    "game_voice1": {
+      "x": 1542,
+      "y": 0,
+      "w": 66,
+      "h": 66,
+      "offX": 13,
+      "offY": 13,
+      "sourceW": 92,
+      "sourceH": 92
+    },
+    "game_voice2": {
+      "x": 816,
+      "y": 711,
+      "w": 66,
+      "h": 68,
+      "offX": 13,
+      "offY": 13,
+      "sourceW": 92,
+      "sourceH": 92
+    },
+    "gps_2": {
+      "x": 1372,
+      "y": 58,
+      "w": 68,
+      "h": 76,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 68,
+      "sourceH": 76
+    },
+    "help_line_png": {
+      "x": 1608,
+      "y": 0,
+      "w": 4,
+      "h": 146,
+      "offX": 0,
+      "offY": 2,
+      "sourceW": 4,
+      "sourceH": 150
+    },
+    "icon_clock": {
+      "x": 1130,
+      "y": 215,
+      "w": 81,
+      "h": 87,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 83,
+      "sourceH": 88
+    },
+    "interrogation": {
+      "x": 477,
+      "y": 783,
+      "w": 24,
+      "h": 26,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 26,
+      "sourceH": 26
+    },
+    "jiefeng": {
+      "x": 1012,
+      "y": 471,
+      "w": 94,
+      "h": 51,
+      "offX": 3,
+      "offY": 0,
+      "sourceW": 99,
+      "sourceH": 51
+    },
+    "kanggong": {
+      "x": 913,
+      "y": 479,
+      "w": 99,
+      "h": 65,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 101,
+      "sourceH": 67
+    },
+    "kick_icon": {
+      "x": 1388,
+      "y": 206,
+      "w": 48,
+      "h": 48,
+      "offX": 2,
+      "offY": 1,
+      "sourceW": 51,
+      "sourceH": 50
+    },
+    "label_help_png": {
+      "x": 389,
+      "y": 944,
+      "w": 136,
+      "h": 64,
+      "offX": 2,
+      "offY": 0,
+      "sourceW": 140,
+      "sourceH": 65
+    },
+    "label_set_png": {
+      "x": 638,
+      "y": 504,
+      "w": 135,
+      "h": 65,
+      "offX": 2,
+      "offY": 0,
+      "sourceW": 140,
+      "sourceH": 66
+    },
+    "mask_head": {
+      "x": 508,
+      "y": 711,
+      "w": 98,
+      "h": 100,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 98,
+      "sourceH": 100
+    },
+    "multip_bg": {
+      "x": 1283,
+      "y": 288,
+      "w": 60,
+      "h": 60,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 60,
+      "sourceH": 60
+    },
+    "multiple_tag": {
+      "x": 701,
+      "y": 620,
+      "w": 57,
+      "h": 32,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 60,
+      "sourceH": 32
+    },
+    "name_gold_bg": {
+      "x": 353,
+      "y": 711,
+      "w": 155,
+      "h": 72,
+      "offX": 6,
+      "offY": 0,
+      "sourceW": 161,
+      "sourceH": 72
+    },
+    "pickout_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 870,
+      "h": 234,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 870,
+      "sourceH": 234
+    },
+    "pickout_itembg": {
+      "x": 0,
+      "y": 912,
+      "w": 237,
+      "h": 74,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 237,
+      "sourceH": 74
+    },
+    "player_call_landlord": {
+      "x": 292,
+      "y": 805,
+      "w": 175,
+      "h": 58,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 176,
+      "sourceH": 60
+    },
+    "player_grab_landlord": {
+      "x": 638,
+      "y": 446,
+      "w": 176,
+      "h": 58,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 176,
+      "sourceH": 60
+    },
+    "player_pass": {
+      "x": 971,
+      "y": 595,
+      "w": 81,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 81,
+      "sourceH": 46
+    },
+    "player_pass_call": {
+      "x": 1348,
+      "y": 0,
+      "w": 119,
+      "h": 58,
+      "offX": 29,
+      "offY": 0,
+      "sourceW": 176,
+      "sourceH": 60
+    },
+    "player_pass_score": {
+      "x": 770,
+      "y": 576,
+      "w": 118,
+      "h": 58,
+      "offX": 30,
+      "offY": 0,
+      "sourceW": 176,
+      "sourceH": 60
+    },
+    "player_ready": {
+      "x": 888,
+      "y": 595,
+      "w": 83,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 83,
+      "sourceH": 48
+    },
+    "QQ": {
+      "x": 1323,
+      "y": 206,
+      "w": 65,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 65,
+      "sourceH": 65
+    },
+    "role_frame_1_png": {
+      "x": 1467,
+      "y": 0,
+      "w": 75,
+      "h": 76,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 78,
+      "sourceH": 78
+    },
+    "role_frame_2_png": {
+      "x": 1134,
+      "y": 170,
+      "w": 30,
+      "h": 30,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 30,
+      "sourceH": 30
+    },
+    "role_frame_3_png": {
+      "x": 292,
+      "y": 863,
+      "w": 97,
+      "h": 103,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 100,
+      "sourceH": 103
+    },
+    "role_frame_4_png": {
+      "x": 885,
+      "y": 287,
+      "w": 97,
+      "h": 103,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 100,
+      "sourceH": 103
+    },
+    "room_default_head_icon": {
+      "x": 775,
+      "y": 287,
+      "w": 110,
+      "h": 110,
+      "offX": 6,
+      "offY": 6,
+      "sourceW": 122,
+      "sourceH": 122
+    },
+    "Room_HeadFrame": {
+      "x": 1013,
+      "y": 0,
+      "w": 114,
+      "h": 114,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 114,
+      "sourceH": 115
+    },
+    "room_owner": {
+      "x": 1438,
+      "y": 141,
+      "w": 40,
+      "h": 80,
+      "offX": 11,
+      "offY": 5,
+      "sourceW": 60,
+      "sourceH": 92
+    },
+    "spoker_count": {
+      "x": 775,
+      "y": 397,
+      "w": 38,
+      "h": 37,
+      "offX": 0,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 42
+    },
+    "suspend_icon": {
+      "x": 0,
+      "y": 986,
+      "w": 323,
+      "h": 34,
+      "offX": 5,
+      "offY": 0,
+      "sourceW": 335,
+      "sourceH": 34
+    },
+    "time_bg": {
+      "x": 1204,
+      "y": 358,
+      "w": 96,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 96,
+      "sourceH": 36
+    },
+    "tips_onlypass": {
+      "x": 870,
+      "y": 170,
+      "w": 264,
+      "h": 45,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 264,
+      "sourceH": 45
+    },
+    "tips_outerror": {
+      "x": 870,
+      "y": 123,
+      "w": 300,
+      "h": 47,
+      "offX": 23,
+      "offY": 6,
+      "sourceW": 348,
+      "sourceH": 56
+    },
+    "user_ai_icon": {
+      "x": 530,
+      "y": 446,
+      "w": 108,
+      "h": 132,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 132
+    },
+    "user_bg1": {
+      "x": 1269,
+      "y": 161,
+      "w": 84,
+      "h": 25,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 84,
+      "sourceH": 25
+    },
+    "user_bg2": {
+      "x": 1025,
+      "y": 522,
+      "w": 112,
+      "h": 33,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 112,
+      "sourceH": 33
+    },
+    "user_dropped_icon": {
+      "x": 1252,
+      "y": 0,
+      "w": 96,
+      "h": 96,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 96,
+      "sourceH": 96
+    },
+    "user_other": {
+      "x": 758,
+      "y": 634,
+      "w": 45,
+      "h": 24,
+      "offX": 1,
+      "offY": 3,
+      "sourceW": 47,
+      "sourceH": 27
+    },
+    "user_us": {
+      "x": 323,
+      "y": 998,
+      "w": 51,
+      "h": 26,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 53,
+      "sourceH": 28
+    },
+    "user_we": {
+      "x": 803,
+      "y": 634,
+      "w": 45,
+      "h": 24,
+      "offX": 1,
+      "offY": 2,
+      "sourceW": 47,
+      "sourceH": 27
+    },
+    "wcat": {
+      "x": 1124,
+      "y": 426,
+      "w": 65,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 65,
+      "sourceH": 65
+    },
+    "wifi_DDZ": {
+      "x": 448,
+      "y": 783,
+      "w": 29,
+      "h": 22,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 29,
+      "sourceH": 22
+    },
+    "xq_bg": {
+      "x": 658,
+      "y": 923,
+      "w": 50,
+      "h": 50,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 50,
+      "sourceH": 50
+    }
+  }
+}

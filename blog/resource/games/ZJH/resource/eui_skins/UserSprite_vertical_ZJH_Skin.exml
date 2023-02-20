@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UserSprite_vertical_ZJH_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_bg_image" source="wrnn_head_item_v_bg"/>
+	<e:Image id="_headImage" width="94" height="94" y="8" horizontalCenter="0"/>
+	<e:Image id="_headMask" source="mask_head" horizontalCenter="0" y="8"/>
+	<e:Label id="_name" text="名字限制五" size="20" horizontalCenter="0" width="100" y="126"/>
+	<e:BitmapLabel font="wrnn_score_number_fnt" text="111" id="_chips" horizontalCenter="0" y="154"/>
+</e:Skin>

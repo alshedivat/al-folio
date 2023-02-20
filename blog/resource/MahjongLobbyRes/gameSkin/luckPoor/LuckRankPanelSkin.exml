@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LuckRankPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="608" height="550" horizontalCenter="0" top="150">
+		<e:Image source="mjl_common_bj_1" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="33,89,205,539" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:Image source="mjl_common_json.mjl_common_bj_2" anchorOffsetX="0" width="580" anchorOffsetY="0" height="530" scale9Grid="35,75,211,453" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="mjl_common_json.mjl_common_bj_6" anchorOffsetX="0" width="510" anchorOffsetY="0" height="400" scale9Grid="20,16,122,101" verticalCenter="-30" horizontalCenter="0" x="14" y="100" scaleX="1" scaleY="1"/>
+		<e:Button id="backButton" label="" bottom="30" y="471" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_commonBtn_back_1" source.down="mjl_commonBtn_back_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="mjl_luckpoor_json.mjl_luck_rank_label" horizontalCenter="0" top="60" visible="false"/>
+		<e:Group width="460" height="393" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="48">
+			<e:Scroller left="0" right="0" top="0" bottom="0">
+				<e:List id="rankList">
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" paddingTop="10"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+	<e:Image source="mjl_luckpoor_json.mjl_luck_rank_tItle" horizontalCenter="0" scaleX="0.9" scaleY="0.9" top="20"/>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MatchItemSkin" width="1070" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="match_record_frame" scale9Grid="22,18,37,34" left="0" right="0" top="0" bottom="0"/>
+	<e:Label id="levelLabel" x="69" fontFamily="隶书" text="级别" textColor="0x848484" verticalCenter="0"/>
+	<e:Label id="posLabel" fontFamily="隶书" horizontalCenter="-141.5" text="底注5钻石" textColor="0x848484" verticalCenter="0"/>
+	<e:Label id="minLabel" fontFamily="隶书" x="599" text="50钻以上" textColor="0x848484" verticalCenter="0"/>
+	<e:Button label="按钮" x="841" y="64"/>
+	<e:Button id="signupButton" label="报名" x="820" skinName="MJ_Button1Skin" verticalCenter="0"/>
+</e:Skin>

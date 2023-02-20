@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TotalRecord_2d5_new_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="totalRecord_bg_2d5" left="0" right="0" top="0" bottom="0" />
+	<e:Image alpha="0.8" anchorOffsetY="0" source="totalRecord_timeBg_2d5" left="0" right="0" verticalCenter="-270" />
+	<e:Image source="totalRecordlogo_2d5" horizontalCenter="0" top="32" />
+	<e:Button id="closeButton" top="602" horizontalCenter="-268">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="backBtn2_2d5_1" source.down="backBtn2_2d5_2" />
+				<e:Label id="labelDisplay0" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="againButton" label="" anchorOffsetX="0" anchorOffsetY="0" top="602" horizontalCenter="268">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="playAgain_2d5_1" source.down="playAgain_2d5_2" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x3E3E49" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="shareButton" label="" top="602" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="shareBtn2_2d5_1" source.down="shareBtn2_2d5_2" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x3E3E49" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:List id="list" height="469" top="118" horizontalCenter="0" itemRendererSkinName="TotalRecordItem_2d5_new_Skin">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" gap="0" />
+		</e:layout>
+	</e:List>
+	<e:Label id="roomIdLabel" text="房号：1818181" size="20" fontFamily="Microsoft YaHei" left="30"
+	         textColor="0xb6c6cc"  top="80"/>
+	<e:Label id="roomTimeLabel" text="2017-12-12  11：11：11" size="20" fontFamily="Microsoft YaHei"
+	         verticalCenter="-270" textColor="0xb6c6cc"  horizontalCenter="442"/>
+	<e:Label id="roomTitleLabel" text="海满麻将" size="20" fontFamily="Microsoft YaHei" left="30"
+	         textColor="0xb6c6cc"  top="50"/>
+	<e:Label id="reason" y="437.33" text="解散原因" size="30" anchorOffsetX="0" width="976.34" anchorOffsetY="0"
+	         height="94.01" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" bold="true"
+	         textColor="0xfc0202"  horizontalCenter="0" visible="false"/>
+</e:Skin>

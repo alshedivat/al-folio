@@ -1,0 +1,6 @@
+[
+{"vipLevel":1,"diamond":10000,"freeType":[4],"discount":0.0,"desc":["免费\n创建4人场"]},
+{"vipLevel":2,"diamond":20000,"freeType":[4,3],"discount":0.0,"desc":["免费\n创建3人场"]},
+{"vipLevel":3,"diamond":50000,"freeType":[4,3,2],"discount":0.0,"desc":["免费\n创建2人场"]},
+{"vipLevel":4,"diamond":100000,"freeType":[4,3,2],"discount":0.0,"desc":["激活喇叭"]}
+]

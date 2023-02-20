@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LobbyNoAgentSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.6"/>
+
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="mjl_noAgent_bg_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="mjl_noAgent_json.mjl_noAgent_bg2" x="444" y="140" scaleX="1.3" scaleY="1.3"/>
+		<e:Image source="mjl_noAgent_json.mjl_noAgent_bg3" x="406" y="372"/>
+		<e:Label text="点击微信" x="516" y="386" fontFamily="Microsoft YaHei" size="26" textColor="0xe4f2ff"/>
+		<e:Label text="右上角 &quot;+&quot;" x="622" y="386" fontFamily="Microsoft YaHei" size="26" textColor="0xffeb00"/>
+		<e:Label text=" , 添加朋友" x="748.96" y="386" fontFamily="Microsoft YaHei" size="26" textColor="0xc8e3f2"/>
+		<e:Image source="mjl_noAgent_json.mjl_noAgent_bg4" x="462.81" y="483.52" anchorOffsetX="0" width="300.76"/>
+		<e:Label text="客服微信：" x="474.9" y="498.61" fontFamily="Microsoft YaHei"/>
+		<e:Button id="copyButton" label="" x="769.36" y="469.98">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_noAgent_copy_bt1" source.down="mjl_noAgent_copy_bt2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="wxLabel" text="0" x="620.36" y="472.74" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="137.64" anchorOffsetY="0" height="90" fontFamily="Microsoft YaHei"/>
+		<e:Button id="closeButton" label="" x="992.21" y="7.71" width="60" height="60" skinName="MJ_CloseButton1Skin">
+
+		</e:Button>
+	</e:Group>
+	
+</e:Skin>

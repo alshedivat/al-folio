@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TotalItemSkin_lose_DDZ_Skin" width="1174" height="84" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="lose_item" width="1174" height="84" x="0" y="0">
+		<e:Image width="1174" height="84" x="0" y="0" source="total_item_bg" scale9Grid="66,29,186,25" scaleX="1" scaleY="1"/>
+		<e:Image width="94" height="94" x="0" source="total_mc_bg" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" y="-5" scaleX="1" scaleY="1"/>
+		<e:Image id="_headmc" width="94" height="94" x="0" source="total_mc_bg" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+		<e:Image id="_bank" width="40" height="40" x="74" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="15" y="5" scaleX="1" scaleY="1" source="total_bank"/>
+		<e:Label id="_username" text="盼盼" x="110" y="12" bold="true" textColor="0xfffefc" anchorOffsetX="0" width="214" textAlign="center" height="30"/>
+		<e:Label id="_uid" text="123456789" x="110" y="42" bold="true" textColor="0xfffefc" width="214" textAlign="center" height="30"/>
+		<e:Label id="_maxCount" text="0" x="320" bold="true" verticalCenter="0" textColor="0xfffefc" textAlign="center" width="150"/>
+		<e:Label id="_boomCount" text="0" x="530" bold="true" verticalCenter="0" textColor="0xfffefc" textAlign="center" width="150"/>
+		<e:Label id="_winCount" text="0" x="750" bold="true" verticalCenter="0" textColor="0xfffefc" textAlign="center" width="150"/>
+		<e:Label id="_totalCount" text="0" x="890" bold="true" verticalCenter="0" textColor="0xfffefc" textAlign="center" width="150"/>
+		<e:Image width="70" height="70" right="40" verticalCenter="0" source="total_lose"/>
+	</e:Group>
+</e:Skin>

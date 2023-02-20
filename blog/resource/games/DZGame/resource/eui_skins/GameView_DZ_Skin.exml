@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameView_DZ_Skin" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="1280">
+	<w:Config id="15bccfd0ad2" />
+	<e:Image id="tableclothImage"  source="bg_desk_2_jpg" left="-4" right="4" top="0" bottom="0"/>
+	<e:Image scaleX="1" scaleY="1" anchorOffsetY="0" left="0" top="0" source="game_rankbg"/>
+	<e:Image y="257" anchorOffsetX="0" alpha="0.3" touchEnabled="false" source="bg_neikuang_2" horizontalCenter="0"/>
+	<e:Image id="jubg" y="313" anchorOffsetX="0" alpha="0.3" touchEnabled="false" source="bg_jushubg" horizontalCenter="0.5" visible="false"/>
+	<e:Image source="bottombar_common_bg_DDZ" y="82.27" anchorOffsetX="0" width="190" scale9Grid="23,12,41,18" right="10"/>
+	<e:Label id="roomNumber" text="" y="263" fontFamily="黑体" width="400" height="40" textAlign="center" verticalAlign="middle" touchEnabled="false" textColor="0xd6f3c7" horizontalCenter="0"/>
+	<e:Label id="threeCardImage" size="30" fontFamily="黑体" stroke="1" text="癞子" y="26.69"  left="132" visible="false"/>
+	<e:Image height="52" bottom="0"  source="bottombar_bg" left="0" right="0" scale9Grid="401,6,702,39"/>
+	<e:Image left="0" top="96" source="game_timebg"/>
+	<e:Group id="fourGroup" horizontalCenter="-143" visible="false">	
+		<e:Button label="" y="309" id="changeSeatBtn0" anchorOffsetX="0" anchorOffsetY="0" x="817">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="game_changeseat1" source.down="game_changeseat2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+	</e:Button>
+	<e:Button label="" y="179" id="changeSeatBtn1" x="551">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="game_changeseat1" source.down="game_changeseat2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button label="" y="309" id="changeSeatBtn2" x="281">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="game_changeseat1" source.down="game_changeseat2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	</e:Group>
+
+	<e:Group id="sixGroup" horizontalCenter="-63" visible="false">	
+		<e:Button id="sixchangeSeatBtn0" label="" y="448" anchorOffsetX="0" anchorOffsetY="0" x="1012" scaleX="0.8" scaleY="0.8">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="game_changeseat1" source.down="game_changeseat2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+	</e:Button>
+	<e:Button id="sixchangeSeatBtn1" label="" y="235" x="1012" scaleX="0.8" scaleY="0.8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="game_changeseat1" source.down="game_changeseat2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="sixchangeSeatBtn2" label="" y="190" x="795" scaleX="0.8" scaleY="0.8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="game_changeseat1" source.down="game_changeseat2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="sixchangeSeatBtn3" label="" y="190" x="353" scaleX="0.8" scaleY="0.8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="game_changeseat1" source.down="game_changeseat2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="sixchangeSeatBtn4" label="" y="320" x="130" scaleX="0.8" scaleY="0.8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="game_changeseat1" source.down="game_changeseat2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	</e:Group>
+	<e:Button id="backLobbyButton" label="" y="442" horizontalCenter="-270.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="game_back1" source.down="game_back2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="dissRoomButton" label="" y="442" horizontalCenter="269.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="game_dissroom1" source.down="game_dissroom2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="readyButton" label="" y="530" horizontalCenter="-0.5">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="game_ready1" 
+						  source.down="game_canready1" x="0" y="0" x.down="-10.28" y.down="0"/>
+
+		</e:Skin>
+	</e:Button>
+	<e:Button id="gameStartBtn" label="" y="390" horizontalCenter="0" visible="false">
+		<e:Skin states="up,down,disabled">
+		<e:Image source="bt_orange_bg"  anchorOffsetX="103" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+		<e:Image source="begin"  anchorOffsetX="103" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95" />
+		</e:Skin>
+	</e:Button>
+		<e:Button id="shareButton" label="" y="442" anchorOffsetX="0" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="game_invite1" source.down="game_invite2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+	</e:Button>
+	<e:Button id="lookButton" label="" y="674" scaleX="0.98" scaleY="0.98" right="147">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="game_look1" source.down="game_look2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" bottom="0" size="25" fontFamily="黑体" stroke="1"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:Button>
+	<e:Button id="qqhButton" label="" y="674" scaleX="0.98" scaleY="0.98" right="9">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dz_qqhbtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" bottom="0" size="25" fontFamily="黑体" stroke="1"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:Button>
+	<e:Group id="qqGroup" right="11" bottom="44" anchorOffsetY="0" height="149" width="123" visible="false">
+	<e:Image source="dz_qqhbg" x="-3" y="0" width="123" height="149"/>
+	<e:Image id="hongicon" source="dz_hongbtn" top="100"/>
+	<e:Image id="woicon" source="dz_wolaibtn" top="53"/>
+	<e:Image id="guanicon" source="dz_guanbtn" top="7"/>
+	</e:Group>
+	<e:Button id="chatButton" label="" y="478" scaleX="0.98" scaleY="0.98" right="23" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="game_chat1" source.down="game_chat2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" bottom="0" size="25" fontFamily="黑体" stroke="1"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="betteryButton" label="" left="190" top="106">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="bettery_DDZ" verticalCenter="0"/>
+			<e:Image id="image" source="betteryPercent_DDZ" verticalCenter="-0.5" width="25" x="4"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="wifiOrDataImage" source="data_DDZ" left="69" top="107"/>
+	<e:Label id="signalLabel" text="没网络" size="15" anchorOffsetY="0" left="69" top="111" textColor="0xc27436" fontFamily="Microsoft YaHei"/>
+
+
+	<e:Button id="helpBtn" label="" y="0" width="80" height="80" right="375" visible="false">
+	</e:Button>
+	<e:Group id="wefen" width="109" height="65" x="12" y="17" anchorOffsetX="0" anchorOffsetY="0">
+
+
+
+
+		<e:Image source="bg_me"/>
+		<e:Image source="text_mimg" y="17.33" x="20"/>
+		<e:BitmapLabel id="wepointBaseLabel" text="3" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" letterSpacing="-8" horizontalCenter="14.5" verticalCenter="4.5" font="daji_text_fnt"/>
+		<e:Image id="guang_we" left="-10" top="-8" source="game_rankwebg1" visible="false"/>
+	</e:Group>
+	<e:Group id="otherfen" width="103" height="65" x="225.32" y="17" anchorOffsetX="0" anchorOffsetY="0">
+
+
+
+
+		<e:Image source="bg_other" width="109"/>
+		<e:Image x="76" y="15.35" source="text_othermg"/>
+		<e:BitmapLabel id="otherpointBaseLabel" text="3" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" letterSpacing="-8" verticalCenter="2.5" horizontalCenter="15.5" font="daji_text_fnt"/>
+		<e:Image id="guang_other" left="-6" top="-10" source="game_rankwebg2" visible="false"/>
+	</e:Group>
+	<e:Group id="myInfo" width="206" height="45" x="165" y="679" anchorOffsetX="0" anchorOffsetY="0">
+
+		<e:Image id="userIcon" x="-10.64" y="4.67" scaleX="1" scaleY="1" source="user_us" visible="false"/>
+		<e:Image x="160.7" y="-1.01" scaleX="1" scaleY="1" source="buy_gold" visible="false"/>
+		<e:BitmapLabel id="chipsLabel" text="0" font="glodLittleFont_fnt" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" letterSpacing="-8" y="2" x="-25"/>
+		<e:Image id="noTimesImage0" source="interrogation" x="61" y="48" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+	<e:Group id="personal" width="892" height="100" y="503.81" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" visible="false">
+		<e:Button id="inviteFBtn" label="邀请好友" x="0.37" y="3.02" scaleX="1" scaleY="1">
+			<e:Skin states="up,down,disabled">
+			<e:Image source="invited_btn" anchorOffsetX="143" anchorOffsetY="47" x="143" y="47" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Image source="game_friend" anchorOffsetX="66" anchorOffsetY="33" x="80" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" x="90" y="29" fontFamily="黑体" anchorOffsetX="0" width="180" verticalAlign="middle" stroke="0" strokeColor="0xAAF799" scaleX.down="0.95" scaleY.down="0.95"/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="inviteQQFBtn" label="邀请QQ好友" x="306" y="2.66" scaleX="1" scaleY="1">
+			<e:Skin states="up,down,disabled">
+				<e:Image source="invited_btn" anchorOffsetX="143" anchorOffsetY="47" x="143" y="47" scaleX.down="0.95"
+				         scaleY.down="0.95" />
+				<e:Image source="QQ" anchorOffsetX="66" anchorOffsetY="33" x="80" y="46" scaleX.down="0.95" scaleY.down="0.95" />
+				<e:Label id="labelDisplay" x="90" y="29" fontFamily="黑体" anchorOffsetX="0" width="180" verticalAlign="middle"
+				         stroke="0" strokeColor="0xAAF799"  scaleX.down="0.95" scaleY.down="0.95"/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="inviteWeChatFBtn" label="邀请微信好友" x="604.3" y="2.66" scaleX="1" scaleY="1">
+			<e:Skin states="up,down,disabled">
+			<e:Image source="invited_btn" anchorOffsetX="143" anchorOffsetY="47" x="143" y="47" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Image source="wcat" anchorOffsetX="66" anchorOffsetY="33" x="80" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" x="90" y="29" fontFamily="黑体" anchorOffsetX="0" width="180" verticalAlign="middle" stroke="0" strokeColor="0xAAF799" scaleX.down="0.95" scaleY.down="0.95"/>
+			</e:Skin>
+		</e:Button>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="playLabel" text="" anchorOffsetX="0" verticalAlign="middle" fontFamily="Microsoft YaHei" size="22" bottom="12" textAlign="left" left="256" textColor="0xb7933e"/>
+
+		<e:Rect id="selectCard" width="40" height="40" fillColor="0xf23535" y="674.33" horizontalCenter="1" visible="false"/>
+
+	<e:Label id="numberOfGame" text="" y="315" anchorOffsetX="0" width="391" textAlign="center" verticalAlign="middle" fontFamily="黑体" size="24" touchEnabled="false" textColor="0xffffff" horizontalCenter="0.5"/>
+	<e:Label id="suspendPrompt" text="" y="337" anchorOffsetX="0" width="500" textAlign="center" verticalAlign="middle" fontFamily="黑体" size="24" textColor="0xd6f3c7" height="30" horizontalCenter="0"/>
+	<e:Image id="suspendIcon" source="suspend_icon" horizontalCenter="0.5" verticalCenter="-3" visible="false"/>
+	<e:Label id="timeNowLabel" text="16:00" anchorOffsetX="0" width="176" verticalAlign="middle" fontFamily="Microsoft YaHei" size="22" textAlign="left" textColor="0xc27436" left="118" top="108"/>
+	<e:Button id="noteCardBtn" label="Button" y="395.96" width="52" height="58" right="95" visible="false">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="ddz_card_count" anchorOffsetX="26" anchorOffsetY="29" x="26" y="29" scaleX.down="0.9" scaleY.down="0.9" />
+		</e:Skin>
+	</e:Button>
+	<e:Button id="gpsBtn" label="" y="675" scaleX="0.5" scaleY="0.5" anchorOffsetX="0" anchorOffsetY="0" right="329" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gps_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Label id="bottomLabel" text="" y="313" fontFamily="SimHei" horizontalCenter="0"/>
+	<e:Label id="eventInfoLabel" text="" anchorOffsetX="0" width="500" textColor="0x58e76f" size="23" textAlign="center" bottom="13" height="25" verticalAlign="middle" horizontalCenter="-17"/>
+
+
+		<e:Button id="terminationButton" label="" y="674"  touchEnabled="false" right="286">
+			<e:Skin states="up,down,disabled">
+			<!--<e:Image source="matchButton2"  horizontalCenter="0" verticalCenter="0"/>-->
+			<e:Image source="game_main_30" source.down="game_main_96" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="spButton" y="674" right="411" touchEnabled="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dz_spbtn" source.down="dz_jpbtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="hzButton" y="674" right="538" touchEnabled="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dz_hzbtn" source.down="dz_hqxbtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+</e:Skin>

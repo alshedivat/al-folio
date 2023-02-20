@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedPacketSkin_DL" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="_rect" left="0" right="0" top="0" bottom="0" alpha="0"  fillAlpha="0" strokeAlpha="0" fillColor="0xffffff"/>
+	<e:Group id="_effectGroup" width="337" height="553" horizontalCenter="0" verticalCenter="0" scaleX="0.7" scaleY="0.7">
+</e:Group>
+	<e:Button id="redpacketButton" label="Button" horizontalCenter="0" verticalCenter="0" scaleX="0.7" scaleY="0.7">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="redpacket_icon" alpha.down="0.7" />
+		</e:Skin>
+	</e:Button>
+	<e:Button id="receiveButton" label="Button" y="409" horizontalCenter="0.5" scaleX="0.7" scaleY="0.7">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="redpacket_btn1" source.down="redpacket_btn2" />
+		</e:Skin>
+	</e:Button>
+	<e:Label id="amountLabel" text="100元" textColor="0xf41536" width="200" height="50" size="50" textAlign="center" verticalAlign="middle" fontFamily="黑体" horizontalCenter="0" top="260" visible="false"/>
+</e:Skin>

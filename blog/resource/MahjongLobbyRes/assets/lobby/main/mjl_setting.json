@@ -1,0 +1,265 @@
+{
+  "file": "mjl_setting.png",
+  "frames": {
+    "activity_buttonbg1": {
+      "x": 251,
+      "y": 258,
+      "w": 331,
+      "h": 69,
+      "offX": 4,
+      "offY": 0,
+      "sourceW": 335,
+      "sourceH": 69
+    },
+    "activity_buttonbg2": {
+      "x": 251,
+      "y": 70,
+      "w": 335,
+      "h": 69,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 335,
+      "sourceH": 69
+    },
+    "activity_share1": {
+      "x": 870,
+      "y": 0,
+      "w": 71,
+      "h": 82,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 71,
+      "sourceH": 82
+    },
+    "activity_share2": {
+      "x": 532,
+      "y": 336,
+      "w": 71,
+      "h": 82,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 71,
+      "sourceH": 82
+    },
+    "lobby_setting_check": {
+      "x": 604,
+      "y": 336,
+      "w": 56,
+      "h": 56,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 56,
+      "sourceH": 56
+    },
+    "lobby_setting_checkbg": {
+      "x": 942,
+      "y": 0,
+      "w": 56,
+      "h": 56,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 56,
+      "sourceH": 56
+    },
+    "notice_buttonbg1": {
+      "x": 251,
+      "y": 140,
+      "w": 333,
+      "h": 69,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 337,
+      "sourceH": 69
+    },
+    "notice_buttonbg2": {
+      "x": 251,
+      "y": 0,
+      "w": 337,
+      "h": 69,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 337,
+      "sourceH": 69
+    },
+    "notice_imgbg": {
+      "x": 0,
+      "y": 0,
+      "w": 250,
+      "h": 498,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 250,
+      "sourceH": 498
+    },
+    "setdice": {
+      "x": 789,
+      "y": 156,
+      "w": 50,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 50,
+      "sourceH": 55
+    },
+    "setting_bar_bg_new": {
+      "x": 251,
+      "y": 210,
+      "w": 488,
+      "h": 47,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 488,
+      "sourceH": 47
+    },
+    "setting_bar_new": {
+      "x": 251,
+      "y": 466,
+      "w": 77,
+      "h": 42,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 77,
+      "sourceH": 42
+    },
+    "setting_btn_logout_1": {
+      "x": 589,
+      "y": 0,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "setting_btn_logout_2": {
+      "x": 251,
+      "y": 401,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "setting_btn_restart_1": {
+      "x": 589,
+      "y": 65,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "setting_btn_restart_2": {
+      "x": 587,
+      "y": 130,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "setting_btn_yellow": {
+      "x": 251,
+      "y": 328,
+      "w": 278,
+      "h": 72,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 278,
+      "sourceH": 72
+    },
+    "setting_cbox_bg": {
+      "x": 369,
+      "y": 466,
+      "w": 39,
+      "h": 39,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 40,
+      "sourceH": 42
+    },
+    "setting_cbox_sel": {
+      "x": 329,
+      "y": 466,
+      "w": 39,
+      "h": 42,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 40,
+      "sourceH": 42
+    },
+    "setting_max_music_sign_new": {
+      "x": 791,
+      "y": 0,
+      "w": 78,
+      "h": 77,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 78,
+      "sourceH": 77
+    },
+    "setting_max_sound_sign_new": {
+      "x": 583,
+      "y": 258,
+      "w": 78,
+      "h": 77,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 78,
+      "sourceH": 77
+    },
+    "setting_min_music_sign_new": {
+      "x": 453,
+      "y": 401,
+      "w": 78,
+      "h": 77,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 78,
+      "sourceH": 77
+    },
+    "setting_min_sound_sign_new": {
+      "x": 791,
+      "y": 78,
+      "w": 78,
+      "h": 77,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 78,
+      "sourceH": 77
+    },
+    "setting_word_set": {
+      "x": 662,
+      "y": 258,
+      "w": 105,
+      "h": 49,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 105,
+      "sourceH": 49
+    },
+    "xuanze_di": {
+      "x": 409,
+      "y": 466,
+      "w": 37,
+      "h": 39,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 38,
+      "sourceH": 40
+    },
+    "xuanze_lv": {
+      "x": 740,
+      "y": 195,
+      "w": 33,
+      "h": 33,
+      "offX": 1,
+      "offY": 3,
+      "sourceW": 38,
+      "sourceH": 40
+    }
+  }
+}

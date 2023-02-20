@@ -1,0 +1,45 @@
+{
+  "file": "chatPanel_2d5.png",
+  "frames": {
+    "chatBg_2d5": {
+      "x": 0,
+      "y": 0,
+      "w": 912,
+      "h": 610,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 912,
+      "sourceH": 610
+    },
+    "cutline_2d5": {
+      "x": 0,
+      "y": 767,
+      "w": 27,
+      "h": 10,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 27,
+      "sourceH": 10
+    },
+    "sendBtn_2d5_1": {
+      "x": 0,
+      "y": 611,
+      "w": 188,
+      "h": 77,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 188,
+      "sourceH": 77
+    },
+    "sendBtn_2d5_2": {
+      "x": 0,
+      "y": 689,
+      "w": 188,
+      "h": 77,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 188,
+      "sourceH": 77
+    }
+  }
+}

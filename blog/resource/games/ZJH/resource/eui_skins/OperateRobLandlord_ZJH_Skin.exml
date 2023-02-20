@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OperateRobLandlord_ZJH_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="171">
+	<e:Group id="robLordGroup" anchorOffsetX="0" width="536" horizontalCenter="1" bottom="0" height="75">
+		<e:Button id="passButton" label="" width="154" height="75" verticalCenter="0">
+			<e:Skin states="up,down,disabled">
+			<e:Image source="bt_green_bg" source.disabled="bt_gray_bg" anchorOffsetX="103" anchorOffsetY="46" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image anchorOffsetX="103" anchorOffsetY="46" scaleX.down="0.95" scaleY.down="0.95" source="wrnn_text_buqiang" horizontalCenter="0" verticalCenter="-7"/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="landlordButton" label="" width="154" height="75" verticalCenter="0" right="0">
+			<e:Skin states="up,down,disabled">
+			<e:Image source="bt_orange_bg" source.disabled="bt_gray_bg" anchorOffsetX="103" anchorOffsetY="46" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="orange_call_landlord" anchorOffsetX="103" anchorOffsetY="46" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="-7"/>
+			</e:Skin>
+		</e:Button>
+
+
+	</e:Group>
+	<e:Group id="callLordGroup" anchorOffsetX="0" horizontalCenter="0" bottom="0" visible="false">
+		<e:Button id="passCallButton" label="" verticalCenter="0.5" width="154" height="75" name="0" horizontalCenter="-400">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="bt_green_bg"  scaleX.down="0.9" scaleY.down="0.9"  source.down="bt_green_bg" source.disabled="bt_gray_bg" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image anchorOffsetX="103" anchorOffsetY="46" source="wrnn_text_buqiang" horizontalCenter="0" verticalCenter="-5"/>
+
+
+		</e:Skin>
+		</e:Button>
+		<e:Button id="callScoreButton1" label="" verticalCenter="0" y="10" horizontalCenter="-240" width="154" height="75" name="1">
+			<e:Skin states="up,down,disabled">
+			<e:Image source.down="bt_green_bg"  scaleX.down="0.9" scaleY.down="0.9"  source.disabled="bt_gray_bg" source="bt_green_bg" horizontalCenter="0" verticalCenter="0"/>
+	<e:BitmapLabel text="1倍" horizontalCenter="0" verticalCenter="-5" font="wrnn_bet_fnt"/>
+
+			</e:Skin>
+		</e:Button>
+		<e:Button id="callScoreButton2" label="" verticalCenter="0" horizontalCenter="-80" width="154" height="75" name="2">
+			<e:Skin states="up,down,disabled">
+			<e:Image source.down="bt_green_bg" scaleX.down="0.9" scaleY.down="0.9" source.disabled="bt_gray_bg" source="bt_green_bg" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel text="2倍" horizontalCenter="0" verticalCenter="-5" font="wrnn_bet_fnt"/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="callScoreButton3" label="" verticalCenter="0" horizontalCenter="80" width="154" height="75" name="3">
+		<e:Skin states="up,down,disabled">
+			<e:Image source.down="bt_green_bg"  scaleX.down="0.9" scaleY.down="0.9"  source.disabled="bt_gray_bg" source="bt_green_bg" horizontalCenter="0" verticalCenter="0"/>
+	<e:BitmapLabel text="3倍" horizontalCenter="0" verticalCenter="-5" font="wrnn_bet_fnt"/>
+
+		</e:Skin>
+		</e:Button>
+		<e:Button id="callScoreButton4" label="" verticalCenter="0" horizontalCenter="240" width="154" height="75" name="4">
+		<e:Skin states="up,down,disabled">
+			<e:Image source.down="bt_green_bg" scaleX.down="0.9" scaleY.down="0.9" source.disabled="bt_gray_bg" source="bt_green_bg" horizontalCenter="0" verticalCenter="0"/>
+	<e:BitmapLabel text="4倍" horizontalCenter="0" verticalCenter="-5" font="wrnn_bet_fnt"/>
+		</e:Skin>
+		</e:Button>
+		<e:Button id="callScoreButton5" label="" verticalCenter="0" horizontalCenter="400" width="154" height="75" name="5">
+			<e:Skin states="up,down,disabled">
+			<e:Image source.down="bt_green_bg" scaleX.down="0.9" scaleY.down="0.9" source.disabled="bt_gray_bg" source="bt_green_bg" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel text="5倍" horizontalCenter="0" verticalCenter="-5" font="wrnn_bet_fnt"/>
+			</e:Skin>
+		</e:Button>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+
+	</e:Group>
+	<e:Group id="kickPlayGroup" horizontalCenter="0" height="102" anchorOffsetX="0" width="442" bottom="0" visible="false">
+		<e:Button id="kickPlayButton" label="踢" x="4.67" verticalCenter="0.5" width="154" height="75">
+			<e:Skin states="up,down,disabled">
+				<e:Image source="bt_green_bg" source.down="bt_green_bg"  scaleX.down="0.9" scaleY.down="0.9"  source.disabled="bt_gray_bg"  horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="黑体" size="40" />
+			</e:Skin>
+		</e:Button>
+		<e:Button id="noKickButton" label="不踢" x="230" scaleX="1" scaleY="1" verticalCenter="0" width="154" height="75">
+			<e:Skin states="up,down,disabled">
+				<e:Image source="bt_orange_bg"  scaleX.down="0.9" scaleY.down="0.9"  source.down="bt_orange_bg" source.disabled="bt_gray_bg"  horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="黑体" size="40" />
+			</e:Skin>
+		</e:Button>
+	</e:Group>
+	<e:Image horizontalCenter="0.5" top="48" source="wrnn_location_checkTextBg"/>
+	<e:Label text="请抢庄" size="32" fontFamily="Microsoft YaHei" top="53" horizontalCenter="0.5"/>
+</e:Skin>

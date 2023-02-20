@@ -1,0 +1,105 @@
+{
+  "file": "setting_TDK.png",
+  "frames": {
+    "dismiss_TDK1": {
+      "x": 0,
+      "y": 0,
+      "w": 176,
+      "h": 58,
+      "offX": 5,
+      "offY": 0,
+      "sourceW": 185,
+      "sourceH": 59
+    },
+    "dismiss_TDK2": {
+      "x": 0,
+      "y": 59,
+      "w": 176,
+      "h": 58,
+      "offX": 5,
+      "offY": 0,
+      "sourceW": 185,
+      "sourceH": 59
+    },
+    "exitGame_btn_TDK1": {
+      "x": 0,
+      "y": 118,
+      "w": 169,
+      "h": 51,
+      "offX": 8,
+      "offY": 4,
+      "sourceW": 185,
+      "sourceH": 59
+    },
+    "exitGame_btn_TDK2": {
+      "x": 0,
+      "y": 170,
+      "w": 169,
+      "h": 51,
+      "offX": 8,
+      "offY": 4,
+      "sourceW": 185,
+      "sourceH": 59
+    },
+    "setting_check_TDK": {
+      "x": 170,
+      "y": 165,
+      "w": 38,
+      "h": 38,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 38,
+      "sourceH": 38
+    },
+    "setting_checkbg_TDK": {
+      "x": 177,
+      "y": 48,
+      "w": 67,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 67,
+      "sourceH": 67
+    },
+    "setting_music_TDK": {
+      "x": 279,
+      "y": 0,
+      "w": 53,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 54,
+      "sourceH": 56
+    },
+    "setting_poker_TDK": {
+      "x": 333,
+      "y": 0,
+      "w": 42,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 42,
+      "sourceH": 55
+    },
+    "setting_sound_TDK": {
+      "x": 170,
+      "y": 118,
+      "w": 53,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 53,
+      "sourceH": 46
+    },
+    "setting_title_TDK": {
+      "x": 177,
+      "y": 0,
+      "w": 101,
+      "h": 47,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 101,
+      "sourceH": 47
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "file": "public_client.png",
+  "frames": {
+    "public_client1": {
+      "x": 304,
+      "y": 424,
+      "w": 119,
+      "h": 49,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 121,
+      "sourceH": 51
+    },
+    "public_client2": {
+      "x": 572,
+      "y": 0,
+      "w": 118,
+      "h": 177,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 118,
+      "sourceH": 177
+    },
+    "public_client3": {
+      "x": 0,
+      "y": 0,
+      "w": 571,
+      "h": 210,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 573,
+      "sourceH": 210
+    },
+    "public_client4": {
+      "x": 0,
+      "y": 211,
+      "w": 474,
+      "h": 85,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 474,
+      "sourceH": 85
+    },
+    "public_client5": {
+      "x": 691,
+      "y": 89,
+      "w": 86,
+      "h": 88,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 87,
+      "sourceH": 88
+    },
+    "public_client6": {
+      "x": 424,
+      "y": 424,
+      "w": 45,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 45,
+      "sourceH": 46
+    },
+    "public_client7": {
+      "x": 505,
+      "y": 346,
+      "w": 45,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 45,
+      "sourceH": 46
+    },
+    "public_client8": {
+      "x": 782,
+      "y": 0,
+      "w": 74,
+      "h": 72,
+      "offX": 5,
+      "offY": 3,
+      "sourceW": 82,
+      "sourceH": 78
+    },
+    "public_client9": {
+      "x": 691,
+      "y": 0,
+      "w": 90,
+      "h": 88,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 90,
+      "sourceH": 88
+    },
+    "result_shuffleBtn1": {
+      "x": 0,
+      "y": 297,
+      "w": 303,
+      "h": 101,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 303,
+      "sourceH": 101
+    },
+    "result_shuffleBtn2": {
+      "x": 0,
+      "y": 399,
+      "w": 303,
+      "h": 101,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 303,
+      "sourceH": 101
+    },
+    "shuffle_bg": {
+      "x": 304,
+      "y": 297,
+      "w": 407,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 407,
+      "sourceH": 48
+    },
+    "wn_result_shuffleBtn1": {
+      "x": 304,
+      "y": 346,
+      "w": 200,
+      "h": 77,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 200,
+      "sourceH": 77
+    },
+    "wn_result_shuffleBtn2": {
+      "x": 475,
+      "y": 211,
+      "w": 200,
+      "h": 77,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 200,
+      "sourceH": 77
+    }
+  }
+}

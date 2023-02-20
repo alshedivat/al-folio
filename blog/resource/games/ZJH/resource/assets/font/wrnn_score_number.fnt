@@ -1,0 +1,14 @@
+{"file":"wrnn_score_number.png","frames":{
+"9":{"x":21,"y":0,"w":14,"h":20,"offX":0,"offY":0,"sourceW":14,"sourceH":20},
+"万":{"x":0,"y":0,"w":19,"h":19,"offX":0,"offY":1,"sourceW":19,"sourceH":20},
+".":{"x":16,"y":50,"w":6,"h":6,"offX":4,"offY":13,"sourceW":14,"sourceH":20},
+"-":{"x":16,"y":44,"w":9,"h":4,"offX":3,"offY":9,"sourceW":14,"sourceH":20},
+"0":{"x":37,"y":0,"w":14,"h":20,"offX":0,"offY":0,"sourceW":14,"sourceH":20},
+"1":{"x":53,"y":0,"w":9,"h":20,"offX":1,"offY":0,"sourceW":14,"sourceH":20},
+"2":{"x":16,"y":22,"w":14,"h":20,"offX":0,"offY":0,"sourceW":14,"sourceH":20},
+"3":{"x":48,"y":43,"w":12,"h":20,"offX":1,"offY":0,"sourceW":14,"sourceH":20},
+"4":{"x":32,"y":22,"w":14,"h":19,"offX":0,"offY":1,"sourceW":14,"sourceH":20},
+"5":{"x":32,"y":43,"w":12,"h":19,"offX":1,"offY":1,"sourceW":14,"sourceH":20},
+"6":{"x":0,"y":43,"w":14,"h":20,"offX":0,"offY":0,"sourceW":14,"sourceH":20},
+"7":{"x":48,"y":22,"w":14,"h":19,"offX":0,"offY":1,"sourceW":14,"sourceH":20},
+"8":{"x":0,"y":21,"w":14,"h":20,"offX":0,"offY":0,"sourceW":14,"sourceH":20}}}

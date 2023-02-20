@@ -1,0 +1,185 @@
+{
+  "file": "lb_prelaoding_res.png",
+  "frames": {
+    "lb_loading_darkLine": {
+      "x": 264,
+      "y": 284,
+      "w": 418,
+      "h": 38,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 418,
+      "sourceH": 38
+    },
+    "lb_loading_lightLine": {
+      "x": 568,
+      "y": 161,
+      "w": 28,
+      "h": 23,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 28,
+      "sourceH": 23
+    },
+    "lb_loadPanel_quan_png": {
+      "x": 528,
+      "y": 59,
+      "w": 101,
+      "h": 101,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 101,
+      "sourceH": 101
+    },
+    "lb_loadPanel_taoxin_png": {
+      "x": 522,
+      "y": 161,
+      "w": 45,
+      "h": 47,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 45,
+      "sourceH": 47
+    },
+    "lb_loadPanel_word_png": {
+      "x": 264,
+      "y": 410,
+      "w": 161,
+      "h": 24,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 161,
+      "sourceH": 24
+    },
+    "lobby_Wait_png": {
+      "x": 630,
+      "y": 95,
+      "w": 33,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 33,
+      "sourceH": 34
+    },
+    "mjl_login_chenk": {
+      "x": 630,
+      "y": 59,
+      "w": 42,
+      "h": 35,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 42,
+      "sourceH": 35
+    },
+    "mjl_login_chenkbg": {
+      "x": 264,
+      "y": 435,
+      "w": 33,
+      "h": 35,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 33,
+      "sourceH": 35
+    },
+    "mjl_login_phone1": {
+      "x": 0,
+      "y": 59,
+      "w": 263,
+      "h": 86,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 263,
+      "sourceH": 86
+    },
+    "mjl_login_phone2": {
+      "x": 0,
+      "y": 146,
+      "w": 263,
+      "h": 86,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 263,
+      "sourceH": 86
+    },
+    "mjl_login_wx1": {
+      "x": 0,
+      "y": 233,
+      "w": 263,
+      "h": 86,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 263,
+      "sourceH": 86
+    },
+    "mjl_login_wx2": {
+      "x": 0,
+      "y": 320,
+      "w": 263,
+      "h": 86,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 263,
+      "sourceH": 86
+    },
+    "mjl_loginbtn1": {
+      "x": 264,
+      "y": 146,
+      "w": 257,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 257,
+      "sourceH": 68
+    },
+    "mjl_loginbtn2": {
+      "x": 264,
+      "y": 215,
+      "w": 257,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 257,
+      "sourceH": 68
+    },
+    "mjl_loginxianbtn1": {
+      "x": 264,
+      "y": 59,
+      "w": 263,
+      "h": 86,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 263,
+      "sourceH": 86
+    },
+    "mjl_loginxianbtn2": {
+      "x": 0,
+      "y": 407,
+      "w": 263,
+      "h": 86,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 263,
+      "sourceH": 86
+    },
+    "refreshNet": {
+      "x": 264,
+      "y": 323,
+      "w": 182,
+      "h": 86,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 182,
+      "sourceH": 86
+    },
+    "tipsBg": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 58,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 800,
+      "sourceH": 58
+    }
+  }
+}

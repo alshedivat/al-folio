@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchFightingItemSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="164" width="966">
+	<e:Image y="0" source="hist_item_bg" scale9Grid="15,57,94,60" height="164" left="0" right="0"/>
+	<e:Label id="tableNoLabel" text="卓1" y="18" size="22" fontFamily="SimHei" textColor="0x7d2f00" x="38"/>
+	<e:Label text="姓名" x="32" size="22" textColor="0x1e4da5" fontFamily="SimHei" top="65" visible="false"/>
+	<e:Label text="ID" x="32" size="22" textColor="0x1E4DA5" fontFamily="SimHei" top="96" visible="false"/>
+	<e:Label text="分数" x="32" size="22" textColor="0x1e4da5" fontFamily="SimHei" top="125" visible="false"/>
+	<e:Label id="tableIdLabel" text="桌号" y="18" textAlign="center" size="22" fontFamily="SimHei" textColor="0x7d2f00" x="137"/>
+	<e:Label id="timeLabel" text="123456" y="18" right="100" size="22" height="25" fontFamily="SimHei" textColor="0x7d2f00"/>
+	<e:Group id="nameGroup" width="846" height="30" anchorOffsetY="0" x="30" top="63">
+
+	</e:Group>
+	<e:Group id="idGroup" width="846" height="30" anchorOffsetX="0" anchorOffsetY="0" x="30" top="100">
+		<e:layout>
+		<e:HorizontalLayout gap="10"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="scoreGroup" width="846" height="30" anchorOffsetX="0" anchorOffsetY="0" top="130" x="30">
+		<e:layout>
+			<e:HorizontalLayout gap="10"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="recordDeleteButton" label="" top="0" right="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="matchdelhistory1" source.down="matchdelhistory2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+</e:Skin>

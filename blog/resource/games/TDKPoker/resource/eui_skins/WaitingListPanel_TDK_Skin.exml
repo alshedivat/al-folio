@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WaitingListPanel_TDK_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="_close_btn" fillAlpha="0.2" left="0" right="0" top="0" bottom="0"/>
+	<e:Group id="setGroup" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" height="100%" width="479" x="0">
+		<e:Image anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1"  source="dlm_g_bbbg_png" x="-14" bottom="4"/>
+		<e:Scroller width="465" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="11" height="557" y="110">
+			<e:List id="userList" anchorOffsetX="0" itemRendererSkinName="WaitingListItemPanel_TDK_Skin" anchorOffsetY="0" x="1.52" y="1.52">
+			<e:layout>
+				<e:VerticalLayout gap="23"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

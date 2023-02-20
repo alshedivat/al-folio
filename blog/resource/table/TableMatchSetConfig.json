@@ -1,0 +1,236 @@
+[
+    [
+        {
+            "title": "修改名称",
+            "btnType": 1,
+            "info": "设置修改包厢的名称",
+            "key": "name",
+            "value": "",
+            "checkType": 3,
+            "checkList": [
+                {
+                    "label": "输入包厢名称"
+                }
+            ]
+        },
+        {
+            "title": "加入设置",
+            "btnType": 1,
+            "key": "needAgree",
+            "value": 1,
+            "checkType": 1,
+            "checkList": [
+                {
+                    "label": "加入包厢需要审核",
+                    "value": 1
+                },
+                {
+                    "label": "加入包厢不需要审核",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "title": "房主微信",
+            "btnType": 1,
+            "key": "wechat",
+            "value": "",
+            "checkType": 3,
+            "checkList": [
+                {
+                    "label": "输入房主微信"
+                }
+            ]
+        }
+    ],
+    [   {
+            "title": "修改玩法",
+            "btnType": 2,
+            "key": "proplist",
+            "value": "",
+            "info": "修改游戏玩法"
+        },
+        {
+            "title": "入桌准备",
+            "btnType": 1,
+            "key": "readyType",
+            "value": "",
+            "info": "入桌后准备方式",
+            "checkType": 2,
+            "checkList": [
+                {
+                    "label": "入桌自动准备"
+                }
+            ]
+        },
+        {
+            "title": "未准备踢出牌桌",
+            "btnType": 1,
+            "key": "readyTime",
+            "value": "",
+            "info": "超时不准备自动踢出牌桌,不填表示系统默认,其他填秒数",
+            "checkType": 4,
+            "checkList": [
+                {
+                    "list": [
+                        {
+                            "label": "默认",
+                            "value": -1
+                        },
+                        {
+                            "label": "20秒",
+                            "value": 20
+                        },
+                        {
+                            "label": "30秒",
+                            "value": 30
+                        },
+                        {
+                            "label": "40秒",
+                            "value": 40
+                        },
+                        {
+                            "label": "50秒",
+                            "value": 50
+                        },
+                        {
+                            "label": "60秒",
+                            "value": 60
+                        },
+                        {
+                            "label": "5分钟",
+                            "value": 300
+                        },
+                        {
+                            "label": "10分钟",
+                            "value": 600
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "礼物(炸弹/砖头)",
+            "btnType": 1,
+            "key": "disableGift",
+            "value": "",
+            "info": "桌内使用(炸弹/砖头)",
+            "checkType": 1,
+            "checkList": [
+                {
+                    "label": "开启",
+                    "value": 0
+                },
+                {
+                    "label": "关闭",
+                    "value": 1
+                }
+            ]
+        },
+                {
+            "title": "桌内语音",
+            "btnType": 1,
+            "key": "disableVoice",
+            "value": "",
+            "info": "桌内使用语音",
+            "checkType": 1,
+            "checkList": [
+                {
+                    "label": "开启",
+                    "value": 0
+                },
+                {
+                    "label": "关闭",
+                    "value": 1
+                }
+            ]
+        },
+                        {
+            "title": "桌内聊天",
+            "btnType": 1,
+            "key": "disableChat",
+            "value": "",
+            "info": "桌内使用聊天",
+            "checkType": 1,
+            "checkList": [
+                {
+                    "label": "开启",
+                    "value": 0
+                },
+                {
+                    "label": "关闭",
+                    "value": 1
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "title": "显示排行",
+            "btnType": 1,
+            "key": "showOrder",
+            "value": 0,
+            "checkType": 1,
+            "checkList": [
+                {
+                    "label": "管理员可见",
+                    "value": 0
+                },
+                {
+                    "label": "玩家可见",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "title": "已开牌局显示",
+            "btnType": 1,
+            "key": "showPlayingTable",
+            "checkType": 4,
+            "info": "配置显示已开的牌桌显示数量",
+            "checkList": [
+                {
+                    "list": [
+                        {
+                            "label": "默认",
+                            "value": -1
+                        },
+                        {
+                            "label": "3桌",
+                            "value": 3
+                        },
+                        {
+                            "label": "5桌",
+                            "value": 5
+                        },
+                        {
+                            "label": "10桌",
+                            "value": 10
+                        },
+                        {
+                            "label": "20桌",
+                            "value": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "云战绩",
+            "btnType": 1,
+            "key": "showBooking",
+            "value": 1,
+            "checkType": 1,
+            "checkList": [
+                {
+                    "label": "开启",
+                    "value": 1
+                },
+                {
+                    "label": "关闭",
+                    "value": 0
+                }
+            ]
+        }
+    ]
+]

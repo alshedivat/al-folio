@@ -1,0 +1,5 @@
+[
+{"id":1,"gameId":5014,"gameName":"百人牛牛","moneyType":1,"moneyName":"金币","stock":20000,"stockThreshold":20000,"stockBoss":0,"profitPercent":0,"bonusPercent":0,"pumpPercent":200},
+{"id":2,"gameId":5015,"gameName":"百家乐","moneyType":1,"moneyName":"金币","stock":0,"stockThreshold":20000,"stockBoss":0,"profitPercent":0,"bonusPercent":0,"pumpPercent":0},
+{"id":3,"gameId":5018,"gameName":"车行争霸","moneyType":1,"moneyName":"金币","stock":10000,"stockThreshold":20000,"stockBoss":0,"profitPercent":0,"bonusPercent":0,"pumpPercent":200}
+]

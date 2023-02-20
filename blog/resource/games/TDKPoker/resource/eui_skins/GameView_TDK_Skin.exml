@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameView_TDK_Skin" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="1280">
+	<w:Config id="15bccfd0ad2" />
+	<e:Image id="tableclothImage"  source="roombg_TDK_png" left="0" right="0" top="1" bottom="-1"/>
+	<e:Group id="playTypeGroup" width="971.34" height="79.33" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-83.5" horizontalCenter="0">
+		<e:layout>
+		<e:HorizontalLayout gap="5" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="roomNumber" text="房号:9999999" x="5" y="15" anchorOffsetX="0" size="28" fontFamily="Microsoft YaHei"/>
+	<e:Label id="roomRound" text="第5/10局" x="5" y="55.32" anchorOffsetX="0" width="162" size="28" bold="true" textColor="0xffffff"/>
+	<e:Image source="bottombar_common_bg_TDK" y="5" anchorOffsetX="0" width="251.33" scale9Grid="23,12,41,18" horizontalCenter="240"/>
+	<e:Image height="52" bottom="0"  source="bottombar_bg_png" left="0" right="0" scale9Grid="156,6,576,39"/>
+	<e:Button id="backLobbyBtn" label="" y="295.16" horizontalCenter="-282">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="orange_btn_big" source.disabled="bt_gray_bg" anchorOffsetX="124" anchorOffsetY="47" x="124" y="47"
+						scaleX.down="0.95" scaleY.down="0.95" />
+			<e:Image source="back_lobby" source.disabled="orange_out_card_gray" anchorOffsetX="124" anchorOffsetY="47"
+						x="124" y="50" scaleX.down="0.95" scaleY.down="0.95" />
+		</e:Skin>
+	</e:Button>
+	<e:Button id="dissRoomBtn" label="" y="295.16" horizontalCenter="284">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="orange_btn_big" source.disabled="bt_gray_bg" anchorOffsetX="124" anchorOffsetY="47" x="124" y="47"
+					scaleX.down="0.95" scaleY.down="0.95" />
+			<e:Image source="dissolve_room" source.disabled="orange_out_card_gray" anchorOffsetX="124" anchorOffsetY="46" x="124"
+					y="50" scaleX.down="0.95" scaleY.down="0.95" />
+		</e:Skin>
+	</e:Button>
+	<e:Button id="readyBtn" label="" horizontalCenter="0" verticalCenter="171">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="orange_btn_big" source.disabled="bt_gray_bg" anchorOffsetX="124" anchorOffsetY="47"
+						scaleX.down="0.95" scaleY.down="0.95"  horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ready_btn" source.disabled="orange_out_card_gray" anchorOffsetX="124" anchorOffsetY="47"
+					 scaleX.down="0.95" scaleY.down="0.95" source.down="cancle_ready" horizontalCenter.down="0" verticalCenter.down="0" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</e:Button>
+	<e:Button id="startGameButton" label="" y="391.15" horizontalCenter="0">
+		<e:Skin states="up,down,disabled">
+		<e:Image source="orange_btn_big" source.disabled="bt_gray_bg" anchorOffsetX="124" anchorOffsetY="47" x="124" y="47" scaleX.down="0.95" scaleY.down="0.95"/>
+		<e:Image source.disabled="orange_out_card_gray" anchorOffsetX="124" anchorOffsetY="47" x="124" y="50" scaleX.down="0.95" scaleY.down="0.95" source.down="cancle_ready" source="start_game"/>
+		</e:Skin>
+	</e:Button>
+	<e:Button id="changeBtn" label="" y="482.35" horizontalCenter="-271" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="buttons_TDK_json.orange_btn_big" width.down="99%" height.down="99%"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="buttons_TDK_json.change_icon" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="seatDownBtn" label="" y="483.61" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="orange_btn_big" source.disabled="bt_gray_bg" anchorOffsetX="124" anchorOffsetY="47" x="124" y="47" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Image source="sit_down_btn" source.disabled="bt_gray_bg" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+		<e:Button id="shareBtn" label="" y="295.16" width="310" height="94" anchorOffsetX="0" horizontalCenter="0">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="green_btn_big" source.disabled="bt_gray_bg" width="310" height="94" anchorOffsetX="155" anchorOffsetY="47" x="155" y="47"
+						scaleX.down="0.95" scaleY.down="0.95"  scale9Grid="41,17,167,40"/>
+			<e:Image source="weixin_invite" source.disabled="orange_out_card_gray" anchorOffsetX="130" anchorOffsetY="24" x="154"
+						y="43" scaleX.down="0.95" scaleY.down="0.95" />
+		</e:Skin>
+	</e:Button>
+	<e:Button id="chatBtn" label="" y="671.99" right="22">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chat" source.down="chat" width.down="95%" height.down="95%" />
+				<e:Label id="labelDisplay" horizontalCenter="0" bottom="0" size="25" fontFamily="黑体" stroke="1" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="betteryButton" label="" y="685" right="156">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="bettery_TDK" verticalCenter="0"/>
+			<e:Image id="image" source="betteryPercent_TDK" verticalCenter="0" width="25"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="gpsBtn" label="" x="158.88" y="597.9" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gps_2" source.down="gps_1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Image id="wifiOrDataImage" y="686" source="data_TDK" right="222"/>
+	<e:Label id="signalLabel" text="没网络" y="688" size="13" anchorOffsetY="0" right="209"/>
+	<e:Button id="setBtn" label="" y="6" right="102">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="tool_button_bg" anchorOffsetX="40" anchorOffsetY="40" x="40" y="40" scaleX.down="0.95"
+			         scaleY.down="0.95" />
+			<e:Image source="tool_set" anchorOffsetX="40" anchorOffsetY="40" x="40" y="40" scaleX.down="0.95" scaleY.down="0.95" />
+		</e:Skin>
+	</e:Button>
+	<e:Button id="trusteeshipBtn" label="" y="6" right="196" visible="false">
+		<e:Skin states="up,down,disabled">
+		<e:Image source="tool_button_bg" anchorOffsetX="40" anchorOffsetY="40" x="40" y="40" scaleX.down="0.95" scaleY.down="0.95"/>
+		<e:Image source="tool_ai" anchorOffsetX="40" anchorOffsetY="40" x="40" y="40" scaleX.down="0.95" scaleY.down="0.95"/>
+		</e:Skin>
+	</e:Button>
+
+	<e:Button id="helpBtn" label="" y="6" right="8">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="tool_button_bg" anchorOffsetX="40" anchorOffsetY="40" x="40" y="40" scaleX.down="0.95"
+			         scaleY.down="0.95" />
+			<e:Image source="tool_help" anchorOffsetX="40" anchorOffsetY="40" x="40" y="40" scaleX.down="0.95" scaleY.down="0.95" />
+		</e:Skin>
+	</e:Button>
+
+
+	<e:Group id="myInfo" width="206" height="45" x="160" y="671.33" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="bottombar_common_bg_TDK" x="14" y="0" anchorOffsetX="0" width="194.66" scale9Grid="23,12,41,18"/>
+		<e:Image x="-2.66" y="0" scaleX="1" scaleY="1" source="bottombar_gold"/>
+		<e:Image x="160.7" y="-1.01" scaleX="1" scaleY="1" source="buy_gold" visible="false"/>
+		<e:BitmapLabel id="chipsLabel" y="11.75" text="800000" font="glodLittleFont_fnt" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8" letterSpacing="-8" x="43.69"/>
+		<e:Image id="noTimesImage0" source="interrogation" x="61" y="48" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+	<e:Image id="suspendPrompt" top="318" source="tdk_delay_pause" horizontalCenter="-5" visible="false"/>
+	<e:Label id="timeNowLabel" text="" y="13.03" anchorOffsetX="0" width="200" textAlign="center" verticalAlign="middle" fontFamily="黑体" anchorOffsetY="0" height="-7" horizontalCenter="240"/>
+		<e:Rect id="selectCard" width="40" height="40" fillColor="0xf23535" y="6.5" right="220"/>
+
+
+	<e:Image source="operate_bg_png" y="624.04" anchorOffsetY="0" height="93" left="300" right="264"/>
+
+	<e:Image id="cancelTrustBtn" source="buttons_TDK_json.hosting_cancle_img" horizontalCenter="0" bottom="30" visible="false"/>
+	<e:Button id="playerListBtn" label="" left="0" top="440">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tdk_list_btn1" source.down="tdk_list_btn2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="guanzhanGroup" width="716" height="93" y="624" horizontalCenter="18">
+		<e:Image source="gz_text_image" verticalCenter="0" horizontalCenter="-141"/>
+		<e:Button id="quitGzButton" label="" scaleX="1" scaleY="1" horizontalCenter="168.5" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image verticalCenter="0" horizontalCenter="0" source="quitgz_button1" source.down="quitgz_button2" source.disabled="quitgz_button2"/>
+				<e:Label id="labelDisplay" left="0" right="0" top="0" bottom="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-160.5" top="0">
+		<e:Image source="base_point_bg_png" top="0" scaleX="1" scaleY="1" left="0" right="0" bottom="0"/>
+		<e:Label id="tabPointLable" text="0" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" size="28" top="16" textColor="0xc64e38" y="16" scaleX="1" scaleY="1" left="150"/>
+		<e:Label id="happyPointLable" text="0" anchorOffsetX="0" anchorOffsetY="0" size="28" fontFamily="Microsoft YaHei" top="16" textColor="0xc64e38" horizontalCenter="150" x="411" y="16" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+</e:Skin>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZZ_MsgBoxSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="829" height="526">
+	<e:Image scale9Grid="23,16,34,35" anchorOffsetY="0" anchorOffsetX="5.24" source="game_common2" y="0" x="5.24"/>
+	<e:Label id="desLabel" text="特殊规则" y="89.67" fontFamily="Microsoft YaHei" size="30" anchorOffsetX="0" width="612.66" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="225.01" horizontalCenter="0" textColor="0xffffff"/>
+	<e:Label id="titleLabel" text="标题" y="6.65" textColor="0xFFFFFF" fontFamily="Microsoft YaHei" size="35" anchorOffsetX="0" width="525.99" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="66.35" horizontalCenter="0" bold="true"/>
+	<e:Button id="closeBtn" label="" skinName="ZZ_CloseButtonSkin" anchorOffsetX="0" width="139.33" anchorOffsetY="0" height="75.66" x="689.67" y="0">
+	</e:Button>
+	<e:Group id="btnsGroup" width="610.67" height="93" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="122.5" horizontalCenter="0">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="145"/>
+		</e:layout>
+		<e:Button id="yesBtn" x="362.02" y="556.07" anchorOffsetX="0" anchorOffsetY="0" width="227" height="77">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="game_common4"  scaleX.down="0.9" scaleY.down="0.9" verticalCenter="0" horizontalCenter="0"/>
+				<e:Label id="labelDisplay" verticalCenter="0" right="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="noBtn" x="692.84" y="556.07" anchorOffsetX="0" anchorOffsetY="0" width="227" height="77">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="game_common5"  scaleX.down="0.9" scaleY.down="0.9" verticalCenter="0" horizontalCenter="0"/>
+				<e:Label id="labelDisplay" verticalCenter="0" right="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

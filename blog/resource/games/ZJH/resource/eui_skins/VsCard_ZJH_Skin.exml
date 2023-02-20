@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VsCard_ZJH_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="vsbg_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Group id="leftCardGroup" height="180" verticalCenter="0" left="224">
+	</e:Group>
+	<e:Group id="rightCardGroup" height="180" verticalCenter="0" right="460">
+	</e:Group>
+	<e:Group id="leftCardTypeGroup" bottom="281" left="228" height="100">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="bottom"/>
+		</e:layout>
+		<e:Image id="leftCardTypeImage" x="8" y="53" source=""/>
+		<e:BitmapLabel id="leftPoint" x="106" y="37" text="" font="wrnn_grabNumber_fnt"/>
+	</e:Group>
+	<e:Group id="rightCardTypeGrpup" bottom="280" height="100" right="454">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="bottom"/>
+		</e:layout>
+		<e:Image id="rightCardTypeImage" x="8" y="53" source=""/>
+		<e:BitmapLabel id="rightPoint" x="106" y="37" text="" font="wrnn_grabNumber_fnt"/>
+	</e:Group>
+	<e:Image id="winImage" source="public_wrnn_json.bipaiying" y="398" left="404"/>
+	<e:Image id="loseImage" source="public_wrnn_json.bipaishu" y="396" right="183"/>
+
+
+
+
+</e:Skin>

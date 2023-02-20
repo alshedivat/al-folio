@@ -1,0 +1,655 @@
+{
+  "file": "room_TDK.png",
+  "frames": {
+    "basechip_tag": {
+      "x": 408,
+      "y": 367,
+      "w": 60,
+      "h": 32,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 60,
+      "sourceH": 32
+    },
+    "bettery_TDK": {
+      "x": 570,
+      "y": 113,
+      "w": 31,
+      "h": 19,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 31,
+      "sourceH": 19
+    },
+    "betteryPercent_TDK": {
+      "x": 448,
+      "y": 66,
+      "w": 4,
+      "h": 13,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 4,
+      "sourceH": 13
+    },
+    "bg_neikuang_1_png": {
+      "x": 762,
+      "y": 113,
+      "w": 42,
+      "h": 39,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 42,
+      "sourceH": 39
+    },
+    "bg_neikuang_2_png": {
+      "x": 930,
+      "y": 327,
+      "w": 40,
+      "h": 40,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 40,
+      "sourceH": 40
+    },
+    "bg_neikuang_3_png": {
+      "x": 843,
+      "y": 436,
+      "w": 40,
+      "h": 40,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 40,
+      "sourceH": 40
+    },
+    "bg_tiaoti_2_png": {
+      "x": 845,
+      "y": 67,
+      "w": 152,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 152,
+      "sourceH": 51
+    },
+    "bottombar_common_bg_TDK": {
+      "x": 408,
+      "y": 320,
+      "w": 84,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 84,
+      "sourceH": 46
+    },
+    "bottombar_gold": {
+      "x": 394,
+      "y": 66,
+      "w": 50,
+      "h": 50,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 50,
+      "sourceH": 50
+    },
+    "btn_dissolve_1_png": {
+      "x": 0,
+      "y": 244,
+      "w": 299,
+      "h": 110,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 299,
+      "sourceH": 110
+    },
+    "buy_gold": {
+      "x": 973,
+      "y": 119,
+      "w": 50,
+      "h": 50,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 50,
+      "sourceH": 50
+    },
+    "cardcounter_bg": {
+      "x": 249,
+      "y": 0,
+      "w": 144,
+      "h": 124,
+      "offX": 8,
+      "offY": 13,
+      "sourceW": 160,
+      "sourceH": 140
+    },
+    "chat": {
+      "x": 911,
+      "y": 0,
+      "w": 108,
+      "h": 50,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 50
+    },
+    "current_num_bg": {
+      "x": 300,
+      "y": 320,
+      "w": 99,
+      "h": 33,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 99,
+      "sourceH": 33
+    },
+    "data_TDK": {
+      "x": 602,
+      "y": 113,
+      "w": 18,
+      "h": 19,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 18,
+      "sourceH": 19
+    },
+    "giveUpLogo": {
+      "x": 0,
+      "y": 0,
+      "w": 248,
+      "h": 143,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 248,
+      "sourceH": 143
+    },
+    "gz_text_image": {
+      "x": 570,
+      "y": 72,
+      "w": 274,
+      "h": 40,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 274,
+      "sourceH": 40
+    },
+    "help_line_png": {
+      "x": 971,
+      "y": 327,
+      "w": 4,
+      "h": 150,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 4,
+      "sourceH": 150
+    },
+    "icon_clock": {
+      "x": 517,
+      "y": 396,
+      "w": 84,
+      "h": 91,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 84,
+      "sourceH": 91
+    },
+    "interrogation": {
+      "x": 469,
+      "y": 367,
+      "w": 26,
+      "h": 26,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 26,
+      "sourceH": 26
+    },
+    "label_help_png": {
+      "x": 601,
+      "y": 292,
+      "w": 140,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 140,
+      "sourceH": 65
+    },
+    "label_set_png": {
+      "x": 770,
+      "y": 0,
+      "w": 140,
+      "h": 66,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 140,
+      "sourceH": 66
+    },
+    "lookCardBtn": {
+      "x": 762,
+      "y": 153,
+      "w": 24,
+      "h": 23,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 24,
+      "sourceH": 23
+    },
+    "mask_head": {
+      "x": 809,
+      "y": 119,
+      "w": 84,
+      "h": 84,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 84,
+      "sourceH": 84
+    },
+    "multip_bg": {
+      "x": 714,
+      "y": 423,
+      "w": 60,
+      "h": 60,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 60,
+      "sourceH": 60
+    },
+    "multiple_tag": {
+      "x": 429,
+      "y": 477,
+      "w": 60,
+      "h": 32,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 60,
+      "sourceH": 32
+    },
+    "name_gold_bg": {
+      "x": 355,
+      "y": 404,
+      "w": 161,
+      "h": 72,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 161,
+      "sourceH": 72
+    },
+    "player_ready": {
+      "x": 602,
+      "y": 358,
+      "w": 119,
+      "h": 59,
+      "offX": 29,
+      "offY": 1,
+      "sourceW": 176,
+      "sourceH": 60
+    },
+    "QQ": {
+      "x": 394,
+      "y": 0,
+      "w": 65,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 65,
+      "sourceH": 65
+    },
+    "quitgz_button1": {
+      "x": 570,
+      "y": 0,
+      "w": 199,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 199,
+      "sourceH": 71
+    },
+    "quitgz_button2": {
+      "x": 300,
+      "y": 248,
+      "w": 199,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 199,
+      "sourceH": 71
+    },
+    "role_frame_1_png": {
+      "x": 894,
+      "y": 119,
+      "w": 78,
+      "h": 78,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 78,
+      "sourceH": 78
+    },
+    "role_frame_2_png": {
+      "x": 461,
+      "y": 181,
+      "w": 30,
+      "h": 30,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 30,
+      "sourceH": 30
+    },
+    "role_frame_3_png": {
+      "x": 500,
+      "y": 292,
+      "w": 100,
+      "h": 103,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 100,
+      "sourceH": 103
+    },
+    "role_frame_4_png": {
+      "x": 611,
+      "y": 181,
+      "w": 100,
+      "h": 103,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 100,
+      "sourceH": 103
+    },
+    "room_default_head_icon": {
+      "x": 500,
+      "y": 181,
+      "w": 110,
+      "h": 110,
+      "offX": 6,
+      "offY": 6,
+      "sourceW": 122,
+      "sourceH": 122
+    },
+    "Room_HeadFrame": {
+      "x": 338,
+      "y": 125,
+      "w": 122,
+      "h": 122,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 122,
+      "sourceH": 122
+    },
+    "room_owner": {
+      "x": 848,
+      "y": 354,
+      "w": 40,
+      "h": 81,
+      "offX": 11,
+      "offY": 5,
+      "sourceW": 60,
+      "sourceH": 92
+    },
+    "room_TDK_icon1": {
+      "x": 275,
+      "y": 125,
+      "w": 35,
+      "h": 8,
+      "offX": 53,
+      "offY": 21,
+      "sourceW": 142,
+      "sourceH": 50
+    },
+    "room_TDK_line1": {
+      "x": 445,
+      "y": 66,
+      "w": 2,
+      "h": 39,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 2,
+      "sourceH": 39
+    },
+    "room_TDK_line2": {
+      "x": 275,
+      "y": 134,
+      "w": 39,
+      "h": 2,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 39,
+      "sourceH": 2
+    },
+    "shuffle_bg": {
+      "x": 0,
+      "y": 355,
+      "w": 407,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 407,
+      "sourceH": 48
+    },
+    "spoker_count": {
+      "x": 461,
+      "y": 212,
+      "w": 24,
+      "h": 33,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 24,
+      "sourceH": 34
+    },
+    "tdk_delay_pause": {
+      "x": 0,
+      "y": 457,
+      "w": 328,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 328,
+      "sourceH": 52
+    },
+    "tdk_head_bg": {
+      "x": 722,
+      "y": 358,
+      "w": 64,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 64,
+      "sourceH": 64
+    },
+    "tdk_kickout_btn1": {
+      "x": 808,
+      "y": 284,
+      "w": 60,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 60,
+      "sourceH": 64
+    },
+    "tdk_kickout_btn2": {
+      "x": 787,
+      "y": 349,
+      "w": 60,
+      "h": 60,
+      "offX": 0,
+      "offY": 4,
+      "sourceW": 60,
+      "sourceH": 64
+    },
+    "tdk_list_btn1": {
+      "x": 668,
+      "y": 418,
+      "w": 45,
+      "h": 91,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 45,
+      "sourceH": 91
+    },
+    "tdk_list_btn2": {
+      "x": 894,
+      "y": 198,
+      "w": 45,
+      "h": 91,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 45,
+      "sourceH": 91
+    },
+    "tdk_list_item_bg": {
+      "x": 0,
+      "y": 144,
+      "w": 337,
+      "h": 99,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 337,
+      "sourceH": 99
+    },
+    "tdk_point_bg": {
+      "x": 714,
+      "y": 484,
+      "w": 66,
+      "h": 27,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 66,
+      "sourceH": 27
+    },
+    "time_bg": {
+      "x": 925,
+      "y": 290,
+      "w": 96,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 96,
+      "sourceH": 36
+    },
+    "tips_onlypass": {
+      "x": 0,
+      "y": 404,
+      "w": 354,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 354,
+      "sourceH": 52
+    },
+    "tips_outerror": {
+      "x": 461,
+      "y": 133,
+      "w": 300,
+      "h": 47,
+      "offX": 23,
+      "offY": 6,
+      "sourceW": 348,
+      "sourceH": 56
+    },
+    "tool_ai": {
+      "x": 869,
+      "y": 290,
+      "w": 55,
+      "h": 63,
+      "offX": 9,
+      "offY": 4,
+      "sourceW": 79,
+      "sourceH": 79
+    },
+    "tool_button_bg": {
+      "x": 809,
+      "y": 204,
+      "w": 79,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 79,
+      "sourceH": 79
+    },
+    "tool_exit": {
+      "x": 889,
+      "y": 354,
+      "w": 40,
+      "h": 54,
+      "offX": 16,
+      "offY": 9,
+      "sourceW": 79,
+      "sourceH": 79
+    },
+    "tool_help": {
+      "x": 602,
+      "y": 418,
+      "w": 65,
+      "h": 65,
+      "offX": 14,
+      "offY": 0,
+      "sourceW": 79,
+      "sourceH": 79
+    },
+    "tool_note_card": {
+      "x": 940,
+      "y": 198,
+      "w": 58,
+      "h": 64,
+      "offX": 10,
+      "offY": 4,
+      "sourceW": 79,
+      "sourceH": 79
+    },
+    "tool_set": {
+      "x": 787,
+      "y": 410,
+      "w": 55,
+      "h": 63,
+      "offX": 10,
+      "offY": 4,
+      "sourceW": 79,
+      "sourceH": 79
+    },
+    "total_num_bg": {
+      "x": 329,
+      "y": 477,
+      "w": 99,
+      "h": 33,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 99,
+      "sourceH": 33
+    },
+    "user_ai_icon": {
+      "x": 461,
+      "y": 0,
+      "w": 108,
+      "h": 132,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 132
+    },
+    "user_dropped_icon": {
+      "x": 712,
+      "y": 181,
+      "w": 96,
+      "h": 96,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 96,
+      "sourceH": 96
+    },
+    "wcat": {
+      "x": 742,
+      "y": 278,
+      "w": 65,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 65,
+      "sourceH": 65
+    },
+    "wifi_TDK": {
+      "x": 249,
+      "y": 125,
+      "w": 25,
+      "h": 18,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 25,
+      "sourceH": 18
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RecordItemSkin" width="1080" height="110" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image anchorOffsetX="0" source="hist_recordItem_bg" scale9Grid="13,41,85,56" left="0" right="0" top="0" bottom="0"/>
+	<e:Label id="indexNum" fontFamily="SimHei" text="1" y="11" anchorOffsetX="0" width="55" horizontalCenter="-461.5" textAlign="center" size="22" textColor="0x0048ff"/>
+	<e:Label id="roomNumber" fontFamily="SimHei" text="150040号房间" y="13" anchorOffsetX="0" width="210" textAlign="center" size="22" x="148" textColor="0x0048ff"/>
+	<e:Label id="time" fontFamily="SimHei" text="对战时间：2017-05-03 15:04:24" y="13" anchorOffsetX="0" width="503" textAlign="center" size="22" x="540" textColor="0x0048ff"/>
+	<e:Button label="按钮" x="841" y="64" visible="false"/>
+	<e:Button id="signupButton" label="报名" x="820" skinName="MJ_Button1Skin" verticalCenter="0" visible="false"/>
+	<e:List id="userList" width="1030" height="50" x="25" y="50" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="Mj_RecordUserLabelSkin">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" gap="25"/>
+		</e:layout>
+
+	</e:List>
+</e:Skin>

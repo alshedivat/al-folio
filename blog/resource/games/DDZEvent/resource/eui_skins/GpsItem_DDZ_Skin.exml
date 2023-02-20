@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GpsItem_DDZ_Skin" width="660" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="_userName" text="aaaaa" x="0" size="24" textColor="0x020000" verticalCenter="0" width="120" textAlign="center" height="24"/>
+	<e:Label id="_ip" text="192.225.225.225" x="120" verticalCenter="0" size="24" textColor="0x020000" width="200" textAlign="center" height="24"/>
+	<e:Label id="_otherName" text="bbbbb" x="320" verticalCenter="0" size="24" textColor="0x020000" anchorOffsetX="0" width="160" textAlign="center" height="24"/>
+	<e:Label id="_distance" text="玩家未开启GPS" x="480" verticalCenter="0" size="24" textColor="0x020000" textAlign="center" width="180" height="24"/>
+</e:Skin>

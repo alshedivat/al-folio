@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LobbyOtherUserInfoPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="rectPanel" left="0" top="0" right="0" bottom="0" fillColor="0x444444" fillAlpha="0.4"/>
+	<e:Image width="656" height="377" horizontalCenter="0" verticalCenter="-13.5" anchorOffsetY="0" source="mjl_common_bj_3" scale9Grid="60,74,162,465"/>
+	<e:Button id="closeButton" x="904" y="138" height="100" width="100" scaleX="0.8" scaleY="0.8" skinName="MJ_CloseButton1Skin">
+	</e:Button>
+
+
+	<e:Group id="head" width="160" height="160" anchorOffsetX="0" anchorOffsetY="0" top="210" left="380">
+		<e:Image id="headMc" scaleX="1" scaleY="1" source="" left="0" right="0" top="0" bottom="0"/>
+	</e:Group>
+	<e:Image source="headIcon_frame" width="180" height="180" scale9Grid="45,44,19,15" top="200" left="370"/>
+	<e:Label id="_nameTxt" text="我就是小玩家九个字" x="596" y="205" fontFamily="黑体" size="30" width="296" textColor="0xffffff"/>
+	<e:Label id="_idTxt" text="ID:121313" x="596" y="305" width="202" fontFamily="黑体" anchorOffsetX="0" height="30" size="30"  textColor="0xffffff"/>
+
+
+	<e:Label text="性别:" x="596" y="255" fontFamily="黑体" anchorOffsetX="0" size="30" textColor="0xffffff"/>
+	<e:Label id="_rankTxt" text="排名:99" y="346.5" fontFamily="黑体" anchorOffsetX="0" size="30" width="108" x="596" textColor="0xffffff"/>
+	<e:Image horizontalCenter="2" width="562" height="100" y="387.01" anchorOffsetY="0" source="mjl_common_bj_6" scale9Grid="19,17,125,100"/>
+	<e:Label id="_signatureTxt" text="" y="395" fontFamily="黑体"  size="30" horizontalCenter="2" width="542" height="85" verticalAlign="middle" textAlign="center"  anchorOffsetY="0" textColor="0x0764e3"/>
+	<e:Image id="gender_icon" x="678.5" y="248.5" source="male_icon"/>
+
+</e:Skin>

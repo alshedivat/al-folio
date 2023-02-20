@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WaitingListItemPanel_TDK_Skin" width="450" height="91" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image anchorOffsetX="0" scale9Grid="10,9,85,83" x="0" y="0" width="450" source="dlm_g_wangjia_bg"/>
+
+	<e:Image verticalCenter="20.5" left="109" source="dlm_g_wangjia_fsbg"/>
+	<e:Label id="_nameLabel" text="姓名:12025500" left="119" size="26" width="210" fontFamily="Microsoft YaHei" verticalCenter="-24.5" height="24" textColor="0xf69743"/>
+	<e:Label id="_sorceLabel" text="分数:-13" size="24" left="119" fontFamily="Microsoft YaHei" verticalCenter="20.5" textColor="0xcea867"/>
+	<e:Image id="_headMask" verticalCenter="0" left="12" width="80" height="80" source="dlm_g_wjtoukuan_bg"/>
+	<e:Image id="_headImage" verticalCenter="0" left="12" width="80" height="80"/>
+
+	<e:Button id="_kickBtn" label=""  anchorOffsetY="0" anchorOffsetX="0" verticalCenter="3" right="27">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tdk_an_tichu" source.down="tdk_an_tichu_dk"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9" verticalCenter="-3" textColor="0x000000" fontFamily="SimHei" size="24"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Image source="dlm_g_axx" left="0" right="0" bottom="-13"/>
+</e:Skin>

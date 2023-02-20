@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Mj_ActiveRoomSkin" width="300" height="260" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="roomInformation" label=""  enabled="true" anchorOffsetX="0" anchorOffsetY="0" y="0" left="0" right="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="public_json.activeBg" top="0" bottom="0" left="0" right="0"/>
+
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="invitingFriends" label=" " enabled="true" bottom="5" scaleX="0.9" scaleY="0.9" left="5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="activeInvitation_1" source.down="activeInvitation_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="dissolveRoom" label=" " enabled="true" bottom="5" width="128" right="5" scaleX="0.9" scaleY="0.9">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="activeDissolution_1" source.down="activeDissolution_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Label id="Title1" text="人数:" textColor="0xfffc00" fontFamily="SimHei" textAlign="left" verticalCenter="-22" left="70" touchEnabled="false"/>
+	<e:Label id="Title2" text="准备中···" textColor="0xFFFC00" fontFamily="SimHei" textAlign="left" touchEnabled="false" verticalCenter="20" left="70"/>
+	<e:Label id="Title0" text="桌号:" textColor="0xFFFC00" fontFamily="SimHei" textAlign="left" verticalCenter="-64" left="70"  touchEnabled="false"/>
+	<e:Label id="dataNumber1" text="X/X" fontFamily="SimHei" textAlign="left" verticalAlign="middle" verticalCenter="-22" left="167"  touchEnabled="false"/>
+	<e:Label id="dataNumber0" text="X/X" fontFamily="SimHei" textAlign="left" verticalAlign="middle" verticalCenter="-64" left="167"  touchEnabled="false"/>
+	<e:Button id="deleteRoom" label="" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" bottom="0" scaleX="0.8" scaleY="0.8" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="public_json.deleteRoom"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

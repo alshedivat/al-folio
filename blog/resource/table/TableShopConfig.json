@@ -1,0 +1,6 @@
+[
+{"shopId":101,"shopType":4,"shopGoods":{"goodId":156,"goodNbr":1},"priceType":1,"price":400,"firstShopGoods":{"goodId":0,"goodNbr":0},"onShelve":1,"iconId":0,"isShow":1,"buyNbr":0,"iapppayId":13,"goodId":156,"user":0},
+{"shopId":102,"shopType":4,"shopGoods":{"goodId":157,"goodNbr":1},"priceType":1,"price":2000,"firstShopGoods":{"goodId":0,"goodNbr":0},"onShelve":1,"iconId":0,"isShow":1,"buyNbr":0,"iapppayId":14,"goodId":157,"user":0},
+{"shopId":103,"shopType":4,"shopGoods":{"goodId":158,"goodNbr":1},"priceType":1,"price":5000,"firstShopGoods":{"goodId":0,"goodNbr":0},"onShelve":1,"iconId":0,"isShow":1,"buyNbr":0,"iapppayId":15,"goodId":158,"user":0},
+{"shopId":104,"shopType":4,"shopGoods":{"goodId":159,"goodNbr":1},"priceType":1,"price":10000,"firstShopGoods":{"goodId":0,"goodNbr":0},"onShelve":1,"iconId":0,"isShow":1,"buyNbr":0,"iapppayId":0,"goodId":159,"user":0}
+]

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoundResult_DZ_Skin" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="1280">
+	<e:Group id="resultGroup" left="0" right="0" top="0" bottom="0">
+	<e:Image left="0" right="0" top="0" bottom="0" source="game_resultbg"/>
+	<e:Image id="bg" source="kuang"  top="277" left="0" right="0"/>
+	<e:Image id="_victory_image" source="win_anim_18" horizontalCenter="-34" top="35"/>
+	<e:Image id="levelNum" source="resultlevel_2" horizontalCenter="-35" top="163"/>
+	<e:BitmapLabel id="dajiBitMapLabel" text="A" font="result_daji_fnt" horizontalCenter="148.5" verticalCenter="-156.5"/>
+	<e:Image source="result_we" x="23" y="284"/>
+	<e:Image source="result_other" y="284" right="28"/>
+	<e:BitmapLabel id="welevelBitMapLabel" text="4+2" textAlign="left" verticalCenter="-60.5" font="result_score_fnt" left="158"/>
+	<e:Group verticalCenter="-60.5" right="45" width="59" height="25">
+		<e:BitmapLabel id="otherlevelBitMapLabel" text="4+2" textAlign="left" font="result_score_fnt" left="0" top="0"/>
+	</e:Group>
+
+
+
+	<e:Group width="465" height="215" left="20" top="278">
+	<e:List id="_we_list" itemRendererSkinName="RoundResultItem_DZ_Skin" anchorOffsetX="0" y="38.33">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="14" paddingTop="13"/>
+		</e:layout>
+	</e:List>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Group width="465" height="215" right="59" top="278">
+	<e:List id="_other_list" itemRendererSkinName="RoundResultItem_DZ_Skin" anchorOffsetX="0" y="38.33">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="14" paddingTop="13"/>
+		</e:layout>
+	</e:List>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="wintitle" source="result_wintitle" verticalCenter="-18.5" horizontalCenter="-73" visible="false"/>
+	<e:Label id="daimaoLabel" verticalCenter="75" text="满足带帽" fontFamily="Microsoft YaHei" horizontalCenter="-86" visible="false"/>
+
+	<e:Button id="backLobbyButton" label="" y="548" x="370" visible="false">
+		<e:Skin states="up,down,disabled">
+		<e:Image source="" source.disabled="" anchorOffsetX="124" anchorOffsetY="47" x="124" y="47" scaleX.down="0.95" scaleY.down="0.95"/>
+		<e:Image source="back_lobby" source.disabled="orange_out_card_gray" anchorOffsetX="124" anchorOffsetY="47" x="124" y="50" scaleX.down="0.95" scaleY.down="0.95"/>
+		</e:Skin>
+	</e:Button>
+		<e:Button id="changeTableBtn" label="" y="548" x="370" visible="false">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="" source.disabled="" anchorOffsetX="124" anchorOffsetY="47" x="124" y="47"
+			         scaleX.down="0.95" scaleY.down="0.95" />
+			<e:Image source="change_table" source.disabled="orange_out_card_gray" anchorOffsetX="124" anchorOffsetY="47" x="124"
+			         y="50" scaleX.down="0.95" scaleY.down="0.95"/>
+		</e:Skin>
+	</e:Button>
+	</e:Group>
+	<e:Group left="27" top="615">
+	<e:Image source="game_switchbg"/>
+	<e:RadioButton id="resultRadioButton" groupName="chattype" selected="true" verticalCenter="1" left="8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="game_jiesuan2" source.down="game_jiesuan1" horizontalCenter="0" verticalCenter="0" verticalCenter.up="0" horizontalCenter.up="8"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="tableRadioButton" groupName="chattype" verticalCenter="1" right="10">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="game_table2" source.down="game_table1" horizontalCenter="0" verticalCenter="0" horizontalCenter.up="-6"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	</e:Group>
+	<e:Button id="_prepare_btn" label="" y="529" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="result_again1" source.down="result_again2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RecordSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image top="0" source="common_title_bg" horizontalCenter="0"/>
+	<e:Image width="1181" height="628" horizontalCenter="0" source="mjl_common_bj_3" scale9Grid="48,74,180,451" top="88"/>
+	<e:Image source="hist_word_record" horizontalCenter="0" top="25"/>
+	<e:Button id="closeButton" label="Button" x="1162.24" y="60.42" skinName="MJ_CloseButton1Skin"/>
+	<e:Group id="scrollerGroup" width="1100" height="475" horizontalCenter="0" top="120" anchorOffsetY="0">
+	</e:Group>
+	<e:Button id="scanOtherBtn" label="" horizontalCenter="0" bottom="50">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="hist_btn_lookOther_1" source.down="hist_btn_lookOther_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="clearBtn" label="" horizontalCenter="-300" bottom="50" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="hist_btn_clear_1" source.down="hist_btn_clear_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

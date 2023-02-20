@@ -1,0 +1,85 @@
+{
+  "file": "game_totalRecord.png",
+  "frames": {
+    "total_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 720,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 1280,
+      "sourceH": 720
+    },
+    "total_gamehost": {
+      "x": 161,
+      "y": 817,
+      "w": 57,
+      "h": 54,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 57,
+      "sourceH": 55
+    },
+    "total_headbg": {
+      "x": 0,
+      "y": 898,
+      "w": 100,
+      "h": 100,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 100,
+      "sourceH": 100
+    },
+    "total_item": {
+      "x": 1558,
+      "y": 0,
+      "w": 237,
+      "h": 328,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 237,
+      "sourceH": 328
+    },
+    "total_itembg": {
+      "x": 1281,
+      "y": 0,
+      "w": 276,
+      "h": 557,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 276,
+      "sourceH": 557
+    },
+    "total_share": {
+      "x": 0,
+      "y": 817,
+      "w": 160,
+      "h": 80,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 160,
+      "sourceH": 80
+    },
+    "total_win": {
+      "x": 220,
+      "y": 721,
+      "w": 43,
+      "h": 116,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 43,
+      "sourceH": 116
+    },
+    "total_word": {
+      "x": 0,
+      "y": 721,
+      "w": 219,
+      "h": 95,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 219,
+      "sourceH": 95
+    }
+  }
+}

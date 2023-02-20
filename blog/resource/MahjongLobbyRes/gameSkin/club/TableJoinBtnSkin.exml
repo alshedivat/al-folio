@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TableJoinBtnSkin" xmlns:e="http://ns.egret.com/eui" states="up,down">
+	<e:Image source="house_addHead1" horizontalCenter="0" verticalCenter="0" width.down="95%" height.down="95%"/>
+</e:Skin>

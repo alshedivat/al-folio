@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TimeButton_DDZEvent_Skin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" width="84" height="91">
+    <e:Image horizontalCenter="0" verticalCenter="0" source="icon_clock" />
+    <e:BitmapLabel id="labelDisplay" font="gameNum_fnt" text="30" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

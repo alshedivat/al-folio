@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MailItemSkin" width="820" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mjl_common_bj_6" left="0" right="0" top="0" bottom="0" scale9Grid="20,16,122,101"/>
+	<e:Image id="statusImg" source="mjl_email_json.email_icon_unread" verticalCenter="0" left="50"/>
+	<e:Label id="gameName" text="128快速赛" anchorOffsetX="0" verticalCenter="0" textAlign="left" size="28" fontFamily="SimHei" textColor="0x0271e3" left="180"/>
+	<e:Label id="awardInfo" text="带领取房卡：2" anchorOffsetX="0" width="220" textAlign="left" size="28" fontFamily="SimHei" verticalCenter="0" textColor="0x0271e3" right="200" visible="false"/>
+	<e:Label id="statusInfo" text="已读" anchorOffsetX="0" textAlign="center" size="28" fontFamily="SimHei" verticalCenter="0" textColor="0x0271e3" right="60" width="120"/>
+</e:Skin>

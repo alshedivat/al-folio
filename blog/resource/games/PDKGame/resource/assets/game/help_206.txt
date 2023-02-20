@@ -1,0 +1,10 @@
+﻿<font color='#c25215 ' size=30>有牌必出是跑得快的特有玩法。</font>
+<font color='#626262 ' size=24>主要牌型型: </font>
+<font color='#626262 ' size=24>单张 </font>
+<font color='#626262 ' size=24>顺子</font>
+<font color='#626262 ' size=24>对子、连对</font>
+<font color='#626262 ' size=24>三带二、四带三</font>
+<font color='#626262 ' size=24>飞机带翅膀</font>
+<font color='#626262 ' size=24>炸弹 </font>
+
+<font color='#626262 ' size=24>更多详情: 更多玩法规则请在大厅点击-玩法-按钮进行查看</font>

@@ -1,0 +1,13 @@
+{"file":"wrnn_grabNumber.png","frames":{
+"0":{"x":24,"y":40,"w":22,"h":37,"offX":1,"offY":0,"sourceW":24,"sourceH":38},
+"1":{"x":48,"y":40,"w":13,"h":36,"offX":3,"offY":1,"sourceW":18,"sourceH":38},
+"2":{"x":40,"y":0,"w":22,"h":38,"offX":1,"offY":0,"sourceW":23,"sourceH":38},
+"3":{"x":0,"y":79,"w":22,"h":37,"offX":1,"offY":0,"sourceW":23,"sourceH":38},
+"4":{"x":0,"y":40,"w":22,"h":37,"offX":2,"offY":0,"sourceW":24,"sourceH":38},
+"5":{"x":64,"y":39,"w":22,"h":37,"offX":1,"offY":0,"sourceW":24,"sourceH":38},
+"6":{"x":72,"y":78,"w":22,"h":36,"offX":2,"offY":1,"sourceW":24,"sourceH":38},
+"7":{"x":64,"y":0,"w":22,"h":37,"offX":2,"offY":0,"sourceW":24,"sourceH":38},
+"8":{"x":48,"y":78,"w":22,"h":37,"offX":2,"offY":0,"sourceW":24,"sourceH":38},
+"9":{"x":24,"y":79,"w":22,"h":37,"offX":2,"offY":0,"sourceW":24,"sourceH":38},
+"乘":{"x":96,"y":78,"w":21,"h":30,"offX":2,"offY":5,"sourceW":24,"sourceH":38},
+"抢":{"x":0,"y":0,"w":38,"h":38,"offX":0,"offY":0,"sourceW":38,"sourceH":38}}}

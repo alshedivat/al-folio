@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardItem_DDZ_Skin" width="80" height="30" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="background" width="80" height="30" x="0" y="0" fillColor="0x0ce0f4"/>
+	<e:Label id="cardName" text="红桃A" x="0" y="0" width="80" height="30" size="24" textAlign="center" verticalAlign="middle" fontFamily="黑体" textColor="0x050505"/>
+</e:Skin>

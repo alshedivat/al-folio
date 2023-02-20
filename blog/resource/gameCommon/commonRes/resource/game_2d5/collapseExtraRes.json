@@ -1,0 +1,75 @@
+{
+  "file": "collapseExtraRes.png",
+  "frames": {
+    "collapseBg": {
+      "x": 0,
+      "y": 0,
+      "w": 175,
+      "h": 38,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 175,
+      "sourceH": 38
+    },
+    "collapseBtn1": {
+      "x": 0,
+      "y": 39,
+      "w": 69,
+      "h": 69,
+      "offX": 9,
+      "offY": 9,
+      "sourceW": 87,
+      "sourceH": 87
+    },
+    "collapseBtn2": {
+      "x": 70,
+      "y": 39,
+      "w": 69,
+      "h": 69,
+      "offX": 9,
+      "offY": 9,
+      "sourceW": 87,
+      "sourceH": 87
+    },
+    "dismissBtn1": {
+      "x": 176,
+      "y": 0,
+      "w": 69,
+      "h": 69,
+      "offX": 9,
+      "offY": 9,
+      "sourceW": 87,
+      "sourceH": 87
+    },
+    "dismissBtn2": {
+      "x": 0,
+      "y": 109,
+      "w": 69,
+      "h": 69,
+      "offX": 9,
+      "offY": 9,
+      "sourceW": 87,
+      "sourceH": 87
+    },
+    "menuBtn1": {
+      "x": 70,
+      "y": 109,
+      "w": 69,
+      "h": 69,
+      "offX": 9,
+      "offY": 9,
+      "sourceW": 87,
+      "sourceH": 87
+    },
+    "menuBtn2": {
+      "x": 0,
+      "y": 179,
+      "w": 69,
+      "h": 69,
+      "offX": 9,
+      "offY": 9,
+      "sourceW": 87,
+      "sourceH": 87
+    }
+  }
+}

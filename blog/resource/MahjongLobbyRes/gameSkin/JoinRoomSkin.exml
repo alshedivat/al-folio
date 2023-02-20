@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JoinRoomSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image y="93" height="626" anchorOffsetY="0" left="0" right="0" source="mjl_common_bj_3" scale9Grid="48,47,185,490"/>
+	<e:Group y="18" horizontalCenter="0" anchorOffsetY="0" width="830" height="81" anchorOffsetX="0" x="10">
+		<e:Image y="-7.99" x="178" source="common_title_bg"/>
+		<e:Label id="labelDisplay" textColor="0xFFEFC6" horizontalCenter="0" text="进入房间" fontFamily="隶书" bold="true" verticalCenter="0" size="50" visible="false"/>
+		<e:Image source="title_join_room" horizontalCenter="20" top="15"/>
+	</e:Group>
+
+
+
+
+	<e:Button id="closeButton" x="1189.31" width="100" y="57.37" height="100" skinName="MJ_CloseButton1Skin"/>
+	<e:Label id="histroyRecord" text="历史加入" x="1006.34" y="602.2" textColor="0x7a1d39" height="55" width="221.33" textAlign="center" verticalAlign="middle" fontFamily="黑体" size="28" anchorOffsetY="0" anchorOffsetX="0" visible="false"/>
+	<e:Group width="670" height="552" x="30" y="120" anchorOffsetY="0">
+		<e:Image horizontalCenter="0" source="mjl_join_title_bg" top="40" visible="false"/>
+		<e:Image top="53" source="history_title" x="30"/>
+		<e:Label id="neverInfo" text="您还没有加入历史记录，赶快加入游戏吧!" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0" fontFamily="SimHei" size="32" bold="true" textColor="0x0287e3"/>
+		<e:Image source="mjl_common_json.mjl_common_bj_7" width="630" scale9Grid="30,26,181,156" anchorOffsetY="0" horizontalCenter="0" height="420" top="130" visible="false"/>
+		<e:Scroller anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="610" height="425" top="110" horizontalCenter="0">
+		<e:Group>
+			<e:List id="recordList" itemRendererSkinName="HistroyJoinItemSkin" anchorOffsetX="0" width="610" x="19.7" y="0">
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="center" verticalAlign="top" paddingTop="15" paddingBottom="0" gap="0"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+		</e:Scroller>
+
+	</e:Group>
+	<e:Group width="540" height="560" x="695" y="120" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image horizontalCenter="0" source="mjl_join_title_bg" top="40" visible="false"/>
+		<e:Image horizontalCenter="-75" top="53" source="mjl_join_fanghao"/>
+		<e:Image anchorOffsetY="0" height="411.09" scale9Grid="14,10,133,107" width="474" horizontalCenter="0" bottom="25" source="join_roombg"/>
+		<e:Image source="mjl_join_inputNum_bg" top="150" horizontalCenter="0"/>
+		<e:Group width="525" height="70" scaleX="0.8000000000000002" scaleY="0.9" anchorOffsetX="0" top="150" horizontalCenter="0">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="contentJustify" paddingLeft="90" verticalAlign="middle" gap="87"/>
+			</e:layout>
+			<e:Image source="mjl_common_json.mjl_common_line_1" x="262" y="0" scaleX="1" scaleY="1" width="2" height="55"/>
+			<e:Image source="mjl_common_json.mjl_common_line_1" x="272" y="10" scaleX="1" scaleY="1" width="2" height="55"/>
+			<e:Image source="mjl_common_json.mjl_common_line_1" x="282" y="20" scaleX="1" scaleY="1" width="2" height="55"/>
+			<e:Image source="mjl_common_json.mjl_common_line_1" x="292" y="30" scaleX="1" scaleY="1" width="2" height="55"/>
+			<e:Image source="mjl_common_json.mjl_common_line_1" x="302" y="40" scaleX="1" scaleY="1" width="2" height="55"/>
+		</e:Group>
+		<e:Group id="inputPrompt" width="525" height="70" scaleX="0.8000000000000002" scaleY="0.9" anchorOffsetX="0" top="150" horizontalCenter="0">
+			<e:layout>
+				<e:TileLayout horizontalGap="0" requestedColumnCount="6" columnWidth="87.5" verticalGap="0" horizontalAlign="center" verticalAlign="middle" requestedRowCount="1" rowHeight="70"/>
+			</e:layout>
+			<e:Label text="请" x="-42.5" y="-166.66666666666669" scaleX="1.2499999999999998" scaleY="1.111111111111111" fontFamily="SimHei" textColor="0xc6dfe7"/>
+			<e:Label text="输" x="-32.5" y="-156.66666666666669" scaleX="1.2499999999999998" scaleY="1.111111111111111" fontFamily="SimHei" textColor="0xC6DFE7"/>
+			<e:Label text="入" x="-22.5" y="-146.66666666666669" scaleX="1.2499999999999998" scaleY="1.111111111111111" fontFamily="SimHei" textColor="0xC6DFE7"/>
+			<e:Label text="房" x="-12.5" y="-136.66666666666669" scaleX="1.2499999999999998" scaleY="1.111111111111111" fontFamily="SimHei" textColor="0xC6DFE7"/>
+			<e:Label text="间" x="-2.5" y="-126.66666666666669" scaleX="1.2499999999999998" scaleY="1.111111111111111" fontFamily="SimHei" textColor="0xC6DFE7"/>
+			<e:Label text="号" x="7.5" y="-116.66666666666669" scaleX="1.2499999999999998" scaleY="1.111111111111111" fontFamily="SimHei" textColor="0xC6DFE7"/>
+		</e:Group>
+
+
+		<e:Group id="inputNumberGroup" width="525" height="60" scaleX="0.8000000000000002" scaleY="0.9" anchorOffsetX="0" top="153" horizontalCenter="0" anchorOffsetY="0">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" gap="0" paddingLeft="20"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="inputKeyGroup" height="330" width="550" scaleX="0.75" scaleY="0.85" anchorOffsetX="0" horizontalCenter="0" top="240">
+			<e:layout>
+			<e:TileLayout horizontalGap="11" verticalGap="8" horizontalAlign="center" verticalAlign="middle" requestedRowCount="4" requestedColumnCount="3" orientation="rows" rowAlign="justifyUsingGap" columnAlign="justifyUsingGap"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

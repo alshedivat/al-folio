@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PDK_ShuffleSkin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" width="208" height="213">
+	<e:Image source="pdk_shuffle" source.disabled="bt_gray_bg" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="labelDisplay" horizontalCenter="2" verticalCenter="1"/>
+	<e:Label id="cost" text="0.1" fontFamily="Microsoft YaHei" textColor="0xffffff" size="16" rotation="-7" horizontalCenter="21.5" verticalCenter="80"/>
+</e:Skin>

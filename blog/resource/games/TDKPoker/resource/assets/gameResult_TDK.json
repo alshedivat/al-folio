@@ -1,0 +1,215 @@
+{
+  "file": "gameResult_TDK.png",
+  "frames": {
+    "beishu": {
+      "x": 419,
+      "y": 234,
+      "w": 80,
+      "h": 42,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 80,
+      "sourceH": 42
+    },
+    "btn_text_onemore": {
+      "x": 0,
+      "y": 462,
+      "w": 118,
+      "h": 33,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 118,
+      "sourceH": 33
+    },
+    "ddz_buttongreen": {
+      "x": 0,
+      "y": 261,
+      "w": 234,
+      "h": 70,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 234,
+      "sourceH": 70
+    },
+    "difen": {
+      "x": 119,
+      "y": 462,
+      "w": 81,
+      "h": 43,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 81,
+      "sourceH": 43
+    },
+    "jinbi": {
+      "x": 331,
+      "y": 354,
+      "w": 77,
+      "h": 41,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 77,
+      "sourceH": 41
+    },
+    "kuang1": {
+      "x": 0,
+      "y": 0,
+      "w": 714,
+      "h": 83,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 714,
+      "sourceH": 83
+    },
+    "label_winner_png": {
+      "x": 331,
+      "y": 289,
+      "w": 93,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 93,
+      "sourceH": 64
+    },
+    "lord_icon": {
+      "x": 553,
+      "y": 147,
+      "w": 62,
+      "h": 49,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 62,
+      "sourceH": 49
+    },
+    "lose_anim_30": {
+      "x": 0,
+      "y": 84,
+      "w": 421,
+      "h": 91,
+      "offX": 4,
+      "offY": 57,
+      "sourceW": 430,
+      "sourceH": 150
+    },
+    "nicheng": {
+      "x": 201,
+      "y": 462,
+      "w": 79,
+      "h": 42,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 79,
+      "sourceH": 42
+    },
+    "qm": {
+      "x": 425,
+      "y": 277,
+      "w": 34,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 34,
+      "sourceH": 34
+    },
+    "result_deng": {
+      "x": 422,
+      "y": 84,
+      "w": 130,
+      "h": 74,
+      "offX": 2,
+      "offY": 2,
+      "sourceW": 135,
+      "sourceH": 79
+    },
+    "result_winIcon": {
+      "x": 422,
+      "y": 159,
+      "w": 130,
+      "h": 74,
+      "offX": 2,
+      "offY": 2,
+      "sourceW": 135,
+      "sourceH": 79
+    },
+    "TDK_total_title": {
+      "x": 0,
+      "y": 403,
+      "w": 246,
+      "h": 58,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 246,
+      "sourceH": 58
+    },
+    "total_bank": {
+      "x": 628,
+      "y": 84,
+      "w": 44,
+      "h": 43,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 44,
+      "sourceH": 43
+    },
+    "total_item_bg": {
+      "x": 0,
+      "y": 176,
+      "w": 301,
+      "h": 84,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 301,
+      "sourceH": 84
+    },
+    "total_item_kuang": {
+      "x": 302,
+      "y": 176,
+      "w": 116,
+      "h": 112,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 116,
+      "sourceH": 112
+    },
+    "total_lose": {
+      "x": 247,
+      "y": 389,
+      "w": 70,
+      "h": 62,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 62
+    },
+    "total_mc_bg": {
+      "x": 235,
+      "y": 289,
+      "w": 95,
+      "h": 99,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 95,
+      "sourceH": 99
+    },
+    "total_share_btn": {
+      "x": 0,
+      "y": 332,
+      "w": 234,
+      "h": 70,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 234,
+      "sourceH": 70
+    },
+    "total_win": {
+      "x": 553,
+      "y": 84,
+      "w": 74,
+      "h": 62,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 74,
+      "sourceH": 62
+    }
+  }
+}

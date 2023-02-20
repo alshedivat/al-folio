@@ -1,0 +1,95 @@
+{
+  "file": "piao.png",
+  "frames": {
+    "add_point_0_1": {
+      "x": 0,
+      "y": 128,
+      "w": 157,
+      "h": 57,
+      "offX": 11,
+      "offY": 7,
+      "sourceW": 176,
+      "sourceH": 64
+    },
+    "add_point_0_2": {
+      "x": 0,
+      "y": 0,
+      "w": 176,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 176,
+      "sourceH": 64
+    },
+    "add_point_1_1": {
+      "x": 0,
+      "y": 64,
+      "w": 176,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 176,
+      "sourceH": 64
+    },
+    "add_point_1_2": {
+      "x": 0,
+      "y": 185,
+      "w": 157,
+      "h": 57,
+      "offX": 7,
+      "offY": 7,
+      "sourceW": 176,
+      "sourceH": 64
+    },
+    "addBasePoint": {
+      "x": 232,
+      "y": 0,
+      "w": 74,
+      "h": 26,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 74,
+      "sourceH": 26
+    },
+    "addPoint_1": {
+      "x": 176,
+      "y": 58,
+      "w": 53,
+      "h": 56,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 53,
+      "sourceH": 56
+    },
+    "addPoint_2": {
+      "x": 157,
+      "y": 128,
+      "w": 53,
+      "h": 56,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 53,
+      "sourceH": 56
+    },
+    "addPoint_5": {
+      "x": 157,
+      "y": 184,
+      "w": 53,
+      "h": 56,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 53,
+      "sourceH": 56
+    },
+    "addPoint_10": {
+      "x": 176,
+      "y": 0,
+      "w": 56,
+      "h": 58,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 56,
+      "sourceH": 58
+    }
+  }
+}

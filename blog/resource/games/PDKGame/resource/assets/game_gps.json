@@ -1,0 +1,65 @@
+{
+  "file": "game_gps.png",
+  "frames": {
+    "gps_headBg": {
+      "x": 149,
+      "y": 0,
+      "w": 132,
+      "h": 132,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 132,
+      "sourceH": 132
+    },
+    "gps_noAddress_icon": {
+      "x": 282,
+      "y": 0,
+      "w": 40,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 40,
+      "sourceH": 51
+    },
+    "gps_numBg": {
+      "x": 149,
+      "y": 133,
+      "w": 151,
+      "h": 54,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 151,
+      "sourceH": 54
+    },
+    "line_01": {
+      "x": 0,
+      "y": 125,
+      "w": 148,
+      "h": 123,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 148,
+      "sourceH": 123
+    },
+    "line_02": {
+      "x": 0,
+      "y": 0,
+      "w": 148,
+      "h": 124,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 148,
+      "sourceH": 124
+    },
+    "line_12": {
+      "x": 0,
+      "y": 249,
+      "w": 367,
+      "h": 6,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 367,
+      "sourceH": 6
+    }
+  }
+}

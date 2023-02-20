@@ -1,0 +1,65 @@
+{
+  "file": "common_panel.png",
+  "frames": {
+    "common_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 571,
+      "h": 210,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 573,
+      "sourceH": 210
+    },
+    "msgBoxBg": {
+      "x": 0,
+      "y": 0,
+      "w": 571,
+      "h": 210,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 573,
+      "sourceH": 210
+    },
+    "msgPanel": {
+      "x": 0,
+      "y": 0,
+      "w": 571,
+      "h": 210,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 573,
+      "sourceH": 210
+    },
+    "userInfo_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 571,
+      "h": 210,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 573,
+      "sourceH": 210
+    },
+    "userInfo_close1": {
+      "x": 0,
+      "y": 211,
+      "w": 91,
+      "h": 99,
+      "offX": 6,
+      "offY": 0,
+      "sourceW": 104,
+      "sourceH": 105
+    },
+    "userInfo_close2": {
+      "x": 0,
+      "y": 211,
+      "w": 91,
+      "h": 99,
+      "offX": 6,
+      "offY": 0,
+      "sourceW": 104,
+      "sourceH": 105
+    }
+  }
+}

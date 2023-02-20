@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UserSprite_across_ZJH_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="116" height="159">
+	<e:Image id="_bg_image" source="zjh_head_item_h_bg_png"/>
+	<e:Image source="usrepointBg" horizontalCenter="0.5" bottom="0"/>
+	<e:Image id="_headImage" width="80" height="80" y="20" horizontalCenter="0"/>
+
+	<e:Label id="_name" text="143564" y="105" size="20" width="100" height="20" fontFamily="SimHei" horizontalCenter="0" textAlign="center" textColor="0xf1f5f7"/>
+
+	<e:Image y="20" source="userHeadBg" horizontalCenter="0.5"/>
+	<e:BitmapLabel id="_chips" font="wrnn_score_number_fnt" text="111" horizontalCenter="0" y="134"/>
+
+</e:Skin>

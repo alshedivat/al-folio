@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Chat_DDZEvent_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="bgRect" bottom="0" left="0" top="0" right="0" alpha="0.1" fillColor="0x000000"/>
+	<e:Group width="749" height="410" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="public_DDZ2" scale9Grid="29,32,59,107" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:RadioButton id="chatRadioButton" label="常用语" groupName="chattype" selected="true" scaleX="1" scaleY="1" left="0" top="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chat_btn_normal_DDZ" source.down="chat_btn_select_DDZ"/>
+	<e:Image horizontalCenter="0" verticalCenter="0" source="chat_btn_phrase_DDZ"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="faceRadioButton" label="表情" groupName="chattype" scaleX="1" scaleY="1" top="0" right="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chat_btn_normal_DDZ" source.down="chat_btn_select_DDZ"/>
+	<e:Image source="chat_DDZ_json.chat_btn_emojo_DDZ" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:Group id="chat" width="700" height="330" horizontalCenter="0.5" top="80" anchorOffsetY="0">
+			<e:Scroller width="700" height="235" scaleX="1" scaleY="1" anchorOffsetY="0" horizontalCenter="0" top="0">
+				<e:Group id="chatGroup">
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+				</e:Group>
+			</e:Scroller>
+			<e:Image source="chat_input_bg_DDZ" scale9Grid="55,22,335,34" bottom="20" left="5" x="-10" y="232" scaleX="1" scaleY="1"/>
+			<e:EditableText id="textField" width="369" height="50" text="请输入聊天内容" size="28" textAlign="left" verticalAlign="middle" bottom="33" left="30" fontFamily="SimHei" textColor="0x5997a6" x="15" y="247" scaleX="1" scaleY="1"/>
+			<e:Button id="sendBtn" bottom="25" right="20" x="562" y="245" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="send_btn_DDZ"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Scroller id="faceScroller" width="710" height="300" scaleX="1" scaleY="1" anchorOffsetX="0" horizontalCenter="3" top="80">
+			<e:Group id="faceGroup">
+			<e:layout>
+				<e:TileLayout horizontalGap="0" verticalGap="0" horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+
+
+
+
+
+</e:Skin>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ResultPanel_2d5_new_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="result_bg_2d5_1" left="0" right="0" top="0" bottom="0" scale9Grid="7,6,11,10"/>
+	<e:Image left="0" right="0" bottom="0" scale9Grid="7,6,11,10" source="result_bg_2d5_2" height="600"/>
+	<e:Image id="titleBg" horizontalCenter="0" top="0" source=""/>
+	<e:Button id="_startBtn" label="" bottom="0" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gameContinue_2d5_1" source.down="gameContinue_2d5_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_changeBtn" label="" left="200" bottom="0" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gameChange_2d5_1" source.down="gameChange_2d5_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_backBtn" label="" right="200" bottom="0" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="backLobby_2d5_1" source.down="backLobby_2d5_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_shareBtn" label="" right="200" bottom="0" visible="false">
+	</e:Button>
+</e:Skin>

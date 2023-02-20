@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayType_ZJH_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image horizontalCenter="163.5" source="zjh_little_bg_png" verticalCenter="0" top="153"/>
+	<e:Image horizontalCenter="-163.5" source="zjh_little_bg_png" scaleX="-1" verticalCenter="0" top="153"/>
+	<e:Image horizontalCenter="0" source="zjh_big_bg2_png" scale9Grid="28,30,29,30" width="601" height="315" top="227" left="340"/>
+	<e:Image y="168" source="wrnn_peizhi_title" horizontalCenter="0"/>
+	<e:Label id="playType" text="Label" left="378" top="240" fontFamily="SimHei"/>
+	<e:Label id="zhuangType" text="Label" left="378" top="320" fontFamily="SimHei"/>
+
+	<e:Label id="numType" text="Label" left="378" top="400" fontFamily="SimHei"/>
+	<e:Button id="closeButton" x="911.02" y="138.33" width="76" height="76">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image scaleX.down="0.9" scaleY.down="0.9" source="wrnn_close" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

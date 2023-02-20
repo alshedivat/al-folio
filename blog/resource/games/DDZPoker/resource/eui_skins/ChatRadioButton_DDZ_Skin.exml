@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChatRadioButton_DDZ_Skin" states="up,down,disabled" width="400" height="53"
+        xmlns:e="http://ns.egret.com/eui">
+	<e:Image scaleY.down="0.95"
+	         verticalCenter="23.5"  horizontalCenter="0.5"  source="dlm_g_xxx1"/>
+	<e:Label id="labelDisplay" verticalCenter="0" scaleY.down="0.8" bottom="0" size="22"
+	         text="2.各位真不好意思，我要离开一会"  left="22" fontFamily="Microsoft YaHei" textColor="0xf0c0a6"/>
+</e:Skin>

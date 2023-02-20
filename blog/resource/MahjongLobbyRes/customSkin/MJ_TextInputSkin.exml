@@ -1,0 +1,5 @@
+<e:Skin class="MJ_TextInputSkin" width="220" height="35" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="65%" verticalCenter="0" scale9Grid="9,3,27,33" height="100%" source="mjl_create_match_inputBg" right="0"/>
+	<e:EditableText id="textDisplay" maxChars="8" size="24" prompt="输入玩家ID 添加黑白名单" promptColor="0xdb0606" verticalAlign="middle" text="1000" anchorOffsetY="0" fontFamily="SimHei" anchorOffsetX="0" y="3" textAlign="center" textColor="0xffffff" right="0" left="80"/>
+	<e:Label id="title" text="底注：" x="2" size="24" fontFamily="SimHei" y="6" textColor="0x1267b7"/>
+</e:Skin>

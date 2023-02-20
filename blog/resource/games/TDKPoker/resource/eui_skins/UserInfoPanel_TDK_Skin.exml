@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UserInfoPanel_TDK_Skin" width="1250" height="728" xmlns:e="http://ns.egret.com/eui"
+     xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" alpha="0.6" fillColor="0x000000" visible="false"/>
+	<e:Image anchorOffsetX="0" scale9Grid="32,25,62,39" anchorOffsetY="0" horizontalCenter="0" source="dlm_tc_bg" verticalCenter="0"/>
+	<e:Image y="392.69" anchorOffsetX="0" width="497.21" scale9Grid="13,12,16,18" anchorOffsetY="0" height="118.33" horizontalCenter="0" source="dlm_g_djv_bg"/>
+
+
+
+
+
+
+
+	<e:Group horizontalCenter="0" verticalCenter="-141.5">
+		<e:Image source="dlm_g_xbie_bg" horizontalCenter="-73.5" y="1.33"/>
+		<e:Image id="_genderIcon" horizontalCenter="-73" source="dlm_g_nan" y="10.64"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+	<e:Label id="_nickTxt" text="名字有好多个字" fontFamily="Microsoft YaHei" size="23" width="195" height="23" horizontalCenter="56.5" y="214.33" textColor="0x573127" bold="true" textAlign="left"/>
+	<e:Label id="_idTxt" text="123456" anchorOffsetX="0" width="202" height="30" horizontalCenter="60" textColor="0x573127" size="23" bold="true" verticalCenter="-95.5" verticalAlign="middle" textAlign="left"/>
+	<e:Label id="_ipTxt" text="36.12.4556" anchorOffsetX="0" width="201" textAlign="left" height="30" horizontalCenter="60.5" textColor="0x573127" size="23" bold="true" verticalAlign="middle" verticalCenter="-57"/>
+
+
+	<e:Image id="_headMask" source="dlm_g_wjtouxiangk2" horizontalCenter="-180" y="201.68"/>
+	<e:Image id="_headMc" horizontalCenter="-180" y="201.68" width="126" height="129" source=""/>
+	<e:Image source="dlm_g_weizhi" horizontalCenter="-222.5" verticalCenter="-10.5"/>
+	<e:Label id="_posTxt" text="位置:深圳。。。。。" anchorOffsetX="0" textAlign="left" height="30" horizontalCenter="-61.5" textColor="0x573127" size="23" bold="true" verticalAlign="middle" verticalCenter="-4" width="289"/>
+	<e:Label id="_disTxt" text="距离:1000cm" anchorOffsetX="0" width="158" textAlign="left" height="30" horizontalCenter="170" textColor="0x573127" size="23" bold="true" verticalAlign="middle" verticalCenter="-4"/>
+	<e:Label id="_diamondTxt" text="1000" anchorOffsetX="0" width="201" textAlign="left" height="30" horizontalCenter="240" textColor="0x573127" size="23" bold="true" verticalAlign="middle" verticalCenter="-57"/>
+	<e:Button id="closeButton" y="200.52" horizontalCenter="221">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dlm_an_1guangbi_game"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+
+	<e:Label text="I D：" size="23" textColor="0x573127" fontFamily="Microsoft YaHei" bold="true" horizontalCenter="-60" verticalCenter="-95.5"/>
+	<e:Label text="I P：" size="23" textColor="0x573127" fontFamily="Microsoft YaHei" bold="true" horizontalCenter="-60" verticalCenter="-57"/>
+	<e:Image y="247.88" source="dlm_g_xx_xian" width="315" horizontalCenter="63.5"/>
+	<e:Image y="288.28" source="dlm_g_xx_xian" horizontalCenter="63" width="315"/>
+	<e:Image y="326.97" source="dlm_g_xx_xian" horizontalCenter="63" width="315"/>
+
+</e:Skin>

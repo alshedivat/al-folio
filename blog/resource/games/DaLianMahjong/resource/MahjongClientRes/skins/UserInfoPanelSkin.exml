@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="UserInfoPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="bgRect" left="0" top="0" right="0" bottom="0" alpha="0.4" anchorOffsetY="0" />
+	<e:Image source="public_client3" scale9Grid="29,28,55,56" width="868" height="518" anchorOffsetY="0" anchorOffsetX="0"
+	         verticalCenter="0" horizontalCenter="0" />
+	<e:Group id="headGroup" width="189" height="195" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-76" horizontalCenter="-184.5"></e:Group>
+	<e:Image id="headBg" width="220" height="230" verticalCenter="-76"  source="" horizontalCenter="-184"/>
+	<e:Label id="_nickTxt" fontFamily="SimHei" text="昵称：你好，世界" height="30" y="187" width="330" textColor="0xe53b1a"  horizontalCenter="95"/>
+	<e:Label id="_idTxt" fontFamily="SimHei" text="ID: 422002534" height="30" y="236" width="235"
+	         textColor="0xe53b1a"  horizontalCenter="47.5"/>
+	<e:Label id="_ipTxt" fontFamily="SimHei" text="IP: 172.288.293.223" height="30" y="292" width="300"
+	         textColor="0xe53b1a"  horizontalCenter="80"/>
+	<e:Label id="playerAddress" text="" width="460" fontFamily="SimHei" anchorOffsetX="0"
+	         size="25" textAlign="left" verticalAlign="middle" anchorOffsetY="0" top="341"  textColor="0xe53b1a" horizontalCenter="160"/>
+	<e:Label id="_distance" fontFamily="SimHei" text="" y="375.78" width="460"
+	         textColor="0xE53B1A"  size="25" horizontalCenter="160"/>
+	<e:Image id="_genderIcon" y="176"  source="userInfo_male" horizontalCenter="249"/>
+	<e:Button id="closeButton" y="104" horizontalCenter="381">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="public_client9" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0" />
+		</e:Skin>
+	</e:Button>
+</e:Skin>

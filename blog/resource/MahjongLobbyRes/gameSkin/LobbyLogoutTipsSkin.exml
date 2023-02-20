@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LobbyLogoutTipsSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="1100" height="600" horizontalCenter="0" verticalCenter="0" source="mjl_common_bj_3" scale9Grid="50,74,183,451"/>
+	<e:Button id="closeBtn" label="Button" skinName="MJ_CloseButton1Skin" right="60" top="30"/>
+	<e:Image source="lobby_logout_tips_png" horizontalCenter="0" verticalCenter="-50"/>
+	<e:Button id="applyBtn" label="" horizontalCenter="0" bottom="120">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="userInfo_shop_applyLogout_1" source.down="userInfo_shop_applyLogout_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="mjl_lobby_json.lobby_diamond" x="836" y="540"/>
+	<e:Label id="cost" text="X100" fontFamily="Microsoft YaHei" left="900" bottom="139"/>
+</e:Skin>

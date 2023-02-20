@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ClubItemSkin" width="384" height="338.66" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mjl_club_json.club_itemBg_2" left="0" right="0" top="0" scale9Grid="21,34,21,208"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" source="club_itemBg_1"/>
+	<e:Image source="mjl_club_json.club_match_id" left="68" top="14"/>
+	<e:BitmapLabel id="matchId" font="matchIdFont_fnt" text="123456" left="188" top="14" letterSpacing="-5"/>
+	<e:Label id="matchOwner" text="房主ID：123456 " fontFamily="Microsoft YaHei" size="24" verticalAlign="middle" lineSpacing="10" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" textColor="0x1c719a" left="23" top="106"/>
+	<e:Label id="matchName" text="包厢名称：123456" fontFamily="Microsoft YaHei" size="24" verticalAlign="middle" lineSpacing="10" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" textColor="0x1c719a" top="75" left="23"/>
+
+	<e:Label id="gameName" text="玩家匹配55555号321546(长按可)" fontFamily="Microsoft YaHei" size="28" textAlign="center" verticalAlign="middle" lineSpacing="10" anchorOffsetX="0" anchorOffsetY="0" width="384" height="28" horizontalCenter="0" top="146" textColor="0x1ca9c9"/>
+	<e:Label id="playName" text="玩家匹配55555号3" fontFamily="Microsoft YaHei" size="24" textAlign="center" verticalAlign="top" lineSpacing="10" anchorOffsetX="0" anchorOffsetY="0" width="384" horizontalCenter="0" top="181" textColor="0x1ca9c9" height="87"/>
+	<e:Button id="joinBtn" label="" horizontalCenter="-89" bottom="14" width="201" scaleX="0.6" scaleY="0.6">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="match_btn_join_1" source.down="match_btn_join_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:Button>
+	<e:Button id="extractBtn" label="" bottom="14" horizontalCenter="89" scaleX="0.6" scaleY="0.6">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_his_extractBtn_1" source.down="mjl_his_extractBtn_1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="clearBtn" y="14.66" left="337">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="house_delete_1" source.down="house_delete_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="playButton" label="" left="15" top="6">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_play_1" source.down="club_play_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+	<e:Group id="fundGroup" anchorOffsetY="0" top="205" horizontalCenter="1" anchorOffsetX="0" width="350">
+		<e:Image source="mjl_club_json.club_input" anchorOffsetX="0" width="253" verticalCenter="0"/>
+		<e:Label id="matchPoint" text="基金：1000" fontFamily="Microsoft YaHei" size="24" textAlign="right" verticalAlign="middle" lineSpacing="10" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" textColor="0x477a81" verticalCenter="0" left="6"/>
+		<e:Button id="historyButton" label="" x="290" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="house_history_1" source.down="house_history_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+	</e:Group>
+	<e:Group id="pointGroup" anchorOffsetY="0" left="8" top="186">
+		<e:Image source="mjl_club_json.club_input" left="0" right="0" top="0" bottom="0"/>
+		<e:Label id="bottomPoint" text="底注：100" size="24" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0x477a81" verticalCenter="0" left="6"/>
+	</e:Group>
+
+	<e:Group id="entranceGroup" anchorOffsetX="0" anchorOffsetY="0" right="9" width="368" top="185">
+		<e:Image source="mjl_club_json.club_input" x="188" y="0.67"/>
+		<e:Image source="mjl_club_json.club_input" y="43" x="0"/>
+		<e:Label id="enteringPoint" text="入场：100" size="24" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0x477a81" verticalCenter="-20.5" left="195"/>
+
+		<e:Label id="leavingPoint" text="离场：100" size="24" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0x477a81" verticalCenter="21.5" left="6"/>
+
+	</e:Group>
+
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChatRadioButton_ZJH_Skin" states="up,down,disabled" width="400" height="56"
+        xmlns:e="http://ns.egret.com/eui">
+	<e:Image scaleY.down="0.95" source="chat_fix_msg_bar_ZJH_png" scale9Grid="74,16,450,34" height="56"
+	         width="400" verticalCenter="0"  horizontalCenter="0"/>
+	<e:Label id="labelDisplay" verticalCenter="0" scaleY.down="0.8" bottom="0" textColor="0x163B41" size="24"
+	         text="2.各位真不好意思，我要离开一会"  left="22"/>
+</e:Skin>

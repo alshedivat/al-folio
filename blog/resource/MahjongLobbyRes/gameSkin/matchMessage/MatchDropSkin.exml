@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchDropSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down"  width.up="340" width.down="340" width="340">
+	<e:Group height="60" top="0" left="0" right="0">
+		<e:Group id="dropGroup" left="70" right="0" top="0" bottom="0">
+			<e:Image left="0" right="0" top="2" bottom="2" x="0" y="2" scaleX="1" scaleY="1" source="mjl_create_match_inputBg" scale9Grid="10,10,213,29"/>
+			<e:Button id="downBtn" label="" verticalCenter="0" right="0" x="277" y="4" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="match_history_down_btn_1" source.down="match_history_down_btn_2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="label" text="" horizontalCenter="-20" verticalCenter="3" fontFamily="Microsoft YaHei" size="28" x="140" y="33" scaleX="1" scaleY="1" textColor="0xffffff"/>
+			<e:Group id="dropDownGroup" height="180" left="0" top="55" visible.down="true" visible.up="false" right="50" touchEnabled="true" touchChildren="true" x="5" y="55" scaleX="1" scaleY="1">
+				<e:Image left="0" right="0" top="0" bottom="0" source="mjl_create_match_inputBg" scale9Grid="6,8,216,29"/>
+				<e:Scroller id="dropSc" anchorOffsetX="0" left="0" scaleX="1" scaleY="1" top="0" touchEnabled="true" touchChildren="true" throwSpeed="0.2" right="0" bottom="0">
+				<e:List id="dropList" touchEnabled="true" touchChildren="true" useVirtualLayout="true" itemRendererSkinName="MatchDropItemSkin"/>
+				</e:Scroller>
+			</e:Group>
+		</e:Group>
+		<e:Label id="titleLabel" text="标题" verticalCenter="0" left="0" fontFamily="Microsoft YaHei"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

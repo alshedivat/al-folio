@@ -1,0 +1,28 @@
+{"mc":{
+	"farmer_laugh":{
+		"frameRate":6,
+		"labels":[
+			{"name":"farmer_cry","frame":1,"end":2}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"farmer2_1_png",
+			"x":2,
+			"y":0
+			},
+			{
+			"res":"farmer2_2_png",
+			"x":0,
+			"y":16
+			}
+			]
+}},
+	"res":{
+		"farmer2_1_png":{"x":0,"y":185,"w":165,"h":199},
+		"farmer2_2_png":{"x":0,"y":0,"w":182,"h":183}
+	}}

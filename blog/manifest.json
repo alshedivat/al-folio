@@ -1,0 +1,20 @@
+{
+	"initial": [
+        "libs/modules/egret/egret.min.js",
+        "libs/modules/egret/egret.web.min.js",
+        "libs/modules/socket/socket.min.js",
+        "libs/modules/game/game.min.js",
+        "libs/modules/res/res.min.js",
+        "libs/modules/tween/tween.min.js",
+        "libs/modules/eui/eui.min.js",
+        "libs/modules/uniLib/uniLib.min.js",
+        "libs/modules/dragonBones/dragonBones.min.js",
+        "pureMvc/bin/pureMvc/pureMvc.min.js",
+        "libs/modules/mahjongClientLib/mahjongClientLib.min.js",
+        "libs/modules/pokerClientLib/pokerClientLib.min.js",
+        "libs/modules/mahjongLobbyLib/mahjongLobbyLib.min.js"
+	],
+	"game": [
+		"main.min.js?v=1"
+	]
+}

@@ -1,0 +1,195 @@
+{
+  "file": "gps.png",
+  "frames": {
+    "gps_1": {
+      "x": 187,
+      "y": 506,
+      "w": 61,
+      "h": 73,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 61,
+      "sourceH": 73
+    },
+    "gps_2": {
+      "x": 0,
+      "y": 687,
+      "w": 68,
+      "h": 76,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 68,
+      "sourceH": 76
+    },
+    "gps_3": {
+      "x": 0,
+      "y": 632,
+      "w": 101,
+      "h": 54,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 103,
+      "sourceH": 56
+    },
+    "gps_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 615,
+      "h": 287,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 615,
+      "sourceH": 287
+    },
+    "gps_btn_1": {
+      "x": 102,
+      "y": 632,
+      "w": 54,
+      "h": 50,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 54,
+      "sourceH": 50
+    },
+    "gps_btn_2": {
+      "x": 304,
+      "y": 436,
+      "w": 54,
+      "h": 49,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 54,
+      "sourceH": 49
+    },
+    "gps_tip": {
+      "x": 304,
+      "y": 288,
+      "w": 493,
+      "h": 61,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 493,
+      "sourceH": 61
+    },
+    "line_1_01": {
+      "x": 0,
+      "y": 288,
+      "w": 303,
+      "h": 108,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 303,
+      "sourceH": 108
+    },
+    "line_1_02": {
+      "x": 616,
+      "y": 86,
+      "w": 124,
+      "h": 195,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 124,
+      "sourceH": 195
+    },
+    "line_1_03": {
+      "x": 601,
+      "y": 350,
+      "w": 181,
+      "h": 118,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 181,
+      "sourceH": 118
+    },
+    "line_1_12": {
+      "x": 783,
+      "y": 401,
+      "w": 186,
+      "h": 95,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 186,
+      "sourceH": 95
+    },
+    "line_1_13": {
+      "x": 0,
+      "y": 602,
+      "w": 477,
+      "h": 14,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 477,
+      "sourceH": 14
+    },
+    "line_1_23": {
+      "x": 616,
+      "y": 0,
+      "w": 296,
+      "h": 85,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 296,
+      "sourceH": 85
+    },
+    "line_2_01": {
+      "x": 0,
+      "y": 397,
+      "w": 303,
+      "h": 108,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 303,
+      "sourceH": 108
+    },
+    "line_2_02": {
+      "x": 741,
+      "y": 86,
+      "w": 124,
+      "h": 195,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 124,
+      "sourceH": 195
+    },
+    "line_2_03": {
+      "x": 798,
+      "y": 282,
+      "w": 181,
+      "h": 118,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 181,
+      "sourceH": 118
+    },
+    "line_2_12": {
+      "x": 0,
+      "y": 506,
+      "w": 186,
+      "h": 95,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 186,
+      "sourceH": 95
+    },
+    "line_2_13": {
+      "x": 0,
+      "y": 617,
+      "w": 477,
+      "h": 14,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 477,
+      "sourceH": 14
+    },
+    "line_2_23": {
+      "x": 304,
+      "y": 350,
+      "w": 296,
+      "h": 85,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 296,
+      "sourceH": 85
+    }
+  }
+}

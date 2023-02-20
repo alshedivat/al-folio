@@ -1,0 +1,175 @@
+{
+  "file": "settingPanel.png",
+  "frames": {
+    "set_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 792,
+      "h": 574,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 792,
+      "sourceH": 574
+    },
+    "set_bg_icon": {
+      "x": 793,
+      "y": 105,
+      "w": 90,
+      "h": 30,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 100,
+      "sourceH": 30
+    },
+    "set_checkBox1": {
+      "x": 793,
+      "y": 0,
+      "w": 119,
+      "h": 44,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 119,
+      "sourceH": 45
+    },
+    "set_checkBox2": {
+      "x": 0,
+      "y": 782,
+      "w": 119,
+      "h": 45,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 119,
+      "sourceH": 45
+    },
+    "set_dialect": {
+      "x": 60,
+      "y": 828,
+      "w": 96,
+      "h": 31,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 96,
+      "sourceH": 31
+    },
+    "set_dissmiss1": {
+      "x": 0,
+      "y": 575,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "set_dissmiss2": {
+      "x": 0,
+      "y": 644,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "set_icon_blue": {
+      "x": 793,
+      "y": 45,
+      "w": 53,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 53,
+      "sourceH": 59
+    },
+    "set_icon_green": {
+      "x": 240,
+      "y": 644,
+      "w": 53,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 53,
+      "sourceH": 59
+    },
+    "set_language_icon": {
+      "x": 847,
+      "y": 45,
+      "w": 99,
+      "h": 28,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 100,
+      "sourceH": 30
+    },
+    "set_music_icon": {
+      "x": 120,
+      "y": 782,
+      "w": 91,
+      "h": 28,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 100,
+      "sourceH": 30
+    },
+    "set_putong": {
+      "x": 0,
+      "y": 889,
+      "w": 96,
+      "h": 30,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 96,
+      "sourceH": 31
+    },
+    "set_radioBtn1": {
+      "x": 180,
+      "y": 644,
+      "w": 59,
+      "h": 60,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 59,
+      "sourceH": 60
+    },
+    "set_radioBtn2": {
+      "x": 0,
+      "y": 828,
+      "w": 59,
+      "h": 60,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 59,
+      "sourceH": 60
+    },
+    "set_refresh1": {
+      "x": 0,
+      "y": 713,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "set_refresh2": {
+      "x": 180,
+      "y": 575,
+      "w": 179,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 68
+    },
+    "set_sound_icon": {
+      "x": 180,
+      "y": 705,
+      "w": 100,
+      "h": 30,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 100,
+      "sourceH": 30
+    }
+  }
+}

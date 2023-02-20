@@ -1,0 +1,14 @@
+[
+{"id":1,"gameId":5066,"multi":1,"priority":2,"cartoon":"","name":"七对","disable":[]},
+{"id":2,"gameId":5066,"multi":1,"priority":1,"cartoon":"","name":"平和","disable":[]},
+{"id":1,"gameId":5235,"multi":1,"priority":2,"cartoon":"","name":"七对","disable":[]},
+{"id":2,"gameId":5235,"multi":1,"priority":1,"cartoon":"","name":"平和","disable":[]},
+{"id":1,"gameId":5245,"multi":1,"priority":2,"cartoon":"","name":"七对","disable":[]},
+{"id":2,"gameId":5245,"multi":1,"priority":1,"cartoon":"","name":"平和","disable":[]},
+{"id":1,"gameId":5262,"multi":1,"priority":2,"cartoon":"","name":"七对","disable":[]},
+{"id":2,"gameId":5262,"multi":1,"priority":1,"cartoon":"","name":"平和","disable":[]},
+{"id":1,"gameId":5301,"multi":1,"priority":2,"cartoon":"","name":"七对","disable":[]},
+{"id":2,"gameId":5301,"multi":1,"priority":1,"cartoon":"","name":"平和","disable":[]},
+{"id":1,"gameId":5302,"multi":1,"priority":2,"cartoon":"","name":"七对","disable":[]},
+{"id":2,"gameId":5302,"multi":1,"priority":1,"cartoon":"","name":"平和","disable":[]}
+]

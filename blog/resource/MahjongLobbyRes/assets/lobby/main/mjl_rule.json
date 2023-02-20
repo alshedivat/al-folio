@@ -1,0 +1,75 @@
+{
+  "file": "mjl_rule.png",
+  "frames": {
+    "mjl_rule_btn_0": {
+      "x": 0,
+      "y": 0,
+      "w": 232,
+      "h": 80,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 232,
+      "sourceH": 80
+    },
+    "mjl_rule_btn_1": {
+      "x": 0,
+      "y": 81,
+      "w": 232,
+      "h": 80,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 232,
+      "sourceH": 80
+    },
+    "mjl_rule_icon": {
+      "x": 0,
+      "y": 216,
+      "w": 105,
+      "h": 29,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 105,
+      "sourceH": 29
+    },
+    "mjl_rule_result_icon": {
+      "x": 233,
+      "y": 30,
+      "w": 54,
+      "h": 29,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 54,
+      "sourceH": 29
+    },
+    "mjl_rule_special_icon": {
+      "x": 106,
+      "y": 216,
+      "w": 105,
+      "h": 29,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 105,
+      "sourceH": 29
+    },
+    "mjl_rule_title": {
+      "x": 0,
+      "y": 162,
+      "w": 209,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 209,
+      "sourceH": 53
+    },
+    "mjl_rulr_multi_icon": {
+      "x": 233,
+      "y": 0,
+      "w": 105,
+      "h": 29,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 105,
+      "sourceH": 29
+    }
+  }
+}

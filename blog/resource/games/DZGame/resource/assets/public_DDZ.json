@@ -1,0 +1,145 @@
+{
+  "file": "public_DDZ.png",
+  "frames": {
+    "operate_bg": {
+      "x": 0,
+      "y": 601,
+      "w": 198,
+      "h": 145,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 198,
+      "sourceH": 145
+    },
+    "public_DDZ2": {
+      "x": 611,
+      "y": 0,
+      "w": 116,
+      "h": 177,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 118,
+      "sourceH": 177
+    },
+    "public_DDZ3": {
+      "x": 0,
+      "y": 304,
+      "w": 571,
+      "h": 210,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 573,
+      "sourceH": 210
+    },
+    "public_DDZ4": {
+      "x": 0,
+      "y": 515,
+      "w": 474,
+      "h": 85,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 474,
+      "sourceH": 85
+    },
+    "public_DDZ5": {
+      "x": 728,
+      "y": 0,
+      "w": 86,
+      "h": 88,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 87,
+      "sourceH": 88
+    },
+    "public_DDZ6": {
+      "x": 815,
+      "y": 0,
+      "w": 45,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 45,
+      "sourceH": 46
+    },
+    "public_DDZ7": {
+      "x": 728,
+      "y": 89,
+      "w": 45,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 45,
+      "sourceH": 46
+    },
+    "public_DDZ8": {
+      "x": 611,
+      "y": 178,
+      "w": 73,
+      "h": 72,
+      "offX": 6,
+      "offY": 3,
+      "sourceW": 82,
+      "sourceH": 78
+    },
+    "public_DDZ9": {
+      "x": 0,
+      "y": 747,
+      "w": 88,
+      "h": 86,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 90,
+      "sourceH": 88
+    },
+    "room_TDK_bg1": {
+      "x": 0,
+      "y": 0,
+      "w": 610,
+      "h": 303,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 610,
+      "sourceH": 303
+    },
+    "room_TDK_bg2": {
+      "x": 199,
+      "y": 601,
+      "w": 93,
+      "h": 43,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 93,
+      "sourceH": 43
+    },
+    "room_TDK_icon1": {
+      "x": 0,
+      "y": 834,
+      "w": 35,
+      "h": 8,
+      "offX": 53,
+      "offY": 21,
+      "sourceW": 142,
+      "sourceH": 50
+    },
+    "room_TDK_line1": {
+      "x": 89,
+      "y": 747,
+      "w": 2,
+      "h": 39,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 2,
+      "sourceH": 39
+    },
+    "room_TDK_line2": {
+      "x": 92,
+      "y": 747,
+      "w": 39,
+      "h": 2,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 39,
+      "sourceH": 2
+    }
+  }
+}

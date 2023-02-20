@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MailInfoPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mjl_common_json.common_title_bg" y="87" horizontalCenter="0"/>
+	<e:Image id="brackground"
+	          verticalCenter="36.5" source="mjl_common_bj_3" scale9Grid="53,66,177,470" anchorOffsetX="0" width="838.58" anchorOffsetY="0" height="439.06" horizontalCenter="0"/>
+	<e:Image id="titleInfo" source="emai_player_info" horizontalCenter="0" top="114"/>
+	<e:Group id="mailInfo" width="753" height="334.91" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" top="230">
+		<e:Label id="titleLabel" text="标题" size="30" textAlign="left" anchorOffsetX="0" width="320"
+		         fontFamily="黑体" left="14" x="183" scaleX="1" scaleY="1" verticalAlign="middle"  textColor="0xffffff" top="10"/>
+		<e:Label id="timeLabel" text="2017/10/18" size="30" textAlign="left" anchorOffsetX="0"
+		         width="167.33" fontFamily="黑体" scaleX="1" scaleY="1"  textColor="0xffffff" right="0" top="10"/>
+		<e:Label id="informationLabel" text="" size="30" anchorOffsetX="0" width="580" anchorOffsetY="0" horizontalCenter="0.5"
+		         fontFamily="黑体" height="190" x="273" scaleX="1" scaleY="1" lineSpacing="5"  textColor="0xffffff" top="60"/>
+		<e:Label id="moneyLabel" text="cdkey:23546" size="30" verticalCenter="146" textAlign="left" anchorOffsetX="0" width="200"
+		         left="37" x="316" y="302" scaleX="1" scaleY="1"  height="30" textColor="0xffffff" visible="false"/>
+		<e:Button id="getBtn" scaleX="1" scaleY="1" horizontalCenter="0" enabled="true" bottom="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image source="email_btn_get" source.disabled="email_btn_getted" scaleX.down="0.99" scaleY.down="0.99"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="userInfo" width="753" height="350" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5"
+	         top="220">
+
+		<e:Label text="电话：" y="40" size="35" fontFamily="SimHei" textAlign="right" textColor="0xffffff" right="495"/>
+		<e:Label text="地址：" y="130" size="35" fontFamily="SimHei" textAlign="right" textColor="0xffffff" right="495" width="105" visible="false"/>
+		<e:Label text="微信：" y="117.58" size="35" fontFamily="SimHei" textColor="0xffffff" right="495"/>
+		<e:Label text="兑换码：" y="190.61" size="35" fontFamily="SimHei" textColor="0xffffff" right="495"/>
+		<e:Button id="awardButton" scaleX="1" scaleY="1" horizontalCenter="0" enabled="true" bottom="5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_commonBtn_sure_1" source.down="mjl_commonBtn_sure_2" source.disabled="email_btn_getted"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+		<e:TextInput id="inputPhone" width="370" height="46" x="262" anchorOffsetX="0" anchorOffsetY="0"
+		             maxChars="12" y="35">
+			<e:Skin width="160" height="46" minHeight="40" minWidth="300"
+			        states="normal,disabled,normalWithPrompt,disabledWithPrompt">
+				<e:Image source="mjl_create_match_inputBg" anchorOffsetX="0" width="370"  height="45" />
+				<e:EditableText id="textDisplay" textColor.disabled="0xffffff" height="45" size="24" fontFamily="黑体"
+				                verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" y="1" width="360" x="5" textAlign="left"
+				                prompt="请输入电话号码" textColor="0xffffff" promptColor="0xe8f3fa"/>
+				<e:Label id="promptDisplay" verticalCenter="0" left="10" right="10" width="100%" y="2" height="45" size="35"
+				         touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" fontFamily="黑体" textAlign="left"
+				         textColor="0xffffff" />
+			</e:Skin>
+		</e:TextInput>
+		<e:TextInput id="inputAddress" width="370" height="46" x="262" y="145" anchorOffsetX="0" anchorOffsetY="0"
+		             maxChars="12" visible="false">
+			<e:Skin width="160" height="46" minHeight="40" minWidth="300"
+			        states="normal,disabled,normalWithPrompt,disabledWithPrompt">
+				<e:Image source="mjl_create_match_inputBg" anchorOffsetX="0" width="370"  height="45" />
+				<e:EditableText id="textDisplay" textColor.disabled="0xffffff" height="45" size="24" fontFamily="黑体"
+				                verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" y="1" width="360" x="5" textAlign="left"
+				                prompt="请输入地址" textColor="0xffffff" promptColor="0xe8f3fa" />
+				<e:Label id="promptDisplay" verticalCenter="0" left="10" right="10" width="100%" y="2" height="45" size="35"
+				         touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" fontFamily="黑体" textAlign="left"
+				         textColor="0xffffff" />
+			</e:Skin>
+		</e:TextInput>
+		<e:TextInput id="inputWeChat" width="370" height="46" x="261.98" anchorOffsetX="0" anchorOffsetY="0" maxChars="12" y="111.05">
+			<e:Skin width="160" height="46" minHeight="40" minWidth="300" states="normal,disabled,normalWithPrompt,disabledWithPrompt">
+			<e:Image source="mjl_create_match_inputBg" anchorOffsetX="0" width="370" height="45"/>
+			<e:EditableText id="textDisplay" textColor.disabled="0xffffff" height="45" size="24" fontFamily="黑体" verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" y="1" width="360" x="5" textAlign="left" prompt="请输入微信号" textColor="0xffffff" promptColor="0xe8f3fa"/>
+			<e:Label id="promptDisplay" verticalCenter="0" left="10" right="10" width="100%" y="2" height="45" size="35" touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" fontFamily="黑体" textAlign="left" textColor="0xffffff"/>
+			</e:Skin>
+		</e:TextInput>
+		<e:TextInput id="inputCode" width="370" height="46" x="261.98" anchorOffsetX="0" anchorOffsetY="0"
+		             maxChars="12" y="185.61">
+			<e:Skin width="160" height="46" minHeight="40" minWidth="300"
+			        states="normal,disabled,normalWithPrompt,disabledWithPrompt">
+				<e:Image source="mjl_create_match_inputBg" anchorOffsetX="0" width="370" height="45" />
+				<e:EditableText id="textDisplay" textColor.disabled="0xffffff" height="45" size="24" fontFamily="黑体"
+				                verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" y="1" width="360" x="5" textAlign="left"
+				                prompt="请输入兑换码" textColor="0xffffff" promptColor="0xe8f3fa"/>
+				<e:Label id="promptDisplay" verticalCenter="0" left="10" right="10" width="100%" y="2" height="45" size="35"
+				         touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" fontFamily="黑体" textAlign="left"
+				         textColor="0xffffff" />
+			</e:Skin>
+		</e:TextInput>
+	</e:Group>
+	<e:Button id="closeBtn" verticalCenter="-166" horizontalCenter="420.5" skinName="MJ_CloseButton1Skin">
+	</e:Button>
+</e:Skin>

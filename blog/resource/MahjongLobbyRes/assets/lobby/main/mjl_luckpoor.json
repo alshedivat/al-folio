@@ -1,0 +1,185 @@
+{
+  "file": "mjl_luckpoor.png",
+  "frames": {
+    "luck_icon": {
+      "x": 0,
+      "y": 136,
+      "w": 288,
+      "h": 236,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 288,
+      "sourceH": 236
+    },
+    "mjl_luck_btn_close": {
+      "x": 179,
+      "y": 568,
+      "w": 73,
+      "h": 73,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 73,
+      "sourceH": 73
+    },
+    "mjl_luck_btn_close_down": {
+      "x": 273,
+      "y": 484,
+      "w": 73,
+      "h": 73,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 73,
+      "sourceH": 73
+    },
+    "mjl_luck_btn_start": {
+      "x": 0,
+      "y": 484,
+      "w": 178,
+      "h": 178,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 178,
+      "sourceH": 179
+    },
+    "mjl_luck_count_bg": {
+      "x": 289,
+      "y": 136,
+      "w": 542,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 542,
+      "sourceH": 64
+    },
+    "mjl_luck_daily_leave_for": {
+      "x": 446,
+      "y": 201,
+      "w": 142,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 142,
+      "sourceH": 59
+    },
+    "mjl_luck_daily_leave_for_down": {
+      "x": 0,
+      "y": 663,
+      "w": 142,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 142,
+      "sourceH": 59
+    },
+    "mjl_luck_daily_task_bg": {
+      "x": 179,
+      "y": 484,
+      "w": 93,
+      "h": 83,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 93,
+      "sourceH": 83
+    },
+    "mjl_luck_finish": {
+      "x": 446,
+      "y": 261,
+      "w": 74,
+      "h": 89,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 74,
+      "sourceH": 89
+    },
+    "mjl_luck_icon_award": {
+      "x": 77,
+      "y": 723,
+      "w": 76,
+      "h": 67,
+      "offX": 9,
+      "offY": 18,
+      "sourceW": 93,
+      "sourceH": 90
+    },
+    "mjl_luck_icon_bg": {
+      "x": 0,
+      "y": 723,
+      "w": 76,
+      "h": 73,
+      "offX": 9,
+      "offY": 17,
+      "sourceW": 93,
+      "sourceH": 90
+    },
+    "mjl_luck_icon_bg2": {
+      "x": 521,
+      "y": 261,
+      "w": 93,
+      "h": 57,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 93,
+      "sourceH": 90
+    },
+    "mjl_luck_jackpot_item": {
+      "x": 289,
+      "y": 201,
+      "w": 156,
+      "h": 167,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 156,
+      "sourceH": 167
+    },
+    "mjl_luck_no_progress_bar": {
+      "x": 446,
+      "y": 351,
+      "w": 33,
+      "h": 14,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 33,
+      "sourceH": 14
+    },
+    "mjl_luck_pointer": {
+      "x": 0,
+      "y": 797,
+      "w": 80,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 80,
+      "sourceH": 65
+    },
+    "mjl_luck_progress_bar": {
+      "x": 589,
+      "y": 201,
+      "w": 40,
+      "h": 14,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 40,
+      "sourceH": 14
+    },
+    "mjl_luck_title": {
+      "x": 0,
+      "y": 373,
+      "w": 545,
+      "h": 110,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 545,
+      "sourceH": 110
+    },
+    "mjl_luck_title_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 1278,
+      "h": 135,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 1278,
+      "sourceH": 135
+    }
+  }
+}

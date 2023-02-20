@@ -1,0 +1,12 @@
+﻿<font color='#626262 ' size=24>主要牌型: </font>
+<font color='#626262 ' size=24>单张、对子</font>
+<font color='#626262 ' size=24>三张、连对</font>
+<font color='#626262 ' size=24>单顺、双顺</font>
+<font color='#626262 ' size=24>三顺、飞机</font>
+<font color='#626262 ' size=24>炸弹</font>
+<font color='#626262 ' size=24>三带一/带对</font>
+<font color='#626262 ' size=24>四带一/带对</font>
+
+<font color='#626262 ' size=24>结算规则：</font>
+<font color='#626262 ' size=24>底分×倍数</font>
+<font color='#626262 ' size=24>倍数：炸弹×2  春天×2  反春天×2</font>

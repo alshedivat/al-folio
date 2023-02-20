@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedPacketPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image anchorOffsetY="0" horizontalCenter="0"
+              verticalCenter="16" height="646.33" width="966" scale9Grid="95,129,126,391" source="mjl_common_bj_1"/>
+	<e:Image anchorOffsetY="0" horizontalCenter="0" verticalCenter="11.5" height="627.33" width="944" source="mjl_common_bj_2" scale9Grid="95,129,126,391"/>
+	<e:Image anchorOffsetY="0" horizontalCenter="0" verticalCenter="37" height="548.33" width="914" source="room_round" scale9Grid="41,43,24,17"/>
+    <e:Button id="closeButton"  x="1036.99" y="52.61" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="MJ_CloseButton1Skin">
+    </e:Button>
+    <e:Image source="mjl_redpacket_title" horizontalCenter="0" top="68" />
+    <e:Image source="mjl_redpacket_red" x="738.56" y="174.99" />
+    <e:Button id="openButton" label="Button" x="805.56" y="204.43" width="221" height="224">
+        <e:Skin states="up,down,disabled">
+            <e:Image source="mjl_redpacket_open" source.down="mjl_redpacket_open1" />
+            <e:Label width="221" height="224" />
+        </e:Skin>
+    </e:Button>
+    <e:Label id="_redSumTxt" text="累计红包金额:0元" x="740.64" y="140.6" size="35" anchorOffsetX="0" width="354.07"
+             textAlign="center" verticalAlign="middle" fontFamily="SimHei" />
+    <e:Label id="wechatLabel" text="如有疑问联系客服fhsk0822(微信)" x="737" y="641" size="22" anchorOffsetX="0" width="372"
+             textAlign="center" verticalAlign="middle" fontFamily="SimHei" height="26"  textColor="0xccc1c1"/>
+    <e:Label id="_redDisparity" text="距离提现还少10.00元,快招呼小伙伴们多来几局吧" x="777.61" y="541.67" size="24" anchorOffsetX="0"
+             width="283.34" textAlign="left" verticalAlign="middle" fontFamily="SimHei" height="74" textColor="0xf18d6a"
+             anchorOffsetY="0" lineSpacing="10" />
+    <e:Label id="_redTimeTxt" text="286天4小时" x="782.61" y="492.99" size="40" anchorOffsetX="0" width="267.68"
+             textAlign="center" verticalAlign="middle" fontFamily="SimHei" anchorOffsetY="0" lineSpacing="10"
+             textColor="0xf3bc51" />
+    <e:RadioButton id="todayButton" label="今日开奖情况" x="257.37" y="135" groupName="matchUp"
+                   anchorOffsetX="0" anchorOffsetY="0">
+        <e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+            <e:Image source="mjl_redpacket_menu1_1" includeIn="upAndSelected,downAndSelected" />
+            <e:Image source="mjl_redpacket_menu1_2" includeIn="up,down" />
+        </e:Skin>
+    </e:RadioButton>
+    <e:RadioButton id="histroyButton" label="提现详情" x="452.14" y="135" groupName="matchUp"
+                   anchorOffsetX="0" anchorOffsetY="0">
+        <e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+            <e:Image source="mjl_redpacket_menu2_1" includeIn="upAndSelected,downAndSelected" />
+            <e:Image source="mjl_redpacket_menu2_2" includeIn="up,down" />
+        </e:Skin>
+    </e:RadioButton>
+    <e:Group id="groupN" width="540" height="470" x="195" y="190" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<e:Image source="mjl_redpacket_json.mjl_redpacket_bg" anchorOffsetX="0" scale9Grid="11,12,29,27" anchorOffsetY="0" scaleX="1" scaleY="1" left="-3" right="-3" top="-3" bottom="249"/>
+        <e:Image source="mjl_redpacket_detail_bg" x="0" anchorOffsetX="0" width="540" anchorOffsetY="0" height="247"
+                 bottom="0" />
+        <e:Image source="mjl_redpacket_line"  left="0" right="0" bottom="247"/>
+        <e:Label id="timeLabel" text="2017年9月28日-2018年10月4日" x="93" y="230" size="24" anchorOffsetX="0" width="406"
+                 textAlign="left" verticalAlign="middle" fontFamily="SimHei" height="26" textColor="0x2e57fa" />
+        <e:Scroller width="540" height="215" x="0" y="0" anchorOffsetY="0">
+            <e:List id="prizeList" />
+        </e:Scroller>
+    </e:Group>
+    <e:Group id="groupM" width="540" height="470" x="195" y="190" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image source="mjl_redpacket_json.mjl_redpacket_bg" anchorOffsetX="0" scale9Grid="11,12,29,27" anchorOffsetY="0" scaleX="1" scaleY="1" left="-3" right="-3" top="-3" bottom="-3" x="-3" y="-3"/>
+        <e:Image id="noDataImage" source="mjl_redpacket_json.mjl_redpacket_norecord" horizontalCenter="0"
+                 verticalCenter="0" />
+        <e:Scroller anchorOffsetY="0" left="0" right="0" top="0" bottom="0">
+            <e:List id="myprizeList" />
+        </e:Scroller>
+    </e:Group>
+</e:Skin>

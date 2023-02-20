@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PDK_SettingSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1280" height="720">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.5"/>
+	<e:Image source="game_common2" y="104.96" anchorOffsetY="0" scale9Grid="103,85,623,376" horizontalCenter="0.5"/>
+	<e:Button id="closeButton" label="Button" y="107.65" skinName="PDK_CloseButtonSkin" width="133.73" height="72" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="348"/>
+	<e:Image source="setword" y="130.17" horizontalCenter="0.5"/>
+	<e:Label text="音 效" y="233.19" size="32" fontFamily="黑体" horizontalCenter="-257"/>
+	<e:Label text="音 乐" y="329.14" size="32" fontFamily="黑体" horizontalCenter="-257"/>
+	<e:Label id="lanauageTitile" text="语 言" y="426.28" size="32" fontFamily="黑体" horizontalCenter="-257"/>
+	<e:HSlider id="soundSlider" height="48" value="50" maximum="100" anchorOffsetX="0" y="225.19" horizontalCenter="8">
+		<e:Skin>
+			<e:Image id="track" source="slideBg"  verticalCenter="0"/>
+			<e:Button id="trackHighlight" verticalCenter="0" width="392">
+				<e:Skin states="up,down,disabled">
+					<e:Image source="slide" left="5" verticalCenter="-1" right="-30" scale9Grid="9,6,6,5"/>
+				</e:Skin>
+			</e:Button>
+			<e:Image id="thumb" source="dice" verticalCenter="0" />
+		</e:Skin>
+	</e:HSlider>
+	<e:HSlider id="musicSlider" height="48" value="50" maximum="100" anchorOffsetX="0" y="321.14" horizontalCenter="8">
+		<e:Skin>
+		<e:Image id="track" source="slideBg" verticalCenter="0"/>
+		<e:Button id="trackHighlight" verticalCenter="0" width="392">
+			<e:Skin states="up,down,disabled">
+				<e:Image source="slide" verticalCenter="-1" left="5" right="-30" scale9Grid="9,6,6,5"/>
+			</e:Skin>
+		</e:Button>
+		<e:Image id="thumb" source="dice" verticalCenter="0"/>
+		</e:Skin>
+	</e:HSlider>
+	<e:ToggleButton id="soundButton" y="214.19" horizontalCenter="270.5">
+		<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" currentState="up,down">
+			<e:Image source="soundClose" includeIn="up,down" />
+			<e:Image source="soundOpen" includeIn="upAndSelected,downAndSelected" />
+		</e:Skin>
+	</e:ToggleButton>
+	<e:ToggleButton id="musciButton" y="307.81" label="" horizontalCenter="271">
+		<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" currentState="up,down">
+			<e:Image source="musicClose" includeIn="up,down" />
+			<e:Image source="musicOpen" includeIn="upAndSelected,downAndSelected" />
+		</e:Skin>
+	</e:ToggleButton>
+	<e:RadioButton id="mandarinRadioButton" label="普通话" y="421.95" anchorOffsetX="0" width="160" anchorOffsetY="0" groupName="mandarin" horizontalCenter="-68">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="checkout_down" verticalCenter="0"/>
+			<e:Image source="checkout_select" verticalCenter="0" x="-2" visible="false" visible.down="true"/>
+			<e:Label id="labelDisplay" verticalCenter="0" right="0"/>
+			<e:Label width="100%" height="100%"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="dialectRadioButton" label="长沙话" y="421.95" anchorOffsetX="0" width="160" anchorOffsetY="0"  groupName="mandarin" horizontalCenter="178">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="checkout_down" verticalCenter="0"/>
+			<e:Image source="checkout_select" verticalCenter="0" x="-2" visible="false" visible.down="true"/>
+			<e:Label id="labelDisplay" verticalCenter="0" right="0"/>
+			<e:Label width="100%" height="100%"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:Label text="声 控" x="342.98" y="472.34" size="32" fontFamily="黑体" visible="false"/>
+	<e:RadioButton id="voiceControlOpenRadioButton" label="开" x="492.96" y="469.34" anchorOffsetX="0" width="160" anchorOffsetY="0"  groupName="voiceControl" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="checkout_down"  verticalCenter="0"/>
+			<e:Image source="checkout_select" verticalCenter="0" x="-2" visible="false" visible.down="true"/>
+			<e:Label id="labelDisplay" verticalCenter="0" right="0"/>
+			<e:Label width="100%" height="100%"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="voiceControlCloseRadioButton" label="关" x="738.42" y="469.34" anchorOffsetX="0" width="160" anchorOffsetY="0" groupName="voiceControl" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="checkout_down" verticalCenter="0"/>
+			<e:Image source="checkout_select" verticalCenter="0" x="-2" visible="false" visible.down="true"/>
+			<e:Label id="labelDisplay" verticalCenter="0" right="0"/>
+			<e:Label width="100%" height="100%"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:Button id="dismissButton" y="488.05" anchorOffsetX="0" anchorOffsetY="0" width="227" height="77" horizontalCenter="-153.5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="dismiss"  scaleX.down="0.9" scaleY.down="0.9" verticalCenter="0" horizontalCenter="0"/>
+			<e:Label id="labelDisplay" verticalCenter="0" right="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="replaceButton" y="488.05" anchorOffsetX="0" anchorOffsetY="0" width="227" height="77" horizontalCenter="176.5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="replace"  scaleX.down="0.9" scaleY.down="0.9" verticalCenter="0" horizontalCenter="0"/>
+			<e:Label id="labelDisplay" verticalCenter="0" right="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

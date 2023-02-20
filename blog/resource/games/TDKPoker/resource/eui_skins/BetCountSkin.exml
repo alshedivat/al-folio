@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BetCountSkin" width="230" height="33" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="current_num_bg" left="110"/>
+	<e:Image source="total_num_bg" left="0"/>
+	<e:Label id="totalNum" text="" size="23" fontFamily="Microsoft YaHei" textColor="0xffe6a4" verticalCenter="0" horizontalCenter="-49"/>
+	<e:Label id="curNum" text="" size="23" fontFamily="Microsoft YaHei" textColor="0xFFE6A4" verticalCenter="0" horizontalCenter="74.5"/>
+</e:Skin>

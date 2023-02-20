@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Chat_DDZ_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Rect id="bgRect" left="0" right="0" top="0" bottom="0" alpha="0.3" fillColor="0x000000"/>
+	<e:Image anchorOffsetX="0" scale9Grid="32,25,62,39" anchorOffsetY="0" horizontalCenter="0" source="dlm_ej_bg_1_game_png" verticalCenter="0" width="750"/>
+
+
+	<e:Image y="118" horizontalCenter="21.5" source="dlm_g_liaotian"/>
+	<e:Image horizontalCenter="-186.5" source="dlm_g_ltq" width="363" height="320" top="193" anchorOffsetX="0"/>
+
+
+
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" height="320" width="370" horizontalCenter="183" top="193">
+		<e:Image left="0" top="0" bottom="0" source="dlm_g_lts" anchorOffsetX="0" right="0"/>
+		<e:Scroller id="chatScroller" width="370" height="320" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" verticalCenter="0" horizontalCenter="0">
+		<e:Group id="chatGroup" y="10.61" x="21.21" anchorOffsetY="0"/>
+		</e:Scroller>
+
+
+
+	</e:Group>
+	<e:Scroller id="faceScroller" width="361" height="320" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-185.5" top="193">
+		<e:Group id="faceGroup" height="320" width="361">
+		<e:layout>
+			<e:TileLayout horizontalGap="30" verticalGap="30"/>
+		</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:RadioButton id="chatRadioButton" y="324.57" label="" groupName="chattype" selected="true" horizontalCenter="-201">
+
+
+	</e:RadioButton>
+	<e:RadioButton id="faceRadioButton" y="149.11" label="" groupName="chattype" horizontalCenter="-201">
+
+	</e:RadioButton>
+	<e:Image y="535.16" scaleX="1" scaleY="1" scale9Grid="14,12,81,36" width="500" horizontalCenter="-87" source="dlm_g_shurukuan1"/>
+	<e:EditableText id="textField" width="495" height="50" y="541.01" size="24" textAlign="left" verticalAlign="middle" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="SimHei" horizontalCenter="-84.5" textColor="0xf9e2d6" prompt="请输入聊天内容" promptColor="0x956c59"/>
+	<e:Button id="sendBtn" y="527" scaleX="1" scaleY="1" horizontalCenter="258.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dlm_an_fasong" source.down="dlm_an_fasong_dk"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="closeButton" y="118" horizontalCenter="340">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dlm_an_1guangbi_game"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+
+
+</e:Skin>

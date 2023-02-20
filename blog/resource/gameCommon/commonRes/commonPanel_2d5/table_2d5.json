@@ -1,0 +1,275 @@
+{
+  "file": "table_2d5.png",
+  "frames": {
+    "aheadOpen_2d5_1": {
+      "x": 210,
+      "y": 422,
+      "w": 198,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 198,
+      "sourceH": 71
+    },
+    "aheadOpen_2d5_2": {
+      "x": 442,
+      "y": 0,
+      "w": 198,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 198,
+      "sourceH": 71
+    },
+    "backLobby_2d5_1": {
+      "x": 0,
+      "y": 368,
+      "w": 209,
+      "h": 91,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 209,
+      "sourceH": 92
+    },
+    "backLobby_2d5_2": {
+      "x": 218,
+      "y": 184,
+      "w": 209,
+      "h": 91,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 209,
+      "sourceH": 92
+    },
+    "bank_icon_2d5": {
+      "x": 164,
+      "y": 460,
+      "w": 42,
+      "h": 47,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 42,
+      "sourceH": 47
+    },
+    "dissRoom_2d5_1": {
+      "x": 224,
+      "y": 0,
+      "w": 217,
+      "h": 91,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 217,
+      "sourceH": 92
+    },
+    "dissRoom_2d5_2": {
+      "x": 224,
+      "y": 92,
+      "w": 217,
+      "h": 91,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 217,
+      "sourceH": 92
+    },
+    "exitRoom_2d5_1": {
+      "x": 0,
+      "y": 184,
+      "w": 217,
+      "h": 91,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 217,
+      "sourceH": 91
+    },
+    "exitRoom_2d5_2": {
+      "x": 0,
+      "y": 276,
+      "w": 217,
+      "h": 91,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 217,
+      "sourceH": 91
+    },
+    "gameChange_2d5_1": {
+      "x": 218,
+      "y": 276,
+      "w": 198,
+      "h": 72,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 198,
+      "sourceH": 72
+    },
+    "gameChange_2d5_2": {
+      "x": 218,
+      "y": 349,
+      "w": 198,
+      "h": 72,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 198,
+      "sourceH": 72
+    },
+    "gameContinue_2d5_1": {
+      "x": 442,
+      "y": 72,
+      "w": 198,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 198,
+      "sourceH": 71
+    },
+    "gameContinue_2d5_2": {
+      "x": 442,
+      "y": 144,
+      "w": 198,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 198,
+      "sourceH": 71
+    },
+    "headbg_2d5": {
+      "x": 840,
+      "y": 0,
+      "w": 70,
+      "h": 70,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 70
+    },
+    "mjc_restart1": {
+      "x": 417,
+      "y": 347,
+      "w": 150,
+      "h": 54,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 150,
+      "sourceH": 55
+    },
+    "mjc_restart2": {
+      "x": 641,
+      "y": 132,
+      "w": 150,
+      "h": 54,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 150,
+      "sourceH": 55
+    },
+    "outline_2d5": {
+      "x": 627,
+      "y": 222,
+      "w": 52,
+      "h": 27,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 52,
+      "sourceH": 27
+    },
+    "outline_leftTime_icon": {
+      "x": 417,
+      "y": 402,
+      "w": 165,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 165,
+      "sourceH": 36
+    },
+    "outline_textBg": {
+      "x": 0,
+      "y": 460,
+      "w": 163,
+      "h": 40,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 163,
+      "sourceH": 40
+    },
+    "pause_leftTime_icon": {
+      "x": 641,
+      "y": 187,
+      "w": 158,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 165,
+      "sourceH": 34
+    },
+    "ready_2d5_1": {
+      "x": 641,
+      "y": 0,
+      "w": 198,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 198,
+      "sourceH": 71
+    },
+    "ready_2d5_2": {
+      "x": 428,
+      "y": 216,
+      "w": 198,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 198,
+      "sourceH": 71
+    },
+    "share_2d5_1": {
+      "x": 417,
+      "y": 288,
+      "w": 162,
+      "h": 58,
+      "offX": 2,
+      "offY": 1,
+      "sourceW": 164,
+      "sourceH": 59
+    },
+    "share_2d5_2": {
+      "x": 641,
+      "y": 72,
+      "w": 162,
+      "h": 59,
+      "offX": 2,
+      "offY": 0,
+      "sourceW": 164,
+      "sourceH": 59
+    },
+    "ting_icon_2d5": {
+      "x": 409,
+      "y": 439,
+      "w": 42,
+      "h": 45,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 42,
+      "sourceH": 47
+    },
+    "wechat_2d5_1": {
+      "x": 0,
+      "y": 0,
+      "w": 223,
+      "h": 91,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 223,
+      "sourceH": 92
+    },
+    "wechat_2d5_2": {
+      "x": 0,
+      "y": 92,
+      "w": 223,
+      "h": 91,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 223,
+      "sourceH": 92
+    }
+  }
+}

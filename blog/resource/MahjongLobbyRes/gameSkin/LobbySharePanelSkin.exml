@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LobbySharePanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mjl_common_json.common_title_bg" horizontalCenter="0" top="41"/>
+	<e:Image width="916" height="540" source="mjl_common_bj_3" scale9Grid="54,56,173,469" top="128" horizontalCenter="0"/>
+	<e:Image source="mjl_sharewx_json.mjl_share_titleg" horizontalCenter="0" top="65"/>
+	<e:Button id="closeButton" label="Button" right="160" top="105" skinName="MJ_CloseButton1Skin"/>
+	<e:Button id="_wXinIcon" label="" y="295" x="280">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="187" height="190">
+			<e:Image source="mjl_sharewx_json.mjl_share_icon_bg" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" visible="false"/>
+	<e:Image source="s_weixin" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="_wximg" source="mjl_sharewx_json.mjl_share_icon" y="515" horizontalCenter="-268"/>
+	<e:Button id="_pyqIcon" label="" y="295" x="550">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="187" height="190">
+			<e:Image source="mjl_sharewx_json.mjl_share_icon_bg" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" visible="false"/>
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="mjl_sharewx_json.s_pengyouquan"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="_pyqimg" y="515" horizontalCenter="4" source="mjl_sharewx_json.mjl_share_pyq_icon"/>
+	<e:Button id="_xlIcon" label="" y="295" x="762" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="187" height="190">
+			<e:Image source="mjl_sharewx_json.mjl_share_icon_bg" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" visible="false"/>
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="mjl_sharewx_json.s_xianliao"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="_xlimg" y="515" horizontalCenter="214" source="mjl_sharewx_json.mjl_share_xl_icon" visible="false"/>
+	<e:Button id="downloadBtn1" label="下 载 地 址 1" y="280" x="770">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="download_btn1" source.down="download_btn2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="30" textColor="0x0d5e9c" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="downloadBtn2" label="下 载 地 址 2" y="374" x="770">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="download_btn1" source.down="download_btn2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="30" textColor="0x0d5e9c" fontFamily="Microsoft YaHei"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="downloadBtn3" label="下 载 地 址 3" y="470.67" x="770">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="download_btn1" source.down="download_btn2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="30" textColor="0x0d5e9c" fontFamily="Microsoft YaHei"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image y="193.66" horizontalCenter="0" source="copy_btn_bg" width="642"/>
+	<e:Image y="207" source="copy_btn1" horizontalCenter="0"/>
+</e:Skin>

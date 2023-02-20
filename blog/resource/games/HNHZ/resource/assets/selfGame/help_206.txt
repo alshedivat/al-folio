@@ -1,0 +1,6 @@
+﻿<font color='#c25215 ' size=30></font>
+<font color='#626262 ' size=24></font>
+<font color='#626262 ' size=24></font>
+<font color='#626262 ' size=24></font>
+
+<font color='#626262 ' size=24>更多详情: 更多玩法规则请在大厅点击-玩法-按钮进行查看</font>

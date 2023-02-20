@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="0" bottom="0" source="club_bigBg_png"/>
+
+	<e:Group width="1260" height="560" anchorOffsetX="0" anchorOffsetY="0" top="115" horizontalCenter="0">
+		<e:Image scale9Grid="12,12,76,76" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="-44" source="mjl_common_bj_7" alpha= "0.7"/>
+		<e:Group width="1222" height="530" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="20">
+			<e:Image scale9Grid="12,12,76,76" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="40" source="mjl_common_bj_7" visible="false"/>
+		<e:Scroller id="joinedPanel" skinName="" left="0" right="0" top="5" bottom="45" anchorOffsetY="0">
+			<e:List id="_joinedList" anchorOffsetX="0" anchorOffsetY="0" height="516" itemRendererSkinName="ClubItemSkin">
+				<e:layout>
+					<e:TileLayout horizontalGap="25" verticalGap="25" paddingLeft="10"/>
+				</e:layout>
+
+
+			</e:List>
+		</e:Scroller>
+
+		</e:Group>
+	</e:Group>
+	<e:Group width="1260" height="95" top="25" horizontalCenter="0">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="club_titleBg" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" scale9Grid="51,11,309,64"/>
+		<e:Image source="club_title" scaleX="1" scaleY="1" horizontalCenter="0" top="22"/>
+		<e:Button id="closeBtn" x="14" top="8" skinName="MJ_CloseButton2Skin">
+		</e:Button>
+	</e:Group>
+	<e:Image source="mjl_club_json.club_rightLine" top="0" right="80"/>
+	<e:Button id="quicklyCreateBtn" horizontalCenter="0" bottom="50">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="quickly_create_Btn1" source.down="quickly_create_Btn2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+
+
+
+
+
+
+</e:Skin>

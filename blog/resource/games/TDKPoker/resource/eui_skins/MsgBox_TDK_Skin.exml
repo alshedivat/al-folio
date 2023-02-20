@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MsgBox_TDK_Skin" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="1280">
+
+
+
+	<e:Button id="closeBtn" label="" x="558" y="-3.5">
+
+	</e:Button>
+	<e:Group top="143" bottom="231" left="382" right="382">
+
+		<e:Image anchorOffsetY="0" anchorOffsetX="5.24" horizontalCenter="0" x="44" scaleX="1" scaleY="1" verticalCenter="0" scale9Grid="23,16,114,108" source="dlm_ej_bg_5_game_png"/>
+
+		<e:Image y="16" horizontalCenter="0.5" source="tdk_ej_tishi"/>
+		<e:Label id="desLabel" text="特殊规则" fontFamily="Microsoft YaHei" size="23" anchorOffsetX="0" width="454" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="121" scaleX="1" scaleY="1" horizontalCenter="0" top="77" textColor="0xf9dfd3"/>
+		<e:Group id="btnsGroup" width="493.64" height="68.76" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="1" verticalCenter="121.5" x="80" y="293" scaleX="1" scaleY="1">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="120"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

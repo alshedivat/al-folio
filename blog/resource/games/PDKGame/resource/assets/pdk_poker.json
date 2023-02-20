@@ -1,0 +1,545 @@
+{
+  "file": "pdk_poker.png",
+  "frames": {
+    "club_60_png": {
+      "x": 0,
+      "y": 0,
+      "w": 208,
+      "h": 288,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 208,
+      "sourceH": 288
+    },
+    "club_70_png": {
+      "x": 0,
+      "y": 940,
+      "w": 125,
+      "h": 173,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 173
+    },
+    "club_80_png": {
+      "x": 209,
+      "y": 0,
+      "w": 208,
+      "h": 288,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 208,
+      "sourceH": 288
+    },
+    "club_90_png": {
+      "x": 418,
+      "y": 0,
+      "w": 208,
+      "h": 288,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 208,
+      "sourceH": 288
+    },
+    "club_mo_png": {
+      "x": 0,
+      "y": 0,
+      "w": 208,
+      "h": 288,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 208,
+      "sourceH": 288
+    },
+    "TableCard_0_0": {
+      "x": 126,
+      "y": 940,
+      "w": 125,
+      "h": 173,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 173
+    },
+    "TableCard_1_2": {
+      "x": 468,
+      "y": 289,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_1_3": {
+      "x": 783,
+      "y": 0,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_1_4": {
+      "x": 627,
+      "y": 217,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_1_5": {
+      "x": 783,
+      "y": 217,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_1_6": {
+      "x": 0,
+      "y": 506,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_1_7": {
+      "x": 156,
+      "y": 506,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_1_8": {
+      "x": 0,
+      "y": 723,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_1_9": {
+      "x": 312,
+      "y": 506,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_1_10": {
+      "x": 0,
+      "y": 289,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_1_11": {
+      "x": 156,
+      "y": 289,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_1_12": {
+      "x": 312,
+      "y": 289,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_1_13": {
+      "x": 627,
+      "y": 0,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_2_1": {
+      "x": 156,
+      "y": 723,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_2_3": {
+      "x": 780,
+      "y": 434,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_2_4": {
+      "x": 624,
+      "y": 651,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_2_5": {
+      "x": 780,
+      "y": 651,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_2_6": {
+      "x": 939,
+      "y": 0,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_2_7": {
+      "x": 1095,
+      "y": 0,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_2_8": {
+      "x": 939,
+      "y": 217,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_2_9": {
+      "x": 1251,
+      "y": 0,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_2_10": {
+      "x": 468,
+      "y": 506,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_2_11": {
+      "x": 312,
+      "y": 723,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_2_12": {
+      "x": 624,
+      "y": 434,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_2_13": {
+      "x": 468,
+      "y": 723,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_3_1": {
+      "x": 1095,
+      "y": 217,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_3_3": {
+      "x": 1563,
+      "y": 0,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_3_4": {
+      "x": 936,
+      "y": 651,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_3_5": {
+      "x": 1407,
+      "y": 217,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_3_6": {
+      "x": 1248,
+      "y": 434,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_3_7": {
+      "x": 1719,
+      "y": 0,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_3_8": {
+      "x": 1092,
+      "y": 651,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_3_9": {
+      "x": 1563,
+      "y": 217,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_3_10": {
+      "x": 936,
+      "y": 434,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_3_11": {
+      "x": 1407,
+      "y": 0,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_3_12": {
+      "x": 1251,
+      "y": 217,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_3_13": {
+      "x": 1092,
+      "y": 434,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_4_1": {
+      "x": 1404,
+      "y": 434,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_4_3": {
+      "x": 1404,
+      "y": 651,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_4_4": {
+      "x": 1875,
+      "y": 217,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_4_5": {
+      "x": 1716,
+      "y": 434,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_4_6": {
+      "x": 1560,
+      "y": 651,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_4_7": {
+      "x": 1872,
+      "y": 434,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_4_8": {
+      "x": 1716,
+      "y": 651,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_4_9": {
+      "x": 1872,
+      "y": 651,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_4_10": {
+      "x": 1875,
+      "y": 0,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_4_11": {
+      "x": 1248,
+      "y": 651,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_4_12": {
+      "x": 1719,
+      "y": 217,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    },
+    "TableCard_4_13": {
+      "x": 1560,
+      "y": 434,
+      "w": 155,
+      "h": 216,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 155,
+      "sourceH": 216
+    }
+  }
+}

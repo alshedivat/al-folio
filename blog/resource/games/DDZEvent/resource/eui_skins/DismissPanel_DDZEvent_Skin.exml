@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DismissPanel_DDZEvent_Skin" width="710" height="565" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="710" height="565" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="bgBox" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="Title" horizontalCenter="0" top="5"/>
+		<e:Label text="玩家11948627" x="85" y="105" size="24" visible="false"/>
+		<e:Label text="申请解散房间请问是否同意（超过20秒未做出选择，\n则默认同意）？" x="85" y="164" size="24" anchorOffsetY="0" height="50" fontFamily="Microsoft YaHei" visible="false"/>
+		<e:Label text="11948627" x="205" y="270" fontFamily="Microsoft YaHei" size="30" visible="false"/>
+		<e:Label text="11948627" x="205" y="339" fontFamily="Microsoft YaHei" size="30" visible="false"/>
+		<e:Image x="400" y="265" source="bgBox2" visible="false"/>
+		<e:Image x="400" y="330" source="bgBox2" visible="false"/>
+		<e:Label id="infoIcon1" text="同意" x="438" y="274" size="26" fontFamily="Microsoft YaHei" textColor="0xfffcce" visible="false"/>
+		<e:Label id="infoIcon2" text="等待选择" x="417" y="339" textColor="0xfffcce" size="26" fontFamily="Microsoft YaHei" visible="false"/>
+		<e:Button id="yesBtn" label="" x="110" y="420">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="agreeBtn1" source.down="agreeBtn2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="noBtn" label="" x="442" y="420">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="refuseBtn1" source.down="refuseBtn2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

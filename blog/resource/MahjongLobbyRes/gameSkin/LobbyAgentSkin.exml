@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LobbyAgentSkin" width="120" height="550" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller left="0" right="0" top="0" bottom="0" scrollPolicyH="off" scrollPolicyV="off">
+		<e:Group>
+			<e:Group id="openGroup" right="0" left="0" scaleX="1" scaleY="1" height="550">
+				<e:Rect left="11" right="11" top="-15" bottom="15" fillColor="0x63e1ff" fillAlpha="0.6" ellipseWidth="15" ellipseHeight="15"/>
+				<e:Image scaleX="1" scaleY="1" source="mjl_agent_menuClosed_bg" left="0" right="0" top="0" bottom="0" scale9Grid="16,4,103,57"/>
+				<e:Group id="btnGroup" left="0" right="0" top="0" bottom="15" x="0" y="0" scaleX="1" scaleY="1">
+					<e:Button id="agentBtn_0" label="" y="63.00000000000001" horizontalCenter="0" x="20" scaleX="1" scaleY="1" name="0">
+						<e:skinName>
+							<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="mjl_agent_menu_btn_0"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+						</e:skinName>
+					</e:Button>
+				<e:Button id="agentBtn_1" label="" y="53.00000000000001" horizontalCenter="0" x="10" scaleX="1" scaleY="1" name="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="mjl_agent_menu_btn_1"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="agentBtn_2" label="" y="53.00000000000001" name="2">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="mjl_agent_menu_btn_3"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="agentBtn_3" label="" y="53.00000000000001" name="3">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="mjl_agent_menu_btn_4"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="agentBtn_4" label="" y="53.00000000000001" name="6">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="mjl_agent_menu_btn_5"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="arrowBtn" label="" y="585" horizontalCenter="0" anchorOffsetX="22" anchorOffsetY="22.5" rotation="180" x="82" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="mjl_agent_arrowIcon"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" paddingTop="20" gap="30"/>
+				</e:layout>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

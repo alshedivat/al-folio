@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AwardPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image source="mjl_redpacket_share_bg_jpg" left="0" right="0" top="0" bottom="0" />
+    <e:Image y="-150" source="mjl_redpacket_share_red_png"  horizontalCenter="0"/>
+    <e:Button id="_yesBtn" label="Button" y="608" x="670">
+        <e:Skin states="up,down,disabled">
+            <e:Image source="mjl_redpacket_share_back" source.down="mjl_redpacket_share_back1" />
+        </e:Skin>
+    </e:Button>
+        <e:Button id="_sharBtn" label="Button" y="608" x="376">
+        <e:Skin states="up,down,disabled">
+            <e:Image source="mjl_redpacket_share_btn" source.down="mjl_redpacket_share_btn1" />
+        </e:Skin>
+    </e:Button>
+	<e:Label id="_awardTxt" text="Label" x="490" y="390" textColor="0xf6be43" lineSpacing="11" width="310" height="140"/>
+	<e:Label id="_awardTxt0" text="先分享后领取" y="207.61" textColor="0xF6BE43" lineSpacing="11" width="310" height="66.27" anchorOffsetY="0" size="40" textAlign="center" verticalAlign="middle" horizontalCenter="0" fontFamily="黑体"/>
+</e:Skin>

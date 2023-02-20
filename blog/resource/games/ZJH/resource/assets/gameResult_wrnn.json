@@ -1,0 +1,105 @@
+{
+  "file": "gameResult_wrnn.png",
+  "frames": {
+    "label_lose": {
+      "x": 424,
+      "y": 50,
+      "w": 51,
+      "h": 96,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 51,
+      "sourceH": 96
+    },
+    "label_winner": {
+      "x": 324,
+      "y": 120,
+      "w": 53,
+      "h": 105,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 53,
+      "sourceH": 105
+    },
+    "total_mc_bg": {
+      "x": 228,
+      "y": 120,
+      "w": 95,
+      "h": 99,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 95,
+      "sourceH": 99
+    },
+    "total_share_btn": {
+      "x": 0,
+      "y": 0,
+      "w": 227,
+      "h": 85,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 227,
+      "sourceH": 85
+    },
+    "wrnn_jiesuan_btn_leave": {
+      "x": 0,
+      "y": 86,
+      "w": 227,
+      "h": 85,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 227,
+      "sourceH": 85
+    },
+    "wrnn_oneMore_btn_down": {
+      "x": 228,
+      "y": 0,
+      "w": 168,
+      "h": 65,
+      "offX": 2,
+      "offY": 1,
+      "sourceW": 172,
+      "sourceH": 67
+    },
+    "wrnn_oneMore_btn_up": {
+      "x": 0,
+      "y": 172,
+      "w": 172,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 172,
+      "sourceH": 67
+    },
+    "wrnn_round_result": {
+      "x": 0,
+      "y": 240,
+      "w": 115,
+      "h": 41,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 115,
+      "sourceH": 41
+    },
+    "wrnn_selfSortCardEnd": {
+      "x": 397,
+      "y": 0,
+      "w": 100,
+      "h": 49,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 100,
+      "sourceH": 49
+    },
+    "ZJH_total_title": {
+      "x": 228,
+      "y": 66,
+      "w": 195,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 195,
+      "sourceH": 53
+    }
+  }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Button_DDZ_Event_Skin" width="180" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="iconDisplay" width="180" height="70" source="public_btn_cancle_ddz" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

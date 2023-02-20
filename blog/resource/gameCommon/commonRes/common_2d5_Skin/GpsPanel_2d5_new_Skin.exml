@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GpsPanel_2d5_new_Skin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" width="708" height="465">
+	<w:Declarations></w:Declarations>
+
+
+
+
+	<e:Group x="0" y="0">
+		<e:Image scale9Grid="71,48,448,113" source="gps_2d5_bg" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Button id="closeButton" scaleX="1" scaleY="1" right="-10" top="-5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="closeBtn_2d5_1" source.down="closeBtn_2d5_2"/>
+				<e:Label id="labelDisplay0" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="gpsGroup" width="665" height="308" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" x="181" scaleX="1" scaleY="1" verticalCenter="-40">
+			<e:Image id="line_23" scaleX="1" scaleY="1" source="line_23_2d5" verticalCenter="-18" left="154" visible="false"/>
+			<e:Image id="line_12" scaleX="1" scaleY="1" source="line_12_2d5" verticalCenter="-18" right="154" visible="false"/>
+			<e:Image id="line_13" scaleX="1" scaleY="1" source="line_13_2d5" horizontalCenter="0" width="274" verticalCenter="89" visible="false"/>
+			<e:Image id="lineBg_23" scaleX="1" scaleY="1" source="distanceBg_2d5" verticalCenter="-10" horizontalCenter="-119" visible="false"/>
+			<e:Image id="lineBg_13" scaleX="1" scaleY="1" horizontalCenter="0" source="distanceBg_2d5" verticalCenter="89" visible="false"/>
+			<e:Image id="lineBg_12" scaleX="1" scaleY="1" source="distanceBg_2d5" verticalCenter="-10" horizontalCenter="119" visible="false"/>
+			<e:Panel id="head_1" skinName="HeadImage_2d5_new_Skin" width="80" height="80" verticalCenter="87" right="116" visible="false"/>
+			<e:Panel id="head_2" width="80" skinName="HeadImage_2d5_new_Skin" horizontalCenter="0" height="80" verticalCenter="-86.5" visible="false"/>
+			<e:Panel id="head_3" width="80" height="80" skinName="HeadImage_2d5_new_Skin" verticalCenter="86.5" left="117" visible="false"/>
+			<e:Label id="distance_23" text="" fontFamily="Microsoft YaHei" size="18" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0xedffd9" horizontalCenter="-119" verticalCenter="-10"/>
+			<e:Label id="distance_13" text="" fontFamily="Microsoft YaHei" size="18" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0xedffd9" horizontalCenter="0" verticalCenter="89"/>
+			<e:Label id="distance_12" text="" fontFamily="Microsoft YaHei" size="18" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" verticalCenter="-9.5" textColor="0xedffd9" horizontalCenter="119" anchorOffsetX="0"/>
+			<e:Label id="playerName_3" text="" size="18" textColor="0x1b4364" maxChars="4" width="80" height="20" textAlign="center" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" horizontalCenter="-175.5" top="283"/>
+			<e:Label id="playerName_2" text="" size="18" textColor="0x1B4364" maxChars="4" width="80" height="20" textAlign="center" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" horizontalCenter="0" top="110"/>
+			<e:Label id="playerName_1" text="" size="18" textColor="0x1B4364" maxChars="4" width="80" height="20" textAlign="center" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" horizontalCenter="176.5" top="283"/>
+			<e:Label id="address_3" text="" size="16" fontFamily="Microsoft YaHei" width="90" scaleX="1" scaleY="1" textColor="0x8e591f" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" textAlign="center" height="32" left="27" y="244"/>
+			<e:Label id="address_1" text="" size="16" fontFamily="Microsoft YaHei" width="90" height="32" scaleX="1" scaleY="1" y="244" right="27" textAlign="center" verticalAlign="middle" textColor="0x8e591f"/>
+			<e:Label id="address_2" text="" x="196" y="28" size="16" fontFamily="Microsoft YaHei" width="90" height="32" scaleX="1" scaleY="1" textColor="0x8e591f" verticalAlign="middle" textAlign="center"/>
+			<e:Image id="gpsTips" source="twoPlayer_notice_2d5" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="ruleGroup" width="701" height="91" anchorOffsetY="0" anchorOffsetX="0" bottom="30" horizontalCenter="0" x="163" y="249" scaleX="1" scaleY="1">
+			<e:Image scaleX="1" scaleY="1" source="hostSetting_2d5" top="0" horizontalCenter="0" scale9Grid="83,42,432,23" height="82"/>
+			<e:Label id="ruleTxt" text="" size="21" fontFamily="Microsoft YaHei" width="589" horizontalCenter="0" textAlign="center" x="35" scaleX="1" scaleY="1" textColor="0x8a796c" lineSpacing="3" height="45" verticalAlign="middle" y="33"/>
+		</e:Group>
+		<e:Group id="buttonGroup" width="701" height="91" anchorOffsetY="0" anchorOffsetX="0" bottom="147" horizontalCenter="0" x="163" y="249" scaleX="1" scaleY="1" visible="false">
+			<e:Button id="gameContinueBtn" label="" y="7" left="90">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="gps_continue1" source.down="gps_continue2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="gameDissBtn" label="" y="7" right="90">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="gps_dissmiss_btn1" source.down="gps_dissmiss_btn2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

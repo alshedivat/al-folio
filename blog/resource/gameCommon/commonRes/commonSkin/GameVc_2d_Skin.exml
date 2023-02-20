@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameVc_2d_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="tableCloth" anchorOffsetY="0"  scale9Grid="637,0,0,720" source="2d_tableBg2_big_jpg" horizontalCenter="0" verticalCenter="0"/>
+	<e:Rect id="gmIcon" width="20" height="20" fillColor="0xff00ff" left="0" top="606" />
+	<e:Rect id="hostIcon" width="20" height="20" left="0" top="647" fillColor="0xffff00" />
+	<e:Label id="vision" text="版本号：161128235600" size="18" fontFamily="Microsoft YaHei" textColor="0x6da8c8" right="10"
+	         bottom="5" />
+	<e:Image id="goldenIcon" left="10" scale9Grid="22,22,42,63" source="treasure" height="140" scaleX="1.05" y="110"  visible="false"/>
+	<e:Label id="enterTips" text="正在加载房间数据." size="18" fontFamily="Microsoft YaHei" horizontalCenter="0" bottom="300"
+	         textColor="0x6ba8c7" />
+	<e:Label id="gameState" text="游戏状态" size="18" fontFamily="Microsoft YaHei" horizontalCenter="0" top="360"
+	         textColor="0x6ba8c7" />
+	<e:BitmapLabel id="numText" text="" anchorOffsetY="0" verticalCenter="-35" font="2d_cardNumFont_fnt" height="30" textAlign="center" width="100" horizontalCenter="-154"/>
+	<e:BitmapLabel id="roomNumber" text="" verticalCenter="-35" font="2d_cardNumFont_fnt" width="110" height="30" textAlign="center" horizontalCenter="154"/>
+	<e:Group anchorOffsetY="0" height="107" top="0" right="0" left="0">
+		<e:Image  source="2d_tableBg2_left" left="0" top="10"/>
+		<e:Image right="0" source="2d_tableBg2_right" top="10"/>
+		<e:Image verticalCenter="-24" source="2d_betteryBg" right="14"/>
+		<e:Image id="signal" source="2d_dataIcon" verticalCenter="-23"  right="68"/>
+		<e:Image id="betteryPercent" verticalCenter="-24" scale9Grid="2,6,2,10" source="2d_betteryPer"  right="41"/>
+		<e:Label id="timeTxt" text="17:56" size="25" fontFamily="Microsoft YaHei" textColor="0x3f806f" verticalCenter="-23"
+		          right="112"/>
+		<e:Label id="recordTimeTxt" text="" size="25" fontFamily="Microsoft YaHei" textColor="0x3F806F" verticalCenter="-23" right="108" visible="false"/>
+		<e:Label id="roomName" text="大瓦推倒" size="25" fontFamily="Microsoft YaHei" top="56" textColor="0x3f806f" left="10" />
+		<e:Label id="roomPlayerNum" text="12人场" size="25" fontFamily="Microsoft YaHei" top="56" x="140" textColor="0xabcc97" />
+		<e:Label id="roomIdText" text="房号：111111" size="28" fontFamily="Microsoft YaHei" left="10" top="16"
+		         textColor="0x3f806f" />
+		<e:Label id="signalTxt" text="无信号" size="20" fontFamily="Microsoft YaHei" verticalCenter="-18" textColor="0xff0000"
+		         horizontalCenter="513" visible="false" />
+	</e:Group>
+	<e:Group width="125" right="0" top="0" bottom="0" anchorOffsetX="0">
+
+		<e:Button id="_recordBtn" label="" top="158" horizontalCenter="0" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="score_record_btn1" source.down="score_record_btn2" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="chatBtn" label="" horizontalCenter="0" verticalCenter="116">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="2d_chatBtn" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group anchorOffsetY="0" anchorOffsetX="0" height="262" bottom="0" width="732" horizontalCenter="0">
+		<e:Button id="backBtn" label="" scaleX="1" scaleY="1" horizontalCenter="-268" bottom="193">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="table_backLobby1" source.down="table_backLobby2" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="shareBtn" label="" scaleX="1" scaleY="1" bottom="193" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="table_invite1" source.down="table_invite2" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="dissBtn" label="" scaleX="1" scaleY="1" horizontalCenter="268" bottom="193">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="table_dissMiss_1" source.down="table_dissMiss_2" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="leaveBtn" label="" scaleX="1" scaleY="1" horizontalCenter="268" bottom="193">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="table_leaveRoom1" source.down="table_leaveRoom2" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="changeIcon" label="" scaleX="1" scaleY="1" bottom="82" horizontalCenter="-270.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="tableBeforeOpen1" source.down="tableBeforeOpen2" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="readyBtn" label="" scaleX="1" scaleY="1" bottom="82" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="table_ready1" source.down="table_ready2" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="changeRoom" label="" scaleX="1" scaleY="1" bottom="82" horizontalCenter="268">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="table_changeRoom1" source.down="table_changeRoom2" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="cancelreadyBtn" label="" horizontalCenter="0" bottom="82">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="table_cancelBtn1" source.down="table_cancelBtn2" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="menuEffect" width="71" anchorOffsetX="0" height="384" scaleX="1" scaleY="1" anchorOffsetY="0" right="27" y="97" visible="false">
+		<e:Group id="menuBtnGroup" width="71" anchorOffsetX="0" height="384" scaleX="1" scaleY="1" x="0" y="0">
+			<e:Image scaleX="1" scaleY="1" source="2d_menuBg" left="0" right="0" top="0" bottom="0"/>
+			<e:Button id="settingBtn" label="" verticalCenter="-94" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="2d_setting"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="gpsBtn" label="" verticalCenter="9" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="2d_gpsBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="hostBtn" label="" horizontalCenter="0" verticalCenter="112">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="2d_host"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+	<e:CheckBox id="menuBtn" label="" width="73" height="76" currentState="up" right="26" top="54">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="73" height="76" source="2d_menuBtn1" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="menuBtnArrow" width="73" height="76" source="2d_menuBtn2" anchorOffsetX="36.5" anchorOffsetY="38" x="36.5" y="38"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+
+
+	<e:Label id="_lastdingque" text="定缺中" verticalCenter="0" bold="true" fontFamily="SimHei" left="300"
+	         textColor="0xffffff"  visible="false"/>
+	<e:Label id="_mydingque" text="定缺中" bold="true" fontFamily="SimHei" y="500" horizontalCenter="0" textColor="0xffffff"
+	          visible="false"/>
+	<e:Label id="_dingque" text="定缺中" y="100" size="30" fontFamily="SimHei" bold="true" horizontalCenter="0"
+	         textColor="0xffffff"  visible="false"/>
+	<e:Label id="_nextdingque" text="定缺中" size="30" fontFamily="SimHei" bold="true" right="300" verticalCenter="0"
+	         textColor="0xffffff"  visible="false"/>
+</e:Skin>

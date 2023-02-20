@@ -1,0 +1,9 @@
+[
+{"id":1,"questName":"100金豆","Icon":"1","lobbyId":"1000","reward":[{"rewardid":4,"rewardname":"100金豆","num":100}]},
+{"id":2,"questName":"150金豆","Icon":"1","lobbyId":"1000","reward":[{"rewardid":4,"rewardname":"150金豆","num":150}]},
+{"id":3,"questName":"200金豆","Icon":"1","lobbyId":"1000","reward":[{"rewardid":4,"rewardname":"200金豆","num":200}]},
+{"id":4,"questName":"250金豆","Icon":"1","lobbyId":"1000","reward":[{"rewardid":4,"rewardname":"250金豆","num":250}]},
+{"id":5,"questName":"300金豆","Icon":"1","lobbyId":"1000","reward":[{"rewardid":4,"rewardname":"300金豆","num":300}]},
+{"id":6,"questName":"350金豆","Icon":"1","lobbyId":"1000","reward":[{"rewardid":4,"rewardname":"350金豆","num":350}]},
+{"id":7,"questName":"400金豆","Icon":"1","lobbyId":"1000","reward":[{"rewardid":4,"rewardname":"400金豆","num":400}]}
+]

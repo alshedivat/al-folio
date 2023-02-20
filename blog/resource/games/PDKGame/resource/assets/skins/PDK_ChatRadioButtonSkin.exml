@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PDK_ChatRadioButtonSkin" states="up,down,disabled" width="537" height="50" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="chatItemPoint" x="26" verticalCenter="0"/>
+	<e:Label id="labelDisplay" size="28" x="69" textColor="0xffffff" verticalCenter="0"/>
+</e:Skin>

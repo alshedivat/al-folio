@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleInfoSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image scale9Grid="29,29,177,177" source="mjl_event_bg_1" height="539" width="880" horizontalCenter="0" verticalCenter="0"/>
+	<e:Button id="closeButton" label="Button" skinName="MJ_CloseButton1Skin" top="66" right="178"/>
+	<e:Image source="mjl_event_json.mjl_event_info_title_bg" y="110" x="195"/>
+	<e:Label id="title" text="128快速赛" anchorOffsetX="0" anchorOffsetY="0" height="35" fontFamily="黑体" size="32" top="130" left="320"/>
+	<e:Label text="比赛奖励：" x="280" y="190" size="26" fontFamily="黑体" textColor="0x1d5d91"/>
+	<e:Image source="mjl_event_json.mjl_event_info_title_1" x="536" y="133.5"/>
+	<e:Image source="mjl_event_json.mjl_event_time_bg" right="200" top="240"/>
+	<e:Image source="mjl_event_json.mjl_event_cost_bg" right="200" top="310"/>
+	<e:Group width="284" height="360" x="270" y="220">
+		<e:Image id="rewardGroup" source="mjl_event_json.mjl_event_bg_2" scale9Grid="11,11,68,66" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:List id="rewardList" left="0" right="0" top="40" bottom="0" itemRendererSkinName="BattleRewardItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object null=""/>
+			<e:Object null=""/>
+			<e:Object null=""/>
+			<e:Object null=""/>
+			<e:Object null=""/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" gap="20"/>
+		</e:layout>
+		</e:List>
+	</e:Group>
+	<e:Label text="开赛时间：" x="629" top="250" fontFamily="黑体" anchorOffsetX="0" width="168" textAlign="center"/>
+	<e:Label id="startTime" text="满人即开" x="800" top="250" fontFamily="黑体" anchorOffsetX="0" textAlign="center"/>
+	<e:Label text="报名费：" x="737.33" top="320" fontFamily="黑体" anchorOffsetX="0" width="128" textAlign="center"/>
+	<e:Label id="cost" text="100" x="865.33" top="320" fontFamily="黑体" anchorOffsetX="0" textAlign="center"/>
+	<e:Group width="372" height="88" y="405" horizontalCenter="200">
+		<e:Image source="mjl_event_json.mjl_event_bg_2" scale9Grid="11,11,68,66" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:Label  id="info" text="报名人数：1" textAlign="center" verticalAlign="middle" fontFamily="黑体" size="20" textColor="0xcee0ff" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Label id="freeTime" text="每天前 3 次报名免费" top="190" fontFamily="黑体" anchorOffsetX="0" textAlign="center" horizontalCenter="200" textColor="0x1d5d91"/>
+	<e:Button id="joinButton" label="" bottom="120" right="250">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_event_joinBtn_1" source.down="mjl_event_joinBtn_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="quitButton" label="" bottom="120" right="250" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_event_quitBtn_1" source.down="mjl_event_quitBtn_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

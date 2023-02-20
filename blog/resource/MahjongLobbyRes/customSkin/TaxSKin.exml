@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TaxSKin" width="880" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166d2637af8"/>
+	<e:Label text="贡献" verticalCenter="0" left="0" textColor="0xffffff" size="28"/>
+	<e:Label text="积分" verticalCenter="0" left="321" textColor="0xffffff" size="28"/>
+	<e:Label text="推广奖励" verticalCenter="0" left="576" textColor="0xffffff" size="28"/>
+	<e:Image scaleX="1" scaleY="1" width="180" source="mjl_create_match_inputBg" x="91" y="2"/>
+	<e:EditableText id="taxMin" width="180" height="43" text="" verticalCenter="0.5" textAlign="center" verticalAlign="middle" left="91" size="25" touchEnabled="true" prompt="最小贡献" promptColor="0xFFFFFF" backgroundColor="0xffffff" borderColor="0xffffff" textColor="0xffffff" restrict="0-9 ."/>
+	<e:Image scaleX="1" scaleY="1" verticalCenter="0" left="390" touchEnabled="false" width="160" source="mjl_create_match_inputBg"/>
+	<e:EditableText id="taxNum" width="160" height="43" text="" verticalCenter="0.5" textAlign="center" verticalAlign="middle" left="390" size="25" touchEnabled="true" prompt="积分" promptColor="0xFFFFFF" textColor="0xffffff"/>
+	<e:Image scaleX="1" scaleY="1" verticalCenter="0" left="710" touchEnabled="false" width="140" source="mjl_create_match_inputBg"/>
+	<e:EditableText id="taxPromote" width="140" height="43" text="" verticalCenter="0" textAlign="center" verticalAlign="middle" left="710" size="25" touchEnabled="true" prompt="积分" promptColor="0xFFFFFF" textColor="0xffffff" restrict="0-9 ."/>
+</e:Skin>

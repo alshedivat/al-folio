@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoundResultItem_DZ_Skin" width="134" height="142" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="101" horizontalCenter="0">
+		<e:Image source="total_mc_bg" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" y="-5" scaleX="1" scaleY="1" left="0" width="101" height="102"/>
+		<e:Image id="_headmc" width="101" height="102" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" verticalCenter="0" left="0" source="http://image.gamelaoyou.com/img/2b34d9ff00268753a4d9105d.jpg"/>
+		<e:Rect id="headRect" left="3" verticalCenter="0.5" width="94" height="95" ellipseWidth="10" ellipseHeight="10"/>
+		<e:Label id="nameLabel" fontFamily="Microsoft YaHei" size="25" textColor="0xf6f7e9" textAlign="center" text="雅思的花饭" bottom="-31" horizontalCenter="0"/>
+	</e:Group>
+	<e:BitmapLabel id="goldLabel" text="0" textAlign="left" font="gold_win_fnt" bottom="-27" horizontalCenter="0" scaleX="0.65" scaleY="0.65" visible="false"/>
+</e:Skin>

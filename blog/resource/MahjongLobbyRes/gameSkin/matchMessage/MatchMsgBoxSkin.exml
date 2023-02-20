@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchMsgBoxSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="635" height="391" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="635" height="391"  source="mjl_common_bj_3" scale9Grid="50,74,178,451"/>
+		<e:Group width="550" height="240" x="46" y="36" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Label id="title" text="温馨提示" size="32" x="176" width="191" textAlign="center" fontFamily="SimHei" textColor="0xffffff" top="50" y="14" scaleX="1" scaleY="1"/>
+			<e:Label id="info" text="匹配号消息框" size="32" x="20" width="508" textAlign="center" fontFamily="SimHei" textColor="0xffffff" top="110" y="74" scaleX="1" scaleY="1"/>
+			<e:Group id="checkGroup" x="161" y="103" width="550" height="140">
+				<e:layout>
+					<e:HorizontalLayout gap="20" horizontalAlign="center" verticalAlign="top" paddingTop="5"/>
+				</e:layout>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="20" paddingTop="10"/>
+			</e:layout>
+		</e:Group>
+		<e:Image id="tipimg" source="luck_icon" horizontalCenter="0" verticalCenter="-22" visible="false"/>
+		<e:Button id="confirm" x="70" bottom="50" scaleX="0.99">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_commonBtn_sure_1" source.down="mjl_commonBtn_sure_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Button id="prize" bottom="50" scaleX="0.99" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_commonBtn_prize_1" source.down="mjl_commonBtn_prize_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="toEmail" bottom="50" x="84">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_commonBtn_toemail_1" source.down="mjl_commonBtn_toemail_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Button id="cancel"  bottom="50" x="350">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_commonBtn_cancle_2" source.down="mjl_commonBtn_cancle_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+	</e:Group>
+</e:Skin>

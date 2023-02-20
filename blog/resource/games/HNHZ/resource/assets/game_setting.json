@@ -1,0 +1,125 @@
+{
+  "file": "game_setting.png",
+  "frames": {
+    "checkout_down": {
+      "x": 369,
+      "y": 40,
+      "w": 33,
+      "h": 33,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 33,
+      "sourceH": 33
+    },
+    "checkout_select": {
+      "x": 369,
+      "y": 0,
+      "w": 39,
+      "h": 39,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 39,
+      "sourceH": 39
+    },
+    "dice": {
+      "x": 164,
+      "y": 186,
+      "w": 61,
+      "h": 62,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 61,
+      "sourceH": 62
+    },
+    "dismiss": {
+      "x": 0,
+      "y": 0,
+      "w": 226,
+      "h": 77,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 227,
+      "sourceH": 77
+    },
+    "musicClose": {
+      "x": 227,
+      "y": 0,
+      "w": 70,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 71
+    },
+    "musicOpen": {
+      "x": 218,
+      "y": 78,
+      "w": 70,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 71
+    },
+    "replace": {
+      "x": 0,
+      "y": 78,
+      "w": 217,
+      "h": 74,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 218,
+      "sourceH": 74
+    },
+    "setword": {
+      "x": 0,
+      "y": 186,
+      "w": 163,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 163,
+      "sourceH": 36
+    },
+    "slide": {
+      "x": 0,
+      "y": 223,
+      "w": 23,
+      "h": 19,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 23,
+      "sourceH": 19
+    },
+    "slideBg": {
+      "x": 0,
+      "y": 153,
+      "w": 392,
+      "h": 32,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 392,
+      "sourceH": 32
+    },
+    "soundClose": {
+      "x": 298,
+      "y": 0,
+      "w": 70,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 71,
+      "sourceH": 71
+    },
+    "soundOpen": {
+      "x": 289,
+      "y": 72,
+      "w": 70,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 71
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PDK_GpsItemSkin" width="180" height="180" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="gps_headBg" horizontalCenter="0" top="0"/>
+	<e:Image id="headImg" width="110" height="110" horizontalCenter="0" top="10"/>
+	<e:Image id="noAddressIcon" bottom="50" source="gps_noAddress_icon" horizontalCenter="72"/>
+	<e:Label id="addressLabe" text="" y="140" horizontalCenter="0" width="130" size="18" fontFamily="Microsoft YaHei" textAlign="left"/>
+</e:Skin>

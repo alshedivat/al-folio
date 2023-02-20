@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SettingPanel_2d5_new_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="setting_bg_2d5" y="12" x="120"/>
+
+
+
+
+
+    <e:Button id="closeButton" label="" width="100" height="100" y="11" x="1087">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="closeBtn_2d5_1" source.down="closeBtn_2d5_2" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+	<e:Button id="replaceButton" label="" right="342" bottom="87">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="refreshBtn_2d5_1" source.down="refreshBtn_2d5_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="dismissButton" label="" left="342" bottom="87">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dissBtn_2d5_1" source.down="dissBtn_2d5_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="selectionGroup" width="982" height="403" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="8" y="104">
+		<e:Group height="81.33" y="47" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0">
+			<e:CheckBox id="musicButton" label="" x="744" scaleX="1" scaleY="1" verticalCenter="2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="checkBox_2d5_1" source.down="checkBox_2d5_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:CheckBox>
+			<e:CheckBox id="soundButton" label="" x="253" scaleX="1" scaleY="1" verticalCenter="2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="checkBox_2d5_1" source.down="checkBox_2d5_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:CheckBox>
+			<e:Image source="music_2d5_icon" scaleX="1" scaleY="1" x="558" verticalCenter="-2.664999999999999"/>
+			<e:Image source="sound_2d5_icon" scaleX="1" scaleY="1" x="67" verticalCenter="0"/>
+		</e:Group>
+		<e:Group height="84" y="132.5" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0">
+			<e:Image source="language_2d5_icon" x="67" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Label text="普通话" fontFamily="Microsoft YaHei" size="39" scaleX="1" scaleY="1" verticalCenter="0" textColor="0xb58650" x="340"/>
+			<e:RadioButton id="dialect1RadioButton" label="" groupName="language" scaleX="1" scaleY="1" verticalCenter="8" x="526">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="radioBtn_2d5_1" source.down="radioBtn_2d5_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:Label text="家乡话" fontFamily="Microsoft YaHei" size="39" scaleX="1" scaleY="1" textColor="0xb58650" verticalCenter="0" x="676"/>
+			<e:RadioButton id="dialect2RadioButton" label="" groupName="language" scaleX="1" scaleY="1" verticalCenter="8" x="842">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="radioBtn_2d5_1" source.down="radioBtn_2d5_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+		</e:Group>
+		<e:Group height="89.33" y="220" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0">
+			<e:Image source="background_2d5_icon" scaleX="1" scaleY="1" left="67" verticalCenter="0"/>
+			<e:Image source="tableBg_btn_green" scaleX="1" scaleY="1" verticalCenter="0" left="340"/>
+			<e:RadioButton id="bg_1" label="" groupName="bg" scaleX="1" scaleY="1" horizontalCenter="67" verticalCenter="6">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="radioBtn_2d5_1" source.down="radioBtn_2d5_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:Image source="tableBg_btn_blue" scaleX="1" scaleY="1" verticalCenter="0" left="676"/>
+			<e:RadioButton id="bg_2" label="" groupName="bg" scaleX="1" scaleY="1" verticalCenter="6" x="842">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="radioBtn_2d5_1" source.down="radioBtn_2d5_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+		</e:Group>
+		<e:Group id="viewGroup" height="86.67" y="310" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" right="0">
+			<e:Label text="3D" fontFamily="Microsoft YaHei" size="39" scaleX="1" scaleY="1" verticalCenter="0" textColor="0xb58650" left="676"/>
+			<e:RadioButton id="View_3d" label="" groupName="view" scaleX="1" scaleY="1" verticalCenter="6" x="842">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="radioBtn_2d5_1" source.down="radioBtn_2d5_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="View_2d" label="" groupName="view" scaleX="1" scaleY="1" verticalCenter="6" horizontalCenter="67">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="radioBtn_2d5_1" source.down="radioBtn_2d5_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:Label text="2D" fontFamily="Microsoft YaHei" size="39" scaleX="1" scaleY="1" verticalCenter="0" textColor="0xb58650" left="340"/>
+			<e:Image source="view_icon_2d5" x="67" scaleX="1" scaleY="1" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

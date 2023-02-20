@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleRewardItemSkin" width="240" height="30" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mjl_event_json.mjl_event_reward_itemBg" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="rank" text="第一名:" verticalAlign="middle" size="22" fontFamily="黑体" left="10" textColor="0xffde01" verticalCenter="0" anchorOffsetX="0" width="107" textAlign="center"/>
+	<e:Image source="lobby_gold_icon" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="rewardNum" text="400000" textAlign="center" verticalAlign="middle" size="20" fontFamily="黑体" right="30" textColor="0xffffff" verticalCenter="0"/>
+</e:Skin>

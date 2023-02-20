@@ -1,0 +1,305 @@
+{
+  "file": "mjl_rank.png",
+  "frames": {
+    "club_rank_close": {
+      "x": 63,
+      "y": 593,
+      "w": 23,
+      "h": 12,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 23,
+      "sourceH": 12
+    },
+    "club_rank_type_1": {
+      "x": 833,
+      "y": 462,
+      "w": 134,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 48
+    },
+    "club_rank_type_2": {
+      "x": 0,
+      "y": 483,
+      "w": 133,
+      "h": 48,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 48
+    },
+    "club_rank_type_3": {
+      "x": 134,
+      "y": 479,
+      "w": 91,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 91,
+      "sourceH": 46
+    },
+    "lobby_rank_bg_1": {
+      "x": 682,
+      "y": 0,
+      "w": 122,
+      "h": 452,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 122,
+      "sourceH": 452
+    },
+    "lobby_rank_bg_2": {
+      "x": 0,
+      "y": 131,
+      "w": 553,
+      "h": 149,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 553,
+      "sourceH": 149
+    },
+    "lobby_rank_headBg": {
+      "x": 354,
+      "y": 281,
+      "w": 96,
+      "h": 95,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 96,
+      "sourceH": 95
+    },
+    "lobby_rank_labelBg": {
+      "x": 0,
+      "y": 654,
+      "w": 66,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 66,
+      "sourceH": 36
+    },
+    "lobby_rank_line": {
+      "x": 63,
+      "y": 575,
+      "w": 159,
+      "h": 17,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 159,
+      "sourceH": 17
+    },
+    "lobby_rank_m_1": {
+      "x": 110,
+      "y": 422,
+      "w": 162,
+      "h": 56,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 162,
+      "sourceH": 56
+    },
+    "lobby_rank_m_2": {
+      "x": 273,
+      "y": 422,
+      "w": 162,
+      "h": 56,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 162,
+      "sourceH": 56
+    },
+    "lobby_rank_my": {
+      "x": 0,
+      "y": 532,
+      "w": 128,
+      "h": 42,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 128,
+      "sourceH": 42
+    },
+    "lobby_rank_myBg": {
+      "x": 0,
+      "y": 0,
+      "w": 681,
+      "h": 130,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 681,
+      "sourceH": 130
+    },
+    "lobby_rank_numBg": {
+      "x": 0,
+      "y": 374,
+      "w": 109,
+      "h": 108,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 109,
+      "sourceH": 108
+    },
+    "lobby_rank_title": {
+      "x": 110,
+      "y": 374,
+      "w": 209,
+      "h": 47,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 209,
+      "sourceH": 47
+    },
+    "lobby_rank_title_1": {
+      "x": 320,
+      "y": 377,
+      "w": 174,
+      "h": 41,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 174,
+      "sourceH": 41
+    },
+    "lobby_rank_titleBg": {
+      "x": 0,
+      "y": 281,
+      "w": 353,
+      "h": 92,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 353,
+      "sourceH": 92
+    },
+    "lobby_rank_todat_1": {
+      "x": 805,
+      "y": 0,
+      "w": 161,
+      "h": 56,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 161,
+      "sourceH": 56
+    },
+    "lobby_rank_todat_2": {
+      "x": 805,
+      "y": 57,
+      "w": 161,
+      "h": 56,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 161,
+      "sourceH": 56
+    },
+    "lobby_rank_type_1": {
+      "x": 561,
+      "y": 453,
+      "w": 135,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 135,
+      "sourceH": 48
+    },
+    "lobby_rank_type_2": {
+      "x": 697,
+      "y": 453,
+      "w": 135,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 135,
+      "sourceH": 48
+    },
+    "lobby_rank_type_3": {
+      "x": 833,
+      "y": 413,
+      "w": 135,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 135,
+      "sourceH": 48
+    },
+    "lobby_rank_week_1": {
+      "x": 805,
+      "y": 114,
+      "w": 149,
+      "h": 56,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 149,
+      "sourceH": 56
+    },
+    "lobby_rank_week_2": {
+      "x": 805,
+      "y": 171,
+      "w": 149,
+      "h": 56,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 149,
+      "sourceH": 56
+    },
+    "lobby_rank_yesterday_1": {
+      "x": 805,
+      "y": 228,
+      "w": 149,
+      "h": 56,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 149,
+      "sourceH": 56
+    },
+    "lobby_rank_yesterday_2": {
+      "x": 805,
+      "y": 285,
+      "w": 149,
+      "h": 56,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 149,
+      "sourceH": 56
+    },
+    "lobby_rankChange_btn": {
+      "x": 436,
+      "y": 444,
+      "w": 124,
+      "h": 57,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 124,
+      "sourceH": 57
+    },
+    "lobby_rankClose_btn": {
+      "x": 0,
+      "y": 575,
+      "w": 62,
+      "h": 78,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 62,
+      "sourceH": 78
+    },
+    "lobby_rankOpen_btn": {
+      "x": 805,
+      "y": 342,
+      "w": 118,
+      "h": 70,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 118,
+      "sourceH": 70
+    },
+    "lobby_rankOpen_btn_1": {
+      "x": 554,
+      "y": 131,
+      "w": 92,
+      "h": 312,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 92,
+      "sourceH": 312
+    }
+  }
+}

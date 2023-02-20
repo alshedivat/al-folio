@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZZ_TotalRecordItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="game_totalRecord_json.total_itembg" x="0" y="0"/>
+	<e:Image source="game_totalRecord_json.total_item" y="210.67" horizontalCenter="0.5"/>
+	<e:Image source="game_totalRecord_json.total_headbg" x="19" y="15"/>
+	<e:Image id="headMask" source="game_totalRecord_json.total_headbg" x="22.99" y="18.99" width="94" height="94"/>
+	<e:Image id="hostImage" source="game_totalRecord_json.total_gamehost" x="16" y="17"/>
+	<e:Image id="winnerImage" source="game_totalRecord_json.total_win" x="75" y="13.65"/>
+	<e:Label id="nameLabel" text="Label" x="129.63" y="43.02" size="22" fontFamily="微软雅黑" width="140"/>
+	<e:Label id="idLabel" text="Label" x="129.63" y="89.02" size="22" fontFamily="微软雅黑" width="140"/>
+	<e:BitmapLabel id="pointLabel" y="144.06" horizontalCenter="0" font="lose_fnt" text="1"/>
+	<e:Label id="label1" text="Label" y="239.65" size="25" horizontalCenter="0" fontFamily="Microsoft YaHei"/>
+	<e:Label id="label2" text="Label" y="361" size="25" horizontalCenter="0" fontFamily="Microsoft YaHei"/>
+	<e:Label id="label3" text="Label" y="482" size="25" horizontalCenter="0" fontFamily="Microsoft YaHei"/>
+</e:Skin>

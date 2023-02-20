@@ -1,0 +1,625 @@
+{
+  "file": "gameOperate.png",
+  "frames": {
+    "game_bank": {
+      "x": 172,
+      "y": 468,
+      "w": 34,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 34,
+      "sourceH": 34
+    },
+    "game_baoshi": {
+      "x": 141,
+      "y": 468,
+      "w": 30,
+      "h": 40,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 30,
+      "sourceH": 40
+    },
+    "game_bettery": {
+      "x": 580,
+      "y": 426,
+      "w": 31,
+      "h": 19,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 31,
+      "sourceH": 19
+    },
+    "game_betteryPercent": {
+      "x": 0,
+      "y": 497,
+      "w": 4,
+      "h": 13,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 4,
+      "sourceH": 13
+    },
+    "game_bird_hit": {
+      "x": 794,
+      "y": 0,
+      "w": 116,
+      "h": 85,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 116,
+      "sourceH": 85
+    },
+    "game_bird_notHit": {
+      "x": 397,
+      "y": 405,
+      "w": 116,
+      "h": 85,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 116,
+      "sourceH": 85
+    },
+    "game_buIcon": {
+      "x": 514,
+      "y": 426,
+      "w": 65,
+      "h": 69,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 75,
+      "sourceH": 69
+    },
+    "game_data": {
+      "x": 494,
+      "y": 491,
+      "w": 18,
+      "h": 19,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 18,
+      "sourceH": 19
+    },
+    "game_eatCardKuang_bg1": {
+      "x": 540,
+      "y": 269,
+      "w": 93,
+      "h": 88,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 93,
+      "sourceH": 88
+    },
+    "game_eatCardKuang_bg2": {
+      "x": 540,
+      "y": 269,
+      "w": 93,
+      "h": 88,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 93,
+      "sourceH": 88
+    },
+    "game_eatIcon": {
+      "x": 794,
+      "y": 137,
+      "w": 72,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 75,
+      "sourceH": 65
+    },
+    "game_group_flag0": {
+      "x": 251,
+      "y": 468,
+      "w": 15,
+      "h": 15,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 15,
+      "sourceH": 15
+    },
+    "game_group_flag90": {
+      "x": 771,
+      "y": 238,
+      "w": 15,
+      "h": 15,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 15,
+      "sourceH": 15
+    },
+    "game_group_flag180": {
+      "x": 1001,
+      "y": 0,
+      "w": 15,
+      "h": 15,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 15,
+      "sourceH": 15
+    },
+    "game_group_flag270": {
+      "x": 643,
+      "y": 365,
+      "w": 15,
+      "h": 15,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 15,
+      "sourceH": 15
+    },
+    "game_host": {
+      "x": 0,
+      "y": 468,
+      "w": 67,
+      "h": 28,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 67,
+      "sourceH": 30
+    },
+    "game_hourse": {
+      "x": 68,
+      "y": 468,
+      "w": 36,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 36,
+      "sourceH": 36
+    },
+    "game_kongIcon": {
+      "x": 634,
+      "y": 269,
+      "w": 73,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 75,
+      "sourceH": 68
+    },
+    "game_leave": {
+      "x": 674,
+      "y": 238,
+      "w": 42,
+      "h": 24,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 43,
+      "sourceH": 24
+    },
+    "game_listen_btn1": {
+      "x": 616,
+      "y": 392,
+      "w": 20,
+      "h": 27,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 20,
+      "sourceH": 27
+    },
+    "game_listen_btn2": {
+      "x": 616,
+      "y": 392,
+      "w": 20,
+      "h": 27,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 20,
+      "sourceH": 27
+    },
+    "game_listenBg": {
+      "x": 794,
+      "y": 86,
+      "w": 121,
+      "h": 50,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 121,
+      "sourceH": 50
+    },
+    "game_listenBtn_bg": {
+      "x": 267,
+      "y": 405,
+      "w": 129,
+      "h": 103,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 129,
+      "sourceH": 103
+    },
+    "game_listenIcon": {
+      "x": 105,
+      "y": 468,
+      "w": 35,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 35,
+      "sourceH": 36
+    },
+    "game_listenNum_0": {
+      "x": 397,
+      "y": 491,
+      "w": 32,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 20
+    },
+    "game_listenNum_1": {
+      "x": 430,
+      "y": 491,
+      "w": 31,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 31,
+      "sourceH": 20
+    },
+    "game_listenNum_2": {
+      "x": 462,
+      "y": 491,
+      "w": 31,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 31,
+      "sourceH": 20
+    },
+    "game_listenNum_3": {
+      "x": 661,
+      "y": 338,
+      "w": 31,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 31,
+      "sourceH": 20
+    },
+    "game_listenNum_4": {
+      "x": 708,
+      "y": 292,
+      "w": 31,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 31,
+      "sourceH": 20
+    },
+    "game_listenNum_5": {
+      "x": 735,
+      "y": 265,
+      "w": 31,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 31,
+      "sourceH": 20
+    },
+    "game_listenNum_6": {
+      "x": 974,
+      "y": 27,
+      "w": 31,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 31,
+      "sourceH": 20
+    },
+    "game_listenNum_7": {
+      "x": 916,
+      "y": 80,
+      "w": 31,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 31,
+      "sourceH": 20
+    },
+    "game_listenNum_8": {
+      "x": 867,
+      "y": 137,
+      "w": 31,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 31,
+      "sourceH": 20
+    },
+    "game_nosignal": {
+      "x": 207,
+      "y": 493,
+      "w": 45,
+      "h": 18,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 45,
+      "sourceH": 18
+    },
+    "game_offline": {
+      "x": 207,
+      "y": 468,
+      "w": 43,
+      "h": 24,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 43,
+      "sourceH": 24
+    },
+    "game_operate_bu1": {
+      "x": 0,
+      "y": 0,
+      "w": 134,
+      "h": 134,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 134
+    },
+    "game_operate_bu2": {
+      "x": 135,
+      "y": 0,
+      "w": 134,
+      "h": 134,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 134
+    },
+    "game_operate_cancel1": {
+      "x": 270,
+      "y": 0,
+      "w": 134,
+      "h": 134,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 134
+    },
+    "game_operate_cancel2": {
+      "x": 0,
+      "y": 135,
+      "w": 134,
+      "h": 134,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 134
+    },
+    "game_operate_check1": {
+      "x": 675,
+      "y": 0,
+      "w": 118,
+      "h": 118,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 118,
+      "sourceH": 118
+    },
+    "game_operate_check2": {
+      "x": 675,
+      "y": 119,
+      "w": 118,
+      "h": 118,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 118,
+      "sourceH": 118
+    },
+    "game_operate_eat1": {
+      "x": 135,
+      "y": 135,
+      "w": 134,
+      "h": 134,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 134
+    },
+    "game_operate_eat2": {
+      "x": 0,
+      "y": 270,
+      "w": 134,
+      "h": 134,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 134
+    },
+    "game_operate_kong1": {
+      "x": 540,
+      "y": 135,
+      "w": 133,
+      "h": 133,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 133,
+      "sourceH": 133
+    },
+    "game_operate_kong2": {
+      "x": 405,
+      "y": 270,
+      "w": 134,
+      "h": 133,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 133
+    },
+    "game_operate_pong1": {
+      "x": 135,
+      "y": 270,
+      "w": 134,
+      "h": 134,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 134
+    },
+    "game_operate_pong2": {
+      "x": 270,
+      "y": 135,
+      "w": 134,
+      "h": 134,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 134
+    },
+    "game_operate_sixi1": {
+      "x": 270,
+      "y": 270,
+      "w": 134,
+      "h": 134,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 134
+    },
+    "game_operate_sixi2": {
+      "x": 405,
+      "y": 0,
+      "w": 134,
+      "h": 134,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 134
+    },
+    "game_operate_win1": {
+      "x": 405,
+      "y": 135,
+      "w": 134,
+      "h": 134,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 134
+    },
+    "game_operate_win2": {
+      "x": 540,
+      "y": 0,
+      "w": 134,
+      "h": 134,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 134
+    },
+    "game_out_blur": {
+      "x": 911,
+      "y": 0,
+      "w": 62,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 62,
+      "sourceH": 79
+    },
+    "game_pengIcon": {
+      "x": 540,
+      "y": 358,
+      "w": 75,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 75,
+      "sourceH": 67
+    },
+    "game_seaRoma": {
+      "x": 0,
+      "y": 405,
+      "w": 266,
+      "h": 62,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 266,
+      "sourceH": 62
+    },
+    "game_startHu_2": {
+      "x": 717,
+      "y": 238,
+      "w": 26,
+      "h": 26,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 26,
+      "sourceH": 26
+    },
+    "game_startHu_3": {
+      "x": 744,
+      "y": 238,
+      "w": 26,
+      "h": 26,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 26,
+      "sourceH": 26
+    },
+    "game_startHu_4": {
+      "x": 794,
+      "y": 203,
+      "w": 26,
+      "h": 26,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 26,
+      "sourceH": 26
+    },
+    "game_startHu_5": {
+      "x": 616,
+      "y": 365,
+      "w": 26,
+      "h": 26,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 26,
+      "sourceH": 26
+    },
+    "game_startHu_20": {
+      "x": 634,
+      "y": 338,
+      "w": 26,
+      "h": 26,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 26,
+      "sourceH": 26
+    },
+    "game_startHu_21": {
+      "x": 974,
+      "y": 0,
+      "w": 26,
+      "h": 26,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 26,
+      "sourceH": 26
+    },
+    "game_startHu_22": {
+      "x": 708,
+      "y": 265,
+      "w": 26,
+      "h": 26,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 26,
+      "sourceH": 26
+    },
+    "game_wifi": {
+      "x": 514,
+      "y": 404,
+      "w": 25,
+      "h": 18,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 25,
+      "sourceH": 18
+    }
+  }
+}

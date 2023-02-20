@@ -1,0 +1,375 @@
+{
+  "file": "mjl_coin_match.png",
+  "frames": {
+    "cm_btn_again_1": {
+      "x": 176,
+      "y": 698,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "cm_btn_again_2": {
+      "x": 0,
+      "y": 889,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "cm_btn_bc_1": {
+      "x": 176,
+      "y": 763,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "cm_btn_bc_2": {
+      "x": 0,
+      "y": 954,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "cm_btn_ds_1": {
+      "x": 378,
+      "y": 698,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "cm_btn_ds_2": {
+      "x": 202,
+      "y": 889,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "cm_card": {
+      "x": 675,
+      "y": 595,
+      "w": 53,
+      "h": 56,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 54,
+      "sourceH": 57
+    },
+    "cm_fanhui": {
+      "x": 598,
+      "y": 646,
+      "w": 59,
+      "h": 62,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 60,
+      "sourceH": 63
+    },
+    "coin_diban": {
+      "x": 0,
+      "y": 0,
+      "w": 309,
+      "h": 430,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 310,
+      "sourceH": 431
+    },
+    "coin_gaoji": {
+      "x": 310,
+      "y": 0,
+      "w": 309,
+      "h": 430,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 310,
+      "sourceH": 431
+    },
+    "coin_match_choose_bg": {
+      "x": 0,
+      "y": 431,
+      "w": 727,
+      "h": 163,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 728,
+      "sourceH": 164
+    },
+    "coin_match_choose_btnNoSelect": {
+      "x": 0,
+      "y": 645,
+      "w": 87,
+      "h": 197,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 88,
+      "sourceH": 198
+    },
+    "coin_match_choose_btnSelect": {
+      "x": 88,
+      "y": 645,
+      "w": 87,
+      "h": 197,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 88,
+      "sourceH": 198
+    },
+    "coin_match_choose_flag": {
+      "x": 840,
+      "y": 431,
+      "w": 41,
+      "h": 53,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 42,
+      "sourceH": 54
+    },
+    "coin_match_choose_line": {
+      "x": 930,
+      "y": 0,
+      "w": 36,
+      "h": 508,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 37,
+      "sourceH": 509
+    },
+    "coin_match_choose_majiangNoSelect": {
+      "x": 967,
+      "y": 227,
+      "w": 46,
+      "h": 107,
+      "offX": 20,
+      "offY": 45,
+      "sourceW": 88,
+      "sourceH": 198
+    },
+    "coin_match_choose_majiangSelect": {
+      "x": 967,
+      "y": 114,
+      "w": 50,
+      "h": 112,
+      "offX": 19,
+      "offY": 45,
+      "sourceW": 88,
+      "sourceH": 198
+    },
+    "coin_match_choose_pokerNoSelect": {
+      "x": 728,
+      "y": 431,
+      "w": 46,
+      "h": 108,
+      "offX": 20,
+      "offY": 46,
+      "sourceW": 88,
+      "sourceH": 198
+    },
+    "coin_match_choose_pokerSelect": {
+      "x": 967,
+      "y": 0,
+      "w": 50,
+      "h": 113,
+      "offX": 19,
+      "offY": 44,
+      "sourceW": 88,
+      "sourceH": 198
+    },
+    "coin_match_people1": {
+      "x": 775,
+      "y": 497,
+      "w": 49,
+      "h": 37,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 50,
+      "sourceH": 38
+    },
+    "coin_match_people2": {
+      "x": 404,
+      "y": 856,
+      "w": 49,
+      "h": 37,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 50,
+      "sourceH": 38
+    },
+    "coin_match_people3": {
+      "x": 404,
+      "y": 894,
+      "w": 49,
+      "h": 37,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 50,
+      "sourceH": 38
+    },
+    "coin_match_spriteBack": {
+      "x": 505,
+      "y": 763,
+      "w": 59,
+      "h": 55,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 60,
+      "sourceH": 56
+    },
+    "coin_match_spriteLine": {
+      "x": 366,
+      "y": 629,
+      "w": 0,
+      "h": 0,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 1,
+      "sourceH": 82
+    },
+    "coin_match_spriteText_100": {
+      "x": 297,
+      "y": 828,
+      "w": 56,
+      "h": 33,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 57,
+      "sourceH": 34
+    },
+    "coin_match_spriteText_300": {
+      "x": 366,
+      "y": 595,
+      "w": 63,
+      "h": 33,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 64,
+      "sourceH": 34
+    },
+    "coin_match_spriteText_1000": {
+      "x": 202,
+      "y": 986,
+      "w": 129,
+      "h": 31,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 130,
+      "sourceH": 32
+    },
+    "coin_match_spriteText_15000": {
+      "x": 202,
+      "y": 954,
+      "w": 147,
+      "h": 31,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 148,
+      "sourceH": 32
+    },
+    "coin_match_spriteText_20000": {
+      "x": 728,
+      "y": 540,
+      "w": 104,
+      "h": 33,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 105,
+      "sourceH": 34
+    },
+    "coin_match_spriteText_50000": {
+      "x": 445,
+      "y": 646,
+      "w": 152,
+      "h": 31,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 153,
+      "sourceH": 32
+    },
+    "coin_match_spriteText_rule": {
+      "x": 176,
+      "y": 645,
+      "w": 268,
+      "h": 52,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 269,
+      "sourceH": 53
+    },
+    "coin_match_spriteText_start": {
+      "x": 445,
+      "y": 595,
+      "w": 229,
+      "h": 50,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 230,
+      "sourceH": 51
+    },
+    "coin_match_spriteTitleBg": {
+      "x": 0,
+      "y": 595,
+      "w": 365,
+      "h": 49,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 366,
+      "sourceH": 50
+    },
+    "coin_match_tips": {
+      "x": 775,
+      "y": 431,
+      "w": 64,
+      "h": 65,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 65,
+      "sourceH": 66
+    },
+    "coin_match_topBg": {
+      "x": 378,
+      "y": 763,
+      "w": 126,
+      "h": 92,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 129,
+      "sourceH": 93
+    },
+    "coin_pipeiduishou": {
+      "x": 0,
+      "y": 843,
+      "w": 296,
+      "h": 45,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 297,
+      "sourceH": 46
+    },
+    "coin_zhongji": {
+      "x": 620,
+      "y": 0,
+      "w": 309,
+      "h": 430,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 310,
+      "sourceH": 431
+    }
+  }
+}

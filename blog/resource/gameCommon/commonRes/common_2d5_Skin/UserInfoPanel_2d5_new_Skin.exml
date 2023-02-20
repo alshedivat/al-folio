@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UserInfoPanel_2d5_new_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image source="userInfo_bg_2d5" verticalCenter="0" horizontalCenter="0" />
+    <e:Button id="closeBtn" label="" x="936.32" y="106.68">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="closeBtn_2d5_1" source.down="closeBtn_2d5_2" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Panel id="_headMc" skinName="HeadImage_2d5_new_Skin" width="125" height="125" left="318" top="163" />
+    <e:Image source="userInfo_diamond_2d5" horizontalCenter="160" verticalCenter="-132" />
+    <e:Image source="userInfo_id_2d5" horizontalCenter="-154" verticalCenter="-134" />
+    <e:Image source="userInfo_ip_2d5" horizontalCenter="-155" verticalCenter="-93" />
+    <e:Image source="userInfo_name_2d5" horizontalCenter="-154" verticalCenter="-174.5" />
+    <e:Image source="userInfo_point_2d5" verticalCenter="-93" horizontalCenter="160" />
+    <e:Image id="_genderIcon" source="userinfo_sex0_2d5" horizontalCenter="97" verticalCenter="-174.5" />
+    <e:Label id="_nickTxt" text="" fontFamily="Microsoft YaHei" size="24" textColor="0x5d4533"
+             verticalCenter="-175.5" left="530" />
+    <e:Label id="_idTxt" text="" fontFamily="Microsoft YaHei" size="24" verticalCenter="-134" left="530"
+             textColor="0x835b39" />
+    <e:Label id="_ipTxt" text="" fontFamily="Microsoft YaHei" size="24" verticalCenter="-93" left="530"
+             textColor="0x835b39" />
+    <e:Label id="_diamondTxt" text="" fontFamily="Microsoft YaHei" size="24" verticalCenter="-132"
+             textColor="0x835b39" horizontalCenter="240" />
+    <e:Label id="_scoreTxt" text="" fontFamily="Microsoft YaHei" size="24" verticalCenter="-93" textColor="0x835b39"
+             horizontalCenter="240" />
+    <e:Label id="distanceLabel" text="" size="24" fontFamily="Microsoft YaHei" textColor="0xbba78d"
+              left="340" top="323"/>
+	<e:Label id="addressLabel" text="" size="24" fontFamily="Microsoft YaHei" textColor="0xBBA78D" left="340" top="360"/>
+    <e:Scroller width="650" height="115" horizontalCenter="0" scrollPolicyH="off" scrollPolicyV="off" bottom="155">
+        <e:Group>
+					<e:List id="giftList" top="0" bottom="0" touchChildren="true" touchEnabled="false" itemRendererSkinName="GiftItem_2d5_new_skin" x="0">
+						<e:layout>
+							<e:HorizontalLayout gap="0"/>
+						</e:layout>
+					</e:List>
+					<e:layout>
+						<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+					</e:layout>
+				</e:Group>
+    </e:Scroller>
+</e:Skin>

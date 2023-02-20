@@ -1,0 +1,105 @@
+{
+  "file": "setting_DDZ.png",
+  "frames": {
+    "exitGame_btn_DDZ1": {
+      "x": 0,
+      "y": 0,
+      "w": 173,
+      "h": 63,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 173,
+      "sourceH": 63
+    },
+    "Gold_chips": {
+      "x": 0,
+      "y": 227,
+      "w": 32,
+      "h": 24,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 32,
+      "sourceH": 24
+    },
+    "leaveRoom_DDZ1": {
+      "x": 0,
+      "y": 63,
+      "w": 173,
+      "h": 63,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 173,
+      "sourceH": 63
+    },
+    "setting_check_DDZ": {
+      "x": 48,
+      "y": 176,
+      "w": 43,
+      "h": 43,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 43,
+      "sourceH": 43
+    },
+    "setting_checkbg_DDZ": {
+      "x": 91,
+      "y": 176,
+      "w": 40,
+      "h": 39,
+      "offX": 2,
+      "offY": 2,
+      "sourceW": 43,
+      "sourceH": 43
+    },
+    "setting_language_DDZ": {
+      "x": 93,
+      "y": 126,
+      "w": 49,
+      "h": 49,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 53,
+      "sourceH": 54
+    },
+    "setting_music_DDZ": {
+      "x": 173,
+      "y": 50,
+      "w": 44,
+      "h": 49,
+      "offX": 3,
+      "offY": 2,
+      "sourceW": 53,
+      "sourceH": 54
+    },
+    "setting_poker_DDZ": {
+      "x": 0,
+      "y": 176,
+      "w": 48,
+      "h": 51,
+      "offX": 3,
+      "offY": 1,
+      "sourceW": 53,
+      "sourceH": 54
+    },
+    "setting_sound_DDZ": {
+      "x": 173,
+      "y": 0,
+      "w": 52,
+      "h": 50,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 53,
+      "sourceH": 54
+    },
+    "setting_title_DDZ": {
+      "x": 0,
+      "y": 126,
+      "w": 93,
+      "h": 50,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 95,
+      "sourceH": 50
+    }
+  }
+}

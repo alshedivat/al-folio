@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeaHouseRadioButtonSkin" width="250" height="63" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" 
+     states="up,down,disabled">
+	<e:Image source="teahouse_btn_selected" scale9Grid="3,3,22,18" left="0" right="0" top="0" bottom="0" />
+	<e:Image source.down="teahouse_btn_normal" scale9Grid="3,3,22,18" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="mjl_teahouse_json.teahouse_id_text" verticalCenter="0" horizontalCenter="-57"/>
+	<e:Label id="labelDisplay" text="123456" textColor="0xb8ddfd" verticalCenter="0" fontFamily="Microsoft YaHei" left="119"/>
+</e:Skin>

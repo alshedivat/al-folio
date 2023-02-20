@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MsgBox_DDZ_Event_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="440" width="710">
+	<e:Image anchorOffsetY="0" anchorOffsetX="5.24" source="public_DDZ2" left="0" right="0" top="0" bottom="0" scale9Grid="93,51,563,308" alpha="0.7" />
+	<e:Image width="572" height="375" y="31" scale9Grid="17,13,67,68" source="role_frame_3_png" x="24.16" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+	<e:Label id="desLabel" text="特殊规则" y="79" fontFamily="Microsoft YaHei" size="30" anchorOffsetX="0" textAlign="center" verticalAlign="middle" anchorOffsetY="0" horizontalCenter="0" textColor="0xffffff"/>
+	<e:Group id="btnsGroup" width="520" height="93" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="122">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="60"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MultipleInfo_DDZ_Skin" width="357" height="267" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="room_DDZ_json.cardcounter_bg" x="178" y="273" scale9Grid="37,39,26,39" anchorOffsetX="180" width="360" anchorOffsetY="273" height="273"/>
+	<e:Image source="room_DDZ_json.multip_bg" x="14" y="75" scale9Grid="17,16,26,28" anchorOffsetX="0" width="160" anchorOffsetY="0" height="163"/>
+	<e:Image source="room_DDZ_json.multip_bg" x="181" y="75" width="160" scale9Grid="17,16,26,28" anchorOffsetX="0" anchorOffsetY="0" height="163"/>
+	<e:Label id="AllM" text="公共倍数" x="35" y="31" textColor="0x773401" fontFamily="黑体" size="28"/>
+	<e:Label text="个人倍数" x="212" y="31" textColor="0x773401" id="AllM0" fontFamily="黑体" size="28"/>
+	<e:Label text="明牌" x="33" y="88" textColor="0x773401" id="AllM1" fontFamily="黑体" size="22"/>
+	<e:Label text="--" x="130" y="88" id="AllM8" fontFamily="黑体" size="22" textColor="0xe57202"/>
+	<e:Label text="--" x="310" y="87" textColor="0xE57202" id="AllM13" fontFamily="黑体" size="22"/>
+	<e:Label text="--" x="311" y="115" textColor="0xE57202" id="AllM14" fontFamily="黑体" size="22"/>
+	<e:Label text="--" x="131" y="117" textColor="0xE57202" id="AllM9" fontFamily="黑体" size="22"/>
+	<e:Label text="X3" x="130" y="147" textColor="0xE57202" id="AllM10" fontFamily="黑体" size="22"/>
+	<e:Label text="--" x="131" y="180" textColor="0xE57202" id="AllM11" fontFamily="黑体" size="22"/>
+	<e:Label text="--" x="131" y="210" textColor="0xE57202" id="AllM12" fontFamily="黑体" size="22"/>
+	<e:Label text="抢地主" x="30" y="118" textColor="0x773401" id="AllM2" fontFamily="黑体" size="22"/>
+	<e:Label text="炸弹" x="33" y="150" textColor="0x773401" id="AllM3" fontFamily="黑体" size="22"/>
+	<e:Label text="春天" x="31" y="180" textColor="0x773401" id="AllM4" fontFamily="黑体" size="22"/>
+	<e:Label text="任务" x="31" y="209" textColor="0x773401" id="AllM5" fontFamily="黑体" size="22"/>
+	<e:Label text="农民加倍" x="199" y="88" textColor="0x773401" id="AllM6" fontFamily="黑体" size="22"/>
+	<e:Label text="地主加倍" x="200" y="119" textColor="0x773401" id="AllM7" fontFamily="黑体" size="22"/>
+</e:Skin>

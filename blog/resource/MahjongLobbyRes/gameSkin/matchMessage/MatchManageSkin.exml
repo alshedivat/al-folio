@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchManageSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:MJLobby="MJLobby.*">
+	<e:Image  source="mjl_common_bj_1" left="0" right="0" top="0" bottom="0" scale9Grid="33,89,205,539"/>
+	<e:Image left="0" top="0" height="99" width="299" source="match_title"/>
+
+	<e:Image anchorOffsetX="0"
+	          anchorOffsetY="0" source="mjl_common_bj_2" scale9Grid="27,33,227,540" left="20" right="10" top="92" bottom="20"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" left="20" right="10" top="80" bottom="20" source="mjl_common_bj_5_png"/>
+
+	<e:Image source="match_topBtn_bg" x="296.31" width="858"  scale9Grid="17,9,109,55" top="10" height="70"/>
+
+	<e:Group id="top" anchorOffsetX="0" width="878" height="60" x="287" top="15">
+		<e:RadioButton id="detailsButton" label="" x="8" y="10" width="142" height="60" groupName="matchUp">
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSeleced" width="143" height="60">
+				<e:Image includeIn="upAndSelected,downAndSelected,disabledAndSeleced"  source="match_topBtn_bg" source.upAndSelected="match_topBtn_selected" source.downAndSelected="match_topBtn_selected" width="143" height="60" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="fangjian"  width="120" height="33" horizontalCenter="0" verticalCenter="0" source.upAndSelected="fangjian1" source.downAndSelected="fangjian1"/>
+			</e:Skin>
+		</e:RadioButton>
+		<e:RadioButton id="memberButton" label="" x="182" y="10" width="142" height="60" groupName="matchUp">
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSeleced" width="143" height="60">
+				<e:Image includeIn="upAndSelected,downAndSelected,disabledAndSeleced"  source="match_topBtn_bg" source.upAndSelected="match_topBtn_selected" source.downAndSelected="match_topBtn_selected" width="143" height="60" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="chengyuan"  width="120" height="33" horizontalCenter="0" verticalCenter="0" source.upAndSelected="chengyuan1" source.downAndSelected="chengyuan"/>
+			</e:Skin>
+		</e:RadioButton>
+		<e:RadioButton id="messageButton" label="" x="354.15" y="10" width="142" height="60" groupName="matchUp">
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSeleced" width="143" height="60">
+				<e:Image includeIn="upAndSelected,downAndSelected,disabledAndSeleced"  source="match_topBtn_bg" source.upAndSelected="match_topBtn_selected" source.downAndSelected="match_topBtn_selected" width="143" height="60" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="xiaoxi"  width="120" height="33" horizontalCenter="0" verticalCenter="0" source.upAndSelected="xiaoxi1" source.downAndSelected="xiaoxi1"/>
+	<e:Image id="redPoint" source="lobby_markpoint" right="0" top="0"/>
+			</e:Skin>
+		</e:RadioButton>
+		<e:RadioButton id="fightingButton" label="" x="522.15" y="10" width="142" height="60" groupName="matchUp">
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSeleced" width="143" height="60">
+				<e:Image includeIn="upAndSelected,downAndSelected,disabledAndSeleced"  source="match_topBtn_bg" source.upAndSelected="match_topBtn_selected" source.downAndSelected="match_topBtn_selected" width="143" height="60" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="zhankuang"  width="120" height="33" horizontalCenter="0" verticalCenter="0" source.upAndSelected="zhankuang1" source.downAndSelected="zhankuang1"/>
+			</e:Skin>
+		</e:RadioButton>
+		<e:RadioButton id="playerListButton" label="" x="690.15" y="10" width="142" height="60" groupName="matchUp">
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSeleced" width="143" height="60">
+				<e:Image includeIn="upAndSelected,downAndSelected,disabledAndSeleced"  source="match_topBtn_bg" source.upAndSelected="match_topBtn_selected" source.downAndSelected="match_topBtn_selected" width="143" height="60" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="playerList"  width="120" height="33" horizontalCenter="0" verticalCenter="0" source.upAndSelected="playerList1" source.downAndSelected="playerList1"/>
+			</e:Skin>
+		</e:RadioButton>
+		<e:RadioButton id="yelloListButton" label="" x="587.24" y="26" width="142" height="60" groupName="matchUp">
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSeleced" width="143" height="60">
+				<e:Image includeIn="upAndSelected,downAndSelected,disabledAndSeleced"  source="match_topBtn_bg" source.upAndSelected="match_topBtn_selected" source.downAndSelected="match_topBtn_selected" width="143" height="60" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="yelloList"  height="33" horizontalCenter="0" verticalCenter="0" source.upAndSelected="yelloList1" source.downAndSelected="yelloList1" width="93"/>
+			</e:Skin>
+		</e:RadioButton>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0" />
+		</e:layout>
+	</e:Group>
+	<e:Group id="left" width="255" height="500" left="30" top="110">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" scale9Grid="17,22,75,75" width="255" height="500" verticalCenter="0" horizontalCenter="0" source="mjl_common_bj_7"/>
+		<e:Scroller anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" width="250" height="490" left="10" top="5">
+			<e:Group>
+				<e:List id="matchList" itemRendererSkinName="MatchRadioButtonSkin" x="1.33" y="1.33" useVirtualLayout="true">
+				<e:layout>
+					<e:VerticalLayout gap="15" horizontalAlign="center" verticalAlign="middle" paddingTop="10"/>
+				</e:layout>
+				</e:List>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="right" height="500" top="119" left="294" right="21">
+		<e:ViewStack id="groupViewStack" left="-1" right="1" top="-21" bottom="21" selectedIndex="3">
+
+			<e:Group id="detailsGroup" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" x="0" y="0" visible="false">
+				<e:Image scale9Grid="20,16,122,101" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0" source="mjl_common_bj_6"/>
+				<e:Image source="mjl_common_bj_4" anchorOffsetY="0" left="0" right="1" scale9Grid="12,9,76,57" top="0" bottom="390"/>
+				<e:Label id="ownerLabel" text="" top="20" textColor="0x1267b7" fontFamily="SimHei" size="24" left="107"/>
+				<e:Label text="房主名:" top="20" textColor="0x1267B7" fontFamily="SimHei" size="24" left="15"/>
+				<e:Label id="matchIdLabel" text="" textColor="0x1267b7" fontFamily="SimHei" size="24" left="327" top="20"/>
+				<e:Label text="包厢号:" textColor="0x1267B7" fontFamily="SimHei" size="24" left="236" top="20"/>
+				<e:Label id="matchName" text="包厢名:" size="24" textColor="0x1267b7" fontFamily="SimHei" top="20" left="445" width="260" height="24"/>
+				<e:Label id="lastMin" text="包月剩余:" size="24" textColor="0x1267B7" fontFamily="SimHei" top="80" left="445" height="24"/>
+				<e:Label id="waitMemberLabel" text="等待人数：" fontFamily="SimHei" size="24" textColor="0x1267b7" left="15" top="80"/>
+				<e:Label id="stepLabel" text="di2轮" y="130.5" right="29" size="26" textColor="0x1267b7" fontFamily="SimHei" visible="false"/>
+				<e:Label id="gameMemberLabel" text="游戏人数：" textColor="0x1267b7" fontFamily="SimHei" size="24" left="236" top="80"/>
+				<e:Scroller width="910.75" height="250" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" verticalCenter="20" horizontalCenter="0">
+				<e:Group>
+				<e:List id="matchTableList" itemRendererSkinName="MatchTableItemSkin" anchorOffsetX="0" width="944.08" anchorOffsetY="0" height="255" y="0" x="14.67"  useVirtualLayout="true">
+					<e:layout>
+					<e:HorizontalLayout verticalAlign="middle" gap="20" horizontalAlign="center"/>
+					</e:layout>
+					<e:ArrayCollection>
+					<e:Array/>
+					</e:ArrayCollection>
+				</e:List>
+				</e:Group>
+				</e:Scroller>
+				<e:Button id="continueCreateButton" label="" y="430" scaleX="0.9" scaleY="0.9" left="20" width="171" height="64">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="match_btn_create_1" source.down="match_btn_create_2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button id="terminationButton" label="" y="430" scaleX="0.9" scaleY="0.9" left="207">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="match_btn_pause_1" source.down="match_btn_continue_1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button id="dissolutionButton" label="" y="430" scaleX="0.9" scaleY="0.9" right="33">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="match_dissClubBtn1" source.down="match_dissClubBtn2"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+
+				</e:Button>
+				<e:Button id="joinMatchButton" label="" y="430" scaleX="0.9" scaleY="0.9" horizontalCenter="-6.5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="match_btn_join_1" source.down="match_btn_join_2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button id="prizeMatchButton" label="" y="430" scaleX="0.9" scaleY="0.9" horizontalCenter="180.5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="match_btn_prize_1" source.down="match_btn_prize_1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Label id="delTimeLabel" text="包厢剩余时间：" y="141.34" horizontalCenter="0" textColor="0x7d2f00" visible="false"/>
+				<e:Label id="diamondLabel" text="钻石数量：" horizontalCenter="0" size="24" textColor="0x1267b7" fontFamily="SimHei" top="115"/>
+				<e:CheckBox id="touristModelCheckBox" label="游客模式" x="65.03" y="433.18" anchorOffsetX="0" width="201.33" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image source="mjl_login_chenkbg"/>
+					<e:Image source="mjl_login_chenk" visible="false" visible.down="true"/>
+					<e:Label width="100%" height="100%"/>
+					<e:Label id="labelDisplay" right="0" verticalCenter="0" textColor="0xFFEA00"/>
+					</e:Skin>
+				</e:skinName>
+				</e:CheckBox>
+				<e:Button id="shareButton" label="" anchorOffsetY="0" anchorOffsetX="0" top="5" right="10" width="138" height="47" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="match_btn_share_1" source.down="match_btn_share_2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="黑体" textColor="0x7f2d00" scaleX.down="0.9" scaleY.down="0.9"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button id="waitListBtn" label="" anchorOffsetY="0" anchorOffsetX="0" right="10" top="60">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="match_btn_wait_1" source.down="match_btn_wait_2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="黑体" textColor="0x7f2d00" scaleX.down="0.9" scaleY.down="0.9"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Label id="playTypeInfo" text="超时暂停，超时暂停，超时暂停，超时暂停，超时暂停，超时暂停，超时暂停，" y="378.33" horizontalCenter="0" textAlign="center" verticalAlign="middle" height="50" size="22" bold="true" textColor="0x1267b7" fontFamily="SimHei" anchorOffsetY="0" width="900" multiline="true"/>
+				<e:Button id="renewBtn" label="" x="763.03" y="65.1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="renewal1" source.down="renewa2"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+
+				</e:Button>
+			</e:Group>
+			<e:Group id="memberGroup" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" x="0" y="0" visible="false">
+				<e:RadioButton id="whiteBtn" label="" x="910" y="66" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source.down="redDot"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:RadioButton>
+				<e:RadioButton id="blackBtn" label="" x="910" y="209.34" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source.down="redDot"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:RadioButton>
+				<e:Image source="mjl_common_bj_6" left="0" right="0" top="0" bottom="0" scale9Grid="20,16,122,101"/>
+				<e:Image source="mjl_common_bj_4" height="75" y="0" scale9Grid="12,9,76,57" anchorOffsetY="0" left="0" right="0"/>
+				<e:Image source="matchmemeber2" x="203" y="20"/>
+				<e:Image id="pointBtn" y="20" source="matchmemeber3" left="340"/>
+				<e:Image id="gongxianIcon" x="519.33" y="21" source="matchmemeber11"/>
+				<e:Image id="descBtn" x="603.34" y="20" source="desc"/>
+				<e:Image id="lastTimeBtn" x="716" top="20" source="matchmemeber4"/>
+				<e:Image id="playerId" x="62.99" y="20" source="matchid"/>
+				<e:Image source="matchmemeber6" x="854.01" y="20"/>
+				<e:Scroller id="scoller" height="341.78" y="75" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" scrollPolicyH="off">
+				<e:Group>
+				<e:List id="memeberList" anchorOffsetX="0" itemRendererSkinName="MatchMemberItemSkin" x="1.33" y="1" useVirtualLayout="true">
+					<e:layout>
+					<e:VerticalLayout/>
+					</e:layout>
+				</e:List>
+				</e:Group>
+				</e:Scroller>
+				<e:Image x="430.98" y="20" source="matchmemeber5"/>
+				<e:Button id="importMatchButton" label="" y="430" scaleX="0.9" scaleY="0.9" horizontalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="match_btn_import_1" source.down="match_btn_import_2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="messageGroup" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" x="0" y="0" visible="false">
+				<e:Scroller >
+					<e:Group>
+						<e:List id="messageList" itemRendererSkinName="MatchMessageItemSkin" useVirtualLayout="true">
+							<e:layout>
+							<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" gap="41" paddingTop="10"/>
+							</e:layout>
+							<e:ArrayCollection>
+							<e:Array>
+								<e:Object/>
+								<e:Object/>
+							</e:Array>
+							</e:ArrayCollection>
+						</e:List>
+					</e:Group>
+				</e:Scroller>
+			</e:Group>
+			<e:Group id="fightingGroup" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" x="0" y="0" visible="false">
+				<e:Scroller anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="65" bottom="0" scrollPolicyH="off">
+				<e:Group>
+				<e:List id="fightingList" itemRendererSkinName="MatchFightingItemSkin" useVirtualLayout="true">
+					<e:layout>
+					<e:VerticalLayout gap="19" horizontalAlign="center" verticalAlign="middle" paddingTop="0"/>
+					</e:layout>
+				</e:List>
+				</e:Group>
+				</e:Scroller>
+				<e:Group id="searchGroup" height="60" scaleX="1" scaleY="1" left="0" right="0" top="0">
+				<e:Image source="mjl_matchmanage_json.match_history_search_bg" left="0" right="0" top="0" bottom="0" scale9Grid="17,7,70,44"/>
+				<e:Label text="时间:" verticalCenter="0" left="10" fontFamily="Microsoft YaHei" textColor="0x844118" size="26"/>
+				<MJLobby:DropDown id="startTime" skinName="DropDownSkin" left="80" top="0"/>
+				<MJLobby:DropDown skinName="DropDownSkin" left="460" id="endTime" top="0"/>
+				<e:Button id="searchHisBtn" label="" verticalCenter="0" right="5" scaleX="0.8" scaleY="0.8">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="match_history_search_btn_1" source.down="match_history_search_btn_2"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="resetSearchBtn" label="" verticalCenter="0" right="90" scaleX="0.8" scaleY="0.8">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="match_history_reset_btn_1" source.down="match_history_reset_btn_2"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Label text="—" horizontalCenter="-45" verticalCenter="0" textColor="0x844118"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="playerListGroup" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" x="0" y="0">
+				<e:Image scaleX="1" scaleY="1" source="mjl_common_bj_6" left="0" right="0" top="0" bottom="0" scale9Grid="20,16,122,101"/>
+				<e:Image source="mjl_common_bj_4" height="75" y="0" scale9Grid="12,9,76,57" anchorOffsetY="0" left="0" right="0"/>
+				<e:Group id="detialsTitle" width="833" height="68" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Image id="rankText" source="matchmemeber1" x="21.67999999999995" scaleX="1" scaleY="1" verticalCenter="0"/>
+				<e:Image id="nameText" source="matchmemeber2" x="134.31" scaleX="1" scaleY="1" verticalCenter="0"/>
+				<e:Image id="bigWinner" x="570" source="matchmemeber8" scaleX="1" scaleY="1" verticalCenter="0"/>
+				<e:Image id="playCount" x="710" source="matchmemeber7" scaleX="1" scaleY="1" verticalCenter="0"/>
+				<e:Button id="scoreNowBtn" label="Button" x="245" scaleX="1" scaleY="1" verticalCenter="0.5">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="matchmemeber9"/>
+						<e:Label horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="lastScoreBtn" label="Button" x="400" width="153" height="64" scaleX="1" scaleY="1" verticalCenter="0">
+					<e:Skin states="up,down,disabled">
+					<e:Image source="matchmemeber10" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+					<e:Label horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+					</e:Skin>
+				</e:Button>
+				</e:Group>
+				<e:Group id="simpleTitle" height="68" y="0" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0">
+				<e:Image id="rankText0" source="matchmemeber1" x="20.91" scaleX="1" scaleY="1" verticalCenter="0.5"/>
+				<e:Image id="nameText0" source="matchmemeber2" x="331.93" scaleX="1" scaleY="1" verticalCenter="0.5"/>
+				<e:Image id="nameText1" scaleX="1" scaleY="1" verticalCenter="0.5" source="matchmemeber17" right="420"/>
+				<e:Image id="nameText4" scaleX="1" scaleY="1" verticalCenter="0.5" right="310" source="matchmemeber8"/>
+				<e:Image id="nameText3" scaleX="1" scaleY="1" verticalCenter="0.5" source="matchmemeber7" right="200"/>
+				<e:Image id="nameText2" scaleX="1" scaleY="1" verticalCenter="0.5" source="desc" right="120"/>
+				<e:Image source="matchmemeber6" x="772.24" y="18.689999999999998" scaleX="1" scaleY="1" visible="false"/>
+				<e:Image source="matchid" x="173.39" verticalCenter="1.5"/>
+				</e:Group>
+				<e:ToggleButton id="yestedayButton" label="昨日" scaleX="0.8" right="15" top="20">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="100">
+					<e:Image source="mjl_multiple_bg" left="0" verticalCenter="0" width="30" height="30"/>
+					<e:Image verticalCenter="0" left="0" scaleX="0.8" scaleY="0.8" visible.disabled="false" visible.up="false" source="" source.down="mjl_multiple_check" scaleX.down="0.5" scaleY.down="0.5"/>
+					<e:Label id="labelDisplay" verticalCenter="0" fontFamily="Arial" right="0" text="昨日" size="30" bold="true" textColor="0xffffff" strokeColor="0x027DFF" stroke="2" verticalAlign="middle"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:Scroller height="413" y="75" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0">
+				<e:Group>
+				<e:List id="playerList" anchorOffsetX="0" width="915" x="1.33" y="-1.33" itemRendererSkinName="MatchPlayerSimpleSkin" useVirtualLayout="true">
+					<e:layout>
+					<e:VerticalLayout/>
+					</e:layout>
+				</e:List>
+				</e:Group>
+				</e:Scroller>
+			</e:Group>
+
+
+
+			<e:Group id="yelloListGroup" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" x="0" y="0" visible="false">
+				<e:Image source="mjl_common_bj_6" scale9Grid="20,16,122,101" left="0" right="0" top="0" bottom="0"/>
+				<e:Image source="mjl_common_bj_4" height="75" y="0" scale9Grid="12,9,76,57" anchorOffsetY="0" left="0" right="0"/>
+				<e:Image source="matchmemeber2" x="50" y="25"/>
+				<e:Image x="200" y="25" source="matchid"/>
+				<e:Image source="matchmemeber2" x="400" y="23"/>
+				<e:Image x="600" y="25" source="matchid"/>
+				<e:Image x="784" y="25" source="matchmemeber6"/>
+				<e:Scroller height="413" y="75" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0">
+				<e:Group>
+				<e:List id="yelloList" anchorOffsetX="0" width="915" itemRendererSkinName="MatchYelloItemSkin" useVirtualLayout="true">
+					<e:layout>
+					<e:VerticalLayout/>
+					</e:layout>
+				</e:List>
+				</e:Group>
+				</e:Scroller>
+			</e:Group>
+		</e:ViewStack>
+	</e:Group>
+
+
+
+
+
+
+
+	<e:Image height="54.24"
+	         anchorOffsetY="0" anchorOffsetX="0"  source="match_inputBg" scale9Grid="16,5,97,30" bottom="40" right="230" width="200"/>
+	<e:EditableText id="uidEditableText" height="55" maxChars="8" size="24"
+	                prompt="白名单ID" promptColor="0X53C2E3" verticalAlign="middle" text=""
+	                anchorOffsetY="0"  anchorOffsetX="0" bottom="40" textColor="0x53c2e3" fontFamily="SimHei" textAlign="center" right="230" width="200"/>
+	<e:Button id="addWhiteButton" label="" bottom="35" right="45" scaleX="0.8" scaleY="0.8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="match_btn_addWhite_1" source.down="match_btn_addWhite_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="addBlackButton" label="" bottom="30" left="830" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="match_btn_addBlack_1" source.down="match_btn_addBlack_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="resetPlayerList" label="" scaleX="0.8" left="87" bottom="30" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="match_btn_clearRank_1" source.down="match_btn_clearRank_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" bold="true" textColor="0x160d02"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="setting" label="" left="70" bottom="30" scaleX="0.9">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="match_btn_setting_1" source.down="match_btn_setting_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" bold="true" textColor="0x160d02"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="closeButton" label="" x="1176.77" y="-1.53" width="100" height="100" skinName="MJ_CloseButton1Skin"/>
+	<e:Label id="tax" text="可提取:0\n总贡献:0" bottom="30" size="25" anchorOffsetY="0" height="70" textAlign="left" verticalAlign="middle" anchorOffsetX="0" width="187.58" lineSpacing="5" left="263" textColor="0x1267b7"/>
+	<e:Button id="recomendButton" label="" bottom="35" horizontalCenter="130" width="110">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="match_btn_recomend_1" source.down="match_btn_recomend_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="donateHisButton" label="" bottom="35" width="110" horizontalCenter="10">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="match_btn_donateHis_1" source.down="match_btn_donateHis_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="withdrawalButton" label="" bottom="35" width="114" horizontalCenter="-110">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="match_btn_extract_1" source.down="match_btn_extract_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="cloundBtn" label="" width="114" verticalCenter="-73.5" right="30" scaleX="0.7" scaleY="0.7" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="union_cloundBtn" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,7 @@
+[
+{"id":1,"name":"金币","type":4,"lobbyId":1050,"rate":4800,"odds":1.97,"position":[0,2,5,6,9,11,12,15,17,18,20,23]},
+{"id":2,"name":"招财猫","type":4,"lobbyId":1050,"rate":2400,"odds":3.94,"position":[3,7,10,14,16,21]},
+{"id":3,"name":"如意","type":4,"lobbyId":1050,"rate":1600,"odds":7.88,"position":[4,13,22]},
+{"id":4,"name":"元宝","type":4,"lobbyId":1050,"rate":800,"odds":11.82,"position":[8,19]},
+{"id":5,"name":"财神","type":4,"lobbyId":1050,"rate":400,"odds":23.64,"position":[1]}
+]

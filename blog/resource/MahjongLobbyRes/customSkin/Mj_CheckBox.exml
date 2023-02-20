@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Mj_CheckBox" xmlns:e="http://ns.egret.com/eui" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+	<e:Image source="create_room_btn_checkbox2_new" width="47" height="47"/>
+	<e:Label id="gameName" text="大瓦推倒胡" verticalCenter="0" textAlign="left" left="50" textColor="0xf49c69" fontFamily="SimHei" bold="true" size="24"/>
+	<e:Image source="create_room_check_mark2_new" x="-2" verticalCenter="0" visible.up="false" visible.down="false" visible.disabled="false" visible.disabledAndSelected="false"/>
+</e:Skin>

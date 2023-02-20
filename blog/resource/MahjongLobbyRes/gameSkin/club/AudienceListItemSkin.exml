@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AudienceListItemSkin" width="674" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="15" right="15" top="0" bottom="0">
+		<e:Image source="lobby_rank_bg_2" left="0" right="0" top="0" bottom="0" x="-307" y="-24" scaleX="1" scaleY="1"/>
+        <e:Image source="lobby_rank_headBg" width="110" height="110" x="62.2" y="20.3"/>
+		<e:Image id="headBg" source="lobby_rank_headBg" verticalCenter="0" width="105" height="105" left="65" x="-242" y="-1" scaleX="1" scaleY="1"/>
+		<e:Image id="headMc" source="lobby_rank_headBg" width="105" height="105" scaleX="1" scaleY="1" verticalCenter="0" x="65"/>
+		<e:Button id="inviteBtn" label="" verticalCenter="0" horizontalCenter="208" x="167" y="14" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="audienceInviteBtn1" source.down="audienceInviteBtn2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="nameLabel" text="" verticalCenter="-20" fontFamily="Microsoft YaHei" size="26" left="210" x="-97" y="51" scaleX="1" scaleY="1" textColor="0xf0fbfe"/>
+		<e:Image source="AudienceListBg2" left="183" verticalCenter="22"/>
+		<e:Label id="comeTime" text="" verticalCenter="22" fontFamily="Microsoft YaHei" size="22" left="210" x="-87" y="61" scaleX="1" scaleY="1" textColor="0xbbe5fa"/>
+	</e:Group>
+</e:Skin>

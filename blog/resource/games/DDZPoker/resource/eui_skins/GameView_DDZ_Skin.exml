@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameView_DDZ_Skin" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="1280">
+	<w:Config id="15bccfd0ad2" />
+	<e:Image id="tableclothImage"  source="roombg_DDZ_jpg" left="0" right="0" top="0" bottom="0"/>
+	<e:Image width="490" height="92" scaleX="1" scaleY="1" scale9Grid="69,24,304,31" anchorOffsetY="0" horizontalCenter="0"
+	         source="ddz_landlord_bottom_card_bg_png" y="0" />
+	<e:Image source="bg_neikuang_2_png" y="249.01" anchorOffsetX="0" width="400" scale9Grid="12,12,18,18" height="50" alpha="0.3" touchEnabled="false" horizontalCenter="0"/>
+	<e:Image source="bottombar_common_bg_DDZ" x="160" y="30" anchorOffsetX="0" width="190" scale9Grid="23,12,41,18"/>
+	<e:Label id="roomNumber" text="" y="253" fontFamily="黑体" width="400" height="40" textAlign="center" verticalAlign="middle" textColor="0x35a1f2" touchEnabled="false" horizontalCenter="0"/>
+	<e:Label id="threeCardImage" horizontalCenter="0" size="30" fontFamily="黑体" stroke="1" text="底牌" y="26.69" />
+	<e:Image height="52" bottom="0"  source="ddz_bottombar_bg_png" left="0" right="0" scale9Grid="152,0,1074,62"/>
+	<e:Button id="backLobbyButton" label="" y="330" horizontalCenter="-282">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="orange_btn_big" source.disabled="bt_gray_bg" anchorOffsetX="124" anchorOffsetY="47" x="124" y="47"
+						scaleX.down="0.95" scaleY.down="0.95" />
+			<e:Image source="back_lobby" source.disabled="orange_out_card_gray" anchorOffsetX="124" anchorOffsetY="47"
+						x="124" y="50" scaleX.down="0.95" scaleY.down="0.95" />
+		</e:Skin>
+	</e:Button>
+	<e:Button id="dissRoomButton" label="" y="330" horizontalCenter="284">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="orange_btn_big" source.disabled="bt_gray_bg" anchorOffsetX="124" anchorOffsetY="47" x="124" y="47"
+					scaleX.down="0.95" scaleY.down="0.95" />
+			<e:Image source="dissolve_room" source.disabled="orange_out_card_gray" anchorOffsetX="124" anchorOffsetY="46" x="124"
+					y="50" scaleX.down="0.95" scaleY.down="0.95" />
+		</e:Skin>
+	</e:Button>
+	<e:Button id="readyButton" label="" y="551" horizontalCenter="0">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="orange_btn_big" source.disabled="bt_gray_bg" anchorOffsetX="124" anchorOffsetY="47" x="124" y="47"
+						scaleX.down="0.95" scaleY.down="0.95" />
+			<e:Image source="ready_btn" source.disabled="orange_out_card_gray" anchorOffsetX="124" anchorOffsetY="47" x="124"
+						y="50" scaleX.down="0.95" scaleY.down="0.95" source.down="cancle_ready"/>
+		</e:Skin>
+	</e:Button>
+	<e:Button id="gameStartBtn" label="" x="537" y="390" visible="false">
+		<e:Skin states="up,down,disabled">
+		<e:Image source="bt_orange_bg"  anchorOffsetX="103" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+		<e:Image source="begin"  anchorOffsetX="103" anchorOffsetY="46" x="103" y="46" scaleX.down="0.95" scaleY.down="0.95" />
+		</e:Skin>
+	</e:Button>
+		<e:Button id="shareButton" label="" y="330" width="310" height="94" anchorOffsetX="0" horizontalCenter="0">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="green_btn_big" source.disabled="bt_gray_bg" width="310" height="94" anchorOffsetX="155" anchorOffsetY="47" x="155" y="47"
+						scaleX.down="0.95" scaleY.down="0.95"  scale9Grid="41,17,167,40"/>
+			<e:Image source="weixin_invite" source.disabled="orange_out_card_gray" anchorOffsetX="130" anchorOffsetY="24" x="154"
+						y="43" scaleX.down="0.95" scaleY.down="0.95" />
+		</e:Skin>
+	</e:Button>
+	<e:Button id="chatButton" label="" y="671.99" right="22">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chat" source.down="chat" width.down="95%" height.down="95%" />
+				<e:Label id="labelDisplay" horizontalCenter="0" bottom="0" size="25" fontFamily="黑体" stroke="1" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="betteryButton" label="" y="685" right="156">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="bettery_DDZ" verticalCenter="0"/>
+			<e:Image id="image" source="betteryPercent_DDZ" verticalCenter="0" width="25"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="wifiOrDataImage" y="686" source="data_DDZ" right="222"/>
+	<e:Label id="signalLabel" text="没网络" y="688" size="13" anchorOffsetY="0" right="209"/>
+	<e:Button id="setBtn" label="" y="0" width="100" height="100" right="111">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="tool_button_bg" anchorOffsetX="40" anchorOffsetY="40" x="40" y="40" scaleX.down="0.95"
+			         scaleY.down="0.95"  horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="tool_set" anchorOffsetX="40" anchorOffsetY="40" x="40" y="40" scaleX.down="0.95" scaleY.down="0.95" 
+			 horizontalCenter="0" verticalCenter="0"/>
+			 <e:Label width="100%" height="100%"/>
+		</e:Skin>
+	</e:Button>
+	<e:Button id="trusteeshipBtn" label="" y="0" width="100" height="100" right="212">
+		<e:Skin states="up,down,disabled">
+		<e:Image source="tool_button_bg" anchorOffsetX="40" anchorOffsetY="40" x="40" y="40" scaleX.down="0.95" scaleY.down="0.95"
+		  horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="tool_ai" anchorOffsetX="40" anchorOffsetY="40" x="40" y="40" scaleX.down="0.95" scaleY.down="0.95"
+		  horizontalCenter="0" verticalCenter="0"/>
+		  <e:Label width="100%" height="100%"/>
+		</e:Skin>
+	</e:Button>
+	<e:Button id="backLobbyBtn" label="" x="37" y="0" width="100" height="100">
+		<e:Skin states="up,down,disabled">
+		<e:Image source="tool_button_bg" anchorOffsetX="40" anchorOffsetY="40" x="40" y="40" scaleX.down="0.95" scaleY.down="0.95"
+		   horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="tool_exit" anchorOffsetX="40" anchorOffsetY="40" x="40" y="40" scaleX.down="0.95" scaleY.down="0.95"
+		  horizontalCenter="0" verticalCenter="0"/>
+		  <e:Label width="100%" height="100%"/>
+		</e:Skin>
+	</e:Button>
+	<e:Button id="helpBtn" label="" y="0" width="100" height="100" right="10">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="tool_button_bg" anchorOffsetX="40" anchorOffsetY="40" x="40" y="40" scaleX.down="0.95"
+			         scaleY.down="0.95" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="tool_help" anchorOffsetX="40" anchorOffsetY="40" x="40" y="40" scaleX.down="0.95" scaleY.down="0.95" 
+			 horizontalCenter="0" verticalCenter="0"/>
+			 <e:Label width="100%" height="100%"/>
+		</e:Skin>
+	</e:Button>
+	<e:Group id="difen" width="148" height="86" y="0" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-171">
+		<e:BitmapLabel id="pointBaseLabel" y="45" text="0" font="glodLittleFont_fnt" anchorOffsetX="0" anchorOffsetY="0"
+		               scaleX="1" scaleY="1" horizontalCenter="0" letterSpacing="-8" />
+		<e:Image id="noPointsImage" source="interrogation" x="59.65999999999997" y="48" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image source="basechip_tag" y="10" scaleX="1" scaleY="1"  horizontalCenter="1"/>
+	</e:Group>
+	<e:Group id="beishu" width="148" height="86" y="0" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="171">
+		<e:BitmapLabel id="timesLabel" y="45" text="0" font="glodLittleFont_fnt" anchorOffsetX="0" anchorOffsetY="0"
+		               scaleX="1" scaleY="1" horizontalCenter="0" letterSpacing="-8" />
+		<e:Image id="noTimesImage" source="interrogation" x="61" y="48" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image source="multiple_tag" y="10" scaleX="1" scaleY="1"  horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="myInfo" width="206" height="45" x="160" y="671.33" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="bottombar_common_bg_DDZ" x="14" y="0" anchorOffsetX="0" width="194.66" scale9Grid="23,12,41,18"/>
+		<e:Image x="-2.66" y="0" scaleX="1" scaleY="1" source="bottombar_gold" visible="false"/>
+		<e:Image x="160.7" y="-1.01" scaleX="1" scaleY="1" source="buy_gold" visible="false"/>
+		<e:BitmapLabel id="chipsLabel" y="7" text="0" font="glodLittleFont_fnt" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" letterSpacing="-8" x="30"/>
+		<e:Image id="noTimesImage0" source="interrogation" x="61" y="48" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+	<e:Group id="personal" width="892" height="100" y="503.81" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" visible="false">
+		<e:Button id="inviteFBtn" label="邀请好友" x="0.37" y="3.02" scaleX="1" scaleY="1">
+			<e:Skin states="up,down,disabled">
+			<e:Image source="invited_btn" anchorOffsetX="143" anchorOffsetY="47" x="143" y="47" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Image source="game_friend" anchorOffsetX="66" anchorOffsetY="33" x="80" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" x="90" y="29" fontFamily="黑体" anchorOffsetX="0" width="180" verticalAlign="middle" stroke="0" strokeColor="0xAAF799" scaleX.down="0.95" scaleY.down="0.95"/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="inviteQQFBtn" label="邀请QQ好友" x="306" y="2.66" scaleX="1" scaleY="1">
+			<e:Skin states="up,down,disabled">
+				<e:Image source="invited_btn" anchorOffsetX="143" anchorOffsetY="47" x="143" y="47" scaleX.down="0.95"
+				         scaleY.down="0.95" />
+				<e:Image source="QQ" anchorOffsetX="66" anchorOffsetY="33" x="80" y="46" scaleX.down="0.95" scaleY.down="0.95" />
+				<e:Label id="labelDisplay" x="90" y="29" fontFamily="黑体" anchorOffsetX="0" width="180" verticalAlign="middle"
+				         stroke="0" strokeColor="0xAAF799"  scaleX.down="0.95" scaleY.down="0.95"/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="inviteWeChatFBtn" label="邀请微信好友" x="604.3" y="2.66" scaleX="1" scaleY="1">
+			<e:Skin states="up,down,disabled">
+			<e:Image source="invited_btn" anchorOffsetX="143" anchorOffsetY="47" x="143" y="47" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Image source="wcat" anchorOffsetX="66" anchorOffsetY="33" x="80" y="46" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" x="90" y="29" fontFamily="黑体" anchorOffsetX="0" width="180" verticalAlign="middle" stroke="0" strokeColor="0xAAF799" scaleX.down="0.95" scaleY.down="0.95"/>
+			</e:Skin>
+		</e:Button>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+
+
+	<e:Label id="numberOfGame" text="" y="305" anchorOffsetX="0" width="391" textAlign="center" verticalAlign="middle" fontFamily="黑体" size="24" textColor="0x34a7f9" touchEnabled="false" horizontalCenter="0.5"/>
+	<e:Label id="suspendPrompt" text="" y="337" anchorOffsetX="0" width="500" textAlign="center" verticalAlign="middle" fontFamily="黑体" size="24" textColor="0x34A7F9" height="30" horizontalCenter="0"/>
+	<e:Label id="timeNowLabel" text="" x="166" y="37" anchorOffsetX="0" width="176" textAlign="center" verticalAlign="middle" fontFamily="黑体"/>
+	<e:Label id="recordTimeLabel" text="" y="42" anchorOffsetX="0" fontFamily="黑体" left="167" size="24" visible="false"/>
+	<e:Button id="noteCardBtn" label="Button" y="395.96" width="52" height="58" right="95">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="ddz_card_count" anchorOffsetX="26" anchorOffsetY="29" x="26" y="29" scaleX.down="0.9" scaleY.down="0.9" />
+		</e:Skin>
+	</e:Button>
+	<e:Button id="gpsBtn" label="防作弊" y="671.5" scaleX="0.5" scaleY="0.5" anchorOffsetX="0" width="204.67" anchorOffsetY="0" height="94" right="295">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="buttons_DDZ_json.bt_orange_bg"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="bottomLabel" text="" y="302" fontFamily="SimHei" horizontalCenter="0"/>
+	<e:Label id="eventInfoLabel" text="" x="373.36" anchorOffsetX="0" width="500" textColor="0x58e76f" size="23" textAlign="center" bottom="13" height="25" verticalAlign="middle"/>
+	<e:Rect id="selectCard" width="40" height="40" fillColor="0xf23535" x="620.5" y="674.33" visible="false"/>
+	<e:Image id="guanzhanImage" left="230" verticalCenter="254.5" width="147" height="65" source="ddz_guanzhan" visible="false"/>
+	<e:Image id="exitguanzhanBtn" source="ddz_exit_guanzhan" left="989" verticalCenter="255.5" visible="false"/>
+</e:Skin>

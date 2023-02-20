@@ -1,0 +1,75 @@
+{
+  "file": "effect.png",
+  "frames": {
+    "action_chi": {
+      "x": 306,
+      "y": 113,
+      "w": 115,
+      "h": 110,
+      "offX": 5,
+      "offY": 15,
+      "sourceW": 125,
+      "sourceH": 128
+    },
+    "action_gang": {
+      "x": 306,
+      "y": 0,
+      "w": 118,
+      "h": 113,
+      "offX": 3,
+      "offY": 14,
+      "sourceW": 125,
+      "sourceH": 128
+    },
+    "action_listen": {
+      "x": 193,
+      "y": 0,
+      "w": 113,
+      "h": 130,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 113,
+      "sourceH": 130
+    },
+    "action_peng": {
+      "x": 174,
+      "y": 130,
+      "w": 122,
+      "h": 106,
+      "offX": 1,
+      "offY": 15,
+      "sourceW": 125,
+      "sourceH": 128
+    },
+    "action_win": {
+      "x": 0,
+      "y": 238,
+      "w": 105,
+      "h": 114,
+      "offX": 9,
+      "offY": 14,
+      "sourceW": 125,
+      "sourceH": 128
+    },
+    "action_win_1": {
+      "x": 0,
+      "y": 0,
+      "w": 193,
+      "h": 118,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 193,
+      "sourceH": 118
+    },
+    "action_zimo": {
+      "x": 0,
+      "y": 118,
+      "w": 174,
+      "h": 120,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 174,
+      "sourceH": 120
+    }
+  }
+}

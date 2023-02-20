@@ -1,0 +1,45 @@
+{
+  "file": "transformation_DDZ.png",
+  "frames": {
+    "female_farmer_left": {
+      "x": 0,
+      "y": 129,
+      "w": 114,
+      "h": 116,
+      "offX": 10,
+      "offY": 12,
+      "sourceW": 136,
+      "sourceH": 136
+    },
+    "female_landlord_left": {
+      "x": 233,
+      "y": 0,
+      "w": 106,
+      "h": 123,
+      "offX": 25,
+      "offY": 10,
+      "sourceW": 141,
+      "sourceH": 141
+    },
+    "male_farmer_left": {
+      "x": 0,
+      "y": 0,
+      "w": 123,
+      "h": 128,
+      "offX": 9,
+      "offY": 5,
+      "sourceW": 140,
+      "sourceH": 140
+    },
+    "male_landlord_left": {
+      "x": 124,
+      "y": 0,
+      "w": 108,
+      "h": 132,
+      "offX": 16,
+      "offY": 2,
+      "sourceW": 138,
+      "sourceH": 138
+    }
+  }
+}

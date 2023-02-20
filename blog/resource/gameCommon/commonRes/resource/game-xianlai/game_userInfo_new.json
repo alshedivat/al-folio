@@ -1,0 +1,165 @@
+{
+  "file": "game_userInfo_new.png",
+  "frames": {
+    "game_bigWinner_text": {
+      "x": 263,
+      "y": 199,
+      "w": 79,
+      "h": 29,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 79,
+      "sourceH": 29
+    },
+    "game_data_background": {
+      "x": 0,
+      "y": 0,
+      "w": 829,
+      "h": 198,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 829,
+      "sourceH": 198
+    },
+    "game_famale_icon": {
+      "x": 343,
+      "y": 199,
+      "w": 38,
+      "h": 40,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 38,
+      "sourceH": 40
+    },
+    "game_headIcon_frame": {
+      "x": 151,
+      "y": 199,
+      "w": 111,
+      "h": 112,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 111,
+      "sourceH": 113
+    },
+    "game_inGame_text": {
+      "x": 151,
+      "y": 312,
+      "w": 58,
+      "h": 29,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 58,
+      "sourceH": 29
+    },
+    "game_inning_text": {
+      "x": 90,
+      "y": 399,
+      "w": 55,
+      "h": 30,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 55,
+      "sourceH": 30
+    },
+    "game_male_icon": {
+      "x": 90,
+      "y": 430,
+      "w": 37,
+      "h": 43,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 37,
+      "sourceH": 43
+    },
+    "game_parting_line": {
+      "x": 263,
+      "y": 290,
+      "w": 166,
+      "h": 1,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 166,
+      "sourceH": 1
+    },
+    "game_pub_btn_close": {
+      "x": 0,
+      "y": 399,
+      "w": 89,
+      "h": 88,
+      "offX": 2,
+      "offY": 6,
+      "sourceW": 92,
+      "sourceH": 99
+    },
+    "game_radioBtn_normal": {
+      "x": 90,
+      "y": 474,
+      "w": 34,
+      "h": 33,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 34,
+      "sourceH": 33
+    },
+    "game_radioBtn_selected": {
+      "x": 146,
+      "y": 399,
+      "w": 34,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 34,
+      "sourceH": 34
+    },
+    "game_rank_text": {
+      "x": 263,
+      "y": 229,
+      "w": 54,
+      "h": 30,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 54,
+      "sourceH": 30
+    },
+    "game_record_show_title": {
+      "x": 0,
+      "y": 345,
+      "w": 252,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 252,
+      "sourceH": 53
+    },
+    "game_userinfo_bg": {
+      "x": 0,
+      "y": 199,
+      "w": 150,
+      "h": 145,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 150,
+      "sourceH": 145
+    },
+    "game_winRate": {
+      "x": 210,
+      "y": 312,
+      "w": 53,
+      "h": 30,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 53,
+      "sourceH": 30
+    },
+    "geme_winNun_text": {
+      "x": 263,
+      "y": 260,
+      "w": 53,
+      "h": 29,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 53,
+      "sourceH": 29
+    }
+  }
+}

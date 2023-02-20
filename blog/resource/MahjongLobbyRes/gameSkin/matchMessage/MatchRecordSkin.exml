@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchRecordSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:MJLobby="MJLobby.*">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image source="match_recordItem_title" horizontalCenter="0" top="10"/>
+		<e:Group width="1234" height="608" bottom="20" horizontalCenter="0">
+			<e:Image left="0" right="0" top="0" bottom="0" source="mjl_common_bj_3" scale9Grid="48,74,179,451"/>
+			<e:Group height="442" top="35" left="50" width="240">
+				<e:Image left="0" right="5" top="0" bottom="0" source="mjl_common_bj_7" scale9Grid="30,26,181,156"/>
+				<e:List id="daySelectList" left="0" right="0" top="0" bottom="0" itemRendererSkinName="MatchRecordRadioSkin">
+					<e:ArrayCollection id="dayCollection">
+						<e:Array>
+							<e:Object dayText="1"/>
+							<e:Object dayText="2"/>
+							<e:Object dayText="3"/>
+						</e:Array>
+					</e:ArrayCollection>
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="center" paddingTop="10"/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+			<e:Group top="35" left="290" anchorOffsetX="0" anchorOffsetY="0" right="35" bottom="45">
+				<e:Group left="0" right="0" top="170" bottom="0">
+					<e:Scroller left="0" right="0" top="0" bottom="0">
+					<e:List id="recordList" itemRendererSkinName="MatchFightingItemSkin">
+						<e:layout>
+						<e:VerticalLayout horizontalAlign="justify" verticalAlign="top" paddingTop="10"/>
+						</e:layout>
+					</e:List>
+					</e:Scroller>
+				</e:Group>
+				<e:Group height="170" left="0" right="0" top="0">
+					<e:Image left="0" right="0" top="0" bottom="0" source="match_recordItem_top_bg" scale9Grid="14,14,73,33"/>
+					<e:Group left="0" right="0" bottom="0" top="65">
+						<e:Image id="headMc" width="71" height="71" verticalCenter="0" left="26" source="lobby_headbg"/>
+						<e:Image width="81" height="81" verticalCenter="0" left="20" source="lobby_headbg"/>
+						<e:Label id="idLabel" text="ID:123456789" textColor="0x844118" fontFamily="Microsoft YaHei" left="130" top="15"/>
+						<e:Label id="nickName" text="昵称:啦啦啦" textColor="0x844118" fontFamily="Microsoft YaHei" left="130" top="60"/>
+						<e:Image x="457.33" y="52" source="match_record_text_1"/>
+						<e:BitmapLabel id="totalScore" height="40" top="50" left="590" text="0" font="match_record_win_fnt"/>
+					</e:Group>
+					<e:Group height="60" left="0" right="0" top="5">
+						<e:Label text="时间:" textColor="0x844118" fontFamily="Microsoft YaHei" size="26" verticalCenter="0" left="15"/>
+						<e:Label text="—" textColor="0x844118" fontFamily="Microsoft YaHei" size="26" verticalCenter="0" left="420"/>
+						<MJLobby:DropDown id="startTime" skinName="DropDownSkin" verticalCenter="0" left="80"/>
+						<MJLobby:DropDown id="endTime" skinName="DropDownSkin" verticalCenter="0" left="455"/>
+						<e:Button id="searchBtn" label="" verticalCenter="0" right="5" scaleX="0.8" scaleY="0.8">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="match_history_search_btn_1" source.down="match_history_search_btn_2"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+					</e:Group>
+				</e:Group>
+			</e:Group>
+			<e:Button id="closeBtn" label="Button" skinName="MJ_CloseButton1Skin" right="-11" top="-80"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

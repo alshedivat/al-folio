@@ -1,0 +1,135 @@
+{
+  "file": "gps_panel_2d5.png",
+  "frames": {
+    "closeBtn_2d5_1": {
+      "x": 931,
+      "y": 0,
+      "w": 78,
+      "h": 79,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 79,
+      "sourceH": 79
+    },
+    "closeBtn_2d5_2": {
+      "x": 851,
+      "y": 0,
+      "w": 79,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 79,
+      "sourceH": 79
+    },
+    "distanceBg_2d5": {
+      "x": 851,
+      "y": 80,
+      "w": 73,
+      "h": 37,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 73,
+      "sourceH": 37
+    },
+    "gps_2d5_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 708,
+      "h": 465,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 708,
+      "sourceH": 465
+    },
+    "gps_continue1": {
+      "x": 709,
+      "y": 140,
+      "w": 215,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 215,
+      "sourceH": 81
+    },
+    "gps_continue2": {
+      "x": 0,
+      "y": 918,
+      "w": 215,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 215,
+      "sourceH": 81
+    },
+    "gps_dissmiss_btn1": {
+      "x": 142,
+      "y": 778,
+      "w": 215,
+      "h": 78,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 215,
+      "sourceH": 81
+    },
+    "gps_dissmiss_btn2": {
+      "x": 709,
+      "y": 220,
+      "w": 215,
+      "h": 78,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 215,
+      "sourceH": 81
+    },
+    "hostSetting_2d5": {
+      "x": 0,
+      "y": 703,
+      "w": 666,
+      "h": 74,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 666,
+      "sourceH": 74
+    },
+    "line_12_2d5": {
+      "x": 709,
+      "y": 0,
+      "w": 141,
+      "h": 139,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 141,
+      "sourceH": 139
+    },
+    "line_13_2d5": {
+      "x": 484,
+      "y": 466,
+      "w": 261,
+      "h": 5,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 261,
+      "sourceH": 5
+    },
+    "line_23_2d5": {
+      "x": 0,
+      "y": 778,
+      "w": 141,
+      "h": 139,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 141,
+      "sourceH": 139
+    },
+    "twoPlayer_notice_2d5": {
+      "x": 0,
+      "y": 466,
+      "w": 483,
+      "h": 236,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 483,
+      "sourceH": 236
+    }
+  }
+}

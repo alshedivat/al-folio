@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DissmissPanelListItem_new_Skin" width="275" height="45" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="nameLabel" text="&lt;等待选择&gt;" size="24" fontFamily="Microsoft YaHei" verticalCenter="0" horizontalCenter="-56.5" textColor="0xdf5e0b"/>
+	<e:Label id="stateLabel" text="等待选择" size="24" fontFamily="Microsoft YaHei" verticalCenter="0" horizontalCenter="74.5" textColor="0x7f5733"/>
+</e:Skin>

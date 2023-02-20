@@ -1,0 +1,65 @@
+{
+  "file": "result_2d5.png",
+  "frames": {
+    "gameContinue_2d5": {
+      "x": 0,
+      "y": 377,
+      "w": 212,
+      "h": 67,
+      "offX": 4,
+      "offY": 6,
+      "sourceW": 220,
+      "sourceH": 73
+    },
+    "losetitle_2d5": {
+      "x": 0,
+      "y": 0,
+      "w": 440,
+      "h": 139,
+      "offX": 7,
+      "offY": 0,
+      "sourceW": 454,
+      "sourceH": 139
+    },
+    "result_bg_2d5_1": {
+      "x": 441,
+      "y": 0,
+      "w": 26,
+      "h": 25,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 26,
+      "sourceH": 25
+    },
+    "result_bg_2d5_2": {
+      "x": 0,
+      "y": 445,
+      "w": 16,
+      "h": 15,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 16,
+      "sourceH": 15
+    },
+    "result_bg_2d5_3": {
+      "x": 0,
+      "y": 273,
+      "w": 399,
+      "h": 103,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 399,
+      "sourceH": 103
+    },
+    "wintitle_2d5": {
+      "x": 0,
+      "y": 140,
+      "w": 452,
+      "h": 132,
+      "offX": 0,
+      "offY": 5,
+      "sourceW": 454,
+      "sourceH": 139
+    }
+  }
+}

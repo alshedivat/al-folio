@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchWaitMemberItemSkin" width="670" height="55" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="rankingLabel" text="排名" x="11.66" textAlign="center" anchorOffsetX="0" width="77" size="23" verticalCenter="0" fontFamily="SimHei" height="23" textColor="0x1267b7"/>
+	<e:Label id="nameLabel" text="姓名" x="145" anchorOffsetX="0" width="159" textAlign="center" size="23" verticalCenter="0" fontFamily="SimHei" height="23" textColor="0x1267b7"/>
+	<e:Label id="identityLabel" text="身份" x="330" anchorOffsetX="0" width="189" textAlign="center" size="23" verticalCenter="0" fontFamily="SimHei" height="23" textColor="0x1267b7"/>
+	<e:Label id="stateLabel" text="状态" x="493" anchorOffsetX="0" width="170" textAlign="center" size="23" verticalCenter="0" fontFamily="SimHei" height="23" textColor="0x1267b7"/>
+	<e:Image left="0" right="0" bottom="0" source="matchMemberLine" scale9Grid="21,0,6,1"/>
+</e:Skin>

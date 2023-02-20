@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChatRadioButton_DDZEvent_Skin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="chat_fix_msg_bar_DDZ" scale9Grid="74,16,450,34" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="labelDisplay" verticalCenter="0" horizontalCenter="0"  bottom="0" size="28" x="11" text="" textColor="0xffffff" fontFamily="SimHei"/>
+</e:Skin>

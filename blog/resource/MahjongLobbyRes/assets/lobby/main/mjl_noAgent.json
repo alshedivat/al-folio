@@ -1,0 +1,55 @@
+{
+  "file": "mjl_noAgent.png",
+  "frames": {
+    "mjl_noAgent_bg2": {
+      "x": 0,
+      "y": 0,
+      "w": 391,
+      "h": 159,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 391,
+      "sourceH": 159
+    },
+    "mjl_noAgent_bg3": {
+      "x": 0,
+      "y": 160,
+      "w": 588,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 588,
+      "sourceH": 53
+    },
+    "mjl_noAgent_bg4": {
+      "x": 392,
+      "y": 0,
+      "w": 275,
+      "h": 62,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 275,
+      "sourceH": 62
+    },
+    "mjl_noAgent_copy_bt1": {
+      "x": 0,
+      "y": 214,
+      "w": 248,
+      "h": 91,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 248,
+      "sourceH": 91
+    },
+    "mjl_noAgent_copy_bt2": {
+      "x": 0,
+      "y": 306,
+      "w": 248,
+      "h": 91,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 248,
+      "sourceH": 91
+    }
+  }
+}

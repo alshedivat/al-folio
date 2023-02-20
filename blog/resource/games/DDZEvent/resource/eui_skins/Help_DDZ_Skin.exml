@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Help_DDZ_Skin" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1280">
+	<e:Image scale9Grid="23,16,34,35" width="616.33" height="427.34" source="role_frame_1_png" anchorOffsetY="0" anchorOffsetX="8" horizontalCenter="0" verticalCenter="0" locked="true"/>
+	<e:Image width="581" height="395" scale9Grid="17,13,67,68" source="role_frame_3_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" verticalCenter="-0.5"/>
+	<e:Image y="101" scale9Grid="63,0,31,45" width="300" height="50" horizontalCenter="1" source="bg_tiaoti_2_png"/>
+	<e:Image y="88" source="label_help_png" x="570"/>
+	<e:Label id="_rule_title" text="牌型规则" textColor="0x8f0e0e" fontFamily="Microsoft YaHei" size="26" horizontalCenter="0" verticalCenter="-160"/>
+	<e:Button id="_close_btn" label="" x="893.5" y="120.5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_exit_1_png" source.down="btn_exit_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group width="538.67" height="304" x="372" y="229.33" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Label text="主要牌型:" x="20" y="-10.6" textColor="0x626262" fontFamily="黑体" size="30"/>
+		<e:Label text="结算规则:" x="20" y="172.37" textColor="0x626262" fontFamily="黑体" size="30"/>
+		<e:Group width="362.67" height="140" y="23.09" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.16500000000002046">
+			<e:Label text="单张、对子" x="14" y="3" textColor="0x626262" fontFamily="黑体" size="24" scaleX="1" scaleY="1"/>
+			<e:Label text="单顺、双顺" x="11" y="41" textColor="0x626262" fontFamily="黑体" size="24" scaleX="1" scaleY="1"/>
+			<e:Label text="三张、连对" x="234" y="3" textColor="0x626262" fontFamily="黑体" size="24" scaleX="1" scaleY="1"/>
+			<e:Label text="三顺、飞机" x="234" y="41" textColor="0x626262" fontFamily="黑体" size="24" scaleX="1" scaleY="1"/>
+			<e:Label text="三带一/带对" x="11" y="78" textColor="0x626262" fontFamily="黑体" size="24" scaleX="1" scaleY="1"/>
+			<e:Label text="四带对" x="13" y="115" textColor="0x626262" fontFamily="黑体" size="24" scaleX="1" scaleY="1"/>
+			<e:Label text="炸弹" x="234" y="78" textColor="0x626262" fontFamily="黑体" size="24" scaleX="1" scaleY="1"/>
+			<e:layout>
+				<e:TileLayout horizontalGap="74" verticalGap="12"/>
+			</e:layout>
+		</e:Group>
+		<e:Group width="362.67" height="78.66" y="217" anchorOffsetX="0" anchorOffsetY="0" x="86.66">
+			<e:Label text="底分×倍数" x="14.329999999999984" y="3" textColor="0x626262" fontFamily="黑体" size="24" scaleX="1" scaleY="1"/>
+			<e:Label text="倍数：炸弹×2  春天×2  反春天×2" x="11" y="41" textColor="0x626262" fontFamily="黑体" size="24" scaleX="1" scaleY="1"/>
+			<e:layout>
+				<e:VerticalLayout gap="12"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

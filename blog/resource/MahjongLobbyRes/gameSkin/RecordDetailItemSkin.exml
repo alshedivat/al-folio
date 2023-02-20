@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RecordDetailItemSkin" width="1080" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" x="0" y="0" width="1080" height="82" anchorOffsetX="0" anchorOffsetY="0" source="mjl_common_bj_6" scale9Grid="16,15,123,100"/>
+	<e:Label id="indexTxt" fontFamily="KaiTi" text="1" y="0" anchorOffsetX="0" width="89" size="35" anchorOffsetY="0" height="80" verticalAlign="middle" textAlign="center" x="0" textColor="0x0048ff"/>
+	<e:Label id="dateTxt" fontFamily="黑体" text="2017-05-05 11:41:22" anchorOffsetX="0" size="24" textAlign="center" textColor="0x0048ff" left="80" verticalCenter="0"/>
+	<e:Button id="shareBtn" label="" verticalCenter="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.55" scaleY="0.55" right="120">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="hist_btn_share_1" source.down="hist_btn_share_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="backPlayBtn" label="" verticalCenter="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.55" scaleY="0.55" right="5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="hist_btn_display_1" source.down="hist_btn_display_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="scoreGroup" width="500" x="338" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="top"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

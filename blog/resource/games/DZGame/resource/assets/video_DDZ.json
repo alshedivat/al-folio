@@ -1,0 +1,95 @@
+{
+  "file": "video_DDZ.png",
+  "frames": {
+    "video_advance1_DDZ": {
+      "x": 0,
+      "y": 212,
+      "w": 50,
+      "h": 39,
+      "offX": 22,
+      "offY": 23,
+      "sourceW": 96,
+      "sourceH": 88
+    },
+    "video_advance2_DDZ": {
+      "x": 52,
+      "y": 163,
+      "w": 50,
+      "h": 39,
+      "offX": 22,
+      "offY": 23,
+      "sourceW": 96,
+      "sourceH": 88
+    },
+    "video_back1_DDZ": {
+      "x": 146,
+      "y": 106,
+      "w": 50,
+      "h": 39,
+      "offX": 28,
+      "offY": 25,
+      "sourceW": 96,
+      "sourceH": 88
+    },
+    "video_back2_DDZ": {
+      "x": 52,
+      "y": 203,
+      "w": 50,
+      "h": 39,
+      "offX": 28,
+      "offY": 25,
+      "sourceW": 96,
+      "sourceH": 88
+    },
+    "video_bg_DDZ": {
+      "x": 0,
+      "y": 0,
+      "w": 401,
+      "h": 105,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 401,
+      "sourceH": 105
+    },
+    "video_close1_DDZ": {
+      "x": 0,
+      "y": 163,
+      "w": 51,
+      "h": 48,
+      "offX": 21,
+      "offY": 22,
+      "sourceW": 96,
+      "sourceH": 88
+    },
+    "video_close2_DDZ": {
+      "x": 94,
+      "y": 106,
+      "w": 51,
+      "h": 48,
+      "offX": 21,
+      "offY": 22,
+      "sourceW": 96,
+      "sourceH": 88
+    },
+    "video_stop1_DDZ": {
+      "x": 0,
+      "y": 106,
+      "w": 46,
+      "h": 56,
+      "offX": 27,
+      "offY": 18,
+      "sourceW": 96,
+      "sourceH": 88
+    },
+    "video_stop2_DDZ": {
+      "x": 47,
+      "y": 106,
+      "w": 46,
+      "h": 56,
+      "offX": 27,
+      "offY": 18,
+      "sourceW": 96,
+      "sourceH": 88
+    }
+  }
+}

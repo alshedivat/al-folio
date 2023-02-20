@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Chat_DZ_Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="bgRect" bottom="0" left="0" top="0" right="0" alpha="0.1" fillColor="0x000000"/>
+	<e:Image width="640" height="511" source="public_DDZ2" scale9Grid="29,32,59,107" horizontalCenter="0" y="86"/>
+	<e:RadioButton id="chatRadioButton" x="327" y="90" width="310" height="60" label="常用语" groupName="chattype" selected="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chat_btn_normal_DDZ" source.down="chat_btn_select_DDZ"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="faceRadioButton" y="90" x="643" width="310" height="60" label="表情" groupName="chattype">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chat_btn_normal_DDZ" source.down="chat_btn_select_DDZ"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:Scroller id="chatScroller" width="600" height="424" y="153" x="340">
+		<e:Group id="chatGroup">
+			<e:Image x="12" y="350" width="400" height="69" source="chat_input_bg_DDZ" scale9Grid="55,22,335,34"/>
+			<e:EditableText id="textField" width="369" height="50" text="请输入聊天内容" x="29" y="359" size="28" textAlign="left" verticalAlign="middle" textColor="0xffffff"/>
+			<e:Button id="sendBtn" x="422" y="345">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="send_btn_DDZ"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Scroller>
+	<e:Scroller id="faceScroller" width="600" y="153" height="416" x="340">
+		<e:Group id="faceGroup">
+			<e:layout>
+				<e:TileLayout horizontalGap="0" verticalGap="0"/>
+			</e:layout>
+			
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,55 @@
+{
+  "file": "house_wrnn.png",
+  "frames": {
+    "house-002": {
+      "x": 0,
+      "y": 0,
+      "w": 237,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 237,
+      "sourceH": 67
+    },
+    "house_dark": {
+      "x": 0,
+      "y": 151,
+      "w": 101,
+      "h": 27,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 101,
+      "sourceH": 27
+    },
+    "house_group_01": {
+      "x": 0,
+      "y": 68,
+      "w": 221,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 221,
+      "sourceH": 52
+    },
+    "house_layer": {
+      "x": 0,
+      "y": 121,
+      "w": 105,
+      "h": 29,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 105,
+      "sourceH": 29
+    },
+    "house_roundRectangle_02": {
+      "x": 0,
+      "y": 179,
+      "w": 90,
+      "h": 23,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 90,
+      "sourceH": 23
+    }
+  }
+}

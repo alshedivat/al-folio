@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankItemRenderSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:MJLobby="MJLobby.*" width="640">
+	<e:Image left="0" alpha="0.8"  anchorOffsetY="0" source="lobby_rank_bg_2" right="0" top="0" bottom="0"/>
+	<e:Label id="nameLabel" text="玩家名称六个" fontFamily="SimHei" size="24" textAlign="left" anchorOffsetX="0" anchorOffsetY="0" height="24" textColor="0x1f83b4" verticalCenter="-40" left="270" visible="false"/>
+	<MJLobby:TextImage id="nameLabelText" width="150" height="24" left="270" verticalCenter="-40"/>
+	<e:Label id="idLabel" text="玩家名称六个" fontFamily="SimHei" size="24" textAlign="left" anchorOffsetX="0" anchorOffsetY="0" height="24" verticalCenter="-10" left="270" textColor="0x1f83b4"/>
+	<e:Image source="mjl_lobby_json.lobby_headFram" y="91.13" width="186" height="28" scale9Grid="16,12,20,9" left="270"/>
+	<e:Image id="chipsIcon" source="mjl_lobby_json.lobby_coin_icon" verticalCenter="30" left="260"/>
+	<e:Label id="moneycountLabel" text="999999" x="308.97" size="24" fontFamily="Microsoft YaHei" anchorOffsetX="0" textAlign="center" rotation="359.6" height="24" width="124" verticalCenter="30" textColor="0xffffff"/>
+	<e:Image source="mjl_rank_json.lobby_rank_numBg" left="30" anchorOffsetY="0" top="0" bottom="0"/>
+	<e:Label id="rankLabel" text="100" size="52" textColor="0x1f83b4" left="20" verticalCenter="0.5" fontFamily="SimHei" anchorOffsetX="0" width="120" textAlign="center"/>
+	<e:Image source="lobby_rank_headBg" verticalCenter="0" width="110" height="110" left="150"/>
+
+	<e:Image id="headBg" source="lobby_rank_headBg" verticalCenter="0" width="105" height="105" left="152.5"/>
+	<e:Image id="headMc" source="lobby_rank_headBg" verticalCenter="0" width="105" height="105" left="152.5"/>
+</e:Skin>

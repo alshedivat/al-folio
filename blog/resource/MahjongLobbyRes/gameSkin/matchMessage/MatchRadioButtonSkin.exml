@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchRadioButtonSkin" states="down,disabled,upAndSelected,downAndSelected" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="230" height="85" width.down="230">
+    <e:Image anchorOffsetX="0" source="match_btn_gameItem" verticalCenter="0" source.upAndSelected="match_btn_gameItem_1" source.downAndSelected="match_btn_gameItem_1" source.down="match_btn_gameItem" left="0" width="208" width.upAndSelected="225" width.downAndSelected="225"/>
+	<e:Image id="identifierIcon" x="-3" y="-5" source="teahouse_iden_icon" visible="false"/>
+	<e:BitmapLabel id="labelDisplay" font="matchFont_fnt" text="123456" verticalCenter="0" height="31" width="170" horizontalCenter="0" anchorOffsetX="0"/>
+</e:Skin>

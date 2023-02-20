@@ -1,0 +1,245 @@
+{
+  "file": "userInfo_TDK.png",
+  "frames": {
+    "dlm_g_daojv_bbg1": {
+      "x": 479,
+      "y": 360,
+      "w": 108,
+      "h": 108,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 108
+    },
+    "dlm_g_daojv_bbg2": {
+      "x": 844,
+      "y": 224,
+      "w": 78,
+      "h": 78,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 78,
+      "sourceH": 78
+    },
+    "dlm_g_djv_bg": {
+      "x": 0,
+      "y": 347,
+      "w": 478,
+      "h": 122,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 478,
+      "sourceH": 122
+    },
+    "dlm_g_nan": {
+      "x": 97,
+      "y": 473,
+      "w": 24,
+      "h": 25,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 24,
+      "sourceH": 25
+    },
+    "dlm_g_nv": {
+      "x": 122,
+      "y": 473,
+      "w": 17,
+      "h": 27,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 17,
+      "sourceH": 27
+    },
+    "dlm_g_weizhi": {
+      "x": 73,
+      "y": 470,
+      "w": 23,
+      "h": 35,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 23,
+      "sourceH": 35
+    },
+    "dlm_g_wjtouxiangk2": {
+      "x": 517,
+      "y": 0,
+      "w": 126,
+      "h": 129,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 126,
+      "sourceH": 129
+    },
+    "dlm_g_xbie_bg": {
+      "x": 0,
+      "y": 470,
+      "w": 41,
+      "h": 41,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 41,
+      "sourceH": 41
+    },
+    "dlm_g_xx_xian": {
+      "x": 97,
+      "y": 470,
+      "w": 303,
+      "h": 2,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 303,
+      "sourceH": 2
+    },
+    "dlm_tc_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 516,
+      "h": 346,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 516,
+      "sourceH": 346
+    },
+    "userinfo_diamonds_TDK": {
+      "x": 42,
+      "y": 470,
+      "w": 30,
+      "h": 28,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 30,
+      "sourceH": 28
+    },
+    "userinfo_fangka_TDK": {
+      "x": 953,
+      "y": 115,
+      "w": 58,
+      "h": 45,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 58,
+      "sourceH": 45
+    },
+    "userInfo_freegift_TDK1": {
+      "x": 735,
+      "y": 115,
+      "w": 108,
+      "h": 111,
+      "offX": 0,
+      "offY": 3,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_freegift_TDK2": {
+      "x": 588,
+      "y": 360,
+      "w": 108,
+      "h": 108,
+      "offX": 0,
+      "offY": 6,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_freegift_TDK3": {
+      "x": 844,
+      "y": 115,
+      "w": 108,
+      "h": 108,
+      "offX": 0,
+      "offY": 6,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_freegift_TDK4": {
+      "x": 735,
+      "y": 227,
+      "w": 108,
+      "h": 108,
+      "offX": 0,
+      "offY": 6,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_freegift_TDK5": {
+      "x": 697,
+      "y": 357,
+      "w": 108,
+      "h": 108,
+      "offX": 0,
+      "offY": 6,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_freegift_TDK6": {
+      "x": 626,
+      "y": 245,
+      "w": 108,
+      "h": 111,
+      "offX": 0,
+      "offY": 3,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_gift_TDK1": {
+      "x": 644,
+      "y": 0,
+      "w": 108,
+      "h": 114,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_gift_TDK2": {
+      "x": 517,
+      "y": 130,
+      "w": 108,
+      "h": 114,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_gift_TDK3": {
+      "x": 753,
+      "y": 0,
+      "w": 108,
+      "h": 114,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_gift_TDK4": {
+      "x": 626,
+      "y": 130,
+      "w": 108,
+      "h": 114,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_gift_TDK5": {
+      "x": 517,
+      "y": 245,
+      "w": 108,
+      "h": 114,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 114
+    },
+    "userInfo_gift_TDK6": {
+      "x": 862,
+      "y": 0,
+      "w": 108,
+      "h": 114,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 108,
+      "sourceH": 114
+    }
+  }
+}

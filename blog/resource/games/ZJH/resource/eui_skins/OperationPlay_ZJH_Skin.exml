@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OperationPlay_ZJH_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="593.33" height="200">
+
+
+
+	<e:Button id="playButton" label="亮牌" anchorOffsetX="0" width="146" horizontalCenter="0.33499999999997954" height="41" y="113">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="time_bg" scale9Grid="21,14,58,5"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" fontFamily="SimHei" verticalCenter="0" textColor="0xffffff" size="30"/>
+			</e:Skin>
+		</e:skinName>
+
+
+
+
+
+	</e:Button>
+
+
+</e:Skin>

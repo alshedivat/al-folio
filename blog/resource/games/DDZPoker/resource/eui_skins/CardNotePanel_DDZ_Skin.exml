@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardNotePanel_DDZ_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="563"
+        height="105">
+	<e:Image source="note_card_DDZ_json.ddz_room_note_card" x="0" y="0" />
+	<e:Group width="460" height="36" x="53" y="52" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Label id="label_21" text="" x="4" y="5" textColor="0xf4e533" width="30" height="36" textAlign="center"
+		         verticalAlign="middle" size="25" />
+		<e:Label id="label_20" text="" x="4" y="5" textColor="0xF4E533" width="30" height="36" textAlign="center"
+		         verticalAlign="middle" size="25" />
+		<e:Label id="label_16" text="" x="14" y="15" textColor="0xF4E533" width="30" height="36" textAlign="center"
+		         verticalAlign="middle" size="25" />
+		<e:Label id="label_14" text="" x="24" y="25" textColor="0xF4E533" width="30" height="36" textAlign="center"
+		         verticalAlign="middle" size="25" />
+		<e:Label id="label_13" text="" x="34" y="35" textColor="0xF4E533" width="30" height="36" textAlign="center"
+		         verticalAlign="middle" size="25" />
+		<e:Label id="label_12" text="" x="44" y="45" textColor="0xF4E533" width="30" height="36" textAlign="center"
+		         verticalAlign="middle" size="25" />
+		<e:Label id="label_11" text="" x="54" y="55" textColor="0xF4E533" width="30" height="36" textAlign="center"
+		         verticalAlign="middle" size="25" />
+		<e:Label id="label_10" text="" x="64" y="65" textColor="0xF4E533" width="30" height="36" textAlign="center"
+		         verticalAlign="middle" size="25" />
+		<e:Label id="label_9" text="" x="74" y="75" textColor="0xF4E533" width="30" height="36" textAlign="center"
+		         verticalAlign="middle" size="25" />
+		<e:Label id="label_8" text="" x="84" y="85" textColor="0xF4E533" width="30" height="36" textAlign="center"
+		         verticalAlign="middle" size="25" />
+		<e:Label id="label_7" text="" x="94" y="95" textColor="0xF4E533" width="30" height="36" textAlign="center"
+		         verticalAlign="middle" size="25" />
+		<e:Label id="label_6" text="" x="104" y="105" textColor="0xF4E533" width="30" height="36" textAlign="center"
+		         verticalAlign="middle" size="25" />
+		<e:Label id="label_5" text="" x="114" y="115" textColor="0xF4E533" width="30" height="36" textAlign="center"
+		         verticalAlign="middle" size="25" />
+		<e:Label id="label_4" text="" x="124" y="125" textColor="0xF4E533" width="30" height="36" textAlign="center"
+		         verticalAlign="middle" size="25" />
+		<e:Label id="label_3" text="" x="421" y="135" textColor="0xF4E533" width="30" height="36" textAlign="center"
+		         verticalAlign="middle" size="25" />
+		<e:layout>
+			<e:HorizontalLayout gap="0.7" />
+		</e:layout>
+	</e:Group>
+	<e:Button id="refrenshButton" label="Button" x="514" y="9" width="38" height="80">
+		<e:Skin states="up,down,disabled">
+			<e:Image source="ddz_switch_btn" anchorOffsetX="19" anchorOffsetY="40" x="19" y="40" scaleX.down="0.9"
+			         scaleY.down="0.9" />
+			<e:Image source="switch_icon" anchorOffsetX="14" anchorOffsetY="15" x="19" y="40" scaleX.down="0.9" scaleY.down="0.9" />
+		</e:Skin>
+	</e:Button>
+</e:Skin>

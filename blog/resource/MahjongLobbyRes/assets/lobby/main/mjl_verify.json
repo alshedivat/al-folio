@@ -1,0 +1,55 @@
+{
+  "file": "mjl_verify.png",
+  "frames": {
+    "verify_inputbg": {
+      "x": 202,
+      "y": 0,
+      "w": 78,
+      "h": 62,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 78,
+      "sourceH": 62
+    },
+    "verify_msgbg": {
+      "x": 0,
+      "y": 184,
+      "w": 182,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 182,
+      "sourceH": 46
+    },
+    "verify_sure1": {
+      "x": 0,
+      "y": 0,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "verify_sure2": {
+      "x": 0,
+      "y": 65,
+      "w": 201,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 201,
+      "sourceH": 64
+    },
+    "verify_title": {
+      "x": 0,
+      "y": 130,
+      "w": 207,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 207,
+      "sourceH": 53
+    }
+  }
+}

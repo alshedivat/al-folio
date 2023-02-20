@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LooKVideoSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image  width="620" height="360" verticalCenter="0" horizontalCenter="0" anchorOffsetY="0" source="mjl_common_bj_3" scale9Grid="57,51,159,489"/>
+	<e:Group id="content" width="569" height="363" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" verticalCenter="0">
+		<e:Button id="cancelBtn" x="318" y="237" label="" anchorOffsetY="0" height="69" anchorOffsetX="0" width="208">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_commonBtn_cancle_2" source.down="mjl_commonBtn_cancle_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="submitBtn" x="41" y="237" label="" anchorOffsetY="0" height="69" anchorOffsetX="0" width="208">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_commonBtn_sure_1" source.down="mjl_commonBtn_sure_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:TextInput id="inputLabel" width="400" height="60" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" verticalCenter="-10.5">
+			<e:Skin  width="160" height="35" minHeight="40" minWidth="300"
+			        states="normal,disabled,normalWithPrompt,disabledWithPrompt">
+				<e:Image anchorOffsetX="0"  width="400" height="60"  source="mjl_create_match_inputBg" scale9Grid="18,15,194,22"/>
+				<e:EditableText id="textDisplay" textColor.disabled="0xff0000" height="60" size="35" fontFamily="黑体"
+				                verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" y="0" width="390"
+				                x="5" textAlign="left" prompt=""  textColor="0x5b5b5a" />
+				<e:Label id="promptDisplay" verticalCenter="0" left="10" right="10" width="100%" height="35" size="35"
+				         touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" fontFamily="黑体" textAlign="left"
+				         textColor="0x777671" />
+			</e:Skin>
+		</e:TextInput>
+		<e:Label text="查看回放" fontFamily="黑体" size="40" y="58" horizontalCenter="0.5" textColor="0xffffff"/>
+	</e:Group>
+</e:Skin>

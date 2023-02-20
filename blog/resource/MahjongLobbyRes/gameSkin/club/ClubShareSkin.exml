@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubShareSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="backRect" left="0" right="0" top="0" bottom="0" fillColor="0x111111" fillAlpha="0.9"/>
+	<e:Group id="contentGroup" width="367" height="153" anchorOffsetX="0" right="123" top="95">
+		<e:Image id="brackground"   source="house_sharebg" y="0" x="0"/>
+
+
+		<e:Button id="_wxButton" label=""  y="47" width="74" height="71" left="72">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image  source="house_wxicon" scaleX.down="0.95" scaleY.down="0.95" verticalCenter="0" horizontalCenter="0"/>
+				<e:Label  fontFamily="Microsoft YaHei" size="18" textColor="0xfff9e7" text="微信好友" bottom="-23" horizontalCenter="1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	  </e:Button>
+	  <e:Button id="_pyqButton" label=""  y="47" width="71" height="71" right="72">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image  source="house_pyqicon" verticalCenter="0" horizontalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+					<e:Label  fontFamily="Microsoft YaHei" size="18" textColor="0xfff9e7" text="朋友圈" bottom="-23" horizontalCenter="1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	  </e:Button>
+		 <e:Button id="_xlButton" label=""  y="47" width="71" height="71" right="3" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image  source="house_xlicon" verticalCenter="0" horizontalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+					<e:Label  fontFamily="Microsoft YaHei" size="18" textColor="0xfff9e7" text="闲聊" bottom="-23" horizontalCenter="1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	  </e:Button>
+
+
+
+
+
+	</e:Group>
+
+
+</e:Skin>

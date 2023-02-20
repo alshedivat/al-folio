@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HistroyJoinItemSkin" width="600" height="130" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+	<e:Image anchorOffsetX="0" source="mjl_common_bj_6" scale9Grid="20,16,122,101" height="120" left="0" right="0" y="0" width="580"/>
+
+	<e:Label id="roomInfo" text="玩家匹配号321546\n(长按可删除)" fontFamily="SimHei" size="26" verticalCenter="0" width="327" height="100" textAlign="center" verticalAlign="middle" x="66" lineSpacing="10" anchorOffsetX="0" textColor="0x0287e3"/>
+	<e:Image source="mjl_common_json.mjl_common_line_2" verticalCenter="0" right="160"/>
+	<e:ToggleButton id="detailsBtn" label="" right="516" bottom="31">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="history_tip" source.down="history_tip1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:ToggleButton>
+	<e:Button id="joinBtn" label="" right="30" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="history_join" source.down="history_join1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="deleteBtn" label="" left="-8" top="-5" scaleX="0.7" scaleY="0.7">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="joinroom_close1" source.down="joinroom_close2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	</e:Group>
+</e:Skin>

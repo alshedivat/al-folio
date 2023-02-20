@@ -1,0 +1,235 @@
+{
+  "file": "setting_wrnn.png",
+  "frames": {
+    "exitGame_btn_DDZ1": {
+      "x": 203,
+      "y": 90,
+      "w": 169,
+      "h": 51,
+      "offX": 8,
+      "offY": 4,
+      "sourceW": 185,
+      "sourceH": 59
+    },
+    "exitGame_btn_DDZ2": {
+      "x": 203,
+      "y": 142,
+      "w": 169,
+      "h": 51,
+      "offX": 8,
+      "offY": 4,
+      "sourceW": 185,
+      "sourceH": 59
+    },
+    "set_down_zjh": {
+      "x": 203,
+      "y": 243,
+      "w": 162,
+      "h": 4,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 162,
+      "sourceH": 4
+    },
+    "set_zjh_01": {
+      "x": 0,
+      "y": 0,
+      "w": 202,
+      "h": 87,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 202,
+      "sourceH": 87
+    },
+    "set_zjh_02": {
+      "x": 0,
+      "y": 176,
+      "w": 202,
+      "h": 79,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 202,
+      "sourceH": 79
+    },
+    "set_zjh_03": {
+      "x": 0,
+      "y": 88,
+      "w": 202,
+      "h": 87,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 202,
+      "sourceH": 87
+    },
+    "setting_music_DDZ": {
+      "x": 321,
+      "y": 196,
+      "w": 110,
+      "h": 38,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 110,
+      "sourceH": 38
+    },
+    "setting_sound_DDZ": {
+      "x": 0,
+      "y": 256,
+      "w": 110,
+      "h": 38,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 110,
+      "sourceH": 38
+    },
+    "setting_title": {
+      "x": 373,
+      "y": 139,
+      "w": 93,
+      "h": 56,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 93,
+      "sourceH": 56
+    },
+    "wrnn_btn_help_01": {
+      "x": 66,
+      "y": 347,
+      "w": 42,
+      "h": 52,
+      "offX": 4,
+      "offY": 0,
+      "sourceW": 49,
+      "sourceH": 52
+    },
+    "wrnn_btn_help_02": {
+      "x": 116,
+      "y": 307,
+      "w": 58,
+      "h": 30,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 58,
+      "sourceH": 31
+    },
+    "wrnn_btn_jiesan_01": {
+      "x": 0,
+      "y": 418,
+      "w": 44,
+      "h": 42,
+      "offX": 3,
+      "offY": 7,
+      "sourceW": 49,
+      "sourceH": 52
+    },
+    "wrnn_btn_jiesan_02": {
+      "x": 166,
+      "y": 256,
+      "w": 58,
+      "h": 31,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 58,
+      "sourceH": 31
+    },
+    "wrnn_btn_more": {
+      "x": 0,
+      "y": 295,
+      "w": 65,
+      "h": 60,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 65,
+      "sourceH": 60
+    },
+    "wrnn_btn_setting_01": {
+      "x": 116,
+      "y": 256,
+      "w": 49,
+      "h": 50,
+      "offX": 0,
+      "offY": 2,
+      "sourceW": 49,
+      "sourceH": 52
+    },
+    "wrnn_btn_setting_02": {
+      "x": 438,
+      "y": 0,
+      "w": 57,
+      "h": 30,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 58,
+      "sourceH": 31
+    },
+    "wrnn_btn_shuoming_01": {
+      "x": 66,
+      "y": 295,
+      "w": 49,
+      "h": 51,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 49,
+      "sourceH": 52
+    },
+    "wrnn_btn_shuoming_02": {
+      "x": 116,
+      "y": 338,
+      "w": 56,
+      "h": 30,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 58,
+      "sourceH": 31
+    },
+    "wrnn_setting_check_btn_checked": {
+      "x": 203,
+      "y": 194,
+      "w": 117,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 117,
+      "sourceH": 48
+    },
+    "wrnn_setting_check_btn_uncheck": {
+      "x": 373,
+      "y": 90,
+      "w": 117,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 117,
+      "sourceH": 48
+    },
+    "wrnn_setting_slider": {
+      "x": 0,
+      "y": 356,
+      "w": 61,
+      "h": 61,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 61,
+      "sourceH": 61
+    },
+    "wrnn_setting_slider_bg": {
+      "x": 203,
+      "y": 0,
+      "w": 234,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 234,
+      "sourceH": 48
+    },
+    "wrnn_setting_slider_front": {
+      "x": 203,
+      "y": 49,
+      "w": 226,
+      "h": 40,
+      "offX": 4,
+      "offY": 4,
+      "sourceW": 234,
+      "sourceH": 48
+    }
+  }
+}

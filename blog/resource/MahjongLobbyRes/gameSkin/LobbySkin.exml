@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LobbySkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:MJLobby="MJLobby.*">
+	<e:Image source="lobby_main_bg_jpg"  left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="mjl_lobby_json.lobby_bg_black" left="-10" right="-10" top="-2" scale9Grid="4,5,53,80" />
+	<e:Image id="logo" horizontalCenter="0" top="0"  source="lobby_logo_main_png"/>
+	<e:Group height="90" width="281.76" anchorOffsetX="0" left="0" top="0">
+		<e:Image id="headBg" source="lobby_headbg" x="7" width="85" height="85" verticalCenter="0" />
+		<e:Rect id="headMask" width="80" height="80" x="10" fillAlpha="1" fillColor="0xffffff" verticalCenter="0"
+		        ellipseWidth="25" ellipseHeight="25" />
+		<e:Label id="idLabel" text="ID:999999999" size="24" textColor="0xFFFFFF" height="22" textAlign="left"
+		         verticalAlign="middle" left="110" top="50" fontFamily="SimHei" />
+		<e:Label id="nameLabel" text="9999999" size="25" height="22" textAlign="left"
+		         verticalAlign="middle" left="110" top="15" fontFamily="SimHei"  anchorOffsetX="0" width="160" multiline="false" textColor="0xffffff" visible="false"/>
+		<MJLobby:TextImage id="nameLabelText" width="160" height="22" left="110" top="15"/>
+	</e:Group>
+	<e:Group id="moneyGroup" width="458.72" height="60" right="10" top="10" anchorOffsetX="0">
+		<e:Group id="goldNumGroup" anchorOffsetX="0" width="240" right="20" x="186.00000000000023" scaleX="1" scaleY="1"
+		         verticalCenter="0" y="10" height="50">
+			<e:Image anchorOffsetY="0" height="34" source="lobby_headFram" scaleX="1" scaleY="1" left="10" verticalCenter="0"
+			         scale9Grid="15,11,21,13" right="20" />
+			<e:Button id="buyCoinButton" anchorOffsetX="0" verticalCenter="0" right="0">
+				<e:Skin states="up,down,disabled" width="59" height="60">
+					<e:Image source="lobby_add" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" />
+					<e:Label id="labelDisplay" width="100%" height="100%" />
+				</e:Skin>
+			</e:Button>
+			<e:Image scaleX="1" scaleY="1" left="0" verticalCenter="0" source="lobby_coin_icon" width="60" height="60" />
+			<e:Label id="coinLabel" size="24" text="100.00万" textAlign="center" scaleX="1" scaleY="1" left="50" anchorOffsetX="0"
+			         fontFamily="SimHei" verticalCenter="0" right="50" />
+		</e:Group>
+		<e:Group id="diamondGroup" anchorOffsetX="0" width="200" right="20" x="176.00000000000023" scaleX="1" scaleY="1" verticalCenter="0"
+		         height="50">
+			<e:Image anchorOffsetY="0" height="34" source="lobby_headFram" scaleX="1" scaleY="1" left="20" verticalCenter="0"
+			         scale9Grid="14,11,21,13" right="20" />
+			<e:Button id="buyDiamondButton" anchorOffsetX="0" verticalCenter="0" right="0" width="58.749999999999986">
+				<e:Skin states="up,down,disabled" width="59" height="60">
+					<e:Image source="lobby_add" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" />
+					<e:Label id="labelDisplay" width="100%" height="100%" />
+				</e:Skin>
+			</e:Button>
+			<e:Image source="lobby_diamond" scaleX="1" scaleY="1" left="0" verticalCenter="0" width="60" height="60" />
+			<e:Label id="diamondLabel" size="24" text="0" textAlign="center" scaleX="1" scaleY="1" left="50" anchorOffsetX="0"
+			         fontFamily="SimHei" verticalCenter="0" right="50" />
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="right" verticalAlign="middle" gap="10" />
+		</e:layout>
+	</e:Group>
+	<e:Group id="buttonGroup" width="1050" height="460" top="150" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Button id="clubBtn" label="" x="349" y="8" anchorOffsetX="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="lobby_clubBtn_bg" source.down="lobby_clubBtn_bg1" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="createBtn" label="" x="6" y="8">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="lobby_createroom" source.down="lobby_createroom1" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="joinBtn" label="" x="693" y="8">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="lobby_joinroom" source.down="lobby_joinroom1" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="coinBtn" label="" x="6" y="234">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="lobby_coin" source.down="lobby_coin1" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="sijuBtn" label="" x="349" y="234">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="lobby_match" source.down="lobby_match1" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="sysGroup" width="960" height="50" anchorOffsetX="0" anchorOffsetY="0" top="95" horizontalCenter="0">
+		<e:Image height="40" width="700" source="paomadengbeijing" scale9Grid="18,6,112,37" scaleX="1" scaleY="1"
+		         verticalCenter="0" visible="false" />
+		<e:Image source="lobby_speaker" scaleX="1" scaleY="1" verticalCenter="0" visible="false" />
+	</e:Group>
+	<e:Button id="rankButton" label="" left="0" x="0" scaleX="1" scaleY="1" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lobby_rankOpen_btn_1" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="shareButton" label="" scaleX="1" scaleY="1" verticalCenter="0" right="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lobby_share_1" source.down="lobby_share_2" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="redpacketButton" label="" scaleX="0.8" scaleY="0.8" verticalCenter="-226" right="3" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+	<e:Label id="labelDisplay" left="0" right="0" top="0" bottom="0"/>
+			<e:Image horizontalCenter="0" verticalCenter="0" source="mjl_redpacket_btn" source.down="mjl_redpacket_btn1"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="rankGroup" width="122" height="452" x="5" top="150" visible="false">
+		<e:Image source="mjl_rank_json.lobby_rank_bg_1" horizontalCenter="0" verticalCenter="0" />
+		<e:Scroller left="0" right="2" top="69" bottom="68">
+			<e:List id="rankList" itemRendererSkinName="SmallRankItemSkin">
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" gap="15" paddingTop="0" />
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Button id="noticeButton" label="" top="12" left="280">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="41" height="60">
+				<e:Image source="lobby_notice_btn" horizontalCenter="0" verticalCenter="-10" scaleX.down="0.95" scaleY.down="0.95" />
+				<e:Label text="公告牌" horizontalCenter="0" bottom="0" size="21" fontFamily="SimHei" scaleX.down="0.95"
+				         scaleY.down="0.95" />
+				<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xffffff" fillAlpha="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="bindPhoneButton" label="" left="350" top="12">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="30" height="60">
+				<e:Image source="lobby_certificate" horizontalCenter="0" verticalCenter="-10" scaleX.down="0.97" scaleY.down="0.97" />
+				<e:Label text="绑定" textAlign="center" horizontalCenter="0" fontFamily="SimHei" size="21" bottom="0"
+				         scaleX.down="0.95" scaleY.down="0.95" />
+				<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xffffff" fillAlpha="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="messageButton" label="" top="12" left="410">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="44" height="60">
+				<e:Image source="lobby_message" horizontalCenter="0" verticalCenter="-10" scaleX.down="0.95" scaleY.down="0.95" />
+				<e:Label horizontalCenter="0" bottom="0" fontFamily="SimHei" size="21" text="消息" scaleX.down="0.95"
+				         scaleY.down="0.95" />
+				<e:Image id="readPoint" width="20" height="20" right="-3" top="-3" source="lobby_markpoint" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="weixinJoinqun" label="" height="60" left="473" top="12" width="51" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="weixinJoinqun" horizontalCenter="0" verticalCenter="-10" scaleX.down="0.95" scaleY.down="0.95" />
+				/>
+				<e:Label horizontalCenter="0" fontFamily="SimHei" size="21" text="加群" scaleX.down="0.95" scaleY.down="0.95"
+				         verticalCenter="19" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="certificationButton" label="" height="60" left="543" top="12" width="51" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="lobby_verify" horizontalCenter="0" verticalCenter="-10" scaleX.down="0.95" scaleY.down="0.95" />
+				/>
+				<e:Label horizontalCenter="0" fontFamily="SimHei" size="21" text="实名" scaleX.down="0.95" scaleY.down="0.95"
+				         verticalCenter="19" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

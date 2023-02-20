@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HeadImage_2d5_new_Skin" width="80" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="headImage" left="2" right="2" top="2" bottom="2"/>
+	<e:Image source="headbg_2d5" left="0" right="0" top="0" bottom="0" scale9Grid="8,8,54,54"/>
+</e:Skin>

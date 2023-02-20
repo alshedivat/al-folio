@@ -1,0 +1,335 @@
+{
+  "file": "room_wrnn.png",
+  "frames": {
+    "bettery_DDZ": {
+      "x": 63,
+      "y": 484,
+      "w": 43,
+      "h": 26,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 43,
+      "sourceH": 26
+    },
+    "betteryPercent_DDZ": {
+      "x": 145,
+      "y": 168,
+      "w": 8,
+      "h": 14,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 8,
+      "sourceH": 14
+    },
+    "cardcounter_bg": {
+      "x": 0,
+      "y": 168,
+      "w": 144,
+      "h": 124,
+      "offX": 8,
+      "offY": 13,
+      "sourceW": 160,
+      "sourceH": 140
+    },
+    "chat": {
+      "x": 745,
+      "y": 0,
+      "w": 65,
+      "h": 60,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 65,
+      "sourceH": 60
+    },
+    "chat_down": {
+      "x": 745,
+      "y": 61,
+      "w": 65,
+      "h": 60,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 65,
+      "sourceH": 60
+    },
+    "chips_1_hb": {
+      "x": 0,
+      "y": 446,
+      "w": 62,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 62,
+      "sourceH": 64
+    },
+    "data_DDZ": {
+      "x": 63,
+      "y": 446,
+      "w": 35,
+      "h": 37,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 35,
+      "sourceH": 37
+    },
+    "flyCoin": {
+      "x": 380,
+      "y": 434,
+      "w": 54,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 55,
+      "sourceH": 56
+    },
+    "guanzhan_zjh": {
+      "x": 110,
+      "y": 434,
+      "w": 173,
+      "h": 73,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 73
+    },
+    "hb_1bw_white": {
+      "x": 145,
+      "y": 192,
+      "w": 116,
+      "h": 120,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 116,
+      "sourceH": 120
+    },
+    "hb_1bw_white_down": {
+      "x": 262,
+      "y": 192,
+      "w": 116,
+      "h": 120,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 116,
+      "sourceH": 120
+    },
+    "hb_1q_white": {
+      "x": 110,
+      "y": 313,
+      "w": 116,
+      "h": 120,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 116,
+      "sourceH": 120
+    },
+    "hb_1q_white_down": {
+      "x": 417,
+      "y": 49,
+      "w": 116,
+      "h": 120,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 116,
+      "sourceH": 120
+    },
+    "hb_1shw_white": {
+      "x": 227,
+      "y": 313,
+      "w": 116,
+      "h": 120,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 116,
+      "sourceH": 120
+    },
+    "hb_1shw_white_down": {
+      "x": 379,
+      "y": 171,
+      "w": 116,
+      "h": 120,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 116,
+      "sourceH": 120
+    },
+    "hb_5bw_white": {
+      "x": 534,
+      "y": 49,
+      "w": 115,
+      "h": 120,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 115,
+      "sourceH": 120
+    },
+    "hb_5bw_white_down": {
+      "x": 344,
+      "y": 313,
+      "w": 115,
+      "h": 120,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 115,
+      "sourceH": 120
+    },
+    "head_around": {
+      "x": 0,
+      "y": 293,
+      "w": 109,
+      "h": 152,
+      "offX": 3,
+      "offY": 0,
+      "sourceW": 116,
+      "sourceH": 159
+    },
+    "label_help_png": {
+      "x": 284,
+      "y": 434,
+      "w": 95,
+      "h": 67,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 95,
+      "sourceH": 67
+    },
+    "mask_head": {
+      "x": 650,
+      "y": 49,
+      "w": 94,
+      "h": 94,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 94,
+      "sourceH": 94
+    },
+    "player_ready": {
+      "x": 676,
+      "y": 144,
+      "w": 61,
+      "h": 34,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 63,
+      "sourceH": 37
+    },
+    "role_frame_1_png": {
+      "x": 597,
+      "y": 170,
+      "w": 78,
+      "h": 78,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 78,
+      "sourceH": 78
+    },
+    "role_frame_3_png": {
+      "x": 496,
+      "y": 170,
+      "w": 100,
+      "h": 103,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 100,
+      "sourceH": 103
+    },
+    "room_owner": {
+      "x": 460,
+      "y": 363,
+      "w": 72,
+      "h": 32,
+      "offX": 0,
+      "offY": 5,
+      "sourceW": 72,
+      "sourceH": 39
+    },
+    "shuffle_bg": {
+      "x": 295,
+      "y": 0,
+      "w": 407,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 407,
+      "sourceH": 48
+    },
+    "time_bg": {
+      "x": 811,
+      "y": 0,
+      "w": 96,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 96,
+      "sourceH": 36
+    },
+    "tool_exit": {
+      "x": 811,
+      "y": 37,
+      "w": 54,
+      "h": 30,
+      "offX": 2,
+      "offY": 1,
+      "sourceW": 58,
+      "sourceH": 31
+    },
+    "user_dropped_icon": {
+      "x": 460,
+      "y": 327,
+      "w": 84,
+      "h": 35,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 84,
+      "sourceH": 35
+    },
+    "wifi_DDZ": {
+      "x": 110,
+      "y": 293,
+      "w": 25,
+      "h": 18,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 25,
+      "sourceH": 18
+    },
+    "wrnn_copy": {
+      "x": 496,
+      "y": 274,
+      "w": 111,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 111,
+      "sourceH": 52
+    },
+    "wrnn_cutdown_bg": {
+      "x": 295,
+      "y": 49,
+      "w": 121,
+      "h": 121,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 121,
+      "sourceH": 121
+    },
+    "wrnn_cutdown_circle": {
+      "x": 0,
+      "y": 0,
+      "w": 165,
+      "h": 167,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 168,
+      "sourceH": 168
+    },
+    "wrnn_head_item_v_bg": {
+      "x": 166,
+      "y": 0,
+      "w": 128,
+      "h": 191,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 128,
+      "sourceH": 191
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+	"msgTxt":
+		{
+			"relogin":"重新登录",
+			"point":"番",
+			"changeRoom":"换桌",
+			"sysTitle":"系统消息",
+			"charge":"充 值",
+			"sure":"确 定",
+			"cancel":"取 消",
+			"close":"关闭",
+			"chatTip":"坐下之后才能聊天",
+			"wait":"敬请期待！",
+			"chatLenTip":"您输入的文字过长，请分段发送。",
+			"giftTip1":"对方不在座位上，不允许送礼",
+			"msgIsEmpty":"消息不能为空",
+			"msgTimerLimit":"您说话太快了，喝杯茶休息一会再说吧",
+			"chips":"金币",
+			"noOtherPlayer":"当前房间座位上沒有其他玩家"
+		},
+	"warnTxt":
+		{
+			"enabledEnterRoom":"无法进入该房间!",
+			"cxceedLimit":"送礼失败！您已经超过了今日送礼上限"
+		},
+		"uiTxt":
+		{
+			"CreateRoomPanel":
+			{
+				"gameId":"选择游戏：",
+				"userNbr":"选择人数：",
+				"outTime":"出牌时间：",
+				"playType":"游戏玩法：",
+				"gameNbr":"局数：",
+				"multiplePeak":"封顶选择：",
+				"payType":"收费模式：",
+				"hostTip":"房主小费：",
+				"info":"注：创建房间免费",
+				"info":"注：第一局牌局未结算提前解散或未进行游戏不扣除钻石",
+				"roomtype":"大众麻将",
+				"playtype":"一番起胡",
+				"gameN1":"8局（房卡×1）",
+				"gameN2":"16局（房卡×2）",
+				"discardTime1":"5秒",
+				"discardTime2":"8秒",
+				"discardTime3":"10秒",
+				"discardTime4":"15秒"
+			},
+			"CreateRoomPanelLY":
+			{
+				"label1":"选择游戏：",
+				"label2":"选择人数：",
+				"label3":"游戏玩法：",
+				"label4":"局数选择：",
+				"label5":"倍数选择：",
+				"label6":"收费模式：",
+				"roomtype":["吉林麻将"],
+				"playNum":["4人","2人"],
+				"playtype":["半自摸","全自摸"],
+				"payType":["房主支付","均摊支付"],
+				"gameN":["4局","8局","12局"],
+				"multiple":["游金4倍","游金5倍"]
+			},
+			"JoinRoomPanel":
+			{
+				"joinRoomInfo":"每局游戏服务费0.1钻石，当局游戏中途解散不收取服务费",
+				"info":"请输入房间号",
+				"key0":"1",
+				"key1":"2",
+				"key2":"3",
+				"key3":"4",
+				"key4":"5",
+				"key5":"6",
+				"key6":"7",
+				"key7":"8",
+				"key8":"9",
+				"key9":"重",
+				"key10":"0",
+				"key11":"删"
+			}	,
+			"ConfirmRecharge":
+			{
+				"content1":"需要",
+				"content2":"金币,才能坐下游戏，是否充值？",
+				"yes":"充 值",
+				"cancel":"取 消"
+			},
+			"SettingPanel":	
+			{
+				"music":"音乐",
+				"sound":"音效",
+				"loginOut":"注销登录",
+				"open":"开",
+				"close":"关"
+			},
+			"SharePanel":	
+			{
+				"plat1":"好友/群",
+				"plat2":"朋友圈"
+			}						
+		}
+}
+
+

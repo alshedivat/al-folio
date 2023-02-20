@@ -1,0 +1,11 @@
+{"file":"mjl_shopItem.png","frames":{
+"0":{"x":25,"y":34,"w":18,"h":28,"offX":1,"offY":3,"sourceW":19,"sourceH":34},
+"1":{"x":48,"y":2,"w":11,"h":28,"offX":3,"offY":3,"sourceW":19,"sourceH":34},
+"2":{"x":2,"y":98,"w":17,"h":28,"offX":1,"offY":3,"sourceW":19,"sourceH":34},
+"3":{"x":45,"y":66,"w":17,"h":28,"offX":1,"offY":3,"sourceW":19,"sourceH":34},
+"4":{"x":2,"y":66,"w":18,"h":28,"offX":1,"offY":3,"sourceW":19,"sourceH":34},
+"5":{"x":2,"y":2,"w":19,"h":28,"offX":0,"offY":3,"sourceW":19,"sourceH":34},
+"6":{"x":2,"y":34,"w":19,"h":28,"offX":0,"offY":3,"sourceW":19,"sourceH":34},
+"7":{"x":23,"y":98,"w":16,"h":28,"offX":2,"offY":3,"sourceW":19,"sourceH":34},
+"8":{"x":24,"y":66,"w":17,"h":28,"offX":1,"offY":3,"sourceW":19,"sourceH":34},
+"9":{"x":25,"y":2,"w":19,"h":28,"offX":0,"offY":3,"sourceW":19,"sourceH":34}}}

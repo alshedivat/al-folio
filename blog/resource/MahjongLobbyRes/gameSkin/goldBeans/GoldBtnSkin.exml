@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GoldBtnSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="310" height="430" states="up,down,disable,upAndSelected,downAndSelected" >
+	<e:Group width="310" height="431" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95">
+		<e:Image id="_enterbg" source="coin_diban" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="_enterPoint" text="1000" y="133" anchorOffsetX="0" width="169" textAlign="center" horizontalCenter="14.5" fontFamily="SimHei" bold="true" textColor="0xeefccf"/>
+		<e:Label id="_bottomPoint" text="100" anchorOffsetX="0" width="109" textAlign="center" horizontalCenter="35.5" fontFamily="SimHei" bold="true" textColor="0xEEFCCF" verticalCenter="45.5"/>
+		<e:Image id="userNumIcon" source="coin_match_people1" left="50" bottom="40"/>
+		<e:Label id="userNum" text="123" y="353" anchorOffsetX="0" width="115" anchorOffsetY="0" height="42" textAlign="center" verticalAlign="middle" fontFamily="SimHei" bold="true" textColor="0xeefccf" horizontalCenter="0" size="35"/>
+		<e:Rect includeIn="disable" left="0" right="0" top="0" bottom="0" fillColor="0x2d2b2b" fillAlpha="0.5" touchEnabled="false" touchChildren="false"/>
+	</e:Group>
+</e:Skin>
