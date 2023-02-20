@@ -9,15 +9,18 @@ categories:
 
 ## Path Analysis
 Multiple regression model and an example of path analysis models is illustrated below
-![An example of comparison between multiple regresion and pathway analysis](MR-PA.png)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/MR-PA.png" title="An example of comparison between multiple regresion and pathway analysis" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 Regression analysis is based on the causal model with multiple causes and a single result. But, other causal models may better describe the relationship of variables, e.g., (b). These causal relationships are expressed as a set of regression analysis models:
 
 $$
-\begin{equation*}
-    \mathcal{AB}=b_1 \times \mathcal{IN} + c_3 + \epsilon_3 \\
-    \mathcal{SH}=b_2 \times \mathcal{IN} + b_2 \times \mathcal{KN} + c_4 + \epsilon_4 \\
-    \mathcal{RE}=b_4 \times \mathcal{KN} + b_5 \times \mathcal{AB} + b_6 \times \mathcal{SH} + c_5 + \epsilon_5
-\end{equation*}
+    \mathcal{AB}=b_1 \times \mathcal{IN} + c_3 + \epsilon_3 \\  
+    \mathcal{SH}=b_2 \times \mathcal{IN} + b_2 \times \mathcal{KN} + c_4 + \epsilon_4 \\  
+    \mathcal{RE}=b_4 \times \mathcal{KN} + b_5 \times \mathcal{AB} + b_6 \times \mathcal{SH} + c_5 + \epsilon_5  
 $$
 
  Parameters $$b_1, \dots, b_6$$ are **path coefficients**; $$c_j, \epsilon_j$$ are intercepts and errors, respectively.
