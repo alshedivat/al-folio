@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Computer Science @ UofT</a>
+subtitle: Department of Computer Science @ UofT
 
 profile:
   align: right
