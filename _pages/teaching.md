@@ -2,18 +2,28 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Past teching experience.
+description: Teaching activities and notes
 nav: true
 ---
 
+Oklahoma State University
+
+- [Spring 2023]
+  ECEN 5113 (Power System Analysis by Computer Methods)
+
+- [Fall 2022]
+  ECEN 4153 (Power System Analysis)
+
 - [Spring 2022]
-    Instructur of ECEN 4283/5080 (Computer Networks)
+  ECEN 4283/5080 (Computer Networks)
 
 - [Fall 2021]
-    Instructor of ECEN 5113 (Power System Analysis by Computer Methods)
+  ECEN 5113 (Power System Analysis by Computer Methods)
 
-- [Spring 2019 - Spring 2021 at UTK]
-    Instructor of ECE 496/691 (CURENT Power and Energy Seminar)
+University of Tennessee, Knoxville
 
-- [Fall 2019 at UTK]
+- [Spring 2019 - Spring 2021]
+  UTK - ECE 496/691 (CURENT Power and Energy Seminar)
+
+- [Fall 2019]
     Co-instructor of ECE 421 (Electric Energy Systems)
