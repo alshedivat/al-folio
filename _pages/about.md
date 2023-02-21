@@ -2,13 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: Assistant Professor<br> <a href="https://ece.okstate.edu">School of Electrical and Computer Engineering</a><br> Oklahoma State University
 
 profile:
   align: right
   image: cui-hantao-july2021.jpg
   address: >
-
+    <p>Assistant Professor</p>
+    <a href="https://ece.okstate.edu">School of Electrical and Computer Engineering</a>
+    <a href="https://go.okstate.edu">Oklahoma State University</a>
+    <br>
     <p>204 General Academic Building</p>
     <p>Stillwater, OK 74078</p>
 
