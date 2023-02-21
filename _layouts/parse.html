@@ -1,0 +1,30 @@
+{%- if site.remove_HTML_comments -%}
+	{%- assign _comments = "<!-- -->" | split: " " -%}
+	{%- capture _comment_befores -%}{{ content }}{%- endcapture -%}
+	{%- assign _comment_befores = _comment_befores | split: _comments.first -%}
+	{%- for _comment_before in _comment_befores -%}
+		{%- if forloop.first -%}
+			{%- continue -%}
+		{%- endif -%}
+		{%- capture _comment_outside -%}
+			{%- if _carry -%}
+				{{ _comments.first }}
+			{%- endif -%}
+			{{ _comment_before }}
+		{%- endcapture -%}
+		{%- capture _comment -%}
+			{%- unless _carry -%}
+				{{ _comments.first }}
+			{%- endunless -%}
+			{{ _comment_outside | split: _comments.last | first }}
+			{%- if _comment_outside contains _comments.last -%}
+				{{ _comments.last }}
+				{%- assign _carry = false -%}
+			{%- else -%}
+				{%- assign _carry = true -%}
+			{%- endif -%}
+		{%- endcapture -%}
+		{%- assign content = content | remove_first: _comment -%}
+	{%- endfor -%}
+{%- endif -%}
+{{ content | beautify | minify }}

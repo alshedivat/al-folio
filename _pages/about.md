@@ -1,8 +1,8 @@
 ---
 layout: about
+title: about
 permalink: /
-title: <strong>Hantao</strong> Cui
-description: <a href="https://ece.okstate.edu">School of Electrical and Computer Engineering</a>, Oklahoma State University
+subtitle: <a href="https://ece.okstate.edu">School of Electrical and Computer Engineering</a>, Oklahoma State University
 
 profile:
   align: right
@@ -12,8 +12,9 @@ profile:
     <p>204 General Academic Building</p>
     <p>Stillwater, OK 74078</p>
 
-news: true
-social: true
+news: true  # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
 ---
 Hantao Cui is an assistant professor with the School of Electrical and Computer Engineering at Oklahoma State University.
 He received his Ph. D. degree in Electrical Engineering from the University of Tennessee, Knoxville in 2018.
@@ -41,3 +42,5 @@ Hantao Cui's research include:
 
 Hantao Cui publishes research papers and open-source software for research.
 Use the icons at the bottom of the page to checkout the most recent papers and tools.
+
+For open positions please visit [here](group/#openings).
