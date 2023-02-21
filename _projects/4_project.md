@@ -24,19 +24,7 @@ Representation Learning without Representationalism (in progress)
 <p>
 
 
-Automating Exploration: Machine Learning, Understanding, and the Aims of Data-Driven Science (in progress)
 
-  <button class="btn " type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
- Abstract
-  </button>
-</p>
-
-<div class="collapse" id="collapse2">
-  <div class="card card-body">
-    In this paper, I draw a parallel between data-driven science and exploratory experiments which sheds light on the generative aims of data-intensive methodologies. Exploratory is thought to provide the conditions for the development of new scientific concepts. I then go on to bring attention to an under-theorized problem for the application of  machine learning (ML) algorithms in service of these aims. I call this problem semantic opacity. Semantic opacity occurs when the knowledge needed to translate the output of an ML system into scientific concepts depends on theoretical assumptions about the same domain of inquiry into which the model purports to grant insight. Semantic opacity is especially likely to occur in exploratory contexts, wherein experimentation is not strongly guided by extant theory. However, when exploratory methods are mediated by ML, we lack the interpretative tools needed to decide if the predictions of a model correspond to robust, scientific kinds rather than jerry-rigged ones tied to spurious correlations in Big Data. Furthermore, I argue that techniques in explainable AI (XAI) that aim to make these models more interpretable are not well suited to address semantic opacity. 
-
-  </div>
-</div>
   
 
 Artiface of Objectivity: why algorithms are necessarily value-laden (in progress)  
