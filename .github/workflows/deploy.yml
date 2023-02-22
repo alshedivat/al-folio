@@ -5,10 +5,12 @@ on:
     branches:
       - master
       - main
+      - lab-depositar-io
   pull_request:
     branches:
       - master
       - main
+      - lab-depositar-io
 
 jobs:
   deploy:
