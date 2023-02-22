@@ -2,9 +2,7 @@ name: Docker Image CI
 
 on:
   push:
-    branches:
-      - master
-      - lab-depositar-io
+    branches: [ master ]
 
 jobs: 
 
