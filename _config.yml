@@ -204,6 +204,10 @@ plugins:
   - jekyll-link-attributes
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-multiple-languages-plugin
+
+# Multi language settings
+languages: ["en", "zh-tw"]
 
 # Sitemap settings
 defaults:

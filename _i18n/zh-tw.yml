@@ -1,0 +1,14 @@
+titles:
+  about: 關於
+  news: 新聞
+  selected_publications: 特色發表
+  blog: 網誌
+  projects: 專案
+  publications: 發表
+  repositories: 儲存庫
+  unk: 找不到頁面
+news:
+  titles:
+    news2: 一則較長且包含細節的新聞
+blog:
+  nav_title: 網誌

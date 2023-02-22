@@ -1,5 +1,6 @@
           
           <div class="news">
+            <h2>{% t titles.news %}</h2>
             {% if site.news != blank -%} 
             {%- assign news_size = site.news | size -%}
             <div class="table-responsive" {% if site.news_scrollable and news_size > 3 %}style="max-height: 10vw"{% endif %}>
@@ -17,7 +18,7 @@
                     {% if item.inline -%} 
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
                     {%- else -%} 
-                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                      <a class="news-title" href="{{ item.url | prepend: site.baseurl }}">{% t item.title %}</a>
                     {%- endif %} 
                   </td>
                 </tr>

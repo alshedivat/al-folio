@@ -1,0 +1,14 @@
+titles:
+  about: about
+  news: news
+  selected_publications: selected publications
+  blog: blog
+  projects: projects
+  publications: publications
+  repositories: repositories
+  unk: page not found
+news:
+  titles:
+    news2: A long announcement with details
+blog:
+  nav_title: blog

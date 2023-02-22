@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: titles.projects
 permalink: /projects/
 nav: true
 nav_order: 2

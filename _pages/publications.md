@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: titles.publications
 years: [2022]
 nav: true
 nav_order: 1
