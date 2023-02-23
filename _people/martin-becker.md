@@ -35,18 +35,18 @@ For my publications and projects, please refer to [Google Scholar](https://schol
     <tr>
         <td>2018 - 2022:</td>
         <td> 
-            <strong>Postdoctoral researcher</strong>; [Aghaeepour](https://nalab.stanford.edu/) Lab, Stanford University (CA, USA);<br/>
+            <strong>Postdoctoral researcher</strong>; <a href="https://nalab.stanford.edu/">Aghaeepour Lab</a>, Stanford University (CA, USA);<br/>
             <em>Research topic</em>: Artificial Intelligence, Machine Learning, and Multiomics Integration for Systems (Bio-)Medicine and Clinical Applications
         </td>
     </tr>
     <tr>
         <td>2018:</td>
-        <td><strong>Postdoctoral researcher</strong>; [DMIR](https://www.informatik.uni-wuerzburg.de/datascience/), University of Würzburg (Germany)</td>
+        <td><strong>Postdoctoral researcher</strong>; <a href="https://www.informatik.uni-wuerzburg.de/datascience/">DMIR</a>, University of Würzburg (Germany)</td>
     </tr>
     <tr>
         <td>2011 - 2018</td>
         <td>
-            <strong>Research assistant and PhD student</strong>; [DMIR](https://www.informatik.uni-wuerzburg.de/datascience/), University of Würzburg (Germany) and [L3S Research Center](https://l3s.de/) (Germany);<br/>
+            <strong>Research assistant and PhD student</strong>; <a href="https://www.informatik.uni-wuerzburg.de/datascience/">DMIR</a>, University of Würzburg (Germany) and <a href="https://l3s.de/">L3S Research Center</a> (Germany);<br/>
             <em>Thesis:</em> Understanding Human Navigation using Bayesian Hypothesis Comparison</td>
     </tr>
     <tr>
