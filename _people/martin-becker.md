@@ -28,31 +28,31 @@ For my publications and projects, please refer to [Google Scholar](https://schol
     <tr>
     <td>2022 - 2025: </td>
     <td>
-        <strong>Retrievalsearch Group Leader (BMBF AI Program)</strong>; University of Rostock (Germany); 
-        <strong>Research topic:</strong> Leveraging background knowledge for understanding and modeling complex systems</td>
+        <strong>Research Group Leader (BMBF AI Program)</strong>; University of Rostock (Germany);<br/>
+        <em>Research topic:</em> Leveraging background knowledge for understanding and modeling complex systems</td>
     </tr>
     <tr>
         <td>2018 - 2022:</td>
         <td> 
-            <strong>Postdoctoral researcher</strong>; Stanford University (CA, USA); 
-            <strong>Research topic</strong>:* Artificial Intelligence, Machine Learning, and Multiomics Integration for Systems (Bio-)Medicine and Clinical Applications
+            <strong>Postdoctoral researcher</strong>; Stanford University (CA, USA);<br/>
+            <em>Research topic</em>:* Artificial Intelligence, Machine Learning, and Multiomics Integration for Systems (Bio-)Medicine and Clinical Applications
         </td>
     </tr>
     <tr>
         <td>2018:</td>
-        <td> <strong>Postdoctoral researcher</strong>; University of Würzburg (Germany)</td>
+        <td><strong>Postdoctoral researcher</strong>; University of Würzburg (Germany)</td>
     </tr>
     <tr>
         <td>2011 - 2018</td>
         <td>
-            <strong>Research assistant and PhD student</strong>; University of Würzburg (Germany) and L3S Research Center (Germany); 
-            <strong>Thesis:</strong> Understanding Human Navigation using Bayesian Hypothesis Comparison (summa cum laude)</td>
+            <strong>Research assistant and PhD student</strong>; University of Würzburg (Germany) and L3S Research Center (Germany);<br/>
+            <em>Thesis:</em> Understanding Human Navigation using Bayesian Hypothesis Comparison (summa cum laude)</td>
     </tr>
     <tr>
         <td>2006 - 2011:</td>
         <td>
-            <strong>Diploma: Computer science major, mathematics minor</strong>; University of Würzburg (Germany) and University of Texas at Austin (TX, USA); 
-            <strong>Thesis:</strong> Constraint Based Descriptive Pattern Mining (student excellence award with outstanding diploma thesis)</td>
+            <strong>Diploma: Computer science major, mathematics minor</strong>; University of Würzburg (Germany) and University of Texas at Austin (TX, USA);<br/>
+            <em>Thesis:</em> Constraint Based Descriptive Pattern Mining (student excellence award with outstanding diploma thesis)</td>
     </tr>
 </table>
 
