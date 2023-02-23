@@ -35,31 +35,31 @@ For my publications and projects, please refer to [Google Scholar](https://schol
     <tr>
         <td>2018 - 2022:</td>
         <td> 
-            <strong>Postdoctoral researcher</strong>; Stanford University (CA, USA);<br/>
-            <em>Research topic</em>:* Artificial Intelligence, Machine Learning, and Multiomics Integration for Systems (Bio-)Medicine and Clinical Applications
+            <strong>Postdoctoral researcher</strong>; [Aghaeepour](https://nalab.stanford.edu/) Lab, Stanford University (CA, USA);<br/>
+            <em>Research topic</em>: Artificial Intelligence, Machine Learning, and Multiomics Integration for Systems (Bio-)Medicine and Clinical Applications
         </td>
     </tr>
     <tr>
         <td>2018:</td>
-        <td><strong>Postdoctoral researcher</strong>; University of Würzburg (Germany)</td>
+        <td><strong>Postdoctoral researcher</strong>; [DMIR](https://www.informatik.uni-wuerzburg.de/datascience/), University of Würzburg (Germany)</td>
     </tr>
     <tr>
         <td>2011 - 2018</td>
         <td>
-            <strong>Research assistant and PhD student</strong>; University of Würzburg (Germany) and L3S Research Center (Germany);<br/>
-            <em>Thesis:</em> Understanding Human Navigation using Bayesian Hypothesis Comparison (summa cum laude)</td>
+            <strong>Research assistant and PhD student</strong>; [DMIR](https://www.informatik.uni-wuerzburg.de/datascience/), University of Würzburg (Germany) and [L3S Research Center](https://l3s.de/) (Germany);<br/>
+            <em>Thesis:</em> Understanding Human Navigation using Bayesian Hypothesis Comparison</td>
     </tr>
     <tr>
         <td>2006 - 2011:</td>
         <td>
             <strong>Diploma: Computer science major, mathematics minor</strong>; University of Würzburg (Germany) and University of Texas at Austin (TX, USA);<br/>
-            <em>Thesis:</em> Constraint Based Descriptive Pattern Mining (student excellence award with outstanding diploma thesis)</td>
+            <em>Thesis:</em> Constraint Based Descriptive Pattern Mining</td>
     </tr>
 </table>
 
 ## Community Service
 
-* **PC member of / reviewer for computer science journals, conferences and workshops:** 
+* **PC member of / reviewer for computer science journals, conferences and workshops:**
 npj Digital Medicine (Journal);
 Machine Learning (Journal);
 Frontiers in Artificial Intelligence (Journal);

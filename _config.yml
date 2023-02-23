@@ -68,7 +68,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: bckrlab # your GitHub user name
-gitlab_username: bckrlab # your GitLab user name
+gitlab_username: # your GitLab user name
 twitter_username: mgbckr # your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
@@ -85,7 +85,7 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  You can best reach me via e-mail.
+  You can best reach us via e-mail.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
