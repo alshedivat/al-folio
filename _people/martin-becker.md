@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Martin Becker
-description: Jun.-Prof., PI
+description: Assistant Professor (Jun.-Professor), PI
 img: /assets/img/people/martin-becker.jpg
 importance: 1
 category: pi
@@ -20,30 +20,39 @@ Also, I love to dance 💃, read 📚, and whenever I get the chance I go surfin
 
 For my publications and projects, please refer to [Google Scholar](https://scholar.google.com/citations?user=n99pDOAAAAAJ&hl=en) and my [lab page](/).
 
-<table>
+<table class=cv>
     <tr>
         <td>2022 - now:</td>
-        <td>**Assistant Professor**; University of Rostock (Germany); Chair for Intelligent Data Analytics</td>
+        <td><strong>Assistant Professor</strong>; University of Rostock (Germany); Chair for Intelligent Data Analytics</td>
     </tr>
     <tr>
     <td>2022 - 2025: </td>
-    <td>**Retrievalsearch Group Leader (BMBF AI Program)**; University of Rostock (Germany); **Research topic:** Leveraging background knowledge for understanding and modeling complex systems</td>
+    <td>
+        <strong>Retrievalsearch Group Leader (BMBF AI Program)</strong>; University of Rostock (Germany); 
+        <strong>Research topic:</strong> Leveraging background knowledge for understanding and modeling complex systems</td>
     </tr>
     <tr>
         <td>2018 - 2022:</td>
-        <td> **Postdoctoral researcher**; Stanford University (CA, USA); **Research topic**:* Artificial Intelligence, Machine Learning, and Multiomics Integration for Systems (Bio-)Medicine and Clinical Applications</td>
+        <td> 
+            <strong>Postdoctoral researcher</strong>; Stanford University (CA, USA); 
+            <strong>Research topic</strong>:* Artificial Intelligence, Machine Learning, and Multiomics Integration for Systems (Bio-)Medicine and Clinical Applications
+        </td>
     </tr>
     <tr>
         <td>2018:</td>
-        <td> **Postdoctoral researcher**; University of Würzburg (Germany)</td>
+        <td> <strong>Postdoctoral researcher</strong>; University of Würzburg (Germany)</td>
     </tr>
     <tr>
         <td>2011 - 2018</td>
-        <td>**Research assistant and PhD student**; University of Würzburg (Germany) and L3S Research Center (Germany); **Thesis:** Understanding Human Navigation using Bayesian Hypothesis Comparison (summa cum laude)</td>
+        <td>
+            <strong>Research assistant and PhD student</strong>; University of Würzburg (Germany) and L3S Research Center (Germany); 
+            <strong>Thesis:</strong> Understanding Human Navigation using Bayesian Hypothesis Comparison (summa cum laude)</td>
     </tr>
     <tr>
         <td>2006 - 2011:</td>
-        <td>**Diploma: Computer science major, mathematics minor**; University of Würzburg (Germany) and University of Texas at Austin (TX, USA); **Thesis:** Constraint Based Descriptive Pattern Mining (student excellence award with outstanding diploma thesis)</td>
+        <td>
+            <strong>Diploma: Computer science major, mathematics minor</strong>; University of Würzburg (Germany) and University of Texas at Austin (TX, USA); 
+            <strong>Thesis:</strong> Constraint Based Descriptive Pattern Mining (student excellence award with outstanding diploma thesis)</td>
     </tr>
 </table>
 
