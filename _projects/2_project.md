@@ -6,8 +6,9 @@ description: The focus of the study was to explore the effects of these imperfec
 importance: 1
 category: work
 ---
-<h3> Collaborators: Prof. <a href="https://me.queensu.ca/People/Piomelli/"> Ugo Piomelli</a> <sup> 1 </sup>,
-Dr. <a href="https://www.bsc.es/lehmkuhl-oriol"> Oriol Lehmkuhl </a> <sup> 2 </sup> and
+<h3> Supervisor: Prof. <a href="https://me.queensu.ca/People/Piomelli/"> Ugo Piomelli</a> <sup> 1 </sup> </h3>
+<br>
+<h3> Collaborators: Dr. <a href="https://www.bsc.es/lehmkuhl-oriol"> Oriol Lehmkuhl </a> <sup> 2 </sup> and
 Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 2 </sup> </h3>
 
 <p> <sup> 1 </sup> Queen's University, Kingston, Canada <br>
