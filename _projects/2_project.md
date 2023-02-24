@@ -20,7 +20,7 @@ Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 2 </sup>
 <h4 class="content"><span></span>Financing entity: Bombardier Aerospace and Mitacs </h4>
 <h4 class="content"><span></span>Computational resource: Southern Ontario Smart Computing Innovation Platform (SOSCIP) and Compute Canada </h4>
 
-<p> <sup> 1 </sup> Queen's University, Kingston, Canada <br>
+<p class="bottom-three"> <sup> 1 </sup> Queen's University, Kingston, Canada <br>
 <sup> 2 </sup> Barcelona Supercomputing Center (BSC), Spain
 </p>
 
