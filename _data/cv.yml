@@ -14,7 +14,7 @@
   type: time_table
   contents:
     - title: Doctor of Philosophy (Ph.D.)
-      institution: Mechanical Engineering <br> Queen's University, Kingston, Canada
+      institution: Mechanical Engineering, Queen's University, Kingston, Canada
       year: 2022
       description:
         - Description 1.
@@ -24,13 +24,13 @@
             - Sub-description 1.
             - Sub-description 2.
     - title: Master of Science (M.S.)
-      institution: Iowa State University, Ames, IA, USA
+      institution: Aerospace Engineering, Iowa State University, Ames, IA, USA
       year: 2016
       description:
         - Description 1.
         - Description 2.
     - title: Bachelor of Engineering (B.E.)
-      institution: Birla Institute of Techonology and Science (BITS), Pilani, Goa, India
+      institution: Mechanical Engineering, Birla Institute of Techonology and Science (BITS), Pilani, Goa, India
       year: 2011
       description:
         - Description 1.
