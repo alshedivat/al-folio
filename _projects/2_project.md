@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Airfoil Leading-Edge Roughness Effects
-description: done during my doctoral studies.
+description: The focus of the study was to explore the effects of these imperfections (which are much larger than local boundary layer thickness) on the developing boundary layer and trailing edge separation.
 img: assets/img/3.jpg
 importance: 1
 category: work
