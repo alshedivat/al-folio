@@ -35,6 +35,6 @@ Ice depositions can significantly affect aerodynamic performance, thereby increa
         {% include figure.html path="assets/img/RLE2-INS.png" title="mixed 2D/3D roughness" class="img-fluid rounded z-depth-1" caption="<b><i> d) </i></b>  NACA4412 with mixed 2D/3D roughness" %}
     </div>
 </div>
-<div class="caption">
+<!-- <div class="caption">
 <b><i> Figure a)</i></b>
-</div>
+</div> -->
