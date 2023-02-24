@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+title: Study of Go&#776;rtler instability
+description: project undertaken at ISU
+#img: assets/img/7.jpg
+#redirect: https://unsplash.com
+importance: 1
+category: class
 ---
 
 Every project has a beautiful feature showcase page.

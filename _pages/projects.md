@@ -2,11 +2,11 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Some of the things that I have been interested in fluids research over the past few years.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
-horizontal: false
+display_categories: [work, class, fun]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->

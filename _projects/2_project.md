@@ -1,80 +1,40 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
-importance: 2
+title: airfoil leading-edge roughness effects
+description: done during my doctoral studies.
+#img: assets/img/3.jpg
+importance: 1
 category: work
 ---
+<h4>Collaborators: Prof. Ugo Piomelli and Dr. Oriol Lehmkuhl (BSC)</h4>
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<h4 class="content"><span></span>Sponsors: Bombardier Aerospace and Mitacs</h4>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Ice depositions can significantly affect aerodynamic performance, thereby increasing cost of operation and degrading airplane safety. The ice-shapes encountered in practice depend on physics governing ice-accretion and can affect the flow in quite different ways. We perform large-eddy simulations of  the flow over an airfoil to understand the effects of leading-edge roughness designed to mimic these ice accretions. The roughness elements protrude outside the boundary layer, which, near the leading edge, is very thin; thus, the configuration does not represent a classical rough-wall boundary layer, but rather the flow over macroscopic obstacles.  A grid convergence study is conducted and results are validated by comparison to numerical and experimental studies in the literature.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
+<b><i> Figure a)</i></b>  For a smooth airfoil the boundary layer on the suction side, is initially laminar; the flow separates and reattaches, creating a thin, closed laminar separation. The flow then undergoes a transition process associated with undulations of the spanwise vortices formed in the separated shear-layer. The flow breaks down shortly after the formation of these secondary instabilities, re-attaches and finally develops into $$\Lambda$$-shaped vortices.
+
+<b><i> Figure b)</i></b>  In the tripped case the flow is significantly different; spanwise vortices are formed in the shear layer emanating from the top of the first semi-cylindrical element, which are advected downstream. The flow remains coherent for the first 20-30% of the chord (region A), but then the 3D perturbations break the coherence of the spanwise vortices, and horseshoe vortices appear (region B). The flow becomes turbulent much earlier than in the smooth case due to the formation and breakdown of the rollers.&#160;
+
+<b><i> Figures c and d)</i></b>  In the case with 3D obstacles we observe an early formation of 3D structures, which coalesce into hairpin-like vortices downstream of the roughness, in the region marked B; For the case with 2D obstacles, quasi-2D vortex-shedding from the obstacles is visible (for example, in region A in panel (d)); the shed vortices become elongated downstream due to the shear. The turbulent structures are significantly larger than in the other cases, reflecting the greater height of the imperfections.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/SLE-INS.png" title="smooth case" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/TBL-INS.png" title="2D rough case" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RLE1-INS.png" title="3D rough case" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RLE2-INS.png" title="2D/3D mixed rough case" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+<b><i> Figure a)</i></b>
 </div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
