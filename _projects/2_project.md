@@ -1,8 +1,8 @@
 ---
 layout: page
-title: airfoil leading-edge roughness effects
+title: Airfoil leading-edge roughness effects
 description: done during my doctoral studies.
-#img: assets/img/3.jpg
+img: assets/img/3.jpg
 importance: 1
 category: work
 ---
