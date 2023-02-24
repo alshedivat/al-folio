@@ -20,7 +20,7 @@ Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 3 </sup>
 <p class="top-one"> </p>
 
 <h4 class="content"><span> Financing entity: </span> Bombardier Aerospace and Mitacs </h4>
-<h4 class="content"><span> Computational resource: </span> Southern Ontario Smart Computing Innovation Platform (SOSCIP) and Compute Canada </h4>
+<h4 class="content"><span> SOSCIP and Compute Canada </h4>
 
 <p class="top-one"> <sup> 1 </sup> Professor, Mechanical Engineering, Queen's University, Kingston, Canada <br>
 <sup> 2 </sup> Group Leader, Large-scale turbulence simulation, Barcelona Supercomputing Center (BSC), Spain <br>
