@@ -19,7 +19,7 @@
       description:
         - Dissertation title&#58; Leading edge roughness effects on flow over airfoils
         - Advisor&#58; Professor Ugo Piomelli
-        - title: Academic Courses
+        - title: Academic Courses&#58;
           contents:
             - Introduction to Turbulence
             - Environment Fluid Dynamics
@@ -31,18 +31,18 @@
       description:
         - Dissertation title&#58; Inverse Turbulence Modeling of Channel flow using continuous Adjoint method
         - Advisor&#58; Professor Paul Durbin
+        - title: Academic Courses&#58;
+          contents:
+            - Introduction to Turbulence
+            - Environment Fluid Dynamics
+            - Introduction to Computational Fluid Dynamics
+            - Fluid Instability
     - title: Bachelor of Engineering (B.E.)
       institution: Mechanical Engineering, BITS Pilani, Goa, India
       year: 2011
       description:
         - Description 1.
         - Description 2.
-        - title: Academic Courses
-          contents:
-            - Introduction to Turbulence
-            - Environment Fluid Dynamics
-            - Introduction to Computational Fluid Dynamics
-            - Fluid Instability
 
 - title: Experience
   type: time_table
