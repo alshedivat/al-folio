@@ -18,11 +18,13 @@
       year: 2022
       description:
         - Dissertation title&#58; Leading edge roughness effects on flow over airfoils
-        - Description 2.
-        - title: Description 3.
+        - Advisor&#58; Professor Ugo Piomelli
+        - title: Academic Courses
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - Introduction to Turbulence
+            - Environment Fluid Dynamics
+            - Introduction to Computational Fluid Dynamics
+            - Fluid Instability
     - title: Master of Science (M.S.)
       institution: Aerospace Engineering, Iowa State University, Ames, IA, USA
       year: 2016
