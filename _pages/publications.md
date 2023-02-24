@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: My publications
+title: publications
 description: 
 years: [1967, 1956, 1950, 1935, 1905]
 nav: true
