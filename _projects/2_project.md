@@ -12,18 +12,19 @@ category: work
   }
 </style>
 
-<h3> Supervisor: Prof. <a href="https://me.queensu.ca/People/Piomelli/"> Ugo Piomelli</a> <sup> 1 </sup> </h3>
+<h3> Supervisor: Dr. <a href="https://me.queensu.ca/People/Piomelli/"> Ugo Piomelli</a> <sup> 1 </sup> </h3>
 
 <h3> Collaborators: Dr. <a href="https://www.bsc.es/lehmkuhl-oriol"> Oriol Lehmkuhl </a> <sup> 2 </sup> and
-Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 2 </sup> </h3>
+Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 3 </sup> </h3>
 
 <p class="top-one"> </p>
 
 <h4 class="content"><span> Financing entity: </span> Bombardier Aerospace and Mitacs </h4>
 <h4 class="content"><span> Computational resource: </span> Southern Ontario Smart Computing Innovation Platform (SOSCIP) and Compute Canada </h4>
 
-<p class="top-one"> <sup> 1 </sup> Queen's University, Kingston, Canada <br>
-<sup> 2 </sup> Barcelona Supercomputing Center (BSC), Spain
+<p class="top-one"> <sup> 1 </sup> Professor, Mechanical Engineering, Queen's University, Kingston, Canada <br>
+<sup> 2 </sup> Group Leader, Large-scale turbulence simulation, Barcelona Supercomputing Center (BSC), Spain
+<sup> 3 </sup> Postdoctoral researcher, Large-scale turbulence simulation, Barcelona Supercomputing Center (BSC), Spain
 </p>
 
 <hr>
