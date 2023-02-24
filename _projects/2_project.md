@@ -21,18 +21,18 @@ Ice depositions can significantly affect aerodynamic performance, thereby increa
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/SLE-INS.png" title="Smooth surface" class="img-fluid rounded z-depth-1" caption="<b><i> a) </i></b> Smooth NACA4412 surface" %}
+        {% include figure.html path="assets/img/SLE-INS.png" title="Smooth surface" class="img-fluid rounded z-depth-1" caption="<b><i> a) </i></b>  Smooth NACA4412 surface" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/TBL-INS.png" title="2D roughness" class="img-fluid rounded z-depth-1" caption="<b><i> b) </i></b> NACA4412 with 2D roughness" %}
+        {% include figure.html path="assets/img/TBL-INS.png" title="2D roughness" class="img-fluid rounded z-depth-1" caption="<b><i> b) </i></b>  NACA4412 with 2D roughness" %}
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RLE1-INS.png" title="3D roughness" class="img-fluid rounded z-depth-1" caption="<b><i> b) </i></b> NACA4412 with 3D roughness" %}
+        {% include figure.html path="assets/img/RLE1-INS.png" title="3D roughness" class="img-fluid rounded z-depth-1" caption="<b><i> b) </i></b>  NACA4412 with 3D roughness" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RLE2-INS.png" title="mixed 2D/3D roughness" class="img-fluid rounded z-depth-1" caption="<b><i> b) </i></b> NACA4412 with mixed 2D/3D roughness" %}
+        {% include figure.html path="assets/img/RLE2-INS.png" title="mixed 2D/3D roughness" class="img-fluid rounded z-depth-1" caption="<b><i> b) </i></b>  NACA4412 with mixed 2D/3D roughness" %}
     </div>
 </div>
 <div class="caption">
