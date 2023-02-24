@@ -8,14 +8,13 @@
     - name: Languages
       value: English, Hindi
     - name: Nationality
-      value: India
+      value: Indian
 
 - title: Education
   type: time_table
   contents:
     - title: Doctor of Philosophy (Ph.D.)
       institution: Queen's University, Kingston, Canada
-      degree: Queen's University, Kingston, Canada
       year: 2022
       description:
         - Description 1.
