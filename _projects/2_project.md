@@ -23,7 +23,7 @@ Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 3 </sup>
 <h4 class="content"><span> Computational resource: </span> Southern Ontario Smart Computing Innovation Platform (SOSCIP) and Compute Canada </h4>
 
 <p class="top-one"> <sup> 1 </sup> Professor, Mechanical Engineering, Queen's University, Kingston, Canada <br>
-<sup> 2 </sup> Group Leader, Large-scale turbulence simulation, Barcelona Supercomputing Center (BSC), Spain
+<sup> 2 </sup> Group Leader, Large-scale turbulence simulation, Barcelona Supercomputing Center (BSC), Spain <br>
 <sup> 3 </sup> Postdoctoral researcher, Large-scale turbulence simulation, Barcelona Supercomputing Center (BSC), Spain
 </p>
 
