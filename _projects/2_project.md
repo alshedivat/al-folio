@@ -9,6 +9,7 @@ category: work
 <h4>Collaborators: Prof. Ugo Piomelli <sup> 1 </sup>, Dr. Oriol Lehmkuhl <sup> 2 </sup> and Dr. Arnau Miro <sup> 2 </sup> </h4>
 
 <sup> 1 </sup> Queen's University, Kingston, Canada
+
 <sup> 2 </sup> Barcelona Supercomputing Center (BSC), Spain
 
 <h4 class="content"><span></span>Sponsors: Bombardier Aerospace and Mitacs</h4>
