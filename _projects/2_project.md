@@ -11,7 +11,8 @@ category: work
 <h3> Collaborators: Dr. <a href="https://www.bsc.es/lehmkuhl-oriol"> Oriol Lehmkuhl </a> <sup> 2 </sup> and
 Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 2 </sup> </h3>
 
-<h4 class="content"><span></span>Sponsors: Bombardier Aerospace and Mitacs </h4>
+<h4 class="content"><span></span>Financing entity: Bombardier Aerospace and Mitacs </h4>
+<h4 class="content"><span></span>Computational resource: Compute Canada </h4>
 
 <p> <sup> 1 </sup> Queen's University, Kingston, Canada <br>
 <sup> 2 </sup> Barcelona Supercomputing Center (BSC), Spain
