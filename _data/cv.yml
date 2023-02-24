@@ -13,7 +13,7 @@
   contents:
     - title: Doctor of Philosophy (Ph.D.)
       institution: Queen's University, Kingston, Canada
-      year: 2016-2022
+      year: 2022
       description:
         - Description 1.
         - Description 2.
@@ -23,7 +23,13 @@
             - Sub-description 2.
     - title: Master of Science (M.S.)
       institution: Iowa State University, Ames, IA, USA
-      year: 2014-2016
+      year: 2016
+      description:
+        - Description 1.
+        - Description 2.
+    - title: Bachelor of Engineering (B.E.)
+      institution: Birla Intiture of Science and Techonology, Pilani, Goa, India
+      year: 2011
       description:
         - Description 1.
         - Description 2.
