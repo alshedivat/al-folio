@@ -49,7 +49,7 @@
   contents:
     - title: Professor of Theoretical Physics
       institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+      year: Sep - Dec 2022
       description:
         - Description 1.
         - Description 2.
@@ -98,15 +98,22 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Unsteady flow control.
+    - title: Aerodynamics and flow control
+      items:
+        - Analysis of aerodynamic flows
+        - flow-control strategies for aerodynamic flows using machine learning
+    - title: Roughness effects on transition & turbulence
       items:
         - Description 1.
         - Description 2.
-    - title: Topic 2.
+    - title: Turbulence modelling 
       items:
         - Description 1.
         - Description 2.
-
+    - title: Sediment transport in turbulent flows
+      items:
+        - Description 1.
+        - Description 2.
 - title: Other Interests
   type: list
   contents:
