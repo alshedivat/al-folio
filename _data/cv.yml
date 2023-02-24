@@ -40,9 +40,9 @@
     - title: Bachelor of Engineering (B.E.)
       institution: Mechanical Engineering, BITS Pilani, Goa, India
       year: 2011
-      description:
-        - Description 1.
-        - Description 2.
+      # description:
+      #   - Description 1.
+      #   - Description 2.
 
 - title: Experience
   type: time_table
