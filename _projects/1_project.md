@@ -12,7 +12,7 @@ category: work
   }
 </style>
 
-<h3> Supervisor: Prof. <a href="https://me.queensu.ca/People/Piomelli/"> Paul Durbin </a> <sup> 1 </sup> </h3>
+<h3> Supervisor: Prof. <a href="https://www.engineering.iastate.edu/people/profile/durbin/"> Paul Durbin </a> <sup> 1 </sup> </h3>
 
 <p class="top-one"> </p>
 
