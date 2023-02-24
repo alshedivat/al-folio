@@ -6,11 +6,11 @@ img: assets/img/3.jpg
 importance: 1
 category: work
 ---
-<h4>Collaborators: Prof. Ugo Piomelli and Dr. Oriol Lehmkuhl (BSC)</h4>
+<h4>Collaborators: Prof. Ugo Piomelli <sup> 1 </sup> and Dr. Oriol Lehmkuhl Barcelona Supercomputing Center </h4>
 
 <h4 class="content"><span></span>Sponsors: Bombardier Aerospace and Mitacs</h4>
 
-Ice depositions can significantly affect aerodynamic performance, thereby increasing cost of operation and degrading airplane safety. The ice-shapes encountered in practice depend on physics governing ice-accretion and can affect the flow in quite different ways. We perform large-eddy simulations of  the flow over an airfoil to understand the effects of leading-edge roughness designed to mimic these ice accretions. The roughness elements protrude outside the boundary layer, which, near the leading edge, is very thin; thus, the configuration does not represent a classical rough-wall boundary layer, but rather the flow over macroscopic obstacles.  A grid convergence study is conducted and results are validated by comparison to numerical and experimental studies in the literature.
+<p> Ice depositions can significantly affect aerodynamic performance, thereby increasing cost of operation and degrading airplane safety. The ice-shapes encountered in practice depend on physics governing ice-accretion and can affect the flow in quite different ways. We perform large-eddy simulations of  the flow over an airfoil to understand the effects of leading-edge roughness designed to mimic these ice accretions. The roughness elements protrude outside the boundary layer, which, near the leading edge, is very thin; thus, the configuration does not represent a classical rough-wall boundary layer, but rather the flow over macroscopic obstacles.  A grid convergence study is conducted and results are validated by comparison to numerical and experimental studies in the literature. </p>
 
 
 <b><i> Figure a)</i></b>  For a smooth airfoil the boundary layer on the suction side, is initially laminar; the flow separates and reattaches, creating a thin, closed laminar separation. The flow then undergoes a transition process associated with undulations of the spanwise vortices formed in the separated shear-layer. The flow breaks down shortly after the formation of these secondary instabilities, re-attaches and finally develops into $$\Lambda$$-shaped vortices.
