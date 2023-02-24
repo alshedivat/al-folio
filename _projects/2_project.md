@@ -6,6 +6,12 @@ description: The focus of the study was to explore the effects of these imperfec
 importance: 1
 category: work
 ---
+<style>
+  .bottom-three {
+     margin-bottom: 3cm;
+  }
+</style>
+
 <h3> Supervisor: Prof. <a href="https://me.queensu.ca/People/Piomelli/"> Ugo Piomelli</a> <sup> 1 </sup> </h3>
 
 <h3> Collaborators: Dr. <a href="https://www.bsc.es/lehmkuhl-oriol"> Oriol Lehmkuhl </a> <sup> 2 </sup> and
