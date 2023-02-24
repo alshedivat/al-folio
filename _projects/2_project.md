@@ -6,15 +6,15 @@ description: The focus of the study was to explore the effects of these imperfec
 importance: 1
 category: work
 ---
-<h4> Collaborators: Prof. <a href="https://me.queensu.ca/People/Piomelli/"> Ugo Piomelli</a> <sup> 1 </sup>,
+<h3> Collaborators: Prof. <a href="https://me.queensu.ca/People/Piomelli/"> Ugo Piomelli</a> <sup> 1 </sup>,
 Dr. <a href="https://www.bsc.es/lehmkuhl-oriol"> Oriol Lehmkuhl </a> <sup> 2 </sup> and
-Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 2 </sup> </h4>
+Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 2 </sup> </h3>
 
 <p> <sup> 1 </sup> Queen's University, Kingston, Canada <br>
 <sup> 2 </sup> Barcelona Supercomputing Center (BSC), Spain
 </p>
 
-<h5 class="content"><span></span>Sponsors: Bombardier Aerospace and Mitacs </h5>
+<h4 class="content"><span></span>Sponsors: Bombardier Aerospace and Mitacs </h4>
 
 
 <p> Ice depositions can significantly affect aerodynamic performance, thereby increasing cost of operation and degrading airplane safety. The ice-shapes encountered in practice depend on physics governing ice-accretion and can affect the flow in quite different ways. We perform large-eddy simulations of  the flow over an airfoil to understand the effects of leading-edge roughness designed to mimic these ice accretions. The roughness elements protrude outside the boundary layer, which, near the leading edge, is very thin; thus, the configuration does not represent a classical rough-wall boundary layer, but rather the flow over macroscopic obstacles.  A grid convergence study is conducted and results are validated by comparison to numerical and experimental studies in the literature. </p>
