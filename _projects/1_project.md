@@ -6,6 +6,24 @@ description: done during my masters.
 importance: 2
 category: work
 ---
+<style>
+  .top-one {
+     margin-top: 0.5cm;
+  }
+</style>
+
+<h3> Supervisor: Prof. <a href="https://me.queensu.ca/People/Piomelli/"> Paul Durbin </a> <sup> 1 </sup> </h3>
+
+<p class="top-one"> </p>
+
+<h4 class="content"><span> Financing entity: </span> Bombardier Aerospace and Mitacs </h4>
+<h4 class="content"><span> Computational resource: </span> Southern Ontario Smart Computing Innovation Platform (SOSCIP) and Compute Canada </h4>
+
+<p class="top-one"> <sup> 1 </sup> Queen's University, Kingston, Canada <br>
+<sup> 2 </sup> Barcelona Supercomputing Center (BSC), Spain
+</p>
+
+<hr>
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
