@@ -21,7 +21,7 @@ Ice depositions can significantly affect aerodynamic performance, thereby increa
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/SLE-INS.png" title="Smooth surface" class="img-fluid rounded z-depth-1" caption="<b><i> Figure a)</i></b>"%}
+        {% include figure.html path="assets/img/SLE-INS.png" title="Smooth surface" class="img-fluid rounded z-depth-1" caption="<b><i> a) Smooth NACA4412 surface </i></b>"%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/TBL-INS.png" title="2D roughness" class="img-fluid rounded z-depth-1" %}
