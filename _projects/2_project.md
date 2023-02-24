@@ -6,7 +6,9 @@ img: assets/img/3.jpg
 importance: 1
 category: work
 ---
-<h4> Collaborators: Prof. <a href="https://www.w3schools.com"> Ugo Piomelli</a> <sup> 1 </sup>, Dr. Oriol Lehmkuhl <sup> 2 </sup> and Dr. Arnau Miro <sup> 2 </sup> </h4>
+<h4> Collaborators: Prof. <a href="https://me.queensu.ca/People/Piomelli/"> Ugo Piomelli</a> <sup> 1 </sup>,
+Dr. <a href="https://www.bsc.es/lehmkuhl-oriol"> Oriol Lehmkuhl </a> <sup> 2 </sup> and
+Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 2 </sup> </h4>
 
 <p> <sup> 1 </sup> Queen's University, Kingston, Canada <br>
 <sup> 2 </sup> Barcelona Supercomputing Center (BSC), Spain
