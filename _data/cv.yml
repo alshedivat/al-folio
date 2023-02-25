@@ -95,7 +95,7 @@
       items:
         - Max Planck Medal
 
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
     - title: Aerodynamics and flow control
@@ -106,7 +106,7 @@
       items:
         - Description 1.
         - Description 2.
-    - title: Turbulence modelling 
+    - title: Turbulence modelling
       items:
         - Description 1.
         - Description 2.
