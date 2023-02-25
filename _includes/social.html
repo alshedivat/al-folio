@@ -52,6 +52,9 @@
             {%- if site.wikidata_id -%}
             <a href="https://www.wikidata.org/wiki/{{ site.wikidata_id }}" title="Wikidata"><i class="fas fa-barcode"></i></a>
             {% endif %}
+            {%- if site.wikipedia_id -%}
+            <a href="https://wikipedia.org/wiki/User:{{ site.wikipedia_id }}" title="Wikipedia"><i class="fab fa-wikipedia-w"></i></a>
+            {% endif %}
             {%- if site.strava_userid -%}
             <a href="https://www.strava.com/athletes/{{ site.strava_userid }}" title="Strava"><i class="fab fa-strava"></i></a>
             {% endif %}
