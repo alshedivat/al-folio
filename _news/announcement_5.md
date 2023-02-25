@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-11-02 12:00:00
+date: 2023-02-06 12:00:00
 inline: true
 ---
 
-Check out our work on "<a href="https://www.tandfonline.com/doi/abs/10.1080/14685248.2021.1973015">Large-eddy simulations of the flow on an aerofoil with leading-edge imperfections</a>". We examine the effects of different roughness topologies on the boundary layer. 
+Check out our work on "<a href="https://arc.aiaa.org/doi/abs/10.2514/1.J062427">Flow Separation in Airfoils with Rough Leading Edges</a>". We discuss the effects at three angles of attack and propose a vortex-interaction based dynamics. 
