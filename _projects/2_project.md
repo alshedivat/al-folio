@@ -8,11 +8,14 @@ category: work
 ---
 
     Technologies used: 
-    - Python (Flask)
-    - JavaScript
-    - HTML
-    - CSS 
-    - Git 
+        - Python (Flask)
+        - SQLAlchemy
+        - JavaScript
+        - HTML
+        - CSS 
+        - Git 
+        - JSON Web Tokens
+        - passlib
 
 
 <div class="row">
