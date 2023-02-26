@@ -5,7 +5,7 @@ author: openGPT
 description: a talk with openGPT about career planning
 date: 2022-12-25
 tags: notes # notes\links\code\math\images
-categories: geodata datascience# topic
+categories: geodata datascience # topic
 lang: eng
 publish: yes
 ---
