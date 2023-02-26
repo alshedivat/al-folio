@@ -7,6 +7,8 @@ importance: 2
 category: work
 ---
 
+This is a RESTful API written in Python that allows users to shorten long URLs. It uses a simple interface to accept long URLs from users and generates shortened links that can be used to redirect to the original URLs.
+
     Technologies used: 
         - Python (Flask)
         - SQLAlchemy
