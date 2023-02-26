@@ -35,8 +35,12 @@ jobs:
         elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. master, source etc
           echo "SRC_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
         fi
-        echo "DEPLOY_BRANCH=gh-pages" >> $GITHUB_OUTPUT 
+        echo "DEPLOY_BRANCH=gh-pages" >> $GITHUB_OUTPUT
+    - name: Fix permission 
+        run: |
+            chmod a+x bin/*
+            git commit -m "add exceute permision to bin/deploy"   
     - name: Deploy website 
-      run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
+        run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 
                     --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
