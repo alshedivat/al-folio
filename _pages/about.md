@@ -9,8 +9,7 @@ profile:
   image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Vanishing in the (polar) limit under the Celsius measure</p>
-    <p>(sorry, hehe)</p>
+    <p>Vanishing in the polar limit under the Celsius measure (sorry, hehe)</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
