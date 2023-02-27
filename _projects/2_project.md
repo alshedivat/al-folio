@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Adjoint based turbulence study
-description: done during my masters.
+title: Inverse turbulence study of channel flow
+description: to extract modelling information.
 #img: assets/img/12.jpg
 importance: 2
 category: work
