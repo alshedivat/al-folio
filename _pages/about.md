@@ -9,7 +9,7 @@ profile:
   image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Vanishing at polar limit</p>
+    <p>Vanishing in the polar limit</p>
     <p>under the Celsius measure</p>
     <p>(sorry, hehe)</p>
 
