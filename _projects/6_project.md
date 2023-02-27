@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Study of unsteady airfoil flows
-description: a project with no image
+description: 
 img:
 importance: 4
 category: pipeline
