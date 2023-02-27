@@ -95,7 +95,7 @@ export JEKYLL_ENV=production
 # Build site
 bundle exec jekyll build 
 
-# bundle exec jekyll build --lsi runs into sqrt out of domain problem
+# build with --lsi leads to deploy error (Ruby sqrt out of domain) on Github Pages 
 
 # Delete and move files
 find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name 'CNAME' ! -name '.gitignore' -exec rm -rf {} \;

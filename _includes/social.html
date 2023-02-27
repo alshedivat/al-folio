@@ -97,6 +97,9 @@
             {%- if site.discord_id -%}
             <a href="https://discord.com/users/{{ site.discord_id }}" title="Discord"><i class="fab fa-discord"></i></a>
             {% endif %}
+            {%- if site.zhihu_id -%}
+            <a href="https://www.zhihu.com/people/{{ site.zhihu_id }}" title="Zhihu"><i class='fab fa-zhihu'></i></i></a>
+            {% endif %}
             {%- if site.rss_icon -%}
             <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
             {% endif %}
