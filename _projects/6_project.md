@@ -13,20 +13,20 @@ category: pipeline
   }
 </style>
 
-<h3> Supervisor: Dr. <a href="https://me.queensu.ca/People/Piomelli/"> Ugo Piomelli</a> <sup> 1 </sup> </h3>
+<!-- <h3> Supervisor: Dr. <a href="https://me.queensu.ca/People/Piomelli/"> Ugo Piomelli</a> <sup> 1 </sup> </h3>
 
 <h3> Collaborators: Dr. <a href="https://www.bsc.es/research-development/research-areas/engineering-simulations/alya-high-performance-computational"> Oriol Lehmkuhl </a> <sup> 2 </sup> and
-Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 3 </sup> </h3>
+Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 3 </sup> </h3> -->
 
-<p class="top-one"> </p>
+<!-- <p class="top-one"> </p> -->
 
 <h4 class="content"><span> CFD codes: </span> <a href="https://www.bsc.es/lehmkuhl-oriol"> Alya </a> and <a href="https://nek5000.mcs.anl.gov/"> Nek5000 </a> </h4>
 <h4 class="content"><span> Computational resource: </span>  Compute Canada (Niagara and Mist Clusters)</h4>
 
-<p class="top-one"> <sup> 1 </sup> Professor, Mechanical Engineering, Queen's University, Kingston, Canada <br>
+<!-- <p class="top-one"> <sup> 1 </sup> Professor, Mechanical Engineering, Queen's University, Kingston, Canada <br>
 <sup> 2 </sup> Group Leader, Large-scale turbulence simulation, Barcelona Supercomputing Center (BSC), Spain <br>
 <sup> 3 </sup> Postdoctoral researcher, Large-scale turbulence simulation, Barcelona Supercomputing Center (BSC), Spain
-</p>
+</p> -->
 
 <hr>
 
