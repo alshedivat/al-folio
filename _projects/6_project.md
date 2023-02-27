@@ -57,11 +57,10 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
     </div>
 </div>
 <div class="caption">
-    <h5 display:inline> <b> <i> left panel: </i> </b> </h5> <p> interaction of Karman vortices with evolution of boundary layer on NACA0012;
+    <h5 {display: inline;}> <b> <i> left panel: </i> </b> </h5> <p> interaction of Karman vortices with evolution of boundary layer on NACA0012;
     <i> top) </i> span-averaged streamwise velocity non-dimensionalized by incoming free-stream velocity, \(\langle u \rangle /U_o\); blue: -0.1, red: 2.0;  
     <i> bottom) </i> non-dimensionalized turbulent kinetic energy \(\langle u'_iu'_i \rangle /U_o^2\);white: 0.0, red: 0.15;
     </p>
-    <br>
     <b> <i> right panel: </i> </b> effect of constant pitching motion on flow field of NACA0012; span-averaged spanwise vorticity, \(\Omega_z c /U_o\); blue: -20.0, red: 20.0
 </div>
 
