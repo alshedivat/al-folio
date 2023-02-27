@@ -40,7 +40,7 @@ To give your project a background in the portfolio page, just add the img tag to
     </div>
 </div>
 <div class="caption">
-    <h2>This image can also have a caption. It's like magic.</h2>
+    <h3>This image can also have a caption. It's like magic.</h3>
 </div>
 
 You can also put regular text between your rows of images.
