@@ -5,7 +5,7 @@ permalink: /projects/
 description: Some of the things that I have been interested in fluids research over the past few years.
 nav: true
 nav_order: 2
-display_categories: [Work, Class, Pipeline]
+display_categories: [work, class, pipeline]
 horizontal: true
 ---
 
