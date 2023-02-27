@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a **senior undergraduate student** in the Department of <a href='https://www.dept.aueb.gr/en/dmst'>Management Science and Technology</a> of **Athens University of Economics and Business**. I am also a **research associate** at <a href='https://www.balab.aueb.gr'>BALab</a>, where I conduct research related to software engineering and programming languages, under the supervision of Prof. <a href='https://www2.dmst.aueb.gr/dds/index.el.html'>Diomidis Spinellis</a>.
+I am a **senior undergraduate student** in the <a href='https://www.dept.aueb.gr/en/dmst'>Department of Management Science and Technology</a> of **Athens University of Economics and Business**. I am also a **research associate** at <a href='https://www.balab.aueb.gr'>BALab</a>, where I conduct research related to software engineering and programming languages, under the supervision of Prof. <a href='https://www2.dmst.aueb.gr/dds/index.el.html'>Diomidis Spinellis</a>.
 
 I am also a **research affiliate** at the <a href="https://cs.brown.edu/">Computer Science Department </a> of **Brown University**, working on the <a href='https://binpa.sh'>PaSh</a> project, a shell-script parallelization project hosted by the <a href="https://www.linuxfoundation.org/press/press-release/linux-foundation-to-host-the-pash-project-accelerating-shell-scripting-with-automated-parallelization-for-industrial-use-cases">Linux Foundation</a>, under the supervision of Prof. <a href='http://nikos.vasilak.is/'>Nikos Vasilakis</a>.
 
