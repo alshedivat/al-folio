@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Adjoint based turbulence study
-description: done during my masters.
-#img: assets/img/12.jpg
-importance: 2
+title: Airfoil Leading-Edge Roughness Effects
+description: The focus of the study was to explore the effects of these imperfections (which are much larger than local boundary layer thickness) on the developing boundary layer and trailing edge separation characteristics of NACA4412. We carried out wall-resolved Large-eddy simulation (LES) at a chord-based Reynolds number of \(200,000 \) and at three angle of attack values of \(5, 10, 15^o\).
+img: assets/img/wave-mechanics.gif
+importance: 1
 category: work
 ---
 <style>
@@ -12,85 +12,54 @@ category: work
   }
 </style>
 
-<h3> Supervisor: Dr. <a href="https://www.engineering.iastate.edu/people/profile/durbin/"> Paul Durbin </a> <sup> 1 </sup> </h3>
+<h3> Supervisor: Dr. <a href="https://me.queensu.ca/People/Piomelli/"> Ugo Piomelli</a> <sup> 1 </sup> </h3>
+
+<h3> Collaborators: Dr. <a href="https://www.bsc.es/lehmkuhl-oriol"> Oriol Lehmkuhl </a> <sup> 2 </sup> and
+Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 3 </sup> </h3>
 
 <p class="top-one"> </p>
 
 <h4 class="content"><span> Financing entity: </span> Bombardier Aerospace and Mitacs </h4>
-<h4 class="content"><span> Computational resource: </span> Southern Ontario Smart Computing Innovation Platform (SOSCIP) and Compute Canada </h4>
+<h4 class="content"><span> Computational resource: </span>  SOSCIP and Compute Canada </h4>
 
-<p class="top-one"> <sup> 1 </sup> Professor, Aerospace Engineering, Iowa State University, Ames, IA, USA <br>
+<p class="top-one"> <sup> 1 </sup> Professor, Mechanical Engineering, Queen's University, Kingston, Canada <br>
+<sup> 2 </sup> Group Leader, Large-scale turbulence simulation, Barcelona Supercomputing Center (BSC), Spain <br>
+<sup> 3 </sup> Postdoctoral researcher, Large-scale turbulence simulation, Barcelona Supercomputing Center (BSC), Spain
+</p>
 
 <hr>
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<p> Ice depositions can significantly affect aerodynamic performance, thereby increasing cost of operation and degrading airplane safety. The ice-shapes encountered in practice depend on physics governing ice-accretion and can affect the flow in quite different ways. We perform large-eddy simulations of  the flow over an airfoil to understand the effects of leading-edge roughness designed to mimic these ice accretions. The roughness elements protrude outside the boundary layer, which, near the leading edge, is very thin; thus, the configuration does not represent a classical rough-wall boundary layer, but rather the flow over macroscopic obstacles.  A grid convergence study is conducted and results are validated by comparison to numerical and experimental studies in the literature. </p>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<p>
+<b><i> Figure a)</i></b>  For a smooth airfoil the boundary layer on the suction side, is initially laminar; the flow separates and reattaches, creating a thin, closed laminar separation. The flow then undergoes a transition process associated with undulations of the spanwise vortices formed in the separated shear-layer. The flow breaks down shortly after the formation of these secondary instabilities, re-attaches and finally develops into \(\Lambda\)-shaped vortices.
+</p>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<p>
+<b><i> Figure b)</i></b>  In the tripped case the flow is significantly different; spanwise vortices are formed in the shear layer emanating from the top of the first semi-cylindrical element, which are advected downstream. The flow remains coherent for the first 20-30% of the chord (region A), but then the 3D perturbations break the coherence of the spanwise vortices, and horseshoe vortices appear (region B). The flow becomes turbulent much earlier than in the smooth case due to the formation and breakdown of the rollers.&#160;
+</p>
+
+<p>
+<b><i> Figures c and d)</i></b>  In the case with 3D obstacles we observe an early formation of 3D structures, which coalesce into hairpin-like vortices downstream of the roughness, in the region marked B; For the case with 2D obstacles, quasi-2D vortex-shedding from the obstacles is visible (for example, in region A in panel (d)); the shed vortices become elongated downstream due to the shear. The turbulent structures are significantly larger than in the other cases, reflecting the greater height of the imperfections.
+</p>
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/SLE-INS.png" title="Smooth surface" class="img-fluid rounded z-depth-1" caption="<b><i> a) </i></b>  Smooth NACA4412 surface" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/TBL-INS.png" title="2D roughness" class="img-fluid rounded z-depth-1" caption="<b><i> b) </i></b>  NACA4412 with 2D roughness" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RLE1-INS.png" title="3D roughness" class="img-fluid rounded z-depth-1" caption="<b><i> c) </i></b>  NACA4412 with 3D roughness" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RLE2-INS.png" title="mixed 2D/3D roughness" class="img-fluid rounded z-depth-1" caption="<b><i> d) </i></b>  NACA4412 with mixed 2D/3D roughness" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+<!-- <div class="caption">
+<b><i> Figure a)</i></b>
+</div> -->
