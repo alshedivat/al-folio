@@ -2,7 +2,7 @@
 layout: page
 title: Reduced-order modeling (ROM) study
 description: to capture and analyze dynamically important features of airfoil flows
-img: assets/img/anime.gif
+img: assets/img/example_movie.avi
 importance: 3
 category: pipeline
 ---
