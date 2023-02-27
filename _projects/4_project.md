@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 4
+title: Unsteady airfoil flows
 description: another without an image
-img:
+img: assets/img/naca_fra.gif
 importance: 3
 category: pipeline
 ---
