@@ -20,7 +20,7 @@ My name is Zesheng Chen; my friends and family call me Jason. I am a PhD candida
 As a logician, I study the relationship between computation, complexity, and exorbitantly large infinities: [if an object can be easily computed/defined, must it behave nicely?](https://www.math.ucla.edu/~ynm/lectures/ws2016-lec1.pdf) Such questions have intricate connections with what's known as [large cardinals](https://en.wikipedia.org/wiki/Large_cardinal). 
 
 
-As a philosopher, I think about the way mathematicians (scientists) consider mathematical (scientific) facts as evidence for the merits of certain extra-mathematical (extra-scientific) [theses](https://en.wikipedia.org/wiki/Church-Turing_thesis). 
+As a philosopher, I analyze the ways mathematicians (scientists) consider mathematical (scientific) facts as evidence for the merits of certain extra-mathematical (extra-scientific) [theses](https://en.wikipedia.org/wiki/Church-Turing_thesis). 
 
 I approach these topics mostly from the viewpoint of set theory and recursion theory, focusing on how theories of commonplace mathematics (such as the theory of computation) can often be lifted to higher mathematics (such as the theory of projective sets) under appropriate assumptions of the aforementioned large cardinals, as well as what sorts of conclusions we ought to draw from this phenomenon.
 
