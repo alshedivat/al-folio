@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Taylor-Couette flow
-description: a project with a background image
+title: Reduced-order modelling approaches
+description: for dynamically important features of airfoil flows
 #img: assets/img/1.jpg
 importance: 3
 category: pipeline

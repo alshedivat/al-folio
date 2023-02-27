@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Unsteady airfoil flows
-description: another without an image
+title: Wall-modelel large eddy simulations
+description: to understand flow in complex situations
 #img: assets/img/naca_fra.gif
 importance: 3
 category: pipeline
