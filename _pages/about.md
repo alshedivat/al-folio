@@ -9,9 +9,11 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Business Analytics Lab</p>
-    <p>2 Troias street</p>
-    <p>Athens, Greece 113 62</p>
+    <p>Center for Information Technology (CIT)</p>
+    <p>15 Waterman St, Providence, RI 02906</p>
+    # <p>Business Analytics Lab</p>
+    # <p>2 Troias street</p>
+    # <p>Athens, Greece 113 62</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
