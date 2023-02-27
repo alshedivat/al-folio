@@ -82,12 +82,6 @@ $$
 
 where $$A_{ij}(n_i \times p_j), i,j=1,2, n_1+n_2=n, p_1+p_2=p$$.
 
-#### Geometric ASpects
-
-Distance
-
-
-
 ### Dot Product🅰️
 
 The dot product is an operation for multiplying two vectors to get a scalar value. Suppose we have two vectors $$\vec{a}=[a_1,\cdots,a_n]^T$$ and $$\vec{b}=[b_1,\cdots,b_n]^T$$, their dot product is denoted as $$\vec{a}\cdot\vec{b}$$, which has both **algebraic** and **geometric** definition. The **algebraic** formula is defined as:
