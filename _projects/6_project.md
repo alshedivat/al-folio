@@ -57,7 +57,8 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    <b> <i> left panel: </i> </b> interaction of Karman vortices with evolution of boundary layer on NACA0012.
+    <b> <i> right panel: </i> </b> effect of constant pitching motion on flow field of NACA0012.
 </div>
 
 
