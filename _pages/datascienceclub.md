@@ -12,7 +12,7 @@ nav_order: 20
 A weekly meeting for anyone who wants to learn about and apply Data Science for real-world problem settings in a casual environment!
 
 <div style="background-color:orange; color: black; padding: 1em">
-    <strong>Next meeting</strong>: Monday, 27.02.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116 (please watch for room changes). <strong>Bring your laptops!</strong>
+    <strong>Next meeting</strong>: Monday, 06.03.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116 (please watch for room changes). <strong>Bring your laptops!</strong>
     <!-- Please <a href="https://docs.google.com/spreadsheets/d/1i1aAxqRePweL5u9WSeNviFABVuuRtfjJQK6wxaefHoA/edit?usp=sharing"><b>sign up here</b></a>, so I can plan a little. -->
 </div>
 
@@ -34,7 +34,8 @@ A weekly meeting for anyone who wants to learn about and apply Data Science for 
 
 ## History
 
-- **14th meeting**: Monday, 20.02.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Finally training on the cluster, formed Team for competition.
+- **15th meeting**: Monday, 27.02.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Submitted our first submission on the RSNA Kaggle challenge!
+- **14th meeting**: Monday, 20.02.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Finally training on the cluster, formed a team for the competition.
 - **13th meeting**: Monday, 13.02.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Trying to train first model on the cluster.
 - **12th meeting**: Monday, 06.02.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Preparing first model for kubernetes.
 - **11th meeting**: Monday, 30.01.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. We are working with our new cluster access.
