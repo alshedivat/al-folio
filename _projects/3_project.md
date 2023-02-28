@@ -20,9 +20,6 @@ This is a simple API built using FastAPI to manage contacts. With this API, you 
         {% include figure.html path="assets/img/contacts/2.jpg" title="adding contact" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
-
-
 <div class="caption">
     Image showcasing a user engaging with the process of adding contacts.
 </div>
@@ -30,13 +27,13 @@ This is a simple API built using FastAPI to manage contacts. With this API, you 
 
 The Python Contacts API using FastAPI provides the following functionality:
 
-1.   Create or Update a new contact.
+- Create or Update a new contact.
 
-2.   Search a contact.
+- Search a contact.
 
-3.   Delete a contact.
+- Delete a contact.
 
-4.   List all contacts.
+- List all contacts.
 
 <a href="https://github.com/yash-s0/contacts_api">Source Code</a>
 
