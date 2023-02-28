@@ -55,15 +55,15 @@ _styles: >
 
 ## Problem formulation
 
-In recent years, Generative Adversarial Network has dominated the field of the generative model in terms of sample quality and inference rate. Yet GANs show the weakness in the data distribution coverage and the challenging problem of training. In 2015, the idea of diffusion model <d-cite key="sohl2015deep"></d-cite> came out and then in 2020, DDPM <d-cite key="ho2020denoising"></d-cite> was introduced and illustrated amazing results regarding to image fidelity and the coverage of distribution. Furthermore, in 2021, Dhariwal and Nichol <d-cite key="dhariwal2021diffusion"></d-cite> showed that Diffusion Models have the ability to overcome GANs in the sample quality and exhibit good behavior in distribution coverage, which is the critical weakness of GANs.
+In recent years, Generative Adversarial Network has dominated the field of the generative model in terms of sample quality and inference rate. Yet GANs show the weakness in the data distribution coverage and the challenging problem of training. In 2015, the idea of diffusion model <d-cite key="sohl2015deep"></d-cite> came out and then in 2020, DDPM <d-cite key="ho2020denoising"></d-cite> was introduced and illustrated amazing results regarding image fidelity and the coverage of distribution. Furthermore, in 2021, Dhariwal and Nichol <d-cite key="dhariwal2021diffusion"></d-cite> showed that Diffusion Models have the ability to overcome GANs in the sample quality and exhibit good behavior in distribution coverage, which is the critical weakness of GANs.
 
-In this blog, we will go through the idea and derivation of diffusion models (the formulas and ideas follows the DDPM <d-cite key="ho2020denoising"></d-cite>).
+In this blog, we will go through the idea and derivation of diffusion models (the formulas and ideas follow DDPM <d-cite key="ho2020denoising"></d-cite>).
 
 <div class="l-body">
     {% include figure.html path="assets/img/posts/diffusion/figure1.png" title="example image" class="img-fluid rounded z-depth-1" %}
 </div>
 
-The concept of diffusion model is diffusing the original image into white noise with a given strategy and then learning a reverse process to approximate it. Behind the scene, for both Gaussian and binomial diffusion, <d-cite key="feller1949theory"></d-cite> if the noise schedule at each step is small enough, the reverse process shares the same form as the forward one, which is a vital factor that guides the way of constructing the loss functions and the learning algorithms.
+The concept of diffusion model is diffusing the original image into a white noise by a given strategy and then learning a reverse process to approximate it. Behind the scene, for both Gaussian and binomial diffusion, <d-cite key="feller1949theory"></d-cite> shows that if the noise schedule at each step is small enough, the reverse process shares the same form as the forward one, which is a vital factor that guides the way of constructing the loss functions and the learning algorithms.
 
 In detail, forward process is formulated as follow:
 
@@ -76,7 +76,7 @@ $$
 
 where $$\beta_{t}$$ is the noise schedule which is added to image sample, $$T$$ is the number of diffusion steps. In particular, Ho <d-cite key="ho2020denoising"></d-cite> models the forward process as a Markov chain, in which the random variable $$x_{t}$$ only depends on the right previous one $$x_{t-1}$$.
 
-The reverse process is straight forward reversal version of the forward procedure:
+The reverse process is the reversal version of the forward procedure:
 
 $$
 \begin{align*}
@@ -89,7 +89,7 @@ The task is now searching for the proper form of $$p_{\theta}$$, constructing th
 
 To make the later notation more readable, some transformations are made to the formulation as follows:
 
-Set $$\alpha_{t} = 1 - \beta_{t}$$ and $$\bar{\alpha}_{t} = \prod_{s=1}^{T} \alpha_{s}$$, the distribution can be re-writed as $$ q(x_{t}\vert x_{t-1}) $$:
+Set $$\alpha_{t} = 1 - \beta_{t}$$ and $$\bar{\alpha}_{t} = \prod_{s=1}^{T} \alpha_{s}$$, $$ q(x_{t}\vert x_{t-1}) $$ can be rewritten as follow:
 
 $$
 \begin{align*}

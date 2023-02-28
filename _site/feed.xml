@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-11-29T16:07:14+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Giang Vu Long</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html">Variational Autoencoder explanation</title><link href="http://localhost:4000/blog/2022/vae/" rel="alternate" type="text/html" title="Variational Autoencoder explanation" /><published>2022-08-25T00:00:00+07:00</published><updated>2022-08-25T00:00:00+07:00</updated><id>http://localhost:4000/blog/2022/vae</id><content type="html" xml:base="http://localhost:4000/blog/2022/vae/"><![CDATA[<h2 id="likelihood-based-generative-models">Likelihood-based generative models</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-02-28T19:50:09+07:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Giang Vu Long</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">Variational Autoencoder explanation</title><link href="http://0.0.0.0:4000/blog/2022/vae/" rel="alternate" type="text/html" title="Variational Autoencoder explanation" /><published>2022-08-25T00:00:00+07:00</published><updated>2022-08-25T00:00:00+07:00</updated><id>http://0.0.0.0:4000/blog/2022/vae</id><content type="html" xml:base="http://0.0.0.0:4000/blog/2022/vae/"><![CDATA[<h2 id="likelihood-based-generative-models">Likelihood-based generative models</h2>
 
 <p>Generative Model is one of two type of deep learning models, which generates data by sampling from the distribution of training data. That process requires the model to understand or have the ability to simulate the distribution of the given data. To do that, one straight forward approach is modeling the probilistic density function of data by a neural network \(p_{\theta}(x)\). The problem, from here, is to choose a proper architecture that can not only <strong>efficiently calculate the likelihood</strong> \(p_{\theta}(x)\) for training but also <strong>easily sample</strong> from. There are multiple ways to achieve that, such as autoregressive models, using an assumption of time-series data, or flow model. In this blog, we explore another approach which does not calculate exactly the likelihood but approximates it by an inferencing technique known as variational inference.</p>
 
@@ -33,11 +33,11 @@
   <li>
     <p>Further work:</p>
   </li>
-</ol>]]></content><author><name>Giang Vu Long</name></author><category term="Generative Model" /><category term="VAE" /><summary type="html"><![CDATA[Math and ideas behind VAE.]]></summary></entry><entry><title type="html">Diffusion theory</title><link href="http://localhost:4000/blog/2022/diffusion/" rel="alternate" type="text/html" title="Diffusion theory" /><published>2022-06-24T00:00:00+07:00</published><updated>2022-06-24T00:00:00+07:00</updated><id>http://localhost:4000/blog/2022/diffusion</id><content type="html" xml:base="http://localhost:4000/blog/2022/diffusion/"><![CDATA[<h2 id="problem-formulation">Problem formulation</h2>
+</ol>]]></content><author><name>Giang Vu Long</name></author><category term="Generative Model" /><category term="VAE" /><summary type="html"><![CDATA[Math and ideas behind VAE.]]></summary></entry><entry><title type="html">Diffusion theory</title><link href="http://0.0.0.0:4000/blog/2022/diffusion/" rel="alternate" type="text/html" title="Diffusion theory" /><published>2022-06-24T00:00:00+07:00</published><updated>2022-06-24T00:00:00+07:00</updated><id>http://0.0.0.0:4000/blog/2022/diffusion</id><content type="html" xml:base="http://0.0.0.0:4000/blog/2022/diffusion/"><![CDATA[<h2 id="problem-formulation">Problem formulation</h2>
 
-<p>In recent years, Generative Adversarial Network has dominated the field of the generative model in terms of sample quality and inference rate. Yet GANs show the weakness in the data distribution coverage and the challenging problem of training. In 2015, the idea of diffusion model <d-cite key="sohl2015deep"></d-cite> came out and then in 2020, DDPM <d-cite key="ho2020denoising"></d-cite> was introduced and illustrated amazing results regarding to image fidelity and the coverage of distribution. Furthermore, in 2021, Dhariwal and Nichol <d-cite key="dhariwal2021diffusion"></d-cite> showed that Diffusion Models have the ability to overcome GANs in the sample quality and exhibit good behavior in distribution coverage, which is the critical weakness of GANs.</p>
+<p>In recent years, Generative Adversarial Network has dominated the field of the generative model in terms of sample quality and inference rate. Yet GANs show the weakness in the data distribution coverage and the challenging problem of training. In 2015, the idea of diffusion model <d-cite key="sohl2015deep"></d-cite> came out and then in 2020, DDPM <d-cite key="ho2020denoising"></d-cite> was introduced and illustrated amazing results regarding image fidelity and the coverage of distribution. Furthermore, in 2021, Dhariwal and Nichol <d-cite key="dhariwal2021diffusion"></d-cite> showed that Diffusion Models have the ability to overcome GANs in the sample quality and exhibit good behavior in distribution coverage, which is the critical weakness of GANs.</p>
 
-<p>In this blog, we will go through the idea and derivation of diffusion models (the formulas and ideas follows the DDPM <d-cite key="ho2020denoising"></d-cite>).</p>
+<p>In this blog, we will go through the idea and derivation of diffusion models (the formulas and ideas follow DDPM <d-cite key="ho2020denoising"></d-cite>).</p>
 
 <div class="l-body">
     <figure>
@@ -55,7 +55,7 @@
 
 </div>
 
-<p>The concept of diffusion model is diffusing the original image into white noise with a given strategy and then learning a reverse process to approximate it. Behind the scene, for both Gaussian and binomial diffusion, <d-cite key="feller1949theory"></d-cite> if the noise schedule at each step is small enough, the reverse process shares the same form as the forward one, which is a vital factor that guides the way of constructing the loss functions and the learning algorithms.</p>
+<p>The concept of diffusion model is diffusing the original image into a white noise by a given strategy and then learning a reverse process to approximate it. Behind the scene, for both Gaussian and binomial diffusion, <d-cite key="feller1949theory"></d-cite> shows that if the noise schedule at each step is small enough, the reverse process shares the same form as the forward one, which is a vital factor that guides the way of constructing the loss functions and the learning algorithms.</p>
 
 <p>In detail, forward process is formulated as follow:</p>
 
@@ -66,7 +66,7 @@
 
 <p>where \(\beta_{t}\) is the noise schedule which is added to image sample, \(T\) is the number of diffusion steps. In particular, Ho <d-cite key="ho2020denoising"></d-cite> models the forward process as a Markov chain, in which the random variable \(x_{t}\) only depends on the right previous one \(x_{t-1}\).</p>
 
-<p>The reverse process is straight forward reversal version of the forward procedure:</p>
+<p>The reverse process is the reversal version of the forward procedure:</p>
 
 \[\begin{align*}
   p_{\theta}(x_{0:T}) = p(x_{T}).\prod^{T}_{1} p_{\theta}(x_{t-1}|x_{t}) \\
@@ -77,7 +77,7 @@
 
 <p>To make the later notation more readable, some transformations are made to the formulation as follows:</p>
 
-<p>Set \(\alpha_{t} = 1 - \beta_{t}\) and \(\bar{\alpha}_{t} = \prod_{s=1}^{T} \alpha_{s}\), the distribution can be re-writed as \(q(x_{t}\vert x_{t-1})\):</p>
+<p>Set \(\alpha_{t} = 1 - \beta_{t}\) and \(\bar{\alpha}_{t} = \prod_{s=1}^{T} \alpha_{s}\), \(q(x_{t}\vert x_{t-1})\) can be rewritten as follow:</p>
 
 \[\begin{align*}
   q(x_{t}|x_{t-1}) = \mathcal{N}(\sqrt{\alpha_{t}}\:x_{t-1}, (1-\alpha_{t})\mathrm{I})
