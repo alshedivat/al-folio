@@ -24,6 +24,6 @@ As a philosopher, I analyze the ways mathematicians (scientists) consider mathem
 
 I approach these topics mostly from the viewpoint of set theory and recursion theory, focusing on how theories of commonplace mathematics (such as the theory of computation) can often be lifted to higher mathematics (such as the theory of projective sets) under appropriate assumptions of the aforementioned large cardinals, as well as what sorts of conclusions we ought to draw from this phenomenon.
 
-I also specialize in the history of set theory, especially [descriptive set theory](https://en.wikipedia.org/wiki/Descriptive_set_theory) from its [emergence](http://math.bu.edu/people/aki/2.pdf) to the [present](https://users.math.cas.cz/~zapletal/mmain.pdf).
+I also specialize in the history of set theory, especially [descriptive set theory](https://en.wikipedia.org/wiki/Descriptive_set_theory) from its [emergence](http://math.bu.edu/people/aki/2.pdf) to the [present](https://users.math.cas.cz/~zapletal/mmain.pdf). Curiously, this line of research has made me somewhat competent in the history of mathematics, logic, and computer science in the Soviet Union.
 
 Born and raised in [Shenzhen, China](https://en.wikipedia.org/wiki/Shenzhen), I went to University of Southern California as an undergrad, where I studied linguistics, philosophy, and [Middle Eastern languages](https://www.youtube.com/watch?v=E-swEAaXVj4). In my spare time I sometimes do a bit of expository writing for the general public. Below you can find some of my social media.
