@@ -123,6 +123,10 @@
         {%- capture link -%}https://www.wikidata.org/wiki/{{ site.wikidata_id }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
+    {%- if site.wikipedia_id -%}
+        {%- capture link -%}https://wikipedia.org/wiki/User:{{ site.wikipedia_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
     {%- if site.strava_userid -%}
         {%- capture link -%}https://www.strava.com/athletes/{{ site.strava_userid }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}

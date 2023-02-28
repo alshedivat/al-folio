@@ -86,6 +86,7 @@ blogger_url: #https://past.pages.dev # your blogger URL
 work_url: #https://alireza.pages.dev # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
+wikipedia_id: # your wikipedia id (Case sensitive)
 dblp_url: # your DBLP profile url
 stackoverflow_id: 16308776/alireza # your stackoverflow id
 kaggle_id: # your kaggle id
@@ -123,6 +124,10 @@ permalink: /blog/:year/:title/
 # Pagination
 pagination:
   enabled: true
+
+related_blog_posts:
+  enabled: true
+  max_related: 5
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
