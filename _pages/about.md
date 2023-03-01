@@ -17,6 +17,6 @@ social: true  # includes social icons at the bottom of the page
 <br />
 
 * **Profile references:** <a href="https://github.com/sumitdeole">GitHub</a>, <a href="https://scholar.google.de/citations?user=BpmeH88AAAAJ&hl=en">Google Scholar</a>
-* **Visa Status:** German Niederlassungserlaubnis (Indian national) 
+* **Visa Status:** Niederlassungserlaubnis, Indian national 
 * **Languages:** English (Bilingual), German (Intermediate), French (Intermediate)
-* **Technical Toolbox:** SQL, Python (scikit-learn, seaborn, matplotlib), Stata, R, PowerBI, Figma
+* **Technical Toolbox:** SQL, Python (transformers, scikit-learn, seaborn, matplotlib, pandas), Stata, R, PowerBI, Figma
