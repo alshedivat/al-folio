@@ -17,11 +17,11 @@ The claim is that there is a Borel map $$f:2^\omega\to 2^\omega$$ that reduces i
 
 $$x=y\Leftrightarrow (f(x)(n)=f(y)(n) \text{ for all but finitely many } n)$$
 
-It is well-known (or maybe I should say well-documented?[^1]) that the existence of such a map is equivalent to saying that there is a perfect set of inequivalent elements for the following equivalence relation denoted $E_0$: 
+It is well-known (or maybe I should say well-documented?[^1]) that the existence of such a map is equivalent to saying that there is a perfect set of inequivalent elements for the following equivalence relation denoted $$E_0$$: 
 
 $$xE_0 y \Leftrightarrow x(n)=y(n) \text{ for all but finitely many } n$$
 
-which is to say that $x$ and $y$ are eventually equal.
+which is to say that $$x$$ and $$y$$ are eventually equal.
 
 
 [^1]: See, for example, Proposition 5.1.12 in Su Gao's Invariant Descriptive Set Theory.
