@@ -7,6 +7,7 @@ nav: true
 ---
 
 ### Awards and Fellowships
+- **Feb 2023** - Selected for the Student Award in Physical Cell Biology in 2023 BPS Annual Meeting.
 - **Aug 2022** - Selected for the 2022 Shirley Chan Student Travel Award in 2022 APS March Meeting.
 - **Nov 2021** - Selected for the 2022 Biophysical Society Annual Meeting Travel Award in 2022 BPS Annual Meeting.
 
