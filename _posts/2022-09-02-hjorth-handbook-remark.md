@@ -10,7 +10,7 @@ tags: math logic lolbvious
 
 I remember being puzzled by the following passage from the chapter on Borel equivalence relations (by Greg Hjorth) in the Handbook of Set Theory.
 
-![image1](assets/img/hjorth-handbook-passage/hjorth-quote.png)
+![image1](/assets/img/hjorth-handbook-passage/hjorth-quote.png)
 
 
 The claim is that there is a Borel map $$f:2^\omega\to 2^\omega$$ that reduces identity to eventual equality. In other words, $$f$$ is such that 
