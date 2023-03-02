@@ -1,6 +1,6 @@
 ---
 layout: post
-title: canonical & correspondence analysis
+title: Canonical & Correspondence Analysis
 date: 2023-02-16 11:12:00-0400
 description: CCA
 tags: LinearAlgebra DataScience
@@ -11,7 +11,7 @@ categories:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/matrix blocks.png" title="An example of comparison between multiple regresion and pathway analysis" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/matrix_blocks.png" title="An example of comparison between multiple regresion and pathway analysis" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
