@@ -1,11 +1,11 @@
 ---
 layout: page
-permalink: /publications/
-title: Publications
-description: My research contributions
-years: [2022]
+permalink: /talks/
+title: Talks
+description: Conferences
+years: [2023, 2022]
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 <!-- _pages/publications.md -->
 
@@ -13,7 +13,7 @@ nav_order: 3
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
+  {% bibliography -f talks -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
