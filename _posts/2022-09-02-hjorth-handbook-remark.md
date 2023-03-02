@@ -3,7 +3,7 @@ layout: post
 title:  A perfect set of not-eventually-equal reals
 date: 2022-09-02 
 description: clarification on a remark by Greg Hjorth
-tag: math logic lolbvious
+tags: math logic lolbvious
 ---
 
 (This post is tagged \#lolbvious, because it's one of those things that's supposed to be obvious/clear/straightforward/true by the usual argument... etc, but just makes you go lol, yeah right)
