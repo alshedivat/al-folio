@@ -23,7 +23,7 @@ layout: default
       {%- if tags != "" %}
       &nbsp; &middot; &nbsp;
         {% for tag in page.tags -%}
-        <a href="{{ tag | prepend: '/blog/tag/' | prepend: site.baseurl}}">
+        <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}">
           <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
           {% endfor -%}
       {% endif %}
@@ -31,7 +31,7 @@ layout: default
       {%- if categories != "" %}
       &nbsp; &middot; &nbsp;
         {% for category in page.categories -%}
-        <a href="{{ category | prepend: '/blog/category/' | prepend: site.baseurl}}">
+        <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
           <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
           {% endfor -%}
       {% endif %}
@@ -43,19 +43,11 @@ layout: default
     {{ content }}
   </article>
 
-  {%- if site.disqus_shortname and page.comments -%}
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-      var disqus_shortname  = '{{ site.disqus_shortname }}';
-      var disqus_identifier = '{{ page.id }}';
-      var disqus_title      = {{ page.title | jsonify }};
-      (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  {%- if site.disqus_shortname and page.disqus_comments -%}
+    {% include disqus.html %}
   {%- endif %}
+  {%- if site.giscus.repo and page.giscus_comments -%}
+    {% include giscus.html %}
+  {%- endif -%}
 
 </div>

@@ -21,7 +21,11 @@
     {% if page.url == '/blog/index.html' %}
         {{ site.blog_nav_title }} | {{ title }}
     {%- elsif page.title != "blank" and page.url != "/" -%}
-        {{ page.title }} | {{ title }}
+        {%- if page.title == nil or page.title == "" -%}
+            {{ page.date | date: "%Y" }} | {{ title }}
+        {%- else -%}
+            {{ page.title }} | {{ title }}
+        {%- endif -%}
     {%- else -%}
         {{ title }}
     {%- endif -%}
@@ -71,6 +75,10 @@
         {%- capture link -%}https://scholar.google.com/citations?user={{ site.scholar_userid }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
+    {%- if site.semanticscholar_id -%}
+        {%- capture link -%}https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
     {%- if site.publons_id -%}
         {%- capture link -%}https://publons.com/a/{{ site.publons_id }}/{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
@@ -81,6 +89,10 @@
     {%- endif -%}
     {%- if site.github_username -%}
         {%- capture link -%}https://github.com/{{ site.github_username }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.telegram_username -%}
+        {%- capture link -%}https://telegram.me/{{ site.telegram_username }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
     {%- if site.linkedin_username -%}
@@ -131,6 +143,38 @@
         {%- capture link -%}https://stackoverflow.com/users/{{ site.stackoverflow_id }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
+    {%- if site.kaggle_id -%}
+        {%- capture link -%}https://www.kaggle.com/{{ site.kaggle_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.lastfm_id -%}
+        {%- capture link -%}https://www.last.fm/user/{{ site.lastfm_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.spotify_id -%}
+        {%- capture link -%}https://open.spotify.com/user/{{ site.spotify_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.pinterest_id -%}
+        {%- capture link -%}https://www.pinterest.com/{{ site.pinterest_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.unsplash_id -%}
+        {%- capture link -%}https://unsplash.com/@{{ site.unsplash_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.instagram_id -%}
+        {%- capture link -%}https://instagram.com/{{ site.instagram_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.facebook_id -%}
+        {%- capture link -%}https://facebook.com/{{ site.facebook_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.discord_id -%}
+        {%- capture link -%}https://discord.com/users/{{ site.discord_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
     {%- if sameaslinks != blank -%}
         {%- assign sameaslinks = sameaslinks | split: "" -%}
     {%- endif -%}
@@ -147,7 +191,7 @@
         "description": "{%- if page.description -%}{{ page.description }}{%- else if site.description -%}{{ site.description }}{%- endif -%}",
         "headline": "{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}",
         {% if sameaslinks != blank -%}
-        "sameAs": {{ sameaslinks }}, 
+        "sameAs": {{ sameaslinks }},
         {%- endif %}
         "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
         "@context": "https://schema.org"

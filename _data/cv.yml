@@ -1,10 +1,27 @@
-- title: General Information
-  type: map
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Léo Baty
+#     - name: Languages
+#       value: English, French, Italian
+
+- title: Experience
+  type: time_table
   contents:
-    - name: Full Name
-      value: Léo Baty
-    - name: Languages
-      value: English, French, Italian
+    - title: PhD
+      institution: CERMICS, École des Ponts
+      year: 2022-now
+      description: Operations Research and Machine Learning to create resilient rotations for an airline 
+    - title: Internship at SNCF
+      year: Apr-Sept 2021
+      description: Real-time railway replanning, with Operations Research and Machine Learning hybrid methods.
+    - title: Internship at Neural Concept, Lausanne
+      year: Feb-Jul 2020
+      description: Deep learning and transfer learning for CAD/CAE.
+    - title: Internship at CERMICS, École des Ponts
+      year: Jun-Dec 2019
+      description: Optimization of cabin configuration for Air France aircrafts.
 
 - title: Education
   type: time_table
@@ -17,7 +34,7 @@
         - Operations Research
     - title: Engineering degree
       institution: École des Ponts, Champs-sur-Marne
-      year: 2017-2021
+      year: 2017-2021s
       description: Maths and computer science engineering
     - title: Scientific preparatory classes (MPSI-MP)
       institution: Lycée Ste-Geneviève, Versailles
@@ -27,26 +44,22 @@
       institution: Lycée des Pontonniers, Strasbourg
       year: 2012-2015
 
-- title: Experience
+- title: Awards
   type: time_table
   contents:
-    - title: PhD
-      institution: CERMICS, École des Ponts
-      year: 2022-now
-      description: Operations Research and Machine Learning to create resilient rotations for an airline 
-    - title: Research intern
-      institution: SNCF
-      year: Apr-Sept 2021
-      description: Real-time railway replanning, with Operations Research and Machine Learning hybrid methods.
-    - title: Research intern
-      institution: Neural Concept, Lausanne
-      year: Feb-Jul 2020
-      description: deep learning and transfer learning for CAD/CAE.
-    - title: Research intern
-      institution: CERMICS, École des Ponts
-      year: Jun-Dec 2019
-      description: Optimization of cabin configuration for Air France aircrafts.
-
+    - title: Finalist of best student paper, ROADEF 2023
+      #institution: ROADEF 2023
+      year: February 2023
+      description: https://www.roadef.org/roadef-prix-etudiant-master
+    - title: EURO-NeurIPS challenge 2022
+      institution: First prize, and Young talent prize
+      year: July-December 2022
+      description: https://euro-neurips-vrp-2022.challenges.ortec.com/
+    - title: Finalist of best master's report, ROADEF 2022
+      # institution: ROADEF 2022
+      year: February 2022
+      description: https://www.roadef.org/roadef-prix-etudiant-master
+  
 # - title: Open Source Projects
 #   type: time_table
 #   contents:
