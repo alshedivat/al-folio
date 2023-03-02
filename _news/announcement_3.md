@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-11-15 07:59:00-0400
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our paper titled [Unsupervised learning of Rydberg atom array phase diagram with Siamese neural networks
+](https://iopscience.iop.org/article/10.1088/1367-2630/ac9c7a) is published by the [New Journal of Physics](https://iopscience.iop.org/journal/1367-2630).
