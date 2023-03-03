@@ -26,7 +26,7 @@ Description	Topics include Embedded Systems,
 | Week | Subject|
 |:-------|:--------|
 | 1 | Introduction to embedded systems |
-| 2  | ARM Architecture | 
+| 2 | ARM Architecture | 
 | 3 | ARM Assembly language –1 |
 | 4 | ARM Assembly language –2 | 
 | 5 | ARM C programming – 1 |
