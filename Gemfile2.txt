@@ -17,6 +17,10 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
 end
+group :production do
+gem 'libv8', '~> 3.11.8.17'
+gem 'therubyracer', :platform => :ruby
+end
 group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
