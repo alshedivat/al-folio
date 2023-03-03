@@ -18,7 +18,10 @@ projects: true # includes projects
 display_categories: [work, fun] # Projects show in about page
 ---
 
-Throughout my career, I have worked with geologists, geophysicists, geomorphologists, hydrologists, and other specialists to explore the complex connections between different disciplines in geodata science. Even though I am still none of them 🤷‍♂️. 
+Throughout my career, I have worked with geologists, geophysicists, geomorphologists, hydrologists, glaciologist and other specialists to explore the complex connections between different disciplines by geodata science; Even though I am still none of them 🤷‍♂️. 
 
-As ~~a full stack geospatial professional~~ with a diverse range of skills, I experienced a fantastic journey to [explore various disciplines](https://geo.w.uib.no/files/2020/01/Poster-The-Geological-Society-Geoscience-for-the-future-scaled.jpg), from discovering oil and gas to carbon capture and storage, from glacial mass balance to hydrological model, from examining [the origin of landforms](https://zhihaol.eu.org/blog/2022/Quaternary-geomorphology-of-Norway/) to predicting [permafrost changes at 2100](https://zhihaol.eu.org/blog/2022/permafrost-extent/). [**All things connected. And enormous treasures hidden by geodata !**](https://i.imgur.com/wldOmMO.png)
+As ~~a full stack geospatial professional~~ with a diverse range of skills, I experienced a fantastic journey to [explore various disciplines](https://geo.w.uib.no/files/2020/01/Poster-The-Geological-Society-Geoscience-for-the-future-scaled.jpg), from discovering offshore oil to carbon capture and storage, from glacial mass balance to hydrological models, from examining [the origin of landforms](https://zhihaol.eu.org/blog/2022/Quaternary-geomorphology-of-Norway/) to predicting [permafrost changes at 2100](https://zhihaol.eu.org/blog/2022/permafrost-extent/). [**All things connected ! **](https://i.imgur.com/wldOmMO.png) and enormous treasures hidden by geodata:
+
+- If we know more about the variability of snow mass, the energy system will be more robust in hydropower production areas, such as Norway, Switzerland, southwest of China, etc.
+- If we have a more precise and bias-free climate observations & models, we will cope with the uncertainties associated with climate-change-related risks and opportunities for energy, environment, and society.
 

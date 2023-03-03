@@ -79,8 +79,8 @@
   
     - title: Cryosphere x Remote Sensing
       items: 
-        - Snow and DEM
-        - Glaciers and periglacial geomorphology
+        - Snow, glaciers and periglacial geomorphology
+        - DEM, geomorphometry modelling
     - title: Geospatial data science
       items:
         - Open source geospatial tools
