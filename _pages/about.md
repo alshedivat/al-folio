@@ -17,7 +17,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi! I am a third year Ph.D. student in Agricultural and Applied Economics at the University of Wisconsin - Madison.
+Hi there! I am a third year Ph.D. student in Agricultural and Applied Economics at the University of Wisconsin - Madison.
 
 My research focus is in developement economics with particular interest in financial inclusion, agricultural finance, and cultural economics.
 
