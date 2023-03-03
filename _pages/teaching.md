@@ -8,6 +8,12 @@ display_categories: [work, fun]
 nav_order: 1
 ---
 
+## Spring Semester 2023 (Abdullah Gül University)
+
+
+EE 306: Fundamentals of Telecommunications Engineering
+
+
 ## Fall Semester 2022 (Abdullah Gül University)
 
 
