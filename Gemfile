@@ -17,6 +17,7 @@ group :jekyll_plugins do
     gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
+    gem "json", "2.0.2"
 end
 group :other_plugins do
     gem 'feedjira'
