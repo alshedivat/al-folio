@@ -23,4 +23,4 @@ My research focus is in developement economics with particular interest in finan
 
 Before starting my Ph.D., I received a dual Masters in Public Policy and Applied Economics at the University of Michigan – Ann Arbor and my B.A. in Economics from the Instituto Tecnológico Autónomo de México (ITAM) in Mexico City.
 
-Feel free to reach out at: [maganasaenz@wisc.edu](maganasaenz@wisc.edu) or follow me on twitter [@pmasae](https://twitter.com/PMASAE)
+Feel free to reach out at [maganasaenz@wisc.edu](maganasaenz@wisc.edu) or follow me on twitter [@pmasae](https://twitter.com/PMASAE).
