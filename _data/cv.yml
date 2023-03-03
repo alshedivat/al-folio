@@ -2,17 +2,17 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Pedro F. Magaña Saenz
     - name: Date of Birth
-      value: 14th March 1879
+      value: 29th June 1987
     - name: Languages
-      value: English, German
+      value: Spanish (Native),English (Fluent)
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
+      institution: University of Wisconsin -- Madison
       year: 1905
       description:
         - Description 1.
@@ -21,9 +21,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Masters Degree
+      institution: University of Michigan -- Ann Arbor
+      year: 2018
       description:
         - Description 1.
         - Description 2.
