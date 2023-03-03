@@ -55,6 +55,10 @@
 - title: Open Source Projects
   type: time_table
   contents:
+    - title: <a href="https://github.com/Yash-s0/Yash-s0.github.io">Personal Portfolio</a>
+      year: Mar 2023
+      description: A personal portfolio website, Powered by Jekyll.
+
     - title: <a href="https://github.com/Yash-s0/Binance">Binance API</a>
       year: Feb 2023
       description: Binance API to fetch 24 hour data for a specified cryptocurrency pair.
@@ -66,7 +70,7 @@
     - title: <a href="https://github.com/Yash-s0/url_shortner">URL Shortner</a>
       year: Oct 2022
       description: A API that shortens the url entered by the user.
-
+ 
     - title: <a href="https://github.com/Yash-s0/contacts_api">Contacts API</a>
       year: Oct 2022
       description: A contact book API made using python.
