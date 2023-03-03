@@ -22,7 +22,7 @@ A simple ready to play Rock, Paper, Scissor Game built with JavaScript
     </div>
 </div>
 <div class="caption">
-    A static image extracted from a game interface.
+    A static image extracted from the game interface.
 </div>
 
 Features:
@@ -41,7 +41,7 @@ Features:
     </div>
 </div>
 <div class="caption">
-    A static image extracted from a game interface.
+    A static image extracted from the game interface.
 </div>
 
 <a href="https://yash-s0.github.io/rps_web">Click Here</a> To play the game
@@ -55,6 +55,6 @@ Features:
     </div>
 </div>
 <div class="caption">
-    A static image extracted from a game interface.
+    A static image extracted from the game interface.
 </div>
 
