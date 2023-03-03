@@ -17,7 +17,11 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+Hi! I am a third year Ph.D. student in Agricultural and Applied Economics at the University of Wisconsin - Madison.
 
+My research focus is in developement economics with particular interest in financial inclusion, agricultural finance, and cultural economics.
+
+Before starting my Ph.D., I received a dual Masters in Public Policy and Applied Economics at the University of Michigan – Ann Arbor and my B.A. in Economics from the Instituto Tecnológico Autónomo de México (ITAM) in Mexico City.
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
