@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>University of Wisconsin - Madison</a>.  427 Lorch Ct, Madison, WI 53706, United States.
+subtitle: <a href='https://aae.wisc.edu/'>University of Wisconsin - Madison</a>.  427 Lorch Ct, Madison, WI 53706, United States.
 
 profile:
   align: right
