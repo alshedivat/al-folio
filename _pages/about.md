@@ -2,7 +2,6 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -27,8 +26,4 @@ I completed my postgraduate studies with a scholarship
  from the Turkish Ministry of Education. I earned my Ph.D. in 2022
  from Cranfield University, where I focused on the security
  of in-vehicle CAN communication. Before that, I completed my MSc in
-<<<<<<< HEAD
  embedded systems engineering from the University of Leeds with distinction in 2016 and my bachelor's degree in Electrical and Electronics engineering in 2013.
-=======
- embedded systems engineering from the University of Leeds with distinction in 2016 and my bachelor degree in Electrical and Electronics engineering in 2013.
->>>>>>> f34215d63d322e1592bb75618f288236add9813c
