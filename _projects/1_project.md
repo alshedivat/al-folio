@@ -2,7 +2,7 @@
 layout: page
 title: Binance
 description: Binance API to fetch 24 hour data for a specified cryptocurrency pair. 
-img: assets/img/12.jpg
+img: assets/img/binance/1.jpg
 importance: 1
 category: work
 ---
