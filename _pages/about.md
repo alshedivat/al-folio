@@ -2,7 +2,10 @@
 layout: about
 title: About
 permalink: /
+{% comment %}
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+{% endcomment %}
+
 
 profile:
   align: right
