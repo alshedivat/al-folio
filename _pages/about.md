@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>University of Wisconsin - Madison</a>.  427 Lorch Ct, Madison, WI 53706, United States. Contacts. Moto. Etc.
+subtitle: <a href='#'>University of Wisconsin - Madison</a>.  427 Lorch Ct, Madison, WI 53706, United States.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>311</p>
+    <p>Office 311</p>
     <p>427 Lorch Ct</p>
     <p>Madison, WI 53706</p>
 
