@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Take a look at this brief summary of the materials on Carbon Footprint that I teach at the University.
-nav: true
+title: titles.teaching
+description: descriptions.teaching
+nav: false
 nav_order: 5
 ---
 

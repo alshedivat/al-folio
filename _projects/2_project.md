@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Environmental consultancy
-description: Measuring environmental impacts for companies
+title: projects.titles.project2
+description: projects.descriptions.project2
 img: assets/img/3.jpg
 importance: 2
 category: work

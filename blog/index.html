@@ -25,7 +25,7 @@ pagination:
     <ul class="p-0 m-0">
       {% for tag in site.display_tags %}
         <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
+          <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl }}">{{ tag }}</a>
         </li>
         {% unless forloop.last %}
           <p>&bull;</p>
@@ -58,14 +58,14 @@ pagination:
               <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           {% else %}
-            <a class="post-title" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
+            <a class="post-title" href="{{ post.redirect | prepend: site.baseurl }}">{{ post.title }}</a>
           {% endif %}
         {% endif %}
       </h3>
       <p>{{ post.description }}</p>
       <p class="post-meta">
-        {{ read_time }} min read &nbsp; &middot; &nbsp;
-        {{ post.date | date: '%B %-d, %Y' }}
+        {% if site.lang == 'en' %}{{ read_time }} min read{% else %}Lectura de {{ read_time }} min{% endif %} &nbsp; &middot; &nbsp;
+        {% include date_format.html format="long" date_from=post %}
         {%- if post.external_source %}
         &nbsp; &middot; &nbsp; {{ post.external_source }}
         {%- endif %}

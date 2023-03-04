@@ -1,10 +1,10 @@
 ---
 layout: page
-title: CuidaPro
-description: Home care service for the elderly
+title: projects.titles.project5
+description: projects.descriptions.project5
 img: assets/img/1.png
 importance: 3
-category: moonshots
+category: personal
 ---
 
 <a href="https://cuida-pro.com/">CuidaPro</a> was born as a home care service for the elderly. Focused on rural areas and specifically in the Ebro Delta.

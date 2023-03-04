@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Claus
-description: Tourism accommodation management company
+title: projects.titles.project4
+description: projects.descriptions.project4
 img: assets/img/7.png
 importance: 3
-category: moonshots
+category: personal
 ---
 
 This project (Claus), also located in the Ebro Delta, was created with the aim of boosting the local economy, fostering sustainable tourism and conserving the biodiversity of the territory, as well as promoting and transmitting local culture.

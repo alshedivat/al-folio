@@ -20,15 +20,20 @@
     {%- endif -%}
     {% if page.url == '/blog/index.html' %}
         {{ site.blog_nav_title }} | {{ title }}
+    {% elsif page.url contains '/blog/' %}
+        {{ page.title }} | {{ title }}
+    {%- elsif page.title contains 'Announcement' -%}
+        {{ title }}
     {%- elsif page.title != "blank" and page.url != "/" -%}
         {%- if page.title == nil or page.title == "" -%}
             {{ page.date | date: "%Y" }} | {{ title }}
         {%- else -%}
-            {{ page.title }} | {{ title }}
+            {% t page.title %} | {{ title }}
         {%- endif -%}
     {%- else -%}
         {{ title }}
     {%- endif -%}
+
     </title>
     <meta name="author" content="{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}" />
     <meta name="description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />

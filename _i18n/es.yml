@@ -1,0 +1,67 @@
+titles:
+  about: bio
+  blog: blog
+  cv: cv
+  news: novedades
+  projects: proyectos
+  publications: publicaciones
+  repositories: repositorios
+  teaching: formaciones
+  submenus: submenus
+  unk: página no encontrada
+descriptions:
+  about: sobre mí
+  blog: blogging
+  publications: revisa aquí mis diferentes artículos en revistas científicas!
+  projects: descubre los apasionantes proyectos en los que estoy trabajando en estos momentos
+  repositories: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+  teaching: echa un vistazo a este breve resumen de los materiales sobre la Huella de Carbono que enseño en la Universidad.
+  unk: parece que ha habido un error. Aquí no hay nada.
+projects:
+  titles:
+    project1: producción de biodiesel
+    project2: servicio de consultoría
+    project3: proyecto 3
+    project4: claus
+    project5: cuidapro
+    project6: proyecto 6
+  descriptions:
+    project1: economía circular del biodiesel y valorización del glicerol residuo en solketal y CaDG
+    project2: mediciones del impacto medioambiental de organizaciones o productos
+    project3: a project that redirects to another website
+    project4: empresa de gestión de alojamientos turísticos en zonas rurales y afectadas por la despoblación - impulso de la cultura popular, la economía local y la conservación de la biodiversidad del territorio
+    project5: servicio de atención a domicilio para personas mayores
+    project6: a project with no image
+  categories:
+    personal: personal
+    work: trabajo
+months:
+  long:
+    january: Enero
+    february: Febrero
+    march: Marzo
+    april: Abril
+    may: Mayo
+    june: Junio
+    july: Julio
+    august: Agosto
+    september: Septiembre
+    october: Octubre
+    november: Noviembre
+    december: Diciembre
+  short:
+    january: Ene
+    february: Feb
+    march: Mar
+    april: Abr
+    may: May
+    june: Jun
+    july: Jul
+    august: Ago
+    september: Sep
+    october: Oct
+    november: Nov
+    december: Dic
+pagination:
+  newer: Recientes
+  older: Antiguas

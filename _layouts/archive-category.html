@@ -14,9 +14,9 @@ layout: default
       <table class="table table-sm table-borderless">
         {% for post in page.posts %}
         <tr>
-          <th scope="row">{{ post.date | date: "%b %-d, %Y" }}</th>
+          <th scope="row">{% include date_format.html format="short" date_from=post %}</th>
           <td>
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </td>
         </tr>
       {% endfor %}

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: titles.projects
 permalink: /projects/
-description: Discover the exciting projects that I am currently involved in.
+description: descriptions.projects
 nav: true
 nav_order: 2
-display_categories: [work, moonshots]
+display_categories: [work, personal]
 horizontal: false
 ---
 
@@ -14,7 +14,8 @@ horizontal: false
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
+  {% capture localized_category %}projects.categories.{{category}}{% endcapture %}
+  <h2 class="category">{% t localized_category %}</h2>
   {%- assign categorized_projects = site.projects | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->

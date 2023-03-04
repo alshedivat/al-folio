@@ -1,0 +1,96 @@
+- title: Información General
+  type: map
+  contents:
+    - name: Nombre Completo
+      value: Sergi Arfelis Espinosa
+    - name: Fecha de Nacimiento
+      value: 13th January 1995
+    - name: Idiomas
+      value: English, Spanish, French, Italian, Catalan
+
+- title: Educación
+  type: time_table
+  contents:
+    - title: Doctorado Industrial
+      institution: Universitat Politècnica de Catalunya, Barcelona, España
+      year: 2024
+      description:
+        - El principal objetivo de la tesis es identificar el impacto medioambiental de síntesis innovadoras para la producción química. La tesis se desarrollará en colaboración con la empresa suiza DEASYL, proveedora de tecnología, basándose en innovaciones, nuevos horizontes en química mineral y química orgánica. La investigación se desarrolla en las instalaciones de la Cátedra UNESCO de Ciclo de Vida y Cambio Climático en el edificio UPF-ESCI de Barcelona. La estrecha colaboración entre la Cátedra UNESCO y la empresa se estableció en 2021.
+        - DEASYL prestará su apoyo en la recopilación de los datos necesarios y proporcionará una visión general de los procesos químicos objeto de evaluación. Además, los Análisis de Ciclo de Vida de procesos químicos (de otras empresas) que se desarrollen en la Cátedra UNESCO durante el periodo de doctorado (2021-2024) podrán ser añadidos a la tesis final si se ajustan a los contenidos y complejidad requeridos en el informe.
+    - title: Máster en Industria 4.0
+      institution: Universidad Internacional de La Rioja, La Rioja, España
+      year: 2021
+      description:
+        - Formación en la gestión del proceso de transformación en las organizaciones, mediante la aplicación de Internet de las Cosas y las tecnologías exponenciales del Ecosistema 4.0 (robótica, blockchain, impresión 3D, big data, ciberseguridad).
+    - title: Máster en Ingeniería Medioambiental y Energía Sostenible
+      institution: Universtitat Rovira i Virgili, Tarragona, Spain
+      year: 2020
+      description:
+        - Formación en el ámbito de la energía, el medio ambiente y la producción sostenible con una rigurosa formación científica y técnica, que proporcione una respuesta flexible y multidisciplinar a los retos de la construcción de una sociedad sostenible a través de la concepción, diseño, evaluación, implantación y gestión de procesos respetuosos con el medio ambiente, el consumo de recursos naturales y la salud.
+    - title: Grado en Ingeniería Química
+      institution: Universtitat Rovira i Virgili, Tarragona, Spain
+      year: 2018
+      description:
+        - Formación profesional multidisciplinar y experta en el campo de la ingeniería química, con competencias en el análisis, concepción, cálculo, diseño, construcción, seguimiento, control, optimización y explotación de instalaciones, equipos y productos de la industria química.
+
+- title: Experiencia
+  type: time_table
+  contents:
+    - title: Investigador
+      institution: Cátedra UNESCO de Ciclo de Vida y Cambio Climático ESCI-UPF, Barcelona, España
+      year: 2021 - now
+      description:
+        - Desarrollo de ACV y otros estudios medioambientales en procesos químicos e industriales. Las principales tareas están vinculadas a la empresa suiza DEASYL, desarrollando y aplicando la metodología de Análisis del Ciclo de Vida (ACV) a las reacciones químicas de síntesis de las tecnologías medioambientales de DEASYL. El trabajo incluye la participación en proyectos medioambientales para otras empresas y organizaciones (por ejemplo, sector del acero, hidrógeno verde, ácido oxálico...), la participación en el debate público, la preparación de propuestas científicas, la presentación de resultados en congresos y la redacción de artículos científicos en revistas internacionales de primer nivel.
+
+    - title: Profesor en Huella de Carbono
+      institution: School of Management, Universitat Pompeu Fabra, Barcelona, España
+      year: 2022 - now
+      description:
+        - Estudio de la cantidad total de gases de efecto invernadero emitidos a la atmósfera debido a las actividades humanas y los métodos para reducir estas emisiones. Abarca las fuentes de las emisiones de carbono, los métodos de medición, los aspectos políticos y normativos, las implicaciones sociales y económicas y las estrategias para promover la sostenibilidad. El curso combina conferencias con debates y proyectos en grupo para proporcionar a los estudiantes una comprensión global del concepto de huella de carbono y de las herramientas y estrategias disponibles para reducir las emisiones y promover la sostenibilidad.
+
+    - title: Director de Estrategia Digital
+      institution: CuidaPro, Tarragona, Spain
+      year: 2022 - now
+      description:
+        - Apoyándonos en las nuevas tecnologías y buscando oportunidades de colaboración en innovación abierta con universidades, grupos de investigación, empresas del sector de atención a mayores y empresas tecnológicas.
+
+    - title: Director de Trabajos Final de Máster
+      institution: Universidad Internacional de La Rioja, La Rioja, España
+      year: 2022 - 2023
+      description:
+        - Supervisar, asesorar y evaluar a los alumnos del máster de Industria 4.0 durante el desarrollo de su tesis.
+
+    - title: Ingeniero de Planta
+      institution: Dow Chemical, Tarragona, España
+      year: 2018 - 2021
+      description:
+        - Trabajando en asignación al equipo de Dow Chemical Tarragona TurnAround (TA2021). 1) Coordinando el proyecto de recuperación de catalizadores de la planta de octeno y la instalación de un sistema temporal de gestión de residuos que se encarga del efluente de agua con hidrocarburos del proceso. Tratamiento de aguas y valorización de residuos. 2) Logrando ahorros económicos significativos y una clara priorización de las tareas mediante el estudio de retorno de la inversión (ROI) y la evaluación Add-on / Rest-on para todas las órdenes de trabajo de la TA2021. Fiabilidad, evaluación medioambiental y económica.
+
+    - title: Ingeniero Químico (Prácticas)
+      institution: Clariant, Tarragona, España
+      year: 2018 - 2018
+      description:
+        - Aportar un importante ahorro energético mediante las propuestas de modificación de las tuberías de la planta de generación de vapor.
+
+    - title: Ingeniero de Mantenimiento (Prácticas)
+      institution: TDE-AIE, Tarragona, España
+      year: 2017 - 2017
+      description:
+        - Lograr altos estándares de trazabilidad sobre los hechos históricos ocurridos en la planta. Procurar el correcto estado de la planta supervisando las inspecciones visuales y las corrientes de Foucault.
+
+- title: Otros Proyectos
+  type: time_table
+  contents:
+    - title: <a href="https://cuida-pro.com/">CuidaPro</a>
+      year: 2020-now
+      description: CuidaPro es una agencia de asistencia a domicilio para personas mayores y dependientes especializada en zonas rurales y despobladas. La empresa pone en contacto a las familias con cuidadores profesionales y se encarga de todos los trámites administrativos y del seguimiento del servicio para garantizar la profesionalidad y la excelente calidad en el cuidado de las personas mayores.
+    - title: Claus
+      year: 2023-now
+      description: Claus gestiona alojamientos turísticos en el Delta del Ebro. Ofrece un servicio completo y profesional que incluye, los trámites administrativos para adquirir la licencia de alojamiento turístico, la entrega y recogida de llaves a los huéspedes, la logística de limpieza entre servicios, el análisis y propuestas para mejorar la rentabilidad del alojamiento, y otros. La empresa pretende activar la economía y el sector turístico, promover la sostenibilidad y la biodiversidad del territorio, y trabajar en la conservación de la cultura local.
+
+- title: Premios
+  type: time_table
+  contents:
+    - year: 2016
+      items:
+        - X-Culture International Bussiness Competition

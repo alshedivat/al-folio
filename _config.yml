@@ -112,9 +112,11 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: green chem & lca # blog_name will be displayed in your blog page
+blog_name: OPEn # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: Join me on my journey in exploring the endless possibilities of fusing chemistry and engineering to forge a brighter future.
+blog_description: CIRCULAR Projects for the Environment /
+<br> 
+Proyectos circulares para el medio ambiente
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -144,9 +146,9 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+# external_sources:
+#  - name: medium.com
+#    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -208,6 +210,7 @@ plugins:
   - jekyll-link-attributes
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-multiple-languages-plugin
 
 # Sitemap settings
 defaults:
@@ -215,6 +218,10 @@ defaults:
       path: "assets/**/*.*"
     values:
       sitemap: false
+
+# multi language settings
+languages: ["en", "es"]
+default_locale_in_subfolder: false
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
@@ -240,7 +247,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['LCA', 'Research', 'Congress', 'Chemistry', 'Engineering'] # this tags will be dispalyed on the front page of your blog
+display_tags: ['LCA', 'Research', 'Sustainability', 'Chemistry', 'Engineering', 'Industry4.0', 'Entrepreneurship'] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

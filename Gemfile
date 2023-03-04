@@ -16,6 +16,7 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'jekyll-multiple-languages-plugin'
     #gem 'mini_racer' or 'therubyracer' were not working so I remplaced them by Node.js
 end
 group :other_plugins do
