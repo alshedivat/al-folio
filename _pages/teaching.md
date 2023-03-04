@@ -29,6 +29,31 @@ nav_order: 4
     
 </div>
 
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        
+<h3>Intro. to History and Philosophy of Science</h3>
+        
+        
+
+   </div>
+
+   <div class="col-sm-8 mt-3 mt-md-0">
+        Part IB History and Philosophy of Science is a year-long course that offers a wide-ranging overview of the nature of science and its place in society. The philosophical portion of the course covers issues such as how to characterize scientific method, the reliability of induction, the nature and status of objectivity in science, and the complex inter-relationships between scientific research and social values. We will also touch on philosophical issues in specific fields of science, including biology, medicine, cognitive science, and the social sciences.
+
+
+
+
+</div>
+    
+</div>
+
+<div class="caption">
+    
+</div>
+
+
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
         <h3>Other Experience</h3>
