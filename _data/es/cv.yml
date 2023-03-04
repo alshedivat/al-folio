@@ -4,9 +4,9 @@
     - name: Nombre Completo
       value: Sergi Arfelis Espinosa
     - name: Fecha de Nacimiento
-      value: 13th January 1995
+      value: 13 de enero de 1995
     - name: Idiomas
-      value: English, Spanish, French, Italian, Catalan
+      value: Inglés, castellano, francés, italiano y catalán
 
 - title: Educación
   type: time_table

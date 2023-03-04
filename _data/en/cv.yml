@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 13th January 1995
     - name: Languages
-      value: English, Spanish, French, Italian, Catalan
+      value: English, Spanish, French, Italian and Catalan
 
 - title: Education
   type: time_table
