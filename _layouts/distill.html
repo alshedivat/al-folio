@@ -22,7 +22,7 @@
     <script async type="text/json">{
       "title": "{{ page.title }}",
       "description": "{{ page.description }}",
-      "published": "{{ page.date | date: '%B %-d, %Y' }}",
+      "published": "{% include date_format.html format="long" date_from=page %}",
       "authors": [
         {% for author in page.authors -%}
         {

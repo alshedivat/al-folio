@@ -21,12 +21,15 @@
     {% if page.url == '/blog/index.html' %}
         {{ site.blog_nav_title }} | {{ title }}
     {% elsif page.url contains '/blog/' %}
-        {{ page.title }} | {{ title }}
-    {%- elsif page.title contains 'Announcement' -%}
-        {{ title }}
-    {%- elsif page.title != "blank" and page.url != "/" -%}
-        {%- if page.title == nil or page.title == "" -%}
+        {%- capture blog_year -%}{{ page.url | slice: 0, 11 }}{%- endcapture -%}
+        {%- if page.url == blog_year -%}
             {{ page.date | date: "%Y" }} | {{ title }}
+        {%- else -%}
+            {{ page.title }} | {{ title }}
+        {%- endif -%}
+    {%- elsif page.title != "blank" and page.url != "/" -%}
+        {%- if page.title contains 'Announcement' -%}
+            {{ title }}
         {%- else -%}
             {% t page.title %} | {{ title }}
         {%- endif -%}
