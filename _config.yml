@@ -95,7 +95,7 @@ facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
-contact_note: Hit me up however you prefer - email, DM, carrier pigeon - I'm all about keeping the lines of communication open and easy. / <br> Contáctame como prefieras: email, DM, paloma mensajera... soy partidario de mantener las líneas de comunicación abiertas y fáciles.
+contact_note: Hit me up however you prefer - email, DM, carrier pigeon - I'm all about keeping the lines of communication open and easy. /<br>Contáctame como prefieras - email, DM, paloma mensajera... - soy partidario de mantener las líneas de comunicación abiertas y fáciles.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -113,7 +113,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: OPEn # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: CIRCULAR Projects for the Environment / <br> Proyectos circulares para el medio ambiente
+blog_description: CIRCULAR Projects for the Environment /<br>Proyectos circulares para el medio ambiente
 permalink: /blog/:year/:title/
 
 # Pagination
