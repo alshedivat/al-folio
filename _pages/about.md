@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: CC-ME_13_small.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Room 29, Third floor</p>
@@ -27,3 +27,7 @@ Previously I completed my PhD in Statistics in the University of Padua.
 I was Research Fellow at the Competence Centre on Microeconomic Evaluation - Joint Research Centre - European Commission, Post-Doc Researcher at the Department of Economics and Management, the University of Padua, Junior Researcher at Irvapp (Research Institute for Evaluation of Public Policies), Trento, Italy; visiting scholar at the Department of Statistics, Harvard University.
 
 My research interests concern causal inference with non-randomly selected samples, evaluation of public policies, labour economics,  retirement effects, voting behaviour.
+
+<!--(This is my personal page at IDEAS)-->
+
+<!--(This is my Google Scholar)-->
