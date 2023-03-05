@@ -15,22 +15,6 @@
     url: https://yuxinwenrick.github.io/
 
 "Kirchenbauer":
-<<<<<<< HEAD
-- firstname: ["John", "J."]
-  url: https://jwkirchenbauer.notion.site/
-
-"Geiping":
-- firstname: ["Jonas", "J."]
-  url: https://jonasgeiping.github.io/
-
-"Goldblum":
-- firstname: ["Micah", "M."]
-  url: https://goldblum.github.io/
-
-"Goldstein":
-- firstname: ["Tom", "T."]
-  url: https://www.cs.umd.edu/~tomg/
-=======
   - firstname: ["John", "J."]
     url: https://jwkirchenbauer.notion.site/
 
@@ -45,4 +29,3 @@
 "Goldstein":
   - firstname: ["Tom", "T."]
     url: https://www.cs.umd.edu/~tomg/
->>>>>>> 0b5cefd (Update)
