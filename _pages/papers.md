@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /publications/
-title: Publications
-description: publications by year in reversed chronological order.
-years: [2020]
+permalink: /papers/
+title: Papers
+description: Papers by year in reversed chronological order.
+years: [2023,2022,2020]
 nav: true
 ---
 <!-- _pages/publications.md -->
