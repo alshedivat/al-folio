@@ -2,12 +2,12 @@
 layout: page
 permalink: /newsletter/
 title: newsletter
-description: My newsletter.
+description: Data and tech newsletter.
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of my photos. 
+Witam w Newsletterze Data Science i Wizualizacji Danych, Twoim jedynym źródle informacji o wszystkim co związane z danymi. Znajdziesz tu najnowsze i najbardziej istotne projekty, wpisy na blogach, nowinki techniczne i zasoby ze świata nauki o danych i wizualizacji danych. Niezależnie od tego, czy jesteś początkującym czy ekspertem, studentem czy profesjonalistą, hobbystą czy badaczem, znajdziesz tu coś, co rozbudzi Twoją ciekawość i zainspiruje kreatywność. Otrzymasz również wskazówki i sztuczki, jak poprawić swoje umiejętności w zakresie danych i uczyć się od najlepszych praktyk w branży. Subskrybuj teraz i dołącz do społeczności danych!
 
 
 <div id="custom-substack-embed"></div>
