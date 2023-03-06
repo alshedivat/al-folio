@@ -5,8 +5,10 @@
       value: Szymon Kowalewski
     - name: Data Urodzenia
       value: 31 marca 1996
-    - name: Languages
+    - name: Języki
       value: angielski, polski
+    - name: Opis
+      value: Data Scientist z wykształceniem matematycznym, zarówno teoretyk, jak i praktyk. Osoba o otwartym umyśle z głęboką pasją do odkrywania wiedzy i rozwiązywania rzeczywistych problemów za pomocą zaawansowanych narzędzi statystycznych i uczenia maszynowego. Silnie zmotywowany i chętny do ciągłego rozwoju umiejętności, w tym technicznych i społecznych, ze specjalizacją w analityce. Głęboka teoretyczna i praktyczna wiedza na temat statystycznych metod uczenia się. Specjalizuje się w tworzeniu rozwiązań złożonych, nowatorskich problemów z wieloma ograniczeniami. Podejście do problemów pod wieloma kątami. Wykorzystywany do ciągłego uczenia się nowych pakietów, umiejętności, metod, narzędzi, aby dostarczać rozwiązania najwyższej jakości.
 
 - title: Edukacja
   type: time_table
@@ -15,18 +17,14 @@
       institution: Uniwersytet Gdański
       year: 2023
       description:
-        - Description 1.
+        - Temat pracy mgr. "Przewidywanie widełek płacowych w ogłoszeniach o pracę na polskim rynku przy użyciu modeli DL oraz NLP"
         - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
     - title: Licencjat
       institution: Uniwersytet Gdański
       year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Temat pracy lic. "Analiza danych i zastosowanie modeli uczenia maszynowego na przykładach organizacji AZS i NCAA"
+        - Udział w Kole Naukowym Informatyki L!der
 
 - title: Doświadczenie zawodowe
   type: time_table
