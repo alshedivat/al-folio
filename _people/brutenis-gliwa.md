@@ -9,4 +9,6 @@ category: student
 
 <img src="{{ page.img }}" style="float: left; width: 10em; padding-right: 1em; padding-bottom: 1em"/>
 
-Brutenis works on an industry project for analyzing spinal cords using deep learning methods.
+I work on an industry project for analyzing spinal cords using deep learning methods as part of my master's thesis.
+
+In my free time I love going bouldering or playing table-top role-playing games. I'm also interested in learning new things such as a new language (e.g. Chinese) or travelling and seeing the world.
