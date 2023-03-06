@@ -18,7 +18,6 @@
       year: 2023
       description:
         - Temat pracy mgr. "Przewidywanie widełek płacowych w ogłoszeniach o pracę na polskim rynku przy użyciu modeli DL oraz NLP"
-        - Description 2.
     - title: Licencjat
       institution: Uniwersytet Gdański
       year: 2021
@@ -33,18 +32,28 @@
       institution: No Fluff Jobs, Gdynia
       year: 2020 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Web Scraping i automatyzacja codziennych zadań w
+Pythonie
+        - Budowanie przepływów danych przy pomocy dbt,
+Python, Hevo, Snowflake
+        - Opomiarowanie produktu - określanie celu i zasięgu,
+analiza i interpretacja wyników oraz wdrożenie (GA, GTM,
+Google Optimize)
+
+        - Budowa Dashboardów KPI w Tableau dla działów Sales i
+Marketing
+        - Tworzenie podstawowych modeli uczenia maszynowego
+dot. wyników sprzedaży oraz klasyfikacji klientów
+        - Analiza danych sprzedażowych i produktowych
     - title: Data Scout
       institution: Statscore, Katowice
       year: 2016 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Tworzenie w czasie rzeczywistym graficznej relacji
+meczowej
+        - Budowanie baz danych statystycznych
+        - Analiza dużych zbiorów danych dot. aktualnej sytuacji na
+boisku
 
 - title: Projekty open source
   type: time_table
@@ -56,27 +65,18 @@
 - title: Kursy
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Practice ML/NLP - Dataworkshop
+        - Databricks Academy - Accenture
+        - IoT/Network Fundamentals/CCNA R&S - Cisco
+    - year: 2022
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - ML in Python with scikit-learn - fun-mooc
+        - EITC/IS - EITCA Academy
+        - SAS SCYP - SAS
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Ogrodnictwo, IoT, Optymalizacja urządzeń mobilnych
