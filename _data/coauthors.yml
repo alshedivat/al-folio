@@ -1,34 +1,43 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Bertoni":
+  - firstname: ["Marco","M."]
+    url: https://sites.google.com/site/marcobertoniunipd/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Bratti":
+  - firstname: ["Massimiliano","M."]
+    url: https://sites.google.com/site/massimilianobratti/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Brunello":
+  - firstname: ["Giorgio","G."]
+    url: https://giorgiobrunello.jimdofree.com/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Colagrossi":
+  - firstname: ["Marco","M."]
+    url: https://mcolagrossi.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Deiana":
+  - firstname: ["Claudio","C."]
+    url: https://www.claudiodeiana.net/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Geraci":
+  - firstname: ["Andrea", "A."]
+    url: https://sites.google.com/view/andreageraci/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Giua":
+  - firstname: ["Ludovica","L."]
+    url: https://sites.google.com/site/ludovicagiua/
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Granato":
+  - firstname: ["Silvia","S."]
+    url: https://sites.google.com/view/silviagranato/
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Havari":
+  - firstname: ["Enkelejda","E."]
+    url: https://sites.google.com/site/enkehavari/
+
+"Meroni":
+  - firstname: ["Elena","Elena Claudia", "E.","E.C."]
+    url: https://sites.google.com/view/elenaclaudiameroni/
+
+"Sabatini":
+  - firstname: ["Fabio","F."]
+    url: https://fabiosabatini.site.uniroma1.it/
