@@ -32,28 +32,19 @@
       institution: No Fluff Jobs, Gdynia
       year: 2020 - 2023
       description:
-        - Web Scraping i automatyzacja codziennych zadań w
-Pythonie
-        - Budowanie przepływów danych przy pomocy dbt,
-Python, Hevo, Snowflake
-        - Opomiarowanie produktu - określanie celu i zasięgu,
-analiza i interpretacja wyników oraz wdrożenie (GA, GTM,
-Google Optimize)
-
-        - Budowa Dashboardów KPI w Tableau dla działów Sales i
-Marketing
-        - Tworzenie podstawowych modeli uczenia maszynowego
-dot. wyników sprzedaży oraz klasyfikacji klientów
+        - Web Scraping i automatyzacja codziennych zadań w Pythonie
+        - Budowanie przepływów danych przy pomocy dbt, Python, Hevo, Snowflake
+        - Opomiarowanie produktu - określanie celu i zasięgu, analiza i interpretacja wyników oraz wdrożenie (GA, GTM, Google Optimize)
+        - Budowa Dashboardów KPI w Tableau dla działów Sales i Marketing
+        - Tworzenie podstawowych modeli uczenia maszynowego dot. wyników sprzedaży oraz klasyfikacji klientów
         - Analiza danych sprzedażowych i produktowych
     - title: Data Scout
       institution: Statscore, Katowice
       year: 2016 - 2022
       description:
-        - Tworzenie w czasie rzeczywistym graficznej relacji
-meczowej
+        - Tworzenie w czasie rzeczywistym graficznej relacji meczowej
         - Budowanie baz danych statystycznych
-        - Analiza dużych zbiorów danych dot. aktualnej sytuacji na
-boisku
+        - Analiza dużych zbiorów danych dot. aktualnej sytuacji na boisku
 
 - title: Projekty open source
   type: time_table
