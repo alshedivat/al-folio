@@ -32,7 +32,11 @@
       year: 2019.6 - 2019.9
       description:
         - Center for Statistical Genomics and Proteomics
-
+- title: Academic Service
+  type: time_table
+  contents:
+  items:
+    - KDD(2023), RECOMB(2021-2022), NeurIPS AI for Science Workshop(2022), MLCB(2022)
 - title: Honors and Awards
   type: time_table
   contents:
