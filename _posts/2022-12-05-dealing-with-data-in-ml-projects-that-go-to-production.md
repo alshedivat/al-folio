@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dealing with data in ML projects that go to Production"
-date: 2024-12-05 04:00:00
+date: 2022-12-05 04:00:00
 description: Analysis of problems and tools at our disposal
 tags: ['MLOps', 'Spark']
 ---
