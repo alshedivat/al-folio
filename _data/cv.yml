@@ -23,6 +23,9 @@
   type: time_table
   contents:
     - title: Research Intern 
+      institution: Genentech, Research and Early Development
+      year: 2023.6 - 2023.9
+    - title: Research Intern 
       institution: Microsoft Research Asia Lab, China
       year: 2019.10 - 2020.4
       description:
