@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: PhD student, Beijing, China
+subtitle: PhD student, from Beijing, China
 
 profile:
   align: right
