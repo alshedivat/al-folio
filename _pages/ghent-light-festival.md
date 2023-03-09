@@ -1,8 +1,12 @@
 ---
 layout: gallery
+permalink: /ghent-light-festival/
+description: My photos. A gallery of nature photos and AI, including landscapes, wildlife, and plant life.
 title: A More Complex Example
 no_menu_item: true # required only for this example website because of menu construction
 support: [jquery, gallery]
+nav: true
+nav_order: 5
 ---
 
 This example shows how to include several galleries into one page. Also notice that some captions have been set.
