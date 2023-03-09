@@ -2,8 +2,8 @@
 layout: page
 title: Supervised Clustering of Critically Ill Patients
 description: Turing project
-img: assets/img/superClust.png
 github: https://github.com/Demi-wlw/Supervised-Clustering-Patients
+img: assets/img/superClust.png
 importance: 1
 category: UoE
 ---
@@ -15,23 +15,25 @@ This means that the differences in biological features between critically ill CO
 Grouping patients with respect to the similarity of measured biomarkers is common with clustering to explore these different subphenotypes. 
 Informed by this previous work on exploring whether differences in treatment effect were detectable between COVID-19 subphenotypes based on unsupervised clustering, we further argue that meaningful clusters should be found with the guidance of the outcomes of interest. 
 Therefore, in this project, we evaluate this hypothesis by assessing a collection of existing supervised clustering approaches (all metric-based learning), on cytokines measurements from critically ill patients to group them with mortality and CP treatment as outcome variables.
+{: style="text-align: justify"}
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/supClust1.png" title="data intensive plot" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/supClust2.png" title="PCA contribution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Key results from Fish et al. (2022) using Hierarchical clustering. On the left, the data-intensive plot. Right, top ten contributing variables to principal components.
+     The data-intensive plot.
 </div>
 
 As shown in the following odds ratio figure, we aim to find clusters that are either statistically significant in favor of CP treatment or usual care.
 The advantage of using supervised clustering methods is to use the labels of outcome to guide our clustering results. Hence, it is important to determine what sort of outcome of interest is used for training. We developed a new "FavorCP" outcome which is shown to be helpful for odds ratio tests.
+{: style="text-align: justify"}
 
 <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/supClust2.png" title="PCA contribution" class="img-fluid rounded z-depth-1" %}
+    </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/supClust4.png" title="odds ratio plot" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -40,5 +42,5 @@ The advantage of using supervised clustering methods is to use the labels of out
     </div>
 </div>
 <div class="caption">
-    Left, odds ratio plot using organ support free days at 21 days (OSFD-21). Right, biomarkers radar plot.
+    Key results from Fish et al. (2022) using Hierarchical clustering. Left, top ten contributing variables to principal components. Middle, odds ratio plot using organ support free days at 21 days (OSFD-21). Right, biomarkers radar plot.
 
