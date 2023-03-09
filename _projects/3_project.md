@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: Acamedic Search Engine
+description: TTDS course group project
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
-category: work
+category: UoE
 ---
 
 Every project has a beautiful feature showcase page.
