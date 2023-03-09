@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Supervised Clustering of Critically Ill Patients
+description: Turing project
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: UoE
 ---
 
 Every project has a beautiful feature showcase page.
