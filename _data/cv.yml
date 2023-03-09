@@ -12,8 +12,8 @@
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Incoming
+      year: 2023 - Now
       description:
         - Description 1.
         - Description 2.
@@ -23,13 +23,13 @@
             - Sub-description 2.
     - title: Master of Science
       institution: The University of Edinburgh, Edinburgh, United Kingdom
-      year: 2021-2022
+      year: 2021 - 2022
       description:
         - "Major: Statistics with Data Science, Department of Mathematics"
         - "Grade: Distinction"
     - title: Bachelor of Science
       institution: Hong Kong Baptist University, Hong Kong, China
-      year: 2017-2021
+      year: 2017 - 2021
       description:
         - "Major: Mathematics and Statistics, Department of Mathematics"
         - "Minor: Computer Science, Department of Computer Science"
