@@ -16,5 +16,5 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I studied my Bachelor of Science degree in Mathematics and Statistics at Hong Kong Baptist University. After then, I obtained my Master's degree in Statistics with Data Science from the University of Edinburgh. After graduation, I worked as a research assistant in <a href='https://web.inf.ed.ac.uk/data-science-unit'>Data Science Unit</a> in the School of Informatics of the University of Edinburgh.
+I studied my Bachelor of Science degree in Mathematics and Statistics at Hong Kong Baptist University. After then, I obtained my Master's degree in Statistics with Data Science from the University of Edinburgh. After graduation, I worked as a research assistant in <a href='https://web.inf.ed.ac.uk/data-science-unit'>Data Science Unit</a> (DSU) for Science, Health, People and Environment (SHaPE) at the School of Informatics of the University of Edinburgh.
 
