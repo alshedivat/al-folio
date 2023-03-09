@@ -2,6 +2,7 @@ github_users:
   - Demi-wlw
 
 github_repos:
-  - saadsharif/ttds-group
   - Demi-wlw/ssvmKmeans
   - Demi-wlw/Supervised-Clustering-Patients
+  - demi-wlw/Clustering-Multimorbidity-Trajectories
+  - saadsharif/ttds-group
