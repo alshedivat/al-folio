@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Clustering Individual Trajectories of Long-term Conditions
+title: Clustering Individual Trajectories of Multiple Long-term Conditions
 description: Dissertation of the University of Edinburgh
 img: assets/img/3.jpg
 importance: 2
