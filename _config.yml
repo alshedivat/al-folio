@@ -234,7 +234,7 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 scholar:
 
   last_name: [Wang]
-  first_name: [Luwei]
+  first_name: [Luwei, L.]
 
   style: apa
   locale: en
