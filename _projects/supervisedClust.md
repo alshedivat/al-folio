@@ -3,78 +3,42 @@ layout: page
 title: Supervised Clustering of Critically Ill Patients
 description: Turing project
 img: assets/img/superClust.png
+github: https://github.com/Demi-wlw/Supervised-Clustering-Patients
 importance: 1
 category: UoE
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
+## Project Description
+Passive immunotherapy with convalescent plasma (CP) is a type of antiviral therapy administered in moderate-to-severely ill patients from COVID-19. However, as reported in cohort studies, the benefit of this treatment has not been observed in randomised clinical trials (RCTs) suggesting against its use outside of RCTs. It is well recognized that the immunological heterogeneity in COVID-19 patients is observable at the protein level.
+This means that the differences in biological features between critically ill COVID-19 patients are common and reflected in collected data. 
+[Fish et al. (2022)](https://link.springer.com/article/10.1007/s00134-022-06869-w) had shown that when accounted for the heterogeneity of treatment effect (HTE) there are well-defined subphenotypes in critically-ill patients where treatment effects vary considerably. \
+\
+Grouping patients with respect to the similarity of measured biomarkers is common with clustering to explore these different subphenotypes. 
+Informed by this previous work on exploring whether differences in treatment effect were detectable between COVID-19 subphenotypes based on unsupervised clustering, we further argue that meaningful clusters should be found with the guidance of the outcomes of interest. 
+Therefore, in this project, we evaluate this hypothesis by assessing a collection of existing supervised clustering approaches (all metric-based learning), on cytokines measurements from critically ill patients to group them with mortality and CP treatment as outcome variables.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/supClust1.png" title="data intensive plot" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/supClust2.png" title="PCA contribution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Key results from Fish et al. (2022) using Hierarchical clustering. On the left, the data-intensive plot. Right, top ten contributing variables to principal components.
 </div>
 
+As shown in the following odds ratio figure, we aim to find clusters that are either statistically significant in favor of CP treatment or usual care.
+The advantage of using supervised clustering methods is to use the labels of outcome to guide our clustering results. Hence, it is important to determine what sort of outcome of interest is used for training. We developed a new "FavorCP" outcome which is shown to be helpful for odds ratio tests.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/supClust4.png" title="odds ratio plot" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/supClust3.png" title="biomarkers radar plot" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-```
-{% endraw %}
+<div class="caption">
+    Left, odds ratio plot using organ support free days at 21 days (OSFD-21). Right, biomarkers radar plot.
+
