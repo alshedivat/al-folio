@@ -177,6 +177,9 @@
         role="button">Poster</a>
       {%- endif %}
       {%- endif %}
+      {%- if entry.talk %}
+      <a href="{{ entry.talk }}" class="btn btn-sm z-depth-0" role="button">Talk</a>
+      {%- endif %}
       {%- if entry.slides %}
       {% if entry.slides contains '://' -%}
       <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
