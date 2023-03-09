@@ -25,14 +25,14 @@
       institution: University of Edinburgh, Edinburgh, United Kingdom
       year: 2021-2022
       description:
-        - Program: Statistics with Data Science, Department of Mathematics
-        - Grade: Distinction
+        - "Program: Statistics with Data Science, Department of Mathematics"
+        - "Grade: Distinction"
     - title: Bachelor of Science
       institution: Hong Kong Baptist University, Hong Kong, China
       year: 2017-2021
       description:
-        - Program: Mathematics and Statistics, Department of Mathematics
-        - Grade: First class
+        - "Program: Mathematics and Statistics, Department of Mathematics"
+        - "Grade: First class"
 
 - title: Experience
   type: time_table
@@ -41,7 +41,7 @@
       institution: Data Science Unit, School of Informatics, University of Edinburgh
       year: 10.2022 - 03.2023
       description:
-        - Undertook the Turing project: supervised clustering of critically ill patients.
+        - "Undertook the Turing project: Supervised clustering of critically ill patients."
 
 
 - title: Honors and Awards
@@ -56,14 +56,14 @@
     - year: 2019
       items: 
         - Vincent Woo Scholarship Scheme for Outstanding Mainland Students
-        - Stonehage Fleming/Marais Prizes, Simon Marais Mathematics Competition Ltd
+        - Stonehage Fleming/Marais Prizes, Simon Marais Mathematics Competition
 
 - title: Academic Interests
   type: list
   contents:
-    - Machine learning, statistical modelling, Bayesian learning, neural networks 
+    - Machine learning, Statistical modelling, Bayesian learning, Neural networks 
 
-- title: Other skills
+- title: Programming languages
   type: list
   contents:
     - <u>Python</u>, <u>R</u>, <u>SQL</u>, <u>MATLAB</u>, <u>JAVA</u>, <u>Latex</u>
