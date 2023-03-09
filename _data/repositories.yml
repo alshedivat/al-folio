@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Demi-wlw
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - saadsharif/ttds-group
+  - Demi-wlw/ssvmKmeans
+  - Demi-wlw/Supervised-Clustering-Patients
