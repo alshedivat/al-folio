@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: Clustering Individual Trajectories of Long-term Conditions
+description: Dissertation of the University of Edinburgh
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: UoE
 ---
 
 Every project has a beautiful feature showcase page.
