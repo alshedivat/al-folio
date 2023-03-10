@@ -1,11 +1,12 @@
 titles:
   about: 關於
-  news: 新聞
+  news: 消息
   selected_publications: 特色發表
   blog: 網誌
+  members: 成員
   projects: 專案
   publications: 發表
-  repositories: 儲存庫
+  code: 程式
   unk: 找不到頁面
 news:
   titles:

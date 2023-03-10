@@ -3,9 +3,10 @@ titles:
   news: news
   selected_publications: selected publications
   blog: blog
+  members: members
   projects: projects
   publications: publications
-  repositories: repositories
+  code: code
   unk: page not found
 news:
   titles:
