@@ -17,4 +17,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there! I am a fourth year Neuroscience PhD candidate at Yale University. As a PhD student in [Dr. Alex Kwan's](http://alexkwanlab.org), my research interests encompass neuropsychiatric disorders and molecular psychiatry.
+Hi there! I am a fourth year Neuroscience PhD candidate at Yale University. As a PhD student in [Dr. Alex Kwan's lab](http://alexkwanlab.org), my research interests encompass neuropsychiatric disorders and molecular psychiatry.
