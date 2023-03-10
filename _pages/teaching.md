@@ -15,18 +15,21 @@ I created easy-to-understand animated explainer videos, the most notable of whic
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
     <a href="https://medicine.yale.edu/media-player/covid-19-an-illustrated-scientific-summary-1/">
-        {% include figure.html path="assets/img/covidOG.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/covidOG.jpg" title="Covid 19: Illustrated Scientific Summary" class="img-fluid rounded z-depth-1" %}
       </a>
     </div>
+
     <div class="col-sm mt-3 mt-md-0">
     <a href="https://medicine.yale.edu/media-player/infection-prevention-for-covid-19-an-illustrated-summary/">
-        {% include figure.html path="assets/img/Infection.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-</a>
+        {% include figure.html path="assets/img/Infection.jpg" title="Infection Prevention" class="img-fluid rounded z-depth-1" %}
+        </a>
     </div>
+
     <div class="col-sm mt-3 mt-md-0">
         <a href="https://medicine.yale.edu/news-article/whats-next-with-covid-19-new-normal-or-second-wave/">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-</a>
+        {% include figure.html path="assets/img/5.jpg" title="What's next" class="img-fluid rounded z-depth-1" %}
+        </a>
     </div>
+
 </div>
 <div class="caption">
