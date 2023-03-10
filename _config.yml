@@ -84,9 +84,9 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-#blog_name: Fish and Fascists  # your blog must have a name for it to show up in the nav bar
-#blog_description: Unpublishable thoughts collective behavior, statistics, and technology
-#permalink: /blog/:year/:title/
+blog_name: Of Fish and Fascists  # your blog must have a name for it to show up in the nav bar
+blog_description: Unpublishable thoughts collective behavior, statistics, and technology
+permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
