@@ -1,7 +1,7 @@
 ---
-layout: about
-title: about
-permalink: /
+layout: page
+title: intro
+permalink: /intro/
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
