@@ -1,24 +1,21 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+permalink: /videos/
+title: videos
+description: Science Communication
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+I believe that conveying science effectively and persuasively to the general public is just as important, if not more important, to do the research itself. Scientific efforts and progress are only useful to society if findings are accessible, understood, and acted upon accordingly. The COVID-19 pandemic has been an eye-opening testament to this -- where lack of understanding in the dynamic scientific progress perpetuated the public health crisis.  
 
-Organize your courses by years, topics, or universities, however you like!
-
-
-
+I created easy-to-understand animated explainer videos, the most notable of which are COVID-19 explainer videos commissioned by multiple departments at Yale. Some are featured below
 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
     <a href="https://medicine.yale.edu/media-player/covid-19-an-illustrated-scientific-summary-1/">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/covidOG.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
       </a>
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -27,7 +24,9 @@ Organize your courses by years, topics, or universities, however you like!
 </a>
     </div>
     <div class="col-sm mt-3 mt-md-0">
+        <a href="https://medicine.yale.edu/news-article/whats-next-with-covid-19-new-normal-or-second-wave/">
         {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+</a>
     </div>
 </div>
 <div class="caption">
