@@ -120,7 +120,7 @@ permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: false
+  enabled: true
 
 # Comments
 disqus_shortname: demiwlw # put your disqus shortname
@@ -225,7 +225,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['Machine learning', 'Math', 'Application', 'Tool'] # this tags will be dispalyed on the front page of your blog
+display_tags: ['Machine learning', 'Math', 'Application', 'Code'] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
