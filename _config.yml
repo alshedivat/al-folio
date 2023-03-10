@@ -78,7 +78,7 @@ linkedin_username: # your LinkedIn user name
 scholar_userid: Y5000VQAAAAJ # your Google Scholar ID
 orcid_id: 0000-0002-7590-3824 # your ORCID ID
 medium_username: # your Medium username
-quora_username: # your Quora username
+quora_username: # your Quora usernamet
 publons_id: # your ID on Publons
 osf_id: # your OSF ID
 research_gate_profile: # your profile on ResearchGate
@@ -88,16 +88,8 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 dblp_url: # your DBLP profile url
-stackoverflow_id: # your stackoverflow id
-kaggle_id: # your kaggle id
-lastfm_id: # your lastfm id
-spotify_id: # your spotify id
-pinterest_id: # your pinterest id
-unsplash_id: # your unsplash id
-instagram_id: # your instagram id
-facebook_id: # your facebook id
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
-discord_id: # your discord id (18-digit unique numerical identifier)
+stackoverflow_id: #your stackoverflow id
+title_image: "https://joebakcoleman.com/assets/img/FishSchool.jpg"
 
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
