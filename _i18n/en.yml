@@ -10,6 +10,30 @@ titles:
   unk: page not found
 news:
   titles:
-    news2: A long announcement with details
+    230310-1: A homepage for the lab
+    230310-2: We are hiring!
 blog:
   nav_title: blog
+members:
+  trc:
+    name: Tyng-Ruey Chuang
+    position: Principal Investigator
+    description: Tyng-Ruey Chuang is an Associate Research Fellow at the Institute of Information Science, Academia Sinica, with joint appointments at both the Research Center for Humanities and Social Sciences (Center for GIS) and the Research Center for Information Technology Innovation.
+  hms:
+    name: Ming-Syuan Ho
+    position: Project Manager
+    description: Ming-Syuan Ho is working at the Research Center for Information Technology Information. As a member of the depositar team, he serves as one of the contact points for DMP consultation. He also focuses on data policy analysis and research data management (RDM). In addition, he is involved in another privacy and security project at Academia Sinica. Prior to joining the depositar team, Ming-Syuan dedicated his time to advocate for digital rights issues at the Taiwan Association for Human Rights.
+  cjlee:
+    name: Cheng-Jen Lee
+    position: Tech Lead
+    description: Cheng-Jen works for the Institute of Information Science, Academia Sinica, Taiwan. He leads the technical development of the depositar (data.depositar.io). His recent research interests are data exchange standards, deployment automation and long-term maintenance of information systems. Utilizing the above technologies, he aims to achieve the sustainability of the depositar. He is also a senior Python language user.
+  ally:
+    name: Chia-Hsun Ally Wang
+    position: Project Manager
+    description: Chia Hsun Wang is currently working at the Institute of Information Science, Academia Sinica. Previously she was with  Open Source Software Foundry (OSSF) and Creative Commons Taiwan, two projects hosted at Academia Sinica. With an engineering background and a passion for promoting open and free culture, her focus revolves around the topics of digital preservation and research data management.
+projects:
+  titles:
+    depositar: depositar
+    rdmhub: Research Data Management Hub
+    covid-19: COVID-19 Images and Stories
+    318_movement: Sunflower Movement Archive
