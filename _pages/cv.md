@@ -20,7 +20,7 @@ cv_pdf:
         {% include figure.html path="assets/img/yalenews.jpg" title="yale" class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
-  </div>
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
