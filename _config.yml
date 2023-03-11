@@ -141,6 +141,7 @@ giscus:
   theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
   lang: en
+  crossorigin: anonymous
 
 # Disqus comments (DEPRECATED)
 disqus_shortname: demiwlw # put your disqus shortname
