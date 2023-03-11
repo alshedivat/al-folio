@@ -4,7 +4,7 @@ permalink: /videos/
 title: videos
 description: Science Communication
 nav: true
-nav_order: 5
+nav_order: 3
 ---
 
 I believe that conveying science effectively and persuasively to the general public is just as important, if not more important, to do the research itself. Scientific efforts and progress are only useful to society if findings are accessible, understood, and acted upon accordingly. The COVID-19 pandemic has been an eye-opening testament to this -- where lack of understanding in the dynamic scientific progress perpetuated the public health crisis.  
