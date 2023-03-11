@@ -5,7 +5,7 @@ permalink: /
 subtitle: PhD student, from Beijing, China
 
 profile:
-  align: bottom
+  align: right
   image: 
   image_circular: true # crops the image to make it circular
   address: >
