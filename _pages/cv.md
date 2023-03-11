@@ -8,8 +8,6 @@ cv_pdf:
 ---
 
 
-
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
     <a href="https://as.cornell.edu/news/covid-video-things-are-little-less-scary-when-you-know-more-about-them">
