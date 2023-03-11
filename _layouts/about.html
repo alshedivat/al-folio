@@ -40,16 +40,20 @@ layout: default
             {{ content }}
           </div>
 
-          {% if page.news -%}
           <!-- News -->
-          {%- include news.html %}
+          {% if page.news -%}
+            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News:bangbang:</a></h2>
+            {%- include news.html %}
           {%- endif %}
+          
+          <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <!-- Selected papers -->
+            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
-          {%- if page.social %}
+
           <!-- Social -->
+          {%- if page.social %}
           <div class="social">
             <div class="contact-icons">
             {% include social.html %}
