@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Clustering Individual Trajectories of Multiple Long-Term Conditions
-description: Master's Dissertation at the University of Edinburgh
+description: Master's dissertation at the University of Edinburgh
 img: assets/img/trajClust.png
 importance: 2
 category: UoE
