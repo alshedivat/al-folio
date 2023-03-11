@@ -9,7 +9,7 @@ nav_order: 3
 
 Conveying science effectively and persuasively to the general public is vital. We can tap into full potential of scientific progress if scientific findings are efficiently conveyed and acted upon accordingly. The COVID-19 pandemic has been an eye-opening testament to this -- where lack of understanding in the dynamic scientific progress perpetuated the public health crisis.  
 
-I created easy-to-understand animated explainer videos, the most notable of which are COVID-19 explainer videos commissioned by multiple departments at Yale. Some are featured below:
+I created easy-to-understand animated explainer videos, the most notable of which are <b>COVID-19 explainer videos</b> commissioned by multiple departments at Yale. Some are featured below:
 
 
 <div class="row">
@@ -34,14 +34,36 @@ I created easy-to-understand animated explainer videos, the most notable of whic
 
 <div class="row">
       <div class="col-sm mt-3 mt-md-0">
+      <a href="https://youtu.be/tZ12px6mmxk">
+            {% include figure.html path="assets/img/home.jpg"  title="home-based transmission" class="img-fluid rounded z-depth-1" %}
+          </a>
+        </div>
+
+  <div class="col-sm mt-3 mt-md-0">
       <a href="https://www.youtube.com/watch?v=188EY9Q4J7U">
             {% include figure.html path="assets/img/covidvaccine.jpg"  title="vaccine" class="img-fluid rounded z-depth-1" %}
           </a>
         </div>
-</div>
 <div class="col-sm mt-3 mt-md-0">
     <a href="https://www.youtube.com/watch?v=dQ3iHCQnGUY">
         {% include figure.html path="assets/img/nasalvaccine.jpg" title="nasalvaccine" class="img-fluid rounded z-depth-1" %}
       </a>
     </div>
+
+    </div>
 <div class="caption">
+
+<p></p>
+
+<div class="row">
+      <div class="col-sm mt-3 mt-md-0">
+      <a href="https://youtu.be/RZ5LH634W8s">
+            {% include figure.html path="assets/img/addiction.jpg"  title="addiction" class="img-fluid rounded z-depth-1" %}
+          </a>
+        </div>
+
+  <div class="col-sm mt-3 mt-md-0">
+      <a href="https://youtu.be/P1ZSLXyzf0M">
+            {% include figure.html path="assets/img/psychedelics.jpg"  title="psychedelics" class="img-fluid rounded z-depth-1" %}
+          </a>
+        </div>
