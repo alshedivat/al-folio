@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: research
 permalink: /research/
 description: research description
@@ -14,7 +14,7 @@ The Kwan lab relocated to from Yale Neuroscience to Cornell University’s Meini
 
 <p> • Graduate research @ [Kwan Lab](http://alexkwanlab.org) </p>
 <p> • Postgraduate research @ [Dimitrova Lab](http://dimitrovalab.yale.edu)</p>
-<p> • Undergraduate research @ [Bass lab](http://basslab.org)</p>
+<p> • Undergraduate research @ [Bass Lab](http://basslab.org) </p>
 
 
 
