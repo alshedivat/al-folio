@@ -24,4 +24,4 @@ I'm interested in understanding consciousness and the nature of thought using dy
 
 Aside from research, I love to write & play music :musical_keyboard:, hike and be active :mountain:, and cook :carrot: :fried_egg: :leafy_green:. If you're bored and looking for some music to listen to, I'm a writer and musician for my good pal [Erez Zobary](https://open.spotify.com/artist/7CIDRraBIHz8BenhnkJGnz?si=wid3gX6HTyaSejXmHSjX8Q).
 
-Check out my COSYNE 2023 Poster - "Propofol anesthesia destabilizes neural dynamics across cortex" - [here](https://github.com/adamjeisen/MIT/blob/main/Posters/Adam%20Eisen%20COSYNE%202023%20Poster%20-%20Propofol%20anesthesia%20destabilizes%20neural%20dynamics%20across%20cortex.pdf).
+Check out my COSYNE 2023 Poster - "Propofol anesthesia destabilizes neural dynamics across cortex" - [here](https://github.com/adamjeisen/MIT/blob/main/Posters/Adam%20Eisen%20COSYNE%202023%20Poster%20-%20Propofol%20anesthesia%20destabilizes%20neural%20dynamics%20across%20cortex.pdf)!
