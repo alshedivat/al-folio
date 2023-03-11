@@ -25,7 +25,7 @@ I created easy-to-understand animated explainer videos, the most notable of whic
     </div>
 <div class="col-sm mt-3 mt-md-0">
       <a href="https://medicine.yale.edu/news-article/whats-next-with-covid-19-new-normal-or-second-wave/">
-      {% include figure.html path="assets/img/newnoral.jpg"  title="Cornell" class="img-fluid rounded z-depth-1" %}
+      {% include figure.html path="assets/img/newnormal.jpg"  title="Cornell" class="img-fluid rounded z-depth-1" %}
       </a>
     </div>
 </div>
