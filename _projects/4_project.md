@@ -2,10 +2,11 @@
 layout: page
 title: project 4
 description: another without an image
-img: assets/img/1.jpg
+img: 
 github:
-importance: 1
+importance: 4
 category: UoE
+published: false
 ---
 
 Every project has a beautiful feature showcase page.
