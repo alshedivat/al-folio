@@ -2,7 +2,7 @@
 layout: page
 title: Supervised Clustering of Critically Ill Patients
 description: Turing project
-github: https://github.com/Demi-wlw/Supervised-Clustering-Patients
+#github: https://github.com/Demi-wlw/Supervised-Clustering-Patients
 img: assets/img/superClust.png
 importance: 1
 category: UoE
