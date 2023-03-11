@@ -17,4 +17,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there! I am a fourth year Neuroscience PhD candidate at Yale University. I am conducting my thesis work in [Dr. Alex Kwan's lab](http://alexkwanlab.org) (now located at Cornell University Meinig School of Biomedical Engineering) and my research interests encompass neuropsychiatric disorders and molecular psychiatry.
+Hi there! I am a fourth year Neuroscience PhD candidate at Yale University. I am conducting my thesis work in [Dr. Alex Kwan's lab](http://alexkwanlab.org) (recently relocated to Cornell University Meinig School of Biomedical Engineering) and my research interests encompass neuropsychiatric disorders and molecular psychiatry.
