@@ -4,7 +4,7 @@ title: project 4
 description: another without an image
 img: assets/img/1.jpg
 github:
-importance: 4
+importance: 1
 category: UoE
 ---
 
