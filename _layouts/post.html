@@ -42,6 +42,12 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
+  
+  {%- if site.related_blog_posts.enabled -%}
+    {%- if page.related_posts == null or page.related_posts -%}
+      {% include related_posts.html %}
+    {%- endif %}
+  {%- endif %}
 
   {%- if site.disqus_shortname and page.comments -%}
     <div id="disqus_thread" style="max-width: {{ site.max_width }}; margin: 0 auto"></div>
