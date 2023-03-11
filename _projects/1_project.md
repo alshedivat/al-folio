@@ -78,3 +78,17 @@ Here's the code for the last row of images above:
 </div>
 ```
 {% endraw %}
+
+You can display .mp4 files and embeded YouTube links as well
+
+<div class="row">
+    <div class="col-6">
+        {% include figure.html path="assets/img/RR.mp4" title="Rickroll" class="video-fluid rounded z-depth-1" controls="true" %}
+    </div>
+    <div class="col-6">
+        {% include figure.html path="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Rickroll" class="embed-responsive embed-responsive-16by9 img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+	Never click on unfamiliar links.
+</div>
