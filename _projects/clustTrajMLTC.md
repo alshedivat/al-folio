@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Clustering Individual Trajectories of Multiple Long-Term Conditions
-description: Dissertation for the University of Edinburgh
+description: Master's Dissertation at the University of Edinburgh
 redirect: https://github.com/Demi-wlw/Clustering-Multimorbidity-Trajectories
 img: assets/img/trajClust.png
 importance: 2
