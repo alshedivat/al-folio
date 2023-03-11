@@ -6,7 +6,7 @@ description: The collection of my projects.
 nav: true
 nav_order: 2
 display_categories: [UoE]
-horizontal: true
+horizontal: false
 ---
 
 <!-- pages/projects.md -->
