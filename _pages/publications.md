@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publication
 description: publications by categories in reversed chronological order.
 years: [1967, 1956, 1950, 1935, 1905]
-nav: false
+nav: true
 nav_order: 3
 ---
 <!-- _pages/publications.md -->
