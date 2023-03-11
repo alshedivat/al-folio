@@ -2,10 +2,11 @@
 layout: page
 title: Supervised Clustering of Critically Ill Patients
 description: Turing project
-#github: https://github.com/Demi-wlw/Supervised-Clustering-Patients
 img: assets/img/superClust.png
 importance: 1
 category: UoE
+#github: https://github.com/Demi-wlw/Supervised-Clustering-Patients
+giscus_comments: true
 ---
 ### Project Description
 Passive immunotherapy with convalescent plasma (CP) is a type of antiviral therapy administered in moderate-to-severely ill patients from COVID-19. However, as reported in cohort studies, the benefit of this treatment has not been observed in randomised clinical trials (RCTs) suggesting against its use outside of RCTs. It is well recognized that the immunological heterogeneity in COVID-19 patients is observable at the protein level.
