@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://medicine.yale.edu/profile/clara-liao'>Yale University</a> Neuroscience PhD Candidate. clara.liao@yale.edu
 
 profile:
   align: right
