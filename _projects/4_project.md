@@ -3,7 +3,7 @@ layout: page
 title: project 4
 description: another without an image
 img: assets/img/1.jpg
-#github: https://github.com/Demi-wlw/Supervised-Clustering-Patients
+github:
 importance: 4
 category: UoE
 ---
