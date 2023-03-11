@@ -215,7 +215,7 @@ $ docker-compose -f docker-local.yml up
 
 #### Local Setup (Standard)
 
-Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first [fork](https://guides.github.com/activities/forking/) the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first click [Use this template](https://docs.github.com/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) above the file list, create a new repository at `github.com:<your-username>/<your-repo-name>` from `github.com:alshedivat/al-folio` and do the following:
 
 ```bash
 $ git clone git@github.com:<your-username>/<your-repo-name>.git
