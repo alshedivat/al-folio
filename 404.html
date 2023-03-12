@@ -6,4 +6,12 @@ description: descriptions.unk
 redirect: true
 ---
 
-<p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="{{ site.baseurl }}/">here</a>.</p>
+<!-- We should use the message in all languages, since jekyll-multiple-languages-plugin can't handle the 404 page. -->
+<!-- https://github.com/kurtsson/jekyll-multiple-languages-plugin/issues/156#issuecomment-636135905 -->
+{% for language in site.languages %}
+  {% if language == site.languages.first %}
+<p>{{ site.translations[language].not_found.message }} <a href="{{ site.baseurl }}/">{{ site.translations[language].not_found.main_page }}</a>.</p>
+  {% else %}
+<p>{{ site.translations[language].not_found.message }} <a href="{{ site.baseurl }}/{{ language }}/">{{ site.translations[language].not_found.main_page }}</a>.</p>
+  {% endif %}
+{% endfor %}

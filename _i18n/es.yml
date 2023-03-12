@@ -1,3 +1,10 @@
+not_found:
+  message: Usted será redireccionado a la página principal en 3 segundos. Si no es redireccionado, por favor regrese a la
+  main_page: página principal
+main:
+  contact_note: Contáctame como prefieras - email, DM, paloma mensajera - soy partidario de mantener las líneas de comunicación abiertas y fáciles.
+blog:
+  description: Proyectos circulares para el medio ambiente
 titles:
   about: sobre mí
   blog: blog

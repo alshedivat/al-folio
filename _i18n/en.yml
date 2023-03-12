@@ -1,3 +1,10 @@
+not_found:
+  message: You will be redirected to the main page within 3 seconds. If not redirected, please go back to the
+  main_page: home page
+main:
+  contact_note: Hit me up however you prefer - email, DM, carrier pigeon - I'm all about keeping the lines of communication open and easy.
+blog:
+  description: CIRCULAR Projects for the Environment
 titles:
   about: about
   blog: blog
