@@ -1,5 +1,5 @@
 ---
-layout: gallery-default
+layout: page
 permalink: /photography/
 title: photography
 description: My photos. A gallery of nature photos and AI, including landscapes, wildlife, and plant life.
