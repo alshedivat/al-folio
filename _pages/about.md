@@ -6,7 +6,7 @@ subtitle: PhD student, from Beijing, China
 
 profile:
   align: right
-  image: 
+  image: person_pic.jpg
   image_circular: true # crops the image to make it circular
   address: >
   #<p></p>
