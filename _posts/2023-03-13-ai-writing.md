@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  Trendy AI 2023
+title:  Wykorzystywanie AI w pisaniu artykułów
 date:   2023-03-13 00:00:00-0400
-description: artykul o trendach AI
+description: Artykuł przedstawia zalety i wady wykorzystywania sztucznej inteligencji (AI) w pisaniu artykułów. Analiza różnych narzędzi i generowania tekstu.
 tags: sztuczna-inteligencja, generowanie-tekstu, technologie-językowe, przyszłość mediów, etyka-regulacje
-categories: artykul
+categories: article
 giscus_comments: true
 ---
 
