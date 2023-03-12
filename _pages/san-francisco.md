@@ -1,6 +1,9 @@
 ---
 layout: gallery
-title: A Very Basic Example
+permalink: /photography/ghent-light-festival/
+description: My photos. A gallery of nature photos and AI, including landscapes, wildlife, and plant life.
+title: A More Complex Example
+nav: false
 no_menu_item: true # required only for this example website because of menu construction
 support: [jquery, gallery]
 ---
