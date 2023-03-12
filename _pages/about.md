@@ -19,4 +19,4 @@ social: true  # includes social icons at the bottom of the page
 I studied my Bachelor of Science degree in Mathematics and Statistics at Hong Kong Baptist University. After then obtained my Master's degree in Statistics with Data Science from the University of Edinburgh. After graduation, I worked as a research assistant in the <a href='https://web.inf.ed.ac.uk/data-science-unit'>Data Science Unit</a> (DSU) for Science, Health, People and Environment (SHaPE) at the School of Informatics in the University of Edinburgh.
 
 From a strong background in Mathematics and feel excited about learning and understanding new things mathematically. I believe logic is essential for everything to be clear and tractable, which also makes programming a lot easier for me. Interested in all things of machine learning, statistics and artificial intelligence, covering a wide range of structured, semi-structured and unstructured data. I don't just focus on theory but feel a responsibility to promote their use in cutting-edge researches and applications. There is no end in learning but I'll keep going. 
-{: style="text-align: justify" }
+{: .text-justify}
