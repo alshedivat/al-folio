@@ -115,7 +115,7 @@ bing_site_verification:  # your bing-site-verification ID (Bing Webmaster)
 
 blog_name: Summary # blog_name will be displayed in your blog page
 blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: my blogs for academics, informal notes and essays
+blog_description: my blogs and notes for academics, informal essays
 permalink: /blog/:year/:title/
 
 # Pagination
