@@ -24,7 +24,7 @@ Therefore, in this project, we evaluate this hypothesis by assessing a collectio
     </div>
 </div>
 <div class="caption">
-     The data-intensive plot.
+     The data-intensive plot (Fish et al., 2022).
 </div>
 
 As shown in the following odds ratio figure, we aim to find clusters that are either statistically significant in favor of CP treatment or usual care.
