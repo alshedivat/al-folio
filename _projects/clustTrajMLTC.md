@@ -15,6 +15,7 @@ In an ageing society nowadays, its significance has gradually manifested itself 
 People tend to pursue a better quality of life and have a longer life expectancy, whereas, it has been shown multimorbidity is greatly associated with decreased quality of life and increased mortality. 
 Moreover, it places a huge economic and logistic burden on health services because healthcare systems typically are designed for single disease. However, standardised care for each chronic condition can be inapplicable for multimorbidity and the costs of management can also be approximately doubled for an additional chronic disease. 
 As a result, it is advocated that implementing targeted approaches to prevent or delay multimorbidity and its resulting adverse outcomes is crucial for future healthcare planning. To achieve this, the first step to is understand how multimorbidity develops over time and their associations with patients. 
+{: .text-justify}
 
 Many works have been done in the cross-sectional analysis of multimorbidity but less attention is paid to the longitudinal analysis of patients' disease trajectories, which should take the temporal influences of conditions development into account. 
 Furthermore, in the methods of longitudinal analysis of disease trajectories, there is also an evident lack of studies focusing on the order and sequencing of diseases [(Cezard et al., 2021)](https://bmjopen.bmj.com/content/11/11/e048485). 
