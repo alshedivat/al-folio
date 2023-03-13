@@ -5,7 +5,7 @@ description: a project with a background image
 img: assets/img/1.jpg
 importance: 5
 category: UoE
-github: https://github.com/Demi-wlw/Supervised-Clustering-Patients
+github:
 published: false
 ---
 
