@@ -17,8 +17,8 @@ Many works have been done in the cross-sectional analysis of multimorbidity but 
 As shown in the following figure, patients with different sociodemographics and lifestyles, etc. can have various observed clinical traits such as biomarkers and diagnosis of conditions. If we see it temporally, this can be regarded as trajectories. By analysing the variations in the clinical traits of individuals, we can figure out some common representations, which are also called phenotypes among individuals. The phenotypes can be either clearly defined or latent in the medical field but they all play an important role in summarising the patient characteristics and determining how they will progress or react to the interventions. Different phenotypes may lead to different patient outcomes such as mortality. Figuring out latent phenotypes of disease trajectories can vastly help all the existing analyses more related to the outcomes of interest if we succeed since we help split the whole population into several subgroups with similar characteristics. Further analysis of association with no matter risk factors or health outcomes can be done based on these subgroups. More generally, if we successfully identify some typical disease trajectories that are greatly related to the outcome of interest and then what drives specific trajectories to these patterns, we can take early intervention to help prevent patients from getting adverse outcomes by changing their trajectory groups. Moreover, it can also help clinicians to diagnosis appropriately. All in all, it has the potential to provide personalised medical treatment and to understand the potential cause-and-effect association between diseases.
 
 {:.text-justify}
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/MLTC_causal_infer.png" title="MLTC causal relationships" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
