@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Reduced-Order Modeling (ROM) study
+title: Reduced-Order Modeling study
 description: to capture and analyze dynamically important features of airfoil flows
 #img: assets/img/anime.gif
 importance: 3
@@ -50,7 +50,7 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/test_cyl.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
