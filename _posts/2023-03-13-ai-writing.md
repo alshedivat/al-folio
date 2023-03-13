@@ -71,6 +71,14 @@ Wady:
 
 <hr>
 
+## Jak sprawdzić, czy dany tekst nie został wygenerowany przez AI?
+
+Sztuczna inteligencja (AI) jest zdolna do generowania tekstów na różne tematy i w różnych stylach. Niektóre z tych tekstów są tak przekonujące, że trudno je odróżnić od tekstów napisanych przez ludzi. Jednak nie wszystkie teksty wygenerowane przez AI są wiarygodne lub prawdziwe. Mogą one zawierać błędy, niespójności, fałszywe informacje lub manipulacje. Dlatego ważne jest, aby umieć wykrywać teksty napisane przez AI i oceniać ich jakość i wiarygodność. 
+Jednym ze sposobów wykrywania tekstów napisanych przez AI jest analiza różnych cech tekstu, takich jak płynność, spójność, oryginalność czy poprawność językowa. Można do tego używać specjalnego oprogramowania, które porównuje tekst z bazą danych lub modelem językowym i ocenia jego prawdopodobieństwo lub zgodność. Na przykład, narzędzie GLTR podświetla słowa w tekście na różne kolory w zależności od tego, jak często występują one w danym kontekście. Jeśli tekst zawiera wiele rzadkich lub niepasujących słów, oznacza to, że jest on mniej naturalny i prawdopodobnie wygenerowany przez AI. Innym przykładem jest AI Classifier, który wskazuje, czy tekst został wygenerowany przez AI na podstawie tego, jak dobrze model GPT-3 przewiduje kolejne słowa w tekście. Jeśli tekst jest bardzo przewidywalny dla modelu, oznacza to, że jest on bardziej podobny do tekstu wygenerowanego przez AI
+Wykrywanie tekstów napisanych przez AI jest ważnym i trudnym zadaniem, które wymaga zarówno narzędzi komputerowych, jak i ludzkiego osądu. Nie ma jednego niezawodnego sposobu na odróżnienie tekstu wygenerowanego przez AI od tekstu napisanego przez człowieka, ponieważ AI może naśladować różne style i tematy. Niektóre teksty mogą być również zmodyfikowane lub zmieszane z tekstami ludzkimi, aby uniknąć wykrycia. Dlatego należy być krytycznym i ostrożnym podczas czytania i oceniania tekstów, zwłaszcza tych pochodzących z nieznanych lub niezaufanych źródeł. Wykrywanie tekstów napisanych przez AI ma również znaczenie społeczne i etyczne, ponieważ dotyczy kwestii prawdy, wiarygodności i odpowiedzialności w komunikacji i informacji.
+
+<hr>
+
 Podsumowując, AI w pisaniu jest potężnym i obiecującym narzędziem, które ma wiele zalet i wad.Pytanie badawcze brzmi: jak wykorzystać AI w pisaniu w sposób odpowiedzialny i etyczny? Hipoteza jest taka: że potrzebne są jasne i spójne wytyczne, standardy i regulacje dotyczące stosowania AI w pisaniu, które będą chronić prawa i interesy zarówno twórców, jak i odbiorców treści. Dalsze kierunki badań lub zastosowań AI w pisaniu mogą obejmować:
 
 <ul>
