@@ -10,11 +10,11 @@ giscus_comments: true
 
 {% include figure.html path="assets/img/kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 <div class="caption">
-    Pisanie artykułów, które są napędzane przez AI, jest coraz bardziej popularne. W 2023 roku, prawdopodobnie zaczniemy obserwować rozwój usług AI, jakie będą opłacalne, czego będziemy używać, i czego społeczeństwo będzie wymagać w przyszłości od tych narzędzi. 
+    Pisanie artykułów, które są napędzane przez AI, jest coraz bardziej popularne.  
 </div>
 
 
-# Jak wykorzystywać AI w pisaniu tekstów i artykułach?
+## Jak wykorzystywać AI w pisaniu tekstów i artykułach? 
 
 AI, czyli sztuczna inteligencja, to dziedzina nauki i technologii, która zajmuje się tworzeniem maszyn i systemów zdolnych do wykonywania zadań wymagających ludzkiego intelektu. AI ma coraz większy wpływ na różne aspekty naszego życia, w tym na sposób pisania i czytania tekstów. W tym artykule przedstawię kilka sposobów, w jaki możemy wykorzystywać AI w pisaniu tekstów i artykułach oraz jakie są tego zalety i wady.
 
@@ -28,7 +28,7 @@ Jednakże, czytanie gotowców lub innych materiałów nie jest oszukiwaniem. Czy
 
 <hr>
 
-# Rodzaje i funkcje AI w pisaniu
+## Rodzaje i funkcje AI w pisaniu
 
 AI może nam pomóc w pisaniu na wiele sposobów, w zależności od celu i rodzaju tekstu, który chcemy stworzyć. Oto niektóre z najczęstszych funkcji AI w pisaniu:
 <ul>
@@ -38,7 +38,7 @@ AI może nam pomóc w pisaniu na wiele sposobów, w zależności od celu i rodza
 </ul>
 <hr>
 
-# Przykłady konkretnych narzędzi i aplikacji AI do pisania, które są dostępne na rynku lub w fazie rozwoju
+## Przykłady konkretnych narzędzi i aplikacji AI do pisania, które są dostępne na rynku lub w fazie rozwoju
 
 Na rynku istnieje wiele narzędzi i aplikacji AI do pisania, które mają różne funkcje i cele. Oto niektóre z nich:
 <ul>
@@ -52,7 +52,7 @@ Na rynku istnieje wiele narzędzi i aplikacji AI do pisania, które mają różn
 </ul>
 <hr>
 
-# Zalety i wady
+## Zalety i wady
 
 Zalety:
 
