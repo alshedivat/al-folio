@@ -2,28 +2,32 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Harpreet
     - name: Languages
-      value: English, German
+      value: English, Punjabi, Hindi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Masters of Science in Computer Science
+      institution: Georgia Institute of Technology, Georgia, Atlanta, US
+      year: Present 
+      description:
+        - Coursework - Reinforcement Learning, Deep Learning, Machine Learning, Artificial Intelligence, Bayesian Statistics, High-Performance Computing Architecture, High-Performance Computing
+        # - Description 2.
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: Masters of Applied Science in Mechanical Engineering
+      institution: McMaster University, Hamilton, Ontario, Canada
+      year: 2016
       description:
         - Description 1.
         - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: B.Tech in Mechanical Engineering
+      institution: Indian Institute of Technology Delhi, India
+      year: 2013
       description:
         - Description 1.
         - Description 2.
