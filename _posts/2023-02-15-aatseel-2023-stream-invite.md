@@ -21,11 +21,21 @@ Stream participants might actualize this question in any of its disciplinary val
 
 This stream consists of two research panels and a roundtable on decolonial pedagogy.
 
-**Panel 1: (9 am - 10:45 am)**
+**1-2 Stream 2A. Panel "Community Agency in Language and Culture Planning" (9 am - 10:45 am)**
+Chair: [Anna Gomboeva](https://slavic.as.virginia.edu/gomboeva), University of Virginia
 
-**Panel 2: (11:15 am - 1:00 pm)**
+###### Group Panelists:
+<ul>
+  <li><a href="https://complit.sas.upenn.edu/people/hilah-kohen">Hilah Kohen</a>, University of Pennsylvania. Title: Soviet History Beyond National
+Republics: Centering Non-Titular Experience in the Juhuri (Mountain Jewish) Twentieth Century</li>
+  <li><a href="https://www.onechaeva.com/">Olga Nechaeva</a>, University of Pennsylvania. Title: The Soviet Literatures of Dagestan and the Gorky Literary Institute</li>
+</ul>
 
-**Roundtable: "Indigeneity in Post-Russia-Centric Pedagogy" (2:45 pm - 4:30 pm)**
+Discussant: [Krista Goff](https://people.miami.edu/profile/99aa93a43c9ef8738e6629ccf58ee71b), University of Miami
+
+**2-2 Stream 2B. Panel "Indigeneity in Siberia and the Written Word" (11:15 am - 1:00 pm)**
+
+**3-2 Stream 2C. Roundtable "Indigeneity in Post-Russia-Centric Pedagogy" (2:45 pm - 4:30 pm)**
 Chair: [Brian Yang](https://slavic.illinois.edu/directory/profile/briany5), University of Illinois Urbana-Champaign 
 
 Discussants:
