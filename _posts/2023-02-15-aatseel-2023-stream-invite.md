@@ -22,9 +22,10 @@ Stream participants might actualize this question in any of its disciplinary val
 This stream consists of two research panels and a roundtable on decolonial pedagogy.
 
 **1-2 Stream 2A. Panel "Community Agency in Language and Culture Planning" (9 am - 10:45 am)**
+
 Chair: [Anna Gomboeva](https://slavic.as.virginia.edu/gomboeva), University of Virginia
 
-###### Group Panelists:
+##### Group Panelists:
 <ul>
   <li><a href="https://complit.sas.upenn.edu/people/hilah-kohen">Hilah Kohen</a>, University of Pennsylvania. Title: Soviet History Beyond National
 Republics: Centering Non-Titular Experience in the Juhuri (Mountain Jewish) Twentieth Century</li>
