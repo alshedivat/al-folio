@@ -6,7 +6,7 @@ description: program of the stream
 tags: conference aatseel 
 categories: conference-posts
 ---
-Please join us at the upcoming stream **Indigenous Possibilities in Post-Russian Spaces** at the online AATSEEL conference.
+Please join us at the upcoming stream **Indigenous Possibilities in Post-Russian Spaces** at the online [AATSEEL Conference](https://www.aatseel.org/program/2023-conference-program-embed/).
 
 *February 18, 2022*
 
