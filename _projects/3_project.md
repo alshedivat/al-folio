@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: Diffusion_WebUI
+description: generowanie realistycznych zdjęć różnych obiektów i scen za pomocą wgranych modeli (całość działa na Gradio, środowisko uruchomieniowe to Colab), który umożliwia interaktywną eksplorację i modyfikację generowanych obrazów
 img: assets/img/deepmind-LIlsk-UFVxk-unsplash.jpg
 redirect: https://a5650d7e-ec08-4fbd.gradio.live/
-importance: 1
+importance: 3
 category: work
 ---
 
