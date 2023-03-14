@@ -15,7 +15,7 @@ In literary studies, network analysis is commonly used to map relationships betw
 Papers:
 - [Georgii Korotkov](https://profiles.stanford.edu/georgii-korotkov), Stanford University, “From journal to network: 1930s _Internatsional’naia Literatura_ network”
 - [Olga Nechaeva](https://www.onechaeva.com/), University of Pennsylvania, “The Gorky Literary Institute as a Network”
-- [Anna Ivanov] (https://slavic.fas.harvard.edu/people/anna-ivanov), Harvard University, ““Too late to scroll through Facebook?”: Russian Poetic Networks in 2022”
+- [Anna Ivanov](https://slavic.fas.harvard.edu/people/anna-ivanov), Harvard University, ““Too late to scroll through Facebook?”: Russian Poetic Networks in 2022”
 
 Chair: [Brian Yang](https://slavic.illinois.edu/directory/profile/briany5)
 
