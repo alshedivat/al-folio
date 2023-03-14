@@ -1,0 +1,24 @@
+table {
+    width: 50%;
+    border:1px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border:1px solid black;
+}
+
+h1,h2 {
+    text-align:center;
+}
+.container {
+    padding: 0 20px;
+    text-align: center;
+}
+.text-center {
+    text-align: center;
+}
+.italic {
+    font-style: italic;
+}
