@@ -49,6 +49,7 @@ Odulok: Juxtaposing Indigenous Life Stories of the 1930’s</li>
 Discussant: [Bruce Grant](https://as.nyu.edu/faculty/bruce-grant.html), New York University 
 
 **3-2 Stream 2C. Roundtable "Indigeneity in Post-Russia-Centric Pedagogy" (2:45 pm - 4:30 pm)**
+
 Chair: [Brian Yang](https://slavic.illinois.edu/directory/profile/briany5), University of Illinois Urbana-Champaign 
 
 Discussants:
