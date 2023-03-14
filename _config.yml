@@ -209,6 +209,7 @@ plugins:
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-imagemagick
+  - jekyll-jupyter-notebook
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll/scholar
