@@ -46,7 +46,7 @@ Higher School of Economics. Moscow, Russia. [Syllabus](https://olyanechaeva.gith
 ##### 2015-2018 
 - *Introduction to Macroeconomics.* National Research University Higher School of Economics. International College of Economics and Finance. Moscow, Russia.
 - B.Sc. Term Paper Advisor. National Research University Higher School of Economics. International College of Economics and Finance. Moscow, Russia. Topics:
-   - Monetary Policy in Russian and the Financial Crisis 2008
+   - Monetary Policy in Russia and the Financial Crisis 2008.
    - Russian Stock Market Performance and Risk.
    - Stock Correlation in the Constructed Portfolio: Analysis of Russian Stock Market.
    - Analysis of Foreign Exchange Reserves in Russia.
@@ -57,8 +57,8 @@ Higher School of Economics. Moscow, Russia. [Syllabus](https://olyanechaeva.gith
    - Analysis of the Activities of the Central Bank of Russia: Goals, Objectives and Tools.
    - Financial Instruments in the Modern World.
    - Economic Aspects of Environmental Protection in Theory and Practice.
-   - Factors Influencing Bank Risk Taking: Evidence from Russia."
-   - Analysis of Okun’s law in Russia.
+   - Factors Influencing Bank Risk Taking: Evidence from Russia.
+   - Analysis of Okun’s Law in Russia.
    - Empirical Evidence of Kondratieff Long Waves.
    - History of Financial Crises in Russia. Comparative Analysis of 1998 and 2008 Crises.
    - Comparison of the Crises in 2008 and 2015 in Russia.
