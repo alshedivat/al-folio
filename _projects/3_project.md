@@ -2,9 +2,9 @@
 layout: page
 title: project 3
 description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+img: assets/img/deepmind-LIlsk-UFVxk-unsplash.jpg
+redirect: https://a5650d7e-ec08-4fbd.gradio.live/
+importance: 1
 category: work
 ---
 
@@ -54,7 +54,7 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
         {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %s}
     </div>
 </div>
 <div class="caption">

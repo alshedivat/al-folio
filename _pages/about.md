@@ -19,6 +19,6 @@ social: true  # includes social icons at the bottom of the page
 
 Moim celem jest dokumentowanie mojej drogi do profesjonalnego `ogarniacza` danych, aby udowodnić, że jest to możliwe dla każdego. Pragnę również przyczynić się do rozwoju wiedzy w naszej społeczności.
 
-Jestem podekscytowany z możliwości wykorzystania danych do tworzenia modeli, które automatycznie uczą się i podejmują decyzje. Dla entuzjastów `sztucznej inteligencji` i `analizy danych`, nie ma nic lepszego niż widzenie swoich `algorytmów` działających efektywnie i produkujących znaczące wyniki.
+Jestem podekscytowany możliwościami wykorzystania danych do tworzenia modeli, które automatycznie uczą się i podejmują decyzje. Dla entuzjastów `sztucznej inteligencji` i `analizy danych` nie ma nic lepszego niż widzenie swoich `algorytmów` działających efektywnie i produkujących znaczące wyniki.
 
-Szukanie nowych sposobów na ulepszenie swoich modeli i zastosowań dla nich pozwala mi na ciągły `rozwój` i postęp w tej dziedzinie. W tym celu, stale poszerzam swoją wiedzę i umiejętności, aby móc wykorzystać nowe narzędzia i `technologie`. 
+Szukanie nowych sposobów na ulepszenie swoich modeli i zastosowań dla nich pozwala mi na ciągły `rozwój` i postęp w tej dziedzinie. W tym celu stale poszerzam swoją wiedzę i umiejętności, aby móc wykorzystać nowe narzędzia i `technologie`. 
