@@ -3,7 +3,7 @@ layout: post
 title: AATSEEL 2022 Russian Literature in Translation and Digital Humanities
 date: 2022-02-18 07:45:00
 description: roundtable description
-tags: aatseel conference
+tags: aatseel conference dh
 categories: conference-posts
 ---
 Please join us at the upcoming roundtable **Digital Humanities: Nineteenth-Century Russian Literature in Translation** at the AATSEEL conference in Philadelphia. 
