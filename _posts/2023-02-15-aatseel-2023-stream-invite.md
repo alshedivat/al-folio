@@ -52,7 +52,7 @@ Discussant: [Bruce Grant](https://as.nyu.edu/faculty/bruce-grant.html), New York
 
 Chair: [Brian Yang](https://slavic.illinois.edu/directory/profile/briany5), University of Illinois Urbana-Champaign 
 
-Discussants:
+##### Discussants:
 - [Naomi Caffee](https://www.reed.edu/faculty-profiles/profiles/caffee-naomi.html), Reed College
 - [Anna Gomboeva](https://slavic.as.virginia.edu/gomboeva), University of Virginia
 - [Hilah Kohen](https://complit.sas.upenn.edu/people/hilah-kohen), University of Pennsylvania
