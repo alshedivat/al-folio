@@ -1,0 +1,222 @@
+[
+    {
+      "Speaker": "Matthieu B.",
+      "Topic": "Equations différentielles neuronales",
+      "Date": "08/06/2021"
+    },
+    {
+      "Speaker": "Amaury",
+      "Topic": "GNN and planted problems",
+      "Date": "15/06/2021"
+    },
+    {
+      "Speaker": "Odilon",
+      "Topic": "Inférence d'un graphe de contraintes pour la CAO",
+      "Date": "22/06/2021"
+    },
+    {
+      "Speaker": "Mathieu E.",
+      "Topic": "Optimisation distribuée : asseoir l'idée de partage dans une société de l'individu",
+      "Date": "29/06/2021"
+    },
+    {
+      "Speaker": "Simon",
+      "Topic": "Rigidité de processus ponctuel : une définition et un théorème",
+      "Date": "06/07/2021"
+    },
+    {
+      "Speaker": "Jean-Guillaume",
+      "Topic": "(Soutenance de stage)",
+      "Date": "21/07/2021"
+    },
+    {
+      "Speaker": "",
+      "Topic": "SUMMER BREAK",
+      "Date": ""
+    },
+    {
+      "Speaker": "Eric Daoud",
+      "Topic": "Caractérisation & accessibilité des centres de soins spécialisés en cancérologie en France métropolitaine",
+      "Date": "05/10/2021"
+    },
+    {
+      "Speaker": "Ludovic Stephan",
+      "Topic": "(Pré-soutenance de thèse)",
+      "Date": "19/10/2021"
+    },
+    {
+      "Speaker": "Bastien Dubail",
+      "Topic": "Markovian Linearization of Random Walks on Groups",
+      "Date": "26/10/2021"
+    },
+    {
+      "Speaker": "Edouard Oyallon",
+      "Topic": "Unsupervised graph representation for node and signal classification",
+      "Date": "25/11/2021"
+    },
+    {
+      "Speaker": "Grégoire Mialon",
+      "Topic": "GraphiT: Encoding Graph Structure in Transformers",
+      "Date": "07/12/2021, 11h"
+    },
+    {
+      "Speaker": "Bruno Loureiro",
+      "Topic": "Generalization error rates in kernel ridge regression: the crossover from the noiseless to the noisy regime",
+      "Date": "07/12/2021, 13h"
+    },
+    {
+      "Speaker": "",
+      "Topic": "COVID/WINTER BREAK",
+      "Date": ""
+    },
+    {
+      "Speaker": "Bertille Follain",
+      "Topic": "High-dimensional changepoint estimation with heterogeneous missingness",
+      "Date": "17/2/2022, 11h"
+    },
+    {
+      "Speaker": "Edwige Cyffers",
+      "Topic": "Privacy amplification by decentralization",
+      "Date": "03/03/2022, 11h"
+    },
+    {
+      "Speaker": "Romain Cosson",
+      "Topic": "Quantifying Variational Approximation for Log-Partition Function",
+      "Date": "04/03/2022, 11h"
+    },
+    {
+      "Speaker": "Cédric Gerbelot",
+      "Topic": "Statistical physics of learning: a mathematical perspective",
+      "Date": "24/03/2022, 10h"
+    },
+    {
+      "Speaker": "David Robin",
+      "Topic": "Convergence analysis of reparameterized quadratic gradient flow",
+      "Date": "31/03/2022, 11h"
+    },
+    {
+      "Speaker": "Christophe Giraud",
+      "Topic": "The price of unfairness in linear bandits with biased feedback",
+      "Date": "14/04/2022, 11h"
+    },
+    {
+      "Speaker": "Matthieu Blanke",
+      "Topic": "Online greedy identification of linear dynamical systems",
+      "Date": "21/04/2022, 11h"
+    },
+    {
+      "Speaker": "Quentin Duchemin",
+      "Topic": "A new procedure for selective inference with the Generalized Linear Lasso",
+      "Date": "19/05/2022, 11h"
+    },
+    {
+      "Speaker": "Marylou Gabrié",
+      "Topic": "Enhancing Sampling with Learning",
+      "Date": "02/06/2022, 11h"
+    },
+    {
+      "Speaker": "Flore Sentenac",
+      "Topic": "Online Matching in Sparse Random Graphs: Non-Asymptotic Performances of Greedy Algorithm",
+      "Date": "09/06/2022, 11h"
+    },
+    {
+      "Speaker": "Maxime Haddouche",
+      "Topic": "PAC-Bayes learning beyond bounded losses",
+      "Date": "21/06/2022 ,11h"
+    },
+    {
+      "Speaker": "Ilia Shilov",
+      "Topic": "Game theoretic approaches for decentralized electricity markets",
+      "Date": "23/06/2022, 11h"
+    },
+    {
+      "Speaker": "Virginie Do",
+      "Topic": "Optimizing generalized Gini indices for fairness in rankings",
+      "Date": "30/06/2022, 11h"
+    },
+    {
+      "Speaker": "Simon Coste",
+      "Topic": "Tutorial on Score-based diffusion models",
+      "Date": "07/07/2022, 11h"
+    },
+    {
+      "Speaker": "Luca Ganassalli",
+      "Topic": "The graph alignment problem: fundamental limits and efficient algorithms",
+      "Date": "15/09/2022, 11h"
+    },
+    {
+      "Speaker": "Armand Jordana",
+      "Topic": "Stagewise Newton Method for Dynamic Game Control with Imperfect State Observation",
+      "Date": "22/09/2022, 11h"
+    },
+    {
+      "Speaker": "David Robin",
+      "Topic": "Convergence beyond the over-parameterized regime with Rayleigh quotients",
+      "Date": "10/10/2022, 11h"
+    },
+    {
+      "Speaker": "Théophile Cantelobre",
+      "Topic": "Measuring dissimilarity with diffeomorphism invariance",
+      "Date": "25/10/2022, 11h"
+    },
+    {
+      "Speaker": "Marc Lelarge",
+      "Topic": "Particle filters for newbies",
+      "Date": "07/11/2022, 14h"
+    },
+    {
+      "Speaker": "Batiste Le Bars",
+      "Topic": "Refined Convergence and Topology Learning for Decentralized SGD with Heterogeneous Data",
+      "Date": "14/11/2022, 11h"
+    },
+    {
+      "Speaker": "David Saulpic",
+      "Topic": "Theoretical Analysis of Community Detection Algorithms",
+      "Date": "21/11/2022, 11h"
+    },
+    {
+      "Speaker": "Scott Pesme",
+      "Topic": "Implicit regularisation of training algorithms in (not so deep) learning",
+      "Date": "09/12/2022, 11h"
+    },
+    {
+      "Speaker": "Constantin Philipenko",
+      "Topic": "Quantization + FL",
+      "Date": "14/12/2022, 11h"
+    },
+    {
+      "Speaker": "Jakob Maier",
+      "Topic": "On Non-Linear operators for Geometric Deep Learning",
+      "Date": "10/01/2022, 11h"
+    },
+    {
+      "Speaker": "Alexandre Proutière",
+      "Topic": "Reinforcement learning with linear representations",
+      "Date": "16/01/2023, 11h"
+    },
+    {
+      "Speaker": "Romain Cosson",
+      "Topic": "Exploration d'arbres en parallèle",
+      "Date": "30/01/2023, 11h"
+    },
+    {
+      "Speaker": "Jean Feydy",
+      "Topic": "Fast geometric libraries for vision and data sciences",
+      "Date": "09/02/2023, 11h"
+    },
+    {
+      "Speaker": "Elisabetta Cornacchia",
+      "Topic": "Learning with Neural Networks: Generalisation, Complexity and Boolean Measures",
+      "Date": "13/02/2023, 11h"
+    },
+    {
+      "Speaker": "Rémi Flamary",
+      "Topic": "Optimal transport for graph modeling with applications",
+      "Date": "20/02/2023, 11h"
+    },
+    {
+      "Speaker": "Mathieu",
+      "Topic": "Implicit regularisation, large stepsizes and edge of stability for (S)GD over diagonal linear networks",
+      "Date": "27/02/2023, 11h"
+    }
+   ]
