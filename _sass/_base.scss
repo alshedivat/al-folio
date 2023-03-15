@@ -301,11 +301,11 @@ footer.sticky-bottom {
 
 .cv {
   margin-bottom: 40px;
-  
+
   .card {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
-    
+
     .list-group-item {
       background-color: inherit;
       border-color: var(--global-divider-color);
@@ -676,38 +676,38 @@ progress {
      left: 0;
      top: 56px;
      z-index: 10;
-   
+
      /* Dimensions */
      width: 100%;
      height: 1px;
-   
+
      /* Reset the appearance */
      -webkit-appearance: none;
         -moz-appearance: none;
              appearance: none;
-   
+
      /* Get rid of the default border in Firefox/Opera. */
      border: none;
-   
+
      /* Progress bar container for Firefox/IE10  */
      background-color: transparent;
-   
+
      /* Progress bar value for IE10  */
      color: var(--global-theme-color);
  }
- 
+
  progress::-webkit-progress-bar {
      background-color: transparent;
  }
-   
+
  progress::-webkit-progress-value {
      background-color: var(--global-theme-color);
  }
-   
+
  progress::-moz-progress-bar {
      background-color: var(--global-theme-color);
  }
- 
+
  .progress-container {
      width: 100%;
      background-color: transparent;
@@ -717,10 +717,24 @@ progress {
      height: 5px;
      display: block;
  }
- 
+
  .progress-bar {
      background-color: var(--global-theme-color);
      width: 0%;
      display: block;
      height: inherit;
  }
+
+.copy-code-button {
+  align-items: center;
+  cursor: pointer;
+/*  display: flex;i */
+  text-align: right;
+/*  padding-left: 6px;*/
+  padding-right: 10px;
+
+  &:focus, &:hover {
+      color: white;
+      background-color: #858585;
+  }
+}
