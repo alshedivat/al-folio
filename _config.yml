@@ -80,11 +80,13 @@ orcid_id: # your ORCID ID
 medium_username: szymonkowal019
 quora_username: Onufry
 publons_id: # your ID on Publons
+osf_id: # your OSF ID
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
+wikipedia_id: # your wikipedia id (Case sensitive)
 dblp_url: # your DBLP profile url
 stackoverflow_id:  # your stackoverflow id
 kaggle_id: # your kaggle id
@@ -123,6 +125,10 @@ permalink: /blog/:year/:title/
 # Pagination
 pagination:
   enabled: true
+
+related_blog_posts:
+  enabled: true
+  max_related: 5
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
