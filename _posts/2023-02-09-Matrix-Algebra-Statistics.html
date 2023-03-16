@@ -11,7 +11,7 @@
 
 <meta name="author" content="Tuo Liu" />
 
-<meta name="date" content="2023-02-14" />
+<meta name="date" content="2023-03-16" />
 
 <title>Multivariate Analysis Basics</title>
 
@@ -464,7 +464,7 @@ display: none;
 
 <h1 class="title toc-ignore">Multivariate Analysis Basics</h1>
 <h4 class="author">Tuo Liu</h4>
-<h4 class="date">2023-02-14</h4>
+<h4 class="date">2023-03-16</h4>
 
 </div>
 
@@ -474,16 +474,23 @@ display: none;
 operations</a>
 <ul>
 <li><a href="#sum-of-matrices-same-size" id="toc-sum-of-matrices-same-size">sum of matrices (same size)</a></li>
+<li><a href="#multiplication-of-matrix-by-scalar" id="toc-multiplication-of-matrix-by-scalar">multiplication of matrix by
+scalar</a></li>
+<li><a href="#inner-product-and-vector-norm" id="toc-inner-product-and-vector-norm">Inner Product and Vector
+Norm</a></li>
 <li><a href="#trace-operator-and-matrix-norm" id="toc-trace-operator-and-matrix-norm">Trace Operator and Matrix
 Norm</a></li>
 </ul></li>
 <li><a href="#intra-variable-statistics" id="toc-intra-variable-statistics">Intra-variable Statistics</a>
 <ul>
 <li><a href="#data-matrix" id="toc-data-matrix">Data matrix</a></li>
+<li><a href="#averages" id="toc-averages">Averages</a></li>
+<li><a href="#centered-scores" id="toc-centered-scores">Centered
+Scores</a></li>
 <li><a href="#variances-standard-deviations" id="toc-variances-standard-deviations">Variances-Standard
 Deviations</a></li>
 <li><a href="#standardization" id="toc-standardization">Standardization</a></li>
-<li><a href="#matrix-representation" id="toc-matrix-representation">matrix Representation</a></li>
+<li><a href="#matrix-representation" id="toc-matrix-representation">Matrix Representation</a></li>
 </ul></li>
 <li><a href="#inter-variable-statistics" id="toc-inter-variable-statistics">Inter-variable Statistics</a>
 <ul>
@@ -506,9 +513,17 @@ Expressions of Covariances and Correlations</a></li>
 <h2>sum of matrices (same size)</h2>
 <p><span class="math display">\[
 \mathbb{A+B}=(a_{ij}+b_{ij})
-\]</span> ## multiplication of matrix by scalar <span class="math display">\[
+\]</span></p>
+</div>
+<div id="multiplication-of-matrix-by-scalar" class="section level2">
+<h2>multiplication of matrix by scalar</h2>
+<p><span class="math display">\[
 s\mathbb{A}=(s \times a_{ij})
-\]</span> ## Inner Product and Vector Norm <span class="math display">\[
+\]</span></p>
+</div>
+<div id="inner-product-and-vector-norm" class="section level2">
+<h2>Inner Product and Vector Norm</h2>
+<p><span class="math display">\[
 \begin{equation}
 \tag{1}
 \vec{a^T}\vec{b}=\vec{b^T}\vec{a}=\begin{pmatrix} a_1 &amp; \dots
@@ -559,10 +574,20 @@ whose diagonal elements are all ones</p>
 <h2>Data matrix</h2>
 <p><span class="math display">\[
 \mathbb{X}=\begin{pmatrix} x_1 \dots x_j \dots x_p\end{pmatrix}
-\]</span> - Distributions ## Averages</p>
+\]</span></p>
+<ul>
+<li>Distributions</li>
+</ul>
+</div>
+<div id="averages" class="section level2">
+<h2>Averages</h2>
 <p><span class="math display">\[
   \bar{\vec{x_j}}=\frac{1}{n}\vec{1^T}\vec{x_j}
-  \]</span> ## Centered Scores <span class="math display">\[
+\]</span></p>
+</div>
+<div id="centered-scores" class="section level2">
+<h2>Centered Scores</h2>
+<p><span class="math display">\[
 \vec{y_j}=\vec{x_j}-\begin{pmatrix} \bar{x_j} \\\vdots \\\bar{x_j}
 \\\vdots
 \\\bar{x_j}\end{pmatrix}=(\mathbb{I_n}-\frac{1}{n}\vec{1}_n\vec{1}_n^T)\vec{x_j}=\mathbb{J}\vec{x_j}
@@ -601,7 +626,7 @@ vector is always <span class="math inline">\(||\vec{z_j}|| =
 n^{1/2}\)</span>.</p>
 </div>
 <div id="matrix-representation" class="section level2">
-<h2>matrix Representation</h2>
+<h2>Matrix Representation</h2>
 <p>A property of matrix product: if <span class="math inline">\(\mathbb{A}\)</span> is a matrix of n by m and
 <span class="math inline">\(\vec{b_1}, …, \vec{b_k}\)</span> are m by 1
 vectors, then</p>
@@ -665,13 +690,15 @@ standard deviations for p variables.</p>
 <h1 class="tabset">Inter-variable Statistics</h1>
 <div id="covariance" class="section level2">
 <h2>Covariance</h2>
-<p>The correlation between two variables j and k can be indicated by a
+<p>Covariance is a measure of dependency between random variables. The
+correlation between two variables j and k can be indicated by a
 <strong>covariance</strong>, which is defined as <span class="math display">\[
-v_{jk}=\frac{1}{n}\sum_{i=1}^{n}(x_{ij}-\bar{x_j})(x_{ik}-\bar{x_k})
-\]</span> to express it in vector form, <span class="math display">\[
+\sigma_{jk}=Cov_{jk}=E[(x_{ij}-\bar{x_j})(x_{ik}-\bar{x_k})]
+\]</span></p>
+<p>to express it in vector form, <span class="math display">\[
 \tag{8}
-v_{jk}=\frac{1}{n}\begin{pmatrix} x_{1j}-\bar{x_j} &amp; \dots &amp;
-x_{nj}-\bar{x_j}\end{pmatrix}
+\sigma_{jk}=\frac{1}{n}\begin{pmatrix} x_{1j}-\bar{x_j} &amp; \dots
+&amp; x_{nj}-\bar{x_j}\end{pmatrix}
 \begin{pmatrix} x_{1k}-\bar{x_k} \\ \vdots \\
 x_{nk}-\bar{x_k}\end{pmatrix}=
 \frac{1}{n}(\mathbb{J}\vec{x_j})^T\mathbb{J}\vec{x_k}=\frac{1}{n}\vec{y_j}^T\vec{y_k}
@@ -680,6 +707,14 @@ x_{nk}-\bar{x_k}\end{pmatrix}=
 <code>n</code>.</p>
 <p>The covariance of centered scores equals that of their raw
 scores.</p>
+<p>The true covariance is estimated by the empirical covariance <span class="math inline">\(s_{jk}\)</span>: <span class="math display">\[
+s_{jk}=\frac{1}{n}\sum_{i=1}^{n}(x_ij-\bar{x_j})(x_{ik}-\bar{x_k})
+\]</span> For small n, say <span class="math inline">\(n \le
+20\)</span>, we should replace the factor <span class="math inline">\(\frac{1}{n}\)</span> by <span class="math inline">\(\frac{1}{n-1}\)</span> to correct for a small
+bias. In addition, covariance measures only linear dependence. That is
+if X and Y are independent, then <span class="math inline">\(\rho_{X,Y}=Cov_{X,Y}=0\)</span>, in general, the
+converse is not true as exemplified by the covariance between X and its
+quadratic form.</p>
 </div>
 <div id="correlation-coefficients" class="section level2">
 <h2>Correlation Coefficients</h2>
@@ -687,11 +722,16 @@ scores.</p>
 inconvenient property of the covariance is that its value does not allow
 us to easily capture <code>how strong</code> the positive/negative
 <code>correlations</code> between variables are.</p>
-<p>A correlation coefficient (r) between variables j and k is given by
-dividing the covariance by the square roots of the variances of
-variables j and k (i.e.,by the standard deviations of j and k).</p>
+<p>The correlation between two variables <span class="math inline">\(x_{ij}\)</span> and <span class="math inline">\(x_{ik}\)</span> is defined from the covariance</p>
 <p><span class="math display">\[
-r_{jk}=\frac{v_{jk}}{\sqrt{var(\vec{x_j})}\sqrt{var(\vec{x_k})}}=\frac{\vec{y_j}^T\vec{y_k}}{||\vec{y_j}||||\vec{y_k}||}
+\rho_{jk}=\frac{\sigma_{jk}}{\sqrt{var(\vec{x_j})}\sqrt{var(\vec{x_k})}}
+\]</span> The true correlation <span class="math inline">\(\rho\)</span>
+is estimated by the empirical correlation <span class="math inline">\(r\)</span>. An empirical correlation coefficient
+(r) between variables j and k is given by dividing the covariance by the
+square roots of the variances of variables j and k (i.e.,by the standard
+deviations of j and k).</p>
+<p><span class="math display">\[
+r_{jk}=\frac{\sigma_{jk}}{\sqrt{var(\vec{x_j})}\sqrt{var(\vec{x_k})}}=\frac{\vec{y_j}^T\vec{y_k}}{||\vec{y_j}||||\vec{y_k}||}
 \]</span></p>
 </div>
 <div id="variable-vectors-correlations" class="section level2">
@@ -755,6 +795,13 @@ V^{\star}=\frac{1}{n-1}\mathbb{Y^TY}
 \]</span></p>
 <p>Its off-diagonal and diagonal elements are called unbiased
 covariances and unbiased variances, respectively.</p>
+<p><strong>Note</strong><br />
+Correlations and covariances measure only linear dependence. The
+quadratic dependence of <span class="math inline">\(Y = X^2\)</span> on
+<span class="math inline">\(X\)</span> is not reflected by these
+measures of dependence. If <span class="math inline">\(x,y\)</span> are
+independent, then <span class="math inline">\(\rho_{xy}=v_{xy}=0\)</span>; but the converse is
+not true as exemplified by the case of quadratic dependence.</p>
 </div>
 </div>
 
