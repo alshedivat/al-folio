@@ -17,5 +17,5 @@ horizontal: false
 <br>
 <div class="publications">
   <h4 class="category">Work in progress</h4>
-  {% bibliography -f papers --template bibsimple -q @*[papercat =6]* %}
+  {% bibliography -f papers --template bibsimple -q @*[papercat =1]* %}
 </div>
