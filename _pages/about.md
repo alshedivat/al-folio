@@ -18,8 +18,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 ### affiliations
-- Postdoctoral researcher at the [signal and information processing laboratory (ISI)](https://isi.ee.ethz.ch), [**ETH, Zürich, Switzerland**](https://ethz.ch/en.html), under [Prof. Hans-Andrea Loeliger](http://people.ee.ethz.ch/~loeliger/).
-- Guest researcher at the [department of electronic systems](https://www.ntnu.edu/employees/ehmalmbe), [**NTNU, Trondheim, Norway**](https://www.ntnu.edu), in collaboration with [Prof. Trond Ytterdal](https://www.ntnu.edu/employees/trond.ytterdal).
+- Postdoctoral researcher at the [signal and information processing laboratory (ISI)](https://isi.ee.ethz.ch), [**ETH, Zürich, Switzerland**](https://ethz.ch/en.html) 
+<!-- , under [Prof. Hans-Andrea Loeliger](http://people.ee.ethz.ch/~loeliger/). -->
+- Guest researcher at the [department of electronic systems](https://www.ntnu.edu/employees/ehmalmbe), [**NTNU, Trondheim, Norway**](https://www.ntnu.edu)
+<!-- , in collaboration with [Prof. Trond Ytterdal](https://www.ntnu.edu/employees/trond.ytterdal). -->
 
 ## research interests
 - Control-bounded analog-to-digital and digital-to-analog converters
