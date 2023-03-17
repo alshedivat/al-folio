@@ -1,3 +1,16 @@
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <div style="text-align: center;">
+            {% include figure.html path="assets/img/consultancy.jpeg" title="Consultancy" class="img-fluid rounded z-depth-1" %}
+        </div>
+    </div>
+</div>
+<div class="caption">
+    Stock image for consultancy services
+</div>
+
+<br>
+
 Altogether with the <a href="https://www.esci.upf.edu/en/unesco-chair-in-life-cycle-and-climate-change/catedra-introduction">UNESCO Chair in Life Cycle and Climate Change ESCI-UPF</a>, we form a team specialized in helping businesses measure their environmental impact through various assessments such as carbon footprint, environmental footprint, and life cycle assessment for both products and organizations.
 
 We work closely with clients to develop tailored solutions that not only measure their environmental impact but also provide actionable recommendations for reducing their carbon footprint and improving sustainability. We believe that businesses have a critical role to play in mitigating the impact of climate change, and we are committed to working with them to achieve their sustainability goals.
