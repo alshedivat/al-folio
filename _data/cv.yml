@@ -50,34 +50,34 @@
     - title: Postdoctoral Appointtee
       institution: Argonne National Laboratory &#38; Barcelona Supercomputing Center
       year: May 2023 - present
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+      #   - title: Description 3.
+      #     contents:
+      #       - Sub-description 1.
+      #       - Sub-description 2.
 
     - title: Teaching Fellow
       institution: Queen's University, Canada
       year: Sep - Dec 2022
-      description:
-        - Description 1.
-        - Description 2.
+      # description:
+      #   - Description 1.
+      #   - Description 2.
 
     - title: Graduate Research Assistant
-      institution: Turbulence Simulation and Modelling Laboratory (TSML), Queen's University, Canada
+      institution: Queen's University, Kingston, Canada
       year: Sep 2016 - Aug 2022
-      description:
-        - Description 1.
-        - Description 2.
+      # description:
+      #   - Description 1.
+      #   - Description 2.
 
     - title: Graduate Research Assistant
-      institution: Turbulence Simulation and Modelling Laboratory (TSML), Iowa State Universit, U.S.A.
-      year: Sep - Dec 2022
-      description:
-        - Description 1.
-        - Description 2.
+      institution: Iowa State Universit, Ames, Iowa, USA
+      year: Sep 2015 - Aug 2016
+      # description:
+      #   - Description 1.
+      #   - Description 2.
 
     - title: Executive Engineer
       institution: Thermax Ltd., India
