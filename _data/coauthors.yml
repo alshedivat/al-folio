@@ -7,11 +7,11 @@
     url: https://didattica-rubrica.unibg.it/ugov/person/3083
 
 "Kyriacou":
-  - firstname: ["Andreas Kyriacou", "Kyriacou, A."]
+  - firstname: ["Andreas Kyriacou", "Kyriacou", "Kyriacou", "Andreas", "Kyriacou", "A."]
     url: https://www.udg.edu/ca/directori/pagina-personal?ID=2001744&language=es-ES
 
 "Gonzalez": 
-  - firstname: ["Ignacio Gonzalez", "Gonzalez I."]
+  - firstname: ["Ignacio Gonzalez", "Gonzalez", "Gonzalez", "Ignacio", "Gonzalez", "I."]
     url: https://www.ignacioglez.com/
 
 
