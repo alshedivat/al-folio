@@ -1,12 +1,12 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: false
-nav_order: 
+permalink: /media/
+title: Media
+description: 
+nav: true
+nav_order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+[¿Cómo afecta el valor de tu vivienda a tu consumo?](https://nadaesgratis.es/admin/como-afecta-el-valor-de-tu-vivienda-a-tu-consumo) (Nada es Gratis)]
+[Desigualdad y el futuro de las pensiones](https://www.eldiario.es/piedrasdepapel/desigualdad-pensiones-reforma_132_6432872.html) (Piedras de Papel, eldiario.es)
+[Reptes i riscos de la intelligència artificial](https://www.diaridegirona.cat/comarques/2019/04/25/reptes-i-riscos-intel-ligencia-48830434.html) (Diari de Girona)
