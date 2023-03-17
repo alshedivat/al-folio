@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Inverse turbulence study of channel flow
+title: Adjoint based Inverse turbulence study of Channel flow
 description: to extract modelling information.
 #img: assets/img/12.jpg
 importance: 2
