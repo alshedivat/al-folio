@@ -6,7 +6,7 @@ description: Some of the things that I have been interested in fluids research o
 nav: true
 nav_order: 2
 display_categories: [work, class, pipeline]
-horizontal: true
+horizontal: false
 ---
 
 <!-- pages/projects.md -->
