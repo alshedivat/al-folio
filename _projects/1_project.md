@@ -2,7 +2,7 @@
 layout: page
 title: Airfoil Leading-Edge Roughness Effects
 description: The focus of the study was to explore the effects of surface imperfections (which are much larger than local boundary layer thickness) on the developing boundary layer and trailing edge separation characteristics of NACA4412. We carried out wall-resolved Large-eddy simulation (LES) at a chord-based Reynolds number of \(200,000 \) and at three angle of attack values of \(5, 10, 15^o\).
-#img: assets/img/wave-mechanics.gif
+img: assets/img/wave-mechanics.gif
 importance: 1
 category: work
 ---
