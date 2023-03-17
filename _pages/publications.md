@@ -12,7 +12,9 @@ nav_order:
 
 {%- for y in page.years %}
  # <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* &  @*[papercat =1]* %}
+  {% bibliography -f papers -q @*[year={{y}} & papercat=1]* & %}
 {% endfor %}
 
 </div>
+
+
