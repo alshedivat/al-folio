@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Working papers & Work in progress
-permalink: /workprogres/
+permalink: /workprogress/
 description:
 nav: false
 nav_order: 2
