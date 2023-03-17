@@ -17,6 +17,7 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     # gem 'mini_racer'
+    gem 'therubyracer'
     gem 'webrick'
     gem 'feedjira'
     gem 'httparty'
