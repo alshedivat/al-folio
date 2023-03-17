@@ -67,7 +67,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: pedrotrivin
 gitlab_username: # your GitLab user name
 twitter_username: PedroTrivn
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
@@ -83,7 +83,7 @@ publons_id: # your ID on Publons
 osf_id: # your OSF ID
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: # work page URL
+work_url: https://www.unimi.it/it/ugov/person/pedro-trivin
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
