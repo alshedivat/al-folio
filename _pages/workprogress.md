@@ -11,7 +11,7 @@ horizontal: false
 <!-- pages/workprogress.md -->
 <div class="publications">
   <h4>Working papers</h4>
-  {% bibliography -f papers --template bibsimple -q @*[papercat =1]* %}
+  {% bibliography -f papers --template bibsimple -q @*[papercat =4]* %}
 </div>
 
 <br>
