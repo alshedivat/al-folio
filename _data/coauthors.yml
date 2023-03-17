@@ -9,3 +9,15 @@
 "Feyling":
   - firstname: ["Fredrik", "F."]
     url: "https://www.ntnu.edu/employees/fredrief"
+
+"Rosa":
+  - firstname: ["José M.", "J. M."]
+    url: "http://www2.imse-cnm.csic.es/~jrosa/"
+
+"Wulff":
+  - firstname: ["Carsten", "C."]
+    url: "https://www.ntnu.edu/employees/carstenw"
+
+"Ytterdal":
+  - firstname: ["Trond", "T."]
+    url: "https://www.ntnu.edu/employees/ytterdal"
