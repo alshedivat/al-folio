@@ -1,3 +1,37 @@
+- title: Nonograms and iterative constraints propagation
+  type: Semester project
+  students:
+    - first: Alessio
+      last: Lukaj
+  year: 2022
+  fall_semester: True
+  supervisors:
+    - first: Hugo
+      last: Aguettaz
+    - first: Hampus
+      last: Malmberg
+    - first: Raphael
+      last: Keusch
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: Calibrating a control-bounded analog-to-digital converter in rust
+  type: Semester project
+  students:
+    - first: Arsim
+      last: Dzambazoski
+  year: 2022
+  fall_semester: True
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+    
 - title: Analog circuit design for control-bounded ADCs
   type: Semester project
   students:
