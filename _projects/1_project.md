@@ -2,7 +2,7 @@
 layout: page
 title: Airfoil Leading-Edge Roughness Effects
 description: 
-img: assets/img/wave-mechanics.gif
+img: assets/img/RLE1.png
 importance: 1
 category: work
 ---
