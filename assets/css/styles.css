@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --cor-principal: #b509ac;
+}
+
+body {
+    height: 92vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    height: 5%;
+    width: 100%;
+}
+
+#menu {
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#menu li {
+    list-style: none;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0 0.5em;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+#btn-mobile {
+    display: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2em auto;
+}
+
+#about h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+}
+
+#cv h1,
+#stats h1,
+#blog h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#blog h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+#blog p {
+    font-size: 1em;
+    margin: 1em 0;
+    text-align: justify;
+}
+
+#blog button {
+    background-color: var(--cor-principal);
+    font-size: 1em;
+    margin-bottom: 1em;
+    padding: 0.3em 0.5em;
+    border: none;
+    border-radius: 8px;
+    opacity: 0.7;
+}
+
+#blog button:hover {
+    opacity: 1;
+    transition: 0.4s;
+}
+
+#blog a {
+    text-decoration: none !important;
+    color: #ffffff
+}
+
+.destaque {
+    color: var(--cor-principal);
+}
+
+#stats figure {
+    width: 90vw;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#stats figure embed {
+    width: 45%;
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    height: 716px;
+    width: 800px;
+}
+
+#about code {
+    padding: 0.3em;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+    color: var(--cor-principal);
+    font-weight: bold;
+    background-color: rgba(181,9,172,0.05);
+}
+
+.flex {
+    display: flex;
+    padding: 1em;
+    gap: 3em;
+}
+
+.flex p {
+    width: 48%;
+    margin-top: 1em;
+    text-align: justify;
+}
+
+.flex img {
+    height: 400px;
+    width: 400px;
+    border-radius: 12px;
+}
+
+#background {
+    margin: 2em auto;
+    padding: 1em;
+}
+
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#background ul {
+    padding-left: 1em;
+}
+
+#background li {
+    margin: 1em auto;
+}
+
+#background a {
+    text-decoration: none;
+    color: var(--cor-principal);
+    opacity: 0.6;
+}
+
+#background a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 1;
+}
+
+#research {
+    margin: 2em auto;
+    padding: 1em;
+}
+
+#research p {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#research-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.research-card {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.research-card img {
+    width: 100%;
+    height: 350px;
+}
+
+.research-card p {
+    margin-top: 1em;
+}
+
+#skills {
+    margin: 2em auto;
+    padding: 1em;
+}
+
+#skills h3 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 1.5em auto;
+    color: var(--cor-principal);
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    height: 350px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18%;
+}
+
+.card img {
+    width: 50%;
+    height: 100%;
+    margin-bottom: 1em;
+}
+
+.tools-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#social {
+    padding: 1em;
+}
+
+.social {
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
+.social i {
+    font-size: 4em;
+}
+
+.social a {
+    color: black;
+}
+
+.social i:hover {
+    color: var(--cor-principal);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 0.5em 0;
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 30px;
+        right: 0px;
+        height: 0px;
+        z-index: 1000;
+        transition: 0.6s;
+        background-color: rgba(0, 0, 0, 0.644);
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    
+    #nav.active #menu {
+        background-color: rgba(0, 0, 0, 0.644);
+        height: 35vh;
+        visibility: visible;
+        overflow-y: auto;
+    }
+    
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.445);
+    }
+    
+    #btn-mobile {
+        display: flex;
+        color: white;
+        font-size: 1rem;
+        padding: 0.8rem 1rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+        gap: 0.5rem;
+    }
+    
+    #hamburguer {
+        display: block;
+        width: 20px;
+        border-top: 2px solid;
+    }
+
+    #hamburguer::after, #hamburguer::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: 0.3s;
+        position: relative;
+    }
+
+    #nav.active #hamburguer {
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburguer::before {
+        transform: rotate(135deg)
+    }
+
+    #nav.active #hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+    
+    main {
+        margin: 0 auto;
+    }
+
+    #about h1 {
+        font-size: 2em;
+    }
+
+    #cv h1,
+    #stats h1,
+    #blog h1 {
+        font-size: 1.5em;
+        margin-top: 2.5em;
+        margin-bottom: 1em;
+    }
+
+    #blog {
+        width: 90%;
+        margin: 0 auto
+    }
+
+    #blog h2 {
+        font-size: 1.2em;
+    }
+
+    #blog article {
+        width: 95%;
+    }
+
+    #stats figure {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+
+    #stats figure embed {
+        width: 100%;
+    }
+
+    iframe {
+        width: 92vw;
+        height: 100vh;
+    }
+
+    #about code {
+        font-size: 1.5em;
+        margin: 0 auto;
+        display: block;
+        width: fit-content;
+    }
+    
+    .flex {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .flex img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .flex p {
+        width: 93%;
+        margin: 0;
+        line-height: 1.6em;
+    }
+
+    #background {
+        margin: 0.5em auto;
+        padding: 0.5em;
+    }
+
+    #background li {
+        font-size: 0.9em;
+        line-height: 1.5em;
+    }
+
+    #research {
+        margin: 0.5em auto;
+        padding: 1em;
+    }
+
+    #research h2,
+    #research p{
+        margin-bottom: 0.5em;
+    }
+
+    #research-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .research-card {
+        width: 90%;
+        height: 400px;
+    }
+
+    #skills {
+        padding: 0.5em;
+    }
+
+    #skills h3 {
+        font-size: 1.2em;
+        margin-bottom: 1em;
+    }
+
+    .skills-container {
+        height: 220px;
+        align-content: space-evenly;
+        gap: 0.5em;
+        width: 95%;
+    }
+
+    .card img {
+       width: 50px;
+       height: 50px;
+    }
+
+    .tools-container {
+        width: 95%;
+    }
+
+    #social {
+        margin-top: 2em;
+        padding: 0.5em;
+    }
+
+    #social h2 {
+        margin-bottom: 1em;
+    }
+
+    .social {
+        margin: 0;
+    }
+    .social i {
+        font-size: 2.5em;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 992px) {
+    header {
+        position: fixed;
+        top: 0;
+        background-color: black;
+        height: 5%;
+        width: 100%;
+    }
+
+    main {
+        height: 97%;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    iframe {
+        height: 80vh;
+    }
+
+    #stats figure {
+        width: 100%;
+    }
+
+    #stats figure {
+        height: 78vh;
+    }
+
+    #stats figure embed {
+        height: 50%;
+    }
+
+    #blog h1 {
+        font-size: 2em;
+        margin-top: 2.5em;
+        margin-bottom: 1em;
+    }
+
+    #blog {
+        width: 90%;
+        margin: 0 auto
+    }
+
+    #blog h2 {
+        font-size: 1.2em;
+    }
+
+    #blog article {
+        width: 95%;
+    }
+
+    #footer {
+        display: none;
+    }
+
+    footer {
+        height: 4%;
+    }
+}
