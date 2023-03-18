@@ -21,5 +21,5 @@ Nuestros servicios están diseñados para guiarte en cada etapa de tu trayectori
 
 <i class="fa fa-envelope" aria-hidden="true"></i>: <a href="mailto:saetgn@gmail.com">Envíame un correo electrónico</a> <br>
 <i class="fas fa-phone-alt"></i>: <a href="tel:+34634599994">Llámame</a> <br>
-<i class="fas fa-comment">: <a href="sms:+34634599994">Escríbeme un mensaje de texto</a> <br>
+<i class="fas fa-comment"></i>: <a href="sms:+34634599994">Escríbeme un mensaje de texto</a> <br>
 <i class="fab fa-whatsapp"></i>: <a href="https://wa.me/+34634599994" target="_blank">Escríbeme un mensaje de WhatsApp</a>
