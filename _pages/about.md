@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Interested in Fluids research | <a href='https://www.anl.gov'>Argonne National Laboratory</a>.
+subtitle: Interested in Fluids research | <a href='https://www.anl.gov'>Argonne National Laboratory</a>
 
 profile:
   align: right
