@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.anl.gov'>Argonne National Laboratory</a>. Address. Contacts. Moto. Etc.
+subtitle: native of Narayanpur, Ballia, India | <a href='https://www.anl.gov'>Argonne National Laboratory</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
