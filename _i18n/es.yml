@@ -31,14 +31,14 @@ projects:
     project3: proyecto 3
     project4: claus
     project5: cuidapro
-    project6: proyecto 6
+    project6: OPEN
   descriptions:
     project1: economía circular del biodiesel y valorización del glicerol residuo en solketal y CaDG
     project2: mediciones del impacto medioambiental de organizaciones o productos
     project3: a project that redirects to another website
-    project4: gestión de servicios en turismo sostenible 
+    project4: gestión de servicios en turismo sostenible
     project5: servicio de atención a domicilio para personas mayores
-    project6: a project with no image
+    project6: proyectos circulares para el medio ambiente
   categories:
     personal: personal
     work: trabajo

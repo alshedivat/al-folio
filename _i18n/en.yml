@@ -4,7 +4,7 @@ not_found:
 main:
   contact_note: Hit me up however you prefer - email, DM, carrier pigeon - I'm all about keeping the lines of communication open and easy.
 blog:
-  description: CIRCULAR Projects for the Environment
+  description: CIRCULAR Projects for the ENvironment
 titles:
   about: about
   blog: blog
@@ -31,14 +31,14 @@ projects:
     project3: project 3
     project4: claus
     project5: cuidapro
-    project6: project 6
+    project6: OPEN
   descriptions:
     project1: circular economy of biodiesel and valorisation of waste glycerol in solketal and CaDG
     project2: measuring environmental impacts for organisations or products
     project3: a project that redirects to another website
     project4: sustainable tourism management
     project5: home care services for the elderly
-    project6: a project with no image
+    project6: CIRCULAR Projects for ENvironment
   categories:
     personal: personal
     work: work
