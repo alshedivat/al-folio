@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.anl.gov'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.anl.gov'>Argonne National Laboratory</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpeg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: >
     <p>405, McLaughlin Hall</p>
     <p>130 Stuart street</p>
