@@ -160,7 +160,7 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  research:
+  projects:
     output: true
     permalink: /projects/:path/
 
