@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 Let me start by introducing myself. The name is Vishal Kumar. If not here by mistake, there is a strong possibility the some of you might know me by "Kumar Vishal". And, finally, the addition of "Rai" above is a consequence of my (quite recent!) insatiable desire to belong to my ancestral family line by appending the original surname, at-least un-officially.
 
-There you go! After such a clear introduction, let's get straight to discussing some trivial matters. I am interested in studying fluid flows. No I don't know everything about them, I just like playing with them. 
+There you go! After such a clear introduction, let's get straight to discussing some trivial matters. I am interested in studying fluid flows. No I don't know everything about them, I just like playing with them. I study them numerically (in laymen terms that means using computers). In the past I have been involved in performing Direct numerical simulation (DNS) and Large-eddy simulation (LES). 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
