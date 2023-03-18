@@ -515,7 +515,8 @@ Easily create beautiful grids within your blog posts and project pages:
 ### Other features
 
 #### GitHub repositories and user stats
-**al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) to display GitHub repositories and user stats on the the `/repositories/` page.
+**al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy)
+to display GitHub repositories and user stats on the the `/repositories/` page.
 
 Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the the `/repositories/` page.
 
@@ -528,6 +529,18 @@ You may also use the following codes for displaying this in any other pages.
     {% include repository/repo_user.html username=user %}
   {% endfor %}
 </div>
+{% endif %}
+
+<!-- code for Github trophies -->
+{% if site.repo_trophies.enabled %}
+{% for user in site.data.repositories.github_users %}
+  {% if site.data.repositories.github_users.size > 1 %}
+  <h4>{{ user }}</h4>
+  {% endif %}
+  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% include repository/repo_trophies.html username=user %}
+  </div>
+{% endfor %}
 {% endif %}
 
 <!-- code for GitHub repositories -->
