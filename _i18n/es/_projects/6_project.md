@@ -6,7 +6,7 @@ Bienvenido a OPEN. Dirigido por Sergi Arfelis, nuestro equipo de especialistas e
 
 Nuestra misión es fomentar una economía circular apoyando proyectos y negocios ecológicos que prioricen la sostenibilidad. Creemos en nutrir a jóvenes emprendedores apasionados por crear un impacto medioambiental positivo, enfrentando desafíos globales y forjando un camino hacia un futuro más sostenible.
 
-## Services
+## Servicios
 
 Nuestros servicios están diseñados para guiarte en cada etapa de tu trayectoria emprendedora:
 
