@@ -599,6 +599,9 @@ For more complex issues/bugs or feature requests, please open an issue using the
 
 ### Maintainers
 
+Our most active contributors are welcome to join the maintainers team.
+If you are interested, please reach out!
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
