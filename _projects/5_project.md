@@ -20,7 +20,7 @@ To give your project a background in the portfolio page, just add the img tag to
     img: /assets/img/12.jpg
     ---
 
-<!-- <div class="row">
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -38,7 +38,7 @@ To give your project a background in the portfolio page, just add the img tag to
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/test_cyl.gif" title="example image" class="img-fluid rounded z-depth-1" caption="Contours of spanwise vorticity for flow over 2D cylinder at \(Re_D = 100\)."%}
     </div>
-</div> -->
+</div>
 
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
