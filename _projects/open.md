@@ -7,4 +7,4 @@ importance: 3
 category: personal
 ---
 
-{% translate_file _projects/6_project.md %}
+{% translate_file _projects/open.md %}
