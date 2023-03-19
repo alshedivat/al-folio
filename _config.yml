@@ -124,7 +124,7 @@ pagination:
 
 related_blog_posts:
   enabled: true
-  max_related: 1
+  max_related: 5
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
