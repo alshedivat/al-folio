@@ -366,7 +366,7 @@ If you have a different question, please ask using [Discussions](https://github.
   RSS Feed plugin works with these correctly set up fields: `title`, `url`, `description` and `author`.
   Make sure to fill them in an appropriate way and try again.
 
-5. **Q:** My site doesn't work when I enable `related_blog_posts`. Why?
+5. **Q:** My site doesn't work when I enable `related_blog_posts`. Why? <br>
    **A:** This is probably due to the [classifier reborn](https://github.com/jekyll/classifier-reborn) plugin, which is used to calculate
    related posts. If the error states `Liquid Exception: Zero vectors can not be normalized...`, it means that it could not calculate related
    posts for a specific post. This is usually caused by [empty or really small blog posts](https://github.com/jekyll/classifier-reborn/issues/64)
