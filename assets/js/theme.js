@@ -21,7 +21,7 @@ let setTheme = (theme) =>  {
     document.documentElement.removeAttribute("data-theme");
   }
   localStorage.setItem("theme", theme);
-
+  
   // Updates the background of medium-zoom overlay.
   if (typeof medium_zoom !== 'undefined') {
     medium_zoom.update({
@@ -30,7 +30,6 @@ let setTheme = (theme) =>  {
     })
   }
 };
-
 
 let setHighlight = (theme) => {
   if (theme == "dark") {
@@ -41,7 +40,6 @@ let setHighlight = (theme) => {
     document.getElementById("highlight_theme_light").media = "";
   }
 }
-
 
 let setGiscusTheme = (theme) => {
 
@@ -59,7 +57,6 @@ let setGiscusTheme = (theme) => {
 
 }
 
-
 let transTheme = () => {
   document.documentElement.classList.add("transition");
   window.setTimeout(() => {
@@ -75,7 +72,7 @@ let initTheme = (theme) => {
         theme = 'dark';
     }
   }
-
+  
   setTheme(theme);
 }
 
