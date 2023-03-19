@@ -9,7 +9,10 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
 }
 
 hr {
-  border-top: 1px solid var(--global-divider-color);
+  height: 1px;
+  background-color: var(--global-divider-color);
+  border: none;
+  opacity: 1;
 }
 
 table {
@@ -23,8 +26,9 @@ table {
 
 a, table.table a {
   color: var(--global-theme-color);
+  text-decoration: none;
   &:hover {
-    color: var(--global-theme-color);
+    color: var(--global-hover-color);
     text-decoration: underline;
   }
   &:hover:after :not(.nav-item.dropdown) {
@@ -64,19 +68,15 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
-
   img {
     width: 100%;
   }
-
   .card-title {
     color: var(--global-text-color);
   }
-
   .card-item {
     width: auto;
-    margin-bottom: 10px;
-
+    margin-bottom: 0.75rem;
     .row {
       display: flex;
       align-items: center;
@@ -94,10 +94,8 @@ blockquote {
 
 .profile {
   width: 100%;
-
   .address {
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin: 0.5rem 0;
     font-family: monospace;
     p {
       display: inline-block;
@@ -114,6 +112,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
+    margin-left: 1rem;
     width: 30%;
     .address {
       p { display: block; }
@@ -127,7 +126,7 @@ blockquote {
   a {
     color: inherit;
     &:hover {
-      color: var(--global-theme-color);
+      color: var(--global-hover-color);
       text-decoration: none;
     }
   }
@@ -151,15 +150,17 @@ blockquote {
   a:hover {
     color: var(--global-hover-color);
   }
-  .dropdown-divider {
-    border-top: 1px solid var(--global-divider-color) !important;
+  hr {
+    margin: 0;
   }
 }
 .dropdown-item {
   color: var(--global-text-color);
-    &:hover {
+  background-color: var(--global-bg-color);
+  border-radius: inherit;
+    &:hover, &:focus {
       color: var(--global-hover-color);
-      background-color: var(--global-bg-color);
+      background-color: inherit;
     }
 }
 .navbar.navbar-light {
@@ -204,6 +205,11 @@ blockquote {
 }
 
 .navbar-toggler {
+  border: none;
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
   .icon-bar {
     display: block;
     width: 22px;
@@ -239,6 +245,7 @@ blockquote {
 }
 
 #light-toggle {
+  width: 1.5rem;
   padding: 0;
   border: 0;
   background-color: inherit;
@@ -278,8 +285,7 @@ footer.fixed-bottom {
   font-size: 0.75rem;
   .container {
     color: var(--global-footer-text-color);
-    padding-top: 9px;
-    padding-bottom: 8px;
+    padding: 0.5rem;
   }
   a {
     color: var(--global-footer-link-color);
@@ -292,27 +298,26 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 2rem;
   font-size: 0.9rem;
 }
 
 // CV
 
 .cv {
-  margin-bottom: 40px;
-  
+  margin-bottom: 1rem;
   .card {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
-    
     .list-group-item {
+      color: inherit;
       background-color: inherit;
       border-color: var(--global-divider-color);
 
       .badge {
+        min-width: fit-content;
         color: var(--global-card-bg-color) !important;
-        background-color: var(--global-theme-color) !important;
+        background-color: var(--global-theme-color);
       }
     }
   }
@@ -342,17 +347,18 @@ footer.sticky-bottom {
 .tag-list {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 1rem;
+  padding: 1rem;
 
   ul {
     justify-content: center;
     display: flow-root;
+    color: var(--global-text-color-light);
 
-    p, li {
+    li {
       list-style: none;
       display: inline-block;
-      padding: 1rem 0.5rem;
-      color: var(--global-text-color-light);
+      padding: 0.5rem;
+      color: inherit;
     }
   }
 }
@@ -381,7 +387,7 @@ footer.sticky-bottom {
       color: var(--global-text-color);
       text-decoration: none;
       &:hover {
-        color: var(--global-theme-color);
+        color: var(--global-hover-color);
       }
     }
   }
@@ -391,12 +397,13 @@ footer.sticky-bottom {
   .page-item {
     .page-link {
       color: var(--global-text-color);
+      background-color: var(--global-bg-color);
       &:hover {
-        color: $black-color;
+        color: var(--global-hover-color);
       }
     }
     &.active .page-link {
-      color: $white-color;
+      color: var(--global-bg-color);
       background-color: var(--global-theme-color);
       &:hover {
         background-color: var(--global-theme-color);
@@ -410,7 +417,7 @@ footer.sticky-bottom {
 
 .distill {
   a:hover {
-    border-bottom-color: var(--global-theme-color);
+    border-bottom-color: var(--global-hover-color);
     text-decoration: none;
   }
 }
@@ -421,24 +428,20 @@ footer.sticky-bottom {
 .projects {
   a {
     text-decoration: none;
-
     &:hover {
       .card-title {
-        color: var(--global-theme-color);
+        color: var(--global-hover-color);
       }
     }
   }
-
   .card {
     img {
       width: 100%;
     }
   }
-
   .card-item {
     width: auto;
-    margin-bottom: 10px;
-
+    margin-bottom: 0.75rem;
     .row {
       display: flex;
       align-items: center;
@@ -490,24 +493,23 @@ footer.sticky-bottom {
     list-style: none;
     padding: 0;
     margin-top: 0;
+    margin-bottom: -1rem;
 
     li {
       margin-bottom: 1rem;
       .preview {
-        width: 100%;
+        max-width: 100%;
         min-width: 80px;
-        max-width: 200px;
       }
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
-        abbr {
-          display: inline-block;
+        abbr.badge {
+          min-width: fit-content;
+          color: var(--global-bg-color) !important;
           background-color: var(--global-theme-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
           a {
-            color: white;
+            color: var(--global-bg-color);
             &:hover {
               text-decoration: none;
             }
@@ -547,13 +549,12 @@ footer.sticky-bottom {
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          padding: 0.25rem 1rem;
+          margin: 0.5rem;
+          vertical-align: middle;
           &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            color: var(--global-hover-color);
+            border-color: var(--global-hover-color);
           }
         }
       }
@@ -658,7 +659,7 @@ html.transition *:after {
       color: var(--global-text-color-light);
       text-decoration: none;
       &:hover {
-        color: var(--global-theme-color);
+        color: var(--global-hover-color);
       }
     }
   }

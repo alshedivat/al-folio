@@ -17,25 +17,23 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} • {{ page.author }}{%- endif -%}{%- if page.meta -%} • {{ page.meta }}{%- endif -%}</p>
+    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} &nbsp; &bull; &nbsp; {{ page.author }}{%- endif -%}{%- if page.meta -%} &nbsp; &bull; &nbsp; {{ page.meta }}{%- endif -%}</p>
     <p class="post-tags">
-      <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}"> <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
+      <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}"> <i class="fas fa-calendar fa-sm pe-1"></i> {{ year }} </a>
       {%- if tags != "" %}
-      &nbsp; &middot; &nbsp;
+      &nbsp; &bull; &nbsp;
         {% for tag in page.tags -%}
         <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}">
-          <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
-          {% endfor -%}
+        <i class="fas fa-hashtag fa-sm pe-1"></i> {{ tag }}</a>{% unless forloop.last %} &nbsp; {% endunless %}
+        {% endfor -%}
       {% endif %}
-
-      {%- if categories != "" %}
-      &nbsp; &middot; &nbsp;
-        {% for category in page.categories -%}
+      {% if categories != "" %}
+      &nbsp; &bull; &nbsp;
+        {% for category in page.categories %}
         <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
-          <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
-          {% endfor -%}
+        <i class="fas fa-tag fa-sm pe-1"></i> {{ category }}</a>{% unless forloop.last %} &nbsp; {% endunless %}
+        {% endfor -%}
       {% endif %}
-
     </p>
   </header>
 

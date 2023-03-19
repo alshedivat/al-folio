@@ -1,3 +1,7 @@
-<!-- Bootsrap & MDB scripts -->
+<!-- Bootsrap script -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@{{ site.bootstrap.version }}/dist/js/bootstrap.bundle.min.js" integrity="{{ site.bootstrap.integrity.js }}" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@{{ site.mdb.version }}/js/mdb.min.js" integrity="{{ site.mdb.integrity.js }}" crossorigin="anonymous"></script>
+
+{% if site.enable_material_design %}
+<!-- MDBootstrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/mdb-ui-kit@{{ site.mdb.version }}/js/mdb.min.js" integrity="{{ site.mdb.integrity.js }}" crossorigin="anonymous"></script>
+{% endif %}
