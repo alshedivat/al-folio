@@ -28,6 +28,9 @@ Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 3 </sup>
 <sup> 3 </sup> Postdoctoral researcher, Large-scale turbulence simulation, Barcelona Supercomputing Center (BSC), Spain
 </p> -->
 
+<hr>
+<p class="top-one"> </p>
+
 <div class="row justify-content-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/test_cyl.gif" title="example image" class="img-fluid rounded z-depth-1" caption="Contours of spanwise vorticity for flow over 2D cylinder at \(Re_D = 100\)."%}
