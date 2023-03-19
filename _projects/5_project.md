@@ -59,7 +59,7 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
 
 <div class="row justify-content-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/cylinder_dmd.png" title="example image" class="img-fluid rounded z-depth-1" caption="(left) Eigenvalues and (right) DMD modes for flow over 2D cylinder at \(Re_D = 100\); Real and imaginary part of the modes are indicated by \(\mathcal{R}\) and \(\mathcal{I}\)"%}
+        {% include figure.html path="assets/img/cylinder_dmd.png" title="example image" class="img-fluid rounded z-depth-1" caption="(left) Eigenvalues and (right) DMD modes for flow over 2D cylinder at \(Re_D = 100\); real and imaginary parts of the modes are indicated by \(\mathcal{R}\) and \(\mathcal{I}\), respectively."%}
     </div>
 </div>
 
