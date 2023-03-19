@@ -12,23 +12,6 @@ category: pipeline
     </div>
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/test_cyl.gif" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
 <div class="row justify-content-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/cylinder_dmd.png" title="example image" class="img-fluid rounded z-depth-1" caption="(left) Eigenvalues and (right) DMD modes for flow over 2D cylinder at \(Re_D = 100\); real and imaginary parts of the modes are indicated by \(\mathcal{R}\) and \(\mathcal{I}\), respectively."%}
