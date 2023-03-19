@@ -100,7 +100,18 @@ body.sticky-bottom-footer {
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
-p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+div,
+li,
+span,
+strong {
   color: var(--global-text-color);
 }
 
@@ -108,25 +119,30 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
-table td, table th {
+table td,
+table th {
   color: var(--global-text-color);
 }
 table td {
   font-size: 1rem;
 }
 
-a, table.table a {
+a,
+table.table a {
   color: var(--global-theme-color);
 }
-a:hover, table.table a:hover {
+a:hover,
+table.table a:hover {
   color: var(--global-theme-color);
   text-decoration: underline;
 }
-a:hover:after :not(.nav-item.dropdown), table.table a:hover:after :not(.nav-item.dropdown) {
+a:hover:after :not(.nav-item.dropdown),
+table.table a:hover:after :not(.nav-item.dropdown) {
   width: 100%;
 }
 
-figure, img {
+figure,
+img {
   max-width: 90vw;
 }
 
@@ -168,7 +184,8 @@ blockquote {
   align-items: center;
 }
 
-.citation, .citation-number {
+.citation,
+.citation-number {
   color: var(--global-theme-color);
 }
 
@@ -398,7 +415,8 @@ footer.sticky-bottom {
   justify-content: center;
   display: flow-root;
 }
-.tag-list ul p, .tag-list ul li {
+.tag-list ul p,
+.tag-list ul li {
   list-style: none;
   display: inline-block;
   padding: 1rem 0.5rem;
@@ -471,7 +489,8 @@ footer.sticky-bottom {
   display: flex;
   align-items: center;
 }
-.projects .grid-sizer, .projects .grid-item {
+.projects .grid-sizer,
+.projects .grid-item {
   width: 250px;
   margin-bottom: 10px;
 }
@@ -631,9 +650,11 @@ pre {
   border-radius: 6px;
   padding: 6px 12px;
 }
-pre pre, pre code {
+pre pre,
+pre code {
   background-color: transparent;
   border-radius: 0;
+  margin-bottom: 0;
   padding: 0;
 }
 
@@ -723,6 +744,32 @@ progress::-moz-progress-bar {
   width: 0%;
   display: block;
   height: inherit;
+}
+
+pre {
+  padding: 8px 12px;
+  position: relative;
+  /* Copy code to clipboard button */
+}
+pre .copy {
+  background: var(--global-card-bg-color);
+  border-color: var(--global-bg-color);
+  border-radius: 0.3rem;
+  border-style: solid;
+  color: var(--global-text-color);
+  font-size: medium;
+  opacity: 0;
+  position: absolute;
+  right: 0.25rem;
+  top: 0.25rem;
+}
+pre .copy:active, pre .copy:focus, pre .copy:hover {
+  color: var(--global-hover-color);
+  opacity: 1;
+}
+pre:active .copy, pre:focus .copy, pre:hover .copy {
+  color: var(--global-hover-color);
+  opacity: 1;
 }
 
 /*******************************************************************************
