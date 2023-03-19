@@ -20,8 +20,8 @@ Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 3 </sup>
 
 <!-- <p class="top-one"> </p> -->
 
-<h4 class="content"><span> CFD codes: </span> <a href="https://www.bsc.es/lehmkuhl-oriol"> Alya </a> and <a href="https://nek5000.mcs.anl.gov/"> Nek5000 </a> </h4>
-<h4 class="content"><span> Computational resource: </span>  Compute Canada (Niagara and Mist Clusters)</h4>
+<h4 class="content"><span> CFD codes employed for data generation: </span> <a href="https://www.bsc.es/lehmkuhl-oriol"> Alya </a> and <a href="https://nek5000.mcs.anl.gov/"> Nek5000 </a> </h4>
+<h4 class="content"><span> Visualization tools: </span>  Matlab and Paraview </h4>
 
 <!-- <p class="top-one"> <sup> 1 </sup> Professor, Mechanical Engineering, Queen's University, Kingston, Canada <br>
 <sup> 2 </sup> Group Leader, Large-scale turbulence simulation, Barcelona Supercomputing Center (BSC), Spain <br>
