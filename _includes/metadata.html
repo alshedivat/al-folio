@@ -6,6 +6,11 @@
     {% if site.enable_bing_verification -%}
     <meta name="msvalidate.01" content="{{ site.bing_site_verification }}" />
     {%- endif -%}
+    <!-- Avoid warning on Google Chrome
+        Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.
+        see https://stackoverflow.com/a/75119417
+    -->
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
 {%- endif %}
 
     <!-- Standard metadata -->
