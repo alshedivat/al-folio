@@ -311,13 +311,40 @@ In its default configuration, al-folio will copy the top-level `README.md` to th
 
 #### Upgrading from a previous version
 
-If you installed **al-folio** as described above, you can upgrade to the latest version as follows:
+If you installed **al-folio** as described above, you can configure a [github action](https://github.com/AndreasAugustin/actions-template-sync) to automatically sync your repository with the latest version of the theme:
+
+```yaml
+name: Sync from template
+on:
+    # cronjob trigger
+  schedule:
+  - cron:  "0 0 1 * *"
+  # manual trigger
+  workflow_dispatch:
+jobs:
+  repo-sync:
+    runs-on: ubuntu-latest
+    steps:
+      # To use this repository's private action, you must check out the repository
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: actions-template-sync
+        uses: AndreasAugustin/actions-template-sync@v0.7.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          source_repo_path: alshedivat/al-folio
+          upstream_branch: master
+```
+
+You will receive a pull request within your repository if there are some changes available in the template.
+
+Another option is to manually update your code by following the steps below:
 
 ```bash
 # Assuming the current directory is <your-repo-name>
 $ git remote add upstream https://github.com/alshedivat/al-folio.git
 $ git fetch upstream
-$ git rebase v0.3.5
+$ git rebase v0.8.0
 ```
 
 If you have extensively customized a previous version, it might be trickier to upgrade.
