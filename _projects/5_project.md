@@ -29,7 +29,7 @@ category: pipeline
 
 <p class="top-one"> </p>
 
-<h5> <u>Aim</u> : First, to implement the tools in Python/VTK framework and carry out validation studies on incompressible flow over cylinder. Next, to caputure the dynamical features of "chanelling phenomenon" as discussed in our work on  <a href="http://127.0.0.1:4000/projects/1_project/"> roughness effects on flow over airfoils </a></h5>
+<h5> <u>Aim</u> : First, to implement ROM tools in Python/VTK framework and carry out validation studies for incompressible flow over cylinder test case. Next, use the tools to capture the dynamical features of "chaneling phenomenon" as discussed in our work on  <a href="http://127.0.0.1:4000/projects/1_project/"> roughness effects on flow over airfoils.</a></h5>
 
 <hr>
 <p class="top-one"> </p>
