@@ -4,7 +4,7 @@ title: Wall-modelel large eddy simulations
 description: to understand flow in complex situations
 #img: assets/img/naca_fra.gif
 importance: 3
-category: pipeline
+category: 
 ---
 
 Every project has a beautiful feature showcase page.
