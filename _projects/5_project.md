@@ -29,7 +29,7 @@ category: pipeline
 
 <p class="top-one"> </p>
 
-<h5> <u>Aim</u> : To explore the effects of surface imperfections (which are much larger than local boundary layer thickness) on the developing boundary layer and trailing edge separation characteristics of NACA4412. We performed wall-resolved Large-eddy simulation (wrLES) at a chord-based Reynolds number of \(Re_c = U_o c/\nu=200,000\) and at three angle of attack values of \(\alpha = 5 , 10, 15^o\) </h5>
+<h5> <u>Aim</u> : First, to implement the tools in Python/VTK framework and carry out validation studies on incompressible flow over cylinder. Next, to caputure the dynamical features of "chanelling phenomenon" as discussed in our work on  <a href="http://127.0.0.1:4000/projects/1_project/"> roughness effects on flow over airfoils </a></h5>
 
 <hr>
 <p class="top-one"> </p>
