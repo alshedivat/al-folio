@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Reduced-Order Modeling study
-description: 
-#img: assets/img/anime.gif
+description:
+img: assets/img/test_cyl.gif
 importance: 3
 category: active
 ---
