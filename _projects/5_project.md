@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Reduced-Order Modeling study
+title: Reduced Order Modeling
 description:
 img: assets/img/test_cyl.gif
 importance: 3
