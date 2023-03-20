@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Reduced-Order Modeling study
-description: to capture and analyze dynamically important features of airfoil flows
+description: 
 #img: assets/img/anime.gif
 importance: 3
 category: active
