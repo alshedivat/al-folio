@@ -97,6 +97,12 @@
       </d-appendix>
 
       <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
+      
+      {%- if site.related_blog_posts.enabled -%}
+        {%- if page.related_posts == null or page.related_posts -%}
+          {% include related_posts.html %}
+        {%- endif %}
+      {%- endif %}
 
       {%- if site.disqus_shortname and page.disqus_comments -%}
         {% include disqus.html %}
