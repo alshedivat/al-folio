@@ -29,6 +29,7 @@ Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 3 </sup>
 </p> -->
 
 <hr>
+
 <p class="top-one"> </p>
 
 <h2 class="content"><span> Proper Orthogonal Decomposition (POD) </span> </h2>
@@ -38,6 +39,10 @@ Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 3 </sup>
         {% include figure.html path="assets/img/test_cyl.gif" title="example image" class="img-fluid rounded z-depth-1" caption="Contours of spanwise vorticity for flow over 2D cylinder at \(Re_D = 100\)."%}
     </div>
 </div>
+
+<p class="top-one"> </p>
+
+<h2 class="content"><span> Dynamic Mode Decomposition (DMD) </span> </h2>
 
 <div class="row justify-content-center">
     <div class="col-sm mt-3 mt-md-0">
