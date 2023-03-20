@@ -4,7 +4,7 @@ title: Scalar transport in Taylor-Couette flow
 description:
 img:
 importance: 4
-category: pipeline
+category: unsrt
 ---
 
 Every project has a beautiful feature showcase page.
