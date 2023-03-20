@@ -29,7 +29,7 @@ Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 3 </sup>
 
 <hr>
 
-The focus of the study was to explore the effects of surface imperfections (which are much larger than local boundary layer thickness) on the developing boundary layer and trailing edge separation characteristics of NACA4412. We carried out wall-resolved Large-eddy simulation (LES) at a chord-based Reynolds number of \(200,000 \) and at three angle of attack values of \(\alpha = 5, 10, 15^o\)
+The focus of the study was to explore the effects of surface imperfections (which are much larger than local boundary layer thickness) on the developing boundary layer and trailing edge separation characteristics of NACA4412. We carried out wall-resolved Large-eddy simulation (LES) at a chord-based Reynolds number of \(200,000 \) and at three angle of attack values of \(\alpha = 5\) , 10, 15
 
 <p> Ice depositions can significantly affect aerodynamic performance, thereby increasing cost of operation and degrading airplane safety. The ice-shapes encountered in practice depend on physics governing ice-accretion and can affect the flow in quite different ways. We perform large-eddy simulations of  the flow over an airfoil to understand the effects of leading-edge roughness designed to mimic these ice accretions. The roughness elements protrude outside the boundary layer, which, near the leading edge, is very thin; thus, the configuration does not represent a classical rough-wall boundary layer, but rather the flow over macroscopic obstacles.  A grid convergence study is conducted and results are validated by comparison to numerical and experimental studies in the literature. </p>
 
