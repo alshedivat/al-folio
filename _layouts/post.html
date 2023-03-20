@@ -40,16 +40,14 @@ layout: default
   </header>
 
   <article class="post-content">
-    <div>
-      {% if page.toc %}
-      <div id="table-of-contents">
-        {% toc %}
-      </div>
-      <hr>
-      {% endif %}
-      <div id="markdown-content">
-        {{ content }}
-      </div>
+    {% if page.toc %}
+    <div id="table-of-contents">
+      {% toc %}
+    </div>
+    <hr>
+    {% endif %}
+    <div id="markdown-content">
+      {{ content }}
     </div>
   </article>
 
