@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently an MS CS student at the University of Washington.
+I am currently an MS CS student at the University of Washington. We have made another change.
 
  a recent graduate of the University of Washington (woohoo!) and double majored in Computer Science and Philosophy. I am continuing my education as a Master's student studying computer science. My academic interests include machine learning and scalable algorithms with an eye towards applying these tools to solve problems in biology and medicine.
 
