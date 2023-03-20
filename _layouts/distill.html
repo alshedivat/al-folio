@@ -98,11 +98,13 @@
 
       <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
 
+      <div style="max-width: {{ site.max_width }}; margin: 0 auto;">
       {%- if site.related_blog_posts.enabled -%}
         {%- if page.related_posts == null or page.related_posts -%}
           {% include related_posts.html %}
         {%- endif %}
       {%- endif %}
+      </div>
       
       {%- if site.disqus_shortname and page.disqus_comments -%}
         {% include disqus.html %}
