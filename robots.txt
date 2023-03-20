@@ -1,4 +1,3 @@
+# https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
-
-Sitemap: https://dxd-lab.github.io/sitemap.xml
