@@ -100,9 +100,7 @@
 
       {%- if site.related_blog_posts.enabled -%}
         {%- if page.related_posts == null or page.related_posts -%}
-          <d-related-posts>
           {% include related_posts.html %}
-          </d-related-posts>
         {%- endif %}
       {%- endif %}
       
