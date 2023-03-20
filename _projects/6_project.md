@@ -2,7 +2,7 @@
 layout: page
 title: Study of unsteady airfoil flows
 description:
-img:
+img: assets/img/naca_fra.gif
 importance: 4
 category: active
 ---
