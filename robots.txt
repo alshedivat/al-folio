@@ -1,7 +1,3 @@
----
-permalink: /robots.txt
----
+# https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
-
-Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
