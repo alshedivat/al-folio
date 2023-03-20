@@ -20,7 +20,7 @@ Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 3 </sup>
 
 <!-- <p class="top-one"> </p> -->
 
-<h4 class="content"><span> CFD codes: </span> <a href="https://www.bsc.es/research-development/research-areas/engineering-simulations/alya-high-performance-computational"> Alya </a> </h4>
+<h4 class="content"><span> CFD code: </span> <a href="https://www.bsc.es/research-development/research-areas/engineering-simulations/alya-high-performance-computational"> Alya </a> </h4>
 <h4 class="content"><span> Resources: </span>  Compute Canada (Niagara/Mist Cluster)</h4>
 
 <!-- <p class="top-one"> <sup> 1 </sup> Professor, Mechanical Engineering, Queen's University, Kingston, Canada <br>
