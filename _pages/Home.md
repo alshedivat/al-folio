@@ -18,7 +18,9 @@ social: true  # includes social icons at the bottom of the page
 
 ### About me
 
-I am a PhD Student in Economics at [Columbia University](https://econ.columbia.edu/). Previously I studied at [the University of Edinburgh](https://www.ed.ac.uk/economics) and was a Visiting Researcher at [Imperial College](https://www.imperial.ac.uk/business-school/).      
+Currently I am a PhD Student in Economics at [Columbia University](https://econ.columbia.edu/). In the Summer of 2023 I will join [Golub Capital Social Impact Lab](https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil) at Stanford GSB as a Postdoctoral	Scholar.
+
+Previously I studied at [the University of Edinburgh](https://www.ed.ac.uk/economics) and was a Visiting Researcher at [Imperial College](https://www.imperial.ac.uk/business-school/).      
 
 My research interests include Industrial Organization, Public Economics, Bayesian Statistics and Natural Language Processing.
 
