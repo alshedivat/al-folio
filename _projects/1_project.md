@@ -28,6 +28,7 @@ Dr. <a href="https://www.bsc.es/miro-jane-arnau"> Arnau Miro </a> <sup> 3 </sup>
 </p>
 
 <hr>
+<hr>
 
 <p class="top-one"> </p>
 
