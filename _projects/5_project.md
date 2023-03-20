@@ -14,7 +14,7 @@ category: pipeline
 </style>
 
 
-<h3> Collaborators: <a href="https://www.bsc.es/research-development/research-areas/engineering-simulations/alya-high-performance-computational"> Gianmarco D'Alessandro </a> <sup> 1 </sup>
+<h3> Collaborators: <a href="https://www.researchgate.net/profile/Gianmarco-Dalessandro-2"> Gianmarco D'Alessandro </a> <sup> 1 </sup>
 
 <h4 class="content"><span> Simulation codes: </span> <a href="https://www.bsc.es/research-development/research-areas/engineering-simulations/alya-high-performance-computational"> Alya </a> and <a href="https://nek5000.mcs.anl.gov/"> Nek5000 </a> </h4>
 <h4 class="content"><span> Visualization tools: </span>  Matlab and Paraview </h4>
