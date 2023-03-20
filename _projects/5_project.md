@@ -4,7 +4,7 @@ title: Reduced-Order Modeling study
 description: to capture and analyze dynamically important features of airfoil flows
 #img: assets/img/anime.gif
 importance: 3
-category: pipeline
+category: active
 ---
 
 <style>

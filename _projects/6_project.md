@@ -4,7 +4,7 @@ title: Study of unsteady airfoil flows
 description:
 img:
 importance: 4
-category: pipeline
+category: active
 ---
 
 <style>
