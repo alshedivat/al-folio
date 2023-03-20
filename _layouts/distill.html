@@ -98,7 +98,7 @@
 
       <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
 
-      <div style="max-width: {{ site.max_width }}; margin: 0 auto; margin-bottom: 100px;">
+      <div style="max-width: {{ site.max_width }}; margin: 0 auto; margin-bottom: 50px;">
       {%- if site.related_blog_posts.enabled -%}
         {%- if page.related_posts == null or page.related_posts -%}
           {% include related_posts.html %}
