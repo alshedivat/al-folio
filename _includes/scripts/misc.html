@@ -10,6 +10,24 @@
   <script defer src="{{ '/assets/js/zoom.js' | relative_url }}"></script>
 {%- endif -%}
 
+  <!-- Bootstrap Table -->
+  <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.3/dist/bootstrap-table.min.css">
+  <script defer src="https://unpkg.com/bootstrap-table@1.21.3/dist/bootstrap-table.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('table').attr('data-toggle','table');
+      // $('table').addClass('table-sm');
+      $('table').addClass('table-hover');
+
+      if (document.documentElement.getAttribute("data-theme") == "dark") {
+        $('table').addClass('table-dark');
+      } else {
+        $('table').removeClass('table-dark');
+      }
+
+      });
+  </script>
+
   <!-- Load Common JS -->
   <script defer src="{{ '/assets/js/common.js' | relative_url }}"></script>
   <script defer src="{{ '/assets/js/copy_code.js' | relative_url }}" type="text/javascript"></script>
