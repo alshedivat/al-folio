@@ -185,37 +185,6 @@
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
           </div>
-          {% if site.badges %}
-          <div class="badges">
-            {%- if site.badges.altmetric_badge %}
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"
-              {% if entry.eprint %}
-                data-arxiv-id="{{ entry.eprint }}"
-              {% elsif entry.doi %}
-                data-doi="{{ entry.doi }}"
-              {% elsif entry.altmetric %}
-                data-altmetric-id="{{ entry.altmetric }}"
-              {% elsif entry.pmid %}
-                data-pmid="{{ entry.pmid }}"
-              {% elsif entry.isbn %}
-                data-isbn="{{ entry.isbn }}"
-              {% endif %}
-              ></span>
-            {%- endif %}
-            {%- if site.badges.dimensions_badge %}
-              <span class="__dimensions_badge_embed__"
-              {% if entry.doi %}
-                data-doi="{{ entry.doi }}"
-              {% else if entry.pmid %}
-                data-pmid="{{ entry.pmid }}"
-              {% else %}
-                data-id="{{ entry.dimensions }}"
-              {% endif %}
-              data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 6px;"></span>
-            {%- endif %}
-          </div>
-          {%- endif %}
-
           {% if entry.abstract -%}
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
@@ -230,4 +199,37 @@
           </div>
           {%- endif %}
         </div>
+        {% if site.badges %}
+          <div class="col-sm-2" style="display:flex;justify-content:end">
+            <ul>
+            {%- if site.badges.altmetric_badge %}
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="5" data-badge-type="donut" data-badge-popover="top"
+              {% if entry.eprint %}
+                data-arxiv-id="{{ entry.eprint }}"
+              {% elsif entry.doi %}
+                data-doi="{{ entry.doi }}"
+              {% elsif entry.altmetric %}
+                data-altmetric-id="{{ entry.altmetric }}"
+              {% elsif entry.pmid %}
+                data-pmid="{{ entry.pmid }}"
+              {% elsif entry.isbn %}
+                data-isbn="{{ entry.isbn }}"
+              {% endif %}
+              ></span>
+            {%- endif %}
+
+            {%- if site.badges.dimensions_badge %}
+              <span class="__dimensions_badge_embed__"
+              {% if entry.doi %}
+                data-doi="{{ entry.doi }}"
+              {% else if entry.pmid %}
+                data-pmid="{{ entry.pmid }}"
+              {% else %}
+                data-id="{{ entry.dimensions }}"
+              {% endif %}
+              data-hide-zero-citations="true" data-style="small_circle" data-legend="hover-bottom"></span>
+            {%- endif %}
+          </ul>
+          </div>
+          {%- endif %}
       </div>

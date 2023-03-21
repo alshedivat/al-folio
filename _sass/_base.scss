@@ -696,6 +696,27 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
+      .altmetric-embed{
+        a {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+  h2.year + ol.bibliography {
+    li:first-child{
+     .altmetric-embed, .__dimensions_badge_embed__{
+        a {
+          margin-bottom: 15px;
+          margin-top: 32px;
+        }
+      }
+      .altmetric-embed ~ .__dimensions_badge_embed__{
+        a {
+          margin-bottom: 0px;
+          margin-top: 0px;
+        }
+      }
     }
   }
 }
