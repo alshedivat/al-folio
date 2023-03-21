@@ -203,7 +203,7 @@
           <div class="col-sm-2" style="display:flex;justify-content:end">
             <ul>
             {%- if site.badges.altmetric_badge %}
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="5" data-badge-type="donut" data-badge-popover="top"
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="donut" data-badge-popover="top"
               {% if entry.eprint %}
                 data-arxiv-id="{{ entry.eprint }}"
               {% elsif entry.doi %}
