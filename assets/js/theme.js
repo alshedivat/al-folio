@@ -19,15 +19,14 @@ let setTheme = (theme) =>  {
 
     // Add class to tables.
     let tables = document.getElementsByTagName('table');
-    tables.forEach(element => {
+    for(let i = 0; i < tables.length; i++) {
       if (theme == "dark") {
-        element.classList.add('table-dark');
+        tables[i].classList.add('table-dark');
       } else {
-        element.classList.remove('table-dark');
+        tables[i].classList.remove('table-dark');
       }
-    });
-  }
-  else {
+    }
+  } else {
     document.documentElement.removeAttribute("data-theme");
   }
   localStorage.setItem("theme", theme);
