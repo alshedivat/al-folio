@@ -832,8 +832,11 @@ pre {
 }
 
 .btn-group.dropdown {
+  .btn {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
   .btn-secondary.dropdown-toggle {
-    background-color: var(--global-bg-color);
     border: 1px solid var(--global-divider-color);
 
     .page-size {
@@ -842,7 +845,7 @@ pre {
 
     &:not(.active) {
       background-color: var(--global-bg-color) !important;
-      color: var(--global-text-color) !important;
+      color: var(--global-text-color);
     }
 
     &:hover {
@@ -860,7 +863,7 @@ pre {
     color: var(--global-text-color);
 
     &:hover {
-      color: var(--global-hover-color) !important;
+      color: var(--global-hover-color);
     }
   }
 
@@ -869,7 +872,7 @@ pre {
     color: var(--global-hover-text-color) !important;
 
     &:hover {
-      color: var(--global-hover-text-color) !important;
+      color: var(--global-hover-text-color);
     }
   }
 }
