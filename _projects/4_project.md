@@ -40,7 +40,7 @@ Artiface of Objectivity: why algorithms are necessarily value-laden (in progress
   </div>
 </div>
 
-Getting Real About Neural Data Science (in progress)
+Getting Real About Manifolds: Data models and exploratory concept formation in computational cognive neuroscience (in progress)
 
 <p>  <button class="btn " type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
  Abstract
