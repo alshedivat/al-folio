@@ -88,7 +88,7 @@ nlat=len(lat)
 ntime=len(time)
 
 # Here my SLP data is in monthly time dimension.
-#I will take average over the months to make years
+# I will take average over the months to make years
 mo=12
 yr=ntime//mo
 year=linspace(1979,2017,39)
