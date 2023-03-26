@@ -16,8 +16,7 @@ nav_order: 0
 {% endfor %}
 
 </div>
-
-## **Publication**
+<h1 style="text-align:center;color:red;font-size:40px;"><strong>Publications</strong></h1>      
 
 #### **Ph.D. Thesis**
 
@@ -72,16 +71,28 @@ Influence of Tropical Diabatic Heating and Midlatitude Static Stability on Subtr
 
 
 ## **DOCTORAL RESEARCH**
-Uneven heating of the Earth’s surface acts as the primary driving force behind large-scale atmospheric circulation between the tropics and high latitudes. Warm air rises in the tropics and descends over the subtropics of the both hemispheres and completes a circulation pattern known as Hadley Circulation (Fig.1). The descending branch of the Hadley circulation creates a high-pressure system in the subtropical regions of the both hemispheres. Radiative cooling is the primary mechanism that allows subtropical air to descend. These high-pressure systems produce an anticyclonic atmospheric circulation over the surface of subtropical oceans in both hemispheres known as subtropical anticyclones (SA) (Fig.2).
-<!-- can't add image here -->
+<p style="text-align:justify;">
+Uneven heating of the Earth’s surface acts as the primary driving force behind large-scale atmospheric circulation between the tropics and high latitudes. Warm air rises in the tropics and descends over the subtropics of the both hemispheres and completes a circulation pattern known as Hadley Circulation (Fig.1).</p>
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
+<div style="text-align:center;">
+    <div>
         {% include figure.html path="assets/img/Research/research_page_image.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Research/slp.gif" class="img-fluid rounded z-depth-1"  %}
-    </div>
+    <p style="text-align:center;"><strong>Figure (1): Hadley circulation due to uneven heating on earth surface. <a href="https://www.youtube.com/watch?v=Ye45DGkqUkE" title="Source" style="color:inherit;">(Source)</a></strong></p>
+
 </div>
 
-These SAs are an important element of the coupled ocean-atmosphere system within the subtropics dictating oceanic conditions. Although SAs are associated with the descending branches of the Hadley cells, the various mechanisms that control their respective strengths, seasonality, internal variability and response to climate change are still debated within the scientific literature. For example, seasonal cycles in the area, intensity, and position of the SAs in both hemispheres show distinct patterns. If Hadley cell decent were the only mechanism controlling the strength of the SAs one would expect each SA to reach their maximum strength in local winter when the Hadley cell is at its strongest within the respective hemisphere. While this is true for the Southern Hemisphere with SAs strength generally peaking during June-July-August (JJA) within the Southern Hemisphere (SH), this does not occur in the Northern Hemisphere (NH). SAs in the NH also peak in JJA despite that fact that the NH branch of the Hadley cell is at its seasonal minimum (Hoskins 1996). This aspect raises the central question: what drives the strength and structure of the SAs?
+<p style="text-align:justify;">
+The descending branch of the Hadley circulation creates a high-pressure system in the subtropical regions of the both hemispheres. Radiative cooling is the primary mechanism that allows subtropical air to descend. These high-pressure systems produce an anticyclonic atmospheric circulation over the surface of subtropical oceans in both hemispheres known as subtropical anticyclones (SA) (Fig.2). </p>
+<!-- caption -->
+
+
+<div>
+    <div>
+        {% include figure.html path="assets/img/Research/slp.gif" class="img-fluid rounded z-depth-1"  zoomable=true %}
+    </div>
+    <p style="text-align:center;"><strong> Figure (2): Subtropical Anticyclone (SA) shown by 1020 hPa SLP climatology (contoured) calculated from Era-interim (1979-2016) reanalysis data.</strong> </p>
+</div>
+
+<p style="text-align:justify;">
+These SAs are an important element of the coupled ocean-atmosphere system within the subtropics dictating oceanic conditions. Although SAs are associated with the descending branches of the Hadley cells, the various mechanisms that control their respective strengths, seasonality, internal variability and response to climate change are still debated within the scientific literature. For example, seasonal cycles in the area, intensity, and position of the SAs in both hemispheres show distinct patterns. If Hadley cell decent were the only mechanism controlling the strength of the SAs one would expect each SA to reach their maximum strength in local winter when the Hadley cell is at its strongest within the respective hemisphere. While this is true for the Southern Hemisphere with SAs strength generally peaking during June-July-August (JJA) within the Southern Hemisphere (SH), this does not occur in the Northern Hemisphere (NH). SAs in the NH also peak in JJA despite that fact that the NH branch of the Hadley cell is at its seasonal minimum (Hoskins 1996). This aspect raises the central question: what drives the strength and structure of the SAs? </p>
