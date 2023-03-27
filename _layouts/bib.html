@@ -148,6 +148,9 @@
           {%- if entry.github %}
             <a href="{{ entry.github }}" class="btn btn-sm z-depth-0" role="button">GitHub</a>
           {%- endif %}
+          {%- if entry.video %}
+            <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
+          {%- endif %}
           </div>
 
           {% if entry.abstract -%}
