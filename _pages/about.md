@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: 
           <a href='#'> Infection Control Doctor| Community Health and Preventive Medicine Doctor. </a> 
-          <p href='#'> " My favorite quote. Stay humble stay hungry. Steve Jobs" </p> 
+          <p href='#'> " My favorite quote. Stay hungry stay foolish. Steve Jobs" </p> 
 
 profile:
   align: right
