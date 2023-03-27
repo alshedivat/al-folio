@@ -11,24 +11,18 @@ Bacteriological Characteristics, Antibiotic Resistance And Some Facilities Facto
 To Patients With Urinary Tract Infections at Hoan My Sai Gon Hospital In 2022. 
 
 
-Urinary tract infection (UTI) is one of the common infections and is a matter of concern to the health sector due to its high incidence and recurrence rate, and UTIs are common among the infections related to urinary tract infections. Medical care was reported in many reports with an infection rate of 12.9% and 2/3 were catheter related.
+Urinary tract infection (UTI) is one of the common infections and is a matter of concern to the health sector due to its high incidence and recurrence rate. The most common UTIs among healthcare-associated infections were reported in many reports with an infection rate of 12.9% and two-thirds of which were catheter-related.
 
 UTIs are tending to develop complicatedly in the direction of multi-resistant bacteria against
 many drugs including new generation drugs.
 
-In addition, the appropriate empiric antibiotic prescription is still low compared to the guideline
-lead to treatment of UTI 54.5%; Compared with the results of the antibiogram is 71.4% and changes in resistance
-born after having antibiotic results is 28.6% (2022) in Urology Department of University Hospital
-School of Medicine and Pharmacy in Ho Chi Minh City. Significant extent of antibiotic use
-suitable for the treatment of urinary tract infections in the emergency department.
+In addition, the empiric antibiotic indications is still low compared to the guideline of treatment of UTI and the antibiogram results is 71.4% (reported in Urology Department of Ho Chi Minh University of Medicine and Pharmacy). Significant amount of inappropriate antibiotic is used in the treatment of UTIs in the emergency department.
 
-The correct diagnosis and appropriate antibiotic treatment of the causative agent and appropriate
-with antibiogram is the first step to reduce multidrug resistance and shorten the hospital stay for patients.
+Correct diagnosis and correct antibiotic treatment are the first steps to reducing multidrug resistance and shortening the length of hospital stay for patients.
 
-Hoan My Saigon Hospital annually records many cases of urinary tract infections with positive culture results and antibiotic-resistant bacteria.
+Hoan My Saigon Hospital annually records many cases of urinary tract infections with positive results and antibiotic-resistant bacteria.
 
-Updating on pathogenic bacteria, multi-antibiotic resistance models and employment is very important to help clinicians update the treatment of UTIs for patients at Hoan My Saigon Hospital and the appropriate antibiotic management program.
-
+Updating the situation of pathogenic bacteria, the multi-antibiotic resistance model is very important to help doctors update the treatment direction of UTIs for patients at the hospital.
 
 Therefore, we conducted a study with the topic "Bacteria characteristics, antibiotic resistance and some factors related to urinary tract infection patients at Hoan My Saigon Hospital in 2022" with the following objectives:
 
