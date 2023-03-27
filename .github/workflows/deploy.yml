@@ -40,28 +40,28 @@ jobs:
     - name: Install and Build 🔧
       run: |
         npm install -g mermaid.cli
-###### master
-#        bundle exec jekyll build
-#    - name: Deploy 🚀
-#      if: github.event_name != 'pull_request'
-#      uses: JamesIves/github-pages-deploy-action@v4
-#      with:
-#        folder: _site
-###### master
+##### master
+       bundle exec jekyll build
+   - name: Deploy 🚀
+     if: github.event_name != 'pull_request'
+     uses: JamesIves/github-pages-deploy-action@v4
+     with:
+       folder: _site
+##### master
 
-    - name: Setup deploy options
-      id: setup
-      run: |
-        git config --global user.name "GitHub Action"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        if [[ ${GITHUB_REF} = refs/pull/*/merge ]]; then # pull request
-          echo "SRC_BRANCH=${GITHUB_HEAD_REF}" >> $GITHUB_OUTPUT
-          echo "NO_PUSH=--no-push" >> $GITHUB_OUTPUT
-        elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. master, source etc
-          echo "SRC_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
-        fi
-        echo "DEPLOY_BRANCH=cf-pages" >> $GITHUB_OUTPUT
-    - name: Deploy website 
-      run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
-                    --src ${{ steps.setup.outputs.SRC_BRANCH }} 
-                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
+#     - name: Setup deploy options
+#       id: setup
+#       run: |
+#         git config --global user.name "GitHub Action"
+#         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+#         if [[ ${GITHUB_REF} = refs/pull/*/merge ]]; then # pull request
+#           echo "SRC_BRANCH=${GITHUB_HEAD_REF}" >> $GITHUB_OUTPUT
+#           echo "NO_PUSH=--no-push" >> $GITHUB_OUTPUT
+#         elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. master, source etc
+#           echo "SRC_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
+#         fi
+#         echo "DEPLOY_BRANCH=cf-pages" >> $GITHUB_OUTPUT
+#     - name: Deploy website 
+#       run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
+#                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 
+#                     --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
