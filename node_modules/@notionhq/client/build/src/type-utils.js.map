@@ -1,0 +1,1 @@
+{"version":3,"file":"type-utils.js","sourceRoot":"","sources":["../../src/type-utils.ts"],"names":[],"mappings":";AAAA;;GAEG","sourcesContent":["/**\n * Utilities for working with typescript types\n */\n\n/**\n * Assert U is assignable to T.\n */\nexport type Assert<T, U extends T> = U\n"]}
