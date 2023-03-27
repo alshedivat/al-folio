@@ -1,81 +1,86 @@
 ---
 layout: page
 title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+description: A minimum barrier distance for multivariate images with applications
+img: assets/img/project3_1.png
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<b>Abstract: </b>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Distance transforms and the saliency maps they induce are widely used in image processing, computer
+vision, and pattern recognition. The minimum barrier distance (MBD) has proved to provide accurate
+results in this context. Recently, Geraud ´ et al. have presented a fast-to-compute alternative definition
+of this distance, called the Dahu pseudo-distance. This distance is efficient, powerful, and have many
+important applications. However, it is restricted to grayscale images. In this article we revisit this pseudo-distance. First, we offer an extension to multivariate image. We call this extension the vectorial
+Dahu pseudo-distance. We provide an efficient way to compute it. This new version is not only able
+to deal with color images but also multi-spectral and multi-modal ones. Besides, through our benchmarks, we demonstrate how robust and competitive the vectorial Dahu pseudo-distance is, compared
+to other MB-based distances. This shows that this distance is promising for salient object detection,
+shortest path finding, and object segmentation. Secondly, we combine the Dahu pseudo-distance with
+the geodesic distance to take into account spatial information from the image. This combination of
+distances provides efficient results in many applications such as segmentation of thin elements or path
+finding in images.
+
+
+
+
+
+<b>Applications: </b>
+
+
+<b>Salient Objects Detection: </b>
+
+
+We consider all pixels on the boundary image as the background, and respectively compute the distance map transform for every pixels in the image.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project3_3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+     Comparison on color images of saliency maps deduced from our vectorial Dahu pseudo-distance on color images with saliency maps deduced from state-of-the-art methods.
 </div>
+
+
+<b>Shortest path finding: </b>
+
+
+Our distance also used for shortest path finding application. Our method is insensitive to noise and to blurring.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project3_5.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Shortest path finding in images. The input images and the end points (depicted in red) of the path we want to find are shown on each picture. Results are given for Dahu pseudo-distance, Waterflow-MBD and MST-MBD.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+
+<b>Dahu pseudo-distance on multimodal and multispectral images: </b>
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+Segmentation on multimodal medical images.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project3_6.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    White matter segmentation using the vectorial Dahu pseudo-distance. 
 </div>
 
+Segmentation on Satellite multi-spectral images.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project3_7.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-```
-{% endraw %}
+<div class="caption">
+    Object segmentation on multispectral images. Objects are manually selected with a marker (in red in pictures). Images C1-C5 are extracted by using a principal component analysis (PCA) algorithm. 
+</div>

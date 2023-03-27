@@ -86,14 +86,6 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://daviddmc.github.io/" target="_blank">★</a>
 <a href="https://andreaskuster.ch/" target="_blank">★</a>
 <a href="https://ellisbrown.github.io/" target="_blank">★</a>
-<a href="https://noman-bashir.github.io/" target="_blank">★</a>
-<a href="https://djherron.github.io/" target="_blank">★</a>
-<a href="https://rodosingh.github.io/" target="_blank">★</a>
-<a href="https://vdivakar.github.io/" target="_blank">★</a>
-<a href="https://george-gca.github.io/" target="_blank">★</a>
-<a href="https://bashirkazimi.github.io/" target="_blank">★</a>
-<a href="https://dohaison.github.io/" target="_blank">★</a>
-<a href="https://raphaaal.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -112,23 +104,19 @@ Feel free to add your own page(s) by sending a PR.
 <td>Courses</td>
 <td>
 CMU PGM (<a href="https://sailinglab.github.io/pgm-spring-2019/" target="_blank">S-19</a>) <br>
-CMU DeepRL (<a href="https://cmudeeprl.github.io/703website_f19/" target="_blank">F-19</a>, <a href="https://cmudeeprl.github.io/Spring202010403website/" target="_blank">S-20</a>, <a href="https://cmudeeprl.github.io/703website/" target="_blank">F-20</a>, <a href="https://cmudeeprl.github.io/403_website/" target="_blank">S-21</a>, <a href="https://cmudeeprl.github.io/703website_f21/" target="_blank">F-21</a>, <a href="https://cmudeeprl.github.io/403website_s22/" target="_blank">S-22</a>) <br>
-CMU MMML (<a href="https://cmu-multicomp-lab.github.io/mmml-course/fall2020/" target="_blank">F-20</a>, <a href="https://cmu-multicomp-lab.github.io/mmml-course/fall2022/" target="_blank">F-22</a>) <br>
-CMU AMMML (<a href="https://cmu-multicomp-lab.github.io/adv-mmml-course/spring2022/" target="_blank">S-22</a>, <a href="https://cmu-multicomp-lab.github.io/adv-mmml-course/spring2023/" target="_blank">S-23</a>) <br>
-CMU ASI (<a href="https://cmu-multicomp-lab.github.io/asi-course/spring2023/" target="_blank">S-23</a>) <br>
+CMU DeepRL (<a href="https://cmudeeprl.github.io/703website_f19/" target="_blank">F-19</a>, <a href="https://cmudeeprl.github.io/Spring202010403website/" target="_blank">S-20</a>, <a href="https://cmudeeprl.github.io/703website/" target="_blank">F-20</a>, <a href="https://cmudeeprl.github.io/403_website/"target="_blank">S-21</a>) <br>
+CMU MMML (<a href="https://cmu-multicomp-lab.github.io/mmml-course/fall2020/" target="_blank">F-20</a>) <br>
 CMU Distributed Systems (<a href="https://andrew.cmu.edu/course/15-440/" target="_blank">S-21</a>)
 </td>
 </tr>
 <tr>
 <td>Conferences & workshops</td>
 <td>
-ICLR Blog Post Track (<a href="https://iclr-blogposts.github.io/2023/" target="_blank">2023</a>) <br>
 ML Retrospectives (NeurIPS: <a href="https://ml-retrospectives.github.io/neurips2019/" target="_blank">2019</a>, <a href="https://ml-retrospectives.github.io/neurips2020/" target="_blank">2020</a>; ICML: <a href="https://ml-retrospectives.github.io/icml2020/" target="_blank">2020</a>) <br>
 HAMLETS (NeurIPS: <a href="https://hamlets-workshop.github.io/" target="_blank">2020</a>) <br>
 ICBINB (NeurIPS: <a href="https://i-cant-believe-its-not-better.github.io/" target="_blank">2020</a>, <a href="https://i-cant-believe-its-not-better.github.io/neurips2021/" target="_blank">2021</a>) <br>
 Neural Compression (ICLR: <a href="https://neuralcompression.github.io/" target="_blank">2021</a>) <br>
-Score Based Methods (NeurIPS: <a href="https://score-based-methods-workshop.github.io/" target="_blank">2022</a>)<br>
-Images2Symbols (CogSci: <a href="https://images2symbols.github.io/" target="_blank"> 2022</a>)
+Score Based Methods (NeurIPS: <a href="https://score-based-methods-workshop.github.io/" target="_blank">2022</a>)
 </td>
 </tr>
 </table>
@@ -162,7 +150,6 @@ Images2Symbols (CogSci: <a href="https://images2symbols.github.io/" target="_bla
       - [Theming](#theming)
       - [Social media previews](#social-media-previews)
       - [Atom (RSS-like) Feed](#atom-rss-like-feed)
-      - [Related posts](#related-posts)
   * [Contributing](#contributing)
     + [Core Contributors](#core-contributors)
   * [License](#license)
@@ -201,17 +188,26 @@ Note that when you run it for the first time, it will download a docker image of
 
 Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`docker-compose up`) to render the webpage with all you changes. Also, make sure to commit your final changes.
 
-> To change port number, you can edit `docker-compose.yml` file.
-
-<details><summary>(click to expand) <strong>Build your own docker image:</strong></summary>
+<details><summary>(click to expand) <strong>Build your own docker image (more advanced):</strong></summary>
 
 > Note: this approach is only necessary if you would like to build an older or very custom version of al-folio.
 
-Build and run a new docker image using:
+First, download the necessary modules and install them into a docker image called `al-folio:Dockerfile` (this command will build an image which is used to run your website afterwards. Note that you only need to do this step once. After you have the image, you no longer need to do this anymore):
+
+
+```bash
+$ docker-compose -f docker-local.yml build
+```
+
+Run the website!
+
 ```bash
 $ docker-compose -f docker-local.yml up
 ```
-> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of previous command! It will download ruby and jekyll and install all ruby packages again from scratch.
+
+> To change port number, you can edit `docker-compose.yml` file.
+
+> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again! It will download ruby and jekyll and install all ruby packages again from scratch.
 
 </details>
 
@@ -219,13 +215,13 @@ $ docker-compose -f docker-local.yml up
 
 #### Local Setup (Standard)
 
-Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first click [Use this template](https://docs.github.com/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) above the file list, create a new repository at `github.com:<your-username>/<your-repo-name>` from `github.com:alshedivat/al-folio` and do the following:
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first [fork](https://guides.github.com/activities/forking/) the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
 
 ```bash
 $ git clone git@github.com:<your-username>/<your-repo-name>.git
 $ cd <your-repo-name>
 $ bundle install
-$ bundle exec jekyll serve --lsi
+$ bundle exec jekyll serve
 ```
 
 Now, feel free to customize the theme however you like (don't forget to change the name!).
@@ -253,15 +249,18 @@ Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0
 
 **To enable automatic deployment:**
 1. Click on **Actions** tab and **Enable GitHub Actions**; do not worry about creating any workflows as everything has already been set for you.
-2. Go to Settings -> Actions -> General -> Workflow permissions, and give **Read and write permissions** to GitHub Actions
-3. Make any other changes to your webpage, commit, and push. This will automatically trigger the **Deploy** action.
-4. Wait for a few minutes and let the action complete. You can see the progress in the **Actions** tab. If completed successfully, in addition to the `master` branch, your repository should now have a newly built `gh-pages` branch.
-5. Finally, in the **Settings** of your repository, in the Pages section, set the branch to `gh-pages` (**NOT** to `master`). For more details, see [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
+2. Make any other changes to your webpage, commit, and push. This will automatically trigger the **Deploy** action.
+3. Wait for a few minutes and let the action complete. You can see the progress in the **Actions** tab. If completed successfully, in addition to the `master` branch, your repository should now have a newly built `gh-pages` branch.
+4. Finally, in the **Settings** of your repository, in the Pages section, set the branch to `gh-pages` (**NOT** to `master`). For more details, see [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
 
 
 <details><summary>(click to expand) <strong>Manual deployment to GitHub Pages:</strong></summary>
 
-If you need to manually re-deploy your website to GitHub pages, go to Actions, click "Deploy" in the left sidebar, then "Run workflow."
+If you need to manually re-deploy your website to GitHub pages, run the deploy script from the root directory of your repository:
+```bash
+$ ./bin/deploy
+```
+uses the `master` branch for the source code and deploys the webpage to `gh-pages`.
 
 </details>
 
@@ -269,7 +268,7 @@ If you need to manually re-deploy your website to GitHub pages, go to Actions, c
 
 If you decide to not use GitHub Pages and host your page elsewhere, simply run:
 ```bash
-$ bundle exec jekyll build --lsi
+$ bundle exec jekyll build
 ```
 which will (re-)generate the static webpage in the `_site/` folder.
 Then simply copy the contents of the `_site/` foder to your hosting server.
@@ -289,7 +288,7 @@ Firstly, from the deployment repo dir, checkout the git branch hosting your publ
 
 Then from the website sources dir (commonly your al-folio fork's clone):
 ```bash
-$ bundle exec jekyll build --lsi --destination $HOME/repo/publishing-source
+$ bundle exec jekyll build --destination $HOME/repo/publishing-source
 ```
 
 This will instruct jekyll to deploy the website under `$HOME/repo/publishing-source`.
@@ -315,40 +314,13 @@ In its default configuration, al-folio will copy the top-level `README.md` to th
 
 #### Upgrading from a previous version
 
-If you installed **al-folio** as described above, you can configure a [github action](https://github.com/AndreasAugustin/actions-template-sync) to automatically sync your repository with the latest version of the theme:
-
-```yaml
-name: Sync from template
-on:
-    # cronjob trigger
-  schedule:
-  - cron:  "0 0 1 * *"
-  # manual trigger
-  workflow_dispatch:
-jobs:
-  repo-sync:
-    runs-on: ubuntu-latest
-    steps:
-      # To use this repository's private action, you must check out the repository
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: actions-template-sync
-        uses: AndreasAugustin/actions-template-sync@v0.7.3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          source_repo_path: alshedivat/al-folio
-          upstream_branch: master
-```
-
-You will receive a pull request within your repository if there are some changes available in the template.
-
-Another option is to manually update your code by following the steps below:
+If you installed **al-folio** as described above, you can upgrade to the latest version as follows:
 
 ```bash
 # Assuming the current directory is <your-repo-name>
 $ git remote add upstream https://github.com/alshedivat/al-folio.git
 $ git fetch upstream
-$ git rebase v0.8.0
+$ git rebase v0.3.5
 ```
 
 If you have extensively customized a previous version, it might be trickier to upgrade.
@@ -363,7 +335,7 @@ If rebasing is too complicated, we recommend to re-install the new version of th
 Here are some frequently asked questions.
 If you have a different question, please ask using [Discussions](https://github.com/alshedivat/al-folio/discussions/categories/q-a).
 
-1. **Q:** After I create a new repository from this template and setup the repo, I get a deployment error.
+1. **Q:** After I fork and setup the repo, I get a deployment error.
    Isn't the website supposed to correctly deploy automatically? <br>
    **A:** Yes, if you are using release `v0.3.5` or later, the website will automatically and correctly re-deploy right after your first commit.
    Please make some changes (e.g., change your website info in `_config.yml`), commit, and push.
@@ -391,15 +363,6 @@ If you have a different question, please ask using [Discussions](https://github.
   RSS Feed plugin works with these correctly set up fields: `title`, `url`, `description` and `author`.
   Make sure to fill them in an appropriate way and try again.
 
-5. **Q:** My site doesn't work when I enable `related_blog_posts`. Why? <br>
-   **A:** This is probably due to the [classifier reborn](https://github.com/jekyll/classifier-reborn) plugin, which is used to calculate
-   related posts. If the error states `Liquid Exception: Zero vectors can not be normalized...`, it means that it could not calculate related
-   posts for a specific post. This is usually caused by [empty or really small blog posts](https://github.com/jekyll/classifier-reborn/issues/64)
-   without meaningful words (i.e. only [stop words](https://en.wikipedia.org/wiki/Stop_words)) or even 
-   [specific characters](https://github.com/jekyll/classifier-reborn/issues/194) you used in your posts. Also, the calculus for similar posts are
-   made for every `post`, which means every page that uses `layout: post`, including the announcements. To change this behavior, simply add
-   `related_posts: false` to the front matter of the page you don't want to display related posts on.
-   
 
 ## Features
 
@@ -462,8 +425,7 @@ There are several custom bibtex keywords that you can use to affect how the entr
 - `poster`: Adds a "Poster" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
 - `slides`: Adds a "Slides" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
 - `website`: Adds a "Website" button redirecting to the specified link
-- `altmetric`: Adds an [Altmetric](https://www.altmetric.com/) badge (Note: if DOI is provided just use `true`, otherwise only add the altmetric identifier here - the link is generated automatically)
-- `dimensions`: Adds an [Dimensions](https://www.dimensions.ai/) badge (Note: if DOI or PMID is provided just use `true`, otherwise only add the dimensions identifier here - the link is generated automatically)
+- `altmetric`: Adds an [Altmetric](https://www.altmetric.com/) badge (Note: only add the altmetric identifier here - the link is generated automatically)
 
 You can implement your own buttons by editing the bib.html file.
 
@@ -522,8 +484,7 @@ Easily create beautiful grids within your blog posts and project pages:
 ### Other features
 
 #### GitHub repositories and user stats
-**al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy)
-to display GitHub repositories and user stats on the the `/repositories/` page.
+**al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) to display GitHub repositories and user stats on the the `/repositories/` page.
 
 Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the the `/repositories/` page.
 
@@ -536,18 +497,6 @@ You may also use the following codes for displaying this in any other pages.
     {% include repository/repo_user.html username=user %}
   {% endfor %}
 </div>
-{% endif %}
-
-<!-- code for Github trophies -->
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-  {% if site.data.repositories.github_users.size > 1 %}
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.html username=user %}
-  </div>
-{% endfor %}
 {% endif %}
 
 <!-- code for GitHub repositories -->
@@ -584,12 +533,6 @@ It generates an Atom (RSS-like) feed of your posts, useful for Atom and RSS read
 The feed is reachable simply by typing after your homepage `/feed.xml`.
 E.g. assuming your website mountpoint is the main folder, you can type `yourusername.github.io/feed.xml`
 
-#### Related posts
-By default,  there will be a related posts section on the bottom of the blog posts.
-These are generated by selecting the `max_related` most recent posts that share at least `min_common_tags` tags with the current post.
-If you do not want to display related posts on a specific post, simply add `related_posts: false` to the front matter of the post.
-If you want to disable it for all posts, simply set `enabled` to false in the `related_blog_posts` section in `_config.yml`.
-
 ## Contributing
 
 Contributions to al-folio are very welcome!
@@ -599,9 +542,6 @@ If you would like to improve documentation, add your webpage to the list below, 
 For more complex issues/bugs or feature requests, please open an issue using the appropriate template.
 
 ### Maintainers
-
-Our most active contributors are welcome to join the maintainers team.
-If you are interested, please reach out!
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->

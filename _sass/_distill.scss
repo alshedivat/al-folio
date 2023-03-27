@@ -19,17 +19,14 @@ d-byline a, d-article d-byline a {
 
 d-article {
   border-top-color: var(--global-divider-color) !important;
-  p, h1, h2, h3, h4, h5, h6, li, table {
+  a, p, h1, h2, h3, h4, h5, h6, li, table {
     color: var(--global-text-color) !important;
   }
-  h1, h2, hr, table, table th, table td {
+  a, h1, h2, hr, table, table th, table td {
     border-bottom-color: var(--global-divider-color) !important;
   }
-  a {
-    color: var(--global-theme-color) !important;
-    &:hover {
-      color: var(--global-theme-color) !important;
-    }
+  a:hover {
+    border-bottom-color: var(--global-hover-color) !important;
   }
   b i {
     display: inline;

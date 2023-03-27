@@ -2,96 +2,147 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Minh ON VU NGOC
     - name: Date of Birth
-      value: 14th March 1879
+      value: 25th May 1992
     - name: Languages
-      value: English, German
+      value: English, French, VietNamese
+
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Postdoctoral Researcher 
+      institution: EPITA, Paris, France
+      year: 2020 - 2022
+      description:
+        - Working in different Computer Vision applications. Medical, Biomedical, Remote Sensing, Biology Imaging, Deep Learning, Topological Data Analysis
+        - Closing cavity broken on 3D plant tissue images, NeurIPS workshop (Improvement 40%).
+        - Proposing new topological losses for regulating the neural network behaviors (Improvement 20%).
+        - Segmenting Multi-classes (organs) from medical images using Transformer (CT scans, MRIs, multi-modality image) (Improvement 4%).
+        - Detecting and Preserving the Road Topology from satellite images (Improvement 9%).
+        - Proposing contrast convolution architecture for data generalization (Improvement 15%).
+        - Improving interactive segmentation for 2D/3D noisy images (Pattern Recognition journal)
+
+
+
+    - title: Machine learning & Computer Vision PhD Candidate
+      institution: Sorbonne University, Paris, France
+      year: 2016 - 2020
+      description:
+        - Identity document detection in videos (Accuracy 97%).
+        - Hierarchical image representation for several applications (Object detection, multimodal/spectral segmentation, shortest path finding).
+
+    - title: Internship in Computer Vision
+      institution: Company CAP2020, Bordeaux, France.
+      year: 2016
+      description:
+        - Counting the number of slugs in the video captured by infrared cameras using the machine learning methods. (Accuracy 80%)
+
+    - title: Internship in Signal Processing
+      institution: LAB-STIC, Telecom Bretagne, France
+      year: 2015
+      description:
+        - High spectral efficiency modulation and signal shaping.
+
+    - title: Internship in Computer Vision
+      institution: Company RPC.VN
+      year: 2014
+      description:
+        - License plate detection and recognition.      
+
+
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Sorbonne University, Paris, France
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - A new distance for multivariate images with applications to salient object detection and segmentation
+        - Document detection in videos captured by smartphones using a saliency-based method.
+        - Supervisors. Thierry Geraud, Jonathan Fabrizio.
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Master
+      institution: Telecom Bretagne, Brest, France
+      year: 2016
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - MSc in SISEA (Signal, Image, Embedded Systems, Automation)
+        - Specialized in Computer Vision and Machine Learning
+
+    - title: Bachelor
+      institution: Ho Chi Minh University of Technology, Ho Chi Minh city, VietNam
+      year: 2015
       description:
-        - Description 1.
-        - Description 2.
+        - Specialized in Telecommunication and Software engineer.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/onvungocminh/MBD_BAL">Boundary-aware loss for image segmentation</a>
+      year: 2021-now
+      description: Introducing the Boundary-Aware loss for deep image segmentation
+
+    - title: <a href="https://github.com/onvungocminh/CavityLoss">Cavity loss for 3D image segmentation</a>
+      year: 2022-now
+      description: Topology-aware method to segment 3D plant tissues images.
+
+    - title: <a href="https://github.com/onvungocminh/onvungocminh.github.io">Personal website</a>
+      year: 2022-now
+      description: onvungocminh.github.io
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2016
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+        - Ph.D. Research Grants 
 
-- title: Academic Interests
+    - year: 2016
+      items: 
+        - Nominee of Telecom Bretagne in the “Best Internship Award” competition, Mines-Telecom Institute, France
+
+    - year: 2015
+      items: 
+        - Silver medal for graduated student
+    
+    - year: 2010-2015
+      items: 
+        - Ten times received the Academic Excellence Scholarship of HCMC University of Technology
+
+    - year: 2014
+      items: 
+        - Sunflower mission scholarship   
+    
+    - year: 2010
+      items: 
+        - Silver medal in the National final examination   
+
+    - year: 2009
+      items: 
+        - Gold medal in National Physics competition   
+
+    - year: 2008
+      items: 
+        - Bronze medal in National Physics competition  
+
+- title: Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Computer vision and Artificial Intelligent
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Medical Imaging.  
+        - Machine Learning
+        - Remote sensing.
+    - title: Topological/Structure Data Analysis
       items:
-        - Description 1.
-        - Description 2.
+        - Learning topological/geometric representations for deep image understanding
+        - Learning with imperfect data
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Badminton, Football, Chess, Drawing etc.

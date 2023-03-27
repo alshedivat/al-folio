@@ -1,80 +1,54 @@
 ---
 layout: page
 title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+description: Topology-aware method to segment 3D plant tissues images
+img: assets/img/project5_1.png
 importance: 3
-category: fun
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<b> Abstract </b>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The study of genetic and molecular mechanisms underlying tissue morphogenesis
+has received a lot of attention in biology. Especially, accurate segmentation of
+tissues into individual cells plays an important role for quantitative analyzing the
+development of the growing organs. However, instance cell segmentation is still
+a challenging task due to the quality of the image and the fine-scale structure.
+Any small leakage in the boundary prediction can merge different cells together,
+thereby damaging the global structure of the image. In this paper, we propose an
+end-to-end topology-aware 3D segmentation method for plant tissues. The strength
+of the method is that it takes care of the 3D topology of segmented structures. The
+keystone is a training phase and a new topology-aware loss - the CavityLoss - that
+are able to help the network to focus on the topological errors to fix them during
+the learning phase. The evaluation of our method on both fixed and live plant organ
+datasets shows that our method outperforms state-of-the-art methods (and contrary
+to state-of-the-art methods, does not require any post-processing stage). The code
+of CavityLoss is freely available at https://github.com/onvungocminh/CavityLoss.
+
+
+<b> Method </b>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project5_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    An overview of our proposed method. The boundary prediction which is the output of the
+network still generates a lot of broken connections (red zones). The topological errors are detected
+and our CavityLoss is computed to enforce the network correcting the leakage. 
 </div>
+
+
+<b> Results </b>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project5_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+     3D reconstruction of the ovule primordia. The middle images show the front and inside
+views of the individual label of the ovule primordia.
 </div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}

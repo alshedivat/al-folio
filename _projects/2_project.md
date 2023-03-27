@@ -1,80 +1,47 @@
 ---
 layout: page
 title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+description: Document detection in videos captured by smartphones using a saliency-based method
+img: assets/img/project2_1.png
 importance: 2
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Smartphones are now widely used to digitize 
+paper documents. Document detection is the first important
+step of the digitization process. Whereas many methods extract
+lines from contours as candidates for the document boundary,
+we present in this paper a region-based approach. A key feature
+of our method is that it relies on visual saliency, using a recent
+distance existing in mathematical morphology. We show that
+the performance of our method is competitive with state-ofthe-art methods on the ICDAR Smartdoc 2015 Competition
+dataset.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Keywords: Document detection, Visual saliency, Mathematical morphology, Smartphone-based acquisition, Dahu pseudodistance, Image segmentation.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project2_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+     On the left: A scheme for document detection. A visual saliency map is computed with considering that mostly boundary pixels are the
+background. In parallel, an algorithm for image segmentation is adopted by using the Dahu distance and histogram of colors of pixels on superpixels. A max-tree of the visual saliency map is constructed. Then a candidate document is segmented from the max-tree. On the right: Document detection from the max-tree. A candidate document tends to have a quadrilateral shape, also the top line is parallel with the bottom line (respectively with the left line and the right line). On another hand, the document region is brighter in the saliency map.
 </div>
+
+
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project2_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Some qualitative results of our method. These images show the robustness of our method to illumination, blur and curled document.
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+More details of the project are explained in our [ICDAR workshop paper](https://www.lrde.epita.fr/dload/papers/movn.19.icdarw.pdf).
+* <b id="ICDAR_2019">[ICDAR 2019]</b> <b>Minh On Vu Ngoc</b>, Jonathan Fabrizio and Thierry Geraud. [Document detection in videos captured by smartphones using a saliency-based method](https://www.lrde.epita.fr/dload/papers/movn.19.icdarw.pdf). In [International Conference on Document Analysis and Recognition Workshop](), 2019.

@@ -1,80 +1,36 @@
 ---
 layout: page
 title: project 4
-description: another without an image
-img:
+description: Neuron Image Segmentation
+img: assets/img/project4_2.png
 importance: 3
-category: fun
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<b> Abstract </b>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Most contemporary supervised image segmentation methods do not preserve the initial topology of the given input (like the closeness of the contours). One can generally remark that edge points have been inserted or removed when the binary prediction and
+the ground truth are compared. This can be critical when accurate localization of multiple
+interconnected objects is required. In this paper, we present a new loss function, called,
+Boundary-Aware loss (BALoss), based on the Minimum Barrier Distance (MBD) cut algorithm. It is able to locate what we call the leakage pixels and to encode the boundary information coming from the given ground truth. Thanks to this adapted loss, we are able to
+significantly refine the quality of the predicted boundaries during the learning procedure.
+Furthermore, our loss function is differentiable and can be applied to any kind of neural
+network used in image processing. We apply this loss function on the standard U-Net and
+DC U-Net on Electron Microscopy datasets. They are well-known to be challenging due
+to their high noise level and to the close or even connected objects covering the image
+space. Our segmentation performance, in terms of Variation of Information (VOI) and
+Adapted Rank Index (ARI), are very promising and lead to ∼15% better scores of VOI
+and ∼5% better scores of ARI than the state-of-the-art. The code of boundary-awareness
+loss is freely available at https://github.com/onvungocminh/MBD_BAL
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project4_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Importance of broken connection restoration for image segmentation and the topological correction of our method. (a) Neuron image. (b) U-Net boundary prediction [48]. (c) Resulting segmentation [48]. A leakage position leads to a confusion between regions. (d)
+Boundary prediction with our topological correction method. (e) Final segmentation. 
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}

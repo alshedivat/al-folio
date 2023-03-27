@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - onvungocminh
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - onvungocminh/onvungocminh.github.io
+  - onvungocminh/CavityLoss
+  - onvungocminh/PathLoss
+  - onvungocminh/SpaceNet8
+  - onvungocminh/MBD_BAL
+  - onvungocminh/Segmentation-Minimum-Barrier-Distance

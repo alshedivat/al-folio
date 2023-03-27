@@ -1,80 +1,57 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Project 1
+description: Detection of identity documents captured by smartphones 
+img: assets/img/project1_5.jpg
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Smartphones have became an easy and convenient mean to acquire documents. In this paper, we focus on the automatic segmentation of identity documents in smartphone photos or videos using visual saliency (VS). VS-based approacheswhich pertain to computer vision, have not be considered yet for this particular task. Here we compare different VS methods, and we propose a new VS scheme, based on a recent distance belonging to the scope of mathematical morphology. We show that the saliency maps we obtain are competitive with state-of-the-art visual saliency methods and, that such approaches are very promising for use in identity document detection and segmentation, even without taking into account any prior knowledge about document contents. In particular they can work in real-time on smartphones.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+We also provide the LRDE Identity Document Image Database (LRDE IDID).
+This dataset is composed of 98 images of identity documents with their detection ground truth.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Identity card: Specimen Sweden, China (2 persons), Vietnam, Germany, Benin.
+
+Passport: China (2 persons), France (3 persons), Vietnam, Romania, Algeria, Specimen UTO.
+
+Visa: Japan, France (4 persons), India (2 persons), United kingdom, USA (3 persons), Russia, Specimen etats Shengen.
+
+Titre de sejour: France
+
+OFII: France
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project1_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project1_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project1_3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Sample Images
 </div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project1_4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+     Comparison of our saliency maps with other classical or state-of-the-art methods.
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Copyright Notice:
+LRDE is the copyright holder of all the images included in the dataset
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+You are allowed to use these images for research purpose for evaluation and illustration. If so, please specify the following copyright: "Copyright (c) 2018. EPITA Research and Development Laboratory (LRDE)". You are not allowed to redistribute this dataset.
+
+Publication:
+If this dataset is used in the context of a scientific publication, please cite:
+* <b id="DAS_2018">[DAS 2018]</b> <b>Minh On Vu Ngoc</b>, Jonathan Fabrizio and Thierry Geraud. [  Saliency-based Detection Of Identity Documents Captured By Smartphones](). In [Document Analysis Systems](), 2018.
