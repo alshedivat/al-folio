@@ -89,9 +89,10 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://noman-bashir.github.io/" target="_blank">★</a>
 <a href="https://djherron.github.io/" target="_blank">★</a>
 <a href="https://rodosingh.github.io/" target="_blank">★</a>
-<a href="https://vdivakar.github.io/" target="_blank">★</a> 
+<a href="https://vdivakar.github.io/" target="_blank">★</a>
 <a href="https://george-gca.github.io/" target="_blank">★</a>
 <a href="https://bashirkazimi.github.io/" target="_blank">★</a>
+<a href="https://dohaison.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -259,11 +260,7 @@ Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0
 
 <details><summary>(click to expand) <strong>Manual deployment to GitHub Pages:</strong></summary>
 
-If you need to manually re-deploy your website to GitHub pages, run the deploy script from the root directory of your repository:
-```bash
-$ ./bin/deploy
-```
-uses the `master` branch for the source code and deploys the webpage to `gh-pages`.
+If you need to manually re-deploy your website to GitHub pages, go to Actions, click "Deploy" in the left sidebar, then "Run workflow."
 
 </details>
 
@@ -317,13 +314,40 @@ In its default configuration, al-folio will copy the top-level `README.md` to th
 
 #### Upgrading from a previous version
 
-If you installed **al-folio** as described above, you can upgrade to the latest version as follows:
+If you installed **al-folio** as described above, you can configure a [github action](https://github.com/AndreasAugustin/actions-template-sync) to automatically sync your repository with the latest version of the theme:
+
+```yaml
+name: Sync from template
+on:
+    # cronjob trigger
+  schedule:
+  - cron:  "0 0 1 * *"
+  # manual trigger
+  workflow_dispatch:
+jobs:
+  repo-sync:
+    runs-on: ubuntu-latest
+    steps:
+      # To use this repository's private action, you must check out the repository
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: actions-template-sync
+        uses: AndreasAugustin/actions-template-sync@v0.7.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          source_repo_path: alshedivat/al-folio
+          upstream_branch: master
+```
+
+You will receive a pull request within your repository if there are some changes available in the template.
+
+Another option is to manually update your code by following the steps below:
 
 ```bash
 # Assuming the current directory is <your-repo-name>
 $ git remote add upstream https://github.com/alshedivat/al-folio.git
 $ git fetch upstream
-$ git rebase v0.3.5
+$ git rebase v0.8.0
 ```
 
 If you have extensively customized a previous version, it might be trickier to upgrade.
@@ -366,6 +390,15 @@ If you have a different question, please ask using [Discussions](https://github.
   RSS Feed plugin works with these correctly set up fields: `title`, `url`, `description` and `author`.
   Make sure to fill them in an appropriate way and try again.
 
+5. **Q:** My site doesn't work when I enable `related_blog_posts`. Why? <br>
+   **A:** This is probably due to the [classifier reborn](https://github.com/jekyll/classifier-reborn) plugin, which is used to calculate
+   related posts. If the error states `Liquid Exception: Zero vectors can not be normalized...`, it means that it could not calculate related
+   posts for a specific post. This is usually caused by [empty or really small blog posts](https://github.com/jekyll/classifier-reborn/issues/64)
+   without meaningful words (i.e. only [stop words](https://en.wikipedia.org/wiki/Stop_words)) or even 
+   [specific characters](https://github.com/jekyll/classifier-reborn/issues/194) you used in your posts. Also, the calculus for similar posts are
+   made for every `post`, which means every page that uses `layout: post`, including the announcements. To change this behavior, simply add
+   `related_posts: false` to the front matter of the page you don't want to display related posts on.
+   
 
 ## Features
 
@@ -488,7 +521,8 @@ Easily create beautiful grids within your blog posts and project pages:
 ### Other features
 
 #### GitHub repositories and user stats
-**al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) to display GitHub repositories and user stats on the the `/repositories/` page.
+**al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy)
+to display GitHub repositories and user stats on the the `/repositories/` page.
 
 Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the the `/repositories/` page.
 
@@ -501,6 +535,18 @@ You may also use the following codes for displaying this in any other pages.
     {% include repository/repo_user.html username=user %}
   {% endfor %}
 </div>
+{% endif %}
+
+<!-- code for Github trophies -->
+{% if site.repo_trophies.enabled %}
+{% for user in site.data.repositories.github_users %}
+  {% if site.data.repositories.github_users.size > 1 %}
+  <h4>{{ user }}</h4>
+  {% endif %}
+  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% include repository/repo_trophies.html username=user %}
+  </div>
+{% endfor %}
 {% endif %}
 
 <!-- code for GitHub repositories -->
@@ -552,6 +598,9 @@ If you would like to improve documentation, add your webpage to the list below, 
 For more complex issues/bugs or feature requests, please open an issue using the appropriate template.
 
 ### Maintainers
+
+Our most active contributors are welcome to join the maintainers team.
+If you are interested, please reach out!
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->

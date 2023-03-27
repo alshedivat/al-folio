@@ -8,8 +8,8 @@
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
           {%- else -%}
             {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
-            {% include figure.html 
-            path=entry_path 
+            {% include figure.html
+            path=entry_path
             class="preview z-depth-1 rounded"
             alt=entry.preview -%}
           {%- endif -%}
@@ -187,12 +187,32 @@
           </div>
           {% if site.badges %}
           <div class="badges">
-          {%- if site.badges.altmetric_badge or entry.altmetric %}
-            <span class="altmetric-embed" {% if entry.doi %}data-doi="{{ entry.doi }}"{% else %}data-altmetric-id="{{ entry.altmetric }}"{% endif %} data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-          {%- endif %}
-          {%- if site.badges.dimensions_badge or entry.dimensions %}
-            <span class="__dimensions_badge_embed__" {% if entry.doi %}data-doi="{{ entry.doi }}"{% else if entry.pmid %}data-pmid="{{ entry.pmid }}"{% else %}data-id="{{ entry.dimensions }}"{% endif %} data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 6px;"></span>
-          {%- endif %}
+            {%- if site.badges.altmetric_badge %}
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"
+              {% if entry.eprint %}
+                data-arxiv-id="{{ entry.eprint }}"
+              {% elsif entry.doi %}
+                data-doi="{{ entry.doi }}"
+              {% elsif entry.altmetric %}
+                data-altmetric-id="{{ entry.altmetric }}"
+              {% elsif entry.pmid %}
+                data-pmid="{{ entry.pmid }}"
+              {% elsif entry.isbn %}
+                data-isbn="{{ entry.isbn }}"
+              {% endif %}
+              ></span>
+            {%- endif %}
+            {%- if site.badges.dimensions_badge %}
+              <span class="__dimensions_badge_embed__"
+              {% if entry.doi %}
+                data-doi="{{ entry.doi }}"
+              {% else if entry.pmid %}
+                data-pmid="{{ entry.pmid }}"
+              {% else %}
+                data-id="{{ entry.dimensions }}"
+              {% endif %}
+              data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 6px;"></span>
+            {%- endif %}
           </div>
           {%- endif %}
 
