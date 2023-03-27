@@ -38,12 +38,9 @@ This is my first post in my personal website and I want to explain the idea behi
 
 If you type `pages.dev` and hit enter, you will get into `pages.cloudflare.com` but what is Cloudflare Pages?!
 
-
 {% capture details %}
 
-
 > Cloudflare Pages is a JAMstack platform for frontend developers to collaborate and deploy websites.
-
 
 {% endcapture %}
 {% capture summary %}What is Cloudflare Pages?{% endcapture %}{% include toggle.html %}
@@ -74,15 +71,11 @@ The same thing is true about IaaS (Infrastructure as a Service) and PaaS (Platfo
 - IaaS: In simple word, its like a VPS but based on cloud software and possibility to rent hourly.
 - PaaS: To know more search about Docker and Containers
 
-
 in summary:
-
 
 This picture show the parts that companies provide based on type of service (in IaaS, they provide you network and servers)
 
-
 ![](https://lh3.googleusercontent.com/I1IUtZ-xTWO0JHAV9Q4yismgXU4jjh_mCD8RsFg47auVdeKNeEl3YUKHx3vH8saEnwyf-BHl8jjmbGWWzJViq024uis01Sh48JPO99PT8Agw9R4BTnp-ufZZuklpNLZTaLrpXpxJAg=w600)
-
 
 {% endcapture %}
 {% capture summary %}IaaS vs PaaS{% endcapture %}{% include toggle.html %}
