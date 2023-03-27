@@ -2,147 +2,119 @@
   type: map
   contents:
     - name: Full Name
-      value: Minh ON VU NGOC
+      value: Ngoc LE THI BICH
     - name: Date of Birth
-      value: 25th May 1992
+      value: 22th September 1996
     - name: Languages
-      value: English, French, VietNamese
+      value: English, VietNamese
 
 
 - title: Experience
   type: time_table
   contents:
-    - title: Postdoctoral Researcher 
-      institution: EPITA, Paris, France
+    - title: Infection Control Doctor
+      institution: Hoan My Medical Corporation
+      year: 2022 - present
+      description:
+        - Supervising hospital acquired infections (HAIs)
+        - Supervising VAP, SSI, CLABSI and BSI Infections in the hospital
+        - Planning and supervising preventive antibiotic for Surgery Operations.
+        - Modelling, Researching and Reporting about antibiotic resistance in the hospital.
+        - Tracking the occupational exposure of health workers.
+
+
+
+    - title: Infection Control Doctor
+      institution: Ho Chi Minh P&T General Hospital
       year: 2020 - 2022
       description:
-        - Working in different Computer Vision applications. Medical, Biomedical, Remote Sensing, Biology Imaging, Deep Learning, Topological Data Analysis
-        - Closing cavity broken on 3D plant tissue images, NeurIPS workshop (Improvement 40%).
-        - Proposing new topological losses for regulating the neural network behaviors (Improvement 20%).
-        - Segmenting Multi-classes (organs) from medical images using Transformer (CT scans, MRIs, multi-modality image) (Improvement 4%).
-        - Detecting and Preserving the Road Topology from satellite images (Improvement 9%).
-        - Proposing contrast convolution architecture for data generalization (Improvement 15%).
-        - Improving interactive segmentation for 2D/3D noisy images (Pattern Recognition journal)
+        - Supervising hospital acquired infections (HAIs)
+        - Supervising VAP, SSI, CLABSI and BSI Infections in the hospital
+        - Planning and supervising preventive antibiotic for Surgery Operations.
+        - Modelling, Researching and Reporting about antibiotic resistance in the hospital.
+        - Tracking the occupational exposure of health workers.
 
 
-
-    - title: Machine learning & Computer Vision PhD Candidate
-      institution: Sorbonne University, Paris, France
-      year: 2016 - 2020
+    - title: Frontline COVID-19 Doctor
+      institution: Thu Duc Covid Field Hospital
+      year: 2021
       description:
-        - Identity document detection in videos (Accuracy 97%).
-        - Hierarchical image representation for several applications (Object detection, multimodal/spectral segmentation, shortest path finding).
+        - Frontline COVID-19 Doctor
 
-    - title: Internship in Computer Vision
-      institution: Company CAP2020, Bordeaux, France.
-      year: 2016
-      description:
-        - Counting the number of slugs in the video captured by infrared cameras using the machine learning methods. (Accuracy 80%)
-
-    - title: Internship in Signal Processing
-      institution: LAB-STIC, Telecom Bretagne, France
-      year: 2015
-      description:
-        - High spectral efficiency modulation and signal shaping.
-
-    - title: Internship in Computer Vision
-      institution: Company RPC.VN
-      year: 2014
-      description:
-        - License plate detection and recognition.      
 
 
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: Sorbonne University, Paris, France
+    - title: Certificate
+      institution: Cho Ray Hospital
+      year: 2021
+      description:
+        - Supervision of Infection in hospitals
+
+
+    - title: Doctor
+      institution:  Hue University of Medicine and Pharmacy 
       year: 2020
       description:
-        - A new distance for multivariate images with applications to salient object detection and segmentation
-        - Document detection in videos captured by smartphones using a saliency-based method.
-        - Supervisors. Thierry Geraud, Jonathan Fabrizio.
-
-    - title: Master
-      institution: Telecom Bretagne, Brest, France
-      year: 2016
-      description:
-        - MSc in SISEA (Signal, Image, Embedded Systems, Automation)
-        - Specialized in Computer Vision and Machine Learning
-
-    - title: Bachelor
-      institution: Ho Chi Minh University of Technology, Ho Chi Minh city, VietNam
-      year: 2015
-      description:
-        - Specialized in Telecommunication and Software engineer.
+        - Doctor of Community Health and Preventive Medicine
 
 
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/onvungocminh/MBD_BAL">Boundary-aware loss for image segmentation</a>
-      year: 2021-now
-      description: Introducing the Boundary-Aware loss for deep image segmentation
-
-    - title: <a href="https://github.com/onvungocminh/CavityLoss">Cavity loss for 3D image segmentation</a>
-      year: 2022-now
-      description: Topology-aware method to segment 3D plant tissues images.
-
-    - title: <a href="https://github.com/onvungocminh/onvungocminh.github.io">Personal website</a>
-      year: 2022-now
-      description: onvungocminh.github.io
+    - title: <a href="https://github.com/bichngoc2209/bichngoc2209.github.io">Personal website</a>
+      year: 2022-present
+      description: bichngoc2209.github.io
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2016
+    - year: 2022
       items: 
-        - Ph.D. Research Grants 
+        - Infective Control Award issued by Hoan My Medical Corporation
 
-    - year: 2016
+    - year: 2022
       items: 
-        - Nominee of Telecom Bretagne in the “Best Internship Award” competition, Mines-Telecom Institute, France
+        - Best Writing Award Contest issued by Hoan My Medical Corporation
 
-    - year: 2015
+    - year: 2022
       items: 
-        - Silver medal for graduated student
+        - Top 8 Miss Hoan My Sai Gon
     
-    - year: 2010-2015
+    - year: 2022
       items: 
-        - Ten times received the Academic Excellence Scholarship of HCMC University of Technology
+        - Certificate of Merit for being a frontline COVID-19 doctor issued by Minister of Information and Communications of VietNam
 
-    - year: 2014
+    - year: 2022
       items: 
-        - Sunflower mission scholarship   
+        - Certificate of Merit for being a frontline COVID-19 doctor issued by Thu Duc People's Committee   
     
-    - year: 2010
+    - year: 2022
       items: 
-        - Silver medal in the National final examination   
+        - Certificate of Merit for being a frontline COVID-19 doctor Issued by Ho Chi Minh Department of Information and Communications  
 
-    - year: 2009
+    - year: 2022
       items: 
-        - Gold medal in National Physics competition   
+        - Volunteer, medical examination and distribution of medicine at Go Quao, Kien Giang  
 
-    - year: 2008
-      items: 
-        - Bronze medal in National Physics competition  
 
 - title: Interests
   type: nested_list
   contents:
-    - title: Computer vision and Artificial Intelligent
+    - title: Infection control
       items: 
-        - Medical Imaging.  
-        - Machine Learning
-        - Remote sensing.
-    - title: Topological/Structure Data Analysis
+        - Clinical Supervision.  
+        - Project Management
+        - Writing.
+    - title: Community Health and Preventive Medicine
       items:
-        - Learning topological/geometric representations for deep image understanding
-        - Learning with imperfect data
+        - Collecting, cleaning and analysing data
+        - Monitorin, evaluation and reporting
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Badminton, Football, Chess, Drawing etc.
+    - <u>Hobbies:</u> Photograph, Content Creator, Editing, Chess etc.
