@@ -9,6 +9,9 @@ nav_order: 4
 
 2023
 
+* La Belle Sauvage - Philip Pullman 
+* Kaikeyi - Vaishnavi Patel
+* The Tenth Riddle - Sapan Saxena
 * Serpentine - Philip Pullman
 * Breasts and Eggs - Mieko Kawakami
 * Babel, Or the Necessity of Violence: An Arcane History of the Oxford Translators' Revolution - R. F. Kuang
