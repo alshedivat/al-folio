@@ -7,7 +7,7 @@ tags: cmb-s4 simons-observatory
 
 In this document we plan do describe a set of fiducial sky models that can be used for simulation purposes by all Cosmic Microwave Background experiments to simplify the work of comparing their performance and perform joint analysis.
 
-See also [Extragalactic and CMB](./2022-11-21-common-fiducial-extragalactic-cmb.md)
+See also [Extragalactic and CMB](2022-11-21-common-fiducial-extragalactic-cmb.md)
 
 ## Galactic Foregrounds
 
