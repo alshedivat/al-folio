@@ -210,9 +210,11 @@ Now, feel free to customize the theme however you like (don't forget to change t
 > Note: this approach is only necessary if you would like to build an older or very custom version of al-folio.
 
 Build and run a new docker image using:
+
 ```bash
 $ docker-compose -f docker-local.yml up
 ```
+
 > If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of previous command! It will download ruby and jekyll and install all ruby packages again from scratch.
 
 </details>
@@ -239,6 +241,7 @@ Deploying your website to [GitHub Pages](https://pages.github.com/) is the most 
 Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0.3.5), **al-folio** will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:
 
 **For personal and organization webpages:**
+
 1. The name of your repository **MUST BE** `<your-github-username>.github.io` or `<your-github-orgname>.github.io`.
 2. In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and leave `baseurl` empty.
 3. Set up automatic deployment of your webpage (see instructions below).
@@ -246,12 +249,14 @@ Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0
 5. After deployment, the webpage will become available at `<your-github-username>.github.io`.
 
 **For project pages:**
+
 1. In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and `baseurl` to `/<your-repository-name>/`.
 2. Set up automatic deployment of your webpage (see instructions below).
 3. Make changes, commit, and push!
 4. After deployment, the webpage will become available at `<your-github-username>.github.io/<your-repository-name>/`.
 
 **To enable automatic deployment:**
+
 1. Click on **Actions** tab and **Enable GitHub Actions**; do not worry about creating any workflows as everything has already been set for you.
 2. Go to Settings -> Actions -> General -> Workflow permissions, and give **Read and write permissions** to GitHub Actions
 3. Make any other changes to your webpage, commit, and push. This will automatically trigger the **Deploy** action.
@@ -268,13 +273,15 @@ If you need to manually re-deploy your website to GitHub pages, go to Actions, c
 <details><summary>(click to expand) <strong>Deployment to another hosting server (non GitHub Pages):</strong></summary>
 
 If you decide to not use GitHub Pages and host your page elsewhere, simply run:
+
 ```bash
 $ bundle exec jekyll build --lsi
 ```
-which will (re-)generate the static webpage in the `_site/` folder.
-Then simply copy the contents of the `_site/` foder to your hosting server.
 
-**Note:** Make sure to correctly set the `url` and `baseurl` fields in `_config.yml` before building the webpage. If you are deploying your webpage to `your-domain.com/your-project/`, you must set `url: your-domain.com` and `baseurl: /your-project/`. If you are deploing directly to `your-domain.com`, leave `baseurl` blank.
+which will (re-)generate the static webpage in the `_site/` folder.
+Then simply copy the contents of the `_site/` directory to your hosting server.
+
+**Note:** Make sure to correctly set the `url` and `baseurl` fields in `_config.yml` before building the webpage. If you are deploying your webpage to `your-domain.com/your-project/`, you must set `url: your-domain.com` and `baseurl: /your-project/`. If you are deploying directly to `your-domain.com`, leave `baseurl` blank.
 
 </details>
 
@@ -288,6 +295,7 @@ For a user site this could well be something like `$HOME/<user>.github.io`.
 Firstly, from the deployment repo dir, checkout the git branch hosting your publishing source.
 
 Then from the website sources dir (commonly your al-folio fork's clone):
+
 ```bash
 $ bundle exec jekyll build --lsi --destination $HOME/repo/publishing-source
 ```
@@ -315,7 +323,7 @@ In its default configuration, al-folio will copy the top-level `README.md` to th
 
 #### Upgrading from a previous version
 
-If you installed **al-folio** as described above, you can configure a [github action](https://github.com/AndreasAugustin/actions-template-sync) to automatically sync your repository with the latest version of the theme:
+If you installed **al-folio** as described above, you can configure a [Github action](https://github.com/AndreasAugustin/actions-template-sync) to automatically sync your repository with the latest version of the theme:
 
 ```yaml
 name: Sync from template
@@ -414,14 +422,17 @@ You can also add new `*.bib` files and customize the look of your publications h
 <details><summary>(click to expand) <strong>Author annotation:</strong></summary>
 
 In publications, the author entry for yourself is identified by string array `scholar:last_name` and string array `scholar:first_name` in `_config.yml`:
+
 ```
 scholar:
   last_name: [Einstein]
   first_name: [Albert, A.]
 ```
+
 If the entry matches one form of the last names and the first names, it will be underlined.
 Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
 The coauthor data format in `_data/coauthors.yml` is as follows,
+
 ```
 "Adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
@@ -442,6 +453,7 @@ The coauthor data format in `_data/coauthors.yml` is as follows,
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 ```
+
 If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided.
 
 </details>
@@ -522,13 +534,15 @@ Easily create beautiful grids within your blog posts and project pages:
 ### Other features
 
 #### GitHub repositories and user stats
+
 **al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy)
 to display GitHub repositories and user stats on the the `/repositories/` page.
 
 Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the the `/repositories/` page.
 
 You may also use the following codes for displaying this in any other pages.
-```
+
+```jekyll
 <!-- code for GitHub users -->
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -561,6 +575,7 @@ You may also use the following codes for displaying this in any other pages.
 ```
 
 #### Theming
+
 A variety of beautiful theme colors have been selected for you to choose from.
 The default is purple, but you can quickly change it by editing the
 `--global-theme-color` variable in the `_sass/_themes.scss` file.
@@ -570,6 +585,7 @@ You can also add your own colors to this file assigning each a name for ease of
 use across the template.
 
 #### Social media previews
+
 **al-folio** supports preview images on social media.
 To enable this functionality you will need to set `serve_og_meta` to `true` in your `_config.yml`.
 Once you have done so, all your site's pages will include Open Graph data in the HTML head element.
@@ -580,11 +596,13 @@ If for an individual page this variable is not set, then the theme will fall bac
 In both the page-specific and site-wide cases, the `og_image` variable needs to hold the URL for the image you wish to display in social media previews.
 
 #### Atom (RSS-like) Feed
+
 It generates an Atom (RSS-like) feed of your posts, useful for Atom and RSS readers.
 The feed is reachable simply by typing after your homepage `/feed.xml`.
 E.g. assuming your website mountpoint is the main folder, you can type `yourusername.github.io/feed.xml`
 
 #### Related posts
+
 By default,  there will be a related posts section on the bottom of the blog posts.
 These are generated by selecting the `max_related` most recent posts that share at least `min_common_tags` tags with the current post.
 If you do not want to display related posts on a specific post, simply add `related_posts: false` to the front matter of the post.
