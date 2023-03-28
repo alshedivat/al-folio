@@ -21,7 +21,6 @@ If you like the theme, give it a star!
 
 [![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
 
-
 ## User community
 
 The vibrant community of **al-folio** users is growing!
@@ -132,11 +131,9 @@ Images2Symbols (CogSci: <a href="https://images2symbols.github.io/" target="_bla
 </tr>
 </table>
 
-
 ## Lighthouse PageSpeed Insights
 
 [![Google PageSpeeg](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=desktop)
-
 
 ## Table Of Contents
 
@@ -171,15 +168,14 @@ Images2Symbols (CogSci: <a href="https://images2symbols.github.io/" target="_bla
 Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
 Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
 
-
 ### Installation
 
 For a hands-on walkthrough of al-folio installation, check out [this cool video tutorial](https://www.youtube.com/watch?v=g6AJ9qPPoyc) by one of the community members! 🎬 🍿
 
 The preferred way of using this template is by clicking in [Use this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template) above the file list.
 Then, create a new repository at `github.com:<your-username>/<your-repo-name>`. If you plan to upload your site to `<your-github-username>.github.io`,
-note that the name of your repository must be `<your-github-username>.github.io` or `<your-github-orgname>.github.io`, as stated in the [Github pages docs](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites).
-For more information on how to deploy your site, check the [Deployment](#Deployment) section below. After you created your new repository, just download it to your machine:
+note that the name of your repository must be `<your-github-username>.github.io` or `<your-github-orgname>.github.io`, as stated in the [GitHub pages docs](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites).
+For more information on how to deploy your site, check the [Deployment](#deployment) section below. After you created your new repository, just download it to your machine:
 
 ```bash
 $ git clone git@github.com:<your-username>/<your-repo-name>.git
@@ -289,7 +285,7 @@ Then simply copy the contents of the `_site/` directory to your hosting server.
 
 **Note:** Do not try using this method unless you know what you are doing (make sure you are familiar with [publishing sources](https://help.github.com/en/github/working-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)). This approach allows to have the website's source code in one repository and the deployment version in a different repository.
 
-Let's assume that your website's publishing source is a `publishing-source` sub-directory of a git-versioned repository cloned under `$HOME/repo/`.
+Let's assume that your website's publishing source is a `publishing-source` subdirectory of a git-versioned repository cloned under `$HOME/repo/`.
 For a user site this could well be something like `$HOME/<user>.github.io`.
 
 Firstly, from the deployment repo dir, checkout the git branch hosting your publishing source.
@@ -313,7 +309,7 @@ The quote below is taken directly from the [jekyll configuration docs](https://j
 > Do not use an important location for `<destination>`; instead, use it as a staging area and copy files from there to your web server.
 
 If `$HOME/repo/publishing-source` contains files that you want jekyll to leave untouched, specify them under `keep_files` in `_config.yml`.
-In its default configuration, al-folio will copy the top-level `README.md` to the publishing source. If you want to change this behaviour, add `README.md` under `exclude` in `_config.yml`.
+In its default configuration, al-folio will copy the top-level `README.md` to the publishing source. If you want to change this behavior, add `README.md` under `exclude` in `_config.yml`.
 
 **Note:** Do _not_ run `jekyll clean` on your publishing source repo as this will result in the entire directory getting deleted, irrespective of the content of `keep_files` in `_config.yml`.
 
@@ -323,7 +319,7 @@ In its default configuration, al-folio will copy the top-level `README.md` to th
 
 #### Upgrading from a previous version
 
-If you installed **al-folio** as described above, you can configure a [Github action](https://github.com/AndreasAugustin/actions-template-sync) to automatically sync your repository with the latest version of the theme:
+If you installed **al-folio** as described above, you can configure a [GitHub action](https://github.com/AndreasAugustin/actions-template-sync) to automatically sync your repository with the latest version of the theme:
 
 ```yaml
 name: Sync from template
@@ -356,13 +352,13 @@ Another option is to manually update your code by following the steps below:
 # Assuming the current directory is <your-repo-name>
 $ git remote add upstream https://github.com/alshedivat/al-folio.git
 $ git fetch upstream
-$ git rebase v0.8.0
+$ git rebase v0.9.0
 ```
 
 If you have extensively customized a previous version, it might be trickier to upgrade.
 You can still follow the steps above, but `git rebase` may result in merge conflicts that must be resolved.
 See [git rebase manual](https://help.github.com/en/github/using-git/about-git-rebase) and how to [resolve conflicts](https://help.github.com/en/github/using-git/resolving-merge-conflicts-after-a-git-rebase) for more information.
-If rebasing is too complicated, we recommend to re-install the new version of the theme from scratch and port over your content and changes from the previous version manually.
+If rebasing is too complicated, we recommend re-installing the new version of the theme from scratch and port over your content and changes from the previous version manually.
 
 ---
 
@@ -402,18 +398,17 @@ If you have a different question, please ask using [Discussions](https://github.
 5. **Q:** My site doesn't work when I enable `related_blog_posts`. Why? <br>
    **A:** This is probably due to the [classifier reborn](https://github.com/jekyll/classifier-reborn) plugin, which is used to calculate
    related posts. If the error states `Liquid Exception: Zero vectors can not be normalized...`, it means that it could not calculate related
-   posts for a specific post. This is usually caused by [empty or really small blog posts](https://github.com/jekyll/classifier-reborn/issues/64)
-   without meaningful words (i.e. only [stop words](https://en.wikipedia.org/wiki/Stop_words)) or even 
+   posts for a specific post. This is usually caused by [empty or minimal blog posts](https://github.com/jekyll/classifier-reborn/issues/64)
+   without meaningful words (i.e. only [stop words](https://en.wikipedia.org/wiki/Stop_words)) or even
    [specific characters](https://github.com/jekyll/classifier-reborn/issues/194) you used in your posts. Also, the calculus for similar posts are
    made for every `post`, which means every page that uses `layout: post`, including the announcements. To change this behavior, simply add
    `related_posts: false` to the front matter of the page you don't want to display related posts on.
-   
 
 ## Features
 
 ### Publications
 
-Your publications page is generated automatically from your BibTex bibliography.
+Your publications' page is generated automatically from your BibTex bibliography.
 Simply edit `_bibliography/papers.bib`.
 You can also add new `*.bib` files and customize the look of your publications however you like by editing `_pages/publications.md`.
 
@@ -423,7 +418,7 @@ You can also add new `*.bib` files and customize the look of your publications h
 
 In publications, the author entry for yourself is identified by string array `scholar:last_name` and string array `scholar:first_name` in `_config.yml`:
 
-```
+```yaml
 scholar:
   last_name: [Einstein]
   first_name: [Albert, A.]
@@ -431,9 +426,9 @@ scholar:
 
 If the entry matches one form of the last names and the first names, it will be underlined.
 Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
-The coauthor data format in `_data/coauthors.yml` is as follows,
+The co-author data format in `_data/coauthors.yml` is as follows,
 
-```
+```yaml
 "Adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
@@ -466,7 +461,7 @@ There are several custom bibtex keywords that you can use to affect how the entr
 - `abstract`: Adds an "Abs" button that expands a hidden text field when clicked to show the abstract text
 - `arxiv`: Adds a link to the Arxiv website (Note: only add the arxiv identifier here - the link is generated automatically)
 - `bibtex_show`: Adds a "Bib" button that expands a hidden text field with the full bibliography entry
-- `html`: Inserts a "HTML" button redirecting to the user-specified link
+- `html`: Inserts an "HTML" button redirecting to the user-specified link
 - `pdf`: Adds a "PDF" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
 - `supp`: Adds a "Supp" button to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
 - `blog`: Adds a "Blog" button redirecting to the specified link
@@ -475,7 +470,7 @@ There are several custom bibtex keywords that you can use to affect how the entr
 - `slides`: Adds a "Slides" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
 - `website`: Adds a "Website" button redirecting to the specified link
 - `altmetric`: Adds an [Altmetric](https://www.altmetric.com/) badge (Note: if DOI is provided just use `true`, otherwise only add the altmetric identifier here - the link is generated automatically)
-- `dimensions`: Adds an [Dimensions](https://www.dimensions.ai/) badge (Note: if DOI or PMID is provided just use `true`, otherwise only add the dimensions identifier here - the link is generated automatically)
+- `dimensions`: Adds a [Dimensions](https://www.dimensions.ai/) badge (Note: if DOI or PMID is provided just use `true`, otherwise only add the Dimensions' identifier here - the link is generated automatically)
 
 You can implement your own buttons by editing the bib.html file.
 
@@ -533,16 +528,16 @@ Easily create beautiful grids within your blog posts and project pages:
 
 ### Other features
 
-#### GitHub repositories and user stats
+#### GitHub's repositories and user stats
 
 **al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy)
-to display GitHub repositories and user stats on the the `/repositories/` page.
+to display GitHub repositories and user stats on the `/repositories/` page.
 
-Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the the `/repositories/` page.
+Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the `/repositories/` page.
 
 You may also use the following codes for displaying this in any other pages.
 
-```jekyll
+```html
 <!-- code for GitHub users -->
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -552,7 +547,7 @@ You may also use the following codes for displaying this in any other pages.
 </div>
 {% endif %}
 
-<!-- code for Github trophies -->
+<!-- code for GitHub trophies -->
 {% if site.repo_trophies.enabled %}
 {% for user in site.data.repositories.github_users %}
   {% if site.data.repositories.github_users.size > 1 %}
@@ -603,7 +598,7 @@ E.g. assuming your website mountpoint is the main folder, you can type `youruser
 
 #### Related posts
 
-By default,  there will be a related posts section on the bottom of the blog posts.
+By default, there will be a related posts section on the bottom of the blog posts.
 These are generated by selecting the `max_related` most recent posts that share at least `min_common_tags` tags with the current post.
 If you do not want to display related posts on a specific post, simply add `related_posts: false` to the front matter of the post.
 If you want to disable it for all posts, simply set `enabled` to false in the `related_blog_posts` section in `_config.yml`.
