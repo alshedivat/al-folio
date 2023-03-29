@@ -2,7 +2,7 @@
 layout: page
 title: Project 1
 description: Urinary Tract Infections at Hoan My Sai Gon Hospital In 2022
-img: assets/img/UTI.jpg
+img: assets/img/nkdtn.jpg
 importance: 1
 category: work
 ---
