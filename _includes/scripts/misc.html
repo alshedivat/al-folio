@@ -15,19 +15,23 @@
   <script defer src="https://unpkg.com/bootstrap-table@1.21.3/dist/bootstrap-table.min.js"></script>
   <script>
     $(document).ready(function() {
-      // make all tables use bootstrap-table
-      $('table').attr('data-toggle','table');
-      // add some classes to make the table look better
-      // $('table').addClass('table-sm');
-      $('table').addClass('table-hover');
+      $('table').each(function() {
+        // only select tables that are not inside an element with "news" (about page) or "card" (cv page) class
+        if($(this).parents('[class*="news"]').length==0 && $(this).parents('[class*="card"]').length==0 ) {
+          // make table use bootstrap-table
+          $(this).attr('data-toggle','table');
+          // add some classes to make the table look better
+          // $(this).addClass('table-sm');
+          $(this).addClass('table-hover');
 
-      if (document.documentElement.getAttribute("data-theme") == "dark") {
-        $('table').addClass('table-dark');
-      } else {
-        $('table').removeClass('table-dark');
-      }
-
-      });
+          if (document.documentElement.getAttribute("data-theme") == "dark") {
+            $(this).addClass('table-dark');
+          } else {
+            $(this).removeClass('table-dark');
+          }
+        }
+      })
+    });
   </script>
 
   <!-- Load Common JS -->
