@@ -6,6 +6,7 @@ description: Materials for some of the courses I taught
 nav: true
 display_categories: [teaching]
 horizontal: true
+nav_order: 5
 ---
 
 <div class="projects">

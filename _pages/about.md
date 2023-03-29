@@ -3,9 +3,11 @@ layout: about
 title: about
 permalink: /
 description: INRAE Senior Researcher in Statistical Learning, Université Paris-Saclay, AgroParisTech, INRAE
+subtitle: Senior Research in Statistical Learning, <a href='https://mia-ps.inrae.fr/'>Université Paris-Saclay/AgroParisTech/INRAE</a>
 profile:
   align: right
   image: julien_grece.jpg
+  image_circular: false # crops the image to make it circular
   address: >
     <p><small>UMR MIA Paris-Saclay</small></p>
     <p><small>Campus Agro Paris-Saclay</small></p>

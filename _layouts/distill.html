@@ -1,16 +1,21 @@
 <!DOCTYPE html>
+<!-- _layouts/distill.html -->
 <html>
   <head>
-    {% include head.html %}
+    {%- include head.html %}
+
+    {% include scripts/jquery.html %}
     {% include scripts/mathjax.html %}
+    <!-- Distill js -->
     <script src="{{ '/assets/js/distillpub/template.v2.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/distillpub/transforms.v2.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/distillpub/overrides.js' | relative_url }}"></script>
     {% if page._styles %}
+    <!-- Page/Post style -->
     <style type="text/css">
       {{ page._styles }}
     </style>
-    {% endif %}
+    {%- endif %}
   </head>
 
   <d-front-matter>
@@ -19,7 +24,7 @@
       "description": "{{ page.description }}",
       "published": "{{ page.date | date: '%B %-d, %Y' }}",
       "authors": [
-        {% for author in page.authors %}
+        {% for author in page.authors -%}
         {
           "author": "{{ author.name }}",
           "authorURL": "{{ author.url }}",
@@ -49,14 +54,12 @@
     }</script>
   </d-front-matter>
 
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body class="{%- if site.navbar_fixed -%}fixed-top-nav{%- endif -%} {%- unless site.footer_fixed -%}sticky-bottom-footer{%- endunless -%}">
 
     <!-- Header -->
-
-    {% include header.html %}
+    {%- include header.html %}
 
     <!-- Content -->
-
     <div class="post distill">
 
       <d-title>
@@ -67,6 +70,24 @@
       <d-byline></d-byline>
 
       <d-article>
+        {% if page.toc -%}
+        <d-contents>
+          <nav class="l-text figcaption">
+          <h3>Contents</h3>
+            {% for section in page.toc -%}
+            <div><a href="#{{ section.name | slugify }}">{{ section.name }}</a></div>
+            {% if section.subsections -%}
+            <ul>
+              {% for subsection in section.subsections -%}
+              <li><a href="#{{ subsection.name | slugify }}">{{ subsection.name }}</a></li>
+              {% endfor %}
+            </ul>
+            {%- endif -%}
+            {%- endfor %}
+          </nav>
+        </d-contents>
+        {%- endif %}
+
         {{ content }}
       </d-article>
 
@@ -75,15 +96,22 @@
         <d-citation-list></d-citation-list>
       </d-appendix>
 
+      <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
+
+      {%- if site.disqus_shortname and page.disqus_comments -%}
+        {% include disqus.html %}
+      {%- endif %}
+      {%- if site.giscus.repo and page.giscus_comments -%}
+        {% include giscus.html %}
+      {%- endif -%}
+
     </div>
 
     <!-- Footer -->
+    {%- include footer.html %}
 
-    {% include footer.html %}
-
+    {% include scripts/bootstrap.html %}
+    {% include scripts/analytics.html %}
+    {% include scripts/progressBar.html %}
   </body>
-
-  <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}">
-  </d-bibliography>
-
 </html>
