@@ -23,6 +23,17 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+table {
+  td,
+  th {
+    color: var(--global-text-color);
+  }
+
+  td {
+    font-size: 1rem;
+  }
+}
+
 a,
 table.table a {
   color: var(--global-theme-color);
