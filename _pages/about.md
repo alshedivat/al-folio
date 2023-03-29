@@ -21,7 +21,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-- head of <a href="https://www6.inrae.fr/mia-paris">UMR MIA Paris-Saclay</a>, Team [SOLsTIS](https://www6.inrae.fr/mia-paris/Equipes/SOLsTIS)
+- head of <a href="https://mia-ps.inrae.fr/">UMR MIA Paris-Saclay</a>, Team [SOLsTIS](https://mia-ps.inrae.fr/solstis)
 - part-time lecturer at École Polytechnique
 - chief editor of [Computo](https://computo.sfds.asso.fr/)
 
