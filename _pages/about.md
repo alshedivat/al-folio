@@ -38,4 +38,3 @@ social: false  # includes social icons at the bottom of the page
    - ecology, environment
    - metagenomics, metabolomics, genomics
 - reproducible research :gear:
-

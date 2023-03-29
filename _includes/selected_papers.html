@@ -1,6 +1,5 @@
 
           <div class="publications">
-            <h2>selected publications</h2>
             {% bibliography -f chiquet_journal -q @*[selected=true]* %}
             {% bibliography -f chiquet_preprint -q @*[selected=true]* %}
           </div>
