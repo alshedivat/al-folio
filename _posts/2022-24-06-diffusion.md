@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Diffusion theory
+title: Denoising Diffusion Probabilistic Model explaination
 description: Explanation of DDPM.
 date: 2022-06-24
 tags: ["Generative Model", "Diffusion"]
