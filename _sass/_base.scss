@@ -23,6 +23,20 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+a,
+table.table a {
+  color: var(--global-theme-color);
+
+  &:hover {
+    color: var(--global-theme-color);
+    text-decoration: underline;
+  }
+
+  &:hover:after :not(.nav-item.dropdown) {
+    width: 100%;
+  }
+}
+
 figure,
 img {
   max-width: 90vw;
