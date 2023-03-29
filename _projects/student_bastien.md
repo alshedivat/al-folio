@@ -7,7 +7,7 @@ importance: 2
 category: 'PhD student'
 ---
 
-Bastien's PhD is co-supervised with [Joon Kwon](https://joon-kwon.github.io/) and [Franck Picard](https://franckpicard.github.io/), supported by the [ANR SingleStatOmics grant](https://anr-singlestatomics.pages.math.cnrs.fr/).
+Bastien's PhD is supported by the [ANR SingleStatOmics grant](https://anr-singlestatomics.pages.math.cnrs.fr/).
 
 ### PhD manucript
 
