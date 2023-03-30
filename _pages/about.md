@@ -30,7 +30,88 @@ social: true  # includes social icons at the bottom of the page
 **Machine Learning:** Scikit-learn, Deep Learning, Keras, Tensorflow, RNN (LSTM, GRU), kNN.  
 
 
-**Email:** [afahadabdullah@gmail.com](afahadabdullah@gmail.com); [a.fahad@nasa.gov](a.fahad@nasa.gov); [afahad@mit.edu](afahad@mit.edu)
+**Email:** [afahadabdullah@gmail.com](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=afahadabdullah@gmail.com); [a.fahad@nasa.gov](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=a.fahad@nasa.gov); [afahad@mit.edu](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=afahad@mit.edu)
+
+<br>
+<!-- News -->
+<div class="news mt-3 p-0">
+  <h3 class="title mb-4 p-0">News</h3>
+
+    <div class="row p-0">
+      <div class="col-sm-2 p-0">
+        <span class="badge blue darken-1 font-weight-bold text-uppercase align-middle date ml-3"> Mar 01, 2023 </span>
+      </div>
+      <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
+        <p>Promoted as Assistant Research Scientist in NASA GSFC. </p>
+      </div>
+    </div>
+
+    <div class="row p-0">
+      <div class="col-sm-2 p-0">
+        <span class="badge blue darken-1 font-weight-bold text-uppercase align-middle date ml-3"> Feb 15, 2023 </span>
+      </div>
+      <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
+        <p>Attended NASA ECCO meeting, 2023. Caltech, Pasadena, California. </p>
+      </div>
+    </div>
+
+
+    <div class="row p-0">
+      <div class="col-sm-2 p-0">
+        <span class="badge blue darken-1 font-weight-bold text-uppercase align-middle date ml-3"> Jun 24, 2023 </span>
+      </div>
+      <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
+        <p>Attended NASA GEOS-MITgcm group meeting on adjoint seasonal to decadal climate prediction at Boston/Cambridge, MA.</p>
+      </div>
+    </div>
+
+    <div class="row p-0">
+      <div class="col-sm-2 p-0">
+        <span class="badge blue darken-1 font-weight-bold text-uppercase align-middle date ml-3"> Apr 11, 2022 </span>
+      </div>
+      <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
+      <p>NASA earth observatory explores recent anticyclone in the Southern Hemisphere high latitude. My explanation is quoted in the <a href="https://earthobservatory.nasa.gov/images/149677/clouds-do-the-darndest-things#:~:text=Winds%20generally%20blow,for%20this%20area.%E2%80%9D">article</a>.</p>
+      </div>
+    </div>
+
+
+    <div class="row p-0">
+      <div class="col-sm-2 p-0">
+        <span class="badge blue darken-1 font-weight-bold text-uppercase align-middle date ml-3"> Mar 17, 2022 </span>
+      </div>
+      <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
+      <p>Publication of our group work in GRL: <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GL097003"> "Local Air-Sea Interactions at Ocean Mesoscale and Submesoscale in a Western Boundary Current".</a></p>
+      </div>
+    </div>
+
+
+    <div class="row p-0">
+      <div class="col-sm-2 p-0">
+        <span class="badge blue darken-1 font-weight-bold text-uppercase align-middle date ml-3"> Dec 06, 2021 </span>
+      </div>
+      <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
+      <p>We have a new publication on the mechanism of summer monsoon precipitation. <a href="https://rmets.onlinelibrary.wiley.com/doi/10.1002/joc.7490">"The role of local topography and sea surface temperature on summer monsoon precipitation over Bangladesh and northeast India". </a> International Journal of Climatology. (2021)</p>
+      </div>
+    </div>
+
+
+    <div class="row p-0">
+      <div class="col-sm-2 p-0">
+        <span class="badge blue darken-1 font-weight-bold text-uppercase align-middle date ml-3"> Nov 20, 2020 </span>
+      </div>
+      <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
+      <p>Successfully defended my Ph.D. thesis from George Mason University in Climate Dynamics. Thanks to my advisor <a href="https://natalieburls.com/"> Dr. Natalie Burls.</a> </p>
+      </div>
+    </div>
+
+
+
+</div>
+
+
+
+<!-- <a href="htt">article</a> -->
+
 
 
 <!--
