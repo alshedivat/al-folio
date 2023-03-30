@@ -1,15 +1,20 @@
 - title: Current Teaching Assistantship Positions
   type: time_table
   contents:
-    - title: <a href="https://github.com/johnrgilbert/CS111-2023-winter/">CMPSC 111 - Introduction to Computational Science</a>
-      institution: UC Santa Barbara, Instructor - <a href="https://sites.cs.ucsb.edu/~gilbert/">Prof. John Gilbert</a>
-      year: Winter 2023
+    - title: <a href="#">CMPSC 138 - Automata and Formal Languages</a>
+      institution: UC Santa Barbara, Instructor - <a href="https://hardekbc.github.io/">Prof. Ben Hardekopf</a>
+      year: Spring 2023
       description:
         - Handling class forum on Piazza, organizing discussion sessions, grading, hosting office hours.
 
 - title: Previous Teaching Assistantship Positions
   type: time_table
   contents:
+    - title: <a href="https://github.com/johnrgilbert/CS111-2023-winter/">CMPSC 111 - Introduction to Computational Science</a>
+      institution: UC Santa Barbara, Instructor - <a href="https://sites.cs.ucsb.edu/~gilbert/">Prof. John Gilbert</a>
+      year: Winter 2023
+      description:
+        - Handling class forum on Piazza, organizing discussion sessions, grading, hosting office hours.
     - title: <a href="https://sites.cs.ucsb.edu/~vigoda/130A/">CMPSC 130A - Data Structures and Graph Algorithms</a>
       institution: UC Santa Barbara, Instructor - <a href="https://sites.cs.ucsb.edu/~vigoda/">Prof. Eric Vigoda</a>
       year: Fall 2022

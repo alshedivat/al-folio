@@ -6,7 +6,7 @@ subtitle: MS student in CS at UC Santa Barbara<br /><a href="https://www.ucsb.ed
 
 profile:
   align: right
-  image: Saikumar_Yadugiri.png
+  image: Saikumar_Yadugiri.jpg
   image_cicular: true # crops the image to make it circular
   address: |
     <p>Pronouns: He/Him/His</p>
