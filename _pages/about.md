@@ -9,8 +9,8 @@ profile:
   image: person_pic.jpg
   image_circular: true # crops the image to make it circular
   address: >
-    <p>Incoming PhD student</p>
-    <p>Institute</p>
+    <p>PhD student in Biomedical AI</p>
+    <p>The University of Edinburgh</p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
