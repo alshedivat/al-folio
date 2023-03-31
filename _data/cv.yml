@@ -18,16 +18,14 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: Upcoming
+    - title: PhD in Biomedical AI
+      institution: The University of Edinburgh, Edinburgh, United Kingdom
       year: 2023 - Now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+      #  - Description 1.
+      #  - title: Description 3.
+      #    contents:
+      #      - Sub-description 1.
     
     - title: MSc in Statistics with Data Science
       institution: The University of Edinburgh, Edinburgh, United Kingdom
