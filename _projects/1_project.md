@@ -1,17 +1,50 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Land Seismic Projects
+description: Collection of 2D/3D Land seismic projects
+img: assets/img/land.jpg
 importance: 1
 category: work
 ---
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+        border: 1px solid black; padding: 2px; width: 25%;
+        }
+.cell-highlight {
+  background-color: gold;
+  font-weight: bold;
+}
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+tbody tr:nth-child(even) {
+  background-color: #eee;
+}
+</style>
+---
+* Acquisition and Processing of 2D, 3D data of any complexity degree acquired on-shore with large seismic dataset and using various algorithms of 2D, 3D pre-stack and post-stack time migrations.
+* Considerable experience merging several seismic surveys acquired under different seismological conditions using different techniques and recording parameters.
+
+----
+
+|-----------------+-------------+-----------------+----------------|
+| **Project Name**|**Description**| **Year**  | **Client**  |
+|-----------------|:-----------|:---------------:|:---------------|
+Several 2D and 3D seismic surveys | - In Amina 3D, -Hassi Messaoud 3D, - Reggane 2D/3D, - Sbaa 3D | `2005 - 2009` | Gazprom, Rosneft, BP, Shell, Total, GDF, SONATRACH
+Q-Land 3D Rourd Yakoub |3D seismic Orthogonal geometry | `2010 - 2012` | E.ON Ruhrgas, Repsol, Sonatrach
+Jurassic 3D, North of Kuwait | UniQ 3D high density channels (200K), 3D orthogonal geometry, full azimuth | `2012 - 2015` | Kuwait Oil Company (KOC)
+KGOC and KOC. Joint Operations, Wafra Land 3D. Borders between Kuwait and Saudi Arabia | UniQ 3D, High productivity, full azimuth acquisition, vibroseis and Dynamite | `2015 - 2016` | Kuwait Oil Company, KGOC
+Saudi Aramco, Rabigh II 3D block. West coast of Saudi Arabia | Uniq-3D, high productivity with DS3, DS4 and Flip-Flop methods, WAS-1 geometry acquisition (30x480)ch,  457VP/Km2 | `2016` | Saudi Aramco
+Saudi Aramco, Yanbu I & Yanbu II 3D block. West coast of Saudi Arabia | Uniq-3D, high productivity with DS3 and DS4 methods, WAS-1 geometry acquisition (30x480)ch,  457VP/km2 | `2016 - 2017` | Saudi Aramco
+Saudi Aramco, Ghawas 3D block. West of Saudi Arabia | Uniq-3D, high productivity with DS4 and Flip-Flop methods, WAS-1 geometry acquisition (30x480)ch, 800VP/Km2 | `2017` | Saudi Aramco
+Saudi Aramco, Jafurah 3D block I & Block II. East of Saudi Arabia. | Uniq-3D, high productivity with DS3, DS4 and Flip-Flop methods, 3D orthogonal geometry WAZ-1 (50x400), 640VP/Km2 | `2017 - 2018` | Saudi Aramco
+Saudi Aramco, Sahba II 3D block. East of Saudi Arabia | Uniq-3D, high productivity with DS3, DS4 and Flip-Flop methods, 3D orthogonal geometry WAZ-1 (30x480), 800VP/Km2 | `2018 - 2019` | Saudi Aramco
+Lukoil 2D Iraq, Land vibroseis and dynamite seismic | Seismic data processing in time and depth imaging, AVO modeling  | `2019` | Lukoil, INPEX
+Lukoil 3D Block10 Iraq, Land vibroseis seismic | Seismic data processing in time, depth imaging, AVO modeling, prestack seismic inversion. | `2020` | Lukoil, INPEX
+{: .tablelines}
+\
 
     ---
     layout: page
@@ -22,59 +55,15 @@ To give your project a background in the portfolio page, just add the img tag to
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    From the left; A land Seismic crew in Saudi Arabia, Me receiving my General Field Engineer award from WG Management, During OFS-3 (Leading and Managing People).
 </div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}

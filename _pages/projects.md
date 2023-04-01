@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: List of Land/Marine seismic projects, including my Python coding experience
 nav: true
 nav_order: 2
 display_categories: [work, fun]

@@ -1,25 +1,26 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.github.com/'>Geophysicist</a>. Algiers, Algeria.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Located in Scotland, Aberdeen</p>
 
+  
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Geophysicist with 15 years experience. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+__Geophysicist__ with 15 years of broad-based international experience in Land and Marine Seismic. Led and collaborated in multiple projects around the world including UK Offshore, North Africa and Middle East. Proficient in 2D/3D seismic data acquisition, seismic data processing and project management, as well as Shell scripting and Python programming for Automation and QC/QA tasks.
+Experience in processing and the delivering of various 2D & 3D HR seismic projects. Multi-disciplinary collaboration in depth imaging and AVO/reservoir analysis, where I used state of the art processing tools and latest workflows that address complex subsurface challenges.
+The photo below is during a dinner where I received my GFE award from the Schlumberger Management.
+Built strong relationships with clients engaging in upfront and honest dialogues when leading working meetings and on day-to-day project management duties.
+
