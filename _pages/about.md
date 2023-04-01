@@ -10,6 +10,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
+    <p style='text-align: justify;'><form action="https://drive.google.com/file/d/10tHarR9Os3gn_omagZ13KUA5IXEbfKIW/view" method="get" target="_blank">
+    <button class="button-30" role="button">View CV</button></form></p>
     <p>NASA Goddard Space Flight Center</p>
     <p>Building 33, Room H111, 8800 Greenbelt Rd</p>
     <p>Greenbelt, MD 20771</p>
@@ -19,9 +21,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
- My passion lies in working with numerical models and Atmospheric Physics, specifically utilizing programming tools to analyze vast amounts of data and identify patterns. I possess a keen interest in researching large-scale atmospheric circulation, as well as exploring seasonal to decadal variations in large-scale atmospheric properties, and investigating the climate's response to external factors such as anthropogenic and natural sources. In Fall 2020, I graduated with a Ph.D. in Climate Dynamics from George Mason University, and in December 2020, I joined NASA GSFC at the [Global Modeling and Assimilation office](https://gmao.gsfc.nasa.gov/).  
+ <p style='text-align: justify;'> My passion lies in working with numerical models and Atmospheric Physics, specifically utilizing programming tools to analyze vast amounts of data and identify patterns. I possess a keen interest in researching large-scale atmospheric circulation, as well as exploring seasonal to decadal variations in large-scale atmospheric properties, and investigating the climate's response to external factors such as anthropogenic and natural sources. In Fall 2020, I graduated with a Ph.D. in Climate Dynamics from George Mason University, and in December 2020, I joined NASA GSFC at the <a href="https://gmao.gsfc.nasa.gov/">Global Modeling and Assimilation office.</a></p>
 
-**My Current research at NASA includes:** Air-Sea-Ice interaction, Climate model development, High resolution climate modeling, Annual to decadal climate prediction. My current project at Goddard focuses on developing and analyzing a novel prototype, property-conserving, ocean-ice-atmosphere model, and data assimilation system based on the Goddard Earth Observing System Model (GEOS) in conjunction with the adjoint-model capabilities of the Massachusetts Institute of Technology general circulation model (MITgcm). The resulting data assimilation system and an inferred solution will be used to study inter-annual to decadal prediction and predictability in the coupled system.
+<!-- [Global Modeling and Assimilation office](https://gmao.gsfc.nasa.gov/).  -->
+<p style='text-align: justify;'> <strong>My Current research at NASA includes:</strong> Air-Sea-Ice interaction, Climate model development, High resolution climate modeling, Annual to decadal climate prediction. My current project at Goddard focuses on developing and analyzing a novel prototype, property-conserving, ocean-ice-atmosphere model, and data assimilation system based on the Goddard Earth Observing System Model (GEOS) in conjunction with the adjoint-model capabilities of the Massachusetts Institute of Technology general circulation model (MITgcm). The resulting data assimilation system and an inferred solution will be used to study inter-annual to decadal prediction and predictability in the coupled system. </p>
 
 **Tools I use/used in my research-**
 
@@ -33,6 +36,49 @@ social: true  # includes social icons at the bottom of the page
 **Email:** [afahadabdullah@gmail.com](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=afahadabdullah@gmail.com); [a.fahad@nasa.gov](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=a.fahad@nasa.gov); [afahad@mit.edu](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=afahad@mit.edu)
 
 <br>
+
+
+<!-- Button Style !-->
+<style>
+  .button-30 {
+    background-color: #FCFCFD;
+    border: none;
+    color: #36395A;
+    padding: 10px 82px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transition: box-shadow .15s, transform .15s;
+  }
+
+  .button-30:focus {
+    outline: none;
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  }
+
+  .button-30:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+
+  .button-30:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+</style>
+
+
+
+
+
+
+
+
 <!-- News -->
 <div class="news mt-3 p-0">
   <h3 class="title mb-4 p-0">News</h3>
