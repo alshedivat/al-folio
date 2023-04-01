@@ -1,11 +1,11 @@
 - title: Current Teaching Assistantship Positions
   type: time_table
   contents:
-    - title: <a href="#">CMPSC 138 - Automata and Formal Languages</a>
+    - title: CMPSC 138 - Automata and Formal Languages
       institution: UC Santa Barbara, Instructor - <a href="https://hardekbc.github.io/">Prof. Ben Hardekopf</a>
       year: Spring 2023
       description:
-        - Handling class forum on Piazza, organizing discussion sessions, grading, hosting office hours.
+        - Handling class forum on Slack, organizing discussion sessions, grading, hosting office hours.
 
 - title: Previous Teaching Assistantship Positions
   type: time_table
