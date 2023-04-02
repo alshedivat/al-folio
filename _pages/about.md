@@ -10,8 +10,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p style='text-align: justify;'><form action="https://drive.google.com/file/d/10tHarR9Os3gn_omagZ13KUA5IXEbfKIW/view" method="get" target="_blank">
-    <button class="button-30" role="button">View CV</button></form></p>
+    <div style="text-align: center;"><form action="https://drive.google.com/file/d/10tHarR9Os3gn_omagZ13KUA5IXEbfKIW/view" method="get" target="_blank">
+    <button class="button-30" role="button">View CV</button></form></div>
+
     <p>NASA Goddard Space Flight Center</p>
     <p>Building 33, Room H111, 8800 Greenbelt Rd</p>
     <p>Greenbelt, MD 20771</p>
@@ -49,10 +50,11 @@ social: true  # includes social icons at the bottom of the page
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
+    <!-- font-weight: bold; -->
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 4px;
-    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #0D58D9 0 -3px 0 inset;
     transition: box-shadow .15s, transform .15s;
   }
 
@@ -71,11 +73,6 @@ social: true  # includes social icons at the bottom of the page
     transform: translateY(2px);
   }
 </style>
-
-
-
-
-
 
 
 

@@ -7,37 +7,60 @@ nav: true
 nav_order: 3
 news: false
 ---
-<h2><strong> Presentation</strong></h2>
-<div style="display: flex; justify-content: space-between;">
-    <div>
-        <iframe width="370" height="270" src="https://www.youtube.com/embed/Leb5mY3Jugs" style="display: block;"></iframe>
-        <p><b>The Nonlinear Climate Response to CO2 and Aerosol Forcing for Decadal Climate Simulations</b></p>
-    </div>
-    <div>
-        <iframe width="370" height="270" src="https://www.youtube.com/embed/2tengRsK8N0" style="display: block;"></iframe>
-        <p><b>Southern Hemisphere large scale atmospheric circulation under global warming</b></p>
-    </div>
+
+<style>
+  .video-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .video-container iframe {
+    margin-right: 20px;
+  }
+
+  .video-container p {
+    margin: 0;
+  }
+</style>
+
+
+<div class="video-container">
+  <div>
+    <iframe width="370" height="270" src="https://www.youtube.com/embed/Leb5mY3Jugs"></iframe>
+  </div>
+  <div>
+    <p><strong>The Nonlinear Climate Response to CO2 and Aerosol Forcing for Decadal Climate Simulations</strong></p>
+  </div>
 </div>
-<br>
 
-
-<div style="display: flex; justify-content: space-between;">
-    <div>
-        <iframe width="370" height="270" src="https://www.youtube.com/embed/HjNvOn5zypw" style="display: block;"></iframe>
-        <p><b>Climate and Climate Change with Dr. Fahad. Radio Salto Interview, Amsterdam Netherland</b></p>
-    </div>
-    <div>
-        <iframe width="370" height="270" src="https://www.youtube.com/embed/UZ8JvlQDtkw" style="display: block;"></iframe>
-        <p><b>The Influence of South Pacific Convergence Zone Heating on the South Pacific ...</b></p>
-        <!-- longer title creates bug here -->
-    </div>
+<div class="video-container">
+  <div>
+    <iframe width="370" height="270" src="https://www.youtube.com/embed/2tengRsK8N0"></iframe>
+  </div>
+  <div>
+    <p><strong>Southern Hemisphere large scale atmospheric circulation under global warming</strong></p>
+  </div>
 </div>
 
-<br>
-<br>
+<div class="video-container">
+  <div>
+    <iframe width="370" height="270" src="https://www.youtube.com/embed/HjNvOn5zypw"></iframe>
+  </div>
+  <div>
+    <p><strong>Climate and Climate Change with Dr. Fahad. Radio Salto Interview, Amsterdam Netherland</strong></p>
+  </div>
+</div>
+
+<div class="video-container">
+  <div>
+    <iframe width="370" height="270" src="https://www.youtube.com/embed/UZ8JvlQDtkw"></iframe>
+  </div>
+  <div>
+    <p><strong>The Influence of South Pacific Convergence Zone Heating on the South Pacific Subtropical Anticyclone</strong></p>
+  </div>
+</div>
 
 
-<br>
 
 
 
