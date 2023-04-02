@@ -34,4 +34,8 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: _site
+    - name: Fix permission
+      run: |
+        chmod a+x bin/*
+        git commit -am "add execute permission to bin/deploy"
 
