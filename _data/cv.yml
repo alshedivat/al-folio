@@ -8,23 +8,26 @@
     - name: Date of Birth
       value: 19th January 1994
     - name: Languages
-      value: Chinese, English
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
     - title: PhD (expected)
-      institution: University of Arizona, Tucson, USA
+      institution: University of Arizona, USA
       year: 2025
       description:
-        - Major: Environmental Hlth Sci
-        - Minor: Biostatistics
-        - GPA: 4.00/4.00
-        - title: Syllabus
+        - title: major & minor
+          contents:
+          - Major: Environmental Hlth Sci
+          - Minor: Biostatistics
+          - GPA: 4.00/4.00
+        - title: EHS Syllabus
           contents:
             - Applied & Advanced Exposure Science
             - Epidemiology
             - Toxicology
+        - title: Biostats Syllabus
           contents:
             - Applied Biostatistics
             - General Linear and Mixed Effects Models
@@ -35,8 +38,10 @@
       institution: University of Michigan, Ann Arbor, USA
       year: 2020
       description:
-        - Major: Environmental Hlth Sci
-        - GPA: 3.80/4.00  
+        - title: major
+          contents:
+          - Major: Environmental Hlth Sci
+          - GPA: 3.80/4.00  
 
 - title: Experience
   type: time_table
@@ -61,6 +66,10 @@
     - title: Research Assistant
       institution: SCIES, Guangzhou, China
       year: 2020/10-2021/5
+
+    - title: Research Assistant-Intern
+      institution: China NIEH, Beijing, China
+      year: 2019/5-2020/8
 
 
 
@@ -91,7 +100,7 @@
         - Outstanding Student Leader ($500)
         - Academic Performance Scholarship ($500)
 
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
     - title: Metabolomics.
