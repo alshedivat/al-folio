@@ -11,8 +11,8 @@ category: work
 This repository commits to Data Visualization using lab obtained/open source data. 
 
 - <a href="https://github.com/TuoooLiu666/expense-tracker">Arizona Pesticide Use</a>:
-  - Learnt basics and layout of *Shiny* app
-  - Built a *R* web application built using *Shiny* and *Flexboard*
+  - Learnt gramma and layout of *Shiny* app
+  - Built an web application using *Shiny* and *Flexboard*
   - Visualized the pesticide usage in the State of Arizona (1992-2016) with an interactive map and line chart using *mapview & Plotly*
 
 
