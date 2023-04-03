@@ -12,7 +12,7 @@ nav_order: 20
 A weekly meeting for anyone who wants to learn about and apply Data Science for real-world problem settings in a casual environment!
 
 <div style="background-color:orange; color: black; padding: 1em">
-    <strong>Next meeting</strong>: Monday, 20.03.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116 (please watch for room changes). <strong>Bring your laptops!</strong>
+    <strong>Next meeting</strong>: Monday, 03.04.2023, **18:00 Uhr** (notice the changed time!), Konrad-Zuse-Haus, Room 116 (please watch for room changes). <strong>Bring your laptops!</strong>
     <!-- Please <a href="https://docs.google.com/spreadsheets/d/1i1aAxqRePweL5u9WSeNviFABVuuRtfjJQK6wxaefHoA/edit?usp=sharing"><b>sign up here</b></a>, so I can plan a little. -->
 </div>
 
@@ -34,6 +34,8 @@ A weekly meeting for anyone who wants to learn about and apply Data Science for 
 
 ## History
 
+- **19th meeting**: Monday, 27.03.2023, 18:00 Uhr, Konrad-Zuse-Haus, Room 116. Training first models for BirdCLEF, debugging jupyter lab issues on GPU cluster.
+- **18th meeting**: Monday, 20.03.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Decided on new challenge [BirdCLEF](https://www.kaggle.com/competitions/birdclef-2023).
 - **17th meeting**: Monday, 13.03.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Deciding on a new kaggle challenge.
 - **16th meeting**: Monday, 06.03.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Discussing our results on the RSNA challenge; looking at new challenges.
 - **15th meeting**: Monday, 27.02.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Submitted our first submission on the RSNA Kaggle challenge!
