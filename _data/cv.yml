@@ -19,9 +19,9 @@
       description:
         - title: major & minor
           contents:
-          - Major: Environmental Hlth Sci
-          - Minor: Biostatistics
-          - GPA: 4.00/4.00
+          - Major -> Environmental Hlth Sci
+          - Minor -> Biostatistics
+          - GPA -> 4.00/4.00
         - title: EHS Syllabus
           contents:
             - Applied & Advanced Exposure Science
@@ -40,8 +40,8 @@
       description:
         - title: major
           contents:
-          - Major: Environmental Hlth Sci
-          - GPA: 3.80/4.00  
+          - Major -> Environmental Hlth Sci
+          - GPA -> 3.80/4.00  
 
 - title: Experience
   type: time_table
@@ -82,7 +82,7 @@
     - title: <a href="https://github.com/TuoooLiu666/expense-tracker">Expense Tracker</a>
       year: 2021/12
       description: A web-based application built with Streamlit, Python for tracking personal expenses.
-    - title: <a href="https://www.linkedin.com/pulse/exploring-neighborhoods-chinese-restaurants-toronto-tuo-liu/?trackingId=NZZXm6lG8Xmu2BDXB%2BuhBA%3D%3D">Where to open an Chinese restaurant in Toronto?</a>
+    - title: <a href="https://www.linkedin.com/pulse/exploring-neighborhoods-chinese-restaurants-toronto-tuo-liu/?trackingId=NZZXm6lG8Xmu2BDXB%2BuhBA%3D%3D">Where to open a Chinese restaurant in Toronto?</a>
       year: 2020/05
       description: A project exploring the best location to open a new Chinese restaurant in Toranto using Web-scraping, Foursquare API, Folium Map & Machine Learning with Python.
 
