@@ -26,9 +26,10 @@
             - Epidemiology
             - Toxicology
           contents:
-            - Biostatistics A-C
+            - Applied Biostatistics
             - General Linear and Mixed Effects Models
             - Advanced Statistical Regression Analysis
+            - Experimental Design and Analysis
 
     - title: MS
       institution: University of Michigan, Ann Arbor, USA
@@ -48,14 +49,14 @@
         - FFCCS data analysis
         - title: FEMA study
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - (To be updated).
     - title: Research Assistant
       institution: Department of Community, Environment, and Policy, University of Arizona
       year: 2021/8-2022/7
       description:
-        - Tucson Firefighter metabolomics data analysis
+        - Tucson fire fighter metabolomics data analysis
         - Arizona pesticide use and birth outcome study data analysis
+        - Tucson fire fighters epigenetic age and metabolomics analysis 
 
     - title: Research Assistant
       institution: SCIES, Guangzhou, China
@@ -66,7 +67,7 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/TuoooLiu666/Arizona-Pesticide-Usage-Map">Arizona Pesticide Use Shiny Application</a>
+    - title: <a href="https://github.com/TuoooLiu666/Arizona-Pesticide-Usage-Map">Arizona Pesticide Use Shiny Application (to be published)</a>
       year: 2022
       description: A web-based Shiny application built with R to explore pesticide use in the State of Arizona, 1992-2016.
     - title: <a href="https://github.com/TuoooLiu666/expense-tracker">Expense Tracker</a>
@@ -79,6 +80,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2023
+      items: 
+        - One Health Research Initiative GRA Award ($50,000)
     - year: 2021
       items: 
         - PhD scholarship ($10,000)
@@ -98,6 +102,10 @@
       items:
         - Exposome-wide Association Study
         - Data integration with Metabolomics, and other OMICs to reveal evidence for disease prevention
+    - title: Epigenetic age and metabolomics
+      items:
+        - Epigenetic clocks and biological age
+        - Integration with metabolome healthy aging
         
 
 - title: Other Interests
