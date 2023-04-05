@@ -9,7 +9,7 @@ profile:
   image: person_pic.jpg
   image_circular: true # crops the image to make it circular
   address: >
-    <p>PhD student</p>
+    <p>PhD student in Biomedical AI</p>
     <p>The University of Edinburgh</p>
 
 news: true  # includes a list of news items
