@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: Projects & Open-Source Highlight
+title: Code
 description: GitHub user stats and important and interesting repositories, have a look!
 nav: true
 nav_order: 3
