@@ -27,5 +27,9 @@ Throughout my undergrad I have explored many fields be it `Machine Learning`, `D
 
 One of the most fascinating aspects of machine learning is its ability to learn from data, just as humans learn from their experiences. This involves using mathematical algorithms to analyze and interpret large amounts of data, such as images or text, and make predictions or decisions based on that information.
 
+
+
 Currently, I am working on various applications of Machine Learning and Natural Language processing. Previously, I have worked a lot in LLM through internships and personal projects.
 I am open for opportunities in the field of `Machine Learning/ AI`, `Software Development`
+
+In my spare time, I enjoy watching Anime & Movies, traveling, and going on hikes with friends and family. Also, I happened to grow up in Mumbai and do speak Marathi, Hindi, English.
