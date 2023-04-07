@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /repositories/
+permalink: /Projects & Open-Source Highlight/
 title: repositories
 description: GitHub user stats and important and interesting repositories, have a look!
 nav: true
