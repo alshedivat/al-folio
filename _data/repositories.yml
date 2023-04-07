@@ -2,10 +2,9 @@ github_users:
   - jatinS-dev
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - unifyai/ivy
+  - jatinS-dev/Data-structures-and-Algorithms-Resources
+  - joomla-projects/soc21_guided-tour
+  - jatinS-dev/Image_Processing_
+  - jatinS-dev/Leetcode-Solutions
+  - jatinS-dev/jatinS-dev
