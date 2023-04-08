@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Jatin Avinash Salve
     - name: Date of Birth
-      value: 14th March 1879
+      value: 31st August 2001
     - name: Languages
-      value: English, German
+      value: English, Hindi, Marathi
 
 - title: Education
   type: time_table
