@@ -95,13 +95,22 @@
         - HTML, CSS, bootstrap
         - UI/UX
         - Wordpress & Joomla
-    - title: Web Development
+    - title: Libraries
       items:
-        - ReactJS
-        - HTML, CSS, bootstrap
-        - UI/UX
-        - Wordpress & Joomla
-        
+        - JAX
+        - NumPy
+        - PyTorch
+        - OpenCV
+        - Kornia
+        - tensorFlow
+    - title: AI
+      items:
+        - Machine Leaning
+        - Deep Learning
+        - NLP
+        - CNN
+    
+
 - title: Other Interests
   type: list
   contents:
