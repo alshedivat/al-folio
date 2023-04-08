@@ -71,13 +71,12 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - MITACS Globalink Research Internship Award
+    - year: 2022
       items: 
-        - Max Planck Medal
+        - Schindler Ignited Minds Award
 
 - title: Skills
   type: nested_list
