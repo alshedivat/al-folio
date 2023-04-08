@@ -51,6 +51,10 @@ d-article {
     summary {
       color: var(--global-theme-color);
     }
+    p {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
   }
 
   d-contents {
