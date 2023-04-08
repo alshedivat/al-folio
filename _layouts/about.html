@@ -23,8 +23,8 @@ layout: default
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
               {% endif %}
 
-              {% include figure.html 
-              path=profile_image_path 
+              {% include figure.html
+              path=profile_image_path
               class=profile_image_class
               alt=page.profile.image -%}
             {% endif -%}
@@ -46,6 +46,12 @@ layout: default
             {%- include news.html %}
           {%- endif %}
 
+          <!-- Latest posts -->
+          {% if page.latest_posts -%}
+            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
+            {%- include latest_posts.html %}
+          {%- endif %}
+
           <!-- Selected papers -->
           {% if page.selected_papers -%}
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
@@ -62,7 +68,7 @@ layout: default
               <div class="contact-note">
                 {{ site.contact_note }}
               </div>
-              
+
             </div>
           {%- endif %}
         </article>
