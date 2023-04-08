@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: ML Research @ Genesis Therapeutics  •  Previously: CMU / GoogleAI / OpenAI  •  learn ⇄ imagine ⇆ buildss
+subtitle: Transforming data into intelligence
 
 profile:
   align: right
