@@ -64,16 +64,16 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
+    - title: <a href="https://github.com/joomla-projects/soc21_guided-tour">Guided Tour</a>
+      year: 2021-2022
+      description: In Joomla! are certain workflows needed to do certain tasks. Currently, users have to read the documentation if they’re new and want to know how they can archive different things. This project should implement the functionality of guided tours in Joomla!. A tour is a click-through path which the user can follow to fulfill certain tasks like creating an article. So on the one hand Joomla! the core should deliver basic tours for users to use core functionality without the need to read the documentation. On the other hand, it should be possible to create their own tours (e.g. as administrators for system operators), copy and change existing tours or allow 3rd party developers to ship their own tours when their extension will be installed.
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2022
       items: 
         - MITACS Globalink Research Internship Award
+        - Reseach grant of 9000 Canadian Dollars
     - year: 2022
       items: 
         - Schindler Ignited Minds Award
