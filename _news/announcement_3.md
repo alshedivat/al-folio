@@ -1,8 +1,11 @@
 ---
 layout: post
 date: 2023-08-01
+startDate: 2023-08-01
+endDate: 2024-06-01
 inline: true
 expect: false
+period: true
 ---
 
 Erasmus+ Exchange Program, Placement in the Physics of Fluids group <br>
