@@ -31,7 +31,7 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
+    - title: Google Summer of Code Mentor
       institution: Institute for Advanced Study, Princeton University
       year: 1933 - 1955
       description:
@@ -41,18 +41,18 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
+    - title: MITACS Globalink Research Internship
       institution: California Institute of Technology, Pasadena, California, US
       year: 1933
       description:
         - Description 1.
         - Description 2.
 
-    - title: Director
+    - title: Summer ISCAS Fellow - Joomla CMS!
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
       year: 1917-1933
 
-    - title: Professor of Theoretical Physics
+    - title: IEEE Event Manager
       institution: Karl-Ferdinand University, Prague, Czechoslovakia
       year: 1911 - 1917
       description:
