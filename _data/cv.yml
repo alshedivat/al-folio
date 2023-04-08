@@ -89,12 +89,6 @@
         - Java
         - Javascript
         - PHP
-    - title: Web Development
-      items:
-        - ReactJS
-        - HTML, CSS, bootstrap
-        - UI/UX
-        - Wordpress & Joomla
     - title: Libraries
       items:
         - JAX
@@ -108,7 +102,15 @@
         - Machine Leaning
         - Deep Learning
         - NLP
-        - CNN
+        - CNN    
+    - title: Web Development
+      items:
+        - ReactJS
+        - HTML, CSS, bootstrap
+        - git, CI/CD
+        - UI/UX
+        - Wordpress & Joomla
+    
     
 
 - title: Other Interests
