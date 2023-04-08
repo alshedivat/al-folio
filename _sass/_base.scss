@@ -635,6 +635,7 @@ footer.sticky-bottom {
           padding-right: 1rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
+          margin-left: 0;
 
           &:hover {
             color: var(--global-theme-color);
@@ -644,11 +645,12 @@ footer.sticky-bottom {
       }
 
       .badges {
+        padding-bottom: 0.5rem;
         span {
           display: inline-block;
           color: $black-color;
           height: 100%;
-          padding-left: 0.5rem;
+          padding-right: 0.5rem;
           vertical-align: middle;
 
           &:hover {
