@@ -1,0 +1,35 @@
+- title: Milvus @ OSPP Summer 2022
+  year: June 2022 - Present
+  role: Open Source Developer
+  description:
+  - Developing a Face Recognition Pipeline using Milvus Database, Image Processing Algorithms and Deep learning.
+  - The procedure includes Face detection using MTCNN, storing the data of Face embeddings on Milvus Database and Face classification.
+  
+- title: GroundUp, Inc.
+  year: Feb 2021 - Present
+  role: Software Developer Intern
+  description:
+  - Actively developing new features inside the React Native based GroundUp Mobile Applications, and the Admin Panel web application for monitoring the entire ecosystem.
+  - Fixed issues and bugs in the present builds, optimized workflow of the applications.
+  - Written Unit tests for testing different components inside the application using React native oriented frameworks like Jest and Enzyme.
+
+- title: iNeuron.ai, Inc.
+  year: Dec 2021 - Jan - 2022
+  role: AI Intern
+  description:
+  - Developed a solution to a problem statement Automated Invoice Processing with OCR and Deep Learning.
+  - Worked on Digitizing an Invoice which includes extracting pertinent information/data from scanned or PDF invoices and transforming it into a machine readable format that is both editable and searchable.
+
+- title: ROS @ OSPP Summer 2021
+  year: July 2021 - Sept 2021
+  role: Open Source Developer
+  description:
+  - The Institute of Software Chinese Academy of Sciences and OpenEuler selected me for the coveted Open Source Promotion Plan initiative.
+  - Developed safety watchdog node in C++ to ensure the mobile robot is acting properly and not about to collide with an obstacle based on lidar, RGBD data.
+
+- title: AIRPIX, Inc.
+  year: May 2021 - Aug 2021
+  role: AI, ML, and Edge Computing Intern
+  description:
+  - Under the problem statement, lead the work of detecting lane markers and tracking their consistency using Computer vision and deep learning techniques.
+  - Trained YOLOv5 models for Road assets objects detection, achieved a reasonable mAP of around 87%.

@@ -22,3 +22,56 @@ Previously, I was `Google Summer of Code Mentor` at Joomla CMS!.(2022). In the s
 
 In my spare time, I enjoy watching Anime & Movies, traveling, and going on hikes with friends and family. Also, I happened to grow up in [Mumbai](https://en.wikipedia.org/wiki/Mumbai) and do speak `Marathi`, `Hindi`, `English`.
 
+# Experience
+
+{% for experience in site.data.experience %}
+<div>
+    {% if experience.title %}
+    <h4 class="title font-weight-bold">{{experience.title}}</h4>
+    {% endif %}
+    {% if experience.role %}
+    <h6 class="title font-weight-bold">{{experience.role}}</h6>
+    {% endif %}
+    {% if experience.year %}
+    <span class="badge bg-dark font-weight-bold">
+        {{ experience.year }}
+    </span>
+    {% endif %}
+    {% if experience.description %}
+        <ul class="items">
+            {% for item in experience.description %}
+                <li>
+                    {% if item.contents %}
+                        <span class="item-title">{{ item.title }}</span>
+                        <ul class="subitems">
+                        {% for subitem in item.contents %}
+                            <li><span class="subitem">{{ subitem }}</span></li>
+                        {% endfor %}
+                        </ul>
+                    {% else %}
+                        <span class="item">{{ item }}</span>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    {% if content.items %}
+        <ul class="items">
+            {% for item in content.items %}
+                <li>
+                    {% if item.contents %}
+                        <span class="item-title">{{ item.title }}</span>
+                        <ul class="subitems">
+                        {% for subitem in item.contents %}
+                            <li><span class="subitem">{{ subitem }}</span></li>
+                        {% endfor %}
+                        </ul>
+                    {% else %}
+                        <span class="item">{{ item }}</span>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</div>
+{% endfor %}
