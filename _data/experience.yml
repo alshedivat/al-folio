@@ -2,21 +2,22 @@
   year: March 2022 - Nov 2022
   role: Mentor
   description:
-  - Developing a Face Recognition Pipeline using Milvus Database, Image Processing Algorithms and Deep learning.
-  - The procedure includes Face detection using MTCNN, storing the data of Face embeddings on Milvus Database and Face classification.
-  
+  - Maintaining Joomla GSoC Project Repository, Keeping track of the daily work of GSoC Participant.
+  - Mentoring GSoC students, scheduling weekly meets reviewing the code, guide students to write quality code.
+  - Based on the work done by the GSoC student, mid-term and final evaluation reports were Submitted.
+
 - title: MITACS Globalink Research Internship
   year: May 2022 - August 2022
   role: Reseach Intern
   description:
   - Developed a decision support tool for water quality management, using the IDF Data Curve values from the CMIP4/5 readings of Canada.
   - Worked on the Machine Learning Model in PyTorch and TensorFlow for the IDF Curves data estimations using the ML Techniques
-  - Globalink Research Fellowship Awardee - research grants worth over CAD 9000. [Link](xnxx.xxx)
+  - Globalink Research Fellowship Awardee - research grants worth over CAD 9000. 
   - Analyzing the results of an online survey, to Provide a manual to use the web-based tool.
 
 - title: Joomla @ OSPP Summer 2021
   year: July 2021 - Dec - 2021
-  role: AI Intern
+  role: Open Source Developer
   description:
-  - The Institute of Software Chinese Academy of Sciences and OpenEuler selected me for the coveted Open Source Promotion Plan initiative.
-  - Worked on Digitizing an Invoice which includes extracting pertinent information/data from scanned or PDF invoices and transforming it into a machine readable format that is both editable and searchable.
+  - Worked under the Joomla Organization. Developed a Joomla 4. X MVC Component with the additional support of databases like MySQL and PostgreSQL, and gave the support of Joomla 4. X backend Plugin.
+  - Integrated the external JS library Shepherd JS which uses Popper JS that handles the Guided Tour functionality. Understood the code flow and good coding practices that should be followed while writing code in C++, JS, Web Development, Apache, and PHP especially using OOPs. 
