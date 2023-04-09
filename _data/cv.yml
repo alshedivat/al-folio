@@ -41,14 +41,15 @@
       description:
         - Developed a decision support tool for water quality management, using the IDF Data Curve values from the CMIP4/5 readings of Canada.
         - Worked on the Machine Learning Model in PyTorch and TensorFlow for the IDF Curves data estimations using the ML Techniques
-        - Globalink Research Fellowship Awardee - research grants worth over CAD 9000.
+        - Globalink Research Fellowship Awardee - research grants worth over CAD 9000. 
         - Analyzing the results of an online survey, to Provide a manual to use the web-based tool.
     - title: Joomla @ OSPP Summer 2021
       institution: China - Remote
       year: 2021
       description:
         - Worked under the Joomla Organization. Developed a Joomla 4. X MVC Component with the additional support of databases like MySQL and PostgreSQL, and gave the support of Joomla 4. X backend Plugin.
-        - Integrated the external JS library Shepherd JS which uses Popper JS that handles the Guided Tour functionality. Understood the code flow and good coding practices that should be followed while writing code in C++, JS, Web Development, Apache, and PHP especially using OOPs.
+        - Integrated the external JS library Shepherd JS which uses Popper JS that handles the Guided Tour functionality. Understood the code flow and good coding practices that should be followed while writing code in C++, JS, Web Development, Apache, and PHP especially using OOPs. 
+
 
 - title: Open Source Projects
   type: time_table
@@ -57,22 +58,23 @@
       year: 2021-2022
       description: In Joomla! are certain workflows needed to do certain tasks. Currently, users have to read the documentation if they’re new and want to know how they can archive different things. This project should implement the functionality of guided tours in Joomla!. A tour is a click-through path which the user can follow to fulfill certain tasks like creating an article. So on the one hand Joomla! the core should deliver basic tours for users to use core functionality without the need to read the documentation. On the other hand, it should be possible to create their own tours (e.g. as administrators for system operators), copy and change existing tours or allow 3rd party developers to ship their own tours when their extension will be installed.
 
+
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2022
-      items:
+      items: 
         - MITACS Globalink Research Internship Award
         - Reseach grant of 9000 Canadian Dollars
     - year: 2022
-      items:
+      items: 
         - Schindler Ignited Minds Award
 
 - title: Skills
   type: nested_list
   contents:
     - title: Languages
-      items:
+      items: 
         - C & C++
         - Python
         - Java
@@ -91,7 +93,7 @@
         - Machine Leaning
         - Deep Learning
         - NLP
-        - CNN
+        - CNN    
     - title: Web Development
       items:
         - ReactJS
@@ -99,10 +101,11 @@
         - git, CI/CD
         - UI/UX
         - Wordpress & Joomla
+    
+    
 
-My Interests are:
-* Machine Learning
-* Deep Learning
-* Software Development
-* Cross-platform Application Development
-* Open Source
+- title: Skills
+  type: list
+  contents:
+    - MITACS Globalink Research Awardee
+    - Schindler Ignited Minds Awardee.
