@@ -20,14 +20,14 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <b> ...a little about me</b> <br>
-I am a master student of [Complex Adaptive Systems](https://www.chalmers.se/en/education/programmes/masters-info/Pages/Complex-Adaptive-Systems.aspx) at Chalmers University of Technology, Sweden. From summer 2023, I will be an Erasmus+ exchange student to the [Physics of Fluids group](https://pof.tnw.utwente.nl/) at the University of Twente, Netherlands for master's thesis work. I earned my Bachelor degree in
+I am a master student of [Complex Adaptive Systems](https://www.chalmers.se/en/education/programmes/masters-info/Pages/Complex-Adaptive-Systems.aspx) at Chalmers University of Technology, Sweden. From summer 2023, I will be an Erasmus+ exchange student to the [Physics of Fluids group](https://pof.tnw.utwente.nl/) at the University of Twente, Netherlands for master's thesis work. I received my Bachelor degree in
 [](https://engsci.utoronto.ca/program/what-is-engsci/)[Engineering Science](https://youtu.be/BcPO4yhWSUg), major in Engineering Physics at the University of Toronto, Canada. 
 
 I am primarily interested in fluid mechanics, computational physics, dynamical systems, numerical and harmonic analysis, statistical physics, and their applications in oceanography and atmospheric science, as well as all the other fields in physics and mathematics. Here is my [CV](/assets/pdf/RundongZhou_CV.pdf).
 
 During my bachelor study, I worked with [Prof. Nicolas Grisouard](https://sites.physics.utoronto.ca/nicolasgrisouard) from the Department of Physics at the University of Toronto. My research project was on developing a [Fourier-Bessel](https://en.wikipedia.org/wiki/Fourier%E2%80%93Bessel_series) based spectral Laplacian solver in 2D polar coordinates for [Gross-Pitaevskii equation](https://en.wikipedia.org/wiki/Gross%E2%80%93Pitaevskii_equation) which governs Bose–Einstein condensates. During the time, I also worked on discovering new types of discrete generalized Fourier methods using [Dini series](https://mathworld.wolfram.com/DiniExpansion.html) in polar coordinates with [Prof. Natalie Baddour](https://engineering.uottawa.ca/people/baddour-natalie) from the Department of Mechanical Engineering at the University of Ottawa. For more detailed introductions on my works, please click [here](/projects).
 
-Out of academics, I am a wine and whisky enthusiast with the [WSET 3](https://www.wsetglobal.com/qualifications/wset-level-3-award-in-wines/) qualification. I also enjoy playing [DOTA2](https://www.dota2.com/home), I used to play competitively for team UofT at 2018 [CSL Esports](https://cslesports.com/#who) league.
+Out of academics, I am a wine and whisky enthusiast with the [WSET 3](https://www.wsetglobal.com/qualifications/wset-level-3-award-in-wines/) qualification. I also enjoy playing [DOTA2](https://www.dota2.com/home), I used to play competitively for team UofT at 2018 [North America collegiate esports](https://playflyesports.com/) league.
 
 <font size=2>
 ...<b>a bit more on my name</b> <br>
