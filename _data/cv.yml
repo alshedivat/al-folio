@@ -29,8 +29,8 @@
   type: time_table
   contents:
     - title: Google Summer of Code Mentor
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+      institution: USA - Remote
+      year: 2022
       description:
         - Description 1.
         - Description 2.
@@ -39,24 +39,22 @@
             - Sub-description 1.
             - Sub-description 2.
     - title: MITACS Globalink Research Internship
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+      institution: Polytechnique Montreal, Montreal, Quebec, Canada
+      year: 2022
       description:
         - Description 1.
         - Description 2.
 
     - title: Summer ISCAS Fellow - Joomla CMS!
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      institution: China - Remote
       year: 1917-1933
 
     - title: IEEE Event Manager
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+      institution: Mumbai, Maharashtra, India
+      year: 2021
+      description:   - Worked under the Joomla Organization. Developed a Joomla 4. X MVC Component with the additional support of databases like MySQL and PostgreSQL, and gave the support of Joomla 4. X backend Plugin.
+  - Integrated the external JS library Shepherd JS which uses Popper JS that handles the Guided Tour functionality. Understood the code flow and good coding practices that should be followed while writing code in C++, JS, Web Development, Apache, and PHP especially using OOPs. 
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
 - title: Open Source Projects
   type: time_table
@@ -64,6 +62,8 @@
     - title: <a href="https://github.com/joomla-projects/soc21_guided-tour">Guided Tour</a>
       year: 2021-2022
       description: In Joomla! are certain workflows needed to do certain tasks. Currently, users have to read the documentation if they’re new and want to know how they can archive different things. This project should implement the functionality of guided tours in Joomla!. A tour is a click-through path which the user can follow to fulfill certain tasks like creating an article. So on the one hand Joomla! the core should deliver basic tours for users to use core functionality without the need to read the documentation. On the other hand, it should be possible to create their own tours (e.g. as administrators for system operators), copy and change existing tours or allow 3rd party developers to ship their own tours when their extension will be installed.
+
+
 - title: Honors and Awards
   type: time_table
   contents:
