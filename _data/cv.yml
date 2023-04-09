@@ -28,32 +28,27 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Google Summer of Code Mentor
+    - title: Google Summer of Code(GSoC)
       institution: USA - Remote
       year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Maintaining Joomla GSoC Project Repository, Keeping track of the daily work of GSoC Participant.
+        - Mentoring GSoC students, scheduling weekly meets reviewing the code, guide students to write quality code.
+        - Based on the work done by the GSoC student, mid-term and final evaluation reports were Submitted.
     - title: MITACS Globalink Research Internship
       institution: Polytechnique Montreal, Montreal, Quebec, Canada
       year: 2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Summer ISCAS Fellow - Joomla CMS!
+        - Developed a decision support tool for water quality management, using the IDF Data Curve values from the CMIP4/5 readings of Canada.
+        - Worked on the Machine Learning Model in PyTorch and TensorFlow for the IDF Curves data estimations using the ML Techniques
+        - Globalink Research Fellowship Awardee - research grants worth over CAD 9000. 
+        - Analyzing the results of an online survey, to Provide a manual to use the web-based tool.
+    - title: Joomla @ OSPP Summer 2021
       institution: China - Remote
-      year: 1917-1933
-
-    - title: IEEE Event Manager
-      institution: Mumbai, Maharashtra, India
       year: 2021
-      description:   - Worked under the Joomla Organization. Developed a Joomla 4. X MVC Component with the additional support of databases like MySQL and PostgreSQL, and gave the support of Joomla 4. X backend Plugin.
-  - Integrated the external JS library Shepherd JS which uses Popper JS that handles the Guided Tour functionality. Understood the code flow and good coding practices that should be followed while writing code in C++, JS, Web Development, Apache, and PHP especially using OOPs. 
+      description:
+        - Worked under the Joomla Organization. Developed a Joomla 4. X MVC Component with the additional support of databases like MySQL and PostgreSQL, and gave the support of Joomla 4. X backend Plugin.
+        - Integrated the external JS library Shepherd JS which uses Popper JS that handles the Guided Tour functionality. Understood the code flow and good coding practices that should be followed while writing code in C++, JS, Web Development, Apache, and PHP especially using OOPs. 
 
 
 - title: Open Source Projects
