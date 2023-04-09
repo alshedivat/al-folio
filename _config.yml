@@ -214,6 +214,12 @@ defaults:
       path: "assets/**/*.*"
     values:
       sitemap: false
+  - scope:
+      path: "assets/img_gallery_thumb/*"
+    values: 
+      image: true
+      
+  
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
@@ -374,3 +380,11 @@ mdb:
 medium_zoom:
   version: "1.0.8"
   integrity: "sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8="
+
+
+# -----------------------------------------------------------------------------
+# Image Gallery
+# -----------------------------------------------------------------------------
+
+imagesurl: "assets/img_gallery/"
+thumbsurl: "assets/img_gallery_thumb/"

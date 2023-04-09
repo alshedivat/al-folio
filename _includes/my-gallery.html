@@ -1,0 +1,15 @@
+<div style="width:100%;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px, 1fr));justify-content:center;padding:4px;">
+    {% assign sorted = site.static_files | sort: 'date' | reverse %}
+    {% for file in sorted %}
+    {% if file.path contains include.folder %}
+    {% if file.extname == '.png' %}
+      {% assign filenameparts = file.path | split: "/" %}
+        {% assign filename = filenameparts | last | replace: file.extname,"" %}
+         <div style="flex-basis:25%;width:100%;padding:10px;margin:2px;">
+            <a href="{{ file.path | relative_url }}" title="{{ filename }}">
+           <img src="{{ site.thumbsurl }}{{file.name }} " alt="{{ filename }}"  style="width:100%;height:200px;object-fit:cover;transform:scale(1);transition:all 0.3s ease-in-out;" />
+         </a></div>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+   </div>
