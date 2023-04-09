@@ -4,7 +4,7 @@
  
 :root {
   --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$pink-color};
+  --global-code-bg-color: #{$light-pink-color};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$pink-color};
@@ -13,7 +13,7 @@
   --global-footer-text-color: #{$black-color};
   --global-footer-link-color: #{$pink-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0,0,0,.1);
+  --global-divider-color: rgba(226, 170, 201, 0.1);
   --global-card-bg-color: #{$white-color};
 
   .fa-sun {
