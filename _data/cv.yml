@@ -104,7 +104,8 @@
     
     
 
-- title: Other Interests
-  type: list
+- title: Achievments
+  type: nested_list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: MITACS Globalink Research Awardee & Research grant 0f 9000 CAD
+    - title: 
