@@ -15,18 +15,15 @@
       institution: Veermata Jijabai Technological Institute(VJTI), Mumbai, India
       year: 2019 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Core Member
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Google Student Developers Club(GDSC)
+            - Community of Coders(CoC)
+    - title: HSC
+      institution: Vivekanand Education Society(VES)
+      year: 2017
       description:
-        - Description 1.
-        - Description 2.
+        - MHT-CET 98 Percentile
 
 - title: Experience
   type: time_table
