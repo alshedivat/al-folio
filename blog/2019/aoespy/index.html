@@ -1,0 +1,147 @@
+<!DOCTYPE html> <html> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title>AOESpy, Python Toolbox for Climate Data Analysis | Abdullah Al Fahad, Ph.D. </title> <meta name="author" content="Abdullah Al Fahad, Ph.D. "> <meta name="description" content="A complete toolbox for beginners in python that uses python 3+ functions from plotting climate data to basic statistical analysis. Details of the project is posted in the Github."> <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous"> <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="/assets/img/favicon.ico"> <link rel="stylesheet" href="/assets/css/main.css"> <link rel="canonical" href="https://afahadabdullah.github.io/blog/2019/aoespy/"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark"> <script src="/assets/js/theme.js"></script> <script src="/assets/js/dark_mode.js"></script> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script type="text/javascript">window.MathJax={tex:{tags:"ams"}};</script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script> <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script src="/assets/js/distillpub/template.v2.js"></script> <script src="/assets/js/distillpub/transforms.v2.js"></script> <script src="/assets/js/distillpub/overrides.js"></script> <style type="text/css">.fake-img{background:#bbb;border:1px solid rgba(0,0,0,0.1);box-shadow:0 0 4px rgba(0,0,0,0.1);margin-bottom:12px}.fake-img p{font-family:monospace;color:white;text-align:left;margin:12px 0;text-align:center;font-size:16px}</style> </head> <body> <d-front-matter> <script async type="text/json">{
+      "title": "AOESpy, Python Toolbox for Climate Data Analysis",
+      "description": "A complete toolbox for beginners in python that uses python 3+ functions from plotting climate data to basic statistical analysis. Details of the project is posted in the Github.",
+      "published": "July 6, 2019",
+      "authors": [
+        {
+          "author": "Abdullah Al Fahad",
+          "authorURL": "https://scholar.google.com/citations?user=60Bz9LYAAAAJ&hl=en&oi=sra",
+          "affiliations": [
+            {
+              "name": "NASA GSFC",
+              "url": ""
+            }
+          ]
+        }
+        
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script> </d-front-matter> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Abdullah Al Fahad, Ph.D. </span></a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">Home</a> </li> <li class="nav-item active"> <a class="nav-link" href="/blog/">Blog<span class="sr-only">(current)</span></a> </li> <li class="nav-item "> <a class="nav-link" href="/research/">Research</a> </li> <li class="nav-item "> <a class="nav-link" href="/Presentation/">Presentation</a> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="fas fa-moon"></i> <i class="fas fa-sun"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="post distill"> <d-title> <h1>AOESpy, Python Toolbox for Climate Data Analysis</h1> <p>A complete toolbox for beginners in python that uses python 3+ functions from plotting climate data to basic statistical analysis. Details of the project is posted in the Github.</p> </d-title> <d-byline></d-byline> <d-article> <d-contents> <nav class="l-text figcaption"> <h3>Contents</h3> <div><a href="#github">GitHub</a></div> <div><a href="#aoespy">AOESpy</a></div> <div><a href="#dependency-library">Dependency Library</a></div> <div><a href="#setup">setup</a></div> <div><a href="#load-function">Load function</a></div> <div><a href="#functions">Functions</a></div> <div><a href="#other-handly-functions">Other handly functions</a></div> </nav> </d-contents> <h2 id="github"><a href="https://github.com/afahadabdullah/AOESpy" rel="external nofollow noopener" target="_blank">GitHub</a></h2> <h2 id="aoespy">AOESpy</h2> <p>AOESpy (v1) Author@ Abdullah al Fahad (afahad@gmu.edu) http://afahadabdullah.com</p> <p><strong>Cite as:</strong> Abdullah Al Fahad. (2022). afahadabdullah/AOESpy: v1.0.0 (v1.0.0). Zenodo. <a href="https://doi.org/10.5281/zenodo.6100762" rel="external nofollow noopener" target="_blank">https://doi.org/10.5281/zenodo.6100762</a></p> <p><strong>Please Fill up the form to get future AOESpy and Python for climate science updates.</strong> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMGsFau4Upuy096Qsg89gIEdMJWb-LoXj2TJsypdBO5dCYyg/viewform" rel="external nofollow noopener" target="_blank">form link</a></p> <h2 id="dependency-library">Dependency Library</h2> <p><code class="language-plaintext highlighter-rouge">python 3+</code> <code class="language-plaintext highlighter-rouge">Numpy</code> <code class="language-plaintext highlighter-rouge">Scipy</code> <code class="language-plaintext highlighter-rouge">mpl_toolkits.basemap</code> <code class="language-plaintext highlighter-rouge">Matplotlib</code> <code class="language-plaintext highlighter-rouge">netCDF4</code></p> <h2 id="setup">Setup</h2> <p>from terminal:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; cd /homes/afahad/ #use your setup directory here
+&gt; wget https://github.com/afahadabdullah/AOESpy/archive/master.zip
+&gt; unzip master.zip
+&gt; cd AOESpy-master
+</code></pre></div></div> <p><strong>list the directory to see if all 3 files are present</strong></p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; ls
+aoespy.py  README.md  setup.sh
+</code></pre></div></div> <h2 id="load-function">Load function</h2> <p><strong>In ipython IDLE 3.0+ (Spyder, Jupyter Notebook. …… or the good ol’ ipython terminal)</strong></p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wdir="/homes/afahad/"
+import os
+os.chdir("/homes/afahad/AOESpy-master/")
+import aoespy as ap
+os.chdir(wdir)
+
+.
+..
+...
+</code></pre></div></div> <h2 id="functions">Functions</h2> <h3 id="read-netcdf-data-rnc">Read netcdf data: rnc</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>data=rnc(var,file)
+
+inputs:	var= string variable name that needs to be read
+		file=string file path
+
+outputs:	data= data read from the file
+</code></pre></div></div> <h3 id="linear-trend-ltrend">Linear Trend: ltrend</h3> <p>vart, varp=ltrend(var,lon,lat,time,sig=False)</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>inputs:	var= variable as 3D [time,lat,lon] or 2D [time,lat*lon]
+		lon=lon array
+		lat=lat array
+		time=time array
+		sig= alpha significance value (e.g. 0.05, 0.1), if given the output data
+		will have nan values in insignificant points (default False)
+
+outputs:	#vart= linear trend of the variable along time dimension
+			#varp= P value of the trend		           
+</code></pre></div></div> <h3 id="mapping-function-plot">Mapping function: plot</h3> <p>plot(var,lon,lat,title=’‘,clf=[],cl=[], cmap=’coolwarm’,lon1=-180,lon2=180,lat1=-90,lat2=90,bar=1,p=1,m=1)</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>inputs: 	var= 2D variable that will be plotted
+		lon=lon lat=lat title='title' clf= array of filled contoured levels cl= array of contoured levels (optional) cmap= string of name of colorbar (default coolwarm, for list: matplotlib colorbars) lon1= start of lon (default -180) lon2= end of lon (default 180) lat1= start of lat (default -90) lat2= end of lat (default 90) bar= 1 (default) to plot colorbar; or 0 doesn't plot colorbar in figure p= 1 (default) plots parallel line, or 0 doesn't plot m= 1 (default) plots meridioinal line, or 0 doesn't plot
+</code></pre></div></div> <h3 id="3d-seasonal-decompose-from-monthly-time-dimensions-to-annual-djf-mam-jja-son-season">3D seasonal decompose from monthly time dimensions to annual, DJF, MAM, JJA, SON: season</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ann, djf,mam,jja,son= season(data,lon,lat,time)
+
+inputs:	data=3D data [time lat lon]
+		lon=lon
+		lat=lat
+		time=time
+
+outputs:	ann= annual mean
+		djf= DJF mean
+		mam= MAM mean
+		jja= JJA mean
+		son= SON mean
+</code></pre></div></div> <h3 id="1d-seasonal-decompose-from-monthly-time-dinemsions-to-annual-djf-mam-jja-son-season1d">1D seasonal decompose from monthly time dinemsions to annual, DJF, MAM, JJA, SON: season1d</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ann, djf,mam,jja,son= season1d(data,time)
+
+inputs:	data=1D data [time]
+		time=time
+
+outputs:	ann= annual mean
+		djf= DJF mean
+		mam= MAM mean
+		jja= JJA mean
+		son= SON mean
+</code></pre></div></div> <h3 id="interpolates-data-in-desired-grid-interp">interpolates data in desired grid: interp</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>data_interp=interp(var, lon, lat, new_lons, new_lats,time=arange(1))
+
+inputs:	var= input variable 2D or 3D (includes time dimension)
+		lon= lon of the variable
+		lat= lat of the variable
+		new_lons= new lon that grid needs to be shifted to
+		new_lats= new lat that grid needs to be shifted to
+		time= (optional)
+
+outputs:	data_interp= intrepolated data to new grids
+</code></pre></div></div> <h3 id="write-variables-in-netcdf-output-this-function-can-write-upto-2-variables-in-one-file-and-required-dimensions-wnc">write variables in netcdf output. This function can write upto 2 variables in one file and required dimensions: wnc</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> wnc(x,y,data_out1,var1='data1',data_out2=array([1]),var2='data2',t=array([1]),e=array([1]),file='output')
+
+inputs:	x=lon
+	           	y=lat
+     	data_out1=first variable to write in file
+           	var1='data1' ; first varible name assigned in the file
+           	data_out2=second variable to write in file; (optional) var2='data2'; first varible name assigned in the file (if second variable is given to write)
+          	 t= time dimension array
+           	e= ensemble dimension array (can be used as vertical level)
+           	file= string of output file name (dont need to add .nc)
+</code></pre></div></div> <h3 id="convert-vertical-pressure-levels-to-geometric-height-p2h">convert vertical pressure levels to geometric height: p2h</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> H = p2h(T,slp,P)
+
+    #equation from Hypsometric
+    # H= z2-z1= R*T/g * ln(P0/P)
+    # H= Height
+    # g=9.81 m/s2
+    # R=287.04 J K-1 kg-1
+
+inputs:	T = air temperature one array (Kelvin) SLP = sea level pressure one array (hPa)
+     	 P = Pressure level that needs to be converted in to height (hPa)
+
+outputs:   	H = Height (meters)
+
+#example:       #h=zeros(ta.shape)
+
+                # for i in range(len(lev)):
+                #     for j in range(len(lat)):
+                #         for k in range(len(lon)):
+                #             h[i,j,k]=p2h(T[i,j,k],slp[j,k],P[i])
+</code></pre></div></div> <h3 id="static-stability-buyoncy-frequency-n2-n2">static stability (buyoncy frequency N2): N2</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> N2, pn = N2(ta,slp,plev,lon,lat)
+
+inputs:   	 ta = air temperature (Kelvin) (3D [time, lat, lon])
+		slp= sea level pressure (hPa) (2D [lat, lon])
+		plev= pressure level (hPa) (1D vertical array)
+
+outputs:   	N2= static stability (s^-2) pn= new pressure level (hPa)
+</code></pre></div></div> <h3 id="customized-colormap">customized colormap</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> cmap()
+</code></pre></div></div> <h3 id="this-function-takes-two-time-series-x-1d-y-3d-and-output-gives-y-removing-the-x-signal">This function takes two time series (x 1D, y 3D) and output gives y removing the x signal</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>deregress(x,y,lon=[],lat=[])
+</code></pre></div></div> <h2 id="other-handly-functions">Other handly functions</h2> <h3 id="d">d()</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     displays plot based on matplotlib.pyplot
+</code></pre></div></div> <h3 id="f">f()</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  	 an output default figure size
+</code></pre></div></div> <h3 id="shiftgrid">shiftgrid</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dataout, newlon= shiftgrid(lon0, datain, lonsin, start=True, cyclic=360.0)
+
+inputs: 	lon0=starting longitude for shifted grid (ending longitude if start=False)
+		datain= original data with longitude the right-most dimension.
+		lonsin= original longitudes
+		start= if True, lon0 represents the starting longitude of the new         
+               			grid. if False, lon0 is the ending longitude. Default True.
+		cyclic=	width of periodic domain (default 360)
+
+outputs:	dataout= shifted input data
+		newlon= new shifted longitude array
+</code></pre></div></div> </d-article> <d-appendix> <d-footnote-list></d-footnote-list> <d-citation-list></d-citation-list> </d-appendix> <d-bibliography src="/assets/bibliography/"></d-bibliography><div id="giscus_thread" style="max-width: 800px; margin: 0 auto;"> <script>let giscusTheme=localStorage.getItem("theme"),giscusAttributes={src:"https://giscus.app/client.js","data-repo":"alshedivat/al-folio","data-repo-id":"MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==","data-category":"Comments","data-category-id":"DIC_kwDOA5PmLc4CTBt6","data-mapping":"title","data-strict":"1","data-reactions-enabled":"1","data-emit-metadata":"0","data-input-position":"bottom","data-theme":giscusTheme,"data-lang":"en",crossorigin:"anonymous",async:""},giscusScript=document.createElement("script");Object.entries(giscusAttributes).forEach(([t,a])=>giscusScript.setAttribute(t,a)),document.getElementById("giscus_thread").appendChild(giscusScript);</script> <noscript>Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript" rel="external nofollow noopener" target="_blank">comments powered by giscus.</a> </noscript> </div> </div> <footer class="fixed-bottom"> <div class="container mt-0"> © Copyright 2023 Abdullah Al Fahad, Ph.D. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script type="text/javascript">function progressBarSetup(){"max"in document.createElement("progress")?(initializeProgressElement(),$(document).on("scroll",function(){progressBar.attr({value:getCurrentScrollPosition()})}),$(window).on("resize",initializeProgressElement)):(resizeProgressBar(),$(document).on("scroll",resizeProgressBar),$(window).on("resize",resizeProgressBar))}function getCurrentScrollPosition(){return $(window).scrollTop()}function initializeProgressElement(){let e=$("#navbar").outerHeight(!0);$("body").css({"padding-top":e}),$("progress-container").css({"padding-top":e}),progressBar.css({top:e}),progressBar.attr({max:getDistanceToScroll(),value:getCurrentScrollPosition()})}function getDistanceToScroll(){return $(document).height()-$(window).height()}function resizeProgressBar(){progressBar.css({width:getWidthPercentage()+"%"})}function getWidthPercentage(){return getCurrentScrollPosition()/getDistanceToScroll()*100}const progressBar=$("#progress");window.onload=function(){setTimeout(progressBarSetup,50)};</script> </body> </html>
