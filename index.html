@@ -48,7 +48,8 @@
       <style>
       .header-cover-photo {
         width: 100%;
-        height: calc(100vh - 550px); /* Adjust height as needed */
+/*         height: calc(100vh - 550px); */
+        height: auto;/* Adjust height as needed */
         background-size: cover;
         background-position: center;
         position: relative;
@@ -61,17 +62,18 @@
         color: white;
         text-align: center;
         font-style: italic;
-        font-size: 2vw;
+        font-size: 1.7vw;
       }
       /* Media query for devices with max-width 767px */
       @media only screen and (max-width: 767px) {
         .header-cover-photo {
           height: auto;
-          min-height: 100px; /* Adjust height as needed */
+/*           min-height: 100px; */
+          min-height: auto;/* Adjust height as needed */
         }
 
         .header-content {
-          font-size: 9px;
+          font-size: 12px;
           padding: 0 10px;
         }
       }
