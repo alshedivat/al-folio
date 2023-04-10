@@ -34,7 +34,7 @@ social: true  # includes social icons at the bottom of the page
 **Machine Learning:** Scikit-learn, Deep Learning, Keras, Tensorflow, RNN (LSTM, GRU), kNN.  
 
 
-**Email:** [afahadabdullah@gmail.com](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=afahadabdullah@gmail.com); [a.fahad@nasa.gov](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=a.fahad@nasa.gov); [afahad@mit.edu](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=afahad@mit.edu)
+**Email:** [afahadabdullah@gmail.com](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=afahadabdullah@gmail.com); [a.fahad@nasa.gov](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=a.fahad@nasa.gov)
 
 <br>
 
