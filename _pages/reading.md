@@ -9,6 +9,8 @@ nav_order: 4
 
 2023
 
+* The Bombay Prince - Sujata Massey
+* The Secret Commonwealth - Philip Pullman 
 * La Belle Sauvage - Philip Pullman 
 * Kaikeyi - Vaishnavi Patel
 * The Tenth Riddle - Sapan Saxena
