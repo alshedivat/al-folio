@@ -20,8 +20,8 @@ My goal, therefore, is to develop computational frameworks that enable existing 
 * Image Hashing by Minimizing Discrete Component-wise Wasserstein Distance (*arxiv* 2021 by Doan et al.)
 * Generative Hashing Network (*ACCV* 2022 by Doan et al.)
 * EBM Hashing Network (*Under Submission* 2021 by Doan et al.)
-* Fast Learning-to-Hash Ranking  (*Under Preparation* 2022 by Doan et al.)
 * One Loss for Quantization: Deep Hashing with Discrete Wasserstein Distributional Matching  (*CVPR* 2022 by Doan et al.)
+* Asymmetric Hashing for Fast Ranking via Neural Network Measures  (*SIGIR* 2023 by Doan et al.)
 
 <b>{{ "Generative Models" }}</b>
 
@@ -32,19 +32,19 @@ My goal, therefore, is to develop computational frameworks that enable existing 
 
 * Backdoor Attack with Imperceptible Input and Latent Modification (*NeurIPS* 2021 by Doan et al.)
 * LIRA: Learnable, Imperceptible and Robust Backdoor Attacks (*ICCV* 2021 by Doan et al.)
-* Backdoor Attacks for Vision Transformers   (*Under Submission* 2022 by Doan et al.)
 * Adversarial Defenses for Vision Transformers   (*Under Submission* 2022 by Peng et al.)
 * Marksman Backdoor: Backdoor Attacks with Arbitrary Target Class (*NeurIPS* 2022 by Doan et al.)
+* Defending backdoor attacks on vision transformer via patch processing  (*AAAI* 2023 by Doan et al.)
 
 <h1 class="post-title">{{ "Professional Service"}}</h1><a name="services"></a>
 
 <b>{{ "Program Committee (Invited):" }}</b>
 
-* International Conference on Learning Representations (**ICLR**): 2021-2022
-* Annual Conference on Neural Information Processing Systems (**NeurIPS**): 2020-2022
-* IEEE Conference on Computer Vision and Pattern Recognition (**CVPR**): 2020-2022
-* International Conference on Machine Learning (**ICML**): 2020-2022
-* IEEE International Conference on Computer Vision (**ICCV**): 2021
+* International Conference on Learning Representations (**ICLR**): 2021-2023
+* Annual Conference on Neural Information Processing Systems (**NeurIPS**): 2020-2023
+* IEEE Conference on Computer Vision and Pattern Recognition (**CVPR**): 2020-2023
+* International Conference on Machine Learning (**ICML**): 2020-2023
+* IEEE International Conference on Computer Vision (**ICCV**): 2021-2023
 * European Conference on Computer Vision (**ECCV**): 2020-2022
 * AAAI Conference on Artificial Intelligence (**AAAI**): 2021-2022
 * IEEE International Conference on Big Data (**BigData**): 2020-2022
