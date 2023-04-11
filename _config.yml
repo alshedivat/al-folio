@@ -77,7 +77,6 @@ github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: 9yJyLsoAAAAJ&hl # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
@@ -104,6 +103,7 @@ instagram_id: # your instagram id
 facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
+linkedin_username: fanzon # your LinkedIn user name
 
 contact_note: >
   The best way to contact me is by email.
