@@ -12,7 +12,7 @@ nav_order: 20
 A weekly meeting for anyone who wants to learn about and apply Data Science for real-world problem settings in a casual environment!
 
 <div style="background-color:orange; color: black; padding: 1em">
-    <strong>Next meeting</strong>: Monday, 03.04.2023, **18:00 Uhr** (notice the changed time!), Konrad-Zuse-Haus, Room 116 (please watch for room changes). <strong>Bring your laptops!</strong>
+    <strong>Next meeting</strong>: Monday, 10.04.2023, <strong>18:00 Uhr</strong> (notice the changed time!), Konrad-Zuse-Haus, Room 116 (please watch for room changes). <strong>Bring your laptops!</strong>
     <!-- Please <a href="https://docs.google.com/spreadsheets/d/1i1aAxqRePweL5u9WSeNviFABVuuRtfjJQK6wxaefHoA/edit?usp=sharing"><b>sign up here</b></a>, so I can plan a little. -->
 </div>
 
