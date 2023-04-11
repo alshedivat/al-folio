@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Lecturer in Applied Mathematics</a>
+subtitle: <a href='#'>**Lecturer in Applied Mathematics**</a>
 
 profile:
   align: right
