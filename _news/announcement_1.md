@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Very excited to start my new position as a **Lecturer in Applied Mathematics** at the **University of Hull**
+Excited to start my new position as **Lecturer in Applied Mathematics** at the **University of Hull**
