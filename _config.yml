@@ -18,7 +18,7 @@ keywords:  # add your own keywords or leave empty
 # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: icon_dark.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://sfanzon.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -73,7 +73,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
@@ -103,10 +103,12 @@ instagram_id: # your instagram id
 facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
+github_username: sfanzon # your GitHub user name
 linkedin_username: fanzon # your LinkedIn user name
 
+
 contact_note: >
-  The best way to contact me is by email.
+  The best way to contact me is by email
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -179,7 +181,7 @@ collections:
 news:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 6 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
