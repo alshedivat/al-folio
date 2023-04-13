@@ -2,7 +2,7 @@
 layout: page
 title: Konstantin Frunzeck
 description: Bachelor student
-img: /assets/img/people/placeholder.jpg
+img: /assets/img/people/konstantin-frunzek.jpg
 importance: 1
 category: student
 ---
