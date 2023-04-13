@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>INTELLIGENCE, COMPUTING AND COMMUNICATION LAB,</a>. VinUniversity
+subtitle: <a href='#'>Intelligence, Computing and Communication Lab</a>, <a href='https://vinuni.edu.vn/'>VinUniversity</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: vdnguyen.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Nguyen Van Dinh, PhD</p>
+    <p>Assistant Professor</p>
+    <p>College of Engineering and Computer Science, VinUniversity</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -19,8 +19,24 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+ICC Lab was founded in September 2022, when [Prof. Dinh Nguyen](https://vinuni.edu.vn/people/nguyen-van-dinh-phd/) joined the [College of Engineering Computer Science, VinUniversity](https://vinuni.edu.vn/college-of-engineering-computer-science/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Our research interests are mainly on employing various applied mathematical tools (i.e., stochastic modeling, queueing theory and optimization theory) and machine learning techniques to design, analyze and optimize the cutting-edge applications in complexed wire/wireless networks: fog/edge/quantum computing and data center, IoT networks, 5G network resource allocations, and distributed machine learning for wireless networks.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+* Applied Machine Learning Techniques
+* Fog/Edge/Quantum Computing
+* Context-Aware Resource Allocation
+* Internet of Things
+* Ultra-Reliable Low-Latency Communications
+* Unmanned Aerial Vehicles (UAVs)
+* Physical Layer Security
+* Cognitive Radio Networks
+* Full-Duplex Radios
+* Open Radio Access Networks
+
+## What is research? Why we conduct it?
+
+“*The heart and soul of good writing is research; you should write not what you know but what you can find out about*” (Robert J. Sawyer)
+
+## Team Members:
+ICC Lab has two PhD students and three research assistants (RAs). We are currently looking for TWO PhD students and THREE RAs to join us in 2023 with attractive packages. Please send your CV to the PI (dinh.nv2@vinuni.edu.vn) if you are interested.
