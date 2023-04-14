@@ -18,6 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 <!--and a member of the [PASSION Lab](https://passion.lbl.gov/), the [BeBOp Group](https://bebop.cs.berkeley.edu/), and the [Performance and Algorithms Research (PAR) Group](https://crd.lbl.gov/departments/computer-science/par/members/students/giulia-guidi/). Giulia received her M.Sc. and B.Sc. in Biomedical Engineering from [Politecnico di Milano](http://polimi.it/en).-->
 
+I am an Assistant Professor in the [Department of Computer Science](https://cis.cornell.edu/) and a Graduate Field Faculty in the [Department of Computational Biology](https://gradschool.cornell.edu/academics/fields-of-study/field/computational-biology/) and the [Center for Applied Math](https://www.cam.cornell.edu/cam) at Cornell.
 I work in the field of high-performance computing for large-scale computational sciences (in particular, computational biology). I'm interested in the development of algorithms and software infrastructures on parallel machines to accelerate data processing without sacrificing programming productivity and to make high-performance computing more accessible.
 <!-- 
 **I am recruiting [PhD students](https://www.cs.cornell.edu/phd/admissions) at [Cornell University](https://www.cs.cornell.edu/) with some background in parallel programming and interest in high-performance computing for computational sciences.** If you are a prospective PhD student, please read [the students page](https://giuliaguidi.github.io/students/).  -->
