@@ -7,24 +7,17 @@ nav_order: 2
 ---
 
 
-Faculty
-Nguyen H. Tran
+<p style="text-align: left; color: black; font-size:18px;font-weight:bold">Faculty</p> 
+NGUYEN Van Dinh
 
-PhD
-Canh T. Dinh (thesis submitted)
+<p style="text-align: left; color: black; font-size:18px;font-weight:bold">PhD candidates</p> 
+ * TRUONG Tuan Vu
+ * VO Phi Son
+ * NGUYEN Minh Tuong
 
-Long Tan Le
 
-Tung Anh Nguyen
 
-Jiayu He
+<p style="text-align: left; color: black; font-size:18px;font-weight:bold">Research assistants</p> 
+* DUONG Minh Hoang (HUST)
 
-Nilima Walde (part time)
 
-Honors
-Jenny Wang
-
-Huilan Zhu
-
-Interns
-Tuan Dung (Josh) Nguyen
