@@ -8,7 +8,7 @@ profile:
   align: center
   image: ICCLab.jpg
   image_circular: false # crops the image to make it circular
-  address: > align: center
+  address: > 
     <p> **ICCLab**</p>
      <p>College of Engineering and Computer Science, VinUniversity</p>
 
