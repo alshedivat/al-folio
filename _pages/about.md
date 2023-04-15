@@ -1,6 +1,6 @@
 ---
 layout: about
-title: home
+title: Home
 permalink: /
 subtitle: <a href='#'>Intelligence, Computing and Communication Lab</a>, <a href='https://vinuni.edu.vn/'>VinUniversity</a>
 
@@ -18,10 +18,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-ICC Lab was founded in September 2022, when [Prof. Dinh Nguyen](https://vinuni.edu.vn/people/nguyen-van-dinh-phd/) joined the [College of Engineering Computer Science, VinUniversity](https://vinuni.edu.vn/college-of-engineering-computer-science/).
+
+ICCLab was founded in September 2022, when [Dr. Dinh Nguyen](https://vinuni.edu.vn/people/nguyen-van-dinh-phd/) joined the [College of Engineering Computer Science, VinUniversity](https://vinuni.edu.vn/college-of-engineering-computer-science/).
 
 Our research interests are mainly on employing various applied mathematical tools (i.e., stochastic modeling, queueing theory and optimization theory) and machine learning techniques to design, analyze and optimize the cutting-edge applications in complexed wire/wireless networks: fog/edge/quantum computing and data center, IoT networks, 5G network resource allocations, and distributed machine learning for wireless networks.
 
+
+<p style="text-align: left; color: black; font-size:20px">Interests?</p>
 * Applied Machine Learning Techniques
 * Fog/Edge/Quantum Computing
 * Context-Aware Resource Allocation
@@ -33,7 +36,7 @@ Our research interests are mainly on employing various applied mathematical tool
 * Full-Duplex Radios
 * Open Radio Access Networks
 
-<p style="text-align: center; color: purple; font-size:20px">What is research? Why we conduct it?</p>
+<p style="text-align: left; color: black; font-size:20px;font-weight:bold">What is research? Why we conduct it?</p>
 “*The heart and soul of good writing is research; you should write not what you know but what you can find out about*” (Robert J. Sawyer)
 
 
