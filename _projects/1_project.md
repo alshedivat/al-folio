@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Resilience-Aware Edge Computing
+description: VinUni Seed Grant
+img: assets/img/ComputingIoT.jpg
 importance: 1
 category: work
 ---
