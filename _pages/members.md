@@ -1,4 +1,5 @@
 ---
+layout: about
 permalink: /members/
 title: members
 nav: true
