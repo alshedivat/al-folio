@@ -1,10 +1,10 @@
-
 ---
 layout: post
-title: ICCLab lauched newly designed website
-date: 2023-04-15 
+title: Vu, Son and Tuong joined ICCLab as PhD students. Welcome guys!
+date: 2023-03-01 
 inline: true
 related_posts: false
 ---
 
-We would like to thank our collaborator, Dr Luu Trung, for initializing this website
+
+Truong Tuan Vu, Vo Phi Son and Nguyen Minh Tuong started their PhD study in CS at VinUni
