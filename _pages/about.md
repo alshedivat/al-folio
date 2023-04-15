@@ -33,9 +33,7 @@ Our research interests are mainly on employing various applied mathematical tool
 * Full-Duplex Radios
 * Open Radio Access Networks
 
-## What is research? Why we conduct it?
-
+<p style="text-align: center; color: purple; font-size:20px">What is research? Why we conduct it?</p>
 “*The heart and soul of good writing is research; you should write not what you know but what you can find out about*” (Robert J. Sawyer)
 
-# Team Members:
-# ICC Lab has two PhD students and three research assistants (RAs). We are currently looking for TWO PhD students and THREE RAs to join us in 2023 with attractive packages. Please send your CV to the PI (dinh.nv2@vinuni.edu.vn) if you are interested.
+
