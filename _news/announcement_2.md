@@ -7,4 +7,5 @@ related_posts: true
 ---
 
 
+
 Truong Tuan Vu, Vo Phi Son and Nguyen Minh Tuong started their PhD study in CS at VinUni
