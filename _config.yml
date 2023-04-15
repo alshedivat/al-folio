@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: SNLab - Systems Networking Lab # the website title (if blank, full name will be used instead)
+title: "ICCLab - Intelligence, Computing and Communication Lab" # the website title (if blank, full name will be used instead)
 first_name: ICC
 middle_name: 
 last_name: Lab
