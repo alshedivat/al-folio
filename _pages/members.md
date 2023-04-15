@@ -1,5 +1,5 @@
 ---
-
+layout: page
 permalink: /members/
 title: members
 nav: true
