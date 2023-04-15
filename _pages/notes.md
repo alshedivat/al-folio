@@ -15,6 +15,7 @@ Here I store some notes. I prepared these notes to help myself understand certai
 
 Every now and then, Toby and his students run regular meetings to learn a particular topic, read a specfic paper, or to practice talking about works in progress. Here are the notes I prepared for these meetings. <br>
 
+- 2023.April.13: Perfect set theorems for closed and analytic sets. <a href="April_13_2023_Perfect_set_theorems_LPS206">PDF</a> <br>
 - 2022.Nov.22: Normal forms for \(\Sigma^1_1\), Luzin's arithmetic example, and prewellorderings. <a href="Nov_22_2022_Sigma11_normal_form_norms_prewellorderings.pdf">PDF</a>
 
 
