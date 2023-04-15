@@ -25,18 +25,11 @@ Our research interests are mainly on employing various applied mathematical tool
 
 
 <p style="text-align: left; color: black; font-size:20px">Interests?</p>
-* Applied Machine Learning Techniques
-* Fog/Edge/Quantum Computing
-* Context-Aware Resource Allocation
-* Internet of Things
-* Ultra-Reliable Low-Latency Communications
-* Unmanned Aerial Vehicles (UAVs)
-* Physical Layer Security
-* Cognitive Radio Networks
-* Full-Duplex Radios
-* Open Radio Access Networks
+* Applied AI/ML techniques: URLLC, UAV, PLS, CRN, FD, IoT, 5G/6G
+* Fog/Edge computing
+* Open radio access networks
+* Wireless sensing
 
-<p style="text-align: left; color: black; font-size:20px;font-weight:bold">What is research? Why we conduct it?</p>
-“*The heart and soul of good writing is research; you should write not what you know but what you can find out about*” (Robert J. Sawyer)
+<p style="text-align: left; color: black; font-size:20px;font-weight:bold">What is research? Why we conduct it?</p> “*The heart and soul of good writing is research; you should write not what you know but what you can find out about*” (Robert J. Sawyer)
 
 
