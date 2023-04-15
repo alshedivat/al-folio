@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: about
 title: home
 permalink: /
 subtitle: <a href='#'>Intelligence, Computing and Communication Lab</a>, <a href='https://vinuni.edu.vn/'>VinUniversity</a>
