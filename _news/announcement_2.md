@@ -2,7 +2,7 @@
 layout: post
 title: Vu, Son and Tuong joined ICCLab as PhD students. Welcome guys!
 date: 2023-03-01 
-inline: true
+inline: false
 related_posts: true
 ---
 
