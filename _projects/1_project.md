@@ -2,7 +2,7 @@
 layout: page
 title: Resilience-Aware Edge Computing
 description: VinUni Seed Grant
-img: assets/img/ComputingIoT.jpg
+img: assets/img/ComputingIoT.JPG
 importance: 1
 category: work
 ---
