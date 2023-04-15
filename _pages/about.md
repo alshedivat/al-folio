@@ -1,16 +1,16 @@
 ---
-layout: about
+layout: home
 title: home
 permalink: /
 subtitle: <a href='#'>Intelligence, Computing and Communication Lab</a>, <a href='https://vinuni.edu.vn/'>VinUniversity</a>
 
 profile:
   align: right
-  image: vdnguyen.jpg
+  image: ICCLab.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Nguyen Van Dinh, PhD</p>
-    <p>Assistant Professor</p>
+    <p>ICCLab</p>
+    #<p>Assistant Professor</p>
     <p>College of Engineering and Computer Science, VinUniversity</p>
 
 news: true  # includes a list of news items
