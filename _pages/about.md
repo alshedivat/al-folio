@@ -10,8 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>ICCLab</p>
-    <p>ICCLab</p>
-    <p>College of Engineering and Computer Science, VinUniversity</p>
+     <p>College of Engineering and Computer Science, VinUniversity</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
