@@ -6,7 +6,7 @@ subtitle: <a href='#'>Intelligence, Computing and Communication Lab</a>, <a href
 
 profile:
   align: center
-  image: ICCLab.jpg 
+  <img src="ICCLab.jpg" alt= “” width="680" height="480">
   image_size: 680
   image_circular: false # crops the image to make it circular
   address: > 
