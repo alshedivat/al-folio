@@ -55,7 +55,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 1000px
+max_width: 900px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -124,9 +124,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 pagination:
   enabled: true
 
-related_blog_posts:
-  enabled: true
-  max_related: 5
+# related_blog_posts:
+#   enabled: true
+#   max_related: 5
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
