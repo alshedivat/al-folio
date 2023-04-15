@@ -5,7 +5,7 @@ permalink: /
 subtitle: <a href='#'>Intelligence, Computing and Communication Lab</a>, <a href='https://vinuni.edu.vn/'>VinUniversity</a>
 
 profile:
-  align: right
+  align: center
   image: ICCLab.jpg
   image_circular: false # crops the image to make it circular
   address: >
