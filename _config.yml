@@ -1,7 +1,7 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-
+theme: jekyll-theme-slate
 title: "ICCLab - Intelligence, Computing and Communication Lab" # the website title (if blank, full name will be used instead)
 first_name: ICC
 middle_name: 
