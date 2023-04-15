@@ -7,7 +7,7 @@ subtitle: <a href='#'>Intelligence, Computing and Communication Lab</a>, <a href
 profile:
   align: center
   image: ICCLab.jpg 
-  image_circular: False # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: > 
     <p style="text-align: center;">ICCLab</p>
     <p style="text-align: center;">College of Engineering and Computer Science, VinUniversity</p>
