@@ -81,7 +81,6 @@ telegram_username: # your Telegram user name
 scholar_userid: 9yJyLsoAAAAJ&hl # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -103,6 +102,7 @@ instagram_id: # your instagram id
 facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
+orcid_id: 0000-0003-1974-1434 # your ORCID ID
 github_username: sfanzon # your GitHub user name
 linkedin_username: fanzon # your LinkedIn user name
 
