@@ -20,18 +20,18 @@
         {%- if site.last_updated -%}
         Last updated: {{ "now" | date: '%B %Y' }}
         {%- endif %}
-        {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
-
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
-
-            </div>
-          {%- endif %}
       </div>
+      {%- if page.social %}
+      <div class="social">
+        <div class="contact-icons">
+          {% include social.html %}
+        </div>
+
+        <div class="contact-note">
+          {{ site.contact_note }}
+        </div>
+
+      </div>
+    {%- endif %}
     </footer>
     {%- endif %}
