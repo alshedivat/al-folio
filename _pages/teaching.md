@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /teaching/
-title: members
+title: teaching
 nav: true
 nav_order: 5
 ---
