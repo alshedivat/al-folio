@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: authors are in alphabetical order
+description: Authors are in alphabetical order
 years: [2020,2017]
 nav: true
 nav_order: 1
