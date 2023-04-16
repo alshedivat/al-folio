@@ -12,9 +12,9 @@ NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen)
 
 
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">PhD candidates</p> 
- * TRUONG Tuan Vu
- * VO Phi Son
- * NGUYEN Minh Tuong
+* TRUONG Tuan Vu
+* VO Phi Son
+* NGUYEN Minh Tuong
 
 
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Research assistants</p> 
