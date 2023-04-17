@@ -1,0 +1,30 @@
+
+          <div class="events">
+            {% if site.events != blank -%}
+            {%- assign events_size = site.events | size -%}
+            <div class="table-responsive" {% if site.events.scrollable and events_size > 3 %}style="max-height: 10vw"{% endif %}>
+              <table class="table table-sm table-borderless">
+              {%- assign events = site.events | reverse -%}
+              {% if site.events.limit %}
+              {% assign events_limit = site.events.limit %}
+              {% else %}
+              {% assign events_limit = events_size %}
+              {% endif %}
+              {% for item in events limit: events_limit %}
+                <tr>
+                  <th scope="row">{{ item.date | date: "%d %b %Y" }}</th>
+                  <td>
+                    {% if item.inline -%}
+                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                    {%- else -%}
+                      <a class="events-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {%- endif %}
+                  </td>
+                </tr>
+              {%- endfor %}
+              </table>
+            </div>
+          {%- else -%}
+            <p>No upcoming events so far...</p>
+          {%- endif %}
+          </div>
