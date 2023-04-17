@@ -9,11 +9,22 @@ nav: true
 <div class="publications">
   <h2 class="pbtypes">2022-2023</h2>
   <ol class="bibliography">
-    <li> &#9679; Electoral and Protest Dynamics in Western and Eastern
+    <li> &#9679; Cleavage Politics and Group Appeals
 Europe, <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master/index.html" target="_blank">Sociology – European Societies MA</a>, Freie Universität Berlin, Department of Political and Social Sciences, Berlin, Germany
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       <a href="{{ '/assets/pdf/Borbath_syllabus.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">syllabus</a>
+    </div>
+    <div class="abstract hidden">
+      <p>Under pressure from increasing political instability and societal challenges, there is a renewed interest in the social basis of contemporary politics. The declining electoral support of mainstream political parties, like the Social -, and Christian Democrats, and the rise of new parties, such as the greens and the radical right, indicate a fundamental shift in the makeup of the post-war electoral coalitions. Class-based mobilization and conflict over welfare state policies are less influential in driving political behavior. Preferences over immigration, Europe, or climate change form new, group-based alliances that crosscut economic considerations and realign the social basis of politics. Others disagree and consider the contemporary dynamics a result of individualization that, although it leads to the crumbling and de-alignment of traditional political identities, does not give rise to a new, cohesive social force to re-structure political behavior. <br>
+      The seminar focuses on cleavage politics: conflict stemming from deep and lasting divides between social groups. Among others, we examine cleavage formation, the social forces driving electoral support, historical legacies, the role of crisis and critical junctures, the dimensional alignment of political issues, the sociological basis of traditional and new cleavages, mobilization in party and protest politics, the role of agency in cleavage formation, and the use of group appeals by political entrepreneurs. Next to theories on cleavage politics and group appeals, the seminar emphasizes the methodological approaches applied in empirical studies, highlighting their potential to be used by students during their research for their MA thesis. We rely on literature primarily focused on Western Europe, but we also review studies on the political dynamics in Eastern Europe, North America, and South America.</p>
+    </div>
+    </li>
+    <li> &#9679; Electoral and Protest Dynamics in Western and Eastern
+Europe, <a href="https://www.polsoz.fu-berlin.de/en/soziologie/studium/master/index.html" target="_blank">Sociology – European Societies MA</a>, Freie Universität Berlin, Department of Political and Social Sciences, Berlin, Germany
+    <div class="links">
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a href="{{ '/assets/pdf/Borbath_syllabus_electoral_protest.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">syllabus</a>
     </div>
     <div class="abstract hidden">
       <p>The seminar focuses on electoral and protest politics from a comparative European perspective. Although the study of elections and protests covers mobilization by the main collective actors of political parties and social movements in the two arenas of direct citizen involvement, research in this field has been characterized by disciplinary silos. Political science focuses on political parties and representation, while the political sociology tradition examines social movements, protest politics, and political participation. Few studies examine the manifold interaction between electoral and protest politics, leaving a research gap highlighted by recent developments in party competition in Western and Eastern Europe. Parties such as La République En Marche! in France, Fidesz in Hungary, and Die Linke in Germany invest considerable effort into developing an organic link with protest movements and civil society organizations. The seminar bridges political science and sociological approaches to provide a holistic assessment of electoral and protest mobilization. <br>
