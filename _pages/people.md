@@ -1,22 +1,21 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
-description: Materials for coures.
-display_categories: [NTU] 
+permalink: /people/
+title: people
+description: Who we are.
+display_categories: [Faculty] 
 nav: true
-nav_order: 5
+nav_order: 1
 horizontal: false
 ---
 
-<div class="project">
-
+<!-- pages/projects.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.teaching | where: "category", category -%}
+  {%- assign categorized_projects = site.people | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
@@ -38,7 +37,7 @@ horizontal: false
 
 {%- else -%}
 <!-- Display projects without categories -->
-  {%- assign sorted_projects = site.teaching | sort: "importance" -%}
+  {%- assign sorted_projects = site.people | sort: "importance" -%}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
