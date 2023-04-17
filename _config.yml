@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Singapore Fusion Power Programme # the website title (if blank, full name will be used instead)
-first_name: SGFusion
+title: SGFusion # the website title (if blank, full name will be used instead)
+first_name: 
 middle_name:
-last_name:
+last_name: SGFusion
 email: zhisong.qu@ntu.edu.sg
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Singapore Fusion Power Programme
