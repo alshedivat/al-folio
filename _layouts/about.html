@@ -40,29 +40,6 @@ layout: default
               {{ content }}
             </div>
 
-            <div class="clearfix">
-              <p>Powered by</p>
-              <p><img src="https://www.nrf.gov.sg/Assets/Images/Nrf/Common/nrf_logo.png" alt= “NRF” width="300" style="background-color:white;">
-                &nbsp;&nbsp;&nbsp;
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/TemasekHoldings_logo.svg/2560px-TemasekHoldings_logo.svg.png" alt= “NRF” width="200" style="background-color:white;">
-              </p>
-  
-              <p><img src="https://www.ntu.edu.sg/images/default-source/corporate/ntu_logo.png" alt= “NTU” width="200" style="background-color:white;">
-                &nbsp;&nbsp;&nbsp;
-                <img src="https://nie.edu.sg/Sitefinity/WebSiteTemplates/NIETemplates/App_Themes/NIETheme/Images/logo.png" alt= “NIE” width="130" style="background-color:white;">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src="https://www.cea.fr/PublishingImages/cea.jpg" alt= "CEA" width="130" style="background-color:white;">
-                
-              </p>
-              <!-- ![NRF](https://www.nrf.gov.sg/Assets/Images/Nrf/Common/nrf_logo.png)
-              
-              ![TEMASEK](https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/TemasekHoldings_logo.svg/2560px-TemasekHoldings_logo.svg.png)
-              
-              ![NTU](https://www.ntu.edu.sg/images/default-source/corporate/ntu_logo.png)
-              
-              ![NIE](https://nie.edu.sg/Sitefinity/WebSiteTemplates/NIETemplates/App_Themes/NIETheme/Images/logo.png) -->
-              </div>
-
           <!-- News -->
           {% if page.news -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
@@ -82,7 +59,23 @@ layout: default
           {%- endif %}
 
           <!-- Social -->
-          {%- if page.social %}
+
+          <div class="clearfix">
+            <p>Powered by</p>
+            <p><img src="https://www.nrf.gov.sg/Assets/Images/Nrf/Common/nrf_logo.png" alt= “NRF” width="300" style="background-color:white;">
+              &nbsp;&nbsp;&nbsp;
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/TemasekHoldings_logo.svg/2560px-TemasekHoldings_logo.svg.png" alt= “NRF” width="200" style="background-color:white;">
+            </p>
+
+            <p><img src="https://www.ntu.edu.sg/images/default-source/corporate/ntu_logo.png" alt= “NTU” width="200" style="background-color:white;">
+              &nbsp;&nbsp;&nbsp;
+              <img src="https://nie.edu.sg/Sitefinity/WebSiteTemplates/NIETemplates/App_Themes/NIETheme/Images/logo.png" alt= “NIE” width="130" style="background-color:white;">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img src="https://www.cea.fr/PublishingImages/cea.jpg" alt= "CEA" width="130" style="background-color:white;">
+              
+            </p>
+            </div>
+          <!-- {%- if page.social %}
             <div class="social">
               <div class="contact-icons">
                 {% include social.html %}
@@ -93,7 +86,7 @@ layout: default
               </div>
 
             </div>
-          {%- endif %}
+          {%- endif %} -->
         </article>
 
 </div>
