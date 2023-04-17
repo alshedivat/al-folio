@@ -42,9 +42,16 @@ layout: default
 
           <!-- News -->
           {% if page.news -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
             {%- include news.html %}
           {%- endif %}
+
+         <!-- News -->
+        {% if page.events -%}
+        <h2><a href="{{ '/events/' | relative_url }}" style="color: inherit;">Upcoming Events</a></h2>
+        {%- include events.html %}
+        {%- endif %}
+
 
           <!-- Latest posts -->
           {% if page.latest_posts -%}
