@@ -24,7 +24,8 @@ Experience in processing and the delivering of various 2D & 3D HR seismic projec
 
 _________
 __My skills including__:
-Seismic Data Acquisition • Seismic Processing • Seismic Imaging • Seismic Attributes • SeismicInterpretation • Python (Programming Language) • MATLAB • Shell Scripting • Project Management • Budgeting
+Seismic Data Acquisition • Seismic Processing • Seismic Imaging • Seismic Attributes • Seismic Interpretation 
+• Python (Programming Language) • MATLAB • Shell Scripting • Project Management • Budgeting
 
 
 
