@@ -97,7 +97,7 @@ youtube_id: #varunthakore # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-    best way to reach me is through email
+
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -115,7 +115,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: #al-folio # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: coming soon ... #blog on math, cryptography and blockchain
+blog_description: blog on math, cryptography and blockchains
 permalink: /blog/:year/:title/
 
 # Pagination
