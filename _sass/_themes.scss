@@ -9,9 +9,14 @@
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$dark-magenta-color};
   --global-hover-color: #{$dark-magenta-color};
+  /*
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
+  */
+  --global-footer-bg-color: #{$grey-color-light};
+  --global-footer-text-color: #{$grey-color-dark};
+  --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0,0,0,.1);
   --global-card-bg-color: #{$white-color};
