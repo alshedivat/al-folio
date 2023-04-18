@@ -1,12 +1,15 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - nnethercott
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - nnethercott/HongKongLandslides
+  - nnethercott/CCLE-Analysis
+  - nnethercott/LesionTrack
+  - nnethercott/USRA_PermafrostFeedback
+
+# repo inclusions below were for individual project pages 
+capstone: 
+  - nnethercott/LesionTrack
+
+ccle: 
+  - nnethercott/CCLE-Analysis
