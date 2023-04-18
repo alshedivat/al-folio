@@ -1,0 +1,10 @@
+version: "1.0.0"
+
+services:
+  server:
+    build: .
+    image: ginlov.github.io
+    network_mode: host
+    volumes:
+      - ./:/app
+    command: bundle exec jekyll serve --host 0.0.0.0
