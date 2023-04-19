@@ -47,6 +47,7 @@ Every now and then, Toby and his students run regular meetings to learn a partic
 
 <div style="margin-left: 1em;">
 
+- There is no Borel 2-coloring for the irrational ro. <a href="no_borel_2_coloring.pdf"> PDF </a><br>
 - Mouse capturing phenomena at \(\Delta^1_1\) and \(\Delta^1_2\). <a href="mouse_set_capturing.pdf"> PDF </a> <br>
 - The largest \(\Pi^1_1\) thin set as a sharp. <a href="largest_thin_set_as_a_sharp.pdf"> PDF </a> <br>
 
