@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /join/
-title: join
-description: Join us!
+title: join us
+description: Join our team
 nav: true
 nav_order: 6
 ---
@@ -30,6 +30,6 @@ Please refer to the following websites for the minimum requirements and applicat
 - [NTU Physics Graduate Program](https://www.ntu.edu.sg/education/graduate-programme/doctor-of-philosophy-(phd)-in-physics)
 - [NTU General Graduate Admission Requirements](https://www.ntu.edu.sg/admissions/graduate/radmissionguide)
 
-Please contact Prof. Garbet (xavier.garbet@ntu.edu.sg) or Asst Prof. Qu (zhisong.qu@ntu.edu.sg) if you are interested.
+Please contact [Prof. Garbet](/people/Xavier) or [Asst Prof. Qu](/people/Zhisong) if you are interested.
 
 
