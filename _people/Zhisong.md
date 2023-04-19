@@ -9,7 +9,7 @@ profile:
     email: zhisong.qu@ntu.edu.sg
     office: SPMS-PAP-03-12
     dr-ntu: https://dr.ntu.edu.sg/cris/rp/rp02120
-    google-scholar: (https://scholar.google.com/citations?user=CIc02nsAAAAJ)
+    google-scholar: https://scholar.google.com/citations?user=CIc02nsAAAAJ
     orcid: 0000-0003-4628-6983
     align: right
 ---
