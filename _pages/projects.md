@@ -5,8 +5,8 @@ permalink: /projects/
 description: Our projects.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
-horizontal: false
+display_categories: [turbulence, EP]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->

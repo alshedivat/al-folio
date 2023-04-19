@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>NTU-CEA Joint Centre for Fusion Energy</a> ## (CEA).
+subtitle: <a href='#'>NTU Plasma Theory</a> ## (CEA).
 
 profile:
   align: right
@@ -21,10 +21,9 @@ social: true  # includes social icons at the bottom of the page
 
 Climate change has become a main global challenge with countries committed to achieving carbon-neutrality by 2050. Nuclear fusion, a safe and potentially unlimited energy source, could provide the ultimate energy solution to our kind. 
 
-Singapore has founded a new lab in fusion science, namely the NTU-CEA Joint Centre for Fusion Energy, supported by NRF and 
-TEMASEK.  We endeavour to combine the power of traditional physics-based models, high-performance computer simulations and modern machine learning technologies to accelerate the realisation of fusion energy. This will be combined with advanced plasma diagnostics ready to use for the next generation fusion machines.
+NTU has founded a new lab in theoretical and computational fusion plasma physics, supported by NRF and TEMASEK. A joint research centre with French Commission on Atomic Energy and Alternative Energies (CEA) is also planned.  At NTU, we endeavour to combine the power of traditional physics-based models, high-performance computer simulations and modern machine learning technologies to accelerate the realisation of fusion energy. 
 
-The joint centre is currently hosted by Nanyang Technological University.
+The group is located in Division of Physics and Applied Physics, School of Physical and Mathematical Sciences, Nanyang Technological University.
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

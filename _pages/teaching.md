@@ -4,9 +4,9 @@ permalink: /teaching/
 title: teaching
 description: Materials for coures.
 display_categories: [NTU] 
-nav: true
+nav: false
 nav_order: 5
-horizontal: false
+horizontal: true
 ---
 
 <div class="project">

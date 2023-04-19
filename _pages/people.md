@@ -3,10 +3,10 @@ layout: page
 permalink: /people/
 title: people
 description: Who we are.
-display_categories: [Faculty] 
+display_categories: [Faculty, Research Staff, Student, Alumni] 
 nav: true
 nav_order: 1
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->

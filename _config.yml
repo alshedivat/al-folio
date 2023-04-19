@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: NTU-CEA Joint Centre for Fusion Energy # the website title (if blank, full name will be used instead)
+title: NTU Plasma Theory # NTU-CEA JRC for Fusion # the website title (if blank, full name will be used instead)
 first_name: 
 middle_name:
-last_name: 
+last_name: NTU Plasma Theory
 email: xavier.garbet@ntu.edu.sg
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  NTU-CEA Joint Centre for Fusion Energy
+  NTU Theoretical and Computational Plasma Physics Group
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -156,8 +156,8 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+#  - name: medium.com
+#    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -264,7 +264,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will be dispalyed on the front page of your blog
+display_tags: ['images', 'general', 'math', 'physics', 'code'] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
