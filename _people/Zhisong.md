@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Asst Prof Zhisong Qu
+title: Asst Prof. Zhisong Qu
 description: Assistant Professor at NTU
 img: https://www.ntu.edu.sg/images/librariesprovider123/spms-headshots/qu-zhisong.tmb-0.jpg
 importance: 2
@@ -13,6 +13,8 @@ category: Faculty
     </div>
 </div>
 email: zhisong.qu@ntu.edu.sg
+
+office: SPMS-PAP-03-12
 
 [DR-NTU](https://dr.ntu.edu.sg/cris/rp/rp02120)
 &nbsp;

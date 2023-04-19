@@ -14,6 +14,8 @@ category: Faculty
 </div>
 email: xavier.garbet@ntu.edu.sg
 
+office: SPMS-PAP-05-01 
+
 [DR-NTU](https://dr.ntu.edu.sg/cris/rp/rp02080)
 &nbsp;
 [Google Scholar](https://scholar.google.fr/citations?user=Yhe6CosAAAAJ)

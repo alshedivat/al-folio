@@ -14,6 +14,8 @@ category: Faculty
 </div>
 email: cguet@ntu.edu.sg
 
+office: SPMS-PAP-05-02
+
 ### Biography
 Dr Claude Guet is a Visiting Professor and Students & Research Programme Director at Energy Research Institute at NTU (ERI@N).
 
