@@ -143,7 +143,7 @@ The interesting part of the embeddings here is that we have a fraction of the la
     </div>
 </div>
 <div class="caption">
-    Each subplot is a barplot for the value of the latent embedding for a sample image under our VAE framework. 
+    Each subplot visualizes the latent representation for a sample image under our VAE framework. 
 </div>
 
 And yea with that I think I illustrated what I set out to at the start of this whole thing.  I should also note that spike and slab and normal of course aren't the only choices you have when designing your VAE's - there's a world of choices out there for you depending on the applications of your model. For instance you can actually model a subset of your latent space as a categorical random variable, maybe encoding information which is discrete in nature for your high dimensional dataset. There's a lot of cool choices to be made so don't restrict yourself to the normal-normal-normal model :)
