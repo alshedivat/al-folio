@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /join/
 title: join
 description: Join us!
 nav: true
