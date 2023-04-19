@@ -43,10 +43,27 @@
 
   </style>
   
+    <style>
+    .news-container {
+      max-height: 300px; /* set a maximum height for the news container */
+      overflow-y: auto; /* add vertical scroll if the content exceeds the container height */
+    }
+    .news-item {
+      border: 1px solid #ccc; /* add a border to each news item */
+      padding: 10px; /* add some padding to the news items */
+      margin-bottom: 10px; /* add some margin between the news items */
+    }
+    .expand-button {
+      display: block; /* make the button a block element */
+      margin: 10px auto; /* center the button horizontally and add some margin */
+      cursor: pointer; /* change the cursor to a pointer when hovering over the button */
+    }
+  </style>
+
       <style>
       .header-cover-photo {
         width: 100%;
-        height: calc(100vh - 500px); /* Adjust height as needed calc(100vh - 550px) */
+        height: calc(100vh - 450px); /* Adjust height as needed calc(100vh - 550px) */
         background-size: cover;
         background-position: center;
         position: relative;
@@ -55,7 +72,7 @@
         position: absolute;
         top: 50%;
         left: 40%;
-        transform: translate(-50%, -40%);
+        transform: translate(-50%, -50%);
         color: white;
         text-align: left;
         font-style: italic;
@@ -65,8 +82,8 @@
       @media only screen and (max-width: 767px) {
         .header-cover-photo {
           height: auto;
-          min-height: 200px; /* Adjust height as needed */
-          max-height: 300px; /* Adjust height as needed */
+          min-height: 150px; /* Adjust height as needed */
+          max-height: 1750px; /* Adjust height as needed */
         }
 
         .header-content {
@@ -297,50 +314,66 @@
                     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
                     <div class="news mt-3 p-0">
-                        <h3 class="title mb-4 p-0">News</h3>
+                    <h3 class="title mb-4 p-0">News</h3>
+                            <div class="news-container">
+
                         <div class="row p-0">
+
                             <div class="col-sm-2 p-0"> <span class="badge blue darken-1 font-weight-bold text-uppercase align-middle date ml-3"> Mar 01, 2023 </span> </div>
+
                             <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
                                 <p>Promoted as Assistant Research Scientist in NASA GSFC. </p>
                             </div>
                         </div>
+
                         <div class="row p-0">
                             <div class="col-sm-2 p-0"> <span class="badge blue darken-1 font-weight-bold text-uppercase align-middle date ml-3"> Feb 15, 2023 </span> </div>
                             <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
                                 <p>Attended NASA ECCO meeting, 2023. Caltech, Pasadena, California. </p>
                             </div>
                         </div>
+
                         <div class="row p-0">
                             <div class="col-sm-2 p-0"> <span class="badge blue darken-1 font-weight-bold text-uppercase align-middle date ml-3"> Jun 24, 2023 </span> </div>
                             <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
                                 <p>Attended NASA GEOS-MITgcm group meeting on adjoint seasonal to decadal climate prediction at Boston/Cambridge, MA.</p>
                             </div>
                         </div>
+
                         <div class="row p-0">
                             <div class="col-sm-2 p-0"> <span class="badge blue darken-1 font-weight-bold text-uppercase align-middle date ml-3"> Apr 11, 2022 </span> </div>
                             <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
                                 <p>NASA earth observatory explores recent anticyclone in the Southern Hemisphere high latitude. My explanation is quoted in the <a href="https://earthobservatory.nasa.gov/images/149677/clouds-do-the-darndest-things#:~:text=Winds%20generally%20blow,for%20this%20area.%E2%80%9D" rel="external nofollow noopener" target="_blank">article</a>.</p>
                             </div>
                         </div>
+
                         <div class="row p-0">
                             <div class="col-sm-2 p-0"> <span class="badge blue darken-1 font-weight-bold text-uppercase align-middle date ml-3"> Mar 17, 2022 </span> </div>
                             <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
                                 <p>Publication of our group work in GRL: <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GL097003" rel="external nofollow noopener" target="_blank"> "Local Air-Sea Interactions at Ocean Mesoscale and Submesoscale in a Western Boundary Current".</a></p>
                             </div>
                         </div>
+
                         <div class="row p-0">
                             <div class="col-sm-2 p-0"> <span class="badge blue darken-1 font-weight-bold text-uppercase align-middle date ml-3"> Dec 06, 2021 </span> </div>
                             <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
                                 <p>We have a new publication on the mechanism of summer monsoon precipitation. <a href="https://rmets.onlinelibrary.wiley.com/doi/10.1002/joc.7490" rel="external nofollow noopener" target="_blank">"The role of local topography and sea surface temperature on summer monsoon precipitation over Bangladesh and northeast India". </a> International Journal of Climatology. (2021)</p>
                             </div>
                         </div>
+
                         <div class="row p-0">
                             <div class="col-sm-2 p-0"> <span class="badge blue darken-1 font-weight-bold text-uppercase align-middle date ml-3"> Nov 20, 2020 </span> </div>
                             <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
                                 <p>Successfully defended my Ph.D. thesis from George Mason University in Climate Dynamics. Thanks to my advisor <a href="https://natalieburls.com/" rel="external nofollow noopener" target="_blank"> Dr. Natalie Burls.</a> </p>
                             </div>
                         </div>
+
+                        </div>
                     </div>
+                        
+
+  <button class="expand-button" onclick="toggleNewsSection()">Show More</button>
+
                 </div>
                 <div class="social">
                     <div class="contact-icons"> <a href="mailto:%61%66%61%68%61%64%61%62%64%75%6C%6C%61%68@%67%6D%61%69%6C.%63%6F%6D" title="email"><i class="fas fa-envelope"></i></a> <a href="https://orcid.org/0000-0001-8238-8739" title="ORCID" rel="external nofollow noopener" target="_blank"><i class="ai ai-orcid"></i></a> <a href="https://www.researchgate.net/profile/https://www.researchgate.net/profile/Abdullah-A-Fahad/" title="ResearchGate" rel="external nofollow noopener" target="_blank"><i class="ai ai-researchgate"></i></a> <a href="https://github.com/afahadabdullah" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fab fa-github"></i></a> <a href="https://www.linkedin.com/in/fahadabdullaah" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin"></i></a> <a href="https://twitter.com/afahadabdullah" title="Twitter" rel="external nofollow noopener" target="_blank"><i class="fab fa-twitter"></i></a> <a href="https://youtube.com/@https://www.youtube.com/channel/UCH7pdbq0rFSGAL6Xwp58KCQ" title="YouTube" rel="external nofollow noopener" target="_blank"><i class="fab fa-youtube"></i></a> </div>
@@ -370,6 +403,21 @@
             }
         };
     </script>
+
+    <script>
+    function toggleNewsSection() {
+      var newsContainer = document.querySelector('.news-container');
+      var expandButton = document.querySelector('.expand-button');
+
+      if (newsContainer.style.maxHeight) {
+        newsContainer.style.maxHeight = null;
+        expandButton.innerHTML = "Show More";
+      } else {
+        newsContainer.style.maxHeight = newsContainer.scrollHeight + "px";
+        expandButton.innerHTML = "Show Less";
+      }
+    }
+  </script>
     <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
     <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script type="text/javascript">
@@ -417,6 +465,7 @@
             setTimeout(progressBarSetup, 50)
         };
     </script>
+
 </body>
 
 </html>
