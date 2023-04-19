@@ -1,0 +1,37 @@
+<div class="card-item col">
+  {%- if project.redirect -%}
+  <a href="{{ project.redirect }}">
+  {%- else -%}
+  <a href="{{ project.url | relative_url }}">
+  {%- endif -%}
+    <div class="card hoverable">
+      <div class="row g-0">
+        {%- if project.img -%}
+        <div class="card-img col-md-5">
+          {% include figure.html path=project.img alt="project thumbnail" class=""%}
+        </div>
+        <div class="col-md-6">
+        {%- else -%}
+        <div class="col-md-12">
+        {%- endif -%}
+          <div class="card-body">
+            <h4 class="card-title">{{ project.title }}</h4>
+            <p class="card-text">{{ project.description }}</p>
+            <small>
+              {%- if project.profile.office %}
+              
+                {{ project.profile.office }}
+              <br>
+              {%- endif %}
+              {%- if project.profile.email %}
+              
+              {{ project.profile.email }}
+              <br>
+              {%- endif %}
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

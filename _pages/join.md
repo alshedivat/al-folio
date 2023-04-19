@@ -30,6 +30,6 @@ Please refer to the following websites for the minimum requirements and applicat
 - [NTU Physics Graduate Program](https://www.ntu.edu.sg/education/graduate-programme/doctor-of-philosophy-(phd)-in-physics)
 - [NTU General Graduate Admission Requirements](https://www.ntu.edu.sg/admissions/graduate/radmissionguide)
 
-Please contact [Prof. Garbet](/people/Xavier) or [Asst Prof. Qu](/people/Zhisong) if you are interested.
+Please contact [our faculties](/people/) if you are interested.
 
 

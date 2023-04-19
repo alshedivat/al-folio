@@ -1,20 +1,16 @@
 ---
-layout: page
+layout: page_people
 title: Prof. Claude Guet
 description: Visting Professor at NTU
 img: https://www.ntu.edu.sg/images/librariesprovider123/spms-headshots/pap_claude-guet_photo_resized.jpg
 importance: 2
 category: Faculty
+profile:
+    email: cguet@ntu.edu.sg
+    office: SPMS-PAP-05-02
+    google-scholar: https://scholar.google.com.sg/citations?user=pb-CVeYAAAAJ
+    align: right
 ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://www.ntu.edu.sg/images/librariesprovider123/spms-headshots/pap_claude-guet_photo_resized.jpg" title="claude photo" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-email: cguet@ntu.edu.sg
-
-office: SPMS-PAP-05-02
 
 ### Biography
 Dr Claude Guet is a Visiting Professor and Students & Research Programme Director at Energy Research Institute at NTU (ERI@N).
