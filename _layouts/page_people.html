@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<!-- page.html -->
+        <div class="post">
+
+          <header class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
+
+          </header>
+
+          <article>
+            <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+              {%- if page.img %}
+                {%- assign profile_image_path = page.img -%}
+  
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+  
+                {% include figure.html
+                path=profile_image_path
+                class=profile_image_class
+                alt=page.img -%}
+              {% endif -%}
+              <h5>{{ page.title }}</h5>
+              <p>{{ page.description }} <br>
+                {%- if page.profile.office %}
+                <i class="fas fa-building"></i>
+                  {{ page.profile.office }}
+                <br>
+                {%- endif %}
+                {%- if page.profile.email %}
+                <i class="fas fa-envelope"> </i> 
+                <a href="mailto:{{ page.profile.email }}">  {{ page.profile.email }} </a>
+                <br>
+                {%- endif %}
+                {%- if page.profile.orcid %}
+                <i class="fab fa-orcid"></i>
+                  <a href="https://orcid.org/{{ page.profile.orcid }}"> {{page.profile.orcid }} </a>
+                <br>
+                {%- endif %}
+              {%- if page.profile.google-scholar %}
+              <i class="fab fa-google"></i>
+              <a href="{{ page.profile.google-scholar }}">Google Scholar</a>
+              <br>
+              {%- endif %}
+              {%- if page.profile.dr-ntu %}
+              <i class="fas fa-address-book"></i>
+              <a href="{{ page.profile.dr-ntu }}">NTU Profile</a>
+              {%- endif %}
+              </p>
+            </div>
+            {{ content }}
+          </article>
+
+        </div>
