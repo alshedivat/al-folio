@@ -25,6 +25,7 @@
             {%- if site.orcid_id -%}
             <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID"><i class="ai ai-orcid" style="font-size: 0.5em;"></i></a>
             {% endif %}
+            {%- if site.arxiv_username -%}
             <a href="https://arxiv.org/a/{{ site.arxiv_username }}" title="arXiv"><i class="ai ai-arxiv" style="font-size: 0.5em;"></i></a>
             {% endif %}
             {%- if site.github_username -%}
