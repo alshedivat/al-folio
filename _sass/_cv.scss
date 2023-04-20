@@ -145,7 +145,6 @@ td.list-group-link {
   padding-left: 0.5rem;
 }
 
-
 /*****************************
  * CV TOC styles
  *****************************/
@@ -157,10 +156,16 @@ a.anchor {
   visibility: hidden;
 }
 
+ul.timeline {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 ul.timeline li {
   position: relative;
   min-height: 2.2rem;
   color: var(--global-text-color);
+  list-style-position: inside;
 }
 
 span.badge-toc {
@@ -169,41 +174,42 @@ span.badge-toc {
   border-radius: 0.125rem;
   padding: 0.125rem 0.5rem 0.125rem 0.5rem;
   font-weight: 700 !important;
+  display: inline-block;
+  inline-size: fit-content;
 }
 
-ul.timeline li:before {
+ul.timeline li::before {
   content: "";
-  display: inline-block;
-  min-height: 2.2rem;
+  min-height: 2.5rem;
   width: 1px;
   background: var(--global-text-color);
-  ;
   margin: 0;
   padding: 0;
   position: absolute;
-  left: -0.72rem;
-  top: -0.4rem;
-  z-index: -1;
+  left: 2px;
+  top: -0.5rem;
 }
 
-ul.timeline:before {
-  content: "●";
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  left: -0.98rem;
-  top: 0.4rem;
-  color: var(--global-text-color);
+/*ul.timeline::before {
+     content: "●";
+     font-size: 1em;
+     display: inline-block;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     left: -2px;
+     top: 0.4rem;
+     color: var(--global-text-color);
 }
-
-ul.timeline:after {
-  content: "●";
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  left: -0.98rem;
-  top: -1rem;
-  color: var(--global-text-color);
+ ul.timeline::after {
+     content: "●";
+     font-size: 1em;
+     display: inline-block;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     left: -2px;
+     top: -1rem;
+     color: var(--global-text-color);
 }
+*/
