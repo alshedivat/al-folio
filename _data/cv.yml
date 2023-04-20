@@ -19,7 +19,7 @@
   type: time_table
   contents:
     - title: PhD in Biomedical AI
-      institution: The University of Edinburgh, Edinburgh, United Kingdom
+      institution: School of Informatics, The University of Edinburgh, United Kingdom
       year: 2023 - Now
       description:
       #  - Description 1.
@@ -28,7 +28,7 @@
       #      - Sub-description 1.
     
     - title: MSc in Statistics with Data Science
-      institution: The University of Edinburgh, Edinburgh, United Kingdom
+      institution: School of Mathematics, The University of Edinburgh, United Kingdom
       year: 2021 - 2022
       description:
         - "Grade: Distinction"
