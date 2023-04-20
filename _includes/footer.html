@@ -11,18 +11,21 @@
       </div>
     </footer>
     {%- else -%}
-    <footer class="sticky-bottom mt-5 text-center">
+    <!--<footer class="sticky-bottom mt-5 text-center">
       <div class="social">
         <div class="contact-icons">
           {% include social.html %}
         </div>
       </div>
+    --> 
       <div class="container">
-      Dr Silvio Fanzon
+      <h2>Silvio Fanzon</h2>
       <br>
-      Larkin 104
+      Department of Physics and Mathematics
       <br>
       University of Hull
+      <br>
+      Hull HU6 7RX
       <br>
       United Kingdom
       <br style="line-height: 11px"/>
@@ -34,12 +37,14 @@
       <br style="line-height: 11px"/>
       &nbsp;
       <br>
-      <i class="ai ai-google-scholar"></i>
+      <i class="ai ai-google-scholar" style="font-size: 1.3em;"></i>
       <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}">Google Scholar</a> 
-      <span >&#124;</span>
-      <i class="ai ai-researchgate"></i>
+      &nbsp; <span >&#124;</span> &nbsp;
+      <i class="ai ai-researchgate" style="font-size: 1.3em;"></i>
       <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/">ResearchGate</a>
-      <span >&#124;</span>
+      &nbsp; <span >&#124;</span> &nbsp;
+      <i class="ai ai-orcid" style="font-size: 1.3em;"></i>
+      <a href="https://orcid.org/{{ site.orcid_id }}">ORCID</a>
       <br style="line-height: 11px"/>
       &nbsp;
       <br>
