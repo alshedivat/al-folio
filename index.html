@@ -7,6 +7,56 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   
   
+<!--   NEW    ---- -->
+  <style>
+  #myCarousel {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .carousel-item {
+    width: 1000px; /* set the desired width 800 before*/
+    height: 460px; /* set the desired height 500 before*/
+    overflow: hidden; /* hide any overflowing content */
+    position: relative; /* add relative positioning for absolute positioning of caption */
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover; /* crop the image to fit the container */
+  }
+
+  .carousel-caption {
+    position: absolute;
+    bottom: 0; /* adjust the bottom property as needed to position the caption outside the photo */
+    left: 0; /* adjust the left property as needed to position the caption outside the photo */
+    right: 0; /* adjust the right property as needed to position the caption outside the photo */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 70px;
+    height: 70px;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid orange;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .carousel-control-prev-icon:hover,
+  .carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+</style>
+
+  
+<!--  prev 
+  
   <style>
     #myCarousel {
       width: 90%;
@@ -41,7 +91,7 @@
       background-color: rgba(0, 0, 0, 0.8);
     }
 
-  </style>
+  </style> -->
   
     <style>
     .news-container {
@@ -179,7 +229,7 @@
                             display: inline-block;
                             font-size: 14px;
                             <!-- font-weight: bold;
-                            -->margin: 4px 2px;
+                           -->margin: 4px 2px;
                             cursor: pointer;
                             border-radius: 4px;
                             box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #0d58d9 0 -3px 0 inset;
