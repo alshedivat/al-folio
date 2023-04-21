@@ -1,9 +1,19 @@
+"arXiv":
+  url: https://arxiv.org
+  color: "#00369f"
+
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
   
+"Bull LMS":
+  url: https://www.lms.ac.uk/publications/blms
+
 "Calc Var PDE":
   url: https://www.springer.com/journal/526/
+
+"Commun PDE":
+  url: https://www.tandfonline.com/journals/lpde20
 
 "ESAIM: M2AN":
   url: https://www.esaim-m2an.org/

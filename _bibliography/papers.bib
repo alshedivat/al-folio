@@ -1,7 +1,7 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% https://bibdesk.sourceforge.io/
 
-%% Created for Silvio Fanzon at 2023-04-21 00:45:35 +0100 
+%% Created for Silvio Fanzon at 2023-04-21 08:50:05 +0100 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
@@ -10,6 +10,47 @@
 @string{aps = {American Physical Society,}}
 
 
+@article{bre-car-fan-2022,
+	abbr = {Commun PDE},
+	abstract = {We study measure-valued solutions of the inhomogeneous continuity equation $\partial<sub>t</sub> \rho<sub>t</sub> + div (v \rho<sub>t</sub>) = g\rho<sub>t</sub> where the coefficients $v$ and $g$ are of low regularity. A new superposition principle is proven for positive measure solutions and coefficients for which the recently-introduced dynamic Hellinge--Kantorovich energy is finite. This principle gives a decomposition of the solution into curves $t \mapsto h(t)  \delta<sub>\gamma(t)</sub>$ that satisfy the characteristic system $\gamma'(t)=v(t,\gamma(t))$, $h'(t)=g(t,\gamma(t))h(t)$ in an appropriate sense. In particular, it provides a generalization of existing superposition principles to the low-regularity case of $g$ where characteristics are not unique with respect to $h$. Two applications of this principle are presented. First, uniqueness of minimal total-variation solutions for the inhomogeneous continuity equation is obtained if characteristics are unique up to their possible vanishing time. Second, the extremal points of dynamic Hellinger--Kantorovich-type regularizers are characterized. Such regularizers arise, for example, in the context of dynamic inverse problems and dynamic optimal transport. },
+	altmetric = {true},
+	author = {Bredies, Kristian and Carioni, Marcello and Fanzon, Silvio},
+	bibtex_show = {true},
+	date-added = {2023-04-21 08:33:15 +0100},
+	date-modified = {2023-04-21 08:37:48 +0100},
+	dimensions = {true},
+	doi = {10.1080/03605302.2022.2109172},
+	html = {https://doi.org/10.1080/03605302.2022.2109172},
+	journal = {Communications in Partial Differential Equations},
+	number = {10},
+	pages = {2023--2069},
+	pdf = {Bre-Car-Fan-2022.pdf},
+	selected = {false},
+	title = {A superposition principle for the inhomogeneous continuity equation with Hellinger--Kantorovich-regular coefficients},
+	url = {https://doi.org/10.1080/03605302.2022.2109172},
+	volume = {47},
+	year = {2022}}
+
+@article{bre-car-fan-wal-2021,
+	abbr = {arXiv},
+	abstract = {We propose a fully-corrective generalized conditional gradient method (FC-GCG) for the minimization of the sum of a smooth, convex loss function and a convex one-homogeneous regularizer over a Banach space. The algorithm relies on the mutual update of a finite set $\mathcal{A}<sub>k</sub>$ of extremal points of the unit ball of the regularizer and of an iterate $u<sub>k</sub> \in cone(\mathcal{A}<sub>k</sub>)$. Each iteration requires the solution of one linear problem to update $\mathcal{A}<sub>k</sub>$ and of one finite dimensional convex minimization problem to update the iterate. Under standard hypotheses on the minimization problem we show that the algorithm converges sublinearly to a solution. Subsequently, imposing additional assumptions on the associated dual variables, this is improved to a linear rate of convergence. The proof of both results relies on two key observations: First, we prove the equivalence of the considered problem to the minimization of a lifted functional over a particular space of Radon measures using Choquet's theorem. Second, the FC-GCG algorithm is connected to a Primal-Dual-Active-point Method (PDAP) on the lifted problem for which we finally derive the desired convergence rates.},
+	altmetric = {true},
+	author = {Bredies, Kristian and Carioni, Marcello and Fanzon, Silvio and Walter, Daniel},
+	bibtex_show = {true},
+	date-added = {2023-04-21 08:32:51 +0100},
+	date-modified = {2023-04-21 08:48:04 +0100},
+	dimensions = {true},
+	doi = {doi.org/10.48550/arXiv.2110.06756},
+	html = {https://doi.org/10.48550/arXiv.2110.06756},
+	journal = {Preprint},
+	pdf = {https://arxiv.org/pdf/2110.06756.pdf},
+	selected = {true},
+	title = {Asymptotic linear convergence of fully--corrective generalized conditional gradient methods},
+	url = {https://doi.org/10.48550/arXiv.2110.06756},
+	year = {2021},
+	bdsk-url-1 = {https://doi.org/10.1112/blms.12509},
+	bdsk-url-2 = {https://doi.org/10.1007/s10208-022-09561-z}}
+
 @article{bre-car-fan-rom-2022,
 	abbr = {FoCM},
 	abstract = {We develop a dynamic generalized conditional gradient method (DGCG) for dynamic inverse problems with optimal transport regularization. We consider the framework introduced in Bredies and Fanzon (ESAIM: M2AN 54:2351--2382, 2020), where the objective functional is comprised of a fidelity term, penalizing the pointwise in time discrepancy between the observation and the unknown in time-varying Hilbert spaces, and a regularizer keeping track of the dynamics, given by the Benamou--Brenier energy constrained via the homogeneous continuity equation. Employing the characterization of the extremal points of the Benamou--Brenier energy (Bredies et al. in Bull Lond Math Soc 53(5):1436--1452, 2021), we define the atoms of the problem as measures concentrated on absolutely continuous curves in the domain. We propose a dynamic generalization of a conditional gradient method that consists of iteratively adding suitably chosen atoms to the current sparse iterate, and subsequently optimizing the coefficients in the resulting linear combination. We prove that the method converges with a sublinear rate to a minimizer of the objective functional. Additionally, we propose heuristic strategies and acceleration steps that allow to implement the algorithm efficiently. Finally, we provide numerical examples that demonstrate the effectiveness of our algorithm and model in reconstructing heavily undersampled dynamic data, together with the presence of noise.},
@@ -17,8 +58,8 @@
 	author = {Bredies, Kristian and Carioni, Marcello and Fanzon, Silvio and Romero, Francisco},
 	bibtex_show = {true},
 	code = {https://github.com/panchoop/DGCG_algorithm},
-	date-added = {2023-04-21 00:21:58 +0100},
-	date-modified = {2023-04-21 00:36:13 +0100},
+	date-added = {2023-04-21 08:11:51 +0100},
+	date-modified = {2023-04-21 08:11:51 +0100},
 	dimensions = {true},
 	doi = {doi.org/10.1007/s10208-022-09561-z},
 	html = {https://doi.org/10.1007/s10208-022-09561-z},
@@ -27,7 +68,32 @@
 	selected = {true},
 	title = {A Generalized Conditional Gradient Method for Dynamic Inverse Problems with Optimal Transport Regularization},
 	url = {https://doi.org/10.1007/s10208-022-09561-z},
-	year = {2022}}
+	year = {2022},
+	bdsk-url-1 = {https://doi.org/10.1007/s10208-022-09561-z}}
+
+@article{bre-car-fan-rom-2021,
+	abbr = {Bull LMS},
+	abstract = {In this paper, we characterize the extremal points of the unit ball of the Benamou--Brenier energy and of a coercive generalization of it, both subjected to the homogeneous continuity equation constraint. We prove that extremal points consist of pairs of measures concentrated on absolutely continuous curves which are characteristics of the continuity equation. Then, we apply this result to provide a representation formula for sparse solutions of dynamic inverse problems with finite-dimensional data and optimal-transport based regularization.},
+	altmetric = {true},
+	author = {Bredies, Kristian and Carioni, Marcello and Fanzon, Silvio and Romero, Francisco},
+	bibtex_show = {true},
+	code = {https://github.com/panchoop/DGCG_algorithm},
+	date-added = {2023-04-21 00:21:58 +0100},
+	date-modified = {2023-04-21 08:24:23 +0100},
+	dimensions = {true},
+	doi = {doi.org/10.1007/s10208-022-09561-z},
+	html = {https://doi.org/10.1112/blms.12509},
+	journal = {Bulletin of the London Mathematical Society},
+	number = {5},
+	pages = {1436--1452},
+	pdf = {Bre-Car-Fan-Rom-2021.pdf},
+	selected = {false},
+	title = {On the extremal points of the ball of the Benamou--Brenier energy},
+	url = {https://doi.org/10.1112/blms.12509},
+	volume = {53},
+	year = {2021},
+	bdsk-url-1 = {https://doi.org/10.1112/blms.12509},
+	bdsk-url-2 = {https://doi.org/10.1007/s10208-022-09561-z}}
 
 @article{fan-pal-pon-2019,
 	abbr = {SIMA},
@@ -48,7 +114,9 @@
 	title = {Derivation of Linearized Polycrystals from a Two-Dimensional System of Edge Dislocations},
 	url = {https://doi.org/10.1137/18M118726X},
 	volume = {51},
-	year = {2019}}
+	year = {2019},
+	bdsk-url-1 = {https://doi.org/10.1137/18M118726X},
+	bdsk-url-2 = {https://doi.org/10.1137/18M118726}}
 
 @article{fan-pon-sca-2020,
 	abbr = {Calc Var PDE},
@@ -68,7 +136,8 @@
 	title = {Uniform distribution of dislocations in Peierls--Nabarro models for semi-coherent interfaces},
 	url = {https://doi.org/10.1007/s00526-020-01787-5},
 	volume = {59},
-	year = {2020}}
+	year = {2020},
+	bdsk-url-1 = {https://doi.org/10.1007/s00526-020-01787-5}}
 
 @phdthesis{fan-phd-2018,
 	abbr = {PhD Thesis},
@@ -87,7 +156,8 @@ This thesis is divided into two main parts. In the first part we present the res
 	selected = {false},
 	title = {Geometric patterns and microstructures in the study of material defects and composites},
 	url = {http://srodev.sussex.ac.uk/id/eprint/72566/},
-	year = {2018}}
+	year = {2018},
+	bdsk-url-1 = {http://srodev.sussex.ac.uk/id/eprint/72566/}}
 
 @article{fan-pal-2017,
 	abbr = {Calc Var PDE},
@@ -108,7 +178,8 @@ only two elliptic matrices, i.e., $\sigma \in \{ \sigma<sub>1</sub>,  \sigma<sub
 	title = {Optimal lower exponent for the higher gradient integrability of solutions to two-phase elliptic equations in two dimensions},
 	url = {https://doi.org/10.1007/s00526-017-1222-9},
 	volume = {56},
-	year = {2017}}
+	year = {2017},
+	bdsk-url-1 = {https://doi.org/10.1007/s00526-017-1222-9}}
 
 @article{fan-pal-pon-2017,
 	abbr = {J Nonlinear Sci},
@@ -128,7 +199,8 @@ only two elliptic matrices, i.e., $\sigma \in \{ \sigma<sub>1</sub>,  \sigma<sub
 	title = {A Variational Model for Dislocations at Semi-coherent Interfaces},
 	url = {https://doi.org/10.1007/s00332-017-9366-5},
 	volume = {27},
-	year = {2017}}
+	year = {2017},
+	bdsk-url-1 = {https://doi.org/10.1007/s00332-017-9366-5}}
 
 @article{bre-fan-2020,
 	abbr = {ESAIM: M2AN},
@@ -148,4 +220,5 @@ only two elliptic matrices, i.e., $\sigma \in \{ \sigma<sub>1</sub>,  \sigma<sub
 	title = {An optimal transport approach for solving dynamic inverse problems in spaces of measures},
 	url = {https://doi.org/10.1051/m2an/2020056},
 	volume = {54},
-	year = {2020}}
+	year = {2020},
+	bdsk-url-1 = {https://doi.org/10.1051/m2an/2020056}}
