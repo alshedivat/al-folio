@@ -17,7 +17,8 @@
   --global-card-bg-color: #{$white-color};
   --global-navbar-color: #{$grey-color-dark};
   --global-navbar-text-color: #{$grey-color-light};
-  
+  --global-navbar-hover-color: #{$light-magenta-color};
+
   .fa-sun {
     display : none;
   }
@@ -50,6 +51,7 @@ html[data-theme='dark'] {
   --global-card-bg-color: #{$grey-900};
   --global-navbar-color: #{$grey-color-dark};
   --global-navbar-text-color: #{$grey-color-light};
+  --global-navbar-hover-color: #{$cyan-color};
 
   .fa-sun {
     padding-left: 10px;

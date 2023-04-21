@@ -183,7 +183,7 @@ blockquote {
   }
 
   a:hover {
-    color: var(--global-hover-color);
+    color: var(--global-navbar-hover-color);
   }
 
   .dropdown-divider {
@@ -195,7 +195,7 @@ blockquote {
   color: var(--global-navbar-text-color);
 
   &:hover {
-    color: var(--global-hover-color);
+    color: var(--global-navbar-hover-color);
     background-color: var(--global-navbar-color);
   }
 }
@@ -215,7 +215,7 @@ blockquote {
     color: var(--global-navbar-text-color);
 
     &:hover {
-      color: var(--global-hover-color);
+      color: var(--global-navbar-hover-color);
     }
   }
 
@@ -225,7 +225,7 @@ blockquote {
     color: var(--global-theme-color);
 
     &:hover {
-      color: var(--global-hover-color);
+      color: var(--global-navbar-hover-color);
     }
   }
 
@@ -296,7 +296,7 @@ blockquote {
   color: var(--global-navbar-text-color);
 
   &:hover {
-    color: var(--global-hover-color);
+    color: var(--global-navbar-hover-color);
   }
 }
 
