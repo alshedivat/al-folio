@@ -15,7 +15,6 @@
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0,0,0,.2);
   --global-card-bg-color: #{$white-color};
-  --global-preprint:#{$grey-900}; 
 
   .fa-sun {
     display : none;
@@ -47,7 +46,6 @@ html[data-theme='dark'] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
-  --global-preprint:#{$white-color};
 
   .fa-sun {
     padding-left: 10px;

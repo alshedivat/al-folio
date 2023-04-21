@@ -1,6 +1,5 @@
 "arXiv":
   url: https://arxiv.org
-  color: var(--global-theme-color);
 
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
