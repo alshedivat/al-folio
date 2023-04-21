@@ -46,7 +46,7 @@ layout: default
             
 
          <!-- Upcoming events-->
-        {% if page.events and site.events != blank -%}
+        {% if page.events -%}
           <h3><b>events</b></h3>
           {%- include events.html %}
         {%- endif %}
