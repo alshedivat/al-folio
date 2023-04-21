@@ -606,10 +606,11 @@ footer.sticky-bottom {
 
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          border-bottom: 1px dashed var(--global-text-color);
 
           &:hover {
             border-bottom-style: solid;
+            color: var(--global-theme-color);
             text-decoration: none;
           }
         }
@@ -617,6 +618,7 @@ footer.sticky-bottom {
         >em {
           border-bottom: 1px solid;
           font-style: normal;
+          color: var(--global-theme-color);
         }
 
         >span.more-authors {
