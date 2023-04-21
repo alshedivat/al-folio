@@ -174,11 +174,11 @@ blockquote {
 }
 
 .navbar .dropdown-menu {
-  background-color: var(--global-bg-color);
+  background-color: var(--global-navbar-color);
   border: 1px solid var(--global-divider-color);
 
   a:not(.active) {
-    color: var(--global-text-color);
+    color: var(--global-navbar-text-color);
   }
 
   a:hover {
@@ -191,11 +191,11 @@ blockquote {
 }
 
 .dropdown-item {
-  color: var(--global-text-color);
+  color: var(--global-navbar-text-color);
 
   &:hover {
     color: var(--global-hover-color);
-    background-color: var(--global-bg-color);
+    background-color: var(--global-navbar-color);
   }
 }
 
@@ -207,11 +207,11 @@ blockquote {
   }
 
   .navbar-brand {
-    color: var(--global-text-color);
+    color: var(--global-navbar-text-color);
   }
 
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: var(--global-navbar-text-color);
 
     &:hover {
       color: var(--global-hover-color);
@@ -235,7 +235,7 @@ blockquote {
 
     a {
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-navbar-text-color);
         transition-property: all 0.2s ease-in-out;
       }
 
@@ -253,7 +253,7 @@ blockquote {
     display: block;
     width: 22px;
     height: 2px;
-    background-color: var(--global-text-color);
+    background-color: var(--global-navbar-text-color);
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
@@ -292,7 +292,7 @@ blockquote {
   padding: 0;
   border: 0;
   background-color: inherit;
-  color: var(--global-text-color);
+  color: var(--global-navbar-text-color);
 
   &:hover {
     color: var(--global-hover-color);
