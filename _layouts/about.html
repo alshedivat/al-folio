@@ -47,14 +47,14 @@ layout: default
         <!--
           <h2><a href="{{ '/events/' | relative_url }}" style="color: inherit;">upcoming events</a></h2>
         -->
-        <h2>events</h2>
+        <h3><b>events</b></h3>
         {%- include events.html %}
         {%- endif %}
         <br>
         
           <!-- News -->
           {% if page.news -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <h3><b><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></b></h3>
             {%- include news.html %}
           {%- endif %}
           <a href="{{ '/news/' | relative_url }}">past news</a>
@@ -68,7 +68,7 @@ layout: default
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+            <h3><b><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></b></h3>
             {%- include selected_papers.html %}
           {%- endif %}
 
