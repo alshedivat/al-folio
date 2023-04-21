@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <b> <a href='#'>Lecturer in Applied Mathematics</a></b>   <span >&#124;</span>  <b><a href='#'>PhD</a></b>
+subtitle: <b> <a href='#'>Lecturer in Applied Mathematics</a></b>   <span >&#124;</span>  <b><a href='https://sro.sussex.ac.uk/id/eprint/72566/'>PhD</a></b>
 
 profile:
   align: right
