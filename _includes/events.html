@@ -12,12 +12,12 @@
               {% endif %}
               {% for item in events limit: events_limit %}
                 <tr>
-                  <th scope="row">{{ item.date | date: "%d %b %Y" }}</th>
+                  <th scope="row">{{ item.date | date: "%Y %b" }}</th>
                   <td>
                     {% if item.inline -%}
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
                     {%- else -%}
-                      <a class="events-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
                     {%- endif %}
                   </td>
                 </tr>
