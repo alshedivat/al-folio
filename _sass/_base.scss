@@ -172,6 +172,14 @@ blockquote {
   background-color: var(--global-navbar-color);
   opacity: 0.95;
   color: var(--global-navbar-text-color);
+
+  a:not(.active) {
+    color: var(--global-navbar-active-text-color);
+  }
+
+  a:hover {
+    color: var(--global-navbar-hover-color);
+  }
 }
 
 .navbar .dropdown-menu {
