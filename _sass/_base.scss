@@ -179,7 +179,7 @@ blockquote {
   border: 1px solid var(--global-divider-color);
 
   a:not(.active) {
-    color: var(--global-navbar-text-color);
+    color: var(--global-navbar-active-text-color);
   }
 
   a:hover {
@@ -192,7 +192,7 @@ blockquote {
 }
 
 .dropdown-item {
-  color: var(--global-navbar-text-color);
+  color: var(--global-navbar-active-text-color);
 
   &:hover {
     color: var(--global-navbar-hover-color);
