@@ -611,6 +611,7 @@ footer.sticky-bottom {
 
           &:hover {
             border-bottom-style: solid;
+            border-bottom-color: var(--global-theme-color);
             color: var(--global-theme-color);
             text-decoration: none;
           }
