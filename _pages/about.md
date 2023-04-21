@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <b> <a href='#'>Lecturer in Applied Mathematics</a></b>   <span >&#124;</span>  <b><a href='https://www.hull.ac.uk'>University of Hull</a></b>
+subtitle: <b> <a href='#'>Lecturer in Applied Mathematics</a></b>   <br> <b><a href='https://www.hull.ac.uk'>University of Hull</a></b>
 
 profile:
   align: right
