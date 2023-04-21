@@ -230,7 +230,7 @@ blockquote {
   .navbar-nav .nav-item.active>.nav-link {
     background-color: inherit;
     font-weight: bolder;
-    color: var(--global-theme-color);
+    color: var(--global-navbar-active-text-color);
 
     &:hover {
       color: var(--global-navbar-hover-color);
@@ -250,7 +250,7 @@ blockquote {
 
       &:hover {
         i::before {
-          color: var(--global-theme-color);
+          color: var(--global-navbar-active-text-color);
         }
       }
     }
@@ -619,7 +619,6 @@ footer.sticky-bottom {
 
           &:hover {
             color: var(--global-theme-color);
-            border-bottom-style: 1px solid var(--global-theme-color);
           }
         }
 
