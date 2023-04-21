@@ -18,6 +18,7 @@
   --global-navbar-color: #{$grey-color-dark};
   --global-navbar-text-color: #{$grey-color-light};
   --global-navbar-hover-color: #{$light-magenta-color};
+  --global-navbar-active-text-color #{$light-magenta-color};
 
   .fa-sun {
     display : none;
@@ -52,6 +53,7 @@ html[data-theme='dark'] {
   --global-navbar-color: #{$grey-color-dark};
   --global-navbar-text-color: #{$grey-color-light};
   --global-navbar-hover-color: #{$cyan-color};
+  --global-navbar-active-text-color #{$cyan-color};
 
   .fa-sun {
     padding-left: 10px;
