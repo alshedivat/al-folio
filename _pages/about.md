@@ -16,6 +16,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a first-year Ph.D. student in the Department of Computer Science at the Johns Hopkins University. I am co-advised by Dr. Chien-Ming Huang and Dr. Anqi Liu!
+I am a first-year Ph.D. student in the Department of Computer Science at the Johns Hopkins University. I am a member of the [Intuitive Computing Laboratory](https://intuitivecomputing.github.io/) (affiliated with the [Malone Center for Engineering in Healthcare](https://malonecenter.jhu.edu/)). I am advised by [Dr. Chien-Ming Huang](https://www.cs.jhu.edu/~cmhuang/) and [Dr. Anqi Liu](https://anqiliu-ai.github.io/)!
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research focuses on human-AI trust and reliance in assisted decision-making. More specifically, I am interested in ways to help users calibrate their reliance and trust in the AI for more optimal human-AI collaboration. 
+
+My CV may be viewed [here]().
