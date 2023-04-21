@@ -46,12 +46,12 @@ layout: default
             
 
          <!-- Upcoming events-->
-        {% if site.events != blank -%}
-        <!--
-          <h2><a href="{{ '/events/' | relative_url }}" style="color: inherit;">upcoming events</a></h2>
-        -->
-        <h3><b>events</b></h3>
-        {%- include events.html %}
+        {% if page.news and site.events != blank -%}
+          <!--
+            <h2><a href="{{ '/events/' | relative_url }}" style="color: inherit;">upcoming events</a></h2>
+          -->
+          <h3><b>events</b></h3>
+          {%- include events.html %}
         {%- endif %}
         
         <br>
