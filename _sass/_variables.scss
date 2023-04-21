@@ -24,7 +24,8 @@ $pink-color-light:    #ffdddd !default;
 $yellow-color:        #efcc00 !default;
 $magenta-color:       #cc0164 !default;
 $light-magenta-color:    lighten($magenta-color, 25%);
-$very-light-magenta-color:    lighten($magenta-color, 40%);
+$contrast-magenta-color:#ff007b !default;
+$light-contrast-magenta-color:    lighten($contrast-magenta-color, 25%);
 
 $grey-color:          #828282 !default;
 $grey-color-light:    lighten($grey-color, 40%);
