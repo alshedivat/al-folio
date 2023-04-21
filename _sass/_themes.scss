@@ -16,7 +16,8 @@
   --global-divider-color: rgba(0,0,0,.25);
   --global-card-bg-color: #{$white-color};
   --global-navbar-color: #{$grey-color-dark};
-
+  --global-navbar-text-color: #{$grey-color-light};
+  
   .fa-sun {
     display : none;
   }
@@ -48,6 +49,7 @@ html[data-theme='dark'] {
   --global-divider-color: #75757d;
   --global-card-bg-color: #{$grey-900};
   --global-navbar-color: #{$grey-color-dark};
+  --global-navbar-text-color: #{$grey-color-light};
 
   .fa-sun {
     padding-left: 10px;
