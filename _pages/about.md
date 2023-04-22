@@ -23,7 +23,6 @@ social: false  # includes social icons at the bottom of the page
 I am a Lecturer in Applied Mathematics in the <a href='https://www.hull.ac.uk/faculties/departments/department-of-physics-and-mathematics'>Department of Physics and Mathematics</a> at the <a href='https://www.hull.ac.uk'>University of Hull</a> 
 
 
-&nbsp;
 
 My research is at the interface of **inverse problems**, **optimization**, **partial differential equations** and **variational methods**. I am interested in applications to **mathematical imaging**, **materials science** and **machine learning**.
 
@@ -31,9 +30,9 @@ My research is at the interface of **inverse problems**, **optimization**, **par
 
 <p style="text-align: center;">
 You can contact me at: 
-
+<br>
 &nbsp;
-
+<br>
 <a href = "mailto: S.Fanzon@hull.ac.uk">S.Fanzon@hull.ac.uk</a>
 </p>
 
