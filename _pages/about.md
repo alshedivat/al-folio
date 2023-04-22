@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: nate_pic.png
+  image: nate_pic2.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Toronto->Milan</p>
