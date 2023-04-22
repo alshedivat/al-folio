@@ -29,11 +29,7 @@ My research is at the interface of **inverse problems**, **optimization**, **pde
 &nbsp;
 
 <p style="text-align: center;">
-You can contact me at: 
-<br>
-&nbsp;
-<br>
-<a href = "mailto: S.Fanzon@hull.ac.uk">S.Fanzon@hull.ac.uk</a>
+You can contact me at: <a href = "mailto: S.Fanzon@hull.ac.uk">S.Fanzon@hull.ac.uk</a>
 </p>
 
 
