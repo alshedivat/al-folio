@@ -20,16 +20,17 @@ social: false  # includes social icons at the bottom of the page
 
 &nbsp;
 
-I am a Lecturer in Applied Mathematics in the <a href='https://www.hull.ac.uk/faculties/departments/department-of-physics-and-mathematics'>Department of Physics and Mathematics</a> at the <a href='https://www.hull.ac.uk'>University of Hull</a> 
-
-
-
-My research is at the interface of **inverse problems**, **optimization**, **pdes** and **variational methods**. I am interested in applications to **mathematical imaging**, **materials science** and **machine learning**
-
-
+<p style="text-align: justify;">
+I am a Lecturer in Applied Mathematics in the <a href='https://www.hull.ac.uk/faculties/departments/department-of-physics-and-mathematics'>Department of Physics and Mathematics</a> at the <a href='https://www.hull.ac.uk'>University of Hull</a> in the United Kingdom
+</p>
 
 <p style="text-align: center;">
-You can contact me at: <a href = "mailto: S.Fanzon@hull.ac.uk">S.Fanzon@hull.ac.uk</a>
+My research is at the interface of **inverse problems**, **optimization**, **pdes** and **variational methods**. I am interested in applications to **mathematical imaging**, **materials science** and **machine learning**
+</p>
+
+
+<p style="text-align: justify;">
+Contact me at: <a href = "mailto: S.Fanzon@hull.ac.uk">S.Fanzon@hull.ac.uk</a>
 </p>
 
 
