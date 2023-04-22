@@ -361,7 +361,7 @@ footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
   padding-top: 40px;
   padding-bottom: 40px;
-  font-size: 0.9rem;
+  font-size: 0.92rem;
 }
 
 // CV
@@ -613,6 +613,7 @@ footer.sticky-bottom {
       }
 
       .author {
+        font-size: 0.9rem;
         a {
           color: var(--global-text-color);
           border-bottom: 1px dashed var(--global-text-color);
