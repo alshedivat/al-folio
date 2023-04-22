@@ -619,7 +619,7 @@ footer.sticky-bottom {
           border-bottom: 1px dashed var(--global-text-color);
           color: var(--global-text-color);
           &:hover {
-            border-bottom-style: solid;
+            border-bottom-style: solid var(--global-theme-color);
             text-decoration: none;
             color: var(--global-theme-color);
           }
