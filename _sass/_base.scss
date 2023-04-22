@@ -610,10 +610,11 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        font-size: 1.05rem;
       }
 
       .author {
-        font-size: 0.95rem;
+        font-size: 0.93rem;
         a {
           border-bottom: 1px dashed var(--global-text-color);
           color: var(--global-text-color);
@@ -627,7 +628,7 @@ footer.sticky-bottom {
         >em {
           // border-bottom: 1px solid;
           font-style: normal;
-          // font-weight: bolder;
+          font-weight: bolder;
           color: var(--global-theme-color);
         }
 
