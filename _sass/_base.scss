@@ -615,11 +615,11 @@ footer.sticky-bottom {
       .author {
         font-size: 0.9rem;
         a {
-          color: var(--global-text-color);
           border-bottom: 1px dashed var(--global-text-color);
-
+          color: var(--global-text-color);
           &:hover {
-            border-bottom: 1px solid var(--global-theme-color);
+            border-bottom-style: solid;
+            text-decoration: none;
             color: var(--global-theme-color);
           }
         }
