@@ -29,7 +29,7 @@ My research is at the interface of <b>inverse problems</b>, <b>optimization</b>,
 
 <br style="line-height: 20px"/>
 
-My contact information is <a href='#'>here</a>. The best way to reach me is by email:
+My contact information is <a href='#contact_info'>here</a>. The best way to reach me is by email:
 </p>
 <br>
 <p style="text-align: center;">
