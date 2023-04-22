@@ -24,7 +24,7 @@ I am a Lecturer in Applied Mathematics in the <a href='https://www.hull.ac.uk/fa
 
 
 
-My research is at the interface of **inverse problems**, **optimization**, **partial differential equations** and **variational methods**. I am interested in applications to **mathematical imaging**, **materials science** and **machine learning**.
+My research is at the interface of **inverse problems**, **optimization**, **partial differential equations** and **variational methods**. I am interested in applications to **mathematical imaging**, **materials science** and **machine learning**
 
 &nbsp;
 
