@@ -13,7 +13,7 @@ nav_order: 1
 {% include person.html person=p %}
 {% endfor %}
 
-<h1 style="padding-bottom:2.5%; padding-top:2.5%;">Former People</h1>
+<h1 style="padding-bottom:2.5%; padding-top:2.5%;">Former Students</h1>
 
 {% for p in site.data.former-people %}
 {% include person.html person=p %}
