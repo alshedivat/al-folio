@@ -17,11 +17,14 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
 }
 
 
+html {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  height: 100%;
+}
 
 
 hr {
@@ -41,8 +44,6 @@ table {
   th {
     width: 5rem;
   }
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
 }
 
 a,
