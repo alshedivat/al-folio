@@ -36,7 +36,7 @@ layout: default
           </div>
           {%- endif %}
 
-          <div class="clearfix" style="margin-top: 20rem;">
+          <div class="clearfix" style="margin-top: 3rem;">
             {{ content }}
           </div>
 
@@ -45,7 +45,7 @@ layout: default
 
          <!-- Upcoming events-->
         {% if page.events -%}
-          <h3 style="margin-bottom: 1rem; margin-top: 1rem;"><b>Events</b></h3>
+          <h3 style="margin-bottom: 1rem; margin-top: 2rem;"><b>Events</b></h3>
           {%- include events.html %}
         {%- endif %}
         
@@ -53,7 +53,7 @@ layout: default
         
         <!-- News -->
           {% if page.news -%}
-            <h3 style="margin-bottom: 1rem; margin-top: 1rem;"><b><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></b></h3>
+            <h3 style="margin-bottom: 1rem; margin-top: 2rem;"><b><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></b></h3>
             {%- include news.html %}
           <b><a href="{{ '/news/' | relative_url }}">past news</a></b>
           {%- endif %}
