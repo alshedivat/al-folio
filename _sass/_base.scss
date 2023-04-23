@@ -578,10 +578,10 @@ footer.sticky-bottom {
     padding: 0;
     margin-top: 0;
 
-    // .row {
-    //  margin-bottom: 1rem; // distance between publications
-    //  margin-top: 1rem; // distance between publications
-    // }
+    .row {
+     margin-bottom: 0.5rem; // distance between publications
+     margin-top: 0.5rem; // distance between publications
+    }
 
     li {
       margin-bottom: 1rem;
