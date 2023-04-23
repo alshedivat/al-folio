@@ -17,7 +17,7 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  font-family: cursive;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
 
@@ -672,7 +672,7 @@ footer.sticky-bottom {
 
       .badges {
         padding-bottom: 0.5rem;
-        margin-top: 2rem;
+
         span {
           display: inline-block;
           color: $black-color;
