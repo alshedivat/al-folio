@@ -21,7 +21,7 @@ social: false  # includes social icons at the bottom of the page
 &nbsp;
 
 <h3><b>About me</b></h3>
-<p style="text-align: justify;">
+<p>
 I am a Lecturer in Applied Mathematics in the <a href='https://www.hull.ac.uk/faculties/departments/department-of-physics-and-mathematics'>Department of Physics and Mathematics</a> at the <a href='https://www.hull.ac.uk'>University of Hull</a> in the United Kingdom
 <br style="line-height: 20px"/>
 &nbsp;
@@ -30,11 +30,6 @@ My research is at the interface of <b>inverse problems</b>, <b>optimization</b>,
 <br style="line-height: 20px"/>
 &nbsp;
 <br>
-</p>
-
-
-<h3><b>Contact</b></h3>
-<p>
 My contact information is <a href='#contact_info'>here</a>. The best way to reach me is by email:
 <a href = "mailto: S.Fanzon@hull.ac.uk">S.Fanzon@hull.ac.uk</a>
 </p>
