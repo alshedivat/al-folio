@@ -47,7 +47,7 @@ layout: default
 
          <!-- Upcoming events-->
         {% if page.events -%}
-          <h3><b>events</b></h3>
+          <h3><b>Events</b></h3>
           {%- include events.html %}
         {%- endif %}
         
@@ -55,7 +55,7 @@ layout: default
         
         <!-- News -->
           {% if page.news -%}
-            <h3><b><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></b></h3>
+            <h3><b><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></b></h3>
             {%- include news.html %}
           <b><a href="{{ '/news/' | relative_url }}">past news</a></b>
           {%- endif %}
