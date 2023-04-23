@@ -45,8 +45,9 @@ layout: default
 
          <!-- Upcoming events-->
         {% if page.events -%}
-          <h3 style="margin-bottom: 1rem; margin-top: 1rem;"><b>Events</b></h3>
+          <h3 style="margin-bottom: 1rem; margin-top: 1rem;"><b><a href="{{ '/events/' | relative_url }}" style="color: inherit;">Events</a></b></h3>
           {%- include events.html %}
+          <b><a href="{{ '/events/' | relative_url }}">past events</a></b>
         {%- endif %}
         
         
@@ -59,6 +60,14 @@ layout: default
           {%- endif %}
           
 
+          <!-- Teaching -->
+          {% if page.news -%}
+            <h3 style="margin-bottom: 1rem; margin-top: 2rem;"><b><a href="{{ '/news/' | relative_url }}" style="color: inherit;">Teaching</a></b></h3>
+            {%- include news.html %}
+          <b><a href="{{ '/teaching/' | relative_url }}">past teaching</a></b>
+          {%- endif %}
+          
+          
 
           <!-- Latest posts -->
           {% if page.latest_posts -%}
@@ -68,8 +77,9 @@ layout: default
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h3><b><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></b></h3>
+            <h3><b><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></b></h3>
             {%- include selected_papers.html %}
+            <b><a href="{{ '/publications/' | relative_url }}">all publications</a></b>
           {%- endif %}
 
           <!-- Social -->
