@@ -19,6 +19,14 @@ strong {
   color: var(--global-text-color);
 }
 
+
+html, body {
+  font-family: "Roboto";
+  font-weight: 300;
+  height: 100%;
+}
+
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
