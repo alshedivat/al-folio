@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: Home
 permalink: /
 subtitle: <a href='#'>Lecturer in Applied Mathematics</a>  &#64;  <a href='https://www.hull.ac.uk'>Hull</a>
 
