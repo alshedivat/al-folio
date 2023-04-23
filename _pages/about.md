@@ -5,7 +5,7 @@ permalink: /
 subtitle: <b> <a href='#'>Lecturer in Applied Mathematics</a></b>  &#64;   <b><a href='https://www.hull.ac.uk'>Hull</a></b>
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   
