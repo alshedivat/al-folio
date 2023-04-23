@@ -17,13 +17,11 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: cursive;
+  font-weight: 300;
 }
 
-html, body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 200;
-  height: 100%;
-}
+
 
 
 hr {
@@ -580,7 +578,7 @@ footer.sticky-bottom {
     list-style: none;
     padding: 0;
     margin-top: 0;
-
+    
 
     li {
       margin-bottom: 1rem;
@@ -674,7 +672,7 @@ footer.sticky-bottom {
 
       .badges {
         padding-bottom: 0.5rem;
-        margin-top: 10rem;
+        margin-top: 2rem;
         span {
           display: inline-block;
           color: $black-color;
