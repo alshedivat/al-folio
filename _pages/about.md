@@ -18,8 +18,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
+&nbsp;
 
-<h3 style="margin-bottom: 1.3rem; margin-top: 20rem;"><b>About me</b></h3>
+<h3 style="margin-bottom: 1.3rem"><b>About me</b></h3>
 
 <p style="text-align: justify;">
 I am a Lecturer in Applied Mathematics in the <a href='https://www.hull.ac.uk/faculties/departments/department-of-physics-and-mathematics'>Department of Physics and Mathematics</a> at the <a href='https://www.hull.ac.uk'>University of Hull</a> in the United Kingdom
