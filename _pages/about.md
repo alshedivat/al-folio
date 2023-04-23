@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-<hr style="width: 100%; visibility: hidden;">
+<hr style="width: 120%; visibility: hidden;">
 
 <h3 style="margin-bottom: 1.3rem"><b>About me</b></h3>
 
