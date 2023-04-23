@@ -45,9 +45,8 @@ layout: default
 
          <!-- Upcoming events-->
         {% if page.events -%}
-          <h3 style="margin-bottom: 1rem; margin-top: 1rem;"><b><a href="{{ '/events/' | relative_url }}" style="color: inherit;">Events</a></b></h3>
+          <h3 style="margin-bottom: 1rem; margin-top: 1rem;"><b>Next Events</b></h3>
           {%- include events.html %}
-          <b><a href="{{ '/events/' | relative_url }}">past events</a></b>
         {%- endif %}
         
         
@@ -59,13 +58,6 @@ layout: default
           <b><a href="{{ '/news/' | relative_url }}">past news</a></b>
           {%- endif %}
           
-
-          <!-- Teaching -->
-          {% if page.news -%}
-            <h3 style="margin-bottom: 1rem; margin-top: 2rem;"><b><a href="{{ '/news/' | relative_url }}" style="color: inherit;">Teaching</a></b></h3>
-            {%- include news.html %}
-          <b><a href="{{ '/teaching/' | relative_url }}">past teaching</a></b>
-          {%- endif %}
           
           
 

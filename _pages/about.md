@@ -11,11 +11,10 @@ profile:
   
     
     
-events: true  # includes a list of upcoming events    
 news: true  # includes a list of news items
-teaching: true  # includes a list of teaching items
+events: true  # includes a list of upcoming events    
 latest_posts: false  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
