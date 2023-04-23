@@ -139,7 +139,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 45%;
+    width: 40%;
 
     .address {
       p {
@@ -611,11 +611,12 @@ footer.sticky-bottom {
       .title {
         font-weight: bolder;
         font-size: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 0.2rem;
       }
 
       .author {
         font-size: 0.95rem;
+        margin-bottom: 0.3rem;
         a {
           border-bottom: 1px dashed var(--global-text-color);
           color: var(--global-text-color);
