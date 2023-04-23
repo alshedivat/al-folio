@@ -177,11 +177,11 @@ collections:
     output: true
     permalink: /news/:path/
 
-  events:
+  next_events:
     defaults:
       layout: post
     output: true
-    permalink: /events/:path/
+    permalink: /next_events/:path/
   
   projects:
     output: true
@@ -193,7 +193,7 @@ news:
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
   limit: 15 # leave blank to include all the news in the `_news` folder
 
-events:
+next_events:
   enabled: true
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
   limit: 10 # leave blank to include all the news in the `_events` folder
