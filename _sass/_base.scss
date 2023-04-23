@@ -17,11 +17,13 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  font-family: cursive;
-  font-weight: 300;
 }
 
-
+html, body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  height: 100%;
+}
 
 
 hr {
