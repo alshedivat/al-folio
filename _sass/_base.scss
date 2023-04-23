@@ -579,10 +579,6 @@ footer.sticky-bottom {
     padding: 0;
     margin-top: 0;
 
-    .row {
-     margin-bottom: 0.5rem; // distance between publications
-     margin-top: 0.5rem; // distance between publications
-    }
 
     li {
       margin-bottom: 1rem;
@@ -666,7 +662,6 @@ footer.sticky-bottom {
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
-          margin-top: 10rem;
 
           &:hover {
             color: var(--global-theme-color);
@@ -677,6 +672,7 @@ footer.sticky-bottom {
 
       .badges {
         padding-bottom: 0.5rem;
+        margin-top: 10rem;
         span {
           display: inline-block;
           color: $black-color;
