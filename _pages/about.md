@@ -22,7 +22,7 @@ social: false  # includes social icons at the bottom of the page
 
 <h3><b>about me</b></h3>
 <p>
-<br style="line-height: 1px"/>
+<br style="line-height: 0.5em;"/>
 &nbsp;
 <br>
 I am a Lecturer in Applied Mathematics in the <a href='https://www.hull.ac.uk/faculties/departments/department-of-physics-and-mathematics'>Department of Physics and Mathematics</a> at the <a href='https://www.hull.ac.uk'>University of Hull</a> in the United Kingdom
