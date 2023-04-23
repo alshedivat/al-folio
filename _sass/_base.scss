@@ -130,16 +130,16 @@ blockquote {
 }
 
 .profile.float-right {
-  margin-left: 30rem;
+  margin-left: 1rem;
 }
 
 .profile.float-left {
-  margin-right: 30rem;
+  margin-right: 1rem;
 }
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 50%;
 
     .address {
       p {
