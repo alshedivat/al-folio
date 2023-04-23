@@ -1,0 +1,20 @@
+---
+- name: Brian Govers
+  title: Research Assistant
+  pfp: /assets/img/pfp/bgovers.jpg
+  email: bgovers@ucsc.edu
+  linkedin_username: brian-govers
+  body: |
+    Brian is a recent UCSC graduate with a degree in Electrical Engineering.
+    Now in his first year of the Electrical and Computer Engineering M.S.
+    program, he hopes to earn a degree with a focus in Robotics, Control, and
+    Cyber-Physical Systems. Brian is working on developing a communication
+    infrastructure to collect and process sensor data from the UCSC farm.
+
+- name: Revanth
+  title: Primary Research Assistant
+  pfp: /assets/img/3.jpg
+  email: proacc576@gmail.com
+  body: |
+    Revanth Kottur Sivakumar is in the class of 2023 at Amrita University
+    (India). He majors in electrical engineering.

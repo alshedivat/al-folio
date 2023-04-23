@@ -6,6 +6,7 @@ _site
 .DS_store
 .ruby-version
 .tweet-cache
+.venv
 Gemfile.lock
 vendor
 
