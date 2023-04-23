@@ -87,7 +87,7 @@ blockquote {
   background-color: var(--global-card-bg-color);
 
   img {
-    width: 120%;
+    width: 100%;
   }
 
   .card-title {
@@ -130,11 +130,11 @@ blockquote {
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 3rem;
 }
 
 .profile.float-left {
-  margin-right: 1rem;
+  margin-right: 3rem;
 }
 
 @media (min-width: 576px) {
