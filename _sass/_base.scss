@@ -130,16 +130,16 @@ blockquote {
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .profile.float-left {
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 40%;
 
     .address {
       p {
@@ -542,7 +542,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 
   h1 {
     color: var(--global-theme-color);
@@ -610,11 +610,11 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
-        font-size: 1.05rem;
+        font-size: 1rem;
       }
 
       .author {
-        font-size: 0.96rem;
+        font-size: 0.95rem;
         a {
           border-bottom: 1px dashed var(--global-text-color);
           color: var(--global-text-color);
