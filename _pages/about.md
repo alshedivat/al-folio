@@ -34,7 +34,7 @@ My research is at the interface of <b>inverse problems</b>, <b>optimization</b>,
 My contact information is <a href='#contact_info'>here</a>. The best way to reach me is by email:
 </p>
 
-<p style="text-align: center; margin-top: 1rem;">
+<p style="text-align: center; margin-top: 0.8rem;">
 <a href = "mailto: S.Fanzon@hull.ac.uk">S.Fanzon@hull.ac.uk</a>
 </p>
 
