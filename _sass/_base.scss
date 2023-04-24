@@ -571,10 +571,15 @@ footer.sticky-bottom {
   }
 
 
-  ol.bibliography {
+  .bibliography {
     list-style: none;
     padding: 0;
     margin-top: 0;
+
+    .row {
+      margin-bottom: 1rem; // distance between publications
+      margin-top: 1rem; // distance between publications
+    }
     
 
     li {
