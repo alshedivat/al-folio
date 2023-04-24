@@ -9,8 +9,8 @@ nav_order: 1
 ---
 <!-- _pages/publications.md -->
 
-<p> Authors are in alphabetical order. Publications are divided in <a href="#preprint">Preprints</a>, <a href="#journal">Journal articles</a> 
-and <a href="#thesis">Theses</a> </p>
+<p> Publications are divided in <a href="#preprint">Preprints</a>, <a href="#journal">Journal articles</a> 
+and <a href="#thesis">Theses</a> </p>. Authors are in alphabetical order
 
 
 <div class="publications">
