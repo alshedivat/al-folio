@@ -9,6 +9,14 @@ nav_order: 1
 ---
 <!-- _pages/publications.md -->
 
+# USE THIS TO DIVIDE ARTICLES BY YEAR. YOU HAVE TO ADD YEARS IN THE LIST ABOVE
+# <h3 style="bottom-marging= 2rem;">Journal articles</h3>
+# {%- for y in page.years %}
+#   <h2 class="year">{{y}}</h2>
+#  {% bibliography -f journal -q @*[year={{y}}]* %}
+# {% endfor %}
+
+
 <div class="publications">
 
 <h3 style="bottom-marging= 2rem; top-marging= 1rem;">Preprints</h3> 
@@ -23,10 +31,3 @@ nav_order: 1
 </div>
 
 
-<!-- USE THIS TO DIVIDE ARTICLES BY YEAR. YOU HAVE TO ADD YEARS IN THE LIST ABOVE
-<h3 style="bottom-marging= 2rem;">Journal articles</h3>
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f journal -q @*[year={{y}}]* %}
-{% endfor %}
--->
