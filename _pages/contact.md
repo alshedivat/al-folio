@@ -39,7 +39,7 @@ nav_order: 7
         <td> <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/">ResearchGate</a> </td>
         </tr>
         <tr>
-        <td> <i class="ai ai-orcid" style="font-size: 1.2em;"></i> </td>
+        <td> <i class="ai ai-orcid" style="font-size: 1em;"></i> </td>
         <td> <a href="https://orcid.org/{{ site.orcid_id }}">ORCID</a> </td>
         </tr>
         </tbody>
