@@ -511,6 +511,7 @@ footer.sticky-bottom {
     &:hover {
       .card-title {
         color: var(--global-theme-color);
+        font-weight: bolder;
       }
     }
   }
