@@ -6,7 +6,7 @@ nav: true
 nav_order: 7
 ---
 
-<div class="container">
+<div>
     <h4 style="margin-bottom: 1.8rem; margin-top: 3rem"><b>Silvio Fanzon</b></h4>
       <i class="fas fa-envelope" style="font-size: 1.1em;"></i> &nbsp;
       Email
