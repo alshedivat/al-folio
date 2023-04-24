@@ -16,14 +16,14 @@
   }
 
   .carousel-item {
-    width: 600px; /* set the desired width 800 before*/
+    width: 1000px; /* set the desired width 800 before*/
     height: 460px; /* set the desired height 500 before*/
     overflow: hidden; /* hide any overflowing content */
     position: relative; /* add relative positioning for absolute positioning of caption */
   }
 
   .carousel-item img {
-    width: 85%;
+    width: 100%;
     height: 80%;
     object-fit: cover; /* crop the image to fit the container */
   }
@@ -54,6 +54,44 @@
   }
 </style>
 
+  
+<!--  prev 
+  
+  <style>
+    #myCarousel {
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    .carousel-item {
+      width: 1000px; /* set the desired width 800 before*/
+      height: 460px; /* set the desired height 500 before*/
+      overflow: hidden; /* hide any overflowing content */
+    }
+
+    .carousel-item img {
+      width: 100%;
+      height: 80%;
+      object-fit: cover; /* crop the image to fit the container */
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      width: 70px;
+      height: 70px;
+      background-size: 100%, 100%;
+      border-radius: 50%;
+      border: 1px solid orange;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .carousel-control-prev-icon:hover,
+    .carousel-control-next-icon:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+  </style> -->
   
     <style>
     .news-container {
@@ -122,19 +160,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
     <script src="/assets/js/theme.js"></script>
     <script src="/assets/js/dark_mode.js"></script>
-
-      <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <style>
-    /* Add CSS for logo */
-    .navbar-brand img {
-      height: 40px;
-      width: auto;
-      /* margin-right: 30px/* 
-    }
-  </style>
-
 </head>
 
 <body class="fixed-top-nav ">
@@ -151,11 +176,7 @@
       </div>
       
         <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
-            <div class="container"> 
-                      <a class="navbar-brand" href="/">
-          <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png" alt="NASA Logo">
-        </a>
-        <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button>
+            <div class="container"> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button>
                 <div class="collapse navbar-collapse text-right" id="navbarNav">
                     <ul class="navbar-nav ml-auto flex-nowrap">
                         <li class="nav-item active"> <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a> </li> 
