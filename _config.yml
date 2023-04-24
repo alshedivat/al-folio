@@ -116,7 +116,7 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics: G-X57SBXWM63 # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: G-BVV5S4PR5W # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification: IZkMFWMkKT0HpOi2jJxL9W_cx-26-KKUfuByjMvucoA  # your google-site-verification ID (Google Search Console)
