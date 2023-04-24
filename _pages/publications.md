@@ -10,15 +10,17 @@ nav_order: 1
 <!-- _pages/publications.md -->
 
 
+
 <div class="publications">
 
-<h3 class="category">Preprints</h3> 
+<h3 style="margin-top= 2rem;">Preprints</h3> 
+<hr>
 {% bibliography -f preprint %}
 
-<h3 class="category">Journal articles</h3>
+<h3 style="margin-bottom= 2rem;">Journal articles</h3>
 {% bibliography -f journal %}
 
-<h3 class="category">Theses</h3>
+<h3 style="margin-bottom= 2rem;">Theses</h3>
 {% bibliography -f thesis %}
 
 </div>
