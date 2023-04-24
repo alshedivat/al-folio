@@ -13,15 +13,15 @@ nav_order: 1
 
 <div class="publications">
 
-<a id="preprint"><h3 style="margin-top: 4rem; margin-bottom: 1rem;">Preprints</h3></a> 
+<a id="preprint"><h3 style="margin-top: 3rem; margin-bottom: 1rem;">Preprints</h3></a> 
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 1rem;">
 {% bibliography -f preprint %}
 
-<a id="journal"><h3 style="margin-bottom: 1rem;">Journal articles</h3></a>
+<a id="journal"><h3 style="margin-top: 2rem; margin-bottom: 1rem;">Journal articles</h3></a>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 1rem;">
 {% bibliography -f journal %}
 
-<a id="thesis"><h3 style="margin-bottom: 1rem;">Theses</h3></a>
+<a id="thesis"><h3 style="margin-top: 2rem; margin-bottom: 1rem;">Theses</h3></a>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 10rem;">
 {% bibliography -f thesis %}
 
