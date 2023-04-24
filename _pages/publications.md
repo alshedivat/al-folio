@@ -8,6 +8,7 @@ nav: true
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
+
 <div class="publications">
 
 <h3 style="bottom-marging= 2rem; top-marging= 1rem;">Preprints</h3> 
@@ -16,7 +17,7 @@ nav_order: 1
 <h3 style="bottom-marging= 2rem;">Journal articles</h3>
 {% bibliography -f journal %}
 
-<h3 style="bottom-marging= 2rem;">Thesis</h3>
+<h3 style="bottom-marging= 2rem;">Theses</h3>
 {% bibliography -f thesis %}
 
 </div>
