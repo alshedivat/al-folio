@@ -10,9 +10,19 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
+
+<h3 class="year">Preprints</h3>
+{% bibliography -f preprint %}
+
+
+
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
+  {% bibliography -f journal -q @*[year={{y}}]* %}
 {% endfor %}
+
+
+<h3 class="year">Thesis</h3>
+{% bibliography -f thesis %}
 
 </div>
