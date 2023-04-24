@@ -7,7 +7,7 @@ nav_order: 7
 ---
 
 <div class="container">
-    <h5 style="margin-bottom: 1.8rem; margin-top: 1.5rem"><b>Silvio Fanzon</b></h5>
+    <h4 style="margin-bottom: 1.8rem; margin-top: 3rem"><b>Silvio Fanzon</b></h4>
       <i class="fas fa-envelope" style="font-size: 1.1em;"></i> &nbsp;
       Email
       <br>
@@ -28,12 +28,22 @@ nav_order: 7
       <br style="line-height: 1.2rem;"/>
       &nbsp;
       <br>
-      <i class="ai ai-google-scholar" style="font-size: 1.2em;"></i> &thinsp; 
-      <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}">Google Scholar</a> 
-      <br>
-      <i class="ai ai-researchgate" style="font-size: 1.2em;"></i> &thinsp;
-      <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/">ResearchGate</a>
-      <br>
-      <i class="ai ai-orcid" style="font-size: 1.2em;"></i> &thinsp; 
-      <a href="https://orcid.org/{{ site.orcid_id }}">ORCID</a>
+        <table>
+        <tbody>
+        <tr>
+        <td> <i class="ai ai-google-scholar" style="font-size: 1.2em;"></i> </td>
+        <td> <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}">Google Scholar</a> </td>
+        </tr>
+        <tr>
+        <td> <i class="ai ai-researchgate" style="font-size: 1.2em;"></i> </td>
+        <td> <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/">ResearchGate</a> </td>
+        </tr>
+        <tr>
+        <td> <i class="ai ai-orcid" style="font-size: 1.2em;"></i> </td>
+        <td> <a href="https://orcid.org/{{ site.orcid_id }}">ORCID</a> </td>
+        </tr>
+        </tbody>
+        </table>
 </div>  
+
+
