@@ -13,7 +13,7 @@ nav_order: 1
 
 <div class="publications">
 
-<h3 style="margin-top: 2rem; margin-bottom: 1rem;">Preprints</h3> 
+<h3 style="margin-top: 4rem; margin-bottom: 1rem;">Preprints</h3> 
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 1rem;">
 {% bibliography -f preprint %}
 
