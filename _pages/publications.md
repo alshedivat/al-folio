@@ -2,13 +2,15 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Authors are in alphabetical order. Publications are divided in <a href="#preprint">Preprints</a>, <a href="#journal">Journal articles</a> and <a href="#thesis">Theses</a> 
+description: 
 years: [2022,2021,2020,2019,2017]
 nav: true
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
 
+<h5> Authors are in alphabetical order. Publications are divided in <a href="#preprint">Preprints</a>, <a href="#journal">Journal articles</a> 
+and <a href="#thesis">Theses</a> </h5>
 
 
 <div class="publications">
