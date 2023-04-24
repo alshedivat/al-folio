@@ -11,7 +11,7 @@ profile:
   address: >
     <p>Contact: </p>
     <p>Prof. Xavier Garbet</p>
-    <p>xavier.garbet@ntu.edu.sg</p>
+    <p><a href="mailto:xavier.garbet@ntu.edu.sg">xavier.garbet@ntu.edu.sg</a></p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -21,9 +21,12 @@ social: true  # includes social icons at the bottom of the page
 
 Climate change has become a main global challenge with countries committed to achieving carbon-neutrality by 2050. Nuclear fusion, a safe and potentially unlimited energy source, could provide the ultimate energy solution to our kind. 
 
-NTU has founded a new lab in theoretical and computational fusion plasma physics, supported by NRF and TEMASEK. A joint research centre with French Commission on Atomic Energy and Alternative Energies (CEA) is also planned.  At NTU, we endeavour to combine the power of traditional physics-based models, high-performance computer simulations and modern machine learning technologies to accelerate the realisation of fusion energy. 
+NTU has opened a new research area in theoretical and computational fusion plasma physics.
+ At NTU, we endeavour to combine the power of traditional physics-based models, high-performance computer simulations and modern machine learning technologies to accelerate the realisation of fusion energy. 
 
 The group is located in Division of Physics and Applied Physics, School of Physical and Mathematical Sciences, Nanyang Technological University.
+
+Please feel free to reach out to one of [our faculty members](/people/).
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

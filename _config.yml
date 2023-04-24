@@ -271,8 +271,8 @@ display_tags: ['images', 'general', 'math', 'physics', 'code'] # this tags will 
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Garbet]
+  first_name: [Xavier]
 
   style: apa
   locale: en

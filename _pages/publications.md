@@ -15,4 +15,8 @@ nav_order: 1
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
+<h2 class="year">before 2023
+</h2>
+{% bibliography -f papers -q @*[year<2023]* %}
+
 </div>
