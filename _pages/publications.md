@@ -10,16 +10,16 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-
-
-
 <h3 style="bottom-marging= 2rem; top-marging= 1rem;">Preprints</h3> 
 {% bibliography -f preprint %}
 
-
-
 <h3 style="bottom-marging= 2rem;">Journal articles</h3>
 {% bibliography -f journal %}
+
+<h3 style="bottom-marging= 2rem;">Thesis</h3>
+{% bibliography -f thesis %}
+
+</div>
 
 
 <!-- USE THIS TO DIVIDE ARTICLES BY YEAR. YOU HAVE TO ADD YEARS IN THE LIST ABOVE
@@ -29,11 +29,3 @@ nav_order: 1
   {% bibliography -f journal -q @*[year={{y}}]* %}
 {% endfor %}
 -->
-
-
-<h3 style="bottom-marging= 2rem;">Thesis</h3>
-{% bibliography -f thesis %}
-
-
-
-</div>
