@@ -7,12 +7,12 @@ nav_order: 7
 ---
 
 <div>
-    <h4 style="margin-bottom: 1.8rem; margin-top: 3rem"><b>Silvio Fanzon</b></h4>
+    <h4 style="margin-bottom: 2rem; margin-top: 3rem"><b>Silvio Fanzon</b></h4>
       <i class="fas fa-envelope" style="font-size: 1.1em;"></i> &nbsp;
       Email
       <br>
       <a href = "mailto: S.Fanzon@hull.ac.uk">S.Fanzon@hull.ac.uk</a>
-      <br style="line-height: 1.2rem;"/>
+      <br style="line-height: 1.5rem;"/>
       &nbsp;
       <br>  
       <i class="fas fa-map-marker-alt" style="font-size: 1.1em;"></i> &nbsp;
@@ -25,7 +25,7 @@ nav_order: 7
       Hull HU6 7RX
       <br>
       United Kingdom
-      <br style="line-height: 1.2rem;"/>
+      <br style="line-height: 1.5rem;"/>
       &nbsp;
       <br>
         <table>
