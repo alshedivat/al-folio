@@ -4,10 +4,10 @@ title: Contact
 permalink: /contact/
 nav: true
 nav_order: 7
-social: true
 ---
 
-<h5 style="margin-bottom: 1.8rem;"><b>Silvio Fanzon</b></h5>
+<div class="container">
+    <h5 style="margin-bottom: 1.8rem;"><b>Silvio Fanzon</b></h5>
       <i class="fas fa-envelope" style="font-size: 1.1em;"></i> &nbsp;
       Email
       <br>
@@ -36,3 +36,4 @@ social: true
       &nbsp;&nbsp; <span >&#124;</span> &nbsp;&nbsp;
       <i class="ai ai-orcid" style="font-size: 1.2em;"></i> &thinsp; 
       <a href="https://orcid.org/{{ site.orcid_id }}">ORCID</a>
+</div>  

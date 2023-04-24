@@ -1,0 +1,64 @@
+    {% if site.footer_fixed %}
+    <footer class="fixed-bottom text-center">
+      <div class="container mt-0">
+        &copy; {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }} &nbsp; {{ site.footer_text }}
+        {%- if site.impressum_path -%}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+        {%- endif -%}
+        {%- if site.last_updated -%}
+        Last updated: {{ "now" | date: '%B %Y' }}
+        {%- endif %}
+      </div>
+    </footer>
+    {%- else -%}
+    <footer class="sticky-bottom mt-5 text-center">
+    <!--  <div class="social">
+        <div class="contact-icons">
+          {% include social.html %}
+        </div>
+      </div>
+    --> 
+      <div class="container">
+      <a id="contact_info"><h5 style="margin-bottom: 1.8rem;"><b>Silvio Fanzon</b></h5></a>
+      <i class="fas fa-envelope" style="font-size: 1.1em;"></i> &nbsp;
+      Email
+      <br>
+      <a href = "mailto: S.Fanzon@hull.ac.uk">S.Fanzon@hull.ac.uk</a>
+      <br style="line-height: 1.2rem;"/>
+      &nbsp;
+      <br>  
+      <i class="fas fa-map-marker-alt" style="font-size: 1.1em;"></i> &nbsp;
+      Address
+      <br>
+      Office 104a Larkin
+      <br>
+      University of Hull
+      <br>
+      Hull HU6 7RX
+      <br>
+      United Kingdom
+      <br style="line-height: 1.2rem;"/>
+      &nbsp;
+      <br>
+      <i class="ai ai-google-scholar" style="font-size: 1.2em;"></i> &thinsp; 
+      <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}">Scholar</a> 
+      &nbsp;&nbsp; <span >&#124;</span> &nbsp;&nbsp;
+      <i class="ai ai-researchgate" style="font-size: 1.2em;"></i> &thinsp;
+      <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/">ResearchGate</a>
+      &nbsp;&nbsp; <span >&#124;</span> &nbsp;&nbsp;
+      <i class="ai ai-orcid" style="font-size: 1.2em;"></i> &thinsp; 
+      <a href="https://orcid.org/{{ site.orcid_id }}">ORCID</a>
+      <p style="font-size:0.9em;">
+        <br style="line-height: 2.3rem;"/>
+        &nbsp;
+        <br>
+        Copyright &copy; {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }} 
+          {%- if site.last_updated -%}
+          Last updated: {{ "now" | date: '%B %Y' }}
+          {%- endif %}
+          <br>  
+          Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme
+      </p>  
+      </div>  
+    </footer>
+    {%- endif %}
