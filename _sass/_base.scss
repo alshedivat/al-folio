@@ -511,7 +511,6 @@ footer.sticky-bottom {
     &:hover {
       .card-title {
         color: var(--global-theme-color);
-        font-weight: bolder;
       }
     }
   }
@@ -538,14 +537,6 @@ footer.sticky-bottom {
     margin-bottom: 10px;
   }
 
-  h3.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
-    padding-top: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: right;
-  }
 }
 
 
@@ -579,7 +570,7 @@ footer.sticky-bottom {
     text-align: right;
   }
 
-  h2.category {
+  h3.category {
     color: var(--global-text-color);
     border-top: 1px solid var(--global-text-color);
     padding-top: 1rem;
