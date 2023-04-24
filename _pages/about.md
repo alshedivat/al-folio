@@ -28,7 +28,7 @@ I received my PhD in Computer Science from UC Berkeley in August 2022 under the 
 
 I received a [2020 SIGHPC Computational & Data Science Fellowship](https://www.sighpc.org/for-your-career/fellowships/2020-fellowship-winners?fbclid=IwAR2N8swtCYgNH3phRmrFtASSC42b4oN5joG1l5XHFSdnkMY6U4HvZt3olLE) and worked as a Project Scientist in the Applied Math and Computational Sciences Division at Lawrence Berkeley National Laboratory between August and December 2022. I am currently an Affiliate Faculty in the Applied Math and Computational Sciences Division at Lawrence Berkeley National Laboratory.
 
-Here are a recent **[CV](https://drive.google.com/file/d/1DmJgPIFg6S-B0bqvqWFUmrmk6czYVmy5/view?usp=sharing)**.
+A recent **[CV](https://drive.google.com/file/d/1DmJgPIFg6S-B0bqvqWFUmrmk6czYVmy5/view?usp=sharing)**.
 <!--and the Tl;dr version of my **[Research Statement](https://drive.google.com/file/d/1_HVC4HkkyBMqUx8AiTHeyjgwlSdYG3j6/view?usp=sharing)**.-->
 
 The best way to contact me is by **email**: gg434@cornell.edu.
