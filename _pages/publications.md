@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Authors are in alphabetical order
+description: Authors are in alphabetical order. Publications are divided in <a=>Preprints</a>, Journal articles</a> and Theses</a> 
 years: [2022,2021,2020,2019,2017]
 nav: true
 nav_order: 1
