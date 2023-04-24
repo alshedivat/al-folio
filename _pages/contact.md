@@ -42,6 +42,10 @@ nav_order: 7
         <td> <i class="ai ai-orcid" style="font-size: 1em;"></i> </td>
         <td> &nbsp; <a href="https://orcid.org/{{ site.orcid_id }}">ORCID</a> </td>
         </tr>
+        <tr>
+        <td> <i class="ai ai-arxiv" style="font-size: 1.2em;"></i> </td>
+        <td> &nbsp; <a href="https://arxiv.org/a/{{ site.arxiv_username }}">arXiv</a> </td> 
+        </tr>
         </tbody>
         </table>
 </div>  
