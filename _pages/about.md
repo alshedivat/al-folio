@@ -12,6 +12,8 @@ profile:
     <p>Contact: </p>
     <p>Prof. Xavier Garbet</p>
     <p><a href="mailto:xavier.garbet@ntu.edu.sg">xavier.garbet@ntu.edu.sg</a></p>
+    <p>Asst Prof. Zhisong Qu</p>
+    <p><a href="mailto:zhisong.qu@ntu.edu.sg">zhisong.qu@ntu.edu.sg</a></p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
