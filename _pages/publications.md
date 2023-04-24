@@ -14,13 +14,15 @@ nav_order: 1
 <div class="publications">
 
 <h3 style="margin-top= 2rem;">Preprints</h3> 
-<hr>
+<hr style="color= var(--global-text-color);">s
 {% bibliography -f preprint %}
 
 <h3 style="margin-bottom= 2rem;">Journal articles</h3>
+<hr style="color= var(--global-text-color);">
 {% bibliography -f journal %}
 
 <h3 style="margin-bottom= 2rem;">Theses</h3>
+<hr style="color= var(--global-text-color);">
 {% bibliography -f thesis %}
 
 </div>
