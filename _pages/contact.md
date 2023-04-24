@@ -7,7 +7,7 @@ nav_order: 7
 ---
 
 <div class="container">
-    <h5 style="margin-bottom: 1.8rem;"><b>Silvio Fanzon</b></h5>
+    <h5 style="margin-bottom: 1.8rem; margin-top: 1.5rem"><b>Silvio Fanzon</b></h5>
       <i class="fas fa-envelope" style="font-size: 1.1em;"></i> &nbsp;
       Email
       <br>
@@ -29,11 +29,11 @@ nav_order: 7
       &nbsp;
       <br>
       <i class="ai ai-google-scholar" style="font-size: 1.2em;"></i> &thinsp; 
-      <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}">Scholar</a> 
-      &nbsp;&nbsp; <span >&#124;</span> &nbsp;&nbsp;
+      <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}">Google Scholar</a> 
+      <br>
       <i class="ai ai-researchgate" style="font-size: 1.2em;"></i> &thinsp;
       <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/">ResearchGate</a>
-      &nbsp;&nbsp; <span >&#124;</span> &nbsp;&nbsp;
+      <br>
       <i class="ai ai-orcid" style="font-size: 1.2em;"></i> &thinsp; 
       <a href="https://orcid.org/{{ site.orcid_id }}">ORCID</a>
 </div>  
