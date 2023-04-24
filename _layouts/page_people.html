@@ -50,6 +50,30 @@ layout: default
               </p>
             </div>
             {{ content }}
+
+            {%- assign categorized_project = site.projects | where_exp: "item", "item.contact contains page.name" -%}
+            {%- if categorized_project.size != 0 %}
+            <h3>Projects</h3>
+            <div class="projects">
+              <div class="grid">
+                {%- for project in categorized_project -%}
+                  {% include projects.html %}
+                {%- endfor %}
+              </div>
+            </div>
+            {%- endif -%}
+
+            {%- assign categorized_teaching = site.teaching | where_exp: "item", "item.contact contains page.name" -%}
+            {%- if categorized_teaching.size != 0 %}
+            <h3>Teaching</h3>
+            <div class="projects">
+              <div class="grid">
+                {%- for project in categorized_teaching -%}
+                  {% include projects.html %}
+                {%- endfor %}
+              </div>
+            </div>
+            {%- endif -%}
           </article>
 
         </div>

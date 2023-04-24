@@ -1,5 +1,6 @@
 ---
 layout: page_people
+name: Zhisong
 title: Asst Prof. Zhisong Qu
 description: Assistant Professor at NTU
 img: https://www.ntu.edu.sg/images/librariesprovider123/spms-headshots/qu-zhisong.tmb-0.jpg
@@ -22,3 +23,18 @@ Dr. Qu is interested in the application of machine learning algorithms to plasma
 
 ### Awards
 - Under 30 Scientists and Students Award, Division of Plasma Physics, Association of Asia Pacific Physical Societies (2019)
+
+### Selected publications
+- Qu Z and Hole M J 2022 The shear Alfvén continuum with a magnetic island chain in tokamak plasmas accepted to Plasma Phys. Control. Fusion
+
+- Dewar R L and Qu Z S 2022 Relaxed magnetohydrodynamics with ideal Ohm’s law constraint J. Plasma Phys. 88 835880101
+
+- Muir D, Pfefferlé D, Qu Z, Hole M and Hegland M 2022 Numerical integration of particle orbits in discontinuous fields using VENUS-LEVIS and SPEC Comput. Phys. Commun. 271 108191
+
+- Hezaveh H, Todo Y, Qu Z S, Breizman B N and Hole M J 2022 Simulation of convective transport during frequency chirping of a TAE using the MEGA code Nucl. Fusion 62
+
+- Kumar A, Nührenberg C, Qu Z, Hole M J, Doak J, Dewar R L, Hudson S R, Loizu J, Aleynikova K, Baillod A and Hezaveh H 2022 Nature of ideal MHD instabilities as described by multi-region relaxed MHD Plasma Phys. Control. Fusion 64
+
+- Hezaveh H, Qu Z S, Hole M J and Dewar R L 2021 Theoretical description of chirping waves using phase-space waterbags Plasma Phys. Control. Fusion 63 065008
+
+- Qu Z S, Hudson S R, Dewar R L, Loizu J and Hole M J 2021 On the non-existence of stepped-pressure equilibria far from symmetry Plasma Phys. Control. Fusion 63 125007

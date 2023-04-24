@@ -1,6 +1,7 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"HAL":
+  url: https://hal.science/
+  color: "#00005c"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Nuclear Fusion":
+  url: https://iopscience.iop.org/journal/0029-5515
+  color: "#0577b9"

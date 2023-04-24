@@ -1,9 +1,11 @@
 ---
-layout: page
+layout: page_project
 title: Reduced transport model
 description: AI-powered surrogate model for turbulence transport
 img: https://gyselax.github.io/media/GYSELA_simu_hu2cd80fa9de07f75943f96ae0efbe83ce_1057076_1200x0_resize_lanczos_2.png
 importance: 1
+suitable: Ph.D, Master, Final Year, Internship
+contact: [Xavier, Zhisong]
 category: turbulence
 ---
 
@@ -22,9 +24,3 @@ The major research goal of this project is to develop a reduced transport model 
 <div class="caption">
     Demonstration of the <a href="https://gyselax.github.io/">GYSELA</a> code. 
 </div>
-
-__Suitable for__ Ph.D, Master
-
-### Contact
-- [Prof. Xavier Garbet](/people/Xavier)
-- [Asst Prof. Zhisong Qu](/people/Zhisong)
