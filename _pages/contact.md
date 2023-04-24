@@ -31,19 +31,19 @@ nav_order: 7
         <table>
         <tbody>
         <tr>
-        <td> <i class="ai ai-google-scholar-square" style="font-size: 1.4em;"></i> </td>
+        <td> <i class="ai ai-google-scholar-square" style="font-size: 1.3em;"></i> </td>
         <td> &nbsp; <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}">Google Scholar</a> </td>
         </tr>
         <tr>
-        <td> <i class="ai ai-researchgate-square" style="font-size: 1.4em;"></i> </td>
+        <td> <i class="ai ai-researchgate-square" style="font-size: 1.3em;"></i> </td>
         <td> &nbsp; <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/">ResearchGate</a> </td>
         </tr>
         <tr>
-        <td> <i class="ai ai-orcid-square" style="font-size: 1.4em;"></i> </td>
+        <td> <i class="ai ai-orcid-square" style="font-size: 1.3em;"></i> </td>
         <td> &nbsp; <a href="https://orcid.org/{{ site.orcid_id }}">ORCID</a> </td>
         </tr>
         <tr>
-        <td> <i class="ai ai-arxiv-square" style="font-size: 1.4em;"></i> </td>
+        <td> <i class="ai ai-arxiv-square" style="font-size: 1.3em;"></i> </td>
         <td> &nbsp; <a href="https://arxiv.org/a/{{ site.arxiv_username }}">arXiv</a> </td> 
         </tr>
         </tbody>
