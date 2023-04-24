@@ -14,12 +14,12 @@
                 {{- site.middle_name -}}&nbsp;
               {%- endif -%}
               {%- if site.last_name -%}
-                {{- site.last_name -}}
+                {{- site.last_name -}} </span>
               {%- endif -%}
             {%- else -%}
-              {{- site.title -}}
+            <span class="font-weight-bold" style="color: var(--global-navbar-text-color);"> {{- site.title -}} </span>
             {%- endif -%}
-              </span>
+              
           </a>
           {%- elsif site.enable_navbar_social -%}
           <!-- Social Icons -->
