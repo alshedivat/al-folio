@@ -2,8 +2,8 @@
 layout: cv
 permalink: /cv/
 title: CV
-description: Full CV available on the right (coming soon)
+description:
 nav: true
-nav_order: 7
+nav_order: 3
 cv_pdf: example_pdf.pdf
 ---
