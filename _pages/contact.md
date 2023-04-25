@@ -7,7 +7,7 @@ nav_order: 8
 ---
 
 <div>
-    <h4 style="margin-bottom: 2rem; margin-top: 3rem"><b>Silvio Fanzon</b></h4>
+    <h4 style="margin-bottom: 2rem;><b>Silvio Fanzon</b></h4>
       <i class="fas fa-envelope" style="font-size: 1.1em;"></i> &nbsp;
       Email
       <br>
