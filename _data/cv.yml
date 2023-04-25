@@ -37,6 +37,33 @@
     
 
 
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Mathematics
+      institution: University of Sussex, UK
+      year: 2018
+      description:
+        - "Thesis: Geometric patterns and Microstructures in the study of
+Material Defects and Composites <a href="https://srodev.sussex.ac.uk/id/eprint/72566/1/Fanzon%2C%20Silvio.pdf"><i class="fas fa-file-pdf"></i></a>"
+        - "Supervisor: Prof Mariapia Palombaro <a href="https://scholar.google.com/citations?user={{RhU_lAoAAAAJ&hl}}"><i class="fas fa-link"></i></a>"
+        - "Grade: Pass with no corrections"
+          
+    - title: MSc in Mathematics
+      institution: Sapienza University of Rome, Italy
+      year: 2014
+      description:
+        - "Thesis: A variational approach to topological singularities in two-dimensions (in Italian) <a href="assets/pdf/thesis/Fanzon-MSc.pdf"><i class="fas fa-file-pdf"></i></a>" 
+        - "Supervisor: Prof Marcello Ponsiglione <a href="https://scholar.google.com/citations?user={{VRqZ_8cAAAAJ}}"><i class="fas fa-link"></i></a>"
+        - "Grade: 110/110 Cum Laude"
+
+    - title: BSc in Mathematics
+      institution: Sapienza University of Rome, Italy
+      year: 2011
+      description:
+        - "Thesis: The isoperimetric problem (in Italian) <a href="assets/pdf/thesis/Fanzon-BSc.pdf"><i class="fas fa-file-pdf"></i></a>"
+        - "Supervisor: Prof Annalisa Malusa <a href="https://scholar.google.com/citations?user={{8_h1W8kAAAAJ}}"><i class="fas fa-link"></i></a>"
+        - "Grade: 110/110 Cum Laude"
 
 
 # - title: Academic Interests
