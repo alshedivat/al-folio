@@ -44,8 +44,9 @@
       institution: University of Sussex, UK
       year: 2018
       description:
-       - "Supervisor: Prof Mariapia Palombaro [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/5.x/svgs/solid/link.svg" width="50" height="50">](https://scholar.google.com/citations?user=RhU_lAoAAAAJ)"
-       # - "Grade: Pass with no corrections"
+       - "Thesis: Geometric patterns and Microstructures in the study of Material Defects and Composites <a href="https://srodev.sussex.ac.uk/id/eprint/72566/1/Fanzon%2C%20Silvio.pdf">PDF</a>
+       - "Supervisor: <a href = "https://scholar.google.com/citations?user=RhU_lAoAAAAJ)">Prof Mariapia Palombaro</a>"
+       - "Grade: Pass with no corrections"
           
 #    - title: MSc in Mathematics
 #      institution: Sapienza University of Rome, Italy
