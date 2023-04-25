@@ -92,6 +92,10 @@
         {%- capture link -%}https://www.researchgate.net/profile/{{site.research_gate_profile}}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
+    {%- if site.scopus_id -%}
+        {%- capture link -%}https://www.scopus.com/authid/detail.uri?authorId={{site.scopus_id}}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
     {%- if site.github_username -%}
         {%- capture link -%}https://github.com/{{ site.github_username }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
