@@ -8,7 +8,7 @@
 
 "Palombaro":
   - firstname: ["Mariapia", "M.", "M. P.", "Mariapia Palombaro"]
-    url: https://scholar.google.com/citations?hl=en&user=RhU_lAoAAAAJ
+    url: https://scholar.google.com/citations?user={{RhU_lAoAAAAJ}}
 
 "Ponsiglione":
   - firstname: ["Marcello", "M.", "M. P.", "Marcello Ponsiglione"]
