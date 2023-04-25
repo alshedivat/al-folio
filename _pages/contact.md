@@ -28,7 +28,7 @@ nav_order: 8
       <br style="line-height: 1.3rem;"/>
       &nbsp;
       <br>  
-      <i class="fas fa-briefcase" style="font-size: 1.1em;"></i> &nbsp;
+      <i class="fas fa-globe" style="font-size: 1.1em;"></i> &nbsp;
       Hompage @ Hull
       <br>
       <a href = "#">Coming Soon</a>
