@@ -1,37 +1,19 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Silvio Fanzon
-    - name: Languages
-      value: English, Italian
+# - title: General Information
+#  type: map
+#  contents:
+#    - name: Full Name
+#      value: Silvio Fanzon
+#    - name: Languages
+#      value: English, Italian
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD in Mathematics
-      institution: University of Sussex, United Kingdom
-      year: 2018
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Lecturer in Applied Mathematics
+      institution: University of Hull, UK
+      year: 2023
       description:
         - Description 1.
         - Description 2.
@@ -59,37 +41,60 @@
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
 
-- title: Open Source Projects
+
+- title: Education
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
+    - title: PhD in Mathematics
+      institution: University of Sussex, United Kingdom
+      year: 2018
+      description:
+        - Thesis: 
         - Description 2.
-    - title: Topic 2.
-      items:
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
+      description:
         - Description 1.
         - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
+# - title: Academic Interests
+#  type: nested_list
+#  contents:
+#    - title: Topic 1.
+#      items: 
+#        - Description 1.
+#        - Description 2.
+#    - title: Topic 2.
+#      items:
+#        - Description 1.
+#        - Description 2.
+
+
+# - title: Open Source Projects
+#  type: time_table
+#  contents:
+#    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#      year: 2015-now
+#      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+# - title: Honors and Awards
+#  type: time_table
+#  contents:
+#    - year: 1921
+#      items: 
+#        - Nobel Prize in Physics 
+#        - Matteucci Medal
+#    - year: 2029
+#      items: 
+#        - Max Planck Medal
+
+#- title: Other Interests
+#  type: list
+#  contents:
+#    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
