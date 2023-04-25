@@ -26,9 +26,9 @@
       institution: University of Graz, Austria
       year: 2022 - 2023
 
-    - title: Postdoctoral Researcher in Mathematics
+    - title: Postdoctoral Researcher
       institution: University of Graz, Austria
-      year: 2018 - 2022
+      year: 2018 - 2021
 
     - title: Associate Tutor
       institution: University of Sussex, UK
@@ -41,16 +41,15 @@
   type: time_table
   contents:
     - title: PhD in Mathematics
-      institution: University of Sussex, United Kingdom
+      institution: University of Sussex, UK
       year: 2018
       description:
-        - "Thesis: <em>Variational stuff</em>"
-        - Grade: Pass with no correction
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
+        - "Thesis: Geometric patterns and Microstructures in the study of
+Material Defects and Composites"
+        - Supervisor: Prof Mariapia Palombaro <a href="https://scholar.google.com/citations?user={{ RhU_lAoAAAAJ&hl }}"><i class="fas fa-link"></i></a>
+        - Grade: Pass with no corrections
+          
+    - title: MSc in Mathematics
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
       year: 1900
       description:
