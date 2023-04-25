@@ -36,5 +36,6 @@ My contact information is <b><a href="https://www.silviofanzon.com/contact/">her
 
 <p style="text-align: center; margin-top: 0.8rem;">
 <b><a href = "mailto: S.Fanzon@hull.ac.uk">S.Fanzon@hull.ac.uk</a></b>
+<a href="https://srodev.sussex.ac.uk/id/eprint/72566/1/Fanzon%2C%20Silvio.pdf"><i class="fas fa-file-pdf"></i></a>
 </p>
 
