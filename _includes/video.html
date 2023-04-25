@@ -13,14 +13,13 @@
     {% if include.min-height %}min-height="{{ include.min-height }}"{% endif %}
     {% if include.max-width %}max-width="{{ include.max-width }}"{% endif %}
     {% if include.max-height %}height="{{ include.max-height }}"{% endif %}
-    {% if include.alt %}alt="{{ include.alt }}"{% endif %}
     {% if include.title %}title="{{ include.title }}"{% endif %}
-    {% if include.zoomable %}data-zoomable{% endif %}
-    {% if include.loop %}loop{% endif %}
-    {% if include.muted %}muted{% endif %}
+    {% if include.alt %}alt="{{ include.alt }}"{% endif %}
     {% if include.autoplay %}autoplay{% endif %}
     {% if include.controls %}controls{% endif %}
-    {% if include.playsinline %}playsinline{% endif %}
+    {% if include.loop %}loop{% endif %}
+    {% if include.muted %}muted{% endif %}
+    {% if include.poster %}poster="{{ include.poster }}"{% endif %}
   />
 
   {% else %}
