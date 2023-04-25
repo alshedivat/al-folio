@@ -14,13 +14,6 @@ nav_order: 8
       <a href = "mailto: S.Fanzon@hull.ac.uk">S.Fanzon@hull.ac.uk</a>
       <br style="line-height: 1.5rem;"/>
       &nbsp;
-      <br>  
-      <i class="fas fa-address-card" style="font-size: 1.1em;"></i> &nbsp;
-      Hompage @ Hull
-      <br>
-      <a href = "#">Coming Soon</a>
-      <br style="line-height: 1.3rem;"/>
-      &nbsp;
       <br>    
       <i class="fas fa-map-marker-alt" style="font-size: 1.1em;"></i> &nbsp;
       Address
@@ -32,6 +25,13 @@ nav_order: 8
       Hull HU6 7RX
       <br>
       United Kingdom
+      <br style="line-height: 1.3rem;"/>
+      &nbsp;
+      <br>  
+      <i class="fas fa-briefcase" style="font-size: 1.1em;"></i> &nbsp;
+      Hompage @ Hull
+      <br>
+      <a href = "#">Coming Soon</a>
       <br style="line-height: 1.5rem;"/>
       &nbsp;
       <br>
