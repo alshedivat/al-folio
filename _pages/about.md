@@ -31,7 +31,7 @@ My research is at the interface of <b>inverse problems</b>, <b>optimization</b>,
 </p>
 
 <p style="text-align: justify; margin-top: 1.2rem;">
-My contact information is <b><a href="{{ '/contact/' | relative_url }}">here</a></b>. The best way to reach me is by email:
+My contact information is <b><a href="https://www.silviofanzon.com/contact/">here</a></b>. The best way to reach me is by email:
 </p>
 
 <p style="text-align: center; margin-top: 0.8rem;">
