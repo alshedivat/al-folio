@@ -40,7 +40,7 @@ layout: default
   </header>
 
   <article class="post-content">
-    {% if page.toc %}
+    {% if page.toc and page.toc.beginning %}
     <div id="table-of-contents">
       {% toc %}
     </div>

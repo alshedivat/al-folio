@@ -10,14 +10,27 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body {% if page.toc and page.toc.sidebar %}data-bs-spy="scroll" data-bs-target="#toc"{% endif %} class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
     <!-- Header -->
     {%- include header.html %}
 
     <!-- Content -->
     <div class="container mt-5">
+      {% if page.toc and page.toc.sidebar %}
+      <div class="row">
+        <!-- sidebar, which will move to the top on a small screen -->
+        <div class="col-sm-3">
+          <nav id="toc" data-toggle="toc" class="sticky-top"></nav>
+        </div>
+        <!-- main content area -->
+        <div class="col-sm-9">
+          {{ content }}
+        </div>
+      </div>
+      {% else %}
       {{ content }}
+      {% endif %}
     </div>
 
     <!-- Footer -->
