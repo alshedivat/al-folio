@@ -9,23 +9,25 @@ nav_order: 3
 ---
 <!-- _pages/publications.md -->
 
-<p> Publications are divided in <a href="#preprint">Preprints</a>, <a href="#journal">Journal articles</a> 
-and <a href="#thesis">Theses</a>. Authors are in alphabetical order </p>
+<p> 
+Publications are divided in <a href="#journal">Journal articles</a>, <a href="#preprint">Preprints</a> and <a href="#miscellaneous">Miscellaneous</a>. 
+Authors are in alphabetical order 
+</p>
 
 
 <div class="publications">
-
-<a id="preprint"><h3 style="margin-top: 3rem; margin-bottom: 0.5rem;">Preprints</h3></a> 
-<hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
-{% bibliography -f preprint %}
 
 <a id="journal"><h3 style="margin-top: 2rem; margin-bottom: 0.5rem;">Journal articles</h3></a>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
 {% bibliography -f journal %}
 
-<a id="thesis"><h3 style="margin-top: 2rem; margin-bottom: 0.5rem;">Theses</h3></a>
+<a id="preprint"><h3 style="margin-top: 3rem; margin-bottom: 0.5rem;">Preprints</h3></a> 
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
-{% bibliography -f thesis %}
+{% bibliography -f preprint %}
+
+<a id="miscellaneous"><h3 style="margin-top: 2rem; margin-bottom: 0.5rem;">Theses</h3></a>
+<hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
+{% bibliography -f miscellaneous %}
 
 </div>
 
