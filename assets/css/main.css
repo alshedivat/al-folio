@@ -750,28 +750,23 @@ progress::-moz-progress-bar {
   height: inherit;
 }
 
-pre {
-  padding: 8px 12px;
+/* Copy button */
+.code-display-wrapper {
   position: relative;
-  /* Copy code to clipboard button */
 }
-pre .copy {
+.code-display-wrapper .copy {
   background: var(--global-card-bg-color);
   border-color: var(--global-bg-color);
   border-radius: 0.3rem;
-  border-style: solid;
+  border-style: none;
   color: var(--global-text-color);
   font-size: medium;
   opacity: 0;
   position: absolute;
-  right: 0.25rem;
-  top: 0.25rem;
+  right: 0.15rem;
+  top: 0.15rem;
 }
-pre .copy:active, pre .copy:focus, pre .copy:hover {
-  color: var(--global-hover-color);
-  opacity: 1;
-}
-pre:active .copy, pre:focus .copy, pre:hover .copy {
+.code-display-wrapper:active .copy, .code-display-wrapper:focus .copy, .code-display-wrapper:hover .copy {
   color: var(--global-hover-color);
   opacity: 1;
 }
