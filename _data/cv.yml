@@ -44,7 +44,7 @@
       institution: University of Sussex, United Kingdom
       year: 2018
       description:
-        - Thesis:*Variational stuff*  
+        - "Thesis: <em>Variational stuff</em>"
         - Grade: Pass with no correction
         - title: Description 3.
           contents:
