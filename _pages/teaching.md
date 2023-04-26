@@ -19,7 +19,7 @@ Page under construction
 
 <b>Ordinary Differential Equations</b> 
 <br>
-<em>Sapienza University, Italy</em>
+Sapienza University, Italy
 <br>
 <em>Authored lecture notes (in Italian) with <a href = "https://scholar.google.com/citations?user=8_h1W8kAAAAJ">Annalisa Malusa</a></em>
 <div class="links">
