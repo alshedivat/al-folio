@@ -13,7 +13,12 @@ Page under construction
 </p>
 
 
-**Ordinary Differential Equations**
+
+<div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
+              <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
+                {{ content.year }}
+              </span>
+            </div>
 
 <div>
 <h3 style="margin-top: 4rem; margin-bottom: 0.3rem;"><a id="tutor">Tutor</a></h3>
