@@ -33,7 +33,7 @@ nav_order: 8
       <br style="line-height: 2rem;"/>
       &nbsp;
       <br>
-      My web profiles       
+      Web profiles       
       <br style="margin-top: 1rem;">
         <table>
         <tbody>

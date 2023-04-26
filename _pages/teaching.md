@@ -13,7 +13,8 @@ Page under construction
 </p>
 
 
-<a id="sapienza"><h3 style="margin-top: 4rem; margin-bottom: 0.5rem;">Sapienza University of Rome, Italy</h3></a>
+<div>
+<h3 style="margin-top: 4rem; margin-bottom: 0.5rem;"><a id="sapienza">Sapienza University of Rome, Italy</a></h3>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
 
 <b>Ordinary Differential Equations</b> 
@@ -26,13 +27,3 @@ Page under construction
 
 
 
-<!--
-BUTTONS FOR LINK AND PDF
-<div class="links">
-<a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
-
-<a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-
-<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
-</div>
-->
