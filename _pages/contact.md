@@ -29,7 +29,7 @@ nav_order: 8
       &nbsp;
       <br>  
       <i class="fas fa-globe" style="font-size: 1.1em;"></i> &nbsp;
-      <a href = "#">Hompeage @ Hull</a>
+      <a href = "#">Homepage @ Hull</a>
       <br style="line-height: 2rem;"/>
       &nbsp;
       <br>
