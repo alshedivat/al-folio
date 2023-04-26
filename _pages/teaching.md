@@ -16,7 +16,7 @@ Page under construction
 
 <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
               <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
-                {{ content.year }}
+                2013
               </span>
             </div>
 
