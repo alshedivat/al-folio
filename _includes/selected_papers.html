@@ -1,4 +1,4 @@
 
           <div class="publications">
-            {% bibliography -f papers -q @*[selected=true]* %}
+            {% bibliography -f {{ site.scholar.bibliography }} -q @*[selected=true]* %}
           </div>
