@@ -14,6 +14,9 @@ Publications are divided in <a href="#journal">Journal articles</a>, <a href="#p
 Authors are in alphabetical order 
 </p>
 
+<div class="publications">
+{% bibliography -f journal %}
+</div>
 
 <div class="publications">
 
