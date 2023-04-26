@@ -9,6 +9,8 @@ nav_order: 4
 ---
 <!-- _pages/publications.md -->
 
+Publications are divided in
+
 <p> 
 Publications are divided in <a href="#journal">Journal articles</a>, <a href="#preprint">Preprints</a> and <a href="#theses">Theses</a>. 
 Authors are in alphabetical order 
