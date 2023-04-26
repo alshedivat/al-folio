@@ -18,7 +18,7 @@ Page under construction
 
 <b>Ordinary Differential Equations</b> 
 <br>
-<em>Authored lecture notes (in Italian) together with Annalisa Malusa</em>
+<em>Authored lecture notes (in Italian) together with <a href = "https://scholar.google.com/citations?user=8_h1W8kAAAAJ">Annalisa Malusa</a></em>
 <div class="links">
 <a href="{{ Appunti_EDO.pdf | prepend: '/assets/pdf/teaching/2013/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
 </div>
