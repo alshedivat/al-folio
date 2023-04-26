@@ -14,10 +14,12 @@ Page under construction
 
 
 <div>
-<h3 style="margin-top: 4rem; margin-bottom: 0.5rem;"><a id="sapienza">Sapienza University</a></h3>
+<h3 style="margin-top: 4rem; margin-bottom: 0.5rem;"><a id="tutor">Tutor</a></h3>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
 
 <b>Ordinary Differential Equations</b> 
+<br>
+<em>Sapienza University, Italy</em>
 <br>
 <em>Authored lecture notes (in Italian) with <a href = "https://scholar.google.com/citations?user=8_h1W8kAAAAJ">Annalisa Malusa</a></em>
 <div class="links">
