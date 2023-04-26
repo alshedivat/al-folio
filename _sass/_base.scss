@@ -19,8 +19,10 @@ strong {
   color: var(--global-text-color);
 }
 
+
 html {
-scroll-padding-top: 8.5rem;
+// This adds space on top when clicking on href internal to website
+  scroll-padding-top: 7rem;
 }
 
 
