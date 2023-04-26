@@ -34,6 +34,3 @@ Sapienza University, Italy
 </div>
 </div>
 
-
-
-
