@@ -29,11 +29,12 @@ nav_order: 8
       &nbsp;
       <br>  
       <i class="fas fa-globe" style="font-size: 1.1em;"></i> &nbsp;
-      Hompage @ Hull
-      <br>
-      <a href = "#">Coming Soon</a>
-      <br style="line-height: 1.5rem;"/>
+      <a href = "#">Hompage @ Hull</a>
+      <br style="line-height: 1.6rem;"/>
       &nbsp;
+      <br>
+      <i class="fas fa-user-circle" style="font-size: 1.1em;"></i> &nbsp; 
+      My web profiles       
       <br>
         <table>
         <tbody>
