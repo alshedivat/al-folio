@@ -34,8 +34,8 @@ nav_order: 8
       &nbsp;
       <br>
       Web profiles       
-      <br style="margin-top: 1rem;">
-        <table>
+      <br>
+        <table style="margin-top: 1rem;">
         <tbody>
         <tr>
         <td> <i class="ai ai-google-scholar-square" style="font-size: 1.3em;"></i> </td>
