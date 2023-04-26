@@ -24,7 +24,7 @@ Page under construction
 <h3 style="margin-top: 4rem; margin-bottom: 0.3rem;"><a id="tutor">Tutor</a></h3>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
 
-<b>Ordinary Differential Equations</b> 
+<p style='font-weight: boldr'> Ordinary Differential Equations</p> 
 <br>
 Sapienza University, Italy
 <br>
