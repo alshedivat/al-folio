@@ -35,11 +35,12 @@ Sapienza University, Italy
 </div>
 
 
-
+<div class="publications">
 <div class="row">
         <div class="col-sm-2 abbr">
             <abbr class="badge">
             2013
             </abbr>
         </div>
+</div>
 </div>
