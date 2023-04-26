@@ -35,6 +35,8 @@ nav_order: 8
       <br>
       <i class="fas fa-user-circle" style="font-size: 1.1em;"></i> &nbsp; 
       My web profiles       
+      <br style="line-height: 0.5rem;"/>
+      &nbsp;
       <br>
         <table>
         <tbody>
