@@ -20,9 +20,7 @@ Page under construction
 
 
 <p style ='font-weight: bold'>Ordinary Differential Equations</p> 
-<br>
 <p style = 'font-size: 0.95rem;'>Sapienza University, Italy</p>
-<br>
 <p>
 Authored lecture notes &thinsp; <a href="/assets/pdf/teaching/2013/Appunti_EDO.pdf"><i class="fas fa-file-pdf"></i></a>
 with Annalisa Malusa &thinsp;<a href = "https://scholar.google.com/citations?user=8_h1W8kAAAAJ"><i class="fas fa-globe"></i></a>
