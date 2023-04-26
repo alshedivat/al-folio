@@ -29,13 +29,13 @@ nav_order: 8
       &nbsp;
       <br>  
       <i class="fas fa-globe" style="font-size: 1.1em;"></i> &nbsp;
-      <a href = "#">Hompage @ Hull</a>
+      <a href = "#">Hompeage @ Hull</a>
       <br style="line-height: 1.6rem;"/>
       &nbsp;
       <br>
       <i class="fas fa-user-circle" style="font-size: 1.1em;"></i> &nbsp; 
       My web profiles       
-      <hr style="height:10px; visibility: hidden;" />
+      <hr style="height: 2rem; visibility: hidden;" />
         <table>
         <tbody>
         <tr>
