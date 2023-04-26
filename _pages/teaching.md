@@ -23,6 +23,7 @@ Page under construction
 <div class="links">
 <a href="{{ Appunti_EDO.pdf | prepend: '/assets/pdf/teaching/2013/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
 </div>
+</div>
 
 
 
