@@ -864,7 +864,7 @@ nav[data-toggle="toc"] {
 }
 
 /* small screens */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   /* override stickyness so that the navigation does not follow scrolling */
   nav[data-toggle="toc"] {
     visibility: hidden;
