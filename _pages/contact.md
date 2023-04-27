@@ -8,14 +8,14 @@ nav_order: 8
 
 <div>
     <h4 style="margin-bottom: 2rem;"><b>Silvio Fanzon</b></h4>
-      <i class="fas fa-envelope" style="font-size: 1.1em;"></i> &nbsp;
+      <i class="fas fa-envelope" style="font-size: 1.3em;"></i> &nbsp;
       Email
       <br>
       <a href = "mailto: S.Fanzon@hull.ac.uk">S.Fanzon@hull.ac.uk</a>
       <br style="line-height: 1.5rem;"/>
       &nbsp;
       <br>    
-      <i class="fas fa-map-marker-alt" style="font-size: 1.1em;"></i> &nbsp;
+      <i class="fas fa-map-marker-alt" style="font-size: 1.3em;"></i> &nbsp;
       Address
       <br>
       Office 104a Larkin
