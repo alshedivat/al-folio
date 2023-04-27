@@ -14,6 +14,14 @@ Page under construction
 
 
 
+<div class="teaching">
+
+<a id="journal"><h3 style="margin-top: 3.3rem; margin-bottom: 0.3rem;">Tutor test</h3></a>
+<hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
+{% teaching -f tutor %}
+
+</div>
+
 
 <h3 style="margin-top: 4rem; margin-bottom: 0.3rem;"><a id="tutor">Tutor</a></h3>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
