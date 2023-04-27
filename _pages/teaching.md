@@ -16,7 +16,7 @@ Page under construction
 
 
 
-<div class="teaching">
+<div class="bibliography">
 
 <h3 style="bottom-marging= 2rem;">Tutor</h3>
  {%- for y in page.years_tutor %}
