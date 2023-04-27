@@ -21,7 +21,7 @@ Page under construction
 <h3 style="bottom-marging= 2rem;">Tutor</h3>
  {%- for y in page.years_tutor %}
    <h2 class="year">{{y}}</h2>
-  {% teaching -f teaching_tutor -q @*[year={{y}}]* %}
+  {% bibliography -f teaching_tutor -q @*[year={{y}}]* %}
  {% endfor %}
 
 </div>
