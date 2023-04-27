@@ -10,6 +10,11 @@
   <script defer src="{{ '/assets/js/zoom.js' | relative_url }}"></script>
 {%- endif -%}
 
+{% if page.toc and page.toc.sidebar %}
+  <!-- Sidebar Table of Contents -->
+  <script defer src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+{% endif %}
+
   <!-- Load Common JS -->
   <script defer src="{{ '/assets/js/common.js' | relative_url }}"></script>
   <script defer src="{{ '/assets/js/copy_code.js' | relative_url }}" type="text/javascript"></script>
