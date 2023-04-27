@@ -16,12 +16,12 @@ Page under construction
 
 
 
-<div class="bibliography">
+<div class="teaching">
 
 <h3 style="bottom-marging= 2rem;">Tutor</h3>
  {%- for y in page.years_tutor %}
    <h2 class="year">{{y}}</h2>
-  {% bibliography -f teaching_tutor -q @*[year={{y}}]* %}
+  {% teaching -f teaching_tutor -q @*[year={{y}}]* %}
  {% endfor %}
 
 </div>
