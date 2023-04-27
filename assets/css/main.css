@@ -423,6 +423,10 @@ footer.sticky-bottom {
   color: var(--global-text-color-light);
 }
 
+.post-title mjx-container[jax=CHTML][display=true] {
+  display: unset;
+}
+
 .post-list {
   margin: 0;
   margin-bottom: 40px;
@@ -451,6 +455,9 @@ footer.sticky-bottom {
 }
 .post-list li a:hover {
   color: var(--global-theme-color);
+}
+.post-list li mjx-container[jax=CHTML][display=true] {
+  display: unset;
 }
 
 .pagination .page-item .page-link {
