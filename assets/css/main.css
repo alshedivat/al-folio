@@ -782,11 +782,11 @@ nav[data-toggle=toc] {
   top: 5rem;
 }
 nav[data-toggle=toc] .nav .nav > li > a {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
 }
 nav[data-toggle=toc] .nav > li > a {
   color: var(--global-text-color);
-  font-size: 0.875rem;
+  font-size: 0.75rem;
 }
 nav[data-toggle=toc] .nav > li > a:hover {
   color: var(--global-hover-color);
@@ -795,7 +795,7 @@ nav[data-toggle=toc] .nav > li > a:hover {
 nav[data-toggle=toc] .nav-link.active {
   color: var(--global-theme-color);
   border-left-color: var(--global-theme-color);
-  font-size: 0.875rem;
+  font-size: 0.75rem;
 }
 nav[data-toggle=toc] .nav-link.active:hover {
   color: var(--global-hover-color);
