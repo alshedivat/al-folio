@@ -2,7 +2,7 @@
           <div class="news">
             {% if site.latest_posts != blank -%}
             {%- assign latest_posts_size = site.posts | size -%}
-            <div class="table-responsive" {% if site.latest_posts.scrollable and latest_posts_size > 3 %}style="max-height: 10vw"{% endif %}>
+            <div class="table-responsive" {% if site.latest_posts.scrollable and latest_posts_size > 3 %}style="max-height: 60vw"{% endif %}>
               <table class="table table-sm table-borderless">
               {%- assign latest_posts = site.posts -%}
               {% if site.latest_posts.limit %}
