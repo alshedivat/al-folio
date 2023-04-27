@@ -3,7 +3,8 @@ layout: page
 permalink: /teaching/
 title: Teaching
 description: 
-years: [2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013]
+years_lecturer: [2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013]
+years_tutor: [2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013]
 nav: true
 nav_order: 7
 ---
@@ -18,7 +19,7 @@ Page under construction
 <div class="teaching">
 
 <h3 style="bottom-marging= 2rem;">Tutor</h3>
- {%- for y in page.years %}
+ {%- for y in page.years_tutor %}
    <h2 class="year">{{y}}</h2>
   {% bibliography -f teaching_tutor -q @*[year={{y}}]* %}
  {% endfor %}
