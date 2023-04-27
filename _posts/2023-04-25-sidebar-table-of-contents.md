@@ -31,7 +31,7 @@ Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptow
 ## Customizing Your Table of Contents
 {:data-toc-text="Customizing"}
 
-If you want to learn more about how to customize the table of contents of your sidebar, you can check the [bootstrap-toc](https://afeld.github.io/bootstrap-toc/) repository. Notice that you can even customize the text of the heading that will be displayed on the sidebar.
+If you want to learn more about how to customize the table of contents of your sidebar, you can check the [bootstrap-toc](https://afeld.github.io/bootstrap-toc/) documentation. Notice that you can even customize the text of the heading that will be displayed on the sidebar.
 
 ### Example of Sub-Heading 2
 
