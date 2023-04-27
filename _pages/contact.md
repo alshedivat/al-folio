@@ -25,10 +25,10 @@ nav_order: 8
       Hull HU6 7RX
       <br>
       United Kingdom
-      <br style="line-height: 1.3rem;"/>
+      <br style="line-height: 1.5rem;"/>
       &nbsp;
       <br>  
-        <table style="margin-top: 0.7rem;">
+        <table>
         <tbody>
         <tr>
         <td> <i class="fas fa-globe" style="font-size: 1.3em;"></i> </td>
