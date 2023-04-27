@@ -860,3 +860,17 @@ progress::-moz-progress-bar {
     opacity: 1;
   }
 }
+
+nav[data-toggle="toc"] {
+  top: 5rem;
+}
+
+/* small screens */
+@media (max-width: 576px) {
+  /* override stickyness so that the navigation does not follow scrolling */
+  nav[data-toggle="toc"] {
+    visibility: hidden;
+    height: 0;
+    top: 0;
+  }
+}
