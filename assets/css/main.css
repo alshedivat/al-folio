@@ -781,6 +781,26 @@ progress::-moz-progress-bar {
 nav[data-toggle=toc] {
   top: 5rem;
 }
+nav[data-toggle=toc] .nav .nav > li > a {
+  font-size: 0.875rem;
+}
+nav[data-toggle=toc] .nav > li > a {
+  color: var(--global-text-color);
+  font-size: 0.875rem;
+}
+nav[data-toggle=toc] .nav > li > a:hover {
+  color: var(--global-hover-color);
+  border-left-color: var(--global-hover-color);
+}
+nav[data-toggle=toc] .nav-link.active {
+  color: var(--global-theme-color);
+  border-left-color: var(--global-theme-color);
+  font-size: 0.875rem;
+}
+nav[data-toggle=toc] .nav-link.active:hover {
+  color: var(--global-hover-color);
+  border-left-color: var(--global-hover-color);
+}
 
 /* small screens */
 @media (max-width: 576px) {
