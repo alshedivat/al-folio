@@ -28,13 +28,15 @@
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
 
+    
+
     <!-- Styles -->
     
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/al-folio/assets/css/main.css">
     <link rel="canonical" href="https://alshedivat.github.io/al-folio/blog/2023/table-of-contents/">
-    
+
     <!-- Dark Mode -->
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
@@ -124,7 +126,8 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <!-- _layouts/post.html -->
+      
+        <!-- _layouts/post.html -->
 
 <div class="post">
 
@@ -166,11 +169,15 @@
     <hr>
     
     <div id="markdown-content">
-      <p>This post shows how to add a table of contents.</p>
+      <p>This post shows how to add a table of contents in the beginning of the post.</p>
 
 <h2 id="adding-a-table-of-contents">Adding a Table of Contents</h2>
 
-<p>To add a table of contents to a post, simply add <code class="language-plaintext highlighter-rouge">toc: true</code> to the front matter of the post. The table of contents will be automatically generated from the headings in the post.</p>
+<p>To add a table of contents to a post, simply add</p>
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">toc</span><span class="pi">:</span>
+  <span class="na">beginning</span><span class="pi">:</span> <span class="kc">true</span>
+</code></pre></div></div>
+<p>to the front matter of the post. The table of contents will be automatically generated from the headings in the post.</p>
 
 <h3 id="example-of-sub-heading-1">Example of Sub-Heading 1</h3>
 
@@ -223,6 +230,7 @@
 </div>
 </div>
 
+      
     </div>
 
     <!-- Footer -->    
@@ -248,7 +256,9 @@
     
   <!-- Medium Zoom JS -->
   <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
-  <script defer src="/al-folio/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script defer src="/al-folio/assets/js/zoom.js"></script>
+
+  <!-- Load Common JS -->
   <script defer src="/al-folio/assets/js/common.js"></script>
   <script defer src="/al-folio/assets/js/copy_code.js" type="text/javascript"></script>
 
