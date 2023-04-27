@@ -852,7 +852,7 @@ progress::-moz-progress-bar {
     right: .15rem;
     top: .15rem;
   }
-  
+
   &:active .copy,
   &:focus .copy,
   &:hover .copy {
@@ -863,6 +863,31 @@ progress::-moz-progress-bar {
 
 nav[data-toggle="toc"] {
   top: 5rem;
+
+  .nav .nav>li>a {
+    font-size: .875rem;
+  }
+
+  .nav>li>a {
+    color: var(--global-text-color);
+    font-size: .875rem;
+
+    &:hover {
+      color: var(--global-hover-color);
+      border-left-color: var(--global-hover-color);
+    }
+  }
+
+  .nav-link.active {
+    color: var(--global-theme-color);
+    border-left-color: var(--global-theme-color);
+    font-size: .875rem;
+
+    &:hover {
+      color: var(--global-hover-color);
+      border-left-color: var(--global-hover-color);
+    }
+  }
 }
 
 /* small screens */
