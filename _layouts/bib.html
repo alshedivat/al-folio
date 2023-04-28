@@ -65,6 +65,13 @@ is assumed we are dealing with a publication, and the style in the else conditio
   {%- if entry.canvas %}
   <a href="{{ entry.canvas }}" class="btn btn-sm z-depth-0" role="button">Canvas</a>
   {%- endif %}
+  {%- if entry.summary %}
+    {% if entry.summary contains '://' -%}
+    <a href="{{ entry.summary }}" class="btn btn-sm z-depth-0" role="button">Summary</a>
+    {%- else -%}
+    <a href="{{ entry.summary | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Summary</a>
+    {%- endif %}
+  {%- endif %}
   {%- if entry.lecturenotes %}
     {% if entry.lecturenotes contains '://' -%}
     <a href="{{ entry.lecturenotes }}" class="btn btn-sm z-depth-0" role="button">Lecture Notes</a>
@@ -72,6 +79,27 @@ is assumed we are dealing with a publication, and the style in the else conditio
     <a href="{{ entry.lecturenotes | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Lecture Notes</a>
     {%- endif %}
   {%- endif %}
+  {%- if entry.lecturenotes1 %}
+    {% if entry.lecturenotes contains '://' -%}
+    <a href="{{ entry.lecturenotes1 }}" class="btn btn-sm z-depth-0" role="button">Lecture Notes Pt1</a>
+    {%- else -%}
+    <a href="{{ entry.lecturenotes1 | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Lecture Notes Pt1</a>
+    {%- endif %}
+  {%- endif %}
+  {%- if entry.lecturenotes2 %}
+  {% if entry.lecturenotes contains '://' -%}
+  <a href="{{ entry.lecturenotes2 }}" class="btn btn-sm z-depth-0" role="button">Lecture Notes Pt2</a>
+  {%- else -%}
+  <a href="{{ entry.lecturenotes2 | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Lecture Notes Pt2</a>
+  {%- endif %}
+{%- endif %}
+{%- if entry.lecturenotes3 %}
+{% if entry.lecturenotes contains '://' -%}
+<a href="{{ entry.lecturenotes3 }}" class="btn btn-sm z-depth-0" role="button">Lecture Notes Pt3</a>
+{%- else -%}
+<a href="{{ entry.lecturenotes3 | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Lecture Notes Pt3</a>
+{%- endif %}
+{%- endif %}
   {%- if entry.blog %}
     <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
   {%- endif %}
