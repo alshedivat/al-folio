@@ -2,7 +2,7 @@
 ---
 <!-- This is layout for teaching: it is triggered if teaching=true in the bibtex entry. Otherwise it 
 is assumed we are dealing with a publication, and the style in the else condition is applied -->
-{%- if entry.teaching=true -%}
+{%- if entry.teaching -%}
 <div class="row">
   <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
   {%- if entry.preview -%}
@@ -32,81 +32,15 @@ is assumed we are dealing with a publication, and the style in the else conditio
   <div id="{{entry.key}}" class="col-sm-8">
   <!-- Title -->
   <div class="title">{{entry.title}}</div>
-  <!-- Author -->
-  <div class="author">
-  {% assign author_array_size = entry.author_array | size %}
+  
+  <!-- Term, Year, Insitution -->
+    <div class="description">{{entry.term}{ " " }{entry.year}{ ", " }{entry.institution}}</div>
 
-  {% assign author_array_limit = author_array_size %}
-  {%- if site.max_author_limit and author_array_size > site.max_author_limit %}
-    {% assign author_array_limit = site.max_author_limit %}
-  {% endif %}
+  <!-- Course year, degree type -->
+    <div class="description">{{entry.courseyear}{ " " }{entry.degree}}</div>
 
-  {%- for author in entry.author_array limit: author_array_limit -%}
-    {%- assign author_is_self = false -%}
-    {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
-    {%- if site.scholar.last_name contains author_last_name -%}
-      {%- if site.scholar.first_name contains author.first -%}
-        {%- assign author_is_self = true -%}
-      {%- endif -%}
-    {%- endif -%}
-    {%- assign coauthor_url = nil -%}
-    {%- if site.data.coauthors[author_last_name] -%}
-      {%- for coauthor in site.data.coauthors[author_last_name] -%}
-        {%- if coauthor.firstname contains author.first -%}
-          {%- assign coauthor_url = coauthor.url -%}
-          {%- break -%}
-        {%- endif -%}
-      {%- endfor -%}
-    {%- endif -%}
-
-    {%- if forloop.length > 1 -%}
-      {%- if forloop.first == false -%},&nbsp;{%- endif -%}
-      {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
-    {%- endif -%}
-    {%- if author_is_self -%}
-      <em>{{author.first}} {{author.last}}</em>
-    {%- else -%}
-      {%- if coauthor_url -%}
-        <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
-      {%- else -%}
-        {{author.first}} {{author.last}}
-      {%- endif -%}
-    {%- endif -%}
-  {%- endfor -%}
-  {%- assign more_authors = author_array_size | minus: author_array_limit -%}
-
-  {%- assign more_authors_hide = more_authors | append: " more author" -%}
-  {%- if more_authors > 0 -%}
-    {%- if more_authors > 1 -%}
-      {%- assign more_authors_hide = more_authors_hide | append: "s" -%}
-    {%- endif -%}
-    {%- assign more_authors_show = '' -%}
-    {%- for author in entry.author_array offset: author_array_limit -%}
-      {%- assign more_authors_show = more_authors_show | append: author.first | append: " " | append: author.last -%}
-      {%- unless forloop.last -%}
-        {%- assign more_authors_show = more_authors_show | append: ", " -%}
-      {%- endunless -%}
-    {%- endfor -%}
-    , and
-    <span
-        class="more-authors"
-        title="click to view {{more_authors_hide}}"
-        onclick="
-          var element = $(this);
-          element.attr('title', '');
-          var more_authors_text = element.text() == '{{more_authors_hide}}' ? '{{more_authors_show}}' : '{{more_authors_hide}}';
-          var cursorPosition = 0;
-          var textAdder = setInterval(function(){
-            element.text(more_authors_text.substring(0, cursorPosition + 1));
-            if (++cursorPosition == more_authors_text.length){
-              clearInterval(textAdder);
-            }
-        }, '{{site.more_authors_animation_delay}}');
-        "
-    >{{more_authors_hide}}</span>
-  {%- endif -%}
-
-  </div>
+  <!-- Notes -->
+    <div class="description">{{entry.notes}}</div>
 
   <!-- Journal/Book title and date -->
   {% assign proceedings = "inproceedings,incollection" | split: ','%}
@@ -137,7 +71,7 @@ is assumed we are dealing with a publication, and the style in the else conditio
 <!-- Links/Buttons -->
 <div class="links">
   {%- if entry.abstract %}
-    <a class="abstract btn btn-sm z-depth-0" role="button">Topics</a>
+    <a class="abstract btn btn-sm z-depth-0" role="button">About</a>
   {%- endif %}
   {%- if entry.html %}
     <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
@@ -145,11 +79,11 @@ is assumed we are dealing with a publication, and the style in the else conditio
   {%- if entry.canvas %}
   <a href="{{ entry.canvas }}" class="btn btn-sm z-depth-0" role="button">Canvas</a>
   {%- endif %}
-  {%- if entry.lecture_notes %}
-    {% if entry.lecture_notes contains '://' -%}
-    <a href="{{ entry.lecture_notes }}" class="btn btn-sm z-depth-0" role="button">Lecture Notes</a>
+  {%- if entry.lecturenotes %}
+    {% if entry.lecturenotes contains '://' -%}
+    <a href="{{ entry.lecturenotes }}" class="btn btn-sm z-depth-0" role="button">Lecture Notes</a>
     {%- else -%}
-    <a href="{{ entry.lecture_notes | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Lecture Notes</a>
+    <a href="{{ entry.lecturenotes | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Lecture Notes</a>
     {%- endif %}
   {%- endif %}
   {%- if entry.blog %}
