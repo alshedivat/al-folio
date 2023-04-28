@@ -28,7 +28,7 @@ social: false  # includes social icons at the bottom of the page
 <h3 style="margin-bottom: 1.3rem"><b>About me</b></h3>
 
 <div markdown="1">
-I am a Lecturer in Applied Mathematics in the [Department of Mathematics](https://www.hull.ac.uk/faculties/departments/department-of-physics-and-mathematics)** at the [University of Hull](https://www.hull.ac.uk) in the United Kingdom
+I am a Lecturer in Applied Mathematics in the **[Department of Mathematics](https://www.hull.ac.uk/faculties/departments/department-of-physics-and-mathematics)** at the **[University of Hull](https://www.hull.ac.uk)** in the United Kingdom
 </div>
 
 <div markdown="1" style="margin-top: 1.2rem;">
