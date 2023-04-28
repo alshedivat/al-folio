@@ -67,14 +67,17 @@ layout: default
          <h3 style="margin-bottom: 1rem; margin-top: 3rem;"><b>Current teaching</b></h3>
             {% if page.current_courses -%}
                 {%- include current_teaching.html %}
+                <p>
+                  <a href="{{ '/teaching/' | relative_url }}"><b>past teaching</b></a> 
+                </p>
             {% else %}
-              <span style="margin-bottom: 2rem;" markdown="1">
+              <span markdown="1">
                 No teaching for this term :sunglasses:
               </span>
+              <p style="margin-top: 3rem;">
+                <a href="{{ '/teaching/' | relative_url }}"><b>past teaching</b></a> 
+              </p>
             {%- endif %}
-         <p>
-          <a href="{{ '/teaching/' | relative_url }}"><b>past teaching</b></a> 
-        </p>
          {%- endif %}
 
           
