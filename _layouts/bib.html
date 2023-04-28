@@ -33,15 +33,15 @@ is assumed we are dealing with a publication, and the style in the else conditio
   <!-- Title -->
   <div class="title">{{entry.title}}</div>
   
-  <!-- Term, Year, Insitution -->
-    <div class="description">{{entry.term}}{{ " " }}{{entry.year}}{{ ", " }}{{entry.institution}}</div>
+  <!-- Insitution -->
+    <div class="description">{{entry.institution}}</div>
 
   <!--  Degree type, Course year -->
-    <div class="description">{{entry.degree}}{{ " " }}{{entry.courseyear}}</div>
+    <div class="description">{{entry.degree}}{{ ", " }}{{entry.courseyear}}</div>
 
   <!-- Notes -->
     <div class="description">{{entry.note}}</div>
-    
+
 <!-- Links/Buttons -->
 <div class="links">
   {%- if entry.abstract %}
