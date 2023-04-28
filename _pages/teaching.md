@@ -11,7 +11,7 @@ nav_order: 7
 
 
 <p markdown="1"> 
-Teaching grouped by teaching roles **<a href="#lecturer">Lecturer</a>** and
+Teaching grouped by roles as **<a href="#lecturer">Lecturer</a>** and
 **<a href="#tutor">Tutor</a>**  
 </p>
 
