@@ -55,7 +55,7 @@ layout: default
           {% if page.news -%}
             <h3 style="margin-bottom: 1rem; margin-top: 2rem;"><b><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></b></h3>
             {%- include news.html %}
-          <a href="{{ '/news/' | relative_url }}"><b>past news</b></a>
+          <p markdown="1"> **<a href="{{ '/news/' | relative_url }}">past news</a>** </p>
           {%- endif %}
           
         
@@ -66,9 +66,13 @@ layout: default
             {% if page.current_courses -%}
                 {%- include current_teaching.html %}
             {% else %}
-              <span markdown="1">No teaching for this term :sunglasses:</span>
+              <span style="margin-bottom: 2rem;" markdown="1">
+                No teaching for this term :sunglasses:
+              </span>
             {%- endif %}
-         <p><b><a href="{{ '/teaching/' | relative_url }}">past teaching</a></b></p>
+        <p markdown="1"> 
+          **<a href="{{ '/teaching/' | relative_url }}">past teaching</a>** 
+        </p>
          {%- endif %}
 
           
