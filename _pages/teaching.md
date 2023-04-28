@@ -16,20 +16,9 @@ Page under construction
 
 
 
-<div class="teaching">
-
-<h3 style="bottom-marging= 2rem;">Tutor</h3>
- {%- for y in page.years_tutor %}
-   <h2 class="year">{{y}}</h2>
-  {% bibliography -f teaching_tutor -q @*[year={{y}}]* %}
- {% endfor %}
-
-</div>
 
 
-
-
-<div class="teaching">
+<div class="publications">
 
 <a id="journal"><h3 style="margin-top: 3.3rem; margin-bottom: 0.3rem;">Tutor test</h3></a>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
