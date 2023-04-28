@@ -15,7 +15,7 @@ next: true  # includes a list of upcoming events
 news: true  # includes a list of news items  
 
 current_teaching: true # includes current_teaching in homepage 
-  current_courses: false # when false the current teaching displays there is no teaching. When true then current teaching displays publications in teaching_lecturer.bib which display "current={true}"
+current_courses: false # false: current teaching displays there is no teaching. True: current teaching displays publications in teaching_lecturer.bib with "current=true"
 
 
 selected_papers: false # includes a list of papers in publications_journal.bib marked as "selected={true}"
