@@ -65,7 +65,7 @@ layout: default
          <h3 style="margin-bottom: 1rem; margin-top: 3rem;"><b>Current teaching</b></h3>
             {% if page.current_courses = true -%}
                 {%- include current_teaching.html %}
-            {% else -%}
+            {% else %}
               <span>No teaching for this term :sunglasses:</span>
             {%- endif %}
          <b><a href="{{ '/teaching/' | relative_url }}">past teaching</a></b>
@@ -88,6 +88,8 @@ layout: default
             <b><a href="{{ '/publications/' | relative_url }}">all publications</a></b>
           {%- endif %}
 
+
+          
           <!-- Social -->
           <!--
           {%- if page.social %}
