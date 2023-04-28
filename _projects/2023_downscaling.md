@@ -1,16 +1,16 @@
 ---
 layout: page
 title: From climate to energy...
-description: The further understanding about climate-energy interaction.
-img: assets/img/post/climate/cover.jpg
+description: The Link Between Energy and Climate.
+img: assets/img/post/climate/cover.png
 importance: 1
 year: 2023
 category: work
 ---
 
-Understanding the availability and variability of solar and wind energy resources is crucial for designing and planning optimal energy systems. However, existing climate models have limitations in terms of resolution and bias. 
+Understanding the availability and variability of solar and wind energy resources is crucial for designing and planning optimal energy systems. However, existing climate models (GCM) have limitations in terms of resolution and bias. 
 
-How the variability and change of climate system can affect the energy system?
+How the variability and change of climate/weather system can affect the energy system?
 Can machine learning help accurately predicting radiation and wind fields at fine scales?
 
 <div class="row">
