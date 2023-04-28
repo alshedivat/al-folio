@@ -1,4 +1,5 @@
 
-          <div class="teaching">
-            {% bibliography -f teaching_tutor -q @*[current=true]* %}
+          <div markdown="1" class="publications">
+            { %if {% bibliography -f teaching_tutor -q @*[current=true]* %} = blank -%}
+              No teaching this semester :sunglasses:
           </div>
