@@ -10,12 +10,14 @@ profile:
   image_circular: false # crops the image to make it circular
   
     
-    
-news: true  # includes a list of news items
-next: true  # includes a list of upcoming events    
-latest_posts: false  # includes a list of the newest posts
+
+next: true  # includes a list of upcoming events  
+news: true  # includes a list of news items  
+current_teaching: false # includes a list of teaching in teaching_lecturer.bib as "current={true}"
+
+
 selected_papers: false # includes a list of papers in publications_journal.bib marked as "selected={true}"
-current_teaching: true # includes a list of teaching in teaching_lecturer.bib as "current={true}"
+latest_posts: false  # includes a list of the newest posts
 social: false  # includes social icons at the bottom of the page
 ---
 
