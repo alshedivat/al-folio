@@ -56,7 +56,7 @@ layout: default
             <h3 style="margin-bottom: 1rem; margin-top: 2rem;"><b><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></b></h3>
             {%- include news.html %}
           <p markdown="1"> 
-            [past news]({{ '/news/' | relative_url }})
+            <a href="{{ '/news/' | relative_url }}">**past news**</a>
           </p>
           {%- endif %}
           
@@ -72,8 +72,8 @@ layout: default
                 No teaching for this term :sunglasses:
               </span>
             {%- endif %}
-        <p markdown="1"> 
-          **[past teaching]({{ '/teaching/' | relative_url }})** 
+         <p markdown="1"> 
+          <a href="{{ '/teaching/' | relative_url }}">**past teaching**</a> 
         </p>
          {%- endif %}
 
