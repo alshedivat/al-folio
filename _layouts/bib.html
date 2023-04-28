@@ -30,6 +30,7 @@ is assumed we are dealing with a publication, and the style in the else conditio
 
   <!-- Entry bib key -->
   <div id="{{entry.key}}" class="col-sm-8">
+  
   <!-- Title -->
   <div class="course_title">{{entry.title}}</div>
   
@@ -37,11 +38,21 @@ is assumed we are dealing with a publication, and the style in the else conditio
     <div class="course_description">{{entry.institution}}</div>
 
   <!--  Degree type, Course year -->
-    <div class="course_description">{{entry.degree}}{{ ", " }}{{entry.courseyear}}</div>
+  {% if entry.degree %}  
+   <div class="course_description">
+     {% if entry.courseyear %}
+      {{entry.degree}}{{ ", " }}{{entry.courseyear}}
+     {% else %}
+      {{entry.degree}}{{ ", " }}{{entry.courseyear}}
+     {% endif %}
+    </div>
+  {% endif %}
+
 
   <!-- Note -->
+  {% if entry.note %}
     <div class="course_description">{{entry.note}}</div>
-
+  {% endif %}
 
 <!-- Links/Buttons -->
 <div class="links">
