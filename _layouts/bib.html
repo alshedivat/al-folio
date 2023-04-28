@@ -85,6 +85,13 @@ is assumed we are dealing with a publication, and the style in the else conditio
     <a href="{{ entry.exercises | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Exercises</a>
     {%- endif %}
   {%- endif %}
+  {%- if entry.exam %}
+    {% if entry.exam contains '://' -%}
+    <a href="{{ entry.exam }}" class="btn btn-sm z-depth-0" role="button">Exam</a>
+    {%- else -%}
+    <a href="{{ entry.exam | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Exam</a>
+    {%- endif %}
+  {%- endif %}
   {%- if entry.poster %}
     {% if entry.poster contains '://' -%}
     <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
