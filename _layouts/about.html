@@ -63,10 +63,10 @@ layout: default
          <!-- Current teaching -->
          {% if page.current_teaching -%}
          <h3 style="margin-bottom: 1rem; margin-top: 3rem;"><b>Current teaching</b></h3>
-            {% if page.current_courses = true -%}
+            {% if page.current_courses -%}
                 {%- include current_teaching.html %}
             {% else %}
-              <span>No teaching for this term :sunglasses:</span>
+              <span markdown="1">No teaching for this term :sunglasses:</span>
             {%- endif %}
          <b><a href="{{ '/teaching/' | relative_url }}">past teaching</a></b>
          {%- endif %}
@@ -89,7 +89,7 @@ layout: default
           {%- endif %}
 
 
-          
+
           <!-- Social -->
           <!--
           {%- if page.social %}
