@@ -24,7 +24,7 @@ social: false  # includes social icons at the bottom of the page
 <h3 style="margin-bottom: 1.3rem"><b>About me</b></h3>
 
 <div markdown="1">
-I am a Lecturer in Applied Mathematics in the <a href='https://www.hull.ac.uk/faculties/departments/department-of-physics-and-mathematics'>Department of Mathematics</a> at the <a href='https://www.hull.ac.uk'>University of Hull</a> in the United Kingdom
+I am a Lecturer in Applied Mathematics in the [Department of Mathematics](https://www.hull.ac.uk/faculties/departments/department-of-physics-and-mathematics)** at the [University of Hull](https://www.hull.ac.uk) in the United Kingdom
 </div>
 
 <div markdown="1" style="margin-top: 1.2rem;">
@@ -32,10 +32,10 @@ My research is at the interface of **inverse problems**, **optimization**, **pde
 </div>
 
 <div markdown="1" style="margin-top: 1.2rem;">
-My contact information is <a href="https://www.silviofanzon.com/contact/">here</a>. The best way to reach me is by email:
+My contact information is **[here](https://www.silviofanzon.com/contact/)** The best way to reach me is by email:
 </div>
 
 <div markdown="1" style="text-align: center; margin-top: 0.8rem;">
-<a href = "mailto: S.Fanzon@hull.ac.uk">S.Fanzon@hull.ac.uk</a>
+**[S.Fanzon@hull.ac.uk](mailto: S.Fanzon@hull.ac.uk)**
 </div>
 
