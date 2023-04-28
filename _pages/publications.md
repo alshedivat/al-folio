@@ -12,7 +12,7 @@ nav_order: 4
 
 
 <p> 
-Publications are divided in <a href="#journal">Journal articles</a>, <a href="#preprint">Preprints</a> and <a href="#theses">Theses</a>. 
+Publications are divided in **<a href="#journal">Journal articles</a>**, **<a href="#preprint">Preprints</a>** and **<a href="#theses">Theses</a>**. 
 Authors are in alphabetical order 
 </p>
 
