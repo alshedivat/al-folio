@@ -9,18 +9,22 @@ nav: true
 nav_order: 7
 ---
 
-<p> 
-Teaching ordered by year. 
-Page under construction
-</p>
 
+<p markdown="1"> 
+Teaching grouped by teaching roles **<a href="#lecturer">Lecturer</a>** and
+**<a href="#tutor">Tutor</a>**  
+</p>
 
 
 
 
 <div class="publications">
 
-<a id="journal"><h3 style="margin-top: 3.3rem; margin-bottom: 0.3rem;">Tutor</h3></a>
+<a id="lecturer"><h3 style="margin-top: 3.3rem; margin-bottom: 0.3rem;">Lecturer</h3></a>
+<hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
+{% bibliography -f teaching_lecturer %}
+
+<a id="tutor"><h3 style="margin-top: 3.3rem; margin-bottom: 0.3rem;">Tutor</h3></a>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
 {% bibliography -f teaching_tutor %}
 
