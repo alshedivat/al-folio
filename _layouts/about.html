@@ -67,11 +67,11 @@ layout: default
          <h3 style="margin-bottom: 1rem; margin-top: 3rem;"><b>Current teaching</b></h3>
             {% if page.current_courses -%}
                 {%- include current_teaching.html %}
-                <p style="margin-top: 0.5rem;">
+                <p>
                   <a href="{{ '/teaching/' | relative_url }}"><b>past teaching</b></a> 
                 </p>
             {% else %}
-              <p markdown="1" style="margin-bottom: 1.3rem; margin-top: 1.5rem;">
+              <p markdown="1" style="margin-bottom: 1.3rem; margin-top: 1rem;">
                 No teaching for this term :sunglasses:
               </p>
               <p>
