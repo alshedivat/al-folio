@@ -24,10 +24,11 @@ All the modules I taught as **<a href="#lecturer">Lecturer</a>** and
 
 <a id="lecturer"><h3 style="margin-top: 3.3rem; margin-bottom: 0.3rem;">Lecturer</h3></a>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
-{%- for y in page.years_tutor %}
-   <h2 class="year">{{ y }}{{ "/" }}{{ y+1 }}</h2>
+{%- for y in page.years_lecturer %}
+   next=y+1 
+   <h2 class="year">{{ y }}{{ "/" }}{{ next }}</h2>
   {% bibliography -f teaching_lecturer -q @*[year={{y}} && term={{Fall}}]* %}
-  {% bibliography -f teaching_lecturer -q @*[year={{y+1}} && term={{Spring}}]* %}
+  {% bibliography -f teaching_lecturer -q @*[year={{next}} && term={{Spring}}]* %}
 {% endfor %}
 
 
@@ -37,9 +38,10 @@ All the modules I taught as **<a href="#lecturer">Lecturer</a>** and
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
 
 {%- for y in page.years_tutor %}
-   <h2 class="year">{{ y }}{{ "/" }}{{ y+1 }}</h2>
+  next=y+1   
+   <h2 class="year">{{ y }}{{ "/" }}{{ next }}</h2>
   {% bibliography -f teaching_tutor -q @*[year={{y}} && term={{Fall}}]* %}
-  {% bibliography -f teaching_tutor -q @*[year={{y+1}} && term={{Spring}}]* %}
+  {% bibliography -f teaching_tutor -q @*[year={{next}} && term={{Spring}}]* %}
 {% endfor %}
 
 
