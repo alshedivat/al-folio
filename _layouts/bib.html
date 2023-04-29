@@ -81,23 +81,23 @@ is assumed we are dealing with a publication, and the style in the else conditio
   {%- endif %}
   {%- if entry.lecturenotes1 %}
     {% if entry.lecturenotes contains '://' -%}
-    <a href="{{ entry.lecturenotes1 }}" class="btn btn-sm z-depth-0" role="button">Lecture Notes Pt1</a>
+    <a href="{{ entry.lecturenotes1 }}" class="btn btn-sm z-depth-0" role="button">Notes Pt1</a>
     {%- else -%}
-    <a href="{{ entry.lecturenotes1 | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Lecture Notes Pt1</a>
+    <a href="{{ entry.lecturenotes1 | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Notes Pt1</a>
     {%- endif %}
   {%- endif %}
   {%- if entry.lecturenotes2 %}
   {% if entry.lecturenotes contains '://' -%}
-  <a href="{{ entry.lecturenotes2 }}" class="btn btn-sm z-depth-0" role="button">Lecture Notes Pt2</a>
+  <a href="{{ entry.lecturenotes2 }}" class="btn btn-sm z-depth-0" role="button">Notes Pt2</a>
   {%- else -%}
-  <a href="{{ entry.lecturenotes2 | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Lecture Notes Pt2</a>
+  <a href="{{ entry.lecturenotes2 | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Notes Pt2</a>
   {%- endif %}
 {%- endif %}
 {%- if entry.lecturenotes3 %}
 {% if entry.lecturenotes contains '://' -%}
-<a href="{{ entry.lecturenotes3 }}" class="btn btn-sm z-depth-0" role="button">Lecture Notes Pt3</a>
+<a href="{{ entry.lecturenotes3 }}" class="btn btn-sm z-depth-0" role="button">Notes Pt3</a>
 {%- else -%}
-<a href="{{ entry.lecturenotes3 | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Lecture Notes Pt3</a>
+<a href="{{ entry.lecturenotes3 | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Notes Pt3</a>
 {%- endif %}
 {%- endif %}
   {%- if entry.blog %}
