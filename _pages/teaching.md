@@ -12,7 +12,7 @@ nav_order: 5
 
 <p markdown="1"> 
 All the modules I taught as **<a href="#lecturer">Lecturer</a>** and
-**<a href="#tutor">Tutor</a>**  
+**<a href="#tutor">Teaching Assistant</a>**  
 </p>
 
 
@@ -33,7 +33,7 @@ All the modules I taught as **<a href="#lecturer">Lecturer</a>** and
 
 
 
-<a id="tutor"><h3 style="margin-top: 5rem; margin-bottom: -1.0rem;">Tutor</h3></a>
+<a id="tutor"><h3 style="margin-top: 5rem; margin-bottom: -1.0rem;">Teaching Assistant</h3></a>
 
 {%- for y in page.years_tutor %}    
     <h2 class="year">{{ y }}</h2>
