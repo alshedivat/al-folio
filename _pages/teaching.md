@@ -3,8 +3,8 @@ layout: page
 permalink: /teaching/
 title: Teaching
 description: 
-years_lecturer: [2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013]
-years_tutor: [2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013]
+years_lecturer: [2023,2022,2021,2020,2019,2018]
+years_tutor: [2018,2017,2016,2015,2014,2013,2012]
 nav: true
 nav_order: 5
 ---
@@ -20,13 +20,28 @@ All the modules I taught as **<a href="#lecturer">Lecturer</a>** and
 
 <div class="publications">
 
+
+
 <a id="lecturer"><h3 style="margin-top: 3.3rem; margin-bottom: 0.3rem;">Lecturer</h3></a>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
-{% bibliography -f teaching_lecturer %}
+{%- for y in page.years_tutor %}
+   <h2 class="year">{{ y }}{{ "/" }}{{ y+1 }}</h2>
+  {% bibliography -f teaching_lecturer -q @*[year={{y}} && term={{Fall}}]* %}
+  {% bibliography -f teaching_lecturer -q @*[year={{y+1}} && term={{Spring}}]* %}
+{% endfor %}
+
+
+
 
 <a id="tutor"><h3 style="margin-top: 3.3rem; margin-bottom: 0.3rem;">Tutor</h3></a>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
-{% bibliography -f teaching_tutor %}
+
+{%- for y in page.years_tutor %}
+   <h2 class="year">{{ y }}{{ "/" }}{{ y+1 }}</h2>
+  {% bibliography -f teaching_tutor -q @*[year={{y}} && term={{Fall}}]* %}
+  {% bibliography -f teaching_tutor -q @*[year={{y+1}} && term={{Spring}}]* %}
+{% endfor %}
+
 
 </div>
 
