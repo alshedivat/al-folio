@@ -11,7 +11,7 @@ nav_order: 5
 
 
 <p markdown="1"> 
-Teaching grouped by roles as **<a href="#lecturer">Lecturer</a>** and
+All the modules I taught as **<a href="#lecturer">Lecturer</a>** and
 **<a href="#tutor">Tutor</a>**  
 </p>
 
