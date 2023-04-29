@@ -11,7 +11,7 @@ nav_order: 4
 
 
 <p markdown="1"> 
-All the invited **<a href="#talk">Talks</a>** and **<a href="#poster">Poster</a>** presentations I gave, since my PhD days 
+All my invited **<a href="#talk">Talks</a>** and **<a href="#poster">Poster</a>** presentations
 </p>
 
 

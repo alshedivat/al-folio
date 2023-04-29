@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /publications/
+permalink: /publications_with_preprints_replace/
 title: Publications
 description: 
 years: [2022,2021,2020,2019,2017]
