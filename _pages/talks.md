@@ -17,15 +17,26 @@ All my invited **<a href="#talk">Talks</a>** and **<a href="#poster">Poster</a>*
 
 
 
+
 <div class="publications">
 
-<a id="talk"><h3 style="margin-top: 3.3rem; margin-bottom: 0.3rem;">Talks</h3></a>
-<hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
-{% bibliography -f seminars_talk %}
 
-<a id="poster"><h3 style="margin-top: 3.3rem; margin-bottom: 0.3rem;">Poster</h3></a>
-<hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
-{% bibliography -f seminars_poster %}
+<a id="talk"><h3 style="margin-top: 3.3rem; margin-bottom: -1.0rem;">Talks</h3></a>
+
+{%- for y in page.years_talk %}    
+    <h2 class="year">{{ y }}</h2>
+        {% bibliography -f seminars_talk -q @*[year={{y}}]* %}
+{% endfor %}
+
+
+
+
+<a id="poster"><h3 style="margin-top: 5rem; margin-bottom: -1.0rem;">Posters</h3></a>
+
+{%- for y in page.years_poster %}    
+    <h2 class="year">{{ y }}</h2>
+        {% bibliography -f seminars_poster -q @*[year={{y}}]* %}
+{% endfor %}
+
 
 </div>
-
