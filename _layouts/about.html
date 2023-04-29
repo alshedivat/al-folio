@@ -45,7 +45,7 @@ layout: default
 
          <!-- Upcoming events-->
         {% if page.next -%}
-          <h3 style="margin-bottom: 1rem; margin-top: 2rem;"><b>Next events</b></h3>
+          <h3 style="margin-bottom: 1rem; margin-top: 2.2rem;"><b>Next events</b></h3>
           {%- include next.html %}
         {%- endif %}
         
@@ -53,7 +53,7 @@ layout: default
         
         <!-- News -->
           {% if page.news -%}
-            <h3 style="margin-bottom: 1rem; margin-top: 2rem;"><b><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></b></h3>
+            <h3 style="margin-bottom: 1rem; margin-top: 2.2rem;"><b><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></b></h3>
             {%- include news.html %}
           <p> 
             <a href="{{ '/news/' | relative_url }}"><b>past news</b></a>
@@ -64,14 +64,14 @@ layout: default
 
          <!-- Current teaching -->
          {% if page.current_teaching -%}
-         <h3 style="margin-bottom: 1rem; margin-top: 3rem;"><b>Current teaching</b></h3>
+         <h3 style="margin-bottom: 1rem; margin-top: 3.2rem;"><b>Current teaching</b></h3>
             {% if page.current_courses -%}
                 {%- include current_teaching.html %}
                 <p>
                   <a href="{{ '/teaching/' | relative_url }}"><b>past teaching</b></a> 
                 </p>
             {% else %}
-              <p markdown="1" style="margin-bottom: 1.3rem; margin-top: 1.5rem;">
+              <p markdown="1" style="margin-bottom: 1.3rem; margin-top: 1.7rem;">
                 No teaching for this term :sunglasses:
               </p>
               <p>
@@ -82,6 +82,15 @@ layout: default
 
           
 
+          <!-- Selected papers -->
+            {% if page.selected_papers -%}
+            <h3 style="margin-bottom: 1rem; margin-top: 3.2rem;"><b>Selected Publications</b></h3>
+              {%- include selected_papers.html %}
+              <b><a href="{{ '/publications/' | relative_url }}">all publications</a></b>
+            {%- endif %}
+
+
+
           <!-- Latest posts -->
           {% if page.latest_posts -%}
             <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
@@ -90,12 +99,7 @@ layout: default
           
 
 
-          <!-- Selected papers -->
-          {% if page.selected_papers -%}
-            <h3><b><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></b></h3>
-            {%- include selected_papers.html %}
-            <b><a href="{{ '/publications/' | relative_url }}">all publications</a></b>
-          {%- endif %}
+       
 
 
 
