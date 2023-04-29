@@ -28,15 +28,19 @@ is assumed we are dealing with a publication, and the style in the else conditio
   {%- endif -%}
   </div>
 
+
   <!-- Entry bib key -->
   <div id="{{entry.key}}" class="col-sm-8">
   
+
   <!-- Title -->
   <div class="course_title">{{entry.title}}</div>
   
+
   <!-- Insitution -->
     <div class="course_description">{{entry.institution}}</div>
 
+    
   <!--  Degree type, Course year -->
   {% if entry.degree %}  
    <div class="course_description">
@@ -53,6 +57,7 @@ is assumed we are dealing with a publication, and the style in the else conditio
   {% if entry.note %}
     <div class="course_description">{{entry.note}}</div>
   {% endif %}
+
 
 <!-- Links/Buttons -->
 <div class="links">
@@ -141,36 +146,7 @@ is assumed we are dealing with a publication, and the style in the else conditio
     <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
   {%- endif %}
   </div>
-  {% if site.badges %}
-  <div class="badges">
-    {%- if site.badges.altmetric_badge %}
-    <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"
-      {% if entry.eprint %}
-        data-arxiv-id="{{ entry.eprint }}"
-      {% elsif entry.doi %}
-        data-doi="{{ entry.doi }}"
-      {% elsif entry.altmetric %}
-        data-altmetric-id="{{ entry.altmetric }}"
-      {% elsif entry.pmid %}
-        data-pmid="{{ entry.pmid }}"
-      {% elsif entry.isbn %}
-        data-isbn="{{ entry.isbn }}"
-      {% endif %}
-      ></span>
-    {%- endif %}
-    {%- if site.badges.dimensions_badge %}
-      <span class="__dimensions_badge_embed__"
-      {% if entry.doi %}
-        data-doi="{{ entry.doi }}"
-      {% else if entry.pmid %}
-        data-pmid="{{ entry.pmid }}"
-      {% else %}
-        data-id="{{ entry.dimensions }}"
-      {% endif %}
-      data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-    {%- endif %}
-  </div>
-  {%- endif %}
+  
 
   {% if entry.abstract -%}
   <!-- Hidden abstract block -->
@@ -180,8 +156,11 @@ is assumed we are dealing with a publication, and the style in the else conditio
   {%- endif -%}
 </div>
 </div>
+
+
+
 {%- else -%}
-<!-- This is layout for publications -->
+<!-- This is layout for publications. It happens whenever the flags "talk" or "teaching" are not triggered -->
       <div class="row">
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
