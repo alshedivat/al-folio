@@ -17,15 +17,20 @@ Authors are in alphabetical order
 </p>
 
 
+
+
 <div class="publications">
+
 
 <a id="journal"><h3 style="margin-top: 3.3rem; margin-bottom: 0.3rem;">Journal articles</h3></a>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
 {% bibliography -f publications_journal %}
 
-<a id="theses"><h3 style="margin-top: 2rem; margin-bottom: 0.3rem;">Theses</h3></a>
+
+<a id="theses"><h3 style="margin-top: 2.5rem; margin-bottom: 0.3rem;">Theses</h3></a>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
 {% bibliography -f publications_theses %}
+
 
 </div>
 
