@@ -25,7 +25,12 @@ is assumed we are dealing with a publication, and the style in the else conditio
       <abbr class="badge">{{entry.abbr}}</abbr>
     {%- endif -%}
   {%- endif -%}
-  <abbr class="badge">Poster</abbr>
+
+  <!-- Add badge if PLENARY TALK -->
+  {% if entry.plenary %} 
+  <abbr class="badge">Plenary</abbr>
+  {% endif %}
+  
   </div>
 
 
