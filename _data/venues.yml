@@ -1,3 +1,5 @@
+########  JOURNALS  ########
+
 "arXiv":
   url: https://arxiv.org
 
@@ -31,7 +33,7 @@
 
 
 
-
+########  THESES ########
 
 "BSc Thesis":
   url: https://www.mat.uniroma1.it/en
@@ -41,3 +43,13 @@
 
 "PhD Thesis":
   url: https://srodev.sussex.ac.uk/id/eprint/72566/
+
+
+
+
+
+########  Seminars Venues ########
+
+
+"CMU":
+  url: https://www.cmu.edu
