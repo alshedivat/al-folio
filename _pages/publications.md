@@ -12,7 +12,10 @@ nav_order: 4
 
 
 <p markdown="1"> 
-All my research outputs divided in **<a href="#journal">Journal Publications</a>** and **<a href="#theses">Theses</a>**. 
+All my research outputs divided in **<a href="#journal">Journal Publications</a>** and **<a href="#theses">Theses</a>**
+</p>
+
+<p>
 Authors are in alphabetical order 
 </p>
 
