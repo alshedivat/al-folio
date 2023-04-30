@@ -38,16 +38,12 @@ is assumed we are dealing with a publication, and the style in the else conditio
   <div id="{{entry.key}}" class="col-sm-8">
   
 
-  <!-- Title of Event -->
-  <div class="conference_title">{{entry.title}}</div>
-  
-
-
- <!--  Talk Title -->
- {% if entry.talk_title %}  
- <div class="talk_title"><em> {{entry.talk_title}} </em></div>
-{% endif %}
-
+  <!-- Title of Event - Adds an envelope to the left if presentation is invited -->
+  {% if entry.invited %} 
+      <div class="conference_title">{{<i class="fas fa-envelope"></i>}}{{" "}}{{entry.title}}</div>
+  {% else %}
+      <div class="conference_title">{{entry.title}}</div>
+  {% endif%}
 
 
   <!-- Venue of event, Date -->
@@ -59,6 +55,14 @@ is assumed we are dealing with a publication, and the style in the else conditio
       {% endif %}  
   {% endif %}  
   
+
+
+
+  <!--  Talk Title -->
+ {% if entry.talk_title %}  
+ <div class="talk_title"><em> {{entry.talk_title}} </em></div>
+{% endif %}
+
 
 
 <!-- Links/Buttons -->
