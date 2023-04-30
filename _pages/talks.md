@@ -25,7 +25,7 @@ All my invited **<a href="#talk">Talks</a>** and **<a href="#poster">Poster</a>*
 
 {%- for y in page.years_talk %}    
     <h2 class="year">{{ y }}</h2>
-        {% bibliography -f seminars_talk -q @*[year={{y}}]* %}
+        {% bibliography -f seminars_talks -q @*[year={{y}}]* %}
 {% endfor %}
 
 
@@ -35,7 +35,7 @@ All my invited **<a href="#talk">Talks</a>** and **<a href="#poster">Poster</a>*
 
 {%- for y in page.years_poster %}    
     <h2 class="year">{{ y }}</h2>
-        {% bibliography -f seminars_poster -q @*[year={{y}}]* %}
+        {% bibliography -f seminars_posters -q @*[year={{y}}]* %}
 {% endfor %}
 
 
