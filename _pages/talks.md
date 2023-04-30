@@ -31,7 +31,7 @@ All my invited **<a href="#talk">Talks</a>** and **<a href="#poster">Poster</a>*
 
 
 
-<a id="poster"><h3 style="margin-top: 5rem; margin-bottom: -1.0rem;">Posters</h3></a>
+<a id="poster"><h3 style="margin-top: 5rem; margin-bottom: -1.0rem;">Poster sessions</h3></a>
 
 {%- for y in page.years_poster %}    
     <h2 class="year">{{ y }}</h2>
