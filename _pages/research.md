@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /research/
-title: Research
+title: research
 description: Research papers
 years: [1967, 1956, 1950, 1935, 1905]
 nav: true
