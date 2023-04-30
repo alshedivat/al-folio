@@ -19,6 +19,9 @@
             {%- if site.publons_id -%}
             <a href="https://publons.com/a/{{ site.publons_id }}/" title="Publons"><i class="ai ai-publons"></i></a>
             {% endif %}
+            {%- if site.lattes_id -%}
+            <a href="http://lattes.cnpq.br/{{ site.lattes_id }}" target="_blank" title="Lattes"><i class="ai fa-fw ai-lattes"></i></a>
+            {% endif %}
             {%- if site.osf_id -%}
             <a href="https://osf.io/{{ site.osf_id }}/" title="Open Science Framework"><i class="ai ai-osf"></i></a>
             {% endif %}
