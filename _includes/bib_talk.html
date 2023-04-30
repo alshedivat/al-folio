@@ -37,6 +37,14 @@ is assumed we are dealing with a publication, and the style in the else conditio
   <div class="conference_title">{{entry.title}}</div>
   
 
+
+ <!--  Talk Title -->
+ {% if entry.talk_title %}  
+ <div class="talk_title"><em> {{entry.talk_title}} </em></div>
+{% endif %}
+
+
+
   <!-- Venue of event, Date -->
   {% if entry.venue %}  
       {% if entry.date %}  
@@ -45,13 +53,7 @@ is assumed we are dealing with a publication, and the style in the else conditio
         <div class="conference_venue">{{entry.venue}}</div>
       {% endif %}  
   {% endif %}  
-    
-
-  <!--  Talk Title -->
-  {% if entry.talk_title %}  
-   <div class="talk_title"><em> {{entry.talk_title}} </em></div>
-  {% endif %}
-
+  
 
 
 <!-- Links/Buttons -->
