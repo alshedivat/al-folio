@@ -18,7 +18,7 @@ current_teaching: true # includes current_teaching in homepage
 current_courses: true # false: current teaching displays there is no teaching. True: current teaching displays publications in teaching_lecturer.bib with "current=true"
 
 
-selected_papers: false # includes a list of papers in publications_journal.bib marked as "selected={true}"
+selected_papers: true # includes a list of papers in publications_journal.bib marked as "selected={true}"
 latest_posts: false  # includes a list of the newest posts
 social: false  # includes social icons at the bottom of the page
 ---

@@ -61,6 +61,19 @@ layout: default
           {%- endif %}
           
         
+          
+
+          <!-- Selected papers -->
+          {% if page.selected_papers -%}
+          <h3 style="margin-bottom: 1rem; margin-top: 3.2rem;"><b>Selected Publications</b></h3>
+            {%- include selected_papers.html %}
+           <p>
+            <b><a href="{{ '/publications/' | relative_url }}">all publications</a></b>
+           </p> 
+          {%- endif %}
+
+
+
 
          <!-- Current teaching -->
          {% if page.current_teaching -%}
@@ -81,13 +94,6 @@ layout: default
          {%- endif %}
 
           
-
-          <!-- Selected papers -->
-            {% if page.selected_papers -%}
-            <h3 style="margin-bottom: 1rem; margin-top: 3.2rem;"><b>Selected Publications</b></h3>
-              {%- include selected_papers.html %}
-              <b><a href="{{ '/publications/' | relative_url }}">all publications</a></b>
-            {%- endif %}
 
 
 
