@@ -12,7 +12,7 @@ nav_order: 4
 
 
 <p markdown="1"> 
-Publications are divided in **<a href="#journal">Journal articles</a>** and **<a href="#theses">Theses</a>**. 
+All my research outputs divided in **<a href="#journal">Journal Publications</a>** and **<a href="#theses">Theses</a>**. 
 Authors are in alphabetical order 
 </p>
 
@@ -22,12 +22,12 @@ Authors are in alphabetical order
 <div class="publications">
 
 
-<a id="journal"><h3 style="margin-top: 3.3rem; margin-bottom: 0.3rem;">Journal articles</h3></a>
+<a id="journal"><h3 style="margin-top: 3.3rem; margin-bottom: 0.3rem;"><b>Journal Publications</b></h3></a>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
 {% bibliography -f publications_journal %}
 
 
-<a id="theses"><h3 style="margin-top: 3rem; margin-bottom: 0.3rem;">Theses</h3></a>
+<a id="theses"><h3 style="margin-top: 3rem; margin-bottom: 0.3rem;"><b>Theses</b></h3></a>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
 {% bibliography -f publications_theses %}
 
