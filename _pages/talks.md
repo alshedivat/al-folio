@@ -14,6 +14,9 @@ nav_order: 5
 All my dissemination activity divided in **<a href="#talk">Oral Presentations</a>** and **<a href="#poster">Poster Presentations</a>**
 </p>
 
+<p>
+<i class="fas fa-envelope"></i> &thinsp; denotes invited presentation
+</p>
 
 
 
