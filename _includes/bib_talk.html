@@ -25,6 +25,7 @@ is assumed we are dealing with a publication, and the style in the else conditio
       <abbr class="badge">{{entry.abbr}}</abbr>
     {%- endif -%}
   {%- endif -%}
+  <abbr class="badge">{{Poster}}</abbr>
   </div>
 
 
@@ -32,42 +33,34 @@ is assumed we are dealing with a publication, and the style in the else conditio
   <div id="{{entry.key}}" class="col-sm-8">
   
 
-  <!-- Title -->
-  <div class="course_title">{{entry.title}}</div>
+  <!-- Title of Event -->
+  <div class="conference_title">{{entry.title}}</div>
   
 
-  <!-- Insitution -->
-    <div class="course_description">{{entry.institution}}</div>
-
+  <!-- Venue of event, Date -->
+  {% if entry.venue %}  
+      {% if entry.date %}  
+        <div class="conference_venue">{{entry.venue}}{{", "}}{{entry.date}}</div>
+      {% else %}
+        <div class="conference_venue">{{entry.venue}}</div>
+      {% endif %}  
+  {% endif %}  
     
-  <!--  Degree type, Course year -->
-  {% if entry.degree %}  
-   <div class="course_description">
-     {% if entry.courseyear %}
-      {{entry.degree}}{{ ", " }}{{entry.courseyear}}
-     {% else %}
-      {{entry.degree}}{{ ", " }}{{entry.courseyear}}
-     {% endif %}
-    </div>
+
+  <!--  Talk Title -->
+  {% if entry.talk_title %}  
+   <div class="talk_title"><em> {{entry.talk_title}} </em></div>
   {% endif %}
 
-
-  <!-- Note -->
-  {% if entry.note %}
-    <div class="course_description">{{entry.note}}</div>
-  {% endif %}
 
 
 <!-- Links/Buttons -->
 <div class="links">
-  {%- if entry.abstract %}
-    <a class="abstract btn btn-sm z-depth-0" role="button">About</a>
-  {%- endif %}
   {%- if entry.html %}
     <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
   {%- endif %}
-  {%- if entry.canvas %}
-  <a href="{{ entry.canvas }}" class="btn btn-sm z-depth-0" role="button">Canvas</a>
+  {%- if entry.abstract %}
+    <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
   {%- endif %}
   {%- if entry.summary %}
     {% if entry.summary contains '://' -%}
@@ -83,46 +76,8 @@ is assumed we are dealing with a publication, and the style in the else conditio
     <a href="{{ entry.lecturenotes | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Lecture Notes</a>
     {%- endif %}
   {%- endif %}
-  {%- if entry.lecturenotes1 %}
-    {% if entry.lecturenotes contains '://' -%}
-    <a href="{{ entry.lecturenotes1 }}" class="btn btn-sm z-depth-0" role="button">Notes Pt1</a>
-    {%- else -%}
-    <a href="{{ entry.lecturenotes1 | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Notes Pt1</a>
-    {%- endif %}
-  {%- endif %}
-  {%- if entry.lecturenotes2 %}
-  {% if entry.lecturenotes contains '://' -%}
-  <a href="{{ entry.lecturenotes2 }}" class="btn btn-sm z-depth-0" role="button">Notes Pt2</a>
-  {%- else -%}
-  <a href="{{ entry.lecturenotes2 | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Notes Pt2</a>
-  {%- endif %}
-{%- endif %}
-{%- if entry.lecturenotes3 %}
-{% if entry.lecturenotes contains '://' -%}
-<a href="{{ entry.lecturenotes3 }}" class="btn btn-sm z-depth-0" role="button">Notes Pt3</a>
-{%- else -%}
-<a href="{{ entry.lecturenotes3 | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Notes Pt3</a>
-{%- endif %}
-{%- endif %}
-  {%- if entry.blog %}
-    <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
-  {%- endif %}
   {%- if entry.code %}
     <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
-  {%- endif %}
-  {%- if entry.exercises %}
-    {% if entry.exercises contains '://' -%}
-    <a href="{{ entry.exercises }}" class="btn btn-sm z-depth-0" role="button">Exercises</a>
-    {%- else -%}
-    <a href="{{ entry.exercises | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Exercises</a>
-    {%- endif %}
-  {%- endif %}
-  {%- if entry.exam %}
-    {% if entry.exam contains '://' -%}
-    <a href="{{ entry.exam }}" class="btn btn-sm z-depth-0" role="button">Exam</a>
-    {%- else -%}
-    <a href="{{ entry.exam | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Exam</a>
-    {%- endif %}
   {%- endif %}
   {%- if entry.poster %}
     {% if entry.poster contains '://' -%}
