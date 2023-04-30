@@ -22,7 +22,7 @@ All my invited seminars
 
 {%- for y in page.years %}    
     <h2 class="year">{{ y }}</h2>
-        {% bibliography -f talk -q @*[year={{y}}]* %}
+        {% bibliography -f talks -q @*[year={{y}}]* %}
 {% endfor %}
 
 
