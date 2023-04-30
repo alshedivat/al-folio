@@ -10,7 +10,7 @@ nav_order: 5
 
 
 <p markdown="1"> 
-All my invited seminars
+My presentations at Conferences, Workshops and Seminars
 </p>
 
 

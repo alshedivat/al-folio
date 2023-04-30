@@ -30,7 +30,7 @@ is assumed we are dealing with a publication, and the style in the else conditio
   {% if entry.plenary %} 
   <abbr class="badge">Plenary</abbr>
   {% endif %}
-  
+
   </div>
 
 
@@ -63,8 +63,8 @@ is assumed we are dealing with a publication, and the style in the else conditio
 
 <!-- Links/Buttons -->
 <div class="links">
-  {%- if entry.html %}
-    <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+  {%- if entry.event_link %}
+    <a href="{{ entry.event_link }}" class="btn btn-sm z-depth-0" role="button">Event</a>
   {%- endif %}
   {%- if entry.abstract %}
     <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
