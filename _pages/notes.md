@@ -55,3 +55,8 @@ Every now and then, Toby and his students run regular meetings to learn a partic
 </div>
 </details>
 
+<br>
+
+<ul>
+     <li>In summer 2022 I was the TA for Gabriel Goldberg's course on large cardinal beyond choice at the Fudan logic summer school. You can find some of the recorded lectures and sections here: <a href="https://www.youtube.com/@fudanlogic4708/videos">Fudan Logic Youtube Channel</a> </li>
+</ul>
