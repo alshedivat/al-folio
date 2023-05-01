@@ -16,8 +16,17 @@ let setTheme = (theme) =>  {
 
   if (theme) {
     document.documentElement.setAttribute("data-theme", theme);
-  }
-  else {
+
+    // Add class to tables.
+    let tables = document.getElementsByTagName('table');
+    for(let i = 0; i < tables.length; i++) {
+      if (theme == "dark") {
+        tables[i].classList.add('table-dark');
+      } else {
+        tables[i].classList.remove('table-dark');
+      }
+    }
+  } else {
     document.documentElement.removeAttribute("data-theme");
   }
   localStorage.setItem("theme", theme);
