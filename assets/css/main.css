@@ -123,10 +123,10 @@ hr {
 
 table td,
 table th {
-  color: var(--global-text-color);
-}
-table td {
   font-size: 1rem;
+}
+table th {
+  font-weight: bold;
 }
 
 a,
@@ -816,6 +816,7 @@ progress::-moz-progress-bar {
   color: var(--global-hover-text-color);
 }
 
+/* Table of Contents */
 nav[data-toggle=toc] {
   top: 5rem;
 }
