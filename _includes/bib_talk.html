@@ -34,16 +34,19 @@ is assumed we are dealing with a publication, and the style in the else conditio
   </div>
 
 
+  
   <!-- Entry bib key -->
   <div id="{{entry.key}}" class="col-sm-8">
   
 
+
   <!-- Title of Event - Adds an envelope to the left if presentation is invited -->
   {% if entry.invited %} 
-      <div class="conference_title">{{<i class="fas fa-envelope"></i>}}{{" "}}{{entry.title}}</div>
+      <div class="conference_title">{{"<i class="fas fa-envelope"></i> "}}{{entry.title}}</div>
   {% else %}
       <div class="conference_title">{{entry.title}}</div>
   {% endif%}
+
 
 
   <!-- Venue of event, Date -->
