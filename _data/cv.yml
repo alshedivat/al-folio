@@ -11,87 +11,68 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.A.
+      institution: McGill University, Montreal, Canada
+      year: 2020-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Major
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Economics and the Earth's Environment
+    - title: DEC
+      institution: Dawson College, Montreal, Canada
+      year: 2018-2020
       description:
-        - Description 1.
-        - Description 2.
+        - title: Major
+          contents:
+            - Environmental Studies
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: School of Communication Sciences and Disorders, McGill University
+      year: Dec. 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Conducting tlanguage proficiency ests
+        - Organizing and transcribing data
+    - title: Candidate for Ste-Marie-St-Jacques
+      institution: Green Party of Quebec
+      year: Jun. 2022 - Oct. 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Engaged with borough residents discussing the party's platform
+        - Attended campaigning events and speeches
+        - Helped other candidates reach their requirements
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Journalist
+      institution: Global Green News
+      year: Jan. 2021 - May 2021
+      description: 
+        - Conducted interviews with Green Party leaders
+        - Published articles
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Co-president
+      institution: MealCare McGill
+      year: Dec. 2021 - Present
       description:
+        - Hire and manage team
+        - Lead projects
+        - Plan donations and events
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+    - title: EAC Member
+      institution: Montreal West Environment Action Committee (EAC)
+      year: 2019-2022
+      description:
+        - educating residents
+        - advising policy change for the town
+- title: Other Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: 
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+      - Piano
+      - Gardening
+      - Ping-pong
+      - Trying out new Udemy courses
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
+

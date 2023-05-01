@@ -2,8 +2,8 @@
 layout: page
 permalink: /research/
 title: research
-description: Research papers
-years: [1967, 1956, 1950, 1935, 1905]
+description: ibndependent research papers completed in my final year of study at McGill University
+years: [2023, 2022, 2022]
 nav: true
 nav_order: 1
 ---
