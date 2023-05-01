@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ClimBuntu - The Operating System for Climate Research</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        #cover-photo {
+            background-image: url('https://wallpapercave.com/wp/wp7477586.png');
+            background-size: cover;
+            background-position: center;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 5em;
+            text-shadow: 2px 2px #000;
+            font-weight: bold;
+        }
+
+        #earth {
+            animation: rotate 10s linear infinite;
+            transform-origin: center center;
+            margin: 20px auto;
+            width: 300px;
+            height: 300px;
+            background-image: url('https://media.istockphoto.com/id/1314700921/vector/earth-globe-north-pole-view.jpg?s=612x612&w=0&k=20&c=Bqe9onFEo5nTU9KbsNIDMfUCjd9uiW1KDKEBWmJ-BJM=');
+            background-size: cover;
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    body {
+          font-family: Arial, sans-serif;
+          margin: 0 12%; /* add margin */
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <!-- <h1>ClimBuntu - The Operating System for Climate Research</h1> -->
+    </header>
+    <main>
+        <section id="cover-photo">
+            ClimBuntu OS
+        </section>
+        <section>
+            <h2>About ClimBuntu OS</h2>
+            <p>ClimBuntu (Climate + Ubuntu) is a specialized operating system designed for climate research. It comes with pre-installed climate research software and numerical climate models that have been carefully selected to provide researchers with the tools they need to analyze climate data, simulate climate scenarios, and conduct experiments. The system also comes with pre-installed libraries, making it easier for researchers to get started with their work. The development and release of ClimBuntu is overseen by Abdullah Al Fahad, Ph.D. For further information about ClimBuntu, please feel free to reach out to Dr. Fahad via email at <a href="mailto:a.fahad@nasa.gov">a.fahad@nasa.gov</a> </p>
+            <div id="earth"></div>
+        </section>
+        <section>
+            <h2>Features of ClimBuntu</h2>
+            <ul>
+                <li>Pre-installed climate research software</li>
+                <li>Pre-installed numerical climate models</li>
+                <li>Pre-installed libraries for climate research</li>
+                <li>Easy-to-use interface</li>
+                <li>Regular updates and security patches</li>
+                <li>Open source software</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Who Can Benefit from ClimBuntu?</h2>
+            <p>ClimBuntu is ideal for researchers, scientists, and students who are working in the field of climate science. It can also be useful for government agencies and organizations that are involved in climate research and policy-making. The system is designed to be easy to use, even for those who are new to Linux or climate research software.</p>
+        </section>
+        <section>
+            <h2>Download ClimBuntu</h2>
+            <p>ClimBuntu is available for download for free.
+
+            <li>Release date May01, 2023</li>
+             <a href="https://www.climbuntu.com/download" class="download-button">Download ClimBuntu0.1 </a>
+
+
+        </section>
+
+        <section>
+          <h2>List of pre-installed Climate models & Software</h2>
+          <ul>
+            <li>WRF</li>
+            <li>MITgcm</li>
+            <li>QGIS and QGRASS</li>
+            <li>ipython</li>
+            <li>R</li>
+            <li>Miniconda</li>
+            <li>GRAds</li>
+            <li>Jupyter notebook</li>
+            <li>Sublime Text</li>
+          </ul>
+        </section>
+
+
+        <h2>Libraries</h2>
+        <ul>
+          <li>MPICH</li>
+          <li>HDF</li>
+          <li>NETCDF</li>
+          <li>ZLIB</li>
+          <li>JASPER</li>
+          <li>LIBPNG</li>
+        </ul>
+        <section>
+            <h2>System Requirements</h2>
+            <p>To run ClimBuntu on your computer, you will need:</p>
+            <ul>
+                <li>Minimum 1 GB of RAM, recommended 2 GB</li>
+                <li>Pentium 4, Pentium M, or AMD K8 CPU or newer</li>
+                <li>25 GB of free disk space</li>
+                <li>A graphics card that supports OpenGL 2.0 or higher</li>
+                <li>A broadband internet connection for updates and software downloads</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Get Involved</h2>
+            <p>ClimBuntu is an open source project and welcomes contributions from the community. If you're interested in helping to improve the system, please visit our GitHub page to learn more.</p>
+            <a href="https://github.com/climbuntu" class="github-button">ClimBuntu on GitHub</a>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 ClimBuntu</p>
+    </footer>
+    <script>
+        window.addEventListener("scroll", function() {
+            const earth = document.getElementById("earth");
+            const scrolled = window.pageYOffset;
+            earth.style.transform = rotate($ {
+                    scrolled / 10
+                }
+                deg);
+        })
+    </script>
+
+</body>
+
+</html>
