@@ -37,7 +37,7 @@
                 transform: rotate(0deg);
             }
             to {
-                transform: rotate(360deg);
+                transform: rotate(-360deg);
             }
         }
     body {
@@ -46,11 +46,39 @@
         }
     </style>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://afahadabdullah.github.io/climbuntu/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
 </head>
 
-<body>
+
+<body class="fixed-top-nav ">
 
     <header>
+
+        <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+            <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Abdullah Al Fahad, Ph.D. </span></a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button>
+                <div class="collapse navbar-collapse text-right" id="navbarNav">
+                    <ul class="navbar-nav ml-auto flex-nowrap">
+                        <li class="nav-item "> <a class="nav-link" href="/">Home</a> </li>
+                        <li class="nav-item "> <a class="nav-link" href="/research/">Research</a> </li>
+                        <li class="nav-item "> <a class="nav-link" href="/blog/">Blog</a> </li>
+                        <li class="nav-item active"> <a class="nav-link" href="/climbuntu/">ClimBuntu OS<span class="sr-only">(current)</span></a> </li>
+                        <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="fas fa-moon"></i> <i class="fas fa-sun"></i> </button> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         <!-- <h1>ClimBuntu - The Operating System for Climate Research</h1> -->
     </header>
     <main>
@@ -58,11 +86,13 @@
             ClimBuntu OS
         </section>
         <section>
+            <div style="background-color: #EAECEE; padding: 20px;">
             <h2>About ClimBuntu OS</h2>
             <p>ClimBuntu (Climate + Ubuntu) is a specialized operating system designed for climate research. It comes with pre-installed climate research software and numerical climate models that have been carefully selected to provide researchers with the tools they need to analyze climate data, simulate climate scenarios, and conduct experiments. The system also comes with pre-installed libraries, making it easier for researchers to get started with their work. The development and release of ClimBuntu is overseen by Abdullah Al Fahad, Ph.D. For further information about ClimBuntu, please feel free to reach out to Dr. Fahad via email at <a href="mailto:a.fahad@nasa.gov">a.fahad@nasa.gov</a> </p>
             <div id="earth"></div>
         </section>
         <section>
+                <div style="background-color:  #EAF2F8; padding: 20px;">
             <h2>Features of ClimBuntu</h2>
             <ul>
                 <li>Pre-installed climate research software</li>
@@ -74,24 +104,31 @@
             </ul>
         </section>
         <section>
+            <div style="background-color: #EAECEE; padding: 20px;">
             <h2>Who Can Benefit from ClimBuntu?</h2>
             <p>ClimBuntu is ideal for researchers, scientists, and students who are working in the field of climate science. It can also be useful for government agencies and organizations that are involved in climate research and policy-making. The system is designed to be easy to use, even for those who are new to Linux or climate research software.</p>
         </section>
         <section>
+            <div style="background-color:  #EAF2F8; padding: 20px;">
             <h2>Download ClimBuntu</h2>
             <p>ClimBuntu is available for download for free.
 
             <li>Release date May01, 2023</li>
-             <a href="https://www.climbuntu.com/download" class="download-button">Download ClimBuntu0.1 </a>
-
+            <a href="https://www.climbuntu.com/download" download>
+              <button>
+                Download ClimBuntuV0.1
+              </button>
+            </a>
 
         </section>
 
         <section>
+        <div style="background-color: #EAECEE; padding: 20px;">
           <h2>List of pre-installed Climate models & Software</h2>
           <ul>
-            <li>WRF</li>
-            <li>MITgcm</li>
+            <li>WRF atmospheric model</li>
+            <li>MITgcm Ocean model</li>
+            <li>Speedy atmospheric model</li>            
             <li>QGIS and QGRASS</li>
             <li>ipython</li>
             <li>R</li>
@@ -101,9 +138,11 @@
             <li>Sublime Text</li>
           </ul>
         </section>
-
-
+        
+        <section>
+        <div style="background-color:  #EAF2F8; padding: 20px;">
         <h2>Libraries</h2>
+            
         <ul>
           <li>MPICH</li>
           <li>HDF</li>
@@ -112,8 +151,12 @@
           <li>JASPER</li>
           <li>LIBPNG</li>
         </ul>
+        </section>
+
         <section>
+        <div style="background-color: #EAECEE; padding: 20px;">
             <h2>System Requirements</h2>
+
             <p>To run ClimBuntu on your computer, you will need:</p>
             <ul>
                 <li>Minimum 1 GB of RAM, recommended 2 GB</li>
@@ -124,6 +167,7 @@
             </ul>
         </section>
         <section>
+                <div style="background-color:  #EAF2F8; padding: 20px;">
             <h2>Get Involved</h2>
             <p>ClimBuntu is an open source project and welcomes contributions from the community. If you're interested in helping to improve the system, please visit our GitHub page to learn more.</p>
             <a href="https://github.com/climbuntu" class="github-button">ClimBuntu on GitHub</a>
@@ -143,6 +187,53 @@
         })
     </script>
 
+    <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+    <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript">
+        function progressBarSetup() {
+            "max" in document.createElement("progress") ? (initializeProgressElement(), $(document).on("scroll", function() {
+                progressBar.attr({
+                    value: getCurrentScrollPosition()
+                })
+            }), $(window).on("resize", initializeProgressElement)) : (resizeProgressBar(), $(document).on("scroll", resizeProgressBar), $(window).on("resize", resizeProgressBar))
+        }
+
+        function getCurrentScrollPosition() {
+            return $(window).scrollTop()
+        }
+
+        function initializeProgressElement() {
+            let e = $("#navbar").outerHeight(!0);
+            $("body").css({
+                "padding-top": e
+            }), $("progress-container").css({
+                "padding-top": e
+            }), progressBar.css({
+                top: e
+            }), progressBar.attr({
+                max: getDistanceToScroll(),
+                value: getCurrentScrollPosition()
+            })
+        }
+
+        function getDistanceToScroll() {
+            return $(document).height() - $(window).height()
+        }
+
+        function resizeProgressBar() {
+            progressBar.css({
+                width: getWidthPercentage() + "%"
+            })
+        }
+
+        function getWidthPercentage() {
+            return getCurrentScrollPosition() / getDistanceToScroll() * 100
+        }
+        const progressBar = $("#progress");
+        window.onload = function() {
+            setTimeout(progressBarSetup, 50)
+        };
+    </script>
 </body>
 
 </html>
