@@ -41,16 +41,10 @@ layout: default
           </div>
 
          
-            
-
-         <!-- Upcoming events-->
-        {% if page.next -%}
-          <h3 style="margin-bottom: 1rem; margin-top: 2.2rem;"><b>Upcoming Events</b></h3>
-          {%- include next.html %}
-        {%- endif %}
         
         <hr>
-        
+
+
         <!-- News -->
           {% if page.news -%}
             <h3 style="margin-bottom: 1rem; margin-top: 2.2rem;"><b><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></b></h3>
@@ -60,6 +54,16 @@ layout: default
           </p>
           {%- endif %}
           
+      <hr>
+
+       
+      <!-- Upcoming events-->
+       {% if page.next -%}
+       <h3 style="margin-bottom: 1rem; margin-top: 2.2rem;"><b>Upcoming Events</b></h3>
+       {%- include next.html %}
+      {%- endif %}
+     
+
       <hr>
 
 
@@ -73,8 +77,9 @@ layout: default
           {%- endif %}
 
 
+      <hr>
 
-
+      
          <!-- Current teaching -->
          {% if page.current_teaching -%}
          <h3 style="margin-bottom: 1rem; margin-top: 3.2rem;"><b>Current teaching</b></h3>
