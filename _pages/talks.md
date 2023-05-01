@@ -15,7 +15,7 @@ All my dissemination activity divided in **<a href="#talk">Oral Presentations</a
 </p>
 
 <p>
-<i class="fas fa-envelope" style="font-size: 1.1em;"></i> &nbsp; denotes invited presentation
+<i class="fas fa-envelope"></i> &nbsp; denotes invited presentation
 </p>
 
 
