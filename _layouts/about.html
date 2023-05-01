@@ -42,34 +42,35 @@ layout: default
 
          
         
-        <hr>
+        <hr style="margin-top: 2rem;">
 
 
         <!-- News -->
           {% if page.news -%}
-            <h3 style="margin-bottom: 1rem; margin-top: 2.2rem;"><b><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></b></h3>
+            <h3 style="margin-bottom: 1rem; margin-top: 2.5rem;"><b><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></b></h3>
             {%- include news.html %}
           <p> 
             <a href="{{ '/news/' | relative_url }}"><b>past news</b></a>
           </p>
           {%- endif %}
           
-      <hr>
+          
+        <hr style="margin-top: 2rem;">
 
        
       <!-- Upcoming events-->
        {% if page.next -%}
-       <h3 style="margin-bottom: 1rem; margin-top: 2.2rem;"><b>Upcoming Events</b></h3>
+       <h3 style="margin-bottom: 1rem; margin-top: 2.5rem;"><b>Upcoming Events</b></h3>
        {%- include next.html %}
       {%- endif %}
      
 
-      <hr>
+      <hr style="margin-top: 2rem;">
 
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-          <h3 style="margin-bottom: 1rem; margin-top: 3.2rem;"><b>Selected Publications</b></h3>
+          <h3 style="margin-bottom: 1rem; margin-top: 2.5rem;"><b>Selected Publications</b></h3>
             {%- include selected_papers.html %}
            <p>
             <b><a href="{{ '/publications/' | relative_url }}">all publications</a></b>
@@ -77,12 +78,12 @@ layout: default
           {%- endif %}
 
 
-      <hr>
+        <hr style="margin-top: 2rem;">
 
-      
+
          <!-- Current teaching -->
          {% if page.current_teaching -%}
-         <h3 style="margin-bottom: 1rem; margin-top: 3.2rem;"><b>Current teaching</b></h3>
+         <h3 style="margin-bottom: 1rem; margin-top: 2.5rem;"><b>Current teaching</b></h3>
             {% if page.current_courses -%}
                 {%- include current_teaching.html %}
                 <p>
