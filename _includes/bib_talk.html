@@ -41,10 +41,10 @@ is assumed we are dealing with a publication, and the style in the else conditio
 
 
   <!-- Title of Event - Adds an envelope to the left if presentation is invited -->
-  {% if entry.invited=true %} 
+  {% if entry.invited %} 
       <div class="conference_title">{{<i class="fas fa-envelope">entry.title</i>}}</div>
   {% else %}
-      <div class="conference_title">{{entry.title}}</div>
+      <div class="conference_title">{{"TEST"}}{{entry.title}}</div>
   {% endif %}
 
 
@@ -74,7 +74,7 @@ is assumed we are dealing with a publication, and the style in the else conditio
     <a href="{{ entry.event_link }}" class="btn btn-sm z-depth-0" role="button">Event</a>
   {%- endif %}
   {%- if entry.abstract %}
-    <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
   {%- endif %}
   {%- if entry.summary %}
     {% if entry.summary contains '://' -%}
