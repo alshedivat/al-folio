@@ -1,6 +1,6 @@
 # al-folio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[maintainers]: https://img.shields.io/badge/maintainers-3-success.svg 'Number of maintainers'
+[maintainers]: https://img.shields.io/badge/maintainers-4-success.svg 'Number of maintainers'
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
@@ -20,7 +20,6 @@ A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academ
 If you like the theme, give it a star!
 
 [![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
-
 
 ## User community
 
@@ -93,6 +92,10 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://george-gca.github.io/" target="_blank">★</a>
 <a href="https://bashirkazimi.github.io/" target="_blank">★</a>
 <a href="https://dohaison.github.io/" target="_blank">★</a>
+<a href="https://raphaaal.github.io/" target="_blank">★</a>
+<a href="https://varuniyer.info/" target="_blank">★</a>
+<a href="https://yukimasano.github.io/" target="_blank">★</a>
+<a href="https://hashe037.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -132,11 +135,9 @@ Images2Symbols (CogSci: <a href="https://images2symbols.github.io/" target="_bla
 </tr>
 </table>
 
-
 ## Lighthouse PageSpeed Insights
 
-[![Google PageSpeeg](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=desktop)
-
+[![Google PageSpeed](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=desktop)
 
 ## Table Of Contents
 
@@ -171,10 +172,19 @@ Images2Symbols (CogSci: <a href="https://images2symbols.github.io/" target="_bla
 Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
 Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
 
-
 ### Installation
 
 For a hands-on walkthrough of al-folio installation, check out [this cool video tutorial](https://www.youtube.com/watch?v=g6AJ9qPPoyc) by one of the community members! 🎬 🍿
+
+The preferred way of using this template is by clicking in [Use this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template) above the file list.
+Then, create a new repository at `github.com:<your-username>/<your-repo-name>`. If you plan to upload your site to `<your-github-username>.github.io`,
+note that the name of your repository must be `<your-github-username>.github.io` or `<your-github-orgname>.github.io`, as stated in the [GitHub pages docs](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites).
+For more information on how to deploy your site, check the [Deployment](#deployment) section below. After you created your new repository, just download it to your machine:
+
+```bash
+$ git clone git@github.com:<your-username>/<your-repo-name>.git
+$ cd <your-repo-name>
+```
 
 ---
 
@@ -183,14 +193,7 @@ For a hands-on walkthrough of al-folio installation, check out [this cool video 
 You need to take the following steps to get `al-folio` up and running in your local machine:
 
 - First, install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/).
-- Then, clone this repository to your machine:
-
-```bash
-$ git clone git@github.com:<your-username>/<your-repo-name>.git
-$ cd <your-repo-name>
-```
-
-Finally, run the following command that will pull a pre-built image from DockerHub and will run your website.
+- Finally, run the following command that will pull a pre-built image from DockerHub and will run your website.
 
 ```bash
 $ docker-compose up
@@ -207,9 +210,11 @@ Now, feel free to customize the theme however you like (don't forget to change t
 > Note: this approach is only necessary if you would like to build an older or very custom version of al-folio.
 
 Build and run a new docker image using:
+
 ```bash
 $ docker-compose -f docker-local.yml up
 ```
+
 > If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of previous command! It will download ruby and jekyll and install all ruby packages again from scratch.
 
 </details>
@@ -218,11 +223,9 @@ $ docker-compose -f docker-local.yml up
 
 #### Local Setup (Standard)
 
-Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first click [Use this template](https://docs.github.com/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) above the file list, create a new repository at `github.com:<your-username>/<your-repo-name>` from `github.com:alshedivat/al-folio` and do the following:
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*).
 
 ```bash
-$ git clone git@github.com:<your-username>/<your-repo-name>.git
-$ cd <your-repo-name>
 $ bundle install
 $ bundle exec jekyll serve --lsi
 ```
@@ -238,19 +241,22 @@ Deploying your website to [GitHub Pages](https://pages.github.com/) is the most 
 Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0.3.5), **al-folio** will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:
 
 **For personal and organization webpages:**
-1. Rename your repository to `<your-github-username>.github.io` or `<your-github-orgname>.github.io`.
+
+1. The name of your repository **MUST BE** `<your-github-username>.github.io` or `<your-github-orgname>.github.io`.
 2. In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and leave `baseurl` empty.
 3. Set up automatic deployment of your webpage (see instructions below).
 4. Make changes, commit, and push!
 5. After deployment, the webpage will become available at `<your-github-username>.github.io`.
 
 **For project pages:**
+
 1. In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and `baseurl` to `/<your-repository-name>/`.
 2. Set up automatic deployment of your webpage (see instructions below).
 3. Make changes, commit, and push!
 4. After deployment, the webpage will become available at `<your-github-username>.github.io/<your-repository-name>/`.
 
 **To enable automatic deployment:**
+
 1. Click on **Actions** tab and **Enable GitHub Actions**; do not worry about creating any workflows as everything has already been set for you.
 2. Go to Settings -> Actions -> General -> Workflow permissions, and give **Read and write permissions** to GitHub Actions
 3. Make any other changes to your webpage, commit, and push. This will automatically trigger the **Deploy** action.
@@ -267,13 +273,15 @@ If you need to manually re-deploy your website to GitHub pages, go to Actions, c
 <details><summary>(click to expand) <strong>Deployment to another hosting server (non GitHub Pages):</strong></summary>
 
 If you decide to not use GitHub Pages and host your page elsewhere, simply run:
+
 ```bash
 $ bundle exec jekyll build --lsi
 ```
-which will (re-)generate the static webpage in the `_site/` folder.
-Then simply copy the contents of the `_site/` foder to your hosting server.
 
-**Note:** Make sure to correctly set the `url` and `baseurl` fields in `_config.yml` before building the webpage. If you are deploying your webpage to `your-domain.com/your-project/`, you must set `url: your-domain.com` and `baseurl: /your-project/`. If you are deploing directly to `your-domain.com`, leave `baseurl` blank.
+which will (re-)generate the static webpage in the `_site/` folder.
+Then simply copy the contents of the `_site/` directory to your hosting server.
+
+**Note:** Make sure to correctly set the `url` and `baseurl` fields in `_config.yml` before building the webpage. If you are deploying your webpage to `your-domain.com/your-project/`, you must set `url: your-domain.com` and `baseurl: /your-project/`. If you are deploying directly to `your-domain.com`, leave `baseurl` blank.
 
 </details>
 
@@ -281,12 +289,13 @@ Then simply copy the contents of the `_site/` foder to your hosting server.
 
 **Note:** Do not try using this method unless you know what you are doing (make sure you are familiar with [publishing sources](https://help.github.com/en/github/working-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)). This approach allows to have the website's source code in one repository and the deployment version in a different repository.
 
-Let's assume that your website's publishing source is a `publishing-source` sub-directory of a git-versioned repository cloned under `$HOME/repo/`.
+Let's assume that your website's publishing source is a `publishing-source` subdirectory of a git-versioned repository cloned under `$HOME/repo/`.
 For a user site this could well be something like `$HOME/<user>.github.io`.
 
 Firstly, from the deployment repo dir, checkout the git branch hosting your publishing source.
 
 Then from the website sources dir (commonly your al-folio fork's clone):
+
 ```bash
 $ bundle exec jekyll build --lsi --destination $HOME/repo/publishing-source
 ```
@@ -304,7 +313,7 @@ The quote below is taken directly from the [jekyll configuration docs](https://j
 > Do not use an important location for `<destination>`; instead, use it as a staging area and copy files from there to your web server.
 
 If `$HOME/repo/publishing-source` contains files that you want jekyll to leave untouched, specify them under `keep_files` in `_config.yml`.
-In its default configuration, al-folio will copy the top-level `README.md` to the publishing source. If you want to change this behaviour, add `README.md` under `exclude` in `_config.yml`.
+In its default configuration, al-folio will copy the top-level `README.md` to the publishing source. If you want to change this behavior, add `README.md` under `exclude` in `_config.yml`.
 
 **Note:** Do _not_ run `jekyll clean` on your publishing source repo as this will result in the entire directory getting deleted, irrespective of the content of `keep_files` in `_config.yml`.
 
@@ -314,7 +323,7 @@ In its default configuration, al-folio will copy the top-level `README.md` to th
 
 #### Upgrading from a previous version
 
-If you installed **al-folio** as described above, you can configure a [github action](https://github.com/AndreasAugustin/actions-template-sync) to automatically sync your repository with the latest version of the theme:
+If you installed **al-folio** as described above, you can configure a [GitHub action](https://github.com/AndreasAugustin/actions-template-sync) to automatically sync your repository with the latest version of the theme:
 
 ```yaml
 name: Sync from template
@@ -347,13 +356,13 @@ Another option is to manually update your code by following the steps below:
 # Assuming the current directory is <your-repo-name>
 $ git remote add upstream https://github.com/alshedivat/al-folio.git
 $ git fetch upstream
-$ git rebase v0.8.0
+$ git rebase v0.9.0
 ```
 
 If you have extensively customized a previous version, it might be trickier to upgrade.
 You can still follow the steps above, but `git rebase` may result in merge conflicts that must be resolved.
 See [git rebase manual](https://help.github.com/en/github/using-git/about-git-rebase) and how to [resolve conflicts](https://help.github.com/en/github/using-git/resolving-merge-conflicts-after-a-git-rebase) for more information.
-If rebasing is too complicated, we recommend to re-install the new version of the theme from scratch and port over your content and changes from the previous version manually.
+If rebasing is too complicated, we recommend re-installing the new version of the theme from scratch and port over your content and changes from the previous version manually.
 
 ---
 
@@ -393,18 +402,17 @@ If you have a different question, please ask using [Discussions](https://github.
 5. **Q:** My site doesn't work when I enable `related_blog_posts`. Why? <br>
    **A:** This is probably due to the [classifier reborn](https://github.com/jekyll/classifier-reborn) plugin, which is used to calculate
    related posts. If the error states `Liquid Exception: Zero vectors can not be normalized...`, it means that it could not calculate related
-   posts for a specific post. This is usually caused by [empty or really small blog posts](https://github.com/jekyll/classifier-reborn/issues/64)
-   without meaningful words (i.e. only [stop words](https://en.wikipedia.org/wiki/Stop_words)) or even 
+   posts for a specific post. This is usually caused by [empty or minimal blog posts](https://github.com/jekyll/classifier-reborn/issues/64)
+   without meaningful words (i.e. only [stop words](https://en.wikipedia.org/wiki/Stop_words)) or even
    [specific characters](https://github.com/jekyll/classifier-reborn/issues/194) you used in your posts. Also, the calculus for similar posts are
    made for every `post`, which means every page that uses `layout: post`, including the announcements. To change this behavior, simply add
    `related_posts: false` to the front matter of the page you don't want to display related posts on.
-   
 
 ## Features
 
 ### Publications
 
-Your publications page is generated automatically from your BibTex bibliography.
+Your publications' page is generated automatically from your BibTex bibliography.
 Simply edit `_bibliography/papers.bib`.
 You can also add new `*.bib` files and customize the look of your publications however you like by editing `_pages/publications.md`.
 
@@ -413,15 +421,18 @@ You can also add new `*.bib` files and customize the look of your publications h
 <details><summary>(click to expand) <strong>Author annotation:</strong></summary>
 
 In publications, the author entry for yourself is identified by string array `scholar:last_name` and string array `scholar:first_name` in `_config.yml`:
-```
+
+```yaml
 scholar:
   last_name: [Einstein]
   first_name: [Albert, A.]
 ```
+
 If the entry matches one form of the last names and the first names, it will be underlined.
 Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
-The coauthor data format in `_data/coauthors.yml` is as follows,
-```
+The co-author data format in `_data/coauthors.yml` is as follows,
+
+```yaml
 "Adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
@@ -441,6 +452,7 @@ The coauthor data format in `_data/coauthors.yml` is as follows,
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 ```
+
 If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided.
 
 </details>
@@ -453,7 +465,7 @@ There are several custom bibtex keywords that you can use to affect how the entr
 - `abstract`: Adds an "Abs" button that expands a hidden text field when clicked to show the abstract text
 - `arxiv`: Adds a link to the Arxiv website (Note: only add the arxiv identifier here - the link is generated automatically)
 - `bibtex_show`: Adds a "Bib" button that expands a hidden text field with the full bibliography entry
-- `html`: Inserts a "HTML" button redirecting to the user-specified link
+- `html`: Inserts an "HTML" button redirecting to the user-specified link
 - `pdf`: Adds a "PDF" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
 - `supp`: Adds a "Supp" button to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
 - `blog`: Adds a "Blog" button redirecting to the specified link
@@ -462,7 +474,7 @@ There are several custom bibtex keywords that you can use to affect how the entr
 - `slides`: Adds a "Slides" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
 - `website`: Adds a "Website" button redirecting to the specified link
 - `altmetric`: Adds an [Altmetric](https://www.altmetric.com/) badge (Note: if DOI is provided just use `true`, otherwise only add the altmetric identifier here - the link is generated automatically)
-- `dimensions`: Adds an [Dimensions](https://www.dimensions.ai/) badge (Note: if DOI or PMID is provided just use `true`, otherwise only add the dimensions identifier here - the link is generated automatically)
+- `dimensions`: Adds a [Dimensions](https://www.dimensions.ai/) badge (Note: if DOI or PMID is provided just use `true`, otherwise only add the Dimensions' identifier here - the link is generated automatically)
 
 You can implement your own buttons by editing the bib.html file.
 
@@ -520,14 +532,16 @@ Easily create beautiful grids within your blog posts and project pages:
 
 ### Other features
 
-#### GitHub repositories and user stats
-**al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy)
-to display GitHub repositories and user stats on the the `/repositories/` page.
+#### GitHub's repositories and user stats
 
-Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the the `/repositories/` page.
+**al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy)
+to display GitHub repositories and user stats on the `/repositories/` page.
+
+Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the `/repositories/` page.
 
 You may also use the following codes for displaying this in any other pages.
-```
+
+```html
 <!-- code for GitHub users -->
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -537,7 +551,7 @@ You may also use the following codes for displaying this in any other pages.
 </div>
 {% endif %}
 
-<!-- code for Github trophies -->
+<!-- code for GitHub trophies -->
 {% if site.repo_trophies.enabled %}
 {% for user in site.data.repositories.github_users %}
   {% if site.data.repositories.github_users.size > 1 %}
@@ -560,6 +574,7 @@ You may also use the following codes for displaying this in any other pages.
 ```
 
 #### Theming
+
 A variety of beautiful theme colors have been selected for you to choose from.
 The default is purple, but you can quickly change it by editing the
 `--global-theme-color` variable in the `_sass/_themes.scss` file.
@@ -569,6 +584,7 @@ You can also add your own colors to this file assigning each a name for ease of
 use across the template.
 
 #### Social media previews
+
 **al-folio** supports preview images on social media.
 To enable this functionality you will need to set `serve_og_meta` to `true` in your `_config.yml`.
 Once you have done so, all your site's pages will include Open Graph data in the HTML head element.
@@ -579,12 +595,14 @@ If for an individual page this variable is not set, then the theme will fall bac
 In both the page-specific and site-wide cases, the `og_image` variable needs to hold the URL for the image you wish to display in social media previews.
 
 #### Atom (RSS-like) Feed
+
 It generates an Atom (RSS-like) feed of your posts, useful for Atom and RSS readers.
 The feed is reachable simply by typing after your homepage `/feed.xml`.
 E.g. assuming your website mountpoint is the main folder, you can type `yourusername.github.io/feed.xml`
 
 #### Related posts
-By default,  there will be a related posts section on the bottom of the blog posts.
+
+By default, there will be a related posts section on the bottom of the blog posts.
 These are generated by selecting the `max_related` most recent posts that share at least `min_common_tags` tags with the current post.
 If you do not want to display related posts on a specific post, simply add `related_posts: false` to the front matter of the post.
 If you want to disable it for all posts, simply set `enabled` to false in the `related_blog_posts` section in `_config.yml`.
@@ -606,11 +624,14 @@ If you are interested, please reach out!
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tr>
-    <td align="center"><a href="http://maruan.alshedivat.com"><img src="https://avatars.githubusercontent.com/u/2126561?v=4" width="100px;" alt=""/><br /><sub><b>Maruan</b></sub></a></td>
-    <td align="center"><a href="http://rohandebsarkar.github.io"><img src="https://avatars.githubusercontent.com/u/50144004?v=4" width="100px;" alt=""/><br /><sub><b>Rohan Deb Sarkar</b></sub></a></td>
-    <td align="center"><a href="https://amirpourmand.ir"><img src="https://avatars.githubusercontent.com/u/32064808?v=4" width="100px;" alt=""/><br /><sub><b>Amir Pourmand</b></sub></a></td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://maruan.alshedivat.com"><img src="https://avatars.githubusercontent.com/u/2126561?v=4" width="100px;" alt=""/><br /><sub><b>Maruan</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://rohandebsarkar.github.io"><img src="https://avatars.githubusercontent.com/u/50144004?v=4" width="100px;" alt=""/><br /><sub><b>Rohan Deb Sarkar</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://amirpourmand.ir"><img src="https://avatars.githubusercontent.com/u/32064808?v=4" width="100px;" alt=""/><br /><sub><b>Amir Pourmand</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://george-gca.github.io/"><img src="https://avatars.githubusercontent.com/u/31376482?v=4" width="100px;" alt=""/><br /><sub><b>George</b></sub></a></td>
+    </tr>
+  </tbody>
 </table>
 
 <!-- markdownlint-restore -->
