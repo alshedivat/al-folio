@@ -36,7 +36,7 @@ My research is at the interface of **inverse problems**, **optimization**, **pde
 </div>
 
 <div markdown="1" style="margin-top: 1.2rem;">
-My contact information is **[here](https://www.silviofanzon.com/contact/)** The best way to reach me is by email:
+My contact information is **[here](https://www.silviofanzon.com/contact/)**. The best way to reach me is by email:
 </div>
 
 <div markdown="1" style="text-align: center; margin-top: 0.8rem;">
