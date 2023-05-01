@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - mengdaxing
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - mengdaxing/PingAnWeiBan_Util
+  - mengdaxing/paper_presentation
+  - mengdaxing/profile_util
