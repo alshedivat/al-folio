@@ -70,7 +70,7 @@ github_username: varunthakore # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: varunthakore # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: #varunthakore # your LinkedIn user name
+linkedin_username: varunthakore # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
@@ -115,7 +115,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: #al-folio # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: blog on math, cryptography and blockchains
+blog_description: #blog on math, cryptography and blockchains
 permalink: /blog/:year/:title/
 
 # Pagination

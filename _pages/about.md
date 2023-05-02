@@ -18,11 +18,11 @@ profile:
 social: true  # includes social icons at the bottom of the page
 ---
 
-Greetings and welcome to my webpage!
+Greetings and welcome to my webpage !
 
-As an Mtech student specializing in Communication and Signal Processing at IIT Bombay, I work in the field of cryptography and blockchains. Through my blog, I hope to share my insights and engage with others who share my interests.
+As an Mtech student specializing in Communication and Signal Processing at IIT Bombay, I work in the field of cryptography and blockchains with [Prof. Saravanan Vijayakumaran](https://www.ee.iitb.ac.in/~sarva/). Through my blog, I hope to share my insights and engage with others who share my interests.
 
-Please feel free to reach out to me via email to discuss these topics further, ask questions, or simply connect. Thank you for visiting!
+Please feel free to reach out to me via email to discuss these topics further, ask questions, or simply connect. Thank you for visiting !
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
