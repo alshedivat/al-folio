@@ -1,7 +1,5 @@
 ---
 layout: post
-title: "Research Interests"
+title: "Intelligence as Understanding Abstractions"
 date: 2022-08-08
 ---
-
-# Intelligence as Understanding Abstractions

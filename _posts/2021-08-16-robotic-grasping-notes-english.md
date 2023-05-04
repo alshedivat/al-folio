@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Robotic Grasping - FDU Robotics Lab Notes(English Version)"
+title: "Robotic Grasping - FDU Robotics Lab Notes (English Version)"
 date: 2021-08-16 00:00:00-0400
 ---
 

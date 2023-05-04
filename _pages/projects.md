@@ -3,7 +3,7 @@ layout: page
 title: #projects
 permalink: #/projects/
 description:
-nav: true
+nav: #true
 display_categories: #[2021, 2020]
 horizontal: false
 ---
