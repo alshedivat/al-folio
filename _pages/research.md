@@ -2,8 +2,8 @@
 layout: page
 permalink: /research/
 title: research
-description: ibndependent research papers completed in my final year of study at McGill University
-years: [2023, 2022, 2022]
+description: Independent research papers completed in my final year of study at McGill University
+years: [2023, 2022, 2021]
 nav: true
 nav_order: 1
 ---
