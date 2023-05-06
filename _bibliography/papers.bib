@@ -2,16 +2,19 @@
 ---
 
 @inproceedings{yun2023animationfidelity,
-	bibtex_show={true},
-	booktitle = {IEEE Virtual Reality},
+	bibtex_show = {true},
+	booktitle = {2023 IEEE Conference Virtual Reality and 3D User Interfaces (VR)},
 	title = {{Animation Fidelity in Self-Avatars: Impact on User Performance and Sense of Agency}},
 	author = {Yun, Haoran and Ponton, Jose Luis and Andujar, Carlos and Pelechano, Nuria},
 	year = {2023},
 	month = {March},
 	publisher = {{IEEE}},
+	pages = {286-296},
+	ISSN = {2642-5254},
 	preview = {animationfidelity.gif},
 	selected = {true},
-	pdf={animation_fidelity_ieeevr23.pdf},
+	pdf = { animation_fidelity_ieeevr23.pdf},
+	DOI = {10.1109/VR55154.2023.00044},
 	abstract = {In this paper, we study the impact of the avatar's animation fidelity on different tasks. We compare three animation techniques: two of them using Inverse Kinematics to reconstruct the pose from six trackers, and a third one using a motion capture system with 17 inertial sensors. Our results show that the animation quality affects the Sense of Embodiment. Inertial-based MoCap performs significantly better in mimicking body poses. Surprisingly, IK-based solutions using fewer sensors outperformed MoCap in tasks requiring accurate positioning, which we attribute to the higher latency and the positional drift of the end-effectors.}
 }
 	
@@ -31,11 +34,10 @@
 	month = {September},
 	preview = {mmvr.gif},
 	selected = {true},
-	code={https://github.com/UPC-ViRVIG/MMVR},
-	website={https://upc-virvig.github.io/MMVR/},
-	pdf={mmvr_sca2022.pdf},
-	preview={mmvr.gif},
-	abstract={The animation of user avatars plays a crucial role in conveying their pose, gestures, and relative distances to virtual objects
+	code = {https://github.com/UPC-ViRVIG/MMVR},
+	website = {https://upc-virvig.github.io/MMVR/},
+	pdf = {mmvr_sca2022.pdf},
+	abstract = {The animation of user avatars plays a crucial role in conveying their pose, gestures, and relative distances to virtual objects
 				or other users. Consumer-grade VR devices typically include three trackers: the Head Mounted Display (HMD) and
 				two handheld VR controllers. Since the problem of reconstructing the user pose from such sparse data is ill-defined,
 				especially for the lower body, the approach adopted by most VR games consists of assuming the body orientation matches
@@ -60,9 +62,9 @@
   ISSN = {1017-4656},
   ISBN = {978-3-03868-169-4},
   doi = {10.2312/egs.20221037},
-  preview={avatargo.gif},
-  selected={true},
-  code={https://github.com/UPC-ViRVIG/AvatarGo},
-  pdf={avatarGo_shortEG2022.pdf},
+  preview = {avatargo.gif},
+  selected = {true},
+  code = {https://github.com/UPC-ViRVIG/AvatarGo},
+  pdf = {avatarGo_shortEG2022.pdf},
   abstract={The use of self-avatars in a VR application can enhance presence and embodiment which leads to a better user experience. In collaborative VR it also facilitates non-verbal communication. Currently it is possible to track a few body parts with cheap trackers and then apply IK methods to animate a character. However, the correspondence between trackers and avatar joints is typically fixed ad-hoc, which is enough to animate the avatar, but causes noticeable mismatches between the user's body pose and the avatar. In this paper we present a fast and easy to set up system to compute exact offset values, unique for each user, which leads to improvements in avatar movement. Our user study shows that the Sense of Embodiment increased significantly when using exact offsets as opposed to fixed ones. We also allowed the users to see a semitransparent avatar overlaid with their real body to objectively evaluate the quality of the avatar movement with our technique.}
 }
