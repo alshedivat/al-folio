@@ -25,6 +25,8 @@ Currently I'm working as a lecturer in the department of Electrical and Electron
 
 I worked with Prof. <a href="https://www.kuet.ac.bd/eee/suyusuf/">Dr. Md. Salah Uddin Yusuf</a> during my undergraduate thesis. We worked on object detection and efficient implementation of the DL model. 
 
+In my spare time, I like to play the guitar, you can watch some of my performances on YouTube (just search for "Shetu Mohanto").
+
 #### __Research interests__
 1. Deep learning
 2. Machine learning on low power devices

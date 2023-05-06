@@ -167,6 +167,9 @@ blockquote {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  height: 60px;
+  padding-bottom: 0%;
+  padding-top: 1.5%;
 }
 
 .navbar .dropdown-menu {
