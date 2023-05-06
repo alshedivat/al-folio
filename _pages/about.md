@@ -2,25 +2,33 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Lecturer at Green University of Bangladesh <br> <font face="courier">shetumohanto AT gmail.com </font> <br> <a href='https://www.linkedin.com/in/shetumohanto/'>LinkedIn</a>
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: Shetu Mohanto.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Room no: 607 (B building)</p>
+    <p>Green University of Bangladesh</p>
+    <p>220/D, Begum Rokeya Sarani, Dhaka -1207, Bangladesh.</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome! Myself Shetu Mohanto. I received my Bachelor from KUET in 2023 from the Department of Electrical and Electronic Engineering.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Currently I'm working as a lecturer in the department of Electrical and Electronics Engineering at the Green University of Bangladesh.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I worked with Prof. <a href="https://www.kuet.ac.bd/eee/suyusuf/">Dr. Md. Salah Uddin Yusuf</a> during my undergraduate thesis. We worked on object detection and efficient implementation of the DL model. 
+
+#### __Research interests__
+1. Deep learning
+2. Machine learning on low power devices
+(TinyML)
+3. Quantum machine learning
+4. Optical neural network
+5. Navigation of self-driving car
