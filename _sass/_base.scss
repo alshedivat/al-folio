@@ -453,13 +453,12 @@ footer.sticky-bottom {
       font-size: 0.875rem;
       padding-top: 0.25rem;
       padding-bottom: 0;
-      direction: initial; // to supress rtl for a better view
     }
 
     a {
       color: var(--global-text-color);
       text-decoration: none;
-      
+        
       &:hover {
         color: var(--global-theme-color);
       }
@@ -775,6 +774,7 @@ html.transition *:after {
     font-size: 0.875rem;
     padding-top: 0.25rem;
     padding-bottom: 1rem;
+    direction: ltr !important; // to supress rtl for a better view
     
     a {
       color: var(--global-text-color-light);

@@ -1,11 +1,11 @@
 ---
 layout: post
-title: یک عنوان راست‌به‌چپ
+title:  راست‌به‌چپ با نوار کناری
 date: 2023-05-05
 description: RTL even in sidebar
 lang: fa
-tags: internationalization formatting math code
-category: internationalization
+tags: internationalization
+categories: sidebar toc 
 related_posts: false
 toc:
   sidebar: right  
@@ -30,29 +30,6 @@ $$
 if lang=="rtl"
     print("I am a right-to-left script!")
 ```
-
-## بلاک
-بلاک‌ها همواره چپ‌چین خواهند ماند:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-    
-حتی اگر به زبان‌های راست‌به‌چپ نوشته شوند:
-    
-    ---
-    صفحه‌بندی: صفحه
-    عنوان: پروژه
-    توضیحات: یک پروژه با تصویر زمینه
-    ---
-    
-## نقل‌قول
-> نقل‌قول‌ها به این شکل به نمایش درخواهند آمد.
-
-زیباتر خواهد بود اگر خط عمودی به راست انتقال داده شود. این کار با ویرایش _base.scss امکان‌پذیر است:
 
 ```c++
 int main(int argc, char const \*argv[])
@@ -80,3 +57,26 @@ import numpy as np
 
 print('Hello world!')
 {% endhighlight %}
+
+
+
+## بلاک
+بلاک‌ها همواره چپ‌چین خواهند ماند:
+
+    ---
+    layout: page
+    title: project
+    description: a project with a background image
+    img: /assets/img/12.jpg
+    ---
+    
+حتی اگر به زبان‌های راست‌به‌چپ نوشته شوند:
+    
+    ---
+    صفحه‌بندی: صفحه
+    عنوان: پروژه
+    توضیحات: یک پروژه با تصویر زمینه
+    ---
+    
+## نقل‌قول
+> نقل‌قول‌ها به این شکل به نمایش درخواهند آمد.
