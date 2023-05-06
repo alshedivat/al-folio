@@ -8,7 +8,7 @@ tags: internationalization
 categories: sidebar toc 
 related_posts: false
 toc:
-  sidebar: right  
+  sidebar: right
 ---
 
 # عنوان
