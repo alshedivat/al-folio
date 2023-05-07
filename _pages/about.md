@@ -16,6 +16,8 @@ social: true  # includes social icons at the bottom of the page
     Composite image of Galactic emission as measured by the Planck satellite. Different colors represent dust, synchrotron, free-free, and carbon monoxide line emission. Credit: ESA/NASA/JPL-Caltech.
 </div>
 
+</br>
+
 The purpose of the Pan-Experiment Galactic Science Group is to pool expertise from researchers interested in using cosmic microwave background experiments to study the Milky Way. The group operates as a virtual meeting space for scientists that work across various CMB experiments, as well as other interstellar medium experts. Our focus is on the astrophysics of the Milky Way, including star formation, interstellar turbulence and magnetism, dust physics, cosmic ray radiation and propagation, and the multi-phase structure of the interstellar medium. We seek in particular to broaden the science yield of the sensitive, multi-frequency millimeter wavelength polarimetry provided by CMB experiments. We also draw upon the group expertise to build publicly available models of Galactic emission for use by the broader community.
 
 
