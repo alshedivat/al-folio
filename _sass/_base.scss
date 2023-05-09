@@ -17,6 +17,13 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  
+  [dir=rtl] & {
+    font-family: "Vazirmatn"; //change the font for rtl scripts
+    span {
+      font-family: monospace; //except of the code blocks
+    }
+  }
 }
 
 hr {
@@ -59,6 +66,12 @@ blockquote {
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   font-size: 1.2rem;
+  
+  // to bring the vertical bar to the right
+  [dir=rtl] & {
+    border-left: none;
+    border-right: 2px solid var(--global-theme-color);
+  }
 }
 
 // Math
@@ -429,7 +442,7 @@ footer.sticky-bottom {
     list-style: none;
     padding-top: 2rem;
     padding-bottom: 2rem;
-
+    
     .post-meta {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
@@ -441,12 +454,13 @@ footer.sticky-bottom {
       font-size: 0.875rem;
       padding-top: 0.25rem;
       padding-bottom: 0;
+      direction: ltr !important; // to supress rtl for a better view
     }
 
     a {
       color: var(--global-text-color);
       text-decoration: none;
-
+        
       &:hover {
         color: var(--global-theme-color);
       }
@@ -721,7 +735,8 @@ pre {
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
-
+  text-align: left; //to enforce left-alignment in rtl pages
+  direction: ltr;   //to enforce left-alignment in rtl pages
   pre,
   code {
     background-color: transparent;
@@ -761,7 +776,8 @@ html.transition *:after {
     font-size: 0.875rem;
     padding-top: 0.25rem;
     padding-bottom: 1rem;
-
+    direction: ltr !important; // to supress rtl for a better view
+    
     a {
       color: var(--global-text-color-light);
       text-decoration: none;
@@ -776,6 +792,12 @@ html.transition *:after {
     blockquote {
       border-left: 5px solid var(--global-theme-color);
       padding: 8px;
+      
+      // to bring the vertical bar to the right
+      [dir=rtl] & {
+        border-right: 5px solid var(--global-theme-color);
+        border-left: none;
+        }
     }
   }
 }
@@ -922,6 +944,17 @@ nav[data-toggle="toc"] {
     &:hover {
       color: var(--global-hover-color);
       border-left-color: var(--global-hover-color);
+      @if &direction=="rtl" {
+        border-right-color: var(--global-hover-color);
+        border-left: 0;
+        border-right: 1px solid;  
+      }
+      @else {
+        border-left-color: var(--global-hover-color);
+        border-right: 0;
+        border-left: 1px solid;
+      }
+       
     }
   }
 
@@ -933,6 +966,15 @@ nav[data-toggle="toc"] {
     &:hover {
       color: var(--global-hover-color);
       border-left-color: var(--global-hover-color);
+    }
+
+    [dir=rtl] & {
+      border-left: 0;
+      border-right: 2px solid;
+      border-right-color: var(--global-theme-color);
+      &:hover {
+        border-right-color: var(--global-hover-color);
+      }
     }
   }
 }

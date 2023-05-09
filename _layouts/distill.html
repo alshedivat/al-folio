@@ -60,7 +60,7 @@
     {%- include header.html %}
 
     <!-- Content -->
-    <div class="post distill">
+    <div class="post distill" {% if site.rtl_langs contains page.lang %}dir="rtl" align="right"{% endif %}>
 
       <d-title>
         <h1>{{ page.title }}</h1>
