@@ -26,18 +26,18 @@ descriptions:
   unk: looks like there has been a mistake. Nothing exists here.
 projects:
   titles:
-    project1: biodiesel production
-    project2: environmental consultancy
+    project1: Deasyl
+    project2: ESCI-UPF
     project3: project 3
-    project4: claus
-    project5: cuidapro
+    project4: Claus
+    project5: CuidaPro
     project6: OPEN
   descriptions:
-    project1: circular economy of biodiesel and valorisation of waste glycerol in solketal and CaDG
-    project2: measuring environmental impacts for organisations or products
+    project1: Chemistry for a greener world
+    project2: UNESCO Chair in Life Cycle and Climate Change
     project3: a project that redirects to another website
-    project4: sustainable tourism management
-    project5: home care services for the elderly
+    project4: Management of touristic accomodations
+    project5: Home care services for the elderly
     project6: CIRCULAR Projects for ENvironment
   categories:
     personal: personal

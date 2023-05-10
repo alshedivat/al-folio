@@ -26,19 +26,19 @@ descriptions:
   unk: parece que ha habido un error. Aquí no hay nada.
 projects:
   titles:
-    project1: producción de biodiesel
-    project2: servicio de consultoría
+    project1: Deasyl
+    project2: ESCI-UPF
     project3: proyecto 3
-    project4: claus
-    project5: cuidapro
+    project4: Claus
+    project5: CuidaPro
     project6: OPEN
   descriptions:
-    project1: economía circular del biodiesel y valorización del glicerol residuo en solketal y CaDG
-    project2: mediciones del impacto medioambiental de organizaciones o productos
+    project1: Química verde para un futuro sostenible
+    project2: Cátedra UNESCO en Cambio Climático y Ciclo de vida
     project3: a project that redirects to another website
-    project4: gestión de servicios en turismo sostenible
-    project5: servicio de atención a domicilio para personas mayores
-    project6: proyectos circulares para el medio ambiente
+    project4: Gestión de alojamientos turísticos
+    project5: Servicio de atención a domicilio para personas mayores
+    project6: Proyectos circulares para el medio ambiente
   categories:
     personal: personal
     work: trabajo
