@@ -40,8 +40,22 @@ layout: default
   </header>
 
   <article class="post-content">
-    {{ content }}
+    {% if page.toc and page.toc.beginning %}
+    <div id="table-of-contents">
+      {% toc %}
+    </div>
+    <hr>
+    {% endif %}
+    <div id="markdown-content">
+      {{ content }}
+    </div>
   </article>
+
+  {%- if site.related_blog_posts.enabled -%}
+    {%- if page.related_posts == null or page.related_posts -%}
+      {% include related_posts.html %}
+    {%- endif %}
+  {%- endif %}
 
   {%- if site.disqus_shortname and page.disqus_comments -%}
     {% include disqus.html %}

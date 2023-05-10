@@ -15,10 +15,15 @@ pagination:
 
 <div class="post">
 
+  {% assign blog_name_size = site.blog_name | size %}
+  {% assign blog_description_size = site.blog_description | size %}
+
+  {% if blog_name_size > 0 or blog_description_size > 0 %}
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
   </div>
+  {% endif %}
 
   {% if site.display_tags %}
   <div class="tag-list">
@@ -48,7 +53,11 @@ pagination:
     {% assign categories = post.categories | join: "" %}
 
     <li>
-      <h3>
+{%- if post.thumbnail -%}
+<div class="row">
+          <div class="col-sm-9">
+{%- endif -%}
+        <h3>
         {% if post.redirect == blank %}
           <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         {% else %}
@@ -90,6 +99,13 @@ pagination:
               {% endfor %}
           {% endif %}
     </p>
+{%- if post.thumbnail -%}
+    </div>
+  <div class="col-sm-3">
+    <img class="card-img" src="{{post.thumbnail | relative_url}}" style="object-fit: cover; height: 90%" alt="image">
+  </div>
+</div>
+{%- endif -%}
     </li>
 
     {% endfor %}
