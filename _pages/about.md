@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
+    <p>Providence </p>
+    <p>Rhode Island</p>
     <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello world, I am Geosciences graduate student at Brown University. I am geoAI enthusiast. I use different geospatial datasets to study and analyze the changes in landcover/use, hydrology, vegetation dynamics. I have used computer vision and deep learning techniques for pattern recognition and object detection in satellite imagery.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
