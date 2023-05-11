@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Department of Computer Science @ UofT
+subtitle: Department of Computer Science @ University of Toronto
 
 profile:
   align: right
@@ -15,9 +15,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a [Master of Science in Applied Computing (MScAC)](https://mscac.utoronto.ca/) student at the University of Toronto. My graduate studies focus on artificial intelligence. I am particularly interested in generative models, natural language processing (NLP).
+I am a [Master of Science in Applied Computing (MScAC)](https://mscac.utoronto.ca/) student at the University of Toronto. My graduate studies focus on artificial intelligence. I am particularly interested in generative models, interpretability, and self-supervised learning.
 
-Previously, I studied [Engineering Physics](https://www.eng.mcmaster.ca/engphys/) at McMaster University, where I was focused primarily on semiconductor devices and quantum computing. I was also a research intern at Perimeter Institute, the world's largest theoretical physics research hub, where I had the opportunity to work at the intersection of machine learning and physics. 
+Previously, I studied [Engineering Physics](https://www.eng.mcmaster.ca/engphys/) at McMaster University, where I primarily focused on semiconductor devices and quantum computing. I was also a research intern at Perimeter Institute, the world's largest theoretical physics research hub, where I had the opportunity to work at the intersection of machine learning and physics. 
 
 As of January 2024, I will be seeking full-time opportunities for machine learning engineer/scientist roles.
 
