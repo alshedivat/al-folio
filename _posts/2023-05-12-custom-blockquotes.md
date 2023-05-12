@@ -55,7 +55,17 @@ We decided to support the same custom blockquotes as in [jekyll-gitbook](https:/
 }
 ```
 
-These styles can be used as following:
+A regular blockquote can be used as following:
+
+```markdown
+> This is a regular blockquote
+> and it can be used as usual
+```
+
+> This is a regular blockquote
+> and it can be used as usual
+
+These custom styles can be used by adding the specific class to the blockquote, as follows:
 
 ```markdown
 > ##### TIP
