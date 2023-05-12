@@ -776,6 +776,10 @@ html.transition *:after {
     blockquote {
       border-left: 5px solid var(--global-theme-color);
       padding: 8px;
+
+      p {
+        margin-bottom: 0;
+      }
     }
   }
 }
