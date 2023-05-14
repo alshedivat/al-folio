@@ -148,7 +148,7 @@ related_blog_posts:
 #   reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
 #   input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
 #   theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
-#   emit_metadata: 0
+#   emit_metadata: 0 
 #   lang: en
 
 # Disqus comments (DEPRECATED)
