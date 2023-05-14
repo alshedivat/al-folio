@@ -21,8 +21,6 @@ social: true  # includes social icons at the bottom of the page
 
 I am currently relocating my personal website. You can view my original website [here](https://andre-ye.github.io/andre-ye.github.io-retired/){:target="_blank"} while I am transferring.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an undergraduate at the University of Washington studying philosophy and computer science. My interest is in the philosophy of AI, specifically political/ethical and metaphysical dimensions -- some questions which excite me are "How do generative models challenge our conceptions of property?", "What are the pitfalls of applying human cognition principles to LLMs?", and "Does AI stand for universality(ies), and what ethical and political difficulties arise?" Currently, I am working with Prof. Ranjay Krishna, Prof. Amy Zhang, and PhD student Sebastin Santy on vision understanding models' internalization of cross-cultural perceptual differences.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+... [more discussion]
