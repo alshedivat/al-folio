@@ -9,18 +9,17 @@ authors:
     - name: Zakaria Patel
 
 toc:
-  - name: Equations
+  - name: Introduction
     # if a section has subsections, you can add them as follows:
     # subsections:
     #   - name: Example Child Subsection 1
     #   - name: Example Child Subsection 2
-  - name: Citations
-  - name: Footnotes
-  - name: Code Blocks
-  - name: Interactive Plots
-  - name: Layouts
-  - name: Other Typography?
+  - name: The Standard Autoencoder
+  - name: Mathematical Overview of Autoencoders
+  - name: Regularization Methods
+  - name: Variational Autoencoders
 ---
+
 
 
 ## Introduction
@@ -74,24 +73,97 @@ $$\mathcal{L}_{\text{BCE}} = -\frac{1}{n} \sum_{i=1}^{n} (\mathbf{x}_i \log(\mat
 
 where $$\log$$ represents the natural logarithm.
 
-# N
+## Regularization Methods
 
-This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine.
-You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`.
-If you leave it inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
+To recap, a autoencoder should take in some input, and produce an output that resembles the input as closely as possible. In between these two stages is some kind of lossy process that prevents the autoencoder from having access to the entire input, and trivially copying it. The architecture described previously falls under a category of autoencoders known as undercomplete autoencoders, where a bottleneck layer enforces this information loss. 
 
-To use display mode, again surround your expression with `$$` and place it as a separate paragraph.
-Here is an example:
+There are various alternatives to the bottleneck architecture. Overcomplete autoencoders avoid restricting the size of the latent vector in the neural network (i.e. the bottleneck layer), instead opting to use techniques such as regularization or denoising to limit the information stored in this layer. In this case, the dimension of the latent vector can be larger than the input. Clearly, an overcomplete autoencoder itself is useless, as the network could trivially learn the identity by passing the input through the latent layer unchanged. Regularization penalizes the use of the additional real estate in the large latent layer, hoping to prevent the autoencoder from simply passing information through it and forcing it to compress information into fewer number of neurons. In a similar vein, the denoising task also prevents the autoencoder from copying the input to the output, by providing it with a noisy copy of the input. This way, the autoencoder must learn to transform this noisy image into one that is denoised. The identity function with no longer suffice. 
+
+## Variational Autoecoders
+
+Consider the simple graphical model in figure X. While $$\mathbf{x}\in \mathcal{R}^d$$ is observed, it is a product of $$\mathbf{z}\in \mathcal{R}^k$$, a latent space variable. We can't observe $$\mathbf{z}$$ (otherwise it wouldn't be latent), but it may be possible to infer it after observing its generation, $$\mathbf{x}$$. We're interested in this latent variable $$\mathbf{z}$$ because it generates our observations. 
+
+In order to treat this as a generative process, we define a distribution $$p(\mathbf{z})$$ from which we can randomly sample a latent vector. Subsequently. we could provide $$\mathbf{z}$$ as input to some deterministic decoder $$G_\theta(\mathbf{z})$$, producing generated samples $$\mathbf{x'}$$. The process of converting a latent representation into an image is complicated. As usual, such complicated functions can be approximated by a neural network, and so $$G_\theta$$ is implemented as such.
+
+The issue with this approach occurs in how we formulate our training procedure. A natural way of training a model on this task may entail a maximum likelihood objective, where we try to optimize the parameters of the model to maximize the likelihood of the data, $$p(\mathbf{x})=\int p(\mathbf{z})p(\mathbf{x}\vert\mathbf{z}) d\mathbf{z}$$. Here, $$p(\mathbf{z})$$ is a prior distribution for $$\mathbf{z}$$, which we often choose to be a Gaussian. This may seem rather ad-hoc, but Gaussians have much to offer in the way of computational convenience. The second term, $$p(\mathbf{x}\vert \mathbf{z})$$, represents the probability distribution over the decoder's outputs, conditioned on the input $$\mathbf{z}$$. If the decoder is deterministic, each input $$\mathbf{z}$$ corresponds to a single output $$\mathbf{x'}$$, meaning the distribution $$p(\mathbf{x}\vert \mathbf{z})$$ is zero everywhere except where single point where $$\mathbf{x} = \mathbf{x'}$$. As such, there is often no training signal. The problem is made worse when $$k\ll d$$. The decoder must map the low dimensional latent code $$\mathbf{z}$$ to a much higher dimension. 
+
+We deal with this by introducing a \textit{noisy channel model}, 
 
 $$
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+p_\theta(\mathbf{x}\vert\mathbf{z}) = \mathcal{N}(\mathbf{x}; G_\theta(\mathbf{z}), \eta \mathbf{I}).
 $$
 
-Note that MathJax 3 is [a major re-write of MathJax](https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html) that brought a significant improvement to the loading and rendering speed, which is now [on par with KaTeX](http://www.intmath.com/cg5/katex-mathjax-comparison.php).
+This formulation ensures that the conditional probability of $$\mathbf{x}$$ is non-zero everywhere. Again, we've assumed a Gaussian for computational convenience, with mean $$G_\theta(\mathbf{z})$$  and covariance $$\eta$$. Each latent code now corresponds to a probability distribution over $$\mathbf{x}$$, ensuring that we obtain a non-zero training signal. Computing $$p(\mathbf{x})=\int p(\mathbf{z}) p(\mathbf{x}\vert\mathbf{z}) d\mathbf{z}$$ requires integration over each dimension of $$\mathbf{z}$$.
 
-***
+Another issue with the maximum likelihood objective is that it is possibly intractable. We chose to approximate the likelihood function $$p(\mathbf{x}\vert\mathbf{z})$$ with a neural network $$G_\theta$$. Obviously, $$G_\theta$$ is a very complicated function - there is no hope of analytically integrating it.  
 
-## Citations
+Numerical methods aren't necessarily sufficient here, either. Computing $$p(\mathbf{x})$$ involves integration over all latent variables. As such, we must consider all possible combinations of values that each latent variable can take, leading to a complexity that scales with the number of latent variables. In short, a high dimensional latent space leads to a computationally burdensome integral. So, we have reached the conclusion that computing $$p(\mathbf{x})$$ is clearly intractable. 
+
+
+We will briefly digress to reiterate how we planned to use this model in a generative capacity. We must be able to \textit{randomly} sample $$\mathbf{z}$$, and we can subsequently pass it into the decoder $$G_\theta$$ to produce a sample $$\mathbf{x'}$$. This is certainly a plausible scheme if we had some way of sampling $\mathbf{z}$. In fact, we do. We have already chosen $$p(\mathbf{z})$$ to be a Gaussian with mean $$\mathbf{\mu} = \mathbf{0}$$ and unit covariance. If $$G_\theta$$ has been trained to take latent vectors from this prior distribution and decode them into samples $$\mathbf{x'}$$, then we have a generative model.
+
+How does the decoder actually learn to map latent vectors to samples? We could ask the decoder to produce samples $$\mathbf{x'}$$ that are similar to some ground truth $$\mathbf{x}$$ based on a sampled latent vector $$\mathbf{z}$$. However, this choice of latent vector is arbitrary, as we have chosen it ourselves. We would rather let the network learn a latent space on its own, as the network can learn something which has a meaningful structure. To this end, we introduce an encoder network $$q_\phi(\mathbf{z}\vert\mathbf{x})$$ which approximates the posterior distribution $$p(\mathbf{z}\vert\mathbf{x})$$
+
+Just like the standard autoencoder, this encoder produces a latent vector $$\mathbf{z}$$ that the decoder must try to reconstruct into $$\mathbf{x}$$. Then, training the encoder and decoder together produces a meaningful latent space.
+
+## Variational Inference
+
+The approximation $$q_\phi(\mathbf{z}\vert\mathbf{x})$$ should be as close to $$p(\mathbf{z}\vert\mathbf{x})$$ as possible. One way to determine how different two distributions are is to measure their Kullback-Leibler (KL) divergence (formally, it is not a distance metric as it is not symmetric, i.e. $$D_{KL}(p\vert\vert q) \neq D_{KL}(q\vert\vert p)$$). For a discrete distribution,
+
+
+$$
+KL(p \vert\vert q) = \sum_{c=1}^{M}p_c \log{\frac{q_c}{p_c}}
+$$
+
+In our case, we convert the sum to an integral because the approximate and true posteriors are continuous. Their KL divergence can be written as follows,
+
+$$
+\begin{alignat}{1}
+D_{KL}(q_\phi(\mathbf{z}\vert\mathbf{x})\vert\vert p(\mathbf{z}\vert\mathbf{x}))\\
+= \int q_\phi(\mathbf{z}\vert\mathbf{x})\log\left(\frac{p(\mathbf{z}\vert\mathbf{x})}{q_\phi(\mathbf{z}\vert\mathbf{x})}\right) d\mathbf{z}\\= \int q_\phi(\mathbf{z}\vert\mathbf{x})\log\left(\frac{p(\mathbf{x}, \mathbf{z})}{p(\mathbf{x})q_\phi(\mathbf{z}\vert\mathbf{x})}\right) d\mathbf{z}\\
+= \int q_\phi(\mathbf{z}\vert\mathbf{x})\left[ \log\left(\frac{p(\mathbf{x},\mathbf{z})}{q_\phi(\mathbf{z}\vert\mathbf{x})}\right) - \log\left(p(\mathbf{x})\right) \right]d\mathbf{z} \\
+=  \int q_\phi(\mathbf{z}\vert\mathbf{x})\log\left(\frac{p(\mathbf{x}, \mathbf{z})}{q_\phi(\mathbf{z}\vert\mathbf{x})}\right) d\mathbf{z} - \int q_\phi(\mathbf{z}\vert\mathbf{x})\log\left(p(\mathbf{x})\right) d\mathbf{z} 
+\end{alignat}
+$$
+
+$$p(\mathbf{x})$$ does not depend on $$\mathbf{z}$$, and the integral of $$q(\mathbf{z}\vert\mathbf{x})$$ over all space must be equal to 1,
+
+$$
+\begin{alignat}{1}
+        =  \int q_\phi(\mathbf{z}\vert\mathbf{x})\log\left(\frac{p(\mathbf{x}, \mathbf{z})}{q_\phi(\mathbf{z}\vert\mathbf{x})}\right) d\mathbf{z} - \log\left(p(\mathbf{x})\right)  \int q_\phi(\mathbf{z}\vert\mathbf{x}) d\mathbf{z}\\
+        =  \int q_\phi(\mathbf{z}\vert\mathbf{x})\log\left(\frac{p(\mathbf{x}, \mathbf{z})}{q_\phi(\mathbf{z}\vert\mathbf{x})}\right) d\mathbf{z} - \log\left(p(\mathbf{x})\right)
+\end{alignat}
+$$
+
+Rearranging this expression,
+
+
+$$
+\begin{alignat}{1}
+        D_{KL}(q_\phi(\mathbf{z}\vert\mathbf{x})\vert\vert p(\mathbf{z}\vert\mathbf{x})) =  \int q_\phi(\mathbf{z}\vert\mathbf{x})\log\left(\frac{p(\mathbf{z}\vert\mathbf{x})}{q_\phi(\mathbf{z}\vert\mathbf{x})}\right) d\mathbf{z} - \log\left(p(\mathbf{x})\right)
+        \log\left(p(\mathbf{x})\right) \\ 
+        = \int q_\phi(\mathbf{z}\vert\mathbf{x})\log\left(\frac{p(\mathbf{x}, \mathbf{z})}{q_\phi(\mathbf{z}\vert\mathbf{x})}\right) d\mathbf{z} - D_{KL}(q_\phi(\mathbf{z}\vert\mathbf{x})\vert\vert p(\mathbf{z}\vert\mathbf{x})) \\
+        = \int q_\phi(\mathbf{z}\vert\mathbf{x})\log\left(\frac{p(\mathbf{x},\mathbf{z})}{q_\phi(\mathbf{z}\vert\mathbf{x})}\right) d\mathbf{z} - D_{KL}(q_\phi(\mathbf{z}\vert\mathbf{x})\vert\vert p(\mathbf{z}\vert\mathbf{x})) \\
+        = \int q_\phi(\mathbf{z}\vert\mathbf{x})\log\left(\frac{p(\mathbf{x}\vert\mathbf{z})p(\mathbf{z})}{q_\phi(\mathbf{z}\vert\mathbf{x})}\right) d\mathbf{z} - D_{KL}(q_\phi(\mathbf{z}\vert\mathbf{x})\vert\vert p(\mathbf{z}\vert\mathbf{x})) \\
+        = \int q_\phi(\mathbf{z}\vert\mathbf{x})\left[\log\left(\frac{p(\mathbf{z})}{q_\phi(\mathbf{z}\vert\mathbf{x})}\right) - \log\left( p(\mathbf{x}\vert\mathbf{z})\right) \right]  d\mathbf{z} - D_{KL}(q_\phi(\mathbf{z}\vert\mathbf{x})\vert\vert p(\mathbf{z}\vert\mathbf{x})) \\
+        = \int q_\phi(\mathbf{z}\vert\mathbf{x})\log\left(\frac{p(\mathbf{z})}{q_\phi(\mathbf{z}\vert\mathbf{x})}\right)d\mathbf{z} - \int q_\phi(\mathbf{z}\vert\mathbf{x})\log\left( p(\mathbf{x}\vert\mathbf{z})\right) d\mathbf{z} - D_{KL}(q_\phi(\mathbf{z}\vert\mathbf{x})\vert\vert p(\mathbf{x}\vert\mathbf{z}\vert\mathbf{x})) 
+\end{alignat}
+$$
+
+We recognize the first term as the KL divergence between $$q_\phi(\mathbf{z}\vert\mathbf{x})$$ and $$p(\mathbf{z})$$, and the second as the expectation of $$p(\mathbf{x}\vert\mathbf{z})$$ with respect to the approximate posterior distribution $$q_\phi(\mathbf{z}\vert\mathbf{x})$$. 
+
+$$  
+\begin{alignat}{1}
+        \log\left(p(\mathbf{x})\right) 
+        = \left[ D_{KL}(q_\phi(\mathbf{z}\vert\mathbf{x})\vert\vert p(\mathbf{z})) - \mathbb{E}_ {q(\mathbf{z}\vert\mathbf{x})}\left[\log p(\mathbf{z})\right] \right] - D_{KL}(q_\phi(\mathbf{z}\vert\mathbf{x})\vert\vert p(\mathbf{z}\vert\mathbf{x})) \\ 
+         = \text{ELBO}  - D_{KL}(q_\phi(\mathbf{z}\vert\mathbf{x})\vert\vert p(\mathbf{z}\vert\mathbf{x})) 
+\end{alignat}
+$$
+
+
+The observed data does not change - $$\log(p(\mathbf{x}))$$ must be a constant. However, the terms which sum up to the log data likelihood do vary individually. If we increase one of the terms, we must decrease the others. Our objective was to minimize $$D_{KL}(q_\phi(\mathbf{z}\vert\mathbf{x})\vert\vert p(\mathbf{z}\vert\mathbf{x}))$$, but obtaining $$p(\mathbf{z}\vert\mathbf{x})$$ is difficult (which is why we are approximating it with $$q_\phi(\mathbf{z}\vert\mathbf{x})$$ in the first place). Instead, we can maximize the we named "ELBO", which \textit{is} tractable. This term is the \textbf{variational lower bound}. Given our above reasoning, maximizing the ELBO will minimize $$ D_{KL}(q_\phi(\mathbf{z}\vert\mathbf{x})\vert\vert p(\mathbf{z}\vert\mathbf{x}))$$, and we will obtain an encoder which closely approximates the true posterior distribution.
+
+## Other Useful Sources
 
 Citations are then used in the article body with the `<d-cite>` tag.
 The key attribute is a reference to the id provided in the bibliography.
