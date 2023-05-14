@@ -19,12 +19,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page 
 ---
 
-| I am currently relocating my personal website. You can view my original website [here](https://andre-ye.github.io/andre-ye.github.io-retired/){:target="_blank"} while I am transferring. |
+I am currently relocating my personal website. You can view my original website [here](https://andre-ye.github.io/andre-ye.github.io-retired/){:target="_blank"} while I am transferring.
 
 I am an undergraduate at the University of Washington studying philosophy and computer science. My interest is in the philosophy of AI, specifically political/ethical and metaphysical dimensions. Some questions which excite me are
 - How do generative models challenge our conceptions of property?
 - What are the pitfalls of applying human cognition principles to LLMs?
 - Does AI stand for universality(ies), and what ethical and political difficulties arise?
+
 Currently, I am working with Prof. Ranjay Krishna, Prof. Amy Zhang, and PhD student Sebastin Santy on vision understanding models' internalization of cross-cultural perceptual differences. Previously, I worked in the Social Futures Lab and the Najafian Lab.
+
+
 
 ... [more discussion]

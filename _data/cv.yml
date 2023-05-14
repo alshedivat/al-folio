@@ -1,97 +1,111 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.A., Philosophy
+      institution: University of Washington
+      year: 2021 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - 4.0 GPA
+        - [Early Entrance Program](https://robinsoncenter.uw.edu/programs/transition-school/){:target="_blank"}
+    - title: B.S., Computer Science
+      institution: University of Washington
+      year: 2021 - 2025
       description:
-        - Description 1.
-        - Description 2.
+        - 3.9 GPA
 
-- title: Experience
+- title: Research
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Undergrad Researcher
+      institution: Krishna Group, Allen School of Computer Science & Engineering
+      year: Jan 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - , w/ Prof. Ranjay Krishna & Prof. Amy Zhang
+        - PhD Student Sebastin Santy
+    - title: Undergrad Researcher
+      institution: Social Futures Lab, Allen School of Computer Science & Engineering
+      year: Feb 2022 - Jan 2023
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+        - PhD Student Jim Chen
+    - title: Research Intern
+      institution: Deepgram
+      year: Jun 2022 - Sep 2022
+    - title: Research Lead
+      institution: Interactive Intelligence, University of Washington
       year: 1911 - 1917
       description:
+    - title: Undergrad Researcher
+      institution: Najafian Lab, UW Medicine
+      year: Mar 2021 - May 2022
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: TA'ing
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Academic Support Teaching Assistant
+      institution: The Coding School
+      year: Nov 2022 - Present
+      description:
+        - coming
+    - title: Teaching Assistant, Literary Theory
+      institution: Robinson Center, University of Washington
+      year: Sep 2022 - Present
+      description:
+        - PhD Student Jim Chen
+    - title: Teaching Assistant, CSE 163
+      institution: Robinson Center, University of Washington
+      year: Mar 2022 - Jun 2022
+      description:
+        - PhD Student Jim Chen
 
-- title: Honors and Awards
+- title: Publishing & Writing
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: Book Author, Deep Learning
+      institution: Apress, Springer Nature
+      year: 2022 - 2023
+      description:
+        - Published *...*
+    - title: Technical Reviewer
+      institution: Packt, Apress
+      year: 2022
+      description:
+        - *Building Data Science Solutions*...
+    - title: Data Science Writer
+      institution: Medium
+      year: Mar 2022 - Jun 2022
+      description:
+        - Awarded the Gold and Silver Medal from KDnuggets, a leading data science site with over 700k+ visitors monthly, for writing two of the most top-viewed and top-shared articles on the platform.
+        - Have written over 350 data science and artificial intelligence articles here for various top data science publications. Articles have collectively been read over ten million times. Awarded Top Writer in AI and Technology by Medium.
+        - Contracted to write data science articles for machine learning companies and organizations like Neptune.AI.
+        - Served as Editor of Data Science and AI Content of The Data-Driven Investor, an online publication that delivers content to several dozen thousand readers in 95 countries daily.
 
-- title: Academic Interests
-  type: nested_list
+- title: Miscellaneous Work
+  type: time_table
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Fellowship Member
+      institution: Reboot
+      year: Jan 2023 - Mar 2023
+      description:
+        - Recipient of & participant in the Reboot Fellowship Program.
+    - title: Volunteer Data Scientist
+      institution: Coronawhy
+      year: Apr 2020 - Jun 2020
+      description:
+        - CoronaWhy is an international group of volunteers working to analyze and model COVID-19 data to aid the pandemic. Worked with fellow team members in a highly collaborative setting.
+        - Performed textual analysis and visualization on communications for greater internal efficiency.
+        - Assisted the CoronaWhy team in developing a transformer-based model for the Epidemic Questioning Answering dataset that answers COVID-19 related questions by extracting answers from the relevant literature.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> playing piano, swimming, reading
+    - <u>Languages:</u> English (native), Mandarin Chinese (conversational), Russian (working), French (learning)
+
+- title: For Fun -- Competitions
+  type: list
+  contents:
+    - Kaggle Master rank; held top 2% position within the Kaggle community of over 160k data scientists (while active)
+    - Top 1% (16 / 4245), Jane Street Group Market Prediction Competition
+    - Top 4%, HLIS Mechanisms of Action Competition
+    - Top 5%, RACR Catheter and Line Position Challenge
+    - Global Nominee, NASA Space Apps Hackathon
