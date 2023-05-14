@@ -3,10 +3,10 @@
   contents:
     - title: B.A., Philosophy
       institution: University of Washington
-      year: 2021 - 2025
+      year: 2025
       description:
         - 4.0 GPA
-        - [Early Entrance Program](https://robinsoncenter.uw.edu/programs/transition-school/){:target="_blank"}
+        # - [Early Entrance Program](https://robinsoncenter.uw.edu/programs/transition-school/){:target="_blank"}
     - title: B.S., Computer Science
       institution: University of Washington
       year: 2021 - 2025
