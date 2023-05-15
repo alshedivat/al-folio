@@ -6,7 +6,8 @@ img: /assets/img/rfaas/overview.png
 importance: 1
 github: spcl/rfaas
 paper1: 2021rfaas
-paper1_description: Preprint @ arXiv
+paper1_description: Paper @ IPDPS 2023
+zenodo: 10.5281/zenodo.7657524
 category: serverless
 ---
 
@@ -74,4 +75,4 @@ decentralized offloading parts of the computation to the idle cluster capacity.
 We have shown that rFaaS invocations provide the lowest latency and the highest bandwidth
 compared to state-of-the-art solutions. Furthermore, we have shown that rFaaS functions
 can be integrated into scientific applications to provide cheap and easy acceleration.
-The preprint is of the paper is [now available](/publications#2021rfaas).
+More insights and results can be found in [the paper](/publications#2021rfaas) that has been accepted at IPDPS 2023.
