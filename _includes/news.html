@@ -9,9 +9,14 @@
               {% else %}
               {% assign news_limit = news_size %}
               {% endif %}
+              <colgroup>
+                <col style="width: 12%">
+                <col style="width: 88%">
+              </colgroup>                 
               {% for item in news limit: news_limit %}
                 <tr>
-                  <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+                  <!-- <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th> -->
+                  <th scope="row">{{ item.date | date: "%b, %Y" }}</th>
                   <td>
                     {% if item.inline -%}
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
