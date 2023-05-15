@@ -19,6 +19,18 @@
   --global-distill-app-color: #828282;
   --global-divider-color: rgba(0,0,0,.1);
   --global-card-bg-color: #ffffff;
+  --global-tip-block: #42b983;
+  --global-tip-block-bg: #e2f5ec;
+  --global-tip-block-text: #215d42;
+  --global-tip-block-title: #359469;
+  --global-warning-block: #e7c000;
+  --global-warning-block-bg: #fff8d8;
+  --global-warning-block-text: #6b5900;
+  --global-warning-block-title: #b29400;
+  --global-danger-block: #c00;
+  --global-danger-block-bg: #ffe0e0;
+  --global-danger-block-text: #600;
+  --global-danger-block-title: #c00;
 }
 :root .fa-sun {
   display: none;
@@ -49,6 +61,18 @@ html[data-theme=dark] {
   --global-distill-app-color: #e8e8e8;
   --global-divider-color: #424246;
   --global-card-bg-color: #212529;
+  --global-tip-block: #42b983;
+  --global-tip-block-bg: #e2f5ec;
+  --global-tip-block-text: #215d42;
+  --global-tip-block-title: #359469;
+  --global-warning-block: #e7c000;
+  --global-warning-block-bg: #fff8d8;
+  --global-warning-block-text: #6b5900;
+  --global-warning-block-title: #b29400;
+  --global-danger-block: #c00;
+  --global-danger-block-bg: #ffe0e0;
+  --global-danger-block-text: #600;
+  --global-danger-block-title: #c00;
 }
 html[data-theme=dark] .fa-sun {
   padding-left: 10px;
@@ -712,6 +736,9 @@ html.transition *:after {
   border-left: 5px solid var(--global-theme-color);
   padding: 8px;
 }
+.post .post-content blockquote p {
+  margin-bottom: 0;
+}
 
 progress {
   /* Positioning */
@@ -854,6 +881,38 @@ nav[data-toggle=toc] .nav-link.active:hover {
     top: 0;
   }
 }
+/* Tips, warnings, and dangers blockquotes */
+.post .post-content blockquote.block-tip {
+  border-color: var(--global-tip-block);
+  background-color: var(--global-tip-block-bg);
+}
+.post .post-content blockquote.block-tip p {
+  color: var(--global-tip-block-text);
+}
+.post .post-content blockquote.block-tip h1, .post .post-content blockquote.block-tip h2, .post .post-content blockquote.block-tip h3, .post .post-content blockquote.block-tip h4, .post .post-content blockquote.block-tip h5, .post .post-content blockquote.block-tip h6 {
+  color: var(--global-tip-block-title);
+}
+.post .post-content blockquote.block-warning {
+  border-color: var(--global-warning-block);
+  background-color: var(--global-warning-block-bg);
+}
+.post .post-content blockquote.block-warning p {
+  color: var(--global-warning-block-text);
+}
+.post .post-content blockquote.block-warning h1, .post .post-content blockquote.block-warning h2, .post .post-content blockquote.block-warning h3, .post .post-content blockquote.block-warning h4, .post .post-content blockquote.block-warning h5, .post .post-content blockquote.block-warning h6 {
+  color: var(--global-warning-block-title);
+}
+.post .post-content blockquote.block-danger {
+  border-color: var(--global-danger-block);
+  background-color: var(--global-danger-block-bg);
+}
+.post .post-content blockquote.block-danger p {
+  color: var(--global-danger-block-text);
+}
+.post .post-content blockquote.block-danger h1, .post .post-content blockquote.block-danger h2, .post .post-content blockquote.block-danger h3, .post .post-content blockquote.block-danger h4, .post .post-content blockquote.block-danger h5, .post .post-content blockquote.block-danger h6 {
+  color: var(--global-danger-block-title);
+}
+
 /*******************************************************************************
  * Style overrides for distill blog posts.
  ******************************************************************************/

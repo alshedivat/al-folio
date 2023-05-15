@@ -315,20 +315,20 @@ To generate the plot that you see above, you can use the following code snippet:
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="n">pandas</span> <span class="k">as</span> <span class="n">pd</span>
 <span class="kn">import</span> <span class="n">plotly.express</span> <span class="k">as</span> <span class="n">px</span>
 <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="nf">read_csv</span><span class="p">(</span>
-  <span class="s">'https://raw.githubusercontent.com/plotly/datasets/master/earthquakes-23k.csv'</span>
+  <span class="sh">'</span><span class="s">https://raw.githubusercontent.com/plotly/datasets/master/earthquakes-23k.csv</span><span class="sh">'</span>
 <span class="p">)</span>
 <span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="p">.</span><span class="nf">density_mapbox</span><span class="p">(</span>
   <span class="n">df</span><span class="p">,</span>
-  <span class="n">lat</span><span class="o">=</span><span class="s">'Latitude'</span><span class="p">,</span>
-  <span class="n">lon</span><span class="o">=</span><span class="s">'Longitude'</span><span class="p">,</span>
-  <span class="n">z</span><span class="o">=</span><span class="s">'Magnitude'</span><span class="p">,</span>
+  <span class="n">lat</span><span class="o">=</span><span class="sh">'</span><span class="s">Latitude</span><span class="sh">'</span><span class="p">,</span>
+  <span class="n">lon</span><span class="o">=</span><span class="sh">'</span><span class="s">Longitude</span><span class="sh">'</span><span class="p">,</span>
+  <span class="n">z</span><span class="o">=</span><span class="sh">'</span><span class="s">Magnitude</span><span class="sh">'</span><span class="p">,</span>
   <span class="n">radius</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span>
   <span class="n">center</span><span class="o">=</span><span class="nf">dict</span><span class="p">(</span><span class="n">lat</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">lon</span><span class="o">=</span><span class="mi">180</span><span class="p">),</span>
   <span class="n">zoom</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
-  <span class="n">mapbox_style</span><span class="o">=</span><span class="s">"stamen-terrain"</span><span class="p">,</span>
+  <span class="n">mapbox_style</span><span class="o">=</span><span class="sh">"</span><span class="s">stamen-terrain</span><span class="sh">"</span><span class="p">,</span>
 <span class="p">)</span>
 <span class="n">fig</span><span class="p">.</span><span class="nf">show</span><span class="p">()</span>
-<span class="n">fig</span><span class="p">.</span><span class="nf">write_html</span><span class="p">(</span><span class="s">'assets/plotly/demo.html'</span><span class="p">)</span></code></pre></figure>
+<span class="n">fig</span><span class="p">.</span><span class="nf">write_html</span><span class="p">(</span><span class="sh">'</span><span class="s">assets/plotly/demo.html</span><span class="sh">'</span><span class="p">)</span></code></pre></figure>
 
 <hr>
 
@@ -451,7 +451,7 @@ example.com (but not on Github, for example).</p>
 <span class="nf">alert</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span>
 </code></pre></div></div>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s</span> <span class="o">=</span> <span class="s">"Python syntax highlighting"</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s</span> <span class="o">=</span> <span class="sh">"</span><span class="s">Python syntax highlighting</span><span class="sh">"</span>
 <span class="k">print</span> <span class="n">s</span>
 </code></pre></div></div>
 
