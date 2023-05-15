@@ -143,6 +143,10 @@ table.table a:hover:after :not(.nav-item.dropdown) {
   width: 100%;
 }
 
+.table-dark {
+  background-color: transparent;
+}
+
 figure,
 img {
   max-width: 90vw;
