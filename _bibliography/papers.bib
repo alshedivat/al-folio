@@ -155,10 +155,7 @@
   title={{r}FaaS: Enabling High Performance Serverless with RDMA and Leases},
   author={Marcin Copik and Konstantin Taranov and Alexandru Calotoiu and Torsten Hoefler},
   year={2023},
-  eprint={2106.13859},
   arxiv={2106.13859},
-  archivePrefix={arXiv},
-  primaryClass={cs.DC},
   abstract={High performance is needed in many computing systems, from batch-managed supercomputers to general-purpose cloud platforms. However, scientific clusters lack elastic parallelism, while clouds cannot offer competitive costs for high-performance applications. In this work, we investigate how modern cloud programming paradigms can bring the elasticity needed to allocate idle resources, decreasing computation costs and improving overall data center efficiency. Function-as-a-Service (FaaS) brings the pay-as-you-go execution of stateless functions, but its performance characteristics cannot match coarse-grained cloud and cluster allocations. To make serverless computing viable for high-performance and latency-sensitive applications, we present rFaaS, an RDMA-accelerated FaaS platform. We identify critical limitations of serverless - centralized scheduling and inefficient network transport - and improve the FaaS architecture with allocation leases and microsecond invocations. We show that our remote functions add only negligible overhead on top of the fastest available networks, and we decrease the execution latency by orders of magnitude compared to contemporary FaaS systems. Furthermore, we demonstrate the performance of rFaaS by evaluating real-world FaaS benchmarks and parallel applications. Overall, our results show that new allocation policies and remote memory access help FaaS applications achieve high performance and bring serverless computing to HPC.
   },
   code={https://github.com/spcl/rFaaS/},
@@ -339,14 +336,17 @@
   abbr = {arXiv}
 }
 
-@misc{copik2022fmi,
+@inproceedings{copik2022fmi,
   author = {Copik, Marcin and Böhringer, Roman and Calotoiu, Alexandru and Hoefler, Torsten},
   title = {FMI: Fast and Cheap Message Passing for Serverless Functions},
   abstract = {Serverless functions provide elastic scaling with a fine-grained billing model. However, for distributed jobs that benefit from large-scale and dynamic parallelism, the lack of fast and cheap communication is a major limitation of FaaS computing. Individual functions do not communicate directly and group operations do not exist, and users resort to manual implementations of storage-based communication. We overcome this limitation and present the FaaS Message Interface (FMI). FMI is an easy-to-use, high-performance framework for general-purpose point-to-point and collective communication. We support different communication channels and offer a model-driven channel selection according to performance and cost expectations. We model the interface after MPI and show message passing can be integrated into serverless applications with minor changes. In our experiments, FMI can speed up communication for a distributed machine learning job by up to 162x while at the same time reducing cost by up to 941 times.},
-  year = {2022},
+  year = {2023},
   code={https://github.com/spcl/fmi/},
   bibtex_show = {True},
-  abbr = {arXiv}
+  abbr = {ICS},
+  series = {ICS '23},
+  booktitle = {Proceedings of the 37th IEEE Interational Parallel and Distributed Processing Symposium},
+  pdf = {2023_ics_fmi.pdf}
 }
 
 @misc{copik2022disagg,

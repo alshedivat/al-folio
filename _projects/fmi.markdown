@@ -1,11 +1,11 @@
 ---
 layout: page
 title: fmi, serverless collectives
-description: high-performance message passing and collective communication 
+description: high-performance message passing and collective communication
 img: /assets/img/fmi/overview.png
 github: spcl/fmi
 paper1: copik2022fmi
-paper1_description: Preprint
+paper1_description: Paper @ ICS' 23
 importance: 3
 category: serverless
 ---
@@ -29,6 +29,5 @@ by offering and high-performance framework for general-purpose peer-to-peer
 and collective communication in FaaS applications.
 FMI provides portable communication with performance closer to that offered by high-performance systems.
 
-More insights and results will be provided in the upcoming report.
 [The system implementation](https://github.com/spcl/fami) is available on an open-source license - try it today!
 It supports AWS Lambda, and support for other cloud platforms is coming in the future.
