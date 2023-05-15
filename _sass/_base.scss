@@ -48,6 +48,10 @@ table.table a {
   }
 }
 
+.table-dark {
+  background-color: transparent;
+}
+
 figure,
 img {
   max-width: 90vw;
@@ -953,7 +957,7 @@ nav[data-toggle="toc"] {
 
 /* Tips, warnings, and dangers blockquotes */
 .post .post-content blockquote {
-    &.block-tip {
+  &.block-tip {
     border-color: var(--global-tip-block);
     background-color: var(--global-tip-block-bg);
 
