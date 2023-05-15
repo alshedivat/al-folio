@@ -23,6 +23,12 @@ The list of talks, presentations, and public appearances.
 
 -----------
 
+## 2023
+
+* **5th Workshop on Parallel AI and Systems for the Edge (PAISE), 37th IEEE International Parallel & Distributed Processing Symposium (IPDPS 2023)**, May, St. Petersburg, FL, USA. _Serverless As a Bridge Between HPC and Clouds_, invited workshop talk.
+
+* **37th IEEE International Parallel & Distributed Processing Symposium (IPDPS 2023)**, May, St. Petersburg, FL, USA. _rFaaS: Enabling High Performance Serverless with RDMA and Leases_, research paper presentation.
+
 ## 2022
 
 * **Combined International Workshop on Interactive Urgent Supercomputing (UrgentHPC), ACM/IEEE Supercomputing (SC22)**, November, Dallas, USA.
