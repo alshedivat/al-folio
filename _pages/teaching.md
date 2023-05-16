@@ -1,12 +1,26 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: Teaching Assistant since Spring 2019
 nav: true
-nav_order: 5
+nav_order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+sostrong {
+  font-weight:bold;
+  font-size:28px;
+  line-height:24px;
+  border:1px solid #000000;}
 
-Organize your courses by years, topics, or universities, however you like!
+<sostrong> Pre-doctoral Teaching <sostrong>
+
+***
+
+<strong>Macroeconomics and Economic Policy</strong> ([Spring 2019](https://pcw.hhs.se/course/412)
+* Role(s): Teaching Assistant (Spring 2019)
+* Stockholm School of Economics (Econ 1661)
+* [Evaluations] [](https://jacobbradt.com/assets/pdf/teaching/econ1661/Econ1661_Evaluations.pdf)
+
+
+***
