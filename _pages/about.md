@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD Candidate. <a href='https://didattica.unibocconi.it/docenti/cv.php?rif=236473'>Bocconi University - Department of Economics </a>.
 
 profile:
   align: right
