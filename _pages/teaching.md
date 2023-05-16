@@ -11,6 +11,8 @@ nav_order: 3
 
 ---
 # Pre-doctoral Teaching
+---
+
 <strong>Macroeconomics and Economic Policy</strong> ([Spring 2019)](https://pcw.hhs.se/course/412)
 - Role(s): Teaching Assistant (Spring 2019)
 - Stockholm School of Economics (412)
