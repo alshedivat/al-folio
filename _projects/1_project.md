@@ -1,38 +1,30 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: INHALE
+description: Impact on humaN Health of Agriculture and Livestock Emissions
+img: assets/img/inhale/inhale_log.jpeg
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Air pollution remains Europe's top environmental threat to health, as recently reminded by the European Environmental Agency. Italy is the second EU country for premature deaths from air pollution (PM2.5), with the highest concentration in the affluent and highly populated Po valley. The COVID-19 pandemic has made air pollution more salient, by raising awareness of its devastating effects and amplification of concurrent diseases, including viral ones.
+However, it has also made clear the extent to which agriculture and livestock are part of the problem and should likewise be part of the solution.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/inhale/CMCC.png" <caption>Fig.1 </caption> title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/inhale/inhale_log.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    List of partners
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
