@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Research | Abdullah Al Fahad, Ph.D. </title>
+    <title>ClimBuntu - The Operating System for Climate Research</title>
     <meta name="author" content="Abdullah Al Fahad, Ph.D. ">
     <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. ">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
@@ -17,10 +17,54 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://afahadabdullah.github.io/research/">
+    <link rel="canonical" href="https://afahadabdullah.github.io/climbuntu/">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
     <script src="/assets/js/theme.js"></script>
     <script src="/assets/js/dark_mode.js"></script>
+
+
+    <style>
+
+        #cover-photo {
+            background-image: url('https://wallpapercave.com/wp/wp7477586.png');
+            background-size: cover;
+            background-position: center;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 5em;
+            text-shadow: 2px 2px #000;
+            font-weight: bold;
+        }
+
+        #earth {
+            animation: rotate 10s linear infinite;
+            transform-origin: center center;
+            margin: 20px auto;
+            width: 300px;
+            height: 300px;
+            background-image: url('https://media.istockphoto.com/id/1314700921/vector/earth-globe-north-pole-view.jpg?s=612x612&w=0&k=20&c=Bqe9onFEo5nTU9KbsNIDMfUCjd9uiW1KDKEBWmJ-BJM=');
+            background-size: cover;
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(-360deg);
+            }
+        }
+    body {
+          font-family: Arial, sans-serif;
+          margin: 0 12%; /* add margin */
+        }
+    </style>
+
 </head>
 
 <body class="fixed-top-nav ">
@@ -30,75 +74,115 @@
                 <div class="collapse navbar-collapse text-right" id="navbarNav">
                     <ul class="navbar-nav ml-auto flex-nowrap">
                         <li class="nav-item "> <a class="nav-link" href="/">Home</a> </li>
-                        <li class="nav-item active"> <a class="nav-link" href="/research/">Research<span class="sr-only">(current)</span></a> </li>  <li class="nav-item "> <a class="nav-link" href="/blog/">Blog</a> </li>
-
-                        <li class="nav-item "> <a class="nav-link" href="/Presentation/">Presentation</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="/research/">Research<span class="sr-only">(current)</span></a> </li>  <li class="nav-item "> <a class="nav-link" href="/blog/">Blog</a> </li>
+                        <li class="nav-item active"> <a class="nav-link" href="/ClimBuntu/">ClimBuntu<span class="sr-only">(current)</span></a> </li>
                         <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="fas fa-moon"></i> <i class="fas fa-sun"></i> </button> </li>
                     </ul>
                 </div>
             </div>
         </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header>
-    <div class="container mt-5">
+<!--     <div class="container mt-5">
         <div class="post">
             <header class="post-header">
                 <h1 class="post-title">Research</h1>
                 <p class="post-description"></p>
-            </header>
-            <article>
-                <div class="publications"> </div>
-                <h1 style="text-align:center;color:red;font-size:40px;"><strong>Publications</strong></h1>
-                <h4 id="phd-thesis"><strong>Ph.D. Thesis</strong></h4>
-                <p>Influence of Tropical Diabatic Heating and Midlatitude Static Stability on Subtropical Anticyclones. Abdullah A.. Fahad, (2020). 10.13140/RG.2.2.32449.99682. <a href="https://doi.org/10.13140/RG.2.2.32449.99682" rel="external nofollow noopener" target="_blank">PDF</a></p>
-                <h4 id="papers-in-preparation-and-under-review"><strong>Papers in Preparation and Under Review</strong></h4>
-                <p>11. The Nonlinear Climate Response to CO2 and Aerosol Forcing for Decadal Climate Simulations: Abdullah A. Fahad, Andrea Molod, Dimitris Menemenlis. (In preparation).</p>
-                <p>10. What Drives the Bay of Bengal’s Cyclonic Storms under Global Warming? Future Projection and Mechanism in CMIP6 Models: Fahad et al. (In preparation).</p>
-                <p>9. Global mean hydroclimate response to early Eocene warmth: Margot J. Cramwincke, Natalie Burls, Abdullah al Fahad, Scott Knapp, Tammo Reichgelt, Christopher West, David Greenwood, Jiang Zhu (under review in Paleoceanography &amp; Paleoclimatology).</p>
-                <h4 id="peer-reviewed"><strong>Peer Reviewed</strong></h4>
-                <p>8. Erik T. Swenson, David M. Straus, Chelsea E. Snide, Abdullah Al Fahad. “The Role of Tropical Heating and Internal Variability in the California Response to the 2015/16 ENSO Event.” <em>Journal of the Atmospheric Sciences</em> (2019), JAS-D-19-0064.1. https://doi.org/10.1175/JAS-D-19-0064.1 PDF</p>
-                <p>7. Natalie J. Burls, Ross C. Blamey, Benjamin Cash, Erik T. Swenson, Abdullah Al Fahad, Mary-Jane Bopape, David Straus, Chris J.C. Reason. “Cape Town ‘Day Zero’ drought and Hadley Expansion.” <em>Npj Climate and Atmospheric Science</em>, 2(1), 27 (2019). https://doi.org/10.1038/s41612-019-0084-6 PDF</p>
-                <p>6. Abdullah Al Fahad, Natalie J. Burls, Zachary Strasberg. “How will southern hemisphere subtropical anticyclones respond to global warming? Mechanisms and seasonality in CMIP5 and CMIP6 model projections.” <em>Climate Dynamics</em> (2020), 1-16. https://doi.org/10.1007/s00382-020-05290-7 PDF</p>
-                <p>5. Abdullah al Fahad, Natalie J. Burls, Erik T. Swenson, David M. Straus. “The Influence of South Pacific Convergence Zone Heating on the South Pacific Subtropical Anticyclone.” <em>Journal of Climate</em> (2021). https://doi.org/10.1175/JCLI-D-20-0509.1</p>
-                <p>4. Isla Ruth Simpson, Karen McKinnon, Frances Davenport, Martin Tingley, Flavio Lehner, Abdullah Al Fahad, Di Chen. “Emergent constraints on the large scale atmospheric circulation and regional hydroclimate: do they still work in CMIP6 and how much can they actually constrain the future?” <em>Journal of Climate</em> (2021). https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-21-0055.1/JCLI-D-21-0055.1.xml</p>
-                <p>3. Abdullah al Fahad, Natalie J. Burls. “The Influence of Direct Radiative Forcing versus Indirect Sea Surface Temperature Warming on Southern Hemisphere Subtropical Anticyclones.” <em>Clim Dyn</em> (2021). https://doi.org/10.1007/s00382-021-06006-1</p>
-                <p>2. Fahad et al. “The Role of Local Topography and Sea Surface Temperature on Summer Monsoon Precipitation over Bangladesh and its Surrounding Regions.” <em>International Journal of Climatology</em> (2021).</p>
-                <p>1. Ehud Strobach, Patrice Klein, Andrea Molod, Abdullah A. Fahad, Atanas Trayanov, Dimitris Menemenlis, Hector Torres. “Local Air-Sea Interactions at Ocean mesoscale in Western Boundary Currents.” <em>Geophysical Research Letters</em> (2022). (Accepted)</p>
-                <h2 id="conference-proceeding"><strong>CONFERENCE PROCEEDING</strong></h2>
-                <p>9. The Influence of Direct Radiative Forcing versus Indirect Sea Surface Temperature Warming on Southern Hemisphere Subtropical Anticyclones, A Al Fahad, N Burls, AGU Fall Meeting 2020</p>
-                <p>8. Emergent Constraints on the Large Scale Atmospheric Circulation and Regional Hydroclimate: Do They Still Work in CMIP6 and How Much Can They Actually Constrain the Future? I Simpson, KA McKinnon, F Lehner, FV Davenport, A al Fahad, D Chen, …AGU Fall Meeting 2020</p>
-                <p>7. Intensification of the hydrological cycle during Eocene ‘greenhouse’ climates. M Cramwinckel, N Burls, T Reichgelt, DR Greenwood, CK West,… AA Fahad …..AGU Fall Meeting 2020</p>
-                <p>6. The Role of Tropical Heating and Internal Variability in the California Response to the 2015/16 ENSO Event. CE Snide, ET Swenson, DM Straus, A al Fahad. 34th Conference on Hurricanes and Tropical Meteorology. 2020</p>
-                <p>5. Do CMIP5 emergent constraints on the large scale atmospheric circulation work to constrain CMIP6 projections? I Simpson, F Davenport, AA Fahad, F Lehner. EGU General Assembly Conference Abstracts, 2020</p>
-                <p>4. The Cape Town “Day Zero” drought and Hadley cell expansion. B Cash, N Burls, RC Blamey, E Swenson, A Al Fahad, MJM Bopape, … AGU Fall Meeting 2019</p>
-                <p>3. Understanding the intermodal spread in CMIP5 Projections of Southern Hemisphere Subtropical Anticyclones and Hadley Cell Edge. AA Fahad, N Burls. AGUFM 2019, A33S-3097</p>
-                <p>2. An Analysis of CMIP6 Climate Model Performance in Simulating Climatological Conditions Compared to CMIP5. C Liang, A Hall, A al Fahad, NJ Burls. Journal of Student-Scientists’ Research. 2019</p>
-                <p>1. How will the South Atlantic Subtropical High Respond to Climate Change? – Evaluating CMIP5 Model Predictions. A Fahad, Z Strasberg, NJ Burls. American Geophysical Union. 2018</p>
-                <h2 id="doctoral-research"><strong>DOCTORAL RESEARCH</strong></h2>
-                <p style="text-align:justify;"> Uneven heating of the Earth’s surface acts as the primary driving force behind large-scale atmospheric circulation between the tropics and high latitudes. Warm air rises in the tropics and descends over the subtropics of the both hemispheres and completes a circulation pattern known as Hadley Circulation (Fig.1).</p>
-                <div style="text-align:center;">
-                    <div>
-                        <figure>
-                            <picture>
-                                <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Research/research_page_image.gif-480.webp"></source>
-                                <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Research/research_page_image.gif-800.webp"></source>
-                                <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Research/research_page_image.gif-1400.webp"></source> <img src="/assets/img/Research/research_page_image.gif" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture>
-                        </figure>
-                    </div>
-                    <p style="text-align:center;"><strong>Figure (1): Hadley circulation due to uneven heating on earth surface. <a href="https://www.youtube.com/watch?v=Ye45DGkqUkE" title="Source" style="color:inherit;" rel="external nofollow noopener" target="_blank">(Source)</a></strong></p>
-                </div>
-                <p style="text-align:justify;"> The descending branch of the Hadley circulation creates a high-pressure system in the subtropical regions of the both hemispheres. Radiative cooling is the primary mechanism that allows subtropical air to descend. These high-pressure systems produce an anticyclonic atmospheric circulation over the surface of subtropical oceans in both hemispheres known as subtropical anticyclones (SA) (Fig.2). </p>
-                <div>
-                    <div>
-                        <figure>
-                            <picture>
-                                <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Research/slp.gif-480.webp"></source>
-                                <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Research/slp.gif-800.webp"></source>
-                                <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Research/slp.gif-1400.webp"></source> <img src="/assets/img/Research/slp.gif" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture>
-                        </figure>
-                    </div>
-                    <p style="text-align:center;"><strong> Figure (2): Subtropical Anticyclone (SA) shown by 1020 hPa SLP climatology (contoured) calculated from Era-interim (1979-2016) reanalysis data.</strong> </p>
-                </div>
-                <p style="text-align:justify;"> These SAs are an important element of the coupled ocean-atmosphere system within the subtropics dictating oceanic conditions. Although SAs are associated with the descending branches of the Hadley cells, the various mechanisms that control their respective strengths, seasonality, internal variability and response to climate change are still debated within the scientific literature. For example, seasonal cycles in the area, intensity, and position of the SAs in both hemispheres show distinct patterns. If Hadley cell decent were the only mechanism controlling the strength of the SAs one would expect each SA to reach their maximum strength in local winter when the Hadley cell is at its strongest within the respective hemisphere. While this is true for the Southern Hemisphere with SAs strength generally peaking during June-July-August (JJA) within the Southern Hemisphere (SH), this does not occur in the Northern Hemisphere (NH). SAs in the NH also peak in JJA despite that fact that the NH branch of the Hadley cell is at its seasonal minimum (Hoskins 1996). This aspect raises the central question: what drives the strength and structure of the SAs? </p>
-            </article>
+            </header> -->
+
+
+    <main>
+        <section id="cover-photo">
+            ClimBuntu OS
+        </section>
+        <section>
+            <!-- <div style="background-color: #EAECEE; padding: 20px;"> -->
+            <h2>About ClimBuntu OS</h2>
+            <p>ClimBuntu (Climate + Ubuntu) is a specialized operating system designed for climate research. It comes with pre-installed climate research software and numerical climate models that have been carefully selected to provide researchers with the tools they need to analyze climate data, simulate climate scenarios, and conduct experiments. The system also comes with pre-installed libraries, making it easier for researchers to get started with their work. The development and release of ClimBuntu is overseen by Abdullah Al Fahad, Ph.D. For further information about ClimBuntu, please feel free to reach out to Dr. Fahad via email at <a href="mailto:a.fahad@nasa.gov">a.fahad@nasa.gov</a> </p>
+            <div id="earth"></div>
+        </section>
+        <section>
+                <!-- <div style="background-color:  #EAF2F8; padding: 20px;"> -->
+            <h2>Features of ClimBuntu</h2>
+            <ul>
+                <li>Pre-installed climate research software</li>
+                <li>Pre-installed numerical climate models</li>
+                <li>Pre-installed libraries for climate research</li>
+                <li>Easy-to-use interface</li>
+                <li>Regular updates and security patches</li>
+                <li>Open source software</li>
+            </ul>
+        </section>
+        <section>
+            <!-- <div style="background-color: #EAECEE; padding: 20px;"> -->
+            <h2>Who Can Benefit from ClimBuntu?</h2>
+            <p>ClimBuntu is ideal for researchers, scientists, and students who are working in the field of climate science. It can also be useful for government agencies and organizations that are involved in climate research and policy-making. The system is designed to be easy to use, even for those who are new to Linux or climate research software.</p>
+        </section>
+        <section>
+            <!-- <div style="background-color:  #EAF2F8; padding: 20px;"> -->
+            <h2>Download ClimBuntu</h2>
+            <p>ClimBuntu is available for download for free.
+
+            <li>Release date May01, 2023</li>
+            <a href="https://www.climbuntu.com/download" download>
+              <button>
+                Download ClimBuntuV0.1
+              </button>
+            </a>
+
+        </section>
+
+        <section>
+        <!-- <div style="background-color: #EAECEE; padding: 20px;"> -->
+          <h2>List of pre-installed Climate models & Software</h2>
+          <ul>
+            <li>WRF atmospheric model</li>
+            <li>MITgcm Ocean model</li>
+            <li>Speedy atmospheric model</li>            
+            <li>QGIS and QGRASS</li>
+            <li>ipython</li>
+            <li>R</li>
+            <li>Miniconda</li>
+            <li>GRAds</li>
+            <li>Jupyter notebook</li>
+            <li>Sublime Text</li>
+          </ul>
+        </section>
+        
+        <section>
+        <!-- <div style="background-color:  #EAF2F8; padding: 20px;"> -->
+        <h2>Libraries</h2>
+            
+        <ul>
+          <li>MPICH</li>
+          <li>HDF</li>
+          <li>NETCDF</li>
+          <li>ZLIB</li>
+          <li>JASPER</li>
+          <li>LIBPNG</li>
+        </ul>
+        </section>
+
+        <section>
+        <!-- <div style="background-color: #EAECEE; padding: 20px;"> -->
+            <h2>System Requirements</h2>
+
+            <p>To run ClimBuntu on your computer, you will need:</p>
+            <ul>
+                <li>Minimum 1 GB of RAM, recommended 2 GB</li>
+                <li>Pentium 4, Pentium M, or AMD K8 CPU or newer</li>
+                <li>25 GB of free disk space</li>
+                <li>A graphics card that supports OpenGL 2.0 or higher</li>
+                <li>A broadband internet connection for updates and software downloads</li>
+            </ul>
+        </section>
+        <section>
+                <!-- <div style="background-color:  #EAF2F8; padding: 20px;"> -->
+            <h2>Get Involved</h2>
+            <p>ClimBuntu is an open source project and welcomes contributions from the community. If you're interested in helping to improve the system, please visit our GitHub page to learn more.</p>
+            <a href="https://github.com/climbuntu" class="github-button">ClimBuntu on GitHub</a>
+        </section>
+    </main>
+
+
         </div>
     </div>
     <footer class="fixed-bottom">
