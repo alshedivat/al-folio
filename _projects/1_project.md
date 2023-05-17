@@ -22,18 +22,19 @@ However, it has also made clear the extent to which agriculture and livestock ar
         {% include figure.html path="assets/img/inhale/bocconi_lg.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/inhale/legambiente.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/inhale/legambiente.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
+<div class="caption">
+    Funder
+</div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/inhale/cariplo.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+
 
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
