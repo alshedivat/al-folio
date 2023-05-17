@@ -10,6 +10,8 @@ category: Research
 Air pollution remains Europe's top environmental threat to health, as recently reminded by the European Environmental Agency. Italy is the second EU country for premature deaths from air pollution (PM2.5), with the highest concentration in the affluent and highly populated Po valley. The COVID-19 pandemic has made air pollution more salient, by raising awareness of its devastating effects and amplification of concurrent diseases, including viral ones.
 However, it has also made clear the extent to which agriculture and livestock are part of the problem and should likewise be part of the solution.
 
+---
+
 
 <div class="caption">
     List of partners
@@ -26,16 +28,22 @@ However, it has also made clear the extent to which agriculture and livestock ar
     </div>
 </div>
 
+---
+
 <div class="caption">
     Funder
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/inhale/cariplo.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <a href="https://www.fondazionecariplo.it/it/index.html">{% include figure.html path="assets/img/inhale/cariplo.jpg" title="example image" class="img-fluid rounded z-depth-1" %}</a>
     </div>
 </div>
 
-### Research Team
+ ---
+
+<strong> Research Team </strong>
+
+
 - *Bosetti Valentina* (Principal Investigator of INHALE) - Full professor at the Department of Economics, Bocconi University
 
 - *Granella Francesco* (Researcher) - PhD student, Bocconi University and Post-Degree researcher, RFF-CMCC European Institute on Economics and the Environment (EIEE)
