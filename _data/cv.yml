@@ -28,6 +28,20 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Carnegie Mellon University(CMU)
+      institution: USA - Remote
+      year: 2023
+      description:
+        - Working on LM Extraction benchmark, on Pile dataset by G-Research and ETH Zurich.
+        - Working on Unlabeled and Label-Only Membership Inference Attacks on Large Language Model(LLMs) i.e. 1.3B GPT-Neo.
+        
+    - title: Indian Institute of Technology(IIT), Patna
+      institution: India - Remote
+      year: 2023
+      description:
+        - Working on Medical Conversation Summarization using multimodal DL and SOTA NLP Models.
+        - Working on multimodal aware fusion(MAF), and adapter based module that comprises of multimodal context aware attenstion(MCA2) and Global Information Fusion(GIF).
+        
     - title: Google Summer of Code(GSoC)
       institution: USA - Remote
       year: 2022
