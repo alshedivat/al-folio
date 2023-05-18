@@ -7,7 +7,7 @@ nav: true
 nav_order: 21
 ---
 
-**We are hiring!** 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are currently looking for **several PhD students, postdocs, and student assistants** with an interest in machine learning with the earliest start date of **April 15th, 2023**.
+**We are hiring!** 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are currently looking for **several PhD students, postdocs, and student assistants** with an interest in machine learning with the earliest start date of **July 1st, 2023**.
 
 ## Our Mission & Values
 
@@ -57,10 +57,10 @@ Our focus lies on developing and applying cutting-edge machine learning methods 
 **Application:**
 
 We are really looking forward to your application!
-The **earliest start date is April 15th, 2023.**
+The **earliest start date is July 1st, 2023.**
 <!-- Please send your material directly to Martin Becker: [martin.becker@uni-rostock.de](mailto:martin.becker@uni-rostock.de).
 The subject should be **"PhD Application 2022"**. -->
-Please apply via the [application portal of the University of Rostock](https://jobs.uni-rostock.de/jobposting/9d8caafb70ad18899c92ca70fb2971886b14fbe60?ref=homepage).
+Please apply via the [application portal of the University of Rostock](https://jobs.uni-rostock.de/jobposting/5f37eea9a92c67faa9474ab07f0ea0153d3456be0).
 Please including the following as a single PDF:
 
 * **cover letter** (max. 1-2 page) detailing
