@@ -57,7 +57,7 @@ Our focus lies on developing and applying cutting-edge machine learning methods 
 **Application:**
 
 We are really looking forward to your application!
-The **earliest start date is July 1st, 2023.**
+The **earliest start date is July 1st, 2023. The current application deadline is June, 4rth.**
 <!-- Please send your material directly to Martin Becker: [martin.becker@uni-rostock.de](mailto:martin.becker@uni-rostock.de).
 The subject should be **"PhD Application 2022"**. -->
 Please apply via the [application portal of the University of Rostock](https://jobs.uni-rostock.de/jobposting/5f37eea9a92c67faa9474ab07f0ea0153d3456be0).
@@ -78,6 +78,8 @@ Post-doctoral candidates are encouraged to contact Dr. Becker directly via e-mai
 The Laboratory is most interested in candidates with expertise in methods development, mentoring experience, and a drive to help build an internationally competitive, team-oriented group.
 All candidates must have a strong record of independent research.
 Postdocs will be hired according to [TVL-E13 or E14, 40 hrs/week](https://oeffentlicher-dienst.info/c/t/rechner/tv-l/west?id=tv-l-2021&g=E_13&s=1&zv=VBL&z=100&zulage=&stj=2022b&stkl=1&r=0&zkf=0&kk=15.5%25) depending on their experience.
+
+An official call for application will follow soon!
 
 ## Students
 
