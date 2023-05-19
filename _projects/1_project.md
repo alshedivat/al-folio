@@ -59,3 +59,7 @@ However, it has also made clear the extent to which agriculture and livestock ar
 - *Valenti Silvia* (Research Dissemination and Outreach) - Legambiente Lombardia Press Office and Communication manager
 
 - *Di Simine Cosimo Damiano* (Scientific communication expert) - Scientific coordinator Legambiente Lombardia
+
+### Project output
+---
+Available soon
