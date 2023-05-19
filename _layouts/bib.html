@@ -123,11 +123,11 @@
       </div>
 
       <div class="periodical">
-      {% if entry.type == "article" %}
+      {% if entry.type == "article" and entry.journal %}
         <em>{{entry.journal}}</em>{% if entry.volume %}, vol. {{entry.volume}}{% endif %}{% if entry.number %}, no. {{entry.number}}{% endif %},
-      {% elsif entry.type == "inproceedings" %}
+      {% elsif entry.type == "inproceedings" and entry.booktitle %}
         <em>In {{entry.booktitle}}</em>,
-      {% elsif entry.type == "misc" %}
+      {% elsif entry.type == "misc" and entry.organisation %}
         <em>{{entry.organization}}</em>,
       {% endif %}
       {% if entry.year %}
