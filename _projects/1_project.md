@@ -18,7 +18,7 @@ However, it has also made clear the extent to which agriculture and livestock ar
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-      <a href="https://www.cmcc.it/projects/inhale-impact-on-human-health-of-agriculture-and-livestock-emissions">{% include figure.html path="assets\img\inhale\Banner_EIEE_Cmcc.png" title="example image" class="img-fluid rounded z-depth-1" %}</a>
+      <a href="https://www.cmcc.it/projects/inhale-impact-on-human-health-of-agriculture-and-livestock-emissions">{% include figure.html path="assets\img\inhale\banner_eieecmcc.png" title="example image" class="img-fluid rounded z-depth-1" %}</a>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <a href="https://green.unibocconi.eu/research/research-areas/environment-and-climate-change/inhale">{% include figure.html path="assets/img/inhale/bocconi_lg.jpg" title="example image" class="img-fluid rounded z-depth-1" %}</a>
