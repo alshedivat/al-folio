@@ -230,6 +230,9 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-include-cache
 
 # Sitemap settings
 defaults:
