@@ -100,6 +100,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://qingqingchen.info" target="_blank">★</a>
 <a href="https://bajinsheng.github.io/" target="_blank">★</a>
 <a href="https://www.silviofanzon.com/" target="_blank">★</a>
+<a href="https://kaikaiyao.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
