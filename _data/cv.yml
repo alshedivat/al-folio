@@ -3,13 +3,13 @@
   contents:
     - title: B.A., Philosophy
       institution: University of Washington
-      year: 2025
+      year: 21 - 25
       description:
         - 4.0 GPA
         # - [Early Entrance Program](https://robinsoncenter.uw.edu/programs/transition-school/){:target="_blank"}
     - title: B.S., Computer Science
       institution: University of Washington
-      year: 2021 - 2025
+      year: 21 - 25
       description:
         - 3.9 GPA
 
@@ -18,42 +18,42 @@
   contents:
     - title: Undergrad Researcher
       institution: Krishna Group, Allen School of Computer Science & Engineering
-      year: Jan 2023 - Present
+      year: Jan 23 - Present
       description:
         - Prof. Ranjay Krishna & Prof. Amy Zhang
         - PhD Student Sebastin Santy
     - title: Undergrad Researcher
       institution: Social Futures Lab, Allen School of Computer Science & Engineering
-      year: Feb 2022 - Jan 2023
+      year: Feb 22 - Jan 23
       description:
         - PhD Student Jim Chen
     - title: Research Intern
       institution: Deepgram
-      year: Jun 2022 - Sep 2022
+      year: Jun 22 - Sep 22
     - title: Research Lead
       institution: Interactive Intelligence, University of Washington
-      year: 1911 - 1917
+      year: Dec 21 - Mar 23
       description:
     - title: Undergrad Researcher
       institution: Najafian Lab, UW Medicine
-      year: Mar 2021 - May 2022
+      year: Mar 21 - May 22
 
 - title: TA'ing
   type: time_table
   contents:
     - title: Academic Support Teaching Assistant
       institution: The Coding School
-      year: Nov 2022 - Present
+      year: Nov 22 - Present
       description:
         - coming
     - title: Teaching Assistant, Literary Theory
       institution: Robinson Center, University of Washington
-      year: Sep 2022 - Present
+      year: Sep 22 - Present
       description:
         - PhD Student Jim Chen
     - title: Teaching Assistant, CSE 163
       institution: Robinson Center, University of Washington
-      year: Mar 2022 - Jun 2022
+      year: Mar 22 - Jun 22
       description:
         - PhD Student Jim Chen
 
@@ -62,12 +62,12 @@
   contents:
     - title: Book Author, Deep Learning
       institution: Apress, Springer Nature
-      year: 2022 - 2023
+      year: 22 - 23
       description:
         - Published *...*
     - title: Technical Reviewer
       institution: Packt, Apress
-      year: 2022
+      year: 22
       description:
         - Building Data Science Solutions...
     - title: Data Science Writer
