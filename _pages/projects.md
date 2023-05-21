@@ -1,10 +1,10 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: #projects
+permalink: #/projects/
 description:
-nav: true
-display_categories: [2021, 2020]
+nav: #true
+display_categories: #[2021, 2020]
 horizontal: false
 ---
 
