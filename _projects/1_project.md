@@ -28,7 +28,7 @@ My PhD work looks at structural forest regeneration following stand-replacing di
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/lil_tree2.gif" title="Sapling Example" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/lil_tree2.gif" title="Sapling Example" %}
     </div>
 </div>
 <div class="caption">
