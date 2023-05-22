@@ -11,13 +11,13 @@
 - title: Education
   type: time_table
   contents:
-    - title: M.Sc. Mathematical Engineering & Statistical Learning
+    - title: MSc Mathematical Engineering & Statistical Learning
       institution: Politecnico di Milano, Milan, Italy
       year: 2021-2023
       description:
         - >- 
           GPA: 25.7/30 
-    - title: B.S.  Engineering Mathematics
+    - title: BASc  Engineering Mathematics
       institution: Queen's University, Kingston, Canada 
       year: 2017-2021
       description:
@@ -51,14 +51,14 @@
       description:
         - Modelled nonlinear permafrost thaw dynamics to predict changing Arctic temperatures over a 100-year time horizon. 
         - Manually implemented numerical solvers and used object-oriented MATLAB to solve the governing system of ODEs and PDEs under varying climate scenarios.
-        - Secured $8000 in funding from the Natural Sciences and Engineering Research Council of Canada (NSERC). 
+        #- Secured $8000 in funding from the Natural Sciences and Engineering Research Council of Canada (NSERC). 
 
 - title: Relevant Coursework 
   type: nested_list
   contents:
     - title: Master's 
       items: 
-        - Artificial Neural Netorks and Deep Learning, Natural Language Processing, Data Mining, Computational Statistics, Bayesian
+        - Natural Language Processing, Artificial Neural Netorks and Deep Learning, Machine Learning, Data Mining, Computational Statistics, Bayesian
           Statistics, Streaming Data Analytics, Optimization
     - title: Bachelor's
       items:
@@ -85,7 +85,7 @@
   contents:
       - Python, C++, R, MATLAB, SQL, LaTeX 
       - NumPy, scikit-learn, PyTorch, Tensorflow, Keras, Pandas, Pybind11, Open MPI, Eigen
-      - Git, Gitlab, Docker, Jupyterlab 
+      - Git, Gitlab, Docker, Jupyterlab, wandb
 
 
 
