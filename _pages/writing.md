@@ -11,6 +11,9 @@ children:
     - title: Data Science Articles
       permalink: /writing/ds_articles
     - title: divider
+    - title: Stories / Fiction
+      permalink: /writing/fiction
+    - title: divider
     - title: Modern Deep Learning Design & Applications
       permalink: /writing/mdldna
     - title: Modern Deep Learning for Tabular Data

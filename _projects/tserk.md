@@ -1,10 +1,10 @@
 ---
 layout: page
-title: University of Washington Notes
+title: tserk
 description: lorem ipsum
 img: assets/img/12.jpg
 importance: 99
-category: academics
+category: experimental
 ---
 
 embed
