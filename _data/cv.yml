@@ -6,12 +6,14 @@
       year: ’21 - ’25
       description:
         - 4.0 GPA
+        - Coursework includes - logic, ethical theory, phenomenology, philosophy of race, philosophy of feminism
         # - [Early Entrance Program](https://robinsoncenter.uw.edu/programs/transition-school/){:target="_blank"}
     - title: B.S., Computer Science
       institution: University of Washington
       year: ’21 - ’25
       description:
         - 3.9 GPA
+        - Coursework includes - computational theory, basic systems
 
 - title: Research
   type: time_table

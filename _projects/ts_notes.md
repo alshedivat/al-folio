@@ -1,11 +1,6 @@
-# Confidence Contours
-
-Social Futures Lab, Allen School
-{: .fs-6 .fw-300 }
-
 ---
 layout: page
-title: Uni Notes
+title: Transition School Notes
 description: lorem ipsum
 img: assets/img/12.jpg
 importance: 99
