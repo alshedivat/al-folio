@@ -26,12 +26,5 @@ My PhD work looks at structural forest regeneration following stand-replacing di
 <div class="caption">
     Launching the DJI Zenmuse outside of Revelstoke, BC
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/lil_tree2.gif" title="Sapling Example" %}
-    </div>
-</div>
-<div class="caption">
-    An example of a sapling measured using the DJI Zenmuse
-</div>
 
+<iframe src="https://giphy.com/embed/GVUQCWSBpgn2N5Cpy7" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/GVUQCWSBpgn2N5Cpy7">via GIPHY</a></p>
