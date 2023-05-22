@@ -127,8 +127,14 @@
         <em>{{entry.journal}}</em>{% if entry.volume %}, vol. {{entry.volume}}{% endif %}{% if entry.number %}, no. {{entry.number}}{% endif %},
       {% elsif entry.type == "inproceedings" and entry.booktitle %}
         <em>In {{entry.booktitle}}</em>,
-      {% elsif entry.type == "misc" and entry.organisation %}
-        <em>{{entry.organization}}</em>,
+      {% elsif entry.type == "misc" %}
+        {% assign venue = entry.organization %}
+        {% if entry.howpublished %}
+          {% assign venue = entry.howpublished %}
+        {% endif %}
+        {% if venue %}
+          <em>{{venue}}</em>,
+        {% endif %}
       {% endif %}
       {% if entry.year %}
         {{entry.year}}.
