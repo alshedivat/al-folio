@@ -102,6 +102,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://www.silviofanzon.com/" target="_blank">★</a>
 <a href="https://kaikaiyao.github.io/" target="_blank">★</a>
 <a href="https://alchemz.github.io/" target="_blank">★</a>
+<a href="https://samadamday.com/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
