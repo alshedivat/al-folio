@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 ### About me
 
-Currently I am a PhD Student in Economics at [Columbia University](https://econ.columbia.edu/). In the Summer of 2023 I will join [Golub Capital Social Impact Lab](https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil) at Stanford GSB as a Postdoctoral	Scholar.
+I obtained my PhD in Economics from [Columbia University](https://econ.columbia.edu/) in May 2023. In the July I will join [Golub Capital Social Impact Lab](https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil) at Stanford GSB as a Postdoctoral	Scholar.
 
 Previously I studied at [the University of Edinburgh](https://www.ed.ac.uk/economics) and was a Visiting Researcher at [Imperial College](https://www.imperial.ac.uk/business-school/).      
 
@@ -27,7 +27,7 @@ My research interests include Industrial Organization, Public Economics, Bayesia
 My Erdos number is [6](https://www.csauthors.net/distance/paul-erdos/szymon-sacher) and my Carlsen number is [3](https://freopen.org/@/FlaxJax). 
 ### Contact
 
-szymon.sacher@columbia.edu
+szymon.sacher\[at\]gmail\[dot\]com
 
 +1-347-324-0314
 
