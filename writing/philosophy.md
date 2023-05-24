@@ -9,7 +9,7 @@ nav: false
 
 ["Wor(k/d)play."](files/workdplay.pdf){:target="_blank"} *Garden of Ideas*, Vol. 2, 2023 - Issue 1. Not released yet.
 
-> **Abstract.** In this essay, we challenge the notion that wordplay lacks depth and meaning. Drawing from philosophers like Plato, Derrida, Wittgenstein, and Saussure, we explore wordplay as a playful engagement with signifiers and their relationships. By embracing irony and comedic play, we uncover new perspectives on language and its limitations. We argue that wordplay offers a valuable tool for critical writers to expand meaning and open doors to alternative modes of understanding. This essay encourages the embrace of wordplay as a meaningful means of inquiry and expression. *Disclosure: LLM-generated abstract.*
+> <small>**Abstract.** In this essay, we challenge the notion that wordplay lacks depth and meaning. Drawing from philosophers like Plato, Derrida, Wittgenstein, and Saussure, we explore wordplay as a playful engagement with signifiers and their relationships. By embracing irony and comedic play, we uncover new perspectives on language and its limitations. We argue that wordplay offers a valuable tool for critical writers to expand meaning and open doors to alternative modes of understanding. This essay encourages the embrace of wordplay as a meaningful means of inquiry and expression. *Disclosure: LLM-generated abstract.*</small>
 
 <br>
 
