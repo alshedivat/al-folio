@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Mobiod Streams
+title: AyahuascaNet
 description: lorem ipsum
 img: assets/img/12.jpg
-importance: 95
+importance: 105
 category: experimental
 ---
 
-embed
+[Paper](assets/pdf/SIGBOVIK_2023.pdf)
