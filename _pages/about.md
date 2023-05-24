@@ -25,6 +25,6 @@ I am an undergraduate at the University of Washington studying philosophy and co
 How to cultural differences in humans manifest in models?
 Does AI constitute universality, and what ethical and political difficulties arise? What are complications with value pluralism in AI?
 
-Currently, I am working with Prof. Ranjay Krishna, Prof. Amy Zhang, and PhD student Sebastin Santy on vision understanding models' internalization of cross-cultural perceptual differences. Previously, I worked in the Social Futures Lab and the Najafian Lab.
+Currently, I am working with Prof. Ranjay Krishna, Prof. Amy Zhang, and PhD student Sebastin Santy on vision understanding models' internalization of cross-cultural perceptual differences. Previously, I worked in the Social Futures Lab on uncertainty representation, the Najafian Lab on medical semantic segmentation, and Deepgram on curriculum learning in large transcription models.
 
 I have written a few essays in philosophy, two books on deep learning, and many data science articles. etc.
