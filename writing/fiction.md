@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /writing/fiction
-title: fiction
-description: Materials for courses you taught. Replace this text with your description.
+title: Fiction
+description: Hi there
 nav: false
 ---
 
