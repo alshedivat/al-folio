@@ -80,10 +80,7 @@ let initTheme = (theme) => {
     }
   }
 
-  // Wait for the DOM to finish loading before setting theme
-  document.addEventListener("DOMContentLoaded", function () {
-    setTheme(theme);
-  });
+  setTheme(theme);
 };
 
 initTheme(localStorage.getItem("theme"));
