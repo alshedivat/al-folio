@@ -3,82 +3,48 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@unpublished{bachelos_thesis,
+title={Implementation and Comparison of Substitution Trees and Instance Tries},
+author={Lydia Kondylidou},
+supervisor={Francois Bry, Thomas Prokosch},
+abstract={Term indexing methods have a major impact on the speed of logic programming lan-
+  guages and automated theorem proving systems. Substitution trees are well estab-
+  lished term indexes for logic programming and theorem proving because of their per-
+  formances. However, they rely on heuristics and ignore the partial order that is in-
+  herent to terms. On the other hand, instance tries have been recently proposed as a
+  novel term index for logic programming and automated theorem proving. Instance
+  tries make use of the term order without having to resort to heuristics. In this bache-
+  lor’s thesis, the efficiency of instance tries is examined in more detail on the basis of
+  established benchmarks and and it is compared with that of substitution trees.},
+year={2021},
+month={March},
+pdf={Bachelor-Thesis-Kondylidou.pdf},
+html={https://www.en.pms.ifi.lmu.de/publications/diplomarbeiten/Lydia.Kondylidou/BA_Lydia.Kondylidou.pdf},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@unpublished{masters_thesis,
+title={Supporting a CDCL Sat Solver by BDD Methods},
+author={Lydia Kondylidou},
+abstract={Boolean satisfiability (SAT) is one of the most important problems of theoretical computer
+  science with many practical applications in which Boolean Satisfiability (SAT) solvers are
+  used in the background as high-performance reasoning engines. These applications include
+  automated planning and scheduling, formal verification, and automated theorem proving. In
+  the last decades, the performance of state-of-the-art SAT solvers has increased dramatically,
+  thanks to the invention of advanced heuristics, preprocessing and inprocessing techniques,
+  and data structures that allow efficient implementation of search space pruning. The in-
+  creasing popularity of SAT in verification and synthesis encourages the search for additional
+  speed-ups. This paper presents a new approach to support a Conflict Driven Clause Learning
+  (CDCL) SAT solver with Binary Decision Diagram (BDD) techniques. While SAT and BDD
+  techniques are often presented as mutually exclusive alternatives, this work points out that
+  both can be improved by running in parallel and exchanging information. In this thesis, a
+  BDD library is implemented in Rust, designed to support the latest version of the Glucose
+  SAT solver. The proposed methods are based on efficient communication between the two
+  architectures. Several benchmarks from the SAT competitions are run both on Glucose alone
+  and Glucose with the contribution of the BDDs, and the results are compared. Eventually,
+  the experiments show that the performance of Glucose is improved when running in parallel
+  with the BDD solver.},
+year={2023},
+month={January},
+pdf={Master-Thesis-Kondylidou.pdf},
+selected={true}
 }

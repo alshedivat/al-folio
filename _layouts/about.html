@@ -40,6 +40,37 @@ layout: default
             {{ content }}
           </div>
 
+          <!-- Contact -->
+          <h2>contact</h2>
+          <div class="news">
+            <div class="table-responsive">
+              <table class="table table-sm table-borderless">
+
+                <tr>
+                  <th scope="row">email</th>
+                  <td>
+                    &lt;my first name&gt;.&lt;my last name&gt;@lmu.de
+
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">office</th>
+                  <td>
+                    Oettingenstr. 67, room L 103
+
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">github</th>
+                  <td>
+                    kondylidou
+
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
