@@ -30,18 +30,6 @@
     development of wireless communication systems, wireless sensor networks,
     cooperative communications, artificial intelligence and signal processing.
 
-- name: Brian Govers
-  title: Research Assistant
-  pfp: /assets/img/pfp/bgovers.jpg
-  email: bgovers@ucsc.edu
-  linkedin_username: brian-govers
-  body: |
-    Brian is a recent UCSC graduate with a degree in Electrical Engineering.
-    Now in his first year of the Electrical and Computer Engineering M.S.
-    program, he hopes to earn a degree with a focus in Robotics, Control, and
-    Cyber-Physical Systems. Brian is working on developing a communication
-    infrastructure to collect and process sensor data from the UCSC farm.
-
 - name: John Madden
   title: Assistant Lab Manager
   pfp: /assets/img/pfp/jtmadden.jpg
@@ -78,10 +66,23 @@
     on using machine learning to develop technology for addressing climate
     change.
 
-- name: Revanth
-  title: Primary Research Assistant
-  pfp: /assets/img/3.jpg
-  email: proacc576@gmail.com
+- name: Josie Dominguez
+  title: Undergraduate Researcher
+  pfp: /assets/img/pfp/jdominguez.jpg
+  email: jocadomi@ucsc.edu
+  linkedin_username: josephine-dominguez-989436160
   body: |
-    Revanth Kottur Sivakumar is in the class of 2023 at Amrita University
-    (India). He majors in electrical engineering.
+    Josie is an undergraduate at UC Santa Cruz working towards a B.S. in Electrical Engineering. 
+    With a focus on electrical hardware and PCB design, she is pursuing research in RF and sensor design. 
+    She will be participating in embedded systems/electronic integration research at UCSD over the summer for their Engineers 4 Exploration REU.
+
+- name: Eric Vetha
+  title: Undergraduate Researcher
+  pfp: /assets/img/pfp/evetha.jpg
+  email: evetha@ucsc.edu
+  linkedin_username: eric-david-vetha
+  github_username: ericdvet
+  body: |
+    Eric is 3rd year undergraduate Robotics Engineering student at UC Santa Cruz. 
+    Eric is working on the software of wireless underground backscatter tags and 
+    the radar which are used to collect information regarding soil moisture content.
