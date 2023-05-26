@@ -2,16 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Εκπαίδευση είναι το άναμμα της φλόγας και όχι το γέμισμα ενός βάζου. - Σωκράτης, 470-399 π.Χ.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>Room L 103</p>
-    <p>Oettingenstr. 67</p>
-    <p>80538 Munich, Germany</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
