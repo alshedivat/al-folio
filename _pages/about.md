@@ -22,4 +22,4 @@ social: false  # includes social icons at the bottom of the page
 Hi! I'm Lydia Kondylidou, a PhD researcher at the department of Theoretical Computer Science of LMU under the supervision of Prof. Jasmin Blanchette.
 
 I'm interested in automated reasoning, particularly automated theorem proving and higher order logic. 
-My PhD subject is making higher-order SMT Solving work by ensuring that extensions of SMT solvers natively support higher-order reasoning. 
+My PhD subject is making higher-order SMT solving work by ensuring that extensions of SMT solvers natively support higher-order reasoning. 
