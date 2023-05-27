@@ -2,7 +2,7 @@
 layout: page
 title: RF Soil Moisture
 description: Low cost, Energy Efficient Solution
-img: assets/img/tof.png
+img: assets/img/tof2.jpg
 importance: 2
 category: work
 ---
@@ -23,10 +23,10 @@ We propose a hybrid approach that combines the advantages of both. This paper in
 
 Our short paper titled Time-of-Flight Soil Moisture Estimation Using RF Backscatter Tags has been accepted to IGARSS 2020, the IEEE International Geoscience and Remote Sensing Symposium. It was virtually presented in October 2020.
 
-Agricultural soil moisture measurement is usually done with extensive in situ sensor deployments. These sensor networks are often difficult to install and maintain. Ground penetrating radars have also been used to do fine-grained moisture measurements in farm fields, but usually require the radar to be in or near contact with the soil. In this paper we propose a hybrid approach that combines an in situ backscatter reflector with an ultra-wideband radar that is small enough to be handheld or mounted to a drone. The underground backscatter reflector allows for accurate time-of-flight measurements. The time-of-flight is determined by the permittivity of the soil, which is influenced primarily by the soil water content for non-saline soils. We performed both laboratory and in situ measurements, achieving an average accuracy within 0.013 cm3/cm3 of the ground truth with a 90th percentile of 0.034 cm3/cm3. This demonstrates the feasibility of our approach. 
+Agricultural soil moisture measurement is usually done with extensive in situ sensor deployments. These sensor networks are often difficult to install and maintain. Ground penetrating radars have also been used to do fine-grained moisture measurements in farm fields, but usually require the radar to be in or near contact with the soil. In this paper we propose a hybrid approach that combines an in situ backscatter reflector with an ultra-wideband radar that is small enough to be handheld or mounted to a drone. The underground backscatter reflector allows for accurate time-of-flight measurements. The time-of-flight is determined by the permittivity of the soil, which is influenced primarily by the soil water content for non-saline soils. We performed both laboratory and in situ measurements, achieving an average accuracy within 0.013 cm3/cm3 of the ground truth with a 90th percentile of 0.034 cm3/cm3. This demonstrates the feasibility of our approach.
 
 ## IPSN '20
 
-We were to present a live demo of our soil moisture sensing work at IPSN ‘20 in Sydney, Australia during April 21-24. Here’s a video for those who can’t make it to Australia: Note: due to the pandemic, IPSN 2020 was virtual, so nobody got to see this in-person. 
+We were to present a live demo of our soil moisture sensing work at IPSN ‘20 in Sydney, Australia during April 21-24. Here’s a video for those who can’t make it to Australia: Note: due to the pandemic, IPSN 2020 was virtual, so nobody got to see this in-person.
 
 {% include video.html url="https://www.youtube-nocookie.com/embed/4m8p9s8nrQI" %}
