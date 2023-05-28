@@ -85,6 +85,26 @@ Lukoil 3D Block10 Iraq, Land vibroseis seismic | Seismic data processing in time
     </div>
 </div>
 
+<div class="container">
+    <div class="row display-flex">
+        <div class="col-md-4">
+            <div class="box">
+                <img src="assets/img/2.jpg/200x100" class="center-block">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="box">
+                <img src="assets/img/4.jpg/200x100" class="center-block">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="box">
+                <img src="assets/img/6.jpg/200x100" class="center-block">
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="caption">
     From the left; A land Seismic crew in Saudi Arabia, Me receiving my General Field Engineer award from WG Management, During OFS-3 (Leading and Managing People).
 </div>
