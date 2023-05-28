@@ -14,3 +14,29 @@ layout: default
           </article>
 
         </div>
+
+        <style>
+          details {
+            user-select: none;
+          }
+
+          details>summary span.icon {
+            width: 24px;
+            height: 24px;
+            transition: all 0.3s;
+            margin-left: auto;
+          }
+
+          details[open] summary span.icon {
+            transform: rotate(180deg);
+          }
+
+          summary {
+            display: flex;
+            cursor: pointer;
+          }
+
+          summary::-webkit-details-marker {
+            display: none;
+          }
+        </style>
