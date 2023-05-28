@@ -18,6 +18,16 @@ nav: false
   </p>
 </details>
 
+> <details>
+  <summary>
+    <a href="files/workdplay.pdf" target="_blank">"Wor(k/d)play."</a> <em>Garden of Ideas</em>, Vol. 2, 2023 - Issue 1. Issue currently under progress.
+    <span class="icon">👇</span>
+  </summary>
+  <p style="margin-left: 25px;">
+    > <small><bold>Abstract.</bold> In this essay, we challenge the notion that wordplay lacks depth and meaning. Drawing from philosophers like Plato, Derrida, Wittgenstein, and Saussure, we explore wordplay as a playful engagement with signifiers and their relationships. By embracing irony and comedic play, we uncover new perspectives on language and its limitations. We argue that wordplay offers a valuable tool for critical writers to expand meaning and open doors to alternative modes of understanding. This essay encourages the embrace of wordplay as a meaningful means of inquiry and expression. *Disclosure: LLM-generated abstract.*</small>
+  </p>
+</details>
+
 <br>
 
 ["Economy of the Dataset: Marx and Large Language Models."](files/economy-of-the-dataset.pdf){:target="_blank"} Written for Reboot Fellowship, 2023 cohort. March 2023.
