@@ -52,16 +52,31 @@ Lukoil 3D Block10 Iraq, Land vibroseis seismic | Seismic data processing in time
 
 
 <div class="row">
-    <div class="col mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            {% include figure.html path="assets/img/2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+         </div>
+        <div class="col-md-4">
+            {% include figure.html path="assets/img/4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="col-md-4">
+            {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
+    </div>
+</div>
+
 <div class="caption">
     From the left; A land Seismic crew in Saudi Arabia, Me receiving my General Field Engineer award from WG Management, During OFS-3 (Leading and Managing People).
 </div>
