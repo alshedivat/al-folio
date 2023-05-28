@@ -49,6 +49,7 @@ Lukoil 3D Block10 Iraq, Land vibroseis seismic | Seismic data processing in time
 {: .tablelines}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 
@@ -66,6 +67,9 @@ Lukoil 3D Block10 Iraq, Land vibroseis seismic | Seismic data processing in time
 
 \
 >>>>>>> ed810d9 (Update 1_project.md)
+=======
+</br>
+>>>>>>> a2eeb22 (Update 1_project.md)
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
