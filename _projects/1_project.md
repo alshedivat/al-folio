@@ -50,14 +50,6 @@ Lukoil 3D Block10 Iraq, Land vibroseis seismic | Seismic data processing in time
 
 > Pictures from my Land seismic assignements and some trainings.
 
-.row.display-flex {
-  display: flex;
-  flex-wrap: wrap;
-}
-.row.display-flex > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
-}
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -71,7 +63,7 @@ Lukoil 3D Block10 Iraq, Land vibroseis seismic | Seismic data processing in time
     </div>
 </div>
 
-
+assets/img/1.jpg
 <div class="container">
     <div class="row display-flex">
         <div class="col-md-4">
