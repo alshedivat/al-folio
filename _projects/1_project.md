@@ -46,8 +46,6 @@ Lukoil 3D Block10 Iraq, Land vibroseis seismic | Seismic data processing in time
 {: .tablelines}
 </br>
 
-
-
 > Pictures from my Land seismic assignements and some trainings.
 
 
