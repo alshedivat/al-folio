@@ -89,17 +89,17 @@ Lukoil 3D Block10 Iraq, Land vibroseis seismic | Seismic data processing in time
     <div class="row display-flex">
         <div class="col-md-4">
             <div class="box">
-                <img src="assets/img/2.jpg/200x100" class="center-block">
+                <img src="assets/img/2.jpg"  height="100" class="center-block">
             </div>
         </div>
         <div class="col-md-4">
             <div class="box">
-                <img src="assets/img/4.jpg/200x100" class="center-block">
+                <img src="assets/img/4.jpg"  height="100" class="center-block">
             </div>
         </div>
         <div class="col-md-4">
             <div class="box">
-                <img src="assets/img/6.jpg/200x100" class="center-block">
+                <img src="assets/img/6.jpg"  height="100" class="center-block">
             </div>
         </div>
     </div>
