@@ -1,0 +1,29 @@
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Programming and Modelling with Haskell - Tutorial
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: SS22
+    - title: Logic and Discrete Structures - Tutorial
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: SS22
+    - title: SAT Solving - Tutorial
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: WS21/22
+      description:
+        -  <a href="https://uni2work.ifi.lmu.de/course/W21/IfI/SAT">SAT Solving WS21/22</a>
+    - title: Programming and Modelling with Haskell - Tutorial
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: SS21
+    - title: Logic and Discrete Structures - Tutorial
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: SS21
+    - title: Functional Programming - Tutorial
+      institution: Technical University of Munich, Munich, Germany
+      year: WS20/21
+    - title: Programming and Modelling with Haskell - Tutorial
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: SS20
+    - title: Introduction to Computer Science with Java - Tutorial
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: WS19/20

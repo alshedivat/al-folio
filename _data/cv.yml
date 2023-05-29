@@ -28,35 +28,7 @@
       institution: National and Kapodistrian University of Athens
       year: 09.2013 – 03.2014
 
-- title: Teaching
-  type: time_table
-  contents:
-    - title: Tutor Programming and Modelling with Haskell
-      institution: Ludwig Maximilian University of Munich, Munich, Germany
-      year: 04.2022 - 09.2022
-    - title: Tutor Logic and Discrete Structures
-      institution: Ludwig Maximilian University of Munich, Munich, Germany
-      year: 04.2022 - 09.2022
-    - title: Tutor SAT Solving
-      institution: Ludwig Maximilian University of Munich, Munich, Germany
-      year: 10.2021 - 04.2022
-    - title: Tutor Programming and Modelling with Haskell
-      institution: Ludwig Maximilian University of Munich, Munich, Germany
-      year: 04.2021 - 09.2021
-    - title: Tutor Logic and Discrete Structures
-      institution: Ludwig Maximilian University of Munich, Munich, Germany
-      year: 04.2021 - 09.2021
-    - title: Tutor Functional Programming
-      institution: Technical University of Munich, Munich, Germany
-      year: 10.2020 - 03.2021
-    - title: Tutor Programming and Modelling with Haskell
-      institution: Ludwig Maximilian University of Munich, Munich, Germany
-      year: 04.2020 - 09.2020
-    - title: Tutor Introduction to Computer Science with Java
-      institution: Ludwig Maximilian University of Munich, Munich, Germany
-      year: 10.2019 - 03.2020
-
-- title: Experience
+- title: Work Experience
   type: time_table
   contents:
     - title: Software Developer
