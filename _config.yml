@@ -183,7 +183,7 @@ news_limit: 5 # leave blank to include all the news in the `_news` folder
 
 # Markdown and syntax highlight
 markdown: kramdown
-highlighter: rouge
+highlighter: blue
 kramdown:
   input: GFM
   syntax_highlighter_opts:
