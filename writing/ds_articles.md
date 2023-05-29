@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /writing/ds_articles
-title: teaching
+title: data science articles
 description: Materials for courses you taught. Replace this text with your description.
 nav: false
 ---

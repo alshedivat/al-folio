@@ -2,7 +2,7 @@
 layout: page
 title: AyahuascaNet
 description: lorem ipsum
-img: assets/img/12.jpg
+img: assets/img/ayahuasca.png
 importance: 105
 category: experimental
 ---
