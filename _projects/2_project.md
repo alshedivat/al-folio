@@ -31,16 +31,9 @@ tbody tr:nth-child(even) {
 Offshore UK, Shetland Islands | Wide Azimuth, Towed streamer 3D. The survey covered an area of approximately 2,500 square kilometers  | `2012` | Multi-Client
 Barents Sea offshore Norway | Wide Azimuth, Towed streamer 3D. The survey covered an area of approximately 2,700 square kilometers | `2012` | Multi-Client
 {: .tablelines}
+</br>
 
-\
-Layout
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+> Pictures from my marine seismic assignements.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
