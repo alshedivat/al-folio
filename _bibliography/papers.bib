@@ -7,21 +7,17 @@
 #publisher_version add this tag for url, add comming_soon if proceeding yet to happen
 # add teaser in the assets image and use arxiv number with _ instead of .
 
-@misc{goel2022isrf,
-  doi = {10.48550/ARXIV.2212.13545},
-  abbr={ISRF},
-  author_version = {https://arxiv.org/abs/2212.13545},
-  website={https://rahul-goel.github.io/isrf/},
-  author = {Goel*, Rahul  and Sirikonda*, Dhawal and Saini, Saurabh and Narayanan, PJ},
-  title = {Interactive Segmentation of Radiance Fields},
-  abstract = {Radiance Fields (RF) are popular to represent casually-captured scenes for new view generation and have been used for applications beyond it. Understanding and manipulating scenes represented as RFs have to naturally follow to facilitate mixed reality on personal spaces. Semantic segmentation of objects in the 3D scene is an important step for that. Prior segmentation efforts using feature distillation show promise but don't scale to complex objects with diverse appearance. We present a framework to interactively segment objects with fine structure. Nearest neighbor feature matching identifies high-confidence regions of the objects using distilled features. Bilateral filtering in a joint spatio-semantic space grows the region to recover accurate segmentation. We show state-of-the-art results of segmenting objects from RFs and compositing them to another scene, changing appearance, etc., moving closer to rich scene manipulation and understanding.},
-  publisher = {arXiv},
-  year = {2022},
-  selected={true},
-  conference = {CVPR 2023 - (To appear CVPR OpenaccessCVF, IEEE)},
-  copyright = {Creative Commons Attribution 4.0 International}
+@InProceedings{goel2022isrf,
+    author    = {Goel*, Rahul and Sirikonda*, Dhawal and Saini, Saurabh and Narayanan, P. J.},
+    title     = {Interactive Segmentation of Radiance Fields},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    abstract = {Radiance Fields (RF) are popular to represent casually-captured scenes for new view generation and have been used for applications beyond it. Understanding and manipulating scenes represented as RFs have to naturally follow to facilitate mixed reality on personal spaces. Semantic segmentation of objects in the 3D scene is an important step for that. Prior segmentation efforts using feature distillation show promise but don't scale to complex objects with diverse appearance. We present a framework to interactively segment objects with fine structure. Nearest neighbor feature matching identifies high-confidence regions of the objects using distilled features. Bilateral filtering in a joint spatio-semantic space grows the region to recover accurate segmentation. We show state-of-the-art results of segmenting objects from RFs and compositing them to another scene, changing appearance, etc., moving closer to rich scene manipulation and understanding.},
+    month     = {June},
+    author_version = {https://arxiv.org/abs/2212.13545},
+    website={https://rahul-goel.github.io/isrf/},
+    year      = {2023},
+    pages     = {4201-4211}
 }
-
 
 @inproceedings{dhawal2022prtsdf,
     author = {Dhawal, Sirikonda and KT, Aakash and Narayanan, P.J.},
@@ -29,12 +25,12 @@
     abbr={PRTonAnySurf},
     year = {2022},
     abstract = {Precomputed Radiance Transfer (PRT) is widely used for real-time photorealistic effects. PRT disentangles the rendering equation into transfer and  lighting, enabling their precomputation. Transfer accounts for the cosine-weighted visibility of points in the scene while lighting for emitted radiance from the environment. Prior art stored precomputed transfer in a tabulated manner, either in vertex or texture space. These values are fetched with interpolation at each point for shading. Vertex space methods require densely tessellated mesh vertices for high quality images. Texture space methods require non-overlapping and area-preserving UV mapping to be available. They also require a high-resolution texture to avoid rendering artifacts. In this paper, we propose a compact transfer representation that is learnt directly on scene geometry points. Specifically, we train a small multi-layer perceptron (MLP) to predict the transfer at sampled surface points. Our approach is most beneficial where inherent mesh storage structure and natural UV mapping are not available, such as Implicit Surfaces as it learns the transfer values directly on the surface. We demonstrate real-time, photorealistic renderings of diffuse and glossy materials on SDF geometries with PRT using our approach.},
-    author_version = {https://iiitaphyd-my.sharepoint.com/:b:/g/personal/dhawal_sirikonda_research_iiit_ac_in/EUKOrBzrxrxFsOhmYFLArFcBtWBpY2nfx_CziCUC-JHneg?e=MrdxAJ},
+    publisher_version = {https://doi.org/10.1145/3571600.3571640},
     selected={true},
     website={https://dhawal1939.github.io/projects/sh_rendering/#learnttransfer},
-    doi = {10.1145/3571600.3571640},
+    doi = {https://doi.org/10.1145/3571600.3571640},
     booktitle = {Proceedings of the Thirteenth Indian Conference on Computer Vision, Graphics and Image Processing},
-    conference = {ICVGIP 2022 - (To appear in ACM Digital Library)},
+    conference = {ICVGIP '22},
 }
 
 @misc{dhawal2022prtsdf,
@@ -48,7 +44,6 @@
     conference = {High Performance Graphics (HPG) 2022-Poster},
 }
 
-
 @inproceedings{goel2022styletrf,
     author = {Goel, Rahul and Dhawal, Sirikonda and Saini, Saurabh and Narayanan, P.J.},
     abbr={StyleTRF},
@@ -56,10 +51,10 @@
     year = {2022},
     abstract = {Stylized view generation of scenes captured casually using a camera has received much attention recently. The geometry and appearance of the scene are typically captured as neural point sets or neural radiance fields in the previous work. An image stylization method is used to stylize the captured appearance by training its network jointly or iteratively with the structure capture network. The state-of-the-art SNeRF method trains the NeRF and stylization network in an alternating manner. These methods have high training time and require joint optimization. In this work, we present StyleTRF, a compact, quick-to-optimize strategy for stylized view generation using TensoRF. The appearance part is fine-tuned using sparse stylized priors of a few views rendered using the TensoRF representation for a few iterations. Our method thus effectively decouples style-adaption from view capture and is much faster than the previous methods. We show state-of-the-art results on several scenes used for this purpose.},
     doi = {10.1145/3571600.3571643},
-    author_version={https://iiitaphyd-my.sharepoint.com/:b:/g/personal/dhawal_sirikonda_research_iiit_ac_in/EfERIufS5s5HowJY1Yth5i0BkZTPK6JywI1CI5GUBluzRA?e=qL6Byu},
+    publisher_version={https://doi.org/10.1145/3571600.3571643},
     website={https://rahul-goel.github.io/StyleTRF/},
     booktitle = {Proceedings of the Thirteenth Indian Conference on Computer Vision, Graphics and Image Processing},
-    conference = {ICVGIP 2022 - (To appear in ACM Digital Library)}
+    conference = {ICVGIP '22}
 }
 @misc{https://doi.org/10.48550/arxiv.2203.12399,
   abbr={PRTT},
@@ -74,10 +69,38 @@
   website={https://dhawal1939.github.io/projects/sh_rendering/#uvtransfer},
   copyright = {Creative Commons Attribution 4.0 International},
   author_version = {https://arxiv.org/abs/2203.12399},
-  publisher_version = {https://diglib.eg.org/handle/10.2312/egp20221012},
-  conference = {Eurographics(EG) 2022-Poster},
+  conference = {Technical Report},
   selected={true},
   teaser={2203_12399}
+}
+
+@inproceedings {10.2312:egp.20221012,
+booktitle = {Eurographics 2022 - Posters},
+title = {{Transfer Textures for Fast Precomputed Radiance Transfer}},
+author = {Dhawal, Sirikonda and Kt, Aakash and Narayanan, P. J.},
+year = {2022},
+publisher = {The Eurographics Association},
+ISSN = {1017-4656},
+ISBN = {978-3-03868-171-7},
+DOI = {10.2312/egp.20221012}
+}
+
+@inproceedings{10.1145/3490035.3490299,
+author = {Gera, Pulkit and T, Aakash K and Sirikonda, Dhawal and Narayanan, P. J.},
+title = {Neural View Synthesis with Appearance Editing from Unstructured Images},
+year = {2021},
+isbn = {9781450375962},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3490035.3490299},
+doi = {10.1145/3490035.3490299},
+abstract = {We present a neural rendering framework for simultaneous view synthesis and appearance editing of a scene with known environmental illumination captured using a mobile camera. Existing approaches either achieve view synthesis alone or view synthesis along with relighting, without control over the scene's appearance. Our approach explicitly disentangles the appearance and learns a lighting representation that is independent of it. Specifically, we jointly learn the scene appearance and a lighting-only representation of the scene. Such disentanglement allows our approach to generalize to arbitrary changes in appearance while performing view synthesis. We show results of editing the appearance of real scenes in interesting and non-trivial ways. The performance of our view synthesis approach is on par with state-of-the-art approaches on both real and synthetic data.},
+booktitle = {Proceedings of the Twelfth Indian Conference on Computer Vision, Graphics and Image Processing},
+articleno = {40},
+numpages = {9},
+keywords = {text tagging, LATEX, ACM proceedings},
+location = {Jodhpur, India},
+series = {ICVGIP '21}
 }
 
 @misc{https://doi.org/10.48550/arxiv.2110.07674,
@@ -93,7 +116,5 @@
   website={https://darthgera123.github.io/appearance-editing/},
   copyright = {Creative Commons Attribution 4.0 International},
   author_version = {https://arxiv.org/abs/2110.07674},
-  conference = {ICVGIP 2021},
-  publisher_version = {https://dl.acm.org/doi/abs/10.1145/3490035.3490299},
   teaser={2110_07674} 
 }
