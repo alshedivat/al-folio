@@ -31,8 +31,8 @@ Seismic Data Acquisition • Seismic Processing • Seismic Imaging • Seismic 
 =======
 Experience in processing and the delivering of various 2D & 3D HR seismic projects. Multi-disciplinary collaboration in depth imaging and AVO/reservoir analysis, where I used state of the art processing tools and latest workflows that address complex subsurface challenges. Experience in processing and the delivering of various 2D & 3D HR seismic projects. Multi-disciplinary collaboration in depth imaging and AVO/reservoir analysis, where I used state of the art processing tools and latest workflows that address complex subsurface challenges.
 
-_________
-__My skills including__:
+---
+**My skills including**:
 Seismic Data Acquisition • Seismic Processing • Seismic Imaging • Seismic Attributes • SeismicInterpretation • Python (Programming Language) • MATLAB • Shell Scripting • Project Management • Budgeting
 >>>>>>> 6ad409f (Update about.md)
 
