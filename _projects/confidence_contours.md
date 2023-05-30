@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Confidence Contours
-description: lorem ipsum
-img: assets/img/12.jpg
+description: Data-centric uncertainty representation for medical semantic segmentation
+img: assets/img/cc.png
 importance: 50
 category: research
 ---
