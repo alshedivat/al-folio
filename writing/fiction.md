@@ -2,7 +2,7 @@
 layout: page
 permalink: /writing/fiction
 title: Fiction
-description: Hi there
+description: Short stories and such
 nav: false
 ---
 

@@ -7,13 +7,13 @@
       description:
         - 4.0 GPA
         - Coursework includes - logic, ethical theory, phenomenology, philosophy of race, philosophy of feminism
-        # - [Early Entrance Program](https://robinsoncenter.uw.edu/programs/transition-school/){:target="_blank"}
+        - [Early Entrance Program](https://robinsoncenter.uw.edu/programs/transition-school/){:target="_blank"}
     - title: B.S., Computer Science
       institution: University of Washington
       year: ’21 - ’25
       description:
         - 3.9 GPA
-        - Coursework includes - computational theory, basic systems
+        - Coursework includes - DS&A, discrete math, systems
 
 - title: Research
   type: time_table
@@ -22,23 +22,31 @@
       institution: Krishna Group, Allen School of Computer Science & Engineering
       year: Jan ’23 - Present
       description:
-        - Prof. Ranjay Krishna & Prof. Amy Zhang
-        - PhD Student Sebastin Santy
+        - Working on the [Computer Vision Cognition](){:target="_blank"} project.
+        - Mentored by Sebastin Santy, PIs Ranjay Krishna and Amy Zhang
     - title: Undergrad Researcher
       institution: Social Futures Lab, Allen School of Computer Science & Engineering
       year: Feb ’22 - Jan ’23
       description:
-        - PhD Student Jim Chen
+        - Worked on the [Confidence Contours](){:target="_blank"} project.
+        - Mentored by Jim Chen, PI Amy Zhang
     - title: Research Intern
       institution: Deepgram
       year: Jun ’22 - Sep ’22
+      description:
+        - Designed and ran experiments for [curriculum learning](){:target="_blank"} on large speech transcription models.
+        - Mentored by Andrew Seagraves (now VP of Research at Deepgram)
     - title: Research Lead
       institution: Interactive Intelligence, University of Washington
       year: Dec ’21 - Mar ’23
       description:
+        - Worked on the [Emergent Language](https://interactive-intelligence.github.io/projects/emergent-lang){:target="_blank"} project.
     - title: Undergrad Researcher
       institution: Najafian Lab, UW Medicine
       year: Mar ’21 - May ’22
+      description:
+        - Worked on the [Foot Process Width Segmentation]() project.
+        - Worked with David Smerkous, P.I. Bezhad Najafian
 
 - title: TA'ing
   type: time_table
@@ -47,17 +55,18 @@
       institution: The Coding School
       year: Nov ’22 - Present
       description:
-        - coming
+        - Hosted several office hours sessions a week to help students with theoretical and coding material in an introductory data science and machine learning course.
     - title: Teaching Assistant, Literary Theory
       institution: Robinson Center, University of Washington
       year: Sep ’22 - Present
       description:
-        - PhD Student Jim Chen
+        - Contributed to curriculum material, hosted office hours, gave feedback on drafts.
+        - Taught material iin literary theory and philosophy, including dialectical and discursive materialism, modernist and Englightenment thought, postcolonialism, existentialism, psychoanalysis
     - title: Teaching Assistant, CSE 163
       institution: Robinson Center, University of Washington
       year: Mar ’22 - Jun ’22
       description:
-        - PhD Student Jim Chen
+        - Taught a review section every week, hosted office hours, graded assignments.
 
 - title: Publishing & Writing
   type: time_table
@@ -74,7 +83,7 @@
         - Building Data Science Solutions...
     - title: Data Science Writer
       institution: Medium
-      year: Mar ’2022 - Jun ’2022
+      year: ’21 - ’22
       description:
         - Awarded the Gold and Silver Medal from KDnuggets, a leading data science site with over 700k+ visitors monthly, for writing two of the most top-viewed and top-shared articles on the platform.
         - Have written over 350 data science and artificial intelligence articles here for various top data science publications. Articles have collectively been read over ten million times. Awarded Top Writer in AI and Technology by Medium.
@@ -86,12 +95,12 @@
   contents:
     - title: Fellowship Member
       institution: Reboot
-      year: Jan ’2023 - Mar ’2023
+      year: Jan ’23 - Mar ’23
       description:
         - Recipient of & participant in the Reboot Fellowship Program.
     - title: Volunteer Data Scientist
       institution: Coronawhy
-      year: Apr ’2020 - Jun ’2020
+      year: Apr ’20 - Jun ’20
       description:
         - CoronaWhy is an international group of volunteers working to analyze and model COVID-19 data to aid the pandemic. Worked with fellow team members in a highly collaborative setting.
         - Performed textual analysis and visualization on communications for greater internal efficiency.
@@ -100,10 +109,10 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> playing piano, swimming, reading
+    # - <u>Hobbies:</u> 
     - <u>Languages:</u> English (native), Mandarin Chinese (conversational), Russian (working), French (learning)
 
-- title: For Fun -- Competitions
+- title: Misc. - Competitions
   type: list
   contents:
     - Kaggle Master rank; held top ’2% position within the Kaggle community of over 160k data scientists (while active)
