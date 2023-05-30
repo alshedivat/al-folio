@@ -11,7 +11,7 @@ Skip to a section: [Deep Learning](#deep-learning), [Philosophy](#philosophy), [
 
 ---
 
-## Deep Learning
+### Deep Learning
 A collection of hand-picked interesting deep learning papers.
 
 Deep Learning Theory
@@ -68,7 +68,7 @@ Meta
 
 ---
 
-## Philosophy
+### Philosophy
 - *The Poverty of Ethics*, Anat Amar -- a brilliant synthesis of analytic ethics and Continental discontent.
 - *Queer Phenomenology*, Sara Ahmed -- a phenomenological account of queer bodies and spaces which leads us towards a socially-aware phenomenology of phenomenology
 - *Sex and the Failed Absolute*, Slavoj Zizek -- an ingenious and culturally aware synthesis of psycholanalysis and Hegel, through a triadic topological analogy
@@ -78,7 +78,7 @@ Meta
 
 ---
 
-## Film
+### Film
 Movies
 - *Summer of '85* -- a more sensitive and textually self-aware *Call Me By Your Name*
 - *Brokeback Mountain* -- a classic masterpiece of environmental cinematography and queer film
@@ -97,7 +97,7 @@ Documentary
 
 ---
 
-## Fiction
+### Fiction
 - *Crime and Punishment*, Fyodor Dostevsky -- a meditation on sin, guilt, and redemption
 - *Infinite Jest*, David Foster Wallace -- we are addicted to entertainment, and entertained by addiction
 - *Never Let Me Go*, Kazuo Ishiguro -- the beauty of our fragile life becomes palpable when it's about to be broken
