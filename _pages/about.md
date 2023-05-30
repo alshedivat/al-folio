@@ -21,10 +21,13 @@ social: true  # includes social icons at the bottom of the page
 
 I am currently relocating my personal website. You can view my original website [here](https://andre-ye.github.io/andre-ye.github.io-retired/){:target="_blank"} while I am transferring.
 
-I am an undergraduate at the University of Washington studying philosophy and computer science. My interest is in the philosophy of AI, specifically political/ethical, ontological, and cultural dimensions. Some questions which excite me are:
-How to cultural differences in humans manifest in models?
-Does AI constitute universality, and what ethical and political difficulties arise? What are complications with value pluralism in AI?
+I am an undergraduate at the University of Washington studying philosophy and computer science. My interest is in the philosophy of technology and AI -- specifically political/ethical, ontological, and cultural dimensions. Some questions which excite me are:
+How to  models reflect and distort cultural differences among humans?
+Does AI stand for universality, and what ethical and political difficulties arise?
+What are complications with value pluralism in AI?
 
-Currently, I am working with Prof. Ranjay Krishna, Prof. Amy Zhang, and PhD student Sebastin Santy on vision understanding models' internalization of cross-cultural perceptual differences. Previously, I worked in the Social Futures Lab on uncertainty representation, the Najafian Lab on medical semantic segmentation, and Deepgram on curriculum learning in large transcription models.
+Currently, I am working with Prof. Ranjay Krishna, Prof. Amy Zhang, and PhD student Sebastin Santy on cross-cultural perceptual differences in vision understanding models. 
+Previously, I worked in the Social Futures Lab on uncertainty representation in segmentation models, the Najafian Lab on the segmentation of kidney structures, and Deepgram on curriculum learning in large transcription models.
+I have written a few essays in philosophy, two books on deep learning, a little bit of fiction, and many data science articles. 
 
-I have written a few essays in philosophy, two books on deep learning, and many data science articles. etc.
+Outside of academics, I enjoy listening to Slavoj Zizek lectures, playing piano, learning Russian and French, and thinking about swimming in the eternally incomplete UW pool. I'm always up for a chat, so feel free to reach out.
