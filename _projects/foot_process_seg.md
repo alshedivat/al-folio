@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Improved Foot Process Width Segmentation in Podocytes
+title: Foot Process Width Segmentation
 description: lorem ipsum
 img: assets/img/podocyte.png
 importance: 99
