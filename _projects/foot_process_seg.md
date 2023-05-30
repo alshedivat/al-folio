@@ -2,7 +2,7 @@
 layout: page
 title: Improved Foot Process Width Segmentation in Podocytes
 description: lorem ipsum
-img: assets/img/12.jpg
+img: assets/img/podocyte.png
 importance: 99
 category: research
 ---

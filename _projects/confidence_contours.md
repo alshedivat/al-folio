@@ -7,11 +7,7 @@ importance: 50
 category: research
 ---
 
-# Confidence Contours
-
 Social Futures Lab, Allen School
-{: .fs-6 .fw-300 }
-
 ---
 
 - [Annotator Documentation](https://andre-ye.github.io/muadocs/){:target="_blank"}
