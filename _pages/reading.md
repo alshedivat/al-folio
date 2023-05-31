@@ -7,16 +7,16 @@ nav: true
 nav_order: 4
 ---
 
-Skip to a section: [Deep Learning](#deep-learning), [Philosophy](#philosophy), [Film](#film), [Fiction](#fiction)
+Skip to a section: [AI](#ai), [Philosophy](#philosophy), [Film](#film), [Fiction](#fiction)
 
 ---
 
-### Deep Learning
-A collection of hand-picked interesting deep learning papers.
+### AI
+A collection of hand-picked interesting AI papers.
 
 Deep Learning Theory
-- ["Beyond Neural Scaling Laws: Beating Power Law Scaling via Data Pruning"](https://arxiv.org/pdf/2206.14486.pdf){:target="_blank"} by Ben Sorscher, Robert Geirhos, Shashank Shekhar, Surya Ganguli, Ari Morcos
-- ["Learning in High Dimension Always Amounts to Extrapolation"](https://arxiv.org/pdf/2110.09485.pdf){:target="_blank"} by Randall Balestriero, Jerome Pesenti, and Yann LeCun
+- ["Beyond Neural Scaling Laws: Beating Power Law Scaling via Data Pruning"](https://arxiv.org/pdf/2206.14486.pdf){:target="_blank"} by Ben Sorscher et al.
+- ["Learning in High Dimension Always Amounts to Extrapolation"](https://arxiv.org/pdf/2110.09485.pdf){:target="_blank"} by Randall Balestriero et al.
 - ["The Lottery Ticket Hypothesis"](https://arxiv.org/pdf/1803.03635.pdf){:target="_blank"} by Jonathan Frankle and Michael Carbin
 - ["Deep Double Descent"](https://arxiv.org/pdf/1912.02292.pdf){:target="_blank"} by Preetum Nakkiran et al.
 - ["Adversarial Examples Are Not Bugs, They Are Features"](https://arxiv.org/pdf/1905.02175.pdf){:target="_blank"} by Andrew Ilyas et al.
@@ -27,8 +27,8 @@ Deep Learning Theory
 - ["Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning"](https://arxiv.org/pdf/1506.02142.pdf){:target="_blank"} by Yarin Gal and Zoubin Ghahramani
 
 Bias and Fairness
-- ["On the (im)possibility of fairness"](https://arxiv.org/pdf/1609.07236.pdf){:target="_blank"} by Sorelle A. Friedler et al.
-- ["What Do Compressed Deep Neural Networks Forget?"](https://arxiv.org/pdf/1911.05248.pdf){:target="_blank"} by Sarah Hooker et al.
+<!-- - ["On the (im)possibility of fairness"](https://arxiv.org/pdf/1609.07236.pdf){:target="_blank"} by Sorelle A. Friedler et al. -->
+<!-- - ["What Do Compressed Deep Neural Networks Forget?"](https://arxiv.org/pdf/1911.05248.pdf){:target="_blank"} by Sarah Hooker et al. -->
 - ["Characterising Bias in Compressed Models"](https://arxiv.org/abs/2010.03058){:target="_blank"} by Sara Hooker et al.
 - ["Moving Beyond 'Algorithmic Bias is a Data Problem'"](https://www.cell.com/patterns/fulltext/S2666-3899(21)00061-1){:target="_blank"} by Sara Hooker
 

@@ -30,4 +30,4 @@ Currently, I am working with Prof. Ranjay Krishna, Prof. Amy Zhang, and PhD stud
 Previously, I worked in the Social Futures Lab on uncertainty representation in segmentation models, the Najafian Lab on the segmentation of kidney structures, and Deepgram on curriculum learning in large transcription models.
 I have written a few essays in philosophy, two books on deep learning, a little bit of fiction, and many data science articles. 
 
-Outside of academics, I enjoy listening to Slavoj Zizek lectures, playing piano, learning Russian and French, and thinking about swimming in the eternally incomplete UW pool. I'm always up for a chat, so feel free to reach out.
+Outside of academics, I enjoy listening to lectures by Slavoj Zizek (my favorite undead philosopher), playing piano, learning Russian and French, and thinking about swimming in the eternally incomplete UW pool. I'm always up for a chat, so feel free to reach out.
