@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /writing/philosophy
-title: philosophy
+title: Philosophy
 description: A collection of papers.
 nav: false
 ---
@@ -31,7 +31,11 @@ nav: false
   <small><bold>Abstract.</bold> Although often overlooked due to its sparse occurrence, the symbol of the cigarette offers a new model to understand key themes of darkness and temporality in Katherine Anne Porter’s *Pale Horse, Pale Rider*. Adam is Miranda’s metaphorical cigarette, a device of light and relief from a society pervaded by the darkness of war and sickness. Despite Miranda’s pleas, Adam is committed to his guaranteed extinguishment serving in the war. The driving motion throughout the novella is that of an unspoken but relentless temporality - the metaphorical cigarette flame ceases into darkness as Adam’s departure nears. This temporality can be understood as a creation of the wartime state, whose systematic movement and organization of human life dominate Adam’s being and hence controls Miranda’s psychological being and self-relation to her world. Porter’s work illustrates the devastating power of the wartime state to impose the metaphysics of inevitable darkness upon its citizens.</small>
 </p>
 
+<br>
+
 ---
+
+<br>
 
 ## Not Published Yet
 
