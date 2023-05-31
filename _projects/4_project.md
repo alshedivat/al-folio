@@ -53,21 +53,3 @@ Getting Real About Manifolds: Data models and exploratory concept formation in c
   </div>
 </div>
 
-A paper on AI and achievement (under review)
-
-<p>  <button class="btn " type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
- Abstract
-  </button>
-</p>
-<div class="collapse" id="collapse5">
-  <div class="card card-body">
-   
-   State-of-the-art machine learning systems now routinely exceed benchmarks once thought beyond the ken of artificial intelligence (AI). Oftentimes these systems accomplish tasks through novel, insightful processes that remain inscrutable to even their human designers. Taking AlphaGo's 2016 victory over Lee Sedol as a case study, this paper argues that such accomplishments manifest the essential features of achievements as laid out in Bradford (2015). Achievements like these are directly attributable to AI systems themselves. They are artificial achievements. This opens the door to a challenge that calls out for further inquiry. Since Bradford grounds the intrinsic value of achievements in the exercise of distinctively human perfectionist capacities, the existence of artificial achievements raises the possibility that some achievements might be valueless. 
-
-
-  </div>
-</div>
-
-
-
-
