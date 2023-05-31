@@ -9,6 +9,7 @@ category: research
 
 
 | Work performed at the Najafian Lab, UW Medicine -- from March 2021 to May 2022. David Smerkous led the project. PI: Behzad Najafian. Presented work at the 2022 25th Undergraduate Research Symposium. |
+
 <br>
 
 In this project, I worked on developing a specialized computer vision system to solve specific technical challenges in kidney pathology. Previous clinical work by other members of the lab demonstrates that the average distance between adjacent 'slits' on the membrane of foot processes in the glomerulus are strong predictive signals for Fabry disease. Obtaining this signal provides helpful information for patient diagnosis and prognosis. Computer vision methods are needed to automatically detect these slits on electron microscopy cross-sections. However, these slits are very small proportional to the complete mask size; therefore optimization is a difficult problem due to severe class imbalance. We propose two techniques - windowing and dynamic dilation - which significantly improve segmentation performance. These two methods are summarized below:
