@@ -1,0 +1,99 @@
+\documentclass{article}
+
+\usepackage{fullpage} %
+\usepackage{xspace} %
+\usepackage{xcolor} %
+
+\usepackage{graphicx} %
+\usepackage{amsmath} %
+\usepackage{amssymb}
+% \usepackage{picins}%
+\usepackage{paralist}%
+\usepackage{hyperref}
+\usepackage{physics}
+\usepackage{qcircuit}
+\usepackage{braket}
+\usepackage{bm}
+\usepackage{xifthen}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{mathtools}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+
+
+
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{lscape}
+\usepackage{tikz, calc}
+\usepackage{wrapfig}
+\usepackage{fontawesome}
+\usepackage{amsthm}
+\usetikzlibrary{calc}
+
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+
+
+\newcommand*\C{\mathbb{C}}
+\newcommand*\R{\mathbb{R}}
+\newcommand*\kvdef{\ket{v} = \begin{bmatrix}
+	v_1 \\ \vdots \\ v_n
+\end{bmatrix}}
+\newcommand*\kv{\ket{v}}
+\newcommand*\g{\gamma}
+\newcommand*\bt{\beta}
+
+\renewcommand\H{\mathcal{H}}
+\newcommand\Q{\mathcal{Q}}
+\newcommand\K[1]{\ket{#1}}
+\newcommand\bqed{\null\hfill \bigtriangleup}
+\newcommand\bmat[1]{\begin{bmatrix} #1 \end{bmatrix}}
+\newcommand\aip[2]{\abs{\ip{#1}{#2}}}
+
+\newcommand\cs{\text{c}}
+\newcommand\sn{\text{s}}
+\renewcommand\O{\mathcal{O}}
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\newcommand{\E}{\mathop{\mathbb{E}}}
+
+\newcommand{\algprobm}[1]{{\sc #1}\xspace}
+\newcommand{\MC}{\algprobm{MaxCut}}
+\newcommand{\EMC}{\algprobm{EdgeMaxCut}}
+\newcommand{\LMC}{\algprobm{LocalMaxCut}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\bitn}{\{0,1\}^n}
+\newcommand{\bitz}{\{-1,+1\}}
+
+\newcommand{\prob}[1]{\Probability{[#1]}}
+\newcommand{\Prob}[1]{\Probability{\left[#1\right]}}
+
+\makeatletter
+\renewcommand{\maketitle}{\bgroup\setlength{\parindent}{0pt}
+\begin{flushleft}
+  \textbf{\@title}
+
+  \@author
+\end{flushleft}\egroup
+}
+\makeatother
+
+\begin{document}
+
+ \title{Research Statement\\Steven Kordonowy\\\href{mailto:skordono@ucsc.edu}{skordono@ucsc.edu} }
+ \date{}
+ \maketitle
+
+My research focuses on using quantum computing models to create algorithms to solve combinatorial opimization problems. From a theoretical perspective, how can quantum algorithms outperform their classical counterparts on approximating NP-hard problems? This type of research not only focuses on the performance of quantum algorithms but specifically how they contrast with their classical counterparts, pushing our knowledge of both fields simultaneously. In recent years, the power of the computational models being considered is restricted to local computation as a way to make fairer comparisons between classical and quantum models. Following this line of reasoning, I am particularly interested in quantum algorithms that can be run on machines that exist today or we anticipate will be built within the next few decades. Helping research labs navigate this era of noisy, intermediate-scale quantum computing (NISQ) is an exciting mixture of theory and practice. Eventually I would like to work in industry in a quantum computing lab helping drive the focus of algorithms being focused on using theoretical computer science motivation.
+
+One project that myself and my team have been working on is applying the quantum approximation optimization algorithm (QAOA) to a local variant of the MaxCut problem \cite{LMC}.  MaxCut asks one to partition a graph's vertices into two clusters and an edge is cut if its endpoints are in opposite groups. The goal is to maximize the number of cut edges (in the simplest version). The best general algorithm for such a problem is the famous Goemans-Williamson algorithm which achieves 0.878-approximation guarantee \cite{goewim}. We relax this problem to finding local maxima in which the number of edges cut about a vertex is maximized rather than the total number of cut edges. The QAOA took the theoretical computing field by storm in the mid-2010s as a quanntum algorithm that can (a) be rigorously analyzed for efficiency bounds and (b) seemingly outperformed known classical techniques on MaxCut and related problems \cite{FGG, FGG2}. Point (b) in particular resulted in almost immediate feedback from the classical computing community showing that comparable classical algorithms can outperform the QAOA \cite{threshold, barak_etal, hastings2019classical}. Our research continues this chain of comparing these computational models with a focus on locality showing that on degree-3 graphs, the QAOA outperforms a class of local classical algorithms.
+
+Another avenue of research our group is working on is around the extending the QuantumMaxCut (QMC) problem \cite{GP19}. The first task is simpliy descring a $2 < k$-color version of the problem, which requires using higher-order spin models to describe the underlying space. More imporantly, we want to extend algorithms to solve this $k$-QMC problem with the overall hope of constructing better QMC algorithms. Currently, the best known approximation algorithm achieves a roughly $0.58$-approximation \cite{king} which is quite far from the best known upper bounds of abour $0.956$-approximations \cite{UGC}. These algorithms work their way up in complexity, first starting with optimizing over simple product states \cite{GP19, PT22}, then introducing some entanglement between neighbors \cite{AGM}, and most recently using sum-of-squares hierarchies to construct better entangling solutions \cite{PT22, king}. Our goal is to understand how these algorithms behave on the $k$-QMC problem.
+
+\bibliographystyle{unsrt}
+\bibliography{refs}
+
+\end{document}

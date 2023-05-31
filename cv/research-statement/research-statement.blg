@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: research-statement.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: unsrt.bst
+Reallocating 'name_of_file' (item size: 1) to 5 items.
+Database file #1: refs.bib
+Warning--empty journal in FGG
+Warning--there's a number but no volume in FGG
+Warning--empty journal in GP19
+Warning--empty journal in king
+Warning--there's a number but no volume in king
+Warning--empty journal in PT22
+Warning--there's a number but no volume in PT22
+Warning--empty booktitle in AGM
+You've used 12 entries,
+            1791 wiz_defined-function locations,
+            515 strings with 5596 characters,
+and the built_in function-call counts, 2158 in all, are:
+= -- 150
+> -- 142
+< -- 0
++ -- 52
+- -- 40
+* -- 136
+:= -- 375
+add.period$ -- 35
+call.type$ -- 12
+change.case$ -- 12
+chr.to.int$ -- 0
+cite$ -- 20
+duplicate$ -- 88
+empty$ -- 211
+format.name$ -- 40
+if$ -- 459
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 8
+newline$ -- 62
+num.names$ -- 12
+pop$ -- 52
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 41
+stack$ -- 0
+substring$ -- 33
+swap$ -- 8
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 8
+while$ -- 13
+width$ -- 14
+write$ -- 122
+(There were 8 warnings)

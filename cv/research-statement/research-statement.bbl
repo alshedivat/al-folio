@@ -1,0 +1,72 @@
+\begin{thebibliography}{10}
+
+\bibitem{LMC}
+Charlie Carlson, Zack Jorquera, Alexandra Kolla, and Steven Kordonowy.
+\newblock Comparing a classical and quantum one round algorithm on localmaxcut,
+  2023.
+
+\bibitem{goewim}
+Michel~X. Goemans and David~P. Williamson.
+\newblock Improved approximation algorithms for maximum cut and satisfiability
+  problems using semidefinite programming.
+\newblock {\em J. ACM}, 42(6):1115–1145, nov 1995.
+
+\bibitem{FGG}
+Edward Farhi, Jeffrey Goldstone, and Sam Gutmann.
+\newblock A quantum approximate optimization algorithm.
+\newblock (arXiv:1411.4028), Nov 2014.
+\newblock arXiv:1411.4028 [quant-ph].
+
+\bibitem{FGG2}
+Edward Farhi, Jeffrey Goldstone, and Sam Gutmann.
+\newblock A quantum approximate optimization algorithm applied to a bounded
+  occurrence constraint problem, 2014.
+
+\bibitem{threshold}
+Juho Hirvonen, Joel Rybicki, Stefan Schmid, and Jukka Suomela.
+\newblock Large cuts with local algorithms on triangle-free graphs.
+\newblock {\em CoRR}, abs/1402.2543, 2014.
+
+\bibitem{barak_etal}
+Boaz Barak, Ankur Moitra, Ryan O'Donnell, Prasad Raghavendra, Oded Regev, David
+  Steurer, Luca Trevisan, Aravindan Vijayaraghavan, David Witmer, and John
+  Wright.
+\newblock Beating the random assignment on constraint satisfaction problems of
+  bounded degree.
+\newblock {\em CoRR}, abs/1505.03424, 2015.
+
+\bibitem{hastings2019classical}
+M.~B. Hastings.
+\newblock Classical and quantum bounded depth approximation algorithms, 2019.
+
+\bibitem{GP19}
+Sevag Gharibian and Ojas Parekh.
+\newblock Almost optimal classical approximation algorithms for a quantum
+  generalization of max-cut.
+\newblock 2019.
+
+\bibitem{king}
+Robbie King.
+\newblock An improved approximation algorithm for quantum max-cut.
+\newblock (arXiv:2209.02589), Sep 2022.
+\newblock arXiv:2209.02589 [quant-ph].
+
+\bibitem{UGC}
+Yeongwoo Hwang, Joe Neeman, Ojas Parekh, Kevin Thompson, and John Wright.
+\newblock Unique games hardness of quantum max-cut, and a conjectured
+  vector-valued borell's inequality, 2022.
+
+\bibitem{PT22}
+Ojas Parekh and Kevin Thompson.
+\newblock An optimal product-state approximation for 2-local quantum
+  hamiltonians with positive terms.
+\newblock (arXiv:2206.08342), Jun 2022.
+\newblock arXiv:2206.08342 [quant-ph].
+
+\bibitem{AGM}
+Anurag Anshu, David Gosset, and Karen Morenz.
+\newblock Beyond product state approximations for a quantum analogue of max
+  cut.
+\newblock Schloss Dagstuhl - Leibniz-Zentrum für Informatik, 2020.
+
+\end{thebibliography}
