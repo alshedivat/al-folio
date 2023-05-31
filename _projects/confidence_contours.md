@@ -7,15 +7,36 @@ importance: 50
 category: research
 ---
 
-Social Futures Lab, Allen School
+| Work performed at the Social Futures Lab, Allen School -- from February 2022 to January 2023. Mentored by Jim Chen. PI: Amy Zhang. Presented work at the 2023 26th Undergraduate Research Symposium, the Allen CS Research Showcase. Submitting to HCOMP '23. |
+<br>
+
+***Abstract.***
+Medical image segmentation modeling is a high-stakes task where understanding of uncertainty is crucial for addressing visual ambiguity. Prior work has developed segmentation models utilizing probabilistic or generative mechanisms to infer uncertainty from labels where annotators draw a singular boundary. However, as these annotations cannot represent an individual annotator's uncertainty, models trained on them produce uncertainty maps that are difficult to interpret. **We propose a novel segmentation representation, Confidence Contours, which uses high- and low-confidence ''contours'' to capture uncertainty directly, and develop a novel annotation system for collecting contours.** We conduct an evaluation on the Lung Image Dataset Consortium (LIDC) and a synthetic dataset. Our results show that Confidence Contours provide high representative capacity without requiring significantly higher annotator effort. Moreover, segmentation models trained on them can produce significantly more interpretable uncertainty maps than models with specialized mechanisms for uncertainty, and they can learn Confidence Contours at the same performance level as  singular annotations. We conclude with a discussion on how we can infer regions of high and low confidence from existing segmentation datasets.
+
+[Paper](assets/pdf/ijcai_confidence_contours_submission.pdf){: .btn :target="_blank"} 
+
 ---
 
-- [Annotator Documentation](https://andre-ye.github.io/muadocs/){:target="_blank"}
-- [Annotation Interface](https://mua.cs.washington.edu/){:target="_blank"}
-- [Add poster]()
-- [Add URP presentation]
+### Presentation Materials
+- IJCAI '23 [submission](assets/pdf/ijcai_confidence_contours_submission.pdf){:target="_blank"}, [rebuttal](assets/pdf/ijcai_confidence_contours_rebuttal.pdf){:target="_blank"}
+- Undergrad Research Symposium [slides](https://docs.google.com/presentation/d/17qrow18og678_tatb9ZtHjlaAQlSHnHcFnQ_k4DXO9c/edit?usp=sharing){:target="_blank"}, [pdf](assets/pdf/urp_confidence_contours.pdf){:target="_blank"}
+- Allen School Research Showcase [poster](assets/pdf/confidence_contours_research_showcase.pdf){:target="_blank"}
 
-Add original IJCAI paper + author response
+---
+
+### Project Materials
+- [Annotator documentation](https://andre-ye.github.io/muadocs/){:target="_blank"}
+- [Annotation interface](https://mua.cs.washington.edu/){:target="_blank"}
+- [GitHub repository](https://github.com/andre-ye/mua/tree/main){:target+"_blank"} (WIP)
+
+
+
+<!-- **Lab presentations**
+- [Goldilocks for Images](https://andre-ye.github.io/files/sfl/Goldilocks for Images.pdf){:target="_blank"}. Given as an introduction during a lab meeting to the idea of uncertainty representation and theorizing visual uncertainty.
+- [Medical Uncertainty Annotation](https://andre-ye.github.io/files/sfl/Medical Uncertainty Annotation.pdf){:target="_blank"}. Given as an update during a lab meeting to the chosen domain and demoing the application. -->
+
+
+<!-- Add original IJCAI paper + author response
 
 Medical imaging is essential to timely and accurate medical diagnosis and prognosis. A wide number of noninvasive or minimally invasive imaging methods -- such as X-rays, Medical Resonance Imaging (MRI) scans, and Computed Tomography (CT) scans -- can capture the internal state of bodily systems along a large range of scales. Moreover, imaging techniques such as electron microscopy are also of significance to non-medical biological studies. Often, it is inefficient, time-consuming, or laborious for humans to manually identify features of interest, such as lesions, particular cell types, and other biological structures or aberrations in these scans. This is especially the case for high-resolution three-dimensional scans and features of interest which are very small in size compared to the field captured by the image(s). For this reason, there has long been interest in applying computer vision to medical imaging. Deep learning models have somewhat recently been applied to more challenging medical imaging problems which previous 'manual' computer vision approaches struggle on, including semantic segmentation. The standard objective of semantic segmentation is to associate each pixel in an input image with a class. Semantic segmentation is often used to automatically detect and 'draw'/'outline' features of interest by classifying each pixel of the image as belonging to a feature of interest or not. Such deep learning models have applications in the automated detection and precise localization of cells, lesions, tumors, and other specific biological structures.
 
@@ -45,8 +66,4 @@ To propose a _data-oriented_ approach towards reconciling contextual ambiguity, 
   - RQ 3a. Does a deep computer vision model trained on min/max derived labels produce usable and robust predictions, compared to models trained on data annotated with the standard-procedure (and possibly to other benchmarked models)? Moreover, can we derive standard predictions from min/max-style predictions (showing min/max >> standard w.r.t information), e.g. a CV transformation on min/max yields high similarity w/ a standard prediction?
   - RQ 3b. Does a deep computer vision model trained on min/max annotated labels produce usable and robust predictions, compared to models trained on the same data annotated with the standard-procedure?
 
-This work, therefore, has the potential to help both annotators and computer vision models to document and understand the inherent uncertainty of the world around us - whether that is in medicine, biology, self-driving cars, or beyond.
-
-**Lab presentations**
-- [Goldilocks for Images](https://andre-ye.github.io/files/sfl/Goldilocks for Images.pdf){:target="_blank"}. Given as an introduction during a lab meeting to the idea of uncertainty representation and theorizing visual uncertainty.
-- [Medical Uncertainty Annotation](https://andre-ye.github.io/files/sfl/Medical Uncertainty Annotation.pdf){:target="_blank"}. Given as an update during a lab meeting to the chosen domain and demoing the application.
+This work, therefore, has the potential to help both annotators and computer vision models to document and understand the inherent uncertainty of the world around us - whether that is in medicine, biology, self-driving cars, or beyond. -->
