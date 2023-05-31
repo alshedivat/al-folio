@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page 
 ---
 
-I am currently relocating my personal website. You can view my original website [here](https://andre-ye.github.io/andre-ye.github.io-retired/){:target="_blank"} while I am transferring.
+<!-- I am currently relocating my personal website. You can view my original website [here](https://andre-ye.github.io/andre-ye.github.io-retired/){:target="_blank"} while I am transferring. -->
 
 I am an undergraduate at the University of Washington studying philosophy and computer science. My interest is in the philosophy of technology and AI -- specifically political/ethical, ontological, and cultural dimensions. Some questions which excite me are:
 How to  models reflect and distort cultural differences among humans?
