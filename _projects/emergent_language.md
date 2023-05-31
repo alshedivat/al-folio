@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Emergent Language
-description: Data-up symbolic discovery
+description: ground-up symbol discovery
 img: assets/img/podocyte.png
-importance: 100
+importance: 110
 category: research
 ---
 
