@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I presented on my project [Confidence Contours](#) at the UW Undergraduate Research Symposium. Watch the talk on [YouTube](https://www.youtube.com/watch?v=IG-wtMMfqYA&t=197s){:target="_blank"} or view photos on [Instagram](https://www.instagram.com/p/CscXogEvfW1/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==){:target="_blank"}.
+I presented on my project [Confidence Contours](https://andre-ye.github.io/projects/confidence_contours/) at the UW Undergraduate Research Symposium. Watch the talk on [YouTube](https://www.youtube.com/watch?v=IG-wtMMfqYA&t=197s){:target="_blank"} or view photos on [Instagram](https://www.instagram.com/p/CscXogEvfW1/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==){:target="_blank"}.

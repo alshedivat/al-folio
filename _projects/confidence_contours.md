@@ -12,7 +12,8 @@ Social Futures Lab, Allen School
 
 - [Annotator Documentation](https://andre-ye.github.io/muadocs/){:target="_blank"}
 - [Annotation Interface](https://mua.cs.washington.edu/){:target="_blank"}
-
+- [Add poster]()
+- [Add URP presentation]
 
 Add original IJCAI paper + author response
 
