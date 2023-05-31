@@ -199,9 +199,9 @@ kramdown:
   syntax_highlighter_opts:
     css_class: 'highlight'
     span:
-      line_numbers: true
+      line_numbers: false
     block:
-      line_numbers: true
+      line_numbers: false
       start_line: 1
 
 # Includes & excludes

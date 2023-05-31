@@ -45,7 +45,7 @@
       institution: Najafian Lab, UW Medicine
       year: Mar ’21 - May ’22
       description:
-        - Worked on the [Foot Process Width Segmentation]() project.
+        - Worked on the Foot Process Width Segmentation project.
         - Worked with David Smerkous, P.I. Bezhad Najafian
 
 - title: TA'ing
@@ -75,20 +75,23 @@
       institution: Apress, Springer Nature
       year: ’22 - ’23
       description:
-        - Published *...*
+        - Published Modern Deep Learning Design and Application Development (2021)
+        - Published Modern Deep Learning for Tabular Data (2022)
     - title: Technical Reviewer
       institution: Packt, Apress
       year: ’22
       description:
-        - Building Data Science Solutions...
+        - Building Data Science Solutions with Anaconda (2022) by Dan Meador, Packt
+        - Deep Learning Model Optimization with Neural Network Intelligence (2022) by Ivan Gridin, Apress
     - title: Data Science Writer
       institution: Medium
       year: ’21 - ’22
       description:
-        - Awarded the Gold and Silver Medal from KDnuggets, a leading data science site with over 700k+ visitors monthly, for writing two of the most top-viewed and top-shared articles on the platform.
-        - Have written over 350 data science and artificial intelligence articles here for various top data science publications. Articles have collectively been read over ten million times. Awarded Top Writer in AI and Technology by Medium.
-        - Contracted to write data science articles for machine learning companies and organizations like Neptune.AI.
-        - Served as Editor of Data Science and AI Content of The Data-Driven Investor, an online publication that delivers content to several dozen thousand readers in 95 countries daily.
+        - Awarded the Gold and Silver Medal from KDnuggets, a leading data science site with over 700k+ visitors monthly, for writing two of the most top-viewed and top-shared articles on the platform
+        - Wrote over 350 data science and AI articles here for various top data science publications; over ten million views total
+        - Awarded Top Writer in AI and Technology by Medium.
+        - Contracted to write data science articles for machine learning companies and organizations like Neptune.AI
+        - Served as Editor of Data Science and AI Content of The Data-Driven Investor
 
 - title: Miscellaneous Work
   type: time_table
@@ -102,15 +105,15 @@
       institution: Coronawhy
       year: Apr ’20 - Jun ’20
       description:
-        - CoronaWhy is an international group of volunteers working to analyze and model COVID-19 data to aid the pandemic. Worked with fellow team members in a highly collaborative setting.
-        - Performed textual analysis and visualization on communications for greater internal efficiency.
-        - Assisted the CoronaWhy team in developing a transformer-based model for the Epidemic Questioning Answering dataset that answers COVID-19 related questions by extracting answers from the relevant literature.
+        - Performed textual analysis and visualization on communications for greater internal efficiency
+        - Developed question-answering model for epidemic scientific literature 
 
 - title: Other Interests
   type: list
   contents:
     # - <u>Hobbies:</u> 
     - <u>Languages:</u> English (native), Mandarin Chinese (conversational), Russian (working), French (learning)
+    - See my reading list for my recommended literature!
 
 - title: Misc. - Competitions
   type: list
