@@ -98,16 +98,15 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: # your stackoverflow id
 kaggle_id: washingtongold # your kaggle id
 lastfm_id: # your lastfm id
-spotify_id: # your spotify id
+spotify_id: 59rqc3eguz4epdvyy6dcyfwfc
 pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
 instagram_id: andre.ye.0 # your instagram id
 facebook_id: # your facebook id
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+youtube_id: andreye4412 # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
-contact_note: >
-  Email meee
+# contact_note:
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

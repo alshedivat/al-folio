@@ -2,7 +2,7 @@
 layout: page
 title: Confidence Contours
 description: Data-centric uncertainty representation for medical semantic segmentation
-img: assets/img/cc.png
+img: /assets/img/cc.png
 importance: 50
 category: research
 ---
@@ -14,14 +14,14 @@ category: research
 ***Abstract.***
 Medical image segmentation modeling is a high-stakes task where understanding of uncertainty is crucial for addressing visual ambiguity. Prior work has developed segmentation models utilizing probabilistic or generative mechanisms to infer uncertainty from labels where annotators draw a singular boundary. However, as these annotations cannot represent an individual annotator's uncertainty, models trained on them produce uncertainty maps that are difficult to interpret. **We propose a novel segmentation representation, Confidence Contours, which uses high- and low-confidence ''contours'' to capture uncertainty directly, and develop a novel annotation system for collecting contours.** We conduct an evaluation on the Lung Image Dataset Consortium (LIDC) and a synthetic dataset. Our results show that Confidence Contours provide high representative capacity without requiring significantly higher annotator effort. Moreover, segmentation models trained on them can produce significantly more interpretable uncertainty maps than models with specialized mechanisms for uncertainty, and they can learn Confidence Contours at the same performance level as  singular annotations. We conclude with a discussion on how we can infer regions of high and low confidence from existing segmentation datasets.
 
-[Paper](assets/pdf/ijcai_confidence_contours_submission.pdf){: .btn :target="_blank"} 
+[Paper](/assets/pdf/ijcai_confidence_contours_submission.pdf){: .btn :target="_blank"} 
 
 ---
 
 ### Presentation Materials
-- IJCAI '23 [submission](assets/pdf/ijcai_confidence_contours_submission.pdf){:target="_blank"}, [rebuttal](assets/pdf/ijcai_confidence_contours_rebuttal.pdf){:target="_blank"}
-- Undergrad Research Symposium [slides](https://docs.google.com/presentation/d/17qrow18og678_tatb9ZtHjlaAQlSHnHcFnQ_k4DXO9c/edit?usp=sharing){:target="_blank"}, [pdf](assets/pdf/urp_confidence_contours.pdf){:target="_blank"}
-- Allen School Research Showcase [poster](assets/pdf/confidence_contours_research_showcase.pdf){:target="_blank"}
+- IJCAI '23 [submission](/assets/pdf/ijcai_confidence_contours_submission.pdf){:target="_blank"}, [rebuttal](/assets/pdf/ijcai_confidence_contours_rebuttal.pdf){:target="_blank"}
+- Undergrad Research Symposium [slides](https://docs.google.com/presentation/d/17qrow18og678_tatb9ZtHjlaAQlSHnHcFnQ_k4DXO9c/edit?usp=sharing){:target="_blank"}, [pdf](/assets/pdf/urp_confidence_contours.pdf){:target="_blank"}
+- Allen School Research Showcase [poster](/assets/pdf/confidence_contours_research_showcase.pdf){:target="_blank"}
 
 ---
 
