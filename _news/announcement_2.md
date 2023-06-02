@@ -19,9 +19,3 @@ Terpenoids are large molecules found in numerous microbe, animal, and plant spec
 </ul>
 
 We are flash freezing samples on liquid nitrogen and shipping them to the <a href="https://cernaklab.com">Cernak Lab</a> at the University of Michigan for untargetted GCMS analysis. We will analyze the data using longitudinal models that incorproate spatial effects to account for environmental heterogeneity and non-random effects from relatedness at the family and species level.
-
-***
-
-<img src="/assets/img/AnorldHemlockCollecting_May23.png" alt="Collecting Hemlocks at the Arnold!" style="width: 50%; height: auto;">
-
-> Vidya Vuruputoor is leading the effort to collect the tissue. We have help from other members of the PCG. Thanks Victoria Burton and Meghan Myles for making it happen!
