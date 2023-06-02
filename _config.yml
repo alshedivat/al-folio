@@ -2,11 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Karl C. Fetter # the website title (if blank, full name will be used instead)
+title: Karl C. Fetter, PhD # the website title (if blank, full name will be used instead)
 first_name: Karl
 middle_name: C.
 last_name: Fetter
-email: kcf@uconn.edu
+email: hemlock@uconn.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -56,10 +56,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: KarlFetter # your GitHub user name
-gitlab_username: # your GitLab user name
+gitlab_username: KarlFetter # your GitLab user name
 twitter_username: evobotanist # your Twitter handle
 linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: https://scholar.google.com/citations?user=y0BVc9cAAAAJ&hl=en # your Google Scholar ID
 orcid_id: 0000-0002-9234-9300 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
