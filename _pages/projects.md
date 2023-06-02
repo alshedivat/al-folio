@@ -7,6 +7,10 @@ nav: true
 nav_order: 3
 display_categories: [research, academics, experimental]
 horizontal: false
+dropdown: true
+children: 
+    - title: Record
+      permalink: /writing/record
 ---
 
 <!-- pages/projects.md -->
