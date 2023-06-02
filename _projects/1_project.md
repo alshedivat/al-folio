@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Hemlock Conservation
-description: Reference genome, landscape genomics, gene conservation.
-img: assets/img/12.jpg
+description: Creating the genomic infrastructure for Hemlock conservation.
+img: assets/img/canadensis_project_thumbnail.jpeg
 importance: 1
 category: work
 ---
