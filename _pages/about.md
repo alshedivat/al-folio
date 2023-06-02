@@ -20,7 +20,7 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am plant biologist working in conservation genomics, quantitative genetics, and genomic methods development. My research interests are coalescing into a research program that bridges the gap between conservation, breeding, and advanced genomic methods. I primarily work on East Coast plants of conservation concern, including the Hemlocks and Walnuts, as well as studying evolutionary causes of conservation problems.
+I am plant biologist working in conservation genomics, quantitative genetics, and genomic methods development. My research interests are coalescing into a research program that bridges the gap between conservation, breeding, and advanced genomic methods. I primarily work on East Coast plants of conservation concern, including the Hemlocks and Walnuts, as well as studying the evolutionary causes of conservation problems.
 
 I am a project mentor in the <a href="https://isg.uconn.edu/biodiversity/">Biodiversity and Conservation Genomics Center</a> in the Institute for System Genomics at the University of Connecticut. As a mentor, I train undergraduates on genome sequencing, assembly, annotation. Using comparative genomic methods, the students receive training in whole-genome comparative methods, phylogenetics, and population genomics. The first cohort of students <a href="https://www.biorxiv.org/content/10.1101/2023.05.12.539246v2.abstract"> sequenced and assembled a reference genome for the Butternut (<i>Juglans cinerea</i>).</a>
 
