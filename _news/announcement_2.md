@@ -1,42 +1,27 @@
 ---
 layout: post
-<<<<<<< HEAD
 title: Collecting hemlock at the Arnold!
 date: 2023-06-02 16:11:00-0400
-=======
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
->>>>>>> parent of fb00a1e (news update)
 inline: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+Last week I visited one of my favorite places: <a href="https://arboretum.harvard.edu">the Arnold Arboretum of Harvard University</a>. As a tree biologist, the Arnold feels like a 'temple' of research. Over a century of careful collecting, cultivation, and study has created one of the world's leading germ plasm collections for temperate woody plant species. The PCG visited to collect hemlock samples for our longitudinal study of terpenoid expression in hemlocks.
 
 ***
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+Terpenoids are large molecules found in numerous microbe, animal, and plant species, but the plants (ok - the fungi too) are the masters of terpenoid chemistry. Terpenoids have been linked to ecological variation and are part of a plant's tool kit to deal with enviornmental stress. In the hemlock system, we suspect terpenoids play an important role in determining susceptibility, tolerance, and resistance to the Hemlock Woolly Adelgid. To investigate the role of terpenoids in the Hemlock-HWA system we are performing,
 
-#### Hipster list
+#### Monthly Sampling
 <ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
+    <li>Across families of resistant and susceptible eastern hemlocks</li>
+    <li>Across species of hemlocks with variable resistance to HWA</li>
+    <li>At monthly timepoints to assess seasonal variation</li>
 </ul>
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+We are flash freezing samples on liquid nitrogen and shipping them to the <a href="https://cernaklab.com">Cernak Lab</a> at the University of Michigan for untargetted GCMS analysis. We will analyze the data using longitudinal models that incorproate spatial effects to account for environmental heterogeneity and non-random effects from relatedness at the family and species level.
 
 ***
 
-<<<<<<< HEAD
 <img src="/assets/img/AnorldHemlockCollecting_May23.png" alt="Collecting Hemlocks at the Arnold!" style="width: 50%; height: auto;">
 
 > Vidya Vuruputoor is leading the effort to collect the tissue. We have help from other members of the PCG. Thanks Victoria Burton and Meghan Myles for making it happen!
-=======
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
->>>>>>> parent of fb00a1e (news update)
