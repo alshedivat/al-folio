@@ -26,4 +26,4 @@ The manuscript for this work is in a deccelerated phase. I left the lab before t
 <!-- - [Initial progress report](https://andre-ye.github.io/files/najafian/Custom_Distance_Loss_Report.pdf) from June 2021 -->
 See [Undergraduate Research Symposium slides](https://andre-ye.github.io/files/najafian/URP%20Presentation.pdf){:target="_blank"} from May 2022, where this work was demonstrated in an oral presentation.
 
-<iframe src="assets\pdf\podocyte_seg.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
+<iframe src="/assets\pdf\podocyte_seg.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>

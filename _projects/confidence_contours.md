@@ -30,6 +30,10 @@ Medical image segmentation modeling is a high-stakes task where understanding of
 - [Annotation interface](https://mua.cs.washington.edu/){:target="_blank"}
 - [GitHub repository](https://github.com/andre-ye/mua/tree/main){:target+"_blank"} (WIP)
 
+---
+
+<iframe src="/assets/pdf/confidence_contours_research_showcase.pdf" width="100%" height="400" style="border:1px solid black;"></iframe>
+
 
 
 <!-- **Lab presentations**
