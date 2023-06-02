@@ -12,7 +12,7 @@ profile:
     <p>409W Gant West Building</p>
     <p>2152 Hillside Road, Unit 3046</p>
     <p>Storrs CT 06269</p>
-    <p> </p>
+    <p></p>
     <p>Home Address:</p>
     <p>Athens, Georgia</p>
 
