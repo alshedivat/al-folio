@@ -24,5 +24,4 @@ We are flash freezing samples on liquid nitrogen and shipping them to the <a hre
 
 <img src="/assets/img/AnorldHemlockCollecting_May23.png" alt="Collecting Hemlocks at the Arnold!" style="width: 50%; height: auto;">
 
-
 > Vidya Vuruputoor is leading the effort to collect the tissue. We have help from other members of the PCG. Thanks Victoria Burton and Meghan Myles for making it happen!
