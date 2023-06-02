@@ -17,7 +17,7 @@ profile:
     <p>Athens, Georgia</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 I am plant biologist working in conservation genomics, quantitative genetics, and genomic methods development. My research interests are coalescing into a research program that bridges the gap between conservation, breeding, and advanced genomic methods. I primarily work on East Coast plants of conservation concern, including the Hemlocks and Walnuts, as well as studying evolutionary causes of conservation problems.
