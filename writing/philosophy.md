@@ -37,7 +37,7 @@ nav: false
 
 <br>
 
-## Not Published Yet
+## Unpublished
 
 <br>
 
@@ -52,6 +52,15 @@ nav: false
 <a href="#" target="_blank">"Subject Without Subjectivity: John Rawls and Post-Sixties Liberalism".</a> Currently writing as part of HSTAA 465.
 <p style="margin-left: 25px;">
 <small><bold>Abstract.</bold> In progress.
+</small>
+</p>
+
+<br>
+
+
+<a href="files\object-and-orgasm.pdf" target="_blank">"Object and Orgasm: A Manifesto of the Melancholy".</a>
+<p style="margin-left: 25px;">
+<small><bold>More than ever, we need melancholy -- with and in the political, ethical, philosophical, spiritual. A personal exposition of happiness and desire.</bold> In progress.
 </small>
 </p>
 
