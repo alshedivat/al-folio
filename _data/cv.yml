@@ -1,13 +1,3 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Saikumar Yadugiri
-    - name: Date of Birth
-      value: April 10th, 1997
-    - name: Languages
-      value: English, Telugu, Hindi, Tamil, Kannada
-
 - title: Academic Interests
   type: list
   contents:
@@ -80,35 +70,35 @@
         - Worked on raw data visualization for real-time health monitoring for gas pipelines based on the backscattering signature of ultrasonic waves produced by magnetostrictive sensors.
         - Using WxPython, generated a GUI application for the same. Used three.js for website model rendering.
 
-- title: Technical Skills
-  type: map
-  contents:
-    - name: Programming Languages
-      value: Python, Java SE & EE, Perl, Matlab, JavaScript, C++11
-    - name: Database
-      value: Oracle Database Administration for 11g and 12cR2, Postgres, Oracle SQL, MySQL
-    - name: Web Development
-      value: Ruby on Rails, Sinatra, Python Flask, React, PHP, LAMP stack, Google Cloud Run
-    - name: Other
-      value: Git, Tsung, Hyperledger Fabric, Kubernetes, Docker, LaTeX, Ionic
+#- title: Technical Skills
+#  type: map
+#  contents:
+#    - name: Programming Languages
+#      value: Python, Java SE & EE, Perl, Matlab, JavaScript, C++11
+#    - name: Database
+#      value: Oracle Database Administration for 11g and 12cR2, Postgres, Oracle SQL, MySQL
+#    - name: Web Development
+#      value: Ruby on Rails, Sinatra, Python Flask, React, PHP, LAMP stack, Google Cloud Run
+#    - name: Other
+#      value: Git, Tsung, Hyperledger Fabric, Kubernetes, Docker, LaTeX, Ionic
 
-- title: Key Achievements
-  type: map
-  contents:
-    - name: 2022
-      value: Nominated for the Best TA Award in the computer science department at UC Santa Barbara.
-    - name: 2020
-      value: Placed 6th among ~500 developers in Oracle Security Evangelist Cup organized by SCW platform.
-    - name: 2015
-      value: Awarded 'Star Volunteer' for NSS IIT Madras chapter's `Teach Your Neighbor' project.
-    - name: 2014
-      value: Stood 878th among 150,000 students in JEE Advanced.
-    - name: 2014
-      value: Secured a national rank of 374th in JEE Mains among 500,000+ students.
-    - name: 2014
-      value: Ranked 211st in Telangana state-wide engineering entrance examination, EAMCET.
-    - name: 2012
-      value: Among the top 1% of students with a rank of 7 in APRJC for entrance into IIITs.
+#- title: Key Achievements
+#  type: map
+#  contents:
+#    - name: 2022
+#      value: Nominated for the Best TA Award in the computer science department at UC Santa Barbara.
+#    - name: 2020
+#      value: Placed 6th among ~500 developers in Oracle Security Evangelist Cup organized by SCW platform.
+#    - name: 2015
+#      value: Awarded 'Star Volunteer' for NSS IIT Madras chapter's `Teach Your Neighbor' project.
+#    - name: 2014
+#      value: Stood 878th among 150,000 students in JEE Advanced.
+#    - name: 2014
+#      value: Secured a national rank of 374th in JEE Mains among 500,000+ students.
+#    - name: 2014
+#      value: Ranked 211st in Telangana state-wide engineering entrance examination, EAMCET.
+#    - name: 2012
+#      value: Among the top 1% of students with a rank of 7 in APRJC for entrance into IIITs.
 
 - title: Publications
   type: list
@@ -125,11 +115,11 @@
   contents:
     - For a detailed list, check <a href="/teaching">teaching</a>
 
-- title: Extracurricular Activities
-  type: list
-  contents:
-    - Head of the Institute Web Operations club. Designed and deployed websites for various clubs and activities. Handled institute elections website. Technical lead for Shaastra 2016. Designed an interactive Kinect game to raise awareness for climate change.
-    - Developed an interactive game to raise deforestation awareness with Microsoft Kinect, Unity using Javascript. Edited the sound required and choreographed the movements required for the game.
+#- title: Extracurricular Activities
+#  type: list
+#  contents:
+#    - Head of the Institute Web Operations club. Designed and deployed websites for various clubs and activities. Handled institute elections website. Technical lead for Shaastra 2016. Designed an interactive Kinect game to raise awareness for climate change.
+#    - Developed an interactive game to raise deforestation awareness with Microsoft Kinect, Unity using Javascript. Edited the sound required and choreographed the movements required for the game.
 
 - title: Other Interests
   type: list
