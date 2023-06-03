@@ -4,7 +4,7 @@ title: Hemlock Conservation
 description: Creating the genomic infrastructure for Hemlock conservation.
 img: assets/img/canadensis_project_thumbnail.jpeg
 importance: 1
-category: work
+category: post-doc
 ---
 
 Every project has a beautiful feature showcase page.
