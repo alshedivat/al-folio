@@ -6,7 +6,7 @@ order: 1
 
 profile:
   align: right
-  image: j_baca.jpeg
+  image: jbaca.jpeg
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
