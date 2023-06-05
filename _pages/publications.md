@@ -1,14 +1,18 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: a list of my publications  
-years: [2022]
+title: publications and preprints
+description: a list of my publications and preprints 
+years: [2022, 2023]
 horizontal: false
 nav_num: 1
 nav: true
 ---
 
-* An algorithm to calculate generalized Seifert matrices.
+* Learning Mixtures of Markov Chains and MDPs
 
-  _Stefan Friedl, __Chinmaya Kausik__ and Jose Pedro Quintanilha_ **(alphabetical order)**. Journal of Knot Theory and Its Ramifications, 2022 _(to appear)_. [arXiv](https://arxiv.org/abs/2204.10004)
+___Chinmaya Kausik__, Kevin Tan and Ambuj Tewari_. 
+
+* An Algorithm to Calculate Generalized Seifert Matrices. Proceedings of the 40th International Conference on Machine Learning, 2023. accepted. [[ICML]](https://icml.cc/virtual/2023/oral/25515) [[arXiv]](https://arxiv.org/abs/2211.09403)
+
+  _Stefan Friedl, __Chinmaya Kausik__ and Jose Pedro Quintanilha_ **(alphabetical order)**. Journal of Knot Theory and Its Ramifications, 2022. [[arXiv]](https://arxiv.org/abs/2204.10004)
