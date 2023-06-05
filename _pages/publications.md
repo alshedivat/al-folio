@@ -11,7 +11,7 @@ nav: true
 
 * Learning Mixtures of Markov Chains and MDPs
 
-  ___Chinmaya Kausik__, Kevin Tan and Ambuj Tewari_. Proceedings of the 40th International Conference on Machine Learning, 2023. accepted. [[ICML]](https://icml.cc/virtual/2023/oral/25515) [[arXiv]](https://arxiv.org/abs/2211.09403)
+  ___Chinmaya Kausik__, Kevin Tan and Ambuj Tewari_. Proceedings of the 40th International Conference on Machine Learning, 2023 (accepted). [[ICML]](https://icml.cc/virtual/2023/oral/25515) [[arXiv]](https://arxiv.org/abs/2211.09403)
 
 * An Algorithm to Calculate Generalized Seifert Matrices.
 
