@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
+    gem 'nokogiri'
+    gem 'jekyll-content-security-policy-generator'
     
     gem 'classifier-reborn'
     gem 'jekyll'
