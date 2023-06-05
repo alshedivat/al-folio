@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New article out in <i>Scientific American</i>: <a href="https://www.scientificamerican.com/article/a-high-speed-scientific-hive-mind-emerged-from-the-covid-pandemic/">A High-Speed Scientific Hive Mind Emerged from the COVID Pandemic</a>
+New publication out in <i>Nature Human Behavior</i>: <a href="https://www.nature.com/articles/s41562-022-01388-6">Combining interventions to reduce the spread of viral misinformation</a>

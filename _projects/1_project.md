@@ -18,13 +18,14 @@ This project emerged from a workshop hosted in 2017 on Princeton's campus and re
 
 
 <h3>Related Work</h3>
+<li><a href="https://www.nature.com/articles/s41562-022-01388-6">Combining interventions to reduce the spread of viral misinformation</a> <i>Nature Human Behavior</i></li>
 <li><a href="https://www.pnas.org/doi/10.1073/pnas.2025764118">Stewardship of Global Collective Behavior</a> <i>PNAS</i></li>
-<li><a href="https://osf.io/preprints/socarxiv/4jtvm">Combining interventions to reduce the spread of viral misinformation</a> <i>SocArXiV</i></li>
 <li><a href="https://blogs.scientificamerican.com/observations/the-ignorance-of-the-crowd/">The Ignorance of the Crowd</a> <i>Scientific American</i></li>
 <li><a href="https://www.wired.com/2016/12/donald-trump-get-elected-ask-bees/">Why Did Donald Trump Get Elected? Ask the Bees</a> <i>Wired</i></li>
 
 
 <h3>Selected Media Coverage</h3>
+<li><a href="https://www.cnet.com/news/misinformation/twitter-could-take-these-steps-to-slow-viral-misinformation-researchers-say/#ftag=CAD590a51e">Twitter Could Take These Steps to Slow Viral Misinformation, Researchers Say</a>, <i>CNET</i></li>
 <li><a href="https://www.bnnbloomberg.ca/as-climate-change-fries-the-world-social-media-is-frying-our-brains-1.1623057">As Climate Change Fries the World, Social Media Is Frying Our Brains</a>, <i>Bloomberg</i>
 <li><a href="https://www.vox.com/recode/2021/6/26/22550981/carl-bergstrom-joe-bak-coleman-biologists-ecologists-social-media-risk-humanity-research-academics">Why some biologists and ecologists think social media is a risk to humanity</a>, <i>Vox</i></li>
 <li><a href="https://www.univision.com/noticias/salud/cuales-son-peligros-redes-sociales">¿Y si las redes sociales fueran un peligro para la humanidad? Un grupo de expertos alerta sobre una hipótesis cada vez menos descabellada</a>, <i>Univision</i></li>
