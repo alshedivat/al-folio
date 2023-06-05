@@ -1,9 +1,10 @@
 ---
-layout: page
-permalink: /CV/
-title: CV
-description: Click below for a copy of my Curriculum Vitae
+layout: cv
+permalink: /cv/
+title: cv
 nav: true
+nav_order: 4
+cv_pdf: BakColemanCV.pdf
 ---
 
-<object data="../assets/pdf/BakColemanCV.pdf" width="80%" height="100%" type='application/pdf'></object>
+

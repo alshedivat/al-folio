@@ -1,97 +1,65 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD, Ecology and Evolutionary Biology
+      institution: Princeton University
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Advisors
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Iain Couzin
+            - Daniel Rubenstein
+    - title: MA, Ecology and Evolutionary Biology
+      institution: Princeton University
+      year: 2016
       description:
-        - Description 1.
-        - Description 2.
+        - title: Advisor
+          contents:
+            - Sheryl Coombs
+    - title: MS, Biology
+      institution: Bowling Green State University
+      year: 2014
+      description:
+        - title: Advisor
+          contents:
+            - Sheryl Coombs
+    - title: BS, Neuroscience
+      institution: Bowling Green State University
+      year: 2011
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Associate Research Scholar
+      institution: Craig Newmark Institute for Journalism Ethics and Security, Columbia University
+      year: 2022-now
+    - title: Postdoctoral Scholar
+      institution: Center for an Informed Public, University of Washington
+      year: 2020-2022
+    - title: UW Data Science Postdoctoral Fellow
+      institution: eScience Institute, University of Washington
+      year: 2020-2022
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - RSM Assembly Fellow, Berkman Klein Center
+        - CITAP Affiliate
+    - year: 2020-2022
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - UW Data Science Postdoctoral Fellow
+        - CIP Innovation Fund Award
+    - year: Earlier
       items:
-        - Description 1.
-        - Description 2.
+        - CURS Summer Research Fellowship
+        - BGSU SETGO Fellowship
+        - Choose Ohio First Bioinformatics Scholarship
+
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Birding, Brewing, Biking, BBQ, Bass Guitar, and Board Games and many other hobbies that don't begin with B

@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - josephbb
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - josephbb/CombinedPoliciesMisinfo
+  - josephbb/ManyLabsClimate
+  - josephbb/ReplicationSurveys
+  - josephbb/Collective-wisdom-in-polarized-groups
+  - josephbb/TwitterSuperUserRemovals
+
