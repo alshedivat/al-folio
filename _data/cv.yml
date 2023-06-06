@@ -28,9 +28,18 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Professor Auxiliar Convidado
+      institution: Faculdade de Ciências, Universidade de Lisboa, Lisbon PT
+      year: 2023 - 
+      description:
+        - title: Courses taught
+          contents:
+            - Mobile Robots
+            - Programming II
+            - Data Mining
     - title: Professor Auxiliar
       institution: Faculdade de Engenharia, Universidade Lusófona, Lisbon PT
-      year: 2021 - 
+      year: 2021 - 2023
       description:
         - title: Courses taught
           contents:
