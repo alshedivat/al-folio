@@ -54,9 +54,9 @@
             {% endif %}
           </div>
           {%- if content.img -%}
-          <div class="col-sm-2">
-            <img class="preview z-depth-1 rounded" src="{{ content.img }}">  
-          </div>
+          <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 40px;">
+            <img class="preview z-depth-1 rounded" src="{{ content.img | prepend: '/assets/img/publication_preview/' | relative_url }}">
+          </div>          
           {%- endif -%}
         </div>
       </li>
