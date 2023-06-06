@@ -86,6 +86,7 @@ Movies
 - *Parasite* -- biting social critique of globalized capitalism
 - *2001: A Space Odyssey* -- an unhurried and thoughtful meditation on technology and Nietzschian transcendence
 - *The Menu* -- an entertaining watch and commentary on bourgeois consumption and production
+- *Midsommar* -- a beautiful film, and a deeply disturbing exploration of the "anthropologist's gaze"
 
 TV Shows
 - *Succession* -- an edgy portrayal of family, politics, and corporate power

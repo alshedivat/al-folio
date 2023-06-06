@@ -49,9 +49,9 @@ nav: false
 
 <br>
 
-<a href="#" target="_blank">"Subject Without Subjectivity: John Rawls and Post-Sixties Liberalism".</a> Currently writing as part of HSTAA 465.
+<a href="files/subject-without-subjectivity.pdf" target="_blank">"Subject Without Subjectivity: John Rawls and Liberalism through the Sixties".</a> Research project for HSTAA 465.
 <p style="margin-left: 25px;">
-<small><bold>Abstract.</bold> In progress.
+<small><bold>Abstract.</bold> II argue that a historicist reading of Rawls demonstrates his introduction of the "subject without subjectivity" as a response to the social and political exigencies of the sixties. Rawls pushed liberalism to explicate specific structural relationships of subjugation and exploitation between political subjects, whereas previously it had favored abstract impersonal principles. However, still committed to the liberal dream of a unified social order, Rawls denied the subject its political subjectivity. With this double-gesture, Rawls distanced liberalism from its pre-sixties apoliticism and simultaneously retained its hope for a united society.
 </small>
 </p>
 
