@@ -2,18 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: Prof. Auxiliar, <a href='https://www.ulusofona.pt'>Universidade Lusófona</a>
+subtitle: Prof. Auxiliar Convidado, <a href='https://ciencias.ulisboa.pt/'> Faculdade de Ciências, Universidade de Lisboa</a>
 
 profile:
   align: right
   image: joaobimbo.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Gabinete C1.9</p>
-    <p>Faculdade de Engenharia</p>
-    <p>Universidade Lusófona</p>
-    <p>Campo Grande, 376</p>
-    <p>1749-024 Lisboa - Portugal</p>
+    <p>Gabinete C6.3.46</p>
+    <p>Faculdade de Ciências</p>
+    <p>Universidade de Lisboa</p>
+    <p>Campo Grande</p>
+    <p>1749-016 Lisboa - Portugal</p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
