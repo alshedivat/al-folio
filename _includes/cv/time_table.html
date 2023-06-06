@@ -53,10 +53,11 @@
               </ul>
             {% endif %}
           </div>
+          {%- if content.img -%}
           <div class="col-sm-2">
             <img class="preview z-depth-1 rounded" src="{{ content.img }}">  
           </div>
-
+          {%- endif -%}
         </div>
       </li>
     {% endfor %}
