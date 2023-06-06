@@ -6,10 +6,6 @@ subtitle: [
   {
     title: "Research Assistant" ,
     org: "Data Science Lab, HUST"
-  }, 
-  {
-    title: "AI Engineer",
-    org: "TopCV"
   }
   ]
 
