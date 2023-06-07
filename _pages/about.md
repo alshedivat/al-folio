@@ -23,7 +23,7 @@ I am an Invited Assistant Professor at the Department of Informatics, Faculty of
 
 I am currently teaching courses on mobile robots, programming, and data mining.
 
-My research interests lie in the fields of **robotic manipulation**, **mobile robots**, **teleoperation** and **haptics**.
+My research interests lie in the fields of **robot grasping and manipulation**, mobile robots, teleoperation and **haptics**.
 Feel free to contact me at `jmbimbo (at) fc.ul.pt` 
 
 
