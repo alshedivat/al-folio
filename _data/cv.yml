@@ -1,14 +1,3 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: João Bimbo
-    - name: Date of Birth
-      value: 13th September 1984
-    - name: Languages
-      value: English, Portuguese, Italian, Spanish
-
-
 - title: Education
   type: time_table
   contents:
@@ -52,8 +41,7 @@
             - Programming in C (Lectures)
             - Electrical Circuits (Lectures)
             - Signals and Systems (Labs/Tutorials)
-            - Automatic Control I (Labs/Tutorials)
-            - Automatic Control II (Labs/Tutorials)
+            - Automatic Control I and II (Labs/Tutorials)
       img: ulht.png            
     - title: Postdoctoral Researcher
       institution: GrabLab, Yale University, New Haven CT, USA
