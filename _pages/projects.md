@@ -4,16 +4,14 @@ title: projects
 permalink: /projects/
 description: 
 nav: true
-nav_order: 1
-display_categories: [post-doc, phd]
+nav_order: 2 
+display_categories: [overview, post-doc, phd]
 horizontal: false
 ---
 
 <!-- pages/projects.md -->
 
-Research is the back-bone of an academic scientist's work.  My research program is focused around the principles of popualtion genetics, quantiative genetics, and ecology. I use various tools and methods from the fields of statistics, molecular biology, and chemistry to investigate evolutionary and ecological questions, most of which are in a conservation context.
-
-For years, I've been intriqued by chemical ecology and the genomic architectures of genes, transcripts, and proteins which translate information into phentypes that perform work. At a basic level, I apply the methods of evolution, ecology, and molecular biology to understand biological change.
+Research is the back-bone of an academic scientist's work.  My research program is focused around the principles of popualtion genetics, quantiative genetics, and ecology. I use various tools and methods from the fields of statistics, molecular biology, and chemistry to investigate evolutionary and ecological questions, most of which are in a conservation context. At a basic level, I apply the methods of evolution, ecology, and molecular biology to understand biological change.
 
 Currently, my portfolio is focused on the conservation of Hemlocks (*Tsuga*), Walnuts (*Juglans*) and I'm developing projects in orchid conservation focused on *Isotria*. I work on the development of genome annotation tools (EASEL), meta-analyses, and any project that combines good statistical models and biological data. 
 

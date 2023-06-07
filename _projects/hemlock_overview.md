@@ -1,24 +1,20 @@
 ---
 layout: page
-title: Gene Conservation 
-description: Identify and conserve climate adapted genomic variation
-img: assets/img/hemlock_range_basic.jpeg
+title: Hemlock Conservation
+description: Creating the infrastructure for Hemlock conservation.
+img: assets/img/canadensis_project_thumbnail.jpeg
 importance: 1
-category: post-doc
+category: overview
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Hemlocks (_Tsuga_) are a temperate genus of trees that are critically important in their ecosystems. In eastern North America, two species of hemlocks are keystone species, providing numerous services such as carbon cycling, habitat for organisms (plants, animals, and fungi alike), and timber for industry. Unfortunately, both the Eastern Hemlock (_T. canadensis_) and the Carolina Hemlock (_T. caroliniana_) are imperiled by an invasive pest.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+In the early 20<sup>th</sup> century the [hemlock woolly adelgid](https://en.wikipedia.org/wiki/Hemlock_woolly_adelgid) (HWA) was introduced into Richmond, Virginia. HWA is a sap-feeding insect that will kill hemlock trees in as little as four years. Millions of acres of hemlock have been lost in recent decades, leading the IUCN to [list](https://www.iucnredlist.org/species/42431/2979676) the Eastern Hemlock as near threatened.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Despite the sustained threat of population collapse from the adelgid and climate change, there is hope for the recovery of the species. Working with scientists from the University of Michigan, USDA Forest Service, Natural Resources Canada, the Holden Arobretum, and others, we are developing a conservation program for the Eastern Hemlock. Using princpiles of genomics, plant breeding, and ecology, we are investigating multiple aspects of the biology of hemlocks and their evolution. 
+
+
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
