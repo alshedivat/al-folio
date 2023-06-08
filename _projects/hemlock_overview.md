@@ -11,32 +11,30 @@ Hemlocks (_Tsuga_) are a temperate genus of trees that are critically important 
 
 In the early 20<sup>th</sup> century the [hemlock woolly adelgid](https://en.wikipedia.org/wiki/Hemlock_woolly_adelgid) (HWA) was introduced into Richmond, Virginia. HWA is a sap-feeding insect that will kill hemlock trees in as little as four years. Millions of acres of hemlock have been lost in recent decades, leading the IUCN to [list](https://www.iucnredlist.org/species/42431/2979676) the Eastern Hemlock as near threatened.
 
-Despite the sustained threat of population collapse from the adelgid and climate change, there is hope for the recovery of the species. Working with scientists from the University of Michigan, USDA Forest Service, Natural Resources Canada, the Holden Arobretum, and others, we are developing a conservation program for the Eastern Hemlock. Using princpiles of genomics, plant breeding, and ecology, we are investigating multiple aspects of the biology of hemlocks and their evolution. 
-
-
-
+Despite the sustained threat of population collapse from the adelgid and climate change, there is hope for the recovery of the species. Working with scientists from the University of Michigan, USDA Forest Service, Natural Resources Canada, the Holden Arobretum, and others, we are developing a conservation program for the Eastern Hemlock. Using princpiles of genomics, plant breeding, and ecology, we are creating the genomic and germ plasm resources to create solutions for the complex problems the species faces.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/bulletproof_tree_URI.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/IMG_2110_v1.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/IMG_9289.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Hemlock wooly adelgid (HWA) infesting a sapling in the Chattaho0chee National Forest (left). Happy conifer hands (center). HWA-resistant 'Bulletproof' trees from URI (right).
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/pcg_hemlock_program.png"
+        title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Current research underway in the Plant Computational Genomics Lab for Eastern Hemlock conservation. These aims encompass multiple students and funding agencies. 
 </div>
 
 You can also put regular text between your rows of images.
