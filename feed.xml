@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://garg-aayush.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://garg-aayush.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2023-06-08T14:02:10+05:30</updated><id>https://garg-aayush.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">a post with custom blockquotes</title><link href="https://garg-aayush.github.io/blog/2023/custom-blockquotes/" rel="alternate" type="text/html" title="a post with custom blockquotes"/><published>2023-05-13T01:23:00+05:30</published><updated>2023-05-13T01:23:00+05:30</updated><id>https://garg-aayush.github.io/blog/2023/custom-blockquotes</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2023/custom-blockquotes/"><![CDATA[<p>This post shows how to add custom styles for blockquotes. Based on <a href="https://github.com/sighingnow/jekyll-gitbook">jekyll-gitbook</a> implementation.</p> <p>We decided to support the same custom blockquotes as in <a href="https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html">jekyll-gitbook</a>, which are also found in a lot of other sites’ styles. The styles definitions can be found on the <a href="https://github.com/alshedivat/al-folio/blob/master/_sass/_base.scss">_base.scss</a> file, more specifically:</p> <div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/* Tips, warnings, and dangers */</span>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://garg-aayush.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://garg-aayush.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-08T08:33:09+00:00</updated><id>https://garg-aayush.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">a post with custom blockquotes</title><link href="https://garg-aayush.github.io/blog/2023/custom-blockquotes/" rel="alternate" type="text/html" title="a post with custom blockquotes" /><published>2023-05-12T19:53:00+00:00</published><updated>2023-05-12T19:53:00+00:00</updated><id>https://garg-aayush.github.io/blog/2023/custom-blockquotes</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2023/custom-blockquotes/"><![CDATA[<p>This post shows how to add custom styles for blockquotes. Based on <a href="https://github.com/sighingnow/jekyll-gitbook">jekyll-gitbook</a> implementation.</p>
+
+<p>We decided to support the same custom blockquotes as in <a href="https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html">jekyll-gitbook</a>, which are also found in a lot of other sites’ styles. The styles definitions can be found on the <a href="https://github.com/alshedivat/al-folio/blob/master/_sass/_base.scss">_base.scss</a> file, more specifically:</p>
+
+<div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/* Tips, warnings, and dangers */</span>
 <span class="nc">.post</span> <span class="nc">.post-content</span> <span class="nt">blockquote</span> <span class="p">{</span>
     <span class="k">&amp;</span><span class="nc">.block-tip</span> <span class="p">{</span>
     <span class="nl">border-color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-tip-block</span><span class="p">);</span>
@@ -39,31 +44,221 @@
     <span class="p">}</span>
   <span class="p">}</span>
 <span class="p">}</span>
-</code></pre></div></div> <p>A regular blockquote can be used as following:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; This is a regular blockquote</span>
+</code></pre></div></div>
+
+<p>A regular blockquote can be used as following:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; This is a regular blockquote</span>
 <span class="gt">&gt; and it can be used as usual</span>
-</code></pre></div></div> <blockquote> <p>This is a regular blockquote and it can be used as usual</p> </blockquote> <p>These custom styles can be used by adding the specific class to the blockquote, as follows:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### TIP</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p>This is a regular blockquote
+and it can be used as usual</p>
+</blockquote>
+
+<p>These custom styles can be used by adding the specific class to the blockquote, as follows:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### TIP</span>
 <span class="gt">&gt;</span>
 <span class="gt">&gt; A tip can be used when you want to give advice</span>
 <span class="gt">&gt; related to a certain content.</span>
 {: .block-tip }
-</code></pre></div></div> <blockquote class="block-tip"> <h5 id="tip">TIP</h5> <p>A tip can be used when you want to give advice related to a certain content.</p> </blockquote> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### WARNING</span>
+</code></pre></div></div>
+
+<blockquote class="block-tip">
+  <h5 id="tip">TIP</h5>
+
+  <p>A tip can be used when you want to give advice
+related to a certain content.</p>
+</blockquote>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### WARNING</span>
 <span class="gt">&gt;</span>
 <span class="gt">&gt; This is a warning, and thus should</span>
 <span class="gt">&gt; be used when you want to warn the user</span>
 {: .block-warning }
-</code></pre></div></div> <blockquote class="block-warning"> <h5 id="warning">WARNING</h5> <p>This is a warning, and thus should be used when you want to warn the user</p> </blockquote> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### DANGER</span>
+</code></pre></div></div>
+
+<blockquote class="block-warning">
+  <h5 id="warning">WARNING</h5>
+
+  <p>This is a warning, and thus should
+be used when you want to warn the user</p>
+</blockquote>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### DANGER</span>
 <span class="gt">&gt;</span>
 <span class="gt">&gt; This is a danger zone, and thus should</span>
 <span class="gt">&gt; be used carefully</span>
 {: .block-danger }
-</code></pre></div></div> <blockquote class="block-danger"> <h5 id="danger">DANGER</h5> <p>This is a danger zone, and thus should be used carefully</p> </blockquote>]]></content><author><name></name></author><category term="sample-posts"/><category term="blockquotes"/><summary type="html"><![CDATA[an example of a blog post with custom blockquotes]]></summary></entry><entry><title type="html">a post with table of contents on a sidebar</title><link href="https://garg-aayush.github.io/blog/2023/sidebar-table-of-contents/" rel="alternate" type="text/html" title="a post with table of contents on a sidebar"/><published>2023-04-25T19:44:00+05:30</published><updated>2023-04-25T19:44:00+05:30</updated><id>https://garg-aayush.github.io/blog/2023/sidebar-table-of-contents</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2023/sidebar-table-of-contents/"><![CDATA[<p>This post shows how to add a table of contents as a sidebar.</p> <h2 id="adding-a-table-of-contents">Adding a Table of Contents</h2> <p>To add a table of contents to a post as a sidebar, simply add</p> <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">toc</span><span class="pi">:</span>
+</code></pre></div></div>
+
+<blockquote class="block-danger">
+  <h5 id="danger">DANGER</h5>
+
+  <p>This is a danger zone, and thus should
+be used carefully</p>
+</blockquote>]]></content><author><name></name></author><category term="sample-posts" /><category term="blockquotes" /><summary type="html"><![CDATA[an example of a blog post with custom blockquotes]]></summary></entry><entry><title type="html">a post with table of contents on a sidebar</title><link href="https://garg-aayush.github.io/blog/2023/sidebar-table-of-contents/" rel="alternate" type="text/html" title="a post with table of contents on a sidebar" /><published>2023-04-25T14:14:00+00:00</published><updated>2023-04-25T14:14:00+00:00</updated><id>https://garg-aayush.github.io/blog/2023/sidebar-table-of-contents</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2023/sidebar-table-of-contents/"><![CDATA[<p>This post shows how to add a table of contents as a sidebar.</p>
+
+<h2 id="adding-a-table-of-contents">Adding a Table of Contents</h2>
+
+<p>To add a table of contents to a post as a sidebar, simply add</p>
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">toc</span><span class="pi">:</span>
   <span class="na">sidebar</span><span class="pi">:</span> <span class="s">left</span>
-</code></pre></div></div> <p>to the front matter of the post. The table of contents will be automatically generated from the headings in the post. If you wish to display the sidebar to the right, simply change <code class="language-plaintext highlighter-rouge">left</code> to <code class="language-plaintext highlighter-rouge">right</code>.</p> <h3 id="example-of-sub-heading-1">Example of Sub-Heading 1</h3> <p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p> <h3 id="example-of-another-sub-heading-1">Example of another Sub-Heading 1</h3> <p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p> <h2 data-toc-text="Customizing" id="customizing-your-table-of-contents">Customizing Your Table of Contents</h2> <p>If you want to learn more about how to customize the table of contents of your sidebar, you can check the <a href="https://afeld.github.io/bootstrap-toc/">bootstrap-toc</a> documentation. Notice that you can even customize the text of the heading that will be displayed on the sidebar.</p> <h3 id="example-of-sub-heading-2">Example of Sub-Heading 2</h3> <p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p> <h3 id="example-of-another-sub-heading-2">Example of another Sub-Heading 2</h3> <p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="toc"/><category term="sidebar"/><summary type="html"><![CDATA[an example of a blog post with table of contents on a sidebar]]></summary></entry><entry><title type="html">a post with audios</title><link href="https://garg-aayush.github.io/blog/2023/audios/" rel="alternate" type="text/html" title="a post with audios"/><published>2023-04-25T15:55:00+05:30</published><updated>2023-04-25T15:55:00+05:30</updated><id>https://garg-aayush.github.io/blog/2023/audios</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2023/audios/"><![CDATA[<p>This is an example post with audios. It supports local audio files.</p> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <audio src="/assets/audio/epicaly-short-113909.mp3" controls=""/> </figure> </div> <div class="col-sm mt-3 mt-md-0"> <figure> <audio src="https://cdn.pixabay.com/download/audio/2022/06/25/audio_69a61cd6d6.mp3" controls=""/> </figure> </div> </div> <div class="caption"> A simple, elegant caption looks good between video rows, after each row, or doesn't have to be there at all. </div>]]></content><author><name></name></author><category term="sample-posts"/><category term="including"/><category term="audios"/><summary type="html"><![CDATA[this is what included audios could look like]]></summary></entry><entry><title type="html">a post with videos</title><link href="https://garg-aayush.github.io/blog/2023/videos/" rel="alternate" type="text/html" title="a post with videos"/><published>2023-04-25T02:31:00+05:30</published><updated>2023-04-25T02:31:00+05:30</updated><id>https://garg-aayush.github.io/blog/2023/videos</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2023/videos/"><![CDATA[<p>This is an example post with videos. It supports local video files.</p> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <video src="/assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" width="auto" height="auto" autoplay="" controls=""/> </figure> </div> <div class="col-sm mt-3 mt-md-0"> <figure> <video src="/assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" width="auto" height="auto" controls=""/> </figure> </div> </div> <div class="caption"> A simple, elegant caption looks good between video rows, after each row, or doesn't have to be there at all. </div> <p>It does also support embedding videos from different sources. Here are some examples:</p> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"/> </figure> </div> <div class="col-sm mt-3 mt-md-0"> <figure> <iframe src="https://player.vimeo.com/video/524933864?h=1ac4fd9fb4&amp;title=0&amp;byline=0&amp;portrait=0" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"/> </figure> </div> </div>]]></content><author><name></name></author><category term="sample-posts"/><category term="including"/><category term="videos"/><summary type="html"><![CDATA[this is what included videos could look like]]></summary></entry><entry><title type="html">displaying beautiful tables with Bootstrap Tables</title><link href="https://garg-aayush.github.io/blog/2023/tables/" rel="alternate" type="text/html" title="displaying beautiful tables with Bootstrap Tables"/><published>2023-03-21T00:07:00+05:30</published><updated>2023-03-21T00:07:00+05:30</updated><id>https://garg-aayush.github.io/blog/2023/tables</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2023/tables/"><![CDATA[<p>Using markdown to display tables is easy. Just use the following syntax:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Left aligned | Center aligned | Right aligned |
+</code></pre></div></div>
+<p>to the front matter of the post. The table of contents will be automatically generated from the headings in the post. If you wish to display the sidebar to the right, simply change <code class="language-plaintext highlighter-rouge">left</code> to <code class="language-plaintext highlighter-rouge">right</code>.</p>
+
+<h3 id="example-of-sub-heading-1">Example of Sub-Heading 1</h3>
+
+<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
+
+<h3 id="example-of-another-sub-heading-1">Example of another Sub-Heading 1</h3>
+
+<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
+
+<h2 data-toc-text="Customizing" id="customizing-your-table-of-contents">Customizing Your Table of Contents</h2>
+
+<p>If you want to learn more about how to customize the table of contents of your sidebar, you can check the <a href="https://afeld.github.io/bootstrap-toc/">bootstrap-toc</a> documentation. Notice that you can even customize the text of the heading that will be displayed on the sidebar.</p>
+
+<h3 id="example-of-sub-heading-2">Example of Sub-Heading 2</h3>
+
+<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
+
+<h3 id="example-of-another-sub-heading-2">Example of another Sub-Heading 2</h3>
+
+<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="toc" /><category term="sidebar" /><summary type="html"><![CDATA[an example of a blog post with table of contents on a sidebar]]></summary></entry><entry><title type="html">a post with audios</title><link href="https://garg-aayush.github.io/blog/2023/audios/" rel="alternate" type="text/html" title="a post with audios" /><published>2023-04-25T10:25:00+00:00</published><updated>2023-04-25T10:25:00+00:00</updated><id>https://garg-aayush.github.io/blog/2023/audios</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2023/audios/"><![CDATA[<p>This is an example post with audios. It supports local audio files.</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <audio src="/assets/audio/epicaly-short-113909.mp3" controls="" />
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <audio src="https://cdn.pixabay.com/download/audio/2022/06/25/audio_69a61cd6d6.mp3" controls="" />
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between video rows, after each row, or doesn't have to be there at all.
+</div>]]></content><author><name></name></author><category term="sample-posts" /><category term="including" /><category term="audios" /><summary type="html"><![CDATA[this is what included audios could look like]]></summary></entry><entry><title type="html">a post with videos</title><link href="https://garg-aayush.github.io/blog/2023/videos/" rel="alternate" type="text/html" title="a post with videos" /><published>2023-04-24T21:01:00+00:00</published><updated>2023-04-24T21:01:00+00:00</updated><id>https://garg-aayush.github.io/blog/2023/videos</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2023/videos/"><![CDATA[<p>This is an example post with videos. It supports local video files.</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+
+  
+
+  <video src="/assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" width="auto" height="auto" autoplay="" controls="" />
+
+  
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+
+  
+
+  <video src="/assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" width="auto" height="auto" controls="" />
+
+  
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between video rows, after each row, or doesn't have to be there at all.
+</div>
+
+<p>It does also support embedding videos from different sources. Here are some examples:</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+
+  
+
+  <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto" />
+
+  
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+
+  
+
+  <iframe src="https://player.vimeo.com/video/524933864?h=1ac4fd9fb4&amp;title=0&amp;byline=0&amp;portrait=0" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto" />
+
+  
+
+</figure>
+
+    </div>
+</div>]]></content><author><name></name></author><category term="sample-posts" /><category term="including" /><category term="videos" /><summary type="html"><![CDATA[this is what included videos could look like]]></summary></entry><entry><title type="html">displaying beautiful tables with Bootstrap Tables</title><link href="https://garg-aayush.github.io/blog/2023/tables/" rel="alternate" type="text/html" title="displaying beautiful tables with Bootstrap Tables" /><published>2023-03-20T18:37:00+00:00</published><updated>2023-03-20T18:37:00+00:00</updated><id>https://garg-aayush.github.io/blog/2023/tables</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2023/tables/"><![CDATA[<p>Using markdown to display tables is easy. Just use the following syntax:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Left aligned | Center aligned | Right aligned |
 | :----------- | :------------: | ------------: |
 | Left 1       | center 1       | right 1       |
 | Left 2       | center 2       | right 2       |
 | Left 3       | center 3       | right 3       |
-</code></pre></div></div> <p>That will generate:</p> <table> <thead> <tr> <th style="text-align: left">Left aligned</th> <th style="text-align: center">Center aligned</th> <th style="text-align: right">Right aligned</th> </tr> </thead> <tbody> <tr> <td style="text-align: left">Left 1</td> <td style="text-align: center">center 1</td> <td style="text-align: right">right 1</td> </tr> <tr> <td style="text-align: left">Left 2</td> <td style="text-align: center">center 2</td> <td style="text-align: right">right 2</td> </tr> <tr> <td style="text-align: left">Left 3</td> <td style="text-align: center">center 3</td> <td style="text-align: right">right 3</td> </tr> </tbody> </table> <p></p> <p>It is also possible to use HTML to display tables. For example, the following HTML code will display a table with <a href="https://bootstrap-table.com/">Bootstrap Table</a>, loaded from a JSON file:</p> <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table</span>
+</code></pre></div></div>
+
+<p>That will generate:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Left 1</td>
+      <td style="text-align: center">center 1</td>
+      <td style="text-align: right">right 1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Left 2</td>
+      <td style="text-align: center">center 2</td>
+      <td style="text-align: right">right 2</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Left 3</td>
+      <td style="text-align: center">center 3</td>
+      <td style="text-align: right">right 3</td>
+    </tr>
+  </tbody>
+</table>
+
+<p></p>
+
+<p>It is also possible to use HTML to display tables. For example, the following HTML code will display a table with <a href="https://bootstrap-table.com/">Bootstrap Table</a>, loaded from a JSON file:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table</span>
   <span class="na">id=</span><span class="s">"table"</span>
   <span class="na">data-toggle=</span><span class="s">"table"</span>
   <span class="na">data-url=</span><span class="s">"{{ '/assets/json/table_data.json' | relative_url }}"</span><span class="nt">&gt;</span>
@@ -75,7 +270,23 @@
     <span class="nt">&lt;/tr&gt;</span>
   <span class="nt">&lt;/thead&gt;</span>
 <span class="nt">&lt;/table&gt;</span>
-</code></pre></div></div> <table data-toggle="table" data-url="/assets/json/table_data.json"> <thead> <tr> <th data-field="id">ID</th> <th data-field="name">Item Name</th> <th data-field="price">Item Price</th> </tr> </thead> </table> <p></p> <p>By using <a href="https://bootstrap-table.com/">Bootstrap Table</a> it is possible to create pretty complex tables, with pagination, search, and more. For example, the following HTML code will display a table, loaded from a JSON file, with pagination, search, checkboxes, and header/content alignment. For more information, check the <a href="https://examples.bootstrap-table.com/index.html">documentation</a>.</p> <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table</span>
+</code></pre></div></div>
+
+<table data-toggle="table" data-url="/assets/json/table_data.json">
+  <thead>
+    <tr>
+      <th data-field="id">ID</th>
+      <th data-field="name">Item Name</th>
+      <th data-field="price">Item Price</th>
+    </tr>
+  </thead>
+</table>
+
+<p></p>
+
+<p>By using <a href="https://bootstrap-table.com/">Bootstrap Table</a> it is possible to create pretty complex tables, with pagination, search, and more. For example, the following HTML code will display a table, loaded from a JSON file, with pagination, search, checkboxes, and header/content alignment. For more information, check the <a href="https://examples.bootstrap-table.com/index.html">documentation</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table</span>
   <span class="na">data-click-to-select=</span><span class="s">"true"</span>
   <span class="na">data-height=</span><span class="s">"460"</span>
   <span class="na">data-pagination=</span><span class="s">"true"</span>
@@ -91,14 +302,72 @@
     <span class="nt">&lt;/tr&gt;</span>
   <span class="nt">&lt;/thead&gt;</span>
 <span class="nt">&lt;/table&gt;</span>
-</code></pre></div></div> <table data-click-to-select="true" data-height="460" data-pagination="true" data-search="true" data-toggle="table" data-url="/assets/json/table_data.json"> <thead> <tr> <th data-checkbox="true"></th> <th data-field="id" data-halign="left" data-align="center" data-sortable="true">ID</th> <th data-field="name" data-halign="center" data-align="right" data-sortable="true">Item Name</th> <th data-field="price" data-halign="right" data-align="left" data-sortable="true">Item Price</th> </tr> </thead> </table>]]></content><author><name></name></author><category term="sample-posts"/><summary type="html"><![CDATA[an example of how to use Bootstrap Tables]]></summary></entry><entry><title type="html">a post with table of contents</title><link href="https://garg-aayush.github.io/blog/2023/table-of-contents/" rel="alternate" type="text/html" title="a post with table of contents"/><published>2023-03-20T21:29:00+05:30</published><updated>2023-03-20T21:29:00+05:30</updated><id>https://garg-aayush.github.io/blog/2023/table-of-contents</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2023/table-of-contents/"><![CDATA[<p>This post shows how to add a table of contents in the beginning of the post.</p> <h2 id="adding-a-table-of-contents">Adding a Table of Contents</h2> <p>To add a table of contents to a post, simply add</p> <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">toc</span><span class="pi">:</span>
+</code></pre></div></div>
+
+<table data-click-to-select="true" data-height="460" data-pagination="true" data-search="true" data-toggle="table" data-url="/assets/json/table_data.json">
+  <thead>
+    <tr>
+      <th data-checkbox="true"></th>
+      <th data-field="id" data-halign="left" data-align="center" data-sortable="true">ID</th>
+      <th data-field="name" data-halign="center" data-align="right" data-sortable="true">Item Name</th>
+      <th data-field="price" data-halign="right" data-align="left" data-sortable="true">Item Price</th>
+    </tr>
+  </thead>
+</table>]]></content><author><name></name></author><category term="sample-posts" /><summary type="html"><![CDATA[an example of how to use Bootstrap Tables]]></summary></entry><entry><title type="html">a post with table of contents</title><link href="https://garg-aayush.github.io/blog/2023/table-of-contents/" rel="alternate" type="text/html" title="a post with table of contents" /><published>2023-03-20T15:59:00+00:00</published><updated>2023-03-20T15:59:00+00:00</updated><id>https://garg-aayush.github.io/blog/2023/table-of-contents</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2023/table-of-contents/"><![CDATA[<p>This post shows how to add a table of contents in the beginning of the post.</p>
+
+<h2 id="adding-a-table-of-contents">Adding a Table of Contents</h2>
+
+<p>To add a table of contents to a post, simply add</p>
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">toc</span><span class="pi">:</span>
   <span class="na">beginning</span><span class="pi">:</span> <span class="kc">true</span>
-</code></pre></div></div> <p>to the front matter of the post. The table of contents will be automatically generated from the headings in the post.</p> <h3 id="example-of-sub-heading-1">Example of Sub-Heading 1</h3> <p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p> <h3 id="example-of-another-sub-heading-1">Example of another Sub-Heading 1</h3> <p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p> <h2 id="table-of-contents-options">Table of Contents Options</h2> <p>If you want to learn more about how to customize the table of contents, you can check the <a href="https://github.com/toshimaru/jekyll-toc">jekyll-toc</a> repository.</p> <h3 id="example-of-sub-heading-2">Example of Sub-Heading 2</h3> <p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p> <h3 id="example-of-another-sub-heading-2">Example of another Sub-Heading 2</h3> <p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="toc"/><summary type="html"><![CDATA[an example of a blog post with table of contents]]></summary></entry><entry><title type="html">a post with giscus comments</title><link href="https://garg-aayush.github.io/blog/2022/giscus-comments/" rel="alternate" type="text/html" title="a post with giscus comments"/><published>2022-12-10T21:29:00+05:30</published><updated>2022-12-10T21:29:00+05:30</updated><id>https://garg-aayush.github.io/blog/2022/giscus-comments</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2022/giscus-comments/"><![CDATA[<p>This post shows how to add GISCUS comments.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="external-services"/><summary type="html"><![CDATA[an example of a blog post with giscus comments]]></summary></entry><entry><title type="html">Displaying External Posts on Your al-folio Blog</title><link href="https://garg-aayush.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/" rel="alternate" type="text/html" title="Displaying External Posts on Your al-folio Blog"/><published>2022-04-24T04:50:09+05:30</published><updated>2022-04-24T04:50:09+05:30</updated><id>https://garg-aayush.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/"><![CDATA[]]></content><author><name></name></author></entry><entry><title type="html">a post with redirect</title><link href="https://garg-aayush.github.io/blog/2022/redirect/" rel="alternate" type="text/html" title="a post with redirect"/><published>2022-02-01T23:09:00+05:30</published><updated>2022-02-01T23:09:00+05:30</updated><id>https://garg-aayush.github.io/blog/2022/redirect</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2022/redirect/"><![CDATA[<p>Redirecting to another page.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[you can also redirect to assets like pdf]]></summary></entry><entry><title type="html">a post with diagrams</title><link href="https://garg-aayush.github.io/blog/2021/diagrams/" rel="alternate" type="text/html" title="a post with diagrams"/><published>2021-07-04T23:09:00+05:30</published><updated>2021-07-04T23:09:00+05:30</updated><id>https://garg-aayush.github.io/blog/2021/diagrams</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2021/diagrams/"><![CDATA[<p>This theme supports generating various diagrams from a text description using <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank">jekyll-diagrams</a> plugin. Below, we generate a few examples of such diagrams using languages such as <a href="https://mermaid-js.github.io/mermaid/" target="\_blank">mermaid</a>, <a href="https://plantuml.com/" target="\_blank">plantuml</a>, <a href="https://vega.github.io/vega-lite/" target="\_blank">vega-lite</a>, etc.</p> <p><strong>Note:</strong> different diagram-generation packages require external dependencies to be installed on your machine. Also, be mindful of that because of diagram generation the fist time you build your Jekyll website after adding new diagrams will be SLOW. For any other details, please refer to <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank">jekyll-diagrams</a> README.</p> <h2 id="mermaid">Mermaid</h2> <p>Install mermaid using <code class="language-plaintext highlighter-rouge">node.js</code> package manager <code class="language-plaintext highlighter-rouge">npm</code> by running the following command:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install</span> <span class="nt">-g</span> mermaid.cli
-</code></pre></div></div> <p>The diagram below was generated by the following code:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% mermaid %}
+</code></pre></div></div>
+<p>to the front matter of the post. The table of contents will be automatically generated from the headings in the post.</p>
+
+<h3 id="example-of-sub-heading-1">Example of Sub-Heading 1</h3>
+
+<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
+
+<h3 id="example-of-another-sub-heading-1">Example of another Sub-Heading 1</h3>
+
+<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
+
+<h2 id="table-of-contents-options">Table of Contents Options</h2>
+
+<p>If you want to learn more about how to customize the table of contents, you can check the <a href="https://github.com/toshimaru/jekyll-toc">jekyll-toc</a> repository.</p>
+
+<h3 id="example-of-sub-heading-2">Example of Sub-Heading 2</h3>
+
+<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
+
+<h3 id="example-of-another-sub-heading-2">Example of another Sub-Heading 2</h3>
+
+<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="toc" /><summary type="html"><![CDATA[an example of a blog post with table of contents]]></summary></entry><entry><title type="html">a post with giscus comments</title><link href="https://garg-aayush.github.io/blog/2022/giscus-comments/" rel="alternate" type="text/html" title="a post with giscus comments" /><published>2022-12-10T15:59:00+00:00</published><updated>2022-12-10T15:59:00+00:00</updated><id>https://garg-aayush.github.io/blog/2022/giscus-comments</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2022/giscus-comments/"><![CDATA[<p>This post shows how to add GISCUS comments.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><summary type="html"><![CDATA[an example of a blog post with giscus comments]]></summary></entry><entry><title type="html">Displaying External Posts on Your al-folio Blog</title><link href="https://garg-aayush.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/" rel="alternate" type="text/html" title="Displaying External Posts on Your al-folio Blog" /><published>2022-04-23T23:20:09+00:00</published><updated>2022-04-23T23:20:09+00:00</updated><id>https://garg-aayush.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/"><![CDATA[]]></content><author><name></name></author></entry><entry><title type="html">a post with redirect</title><link href="https://garg-aayush.github.io/blog/2022/redirect/" rel="alternate" type="text/html" title="a post with redirect" /><published>2022-02-01T17:39:00+00:00</published><updated>2022-02-01T17:39:00+00:00</updated><id>https://garg-aayush.github.io/blog/2022/redirect</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2022/redirect/"><![CDATA[<p>Redirecting to another page.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[you can also redirect to assets like pdf]]></summary></entry><entry><title type="html">a post with diagrams</title><link href="https://garg-aayush.github.io/blog/2021/diagrams/" rel="alternate" type="text/html" title="a post with diagrams" /><published>2021-07-04T17:39:00+00:00</published><updated>2021-07-04T17:39:00+00:00</updated><id>https://garg-aayush.github.io/blog/2021/diagrams</id><content type="html" xml:base="https://garg-aayush.github.io/blog/2021/diagrams/"><![CDATA[<p>This theme supports generating various diagrams from a text description using <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank">jekyll-diagrams</a> plugin.
+Below, we generate a few examples of such diagrams using languages such as <a href="https://mermaid-js.github.io/mermaid/" target="\_blank">mermaid</a>, <a href="https://plantuml.com/" target="\_blank">plantuml</a>, <a href="https://vega.github.io/vega-lite/" target="\_blank">vega-lite</a>, etc.</p>
+
+<p><strong>Note:</strong> different diagram-generation packages require external dependencies to be installed on your machine.
+Also, be mindful of that because of diagram generation the fist time you build your Jekyll website after adding new diagrams will be SLOW.
+For any other details, please refer to <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank">jekyll-diagrams</a> README.</p>
+
+<h2 id="mermaid">Mermaid</h2>
+
+<p>Install mermaid using <code class="language-plaintext highlighter-rouge">node.js</code> package manager <code class="language-plaintext highlighter-rouge">npm</code> by running the following command:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install</span> <span class="nt">-g</span> mermaid.cli
+</code></pre></div></div>
+
+<p>The diagram below was generated by the following code:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% mermaid %}
 sequenceDiagram
     participant John
     participant Alice
     Alice-&gt;&gt;John: Hello John, how are you?
     John--&gt;&gt;Alice: Great!
 {% endmermaid %}
-</code></pre></div></div> <div class="jekyll-diagrams diagrams mermaid"> Command Not Found: mmdc </div>]]></content><author><name></name></author><summary type="html"><![CDATA[an example of a blog post with diagrams]]></summary></entry></feed>
+</code></pre></div></div>
+
+<div class="jekyll-diagrams diagrams mermaid">
+  <svg id="mermaid-1686213190628" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:450px;" viewBox="-50 -10 450 231"><style>#mermaid-1686213190628 .label{font-family:trebuchet ms,verdana,arial;color:#333}#mermaid-1686213190628 .node circle,#mermaid-1686213190628 .node ellipse,#mermaid-1686213190628 .node polygon,#mermaid-1686213190628 .node rect{fill:#ececff;stroke:#9370db;stroke-width:1px}#mermaid-1686213190628 .node.clickable{cursor:pointer}#mermaid-1686213190628 .arrowheadPath{fill:#333}#mermaid-1686213190628 .edgePath .path{stroke:#333;stroke-width:1.5px}#mermaid-1686213190628 .edgeLabel{background-color:#e8e8e8}#mermaid-1686213190628 .cluster rect{fill:#ffffde!important;stroke:#aa3!important;stroke-width:1px!important}#mermaid-1686213190628 .cluster text{fill:#333}#mermaid-1686213190628 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:trebuchet ms,verdana,arial;font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1686213190628 .actor{stroke:#ccf;fill:#ececff}#mermaid-1686213190628 text.actor{fill:#000;stroke:none}#mermaid-1686213190628 .actor-line{stroke:grey}#mermaid-1686213190628 .messageLine0{marker-end:"url(#arrowhead)"}#mermaid-1686213190628 .messageLine0,#mermaid-1686213190628 .messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#mermaid-1686213190628 #arrowhead{fill:#333}#mermaid-1686213190628 #crosshead path{fill:#333!important;stroke:#333!important}#mermaid-1686213190628 .messageText{fill:#333;stroke:none}#mermaid-1686213190628 .labelBox{stroke:#ccf;fill:#ececff}#mermaid-1686213190628 .labelText,#mermaid-1686213190628 .loopText{fill:#000;stroke:none}#mermaid-1686213190628 .loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#ccf}#mermaid-1686213190628 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1686213190628 .noteText{fill:#000;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:14px}#mermaid-1686213190628 .section{stroke:none;opacity:.2}#mermaid-1686213190628 .section0{fill:rgba(102,102,255,.49)}#mermaid-1686213190628 .section2{fill:#fff400}#mermaid-1686213190628 .section1,#mermaid-1686213190628 .section3{fill:#fff;opacity:.2}#mermaid-1686213190628 .sectionTitle0,#mermaid-1686213190628 .sectionTitle1,#mermaid-1686213190628 .sectionTitle2,#mermaid-1686213190628 .sectionTitle3{fill:#333}#mermaid-1686213190628 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px}#mermaid-1686213190628 .grid .tick{stroke:#d3d3d3;opacity:.3;shape-rendering:crispEdges}#mermaid-1686213190628 .grid path{stroke-width:0}#mermaid-1686213190628 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1686213190628 .task{stroke-width:2}#mermaid-1686213190628 .taskText{text-anchor:middle;font-size:11px}#mermaid-1686213190628 .taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}#mermaid-1686213190628 .taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}#mermaid-1686213190628 .taskText0,#mermaid-1686213190628 .taskText1,#mermaid-1686213190628 .taskText2,#mermaid-1686213190628 .taskText3{fill:#fff}#mermaid-1686213190628 .task0,#mermaid-1686213190628 .task1,#mermaid-1686213190628 .task2,#mermaid-1686213190628 .task3{fill:#8a90dd;stroke:#534fbc}#mermaid-1686213190628 .taskTextOutside0,#mermaid-1686213190628 .taskTextOutside1,#mermaid-1686213190628 .taskTextOutside2,#mermaid-1686213190628 .taskTextOutside3{fill:#000}#mermaid-1686213190628 .active0,#mermaid-1686213190628 .active1,#mermaid-1686213190628 .active2,#mermaid-1686213190628 .active3{fill:#bfc7ff;stroke:#534fbc}#mermaid-1686213190628 .activeText0,#mermaid-1686213190628 .activeText1,#mermaid-1686213190628 .activeText2,#mermaid-1686213190628 .activeText3{fill:#000!important}#mermaid-1686213190628 .done0,#mermaid-1686213190628 .done1,#mermaid-1686213190628 .done2,#mermaid-1686213190628 .done3{stroke:grey;fill:#d3d3d3;stroke-width:2}#mermaid-1686213190628 .doneText0,#mermaid-1686213190628 .doneText1,#mermaid-1686213190628 .doneText2,#mermaid-1686213190628 .doneText3{fill:#000!important}#mermaid-1686213190628 .crit0,#mermaid-1686213190628 .crit1,#mermaid-1686213190628 .crit2,#mermaid-1686213190628 .crit3{stroke:#f88;fill:red;stroke-width:2}#mermaid-1686213190628 .activeCrit0,#mermaid-1686213190628 .activeCrit1,#mermaid-1686213190628 .activeCrit2,#mermaid-1686213190628 .activeCrit3{stroke:#f88;fill:#bfc7ff;stroke-width:2}#mermaid-1686213190628 .doneCrit0,#mermaid-1686213190628 .doneCrit1,#mermaid-1686213190628 .doneCrit2,#mermaid-1686213190628 .doneCrit3{stroke:#f88;fill:#d3d3d3;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}#mermaid-1686213190628 .activeCritText0,#mermaid-1686213190628 .activeCritText1,#mermaid-1686213190628 .activeCritText2,#mermaid-1686213190628 .activeCritText3,#mermaid-1686213190628 .doneCritText0,#mermaid-1686213190628 .doneCritText1,#mermaid-1686213190628 .doneCritText2,#mermaid-1686213190628 .doneCritText3{fill:#000!important}#mermaid-1686213190628 .titleText{text-anchor:middle;font-size:18px;fill:#000}#mermaid-1686213190628 g.classGroup text{fill:#9370db;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:10px}#mermaid-1686213190628 g.classGroup rect{fill:#ececff;stroke:#9370db}#mermaid-1686213190628 g.classGroup line{stroke:#9370db;stroke-width:1}#mermaid-1686213190628 .classLabel .box{stroke:none;stroke-width:0;fill:#ececff;opacity:.5}#mermaid-1686213190628 .classLabel .label{fill:#9370db;font-size:10px}#mermaid-1686213190628 .relation{stroke:#9370db;stroke-width:1;fill:none}#mermaid-1686213190628 #compositionEnd,#mermaid-1686213190628 #compositionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1686213190628 #aggregationEnd,#mermaid-1686213190628 #aggregationStart{fill:#ececff;stroke:#9370db;stroke-width:1}#mermaid-1686213190628 #dependencyEnd,#mermaid-1686213190628 #dependencyStart,#mermaid-1686213190628 #extensionEnd,#mermaid-1686213190628 #extensionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1686213190628 .branch-label,#mermaid-1686213190628 .commit-id,#mermaid-1686213190628 .commit-msg{fill:#d3d3d3;color:#d3d3d3}</style><style>#mermaid-1686213190628 {
+    color: rgb(0, 0, 0);
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+  }</style><g></g><g><line id="actor0" x1="75" y1="5" x2="75" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">John</tspan></text></g><g><line id="actor1" x1="275" y1="5" x2="275" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Alice</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><g><text x="175" y="93" class="messageText" style="text-anchor: middle;">Hello John, how are you?</text><line x1="275" y1="100" x2="75" y2="100" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="175" y="128" class="messageText" style="text-anchor: middle;">Great!</text><line x1="75" y1="135" x2="275" y2="135" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><rect x="0" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">John</tspan></text></g><g><rect x="200" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Alice</tspan></text></g></svg>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[an example of a blog post with diagrams]]></summary></entry></feed>
