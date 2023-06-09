@@ -14,19 +14,19 @@ nav_order: 1
 <div class="journal publications">
 <h1 class="journal"> Journal  Papers</h1>
 {%- for y in page.yearsj %}
-  <h2 class="year">{{y}}</h2>
+  <h1 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}} && tipo=2]* %}
 {% endfor %}
 
 <h1 class="conf">Conference Papers</h1>
 {%- for y in page.yearsc %}
-  <h2 class="year">{{y}}</h2>
+  <h1 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}} && tipo=1]* %}
 {% endfor %}
 
 <h1 class="workshops">Workshops and others</h1>
 {%- for y in page.yearsw %}
-  <h2 class="year">{{y}}</h2>
+  <h1 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}} && tipo=3]* %}
 {% endfor %}
 
