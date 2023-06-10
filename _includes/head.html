@@ -27,7 +27,9 @@
     {% elsif site.icon != blank %}
     <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url}}"/>
     {% endif %}
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+    {% assign cacheBust = site.time | date:'?v=%s' %}
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url | append: cacheBust }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
     <!-- Dark Mode -->
