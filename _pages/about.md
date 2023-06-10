@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a PhD student in the [Department of History and Philosophy of Science](https://www.hps.cam.ac.uk) at the University of Cambridge where I am generously funded by the [Gates Cambridge Scholarship](https://www.gatescambridge.org/biography/18408/).
 
-In addition to my PhD, I also serve as a Student Fellow at the [Leverhulme Centre for the Future of Intelligece](http://lcfi.ac.uk).
+In addition to my PhD, I also serve as a Student Fellow at the [Leverhulme Centre for the Future of Intelligence](http://lcfi.ac.uk).
 
 My current research broadly concerns the epistemic, moral, and political significance of machine learning in science and public life. Tackling these issues leads me to confront fundamental questions concerning the role non-epistemic values in science and technology, the relationship between various conceptions of objectivity and trust, and the nature and importance of uncertainty estimates for responsibility. I also have other projects in the philosophy of neuroscience, artificial intelligence, general philosophy of science, epistemology, ethics and political philosophy. 
 
