@@ -420,6 +420,12 @@ footer.sticky-bottom {
   background-color: var(--global-theme-color) !important;
 }
 
+.table-cv-map {
+  background-color: transparent;
+  border: none;
+  color: var(--global-text-color);
+}
+
 @media (min-width: 768px) {
   .repo {
     max-width: 50%;
