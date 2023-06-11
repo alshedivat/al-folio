@@ -105,6 +105,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://samadamday.com/" target="_blank">★</a>
 <a href="https://fanpu.io/" target="_blank">★</a>
 <a href="https://abigalekim.github.io/" target="_blank">★</a>
+<a href="https://lucasresck.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
