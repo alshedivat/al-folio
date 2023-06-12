@@ -7,11 +7,11 @@ importance: 1
 category: overview
 ---
 
-Hemlocks (_Tsuga_) are a temperate genus of trees that are critically important in their ecosystems. In eastern North America, two species of hemlocks are keystone species, providing numerous services such as carbon cycling, habitat for organisms (plants, animals, and fungi alike), and timber for industry. Unfortunately, both the Eastern Hemlock (_T. canadensis_) and the Carolina Hemlock (_T. caroliniana_) are imperiled by an invasive pest.
+Hemlocks (_Tsuga_) are a geuns of temperate forest trees critically important in their ecosystems. In eastern North American forests, the Eastern Hemlock (_T. canadensis_) is a keystone species, providing numerous services like carbon cycling, water quality stabilization, and habitat for organisms (plant, animal, and fungi alike). Unfortunately, both the Eastern Hemlock and the Carolina Hemlock (_T. caroliniana_) are imperiled by an invasive pest.
 
-In the early 20<sup>th</sup> century the [hemlock woolly adelgid](https://en.wikipedia.org/wiki/Hemlock_woolly_adelgid) (HWA) was introduced into Richmond, Virginia. HWA is a sap-feeding insect that will kill hemlock trees in as little as four years. Millions of acres of hemlock have been lost in recent decades, leading the IUCN to [list](https://www.iucnredlist.org/species/42431/2979676) the Eastern Hemlock as near threatened.
+In the early 20<sup>th</sup> century the [hemlock woolly adelgid](https://en.wikipedia.org/wiki/Hemlock_woolly_adelgid) (HWA) was introduced into Richmond, Virginia, an event which would have devastating consequences for eastern forests. The HWA is a sap-feeding insect that can kill hemlocks in as few as four years. Millions of acres of hemlock have been lost in recent decades, leading the IUCN to list the Eastern Hemlock as [near threatened](https://www.iucnredlist.org/species/42431/2979676).
 
-Despite the sustained threat of population collapse from the adelgid and climate change, there is hope for the recovery of the species. Working with scientists from the University of Michigan, USDA Forest Service, Natural Resources Canada, the Holden Arobretum, and others, we are developing a conservation program for the Eastern Hemlock. Using princpiles of genomics, plant breeding, and ecology, we are creating the genomic and germ plasm resources to create solutions for the complex problems the species faces.
+Despite the sustained threats of population collapse from the adelgid and climate change, there is hope for the recovery of the species. Working with scientists from the University of Michigan, USDA Forest Service, Natural Resources Canada, the Holden Arobretum, and others, we are developing a conservation program for the Eastern Hemlock. Using princpiles of genomics, plant breeding, and ecology, we are creating the genomic and germ plasm resources to create solutions for the complex problems the species faces.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -37,9 +37,7 @@ Despite the sustained threat of population collapse from the adelgid and climate
     Current research underway in the Plant Computational Genomics Lab for Eastern Hemlock conservation. These aims encompass multiple students and funding agencies. 
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+In the [PCG](http://plantcompgenomics.com/), we are starting from first principles of conservation genomics: a reference genome, then population surveys. Using funding from the Nature Conservancy and the USDA, we are sequencing the genome of an eastern hemlock accession from the [Arnold Arboretum](https://arboretum.harvard.edu/explorer/?id=1509-1*A) (Aim 1). Using comparative genomic methods, we are investigating patterns of evolution on terpenoid synthase (TPS) genes which biosynthesize terpenoids, an important class of molecules invovled in numerous ecological interactions. Again, our sample is dervied from collaborations with the Arnold Arboretum and with the USDA Forest Service Northern Research Station (Aim 2). With our partners from the [Cernak Lab](https://cernaklab.com/) we are investigating terpeonid metabolism in hemlocks across seasonal vartion and among _Tsuga_ (Aim 3). 
 
 
 <div class="row justify-content-sm-center">
@@ -47,7 +45,7 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
         {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/IMG_2014_v1.jpeg" title="Arnold Hemlock" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -67,7 +65,7 @@ Here's the code for the last row of images above:
         {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/IMG_2014_v1.jpeg" title="Arnold Hemlock" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 ```
