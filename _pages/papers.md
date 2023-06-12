@@ -17,7 +17,7 @@ nav: true
 
 * An Algorithm to Calculate Generalized Seifert Matrices.
 
-  _Stefan Friedl, __Chinmaya Kausik__ and Jose Pedro Quintanilha_ **(alphabetical order)**. Journal of Knot Theory and Its Ramifications, 2022. [[arXiv]](https://arxiv.org/abs/2204.10004)
+  _Stefan Friedl, __Chinmaya Kausik__ and Jose Pedro Quintanilha_ **(alphabetical order)**. Journal of Knot Theory and Its Ramifications, 2022. [[Journal]](https://doi.org/10.1142/S0218216522500687) [[arXiv]](https://arxiv.org/abs/2204.10004)
   
 ## preprints
 
