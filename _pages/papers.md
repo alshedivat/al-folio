@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
+permalink: /papers/
+title: papers
 description: a list of my publications and preprints 
 years: [2022, 2023]
 horizontal: false
