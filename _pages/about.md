@@ -30,11 +30,11 @@ Check out my [past projects](projects) (along with post-mortems), [publications]
 <details markdown="1">
   <summary markdown="span"> <b> What am I doing these days? </b></summary>
   
-  * Working on projects on offline RL in confounded tabular MDPs and learning mixtures of MDPs.
-  * Thinking about minimax optimal algorithms for offline policy evaluation (OPE) and the role of the geometry of action sets.
-  * Working on double descent in denoising under the guidance of [Rishi Sonthalia](https://sites.google.com/umich.edu/rsonthal/home?authuser=0). Work continued from [MREG 2022](https://sites.google.com/umich.edu/mreg-2022/home).
+  * Working on minimax optimal algorithms for offline policy evaluation (OPE) and the role of the geometry of action sets.
+  * Working on extending work with Rishi Sonthalia and Kashvi Srivastava to non-linear denoising.
   * Continuing work on our project from [LOGML 2022](https://www.logml.ai/)! I was a participant in Dr. Eli Meirom's group, planning to work on using RL for graph rewiring in GNNs to prevent oversquashing for long range problems.
-  * Mentoring undergraduate students on a project about using machine learning to enhance model predictive control.
+  * Thinking about extensions of De Finetti's theorem to decision processes.
+  * Organizing an interdepartmental social initiative, SPAM (Statistics, Physics, Astronomy, Mathematics).
   * Fleshing out ideas for more academic communities like Monsoon Math.
 
   </details>
@@ -43,20 +43,18 @@ Check out my [past projects](projects) (along with post-mortems), [publications]
   <summary markdown="span"> <b> What do I want to learn about/do in the future? </b></summary>
    
   _primary goals_
+  * Algorithms for synthetic data with provable guarantees. For example, generating private synthetic data for time series, starting with MDPs and Markov Chains.
   * Work on learning other mixtures of time series with control input.
-  * Work on generating synthetic data privately for time series, starting with MDPs and Markov Chains.
-  * Learn about differential privacy and its intersection with sequential decision-making.
+  * Find and work on an interesting problem at the intersection of privacy and sequential decision-making.
   * Start maintaining my progress [log](log) again.
   * Learn about safe RL and think about techniques beyond primal-dual ones, perhaps using model-based RL with uncertain models.
   * Watch lectures from the Data Driven Decision Processes program at the Simons Institute this semester.
-  * Gain a comprehensive view of techniques that go into minimax lower bounds in RL.
 
   _side-quests_
-  * The theory behind GNNs and deep learning in general.
-  * Causality and its interaction with sequential decision making and RL.
+  * Causal inference and its interaction with sequential decision making and RL.
+  * Dive deeper into the theory behind GNNs and deep learning in general.
   * Algorithmic fairness.
   * Geometric and topological insights for data analysis and machine learning (for example, non-positive curvature representation learning).
-  * Natural Language Processing.
   * Using insights from machine learning for biology. In a specific example, learning a hierarchical or causal structure from genomics 
 
  </details>
