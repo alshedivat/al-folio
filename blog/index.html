@@ -36,7 +36,7 @@ pagination:
           <p>&bull;</p>
         {% endunless %}
       {% endfor %}
-      {% if site.display_categories and site.display_tags %}
+      {% if site.display_categories.size > 0 and site.display_tags.size > 0 %}
         <p>&bull;</p>
       {% endif %}
       {% for category in site.display_categories %}
