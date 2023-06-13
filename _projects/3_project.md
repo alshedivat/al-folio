@@ -16,7 +16,7 @@ Tutorials and case studies on seismic data processing:
 
 - [Seismic Unix](https://github.com/hadi-tim/sdp-seismic-unix)
 - [Fundamentals of Seismic Data Processing using SU](https://github.com/hadi-tim/sdp-seismic-unix)
-- Seismic Wavelet Processing
+- [Seismic Wavelet Processing](https://github.com/hadi-tim/seismic-wavelet-processing)
 - Python Data Analysis
 - Python Data Visualization
 
