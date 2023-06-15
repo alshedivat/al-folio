@@ -23,8 +23,8 @@ nav: true
 
 * Generalization Error without Independence: Denoising, Linear Regression, and Transfer Learning
 
-  ___Chinmaya Kausik__, Kashvi Srivastava, Rishi Sonthalia_. Under review, 2023. [[arXiv]](https://arxiv.org/abs/2305.17297)
+  ___Chinmaya Kausik__*, Kashvi Srivastava*, Rishi Sonthalia*_. Under review, 2023. [[arXiv]](https://arxiv.org/abs/2305.17297)
   
 * Offline Policy Evaluation and Optimization under Confounding
 
-  ___Chinmaya Kausik__, Yangyi Lu, Kevin Tan, Yixin Wang, Ambuj Tewari_. Under review, 2023. [[arXiv]](https://arxiv.org/abs/2211.16583) (currently out of date).
+  ___Chinmaya Kausik__*, Yangyi Lu*, Kevin Tan*, Yixin Wang, Ambuj Tewari_. Under review, 2023. [[arXiv]](https://arxiv.org/abs/2211.16583)
