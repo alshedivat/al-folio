@@ -87,6 +87,7 @@ Movies
 - *2001: A Space Odyssey* -- an unhurried and thoughtful meditation on technology and Nietzschian transcendence
 - *The Menu* -- an entertaining watch and commentary on bourgeois consumption and production
 - *Midsommar* -- a beautiful film, and a deeply disturbing exploration of the "anthropologist's gaze"
+- *Dr. Strangelove*
 
 TV Shows
 - *Succession* -- an edgy portrayal of family, politics, and corporate power
@@ -102,5 +103,6 @@ Documentary
 - *Crime and Punishment*, Fyodor Dostevsky -- a meditation on sin, guilt, and redemption
 - *Infinite Jest*, David Foster Wallace -- we are addicted to entertainment, and entertained by addiction
 - *Never Let Me Go*, Kazuo Ishiguro -- the beauty of our fragile life becomes palpable when it's about to be broken
+- *Lolita*, Vladimir Nabokov
 
 ---
