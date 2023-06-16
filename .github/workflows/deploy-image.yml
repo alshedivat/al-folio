@@ -32,5 +32,5 @@ jobs:
       with:
         context: .
         push: true
-        platforms: linux/amd64,linux/arm64,linux/arm/v6,linux/arm/v7,linux/arm/v8
+        platforms: linux/amd64,linux/arm64,linux/arm64/v8
         tags: amirpourmand/al-folio
