@@ -6,7 +6,7 @@
     - name: nick name
       value: Neo
     - name: Languages
-      value: English, Chinese, Cantonese
+      value: Chinese(native, Mandarian & Cantonese), English(fluent)
     - name: ➡️
       value: Please download my <a href="/assets/pdf/Qingqin_Liu-CV-1116-2022.pdf"> CV </a> for more information!
 
@@ -15,7 +15,7 @@
   contents:
     - title: Master of Journalism and Communication
       institution: University of Science and Technology of China(USTC), Hefei, P.R. China
-      year: 2021 - 2023(Expected)
+      year: 2021 - 2023
       description:
         - Department of Communication of Science and Technology
         - "Advisor: Prof. Yanxiang Zhang"
@@ -68,22 +68,22 @@
       description:
         - "Instructor: Prof. Yanxiang Zhang"
 
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
-    - title: Human-computer Interaction
+    - title: Human-Computer Interaction
       items:
         - Immersive Media, VR/AR/MR
         - Tangible, Embodied, Embodied
         - Natural Interaction
         - User Perception
-    - title: Digital Game
+    - title: Game Studies
       items:
-        - Game Design
+        - Game Design and Development
         - Player Experience
         - Metafictional Game
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Game(Play/Design/Create), Reading, GUNDAM, Football.
+    - <u>Hobbies:</u> Game(Play/Design/Create), Reading, GUNDAM, Football and Ping Pong.
