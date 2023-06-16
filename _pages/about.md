@@ -20,4 +20,4 @@ social: true  # includes social icons at the bottom of the page
 
 I am Qingqin Liu (刘晴钦 in Chinese), a second-year Master student in the Department of Communication of Science and Technology, at University of Science and Technology of China (USTC), advised by <a href='https://dblp.org/pid/117/0075-1.html'>Prof. Yanxiang Zhang</a>. Before this, I gained my Bachelor of Science in Astronomy at USTC.
 
-I am interested in enabling human-computer interactions using different modalities(touch, gestures, haptics, gaze, etc.), and on different devices (hand-held, head-mounted, in midair, esp. VR/AR/MR). Also, I am interested in game interaction and interfaces, the design and development of games, and player experience evaluation.
+I am interested in enabling human-computer interactions using different modalities(touch, gestures, haptics, gaze, etc.), and on different devices (hand-held, head-mounted, in midair, esp. VR/AR/MR). Also, I am interested in game interaction and interfaces, game design and development, and player experience evaluation.
