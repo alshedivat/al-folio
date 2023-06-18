@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Adeyemi
 middle_name: D.
 last_name: Adeoye
-email: "name1.name3@imtlucca.it"
+email: "adeyemi[dot]adeoye[at]imtlucca[dot]it"
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Website of Adeyemi Damilare Adeoye.
 footer_text: >
@@ -96,7 +96,7 @@ facebook_id: # your facebook id
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  Adeyemi is best reached via email (name1 = adeyemi, name3 = adeoye).
+  Adeyemi is best reached via email (adeyemi[dot]adeoye[at]imtlucca[dot]it).
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
