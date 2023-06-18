@@ -24,4 +24,9 @@ I received my bachelor’s degree in Mathematics in 2016 from the <a style="text
 
 research interests
 ---
-My research interests cover topics in **applied mathematics**. Currently, I am working on **second-order (numerical) optimization** methods for training **(recurrent) neural networks** with applications in identification and control of dynamical systems.
+My current research interests cover topics in **applied mathematics**:
+<ul>
+  <li>Approximate second-order optimization methods for machine learning</li>
+  <li>Efficient second-order algorithms for nonsmooth convex composite optimization</li>
+  <li>Neural networks for identication and control of dynamical systems</li>
+</ul> 
