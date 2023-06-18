@@ -24,7 +24,6 @@ I received my bachelor’s degree in Mathematics in 2016 from the <a style="text
 
 research interests
 ---
-My current research interests cover topics in **applied mathematics**:
 <ul>
   <li>Approximate second-order optimization methods for machine learning</li>
   <li>Efficient second-order algorithms for nonsmooth convex composite optimization</li>
