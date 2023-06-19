@@ -22,4 +22,4 @@ I am currently a PhD student working under the supervision of Prof. [Lucile Sass
 
 My ongoing research work focuses on using deep learning approaches to improve virtual reality (VR) streaming. Over the course of my PhD, I have been working on predicting the head movements of people watching 360° videos, studying the uncertainty of such predictions, as well as trying to understand the link between video content, emotions and head motion.
 
-I am expected to graduate by the end of 2023, and I am now looking for a postdoctoral position in the field of deep learning. You can reach me by writing to `quentin.guimard[at]univ-cotedazur[dot]fr`.
+I am expected to graduate by the end of 2023, and I am now looking for an academic (postdoc) or industrial research position in the field of deep learning. You can reach me by writing to `quentin.guimard[at]univ-cotedazur[dot]fr`.
