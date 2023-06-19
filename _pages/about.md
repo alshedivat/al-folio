@@ -7,14 +7,14 @@ subtitle: PhD student at <a href='https://univ-cotedazur.fr/'>Université Côte 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false  # crops the image to make it circular
   address: >
     <p>I3S - Bureau 208</p>
     <p>Les Algorithmes - bât. Euclide B</p>
     <p>2000, route des lucioles</p>
     <p>06900 Sophia Antipolis - France</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: true  # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
