@@ -12,13 +12,12 @@ layout: default
         </header>
 
         <article>
-          {% if page.profiles -%}
-          {% for profile in page.profiles %}
-          <div class="profile float-{%- if profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if profile.image %}
-              {%- assign profile_image_path = profile.image | prepend: 'assets/img/' -%}
+          {% if page.profile -%}
+          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+            {%- if page.profile.image %}
+              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
-              {% if profile.image_circular %}
+              {% if page.profile.image_circular %}
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
               {% else %}
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
@@ -27,34 +26,24 @@ layout: default
               {% include figure.html
               path=profile_image_path
               class=profile_image_class
-              alt=profile.image -%}
+              alt=page.profile.image -%}
             {% endif -%}
-            {%- if profile.more_info %}
+            {%- if page.profile.more_info %}
             <div class="more-info">
-              {{ profile.more_info }}
+              {{ page.profile.more_info }}
             </div>
             {%- endif %}
           </div>
+          {%- endif %}
 
           <div class="clearfix">
-            {% if profile.content -%}
-            {% capture profile_content %}{%- include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
-            {%- else -%}
             {{ content }}
-            {%- endif %}
           </div>
-
-          <hr>
-
-          {% endfor %}
-          {%- endif %}
 
           <!-- News -->
           {% if page.news -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
             {%- include news.html %}
-            <hr>
           {%- endif %}
 
           <!-- Selected papers -->
