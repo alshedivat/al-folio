@@ -442,17 +442,17 @@ footer.sticky-bottom {
   font-size: 5rem;
 }
 
-.tag-list {
+.tag-category-list {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
   padding-top: 1rem;
 }
-.tag-list ul {
+.tag-category-list ul {
   justify-content: center;
   display: flow-root;
 }
-.tag-list ul p,
-.tag-list ul li {
+.tag-category-list ul p,
+.tag-category-list ul li {
   list-style: none;
   display: inline-block;
   padding: 1rem 0.5rem;
