@@ -172,6 +172,6 @@ Hold out your hand in front of the camera, and you will touch the solar system :
     </script>
     <footer>Acknowledgement: Wynne</footer>
     <footer>Solar System Photo credit: <a href="https://ixintu.com/sucai/7NNUWUqWk.html">ysqmv</a></footer>
-    <footer>&copy; Copyright & Stuff 2022. Made By <a href="https://neoluxqq.github.io">Neo Liu</a>. </footer>
+    <footer>&copy; Copyright & Stuff 2022. Made By <a href="https://neoluxqq.github.io">Neo</a>. </footer>
     <footer>This work is licensed under the  <a href="http://creativecommons.org/licenses/by-nc/3.0/">CC BY-NC 3.0 Creative Commons License</a>.</footer>
 </html>
