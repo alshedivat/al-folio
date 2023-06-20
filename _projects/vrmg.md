@@ -27,14 +27,39 @@ The game story is inspired by John Campbell's *The Hero's Journey*.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Heroesjourney.svg" title="Heroesjourney" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Illustration of the hero's journey (Credit: https://upload.wikimedia.org/wikipedia/commons/1/1b/Heroesjourney.svg)
 </div>
 
-This game includes three scenes. 
+This game includes three scenes. In a medieval style game world with a "sword and magic" theme, the Player role plays as the Protagonist, who is called to an adventure and guided by the Mentor. (Fig. 1 Journey's Beginning)
+
+Leaving the village to vanquish the Evil, the Protagonist embarks on a solitary journey through the Dangerous Wild, where he/she hones the skill of using multiple weapons. (Fig. 2 Dangerous Wild)
+
+At the castle of Evil, the Protagonist duels with the Boss and saves the world finally. (Fig. 3 Last Duel) 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/vrmg/scene1.PNG" title="Journey's Beginning" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/vrmg/scene2.PNG" title="Dangerous Wild" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/vrmg/scene3.PNG" title="Last Duel" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The snapshots of three game scenes. On the left, Fig. 1 Journey's Beginning. Middle, Fig. 2 Dangerous Wild. Right, Fig. 3 Last Duel.
+</div>
+
+⚔️In the last scene, Boss will "read" the mind of the Protagonist/Player, making itself undefeatable. By implementing the metafictional gameplay(details in next section), the Protagonist and the Player will be divided. The Protagonist directly talks to the Player and asks the Player to save the virtual world from the real world. 
+
+> *The Protagonist or the Player, who is the Hero?*
+
+During the course of a VR game, players undergo stages akin to Campbell's depiction of the hero's journey, transitioning from the real world into the virtual world and then back to reality. Meanwhile, the metafictional gameplay creates a personalized and realistic adventure for players, allowing them to become heroes within the fusion of the virtual and real worlds.
 
 **2. Metafictional Gameplay** 🎮
 
