@@ -34,10 +34,8 @@ The game story is inspired by John Campbell's *The Hero's Journey*.
     Illustration of the hero's journey (Credit: https://upload.wikimedia.org/wikipedia/commons/1/1b/Heroesjourney.svg)
 </div>
 
-This game includes three scenes. In a medieval style game world with a "sword and magic" theme, the Player role plays as the Protagonist, who is called to an adventure and guided by the Mentor. (Fig. 1 Journey's Beginning)
-
-Leaving the village to vanquish the Evil, the Protagonist embarks on a solitary journey through the Dangerous Wild, where he/she hones the skill of using multiple weapons. (Fig. 2 Dangerous Wild)
-
+This game includes three scenes. In a medieval style game world with a "sword and magic" theme, the Player role plays as the Protagonist, who is called to an adventure and guided by the Mentor. (Fig. 1 Journey's Beginning)  
+Leaving the village to vanquish the Evil, the Protagonist embarks on a solitary journey through the Dangerous Wild, where he/she hones the skill of using multiple weapons. (Fig. 2 Dangerous Wild)  
 At the castle of Evil, the Protagonist duels with the Boss and saves the world finally. (Fig. 3 Last Duel) 
 
 <div class="row">
@@ -63,7 +61,9 @@ During the course of a VR game, players undergo stages akin to Campbell's depict
 
 **2. Metafictional Gameplay** 🎮
 
-Two metafictional gameplay 
+Two metafictional gameplay are implemented in the game.
+
+
 
 ---
 
