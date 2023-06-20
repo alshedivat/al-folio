@@ -6,7 +6,7 @@ subtitle: <a href='http://en.ustc.edu.cn/'>University of Science and Technology 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic-2.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>qingqinliu@mail.ustc.edu.cn</p>
