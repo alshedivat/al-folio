@@ -22,7 +22,7 @@ Utilizing a soon-to-be reference genome, we will conduct a study of allele frequ
     </div>
 </div>
 <div class="caption">
-    The hypothesis pipeline of a gene conservation project. 
+    The hypothesis pipeline of a gene conservation project (left). Here's the impact of the Hemlock Woolly Adelgid after 15 years of infestation: hemlock devastation. Photograph from the Chattahoochee National Forest near Helen, GA.  
 </div>
 
 Parterns in this research are many, including the USDA Forest Service, Natural Resources Canada, and Non-profit organizations. Funding from a USDA NIFA fellowship will enable this research program.m 
