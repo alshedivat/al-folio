@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: page
 title: a list of unity assets used in the VRMG
-permalink: /blog/vrmg-asset
-date: 2023-06-21 15:23:00
+permalink: /page/vrmg-asset
 description: all assets get from unity asset store
+nav: false
+nav_order: 3
 ---
 
 1. RPG Monster Partners PBR Polyart：
