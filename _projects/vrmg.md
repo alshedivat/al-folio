@@ -63,7 +63,7 @@ During the course of a VR game, players undergo stages akin to Campbell's depict
 
 Two metafictional gameplay are implemented in the game.
 
-
+...
 
 ---
 
