@@ -69,7 +69,7 @@ We use eye tracking module in the HMD of HTC VIVE Pro Eye to predict the battle 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/eye.PNG" title="eye-tracking-to-read-mind" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/vrmg/eye.PNG" title="eye-tracking-to-read-mind" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -84,7 +84,7 @@ By manipulating the virtual camera in the 3D space, the game transitions from a 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/heroTalk.PNG" title="Hero-talks-to-player" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/vrmg/heroTalk.PNG" title="Hero-talks-to-player" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
