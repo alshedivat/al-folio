@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Collecting hemlock at the Arnold!
-date: 2023-06-02 16:11:00-0400
+date: 2023-06-02 216:11:00-0400
 inline: false
 ---
 

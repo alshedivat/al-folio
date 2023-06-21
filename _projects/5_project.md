@@ -4,7 +4,7 @@ title: Effects of hybridization on disease
 description: a project with a background image
 img: assets/img/1.jpg
 importance: 4
-category: phd
+category: not yet done
 ---
 
 Every project has a beautiful feature showcase page.
