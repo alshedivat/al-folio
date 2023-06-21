@@ -101,7 +101,7 @@ Unity (2021.3.8f1-LTS)
 
 Plugin & SDK: OpenXR, Tobii-XR, SteamVR
 
-Asset List: 
+Asset List: https://neoluxqq.github.io/page/vrmg-asset
 
 Demo: (*We expect to release the demo and code during the next weeks*)
 
