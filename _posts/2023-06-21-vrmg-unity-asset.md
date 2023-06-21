@@ -1,7 +1,7 @@
 ---
 layout: post
 title: a list of unity assets used in the VRMG
-# permalink: 
+permalink: /blog/vrmg-asset
 date: 2023-06-21 15:23:00
 description: all assets get from unity asset store
 ---
