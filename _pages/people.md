@@ -5,7 +5,7 @@ permalink: /people/
 description: Lab Members
 nav: true
 nav-order: 1
-display_categories: [Lab Director, PhD Students, MSc Students, Collaborators]
+display_categories: [Lab Director, Postdoctoral Fellows, PhD Students, MSc Students, Undergraduates, Collaborators, Alumni]
 horizontal: false
 ---
 
