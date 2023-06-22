@@ -102,7 +102,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Of Fish and Fascists  # your blog must have a name for it to show up in the nav bar
+blog_name: Of Fish and Fascists # your blog must have a name for it to show up in the nav bar
 blog_description: Unpublishable thoughts collective behavior, statistics, and technology
 permalink: /blog/:year/:title/
 
@@ -189,6 +189,7 @@ keep_files:
 
 # Plug-ins
 plugins:
+  - jekyll-twitter-plugin
   - jekyll-archives
   - jekyll-diagrams
   - jekyll-email-protect
