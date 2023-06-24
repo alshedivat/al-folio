@@ -30,6 +30,9 @@
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
+  --global-footer-img-filter: #{$footer-img-filter-light};
+  --global-footer-img-hover-filter: #{$footer-img-filter-hover-light};
+
   .fa-sun {
     display : none;
   }
@@ -75,6 +78,10 @@ html[data-theme='dark'] {
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
+  
+  --global-footer-img-filter: #{$footer-img-filter-dark};
+  --global-footer-img-hover-filter: #{$footer-img-filter-hover-dark};
+
   .fa-sun {
     padding-left: 10px;
     padding-top: 12px;
@@ -91,3 +98,4 @@ html[data-theme='dark'] {
     display: block;
   }
 }
+

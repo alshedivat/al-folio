@@ -36,3 +36,14 @@ $black-color: #000000 !default;
 
 $code-bg-color-light:     rgba($purple-color, 0.05);
 $code-bg-color-dark:      #2c3237 !default;
+
+
+// images must be white filled otherwise the following filters won't be correct
+$footer-img-filter-light: brightness(100%) saturate(100%);
+$footer-img-filter-dark: brightness(0) saturate(100%);
+
+// hover filters are extracted from https://codepen.io/sosuke/pen/Pjoqqp 
+// to match the desired color (can by any color really, but still manual)
+// a reasiable choice is the theme color.
+$footer-img-filter-hover-light: brightness(0) saturate(100%) invert(16%) sepia(73%) saturate(2918%) hue-rotate(213deg) brightness(93%) contrast(110%);
+$footer-img-filter-hover-dark: brightness(0) saturate(100%) invert(36%) sepia(68%) saturate(7498%) hue-rotate(196deg) brightness(102%) contrast(100%);

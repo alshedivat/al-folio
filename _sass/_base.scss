@@ -1002,3 +1002,13 @@ nav[data-toggle="toc"] {
     }
   }
 }
+
+
+/* image overlay */
+.footer-img{
+  filter: var(--global-footer-img-filter);
+  
+}
+.footer-img:hover{
+  filter: var(--global-footer-img-filter) var(--global-footer-img-hover-filter)
+}
