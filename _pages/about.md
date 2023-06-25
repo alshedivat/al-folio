@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Software Engineering @ Google Search • CS @ Princeton
+subtitle: <b>Software Engineering</b> @ Google Search <img src="assets/img/G_logo.png" height="20" width="20"> • <b>Computer Science</b> @ Princeton <img src="assets/img/pton_logo3.png" height="20" width="20">
 
 profile:
   align: right
@@ -17,9 +17,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello?
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! My name is Henrique. I'm a software engineer at Google currently searching for a team.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Previously, I worked on semantic parsing and question answering models for Google Search, created voice queries for electric vehicles on Google Asssistant, and tried product management at [Landed](https://gotlanded.com).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I recently graduated from [Princeton University](https://www.cs.princeton.edu/) with a B.S.E. in Computer Science and minors in Applied Math, Optimization, and Statistics & Machine Learning. I conducted research in natural language processing (pruning, embeddings, song recommendation, cannabis strains) and theoretical CS (learning, auctions, tournaments). My senior thesis was advised by [Matt Weinberg](https://www.cs.princeton.edu/~smattw/).
+
+I am half Paraguayan and half Brazilian, and grew up in [Asunción](https://en.wikipedia.org/wiki/Asunci%C3%B3n) speaking four languages (Spanish, Portuguese, Guaraní, and English).
+
