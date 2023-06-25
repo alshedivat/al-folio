@@ -12,10 +12,10 @@ ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 
 # add ruby and jekyll
-RUN apt-get install --no-install-recommends ruby-full build-essential zlib1g-dev python3-pip -y
+RUN apt-get install --no-install-recommends ruby-full build-essential zlib1g-dev -y
 RUN apt-get install imagemagick -y
 
-# install jupyter
+# install python3 and jupyter
 RUN apt-get install python3-pip -y
 RUN pip3 install --upgrade jupyter
 
