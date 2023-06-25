@@ -271,8 +271,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Schechter Vera]
+  first_name: [Henrique]
 
   style: apa
   locale: en
@@ -283,7 +283,8 @@ scholar:
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
+  ## HENRIQUE: removed 'latex' filter for above reason
+  bibtex_filters: [smallcaps, superscript]
 
   replace_strings: true
   join_strings: true

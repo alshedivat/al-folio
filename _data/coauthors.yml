@@ -2,6 +2,22 @@
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
+"Agarwal":
+  - firstname: ["Anubhav"]
+    url: https://www.linkedin.com/in/bhav-agarwal/
+
+"Bangalore":
+  - firstname: ["(advisor) Srinivas"]
+    url: https://sbangalore.com/
+
+"Brooks":
+  - firstname: ["Creston"]
+    url: https://scholar.google.com/citations?user=K30IvtMAAAAJ&hl=en
+
+"Narasimhan":
+  - firstname: ["(advisor) Karthik"]
+    url: https://www.cs.princeton.edu/~karthikn/
+
 "Podolsky":
   - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
     url: https://en.wikipedia.org/wiki/Boris_Podolsky
@@ -16,6 +32,26 @@
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+
+"Graf":
+  - firstname: ["Victoria"]
+    url: https://scholar.google.com/citations?user=0arBo88AAAAJ&hl=en
+
+"Fellbaum":
+  - firstname: ["(advisor) Christiane"]
+    url: https://www.cs.princeton.edu/people/profile/fellbaum
+
+"Jinturkar":
+  - firstname: ["Rohan"]
+    url: https://github.com/rjintu
+
+"Lumbroso":
+  - firstname: ["(advisor) Jérémie"]
+    url: https://www.cs.princeton.edu/~lumbroso/
+
+"McDowell":
+  - firstname: ["Ryan"]
+    url: https://scholar.google.com/citations?user=GjGsbcUAAAAJ&hl=en
 
 "Przibram":
   - firstname: ["Karl"]
@@ -34,5 +70,9 @@
     url: https://en.wikipedia.org/wiki/Max_Planck
 
 "Weinberg":
-  - firstname: ["Matt"]
+  - firstname: ["(advisor) Matt"]
     url: https://www.cs.princeton.edu/~smattw/
+
+"Wright":
+  - firstname: ["Elaine"]
+    url: https://www.linkedin.com/in/elaine-wright-4227b5155/
