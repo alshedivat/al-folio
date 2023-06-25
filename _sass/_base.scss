@@ -1008,6 +1008,12 @@ nav[data-toggle="toc"] {
     color: var(--global-text-color-light);
     text-decoration: none;
 
+    .card-text {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
     &:hover {
       color: var(--global-theme-color);
 
