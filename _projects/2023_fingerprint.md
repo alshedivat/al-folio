@@ -9,7 +9,7 @@ source:
 ---
 
 
-<img src="/assets/img/projects/finterprint.jpg" style="float: right; width:70%; padding: 1em"/>
+<img src="/assets/img/projects/fingerprint.jpg" style="float: right; width:70%; padding: 1em"/>
 
 The project aims to generate biological fingerprints (latent representations) for different patients.
 Such fingerprints should be more accurate and comprehensive representations of a patient's biological state than a couple of individual biological measurements.
