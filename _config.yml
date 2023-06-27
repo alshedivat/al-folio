@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 title: Steven Kordonowy
-email: steven.kordonowy@colorado.edu
+email: skordono@ucsc.edu
 description: >
   Steven Kordonowy's personal website
 footer_text: >
@@ -70,31 +70,32 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
 research:
   - project:
-    title: 'Quantum complexity of local max-cut (2020-present)'
-    description: 'Comparing classical and quantum FLIP algorithms for the local max-cut problem. [Quantum circuit evaluation code](https://github.com/stevenkordonowy/quantum/tree/main/scripts)'
+    title: ''
+    description: 'Comparing classical and quantum FLIP algorithms for the local max-cut problem. [preprint](https://arxiv.org/abs/2304.08420)'
     collaborators:
       - 
         name: Alex Kolla
-        site: https://home.cs.colorado.edu/~alko5368/
-      -
-        name: Adam Bouland
-        site: https://people.eecs.berkeley.edu/~abouland/
+        site: https://people.ucsc.edu/~akolla/
       -
         name: Charles Carlson
         site: https://cacarlson.github.io/
-  - project:
-    title: 'Smoothed complexity binary max-CSPs (2020-present)'
-    description: 'Extending smoothed complexity arguments from local max-k-cut to general binary constraints'
-    collaborators:
-      - 
-        name: Alex Kolla
-        site: https://home.cs.colorado.edu/~alko5368/
       -
-        name: Charles Carlson
-        site: https://cacarlson.github.io/
+        name: Zack Jorquera
+        site: https://zackjorquera.github.io/
     link: 
       filename: qip-2021-poster.pdf
       title: QIP 2021 Poster
+  - project:
+    title: 'Approximating the quantum extension of Max-k-Cut'
+    description: 'Extending results on quantum max-cut to k-level quantum systems mirroring the extension from max-cut to max-k-cut.'
+    collaborators:
+      - 
+        name: Alex Kolla
+        site: https://home.cs.colorado.edu/~alko5368/
+      -
+        name: Charles Carlson
+        site: https://cacarlson.github.io/
+    
   - project:
     title: 'A quantum evolutionary algorithm for max-cut (Spring 2020). Written for a class CSCI 5423 Bio-inspired Multi Agent Systems'
     description: '[Github repo](https://github.com/stevenkordonowy/qea-max-cut)'
