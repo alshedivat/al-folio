@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 ---
 
-I am thrilled to announce that I have been awarded the prestigious Ontario Graduate Scholarship (OGS) for my exceptional achievements in graduate studies.
+I am thrilled to announce that I have been awarded the Ontario Graduate Scholarship (OGS) for the 
+next 3 terms!
