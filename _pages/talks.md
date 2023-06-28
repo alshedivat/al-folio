@@ -25,9 +25,16 @@ The list of talks, presentations, and public appearances.
 
 ## 2023
 
+* **37th International Conference on Supercomputing (ICS), ACM Federated Computing Research Conference**, May, Orlando, FL, USA. _FMI: Fast and Cheap Message Passing for Serverless Functions_, research paper presentation.
+[Slides](/assets/pdf/2023_fmi_ics_slides.pdf).
+
+* **AWS Cloud for Research with ETH Analytics Club**, May, Zürich, Switzerland. _Serverless As a Bridge Between HPC and Clouds_, invited talk. [Slides](/assets/pdf/2023_aws_event_slides.pdf).
+
 * **5th Workshop on Parallel AI and Systems for the Edge (PAISE), 37th IEEE International Parallel & Distributed Processing Symposium (IPDPS 2023)**, May, St. Petersburg, FL, USA. _Serverless As a Bridge Between HPC and Clouds_, invited workshop talk.
+[Slides](/assets/pdf/2023_paise_ipdps_slides.pdf).
 
 * **37th IEEE International Parallel & Distributed Processing Symposium (IPDPS 2023)**, May, St. Petersburg, FL, USA. _rFaaS: Enabling High Performance Serverless with RDMA and Leases_, research paper presentation.
+[Slides](/assets/pdf/2023_rfaas_ipdps_slides.pdf).
 
 ## 2022
 
