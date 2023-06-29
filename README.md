@@ -106,6 +106,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://fanpu.io/" target="_blank">★</a>
 <a href="https://abigalekim.github.io/" target="_blank">★</a>
 <a href="https://lucasresck.github.io/" target="_blank">★</a>
+<a href="https://users.wpi.edu/~lfichera/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -141,6 +142,7 @@ ICBINB (NeurIPS: <a href="https://i-cant-believe-its-not-better.github.io/" targ
 Neural Compression (ICLR: <a href="https://neuralcompression.github.io/" target="_blank">2021</a>) <br>
 Score Based Methods (NeurIPS: <a href="https://score-based-methods-workshop.github.io/" target="_blank">2022</a>)<br>
 Images2Symbols (CogSci: <a href="https://images2symbols.github.io/" target="_blank"> 2022</a>)
+Medical Robotics Junior Faculty Forum (ISMR: <a href="https://junior-forum-ismr.github.io/" target="_blank"> 2023</a>)
 </td>
 </tr>
 </table>
