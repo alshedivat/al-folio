@@ -1,0 +1,90 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Tara (Zahra) Azin
+    - name: Email
+      value: taraazin[at]cmail[dot]carleton[dot]ca
+    - name: Languages
+      value: English, Persian, Kurdish (Southern)
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD Student - Linguistics
+      institution: Carleton University, Ottawa, Canada
+      year: 2021 - Present
+      description:
+        - I am working on my thesis under the supervision of Professor Raj Singh.
+
+    - title: Master of Science - Computational Linguistics
+      institution: Sharif University of Technology, Tehran, Iran
+      year: 2011 - 2014
+      description: 
+        - My thesis topic was on Automatic Authorship Attribution.  
+          I studied the stylistic features of four renowned
+          Iranian blank verse poets (Sohrab Sepehri, Fereidoon Moshiri, Mehdi Akhavan Sales, 
+          and Forough Farrokhzad). Using statistical analysis, I identified the unique features
+          in their works and matched unknown texts to each poet. 
+          It was a fascinating exploration of the intricate nuances that 
+          define an author's unique voice and style. 
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Assistant
+      institution: Geomatics and Cartographic Research Centre, Carleton University
+      year: 2021 - Present
+      description:
+        - Working as a computational linguist in the Canada Earth Biogenome Project (CEBP) under
+          the supervision of Professor Peter Pulsifer.
+
+    - title: Teaching Assistant
+      institution: Carleton University, Ottawa
+      year: 2021 - Present
+      
+      description:
+        - Introduction to Linguistics (Fall 2021)
+        - Forensic Linguistics (Winter 2022)
+        - Phonetics (Fall 2022)
+        - Semantics (Winter 2023)
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+
+    - year: 2023
+      items:
+        - Received the Ontario Graduate Scholarship (OGS) for the next three semesters
+        - Nominated for the Outstanding TA Award at Carleton University 
+        - I was among the top ten finalists for the Three Minute Thesis Contest at 
+          Carleton University. 
+    - year: 2011
+      items: 
+        - Ranked 20th in the nationwide Iranian Graduate University Entrance Exam among 
+          thousands of students.  
+      
+
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Computational Semantics
+      items: 
+        - Abstract Meaning Representation
+        - Argument Mining
+        - large pre-trained Transformer language models (LLMs)
+        - Natural Language Reasoning
+
+    - title: Language Tech. for Endangered Languages
+      items:
+        - Corpus creation for less-resourced languages
+        - Linguistic Linked Data and e-lexicons
+      
+
+- title: Other Interests
+  type: list
+  contents:
+    - I find solace in playing the setar, an Iranian traditional instrument, immersing myself in its enchanting melodies. 
+    - As a long-time yogi, I embrace yoga for its ability to bring inner peace and mindfulness to my life.
+    - Weightlifting has become my addiction at the gym, fueling my drive for strength and pushing my boundaries.
