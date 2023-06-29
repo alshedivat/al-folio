@@ -8,7 +8,7 @@ nav: true
 <!-- ####  -->
 ### **University of Maryland, College Park**
 <!-- Courses taken during the PhD program at UMD. -->
-#### **Spring 2032** 
+#### **Spring 2023** 
 >  CMSC 828A: Fantastic Machine Learning Paradigms and Where to use Them taught by Tianyi Zhou<br />
 >  [CMSC 742: Algorithms in Machine Learning: Guarantees and Analyses](https://www.cs.umd.edu/class/spring2023/cmsc742//links/) taught by Furong Huang <br />
 >  TA for [CMSC 764: Advanced Numerical Optimization](https://www.cs.umd.edu/~tomg/cmsc764_2023/) taught by Tom Goldstein
