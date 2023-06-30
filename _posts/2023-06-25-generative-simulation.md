@@ -149,7 +149,7 @@ Furthermore, investing in simulation allows for **reusability across iterations 
 Once a simulated world is built, making modifications to a robot's sensors, end-effectors, or even introducing an entirely new robot can be achieved with just a few lines of code. 
 On the other hand, in the real world, significant changes to a robot's hardware or design would render the painstakingly collected real-world data much less useful, requiring additional time and effort to collect new data.
 
-From the perspective of a company developing robotics products, cheaper and faster data collection translates to **quicker product iterations*** and improved time-to-market, as well as a **reduced burn-rate**. 
+From the perspective of a company developing robotics products, cheaper and faster data collection translates to **quicker product iterations** and improved time-to-market, as well as a **reduced burn-rate**. 
 Investing in high-quality simulation not only facilitates data collection but also enables more efficient evaluation of trained robots. 
 Real-world evaluation is time-consuming and often requires manual labor from human operators. 
 Imagine how much slower software product teams would ship if their regression tests involved team members physically testing things. 
