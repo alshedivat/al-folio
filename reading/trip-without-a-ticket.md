@@ -6,6 +6,8 @@ description: The Diggers, Winter 1966-67
 nav: false
 ---
 
+<img src="reading\files\imgs\trip-without-a-ticket.png" width="100%" />
+
 *Originally published by the Diggers, Winter 1966-67. Reprinted by the Communication Company SF 2nd Edition 6/28/67. Included here in The Digger Papers, August, 1968. This webpage is my own marked-up version.*
 
 Our authorized sanities are so many **Nembutals**. 
@@ -15,7 +17,7 @@ Maddeningly sterile jobs for strait-jackets, `MCM Bags Outlet` love scrubbed int
 Everyone is kept inside while the outside is shown through windows: *advertising and manicured news*. 
 And we all know this.
 
-How many TV specials would it take to establish one <underline>Guatemalan revolution</underline>? How many weeks would an ad agency require to face-lift the image of the Viet Cong? Slowly, very slowly we are led nowhere. <underline>Consumer circuses</underline> are held in the ward daily. Critics are tolerated like exploding novelties. We will be told which <underline>burning Asians</underline> to take seriously. Slowly. Later.
+How many TV specials would it take to establish one *Guatemalan revolution*? How many weeks would an ad agency require to face-lift the image of the Viet Cong? Slowly, very slowly we are led nowhere. *Consumer circuses* are held in the ward daily. Critics are tolerated like exploding novelties. We will be told which *burning Asians* to take seriously. Slowly. Later.
 
 But there is a real danger in suddenly waking a somnambulistic patient. 
 And we all know this.
@@ -34,11 +36,8 @@ How can the intrinsic freedom of theater illuminate walls and show the weak-spot
 Guerrilla theater intends to bring audiences to `mcm-outlet-mall` liberated territory to create life-actors. 
 
 | It remains light and exploitative of forms for the same reasons that it intends to remain free. |
-
 | It seeks audiences that are created by issues. |
-
 | It creates a cast of freed beings. |
-
 | It will become an issue itself. |
 
 This is theater of an underground that wants out. 
@@ -53,8 +52,7 @@ Food, machines, clothing, materials, shelter and props are simply there.
 Stuff. 
 A perfect dispenser would be an open Automat on the street. 
 Locks are time-consuming. 
-Combinations are clocks. 
-`[Check this: "locks" in the 10/66 edition?]`
+Combinations are clocks.
 
 So a store of goods or clinic or restaurant that is free becomes a social art form. 
 Ticketless theater. 
@@ -83,7 +81,6 @@ A salesman in a free store is a life-actor.
 Anyone who will assume an answer to a question or accept a problem as a turn-on.
 
 > Question (whispered): "Who pays the rent?"
-
 > Answer (loudly): "May I help you?"
 
 Who's ready for the implications of a free store?
@@ -117,7 +114,7 @@ Angels ride up Haight with girls holding [Now!] signs. Flowers and penny-whistle
 A chorus on both sides of the street chanting `Uhh!` -- `Ahh!` -- `Shh be cool`! 
 Mirrors held up to reflect faces of passersby.
 
-[10/66 edition: Penny-whistle music, clapping, flowers thrown in the air. A bus driver held up by the action gets out to dance a quick free minute. No more passers-by, Everybody's together.]
+Penny-whistle music, clapping, flowers thrown in the air. A bus driver held up by the action gets out to dance a quick free minute. No more passers-by, Everybody's together.
 
 **The burial procession.** Three black-shrouded messengers holding staffs topped with reflective dollar signs. A runner swinging a red lantern. Four pall bearers wearing animal heads carry a black casket filled with blowups of silver dollars. A chorus singing Get Out Of My Life Why Don't You Babe to Chopin's Death March. Members of the procession give out silver dollars and candles.
 
@@ -151,7 +148,7 @@ Our fight is with those who would kill us through dumb work, insane wars, dull m
 
 **Give up jobs, so computers can do them!** Any important human occupation can be done free. Can it be given away?
 
-Revolutions in Asia, Africa, South America are for <underline>humanistic industrialization</underline>. The technological resources of North America can be used throughout the world. Gratis. Not a patronizing gift, shared.
+Revolutions in Asia, Africa, South America are for *humanistic industrialization*. The technological resources of North America can be used throughout the world. Gratis. Not a patronizing gift, shared.
 
 Our conflict begins with salaries and prices. 
 **The trip has been paid for at an incredible price in death, slavery, psychosis.**
