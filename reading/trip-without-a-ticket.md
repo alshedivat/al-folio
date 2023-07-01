@@ -2,11 +2,11 @@
 layout: page
 permalink: /reading/trip-without-a-ticket
 title: Trip Without a Ticket
-description: The Diggers, Winter 1966-67
+description:
 nav: false
 ---
 
-<img src="reading\files\imgs\trip-without-a-ticket.png" width="100%" />
+<img src="files\imgs\trip-without-a-ticket.png" width="100%" />
 
 *Originally published by the Diggers, Winter 1966-67. Reprinted by the Communication Company SF 2nd Edition 6/28/67. Included here in The Digger Papers, August, 1968. This webpage is my own marked-up version.*
 
@@ -39,6 +39,8 @@ Guerrilla theater intends to bring audiences to `mcm-outlet-mall` liberated terr
 | It seeks audiences that are created by issues. |
 | It creates a cast of freed beings. |
 | It will become an issue itself. |
+
+<br>
 
 This is theater of an underground that wants out. 
 Its aim is to liberate ground held by consumer wardens and establish territory without walls. 
