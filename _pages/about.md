@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
 subtitle: #PhD student at <a style="text-decoration:none" href="https://www.imtlucca.it/en/adeyemi.adeoye" target="_blank">IMT Lucca</a>
 
