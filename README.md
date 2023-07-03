@@ -403,20 +403,29 @@ If you have a different question, please ask using [Discussions](https://github.
    (Relevant issue: [130](https://github.com/alshedivat/al-folio/issues/130).)
 
 3. **Q:** My webpage works locally.
+    But after deploying, it fails to build and throws `Unknown tag 'toc'`.
+    How do I fix that? <br>
+   **A:** Make sure you followed through the [deployment instructions](#deployment) in the previous section.
+   You should have set the deployment branch to `gh-pages`.
+   (Related issue: [1438](https://github.com/alshedivat/al-folio/issues/1438).)
+
+4. **Q:** My webpage works locally.
     But after deploying, it is not displayed correctly (CSS and JS is not loaded properly).
     How do I fix that? <br>
    **A:** Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`.
    Set `url` to `https://<your-github-username>.github.io` or to `https://<your.custom.domain>` if you are using a custom domain.
    If you are deploying a personal or organization website, leave `baseurl` blank.
    If you are deploying a project page, set `baseurl: /<your-project-name>/`.
-
-4. **Q:** Atom feed doesn't work. Why?
+   If all previous steps were done correctly, all is missing is
+   [for your browser to fetch again the site stylesheet](https://github.com/alshedivat/al-folio/issues/1398#issuecomment-1609518404).
+   
+5. **Q:** Atom feed doesn't work. Why?
    <br>
    **A:** Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`.
   RSS Feed plugin works with these correctly set up fields: `title`, `url`, `description` and `author`.
   Make sure to fill them in an appropriate way and try again.
 
-5. **Q:** My site doesn't work when I enable `related_blog_posts`. Why? <br>
+6. **Q:** My site doesn't work when I enable `related_blog_posts`. Why? <br>
    **A:** This is probably due to the [classifier reborn](https://github.com/jekyll/classifier-reborn) plugin, which is used to calculate
    related posts. If the error states `Liquid Exception: Zero vectors can not be normalized...`, it means that it could not calculate related
    posts for a specific post. This is usually caused by [empty or minimal blog posts](https://github.com/jekyll/classifier-reborn/issues/64)
