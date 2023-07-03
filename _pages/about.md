@@ -13,6 +13,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD student at the Machine Learning Department at Carnegie Mellon University, working on embodied AI and computer vision to make [mobile manipulators](https://hello-robot.com/product) useful alongside humans with [Prof. Katerina Fragkiadaki](https://www.cs.cmu.edu/~katef). Prior to joining CMU, I graduated from McGill University, Canada, with a B.Sc. in Computer Science & Mathematics, where I worked with Profs. [Doina Precup](https://www.cs.mcgill.ca/~dprecup/index.html) and [Joelle Pineau](https://www.cs.mcgill.ca/~jpineau). In 2020-2022, I took a leave from the PhD to build the ML team of an [early-stage data privacy startup](https://www.relyance.ai/).
+I am a PhD student at the Machine Learning Department at Carnegie Mellon University. 
+I work on computer vision and robotics to build useful robots in messy human environments (homes, hospitals) with [Prof. Katerina Fragkiadaki](https://www.cs.cmu.edu/~katef). 
 
-In my spare time, I enjoy good food and wine, nature and traveling, and lifting weights while listening to history/philosophy podcasts. Also, I grew up in Paris, and my English accent has long been stuck at a local optimum.
+Prior to joining CMU, I graduated from McGill University, Canada, with a B.Sc. in Computer Science & Mathematics, where I worked on reinforcement learning with Profs. [Doina Precup](https://www.cs.mcgill.ca/~dprecup/index.html) and [Joelle Pineau](https://www.cs.mcgill.ca/~jpineau). 
+During the first two years of my PhD, I worked on ML applications for education with Prof. [Tom Mitchell](http://www.cs.cmu.edu/~tom/). 
+In 2020-2022, I took a leave from the PhD to build the ML/NLP product/team of an [early-stage data privacy startup](https://www.relyance.ai/).
+
+In my spare time, I enjoy good food and wine, nature and traveling, and lifting weights while listening to history/philosophy podcasts. 
+Also, I grew up in Paris, and my English accent has long been stuck at a local optimum.
