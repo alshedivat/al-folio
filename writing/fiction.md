@@ -6,6 +6,8 @@ description: Short stories and such
 nav: false
 ---
 
+![](assets\img\fiction-cover.png)
+
 I enjoy writing highly experimental fiction somewhere between the psychedelic, the postmodern, and the philosophical. Sadly I am also unhealthily obsessed with the melancholy queer aesthetic (see "absolute recoil").
 
 - [Miniatures of a Life Lived Yesterday](files/miniatures.pdf){:target="_blank"}. Contemplative portraits
