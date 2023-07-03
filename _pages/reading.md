@@ -9,6 +9,7 @@ nav_order: 4
 
 2023
 
+* Stardust - Neil Gaiman
 * The Emissary - Yoko Tawada
 * Victoria - Daisy Goodwin 
 * The Bombay Prince - Sujata Massey
