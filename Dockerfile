@@ -17,7 +17,7 @@ RUN apt-get install imagemagick -y
 
 # install python3 and jupyter
 RUN apt-get install python3-pip -y
-RUN pip3 install --upgrade jupyter
+RUN python3 -m pip install jupyter --break-system-packages
 
 # clean everything
 RUN apt-get clean \
