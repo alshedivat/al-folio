@@ -45,7 +45,9 @@ I have written a few [essays](/writing/philosophy){:target="_blank"} in philosop
 
 Outside of academics, I enjoy listening to [lectures](https://www.youtube.com/watch?v=06KiOj6gjbs){:target="_blank"} by Slavoj Zizek (my favorite undead philosopher), playing piano, learning Russian and French, and thinking about swimming in the eternally incomplete UW pool. I'm always up for a chat, so feel free to reach out.
 
-![](\assets\img\ghost-portraits.png)
+<center>
+<img src="\assets\img\ghost-portraits.png" width="120%" />
+</center>
 
 <small>
   Composite image of The Disintegration of the Persistence of Memory (Dali), Edward Bellamy (GAN), Guernica (Picasso), still from Battleship Potemkin (Eisenstein), Relativity (Escher).

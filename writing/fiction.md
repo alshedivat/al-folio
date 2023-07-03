@@ -6,7 +6,7 @@ description: Short stories and such
 nav: false
 ---
 
-![](\assets\img\fiction-cover.png)
+<img src="\assets\img\fiction-cover.png" width="100%" />
 
 I enjoy writing highly experimental fiction somewhere between the psychedelic, the postmodern, and the philosophical. Sadly I am also unhealthily obsessed with the melancholy queer aesthetic (see "absolute recoil").
 
