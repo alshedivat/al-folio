@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Everyone needs a personal AI
+title: Why everyone needs (and wants!) a Personal AI life copilot
 date: 2023-06-25
-description: Theophile Gervet and Hermes Suen
+description: Theophile Gervet, Hermes Suen, and Minji Yoon
 categories: 
 giscus_comments: false
 related_posts: false
@@ -10,7 +10,7 @@ toc:
   sidebar: left
 ---
 
-## TLDR
+## Introduction
 
 "I should call my parents more." 
 How often have you said this to a friend or had a friend say this to you? 
