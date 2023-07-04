@@ -24,7 +24,7 @@ Our journey started in Nova Scotia at Oak Island Conference Center and will term
 #### Sites
     1. Acadia Research Forest
     2. A spruce trail in northern New Brunswick (perfect time to practice french!)
-    3.Drought Exclusion in New Brunswick
+    3. Drought Exclusion in New Brunswick
     4. Commercial Thining in Nipigon, Ontario 
     5. Spruce-Pine planting in interio British Columbia
 
@@ -36,7 +36,7 @@ I am writing this blog post four days into our trip with two very full days of f
 TransX is a common garden experiment for common East Coast tree species. A common garden experiment places plants with parents of different geographic origins in the same common growing experiment. In TransX – a Sugar Maple (Acer Saccarum) whose parent trees are from Virginia might be planted right next to a Sugar Maple whose parent trees are from southern New Brunswick. One goal of TransX is to test the hypothesis if a tree from warmer climates will grow better in warmer conditions by planting trees from a colder climate in the same growing conditions and comparing the two. 
 
 ## New Hyperspectral Technology 
-At our second site we met up with Olivier Van Lier and Funda Ogut from Natural Resources Canada. This project recently acquired a novel hyperspectral drone made by headwall <a href= "https://velodynelidar.com/automated-with-velodyne/headwall/"> headwall-hyperspectral </a>. What does hyperspectral mean? Great question! Surfaces – any type of surface – reflects electromagnetic waves that wavelength (or the length of wave) across a range referred to as the ‘electromagnetic spectrum’ or EMS for short. We see in the visible part of the EMS. Hyperspectral sees across the EMS spectrum and captures more unique colors than our eyes. This type of technology is extremely useful for seeing small differences in tree health. Here is a link to a paper that talks more: <a href="https://link.springer.com/article/10.1007/s40725-019-00096-1"> <Paper-Link </a>
+At our second site we met up with Olivier Van Lier and Funda Ogut from Natural Resources Canada. This project recently acquired a novel hyperspectral drone made by headwall <a href= "https://velodynelidar.com/automated-with-velodyne/headwall/"> headwall-hyperspectral </a>. What does hyperspectral mean? Great question! Surfaces – any type of surface – reflects electromagnetic waves that wavelength (or the length of wave) across a range referred to as the ‘electromagnetic spectrum’ or EMS for short. We see in the visible part of the EMS. Hyperspectral sees across the EMS spectrum and captures more unique colors than our eyes. This type of technology is extremely useful for seeing small differences in tree health. Here is a link to a paper that talks more: <a href="https://link.springer.com/article/10.1007/s40725-019-00096-1"> Paper-Link </a>
 We flew Lidar of the site and then spent some time trying to get the second drone up and running – but the calibration for hyperspectral imaging is INTENSE! 
 While we did not stay around to see the hyperspectral drone (field work and weather called us away) – I did get the opportunity to fly my heaviest drone yet (a whole 6 pounds!). See a picture of the two drones below. 
 
