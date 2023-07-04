@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why everyone needs (and wants!) a Personal AI life copilot
+title: Why everyone needs (and wants!) a personal AI life copilot
 date: 2023-06-25
 description: Theophile Gervet, Hermes Suen, and Minji Yoon
 categories: 
@@ -25,8 +25,8 @@ Your dad, reluctant to impose on your busy life, had been reticent to reach out.
 But his AI sensed his need for company and convinced him to contact your AI. 
 Together your AIs found an open slot and a perfect activity, opening an unexpected chance for quality time with your dad.
 
-In this example, AI is personalized to you — your priorities (family), your interests (hiking), and your circumstances (work schedule) — helping you spend your finite life on what matters most to you. 
-This Personal AI has the potential to enable human flourishing by helping us **learn, imagine, and build as a personal teacher and co-creator, understand ourselves and connect with each other as a personal therapist, and design our lives as a personal coach**. 
+In this example, AI has been personalized to you — your priorities (family), your interests (hiking), and your circumstances (work schedule) — helping you spend your finite life on what matters most to you. 
+This Personal AI has the potential to enable human flourishing by helping us **learn, imagine, and build as a personal teacher and co-creator, understand ourselves and connect with each other as a personal therapist and a friend, and design our lives as a personal coach**. 
 This vision is much closer than we imagine, with technological leaps like OpenAI's GPT-4 rapidly pushing us toward a future where Personal AI is as integral to our daily lives as smartphones.
 
 Yet, like the invention of the personal computer and the Internet, Personal AI may seem far-fetched. 
@@ -36,9 +36,8 @@ Personal AI can go far beyond that, and we hope to paint a picture of how and wh
 
 ## People leverage the breakthrough in large language models mostly as a productivity assistant
 
-The **deep learning revolution** has been underway since the ImageNet moment of 2012, catalyzed by the convergence of technology waves: training data sourced from the Internet and mobile platforms and computational power facilitated by cloud services. 
-But it's the advent of **large language models (LLMs)** that sets the stage for the potential development of Personal AI in the next decade. 
-The possibilities unlocked by scaling language models were first demonstrated by OpenAI with GPT-3 in 2020 but only recognized by most of the world with the release of ChatGPT in November 2022 and taken to truly astounding levels with GPT-4 in March 2023.
+**A revolution is happening**: tens of millions of people have started using ChatGPT since its release in November 2022, Sam Altman is touring the world like a rockstar. 
+Ten years into the deep learning revolution started with the ImageNet moment of 2012 — catalyzed by the convergence of technology waves: training data sourced from the Internet and mobile platforms and computational power facilitated by cloud services — the advent of **large language models (LLMs)** sets the stage for the potential development of Personal AI in the next decade. 
 
 Today, people already use ChatGPT and other tools built on top of LLMs to access information, write, and solve simple problems **faster**. 
 Naturally, the **most commonly discussed next step is to enable LLMs to take actions as an executive assistant** (schedule meetings, book flights), taking them **further in the direction of productivity**. 
@@ -67,7 +66,7 @@ Large language models like GPT-4 are trained on a vast corpus of Internet-source
 The amount of context and understanding they have can enable us to **draw connections and obtain insights that were simply not possible before**. 
 The famous mathematician [Terence Tao](https://terrytao.wordpress.com/about/ai-generated-versions-of-the-ai-anthology-article/) expects that *“by 2026, AI will be a trustworthy co-author in mathematical research, and in many other fields as well”.*
 
-Others, like Mustafa Suleyman and Reid Hoffman from [Inflection](https://inflection.ai/), propose to take AI beyond productivity in another direction by **giving everyone a Personal Intelligence** ([Pi](https://heypi.com/talk?utm_source=inflection.ai)) that is always here as a **supportive friend to listen, empathize, and guide in the journey toward flourishing as a human being**. In this blog, we explore this vision.
+Others, like Mustafa Suleyman and Reid Hoffman from [Inflection](https://inflection.ai/) or Noam Shazeer from [Character.ai](https://beta.character.ai/), propose to take AI beyond productivity in another direction by **giving everyone a Personal AI** that is always here as a **supportive friend to listen, empathize, and guide in the journey toward flourishing as a human being**. In this blog, we explore this vision.
 
 ## Personal AI can enable human flourishing
 
@@ -132,12 +131,13 @@ Serving as a **life coach**, it could help you cultivate **self-esteem** and ide
 As a **teacher and co-creator**, it can foster **exploration**. 
 As a **therapist**, it could guide you to connect better with others, thus addressing your needs for **connection and love** in a new, transformative way.
 
-| **AI Role**                                                                                                                                                                                                                                        | **Human needs**          | **Examples**                                                                                                                                    |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Life coach:** Help you introspect to design a personal philosophy (beliefs, principles, purpose, priorities), help you design and execute on goals and habits aligned with your priorities, inspire and motivate you to grow into your best self | **Self-esteem, purpose** | [Pi](https://heypi.com/talk?utm_source=inflection.ai) is an early proof of concept                                                              |
-| **Teacher:** Help you acquire the skills and knowledge you need effectively, patiently encourage your curiosity                                                                                                                                    | **Exploration**          | [Khan Academy](https://www.youtube.com/watch?v=hJP5GqnTrNo) is building a proof of concept for children with GPT-4, what about for everyone else? |
-| **Co-creator:** Help you brainstorm to imagine and build solutions that bring your goals to reality, help you connect the dots, broaden your perspective, play the devil’s advocate                                                                | **Exploration, purpose** | [ChatGPT](https://chat.openai.com/) is scratching the surface with GPT-4                                                                         |
-| **Therapist:** Provide a safe space to help you feel and express emotions, empathize with you and comfort you, challenge your negative beliefs, teach you emotional intelligence and help you empathize with others                                | **Connection, love**     | [Pi](https://heypi.com/talk?utm_source=inflection.ai) is an early proof of concept                                                               |
+| **AI Role**                                                                                                                                                                                                                                       | **Human needs**                      | **Examples**                                                                                                                                    |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Life coach:** Help you introspect to design a personal philosophy (beliefs, principles, purpose, priorities), help you design and execute on goals and habits aligned with your priorities, inspire and motivate you to grow into your best self | **Self-esteem, purpose**             | [Pi](https://heypi.com/talk?utm_source=inflection.ai) is an early proof of concept                                                              |
+| **Teacher:** Help you acquire the skills and knowledge you need effectively, patiently encourage your curiosity                                                                                                                                   | **Exploration**                      | [Khan Academy](https://www.youtube.com/watch?v=hJP5GqnTrNo) is building a proof of concept for children with GPT-4, what about for everyone else? |
+| **Co-creator:** Help you brainstorm to imagine and build solutions that bring your goals to reality, help you connect the dots, broaden your perspective, play the devil’s advocate                                                               | **Exploration, purpose**             | [ChatGPT](https://chat.openai.com/) is scratching the surface with GPT-4                                                                         |
+| **Therapist:** Provide a safe space to help you feel and express emotions, empathize with you and comfort you, challenge your negative beliefs, teach you emotional intelligence and help you empathize with others                               | **Connection, love**                 | [Pi](https://heypi.com/talk?utm_source=inflection.ai) is an early proof of concept                                                               |
+| **Friend:** An AI friend is part life coach, part therapist, but it can also be a source of entertainment and fun and a companion in loneliness                                                                                                   | **Connection, self-esteem, purpose** | [Character.ai](https://beta.character.ai/), <br>[Replika.ai](https://replika.ai/), <br>[Pi](https://heypi.com/talk?utm_source=inflection.ai) are early proofs of concept |
 
 <br>
 Why do recent advances in large language models enable software to take on these new roles? **Mastering language**, for computers, is **particularly relevant to the idea of Personal AI** for two reasons: 
