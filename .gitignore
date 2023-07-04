@@ -6,7 +6,7 @@ _site
 .DS_store
 .ruby-version
 .tweet-cache
-_posts/
+#_posts/
 _news/
 _pages/dropdown.md
 #_blog/
