@@ -8,6 +8,8 @@ nav: false
 
 ---
 
+<img src="\assets\img\philosophy.png" width="100%" />
+
 ### Published
 
 <br>
