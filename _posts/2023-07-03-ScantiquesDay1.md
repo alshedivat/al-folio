@@ -22,13 +22,13 @@ There is a huge advantage of Lidar data for forest structure. In fact, when I qu
 
 Our journey started in Nova Scotia at Oak Island Conference Center and will terminate in Vancouver, BC. Here is a list of the sites we will visit on our way back home. 
 #### Sites
-<ul>
-    <li>Acadia Research Forest</li>
-    <li>A spruce trail in northern New Brunswick (perfect time to practice french!)</li>
-    <li>Drough Exclusion in New Brunswick</li>
-    <li>Commercial Thining in Nipigon, Ontario</li>
-    <li> Spruce-Pine planting in interio British Columbia <li>
-</ul>
+    1. Acadia Research Forest
+    2. A spruce trail in northern New Brunswick (perfect time to practice french!)
+    3.Drought Exclusion in New Brunswick
+    4. Commercial Thining in Nipigon, Ontario 
+    5. Spruce-Pine planting in interio British Columbia
+
+## Where are we now? 
 
 I am writing this blog post four days into our trip with two very full days of flying under our belt. We spent Canada Day (Saturday) in Acadia Research Forest flying two different sites: (1) a flight in a cut block pre-planting of 10 different tree species of all different geographic origins (a project called TransX) and (2) a site of older red-spruce of mixed genetic origins. In this post, I am going to highlight the first site TransX and the new technology we helped deploy at the second site. In these blogs, I am going to keep a list important scientific topics with links to learn more. Check out the list at the base of this blog for more information. 
 
