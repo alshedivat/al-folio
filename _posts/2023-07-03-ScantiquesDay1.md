@@ -6,7 +6,7 @@ description: Scantiques Roadshow in Acadia Research Forest
 tags: drones, common-garden, hyperspectral
 categories: scantiques
 ---
-# Bienvenue Sur la Grande Journée / Welcome to the Big Trip! 
+# Bienvenue Sur la Grande Voyage / Welcome to the Big Trip! 
 Join me on my coast-to-coast journey as part of the Silva21 (my PhD project’s parent grant) ‘Scan-tiques’ road tour. So-called ‘Scan-Tiques’ as we are conducting 3D laser scans using **Lidar** in many different forests along our way home to Vancouver. These 3D scans show the tree structure and the topography. You can see an example of this in GIF below: 
 <iframe src="https://giphy.com/embed/r4II1ThDbD4ZgLEq3E" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/r4II1ThDbD4ZgLEq3E">Scantiques in Action!</a></p>
 
