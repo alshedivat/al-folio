@@ -1,6 +1,6 @@
 ---
 layout: post
-title: a post with redirect
+title: a post with
 date: 2022-02-01 17:39:00
 description: you can also redirect to assets like pdf
 ---
