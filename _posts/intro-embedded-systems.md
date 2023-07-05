@@ -4,7 +4,7 @@ title: A Beginners Guide to Embedded Systems
 date: 2023-07-05 11:12:00-0400
 description: an introduction to embedded systems
 tags: embedded
-categories: embedded programming
+categories: sample-posts external-services
 ---
 Embedded systems are an integral part of various technological advancements, including smart devices, wearables, autonomous vehicles, and industrial automation. As the popularity of these systems continues to grow, many students have expressed their interest in learning embedded systems. In response to these inquiries, I have written this blog post to provide a beginner's guide for learning embedded systems.
 
