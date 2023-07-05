@@ -1,8 +1,8 @@
 ---
 layout: post
-title: A Beginner's Guide to Embedded Systems
-date: 2023-07-09 11:12:00-0400
-description: an example of a blog post with twitter
+title: a beginner guide to embedded systems
+date: 2023-07-05 11:12:00-0400
+description: introduction to embedded systems
 tags: formatting
 categories: sample-posts external-services
 ---
