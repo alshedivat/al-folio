@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A Beginners Guide to Embedded Systems
-date: 2023-07-05 11:12:00-0400
+title: a post with twitter
+date: 2020-09-28 11:12:00-0400
 description: an introduction to embedded systems
 tags: formatting
 categories: sample-posts external-services
