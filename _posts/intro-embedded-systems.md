@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Beginner's Guide to Embedded Systems
+title: A Beginners Guide to Embedded Systems
 date: 2023-07-05 11:12:00-0400
 description: an introduction to embedded systems
 tags: embedded
