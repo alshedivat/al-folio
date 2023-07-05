@@ -1,8 +1,8 @@
 ---
 layout: post
-title: a beginner guide to embedded systems
+title: a beginner guide
 date: 2023-07-05 11:12:00-0400
-description: introduction to embedded systems
+description: introduction
 tags: formatting
 categories: sample-posts external-services
 ---
