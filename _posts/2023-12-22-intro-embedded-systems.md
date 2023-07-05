@@ -1,7 +1,7 @@
 ---
 layout: post
 title: a post with twitter
-date: 2023-07-05 11:12:00-0400
+date: 2020-07-05 11:12:00-0400
 description: an example of a blog post with twitter
 tags: formatting
 categories: sample-posts external-services
