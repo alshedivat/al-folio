@@ -1,10 +1,8 @@
 ---
 layout: post
-title: a post with twitter
-date: 2023-07-05 11:12:00-0400
-description: an example of a blog post with twitter
-tags: formatting
-categories: sample-posts external-services
+title: a post with redirect
+date: 2022-02-01 17:39:00
+description: you can also redirect to assets like pdf
 ---
 Embedded systems are an integral part of various technological advancements, including smart devices, wearables, autonomous vehicles, and industrial automation. As the popularity of these systems continues to grow, many students have expressed their interest in learning embedded systems. In response to these inquiries, I have written this blog post to provide a beginner's guide for learning embedded systems.
 
