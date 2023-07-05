@@ -2,7 +2,7 @@
 layout: post
 title: a post with twitter
 date: 2020-09-28 11:12:00-0400
-description: an introduction to embedded systems
+description: an example of a blog post with twitter
 tags: formatting
 categories: sample-posts external-services
 ---
