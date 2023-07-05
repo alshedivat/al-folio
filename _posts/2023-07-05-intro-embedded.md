@@ -1,8 +1,8 @@
 ---
 layout: post
-title: a post with
+title: A Beginner's Guide to Mastering Embedded Systems
 date: 2023-07-03 17:39:00
-description: you can also redirect to assets like pdf
+description: introduction to embedded systems
 ---
 Embedded systems are an integral part of various technological advancements, including smart devices, wearables, autonomous vehicles, and industrial automation. As the popularity of these systems continues to grow, many students have expressed their interest in learning embedded systems. In response to these inquiries, I have written this blog post to provide a beginner's guide for learning embedded systems.
 
