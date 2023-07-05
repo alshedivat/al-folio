@@ -1,8 +1,8 @@
 ---
 layout: post
-title: a beginner guide
+title: a post with twitter
 date: 2023-07-05 11:12:00-0400
-description: introduction
+description: an example of a blog post with twitter
 tags: formatting
 categories: sample-posts external-services
 ---
