@@ -25,9 +25,24 @@ let setTheme = (theme) => {
         tables[i].classList.remove("table-dark");
       }
     }
+
+    // Set jupyter notebooks themes.
+    let jupyterNotebooks = document.getElementsByClassName("jupyter-notebook-iframe-container");
+    for (let i = 0; i < jupyterNotebooks.length; i++) {
+      let bodyElement = jupyterNotebooks[i].getElementsByTagName("iframe")[0].contentWindow.document.body;
+      if (theme == "dark") {
+        bodyElement.setAttribute("data-jp-theme-light", "false");
+        bodyElement.setAttribute("data-jp-theme-name", "JupyterLab Dark");
+      } else {
+        bodyElement.setAttribute("data-jp-theme-light", "true");
+        bodyElement.setAttribute("data-jp-theme-name", "JupyterLab Light");
+      }
+    }
+
   } else {
     document.documentElement.removeAttribute("data-theme");
   }
+
   localStorage.setItem("theme", theme);
 
   // Updates the background of medium-zoom overlay.
