@@ -39,3 +39,5 @@ The plugin takes as input the path to the notebook, but it assumes the file exis
     <p>Sorry, the notebook you are looking for does not exist.</p>
 {% endif %}
 {:/nomarkdown}
+
+Note that the jupyter notebook supports both light and dark themes.
