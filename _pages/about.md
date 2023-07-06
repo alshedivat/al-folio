@@ -8,7 +8,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   address: >
-    <p>F011 Model Factory,</p>
+    <p>F09 Model Factory,</p>
     <p>Abdullah Gul University</p>
     <p>Kayseri / Turkey</p>
 
