@@ -32,6 +32,7 @@ The site itself is small, and I knew it would take less than 30 minutes to fly. 
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/blackbrook_exp.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
 <div class="caption">
     The network of PVC and timber that makes up the droughting experiment. 
 </div>
@@ -46,6 +47,7 @@ I have just spent the first part of this blog post discussing an droughting expe
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Picaroons_beers.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
 <div class="caption">
     A beer flight at Picaroons in Fredricton! 
 </div>
