@@ -5,7 +5,7 @@ permalink: /
 subtitle: PhD. Geodynamics, Source-to-sink
 
 profile:
-  align: right
+  align: left
   image: photo-profil-quali.jpg
   image_circular: true # crops the image to make it circular
   address: >
