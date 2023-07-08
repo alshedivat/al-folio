@@ -2,96 +2,69 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Deepthi Appam
     - name: Date of Birth
-      value: 14th March 1879
+      value: 10th December
     - name: Languages
-      value: English, German
+      value: English, Hindi, Telugu
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Dual Degree(B.Tech + Integrated M.Tech) in Industrial Systems Eng. & Management
+      institution: Indian Institute of Technology, Kharagpur
+      year: 2015 - 2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - General Secretary(Mess), SN/IG Hall of Residence
+        - Secretary, Social and Cultural Activities, SN/IG Hall of Residence
+        - TCA Member
+    - title: Intermediate Public Examination
+      institution: Narayana Junior College, Hyderabad
+      year: 2013 - 2015
       description:
-        - Description 1.
-        - Description 2.
+        - 98%, Maths, Physics, Chemistry
+    - title: Secondary School Examination [CBSE]
+      institution: Chaitanya Central School, Mahabubnagar
+      year: 2013
+      description:
+        - CGPA - 9.4/10
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Development Engineer @Healofy
+      institution: Healofy(Vivioz Technologies Pvt Ltd.), Bangalore, India
+      year: May 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Worked on the Home Screen revamp of the Healofy application, leading to increased user engagement and an improved overall experience.
+        - Implemented multi-language product review support in the product detail screen, resulting in improved accessibility and usability for users from different regions.
+        - Developed a global search functionality within the app, allowing users to quickly and easily find the content they need, increasing user satisfaction and accessibility
+        - Improved login experience using mobile number auto-read OTP, improving user adoption and reducing friction during sign-up.
+        - Enhanced the recent product widget by introducing new features like repeat buying, personalized user flows, custom notifications and more resulting in improved user retention and engagement.
+    - title: Software Development Engineer
+      institution: Ola Electric Mobility, Bangalore, India
+      year: Aug 2020- Mar 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Worked on building android applications namely Companion, Pre-Booking, O-KYC verification.
+        - Developed End-to-End User and Vehicle features with multiple features supporting User Profile handling & updating, controlling Scooter settings, Order handling, User authentication with OTP etc.
+        - Several API integrations and RESTful data consumption using Retrofit with an OkHttp client and a custom interceptor supporting vehicle functionality managing the Data layer and Domain layer of the applications.
+        - Integrated Unit Testing with Mockito for Domain layer, Shared Preferences to improve application performance.
+        - Worked on Shared Prefs &DataLeak prevention using LeakCanary which improved app performance.
+        - Architecting the application with MVVM and clean architecture. Error Handling & Analytic System of the application. Supported application with critical bug fixes.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Data Analyst Intern
+      institution: TMIe2eAcademyPvt.Ltd.India, Hyderabad, India
+      year: 2019
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
+    - title: Data Analyst Intern
+      institution: LatentView Analytics, Chennai, India
+      year: 2018
+- title: Skills & Expertise
+  type: list
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - Android Architecture Components, Kotlin, Koin, Coroutines, REST and JSON, MVVM, Android, Git, Data Structures, Algorithms, C, C++, Python, R, Excel, MATLAB, SAS Studio, ARENA, Solid Works, HTML
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Gardening, Aquarium, Pet Care, Gaming.
