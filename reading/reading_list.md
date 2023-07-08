@@ -10,6 +10,10 @@ Skip to a section: [AI](#ai), [Philosophy](#philosophy), [Film](#film), [Fiction
 
 ---
 
+<img src="files\imgs\reading_info.png" width="100%" />
+
+---
+
 ### AI
 A collection of hand-picked interesting AI papers.
 
