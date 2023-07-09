@@ -10,7 +10,7 @@ Skip to a section: [AI](#ai), [Philosophy](#philosophy), [Film](#film), [Fiction
 
 ---
 
-<img src="files\imgs\reading_info.png" width="100%" />
+<img src="\assets\img\reading_info.png" width="100%" />
 
 ---
 
@@ -72,11 +72,15 @@ Meta
 ---
 
 ### Philosophy
+
+Articles
+- ["The Revolt of the Salaried Bourgeoisie"](https://www.lrb.co.uk/the-paper/v34/n02/slavoj-zizek/the-revolt-of-the-salaried-bourgeoisie){:target="_blank"}, Slavoj Žižek -- an important update to Marxist analysis for the 21st century economy, especially for tech workers
+- ["Philosophy: Who Needs It?"](https://www.stephenhicks.org/wp-content/uploads/2018/12/Philosophy-Who-Needs-It-text.pdf){:target="_blank"}, Ayn Rand -- a rhetorically effective and accessible explanation for why philosophy is more important than ever, which I recommend to anyone who is skeptical of or new to philosophy
+
+Books
 - *The Poverty of Ethics*, Anat Amar -- a brilliant synthesis of analytic ethics and Continental discontent.
 - *Queer Phenomenology*, Sara Ahmed -- a phenomenological account of queer bodies and spaces which leads us towards a socially-aware phenomenology of phenomenology
 - *Sex and the Failed Absolute*, Slavoj Zizek -- an ingenious and culturally aware synthesis of psycholanalysis and Hegel, through a triadic topological analogy
-- ["The Revolt of the Salaried Bourgeoisie"](https://www.lrb.co.uk/the-paper/v34/n02/slavoj-zizek/the-revolt-of-the-salaried-bourgeoisie){:target="_blank"}, Slavoj Žižek -- an important update to Marxist analysis for the 21st century economy, especially for tech workers
-- ["Philosophy: Who Needs It?"](https://www.stephenhicks.org/wp-content/uploads/2018/12/Philosophy-Who-Needs-It-text.pdf){:target="_blank"}, Ayn Rand -- a rhetorically effective and accessible explanation for why philosophy is more important than ever, which I recommend to anyone who is skeptical of or new to philosophy
 - *Being and Nothingness*, Jean-Paul Sartre -- the classic existentialist text; a wonderful medium for self-reflection and meditation
 
 ---
