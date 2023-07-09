@@ -11,6 +11,13 @@ nav: false
 [Barnes & Noble](https://www.barnesandnoble.com/w/modern-deep-learning-design-and-application-development-andre-ye/1139992754){: .btn :target="_blank"} 
 [Amazon](https://www.amazon.com/Modern-Learning-Design-Application-Development/dp/1484274121){: .btn :target="_blank"} 
 
+---
+
+<img src="files\imgs\mdlda.png" width="100%" />
+
+<small>Left: book cover, featuring mutant houseplant gone wild. Right: Little Mishi is reading about meta-optimization while comfortably nested in bed.</small>
+
+---
 
 <details open markdown="block">
   <summary>
