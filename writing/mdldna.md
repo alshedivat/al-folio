@@ -13,7 +13,7 @@ nav: false
 
 ---
 
-<img src="files\imgs\mdlda.png" width="100%" />
+<img src="\assets\img\mdlda.png" width="100%" />
 
 <small>Left: book cover, featuring mutant houseplant gone wild. Right: Little Mishi is reading about meta-optimization while comfortably nested in bed.</small>
 

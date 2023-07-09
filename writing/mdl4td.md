@@ -20,7 +20,7 @@ Amazon Top Rankings
 
 ---
 
-<img src="files\imgs\mdl4td.png" width="100%" />
+<img src="\assets\img\mdl4td.png" width="100%" />
 
 <small>Left: book cover. Right: Little Mishi is engrossed in how t-SNE can be used to visualize the latent spaces of autoencoders.</small>
 
