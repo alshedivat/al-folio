@@ -12,7 +12,7 @@ nav_order: 20
 A weekly meeting for anyone who wants to learn about and apply Data Science for real-world problem settings in a casual environment!
 
 <div style="background-color:orange; color: black; padding: 1em">
-    <strong>Next meeting</strong>: Monday, 26.06.2023, <strong>19:00 Uhr</strong> (notice the changed time (again)!), Konrad-Zuse-Haus, Room 116 (please watch for room changes). <strong>Bring your laptops!</strong>
+    <strong>Next meeting</strong>: Monday, 10.07.2023, <strong>19:00 Uhr</strong> (notice the changed time (again)!), Konrad-Zuse-Haus, Room 116 (please watch for room changes). <strong>Bring your laptops!</strong>
     <!-- Please <a href="https://docs.google.com/spreadsheets/d/1i1aAxqRePweL5u9WSeNviFABVuuRtfjJQK6wxaefHoA/edit?usp=sharing"><b>sign up here</b></a>, so I can plan a little. -->
 </div>
 
@@ -33,7 +33,8 @@ A weekly meeting for anyone who wants to learn about and apply Data Science for 
 - [Kaggle](https://www.kaggle.com/)
 
 ## History
-
+- **30th meeting**: Monday, 03.07.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Training first contrail model.
+- **29th meeting**: Monday, 26.06.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Debugging the contrail models.
 - **28th meeting**: Monday, 19.06.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Debugging the contrail models, trying out pytorch.
 - **27th meeting**: Monday, 12.06.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. We have decided to try the contrail segmentation challenge. Developing first models and dataloader, trying pytorch for the first time.
 - **26th meeting**: Monday, 05.06.2023, 18:00 Uhr, Konrad-Zuse-Haus, Room 116. Choosing a new competition. Our favorites are either sign language classification or contrail segmentation.
