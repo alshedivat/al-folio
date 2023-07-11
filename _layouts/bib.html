@@ -2,12 +2,12 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-3 {% if entry.preview %}preview{% else %}abbr{% endif %}">
+        <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          <img class="preview z-depth-3 rounded" src="{{ entry.preview }}">
           {%- else -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
+          <img class="preview z-depth-3 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
           {%- endif -%}
         {%- elsif entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%}
