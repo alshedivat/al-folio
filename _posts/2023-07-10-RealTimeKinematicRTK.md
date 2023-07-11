@@ -17,12 +17,12 @@ The first thing to know is that the moniker "GPS" or Global Positioning System i
 4. GALILEO; a European Union satellite system available since 2016
 5. GLONASS; Russian GNSS system with global coverage since 2011
 
-For our phones to give us our 3D location, they use a technique called* **trilateration**.**Trilateration** is frequently confused with triangulation. Both of these processes uses overlap, but trilateration uses overlap of ranges, or distances between a satellite and a reciever, to get either a 2D or 3D location. Triangulation uses overlap of angles on lines. You can see an outline of trilateration below. Any GPS receiver uses this process, your phone, your car, even airplanes! Yet, our phones gives us accuracies in the meter (5 + meter) or multimeter (10 + meters) accuracy when our research interested in sub-meter accuracy. For example, what is the precise position of a tree impacted by root rot (tune into for Madi's guest blog post on this soon!). These accuracy levels are determined by satellite coverage, atmospheric interference, and direct control from the US government. To increase accuracy level of our data we use a process called **real time kinematic** or RTK. 
+For our phones to give us our 3D location, they use a technique called **trilateration**.Trilateration is frequently confused with triangulation. Both of these processes uses overlap, but trilateration uses overlap of ranges, or distances between a satellite and a reciever, to get either a 2D or 3D location. Triangulation uses overlap of angles on lines. You can see an outline of trilateration below. Any GPS receiver uses this process, your phone, your car, even airplanes! Yet, our phones gives us accuracies in the meter (5 + meter) or multimeter (10 + meters) accuracy when our research interested in sub-meter accuracy. For example, what is the precise position of a tree impacted by root rot (tune into for Madi's guest blog post on this soon!). These accuracy levels are determined by satellite coverage, atmospheric interference, and direct control from the US government. To increase accuracy level of our data we use a process called **real time kinematic** or RTK. 
 
 </div>
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Satellite_Outline.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Satelite_Outline.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -60,3 +60,12 @@ I hope that this post has started to unravel the complex world of GNSS positioni
 * **Post-Processing Kinematic** : A similiar combination of a GNSS base station and a rover that collect data from satellites simultanously, but are not actively transmitting data to eachother. The base station has a known location that is used to adjust errors in the rover after data collection. 
 * **code phase**: The unique time signal sent out by a satellite and aligned by a GPS reciever to give the distance between the satellite and the receiver. 
 * **carrier phase**: A higher frequency signal sent out by a satellite that helps pinpoint location more precisely. 
+
+## Resources
+If your are curious to learn more here are some the resources I consulted to write this blog: 
+*<a href= "https://letstalkscience.ca/educational-resources/backgrounders/math-behind-gps"> The math behind GPS </a>.
+*<a href= "https://www.jouav.com/blog/rtk-drone.html"> Jouav: how an RTK drone works </a>.
+*<a href= "https://www.hammermissions.com/post/how-to-achieve-highly-accurate-flights-with-the-dji-m300-rtk"> Hammer missions processing with an RTK drone </a>.
+
+
+
