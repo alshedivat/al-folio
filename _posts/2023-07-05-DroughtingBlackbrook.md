@@ -2,7 +2,6 @@
 title: "Droughting experiments in New Brunswick"
 layout: post
 date: "2023-07-05 17:43:00"
-output: word_document
 tags: "drone, field-work, scantiques"
 categories: scantiques
 description: It's rare for me to fly a proper experiment!
