@@ -8,12 +8,23 @@ description: It's rare for me to fly a proper experiment!
 ---
 # My drone journey; how I became a foreign pilot
 
-We are going to take a brief break from talking about our research sites we are visiting along the way to discuss some of the logistics that come with this. Introducing my co-writer Leanna, another fellow PhD student that just completed some drone field work on Vancouver Island. She also just had her first Phd paper published (congrats!). Check out her work here: 
+We are going to take a brief break from talking about the research sites we are visiting on our journey  to discuss some of the logistics that come with drone research.ui Introducing my co-writer Leanna, another fellow PhD student that just completed some drone field work on Vancouver Island.
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Leanna_Drone.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Leanna Stackhouse out in the field flying our dearest drone - Loretta! 
+</div>
+
+ She also just had her first Phd paper published (congrats!). Check out her work here: 
     Stackhouse, L., Coops, N.C., White, J.C., Davis, D.J, (2023) Characterizing riparian vegetation and classifying riparian extent using airborne laser scanning data.~Ecological Indicators~. 152. DOI: https://doi.org/10.1016/j.ecolind.2023.110366
 
-We are both UBC graduate student from the United States. I have flown drones since 2020 for both my Master's and PhD research. Leanna started working with drones in 2023. We both had fairly similar yet ultimately different experiences applying for our SFOC's as drone legislation is constantly changing. This post discusses the most application process to be able to foreignors fly drones in Canada. Note: we are not a legal advisors, and only describe the process to make it easier for other graduate students to fly drones for their own data collection processes. 
+We are both UBC graduate students from the United States. I (Sarah) have flown drones since 2020 for both my Master's and PhD research. Leanna started working with drones in 2023. We both had fairly similar yet ultimately different experiences applying for our SFOC's as drone legislation is constantly changing. This post discusses the most recent application process for a foreignors to be able to fly drones in Canada. Note: we are not a legal advisors, and only describe the process to make it easier for other graduate students to fly drones for their own data collection processes. 
 
-The ability to fly as a foreign pilot is bequeathed by a Special Flight Operations Certificate (SFOC) issued by Transport Canada after a long application process. With this certificate, we fly in unregulated (class G) airspace until the end of the year. Any foreign pilot must have an SFOC to fly a drone in Canada (for any purpose too!). This post does discuss the process of applying for advanced operations as our forest research sites are generally very remote. 
+Foreign pilots must apply for a Special Flight Operations Certificate (SFOC) issued by Transport Canada. With this certificate, Leanna and I can fly in unregulated (class G) airspace until the end of the year. Any foreign pilot must have an SFOC to fly a drone in Canada (for any purpose too!). This post does discuss the process of applying for advanced operations as our forest research sites are generally very remote. 
 
 Before applying for an SFOC there are several steps you must take prior: 
 1. A drone pilot certificate. If you are flying in unregulated airspace you need to pass the **basic operations** drone exam and include this is in your application.
@@ -25,16 +36,15 @@ Before applying for an SFOC there are several steps you must take prior:
 5. Description of the drone operation including: 
     * Purpose
     * Dates 
-6. A safety plan for the proposed operation. You can see a copy of my safety plan at the base of this list. 
+6. A safety plan for the proposed operation. If you are interested in copy of my safety plan shoot me an email (ssmithtr@wellesley.edu) 
     * The safety plan must include a contingency plan for the operation including emergency operations 
         * Describe all equipment and personel to respond to emergencies (This is why I always carry kitty litter!)
         * Describe all communication protocols 
-7. An operation plan. Our safety and operation plans are combined on a google form. You see the combined plans at the base of this list. 
+7. An operation plan. Our safety and operation plans are combined on a google form. Our safety and operation plans are generally combined. These safety plans must include: 
     * A description of operation including the order of events and objectives 
     * A site-survey with a clear depiction of the area, with boundaries expected altitudes, and hazards. 
     * An adequate risk assessment. 
 8. Names, certificates, licenses, permits and qualifications of the crew members. This includes both the pilot and visual observers. 
-[Download SOP Form](assets/pdf/SOP_Form.pdf)
 
 This all sounds like a lot - but once you get these all compiled you can fill out the necessary documentation. These documents include the following forms: 
 1. Application form 
@@ -53,5 +63,3 @@ Here is a great visualization of this whole process.
 </div>
  
 We hope this blog-post is a helpful resource for those that are interested in become foriegn pilots - we love our drones because they give us so much great data!
-
-
