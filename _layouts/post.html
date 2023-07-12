@@ -51,6 +51,14 @@ layout: default
     </div>
   </article>
 
+  {%- if page.related_publications != null and page.related_publications.size > 0 -%}
+  {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
+  <h2>References</h2>
+  <div class="publications">
+    {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
+  </div>
+  {%- endif %}
+
   {%- if site.related_blog_posts.enabled -%}
     {%- if page.related_posts == null or page.related_posts -%}
       {% include related_posts.html %}
