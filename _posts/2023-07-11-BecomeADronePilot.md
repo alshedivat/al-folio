@@ -34,7 +34,7 @@ Before applying for an SFOC there are several steps you must take prior:
     * A site-survey with a clear depiction of the area, with boundaries expected altitudes, and hazards. 
     * An adequate risk assessment. 
 8. Names, certificates, licenses, permits and qualifications of the crew members. This includes both the pilot and visual observers. 
-<embed src="assets/pdf/SOP_Form.pdf" width="500" height="375" type="application/pdf">
+[Download SOP Form](assets/pdf/SOP_Form.pdf)
 
 This all sounds like a lot - but once you get these all compiled you can fill out the necessary documentation. These documents include the following forms: 
 1. Application form 
@@ -45,7 +45,7 @@ Here is a great visualization of this whole process.
 </div>
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Drone_Flow.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Drone_flow.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
