@@ -1,3 +1,11 @@
+---
+title: "Becoming a Foreign Pilot"
+layout: post
+date: "2023-07-11 20:16:00"
+tags: "drone, Remotely Piloted Aircraft, scantiques"
+categories: scantiques
+description: It's rare for me to fly a proper experiment!
+---
 # My drone journey; how I became a foreign pilot
 
 We are going to take a brief break from talking about our research sites we are visiting along the way to discuss some of the logistics that come with this. Introducing my co-writer Leanna, another fellow PhD student that just completed some drone field work on Vancouver Island. She also just had her first Phd paper published (congrats!). Check out her work here: 
