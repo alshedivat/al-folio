@@ -2,10 +2,10 @@ github_users:
   - VishalKandala
 
 github_repos:
+  - VishalKandala/CURVIB
   - VishalKandala/PETSCHeat
   - VishalKandala/Project-Orion
   - VishalKandala/Cantera1.8-Radcal
-  - VishalKandala/1DiffCrank
   - VishalKandala/Py-ler
   - VishalKandala/Reveille-TD
-  - VishalKandala/Utilities
+  
