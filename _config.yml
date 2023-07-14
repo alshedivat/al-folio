@@ -240,6 +240,9 @@ defaults:
     values:
       sitemap: false
 
+sass:
+  style: compressed
+
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
 # -----------------------------------------------------------------------------
@@ -384,7 +387,7 @@ bootstrap:
     css: "sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY="
     js: "sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8="
 bootstrap-table:
-  version: "1.21.4"
+  version: "1.22.1"
 fontawesome:
   version: "6.4.0"
   integrity: "sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8="
