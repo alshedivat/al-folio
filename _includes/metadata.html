@@ -193,11 +193,11 @@
     {%- endif -%}
 
     <script type="application/ld+json">
-      {
+    {
         "author":
         {
-          "@type": "Person",
-          "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}"
+            "@type": "Person",
+            "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}"
         },
         "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
         "@type": "WebSite",
@@ -208,6 +208,6 @@
         {%- endif %}
         "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
         "@context": "https://schema.org"
-      }
+    }
     </script>
 {%- endif %}
