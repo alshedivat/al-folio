@@ -7,3 +7,4 @@ categories: sample-posts external-services
 giscus_comments: false
 related_posts: false
 ---
+This is a new Blog
