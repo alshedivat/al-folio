@@ -30,7 +30,7 @@ The sweep parameters are the following:
 - end frequency: 95 Hz
 
 Function below simply plot the sweep using Matplotlib Python library.
-```Python
+```Python3
 import pandas as pd 
 import matplotlib.pyplot as plt
 import numpy as np
