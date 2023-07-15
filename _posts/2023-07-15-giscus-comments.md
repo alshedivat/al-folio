@@ -47,12 +47,9 @@ def plot_sweep(file):
     plt.show()
 plot_sweep('sweep.csv')
 ```
-#![sweep2](/assets/img/sweep.png)
 <img src="/assets/images/sweep.png.png" width='700'>
 
-<p align="center">
-    <img src=./images/sweep.png width='700'>
-</p>
+
 
 ## FFT in Python
 Let's calculate the amplitude and the phase spectrum of our sweep. 
