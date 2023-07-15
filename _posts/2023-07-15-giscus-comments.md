@@ -47,7 +47,7 @@ def plot_sweep(file):
     plt.show()
 plot_sweep('sweep.csv')
 ```
-![sweep](C:\Users\hadi_\MY_WEBSITE_V2\hadi-tim.github.io\images\sweep.png){:class="img-responsive"}
+![sweep](C:\Users\hadi_\MY_WEBSITE_V2\hadi-tim.github.io\images\sweep.png)
 
 <p align="center">
     <img src=./images/sweep.png width='700'>
