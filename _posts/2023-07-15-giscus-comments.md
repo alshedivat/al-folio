@@ -159,7 +159,7 @@ plt.plot(corr, lw=1.5)
 plt.show()
 ```
 
-![sweep2](/assets/img/corr.png){:width="100%"}
+![sweep2](/assets/img/corr.png){:width="90%"}
 
 #### **Converting to minimum phase filter**
 
