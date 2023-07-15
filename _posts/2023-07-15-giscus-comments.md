@@ -47,7 +47,7 @@ def plot_sweep(file):
     plt.show()
 plot_sweep('sweep.csv')
 ```
-![sweep2](/assets/img/sweep.png){:width="60%"}
+![sweep2](/assets/img/sweep.png){:width="80%"}
 
 
 
@@ -63,7 +63,7 @@ where, $k$ is the index of the $k_{th}$ frequency point, where $f_k$ = $k f_s \o
 ## Amplitude and Phase Spectrum
 
 In the Python code, I justt called the methods of libraries Numpy and Scipy in Python to implement the amplitude and phase spectrums as below:
-```Python
+```python
 from numpy.fft import fft, ifft
 import numpy as np
 import pandas as pd
@@ -124,15 +124,13 @@ plt.show()
 ```
 The plots below show the corresponding amplitude and phase spectrums of our sweep.
 
-<p align="center">
-<img src=./images/amp_phase_spec.png width='700'>
-</p>
+![sweep2](/assets/img/amp_phase_spec.png){:width="80%"}
 
 ## Pilot Sweep Autocorrelation
 
 Let's check the correlation of the pilot sweep with itsel `Autocorrelation`. The code below does the autocorrelation of the sweep.
 
-```Python
+```python
 import scipy.signal
 from numpy.fft import fft, ifft
 import numpy as np
@@ -161,24 +159,20 @@ plt.plot(corr, lw=1.5)
 plt.show()
 ```
 
-<p align="center">
-    <img src=./images/corr.png class="center">
-</p>
+![sweep2](/assets/img/corr.png){:width="80%"}
 
 ## Converting to minimum phase filter
 
 In this section, I will do a simple manipulation of converting our wavelet "Sweep Autocorrelation" into a minimum phase filter, then calculate the FFT of the signal to output the amplitude and phase spectra.
 
-<img src=./images/fft_sweep.png>
+![sweep2](/assets/img/fft_sweep.png){:width="80%"}
 
 For the conversion to minimum phase, I compared two methods from **Scipy** Python library; `Homomorphic` and `Hilbert`.
 The documentation of these two methods can be found [here](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.minimum_phase.html#rde52ba5e24c3-1).
 
-<p align="center">
-    <img src=./images/min_phase_filter.png class="center" width=700>
-</p>
+![sweep2](/assets/img/min_phase_filter.png){:width="80%"}
 
-```Python
+```python
 import numpy as np
 from scipy.signal import remez, minimum_phase, freqz, group_delay
 import matplotlib.pyplot as plt
