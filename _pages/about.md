@@ -28,5 +28,7 @@ Seismic Data Acquisition • Seismic Processing • Seismic Imaging • Seismic 
 
 • Python • MATLAB • Shell Scripting • Project Management • Budgeting
 
+deployment test
+
 
 
