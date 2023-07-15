@@ -16,7 +16,7 @@ related_posts: false
 * [Converting to minimum phase filter](#converting-to-minimum-phase-filter)
 * [Minimum Phase Filter Spectrums](#minimum-phase-filter-spectrum)
 
-### Introduction
+#### **Introduction**
 The seismic wavelet is the combination of the wavelet transmitted into the earth, modified by the earth’s transmission, and then by the instruments responses. Then, the wavelet processing describes what is done to alter the wavelet so that it is short, well-behaved, and more useful for interpretation.
 I will introduce some basics on seismic wavelet processing showing Python codes examples using the seismic sweep from a Land vibrator.
 
