@@ -7,7 +7,7 @@ categories: #sample-posts external-services
 giscus_comments: false
 related_posts: false
 ---
-# Table of contents
+## **Table of contents**
 * [Introduction](#introduction)
 * [Vibrator Sweep](#vibrator-sweep)
 * [FFT in Python](#fft-in-python)
