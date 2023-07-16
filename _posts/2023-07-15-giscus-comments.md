@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Seismic Wavelet Processing
 date: 2023-07-15 11:59:00-0400
 description: #an example of a blog post with giscus comments
