@@ -7,8 +7,5 @@ categories: #sample-posts external-services
 giscus_comments: true
 related_posts: false
 ---
-<<<<<<< HEAD
-This is a new Blog page
-=======
 This is a new Blog in the blog page
->>>>>>> 7c51dca (Update 2022-12-10-giscus-comments.md)
+

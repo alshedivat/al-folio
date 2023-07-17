@@ -28,4 +28,8 @@ Seismic Data Acquisition • Seismic Processing • Seismic Imaging • Seismic 
 
 • Python • MATLAB • Shell Scripting • Project Management • Budgeting
 
+<<<<<<< HEAD
 deployment test version4
+=======
+deployment test version4
+>>>>>>> 55b8b8025ba36bbc5186e25d8cd82f52ecc09a58
