@@ -76,6 +76,8 @@ Meta
 Articles
 - ["The Revolt of the Salaried Bourgeoisie"](https://www.lrb.co.uk/the-paper/v34/n02/slavoj-zizek/the-revolt-of-the-salaried-bourgeoisie){:target="_blank"}, Slavoj Žižek -- an important update to Marxist analysis for the 21st century economy, especially for tech workers
 - ["Philosophy: Who Needs It?"](https://www.stephenhicks.org/wp-content/uploads/2018/12/Philosophy-Who-Needs-It-text.pdf){:target="_blank"}, Ayn Rand -- a rhetorically effective and accessible explanation for why philosophy is more important than ever, which I recommend to anyone who is skeptical of or new to philosophy
+- ["Rawls' Law of Peoples: Rules for a Vanished Westphalian World"](https://www.jstor.org/stable/10.1086/233370){:target="_blank"}, Allen Buchanan -- an interesting philosophical historicization of Rawls which strikes at a deep gash in political philosophy itself.
+- ["Rawls, Hegel, and Communitarianism"](https://www.jstor.org/stable/192057){:target="_blank"}, Sibyl A. Schwarzenbach -- an interesting attempt at the very difficult project of writing coherently on Rawls and Hegel in the same paragraph.
 
 Books
 - *The Poverty of Ethics*, Anat Amar -- a brilliant synthesis of analytic ethics and Continental discontent.
