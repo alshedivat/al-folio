@@ -14,6 +14,8 @@ Theodor W. Adorno wrote *Minima Moralia: Reflections From Damaged Life* in 1951.
 It is a series of 153 aphorisms striking at the sad ridiculity of living the Aristotelian "good life" in the 20th and 21st centuries.
 I am reading one aphorism a day and adding it to this page.
 
+---
+
 "Life does not live." – Ferdinand Kürnberger
 
 1. "*For Marcel Proust.*" **Intellectual work has been departmentalized**; the pursuit of anti-business (scholarship, academic virtue) rendered a business in its very structure. Financially independent scholars often fail to recognize this, and are punished for their ignorance.
@@ -22,5 +24,16 @@ I am reading one aphorism a day and adding it to this page.
 4. "*Final clarity.*" **Good-natured universality stands on a darkly schizophrenic foundation.** The old man who is famous for being "benign" has lived a scandalous life; he forgets well. "In the abstract representation of universal injustice, every concrete responsibility collapses." He stands upon the pedestal of time. The bourgeois are tolerant -- their love for people comes from the heatred of rightful human beings.
 5. "*Doctor, that is kind of you.*" **The small joys of life have opened beneath them the dark depths of twisted potential.** The injunction: Enjoy! Relax! Be casual! Let it go! These are manifestations of power and domination. But also the egalitarian spirit: egalité! By adapting to the weakness of the oppressed, they perpetuate the precondition of oppression (the weakness). Intellectuals should embrace isolation for solidarity.
 6. "*Antithesis.*" **Intellectuals like to think themselves out of the fray, but in fact they only reproduce what they negate.** The intellectuals are the last enemies of the bourgeois, and at the same time the last bourgeois. Intellectuals participate in the very culture-industry they critique. One must rather behave modestly and unpretentiously, for there is "the shame that when one is in hell, there is still air to breathe."
+7. "*They, the people.*" **Intellectuals fetishize the "common folk" as conflictless and good: this is precisely to ignore the violence of the system.** In bouts of righteous self-mockery, intellectuals pass into their opposite, that is, anti-intellectualism, and "rush into Indian temples". "The justifiable feelings of guilt of those exempted from physical labor ought not to become an excuse for rural idiocy."
 
+---
 
+## Memorable Quotes
+
+"The dawning collectivistic social order is the mockery of one without class: it liquidates, along with the bourgeois, at the same time the utopia, which at one time drew nourishment from the mother’s love." (2)
+
+"Their belated individualism poisons what still remains of the individuated." (3)
+
+"The only responsible option is ... to behave in private as modestly, inconspicuously and unpretentiously as required, not for reasons of good upbringing, but because of the shame that when one is in hell, there is still air to breathe." (6)
+
+"The justifiable feelings of guilt of those exempted from physical labor ought not become an excuse for rural idiocy." (7)
