@@ -41,11 +41,17 @@
     <meta name="keywords" content="{%- if page.keywords -%}{{ page.keywords }}{%- else -%}{{ site.keywords }}{%- endif -%}" />
 {%- endif %}
 
-{%- if site.serve_og_meta %}
+{%- assign is_blog_post = false -%}
+{%- if page.url != '/blog/index.html' and page.url contains '/blog/' -%}
+    {%- unless page.url contains '/tag/' or page.url contains '/category/' -%}
+        {%- assign is_blog_post = true -%}
+    {%- endunless -%}
+{%- endif -%}
 
+{%- if site.serve_og_meta %}
     <!-- OpenGraph -->
     <meta property="og:site_name" content="{{ title }}" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="{%- if is_blog_post -%}article{%- else -%}website{%- endif -%}" />
     <meta property="og:title" content="{%- if page.title -%}{{ title }} | {{ page.title }}{%- else -%}{{ title }}{%- endif -%}" />
     <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}" />
     <meta property="og:description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />
@@ -193,14 +199,14 @@
     {%- endif -%}
 
     <script type="application/ld+json">
-      {
+    {
         "author":
         {
-          "@type": "Person",
-          "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}"
+            "@type": "Person",
+            "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}"
         },
         "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "@type": "WebSite",
+        "@type": "{%- if is_blog_post -%}BlogPosting{%- else -%}WebSite{%- endif -%}",
         "description": "{%- if page.description -%}{{ page.description }}{%- else if site.description -%}{{ site.description }}{%- endif -%}",
         "headline": "{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}",
         {% if sameaslinks != blank -%}
@@ -208,6 +214,6 @@
         {%- endif %}
         "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
         "@context": "https://schema.org"
-      }
+    }
     </script>
 {%- endif %}
