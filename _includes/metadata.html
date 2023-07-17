@@ -94,6 +94,14 @@
         {%- capture link -%}https://publons.com/a/{{ site.publons_id }}/{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
+    {%- if site.lattes_id -%}
+        {%- capture link -%}http://lattes.cnpq.br/{{ site.lattes_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.osf_id -%}
+        {%- capture link -%}https://osf.io/{{ site.osf_id }}/{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
     {%- if site.research_gate_profile -%}
         {%- capture link -%}https://www.researchgate.net/profile/{{site.research_gate_profile}}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
@@ -116,6 +124,10 @@
     {%- endif -%}
     {%- if site.twitter_username -%}
         {%- capture link -%}https://twitter.com/{{ site.twitter_username }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.mastodon_username -%}
+        {%- capture link -%}https://{{ site.mastodon_username  }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
     {%- if site.medium_username -%}
@@ -190,8 +202,16 @@
         {%- capture link -%}https://facebook.com/{{ site.facebook_id }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
+    {%- if site.youtube_id -%}
+        {%- capture link -%}https://youtube.com/@{{ site.youtube_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
     {%- if site.discord_id -%}
         {%- capture link -%}https://discord.com/users/{{ site.discord_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.zotero_username -%}
+        {%- capture link -%}https://www.zotero.org/{{ site.zotero_username }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
     {%- if sameaslinks != blank -%}
