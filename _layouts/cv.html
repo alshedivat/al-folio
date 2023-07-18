@@ -10,13 +10,6 @@ layout: default
       {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
   </header>
 
-  <h4>Table of contents</h4>
-  <ul class="timeline">
-  {% for entry in site.data.cv %}
-    <li><a href="#{{ entry.title }}"><span class="badge-toc">{{ entry.title }}</span></a></li>
-  {% endfor %}
-  </ul>
-
   <article>
     <div class="cv">
       {% for entry in site.data.cv %}
@@ -51,21 +44,6 @@ layout: default
     <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
     {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
   </header>
-
-  <h4>Table of contents</h4>
-  <ul class="timeline">
-  {% for entry in site.data.resume %}
-    {% if site.jsonresume and site.jsonresume.size > 0 %}
-      {% unless site.jsonresume contains entry[0] %}
-        {% continue %}
-      {% endunless %}
-    {% endif %}
-    {% if entry[0] == "meta" or entry[1].size == 0 %}
-      {% continue %}
-    {% endif %}
-    <li><a href="#{{ entry[0] }}"><span class="badge-toc">{{ entry[0] | capitalize }}</span></a></li>
-  {% endfor %}
-  </ul>
 
   <article>
     <div class="cv">
