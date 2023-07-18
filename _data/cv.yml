@@ -14,8 +14,7 @@
     - title: PhD
       institution: University of Cincinnati, Cincinnati, U.S.A
       year: 2023
-      description:
-        - Description 1. Majoring in Computer Science
+      description: Computer Science
         #- Description 2.
         #- title: Description 3.
         #  contents:
@@ -24,7 +23,7 @@
     - title: B.Tech + M.tech
       institution: Andhra University, Visakhapatnam, India
       year: 2016
-      description: Majoring in Electronics and Communication Engineering
+      description: Electronics and Communication Engineering
       #  - Description 1.
       #  - Description 2.
 
