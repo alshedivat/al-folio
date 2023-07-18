@@ -45,17 +45,17 @@ nav: false
 
 <br>
 
-<a href="#" target="_blank">"Ethical Chaos Under Husserlian Heaven: The Sartrean Ethical Break".</a> Currently writing as part of PHIL 458.
+<a href="files\458_research_paper.pdf" target="_blank">"Ethical Crisis Under the Husserlian Epoché: Restoring the Normative Force of Doubt".</a> Final essay for PHIL 458, Phenomenology.
 <p style="margin-left: 25px;">
-<small><bold>Abstract.</bold> In progress.
+<small><bold>Abstract.</bold> Husserl's epoché suppresses the very conditions in which it emerges: doubt. It is precisely the negation of doubt which forces the epoché to acquire an ethically monstrous character. I explicate the problem of the epoché and attempt to propose a reframing of the method which more truly respects its own conditions of possibility.
 </small>
 </p>
 
 <br>
 
-<a href="files/subject-without-subjectivity.pdf" target="_blank">"Subject Without Subjectivity: John Rawls and Liberalism through the Sixties".</a> Research project for HSTAA 465.
+<a href="files/subject-without-subjectivity.pdf" target="_blank">"Subject Without Subjectivity: John Rawls and Liberalism through the Sixties".</a> Research project for HSTAA 465, The Sixties in America.
 <p style="margin-left: 25px;">
-<small><bold>Abstract.</bold> II argue that a historicist reading of Rawls demonstrates his introduction of the "subject without subjectivity" as a response to the social and political exigencies of the sixties. Rawls pushed liberalism to explicate specific structural relationships of subjugation and exploitation between political subjects, whereas previously it had favored abstract impersonal principles. However, still committed to the liberal dream of a unified social order, Rawls denied the subject its political subjectivity. With this double-gesture, Rawls distanced liberalism from its pre-sixties apoliticism and simultaneously retained its hope for a united society.
+<small><bold>Abstract.</bold> I argue that a historicist reading of Rawls demonstrates his introduction of the "subject without subjectivity" as a response to the social and political exigencies of the sixties. Rawls pushed liberalism to explicate specific structural relationships of subjugation and exploitation between political subjects, whereas previously it had favored abstract impersonal principles. However, still committed to the liberal dream of a unified social order, Rawls denied the subject its political subjectivity. With this double-gesture, Rawls distanced liberalism from its pre-sixties apoliticism and simultaneously retained its hope for a united society.
 </small>
 </p>
 
