@@ -7,7 +7,7 @@ nav: true
 ---
 
 ### Mentees
-
+- [Yuzhoa (Stefan) Heng](https://stefanheng.github.io/) (University of Michigan '22, Now at Georgia Tech)
 - Victoria Shipman (University of Michigan, Explore CS Programme)
 - Tamariah Davis (University of Michigan, Explore CS Programme)
 - Timothy Indarsingh (University of Guyana)
