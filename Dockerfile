@@ -19,17 +19,17 @@ RUN apt-get install imagemagick -y
 RUN apt-get install python3-pip -y
 RUN python3 -m pip install jupyter --break-system-packages
 
-# clean everything
-RUN apt-get clean \
-    && rm -rf /var/lib/apt/lists/
-RUN pip3 cache purge
-
-# ENV GEM_HOME='root/gems' \
-#     PATH="root/gems/bin:${PATH}"
-
 # install jekyll and dependencies
 RUN gem install jekyll bundler
+
 RUN mkdir /srv/jekyll
+
 ADD Gemfile /srv/jekyll
+
 WORKDIR /srv/jekyll
+
 RUN bundle install
+
+EXPOSE 8080
+
+CMD ["/bin/bash", "-c", "rm -f Gemfile.lock && exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace"]
