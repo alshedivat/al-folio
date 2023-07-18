@@ -6,7 +6,7 @@
     - name: nick name
       value: Neo
     - name: Languages
-      value: Chinese(native, Mandarin & Cantonese), English(fluent)
+      value: Chinese(native, Cantonese & Mandarin), English(fluent)
     - name: ➡️
       value: Please download my <a href="/assets/pdf/CV_Qingqin Liu_2023-06.pdf"> CV </a> for more information!
 
@@ -18,13 +18,13 @@
       year: 2021 - 2023
       description:
         - Department of Communication of Science and Technology
-        - "Advisor: Prof. Yanxiang Zhang"
+        - "Supervisor: Prof. Yanxiang Zhang"
     - title: Research Assistant
       institution: University of Science and Technology of China, Hefei, Anhui, China
       year: 2019 - present
       description:
         - Digital Art Lab
-        - "Supervisor: Prof. Yanxiang Zhang"
+        - "Director: Prof. Yanxiang Zhang"
     - title: Bachelor of Natural Science in Astronomy
       institution: University of Science and Technology of China, Hefei, Anhui, China
       year: 2015 - 2019
