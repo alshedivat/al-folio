@@ -1,5 +1,7 @@
 FROM bitnami/minideb:latest
+
 Label MAINTAINER Amir Pourmand
+
 RUN apt-get update -y
 
 # add locale
@@ -29,6 +31,9 @@ ADD Gemfile /srv/jekyll
 WORKDIR /srv/jekyll
 
 RUN bundle install
+
+# Set Jekyll environment
+ENV JEKYLL_ENV=production 
 
 EXPOSE 8080
 
