@@ -6,7 +6,7 @@
     - name: nick name
       value: Neo
     - name: Languages
-      value: Chinese(native, Mandarian & Cantonese), English(fluent)
+      value: Chinese(native, Mandarin & Cantonese), English(fluent)
     - name: ➡️
       value: Please download my <a href="/assets/pdf/CV_Qingqin Liu_2023-06.pdf"> CV </a> for more information!
 
@@ -14,19 +14,19 @@
   type: time_table
   contents:
     - title: Master of Journalism and Communication
-      institution: University of Science and Technology of China(USTC), Hefei, P.R. China
+      institution: University of Science and Technology of China(USTC), Hefei, Anhui, China
       year: 2021 - 2023
       description:
         - Department of Communication of Science and Technology
         - "Advisor: Prof. Yanxiang Zhang"
     - title: Research Assistant
-      institution: University of Science and Technology of China, Hefei, P.R. China
+      institution: University of Science and Technology of China, Hefei, Anhui, China
       year: 2019 - present
       description:
         - Digital Art Lab
         - "Supervisor: Prof. Yanxiang Zhang"
     - title: Bachelor of Natural Science in Astronomy
-      institution: University of Science and Technology of China, Hefei, P.R. China
+      institution: University of Science and Technology of China, Hefei, Anhui, China
       year: 2015 - 2019
       description:
         - Department of Astronomy
@@ -35,8 +35,8 @@
 - title: Selected Research Experiences
   type: time_table
   contents:
-    - title: more details in my <a href="/assets/pdf/Qingqin_Liu-CV-1116-2022.pdf"> CV </a>
-    - title: Metafictional Interaction Design and Player Experience in Virtual Reality
+    - title: more details in my <a href="/assets/pdf/CV_Qingqin Liu_2023-06.pdf"> CV </a>
+    - title: Metagame Interaction Design and Player Experience in Virtual Reality
       year: 08.2022 - present
 #      description:
 #        - Conducting formal analysis of VR and non-VR metafictional games, focusing on the interactions of these games to achieve breaking the fourth wall effect, currently expanding the number of games being analyzed.
@@ -74,7 +74,7 @@
     - title: Human-Computer Interaction
       items:
         - Immersive Media, VR/AR/MR
-        - Tangible, Embodied, Embodied
+        - Tangible, Embodied, Embodied Interface
         - Natural Interaction
         - User Perception
     - title: Game Studies

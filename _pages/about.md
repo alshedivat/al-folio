@@ -9,8 +9,9 @@ profile:
   image: prof_pic-2.jpg
   image_circular: false # crops the image to make it circular
   address: >
+    <p>(photo by <a href='http://home.ustc.edu.cn/~wynnewang/'>Wynne</a>)</p>
     <p>qingqinliu@mail.ustc.edu.cn</p>
-    <p>Jinzhai Road 96, Hefei, Anhui, P.R. China</p>
+    <p>Jinzhai Road 96, Hefei, Anhui, China</p>
 #    <p>Your City, State 12345</p>
 
 news: false  # includes a list of news items
