@@ -1,61 +1,61 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Hemanth Gudaparthi",
+    "label": "Assistant Professor",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "hgudaparthi@govst.edu",
+    "phone": "(513) 807-01111",
+    "url": "https://HemanthGudaparthi.github.io/HGudaparthi.github.io/",
+    "summary": ,
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "119 Sycamore Dr. Autumn Ridge Apts.",
+      "postalCode": "Il 60464",
+      "city": "Park Forest",
       "countryCode": "US",
-      "region": "California"
+      "region": "Chicago Southlands"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "AG13710561",
+        "url": "https://https://twitter.com/AG13710561"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "Department of Science, Maths and Technology, Governors State University",
+      "position": "Assistant Professor of Computer Science",
+      "url": "https://www.govst.edu",
+      "startDate": "2023-08-16",
+      "endDate": "-",
+      "summary": "Teaching at Computer Science (CS) department for graduate and undergraduate courses",
       "highlights": [
-        "Relativity"
+        "Software Engineering, Applied Machine Learning"
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of Cincinnati, Cincinnati, U.S.A",
+      "url": "https://www.uc.edu/",
+      "area": "Software Engineering",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
+      "startDate": "2018-08-24",
+      "endDate": "2023-05-05",
+      "score": "3.9",
       "courses": [
-        "Theory of Relativity"
+       
       ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title":,
+      "date": ,
+      "awarder": ,
+      "summary":
     }
   ],
   "certificates": [],
@@ -63,12 +63,16 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Telugu",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Hindi",
       "fluency": "Native speaker"
     },
     {
       "language": "English",
-      "fluency": "Fluent"
+      "fluency": "Native Speaker"
     }
   ],
   "interests": [],

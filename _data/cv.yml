@@ -2,96 +2,99 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Hemanth Gudaparthi
     - name: Date of Birth
-      value: 14th March 1879
+      value: 7th September 1993
     - name: Languages
-      value: English, German
+      value: English, Hindi, Telugu
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Cincinnati, Cincinnati, U.S.A
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Description 1. Majoring in Computer Science
+        #- Description 2.
+        #- title: Description 3.
+        #  contents:
+        #    - Sub-description 1.
+        #    - Sub-description 2.
+    - title: B.Tech + M.tech
+      institution: Andhra University, Visakhapatnam, India
+      year: 2016
+      description: Majoring in Electronics and Communication Engineering
+      #  - Description 1.
+      #  - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Assistant Professor of Computer Science
+      institution: Department of Science, Maths and Technology, Governors State University
+      year: 2023-
+      #description:
+      #  - Description 1.
+      #  - Description 2.
+      #  - title: Description 3.
+      #    contents:
+      #      - Sub-description 1.
+      #      - Sub-description 2.
+    #- title: 
+    #  institution: 
+    #  year:
+    #  description:
+    #    - Description 1.
+    #    - Description 2.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    #- title:
+    #  institution: 
+    #  year: 
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    #- title: 
+    #  institution: 
+    #  year: 
+    #  description:
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    #- title: 
+    #  institution: 
+    #  year: 
 
-- title: Open Source Projects
+- title: Google Scholar
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://scholar.google.com/citations?user=HGMv9ZIAAAAJ&hl=en">HemanthGudaparthi</a>
+      year: 2020-now
+      description: 
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+#- title: 
+#  type: time_table
+#  contents:
+#    - year:
+#      items: 
+#        - 
+#        - 
+#    - year:
+#      items: 
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Applied Machine Learning
+      items: Restricted Boltzmann Machines, Bayes Models, Hidden Markov Models, Regression Models, Vector Machines
+        #- Description 1.
+        #- Description 2.
+    - title: Software Engineering
+      items: Traceability, Metamorphic Testing, Problem Frames
+        #- Description 1.
+        #- Description 2.
+    - title: AI4Phy
+      items: Quantum Many-Body Solutions, Weighted Hamilton Updates, Twistor Hamilton for Quantum Gravity
+        #- Description 1.
+        #- Description 2.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Sports, Movies, etc.

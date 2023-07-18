@@ -9,14 +9,14 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
+    <p>5138070111</p>
     <p>1 University Pkwy</p>
     <p>University Park, Il 60484</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 I am an assistant professor in the Department of Science, Maths and Technology at the Governors State University. I joined the Department of Science, Maths and Technology in August 2023. I am currently the instructor for CPSC - 4900: Senior Project and Seminar, CPSC - 8735: Advanced Operating Systems, CPSC - 8820: Planning and Management of Software Projects.
 
@@ -24,5 +24,3 @@ Prior to joining the Governors State University, I received my PhD from the Univ
 
 My research interests include applied machine learning, deep learning, requirements engineering and developing context based algorithms. I'm also focussing on devloping AI models for Physics. Currently I'm using Hamilton equations as the weight functions in deep learning models to understand the many-body problem in quantum mechanics. I'm currently looking for interested students who wants to work on AI/software/AI4Phy models.
 
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
