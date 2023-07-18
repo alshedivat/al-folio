@@ -28,3 +28,5 @@ Previously, I was a Data Scientist in Product Development and Algorithm Developm
 I am broadly interested in the application of Data Science in social/political science alongside creating education solutions and political empowerment. Here is a [small interview](https://actu.epfl.ch/news/dh-creates-the-chance-to-re-create-re-present-and-/) where I talked about my interests.
 
 I am keen on collaborations, so if you have similar interests or think I can be of any help with your work, please feel free to drop me a message!
+
+NOTE: If you are a student at EPFL interested in a semester project/MS thesis project on using data science and machine learning for research in the intersection of social media, urban computing, collaborative decision making and computational democracy, feel free to drop me an email.
