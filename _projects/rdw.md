@@ -17,7 +17,7 @@ In this project, we utilized RDW technique to establish a VR system use natural 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/rdw360/realWalking.png" title="realWalking" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/rdw360/realWalking.png" width="50%" title="realWalking" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -57,6 +57,7 @@ We conducted a user study about the detection thresholds for translation (N = 20
 ## Demo
 
 Next, we will develop a systematic tool for converting 360° videos into immersive VR natural walking tours. With this tool, users will have the flexibility to select their preferred 360° videos and customize their touring experiences based on their individual interests.
+
 (*Expect multiple updates in the next weeks.*)
 
 ---
