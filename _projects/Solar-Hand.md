@@ -4,7 +4,7 @@ title: Solar System in the Hand
 description: Touch the solar system :)
 img: assets/img/solar.png
 importance: 3
-category: fun
+category: idyllic
 ---
 Turn on your camera, Posenet will regonize your body.
 Red dots indicate the identification of different parts of the human body.
