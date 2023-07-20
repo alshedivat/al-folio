@@ -22,5 +22,3 @@ I made a Tesla Coil Model in my high school. I got shocked twice by electricity!
   <source src="assets/mov/TCpromotion.mp4" type="video/mp4">
   Your browser does not support the video tag. 
 </video>
-
-<iframe src="assets/mov/TCpromotion.mp4" width="640" height="360" frameborder="0" allowfullscreen></iframe>
