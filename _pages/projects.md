@@ -5,7 +5,7 @@ permalink: /projects/
 description: List of Land/Marine seismic projects, including my Python coding experience
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [work]
 horizontal: false
 ---
 
