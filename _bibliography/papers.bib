@@ -3,16 +3,29 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{StarCoder2023,
+  abbr={arXiv},
+  title={StarCoder: may the source be with you!},
+  author={Raymond Li and Loubna Ben Allal and Yangtian Zi and Niklas Muennighoff and Denis Kocetkov and Chenghao Mou and Marc Marone and Christopher Akiki and Jia Li and Jenny Chim and Qian Liu and Evgenii Zheltonozhskii and Terry Yue Zhuo and Thomas Wang and Olivier Dehaene and Mishig Davaadorj and Joel Lamy-Poirier and João Monteiro and Oleh Shliazhko and Nicolas Gontier and Nicholas Meade and Armel Zebaze and Ming-Ho Yee and Logesh Kumar Umapathi and Jian Zhu and Benjamin Lipkin and Muhtasham Oblokulov and Zhiruo Wang and Rudra Murthy and Jason Stillerman and Siva Sankalp Patel and Dmitry Abulkhanov and Marco Zocca and Manan Dey and Zhihan Zhang and Nour Fahmy and Urvashi Bhattacharyya and Wenhao Yu and Swayam Singh and Sasha Luccioni and Paulo Villegas and Maxim Kunakov and Fedor Zhdanov and Manuel Romero and Tony Lee and Nadav Timor and Jennifer Ding and Claire Schlesinger and Hailey Schoelkopf and Jan Ebert and Tri Dao and Mayank Mishra and Alex Gu and Jennifer Robinson and Carolyn Jane Anderson and Brendan Dolan-Gavitt and Danish Contractor and Siva Reddy and Daniel Fried and Dzmitry Bahdanau and Yacine Jernite and Carlos Muñoz Ferrandis and Sean Hughes and Thomas Wolf and Arjun Guha and Leandro von Werra and Harm de Vries},
+  abstract={The BigCode community, an open-scientific collaboration working on the responsible development of Large Language Models for Code (Code LLMs), introduces StarCoder and StarCoderBase: 15.5B parameter models with 8K context length, infilling capabilities and fast large-batch inference enabled by multi-query attention. StarCoderBase is trained on 1 trillion tokens sourced from The Stack, a large collection of permissively licensed GitHub repositories with inspection tools and an opt-out process. We fine-tuned StarCoderBase on 35B Python tokens, resulting in the creation of StarCoder. We perform the most comprehensive evaluation of Code LLMs to date and show that StarCoderBase outperforms every open Code LLM that supports multiple programming languages and matches or outperforms the OpenAI code-cushman-001 model. Furthermore, StarCoder outperforms every model that is fine-tuned on Python, can be prompted to achieve 40 percent pass1 on HumanEval, and still retains its performance on other programming languages. We take several important steps towards a safe open-access model release, including an improved PII redaction pipeline and a novel attribution tracing tool, and make the StarCoder models publicly available under a more commercially viable version of the Open Responsible AI Model license.},
+  journal={arXiv:2305.06161,},
+  publisher={arXiv:2305.06161},
+  year={2022},
+  url={https://arxiv.org/abs/2305.06161},
+  html={https://arxiv.org/abs/2305.06161},
+  pdf={BigCode_StarCoder.pdf}
+}
+
 @article{LoubnaSanta2022,
-  abbr={pre-print},
+  abbr={ICLR DL4C},
   title={🎅SantaCoder: Don't reach for the stars!🌟},
   author={Loubna Ben Allal and Raymond Li and Denis Kocetkov and Chenghao Mou and Christopher Akiki and Carlos Munoz Ferrandis and Niklas Muennighoff and Mayank Mishra and Alex Gu and Manan Dey and Logesh Kumar Umapathi and Carolyn Jane Anderson and Yangtian Zi and Joel Lamy Poirier and Hailey Schoelkopf and Sergey Troshin and Dmitry Abulkhanov and Manuel Romero and Terry Yue Zhuo and Francesco De Toni and Bernardo García del Río and Qian Liu and Shamik Bose and Urvashi Bhattacharyya and Michael Lappert and Ian Yu and Paulo Villegas and Jia Li and David Lansky and Huu Nguyen and Danish Contractor and Luis Villa and Daniel Fried and Dzmitry Bahdanau and Yacine Jernite and Sean Hughes and Arjun Guha and Harm de Vries and Leandro von Werra},
   abstract={The BigCode project is an open-scientific collaboration working on the responsible development of large language models for code. 1 This tech report describes the progress of the collaboration until December 2022, outlining the current state of the Personally Identifiable Information (PII) redaction pipeline, the experiments conducted to de-risk the model architecture, and the experiments investigating better preprocessing methods for the training data. We train 1.1B parameter models on the Java, JavaScript, and Python subsets of The Stack (Kocetkov et al., 2022) and evaluate the models on MultiPL-E (Cassano et al., 2022), a text2code benchmark available in 18 programming languages. We find that more aggressive filtering of near-duplicates can further boost performance and, surprisingly, that selecting files from repositories with 5+ GitHub stars deteriorates performance significantly. Our best model outperforms previous open-source multilingual code generation models (InCoder-6.7B and CodeGen-Multi-2.7B) in both left-to-right generation and infilling on the Java, JavaScript, and Python portions of MultiPL-E, despite being a substantially smaller model. All models are released under an OpenRAIL license at https://hf.co/bigcode.},
-  journal={pre-print,},
-  publisher={pre-print},
+  journal={Deep Learning for Code workshop, ICLR},
+  publisher={Deep Learning for Code workshop, ICLR},
   year={2022},
-  url={https://huggingface.co/datasets/bigcode/admin/resolve/main/BigCode_SantaCoder.pdf},
-  html={https://huggingface.co/datasets/bigcode/admin/resolve/main/BigCode_SantaCoder.pdf},
+  url={https://arxiv.org/abs/2301.03988},
+  html={https://arxiv.org/abs/2301.03988},
   pdf={BigCode_SantaCoder.pdf}
 }
 

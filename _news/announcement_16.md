@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-12-22 03:48:00-0400
+date: 2023-05-04 03:48:00-0400
 inline: true
 ---
 
-The [SantaCoder models 🎅](https://huggingface.co/bigcode/santacoder), a series of 1.1B parameter models trained on the Python, Java, and JavaScript subset of The Stack (v1.1) were released as part of the [BigCode](https://www.bigcode-project.org/) project.
+Our paper ["🎅SantaCoder: don't reach for the stars!"](https://arxiv.org/abs/2301.03988) got accepted at the [Deep Learning for Code workshop (DL4C), ICLR 2023](https://dl4c.github.io/)
