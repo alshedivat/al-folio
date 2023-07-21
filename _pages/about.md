@@ -29,4 +29,4 @@ I am broadly interested in the application of Data Science in social/political s
 
 I am keen on collaborations, so if you have similar interests or think I can be of any help with your work, please feel free to drop me a message!
 
-NOTE: If you are a student at EPFL interested in a semester project/MS thesis project on using data science and machine learning for research in the intersection of social media, urban computing, collaborative decision making and computational democracy, feel free to drop me an email.
+If you are interested in a student project using data science and machine learning for research in the intersection of social media, urban computing, computational democracy and data journalism, feel free to email me.
