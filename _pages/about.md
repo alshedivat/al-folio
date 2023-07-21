@@ -17,8 +17,12 @@ latest_posts: true  # includes a list of the newest posts
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Meet Dwiki Kusuma, the intrepid explorer of the digital realm, whose heart belongs to the art of application security. Starting as a security consultant in the captivating world of Governance, Risk Management, and Compliance (GRC), Dwiki soon found himself drawn deeper into the thrilling landscapes of offensive security. Today, he stands proudly as an application security specialist, arming systems against threats and fortifying digital fortresses.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+As the sun rises, Dwiki dons his digital armor, ready to face the challenges of appsec with unwavering determination. But when night falls, a different side emerges – a shadowy figure, lurking in the depths of bug bounty hunting, seeking out vulnerabilities like a treasure hunter of the virtual realm.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Yet, beneath the veneer of prowess lies a humble and curious soul. During his nocturnal escapades, Dwiki ceaselessly explores the wisdom shared by his security comrades – whether it's public conference YouTube videos, intriguing papers, or illuminating blogs. Always ready to learn, he embraces new tools and methodologies with the ardor of a kid in a candy store.
+
+This blog is his sanctuary – a place where discoveries are etched into digital stone, and musings dance freely. Don't be fooled by the informality, for within these virtual walls lies a wealth of expertise and passion, wrapped in a layer of lighthearted humor.
+
+If you're up for a chat, a security tête-à-tête, or just some good ol' banter, reach out to Dwiki on Twitter or GitHub, where he answers to the enigmatic handle [@qlkwej](https://twitter.com/qlkwej). Don't worry; his code of conduct is as strong as his firewalls – open, friendly, and always ready for camaraderie.
