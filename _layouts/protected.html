@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+{{ page.title | escape}}
+
+<div id="content">
+  Insert password for decryption
+  <input id="password" type="password">
+  <button onclick="decrypt()">Decrypt</button>
+  <p id="errmsg" style="color: red;"></p>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js" integrity="sha256-u6BamZiW5tCemje2nrteKC2KoLIKX9lKPSpvCkOhamw=" crossorigin="anonymous"></script>
+<script>
+  function decrypt() {
+    var protectedContent = "{{ page.protected_content }}";
+    var password = document.getElementById('password').value;
+
+    var payload = protectedContent.split("|");
+    var iv = payload[0];
+    var hmac = payload[1];
+    var cipherText = payload[2];
+
+    var passphraseDgst = CryptoJS.SHA256(password).toString();
+    var decryptedhmac = CryptoJS.HmacSHA256(cipherText, CryptoJS.enc.Hex.parse(passphraseDgst)).toString().trim();
+    if(CryptoJS.enc.Base64.parse(hmac).toString() === decryptedhmac){
+      var decrypted = CryptoJS.AES.decrypt(
+        {ciphertext:CryptoJS.enc.Base64.parse(cipherText)},
+        CryptoJS.enc.Hex.parse(passphraseDgst),
+        {iv:CryptoJS.enc.Base64.parse(iv)}
+      );
+      var content = CryptoJS.enc.Utf8.stringify(decrypted);
+      document.getElementById('content').innerHTML = content;
+    } else {
+      document.getElementById('errmsg').innerHTML = "Wrong password";
+    }
+  }
+
+  var passwordInput = document.getElementById('password');
+  passwordInput.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+      decrypt();
+    }
+  })
+</script>

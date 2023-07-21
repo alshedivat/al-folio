@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: project 3
 description: a project that redirects to another website
@@ -78,4 +78,4 @@ Here's the code for the last row of images above:
     </div>
 </div>
 ```
-{% endraw %}
+{% endraw %} -->
