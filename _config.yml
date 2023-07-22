@@ -80,7 +80,7 @@ semantic_scholar_url: https://www.semanticscholar.org/author/Manan-Dey/187959126
 # -----------------------------------------------------------------------------
 
 google_analytics: G-T17CSJEGNM # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-panelbear_analytics: J1lGs7JexjD # panelbear analytics site ID (format: XXXXXXXXX)
+cronitor_analytics: c2201365b5a607bbc413fa202575c4e9 # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
@@ -275,7 +275,7 @@ jekyll-diagrams:
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:    true  # enables google analytics
-enable_panelbear_analytics: true  # enables panelbear analytics
+enable_cronitor_analytics: true  # enables cronitor RUM analytics
 enable_google_verification: true  # enables google site verification
 enable_bing_verification:   true  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arangement
