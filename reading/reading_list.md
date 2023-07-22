@@ -104,6 +104,7 @@ TV Shows
 Documentary
 - *Hearts and Minds* -- a brutally material portrayal of horror and patriotism in the Vietnam War, terrifying in its nakedness
 - *The Pervert's Guide to Ideology* -- a fun watch, an accessible overview of Slavoj Zizek's psychoanalytic-Hegelian treatment of cinema
+- *AlphaGo* -- a close look at humanity from the nonhuman: indeed, the only perspective from which humanity can truly be gazed at.
 
 ---
 
