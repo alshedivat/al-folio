@@ -289,7 +289,8 @@ I learn several things from this challenge:
 I didn't check the source code yet, on this point I guess the engine is related to node.js application and I found this article<d-footnote>https://www.smashingmagazine.com/2019/04/nodejs-express-api-markdown-html/</d-footnote>. I thought the application is using `showdown` markdown parser. Later I found it's a rabbit hole, since it's not used in `package.json`.
 
 ### Potential SSTI on the pdf engine (blackbox)
-I didn't check the source code yet, on this point I guess there is a potential SSTI issue during the renderring process. I try several SSTI payload such as `{{7*7}} <% 7*7 %> #{7*7}` etc. 
+
+I didn't check the source code yet, on this point I guess there is a potential SSTI issue during the renderring process. I try several SSTI payload such as `{ { 7*7 } } <% 7*7 %> #{7*7}` etc. 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
