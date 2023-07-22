@@ -63,7 +63,7 @@ Let start the challenge by visiting the given link.
 </div>
 *** 
 
-## Probem
+## Problem
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
