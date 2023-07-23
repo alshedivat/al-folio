@@ -27,6 +27,7 @@ I am reading one aphorism a day and adding it to this page.
 7. "*They, the people.*" **Intellectuals fetishize the "common folk" as conflictless and good: this is precisely to ignore the violence of the system.** In bouts of righteous self-mockery, intellectuals pass into their opposite, that is, anti-intellectualism, and "rush into Indian temples". "The justifiable feelings of guilt of those exempted from physical labor ought not to become an excuse for rural idiocy."
 8. "*If bad boys should tempt you.*" **Beware of the belief that your intellectual abstinence shall prove capable of overcoming tempting circumstances when they come.** "The sacrifice of intellectual self-discipline is borne far too easily, to really believe that it is indeed one."
 9. "*Above all one thing, my child.*" **Lies are not unmoral because they are an affront to truth; that function is gone, it is now a performative power gesture.** Everyone is in the loop, no one believes anyone, it has no concealing power. The social function of the lie is disrespect, a technique of brazenness. People are compelled to lie to survive in a world which demands dishonesty. Lying arises from a sense of shame, which itself arises from the degrading state of the world.
+10. "*Separated-united.*" **Marriage is a trick of self-preservation.**It is the formal structure of economic compulsion; all parties are degraded, and no one can avoid it, *especially* the rich. There is no pure union.
 
 ---
 
