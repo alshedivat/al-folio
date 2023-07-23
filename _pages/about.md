@@ -9,7 +9,8 @@ profile:
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Seattle, WA, 98105</p>
+    <p> 3910 15th Ave NE </p>
+    <p> Seattle, WA, 98195 </p>
 # can add other lines as desired.  
 
 news: false  # includes a list of news items

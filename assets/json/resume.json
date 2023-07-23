@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
+    "name": "Miles Cochran-Branson",
     "label": "Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "milescb@uw.edu",
+    "phone": "(916) 759-4691",
+    "url": "https://lvb5.github.io/",
+    "summary": "Current PhD student at University of Washington, Seattle studying experimental particle physics",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "3910 15th Ave NE",
+      "postalCode": "CA 98195",
+      "city": "Seattle",
       "countryCode": "US",
-      "region": "California"
+      "region": "Washington"
     },
     "profiles": [
       {
@@ -24,8 +24,8 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "CERN",
+      "position": "Research Aide",
       "url": "https://example.com",
       "startDate": "1933-01-01",
       "endDate": "1955-01-01",
@@ -38,21 +38,31 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of Washington, Seattle, WA",
+      "url": "https://phys.washington.edu",
+      "area": "Department of Physics",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2023-09-27",
+      "endDate": "present",
       "score": "",
       "courses": [
-        "Theory of Relativity"
+      ]
+    },
+    {
+      "institution": "Lawrence University, Appleton, WI",
+      "url": "https://www.lawrence.edu",
+      "area": "Department of Physics",
+      "studyType": "BA",
+      "startDate": "2019-09-01",
+      "endDate": "2023-06-11",
+      "score": "3.99/4.00",
+      "courses": [
       ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
+      "title": "",
       "date": "1921-11-01",
       "awarder": "Royal Swedish Academy of Sciences",
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
@@ -63,11 +73,11 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "English",
       "fluency": "Native speaker"
     },
     {
-      "language": "English",
+      "language": "German",
       "fluency": "Fluent"
     }
   ],
