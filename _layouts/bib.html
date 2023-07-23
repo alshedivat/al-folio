@@ -5,12 +5,13 @@
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          <img data-zoomable class="preview z-depth-1 rounded" src="{{ entry.preview }}">
           {%- else -%}
             {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
             {% include figure.html
             path=entry_path
             class="preview z-depth-1 rounded"
+            zoomable=true
             alt=entry.preview -%}
           {%- endif -%}
         {%- elsif entry.abbr -%}
@@ -211,7 +212,7 @@
               {% else %}
                 data-id="{{ entry.dimensions }}"
               {% endif %}
-              data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 6px;"></span>
+              data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
             {%- endif %}
           </div>
           {%- endif %}

@@ -19,11 +19,17 @@
             {%- if site.publons_id -%}
             <a href="https://publons.com/a/{{ site.publons_id }}/" title="Publons"><i class="ai ai-publons"></i></a>
             {% endif %}
+            {%- if site.lattes_id -%}
+            <a href="http://lattes.cnpq.br/{{ site.lattes_id }}" target="_blank" title="Lattes"><i class="ai ai-lattes"></i></a>
+            {% endif %}
             {%- if site.osf_id -%}
             <a href="https://osf.io/{{ site.osf_id }}/" title="Open Science Framework"><i class="ai ai-osf"></i></a>
             {% endif %}
             {%- if site.research_gate_profile -%}
             <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
+            {% endif %}
+            {%- if site.scopus_id -%}
+            <a href="https://www.scopus.com/authid/detail.uri?authorId={{site.scopus_id}}" title="Scopus"><i class="ai ai-scopus"></i></a>
             {% endif %}
             {%- if site.github_username -%}
             <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
@@ -77,7 +83,7 @@
             <a href="https://www.last.fm/user/{{ site.lastfm_id }}" title="Last FM"><i class="fab fa-lastfm"></i></a>
             {% endif %}
             {%- if site.spotify_id -%}
-            <a href="https://open.spotify.com/user/{{ site.spotify_id }}" title="Last FM"><i class="fab fa-spotify"></i></a>
+            <a href="https://open.spotify.com/user/{{ site.spotify_id }}" title="Spotify"><i class="fab fa-spotify"></i></a>
             {% endif %}
             {%- if site.pinterest_id -%}
             <a href="https://www.pinterest.com/{{ site.pinterest_id }}" title="Pinterest"><i class="fab fa-pinterest"></i></a>
@@ -96,6 +102,9 @@
             {% endif %}
             {%- if site.discord_id -%}
             <a href="https://discord.com/users/{{ site.discord_id }}" title="Discord"><i class="fab fa-discord"></i></a>
+            {% endif %}
+            {%- if site.zotero_username -%}
+            <a href="https://www.zotero.org/{{ site.zotero_username }}" title="Zotero"><i class="ai ai-zotero"></i></a>
             {% endif %}
             {%- if site.rss_icon -%}
             <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
