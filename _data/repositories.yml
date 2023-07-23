@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - lvb5
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - lvb5/solve_PDEs_with_PINN
+  - lvb5/taunet
+  - lvb5/LUComptonScatter
+  - lvb5/double_quarkonium_production
