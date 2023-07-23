@@ -2,7 +2,7 @@
 layout: distill
 published: true
 title: Web - BlinkerFluids Writeup
-date: 2022-05-25 11:09:00+0700
+date: 2022-05-16 11:09:00+0700
 description: Writeup for BlinkerFluids Challenge. Cyber Apocalypse CTF 2022 - Intergalactic Chase
 tags: ctf
 # tags: distill formatting
@@ -314,7 +314,7 @@ I didn't check the source code yet, on this point I guess there is a potential X
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/cyber-apocalypse-ctf-2022/blinker-6.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/cyber-apocalypse-ctf-2022/blinker-7.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

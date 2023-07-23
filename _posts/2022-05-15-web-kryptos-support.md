@@ -2,7 +2,7 @@
 layout: distill
 published: true
 title: Web - Kryptos Support Writeup
-date: 2022-05-25 11:09:00+0700
+date: 2022-05-15 11:09:00+0700
 description: Writeup for Kryptos Support Challenge. Cyber Apocalypse CTF 2022 - Intergalactic Chase
 tags: ctf
 # tags: distill formatting
