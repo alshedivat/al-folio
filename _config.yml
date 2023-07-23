@@ -133,7 +133,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: false
+  enabled: true
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -184,9 +184,9 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: true
+  scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 1 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
