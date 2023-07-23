@@ -2,7 +2,7 @@
 layout: post
 title: I’ve just finished Machine Learning course
 date: 2022-12-28T18:00:00.000+03:30
-description: Machine Learning Course introduced by Andrew Ng, offered by 
+description: Machine Learning Course introduced by Andrew Ng, offered by <a href="https://www.coursera.org/learn/machine-learning-course/">coursera</a>
 tags:
   - course
   - machine learning
@@ -23,27 +23,23 @@ I’ve just finished [_**Machine Learning course**_](https://www.coursera.org/le
 
 ## Thank you Coursera
 
-
 First of writing about the course or myself, I’ve to thanks Coursera to accept my aid for financial.
-
 
 The time I’d seen the approval email, I got happier than any time and I hope they do me a favor one more time in the future
 
 
 ---
 
+![certification](https://lh3.googleusercontent.com/5bDU09x5N0GC02OrC3g4Cio5OL-wBETIew1u9qZpAmCtkvaVYUgdLcYoAWR4XR7Ov_lnMrfEv7EotvLcyFQ48QBWA_2_Xx0vAxXdN9Qu0SqFJScdn3C53TPOKR3Udfa_DgO2INbqdQ=w2400)
 
-![](https://lh3.googleusercontent.com/5bDU09x5N0GC02OrC3g4Cio5OL-wBETIew1u9qZpAmCtkvaVYUgdLcYoAWR4XR7Ov_lnMrfEv7EotvLcyFQ48QBWA_2_Xx0vAxXdN9Qu0SqFJScdn3C53TPOKR3Udfa_DgO2INbqdQ=w2400)
+[_**link to certification**_](https://coursera.org/verify/BEYRHUN8XPLX)
 
-
-[<u>_**link to certification**_</u>](https://coursera.org/verify/BEYRHUN8XPLX)
 
 
 ## My blief in learning
 
 
 > Learn from scratch
-
 
 ## Overall thought about this course
 
@@ -66,7 +62,7 @@ Thesedays, there are many different modules written by expertise to-do machine l
 So think about this a little the more, if you would like to get more familiar with machine learning mathematical fundamentals this is one of the greatest courses available but if you like to learn about machine learning and and write code in Python or any other programming languages without great knowledge of mathematical fundamentals you have to go for other courses available
 
 
-Conclusion:
+**Conclusion:**
 Based on recent works on machine learning models mostly based on python, maybe it's better to go for a course to learn machine learning in Python
 
 

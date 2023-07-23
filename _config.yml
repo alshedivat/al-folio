@@ -13,7 +13,7 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.cloudflare.com/" target="_blank">Cloudflare Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: alireza, dehghanzadeh, university, tehran, master, student, academic-website, portfolio-website,   # add your own keywords or leave empty
+keywords: alireza, dehghanzadeh, university, tehran, master, student, academic-website, portfolio-website, alerezaaa, adehghanzadeh   # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.ico  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -55,7 +55,7 @@ navbar_fixed: true
 footer_fixed: false
 
 # Dimensions
-max_width: 1000px
+max_width: 1080px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -76,7 +76,7 @@ gitlab_username: # adehghanzadeh # your GitLab user name
 twitter_username: # infodior # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: dehghanzadeh # your LinkedIn user name
-telegram_username: # your Telegram user name
+telegram_username: iAlirezaD # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
@@ -88,7 +88,7 @@ lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 osf_id: # your OSF ID
 research_gate_profile: # your profile on ResearchGate
 scopus_id: # your profile on Scopus
-blogger_url: #https://past.pages.dev # your blogger URL
+blogger_url: # your blogger URL
 work_url: #https://alireza.pages.dev # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
@@ -140,20 +140,20 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
 giscus:
-  repo: alshedivat/al-folio      # <your-github-user-name>/<your-github-repo-name>
-  repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
+  repo: alerezaaa/Jekyll_alireza      # <your-github-user-name>/<your-github-repo-name>
+  repo_id: R_kgDOIRKqVA
   category: Comments             # name of the category under which discussions will be created
-  category_id: DIC_kwDOA5PmLc4CTBt6
+  category_id: DIC_kwDOIRKqVM4CTEU8
   mapping: title                 # identify discussions by post title
   strict: 1                      # use strict identification mode
   reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
-  input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
+  input_position: top         # whether to display input form below (bottom) or above (top) the comments
   theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
-  emit_metadata: 0
+  emit_metadata: 1
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+#disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
