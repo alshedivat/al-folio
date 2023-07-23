@@ -9,7 +9,7 @@ profile:
   image: mla-portland.jpg
   address: >
    <hr>
-   <p style="text-align:center"><a href="https://annakijas1.github.io/assets/pdf/2022-Kijas_CV.pdf">My C.V.</a></p>
+   <p style="text-align:center"><a href="https://annakijas1.github.io/assets/pdf/2023-Kijas_CV.pdf">My C.V.</a></p>
    <hr>
 
 news: false  # includes a list of news items
