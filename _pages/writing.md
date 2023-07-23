@@ -7,6 +7,8 @@ dropdown: true
 children: 
     - title: Philosophy
       permalink: /writing/philosophy
+    - title: Does philosophy matter?
+      permalink: /writing/does-philosophy-matter
     - title: divider
     - title: Data Science Articles
       permalink: /writing/ds_articles

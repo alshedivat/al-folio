@@ -28,6 +28,7 @@ I am reading one aphorism a day and adding it to this page.
 8. "*If bad boys should tempt you.*" **Beware of the belief that your intellectual abstinence shall prove capable of overcoming tempting circumstances when they come.** "The sacrifice of intellectual self-discipline is borne far too easily, to really believe that it is indeed one."
 9. "*Above all one thing, my child.*" **Lies are not unmoral because they are an affront to truth; that function is gone, it is now a performative power gesture.** Everyone is in the loop, no one believes anyone, it has no concealing power. The social function of the lie is disrespect, a technique of brazenness. People are compelled to lie to survive in a world which demands dishonesty. Lying arises from a sense of shame, which itself arises from the degrading state of the world.
 10. "*Separated-united.*" **Marriage is a trick of self-preservation.**It is the formal structure of economic compulsion; all parties are degraded, and no one can avoid it, *especially* the rich. There is no pure union.
+11. "*Table and bed.*" **If marriage is supposedly the intimate exception to cold h(in)human generality, its divorce is the most viscious of all,** in which the very instruments of human relations and trust, or shared bonds, become the most brutal chains. Marriage thus exposes its backside and the fragile foundation of its ideal existence.
 
 ---
 
