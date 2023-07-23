@@ -18,6 +18,7 @@ authors:
     affiliations:
       name: qlkwej
 toc:
+  - name: TL;DR
   - name: Challenge Description
   - name: Problem
   - name: Attack vectors
@@ -40,6 +41,8 @@ This writeup is just a note for myself and maybe for someone who is looking for 
 Feedback /  comments / PRs are welcome :)
 {% enddetails %}
 
+## TL;DR
+This writeup is about Kryptos Support challenge from Cyber Apocalypse CTF 2022 - Intergalactic Chase. To get the flag we need to chain a blind XSS and IDOR vulnerability.
 
 ## Challenge Description
 
@@ -76,7 +79,16 @@ So, I assume there is a cronjob that run behind the scene to check the ticket an
 ***
 
 ## Attack vectors
-Let's do basic recon to get more information about the application. I use gobuster<d-footnote>https://github.com/OJ/gobuster</d-footnote> for this purpuse and found the login directory.
+Let's do basic recon to get more information about the application. I use gobuster<d-footnote>https://github.com/OJ/gobuster</d-footnote> for this purpuse and found several directory, such as:
+```
+- admin
+- logout
+- login
+- static
+- settings
+- tickets
+```
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/cyber-apocalypse-ctf-2022/kryptos-5.png" class="img-fluid rounded z-depth-1" %}
@@ -84,8 +96,8 @@ Let's do basic recon to get more information about the application. I use gobust
 </div>
 
 So we have two piece of puzzle as a `hints`, which was:
-1. The admin will review the ticket shortly
-2. The login page
+1. The admin will review the ticket shortly.
+2. The mentioned page / directory above.
 
 The best case scenario is the admin will review the ticket (which contaions blind XSS or CSRF vulnerability) and login to the application. So, we can login to the dashboard (maybe).
 But the question is, where is the starting point?
@@ -181,9 +193,9 @@ Change the admin password on the `change password` feature and login to the admi
     </div>
 </div>
 
-```
-  HTB{x55_4nd_id0rs_ar3_fun!!}
-```
+
+flag: `HTB{x55_4nd_id0rs_ar3_fun!!}`
+
 
 ***
 

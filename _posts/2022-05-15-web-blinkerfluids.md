@@ -18,6 +18,7 @@ authors:
     affiliations:
       name: qlkwej
 toc:
+  - name: TL;DR
   - name: Challenge Description
   - name: Problem
   - name: Attack vectors
@@ -41,6 +42,8 @@ This writeup is just a note for myself and maybe for someone who is looking for 
 Feedback /  comments / PRs are welcome :)
 {% enddetails %}
 
+## TL;DR
+This writeup is about BlinkerFluids challenge from Cyber Apocalypse CTF 2022 - Intergalactic Chase. To get the flag we need to exploit the RCE vulnerability on the markdown parser engine.
 
 ## Challenge Description
 
