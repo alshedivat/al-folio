@@ -2,7 +2,7 @@ Hello!
 
 My name is Matheus, and I'm a philosopher interested in episodic memory, cognition, and neuroscience!
 
-Currently, I'm a PhD student in the Philosophy-Neuroscience-Psychology ([PNP](https://pnp.wustl.edu/)) Program at Washington University in St Louis :usa:
+Currently, I'm a PhD student in the Philosophy-Neuroscience-Psychology ([PNP](https://pnp.wustl.edu/)) Program at Washington University in St Louis :us:
 
 I completed my Master's and Bachelor's degrees at the beautiful Federal University of Santa Maria ([UFSM](https://www.ufsm.br)), in Brazil :brazil:
 
