@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of my projects. Updating, more in my CV.
+description: A growing collection of my projects. Updating, also check my <a href="/assets/pdf/CV_Qingqin Liu_2023-07.pdf"> CV </a>.
 nav: true
 nav_order: 2
 display_categories: [research, idyllic]

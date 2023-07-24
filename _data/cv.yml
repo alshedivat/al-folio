@@ -8,7 +8,7 @@
     - name: Languages
       value: Chinese(native, Cantonese & Mandarin), English(fluent)
     - name: ➡️
-      value: Please download my <a href="/assets/pdf/CV_Qingqin Liu_2023-06.pdf"> CV </a> for more information!
+      value: Please download my <a href="/assets/pdf/CV_Qingqin Liu_2023-07.pdf"> CV </a> for more information!
 
 - title: Education
   type: time_table
@@ -35,7 +35,7 @@
 - title: Selected Research Experiences
   type: time_table
   contents:
-    - title: more details in my <a href="/assets/pdf/CV_Qingqin Liu_2023-06.pdf"> CV </a>
+    - title: more details in my <a href="/assets/pdf/CV_Qingqin Liu_2023-07.pdf"> CV </a>
     - title: Metagame Interaction Design and Player Experience in Virtual Reality
       year: 08.2022 - present
 #      description:
