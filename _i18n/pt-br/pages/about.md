@@ -2,7 +2,7 @@ Olá!
 
 Meu nome é Matheus e sou um filósofo interessado em memória episódica, cognição e neurociência!
 
-Atualmente, sou estudante de doutorado no Programa de Filosofia-Neurociência-Psicologia ([PNP](pnp.wustl.edu)) na Universidade de Washington em St. Louis :usa:
+Atualmente, sou estudante de doutorado no Programa de Filosofia-Neurociência-Psicologia ([PNP](https://pnp.wustl.edu/)) na Universidade de Washington em St. Louis :usa:
 
 Concluí meu mestrado e bacharelado na bela Universidade Federal de Santa Maria ([UFSM](https://www.ufsm.br)), no Brasil :brazil:
 
