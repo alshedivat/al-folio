@@ -73,24 +73,27 @@ Table: Data setting {#tbl:dataset}
 The change signals are described by mean or median, or in more general, can also be described by quantiles individually. QDM [@cannon.etal_2015] is a technique widely used to preserve trends over historical and future simulations at all quantiles. Figure @fig:method a, b show the workflow of QDM. It extracts the trend $\Delta W_{s}$ and adds it back to the adjusted timeseries to get the downscaled results $\hat{x}_{sf}$ by following steps:
 
 The non-exceedance probability (quantiles) $Q_{sf}$ is obtained from the CDF (cumulative density function) $F_{sf}$ by simulated future (sf) variable $x_{sf}$:
+
 $$
 Q_{sf} = F_{sf} (x_{sf}), Q_{sf} \subseteq (0,1)
-$$ {#eq:1}
+$$
 
 So the relative changes on quantiles over simulated historical and future periods $\Delta W_{s}$ is:
 
 $$
 \Delta W_{s} = \frac{F_{sf}^{-1}[Q_{sf}]}{F_{sh}^{-1}[Q_{sf}]} = \frac{x_{sf}}{F_{sh}^{-1}[Q_{sf}]}
-$$ {#eq:2}
+$$
 
 Using the inversed CDF estimated from observed historical $x_{oh}$ to correct $Q_{sf}$ and get bias adjusted $\hat{x}_{oh:sf}$:
 
-$$\hat{x}_{oh:sf} = F^{-1}_{oh}[Q_{sf}]$${#eq:3}
+$$
+\hat{x}_{oh:sf} = F^{-1}_{oh}[Q_{sf}]
+$$
 
 By adding the trend into the bias adjusted dataset $\hat{x}_{oh:sf}$, the projected variable $\hat{x}_{sf}$ is:
 $$
 \hat{x}_{sf} = \hat{x}_{oh:sf}\cdot{}\Delta W_{s}
-$$ {#eq:4}
+$$
 
 ![The schematic of two quantile-based method. (a) How to get downscaled and bias-free simulations in future. (b) QDM uses quantiles describing the change signals ($\Delta W_{s}$) (c) EDCDFm uses quantiles capture the bias between model simulation and observations. In this study model is from CMIP6, and observed dataset is ERA5.](https://i.imgur.com/g708yFh.jpg){#fig:method width=100% }
 
@@ -98,7 +101,7 @@ The method EDCDFm, as shown in Figure @fig:method a, c, describes the discrepanc
 
 $$
 \hat{x}_{sf} = {x}_{sf} + F^{-1}_{oh}[Q_{sf}] - F^{-1}_{sh}[Q_{sf}]
-$$ {#eq:5}
+$$
 
 Although EDCDFm and QDM are equivalent methods [@cannon.etal_2015], they employ different workflows (@fig:method a), in this study, both methods were adopted to generate a downscaled dataset that provides bias-free results at the same resolution as ERA5. To further assess potential seasonal variations in wind speed, the trends $\Delta W_{s}$ from QDM were further grouped by week of year and/or month of year.
 
@@ -114,23 +117,23 @@ The changing signals of wind speed at coordinates 011° E and 60° N were determ
 
 Figure @fig:trend_map demonstrates the wind speed trends over the Scandinavian Peninsula, revealing differences between CMCC-CM2 and CMCC-ESM2 models. The quantification of trends is based on the median value (Q50). The CMCC-CM2 exhibits a more pronounced negative trend when compared to CMCC-ESM2. In general, projections indicate a decreasing trend in both the Norwegian Sea and Baltic Sea for most years. However, specific trends within the Scandinavian Peninsula from 2016 to 2060 are not clearly observed.
 
-![The trend of median wind speed (Q50) 2015-2060. The trend is calculated in a 10-year-window relative to baseline from CMCC-CM2 (top) and from CMCC-ESM2 (bottom). Visit https://i.imgur.com/S2T0bpn.gif to get the dynamic gif. ](https://i.imgur.com/S2T0bpn.gif){#fig:trend_map}
+![The trend of median wind speed (Q50) 2015-2060. The trend is calculated in a 10-year-window relative to baseline from CMCC-CM2 (top) and from CMCC-ESM2 (bottom). Visit https://i.imgur.com/S2T0bpn.gif to get the dynamic gif. ](https://i.imgur.com/S2T0bpn.gif)
 
 Specific to the period from 2050 to 2060, Figure @fig:trend_chart shows the changing trend at coordinates 011° E and 60° N. The CMCC-CM2 model shows a strong positive trend across all quantiles in weeks 10 to 12. On the other hand, the CMCC-ESM2 model exhibits a positive trend at weeks 43 to 45. The fact that the two models show different trends suggests that they have distinct projections for this region and time period. These differences in trends have implications for any analysis or decision-making based on these models' results (Figure @fig:trend_chart b, d). Depending on the specific application, it may be necessary to consider both models' projections and their respective uncertainties.
 
-![Comparison of wind speed trend 2050-2060 at coordinates 011° E and 60° N. (a) The changing signals of CMCC-CM2 2050-2060 to baseline (1980-1999). (b) Mapping the signals from (a) to windspeed timeseries of year 1999. (c) The changing signals of CMCC-ESM2 2050-2060 to baseline (1980-1999) (d) Mapping the signals from (c) to windspeed timeseries of year 1999.  ](https://i.imgur.com/6g1Kslx.jpg){#fig:trend_chart}
+![Comparison of wind speed trend 2050-2060 at coordinates 011° E and 60° N. (a) The changing signals of CMCC-CM2 2050-2060 to baseline (1980-1999). (b) Mapping the signals from (a) to windspeed timeseries of year 1999. (c) The changing signals of CMCC-ESM2 2050-2060 to baseline (1980-1999) (d) Mapping the signals from (c) to windspeed timeseries of year 1999.  ](https://i.imgur.com/6g1Kslx.jpg)
 
 ### The downscaled windspeed 2050 to 2060
 
 The windspeed project of CMCC-CM2 and CMCC-ESM2 exhibit inconsistencies when compared at seasonal to yearly time scales. To specific time period from year 2050 to 2060, QDM and EDCDFm yield similar downscaled results, with R-squared coefficients exceeding 0.995. However, the projections of CMCC-CM2 and CMCC-ESM2 differ significantly, resulting in downscaled results with R-squared coefficients below 0.008. Specifically, at coordinates 011° E and 60° N (Oslo, Norway), the model simulations indicate lower windspeeds. And, the downscaled windspeeds are adjusted higher and adopt the patterns observed in the models. For instance, between 2050 and 2054, the peak windspeed of downscaled ESM2 (shown in green on Figure @fig:downscaled_chart a) follows the rising trend of raw ESM2 (shown in orange on Figure @fig:downscaled_chart a). Similarly, at coordinates 005.5° E and 60.5° N (Bergen, Norway), the downscaled estimation reduces the windspeeds from the model while preserving the underlying patterns. So, the downscaling cannot "correct" the inherent bias of models, but just rescale it to match the distribution trained by ERA5.
 
-![Comparison of downscaled windspeeds at coordinates 011° E and 60° N using QDM and EDCDFm methods from 2050 to 2060 (a) Oslo, Norway (b) Bergen, Norway. The reference dataset for downscaling is ERA5 (1999-2014) ](https://i.imgur.com/GB39Q0T.jpg){#fig:downscaled_chart}
+![Comparison of downscaled windspeeds at coordinates 011° E and 60° N using QDM and EDCDFm methods from 2050 to 2060 (a) Oslo, Norway (b) Bergen, Norway. The reference dataset for downscaling is ERA5 (1999-2014) ](https://i.imgur.com/GB39Q0T.jpg)
 
 ### The downscaled windspeed on validation dataset
 
 The validation results for the year 2014 using three different timespans indicate that the quantile-based downscaling method effectively reproduces most of the details on ERA5 coarsen dataset, demonstrating its effectiveness in downscaled windspeed estimation. Figure @fig:downscaled_2014 presents the validation results for the year 2014 at time span: monthly, seasonally, and yearly. The quantile-based downscaling method successfully reproduces most of the details on ERA5 coarsen dataset. As discussed in previous sections, there is a bias present in the CMCC-CM2 model, resulting in significant residuals compared to ERA5 coarsen dataset. Moreover, as the timespan increases to 4 months and a year, these residuals become less pronounced. Specifically, the downscaled yearly average windspeed shows a much closer agreement with ERA5 validation compared to the weekly average. These findings indicate that while there are low signal-to-noise ratio in the CMCC-CM2 model, the aggregation along time axis can still make the downscaled windspeed presenting the correct subgrid details. Overall, the quantile-based downscaling method effectively reproduces most of the details on ERA5 coarsen dataset, validating its accuracy and robustness in downscaled windspeed estimation.
 
-![Downscale windspeed from ERA5 Coarsen and CMCC-CM2 and validation by ERA5. (a) mean windspeed 2014.01.01 to 2014.01.30 (b) mean windspeed 2014.01.01-2014.03.30 (c) mean windspeed 2014.01.01-2014.12.31. The training dataset is ERA5 between 1999 and 2013.](https://i.imgur.com/p4h0m7y.jpg){#fig:downscaled_2014 width=75%}
+![Downscale windspeed from ERA5 Coarsen and CMCC-CM2 and validation by ERA5. (a) mean windspeed 2014.01.01 to 2014.01.30 (b) mean windspeed 2014.01.01-2014.03.30 (c) mean windspeed 2014.01.01-2014.12.31. The training dataset is ERA5 between 1999 and 2013.](https://i.imgur.com/p4h0m7y.jpg)
 
 
 ## Discussion and Conclusion
