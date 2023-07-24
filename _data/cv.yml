@@ -15,9 +15,12 @@
 - title: Education
   type: time_table
   contents:
+    - title: PhD in Philosophy-Neuroscience-Psychology
+      institution: Washington University in St Louis, St Louis, USA
+      year: 2023 - Current
     - title: Master's in Philosophy
       institution: Federal University of Santa Maria, Santa Maria, Brazil
-      year: 2022 - current
+      year: 2022 - 2023
       description:
         - Episodic Memory
         - Imagination
@@ -37,14 +40,13 @@
     - title: Areas of specialization
       items: 
         - Philosophy of memory
-        - Philosophy of neuroscience
-        - Philosophy of cognitive sciences 
+        - Philosophy of cognitive sciences & neuroscience
         - Mechanisms
     - title: Areas of competence
       items:
         - Philosophy of mind
         - Philosophy of science
-        - Metaphysics of time
+        - Metaphysics
 
 - title: Published peer-reviewed papers
   type: time_table
@@ -60,13 +62,6 @@
     - title: O dilema presentista  
       institution: <i>Em curso</i>, vol. 6, <a href='http://www.emcurso.ufscar.br/index.php/emcurso/article/view/248'> url </a>
       year: 2019
-    
-    # - title: Visiting Professor
-    #   institution: California Institute of Technology, Pasadena, California, US
-    #   year: 1933
-    #   description:
-    #     - Description 1.
-    #     - Description 2.
 
 - title: Refereed talks in conferences
   type: time_table
