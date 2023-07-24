@@ -7,99 +7,71 @@ importance: 1
 category: Data Science
 ---
 
-*You can find the full code in [here](https://github.com/DanielDaCosta/ml-serverless-deploy)*
+*You can find the full code in [here](https://github.com/DanielDaCosta/recommendation-system)*
 
-In this repository we'll be building the following architecture:
+# Recommendation System
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The project consists of building  different types of recommendation systems using the [Yelp](https://www.yelp.com/dataset) dataset to predict the ratings/stars for given user ids and business ids.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/serverless_architecture.png' | relative_url }}" alt="" title="Serverless Architecture"/>
-    </div>
-</div>
+## Dataset
+
+Original Yelp review dataset with some filters.
+
+1. yelp_train.csv: the training data, which only include the columns: user_id, business_id, and stars.
+2. yelp_val.csv: the validation data, which are in the same format as training data.
+3. We are not sharing the test dataset.
+5. review_train.json: review data only for the training pairs (user, business)
+6. user.json: all user metadata
+7. business.json: all business metadata, including locations, attributes, and categories d. checkin.json: user checkins for individual businesses
+8. tip.json: tips (short reviews) written by a user about a business
+9. photo.json: photo data, including captions and classifications
 
 
-Don't forget to set up your aws credentials using *aws cli*.
+## Models
 
-# Details
+### Item-based CF recommendation system with Pearson similarity
+The idea behind a item-to-item collaborative filtering is to rather than matching similar users, match user's rated items to similar items. In practice, often leads to faster online systems and better recommendations
+Similarities between pairs of items i and j are computed off-line.
+Predict rating of user “a” on item “i" with a simple weighted average
 
-The input data will be stored in a S3 bucket, in our case the csv file. 
+### Results 
+File: code/competition.py
+RMSE: 1.0575379905
 
-The model file will also be stored inside a S3 bucket. Since the model file can be quite large (>90Mb), we will need to load it during AWS Lambda inference execution from Amazon S3. You can observe that the model downloading was placed outside of the handler function. This was done in order to take advantage of AWS Lambda container reuse. Any code executed outside of the handler method will be invoked only once upon container creation and kept in memory across calls to the same Lambda container, making subsequent calls to Lambda faster.
 
-## Files
 
-- s3_utils.py: functions for read and write from s3
-- config.py: load environments variables
-- serverless.yml: Serverless Frameworl YML file
-- handler.py: file to be invoked for AWS lambda when the service executes the code.
-- requirement.txt: python dependencies
-- .env: environment variables
-- Images/: contains all images from repository
+## Model-based
+In this project, I have implemented a Model-Based approach to predict user ratings. To achieve this, I utilized the powerful **XGBoost** model, which I fine-tuned through **RandomizedSearchCV** with a thoughtfully selected set of parameters. This rigorous tuning process aimed to optimize the model's performance and enhance its predictive capabilities.
 
-# Usage
 
-Installing Serverless Framework
-
+### Fine-tuning
+The hyperparameters that have been tuned were 
 ```
-npm install -g serverless
-```
-In this repository will be using Python3. Create a repository, go inside and run the following command:
-```
-serverless create --template aws-python3
-```
+ {'max_depth': [7, 8, 9], 'learning_rate': [0.01, 0.03 ,0.05, 0.07, 0.1], 'n_estimators': [512], 'colsample_bytree': np.arange(0.7, 1, 0.1), 'colsample_bylevel': np.arange(0 7, 1.0, 0.1).}
+ ```
 
-Installing *serverless-python-requirements plugin*. A Serverless v1.x plugin to automatically bundle dependencies from requirements.txt and make them available in your PYTHONPATH.:
-```
-sls plugin install -n serverless-python-requirements
-```
-Installing *serverless-dotenv-plugin*. Preload environment variables into serverless. Use this plugin if you have variables stored in a .env file that you want loaded into your serverless yaml config.:
-```
-npm i -D serverless-dotenv-plugin
-```
+I employed a **Model Stacking** technique with Cross Validation to train the model, generating 10 distinct models. To arrive at the final rating prediction, I averaged the individual predictions from each model.
 
-Deployment
-```
-serverless deploy
-```
-## Code
-The model used is an energy forecasting model using XGboost. The dataset consists of hourly energy consumption rates in kWh for an industrial utility. You can check more about it in [here](https://github.com/DanielDaCosta/energy-forecast).
+For consistency and reproducibility, I saved all 10 models in the model/ folder and utilized the joblib library to read them for making predictions.
 
-The model has a *forecasting horizon* (The number of time periods to forecast into the future) of 1 hour.
+Additionally, I experimented with combining user-based, item-based, and model-based predictions using both switching and weighting techniques. Despite exploring these approaches, the model-based prediction consistently outperformed the other two methods.
 
-The model inputs are stored in s3 Bucket. It consists of the model inputs parameter of the last hour. The parameters are:
-- hour
-- weekday 
-- dayofyear
-- is_weekend
-- weekofyear
-- month
-- season
-- shift
-- lag_1
-- lag_8
-- lag_25
+### Features
 
-Having energy forecast as output.
+In this project, significant effort was dedicated to feature engineering to optimize the predictive performance and minimize the Root Mean Squared Error (RMSE). To achieve this, a diverse set of features was explored, combining raw data from both the User and Business datasets with newly created features. The following features were developed:
 
-**Inputs**
+1. n_attributes: The number of attributes associated with each business_id, providing additional information about the businesses' characteristics.
 
-The inputs are saved in an s3 bucket as a *.csv*
+2. average_stars_user: The average star rating given by each user, offering insights into their general reviewing behavior.
 
-**Model**
+3. avg_star_category: The average star rating given by each user for businesses falling within specific categories, enabling the model to capture preferences across different types of businesses.
 
-The XGboost model is saved as *.sav* in s3
+4. The businesses were categorized into the following categories: ['restaurants', 'shopping', 'food', 'beauty', 'health', 'home', 'nightlife', 'automotive', 'bars', 'local'].
 
-**Results**
+5. yelping_since_year: The year of each review, potentially uncovering trends or changes in reviewing habits over time.
 
-The results are also stored in s3 as a *.csv*
+6. review_count_business: The average number of reviews per business, which may reveal patterns related to business popularity or activity.
 
-### Pipeline
-
-CloudWatch trigger (every hour) -> Read Inputs -> Read Model -> Prediction -> Save Model
-
-## Testing function locally
-```
-serverless invoke local -f function_name
-```
+### Results
+- Files: competion.py and train.py
+- RMSE: 0.9772904711772428

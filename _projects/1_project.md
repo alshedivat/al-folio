@@ -11,8 +11,6 @@ category: Data Science
 
 In this repository we'll be building the following architecture:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/serverless_architecture.png' | relative_url }}" alt="" title="Serverless Architecture"/>
