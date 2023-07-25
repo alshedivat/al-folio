@@ -14,6 +14,50 @@ Skip to a section: [AI](#ai), [Philosophy](#philosophy), [Film](#film), [Fiction
 
 ---
 
+### Philosophy
+
+Articles
+- ["The Revolt of the Salaried Bourgeoisie"](https://www.lrb.co.uk/the-paper/v34/n02/slavoj-zizek/the-revolt-of-the-salaried-bourgeoisie){:target="_blank"}, Slavoj Žižek -- an important update to Marxist analysis for the 21st century economy, especially for tech workers
+- ["Philosophy: Who Needs It?"](https://www.stephenhicks.org/wp-content/uploads/2018/12/Philosophy-Who-Needs-It-text.pdf){:target="_blank"}, Ayn Rand -- a rhetorically effective and accessible explanation for why philosophy is more important than ever, which I recommend to anyone who is skeptical of or new to philosophy
+- ["Rawls' Law of Peoples: Rules for a Vanished Westphalian World"](https://www.jstor.org/stable/10.1086/233370){:target="_blank"}, Allen Buchanan -- an interesting philosophical historicization of Rawls which strikes at a deep gash in political philosophy itself.
+- ["Rawls, Hegel, and Communitarianism"](https://www.jstor.org/stable/192057){:target="_blank"}, Sibyl A. Schwarzenbach -- an interesting attempt at the very difficult project of writing coherently on Rawls and Hegel in the same paragraph.
+
+Books
+- *The Poverty of Ethics*, Anat Amar -- a brilliant synthesis of analytic ethics and Continental discontent.
+- *Queer Phenomenology*, Sara Ahmed -- a phenomenological account of queer bodies and spaces which leads us towards a socially-aware phenomenology of phenomenology
+- *Sex and the Failed Absolute*, Slavoj Zizek -- an ingenious and culturally aware synthesis of psycholanalysis and Hegel, through a triadic topological analogy
+<!-- - *Being and Nothingness*, Jean-Paul Sartre -- the classic existentialist text; a wonderful medium for self-reflection and meditation -->
+
+---
+
+### Film
+Movies
+- *Oppenheimer* -- the most powerful film I have experienced. More horrific than any horror movie I have watched. Exploration of the utter contradiction of man and God, of violence and peace, of necessity and freedom -- of the atomic bomb, and the man that was Oppenheimer.
+- *Summer of '85* -- a more sensitive and textually self-aware *Call Me By Your Name*
+- *Brokeback Mountain* -- a classic masterpiece of environmental cinematography and queer film
+- *La La Land* -- beautiful cinematography and play with destiny and time
+- *Parasite* -- biting social critique of globalized capitalism
+- *2001: A Space Odyssey* -- an unhurried and thoughtful meditation on technology and Nietzschian transcendence
+- *The Menu* -- an entertaining watch and commentary on bourgeois consumption and production
+- *Midsommar* -- a beautiful film, and a deeply disturbing exploration of the "anthropologist's gaze"
+
+TV Shows
+- *Succession* -- an edgy portrayal of family, politics, and corporate power
+- *The White Lotus* -- brilliantly nuanced portrays of colonial, racial, and sexual tensions in bourgeois society
+
+Documentary
+- *Hearts and Minds* -- a brutally material portrayal of horror and patriotism in the Vietnam War, terrifying in its nakedness
+- *The Pervert's Guide to Ideology* -- a fun watch, an accessible overview of Slavoj Zizek's psychoanalytic-Hegelian treatment of cinema
+- *AlphaGo* -- a close look at humanity from the nonhuman: indeed, the only perspective from which humanity can truly be gazed at.
+
+---
+
+### Fiction
+- *Crime and Punishment*, Fyodor Dostevsky -- a meditation on sin, guilt, and redemption
+- *Infinite Jest*, David Foster Wallace -- we are addicted to entertainment, and entertained by addiction
+- *Never Let Me Go*, Kazuo Ishiguro -- the beauty of our fragile life becomes palpable when it's about to be broken
+- *Lolita*, Vladimir Nabokov
+
 ### AI
 A collection of hand-picked interesting AI papers.
 
@@ -67,51 +111,5 @@ Meta
 - ["On the Measure of Intelligence"](https://arxiv.org/abs/1911.01547){:target="_blank"} by Francois Chollet
 - ["Computing Machinery and Intelligence"](https://academic.oup.com/mind/article/LIX/236/433/986238){:target="_blank"} by Alan Turing
 - ["The Bitter Lesson"](http://www.incompleteideas.net/IncIdeas/BitterLesson.html){:target="_blank"} by Rich Sutton
-
-
----
-
-### Philosophy
-
-Articles
-- ["The Revolt of the Salaried Bourgeoisie"](https://www.lrb.co.uk/the-paper/v34/n02/slavoj-zizek/the-revolt-of-the-salaried-bourgeoisie){:target="_blank"}, Slavoj Žižek -- an important update to Marxist analysis for the 21st century economy, especially for tech workers
-- ["Philosophy: Who Needs It?"](https://www.stephenhicks.org/wp-content/uploads/2018/12/Philosophy-Who-Needs-It-text.pdf){:target="_blank"}, Ayn Rand -- a rhetorically effective and accessible explanation for why philosophy is more important than ever, which I recommend to anyone who is skeptical of or new to philosophy
-- ["Rawls' Law of Peoples: Rules for a Vanished Westphalian World"](https://www.jstor.org/stable/10.1086/233370){:target="_blank"}, Allen Buchanan -- an interesting philosophical historicization of Rawls which strikes at a deep gash in political philosophy itself.
-- ["Rawls, Hegel, and Communitarianism"](https://www.jstor.org/stable/192057){:target="_blank"}, Sibyl A. Schwarzenbach -- an interesting attempt at the very difficult project of writing coherently on Rawls and Hegel in the same paragraph.
-
-Books
-- *The Poverty of Ethics*, Anat Amar -- a brilliant synthesis of analytic ethics and Continental discontent.
-- *Queer Phenomenology*, Sara Ahmed -- a phenomenological account of queer bodies and spaces which leads us towards a socially-aware phenomenology of phenomenology
-- *Sex and the Failed Absolute*, Slavoj Zizek -- an ingenious and culturally aware synthesis of psycholanalysis and Hegel, through a triadic topological analogy
-- *Being and Nothingness*, Jean-Paul Sartre -- the classic existentialist text; a wonderful medium for self-reflection and meditation
-
----
-
-### Film
-Movies
-- *Summer of '85* -- a more sensitive and textually self-aware *Call Me By Your Name*
-- *Brokeback Mountain* -- a classic masterpiece of environmental cinematography and queer film
-- *La La Land* -- beautiful cinematography and play with destiny and time
-- *Parasite* -- biting social critique of globalized capitalism
-- *2001: A Space Odyssey* -- an unhurried and thoughtful meditation on technology and Nietzschian transcendence
-- *The Menu* -- an entertaining watch and commentary on bourgeois consumption and production
-- *Midsommar* -- a beautiful film, and a deeply disturbing exploration of the "anthropologist's gaze"
-
-TV Shows
-- *Succession* -- an edgy portrayal of family, politics, and corporate power
-- *The White Lotus* -- brilliantly nuanced portrays of colonial, racial, and sexual tensions in bourgeois society
-
-Documentary
-- *Hearts and Minds* -- a brutally material portrayal of horror and patriotism in the Vietnam War, terrifying in its nakedness
-- *The Pervert's Guide to Ideology* -- a fun watch, an accessible overview of Slavoj Zizek's psychoanalytic-Hegelian treatment of cinema
-- *AlphaGo* -- a close look at humanity from the nonhuman: indeed, the only perspective from which humanity can truly be gazed at.
-
----
-
-### Fiction
-- *Crime and Punishment*, Fyodor Dostevsky -- a meditation on sin, guilt, and redemption
-- *Infinite Jest*, David Foster Wallace -- we are addicted to entertainment, and entertained by addiction
-- *Never Let Me Go*, Kazuo Ishiguro -- the beauty of our fragile life becomes palpable when it's about to be broken
-- *Lolita*, Vladimir Nabokov
 
 ---
