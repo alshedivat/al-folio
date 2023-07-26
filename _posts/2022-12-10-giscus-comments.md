@@ -22,19 +22,11 @@ toc:
 
 
 
-## Introduction
-
-This post explores various types of autoencoders. Autoencoders are a class of artificial neural network that can be used for unsupervised learning tasks. They have become increasingly popular in recent years, and are now used in a variety of applications, including image and speech recognition, anomaly detection, and natural language processing. 
-
-There are several different types of autoencoders, each with its own specific architecture and use case. Some examples include the vanilla autoencoder, which consists of a single hidden layer; the denoising autoencoder, which can be used to remove noise from input data; and the variational autoencoder, which can be used to generate new data samples that are similar to the input data. 
-
-In addition to their practical applications, autoencoders have also been used to advance the field of deep learning. For example, they have been used to pretrain deep neural networks, which can then be fine-tuned for specific tasks. They have also been used to achieve state-of-the-art results on many tasks, including image classification, speech recognition, and natural language processing. 
-
-This post explores various autoencoder architectures, from the 
+<!-- ## Introduction -->
 
 ## The Standard Autoencoder
 
-An autoencoder is a special type of neural network architecture that learns to reconstruct its input. It consists of two components: an encoder to learn a representation of the input, and decoder to construct this representation back into the input. However, the actual architecture is a single feed-forward network, with a bottleneck layer marking the boundary between the two components.
+<!-- An autoencoder is a special type of neural network architecture that learns to reconstruct its input. It consists of two components: an encoder to learn a representation of the input, and decoder to construct this representation back into the input. However, the actual architecture is a single feed-forward network, with a bottleneck layer marking the boundary between the two components.
 
  Once an input sample of dimension $$N$$ passes through the encoder, we obtain a latent representation of it that has dimensionality $$D$$. As autoencoders are tools for dimnesionality reduction, $$D \ll N$$. Subsequently, the decoder takes this latent representation and produces an output of size $$N$$, that resembles the input as closely as possible. 
 
@@ -42,10 +34,16 @@ If the decoder is able to reconstruct the input simply using the latent represen
 
 It is not possible to exactly reconstruct the input. The encoding process is lossy, as it attempts to store a relatively larger amount of information into a compressed space. Some details of the input are necessarily discarded to produce the hidden code. This lossy behaviour is intentional, of course, because it encourages the network to discard less relevant information. 
 
-Once the autoencoder is trained, we have a system which can compress information. This is particular useful for applications such as data transfer. We can encode a piece of data, transfer the code, and decode it on the other side. This is just one of many applications of autoencoders. 
+Once the autoencoder is trained, we have a system which can compress information. This is particular useful for applications such as data transfer. We can encode a piece of data, transfer the code, and decode it on the other side. This is just one of many applications of autoencoders.  -->
 
-## Mathematical Overview of Autoencoders
+<!-- ## Mathematical Overview of Autoencoders -->
 
+
+An autoencoder is a special type of neural network architecture that learns to reconstruct its input. It consists of two components: an encoder to learn a representation of the input, and decoder to construct this representation back into the input. However, the actual architecture is a single feed-forward network, with a bottleneck layer marking the boundary between the two components.
+
+Once an input sample of dimension $$N$$ passes through the encoder, we obtain a latent representation of it that has dimensionality $$D$$. As autoencoders are tools for dimnesionality reduction, $$D \ll N$$. Subsequently, the decoder takes this latent representation and produces an output of size $$N$$, that resembles the input as closely as possible. 
+
+If the decoder is able to reconstruct the input simply using the latent representation, the latter must contain all the most relevant information about the original input. 
 
 From a mathematical perspective, the encoder can be represented as a function $$f$$ that maps an input vector $$\mathbf{x}$$ to a latent representation $$\mathbf{z}$$:
 
@@ -73,19 +71,35 @@ $$\mathcal{L}_{\text{BCE}} = -\frac{1}{n} \sum_{i=1}^{n} (\mathbf{x}_i \log(\mat
 
 where $$\log$$ represents the natural logarithm.
 
-## Regularization Methods
+## Generation 
+Consider the space $$\mathbf{S}$$, which contains all possible images of shape $$\mathbf{H \times W}$$. Consider also the smaller subspace $$\mathbf{S_N}$$ of natural images. If we want to generate an image in $$\mathbf{S_N}$$, we have nowhere to start. What set of $$\mathbf{HW}$$ pixels will place us in this space to begin with? One can begin by randomly sampling each pixel value, but it is incredibly unlikely that all $$\mathbf{HW}$$ pixels (or even a small subset of them, for that matter) will result in anything sensible. 
+
+To make the problem easier, suppose we have some way of picking a good initialization, such that we are already in $$\mathbf{S_N}$$. How do we generate another image? In other words, how do you move from one point in the subspace to another? Once again, we can use the idea of applying random perturbations to each pixel, but this unlikely to result in another valid natural image. The result will be a corrupted version of the original.
+
+Clearly, $$\mathbf{S_N}$$ is small compared to $$\mathbf{S}$$, and it is very tricky to navigate. This makes it difficult to 1) find a good starting point for generation, and 2) traverse the space. Clearly, working in image space poses a few challenges. Is it possible to build another space that does not suffer from these issues?
+ 
+As we shall see, a special type of autoencoder, the $$\textbf{Variational Autoencoder}$$ (VAE), does exactly this. I attempt to motivate it in a way that lends itself to building one's intuition, but there are plenty of alternative explanations out there if this one does not make sense to you. 
+
+<!-- ## Regularization Methods
 
 To recap, a autoencoder should take in some input, and produce an output that resembles the input as closely as possible. In between these two stages is some kind of lossy process that prevents the autoencoder from having access to the entire input, and trivially copying it. The architecture described previously falls under a category of autoencoders known as undercomplete autoencoders, where a bottleneck layer enforces this information loss. 
 
-There are various alternatives to the bottleneck architecture. Overcomplete autoencoders avoid restricting the size of the latent vector in the neural network (i.e. the bottleneck layer), instead opting to use techniques such as regularization or denoising to limit the information stored in this layer. In this case, the dimension of the latent vector can be larger than the input. Clearly, an overcomplete autoencoder itself is useless, as the network could trivially learn the identity by passing the input through the latent layer unchanged. Regularization penalizes the use of the additional real estate in the large latent layer, hoping to prevent the autoencoder from simply passing information through it and forcing it to compress information into fewer number of neurons. In a similar vein, the denoising task also prevents the autoencoder from copying the input to the output, by providing it with a noisy copy of the input. This way, the autoencoder must learn to transform this noisy image into one that is denoised. The identity function with no longer suffice. 
+There are various alternatives to the bottleneck architecture. Overcomplete autoencoders avoid restricting the size of the latent vector in the neural network (i.e. the bottleneck layer), instead opting to use techniques such as regularization or denoising to limit the information stored in this layer. In this case, the dimension of the latent vector can be larger than the input. Clearly, an overcomplete autoencoder itself is useless, as the network could trivially learn the identity by passing the input through the latent layer unchanged. Regularization penalizes the use of the additional real estate in the large latent layer, hoping to prevent the autoencoder from simply passing information through it and forcing it to compress information into fewer number of neurons. In a similar vein, the denoising task also prevents the autoencoder from copying the input to the output, by providing it with a noisy copy of the input. This way, the autoencoder must learn to transform this noisy image into one that is denoised. The identity function with no longer suffice.  -->
 
 ## Variational Autoecoders
 
-Consider the simple graphical model in figure X. While $$\mathbf{x}\in \mathcal{R}^d$$ is observed, it is a product of $$\mathbf{z}\in \mathcal{R}^k$$, a latent space variable. We can't observe $$\mathbf{z}$$ (otherwise it wouldn't be latent), but it may be possible to infer it after observing its generation, $$\mathbf{x}$$. We're interested in this latent variable $$\mathbf{z}$$ because it generates our observations. 
 
-In order to treat this as a generative process, we define a distribution $$p(\mathbf{z})$$ from which we can randomly sample a latent vector. Subsequently. we could provide $$\mathbf{z}$$ as input to some deterministic decoder $$G_\theta(\mathbf{z})$$, producing generated samples $$\mathbf{x'}$$. The process of converting a latent representation into an image is complicated. As usual, such complicated functions can be approximated by a neural network, and so $$G_\theta$$ is implemented as such.
+Consider the simple graphical model $$\mathbf{Z} \rightarrow \mathbf{X}$$, describing a generative process wherein a latent variable $$\mathbf{z}$$ is converted into an item of interest $$\mathbf{x}$$ (which we will treat as an image from this point onward). The variable $$\mathbf{z}$$ exists in a latent space, from which we can map to a valid datapoint in image space, \mathbf{x}. This space should be constructed such that it circumvents the issues that we previously encountered. 
 
-The issue with this approach occurs in how we formulate our training procedure. A natural way of training a model on this task may entail a maximum likelihood objective, where we try to optimize the parameters of the model to maximize the likelihood of the data, $$p(\mathbf{x})=\int p(\mathbf{z})p(\mathbf{x}\vert\mathbf{z}) d\mathbf{z}$$. Here, $$p(\mathbf{z})$$ is a prior distribution for $$\mathbf{z}$$, which we often choose to be a Gaussian. This may seem rather ad-hoc, but Gaussians have much to offer in the way of computational convenience. The second term, $$p(\mathbf{x}\vert \mathbf{z})$$, represents the probability distribution over the decoder's outputs, conditioned on the input $$\mathbf{z}$$. If the decoder is deterministic, each input $$\mathbf{z}$$ corresponds to a single output $$\mathbf{x'}$$, meaning the distribution $$p(\mathbf{x}\vert \mathbf{z})$$ is zero everywhere except where single point where $$\mathbf{x} = \mathbf{x'}$$. As such, there is often no training signal. The problem is made worse when $$k\ll d$$. The decoder must map the low dimensional latent code $$\mathbf{z}$$ to a much higher dimension. 
+While $$\mathbf{x}\in \mathcal{R}^d$$ is observed, it is a product of $$\mathbf{z}\in \mathcal{R}^k$$, a latent space variable. We can't observe $$\mathbf{z}$$ (otherwise it wouldn't be latent), but it may be possible to infer it after observing its generation, $$\mathbf{x}$$. We're interested in this latent variable $$\mathbf{z}$$ because it maps to our observations $$\mathbf{x}$$. 
+
+In order to treat this as a generative process, we begin by defining a distribution $$p(\mathbf{z})$$ from which we can randomly sample a latent vector. Subsequently, we could provide $$\mathbf{z}$$ as input to a (for simplicity) deterministic decoder $$G_\theta(\mathbf{z})$$, producing generated samples $$\mathbf{x'}$$. However, the process of converting a latent representation into an image is complicated. As usual, such complicated functions can be approximated by a neural network, and so $$G_\theta$$ is implemented as such.
+
+<!-- below: add some discussion on autoregressive MLE  -->
+The issue with this approach occurs in how we formulate our objective. A natural way of training a model on this task may entail a maximum likelihood objective, where we try to optimize the parameters of the model to maximize the likelihood of the data, $$p(\mathbf{x})=\int p(\mathbf{z})p(\mathbf{x}\vert\mathbf{z}) d\mathbf{z}$$ (using Bayes' rule to reformulate our MLE objective actually provides some hints in how we might design our architecture). Here, $$p(\mathbf{z})$$ is a prior distribution for $$\mathbf{z}$$, which is often chosen to be a Gaussian. If we had access to both $$p(\mathbf{z})$$ and $$p(\mathbf{x}\vert\mathbf{z})$$ which worked together (perhaps through joint training), we could sample $$\mathbf{z}$$ from the former, and subsequently use it to sample $$\mathbf{x}$$ from the latter distribution. If we assume that this scheme works, and we have both distributions in hand, then we have solved both issues that arose earlier. Since we know the distribution $$p(\mathbf{z})$$ (we explicitly chose it to be Gaussian with some pre-selected mean and variance), we have some reference point to begin with. For instance, if we somehow succeeded in getting $$p(\mathbf{z})$$ and $$p(\mathbf{x}\vert\mathbf{z})$$ working together, and $$p(\mathbf{z})$$ was a Gaussian with $$\mathbf{\mu}=\mathbf{0}$$, then we could just start sampling from there. The second issue might also be resolved, as $$p(\mathbf{x}\vert\mathbf{z})$$ is a continuous distribution, and if $$p(\mathbf{x}\vert\mathbf{z})$$ is able to generate samples from it, then we must have encoded most of the relevant information into $$p(\mathbf{z})$$. The choice of $$p(\mathbf{z})$$ being Gaussian may seem rather ad-hoc, but Gaussians have much to offer in the way of computational convenience. 
+
+<!-- clarify this parapgraph -->
+The second term, $$p(\mathbf{x}\vert \mathbf{z})$$, represents the probability distribution over the decoder's outputs, conditioned on the input $$\mathbf{z}$$. If the decoder is deterministic, each input $$\mathbf{z}$$ corresponds to a single output $$\mathbf{x'}$$, meaning the distribution $$p(\mathbf{x}\vert \mathbf{z})$$ is zero everywhere except where single point where $$\mathbf{x} = \mathbf{x'}$$. As such, there is often no training signal. The problem is made worse when $$k\ll d$$. The decoder must map the low dimensional latent code $$\mathbf{z}$$ to a much higher dimension. 
 
 We deal with this by introducing a \textit{noisy channel model}, 
 
@@ -163,7 +177,7 @@ $$
 
 The observed data does not change - $$\log(p(\mathbf{x}))$$ must be a constant. However, the terms which sum up to the log data likelihood do vary individually. If we increase one of the terms, we must decrease the others. Our objective was to minimize $$D_{KL}(q_\phi(\mathbf{z}\vert\mathbf{x})\vert\vert p(\mathbf{z}\vert\mathbf{x}))$$, but obtaining $$p(\mathbf{z}\vert\mathbf{x})$$ is difficult (which is why we are approximating it with $$q_\phi(\mathbf{z}\vert\mathbf{x})$$ in the first place). Instead, we can maximize the we named "ELBO", which \textit{is} tractable. This term is the \textbf{variational lower bound}. Given our above reasoning, maximizing the ELBO will minimize $$ D_{KL}(q_\phi(\mathbf{z}\vert\mathbf{x})\vert\vert p(\mathbf{z}\vert\mathbf{x}))$$, and we will obtain an encoder which closely approximates the true posterior distribution.
 
-## Other Useful Sources
+<!-- ## Other Useful Sources
 
 Citations are then used in the article body with the `<d-cite>` tag.
 The key attribute is a reference to the id provided in the bibliography.
@@ -209,5 +223,5 @@ function(x) {
 
 ***
 
-## Interactive Plots
+## Interactive Plots -->
 
