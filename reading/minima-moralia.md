@@ -29,6 +29,7 @@ I am reading one aphorism a day and adding it to this page.
 9. "*Above all one thing, my child.*" **Lies are not unmoral because they are an affront to truth; that function is gone, it is now a performative power gesture.** Everyone is in the loop, no one believes anyone, it has no concealing power. The social function of the lie is disrespect, a technique of brazenness. People are compelled to lie to survive in a world which demands dishonesty. Lying arises from a sense of shame, which itself arises from the degrading state of the world.
 10. "*Separated-united.*" **Marriage is a trick of self-preservation.**It is the formal structure of economic compulsion; all parties are degraded, and no one can avoid it, *especially* the rich. There is no pure union.
 11. "*Table and bed.*" **If marriage is supposedly the intimate exception to cold h(in)human generality, its divorce is the most viscious of all,** in which the very instruments of human relations and trust, or shared bonds, become the most brutal chains. Marriage thus exposes its backside and the fragile foundation of its ideal existence.
+12. "*Among equals.*" **In sexually liberated modernity, yearning passes from the bohemians to their opposites -- the frigid wives left behind.** Only the abandoned wives may grant what all others have withheld from them, whereas those which have sexuality written across theri faces make a transaction and even a business out of it. Those frigid wives are the last bastion of the erotic.
 
 ---
 
