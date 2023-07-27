@@ -6,7 +6,7 @@ description: A curated collection of incredible music.
 nav: false
 ---
 
-3 selections each from 6 genres: [cinema](#cinema), [soft rock](#soft-rock), [alt rock](#alt-rock), [mainstream rock](#mainstream-rock), [pop](#pop) [metal](#metal), [classical](#classical)
+3 selections each from 8 genres: [cinema](#cinema), [soft rock](#soft-rock), [alt rock](#alt-rock), [mainstream rock](#mainstream-rock), [pop](#pop), [metal](#metal), [rap](#rap), [classical](#classical)
 
 ---
 
