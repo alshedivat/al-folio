@@ -136,11 +136,9 @@ The evaluation will follow the steps: (1) comparing the changing signals from CM
     </div>
 </div>
 <div class="caption">
-    The windspeed trend from CMCC-CM2 and CMCC-ESM2 at site (011°E, 60°N) are different.<br>
-    (a) CMCC-CM2, (b) CMCC-ESM2.<br>
-    Wind speed trends are represented as ratios, which compare the wind speeds in a 10-year moving window between 2015-2060 to a baseline period (1980.01-1999.12), across different quantiles.<br>
-    From top to bottom, each row represents quarter 1 (Jan to Mar), quarter 2 (Apr to Jun), quarter 3 (Jul to Sep), and quarter 4 (Oct to Dec).
+    The windspeed trend from CMCC-CM2 and CMCC-ESM2 at site (011°E, 60°N) are different.(a) CMCC-CM2, (b) CMCC-ESM2. Wind speed trends are represented as ratios, which compare the wind speeds in a 10-year moving window between 2015-2060 to a baseline period (1980.01-1999.12), across different quantiles. From top to bottom, each row represents quarter 1 (Jan to Mar), quarter 2 (Apr to Jun), quarter 3 (Jul to Sep), and quarter 4 (Oct to Dec).
 </div>
+
 
 
 The changing signals of wind speed at coordinates 011° E and 60° N were determined by the ratio of windspeed from a 10-year window to a baseline period. The analysis of trends using the CMCC-CM2 and CMCC-ESM2 models suggests a weak trend at this location. Figure @fig:trend illustrates the trends of wind speed in four quarters. None of the quarters demonstrate similarity between the CMCC-CM2 and CMCC-ESM2 models, indicating low consistency between these two models at this location from 2016 to 2060.
@@ -153,17 +151,10 @@ Figure @fig:trend_map demonstrates the wind speed trends over the Scandinavian P
     </div>
 </div>
 <div class="caption">
-    The trend of median windspeed (Q50) 2015-2060.<br>
-    The trend is calculated in a 10-year window relative to baseline from CMCC-CM2 (top) and from CMCC-ESM2 (bottom).<br>
-    Visit https://i.imgur.com/S2T0bpn.gif to get the dynamic gif.
+    The trend of median windspeed (Q50) 2015-2060. The trend is calculated in a 10-year window relative to baseline from CMCC-CM2 (top) and from CMCC-ESM2 (bottom). Visit https://i.imgur.com/S2T0bpn.gif to get the dynamic gif.
 </div>
 
 
-    The windspeed trend from CMCC-CM2 and CMCC-ESM2 at site (011°E, 60°N) are different.<br>
-    (a) CMCC-CM2, (b) CMCC-ESM2.<br>
-    Wind speed trends are represented as ratios, which compare the wind speeds in a 10-year moving window between 2015-2060 to a baseline period (1980.01-1999.12), across different quantiles.<br>
-    From top to bottom, each row represents quarter 1 (Jan to Mar), quarter 2 (Apr to Jun), quarter 3 (Jul to Sep), and quarter 4 (Oct to Dec).
-</div>
 
 Specific to the period from 2050 to 2060, Figure @fig:trend_chart shows the changing trend at coordinates 011° E and 60° N. The CMCC-CM2 model shows a strong positive trend across all quantiles in weeks 10 to 12. On the other hand, the CMCC-ESM2 model exhibits a positive trend at weeks 43 to 45. The fact that the two models show different trends suggests that they have distinct projections for this region and time period. These differences in trends have implications for any analysis or decision-making based on these models' results (Figure @fig:trend_chart b, d). Depending on the specific application, it may be necessary to consider both models' projections and their respective uncertainties.
 
@@ -186,11 +177,10 @@ The windspeed project of CMCC-CM2 and CMCC-ESM2 exhibit inconsistencies when com
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <figure id="fig:downscaled_chart">
-            <img src="https://i.imgur.com/GB39Q0T.jpg" alt="Comparison of downscaled windspeeds at coordinates 011° E and 60° N using QDM and EDCDFm methods from 2050 to 2060 (a) Oslo, Norway (b) Bergen, Norway. The reference dataset for downscaling is ERA5 (1999-2014)">
-            <figcaption aria-hidden="true">Comparison of downscaled windspeeds at coordinates 011° E and 60° N using QDM and EDCDFm methods from 2050 to 2060 (a) Oslo, Norway (b) Bergen, Norway. The reference dataset for downscaling is ERA5 (1999-2014)</figcaption>
-        </figure>
-    </div>
+    <img src="https://i.imgur.com/GB39Q0T.jpg" alt="Comparison of downscaled windspeeds at coordinates 011° E and 60° N using QDM and EDCDFm methods from 2050 to 2060 (a) Oslo, Norway (b) Bergen, Norway. The reference dataset for downscaling is ERA5 (1999-2014)">
+	</div>
+</div>
+<div class="caption"> Comparison of downscaled windspeeds at coordinates 011° E and 60° N using QDM and EDCDFm methods from 2050 to 2060 (a) Oslo, Norway (b) Bergen, Norway. The reference dataset for downscaling is ERA5 (1999-2014)
 </div>
 
 
@@ -201,11 +191,10 @@ The validation results for the year 2014 using three different timespans indicat
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <figure id="fig:downscaled_2014">
-            <img src="https://i.imgur.com/p4h0m7y.jpg" style="width:75.0%" alt="Downscale windspeed from ERA5 Coarsen and CMCC-CM2 and validation by ERA5. (a) mean windspeed 2014.01.01 to 2014.01.30 (b) mean windspeed 2014.01.01-2014.03.30 (c) mean windspeed 2014.01.01-2014.12.31. The training dataset is ERA5 between 1999 and 2013.">
-            <figcaption aria-hidden="true">Downscale windspeed from ERA5 Coarsen and CMCC-CM2 and validation by ERA5. (a) mean windspeed 2014.01.01 to 2014.01.30 (b) mean windspeed 2014.01.01-2014.03.30 (c) mean windspeed 2014.01.01-2014.12.31. The training dataset is ERA5 between 1999 and 2013.</figcaption>
-        </figure>
-    </div>
+	<img src="https://i.imgur.com/p4h0m7y.jpg" style="width:75.0%" alt="Downscale windspeed from ERA5 Coarsen and CMCC-CM2 and validation by ERA5. (a) mean windspeed 2014.01.01 to 2014.01.30 (b) mean windspeed 2014.01.01-2014.03.30 (c) mean windspeed 2014.01.01-2014.12.31. The training dataset is ERA5 between 1999 and 2013.">
+	</div>
+</div>
+<div class="caption"> Downscale windspeed from ERA5 Coarsen and CMCC-CM2 and validation by ERA5. (a) mean windspeed 2014.01.01 to 2014.01.30 (b) mean windspeed 2014.01.01-2014.03.30 (c) mean windspeed 2014.01.01-2014.12.31. The training dataset is ERA5 between 1999 and 2013.
 </div>
 
 
