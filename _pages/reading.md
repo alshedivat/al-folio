@@ -7,6 +7,8 @@ dropdown: true
 children: 
     - title: Reading List
       permalink: /reading/reading_list
+    - title: Listening List
+      permalink: /reading/listening_list
     - title: Minima Moralia
       permalink: /reading/minima-moralia
     - title: Trip Without a Ticket
