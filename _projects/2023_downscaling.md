@@ -22,7 +22,7 @@ Can machine learning help accurately predicting radiation and wind fields at fin
     Renewable Energy Burst Sends Dutch Power Prices to Lowest Ever - Source: Bloomberg.
 </div>
 
-# Part 1-Evaluating CMIP6 wind speed by quantile-based bias adjustment and downscaling methods" 
+# Part 1-Evaluating CMIP6 wind speed by quantile-based bias adjustment and downscaling methods
 
 ## Introduction
 
