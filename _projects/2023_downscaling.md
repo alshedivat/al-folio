@@ -208,3 +208,17 @@ This research aimed to enhance the accuracy of wind speed projections by employi
 4. Bias correction and downscaling can be executed as a single step (QDM, EDCDFm) or through separate steps, such as the Bias Correction and Spatial Disaggregation (BCSD) model. While spatial disaggregation proved feasible, with quantile mapping demonstrating satisfactory performance, addressing bias proved more intricate. Purely statistical methods like QDM only 'rescale' datasets while retaining ranks, which may not be sufficient to correct datasets with erroneous 'ranks'. Climate models, featuring time-dependent bias along the time axis and unrealistic spatial circulations, require the introduction of additional variables to capture and remove such bias patterns.
 
 In conclusion, this research makes significant strides towards improving the accuracy of wind speed projections for renewable energy systems by utilizing trend-preserving methods and increasing spatial resolution. The findings highlight the uncertainties arising from inconsistencies between climate models. Both QDM and EDCDFm demonstrated comparable downscaled results, effectively capturing fine-scale details but facing challenges in fully 'correcting' biases in climate models. To feed energy system with reliable simulations, more advanced bias techniques are needed.
+
+## References
+
+Best, W. H., & Panofsky, H. A. (1956). *Some Applications of Statistics to Meteorology*. Mineral Industries Extension Services, School of Mineral Industries, Pennsylvania State College.
+
+Cannon, A. J., Sobie, S. R., & Murdock, T. Q. (2015). Bias Correction of GCM Precipitation by Quantile Mapping: How Well Do Methods Preserve Changes in Quantiles and Extremes? *Journal of Climate*, *28*(17), 6938–6959. https://doi.org/10.1175/JCLI-D-14-00754.1
+
+Gruber, K., Regner, P., Wehrle, S., Zeyringer, M., & Schmidt, J. (2022). Towards global validation of wind power simulations: A multi-country assessment of wind power simulation from MERRA-2 and ERA-5 reanalyses bias-corrected with the global wind atlas. *Energy*, *238*, 121520. https://doi.org/10.1016/j.energy.2021.121520
+
+Li, H., Sheffield, J., & Wood, E. F. (2010). Bias correction of monthly precipitation and temperature fields from Intergovernmental Panel on Climate Change AR4 models using equidistant quantile matching. *Journal of Geophysical Research*, *115*(D10). https://doi.org/10.1029/2009JD012882
+
+Maraun, D. (2016). Bias Correcting Climate Change Simulations - a Critical Review. *Current Climate Change Reports*, *2*(4), 211–220. https://doi.org/10.1007/s40641-016-0050-x
+
+Murcia, J. P., Koivisto, M. J., Luzia, G., Olsen, B. T., Hahmann, A. N., Sørensen, P. E., & Als, M. (2022). Validation of European-scale simulated wind speed and wind generation time series. *Applied Energy*, *305*, 117794. https://doi.org/10.1016/j.apenergy.2021.117794
