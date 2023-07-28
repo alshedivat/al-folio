@@ -1,0 +1,244 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Section 2: Description of Tutorial */
+section:nth-child(2) {
+    padding: 20px;
+}
+
+.section-content {
+    display: flex;
+    align-items: center; /* Vertically align items */
+}
+
+img {
+    width: 200px;
+    border-radius: 10px; /* Add rounded corners to the image */
+    margin-right: 20px; /* Add some spacing between the image and text */
+}
+
+.text-content {
+    flex: 1; /* Allow the text content to take the remaining space */
+}
+
+/* Section 3: Tutorial Hyperlinks */
+section:nth-child(3) {
+    padding: 20px;
+}
+
+.tutorial-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.tile {
+    width: calc(25% - 20px);    /* 4 blocks per row */
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.tile:hover {
+    transform: scale(1.05); /* Increase the size slightly on hover */
+}
+
+.tile a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.tile img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.tile-description {
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+
+}
+
+.tile-number {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0 8px 0 8px;
+}
+
+/* Section 4: Guided Projects */
+section:nth-child(4) {
+    padding: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.project {
+    width: 80%; /* 2 projects per row */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+}
+
+.project-thumbnail {
+    width: 30%;
+    height: auto;
+    display: block;
+    border-radius: 8px 8px 0 0;
+}
+
+.project-details {
+    padding: 10px;
+    width: 60%;
+    display: block;
+}
+
+
+/* Section 5: Contributor Information */
+section:nth-child(5) {
+    padding: 20px;
+}
+
+.contributors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contributor {
+    width: calc(33.33% - 20px); /* 3 contributors per row */
+}
+
+.contributor img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.contributor h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contributor p {
+    font-size: 14px;
+}
+
+.contributor-number {
+    display: block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* Section 6: Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+/* Add background shading to sections */
+section {
+    background-color: #f2f2f2; /* Light gray background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    padding: 20px;
+    margin-bottom: 30px; /* Add a larger margin at the bottom to better separate sections */
+    border-radius: 8px;
+    background-image: linear-gradient(180deg, #e0e0e0 0%, #f2f2f2 100%); /* Gradient effect */
+}
+
+/* Toggle Switch Styling */
+.toggle-switch {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    background-color: #888;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.toggle-switch input[type="checkbox"] {
+    display: none;
+}
+
+.toggle-switch label {
+    display: block;
+    width: 21px;
+    height: 21px;
+    margin: 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: margin 0.3s;
+}
+
+.toggle-switch input[type="checkbox"]:checked + label {
+    margin-left: 25px;
+}
+
+/* Set colors for the bright mode */
+body:not(.dark-mode) .toggle-switch {
+    background-color: #999;
+}
+
+body:not(.dark-mode) .toggle-switch label {
+    background-color: #333;
+}
+
+/* Set colors for the dark mode */
+body.dark-mode .toggle-switch {
+    background-color: #888;
+}
+
+body.dark-mode .toggle-switch label {
+    background-color: white;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+section.dark-mode {
+    background-color: #222;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    background-image: linear-gradient(180deg, #222 0%, #333 100%);
+}
