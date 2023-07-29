@@ -1,8 +1,8 @@
 github_users:
-  - lvb5
+  - milescb
 
 github_repos:
-  - lvb5/solve_PDEs_with_PINN
-  - lvb5/taunet
-  - lvb5/LUComptonScatter
-  - lvb5/double_quarkonium_production
+  - milescb/solve_PDEs_with_PINN
+  - milescb/taunet
+  - milescb/LUComptonScatter
+  - milescb/double_quarkonium_production
