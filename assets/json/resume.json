@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Miles Cochran-Branson",
-    "label": "Scientist",
+    "label": "Experimental Particles, Machine Learning, Data Science",
     "image": "",
     "email": "milescb@uw.edu",
     "phone": "(916) 759-4691",
@@ -26,12 +26,11 @@
     {
       "name": "CERN",
       "position": "Research Aide",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "startDate": "June, 2023",
+      "endDate": "September, 2023",
+      "summary": "Learning about analysis work at ATLAS and working on projects for the Higgs to tautau analysis.",
       "highlights": [
-        "Relativity"
+        "analysis", "LHC", "ATLAS"
       ]
     }
   ],
@@ -42,7 +41,7 @@
       "url": "https://phys.washington.edu",
       "area": "Department of Physics",
       "studyType": "PhD",
-      "startDate": "2023-09-27",
+      "startDate": "September, 2023",
       "endDate": "present",
       "score": "",
       "courses": [
@@ -53,8 +52,8 @@
       "url": "https://www.lawrence.edu",
       "area": "Department of Physics",
       "studyType": "BA",
-      "startDate": "2019-09-01",
-      "endDate": "2023-06-11",
+      "startDate": "September, 2019",
+      "endDate": "June, 2023",
       "score": "3.99/4.00",
       "courses": [
       ]
@@ -62,10 +61,10 @@
   ],
   "awards": [
     {
-      "title": "",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "J. Bruce Brackenridge Prize",
+      "date": "June, 2022",
+      "awarder": "Lawrence University",
+      "summary": "Awarded to an outstanding junior physics major with a strong academic record and great promise for continued work on physics."
     }
   ],
   "certificates": [],
