@@ -6,7 +6,7 @@ subtitle: First-year PhD Student at University of Washington
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   address: >
     <p> 3910 15th Ave NE </p>
