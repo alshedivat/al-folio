@@ -41,7 +41,7 @@
       "url": "https://phys.washington.edu",
       "area": "Department of Physics",
       "studyType": "PhD",
-      "startDate": "September, 2023",
+      "startDate": "Sep., 2023",
       "endDate": "present",
       "score": "",
       "courses": [
@@ -52,8 +52,8 @@
       "url": "https://www.lawrence.edu",
       "area": "Department of Physics",
       "studyType": "BA",
-      "startDate": "September, 2019",
-      "endDate": "June, 2023",
+      "startDate": "Sep., 2019",
+      "endDate": "Jun., 2023",
       "score": "3.99/4.00",
       "courses": [
       ]
@@ -62,7 +62,7 @@
   "awards": [
     {
       "title": "J. Bruce Brackenridge Prize",
-      "date": "June, 2022",
+      "date": "Jun., 2022",
       "awarder": "Lawrence University",
       "summary": "Awarded to an outstanding junior physics major with a strong academic record and great promise for continued work on physics."
     }
