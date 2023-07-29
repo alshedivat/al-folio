@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 14th March 1879
     - name: Languages
-      value: English, German
+      value: English, Persian, Azerbaijani
 
 - title: Education
   type: time_table
