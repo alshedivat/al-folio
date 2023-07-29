@@ -12,11 +12,14 @@
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
+      institution: University of Tehran, Tehran, Iran
       year: 1905
       description:
-        - Description 1.
-        - Description 2.
+        Consist of 5 semesters (3 lecture based + 2 research based). The first 3 semesters holded during coronavirus lock-down, so I didnt have much luck to contact the professors.
+        Some of noteworthy lectures area
+        - Artificial Intelligence (Machine Learning)
+        - Limit Element Method
+        - Automatic Control Systems
         - title: Description 3.
           contents:
             - Sub-description 1.
