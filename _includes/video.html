@@ -5,7 +5,7 @@
   {% if extension == "mp4" or extension == "webm" or extension == "ogg" %}
 
   <video
-    src="{{ include.path | relative_url }}"
+  src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
     {% if include.class %}class="{{ include.class }}"{% endif %}
     {% if include.width %}width="{{ include.width }}"{% else %}width="auto"{% endif %}
     {% if include.height %}height="{{ include.height }}"{% else %}height="auto"{% endif %}

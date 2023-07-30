@@ -7,7 +7,7 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
-     {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
+      {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
   </header>
 
   <h4>Table of contents</h4>
@@ -31,9 +31,9 @@ layout: default
           {% elsif entry.type == "nested_list" %}
             {% include cv/nested_list.html %}
           {% elsif entry.type == "time_table" %}
-           {% include cv/time_table.html %}
+            {% include cv/time_table.html %}
           {% elsif entry.type == "list_groups" %}
-           {% include cv/list_groups.html %}
+            {% include cv/list_groups.html %}
           {% else %}
             {{ entry.contents }}
           {% endif %}
@@ -106,7 +106,7 @@ layout: default
             {% when "certificates" %}
               {% include resume/certificates.html %}
             {% else %}
-              
+
           {% endcase %}
           </div>
         </div>
