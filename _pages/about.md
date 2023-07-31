@@ -52,3 +52,5 @@ Outside of academics, I enjoy listening to [lectures](https://www.youtube.com/wa
 <small>
   Composite image of The Disintegration of the Persistence of Memory (Dali), Edward Bellamy (GAN), Guernica (Picasso), still from Battleship Potemkin (Eisenstein), Relativity (Escher).
 </small>
+
+**Philosophy Interest Statement.** Aphorism 127 in Adorno’s *Minima Moralia* declares, “Intelligence is a moral category.” Every rational and intellectual endeavor expresses an ethical orientation. One usually takes from this that we need a meditation on the ethical waste and peril of human intellectual histories. But intelligence is no longer obviously an anthropocentric feature. My academic interest is in subjecting non-human intelligences (“AI”) to this very sort of meditation. Is the only ethical significance of AI the one that humans imbue into it? Might AI’s persistent exteriority to “HI” (Human Intelligence) better capture truths which themselves elude the rational (human) ego? Can AI ‘do’ philosophy, and does it represent a break in the history of philosophy?
