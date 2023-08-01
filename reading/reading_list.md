@@ -21,6 +21,7 @@ Articles
 - ["Philosophy: Who Needs It?"](https://www.stephenhicks.org/wp-content/uploads/2018/12/Philosophy-Who-Needs-It-text.pdf){:target="_blank"}, Ayn Rand -- a rhetorically effective and accessible explanation for why philosophy is more important than ever, which I recommend to anyone who is skeptical of or new to philosophy
 - ["Rawls' Law of Peoples: Rules for a Vanished Westphalian World"](https://www.jstor.org/stable/10.1086/233370){:target="_blank"}, Allen Buchanan -- an interesting philosophical historicization of Rawls which strikes at a deep gash in political philosophy itself.
 - ["Rawls, Hegel, and Communitarianism"](https://www.jstor.org/stable/192057){:target="_blank"}, Sibyl A. Schwarzenbach -- an interesting attempt at the very difficult project of writing coherently on Rawls and Hegel in the same paragraph.
+- ["The Ethical Significance of Nationality"](https://www.jstor.org/stable/2380889){:target="_blank"}, David Miller -- what I would call (no doubt with controversy) a proto-phenomenological approach to political philosophy: a return to the Delphic motto, "know thyself!"
 
 Books
 - *The Poverty of Ethics*, Anat Amar -- a brilliant synthesis of analytic ethics and Continental discontent.
