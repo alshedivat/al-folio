@@ -2,8 +2,10 @@
 layout: distill
 title: a distill-style blog post
 description: an example of a distill-style blog post and main elements
+tags: distill formatting
 giscus_comments: true
 date: 2021-05-22
+featured: true
 
 authors:
   - name: Albert Einstein
@@ -153,6 +155,16 @@ fig = px.density_mapbox(
 fig.show()
 fig.write_html('assets/plotly/demo.html')
 {% endhighlight %}
+
+***
+
+## Details boxes
+
+Details boxes are collapsible boxes which hide additional information from the user. They can be added with the `details` liquid tag:
+
+{% details Click here to know more %}
+Additional details, where math $$ 2x - 1 $$ and `code` is rendered correctly.
+{% enddetails %}
 
 ***
 
