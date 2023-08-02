@@ -25,25 +25,25 @@ We all behave as if we have answers to philosophical questions – questions whi
 
 ---
 
-## Philosophy: Who Needs It? Ayn Rand
+### Philosophy: Who Needs It? Ayn Rand
 
 My modified version. Delivered at West Point New York, March 6, 1974.
 
 Since I am a fiction writer, let us start with a short story. 
 
-> Suppose that you are an astronaut whose spaceship gets out of control and crashes on an unknown planet. When you regain consciousness and find that you are not hurt badly, the first three questions in or mind would be: 
+*Suppose that you are an astronaut whose spaceship gets out of control and crashes on an unknown planet. When you regain consciousness and find that you are not hurt badly, the first three questions in or mind would be:*
 
 1. Where am I? 
 2. How can I discover it?
 3. What should I do? 
 
-> You see unfamiliar vegetation outside, and there is air to breathe; the sunlight seems paler than you remember it and colder. You turn to look at the sky, but stop. You are struck by a sudden feeling: it you don't look, you won't have to know that you are, perhaps, too far from the earth and no return is possible; so long as you don't know it, you are free to believe what you wish—and you experience a foggy, pleasant, but somehow guilty, kind of hope.
+*You see unfamiliar vegetation outside, and there is air to breathe; the sunlight seems paler than you remember it and colder. You turn to look at the sky, but stop. You are struck by a sudden feeling: it you don't look, you won't have to know that you are, perhaps, too far from the earth and no return is possible; so long as you don't know it, you are free to believe what you wish—and you experience a foggy, pleasant, but somehow guilty, kind of hope.*
 
-> You turn to your instruments: they may be damaged, you don't know how seriously. But you stop, struck by a sudden fear: how can you trust these instruments? How can you be sure that they won't mislead you? How can you know whether they will work in a different world? You turn away from the instruments. 
+*You turn to your instruments: they may be damaged, you don't know how seriously. But you stop, struck by a sudden fear: how can you trust these instruments? How can you be sure that they won't mislead you? How can you know whether they will work in a different world? You turn away from the instruments.*
 
-> Now you begin to wonder why you have no desire to do anything. It seems so much safer just to wait for something to turn up somehow; it is better, you tell yourself, not to rock the spaceship. Far in the distance, you see some sort of living creatures approaching; you don't know whether they are human, but they walk on two feet. They, you decide, will tell you what to do.
+*Now you begin to wonder why you have no desire to do anything. It seems so much safer just to wait for something to turn up somehow; it is better, you tell yourself, not to rock the spaceship. Far in the distance, you see some sort of living creatures approaching; you don't know whether they are human, but they walk on two feet. They, you decide, will tell you what to do.*
 
-> You are never heard from again.
+*You are never heard from again.*
 
 This is fantasy, you say? You would not act like that and no astronaut ever 
 would? Perhaps not. But this is the way most men live their lives, here, on 
