@@ -8,7 +8,7 @@ nav: false
 
 ---
 
-<img src="\assets\img\philosophy.png" width="100%" />
+<!-- <img src="\assets\img\philosophy.png" width="100%" /> -->
 
 ---
 
@@ -42,6 +42,15 @@ nav: false
 <br>
 
 ## Unpublished
+
+<br>
+
+<a href="files\407_final_essay.pdf" target="_blank">"Seeing Water: Building International Justice Beyond Embodied Metaphysics".</a> Final essay for PHIL 407, International Justice.
+<p style="margin-left: 25px;">
+<small><bold>Abstract.</bold> The technological world that we occupy and experience has come to introduce an alternative disembodied metaphysical plane: our digital existences are regulated by very different axioms of temporality and locality than our physical existences. My aim is to show that the metaphysics of the digital world demands a critical recontextualization of approaches in International Justice, and to propose and clarify several important starting questions for this line of inquiry. By providing a metaphysical reading of political theory, this essay attempts to ‘see water’.
+
+</small>
+</p>
 
 <br>
 

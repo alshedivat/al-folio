@@ -33,7 +33,7 @@ Books
 
 ### Film
 Movies
-- *Oppenheimer* -- the most powerful film I have experienced. More horrific than any horror movie I have watched. Exploration of the utter contradiction of man and God, of violence and peace, of necessity and freedom -- of the atomic bomb, and the man that was Oppenheimer.
+- *Oppenheimer* -- the most powerful film I have experienced. More horrific than any horror movie I have watched. Exploration of the utter contradiction of man and God, of violence and peace, of necessity and freedom -- of the atomic bomb and Oppenheimer.
 - *Summer of '85* -- a more sensitive and textually self-aware *Call Me By Your Name*
 - *Brokeback Mountain* -- a classic masterpiece of environmental cinematography and queer film
 - *La La Land* -- beautiful cinematography and play with destiny and time
