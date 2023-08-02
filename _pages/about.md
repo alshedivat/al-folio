@@ -9,7 +9,7 @@ profile:
   image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Vanishing in the polar limit under the Celsius measure (sorry, hehe)</p>
+    <p>A bespectacled angler under the Golden Gate Bridge. Good views and good weather: plenty. Fish: none.</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
