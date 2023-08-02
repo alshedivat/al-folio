@@ -176,7 +176,7 @@ mind, Emerson. They might say: *But can't one compromise and borrow
 different ideas from different philosophies according to the expediency of the 
 moment?* They got it from Richard Nixon -- who got it from William James.
 
-> *Note: Although the specific attribution of ideas to philosophers in this lecture is dubious in my opinion, the general point rings true.*
+***Note:** Although the specific attribution of ideas to philosophers in this lecture is dubious in my opinion, the general point rings true.*
 
 Now ask yourself: if you are not interested in abstract ideas, why do you (and 
 all men) feel compelled to use them? The fact is that abstract ideas are 
