@@ -4,7 +4,7 @@
 	  keywords = @context.registers[:site].config['filtered_bibtex_keywords']
 
 	  keywords.each do |keyword|
-		input = input.gsub(/^.*#{keyword}.*$\n/, '')
+		input = input.gsub(/^.*\b#{keyword}\b *= *\{.*$\n/, '')
 	  end
 
       return input
