@@ -1,0 +1,97 @@
+/* CSS for Header Navigation Bar */
+
+/* Reset default styles */
+nav, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Set background and height for the navigation bar */
+nav {
+  background-color: #333;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+/* Style for the logo */
+.logo img {
+  height: 40px;
+  width: 40px;
+  padding-top: 25px;
+}
+
+/* Style for the navigation links */
+.nav-links li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.nav-links li:first-child {
+  margin-left: 0;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #f4b71e;
+}
+
+/* Styling for the footer */
+footer {
+  background-color: #ffffff;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.return-button {
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-left: 35%;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s; /* Add box-shadow transition */
+  display: flex;
+  align-items: center;
+}
+
+.return-button i {
+  margin-right: 8px;
+}
+
+/* Click effect when the button is pressed */
+.return-button:active {
+  background-color: #d9d9d9;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover effect when the button is hovered */
+.return-button:hover {
+  background-color: #e5e5e5;
+}
+
+/* Updated styles for positioning the button to the left */
+.footer-left {
+  flex: 1; /* Take the available space to push the button to the left */
+  display: flex;
+  align-items: center;
+}
+
+.footer-right {
+  font-size: 14px;
+}

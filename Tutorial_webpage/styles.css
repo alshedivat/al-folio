@@ -1,0 +1,380 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/* Section 1: Navigation Menu */
+
+/* Reset default styles */
+nav, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Set background and height for the navigation bar */
+nav {
+  background-color: #333;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+/* Style for the logo */
+.logo img {
+  height: 40px;
+  width: 40px;
+  padding-top: 25px;
+}
+
+/* Style for the navigation links */
+.nav-links li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.nav-links li:first-child {
+  margin-left: 0;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #f4b71e;
+}
+
+
+/* Section 2: Description of Tutorial */
+section:nth-child(2) {
+    padding: 20px;
+    text-align: justify;
+}
+
+
+/* Sun and moon icons */
+.theme-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  display: none;
+}
+
+/* Show the sun icon by default */
+#sun, #moon{
+  display: inline;
+}
+
+
+.section-content {
+    display: flex;
+    align-items: center; /* Vertically align items */
+}
+
+img {
+    width: 200px;
+    border-radius: 10px; /* Add rounded corners to the image */
+    margin-right: 20px; /* Add some spacing between the image and text */
+}
+
+.text-content {
+    flex: 1; /* Allow the text content to take the remaining space */
+}
+
+.text-content p {
+  text-align: justify;
+}
+
+/* For tablet view */
+@media (max-width: 768px) {
+  .section-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    margin: 0 auto 20px; /* Center the image horizontally and add margin below */
+    max-width: 300px;
+  }
+
+  .text-content {
+    text-align: center; /* Center the text */
+  }
+}
+
+/* For mobile view */
+@media (max-width: 480px) {
+  img {
+    width: 100%; /* Make the image full-width on mobile */
+    max-width: 175px;
+  }
+}
+
+/* Section 3: Tutorial Hyperlinks */
+section:nth-child(3) {
+    padding: 20px;
+}
+
+.tutorial-tiles {
+    display: flex;
+    flex-wrap: wrap;
+/*    justify-content: space-between;*/
+    gap: 20px;
+}
+
+.tile {
+    width: calc(25% - 20px);    /* 4 blocks per row */
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+/* For desktop view (4 tiles in each row) */
+.tutorial-tiles .tile {
+  flex: 0 0 calc(25% - 20px);
+}
+
+/* For tablet view (3 tiles in each row) */
+@media (max-width: 1024px) {
+  .tutorial-tiles .tile {
+    flex: 0 0 calc(33.33% - 20px);
+  }
+}
+
+/* For mobile view (2 tiles in each row) */
+@media (max-width: 768px) {
+  .tutorial-tiles .tile {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+
+.tile:hover {
+    transform: scale(1.05); /* Increase the size slightly on hover */
+}
+
+.tile a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.tile img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.tile-description {
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+
+}
+
+.tile-number {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0 8px 0 8px;
+}
+
+/* Section 4: Guided Projects */
+section:nth-child(4) {
+    padding: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.project {
+    width: 80%; /* 2 projects per row */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+}
+
+.project-thumbnail {
+    width: 30%;
+    height: auto;
+    display: block;
+    border-radius: 8px 8px 0 0;
+}
+
+.project-details {
+    padding: 10px;
+    width: 60%;
+    display: block;
+}
+
+
+/* Section 5: Contributor Information */
+section:nth-child(5) {
+    padding: 20px;
+}
+
+.contributors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contributor {
+    width: calc(33.33% - 20px); /* 3 contributors per row */
+}
+
+.contributor img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.contributor h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contributor p {
+    font-size: 14px;
+}
+
+.contributor-number {
+    display: block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* Section 6: Footer */
+/* Styling for the footer */
+footer {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-right {
+  font-size: 14px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.footer-right span {
+  font-weight: bold;
+  font-style: italic;
+  color: #333;
+}
+
+
+/* Add background shading to sections */
+section {
+    background-color: #f2f2f2; /* Light gray background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    padding: 20px;
+    margin-bottom: 30px; /* Add a larger margin at the bottom to better separate sections */
+    border-radius: 8px;
+    background-image: linear-gradient(180deg, #e0e0e0 0%, #f2f2f2 100%); /* Gradient effect */
+
+
+
+/* Toggle Switch Styling */
+.toggle-switch {
+    position: relative;
+    top: 3px;
+    right: 5px;
+    display: inline-block;
+    width: 45px;
+    height: 21px;
+    background-color: #888;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.toggle-switch input[type="checkbox"] {
+    display: none;
+}
+
+.toggle-switch label {
+    display: block;
+    width: 17px;
+    height: 17px;
+    margin: 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: margin 0.3s;
+}
+
+.toggle-switch input[type="checkbox"]:checked + label {
+    margin-left: 25px;
+}
+
+/* Set colors for the bright mode */
+body:not(.dark-mode) .toggle-switch {
+    background-color: #999;
+}
+
+body:not(.dark-mode) .toggle-switch label {
+    background-color: #333;
+}
+
+/* Set colors for the dark mode */
+body.dark-mode .toggle-switch {
+    background-color: #888;
+}
+
+body.dark-mode .toggle-switch label {
+    background-color: white;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+section.dark-mode {
+    background-color: #222;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    background-image: linear-gradient(180deg, #222 0%, #333 100%);
+}

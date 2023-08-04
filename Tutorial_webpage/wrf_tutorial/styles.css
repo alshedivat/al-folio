@@ -1,0 +1,186 @@
+body {
+  font-family: ubuntu, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: #eee;
+  text-align: justify;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 80px; /* Adjust the margin-top value to leave space for the fixed header */
+  margin-bottom: 80px; /* Adjust the margin-bottom value to leave space for the fixed footer */
+}
+
+#steps .step{
+  text-align: left;
+}
+
+p {
+  line-height: 1.5;
+}
+
+nav {
+  width: 260px;
+  background-color: #333;
+  padding: 10px;
+  position: fixed;
+  height: calc(100% - 120px); /* Adjust the height to leave space for the fixed header and footer */
+  overflow-y: auto;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  cursor: pointer;
+  padding: 10px;
+}
+
+li:hover {
+  background-color: #444;
+}
+
+
+
+.custom-link {
+  color: #4c8fff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.custom-link:hover {
+  color: #ff6b6b;
+  text-decoration: none;
+}
+
+#description-box {
+  margin-left: 280px;
+  overflow-y: auto;
+  padding-left: 20px;
+}
+.divider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 1px; /* Width of the vertical divider */
+  background-color: #666; /* Color of the divider */
+}
+
+#description-content {
+  padding-right: 10px;
+  padding: 20px;
+}
+
+/*#description-content p {
+  display: none;
+}*/
+
+#navigation-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#navigation-buttons button {
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* Existing CSS code */
+
+.blur {
+  filter: blur(5px);
+  pointer-events: none;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #333;
+  background-color: #fff;
+  width: 700px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 200px;
+  padding: 20px;
+  border-radius: 5px;
+  background-image: url("./images/Climbuntu.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  margin-bottom: 230px;
+}
+
+.modal-content p {
+  margin-bottom: 20px;
+}
+
+.modal-content button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content button:hover {
+  background-color: #555;
+}
+
+.step.active {
+  background-color: #ddd;
+  color: #333;
+}
