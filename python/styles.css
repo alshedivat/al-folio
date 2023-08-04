@@ -17,17 +17,19 @@ h2 {
     margin-bottom: 10px;
 }
 
-
 /* Section 1: Navigation Menu */
 
 /* Reset default styles */
+/*
 nav, ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+*/
 
 /* Set background and height for the navigation bar */
+/*
 nav {
   background-color: #333;
   height: 50px;
@@ -43,8 +45,9 @@ nav {
   width: 40px;
   padding-top: 25px;
 }
-
+*/
 /* Style for the navigation links */
+/*
 .nav-links li {
   display: inline;
   margin-left: 20px;
@@ -65,7 +68,7 @@ nav {
   color: #f4b71e;
 }
 
-
+*/
 /* Section 2: Description of Tutorial */
 section:nth-child(2) {
     padding: 20px;
