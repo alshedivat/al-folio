@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: Distributional Semantics and more.
-years: [2019, 2018, 2016, 2012, 2011, 2010]
+years: [2023, 2019, 2018, 2016, 2012, 2011, 2010]
 nav: true
 ---
 
