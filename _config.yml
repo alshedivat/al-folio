@@ -17,7 +17,7 @@ footer_text: >
   Hosted by
   <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-url:  https://fozziethebeat.com
+url: https://fozziethebeat.com
 baseurl:
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:
