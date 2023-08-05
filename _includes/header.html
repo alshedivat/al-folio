@@ -43,12 +43,6 @@
           </li>
           {% endif %}
 
-          <li class="nav-item">
-            <a class="nav-link" href="{{ '/digital-garden/' | relative_url }}">
-              digital garden
-            </a>
-          </li>
-
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: "title" %}
           {% for p in sorted_pages %}

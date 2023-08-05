@@ -14,7 +14,10 @@ selected_papers: true
 social: true
 ---
 
-Right now I'm re-immersing myself back into open source development.  Prior to
-working at Google I was a PhD candidate at UCLA and authored several open
-source packages for distributional semantics.  None of them were particularly
-popular or useful.  As i'm leaving Google, it's time to change that.
+Hi There! Welcome!  I'm a former Staff Software Engineer and Manager (via
+Google Translate). I'm now a machine learning engineer for startups.  I'm
+working on fine-tuning LLMs for various use cases with supervised fine tuning
+and RLHF tuning.  I also do my best to share my management experience from
+Translate with new teams.  Casually I like to ski, I'm trying to learn how to
+use synthesizers, and make my own granola and beer.  If you visit Japan, say
+hi.
