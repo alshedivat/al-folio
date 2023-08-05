@@ -6,7 +6,7 @@ title: FozzieTheBeat
 first_name: Keith
 middle_name: D.
 last_name: Stevens
-email: fozziethebeat@hey.com
+email: fozziethebeat@gmail.com
 description: >
   A simple blog tracking my journey back into Open Source.
 footer_text: >
@@ -17,7 +17,7 @@ footer_text: >
   Hosted by
   <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-url:  # the base hostname & protocol for your site
+url:  https://fozziethebeat.com
 baseurl:
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:
