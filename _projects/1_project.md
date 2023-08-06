@@ -1,6 +1,6 @@
 ---
 layout: page
-title: airfoil roughness effects
+title: rough airfoils
 description:
 img: assets/img/rough_airfoil_effects.png
 importance: 1
