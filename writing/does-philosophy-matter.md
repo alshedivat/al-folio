@@ -32,6 +32,7 @@ My modified version. Delivered at West Point New York, March 6, 1974.
 <center>
     <img src="https://images.unsplash.com/photo-1494022299300-899b96e49893?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" width="100%" />
 </center>
+<br>
 
 Since I am a fiction writer, let us start with a short story. 
 
@@ -52,10 +53,11 @@ Since I am a fiction writer, let us start with a short story.
 <center>
     <img src="https://images.unsplash.com/photo-1573588028698-f4759befb09a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2664&q=80" width="100%" />
 </center>
+<br>
 
 This is fantasy, you say? You would not act like that and no astronaut ever 
 would? Perhaps not. But this is the way most men live their lives, here, on 
-earth. 
+earth.
 
 Most men spend their days struggling to evade three questions, the answers to 
 which underlie man's every thought, feeling and action, whether he is 
@@ -101,6 +103,7 @@ changed by a mere act of your consciousness, such as a wish?
 <center>
     <img src="/assets/img/nyc.png" width="100%" />
 </center>
+<br>
 
 The nature of your actions-and of your ambition—will be different, according 
 to which set of answers you come to accept. These answers are the province 
@@ -126,6 +129,7 @@ cognition.
 <center>
     <img src="https://images.unsplash.com/photo-1475319122043-5ca9eeceefaf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" width="100%" />
 </center>
+<br>
 
 These two branches are the theoretical foundation of philosophy. The third 
 branch—ethics—may be regarded as its technology. Ethics does not apply to 
@@ -162,6 +166,7 @@ has the right to impose any rationing on anything.
 <center>
     <img src="https://images.unsplash.com/photo-1531318701087-32c11653dd77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" width="100%" />
 </center>
+<br>
 
 The fifth and last branch of philosophy is esthetics, the study of art, which is 
 based on metaphysics, epistemology and ethics. Art deals with the needs—the 
@@ -176,6 +181,7 @@ My answer is: **In order to be able to deal with concrete, particular, real-life
 <center>
     <img src="/assets/img/image.png" width="100%" />
 </center>
+<br>
 
 You might claim-as most people do—that you have never been influenced by 
 philosophy. I will ask you to check that claim. Have you ever thought or said 
@@ -221,6 +227,7 @@ which, more often than not, you would drop like a hot potato if you knew.
 <center>
     <img src="https://images.unsplash.com/photo-1623172959921-630212f71058?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2664&q=80" width="100%" />
 </center>
+<br>
 
 But the principles you accept (consciously or subconsciously) may clash with 
 or contradict one another; they, too, have to be integrated. What integrates 
@@ -283,6 +290,7 @@ reason. Today, we are seeing the climax of that trend.
 <center>
     <img src="https://images.unsplash.com/photo-1627807452369-a2cd0b5ca56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" width="100%" />
 </center>
+<br>
 
 When men abandon reason, they find not only that their emotions cannot 
 guide them, but that they can experience no emotions save one: **terror.** The 
@@ -328,8 +336,12 @@ obfuscate, to corrupt, to prevent man from ever discovering. **The battle of phi
 <center>
     <img src="https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" width="100%" />
 </center>
+<br>
 
 ---
+
+## Slavoj Zizek, "How Philosophy Got Lost"
+Interview with [IAI](https://iai.tv/video/how-philosophy-got-lost&utm_source=reddit&_auid=2020){:target="_blank"}.
 
 <center>
     <p style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;"><iframe src="https://iai.tv/VideoController/EmbeddedVideo/1697?width=576&height=324&startTime=00%3A00" style="position: absolute; display: block; padding: 0px; margin: 0px; border: 0px; width: 100%; height: 100%; left: 0; top: 0;" width="576" height="324" frameborder="0" scrolling="no"></iframe></p><div style="padding:4px 0px; width:100%; margin:0px; display:block; border:0px;"><a title="Watch more videos on iaitv" href="https://iai.tv/" target="_blank" style="font-weight:bold; font-size:16px; color:#25aae1; font-family:Helvetica,Arial,sans-serif; text-decoration:none"></a></div>
