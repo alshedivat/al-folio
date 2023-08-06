@@ -9,8 +9,9 @@ profile:
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   address:
+    <p>BLDG 240 RM 1D16</p>
     <p>Argonne National Laboratory </p>
-    <p>BLDG 240 RM 1D16, 9700 S Cass Ave </p>
+    <p>9700 S Cass Ave </p>
     <p>Lemont, IL 40329, USA </p>
 
 news: true  # includes a list of news items
