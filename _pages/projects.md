@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Some of the things that I have been interested in fluids research over the past few years.
+description:
 nav: true
 nav_order: 2
-display_categories: [active, in-active, pipeline]
+display_categories: [current, interests]
 horizontal: true
 ---
 
