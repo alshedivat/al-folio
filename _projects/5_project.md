@@ -4,7 +4,7 @@ title: Reduced Order Modeling
 description:
 img: assets/img/test_cyl.gif
 importance: 3
-category: current
+category: upcoming
 ---
 
 <style>
