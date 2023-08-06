@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Airfoil Leading-Edge Roughness Effects
+title: airfoil roughness effects
 description:
 img: assets/img/rough_airfoil_effects.png
 importance: 1
