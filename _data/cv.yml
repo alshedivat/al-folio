@@ -29,12 +29,21 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Community Garden Animator
+      institution: Ville en Vert
+      year: May. 2023 - Jul. 2023
+      description:
+        - Helped manage over 1,000 garden members
+        - Organized meetings and workshops
+        - Created posters and graphics
+
     - title: Research Assistant
       institution: School of Communication Sciences and Disorders, McGill University
       year: Dec. 2022 - Present
       description:
-        - Conducting tlanguage proficiency ests
+        - Conducting language proficiency tests
         - Organizing and transcribing data
+
     - title: Candidate for Ste-Marie-St-Jacques
       institution: Green Party of Quebec
       year: Jun. 2022 - Oct. 2022
@@ -56,13 +65,13 @@
       description:
         - Hire and manage team
         - Lead projects
-        - Plan donations and events
+        - Plan fundraising and events
 
     - title: EAC Member
       institution: Montreal West Environment Action Committee (EAC)
       year: 2019-2022
       description:
-        - educating residents
+        - educating residents on environmental initiatives
         - advising policy change for the town
 - title: Other Interests
   type: nested_list
