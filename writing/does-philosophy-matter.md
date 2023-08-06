@@ -29,6 +29,8 @@ We all behave as if we have answers to philosophical questions – questions whi
 
 My modified version. Delivered at West Point New York, March 6, 1974.
 
+![](https://images.unsplash.com/photo-1494022299300-899b96e49893?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80)
+
 Since I am a fiction writer, let us start with a short story. 
 
 *Suppose that you are an astronaut whose spaceship gets out of control and crashes on an unknown planet. When you regain consciousness and find that you are not hurt badly, the first three questions in or mind would be:*
@@ -44,6 +46,8 @@ Since I am a fiction writer, let us start with a short story.
 *Now you begin to wonder why you have no desire to do anything. It seems so much safer just to wait for something to turn up somehow; it is better, you tell yourself, not to rock the spaceship. Far in the distance, you see some sort of living creatures approaching; you don't know whether they are human, but they walk on two feet. They, you decide, will tell you what to do.*
 
 *You are never heard from again.*
+
+![](https://images.unsplash.com/photo-1573588028698-f4759befb09a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2664&q=80)
 
 This is fantasy, you say? You would not act like that and no astronaut ever 
 would? Perhaps not. But this is the way most men live their lives, here, on 
@@ -90,10 +94,12 @@ of any observer—or are they created by the observer? Are they the object or
 the subject of man's consciousness? Are they what they are—or can they be 
 changed by a mere act of your consciousness, such as a wish?
 
+![](/assets/img/nyc.png)
+
 The nature of your actions-and of your ambition—will be different, according 
 to which set of answers you come to accept. These answers are the province 
 of metaphysics—the study of existence as such or, in Aristotle's words, of 
-“being qua being”—the basic branch of philosophy.
+"being qua being" — the basic branch of philosophy.
 
 No matter what conclusions you reach, you will be confronted by the necessity 
 to answer another, corollary question: **How do I know it?** Since man is not 
@@ -110,6 +116,8 @@ The extent of your self-confidence -- and of your success -- will be different,
 according to which set of answers you accept. These answers are the province 
 of epistemology, the theory of knowledge, which studies man's means of 
 cognition. 
+
+![](https://images.unsplash.com/photo-1475319122043-5ca9eeceefaf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80)
 
 These two branches are the theoretical foundation of philosophy. The third 
 branch—ethics—may be regarded as its technology. Ethics does not apply to 
@@ -131,7 +139,7 @@ posed by ethics: What is good or evil for man—and why? Should man's
 primary concern be a quest for joy—or an escape from suffering? Should man 
 hold self-fulfillment—or self-destruction—as the goal of his life? Should man 
 pursue his values—or should he place the interests of others above his own? 
-Should man seek happiness—or self-sacrifice? 
+Should man seek happiness—or self-sacrifice?
 
 I do not have to point out the different consequences of these two sets of 
 answers. You can see them everywhere—within you and around you.
@@ -141,7 +149,9 @@ this determines the fourth branch of philosophy: politics, which defines the
 principles of a proper social system. As an example of philosophy's function, 
 political philosophy will not tell you how mush rationed gas you should be 
 given and on which day of the week—it will tell you whether the government 
-has the right to impose any rationing on anythin
+has the right to impose any rationing on anything.
+
+![](https://images.unsplash.com/photo-1531318701087-32c11653dd77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80)
 
 The fifth and last branch of philosophy is esthetics, the study of art, which is 
 based on metaphysics, epistemology and ethics. Art deals with the needs—the 
@@ -152,6 +162,8 @@ abstract terms—I want to deal with concrete, particular, real-life problems—
 **what do I need philosophy for?"**
 
 My answer is: **In order to be able to deal with concrete, particular, real-life problems—i.e., in order to be able to live on earth.**
+
+![](image.png)
 
 You might claim-as most people do—that you have never been influenced by 
 philosophy. I will ask you to check that claim. Have you ever thought or said 
@@ -193,6 +205,8 @@ choice is whether these principles are true or false, whether they represent you
 conscious, rational conviction—or a grab-bag of notions snatched at random, 
 whose sources, validity, context and consequences you do not know, notions 
 which, more often than not, you would drop like a hot potato if you knew. 
+
+![](https://images.unsplash.com/photo-1623172959921-630212f71058?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2664&q=80)
 
 But the principles you accept (consciously or subconsciously) may clash with 
 or contradict one another; they, too, have to be integrated. What integrates 
@@ -252,6 +266,8 @@ Immanuel Kant, the dominant trend of philosophy has been directed to a
 single goal: the destruction of man's mind, of his confidence in the power of 
 reason. Today, we are seeing the climax of that trend.
 
+![](https://images.unsplash.com/photo-1627807452369-a2cd0b5ca56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80)
+
 When men abandon reason, they find not only that their emotions cannot 
 guide them, but that they can experience no emotions save one: **terror.** The 
 spread of drug addiction among young people brought up on today's 
@@ -292,3 +308,5 @@ existence. At the root of every significant philosophic theory, there is a
 legitimate issue—in the sense that there is an authentic need of man's 
 consciousness, which some theories struggle to clarify and others struggle to 
 obfuscate, to corrupt, to prevent man from ever discovering. **The battle of philosophers is a battle for man's mind. If you do not understand their theories, you are vulnerable to the worst among them.**
+
+![](https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80)
