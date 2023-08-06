@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
-  address:
+  address:>
     <p>Argonne National Laboratory </p>
     <p>BLDG 240 RM 1D16, 9700 S Cass Ave </p>
     <p>Lemont, IL 40329, USA </p>
