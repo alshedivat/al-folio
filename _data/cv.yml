@@ -3,8 +3,8 @@
   contents:
     - name: Full Name
       value: Vishal Kumar
-    - name: Date of Birth
-      value: 14th November 1989
+#    - name: Date of Birth
+#      value: 14th November 1989
     - name: Languages
       value: English, Hindi
     - name: Nationality
