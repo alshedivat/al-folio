@@ -16,8 +16,8 @@ category: past
 
 <p class="top-one"> </p>
 
-<h4 class="content"><span> Financing entity: </span> Bombardier Aerospace and Mitacs </h4>
-<h4 class="content"><span> Computational resource: </span> Southern Ontario Smart Computing Innovation Platform (SOSCIP) and Compute Canada </h4>
+#<h4 class="content"><span> Financing entity: </span> #Bombardier Aerospace and Mitacs </h4>
+#<h4 class="content"><span> Computational resource: </span> #Southern Ontario Smart Computing Innovation Platform (SOSCIP) #and Compute Canada </h4>
 
 <p class="top-one"> <sup> 1 </sup> Professor, Aerospace Engineering, Iowa State University, Ames, IA, USA <br>
 
