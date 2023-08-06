@@ -4,7 +4,7 @@ title: Unsteady airfoil flows
 description:
 img: assets/img/naca_fra.gif
 importance: 4
-category: active
+category: interested
 ---
 
 <style>
