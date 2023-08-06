@@ -11,7 +11,6 @@ profile:
   address:
     <p>BLDG 240 RM 1D16</p>
     <p>9700 S Cass Ave </p>
-    <p>Argonne National Lab </p>
     <p>Lemont, IL 40329, USA </p>
 
 news: false  # includes a list of news items
