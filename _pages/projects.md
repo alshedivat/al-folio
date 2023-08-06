@@ -5,7 +5,7 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 2
-display_categories: [current, interested]
+display_categories: [current, interested, past]
 horizontal: true
 ---
 
