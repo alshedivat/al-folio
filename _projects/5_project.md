@@ -19,7 +19,7 @@ category: current
 <h4 class="content"><span> Simulation codes: </span> <a href="https://www.bsc.es/research-development/research-areas/engineering-simulations/alya-high-performance-computational"> Alya </a> and <a href="https://nek5000.mcs.anl.gov/"> Nek5000 </a> </h4>
 <h4 class="content"><span> Visualization tools: </span>  Matlab and Paraview </h4>
 
-<p class="top-one"> <sup> 1 </sup> PhD Candidate, Mechanical Engineering, Queen's University, Kingston, Canada
+<p class="top-one"> <sup> 1 </sup> Lecturer, RMIT University Vietnam, Ho Chi Minh City, Vietnam
 <!-- <br>
 <sup> 2 </sup> Group Leader, Large-scale turbulence simulation, Barcelona Supercomputing Center (BSC), Spain <br>
 <sup> 3 </sup> Postdoctoral researcher, Large-scale turbulence simulation, Barcelona Supercomputing Center (BSC), Spain -->
@@ -29,7 +29,7 @@ category: current
 
 <p class="top-one"> </p>
 
-<h5> <u>Aim</u> : First, to implement ROM tools in Python/VTK framework and carry out validation studies for incompressible flow over cylinder test case. Next, use the tools to capture the dynamical features of "chaneling phenomenon" as discussed in our work on  <a href="http://127.0.0.1:4000/projects/1_project/"> roughness effects on flow over airfoils.</a></h5>
+<!-- <h5> <u>Aim</u> : First, to implement ROM tools in Python/VTK framework and carry out validation studies for incompressible flow over cylinder test case. Next, use the tools to capture the dynamical features of "chaneling phenomenon" as discussed in our work on  <a href="http://127.0.0.1:4000/projects/1_project/"> roughness effects on flow over airfoils.</a></h5> -->
 
 <hr>
 <p class="top-one"> </p>
