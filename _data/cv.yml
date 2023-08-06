@@ -114,22 +114,22 @@
   type: nested_list
   contents:
     - title: Aerodynamics and flow control
-      items:
-        - Analysis of aerodynamic flows
-        - flow-control strategies for aerodynamic flows using machine learning
+#      items:
+#        - Analysis of aerodynamic flows
+#        - flow-control strategies for aerodynamic flows using machine learning
     - title: Roughness effects on transition & turbulence
-      items:
-        - Description 1.
-        - Description 2.
+#      items:
+#        - Description 1.
+#        - Description 2.
     - title: Turbulence modelling
-      items:
-        - Description 1.
-        - Description 2.
+#      items:
+#        - Description 1.
+#        - Description 2.
     - title: Sediment transport in turbulent flows
-      items:
-        - Description 1.
-        - Description 2.
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Sports:</u> Basketball, Hiking, Cycling, etc.
+#      items:
+#        - Description 1.
+#        - Description 2.
+#- title: Other Interests
+#  type: list
+#  contents:
+#    - <u>Sports:</u> Basketball, Hiking, Cycling, etc.
