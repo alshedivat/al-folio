@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Unsteady fluid flows
+title: unsteady flows
 description:
 img: assets/img/naca_fra.gif
 importance: 4
