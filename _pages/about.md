@@ -19,9 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-.
-
-There you go! After such a clear introduction, let's get straight to discussing some trivial matters. I am interested in studying fluid flows. No I don't know everything about them, I just like playing with them. I study them numerically (in laymen terms that means using computers). In the past I have been involved in performing Direct numerical simulation (DNS) and Large-eddy simulation (LES).
+I like the aesthetics of fluid imagery.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
