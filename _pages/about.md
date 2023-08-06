@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address:
     <p>BLDG 240 RM 1D16</p>
-    <p>Argonne National Laboratory </p>
+    <p>Argonne National Lab </p>
     <p>9700 S Cass Ave </p>
     <p>Lemont, IL 40329, USA </p>
 
