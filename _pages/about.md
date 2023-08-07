@@ -14,11 +14,12 @@ selected_papers: true
 social: true
 ---
 
-I am a [incoming] PhD student in economics at Boston University. My research interests are economic history, political economy and development economics. I'm interested in applying machine learning and text analysis methods. I hold a BSc and MA in economics from Universidad de los Andes. I previously 
-worked as a predoctoral fellow at <a href="https://econ.columbia.edu/per/">PER</a>.
+I'm a [incoming] PhD student in economics at Boston University. My research interests are economic history, political economy and development economics. I'm interested in applying machine learning and text analysis methods.
 
- I'm a lab manager at <a href="https://www.industrialpolicygroup.com">The Industrial Policy Group</a>, an empirical research lab that aims to deliver core empirical research surrounding industrial policy, and make industrial policy a serious object of economic study.
+I'm also a lab manager at <a href="https://www.industrialpolicygroup.com">The Industrial Policy Group</a>, an empirical research lab that aims to deliver core empirical research surrounding industrial policy, and make industrial policy a serious object of economic study.
 
+I hold a BSc and MA in economics from Universidad de los Andes. I previously
+worked as a predoctoral fellow at <a href="https://econ.columbia.edu/per/">PER</a>. I'm originally from  <a href="https://en.wikipedia.org/wiki/Monteria"> Montería</a>, Córdoba, Colombia.
 
 #### **Contact**
 
