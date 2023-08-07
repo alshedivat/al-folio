@@ -130,6 +130,7 @@
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
+
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
           {%- endif %}
@@ -179,6 +180,11 @@
           {%- if entry.online_version %}
             <a href="{{ entry.online_version }}" class="btn btn-sm z-depth-0" role="button">Link</a>
           {%- endif %}
+
+          {%- if entry.coverage_show %}
+            <a class="coverage_show btn btn-sm z-depth-0" role="button">Coverage</a>
+          {%- endif %}
+
           </div>
 
           {% if entry.abstract -%}
@@ -187,6 +193,14 @@
             <p>{{ entry.abstract }}</p>
           </div>
           {%- endif -%}
+
+          {% if entry.coverage_show -%}
+          <!-- Hidden coverage block -->
+          <div class="coverage_show hidden">
+            <p>{{ entry.coverage_lks }}</p>
+          </div>
+          {%- endif -%}
+
 
           {% if entry.bibtex_show -%}
           <!-- Hidden bibtex block -->
