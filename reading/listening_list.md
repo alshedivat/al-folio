@@ -6,7 +6,7 @@ description: A curated collection of incredible music.
 nav: false
 ---
 
-3 selections each from 8 genres: [cinema](#cinema), [soft rock](#soft-rock), [alt rock](#alt-rock), [mainstream rock](#mainstream-rock), [pop](#pop), [metal](#metal), [rap](#rap), [classical](#classical)
+3 selections each from 9 genres: [cinema](#cinema), [soft rock](#soft-rock), [alt rock](#alt-rock), [mainstream rock](#mainstream-rock), [Pink Floyd](#pink-floyd), [pop](#pop), [metal](#metal), [rap](#rap), [classical](#classical)
 
 ---
 
@@ -47,6 +47,17 @@ nav: false
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3j0AJtgJuItaUtwBocD5VQ?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5TU1cWjUGyVKjSnIIxRSEf?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+---
+
+## Pink Floyd
+Yes, they deserve their own section.
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5VWC7v2dC2K0SIIjT9WTLN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/05uGBKRCuePsf43Hfm0JwX?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5HNCy40Ni5BZJFw1TKzRsC?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ---
 
