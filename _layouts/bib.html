@@ -181,8 +181,9 @@
             <a href="{{ entry.online_version }}" class="btn btn-sm z-depth-0" role="button">Link</a>
           {%- endif %}
 
+
           {%- if entry.coverage_show %}
-            <a class="coverage_show btn btn-sm z-depth-0" role="button">Coverage</a>
+            <a class="coverage btn btn-sm z-depth-0" role="button">Coverage</a>
           {%- endif %}
 
           </div>
@@ -196,8 +197,9 @@
 
           {% if entry.coverage_show -%}
           <!-- Hidden coverage block -->
-          <div class="coverage_show hidden">
-            <p>{{ entry.coverage_lks }}</p>
+          <div class="coverage hidden">
+            <p></p>
+            <p>{{ entry.coverage_links }}</p>
           </div>
           {%- endif -%}
 

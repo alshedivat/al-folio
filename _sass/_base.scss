@@ -586,6 +586,12 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
+      // div.coverage.hidden {
+      //   border: dashed 1px var(--global-bg-color);
+      // }
+      div.coverage.hidden.open {
+        background-color: $grey-back-code-box;
+      }
     }
   }
 }
