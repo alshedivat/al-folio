@@ -18,6 +18,7 @@ latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+asdgasdfa
 
 Hello! I'm Bryan Lu, a junior in the College of Arts and Sciences studying mathematics and computer science at Cornell University. My interests are currently split across combinatorics and programming languages, but I also like to be literate in a variety of other fields, including physics and linguistics.  
 
