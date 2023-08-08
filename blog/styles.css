@@ -23,7 +23,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    padding: 100px
+    padding: 0 100px 0;
 }
 
 h2 {
