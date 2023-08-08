@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WRF Tutorial</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>WRF Tutorial</h1>
+  </header>
+  <main>
+    <div class="sidebar">
+      <ul id='steps'>
+        <li class="step" id="step-1" onclick="showDescription(1)">Getting WRF</li>
+        <li class="step" id="step-2" onclick="showDescription(2)">Basics for running WRF</li>
+        <li class="step" id="step-3" onclick="showDescription(3)">Geographical Static Data</li>
+        <li class="step" id="step-4" onclick="showDescription(4)">Meteorological data</li>
+        <li class="step" id="step-5" onclick="showDescription(5)">Running WPS</li>
+        <li class="step" id="step-6" onclick="showDescription(6)">Running WRF</li>
+      </ul>
+      <div class="home-button"><button id="home-button" onclick="navigateHome()"><i class="fas fa-arrow-left"></i>Return to main menu</button></div>
+    </div>
+    <div id="description-box">
+      <div id="description-content">
+
+        <div id="step-1-description">
+          <p><b>WRF</b>, which stands for <b>Weather Research and Forecasting</b>, is a numerical weather prediction (NWP) system used to simulate and predict atmospheric processes.</p>
+          <p>It is a highly advanced and widely used for a wide range of applications, including severe weather prediction, air quality studies, climate change research, and understanding the dynamics of hurricanes and other extreme weather events. Its flexibility and accuracy have made it a valuable asset in improving our understanding of the Earth's atmosphere and its interactions with the environment.</p>
+          <p>Getting WRF on your device used to be very complicated. It involved many difficult steps and complex dependencies, making it challenging for many people to install it correctly. But now, there's a better way! <i><b>ClimBuntu OS</b></i> offers a simple solution. Just install <i><b>ClimBuntu OS</b></i>, and you'll get WRF pre-installed on your device, so you don't have to worry about the complicated setup process anymore.</p>
+          <!-- Add the ClimBuntu download button -->
+          <a href="https://afahadabdullah.github.io/climbuntu/"class="custom-link"> <b>Download ClimBuntu OS</b> </a>
+          
+        </div>
+
+        <div id="step-2-description">
+          <p>Before running WRF, it's necessary to know the program flow.</p>
+          <img src="./images/wrf_structure.jpeg" alt="Image" width="50%">
+          <p>This is a general structure of the file directory for running WRF. To run the model there are two parts, WPS & WRF. In WPS geographical and meteorological data are processed to make them compatible with WRF. </p>
+          <img src="./images/wrf_flow.jpeg" alt="Image" width="90%">
+          <h3>namelist file</h3>
+          <p>It is the configuration file for customizing the model. The model built based on the setting of the namelist file. It contains settings for domain configuration, time settings, output options, physics schemes, boundary conditions, initialization, and physics tuning. By modifying the namelist file, you can tailor the model to your specific simulation requirements, such as spatial and temporal resolution, physics options, and input data specifications.</p>
+          <h3>geogrid.exe</h3>
+          <p>it is one of the programs in WPS. It takes static geographic data from an external source and creates terrestrial data. This geographic data includes information such as land use, vegetation, soil types, terrain elevation, and other geographical features. The geogrid.exe program processes this data and prepares it for further use in the modeling process.</p>
+          <h3>ungrib.exe</h3>
+          <p>ungrib.exe is another program in WPS. It unpacks meteorological data from the GRIB format. This meteorological data is obtained from an external source, such as weather observation stations or numerical weather prediction models. ungrib.exe extracts the necessary fields from the GRIB files and converts them into an intermediate file format that the subsequent steps in the modeling process can use.</p>
+          <h3>real.exe</h3>
+          <p>mMoving on to the WRF model itself, real.exe is the program responsible for the vertical interpolation of the meteorological data onto the model's vertical coordinate system. It takes the output files, and horizontally interpolated fields from metgrid.exe and interpolates them vertically to match the levels defined in the WRF model configuration. This ensures that the meteorological data is correctly represented at each vertical level within the model.</p>
+          <h3>wrf.exe</h3>
+          <p>wrf.exe is the main program of the WRF model. It takes the preprocessed meteorological data and other input parameters, such as model configuration settings and boundary conditions, to generate a numerical weather forecast. wrf.exe solves the equations that describe atmospheric dynamics, thermodynamics, and other physical processes to simulate the evolution of weather conditions over time.</p>
+        </div>
+
+        <div id="step-3-description">
+          <p>1. Go to the <a href="https://www2.mmm.ucar.edu/wrf/users/download/get_sources_wps_geog.html" class="custom-link"> <b>Geographical Static Data Downloads Page.</b> </a></p>
+          <p>From the page we need to download static geographical data for WPS (geogrid) input. There are mendatory fields required to run WPS and other optional fields which are required for specific application.</p>
+          <p>2. From the following table, download static geographical data as required.</p>
+          <img src="./images/wps_input_data.jpeg" alt="Image" width="90%">
+          <p>High resolution data is recommended for batter computation.</p>
+        </div>
+
+        <div id="step-4-description">
+          <p>1. Go to the <a href="https://www2.mmm.ucar.edu/wrf/users/download/get_sources_wps_geog.html" class="custom-link"> <b>Data Downloads Page.</b> </a></p>
+          <p>From the following table we will download are input data.</p>
+          <img src="./images/grib_datalist.png" alt="Image" width="90%">
+          <p>2. let you will download <b>NCEP GDAS Final Analysis</b> data. Clicking on this will bring us to <a href="https://rda.ucar.edu/datasets/ds083.3/" class="custom-link">NCAR Research Data Archive (NCAR RDA)</a> website for download the dataset.</p>
+          <img src="./images/dataset_frontpage.png" alt="Image" width="90%">
+          <p>3. For downloading any dataset from this Data Archive, an user account is requird. Register a account and then sign in to this data archive.</p>
+          <p>4. Click on <b>Data Access</b>. </p>
+          <img src="./images/data_access.png" alt="Image" width="90%">
+          <p>5. Click on <b>Get a Subset</b>. Following page will open. Input the <b>Temporal Seletion and select all the parameter. Then enter continue.</b> </p>
+          <img src="./images/dataset.png" alt="Image" width="90%">
+          <p>6. Now we will select our area with <b>SPATIAL SELECTION</b> option. From the list select <b>Data within a bounding box.</b> A map will appeare with instruction to specify our area.</p>
+          <img src="./images/submit_request.png" alt="Image" width="90%">
+          <p>7. After specifiying the area click on <b>CLICK HERE</b> button. Page will reload with all updated request. Now click on <b>SUBMIT REQUEST</b> button.  </p>
+          <p>8. An overview of your requested dataset will be shown. It will take some to processing the request. You will get an email when the dataset is ready or you can see the status from the <b>user Dashboard</b> </p>
+          <img src="./images/data_download.png" alt="Image" width="90%">
+        </div>
+
+        <div id="step-5-description">
+          <p>1. Go to WRF/WPS/ directory.</p>
+          <p>2. Edit namelist.wps</p>
+          <img src="./images/namelist.png" alt="Image" width="90%">
+          <p>For a single domain run set, ‘max_dom = 1’. In this setting, the second column will not affect the run as only the first column will be used to run.</p>
+
+          
+
+          <h3>&share:</h3>
+          <ul>
+            <li><p><b>wrf_core:</b> Specifies the numerical core used in the WRF model (e.g., ARW, NMM).</p></li>
+            <li><p><b>max_dom:</b> Specifies the maximum number of domains to be created.</p></li>
+            <li><p><b>start_date, end_date:</b> Defines the start and end dates for the simulation.</p></li>
+          </ul>
+          
+
+          <h3>&geogrid:</h3>
+          <ul>
+            <li><p> <b>parent_id:</b> Specifies the parent domain ID.</p></li>
+            <li><p> <b>parent_grid_ratio:</b> Defines the ratio of grid points between the parent and child domains.</p></li>
+            <li><p> <b>i_parent_start, j_parent_start:</b> Defines the starting indices of the parent domain.</p></li>
+            <li><p> <b>e_we, e_sn:</b> Specifies the number of grid points in each domain's east-west and south-north directions.</p></li>
+            <li><p> <b>geog_data_res:</b> Specifies the resolution of the geographical data.</p></li>
+            <li><p> <b>dx, dy:</b> Specifies the grid spacing in the x and y directions, respectively, for the model domain. These values determine the resolution of the model grid.</p></li>
+            <li><p> <b>map_proj:</b> Specifies the map projection for the model domain. Common projections include "lambert", "mercator", "polar", "lat-lon", etc.</p></li>
+            <li><p> <b>ref_lat, ref_lon:</b> Specifies the reference latitude and longitude for the model domain in degrees. These values define the center point of the projection.</p></li>
+            <li><p> <b>truelat1, truelat2:</b> If using a Lambert Conformal projection, these parameters define the true latitudes for the projection.</p></li>
+            <li><p> <b>stand_lon:</b> Specifies the standard longitude for the projection.</p></li>
+          </ul>
+          
+          <p>3. Type './geogrid.exe' and run. It will create a file named geo_em.d0X.nc (here ‘X’ is the domain number).</p>
+          <img src="./images/geogrid.png" alt="Image" width="90%">
+          
+          <p>4. type 'ln -sf ungrib/Variable_Tables/Vtable.GFS Vtable'  and run. This is to create a soft link to ‘Vtable’ by the ungrib.exe program unpack the GRIB files and extract the necessary meteorological fields.</p>
+          <img src="./images/vtable.png" alt="Image" width="90%">
+          
+          <p>5. Type './link_grib.csh path_to_data' and run.This command creates symbolic links (shortcuts) of the GRIB files (meteorological data) within the directory</p>
+          <img src="./images/gribfile.png" alt="Image" width="90%">
+          
+          <p>6. Type './ungrib.exe' and run.ungrib.exe unpacks the GRIB files and extracts the specified meteorological variables. The data is then converted into an intermediate file format (usually in binary format) that is suitable for further processing in the WRF modeling system.</p>
+          <img src="./images/ungrib1.png" alt="Image" width="90%">
+          <img src="./images/ungrib1.5.png" alt="Image" width="90%">
+          <img src="./images/ungrib2.png" alt="Image" width="90%">
+          
+          <p>7. Type ./metgrid.exe and run. This process involves mapping the data from the input grids to the target model grid, considering the grid spacing, projection, and other domain-specific settings specified in the namelist.wps file. It generates output files that contain horizontally interpolated meteorological fields ready for use as input to the WRF model. These output files provide gridded meteorological data for each model domain specified in the namelist.wps file. Here's an explanation of the metgrid.exe output files:</p>
+          <p> met_em.d0X.YYYY-MM-DD_HH:MM:SS.nc: </p>
+          <ul>
+            <li><p><b>Format:</b> NetCDF</p></li>
+            <li><p><b>X:</b> Domain number</p></li>
+            <li><p><b>YYYY-MM-DD_HH:MM:SS:</b> Date and time of the data</p></li>
+          </ul>
+          <p>
+          <p> Metgrid.log: </p>
+          <ul>
+            <li><p><b>Format:</b> Plain text</p><p></li>
+            <li><p><b>Description:</b> This log file records the details and progress of the metgrid.exe process. It provides information about the interpolation process, any issues or warnings encountered, and summary statistics. It can be useful for troubleshooting and verifying the successful execution of metgrid.exe.</p></li>
+          </ul>
+          <img src="./images/metgrid1.png" alt="Image" width="90%">
+          <img src="./images/metgrid2.png" alt="Image" width="90%">
+
+
+
+        </div>
+
+        <div id="step-6-description">
+          <p>1. Go to /WRF/WRF-4.1.2/test/em_real drectory.</p>
+          <p>2. Edit namelist.input file, which contains the configuration settings for the WRF model. The file includes various sections and parameters to be specified. Here are some important parameters you may need to modify:</p>
+          <ul>
+            <li><p><b>Start and end dates for the simulation:</b> Set the "start_date" and "end_date" parameters to define the desired time range for the simulation.</p></li>
+            <li><p><b>Domain settings:</b> Specify the number of domains using the "max_dom" parameter. Set the grid spacing for each domain using the "dx" and "dy" parameters. Define the projection, reference latitude, and longitude using the "map_proj," "ref_lat," and "ref_lon" parameters, respectively.</p></li>
+            <li><p><b>Physics options:</b> Configure the physics schemes for various processes such as microphysics, radiation, and boundary layer physics. You can choose appropriate options based on your research goals and available data.</p></li>
+          </ul>
+          
+          <img src="./images/namelist_input.png" alt="Image" width="90%">
+          <p>3. Create symbolic links to the metgrid output file within the directory by executing the following command, <b>'ln -sf path_to_metgrid_output/met_em* .'</b> . Here ‘*’ make sure all the files starting with ‘met_em’ are selected and ‘.’ (dot) ensures those symbolic links' names remain as it is. Also, don't ignore the ‘ single space’ between ‘*’ and ‘.’ (dot).</p>
+          <img src="./images/met_em_link.gif" alt="Image" width="70%">
+          <p>4. Run the real.exe utility by executing the command <b>./real.exe</b>. This step initializes the model's computational domain with the necessary input data, including static geographical data, topography, and initial and boundary conditions.</p>
+          <p>Once the real.exe process completes, you will find a file named "wrfinput_d01" (or similar) in your WRF directory. This file contains the initialized model fields for the first domain.</p>
+          <img src="./images/real_exe.png" alt="Image" width="90%">
+          <p>5. Run the wrf.exe utility by executing the command <b>./wrf.exe</b> or <b>mpirun -np X ./wrf.exe</b>, where 'X' is the number of core. This step starts the WRF model simulation using the initialized fields from the previous step. The model will integrate the atmospheric equations forward in time, updating the fields based on the configured physics options and external forcing.</p>
+          <p>Monitor the progress of the WRF simulation as it runs. You can check the output in the terminal window or log files generated by WRF.</p>
+          <p>6. Once the simulation completes, you will find output files in the WRF directory, such as "wrfout_d01" (or similar). These files contain the simulated meteorological fields for the specified time period and domain.</p>
+          <img src="./images/wrf_exe.png" alt="Image" width="90%">
+        </div>
+      </div>
+      <div id="navigation-buttons">
+        <button id="previous-button" class="nav-button previous-button" onclick="navigate(-1)" disabled>Previous</button>
+        <button id="next-button" class="nav-button next-button" onclick="navigate(1)">Next</button>
+
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p> This tutorial is crafted by <b>Md. Tashin Ahammad</b></p>
+  </footer>
+</body>
+</html>

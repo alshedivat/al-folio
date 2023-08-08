@@ -1,0 +1,437 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/* Section 1: Navigation Menu */
+
+/* Reset default styles */
+nav, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Set background and height for the navigation bar */
+nav {
+    background-color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+/* Style for the logo */
+.logo img {
+  height: 30px;
+  width: 90px;
+  margin: 0 auto;
+}
+
+/* Style for the navigation links */
+.nav-links li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.nav-links li:first-child {
+  margin-left: 0;
+}
+
+.nav-links a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #f4b71e;
+}
+
+
+/* Section 2: Description of Tutorial */
+section:nth-child(2) {
+    padding: 20px;
+    text-align: justify;
+}
+
+
+/* Sun and moon icons */
+.theme-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  display: none;
+}
+
+/* Show the sun icon by default */
+#sun, #moon{
+  display: inline;
+}
+
+
+.section-content {
+    display: flex;
+    align-items: center; /* Vertically align items */
+}
+
+img {
+    width: 200px;
+    border-radius: 10px; /* Add rounded corners to the image */
+    margin-right: 20px; /* Add some spacing between the image and text */
+}
+
+.text-content {
+    flex: 1; /* Allow the text content to take the remaining space */
+}
+
+.text-content p {
+  text-align: justify;
+}
+
+/* For tablet view */
+@media (max-width: 768px) {
+  .section-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    margin: 0 auto 20px; /* Center the image horizontally and add margin below */
+    max-width: 300px;
+  }
+
+  .text-content {
+    text-align: center; /* Center the text */
+  }
+}
+
+/* For mobile view */
+@media (max-width: 480px) {
+  img {
+    width: 100%; /* Make the image full-width on mobile */
+    max-width: 175px;
+  }
+}
+
+/* Section 3: Tutorial Hyperlinks */
+section:nth-child(3) {
+    padding: 20px;
+}
+
+.subsection {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.tutorial-tiles {
+    display: flex;
+    flex-wrap: wrap;
+/*    justify-content: space-between;*/
+    gap: 20px;
+}
+
+.tile {
+    width: calc(25% - 20px);    /* 4 blocks per row */
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+/* For desktop view (4 tiles in each row) */
+.tutorial-tiles .tile {
+  flex: 0 0 calc(25% - 20px);
+}
+
+/* For tablet view (3 tiles in each row) */
+@media (max-width: 1024px) {
+  .tutorial-tiles .tile {
+    flex: 0 0 calc(33.33% - 20px);
+  }
+}
+
+/* For mobile view (2 tiles in each row) */
+@media (max-width: 768px) {
+  .tutorial-tiles .tile {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+
+.tile:hover {
+    transform: scale(1.05); /* Increase the size slightly on hover */
+}
+
+.tile a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.tile img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.tile-description {
+    display: block;
+    padding: 10px;
+    background-color: #00000059;
+    color: #fff;
+    text-align: center;
+    height: 35px;
+    padding: auto;
+
+}
+
+.tile-number {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0 8px 0 8px;
+}
+
+/* Section 4: Guided Projects */
+section:nth-child(4) {
+    padding: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.project {
+    background-color: #00000017;
+    width: 90%; /* 2 projects per row */
+    max-width: 900px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+}
+
+.project-thumbnail {
+  flex: 0 0 40%; /* Set the thumbnail to take 50% of the width within the project */
+  padding-right: 10px; /* Add some spacing between the thumbnail and details */
+}
+
+.project-thumbnail img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-details {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex: 1; /* Allow the details to take up the remaining space within the project */
+}
+
+.project-link {
+    text-decoration: none; /* Remove underline from the link */
+    color: #333; /* Set the color of the link text */
+}
+
+
+/* Section 5: Contributor Information */
+section:nth-child(5) {
+    padding: 20px;
+}
+
+.contributors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contributor {
+    width: calc(17%); /* 5 contributors per row */
+    margin: auto;
+    margin-top: 0px;
+}
+
+@media (max-width: 1024px) {
+    .contributor {
+        width: calc(22%); /* 4 contributors per row */
+    }
+}
+
+@media (max-width: 786px) {
+    .contributor {
+        width: calc(30%); /* 3 contributors per row */
+    }    
+}
+
+@media (max-width: 500px) {
+    .contributor {
+        width: calc(45%); /* 3 contributors per row */
+    }    
+}
+
+.contributor img {
+    display: block;
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.contributor h3 {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.contributor p {
+    font-size: 12px;
+}
+
+.contributor-number {
+    display: block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* Section 6: Footer */
+/* Styling for the footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 6px 0;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  z-index: 999; /* Set a higher z-index to make the footer appear in front of other elements */
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+footer b {
+  color: #888; /* Less prominent color for the name */
+}
+
+
+/* Add background shading to sections */
+section {
+    background-color: #f2f2f2; /* Light gray background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    padding: 20px;
+    margin-bottom: 30px; /* Add a larger margin at the bottom to better separate sections */
+    border-radius: 8px;
+    background-image: linear-gradient(180deg, #e0e0e0 0%, #f2f2f2 100%); /* Gradient effect */
+}
+
+/* Toggle Switch Styling */
+.toggle-switch {
+    position: relative;
+    top: 3px;
+    right: 5px;
+    display: inline-block;
+    width: 45px;
+    height: 21px;
+    background-color: #888;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.toggle-switch input[type="checkbox"] {
+    display: none;
+}
+
+.toggle-switch label {
+    display: block;
+    width: 17px;
+    height: 17px;
+    margin: 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: margin 0.3s;
+}
+
+.toggle-switch input[type="checkbox"]:checked + label {
+    margin-left: 25px;
+}
+
+/* Set colors for the bright mode */
+body:not(.dark-mode) .toggle-switch {
+    background-color: #999;
+}
+
+body:not(.dark-mode) .toggle-switch label {
+    background-color: #333;
+}
+
+
+/* Set colors for the dark mode */
+body.dark-mode .toggle-switch {
+    background-color: #888;
+}
+
+body.dark-mode .toggle-switch label {
+    background-color: white;
+}
+
+
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #1c1c1d;
+    color: #fff;
+}
+
+body.dark-mode nav {
+    background-color: #1c1c1d;
+}
+
+body.dark-mode .nav-links a {
+    color: #fff;
+}
+
+body.dark-mode .project-link {
+    color: #fff;
+}
+
+section.dark-mode {
+    background-color: #222;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    background-image: linear-gradient(180deg, #222 0%, #333 100%);
+}
+
+body.dark-mode footer {
+    background-color: #1c1c1d;
+    color: #fff;
+}

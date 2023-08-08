@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PyTutorial4ClimateScience</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Section 1: Navigation Menu -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#section1"><img src="./images/logo.jpg" height="20px" width="20px" alt="Website Logo"></a>
+        </div>
+        <ul class="nav-links">
+        <!-- <li><a href="#section1">Home</a></li> -->
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">ClimBuntu</a></li>
+            <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                    <i class="fas fa-moon"></i> <i class="fas fa-sun"></i>
+                </button>
+            </li>
+            <li>            
+                <span class="theme-icon" id="sun">&#9728;</span>
+                <div class="toggle-switch">
+                    <input type="checkbox" id="toggle-btn">
+                    <label for="toggle-btn"></label>
+                </div>
+                <span class="theme-icon" id="moon">&#9790;</span>
+            </li>
+        </ul>
+
+    </nav>
+
+<!-- Section 2: Description of Tutorial -->
+    <section id="section1">
+        <div class="section-content">
+            <img src="./images/climate data analysis.jpeg" width="200px" alt="Climate Data Analysis">
+            <div class="text-content">
+                <h2>Blog</h2>
+                <p>Exploring the intersection of Atmospheric Physics.</p>
+                <p><br>Whether you're an experienced scientist seeking to enhance your data analysis prowess with Python's capabilities or a curious student eager to learn about climate science, this platform is tailored for you. Together, we will delve into the depths of Python's programming prowess, applying it to climate science challenges and fostering a deeper understanding of the natural world. No matter your background or expertise level, I invite you to join this community of learners and sharers, where knowledge knows no boundaries. Let's embark on this exhilarating adventure of discovery and grow together in our scientific pursuits. Welcome aboard!</p>
+                
+            </div>
+        </div>
+    </section>
+
+<!-- Section 3: Tutorial Hyperlinks -->
+    <section id="section2">
+        <h2>Python Tutorial for Climate Science</h2>
+        <p>Discover the exciting world of climate science with this Python tutorial designed for aspiring researchers and enthusiasts. No prior programming experience needed! Gain valuable insights and hands-on skills to analyze, visualize, and model climate data effectively. Explore diverse techniques like seasonal analysis, statistical analysis, and GIS applications for remote sensing. Dig into flood mapping with Google Earth Engine and discover NASA's ECCO/MITgcm data. While Python plays a role, this holistic approach fosters a deeper understanding of climate science beyond programming. Gain confidence in interpreting climate data and conducting impactful research.</p>
+        <!-- <p><br></p> -->
+        <div class="tutorial-subsections">
+
+            <!-- Sub-section 1: Python -->
+            <div class="subsection">
+                <h3>01 Python</h3>
+            </div>
+            <div class="tutorial-tiles">
+                <!-- Create tiles for Python tutorials with hyperlinks -->
+                <div class="tile">
+                    <a href="./colab_html/01.1_Introduction to Python_Basic Python.html">
+                        <span class="tile-description">1.1 Introduction to Python (Basic)</span>
+                        <img src="./images/01.1_Introduction to Python_Basic Python.jpg" alt="Introduction to Python (Basic)">
+                    </a>
+                </div>
+                <div class="tile">
+                    <a href="./colab_html/01.2_Numpy Pandas Matplotlib.html">
+                        <span class="tile-description">1.2 Numpy, Pandas & Matplotlib</span>
+                        <img src="./images/01.2_Numpy Pandas Matplotlib.png" alt="Introduction to Python: Numpy, Pandas & Matplotlib">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sub-section 2: Climate Data -->
+            <div class="subsection">
+                <h3>02 Climate Data</h3>
+            </div>
+            <div class="tutorial-tiles">
+                <!-- Create tiles for Climate Data tutorials with hyperlinks -->
+                <div class="tile">
+                    <a href="./colab_html/02_netcdf.html">
+                        <span class="tile-description">2.1 NetCDF datasets</span>
+                        <img src="./images/02_netcdf.png" alt="NetCDF datasets">
+                    </a>
+                </div>
+                <div class="tile">
+                    <a href="./colab_html/03_plot.html">
+                        <span class="tile-description">2.2 How to plot</span>
+                        <img src="./images/03_plot.png" alt="How to plot">
+                    </a>
+                </div>
+                <div class="tile">
+                    <a href="./colab_html/04_How to download data (Example_ ERA5 from Climate Data Store).html">
+                        <span class="tile-description">2.3 Downloading Climate Data</span>
+                        <img src="./images/04_How to download data (Example_ ERA5 from Climate Data Store).png" alt="Downloading Climate Data">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sub-section 3: Analysis and Methods -->
+            <div class="subsection">
+                <h3>03 Analysis and Methods</h3>
+            </div>
+            <div class="tutorial-tiles">
+                <!-- Create tiles for Analysis and Methods tutorials with hyperlinks -->
+                <div class="tile">
+                    <a href="./colab_html/05_How to do seasonal analysis.html">
+                        <span class="tile-description">3.1 Seasonal Analysis with Xarray</span>
+                        <img src="./images/05_How to do seasonal analysis.png" alt="Seasonal Analysis with Xarray">
+                    </a>
+                </div>
+                <div class="tile">
+                    <a href="./colab_html/06_Anomalies_CompositeAnalysis_ENSO.html">
+                        <span class="tile-description">3.2 Anomalies and timeseries plot</span>
+                        <img src="./images/06_Anomalies_CompositeAnalysis_ENSO.png" alt="How to make anomalies and plot timeseries">
+                    </a>
+                </div>
+                <div class="tile">
+                    <a href="./colab_html/07_Linear_regression_Trend.html">
+                        <span class="tile-description">3.3 Linear Regression</span>
+                        <img src="./images/07_Linear_regression_Trend.png" alt="Linear Regression">
+                    </a>
+                </div>
+                <div class="tile">
+                    <a href="./colab_html/08_Statistical_analysis_correlation_significance_testing.html">
+                        <span class="tile-description">3.4 Statistical analysis</span>
+                        <img src="./images/08_Statistical_analysis_correlation_significance_testing.png" alt="Statistical analysis: Correlation, Composite mean, and Significance testing.">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sub-section 4: GIS And Remote Sensing -->
+            <div class="subsection">
+                <h3>04 GIS And Remote Sensing</h3>
+            </div>
+            <div class="tutorial-tiles">
+                <!-- Create tiles for GIS And Remote Sensing tutorials with hyperlinks -->
+                <div class="tile">
+                    <a href="./colab_html/09_Spatial_Interpolation_(c)_.html">
+                        <span class="tile-description">4.1 GIS and Remote Sensing with Python</span>
+                        <img src="./images/09_Spatial_Interpolation_(c)_.png" alt="GIS and Remote Sensing with Python">
+                    </a>
+                </div>
+                <div class="tile">
+                    <a href="./colab_html/10_Basics_of_GIS_Using_Python.html">
+                        <span class="tile-description">4.2 Basics of GIS using Python</span>
+                        <img src="./images/10_Basics_of_GIS_Using_Python.png" alt="Basics of GIS using Python">
+                    </a>
+                </div>
+                <div class="tile">
+                    <a href="./colab_html/11_Flood_Mapping_with_Google_Earth_Engine.html">
+                        <span class="tile-description">4.3 Flood Mapping with Google Earth Engine</span>
+                        <img src="./images/11_Flood_Mapping_with_Google_Earth_Engine.png" alt="Flood Mapping with Google Earth Engine">
+                    </a>
+                </div>
+                <div class="tile">
+                    <a href="./colab_html/12_Arcpy.html">
+                        <span class="tile-description">4.4 ARCpy</span>
+                        <img src="./images/12_Arcpy.png" alt="ARCpy">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Section 4: Guided Projects -->
+    <section id="section3">
+        <h2>Guided Projects</h2>
+        <div class="projects">
+            <!-- Project 01 -->
+            
+            <a href="./colab_html/ml_01_ENSOprediction.html" class="project-link">
+                <div class="project" >
+                    <div class="project-thumbnail">
+                        <img src="./images/ml_01_ENSOprediction.png" alt="Project 1">
+                    </div>
+                    
+                    <div class="project-details">
+                        <p>Predicting Nino3.4 index with 6 months lead with Machine Learning</p>
+                    </div>
+                </div>
+            </a>
+            <!-- Project 02 -->
+            <!-- Add details here -->
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Climate Modeling Tutorial</h2>
+        <div class="tutorial-tiles">
+                <!-- Create tiles for Python tutorials with hyperlinks -->
+                <div class="tile">
+                    <a href="./wrf_tutorial/index.html">
+                        <span class="tile-description">WRF</span>
+                        <img src="./images/wrf_flow.jpeg" alt="#">
+                    </a>
+                </div>
+                <div class="tile">
+                    <a href="#">
+                        <span class="tile-description">MITgcm</span>
+                        <img src="#" alt="MITgcm">
+                    </a>
+                </div>
+            </div>
+    </section>
+
+
+
+    <!-- Section 5: Contributor Information -->
+    <section id="section4">
+        <h2>Contributor Information</h2>
+        <div class="contributors">
+            <!-- Create contributor profiles -->
+            <!-- Assume there are 10 contributors, so create 2 rows of 5 contributors each -->
+            <div class="contributor">
+                <img src="./images/people/Abdullah Al Fahad.jpg" alt="Contributor 1">
+                <h3>Abdullah Al Fahad</h3>
+                <p><b>GMAO, NASA GSFC</b></p>
+                <p>Contact: <a href="mailto:a.fahad@nasa.gov">a.fahad@nasa.gov</a></p>
+            </div>
+
+            <div class="contributor">
+                <img src="./images/people/Tahmidul Azom Sany.jpeg" alt="Contributor 2">
+                <h3>Tahmidul Azom Sany</h3>
+                <p><b>George Mason University, VA, USA</b></p>
+                <p>Contact: <a href="mailto:tsany@gmu.edu">tsany@gmu.edu</a></p>
+            </div>
+
+            <div class="contributor">
+                <img src="./images/people/Nazimur Rashid Chowdhury.jpg" alt="Contributor 3">
+                <h3>Nazimur Rashid Chowdhury</h3>
+                <p><b>Earth System Physics, The Abdus Salam ICTP, Trieste, Italy</b></p>
+                <p>Contact: <a href="mailto:rashidnazimur@gmail.com">rashidnazimur@gmail.com</a></p>
+            </div>
+            
+            <div class="contributor">
+                <img src="./images/people/Md. Tashin Ahammad.jpg" alt="Contributor 4">
+                <h3>Md. Tashin Ahammad</h3>
+                <p><b>Dept. of Physics, SUST, Sylhet-3114</b></p>
+                <p>Contact: <a href="mailto:tashinahammad.03@gmail.com">tashinahammad.03@gmail.com</a></p>
+            </div>
+
+            <div class="contributor">
+                <img src="./images/people/Torikul Islam Sanjid.jpg" alt="Contributor 5">
+                <h3>Torikul Islam Sanjid </h3>
+                <p><b>Dept. of Physics, SUST, Sylhet-3114</b></p>
+                <p>Contact: <a href="mailto:torikul.sanjid@gmail.com">torikul.sanjid@gmail.com</a></p>
+            </div>
+
+            <div class="contributor">
+                <img src="./images/people/Rifat Rahman Bhuiyan.jpg" alt="Contributor 6">
+                <h3>Rifat Rahman Bhuiyan</h3>
+                <p><b>Dept. of Physics, SUST, Sylhet-3114</b></p>
+                <p>Contact: <a href="mailto:rifatb00@gmail.com">rifatb00@gmail.com</a></p>
+            </div>
+
+            <div class="contributor">
+                <img src="./images/people/Shammunul Islam.jpg" alt="Contributor 7">
+                <h3>Shammunul Islam</h3>
+                <p><b>AOES, George Mason University, VA, USA</b></p>
+                <p>Contact: <a href="mailto:sislam27@gmu.edu">sislam27@gmu.edu</a></p>
+            </div>
+
+            <div class="contributor">
+                <img src="./images/people/Md Aminul Haque Laskor.jpg" alt="Contributor 8">
+                <h3>Md Aminul Haque Laskor</h3>
+                <p><b>Dept. of Geography, SUST, Sylhet-3114</b></p>
+                <p>Contact: <a href="mailto:ahl.aminlaskor@gmail.com">ahl.aminlaskor@gmail.com</a></p>
+            </div>
+
+            <div class="contributor">
+                <img src="./images/people/Saiful Islam Apu.jpeg" alt="Contributor 9">
+                <h3>Saiful Islam Apu</h3>
+                <p><b>Department of Geology, The University of Kansas, Lawrence, KS, 66045</b></p>
+                <p>Contact: <a href="mailto:saifulapu@ku.edu">saifulapu@ku.edu</a></p>
+            </div>
+
+            <div class="contributor">
+                <img src="./images/people/Noshin Sharmili.jpg" alt="Contributor 10">
+                <h3>Noshin Sharmili</h3>
+                <p><b>Geosciences, Pennsylvania State University, PA, USA</b></p>
+                <p>Contact: <a href="mailto:noshinsharmili0@gmail.com">noshinsharmili0@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Footer -->
+    <footer>
+    <p> This webpage is designed by <b>Md. Tashin Ahammad</b> and <b>Tahmidul Azom Sany</b></p>
+  </footer>   
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+
+</html>

@@ -1,0 +1,205 @@
+body {
+  font-family: ubuntu, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: #eee;
+  text-align: justify;
+  width: 100%;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  width: 80%;
+  padding: auto;
+  display: flex;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 80px; /* Adjust the margin-top value to leave space for the fixed header */
+  margin-bottom: 50px;
+}
+
+#steps .step{
+  text-align: left;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.sidebar {
+  width: 25%;
+  max-width: 200px;
+  background-color: #333;
+  padding: 10px;
+  position: fixed;
+  height: auto;
+/*  height: calc(100% - 120px); /* Adjust the height to leave space for the fixed header and footer */*/
+  overflow-y: auto;
+}
+
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar li:hover {
+  background-color: #444;
+  color: #ed631e;
+}
+
+/* Add this CSS for the home button */
+.home-button {
+  width: 100%; /* Span the button to the width of the sidebar */
+  text-align: center;
+  margin-top: 30px;
+}
+
+#home-button {
+  font-size: 16px;
+  padding: 5px 0;
+  cursor: pointer;
+  background-color: #6d5f5f6e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+#home-button:hover {
+  background-color: #444;
+}
+
+.custom-link {
+  color: #4c8fff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.custom-link:hover {
+  color: #ff6b6b;
+  text-decoration: none;
+}
+
+#description-box {
+  margin-left: 28%;
+  overflow-y: auto;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.divider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 1px; /* Width of the vertical divider */
+  background-color: #666; /* Color of the divider */
+}
+
+#description-content {
+  padding-right: 10px;
+  padding: 20px;
+}
+
+
+#navigation-buttons {
+/*  margin-top: 20px;*/
+  text-align: center;
+}
+
+#navigation-buttons button {
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 6px 0;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  z-index: 999; /* Set a higher z-index to make the footer appear in front of other elements */
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+footer b {
+  color: #888; /* Less prominent color for the name */
+}
+
+.step.active {
+  background-color: #ddd;
+  color: #333;
+}
+
+
+/* Common styles for both buttons */
+.nav-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Previous button styles */
+.previous-button {
+  background-color: #6c757d;
+}
+
+/* Next button styles */
+.next-button {
+  background-color: #007bff;
+}
+
+/* Animation when hovering over the buttons */
+.nav-button:not([disabled]):hover {
+  background-color: #343a40;
+}
+
+/* Animation for the sliding effect */
+.previous-button:not([disabled]):hover {
+  transform: translateX(-5px); /* Slide 5px to the left when hovering */
+}
+
+.next-button:not([disabled]):hover {
+  transform: translateX(5px); /* Slide 5px to the right when hovering */
+}
+
+/* Disabled button styles */
+.nav-button[disabled] {
+  opacity: 0.6; /* Reduce opacity for disabled buttons */
+  cursor: not-allowed; /* Show not-allowed cursor for disabled buttons */
+  transform: none; /* Remove any transform for disabled buttons */
+}
