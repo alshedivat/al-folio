@@ -148,7 +148,7 @@ section:nth-child(3) {
 
 .tile {
     width: calc(25% - 20px);    /* 4 blocks per row */
-    height: 150px;
+    height: auto;
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
@@ -189,7 +189,7 @@ section:nth-child(3) {
 .tile img {
     width: 100%;
     height: auto;
-    border-radius: 8px 8px 0 0;
+    border-radius: 0 0 0 0;
 }
 
 .tile-description {
