@@ -31,6 +31,103 @@
 </head>
 
 
+<!-- Pop up -->
+<style>
+    /* Add your CSS styles here */
+    .popup-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 9999;
+    }
+
+    .popup {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Add more styles for the form and other elements as needed */
+  </style>
+</head>
+<body>
+  <!-- Your regular website content goes here -->
+  <h1>Welcome to Your Jekyll Website!</h1>
+  <p>Click the button below to open the popup form:</p>
+  <button id="show-popup-btn">Open Popup</button>
+
+  <!-- Popup Form -->
+  <div id="popup-container" style="display: none;">
+    <div class="popup">
+      <h2>Enter Your Information</h2>
+      <form id="popup-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        
+        <label for="institute">Institute:</label>
+        <input type="text" id="institute" required>
+        
+        <label for="designation">Designation:</label>
+        <input type="text" id="designation" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Your regular website content goes here -->
+
+  <script>
+    // Function to show the popup
+    function showPopup() {
+      const popupContainer = document.getElementById("popup-container");
+      popupContainer.style.display = "flex";
+    }
+
+    // Function to hide the popup
+    function hidePopup() {
+      const popupContainer = document.getElementById("popup-container");
+      popupContainer.style.display = "none";
+    }
+
+    // Add event listener to the trigger element
+    const triggerButton = document.getElementById("show-popup-btn");
+    triggerButton.addEventListener("click", showPopup);
+
+    // Add event listener to close the popup when clicking outside the form
+    const popupContainer = document.getElementById("popup-container");
+    popupContainer.addEventListener("click", function (event) {
+      if (event.target === popupContainer) {
+        hidePopup();
+      }
+    });
+
+    // Submit the form (you can customize this to send the data to your desired endpoint)
+    const popupForm = document.getElementById("popup-form");
+    popupForm.addEventListener("submit", function (event) {
+      event.preventDefault();
+      const formData = new FormData(popupForm);
+      // Process the form data or send it to your server
+      // For example, you can use the Fetch API to send the data to your server
+      // and handle the response accordingly.
+      // After processing, you may choose to hide the popup:
+      hidePopup();
+    });
+  </script>
+
+
+
+
 
 <!-- <head>
     <meta charset="UTF-8">
