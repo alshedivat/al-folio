@@ -354,20 +354,21 @@ section:nth-child(5) {
 /* Section 6: Footer */
 /* Styling for the footer */
 footer {
-  background-color: #222;
-  color: #fff;
-  padding: 6px 0;
-  text-align: center;
-  bottom: 0;
-  left: 0;
-  z-index: 999; /* Set a higher z-index to make the footer appear in front of other elements */
-}
-
-footer p {
-  margin: 0;
-  font-size: 14px;
-  color: #555;
-}
+  
+    background-color: #ffffff;
+    color: #00050a;
+    padding: 20px 0;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    z-index: 999; /* Set a higher z-index to make the footer appear in front of other elements */
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 9px;
+    color: #555;
+  }
 
 footer b {
   color: #888; /* Less prominent color for the name */
