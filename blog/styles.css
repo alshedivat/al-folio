@@ -346,7 +346,7 @@ footer b {
 
 /* Add background shading to sections */
 section {
-    background-color: #f2f2f2; /* Light gray background color */
+    background-color: #ffffff; /* Light gray background color */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
     padding: 20px;
     margin-bottom: 30px; /* Add a larger margin at the bottom to better separate sections */
