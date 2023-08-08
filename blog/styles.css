@@ -191,17 +191,27 @@ section:nth-child(3) {
     height: auto;
     border-radius: 8px 8px 0 0;
 }
-
-.tile-description {
+/* .tile-description {
     display: block;
     padding: 10px;
-    background-color: #bdc3c7;
+    background-color: #033A92;
     color: #fff;
     text-align: center;
     height: 35px;
     padding: auto;
+    font-weight: bold;
+} */
 
+.tile-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #033A92;
+    color: #fff;
+    height: 35px;
+    font-weight: bold;
 }
+
 
 .tile-number {
     position: absolute;
