@@ -16,6 +16,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a second-year PhD student at MIT, advised by Professor [Vivishek Sudhir](https://scholar.google.com/citations?user=j4NKNWQAAAAJ&hl=en&oi=ao). My research interest is `quantum precision measurements`. In my experiment, <i>cavity optomechanics, quantum optics, and electronics</i> are heavily utilized, while on the theory side, <i>quantum physics, stochastic processes, and various topics</i> are extensively considered.
+I am a second-year PhD student at MIT, advised by Professor [Vivishek Sudhir](https://scholar.google.com/citations?user=j4NKNWQAAAAJ&hl=en&oi=ao). My research interest is `quantum precision measurements` to explore the gap between quantum physics and gravity. Specifically, we use light to measure and control macroscoptic mechanical oscillators, and aim to realize tangible quantum test masses. These efforts will pave the way for future quantum applications such as quantum sensing and quantum metrology.
 
-Before coming to MIT, I received B.E. and M.E. degrees in Mechanical Engineering from Tokyo Institute of Technology and the University of Tokyo, respectively. Then, I completed my military duty at KAIST as a research associate, where I studied frequency combs, time/frequency standards, and precision measurements.
+Before coming to MIT, I received B.S. and M.S. degrees in Mechanical Engineering from Tokyo Institute of Technology and the University of Tokyo, respectively. Then, I completed my military duty at KAIST as a research associate, where I studied frequency combs, time/frequency standards, and precision measurements.
