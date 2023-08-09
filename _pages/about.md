@@ -9,7 +9,7 @@ profile:
   image: dongchel.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>[Massachusetts Institute of Technology](https://meche.mit.edu/)</p>
+    <p><a href='https://meche.mit.edu/'>Massachusetts Institute of Technology</a></p>
     <p>77 Massachusetts Ave</p>
     <p>Cambridge, MA 02139</p>
 
