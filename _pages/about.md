@@ -2,16 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <i>Life is like riding a bicycle. To keep your balance, you must keep moving - Albert Einstein</i>
+subtitle: <i>“Quantum phenomena do not occur in a Hilbert space. They occur in a laboratory.” - Asher Peres</i>
 
 profile:
   align: right
   image: dongchel.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p><a href='https://meche.mit.edu/'>MIT</a></p>
-    <p>77 Massachusetts Ave</p>
-    <p>Cambridge, MA 02139</p>
+  image_circular: true # crops the image to make it circular
+  address:
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
