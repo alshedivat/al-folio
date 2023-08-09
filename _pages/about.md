@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Life is like riding a bicycle. To keep your balance, you must keep moving - Albert Einstein
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: dongchel.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>[Massachusetts Institute of Technology](https://meche.mit.edu/)</p>
+    <p>77 Massachusetts Ave</p>
+    <p>Cambridge, MA 02139</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
