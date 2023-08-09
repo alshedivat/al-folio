@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Life is like riding a bicycle. To keep your balance, you must keep moving - Albert Einstein
+subtitle: <i>Life is like riding a bicycle. To keep your balance, you must keep moving - Albert Einstein</i>
 
 profile:
   align: right
   image: dongchel.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p><a href='https://meche.mit.edu/'>Massachusetts Institute of Technology</a></p>
+    <p><a href='https://meche.mit.edu/'>MIT</a></p>
     <p>77 Massachusetts Ave</p>
     <p>Cambridge, MA 02139</p>
 
