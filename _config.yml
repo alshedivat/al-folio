@@ -166,6 +166,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  book_notes:
+    output: true
+    permalink: /book_notes/:path/
 
 announcements:
   enabled: true
