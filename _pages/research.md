@@ -8,18 +8,22 @@ nav_order: 2
 ---
 
 
-<h3>Preprints</h3>
+<h3>Articles</h3>
 
-- <b> Bersson, E </b> and Hoff, PD. "Bayesian Covariance Estimation for Multi-group Matrix-variate Data". 2023. [ [pdf](https://arxiv.org/pdf/2302.09211.pdf) - [code](https://github.com/betsybersson/SWAG) ]
+- <b> E. Bersson </b>, P. Hurtgen, and M. Paustian. "Bounded Rationality, Sticky Prices, and the Zero Lower Bound".<em> Journal of Money, Credit, and Banking</em>, 2023. [ [pdf](https://onlinelibrary.wiley.com/doi/10.1111/jmcb.13065) ]
 
-- <b> Bersson, E </b> and Hoff, PD. "Optimal Conformal Prediction for Small Areas". 2022. [ [pdf](https://arxiv.org/pdf/2204.08122.pdf) - [code](https://github.com/betsybersson/fab_sap) ]
+- <b> E. Bersson </b> and P.D. Hoff. "Bayesian Covariance Estimation for Multi-group Matrix-variate Data".<em> Submitted </em>, 2023. [ [pdf](https://arxiv.org/pdf/2302.09211.pdf) - [code](https://github.com/betsybersson/SWAG) ]
 
-- <b> Bersson, E, </b> Hurtgen, P, and Paustian, M. "Bounded Rationality, Sticky Prices, and the Zero Lower Bound". 2019. [ [pdf](https://ideas.repec.org/p/zbw/bubdps/342019.html) ]
+- <b> E. Bersson </b> and P.D. Hoff. "Optimal Conformal Prediction for Small Areas".<em> Submitted </em>, 2022. <b> GSS/SRMS/SSS 2023 Student Paper Competition Award Winner. </b> [ [pdf](https://arxiv.org/pdf/2204.08122.pdf) - [code](https://github.com/betsybersson/fab_sap) ]
+
+
 
 
 <h3>Working Papers</h3>
 
-- <b> Bersson, E </b> and Hoff, PD. "Bayes-Optimal Prediction Sets for Categorical Data’". In preparation.
+- <b> E. Bersson </b>, M. Lee, R. Lu, Z. Chen, and S. Zhao. "Comparison of frequentist and Bayesian penalization methods for environmental mixture analyses".<em> In preparation </em>, 2023.
+- <b> E. Bersson </b>, D. Dunson, and P.D. Hoff. "Covariance Meta Regression".<em> In preparation </em>, 2023.
+- <b> E. Bersson </b> and P.D. Hoff. "Bayes-Optimal Prediction Sets for Categorical Data".<em> In preparation </em>, 2022.
 
 
 
