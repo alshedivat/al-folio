@@ -6,7 +6,7 @@ nav: true
 nav_order: 1
 ---
 
-[**A Macro-Finance model with Realistic Crisis Dynamics**](https://goutham-atwork.github.io/files/jmp.pdf)
+[**A Macro-Finance model with Realistic Crisis Dynamics**](/files/jmp.pdf)
 
 <span style="color:blue"> *CESifo Distinguished Affiliate Award 2021* </span>
 
@@ -21,7 +21,7 @@ _<font size=2> <span style="font-family:cardinals; font-size:2;"> Presentations(
 
 
 <video width="500" height="350" controls="controls">
-  <source src="https://goutham-atwork.github.io/assets/img/images.mp4" type="video/mp4">
+  <source src="/assets/img/images.mp4" type="video/mp4">
 </video>
 
 

@@ -6,13 +6,13 @@ nav: true
 nav_order: 1
 ---
 
-1\. [**Heterogeneous Beliefs, Risk Amplification, and Asset Returns**](https://goutham-atwork.github.io/files/paper4.pdf) with Seung Joo Lee and Theofanis Papamichalis.
+1\. [**Heterogeneous Beliefs, Risk Amplification, and Asset Returns**](/files/paper4.pdf) with Seung Joo Lee and Theofanis Papamichalis.
 
 <ins>__Abstract__</ins> : How do heterogeneous beliefs about growth prospects affect the macroeconomy's endogenous volatility and transition dynamics? We first set out a tractable framework that incorporates heterogeneous beliefs about technological growth, and assess their impact on the amplification of risks during crises. When productive experts become more optimistic about their growth prospects, trade is facilitated, raising investment, asset prices, and leverage ratio considerably. However, when the economy transitions into a crisis, belief heterogeneity exacerbates aggregate risk, resulting in excess volatility and higher risk-premium. The economy ends up spending a longer time in crises on average. Finally, our model generates the excess conditional asset return momentum which is empirically observed during crises and raises the pricing power in the cross-section of asset returns significantly, beyond the conventional factors proposed by the literature.
 
 
 
-2\. [**ALIENs and Continuous Time Economies**](https://goutham-atwork.github.io/files/paper2.pdf)
+2\. [**ALIENs and Continuous Time Economies**](/files/paper2.pdf)
 
 _<font size=2> <span style="font-family:cardinals; font-size:2;"> Presentations: Princeton University (2022), SFI-UZH Computational Finance seminar (2021), EUI Artificial Intelligence seminar (2021). </span> </font>_
 
