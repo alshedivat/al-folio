@@ -49,7 +49,7 @@ A bad philosophy is a philosophy whose effect is to close off the growth of know
 
 ### Ideas (like genes) evolve via iterative competition by variation and selection
 
-Knowledge is information that is useful, information that can affect the physical world towards an objective. There are **only two types of knowledge**:
+Knowledge is **information that is useful**, information that can affect the physical world towards an objective. It is **a replicator: it has the property of keeping itself physically instantiated**. There are **only two types of knowledge**:
 
 |                   | **Evolutionary**                                                                                          | **Explanatory**                                                                                                                                             |
 |-------------------|-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ Can one human being understand all that humanity understands?
 
 Four fundamental disciplines, all necessary and interdependent
 - Quantum theory is the deepest language of physics in which all other theories are laid out 
-- Evolution is the theory that explains how large objects - life and thought processes creating knowledge - can be understood in terms that do not follow from their low-level definitions in terms of physics (emergence)
+- Evolution is the theory that explains how large objects - life and thought processes creating knowledge that keeps itself in existence - can be understood in terms that do not follow from their low-level definitions in physics (emergence)
 - Computation is the theory of what processes in nature are independent of the material substance that they are embodied in
   - Turing’s universality of computation implies that a physical computer can simulate any physical reality
   - This is the best explanation for the fact that physical reality can be understood by itself: think of the collective of human brains and our tools (including computers) as the universal computer and our best explanations of physical reality as the simulation
