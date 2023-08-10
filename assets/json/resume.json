@@ -1,61 +1,110 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Dongchel Shin",
+    "label": "",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "dongchel at mit.edu",
+    "phone": "",
+    "url": "",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "77 Massachusetts Ave",
+      "postalCode": "MA 02139",
+      "city": "Cambridge",
       "countryCode": "US",
-      "region": "California"
+      "region": "MA"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "",
+        "username": "",
+        "url": ""
       }
     ]
   },
-  "work": [
+  "education": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [
-        "Relativity"
+      "institution": "Massachusetts Institute of Technology, MA, USA",
+      "url": "https://meche.mit.edu/",
+      "area": "Mechanical Engineering",
+      "studyType": "PhD",
+      "startDate": "2022",
+      "endDate": "present",
+      "score": "",
+      "courses": [
+        "Advisor: Prof. Vivishek Sudhir",
+        "Quantum & Precision Measurements Group"
+      ]
+    },
+    {
+      "institution": "The University of Tokyo, Japan",
+      "url": "https://www.u-tokyo.ac.jp/en/",
+      "area": "Mechanical Engineering",
+      "studyType": "M.S.",
+      "startDate": "2016-09",
+      "endDate": "2018-08",
+      "score": "",
+      "courses": [
+        "Advisor: Prof. Shoji Takeuchi",
+        "MEMS & Microfludic systems"
+      ]
+    },
+    {
+      "institution": "Tokyo Institute of Technology",
+      "url": "https://www.titech.ac.jp/english",
+      "area": "Mechanical Engineering",
+      "studyType": "B.S.",
+      "startDate": "2013-04",
+      "endDate": "2016-09",
+      "score": "",
+      "courses": [
+        "Early Graduation with Summa Cum Laude"
       ]
     }
   ],
-  "volunteer": [],
-  "education": [
+  "experience": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": [
-        "Theory of Relativity"
+      "name": "Quantum & Precision Measurements Group, Massachusetts Institute of Technology",
+      "position": "Graduate Research Assistant",
+      "url": "https://precision.mit.edu/",
+      "startDate": "2018-11-1",
+      "endDate": "2022-07-31",
+      "summary": "Military duty",
+      "highlights": [
+        "Control and stabilization of optical frequency combs with 10<sup>–15</sup> instability",
+        "Ultrastable THz generation & comb-resolved THz spectroscopy",
+        "Frequency-comb-referenced plasmonic spectroscopy",
+        "Time/frequency standards & dissedissemination"
+      ]
+    },
+    {
+      "name": "Korea Advanced Institute of Science & Technology",
+      "position": "Research Associate",
+      "url": "https://upm2.kaist.ac.kr/",
+      "startDate": "2018-11-1",
+      "endDate": "2022-07-31",
+      "summary": "Military duty",
+      "highlights": [
+        "Control and stabilization of optical frequency combs with 10<sup>–15</sup> instability",
+        "Ultrastable THz generation & comb-resolved THz spectroscopy",
+        "Frequency-comb-referenced plasmonic spectroscopy",
+        "Time/frequency standards & dissedissemination"
       ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Kwanjeong Educational Foundation Scholarship",
+      "date": "2016-2018",
+      "awarder": "Kwanjeong Educational Foundation"
+    },
+    { "title": "Korea-Japan Joint Government Scholarship Program",
+      "date": "2012-2016",
+      "awarder": "The Korea Government and The Japan Government"
+    },
+    { "title": "Hatakeyama Award",
+      "date": "2017",
+      "awarder": "The Japan Society of Mechanical Engineers (JSME)"
     }
   ],
   "certificates": [],
@@ -63,11 +112,15 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Korean",
       "fluency": "Native speaker"
     },
     {
       "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Japanese",
       "fluency": "Fluent"
     }
   ],
