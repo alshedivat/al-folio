@@ -3,7 +3,7 @@
   factory();
 }((function () { 'use strict';
 
-  // Copyright 2018 The Distill Template Authors
+  //  2018 The Distill Template Authors
   //
   // Licensed under the Apache License, Version 2.0 (the "License");
   // you may not use this file except in compliance with the License.
