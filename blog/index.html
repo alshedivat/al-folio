@@ -1,6 +1,7 @@
 ---
 layout: default
 title: blog
+published: false
 pagination:
   enabled: true
   collection: posts
