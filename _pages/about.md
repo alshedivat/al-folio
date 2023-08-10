@@ -9,9 +9,23 @@ profile:
   image: photo.png
   image_circular: true # crops the image to make it circular
   address: >
-    <h3 class="author__name">Goutham Gopalakrishna</h3>
-    <p class="author__bio">PhD candidate in finance at EPFL-SFI. Passionate about financial economics and applications of machine learning in finance.</p>
-    <ul class="author__urls social-icons" style="display: block;"><li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Lausanne, Switzerland.</li><li><a href="https://goutham-fin.github.io/website"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li><li><a href="mailto:goutham.gopalakrishna@epfl.ch"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li><li><a href="https://www.linkedin.com/in/goutham-gopalakrishna-595b7432"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li><li><a href="https://github.com/goutham-fin"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li></ul>
+    <h3>Goutham Gopalakrishna</h3>
+    <p>PhD candidate in finance at EPFL-SFI. Passionate about financial economics and applications of machine learning in finance.</p>
+    <ul style="display: block; list-style-type: none;">
+        <li>
+            <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
+            Lausanne, Switzerland.
+        </li>
+        <li>
+            <a href="https://goutham-atwork.github.io"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a>
+        </li>
+        <li>
+            <a href="mailto:goutham.gopalakrishna@epfl.ch"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/goutham-gopalakrishna-595b7432"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li><li><a href="https://github.com/goutham-fin"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a>
+            </li>
+        </ul>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
