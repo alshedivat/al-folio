@@ -7,7 +7,7 @@ subtitle: <i>“Quantum phenomena do not occur in a Hilbert space. They occur in
 profile:
   align: right
   image: dongchel.jpeg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address:
 
 news: true  # includes a list of news items
