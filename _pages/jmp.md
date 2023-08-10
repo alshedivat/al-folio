@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /jmp/
-title: <span style="color:red"> Job Market Paper </span>
+title: Job Market Paper
 description: false
 nav: true
 nav_order: 1

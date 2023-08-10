@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <span style="color:red"> Discussions </span>
+title: Discussions
 permalink: /discussions/
 description: false
 nav: true

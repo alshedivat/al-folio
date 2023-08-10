@@ -1,6 +1,6 @@
 ---
 layout: about
-title: <span style="color:red"> About me </span>
+title: About me
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
