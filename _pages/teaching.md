@@ -1,8 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: <span style="color:red"> Teaching </span>
-description: false
+title: Teaching
 nav: true
 nav_order: 5
 ---

@@ -2,7 +2,6 @@
 layout: page
 permalink: /jmp/
 title: Job Market Paper
-description: false
 nav: true
 nav_order: 1
 ---

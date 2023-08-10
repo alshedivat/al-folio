@@ -2,7 +2,6 @@
 layout: page
 title: Discussions
 permalink: /discussions/
-description: false
 nav: true
 nav_order: 2
 # display_categories: [work, fun]

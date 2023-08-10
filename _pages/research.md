@@ -1,8 +1,7 @@
 ---
 layout: page
-title: <span style="color:red"> Working Papers </span>
+title: Working Papers
 permalink: /research/
-description: false
 nav: true
 nav_order: 1
 ---
