@@ -16,16 +16,16 @@ toc:
 
 Reality is comprehensible - **four fundamental disciplines, all necessary and interdependent** to understand the world
 - **Quantum physics** is the deepest language of physics in which all other theories are laid out and the basis of understanding our physical universe
+- **Epistemology** is the theory of what constitutes knowledge and how to acquire it
+  - A good philosophy of knowledge is the cornerstone of human knowledge creation
+  - Knowledge is information that is useful, it has the property that it tends to keep itself instantiated
 - **Evolution** is the theory of what processes in nature keep themselves into existence
   - It is the theory of replicators (genes and ideas)
   - It explains how large objects - life and thought processes creating knowledge - can be understood in terms that do not follow from their low-level definitions in terms of physics (emergence)
 - **Computation** is the theory of what processes in nature are independent of the material substance that they are embodied in
-  - Turing’s universality of computation implies that a physical computer can simulate any physical reality
-  - This is the best explanation for the fact that physical reality can be understood by itself: think of the collective of human brains and our tools (including computers) as the universal computer and our best explanations of physical reality as the simulation
-  - The only limits on humanity’s ability to influence the universe are the laws of physics
-- **Epistemology** is the theory of what constitutes knowledge and how to acquire it
-  - A good philosophy of knowledge is the cornerstone of human knowledge creation
-  - Knowledge is information that is useful, it has the property that it tends to keep itself instantiated
+  - Turing’s universality of computation says that, conceptually, there is only one way to physically process information
+  - If we consider the application of the laws of physics as computation, this implies that a physical computer can (in principle, given enough resources) simulate physical reality, and so can the collective of human brains along with our tools (including computers)
+  - This is the best explanation for the fact that physical reality can be understood by itself and that the only limits on humanity’s ability to influence the universe are the laws of physics
 
 How are the theories interdependent? The central narrative is that **our physical universe is on the path to understanding itself through human knowledge creation**:
 - The creation of knowledge - first by biological evolution until humans (life), then by idea evolution (thought) - explains how this universe comes to understand itself first by genes getting organisms to pass them on by reproduction and then ideas getting humans to pass them on by dialogue
@@ -89,5 +89,5 @@ How did creativity - defined as the ability to come up with explanations - evolv
 - Given explanatory knowledge evolution is incredibly more efficient than evolutionary knowledge evolution, **recorded history is largely the history of ideas, and so will the future of the universe**
 
 Humans play a special role in the universe
-- To understand everything that happens on Earth (why Einstein is taken to Sweden and given some gold), aliens would need to understand everything there is to know about the world (general relativity, philosophy, morality) - knowledge impacts the world more than anything else
-- The **things that create knowledge (evolution and humans) are necessary in any explanations of the world**; this is the definition of being significant
+- To understand humans and everything that happens on Earth (why Einstein is taken to Sweden and given some gold), aliens would need to understand everything there is to know about the world (general relativity, philosophy, morality)
+- Knowledge impacts the physical world more than anything else, thus the **things that create knowledge (evolution and humans) are necessary in any explanations of the world**; this is the definition of being significant
