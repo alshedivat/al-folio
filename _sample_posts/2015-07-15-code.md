@@ -5,7 +5,7 @@ date: 2015-07-15 15:09:00
 description: an example of a blog post with some code
 tags: formatting code
 categories: sample-posts
-featured: true
+featured: false
 ---
 This theme implements a built-in Jekyll feature, the use of Rouge, for syntax highlighting.
 It supports more than 100 languages.
