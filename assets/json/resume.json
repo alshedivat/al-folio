@@ -3,7 +3,7 @@
     "name": "Dongchel Shin",
     "label": "",
     "image": "",
-    "email": "dongchel at mit.edu",
+    "email": "dongchel@mit.edu",
     "phone": "",
     "url": "",
     "summary": "",
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "institution": "Tokyo Institute of Technology",
+      "institution": "Tokyo Institute of Technology, Japan",
       "url": "https://www.titech.ac.jp/english",
       "area": "Mechanical Engineering",
       "studyType": "B.S.",
@@ -64,12 +64,12 @@
   ],
   "experience": [
     {
-      "name": "Quantum & Precision Measurements Group, Massachusetts Institute of Technology",
+      "name": "Massachusetts Institute of Technology",
       "position": "Graduate Research Assistant",
       "url": "https://precision.mit.edu/",
       "startDate": "2022-09",
       "endDate": "present",
-      "summary": "",
+      "summary": "Quantum & Precision Measurements Group",
       "highlights": [
         ""
       ]
@@ -80,7 +80,7 @@
       "url": "https://upm2.kaist.ac.kr/",
       "startDate": "2018-11-1",
       "endDate": "2022-07-31",
-      "summary": "Military duty",
+      "summary": "Lab. for Precision Engineering and Metrology",
       "highlights": [
         "Control and stabilization of optical frequency combs with 10<sup>–15</sup> instability",
         "Ultrastable THz generation & comb-resolved THz spectroscopy",
@@ -92,11 +92,13 @@
   "awards": [
     {
       "title": "Kwanjeong Educational Foundation Scholarship",
-      "date": "2016-2018",
+      "startDate": "2016",
+      "endDate": "2018",
       "awarder": "Kwanjeong Educational Foundation"
     },
     { "title": "Korea-Japan Joint Government Scholarship Program",
-      "date": "2012-2016",
+    "startDate": "2012",
+    "endDate": "2016",
       "awarder": "The Korea Government and The Japan Government"
     },
     { "title": "Hatakeyama Award",
