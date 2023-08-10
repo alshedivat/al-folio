@@ -92,13 +92,11 @@
   "awards": [
     {
       "title": "Kwanjeong Educational Foundation Scholarship",
-      "startDate": "2016",
-      "endDate": "2018",
+      "date": "2016 - 2018",
       "awarder": "Kwanjeong Educational Foundation"
     },
     { "title": "Korea-Japan Joint Government Scholarship Program",
-    "startDate": "2012",
-    "endDate": "2016",
+      "date": "2012 - 2016",
       "awarder": "The Korea Government and The Japan Government"
     },
     { "title": "Hatakeyama Award",
