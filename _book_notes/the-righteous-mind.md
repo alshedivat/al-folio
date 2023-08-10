@@ -173,7 +173,7 @@ Haidt's explanation: innate (as set of evolved intuitions) and learned (as child
     - Human evolution did not stop or slow down 50000 years ago, it sped up, reaching it's highest speed in the least 12000 years with sedentary agricultural civilizations
 - Group selection is still very controversial (see Pinker) but some human psychological traits present in the loyalty/betrayal moral foundation (loyalty, patriotism, self-sacrifice) don't have any other convincing explanation
 
-### We are 90% chimp and 10% bees
+## We are 90% chimp and 10% bees
 
 We evolved to live in groups, our minds were designed not only to help us win the competition within our groups but to help us unite with those in our group to win competitions across groups - group selection is still debated in biology, but how else to explain our tribal instincts?
 
