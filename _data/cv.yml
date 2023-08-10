@@ -3,17 +3,15 @@
   contents:
     - name: Full Name
       value: Dongchel Shin
-    - name: Date of Birth
-      value: 14th March 1879
     - name: Languages
-      value: English, German
+      value: English, Japanese, Korean (native)
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Massachusetts Institute of Technology, MA, USA
+      year: 2022-present
       description:
         - Description 1.
         - Description 2.
