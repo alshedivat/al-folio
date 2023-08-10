@@ -1,26 +1,33 @@
 ---
 layout: about
-title: about
+title: <span style="color:red"> About me </span>
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: photo.png
+  image_circular: true # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <h3 class="author__name">Goutham Gopalakrishna</h3>
+    <p class="author__bio">PhD candidate in finance at EPFL-SFI. Passionate about financial economics and applications of machine learning in finance.</p>
+    <ul class="author__urls social-icons" style="display: block;"><li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Lausanne, Switzerland.</li><li><a href="https://goutham-fin.github.io/website"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li><li><a href="mailto:goutham.gopalakrishna@epfl.ch"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li><li><a href="https://www.linkedin.com/in/goutham-gopalakrishna-595b7432"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li><li><a href="https://github.com/goutham-fin"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li></ul>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD candidate at <span style="color:blue">École Polytechnique Fédérale de Lausanne </span>  and the <span style="color:blue"> Swiss Finance Institute </span>. My research interests are in macro-finance, machine Learning, and asset pricing. I received the **2021 CESifo Distinguished Affiliate** award, was a runner-up for the **ESRB Ieke van den Burg Prize 2021**, and received the PhD grant at **20th Macro-Finance Society Workshop**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+> I will be a visiting assistant professor at the Bendheim Center for Finance at Princeton University in the Fall of 2023.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+> **New**: The course materials for my mini-course on Deep-Learning and Macro-Finance taught at Princeton University is available [here](https://bcf.princeton.edu/events/mini-lecture-deep-learning-and-macrofinance/).
+
+I worked as a quantitative researcher for four years prior to my graduate studies. My hobbies are playing basketball, weight training, traveling, and solving math and algorithmic puzzles.
+
+### Research Interest
+* Macro-Finance
+* Machine Learning
+* Asset Pricing
