@@ -175,8 +175,7 @@ Haidt's explanation: innate (as set of evolved intuitions) and learned (as child
 
 ### We are 90% chimp and 10% bees
 
-We evolved to live in groups, our minds were designed not only to help us win the competition within our groups but to help us unite with those in our group to win competitions across groups
-- Group selection is still debated in biology, but how else to explain our tribal instincts?
+We evolved to live in groups, our minds were designed not only to help us win the competition within our groups but to help us unite with those in our group to win competitions across groups - group selection is still debated in biology, but how else to explain our tribal instincts?
 
 Religion has to do at least as much with belonging as it has to do with believing
 - A plausible hypothesis supported by research is that it evolved genetically and culturally to help groups bind. Once any person, book or principle is declared sacred, then devotees can no longer question it or think clearly about it
