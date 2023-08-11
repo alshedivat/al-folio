@@ -9,7 +9,6 @@ profile:
   image: bio-photo.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <h3>Goutham Gopalakrishna</h3>
     <p>PhD candidate in finance at EPFL-SFI. Passionate about financial economics and applications of machine learning in finance.</p>
     <ul style="display: block; list-style-type: none;">
         <li>
