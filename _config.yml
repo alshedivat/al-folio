@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Home # the website title (if blank, full name will be used instead)
+title: # the website title (if blank, full name will be used instead)
 first_name: "Goutham"
 middle_name:
-last_name: Gopalakrishna
+last_name: "Gopalakrishna"
 email: goutham.gopalakrishna@epfl.ch
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   I am a PhD candidate at École Polytechnique Fédérale de Lausanne and the Swiss Finance Institute . My research interests are in macro-finance, machine Learning, and asset pricing.
