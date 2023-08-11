@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - goutham-atwork
+  - goutham-fin
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - goutham-fin/BCF-Workshop
+  - goutham-fin/MacroFinance
+  - goutham-fin/Scientific-Computing
