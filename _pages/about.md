@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: photo.png
+  image: bio-photo.jpeg
   image_circular: false # crops the image to make it circular
   address: >
     <h3>Goutham Gopalakrishna</h3>
