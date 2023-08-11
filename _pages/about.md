@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: bio-photo.jpeg
+  image: photo.png
   image_circular: false # crops the image to make it circular
   address: >
     <p>PhD candidate in finance at EPFL-SFI. Passionate about financial economics and applications of machine learning in finance.</p>
