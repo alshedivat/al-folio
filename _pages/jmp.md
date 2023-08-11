@@ -6,6 +6,13 @@ nav: true
 nav_order: 1
 ---
 
+<!-- _pages/publications.md -->
+<div class="publications">
+
+{% bibliography -f {{ site.scholar.jmp }} %}
+
+</div>
+
 [**A Macro-Finance model with Realistic Crisis Dynamics**](/files/jmp.pdf)
 
 <span style="color:blue"> *CESifo Distinguished Affiliate Award 2021* </span>
