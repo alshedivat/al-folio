@@ -33,7 +33,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a PhD candidate at <span style="color:blue">École Polytechnique Fédérale de Lausanne </span>  and the <span style="color:blue"> Swiss Finance Institute </span>. My research interests are in macro-finance, machine Learning, and asset pricing. I received the **2021 CESifo Distinguished Affiliate** award, was a runner-up for the **ESRB Ieke van den Burg Prize 2021**, and received the PhD grant at **20th Macro-Finance Society Workshop**.
+I am a PhD candidate at `École Polytechnique Fédérale de Lausanne` and the `Swiss Finance Institute`. My research interests are in macro-finance, machine Learning, and asset pricing. I received the **2021 CESifo Distinguished Affiliate** award, was a runner-up for the **ESRB Ieke van den Burg Prize 2021**, and received the PhD grant at **20th Macro-Finance Society Workshop**.
 
 > I will be a visiting assistant professor at the Bendheim Center for Finance at Princeton University in the Fall of 2023.
 
