@@ -1,10 +1,10 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Lee":
+  - firstname: ["Seung", "S.", "S. L.", "Seung Joo"]
+    url: https://seungecon.github.io/research/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Papamichalis":
+  - firstname: ["Theofanis", "T."]
+    url: https://sites.google.com/view/papamichalis
 
 "Rosen":
   - firstname: ["Nathan", "N."]
