@@ -2,8 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: Alan
+title: my website! # the website title (if blank, full name will be used instead)
+first_name: Alan !!
 middle_name: Junzhe
 last_name: Zhou
 email: junzhez@andrew.cmu.edu
