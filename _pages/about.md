@@ -2,7 +2,7 @@
 layout: about
 title: About me
 permalink: /
- subtitle: <a href='#'>Rotman School of Management, University of Toronto</a>.
+ #subtitle: <a href='#'>Rotman School of Management, University of Toronto</a>.
 
 profile:
   align: right
