@@ -10,13 +10,13 @@
   - firstname: ["Seung", "S.", "S. L.", "Seung Joo"]
     url: https://seungecon.github.io/research/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Tebaldi":
+  - firstname: ["Claudio", "C."]
+    url: https://finance.unibocconi.eu/people/claudio-tebaldi
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Bottazzi": 
+  - firstname: ["Laura", "L."]
+    url: https://scholar.google.it/citations?hl=it&user=goAXuGIAAAAJ&view_op=list_works&sortby=pubdate
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
