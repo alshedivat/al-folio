@@ -1,7 +1,7 @@
 # al-folio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [maintainers]: https://img.shields.io/badge/maintainers-4-success.svg 'Number of maintainers'
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+<!-- ALL-CONTRIBUTORS-BADGE:END --> 
 
 [![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
 [![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
