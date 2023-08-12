@@ -8,7 +8,7 @@ middle_name:
 last_name: "Gopalakrishna"
 email: goutham.gopalakrishna@epfl.ch
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am a PhD candidate at École Polytechnique Fédérale de Lausanne and the Swiss Finance Institute . My research interests are in macro-finance, machine Learning, and asset pricing.
+  I am an Assistant Professor of Finance at the Rotman School of Management, University of Toronto . My research interests are in macro-finance, machine Learning, and asset pricing.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
