@@ -31,8 +31,8 @@ I am reading one aphorism a day and adding it to this page.
 11. "*Table and bed.*" **If marriage is supposedly the intimate exception to cold h(in)human generality, its divorce is the most viscious of all,** in which the very instruments of human relations and trust, or shared bonds, become the most brutal chains. Marriage thus exposes its backside and the fragile foundation of its ideal existence.
 12. "*Among equals.*" **In sexually liberated modernity, yearning passes from the bohemians to their opposites -- the frigid wives left behind.** Only the abandoned wives may grant what all others have withheld from them, whereas those which have sexuality written across theri faces make a transaction and even a business out of it. Those frigid wives are the last bastion of the erotic.
 13. "*Aid, assistance, and advice.*" **Beware the desire to acquire all glittering opportunity in the New World.** The emigrant should not so quickly abondon their history, because that is where their cognition is rooted. Construct relationships of human dignity, and live in accordance with austerity.
-14. "*Le bourgeois revenant.*" All that was 'proper' in the bourgeoisie has fallen away, because the bourgeoisie have lost their naivete. The bourgeoise have become themselves minus the economic prerequisite. "The bourgeoisie live on like ghosts who threaten catastrophe."
-15. "*Le nouvel avare."*
+14. "*Le bourgeois revenant.*" **All that was 'proper' in the bourgeoisie has fallen away, because the bourgeoisie have lost their naivete.** The bourgeoise have become themselves minus the economic prerequisite. "The bourgeoisie live on like ghosts who threaten catastrophe."
+15. "*Le nouvel avare."* **The archaic mode of greediness was to deny anything to anyone; today's greediness regards nothing as too expensive for themselves.** Insurance, rationality, and necessity are the calculating tools.
 
 ---
 
