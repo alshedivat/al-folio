@@ -9,7 +9,7 @@ profile:
   image: photo.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>PhD candidate in finance at EPFL-SFI. Passionate about financial economics and applications of machine learning in finance.</p>
+    <p>Assistant Professor of Finance..</p>
     <ul style="display: block; list-style-type: none;">
         <li>
             <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
