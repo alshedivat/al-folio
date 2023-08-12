@@ -9,7 +9,7 @@ last_name:
 email: evh29@cornell.edu
 description: Emma Harvey
 footer_text:
-keywords: emma-harvey, ai-ethics, algorithmic-fairness, facct, algorithm-audit, ethical-ai, trustworthy-ai, responsible-ai, algorithmic-audit, algorithm-auditing, ai-safety
+keywords: emma-harvey, ai-ethics, algorithmic-fairness, facct, algorithm-audit, ethical-ai, trustworthy-ai, responsible-ai, algorithmic-audit, algorithm-auditing, ai-safety, aies
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 💁‍♀️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -270,7 +270,7 @@ scholar:
   query: "@*"
 
 badges: # Display different badges for your pulications
-  altmetric_badge: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
+  altmetric_badge: false # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
   dimensions_badge: true # Dimensions badge (https://badge.dimensions.ai/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
@@ -328,8 +328,8 @@ jekyll-diagrams:
 
 enable_google_analytics:    false  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
-enable_google_verification: false  # enables google site verification
-enable_bing_verification:   false  # enables bing site verification
+enable_google_verification: true  # enables google site verification
+enable_bing_verification:   true  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
