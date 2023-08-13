@@ -282,6 +282,7 @@ scholar:
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
+  # bibliography_template: "{{ reference | replace_first: 'Zhou, Junzhe', 'Zhou, Alan Junzhe' }}"
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
