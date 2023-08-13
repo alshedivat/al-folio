@@ -1,47 +1,105 @@
+<style>
+    .institution-name {
+        text-align: right;
+        white-space: normal;
+        word-wrap: break-word;
+        max-width: 48%;
+        /* School name can be quite long. Adjust this value based on your design needs */
+    }
+</style>
+
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign education = data[1] | sort: 'startDate' | reverse %}
-  {% for content in education %}
-  <li class="list-group-item">
-    <div class="row">
-      <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
-        {% if content.startDate %}
-        {% assign startDate = content.startDate | split: "-" | slice: 0,2 | join: "." %}
-        {% assign endDate   = content.endDate   | split: "-" | slice: 0,2 | join: "." | default: "Present" %}
-        {% assign date = startDate | append: " - "%}
-        {% assign date = date | append: endDate %}
-        {% else %}
-        {% assign date = "" %}
-        {% endif %}
-        <table class="table-cv">
-          <tbody>
-            <tr>
-              <td>
-                <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">{{date}}</span>
-              </td>
-            </tr>
-            {% if content.location %}
-            <tr>
-              <td>
-                <p class="location"><i class="fas fa-map-marker-alt iconlocation"></i> {{ content.location }}</p>
-              </td>
-            </tr>
-            {% endif %}
-          </tbody>
-        </table>
-      </div>
-      <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
-        <h6 class="title font-weight-bold ml-1 ml-md-4"><a href="{{ content.url }}">{{content.studyType}}</a></h6>
-        <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{content.institution}}</h6>
-        <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">{{content.area}}</h6>
-        <ul class="items">
-          {% for item in content.courses %}
-          <li>
-            <span class="item">{{ item }}</span>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </li>
-  {% endfor %}
+    {% assign education = data[1] | sort: 'startDate' | reverse %}
+    {% for content in education %}
+    <li class="list-group-item">
+        <div class="row">
+            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
+                {% if content.startDate %}
+                {% assign startDate = content.startDate | split: "-" | slice: 0,2 | join: "." %}
+                {% assign endDate = content.endDate | split: "-" | slice: 0,2 | join: "." | default: "Present" %}
+                {% else %}
+                {% assign startDate = "" %}
+                {% assign endDate = "" %}
+                {% endif %}
+
+                <table class="table-cv">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <!-- Dates Span -->
+                                <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle"
+                                    style="display: block; font-size: 1.1rem; width: 100%; padding: 5px 0; margin-left: -15px;">
+                                    <span style="float: left; padding-left: 10px;">{{startDate}}</span>
+                                    <!-- Increased padding-left for the end date -->
+                                    <span style="float: right; padding-left: 40px; padding-right: 10px;">
+                                        -{{endDate}}</span>
+                                    <div style="clear:both;"></div> <!-- Clear floats -->
+                                </span>
+                            </td>
+                        </tr>
+                        {% if content.location %}
+                        <tr>
+                            <td>
+                                <p class="location"><i class="fas fa-map-marker-alt iconlocation"></i> {{
+                                    content.location }}</p>
+                            </td>
+                        </tr>
+                        {% endif %}
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                <!-- Study Type and Institution on the same line -->
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h5 class="font-weight-bold ml-1 ml-md-4">{{content.studyType}}</h5>
+                    <h6 class="institution-name" style="font-size: 1rem;">{{content.institution}}</h6>
+                </div>
+
+                <!-- Area of Study -->
+                <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; margin-top: 0.3rem;">
+                    {{content.area}}</h6>
+
+                <!-- Award (Further Indented) -->
+                <h6 class="ml-1 ml-md-5" style="font-size: 0.95rem; font-style: italic; margin-top: 0.3rem;">
+                    {{content.honor}}</h6>
+
+                <!-- Dissertation Title -->
+                {% if content.dissertation %}
+                <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; margin-top: 1.5rem;">
+                    <strong style="font-size: 1.2em;"><u>Dissertation:</u></strong><br>
+                    <div style="margin-top: 0.5em;">
+                        {{content.dissertation}}
+                    </div>
+                </h6>
+                {% endif %}
+
+                <!-- Advisor, separate using coma -->
+                {% if content.advisor %}
+                <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; margin-top: 1.5rem;">
+                    <strong style="font-size: 1.2em;"><u>Advisor:</u></strong><br>
+                    <div style="margin-top: 0.5em;">
+                        {{content.advisor}}
+                    </div>
+                    {% if content.advisor2 %}
+                    {{content.advisor2}}
+                    {% endif %}
+                </h6>
+                {% endif %}
+
+
+
+
+                <ul class="items">
+                    {% for item in content.courses %}
+                    <li>
+                        <span class="item">{{ item }}</span>
+                    </li>
+                    {% endfor %}
+
+                </ul>
+            </div>
+        </div>
+    </li>
+    {% endfor %}
 </ul>
