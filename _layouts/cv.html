@@ -22,6 +22,7 @@ layout: default
     <article>
         <div class="cv">
             {% for entry in site.data.cv %}
+            <!-- anchor -->
             <a class="anchor" id="{{ entry.title }}"></a>
             <div class="card mt-3 p-3">
                 <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
@@ -68,6 +69,7 @@ layout: default
         {% if entry[0] == "meta" or entry[1].size == 0 %}
         {% continue %}
         {% endif %}
+        <!-- pointing to the id of the sections -->
         <li><a href="#{{ entry[0] }}"><span class="badge-toc">{{ entry[0] | capitalize }}</span></a></li>
         {% endfor %}
     </ul>
@@ -83,13 +85,14 @@ layout: default
             {% if data[0] == "meta" or data[1].size == 0 %}
             {% continue %}
             {% endif %}
-            <a class="anchor" id="{{ data[0] }}"></a>
             <div class="card mt-3 p-3">
                 <!-- set custom titles here manually, otherwise will just use the subhtml file name as titles -->
                 {% case data[0] %}
                 {% when "awards" %}
+                <a class="anchor" id="{{ data[0] }}"></a>
                 <h3 class="card-title font-weight-medium">{{ "Some awards & grants" }}</h3>
                 {% else %}
+                <a class="anchor" id="{{ data[0] }}"></a>
                 <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
                 {% endcase %}
                 <!-- The actual contents -->
