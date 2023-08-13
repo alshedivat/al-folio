@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-This page is outdated. A new page is under construction.
+--------- This page is outdated. A new page is under construction. --------------------
 
 
 Previously, I got my bachelor degree at School of Mathematical Sciences, Fudan University in June 2021. During which, I worked on reinforcement learning 
