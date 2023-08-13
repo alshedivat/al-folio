@@ -33,6 +33,7 @@ I am reading one aphorism a day and adding it to this page.
 13. "*Aid, assistance, and advice.*" **Beware the desire to acquire all glittering opportunity in the New World.** The emigrant should not so quickly abondon their history, because that is where their cognition is rooted. Construct relationships of human dignity, and live in accordance with austerity.
 14. "*Le bourgeois revenant.*" **All that was 'proper' in the bourgeoisie has fallen away, because the bourgeoisie have lost their naivete.** The bourgeoise have become themselves minus the economic prerequisite. "The bourgeoisie live on like ghosts who threaten catastrophe."
 15. "*Le nouvel avare."* **The archaic mode of greediness was to deny anything to anyone; today's greediness regards nothing as too expensive for themselves.** Insurance, rationality, and necessity are the calculating tools.
+16. "*On the dialectic of tact.*" Goethe proposed that tact bridged alienated individuals in an industrializing society -- Wilhelm Meister, Beethoven, Kant. But now tact is emancipated, it becomes an insult. It loses its personability. **"Ultimately, emancipated, purely individual tact turns into a mere lie."** Do not be so quick to herald the fall of conventions.
 
 ---
 
