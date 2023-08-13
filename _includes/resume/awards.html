@@ -8,16 +8,18 @@
                 {% else %}
                 {% assign date = "" %}
                 {% endif %}
-                <tr>
-                    <td>
-                        <!-- Dates Span -->
-                        <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle"
-                            style="display: block; font-size: 1.1rem; width: 100%; padding: 5px 0; margin-left: -15px;">
-                            <span style="float: left; padding-left: 10px;">{{date}}</span>
-                            <div style="clear:both;"></div> <!-- Clear floats -->
-                        </span>
-                    </td>
-                </tr>
+                <tbody>
+                    <tr>
+                        <td>
+                            <!-- Dates Span -->
+                            <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle"
+                                style="display: block; font-size: 1.1rem; width: 100%; padding: 5px 0; margin-left: -15px;">
+                                <span style="float: left; padding-left: 10px;">{{date}}</span>
+                                <div style="clear:both;"></div> <!-- Clear floats -->
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
             </div>
             <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
                 <h6 class="title font-weight-bold ml-1 ml-md-4">{{content.title}}</a></h6>

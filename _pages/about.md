@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Me in Nara!!</p>   
+    <p> Me in Nara!! </p>   
     <p> (by Jiachuan) </p>
 
 news: false  # includes a list of news items
@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 
 ---
-Hi! This is Alan! I am a 1st (almost 2nd) year Ph.D. student at CMU. I work on cosmology, astrophysics, and statistical inference. Currently, I am using deep probablistic models to reconstruct the evolutionary trajectory of our universe from large observational data sets. 
+Hi! This is Alan（周俊哲）! I am a 1st (almost 2nd) year Ph.D. student at CMU. I work on cosmology, astrophysics, and statistical inference. Currently, I am using deep probablistic models to reconstruct the evolutionary trajectory of our universe from large observational data sets. 
 
 <br/><br/>
 
