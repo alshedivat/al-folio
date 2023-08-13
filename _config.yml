@@ -244,7 +244,7 @@ scholar:
   query: "@*"
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview,online_version]
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview,online_version, coverage_show, coverage_links]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 4  # leave blank to always show all authors
