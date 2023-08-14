@@ -11,17 +11,14 @@ profile:
   address: >
     <p>Assistant Professor of Finance.</p>
     <ul style="display: block; list-style-type: none;">
-        <li>
-            <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
-            Toronto, Canada.
-        </li>
+        
         <li>
             <a href="https://goutham-atwork.github.io"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a>
         </li>
         <li>
             <a href="mailto:goutham.gopalakrishna@epfl.ch"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a>
         </li>
-        <li>
+        <li>    
             <a href="https://www.linkedin.com/in/goutham-gopalakrishna-595b7432"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li><li><a href="https://github.com/goutham-fin"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a>
             </li>
         </ul>
