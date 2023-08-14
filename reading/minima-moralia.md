@@ -34,6 +34,7 @@ I am reading one aphorism a day and adding it to this page.
 14. "*Le bourgeois revenant.*" **All that was 'proper' in the bourgeoisie has fallen away, because the bourgeoisie have lost their naivete.** The bourgeoise have become themselves minus the economic prerequisite. "The bourgeoisie live on like ghosts who threaten catastrophe."
 15. "*Le nouvel avare."* **The archaic mode of greediness was to deny anything to anyone; today's greediness regards nothing as too expensive for themselves.** Insurance, rationality, and necessity are the calculating tools.
 16. "*On the dialectic of tact.*" Goethe proposed that tact bridged alienated individuals in an industrializing society -- Wilhelm Meister, Beethoven, Kant. But now tact is emancipated, it becomes an insult. It loses its personability. **"Ultimately, emancipated, purely individual tact turns into a mere lie."** Do not be so quick to herald the fall of conventions.
+17. "*All rights reserved.*" One cannot even sacrifice their principles for life now -- everyone must be prepared for their extinguishing, everyone is an object -- egalitarianism in the most dirty, obscene form. "Individual persons have, as individuals -- as these latter represent the species-being of humanity -- lost the autonomy through which they could have realized the species."
 
 ---
 
@@ -48,3 +49,7 @@ I am reading one aphorism a day and adding it to this page.
 "The justifiable feelings of guilt of those exempted from physical labor ought not become an excuse for rural idiocy." (7)
 
 "...so do those who are impoverished in Spirit [Geiste] march enthusiastically into the hell, which is their heaven." (8)
+
+"The write-off of conventions as outmoded, useless and extraneous ornaments only confirms the most extraneous of all things, a life of immediate domination. That the discontinuation of this caricature in schoolboyish camaraderie makes existence even more unbearable, as the mockery of freedom, is merely a further sign of how impossible it has become for human beings to live together under current conditions."(16)
+
+"Individual persons have, as individuals -- as these latter represent the species-being of humanity -- lost the autonomy through which they could have realized the species." (18)
