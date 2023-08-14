@@ -1,9 +1,8 @@
 github_users:
-  - torvalds
-  - jadijadi
+  - arash10abbasi
 
 github_repos:
-  - arash10abbasi/arash10abbasi
+  - arash10abbasi/m
   - twbs/bootstrap
   - jekyll/jekyll
   - jquery/jquery
