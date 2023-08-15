@@ -15,9 +15,9 @@ profile:
 
 ### Biography
 Dr. Robin Varennes is a research fellow in the School of Physical and Mathematical Sciences at Nanyang Technological University.
-Before joining the university, he was a postdoctoral researched at the Laboratory of Plasma Physics (LPP) in France.
+Before joining the university, he was a postdoctoral researcher at the Laboratory of Plasma Physics (LPP) in France.
 He obtained his PhD in Dec. 2022 from the Institute of Research on Fusion by Magnetic confinement (IRFM) at CEA in France.
-He published 7 articles in peer-reviewed journals such as Physical Review Letters, Plasma Physics and Controlled Fusion, Nuclear Fusion, and Physics of Plasmas.
+<!-- He published 7 articles in peer-reviewed journals such as Physical Review Letters, Plasma Physics and Controlled Fusion, Nuclear Fusion, and Physics of Plasmas. -->
 
 ### Research interests
 Dr. Varennes' work is focused on the plasma flow establishment in tokamak plasmas, with a strong emphasis on the role of turbulence and collisional processes.

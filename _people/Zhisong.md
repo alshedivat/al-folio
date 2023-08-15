@@ -16,7 +16,8 @@ profile:
 ---
 
 ### Biography
-Dr. Zhisong Qu is an Assistant Professor in the School of Physical and Mathematical Sciences, at Nanyang Technological University. Before joining NTU, he was a research fellow and postdoctoral researcher in Mathematical Sciences Institute, at the Australian National University (ANU). He received his PhD in plasma physics from the Research School of Physics, ANU, and his B.S. degree from the School of Physics, Peking University, China. Dr. Qu has published more than 30 articles in world-recognized journals such as Physical Review Letters, Plasma Physics and Controlled Fusion, Nuclear Fusion, and Physics of Plasmas.
+Dr. Zhisong Qu is an Assistant Professor in the School of Physical and Mathematical Sciences, at Nanyang Technological University. Before joining NTU, he was a research fellow and postdoctoral researcher in Mathematical Sciences Institute, at the Australian National University (ANU). He received his PhD in plasma physics from the Research School of Physics, ANU, and his B.S. degree from the School of Physics, Peking University, China. 
+<!-- Dr. Qu has published more than 30 articles in world-recognized journals such as Physical Review Letters, Plasma Physics and Controlled Fusion, Nuclear Fusion, and Physics of Plasmas. -->
 
 ### Research Interests
 Dr. Qu is interested in the application of machine learning algorithms to plasma physics problems and experimental data processing. His research also focuses on the theory and modelling of plasmas in magnetic confinement fusion experiments. In particular, he is interested in three-dimensional magnetic field configurations and magnetohydrodynamic waves driven by fusion-born or externally heated fast ions.
@@ -25,7 +26,7 @@ Dr. Qu is interested in the application of machine learning algorithms to plasma
 - Under 30 Scientists and Students Award, Division of Plasma Physics, Association of Asia Pacific Physical Societies (2019)
 
 ### Selected publications
-- Qu Z and Hole M J 2022 The shear Alfvén continuum with a magnetic island chain in tokamak plasmas accepted to Plasma Phys. Control. Fusion
+- Qu Z S, and Hole M J 2023 The shear Alfvén continuum with a magnetic island chain in tokamak plasmas Plasma Physics and Controlled Fusion 65 025002
 
 - Dewar R L and Qu Z S 2022 Relaxed magnetohydrodynamics with ideal Ohm’s law constraint J. Plasma Phys. 88 835880101
 
