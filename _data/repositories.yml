@@ -4,7 +4,7 @@ github_users:
   # - alshedivat
 
 github_repos:
-  
+  - blu-bird/concrete
   # - alshedivat/al-folio
   # - twbs/bootstrap
   # - jekyll/jekyll
