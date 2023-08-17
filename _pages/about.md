@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: The Chinese University of Hong Kong, Shenzhen
+subtitle: Shenzhen/Singapore
 
 profile:
   align: right
