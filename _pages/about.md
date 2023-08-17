@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: The Chinese University of Hong Kong, Shenzhen
 
 profile:
   align: right
@@ -17,8 +17,15 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-My name is Qiuyang Mang (忙秋阳 in Chinese). I am an year 3 undergraduate student at The Chinese University of Hong Kong, Shenzhen, and fortunate to be advised by Prof. Pinjia He.
+I am Qiuyang Mang (忙秋阳 in Chinese), a third-year undergraduate at The Chinese University of Hong Kong, Shenzhen, under the guidance of Prof. [Pinjia He](https://pinjiahe.github.io/). 
 
-I am interested in AI Robustness (e.g., developing automated tools for testing and improvement the AI software), and Testing traditional systems (e.g., databases and compilers), and graph algorithms.
+My focus lies in AI Robustness (e.g., developing automated tools for testing and improvement the AI software), and Testing traditional systems (e.g., databases and compilers), and graph algorithms.
 
-I am currently doing an internship at Trustworthy Engineering of Software Technologies (TEST) Lab for half a year, advised by Prof. Manuel Rigger.
+I am currently interning at [Trustworthy Engineering of Software Technologies (TEST) Lab](https://nus-test.github.io/), advised by Prof. [Manuel Rigger](https://www.manuelrigger.at/). 
+
+I am highly involved with Competitive Programming, and in the 46th ICPC world Final List (Egypt). Prior to this, I earned one second runner-up and one third-place positions at ICPC Regionals, representing The Chinese University of Hong Kong, Shenzhen.
+
+
+
+
+
