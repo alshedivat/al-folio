@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
-    gem 'fast-stemmer', '~> 1.0.3'
+    gem 'fast-stemmer', '1.0.3'
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
