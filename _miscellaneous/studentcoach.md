@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2021-2023
+sem: 2021-2023
 place: Shenzhen, China
 inline: true
 ---

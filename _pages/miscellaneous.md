@@ -16,7 +16,7 @@ nav_order: 4
     {%- assign miscellaneous = site.miscellaneous | reverse -%} 
     {% for item in miscellaneous %} 
     <tr>
-        <th scope="row">{{ item.date }}</th>
+        <th scope="row">{{ item.sem }}</th>
         <td>
         {% if item.inline -%} 
             {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
