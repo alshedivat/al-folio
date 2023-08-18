@@ -14,7 +14,7 @@ category: research
 ***Abstract.***
 Medical image segmentation modeling is a high-stakes task where understanding of uncertainty is crucial for addressing visual ambiguity. Prior work has developed segmentation models utilizing probabilistic or generative mechanisms to infer uncertainty from labels where annotators draw a singular boundary. However, as these annotations cannot represent an individual annotator's uncertainty, models trained on them produce uncertainty maps that are difficult to interpret. **We propose a novel segmentation representation, Confidence Contours, which uses high- and low-confidence ''contours'' to capture uncertainty directly, and develop a novel annotation system for collecting contours.** We conduct an evaluation on the Lung Image Dataset Consortium (LIDC) and a synthetic dataset. Our results show that Confidence Contours provide high representative capacity without requiring significantly higher annotator effort. Moreover, segmentation models trained on them can produce significantly more interpretable uncertainty maps than models with specialized mechanisms for uncertainty, and they can learn Confidence Contours at the same performance level as  singular annotations. We conclude with a discussion on how we can infer regions of high and low confidence from existing segmentation datasets.
 
-[Paper](/assets/pdf/HCOMP_CC_Sub.pdf){: .btn :target="_blank"} 
+[Paper](https://arxiv.org/abs/2308.07528){: .btn :target="_blank"} 
 
 ---
 
