@@ -182,6 +182,12 @@ collections:
       layout: post
     output: true
     permalink: /awards/:path/
+  
+  miscellaneous:
+    defaults:
+      layout: post
+    output: true
+    permalink: /miscellaneous/:path/
 
 announcements:
   enabled: true

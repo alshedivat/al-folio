@@ -9,24 +9,24 @@ nav_order: 4
 
 
 <!-- pages/awards.md -->
-<div class="awards">
+<div class="miscellaneous">
 {% if site.awards != blank -%} 
 <div class="table-responsive">
     <table class="table table-sm table-borderless">
-    {%- assign awards = site.awards | reverse -%} 
-    {% for item in awards %} 
+    {%- assign miscellaneous = site.miscellaneous | reverse -%} 
+    {% for item in miscellaneous %} 
     <tr>
-        <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+        <th scope="row">{{ item.date }}</th>
         <td>
         {% if item.inline -%} 
             {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
         {%- else -%} 
-            <a class="awards-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            <a class="miscellaneous-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
         {%- endif %} 
         </td>
         <td>
         {% if item.place -%} 
-            <span class="awards-place">{{ item.place }}</span>
+            <span class="miscellaneous-place">{{ item.place }}</span>
         {%- endif %}
         </td>
     </tr>
@@ -34,6 +34,6 @@ nav_order: 4
     </table>
 </div>
 {%- else -%} 
-<p>No awards so far...</p>
+<p>No miscellaneous so far...</p>
 {%- endif %} 
 </div>
