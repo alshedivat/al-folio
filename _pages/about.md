@@ -18,4 +18,4 @@ Hi! I’m a PhD student in [Information Science at Cornell](https://infosci.corn
 
 I'm also really excited about teaching ethical AI - most recently, I co-led a [Responsible AI course](https://nanrahman.github.io/capstone-responsible-ai/) for UCSD's Data Science Capstone.
 
-Previously, I worked as a data scientist in Deloitte's AI & Advanced Analytics group, where I focused primarily on advancing health equity through algorithm auditing. Prior to that, I double-majored in Computer Science and Philosophy, Politics, and Economics at the University of Pennsylvania, where I graduated summa cum laude.
+Previously, I worked as a data scientist in Deloitte’s AI & Advanced Analytics group, where I focused on conducting real-world algorithm audits. I received my BA in Computer Science and Philosophy, Politics, & Economics from the University of Pennsylvania.
