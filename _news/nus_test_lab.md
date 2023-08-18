@@ -1,0 +1,7 @@
+---
+layout: post
+date: 2023-06-01
+inline: true
+---
+
+I joined the [TEST-Lab](https://nus-test.github.io/) at the National University of Singapore for a six-month research internship.
