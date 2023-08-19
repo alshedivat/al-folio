@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Texas A&M University, College Station</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Texas A&M University, College Station</a>
 
 profile:
   align: right
