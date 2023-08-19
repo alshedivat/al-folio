@@ -5,7 +5,7 @@ permalink: /
 subtitle: Texas A&M University, College Station
 
 profile:
-  align: right
+  align: left
   image: IMG_2208.jpeg
   image_circular: false # crops the image to make it circular
   address: >
