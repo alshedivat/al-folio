@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented my first poster at the Joint Statistical Meetings'23. :sparkles: :smile:
+Presented my first poster at the [Joint Statistical Meetings'23](https://ww2.amstat.org/meetings/jsm/2023/) held in Toronto, Canada. :sparkles: :smile:
