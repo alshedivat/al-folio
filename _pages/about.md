@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Texas A&M University, College Station</a>
+subtitle: Texas A&M University, College Station
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: IMG_2208.jpeg
   image_circular: false # crops the image to make it circular
   address: >
     <p>555 your office number</p>
