@@ -6,18 +6,24 @@ subtitle: Texas A&M University, College Station
 
 profile:
   align: right
-  image: 1.jpg
+  image: IMG_2208.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>401G Blocker Building</p>
+    <p>3143 TAMU, </p>
+    <p>College Station, TX 77843</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+
+I am a 3rd Year PhD student in the Department of Statistics at Texas A&M University, College Station . Previously, I have completed my Master of Science in Statistics from the Department of Mathematics and Statistics at Indian Institute of Technology, Kanpur and Bachelor of Science in the same discipline from the Department of Statistics at St. Xavier's College, Kolkata. 
+
+My research interests include Bayesian modelling, functional data analysis, graphical models and causal discovery.  
+
+I am working under the supervision of [Dr Yang Ni](https://web.stat.tamu.edu/~yni/) and [Dr Raymond K.W. Wong](https://raymondkww.github.io) . Earlier, I have worked under the guidance of [Dr Amit Mitra](https://home.iitk.ac.in/~amitra/) of IIT Kanpur as a part of my master's thesis work.
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
