@@ -6,7 +6,7 @@ subtitle: Texas A&M University, College Station
 
 profile:
   align: right
-  image: IMG_2208.jpeg
+  image: 1.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>555 your office number</p>
