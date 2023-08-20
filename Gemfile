@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'fast-stemmer', '~> 1.0', '>= 1.0.2'
+    gem 'toc', '~> 0.0.4'
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
