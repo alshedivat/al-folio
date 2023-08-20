@@ -109,6 +109,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://users.wpi.edu/~lfichera/" target="_blank">★</a>
 <a href="https://anmspro.github.io/" target="_blank">★</a>
 <a href="https://berlyne.net/" target="_blank">★</a>
+<a href="https://filippomazzoli.github.io/">★</a>
 </td>
 </tr>
 <tr>
