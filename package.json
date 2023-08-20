@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "jupyter": "^0.0.0",
     "stemmer": "^2.0.1"
   }
 }
