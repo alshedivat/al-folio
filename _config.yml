@@ -26,7 +26,7 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: Information Systems, Statistics, Informatics, Data Science, Databases  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -35,6 +35,7 @@ url: https://brendancostello.github.io # the base hostname & protocol for your s
 baseurl: /al-folio # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+markdown: JekyllJupyterNotebook::Converter
 
 # -----------------------------------------------------------------------------
 # Theme
