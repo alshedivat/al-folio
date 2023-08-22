@@ -23,7 +23,7 @@ My focus lies in AI Robustness (*e.g.,* developing automated tools for testing a
 
 
 
-I am highly involved with Competitive Programming, and in the 46th ICPC World Final List (Egypt). Prior to this, I earned a second runner-up and a third-place position at ICPC Regionals, representing The Chinese University of Hong Kong, Shenzhen.
+I am highly involved with Competitive Programming, and in the 46th ICPC World Final List (Egypt 2023). Prior to this, I earned a second runner-up and a third-place position at ICPC Regionals, representing The Chinese University of Hong Kong, Shenzhen.
 
 
 
