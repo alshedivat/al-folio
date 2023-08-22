@@ -37,4 +37,14 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: _site
+    - name: Fix permission
+      run: |
+            chmod a+x bin/*
+            git commit -am "add execute permission to bin/deploy"
 
+    - name: Deploy webiste
+      run: yes | bash bin/deploy --verbose %{{steps.setups.outputs.NO_PUSH}}}
+                  --src ${{steps.setups.outputs.SRC_BRANCH}} 
+                  -- deploy ${{steps.setups.outputs.DEPLOY_BRANCH}}
+                  
+          
