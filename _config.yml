@@ -277,7 +277,7 @@ scholar:
   last_name: [Einstein]
   first_name: [Albert, A.]
 
-  style: apa
+  style: the-astrophysical-journal
   locale: en
 
   source: /_bibliography/
@@ -308,7 +308,7 @@ filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, select
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 3  # leave blank to always show all authors
-more_authors_animation_delay: 10  # more authors are revealed on click using animation; smaller delay means faster animation
+more_authors_animation_delay: 3  # more authors are revealed on click using animation; smaller delay means faster animation
 
 
 # -----------------------------------------------------------------------------
