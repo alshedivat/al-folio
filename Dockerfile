@@ -22,4 +22,4 @@ RUN bundle install
 
 COPY . /app/
 
-CMD bundle exec jekyll serve
+CMD bundle exec jekyll --trace serve
