@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - kyleaoman
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - kyleaoman/martini
+  - SWIFTSIM/swiftgalaxy
+  - kyleaoman/eagleSqlTools
+  - kyleaoman/pyread_eagle
