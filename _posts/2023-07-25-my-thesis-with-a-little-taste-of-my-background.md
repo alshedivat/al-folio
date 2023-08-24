@@ -8,6 +8,8 @@ tags:
   - Machine Learning
   - Electrical Capacitance Tomography
 categories: education
+toc:
+  sidebar: right
 featured: true
 giscus_comments: true
 ---
