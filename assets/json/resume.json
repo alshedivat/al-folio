@@ -1,77 +1,128 @@
 {
-  "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+    "basics": {
+    "name": "Kyle Oman",
+	"label": "Astrophysicist",
+	"image": "",
+	"email": "kyle.a.oman@durham.ac.uk",
+	"phone": "+44 (191) 334-3011",
+	"url": "https://kyleaoman.github.io",
+	"summary": "Asst. Professor & Dorothy Hodgkin Fellow",
+	"location": {
+	    "address": "Ogden Centre for Fundamental Physics West, Lower Mountjoy, South Rd",
+	    "postalCode": "DH1 3LE",
+	    "city": "Durham",
+	    "countryCode": "GB",
+	    "region": "Durham"
+	},
+	"profiles": []
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
-  },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [
-        "Relativity"
-      ]
-    }
-  ],
-  "volunteer": [],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [],
-  "publications": [],
-  "skills": [],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    }
-  ],
-  "interests": [],
-  "references": [],
-  "projects": []
+    "work": [
+	{
+	    "name": "Institute for Computational Cosmology, Physics, Durham University",
+	    "position": "Asst. Professor & Royal Society Dorothy Hodgkin Fellow",
+	    "startDate": "2023-10-01",
+	    "endDate": "present",
+	    "summary": "",
+	    "highlights": []
+	},
+	{
+	    "name": "Institute for Computational Cosmology, Physics, Durham University",
+	    "position": "Postdoctoral Research Associate",
+	    "startDate": "2019-10-01",
+	    "endDate": "2023-09-30",
+	    "summary": "",
+	    "highlights": []
+	},
+	{
+	    "name": "Kapteyn Astronomical Institute, Rijksuniversiteit Groningen",
+	    "position": "Postdoctoral Researcher",
+	    "startDate": "2017-10-01",
+	    "endDate": "2019-09-30",
+	    "summary": "",
+	    "highlights": []
+	}
+    ],
+    "volunteer": [],
+    "education": [
+	{
+	    "institution": "University of Victoria, Canada",
+	    "area": "Physics & Astronomy",
+	    "studyType": "PhD",
+	    "startDate": "2013-09-01",
+	    "endDate": "2017-08-01",
+	    "score": "",
+	    "courses": []
+	},
+	{
+	    "institution": "University of Waterloo, Canada",
+	    "area": "Physics & Astronomy",
+	    "studyType": "MSc",
+	    "startDate": "2011-09-01",
+	    "endDate": "2013-08-01",
+	    "score": "",
+	    "courses": []
+	},
+	{
+	    "institution": "University of Waterloo, Canada",
+	    "area": "Physics",
+	    "studyType": "BSc",
+	    "startDate": "2007-09-01",
+	    "endDate": "2011-06-01",
+	    "score": "",
+	    "courses": []
+	}
+    ],
+    "awards": [
+	{
+	    "title": "Durham Physics Developing Talent Award",
+	    "date": "2022",
+	    "awarder": "Physics Department, Durham University",
+	    "summary": ""
+	},
+	{
+	    "title": "RM Petrie Memorial Fellowship",
+	    "date": "2016",
+	    "awarder": "University of Victoria",
+	    "summary": ""
+	},
+	{
+	    "title": "Canada Graduate Scholarship",
+	    "date": "2015",
+	    "awarder": "National Science & Engineering Research Council",
+	    "summary": ""
+	},
+	{
+	    "title": "Nora & Mark DeGoutière Memorial Scholarship",
+	    "date": "2014",
+	    "awarder": "University of Victoria",
+	    "summary": ""
+	},
+	{
+	    "title": "Queen Elizabeth II Graduate Scholarship in Science & Technology",
+	    "date": "2012",
+	    "awarder": "Ontario Student Assistance Program",
+	    "summary": ""
+	}
+    ],
+    "certificates": [],
+    "publications": [],
+    "skills": [],
+    "languages": [
+	{
+	    "language": "English",
+	    "fluency": "Native speaker"
+	},
+	{
+	    "language": "French",
+	    "fluency": "Native speaker"
+	},
+	{
+	    "language": "Dutch",
+	    "fluency": "Basic"
+	}
+
+    ],
+    "interests": [],
+    "references": [],
+    "projects": []
 }

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: code
 description: My code repos intended for public use.
 nav: true
 nav_order: 3
