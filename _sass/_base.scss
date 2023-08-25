@@ -630,11 +630,38 @@ footer.sticky-bottom {
         }
 
         >em {
-          border-bottom: 1px solid;
+	  color: var(--global-hover-color);
           font-style: normal;
         }
 
         >span.more-authors {
+          color: var(--global-text-color-light);
+          border-bottom: 1px dashed var(--global-text-color-light);
+          cursor: pointer;
+
+          &:hover {
+            color: var(--global-text-color);
+            border-bottom: 1px dashed var(--global-text-color);
+          }
+        }
+      }
+
+      .editor {
+        a {
+          border-bottom: 1px dashed var(--global-theme-color);
+
+          &:hover {
+            border-bottom-style: solid;
+            text-decoration: none;
+          }
+        }
+
+        >em {
+	  color: var(--global-hover-color);
+          font-style: normal;
+        }
+
+        >span.more-editors {
           color: var(--global-text-color-light);
           border-bottom: 1px dashed var(--global-text-color-light);
           cursor: pointer;

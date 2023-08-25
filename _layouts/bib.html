@@ -44,9 +44,7 @@
           {%- assign author_is_self = false -%}
           {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
           {%- if site.scholar.last_name contains author_last_name -%}
-            {%- if site.scholar.first_name contains author.first -%}
-              {%- assign author_is_self = true -%}
-            {%- endif -%}
+            {%- assign author_is_self = true -%}
           {%- endif -%}
           {%- assign coauthor_url = nil -%}
           {%- if site.data.coauthors[author_last_name] -%}
@@ -106,6 +104,78 @@
         {%- endif -%}
 
         </div>
+        <!-- Editor -->
+        <div class="editor">
+        {% assign editor_array_size = entry.editor_array | size %}
+
+        {% assign editor_array_limit = editor_array_size %}
+        {%- if site.max_author_limit and editor_array_size > site.max_author_limit %}
+          {% assign editor_array_limit = site.max_author_limit %}
+        {% endif %}
+
+        {%- for editor in entry.editor_array limit: editor_array_limit -%}
+          {%- assign editor_is_self = false -%}
+          {%- assign editor_last_name = editor.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+          {%- if site.scholar.last_name contains editor_last_name -%}
+            {%- assign editor_is_self = true -%}
+          {%- endif -%}
+          {%- assign coauthor_url = nil -%}
+          {%- if site.data.coauthors[editor_last_name] -%}
+            {%- for coauthor in site.data.coauthors[editor_last_name] -%}
+              {%- if coauthor.firstname contains editor.first -%}
+                {%- assign coauthor_url = coauthor.url -%}
+                {%- break -%}
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
+
+          {%- if forloop.length > 1 -%}
+            {%- if forloop.first == false -%},&nbsp;{%- else -%}Eds.&nbsp;{%- endif -%}
+            {%- if forloop.last and editor_array_limit == editor_array_size -%}and&nbsp;{%- endif -%}
+          {%- endif -%}
+          {%- if editor_is_self -%}
+            <em>{{editor.first}} {{editor.last}}</em>
+          {%- else -%}
+            {%- if coauthor_url -%}
+              <a href="{{coauthor_url}}">{{editor.first}} {{editor.last}}</a>
+            {%- else -%}
+              {{editor.first}} {{editor.last}}
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- assign more_editors = editor_array_size | minus: editor_array_limit -%}
+
+        {%- assign more_editors_hide = more_editors | append: " more editor" -%}
+        {%- if more_editors > 0 -%}
+          {%- if more_editors > 1 -%}
+            {%- assign more_editors_hide = more_editors_hide | append: "s" -%}
+          {%- endif -%}
+          {%- assign more_editors_show = '' -%}
+          {%- for editor in entry.editor_array offset: editor_array_limit -%}
+            {%- assign more_editors_show = more_editors_show | append: editor.first | append: " " | append: editor.last -%}
+            {%- unless forloop.last -%}
+              {%- assign more_editors_show = more_editors_show | append: ", " -%}
+            {%- endunless -%}
+          {%- endfor -%}
+          , and
+          <span
+              class="more-editors"
+              title="click to view {{more_editors_hide}}"
+              onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_editors_text = element.text() == '{{more_editors_hide}}' ? '{{more_editors_show}}' : '{{more_editors_hide}}';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_editors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_editors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '{{site.more_authors_animation_delay}}');
+              "
+          >{{more_editors_hide}}</span>
+        {%- endif -%}
+        </div>
 
         <!-- Journal/Book title and date -->
 	{%- if entry.year -%}
@@ -114,25 +184,50 @@
         {% assign proceedings = "inproceedings,incollection" | split: ','%}
         {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
         {% if entry.type == "article" -%}
-          {%- capture entrytype -%}{{entry.journal}}{%- endcapture -%}
+	  {%- if entry.journal == "arXiv e-prints" -%}
+	    {%- capture entrytype -%}{{entry.archiveprefix}}{%- endcapture -%}
+	  {%- else -%}
+	    {%- if entry.journal == "\mnras" -%}
+	      {%- capture entrytype -%}{{ "MNRAS" }}{%- endcapture -%}
+	    {%- elsif entry.journal == "\apj" -%}
+	      {%- capture entrytype -%}{{ "ApJ" }}{%- endcapture -%}
+	    {%- elsif entry.journal == "\apjl" -%}
+	      {%- capture entrytype -%}{{ "ApJL" }}{%- endcapture -%}
+	    {%- elsif entry.journal == "\prl" -%}
+	      {%- capture entrytype -%}{{ "PRL" }}{%- endcapture -%}
+	    {%- elsif entry.journal == "\aap" -%}
+	      {%- capture entrytype -%}{{ "A&A" }}{%- endcapture -%}
+	    {%- elsif entry.journal == "\jcap" -%}
+	      {%- capture entrytype -%}{{ "JCAP" }}{%- endcapture -%}
+	    {%- else -%}
+	      {%- capture entrytype -%}{{entry.journal}}{%- endcapture -%}
+	    {%- endif -%}
+	  {%- endif -%}
         {%- elsif proceedings contains entry.type -%}
-          {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+          {%- capture entrytype -%}In <em>{{entry.booktitle}}</em>{%- if entry.journal -%}, {{entry.journal}}{%- endif -%}{%- endcapture -%}
         {%- elsif thesis contains entry.type -%}
-          {%- capture entrytype -%}{{entry.school}} {%- endcapture -%}
+          {%- capture entrytype -%}{%- if entry.type == "phdthesis" -%}{{ "PhD Thesis" }}{%- elsif entry.type == "mastersthesis" -%}{{ "MSc Thesis" }}{%- else -%}{{ "Thesis" }}{%- endif -%},{{ " " }}{{entry.school | split: ',' | first}} {%- endcapture -%}
         {%- else -%}
           {%- capture entrytype -%}{%- endcapture -%}
         {%- endif -%}
-        {%- if entry.month -%}
-          {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
-        {%- endif -%}
 	{%- if entry.volume -%}
 	  {%- capture entryvolume -%}{{ " " }}{{ entry.volume }}{%- endcapture -%}
+	{%- elsif entry.journal == "arXiv e-prints" -%}
+	  {%- capture entryvolume -%}{%- endcapture -%}
+        {%- else -%}
+          {%- capture entryvolume -%}{%- endcapture -%}
 	{%- endif -%}
 	{%- if entry.pages -%}
-	  {%- capture entrypages -%}{{ " " }}{{ entry.pages }}{%- endcapture -%}
+	  {%- if entry.journal == "arXiv e-prints" and entry.eprint -%}
+	    {%- capture entrypages -%}{{ " " }}{{ entry.eprint }}{%- endcapture -%}
+	  {%- else -%}
+	    {%- capture entrypages -%}{{ " " }}{{ entry.pages | split: '-' | first }}{%- endcapture -%}
+	  {%- endif -%}
+	{%- else -%}
+          {%- capture entrypages -%}{%- endcapture -%}
 	{%- endif -%}
         {% assign entrytype_text = entrytype | strip_html | strip %}
-	{%- capture periodical -%}{%- if entryyear != "" -%}({%- endif -%}{{ entryyear | strip }}{%- if entryyear != "" -%})&nbsp;{%- endif -%}{{ entrytype }}{%- if entrytype_text != "" -%} {%- endif -%}<b>{{ entryvolume }}</b>{%- if entryvolume != "" -%}, {{ entrypages }}{%- endif -%}{%- endcapture -%}
+	{%- capture periodical -%}{%- if entryyear != "" -%}({%- endif -%}{{ entryyear | strip }}{%- if entryyear != "" -%}){{ " " }}{%- endif -%}{{ entrytype }}{%- if entrytype_text != "" -%} {%- endif -%}{%- if entryvolume != "" -%}<b>{{ entryvolume }}</b>{{ " " }}{%- endif -%}{%- if entrypages != "" -%}{{ entrypages }}{%- endif -%}{%- endcapture -%}
         <div class="periodical">
           {{ periodical | strip }}
         </div>
@@ -145,21 +240,22 @@
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
-          {%- if entry.arxiv %}
-            <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+          {%- if entry.adsurl %}
+            <a href="{{ entry.adsurl }}" class="btn btn-sm z-depth-0" role="button">ADS</a>
+          {%- endif %}
+          {%- if entry.archiveprefix == "arXiv" and entry.eprint %}
+            <a href="https://arxiv.org/abs/{{ entry.eprint }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
           {%- endif %}
           {%- if entry.bibtex_show %}
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           {%- endif %}
-          {%- if entry.html %}
-            <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          {%- if entry.doi %}
+            <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
           {%- endif %}
-          {%- if entry.pdf %}
-            {% if entry.pdf contains '://' -%}
-            <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
-            {%- else -%}
-            <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
-            {%- endif %}
+	  {% assign entry_pdf_file = entry.key | prepend: '/assets/pdf/' | append: '.pdf' | relative_url %}
+	  {% assign pdf_exists = site.static_files | where: "path", entry_pdf_file | first %}
+          {%- if pdf_exists %}
+            <a href="{{ entry_pdf_file }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
           {%- endif %}
           {%- if entry.supp %}
             {% if entry.supp contains '://' -%}
