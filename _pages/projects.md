@@ -5,7 +5,7 @@ permalink: /projects/
 description: interests & projects
 nav: true
 nav_order: 2
-display_categories: [science, data]
+display_categories: [science, data, collaborations]
 horizontal: false
 ---
 
