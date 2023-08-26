@@ -7,8 +7,6 @@
       value: HTML, CSS, JavaScript, Python, SQL, PHP, Ruby
     - name: Languages
       value: English, French
-    - name: Email
-      value: serrano.david.liaca@gmail.com
 
 - title: Education
   type: time_table
