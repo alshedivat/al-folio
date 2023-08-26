@@ -17,9 +17,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-### :point_right: About Me :
+
 Having taught history and geography for many years, I developed a deep love for understanding past events and their impact on our modern world.
 However, since I was a child, I've also been drawn to the realm of coding and technology.
 This transition journey into development started by an intense Full-Stack coding bootcamp at Le Wagon.
 
-:student: I love to learn ! I'm committed to acquiring new skills, languages and technologies to enrich my journey as a developer.  
+I love to learn ! I'm committed to acquiring new skills, languages and technologies to enrich my journey as a developer.
