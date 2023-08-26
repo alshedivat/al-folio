@@ -11,7 +11,7 @@ related_posts: false
 
 To include a jupyter notebook in a post, you can use the following code:
 
-{% raw %}
+<!-- {% raw %}
 
 ```html
 {::nomarkdown}
@@ -41,4 +41,4 @@ The plugin takes as input the path to the notebook, but it assumes the file exis
 {% endif %}
 {:/nomarkdown}
 
-Note that the jupyter notebook supports both light and dark themes.
+Note that the jupyter notebook supports both light and dark themes. -->
