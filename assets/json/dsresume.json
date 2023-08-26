@@ -50,16 +50,6 @@
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [],
-  "publications": [],
   "skills": [],
   "languages": [
     {
@@ -71,7 +61,36 @@
       "fluency": "Fluent"
     }
   ],
-  "interests": [],
-  "references": [],
-  "projects": []
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Professor John A. Wheeler",
+      "reference": "Albert is the best physicist I ever met."
+    }
+  ],
+  "projects": [
+    {
+      "name": "General Relativity",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.",
+      "highlights": [
+        "Einstein field equations",
+        "Friedmann equations"
+      ],
+      "keywords": [
+        "Science",
+        "Physics"
+      ],
+      "startDate": "1905-01-01",
+      "endDate": "1915-01-01",
+      "url": "https://www.einstein.caltech.edu"
+    }
+  ]
 }

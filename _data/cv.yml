@@ -3,8 +3,8 @@
   contents:
     - name: Full Name
       value: David Serrano
-    - name: Date of Birth
-      value: 14th March 1879
+    - name: Stack
+      value: HTML, CSS, JavaScript, Python, SQL, PHP, Ruby
     - name: Languages
       value: English, French
 
@@ -79,7 +79,7 @@
       items:
         - Max Planck Medal
 
-- title: Academic Interests
+- title: Other interests
   type: nested_list
   contents:
     - title: Topic 1.
