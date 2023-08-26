@@ -1,12 +1,23 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
+logo:
+  mobile: "assets/img/logo/logo-mail-v2.png"
+  mobile_height: "20px"
+  mobile_width: "32px"
+  desktop: "assets/img/logo/logo-mail-v2.png"
+  desktop_height: "30px"
+
+site_icon: "assets/img/icon-v2.png"
 
 title: blank # the website title (if blank, full name will be used instead)
+full_name: Khoa D Doan
+jobtitle: Assistant Professor
+department: "<a href='https://vinuni.edu.vn/college-of-engineering-computer-science/'>College of Engineering and Computer Science</a>, <a href='https://vinuni.edu.vn/'>VinUniversity</a>, Vietnam"
 first_name: Khoa
-middle_name: D.
+middle_name: D
 last_name: Doan
-email: khoadoan@vt.edu
+email: khoadoan106@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -49,11 +60,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: khoadoan# your GitHub user name
+github_username: khoadoan106 # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: doankhoadang# your Twitter handle
-linkedin_username: doankhoadang# your LinkedIn user name
-scholar_userid: Zz2hMgcAAAAJ# your Google Scholar ID
+twitter_username: khoaddoan # your Twitter handle
+linkedin_username: doankhoadang # your LinkedIn user name
+scholar_userid: Zz2hMgcAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -75,9 +86,9 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Practical ML   # your blog must have a name for it to show up in the nav bar
-blog_description: simple and practical ML models
-permalink: /blog/:year/:title/
+# blog_name: Practical ML   # your blog must have a name for it to show up in the nav bar
+# blog_description: simple and practical ML models
+# permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
@@ -100,6 +111,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  team:
+    output: true
 
 news_limit: 15
 

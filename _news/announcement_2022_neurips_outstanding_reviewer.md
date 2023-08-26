@@ -4,4 +4,4 @@ date: 2022-12-01 15:59:00-0400
 inline: true
 ---
 
-Recognized as **Top Reviewer** at NeurIPS 2022.
+:fire: Recognized as **Top Reviewer** at NeurIPS 2022.

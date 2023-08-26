@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="post">
+    <h2 class="post-title">{{ page.tagline }}</h2>    
+    <p class="desc">{{ page.tagline_desc }}</p>
+    <p class="desc">{{ page.definition }}</p>
+  <article>
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-8 col-lg-8 order-2 order-md-1">            
+            <p class="desc">{{ page.description }}</p>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 order-1 order-md-2 position-relative">
+        <!-- <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}"> -->
+          {% if page.research_image %}
+            <img class="img-fluid rounded" src="{{ page.research_image | prepend: '/assets/img/' | relative_url }}">
+          {% endif %}      
+        <!-- </div> -->
+        </div>
+        </div>
+
+    {{ content }}
+  </article>
+
+</div>

@@ -4,4 +4,4 @@ date: 2022-09-18 15:59:00-0400
 inline: true
 ---
 
-One paper accepted to NeurIPS'2022 on a new threat of **Backdoor Attacks**.
+:fire: One paper accepted to NeurIPS'2022 on a new threat of **Backdoor Attacks**.

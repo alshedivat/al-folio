@@ -13,3 +13,57 @@ $max-content-width: {{site.max_width}};
   "base",
   "distill"
 ;
+
+//LOGO
+// $grid-breakpoints: (
+//   xs: 0,
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: 1200px
+// ) !default;
+
+// // Media of at least the minimum breakpoint width. No query for the smallest breakpoint.
+// // Makes the @content apply to the given breakpoint and wider.
+// @mixin media-breakpoint-up($name, $breakpoints: $grid-breakpoints) {
+//   $min: breakpoint-min($name, $breakpoints);
+//   @if $min {
+//     @media (min-width: $min) {
+//       @content;
+//     }
+//   } @else {
+//     @content;
+//   }
+// }
+
+// .logo {
+//   display: none;
+//   @include media-breakpoint-up(sm) {
+//     display: block;
+//   }
+//   img {
+//     max-width: unset;
+//   }
+//   a {
+//     display: block;
+//     width: 100%;
+//     height: 100%;
+//   }
+// }
+// .logo-mobile {
+//   display: block;
+//   width: 40px;
+//   padding: 10px 0 10px 0;
+//   @include media-breakpoint-up(sm) {
+//     display: none;
+//   }
+//   img {
+//     width: 100%;
+//     height: auto;
+//   }
+//   a {
+//     display: block;
+//     width: 100%;
+//     height: 100%;
+//   }
+// }

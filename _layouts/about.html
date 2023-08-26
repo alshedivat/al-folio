@@ -3,14 +3,10 @@ layout: default
 ---
 
 <div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">
-     {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
-    </h1>
-     <p class="desc">{{ page.description }}</p>
-  </header>
-
+  <!-- <header class="post-header">
+    <h2 class="post-title">{{ page.title }}</h2>
+    <p class="desc">{{ page.description }}</p>
+  </header> -->
   <article>
     {% if page.profile %}
     <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
@@ -21,7 +17,8 @@ layout: default
         <!-- <div class="address"> -->
           <!-- {{ page.profile.address }} -->
         <!-- </div> -->
-
+        <!-- <div class="team team-summary-large"> -->          
+        <!-- </div> -->
         <div class="social-small">
           <div class="social contact-icons text-center">
             {% include social.html %}
@@ -31,14 +28,58 @@ layout: default
       {% endif %}
     </div>
     {% endif %}
-
+    <!-- <h2 class="post-title">{{ page.title }}</h2>
+    <p class="desc">{{ page.description }}</p> -->
+    <div class="team-meta-standalone">
+      <!-- <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2> -->
+      <h3 class="team-name">{{ site.full_name }}</h3>                    
+      <p class="team-title">{{ site.jobtitle }}</p>              
+      <p class="team-title">{{ site.department }}</p>
+      [<a href="team/">more about me</a>]
+    </div>
+    <hr />
     <div class="clearfix">
       {{ content }}
-    </div>
+    </div>   
+    
+    <div class="container pr-1 pl-0">
+      <div class="row justify-content-start">
+        <div class="col-12 col-md-5 col-lg-5 order-1 order-md-1" align="left">
+          {% twitter https://twitter.com/khoaddoan maxheight=250 maxwidth=400 limit=3 %}
+        </div>
+        <div class="annoucement col-12 col-md-7 col-lg-7 order-2 order-md-2">
+          <strong>I'm open to research collaborations in ML/CV/NLP</strong>:
+          <ul>
+          <li><strong>Intersted in Ph.D. position?</strong> Please <a href="https://vinuni.edu.vn/phd/">apply</a> through the CS department and include my name as a potential advisor in your application.</li>
+          <li><strong>Interested in ML research with me (Research Assistant/Intern)?</strong> Please fill in the form <a href="https://docs.google.com/forms/d/e/1FAIpQLSf7O3-3HmcNlZMQM5OnBZP0jygQMIXVM0ooGQulo6KSCN2dpg/viewform">here</a> (with your CV, transcript, level of commitment, and description of what types of projects you want to work on)</li>          
+          <li><strong>Other research collaboration?</strong> Please reach out via <a href="mailto:{{site.email}}">email</a>.</li>                    
+        </div>  
 
+        <!-- <div class="annoucement col-12 col-md-6 col-lg-6 order-1 order-md-1">
+          <strong>Prospective Ph.D. students:</strong>
+          <ul> 
+            <li><strong>Not at VinUni?</strong> Please apply through the CS department and include my name as a potential advisor in your application.</li>
+            <li><strong>VinUni student?</strong> Please email me your CV, prior experiences, and how you would like to get involved.</li>
+          </ul>
+
+          <strong>If you are a VinUni undergraduate student:</strong>
+          <ul> 
+            <li>Interested in engaging with ML research? Please reach out via email with your CV, transcript, level of commitment (e.g., 10-20 hours/week), and description of what types of projects you want to work on.</li>
+          </ul>
+
+          <strong>Prospective Visiting Students:</strong>
+          <ul>
+            <li>For short-term visiting, please fill in the form <a href="https://docs.google.com/forms/d/e/1FAIpQLSf7O3-3HmcNlZMQM5OnBZP0jygQMIXVM0ooGQulo6KSCN2dpg/viewform">here</a>. We will contact you if there is a match.</li>
+          </ul>
+        </div>      -->
+      </div> 
+    </div>
+        
     {% if page.news %}
       {% include news.html %}
     {% endif %}
+
+    
 
     {% if page.selected_papers %}
       {% include selected_papers.html %}

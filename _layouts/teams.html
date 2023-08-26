@@ -1,0 +1,155 @@
+---
+layout: default
+bodyClass: "page-teams"
+---
+
+<!-- <div class="intro">
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+                {{ content }}
+            </div>
+            {% if page.intro_image %}
+            <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+                <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div> -->
+
+<div class="container pt-3 pb-1">
+    <div class="pl-0 col-12 col-md-7 col-lg-6 order-2 order-md-1 team-meta">
+        <h2 style='font-family: "Playfair Display",serif;'> Faculty </h2>
+    </div>
+    <div class="row pt-1 pb-1">
+        {% assign teams = site.team | where: "faculty", true | sort: "date" %}        
+        {% for team in teams %}        
+        <div class="col-12 col-md-11 mb-11">
+            <div class="team team-summary-large">
+                {% if team.image %}
+                <div class="team-image">
+                    <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="team-meta">
+                    <!-- <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2> -->
+                    <h2 class="team-name">{{ team.title }} [<a href="{{ team.cv }}">CV</a> {% if site.email %}<a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>{% endif %}
+                        {% if site.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
+                        {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>{% endif %}
+                        {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %}
+                        {% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>{% endif %}]</h2>                    
+                    <p class="team-title">{{ team.jobtitle }}</p>
+                    <p class="team-description">{{ team.content }}</p> 
+                    <!-- |  -->
+                    <!-- <a class="" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Link with href
+                    </a> -->
+                    <!-- <div class="collapse" id="collapseExample">
+                        <p class="team-description">{{ team.content }}</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="container pt-3 pb-2">
+    <div class="pl-0 col-12 col-md-12 col-lg-12 order-2 order-md-1">
+        <h2 style='font-family: "Playfair Display",serif;'> Students and Research Assistants </h2>
+    </div>
+    <div class="row pt-1 pb-1">
+        {% assign teams = site.team | where: "faculty", false | sort: "date" %}        
+        {% for team in teams %}        
+        <div class="col-12 col-md-4 mb-3">
+            <div class="team team-summary">
+                {% if team.image %}
+                <div class="team-image">
+                    <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="team-meta">
+                    {{relative_url}}
+                    <!-- <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                     -->
+                     <h2 class="team-name">{{ team.title }}</h2>
+                    <p class="team-description">{{ team.jobtitle }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- <div class="container pt-3 pb-1">
+    <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        <h2> Phd Students </h2>
+    </div>
+    <div class="row pt-1 pb-1">
+        {% assign teams = site.team | where: "promoted", empty | sort: "weight" %}
+        {% for team in teams %}
+        <div class="col-12 col-md-4 mb-3">
+            <div class="team team-summary">
+                {% if team.image %}
+                <div class="team-image">
+                    <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="team-meta">
+                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                    <p class="team-description">{{ team.jobtitle }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div> -->
+
+<!-- <div class="container pt-1 pb-1">
+    <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        <h2> Research Assistants </h2>
+    </div>
+    <div class="row pt-1 pb-1">
+        {% assign teams = site.team | where: "research_assistant", true | sort: "date" %}        
+        {% for team in teams %}        
+        <div class="col-12 col-md-4 mb-3">
+            <div class="team team-summary">
+                {% if team.image %}
+                <div class="team-image">
+                    <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="team-meta">
+                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                    <p class="team-description">{{ team.jobtitle }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="container pt-1 pb-1">
+    <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        <h2> Undergraduate Assistants </h2>
+    </div>
+    <div class="row pt-1 pb-1">
+        {% assign teams = site.team | where: "promoted", empty | sort: "weight" %}
+        {% for team in teams %}
+        <div class="col-12 col-md-4 mb-3">
+            <div class="team team-summary">
+                {% if team.image %}
+                <div class="team-image">
+                    <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="team-meta">
+                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                    <p class="team-description">{{ team.jobtitle }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div> -->
