@@ -74,32 +74,41 @@
     ],
     "awards": [
 	{
+	    "title": "Dorothy Hodgkin Fellowship",
+	    "startdate": "2023",
+	    "enddate": "2031",
+	    "awarder": "The Royal Society",
+	    "summary": ""
+	},
+	{
 	    "title": "Durham Physics Developing Talent Award",
-	    "date": "2022",
-	    "awarder": "Physics Department, Durham University",
+	    "startdate": "2022",
+	    "awarder": "Durham University",
 	    "summary": ""
 	},
 	{
 	    "title": "RM Petrie Memorial Fellowship",
-	    "date": "2016",
+	    "startdate": "2016",
+	    "enddate": "2017",
 	    "awarder": "University of Victoria",
 	    "summary": ""
 	},
 	{
 	    "title": "Canada Graduate Scholarship",
-	    "date": "2015",
+	    "startdate": "2015",
+	    "enddate": "2016",
 	    "awarder": "National Science & Engineering Research Council",
 	    "summary": ""
 	},
 	{
 	    "title": "Nora & Mark DeGoutière Memorial Scholarship",
-	    "date": "2014",
+	    "startdate": "2014",
 	    "awarder": "University of Victoria",
 	    "summary": ""
 	},
 	{
 	    "title": "Queen Elizabeth II Graduate Scholarship in Science & Technology",
-	    "date": "2012",
+	    "startdate": "2012",
 	    "awarder": "Ontario Student Assistance Program",
 	    "summary": ""
 	}
