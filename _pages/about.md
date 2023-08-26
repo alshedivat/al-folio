@@ -2,16 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Deputy Director of the Data Mining Department at <a href='https://quantil.co/en/'>Quantil</a> ⇆ ML applications research ⇆ Teaching. 
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: Lucas_frailejones.HEIC
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <ul class="list-unstyled">
+      <li class="email"><i class="fa fa-envelope"></i> l.gomezt (at) uniandes.edu.co</li>
+
+      <li class="email"><i class="fa fa-envelope"></i> lucasgomeztobon (at) gmail.com</li>
+
+      <li class="github"><i class="fa fa-github"></i><a class="a1" href="http://github.com/lgomezt" target="_blank"> lgomezt</a></li>
+
+      <li class="twitter"><i class="fa fa-x-twitter"></i><a class="a1" href="https://twitter.com/LucasAntonioII" target="_blank"> LucasAntonioII</a></li>
+  </ul>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
