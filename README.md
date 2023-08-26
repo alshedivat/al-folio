@@ -3,7 +3,7 @@ To view your local changes, run:
 ```bash
 bundle exec jekyll serve
 ```
-To deploy the changes, run:
+To deploy the changes, run in `Git Bash`:
 ```bash
-bash bin/deploy --user
+bin/deploy --user
 ```
