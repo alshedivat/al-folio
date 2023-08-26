@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Special Faculty - Postdoctoral Researcher</a>. Department of Statistics & Data Sciences, Carnegie Mellon University.
+subtitle: <a href='#'>Research Fellow</a>. Department of Statistics, University of Michigan, Ann Arbor.
 
 profile:
   align: right
@@ -18,8 +18,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-As a postdoctoral researcher in the Department of Statistics and Data Sciences at Carnegie Mellon University (CMU), I am currently working on three research projects in collaboration with Professors Robert E. Kass, Valérie Ventura, Larry Wasserman, Zhao Ren, Alessandro Rinaldo, and Arun Kuchibhotla. My research interests include spatiotemporal methods, graphical models, causal inference on time-series data, high-dimensional central limit theorem, and ranking from pairwise comparisons. For a list of my current and previous research topics, please visit my [projects](/projects/) page.
+Currently, I am serving as a postdoctoral research fellow within the Department of Statistics at the University of Michigan, Ann Arbor. Under the guidance of Professors Liza Levina and Ji Zhu, my current research pursuits problems related to causal inference on networks. My prior research interests have included spatiotemporal methods, graphical models, causal inference on time-series data, high-dimensional central limit theorem, and ranking from pairwise comparisons. For a comprehensive overview of my ongoing and prior research endeavors, I invite you to peruse the details outlined on my dedicated [projects](/projects/) page.
 
-I recently completed my Ph.D. in Statistics at CMU, where I was advised by Professors Robert E. Kass and Valérie Ventura. My doctoral thesis focused on developing and studying statistical methods for discovering communication across brain regions from neural recordings. I addressed the high-dimensional challenge using latent factor time-series and matrix-variate graphical models. During my Ph.D., I was fortunate to collaborate with Professor Alessandro Rinaldo on the theoretical consistency of ranking from pairwise comparisons.
-
-I am excited to be joining the University of Michigan as a postdoctoral researcher, under the supervision of Professors Liza Levina and Ji Zhu, starting in the summer of 2023.
+In a recent milestone, I attained my Ph.D. in Statistics from Carnegie Mellon University (CMU), under guidance of Professors Robert E. Kass and Valérie Ventura. my doctoral research revolved around the innovation and rigorous examination of statistical methodologies. These methodologies were specifically tailored for the task of uncovering communication among brain regions, drawing insights from intricate neural recordings. To surmount the intricacies posed by high-dimensional data, I pioneered the integration of latent factor time-series techniques and matrix-variate graphical models. Subsequent to the successful completion of my Ph.D., I spent a productive year as a postdoctoral researcher in the same department. This year proved to be a rich period of collaboration, involving joint ventures with a constellation of accomplished scholars. Notably, I had the privilege to collaborate on three impactful research projects with Professors Robert E. Kass, Valérie Ventura, Larry Wasserman, Zhao Ren, Alessandro Rinaldo, and Arun Kuchibhotla.
