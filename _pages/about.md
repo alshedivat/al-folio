@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Hello everyone ! # empty or what i what
 
@@ -30,7 +30,7 @@ Today, I'm actively seeking an opportunity as a Junior Developer.
 <p>&nbsp;</p>
 ### :man_technologist: Projects :
 * __Cointravaux__
-A Web App that matches you with a contractor  before buying a condominium, helping you estimate renovation budgets.  
+A Web App that matches you with a contractor  before buying a condominium, helping you estimate renovation budgets.
 <a href="https://www.cointravaux.site/"> :tada: Cointravaux </a> <br> <a href="https://github.com/Boubouboubs/coin_travaux/"> :package: Github repo </a> <br>
 
 ---

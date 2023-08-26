@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - DsWagon
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - DsWagon/dswagon.github.io
+  - DsWagon/DsWagon
+  - DsWagon/coin_travaux
+  - DsWagon/travaux_loc
