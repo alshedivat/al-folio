@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: David
 middle_name:
 last_name: Serrano
-email: you@example.com
+email: serrano.david.liaca@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -105,7 +105,7 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to reach me is by e-mail. You can also find me on Twitter, LinkedIn, and GitHub.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -158,8 +158,8 @@ disqus_shortname: # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+  - name:
+    rss_url:
 
 # -----------------------------------------------------------------------------
 # Collections
