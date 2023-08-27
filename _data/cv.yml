@@ -17,12 +17,20 @@
       description:
         - Attended Le Wagon PARIS (Batch 1210). Full-time intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6, SQL, git, GitHub, Heroku and Ruby on Rails.
         - Description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Master 2 / Dea in History and Geography
+      institution: Université Paris Cité
+      year: 2014
       description:
-        - Description 1.
-        - Description 2.
+        - History and compared civilizations
+        - Specialization Africa
+
+     - title: Master 2 / Dea Urban planing
+      institution: Conservatoire National des Arts et Métiers
+      year: 2014
+      description:
+        - Urban planing
+        - Public policy
+        - Cartography (SIG)
 
 - title: Experience
   type: time_table
