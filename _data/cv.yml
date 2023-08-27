@@ -1,0 +1,74 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Lucas Gómez Tobón
+    # - name: Date of Birth
+    #   value: 18th July 1998
+    - name: Languages
+      value: English, Spanish
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Master of Arts in Economics
+      institution: Universidad de los Andes, Bogotá, Colombia
+      year: 2022
+
+    - title: Bachelor of Arts in Economics
+      institution: Universidad de los Andes, Bogotá, Colombia
+      year: 2020
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research assistant of Tomas Rodríguez
+      institution: Universidad de los Andes, Centro de Estudios sobre Desarrollo Económico (CEDE)
+      year: Jul 2023 – Present
+      description:
+
+    - title: Lead Researcher
+      institution: Barómetro de Xenofobia
+      year: Mar 2023 – Jul 2023
+      description:
+        # - Description 1.
+        # - Description 2.
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+
+    - title: Deputy Director of the Data Mining Department
+      institution: Quantil
+      year: Jul 2022 - Present
+      description:
+
+    - title: Senior Researcher
+      institution: Quantil
+      year: Oct 2021 – Jul 2022
+      description:
+
+    - title: Junior Researcher
+      institution: Quantil
+      year: Jan 2020 – Oct 2021
+      description:
+
+    - title: Research assistant of Tomas Rodríguez
+      institution: Universidad de los Andes, Centro de Estudios sobre Desarrollo Económico (CEDE)
+      year: Jan 2019 – Dec 2019
+      description:
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2023
+      items: 
+        - Juan Luis Londoño Award. Nominated for the best thesis of the master's degree in economics. Awaiting results.  
+    - year: 2022
+      items:
+        - Received the Medalla al Mérito Turístico granted by the Ministry of Commerce, Industry, and Tourism in recognition for the work of our team promoting community tourism as a tool for social transformation. 
+        - Asistencia Graduada Scholarship. Scholarship that covered the master's degree tuition while working as a research assistant for Ph.D. Ignacio Sarmiento Barbieri. 
+    - year: 2021
+      items: 
+        - Asistencia Graduada Scholarship. Scholarship that covered the master's degree tuition while working as a research assistant for Ph.D. Ignacio Sarmiento Barbieri. 
+
