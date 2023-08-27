@@ -4,7 +4,7 @@ title: Coin Travaux
 description: Find a contractor before buying a condo !
 img: assets/img/projects_preview/coin_travaux.jpg
 importance: 1
-category: work
+category: project
 ---
 
 A Web App that matches you with a contractor before buying a condominium, helping you estimate renovation budgets. It was done during the bootcamp at [Le Wagon](https://www.lewagon.com/) in june 2023.
