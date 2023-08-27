@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - lgomezt
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - lgomezt/Modelling-underreported-crime 
+  - lgomezt/Aprendizaje_No_Supervisado
+  - lgomezt/Intro_Python
+  - lgomezt/A-Location-Discrete-Choice-Model-of-Crime
+  - lgomezt/marcacion_tweets

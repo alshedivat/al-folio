@@ -306,7 +306,7 @@ blockquote {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
 
     a {
       i::before {
@@ -716,6 +716,14 @@ footer.sticky-bottom {
       }
 
       div.abstract.hidden.open {
+        border-color: var(--global-text-color);
+      }
+
+      div.talk.hidden {
+        border: dashed 1px var(--global-bg-color);
+      }
+
+      div.talk.hidden.open {
         border-color: var(--global-text-color);
       }
     }

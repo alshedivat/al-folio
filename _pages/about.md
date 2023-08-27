@@ -9,26 +9,10 @@ profile:
   image: Lucas_frailejones.png
   image_circular: false # crops the image to make it circular
   address: >
-    <ul>
-      <li class="email">
-        <i class="fa fa-envelope"></i> l.gomezt (at) uniandes.edu.co
-      </li>
-      <li class="email">
-        <i class="fa fa-envelope"></i> lucasgomeztobon (at) gmail.com
-      </li>
-      <li class="github">
-        <i class="fab fa-github"></i> <a class="a1" href="http://github.com/lgomezt" target="_blank">lgomezt</a>
-      </li>
-      <li class="twitter">
-        <i class="fa-brands fa-twitter"></i> <a class="a1" href="https://twitter.com/LucasAntonioII" target="_blank">LucasAntonioII</a>
-      </li>
-      <li class="instagram">
-        <i class="fab fa-instagram"></i> <a class="a1" href="https://www.instagram.com/lucasgomeztobon/" target="_blank">lucasgomeztobon</a>
-      </li>
-    </ul>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
