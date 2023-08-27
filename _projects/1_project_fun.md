@@ -31,5 +31,70 @@ It is located in the living room of my secondary house. Please, do abstraction o
 
 </div>
 <div class="caption">
-    I bought the wood at the lumber yard. This is really an experience. A lot of wood, a lot of different species, a lot of smells and noises. I chose oak because it is a hard wood and it is beautiful. Had to drive really slowly to go back home. Some pieces were 3 meters long and outside of the trunk of the car.
+    I bought the wood at the lumber yard. This is really an experience. A lot of wood, a lot of different species, a lot of smells and noises. I chose oak because it is a hard and noble wood. Had to drive really slowly to go back home. Some pieces were 3 meters long and outside of the trunk of the car.
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_library/3_rawwood.jpeg" title="Long raw board" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_library/4_cut_to_dimension.jpeg" title="Cutting" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_library/5_shelfglue.jpg" title="Glue" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    I cut the wood to almost the right dimensions and glued the shelves. I had to use a jointer plane to make the shelves perfectly flat and a lot of clamps to glue them together.
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_library/6_shelfglue.jpg" title="Glue" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_library/7_template.jpg" title="Template" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_library/8_template.jpg" title="Template" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    After the glue dried, I made a template to cut the dovetails.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_library/10_shelf.jpg" title="All the shelf together" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_library/11_cutting_shelf.jpg" title="Cutting" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+<div class="caption">
+    All the shelves together before cutting them to the right dimensions.
+</div>
+
+Now it's time for the long board to be done !
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_library/12_marking_longboard.jpg" title="Long board" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_library/13_cutting.jpg" title="Cutting with japonese saw" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_library/14_cutting.jpg" title="Two by Two" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_library/15_cutting_all.jpg" title="Cut them all !" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    I marked the long board and cut it with a japonese saw. Process was quite long. I had to cut 12 dovetails. I used a chisel to remove the wood between the dovetails. I had to be very careful not to make any mistake. I had to cut the dovetails in the right direction. It's work needing to be very precise with a lot of patient. One milimeter of mistake and the dovetails won't fit together.
 </div>
