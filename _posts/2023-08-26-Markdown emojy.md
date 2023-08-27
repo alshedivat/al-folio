@@ -6,7 +6,8 @@ description: Markdown Cheatsheet emoji
 tags: markdown emoji
 categories: sample-posts
 featured: true
-
+toc:
+  sidebar: left
 ---
 
 This Markdown cheat sheet emoji is from [rxaviers](https://gist.github.com/rxaviers/7360908) but customized to my needs.
