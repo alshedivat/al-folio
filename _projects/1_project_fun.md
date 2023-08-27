@@ -107,5 +107,5 @@ It is located in the living room of my secondary house. Please, do abstraction o
     </div>
 </div>
 <div class="caption">
-    Nevermind the mess ! I assembled the library and put it in place. I had to use a mallet to make the dovetails fit together. My half was very scheptical about the strength of the library without nails, glue or screw. She did the first assembly. WE used a lot of patience to make it perfect.
+    Nevermind the mess ! I assembled the library and put it in place. I had to use a mallet to make the dovetails fit together. My other half was very skeptical about the strength of the library without nails, glue or screw. She did the first assembly. WE used a lot of patience to make it perfect.
 </div>
