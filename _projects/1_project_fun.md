@@ -23,10 +23,10 @@ It is located in the living room of my secondary house. Please, do abstraction o
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project_library/1_buyingwood_at_the_lumberyard.jpg" title="Lumber Yard" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_library/1_buyingwood_at_the_lumberyard.jpg" title="Lumber Yard" style="width:300px;height:500px rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project_library/2_car_wood.jpg" title="A little bit of wood" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_library/2_car_wood.jpg" title="A little bit of wood" style="width:300px;height:500px rounded z-depth-1" %}
     </div>
 
 </div>
