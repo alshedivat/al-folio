@@ -114,7 +114,7 @@ ga4_analytics: G-RG7FLN75KB    #This is your GA4 measurement ID
 google_analytics:  G-RG7FLN75KB # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
-google_site_verification:  # your google-site-verification ID (Google Search Console)
+google_site_verification: gzR20KKJhfB18AhpL7OGAfxROXpQkol1xxRLjQhfXh # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
