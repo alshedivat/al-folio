@@ -1,7 +1,7 @@
 ---
 layout: page
 title: An oak library
-description: building a library
+description: Building a library
 img: assets/img/projects_preview/etagere_thumbnail.jpg
 importance: 1
 category: fun
@@ -39,9 +39,6 @@ It is located in the living room of my secondary house. Please, do abstraction o
         {% include figure.html path="assets/img/project_library/3_rawwood.jpeg" title="Long raw board" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project_library/4_cut_to_dimension.jpeg" title="Cutting" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/project_library/5_shelfglue.jpg" title="Glue" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
@@ -69,18 +66,17 @@ It is located in the living room of my secondary house. Please, do abstraction o
         {% include figure.html path="assets/img/project_library/10_shelf.jpg" title="All the shelf together" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
+<div class="caption">
+    All the shelves together before cutting them to the right dimensions. Now it's time for the long board to be done !
+</div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/project_library/11_cutting_shelf.jpg" title="Cutting" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-
 <div class="caption">
-    All the shelves together before cutting them to the right dimensions.
+    Now it's time for the long board to be done !
 </div>
-
-Now it's time for the long board to be done !
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/project_library/12_marking_longboard.jpg" title="Long board" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -97,4 +93,19 @@ Now it's time for the long board to be done !
 </div>
 <div class="caption">
     I marked the long board and cut it with a japonese saw. Process was quite long. I had to cut 12 dovetails. I used a chisel to remove the wood between the dovetails. I had to be very careful not to make any mistake. I had to cut the dovetails in the right direction. It's work needing to be very precise with a lot of patient. One milimeter of mistake and the dovetails won't fit together.
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_library/16_assembly.jpg" title="Assembly" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_library/17_final.jpg" title="Final night" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_library/18_final.jpg" title="Final day" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Nevermind the mess ! I assembled the library and put it in place. I had to use a mallet to make the dovetails fit together. My half was very scheptical about the strength of the library without nails, glue or screw. She did the first assembly. WE used a lot of patience to make it perfect.
 </div>
