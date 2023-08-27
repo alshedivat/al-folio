@@ -7,7 +7,7 @@ importance: 1
 category: work
 ---
 
-A Web App that matches you with a contractor before buying a condominium, helping you estimate renovation budgets.
+A Web App that matches you with a contractor before buying a condominium, helping you estimate renovation budgets. It was done during the bootcamp at [Le Wagon](https://www.lewagon.com/) in june 2023.
 
 This project was done in collaboration with [Céline Chader](https://github.com/celine-chader/), [Amal Rabbani](https://github.com/AmalRabbani), [Stéphanie Bourdillon](https://github.com/Boubouboubs/) and [Thomas Desmoulins](https://github.com/TDesmoul?tab=overview&from=2020-12-01&to=2020-12-31)  a webiste that helps people estimate renovation budgets before buying a condominium.
 
