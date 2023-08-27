@@ -4,19 +4,23 @@
   <li class="list-group-item">
     <div class="row">
       <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
-        {% if content.startDate %}
+        {% if content.startDate and content.startDate!="" %}
         {% assign startDate = content.startDate | split: "-" | slice: 0,2 | join: "." %}
         {% assign endDate   = content.endDate   | split: "-" | slice: 0,2 | join: "." | default: "Present" %}
         {% assign date = startDate | append: " - "%}
         {% assign date = date | append: endDate %}
         {% else %}
-        {% assign date = "" %}
+        {% assign date = null %}
         {% endif %}
         <table class="table-cv">
           <tbody>
             <tr>
               <td>
-                <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">{{date}}</span>
+                {% if date %}
+                <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
+                {{date}}
+                </span>
+                {% endif %}
               </td>
             </tr>
             {% if content.location %}
