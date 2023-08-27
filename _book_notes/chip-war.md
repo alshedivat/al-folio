@@ -4,7 +4,7 @@ title: Chip War
 date: 2023-08-09
 description: Chris Miller
 img: assets/books/chip-war.jpg
-importance: 4
+importance: 1
 category: technology history
 giscus_comments: false
 related_posts: false

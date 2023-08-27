@@ -4,7 +4,7 @@ title: The Righteous Mind
 date: 2023-08-09
 description: Jonathan Haidt
 img: assets/books/the-righteous-mind.jpg
-importance: 2
+importance: 1
 category: psychology
 giscus_comments: false
 related_posts: false
@@ -165,36 +165,11 @@ Haidt's explanation: innate (as set of evolved intuitions) and learned (as child
     - When the free rider problem is muted at one level of the biological hierarchy, larger and more powerful vehicles arise at the next level in the hierarchy, with properties such as division of labor, cooperation, and altruism within the group
 - Shared intentionality generates moral matrices
     - Ability to share intentions and other mental representations enabled early humans to collaborate, divide labor, and develop shared norms for judging earch other's behavior (beginning of moral matrices)
-    - Some of the six foundations of morality have convincing explanations in group selection
+    - Some of the six foundations of morality have explanations through group selection
 - Genes and culture coevolve
     - Example: it gave us a set of tribal instincts, we love to mark group membership and we cooperate preferentially with members of our group
 - Evolution can be fast
     - Example: fox domestication in a few dozen generations by selecting for most human-friendly animals
     - Human evolution did not stop or slow down 50000 years ago, it sped up, reaching it's highest speed in the least 12000 years with sedentary agricultural civilizations
-- Group selection is still very controversial (see Pinker) but some human psychological traits present in the loyalty/betrayal moral foundation (loyalty, patriotism, self-sacrifice) don't have any other convincing explanation
 
-## We are 90% chimp and 10% bees
-
-We evolved to live in groups, our minds were designed not only to help us win the competition within our groups but to help us unite with those in our group to win competitions across groups - group selection is still debated in biology, but how else to explain our tribal instincts?
-
-Religion has to do at least as much with belonging as it has to do with believing
-- A plausible hypothesis supported by research is that it evolved genetically and culturally to help groups bind. Once any person, book or principle is declared sacred, then devotees can no longer question it or think clearly about it
-- American religious people are more generous with their time and money, especially in helping the needy, and they are more active in community life
-- The moral benefits of religion come from religious belongingness, not religious believing (supported by research)
-
-Genetics largely explain political attitudes
-- According to twin studies, genetics explain between a third and half of the variability among people on their political attitudes. Being raised in a liberal or conservative household accounts for much less
-- Three steps process
-    1. Genes make brains
-        - Pleasure for novelty, variety and diversity (higher for liberals)
-        - Sensitivity to signs of threat (lower for liberals)
-    2. Traits guide children along different paths
-    3. People construct life narratives
-        - Kahneman's narrative fallacy
-
-How to make an organization more hivish, happy and productive 
-- Increase similarity, not diversity: celebrate the group's shared values and common identity
-- Exploit synchrony (people moving together): synchrony builds trust (e.g Toyota company-wide exercises, or a less creepy option company karaoke or dance party)
-- Create healthy competition among teams, not individuals: intergroup competition increases love for the in-group far more than it increases dislike of the out-group
-
-Liberals often fail to see the value of moral capital, while conservatives value it highly. Moral capital is the degree to which a community possesses interlocking sets of values, virtues, norms, practices, identities, institutions, and technologies that enable the community to regulate selfishness and make cooperation possible
+Caveat: Group selection is still very controversial (see Steven Pinker's rebuttal). I personally find the explanations and evidence for it pretty unconvincing

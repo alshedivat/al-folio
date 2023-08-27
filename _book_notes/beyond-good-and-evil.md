@@ -4,7 +4,7 @@ title: Beyond Good and Evil and The Genealogy of Morals
 date: 2023-08-09
 description: Friedrich Nietzsche
 img: assets/books/beyond-good-and-evil.jpg
-importance: 3
+importance: 2
 category: personal philosophy
 giscus_comments: false
 related_posts: false
@@ -24,20 +24,3 @@ toc:
 - The overman is defined in contradiction to
     - destructive nihilism 
     - the individual who inherits pre-baked values (in particular morality: what is good or bad/evil) from others (religion, culture)
-    - in particular, the devout Christian whose morality is defined by the Church / God, it suppresses fully living this life (feeling bad about being a sinner, what a total waste of life), leading to resentment towards others who express themselves fully, in favor of a hypothetical future life in paradise
-    - at the worse point in Europe’s history, the herd mentality thinks that Christian morality is the one true morality and all those who disagree are wrong and should be corrected/punished (crusades against Muslims, Christian/Protestant wars, conquest of South America by Spain, etc.)
-- There’s a lot more to unpack here on the “master” vs. “slave/herd” morality
-    - Master morality
-        - good = noble, potent, capable
-        - bad = contemptible, impotent, incapable
-    - Slave/herd morality
-        - good = loving, kindness, pity, non threatening
-        - bad = evil
-        - emerged by opposition to master morality, does not stand on its own
-    - In Nietzsche's mind, Master morality is exemplified by ancient Greece and slave morality by Christianity; the [wikipedia page](https://en.wikipedia.org/wiki/Master%E2%80%93slave_morality) is very good
-- It’s harder to get a clear positive description of an overman
-    - Maybe he avoids being prescriptive to leave more room for the reader to be creative in the process of becoming
-    - The few examples he gives are great military leaders like Cesar or Napoleon, who I understand to be largely driven by ego: the desire to be recognized as great by their contemporaries and future generations
-    - This leads to easily misunderstanding his “will to power” concept as being a literal thirst for power in the conventional sense of the term
-    - But the concept of will to power and overman is much broader than this and could be applied to any set of values that is creative, positive, and “embraces life”
-    - My working definition: human beings who build their own path that is creative, affirmative, passionate, disciplined
