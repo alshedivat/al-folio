@@ -4,7 +4,7 @@ title: Coin Travaux
 description: a project with a background image
 img: assets/img/projects_preview/coin_travaux.jpg
 importance: 1
-category: Projects
+category: work
 ---
 
 Every project has a beautiful feature showcase page.
