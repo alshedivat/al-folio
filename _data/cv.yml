@@ -86,16 +86,9 @@
 - title: Other interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: CAD /CAO
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Fusion 360 for 3D modeling and 3D printing or CNC
+    - title: Woodworking
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: time_table #list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Making furnitures for myself and others
