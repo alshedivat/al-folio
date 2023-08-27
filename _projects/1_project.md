@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 1
+title: Coin Travaux
 description: a project with a background image
-img: assets/img/12.jpg
+img: assets/img/projects_preview/coin_travaux.jpg
 importance: 1
-category: work
-related_publications: einstein1956investigations, einstein1950meaning
+category: Projects
 ---
 
 Every project has a beautiful feature showcase page.
