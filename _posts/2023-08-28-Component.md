@@ -116,65 +116,145 @@ toc:
 ````
 ---
 
-<nav class="nav nav-pills" id="pills-tab" role="tablist">
-  <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Html</a>
-  <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Css</a>
-</nav>
-<div class="tab-content" id="pills-tabContent">
-  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-  ````markdown
-  ```html
-    <a class="btn btn-ghost" href="#">Write a story</a>
-    <a class="btn btn-flat" href="#">Book now</a>
-    <a class="btn btn-gradient" href="#">Start now</a>
-  ```
-  ````
-  </div>
-  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-    ````markdown
-    ```css
-    .btn-ghost {
-      color: #4A4A4A;
-      border: 1px solid #4A4A4A;
-      padding: 8px 24px;
-      border-radius: 50px;
-      font-weight: lighter;
-      opacity: 0.6;
-      transition: opacity 0.3s ease;
-    }
+# Card category
 
-    .btn-ghost:hover {
-      opacity: 1;
-    }
+<div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+  Breakfast
+</div>
 
-    .btn-flat {
-      color: white;
-      padding: 8px 24px;
-      border-radius: 4px;
-      background: #670BFF;
-      transition: background 0.3s ease;
-    }
+````markdown
+```html
+<div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+  Breakfast
+```
+````
 
-    .btn-flat:hover {
-      background: #4D04C4;
-      color: white;
-    }
+````markdown
+```css
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+```
+````
+---
 
-    .btn-gradient {
-      color: white;
-      padding: 8px 24px;
-      border-radius: 4px;
-      font-weight: bold;
-      background: linear-gradient(#167FFB, #0F60C4);
-      transition: background 0.3s ease;
-      border: 1px solid #0F60C4;
-    }
-
-    .btn-gradient:hover {
-      background: linear-gradient(#147EFF, #0F67DA);
-      color: white;
-    }
-    ```
-    ````
+<div class="card-product">
+  <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+  <div class="card-product-infos">
+    <h2>Product name</h2>
+    <p>Product description with <strong>relevant info</strong> only.</p>
   </div>
 </div>
+
+````markdown
+```html
+<div class="card-product">
+  <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+  <div class="card-product-infos">
+    <h2>Product name</h2>
+    <p>Product description with <strong>relevant info</strong> only.</p>
+  </div>
+</div>
+```
+````
+
+````markdown
+```css
+.card-product {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+}
+
+.card-product img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-product h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-product p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
+}
+```
+````
+---
+
+# Search bar
+
+<form novalidate="novalidate" class="simple_form search" action="/" accept-charset="UTF-8" method="get">
+  <div class="search-form-control form-group">
+    <input class="form-control string required" type="text" name="search[query]" id="search_query" />
+    <button name="button" type="submit" class="btn btn-flat">
+      <i class="fas fa-search"></i> Search
+    </button>
+  </div>
+</form>
+
+````markdown
+```html
+<form novalidate="novalidate" class="simple_form search" action="/" accept-charset="UTF-8" method="get">
+  <div class="search-form-control form-group">
+    <input class="form-control string required" type="text" name="search[query]" id="search_query" />
+    <button name="button" type="submit" class="btn btn-flat">
+      <i class="fas fa-search"></i> Search
+    </button>
+  </div>
+</form>
+```
+````
+
+````markdown
+```css
+.search-form-control {
+  position: relative;
+}
+
+.search-form-control .btn {
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  right: 8px;
+}
+
+.search-form-control .form-control {
+  height: 3.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  border: 1px solid #E7E7E7;
+}
+
+.search-form-control .form-control:focus {
+  border: 1px solid #1EDD88;
+  outline: none !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+```
+````
+
