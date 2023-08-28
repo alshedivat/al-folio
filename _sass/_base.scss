@@ -1322,8 +1322,8 @@ box-shadow: 0 0 15px rgba(0,0,0,0.2);
 
 // Extra large devices (large desktops, 1200px and up)
 .background-note {
-  width: max-content;
+  width: content;
   background: #009578;
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
 }
