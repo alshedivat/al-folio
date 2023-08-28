@@ -11,7 +11,7 @@ A Web App that matches you with a contractor before buying a condominium, helpin
 
 This project was done in collaboration with [Céline Chader](https://github.com/celine-chader/), [Amal Rabbani](https://github.com/AmalRabbani), [Stéphanie Bourdillon](https://github.com/Boubouboubs/) and [Thomas Desmoulins](https://github.com/TDesmoul?tab=overview&from=2020-12-01&to=2020-12-31)  a webiste that helps people estimate renovation budgets before buying a condominium.
 
-- The website is available [here](https://coin-travaux.site).
+- The website is available [here](https://www.coin-travaux.site).
 
 - You can find the repository [here](https://github.com/DsWagon/coin_travaux)
 
