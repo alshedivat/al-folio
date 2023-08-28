@@ -14,7 +14,7 @@ It is located in the living room of my secondary house. Please, do abstraction o
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project_library/0_shcema_etagere.jpg" class="img-fluid rounded z-depth-1" height= "50%" width="50%" zoomable=true %}
+        {% include figure.html path="assets/img/project_library/0_shcema_etagere.jpg" class="img-fluid rounded z-depth-1" height= "50%" width="50%" align="center" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -63,7 +63,7 @@ It is located in the living room of my secondary house. Please, do abstraction o
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project_library/10_shelf.jpg" title="All the shelf together" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/project_library/10_shelf.jpg" title="All the shelf together" size="50%" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
