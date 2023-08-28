@@ -154,7 +154,7 @@ toc:
 <div class="card-product">
   <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
   <div class="card-product-infos">
-    <h2>Product name</h2>
+    <p>Product name</p>
     <p>Product description with <strong>relevant info</strong> only.</p>
   </div>
 </div>
@@ -164,7 +164,7 @@ toc:
 <div class="card-product">
   <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
   <div class="card-product-infos">
-    <h>Product name</h>
+    <p>Product name</p>
     <p>Product description with <strong>relevant info</strong> only.</p>
   </div>
 </div>
@@ -265,7 +265,7 @@ toc:
 
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
   <div class="container">
-    <h1>Le Wagon brings <strong>tech skills</strong> to <strong>creative people</strong>!</h1>
+    <p>Le Wagon brings <strong>tech skills</strong> to <strong>creative people</strong>!</p>
     <p>Change your life and learn to code at one of our campuses around the world.</p>
     <a class="btn btn-flat" href="#">Apply now</a>
   </div>
@@ -275,7 +275,7 @@ toc:
 ```html
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
   <div class="container">
-    <h1>Le Wagon brings <strong>tech skills</strong> to <strong>creative people</strong>!</h1>
+    <p>Le Wagon brings <strong>tech skills</strong> to <strong>creative people</strong>!</p>
     <p>Change your life and learn to code at one of our campuses around the world.</p>
     <a class="btn btn-flat" href="#">Apply now</a>
   </div>
@@ -315,7 +315,7 @@ toc:
   <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
   <div class="card-trip-infos">
     <div>
-      <h2>Title here</h2>
+      <p>Title here</p>
       <p>Short description here!</p>
     </div>
     <h2 class="card-trip-pricing">£99.99</h2>
@@ -329,10 +329,10 @@ toc:
   <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
   <div class="card-trip-infos">
     <div>
-      <h>Title here</h>
+      <p>Title here</p>
       <p>Short description here!</p>
     </div>
-    <h class="card-trip-pricing">£99.99</h>
+    <p class="card-trip-pricing">99.99</p>
     <img src="https://scontent.fcdg2-1.fna.fbcdn.net/v/t31.18172-8/464710_10151468301110945_346348306_o.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=F1Ayjb6EVFwAX_iYQ0N&_nc_ht=scontent.fcdg2-1.fna&oh=00_AfC_1bRREmjn_x501Xy2Kna9fIDPcnL0sGQhsU8R8e_BcQ&oe=65145FF7" class="card-trip-user avatar-bordered" />
   </div>
 </div>
