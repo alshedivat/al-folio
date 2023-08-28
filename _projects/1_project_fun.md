@@ -40,7 +40,7 @@ It is located in the living room of my secondary house. Please, do abstraction o
 <center>
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project_library/3_rawwood.jpeg" title="Long raw board" class="img-fluid rounded z-depth-1" height= "50%" width="50%" zoomable=true %}
+        {% include figure.html path="assets/img/project_library/3_rawwood.jpeg" title="Long raw board" class="img-fluid rounded z-depth-1" height="25%" width="25%" zoomable=true %}
     </div>
 </div>
 </center>
@@ -69,10 +69,10 @@ It is located in the living room of my secondary house. Please, do abstraction o
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project_library/10_shelf.jpg" title="All the shelf together" class="img-fluid rounded z-depth-1" height= "50%" width="50%" zoomable=true %}
+        {% include figure.html path="assets/img/project_library/10_shelf.jpg" title="All the shelf together" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project_library/11_cutting_shelf.jpg" title="Cutting" class="img-fluid rounded z-depth-1" height= "50%" width="50%" zoomable=true %}
+        {% include figure.html path="assets/img/project_library/11_cutting_shelf.jpg" title="Cutting" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
