@@ -11,10 +11,11 @@ This bookshelf is made of oak. It was built in 2023 during the summer after the 
 
 
 It is located in the living room of my secondary house. Please, do abstraction of the mess around it. I am still working on the house.
-
+<center>
 <div class="row justify-content-center align-items-center">
     {% include figure.html path="assets/img/project_library/0_shcema_etagere.jpg" class="img-fluid rounded z-depth-1" height= "50%" width="50%" zoomable=true %}
 </div>
+</center>
 
 <div class="caption">
     Firstly, I made a sketch of the library on Fusion 360, helping me to calculate the dimensions of the different parts that i needed.
@@ -60,19 +61,23 @@ It is located in the living room of my secondary house. Please, do abstraction o
     After the glue dried, I made a template to cut the dovetails.
 </div>
 
+<center>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/project_library/10_shelf.jpg" title="All the shelf together" class="img-fluid rounded z-depth-1" height= "50%" width="50%" zoomable=true %}
     </div>
 </div>
+</center>
 <div class="caption">
     All the shelves together before cutting them to the right dimensions.
 </div>
+<center>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/project_library/11_cutting_shelf.jpg" title="Cutting" class="img-fluid rounded z-depth-1" height= "50%" width="50%" zoomable=true %}
     </div>
 </div>
+</center>
 <div class="caption">
     Now it's time for the long board to be done !
 </div>
