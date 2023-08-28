@@ -12,6 +12,8 @@ This bookshelf is made of oak. It was built in 2023 during the summer after the 
 
 It is located in the living room of my secondary house. Please, do abstraction of the mess around it. I am still working on the house.
 
+<img align="center" width="100" height="100" src="assets/img/project_library/0_shcema_etagere.jpg">
+
 <div class="row justify-content-center align-items-center">
     {% include figure.html path="assets/img/project_library/0_shcema_etagere.jpg" class="img-fluid rounded z-depth-1" height= "50%" width="50%" align="center" zoomable=true %}
 </div>
