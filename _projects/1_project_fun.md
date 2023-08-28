@@ -95,8 +95,8 @@ It is located in the living room of my secondary house. Please, do abstraction o
     I marked the long board and cut it with a japonese saw. Process was quite long. I had to cut 12 dovetails. I used a chisel to remove the wood between the dovetails. I had to be very careful not to make any mistake. I had to cut the dovetails in the right direction. It's work needing to be very precise with a lot of patient. One milimeter of mistake and the dovetails won't fit together.
 </div>
 
-<div class="row justify-content-sm-center">
-        {% include figure.html path="assets/img/project_library/16_assembly.jpg" title="Assembly" height= "50%" width="50%" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="row mt-3">
+        {% include figure.html path="assets/img/project_library/16_assembly.jpg" title="Assembly" align="center"height= "50%" width="50%" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 
 <div class="caption">
