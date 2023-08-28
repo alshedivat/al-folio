@@ -21,13 +21,17 @@ It is located in the living room of my secondary house. Please, do abstraction o
     Firstly, I made a sketch of the library on Fusion 360, helping me to calculate the dimensions of the different parts that i needed.
 </div>
 
-<div class="row justify-content-sm-center">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project_library/1_buyingwood_at_the_lumberyard.jpg" title="Lumber Yard" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_library/1_1_lumberyard.jpg" title="Lumberyard" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project_library/2_car_wood.jpg" title="A little bit of wood" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_library/1_2_lumberyard.jpg" title="Inside" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_library/2_car_wood.jpg" title="Car wood" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
 </div>
 <div class="caption">
@@ -42,6 +46,7 @@ It is located in the living room of my secondary house. Please, do abstraction o
         {% include figure.html path="assets/img/project_library/5_shelfglue.jpg" title="Glue" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
+
 <div class="caption">
     I cut the wood to almost the right dimensions and glued the shelves. I had to use a jointer plane to make the shelves perfectly flat and a lot of clamps to glue them together.
 </div>
