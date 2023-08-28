@@ -1035,11 +1035,10 @@ nav[data-toggle="toc"] {
   }
 }
 
-div.card-work {
-  .card-body {
-    background-color : grey;
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: 0 10px 30px rgba(0,0,0,.1);
-  }
+.boxmodel {
+padding: 1px 10px 9px;
+text-align: center;
+color: #fff;
+line-height: 18px;
+background-color: #B4CFE1;
 }
