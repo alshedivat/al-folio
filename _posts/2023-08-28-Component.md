@@ -525,3 +525,43 @@ toc:
 ```
 ````
 ---
+# Background note
+
+<div class="background-note">note</div>
+
+````markdown
+```html
+<div class="background-note">note</div>
+```
+````
+
+````markdown
+```css
+.background-note {
+  width: content;
+  background: #009578;
+  padding: 5px;
+  border-radius: 5px;
+}
+```
+````
+
+<div class="background-note-max">note</div>
+
+  ````markdown
+  ```html
+  <div class="background-note-max">note</div>
+  ```
+  ````
+
+  ````markdown
+  ```css
+  .background-note-max {
+  width: content;
+  background: #009578;
+  padding: 5px;
+  border-radius: 5px;
+}
+```
+````
+---
