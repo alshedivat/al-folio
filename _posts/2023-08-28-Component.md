@@ -545,6 +545,7 @@ toc:
 }
 ```
 ````
+---
 
 <div class="background-note-max">note</div>
 
@@ -557,7 +558,7 @@ toc:
   ````markdown
   ```css
   .background-note-max {
-  width: content;
+  width: max-content;
   background: #009578;
   padding: 5px;
   border-radius: 5px;
