@@ -1034,3 +1034,12 @@ nav[data-toggle="toc"] {
     padding-top: 0.5rem;
   }
 }
+
+div.card-work {
+  .card-body {
+    background-color : grey;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  }
+}
