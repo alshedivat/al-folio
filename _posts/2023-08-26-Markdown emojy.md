@@ -3,8 +3,8 @@ layout: post
 title: Markdown Emoji
 date: 2023-08-26
 description: Markdown Cheatsheet emoji
-tags: markdown emoji
-categories: sample-posts
+tags: markdown emoji code
+categories: code
 featured: true
 toc:
   sidebar: left
