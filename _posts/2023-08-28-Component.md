@@ -318,7 +318,7 @@ toc:
       <p>Title here</p>
       <p>Short description here!</p>
     </div>
-    <h2 class="card-trip-pricing">£99.99</h2>
+    <p class="card-trip-pricing">99.99</p>
     <img src="https://scontent.fcdg2-1.fna.fbcdn.net/v/t31.18172-8/464710_10151468301110945_346348306_o.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=F1Ayjb6EVFwAX_iYQ0N&_nc_ht=scontent.fcdg2-1.fna&oh=00_AfC_1bRREmjn_x501Xy2Kna9fIDPcnL0sGQhsU8R8e_BcQ&oe=65145FF7" class="card-trip-user avatar-bordered" />
   </div>
 </div>
