@@ -33,6 +33,7 @@ It is located in the living room of my secondary house. Please, do abstraction o
     </div>
 </div>
 
+
 </div>
 <div class="caption">
     I bought the wood at the lumber yard. This is really an experience. A lot of wood, a lot of different species, a lot of smells and noises. I chose oak because it is a hard and noble wood. Had to drive really slowly to go back home. Some pieces were 3 meters long and outside of the trunk of the car.
