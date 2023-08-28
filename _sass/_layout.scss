@@ -30,6 +30,7 @@ body.sticky-bottom-footer {
 .profile {
   img {
     width: 100%;
+    border-radius: 5px;
   }
 }
 
@@ -48,3 +49,17 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+
+/*****************************************************************************
+* My own
+*****************************************************************************/
+
+.card-work {
+  .card-body {
+    background: grey;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  }
+}

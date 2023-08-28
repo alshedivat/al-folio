@@ -53,7 +53,7 @@ Today, I'm actively seeking an opportunity as a Junior Developer.
 ### :hammer_and_wrench: Stack :
 
 <div>
-HTML, CSS, JavaScript, Ruby, Rails, Python, Bootstrap, SQLite, SQL, PostgreSQL, Git, Github, Heroku, VS Code, Sublime Text, Figma, 3D Printing, Laser Cutting, CNC Milling, Woodworking, Metalworking, Soldering.
+HTML, CSS, JavaScript, Ruby, Rails, Python, Bootstrap, SQLite, SQL, PostgreSQL, Heroku, Figma.
 </div>
 
 ---
