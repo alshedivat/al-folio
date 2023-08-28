@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ror
-date: 2023-08-29
+date: 2023-08-28
 description: Ror basics
 tags: ror ruby code
 categories: code
