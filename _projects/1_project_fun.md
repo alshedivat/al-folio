@@ -1,13 +1,13 @@
 ---
 layout: page
-title: An oak library
-description: Building a library
+title: An oak bookshelf
+description: Building a bookshelf
 img: assets/img/projects_preview/etagere_thumbnail.jpg
 importance: 1
 category: fun
 ---
 
-This library is made of oak. It was built in 2023 during the summer after the bootcamp. It takes me 7 days full-time to build it. 2 meters high, 1.15 meter wide and 26 centimeters deep, it has 6 shelves. No screws, no glue, only dovetails. it was quite a challenge to build it. No mistakes were allowed.
+This bookshelf is made of oak. It was built in 2023 during the summer after the bootcamp. It takes me 7 days full-time to build it. 2 meters high, 1.15 meter wide and 26 centimeters deep, it has 6 shelves. No screws, no glue, only dovetails. it was quite a challenge to build it. No mistakes were allowed.
 
 
 It is located in the living room of my secondary house. Please, do abstraction of the mess around it. I am still working on the house.
