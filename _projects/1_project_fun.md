@@ -12,11 +12,10 @@ This bookshelf is made of oak. It was built in 2023 during the summer after the 
 
 It is located in the living room of my secondary house. Please, do abstraction of the mess around it. I am still working on the house.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project_library/0_shcema_etagere.jpg" class="img-fluid rounded z-depth-1" height= "50%" width="50%" align="center" zoomable=true %}
-    </div>
+<div class="row justify-content-center align-items-center">
+    {% include figure.html path="assets/img/project_library/0_shcema_etagere.jpg" class="img-fluid rounded z-depth-1" height= "50%" width="50%" align="center" zoomable=true %}
 </div>
+
 <div class="caption">
     Firstly, I made a sketch of the library on Fusion 360, helping me to calculate the dimensions of the different parts that i needed.
 </div>
@@ -63,7 +62,7 @@ It is located in the living room of my secondary house. Please, do abstraction o
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project_library/10_shelf.jpg" title="All the shelf together" size="50%" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/project_library/10_shelf.jpg" title="All the shelf together" class="img-fluid rounded z-depth-1" height= "50%" width="50%" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -71,7 +70,7 @@ It is located in the living room of my secondary house. Please, do abstraction o
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project_library/11_cutting_shelf.jpg" title="Cutting" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/project_library/11_cutting_shelf.jpg" title="Cutting" class="img-fluid rounded z-depth-1" height= "50%" width="50%" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -95,8 +94,8 @@ It is located in the living room of my secondary house. Please, do abstraction o
     I marked the long board and cut it with a japonese saw. Process was quite long. I had to cut 12 dovetails. I used a chisel to remove the wood between the dovetails. I had to be very careful not to make any mistake. I had to cut the dovetails in the right direction. It's work needing to be very precise with a lot of patient. One milimeter of mistake and the dovetails won't fit together.
 </div>
 
-<div class="row mt-3">
-        {% include figure.html path="assets/img/project_library/16_assembly.jpg" title="Assembly" align="center" height= "50%" width="50%" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="row justify-content-center align-items-center">
+        {% include figure.html path="assets/img/project_library/16_assembly.jpg" title="Assembly" height= "50%" width="50%" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 
 <div class="caption">
