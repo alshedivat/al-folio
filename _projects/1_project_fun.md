@@ -12,10 +12,8 @@ This bookshelf is made of oak. It was built in 2023 during the summer after the 
 
 It is located in the living room of my secondary house. Please, do abstraction of the mess around it. I am still working on the house.
 
-<img align="center" width="100" height="100" src="assets/img/project_library/0_shcema_etagere.jpg">
-
 <div class="row justify-content-center align-items-center">
-    {% include figure.html path="assets/img/project_library/0_shcema_etagere.jpg" class="img-fluid rounded z-depth-1" height= "50%" width="50%" align="center" zoomable=true %}
+    {% include figure.html path="assets/img/project_library/0_shcema_etagere.jpg" class="img-fluid rounded z-depth-1" height= "50%" width="50%" zoomable=true %}
 </div>
 
 <div class="caption">
@@ -96,9 +94,11 @@ It is located in the living room of my secondary house. Please, do abstraction o
     I marked the long board and cut it with a japonese saw. Process was quite long. I had to cut 12 dovetails. I used a chisel to remove the wood between the dovetails. I had to be very careful not to make any mistake. I had to cut the dovetails in the right direction. It's work needing to be very precise with a lot of patient. One milimeter of mistake and the dovetails won't fit together.
 </div>
 
-<div class="row justify-content-center align-items-center">
-        {% include figure.html path="assets/img/project_library/16_assembly.jpg" title="Assembly" height= "50%" width="50%" class="img-fluid rounded z-depth-1" zoomable=true %}
-</div>
+<center>
+  <div class="row">
+          {% include figure.html path="assets/img/project_library/16_assembly.jpg" title="Assembly" height= "50%" width="50%" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</center>
 
 <div class="caption">
     Nevermind the mess ! I assembled the library and put it in place. I had to use a mallet to make the dovetails fit together. My other half was very skeptical about the strength of the library without nails, glue or screw. She did the first assembly. WE used a lot of patience to make it perfect.
