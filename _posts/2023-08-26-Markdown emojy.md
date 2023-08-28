@@ -2,7 +2,7 @@
 layout: post
 title: Markdown Emoji
 date: 2023-08-26
-description: Markdown Cheatsheet emoji
+description: Markdown cheatsheet emoji
 tags: markdown emoji code
 categories: code
 featured: true
