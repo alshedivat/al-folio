@@ -114,3 +114,67 @@ toc:
 }
 ```
 ````
+
+<ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Html</a>
+      ````markdown
+      ```html
+      <a class="btn btn-ghost" href="#">Write a story</a>
+      <a class="btn btn-flat" href="#">Book now</a>
+      <a class="btn btn-gradient" href="#">Start now</a>
+      ```
+      ````
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+      ````markdown
+      ```css
+      .btn-ghost {
+        color: #4A4A4A;
+        border: 1px solid #4A4A4A;
+        padding: 8px 24px;
+        border-radius: 50px;
+        font-weight: lighter;
+        opacity: 0.6;
+        transition: opacity 0.3s ease;
+      }
+
+      .btn-ghost:hover {
+        opacity: 1;
+      }
+
+      .btn-flat {
+        color: white;
+        padding: 8px 24px;
+        border-radius: 4px;
+        background: #670BFF;
+        transition: background 0.3s ease;
+      }
+
+      .btn-flat:hover {
+        background: #4D04C4;
+        color: white;
+      }
+
+      .btn-gradient {
+        color: white;
+        padding: 8px 24px;
+        border-radius: 4px;
+        font-weight: bold;
+        background: linear-gradient(#167FFB, #0F60C4);
+        transition: background 0.3s ease;
+        border: 1px solid #0F60C4;
+      }
+
+      .btn-gradient:hover {
+        background: linear-gradient(#147EFF, #0F67DA);
+        color: white;
+      }
+      ```
+      ````
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+</ul>
