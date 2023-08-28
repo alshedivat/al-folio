@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Css
+title: Components
 date: 2023-08-26
 description: Some basics components
 tags: css htmlt code
