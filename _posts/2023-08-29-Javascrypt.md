@@ -13,7 +13,7 @@ toc:
 Javascript is a programming language that conforms to the ECMAScript specification. Javascript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
 
 # Panel testing
-
+  <script src="assets/js/jsmyself/panels.js"></script>
   <div class="panels">
     <div class="panel panel1">
       <p>Keep</p>
@@ -30,15 +30,4 @@ Javascript is a programming language that conforms to the ECMAScript specificati
       <p>To</p>
       <p>Code</p>
     </div>
-    <div class="panel panel4">
-      <p>Trust</p>
-      <p>The</p>
-      <p>Process</p>
-    </div>
-    <div class="panel panel5">
-      <p>Work</p>
-      <p>With</p>
-      <p>Buddies</p>
-    </div>
   </div>
-  <script src="assets/js/jsmyself/panels.js"></script>
