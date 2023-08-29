@@ -1354,7 +1354,7 @@ box-shadow: 0 0 15px rgba(0,0,0,0.2);
   color: #000;
 }
 
-/******************* flexbox *******************/
+/******************* Flexbox *******************/
 .flex-item {
   background-color: red;
 }
@@ -1364,6 +1364,21 @@ box-shadow: 0 0 15px rgba(0,0,0,0.2);
   background-color: blue;
 }
 
+/******************* Bootstrap *******************/
 .bootstrap-test {
   background-color: #009578;
+}
+
+/******************* Grid *******************/
+.grid-test {
+  background-color: #000095;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.grid-element {
+  background-color: #95005c;
+  display: grid;
+  
 }
