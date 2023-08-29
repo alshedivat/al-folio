@@ -10,24 +10,24 @@ toc:
   sidebar: left
 ---
 # Javascript basics
+First, open this [Replit](https://replit.com/@DsWagon/Nodejs).
+
+<p>The Client-side Programming Language
+What’s with the name?
+JavaScript != Java
+JavaScript Version ES6: (Short for ECMAScript Edition 6) released in 2015
+JavaScript vs. Ruby
+Being both OOP languages, JavaScript and Ruby share a lot of commonalities.</p>
+
 <center>
   <div class="row justify-content-center align-items-center">
     {% include figure.html path="assets/img/javascript/function-definition.jpg" class="img-fluid rounded z-depth-1" height= "100%" width="100%" %}
   </div>
 </center>
 
-# Java basics lewagon
-
-The Client-side Programming Language
-What’s with the name?
-JavaScript != Java
-JavaScript Version ES6: (Short for ECMAScript Edition 6) released in 2015
-
-JavaScript vs. Ruby
-Being both OOP languages, JavaScript and Ruby share a lot of commonalities.
 ---
 
-# Declaring variables
+## Declaring variables
 
 You have to say const or let.
 
@@ -591,3 +591,4 @@ button.addEventListener('click', () => {
 # For more
 -  [Codetogo](https://codetogo.io/all/)
 -  [Replit](https://replit.com/@DsWagon/Nodejs)
+-  [CheatsheetJS](https://htmlcheatsheet.com/js/)
