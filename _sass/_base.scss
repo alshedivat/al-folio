@@ -1379,17 +1379,17 @@ box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .grid-element {
+  margin: 5px;
   background-color: #95005c;
   background-size: cover;
   background-position: center;
   height: 150px;
-  border-radius: 1px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   font-size: 22px;
   color: white;
   font-weight: bolder;
-  
+
 }
