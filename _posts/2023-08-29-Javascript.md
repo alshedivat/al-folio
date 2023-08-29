@@ -11,6 +11,14 @@ toc:
 ---
 # Javascript basics
 
+<center>
+<div class="row justify-content-center align-items-center">
+    {% include figure.html path="assets/img/javascript/function-definition.jpg" class="img-fluid rounded z-depth-1" height= "75%" width="75%" %}
+</div>
+</center>
+
+
+
 addeventlistener is a method that takes two arguments, the first is the event type, the second is a function that will be called when the event occurs. example:
 ```javascript
 document.addEventListener('click', function() {
@@ -46,5 +54,3 @@ document.getElementById("myH").innerHTML = "My First Page";
 document.getElementById("myP").innerHTML = "My first paragraph.";
 ```
 ````
-
-
