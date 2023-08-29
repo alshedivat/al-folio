@@ -557,7 +557,7 @@ toc:
 
   ````markdown
   ```css
-  .background-note-max {
+.background-note-max {
   width: max-content;
   background: #009578;
   padding: 5px;
@@ -566,3 +566,29 @@ toc:
 ```
 ````
 ---
+# box vertical text
+
+<div class="box"><p>text</p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500</div>
+
+````markdown
+```html
+<div class="box"><p>text</p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500</div>
+```
+````
+
+
+````markdown
+```css
+.box {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 2rem;
+  border-radius: 2rem;
+  background: white;
+  display: flex;
+}
+
+.box p {
+  writing-mode: vertical-rl;
+}
+```
+````

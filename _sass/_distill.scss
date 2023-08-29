@@ -36,7 +36,7 @@ d-article {
   }
 
   // Style taken from code blocks
-  details {  
+  details {
     color: var(--global-text-color);
     background-color: var(--global-code-bg-color);
     margin-top: 0;
@@ -148,4 +148,16 @@ d-appendix {
       }
     }
   }
+}
+
+.box {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 2rem;
+  border-radius: 2rem;
+  background: white;
+  display: flex;
+}
+
+.box p {
+  writing-mode: vertical-rl;
 }
