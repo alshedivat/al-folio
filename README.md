@@ -109,9 +109,10 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://users.wpi.edu/~lfichera/" target="_blank">★</a>
 <a href="https://anmspro.github.io/" target="_blank">★</a>
 <a href="https://berlyne.net/" target="_blank">★</a>
-<a href="https://filippomazzoli.github.io/">★</a>
-<a href="https://www.escontrela.me/">★</a>
-<a href="https://raffaem.github.io/">★</a>
+<a href="https://filippomazzoli.github.io/" target="_blank">★</a>
+<a href="https://www.escontrela.me/" target="_blank">★</a>
+<a href="https://raffaem.github.io/" target="_blank">★</a>
+<a href="https://cbueth.de/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
