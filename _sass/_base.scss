@@ -1370,7 +1370,8 @@ box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 /******************* Grid *******************/
-.grid-test {
+
+.grid-container {
   background-color: #000095;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -1379,6 +1380,16 @@ box-shadow: 0 0 15px rgba(0,0,0,0.2);
 
 .grid-element {
   background-color: #95005c;
-  display: grid;
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  border-radius: 1px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 22px;
+  color: white;
+  font-weight: bolder;
   
 }
