@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Asst. Prof. & Royal Society Dorothy Hodgkin Fellow
+subtitle: Asst. Professor & Royal Society Dorothy Hodgkin Fellow
 
 profile:
   align: right
