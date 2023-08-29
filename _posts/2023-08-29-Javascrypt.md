@@ -9,8 +9,9 @@ featured: true
 toc:
   sidebar: left
 ---
-<script src="{{ site.baseurl }}{% 'assets/js/jsmyself/panels.js' %}"></script>
-Javascript is a programming language that conforms to the ECMAScript specification. Javascript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
+  <script src="_includes/js/panels.js"></script>
+
+  Javascript is a programming language that conforms to the ECMAScript specification. Javascript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
 
 # Panel testing
   <div class="panels">
