@@ -16,7 +16,7 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi there! I'm Chinmaya Kausik, a rising 2nd year mathematics Ph.D. student at UMich working on **sequential decision making, statistics, optimization and machine learning**. I am being co-advised by [Prof. Ambuj Tewari](https://ambujtewari.github.io/) and [Prof. Martin Strauss](https://web.eecs.umich.edu/~martinjs/).
+Hi there! I'm Chinmaya Kausik, a 3rd year mathematics Ph.D. candidate at UMich working on **sequential decision making, statistics, optimization and machine learning**. I am being co-advised by [Prof. Ambuj Tewari](https://ambujtewari.github.io/) and [Prof. Martin Strauss](https://web.eecs.umich.edu/~martinjs/).
 
 Check out my [papers](papers), [past projects](projects) (along with post-mortems), and [personal interests](personal)!
 
