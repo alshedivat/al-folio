@@ -360,7 +360,234 @@ document.getElementById("myH").innerHTML = "My First Page";
 document.getElementById("myP").innerHTML = "My first paragraph.";
 ```
 ````
+---
 
+# Iterators for each
+
+Array & Objects
+There are many similarities between Arrays in Ruby and JavaScript.
+Only difference is, a Hash is called an Object in JavaScript!
+
+````markdown
+```javascript
+const beatles = ["paul", "john", "ringo", "george"];
+beatles.forEach((beatle) => {
+  console.log(beatle.toUpperCase());
+});
+```
+````
+---
+
+# Generating a list with Javascript
+
+````markdown
+```javascript
+const abba = ['Bjorn', 'Benny', 'Anni-frid', 'Agnetha'];
+let liContent = '';
+
+abba.forEach(member => {
+  liContent += `<li>${member}</li>`;
+});
+
+const ulContent = `<ul>${liContent}</ul>`;
+
+document.body.insertAdjacentHTML('beforeend', ulContent);
+```
+````
+---
+
+# Change the look of our unordered list
+
+````markdown
+```javascript
+// Find all the 'li' elements
+const elements = document.querySelectorAll("li");
+
+// Iterate over each element to update the content
+elements.forEach((element) => {
+  element.innerHTML += '🎵';
+});
+
+// Change the style of the 'ul'
+ul.style.listStyleType = "upper-roman";
+```
+````
+---
+# Dataset
+Custom attributes storing data on any HTML element, accessible through the dataset property.
+
+````markdown
+```javascript
+<li id="agnetha" class="abba" data-instrument="vocals">Agnetha</li>
+const instrument = document.getElementById("agnetha").dataset.instrument;
+// returns "vocals"
+```
+````
+---
+
+# Using multiple data-* attributes
+
+````markdown
+```javascript
+// List of ABBA members
+<ul>
+  <li class="abba" data-instrument="vocals">Agnetha</li>
+  <li class="abba" data-instrument="guitars">Bjorn</li>
+  <li class="abba" data-instrument="keyboards">Benny</li>
+  <li class="abba" data-instrument="vocals">Anni-Frid</li>
+</ul>
+```
+````
+
+Let’s reveal their corresponding instruments using JavaScript!
+
+````markdown
+```javascript
+const abba = document.querySelectorAll('.abba');
+
+abba.forEach((member) => {
+  member.innerHTML += `: ${member.dataset.instrument}`;
+});
+```
+````
+
+# Events
+
+````markdown
+```javascript
+blur
+click
+change
+focus
+keyup
+mouseover
+resize
+scroll
+submit
+touchstart
+```
+````
+---
+
+# Events occur on specific objects
+
+````markdown
+```javascript
+DOMContentLoaded  # document
+blur              # input / textarea
+click             # any visible element
+change            # select
+focus             # any visible element
+keyup             # window / any focused element
+mouseover         # any visible element
+resize            # window
+scroll            # window / any scrollable element
+submit            # form
+touchstart        # for mobile devices
+```
+````
+---
+
+# Event Listener
+Use addEventListener to react to an event.
+
+````markdown
+```javascript
+element.addEventListener(eventType, (event) => {
+  // Do something (callback)
+});
+```
+````
+---
+
+# Listening to a click
+
+````markdown
+```html
+<img src="https://kitt.lewagon.com/placeholder/users/monsieurpaillard"
+     id="romain" height="200" alt="Romain Paillard" />
+```
+````
+
+````markdown
+```javascript
+const romain = document.getElementById("romain");
+romain.addEventListener("click", (event) => {
+  console.log(event);
+  console.log(event.currentTarget);
+});
+```
+````
+---
+
+# Toggle the img-circle CSS class when clicking on these images.
+
+````markdown
+```css
+.img-circle {
+  border-radius: 50%;
+}
+```
+````
+
+````markdown
+```javascript
+With several elements?
+<img src="https://kitt.lewagon.com/placeholder/users/monsieurpaillard"
+     id="romain" height="200" alt="Romain Paillard" />
+<img src="https://kitt.lewagon.com/placeholder/users/Papillard"
+     id="boris" height="200" alt="Boris Paillard" />
+```
+````
+
+````markdown
+```javascript
+document.querySelectorAll("img").forEach((img) => {
+  img.addEventListener("click", (event) => {
+    event.currentTarget.classList.toggle("img-circle");
+  });
+});
+```
+````
+---
+
+# Checkboxes
+Add a form with checkboxes:
+
+````markdown
+```html
+<h1>Choose a pet:</h1>
+<button type="button" class="btn btn-light">Select all</button>
+<form>
+  <div class="form-group">
+    <input type="checkbox" id="cat" class="form-check-input" name="cat" value="Cat">
+    <label for="cat" class="form-check-label"> I have a cat</label><br>
+    <input type="checkbox" id="dog" class="form-check-input" name="dog" value="Dog">
+    <label for="dog" class="form-check-label"> I have a dog</label><br>
+    <input type="checkbox" id="rabbit" class="form-check-input" name="rabbit" value="Rabbit">
+    <label for="rabbit" class="form-check-label"> I have a rabbit</label><br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+<form>
+```
+````
+Select the button, add an Event Listener and code the callback:
+
+
+````markdown
+```javascript
+// application.js
+const button = document.querySelector('.btn-light');
+
+button.addEventListener('click', () => {
+  const checkboxes = document.querySelectorAll('.form-check-input');
+  checkboxes.forEach((checkbox) => {
+    checkbox.checked = !checkbox.checked;
+  });
+});
+```
+````
 ---
 # For more
 -  [Codetogo](https://codetogo.io/all/)
+-  [Replit](https://replit.com/@DsWagon/Nodejs)
