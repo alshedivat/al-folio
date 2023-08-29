@@ -44,15 +44,15 @@ total += 1;
 ````
 ---
 
-# Objects
+## Objects
 
 Ruby calls them hashes, JavaScript calls them objects.
 
 ````markdown
 ```ruby
 const student = {
-  firstName: "Boris",
-  lastName: "Paillard"
+  firstName: "David",
+  lastName: "Serrano"
 }
 ```
 ````
@@ -63,17 +63,18 @@ But JavaScript gives an even shorter syntax for getting/setting values:
 ```javascript
 student.firstName // gets the value "Boris"
 
-student.firstName = "Romain" // sets the value to "Romain"
+student.firstName = "David" // sets the value to "Romain"
 ```
 ````
 JavaScript doesn’t have symbols like Ruby, so objects generally have String keys.
 
 ---
-# if statements
+## if statements
 const age = 17;
 
 `````markdown
 ```javascript
+let age = 30; // const age = 30;
 if (age >= 18) {
   console.log("You can vote");
 } else if (age === 17) {
@@ -86,7 +87,7 @@ if (age >= 18) {
 Note: to check equality, Ruby uses == but JavaScript uses ===
 ---
 
-# Functions
+## Functions
 This is called an arrow function and is how we do things in ES6 💪
 
 ````markdown
@@ -96,7 +97,7 @@ const addition = (param1, param2) => {
   return param1 + param2;
 };
 
-// Calling a function
+// Console this
 addition(10, 5);
 ```
 ````
@@ -117,7 +118,7 @@ function addition(param1, param2){
 
 ---
 
-# Live-code: Capitalize
+{% details Function exemple %}
 
 Let’s livecode an arrow function and store it into capitalize.
 
@@ -128,14 +129,15 @@ const capitalize = (word) => {
   const restOfTheWord = word.substring(1).toLowerCase();
   return `${firstLetter}${restOfTheWord}`;
 };
-
+// Console this
 capitalize("wagon") === "Wagon"
 capitalize("codIng") === "Coding"
 ```
 ````
+{% enddetails %}
+---
 
-
-# Interacting with the DOM
+# NOT WORKING FOR NOW Interacting with the DOM
 The most important method
 ````markdown
 ```javascript
@@ -193,12 +195,10 @@ list.insertAdjacentHTML("beforeend", "<li>Anakin</li>");
 ---
 
 # Selecting from a subset of the DOM
-  - You can call querySelector on any element!
 
 ````markdown
 ```html
 <p class="red">A red paragraph</p>
-
 <ul id="players">
   <li class="green">Luke</li>
   <li class="red">Anakin</li>
@@ -242,7 +242,7 @@ Use the right method
 ```javascript
 const countries = document.querySelector("#fifa-wins li");
 // => <li>Brazil (5 wins)</li>
-// querySelector returns the first element it finds!
+// IMPORTANT querySelector returns the first element it finds!
 ```
 ````
 
@@ -261,17 +261,18 @@ const list = document.querySelector('#fifa-wins');
 list.insertAdjacentHTML('beforeend', '<li>France (2 wins)</li>');
 ```
 ````
+---
 
 # Show / Hide
 Use HTMLElement.style
 
 ````markdown
 ```javascript
-const element = document.querySelector(CSS_SELECTOR);
+const list = document.querySelector('#fifa-wins');
 // Hide
-element.style.display = "none";
+list.style.display = "none";
 // Show
-element.style.display = "";
+list.style.display = "";
 Add / Remove a class
 ```
 ````
@@ -281,9 +282,9 @@ Add / Remove a class
 
 ````markdown
 ```javascript
-element.classList.add("red");
-element.classList.remove("red");
-element.classList.toggle("red");
+list.classList.add("red");
+list.classList.remove("red");
+list.classList.toggle("red");
 ```
 ````
 ---
@@ -324,8 +325,10 @@ home.innerHTML = "Le Wagon <strong>rocks</strong>!"; // Update HTML
 
 
 
----
-addeventlistener is a method that takes two arguments, the first is the event type, the second is a function that will be called when the event occurs. example:
+-----------------------------
+# AddEventListener
+
+Addeventlistener is a method that takes two arguments, the first is the event type, the second is a function that will be called when the event occurs. example:
 ```javascript
 document.addEventListener('click', function() {
   console.log('The document was clicked');
