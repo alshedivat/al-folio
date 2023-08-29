@@ -2,7 +2,6 @@
 layout: post
 title: Javascript
 date: 2023-08-28
-<script src="{{ site.baseurl }}{% assets/js/jsmyself/panels.js %}"></script>
 description: Javascript basics
 tags: javascript code js
 categories: code
