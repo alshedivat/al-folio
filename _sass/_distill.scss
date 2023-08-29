@@ -154,10 +154,12 @@ d-appendix {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   padding: 2rem;
   border-radius: 2rem;
-  background: white;
+  background: grey;
   display: flex;
+  color: #000;
 }
 
 .box p {
   writing-mode: vertical-rl;
+  color: #000;
 }
