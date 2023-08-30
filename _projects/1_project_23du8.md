@@ -17,7 +17,6 @@ Le 23du8 est un site pour une copropriété. Il permet de gérer les documents, 
 `Differentiator`: Améliorer la communication entre les différents acteurs de la copropriété.
 
 # User stories
-## Copropriétaire
 - En tant que copropriétaire, je veux pouvoir me connecter au site.
 
 - En tant que copropriétaire, je veux pouvoir voir les `informations de la copropriété`.
