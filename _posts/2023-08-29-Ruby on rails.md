@@ -28,10 +28,9 @@ Before jumping right into the code, first you have to think a bit about what def
 ```bash
 cd/user/code
 rails new \
-  --database postgresql \
-  --javascript webpack \
-  --template https://raw.githubusercontent.com/lewagon/rails-templates/master/devise.rb \
-  PROJECT-NAME
+  -d postgresql \
+  -m https://raw.githubusercontent.com/lewagon/rails-templates/master/devise.rb \
+  CHANGE_THIS_TO_YOUR_RAILS_APP_NAME
 gh repo create
 git push origin master
 ```
