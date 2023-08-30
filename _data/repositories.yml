@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - awesome-doge
+  - howardpen9
+  - panda850819
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - ton-taipei/TON_Paper
+  - ton-taipei/ton-taipei.github.io
+  - ton-taipei/ton-pdf
+  - ton-taipei/ton-deep-doc-ZH-TW
+  - ton-taipei/TonFunClessons_Eng_ZH-TW
