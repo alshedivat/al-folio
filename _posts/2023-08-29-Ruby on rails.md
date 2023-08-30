@@ -121,3 +121,8 @@ gem update
 brew upgrade
 ```
 ````
+
+# For more informations
+   - [ROR-command-line](https://guides.rubyonrails.org/command_line.html)
+   - [ROR-activerecord](https://guides.rubyonrails.org/active_record_basics.html)
+
