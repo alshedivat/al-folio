@@ -5,13 +5,11 @@ description: Site pour une copropriété
 img: assets/img/project_23_du_8/PXL_20230821_23du8.jpg
 importance: 1
 category: work
-toc:
-  sidebar: left
 ---
 
 # Work in progress
 <div class="progress">
-  <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 ---------------
 
@@ -19,10 +17,10 @@ toc:
 Le 23du8 est un site pour une copropriété. Il permet de gérer les documents, les votes, les réunions, les travaux, les appels de fonds. Il permet aussi de communiquer entre les copropriétaires, le syndic et le conseil syndical.
 
 # Product pitch
-`Need` : Un outil pour gérer leur copropriété.
-`Target`: Les copropriétaires, le syndic et le conseil syndical, les prestataires mais aussi les locataires.
-`Goal`: Gérer une copropriété de manière simple et efficace.
-`Differentiator`: Améliorer la communication entre les différents acteurs de la copropriété.
+- `Need` : Un outil pour gérer leur copropriété.
+- `Target`: Les copropriétaires, le syndic et le conseil syndical, les prestataires mais aussi les locataires.
+- `Goal`: Gérer une copropriété de manière simple et efficace.
+- `Differentiator`: Améliorer la communication entre les différents acteurs de la copropriété.
 
 # User stories
 
