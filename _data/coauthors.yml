@@ -1,34 +1,83 @@
+"Frenk":
+  - firstname: ["C.", "C. S.", "Carlos", "Carlos S."]
+    url: https://royalsociety.org/people/carlos-frenk-11462/
+
+"Benı́tez-Llambay":
+  - firstname: ["A.", "Alejandro"]
+    url: https://alejandrobll.github.io/
+
+"Hudson":
+  - firstname: ["M.", "Mike", "Michael", "Mike J.", "Michael J.", "M. J."]
+    url: https://uwaterloo.ca/scholar/mjhudson
+
+"Navarro":
+  - firstname: ["J. F.", "Julio F.", "Julio"]
+    url: https://www.astro.uvic.ca/~jfn
+
+"Mancera Piña":
+  - firstname: ["Pavel", "Pavel E.", "P. E."]
+    url: https://pavel-mancera-pina.github.io/
+
+"Fraternali":
+  - firstname: ["Filippo", "F."]
+    url: https://www.filippofraternali.com/
+
+"Karunakaran":
+  - firstname: ["Ananthan", "A."]
+    url: https://ananthankarunakaran.github.io/site/
+
+"Deason":
+  - firstname: ["A.", "A. J.", "Alis", "Alis J."]
+    url: https://alisdeason.wixsite.com/home
+
+"Fattahi":
+  - firstname: ["Azadeh", "A.", "Azi"]
+    url: https://sites.google.com/view/azadehfattahi
+
+"Read":
+  - firstname: ["Justin", "Justin I.", "J. I."]
+    url: http://personal.ph.surrey.ac.uk/~jr0018/
+
+"Bahé":
+  - firstname: ["Yannick", "Y.", "Y. M.", "Yannick M."]
+    url: https://home.strw.leidenuniv.nl/~bahe/
+
+"Marasco":
+  - firstname: ["Antonino", "A."]
+    url: https://www.antoninomarasco.com/
+
+"Lane":
+  - firstname: ["James", "James M. M.", "J. M. M."]
+    url: http://www.astro.utoronto.ca/~lane/
+
+"Lagos":
+  - firstname: ["Claudia", "C.", "Claudia del P.", "C. del P."]
+    url: https://clagos.com/
+
 "Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+  - firstname: ["E. A. K.", "E.", "Elizabeth", "Elizabeth A. K."]
+    url: https://www.astron.nl/~adams/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Bose":
+  - firstname: ["Sownak", "S."]
+    url: https://sownakbose.github.io/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Sawala":
+  - firstname: ["Till", "T."]
+    url: https://blogs.helsinki.fi/sawala/about-me/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Schaller":
+  - firstname: ["M.", "Matthieu"]
+    url: https://home.strw.leidenuniv.nl/~schaller/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Behroozi":
+  - firstname: ["P.", "Peter", "P. S.", "Peter S."]
+    url: https://www.peterbehroozi.com/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Sales":
+  - firstname: ["Laura", "L.", "L. V.", "Laura V."]
+    url: https://galaxies.ucr.edu/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Swinbank":
+  - firstname: ["Mark", "M."]
+    url: http://astro.dur.ac.uk/~ams/
