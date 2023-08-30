@@ -23,3 +23,5 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am an astrophysics researcher.
+
+I am planning to recruit a PhD student and a PDRA (postdoc) to begin in autumn 2024, please get in touch if you might be interested!
