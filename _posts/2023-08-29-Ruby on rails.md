@@ -48,6 +48,7 @@ echo '.env*' >> .gitignore # if not already in .gitignore
 ```
 ````
 {% enddetails %}
+
 ---
 
 # Finish bootstraping the app
@@ -81,6 +82,7 @@ rails g controller products index show new create edit update destroy
 ````
 
 ----
+
 Write all the routes
 Add some seeds + configure image upload (if needed)
 Configure your domain name
@@ -109,8 +111,9 @@ the Gemfile, then run a bundle install
 the package.json file, then run yarn install
 any file in db/migrate/ folder, then run rails db:migrate
 
-# ROR no
+---
 
+# Errors at the beginning
 If you have an error
 
   - check maybe some terminal commands
@@ -121,8 +124,8 @@ gem update
 brew upgrade
 ```
 ````
+---
 
 # For more informations
    - [ROR-command-line](https://guides.rubyonrails.org/command_line.html)
    - [ROR-activerecord](https://guides.rubyonrails.org/active_record_basics.html)
-
