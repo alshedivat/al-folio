@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data visualisation
+title: Visualisation
 description: rendering simulated galaxies for science & enjoyment
 img: assets/img/AP-L1-V1-4-0-gas-face.png
 importance: 1
