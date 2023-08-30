@@ -10,7 +10,20 @@ layout: default
           </header>
 
           <article>
-            {{ content }}
+	    {% if page.toc %}
+	    <div id="table-of-contents">
+	      <h2>Contents</h2>
+	      {{ content | toc_only }}
+	    </div>
+	    <div id="markdown-content">
+	      {{ content | inject_anchors}}
+	    </div>	    
+	    <hr>
+	    {% else %}
+	    <div id="markdown-content">
+	      {{ content }}
+	    </div>
+	    {% endif %}
           </article>
 
           {%- if page.related_publications != null and page.related_publications.size > 0 -%}

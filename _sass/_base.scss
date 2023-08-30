@@ -752,6 +752,9 @@ footer.sticky-bottom {
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;
+  max-height: 300px;
+  overflow-y: scroll;
+  text-align: left;  
 }
 
 pre {
