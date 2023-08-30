@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Markdown Emoji
+title: Md emoji
 date: 2023-08-26
 description: Markdown cheatsheet emoji
 tags: markdown emoji code
 categories: code
-featured: true
+featured: false
 toc:
   sidebar: left
 ---
