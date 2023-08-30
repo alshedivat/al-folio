@@ -63,11 +63,18 @@ En tant que particulier, j'ai un rappel de la prochaine réunion du conseil synd
   - En tant que le conseil syndical, je veux pouvoir ajouter modifier ou supprimer les appels de fonds.
   - En tant que le conseil syndical, je veux pouvoir ajouter modifier ou supprimer les votes.
   - En tant que le conseil syndical, je veux pouvoir ajouter modifier ou supprimer l'ordre du jour de la prochaine réunion.
+  ---
 
-  # Schema database
+
+# Schema database
 
 <center>
 <div class="row justify-content-center align-items-center">
 {% include figure.html path="assets/img/project_23_du_8/DB_23_du_8.png" class="img-fluid rounded z-depth-1" height= "50%" width="50%" zoomable=true %}
 </div>
 </center>
+---
+
+# Prototype
+
+# Building the app
