@@ -5,6 +5,8 @@ description: Site pour une copropriété
 img: assets/img/project_23_du_8/PXL_20230821_23du8.jpg
 importance: 1
 category: work
+toc:
+  beginning: true
 ---
 
 # Work in progress

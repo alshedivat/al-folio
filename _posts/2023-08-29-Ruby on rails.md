@@ -26,20 +26,17 @@ Before jumping right into the code, first you have to think a bit about what def
 
 ````markdown
 ```bash
+cd/user/code
 rails new \
   --database postgresql \
   --javascript webpack \
   --template https://raw.githubusercontent.com/lewagon/rails-templates/master/devise.rb \
   PROJECT-NAME
-
-cd PROJECT-NAME
 gh repo create
 git push origin master
 ```
 ````
-
-  - Retrieve the project
-
+{% details retrieve the project %}
 ````markdown
 ```bash
 git clone git@github.com:username/PROJECT-NAME.git
@@ -51,11 +48,40 @@ touch .env
 echo '.env*' >> .gitignore # if not already in .gitignore
 ```
 ````
+{% enddetails %}
+---
 
-  - Finish bootstraping the application
+# Finish bootstraping the app
 
 Add Devise (unless you used the devise template!)
-Add models
+
+## Add models
+````markdown
+```bash
+rails g model Product name:type available:type user:references
+```
+````
+## Add a field to a model
+````markdown
+```bash
+rails g migration AddFieldToModel field:type
+```
+````
+
+````markdown
+```types
+:string, :text, :integer, :float, :decimal, :datetime, :timestamp, :time, :date, :boolean
+```
+````
+
+## Add controllers
+````markdown
+```bash
+rails g controller products index show new create edit update destroy
+```
+````
+
+----
 Write all the routes
 Add some seeds + configure image upload (if needed)
 Configure your domain name
@@ -83,3 +109,16 @@ Each time you pull changes from master, there are operations that you might have
 the Gemfile, then run a bundle install
 the package.json file, then run yarn install
 any file in db/migrate/ folder, then run rails db:migrate
+
+# ROR no
+
+If you have an error
+
+  - check maybe some terminal commands
+
+````markdown
+```bash
+gem update
+brew upgrade
+```
+````
