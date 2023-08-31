@@ -11,11 +11,11 @@
     url: https://uwaterloo.ca/scholar/mjhudson
 
 "Navarro":
-  - firstname: ["J. F.", "Julio F.", "Julio"]
+  - firstname: ["J.", "J. F.", "Julio F.", "Julio"]
     url: https://www.astro.uvic.ca/~jfn
 
 "Mancera Piña":
-  - firstname: ["Pavel", "Pavel E.", "P. E."]
+  - firstname: ["P.", "Pavel", "Pavel E.", "P. E."]
     url: https://pavel-mancera-pina.github.io/
 
 "Fraternali":
@@ -35,7 +35,7 @@
     url: https://sites.google.com/view/azadehfattahi
 
 "Read":
-  - firstname: ["Justin", "Justin I.", "J. I."]
+  - firstname: ["J.", "Justin", "Justin I.", "J. I."]
     url: http://personal.ph.surrey.ac.uk/~jr0018/
 
 "Bahé":
@@ -47,7 +47,7 @@
     url: https://www.antoninomarasco.com/
 
 "Lane":
-  - firstname: ["James", "James M. M.", "J. M. M."]
+  - firstname: ["J.", "James", "James M. M.", "J. M. M."]
     url: http://www.astro.utoronto.ca/~lane/
 
 "Lagos":

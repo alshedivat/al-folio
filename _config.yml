@@ -407,6 +407,8 @@ medium_zoom:
 jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
+  - data: group
+    json: assets/json/group.json
 jsonresume:
   - basics
   - work
@@ -420,3 +422,5 @@ jsonresume:
   - languages
   - interests
   - references
+jsongroup:
+  - members

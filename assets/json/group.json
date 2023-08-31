@@ -1,0 +1,140 @@
+{
+    "members":
+    {
+	"Mathilda Hunnisett": {
+	    "startdate": "07-2023",
+	    "enddate": "08-2023",
+	    "role": "Nuffield research placement",
+	    "role_url": "https://www.nuffieldresearchplacements.org/",
+	    "status": "past"
+	},
+	"Piotr Stelmaszczyk": {
+	    "startdate": "07-2023",
+	    "enddate": "08-2023",
+	    "role": "Nuffield research placement",
+	    "role_url": "https://www.nuffieldresearchplacements.org/",
+	    "status": "past"
+	},
+	"Eleanor Downing": {
+	    "startdate": "06-2022",
+	    "enddate": "09-2022",
+	    "role": "Summer undergraduate project",
+	    "status": "past"
+	},
+	"Lauryn Tapper": {
+	    "startdate": "10-2022",
+	    "enddate": "04-2023",
+	    "role": "MPhys student",
+	    "degrees": {
+		"MPhys": {
+		    "thesis": "A dynamic analysis of the gas within simulated galaxies",
+		    "cosupervisors": "M. Swinbank"
+		}
+	    },
+	    "status": "past"
+	},
+	"Jared Turnbull": {
+	    "startdate": "07-2021",
+	    "enddate": "08-2021",
+	    "role": "Nuffield research placement",
+	    "role_url": "https://www.nuffieldresearchplacements.org/",
+	    "status": "past"
+	},
+	"Alex Cooke": {
+	    "startdate": "10-2021",
+	    "enddate": "04-2022",
+	    "role": "MPhys student",
+	    "email": "",
+	    "degrees": {
+		"MPhys": {
+		    "thesis": "The lives and deaths of faint satellite galaxies",
+		    "cosupervisors": "A. Fattahi"
+		}
+	    },
+	    "status": "past"
+	},
+	"Richard Brooks": {
+	    "startdate": "10-2021",
+	    "enddate": "04-2022",
+	    "role": "MPhys student",
+	    "email": "richard.brooks.22@ucl.ac.uk",
+	    "degrees": {
+		"MPhys": {
+		    "thesis": "A path to revealing the nature of dark matter by neutral gas",
+		    "cosupervisors": "C. Frenk"
+		}
+	    },
+	    "status": "past"
+	},
+	"Finn Roper": {
+	    "startdate": "10-2020",
+	    "enddate": "04-2021",
+	    "role": "MPhys student",
+	    "email": "finn.roper@ed.ac.uk",
+	    "degrees": {
+		"MPhys": {
+		    "thesis": "The effect of baryon feedback on simulated dark matter distributions",
+		    "cosupervisors": "C. Frenk"
+		}
+	    },
+	    "status": "past"
+	},
+	"Anatolii Zadvornyi": {
+	    "startdate": "01-2019",
+	    "enddate": "07-2021",
+	    "role": "BSc project & MSc student",
+	    "degrees": {
+		"BSc": {
+		    "thesis": "Enviromental star formation suppression in galaxy clusters",
+		    "thesis_url": "https://fse.studenttheses.ub.rug.nl/id/eprint/20628",
+		    "cosupervisors": "M. Verheijen"
+		},
+		"MSc": {
+		    "thesis": "Star formation suppression, gas consumption and stripping in cluster satellites",
+		    "thesis_url": "https://fse.studenttheses.ub.rug.nl/id/eprint/25208",
+		    "cosupervisors": "M. Verheijen"		    
+		}
+	    },
+	    "status": "past"
+	},
+	"Amit Upadhyay": {
+	    "startdate": "09-2018",
+	    "enddate": "08-2020",
+	    "role": "MSc student",
+	    "degrees": {
+		"MSc": {
+		    "thesis": "Star formation histories of Coma Cluster galaxies matched to simulated orbits hints at quenching around first pericentre",
+		    "thesis_url": "https://fse.studenttheses.ub.rug.nl/id/eprint/22726",
+		    "cosupervisors": "S. Trager"
+		}
+	    },
+	    "status": "past"
+	},
+	"James Lane": {
+	    "startdate": "09-2016",
+	    "enddate": "04-2017",
+	    "url": "http://www.astro.utoronto.ca/~lane/",
+	    "role": "BSc Honours project",
+	    "email": "lane@astro.utoronto.ca",
+	    "degrees": {
+		"BSc": {
+		    "thesis": "The mysterious progenitor of the Ophiuchus stream",
+		    "cosupervisors": "J. Navarro, A. Fattahi"
+		}
+	    },
+	    "status": "past"
+	},
+	"Patrick McManus": {
+	    "startdate": "09-2016",
+	    "enddate": "04-2017",
+	    "role": "BSc Honours project",
+	    "degrees": {
+		"BSc": {
+		    "thesis": "The effect of an impulsive gravitational perturbation on a dark matter halo",
+		    "cosupervisors": "J. Navarro"
+		}
+	    },
+	    "status": "past"
+	}
+    }
+}
