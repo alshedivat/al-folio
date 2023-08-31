@@ -147,8 +147,21 @@ blockquote {
         display: block;
       }
     }
+
   }
 }
+
+.profpic {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+@media (min-width: 576px) {
+    .profpic {
+	width: 80%;
+    }
+}
+
 
 .post-description {
   margin-bottom: 2rem;

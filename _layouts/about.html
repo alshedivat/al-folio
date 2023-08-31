@@ -15,6 +15,7 @@ layout: default
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             {%- if page.profile.image %}
+	    <div class="profpic">
               {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
               {% if page.profile.image_circular %}
@@ -28,6 +29,7 @@ layout: default
               class=profile_image_class
               alt=page.profile.image
               cache_bust=true -%}
+	    </div>
             {% endif -%}
             {%- if page.profile.address %}
             <div class="address">
