@@ -13,67 +13,45 @@ layout: default
     <div class="cv">
       <h2>Current members</h2>
       {% include recruiting.html %}
-      {% for data in site.data.group %}
-        {% if site.jsongroup and site.jsongroup.size > 0 %}
-          {% unless site.jsongroup contains data[0] %}
-            {% continue %}
-          {% endunless %}
-        {% endif %}
-        {% if data[0] == "meta" or data[1].size == 0 %}
+      {% for member in site.data.group.members %}
+        {% assign membername = member[0] %}
+        {% assign memberdata = member[1] %}
+        {% if memberdata.status != "present" %}
           {% continue %}
-        {% elsif data[0] == "members" and data[1].size > 0 %}
-          {% for member in data[1] %}      
-            {% assign membername = member[0] %}
-            {% assign memberdata = member[1] %}
-            {% if memberdata.status != "current" %}
-              {% continue %}
-            {% endif %}
-            <a class="anchor" id="{{ membername }}"></a>
-            <div class="card mt-3 p-3">
-	      {% if memberdata contains "url" and memberdata.url != "" %}
-                <h3 class="card-title font-weight-medium"><a href="{{ memberdata.url }}">{{ membername }}</a></h3>
-	      {% else %}
-                <h3 class="card-title font-weight-medium">{{ membername }}</h3>
-	      {% endif %}
-              <div>
-                {% include group/groupmember.html %}
-              </div>
-            </div>
-	  {% endfor %}
         {% endif %}
+        <a class="anchor" id="{{ membername }}"></a>
+        <div class="card mt-3 p-3">
+	  {% if memberdata contains "url" and memberdata.url != "" %}
+            <h3 class="card-title font-weight-medium"><a href="{{ memberdata.url }}">{{ membername }}</a></h3>
+	  {% else %}
+            <h3 class="card-title font-weight-medium">{{ membername }}</h3>
+	  {% endif %}
+          <div>
+            {% include group/groupmember.html %}
+          </div>
+        </div>
       {% endfor %}
 
       <p></p>
 	    
       <h2>Past members</h2>
-      {% for data in site.data.group %}
-        {% if site.jsongroup and site.jsongroup.size > 0 %}
-          {% unless site.jsongroup contains data[0] %}
-            {% continue %}
-          {% endunless %}
-        {% endif %}
-        {% if data[0] == "meta" or data[1].size == 0 %}
+      {% for member in site.data.group.members %}
+        {% assign membername = member[0] %}
+        {% assign memberdata = member[1] %}
+        {% if memberdata.status != "past" %}
           {% continue %}
-        {% elsif data[0] == "members" and data[1].size > 0 %}
-          {% for member in data[1] %}
-            {% assign membername = member[0] %}
-            {% assign memberdata = member[1] %}
-            {% if memberdata.status != "past" %}
-              {% continue %}
-            {% endif %}
-            <a class="anchor" id="{{ membername }}"></a>
-            <div class="card mt-3 p-3">
-	      {% if memberdata contains "url" and memberdata.url != "" %}
-                <h3 class="card-title font-weight-medium"><a href="{{ memberdata.url }}">{{ membername }}</a></h3>
-	      {% else %}
-                <h3 class="card-title font-weight-medium">{{ membername }}</h3>
-	      {% endif %}
-              <div>
-                {% include group/groupmember.html %}
-              </div>
-            </div>
-	  {% endfor %}
         {% endif %}
+        <a class="anchor" id="{{ membername }}"></a>
+        <div class="card mt-3 p-3">
+	  {% if memberdata contains "url" and memberdata.url != "" %}
+            <h3 class="card-title font-weight-medium"><a href="{{ memberdata.url }}">{{ membername }}</a></h3>
+	  {% else %}
+            <h3 class="card-title font-weight-medium">{{ membername }}</h3>
+	  {% endif %}
+          <div>
+            {% include group/groupmember.html %}
+          </div>
+        </div>
       {% endfor %}
     </div>
   </article>
