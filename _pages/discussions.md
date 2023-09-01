@@ -8,7 +8,7 @@ nav_order: 2
 horizontal: false
 ---
 
-* **A Probabilistic Solution to High-Dimensional Continuous-Time Macro and Finance Models** by Ji Huang, at *CES Ifo Conference on Macro, Money, and International Finance (2023)*
+
 * **A Probabilistic Solution to High-Dimensional Continuous-Time Macro and Finance Models** by Ji Huang, at *CES Ifo Conference on Macro, Money, and International Finance (2023)*
 * **Deep Learning in Asset Pricing** by Luyang Chen, Markus Pelger, and Jason Zhu, at *Winter Research Conference on Machine Learning and Business, Miami (2021)*
 * **Two Investors, Two Trees, Two Goods** by Maxime Sauzet, at *FMA, Denver (2021)*
