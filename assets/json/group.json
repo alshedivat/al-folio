@@ -15,13 +15,6 @@
 	    "role_url": "https://www.nuffieldresearchplacements.org/",
 	    "status": "past"
 	},
-	"Eleanor Downing": {
-	    "startdate": "06-2022",
-	    "enddate": "09-2022",
-	    	    "img": "eleanor_downing.jpg",
-	    "role": "Summer undergraduate project",
-	    "status": "past"
-	},
 	"Lauryn Tapper": {
 	    "startdate": "10-2022",
 	    "enddate": "04-2023",
@@ -34,11 +27,11 @@
 	    },
 	    "status": "past"
 	},
-	"Jared Turnbull": {
-	    "startdate": "07-2021",
-	    "enddate": "08-2021",
-	    "role": "Nuffield research placement",
-	    "role_url": "https://www.nuffieldresearchplacements.org/",
+	"Eleanor Downing": {
+	    "startdate": "06-2022",
+	    "enddate": "09-2022",
+	    	    "img": "eleanor_downing.jpg",
+	    "role": "Summer undergraduate project",
 	    "status": "past"
 	},
 	"Alex Cooke": {
@@ -66,6 +59,13 @@
 		    "cosupervisors": "C. Frenk"
 		}
 	    },
+	    "status": "past"
+	},
+	"Jared Turnbull": {
+	    "startdate": "07-2021",
+	    "enddate": "08-2021",
+	    "role": "Nuffield research placement",
+	    "role_url": "https://www.nuffieldresearchplacements.org/",
 	    "status": "past"
 	},
 	"Finn Roper": {
