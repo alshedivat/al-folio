@@ -1,23 +1,25 @@
-{% assign leftcolclass="col-sm-4" %}
-{% assign rightcolclass="col-sm-8" %}
-
 {% if memberdata.img and memberdata.img != "" %}
-{% assign member_image_path = memberdata.img | prepend: 'assets/img/' %}
-{% if page.images_circular %}
-  {% assign member_image_class = "img-fluid z-depth-1 rounded-circle" %}
-{% else %}
-  {% assign member_image_class = "img-fluid z-depth-1 rounded" %}
-{% endif %}
-<div class="memberphotoregion">
-  <div class="memberpic">
-    {% include figure.html path=member_image_path class=member_image_class alt=membername cache_bust=true %}
+  {% assign leftcolclass="col-sm-4" %}
+  {% assign rightcolclass="col-sm-8" %}
+  {% assign member_image_path = memberdata.img | prepend: 'assets/img/' %}
+  {% if page.images_circular %}
+    {% assign member_image_class = "img-fluid z-depth-1 rounded-circle" %}
+  {% else %}
+    {% assign member_image_class = "img-fluid z-depth-1 rounded" %}
+  {% endif %}
+  <div class="memberphotoregion">
+    <div class="memberpic">
+      {% include figure.html path=member_image_path class=member_image_class alt=membername cache_bust=true %}
+    </div>
   </div>
-</div>
+{% else %}
+  {% assign leftcolclass="col-sm-3" %}
+  {% assign rightcolclass="col-sm-9" %}  
 {% endif %}
 <ul class="card-text font-weight-light list-group list-group-flush">
   <li class="list-group-item">
     <div class="row">
-      <div class="col-4">
+      <div class={% if memberdata.img and memberdata.img != "" %}"col-4 col-sm-4"{% else %}"col-4 col-sm-3"{% endif %}>
 	{% if memberdata.startdate %}
 	{% assign startdate = memberdata.startdate | split: "-" | join: "." %}
 	{% else %}
@@ -32,7 +34,7 @@
           {{ startdate }}{% if enddate != "" %}-{{ enddate }}{% endif %}
 	</span>
       </div>
-      <div class="col-8">
+      <div class={% if memberdata.img and memberdata.img != "" %}"col-8 col-sm-8"{% else %}"col-8 col-sm-9"{% endif %}>
 	<h6 class="" style="font-size: 0.95rem;">
 	{% if memberdata contains "role_url" and memberdata.role_url != "" %}
 	  <a href="{{ memberdata.role_url }}">{{ memberdata.role }}</a>
