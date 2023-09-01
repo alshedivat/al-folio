@@ -1,7 +1,23 @@
+{% assign leftcolclass="col-sm-4" %}
+{% assign rightcolclass="col-sm-8" %}
+
+{% if memberdata.img and memberdata.img != "" %}
+{% assign member_image_path = memberdata.img | prepend: 'assets/img/' %}
+{% if page.images_circular %}
+  {% assign member_image_class = "img-fluid z-depth-1 rounded-circle" %}
+{% else %}
+  {% assign member_image_class = "img-fluid z-depth-1 rounded" %}
+{% endif %}
+<div class="memberphotoregion">
+  <div class="memberpic">
+    {% include figure.html path=member_image_path class=member_image_class alt=membername cache_bust=true %}
+  </div>
+</div>
+{% endif %}
 <ul class="card-text font-weight-light list-group list-group-flush">
   <li class="list-group-item">
     <div class="row">
-      <div class="col-xs-2 cl-sm-2 col-md-2 text-left" style="width: 200px;">
+      <div class="col-4">
 	{% if memberdata.startdate %}
 	{% assign startdate = memberdata.startdate | split: "-" | join: "." %}
 	{% else %}
@@ -16,8 +32,8 @@
           {{ startdate }}{% if enddate != "" %}-{{ enddate }}{% endif %}
 	</span>
       </div>
-      <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
-	<h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">
+      <div class="col-8">
+	<h6 class="" style="font-size: 0.95rem;">
 	{% if memberdata contains "role_url" and memberdata.role_url != "" %}
 	  <a href="{{ memberdata.role_url }}">{{ memberdata.role }}</a>
 	{% else %}
@@ -28,9 +44,9 @@
     </div>
     {% if memberdata contains "email" and memberdata.email != "" %}
     <div class="row">
-      <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 200px;"></div>
-      <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
-	<h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;"><i class="fas fa-envelope"></i>{{ " " }}<a href="mailto:{{ memberdata.email }}" target="_blank">{{ memberdata.email }}</a></h6>
+      <div class={{ leftcolclass }}></div>
+      <div class={{ rightcolclass }}>
+	<h6 class="" style="font-size: 0.95rem;"><nobr><i class="fas fa-envelope"></i>{{ " " }}<a href="mailto:{{ memberdata.email }}" target="_blank">{{ memberdata.email }}</a></nobr></h6>
       </div>
     </div>
     {% endif %}
@@ -41,11 +57,11 @@
         <div class="row">
           {% assign degreetype = degree[0] %}
 	  {% assign degreedata = degree[1] %}
-          <div class="col-xs-2 cl-sm-2 col-md-2 text-left" style="width: 200px;">
-	    <h6 class="title font-weight-bold ml-1 ml-md-4">{{ degreetype }}</h6>
+          <div class={{ leftcolclass }}>
+	    <h6 class="title font-weight-bold">{{ degreetype }}</h6>
           </div>
-          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
-	    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">
+          <div class={{ rightcolclass }}>
+	    <h6 class="" style="font-size: 0.95rem;">
 	    {% if degreedata contains "thesis_url" and degreedata.thesis_url != "" %}
               <a href="{{ degreedata.thesis_url }}">{{ degreedata.thesis }}</a>
             {% else %}
@@ -82,54 +98,3 @@
     {% endfor %}
   {% endif %}
 </ul>
-	  
-<!--
-  {% if memberdata contains "degrees" and memberdata.degrees.size > 0 %}
-  {% for degree in memberdata.degrees %}
-  {% assign degreetype = degree[0] %}
-  {% assign degreedata = degree[1] %}
-  <tr>
-    <td class="p-1 pr-2 font-weight-bold">{{ degreetype }}</td>
-    <td class="p-1 pl-2 font-weight-light text">
-      {% if degreedata contains "thesis_url" and degreedata.thesis_url != "" %}
-        <a href="{{ degreedata.thesis_url }}">{{ degreedata.thesis }}</a>
-      {% else %}
-        {{ degreedata.thesis }}
-      {% endif %}
-	{% if degreedata contains "cosupervisors" and degreedata.cosupervisors != "" %}
-	  {{ " (co&#8209;supervisor" }}{% if degreedata.cosupervisors contains "," %}s{% endif %}{{ ":" }}
-	  {% assign cosupervisors = degreedata.cosupervisors | split:"," %}
-	  {% for cosupervisor in cosupervisors %}
-	    {% assign coauthor_url = nil %}
-	    {% assign cosupervisor_first_name = cosupervisor | split:" " | first %}
-	    {% assign cosupervisor_last_name = cosupervisor | split:" " | last %}
-	    {% if site.data.coauthors[cosupervisor_last_name] %}
-	      {% for coauthor in site.data.coauthors[cosupervisor_last_name] %}
-                {% if coauthor.firstname contains cosupervisor_first_name %}
-                  {% assign coauthor_url = coauthor.url %}
-                  {% break %}
-                {% endif %}
-              {% endfor %}
-            {% endif %}
-	    {% if coauthor_url %}
-	      <a href="{{ coauthor_url }}">{{ cosupervisor | replace: " ", "&nbsp;" }}</a>{% unless forloop.last %}{{ ", " }}{% else %}){% endunless %}
-	    {% else %}
-              {{ cosupervisor | replace: " ", "&nbsp;" }}{% unless cosupervisor == degreedata.cosupervisors | split:"," | last %}{{ ", " }}{% else %}){% endunless %}
-	    {% endif %}
-	  {% endfor %}
-	{% endif %}
-    </td>
-  </tr>  
-  {% endfor %}
-  {% endif %}
-  {% if memberdata contains "email" and memberdata.email != "" %}
-  <tr>
-    <td class="p-1 pr-2 font-weight-bold"><i class="fas fa-envelope"></i></td>
-    <td class="p-1 pl-2 font-weight-light text">
-      <a href="mailto:{{ memberdata.email }}" target="_blank">{{ memberdata.email }}</a>
-    </td>
-  </tr>
-  {% endif %}
-  
-</table>
--->

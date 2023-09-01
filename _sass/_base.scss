@@ -113,6 +113,31 @@ blockquote {
   color: var(--global-theme-color);
 }
 
+// Memberphoto
+
+.memberphotoregion {
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .memberphotoregion {
+	float: right;
+	width: 25%;
+	margin-left: 1rem;
+    }
+}
+
+.memberpic {
+    width: 35%;
+    margin: auto;
+    display: block;
+}
+@media (min-width: 576px) {
+    .memberpic {
+	width: 100%;
+    }
+}
+
 // Profile
 
 .profile {
