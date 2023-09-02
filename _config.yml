@@ -10,7 +10,9 @@ email: dongchel@mit.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Dongchel's webpage
 footer_text: >
-
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-…
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  
 keywords: # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
