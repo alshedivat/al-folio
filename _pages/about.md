@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='http://en.ustc.edu.cn/'>University of Science and Technology of China</a>. Digital Art Lab
+subtitle: ⚛️🔭🌌📡🛸🤖🖥👀👋🧠🤯
 
 profile:
   align: right
@@ -19,6 +19,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am Qingqin Liu (刘晴钦 in Chinese). I am a Research Assistant of the <a href='https://meilab-hk.github.io/index.html'>MEI Lab</a> at City University of Hong Kong, mentored by <a href='https://zhukening.wixsite.com/aboutme'>Prof. Kening Zhu</a>. I received my Master's degree in Communication from the University of Science and Technology of China (USTC), advised by <a href='https://dblp.org/pid/117/0075-1.html'>Prof. Yanxiang Zhang</a>. Prior to that, I completed a Bachelor of Science in Astronomy at USTC. 
+I am Qingqin Liu (刘晴钦 in Chinese). I am a Research Assistant of the <a href='https://meilab-hk.github.io/index.html'>MEI Lab</a> at City University of Hong Kong, mentored by <a href='https://zhukening.wixsite.com/aboutme'>Prof. Kening Zhu</a>. I received my Master's degree in Communication from the University of Science and Technology of China (USTC), advised by <a href='https://dblp.org/pid/117/0075-1.html'>Prof. Yanxiang Zhang</a>. Prior to that, I completed a Bachelor of Science in Astronomy at USTC.
 
 I am interested in enabling human-computer interactions using different modalities(touch, gestures, haptics, gaze, etc.), and on different devices (hand-held, head-mounted, in midair, esp. VR/AR/MR). Also, I am interested in game interaction and playable interfaces, game design and development, and player experience evaluation.
