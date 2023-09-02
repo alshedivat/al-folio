@@ -11,9 +11,10 @@ profile:
   address: >
     <p>(photo by <a href='http://home.ustc.edu.cn/~wynnewang/'>Wynne</a>)</p>
     <p>qingqinliu@mail.ustc.edu.cn</p>
+    <p>Run Run Shaw Creative Media Centre, 18 Tat Hong Avenue, Kowloon Tong, Hong Kong</p>
 #    <p>Jinzhai Road 96, Hefei, Anhui, China</p>
 #    <p>Your City, State 12345</p>
-    <p>Run Run Shaw Creative Media Centre, 18 Tat Hong Avenue, Kowloon Tong, Hong Kong</P>
+    
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
