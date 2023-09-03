@@ -17,12 +17,15 @@ jobs:
     runs-on: ubuntu-latest
     #if: github.repository_owner == 'alshedivat'
 
+    defaults:
+      run:
+        working-directory: ${{ github.workspace }}
+
     steps:
     - name: Checkout
       uses: actions/checkout@v3
 
     - uses: kitabisa/docker-slim-action@v1
-      working-directory: ${{ github.workspace }}
       env:
         DSLIM_PULL: true
         DSLIM_COMPOSE_FILE: ${{ github.workspace }}/docker-compose.yml
