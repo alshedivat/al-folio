@@ -26,6 +26,7 @@ jobs:
         DSLIM_PULL: true
         DSLIM_COMPOSE_FILE: docker-compose.yml
         DSLIM_TARGET_COMPOSE_SVC: jekyll
+        DSLIM_COMPOSE_WORKDIR: ${{ github.workspace }}/${{ github.repository }}
       with:
         target: amirpourmand/al-folio:latest
         tag: "slim"
