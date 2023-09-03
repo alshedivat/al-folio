@@ -29,6 +29,7 @@ jobs:
       shell: bash
       run:  |
         sed -i "s|\.:|${{ github.workspace }}:|g" ${{ github.workspace }}/docker-compose.yml 
+        cat ${{ github.workspace }}/docker-compose.yml 
         
     - uses: kitabisa/docker-slim-action@v1
       env:
