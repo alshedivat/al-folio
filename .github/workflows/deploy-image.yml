@@ -2,7 +2,7 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ master,add-dockerslim ]
+    branches: [ master ]
 
 
 jobs: 
