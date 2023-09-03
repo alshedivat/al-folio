@@ -22,6 +22,7 @@ jobs:
       uses: actions/checkout@v3
 
     - uses: kitabisa/docker-slim-action@v1
+      working-directory: ${{ github.workspace }}
       env:
         DSLIM_PULL: true
         DSLIM_COMPOSE_FILE: ${{ github.workspace }}/docker-compose.yml
