@@ -1,0 +1,26 @@
+name: Docker Slim
+
+# Only trigger, when the build workflow succeeded
+# on:
+#   workflow_run:
+#     workflows: ["Docker Image CI"]
+#     types:
+#       - completed
+
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+    #if: github.repository_owner == 'alshedivat'
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - uses: kitabisa/docker-slim-action@v1
+      env:
+        DSLIM_PULL: true
+        DSLIM_COMPOSE_FILE: docker-compose.yml
+        DSLIM_TARGET_COMPOSE_SVC: jekyll
+      with:
+        target: amirpourmand/al-folio:latest
+        tag: "slim"

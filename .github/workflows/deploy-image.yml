@@ -2,14 +2,15 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ master,add-dockerslim ]
+    branches: [ master ]
+
 
 jobs: 
 
   build:
 
     runs-on: ubuntu-latest
-    #if: github.repository_owner == 'alshedivat'
+    if: github.repository_owner == 'alshedivat'
 
     steps:
     - name: Checkout
