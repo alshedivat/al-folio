@@ -25,6 +25,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
 
+    - name: update docker-compose
+      shell: bash
+      run:  |
+        sed -i "s/\.:/${{ github.workspace }}:/g" ${{ github.workspace }}/docker-compose.yml 
+        
     - uses: kitabisa/docker-slim-action@v1
       env:
         DSLIM_PULL: true
