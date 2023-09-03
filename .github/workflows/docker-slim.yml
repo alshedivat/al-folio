@@ -21,6 +21,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
 
+    - name: Set working directory
+      working-directory: ${{ github.workspace }}
+
     - uses: kitabisa/docker-slim-action@v1
       env:
         DSLIM_PULL: true
