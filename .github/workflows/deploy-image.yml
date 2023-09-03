@@ -2,14 +2,14 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master,add-dockerslim ]
 
 jobs: 
 
   build:
 
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'alshedivat'
+    #if: github.repository_owner == 'alshedivat'
 
     steps:
     - name: Checkout
@@ -31,6 +31,18 @@ jobs:
       uses: docker/build-push-action@v4
       with:
         context: .
-        push: true
+        push: false
         platforms: linux/amd64,linux/arm64/v8
-        tags: amirpourmand/al-folio
+        tags: amirpourmand/al-folio:slim
+
+    # Slim it!
+    - uses: kitabisa/docker-slim-action@v1
+      env:
+        DSLIM_COMPOSE_FILE: docker-compose.yml
+        DSLIM_TARGET_COMPOSE_SVC: jekyll
+      with:
+        target: amirpourmand/al-folio:slim
+        tag: "slim"
+
+    # Push to the registry
+    - run: docker image push amirpourmand/al-folio:slim
