@@ -15,7 +15,7 @@ ENV LC_ALL en_US.UTF-8
 
 # add ruby and jekyll
 RUN apt-get install --no-install-recommends ruby-full build-essential zlib1g-dev -y
-RUN apt-get install imagemagick  -y
+RUN apt-get install imagemagick -y
 RUN apt install inotify-tools -y
 
 # install python3 and jupyter
@@ -38,4 +38,4 @@ ENV JEKYLL_ENV=production
 
 EXPOSE 8080
 
-CMD ["/bin/bash", "-c", "rm -f Gemfile.lock && exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace"]
+CMD ["./bin/entry_point.sh"]
