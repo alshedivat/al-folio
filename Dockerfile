@@ -16,7 +16,7 @@ ENV LC_ALL en_US.UTF-8
 # add ruby and jekyll
 RUN apt-get install --no-install-recommends ruby-full build-essential zlib1g-dev -y
 RUN apt-get install imagemagick -y
-RUN apt install inotify-tools -y
+RUN apt install inotify-tools procps -y
 
 # install python3 and jupyter
 RUN apt-get install python3-pip -y
