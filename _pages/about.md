@@ -17,6 +17,9 @@ social: true  # includes social icons at the bottom of the page
 ---
 <p>&nbsp;</p>
 ### :point_right: About Me :
+<p>Former teacher who recently transitioned into web development.
+My teaching experience enhances my ability to explain complex
+concepts in code !</p>
 Having taught history and geography for many years, I developed a deep love for understanding past events and their impact on our modern world.
 However, since I was a child, I've also been drawn to the realm of coding and technology.
 This transition journey into development started by an intense Full-Stack coding bootcamp at Le Wagon.
