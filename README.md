@@ -109,8 +109,11 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://users.wpi.edu/~lfichera/" target="_blank">★</a>
 <a href="https://anmspro.github.io/" target="_blank">★</a>
 <a href="https://berlyne.net/" target="_blank">★</a>
-<a href="https://filippomazzoli.github.io/">★</a>
-<a href="https://www.escontrela.me/">★</a>
+<a href="https://filippomazzoli.github.io/" target="_blank">★</a>
+<a href="https://www.escontrela.me/" target="_blank">★</a>
+<a href="https://raffaem.github.io/" target="_blank">★</a>
+<a href="https://cbueth.de/" target="_blank">★</a>
+  <a href="https://kyleaoman.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -613,7 +616,7 @@ A variety of beautiful theme colors have been selected for you to choose from.
 The default is purple, but you can quickly change it by editing the
 `--global-theme-color` variable in the `_sass/_themes.scss` file.
 Other color variables are listed there as well.
-The stock theme color options available can be found at `_sass/variables.scss`.
+The stock theme color options available can be found at `_sass/_variables.scss`.
 You can also add your own colors to this file assigning each a name for ease of
 use across the template.
 
