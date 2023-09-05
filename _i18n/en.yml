@@ -20,6 +20,7 @@ news:
     230711-1: Short courses on QGIS, QField, OpenStreetMap & Wikidata
     230720-1: Data sharing a responsibility of research organizations 
     230725-1: The depositar team presented at Open Repositories 2023 (OR2023)
+    230905-1: National Cheng Kung University Academic Integrity Lecture - From data repository to research data management practice
 blog:
   nav_title: blog
 members:
@@ -30,7 +31,7 @@ members:
   hms:
     name: Ming-Syuan Ho
     position: Project Manager
-    description: Ming-Syuan Ho is working at the Research Center for Information Technology Information. As a member of the depositar team, he serves as one of the contact points for DMP consultation. He also focuses on data policy analysis and research data management (RDM). In addition, he is involved in another privacy and security project at Academia Sinica. Prior to joining the depositar team, Ming-Syuan dedicated his time to advocate for digital rights issues at the Taiwan Association for Human Rights.
+    description: Ming-Syuan Ho is working at the Research Center for Information Technology Innovation. As a member of the depositar team, he serves as one of the contact points for DMP consultation. He also focuses on data policy analysis and research data management (RDM). In addition, he is involved in another privacy and security project at Academia Sinica. Prior to joining the depositar team, Ming-Syuan dedicated his time to advocate for digital rights issues at the Taiwan Association for Human Rights.
   cjlee:
     name: Cheng-Jen Lee
     position: Tech Lead
