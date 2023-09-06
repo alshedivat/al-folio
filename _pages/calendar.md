@@ -10,15 +10,9 @@ nav_order: 7
 <noscript><p></p>
 JavaScript is required to show this page. Let this site use JavaScript in your browser settings. <a href="https://support.google.com/calendar?p=javascript">Learn more</a>
 </noscript>
-<!--
+
 <script type="text/javascript" nonce="9nh5UcJNNzo5MWIUznszlQ">
   document.addEventListener('DOMContentLoaded', pageLoaded);
 </script>
 
-<div id="container" class="locale-en responsive-calendar-embed large-calendar-container"></div>
--->
-<script type="text/javascript" nonce="3Y0YW-UZR4YAOXPTiSwPag">
-  document.addEventListener('DOMContentLoaded', pageLoaded);
-</script>
-
-<div id="container" class="locale-en responsive-calendar-embed small-calendar-container"></div>
+<div id="container" class="locale-en "></div>
