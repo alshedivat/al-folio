@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://faculty.iiit.ac.in/~pjn/'>Affiliations</a> CVIT, KCIS, IIIT-Hyderabad, Telangana, India 
+subtitle: <a href='https://sites.google.com/view/adithyapediredla/'>Affiliations</a> RISC Lab, Dartmouth College, Hanover, NH, USA. 
 
 profile:
   align: right
