@@ -11,8 +11,8 @@ nav_order: 7
 JavaScript is required to show this page. Let this site use JavaScript in your browser settings. <a href="https://support.google.com/calendar?p=javascript">Learn more</a>
 </noscript>
 
-<script type="text/javascript" nonce="9nh5UcJNNzo5MWIUznszlQ">
+<script type="text/javascript">
   document.addEventListener('DOMContentLoaded', pageLoaded);
 </script>
 
-<div id="container" class="locale-en "></div>
+<div id="container" class="locale-en my-calendar-container"></div>

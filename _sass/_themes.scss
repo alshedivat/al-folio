@@ -17,6 +17,8 @@
   --global-divider-color: rgba(0,0,0,.1);
   --global-card-bg-color: #{$white-color};
 
+  --calendar-button-file: url(/assets/img/combined_v22.png);
+
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
   --global-tip-block-text: #215d42;
@@ -62,6 +64,8 @@ html[data-theme='dark'] {
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
 
+  --calendar-button-file: url(/assets/img/combined_v22_dark.png);
+  
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
   --global-tip-block-text: #215d42;
