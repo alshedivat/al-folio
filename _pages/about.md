@@ -6,7 +6,7 @@ subtitle: <a href='#'>NTU Plasma Theory</a> ## (CEA).
 
 profile:
   align: right
-  image: prof_pic.png
+  image: group_photo.jpeg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Contact: </p>

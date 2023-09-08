@@ -23,7 +23,17 @@ Please contact Prof. Xaver Garbet (xavier.garbet@ntu.edu.sg) or Asst Prof. Zhiso
 
 ## Research Positions 
 
-Feel free to contact [our faculty members](/people/). 
+We have a number of positions availble.
+
+| Job title                                 | | Contact  |
+| :-----------------------------------------|-| :--------------------------- |
+| [Plasma physics and surrogate models for fusion clean energy](https://ntu.wd3.myworkdayjobs.com/en-US/Careers/details/Research-Fellow--Plasma-physics-and-surrogate-models-for-Fusion-Clean-Energy-_R00014792) | |  [Zhisong Qu](/people/Zhisong) or [Xavier Garbet](/people/Xavier)   |
+| [Analytics and stochastic methods for PDEs in plasma physics](https://ntu.wd3.myworkdayjobs.com/en-US/Careers/details/Research-Fellow--Analytics-and-stochastic-methods-for-PDEs-in-plasma-physics-_R00014787) | |  Nicolas Privault  NPRIVAULT@ntu.edu.sg  |
+| [Machine learning models for Fusion Clean Energy](https://ntu.wd3.myworkdayjobs.com/en-US/Careers/details/Research-Fellow--Machine-learning-models-for-Fusion-Clean-Energy-_R00014788)    | | Ong Yew Soon ASYSOng@ntu.edu.sg   |
+| [Machine learning models for Fusion Clean Energy](https://ntu.wd3.myworkdayjobs.com/en-US/Careers/details/Research-Fellow--Machine-learning-models-for-Fusion-Clean-Energy-_R00014789) | | Dusit Niyato  DNIYATO@ntu.edu.sg  |
+
+
+<!-- Feel free to contact [our faculty members](/people/). -->
 
 We will post our currently open positions here as soon as they become available. More are on the way!
 
