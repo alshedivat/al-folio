@@ -2,7 +2,7 @@
 layout: page
 permalink: /projects/
 title: projects
-description: past projects (from my undergraduate days) and their post-mortems. 
+description: current projects and past projects with post-mortems. 
 display_categories: [machine learning/data analysis, computer-assisted mathematics]
 horizontal: false
 nav_num: 2
