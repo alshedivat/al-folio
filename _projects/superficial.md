@@ -4,7 +4,7 @@ title: superficial
 description: Algorithms for surfaces in Scala, 2020.
 img: assets/img/surface_quad.png
 importance: 2
-category: computer-assisted mathematics
+category: undergraduate
 ---
 
 Implemented algorithms to deal with quadrangulations of surfaces in Scala, for the course on Computer-Assisted Topology and Geometry offered by Prof. Gadgil at IISc.
