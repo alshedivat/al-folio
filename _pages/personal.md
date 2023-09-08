@@ -11,6 +11,9 @@ Here are some things other than math/CS and outreach that interest me. While I'm
 
 * Salsa/Bachata and trying out new dance forms (excited about electroswing right now!)
 * Origami
+* Playing my ukulele
+* Knitting
+* Training for a half-marathon
 * Reading fiction, poetry and creative non-fiction (major highlights below)
 * Playing board games like Catan, Spirit Island and Betrayal at the House on the Hill 
 * Solving [linguistics puzzles](https://ioling.org/)
