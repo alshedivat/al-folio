@@ -11,7 +11,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p align="right">Enschede, Netherlands</p>
+    <p align="right">Enschede, The Netherlands</p>
    # <p align="right"></p>
 
 news: true  # includes a list of news items
