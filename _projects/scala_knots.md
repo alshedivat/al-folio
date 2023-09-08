@@ -4,7 +4,7 @@ title: scala_knots
 description: Knot algorithms in Scala, 2020.
 img: assets/img/scala_knots.png
 importance: 2
-category: computer-assisted mathematics
+category: undergraduate
 ---
 
 Implemented the generalized Seifert matrix algorithm from my summer research in Scala.
