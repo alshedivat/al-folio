@@ -3,8 +3,8 @@ layout: page
 title: topological data analysis
 description: Analysing UNGA votes, 1945-2015.
 img: assets/img/tda.png
-importance: 3
-category: machine learning/data analysis
+importance: 1
+category: undergraduate
 ---
 
 Analysed United Nations General Assembly votes over the years using the Kepler Mapper. Computational Topology course project. [Presentation slides](https://drive.google.com/file/d/1gKTEKSmHxGr-nKpcJysoUi0Y8ftwjFe4/view?usp=sharing)
