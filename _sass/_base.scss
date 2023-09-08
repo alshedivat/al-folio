@@ -1190,7 +1190,7 @@ nav[data-toggle="toc"] {
     white-space:nowrap;
     margin:0;
     overflow:hidden;
-    color:var(--global-theme-color) !important;
+    color:auto;
 }
 .agenda .title-wrapper{
     margin:0 0 0 3.5em;
@@ -2473,7 +2473,7 @@ td.te-t{
 .dp-popup{
     position:absolute;
     border:1px solid var(--global-text-color);
-    background:var(--global-divider-color);
+    background:#ccc;
     font-size:9pt;
     line-height:1em;
     width:170px;
@@ -2593,20 +2593,20 @@ td.te-t{
     border:1px solid
 }
 .dp-today{
-    background:#fff7d7;
-    border-color:#fff7d7
+    background:var(--global-theme-color);
+    border-color:var(--global-theme-color)
 }
 .dp-today-selected{
-    background:#fff7d7;
-    border-color:#fad163
+    background:var(--global-theme-color);
+    border-color:var(--global-theme-color)
 }
 .dp-onhover{
     background-color:var(--global-divider-color);
     border-color:var(--global-divider-color);
-    color:var(--global-text-color)
+    color:var(--global-text-color);
 }
 .dp-today.dp-onhover,.dp-today-selected.dp-onhover{
-    border-color:#fad163
+    border-color:var(--global-theme-color);
 }
 @import url("//fonts.googleapis.com/css?family=Product+Sans");
 .logo-plus-button{
