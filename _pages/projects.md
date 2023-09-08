@@ -3,7 +3,7 @@ layout: page
 permalink: /projects/
 title: projects
 description: current projects and past projects with post-mortems. 
-display_categories: [machine learning/data analysis, computer-assisted mathematics]
+display_categories: [graduate, undergraduate]
 horizontal: false
 nav_num: 2
 nav: true
