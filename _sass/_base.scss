@@ -1107,17 +1107,6 @@ nav[data-toggle="toc"] {
 
 
 /* Calendar */
-@media (max-width: 576px) {
-    .large-calendar-container {
-	display: none;
-    }
-}
-
-@media (min-width: 577px) {
-    .small-calendar-container {
-	display: none;
-    }
-}
 
 .my-calendar-container{
     height: 50vh !important;
@@ -1608,6 +1597,7 @@ img.agenda-web-content{
     margin:0;
     padding:0;
     font-size-adjust:none;
+    font-family: Roboto, sans-serif !important;
     position:relative
 }
 .view-cap,.view-container-border{
@@ -1861,9 +1851,26 @@ img.agenda-web-content{
     padding:1px 1px 2px 0
 }
 .today-button{
-    font-size:85%;
-    padding:0 1px;
-    vertical-align:middle
+    font-size:75%;
+    text-transform: uppercase;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border-radius: 0.125rem;
+    font-family: Roboto, sans-serif;
+    font-size: 10.24px;
+    font-weight: 400;
+    vertical-align:middle;
+    color: var(--global-text-color);
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-text-color);
+    margin-left: 0;
+
+    &:hover {
+        color: var(--global-theme-color);
+        border-color: var(--global-theme-color);
+    }
 }
 .date-nav-today{
     position:relative
