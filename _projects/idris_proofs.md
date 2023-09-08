@@ -4,7 +4,7 @@ title: idris
 description: Interactive proofs in Idris, 2019.
 img: assets/img/idris_icon.png
 importance: 3
-category: computer-assisted mathematics
+category: undergraduate 
 ---
 
 Implemented proofs of various (relatively) elementary mathematical results in Idris, for the Logic, Types and Spaces course at IISc.
