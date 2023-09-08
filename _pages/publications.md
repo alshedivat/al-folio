@@ -2,7 +2,7 @@
 layout: page
 permalink: /papers/
 title: papers
-description: publications by categories in reversed chronological order.
+description: academic writtings by categories in reversed chronological order.
 years: [2023, 2020]
 nav: true
 nav_order: 1

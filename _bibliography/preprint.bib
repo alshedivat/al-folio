@@ -2,7 +2,18 @@
 ---
 
 @article{adeoye2022isqprnn,
-  abbr={Submitted},
+  selected=true,
+  title={Self-concordant Smoothing for Convex Composite Optimization},
+  author={Adeoye, A. D. and Bemporad, A.},
+  abstract={We introduce the notion of self-concordant smoothing for minimizing the sum of two convex functions: the first is smooth and the second may be nonsmooth. Our framework results naturally from the smoothing approximation technique referred to as partial smoothing in which only a part of the nonsmooth function is smoothed. The key highlight of our approach is in a natural property of the resulting problem's structure which provides us with a variable-metric selection method and a step-length selection rule particularly suitable for proximal Newton-type algorithms. In addition, we efficiently handle specific structures promoted by the nonsmooth function, such as l1-regularization and group-lasso penalties. We prove local quadratic convergence rates for two resulting algorithms: Prox-N-SCORE, a proximal Newton algorithm and Prox-GGN-SCORE, a proximal generalized Gauss-Newton (GGN) algorithm. The Prox-GGN-SCORE algorithm highlights an important approximation procedure which helps to significantly reduce most of the computational overhead associated with the inverse Hessian. This approximation is essentially useful for overparameterized machine learning models and in the mini-batch settings. Numerical examples on both synthetic and real datasets demonstrate the efficiency of our approach and its superiority over existing approaches.},
+  journal={Submitted},
+  year={2023},
+  arxiv={2309.01781},
+  pdf={https://arxiv.org/pdf/2309.01781.pdf},
+  code={https://github.com/adeyemiadeoye/SelfConcordantSmoothOptimization.jl}
+}
+
+@article{adeoye2022isqprnn,
   title={An Inexact Sequential Quadratic Programming Method for Learning and Control of Recurrent Neural Networks},
   author={Adeoye, A. D. and Bemporad, A.},
   journal={Submitted},

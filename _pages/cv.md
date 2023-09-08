@@ -2,9 +2,9 @@
 layout: cv
 permalink: /cv/
 title: cv
-description: web version; last updated 01-03-2022.
+description: last updated 01-03-2022.
 nav: true
-nav_order: 2
+nav_order: 4
 cv_pdf: Adeyemi_CV.pdf
 ---
 
