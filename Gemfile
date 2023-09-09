@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'classifier-reborn'
+    gem 'wdm', '>= 0.1.0'
     gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
