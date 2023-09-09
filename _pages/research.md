@@ -19,4 +19,3 @@ nav_order: 1
 
 5\. **Interest Rate Uncertainty and Public Debt Dynamics** with Andrea Modena
 
-6\. **Supply Chain Finance and Firm Capital Structure** with Claudio Tebaldi and Laura Bottazzi (Draft available upon request)
