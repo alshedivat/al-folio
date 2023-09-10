@@ -24,7 +24,11 @@ Hi! This is Alan（周俊哲）! I am a 1st (almost 2nd) year Ph.D. student at C
 
 #### A short non-academic bio:
 I grew up in Beijing, China. I attended high school in [Pebble Beach CA](https://stevensonschool.org/) (after a short stay in Miami), went to [Duke University](https://duke.edu/), and am currently at [Carnegie Mellon](https://www.cmu.edu/). I enjoy exploring all the little corners of this world! Before working on cosmology, I researched at the Large Hadron Collider at [CERN](https://www.home.cern/) in Geneva, did classical archeology and early modern art history in Rome, studied at the [Duke Kunshan](https://www.dukekunshan.edu.cn/) campus near Shanghai, and was very interested in [QFT and nuclear theories](https://arxiv.org/abs/2111.13780)! I was incredibly lucky to have met so many great mentors, who showed me how all these fields shared the same indelible human touch. I am really looking forward to sharing some of this journey here, and please bear with me as I figure out how this website works!
-
+<br/><br/>
+My current works are supported by 
+- The McWilliams Center for Cosmology
+- NSF AI Planning Institute
+- U.S. DOE
 <br/><br/>
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
