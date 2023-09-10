@@ -3,24 +3,27 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+first_name: "M3-learning:"
+middle_name: 
+last_name: Multifunctional Materials and Machine Learning
+email: jca92@drexel.edu
+description: 
+footer_text:
+keywords:  # add your own keywords or leave empty
+first_name: "M3-learning:"
+middle_name: 
+last_name: Multifunctional Materials and Machine Learning
+email: jca92@drexel.edu
+description: 
+footer_text:
+keywords:  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: m3_logo_small.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+url: # research.coe.drexel.edu the base hostname & protocol for your site
+baseurl: /MEM/M3-learning # the subpath of your site, e.g. /blog/
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -55,7 +58,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 1200px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -71,16 +74,14 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: jagar2 # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
-mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # your LinkedIn user name
-telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
+orcid_id: 0000-0001-5411-4693 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -100,11 +101,10 @@ pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
 instagram_id: # your instagram id
 facebook_id: # your facebook id
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+# contact_note: >r
+#   You can even add a little note about which of these is the best way to reach you.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -116,14 +116,14 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
+# # -----------------------------------------------------------------------------
+# # Blog
+# # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+# blog_name: al-folio # blog_name will be displayed in your blog page
+# blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+# blog_description: a simple whitespace theme for academics
+# permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
@@ -153,12 +153,12 @@ giscus:
 disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
-# External sources.
-# If you have blog posts published on medium.com or other exteranl sources,
-# you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+# # External sources.
+# # If you have blog posts published on medium.com or other exteranl sources,
+# # you can display them in your blog by adding a link to the RSS feed.
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -169,10 +169,13 @@ collections:
     defaults:
       layout: post
     output: true
-    permalink: /news/:path/
+    permalink: /news/:path
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /projects/:path
+  members:
+    output: true
+    permalink: /members/:path
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
 news_limit: 5 # leave blank to include all the news in the `_news` folder
@@ -220,13 +223,23 @@ plugins:
   - jekyll-link-attributes
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-github-metadata
+  - jekyll-paginate-v2
+  - jekyll/scholar
+  - jekyll-twitter-plugin
+  - jekyll-sitemap
+  - jekyll-regex-replace
 
 # Sitemap settings
 defaults:
   - scope:
-      path: "assets/**/*.*"
+      path: "assets/lib/**"
     values:
       sitemap: false
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/og/pg.png # Default open graph image
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
