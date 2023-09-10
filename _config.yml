@@ -2,8 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Dr. # the website title (if blank, full name will be used instead)
-first_name: Nam
+title: blank # the website title (if blank, full name will be used instead)
+first_name: Dr. Nam
 middle_name: V.
 last_name: Tran
 email: vannam.tran@ntu.edu.sg
