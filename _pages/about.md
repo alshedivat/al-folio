@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Cosmology - Astrophysics - Probabalistic Learning @ <a href='cmu.edu'>CMU</a>
+subtitle: Cosmology - Astrophysics - Deep Probabalistic Learning @ <a href='cmu.edu'>CMU</a>
 
 profile:
   align: right
