@@ -2,8 +2,8 @@
 layout: page
 permalink: /notes/
 title: notes
-description:  <em> Coming soon.</em> A (very) few of my (digital handwritten) notes on topics I've been (re-)learning since the beginning of my PhD in 2020.
-nav: false
+description:  <em> Coming soon.</em> A (very) few of my (digital handwritten) notes on topics I've been (self-re-)learning since the beginning of my PhD in 2020.
+nav: true
 nav_order: 3
 display_categories: [convex optimization, system identification &amp; control, nonsmooth optimization, neural networks, nonlinear programming]
 ---
