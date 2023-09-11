@@ -4,8 +4,8 @@ title: The Power Law
 date: 2023-08-09
 description: Sebastian Mallaby
 img: assets/books/the-power-law.jpg
-importance: 2
-category: technology history
+importance: 4
+category: technology
 giscus_comments: false
 related_posts: false
 toc:

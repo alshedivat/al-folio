@@ -4,7 +4,7 @@ title: The Ethics of Ambiguity
 date: 2023-08-09
 description: Simone de Beauvoir
 img: assets/books/the-ethics-of-ambiguity.jpg
-importance: 3
+importance: 4
 category: personal philosophy
 giscus_comments: false
 related_posts: false

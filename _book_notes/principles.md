@@ -4,7 +4,7 @@ title: Principles
 date: 2023-08-09
 description: Ray Dalio
 img: assets/books/principles.jpg
-importance: 4
+importance: 5
 category: personal philosophy
 giscus_comments: false
 related_posts: false

@@ -4,15 +4,15 @@ title: Chip War
 date: 2023-08-09
 description: Chris Miller
 img: assets/books/chip-war.jpg
-importance: 1
-category: technology history
+importance: 3
+category: technology
 giscus_comments: false
 related_posts: false
 toc:
   sidebar: left
 ---
 
-In the 1960s, the first Semi-conductor chips are built in Silicon Valley at Fairchild and in Dallas at Texas Instruments by Berkeley, Stanford, MIT physics graduates, including Bob Noyce, Gordon Moore, and Andy Grove with the US Army and NASA as the first customers and soon mass market calculators and mainframe computers
+In the 1960s, the first semi-conductor chips are built in Silicon Valley at Fairchild and in Dallas at Texas Instruments by Berkeley, Stanford, MIT physics graduates, including Bob Noyce, Gordon Moore, and Andy Grove with the US Army and NASA as the first customers and soon mass market calculators and mainframe computers
 
 The USSR stays on the sidelines trying to copy American chips but never succeeding despite their top-notch physics scientists because of the complexity and fast rate of improvement of the process and the much bigger market the US and its allies have access to to compensate R&D costs
 
@@ -43,6 +43,8 @@ In the 2000s, after Andy Grove, Intel starts milking its moat in PC chips and se
 Fabless companies - focusing on their differentiating product and relying on TSMC and other foundries for fabrication - emerge in the 1990s: Nvidia for GPUs, Qualcomm for specialized communication chips
 
 In the 2000s and 2010s, TSMC emerges as the leading foundry and leverages its market power and large ecosystem of both piece suppliers and chip maker customers to beat other integrated foundries like Samsung - in 2023, it produces over 60% of the world's semiconductors and over 90% of the most advanced ones
+
+A single Deutsch company, ASML, is able to build the latest generation of manufacturing machines at 14nm (~20 atoms) precision
 
 Apple designs iPhone chips but outsources fabrication to TSMC, the only company with the ability to build the chips - chip materials represent the bulk of the cost of the phone
 

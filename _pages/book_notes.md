@@ -5,7 +5,7 @@ title: book notes
 description: 
 nav: true
 nav_order: 3
-display_categories: [personal philosophy, philosophy, psychology, technology history]
+display_categories: [personal philosophy, technology, psychology, philosophy]
 horizontal: false
 ---
 
