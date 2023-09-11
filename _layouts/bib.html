@@ -35,6 +35,11 @@
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}
 
+        {%- assign main_contribution = false -%}
+        {%- if entry.main_contribution -%}
+          {%- assign main_contribution = true -%}
+        {%- endif -%}
+
         {% assign author_array_limit = author_array_size %}
         {%- if site.max_author_limit and author_array_size > site.max_author_limit %}
           {% assign author_array_limit = site.max_author_limit %}
@@ -43,11 +48,13 @@
         {%- for author in entry.author_array limit: author_array_limit -%}
           {%- assign author_is_self = false -%}
           {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+          
           {%- if site.scholar.last_name contains author_last_name -%}
             {%- if site.scholar.first_name contains author.first -%}
               {%- assign author_is_self = true -%}
             {%- endif -%}
           {%- endif -%}
+          
           {%- assign coauthor_url = nil -%}
           {%- if site.data.coauthors[author_last_name] -%}
             {%- for coauthor in site.data.coauthors[author_last_name] -%}
@@ -62,7 +69,10 @@
             {%- if forloop.first == false -%},&nbsp;{%- endif -%}
             {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
           {%- endif -%}
-          {%- if author_is_self -%}
+          
+          {%- if author_is_self and main_contribution -%}
+            <em><b>{{author.first}} {{author.last}}</b></em>
+          {%- elsif author_is_self -%}
             <em>{{author.first}} {{author.last}}</em>
           {%- else -%}
             {%- if coauthor_url -%}

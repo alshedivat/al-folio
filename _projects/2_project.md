@@ -1,81 +1,31 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: Roles of Water Structure at Electrode/Electrolyte Interface on Catalysis
+description: Using AIMD and ML potential to study the water structure at electrode/electrolyte interfaces at different electrode potentials.
+img: https://pubs.acs.org/cms/10.1021/acsenergylett.3c01623/asset/images/medium/nz3c01623_0001.gif
+importance: 1
+category: Research
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Using ab initio molecular dynamic and machine learning potential to study the effect of electrode potential on the water structure at electrode/electrolyte interfaces. These water layer structure could significantly effect the catalysis peformance and the stability of catalyst under the working condition. Currently, we focus on three different topic of the water layer structure.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
+1. The role of water structure on the diffusion/adsorption of reactants on the active site of Single Atomic Catalyst (SAC).
+2. The effect of water structure on the electrochemical reaction on Single Atomic Catalyst (SAC).
+3. The effect of water structure on the stability of Single Atomic Catalyst (SAC).
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+        {% include figure.html path="https://pubs.acs.org/cms/10.1021/acsenergylett.3c01623/asset/images/medium/nz3c01623_0001.gif" title="example image" class="img-fluid rounded z-depth-1" %}
 </div>
+
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Fig. 1. Schematic of the electrode/electrolyte interface [1].
 </div>
 
+<h3>References</h3>
+[1]. Marcel Schreier, Paul Kenis, Fanglin Che, and Anthony Shoji Hall, ACS Energy Lett. 2023, 8, 9, 3935–3940
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<br>
+<br>
+<br>
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+

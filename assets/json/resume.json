@@ -1,77 +1,172 @@
 {
-  "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+    "basics":{
+    "name":"Nam V. Tran",
+    "position":"Research fellow",
+    "image":"",
+    "email":"vannam.tran@ntu.edu.sg",
+    "url":"https://nvtran.com/",
+    "summary":"A theoretical physicist"
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
-  },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [
-        "Relativity"
-      ]
-    }
-  ],
-  "volunteer": [],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [],
-  "publications": [],
-  "skills": [],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    }
-  ],
-  "interests": [],
-  "references": [],
-  "projects": []
+
+    "skills":[
+        {
+            "name":"Programming skills",
+            "keywords":["Programming Languages: Python, Fortran, C#, Swift, Javascript, C, Matlab","Operating System: Linux, MacOS, Windows","Visualization: Photoshop, InKscape","Machine Learning: Tensorflow, Scikit-learn"]
+        },
+
+        {
+            "name":"Simulation packages",
+            "keywords":["VASP, Quantum Espresso, CP2K, LAMMPS, Material Studio","Atomic Simulation Environment (ASE), Pymatgen"]
+        }
+    ],
+
+    "work":[
+        {
+            "name":"School of Materials Science and Engineering, Nanyang Technological University, Singapore",
+            "position":"Research Fellow ",
+            "startDate":"2022-08",
+            "summary":"",
+            "highlights":
+                ["Application of Grand-canonical DFT and kinetic Monte-carlo modeling to design single atomic catalyst (SAC)",
+                "Application of ab initio molecular dynamics and advanced sampling techniques to study water structure at electrode-electrolyte Interface and its effects on catalysis processes",
+                "Develop Deep Neural Network Potential to simulate tribological properties of water/diamond interface for nano-/micro-electromechanical devices",
+                "Write scientific papers, grants, and mentor graduate students"]
+        },
+        
+        {
+            "name":"Faculty of Engineering and Information Sciences, University of Wollongong, Australia",
+            "position":"Visiting Research Fellow",
+            "startDate":"2021-10",
+            "summary":"",
+            "highlights":["Application of first-principles simulations to study the effect of vacancies on the thermal and mechanical properties of FeCrVW High Entropy Alloys (HEA",
+                "Develop Deep Neural Network Potential to simulate radiational damage of FeCrVW HEA"
+            ]
+        },
+        
+        {
+            "name":"Department of Physics and Astronomy, University of Bologna, Italy",
+            "position":"Research Fellow (Part-time)",
+            "startDate":"2021-08",
+            "endDate":"2022-08",
+            "summary":"",
+            "highlights":[
+                "Application of first-principles simulations to understand lubrication mechanism of silica on diamond surfaces",
+                "Designed and executed DFT and AIMD simulations to investigate the chemical reaction mechanism of H2, O2 and H2O with diamond surfaces",
+                "Write scientific papers and mentor undergraduate students"
+                ]
+        },
+        
+        {
+            "name":"Laboratory for Computational Materials Science, Faculty of Physics, VNU University of Science",
+            "position":"Teaching Assistant ",
+            "startDate":"2016",
+            "endDate":"2017",
+            "summary":"",
+            "highlights":[
+                "Assisted in teaching undergraduate courses ranging in size from 20-30 students. Topics included: numerical methods and computational simulation methods",
+                "Prepared course material including, exams, homework, and practice problems",
+                "Supervised students, graded exams and weekly homework"
+                ]
+        },
+        
+        {
+            "name":"Laboratory for Computational Materials Science, Faculty of Physics, VNU University of Science",
+            "position":"Research Assistant ",
+            "startDate":"2010",
+            "endDate":"2013",
+            "summary":"",
+            "highlights":[
+                "Designed and performed Density Functional Theory simulations on various systems",
+                "Analyzed results and contributed to research reports and publications",
+                "Presented work at national scientific meetings"
+                ]
+        }
+    ],
+
+    "volunteer":[],
+    
+    "education":[
+        {
+            "institution":"University of Wollongong, Australia",
+            "area":"Quantum modelling of Lubrication Mechanism in Metal Forming Processes",
+            "studyType":"PhD in Material Engineering",
+            "startDate":"2017-02",
+            "endDate":"2022-02",
+            "courses":[
+                "Doctor of Philosophy with Examiners' commendation for outstanding thesis",
+                "Supervised by Professor Kiet Tieu, Associate Professor Hongtao Zhu"
+                ]
+        },
+        
+        {
+            "institution":"Osaka University, Osaka, Japan",
+            "area":"First-principles Study on the Two-Dimensional Electron Gas at the Interface of LaAlO3/SrTiO3 Hetero-Structure",
+            "studyType":"International Exchange Student",
+            "startDate":"2014-09",
+            "endDate":"2015-09",
+            "courses":[
+                "Supervised by Professor Hideaki Kasai"
+                ]
+        },
+        
+        {
+            "institution":"VNU University of Science - Vietnam National University",
+            "area":"Investigation on Electronic Structural of Doped TiO2 Using Density Functional Theory (DFT)",
+            "studyType":"Master of Science",
+            "startDate":"2011-10",
+            "endDate":"2014-04",
+            "courses":[
+                "Supervised by Professor Bach Thanh Cong"
+                ]
+        },
+        
+        {
+            "institution":"VNU University of Science - Vietnam National University",
+            "area":"Density Functional Theory Study on the Electronic Structure of TiO2 for dye-sensitized solar cells",
+            "studyType":"Bachelor of Science",
+            "startDate":"2007-09",
+            "endDate":"2011-05",
+            "courses":[
+                "Supervised by Professor Bach Thanh Cong"
+                ]
+        }
+    ],
+    
+    "awards":[
+        {
+            "title":"University of Wollongong",
+            "date":"2022-02",
+            "awarder":"Doctor of Philosophy with Examiners' commendation for outstanding thesis (2022)"
+        },
+        
+        {
+            "title":"University of Wollongong",
+            "date":"2017-02",
+            "awarder":"HDR Scholarship to undertake the Ph.D degree in the School of Mechanical, Material and Mechatronic Engineering at University of Wollongong"
+        },
+        
+        {
+            "title":"Japan Student Services Organization",
+            "date":"2014-10",
+            "awarder":"Scholarship of Japan Student Services Organization (JASSO) to undertake Quantum Engineering Design Course (QEDC) at Osaka University"
+        },
+        
+        {
+            "title":"Japan Society for the Promotion of Science",
+            "date":"2011",
+            "awarder":"Travel award from Japan Society for the Promotion of Science (JSPS) for invitation East Asian young researchers"
+        }
+    ],
+    
+    "certificates":[],
+    "publications":[],
+
+    "languages":[
+        {"language":"English","fluency":"Fluent"},
+        {"language":"Vietnamese","fluency":"Native speaker"}
+    ],
+    
+    "interests":[],
+    "references":[],
+    "projects":[]
 }
