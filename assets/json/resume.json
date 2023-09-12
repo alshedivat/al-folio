@@ -6,7 +6,7 @@
 	"email": "kyle.a.oman@durham.ac.uk",
 	"phone": "+44 (191) 334-3011",
 	"url": "https://kyleaoman.github.io",
-	"summary": "Asst. Professor & Dorothy Hodgkin Fellow",
+	"summary": "Royal Society Dorothy Hodgkin Fellow",
 	"location": {
 	    "address": "Ogden Centre for Fundamental Physics West, Lower Mountjoy, South Rd",
 	    "postalCode": "DH1 3LE",
@@ -19,7 +19,7 @@
     "work": [
 	{
 	    "name": "Institute for Computational Cosmology, Physics, Durham University",
-	    "position": "Asst. Professor & Royal Society Dorothy Hodgkin Fellow",
+	    "position": "Royal Society Dorothy Hodgkin Fellow",
 	    "startDate": "2023-10-01",
 	    "endDate": "present",
 	    "summary": "",
