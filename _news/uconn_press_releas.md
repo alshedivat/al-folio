@@ -1,7 +1,6 @@
 ---
 layout: post
-title: BioConGen Program at UConn
-date: 2023-09-013 216:11:00-0400
+date: 2023-09-13 
 inline: false
 ---
 
