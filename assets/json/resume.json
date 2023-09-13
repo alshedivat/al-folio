@@ -38,6 +38,12 @@
     ],
     "awards": [
         {
+            "title": "Reconstructing the initial conditions of the universe (PI)",
+            "date": "2023.09",
+            "awarder": "NSF ACCESS",
+            "summary": "Allocation at the Bridges-2 supercomputer at the Pittsburgh Supercomputing Center (PSC)"
+        },
+        {
             "title": "Daphne Chang Memorial Award",
             "date": "2022.05",
             "awarder": "Duke University",
