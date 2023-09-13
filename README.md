@@ -113,7 +113,9 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://www.escontrela.me/" target="_blank">★</a>
 <a href="https://raffaem.github.io/" target="_blank">★</a>
 <a href="https://cbueth.de/" target="_blank">★</a>
-  <a href="https://kyleaoman.github.io/" target="_blank">★</a>
+<a href="https://kyleaoman.github.io/" target="_blank">★</a>
+<a href="https://decwest.github.io/" target="_blank">★</a>
+<a href="https://www.jedburkat.com" target="_blank">★</a>
 </td>
 </tr>
 <tr>
