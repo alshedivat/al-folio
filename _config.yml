@@ -90,12 +90,12 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # permalink: /blog/:year/:title/
 
 # Pagination
-pagination:
-  enabled: true
-
-# Comments
-disqus_shortname: leaflitter # put your disqus shortname
-# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+# pagination:
+#   enabled: true
+# 
+# # Comments
+# disqus_shortname: leaflitter # put your disqus shortname
+# # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
