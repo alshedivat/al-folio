@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Thesis with a little taste of my background
+title: My Master Thesis
 date: 2023-07-25
 description: My Master degree thesis in University of Tehran
 tags:
