@@ -1,0 +1,57 @@
+<!-- WeChat Modal -->
+
+<head>
+<style>
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 33%;
+  max-width: 400px;
+}
+
+@media only screen and (max-width: 400px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+
+
+<a id="WeChatBtn" title="WeChat"><i class="fab fa-weixin"></i></a>
+
+<div id="WeChatMod" class="modal">
+  <img class="modal-content" src="{{ site.wechat_qr | relative_url }}" alt="WeChat QR code" id="WeChatQR">
+</div>
+
+
+<script>
+var modal = document.getElementById("WeChatMod");
+var btn = document.getElementById("WeChatBtn");
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+</script>
