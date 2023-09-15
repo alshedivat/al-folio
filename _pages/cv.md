@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 description: last updated 01-03-2022.
 nav: true
-nav_order: 4
+nav_order: 5
 cv_pdf: Adeyemi_CV.pdf
 ---
 

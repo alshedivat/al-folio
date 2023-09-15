@@ -6,6 +6,8 @@
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
+  font-family: -apple-system, 'Ubuntu', 'Merriweather Sans', 'Consolas', 'IBM Plex Sans', 'Fira Code', 'Space Grotesk', 'Josefin Sans', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  // font-size: 20px;
 }
 
 hr {
@@ -15,6 +17,9 @@ hr {
 table {
   td, th {
     color: var(--global-text-color);
+  }
+  th {
+    width: 10%;
   }
   td {
     font-size: 1rem;
