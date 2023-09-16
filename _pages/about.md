@@ -36,7 +36,10 @@ research interests
 </ul>
 &emsp;
 <a href="https://adeyemiadeoye.github.io/papers/" title="Papers" role="button" target="_self"> :memo: Papers </a> &emsp;
+<a href="https://adeyemiadeoye.github.io/software/" title="Papers" role="button" target="_self"><i class="fa fa-code"></i> Software </a>
+&emsp;
 <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}&view_op=list_works&sortby=pubdate" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar </a> &emsp;
 <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" title="ResearchGate"><i class="ai ai-researchgate"></i> ResearchGate </a> &emsp;
 <a href="https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i> Semantic Scholar </a>
+<div class="publications">
 <hr>
