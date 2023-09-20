@@ -13,7 +13,7 @@ A weekly meeting for anyone who wants to learn about and apply Data Science for 
 
 <div style="background-color:orange; color: black; padding: 1em">
     <strong>Next meeting</strong>: Monday, 10.07.2023, <strong>19:00 Uhr</strong> (notice the changed time (again)!), Konrad-Zuse-Haus, Room 116 (please watch for room changes). <strong>Bring your laptops!</strong>
-    <!-- Please <a href="https://docs.google.com/spreadsheets/d/1i1aAxqRePweL5u9WSeNviFABVuuRtfjJQK6wxaefHoA/edit?usp=sharing"><b>sign up here</b></a>, so I can plan a little. -->
+    Please <a href="https://docs.google.com/spreadsheets/d/14Q6WPcbpc7X_234ji75G2CXZkiD0pspYRXFQgLg881U/edit?usp=sharing"><b>sign up here</b></a>, so I can plan a little.
 </div>
 
 <div style="background-color:lightblue; color: black; padding: 1em">
