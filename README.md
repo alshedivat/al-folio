@@ -116,6 +116,8 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://kyleaoman.github.io/" target="_blank">★</a>
 <a href="https://decwest.github.io/" target="_blank">★</a>
 <a href="https://www.jedburkat.com" target="_blank">★</a>
+<a href="https://hrzhang.me" target="_blank">★</a>
+<a href="https://kudhru.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
