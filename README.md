@@ -117,6 +117,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://decwest.github.io/" target="_blank">★</a>
 <a href="https://www.jedburkat.com" target="_blank">★</a>
 <a href="https://hrzhang.me" target="_blank">★</a>
+<a href="https://mbarbetti.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -152,7 +153,8 @@ ICBINB (NeurIPS: <a href="https://i-cant-believe-its-not-better.github.io/" targ
 Neural Compression (ICLR: <a href="https://neuralcompression.github.io/" target="_blank">2021</a>) <br>
 Score Based Methods (NeurIPS: <a href="https://score-based-methods-workshop.github.io/" target="_blank">2022</a>)<br>
 Images2Symbols (CogSci: <a href="https://images2symbols.github.io/" target="_blank"> 2022</a>)
-Medical Robotics Junior Faculty Forum (ISMR: <a href="https://junior-forum-ismr.github.io/" target="_blank"> 2023</a>)
+Medical Robotics Junior Faculty Forum (ISMR: <a href="https://junior-forum-ismr.github.io/" target="_blank"> 2023</a>)<br>
+Beyond Vision: Physics meets AI (ICIAP: <a href="https://physicsmeetsai.github.io/beyond-vision/" target="_blank">2023</a>)
 </td>
 </tr>
 </table>
@@ -163,10 +165,11 @@ Medical Robotics Junior Faculty Forum (ISMR: <a href="https://junior-forum-ismr.
 
 ## Table Of Contents
 
-  * [User community](#user-community)
-  * [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
-  * [Table Of Contents](#table-of-contents)
-  * [Getting started](#getting-started)
+- [al-folio](#al-folio)
+  - [User community](#user-community)
+  - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
+  - [Table Of Contents](#table-of-contents)
+  - [Getting started](#getting-started)
     - [Installation](#installation)
       - [Local setup using Docker (Recommended)](#local-setup-using-docker-recommended)
       - [Local Setup (Legacy)](#local-setup-legacy)
@@ -188,6 +191,35 @@ Medical Robotics Junior Faculty Forum (ISMR: <a href="https://junior-forum-ismr.
       - [Related posts](#related-posts)
   - [Contributing](#contributing)
     - [Maintainers](#maintainers)
+    - [All Contributors](#all-contributors)
+  - [License](#license)
+- [al-folio](#al-folio)
+  - [User community](#user-community)
+  - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
+  - [Table Of Contents](#table-of-contents)
+  - [Getting started](#getting-started)
+    - [Installation](#installation)
+      - [Local setup using Docker (Recommended)](#local-setup-using-docker-recommended)
+      - [Local Setup (Legacy)](#local-setup-legacy)
+      - [Deployment](#deployment)
+      - [Upgrading from a previous version](#upgrading-from-a-previous-version)
+    - [FAQ](#faq)
+  - [Features](#features)
+    - [Publications](#publications)
+    - [Collections](#collections)
+    - [Layouts](#layouts)
+      - [The iconic style of Distill](#the-iconic-style-of-distill)
+      - [Full support for math \& code](#full-support-for-math--code)
+      - [Photos](#photos)
+    - [Other features](#other-features)
+      - [GitHub's repositories and user stats](#githubs-repositories-and-user-stats)
+      - [Theming](#theming)
+      - [Social media previews](#social-media-previews)
+      - [Atom (RSS-like) Feed](#atom-rss-like-feed)
+      - [Related posts](#related-posts)
+  - [Contributing](#contributing)
+    - [Maintainers](#maintainers)
+    - [All Contributors](#all-contributors)
   - [License](#license)
 
 ## Getting started
