@@ -31,5 +31,4 @@ I aim on gaining competence in end-to-end development which involves the followi
 - Development in accordance with industry standard design patterns and trusted APIs.
 - Using DevOps tooling for containerizing the application and orchestrating it on a chosen Cloud Platform.
 
-
 ## My Socials
