@@ -10,6 +10,8 @@ nav: false
 
 <br>
 
+| Update on this page has been temporarily paused. |
+
 Theodor W. Adorno wrote *Minima Moralia: Reflections From Damaged Life* in 1951.
 It is a series of 153 aphorisms striking at the sad ridiculity of living the Aristotelian "good life" in the 20th and 21st centuries.
 I am reading one aphorism a day and adding it to this page.
