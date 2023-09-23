@@ -10,7 +10,7 @@ while true; do
 
   if [ $? -eq 0 ]; then
  
-    echo "Change detecte d to $CONFIG_FILE, restarting Jekyll"
+    echo "Change detected to $CONFIG_FILE, restarting Jekyll"
 
     jekyll_pid=$(pgrep -f jekyll)
     kill -KILL $jekyll_pid
