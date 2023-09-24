@@ -2,80 +2,96 @@
   type: map
   contents:
     - name: Full Name
-      value: Luwei Wang
+      value: Albert Einstein
     - name: Date of Birth
-      value: December 1998
+      value: 14th March 1879
     - name: Languages
-      value: Chinese, English
-
-
-- title: <u>Academic Interests</u>
-  type: list
-  contents:
-    - Machine learning, Probablistic statistical modelling, Bayesian learning, Deep learning
-
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Biomedical AI
-      institution: School of Informatics, The University of Edinburgh, United Kingdom
-      year: 2023 - Now
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-      #  - Description 1.
-      #  - title: Description 3.
-      #    contents:
-      #      - Sub-description 1.
-    
-    - title: MSc in Statistics with Data Science
-      institution: School of Mathematics, The University of Edinburgh, United Kingdom
-      year: 2021 - 2022
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
-        - "Grade: Distinction"
-        - "Dissertation: <a href='https://demi-wlw.github.io/projects/clustTrajMLTC/'>Understanding and Clustering Trajectories of Multiple Long-Term Conditions</a>"
-        - "Supervisor: Dr Sohan Seth"
-    
-    - title: BSc (Honours) in Mathematics and Statistics, Minor in Computer Science
-      institution: Hong Kong Baptist University, Hong Kong, China
-      year: 2017 - 2021
-      description:
-        - "Grade: First Class"
-        - "Final Year Project: Mathematical Trading Model Based on Improved MACD for Stock Market"
-        - "Supervisor: Prof. Lizhi Liao"
+        - Description 1.
+        - Description 2.
 
-
-- title: Professional Experience
+- title: Experience
   type: time_table
   contents:
-    - title: Research Asistant
-      institution: Data Science Unit, School of Informatics, The University of Edinburgh
-      year: 2022 - 2023
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
       description:
-        - "Undertook the Turing project: <a href='https://demi-wlw.github.io/projects/supervisedClust/'>Supervised clustering of critically ill patients</a>."
-    
-    - title: Intern
-      institution: Census and Statistics Department, Hong Kong Government
-      year: 06.2019 - 07.2019
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
       description:
-        - Analyzed the current and forecast expenditure of annual training programs in Hong Kong.
+        - Description 1.
+        - Description 2.
 
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
+
+    - title: Professor of Theoretical Physics
+      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+      year: 1911 - 1917
+      description:
+
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1909 - 1911
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2021
+    - year: 1921
       items: 
-        - The Baptist Convention of Hong Kong Outstanding Student Awards
-    - year: 2020
+        - Nobel Prize in Physics 
+        - Matteucci Medal
+    - year: 2029
       items: 
-        - Mr. Li Men Jan Prize in Mathematics
-    - year: 2019
-      items: 
-        - Vincent Woo Scholarship Scheme for Outstanding Mainland Students
-        - Stonehage Fleming/Marais Prizes, Simon Marais Mathematics Competition
+        - Max Planck Medal
 
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Topic 1.
+      items: 
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
 
-- title: Programming Skills
+- title: Other Interests
   type: list
   contents:
-    - <u>Python</u>, <u>R</u>, <u>SQL</u>, <u>MATLAB</u>, <u>JAVA</u>, <u>Latex</u>
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

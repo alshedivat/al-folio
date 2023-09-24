@@ -2,13 +2,13 @@
 var codeBlocks = document.querySelectorAll('pre');
 codeBlocks.forEach(function (codeBlock) {
   if (codeBlock.querySelector('pre:not(.lineno)') || codeBlock.querySelector('code')) {
+    // create copy button
     var copyButton = document.createElement('button');
     copyButton.className = 'copy';
     copyButton.type = 'button';
     copyButton.ariaLabel = 'Copy code to clipboard';
     copyButton.innerText = 'Copy';
     copyButton.innerHTML = '<i class="fas fa-clipboard"></i>';
-    codeBlock.append(copyButton);
 
     // get code from code block and copy to clipboard
     copyButton.addEventListener('click', function () {
@@ -32,5 +32,15 @@ codeBlocks.forEach(function (codeBlock) {
         copyButton.innerHTML = '<i class="fas fa-clipboard"></i>';
       }, waitFor);
     });
+    
+    // create wrapper div
+    var wrapper = document.createElement('div');
+    wrapper.className = 'code-display-wrapper';
+
+    // add copy button and code block to wrapper div
+    const parent = codeBlock.parentElement;
+    parent.insertBefore(wrapper, codeBlock);
+    wrapper.append(codeBlock);
+    wrapper.append(copyButton);
   }
 });
