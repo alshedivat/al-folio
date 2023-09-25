@@ -1,43 +1,170 @@
 ---
 layout: post
-title: a post with table of contents
-date: 2023-03-20 11:59:00-0400
-description: an example of a blog post with table of contents
-tags: formatting toc
-categories: sample-posts
+title: How to use Eddie (The ECDF Linux Compute Cluster)
+date: 2023-09-25
+description: It is a High-performance computing cluster of the University of Edinburgh
+tags: code
+categories: site-posts
 giscus_comments: true
-related_posts: false
-published: false
+related_posts: true
+published: true
 toc:
-  beginning: true
+  sidebar: right
+# beginning: true
 ---
-This post shows how to add a table of contents in the beginning of the post.
+More about Eddie please see [here](https://www.ed.ac.uk/information-services/research-support/research-computing/ecdf/high-performance-computing).
 
-## Adding a Table of Contents
-
-To add a table of contents to a post, simply add
-```yml
-toc:
-  beginning: true
+## Login
+Open the terminal and input:
+```shell
+ssh <YOUR UUN>@eddie.ecdf.ed.ac.uk
 ```
-to the front matter of the post. The table of contents will be automatically generated from the headings in the post.
+to login to the home directory.
+> ##### WARNING
+> As mentioned by the IT staff, Eddie of UoE does not support the `Remote-ssh` login in VScode extension due to security issues. \
+> But it is fine to use the `scp` or `sftp` extension to only manage the file system.
+{: .block-warning }
 
-### Example of Sub-Heading 1
+## Folder path
+This is the shared group space in UoE. \
+**Eddie**:
+```
+/exports/<COLLEGE>/eddie/<SCHOOL>/groups/<GROUP NAME>/
+```
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+**DataStore**: 
+```
+/exports/<COLLEGE>/datastore/<SCHOOL>/groups/<GROUP NAME>/
+```
+> ##### TIP
+> All-caps words in `< >` should be replaced with your own choices. \
+> DataStore is a network file storage service.
+{: .block-tip }
 
-### Example of another Sub-Heading 1
+## Basic Commands on Eddie 
+To start an interactive session run:
+```shell
+$ qlogin 
+# The default maximum runtime is 48 hours. The default resources: 1 core, 1 GB memory.
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+$ qlogin -l h_vmem=1G 
+# request memory for an interactive session
 
-## Table of Contents Options
+$ qlogin -pe gpu 1 
+# request 1 gpu (need for torch and memory usage is at least 2GB)
 
-If you want to learn more about how to customize the table of contents, you can check the [jekyll-toc](https://github.com/toshimaru/jekyll-toc) repository.
+$ qlogin -q staging 
+# choose the staging environment
+```
 
-### Example of Sub-Heading 2
+Staging data (transfer data between Eddie and DataStore):
+```shell
+$ qsub stagein/out.sh 
+# stagein/out.sh file content can be seen in Eddie handbook (need UUN login)
+```
+> ##### TIP
+> It is also possible to sync the files between local computer and Eddie directly using `scp` or `sftp`.
+{: .block-tip }
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+To view current running jobs
+```shell
+$ qstat
+```
+To cancel a job,
+```shell
+$ qdel <JOB IDENTIFIER>
+```
+Detailed information about completed jobs is available with the qacct command:
+```shell
+$ qacct -j <JOB IDENTIFIER>
+```
 
-### Example of another Sub-Heading 2
+## Set up the Anaconda Environment
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+### Add path and create a virtual environment
+Configure the path for your environments directory, i.e, the directory where all your conda environments will be stored, and packages (pkgs) directory used as a cache for your conda packages. By default cache for packages will be placed under `~/.conda/pkgs` and will very likely cause your home directory to go over quota as a result. We recommend using the group space you have used for your conda environments instead. **Note that this should be an existing directory, so you need to create it first if it doesn't already exist, before running the command below.**
+```shell
+$ module load anaconda # version 5.0.1
+```
+Skip this step if already created the virtual environment
+```shell
+$ conda config --add envs_dirs /exports/<COLLEGE>/eddie/<SCHOOL>/groups/<GROUP NAME>/anaconda/envs
+
+$ conda config --add pkgs_dirs /exports/<COLLEGE>/eddie/<SCHOOL>/groups/<GROUP NAME>/anaconda/pkgs
+```
+Once you have configured your `envs_dirs` and `pkgs_dirs`, you can create an environment. The example below creates an environment specifying particular Python versions (also the vresion used for this project):
+```shell
+$ conda create -n %env_name% python=3.9
+```
+To list your conda environments:
+```shell
+$ conda info --envs
+```
+
+### Activate your environment
+Switch to the created environment and deactivate the environment when no longer needed:
+```shell
+$ source activate %env_name%
+$ source deactivate
+```
+
+### Install required packages
+```shell
+$ conda install pip
+$ pip --no-cache-dir install -r requirements.txt 
+# `--no-cache-dir` is to ensure torch installed successfully
+```
+**Some package management commands:**
+```shell
+$ conda list 
+# To see what packages are in the active environment
+$ conda search matplotlib 
+# To search for a package in the Anaconda repositories
+$ conda install matplotlib=1.4.1 
+# To install a package e.g. matplotlib version 1.4.1
+```
+
+#### Using pip
+If a package is not available in the Anaconda repositories it can still be installed with `pip` in the usual way. First install `pip` into your active Anaconda environment. You must install pip into your environment first before running a pip command. Otherwise, `pip install` will use the pip installed in the Anaconda directory (which users do not have write access to) and your installation will fail. Once you have installed pip in your environment, then you can install a package using pip into your environment:
+```shell
+$ conda install pip
+$ pip install matplotlib
+```
+
+## Set up R Environment
+
+### Configure R packages path
+```shell
+$ module load cmake/3.5.2
+# some packages may need this to be loaded first
+$ module load igmm/apps/R/4.1.3
+$ export R_LIBS=/exports/<COLLEGE>/eddie/<SCHOOL>/groups/<GROUP NAME>/rlibs
+```
+
+**Install required packages in R**
+```R
+> install.packages("tidyverse")
+```
+
+## Run Code on Eddie
+### Through job submission
+**Example**
+```shell
+$ qsub run_job.sh 
+# job submission files are available in shell folder
+```
+
+### Through interaction session
+First start an interaction session, specify max run time, memory usage (gpu) and activate environment then run according to the following:
+#### Run Jupyter notebook
+```shell
+$ jupyter nbconvert --to notebook --inplace --execute jupyter-notebook.ipynb
+```
+`nbconvert` will fail if any cell takes longer than 30s to run, then add following option to disable timing
+```
+--ExecutePreprocessor.timeout=-1
+```
+View jupyter notebook ouptputs
+```shell
+$ nbpreview jupyter-notebook.ipynb
+```
