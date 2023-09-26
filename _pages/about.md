@@ -26,7 +26,7 @@ in Mumbai, India. My research interests lie at the intersection of **macroeconom
 
 I completed my Masters in Economics from the <a target="_blank" href="https://en.unisi.it/departments/department-economics-and-statistics">University of Siena</a>, Italy, and my Bachelor's degree from <a target="_blank" href="https://azimpremjiuniversity.edu.in/programmes/ba-in-economics"> Azim Premji University</a>, India.
 
-I have worked for oragnizations like <a target="_blank" href="https://krea.edu.in/ieindia/"> Inclusion Economics (formerly EPoD) </a> and <a target="_blank"  href="https://www.core-econ.org/">  CORE Economics Education. </a>
+Previously, I worked for oragnizations like <a target="_blank" href="https://krea.edu.in/ieindia/"> Inclusion Economics (formerly EPoD) </a> and <a target="_blank"  href="https://www.core-econ.org/">  CORE Economics Education. </a>
 
 
 
