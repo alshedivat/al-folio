@@ -1,23 +1,15 @@
 {
   "basics": {
-    "name": "Albert Einstein",
+    "name": "Sijia Liu",
     "label": "Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
+    "email": "sijial@alumni.cmu.edu",
+    "url": "https://sijial430.github.io/",
+    "summary": "A NLP enthusiast with a solid background in Statistics and Computational Social Science.",
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
+        "username": "Letti Liu",
         "url": "https://twitter.com/AlbertEinstein"
       }
     ]
@@ -63,15 +55,29 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Mandarin",
       "fluency": "Native speaker"
     },
     {
       "language": "English",
       "fluency": "Fluent"
+    },
+    {
+      "language": "German",
+      "fluency": "1-Year learning"
+    },
+    {
+      "language": "Korean",
+      "fluency": "1-Year learning"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "interest": "filmmaking",
+      "title": "Wedding Bells",
+      "award": "Seattle International Film Festival (SIFF)"
+    }
+  ],
   "references": [],
   "projects": []
 }

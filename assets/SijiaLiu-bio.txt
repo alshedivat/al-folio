@@ -1,0 +1,4 @@
+Sijia Liu is a research scientist at Amazon Alexa AI in Sunnyvale, where she works on conversational AI and supervised fine-tuning. She received
+a Masters in Statistics from Carnegie Mellon University in 2018,
+where she was advised by Prof. Howard Seltman, and she received two Bachelor's degrees in
+Sociology and Economics from Peking University in 2017. 
