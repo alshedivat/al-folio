@@ -40,36 +40,22 @@ layout: default
   </header>
 
   <article class="post-content">
-    {% if page.toc and page.toc.beginning %}
-    <div id="table-of-contents">
-      {% toc %}
-    </div>
-    <hr>
-    {% endif %}
-    <div id="markdown-content">
-      {{ content }}
-    </div>
+    {{ content }}
   </article>
 
-  {%- if page.related_publications != null and page.related_publications.size > 0 -%}
-  {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
-  <h2>References</h2>
-  <div class="publications">
-    {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
-  </div>
+  {%- if site.disqus_shortname and page.comments -%}
+    <div id="disqus_thread" style="max-width: {{ site.max_width }}; margin: 0 auto"></div>
+    <script type="text/javascript">
+      var disqus_shortname  = '{{ site.disqus_shortname }}';
+      var disqus_identifier = '{{ page.id }}';
+      var disqus_title      = {{ page.title | jsonify }};
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   {%- endif %}
-
-  {%- if site.related_blog_posts.enabled -%}
-    {%- if page.related_posts == null or page.related_posts -%}
-      {% include related_posts.html %}
-    {%- endif %}
-  {%- endif %}
-
-  {%- if site.disqus_shortname and page.disqus_comments -%}
-    {% include disqus.html %}
-  {%- endif %}
-  {%- if site.giscus.repo and page.giscus_comments -%}
-    {% include giscus.html %}
-  {%- endif -%}
 
 </div>

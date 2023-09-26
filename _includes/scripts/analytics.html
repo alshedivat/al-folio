@@ -8,11 +8,36 @@
     gtag('config', '{{ site.google_analytics }}');
   </script>
 {%- endif -%}
-{%- if site.enable_cronitor_analytics -%}
-  <!-- Cronitor RUM -->
-  <script async src="https://rum.cronitor.io/script.js"></script>
-  <script>
-    window.cronitor = window.cronitor || function() { (window.cronitor.q = window.cronitor.q || []).push(arguments); };
-    cronitor('config', { clientKey: '{{site.cronitor_analytics}}' });
-  </script>
-{%- endif -%}
+
+{% if site.enable_panelbear_analytics %}
+<!-- Panelbear Analytics - Privacy-friendly website analytics tool -->
+<script async src="https://cdn.panelbear.com/analytics.js?site={{site.panelbear_analytics}}"></script>
+<script>
+    window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
+    panelbear('config', { site: '{{site.panelbear_analytics}}' });
+</script>
+<!-- Events for clicks on research and CV -->
+<script>
+	let buttonCV = document.getElementById("show-cv");
+	buttonCV.addEventListener("click", function () {
+	panelbear("track", "ShowCV");
+	});
+</script>
+<script>
+	let buttonResearch = document.getElementById("show-research");
+	buttonResearch.addEventListener("click", function () {
+	panelbear("track", "ShowResearch");
+	});
+</script>
+{% endif %}
+
+<!-- Insights Analytics - privacy-friendly (cookie-less) analytics -->
+<script src="https://getinsights.io/js/insights.js"></script>
+<script>
+	insights.init('tAO8SOArjDvm5XhY');
+	insights.trackPages();
+	insights.track({id: "show-research", parameters: {showresearch: "show-research"}});
+	insights.track({id: "show-cv", parameters: {showcv: "show-cv"}});
+</script>
+
+
