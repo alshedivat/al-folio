@@ -76,6 +76,8 @@ Please including the following as a single PDF:
 * **grade transcript**
 * anything else you would like to share 😄
 
+**Note:** Please check the official call carefully. Due to state regulation some position may require good to very good German skills 🇩🇪.
+
 ## Postdocs
 
 <!-- Post-doctoral candidates are encouraged to contact Dr. Becker directly via e-mail to inquire about post-doctoral positions (subject: "Postdoc Application {YEAR}-{MONTH}"). -->
@@ -105,6 +107,8 @@ Please including the following as a single PDF:
     * two contacts for potential recommendations (e.g., your bachelor and master thesis advisors)
 * **grade transcript**
 * anything else you would like to share 😄
+
+**Note:** Please check the official call carefully. Due to state regulation some position may require good to very good German skills 🇩🇪.
 
 
 ## Students
