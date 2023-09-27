@@ -11,7 +11,7 @@ nav_order: 21
 
 > The [current call for Postdocs and PhD applications](https://jobs.uni-rostock.de/jobposting/695791729fb8928b74602186ca8fa4f7111bbfc00) is open until **October 15th, 2023**.
 
-**Note** that due to state regulation this particular position requires good to very good German skills 🇩🇪.
+**Note** that due to state regulation this particular position needs you to be proficient at speaking German 🇩🇪.
 
 
 ## Our Mission & Values
@@ -78,7 +78,7 @@ Please including the following as a single PDF:
 * **grade transcript**
 * anything else you would like to share 😄
 
-**Note:** Please check the official call carefully. Due to state regulation some position may require good to very good German skills 🇩🇪.
+**Note:** Please check the official call. Due to state regulation some position may require you to be proficient at speaking German  🇩🇪.
 
 ## Postdocs
 
@@ -110,8 +110,7 @@ Please including the following as a single PDF:
 * **grade transcript**
 * anything else you would like to share 😄
 
-**Note:** Please check the official call carefully. Due to state regulation some position may require good to very good German skills 🇩🇪.
-
+**Note:** Please check the official call. Due to state regulation some position may require you to be proficient at speaking German  🇩🇪.
 
 ## Students
 
