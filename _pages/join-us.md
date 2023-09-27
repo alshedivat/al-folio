@@ -11,6 +11,8 @@ nav_order: 21
 
 > The [current call for Postdocs and PhD applications](https://jobs.uni-rostock.de/jobposting/695791729fb8928b74602186ca8fa4f7111bbfc00) is open until **October 15th, 2023**.
 
+**Note** that due to state regulation this particular position requires good to very good German skills 🇩🇪.
+
 
 ## Our Mission & Values
 
