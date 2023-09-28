@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 <!-- about.html -->
@@ -8,9 +8,7 @@ layout: default
         <article>
           {% if page.profiles -%}
           {% for profile in page.profiles %}
-          {% unless forloop.first %}
           <hr>
-          {% endunless %}
           <div class="profile float-{%- if profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             {%- if profile.image %}
               {%- assign profile_image_path = profile.image | prepend: 'assets/img/' -%}
