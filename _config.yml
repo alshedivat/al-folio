@@ -386,6 +386,11 @@ mathjax:
 masonry:
   version: "4.2.2"
   integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
+mdb:
+  version: "4.20.0"
+  integrity:
+    css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
+    js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
 medium_zoom:
   version: "1.0.8"
   integrity: "sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8="
