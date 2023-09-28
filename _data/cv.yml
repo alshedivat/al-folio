@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Tarini Saka
     - name: Date of Birth
-      value: 14th March 1879
+      value: 23rd November 1997
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
