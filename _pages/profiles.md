@@ -1,8 +1,8 @@
 ---
 layout: profiles
-title: people
 permalink: /people/
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+title: people
+description: members of the lab or group
 nav: true
 nav_order: 6
 
