@@ -17,9 +17,11 @@ social: false  # includes social icons at the bottom of the page
 
 Welcome to my professional page!
 
-I am currently a Max Weber Fellow and Part-Time Assistant Professor at the Department of Political and Social Sciences at the European University Institute in Florence. You can view my profil on the [EUI website](https://www.eui.eu/people?id=giacomo-vagni). I completed my PhD in Sociology at Nuffield College, University of Oxford.
+I am a lecturer in the Department of Sociology at the University of Essex. I was previously a Max Weber Fellow and Part-Time Assistant Professor at the Department of Political and Social Sciences at the European University Institute in Florence. I completed my PhD in Sociology at Nuffield College, University of Oxford.
 
-You can reach me at [giacomo.vagni@eui.eu](mailto:giacomo.vagni@eui.eu)
+You can view my profile on the [Essex University website]([https://www.eui.eu/people?id=giacomo-vagni](https://www.essex.ac.uk/people/VAGNI45707)).
+
+You can reach me at [g.vagni@essex.ac.uk](mailto:g.vagni@essex.ac.uk)
 
 &nbsp;
 &nbsp;
