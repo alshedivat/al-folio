@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Max Weber Fellow, European University Institute</a>
+subtitle: <a href='#'>Assistant Professor, University of Essex</a>
 
 profile:
   align: right
