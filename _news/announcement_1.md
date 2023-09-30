@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-07-19
 inline: true
 ---
+<a href="https://petsymposium.org/2023/"> Attended Beyond the FTC: The Future of Privacy Enforcement</a>
 
-A simple inline announcement.
