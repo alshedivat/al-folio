@@ -7,11 +7,11 @@ title: A Science Apprentice for Biophysics # the website title (if blank, full n
 first_name: Shikai
 middle_name: 
 last_name: Jin
-email: sj52@rice.edu
+email: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A personal website for Shikai Jin. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
-  A personal website for Shikai Jin. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Last updated: Jul 31, 2022.
+  A personal website for Shikai Jin. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Last updated: Sep 30, 2023.
 keywords: shikai, Shikai Jin, protein folding, personal website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
