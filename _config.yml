@@ -7,7 +7,7 @@ title: A Science Apprentice for Biophysics # the website title (if blank, full n
 first_name: Shikai
 middle_name: 
 last_name: Jin
-email: 
+email: shikai.jin@rice.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A personal website for Shikai Jin. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
