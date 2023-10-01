@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2023-07-19
-inline: true
+title: My work on Google Search’s Market Under Vertical Segmentation was presented      
+date: 2023--09-28
+inline: True
 ---
-<a href="https://petsymposium.org/2023/">Attended Privacy Enhancing Technologies Symposium, 2023, Lausanne, Switzerland</a>
 
+<a href="https://conferences.law.stanford.edu/tsrc/"> My work on Google Search was presented on Trust and Safety Conference, Stanford</a>

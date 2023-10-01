@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-03-29 08:00:00-0400
+date: 2023-07-19
 inline: true
 ---
-<a href="https://events.uiowa.edu/74384"> Attended Beyond the FTC: The Future of Privacy Enforcement</a>
-<!--A simple inline announcement with Markdown emoji! :sparkles: :smile: -->
+<a href="https://petsymposium.org/2023/">Attended Privacy Enhancing Technologies Symposium, Lausanne, Switzerland</a>
+
