@@ -22,9 +22,9 @@
     - title: Bachelor of Science in Computer Science
       institution: Lahore University Management Sciences, Lahore, Pakistan
       year: 2020
-      #description:
-       # - Description 1.
-        #- Description 2.
+      description:
+        - Description 1.
+        - Description 2.
 
 - title: Experience
   type: time_table
@@ -39,10 +39,10 @@ with the California Consumer Privacy Act (CCPA).
 revealed that Google Search acts as a gatekeeper for the internet, as Google dominated in 24 out of the 30 vertical
 market segments. The findings are currently under submission to International AAAI Conference on Web and Social
 Media(ICWSM) 2024.
-        #- title: Description 3.
-          #contents:
-           # - Sub-description 1.
-           # - Sub-description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
     - title: Analyst Software Engineer
       institution: Afiniti, Lahore, Pakistan
       year: June 2020 - Aug 2020
