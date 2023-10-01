@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Navigating to Objects in the Real World](https://theophilegervet.github.io/projects/real-world-object-navigation/) in Science Robotics 2023
+[Navigating to Objects in the Real World](https://theophilegervet.github.io/projects/real-world-object-navigation/) accepted in Science Robotics 2023

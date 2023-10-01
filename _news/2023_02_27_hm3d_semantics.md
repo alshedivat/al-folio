@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Habitat-Matterport 3D Semantics Dataset](https://arxiv.org/abs/2210.05633) at CVPR 2023
+[Habitat-Matterport 3D Semantics Dataset](https://arxiv.org/abs/2210.05633) accepted at CVPR 2023
