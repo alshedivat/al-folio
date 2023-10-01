@@ -4,7 +4,7 @@ title: I am a Strange Loop
 date: 2023-08-09
 description: Douglas Hofstadter
 img: assets/books/i-am-a-strange-loop.jpg
-importance: 1
+importance: 2
 category: philosophy
 giscus_comments: false
 related_posts: false

@@ -5,7 +5,7 @@ date: 2021-07-09
 description: Kai-Fu Lee
 img: assets/books/ai-superpowers.jpg
 importance: 2
-category: technology
+category: progress & technology
 giscus_comments: false
 related_posts: false
 toc:

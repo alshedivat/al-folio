@@ -4,8 +4,8 @@ title: How Innovation Works
 date: 2022-06-11
 description: Matt Ridley
 img: assets/books/how-innovation-works.jpg
-importance: 1
-category: technology
+importance: 2
+category: progress & technology
 giscus_comments: false
 related_posts: false
 toc:
