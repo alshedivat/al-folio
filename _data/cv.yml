@@ -3,6 +3,8 @@
   contents:
     - name: Full Name
       value: Muhammad Abu Bakar Aziz
+    - name: Date of Birth
+      value: 14th March 1879
     - name: Languages
       value: English, German
 
@@ -10,8 +12,8 @@
   type: time_table
   contents:
     - title: PhD
-      institution: Northeastern University, Boston, MA, USA
-      year: 2021 - Present
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
         - Description 1.
         - Description 2.
@@ -19,9 +21,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Bachelor of Science in Computer Science
-      institution: Lahore University Management Sciences, Lahore, Pakistan
-      year: 2020
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
         - Description 1.
         - Description 2.
@@ -29,41 +31,35 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Graduate Research Assistant
-      institution: Northeastern University, Boston, MA, USA
-      year: 2021 - Present
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
       description:
-        - My current research project focuses on the development of tools to measure the compliance of online platforms
-with the California Consumer Privacy Act (CCPA).
-        - Co-led the project and introduced a new session methodology to understand people’s search behavior. Our findings
-revealed that Google Search acts as a gatekeeper for the internet, as Google dominated in 24 out of the 30 vertical
-market segments. The findings are currently under submission to International AAAI Conference on Web and Social
-Media(ICWSM) 2024.
+        - Description 1.
+        - Description 2.
         - title: Description 3.
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Analyst Software Engineer
-      institution: Afiniti, Lahore, Pakistan
-      year: June 2020 - Aug 2020
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
       description:
-        - Analyzed and reported clients monthly performance based on revenue and sales using SQL
-        - Identified and solved data issues that led to improved customer and agent model prediction by 4%
+        - Description 1.
+        - Description 2.
 
-    - title: Research Assistant
-      institution: Lahore University of Management Sciences, Lahore, Pakistan
-      year: Sep 2019 - May 2020
-       description:
-        - Built automated tools in Python and Javascript to extract Mobile Application Information data from Google Play
-Store every other day for about six month
-        - Uncovered a large number of Android applications(900) using PPI services potentially involved in inflating ranking
-and rating on Google Play Store
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
 
     - title: Professor of Theoretical Physics
       institution: Karl-Ferdinand University, Prague, Czechoslovakia
       year: 1911 - 1917
       description:
 
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1909 - 1911
 
 - title: Open Source Projects
   type: time_table
