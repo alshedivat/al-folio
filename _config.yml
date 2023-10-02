@@ -153,7 +153,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: xen-diary # put your disqus shortname
+disqus_shortname: xen-diaries # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
