@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - EggsyOnCode
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - EggsyOnCode/local-gov-app
+  - EggsyOnCode/qf-calculator
+  - EggsyOnCode/design-patterns
+  - EggsyOnCode/AssetSwapApp
