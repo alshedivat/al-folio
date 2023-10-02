@@ -1,0 +1,449 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<!-- ======================================================================= -->
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+<style type="text/css">
+  body {
+    font-family: "Titillium Web","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight:300;
+    font-size:18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+  }
+
+  h1 {
+    font-weight:300;
+  }
+
+  .disclaimerbox {
+    background-color: #eee;
+    border: 1px solid #eeeeee;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    padding: 20px;
+  }
+
+  video.header-vid {
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  img.header-img {
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  img.rounded {
+    border: 1px solid #eeeeee;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  a:link,a:visited
+  {
+    color: #1367a7;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #208799;
+  }
+
+  td.dl-link {
+    height: 160px;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+    box-shadow:
+            0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+            5px 5px 0 0px #fff, /* The second layer */
+            5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+            10px 10px 0 0px #fff, /* The third layer */
+            10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+            15px 15px 0 0px #fff, /* The fourth layer */
+            15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+            20px 20px 0 0px #fff, /* The fifth layer */
+            20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+            25px 25px 0 0px #fff, /* The fifth layer */
+            25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+    margin-left: 10px;
+    margin-right: 45px;
+  }
+
+  .layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+    box-shadow:
+            0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+            5px 5px 0 0px #fff, /* The second layer */
+            5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+            10px 10px 0 0px #fff, /* The third layer */
+            10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+  }
+
+  .vert-cent {
+    position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  hr
+  {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+
+  #authors td {
+    padding-bottom:5px;
+    padding-top:30px;
+  }
+</style>
+<!-- ======================================================================= -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114291442-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114291442-6');
+</script>
+
+
+<script type="text/javascript" src="resources/hidebib.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="icon" type="image/png" href="../img/favicon.ico">
+  <title>GO to Any Thing (GOAT)</title>
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+
+<body>
+      <br>
+      <center><span style="font-size:44px;font-weight:bold;">GO to Any Thing (GOAT)</span></center>
+      <center><span style="font-size:32px;font-weight:bold;">Lifelong Learning for Multitask Navigation</span></center><br/>
+      <table align=center width=600px>
+      <!--
+      <tr>
+        <td align=center width=100px>
+        <center><span style="font-size:22px"><a href="https://theophilegervet.github.io/" target="_blank">Theophile Gervet</a></span></center></td>
+
+        <td align=center width=100px>
+        <center><span style="font-size:22px"><a href="https://soumith.ch/" target="_blank">Soumith Chintala</a></span></center></td>
+          
+        <td align=center width=100px>
+        <center><span style="font-size:22px"><a href="https://faculty.cc.gatech.edu/~dbatra/" target="_blank">Dhruv Batra</a></span></center></td>
+
+        <td align=center width=100px>
+        <center><span style="font-size:22px"><a href="https://people.eecs.berkeley.edu/~malik/" target="_blank">Jitendra Malik</a></span></center></td>
+          
+        <td align=center width=160px>
+        <center><span style="font-size:22px"><a href="https://devendrachaplot.github.io/" target="_blank">Devendra Singh Chaplot</a></span></center></td>
+      <tr/>
+      <tr>
+        <td align=center width=100px>
+        <center><span style="font-size:20px">CMU</span></center></td>
+        <td align=center width=100px>
+        <center><span style="font-size:20px">FAIR</span></center></td>
+        <td align=center width=100px>
+        <center><span style="font-size:20px">FAIR</span></center></td>
+        <td align=center width=100px>
+        <center><span style="font-size:20px">FAIR</span></center></td>
+        <td align=center width=100px>
+          <center><span style="font-size:20px">FAIR</span></center></td>
+      <tr/>
+      -->
+      </table>
+      <!-- <table align=center width=700px> -->
+          <!-- <tr> -->
+            <!-- <td align=center width=700px><center><span style="font-size:22px">Published at <a href="https://neurips.cc/">NeurIPS, 2021</a> </span></center></td> -->
+          <!-- <tr/> -->
+      <!-- </table><br/> -->
+      <table align=center width=700px>
+          <tr>
+            <td align=center width=100px><center><span style="font-size:28px"><a href="">[Arxiv]</a></span></center></td>
+            <!-- <td align=center width=100px><center><span style="font-size:28px"><a href="https://www.science.org/doi/10.1126/scirobotics.adf6991">[Science Robotics]</a></span></center></td> -->
+            <td align=center width=100px><center><span style="font-size:28px"><a href="">[Code]</a></span></center></td>
+            <td align=center width=100px><center><span style="font-size:28px"><a href="">[Talk]</a></span></center></td>
+            <td align=center width=100px><center><span style="font-size:28px"><a href="">[Slides]</a></span></center></td>
+          <tr/>
+      </table>
+      
+      </table>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1000px>
+          <center><a href="../../assets/real-world-object-navigation/summary.gif"><img src = "../../assets/real-world-object-navigation/summary.gif" width="800px"></img></a><br></center>
+        </td></tr>
+      </table><br>
+
+      <div style="width:800px; margin:0 auto; text-align:justify">
+        We present the Go To Anything agent: the first universal navigation system that can search for and navigate to any object however it is specified - as an image, language, or a category - in completely unseen environments, without requiring pre-computed maps or locations of objects.
+      </div>
+      <br><hr>
+
+      <center><h1>GOAT Problem</h1></center>
+      <div style="width:800px; margin:0 auto; text-align:justify">
+        Imagine dropping a robot in an unknown home and asking it pick up a cup from the coffee table and bring it to the sink. What makes this challenging?
+        The robot needs to explore the environment, detect and localize relevant objects, remember their locations, and navigate to, pick, and place objects.
+        In any realistic deployment setting, a general navigation primitive should be multitask and lifelong.
+      </div>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1200px>
+          <center><a href="../../assets/goat/goat_task.png"><img src="../../assets/goat/goat_task.png" width="800px"></img></a></center>
+        </td></tr>
+      </table>
+      <br><hr>
+
+      <center><h1>GOAT System</h1></center>
+      <div style="width:800px; margin:0 auto; text-align:justify">
+      As the agent moves through the scene, the perception system processes RGB-D camera inputs to detect object instances and localize them into a top-down semantic map of the scene.
+      In addition to the semantic map, GOAT maintains an Object Instance Memory that localizes individual instances of object categories in the map and stores images in which each instance has been viewed. 
+      This memory allows the agent to localize and navigate to any object instances that have been observed previously.
+      A global policy takes this lifelong memory representation and a goal object specified as language, an image, or a category, and outputs a long-term goal in the map.
+      Finally, a local policy plans a trajectory to achieve this long-term goal and outputs actions to be taken by the agent.
+      </div>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1200px>
+          <center><a href="../../assets/goat/system_architecture.png"><img src = "../../assets/goat/system_architecture.png" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+      <br>
+
+      <div style="width:800px; margin:0 auto; text-align:justify">
+      The perception system takes as input the current depth image, RGB image, and pose reading from onboard sensors. 
+      It uses off-the-shelf models to segment instances in the RGB image and estimate depth to fill in holes for reflective objects in raw sensor readings.
+      Object detections are then projected and added to a top-down map of the scene.
+      For each object detected, we also store the image in which the object was detected as part of the object instance memory.
+      </div>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1200px>
+          <center><a href="../../assets/goat/perception.png"><img src = "../../assets/goat/perception.png" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+      <br>
+
+      <div style="width:800px; margin:0 auto; text-align:justify">
+      Our Object Instance Memory clusters object detections across time into instances using their location in the top-down map and their category.
+      Each object instance is associated with the images in which it has been viewed. 
+      This allows new goals to be matched against all images of specific instances or categories. 
+      In addition, image features can be pooled within each instance to derive per-instance summary statistics.
+      </div>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1200px>
+          <center><a href="../../assets/goat/memory_representation.png"><img src = "../../assets/goat/memory_representation.png" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+      <br>
+      
+      <div style="width:800px; margin:0 auto; text-align:justify">
+      When a new goal is specified, the agent first checks whether the goal has already been observed in the Object Instance Memory. 
+      The method for computing matches is tailored to the modality of the goal specification. 
+      After an instance is selected, its stored location in the top-down map is used as a long-term point navigation goal. 
+      If no instance is localized, the global policy outputs an exploration goal. 
+      We use frontier-based exploration, which selects the closest unexplored region as the goal.
+      </div>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1200px>
+          <center><a href="../../assets/goat/global_policy.png"><img src = "../../assets/goat/global_policy.png" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+      <br>
+
+      <div style="width:800px; margin:0 auto; text-align:justify">
+      The local policy simply uses the fast marching method to compute actions that move the agent closer to the long-term goal. 
+      </div>
+      <br><hr>
+
+      <center><h1>Large-scale "In the Wild" Empirical Evaluation</h1></center>
+      <div style="width:800px; margin:0 auto; text-align:justify">
+      We evaluate goat “in the wild” in 9 unseen rented homes without pre-computed maps or locations of objects. 
+      We evaluate 4 methods - GOAT and 3 baselines - for 10 trajectories per home with 5-10 goals per trajectory, for a total of 90 hours of experiments.
+      </div>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1000px>
+          <center><a href="../../assets/goat/empirical_evaluation1.gif"><img src = "../../assets/goat/empirical_evaluation1.gif" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+      <br>
+      
+      <div style="width:800px; margin:0 auto; text-align:justify">
+      In total, this represents over 200 different object instances given as image, language, or category goals.
+      </div>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1000px>
+          <center><a href="../../assets/goat/empirical_evaluation2.png"><img src = "../../assets/goat/empirical_evaluation2.png" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+      <br>
+
+      <div style="width:800px; margin:0 auto; text-align:justify">
+      We compare approaches in terms of success rate per goal within a limited budget of 200 robot actions and Success weighted by Path Length (SPL), a measure of path efficiency.
+      GOAT reaches 83% success rate and 0.64 SPL.
+      Performance drop when removing the persistent memory, as the agent needs to re-explore the environment with every goal, or when removing the ability to distinguish object instances from the same category, or when using CLIP features of entire images to localize goals as suggested in prior work.
+      </div>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1000px>
+          <center><a href="../../assets/goat/results.png"><img src = "../../assets/goat/results.png" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+      <br>
+
+      <div style="width:800px; margin:0 auto; text-align:justify">
+      Here you can see a full episode of the GOAT agent operating in an unknown real-world home.
+      </div>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1000px>
+          <center><a href="../../assets/goat/trajectory.gif"><img src = "../../assets/goat/trajectory.gif" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+      <br><hr>
+
+      <center><h1>Applications</h1></center>
+
+      <div style="width:800px; margin:0 auto; text-align:justify">
+        As a general navigation primitive, the GOAT policy can be applied to downstream tasks like pick and place and social navigation.
+        Here you can see it search for a bed, look for an image of a specific teddy bear, and bring it to the already localized bed.
+      </div>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1000px>
+          <center><a href="../../assets/goat/pick_place.gif"><img src = "../../assets/goat/pick_place.gif" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+      <br>
+
+      <div style="width:800px; margin:0 auto; text-align:justify">
+        Here you can see it plan around a person to reach the refrigerator, remove the previous location of the person from the map, and follow the person while updating their location.
+      </div>
+      <table align=center width=1000px>
+        <p style="margin-top:4px;"></p>
+        <tr><td width=1000px>
+          <center><a href="../../assets/goat/social_navigation.gif"><img src = "../../assets/goat/social_navigation.gif" width="800px"></img></a><br></center>
+        </td></tr>
+      </table>
+      <br><hr>
+
+      <center><h1>Short Presentation</h1></center>
+      <table align=center width=300px>
+      <tr><td align=center width=300px>
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/zZ6nlkTZVds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </td></tr>
+      </table>
+      <br>
+
+      <!--
+      <div style="width:800px; margin:0 auto; text-align:justify">
+        Voice by <a href="https://www.btrabucco.com/" target="_blank">Brandon Trabucco</a>.
+      </div>
+      -->
+
+
+      <!--
+      <br><hr>
+      <table align=center width=850px>
+        <center><h1>Paper and Bibtex</h1></center>
+        <tr>
+        <td width=200px align=left>
+        <a href="../papers/neurips21_seal.pdf"><img style="width:200px" src="resources/thumbnail_nts.jpeg"/></a>
+        <center>
+        <span style="font-size:20pt"><a href="../papers/neurips21_seal.pdf">[Paper]</a>
+        </center>
+        </td>
+        <td width=50px align=center>
+        </td>
+        <td width=550px align=left>
+        <p style="text-align:left;"><b><span style="font-size:20pt">Citation</span></b><br/><span style="font-size:6px;">&nbsp;<br/></span> <span style="font-size:15pt">Chaplot, D.S., Dalal, M., Gupta, S., Malik, J. and Salakhutdinov, R. 2021. SEAL: Self-supervised Embodied Active Learning. In NeurIPS.</span></p>
+        <span style="font-size:20pt"><a shape="rect" href="javascript:togglebib('assemblies19_bib')" class="togglebib">[Bibtex]</a></span>
+        <div class="paper" id="assemblies19_bib">
+                <pre xml:space="preserve">
+    @inproceedings{chaplot2021seal,
+    title={SEAL: Self-supervised Embodied Active Learning},
+    author={Chaplot, Devendra Singh and Dalal, Murtaza, and Gupta, Saurabh 
+            and Malik, Jitendra and Salakhutdinov, Ruslan},
+    booktitle={NeurIPS},
+    year={2021}}
+                    </pre>
+            </div>
+            </td>
+            </tr>
+            <tr>
+            <td width=250px align=left>
+            </td>
+            <td width=50px align=center>
+            </td>
+            <td width=550px align=left>
+            
+            </td>
+            </tr>
+        </table>
+        <br><hr>
+        -->
+
+    <!--
+    <center><h1>Related Projects</h1></center>
+      <table align=center width=900px>
+      <tr>
+          <td align=center width=300px>
+              <a href="./neural-slam.html">Active Neural SLAM</a>
+          <center><a href="./neural-slam.html"><img src = "../img/pubs/ans.gif" height="120px"></img></a><br></center>
+          </td>
+          <td align=center width=300px>
+              <a href="./semantic-exploration.html">Semantic Exploration</a>
+          <center><a href="./semantic-exploration.html"><img src = "../img/pubs/semexp.gif" height="120px"></img></a><br></center>
+          </td>
+          <td align=center width=300px>
+              <a href="./SemanticCuriosity.html">Semantic Curiosity</a>
+          <center><a href="./SemanticCuriosity.html"><img src = "../img/pubs/semcur.gif" height="120px"></img></a><br></center>
+          </td>
+      </tr>
+      </table>
+    <br><hr>
+    -->
+
+    <!--
+    <table align=center width=800px>
+      <tr><td width=800px><left>
+      <center><h1>Acknowledgements</h1></center>
+      Carnegie Mellon University effort was supported in part by the US Army Grant W911NF1920104 and DSTA. UIUC effort is partially funded by NASA Grant 80NSSC21K1030. Jitendra Malik received funding support from ONR MURI (N00014-14-1-0671). Ruslan Salakhutdinov would also like to acknowledge NVIDIA’s GPU support.       
+    <br>
+          Website template from <a href="https://richzhang.github.io/colorization">here</a> and <a href="https://pathak22.github.io/modular-assemblies/">here</a>. <br>
+      </left></td></tr>
+    </table>
+    -->
+
+  <br><br>
+<script xml:space="preserve" language="JavaScript">
+hideallbibs();
+</script>
+</body>
+</html>
