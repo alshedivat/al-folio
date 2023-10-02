@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:23.10⁠
 ENV DEBIAN_FRONTEND noninteractive
 
 Label MAINTAINER Amir Pourmand
