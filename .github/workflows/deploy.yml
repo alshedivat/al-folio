@@ -30,8 +30,10 @@ jobs:
       run: |
         pip3 install --upgrade jupyter
         npm install -g mermaid.cli
+        npm install -g purgecss
         export JEKYLL_ENV=production
-        bundle exec jekyll build
+        bundle exec jekyll build --lsi
+        purgecss -c purgecss.config.js
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
       uses: JamesIves/github-pages-deploy-action@v4
