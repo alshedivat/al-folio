@@ -34,7 +34,7 @@ jobs:
         context: .
         push: true
         platforms: linux/amd64,linux/arm64/v8
-        tags: amirpourmand/al-folio:slim
+        tags: amirpourmand/al-folio
 
     - name: update docker-compose
       shell: bash
