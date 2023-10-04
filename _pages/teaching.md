@@ -10,7 +10,7 @@ nav_order: 5
 ### Russian Language Courses
 
 ##### Spring 2024
-- *RUSS 004 Intermediate Intensive Russian* (Visiting Instructor). Swarthmore College. Swarthmore, VT.
+- *RUSS 004 Intermediate Intensive Russian* (Visiting Instructor). Swarthmore College. Swarthmore, PA.
 
 ##### Summer 2022
 - *Enhanced Intermediate Russian* (Instructor, co-taught with [Tom Dolack](https://wheatoncollege.edu/academics/faculty-directory/dolack-thomas/) and [Julia Katsnelson](https://www.uvm.edu/cas/germanrussian/profiles/julia-katsnelson)). Middlebury College. Middlebury Language Schools. Middlbery, VT.
