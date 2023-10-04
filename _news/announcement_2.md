@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-05-25 
+date: 2023-07-13
 inline: true
 ---
 
-[MuCoMiD: A Multitask graph Convolutional Learning Framework for miRNA-Disease Association Prediction](https://pubmed.ncbi.nlm.nih.gov/35594217/) with Ngan Dong and Stefanie Mücke is now accepted for publication in *IEEE/ACM Transactions of Computational Biology and Bioinformatics*. 
+My first PhD student **Ngan Thi Dong** defended her PhD thesis on [Joint learning from multiple information sources for biological problems](https://www.repo.uni-hannover.de/bitstream/handle/123456789/14261/Dong_Thi_Ngan_2023.pdf?sequence=3&isAllowed=y) Check out her amazing work!

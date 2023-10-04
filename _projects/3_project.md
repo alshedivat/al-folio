@@ -21,6 +21,11 @@ decomposition of some node similarity matrix as node embeddings; and (iii) graph
 
 * Khosla, Megha, Leonhardt, Jurek, Nejdl, Wolfgang, and Anand, Avishek. [Node Representation Learning for Directed Graphs](https://link.springer.com/chapter/10.1007/978-3-030-46150-8_24). In Machine Learning and Knowledge Discovery in Databases - European Conference, ECML PKDD 2019, Würzburg, Germany, September 16-20, 2019, Proceedings, Part I 2019
 
+Our recent work makes a deeper exploration into the overlooked domain of multi-label node classification within the realm of GraphML literature. Graph Neural Networks (GNNs) have demonstrated their prowess in node classification tasks on graphs, particularly in multi-class scenarios. However, the more prevalent and realistic scenario of multi-label node classification, where nodes can possess multiple labels, has received relatively limited attention. We focus on comprehensively analyzing the challenges associated with this domain, encompassing both the scarcity of suitable datasets and the limitations of existing methods, which have hindered progress in this area. Additionally, towards addressing the gaps in our understanding of multi-label node classification in graph data and pave the way for further advancements in this field we make valuable contributions, including the collection of real-world biological datasets, the development of a multi-label graph generator and redefinition of homophily for multi-label scenarios.
+
+* Zhao, T., Dong, N. T., Hanjalic, A., & Khosla, M. [Multi-label Node Classification On Graph-Structured Data](https://openreview.net/pdf?id=EZhkV2BjDP). In Transactions on Machine Learning Research (TMLR) 2023.
+
+
 
 
 

@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2021-12-15 
+date: 2023-09-22 
 inline: true
 ---
 
-Our paper [Membership Inference Attack on Graph Neural Networks](https://arxiv.org/abs/2101.06570) together with Emmanuel Iyiola and Wolfgang Nejdl won the best student paper award at IEEE TPS 2021. 
+Check out my tutorial (together with Luis Galárraga
+) on [Explainable GraphML](https://drive.google.com/file/d/1ItLOrxbC5SkP2BF4kkc_m7R55GMmkNfd/view) presented at ECML 2023
