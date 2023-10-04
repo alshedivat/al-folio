@@ -8,5 +8,5 @@ Use devcontainer.
 
 Run:
 ```bash
-$ make serve
+make serve
 ```
