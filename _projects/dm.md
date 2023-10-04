@@ -71,7 +71,7 @@ We {% cite 2019MNRAS.482..821O %} summarized the cumulative effects of gas being
 
 ### Further hints to the origin of the diversity in rotation curve shapes
 
-{% include figure.html path="assets/img/eta_eta.png" class="img-fluid rounded" width="65%" caption="" %}
+{% include figure.html path="assets/img/eta_eta.png" class="img-fluid rounded" width="65%" caption="Rotation curve shape parameter, η<sub>rot</sub>, as a function of the gravitational importance of the baryonic component at the inner fiducial radius, η<sub>bar</sub>. The latter is approximately the ratio between baryonic and total enclosed masses withing r<sub>fid</sub>. Galaxies are coloured by maximum circular velocity, as indicated by the colourbar. Dark matter-only ΛCDM halos have, on average, η<sub>rot</sub> ~0.65, with 10:90 percentile scatter as indicated by the grey band. Systems with η<sub>bar</sub><0.09 are shown at that value for clarity." %}
 
 ### Supernova feedback-driven dark matter cores as an explanation
 
