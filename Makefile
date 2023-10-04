@@ -1,2 +1,2 @@
-serve-site:
+serve:
 	@bundle exec jekyll serve
