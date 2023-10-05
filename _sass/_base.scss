@@ -62,10 +62,54 @@ img {
 
 blockquote {
   background: var(--global-bg-color);
-  border-left: 2px solid var(--global-theme-color);
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
+  border-left: 5px solid var(--global-theme-color);
+  margin: 1.5em 0;
+  padding: 1em;
   font-size: 1.2rem;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  /* Tips, warnings, and dangers blockquotes */
+  &.block-tip {
+    border-color: var(--global-tip-block);
+    background-color: var(--global-tip-block-bg);
+
+    p {
+      color: var(--global-tip-block-text);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--global-tip-block-title);
+    }
+  }
+
+  &.block-warning {
+    border-color: var(--global-warning-block);
+    background-color: var(--global-warning-block-bg);
+
+    p {
+      color: var(--global-warning-block-text);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--global-warning-block-title);
+    }
+  }
+
+  &.block-danger {
+    border-color: var(--global-danger-block);
+    background-color: var(--global-danger-block-bg);
+
+    p {
+      color: var(--global-danger-block-text);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--global-danger-block-title);
+    }
+  }
 }
 
 // Math
@@ -814,17 +858,6 @@ html.transition *:after {
       }
     }
   }
-
-  .post-content {
-    blockquote {
-      border-left: 5px solid var(--global-theme-color);
-      padding: 8px;
-
-      p {
-        margin-bottom: 0;
-      }
-    }
-  }
 }
 
 progress {
@@ -991,48 +1024,6 @@ nav[data-toggle="toc"] {
     visibility: hidden;
     height: 0;
     top: 0;
-  }
-}
-
-/* Tips, warnings, and dangers blockquotes */
-.post .post-content blockquote {
-  &.block-tip {
-    border-color: var(--global-tip-block);
-    background-color: var(--global-tip-block-bg);
-
-    p {
-      color: var(--global-tip-block-text);
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-      color: var(--global-tip-block-title);
-    }
-  }
-
-  &.block-warning {
-    border-color: var(--global-warning-block);
-    background-color: var(--global-warning-block-bg);
-
-    p {
-      color: var(--global-warning-block-text);
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-      color: var(--global-warning-block-title);
-    }
-  }
-
-  &.block-danger {
-    border-color: var(--global-danger-block);
-    background-color: var(--global-danger-block-bg);
-
-    p {
-      color: var(--global-danger-block-text);
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-      color: var(--global-danger-block-title);
-    }
   }
 }
 
