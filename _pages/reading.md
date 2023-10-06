@@ -9,6 +9,10 @@ nav_order: 4
 
 2023
 
+* Chronicles of Avonlea - L. M. Montgomery
+* The Collectors - Philip Pullman
+* The Pregnant King - Devdutt Pattanaik
+* Durga - Kevin Missal
 * Stardust - Neil Gaiman
 * The Emissary - Yoko Tawada
 * Victoria - Daisy Goodwin 
