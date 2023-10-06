@@ -2,7 +2,9 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/jekyll
 {
 	"name": "Jekyll",
-	"image": "mcr.microsoft.com/devcontainers/jekyll:2-bullseye",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
 
 	// Uncomment the next line to run commands after the container is created.
 	"postCreateCommand": "git config --global core.editor 'code --wait' &&  bundle exec jekyll --version",
