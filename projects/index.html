@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Megha  Khosla | blog</title>
+    <title>Megha  Khosla | research</title>
     <meta name="author" content="Megha  Khosla" />
     <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 " />
@@ -33,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://khosla.github.io/blog/">
+    <link rel="canonical" href="https://khosla.github.io/projects/">
     
     <!-- Dark Mode -->
     
@@ -72,16 +72,16 @@
               </li>
               
               <!-- Blog -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
               </li>
 
               <!-- Other pages -->
               <li class="nav-item ">
                 <a class="nav-link" href="/publications/">publications</a>
               </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/projects/">research</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/projects/">research<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/students/">students</a>
@@ -94,8 +94,8 @@
               </li>
 
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
-                <a id = "light-toggle">
+              <div class="toggle-container">
+                <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
@@ -108,123 +108,146 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      Coming Soon...
-<!--
-<div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1>al-folio</h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">research</h1>
+            <p class="post-description"></p>
+          </header>
 
+          <article>
+            <!-- pages/projects.md -->
+<div class="projects">
+  <!-- Display categorized projects -->
+  <h2 class="category">Graph ML</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid">
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/3_project/">
+      <div class="card hoverable">
+<figure>
 
-  <ul class="post-list">
-    
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/GRL.pdf-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/GRL.pdf-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/GRL.pdf-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/GRL.pdf" alt="project thumbnail">
 
-    
-    
-    
-    
+  </picture>
 
-    <li>
-      <h3>
-        
-        <a class="post-title" href="/assets/pdf/example_pdf.pdf">a post with redirect</a>
-        
-      </h3>
-      <p>you can also redirect to assets like pdf</p>
-      <p class="post-meta"> 1 min read &nbsp; &middot; &nbsp;
-        July 4, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
+</figure>
 
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2021/diagrams/">a post with diagrams</a>
-        
-      </h3>
-      <p>an example of a blog post with diagrams</p>
-      <p class="post-meta"> 3 min read &nbsp; &middot; &nbsp;
-        July 4, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2021/distill/">a distill-style blog post</a>
-        
-      </h3>
-      <p>an example of a distill-style blog post and main elements</p>
-      <p class="post-meta"> 7 min read &nbsp; &middot; &nbsp;
-        May 22, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-  </ul>
-
-  <nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li><li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blog - page 3">3</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/4/index.html" title="blog - page 4">4</a></li>
-      <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Representation Learning</h2>
+          <p class="card-text">New techniques to learn effective node/graph representations</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
 </div>
-!>
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/2_project/">
+      <div class="card hoverable">
+<figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/privacy.pdf-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/privacy.pdf-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/privacy.pdf-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/privacy.pdf" alt="project thumbnail">
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Explainable and privacy preserving graph ML</h2>
+          <p class="card-text">Explainability and privacy preserving techniques for GraphML and their interplay</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+  </div>
+  <h2 class="category">Applications</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid">
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/1_project/">
+      <div class="card hoverable">
+<figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/hppi_star-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/hppi_star-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/hppi_star-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hppi_star.png" alt="project thumbnail">
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Deep Learning for biomedicine</h2>
+          <p class="card-text">Exploiting graph structure for learning over heterogeneous biomedical data</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/5_project/">
+      <div class="card hoverable">
+<figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/rl.pdf-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/rl.pdf-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/rl.pdf-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/rl.pdf" alt="project thumbnail">
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">state abstractions in reinforcement learning</h2>
+          <p class="card-text">Exploiting graph structure in the MDP for learning state abstractions</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+  </div>
+</div>
+
+          </article>
+
+        </div>
+
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2023 Megha  Khosla. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+        © Copyright 2023 Megha  Khosla. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>.
 
       </div>
     </footer>
