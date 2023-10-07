@@ -36,4 +36,6 @@ RUN bundle install --no-cache
 # && rm -rf /var/lib/gems/3.1.0/cache
 EXPOSE 8080
 
-CMD ["./bin/entry_point.sh"]
+COPY bin/entry_point.sh /tmp/entry_point.sh
+
+CMD ["/tmp/entry_point.sh"]
