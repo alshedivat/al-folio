@@ -1,21 +1,21 @@
 name: Docker Slim
 
 #Only trigger, when the build workflow succeeded
-# on:
-#   workflow_run:
-#     workflows: ["Docker Image CI"]
-#     types:
-#       - completed
+on:
+  workflow_run:
+    workflows: ["Docker Image CI"]
+    types:
+      - completed
 
-on: 
-  push:
-    branches: 
-      - '**'
+# on: 
+#   push:
+#     branches: 
+#       - 'master'
 
 jobs: 
   build:
     runs-on: ubuntu-latest
-    #if: github.repository_owner == 'alshedivat'
+    if: github.repository_owner == 'alshedivat'
 
     defaults:
       run:
@@ -43,7 +43,6 @@ jobs:
         DSLIM_COMPOSE_FILE: ${{ github.workspace }}/docker-compose.yml
         DSLIM_TARGET_COMPOSE_SVC: jekyll
         DSLIM_CONTINUE_AFTER: signal
-        DSLIM_IMAGE_BUILD_ARCH: linux/amd64
       with:
         target: amirpourmand/al-folio
         tag: "slim"
