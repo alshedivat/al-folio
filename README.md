@@ -246,7 +246,12 @@ Build and run a new docker image using:
 $ docker compose up --build
 ```
 
-> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of previous command! It will download ruby and jekyll and install all ruby packages again from scratch.
+> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of the previous command! It will download Ruby and Jekyll and install all Ruby packages again from scratch.
+
+If you want to use a specific docker version, you can do so by changing `latest` tag to `your_version` in `docker-compose.yaml`. For example, you might have created your website on `v0.10.0` and you want to stick with that. 
+
+- Beta
+You can also change the docker image tag to slim! It is a slimmed docker image with a size of below 100MBs (same functionality).
 
 </details>
 
