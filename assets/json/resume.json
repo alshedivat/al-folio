@@ -1,61 +1,55 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
+    "name": "Farzan Saqib",
+    "label": "Software Engineer",
+    "image": "assets/img/prof_pic.jpg",
+    "email": "farzansaqib2003@gmail.com",
+    "phone": "(+92) 3255757658",
     "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": "A Full-Stack Web and App developer with experience in end-to-end dev; ranging from Ui/Ux design to Deployment technologies",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Islamabad",
+      "countryCode": "PK",
+      "region": "Punjab"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "Farzan Saqib",
+        "url": "https://www.linkedin.com/in/farzan-saqib-5337a9253/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "Freelancing",
+      "position": "FullStack Software Engineer",
+      "startDate": "2023-06-01",
+      "endDate": "2023-09-01",
+      "summary": "Was responsible for architecting, building and deploying large scale applications for my clients in web3 space.",
       "highlights": [
-        "Relativity"
+        "Blockchain Technology",
+        "webrtc"
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
+      "institution": "National University of Science and Technology,NUST",
+      "url": "https://nust.edu.pk/",
+      "area": "Software Engineering",
+      "studyType": "Bachelors",
+      "startDate": "2022-09-01",
+      "endDate": "2026-09-01",
+      "score": "3.6 GPA",
       "courses": [
-        "Theory of Relativity"
+        "Programming",
+        "Compilers",
+        "OS",
+        "Web and App dev",
+        "Probability and Stats","Calculus"
       ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
   "certificates": [],
@@ -63,12 +57,12 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker"
+      "language": "English",
+      "fluency": "Fluency"
     },
     {
-      "language": "English",
-      "fluency": "Fluent"
+      "language": "Urdu/Hindi",
+      "fluency": "Native"
     }
   ],
   "interests": [],

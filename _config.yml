@@ -70,11 +70,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: EggsyOnCode
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: Farzan Saqib
 telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
@@ -376,7 +376,7 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: false # enables google analytics
+enable_google_analytics: true # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
@@ -387,7 +387,7 @@ enable_tooltips:
   # for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social:
-  false # enables displaying social links in the
+  true # enables displaying social links in the
   # navbar on the about page
 enable_project_categories:
   true # enables categorization of projects into
