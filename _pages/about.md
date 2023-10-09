@@ -21,4 +21,8 @@ My name is Zheyuan (Brian) Zhang (张喆元 in chinese). I am a master student a
 
 Click to view my latest [Curriculum Vitae](assets/cv.pdf).
 
-My [research interests](blog/2022/research-interests/) lie in the intersection of artificial intelligence and cognitive science because I am particularly curious about how the brain works and how we understand the world. To this end, I want to incorporate ideas from cognitive psychology and neuroscience into the creation of computational AI models. Currently, my research focuses on Deep Learning, Natural Language Reasoning, Multimodal Learning, Continual Learning and Embodied Intelligence.
+My research interests are centered at the nexus of artificial intelligence and cognitive science, driven by a desire to understand the intricacies of the brain (how can we learn so fast and so much from so little). Specifically, I am interested in deep learning, natural language processing, multimodal learning, continual/online/few-shot learning, robotics and embodied intelligence, cognitive science (cognitive psychology and neuroscience) with themes below:
+- Deep Learning: biologically-inspired neural architectures and learning algorithms (especially for aspects: "continual", "online" and "few-shot"), compositionality
+- Natural Language Processing: human-like planning and reasoning, language grounding to vision and robotics, language acquisition and emergence
+- Robotics and Embodied Intelligence: navigation/manipulation, interaction (robot-robot interaction and human-robot interaction)
+- Cognitive Science: developmental psychology, cognitive neuroscience
