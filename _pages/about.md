@@ -24,5 +24,5 @@ Click to view my latest [Curriculum Vitae](assets/cv.pdf).
 My research interests are centered at the nexus of artificial intelligence and cognitive science, driven by a desire to understand the intricacies of the brain (how can we learn so fast and so much from so little). Specifically, I am interested in deep learning, natural language processing, multimodal learning, continual/online/few-shot learning, robotics and embodied intelligence, cognitive science (cognitive psychology and neuroscience) with themes below:
 - Deep Learning: biologically-inspired neural architectures and learning algorithms (especially for aspects: "continual", "online" and "few-shot"), compositionality
 - Natural Language Processing: human-like planning and reasoning, language grounding to vision and robotics, language acquisition and emergence
-- Robotics and Embodied Intelligence: navigation/manipulation, interaction (robot-robot interaction and human-robot interaction)
-- Cognitive Science: developmental psychology, cognitive neuroscience
+- Robotics and Embodied Intelligence: manipulation, navigation, interactions (robot-robot interaction and human-robot interaction)
+- Cognitive Science: cognitive psychology, neuroscience
