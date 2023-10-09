@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-11-22 12:55:00-0400
+date: 2023-8-29
 inline: true
 ---
 
-Awarded Second Prize Excellent Paper from INSAI2021 conference.
+I am teaching EECS 492 - Introduction to Artificial Intelligence as a Graduate Student Instructor (GSI) in Fall 2023.
