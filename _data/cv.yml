@@ -12,7 +12,7 @@
 - title: <u>Academic Interests</u>
   type: list
   contents:
-    - Machine learning, Probablistic statistical modelling, Bayesian learning, Deep learning
+    - Machine learning, Probabilistic & statistical modelling, Bayesian learning, Deep learning
 
 
 - title: Education
@@ -47,7 +47,7 @@
 - title: Professional Experience
   type: time_table
   contents:
-    - title: Research Asistant
+    - title: Research Assistant
       institution: Data Science Unit, School of Informatics, The University of Edinburgh
       year: 2022 - 2023
       description:
@@ -68,7 +68,7 @@
         - The Baptist Convention of Hong Kong Outstanding Student Awards
     - year: 2020
       items: 
-        - Mr. Li Men Jan Prize in Mathematics
+        - Mr Li Men Jan Prize in Mathematics
     - year: 2019
       items: 
         - Vincent Woo Scholarship Scheme for Outstanding Mainland Students
