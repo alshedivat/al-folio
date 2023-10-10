@@ -10,7 +10,7 @@ category: UoE
 ### Project Description
 Passive immunotherapy with convalescent plasma (CP) is a type of antiviral therapy administered in moderate-to-severely ill patients from COVID-19. However, as reported in cohort studies, the benefit of this treatment has not been observed in randomised clinical trials (RCTs) suggesting against its use outside of RCTs. It is well recognized that the immunological heterogeneity in COVID-19 patients is observable at the protein level.
 This means that the differences in biological features between critically ill COVID-19 patients are common and reflected in collected data. 
-[Fish et al. (2022)](https://link.springer.com/article/10.1007/s00134-022-06869-w) had shown that when accounted for the heterogeneity of treatment effect (HTE) there are well-defined subphenotypes in critically-ill patients where treatment effects vary considerably. 
+[Fish et al. (2022)](https://link.springer.com/article/10.1007/s00134-022-06869-w) had shown that when accounted for the heterogeneity of treatment effect (HTE) there are well-defined subphenotypes in critically ill patients where treatment effects vary considerably. 
 {: .text-justify}
 
 Grouping patients with respect to the similarity of measured biomarkers is common with clustering to explore these different subphenotypes. 
@@ -20,7 +20,7 @@ Therefore, in this project, we evaluate this hypothesis by assessing a collectio
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/supClust1.png" title="data intensive plot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/supClust1.png" title="data-intensive plot" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
