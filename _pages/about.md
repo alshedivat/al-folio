@@ -16,7 +16,7 @@ profile:
             <a href="https://goutham-atwork.github.io"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a>
         </li>
         <li>
-            <a href="mailto:goutham.gopalakrishna@epfl.ch"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a>
+            <a href="mailto:goutham.gopalakrishna@rotman.utoronto.ca"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a>
         </li>
         <li>    
             <a href="https://www.linkedin.com/in/goutham-gopalakrishna-595b7432"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li><li><a href="https://github.com/goutham-fin"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a>
