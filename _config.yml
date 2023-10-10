@@ -6,7 +6,7 @@ title: "Goutham G." # the website title (if blank, full name will be used instea
 first_name: "Goutham"
 middle_name:
 last_name: "Gopalakrishna"
-email: goutham.gopalakrishna@rotman.utoronto.ca
+email: goutham.gopalakrishna@rotman.utoronto.ca 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   I am an Assistant Professor of Finance at the Rotman School of Management, University of Toronto . My research interests are in macro-finance, machine Learning, and asset pricing.
 footer_text: >
