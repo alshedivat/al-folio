@@ -35,13 +35,13 @@ $$^3$$ Huawei Technologies, Canada
     <div class="col-sm mt-3 mt-md-0 mx-auto">
         <div class="bbb no-shadow">
             <i class="far fa-file-pdf"></i>
-            <a href="https://www.dropbox.com/scl/fi/ysksca7v7qebdehrofjid/441_paper.pdf?rlkey=itefc965xnsdcm2vpzvtdpvct&dl=0"> PDF</a>
+            <a href="http://www-labs.iro.umontreal.ca/~bmpix/pdf/cad_reconstruction.pdf"> PDF</a>
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="bbb">
             <i class="far fa-file-pdf"></i>
-            <a href="">Supplementary (TBD) </a>
+            <a href="http://www-labs.iro.umontreal.ca/~bmpix/pdf/cad_reconstruction_suppl.zip">Supplementary</a>
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
