@@ -69,6 +69,7 @@ Table: Data setting {#tbl:dataset}
 |                    | ERA5_Coarsen | 1999-2014 | Historical |                   | ~100 km      | -    |
 
 
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="https://i.imgur.com/Z844paa.jpg" style="width:100.0%" alt="The windspeed from CMIP6 and ERA5 (a)CMCC-CM2 weekly mean 1980-2060,(b) CMCC-ESM2 weekly mean 1980-2060,(c) ERA5 weekly mean 1999-2014,(d) average windspeed of CMCC-CM2 1999-2014,(e)average windspeed of CMCC-ESM2 1999-2014,(f) average windspeed of ERA5 coarsen 1999-2014.The left black box indicates the baseline (1980-1999) and the right black box represents where the time windows from. All windspeed is at height 60m above the ground." class="img-fluid rounded z-depth-1" %}
@@ -76,6 +77,7 @@ Table: Data setting {#tbl:dataset}
 </div>
 <div class="caption">The windspeed from CMIP6 and ERA5 (a)CMCC-CM2 weekly mean 1980-2060,(b) CMCC-ESM2 weekly mean 1980-2060,(c) ERA5 weekly mean 1999-2014,(d) average windspeed of CMCC-CM2 1999-2014,(e)average windspeed of CMCC-ESM2 1999-2014,(f) average windspeed of ERA5 coarsen 1999-2014.The left black box indicates the baseline (1980-1999) and the right black box represents where the time windows from. All windspeed is at height 60m above the ground.
 </div>
+
 
 
 ## Methodology
@@ -134,7 +136,7 @@ The evaluation will follow the steps: (1) comparing the changing signals from CM
 
 ## Results
 
-### The changing signals $\Delta W_{s}$ from CMIP6
+### The changing signals $$\Delta W_{s}$$ from CMIP6
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
