@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Reasearch assistant on geomatics</a>. 0371 Oslo.
+subtitle: <a href='#'>Reasearch assistant</a>. 0371 Oslo.
 
 profile:
   align: right
