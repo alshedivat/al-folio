@@ -1,73 +1,107 @@
 - title: Education
   type: time_table
   contents:
-    - title: B.A., Philosophy
+    - title: B.A., Philosophy with Honors
       institution: University of Washington
       year: ’21 - ’25
       description:
         - 4.0 GPA
-        - Coursework includes - logic, ethical theory, phenomenology, philosophy of race, philosophy of feminism
+        - Relevant coursework - logic, phenomenology, philosophy of race & feminism, social & political epistemology
         - Early Entrance Program, Robinson Center
+        - Minors - Mathematics (focus in abstract/modern algebra), Russian Language
     - title: B.S., Computer Science
       institution: University of Washington
       year: ’21 - ’25
       description:
-        - 3.9 GPA
-        - Coursework includes - DS&A, discrete math, systems
+        - 4.0 GPA
+        - Relevant coursework -- discrete math, data structures, algorithms
 
 - title: Research
   type: time_table
   contents:
-    - title: Undergrad Researcher
-      institution: Krishna Group, Allen School of Computer Science & Engineering
-      year: Jan ’23 - Present
+    - title: Cultural and Linguistic Diversity Improves Vision Representations
+      institution: Krishna Group, Allen School of CSE (UW)
+      year: Feb. '23 - Oct. '23
       description:
-        - Working on the Computer Vision Cognition project.
-        - Mentored by Sebastin Santy, PIs Ranjay Krishna and Amy Zhang
-    - title: Undergrad Researcher
-      institution: Social Futures Lab, Allen School of Computer Science & Engineering
-      year: Feb ’22 - Jan ’23
+        - Examined differences in visual perception across cultural and linguistic backgrounds manifest in vision datasets, models, and APIs. Demonstrated effects on the ‘perception’ of models trained on perceptually different data.
+        - Mentor - Sebastin Santy. Advisors/PIs - Ranjay Krishna, Amy Zhang.\
+        - First-author submission to ICLR 2024.
+    - title: Uncertainty Annotation in Medical Semantic Segmentation
+      institution: Social Futures Lab, Allen School of CSE (UW)
+      year: Feb. '22 - Jan. '23
       description:
-        - Worked on the Confidence Contours project.
-        - Mentored by Jim Chen, PI Amy Zhang
-    - title: Research Intern
+        - Designed an efficient uncertainty annotation method & interface for medical semantic segmentation, collected annotations in user studies, trained models to produce uncertainty-segmentations on novel samples, and demonstrated its utility for clinicians.
+        - Mentor - Quan Ze (Jim) Chen. Advisor/PI - Amy Zhang.
+        - First-author paper in HCOMP 2023.
+    - title: Theory of (Moral) Meaning in LLMs
+      institution: Allen School of CSE (UW), Stanford Dept. of CS
+      year: Mar. '23 - Oct. '23
+      description:
+        - Thesis - Insofar as morality is a social(ogical) object with a complex geneology and LLMs learn the statistical structure of social totality, unaligned LLMs grasp morality in concept. We distinguish value pluralism in content, the current ‘default’, and pluralism in concept.
+        - Collaborator - Mark Pock. Advisor - Jared Moore.
+    - title: Curriculum Learning for Large-Scale Audio Transcription Models
       institution: Deepgram
-      year: Jun ’22 - Sep ’22
+      year: Jun. '22 - Sep. '22
       description:
-        - Designed and ran experiments for curriculum learning on large speech transcription models.
-        - Mentored by Andrew Seagraves (now VP of Research at Deepgram)
-    - title: Research Lead
-      institution: Interactive Intelligence, University of Washington
-      year: Dec ’21 - Mar ’23
-      description:
-        - Worked on the Emergent Language project.
-    - title: Undergrad Researcher
+        - Developed more data-efficient methods for audio transcription model training by designing data ‘curricula’, or specialized pathways through the dataset, yielding up to a 2x speedup. Analyzed the content distribution of datasets & scaling laws to determine optimal curricula.
+        - Advisor/mentor - Andrew Seagraves.
+    - title: Segmenting Local, Small, and Specialized Kidney Artifacts
       institution: Najafian Lab, UW Medicine
-      year: Mar ’21 - May ’22
+      year: Mar. '21 - May '22
       description:
-        - Worked on the Foot Process Width Segmentation project.
-        - Worked with David Smerkous, P.I. Bezhad Najafian
+        - Engineer transparent and high-performance methods for developing a custom model to segment small, specialized artifacts in electromicroscopy images of the glomerulus (kidney). Segmentations are used to evaluate glomerulus damage, which is of prognostic significance
+        - Collaborator - David Smerkous. PI - Bezhad Najafian.
+
+    # - title: Undergrad Researcher
+    #   institution: Krishna Group, Allen School of Computer Science & Engineering
+    #   year: Jan ’23 - Present
+    #   description:
+    #     - Working on the Computer Vision Cognition project.
+    #     - Mentored by Sebastin Santy, PIs Ranjay Krishna and Amy Zhang
+    # - title: Undergrad Researcher
+    #   institution: Social Futures Lab, Allen School of Computer Science & Engineering
+    #   year: Feb ’22 - Jan ’23
+    #   description:
+    #     - Worked on the Confidence Contours project.
+    #     - Mentored by Jim Chen, PI Amy Zhang
+    # - title: Research Intern
+    #   institution: Deepgram
+    #   year: Jun ’22 - Sep ’22
+    #   description:
+    #     - Designed and ran experiments for curriculum learning on large speech transcription models.
+    #     - Mentored by Andrew Seagraves (now VP of Research at Deepgram)
+    # - title: Research Lead
+    #   institution: Interactive Intelligence, University of Washington
+    #   year: Dec ’21 - Mar ’23
+    #   description:
+    #     - Worked on the Emergent Language project.
+    # - title: Undergrad Researcher
+    #   institution: Najafian Lab, UW Medicine
+    #   year: Mar ’21 - May ’22
+    #   description:
+    #     - Worked on the Foot Process Width Segmentation project.
+    #     - Worked with David Smerkous, P.I. Bezhad Najafian
 
 - title: TA'ing
   type: time_table
   contents:
-    - title: Academic Support Teaching Assistant
-      institution: The Coding School
-      year: Nov ’22 - Present
+    - title: Teaching Assistant, CSE 160 & 163 (Data Programming)
+      institution: Allen School of CSE, University of Washington
+      year: Mar ’22 - Present
       description:
-        - Hosted several office hours sessions a week to help students with theoretical and coding material in an introductory data science and machine learning course.
-    - title: Teaching Assistant, Literary Theory
+        - TA for introduction Python and data programming course. Helped students from a wide variety of academic backgrounds and interests develop data skills.
+    - title: Teaching Assistant, English Composition and Literary Analysis
       institution: Robinson Center, University of Washington
       year: Sep ’22 - Present
       description:
-        - Contributed to curriculum material, hosted office hours, gave feedback on drafts.
-        - Taught material iin literary theory and philosophy, including dialectical and discursive materialism, modernist and Englightenment thought, postcolonialism, existentialism, psychoanalysis
-    - title: Teaching Assistant, CSE 163
-      institution: Robinson Center, University of Washington
-      year: Mar ’22 - Jun ’22
+        - TA for introductory through intermediate level composition and literary analysis courses. Designed and taught units on critical/cultural and media theory.
+    - title: Teaching Assistant, Introduction to Machine Learning
+      institution: The Coding School
+      year: Nov ’22 - Present
       description:
-        - Taught a review section every week, hosted office hours, graded assignments.
+        - TA for TCS’ online, nationwide introductory ML course for disadvantaged or underrepresented high schoolers and middle/high school educators.
 
+    
 - title: Publishing & Writing
   type: time_table
   contents:
