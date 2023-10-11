@@ -11,12 +11,13 @@
       value: Chinese, English, Norsk (beginner)
       
     - name: IT skills
-      value: Python, Matlab, Automating GIS, Git, Numerical Modeling, Geostatistics
+      value: Python, MATLAB, Automating GIS, Git, Numerical Modeling, Geostatistics
   
 - title: Education
   type: time_table
   contents:
-    - title: Master - Geoscience
+  
+    - title: Master - Geosciences
       institution: University of Oslo, Oslo, Norway
       year: 2021-2023
       description:
@@ -33,10 +34,11 @@
       description:
         - Background in Engineering, GIS, GNSS and Cartography.
         - Thesis - A WebGIS System for Urban Infrastructures.
-
+  
 - title: Experience
   type: time_table
   contents:
+  
     - title: Field Technician & Geomatics professional
       institution: BGP Offshore, China National Petroleum Corporation
       year: 2014.07 - 2020.12
@@ -45,7 +47,7 @@
         - Global 3D/4D seismic operation among offshore Norway, UK, Morocco, Senegal, Nigeria...
         - HSEQ awareness and multidisciplinary environment.
         - Registered Licensed Surveyors of P.R.C.
-    - title: Geomatics professional & Assistant Party Chief
+    - title: Geomatics professional & Assistant Manager
       institution: BGP Offshore, China National Petroleum Corporation
       year: 2021.01 - 2021.07
       description: 
@@ -57,10 +59,10 @@
   contents:
     - title: Research Assistant
       year: 2021.12 - Present
-      description: Scientists benefit from my assistance in coding and field trips.
+      description: Teaching assistant for GEO4300/9300 (Geophysical data science, 23 Fall). Scientists benefit from my assistance in coding and field trips.
 
     - title: IT Helper - UiO Geo
-      year: 2021.11 - Present
+      year: 2021.11 - 2023.06
       description: I am paid to attend seminars, disputations, and other events but do IT-related supports. As an ex-technician in oil and gas, I am skilled at troubleshooting of machines.
   
     - title: IMO 2022 - Volunteer  
@@ -71,7 +73,7 @@
   
       year: 2022.01 - Present
   
-      description: Enjoying nature with the closest friends.
+      description: Student association for outdoor events. I am in charge of media and outdoor guide.
   
 - title: Academic Interests
   type: nested_list
@@ -93,15 +95,15 @@
   
     - title: Cryosphere x Remote Sensing
       items:
+        - Snow depth retrieval and downscaling using satellite laser altimetry, machine learning and climate reanalysis · IUGG 2023 Berlin · July 13, 2023.
         - Unlocking the Secrets of Snow Depth · Student Presentation at SDG Conference 2023, UiO · Feb 08, 2023.
-
     - title: Offshore seismic
       items:
       - 宽拖多震源在拖缆地震中的应用探讨 · Wide-towed sources in streamer seismic - A case study from Norway, Conference paper from Society of Petroleum Geophysicists 2021, China · Sep 27, 2021.
       - 拖缆与节点同步采集方案应用及优化思路 ·  A hybrid seismic acquisition - from wide-towed sources, sparse node to FWI. BGP geophysical technology overseas workshop 2021 · Jun 7, 2021
       - 一种水下装置标识系统 ·  An identification system for underwater seismic devices. Patent, PRC 201911154941X · Issued May 13, 2022.
       - 导航可视化质控软件 · Offshoreorinet v1.0. Software Copyright, 2020SR0194691 · Issued Mar 2, 2020.
- 
+
 - title: Other Interests
   type: list
   contents:

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: From climate to energy...
-description: The Link Between Energy and Climate.
+title: From climate modeling to energy system modeling...
+description: Statistical downscaling and bias correction.
 img: assets/img/post/climate/cover.png
 importance: 1
 year: 2023
@@ -22,7 +22,8 @@ Can machine learning help accurately predicting radiation and wind fields at fin
     Renewable Energy Burst Sends Dutch Power Prices to Lowest Ever - Source: Bloomberg.
 </div>
 
-# Part 1-Evaluating CMIP6 wind speed by quantile-based bias adjustment and downscaling methods
+
+# Evaluating CMIP6 wind speed by quantile-based bias adjustment and downscaling methods
 
 ## Introduction
 
@@ -54,6 +55,8 @@ To assess the discrepancy between GCMs and ERA5 data, a comparison is made for t
 
 The validation of downscaling is conducted using ERA5 and ERA5-Coarsen data from the period between 1999 and 2014. The period of 1999 to 2013 are used in training, and year 2014 is utilized to assess the accuracy and reliability of the downscaling technique.
 
+
+
 Table: Data setting {#tbl:dataset}
 
 | Type               | Dataset      | Date      | Type       | Temporal interval | Spatial grid | SSP  |
@@ -68,13 +71,12 @@ Table: Data setting {#tbl:dataset}
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://i.imgur.com/Z844paa.jpg" style="width:100.0%" alt="ThewindspeedfromCMIP6andERA5(a)CMCC-CM2weeklymean1980-2060,(b)CMCC-ESM2weeklymean1980-2060,(c)ERA5weeklymean1999-2014,(d)averagewindspeedofCMCC-CM21999-2014,(e)averagewindspeedofCMCC-ESM21999-2014,(f)averagewindspeedofERA5coarsen1999-2014.Theleftblackboxindicatorthebaseline(1980-1999)andrightblackboxrepresentwherethetimewindowsfrom.Allwindspeedisatheight60mabovetheground." class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://i.imgur.com/Z844paa.jpg" style="width:100.0%" alt="The windspeed from CMIP6 and ERA5 (a)CMCC-CM2 weekly mean 1980-2060,(b) CMCC-ESM2 weekly mean 1980-2060,(c) ERA5 weekly mean 1999-2014,(d) average windspeed of CMCC-CM2 1999-2014,(e)average windspeed of CMCC-ESM2 1999-2014,(f) average windspeed of ERA5 coarsen 1999-2014.The left black box indicates the baseline (1980-1999) and the right black box represents where the time windows from. All windspeed is at height 60m above the ground." class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    The windspeed from CMIP6 and ERA5(a)CMCC-CM2weeklymean1980-2060,(b)CMCC-ESM2weeklymean1980-2060,(c)ERA5weeklymean1999-2014,(d)averagewindspeedofCMCC-CM21999-2014,(e)averagewindspeedofCMCC-ESM21999-2014,(f)averagewindspeedofERA5coarsen1999-2014.<br>
-    The left black box indicates the baseline (1980-1999) and the right black box represents where the time windows from. All windspeed is at height 60m above the ground.
+<div class="caption">The windspeed from CMIP6 and ERA5 (a)CMCC-CM2 weekly mean 1980-2060,(b) CMCC-ESM2 weekly mean 1980-2060,(c) ERA5 weekly mean 1999-2014,(d) average windspeed of CMCC-CM2 1999-2014,(e)average windspeed of CMCC-ESM2 1999-2014,(f) average windspeed of ERA5 coarsen 1999-2014.The left black box indicates the baseline (1980-1999) and the right black box represents where the time windows from. All windspeed is at height 60m above the ground.
 </div>
+
 
 ## Methodology
 
@@ -103,6 +105,7 @@ $$
 \hat{x}_{sf} = \hat{x}_{oh:sf}\cdot{}\Delta W_{s}
 $$
 
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="https://i.imgur.com/g708yFh.jpg" style="width:100.0%" alt="Theschematicoftwoquantile-basedmethod.(a)Howtogetdownscaledandbias-freesimulationsinfuture.(b)QDMusesquantilesdescribingthechangesignals(\Delta W_{s})(c)EDCDFmusesquantilescapturethebiasbetweenmodelsimulationandobservations.InthisstudymodelisfromCMIP6,andobserveddatasetisERA5." class="img-fluid rounded z-depth-1" %}
@@ -116,6 +119,7 @@ $$
     In this study, the model is from CMIP6, and the observed dataset is ERA5.
 </div>
 
+
 The method EDCDFm, as shown in Figure @fig:method a, c, describes the discrepancy between simulations and bias-free, fine-resolution observations using quantiles. These discrepancies are then used as adjustment factors for future simulations. The underlying assumption of this method is that the differences between modeled and observed values during the reference period will remain consistent in a future period. The downscaled variable $\hat{x}_{sf}$ is calculated as follows [@li.etal_2010]:
 
 $$
@@ -126,18 +130,21 @@ Although EDCDFm and QDM are equivalent methods [@cannon.etal_2015], they employ 
 
 The evaluation will follow the steps: (1) comparing the changing signals from CMCC-CM2 and CMCC-ESM2; and (2) comparing the adjusted and downscaled wind speed projections from QDM and EDCDFm at different locations and time periods, (3) Validate the downscaled results by ERA5. Various performance metrics such as mean bias, root mean square error, and Sprearman correlation coefficient, R-squared value will be used to assess the accuracy of the adjusted and downscaled projections. All implementations are in Python and can be accessed from [GitHub](https://github.com/guillerval/summerproject23_CMIP6downscaling/tree/hao-dev).
 
+
+
 ## Results
 
 ### The changing signals $\Delta W_{s}$ from CMIP6
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://i.imgur.com/e4o8JoM.jpg" alt="ThewindspeedtrendfromCMCC-CM2andCMCC-ESM2atsite(011°E,60°N)aredifferent.(a)CMCC-CM2,(b)CMCC-ESM2.Windspeedtrendarerepresentedasratios,whichcomparethewindspeedsina10-yearmovingwindowbetween2015-2060toabaselineperiod(1980.01-1999.12),acrossdifferentquantiles.Fromtoptobottom,eachrowrepresentquarter1(JantoMar),quarter2(AprtoJun),quarter3(JultoSep)andquarter4(OcttoDec)." %}
+        {% include figure.html path="https://i.imgur.com/e4o8JoM.jpg" alt="The windspeed trend from CMCC-CM2 and CMCC-ESM2 at site(011°E,60°N) are different.(a) CMCC-CM2,(b) CMCC-ESM2. Windspeed trend are represented as ratios, which compare the windspeeds in a 10-year moving window between 2015-2060 to a baseline period(1980.01-1999.12),across different quantiles. From top to bottom, each row represent quarter 1(Jan to Mar), quarter 2(Apr to Jun), quarter 3(Jul to Sep) and quarter 4(Oct to Dec)." %}
     </div>
 </div>
 <div class="caption">
     The windspeed trend from CMCC-CM2 and CMCC-ESM2 at site (011°E, 60°N) are different.(a) CMCC-CM2, (b) CMCC-ESM2. Wind speed trends are represented as ratios, which compare the wind speeds in a 10-year moving window between 2015-2060 to a baseline period (1980.01-1999.12), across different quantiles. From top to bottom, each row represents quarter 1 (Jan to Mar), quarter 2 (Apr to Jun), quarter 3 (Jul to Sep), and quarter 4 (Oct to Dec).
 </div>
+
 
 
 
