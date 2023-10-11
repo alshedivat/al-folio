@@ -2,25 +2,25 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Alireza Dehghanzadeh
     - name: Date of Birth
       value: 14th March 1879
     - name: Languages
-      value: English, German
+      value: English, Persian, Azerbaijani
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
+    - title: MSc in Biosystems Engineering
+      institution: University of Tehran, Tehran, Iran
       year: 1905
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Consist of 5 semesters (3 lecture based + 2 research based). The first 3 semesters holded during coronavirus lock-down, so I didnt have much luck to contact the professors.
+        - title: Some of noteworthy lectures area
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - Artificial Intelligence (Machine Learning)
+            - Limit Element Method
+            - Automatic Control Systems
     - title: Federal teaching diploma
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
       year: 1900
