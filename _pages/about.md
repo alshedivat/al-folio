@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <b><a href='https://alerezaa.ir'>SITE</a> IS UNDER MAINTENANCE</b> this is only a preview
 
