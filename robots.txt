@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://saithihazaw.github.io/al-folio/sitemap.xml
