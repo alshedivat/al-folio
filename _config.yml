@@ -57,6 +57,7 @@ gitlab_username: # your GitLab user name
 twitter_username: neeljain1717
 linkedin_username: neel-jain-0a6a239 # your LinkedIn user name
 scholar_userid: nSn7jtIAAAAJ # your Google Scholar ID
+semanticscholar_id: 2204647912 # your Semantic Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -68,6 +69,7 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
+# 2204647912
 
 contact_note: >
   To contact me, email me at njain17 [ at ] umd [dot] edu. 
