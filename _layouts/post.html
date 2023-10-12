@@ -68,7 +68,7 @@ layout: default
   {%- if site.disqus_shortname and page.disqus_comments -%}
     {% include disqus.html %}
   {%- endif %}
-  {%- if site.giscus.repo and page.giscus_comments -%}
+  {%- if site.giscus and page.giscus_comments -%}
     {% include giscus.html %}
   {%- endif -%}
 
