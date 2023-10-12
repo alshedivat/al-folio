@@ -121,6 +121,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://kudhru.github.io/" target="_blank">★</a>
 <a href="https://mbarbetti.github.io/" target="_blank">★</a>
 <a href="https://www.zhivotenko.com/" target="_blank">★</a>
+<a href="https://shubhashisroydipta.com/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -169,6 +170,7 @@ Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github
 
 ## Table Of Contents
 
+- [al-folio](#al-folio)
   - [User community](#user-community)
   - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
   - [Table Of Contents](#table-of-contents)
