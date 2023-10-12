@@ -39,7 +39,7 @@ layout: default
     </p>
   </header>
 
-  <article class="post-content">
+  <!-- <article class="post-content">
     {% if page.toc and page.toc.beginning %}
     <div id="table-of-contents">
       {% toc %}
@@ -49,7 +49,7 @@ layout: default
     <div id="markdown-content">
       {{ content }}
     </div>
-  </article>
+  </article> -->
 
   {%- if page.related_publications != null and page.related_publications.size > 0 -%}
   {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
