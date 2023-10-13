@@ -9,7 +9,7 @@ profile:
   image: blog_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p> Scientific programmer 🎯 Digging the truth behind the geodata.</p>
+    <p> Scientific programming 🎯 Digging the truth behind the geodata.</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
