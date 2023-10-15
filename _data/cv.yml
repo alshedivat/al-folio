@@ -26,7 +26,7 @@
       year: 2019 - 2020
       description:
 
-    - title: Research assistant intern
+    - title: Research intern
       institution: Université du Québec à Montréal (UQAM), Montreal, Canada
       year: 2019
 
@@ -39,7 +39,7 @@
       description:
         - Deep learning for adaptive 360° video streaming in virtual reality
     - title: Master's degree (master's / diplôme d'ingénieur double degree)
-      institution: Polytech Nice Sophia, France
+      institution: Université Côte d'Azur, Polytech Nice Sophia, France
       year: 2020
       description:
         - Computer Science - Data Science
@@ -47,6 +47,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2023
+      items: 
+        - CWI PhD internship grant
     - year: 2022
       items: 
         - ACM MMSys 2022 Best Paper Award
@@ -55,35 +58,41 @@
   type: time_table
   contents:
     - title: Introduction to Imperative Programming (Python)
-      institution: Polytech Nice Sophia, France
+      institution: Université Côte d'Azur, Polytech Nice Sophia, France
       year: 2020 - 2023
       description:
-        - Teaching assistant - Undergraduate course
+        - Bachelor level. Lab sessions.
+        - "Keywords: Python, Turtle."
     - title: Algorithms and Data Structures (Java)
-      institution: Polytech Nice Sophia, France
+      institution: Université Côte d'Azur, Polytech Nice Sophia, France
       year: 2020 - 2023
       description:
-        - Teaching assistant - Undergraduate course
+        - Bachelor level. Lab sessions.
+        - "Keywords: Java, object-oriented programming, recursive functions, stacks, queues, linked lists, binary trees."
     - title: Machine Learning
-      institution: Polytech Nice Sophia, France
+      institution: Université Côte d'Azur, Polytech Nice Sophia, France
       year: 2022 - 2023
       description:
-        - Teaching assistant - Graduate course
+        - Master level. Lab sessions.
+        - "Keywords: Scikit-learn, dimensionality reduction, clustering, decision trees, linear / logistic regression, MLP, CNN, SVM, ensemble learning."
     - title: From Shallow to Deep Learning
-      institution: Polytech Nice Sophia, France
+      institution: Université Côte d'Azur, Polytech Nice Sophia, France
       year: 2020 - 2022
       description:
-        - Teaching assistant - Graduate course
+        - Master level. Lab sessions.
+        - "Keywords: content-based image retrieval, SIFT, bag-of-words, CNN, style transfer."
     - title: Deep Reinforcement Learning
       institution: UCA Deep Learning School, France
       year: 2021
       description:
-        - Teaching assistant - Summer school interactive tutorial
+        - Summer school interactive tutorial.
+        - "Keywords: Q-learning, deep Q-networks, imitation learning."
     - title: Visual recognition and Domain adaptation
       institution: UCA Deep Learning School, France
       year: 2021
       description:
-        - Teaching assistant - Summer school interactive tutorial
+        - Summer school interactive tutorial.
+        - "Keywords: object detection, instance segmentation, transfer learning, domain adaptation."
 
 - title: Other Interests
   type: list

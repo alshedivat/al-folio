@@ -17,3 +17,7 @@
 "arXiv":
   url: https://arxiv.org/
   color: "#b31b1b"
+
+"TOMM":
+  url: https://dl.acm.org/journal/tomm
+  color: "#0068a7"
