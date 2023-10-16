@@ -87,7 +87,7 @@
       description:
         - Summer school interactive tutorial.
         - "Keywords: Q-learning, deep Q-networks, imitation learning."
-    - title: Visual recognition and Domain adaptation
+    - title: Visual Recognition and Domain Adaptation
       institution: UCA Deep Learning School, France
       year: 2021
       description:
