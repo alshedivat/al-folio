@@ -6,9 +6,7 @@ description: postdoctoral research associate
 nav: false
 ---
 
-### Application instructions
-
-The position will be announced on the [AAS Job Register](https://jobregister.aas.org/) and applications will be collected on [AJO](https://academicjobsonline.org/). Direct links will be given here when the advertisement goes live. The expected closing date is December 2023.
+### [Application instructions](https://jobregister.aas.org/ad/b930d366)
 
 ## Outline
 
