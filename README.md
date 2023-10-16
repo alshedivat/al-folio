@@ -228,6 +228,7 @@ You need to take the following steps to get `al-folio` up and running on your lo
 - Finally, run the following command that will pull the latest pre-built image from DockerHub and will run your website.
 
 ```bash
+$ docker compose pull
 $ docker compose up
 ```
 
