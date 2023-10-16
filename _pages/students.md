@@ -11,7 +11,7 @@ ___
 
 * I am currently hiring students with a background in parallel programming and interest in high-performance computing for computational sciences. If you think we might be a good fit, please contact me via email and I will be happy to talk with you. However, please note that the admissions process goes through [Cornell CIS](https://www.cs.cornell.edu/phd/admissions) and not through me personally.
 
-* A good introductory email should include a brief description of your experience with parallel programming and how it relates to my work (see [research section](https://giuliaguidi.github.io/research/) on my website); also include the sentence "mantua me genuit" in the email.
+* A good introductory email should include a brief description of your experience with parallel programming and how it relates to my work (see [research section](https://giuliaguidi.github.io/research/) on my website).
 
 * A good opportunity to get involved in the world of parallel computing (supercomputing!) is to apply to be a [Student Volunteer](https://sc23.supercomputing.org/students/student-volunteers/) or [Lead Student Volunteer at SC23](https://sc23.supercomputing.org/students/lead-student-volunteers/).
 
