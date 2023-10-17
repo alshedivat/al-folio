@@ -101,7 +101,7 @@ Our method produces triangular meshes that display sharp geometric features and 
     author = {Ivan Puhachov and Cedric Martens and Paul Kry and Mikhail Bessmeltsev},
     title = {Reconstruction of Machine-Made Shapes from Bitmap Sketches},
     journal = {ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia)},
-    volume = {42}, number = {6}, year = {2021}, month = dec,
+    volume = {42}, number = {6}, year = {2023}, month = dec,
     doi = {10.1145/3618361}
 }
 ```
