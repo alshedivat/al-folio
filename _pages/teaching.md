@@ -1,12 +1,38 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Experience
+description: 
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+---
 
-Organize your courses by years, topics, or universities, however you like!
+### Teaching Assistant
+- **CS M146**: Intro to Machine Learning, Fall 2023, UCLA
+
+---
+
+### Research & Industry Experience
+
+- **Vector Institute**, Toronto, Canada
+  - Student Researcher
+  - Mentors: Prof. Animesh Garg, Prof. Bradly Stadie, Prof. Jimmy Ba
+  - May 2019 - Sep 2022
+
+- **Huawei Noah's Ark Lab**, Toronto, Canada
+  - Research Intern
+  - Jan 2021 - Apr 2022
+
+- **NVIDIA AI Lab**, Toronto, Canada
+  - Research Intern
+  - May 2020 - Jan 2021
+
+---
+
+### Peer Review
+
+- NeurIPS 2023
+- ICML 2022
+- ECCV 2022
