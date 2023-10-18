@@ -41,7 +41,7 @@
   students:
     - first: Philipp
       last: Dasen
-    year: 2023
+  year: 2023
   fall_semester: False
   supervisors:
     - first: Hampus
@@ -84,7 +84,7 @@
     first: Hans-Andrea
     last: Loeliger
     doctor: true
-    
+
 - title: Analog circuit design for control-bounded ADCs
   type: Semester project
   students:
