@@ -10,8 +10,8 @@
   - firstname: ["Fredrik", "F."]
     url: "https://www.ntnu.edu/employees/fredrief"
 
-"Rosa":
-  - firstname: ["José M.", "J. M."]
+"de~la~Rosa":
+  - firstname: ["José", "M. de la"]
     url: "http://www2.imse-cnm.csic.es/~jrosa/"
 
 "Wulff":
@@ -21,3 +21,8 @@
 "Ytterdal":
   - firstname: ["Trond", "T."]
     url: "https://www.ntnu.edu/employees/ytterdal"
+
+"Burger":
+  - firstname: ["Thomas"]
+    url: "https://ee.ethz.ch/the-department/people-a-z/person-detail.MzMxMjc=.TGlzdC8zMjc5LC0xNjUwNTg5ODIw.html"
+  
