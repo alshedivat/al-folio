@@ -21,6 +21,36 @@
     last: Loeliger
     doctor: true
 
+- title: Calibration of Control-Bounded ADCs
+  type: Bachelor project
+  students:
+    - first: Isaia
+      last: Rossi
+  year: 2023
+  fall_semester: False
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: Local Model Fitting for Radar Applications
+  type: Semester project
+  students:
+    - first: Philipp
+      last: Dasen
+    year: 2023
+  fall_semester: False
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
 - title: Nonograms and iterative constraints propagation
   type: Semester project
   students:
