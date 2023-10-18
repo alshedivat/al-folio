@@ -1,11 +1,13 @@
 ---
 layout: page
-permalink: /join-us/students/
-title: Student Assistants and Theses
+permalink: /for-students/jobs-and-theses/
+title: Jobs and Theses
 description: 
 nav: false
 nav_order: 21
 ---
+
+> **We are hiring!** 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are currently looking for **several student assistants** with an interest in machine learning.
 
 **Come talk to us!** If you have **your own project ideas**, don't hesitate to contact us - we will support you as best as we can!
 

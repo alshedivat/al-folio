@@ -13,9 +13,4 @@ children:
       permalink: /join-us/postdocs/
     - title: PhD Students
       permalink: /join-us/phd/
-    - title: For Students
-      permalink: /join-us/students/
-    - title: divider
-    - title: Data Science Club
-      permalink: /join-us/datascienceclub/
 ---
