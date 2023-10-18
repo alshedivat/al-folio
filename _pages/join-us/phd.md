@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /join-us/phd/
-title: Prospective PhD students
+title: PhD Students
 description: 
 nav: false
 nav_order: 21

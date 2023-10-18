@@ -82,9 +82,16 @@
               {%- for p in sorted_pages -%}
               {%- if p.nav and p.autogen == nil -%}
               {%- if p.dropdown %}
-              <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
+              <!-- also set dropdown navigation to active if the current page is a child -->
+              {% assign child_active = false %}
+              {%- for child in p.children -%}
+              {%- if page.title == child.title -%}
+              {% assign child_active = true %}
+              {%- endif -%}
+              {% endfor %}
+              <li class="nav-item dropdown {% if page.title == p.title or child_active %}active{% endif %}">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ p.title }}
-                  {%- if page.title == p.title -%}
+                  {%- if page.title == p.title or child_active -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
@@ -93,7 +100,7 @@
                   {%- if child.title == 'divider' %}
                   <div class="dropdown-divider"></div>
                   {%- else %}
-                  <a class="dropdown-item" href="{{ child.permalink | relative_url }}">{{ child.title }}</a>
+                  <a class="dropdown-item {% if page.title == child.title %}active{% endif %}" href="{{ child.permalink | relative_url }}">{{ child.title }}</a>
                   {%- endif -%}
                   {% endfor %}
                 </div>

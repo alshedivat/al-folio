@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /for-students/jobs-and-theses/
-title: Jobs and Theses
+title: Jobs & Theses
 description: 
 nav: false
 nav_order: 21

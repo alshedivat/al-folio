@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /join-us/overview/
-title: Join Us!
+title: Overview
 description: 
 nav: false
 nav_order: 21

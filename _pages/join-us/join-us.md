@@ -9,7 +9,7 @@ children:
     - title: Overview
       permalink: /join-us/overview/
     - title: divider
-    - title: Postdocs
+    - title: PostDocs
       permalink: /join-us/postdocs/
     - title: PhD Students
       permalink: /join-us/phd/
