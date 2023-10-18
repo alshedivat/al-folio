@@ -7,9 +7,7 @@ nav: false
 nav_order: 21
 ---
 
-**Come talk to us!** We have many interesting [projects and problem settings](/projects).
-Also, if you have **your own project ideas**, don't hesitate to contact us!
-We will support you as best as we can!
+**Come talk to us!** If you have **your own project ideas**, don't hesitate to contact us - we will support you as best as we can!
 
 At the moment, we offer the following topics for a master's thesis:
 

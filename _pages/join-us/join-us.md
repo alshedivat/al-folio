@@ -6,8 +6,8 @@ nav: true
 nav_order: 21
 dropdown: true
 children:
-    - title: Our Values
-      permalink: /join-us/values/
+    - title: Overview
+      permalink: /join-us/overview/
     - title: divider
     - title: Postdocs
       permalink: /join-us/postdocs/
@@ -17,5 +17,5 @@ children:
       permalink: /join-us/students/
     - title: divider
     - title: Data Science Club
-      permalink: /datascienceclub/
+      permalink: /join-us/datascienceclub/
 ---

@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /datascienceclub/
+permalink: /join-us/datascienceclub/
 title: Data Science Club
 description: University of Rostock
-nav: true
+nav: false
 nav_order: 20
 ---
 

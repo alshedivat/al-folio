@@ -7,12 +7,6 @@ nav: false
 nav_order: 21
 ---
 
-**We are hiring!** 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are currently looking for **several PhD students, postdocs, and student assistants** with an interest in machine learning.
-
-> The [current call for Postdocs and PhD applications](https://jobs.uni-rostock.de/jobposting/695791729fb8928b74602186ca8fa4f7111bbfc00) is open until **October 15th, 2023**.
-
-**Note** that due to state regulation this particular position needs you to be proficient at speaking German 🇩🇪.
-
 **We are looking for:**
 
 * inherent curiosity and extraordinary drive to explore and learn
