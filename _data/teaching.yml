@@ -285,3 +285,26 @@
     - name: Hampus Malmberg
   role: creator
   link: https://isi.ee.ethz.ch/teaching/pps/elab.html
+
+- name: Analog Signal Processing and Filtering
+  teacher: Prof. Hanspeter Schmid
+  type: master class
+  date:
+    year: 2023
+    autumn: True
+  supervisors:
+    - name: Hampus Malmberg
+  role: teaching assistant
+  link: https://isi.ee.ethz.ch/teaching/courses/asf.html
+
+
+- name: Electronic Circuits & Signals Exploration Laboratory
+  teacher: Hampus Malmberg
+  type: project and seminar
+  date:
+    year: 2023
+    autumn: True
+  supervisors:
+    - name: Hampus Malmberg
+  role: creator
+  link: https://isi.ee.ethz.ch/teaching/pps/elab.html
