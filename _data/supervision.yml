@@ -1,3 +1,26 @@
+- title: Detecting Decaying Sinusoids for NMR Spectra
+  type: Master project
+  students:
+    - first: Arsim
+      last: Dzambazoski
+  year: 2023
+  fall_semester: False
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+    - first: Hans-Andrea
+      last: Loeliger
+    - first: Hugo
+      last: Aguettaz
+    - first: Elizabeth
+      last: Ren
+    - first: Nicolas
+      last: Schmid
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
 - title: Nonograms and iterative constraints propagation
   type: Semester project
   students:
