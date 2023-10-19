@@ -1,34 +1,31 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Harris":
+  - firstname: ["Pamela", "P.", "Pamela E"]
+    url: https://www.pamelaeharris.com/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Yu":
+  - firstname: ["Teresa","T."]
+    url: https://teresaxyu.github.io/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Bozeman":
+  - firstname: ["Chassidy", "C."]
+    url: https://www.mtholyoke.edu/node/71516
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Wen":
+  - firstname: ["Yuxin", "Y."]
+    url: https://yuxinwenrick.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Kirchenbauer":
+  - firstname: ["John", "J."]
+    url: https://jwkirchenbauer.notion.site/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Geiping":
+  - firstname: ["Jonas", "J."]
+    url: https://jonasgeiping.github.io/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Goldblum":
+  - firstname: ["Micah", "M."]
+    url: https://goldblum.github.io/
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Goldstein":
+  - firstname: ["Tom", "T."]
+    url: https://www.cs.umd.edu/~tomg/
