@@ -2,40 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
+subtitle: Passionate Engineer at the Intersection of Robotics and Machine Learning
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    # <p>555 your office number</p>
+    # <p>123 your address street</p>
+    <p>Austin, Texas 78759</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. I am not sure whether the changes I make here will be reflected there or not. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hey there! I'm Abhishek Ranjan Singh, an electrical engineer with a serious love for robotics and machine learning. I laid down my academic roots at North Carolina State University and Maulana Azad National Institute of Technology in India. These places not only gave me a strong foundation but also fueled my passion for diving deep into the tech world.
 
-Abhishek Ranjan Singh, an electrical engineer by training, has etched a significant mark in the domains of robotics and machine learning. With a solid academic foundation from reputed institutions like North Carolina State University, USA, and Maulana Azad National Institute of Technology, India, Abhishek embarked on an exciting journey in the world of technology and innovation.
+I've had the chance to work with some cool teams. At Apple in Austin, I delved into machine learning, creating object detection algorithms and tinkering with 3D Lidar streams. Over at Rizse, I played around with UAV path planning, adding a dash of real-time obstacle avoidance which was super exciting.
 
-After earning his Bachelor of Technology in Electrical Engineering from NIT-B, India, with an impressive GPA of 3.8/4.0, Abhishek pursued further studies in the USA. He completed his Master of Science in Electrical Engineering from North Carolina State University with a perfect GPA of 4.0/4.0, showcasing his dedication and prowess in the subject.
-
-During his tenure as a Graduate Research Assistant at EcoPRT Lab, NCSU, he made notable contributions to the realm of autonomous driving. Abhishek's collaboration with the psychology department led to the design of an innovative lighting system for vehicles, a project that aimed to gauge people's reactions to autonomous vehicles. This pioneering work, underpinned by Raspberry-Pi-controlled LEDs and C++ programming, speaks volumes about his knack for interdisciplinary innovation.
-
-Abhishek's professional journey saw him wearing multiple hats. As a Robotics Software Engineer at Rizse in Austin, Texas, he enhanced the path planning capabilities of UAVs with real-time obstacle avoidance solutions. His tenure at Apple, one of the world's tech giants, had him diving deep into machine learning. Abhishek developed cutting-edge object detection algorithms and efficiently managed 3D Lidar streams, fusing data from multiple streams to create a coherent whole.
-
-His freelance endeavors as a Robotics Software Engineer with Insite-3D in Austin further demonstrate his expertise, where he successfully implemented a 3D-SLAM algorithm for an autonomous drone.
-
-Beyond his professional roles, Abhishek's passion for innovation led to his thesis project titled "PointPillars++ for Object Detection." By building on existing technologies like PointPillars & PointNet++, he designed a groundbreaking object detection algorithm that pushed the boundaries of 3-D object detection metrics.
-
-Abhishek's technical acumen spans a wide range of tools and languages, from C++ and Python to specialized libraries like ROS/ROS2 and Tensorflow. His publication in the Imperial International Journal of Eco-friendly Technologies further underscores his dedication to contributing to the global knowledge pool.
-
-Active on platforms like LinkedIn and GitHub, Abhishek Ranjan Singh's journey is a testament to the blend of academic rigor, technical prowess, and a drive to innovate in the ever-evolving fields of robotics and machine learning.
-
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+But it's not all about work! My academic side projects have been a blast, too. My thesis on object detection was a challenging yet rewarding journey, and getting my research out into international journals was a cherry on top. Whether I'm coding in C++ or Python or exploring tools like ROS/ROS2, I'm always on the lookout for the next big thing in robotics and machine learning.
