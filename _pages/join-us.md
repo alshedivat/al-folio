@@ -9,7 +9,7 @@ nav_order: 21
 
 **We are hiring!** 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are currently looking for **several PhD students, postdocs, and student assistants** with an interest in machine learning.
 
-> The [current call for Postdocs and PhD applications](https://jobs.uni-rostock.de/jobposting/695791729fb8928b74602186ca8fa4f7111bbfc00) is open until **October 15th, 2023**.
+> The [current call for Postdocs and PhD applications](https://jobs.uni-rostock.de/jobposting/695791729fb8928b74602186ca8fa4f7111bbfc00) is open until **October 31th, 2023**.
 
 **Note** that due to state regulation this particular position needs you to be proficient at speaking German 🇩🇪.
 
@@ -94,7 +94,7 @@ For more information please see the [official posting](https://jobs.uni-rostock.
 **Application:**
 
 We are really looking forward to your application!
-The **current application deadline is October 15th, 2023.**
+The **current application deadline is October 31th, 2023.**
 The **earliest start date is November 1st, 2023.** 
 <!-- Please send your material directly to Martin Becker: [martin.becker@uni-rostock.de](mailto:martin.becker@uni-rostock.de).
 The subject should be **"PhD Application 2022"**. -->
