@@ -8,9 +8,9 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>mid-hike</p>
-    <p><a href='https://www.google.com/maps/@21.3856757,-157.7166577,3a,75y,20.89h,104.12t/data=!3m8!1e1!3m6!1sAF1QipMhyEMvFdtnPwALh5LUrjL8lMKieiT0k-7y0-Y-!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMhyEMvFdtnPwALh5LUrjL8lMKieiT0k-7y0-Y-%3Dw203-h100-k-no-pi-0-ya55.89416-ro-0-fo100!7i8704!8i4352'>somewhere in o'ahu</a></p>
+  # address: >
+  #   <p>mid-hike</p>
+  #   <p><a href='https://www.google.com/maps/@21.3856757,-157.7166577,3a,75y,20.89h,104.12t/data=!3m8!1e1!3m6!1sAF1QipMhyEMvFdtnPwALh5LUrjL8lMKieiT0k-7y0-Y-!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMhyEMvFdtnPwALh5LUrjL8lMKieiT0k-7y0-Y-%3Dw203-h100-k-no-pi-0-ya55.89416-ro-0-fo100!7i8704!8i4352'>somewhere in o'ahu</a></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
