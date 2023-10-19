@@ -1,23 +1,41 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Extrapolation!
+description: Python CBS Limit Calculator
+img: assets/img/1.jpg
 importance: 3
 category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<b>The CBS limit problem:</b> An ideal finite basis set should mimic the complete basis set (CBS) limit, but reaching this limit often requires large finite basis sets, limiting practical use to small molecular systems.:cry:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<b>The CBS solution:</b>:Various extrapolation schemes have emerged to address the CBS limit problem by approximating infinite basis set calculations through extrapolation. These schemes often use two-, three-point or even four-point extrapolation formulas based on asymptotic convergence of energies, structure parameters and spectroscopic properties, to the CBS limit, with points obtained using progressively larger basis sets. Examples here includes the commonly used Dunning's aug-cc-pVnZ type correlation-consistent basis sets plus the polarization consistent basis sets.
+
+<b>The CBS limit extrapolation calculator:</b> Although many extrapolation formulas involve simple exponential, Gaussian, and power functions, determining parameters for CBS limit extrapolation can be computationally quite intensive. This CBS Limit Extrapolation script significantly simplifies these calculations making the extrapolation process, be it for a two-, three-point, four-point cardinal number system or even higher, more efficient and accessible for everyone. The code calculates the Complete Basis Set (CBS) limit value using any given molecular parameters (e.g.Ee) fits the data to a Ee(n) function, and plots the results, in particular, Ee(∞). 
+
+<br>
+here we go...:grin:
+<br><b>Step 1.</b> Define the CBS function: for example Ee(n) = Ee(∞) + A * e^-(n-1) + B * e^-(n-1)^2
+
+<b>Step 2.</b> Define the n cardinal number narray for aug-cc-pVnZ basis set sizes (n = 2, 3, 4 or higher).
+
+<b>Step 3.</b>Collect Ee_values: you are prompted to input De, Ee, structure parameters or spectroscopic data separated by commas.
+
+<b>Step 4.</b>Fit the Ee function: Use the curve_fit function from scipy.optimize to fit the Ee function to the provided Ee(n) values.
+
+<b>Step 5.</b> Extract the fitted parameters: Obtain the extrapolated CBS limit value (Ee(∞)) and the corresponding fitting parameters A and B.
+
+<b>Step 6.</b> The script then prints the results displaying the input De values, extrapolated CBS limit value Ee(∞), and fitting parameters.
+
+<b>Step 7.</b> Finally ,matplotlib.pyplot will help you to plot the results, and create a diagram displaying the input Ee values, fitted curve, and extrapolated CBS limit value of Ee(∞)
+<br>
+<br>
 
     ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
+    script: python/replit.com
+    title: CBS limit extrapolation project
+    description: script to calculate Ee(∞) as a function of cardinal number n
+    url: https://replit.com/@konolemke/CBSExtrapolation
     ---
 
 <div class="row">
@@ -68,7 +86,7 @@ Here's the code for the last row of images above:
 
 {% raw %}
 ```html
-<div class="row justify-content-sm-center">
+<div ddddd="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>

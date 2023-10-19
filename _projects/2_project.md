@@ -1,24 +1,21 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title:  Vapors' Heavy Metals 
+description: Heavy Metals in Volcanic Vapors - Insights from IRMPD Spectroscopy and Molecular Simulations of Cadmium and Mercury Clusters
+img: assets/img/corridor_17307118.jpg
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<b>Summary</b>: The study of molecular hydration, an emerging field in Earth Sciences, is essential for under-standing geochemical processes in the upper crust, particularly metal transport. As water rises buoyantly through the crust and undergoes boiling, its capacity to form hydration shells around other molecules changes, affecting the mobility of metals such as cadmium (Cd) and mercury (Hg). Investigating the structure, stability, and hydration shell of Cd- and Hg-containing complexes and clusters is critical for comprehending their size-dependent properties, and consequently, their transport and deposition chemistry in ore-forming processes. The aim of this project is to examine the water hydration structure surrounding cadmium and mercury complexes, thereby gaining a deeper understanding of the physico-chemical properties of these geochemically significant metal species.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
+    funding period: 1/9/2018-31/08/2022
+    title: Heavy Metals in Volcanic Vapors:
+    fund awarded : $505,298 (GRF/17307118)
+    keywords: FT-MS,IRMPD, solvation, cadmium, mercury halide complexes
     ---
 
 <div class="row">

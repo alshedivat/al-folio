@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2023-07-10 10:30-10:45
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+<b>GS2023 Lyon</b>: W.Hui presented new CPMD Gold(I)-sulfite results :sparkles: :smile:

@@ -2,9 +2,9 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Kono Lemke
     - name: Date of Birth
-      value: 14th March 1879
+      value: 5th Sep. 1970
     - name: Languages
       value: English, German
 
@@ -21,9 +21,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: MSc.
+      institution: University of Bristol, Bristol, UK
+      year: 1998
       description:
         - Description 1.
         - Description 2.
@@ -31,9 +31,9 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Associate Professor of Geochemistry
+      institution: Department of Earth Sciences, University of Hong Kong
+      year: 2009 - present
       description:
         - Description 1.
         - Description 2.

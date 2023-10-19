@@ -2,7 +2,8 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: We are proud to share that we have achieved our eighth consecutive RGC GRF application in Hong Kong (and we have been successful in all of them!) For 2023/2034 we secured a $877,079 grant to study metal-organosulfur complexes and their impact on metal geochemistry and prebiotic evolution, showcasing our unwaivering commitment to advancing knowledge in this vital field in the Earth Sciences.
+
 nav: true
 nav_order: 2
 display_categories: [work, fun]

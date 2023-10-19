@@ -1,32 +1,23 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: 2 PhD Projects for 2024 "<b>Metals in Ore Nanodroplets</b>"
+date: 2023-09-13 16:11:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+<b>Two PhD Positions for 2024 "Metals in Ore Nanodroplets" Sep14, 2023</b>
 
-***
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+We are excited to announce two PhD positions available in the Department of Earth Sciences, University of Hong Kong. These projects aim to study the speciation of metal clusters in water vapor and probe the structure of the water solvation shell around metal clusters using advanced techniques such as FT-mass spectrometry and IR spectroscopy.
 
-#### Hipster list
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
+As part of this project, the PhD students will measure IRMPD spectra of metal clusters under FT-MS conditions using table top OPO and free-electron laser systems. The combination of both methods will facilitate the measurement of IR spectra of mass-selected ions. In collaboration with quantum chemical tools, this will help to unravel the structure of the ion core and water solvation shell. Current FT-MS IR studies focus on microsolvated polynuclear metal clusters containing Au, Cu, Ag and make use of a custom-built OPO laser system and FEL systems with tunable output in the mid-IR range.
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+><p> "In Hong Kong, where PhD student dwell,<br>
+>    Earth Science secrets they'll unveil,<br>
+>    With heavy metals and steam,<br>
+>    IR Laser beams gleam,<br>
+>    As spectrometry stories they'll tell" :smile: :smile:<br>
+>    —<i>Gustav P. Tellerman</i></p>
 
-***
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+For additional information, please contact Dr. Kono Lemke at kono@hku.hk or visit http://127.0.0.1:4000/al-folio for more details. The closing date for applications is Dec 15, 2023

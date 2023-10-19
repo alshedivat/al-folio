@@ -1,24 +1,21 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Ore Transport by Organics
+description: Metal transport in Ore Fluids by Organic Matter - Insights IRMPD Spectroscopy into the Structure and Stability of Gold- and Copper-Biomolecule Clusters
+img: assets/img/corridor_17308423.jpg
+#redirect: https://unsplash.com
 importance: 3
 category: work
+giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<b>Summary</b>: Molecular association reactions between organic matter and aqueous metals Have so far received little attention in the Earth sciences, despite the fact that metal complexation reactions with organic ligands critically affect their mobility and ore deposition chemistry. Organo- and organosulfur compounds, with their affinity for metal ions like Au+ and metal ion complexes such as [AuCl2]+, are particularly interesting. These complexes contribute to metal mobility in metal sulfide deposits and are also of considerable interest in prebiotic chemistry given their ability to enhance oligomerisation reactions that are otherwise unfavourable. Theerefore, to better understand molecular-scale association reactions involving Au and Cu with organosulfur ligands, we have initiated a new experimental effort to investigate the structure and spectroscopic properties of Au- and Cu-organosulfur complexes in aqueous fluids. These type of spectroscopic experiments will shed light on their geochemical importance, but also on their role in early chemical evolution.
 
     ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
+    funding period: 15/9/2023-14/09/2026
+    title: Metal transport in Ore Fluids by Organic Matter
+    fund awarded : $877,079 (GRF/17308423)
+    keywords: metal transport, organosulfur, IRMPD, ore deposits
     ---
 
 <div class="row">
