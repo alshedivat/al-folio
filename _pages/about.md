@@ -7,8 +7,6 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    # <p>555 your office number</p>
-    # <p>123 your address street</p>
     <p>Austin, Texas 78759</p>
 
 news: true  # includes a list of news items
