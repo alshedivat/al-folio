@@ -1,3 +1,20 @@
+- title: Automated Audio Mixing
+  type: Master project
+  students:
+    - first: Andreas
+      last: Kreuzmann
+  year: 2023
+  fall_semester: False
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+    - first: Elizabeth
+      last: Ren
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
 - title: Detecting Decaying Sinusoids for NMR Spectra
   type: Master project
   students:
