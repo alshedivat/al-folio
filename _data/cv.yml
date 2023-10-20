@@ -71,8 +71,13 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2023
+      items: 
+        - SIGHPC Travel Grant
     - year: 2022
       items: 
+        - ACM/IEEE George Michael Memorial HPC Fellowship
+        - <b>Gold Medal at the ACM Student Research Competition</b>, ACM/IEEE Supercomputing
         - AWS Cloud Credits for Research Applications
         - Google Cloud Research Credits
     - year: 2021
