@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -19,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Final year Dual Degree Student @IIT Bombay pursuing integrated BTech (Metallurgical Engineering and Material Science) and MTech (Healthcare Informatics)
+Final year Dual Degree Student @<a href='#'>IIT Bombay</a> pursuing integrated BTech (Metallurgical Engineering and Material Science) and MTech (Healthcare Informatics)
 
 I'm from Bihar, India, and I've spent the last eight years studying and exploring cities like Delhi and Mumbai, connecting with diverse people, places, and subjects.
 
