@@ -8,8 +8,8 @@ profile:
   image: prof_pic2.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Hostel 17, IIT BOMBAY</p>
-    <p>Powai, Maharashtra, 400076</p>
+    <p>Hostel 17, IIT Bombay</p>
+    <p>Mumbai, 400076</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
