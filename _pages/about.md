@@ -18,6 +18,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD student currently conducting research at the Recommender Systems Lab, located within the University of Colorado Boulder. My research is primarily focused on the study and development of recommender systems and their applications in the context of crowdfunding. With a background spanning five years, I possess valuable experience in data collection and analysis, having worked across various sectors, including nonprofit organizations, government agencies, and telecommunications.
-
-Outside of my studies, I find joy in playing musical instruments, exploring new languages, scaling heights through rock climbing, and engaging in creative coding projects. These passions not only provide balance to my academic life but also fuel my curiosity and drive for innovation.
+I am a PhD student currently conducting research at the Recommender Systems Lab, located within the University of Colorado Boulder. My research is primarily focused on the study and development of recommender systems and their applications in the context of crowdfunding. With a background spanning five years, I possess valuable experience in data collection and analysis, having worked across various sectors, including nonprofit organizations, government agencies, and telecommunications. Outside of my studies, I find joy in playing musical instruments, exploring new languages, rock climbing, and engaging in creative coding projects.
