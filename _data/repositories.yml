@@ -1,12 +1,15 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - gdalle
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - gdalle/ImplicitDifferentiation.jl
+  - gdalle/HiddenMarkovModels.jl
+  - axelparmentier/InferOpt.jl
+  - JuliaDiff/AbstractDifferentiation.jl
+  - JuliaGraphs/Graphs.jl
+  - JuliaGraphs/MetaGraphsNext.jl
+  - JuliaCI/BenchmarkTools.jl
+  - JuliaCI/PkgTemplates.jl
+  - phd-resources/phd-resources.github.io
+  - modernjuliaworkflows/modernjuliaworkflows.github.io
+  - mitmath/JuliaComputation

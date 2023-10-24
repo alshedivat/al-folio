@@ -1,34 +1,27 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Baty":
+  - firstname: ["Léo", "L."]
+    url: https://batyleo.github.io/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Bouvier":
+  - firstname: ["Louis", "L."]
+    url: https://louisbouvier.github.io/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"De Castro":
+  - firstname: ["Yohann", "Y."]
+    url: https://ydecastro.github.io/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Parmentier":
+  - firstname: ["Axel", "A."]
+    url: https://cermics.enpc.fr/~parmenta/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Stephan":
+  - firstname: ["Pierre", "P."]
+    url: https://www.linkedin.com/in/pierre-stephan-3441421a0/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Tarek":
+  - firstname: ["Mohamed", "M."]
+    url: https://mohamed82008.github.io/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Vidal":
+  - firstname: ["Thibaut", "T."]
+    url: https://w1.cirrelt.ca/~vidalt/en/home-thibaut-vidal.html

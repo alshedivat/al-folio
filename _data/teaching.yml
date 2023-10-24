@@ -1,0 +1,60 @@
+- title: university classes
+  type: time_table
+  contents:
+    - title: teaching assistant
+      institution: École polytechnique fédérale de Lausanne
+      year: 2023
+      description:
+        - <a href="https://edu.epfl.ch/coursebook/en/statistical-physics-for-optimization-learning-PHYS-642">Statistical physics for optimization & learning</a>
+        - Modèles stochastiques pour les communications
+    - title: teaching assistant and lecturer
+      institution: Massachussetts Institute of Technology
+      year: 2022 - 2023
+      description:
+        - <a href="https://github.com/mitmath/JuliaComputation">Julia - solving real-world problems with computation</a>
+    - title: teaching assistant and lecturer
+      institution: École des Ponts
+      year: 2019 - 2021
+      description:
+        - Introduction to optimization (first year)
+        - <a href="../reop/">Operations research</a> (second year)
+
+- title: mentoring
+  type: time_table
+  contents:
+    - title: master's theses
+      institution: École des Ponts
+      year: 2021
+      description:
+        - <a href="https://louisbouvier.github.io/">Louis Bouvier</a> on large-scale inventory routing
+    - title: student projects
+      institution: École des Ponts
+      year: 2019 - 2022
+      description:
+        - <a href="https://kiro.enpc.org/">Optimization challenge</a> on train shunting, sponsored by SNCF (2021)
+        - Optimization challenge on inventory routing, sponsored by Renault (2020)
+        - Group project on <a href="https://www.youtube.com/watch?v=bQ0FSKwVTw0">multimodal transit routing</a> (2020)
+        - Group project on train shunting (2020)
+
+- title: preparatory classes
+  type: time_table
+  contents:
+    - title: oral examiner in mathematics
+      institution: Lycées Louis-le-Grand & Henri IV
+      year: 2016 - 2017
+    - title: teaching intern
+      institution: Lycée Jean-Baptiste Corot
+      year: 2015 - 2016
+
+- title: exercise sheets (in French)
+  type: nested_list
+  contents:
+    - title: classes préparatoires
+      items: 
+        - Exercices de mathématiques <a href="../assets/pdf/Mes%20colles%20MPSI.pdf">niveau MPSI</a>
+        - Exercices de mathématiques <a href="../assets/pdf/Mes%20colles%20MP.pdf">niveau MP</a>
+        - Exercices de probabilités <a href="../assets/pdf/Mes%20exos%20probas.pdf">niveau MPSI-MP</a>
+        - Compilation d'<a href="../assets/pdf/Centrale%20Python.pdf">oraux Centrale-Supélec avec Python</a>
+    - title: lycée
+      items:
+        - Préparation au Concours Général de mathématiques - <a href="../assets/pdf/Exos%20CG%201.pdf">énoncé 1</a>, <a href="../assets/pdf/Correction%20CG%201.pdf">corrigé 1</a>, <a href="../assets/pdf/Exos%20CG%201.pdf">énoncé 2</a>, <a href="../assets/pdf/Correction%20CG%201.pdf">corrigé 2</a>

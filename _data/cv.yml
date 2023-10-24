@@ -1,97 +1,83 @@
-- title: General Information
+- title: General
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Guillaume Dalle
     - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      value: French, English, German
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctoral researcher
+      institution: EPFL (IdePHICS / SPOC / INDY)
+      year: 2023 - 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Behavior of graph neural networks
+    - title: Visiting student
+      institution: MIT (JuliaLab)
+      year: 2022
+    - title: Doctoral researcher
+      institution: École des Ponts (CERMICS)
+      year: 2019 - 2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Machine learning and combinatorial optimization algorithms, with applications to railway planning
+    - title: Research intern
+      institution: École des Ponts (CERMICS)
+      year: 2019
       description:
+        - Probabilistic graphical models for delay propagation
+    - title: Research intern
+      institution: Électricité de France R&D
+      year: 2018
+      description:
+        - Markovian models for soiling estimation & cleaning optimization in solar power plants
+    - title: Development intern
+      institution: Foris AI - Chile
+      year: 2017
+      description:
+        - Linear Programming & local search for university timetabling
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Education
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    
+    - title: Master's degree
+      institution: École des Ponts / ENS Paris-Saclay
+      year: 2018 - 2019
+      description:
+        - Mathematics, Vision and Learning
+    - title: Engineering degree
+      institution: École polytechnique
+      year: 2015 - 2018
+      description:
+        - Applied mathematics
+    - title: Preparatory classes
+      institution: Lycée Louis-le-Grand
+      year: 2013 - 2015
+      description:
+        - Mathematics and physics
 
-- title: Honors and Awards
+- title: Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Prix de thèse maths-entreprises
+      institution: Agence pour les Mathématiques en Interaction avec l'Entreprise et la Société
+      year: 2023
+      description:
+        - <a href="https://www.agence-maths-entreprises.fr/public/pages/activities/prix-de-these/prix2these-2023.html">National award</a> for the best thesis in mathematics with industrial applications
+    - title: Prix Pasquet
+      institution: Fondation des Ponts
+      year: 2021
+      description:
+        - <a href="https://www.fondationdesponts.fr/prix-pasquet-guillaume-dalle/">University-wide award</a> for an outstanding engineering student
+    - title: Concours de l'École polytechnique
+      institution: École polytechnique
+      year: 2015
+      description:
+        - Ranked first in the <a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031027495">national competitive entrance exam</a> to France's most prestigious engineering school
+    - title: Concours Général d'allemand
+      institution: Éducation Nationale
+      year: 2013
+      description:
+        - Ranked first in the <a href="https://concoursgeneral.org/wp-content/uploads/2019/08/palmares_national_2013.pdf">national competitive exam</a> selecting the best high school student of German
