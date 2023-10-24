@@ -4,7 +4,7 @@ title: The Secret of Our Success
 date: 2023-10-20
 description: Joseph Henrich
 img: assets/books/the-secret-of-our-success.png
-importance: 2
+importance: 1
 category: progress & technology
 giscus_comments: false
 related_posts: false
