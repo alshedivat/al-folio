@@ -30,9 +30,20 @@ When did our species start possessing knowledge that no single individual could 
 - Generating and sustaining technological complexity requires collective brains linked by social networks and galvanized by social norms - our lineage probably danced around the starting point for a long time while living in small groups
 - **Around 2 million years ago**, we have evidence of external food processing techniques and hunting tools built by Homo Erectus that indicate crossing this threshold
 
-What are the other major thresholds our species crossed increasing its ability to create and pass knowledge culturally?
-- **2 million years ago**: first evidence of cumulative cultural learning in Homo Erectus
-- **70,000 years ago**: first sophisticated languages in Homo Sapiens, turbo-charging cumulative cultural learning, see Sapiens, Yuval Noah Harari - **why did it take so long to cross this threshold?**
-- **400 years ago**: rational knowledge creation and propagation through conjecture and experiments/criticism during the Enlightenment as opposed to prior propagation through dogma, see The Beginning of Infinity, David Deutsch - **again, why did it take so long?**
-- **30 years ago**: the Internet, all of humanity's knowledge available to anyone in a click
-- Next frontier in the next few decades: machine knowledge creation (ML to accelerate Science) and propagation (ML for education) - now we're talking, **how fast can we go?**
+What are the **other major thresholds** our species crossed increasing its ability to create and pass knowledge culturally?
+
+| Timeline            | Event            | New Knowledge Creation    | New Knowledge Propagation         |
+|---------------------|------------------|---------------------------|-------------------------------|
+| 2 million years ago | Cumulative cultural learning in Homo Erectus | Individual behavioral trial and error for hunting and food processing | Behavioral copying and teaching within small social groups |
+| 70,000 years ago    | Sophisticated spoken language in Homo Sapiens | Thought about abstract concepts <br> Real-time criticism and improvement of ideas through discussion | Oral teaching within larger social groups     |
+| 5000 years ago      | Written language                              | Better thought through writing: working memory, organization and clarity, iterative process | Writing and reading: transfer across generations and social groups, over extended time and space          |
+| 600 years ago       | Printing press                                | - | Much broader writing and reading, more accurate copying |
+| 400-300 years ago   | Enlightenment                                 | Widespread rational knowledge creation: conjecture and experiment/criticism (see David Deutsch) | - |
+| 30 years ago        | Internet                                      | - | Eternal archive and instant search from anywhere of all knowledge |
+| Next few decades    | AI                                            | Machine knowledge creation: from making researchers and entrepreneurs more productive to discovering new knowledge autonomously | Machine knowledge propagation: from AI-powered search and synthesis to personal AI teachers |
+
+<br>
+
+The most striking question from this timeline is: **Why did it take so long to cross the first few thresholds?** Why did it take almost 2 million years to develop spoken language? Another 65,000 for written language? And another 5,000 to start systematically creating knowledge rationally? 
+
+In contrast, we are just 400 years into systematic rational knowledge creation, 30 years into an eternal archive and instant search of all knowledge, and we're already on the verge of the next frontier: machine knowledge creation and propagation. **How fast can humanity go from here?**
