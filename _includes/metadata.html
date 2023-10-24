@@ -6,6 +6,11 @@
     {% if site.enable_bing_verification -%}
     <meta name="msvalidate.01" content="{{ site.bing_site_verification }}" />
     {%- endif -%}
+    <!-- Avoid warning on Google Chrome
+        Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.
+        see https://stackoverflow.com/a/75119417
+    -->
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
 {%- endif %}
 
     <!-- Standard metadata -->
@@ -36,11 +41,17 @@
     <meta name="keywords" content="{%- if page.keywords -%}{{ page.keywords }}{%- else -%}{{ site.keywords }}{%- endif -%}" />
 {%- endif %}
 
-{%- if site.serve_og_meta %}
+{%- assign is_blog_post = false -%}
+{%- if page.url != '/blog/index.html' and page.url contains '/blog/' -%}
+    {%- unless page.url contains '/tag/' or page.url contains '/category/' -%}
+        {%- assign is_blog_post = true -%}
+    {%- endunless -%}
+{%- endif -%}
 
+{%- if site.serve_og_meta %}
     <!-- OpenGraph -->
     <meta property="og:site_name" content="{{ title }}" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="{%- if is_blog_post -%}article{%- else -%}website{%- endif -%}" />
     <meta property="og:title" content="{%- if page.title -%}{{ title }} | {{ page.title }}{%- else -%}{{ title }}{%- endif -%}" />
     <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}" />
     <meta property="og:description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />
@@ -83,8 +94,20 @@
         {%- capture link -%}https://publons.com/a/{{ site.publons_id }}/{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
+    {%- if site.lattes_id -%}
+        {%- capture link -%}http://lattes.cnpq.br/{{ site.lattes_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.osf_id -%}
+        {%- capture link -%}https://osf.io/{{ site.osf_id }}/{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
     {%- if site.research_gate_profile -%}
         {%- capture link -%}https://www.researchgate.net/profile/{{site.research_gate_profile}}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.scopus_id -%}
+        {%- capture link -%}https://www.scopus.com/authid/detail.uri?authorId={{site.scopus_id}}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
     {%- if site.github_username -%}
@@ -101,6 +124,10 @@
     {%- endif -%}
     {%- if site.twitter_username -%}
         {%- capture link -%}https://twitter.com/{{ site.twitter_username }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.mastodon_username -%}
+        {%- capture link -%}https://{{ site.mastodon_username  }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
     {%- if site.medium_username -%}
@@ -121,6 +148,10 @@
     {%- endif -%}
     {%- if site.wikidata_id -%}
         {%- capture link -%}https://www.wikidata.org/wiki/{{ site.wikidata_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.wikipedia_id -%}
+        {%- capture link -%}https://wikipedia.org/wiki/User:{{ site.wikipedia_id }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
     {%- if site.strava_userid -%}
@@ -171,8 +202,16 @@
         {%- capture link -%}https://facebook.com/{{ site.facebook_id }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
+    {%- if site.youtube_id -%}
+        {%- capture link -%}https://youtube.com/@{{ site.youtube_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
     {%- if site.discord_id -%}
         {%- capture link -%}https://discord.com/users/{{ site.discord_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.zotero_username -%}
+        {%- capture link -%}https://www.zotero.org/{{ site.zotero_username }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
     {%- if sameaslinks != blank -%}
@@ -180,14 +219,14 @@
     {%- endif -%}
 
     <script type="application/ld+json">
-      {
+    {
         "author":
         {
-          "@type": "Person",
-          "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}"
+            "@type": "Person",
+            "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}"
         },
         "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "@type": "WebSite",
+        "@type": "{%- if is_blog_post -%}BlogPosting{%- else -%}WebSite{%- endif -%}",
         "description": "{%- if page.description -%}{{ page.description }}{%- else if site.description -%}{{ site.description }}{%- endif -%}",
         "headline": "{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}",
         {% if sameaslinks != blank -%}
@@ -195,6 +234,6 @@
         {%- endif %}
         "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
         "@context": "https://schema.org"
-      }
+    }
     </script>
 {%- endif %}

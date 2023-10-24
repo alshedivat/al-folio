@@ -1,4 +1,5 @@
 <div id="giscus_thread" style="max-width: {{ site.max_width }}; margin: 0 auto;">
+  {%- if site.giscus.repo -%}
   <script>
     let giscusTheme = localStorage.getItem("theme");
     let giscusAttributes = {
@@ -24,4 +25,12 @@
     document.getElementById("giscus_thread").appendChild(giscusScript);
   </script>
   <noscript>Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript">comments powered by giscus.</a></noscript>
+  {%- else -%}
+  {% capture giscus_warning %}
+  > ##### giscus comments misconfigured
+  > Please follow instructions at [http://giscus.app](http://giscus.app) and update your giscus configuration.
+  {: .block-danger }
+  {% endcapture %}
+  {{ giscus_warning | markdownify }}
+  {%- endif -%}
 </div>
