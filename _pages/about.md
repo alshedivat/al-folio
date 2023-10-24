@@ -4,7 +4,7 @@ title: about
 exclude: false
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-subtitle: Though the mills of God grind slowly; Yet they grind exceeding small
+subtitle: Though the mills of God grind slowly; Yet they grind exceedingly small
 
 profile:
   align: right
