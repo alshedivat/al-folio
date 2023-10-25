@@ -121,6 +121,8 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://kudhru.github.io/" target="_blank">★</a>
 <a href="https://mbarbetti.github.io/" target="_blank">★</a>
 <a href="https://www.zhivotenko.com/" target="_blank">★</a>
+<a href="https://giordanodaloisio.github.io/" target="_blank">★</a>
+<a href="https://aadityaura.github.io/" target="_blank">★</a>
 <a href="https://shubhashisroydipta.com/" target="_blank">★</a>
 </td>
 </tr>
@@ -228,6 +230,7 @@ You need to take the following steps to get `al-folio` up and running on your lo
 - Finally, run the following command that will pull the latest pre-built image from DockerHub and will run your website.
 
 ```bash
+$ docker compose pull
 $ docker compose up
 ```
 
