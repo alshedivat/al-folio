@@ -39,6 +39,7 @@
       description:
         - Thesis - Insofar as morality is a social(ogical) object with a complex geneology and LLMs learn the statistical structure of social totality, unaligned LLMs grasp morality in concept. We distinguish value pluralism in content, the current ‘default’, and pluralism in concept.
         - Collaborator - Mark Pock. Advisor - Jared Moore.
+        - Joint first-author submission to NeuRIPS MP2.
     - title: Curriculum Learning for Large-Scale Audio Transcription Models
       institution: Deepgram
       year: Jun. '22 - Sep. '22
@@ -126,6 +127,12 @@
         - Awarded Top Writer in AI and Technology by Medium.
         - Contracted to write data science articles for machine learning companies and organizations like Neptune.AI
         - Served as Editor of Data Science and AI Content of The Data-Driven Investor
+
+- title: Academic Service
+  type: list
+  contents:
+    - 2023 NeurIPS Moral Psychology and Moral Philosophy Workshop Reviewer
+    - 2023 ICML AI + HCI Workshop Reviewer
 
 - title: Miscellaneous Work
   type: time_table
