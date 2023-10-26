@@ -63,3 +63,7 @@ Outside of academics, I enjoy listening to [lectures](https://www.youtube.com/wa
 </center>
 
 <br>
+
+<hr>
+
+<br>
