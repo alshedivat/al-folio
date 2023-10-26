@@ -123,6 +123,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://www.zhivotenko.com/" target="_blank">★</a>
 <a href="https://giordanodaloisio.github.io/" target="_blank">★</a>
 <a href="https://aadityaura.github.io/" target="_blank">★</a>
+<a href="https://abhinav-mehta.github.io/" target="_blank">★</a>
 <a href="https://shubhashisroydipta.com/" target="_blank">★</a>
 </td>
 </tr>
