@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
+    gem 'bigdecimal', '3.1.3'
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'

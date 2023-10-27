@@ -69,6 +69,7 @@ gitlab_username: # your GitLab user name
 twitter_username: neeljain1717
 linkedin_username: neel-jain-0a6a239 # your LinkedIn user name
 scholar_userid: nSn7jtIAAAAJ # your Google Scholar ID
+semanticscholar_id: 2204647912 # your Semantic Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -129,9 +130,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -141,10 +142,10 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
     permalink: /News/:path/
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
 
 announcements:
@@ -341,7 +342,7 @@ enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
+enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories

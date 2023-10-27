@@ -4,6 +4,7 @@ permalink: /courses/
 title: Courses
 description: A list of courses taken and assisted teaching.
 nav: true
+nav_order: 5
 ---
 <!-- ####  -->
 ### **University of Maryland, College Park**
