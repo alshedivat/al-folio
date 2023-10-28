@@ -10,8 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Glasgow, UK</p>
-    <p>University of Delhi | University of Tartu | University of Strathclyde</p>
-    <p>Your City, State 12345</p>
+    <p>University of Delhi | University of Tartu </p>
+    <p>University of Strathclyde</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
