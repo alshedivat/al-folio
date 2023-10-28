@@ -17,9 +17,16 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-This is some random text by Abdur Rahman.
-Write your biography here. Tell the world about yourself. You can put a picture in, too. The code is already in, just name your picture `abdur.jpg` and put it in the `img/` folder.
+I am Abdur Rahman, a passionate and determined individual hailing from Chennai, India. Currently, I am pursuing my undergraduate studies in Computer Science and Engineering with a specialization in cybersecurity at SRM University. My journey in the world of technology has been diverse and ever-evolving.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My interests span across various domains, with my current focus squarely on the exciting realm of cybersecurity. However, I have had the privilege of gaining hands-on experience in application and web development, building a solid foundation in networking, and mastering command-line tools. I have always been an avid explorer of the vast tech landscape.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My journey in technology has been marked by notable achievements, including the successful completion of projects like "QR-based Attendance Tracking" and my current endeavor, the development of a "File Encryption System Using AES-256 over HTTPS." I have worked with a range of tools and technologies, from Cryptography to PostgreSQL, and even dabbled in the world of design with experience in Framer and the up-and-coming Rive application.
+
+During my academic journey, I have enriched my knowledge with valuable experiences, including an internship at Inforill Technologies. I also embarked on a design internship on Rive, where I contributed to an e-Learning Japanese application.
+
+Beyond my academic pursuits, I indulge in a variety of extracurricular activities. As a chess enthusiast, I immerse myself in the strategic intricacies of the game. I am an outdoors person who embraces a love for sports, exemplified by my achievement of completing a 100-kilometer cyclothon and a full marathon covering 42 kilometers.  I find solace in listening to "Darknet Diaries" on Spotify, which offers intriguing insights into the world of cybersecurity.
+
+Continuously striving for personal growth, I am also dedicated to learning the Japanese language and have successfully completed the N5 examination, currently progressing towards the N4 level.
+
+My journey is marked by a commitment to learning, exploration, and a drive to excel in both academic and extracurricular pursuits. I look forward to further challenges and opportunities that allow me to make meaningful contributions to the world of technology and beyond.
