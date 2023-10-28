@@ -8,10 +8,13 @@ tags:
   - Machine Learning
   - Electrical Capacitance Tomography
 categories: education
+giscus_comments: true
 toc:
   sidebar: right
-featured: true
-giscus_comments: true
+featured: false
+related_posts: false
+datatable: true
+#redirect: /assets/pdf/example_pdf.pdf
 ---
 
 Hi there
@@ -62,6 +65,7 @@ My Master degree journey started in 2020, several month after Corona Virus lockd
 Finally, we could stay in dormitories with cautions and I got in touch with academic environment. I met my supervisor (who I talked to him before, during lockdown) and he told me about several topics which were not my mindset.
 
 
+Clearance: in Iran, supervisor professor has more power that anywhere else in the world when it comes to leading subjects and topics, so students in Iran must have approval from supervisor (for any thing) even if they have a great project to work on, they can not work on that till supervisor approve. This system has lots of disadvantages, while the only way to get into university is Konkour (bachelor, master and PhD), so supervisor can get things in hand and put pressure on students as much as they can so students do what they want (no matter students like fields or not)
 
 
 My professor had a project which was not even close to my background or field of interest, so I had to convince them to integrate my field of interests with his field of study, and after lots of sessions, the result was my master thesis:
@@ -148,10 +152,79 @@ For Tkh:
 ```
 
 
-WRITE ABOUT CODES AND HYPERPARAMETERS OF MODELS
+> In `Scikit-learn` negative $R^2$ is possible because as they mentioned “because the model can be arbitrarily worse”
+{: .prompt-info }
 
 
-### Get ready for CNN
+results in a Whisker-Box chart:
+
+{% include figure.html path="https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/b93a340e-f847-4100-a2be-3006601d461c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T134700Z&X-Amz-Expires=3600&X-Amz-Signature=57d51484e182a471327c746dade4acf54b6ebe8110851822e5bcf864437eff98&X-Amz-SignedHeaders=host&x-id=GetObject" class="img-fluid rounded z-depth-1" zoomable=true %} 
+
+
+
+with `LogisticRegressionCV` function results were looks like this
+
+{% include figure.html path="https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/1d92f057-2d7f-4828-b53e-add1c223c5e0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T134700Z&X-Amz-Expires=3600&X-Amz-Signature=4e5a291f5b0f9cdc3a2ea936915b06a319bd3c706700af9774af1153f7e7f08b&X-Amz-SignedHeaders=host&x-id=GetObject" class="img-fluid rounded z-depth-1" zoomable=true %} 
+
+
+#### K-Nearest-Neighbor
+
+
+After tunning model, results acquired as below:
+
+{% include figure.html path="https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/c787c505-ceca-4542-b681-764356d91668/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T134700Z&X-Amz-Expires=3600&X-Amz-Signature=da07710bbd6c67b5598ec3674a169561ae191b9045cbd5f23f6696ad810c85b2&X-Amz-SignedHeaders=host&x-id=GetObject" class="img-fluid rounded z-depth-1" zoomable=true %} 
+
+
+#### Histogram Gradient Boosting
+
+
+In this scenario, model tuning was not so effective and final results was as below chart:
+
+
+{% include figure.html path="https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/c787c505-ceca-4542-b681-764356d91668/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T134700Z&X-Amz-Expires=3600&X-Amz-Signature=da07710bbd6c67b5598ec3674a169561ae191b9045cbd5f23f6696ad810c85b2&X-Amz-SignedHeaders=host&x-id=GetObject" class="img-fluid rounded z-depth-1" zoomable=true %} 
+
+#### Conclusion on above models
+
+
+These models have a large range of $R^2$ and based other tests, they showed very different results, by that I can conclude that generalization is not enough.
+
+
+### Multilayer Perceptron
+
+
+In this case, after testing different scenarios, I realized that different combination of “number of neurons in each layer” lead to different error results. so I tested different combinations based on a repeat rule.
+
+
+#### 2 layers
+
+{% include figure.html path="https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/4e53e63c-bc47-410c-b8cf-2b9f375aebe2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T134700Z&X-Amz-Expires=3600&X-Amz-Signature=c93e3296e85d542200915b6f8274301022de3c044b48a7ed818bb19c3703fd62&X-Amz-SignedHeaders=host&x-id=GetObject" class="img-fluid rounded z-depth-1" zoomable=true %} 
+
+
+Vertical column: layers and neurons (number on neurons in each layer)
+
+
+Horizontal columns: $R^2$ results
+
+
+results are good, and generalization is much better than previous models.
+
+
+#### 3 layers
+
+
+In three layers, same method repeated. Results were better and generalization was better, too.
+
+
+#### 4 layers
+
+
+In four layer, improvement was good but it was not very noticeable.
+
+
+#### 5 and 6 and 7 layers
+
+
+It was more than required but I test it and result did not changed significantly.
 
 
 After that, I talked to my supervisor and they said, they will send a simulator which matches the real instrument.
@@ -160,15 +233,20 @@ After that, I talked to my supervisor and they said, they will send a simulator 
 An image of mentioned software.
 
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6d26606-cce0-49eb-8430-a174eb4de3f8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230810%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230810T144437Z&X-Amz-Expires=3600&X-Amz-Signature=eb98aa2f635ea4eb932ad557f3e7c43609f72ba1ba6b043eeb72bbe8cd920b44&X-Amz-SignedHeaders=host&x-id=GetObject)
+{% include figure.html path="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6d26606-cce0-49eb-8430-a174eb4de3f8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T134700Z&X-Amz-Expires=3600&X-Amz-Signature=4b837949479c20da343e41791fc05cc9f2ff39ae034fd74c6936c7ee79b4e12f&X-Amz-SignedHeaders=host&x-id=GetObject" class="img-fluid rounded z-depth-1" zoomable=true %} 
 
 
-(not related to me, but) this software is written in `C#` (why? because my supervisor decided to use `C#` for development), I did not even see its code (or any code from my supervisor)
+(not related to me, but) this software is written in `C#` (why? because my supervisor had decided to use  for development), I did not even see its code (or any code from my supervisor)
 
 
- I dont like 
+## My thesis done, I defensed
+
+
+Due to some problem, I had to defense sooner than I expected, its okay but I must change my plan and work on CNN out of thesis scope, so I decided to do it and write my scientific paper based on that.
+
+
+### Get ready for CNN
 
 
 … will be continued
-
 
