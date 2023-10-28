@@ -105,6 +105,17 @@ There are two pair of data:
 
 These two reconstruction methods are among fastest with lower computational cost.
 
+After that, I talked to my supervisor and they said, they will send a simulator which matches the real instrument.
+
+An image of mentioned software.
+
+
+{% include figure.html path="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6d26606-cce0-49eb-8430-a174eb4de3f8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T134700Z&X-Amz-Expires=3600&X-Amz-Signature=4b837949479c20da343e41791fc05cc9f2ff39ae034fd74c6936c7ee79b4e12f&X-Amz-SignedHeaders=host&x-id=GetObject" class="img-fluid rounded z-depth-1" zoomable=true %} 
+
+
+(not related to me, but) this software is written in `C#` (why? because my supervisor had decided to use  for development), I did not even see its code (or any code from my supervisor)
+
+
 
 ### Classic Machine Learning models
 
@@ -225,18 +236,6 @@ In four layer, improvement was good but it was not very noticeable.
 
 
 It was more than required but I test it and result did not changed significantly.
-
-
-After that, I talked to my supervisor and they said, they will send a simulator which matches the real instrument.
-
-
-An image of mentioned software.
-
-
-{% include figure.html path="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6d26606-cce0-49eb-8430-a174eb4de3f8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T134700Z&X-Amz-Expires=3600&X-Amz-Signature=4b837949479c20da343e41791fc05cc9f2ff39ae034fd74c6936c7ee79b4e12f&X-Amz-SignedHeaders=host&x-id=GetObject" class="img-fluid rounded z-depth-1" zoomable=true %} 
-
-
-(not related to me, but) this software is written in `C#` (why? because my supervisor had decided to use  for development), I did not even see its code (or any code from my supervisor)
 
 
 ## My thesis done, I defensed
