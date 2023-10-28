@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p> Glasgow | Estonia | India </p>
+    <p> Glasgow| Estonia| India </p>
     <p> University of Strathclyde </p>
     <p> University of Delhi </p>
     <p> University of Tartu </p>
