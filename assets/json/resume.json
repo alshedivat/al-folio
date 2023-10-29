@@ -1,61 +1,53 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Abdur Rahman",
+    "label": "Multifaceted Technologist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "aburahman918@gmail.com",
+    "phone": "7358120037",
+    "url": "https://gaoh19.github.io/",
+    "summary": "A Multifaceted Technologist, dedicated to exploring the dynamic realms of technology, cybersecurity, software development, and more, with a passion for continuous learning and growth.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "6 Ramappa Nagar 1st Cross St",
+      "postalCode": "IND 600096",
+      "city": "Chennai",
+      "countryCode": "IND",
+      "region": "Tamil Nadu"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "AbdurRa91791817",
+        "url": "https://twitter.com/AbdurRa91791817"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "Inforill Technologies",
+      "position": "Design Intern",
+      "url": "https://inforill.com",
+      "startDate": "2023-05-28",
+      "endDate": "2023-07-17",
+      "summary": "Worked with Rive ( A State-Of-The-Tool for creating well-performing interactive animations ) to implement the design part of a Japanese e-Learning application.",
       "highlights": [
-        "Relativity"
+        "Design"
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "S.R.M. Institute of Science and Technologies",
+      "url": "https://www.srmist.edu.in/",
+      "area": "Software Engineering",
+      "studyType": "B. Tech",
+      "startDate": "2022-08-01",
+      "endDate": "2026-05-01",
       "score": "",
       "courses": [
-        "Theory of Relativity"
+        "Cyber Security"
       ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
   "certificates": [],
@@ -63,12 +55,20 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Tamil",
       "fluency": "Native speaker"
     },
     {
       "language": "English",
       "fluency": "Fluent"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Amatuer"
     }
   ],
   "interests": [],
