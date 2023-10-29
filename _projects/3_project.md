@@ -1,12 +1,14 @@
 ---
 layout: page
-title: project 3
+title: Hashigo
 description: a project that redirects to another website
-img: assets/img/7.jpg
+img: assets/img/code-screenshot.png
 redirect: https://unsplash.com
 importance: 3
 category: work
 ---
+
+To be filled.
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

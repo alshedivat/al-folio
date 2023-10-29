@@ -15,10 +15,4 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Located in Chennai, India</p>
-  - align: left
-    image: abdur.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Located in Chennai, India</p>
 ---
