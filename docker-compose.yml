@@ -1,14 +1,10 @@
-version: '2'
+version: "3"
+# this file uses prebuilt image in dockerhub
 services:
   jekyll:
-    image: jekyll-al-folio:v1
-    container_name: cv
-    command: jekyll serve --verbose
+    image: amirpourmand/al-folio
+    build: .
     ports:
-      - 4000:4000
+      - 8080:8080
     volumes:
-      - "./:/srv/jekyll"
-      - "./vendor/bundle:/usr/local/bundle" # for caching
-    build:
-      context: ./docker
-      dockerfile: Dockerfile
+      - .:/srv/jekyll
