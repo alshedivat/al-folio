@@ -2,7 +2,7 @@
 layout: page
 title: CryptoShield
 description: File Encryption System Using AES-256 over HTTPS
-img: assets/img/CS_00.jpg
+img: assets/img/CS_00.jpeg
 importance: 2
 category: work
 giscus_comments: true
