@@ -19,8 +19,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a final year Master of Philosophy student in Intelligent Transportation at [Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/), and I'm also working closely with the Institute for Transportation and Development Policy ([ITDP](https://www.itdp.org/)). My research interests include decarbonization in transportation and power grids, transportation planning and policies, and management science.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am very fortunate to be co-supervised by [Prof. Wei WEI](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEI-Wei/wwei) and [Prof. Lin YANG](https://linyang-econ.com/) at HKUST(GZ).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am currently looking for a Ph.D. position starting in Fall 2024.
+
+You can find my CV [here](/assets/pdf/Jiewei_Li_CV.pdf) and contact me at [jliax@connect.ust.hk](mailto:jliax@connect.ust.hk).
