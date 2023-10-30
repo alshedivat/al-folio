@@ -110,7 +110,7 @@ After that, I talked to my supervisor and they said, they will send a simulator 
 An image of mentioned software.
 
 
-{% include figure.html path="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6d26606-cce0-49eb-8430-a174eb4de3f8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T134700Z&X-Amz-Expires=3600&X-Amz-Signature=4b837949479c20da343e41791fc05cc9f2ff39ae034fd74c6936c7ee79b4e12f&X-Amz-SignedHeaders=host&x-id=GetObject" class="img-fluid rounded z-depth-1" zoomable=true %} 
+{% include figure.html path="https://lh3.googleusercontent.com/pw/ADCreHdJEZXh6Pf6dqMx6pttdpxTnHg1aFamd3UkzZnrk42zkYZ5cW3120pXuM7SeZs_vopj8QM4tV4BSwGlihuNb1tNi0mlgcDhhHTH6Fe522czk4aJCWE=w1400" class="img-fluid rounded z-depth-1" zoomable=true %} 
 
 
 (not related to me, but) this software is written in `C#` (why? because my supervisor had decided to use  for development), I did not even see its code (or any code from my supervisor)
@@ -169,13 +169,13 @@ For Tkh:
 
 results in a Whisker-Box chart:
 
-{% include figure.html path="https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/b93a340e-f847-4100-a2be-3006601d461c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T134700Z&X-Amz-Expires=3600&X-Amz-Signature=57d51484e182a471327c746dade4acf54b6ebe8110851822e5bcf864437eff98&X-Amz-SignedHeaders=host&x-id=GetObject" class="img-fluid rounded z-depth-1" zoomable=true %} 
+{% include figure.html path="https://lh3.googleusercontent.com/pw/ADCreHeOGaDJjW4q1FoTDjutrbHmddhj3TDB3983evNZkMcLP6eKYY57ab8AtSL58duVpHFzYn48IRmrDPZAtYPpK0PYwaHEkXdsfvu1zMqNwQRBG61-v6U=w1000" class="img-fluid rounded z-depth-1" zoomable=true %} 
 
 
 
 with `LogisticRegressionCV` function results were looks like this
 
-{% include figure.html path="https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/1d92f057-2d7f-4828-b53e-add1c223c5e0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T134700Z&X-Amz-Expires=3600&X-Amz-Signature=4e5a291f5b0f9cdc3a2ea936915b06a319bd3c706700af9774af1153f7e7f08b&X-Amz-SignedHeaders=host&x-id=GetObject" class="img-fluid rounded z-depth-1" zoomable=true %} 
+{% include figure.html path="https://lh3.googleusercontent.com/pw/ADCreHfxTBaX45ctJMJWVbzCIwfReZvDYQA-EHYbXW0I4kMu2n6uER2pE2h3N8SDZB0DvEon4DHD7qWlQwiIJbiFCEiEFqSgvVo6dNCSTBWLiZOcAuhcj7g=w1400" class="img-fluid rounded z-depth-1" zoomable=true %} 
 
 
 #### K-Nearest-Neighbor
@@ -183,7 +183,7 @@ with `LogisticRegressionCV` function results were looks like this
 
 After tunning model, results acquired as below:
 
-{% include figure.html path="https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/c787c505-ceca-4542-b681-764356d91668/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T134700Z&X-Amz-Expires=3600&X-Amz-Signature=da07710bbd6c67b5598ec3674a169561ae191b9045cbd5f23f6696ad810c85b2&X-Amz-SignedHeaders=host&x-id=GetObject" class="img-fluid rounded z-depth-1" zoomable=true %} 
+{% include figure.html path="https://lh3.googleusercontent.com/pw/ADCreHc7XrBBskJ48NG5Fb_r5IyNIHHzdo7Ncqf9K6mh4lxchpPgipPNOcHSdmYoq3o2hxmULlruuX_GKcwZybsaelAvMhW2gex3nuVeroQDp3Dp-9sEOS0=w2400" class="img-fluid rounded z-depth-1" zoomable=true %} 
 
 
 #### Histogram Gradient Boosting
@@ -192,7 +192,7 @@ After tunning model, results acquired as below:
 In this scenario, model tuning was not so effective and final results was as below chart:
 
 
-{% include figure.html path="https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/c787c505-ceca-4542-b681-764356d91668/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T134700Z&X-Amz-Expires=3600&X-Amz-Signature=da07710bbd6c67b5598ec3674a169561ae191b9045cbd5f23f6696ad810c85b2&X-Amz-SignedHeaders=host&x-id=GetObject" class="img-fluid rounded z-depth-1" zoomable=true %} 
+{% include figure.html path="https://lh3.googleusercontent.com/pw/ADCreHcj90yOEuGKVgxFVk7Ff9FeD1MBlpOdMZZ1xor9xas6fR2_yaSo6UN2ZbiCdbG1s1aDb0-HhJEK5MhEB_NeO7xJ29syXqiLLm5-znfUkzlRPlL110E=w1400" class="img-fluid rounded z-depth-1" zoomable=true %} 
 
 #### Conclusion on above models
 
@@ -208,7 +208,7 @@ In this case, after testing different scenarios, I realized that different combi
 
 #### 2 layers
 
-{% include figure.html path="https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/4e53e63c-bc47-410c-b8cf-2b9f375aebe2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T134700Z&X-Amz-Expires=3600&X-Amz-Signature=c93e3296e85d542200915b6f8274301022de3c044b48a7ed818bb19c3703fd62&X-Amz-SignedHeaders=host&x-id=GetObject" class="img-fluid rounded z-depth-1" zoomable=true %} 
+{% include figure.html path="https://lh3.googleusercontent.com/pw/ADCreHdU_Xg5_GReccrqnqnkOrD2UojGyM5DFqo7i0_xOTjAbgC7kXZkz5qQJh9DR04DZ3EQjnB57mqTYGwyz6Ug1RcBufGgTmBXIe9G0EoJdkIUQPCsPc0=w1600" class="img-fluid rounded z-depth-1" zoomable=true %} 
 
 
 Vertical column: layers and neurons (number on neurons in each layer)
