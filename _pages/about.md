@@ -31,6 +31,8 @@ I received a [2020 SIGHPC Computational & Data Science Fellowship](https://www.s
 A recent **[CV](https://drive.google.com/file/d/1DmJgPIFg6S-B0bqvqWFUmrmk6czYVmy5/view?usp=sharing)**.
 <!--and the Tl;dr version of my **[Research Statement](https://drive.google.com/file/d/1_HVC4HkkyBMqUx8AiTHeyjgwlSdYG3j6/view?usp=sharing)**.-->
 
+I'm excited to teach [CS 5220](https://classes.cornell.edu/browse/roster/SP24/class/CS/5220) again in Spring 2024. If you have any inquiries about CS 5220, please feel free to email me. 
+
 The best way to contact me is by **email**: gg434@cornell.edu.
 
 <!--, and my [academic genealogy tree](https://academictree.org/computerscience/tree.php?pid=864537&pnodecount=15&cnodecount=5&fontsize=1).-->
