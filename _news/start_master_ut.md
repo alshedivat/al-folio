@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2020-11-11 8:00:00-0330
+date: 2023-11-01 15:00:00-0330
 inline: true
 ---
-Starting Master Degree at [University of Tehran](https://ut.ac.ir/en)
+*Giscus* now works correcly and you can comment on posts
