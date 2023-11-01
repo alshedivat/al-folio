@@ -138,7 +138,9 @@ related_blog_posts:
 # the information below.
 giscus:
   repo: alerezaaa/Jekyll_alireza     # <your-github-user-name>/<your-github-repo-name>
+  repo_id: R_kgDOIRKqVA
   category: Comments                 # name of the category under which discussions will be created
+  category_id: DIC_kwDOIRKqVM4CTEU8  
   mapping: title                     # identify discussions by post title
   strict: 1                          # use strict identification mode
   reactions_enabled: 1               # enable (1) or disable (0) emoji reactions
