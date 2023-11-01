@@ -26,8 +26,3 @@ I'm a
 - Researcher at [University of Tehran](https://ut.ac.ir/en) in Master Degree. (more in [CV](https://cv.alerezaa.ir))
 - Bachelor graduated from [University of Tabriz](https://tabrizu.ac.ir/en) in Biosystems Engineering
 - Linux, coding, cyber security and machine learning enthuasiast
-
-I have several website which I dedicated for different writting purposes:
-- [blog.alerezaa.ir](https://blog.alerezaa.ir/): My acquired knowledge by searching based on my questions
-- [now.alerezaa.ir](https://now.alerezaa.ir): Write daily based on emotions and motivations
-- [story.alerezaa.ir](https://story.alerezaa.ir): saddness, happiness, history, memory

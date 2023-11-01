@@ -8,6 +8,12 @@ related_posts: false
 
 I created this new to write about my websites and blogs on the internet. (**Below Text is just a template by theme developer**)
 
+
+I have several website which I dedicated for different writting purposes:
+- [blog.alerezaa.ir](https://blog.alerezaa.ir/): My acquired knowledge by searching based on my questions
+- [now.alerezaa.ir](https://now.alerezaa.ir): Write daily based on emotions and motivations
+- [story.alerezaa.ir](https://story.alerezaa.ir): saddness, happiness, history, memory
+
 ***
 
 Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
