@@ -26,3 +26,6 @@ I'm a
 - Researcher at [University of Tehran](https://ut.ac.ir/en) in Master Degree. (more in [CV](https://cv.alerezaa.ir))
 - Bachelor graduated from [University of Tabriz](https://tabrizu.ac.ir/en) in Biosystems Engineering
 - Linux, coding, cyber security and machine learning enthuasiast
+
+I started bachelor degree in Biosystem Engineering at Tabriz University in 2016 and then just after graduating, I got accepted in University of Tehran. I have 4 project (2 lecture-based and 2 industry-based) in bachelor degree. In master degree, my thesis was based on a project which was requested by Ports and Maritine Organization of Iran.
+I am a started Wordpress web developer and also I have little experience in Web Application Security which I really keen to continue.

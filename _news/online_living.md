@@ -16,7 +16,7 @@ I have several website which I dedicated for different writting purposes:
 
 why and how? ➜ [This Post](https://alerezaa.ir/blog/2022/the-idea-behind-my-blog/)
 
-(**Below Text is just a template by theme developer**)
+(***Below Text is just a template by theme developer***)
 
 ***
 
