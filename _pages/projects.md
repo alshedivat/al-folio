@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of my cool projects.
 nav: true
 nav_order: 2
-display_categories: [Code World, University, Photoshop]
+display_categories: [Student Life, Photoshop, Wordpress]
 horizontal: true
 ---
 
