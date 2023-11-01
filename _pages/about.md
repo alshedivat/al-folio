@@ -29,4 +29,4 @@ I'm a
 
 I started bachelor degree in Biosystem Engineering at Tabriz University in 2016 and then just after graduation, I got accepted in University of Tehran. I have 4 project (2 lecture-based and 2 industry-based) in bachelor degree. In master degree, my thesis was based on a project which was requested by Ports and Maritine Organization of Iran.
 
-I am a started Wordpress web developer and also I have little experience in Web Application Security which I really keen to continue.
+I am a junior Wordpress web developer and also I have little experience in Web Application Security which I really keen to continue.
