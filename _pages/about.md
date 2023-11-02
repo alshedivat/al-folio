@@ -2,25 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Self-portrait.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>200 Allen Hall</p>
+    <p>3941 O'Hara St</p>
+    <p>Pittsburgh, PA 15260</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a fifth year graduate student at the University of Pittsburgh in [Prof. Andrew Mugler's group](https://mugler.pitt.edu) where I study the physics of cell signaling and migration from a theoretical perspective. In particular, I use tools from statistical mechanics, thermodynamics, partial differential equations, complex analysis, numerical analysis, linear algebra, and fluid dynamics to probe the ways cells exploit and probe their immediate microenvironment to perform taxis. My work has direct implications in the study of cancer, of which tumor cells often serve as the experimental platform in my work, and as such one can say I study the physics of metastatic invasion. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+For more context on my research along with future projects that are currently being planned on, please visit the <b>publications</b> tab above.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In my personal time, I like to write, draw, paint, surf, and travel. I hope to publish short stories one day. 

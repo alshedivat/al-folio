@@ -1,6 +1,15 @@
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+  color: "#ff4040"
 
 "PhysRev":
   url: https://journals.aps.org/
+  color: "#ff4040"
+
+"Nature":
+  url: https://www.nature.com/ 
+  color: "#ff4040"
+
+"PNAS":
+  url: https://www.pnas.org/ 
+  color: "#ff4040"

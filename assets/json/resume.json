@@ -1,61 +1,87 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Louis González",
+    "label": "Graduate Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "gonzalezlouis [at] pitt.edu",
+    "summary": "Fifth year physics PhD at the University of Pittsburgh, stuyding the physics of cell sensing and migration.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "200 Allen Hall",
+      "postalCode": "PA 15260",
+      "city": "Pittsburgh",
       "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+      "region": "Pennyslvania"
+    }
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [
-        "Relativity"
-      ]
+      "position": "Graduate Student",
+      "startDate": "2019",
+      "endDate": "present"
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of Pittsburgh, USA",
+      "area": "Physics - Theoretical Biophysics",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
+      "startDate": "2019",
+      "endDate": "present",
       "courses": [
-        "Theory of Relativity"
+        "Cosmology", "Biophysics", "Computational Biology"
+      ]
+    },
+
+    {
+      "institution": "University of Pittsburgh, USA",
+      "area": "Physics - Theoretical Biophysics",
+      "studyType": "MS",
+      "startDate": "2019",
+      "endDate": "2021",
+      "courses": [
+        "Cosmology", "Biophysics", "Computational Biology"
       ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Dietrich School of Arts and Sciences Pre-Doctoral Fellowship",
+      "date": "2019",
+      "awarder": "Dept. of Physics & Astronomy, University of Pittsburgh",
+      "summary": "Graduate programs include Arts and Sciences Fellowships in funding packages to recruit doctoral students of exceptional ability and promise, either for their first year in the Ph.D. program or for later years."
+    },
+    {
+      "title": "Thomas-Lain Fund Scholarship",
+      "date": "2020",
+      "awarder": "Dept. of Physics & Astronomy, University of Pittsburgh"
+    },
+    {
+      "title": "Carl Storm Underrepresented Minority (CSURM) Fellowship",
+      "date": "2022",
+      "awarder": "Gordon Research Conference"
+    },
+    {
+      "title": "APS DBIO Travel Award",
+      "date": "2023",
+      "awarder": "American Physical Society"
+    },
+    {
+      "title": "Leo B. and Teresa Y. Wegemer Endowed STEM Fellowship",
+      "date": "2023",
+      "awarder": "Dept. of Physics & Astronomy, University of Pittsburgh",
+      "summary": "Established to support students of exceptional promise in their pursuit of high impact scientific research. Fellowship grants will be awarded to support the research of two exceptional, current, full-time students who are pursuing a Ph.D. degree in Dietrich School of Arts and Sciences STEM fields."
+    },
+    {
+      "title": "SB3C Student Paper and Presentation PhD Competition -- 1st place",
+      "date": "2023",
+      "awarder": "Summer Biomechanics, Bioengineering, & Biotransport Conference",
+      "summary": "Qualified to a finals competition after having abstract selected from over 200 other applicants. Presented an oral presentation in the final round at the 2023 SB3 Conference in Vail, Colorado. Won 1st place in topic group (Section VI: Emerging Tissue Mechanobiology & Biomechanics II)."
+    },
+    {
+      "title": "SACNAS NDiSTEM Travel Scholarship",
+      "date": "2023",
+      "awarder": "Society for the Advancement of Chicano and Native American Students"
     }
   ],
   "certificates": [],
@@ -63,12 +89,20 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "English",
       "fluency": "Native speaker"
     },
     {
-      "language": "English",
-      "fluency": "Fluent"
+      "language": "Spanish",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "Italian",
+      "fluency": "Intermediate Speaker"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Intermediate Speaker"
     }
   ],
   "interests": [],
