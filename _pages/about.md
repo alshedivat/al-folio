@@ -20,4 +20,4 @@ I'm also really excited about teaching ethical AI - most recently, I co-led a [R
 
 Previously, I worked as a data scientist at a consulting firm, where I focused on conducting real-world algorithm audits. I received my BA in Computer Science and Philosophy, Politics, & Economics from the University of Pennsylvania.
 
-In my free time, you can find me reading [vaguely upsetting novels](https://emmaharv.github.io/bookshelf/) (recommendations always welcome!) or training for the 2024 New York City Marathon (which I have qualified for not because I am fast, but because I completed the [9+1](https://www.nyrr.org/run/guaranteed-entry/tcs-new-york-city-marathon-9plus1-program)).
+In my free time, you can find me reading [vaguely upsetting novels](https://emmaharv.github.io/bookshelf/) (recommendations always welcome!) or training for the 2024 New York City Marathon.
