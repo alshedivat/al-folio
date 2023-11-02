@@ -2,7 +2,7 @@
 layout: distill
 title: Efficient Architectures
 description: A summary of efficienct transformer-based models
-date: 2023-12-11
+date: 2025-12-11
 tags: technical
 categories: transformers efficient-methods-for-nlp
 
