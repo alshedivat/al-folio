@@ -31,6 +31,7 @@ toc:
       - name: 3.1 The collapse of the EISC
       - name: 3.2 The thawing permafrost
   - name: 4 Debates - The origin of the mountains
+    subsections:
       - name: 4.1 Nunataks hypothesis
       - name: 4.2 Frozen-bed preservation hypothesis 
       - name: 4.3 ICE (isostasy-climate-erosion) hypothesis
