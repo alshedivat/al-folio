@@ -22,8 +22,8 @@ Let's step through the answer to this question from the perspective of a researc
     - **Understand (more of) my context** (the problem I'm trying to solve, my code, my data) - I can give a lot more of this context in ChatGPT's chat interface than I ever could in Google's search query, although there is a lot of room for improvement, as we'll discuss later
     - **Enable back-and-forth conversation** to refine the question
 - **Directly answer questions**instead of indirectly providing links to potential answers
-    - **Aggregate answer components** from various sources - for example, provide both a code snippet that looks like a StackOverflow answer and an explanation paragraph that looks like documentation
-    - **Adapt the answer to my specific context** - for example, provide code snippets that directly solve my problem with my specific variables instead of a link to a relevant StackOverflow answer
+    - **Aggregate answer components** from various sources - provide both a code snippet that looks like a StackOverflow answer and an explanation paragraph that looks like documentation
+    - **Adapt the answer to my specific context** - provide code snippets that directly solve my problem with my specific variables instead of a link to a relevant StackOverflow answer
 
 The only potential downside of current LLM-based tools for accessing existing knowledge is that they can hallucinate answers. In practice, this hasn't been much of an issue in my day-to-day work with ChatGPT. Perplexity already addresses this problem by making retrieval and citations first-class citizens. But we'll need more work in this direction.
 
