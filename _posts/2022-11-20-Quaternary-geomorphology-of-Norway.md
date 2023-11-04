@@ -78,13 +78,13 @@ It takes a long time to sort sediments by water, deposit it in flat areas, and w
 
 Luckily, although being few in size, the precious farmland can still be found upon glaciolfluvial, fluvial sediments and marine deposits in lowland areas adjacent to and under the former ice divided in southeastern Norway, where the average Quaternary sediment thickness is estimated to ca. **6 m**, similar to Sweden<d-cite key="olsen.etal_2013"></d-cite>.
 
-### 1.2 Beyond *the present is the key to the past*
+### 1.2 Beyond the present is the key to the past
 
  During the field trip, we visited Jotunheim and Dovrefjell area in southern Norway. Assuming that the natural processes continue occurring and follow the same laws, we infer what happened in past by what we have seen today. This is a basic geoscience principle:
 
 > The present is the key to the past. -- Charles Lyell
 
-Today, people are also curious about what can we learn from the past. The past is the key to the future as well. The instability of marine-based ice sheets, e.g. the West Antarctic Ice Sheet today, or EISC back to the LGM, is the tipping element of the climate system. Understanding past responses of ice sheets to past climate change provides an important long-term context for observations of present, and projected future, ice-sheet dynamics.<d-cite key="regnell.etal_2021; @sejrup.etal_2022"></d-cite>
+Today, people are also curious about what can we learn from the past. The past is the key to the future as well. The instability of marine-based ice sheets, e.g. the West Antarctic Ice Sheet today, or EISC back to the LGM, is the tipping element of the climate system. Understanding past responses of ice sheets to past climate change provides an important long-term context for observations of present, and projected future, ice-sheet dynamics.<d-cite key="regnell.etal_2021; sejrup.etal_2022"></d-cite>
 
 ## 2 Definition and concepts - From climate to landforms
 
@@ -94,7 +94,7 @@ As described in the introduction, when there were glaciation & deglaciation even
 
 Earth is estimated to be 4.5 billion years old. The IPCC AR6 report described high confidence to assert that the last time CO2 levels were as high as the present was at least 2 million years (Ma) ago. The oldest modern human fossils in Ethiopia were dated around 233 thousand years (kyr) old<d-cite key="vidal.etal_2022"></d-cite>. All stories need a temporal context (Figure 2).
 ![Time scale and Glaciation in the past 5 million years](https://i.imgur.com/selcXrM.png)
-**Figure 2.** The time scale, temperature and deglaciation from pre-Quaternary to the present.<d-cite key="alley_2000; @brunetti.prodi_2015; @moore.une_2016"></d-cite>
+**Figure 2.** The time scale, temperature and deglaciation from pre-Quaternary to the present.<d-cite key="alley_2000; brunetti.prodi_2015; moore.une_2016"></d-cite>
 
 On timescales of hundreds of million years, there are five to six ice ages (icehouse conditions), accompanied by periods of little or no ice cover (greenhouse conditions). Now Earth is currently in the Quaternary Ice Age, specifically, an **interglacial period** of the ***Quaternary glaciation***. 
 
@@ -185,7 +185,7 @@ Where ice margins, either marginal moraine or ice,  block the natural drainage o
 The shorelines and delta prove the lake's existence and reflect the water level of the lake. For instance, Grimsmoen is the delta located at the tributary valleys (Figure 7, 8). It covers 13.95 km2 and indicates the water level of the glacial lake Nedre Glåmsjø, which is believed larger than 1500 km2 by Holmsen (1915). However, the map shows that the lake's extent does not reach Grimsmoen(ca. 700 m.s.l.) because of the Rugldalen spillway (665 m.s.l). The formation of the Grimsmoen delta may be earlier than the lake Nedre Glåmsjø in Figure 7.
 
 ![](https://i.imgur.com/ytlo6IF.jpg)
-**Figure 7.** Ice divide and ice dammed lake Nedre Glomsjø <d-cite key="hogaas.longva_2018; @stroeven.etal_2015"></d-cite>
+**Figure 7.** Ice divide and ice dammed lake Nedre Glomsjø <d-cite key="hogaas.longva_2018; stroeven.etal_2015"></d-cite>
 
 ![](https://i.imgur.com/MfmksrF.png)
 **Figure 8.** Grimsmoen delta marked a big lake in the past
@@ -347,10 +347,10 @@ Evidence and criticism:
 
 ### 4.3 ICE (isostasy-climate-erosion) hypothesis
 
-The ICE hypothesis<d-cite key="nielsen.etal_2010; @nielsen.etal_2009b; @nielsen.etal_2009; @nielsen.etal_2009a"></d-cite> ensemble models to explain both erosion problem (the presence of the low relief plateaus) and the offshore sediments problem. The ICE disagrees that there is an old surface neither by nunataks hypotheses nor frozen-bed preservation hypotheses.
+The ICE hypothesis<d-cite key="nielsen.etal_2010; nielsen.etal_2009b; nielsen.etal_2009; nielsen.etal_2009a"></d-cite> ensemble models to explain both erosion problem (the presence of the low relief plateaus) and the offshore sediments problem. The ICE disagrees that there is an old surface neither by nunataks hypotheses nor frozen-bed preservation hypotheses.
 
 Evidence and criticism:
-- Instead, models show that plateaus have been glacially eroded<d-cite key="andersen.etal_2018; @pedersen.etal_2021"></d-cite>. The modeling proved that with climate change, the ice sheet got thinner, and for the reasons such as the wavelength of the terrain etc. the cold-based ice sheet kept the low relief surface<d-cite key="egholm.etal_2017a"></d-cite>. 
+- Instead, models show that plateaus have been glacially eroded<d-cite key="andersen.etal_2018; pedersen.etal_2021"></d-cite>. The modeling proved that with climate change, the ice sheet got thinner, and for the reasons such as the wavelength of the terrain etc. the cold-based ice sheet kept the low relief surface<d-cite key="egholm.etal_2017a"></d-cite>. 
 - Just like the glacier buzzsaw hypothesis, ICE hypothesis highly relies on the relationship between climate and erosion to explain the origin of the flat plateaus. 
 	- Glacier erosion uploads the weight -> Isostatic uplift -> more land raised to ELA -> more erosion. And this erosion is more efficient than uplift thus Neogen uplift is not important anymore.
 - <d-cite key="lidmar-bergstrom.bonow_2009"></d-cite> criticized that ICE addressed too much on climate factor, but ignored the significant fact that there was an uplift in Western Norway during the Neogene. He/she said ''Instead, they discuss the origin of accordant summits, which are not the relevant landforms for conclusions on recent uplift.''
