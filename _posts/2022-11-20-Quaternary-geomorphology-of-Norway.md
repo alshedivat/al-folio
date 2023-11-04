@@ -6,7 +6,6 @@ tags: notes, geomorphology, glacier, climate, permafrost
 giscus_comments: true
 date: 2022-11-20
 featured: true
-
 authors:
   - name: Zhihao
     url: "" # Add your URL or leave it empty if not available
