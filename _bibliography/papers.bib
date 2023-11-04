@@ -1,6 +1,33 @@
 ---
 ---
 
+@article{ponton2023sparseposer,
+bibtex_show = {true},
+selected = {true},
+preview = {sparseposer.gif},
+pdf = {sparseposer_siggraphasia2023.pdf},
+code = {https://github.com/UPC-ViRVIG/SparsePoser},
+website = {https://upc-virvig.github.io/SparsePoser/},
+author = {Ponton, Jose Luis and Yun, Haoran and Aristidou, Andreas and Andujar, Carlos and Pelechano, Nuria},
+title = {SparsePoser: Real-Time Full-Body Motion Reconstruction from Sparse Data},
+year = {2023},
+issue_date = {February 2024},
+publisher = {Association for Computing Machinery},
+booktitle = {SIGGRAPH Asia 2023},
+address = {New York, NY, USA},
+volume = {43},
+number = {1},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/3625264},
+doi = {10.1145/3625264},
+abstract = {Accurate and reliable human motion reconstruction is crucial for creating natural interactions of full-body avatars in Virtual Reality (VR) and entertainment applications. As the Metaverse and social applications gain popularity, users are seeking cost-effective solutions to create full-body animations that are comparable in quality to those produced by commercial motion capture systems. In order to provide affordable solutions though, it is important to minimize the number of sensors attached to the subject’s body. Unfortunately, reconstructing the full-body pose from sparse data is a heavily under-determined problem. Some studies that use IMU sensors face challenges in reconstructing the pose due to positional drift and ambiguity of the poses. In recent years, some mainstream VR systems have released 6-degree-of-freedom (6-DoF) tracking devices providing positional and rotational information. Nevertheless, most solutions for reconstructing full-body poses rely on traditional inverse kinematics (IK) solutions, which often produce non-continuous and unnatural poses. In this article, we introduce SparsePoser, a novel deep learning-based solution for reconstructing a full-body pose from a reduced set of six tracking devices. Our system incorporates a convolutional-based autoencoder that synthesizes high-quality continuous human poses by learning the human motion manifold from motion capture data. Then, we employ a learned IK component, made of multiple lightweight feed-forward neural networks, to adjust the hands and feet toward the corresponding trackers. We extensively evaluate our method on publicly available motion capture datasets and with real-time live demos. We show that our method outperforms state-of-the-art techniques using IMU sensors or 6-DoF tracking devices, and can be used for users with different body dimensions and proportions.},
+journal = {ACM Trans. Graph.},
+month = {oct},
+articleno = {5},
+numpages = {14}
+}
+
+
 @article{ponton2023fittedavatars,
   bibtex_show = {true},
   title = {Fitted avatars: automatic skeleton adjustment for self-avatars in virtual reality},
