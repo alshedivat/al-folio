@@ -104,7 +104,7 @@ $$
 \hat{x}_{oh:sf} = F^{-1}_{oh}[Q_{sf}]
 $$
 
-By adding the trend into the bias adjusted dataset $\hat{x}_{oh:sf}$, the projected variable $\hat{x}_{sf}$ is:
+By adding the trend into the bias adjusted dataset $\hat{x}_{oh:sf}$ , the projected variable $\hat{x}_{sf}$ is:
 $$
 \hat{x}_{sf} = \hat{x}_{oh:sf}\cdot{}\Delta W_{s}
 $$
@@ -142,7 +142,7 @@ The evaluation will follow the steps: (1) comparing the changing signals from CM
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://i.imgur.com/e4o8JoM.jpg" alt="The windspeed trend from CMCC-CM2 and CMCC-ESM2 at site(011°E,60°N) are different.(a) CMCC-CM2,(b) CMCC-ESM2. Windspeed trend are represented as ratios, which compare the windspeeds in a 10-year moving window between 2015-2060 to a baseline period(1980.01-1999.12),across different quantiles. From top to bottom, each row represents quarter 1(Jan to Mar), quarter 2(Apr to Jun), quarter 3(Jul to Sep) and quarter 4(Oct to Dec)." %}
+        {% include figure.html path="https://i.imgur.com/e4o8JoM.jpg" style="max-width:80%;" alt="The windspeed trend from CMCC-CM2 and CMCC-ESM2 at site(011°E,60°N) are different.(a) CMCC-CM2,(b) CMCC-ESM2. Windspeed trend are represented as ratios, which compare the windspeeds in a 10-year moving window between 2015-2060 to a baseline period(1980.01-1999.12),across different quantiles. From top to bottom, each row represents quarter 1(Jan to Mar), quarter 2(Apr to Jun), quarter 3(Jul to Sep) and quarter 4(Oct to Dec)." %}
     </div>
 </div>
 <div class="caption">
@@ -158,7 +158,7 @@ Figure @fig:trend_map demonstrates the wind speed trends over the Scandinavian P
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://i.imgur.com/S2T0bpn.gif" alt="Thetrendofmedianwindspeed(Q50)2015-2060.Thetrendiscalculatedina10-year-windowrelativetobaselinefromCMCC-CM2(top)andfromCMCC-ESM2(bottom).Visithttps://i.imgur.com/S2T0bpn.giftogetthedynamicgif." %}
+        {% include figure.html path="https://i.imgur.com/S2T0bpn.gif" style="max-width:80%;" alt="Thetrendofmedianwindspeed(Q50)2015-2060.Thetrendiscalculatedina10-year-windowrelativetobaselinefromCMCC-CM2(top)andfromCMCC-ESM2(bottom).Visithttps://i.imgur.com/S2T0bpn.giftogetthedynamicgif." %}
     </div>
 </div>
 <div class="caption">
@@ -171,7 +171,7 @@ Specific to the period from 2050 to 2060, Figure @fig:trend_chart shows the chan
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://i.imgur.com/6g1Kslx.jpg" alt="Comparisonofwindspeedtrend2050-2060atcoordinates011°Eand60°N.(a)ThechangingsignalsofCMCC-CM22050-2060tobaseline(1980-1999).(b)Mappingthesignalsfrom(a)towindspeedtimeseriesofyear1999.(c)ThechangingsignalsofCMCC-ESM22050-2060tobaseline(1980-1999)(d)Mappingthesignalsfrom(c)towindspeedtimeseriesofyear1999." %}
+        {% include figure.html path="https://i.imgur.com/6g1Kslx.jpg" style="max-width:80%;" alt="Comparisonofwindspeedtrend2050-2060atcoordinates011°Eand60°N.(a)ThechangingsignalsofCMCC-CM22050-2060tobaseline(1980-1999).(b)Mappingthesignalsfrom(a)towindspeedtimeseriesofyear1999.(c)ThechangingsignalsofCMCC-ESM22050-2060tobaseline(1980-1999)(d)Mappingthesignalsfrom(c)towindspeedtimeseriesofyear1999." %}
     </div>
 </div>
 <div class="caption">
@@ -188,7 +188,7 @@ The windspeed project of CMCC-CM2 and CMCC-ESM2 exhibit inconsistencies when com
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-    <img src="https://i.imgur.com/GB39Q0T.jpg" alt="Comparison of downscaled windspeeds at coordinates 011° E and 60° N using QDM and EDCDFm methods from 2050 to 2060 (a) Oslo, Norway (b) Bergen, Norway. The reference dataset for downscaling is ERA5 (1999-2014)">
+    <img src="https://i.imgur.com/GB39Q0T.jpg" style="max-width:60%;" alt="Comparison of downscaled windspeeds at coordinates 011° E and 60° N using QDM and EDCDFm methods from 2050 to 2060 (a) Oslo, Norway (b) Bergen, Norway. The reference dataset for downscaling is ERA5 (1999-2014)">
 	</div>
 </div>
 <div class="caption"> Comparison of downscaled windspeeds at coordinates 011° E and 60° N using QDM and EDCDFm methods from 2050 to 2060 (a) Oslo, Norway (b) Bergen, Norway. The reference dataset for downscaling is ERA5 (1999-2014)
@@ -202,7 +202,7 @@ The validation results for the year 2014 using three different timespans indicat
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-	<img src="https://i.imgur.com/p4h0m7y.jpg" style="width:75.0%" alt="Downscale windspeed from ERA5 Coarsen and CMCC-CM2 and validation by ERA5. (a) mean windspeed 2014.01.01 to 2014.01.30 (b) mean windspeed 2014.01.01-2014.03.30 (c) mean windspeed 2014.01.01-2014.12.31. The training dataset is ERA5 between 1999 and 2013.">
+	<img src="https://i.imgur.com/p4h0m7y.jpg" style="width:85.0%" alt="Downscale windspeed from ERA5 Coarsen and CMCC-CM2 and validation by ERA5. (a) mean windspeed 2014.01.01 to 2014.01.30 (b) mean windspeed 2014.01.01-2014.03.30 (c) mean windspeed 2014.01.01-2014.12.31. The training dataset is ERA5 between 1999 and 2013.">
 	</div>
 </div>
 <div class="caption"> Downscale windspeed from ERA5 Coarsen and CMCC-CM2 and validation by ERA5. (a) mean windspeed 2014.01.01 to 2014.01.30 (b) mean windspeed 2014.01.01-2014.03.30 (c) mean windspeed 2014.01.01-2014.12.31. The training dataset is ERA5 between 1999 and 2013.
