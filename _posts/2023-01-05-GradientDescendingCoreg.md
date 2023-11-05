@@ -8,6 +8,7 @@ tags: notes
 categories: geodata datascience
 lang: eng
 publish: yes
+featured: true
 ---
 
 DEM coregistration is an important step in improving the quality of a DEM by eliminating horizontal shift and vertical bias. However, it can be time-consuming, particularly for large datasets and global applications such as the SNOWDEPTH project. 
