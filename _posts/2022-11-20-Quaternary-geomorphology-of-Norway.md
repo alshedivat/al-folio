@@ -19,17 +19,17 @@ toc:
     subsections:
       - name: 1.1 The glacier heritage in figures
       - name: 1.2 Beyond the present is the key to the past
-  - name: 2 Definition and concepts - From climate to landforms
+  - name: 2 Definition and concepts
     subsections:
-      - name: 2.1 When - Timescales
-      - name: 2.2 Who - The landforms with examples from the field trip
-      - name: 2.3 Why - The mechanism
-      - name: 2.4 How - The techniques
-  - name: 3 Deglaciation concerns - From glacial to periglacial
+      - name: 2.1 When
+      - name: 2.2 Who
+      - name: 2.3 Why
+      - name: 2.4 How
+  - name: 3 Deglaciation concerns
     subsections:
       - name: 3.1 The collapse of the EISC
       - name: 3.2 The thawing permafrost
-  - name: 4 Debates - The origin of the mountains
+  - name: 4 Debates on the origin of the mountains
     subsections:
       - name: 4.1 Nunataks hypothesis
       - name: 4.2 Frozen-bed preservation hypothesis
@@ -86,15 +86,15 @@ Luckily, although being few in size, the precious farmland can still be found up
 
 Today, people are also curious about what can we learn from the past. The past is the key to the future as well. The instability of marine-based ice sheets, e.g. the West Antarctic Ice Sheet today, or EISC back to the LGM, is the tipping element of the climate system. Understanding past responses of ice sheets to past climate change provides an important long-term context for observations of present, and projected future, ice-sheet dynamics.<d-cite key="regnell.etal_2021, sejrup.etal_2022"></d-cite>
 
-## 2 Definition and concepts - From climate to landforms
+## 2 Definition and concepts
 
 As described in the introduction, when there were glaciation & deglaciation events, we need to know *when*, *who* and *why* it happened and *how* we can study it.
 
-### 2.1 When - Timescales
+### 2.1 When
 
 Earth is estimated to be 4.5 billion years old. The IPCC AR6 report described high confidence to assert that the last time CO2 levels were as high as the present was at least 2 million years (Ma) ago. The oldest modern human fossils in Ethiopia were dated around 233 thousand years (kyr) old<d-cite key="vidal.etal_2022"></d-cite>. All stories need a temporal context (Figure 2).
 ![Time scale and Glaciation in the past 5 million years](https://i.imgur.com/selcXrM.png)
-**Figure 2.** The time scale, temperature and deglaciation from pre-Quaternary to the present.<d-cite key="alley_2000, brunetti.prodi_2015, moore.une_2016"></d-cite>
+**Figure 2.** The time scale, temperature and deglaciation from pre-Quaternary to the present.<d-cite key="alley_2000, moore.une_2016"></d-cite>
 
 On timescales of hundreds of million years, there are five to six ice ages (icehouse conditions), accompanied by periods of little or no ice cover (greenhouse conditions). Now Earth is currently in the Quaternary Ice Age, specifically, an **interglacial period** of the ***Quaternary glaciation***. 
 
@@ -114,7 +114,7 @@ The Vikings established a colony on an island and call it Greenland during the *
 
 1850 AD to the present is under the context of modern climate change. In the future, the detonation of the first atomic bomb in 1945 may mark the beginning of the **Anthropocene epoch** (1945 - Present).
 
-### 2.2 Who - The landforms with examples from the field trip
+### 2.2 Who
 
 **Table 1.** Glacier erosional and depositional landforms.
 
@@ -213,7 +213,7 @@ There was a debate about whether the buried glacier ice should be regarded as ro
 
 In summary, water expands by 9% when it freezes. Consequently, in the periglacial environment, the frost cracking, frost sorting, and frost push & pull, drive the vertical and lateral movement or redistribution of land features. 
 
-### 2.3 Why - The mechanism 
+### 2.3 Why
 This section discusses several frameworks for discussing glacial and periglacial environments.
 #### 2.3.1 Equilibrium line altitude and permafrost limit
 
@@ -242,7 +242,7 @@ During the winter, low temperatures and low melting water reduce sliding, erosio
 
 Not just transporting the basal debris, the glacier also transports debris supraglacial, and englacial. The steeper mass balance gradient, the higher velocities, for instance, the marine glaciers in western Norway (Figure 12). Finally, 90% of sediments were transported into the sea. The erosion rate was estimated to be c. 20 cm/kyr based on the volumes of the offshore sediment volumes <d-cite key="olsen.etal_2013"></d-cite>. However, the erosion of onshore valleys and fjords can only explain 61% - 66 % of the offshore sink volume <d-cite key="pedersen.etal_2021"></d-cite>, which raised debates about the paleosurface and the thickness of the ice sheet.
 
-### 2.4  How - The techniques
+### 2.4  How
 #### 2.4.1 Dating technique
 - *Radiocarbon dating*: based on the burial of organic materials.
 - Burying dating: based on the burial of sand through *optically-stimulated luminescence (OSL)* and the exposure of quartz-bearing clasts. Requires: 
@@ -290,7 +290,7 @@ The observations and model suggest that the permafrost exists from -2.89 m to > 
 ![](https://i.imgur.com/q7JFzuO.png)
 **Figure 16.** Juvvasshøe borehole records from 2008 to 2019. (a: Ground surface temperature, b: average temperature curve, c: temperature profile over time, gray is no data)
 
-## 3 Deglaciation concerns - From glacial to periglacial
+## 3 Deglaciation concerns
 
 There were not only approximately 40 glacial cycles in Quaternary but also numerous intra-cycle dynamics in the location and extent of basa thermal zones. So it is extremely complex to deblend the deglaciation events. The numerical models combined with the information from paleo-climate, dating, isostatics adjustment, and offshore sediments with geomorphological datasets as constraints to achieve the ice sheet dynamic history. Figure 17 is one example.
 ![](https://i.imgur.com/pXvTAgj.png)
@@ -316,7 +316,7 @@ As permafrost is a thermal concept, permafrost loss can be regarded as a functio
 ![](https://i.imgur.com/Z0hoH1K.png)
 **Figure 18.** Permafrost peat carbon approaching a climatic tipping point  <d-cite key="fewster.etal_2022"></d-cite>.
 
-## 4 Debates - The origin of the mountains
+## 4 Debates
 
 Glaciers as amplifiers of relief incised Earth's steepest and highest relief, hence, the low, rolling relief of the high plateaus has been regarded as incompatible with a glacial origin. This led to the old debate about the origin of the low-relief plateaus of southern Norway. There are several versions of the debate but the same questions in fact in a more complex context and across more disciplines in:
 - The thickness of the ice sheet.
@@ -349,7 +349,7 @@ Evidence and criticism:
 
 ### 4.3 ICE (isostasy-climate-erosion) hypothesis
 
-The ICE hypothesis<d-cite key="nielsen.etal_2010, nielsen.etal_2009b, nielsen.etal_2009, nielsen.etal_2009a"></d-cite> ensemble models to explain both erosion problem (the presence of the low relief plateaus) and the offshore sediments problem. The ICE disagrees that there is an old surface neither by nunataks hypotheses nor frozen-bed preservation hypotheses.
+The ICE hypothesis<d-cite key="nielsen.etal_2010, nielsen.etal_2009b, nielsen.etal_2009a"></d-cite> ensemble models to explain both erosion problem (the presence of the low relief plateaus) and the offshore sediments problem. The ICE disagrees that there is an old surface neither by nunataks hypotheses nor frozen-bed preservation hypotheses.
 
 Evidence and criticism:
 - Instead, models show that plateaus have been glacially eroded<d-cite key="andersen.etal_2018, pedersen.etal_2021"></d-cite>. The modeling proved that with climate change, the ice sheet got thinner, and for the reasons such as the wavelength of the terrain etc. the cold-based ice sheet kept the low relief surface<d-cite key="egholm.etal_2017a"></d-cite>. 
