@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  笔记《项飚：我们应该认命，但不能认输》
-description: 现在的人希望工作是一个 “洞”：跳进去是无产阶级，跳出来是小资。
+description: 现在的人希望工作是一个洞：跳进去是无产阶级，跳出来是小资。
 date: 2020-06-22
 tags: notes # notes links code math images
 categories: Reading
