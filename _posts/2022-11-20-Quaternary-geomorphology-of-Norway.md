@@ -339,13 +339,13 @@ Evidence and criticism:
 
 ### 4.2 Frozen-bed preservation hypothesis 
 
-Sugden (1974) noted the importance of relief and basal temperature in developing different landscapes of glacial erosion. Where ice had remained frozen to its bed, there was hardly any erosion. Where deeper valleys had permitted basal melting and thus sliding, they were deepened further while intervening uplands were unaffected
-Kleman and Stroeven (1997) demonstrated the selectivity of glacial erosion in the Swedish mountains. This may explain the origin of low-relief plateaus.
+Sugden (1974) noted the importance of relief and basal temperature in developing different landscapes of glacial erosion. Where ice had remained frozen to its bed, there was hardly any erosion. Where deeper valleys had permitted basal melting and thus sliding, they were deepened further while intervening uplands were unaffected. Kleman and Stroeven (1997) demonstrated the selectivity of glacial erosion in the Swedish mountains. This may explain the origin of low-relief plateaus.
 
 Evidence and criticism:
+
 - Cold-base theory support even the highest mountain may cover by Ice-sheet. Most of glaciological and isostatic ice sheet models produced an ice surface up to 2000-3000 m a.s.l, which only allow the highest peaks as nunataks<d-cite key="mangerud.etal_2011"></d-cite>. But it also *overestimates paleo-ice-sheet configuration in coastal areas* <d-cite key="olsen.etal_2013a"></d-cite>**.
 - Some dating case (20.3 ± 0.6 ka ) in Snowhetta area of 1570 a.s.l suggests there was *ice-free peaks in inland area as early as 20-15 ka* <d-cite key="lane.etal_2020"></d-cite>. The Blåhø (1617 m a.s.l.) in south-central Norway dating (46.4 ± 1.7 ka) indicates long-term weathering history and suggests low erosive cold-based ice cover during the Last Glacial Maximum shielding it (Philipp et al. 2019).
-- *However, the offshore sediments do not match the sequence of the erosion, and the erosion of onshore valleys and fjords can only explain 61% - 66 % of the offshore sink volume* <d-cite key="pedersen.etal_2021"></d-cite>. These offshore sediments budgets also criticized by Japsen <d-cite key="japsen.chalmers_2022"></d-cite>.
+- However, the offshore sediments do not match the sequence of the erosion, and the erosion of onshore valleys and fjords can only explain 61% - 66 % of the offshore sink volume <d-cite key="pedersen.etal_2021"></d-cite>. These offshore sediments budgets also criticized by Japsen <d-cite key="japsen.chalmers_2022"></d-cite>.
 
 ### 4.3 ICE (isostasy-climate-erosion) hypothesis
 
@@ -355,7 +355,7 @@ Evidence and criticism:
 - Instead, models show that plateaus have been glacially eroded<d-cite key="andersen.etal_2018, pedersen.etal_2021"></d-cite>. The modeling proved that with climate change, the ice sheet got thinner, and for the reasons such as the wavelength of the terrain etc. the cold-based ice sheet kept the low relief surface<d-cite key="egholm.etal_2017a"></d-cite>. 
 - Just like the glacier buzzsaw hypothesis, ICE hypothesis highly relies on the relationship between climate and erosion to explain the origin of the flat plateaus. 
 	- Glacier erosion uploads the weight -> Isostatic uplift -> more land raised to ELA -> more erosion. And this erosion is more efficient than uplift thus Neogen uplift is not important anymore.
-- <d-cite key="lidmar-bergstrom.bonow_2009"></d-cite> criticized that ICE addressed too much on climate factor, but ignored the significant fact that there was an uplift in Western Norway during the Neogene. He/she said ''Instead, they discuss the origin of accordant summits, which are not the relevant landforms for conclusions on recent uplift.''
+- Lidmar (2009) <d-cite key="lidmar-bergstrom.bonow_2009"></d-cite> criticized that ICE addressed too much on climate factor, but ignored the significant fact that there was an uplift in Western Norway during the Neogene. He/she said ''Instead, they discuss the origin of accordant summits, which are not the relevant landforms for conclusions on recent uplift.''
 
 ## 5 Summary of the field trip
 

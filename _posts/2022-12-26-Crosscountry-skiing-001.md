@@ -6,8 +6,7 @@ description: Learn XC skiing with me
 date: 2022-12-26
 tags: notes # notes\links\code\math\images
 categories: sports withme norge 001 # topic
-bibliography: C:\Users\ZOZN109\AppData\Local\Pandoc\My_Library.bib
-csl: C:\Users\ZOZN109\AppData\Local\Pandoc\apa.csl
+bibliography: lib.bib
 lang: eng
 publish: yes
 comments: true

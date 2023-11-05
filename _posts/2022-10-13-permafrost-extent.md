@@ -6,7 +6,7 @@ description: Lap report
 date: 2022-10-13
 tags: notes code # notes\links\code\math\images
 categories: permafrost climate # topic, in small case
-bibliography: C:\Users\ZOZN109\AppData\Local\Pandoc\My _Library.bib
+bibliography: lib.bib
 csl: C:\Users\ZOZN109\AppData\Local\Pandoc\apa.csl
 lang: eng
 publish: yes

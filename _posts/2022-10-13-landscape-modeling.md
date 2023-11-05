@@ -6,7 +6,7 @@ description: large scale of geomorphology
 date: 2022-10-13
 tags: notes # notes\links\code\math\images
 categories: geomorphology # topic
-bibliography: C:\Users\ZOZN109\AppData\Local\Pandoc\My_Library.bib
+bibliography: lib.bib
 csl: C:\Users\ZOZN109\AppData\Local\Pandoc\apa.csl
 lang: eng
 publish: yes
