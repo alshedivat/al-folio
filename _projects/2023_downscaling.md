@@ -140,9 +140,9 @@ The evaluation will follow the steps: (1) comparing the changing signals from CM
 
 ### The changing signals $$\Delta W_{s}$$ from CMIP6
 
-<div class="row">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://i.imgur.com/e4o8JoM.jpg" style="max-width:80%;" alt="The windspeed trend from CMCC-CM2 and CMCC-ESM2 at site(011°E,60°N) are different.(a) CMCC-CM2,(b) CMCC-ESM2. Windspeed trend are represented as ratios, which compare the windspeeds in a 10-year moving window between 2015-2060 to a baseline period(1980.01-1999.12),across different quantiles. From top to bottom, each row represents quarter 1(Jan to Mar), quarter 2(Apr to Jun), quarter 3(Jul to Sep) and quarter 4(Oct to Dec)." %}
+        {% include figure.html path="https://i.imgur.com/e4o8JoM.jpg" style="max-width:80%;" %}
     </div>
 </div>
 <div class="caption">
@@ -158,7 +158,7 @@ Figure @fig:trend_map demonstrates the wind speed trends over the Scandinavian P
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://i.imgur.com/S2T0bpn.gif" style="max-width:80%;" alt="Thetrendofmedianwindspeed(Q50)2015-2060.Thetrendiscalculatedina10-year-windowrelativetobaselinefromCMCC-CM2(top)andfromCMCC-ESM2(bottom).Visithttps://i.imgur.com/S2T0bpn.giftogetthedynamicgif." %}
+        <img src="https://i.imgur.com/S2T0bpn" style="max-width:100%;">
     </div>
 </div>
 <div class="caption">
@@ -171,7 +171,7 @@ Specific to the period from 2050 to 2060, Figure @fig:trend_chart shows the chan
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://i.imgur.com/6g1Kslx.jpg" style="max-width:80%;" alt="Comparisonofwindspeedtrend2050-2060atcoordinates011°Eand60°N.(a)ThechangingsignalsofCMCC-CM22050-2060tobaseline(1980-1999).(b)Mappingthesignalsfrom(a)towindspeedtimeseriesofyear1999.(c)ThechangingsignalsofCMCC-ESM22050-2060tobaseline(1980-1999)(d)Mappingthesignalsfrom(c)towindspeedtimeseriesofyear1999." %}
+    <img src="https://i.imgur.com/6g1Kslx" style="max-width:100%;">
     </div>
 </div>
 <div class="caption">
@@ -188,7 +188,7 @@ The windspeed project of CMCC-CM2 and CMCC-ESM2 exhibit inconsistencies when com
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-    <img src="https://i.imgur.com/GB39Q0T.jpg" style="max-width:60%;" alt="Comparison of downscaled windspeeds at coordinates 011° E and 60° N using QDM and EDCDFm methods from 2050 to 2060 (a) Oslo, Norway (b) Bergen, Norway. The reference dataset for downscaling is ERA5 (1999-2014)">
+    <img src="https://i.imgur.com/GB39Q0T.jpg" style="max-width:100%;" alt="Comparison of downscaled windspeeds at coordinates 011° E and 60° N using QDM and EDCDFm methods from 2050 to 2060 (a) Oslo, Norway (b) Bergen, Norway. The reference dataset for downscaling is ERA5 (1999-2014)">
 	</div>
 </div>
 <div class="caption"> Comparison of downscaled windspeeds at coordinates 011° E and 60° N using QDM and EDCDFm methods from 2050 to 2060 (a) Oslo, Norway (b) Bergen, Norway. The reference dataset for downscaling is ERA5 (1999-2014)
