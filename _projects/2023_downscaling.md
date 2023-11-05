@@ -158,7 +158,7 @@ Figure @fig:trend_map demonstrates the wind speed trends over the Scandinavian P
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img src="https://i.imgur.com/S2T0bpn" style="max-width:100%;">
+    {% include figure.html path="https://i.imgur.com/S2T0bpn.jpg" %}
     </div>
 </div>
 <div class="caption">
@@ -166,12 +166,11 @@ Figure @fig:trend_map demonstrates the wind speed trends over the Scandinavian P
 </div>
 
 
-
 Specific to the period from 2050 to 2060, Figure @fig:trend_chart shows the changing trend at coordinates 011° E and 60° N. The CMCC-CM2 model shows a strong positive trend across all quantiles in weeks 10 to 12. On the other hand, the CMCC-ESM2 model exhibits a positive trend at weeks 43 to 45. The fact that the two models show different trends suggests that they have distinct projections for this region and time period. These differences in trends have implications for any analysis or decision-making based on these models' results (Figure @fig:trend_chart b, d). Depending on the specific application, it may be necessary to consider both models' projections and their respective uncertainties.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-    <img src="https://i.imgur.com/6g1Kslx" style="max-width:100%;">
+    {% include figure.html path="https://i.imgur.com/6g1Kslx.jpg" %}
     </div>
 </div>
 <div class="caption">
