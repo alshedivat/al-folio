@@ -158,7 +158,7 @@ Figure @fig:trend_map demonstrates the wind speed trends over the Scandinavian P
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="https://i.imgur.com/S2T0bpn.jpg" %}
+    {% include figure.html path="https://i.imgur.com/S2T0bpn.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -170,7 +170,7 @@ Specific to the period from 2050 to 2060, Figure @fig:trend_chart shows the chan
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="https://i.imgur.com/6g1Kslx.jpg" %}
+    {% include figure.html path="https://i.imgur.com/6g1Kslx.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
