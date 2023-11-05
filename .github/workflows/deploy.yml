@@ -44,6 +44,8 @@ jobs:
         export JEKYLL_ENV=production
         bundle exec jekyll build --lsi
         purgecss -c purgecss.config.js
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v1 # This will automatically upload an artifact from the '/_site' directory
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
       uses: actions/deploy-pages@v1
