@@ -2,7 +2,7 @@
 layout: post
 title: Correlation and distribution
 author: Zhihao
-description: ...
+description: Introduction to data science
 date: 2023-05-12
 tags: links
 categories: statistics datascience machine_learning
