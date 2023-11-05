@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NuthKaab Coreg vs Gradient Descending Coreg
+title: NuthKaab Coreg vs Gradient Descent Coreg
 author: Zhihao
 description: I just created the best ever coreg tool?
 date: 2023-01-02
@@ -13,11 +13,11 @@ featured: true
 
 DEM coregistration is an important step in improving the quality of a DEM by eliminating horizontal shift and vertical bias. However, it can be time-consuming, particularly for large datasets and global applications such as the SNOWDEPTH project. 
 
-In the past few months, I have found that the implementation of NuthKaab coregistration in xDEM is not fast enough for ICESat-2 datasets. As a result, I have developed a new method called 'Gradient Descending Coregistration,' which works similarly to ICP (Iterative Closest Point) but is significantly faster. I am eager to receive professional input to make this method more robust and useful for others.
+In the past few months, I have found that the implementation of NuthKaab coregistration in xDEM is not fast enough for ICESat-2 datasets. As a result, I have developed a new method called 'Gradient descent Coregistration,' which works similarly to ICP (Iterative Closest Point) but is significantly faster. I am eager to receive professional input to make this method more robust and useful for others.
 
 The purpose of this section is:
-- to compare the performance of NuthKaab coregistration and 'Gradient Descending Coregistration' on ICESat-2 datasets. 
-- In addition, I will consider the possibility of extending 'Gradient Descending Coregistration' to other scenarios beyond ICESat-2 point coregistration.
+- to compare the performance of NuthKaab coregistration and 'Gradient descent Coregistration' on ICESat-2 datasets. 
+- In addition, I will consider the possibility of extending 'Gradient descent Coregistration' to other scenarios beyond ICESat-2 point coregistration.
 - Finally, I will explore the footprint problem: should I treat the point measurements of ICESat-2 as a footprint (zonal statistics) or using point interpolation.
 
 
@@ -86,7 +86,7 @@ results_nk_10 = get_dh_dem(dtm_10,sf_subset_dtm10,range=(-3,3),perc_t=99.75,std_
     CPU times: total: 35.3 s
     Wall time: 35.3 s
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientDescendingCoreg/2023-01-05-GradientDescendingCoreg_4_1.png){: .center-image }
+![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_4_1.png){: .center-image }
 
 ```python
 %%time
@@ -102,7 +102,7 @@ result_nk_1 = get_dh_dem(dtm_1, sf_subset_dtm1,range=(-3,3),perc_t=99.75,order=1
     CPU times: total: 5min 58s
     Wall time: 5min 58s
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientDescendingCoreg/2023-01-05-GradientDescendingCoreg_5_1.png){: .center-image }
+![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_5_1.png){: .center-image }
 
 ```python
 %%time
@@ -129,7 +129,7 @@ result = get_dh_dem(dtm_1, sf_subset_dtm1.sample(frac=500/len(sf_subset_dtm1)), 
 
     ValueError: Less than 10 different cells exist.
 
-#### Gradient Descending Coreg
+#### Gradient descent Coreg
 
 Gradient descent is an optimization algorithm commonly used in machine learning and data science to find the minimum of a function. It works by iteratively adjusting the parameters of the function in the direction that minimizes the output value. Here the values are the offset of the DEM, or the 'shift matrix'.
 
@@ -140,7 +140,7 @@ It works like going down from the top of the mountain.
 - Iterate.
 - Reach the minimum of a function.
 
-We run three examples again by Gradient Descending Coreg, **being mind of the time.**
+We run three examples again by Gradient descent Coreg, **being mind of the time.**
 
 ```python
 %%time
@@ -148,50 +148,50 @@ We run three examples again by Gradient Descending Coreg, **being mind of the ti
 # (a) DTM 10.
 print('Comparision on DTM10')
 
-## gradient descending coreg
+## gradient descent coreg
 results_10 = best_shift_px(dtm_10,sf_subset_dtm10,disp=False,stat='mix',perc_t=99,downsampling=False)
 
-## get dh using parameters from gradient descending coreg
+## get dh using parameters from gradient descent coreg
 pts_10 = get_dh_by_shift_px_gdf(dtm_10,sf_subset_dtm10,(results_10[0],results_10[1]),results_10[2],stat=False)
 
 ## plot
-final_histogram(results_nk_10['gdf']['dh_after'],pts_10['dh'],dH_ref=results_nk_10['gdf']['dh_before'],range=(-3,3),perc_t=99.5,legend=['NuthKaab Coreg','Gradient Descending Coreg','raw']);
+final_histogram(results_nk_10['gdf']['dh_after'],pts_10['dh'],dH_ref=results_nk_10['gdf']['dh_before'],range=(-3,3),perc_t=99.5,legend=['NuthKaab Coreg','Gradient descent Coreg','raw']);
 
 print('NuthKaab Coreg fit matrix(e_px,n_px,bias),nmad:',results_nk_10['shift_matrix'],results_nk_10['sum']['nmad_after'])
 ```
 
     Comparision on DTM10
-    Gradient Descending Coreg fit matrix(e_px,n_px,bias),nmad:(-0.5000,0.3906,0.1385),0.3243
+    Gradient descent Coreg fit matrix(e_px,n_px,bias),nmad:(-0.5000,0.3906,0.1385),0.3243
     NuthKaab Coreg fit matrix(e_px,n_px,bias),nmad: (-0.47167920355557263, 0.3644381456590511, 0.137939453125) 0.32735018920898434
     CPU times: total: 9.84 s
     Wall time: 9.84 s
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientDescendingCoreg/2023-01-05-GradientDescendingCoreg_8_1.png){: .center-image }
+![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_8_1.png){: .center-image }
 
 ```python
 %%time
 
 # (b) DTM 1
 print('Comparision on DTM1')
-## gradient descending coreg
+## gradient descent coreg
 results_1 = best_shift_px(dtm_1,sf_subset_dtm1,disp=False,stat='mix',perc_t=99.5)
 
-## using parameters from gradient descending coreg. No bias correction.
+## using parameters from gradient descent coreg. No bias correction.
 pts_1 = get_dh_by_shift_px_gdf(dtm_1,sf_subset_dtm1,(results_1[0],results_1[1]),0,stat=False)
 
 ## plot in comparison with NuthKaab Coreg
-final_histogram(result_nk_1['gdf']['dh_after']+results_1[2],pts_1['dh'],dH_ref=result_nk_1['gdf']['dh_before'],range=(-3,3),bins=60,perc_t=99.5,legend=['NuthKaab Coreg','Gradient Descending Coreg','raw']);
+final_histogram(result_nk_1['gdf']['dh_after']+results_1[2],pts_1['dh'],dH_ref=result_nk_1['gdf']['dh_before'],range=(-3,3),bins=60,perc_t=99.5,legend=['NuthKaab Coreg','Gradient descent Coreg','raw']);
 
 print('NuthKaab Coreg fit matrix(e_px,n_px,bias),nmad:',result_nk_1['shift_matrix'],result_nk_1['sum']['nmad_after'])
 ```
 
     Comparision on DTM1
-    Gradient Descending Coreg fit matrix(e_px,n_px,bias),nmad:(-0.8750,-1.2284,-0.1682),0.7210
+    Gradient descent Coreg fit matrix(e_px,n_px,bias),nmad:(-0.8750,-1.2284,-0.1682),0.7210
     NuthKaab Coreg fit matrix(e_px,n_px,bias),nmad: (-0.3431186328204423, -1.0512761859101158, -0.169189453125) 0.7765913818359375
     CPU times: total: 641 ms
     Wall time: 626 ms
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientDescendingCoreg/2023-01-05-GradientDescendingCoreg_9_1.png){: .center-image }
+![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_9_1.png){: .center-image }
 
 ```python
 %%time
@@ -199,10 +199,10 @@ print('NuthKaab Coreg fit matrix(e_px,n_px,bias),nmad:',result_nk_1['shift_matri
 # (c) DTM 1 with only 500 points
 
 print('Comparision on DTM1 - 500 points challenge')
-## gradient descending coreg
+## gradient descent coreg
 results_500 = best_shift_px(dtm_1,sf_subset_dtm1.sample(frac=1000/len(sf_subset_dtm1)),disp=False,stat='mix',perc_t=99)
 
-## get dh using parameters from gradient descending coreg
+## get dh using parameters from gradient descent coreg
 pts_500 = get_dh_by_shift_px_gdf(dtm_1,sf_subset_dtm1,(results_500[0],results_500[1]),0,stat=False)
 
 ## plot in comparison with (b)
@@ -212,31 +212,31 @@ print('NuthKaab Coreg fit matrix(e_px,n_px,bias),nmad: Fail to coreg')
 ```
 
     Comparision on DTM1 - 500 points challenge
-    Gradient Descending Coreg fit matrix(e_px,n_px,bias),nmad:(-1.0000,-0.2374,-0.1486),0.7371
+    Gradient descent Coreg fit matrix(e_px,n_px,bias),nmad:(-1.0000,-0.2374,-0.1486),0.7371
     NuthKaab Coreg fit matrix(e_px,n_px,bias),nmad: Fail to coreg
     CPU times: total: 781 ms
     Wall time: 779 ms
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientDescendingCoreg/2023-01-05-GradientDescendingCoreg_10_1.png){: .center-image }
+![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_10_1.png){: .center-image }
 
 #### Section summary 
 
-'Gradient Descending Coregistration' is a point-based coregistration method that **is significantly fast (in seconds) and efficient regardless of the resolution of the DEM**. It is also able to handle datasets with a small number of points, unlike NuthKaab coregistration which requires a large sample size to work accurately.
+'Gradient descent Coregistration' is a point-based coregistration method that **is significantly fast (in seconds) and efficient regardless of the resolution of the DEM**. It is also able to handle datasets with a small number of points, unlike NuthKaab coregistration which requires a large sample size to work accurately.
 
-In addition to using NMAD, my 'Gradient Descending Coregistration' method **also incorporates RMSE to make the coregistration process more 'sensitive' to 'shifts'. In contrast, xDEM only uses NMAD,** which may not always give the optimal offset but explained the difference in previous examples.
+In addition to using NMAD, my 'Gradient descent Coregistration' method **also incorporates RMSE to make the coregistration process more 'sensitive' to 'shifts'. In contrast, xDEM only uses NMAD,** which may not always give the optimal offset but explained the difference in previous examples.
 
 - However, it is important to carefully choose the hyperparameters, particularly the learning rate, to ensure that the algorithm can find the global minimum of the function. 
-- It is also worth noting that the results of 'Gradient Descending Coregistration' may vary depending on the local minima reached, particularly when sample size are less than 1000 points.
+- It is also worth noting that the results of 'Gradient descent Coregistration' may vary depending on the local minima reached, particularly when sample size are less than 1000 points.
 - Finally, for datasets with a very large number of points (e.g. over 50000), I recommend using NuthKaab coregistration, which is very robust in these scenarios.
 
 
 ## Not just ICESat-2
 
-In addition to being effective for co-registering DEMs with points, **'Gradient Descending Coregistration' also performs well for normal DEM coregistration.** 
+In addition to being effective for co-registering DEMs with points, **'Gradient descent Coregistration' also performs well for normal DEM coregistration.** 
 
 To compare the speed and accuracy, we will use two different datasets: (1) a known shifted DTM10, and (2) Arctic DEM and DTM1.
 - (a) xdem.NuthKaab
-- (b) Gradient Descending Coreg
+- (b) Gradient descent Coreg
 
 ```python
 from xsnow.godh import dem_difference_plot
@@ -255,7 +255,7 @@ ddem = dtm_10_shifted - dtm_10
 ddem.show(vmin=-10,vmax=10)
 ```
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientDescendingCoreg/2023-01-05-GradientDescendingCoreg_21_0.png){: .center-image }
+![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_21_0.png){: .center-image }
 
 ```python
 %%time
@@ -273,7 +273,7 @@ print(f'Coreg maxtrix east_px, north_px, bias:{func._meta["offset_east_px"]:.4f}
 
 ```python
 %%time
-# b. Gradient descending Coreg on DEM and shifted DEM
+# b. Gradient descent Coreg on DEM and shifted DEM
 
 # sampling points from DEM
 df = df_from_dem(dtm_10,samples=5000)
@@ -283,7 +283,7 @@ best_shift_px(dtm_10_shifted,df,x0=(0,0),footprint=False,bounds=(-3,3),z_name='z
 
 ```
 
-    Gradient Descending Coreg fit matrix(e_px,n_px,bias),nmad:(-1.1935,0.7031,-0.1600),0.0691
+    Gradient descent Coreg fit matrix(e_px,n_px,bias),nmad:(-1.1935,0.7031,-0.1600),0.0691
     CPU times: total: 1.12 s
     Wall time: 1.09 s
 
@@ -324,7 +324,7 @@ print(f'Coreg maxtrix east_px, north_px, bias:{func._meta["offset_east_px"]:.4f}
 
 ```python
 %%time
-# b. Gradient descending Coreg. Work on 1m resolution.
+# b. Gradient descent Coreg. Work on 1m resolution.
 
 # sampling points from DEM_Ref
 df_ref = df_from_dem(dtm_1_ref,samples=10000)
@@ -334,7 +334,7 @@ res_gd =best_shift_px(dtm_arctic,df_ref,x0=(0,0),footprint=False,bounds=(-5,5),z
 
 ```
 
-    Gradient Descending Coreg fit matrix(e_px,n_px,bias),nmad:(2.7500,-3.4922,-0.5269),0.9925
+    Gradient descent Coreg fit matrix(e_px,n_px,bias),nmad:(2.7500,-3.4922,-0.5269),0.9925
     CPU times: total: 5.25 s
     Wall time: 5.25 s
 
@@ -352,22 +352,22 @@ ddem_coreg_nuthkaab.show(ax=ax1, vmax=2,vmin=-2,cb_title='dH (m)')
 ddem_coreg_gd.show(ax=ax2, vmax=2,vmin=-2)
 
 ax1.set_title('dH (coreg_nuthkaab)')
-ax2.set_title('dH (coreg_gradient_descending)')
-final_histogram(ddem_coreg_nuthkaab,ddem_coreg_gd,dH_ref=ddem_raw,range=(-6,6),ax=ax3,legend=['NuthKaab','GradientDescending','raw'])
+ax2.set_title('dH (coreg_gradient_descent)')
+final_histogram(ddem_coreg_nuthkaab,ddem_coreg_gd,dH_ref=ddem_raw,range=(-6,6),ax=ax3,legend=['NuthKaab','Gradientdescent','raw'])
 ```
 
 
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientDescendingCoreg/2023-01-05-GradientDescendingCoreg_28_1.png){: .center-image }
+![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_28_1.png){: .center-image }
 
 #### Section Summary
 
 Arctic DEM in this area (close to Finse) is a snow-on DEM. So, there is no reason to do bias correction e.g. -0.555 m or -0.5269 m (This is snow depth over the entire area acrtually). For the same reason, snow cover introduce errors that make it challenging to obtain reliable co-registration results. In this competition.
 
 - NuthKaab give a shift matrix (5.1641,-4.13) with NMAD 1.03 m in 14 minutes
-- Gradiant Descending Corg give a shift matrix (2.7500,-3.4922) with NMAD 1.01 m in just 5 seconds.
+- Gradiant descent Corg give a shift matrix (2.7500,-3.4922) with NMAD 1.01 m in just 5 seconds.
 
-Based on these results, we conclude that 'Gradient Descending Coregistration' is the superior method in all scenarios. Additionally, 'Gradient Descending Coregistration' can easily support rotation correction, making it even more versatile.
+Based on these results, we conclude that 'Gradient descent Coregistration' is the superior method in all scenarios. Additionally, 'Gradient descent Coregistration' can easily support rotation correction, making it even more versatile.
 
 ## Point interpolation vs Zonal statistics of the footprint
 
@@ -377,7 +377,7 @@ In xDEM, interpolation is implemented using scipy.ndimapge.map_coordinates, whic
 
 Another option for evaluating the value at a point on a DEM is to use **zonal statistics**, which calculates a statistic (e.g. mean, median, etc.) for the area surrounding the point. This can be particularly useful for high-resolution DEMs, where the statistic value of the footprint may provide a more accurate representation of the true value because the statistics removed the noisy spikes.
 
-**So, What is the best footprint size for zonal statistics? Again, I used gradient descending to find it!**
+**So, What is the best footprint size for zonal statistics? Again, I used gradient descent to find it!**
 
 I will use DTM1 and ICESat-2 snow-free measurements as an example to demonstrate the difference of two methods.
 
@@ -390,10 +390,10 @@ final_histogram(pts_1['dh'],pts_size['dh'],dH_ref=result_nk_1['gdf']['dh_before'
 
 ```
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientDescendingCoreg/2023-01-05-GradientDescendingCoreg_13_0.png){: .center-image }
+![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_13_0.png){: .center-image }
 
 ```python
-# Gradient Descending suggest the better size
+# Gradient descent suggest the better size
 size = best_footprint(dtm_1, sf_subset_dtm1,(13,13),z_name='h_te_best_fit',s_name='mean',stat='mix',perc_t=99.75)
 
 ```
@@ -409,7 +409,7 @@ final_histogram(pts_1['dh'],pts_size['dh'],dH_ref=result_nk_1['gdf']['dh_before'
 
 ```
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientDescendingCoreg/2023-01-05-GradientDescendingCoreg_15_0.png){: .center-image }
+![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_15_0.png){: .center-image }
 
 ```python
 # Use the size to get elevation difference
@@ -420,7 +420,7 @@ final_histogram(pts_13100['dh'],pts_size['dh'],dH_ref=result_nk_1['gdf']['dh_bef
 
 ```
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientDescendingCoreg/2023-01-05-GradientDescendingCoreg_16_0.png){: .center-image }
+![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_16_0.png){: .center-image }
 
 #### Section Summary
 
@@ -428,7 +428,7 @@ It is controversial to decide which one to use, point interpolation (with coreg)
 
 - interpolation (and coreg) with NMAD 0.72 m.
 - foorprint 13x13 m with NMAD 0.75 m (the footprint size naturally)
-- foorprint 8x25 m with NMAD 0.67 m (the best footprint suggest by gradient descending algorithm)
+- foorprint 8x25 m with NMAD 0.67 m (the best footprint suggest by gradient descent algorithm)
 - foorprint 13x100 m with NMAD 1.20 m (the footprint size of ATL08 segment)
 
-However, the results are hard to be reliable due to the small sample size. But gradient descending is very useful for applications on DEM or ICESat-2 dataset.
+However, the results are hard to be reliable due to the small sample size. But gradient descent is very useful for applications on DEM or ICESat-2 dataset.

@@ -304,8 +304,7 @@ During the LGM, The EISC has a sea level equivalent (SLE) ice volume of ~24 m, w
 
 An event known as global Meltwater Pulse 1A (MWP-1A) at the Bølling transition ~14,650 years ago had a sea level rising rate of at least 4 cm/year, 12 m -14 m in ~340 years, which is 10 times of today. The previous study concluded the contribution from EISC is SLE ~2.5m during 14.9-12.9 ky BP <d-cite key="patton.etal_2017"></d-cite>. 
 
-The new reconstruction attributes up to 50% of meltwater to the collapse of EISC. The peak melting of EISC reached SLE ~2.2 cm/year at centennial scales. The authors estimated that the rates of ice loss from the EISC during the early Bølling are comparable to high-end values of mass loss projected for the West Antarctic Ice Sheet in the next centuries 
- <d-cite key="brendryen.etal_2020"></d-cite>. The collapse of EISC reminds us that sudden deglaciation is not a friendly process but possible even if there was no anthropogenic effect but subtle changes in incoming solar radiation by the Earth's orbit procession.
+The new reconstruction attributes up to 50% of meltwater to the collapse of EISC. The peak melting of EISC reached SLE ~2.2 cm/year at centennial scales. The authors estimated that the rates of ice loss from the EISC during the early Bølling are comparable to high-end values of mass loss projected for the West Antarctic Ice Sheet in the next centuries <d-cite key="brendryen.etal_2020"></d-cite>. The collapse of EISC reminds us that sudden deglaciation is not a friendly process but possible even if there was no anthropogenic effect but subtle changes in incoming solar radiation by the Earth's orbit procession.
 
 ### 3.2 The thawing permafrost
 
