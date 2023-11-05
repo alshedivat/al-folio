@@ -9,5 +9,4 @@ categories: modeling
 redirect: /assets/pdf/iceblock_expedition.pptx
 lang: eng
 publish: yes
-featured: true
 ---
