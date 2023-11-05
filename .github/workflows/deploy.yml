@@ -44,6 +44,4 @@ jobs:
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
       uses: actions/deploy-pages@v1
-      with:
-        folder: _site
 
