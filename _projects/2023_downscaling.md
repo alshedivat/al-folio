@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: From climate modeling to energy system modeling...
 description: Statistical downscaling and bias correction.
 img: assets/img/post/climate/cover.png
@@ -30,7 +30,7 @@ Can machine learning help accurately predicting radiation and wind fields at fin
 
 The accuracy of wind speed projections is essential for effective planning and decision making in the renewable energy sector. CMIP6 (Coupled Model Intercomparison Project Phase 6) is the latest generation of climate models used to project future climate conditions. However, (i) these models often exhibit biases in their wind speed projections when compared to observed data. (ii) Most analyses on CMIP6 provide results at the native resolution of the model, which may not adequately represent sub-grid changes. (iii) Moreover, the presence of non-stationary bias and low signal-to-noise ratio further necessitates comprehensive bias correction approaches.
 
-These gaps in the CMIP6 datasets emphasize the need for additional processing when using them in wind energy modeling. One simple approach is to adjust the mean and/or variance of the dataset based on a reference dataset, such as the Global Wind Atlas (GWA) <d-cite key="gruber.etal_2022, murcia.etal_2022"></d-cite>. More advanced adjustments (or transfer function) can be made by bias correction and/or downscaling models. Among of these techniques, quantile-based bias adjustment is a statistical method that matches the quantiles to ensure the datasets have the same cumulative density function (CDF) curve <d-cite key="best.panofsky_1956"></d-cite>. When the simulations are matched to reference observations, the bias are removed and the finer resolution are also achieved. However, traditional Quantile Mapping (QM) methods may alter changing signals when applied it beyond the observation periods <d-cite key="maraun_2016"></d-cite>.
+These gaps in the CMIP6 datasets emphasize the need for additional processing when using them in wind energy modeling. One simple approach is to adjust the mean and/or variance of the dataset based on a reference dataset, such as the Global Wind Atlas (GWA)<d-cite key="gruber.etal_2022, murcia.etal_2022"></d-cite>. More advanced adjustments (or transfer function) can be made by bias correction and/or downscaling models. Among of these techniques, quantile-based bias adjustment is a statistical method that matches the quantiles to ensure the datasets have the same cumulative density function (CDF) curve <d-cite key="best.panofsky_1956"></d-cite>. When the simulations are matched to reference observations, the bias are removed and the finer resolution are also achieved. However, traditional Quantile Mapping (QM) methods may alter changing signals when applied it beyond the observation periods<d-cite key="maraun_2016"></d-cite>.
 
 
 To address the issue of QM, <d-cite key="@cannon.etal_2015"></d-cite>. introduced a trend-preserving method called Quantile Delta Mapping (QDM). QDM captures trends derived from CMIP6 future and historical simulations based on quantiles, including extreme wind speeds and average wind speeds. These trends are then applied to detrend-simulations. <d-cite key="li.etal_2010"></d-cite>. introduced a similar method called equidistant CDF matching (EDCDFm), which is equivalent to QDM but follows different steps. EDCDFm uses quantiles to describe the bias between simulations and observations and assumes that this bias is stationary, allowing it to be used in future simulations.
@@ -84,27 +84,27 @@ Table: Data setting {#tbl:dataset}
 
 ## Methodology
 
-The change signals are described by mean or median, or in more general, can also be described by quantiles individually. QDM <d-cite key="cannon.etal_2015"></d-cite> is a technique widely used to preserve trends over historical and future simulations at all quantiles. Figure @fig:method a, b show the workflow of QDM. It extracts the trend $\Delta W_{s}$ and adds it back to the adjusted timeseries to get the downscaled results $\hat{x}_{sf}$ by following steps:
+The change signals are described by mean or median, or in more general, can also be described by quantiles individually. QDM <d-cite key="cannon.etal_2015"></d-cite> is a technique widely used to preserve trends over historical and future simulations at all quantiles. Figure @fig:method a, b show the workflow of QDM. It extracts the trend $$\Delta W_{s}$$ and adds it back to the adjusted timeseries to get the downscaled results $$\hat{x}_{sf}$$ by following steps:
 
-The non-exceedance probability (quantiles) $Q_{sf}$ is obtained from the CDF (cumulative density function) $F_{sf}$ by simulated future (sf) variable $x_{sf}$:
+The non-exceedance probability (quantiles) $$Q_{sf}$$ is obtained from the CDF (cumulative density function) $F_{sf}$ by simulated future (sf) variable $$x_{sf}$$:
 
 $$
 Q_{sf} = F_{sf} (x_{sf}), Q_{sf} \subseteq (0,1)
 $$
 
-So the relative changes on quantiles over simulated historical and future periods $\Delta W_{s}$ is:
+So the relative changes on quantiles over simulated historical and future periods $$\Delta W_{s}$$ is:
 
 $$
 \Delta W_{s} = \frac{F_{sf}^{-1}[Q_{sf}]}{F_{sh}^{-1}[Q_{sf}]} = \frac{x_{sf}}{F_{sh}^{-1}[Q_{sf}]}
 $$
 
-Using the inversed CDF estimated from observed historical $x_{oh}$ to correct $Q_{sf}$ and get bias adjusted $\hat{x}_{oh:sf}$:
+Using the inversed CDF estimated from observed historical $$x_{oh}$$ to correct $$Q_{sf}$$ and get bias adjusted $$\hat{x}_{oh:sf}$$:
 
 $$
 \hat{x}_{oh:sf} = F^{-1}_{oh}[Q_{sf}]
 $$
 
-By adding the trend into the bias adjusted dataset $\hat{x}_{oh:sf}$ , the projected variable $\hat{x}_{sf}$ is:
+By adding the trend into the bias adjusted dataset $$\hat{x}_{oh:sf}$$ , the projected variable $$\hat{x}_{sf}$$ is:
 $$
 \hat{x}_{sf} = \hat{x}_{oh:sf}\cdot{}\Delta W_{s}
 $$
@@ -130,7 +130,7 @@ $$
 \hat{x}_{sf} = {x}_{sf} + F^{-1}_{oh}[Q_{sf}] - F^{-1}_{sh}[Q_{sf}]
 $$
 
-Although EDCDFm and QDM are equivalent methods <d-cite key="cannon.etal_2015"></d-cite>, they employ different workflows (@fig:method a), in this study, both methods were adopted to generate a downscaled dataset that provides bias-free results at the same resolution as ERA5. To further assess potential seasonal variations in wind speed, the trends $\Delta W_{s}$ from QDM were further grouped by week of year and/or month of year.
+Although EDCDFm and QDM are equivalent methods <d-cite key="cannon.etal_2015"></d-cite>, they employ different workflows (@fig:method a), in this study, both methods were adopted to generate a downscaled dataset that provides bias-free results at the same resolution as ERA5. To further assess potential seasonal variations in wind speed, the trends $$\Delta W_{s}$$ from QDM were further grouped by week of year and/or month of year.
 
 The evaluation will follow the steps: (1) comparing the changing signals from CMCC-CM2 and CMCC-ESM2; and (2) comparing the adjusted and downscaled wind speed projections from QDM and EDCDFm at different locations and time periods, (3) Validate the downscaled results by ERA5. Various performance metrics such as mean bias, root mean square error, and Spearman correlation coefficient, R-squared value will be used to assess the accuracy of the adjusted and downscaled projections. All implementations are in Python and can be accessed from [GitHub](https://github.com/guillerval/summerproject23_CMIP6downscaling/tree/hao-dev).
 
