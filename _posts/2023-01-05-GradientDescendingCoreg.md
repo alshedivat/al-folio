@@ -86,7 +86,12 @@ results_nk_10 = get_dh_dem(dtm_10,sf_subset_dtm10,range=(-3,3),perc_t=99.75,std_
     CPU times: total: 35.3 s
     Wall time: 35.3 s
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_4_1.png){: .center-image }
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_4_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+
 
 ```python
 %%time
@@ -102,7 +107,11 @@ result_nk_1 = get_dh_dem(dtm_1, sf_subset_dtm1,range=(-3,3),perc_t=99.75,order=1
     CPU times: total: 5min 58s
     Wall time: 5min 58s
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_5_1.png){: .center-image }
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_5_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
 
 ```python
 %%time
@@ -166,7 +175,11 @@ print('NuthKaab Coreg fit matrix(e_px,n_px,bias),nmad:',results_nk_10['shift_mat
     CPU times: total: 9.84 s
     Wall time: 9.84 s
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_8_1.png){: .center-image }
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_8_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
 
 ```python
 %%time
@@ -191,7 +204,11 @@ print('NuthKaab Coreg fit matrix(e_px,n_px,bias),nmad:',result_nk_1['shift_matri
     CPU times: total: 641 ms
     Wall time: 626 ms
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_9_1.png){: .center-image }
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_9_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
 
 ```python
 %%time
@@ -217,7 +234,11 @@ print('NuthKaab Coreg fit matrix(e_px,n_px,bias),nmad: Fail to coreg')
     CPU times: total: 781 ms
     Wall time: 779 ms
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_10_1.png){: .center-image }
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_10_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
 
 #### Section summary 
 
@@ -255,7 +276,11 @@ ddem = dtm_10_shifted - dtm_10
 ddem.show(vmin=-10,vmax=10)
 ```
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_21_0.png){: .center-image }
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_21_0.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
 
 ```python
 %%time
@@ -358,7 +383,11 @@ final_histogram(ddem_coreg_nuthkaab,ddem_coreg_gd,dH_ref=ddem_raw,range=(-6,6),a
 
 
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_28_1.png){: .center-image }
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_28_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
 
 #### Section Summary
 
@@ -390,7 +419,11 @@ final_histogram(pts_1['dh'],pts_size['dh'],dH_ref=result_nk_1['gdf']['dh_before'
 
 ```
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_13_0.png){: .center-image }
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_13_0.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
 
 ```python
 # Gradient descent suggest the better size
@@ -409,7 +442,11 @@ final_histogram(pts_1['dh'],pts_size['dh'],dH_ref=result_nk_1['gdf']['dh_before'
 
 ```
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_15_0.png){: .center-image }
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_15_0.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
 
 ```python
 # Use the size to get elevation difference
@@ -420,7 +457,11 @@ final_histogram(pts_13100['dh'],pts_size['dh'],dH_ref=result_nk_1['gdf']['dh_bef
 
 ```
 
-![png]({{ site.url }}/assets/img/notebook/2023-01-05-GradientdescentCoreg/2023-01-05-GradientdescentCoreg_16_0.png){: .center-image }
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_16_0.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
 
 #### Section Summary
 
