@@ -88,10 +88,9 @@ results_nk_10 = get_dh_dem(dtm_10,sf_subset_dtm10,range=(-3,3),perc_t=99.75,std_
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_4_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.html path="assets/img/notebook/GradientDescentCoreg/GradientDescentCoreg_4_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-
 
 ```python
 %%time
@@ -109,7 +108,7 @@ result_nk_1 = get_dh_dem(dtm_1, sf_subset_dtm1,range=(-3,3),perc_t=99.75,order=1
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_5_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.html path="assets/img/notebook/GradientDescentCoreg/GradientDescentCoreg_5_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 
@@ -177,7 +176,7 @@ print('NuthKaab Coreg fit matrix(e_px,n_px,bias),nmad:',results_nk_10['shift_mat
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_8_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.html path="assets/img/notebook/GradientDescentCoreg/GradientDescentCoreg_8_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 
@@ -206,7 +205,7 @@ print('NuthKaab Coreg fit matrix(e_px,n_px,bias),nmad:',result_nk_1['shift_matri
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_9_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.html path="assets/img/notebook/GradientDescentCoreg/GradientDescentCoreg_9_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 
@@ -236,7 +235,7 @@ print('NuthKaab Coreg fit matrix(e_px,n_px,bias),nmad: Fail to coreg')
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_10_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.html path="assets/img/notebook/GradientDescentCoreg/GradientDescentCoreg_10_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 
@@ -278,7 +277,7 @@ ddem.show(vmin=-10,vmax=10)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_21_0.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.html path="assets/img/notebook/GradientDescentCoreg/GradientDescentCoreg_21_0.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 
@@ -385,7 +384,7 @@ final_histogram(ddem_coreg_nuthkaab,ddem_coreg_gd,dH_ref=ddem_raw,range=(-6,6),a
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_28_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.html path="assets/img/notebook/GradientDescentCoreg/GradientDescentCoreg_28_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 
@@ -421,7 +420,7 @@ final_histogram(pts_1['dh'],pts_size['dh'],dH_ref=result_nk_1['gdf']['dh_before'
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_13_0.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.html path="assets/img/notebook/GradientDescentCoreg/GradientDescentCoreg_13_0.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 
@@ -444,7 +443,7 @@ final_histogram(pts_1['dh'],pts_size['dh'],dH_ref=result_nk_1['gdf']['dh_before'
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_15_0.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.html path="assets/img/notebook/GradientDescentCoreg/GradientDescentCoreg_15_0.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 
@@ -459,7 +458,7 @@ final_histogram(pts_13100['dh'],pts_size['dh'],dH_ref=result_nk_1['gdf']['dh_bef
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/notebook/GradientdescentCoreg/GradientdescentCoreg_16_0.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.html path="assets/img/notebook/GradientDescentCoreg/GradientDescentCoreg_16_0.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 
