@@ -9,7 +9,7 @@ profile:
   image: blog_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p> Scientific programming 🎯 Digging the truth behind the geodata.</p>
+    <p> Scientific programming 🎯 Digging the truth behind geodata.</p>
 
 news: true # includes a list of news items
 latest_posts: false # recent blog
