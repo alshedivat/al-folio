@@ -70,7 +70,7 @@ Now, hydropower produces large amounts (**>90%**) of clean and cheap electrical 
     {% include figure.html path="https://i.imgur.com/wu88I4P.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-<div class="caption"> **Figure 1.** The glacier stories in town Odda
+<div class="caption"> Figure 1. The glacier stories in town Odda
 </div>
 
 
@@ -105,7 +105,7 @@ Earth is estimated to be 4.5 billion years old. The IPCC AR6 report described hi
     {% include figure.html path="https://i.imgur.com/selcXrM.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-<div class="caption"> **Figure 2.** The time scale, temperature and deglaciation from pre-Quaternary to the present.<d-cite key="alley_2000, moore.une_2016"></d-cite>
+<div class="caption"> Figure 2. The time scale, temperature and deglaciation from pre-Quaternary to the present.<d-cite key="alley_2000, moore.une_2016"></d-cite>
 </div>
 
 
@@ -158,7 +158,7 @@ When we walk towards a glacier, frequently we see the sediments concentrated in 
     {% include figure.html path="https://i.imgur.com/yzAooqj.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-<div class="caption">**Figure 3.** The west tongue of the Glacier Storbreen
+<div class="caption">Figure 3. The west tongue of the Glacier Storbreen
 </div>
 
 
@@ -176,7 +176,7 @@ If the water cannot reach the bed, perhaps because the glacier is frozen to its 
     {% include figure.html path="https://i.imgur.com/2vVBuZY.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-<div class="caption">**Figure 4.** The marginal meltwater channels
+<div class="caption">Figure 4. The marginal meltwater channels
 </div>
 
 
@@ -197,7 +197,7 @@ Subglacial exhibit a variety of landforms as a result of glacier, glaciofluvial 
     {% include figure.html path="https://i.imgur.com/qu8C3Kl.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-<div class="caption">**Figure 5.** The abrasion and quarrying process
+<div class="caption">Figure 5. The abrasion and quarrying process
 </div>
 
 <div class="row">
@@ -205,7 +205,7 @@ Subglacial exhibit a variety of landforms as a result of glacier, glaciofluvial 
     {% include figure.html path="https://i.imgur.com/B2FFj5x.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-<div class="caption">**Figure 6.** Rock drumlin(a), Drumlin(b), Fluting(c) and transformation between Rogen moraine and drumlins<d-cite key="lundqvist_1989"></d-cite> (d).
+<div class="caption">Figure 6. Rock drumlin(a), Drumlin(b), Fluting(c) and transformation between Rogen moraine and drumlins<d-cite key="lundqvist_1989"></d-cite> (d).
 </div>
 
 *Subglacial meltwater channels* can form networks, similar to those that form on the ground today. Flow is driven by pressure gradients as well as elevation, so these channels can flow uphill and therefore have undulating long profiles.<d-cite key="benn.evans_2010"></d-cite> In contrast to marginal meltwater channels, subglacial meltwater channels are more associated to temperate, wet-based glaciers and ice sheets.
@@ -228,7 +228,7 @@ The shorelines and delta prove the lake's existence and reflect the water level 
     {% include figure.html path="https://i.imgur.com/ytlo6IF.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-<div class="caption">**Figure 7.** Ice divide and ice dammed lake Nedre Glomsjø <d-cite key="hogaas.longva_2018, stroeven.etal_2015"></d-cite>
+<div class="caption">Figure 7. Ice divide and ice dammed lake Nedre Glomsjø <d-cite key="hogaas.longva_2018, stroeven.etal_2015"></d-cite>
 </div>
 
 <div class="row">
@@ -236,7 +236,7 @@ The shorelines and delta prove the lake's existence and reflect the water level 
     {% include figure.html path="https://i.imgur.com/MfmksrF.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-<div class="caption">**Figure 8.** Grimsmoen delta marked a big lake in the past
+<div class="caption">Figure 8. Grimsmoen delta marked a big lake in the past
 </div>
 
 
@@ -247,7 +247,7 @@ The failure of the dam is triggered by ice retreat, rock avalanche or seismic sh
     {% include figure.html path="https://i.imgur.com/0UzSigu.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-<div class="caption">**Figure 9.** Jutulhogget canyon
+<div class="caption">Figure 9. Jutulhogget canyon
 </div>
 
 
@@ -258,7 +258,7 @@ The failure of the dam is triggered by ice retreat, rock avalanche or seismic sh
     {% include figure.html path="https://i.imgur.com/AOXGOIm.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-<div class="caption">**Figure 10.** Permafrost-related periglacial landforms. Photos are taken at Juvvatnet (a: a thermokarst lake upon ice-cored moraine, b: large ice-cored moraines in front of small cirque glacier, c: polygons nets ), Dombas (d: palsa).
+<div class="caption">Figure 10. Permafrost-related periglacial landforms. Photos are taken at Juvvatnet (a: a thermokarst lake upon ice-cored moraine, b: large ice-cored moraines in front of small cirque glacier, c: polygons nets ), Dombas (d: palsa).
 </div>
 
 The *thermokarst lake*, *ice-cored moraine*, *polygon mark* and *palsa mire*, share a common basis that the *permafrost* presents below (Figure 10 a,b,c,d).
@@ -288,7 +288,7 @@ In southern Norway, from the western coast to the eastern inland, the ELA is fro
     {% include figure.html path="https://i.imgur.com/V0u0qJ1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-<div class="caption">**Figure 11.** The comparison of ELA and permafrost limit <d-cite key="etzelmuller.etal_2003"></d-cite>.
+<div class="caption">Figure 11. The comparison of ELA and permafrost limit <d-cite key="etzelmuller.etal_2003"></d-cite>.
 </div>
 
 
@@ -309,7 +309,7 @@ During the winter, low temperatures and low melting water reduce sliding, erosio
     {% include figure.html path="https://i.imgur.com/7MqJHzy.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-<div class="caption">**Figure 12.** The glacier debris transport
+<div class="caption">Figure 12. The glacier debris transport
 </div>
 
 
@@ -337,7 +337,7 @@ The rebound (R) values generated by the Schmidt hammer mirror the rebound veloci
     {% include figure.html path="https://i.imgur.com/QwQeUwC.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-<div class="caption">**Figure 13.** The SHD results in the foreland of glacier Storbreen. Each group contains 10 samples. The elevation profile could be found at Figure 3.
+<div class="caption">Figure 13. The SHD results in the foreland of glacier Storbreen. Each group contains 10 samples. The elevation profile could be found at Figure 3.
 </div>
 
 
@@ -357,7 +357,7 @@ During the field trip, we visited boreholes (129 m and 20 m) at Juvvasshøe on 1
     {% include figure.html path="https://i.imgur.com/IDnpt3a.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-<div class="caption">**Figure 14.** The location of ERT profile and boreholes at Juvvasshøe.
+<div class="caption">Figure 14. The location of ERT profile and boreholes at Juvvasshøe.
 </div>
 
 
@@ -372,7 +372,7 @@ Figure 15 shows the profile from 2009 and 2019 with notable differences. The pur
     {% include figure.html path="https://i.imgur.com/ftMEa6o.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-<div class="caption">**Figure 15.** ERT profile comparison of 2009 and 2022.
+<div class="caption">Figure 15. ERT profile comparison of 2009 and 2022.
 </div>
 
 
@@ -387,7 +387,7 @@ The observations and model suggest that the permafrost exists from -2.89 m to > 
     {% include figure.html path="https://i.imgur.com/q7JFzuO.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-<div class="caption">**Figure 16.** Juvvasshøe borehole records from 2008 to 2019. (a: Ground surface temperature, b: average temperature curve, c: temperature profile over time, gray is no data)
+<div class="caption">Figure 16. Juvvasshøe borehole records from 2008 to 2019. (a: Ground surface temperature, b: average temperature curve, c: temperature profile over time, gray is no data)
 </div>
 
 
@@ -400,7 +400,7 @@ There were not only approximately 40 glacial cycles in Quaternary but also numer
     {% include figure.html path="https://i.imgur.com/pXvTAgj.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-<div class="caption">**Figure 17.** The deglaciation patterns and chronology for the Fennoscandian Ice Sheet <d-cite key="stroeven.etal_2015"></d-cite>.
+<div class="caption">Figure 17. The deglaciation patterns and chronology for the Fennoscandian Ice Sheet <d-cite key="stroeven.etal_2015"></d-cite>.
 </div>
 
 Some details behind the deglaciation event are closely related to today's challenges. For instance, scientists are worried about the tipping point of the Antarctic Ice Sheet, the Greenland ice sheet melting, and the permafrost carbon stock. The latest reconstruction revealed the story of the collapse of the EISC<d-cite key="brendryen.etal_2020"></d-cite>.
@@ -425,7 +425,7 @@ As permafrost is a thermal concept, permafrost loss can be regarded as a functio
     {% include figure.html path="https://i.imgur.com/Z0hoH1K.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-<div class="caption">**Figure 18.** Permafrost peat carbon approaching a climatic tipping point  <d-cite key="fewster.etal_2022"></d-cite>.
+<div class="caption">Figure 18. Permafrost peat carbon approaching a climatic tipping point  <d-cite key="fewster.etal_2022"></d-cite>.
 </div>
 
 
@@ -477,7 +477,7 @@ This field trip and the related lab exercise give a good description of the proc
     {% include figure.html path="https://i.imgur.com/rzYp7VD.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
-<div class="caption">**Figure 19.** The overview map of the field trip
+<div class="caption">Figure 19. The overview map of the field trip
 </div>
 
 
