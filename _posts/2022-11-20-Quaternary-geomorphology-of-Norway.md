@@ -65,8 +65,14 @@ Among European countries, Norway was a relatively late industrializer. By the en
 
 Now, hydropower produces large amounts (**>90%**) of clean and cheap electrical energy, so Norwegian's industry and transportation are benefiting from electrification. For instance, the aluminum industry can sustain competitiveness without bauxite resources in domestic. Moreover, Norway has **almost half** of Europe’s reservoir capacity<d-cite key="graabak.etal_2017"></d-cite>. Being a water battery of Europe, Norway is able to balance the deployment of variable renewable energies on all timescales, from seasonal to instantaneous. 
 
-![Not just landscape, glaciers leave hydropower and industry to Norway. Case of Odda](https://i.imgur.com/wu88I4P.jpg)
-**Figure 1.** The glacier stories in town Odda
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://i.imgur.com/wu88I4P.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+<div class="caption"> **Figure 1.** The glacier stories in town Odda
+</div>
+
 
 The country's topography contributes to these advantages. Heavy precipitation of **1000 to 3000 mm** per year is common in coastal areas when the moist air is uplifted by western mountains. The water is stored at high places where there is no need for resettlements because the lakes and valleys created by glaciers serve as natural reservoirs. The glacier scraped the rock, making it easy to build dams and reducing sedimentation problems in reservoirs <d-cite key="graabak.etal_2017"></d-cite>.
 
@@ -93,8 +99,15 @@ As described in the introduction, when there were glaciation & deglaciation even
 ### 2.1 When
 
 Earth is estimated to be 4.5 billion years old. The IPCC AR6 report described high confidence to assert that the last time CO2 levels were as high as the present was at least 2 million years (Ma) ago. The oldest modern human fossils in Ethiopia were dated around 233 thousand years (kyr) old<d-cite key="vidal.etal_2022"></d-cite>. All stories need a temporal context (Figure 2).
-![Time scale and Glaciation in the past 5 million years](https://i.imgur.com/selcXrM.png)
-**Figure 2.** The time scale, temperature and deglaciation from pre-Quaternary to the present.<d-cite key="alley_2000, moore.une_2016"></d-cite>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://i.imgur.com/selcXrM.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+<div class="caption"> **Figure 2.** The time scale, temperature and deglaciation from pre-Quaternary to the present.<d-cite key="alley_2000, moore.une_2016"></d-cite>
+</div>
+
 
 On timescales of hundreds of million years, there are five to six ice ages (icehouse conditions), accompanied by periods of little or no ice cover (greenhouse conditions). Now Earth is currently in the Quaternary Ice Age, specifically, an **interglacial period** of the ***Quaternary glaciation***. 
 
@@ -139,8 +152,15 @@ The Vikings established a colony on an island and call it Greenland during the *
 
 When we walk towards a glacier, frequently we see the sediments concentrated in the foreland, including end moraines and glaciofluvial deposits that generally mirror the shape and position of former ice margins.
 
-![](https://i.imgur.com/yzAooqj.jpg)
-**Figure 3.** The west tongue of the Glacier Storbreen
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://i.imgur.com/yzAooqj.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+<div class="caption">**Figure 3.** The west tongue of the Glacier Storbreen
+</div>
+
 
 The figure above shows a picture of the glacier Storbreen. The *lateral-front moraine* (end/ marginal moraine) marked a sequence of the margin of Storbreen from the Little Ice Age to the present. It retreated approximately 1.8 km in around 270 years from 1150 m.s.l. back to 1410 m.s.l. The meltwater channels in the north outlet dissect the moraines, which reminds us the landscape features could be erased or modified by newer processes.
 
@@ -150,8 +170,15 @@ The *marginal (lateral) meltwater channels* are other features easy to recognize
 
 If the water cannot reach the bed, perhaps because the glacier is frozen to its bed (polythermal or cold-based glaciers, few temperate-case), the streams may flow to the sides of the glacier, and excavate lateral meltwater channels. Lateral channels may terminate abruptly where the meltwater drained down englacial or subglacial tunnels <d-cite key="benn.evans_2010"></d-cite>.
 
-![](https://i.imgur.com/2vVBuZY.png)
-**Figure 4.** The marginal meltwater channels
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://i.imgur.com/2vVBuZY.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+<div class="caption">**Figure 4.** The marginal meltwater channels
+</div>
+
 
 #### 2.2.2 Subglacial landforms
 
@@ -164,11 +191,22 @@ Subglacial exhibit a variety of landforms as a result of glacier, glaciofluvial 
 
 *Ribbed terrain (Rogen moraine)*, *fluting*, and drumlins are deposited landforms. The motion of ice led to the deformation of the soft sedimentary bed (Figure 6). And the lee of obstruction on the bed causes the linear features, which vary from fluting to mega-fluting, further to mega-scale glacial lineations(MSGL), drumlins and Rogen moraines.
 
-![](https://i.imgur.com/qu8C3Kl.jpg)
-**Figure 5.** The abrasion and quarrying process
 
-![](https://i.imgur.com/B2FFj5x.jpg)
-**Figure 6.** Rock drumlin(a), Drumlin(b), Fluting(c) and transformation between Rogen moraine and drumlins<d-cite key="lundqvist_1989"></d-cite> (d).
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://i.imgur.com/qu8C3Kl.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+<div class="caption">**Figure 5.** The abrasion and quarrying process
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://i.imgur.com/B2FFj5x.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+<div class="caption">**Figure 6.** Rock drumlin(a), Drumlin(b), Fluting(c) and transformation between Rogen moraine and drumlins<d-cite key="lundqvist_1989"></d-cite> (d).
+</div>
 
 *Subglacial meltwater channels* can form networks, similar to those that form on the ground today. Flow is driven by pressure gradients as well as elevation, so these channels can flow uphill and therefore have undulating long profiles.<d-cite key="benn.evans_2010"></d-cite> In contrast to marginal meltwater channels, subglacial meltwater channels are more associated to temperate, wet-based glaciers and ice sheets.
 
@@ -184,22 +222,44 @@ Where ice margins, either marginal moraine or ice,  block the natural drainage o
 
 The shorelines and delta prove the lake's existence and reflect the water level of the lake. For instance, Grimsmoen is the delta located at the tributary valleys (Figure 7, 8). It covers 13.95 km2 and indicates the water level of the glacial lake Nedre Glåmsjø, which is believed larger than 1500 km2 by Holmsen (1915). However, the map shows that the lake's extent does not reach Grimsmoen(ca. 700 m.s.l.) because of the Rugldalen spillway (665 m.s.l). The formation of the Grimsmoen delta may be earlier than the lake Nedre Glåmsjø in Figure 7.
 
-![](https://i.imgur.com/ytlo6IF.jpg)
-**Figure 7.** Ice divide and ice dammed lake Nedre Glomsjø <d-cite key="hogaas.longva_2018, stroeven.etal_2015"></d-cite>
 
-![](https://i.imgur.com/MfmksrF.png)
-**Figure 8.** Grimsmoen delta marked a big lake in the past
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://i.imgur.com/ytlo6IF.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+<div class="caption">**Figure 7.** Ice divide and ice dammed lake Nedre Glomsjø <d-cite key="hogaas.longva_2018, stroeven.etal_2015"></d-cite>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://i.imgur.com/MfmksrF.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+<div class="caption">**Figure 8.** Grimsmoen delta marked a big lake in the past
+</div>
+
 
 The failure of the dam is triggered by ice retreat, rock avalanche or seismic shock when the lake hydrostatic pressure exceeds the ice overburden pressure at the lake outlet, so call *Glacier Lake outburst flood (GLOF).* Figure 9 gives an example of the Jutulhogget canyon. The east side valley is 100 m lower than the west side. When the ice sheet melted away, the east side water was released first (Figure 7, outbrust direction) and the canyon was cut into deep water channels by the water from the west side valley.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://i.imgur.com/0UzSigu.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+<div class="caption">**Figure 9.** Jutulhogget canyon
+</div>
 
-![](https://i.imgur.com/0UzSigu.jpg)
-**Figure 9.** Jutulhogget canyon
 
 #### 2.2.4 Periglacial landforms
 
-![](https://i.imgur.com/AOXGOIm.jpg)
-**Figure 10.** Permafrost-related periglacial landforms. Photos are taken at Juvvatnet (a: a thermokarst lake upon ice-cored moraine, b: large ice-cored moraines in front of small cirque glacier, c: polygons nets ), Dombas (d: palsa).
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://i.imgur.com/AOXGOIm.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+<div class="caption">**Figure 10.** Permafrost-related periglacial landforms. Photos are taken at Juvvatnet (a: a thermokarst lake upon ice-cored moraine, b: large ice-cored moraines in front of small cirque glacier, c: polygons nets ), Dombas (d: palsa).
+</div>
 
 The *thermokarst lake*, *ice-cored moraine*, *polygon mark* and *palsa mire*, share a common basis that the *permafrost* presents below (Figure 10 a,b,c,d).
 
@@ -223,27 +283,41 @@ The *permafrost limit* is the outermost (latitudinal) or lowest (altitudinal) li
 
 In southern Norway, from the western coast to the eastern inland, the ELA is from ca. 1000 m to 2000 m due to the distance to moisture getting longer. However, the permafrost limit decreases towards the east due to climate patterns switching from maritime to continental. Etzelmuller described this as a transition from the predominance of glacial processes to the predominance of permafrost-related processes (Figure 11) <d-cite key="etzelmuller.etal_2003"></d-cite>. That reflects why the west coast has temperated glaciers and deep fjords, but eastern inland areas have more cold-base landforms, like ice-cored moraines, and marginal meltwater channels.
 
-![](https://i.imgur.com/V0u0qJ1.png)
-**Figure 11.** The comparison of ELA and permafrost limit <d-cite key="etzelmuller.etal_2003"></d-cite>.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://i.imgur.com/V0u0qJ1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+<div class="caption">**Figure 11.** The comparison of ELA and permafrost limit <d-cite key="etzelmuller.etal_2003"></d-cite>.
+</div>
+
 
 #### 2.3.2 Erosion, debris transport
 
  The glacier buzzsaw hypothesis <d-cite key="egholm.etal_2009"></d-cite> regarded glaciers as highly effective erosion agents, which are strong enough to limit the mountain height. Bedrock erosion has *quarrying* and *abrasion* as two basic mechanisms (Figure 5). Both abrasion and quarring depend on the sliding velocity, in turn, depends on the ice thickness, the ice surface slope, the effective pressure at the bed and the subglacial hydrology. In a word, the rate of erosion is a simple function of the basal sliding speed  <d-cite key="herman.etal_2021"></d-cite>:
+
 $$
 \dot{e}=K_{g}\left| u_{s} \right|^l
 $$
 
-Where ̇e is the erosion rate, u_s is the glacier sliding velocity, K_g is a function of lithology bedrock resistance to erosion and l is an exponent. As the climate varies, the glacier mass balance changes, thereby resulting in changes in glacier length, thickness and velocity, and, in turn, the erosion rate <d-cite key="herman.etal_2021"></d-cite>.
+Where ̇e is the erosion rate, u_s is the glacier sliding velocity, K_g is a function of lithology bedrock resistance to erosion and l is an exponent. As the climate varies, the glacier mass balance changes, thereby resulting in changes in glacier length, thickness and velocity, and, in turn, the erosion rate<d-cite key="herman.etal_2021"></d-cite>.
 
 During the winter, low temperatures and low melting water reduce sliding, erosion and transport. With an increment of temperature in Spring, the subglacial water becomes pressurized and increases transport, sliding and erosion. Towards to the end of summer, channels are well defined and allow for a higher ice-bed contact, which results in cracks in the bedrock and faster failure along pre-exsiting cracks <d-cite key="herman.etal_2021"></d-cite>. 
 
-![](https://i.imgur.com/7MqJHzy.png)
-**Figure 12.** The glacier debris transport
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://i.imgur.com/7MqJHzy.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+<div class="caption">**Figure 12.** The glacier debris transport
+</div>
+
 
 Not just transporting the basal debris, the glacier also transports debris supraglacial, and englacial. The steeper mass balance gradient, the higher velocities, for instance, the marine glaciers in western Norway (Figure 12). Finally, 90% of sediments were transported into the sea. The erosion rate was estimated to be c. 20 cm/kyr based on the volumes of the offshore sediment volumes <d-cite key="olsen.etal_2013"></d-cite>. However, the erosion of onshore valleys and fjords can only explain 61% - 66 % of the offshore sink volume <d-cite key="pedersen.etal_2021"></d-cite>, which raised debates about the paleosurface and the thickness of the ice sheet.
 
 ### 2.4  How
 #### 2.4.1 Dating technique
+
 - *Radiocarbon dating*: based on the burial of organic materials.
 - Burying dating: based on the burial of sand through *optically-stimulated luminescence (OSL)* and the exposure of quartz-bearing clasts. Requires: 
 	- sufficient exposure during transportation
@@ -257,8 +331,15 @@ Schmidt hammer measurements reflect the compressive strength of a rock surface w
 
 The rebound (R) values generated by the Schmidt hammer mirror the rebound velocity of the plunger which was released on the rock surface. Higher R-values are anticipated from freshly exposed rock surfaces. In turn, low R-values are expected from rock surfaces that experienced long exposure <d-cite key="matthews.etal_2013"></d-cite>. Figure 13, R-values versus altitude, shows that R-value is proportional to altitude in the first 6 groups because the end moraine is older than 'fresh' moraine. We infer that the last two group's samples is young since it may be not from moraine but rock falls instead. 
 
-![](https://i.imgur.com/QwQeUwC.png)
-**Figure 13.** The SHD results in the foreland of glacier Storbreen. Each group contains 10 samples. The elevation profile could be found at Figure 3.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://i.imgur.com/QwQeUwC.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+<div class="caption">**Figure 13.** The SHD results in the foreland of glacier Storbreen. Each group contains 10 samples. The elevation profile could be found at Figure 3.
+</div>
+
 
 #### 2.4.2 Reconstructure modeling
 The geological evidence from the ice margin (proglacial lakes, ice-dammed lakes, end moraines, esker, meltwater channels), combined with ice flow direction(striae, eskers, drumlins, lineations) and ice-free time (erratics, boulders, bedrocks) can describe a proximate extent of the past ice masses but hardly the ice thickness. The varves from lake sediments were used to infer the pace of the deglaciation (*Swedish Time Scale*). The field evidences are used to constrain the numerical modeling of the ice sheet. 
@@ -271,30 +352,56 @@ The geological evidence from the ice margin (proglacial lakes, ice-dammed lakes,
 
 During the field trip, we visited boreholes (129 m and 20 m) at Juvvasshøe on 1 Sept and used electrical resistivity tomography (ERT) to profile the subsurface resistivity near the second boreholes (Figure 14). The widespread polygon nets in the block field denote the permafrost condition (Figure 10c).
 
-![](https://i.imgur.com/IDnpt3a.png)
-**Figure 14.** The location of ERT profile and boreholes at Juvvasshøe.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://i.imgur.com/IDnpt3a.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+<div class="caption">**Figure 14.** The location of ERT profile and boreholes at Juvvasshøe.
+</div>
+
 
 **ERT**
 
 The basis of ERT is that the different materials in the ground have different resistivity, thus electrodes set up on the profile have different current measurements. For example, saturated clay has very low resistance and frozen ground or dry blocky layers have very high resistance. 
 
 Figure 15 shows the profile from 2009 and 2019 with notable differences. The purple and reddish indicate the water content, and from yellow to blue may stand for the presence of the ground ice or just dry blocky cracks. In general, the active layer is 2 to 3 meters deep. Except (a) the ground resistance gets lower (dry), (b), (c) and (d) amply more water content in the 2019 case.
-![](https://i.imgur.com/ftMEa6o.png)
-**Figure 15.** ERT profile comparison of 2009 and 2022.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://i.imgur.com/ftMEa6o.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+<div class="caption">**Figure 15.** ERT profile comparison of 2009 and 2022.
+</div>
+
 
 **Boreholes**
 
 Juvvasshøe borehole site was installed in 1999. We used the data during the period 2008.09.01 to 2019.09.30 in the lab exercise. The mean annual air temperature (MAAT) is -3.63 °C, the mean annual ground surface temperature (MAGST) is -2.76 °C (Figure 16a), and the mean annual temperature at the top of the permafrost (TTOP) is -2.89 °C (Figure 16b). Surface offset is defined as MAGST minus MAAT, and thermal offset is defined as TTOP minus MAGST. The surface offset, 0.84 °C is not significant due to heavy wind in winter and blockfield negative anomaly. The blocky layers have stable thermal conductivity over seasons so the thermal offset is also minimal.
 
 The observations and model suggest that the permafrost exists from -2.89 m to > 350 m. The active layer thickness is not yet increase significant, but likely further go down, as a significant positive trend on the ground surface temperature. Figure 16a is not exactly correct because the linear fit was affected by the sampling effect on the edge.
-![](https://i.imgur.com/q7JFzuO.png)
-**Figure 16.** Juvvasshøe borehole records from 2008 to 2019. (a: Ground surface temperature, b: average temperature curve, c: temperature profile over time, gray is no data)
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://i.imgur.com/q7JFzuO.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+<div class="caption">**Figure 16.** Juvvasshøe borehole records from 2008 to 2019. (a: Ground surface temperature, b: average temperature curve, c: temperature profile over time, gray is no data)
+</div>
+
 
 ## 3 Deglaciation concerns
 
 There were not only approximately 40 glacial cycles in Quaternary but also numerous intra-cycle dynamics in the location and extent of basa thermal zones. So it is extremely complex to deblend the deglaciation events. The numerical models combined with the information from paleo-climate, dating, isostatics adjustment, and offshore sediments with geomorphological datasets as constraints to achieve the ice sheet dynamic history. Figure 17 is one example.
-![](https://i.imgur.com/pXvTAgj.png)
-**Figure 17.** The deglaciation patterns and chronology for the Fennoscandian Ice Sheet <d-cite key="stroeven.etal_2015"></d-cite>.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://i.imgur.com/pXvTAgj.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+<div class="caption">**Figure 17.** The deglaciation patterns and chronology for the Fennoscandian Ice Sheet <d-cite key="stroeven.etal_2015"></d-cite>.
+</div>
 
 Some details behind the deglaciation event are closely related to today's challenges. For instance, scientists are worried about the tipping point of the Antarctic Ice Sheet, the Greenland ice sheet melting, and the permafrost carbon stock. The latest reconstruction revealed the story of the collapse of the EISC<d-cite key="brendryen.etal_2020"></d-cite>.
 
@@ -312,8 +419,15 @@ Many periglacial landscapes show the imprint of previous glacial conditions<d-ci
 
 As permafrost is a thermal concept, permafrost loss can be regarded as a function of global warming <d-cite key="chadburn.etal_2017"></d-cite>, which makes the projection of permafrost easier. Figure 18 shows the modern permafrost peatland distributions are expected to shrink. Under Shared Socioeconomic Pathways (SSPs), losses of the suitable climate envelope for palsa/peat plateaus across Europe and Western Siberia by the 2060s of 75% (SSP2-4.5), 81% (SSP3-7.0) and 93% (SPP5-8.5)<d-cite key="fewster.etal_2022"></d-cite>. However, the statistical model does not account for the local variability of the ground thermal regime. Hence it cannot predict the transition lag from MAT to degradation <d-cite key="borge.etal_2017"></d-cite>.
 
-![](https://i.imgur.com/Z0hoH1K.png)
-**Figure 18.** Permafrost peat carbon approaching a climatic tipping point  <d-cite key="fewster.etal_2022"></d-cite>.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://i.imgur.com/Z0hoH1K.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+<div class="caption">**Figure 18.** Permafrost peat carbon approaching a climatic tipping point  <d-cite key="fewster.etal_2022"></d-cite>.
+</div>
+
 
 ## 4 Debates
 
@@ -358,8 +472,14 @@ Evidence and criticism:
 
 This field trip and the related lab exercise give a good description of the process from glacial-to-periglacial environments. The connection between the geomorphology process and nowadays society's concerns are addressed in the introduction. Then, this report reviewed the common definitions, concepts and methodologies in geomorphology and glacial & periglacial environments.
 
-![](https://i.imgur.com/rzYp7VD.jpg)
-**Figure 19.** The overview map of the field trip
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="https://i.imgur.com/rzYp7VD.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+	</div>
+</div>
+<div class="caption">**Figure 19.** The overview map of the field trip
+</div>
+
 
  The necessary literatures are cited to explain the materials from the field trip. However, except for old debates about ice sheet thickness and/or the paleic surface or the sediment budgets mismatch, there still are several questions that are not clear enough:
  - Quaternary deposition patterns <d-cite key="olsen.etal_2013"></d-cite>. Why exactly the southeastern area close to or under the ice divide has thick Quaternary deposits? How did the boundary between the scouring areas and the deposit areas form?

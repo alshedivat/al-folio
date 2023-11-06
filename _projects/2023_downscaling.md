@@ -142,7 +142,7 @@ The evaluation will follow the steps: (1) comparing the changing signals from CM
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://i.imgur.com/e4o8JoM.jpg" style="max-width:80%;" %}
+        {% include figure.html path="https://i.imgur.com/e4o8JoM.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -187,7 +187,7 @@ The windspeed project of CMCC-CM2 and CMCC-ESM2 exhibit inconsistencies when com
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-    <img src="https://i.imgur.com/GB39Q0T.jpg" style="max-width:100%;" alt="Comparison of downscaled windspeeds at coordinates 011° E and 60° N using QDM and EDCDFm methods from 2050 to 2060 (a) Oslo, Norway (b) Bergen, Norway. The reference dataset for downscaling is ERA5 (1999-2014)">
+    {% include figure.html path="https://i.imgur.com/GB39Q0T.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="caption"> Comparison of downscaled windspeeds at coordinates 011° E and 60° N using QDM and EDCDFm methods from 2050 to 2060 (a) Oslo, Norway (b) Bergen, Norway. The reference dataset for downscaling is ERA5 (1999-2014)
@@ -201,7 +201,7 @@ The validation results for the year 2014 using three different timespans indicat
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-	<img src="https://i.imgur.com/p4h0m7y.jpg" style="width:85.0%" alt="Downscale windspeed from ERA5 Coarsen and CMCC-CM2 and validation by ERA5. (a) mean windspeed 2014.01.01 to 2014.01.30 (b) mean windspeed 2014.01.01-2014.03.30 (c) mean windspeed 2014.01.01-2014.12.31. The training dataset is ERA5 between 1999 and 2013.">
+    {% include figure.html path="https://i.imgur.com/p4h0m7y.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 	</div>
 </div>
 <div class="caption"> Downscale windspeed from ERA5 Coarsen and CMCC-CM2 and validation by ERA5. (a) mean windspeed 2014.01.01 to 2014.01.30 (b) mean windspeed 2014.01.01-2014.03.30 (c) mean windspeed 2014.01.01-2014.12.31. The training dataset is ERA5 between 1999 and 2013.
