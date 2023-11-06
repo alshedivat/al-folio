@@ -12,10 +12,11 @@ profile:
     <p> Scientific programming 🎯 Digging the truth behind the geodata.</p>
 
 news: true # includes a list of news items
+latest_posts: false # recent blog
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
 projects: true # includes projects
 display_categories: [work, fun] # Projects show in about page
+social: false  # includes social icons at the bottom of the page
 ---
 
 Throughout my career, I've had the privilege of collaborating with geologists, geophysicists, geomorphologists, hydrologists, glaciologist and other specialists, delving into the intricate world of geodata science; Even though I am still none of them right now 🤷‍♂️. 

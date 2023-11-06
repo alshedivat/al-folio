@@ -61,7 +61,7 @@ layout: default
 
           <!-- Selected project -->
           {% if page.projects -%}
-          <h2>projects </h2>
+          <h2><a href="{{ '/projects/' | relative_url }}" style="color: inherit;">projects</a></h2>
           <div class="projects">
             {%- if site.enable_project_categories and page.display_categories %}
               <!-- Display categorized projects -->
