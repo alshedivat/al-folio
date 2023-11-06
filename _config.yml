@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Akshita Bhagia # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Akshita
 middle_name: 
 last_name: Bhagia
@@ -45,6 +45,8 @@ repo_trophies:
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
 rss_icon: true
+feed:
+  title: Akshita Bhagia
 
 # -----------------------------------------------------------------------------
 # Layout
