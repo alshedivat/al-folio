@@ -48,7 +48,6 @@ on the [segmentation](/projects/foot_process_seg/){:target="_blank"} of kidney s
 I have written a few [essays](/writing/philosophy){:target="_blank"} in philosophy, [two](/writing/mdldna){:target="_blank"} [books](/writing/mdl4td){:target="_blank"} on deep learning, a little bit of [fiction](/writing/fiction){:target="_blank"}, and many [data science articles](https://andre-ye.medium.com/){:target="_blank"}. 
 
 Outside of academics, I enjoy listening to [lectures](https://www.youtube.com/watch?v=06KiOj6gjbs){:target="_blank"} by Slavoj Zizek (my favorite undead philosopher), playing piano, learning Russian (and French... someday).
-I'm always up for a chat, so feel free to reach out.
 
 <center>
 <img src="\assets\img\ghost-portraits.png" width="100%" />

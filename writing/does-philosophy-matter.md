@@ -7,9 +7,9 @@ nav: false
 ---
 
 
-*Letter to the editor, The Daily*
+*Letter to the editor, The Daily*. A perpetual work-in-progress.
 
-When I asked my cousin (who is ten) what he thought of the existence of the number zero, he responded bluntly (to my chagrin): “philosophy is stupid, no one agrees and nothing happens.” Although dressed in more docile clothing, this is fundamentally the same objection that I get often from my peers and philosophy faculty from their students (“oh, you study philosophy… why? What’s the point exactly?”). 
+When I asked my ten-year-old cousin what he thought of the existence of the number zero, he responded bluntly (to my chagrin): “philosophy is stupid, no one agrees and nothing happens.” Although dressed in more docile clothing, this is fundamentally the same objection that I get often from my peers and philosophy faculty from their students (“oh, you study philosophy… why? What’s the point exactly?”). 
 
 I admit that it is a question I myself struggle to grapple with.
 
@@ -28,6 +28,7 @@ We all behave as if we have answers to philosophical questions – questions whi
 ### Philosophy: Who Needs It? Ayn Rand
 
 My modified version. Delivered at West Point New York, March 6, 1974.
+Note: I in no way endorse Ayn Rand's philosophical and political system. But I think her writing here is lucid, clear, and effective.
 
 <center>
     <img src="https://images.unsplash.com/photo-1494022299300-899b96e49893?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" width="100%" />
