@@ -12,7 +12,7 @@ nav_order: 20
 A weekly meeting for anyone who wants to learn about and apply Data Science for real-world problem settings in a casual environment!
 
 <div style="background-color:orange; color: black; padding: 1em">
-    <strong>Next meeting</strong>: Monday, 06.11.2023, <strong>19:00 Uhr</strong> (notice the changed time (again)!), Konrad-Zuse-Haus, Room 116 (please watch for room changes). <strong>Bring your laptops!</strong>
+    <strong>Next meeting</strong>: Monday, 13.11.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. <strong>Bring your laptops!</strong>
     Please <a href="https://docs.google.com/forms/d/e/1FAIpQLSfl6HbEX4FjS4U_16XDFxszbY0mImSRmQzLRquIjJME8I8B7g/viewform?usp=sf_link"><b>sign up here</b></a>, so I can plan a little.
 </div>
 
@@ -33,6 +33,11 @@ A weekly meeting for anyone who wants to learn about and apply Data Science for 
 - [Kaggle](https://www.kaggle.com/)
 
 ## History
+
+WS23/24
+- 2023-11-06: First Meeting in WS23/24! Welcomed the new members and started to work on the [Ovarian Cancer Subtype Classification Challenge](https://www.kaggle.com/competitions/UBC-OCEAN).
+
+SS23
 - **30th meeting**: Monday, 03.07.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Training first contrail model.
 - **29th meeting**: Monday, 26.06.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Debugging the contrail models.
 - **28th meeting**: Monday, 19.06.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Debugging the contrail models, trying out pytorch.
@@ -44,6 +49,8 @@ A weekly meeting for anyone who wants to learn about and apply Data Science for 
 - **22nd meeting**: Monday, 24.04.2023, 18:00 Uhr, Konrad-Zuse-Haus, Room 116. Training models for BirdCLEF.
 - **21st meeting**: Monday, 17.04.2023, 18:00 Uhr, Konrad-Zuse-Haus, Room 116. Fixing issues with jupyter lab.
 - **20th meeting**: Monday, 03.04.2023, 18:00 Uhr, Konrad-Zuse-Haus, Room 116. Debugging GPU issues, setting up docker images, implementing preprocessing for BirdCLEF.
+
+WS22/23
 - **19th meeting**: Monday, 27.03.2023, 18:00 Uhr, Konrad-Zuse-Haus, Room 116. Training first models for BirdCLEF, debugging jupyter lab issues on GPU cluster.
 - **18th meeting**: Monday, 20.03.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Decided on new challenge [BirdCLEF](https://www.kaggle.com/competitions/birdclef-2023).
 - **17th meeting**: Monday, 13.03.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. Deciding on a new kaggle challenge.
