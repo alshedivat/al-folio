@@ -7,7 +7,7 @@ importance: 40
 category: research
 ---
 
-| Work performed at the Allen School -- from February 2023 to the present. Mentored by Sebastin Santy. PIs: Ranjay Krishna, Amy Zhang. |
+| Work performed at the Allen School -- from February 2023 to October 2023. Mentored by Sebastin Santy. PIs: Ranjay Krishna, Amy Zhang. |
 
 <br>
 
