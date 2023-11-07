@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Digital Madeleines and Breadcrumbs: Discovering the Musical Past through Multimodal Analyses
+title: Digital Madeleines and Breadcrumbs, Discovering the Musical Past through Multimodal Analyses
 date: 2015-06-24
 description:
 permalink: /digital-madeleines-and-breadcrumbs-discovering-the-musical-past-through-multimodal-analyses/
