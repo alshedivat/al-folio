@@ -7,7 +7,9 @@ importance: 50
 category: research
 ---
 
-| Work performed at the Social Futures Lab, Allen School -- from February 2022 to January 2023. Mentored by Jim Chen. PI: Amy Zhang. Presented work at the 2023 26th Undergraduate Research Symposium, the Allen CS Research Showcase. Accepted to HCOMP '23. |
+| Work performed at the Social Futures Lab, Allen School -- from February 2022 to January 2023. Mentored by Quan Ze (Jim) Chen. PI: Amy Zhang. Presented work at the 2023 26th Undergraduate Research Symposium, the Allen CS Research Showcase, HCOMP 2023. In HCOMP '23 proceedings. |
+
+|🏆 Honorable mention, best paper award @ HCOMP '23 |
 
 <br>
 
