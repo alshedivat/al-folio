@@ -3,18 +3,20 @@ layout: page
 title: Using 5.8 million to buy a unit in Oslo, which one is worth?
 description: Housing Price MCDA Model - a perspective from spatial contributions
 img: assets/img/post/MCA/gis6_price.jpg
+
 importance: 4
 year: 2022
 category: fun
 ---
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-s mt-3 mt-md-0"
         {% include figure.html path="assets/img/post/MCA/gis6_price.jpg" title="oslo_finn_unit_price" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    The on-sale units of Oslo from Finn in Feb 2022. N = 950, Mean = 7.56M kr, Median = 5.77M kr. Which one is a good choice? it's up to your own preferences!
+    The on-sale units of Oslo from Finn in Feb 2022.
+ N = 950, Mean = 7.56M kr, Median = 5.77M kr. Which one is a good choice? it's up to your own preferences!
 </div>
 
 There are so many factors contributing on house price. At the same location, the price varies by building’s attributes, e.g., the cost of construction, design, decoration, furnishings. If a pair of twin buildings exist, which are at different locations, the surrounding environment will decide price. In this report, we defined surroundings as `spatial contributions`, or `spatial score`.
