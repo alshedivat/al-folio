@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Being Registered Licensed Surveyor of P.R.C
+Being a Registered Licensed Surveyor of P.R.C

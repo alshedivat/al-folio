@@ -23,7 +23,7 @@ The first step to compare different elevation products is co-registration. Here,
 
 #### The performance of co-registration
 
-After co‑registration, the percentage of points with a deviation less than 0.5 m from ICESat‑2 snow‑free segments is calculated to be 48.9%, 49.13%, 23.7%, and 27.2% for DTM1, DTM10, GLO30, and FABDEM respectively. In terms of NMAD (Normalized Median Absolute Deviation), for example, the improvement for DTM10 is from 0.99m to 0.77m. If we attribute the residual bias partially to ICESat-2, we can use the subset_te_flag to exclude bad segments. This will result in better metrics for the co-registered DEM (Table 4.2 in my thesis).
+After co‑registration, the percentage of points with a deviation less than 0.5 m from ICESat‑2 snow‑free segments is calculated to be 48.9%, 49.13%, 23.7%, and 27.2% for DTM1, DTM10, GLO30, and FABDEM respectively. In terms of NMAD (Normalized Median Absolute Deviation), for example, the improvement for DTM10 is from 0.99 m to 0.77 m (NMAD). If we attribute the residual bias partially to ICESat-2, we can use the subset_te_flag to exclude bad segments. This will result in better metrics for the co-registered DEM (Table 4.2 in my thesis).
 
 
 <div class="row">
@@ -49,9 +49,10 @@ $$dh = ICESat-2_{snow-free} - DEM $$
 From the figure 1, we can clearly see the aspect-dependent error, the fingerprint of the geo-referencing mismatch, is removed through co-registration, as indicated by the median value (Q50) being located close to zero for all bins (a). Although ATL08 (version 5) has contained geolocation errors since 2021.12 (which have been fixed in version 6), the overall amount of data from that period is not significant to produced wrong co-registration. Additionally, gradient descent co-registration has a certain ability to suppress noise.
 
 The figure also shows significant residual bias after co-registration. The dh has a nearly linear relationship with slope and curvature (b, c). This bias requires further correction.
+
 ### The difference after bias correction
 
-After the bias correction, the comparison between DTM1 and DTM10 indicates that they both achieved a high level of accuracy on low slope categories, with less than 1 m and 0.5 m NMAD in 65% and 35% of cases, respectively. In contrast, the worst results are observed in the top 5% of *slope* quantiles and the least 5% of *n_photons* quantiles, which resulted in an NMAD of 2.4 m and 1.8 m, respectively. The bias correction applied to GLO30 produced better results than for FAB, with approximately 40% of measurements showing an NMAD of less than 1 m on the low slopes category (Figure 4.3 in my thesis). These improvements demonstrate the effectiveness of our approach in eliminating biases.
+After the bias correction, the comparison between DTM1 and DTM10 indicates that they both achieved a high level of accuracy on low slope categories, with less than 1 m and 0.5 m NMAD in 65% and 35% of cases, respectively. In contrast, the worst results are observed in the top 5% of *slope* quantiles and the least 5% of *n_photons* quantiles, which resulted in an NMAD of 2.4 m and 1.8 m, respectively. The bias correction applied to GLO30 produced better results than for FAB, with approximately 40% of measurements showing an NMAD of less than 1 m on the low slopes category (Figure 4.3 in my thesis). These improvements demonstrate the effectiveness of our bias correction in eliminating bias.
 
 
 
@@ -69,6 +70,8 @@ After the bias correction, the comparison between DTM1 and DTM10 indicates that 
 Figure 2 show the overall $dh$ distributions, which exhibit a negative skewness with long tails on the left side. Prior to bias correction, GLO30 had a median of -1.30 m, while FAB, which is a version of GLO30 with vegetation and building removed, exhibited less skewness. Although DTM1 and DTM10 had similar shapes, their 25% quantiles (Q1) suggested the presence of systematic biases. After implementing the bias correction, there was a noticeable enhancement in the overall symmetry observed across all four scenarios. This was supported by the fact that Q1 moved nearer to the median, while Q3 remained relatively stable. Ultimately, there is an overall NMAD of 0.56 m and 0.57 m for DTM10 and DTM1, respectively. GLO30 and FAB had higher NMAD of 0.98 m and 1.08 m. It is evident that bias correction led to a significant improvement in the accuracy of the results.
 
 One meter of NMAD -- This might be the highest precision that could be achieved for Copernicus GLO30 and FAB. On the other hand, we noticed negative skewness exhibited on all DEMs for unknown reason.
+
+
 #### Negative skewness of ICESat-2
 
 The negative values have a spatial distribution pattern, which is widely spread on convex terrain. The figure below plots nine curvature combinations categorized by profile curvature and plan curvature. The aggregated mean value of elevation differences reveals that convex ridged terrain (positive plan curvature and negative profile curvature) typically exhibits negative skewness (a,g). A concave bowl-shaped terrain with negative profile curvature does not have much negative skewness, even at high slopes (b), thereby indicating that the observed linear relationship between bias and slope is mainly contributed to by plan curvature.
@@ -93,7 +96,7 @@ One concern is what the real resolution of the ICESat-2 ATL08 product is. Which 
 - h_te_mean: The real mean elevation of the segment. I have tried aggregating DTM1 by a certain window size and comparing the aggregated mean elevation with h_te_mean. However, there is no fixed window that is equivalent to the footprint of a segment (not 100 m or any other fixed value). The photons may not be evenly spread over either a 100 m long segment window or any other size.
 - h_te_interp: h_te_interp is an interpolated value, which is generally worse than h_te_best_fit in many cases.
 - h_te_best_fit: Good to use; however, when the geosegment has missing, it is very important to use subset_te_flag to exclude bad measurements. When five geosegments are available, the quality significantly improves.
-- h_te_best_fit_20m_2: The best fit elevation at the midpoint of the segment.
+- h_te_best_fit_20m_2: The best fit elevation at the midpoint of the segment. In my latest paper, the Copernicus GLO30 can be corrected to NMAD 0.74 m, STD 1.63 m.
 
 In the beginning, I used h_te_best_fit; however, when the midpoint is not available, this value becomes an interpolated value (not sure if it equals h_te_interp). And this 'interpolated value' contains bias (generally tending to underestimate surface height). Therefore, using h_te_best_fit_20m_2 as the elevation of the midpoint of a segment eliminates any worry about interpolated values.
 
