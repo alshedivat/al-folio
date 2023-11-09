@@ -1,0 +1,67 @@
+- name: Yohai Bar-Sinai
+  photo: Yohai.jpg
+  title: Principal investigator
+  email: ybarsinai@gmail.com
+  education: ["PhD, Weizmann Institute of science, 2016",
+              "Master, UPMC, Paris, 2010",
+              "BA, Physics+Math, Hebrew University, 2008"]
+  info: >
+    I mostly hang around the other people making sure they're not too productive.
+
+  
+- name: Théo Jules
+  title: Postdoctoral fellow
+  photo: Theo.jpg
+  email: theo.jules.physics@gmail.com
+  education: ["PhD, Ecole Normale Superiéure, Paris, 2020"]
+  alumni: true
+  years: 2020-2022
+  info: >
+    Théo is working on understanding the dynamics of deep neural 
+    network training using tools from statistical physics (Langevin dynamics, etc.)
+
+- name: Neri Berman
+  title: PhD student
+  photo: Neri.jpg
+  email: neriberman@gmail.com
+  info: >
+    Neri is studying earthquake statistics with physics-inspired ML. This is a collaboration with 
+    the Google TLV Research team.
+
+- name: Amit Federbush
+  title: Master student
+  photo: amit.jpg
+  email: afederbush@gmail.com
+  alumni: true
+  years: 2020-2023
+  info: >
+    Amit is looking at the random dynamics of interacting colloidal particles
+    to see what we can learn about their interactions from their kinematics. 
+    This work is in collaboration with [Roy Beck's lab](https://www.becklab.sites.tau.ac.il/).
+
+- name: Shachaf Rotem
+  photo: shachaf.png
+  title: Master student
+  email: shachafrotem@mail.tau.ac.il
+  info: >
+   Shachaf is looking at a geometrical description of soft mechanical meta-materials. 
+   He's using  [our recently developed formalism](https://doi.org/10.1073/pnas.1920237117), 
+   to study disordered metamaterials and understand emergent phenomena such as the collapse
+   dynamics, localization properties and more.
+
+- name: Yamin Ben-Shimon
+  photo: yamin.jpg
+  title: Master student
+  info: >
+   Yamin is working on incorporating our [Neural-based method for calculating entropy](https://doi.org/10.1073/pnas.2017042117) 
+   into molecular dynamics simulations. The aim is to use neurally-estimated entropy as a collective variable in MD simulations
+   that would allow effective sampling of entropically stabilized phases. Yamin is co-advised by [Dr. Barak Hirshberg](https://hirshberg-group.webflow.io/) from the school of Chemistry.
+
+
+- name: "This could be you !"
+  title: "Drop me a line if you want to join:"
+  email: ybarsinai@gmail.com
+  photo: Graduation_hat.svg
+  info: >
+   Disclaimer: we don't have many openings at this time, but suitable candidates 
+   will be considered.
