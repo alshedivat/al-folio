@@ -4,12 +4,12 @@ title: שרשורי מדע בטוויטר
 permalink: /twitter/
 description: 
 nav: false
-display_categories: []
 horizontal: false
 _styles: "li,h1,.jekyll-twitter-plugin{direction: rtl; text-align:right}"
+published: false
 ---
 
-- למה השמיים כחולים? 
+- למה השמיים כחולים?  
 {% twitter https://twitter.com/yohaibs/status/1023056340946747393 %}
 - איך סלינקי נופל?
 {% twitter https://twitter.com/yohaibs/status/1065439373506867201 %}
