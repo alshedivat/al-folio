@@ -11,7 +11,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p align="right">Enschede, The Netherlands</p>
+    <p align="right">Enschede, Netherlands</p>
    # <p align="right"></p>
 
 news: true  # includes a list of news items
@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <b> ...a little about me</b> <br>
-I am a master student of [Complex Adaptive Systems](https://www.chalmers.se/en/education/programmes/masters-info/Pages/Complex-Adaptive-Systems.aspx) at Chalmers University of Technology, Sweden. From summer 2023, I am an Erasmus+ exchange student to the [Physics of Fluids group](https://pof.tnw.utwente.nl/) at the University of Twente, The Netherlands for my master's thesis work. I received my Bachelor degree in
+I am a master student of [Complex Adaptive Systems](https://www.chalmers.se/en/education/programmes/masters-info/Pages/Complex-Adaptive-Systems.aspx) at Chalmers University of Technology, Sweden. From summer 2023, I am an Erasmus+ exchange student to the [Physics of Fluids group](https://pof.tnw.utwente.nl/) at the University of Twente, Netherlands for my master's thesis work. I received my Bachelor degree in
 [](https://engsci.utoronto.ca/program/what-is-engsci/)[Engineering Science](https://youtu.be/BcPO4yhWSUg), major in Engineering Physics at the University of Toronto, Canada. 
 
 I am primarily interested in statistical physics and dynamical systems approaches to fluid mechanics and turbulence, geophysical fluid dynamics, computational physics, numerical methods, and their applications in oceanography and atmospheric science, as well as all the other fields in physics and mathematics. Here is my [CV](/assets/pdf/RundongZhou_CV.pdf).
