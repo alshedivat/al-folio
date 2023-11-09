@@ -15,8 +15,6 @@ footer_text: >
 keywords: # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-
 
 icon: 🌳 # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
@@ -70,7 +68,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: ybs-lab # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: yohaibs # your Twitter handle
+twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # your LinkedIn user name
 telegram_username: # your Telegram user name
