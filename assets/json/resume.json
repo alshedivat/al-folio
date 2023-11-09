@@ -41,18 +41,36 @@
       "institution": "S.R.M. Institute of Science and Technologies",
       "url": "https://www.srmist.edu.in/",
       "area": "Software Engineering",
-      "studyType": "B. Tech",
+      "studyType": "Bachelor of Technology",
       "startDate": "2022-08-01",
       "endDate": "2026-05-01",
-      "score": "",
+      "score": "8.91 CGPA",
       "courses": [
+        "8.91 CGPA",
         "Cyber Security"
+      ]
+    },
+    {
+      "institution": "Unity Public School",
+      "url": "https://www.unitypublicschool.com/",
+      "area": "General School",
+      "studyType": "Higher Secondary Certificate (HSC)",
+      "startDate": "2010-06-01",
+      "endDate": "2022-05-01",
+      "score": "88 Percentile",
+      "courses": [
+        "88.57 Percentile",
+        "Asian Level BS"
       ]
     }
   ],
   "certificates": [],
   "publications": [],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Hackerrank"
+    }
+  ],
   "languages": [
     {
       "language": "Tamil",
