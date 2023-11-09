@@ -6,6 +6,10 @@ layout: page
       <div class="post">
 
         <article>
+            <div class="clearfix">
+                <img style="max-width: 100%" src="/assets/img/group_icecream.png">
+            </div>
+
             {% for profile in site.data.team_members %}
                 {%- unless profile.alumni %}
                     <hr>
@@ -42,7 +46,11 @@ layout: page
                     </div>
                 {%- endunless %}  
             {% endfor %}
-            <hr/><hr/>
+            <hr/>
+            <div class="clearfix">
+                <img style="max-width: 100%" src="/assets/img/group_spring.jpg">
+            </div>
+            <hr/>
           <h2> Alumni </h2>
           <ul>
               {% for profile in site.data.team_members %}
