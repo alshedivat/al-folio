@@ -1,12 +1,8 @@
 Personal site of Rômulo Drumond.
 
-# Set up
+Set up: Use devcontainer.
 
-Use devcontainer.
-
-# Serving
-
-Run:
+Serving: 
 ```bash
 make serve
 ```
