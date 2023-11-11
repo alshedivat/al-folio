@@ -243,8 +243,8 @@ It was more than required but I test it and result did not changed significantly
 
 Due to some problem, I had to defense sooner than I expected, its okay but I must change my plan and work on CNN out of thesis scope, so I decided to do it and write my scientific paper based on that.
 
-{% include figure.html path="https://lh3.googleusercontent.com/pw/ADCreHdSCuufXD0AuNCoOKDRCm0zHF4ndoh2rEDKUWUY8q6KItevaR7rSvJfJ6lYFjvLKtF6PurMCunojGlxJ9Y9JEop4T5ciOrNsrkiS9cuYO0BJZJ4nds=w2000" class="img-fluid rounded z-depth-1" zoomable=true %}
-{% include figure.html path="https://lh3.googleusercontent.com/pw/ADCreHfY_85OhOaqzaLDbZcWnCQS_jT269hokGSc9Eu6zgyleBJygnVfg_IDxTQ33Si2UTmRjah3fj_vhaRfhttI2a3Qxq5P57-JUej95QCJZfazIND-XPM=w2000" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.html path="https://lh3.googleusercontent.com/pw/ADCreHdSCuufXD0AuNCoOKDRCm0zHF4ndoh2rEDKUWUY8q6KItevaR7rSvJfJ6lYFjvLKtF6PurMCunojGlxJ9Y9JEop4T5ciOrNsrkiS9cuYO0BJZJ4nds=w1600" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.html path="https://lh3.googleusercontent.com/pw/ADCreHfY_85OhOaqzaLDbZcWnCQS_jT269hokGSc9Eu6zgyleBJygnVfg_IDxTQ33Si2UTmRjah3fj_vhaRfhttI2a3Qxq5P57-JUej95QCJZfazIND-XPM=w1600" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 
 ### Get ready for CNN
