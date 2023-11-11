@@ -197,7 +197,7 @@ In this scenario, model tuning was not so effective and final results was as bel
 #### Conclusion on above models
 
 
-These models have a large range of $R^2$ and based other tests, they showed very different results, by that I can conclude that generalization is not enough.
+These models have a large range of $$R^2$$ and based other tests, they showed very different results, by that I can conclude that generalization is not enough.
 
 
 ### Multilayer Perceptron
