@@ -66,8 +66,9 @@
         <h1>{{ page.title }}</h1>
         <p>{{ page.description }}</p>
       </d-title>
-
+      {%- if page.authors -%}
       <d-byline></d-byline>
+      {%- endif -%}
 
       <d-article>
         {% if page.toc -%}
@@ -96,14 +97,22 @@
         <d-citation-list></d-citation-list>
       </d-appendix>
 
+      <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
+
+      {%- if site.disqus_shortname and page.disqus_comments -%}
+        {% include disqus.html %}
+      {%- endif %}
+      {%- if site.giscus.repo and page.giscus_comments -%}
+        {% include giscus.html %}
+      {%- endif -%}
+
     </div>
 
     <!-- Footer -->
     {%- include footer.html %}
 
-    <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
-    
     {% include scripts/bootstrap.html %}
     {% include scripts/analytics.html %}
+    {% include scripts/progressBar.html %}
   </body>
 </html>
