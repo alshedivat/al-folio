@@ -108,7 +108,7 @@ contact_note:
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics:  UA-121324230-1 # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics:  G-PNHT9WZWYJ # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
