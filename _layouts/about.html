@@ -40,12 +40,6 @@ layout: default
           <div class="clearfix">
             {{ content }}
           </div>
-
-          <!-- News -->
-          {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
-            {%- include news.html limit=true %}
-          {%- endif %}
           
           <!-- Latest posts -->
           {% if page.latest_posts -%}
@@ -112,6 +106,13 @@ layout: default
           {%- endif %}
           
           {%- if page.social %}
+
+          <!-- News -->
+            {% if page.news and site.announcements.enabled -%}
+              <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+              {%- include news.html limit=true %}
+          {%- endif %}
+
           <!-- Social -->
           <div class="social">
             <div class="contact-icons">
