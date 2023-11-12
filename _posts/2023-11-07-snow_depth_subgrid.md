@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Retrieved snow depth for Mainland Norway (2018.10-2022.10) based on ICESat-2 ATL08 and DEMs
+title: Retrieved snow depth in Mainland Norway (2018.10-2022.10) based on ICESat-2 ATL08 and DEMs
 author: Zhihao
 description: A tabular dataset ready for machine learning applications
 date: 2023-11-03
@@ -11,7 +11,6 @@ bibliography: lib.bib
 lang: eng
 publish: yes
 ---
-
 
 On Zenodo, I have uploaded a dataset (DOI: 10.5281/zenodo.10048875) containing snow depth measurements retrieved from ICESat-2. In my previous work, I described the process as follows:
 
