@@ -93,12 +93,13 @@ Naturally, there is overestimation over concave, but underestimation of convex d
 #### Using h_te_mean, h_te_best_fit or h_te_best_fit_geosegments?
 
 One concern is what the real resolution of the ICESat-2 ATL08 product is. Which elevation should I use? The real resolution of the ICESat-2 ATL08 product is not 100 meters. 100 m of segment is just how the dataset is structured, considering easy delivery of the canopy information in segments. There are several elevations provided by ATL08:
+
 - h_te_mean: The real mean elevation of the segment. I have tried aggregating DTM1 by a certain window size and comparing the aggregated mean elevation with h_te_mean. However, there is no fixed window that is equivalent to the footprint of a segment (not 100 m or any other fixed value). The photons may not be evenly spread over either a 100 m long segment window or any other size.
 - h_te_interp: h_te_interp is an interpolated value, which is generally worse than h_te_best_fit in many cases.
 - h_te_best_fit: Good to use; however, when the geosegment has missing, it is very important to use subset_te_flag to exclude bad measurements. When five geosegments are available, the quality significantly improves.
-- h_te_best_fit_20m_2: The best fit elevation at the midpoint of the segment. In my latest paper, the Copernicus GLO30 can be corrected to NMAD 0.74 m, STD 1.63 m.
+- h_te_best_fit_20m_2: The best fit elevation at the midpoint of the segment. In my latest paper, the Copernicus GLO30 can be corrected to NMAD 0.74 m, STD 1.63 m and DTM1/10 has NMAD 0.40.
 
-In the beginning, I used h_te_best_fit; however, when the midpoint is not available, this value becomes an interpolated value (not sure if it equals h_te_interp). And this 'interpolated value' contains bias (generally tending to underestimate surface height). Therefore, using h_te_best_fit_20m_2 as the elevation of the midpoint of a segment eliminates any worry about interpolated values.
+In the beginning, I used h_te_best_fit; however, when the midpoint is not available, this value becomes an interpolated value (not sure if it equals h_te_interp). And this 'interpolated value' contains bias (generally tending to underestimate surface height). Therefore, using h_te_best_fit_20m_2 as the elevation of the midpoint of a segment eliminates any worry about interpolated values. I do only suggest use h_te_best_fit by set sebset_te_flag == 5, and you will get statistically same results with h_te_best_fit_20m_2.
 
 ### DEM bias correction model based on ICESat-2 snow-off measurements
 

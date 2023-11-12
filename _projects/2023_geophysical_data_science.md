@@ -18,7 +18,8 @@ The course begins with a solid foundation in core statistical concepts, includin
 
 ## Exercises
 
-The best way to learn is by doing. To excel in programming and data analysis, it's crucial to practice in our data lab, engage with real-world data, and not shy away from challenging problems. Here are a few tips to get started: break down complex problems into manageable parts, embrace trial and error, and collaborate with peers for diverse perspectives. Each week, practical exercises available on our GitHub repository will reinforce lecture topics and hone your data science skills. These assignments are designed to be challenging yet rewarding, fostering a deep understanding and hands-on experience with geophysical data sets.
+The best way to learn is by doing. To excel in programming and data analysis, it's crucial to practice in our data lab, engage with real-world data, and not shy away from challenging problems. Here are a few tips to get started: break down complex problems into manageable parts, embrace trial and error, and collaborate in lab for diverse perspectives. Each week, practical exercises available on our [GitHub repository](https://github.com/liuh886/GEO4300_2023/) will reinforce lecture topics and hone your data science skills. These assignments are designed to be challenging yet rewarding, fostering a deep understanding and hands-on experience with geophysical data sets.
+
 
 ## Course Project
 
