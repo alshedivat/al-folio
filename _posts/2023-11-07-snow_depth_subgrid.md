@@ -50,7 +50,7 @@ I am excited to soon unveil an application based on this dataset, focusing on ex
     {% include figure.html path="https://i.imgur.com/KnfLKt1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-<div class="caption"> Flowchart illustrating the process of extracting snow depth from satellite altimetry data. The snow depth is derived using an elevation differencing workflow. Subsequently, a tree-structure-based regression model is trained and applied to predict local variability of snow depth at any location and time. Satellite ICESat-2 graphics source: NASA.gov.
+<div class="caption"> Flowchart illustrating the process of extracting snow depth from satellite altimetry data. The snow depth is derived using an elevation differencing workflow. Subsequently, a tree-structure-based regression model is trained and applied to predict local variability of snow depth at any location and time. Satellite ICESat-2 graphics source: NASA.gov. (Zhihao, in preparation).
 </div>
 
 
