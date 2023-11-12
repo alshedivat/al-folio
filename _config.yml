@@ -132,7 +132,7 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
 giscus:
-  repo:                          # <your-github-user-name>/<your-github-repo-name>
+  repo: mcopik/mcopik.github.io                          # <your-github-user-name>/<your-github-repo-name>
   category: Comments             # name of the category under which discussions will be created
   mapping: title                 # identify discussions by post title
   strict: 1                      # use strict identification mode
@@ -143,7 +143,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: mcopik # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
