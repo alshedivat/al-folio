@@ -74,7 +74,7 @@ github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: junzhe-alan-zhou
+linkedin_username: # junzhe-alan-zhou
 telegram_username: # your Telegram user name
 scholar_userid: POqxccAAAAJ
 semanticscholar_id: # your Semantic Scholar ID
@@ -104,9 +104,9 @@ facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
-
+inspirehep_id: 1978707 # your inspire id
 contact_note: >
-  Send me email using the button above! or @ junzhez@andrew.cmu.edu !
+  Send me email using the button above or at junzhez@andrew.cmu.edu !
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
