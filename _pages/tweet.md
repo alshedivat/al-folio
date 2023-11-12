@@ -6,7 +6,7 @@ description:
 nav: false
 horizontal: false
 _styles: "li,h1,.jekyll-twitter-plugin{direction: rtl; text-align:right}"
-published: false
+published: true
 ---
 
 - למה השמיים כחולים?  
