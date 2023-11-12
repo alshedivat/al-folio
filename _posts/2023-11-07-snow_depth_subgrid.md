@@ -16,7 +16,7 @@ On Zenodo, I have uploaded a dataset (DOI: 10.5281/zenodo.10048875) containing s
 
 $$dh = ICESat2_{snow-free} - DEM $$
 
-This formula represents the discrepancy between ICESat-2 and DEMs. To obtain precise snow depth measurements, the primary effort involves minimizing skewness and noise, as detailed in my previous post. Consequencely, we determine snow depth, as available in the Zenodo dataset:
+This formula represents the discrepancy between ICESat-2 and DEMs. To obtain precise snow depth measurements, the primary effort involves minimizing skewness and noise of $$dh$$, as detailed in my previous post. Consequencely, we derived snow depth from well-corrected DEMs, as available in the Zenodo dataset:
 
 $$snow depth = ICESat2_{snow-on} - DEM_{corrected} $$
 
@@ -29,11 +29,11 @@ This dataset is a test run on snow depth retrival workflow based on ICESat-2 (pu
 
 ### Limitations
 
-- Sparse Sampling: The sparse nature of the [sampling](https://icesat-2.gsfc.nasa.gov/science/specs) makes it challenging to produce a completed snow depth map. In a year cycle, there are 4 time repeart orbit with revisited tracks in 7.2 km and 14.4km away in different season.
+- Sparse Sampling: The sparse nature of the [sampling](https://icesat-2.gsfc.nasa.gov/science/specs) makes it challenging to produce a completed snow depth map. In a year cycle, there are 4 time repeart orbit with revisited tracks in 7.2 km and 14.4km away in different season. For the season reason, we have to use a reference ground to bridge the gap between snow-on and snow-off segments. 
 - Sensitivity to Bias Correction. The accuracy of ICESat-2 snow depth is highly dependent on the bias correction process.
   - Vegetation introduces significant uncertainties in both ICESat-2 and DEMs.
   - Permanent ice and inland water areas, which cannot be used as reference surfaces, must be excluded. However, many DEMs include seasonal snow patches, particularly in high elevations, which are not covered by permanent snow/ice masks. Similarly, lake masks may not be entirely suitable for all DEMs that acquisited in different season.
-  - Many DEMs are old enough to accumulate changes on surface, such as landslides, erosion, brushwood.
+  - In practical, many DEMs are old enough to accumulate many changes on surface, such as landslides, erosion, brushwood...
 - ICESat-2 Ground-Finding Algorithm:
   - The parameterization of ICESat-2's ground-finding algorithm significantly impacts retrieved snow depth. This algorithm uses a probability distribution function (PDF) of photons reflecting off the surface to determine exact elevations in the ATL08 product. If the algorithm or applied slope correction tends to capture or ignore specific signals, or if the footprint size averages out specific landforms, this can lead to systematic or scaling biases larger than the native footprint size.
 - Lack of Validation:
