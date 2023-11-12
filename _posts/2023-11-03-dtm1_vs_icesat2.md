@@ -6,7 +6,7 @@ description: Dataset is available on Zenodo
 date: 2023-11-03
 tags:
   - notes
-categories: DEM
+categories: DEM, Snow, ICESat-2
 bibliography: lib.bib
 lang: eng
 publish: yes
@@ -126,7 +126,9 @@ As demonstrated in figure 3, in figure 4 c, the behavior of negative bias is tot
 
 Overall, the interpolation and slope correction algorithm of ICESat-2 ALT08 is quite interesting. It tends to underestimate surface height when there are no photons at the midpoint. In cases where h_te_best_fit_20m_2 is available, this algorithm may mistakenly consider it as part of the canopy and remove it. This tendency introduces residual bias, result in such as negative snow depth.
 
-#### Is it possible using negative snow depth in DEM bias correction?
+#### Exploring the Use of Negative Snow Depth in DEM Bias Correction
 
 
-Naturally, the distribution of dh is normal and symmetrical. When we are doing elevation differencing for snow depth, we also obtain snow depth with uncertainty in both tails. However, as the snow depth is small relative to the uncertainties of DEMs-ICESat-2 (0.5m to 1m), many snow depth measurements (nearly 30%) encounter negative values. Excluding these negative snow depths interferes symmetrically of distribution on small value observations. One idea is to use these snow-on measurements to further correct dh in an iterative process. It is very risky because such corrections are applied to specific terrains; I have tried but introduced a lot of noise.
+In the process of elevation differencing for snow depth retrieval, the distribution of the elevation difference $$dh$$ is expected to be normal and symmetrical. However, due to the relatively small magnitude of snow depth compared to the uncertainties between DEMs and ICESat-2 (ranging from 0.5m to 1m), a significant portion of snow depth measurements (about 30%) result in negative values. Excluding these negative values can disrupt the symmetrical distribution, especially for observations of smaller snow depths.
+
+One potential solution is to use these negative snow depth measurements to iteratively correct $$dh$$ However, this approach is fraught with risks, as such corrections, when applied, tend to be terrain-specific. In my attempts, this method introduced considerable noise into the data. An alternative strategy is implementing stricter quality control measures to minimize the occurrence of negative snow depths. For DTM1/10, setting -0.8 m of cutting off value can include 90% of measurements.
