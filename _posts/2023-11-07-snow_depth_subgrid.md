@@ -6,7 +6,7 @@ description: A tabular dataset ready for machine learning applications
 date: 2023-11-03
 tags:
   - notes
-categories: DEM
+categories: DEM, Snow, ICESat-2
 bibliography: lib.bib
 lang: eng
 publish: yes
