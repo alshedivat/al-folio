@@ -3,7 +3,6 @@ layout: page
 title: Using 5.8 million to buy a unit in Oslo, which one is worth?
 description: Housing Price MCDA Model - a perspective from spatial contributions
 img: assets/img/post/MCA/gis6_price.jpg
-
 importance: 4
 year: 2022
 category: fun
