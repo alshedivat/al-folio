@@ -25,6 +25,13 @@ The list of talks, presentations, and public appearances.
 
 ## 2023
 
+* **Doctoral Showcase, ACM/IEEE Supercomputing (SC23)**, November, Denver, USA.
+_High Performance Serverless for HPC and Clouds_, poster presentation. Slides.
+
+* **The Ninth Annual Workshop on the LLVM Compiler Infrastructure in HPC (LLVM-HPC), ACM/IEEE Supercomputing (SC23)**, November, Denver, USA.
+_Cppless: Productive and Performant Serverless Programming in C++_, workshop lighting talk.
+[Slides](/assets/pdf/2023_cppless_llvm_hpc_slides.pdf).
+
 * **37th International Conference on Supercomputing (ICS), ACM Federated Computing Research Conference**, May, Orlando, FL, USA. _FMI: Fast and Cheap Message Passing for Serverless Functions_, research paper presentation.
 [Slides](/assets/pdf/2023_fmi_ics_slides.pdf).
 

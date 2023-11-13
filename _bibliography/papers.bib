@@ -412,3 +412,25 @@
   abbr = {IPDPS}
 }
 
+@article{2023scdoctoral,
+  title={High-Performance Serverless for HPC and Clouds},
+  author={Marcin Copik and Torsten Hoefler},
+  year={2023},
+  poster = {2023_sc_doctoral_showcase_poster.pdf},
+  abstract = {Function-as-a-Service (FaaS) computing brought a fundamental shift in resource management. It allowed for new and better solutions to the problem of low resource utilization, an issue that has been known for decades in data centers. The problem persists as the frequently changing resource availability cannot be addressed entirely with the techniques employed so far, such as persistent cloud allocations and batch jobs. The elastic fine-grained tasking and largely unconstrained scheduling of FaaS create new opportunities. Still, modern serverless platforms struggle to achieve the high performance needed for the most demanding and latency-critical workloads. Furthermore, many applications cannot be “FaaSified” without non-negligible loss in performance, and the short and stateless functions must be easy to program, debug, and optimize. By solving the fundamental performance challenges of FaaS, we can build a fast and efficient programming model that brings innovative cloud techniques into HPC data centers, allowing users to benefit from pay-as-you-go billing and helping operators to decrease running costs and their environmental impact. My PhD research attempts to bridge the gap between high-performance programming and modern FaaS computing frameworks. I have been working on tailored solutions for different levels of the FaaS computing stack: from computing and network devices to high-level optimizations and efficient system designs.},
+  journal = {Doctoral Showcase at ACM/IEEE Supercomputing (S23)},
+  abbr = {SC}
+}
+
+@article{2023bigdata, 
+  author = {Wei Qiu and Marcin Copik and Yun Wang and Alexandru Calotoiu and Torsten Hoefler},
+  title = {User-guided Page Merging for Memory Deduplication in Serverless Systems},
+  year = {2023},
+  booktitle = {2023 IEEE International Conference on Big Data (Big Data)},
+  publisher = {IEEE Computer Society},
+  pdf = {2023_bigdata_upm.pdf},
+  abstract = {
+    Serverless computing is an emerging cloud paradigm that offers an elastic and scalable allocation of computing resources with pay-as-you-go billing. In the Function-as-a-Service (FaaS) programming model, applications comprise short-lived and stateless serverless functions executed in isolated containers or microVMs, which can quickly scale to thousands of instances and process terabytes of data. This flexibility comes at the cost of duplicated runtimes, libraries, and user data spread across many function instances, and cloud providers do not utilize this redundancy. The memory footprint of serverless forces removing idle containers to make space for new ones, which decreases performance through more cold starts and fewer data caching opportunities. We address this issue by proposing deduplicating memory pages of serverless workers with identical content, based on the content-based page-sharing concept of Linux Kernel Same-page Merging (KSM). We replace the background memory scanning process of KSM, as it is too slow to locate sharing candidates in short-lived functions. Instead, we design User-Guided Page Merging (UPM), a built-in Linux kernel module that leverages the madvise system call: we enable users to advise the kernel of memory areas that can be shared with others. We show that UPM reduces memory consumption by up to 55% on 16 concurrent containers executing a typical image recognition function, more than doubling the density for containers of the same function that can run on a system.
+  },
+  abbr = {Big Data}
+}
