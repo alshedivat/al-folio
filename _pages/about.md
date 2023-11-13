@@ -35,6 +35,7 @@ I'm excited to teach [CS 5220](https://classes.cornell.edu/browse/roster/SP24/cl
 
 The best way to contact me is by **email**: gg434@cornell.edu.
 
+
 <!--, and my [academic genealogy tree](https://academictree.org/computerscience/tree.php?pid=864537&pnodecount=15&cnodecount=5&fontsize=1).-->
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
