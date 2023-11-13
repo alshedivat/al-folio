@@ -9,7 +9,11 @@ ___
 
 ## teaching
 
-**Applications of Parallel Computers, Cornell University**, Spring 2023.
+**CS5220: Applied High Performance and Parallel Computing, Cornell University**, Spring 2024.
+
+**CS6230: Advanced Topics in Parallel Computing, Cornell University**, Fall 2023.
+
+**CS5220: Applications of Parallel Computers, Cornell University**, Spring 2023.
 
 ___
 
