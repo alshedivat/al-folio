@@ -9,7 +9,7 @@ ___
 
 <!-- ## if you plan to apply for a PhD (and work with me) -->
 
-I'm looking for PhD students with a background in parallel programming and interest in high- performance computing for computational sciences. The admissions process is through [Cornell CIS](https://www.cs.cornell.edu/phd/admissions) and not through me personally.
+I'm looking for PhD students with a background in parallel programming and interest in high-performance computing for computational sciences. The admissions process is through [Cornell CIS](https://www.cs.cornell.edu/phd/admissions) and not through me personally.
 
 <!-- * A good introductory email should include a brief description of your experience with parallel programming and how it relates to my work (see [research section](https://giuliaguidi.github.io/research/) on my website). -->
 
@@ -39,8 +39,8 @@ ___
 * **Michael Carr** (Cornell University).
 * **Thomas McFarland** (Cornell University).
 * **Julian Bellavita** (Cornell University).
-* **Max Xiaohang Zhao](https://de.linkedin.com/in/max-zhao-227428152)** (Charité Universitätsmedizin, Berlin).
-* **Luk Burchard](https://lbb.sh/)** (Simula Research Laboratory, Norway).
+* **[Max Xiaohang Zhao](https://de.linkedin.com/in/max-zhao-227428152)** (Charité Universitätsmedizin, Berlin).
+* **[Luk Burchard](https://lbb.sh/)** (Simula Research Laboratory, Norway).
 
 ## past mentorship and student advising
 
