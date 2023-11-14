@@ -1,12 +1,24 @@
 ---
 ---
-@article{Feyling:2023,
+@article{MFR:2023,
+   ABBR       = {arXiv},
+   AUTHOR     = {Hampus Malmberg
+               AND Fredrik Feyling
+               AND José M.~de~la Rosa},
+   TITLE      = {A Control-Bounded Quadrature Leapfrog ADC},
+   YEAR       = {2023},
+   ARXIV      = {2310.18110},
+   MONTH      = {November},
+   ABSTRACT   = {In this paper, the design flexibility of the control-bounded analog-to-digital converter principle is demonstrated. A band-pass analog-to-digital converter is considered as an application and case study. We show how a low-pass control-bounded analog-to-digital converter can be translated into a band-pass version where the guaranteed stability, converter bandwidth, and signal-to-noise ratio are preserved while the center frequency for conversion can be positioned freely. The proposed converter is validated with behavioral simulations on several filter orders, center frequencies, and oversampling ratios. Additionally, we consider an op-amp circuit realization where the effects of first-order op-amp non-idealities are shown. Finally, robustness against component variations is demonstrated by Monte Carlo simulations.},
+   SELECTED   = {true},
+}
+@article{FMWLY:2023,
    ABBR       = {VLSI},
-   AUTHOR     = {Feyling, Fredrik
-               AND Malmberg, Hampus
-               AND Wulff, Carsten
-               AND Loeliger, Hans-Andrea
-               AND Ytterdal, Trond},
+   AUTHOR     = {Fredrik Feyling
+               AND Hampus Malmberg
+               AND Carsten Wulff
+               AND Hans-Andrea Loeliger 
+               AND Trond Ytterdal},
    JOURNAL    = {IEEE Transactions on Very Large Scale Integration (VLSI) Systems}, 
    TITLE      = {Design and Analysis of the Leapfrog Control-Bounded A/D Converter}, 
    YEAR       = {2023},
@@ -17,7 +29,7 @@
    SELECTED   = {true},
    ABSTRACT   = {This article presents analytical tools for high-level design of the leapfrog (LF) control-bounded analog-to-digital converter (CBADC). We derive closed-form design equations for parameterizing the analog system for a target signal-to-noise ratio (SNR) and bandwidth. Furthermore, we show how the parameterization can be modified to compensate for finite amplifier gain-bandwidth product (GBWP) and to control the signal swing at different nodes of the system. Behavioral circuit simulations are used to compare the LF CBADC to relevant continuous-time sigma–delta modulators (CT- $\Sigma\Delta$ Ms) in terms of nominal performance and sensitivity to component variations, clock jitter, and finite GBWP. Simulations show that the nominal performance of the LF is similar to that of a CT- $\Sigma\Delta$ M of the same loop-filter order and with the same number of quantization levels. The simple, modular structure, analytical stability guarantee, and single-bit quantizers make the LF an interesting alternative to conventional CT- $\Sigma\Delta$ Ms.},
 }
-@article{Hampus Malmberg:2022,
+@article{MMBFL:2022,
    ABBR       = {arXiv},
    AUTHOR     = {Hampus Malmberg
                AND Till Mettler
@@ -32,7 +44,7 @@
    SELECTED   = {false},
    PDF        = {preprint_calirbrating_control-bounded_adcs.pdf}
 }
-@article{Hampus Malmberg:2022,
+@article{MFR:2022,
    ABBR       = {arXiv},
    AUTHOR     = {Hampus Malmberg
                AND Fredrik Feyling
@@ -45,7 +57,7 @@
    SELECTED   = {false},
    PDF        = {preprint_quadrature_control-bounded_adcs.pdf}
 }
-@inproceedings{Fredrik Feyling:2022,
+@inproceedings{FMWLY:2022,
    ABBR       = {NorCAS},
    AUTHOR     = {Fredrik Feyling
                AND Hampus Malmberg
@@ -55,12 +67,7 @@
    BOOKTITLE  = {IEEE Nordic Circuits and Systems Conference},
    TITLE      = {High-level comparison of control-bounded A/D converters and continuous-time sigma-delta modulators},
    YEAR       = {2022},
-   VOLUME     = {},
-   NUMBER     = {},
-   PAGES      = {},
    ABSTRACT   = {In this paper, behavioural circuit simulations are used to compare the leapfrog control-bounded analog-to-digital converter to relevant continuous-time sigma-delta modulators in terms of nominal performance and sensitivity to component variations, clock jitter and finite gain-bandwidth product. Sim- ulations show that the nominal performance of the leapfrog is similar to that of a continuous-time sigma-delta modulator of the same loop filter order and with the same number of quantization levels. Component variations in the leapfrog’s analog system will introduce errors in the final output, unless the coefficients of the reconstruction filter are modified accordingly. Nevertheless, the simple, modular structure, analytical stability guarantee and single-bit quantizers make the leapfrog an interesting alternative to conventional continuous-time sigma-delta modulators.},
-   KEYWORDS   = {},
-   ISSN       = {},
    MONTH      = {October},
    LOCATION   = {Oslo, Norway},
    DAY        = {25-26},
@@ -68,7 +75,7 @@
    PDF        = {NORCAS22_No_CR.pdf},
    DOI        = {10.1109/NorCAS57515.2022.9934426}
 }
-@article{Hampus Malmberg:2021,
+@article{MWL:2021,
    ABBR       = {CSSP},
    ABSTRACT   = {A control-bounded analog-to-digital converter consists of a linear analog system that is subject to digital control, and a digital filter that estimates the analog input signal from the digital control signals. Such converters have many commonalities with delta--sigma converters, but they can use more general analog filters. The paper describes the operating principle, gives a transfer function analysis, and describes the digital filtering. In addition, the paper discusses two examples of such architectures. The first example is a cascade structure reminiscent of, but simpler than, a high-order MASH converter. The second example combines two attractive properties that have so far been considered incompatible. Its nominal conversion noise (assuming ideal components) essentially equals that of the first example. However, its analog filter is a fully connected network to which the input signal is fed in parallel, which potentially makes it more robust against nonidealities.},
    AUTHOR     = {Hampus Malmberg
@@ -83,11 +90,11 @@
    DAY        = {13},
    SELECTED   = {false}
 }
-@inproceedings{Keusch:2021,
+@inproceedings{KML:2021,
    ABBR       = {ICASSP},
-   AUTHOR     = {Keusch, Raphael
-               AND Malmberg, Hampus
-               AND Loeliger, Hans-Andrea},
+   AUTHOR     = {Raphael Keusch
+               AND Hampus Malmberg
+               AND Hans-Andrea Loeliger},
    BOOKTITLE  = {IEEE International Conference on Acoustics, Speech and Signal Processing},
    TITLE      = {Binary Control and Digital-to-Analog Conversion Using Composite NUV Priors and Iterative Gaussian Message Passing},
    YEAR       = {2021},
@@ -102,23 +109,19 @@
    SELECTED   = {false},
    ARXIV      = {2102.00989}
 }
-@inproceedings{Malmberg:2020,
+@inproceedings{ML:2020,
    ABBR       = {ISCAS},
-   AUTHOR     = {Malmberg, Hampus AND Loeliger, Hans-Andrea},
+   AUTHOR     = {Hampus Malmberg AND Hans-Andrea Loeliger},
    BOOKTITLE  = {IEEE International Symposium on Circuits and Systems},
    TITLE      = {Analog-to-Digital Conversion using Self-Averaging Analog Hadamard Networks},
    YEAR       = {2020},
-   VOLUME     = {},
-   NUMBER     = {},
-   PAGES      = {1-1},
    ABSTRACT   = {Control-bounded analog-to-digital conversion as described in the work of Loeliger et al. opens opportunities for entirely new analog circuit topologies. The structure of such a converter is shown in Fig. 1. In this paper, we propose such a converter where the analog linear system is a network of N fully connected identical integrators, with uniform sensitivity to noise and mismatch across the network. Nonetheless, the converter achieves a nominal conversion error similar to that of a ΔΣ converter with a N-th order loop filter.},
-   KEYWORDS   = {},
    DOI        = {10.1109/ISCAS45731.2020.9181151},
    ISSN       = {2158-1525},
    MONTH      = {Oct},
    SELECTED   = {false}
 }
-@article{Loeliger:2020,
+@article{LMW:2020,
    ABBR       = {arXiv},
    ARXIV      = {2001.05929},
    TITLE      = {Control-Bounded Analog-to-Digital Conversion: Transfer Function Analysis, Proof of Concept, and Digital Filter Implementation},
@@ -129,7 +132,7 @@
    YEAR       = {2020},
    SELECTED   = {false}
 }
-@phdthesis{Hampus Malmberg:2020,
+@phdthesis{M:2020,
    AUTHOR     = {Hampus Malmberg},
    ABSTRACT   = {The need for analog-to-digital (A/D) and digital-to-analog (D/A) conver- sion is a ubiquitous part of many of today’s practical applications. The research fields of A/D and D/A conversion are multi-disciplinary, involv- ing topics such as discrete- and continuous-time signal processing, circuit theory, and circuit design. State-of-the-art achievements have refined the practical aspects of traditional converter architectures to a point where performance is reaching its physical limits and progress is stagnating.
               In this thesis, we present an alternative perspective of analog-to-digital and digital-to-analog conversion called control-bounded conversion. This new perspective utilizes standard circuit components to build up un- conventional circuit architectures through a novel theoretical framework between analog and digital. Ultimately, this versatile design principle allows less constrained analog and digital circuit architectures at the expense of a digital post-processing step.
@@ -145,14 +148,14 @@
    MONTH      = {August},
    DAY        = {20},
    DOI        = {10.3929/ethz-b-000469192},
-   SELECTED   = {true}
+   SELECTED   = {false}
 }
-@inproceedings{Loeliger:2018,
+@inproceedings{LMMW:2018,
    ABBR       = {ISTC},
-   AUTHOR     = {Loeliger, Hans-Andrea
-               AND Ma, Boxiao
-               AND Malmberg, Hampus
-               AND Wadehn, Federico},
+   AUTHOR     = {Hans-Andrea Loeliger
+               AND Boxiao Ma
+               AND Hampus Malmberg
+               AND Federico Wadehn},
    BOOKTITLE  = {IEEE 10th International Symposium on Turbo Codes   Iterative Information Processing},
    TITLE      = {Factor Graphs with NUV Priors and Iteratively Reweighted Descent for Sparse Least Squares and More},
    YEAR       = {2018},
@@ -166,17 +169,17 @@
    MONTH      = {Dec},
    SELECTED   = {false}
 }
-@article{Reto Andreas Wildhaber:2018,
+@article{WDZMGJTHL:2018,
    ABBR       = {TBioCAS},
    AUTHOR     = {Reto Andreas Wildhaber
-               AND Bruegger, Dominik
-               AND Zalmai, Nour
-               AND Malmberg, Hampus
-               AND Goette, Josef
-               AND Jacomet, Marcel
-               AND Tanner, Hildegard
-               AND Haeberlin, Andreas
-               AND Loeliger, Hans-Andrea},
+               AND Dominik Bruegger
+               AND Nour Zalmai
+               AND Hampus Malmberg
+               AND Josef Goette
+               AND Marcel Jacomet
+               AND Hildegard Tanner
+               AND Andreas Haeberlin
+               AND Hans-Andrea Loeliger},
    JOURNAL    = {IEEE Transactions on Biomedical Circuits and Systems},
    TITLE      = {Estimation of the Cardiac Field in the Esophagus Using a Multipolar Esophageal Catheter},
    YEAR       = {2018},
@@ -190,13 +193,13 @@
    MONTH      = {Aug},
    SELECTED   = {false}
 }
-@inproceedings{Zalmai:2017,
+@inproceedings{ZKML:2017,
    ABBR       = {EUSIPCO},
    ABSTRACT   = {The paper addresses the problem of joint signal separation and estimation in a single-channel discrete-time signal composed of a wandering baseline and overlapping repetitions of unknown (or known) signal shapes. All signals are represented by a linear state space model (LSSM). The baseline model is driven by white Gaussian noise, but the other signal models are triggered by sparse inputs. Sparsity is achieved by normal priors with unknown variance (NUV) from sparse Bayesian learning. All signals and system parameters are jointly estimated with an efficient expectation maximization (EM) algorithm based on Gaussian message passing, which works both for known and unknown signal shapes. The proposed method outputs a sparse multi-channel representation of the given signal, which can be interpreted as a signal labeling.},
-   AUTHOR     = {Zalmai, Nour
-               AND Keusch, Raphael
-               AND Malmberg, Hampus
-               AND Loeliger, Hans-Andrea},
+   AUTHOR     = {Nour Zalmai
+               AND Raphael Keusch
+               AND Hampus Malmberg
+               AND Hans-Andrea Loeliger},
    BOOKTITLE  = {25th European Signal Processing Conference},
    TITLE      = {Unsupervised feature extraction, signal labeling, and blind signal separation in a state space world},
    YEAR       = {2017},
@@ -206,11 +209,11 @@
    DOI        = {10.23919/EUSIPCO.2017.8081325},
    SELECTED   = {false}
 }
-@inproceedings{Zalmai:2016,
+@inproceedings{ZML:2016,
    ABBR       = {ICASSP},
-   AUTHOR     = {Zalmai, Nour
-               AND Malmberg, Hampus
-               AND Loeliger, Hans-Andrea},
+   AUTHOR     = {Nour Zalmai
+               AND Hampus Malmberg
+               AND Hans-Andrea Loeliger},
    BOOKTITLE  = {IEEE International Conference on Acoustics, Speech and Signal Processing},
    TITLE      = {Blind deconvolution of sparse but filtered pulses with linear state space models},
    YEAR       = {2016},
@@ -224,13 +227,13 @@
    MONTH      = {March},
    SELECTED   = {false}
 }
-@inproceedings{Loeliger:2016,
+@inproceedings{LBMWZ:2016,
    ABBR       = {ITA},
-   AUTHOR     = {Loeliger, Hans-Andrea
-               AND Bruderer, Lukas
-               AND Malmberg, Hampus
-               AND Wadehn, Federico
-               AND Zalmai, Nour},
+   AUTHOR     = {Hans-Andrea Loeliger
+               AND Lukas Bruderer
+               AND Hampus Malmberg
+               AND Federico Wadehn
+               AND Nour Zalmai},
    BOOKTITLE  = {Information Theory and Applications Workshop},
    TITLE      = {On sparsity by NUV-EM, Gaussian message passing, and Kalman smoothing},
    YEAR       = {2016},
@@ -241,11 +244,11 @@
    SELECTED   = {true},
    ARXIV      = {1602.02673}
 }
-@inproceedings{Bruderer:2015,
+@inproceedings{BML:2015,
    ABBR       = {ISIT},
-   AUTHOR     = {Bruderer, Lukas
-               AND Malmberg, Hampus
-               AND Loeliger, Hans-Andrea},
+   AUTHOR     = {Lukas Bruderer
+               AND Hampus Malmberg
+               AND Hans-Andrea Loeliger},
    BOOKTITLE  = {IEEE International Symposium on Information Theory},
    TITLE      = {Deconvolution of weakly-sparse signals and dynamical-system identification by Gaussian message passing},
    YEAR       = {2015},
