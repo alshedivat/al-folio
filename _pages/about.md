@@ -34,7 +34,7 @@ Christopher's academic interest is complemented by his dedication to teaching an
 
 In addition to his academic and research pursuits, Christopher is a proactive leader in various initiatives. He serves as a director at both V75 Inc. and Nexus Hub Inc., where he focuses on the advancement of Guyana’s technology sector spearheading initiatives geared towards fostering collaboration, supporting innovation, youth development, and enabling economic stability for all of Guyana.
 
-In my spare time, I enjoy playing sports (mostly weight lifting), learning new areas (e.g economics), traveling, and hiking (warm temperatures preferred).
+In his spare time, he enjoys playing sports (mostly weight lifting), learning new areas (e.g economics), traveling, and hiking (warm temperatures preferred).
 
 The best way to reach out to me is via the relevant email:
 - UofM: [csclarke@umich.edu](mailto:csclarke@umich.edu)
