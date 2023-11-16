@@ -14,7 +14,7 @@ selected_papers: true
 social: true
 ---
 
-I'm a [incoming] PhD student in economics at Boston University. My research interests are economic history, political economy and development economics. I'm interested in applying machine learning and text analysis methods.
+I'm a PhD student in economics at Boston University. My research interests are economic history, political economy and development economics. I'm interested in applying machine learning and text analysis methods.
 
 I'm also a lab manager at <a href="https://www.industrialpolicygroup.com">The Industrial Policy Group</a>, an empirical research lab, founded by <a href="https://www.rjuhasz.com">Dr. Réka Juhász</a> and <a href="https://www.nathanlane.info">Dr. Nathan Lane</a>, that aims to deliver core empirical research surrounding industrial policy, and make industrial policy a serious object of economic study.
 
