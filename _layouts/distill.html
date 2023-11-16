@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <!-- _layouts/distill.html -->
 <html>
-  <head>
+  <head
+  <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M7Q9WHNFJ5"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-M7Q9WHNFJ5');
+    </script>
     {%- include head.html %}
 
     {% include scripts/jquery.html %}
@@ -104,6 +113,6 @@
     <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
 
     {% include scripts/bootstrap.html %}
-    
+
   </body>
 </html>
