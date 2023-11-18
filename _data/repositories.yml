@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - giirafe
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - giirafe/paran_bloodchain
+  - giirafe/AI_APP_WEB_Canary_Canary_2021
+  - SKKUCoinPlug23/erc20BasedSecureLoan
