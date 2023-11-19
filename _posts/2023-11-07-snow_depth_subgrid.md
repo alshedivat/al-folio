@@ -18,7 +18,7 @@ $$dh = ICESat2_{snow-free} - DEM $$
 
 This formula represents the discrepancy between ICESat-2 and DEMs. To obtain precise snow depth measurements, the primary effort involves minimizing skewness and noise of $$dh$$, as detailed in my previous post. Consequently, we derived snow depth from well-corrected DEMs, as available in the Zenodo dataset:
 
-$$snow depth = ICESat2_{snow-on} - DEM - \hat{dh}  $$
+$$snow depth = ICESat2_{snow-on} - DEM - \hat{dh} $$
 
 This dataset is a test run on snow depth retrieval workflow based on ICESat-2 (publication is under preparation).
 
