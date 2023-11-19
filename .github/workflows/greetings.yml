@@ -1,16 +1,34 @@
+# Action name
 name: Greetings
 
-on: [pull_request_target, issues]
+# Trigger Data
+on:
+  push:
+    branches: # Triggered on master branch pushes
+      - master
+  pull_request_target: # Triggered on pull_request, issues
+  issues:
 
+# Describing what jobs to do
 jobs:
   greeting:
-    runs-on: ubuntu-latest
-    permissions:
+    runs-on: ubuntu-latest # Specifying run env
+    permissions: # Specifying Permissions
       issues: write
       pull-requests: write
     steps:
-      - uses: actions/first-interaction@v1
+      - name: Checkout code # name of the step
+        uses: actions/checkout@v2 # To check out a copy of my repository onto the GitHub Actions runner
+
+      - name: Greet on Issue or PR # Diplaying Greeting messages on Issue or Pull Request
+        if: github.event_name == 'pull_request_target' || github.event_name == 'issues'
+        uses: actions/first-interaction@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: "Thanks for providing issue for my repository"
           pr-message: "Thanks for providing first pull request for my repository"
+
+      - name: Greet on Commit # Diplaying Greet messages on Commit -> Push
+        if: github.event_name == 'push'
+        run: |
+          echo "Thank you for your commit!" # Replace this with a script to post a comment
