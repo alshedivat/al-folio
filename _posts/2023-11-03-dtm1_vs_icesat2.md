@@ -39,14 +39,14 @@ After co‑registration, the percentage of points with a deviation less than 0.5
     </div>
 </div>
 
-<div class="caption"> Figure 1.: Statistic Binning Analysis: Co-registration and Bias Correction (ICESat-2 - DTM10). The dataset was divided into categories at three stages, and for each category, a violin plot displays the distribution of data. The median of each dataset is represented by a white dot at the center of the violin. The thick bar illustrates the 25% and 75% quantiles, respectively. If the violin is skewed to one side, it indicates a deviation from normal distribution. The aspect-dependent bias is identified and eliminated by co-registration (a); The negative bias are widespread after co-registration (a, b, c).
+<div class="caption"> Figure 1.: Statistic Binning Analysis: Co-registration and Bias Correction (ICESat-2 - DTM10). The dataset was divided into categories at three stages, and for each category, a violin plot displays the distribution of data. The median of each dataset is represented by a white dot at the center of the violin. The thick bar illustrates the 25% and 75% quantiles, respectively. If the violin is skewed to one side, it indicates a deviation from a normal distribution. The aspect-dependent bias is identified and eliminated by co-registration (a); The negative bias is widespread after co-registration (a, b, c).
 </div>
 
 
 $$dh = ICESat-2_{snow-free} - DEM $$
 
 
-From the figure 1, we can clearly see the aspect-dependent error, the fingerprint of the geo-referencing mismatch, is removed through co-registration, as indicated by the median value (Q50) being located close to zero for all bins (a). Although ATL08 (version 5) has contained geolocation errors since 2021.12 (which have been fixed in version 6), the overall amount of data from that period is not significant to produced wrong co-registration. Additionally, gradient descent co-registration has a certain ability to suppress noise.
+From figure 1, we can see the aspect-dependent error, the fingerprint of the geo-referencing mismatch, is removed through co-registration, as indicated by the median value (Q50) being located close to zero for all bins (a). Although ATL08 (version 5) has contained geolocation errors since 2021.12 (which has been fixed in version 6), the overall amount of data from that period is not significant enough to produce wrong co-registration. Additionally, gradient descent co-registration has a certain ability to suppress noise.
 
 The figure also shows significant residual bias after co-registration. The dh has a nearly linear relationship with slope and curvature (b, c). This bias requires further correction.
 
@@ -65,18 +65,16 @@ After the bias correction, the comparison between DTM1 and DTM10 indicates that 
 </div>
 
 <div class="caption"> Figure 2.: The Overall Distribution of DEM errors. DTM10 (upper left), DTM1 (upper right), COP30 (lower left), FAB (lower right). The statistical data for raw, after co-registration, and bias-correction are represented by blue, black, and red colors respectively. The 25% quantile (Q1) and the 75% quantile (Q3) are displayed from left to right along the x-axis. After bias correction, Q1 has moved closer to the median, indicating a reduction in negative skewness. Please note that a window of -10 m to 10 m was used to filter outliers in the metrics employed. And, the number of measurements is given by n (DEM) and N (total).
-</div>
+</div>Figure 2 shows the overall $dh$ distributions, which exhibit a negative skewness with long tails on the left side. Prior to bias correction, GLO30 had a median of -1.30 m, while FAB, which is a version of GLO30 with vegetation and buildings removed, exhibited less skewness. Although DTM1 and DTM10 had similar shapes, their 25% quantiles (Q1) suggested the presence of systematic biases. After implementing the bias correction, there was a noticeable enhancement in the overall symmetry observed across all four scenarios. This was supported by the fact that Q1 moved nearer to the median, while Q3 remained relatively stable. Ultimately, there is an overall NMAD of 0.56 m and 0.57 m for DTM10 and DTM1, respectively. GLO30 and FAB had higher NMAD of 0.98 m and 1.08 m. It is evident that bias correction led to a significant improvement in the accuracy of the results.
 
-Figure 2 show the overall $dh$ distributions, which exhibit a negative skewness with long tails on the left side. Prior to bias correction, GLO30 had a median of -1.30 m, while FAB, which is a version of GLO30 with vegetation and building removed, exhibited less skewness. Although DTM1 and DTM10 had similar shapes, their 25% quantiles (Q1) suggested the presence of systematic biases. After implementing the bias correction, there was a noticeable enhancement in the overall symmetry observed across all four scenarios. This was supported by the fact that Q1 moved nearer to the median, while Q3 remained relatively stable. Ultimately, there is an overall NMAD of 0.56 m and 0.57 m for DTM10 and DTM1, respectively. GLO30 and FAB had higher NMAD of 0.98 m and 1.08 m. It is evident that bias correction led to a significant improvement in the accuracy of the results.
-
-One meter of NMAD -- This might be the highest precision that could be achieved for Copernicus GLO30 and FAB. On the other hand, we noticed negative skewness exhibited on all DEMs for unknown reason.
+One meter of NMAD -- This might be the highest precision that could be achieved for Copernicus GLO30 and FAB. On the other hand, we noticed negative skewness exhibited on all DEMs for unknown reasons.
 
 
 #### Negative skewness of ICESat-2
 
 The negative values have a spatial distribution pattern, which is widely spread on convex terrain. The figure below plots nine curvature combinations categorized by profile curvature and plan curvature. The aggregated mean value of elevation differences reveals that convex ridged terrain (positive plan curvature and negative profile curvature) typically exhibits negative skewness (a,g). A concave bowl-shaped terrain with negative profile curvature does not have much negative skewness, even at high slopes (b), thereby indicating that the observed linear relationship between bias and slope is mainly contributed to by plan curvature.
 
-Naturally, there is overestimation over concave, but underestimation of convex due to the limitation of coarse resolution (or footprint). However, this bias should be symmetrical and not as significant as what we observed in terms of negative skewness (Figure 1 b,c). So we need a further analysis.
+Naturally, there is an overestimation over concave, but an underestimation of convex due to the limitation of coarse resolution (or footprint). However, this bias should be symmetrical and not as significant as what we observed in terms of negative skewness (Figure 1 b,c). So we need a further analysis.
 
 
 
