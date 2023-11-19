@@ -86,20 +86,20 @@ Naturally, there is overestimation over concave, but underestimation of convex d
     </div>
 </div>
 
-<div class="caption"> Figure 3.: Skewness Variations in Convex and Concave Terrains. The elevation difference is between ICESat-2 snow free segments and DTM1. The color points indicate the aggregated mean value of the elevation difference. Plots (a), (b) and (c) depict the bias pattern along plan curvature, profile curvature, slope and canopy height before the bias correction. A triangle window (a) indicating a bias free condition, the rest of area either give negative bias (blue) or positive bias (red). After the bias correction, most of negative bias are removed (d, e, f). Plot (g) shows a schematic of curvature combinations. The plot reveals that there is a negative correlation between profile curvature and plan curvature.
+<div class="caption"> Figure 3.: Skewness Variations in Convex and Concave Terrains. The elevation difference is between ICESat-2 snow-free segments and DTM1. The color points indicate the aggregated mean value of the elevation difference. Plots (a), (b) and (c) depict the bias pattern along plan curvature, profile curvature, slope and canopy height before the bias correction. A triangle window (a) indicates a bias-free condition, the rest of the area either gives negative bias (blue) or positive bias (red). After the bias correction, most of the negative bias are removed (d, e, f). Plot (g) shows a schematic of curvature combinations. The plot reveals that there is a negative correlation between profile curvature and plan curvature.
 </div>
 
 
 #### Using h_te_mean, h_te_best_fit or h_te_best_fit_geosegments?
 
-One concern is what the real resolution of the ICESat-2 ATL08 product is. Which elevation should I use? The real resolution of the ICESat-2 ATL08 product is not 100 meters. 100 m of segment is just how the dataset is structured, considering easy delivery of the canopy information in segments. There are several elevations provided by ATL08:
+One concern is what the real resolution of the ICESat-2 ATL08 product is. Which elevation should I use? The real resolution of the ICESat-2 ATL08 product is not 100 meters. 100 m of the segment is just how the dataset is structured, considering the easy delivery of the canopy information in segments. There are several elevations provided by ATL08:
 
 - h_te_mean: The real mean elevation of the segment. I have tried aggregating DTM1 by a certain window size and comparing the aggregated mean elevation with h_te_mean. However, there is no fixed window that is equivalent to the footprint of a segment (not 100 m or any other fixed value). The photons may not be evenly spread over either a 100 m long segment window or any other size.
 - h_te_interp: h_te_interp is an interpolated value, which is generally worse than h_te_best_fit in many cases.
-- h_te_best_fit: Good to use; however, when the geosegment has missing, it is very important to use subset_te_flag to exclude bad measurements. When five geosegments are available, the quality significantly improves.
-- h_te_best_fit_20m_2: The best fit elevation at the midpoint of the segment. In my latest paper, the Copernicus GLO30 can be corrected to NMAD 0.74 m, STD 1.63 m and DTM1/10 has NMAD 0.40.
+- h_te_best_fit: Good to use; however, when the geosegment is missing, it is very important to use subset_te_flag to exclude bad measurements. When five geosegments are available, the quality significantly improves.
+- h_te_best_fit_20m_2: The best-fit elevation at the midpoint of the segment. In my latest paper, the Copernicus GLO30 can be corrected to NMAD 0.74 m, STD 1.63 m and DTM1/10 has NMAD 0.40.
 
-In the beginning, I used h_te_best_fit; however, when the midpoint is not available, this value becomes an interpolated value (not sure if it equals h_te_interp). And this 'interpolated value' contains bias (generally tending to underestimate surface height). Therefore, using h_te_best_fit_20m_2 as the elevation of the midpoint of a segment eliminates any worry about interpolated values. I do only suggest use h_te_best_fit by set sebset_te_flag == 5, and you will get statistically same results with h_te_best_fit_20m_2.
+In the beginning, I used h_te_best_fit; however, when the midpoint is not available, this value becomes an interpolated value (not sure if it equals h_te_interp). And this 'interpolated value' contains bias (generally tending to underestimate surface height). Therefore, using h_te_best_fit_20m_2 as the elevation of the midpoint of a segment eliminates any worry about interpolated values. I only suggest using h_te_best_fit by setting sebset_te_flag == 5, and you will get statistically the same results with h_te_best_fit_20m_2.
 
 ### DEM bias correction model based on ICESat-2 snow-off measurements
 
@@ -121,7 +121,7 @@ The features used in the model are listed from the most influential on the top t
 - The SHAP value also offers insight into the difference between h_te_best_fit or h_te_best_fit_geosegments. For instance, Figure 4a shows the model using h_te_best_fit_20m_2. Here, the difference is defined as h_te_best_fit_20m_2 - h_te_best_fit. A positive difference (when h_te_best_fit_20m_2 > h_te_best_fit) normally contributes to a negative bias, which means h_te_best_fit has an even more severe negative skewness. This situation often occurs when only 2 to 4 geosegments are available (d). 
 - Other features that lead to negative bias include steep slope, convex terrain, canopy, and low standard deviation of ground photons, but positive skewness of ground photons. Additionally, TPI in a 270-meter scale is the least feature, meaning that the elevation difference is purely a micro topographic problem. For a model of COP30 - ICESat-2, the elevation difference is very related to vegetation coverage, canopy and TPI at 90 meters (3 pixels on COP30). **As the TPI behavior is opposite with previous model, statistically we can draw a conclusion that ICESat-2 ATL08 has a better resolution than COP30.**
 
-As demonstrated in figure 3, in figure 4 c, the behavior of negative bias is totally opposite on convex terrain (plan curvature > 0) and concave terrain (plan curvature < 0), which means that **currently most slope-only-dependent bias correction is not exactly correct.**
+As demonstrated in figure 3, in figure 4 c, the behavior of negative bias is totally opposite on convex terrain (plan curvature > 0) and concave terrain (plan curvature < 0), which means that **currently, most slope-only-dependent bias correction is not exactly correct.**
 
 Overall, the interpolation and slope correction algorithm of ICESat-2 ALT08 is quite interesting. It tends to underestimate surface height when there are no photons at the midpoint. In cases where h_te_best_fit_20m_2 is available, this algorithm may mistakenly consider it as part of the canopy and remove it. This tendency introduces residual bias, resulting in such as negative snow depth.
 
