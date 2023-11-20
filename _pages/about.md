@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a first-year [Digital Humanities Ph. D.](https://www.epfl.ch/education/phd/eddh-digital-humanities/) student at [EFPL](https://www.epfl.ch/en/) and a Research Assistant in the [Social Computing Group](https://www.idiap.ch/en/scientific-research/social-computing) at [Idiap Research Institute](https://www.idiap.ch/en) under the supervision of [Prof. Daniel Gatica-Perez](https://www.idiap.ch/~gatica/).
+I am a second-year [Digital Humanities Ph. D.](https://www.epfl.ch/education/phd/eddh-digital-humanities/) student at [EFPL](https://www.epfl.ch/en/) and a Research Assistant in the [Social Computing Group](https://www.idiap.ch/en/scientific-research/social-computing) at [Idiap Research Institute](https://www.idiap.ch/en) under the supervision of [Prof. Daniel Gatica-Perez](https://www.idiap.ch/~gatica/).
 
 I am working on designing computational tools for urban security missions, together with multiple European cities and NGOs, following a human-centered methodology as part of the [IcARUS](https://www.icarus-innovation.eu/) project, funded under the European Union H2020 program.
 

@@ -5,4 +5,4 @@ inline: true
 show: true
 ---
 
-Attended EPFL-ETHZ [Science and Policy - How to bridge the gap?](https://scienceandpolicy2023.epfl.ch/) Summer school from July 10 - 14, 2023.
+Took part in EPFL-ETHZ [Science and Policy - How to bridge the gap?](https://scienceandpolicy2023.epfl.ch/) Summer school from July 10 - 14, 2023.
