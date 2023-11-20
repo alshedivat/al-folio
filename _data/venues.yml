@@ -4,3 +4,19 @@
 
 "PhysRev":
   url: https://journals.aps.org/
+
+"SIAM":
+  url: https://www.siam.org/publications/journals/siam-journal-on-scientific-computing-sisc
+  color: "#34ebbd"
+
+"Paris-Saclay":
+  url: https://www.universite-paris-saclay.fr/en
+  color: "#63003C"
+
+"JCP":
+  url: https://www.sciencedirect.com/journal/journal-of-computational-physics-x
+  color: "#28ad2c"
+
+"Springer":
+  url: https://link.springer.com/book/10.1007/978-3-319-94616-0
+  color: "#104c91"

@@ -2,64 +2,74 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Kevish K. Napal
     - name: Date of Birth
-      value: 14th March 1879
+      value: 23rd July 1992
     - name: Languages
-      value: English, German
+      value: English, French, Hindi, Mauritian creole
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in applied mathematics under the supervision of Houssem Haddar
+      institution: Ecole Polytechnique, CMAP, Palaiseau, France
+      year: 2016-2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Imaging crack networks using transmission eigenvalues.
+        - Acoustic Scattering, Crack Identification, Interior Transmission Problem.
+        - Tutoring at Sorbonne University
+
+    - title: Master degree in applied mathematics
+      institution: Sorbonne university & Ecole Polytechnique
+      year: 2014-2016
       description:
-        - Description 1.
-        - Description 2.
+        - Mathematics of modeling speciality.
+        - PDEs, Optimal Control, Supervised Classification, Convex Optimisation, Mathematical Modeling for Biology (Tumors, Neurosciences).
+
+    - title: Bachelor degree in applied mathematics
+      institution: Sorbonne university
+      year: 2011-2014
+      description:
+        - Differential Calculus, Complex Analysis, Linear Algebra, Group theory, Arithmetic.
+        - Quantum Mechanics, Special Relativity, Mechanical \& Light Waves, History of Mathematics.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research associate
+      institution: University of Sheffield, DRG, UK.
+      year: 2021-Now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Homogenization of random particulate media in the high frequency regime
+
+    - title: Research associate
+      institution: University of Colorado Boulder, CEAE, Colorado.
+      year: 2020-2021
       description:
-        - Description 1.
-        - Description 2.
+        - Inverse problem in poroelastodynamics = sampling methods, machine learning.
+        - Spectral signature of the physical parameters in highly heterogeneous media.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Tutor
+      institution: Sorbonne university
+      year: 2016-2019
       description:
+        - Numerical methods for differential equations (2016-2018) L3, UPMC, Tutorial sessions and practical exercises on Python for the lectures of Marie Postel.
+        - Error-correcting codes \& Cryptography [course material] (2018-2019) L2, UPMC, Tutorial sessions for the lectures of Laurent Koelblen.
+        - Mathematical symbolic computation with Wolfram Alpha (2016-2018) L1, UPMC.
+        - Khôlles (preparation to the oral sessions of the entrance exam to French schools of Engineering) (2016-2017) L3, UPMC.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: One week study group with industry
+      institution: Orsay Institute of Mathematics
+      year: Jan 2019
+      description:
+        - work with the startup Dataswaty on the project Measuring Similarities and Improving Quality Prediction of Factory Outputs.
+        - Applying Transfer Learning and Domain Adaptation techniques to improve the quality of water after a treatment process.
+
+    - title: Introductory Research Dissertation supervised by Houssem Haddar
+      institution: Ecole Polytechnique
+      year: May-Oct 2016
+      description:
+        - Imaging with transmission eigenvalues
 
 - title: Open Source Projects
   type: time_table
@@ -68,25 +78,14 @@
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
+    - title: Inverse problems
+      items:
         - Description 1.
         - Description 2.
-    - title: Topic 2.
+    - title: Random media
       items:
         - Description 1.
         - Description 2.
@@ -94,4 +93,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Flamenco guitar, chess.
