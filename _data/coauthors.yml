@@ -5,7 +5,7 @@
   - firstname: ["Michael", "M."]
     url: https://risweb.st-andrews.ac.uk/portal/en/persons/michael-kenneth-weir(609b0bc6-bbe9-4f05-bd90-92772b19acf9).html
 "Harrison":
-  - firstname: ["David", "D.", "David J", "D. J."]
+  - firstname: ["David", "D.", "David J", "David J.", "D. J."]
     url: https://risweb.st-andrews.ac.uk/portal/en/persons/david-james-harrison(6bb6c114-15d1-4b0d-9091-8ce3ce9c2c7d).html
 "Um":
   - firstname: ["In Hwa", "I. H."]
@@ -16,3 +16,21 @@
 "Liò":
   - firstname: ["Pietro", "P."]
     url: https://www.cl.cam.ac.uk/~pl219/
+"Ferber":
+  - firstname: ["Dyke", "D."]
+    url: https://www.klinikum.uni-heidelberg.de/personen/dyke-ferber-9789
+"Meneghetti":
+  - firstname: ["Asier Rabasco", "Asier", "Asier R.", "A. R.", "A."]
+    url: https://scholar.google.com/citations?user=GnhtOGMAAAAJ
+"El Nahhas":
+  - firstname: ["Omar", "Omar S. M.", "O. S. M", "O."]
+    url: https://scholar.google.com/citations?user=tE9cPywAAAAJ
+"Truhn":
+  - firstname: ["Daniel", "D."]
+    url: https://www.lfb.rwth-aachen.de/en/institute/team/truhn/
+"Carrero":
+  - firstname: ["Zunamys", "Zunamys I.", "Z.", "Z. I."]
+    url: https://scholar.google.com/citations?user=I_G3fPgAAAAJ&hl=en
+"Kather":
+  - firstname: ["Jakob", "Jakob Nikolas", "Jakob N.", "J. N."]
+    url: https://jnkather.github.io
