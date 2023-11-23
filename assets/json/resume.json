@@ -77,46 +77,46 @@
       "date": "2018-01-01",
       "issuer": "Stanford University",
       "url": "https://example.com",
-      "icon": "fa fa-map-marker-alt"
+      "icon": "fa-solid fa-location-dot"
     },
     {
       "name": "Quantum Computing",
       "date": "2018-01-01",
       "issuer": "Stanford University",
       "url": "https://example.com",
-      "icon": "fa fa-tag"
+      "icon": "fa-solid fa-tag"
     },
     {
       "name": "Quantum Information",
       "date": "2018-01-01",
       "issuer": "Stanford University",
       "url": "https://example.com",
-      "icon": "fa fa-envelope"
+      "icon": "fa-solid fa-envelope"
     },
     {
       "name": "Quantum Cryptography",
       "date": "2018-01-01",
       "issuer": "Stanford University",
       "url": "https://example.com",
-      "icon": "fa fa fa-hashtag"
+      "icon": "fa-solid fa-hashtag"
     },
     {
       "name": "Quantum Communication",
       "date": "2018-01-01",
       "issuer": "Stanford University",
       "url": "https://example.com",
-      "icon": "fa fa-calendar"
+      "icon": "fa-solid fa-calendar"
     },
     {
       "name": "Quantum Teleportation",
       "date": "2018-01-01",
       "issuer": "Stanford University",
       "url": "https://example.com",
-      "icon": "fa fa-clipboard-check"
+      "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
-    { 
+    {
       "name": "Zur Elektrody/namik bewegter Körper",
       "publisher": "Annalen der Physik",
       "releaseDate": "1905-06-30",
@@ -142,7 +142,7 @@
     {
       "name": "Physics",
       "level": "Master",
-      "icon": "fa fa fa-hashtag",
+      "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Quantum Mechanics","Quantum Computing","Quantum Information","Quantum Cryptography","Quantum Communication","Quantum Teleportation"
       ]
@@ -163,7 +163,7 @@
   "interests": [
     {
       "name": "Physics",
-      "icon": "fa fa-tag",
+      "icon": "fa-solid fa-tag",
       "keywords": [
         "Quantum Mechanics","Quantum Computing","Quantum Information","Quantum Cryptography","Quantum Communication","Quantum Teleportation"
       ]
@@ -172,13 +172,13 @@
   "references": [
     {
       "name": "Professor John Doe",
-      "icon": "fa fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"    
+      "icon": "fa-solid fa-laptop",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
     {
       "name": "Professor John Doe",
-      "icon": "fa fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"    
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
   "projects": [
