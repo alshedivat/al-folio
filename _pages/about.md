@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
+  Contact:<a href='mailto:aziz.muh@northeastern.edu'>aziz.muh@northesatern.edu</a>
 
 profile:
   align: right
@@ -18,8 +19,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-I am currently a third-year Ph.D. student at Northeastern University in Boston, focusing on research in the areas of data privacy & security. My primary research interest is in the area of examining how various online platforms, including websites, comply with emerging privacy laws like the CCPA.
-
+I am a third-year Ph.D. student at Northeastern University in Boston. My research focuses on data privacy. I investigate how various online platforms, including websites, comply with emerging privacy laws like such as CCPA.
 
 As a researcher, I am passionate about understanding the intricate mechanisms that govern the online ecosystem and finding ways to improve security and privacy for users. My work involves analyzing various algorithms and technologies used by online platforms to identify potential vulnerabilities and recommend best practices for compliance with regulatory frameworks.
 
