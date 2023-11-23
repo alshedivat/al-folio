@@ -12,6 +12,7 @@ let setTheme = (theme) => {
   transTheme();
   setHighlight(theme);
   setGiscusTheme(theme);
+  setMermaidTheme(theme);
 
   if (theme) {
     document.documentElement.setAttribute("data-theme", theme);
@@ -78,6 +79,19 @@ let setGiscusTheme = (theme) => {
       theme: theme,
     },
   });
+};
+
+let setMermaidTheme = (theme) => {
+  let config = { theme: theme };
+  /* Re-render the SVG › <https://github.com/mermaid-js/mermaid/issues/311#issuecomment-332557344> */
+  $('.mermaid').each(function () {
+    let svgCode = $(this).prev().children().html();
+    $(this).removeAttr('data-processed');
+    $(this).html(svgCode);
+  });
+
+  mermaid.initialize(config);
+  mermaid.init(undefined, '.mermaid');
 };
 
 let transTheme = () => {
