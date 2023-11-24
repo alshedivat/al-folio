@@ -104,7 +104,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  You can reach to me through my twitter account. 
+  You can contact me via Twitter for any inquiries or to get in touch. 
 # You can even add a little note about which of these is the best way to reach you. 
 
 # -----------------------------------------------------------------------------
@@ -123,7 +123,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: Salika blogs # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: I mostly blog some of my academic and personal adventures/experiences.
+blog_description: I frequently share my academic and personal adventures on this blog.
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -149,7 +149,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: salika_disqus # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -157,7 +157,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+    rss_url: https://medium.com/@salikathilakarathne
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -207,6 +207,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - _pages/repositories.md
+  - _pages/profiles.md
 keep_files:
   - CNAME
   - .nojekyll
