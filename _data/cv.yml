@@ -39,32 +39,31 @@
             - Sub-description 1.
             - Sub-description 2.
     
-- title: Open Source Projects
+- title: Research Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/SalikaThilakarathne/Beach-Vulnerability-Index">Beach Vulnerability Index</a>
+      year: 2020-now
+      description: A novel appraoch to quantify beach properties related to their susceptibility and resilience to storm-induced erosion.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2019
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Tokyo Institute of Technology AOTULE Summer Program Award
+    - year: 2020
       items: 
-        - Max Planck Medal
+        - Japanese Government (MEXT) Scholarship (2020)':' Full doctoral scholarship recommended by the Department of Civil Engineering, Yokohama National University
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Coastal Engineering
       items: 
         - Description 1.
         - Description 2.
-    - title: Topic 2.
+    - title: Catchment hydrology and urban flooding
       items:
         - Description 1.
         - Description 2.
@@ -72,4 +71,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Books, TV, Sudoku
