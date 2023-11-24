@@ -1,5 +1,5 @@
 ---
-layout: resume
+layout: cv
 permalink: /cv/
 title: resume
 nav: true
