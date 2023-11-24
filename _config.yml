@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Salika
 middle_name: 
 last_name: Thilakarathne
-email: salikathilakarathne[add_at_here]hotmail.com
+email: salikathilakarathne[add_at_here]hotmail.coms
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -207,8 +207,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-  - _pages/repositories.md
-  - _pages/profiles.md
 keep_files:
   - CNAME
   - .nojekyll
