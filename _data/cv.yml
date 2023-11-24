@@ -15,27 +15,24 @@
       institution: Yokohama National University, Yokohama, Japan
       year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Assessing the Beach Vulnerability to Storm-induced Erosion using an Index-based Approach.
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Development of a beach vulnerability index.
+            - Comprehensive discussions on beach vulnerability quantifications.
+    - title: Master of Science
+      institution: University of Moratuwa, Moratuwa, Sri Lanka
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
+        - A Case Study on Sustainable Restoration Approach for Cascade Reservoir Systems in Jaffna Municipal Council for Effective Flood Management.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Lecturer in Civil Engineering
+      institution: University of Moratuwa, Moratuwa, Sri Lanka
+      year: 2019 - 2020
       description:
-        - Description 1.
+        - Delivered lectures, tutoring sessions, and design classes for modules':' Fluid Mechanics 2; Hydraulic Engineering 2; Hydraulic Design.
         - Description 2.
         - title: Description 3.
           contents:
