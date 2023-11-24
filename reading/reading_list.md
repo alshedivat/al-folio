@@ -26,43 +26,48 @@ Articles
 - ["Epistemologies of Ignorance"](https://kwanj.files.wordpress.com/2016/02/alcoff-epistemologies-of-ignorance-three-types.pdf){:target="_blank"}, Linda Alcoff -- interesting synthesis of thinkers on ignorance
 
 Books
-- *The Poverty of Ethics*, Anat Amar -- a brilliant synthesis of analytic ethics and Continental discontent.
-- *Queer Phenomenology*, Sara Ahmed -- a phenomenological account of queer bodies and spaces which leads us towards a socially-aware phenomenology of phenomenology
-- *Sex and the Failed Absolute*, Slavoj Zizek -- an ingenious and culturally aware synthesis of psycholanalysis and Hegel, through a triadic topological analogy
+- *The Poverty of Ethics*, Anat Amar
+- *Queer Phenomenology*, Sara Ahmed
+- *Sex and the Failed Absolute*, Slavoj Žižek
+- *The Birth of Computer Vision*, James E. Dodson
+
 <!-- - *Being and Nothingness*, Jean-Paul Sartre -- the classic existentialist text; a wonderful medium for self-reflection and meditation -->
 
 ---
 
 ### Film
 Movies
-- *Oppenheimer* -- the most powerful film I have experienced. More horrific than any horror movie I have watched. Exploration of the utter contradiction of man and God, of violence and peace, of necessity and freedom -- of the atomic bomb and Oppenheimer.
-- *Summer of '85* -- a more sensitive and textually self-aware *Call Me By Your Name*
-- *Brokeback Mountain* -- a classic masterpiece of environmental cinematography and queer film
-- *La La Land* -- beautiful cinematography and play with destiny and time
-- *Parasite* -- biting social critique of globalized capitalism
-- *2001: A Space Odyssey* -- an unhurried and thoughtful meditation on technology and Nietzschian transcendence
-- *The Menu* -- an entertaining watch and commentary on bourgeois consumption and production
-- *Midsommar* -- a beautiful film, and a deeply disturbing exploration of the "anthropologist's gaze"
+1. *Nuovo Olimpo* (2023)
+2. *Oppenheimer* (2023)
+3. *Summer of '85* (2020)
+4. *Brokeback Mountain* (2005)
+5. *La La Land* (2016)
+6. *Midsommar* (2019)
+7. *2001: A Space Odyssey* (1968)
 
 TV Shows
-- *Succession* -- an edgy portrayal of family, politics, and corporate power
-- *The White Lotus* -- brilliantly nuanced portrays of colonial, racial, and sexual tensions in bourgeois society
+- *Succession*
+- *The White Lotus*
+- *The Haunting of Hill House*
 
 Documentary
-- *Hearts and Minds* -- a brutally material portrayal of horror and patriotism in the Vietnam War, terrifying in its nakedness
-- *The Pervert's Guide to Ideology* -- a fun watch, an accessible overview of Slavoj Zizek's psychoanalytic-Hegelian treatment of cinema
-- *AlphaGo* -- a close look at humanity from the nonhuman: indeed, the only perspective from which humanity can truly be gazed at.
+- *Hearts and Minds*
+- *The Pervert's Guide to Ideology*
+- *AlphaGo*
 
 ---
 
 ### Fiction
-- *Crime and Punishment*, Fyodor Dostevsky -- a meditation on sin, guilt, and redemption
-- *Infinite Jest*, David Foster Wallace -- we are addicted to entertainment, and entertained by addiction
-- *Never Let Me Go*, Kazuo Ishiguro -- the beauty of our fragile life becomes palpable when it's about to be broken
+- *Crime and Punishment*, Fyodor Dostevsky
+- *Infinite Jest*, David Foster Wallace
+- *Never Let Me Go*, Kazuo Ishiguro
 - *Lolita*, Vladimir Nabokov
 
+---
+
 ### AI
-A collection of hand-picked interesting AI papers.
+A collection of interesting AI papers.
+(Somewhat outdated.)
 
 Deep Learning Theory
 - ["Beyond Neural Scaling Laws: Beating Power Law Scaling via Data Pruning"](https://arxiv.org/pdf/2206.14486.pdf){:target="_blank"} by Ben Sorscher et al.
