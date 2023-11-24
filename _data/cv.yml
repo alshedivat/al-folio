@@ -3,8 +3,8 @@
   contents:
     - name: Full Name
       value: Salika Thilakarathne
-   # - name: Date of Birth
-   #   value: 14th March 1879
+    - name: Email
+      value: salikathilakarathne[add_at_here]hotmail.com
     - name: Languages
       value: English, Japanese
 
