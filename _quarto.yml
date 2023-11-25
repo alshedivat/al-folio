@@ -1,0 +1,33 @@
+project:
+  type: website
+
+website:
+  title: "Fozzie The Beat"
+  site-url: https://fozziethebeat.com
+  favicon: assets/img/surface.png
+
+  repo-url: https://github.com/fozziethebeat/fozziethebeat.github.io
+  twitter-card: true
+  open-graph: true
+  search: false
+
+  navbar:
+    tools:
+      - icon: github
+        href: https://github.com/fozziethebeat/fozziethebeat.github.io
+      - icon: linkedin
+        href: https://www.linkedin.com/in/fozziethebeat/
+      - icon: threads
+        href: https://www.threads.net/fozziethebeat/
+      - icon: send-fill
+        href: mailto:keith@surfacedata.org
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: simplex
+    css: styles.css
+    toc: true

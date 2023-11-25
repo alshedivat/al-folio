@@ -1,0 +1,22 @@
+---
+title: Open Source Musings & Snow Time
+bibliography: _bibliography/papers.bib
+---
+
+Welcome! Here's where I wrote thoughts on various open source Large Language
+Model adjacent projectsand random things I'm doing.  I'm a former Staff
+Software Engineer from Google Translate and I'm now spending some time
+exploring the world of smaller teams and companies.  I sometimes take on
+contractor work related to LLMs.  During winter, I spend a lot of time skiing
+in Hakuba Japan (if you find yourself there, say hello and I can show you
+around).
+
+## Selected Publications
+
+---
+nocite: |
+  @köpf2023openassistant
+  @guo-etal-2019-hierarchical
+  @45610
+  @jurgens-stevens-2010-space
+---

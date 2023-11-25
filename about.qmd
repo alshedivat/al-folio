@@ -1,0 +1,32 @@
+---
+title: "About"
+---
+
+With 20 years practicing Buddhism and 15 years working in Natural Language
+Processing, I firmly believe language technology works best when it helps
+people live economically better lives so they can spend more time building and
+enjoying the human relationships that give life meaning.  More so, the best
+solutions come from teams that focus deeply on a poignant market problem and
+solve it with relentless focus.  And that’s what I hope to keep doing.
+
+Over 9 years I worked with the google translate team as we did exactly that for
+machine translation.  We got to live through the paradigm shift from old school
+statistical NLP to large transformer models, being one of the first teams in
+Google to productionize transformer models.  With my direct teams we built
+systems that discovered, curated, and housed the vast pools of data needed to
+train these models.  And with a small team I personally led we build out user
+facing features that let users share data and insights with us.
+
+Since leaving Google I spent the last two years seeing the startup world up
+close.  I tried replicating some of my Google work as an open source project.
+Partnered with a co-founder to try  making an emotional intelligence oriented
+AI startup.  I’ve since been working with several startups to build out their
+LLM infused products.  Until mid 2024, I plan to continue doing this will
+splitting my time between Tokyo and Hakuba Japan.  In my spare time I'll also
+be skiing and writing mini reports on various LLM adjacent open source projects
+that catch my interest.
+
+After the middle of 2024, I expect to relocate from Japan to either the SF Bay
+Area or Los Angeles while my wife studies for her MBA.  While in the states, I
+hope to find a solid team to join more permanently to make sure LLMs are
+useful.  If that's you, let me know.
