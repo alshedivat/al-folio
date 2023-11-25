@@ -32,3 +32,5 @@ All in all, I decided to focus on some special fields and they are:
 - Coding (Python, Go, JavaScript, Docker, frameworks and etc.)
 - Web Application Security
 - Machine Learning
+
+Time makes opportunities!
