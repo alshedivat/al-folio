@@ -43,7 +43,7 @@ After co‑registration, the percentage of points with a deviation less than 0.5
 </div>
 
 
-$$dh = ICESat-2_{snow-free} - DEM $$
+$$dh = ICESat2_{snow-free} - DEM $$
 
 
 From figure 1, we can see the aspect-dependent error, the fingerprint of the geo-referencing mismatch, is removed through co-registration, as indicated by the median value (Q50) being located close to zero for all bins (a). Although ATL08 (version 5) has contained geolocation errors since 2021.12 (which has been fixed in version 6), the overall amount of data from that period is not significant enough to produce wrong co-registration. Additionally, gradient descent co-registration has a certain ability to suppress noise.
@@ -77,7 +77,6 @@ The negative values have a spatial distribution pattern, which is widely spread 
 Naturally, there is an overestimation over concave, but an underestimation of convex due to the limitation of coarse resolution (or footprint). However, this bias should be symmetrical and not as significant as what we observed in terms of negative skewness (Figure 1 b,c). So we need a further analysis.
 
 
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
     {% include figure.html path="https://i.imgur.com/WHUrfZ0.png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -86,6 +85,8 @@ Naturally, there is an overestimation over concave, but an underestimation of co
 
 <div class="caption"> Figure 3.: Skewness Variations in Convex and Concave Terrains. The elevation difference is between ICESat-2 snow-free segments and DTM1. The color points indicate the aggregated mean value of the elevation difference. Plots (a), (b) and (c) depict the bias pattern along plan curvature, profile curvature, slope and canopy height before the bias correction. A triangle window (a) indicates a bias-free condition, the rest of the area either gives negative bias (blue) or positive bias (red). After the bias correction, most of the negative bias are removed (d, e, f). Plot (g) shows a schematic of curvature combinations. The plot reveals that there is a negative correlation between profile curvature and plan curvature.
 </div>
+
+DEM may not be snow-free or vegetation-free when compared with ICESat-2 snow-free segments, which also results in negative skewness. These effects are spatially dependent.
 
 
 #### Using h_te_mean, h_te_best_fit or h_te_best_fit_geosegments?
@@ -121,7 +122,7 @@ The features used in the model are listed from the most influential on the top t
 
 As demonstrated in figure 3, in figure 4 c, the behavior of negative bias is totally opposite on convex terrain (plan curvature > 0) and concave terrain (plan curvature < 0), which means that **currently, most slope-only-dependent bias correction is not exactly correct.**
 
-Overall, the interpolation and slope correction algorithm of ICESat-2 ALT08 is quite interesting. It tends to underestimate surface height when there are no photons at the midpoint. In cases where h_te_best_fit_20m_2 is available, this algorithm may mistakenly consider it as part of the canopy and remove it. This tendency introduces residual bias, resulting in such as negative snow depth.
+Overall, the interpolation and slope correction algorithm of ICESat-2 ALT08 is quite interesting. It tends to underestimate surface height when there are no photons at the midpoint. In cases where h_te_best_fit_20m_2 is available, this algorithm may mistakenly consider it as part of the canopy and remove it. This tendency introduces residual bias, resulting in more negative snow depth.
 
 #### Exploring the Use of Negative Snow Depth in DEM Bias Correction
 
@@ -129,3 +130,7 @@ Overall, the interpolation and slope correction algorithm of ICESat-2 ALT08 is q
 While systematic errors can be addressed through bias correction, both DEMs and ICESat-2 data inherently contain random errors constrained by the physical characteristics of the measurement systems. Consequently, instances of negative snow depth are an unavoidable artifact of this uncertainty. To mitigate the impact of these outliers on the distribution's tail, one potential solution is to use these negative snow depth measurements to iteratively correct $$dh$$ However, this approach is fraught with risks,
 
 In my attempts, this method introduced considerable noise into the data. An alternative strategy is implementing stricter quality control measures to minimize the occurrence of negative snow depths. I employed a 10% quantile-based cutoff for values below zero, enhancing the reliability of statistical inferences for snow depth estimation. For instance, we set a cutting-off value of -0.54 m, we include 90% measurements with DTM1 as reference DEM; -0.88 m for GLO30 in my last run.
+
+### What if the DEM is not snow-free
+
+This is a big concern in high-elevation areas, where the snow patch remains until September. The bias correction is trained by ICESat-2 snow-free segments. Technically there is a possibility for correcting the surface to snow-free condition like ICESat-2 snow-free segments. But this correction is pretty weak because (1) there are also very few snow-free segments available in high-elevation areas. (2) The terrain parameters are calculated from DEM. And the feature space is also contaminated. Therefore, I regarded this type of negative skewness as the last residual to be addressed.
