@@ -2,16 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Senior Scientist at <a href='https://www.novonordisk.com/science-and-technology/research-and-technology-centres/oxford-research-centre.html'>Novo Nordisk</a>. Oxford, United Kingdom.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: 
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -19,8 +16,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My goal is to find genetic predictors of disease that are useful for diagnosis, treatment, and understanding the disease's biology. Traditionally, complex diseases like Alzheimer's disease are studied through genome-wide association studies ([GWAS](https://en.wikipedia.org/wiki/Genome-wide_association_study)). However, conventional GWAS have failed to find a significant share of those genetic causes. I am interested in closing this gap by researching machine learning methods that extract more information from GWAS. Specifically, I superimpose GWAS information onto [biological networks](https://en.wikipedia.org/wiki/Biological_network). Then, I explore such networks considering both the statistical association of each genetic factor - obtained from GWAS - and the biological context - obtained from the network. However, there are many open questions about how to do this, for instance:
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+- How to exactly integrate GWAS information with networks?
+- What is the right strategy to find truly associated genetic factors? Which underlying assumptions are warranted?
+- What sources of information should we consider when building those networks?
+- What is the suitable unit of analysis? The SNP? The gene? The pathway?
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+With my multidisciplinary background in machine learning, statistical genetics, and biotechnology, I believe I am in a privileged position to tackle such questions
