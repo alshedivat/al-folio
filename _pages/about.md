@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 Hello
 
 I'm a graduated student from [University of Tehran](https://ut.ac.ir/en) in Biosystem Engineering. I've done _four_ project during my bachelor degree at [University of Tabriz](https://tabrizu.ac.ir/en).
-I was a part of Precistion Agriculture group during two last years of my bachelor degree.
+I was a part of [Precistion Agriculture group](http://infoag.ir/en/) during last two years of my bachelor degree.
 
 I worked on four group project (two lecture based and two industerial project) and so I learnt about programming algorithms, Adruiono, electrical circuts and automation. more details can be found in [Projects](https://alirezad.ir/projects/) section.
 My master thesis was based on Machine Learning which helped me dive into understanding Python and Machine Learning.
