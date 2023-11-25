@@ -28,9 +28,6 @@ My master thesis was based on Machine Learning which helped me dive into underst
 
 My curiosity in age of 17 directed me to Ubuntu, and three years later, when I was working on a project, I decided to switch to Linux-based Operating systems. Due to my inspiration to coding, I started a hobby project to bypass internet limitation (in Iran) which lead me to learning Docker and more-Linux. Thoughts of having a personal website pushed me to learn about frontend development and NodeJS ([Here is why](https://blog.alirezad.ir/posts/use-notion-as-cms-for-jekyll/)).
 
-All in all, I decided to focus on some special fields and they are:
-- Coding (Python, Go, JavaScript, Docker, frameworks and etc.)
-- Web Application Security
-- Machine Learning
+All in all, I decided to focus on some special fields and they are: Coding (Python, Go, JavaScript, Docker, frameworks and etc.), Web Application Security and Machine Learning.
 
 Time makes opportunities!
