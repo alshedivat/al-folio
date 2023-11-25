@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <b><a href='https://alerezaa.ir'>SITE</a> IS UNDER MAINTENANCE</b> this is only a preview
+subtitle: <b><a href='https://alirezad.ir'>SITE</a> IS UNDER MAINTENANCE</b> this is only a preview
 
 profile:
   align: right
@@ -20,10 +20,10 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hi there ✋
 
-My name is Alireza Dehghanzadeh (click on speaker icon to hear pronounciation at [Google Translate](https://translate.google.com/?sl=en&text=alerezaa))
+My name is Alireza Dehghanzadeh (click on speaker icon to hear pronounciation at [Google Translate](https://translate.google.com/?sl=en&text=alirezad))
 
 I'm a
-- Researcher at [University of Tehran](https://ut.ac.ir/en) in Master Degree. (more in [CV](https://cv.alerezaa.ir))
+- Researcher at [University of Tehran](https://ut.ac.ir/en) in Master Degree. (more in [CV](https://cv.alirezad.ir))
 - Bachelor graduated from [University of Tabriz](https://tabrizu.ac.ir/en) in Biosystems Engineering
 - Linux, coding, cyber security and machine learning enthuasiast
 
