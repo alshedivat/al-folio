@@ -1,12 +1,12 @@
 ---
 layout: post
-title: my online living
+title: My online living
 date: 2022-01-01 16:11:00-0400
 inline: false
 related_posts: false
 ---
 
-I created this new to write about my websites and blogs on the internet.
+I created this news post to write about my websites and blogs on the internet.
 
 
 I have several website which I dedicated for different writting purposes:
