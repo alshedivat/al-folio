@@ -10,11 +10,11 @@ I created this new to write about my websites and blogs on the internet.
 
 
 I have several website which I dedicated for different writting purposes:
-- [blog.alerezaa.ir](https://blog.alerezaa.ir/): My acquired knowledge by searching based on my questions
-- [now.alerezaa.ir](https://now.alerezaa.ir): Write daily based on emotions and motivations
-- [story.alerezaa.ir](https://story.alerezaa.ir): saddness, happiness, history, memory
+- [blog.alirezad.ir](https://blog.alirezad.ir/): My acquired knowledge by searching based on my questions
+- [now.alirezad.ir](https://now.alirezad.ir): Write daily based on emotions and motivations
+- [story.alirezad.ir](https://story.alirezad.ir): saddness, happiness, history, memory
 
-why?  ➜  [This Post](https://alerezaa.ir/blog/2022/the-idea-behind-my-blog/)
+why?  ➜  [This Post](https://alirezad.ir/blog/2022/the-idea-behind-my-blog/)
 
 (***Below Text is just a template by theme developer***)
 
