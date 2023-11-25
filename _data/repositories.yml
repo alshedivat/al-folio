@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - hclimente
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - riken-aip/pyHSICLasso
+  - hclimente/martini
+  - hclimente/gwas-tools
+  - hclimente/torchomics
