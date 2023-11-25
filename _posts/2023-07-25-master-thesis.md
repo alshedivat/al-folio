@@ -50,7 +50,7 @@ In forth semester, [Dr. Hossein Behfar](https://www.researchgate.net/profile/Hos
 In sixth semester, our electronic groups broke up and I was looking for ways to earn back my interactions with projects and team works. Short while after, I met [Dr. Hossein Navid](https://www.researchgate.net/profile/Hossein-Navid) who help me to find my way and introduced me to [Precision Agriculture group](http://infoag.ir/en/). I worked on two project under name of this group. meanwhile, I was working on a class project for course “Mechanical Engineering Design” with four great students from our class.
 
 
-You can check [project section for more details](https://alerezaa.ir/projects/).
+You can check [project section for more details](https://alirezad.ir/projects/).
 
 
 Maybe one day, I’ll write a brief post about my bachelor degree but for now It time to write about Master degree.
@@ -92,7 +92,7 @@ Due to coronavirus lock down, I couldn't get into university (dormitory) till st
 It was a good rime to expand my knowledge about ML, Python programming and Cybersecurity.
 
 
-I requested for financial aid of Coursera on Machine Learning course by Andrew Ng, and thankfully, I could get it. (Certification in my [CV](https://cv.alerezaa.ir/))
+I requested for financial aid of Coursera on Machine Learning course by Andrew Ng, and thankfully, I could get it. (Certification in my [CV](https://cv.alirezad.ir/))
 
 
 First, in March 31th, my supervisor sent a database of data. 56 set of data. I started working on that. I use `scikit-learn` to work on data. `LogisticRegression` , `LogisticRegressionCV` , `SVM` and `k-nearest neighbot` models are used to train a model for enhancement, but, as I expected, they did not work properly because numbers are not seperatable linearly or based on any classical ML model.
