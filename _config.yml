@@ -137,7 +137,7 @@ related_blog_posts:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo:                          # <your-github-user-name>/<your-github-repo-name>
+  repo: hclimente/hclimente.github.io # <your-github-user-name>/<your-github-repo-name>
   repo_id:                       # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments             # name of the category under which discussions will be created
   category_id:                   # leave empty or specify your category_id (see https://giscus.app/)
@@ -150,15 +150,13 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -264,8 +262,8 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags will be displayed on the front page of your blog
-display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
+display_tags: [] # these tags will be displayed on the front page of your blog
+display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
