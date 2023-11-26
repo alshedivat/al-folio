@@ -1,96 +1,36 @@
----
-layout: default
----
-<!-- _layouts/cv.html -->
-{% unless site.data.resume %}
-<div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
-      {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
-  </header>
-
-  <article>
-    <div class="cv">
-      {% for entry in site.data.cv %}
-        <a class="anchor" id="{{ entry.title }}"></a>
-        <div class="card mt-3 p-3">
-          <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-          <div>
-          {% if entry.type == "list" %}
-            {% include cv/list.html %}
-          {% elsif entry.type == "map" %}
-            {% include cv/map.html %}
-          {% elsif entry.type == "nested_list" %}
-            {% include cv/nested_list.html %}
-          {% elsif entry.type == "time_table" %}
-            {% include cv/time_table.html %}
-          {% elsif entry.type == "list_groups" %}
-            {% include cv/list_groups.html %}
-          {% else %}
-            {{ entry.contents }}
-          {% endif %}
-          </div>
-        </div>
-      {% endfor %}
-      </div>
-  </article>
-
-</div>
-{% else %}
-<div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
-    {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
-  </header>
-
-  <article>
-    <div class="cv">
-      {% for data in site.data.resume %}
-        {% if site.jsonresume and site.jsonresume.size > 0 %}
-          {% unless site.jsonresume contains data[0] %}
-            {% continue %}
-          {% endunless %}
-        {% endif %}
-        {% if data[0] == "meta" or data[1].size == 0 %}
-          {% continue %}
-        {% endif %}
-        <a class="anchor" id="{{ data[0] }}"></a>
-        <div class="card mt-3 p-3">
-          <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
-          <div>
-          {% case data[0] %}
-            {% when "basics" %}
-              {% include resume/basics.html %}
-            {% when "education" %}
-              {% include resume/education.html %}
-            {% when "work" %}
-              {% include resume/work.html %}
-            {% when "volunteer" %}
-              {% include resume/volunteer.html %}
-            {% when "projects" %}
-              {% include resume/projects.html %}
-            {% when "awards" %}
-              {% include resume/awards.html %}
-            {% when "skills" %}
-              {% include resume/skills.html %}
-            {% when "publications" %}
-              {% include resume/publications.html %}
-            {% when "languages" %}
-              {% include resume/languages.html %}
-            {% when "interests" %}
-              {% include resume/interests.html %}
-            {% when "certificates" %}
-              {% include resume/certificates.html %}
-            {% else %}
-
-          {% endcase %}
-          </div>
-        </div>
-      {% endfor %}
-      </div>
-  </article>
-
-</div>
-{% endunless %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">--- layout: default --- {% unless site.data.resume %}</span></p>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>{{ CV LALA }} {% if page.cv_pdf %}{% endif %}</b></span></h1>
+<p class="p1"><span class="s1">{% if page.description %}</span></p>
+<p class="p3"><span class="s1">{{ page.description }}</span></p>
+<p class="p1"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1">{% for entry in site.data.cv %}</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>{{ entry.title }}</b></span></h3>
+<p class="p1"><span class="s1">{% if entry.type == "list" %} {% include cv/list.html %} {% elsif entry.type == "map" %} {% include cv/map.html %} {% elsif entry.type == "nested_list" %} {% include cv/nested_list.html %} {% elsif entry.type == "time_table" %} {% include cv/time_table.html %} {% elsif entry.type == "list_groups" %} {% include cv/list_groups.html %} {% else %} {{ entry.contents }} {% endif %}</span></p>
+<p class="p1"><span class="s1">{% endfor %}</span></p>
+<p class="p1"><span class="s1">{% else %}</span></p>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>{{ page.title }} {% if page.cv_pdf %}{% endif %}</b></span></h1>
+<p class="p1"><span class="s1">{% if page.description %}</span></p>
+<p class="p3"><span class="s1">{{ page.description }}</span></p>
+<p class="p1"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1">{% for data in site.data.resume %} {% if site.jsonresume and site.jsonresume.size &gt; 0 %} {% unless site.jsonresume contains data[0] %} {% continue %} {% endunless %} {% endif %} {% if data[0] == "meta" or data[1].size == 0 %} {% continue %} {% endif %}</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>{{ data[0] | capitalize }}</b></span></h3>
+<p class="p1"><span class="s1">{% case data[0] %} {% when "basics" %} {% include resume/basics.html %} {% when "education" %} {% include resume/education.html %} {% when "work" %} {% include resume/work.html %} {% when "volunteer" %} {% include resume/volunteer.html %} {% when "projects" %} {% include resume/projects.html %} {% when "awards" %} {% include resume/awards.html %} {% when "skills" %} {% include resume/skills.html %} {% when "publications" %} {% include resume/publications.html %} {% when "languages" %} {% include resume/languages.html %} {% when "interests" %} {% include resume/interests.html %} {% when "certificates" %} {% include resume/certificates.html %} {% else %} {% endcase %}</span></p>
+<p class="p1"><span class="s1">{% endfor %}</span></p>
+<p class="p1"><span class="s1">{% endunless %}</span></p>
+</body>
+</html>
