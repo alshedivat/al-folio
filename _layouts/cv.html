@@ -8,29 +8,128 @@
   <meta name="CocoaVersion" content="2487">
   <style type="text/css">
     p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
-    p.p3 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
     span.s1 {font-kerning: none}
   </style>
 </head>
 <body>
-<p class="p1"><span class="s1">--- layout: default --- {% unless site.data.resume %}</span></p>
-<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>{{ page.title }} {% if page.cv_pdf %}{% endif %}</b></span></h1>
-<p class="p1"><span class="s1">{% if page.description %}</span></p>
-<p class="p3"><span class="s1">{{ page.description }}</span></p>
-<p class="p1"><span class="s1">{% endif %}</span></p>
-<p class="p1"><span class="s1">{% for entry in site.data.cv %}</span></p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>{{ entry.title }}</b></span></h3>
-<p class="p1"><span class="s1">{% if entry.type == "list" %} {% include cv/list.html %} {% elsif entry.type == "map" %} {% include cv/map.html %} {% elsif entry.type == "nested_list" %} {% include cv/nested_list.html %} {% elsif entry.type == "time_table" %} {% include cv/time_table.html %} {% elsif entry.type == "list_groups" %} {% include cv/list_groups.html %} {% else %} {{ entry.contents }} {% endif %}</span></p>
-<p class="p1"><span class="s1">{% endfor %}</span></p>
+<p class="p1"><span class="s1">---</span></p>
+<p class="p1"><span class="s1">layout: default</span></p>
+<p class="p1"><span class="s1">---</span></p>
+<p class="p1"><span class="s1">&lt;!-- _layouts/cv.html --&gt;</span></p>
+<p class="p1"><span class="s1">{% unless site.data.resume %}</span></p>
+<p class="p1"><span class="s1">&lt;div class="post"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;header class="post-header"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h1 class="post-title"&gt;{{ page.title }} {% if page.cv_pdf %}&lt;a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"&gt;&lt;i class="fas fa-file-pdf"&gt;&lt;/i&gt;&lt;/a&gt;{% endif %}&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% if page.description %}&lt;p class="post-description"&gt;{{ page.description }}&lt;/p&gt;{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/header&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;h4&gt;Table of contents&lt;/h4&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;ul class="timeline"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% for entry in site.data.cv %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="#{{ entry.title }}"&gt;&lt;span class="badge-toc"&gt;{{ entry.title }}&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% endfor %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/ul&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;article&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="cv"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% for entry in site.data.cv %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;a class="anchor" id="{{ entry.title }}"&gt;&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="card mt-3 p-3"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;h3 class="card-title font-weight-medium"&gt;{{ entry.title }}&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% if entry.type == "list" %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% include cv/list.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% elsif entry.type == "map" %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% include cv/map.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% elsif entry.type == "nested_list" %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% include cv/nested_list.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% elsif entry.type == "time_table" %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% include cv/time_table.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% elsif entry.type == "list_groups" %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% include cv/list_groups.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% else %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{{ entry.contents }}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% endfor %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/article&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
 <p class="p1"><span class="s1">{% else %}</span></p>
-<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>{{ page.title }} {% if page.cv_pdf %}{% endif %}</b></span></h1>
-<p class="p1"><span class="s1">{% if page.description %}</span></p>
-<p class="p3"><span class="s1">{{ page.description }}</span></p>
-<p class="p1"><span class="s1">{% endif %}</span></p>
-<p class="p1"><span class="s1">{% for data in site.data.resume %} {% if site.jsonresume and site.jsonresume.size &gt; 0 %} {% unless site.jsonresume contains data[0] %} {% continue %} {% endunless %} {% endif %} {% if data[0] == "meta" or data[1].size == 0 %} {% continue %} {% endif %}</span></p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>{{ data[0] | capitalize }}</b></span></h3>
-<p class="p1"><span class="s1">{% case data[0] %} {% when "basics" %} {% include resume/basics.html %} {% when "education" %} {% include resume/education.html %} {% when "work" %} {% include resume/work.html %} {% when "volunteer" %} {% include resume/volunteer.html %} {% when "projects" %} {% include resume/projects.html %} {% when "awards" %} {% include resume/awards.html %} {% when "skills" %} {% include resume/skills.html %} {% when "publications" %} {% include resume/publications.html %} {% when "languages" %} {% include resume/languages.html %} {% when "interests" %} {% include resume/interests.html %} {% when "certificates" %} {% include resume/certificates.html %} {% else %} {% endcase %}</span></p>
-<p class="p1"><span class="s1">{% endfor %}</span></p>
+<p class="p1"><span class="s1">&lt;div class="post"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;header class="post-header"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h1 class="post-title"&gt;{{ page.title }} {% if page.cv_pdf %}&lt;a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"&gt;&lt;i class="fas fa-file-pdf"&gt;&lt;/i&gt;&lt;/a&gt;{% endif %}&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% if page.description %}&lt;p class="post-description"&gt;{{ page.description }}&lt;/p&gt;{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/header&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;h4&gt;Table of contents&lt;/h4&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;ul class="timeline"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% for entry in site.data.resume %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% if site.jsonresume and site.jsonresume.size &gt; 0 %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% unless site.jsonresume contains entry[0] %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>{% continue %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% endunless %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% if entry[0] == "meta" or entry[1].size == 0 %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% continue %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="#{{ entry[0] }}"&gt;&lt;span class="badge-toc"&gt;{{ entry[0] | capitalize }}&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% endfor %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/ul&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;article&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="cv"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% for data in site.data.resume %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>{% if site.jsonresume and site.jsonresume.size &gt; 0 %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% unless site.jsonresume contains data[0] %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% continue %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% endunless %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>{% if data[0] == "meta" or data[1].size == 0 %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% continue %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;a class="anchor" id="{{ data[0] }}"&gt;&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="card mt-3 p-3"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;h3 class="card-title font-weight-medium"&gt;{{ data[0] | capitalize }}&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% case data[0] %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% when "basics" %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>{% include resume/basics.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% when "education" %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>{% include resume/education.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% when "work" %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>{% include resume/work.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% when "volunteer" %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>{% include resume/volunteer.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% when "projects" %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>{% include resume/projects.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% when "awards" %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>{% include resume/awards.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% when "skills" %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>{% include resume/skills.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% when "publications" %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>{% include resume/publications.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% when "languages" %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>{% include resume/languages.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% when "interests" %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>{% include resume/interests.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% when "certificates" %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>{% include resume/certificates.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% else %}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% endcase %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% endfor %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/article&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
 <p class="p1"><span class="s1">{% endunless %}</span></p>
 </body>
 </html>
