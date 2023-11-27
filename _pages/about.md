@@ -16,11 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My goal is to find genetic predictors of disease that are useful for diagnosis, treatment, and understanding the disease's biology. Traditionally, complex diseases like Alzheimer's disease are studied through genome-wide association studies ([GWAS](https://en.wikipedia.org/wiki/Genome-wide_association_study)). However, conventional GWAS have failed to find a significant share of those genetic causes. I am interested in closing this gap by researching machine learning methods that extract more information from GWAS. Specifically, I superimpose GWAS information onto [biological networks](https://en.wikipedia.org/wiki/Biological_network). Then, I explore such networks considering both the statistical association of each genetic factor - obtained from GWAS - and the biological context - obtained from the network. However, there are many open questions about how to do this, for instance:
+As a Senior Data Scientist in Novo Nordisk, my goal is to find genetic predictors of disease that are useful for diagnosis, treatment, and understanding the underlying biology. To that end, I use machine learning to assist with modeling, biomarker discovery and variant interpretation.
 
-- How to exactly integrate GWAS information with networks?
-- What is the right strategy to find truly associated genetic factors? Which underlying assumptions are warranted?
-- What sources of information should we consider when building those networks?
-- What is the suitable unit of analysis? The SNP? The gene? The pathway?
+I received my PhD from [MINES ParisTech](www.mines-paristech.fr), in Paris, France, under the supervision of [Chloé-Agathe Azencott](https://cazencott.info/). In my thesis I explored graph-based methods for genetic studies. Afterwards, I was accepted in [RIKEN's](https://www.riken.jp/en/research/labs/aip/) [SPDR program](https://www.riken.jp/en/careers/programs/spdr/) to conduct my postdoctoral research with [Makoto Yamada](https://www.oist.jp/research/makoto-yamada). I focused on the development and application of novel machine learning methods.
 
-With my multidisciplinary background in machine learning, statistical genetics, and biotechnology, I believe I am in a privileged position to tackle such questions
