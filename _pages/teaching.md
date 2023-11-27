@@ -1,12 +1,16 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: At Université Paris-Dauphine, PSL
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
-Organize your courses by years, topics, or universities, however you like!
+
+
+- Spring 2022-23: Macroeconomics, B.A 1st year (Mathematics track)
+- Spring 2022: Qualitative variable using STATA, M.A 1st year (International Affair track)
+- Spring 2021: Introduction to macroeconomics, B.A 1st year
+- Fall 2020: National Accountability, B.A 1st year
