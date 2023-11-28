@@ -8,10 +8,10 @@
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
             {%- if site.title == "blank" -%}
               {%- if site.first_name -%}
-                <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
+                {{- site.first_name -}}&nbsp;
               {%- endif -%}
               {%- if site.middle_name -%}
-                {{- site.middle_name -}}&nbsp;
+                <span class="font-weight-bold">{{- site.middle_name -}}&nbsp;</span>
               {%- endif -%}
               {%- if site.last_name -%}
                 {{- site.last_name -}}

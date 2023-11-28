@@ -25,7 +25,6 @@
 @STRING{allerton_50 = "Proc. 50th Ann. Allerton Conf. Comm. Control Comput."}
 @STRING{allerton = "Proc. Ann. Allerton Conf. Comm. Control Comput. (Allerton)"}
 
-<<<<<<< HEAD
 % MACHINE LEARNING
 %% CONFERENCE PROCEEDINGS
 @STRING{colt = "Conf. Learn. Theory (COLT)"}
@@ -100,15 +99,6 @@
 @PREAMBLE{"\newcommand{\noopsort}[1]{}"}
 
 
-@article{Yoo--Ha--Yi--Ryu--Kim--Ha--Kim--Yoon2017,
-  abbr={ArXiv},
-  title={Energy-based sequence {GAN}s for recommendation and their connection to imitation learning},
-  author={Yoo, Jaeyoon and Ha, Heonseok and Yi, Jihun and Ryu, Jongha and Kim, Chanju and Ha, Jung-Woo and Kim, Young-Han and Yoon, Sungroh},
-  journal={arXiv:1706.09200},
-  arxiv={1706.09200},
-  year={2017}
-}
-
 @inproceedings{Ryu--Kim2018CUDE,
   abbr={ICIP},
   title={Conditional distribution learning with neural networks and its application to universal image denoising},
@@ -140,7 +130,7 @@
 @inproceedings{Bhatt--Huang--Kim--Ryu--Sen2018Allerton,
   abbr={Allerton},
   title={Monte {C}arlo methods for randomized likelihood decoding},
-  author={Bhatt<sup>†</sup>, Alankrita and Huang<sup>†</sup>, Jiun-Ting and Kim<sup>†</sup>, Young-Han and Ryu<sup>†</sup>, J. Jon and Sen<sup>†</sup>, Pinar}, 
+  author={Bhatt<sup>†</sup>, Alankrita and Huang<sup>†</sup>, Jiun-Ting and Kim<sup>†</sup>, Young-Han and Ryu<sup>†</sup>, J. Jon and Sen<sup>†</sup>, Pinar},
   booktitle=allerton,
   pages={204--211},
   year={2018},
@@ -185,25 +175,6 @@ In contrast to existing kernel-based spectral methods such as kernel principal c
 A concrete example of dot-product kernels over hypersphere is provided to illustrate the applicability of the proposed framework.},
 }
 
-@article{Ryu--Kim2021,
-  abbr={ArXiv},
-  title={One-Nearest-Neighbor Search Is All You Need for Minimax Optimal Regression and Classification},
-  author={Ryu, J. Jon and Kim, Young-Han},
-  year={preprint},
-  archivePrefix = {arXiv},
-  eprint = {2202.02464},
-  primaryClass = {math.ST},
-  author+an={1=highlight},
-  journal={Submitted; arXiv:2202.02464},
-  arxiv={2202.02464},
-  code={https://github.com/jongharyu/split-knn-rules},
-  selected={true},
-  abstract={Recently, Qiao, Duan, and Cheng~(2019) proposed a distributed nearest-neighbor classification method, in which a massive dataset is split into smaller groups, each processed with a $k$-nearest-neighbor classifier, and the final class label is predicted by a majority vote among these groupwise class labels. 
-This paper shows that the distributed algorithm with $k=1$ over a sufficiently large number of groups attains a minimax optimal error rate up to a multiplicative logarithmic factor under some regularity conditions, for both regression and classification problems. 
-Roughly speaking, distributed 1-nearest-neighbor rules with $M$ groups has a performance comparable to standard $\Theta(M)$-nearest-neighbor rules. 
-In the analysis, alternative rules with a refined aggregation method are proposed and shown to attain exact minimax optimal rates.},
-}
-
 @inproceedings{Ryu--Bhatt--Kim2022,
   abbr={AISTATS},
   title={Parameter-Free Online Linear Optimization with Side Information via Universal Coin Betting},
@@ -224,25 +195,6 @@ Concrete examples are studied in which the side information has a tree structure
 By modifying the context-tree weighting technique of Willems, Shtarkov, and Tjalkens (1995), the proposed algorithm is further refined to achieve the best performance over all adaptive algorithms with tree-structured side information of a given maximum order in a computationally efficient manner.},
 }
 
-@article{Ryu--Bhatt2022,
-  abbr={ArXiv},
-  title={On Confidence Sequences for Bounded Random Processes via Universal Gambling Strategies},
-  author={Ryu, J. Jon and Bhatt, Alankrita},
-  year={preprint},
-  archivePrefix = {arXiv},
-  primaryClass = {cs.IT},
-  author+an={1=highlight},
-  arxiv={2207.12382},
-  journal={arXiv:2207.12382},
-  code={https://github.com/jongharyu/confidence-sequence-via-gambling},
-  selected={false},
-  abstract={This paper considers the problem of constructing a confidence sequence for bounded random processes. 
-Building upon the gambling approach pioneered by Hendriks (2018) and Jun and Orabona (2019) and following the recent work of Waudby-Smith and Ramdas (2020) and Orabona and Jun (2021),
-this paper revisits the idea of Cover (1991)'s universal portfolio in constructing confidence sequences and demonstrates new properties, based on a natural \emph{two-horse race} perspective on the gambling approach.
-The main result of this paper is a new algorithm based on a mixture of lower bounds, which closely approximates the performance of Cover's universal portfolio with only constant per-round time complexity. 
-A higher-order generalization of a lower bound in (Fan et al, 2015), which is invoked in the proposed algorithm, may be of independent interest.},
-}
-
 @inproceedings{Bhatt--Ryu--Kim2023,
   abbr={AISTATS},
   title={On Universal Portfolios with Continuous Side Information},
@@ -260,37 +212,6 @@ In particular, given that a state function belongs to a collection of functions 
 This result can be viewed as an extension of the seminal work of Cover and Ordentlich (1996) that assumes a single state function.},
 }
 
-@article{Ryu--Kim2022,
-  abbr={ArXiv},
-  title={An Information-Theoretic Proof of {K}ac--{B}ernstein Theorem},
-  author={Ryu, J. Jon and Kim, Young-Han},
-  archivePrefix = {arXiv},
-  eprint = {2202.06005},
-  primaryClass = {cs.IT},
-  year={preprint},
-  author+an={1=highlight},
-  arxiv={2202.06005},
-  journal={arXiv:2202.06005},
-  abstract={A short, information-theoretic proof of the Kac--Bernstein theorem, which is stated as follows, is presented: For any independent random variables $X$ and $Y$, if $X+Y$ and $X-Y$ are independent, then $X$ and $Y$ are normally distributed.},
-}
-
-@article{Ryu--Choi--Kim--El-Khamy--Lee2022,
-  abbr={ArXiv},
-  title={Learning with Succinct Common Representation with {W}yner's Common Information},
-  author={Ryu, J. Jon and Choi, Yoojin and Kim, Young-Han and El-Khamy, Mostafa and Lee, Jungwon},
-  year={preprint},
-  journal={Submitted; arXiv:1905.10945},
-  author+an={1=highlight},
-  abstract={A new bimodal generative model is proposed for generating conditional and joint samples, accompanied with a training method with learning a succinct bottleneck representation.
-The proposed model, dubbed as the variational Wyner model, is designed based on two classical problems in network information theory---distributed simulation and channel synthesis---in which Wyner's common information arises as the fundamental limit on the succinctness of the common representation.
-The model is trained by minimizing the symmetric Kullback--Leibler divergence between variational and model distributions with regularization terms for common information, reconstruction consistency, and latent space matching terms, which is carried out via an adversarial density ratio estimation technique.
-The utility of the proposed approach is demonstrated through experiments for joint and conditional generation with synthetic and real-world datasets, as well as a challenging zero-shot image retrieval task.},
-  arxiv={1905.10945},
-  code={https://github.com/jongharyu/wyner-model},
-  selected={true},
-  note={<a href="http://bayesiandeeplearning.org/2018/papers/122.pdf">{A preliminary version}</a> of this manuscript was presented at the Bayesian Deep Learning Workshop at NeurIPS 2018, and <a href="http://bayesiandeeplearning.org/2021/papers/67.pdf">{an abridged version}</a> of the current manuscript was presented at the Bayesian Deep Learning workshop at NeurIPS 2021.},
-}
-
 @inproceedings{Yang--Sautiere--Ryu--Cohen2020,
   abbr={ICASSP},
   title={Feedback Recurrent Autoencoder},
@@ -304,3 +225,95 @@ The utility of the proposed approach is demonstrated through experiments for joi
   html={https://ieeexplore.ieee.org/document/9054074},
 }
 
+% PRERPINTS
+@article{Ryu--Kim2021,
+  abbr={ArXiv},
+  title={One-Nearest-Neighbor Search Is All You Need for Minimax Optimal Regression and Classification},
+  author={Ryu, J. Jon and Kim, Young-Han},
+  year={2022},
+  archivePrefix = {arXiv},
+  eprint = {2202.02464},
+  primaryClass = {math.ST},
+  author+an={1=highlight},
+  journal={Submitted; arXiv:2202.02464},
+  arxiv={2202.02464},
+  code={https://github.com/jongharyu/split-knn-rules},
+  selected={true},
+  abstract={Recently, Qiao, Duan, and Cheng~(2019) proposed a distributed nearest-neighbor classification method, in which a massive dataset is split into smaller groups, each processed with a $k$-nearest-neighbor classifier, and the final class label is predicted by a majority vote among these groupwise class labels.
+This paper shows that the distributed algorithm with $k=1$ over a sufficiently large number of groups attains a minimax optimal error rate up to a multiplicative logarithmic factor under some regularity conditions, for both regression and classification problems.
+Roughly speaking, distributed 1-nearest-neighbor rules with $M$ groups has a performance comparable to standard $\Theta(M)$-nearest-neighbor rules.
+In the analysis, alternative rules with a refined aggregation method are proposed and shown to attain exact minimax optimal rates.},
+}
+
+@article{Ryu--Bhatt2022,
+  abbr={ArXiv},
+  title={On Confidence Sequences for Bounded Random Processes via Universal Gambling Strategies},
+  author={Ryu, J. Jon and Bhatt, Alankrita},
+  year={2022},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.IT},
+  author+an={1=highlight},
+  arxiv={2207.12382},
+  journal={arXiv:2207.12382},
+  code={https://github.com/jongharyu/confidence-sequence-via-gambling},
+  selected={false},
+  abstract={This paper considers the problem of constructing a confidence sequence for bounded random processes.
+Building upon the gambling approach pioneered by Hendriks (2018) and Jun and Orabona (2019) and following the recent work of Waudby-Smith and Ramdas (2020) and Orabona and Jun (2021),
+this paper revisits the idea of Cover (1991)'s universal portfolio in constructing confidence sequences and demonstrates new properties, based on a natural \emph{two-horse race} perspective on the gambling approach.
+The main result of this paper is a new algorithm based on a mixture of lower bounds, which closely approximates the performance of Cover's universal portfolio with only constant per-round time complexity.
+A higher-order generalization of a lower bound in (Fan et al, 2015), which is invoked in the proposed algorithm, may be of independent interest.},
+}
+
+@article{Ryu--Kim2022,
+  abbr={ArXiv},
+  title={An Information-Theoretic Proof of {K}ac--{B}ernstein Theorem},
+  author={Ryu, J. Jon and Kim, Young-Han},
+  archivePrefix = {arXiv},
+  eprint = {2202.06005},
+  primaryClass = {cs.IT},
+  year={2022},
+  author+an={1=highlight},
+  arxiv={2202.06005},
+  journal={arXiv:2202.06005},
+  abstract={A short, information-theoretic proof of the Kac--Bernstein theorem, which is stated as follows, is presented: For any independent random variables $X$ and $Y$, if $X+Y$ and $X-Y$ are independent, then $X$ and $Y$ are normally distributed.},
+}
+
+@article{Ryu--Choi--Kim--El-Khamy--Lee2022,
+  abbr={ArXiv},
+  title={Learning with Succinct Common Representation with {W}yner's Common Information},
+  author={Ryu, J. Jon and Choi, Yoojin and Kim, Young-Han and El-Khamy, Mostafa and Lee, Jungwon},
+  year={2022},
+  journal={Submitted; arXiv:1905.10945},
+  author+an={1=highlight},
+  abstract={A new bimodal generative model is proposed for generating conditional and joint samples, accompanied with a training method with learning a succinct bottleneck representation.
+The proposed model, dubbed as the variational Wyner model, is designed based on two classical problems in network information theory---distributed simulation and channel synthesis---in which Wyner's common information arises as the fundamental limit on the succinctness of the common representation.
+The model is trained by minimizing the symmetric Kullback--Leibler divergence between variational and model distributions with regularization terms for common information, reconstruction consistency, and latent space matching terms, which is carried out via an adversarial density ratio estimation technique.
+The utility of the proposed approach is demonstrated through experiments for joint and conditional generation with synthetic and real-world datasets, as well as a challenging zero-shot image retrieval task.},
+  arxiv={1905.10945},
+  code={https://github.com/jongharyu/wyner-model},
+  selected={true},
+  note={<a href="http://bayesiandeeplearning.org/2018/papers/122.pdf">{A preliminary version}</a> of this manuscript was presented at the Bayesian Deep Learning Workshop at NeurIPS 2018, and <a href="http://bayesiandeeplearning.org/2021/papers/67.pdf">{an abridged version}</a> of the current manuscript was presented at the Bayesian Deep Learning workshop at NeurIPS 2021.},
+}
+
+@article{Shah--Shen--Ryu--Das--Sattigeri--Bu--Wornell2023,
+  abbr={ArXiv},
+  title={Group Fairness with Uncertainty in Sensitive Attributes},
+  author={Shah, Abhin and Shen, Maohao and Ryu, Jongha Jon and Das, Subhro and Sattigeri, Prasanna and Bu, Yuheng and Wornell, Gregory W},
+  archivePrefix = {arXiv},
+  eprint = {2202.06005},
+  primaryClass = {cs.LG},
+  journal={arXiv:2302.08077},
+  arxiv={2302.08077},
+  year={2023},
+  author+an={3=highlight},
+  note={<a href="http://bayesiandeeplearning.org/2018/papers/122.pdf">{A preliminary version}</a> of this manuscript was presented at ICML 2023 Workshop on Spurious Correlations, Invariance, and Stability.},
+}
+
+@article{Yoo--Ha--Yi--Ryu--Kim--Ha--Kim--Yoon2017,
+  abbr={ArXiv},
+  title={Energy-based sequence {GAN}s for recommendation and their connection to imitation learning},
+  author={Yoo, Jaeyoon and Ha, Heonseok and Yi, Jihun and Ryu, Jongha and Kim, Chanju and Ha, Jung-Woo and Kim, Young-Han and Yoon, Sungroh},
+  journal={arXiv:1706.09200},
+  arxiv={1706.09200},
+  year={2017}
+}
