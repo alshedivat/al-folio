@@ -7,14 +7,15 @@ subtitle: Postdoctoral Associate at MIT
 profile:
   align: right
   image: jon.jpg
-  image_cicular: false # crops the image to make it circular
-  address: >
+  image_circular: false # crops the image to make it circular
+  more_info: >
     <p>Room 36-677</p>
     <p>50 Vassar St</p>
     <p>Cambridge, MA 02139</p>
 
-news: yes  # includes a list of news items
-selected_papers: yes # includes a list of papers marked as "selected={true}"
+news: true  # includes a list of news items
+latest_posts: true  # includes a list of the newest posts
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
@@ -33,9 +34,8 @@ In general, I am interested in developing and analyzing <b>machine-learning algo
 using insights and tools from <b>information theory</b>.
 
 Recent research topics include:
-- representation learning;
-- nonparameteric methods for large-scale data;
+- operator decomposition with neural networks and its applications;
+- learning with uncertainty;
 - universal information processing.
 
 Check out my [resume](/resume) for more information.
-
