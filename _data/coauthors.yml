@@ -1,10 +1,34 @@
+"Bhatt":
+  - firstname: ["Alankrita"]
+    url: https://alankritabhatt.github.io/
+
+"Bu":
+  - firstname: ["Yuheng"]
+    url: https://buyuheng.github.io/
+
+"Choi":
+  - firstname: ["Yoojin"]
+    url: https://scholar.google.com/citations?user=haggDAwAAAAJ&hl=en
+
+"Cohen":
+  - firstname: ["Taco S."]
+    url: https://tacocohen.wordpress.com/
+
+"El-Khamy":
+  - firstname: ["Mostafa"]
+    url: https://scholar.google.com/citations?user=qxPC268AAAAJ&hl=en
+
+"Ganguly":
+  - firstname: ["Shouvik"]
+    url: https://acsweb.ucsd.edu/~shgangul/
+
+"Huang":
+  - firstname: ["Jiun-Ting"]
+    url: https://scholar.google.com/citations?user=nRIpwSwAAAAJ&hl=en
+
 "Kim":
   - firstname: ["Young-Han", "Y.-H."]
     url: https://web.eng.ucsd.edu/~yhk/
-
-"Noh":
-  - firstname: ["Yung-Kyun"]
-    url: http://aais.hanyang.ac.kr/nohyung/
 
 "Lee":
   - firstname: ["Daniel D."]
@@ -12,54 +36,34 @@
   - firstname: ["Jungwon"]
     url: https://scholar.google.com/citations?user=Cya7Va8AAAAJ&hl=en
 
-"Ganguly":
-  - firstname: ["Shouvik"]
-    url: https://acsweb.ucsd.edu/~shgangul/
-
-"Yang":
-  - firstname: ["Yang"]
-    url: https://yyang768osu.github.io/
+"Noh":
+  - firstname: ["Yung-Kyun"]
+    url: http://aais.hanyang.ac.kr/nohyung/
 
 "Sautière":
   - firstname: ["Guillaume"]
     url: https://naifrec.github.io/
 
-"Cohen":
-  - firstname: ["Taco S."]
-    url: https://tacocohen.wordpress.com/
-
-"Choi":
-  - firstname: ["Yoojin"]
-    url: https://scholar.google.com/citations?user=haggDAwAAAAJ&hl=en
-
-"El-Khamy":
-  - firstname: ["Mostfa"]
-    url: https://scholar.google.com/citations?user=qxPC268AAAAJ&hl=en
-
-"Bhatt":
-  - firstname: ["Alankrita"]
-    url: https://alankritabhatt.github.io/
-
-"Wornell":
-  - firstname: ["Gregory W."]
-    url: http://allegro.mit.edu/~gww/
-
-"Zheng":
-  - firstname: ["Lizhong"]
-    url: https://lizhongzheng.mit.edu/
-
-"Xu":
-  - firstname: ["Xiangxiang"]
-    url: https://xiangxiangxu.mit.edu/
-
-"Bu":
-  - firstname: ["Yuheng"]
-    url: https://buyuheng.github.io/
+"Shah":
+  - firstname: ["Abhin"]
+    url: https://abhin-shah.github.io/
 
 "Shen":
   - firstname: ["Maohao"]
     url: https://maohaos2.github.io/Maohao/
 
-"Shah":
-  - firstname: ["Abhin"]
-    url: https://abhin-shah.github.io/
+"Wornell":
+  - firstname: ["Gregory W."]
+    url: http://allegro.mit.edu/~gww/
+
+"Xu":
+  - firstname: ["Xiangxiang"]
+    url: https://xiangxiangxu.mit.edu/
+
+"Yang":
+  - firstname: ["Yang"]
+    url: https://yyang768osu.github.io/
+
+"Zheng":
+  - firstname: ["Lizhong"]
+    url: https://lizhongzheng.mit.edu/

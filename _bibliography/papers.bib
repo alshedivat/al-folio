@@ -112,12 +112,13 @@
   pdf={icip2018.pdf},
   poster={icip2018-poster.pdf},
   selected={false},
+  abstract={A simple and scalable denoising algorithm is proposed that can be applied to a wide range of source and noise models. At the core of the proposed CUDE algorithm is symbol-by-symbol universal denoising used by the celebrated DUDE algorithm, whereby the optimal estimate of the source from an unknown distribution is computed by inverting the empirical distribution of the noisy observation sequence by a deep neural network, which naturally and implicitly aggregates multi-pie contexts of similar characteristics and estimates the conditional distribution more accurately. The performance of CUDE is evaluated for grayscale images of varying bit depths, which improves upon DUDE and its recent neural network based extension, Neural DUDE.},
 }
 
 @inproceedings{Bhatt--Huang--Kim--Ryu--Sen2018ITW,
   abbr={ITW},
   title={Variations on a theme by {L}iu, {C}uff, and {V}erd{\'u}: The power of posterior sampling},
-  author={Bhatt<sup>†</sup>, Alankrita and Huang<sup>†</sup>, Jiun-Ting and Kim<sup>†</sup>, Young-Han and Ryu<sup>†</sup>, J. Jon and Sen<sup>†</sup>, Pinar},
+  author={Bhatt†, Alankrita and Huang†, Jiun-Ting and Kim†, Young-Han and Ryu†, J. Jon and Sen†, Pinar},
   booktitle=itw,
   pages={1--5},
   year={2018},
@@ -125,12 +126,13 @@
   author+an={1=abc;2=abc;3=abc;4=abc,highlight;5=abc},
   html={https://ieeexplore.ieee.org/document/8613436},
   pdf={itw2018.pdf},
+  abstract={The Liu--Cuff--Verdu lemma states that in estimating a source $X$ from an observation $Y$, making a random guess $X'$ from the posterior $p(x|y)$ can go wrong at most twice as often as the optimal answer. Several variations of this fundamental, yet rather arcane, result are explored for detection, decoding, and estimation problems.},
 }
 
 @inproceedings{Bhatt--Huang--Kim--Ryu--Sen2018Allerton,
   abbr={Allerton},
   title={Monte {C}arlo methods for randomized likelihood decoding},
-  author={Bhatt<sup>†</sup>, Alankrita and Huang<sup>†</sup>, Jiun-Ting and Kim<sup>†</sup>, Young-Han and Ryu<sup>†</sup>, J. Jon and Sen<sup>†</sup>, Pinar},
+  author={Bhatt†, Alankrita and Huang†, Jiun-Ting and Kim†, Young-Han and Ryu†, J. Jon and Sen†, Pinar},
   booktitle=allerton,
   pages={204--211},
   year={2018},
@@ -138,14 +140,16 @@
   author+an={1=abc;2=abc;3=abc;4=abc,highlight;5=abc},
   html={https://ieeexplore.ieee.org/document/8636049/},
   pdf={allerton2018.pdf},
+  abstract={A randomized decoder that generates the message estimate according to the posterior distribution is known to achieve the reliability comparable to that of the maximum a posteriori probability decoder. With a goal of practical implementations of such a randomized decoder, several Monte Carlo techniques, such as rejection sampling, Gibbs sampling, and the Metropolis algorithm, are adapted to the problem of efficient sampling from the posterior distribution. Analytical and experimental results compare the complexity and performance of these Monte Carlo decoders for simple linear codes and the binary symmetric channel.},
 }
 
 @article{Ryu--Ganguly--Kim--Noh--Lee2018,
   abbr={TIT},
   title={Nearest neighbor density functional estimation from inverse {L}aplace transform},
-  author={Ryu<sup>*</sup>, J. Jon and Ganguly<sup>*</sup>, Shouvik and Kim, Young-Han and Noh, Yung-Kyun and Lee, Daniel D.},
+  author={Ryu*, J. Jon and Ganguly*, Shouvik and Kim, Young-Han and Noh, Yung-Kyun and Lee, Daniel D.},
   journal=tit,
   year={2022},
+  month=feb,
   archivePrefix = {arXiv},
   eprint = {1805.08342},
   primaryClass = {math.ST},
@@ -155,7 +159,7 @@
   arxiv={1805.08342},
   code={https://github.com/jongharyu/knn-functional-estimation},
   selected={true},
-  abstract={A new approach to L2-consistent estimation of a general density functional using k-nearest neighbor distances is proposed, where the functional under consideration is in the form of the expectation of some function f of the densities at each point. The estimator is designed to be asymptotically unbiased, using the convergence of the normalized volume of a k-nearest neighbor ball to a Gamma distribution in the large-sample limit, and naturally involves the inverse Laplace transform of a scaled version of the function f. Some instantiations of the proposed estimator recover existing k-nearest neighbor based estimators of Shannon and Rényi entropies and Kullback–Leibler and Rényi divergences, and discover new consistent estimators for many other functionals such as logarithmic entropies and divergences. The L2-consistency of the proposed estimator is established for a broad class of densities for general functionals, and the convergence rate in mean squared error is established as a function of the sample size for smooth, bounded densities.},
+  abstract={A new approach to $L_2$-consistent estimation of a general density functional using k-nearest neighbor distances is proposed, where the functional under consideration is in the form of the expectation of some function f of the densities at each point. The estimator is designed to be asymptotically unbiased, using the convergence of the normalized volume of a $k$-nearest neighbor ball to a Gamma distribution in the large-sample limit, and naturally involves the inverse Laplace transform of a scaled version of the function $f$. Some instantiations of the proposed estimator recover existing $k$-nearest neighbor based estimators of Shannon and Rényi entropies and Kullback–Leibler and Rényi divergences, and discover new consistent estimators for many other functionals such as logarithmic entropies and divergences. The $L_2$-consistency of the proposed estimator is established for a broad class of densities for general functionals, and the convergence rate in mean squared error is established as a function of the sample size for smooth, bounded densities.},
 }
 
 @inproceedings{Ryu--Huang--Kim2021,
@@ -198,7 +202,7 @@ By modifying the context-tree weighting technique of Willems, Shtarkov, and Tjal
 @inproceedings{Bhatt--Ryu--Kim2023,
   abbr={AISTATS},
   title={On Universal Portfolios with Continuous Side Information},
-  author={Bhatt<sup>*</sup>, Alankirta and Ryu<sup>*</sup>, J. Jon and Kim, Young-Han},
+  author={Bhatt*, Alankrita and Ryu*, J. Jon and Kim, Young-Han},
   month=apr,
   year=2023,
   archivePrefix = {arXiv},
@@ -223,15 +227,18 @@ This result can be viewed as an extension of the seminal work of Cover and Orden
   author+an={3=highlight},
   arxiv={1911.04018},
   html={https://ieeexplore.ieee.org/document/9054074},
+  abstract={In this work, we propose a new recurrent autoencoder architecture, termed Feedback Recurrent AutoEncoder (FRAE), for online compression of sequential data with temporal dependency. The recurrent structure of FRAE is designed to efficiently extract the redundancy along the time dimension and allows a compact discrete representation of the data to be learned. We demonstrate its effectiveness in speech spectrogram compression. Specifically, we show that the FRAE, paired with a powerful neural vocoder, can produce high-quality speech waveforms at a low, fixed bitrate. We further show that by adding a learned prior for the latent space and using an entropy coder, we can achieve an even lower variable bitrate.},
 }
 
-@phdthesis{ryu2022information,
+@phdthesis{Ryu2022,
   title={From Information Theory to Machine Learning Algorithms: A Few Vignettes},
   author={Ryu, Jongha Jon},
   year={2022},
   month={September},
   school={University of California, San Diego},
-  note={Available online at \url{https://escholarship.org/uc/item/5fc8x66w}},
+  html={https://escholarship.org/uc/item/5fc8x66w},
+  note={PhD thesis.},
+  abstract={This dissertation illustrates how certain information-theoretic ideas and views on learning problems can lead to new algorithms via concrete examples.The three information-theoretic strategies taken in this dissertation are (1) to abstract out the gist of a learning problem in the infinite-sample limit; (2) to reduce a learning problem into a probability estimation problem and plugging-in a "good" probability; and (3) to adapt and apply relevant results from information theory. These are applied to three topics in machine learning, including representation learning, nearest-neighbor methods, and universal information processing, where two problems are studied from each topic.},
 }
 
 % preprints
@@ -240,9 +247,9 @@ This result can be viewed as an extension of the seminal work of Cover and Orden
   title={One-Nearest-Neighbor Search Is All You Need for Minimax Optimal Regression and Classification},
   author={Ryu, J. Jon and Kim, Young-Han},
   year={2022},
-  archivePrefix = {arXiv},
-  eprint = {2202.02464},
-  primaryClass = {math.ST},
+  archivePrefix={arXiv},
+  eprint={2202.02464},
+  primaryClass={math.ST},
   author+an={1=highlight},
   arxiv={2202.02464},
   code={https://github.com/jongharyu/split-knn-rules},
@@ -270,7 +277,7 @@ Building upon the gambling approach pioneered by Hendriks (2018) and Jun and Ora
 this paper revisits the idea of Cover (1991)'s universal portfolio in constructing confidence sequences and demonstrates new properties, based on a natural \emph{two-horse race} perspective on the gambling approach.
 The main result of this paper is a new algorithm based on a mixture of lower bounds, which closely approximates the performance of Cover's universal portfolio with only constant per-round time complexity.
 A higher-order generalization of a lower bound in (Fan et al, 2015), which is invoked in the proposed algorithm, may be of independent interest.},
-  note={Submitted to <i>IEEE Transactions on Information Theory</i> (minor revision); arXiv:2207.12382},
+  note={Submitted to <i>IEEE Trans. Inf. Theory</i> (minor revision).<br>arXiv:2207.12382},
 }
 
 @misc{Ryu--Choi--Kim--El-Khamy--Lee2022,
@@ -286,7 +293,7 @@ The utility of the proposed approach is demonstrated through experiments for joi
   arxiv={1905.10945},
   code={https://github.com/jongharyu/wyner-model},
   selected={true},
-  note={Submitted to <i>IEEE Transactions on Pattern Analysis and Machine Intelligence</i>; arXiv:1905.10945v2; <a href="http://bayesiandeeplearning.org/2018/papers/122.pdf">{A preliminary version}</a> of this manuscript was presented at the Bayesian Deep Learning Workshop at NeurIPS 2018, and <a href="http://bayesiandeeplearning.org/2021/papers/67.pdf">{an abridged version}</a> of the current manuscript was presented at the Bayesian Deep Learning workshop at NeurIPS 2021.},
+  note={Submitted to <i>{IEEE} Trans. Pattern Anal. Mach. Intell.</i><br>arXiv:1905.10945v2<br><a href="http://bayesiandeeplearning.org/2018/papers/122.pdf">{A preliminary version}</a> of this manuscript was presented at the Bayesian Deep Learning Workshop at NeurIPS 2018, and <a href="http://bayesiandeeplearning.org/2021/papers/67.pdf">{an abridged version}</a> of the current manuscript was presented at the Bayesian Deep Learning workshop at NeurIPS 2021.},
 }
 
 @misc{Shah--Shen--Ryu--Das--Sattigeri--Bu--Wornell2023,
@@ -294,13 +301,14 @@ The utility of the proposed approach is demonstrated through experiments for joi
   title={Group Fairness with Uncertainty in Sensitive Attributes},
   author={Shah, Abhin and Shen, Maohao and Ryu, Jongha Jon and Das, Subhro and Sattigeri, Prasanna and Bu, Yuheng and Wornell, Gregory W.},
   archivePrefix = {arXiv},
-  eprint = {2202.06005},
+  eprint={2302.08077},
   primaryClass = {cs.LG},
   howpublished={Submitted; arXiv:2302.08077},
   arxiv={2302.08077},
   year={2023},
   author+an={3=highlight},
-  note={<a href="http://bayesiandeeplearning.org/2018/papers/122.pdf">{A preliminary version}</a> of this manuscript was presented at ICML 2023 Workshop on Spurious Correlations, Invariance, and Stability.},
+  note={arXiv:2302.08077<br><a href="https://openreview.net/forum?id=QOe0ekZkCQ">{A preliminary version}</a> of this manuscript was presented at <a href="https://icml.cc/virtual/2023/workshop/21493">ICML 2023 Workshop on Spurious Correlations, Invariance, and Stability</a>.},
+  abstract={Learning a fair predictive model is crucial to mitigate biased decisions against minority groups in high-stakes applications. A common approach to learn such a model involves solving an optimization problem that maximizes the predictive power of the model under an appropriate group fairness constraint. However, in practice, sensitive attributes are often missing or noisy resulting in uncertainty. We demonstrate that solely enforcing fairness constraints on uncertain sensitive attributes can fall significantly short in achieving the level of fairness of models trained without uncertainty. To overcome this limitation, we propose a bootstrap-based algorithm that achieves the target level of fairness despite the uncertainty in sensitive attributes. The algorithm is guided by a Gaussian analysis for the independence notion of fairness where we propose a robust quadratically constrained quadratic problem to ensure a strict fairness guarantee with uncertain sensitive attributes. Our algorithm is applicable to both discrete and continuous sensitive attributes and is effective in real-world classification and regression tasks for various group fairness notions, e.g., independence and separation.},
 }
 
 @misc{Ryu--Xu--Erol--Bu--Zheng--Wornell2023,
@@ -314,7 +322,16 @@ The utility of the proposed approach is demonstrated through experiments for joi
   arxiv={2312.xxxxx},
   howpublished={arXiv:2312.xxxxx},
   selected={false},
-  note = {An extended abstract is to be presented at <a href="https://ml4physicalsciences.github.io/2023/">Machine Learning and the Physical Sciences Workshop, NeurIPS 2023</a>.},
+  abstract = {Top-$L$ eigenvalue decomposition (EVD) of a given linear operator, or finding its top-$L$ eigenvalues and eigenfunctions, is a fundamental task in many machine learning and scientific simulation problems.
+For high-dimensional eigenvalue problems, training neural networks to parameterize the eigenfunctions is considered as a promising alternative to the classical numerical linear algebra techniques.
+While several optimization frameworks have been proposed in this parametric approach, all the existing proposals either use an ad-hoc regularization to obtain orthogonal eigenfunctions and/or inherently suffer with biased gradient estimates.
+In this paper, we propose a new optimization framework based on the low-rank approximation characterization of a truncated singular value decomposition (SVD), accompanied with a technique called \emph{nesting} for correctly learning the top-$L$ singular- value and functions up to degeneracy.
+Top-$L$ EVD can be performed as a special case.
+The proposed optimization framework is easy to implement with off-the-shelf gradient-based optimization algorithms,
+since (1) it is based on an unconstrained optimization problem that naturally admits an unbiased gradient estimator,
+and (2) it works without any extra orthonormalization steps and regularization terms.
+We demonstrate the effectiveness of the proposed optimization framework for various use-cases in machine learning and computational physics.},
+  note = {arXiv:2312.xxxxx<br>An extended abstract is to be presented at <a href="https://ml4physicalsciences.github.io/2023/">Machine Learning and the Physical Sciences Workshop, NeurIPS 2023</a>.},
 }
 
 # unpublished technical reports
@@ -339,6 +356,7 @@ The utility of the proposed approach is demonstrated through experiments for joi
   journal={arXiv:1706.09200},
   arxiv={1706.09200},
   year={2017},
-  bibtex = {false},
+  bibtex={false},
+  abstract={Recommender systems aim to find an accurate and efficient mapping from historic data of user-preferred items to a new item that is to be liked by a user. Towards this goal, energy-based sequence generative adversarial nets (EB-SeqGANs) are adopted for recommendation by learning a generative model for the time series of user-preferred items. By recasting the energy function as the feature function, the proposed EB-SeqGANs is interpreted as an instance of maximum-entropy imitation learning.},
 }
 

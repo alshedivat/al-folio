@@ -285,7 +285,7 @@ scholar:
     article: journal articles,
     inproceedings: conference papers,
     report: miscellaneous,
-    phdthesis: thesis,
+    phdthesis: theses,
   }
 
   source: /_bibliography/
