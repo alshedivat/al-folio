@@ -270,14 +270,22 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: Ryu
+  last_name: [Ryu, "Ryu<sup>*</sup>"]
   first_name: [J. Jon, Jongha, Jongha Jon]
 
   style: ieee
   locale: en
   
-  sort_by: # year
+  sort_by: date # year
   order: descending
+  type_order: [misc, unpublished, book, article, inbook, proceedings, inproceedings, incollections, report]
+  type_names: {
+    unpublished: working papers,
+    misc: preprints,
+    article: journal articles,
+    inproceedings: conference papers,
+    report: miscellaneous
+  }
 
   source: /_bibliography/
   bibliography: papers.bib
