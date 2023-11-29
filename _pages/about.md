@@ -29,13 +29,13 @@ where I was fortunate to be advised by [Young-Han Kim](https://web.eng.ucsd.edu/
 My graduate study was generously supported by the [Kwanjeong Educational Foundation](http://www.ikef.or.kr/).
 Before the graduate study, I received my B.S. in [Electrical and Computer Engineering](https://ece.snu.ac.kr/en) and B.S. in [Mathematical Sciences](https://www.math.snu.ac.kr/) (with minor in [Physics](https://physics.snu.ac.kr/en)) with the highest distinction from [Seoul National University](https://en.snu.ac.kr) in 2015.
 
-My recent research topics include
+My recent research topics include:
 - operator decomposition with neural networks and its applications;
 - generative models (esp. energy-based models);
 - learning with uncertainty;
 - universal information processing.
 
 In general, I am interested in developing efficient machine learning algorithms based on first principles.
-I love to simplify complicated things.
+As an information theorist by training, I love to simplify complicated things.
 
 Check out my [resume](/resume) for more information.
