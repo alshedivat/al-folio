@@ -1,6 +1,18 @@
 - title: Teaching
   type: time_table
   contents:
+    - title: Cryptography - Master Praktikum
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: SS24
+      description: <a href="https://www.tcs.ifi.lmu.de/lehre/ss-2024/crypto_de.html">Softwareentwicklungspraktikum für Informatik im Nebenfach WS23/24</a>
+    - title: Softwareentwicklungspraktikum für Informatik im Nebenfach - Bachelor Praktikum
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: WS23/24
+      description: <a href="https://www.tcs.ifi.lmu.de/lehre/ws-2023-24/sepnf_de.html">Cryptography WS23/24</a>
+    - title: SAT Solving
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: WS23/24
+      description: <a href="https://www.tcs.ifi.lmu.de/lehre/ws-2023-24/sat_de.html">SAT Solving WS23/24</a>
     - title: Programming and Modelling with Haskell - Tutorial
       institution: Ludwig Maximilian University of Munich, Munich, Germany
       year: SS22
@@ -10,8 +22,7 @@
     - title: SAT Solving - Tutorial
       institution: Ludwig Maximilian University of Munich, Munich, Germany
       year: WS21/22
-      description:
-        -  <a href="https://uni2work.ifi.lmu.de/course/W21/IfI/SAT">SAT Solving WS21/22</a>
+      description: <a href="https://uni2work.ifi.lmu.de/course/W21/IfI/SAT">SAT Solving WS21/22</a>
     - title: Programming and Modelling with Haskell - Tutorial
       institution: Ludwig Maximilian University of Munich, Munich, Germany
       year: SS21
