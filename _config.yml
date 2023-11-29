@@ -278,13 +278,14 @@ scholar:
   
   sort_by: date # year
   order: descending
-  type_order: [misc, unpublished, book, article, inbook, proceedings, inproceedings, incollections, report]
+  type_order: [misc, unpublished, book, article, inbook, proceedings, inproceedings, incollections, report, phdthesis]
   type_names: {
     unpublished: working papers,
     misc: preprints,
     article: journal articles,
     inproceedings: conference papers,
-    report: miscellaneous
+    report: miscellaneous,
+    phdthesis: thesis,
   }
 
   source: /_bibliography/

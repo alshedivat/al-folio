@@ -35,7 +35,7 @@ My recent research topics include:
 - learning with uncertainty;
 - universal information processing.
 
-In general, I am interested in developing efficient machine learning algorithms based on first principles.
-As an information theorist by training, I love to simplify complicated things.
+As an information theorist by training, 
+I do research by simplifying complicated ideas, unifying concepts, and generalizing them to complex problems.
 
 Check out my [resume](/resume) for more information.
