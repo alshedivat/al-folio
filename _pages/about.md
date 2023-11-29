@@ -19,23 +19,23 @@ selected_papers: true  # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+[//]: <span style="font-weight:bold"><mark>
+[//]: 
+[//]: </mark></span>
+
 I am currently a postdoctoral associate at MIT, hosted by [Gregory W. Wornell](http://allegro.mit.edu/~gww/).
 Prior to joining MIT, I received my Ph.D. in [Electrical Engineering](https://ece.ucsd.edu/) from [UC San Diego](https://ucsd.edu/), 
 where I was fortunate to be advised by [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/).
 My graduate study was generously supported by the [Kwanjeong Educational Foundation](http://www.ikef.or.kr/).
+Before the graduate study, I received my B.S. in [Electrical and Computer Engineering](https://ece.snu.ac.kr/en) and B.S. in [Mathematical Sciences](https://www.math.snu.ac.kr/) (with minor in [Physics](https://physics.snu.ac.kr/en)) with the highest distinction from [Seoul National University](https://en.snu.ac.kr) in 2015.
 
-[//]: <span style="font-weight:bold"><mark>
-[//]: I am on the job market this academic year, looking for a postdoctoral position starting in Summer 2022.
-[//]: </mark></span>
-
-I received my B.S. in [Electrical and Computer Engineering](https://ece.snu.ac.kr/en) and B.S. in [Mathematical Sciences](https://www.math.snu.ac.kr/) (with minor in [Physics](https://physics.snu.ac.kr/en)) with the highest distinction from [Seoul National University](https://en.snu.ac.kr) in 2015.
-
-In general, I am interested in developing and analyzing <b>machine-learning algorithms</b>
-using insights and tools from <b>information theory</b>.
-
-Recent research topics include:
+My recent research topics include
 - operator decomposition with neural networks and its applications;
+- generative models (esp. energy-based models);
 - learning with uncertainty;
 - universal information processing.
+
+In general, I am interested in developing efficient machine learning algorithms based on first principles.
+I love to simplify complicated things.
 
 Check out my [resume](/resume) for more information.
