@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a second-year [Digital Humanities Ph. D.](https://www.epfl.ch/education/phd/eddh-digital-humanities/) student at [EFPL](https://www.epfl.ch/en/) and a Research Assistant in the [Social Computing Group](https://www.idiap.ch/en/scientific-research/social-computing) at [Idiap Research Institute](https://www.idiap.ch/en) under the supervision of [Prof. Daniel Gatica-Perez](https://www.idiap.ch/~gatica/).
+I am a second-year [Digital Humanities Ph. D.](https://www.epfl.ch/education/phd/eddh-digital-humanities/) candidate at [EFPL](https://www.epfl.ch/en/) and a Research Assistant in the [Social Computing Group](https://www.idiap.ch/en/scientific-research/social-computing) at [Idiap Research Institute](https://www.idiap.ch/en) under the supervision of [Prof. Daniel Gatica-Perez](https://www.idiap.ch/~gatica/).
 
 I am working on designing computational tools for urban security missions, together with multiple European cities and NGOs, following a human-centered methodology as part of the [IcARUS](https://www.icarus-innovation.eu/) project, funded under the European Union H2020 program.
 
@@ -29,4 +29,4 @@ I am broadly interested in the application of Data Science in social/political s
 
 I am keen on collaborations, so if you have similar interests or think I can be of any help with your work, please feel free to drop me a message!
 
-If you are interested in a student project using data science and machine learning for research in the intersection of social media, urban computing, computational democracy and data journalism, feel free to email me.
+If you are interested in a a semester/thesis project using data science and machine learning for research in the intersection of social media, urban computing, computational democracy and data journalism, feel free to email me.
