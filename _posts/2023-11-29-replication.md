@@ -35,7 +35,8 @@ I needed to knock out the lateral line. The prevailing wisdom at the time was th
 I learned all of these techniques, knock their lateral lines out, and the damndest thing happens (Bak-Coleman et al. 2013). The fish are pointed upstream just fine at speeds of 3 and 7 cm/s. These are well below what was required in the Montgomery work. Same species, and this is absent both a lateral line and visual cues. It didn't really matter how you measured it or what stats you ran. This is a godsend because I knew so little about stats at the time and even used dynamite plots.
 
 
-![Blind cavefish](/assets/img/RI2.png)
+![Blind cavefish](/assets/img/RI2.png){: width="750" }
+
 
 ## Something fishy is going on
 
@@ -53,7 +54,7 @@ It's a nice story that neatly explains the discrepancies, except there's a confo
 
 We started digging into the various aminoglycoside antibiotics and found that some are much better than others at reliably knocking out the lateral line at standard doses (Kulpa et al. 2015). For a host of reasons, this can possibly explain the apparent selective blocking of the lateral line system by Gentamycin. It can explain why gentamycin didn't stop rheotaxis in Montgomery, but doesn't get us any closer to figuring out why we couldn't stop rheotaxis using the good stuff. It did, however, point us in the right direction for making sure we knocked out the lateral line—superficial and canal.
 
-![Blind cavefish](/assets/img/Kulpa.png)
+![Blind cavefish](/assets/img/Kulpa.png){: width="750" }
 
 With this in hand, we started looking at the other differences. Another thing stuck out. Setting aside the Montgomery results on blind cave fish, rheotaxis seemed to depend on the lateral line for fish that spend their time on the substrate (Bak-Coleman Et al. 2014). Sure enough, when we went to test in a couple of species the results were clear. The two non-cavefish species Montgomery tested, despite their differences, were bottom-dwelling fish. The pattern was fairly consistent across the literature. We also pulled at other threads, the role of turbulence and and developmental stage. The list goes on, but we conducted a ton of experiments in a pretty short 2-3 year time span. We left one, in my memory, in the file-drawer which will be a story for the next blog post. 
 
