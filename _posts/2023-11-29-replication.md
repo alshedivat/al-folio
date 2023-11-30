@@ -38,6 +38,7 @@ I learned all of these techniques, knock their lateral lines out, and the damnde
 ![Blind cavefish](/assets/img/RI2.png){: width="750" }
 
 
+## Something fishy is going on
 
 Montgomery in 1997 had cleverly replicated the effect across three very different species. One was a saltwater fish that lived in Antarctica, the second a species endemic to New Zealand that lived in fast-moving freshwater streams. The third, our blind cave fish, found in mostly still, pitch-black water. We have the gamut of temperature gradients, flow gradients, across saltwater and freshwater. The effects are consistently huge, as were ours across the sighted and blind morphs.
 
