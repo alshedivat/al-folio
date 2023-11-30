@@ -87,8 +87,7 @@ The point is that when we talk about replication crises, scientific reform, open
 
 
 
-
-
+## References 
 
 1. <div class="csl-entry">Lyon, E. P. (1904). On rheotropism. I.—Rheotropism in fishes. <i>American Journal of Physiology--Legacy Content</i>. http://onlinelibrary.wiley.com/doi/10.1111/j.1469-185X.1974.tb01173.x/full</div>
 
@@ -104,10 +103,3 @@ The point is that when we talk about replication crises, scientific reform, open
 
 7. <div class="csl-entry">Coombs, S., Bak-Coleman, J., &#38; Montgomery, J. (2020). Rheotaxis revisited: a multi-behavioral and multisensory perspective on how fish orient to flow. In <i>The Journal of experimental biology</i> (Vol. 223, Issue 23). NLM (Medline). https://doi.org/10.1242/jeb.223008</div>
 
-## Subheading
-
-More content here.
-
-### Sub-subheading
-
-Even more content here.
