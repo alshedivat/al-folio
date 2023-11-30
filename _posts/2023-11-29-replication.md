@@ -8,7 +8,7 @@ categories: [metascience, statistics, fish]
 ---
 ## A fishy start to my career
 
-Although I now work on Homo sapiens, I got my start in the world of science studying the humble blind cavefish, Astyanax mexicanus. These are fascinating creatures that have evolved to live in absolute darkness and feast on bat guano. It's a rare corner of science where you can use the word troglodytic without any negative connotations.
+Although I now work on *Homo sapiens*, I got my start in the world of science studying the humble blind cavefish, *Astyanax mexicanus*. These are fascinating creatures that have evolved to live in absolute darkness and feast on bat guano. It's a rare corner of science where you can use the word troglodytic without any negative connotations.
 
 My undergraduate and Master's advisor, Sheryl Coombs, was particularly interested in how fish orient to currents, a behavior called rheotaxis. For most species at most stages in their lives, if you plunk them in moving water, they face upstream. We wanted understand the multi-sensory basis of this behavior, because although it is a simple one-dimensional output it can rely on input from almost any sensory system: vision, vestibular cues, their flow-sensing lateral line system, smell, touch... you name it. 
 
