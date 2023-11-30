@@ -83,12 +83,10 @@ Obviously, the same is not true across science, and some findings are entirely p
 The point is that when we talk about replication crises, scientific reform, open science, or how science "should be," I suspect the biggest point of contention is that very few of us have identical ideas of what science even is. We all carry some history of the research we've done, the methods we use, the questions we ask, and the people we've looked up to. For me, that history has led to skepticism that science is well enough defined to be capable of reform. I struggle to understand how we could give ESP replication failures and rheotactic replication failures the same diagnosis and prescription. Maybe the answer instead is to deform science, recognizing it for the amorphous blob that it is and trying to figure out how we can use it to sort out what the hell is going on.
 
 
+## Coda
+This is getting some traction, so I thought I should provide and update on what's happened in the field since. A paper in 2017 was published in *Nature* once again claiming that the lateral line is essential based on some elegant experiments in larval zebrafish (Oteiza 2017). I believe these experiments, and they provide some deep insight into the mechanism, at least for these younger fish. However, we also know that the mechanism seems to change throughout early development (Bak-Coleman, Smith and Coombs 2014) 
 
-
-
-
-
-
+We know this also isn't broadly true, we can take the lateral line out and still get rheotaxis in adult fish. Oddly, despite having sent my work to some of the authors of that study... none of this complexity is noted in the write-up. Perhaps someone will come along in a few years, fail to replicate that in adults, go back into the literature, and start hauling buckets. 
 
 
 ## References 
@@ -107,3 +105,7 @@ The point is that when we talk about replication crises, scientific reform, open
 
 7. <div class="csl-entry">Coombs, S., Bak-Coleman, J., &#38; Montgomery, J. (2020). Rheotaxis revisited: a multi-behavioral and multisensory perspective on how fish orient to flow. In <i>The Journal of experimental biology</i> (Vol. 223, Issue 23). NLM (Medline). https://doi.org/10.1242/jeb.223008</div>
 
+8. <div class="csl-entry">Oteiza, P., Odstrcil, I., Lauder, G., Portugues, R., &#38; Engert, F. (2017). A novel mechanism for mechanosensory-based rheotaxis in larval zebrafish. <i>Nature</i>, <i>547</i>(7664), 445–448. https://doi.org/10.1038/nature23014</div>
+
+
+9. <div class="csl-entry">Bak-Coleman, J., Smith, D., &#38; Coombs, S. (2015). Going with, then against the flow: Evidence against the optomotor hypothesis of fish rheotaxis. <i>Animal Behaviour</i>, <i>107</i>, 7–17. https://doi.org/10.1016/j.anbehav.2015.06.007</div>
