@@ -23,7 +23,7 @@ The literature on the subject stretched back about 100 years, with a paper every
 
 Of course, the elephant in the room was that our friends, the blind cavefish, can orient to currents just fine absent eyes. Vision is clearly not strictly required. Enter John Montgomery in what the Zoomers refer to as the late 20<sup>th</sup> century (1997). He ran very careful experiments with new techniques to answer the question once and for all (Montgomery et al. 1997). He knocked out the lateral line systems of three species of fish—including blind cave fish—and found that at low flow speeds, the lateral line was necessary, but not at high flow speeds. The replications and failed replications throughout the 20<sup>th</sup> century were explained by what psychologists these days are calling a hidden moderator: flow speed.
 
-The results couldn't be more obvious and I've included them below. The circles are with the lateral line fully knocked out and the squares are with the lateral line intact. The open and closed circles are interesting here as well. Without getting too into the weeds, the circles indicate scraping off the lateral line system's cells or treating the fish with cobalt chloride. The squares indicate using a specific antibiotic to selectively knock out part of the lateral line system and the control. Solving a long-standing debate, this work was rightly published in *Nature*. A rarity for the field.
+The results couldn't be more obvious and I've included them below. The circles are with the lateral line fully knocked out and the squares are with the lateral line intact. The open and closed circles are interesting here as well. Without getting too into the weeds, the circles indicate scraping off the lateral line system's cells or treating the fish with cobalt chloride. The squares indicate using a specific antibiotic to selectively knock out part of the lateral line system and the control. Solving  a long-standing debate, this work was rightly published in *Nature*. A rarity for the field.
 
 ![Blind cavefish](/assets/img/montgomery1997.png){: width="750" }
 
@@ -32,9 +32,10 @@ One of the really cool things about blind cave fish is that they're the same spe
 
 I needed to knock out the lateral line. The prevailing wisdom at the time was that Cobalt Chloride could be unethical to use, as it is more globally toxic. Gentamycin supposedly only knocked out part of the lateral line, but its cousins neomycin and streptomycin took out the whole thing. It's reversible too, so two weeks later the fish are fine and back to normal. You can also verify the lateral line is knocked out with a harmless fluorescent dye called DASPEI.
 
-I learn all of these techniques, knock their lateral lines out, and the damndest thing happens (Bak-Coleman et al. 2013). The fish are pointed upstream just fine at speeds of 3 and 7 cm/s. These are well below what was required in the Montgomery work. Same species, and this is absent both a lateral line and visual cues. It didn't really matter how you measured it or what stats you ran. This is a godsend because I knew so little about stats at the time and even used dynamite plots.
+I learned all of these techniques, knock their lateral lines out, and the damndest thing happens (Bak-Coleman et al. 2013). The fish are pointed upstream just fine at speeds of 3 and 7 cm/s. These are well below what was required in the Montgomery work. Same species, and this is absent both a lateral line and visual cues. It didn't really matter how you measured it or what stats you ran. This is a godsend because I knew so little about stats at the time and even used dynamite plots.
 
-![Blind cavefish](/assets/img/ri2.png)
+
+![Blind cavefish](/assets/img/RI2.png)
 
 ## Something fishy is going on
 
@@ -52,7 +53,7 @@ It's a nice story that neatly explains the discrepancies, except there's a confo
 
 We started digging into the various aminoglycoside antibiotics and found that some are much better than others at reliably knocking out the lateral line at standard doses (Kulpa et al. 2015). For a host of reasons, this can possibly explain the apparent selective blocking of the lateral line system by Gentamycin. It can explain why gentamycin didn't stop rheotaxis in Montgomery, but doesn't get us any closer to figuring out why we couldn't stop rheotaxis using the good stuff. It did, however, point us in the right direction for making sure we knocked out the lateral line—superficial and canal.
 
-![Blind cavefish](/assets/img/kulpa.png)
+![Blind cavefish](/assets/img/Kulpa.png)
 
 With this in hand, we started looking at the other differences. Another thing stuck out. Setting aside the Montgomery results on blind cave fish, rheotaxis seemed to depend on the lateral line for fish that spend their time on the substrate (Bak-Coleman Et al. 2014). Sure enough, when we went to test in a couple of species the results were clear. The two non-cavefish species Montgomery tested, despite their differences, were bottom-dwelling fish. The pattern was fairly consistent across the literature. We also pulled at other threads, the role of turbulence and and developmental stage. The list goes on, but we conducted a ton of experiments in a pretty short 2-3 year time span. We left one, in my memory, in the file-drawer which will be a story for the next blog post. 
 
