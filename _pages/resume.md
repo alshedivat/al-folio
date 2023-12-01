@@ -38,7 +38,7 @@ nav: true
 
 ## reviewer service
 - **Journal**: [JSAIT](https://www.itsoc.org/jsait).
-- **Conference**: ISIT 2017, AISTATS 2022, ICML 2022, NeurIPS 2022, ITW 2022.
+- **Conference**: ISIT 2017; ITW 2022; AISTATS 2022, 2023, 2024; ICML 2022, 2023; NeurIPS 2022, 2023; ICLR 2024. 
 
 ---
 
