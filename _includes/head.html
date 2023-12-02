@@ -1,6 +1,116 @@
     <!-- Metadata, OpenGraph and Schema.org -->
     {% include metadata.html %}
 
+
+    <style>
+    .main-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        gap: 20px;
+    }
+    .canvas-container {
+        flex: 2; /* 2 parts of the space */
+        max-width: 650px;
+    }
+    #myCanvas {
+        width: 100%;
+        height: auto;
+    }
+    .controls-container {
+        flex: 1; /* 1 part of the space */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .slider-button-container {
+        display: flex;
+        align-items: center;
+        gap: 10px; /* Space between slider and button */
+    }
+    @media (max-width: 600px) {
+        .main-container {
+            flex-direction: column;
+            align-items: center;
+        }
+    .slider-button-container {
+    flex-direction: row; /* Keep slider and button side by side */
+    justify-content: center; /* Center the items */
+    align-items: center;
+    gap: 10px;
+    width: 100%; /* Full width to accommodate both elements */
+    }
+    .canvas-container, .controls-container {
+        flex: none; /* Override the flex setting for smaller screens */
+        width: 100%; /* Full width on small screens */
+    }
+    }
+
+    .slider {
+    -webkit-appearance: none; /* Override default look */
+    width: 60%; /* Full width */
+    height: 15px; /* Slider track height */
+    background: #d3d3d3; /* Slider track color */
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    }
+    .slider:hover {
+        opacity: 1; /* Full opacity on hover */
+    }
+    /* Styles for the slider thumb (circle) */
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 25px; /* Width and height should be equal for a circle */
+        height: 25px; /* Equal to width */
+        background: #4CAF50; /* Thumb color */
+        border-radius: 50%; /* Rounded corners at 50% create a circle */
+        cursor: pointer;
+    }
+    .slider::-moz-range-thumb {
+        width: 25px; /* Width, equal to height for a circle */
+        height: 25px; /* Equal to width */
+        background: #4CAF50; /* Thumb color */
+        border-radius: 50%; /* Rounded corners at 50% create a circle */
+        cursor: pointer;
+    }
+    #bw {
+    display: inline-block; /* or 'inline' depending on your layout */
+    margin-right: 10px; /* Adjust spacing */
+    /* other styles as necessary */
+    }
+    /* Adjacent element styles */
+    .next-element {
+        clear: both; /* if dealing with floats */
+        /* other styles as necessary */
+    }
+
+    .stylish-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 8px 12px; /* Top and bottom padding, left and right padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 14px; /* Font size */
+    transition: all 0.3s; /* Smooth transition for hover effects */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    }
+    .stylish-button:hover, .stylish-button:focus {
+        background-color: #45a049; /* Slightly darker green on hover/focus */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Larger shadow on hover/focus */
+    }
+    .stylish-button:active {
+        background-color: #3e8e41; /* Even darker green when the button is clicked */
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); /* Smaller shadow when clicked */
+    }
+    </style>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     <!-- Bootstrap & MDB -->
     <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
     <!-- <link rel="stylesheet" href="{{ '/assets/css/mdb.min.css' | relative_url | bust_file_cache }}"> -->

@@ -14,13 +14,13 @@
                   {% if content.location %}
                   <tr>
                     <td>
-                      <p class="location"><i class="fa-solid fa-location-dot iconlocation"></i> {{ content.location }}</p>
+                      <p class="location"><i class="fas fa-map-marker-alt iconlocation"></i> {{ content.location }}</p>
                     </td>
                   </tr>
                   {% endif %}
                 </tbody>
               </table>
-
+              
             </div>
           {% endif %}
           <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
@@ -32,13 +32,13 @@
             <tbody>
               {% if content.institution %}
               <tr>
-                <td style="vertical-align: top; text-align: center;" class="institution"><i class="fa-solid fa-building-columns iconinstitution"></i></td>
+                <td style="vertical-align: top; text-align: center;" class="institution"><i class="fas fa-university iconinstitution"></i></td>
                 <td class="institution">{{content.institution}}</td>
               </tr>
               {% endif %}
               {% if content.department %}
               <tr>
-                <td style="vertical-align: top; text-align: center;" class="department"><i class="fa-regular fa-circle-dot icondepartment"></i></td>
+                <td style="vertical-align: top; text-align: center;" class="department"><i class="far fa-dot-circle icondepartment"></i></td>
                 <td class="department">{{content.department}}</td>
               </tr>
               {% endif %}

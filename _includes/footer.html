@@ -1,6 +1,23 @@
+
+    <style>
+    #clustrmaps-container {
+    width: 10vw; /* Adjust the width as needed */
+    float: right; /* Right align on larger screens */
+    }
+    @media screen and (max-width: 600px) { /* Adjust the breakpoint as needed */
+        #clustrmaps-container {
+            width: 35%; /* Adjust the width for smaller screens */
+            float: right; /* Keep it right-aligned or change as needed */
+        }
+    }
+    </style>
+
     {% if site.footer_fixed %}
     <footer class="fixed-bottom">
       <div class="container mt-0">
+        <div id="clustrmaps-container">
+        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=XDvFmaRddfU91BwoWuLT6tdJsfWAV43WimAnxx0RGZ4"></script>
+        </div>
         &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
         {%- if site.impressum_path -%}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
@@ -13,6 +30,9 @@
     {%- else -%}
     <footer class="sticky-bottom mt-5">
       <div class="container">
+        <div id="clustrmaps-container">
+        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=XDvFmaRddfU91BwoWuLT6tdJsfWAV43WimAnxx0RGZ4"></script>
+        </div>
         &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
         {%- if site.impressum_path -%}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
