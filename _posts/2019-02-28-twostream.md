@@ -3,7 +3,7 @@ layout: distill
 title: Plasma Two Stream Instability
 description: Introduction to two stream instability in plasma through code
 tags: simulation
-giscus_comments: true
+giscus_comments: false
 date: 2019-02-28
 featured: true
 categories: physics
@@ -31,6 +31,8 @@ toc:
       - name: Case 1
       - name: Case 2
       - name: Combine Case 1 and 2
+      - name: Two stream instability
+  - name: Simulation
   - name: Equations
     # if a section has subsections, you can add them as follows:
   - name: Citations
@@ -193,8 +195,11 @@ $$
 F(\omega) = \frac{\omega_{p1}^2}{\omega^2} + \frac{(\omega - \omega_{p2}^2)^2}{(\omega - \omega_D)^2} = 1
 $$
 
-<div class="fake-img l-body" style="transform: scale(0.6);">
-  {% include figure.html path="assets/img/twostream/a.png" class="img-fluid rounded" zoomable=true %}
+<div class="l-page">
+  <center>
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.html path="assets/img/twostream/b.jpg" class="img-fluid rounded" %}
+  </div></center>
 </div>
 
 The solution is $$ \omega \approx \pm \omega_{p1} \quad \omega \approx \omega_D \pm \omega_{p2} $$
@@ -207,13 +212,20 @@ $$
 
 where $$ \alpha \equiv \frac{\omega_{p2}}{\omega_{p1}} $$
 
-For $$ \omega_D \approx 0 $$ (left figure)
+For $$ \omega_D \approx 0 $$
 
 Then the minimum of function $$ F\left( \omega \right) $$ is
 
 $$
 F_m = F(\omega_m) = \frac{\omega_{p1}^2}{\omega_D^2} \left(1 + \alpha^{2/3}\right)^3
 $$
+
+<div class="l-page">
+  <center>
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.html path="assets/img/twostream/a_new.jpg" class="img-fluid rounded" %}
+  </div></center>
+</div>
 
 Let’s assume that $$ n_{02} \ll n_{01} $$, $$ \omega_{p2} \ll \omega_{p1} \quad \text{and} \quad \alpha \ll 1.  $$
 
@@ -232,6 +244,37 @@ $$
 $$
 
 It will have the solution of $$ E \propto e^{i(kx - \omega_{re} t)} e^{\omega_{im} t} $$ which grows in time.
+
+The instability happened roughly at
+
+$$ v_f \approx v_0 $$
+
+When phase velocity is close to fluid velocity, the coupling effect between electrons and wave becomes very strong. With $$ v_0 $$ slightly larger than phase velocity, the energy of the electron is easily transferred to the wave, which results in the positive feedback growth of the electrostatic wave.
+
+### Two stream instability
+
+Instability occurs when $$ F(\omega_m) > 1 $$ when $$ \omega_{p1} = \omega_{p2} = \omega_p $$ it gives us
+
+$$ \frac{\omega_p^2}{\omega_D^2} > \frac{1}{8} $$
+
+And defining $$ \beta \equiv \frac{\omega_D}{\omega_p} $$ we have the following instability condition:
+
+$$ \beta < \sqrt{8} $$
+
+Which is verified by directly solving the dispersion relation.
+
+$$ \frac{\omega_p^2}{\omega^2} + \frac{\omega_p^2}{\left( \omega - \omega_D \right)^2} = 1 $$
+
+<div class="l-page-outset">
+  <center>
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.html path="assets/img/twostream/growth.jpg" class="img-fluid rounded" %}
+  </div></center>
+</div>
+
+***
+
+## Simulation
 
 ***
 

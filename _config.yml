@@ -413,6 +413,7 @@ jsonresume:
   - awards
   - certificates
   - skills
+  # - associations
   - languages
   - interests
   - references

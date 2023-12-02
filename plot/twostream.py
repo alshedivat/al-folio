@@ -89,8 +89,8 @@ fig.update_layout(
         title=r"$v_x$",
         title_font=dict(size=20, color="#779933"),
         showgrid=False,  # Disables x-axis grid lines
-        showline=True,  # Removes the axis line
-        zeroline=True,  # Removes the zero line
+        showline=False,  # Removes the axis line
+        zeroline=False,  # Removes the zero line
         tickmode="array",  # Specifies custom tick mode
         tickvals=[],  # Provides no tick values
         ticktext=[],  # Provides no tick text
@@ -100,8 +100,8 @@ fig.update_layout(
         title=r"$f(v_x)$",
         title_font=dict(size=20, color="#779933"),
         showgrid=False,  # Disables y-axis grid lines
-        showline=True,  # Removes the axis line
-        zeroline=True,  # Removes the zero line
+        showline=False,  # Removes the axis line
+        zeroline=False,  # Removes the zero line
         tickmode="array",  # Specifies custom tick mode
         tickvals=[],  # Provides no tick values
         ticktext=[],  # Provides no tick text
