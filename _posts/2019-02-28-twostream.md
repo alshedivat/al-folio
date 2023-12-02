@@ -33,14 +33,13 @@ toc:
       - name: Combine Case 1 and 2
       - name: Two stream instability
   - name: Simulation
-  - name: Equations
-    # if a section has subsections, you can add them as follows:
-  - name: Citations
-  - name: Footnotes
-  - name: Code Blocks
-  - name: Interactive Plots
-  - name: Layouts
-  - name: Other Typography?
+    subsections:
+      - name: Temporal grid
+      - name: Temporal grid and Spatial grid
+      - name: Temporal grid, Spatial grid and Finite difference
+      - name: First order weighting (CIC)
+  - name: Code 
+  - name: Results
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -74,7 +73,7 @@ Consider a system comprising two types of fluid, which can be either cold or hot
     </noscript>
 </div></center>
 
-We’ll first derived the linear behavior of the instability then verified the theory by applying Particle-in-Cell simulation.
+We’ll first derived the linear behavior of the instability then verified the theory by applying Particle-in-Cell simulation which follow closly with 1985 Berkely Plasma Physics via Computer Simulation for more comprehensive derivation.<d-footnote>Berkely Plasma Physics via Computer Simulation.</d-footnote>
 
 ***
 
@@ -272,268 +271,304 @@ $$ \frac{\omega_p^2}{\omega^2} + \frac{\omega_p^2}{\left( \omega - \omega_D \rig
   </div></center>
 </div>
 
-***
-
 ## Simulation
 
-***
-
-## Equations
-
-This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine.
-You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`.
-If you leave it inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
-
-To use display mode, again surround your expression with `$$` and place it as a separate paragraph.
-Here is an example:
+### Temporal grid
 
 $$
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+\frac{d\mathbf{r}_i}{dt} = \mathbf{v}_i, \quad \frac{d\mathbf{v}_i}{dt} = - \frac{e}{m_e} \mathbf{E}(\mathbf{r}_i)
 $$
 
-Note that MathJax 3 is [a major re-write of MathJax](https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html) that brought a significant improvement to the loading and rendering speed, which is now [on par with KaTeX](http://www.intmath.com/cg5/katex-mathjax-comparison.php).
+$$
+\mathbf{E}(\mathbf{x}) = \sum_i \frac{1}{4\pi\epsilon_0} \frac{e}{r_i^2}
+$$
 
-***
+In this scheme we only need two steps to implement this simulation: first find the electric field and then integrate the equation of motion. Combine these two procedures we have formed the temporal grid. However, this process is time-consuming (e.g., for N particles it has the computation complexity of $$ \approx 2N + N(N - 1)/2 $$).
 
-## Citations
+Method | complexity
+--- | ---
+Temporal Grid | $$ \approx N^2/2 + N $$
+PIC | $$ 4N $$ 
 
-Citations are then used in the article body with the `<d-cite>` tag.
-The key attribute is a reference to the id provided in the bibliography.
-The key attribute can take multiple ids, separated by commas.
 
-The citation is presented inline like this: <d-cite key="gregor2015draw"></d-cite> (a number that displays more information on hover).
-If you have an appendix, a bibliography is automatically created and populated in it.
+### Temporal grid and Spatial grid
 
-Distill chose a numerical inline citation style to improve readability of citation dense articles and because many of the benefits of longer citations are obviated by displaying more information on hover.
-However, we consider it good style to mention author last names if you discuss something at length and it fits into the flow well — the authors are human and it’s nice for them to have the community associate them with their work.
+A better way is to simplify the process of calculating the electric field since plasma provides shielding that only the particles within a few nearby Debye cubes are significant. We don’t need all the information of particles to calculate the electric field. Instead, we divide the space into a spatial grid that stores the information regarding density ($$ \rho $$), potential ($$ \phi $$), and field ($$ E $$).
 
-***
+In this scenario, we are equivalent to solving the following four equations:
 
-## Footnotes
+$$
+\frac{d\mathbf{r}_i}{dt} = \mathbf{v}_i, \quad \frac{d\mathbf{v}_i}{dt} = - \frac{e}{m_e} \mathbf{E}(\mathbf{r}_i)
+$$
 
-Just wrap the text you would like to show up in a footnote in a `<d-footnote>` tag.
-The number of the footnote will be automatically generated.<d-footnote>This will become a hoverable footnote.</d-footnote>
+$$
+\mathbf{E}(\mathbf{x}) = -\frac{d\phi(\mathbf{x})}{dx}, \quad \frac{d^2\phi(\mathbf{x})}{dx^2} = \frac{e}{\epsilon_0} (n_0 - n(\mathbf{x}))
+$$
 
-***
 
-## Code Blocks
+### Temporal grid, Spatial grid and Finite difference
 
-Syntax highlighting is provided within `<d-code>` tags.
-An example of inline code snippets: `<d-code language="html">let x = 10;</d-code>`.
-For larger blocks of code, add a `block` attribute:
+Changing the first and second-order ODE into finite difference form:
 
-<d-code block language="javascript">
-  var x = 25;
-  function(x) {
-    return x * x;
-  }
-</d-code>
+$$
+\frac{d\mathbf{r}_i}{dt} = \mathbf{v}_i
+$$
 
-**Note:** `<d-code>` blocks do not look good in the dark mode.
-You can always use the default code-highlight using the `highlight` liquid tag:
+$$
+\frac{d\mathbf{v}_i}{dt} = - \frac{e}{m_e} \mathbf{E}(\mathbf{r}_i)
+$$
+
+$$
+\mathbf{E}(\mathbf{x}) = -\frac{d\phi(\mathbf{x})}{dx} = \frac{\phi_{j-1} - \phi_{j+1}}{2\Delta x}, \quad \frac{d^2\phi(\mathbf{x})}{dx^2} = \frac{\phi_{j-1} - 2\phi_j + \phi_{j+1}}{(\Delta x)^2} = \frac{e}{\epsilon_0} (n_0 - n(\mathbf{x}))
+$$
+
+
+### First order weighting (CIC)
+
+$$
+q_j = q_c \frac{X_{j+1} - x_i}{\Delta x}, \quad q_{j+1} = q_c \frac{x_i - X_{j}}{\Delta x}
+$$
+
+$$
+\mathbf{E}(x_i) = \left[ \frac{x_i - X_j}{\Delta x} \right] \mathbf{E}_j + \left[ \frac{x_i - X_j}{\Delta x} \right] \mathbf{E}_{j+1}
+$$
+
+Parameter | Value
+--- | ---
+system length     | $$ 2\pi / 0.612 (\lambda_D) $$
+cell length       | $$ 0.7 (\lambda_D) $$
+particle per cell | $$ 1,000 $$
+beam velocity     | $$ 1 (\lambda_D \omega_p) $$
+
+<div class='caption'>
+particle-in-cell simulation parameters
+</div>
+
+## Code
+
+For demonstration, we will be using JavaScript for this code example of simulating two stream instability.
+First, let's initialized some variables and parameters.
 
 {% highlight javascript %}
-var x = 25;
-function(x) {
-  return x * x;
-}
+  var pi = 4.0 * Math.atan(1.0);
+  var twopi = 8.0 * Math.atan(1.0);
+  var L = twopi / 0.6124;
+  var CL = 0.7;
+  var PPC = 1000;
+  var NG = 15;
+  var NP = NG * PPC;
+  var vb = 1.0;
+  var dt = 0.1;
+  var dx = L / 15.0;
+  var n0 = NP / L;
+  var r = new Array();
+  var v = new Array();
+  var vp = new Array();
+  var rho = new Array();
+  var phi = new Array();
+  var E = new Array();
+  var t = 0.0;
+  var radius = 1;
 {% endhighlight %}
 
-***
+That's initialized two warm beam or you can first try two cold beam instead.
 
-## Interactive Plots
-
-You can add interative plots using plotly + iframes :framed_picture:
-
-<div class="l-page">
-  <iframe src="{{ '/assets/plotly/demo.html' | relative_url }}" frameborder='0' scrolling='no' height="500px" width="100%" style="border: 1px dashed grey;"></iframe>
-</div>
-
-The plot must be generated separately and saved into an HTML file.
-To generate the plot that you see above, you can use the following code snippet:
-
-{% highlight python %}
-import pandas as pd
-import plotly.express as px
-df = pd.read_csv(
-  'https://raw.githubusercontent.com/plotly/datasets/master/earthquakes-23k.csv'
-)
-fig = px.density_mapbox(
-  df,
-  lat='Latitude',
-  lon='Longitude',
-  z='Magnitude',
-  radius=10,
-  center=dict(lat=0, lon=180),
-  zoom=0,
-  mapbox_style="stamen-terrain",
-)
-fig.show()
-fig.write_html('assets/plotly/demo.html')
+{% highlight javascript %}
+  function ini() {
+    var bw = slider.value
+    t = 0.0
+    r = new Array()
+    v = new Array()
+    rho = new Array()
+    phi = new Array()
+    E = new Array()
+    // Uniform position of electron
+    for (var i = 0 ; i < NP ; i++){
+      var x = GRN(0.0, L);
+      r.push(x);
+    }  
+  
+  function gaussianRandom(mean=0, stdev=1) {
+      let u = 1 - Math.random(); // Converting [0,1) to (0,1]
+      let v = Math.random();
+      let z = Math.sqrt( -2.0 * Math.log( u ) ) * Math.cos( 2.0 * Math.PI * v );
+      // Transform to the desired mean and standard deviation:
+      return z * stdev + mean;
+  }
+  
+  function GRN(min, max) {
+      return Math.random() * (max - min) + min;
+  }
 {% endhighlight %}
 
-***
+The one of four step in one simulation step is calculate the density on the spatial grid as we mention earlier. The following code implement first order weighting method. Remember you must use same order of numerical method when weighting and interpolate the field.
 
-## Details boxes
+{% highlight javascript %}
+  function density(){
+    for (var i = 0 ; i < NG ; i++){
+      rho[i] = 0.0;
+    }
+    for (var i = 0 ; i < NP ; i++){
+      var j = Math.floor(r[i] / dx);
+      y = r[i] / dx - j;
+      if (j == 0){
+        rho[NG-1] = rho[NG-1] + (1.0 - y) / dx;
+        rho[0] = rho[0] + y / dx;
+      }
+      else{
+        rho[j-1] = rho[j-1] + (1.0 - y) / dx;
+        rho[j] = rho[j] + y / dx;
+      }
+    }
+    for (var i = 0 ; i < NG ; i++){
+      rho[i] = rho[i] / n0 - 1.0;
+    }
+  }
+{% endhighlight %}
 
-Details boxes are collapsible boxes which hide additional information from the user. They can be added with the `details` liquid tag:
+The next step is to calculate the electric field on the grid. Since electric field is just the derivate of potential, this step is rather straighforward.
 
-{% details Click here to know more %}
-Additional details, where math $$ 2x - 1 $$ and `code` is rendered correctly.
-{% enddetails %}
+{% highlight javascript %}
+  function field(){
+    E[0] = (phi[NG-1] - phi[1]) / 2.0 / dx;
+    E[NG-1] = (phi[NG-2] - phi[0]) / 2.0 / dx;
+    for (var i = 1 ; i < NG-1 ; i++){
+      E[i] = (phi[i-1] - phi[i+1]) / 2.0 / dx;
+    }
+  }
+{% endhighlight %}
 
-***
+Then we need to solve the poisson equation. In my implementation, I use interatively solve the eletric potential with knowing that we are using periodic boundary condition (first grid and the last grid has the same value). Note that this step can have different method of solving, the method introduce here is just one of the most simple one.
+{% highlight javascript %}
+  function Poisson(){
+    phi[NG-1] = 0.0;
+    phi[0] = 0.0;
+    for (var i = 0 ; i < NG ; i++){
+      phi[0] = phi[0] + i * rho[i];
+    }
+    phi[0] = phi[0] / NG;
+    phi[1] = rho[0] + 2.0 * phi[0];
+  
+    for (var i = 2 ; i < NG-1 ; i++){
+      phi[i] = rho[i-1] - phi[i-2] + 2.0 * phi[i-1];
+    }
+  
+    for (var i = 0 ; i < NG ; i++){
+      phi[i] = phi[i] * dx * dx;
+    }
+  }
+{% endhighlight %}
 
-## Layouts
+- accel Function:
 
-The main text column is referred to as the body.
-It is the assumed layout of any direct descendants of the `d-article` element.
+This function calculates the acceleration of a particle at a given position x.
+It determines the index j of the spatial grid cell the particle is in, based on its position x and grid spacing dx.
+The acceleration a is computed using linear interpolation of the electric field E. This interpolation considers the electric field at the current (E[j]) and previous (E[j-1]) grid points.
+Special handling is included for the case when the particle is in the first grid cell (j == 0), where it uses the last (E[NG-1]) and first (E[0]) grid points for interpolation.
 
-<div class="fake-img l-body">
-  <p>.l-body</p>
+- leapfrog Function:
+
+This function updates the position r[i] and velocity v[i] of each particle (i) using the Leapfrog integration method. This method is often used in simulations for its stability and accuracy in solving differential equations.
+accel(r[i]) is called to compute the acceleration for each particle, and then the velocity and position are updated accordingly.
+The function includes boundary handling to ensure particles remain within the bounds of 0 and L, wrapping around the simulation space if necessary.
+
+- halfleap Function:
+
+This function appears to perform a half-step update of the velocities of the particles, again using the accel function for acceleration. This might be part of a larger integration scheme where velocities are updated in half-steps at certain points in the simulation process.
+
+{% highlight javascript %}
+  function accel(x){
+    var j = Math.floor(x / dx);
+    var y = x / dx - j;
+    var a = 0.0;
+  
+    if (j == 0){
+      a = - (E[NG-1] * (1.0 - y) + E[0] * y);
+    }
+    else{
+      a = - (E[j-1] * (1.0 - y) + E[j] * y);
+    }
+    return a
+  }
+  
+  function leapfrog(){
+    var vp = v;
+    for (var i = 0 ; i < NP ; i++){
+      v[i] = v[i] + accel(r[i]) * dt;
+      r[i] = r[i] + vp[i] * dt;
+      // Check if particle are inside 0 <= x <= L
+      if (r[i] < 0.0){
+        r[i] = r[i] + L;
+      }
+      else if (r[i] >= L){
+        r[i] = r[i] - L;
+      }
+    }
+  }
+  
+  function halfleap(){
+    for (var i = 0 ; i < NP ; i++){
+      v[i] = v[i] - 0.5 * accel(r[i]) * dt;
+    }
+  }
+{% endhighlight %}
+
+The `move` function in the provided JavaScript code is a key part of a time-stepping procedure in a simulation, likely a Particle-in-Cell (PIC) simulation or similar. This function orchestrates several crucial steps in advancing the state of the system by one time step. Here's an overview of each step and its role in the simulation:
+
+1. **`density()`**:
+   - This function is presumably responsible for calculating the particle density at each point in the spatial grid. In PIC simulations, particle densities are often calculated by distributing the particles' contributions to the grid points, a process known as "scatter."
+
+2. **`Poisson()`**:
+   - This function likely solves the Poisson equation, which is a fundamental equation in electromagnetism. In the context of a PIC simulation, solving the Poisson equation is essential to determine the electric potential given a distribution of charge density (calculated in `density()`).
+
+3. **`field()`**:
+   - This function is expected to compute the electric field from the electric potential. In electrostatic PIC simulations, the electric field is typically derived from the gradient of the potential obtained from solving the Poisson equation.
+
+4. **`leapfrog()`**:
+   - As previously described, this function updates the positions and velocities of particles using the Leapfrog integration method. It uses the electric field calculated in `field()` to determine the forces on each particle and then updates their states accordingly.
+
+5. **`t = t + dt;`**:
+   - This line increments the simulation time `t` by the time step `dt`. It's a crucial part of the time-stepping process, ensuring that the simulation progresses forward in time.
+
+Overall, the `move` function encapsulates a complete update cycle of a simulation step. It integrates various components such as density calculation, solving the Poisson equation, computing the electric field, and updating particle states, which are all essential elements in computational simulations of plasmas or other particle-based systems. This function ensures that each of these components is executed in the correct order, maintaining the integrity of the simulation's progression over time.
+
+{% highlight javascript %}
+  function move(){
+    density();
+    Poisson();
+    field();
+    leapfrog();
+    t = t + dt;
+  }
+{% endhighlight %}
+
+## Results
+For two opposing moving electron beams with immobile ions as a background the dispersion relation gives:
+We can then verified that the growth rates of electric field in
+particular mode accord the theory we derive earlier.
+
+$$ 
+\frac{\omega_p^2}{\left( \omega + \omega_D \right)^2} + \frac{\omega_p^2}{\left( \omega - \omega_D \right)^2} = 1 
+$$
+
+<div class="l-page-outset">
+  <center>
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.html path="assets/img/twostream/mode1.png" class="img-fluid rounded" %}
+  </div></center>
+</div>
+<div class='caption'>
+Eelectric field growth rate.
 </div>
 
-For images you want to display a little larger, try `.l-page`:
 
-<div class="fake-img l-page">
-  <p>.l-page</p>
+Finally we found out that in PIC simulation, mode with larger wave number are more consistence with theory, compare to small wave number mode which are more prone to competed with different modes in consequence of smaller growth rate than theory predict.
+<div class="l-page-outset">
+  <center>
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.html path="assets/img/twostream/growth_rate.png" class="img-fluid rounded" %}
+  </div></center>
 </div>
-
-All of these have an outset variant if you want to poke out from the body text a little bit.
-For instance:
-
-<div class="fake-img l-body-outset">
-  <p>.l-body-outset</p>
+<div class='caption'>
+Compare simulation results with theoretical growth rate.
 </div>
-
-<div class="fake-img l-page-outset">
-  <p>.l-page-outset</p>
-</div>
-
-Occasionally you’ll want to use the full browser width.
-For this, use `.l-screen`.
-You can also inset the element a little from the edge of the browser by using the inset variant.
-
-<div class="fake-img l-screen">
-  <p>.l-screen</p>
-</div>
-<div class="fake-img l-screen-inset">
-  <p>.l-screen-inset</p>
-</div>
-
-The final layout is for marginalia, asides, and footnotes.
-It does not interrupt the normal flow of `.l-body` sized text except on mobile screen sizes.
-
-<div class="fake-img l-gutter">
-  <p>.l-gutter</p>
-</div>
-
-***
-
-## Other Typography?
-
-Emphasis, aka italics, with *asterisks* (`*asterisks*`) or _underscores_ (`_underscores_`).
-
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
-
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
-Here's our logo (hover to see the title text):
-
-Inline-style:
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-Reference-style:
-![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-
-Inline `code` has `back-ticks around` it.
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
-
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the
-raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
-
-
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
-
-This line is also a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
