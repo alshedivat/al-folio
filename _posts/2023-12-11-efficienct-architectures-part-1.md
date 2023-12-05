@@ -1,8 +1,8 @@
 ---
 layout: distill
-title: Efficient Architectures
+title: Efficient Architectures&#58; Part 1
 description: A summary of efficienct transformer-based models
-date: 2099-12-11
+date: 2099-12-5
 tags: technical
 categories: transformers efficient-methods-for-nlp
 
@@ -20,10 +20,8 @@ bibliography: 2022-12-11-efficient-architectures.bib
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
-  - name: Overview
   - name: Efficiency in Transformers
     subsections:
-      - name: Defining efficiency
       - name: The efficiency bottleneck
       - name: Complexity of feedforward layers
       - name: Design challenges
@@ -64,23 +62,11 @@ _styles: >
 
 ---
 
-## Overview
-
-TODO: change this to make it broader, not just a paper summary. 
-
-Since the publication of the original transformers paper <d-cite key="Vaswani2017AttentionIA"></d-cite>, countless transformer variants have been proposed which make improvements over the vanilla transformer. Many of these focus on memory and computational efficiency. In this blog post, I will discuss what we mean by efficiency in the context of language transformers. I will also describe some of the "X"-former variants, as well as broad categories of architecture types, as defined in *Efficient Transformers: A Survey* <d-cite key="Tay2020EfficientTA"></d-cite>. Finally, I will discuss the limitations of how efficiency is currently evaluated.
-
-***
-
 ## Efficiency in Transformers
 
-### Defining efficiency
-
 A transformer model's efficiency can be defined in terms of
-
 * Memory consumption (GPU sizes)
 * Computational costs (FLOPs)
-
 as applied to large inputs.
 
 These become especially relevant in case of scaling transformer models to work for longer sequences. TODO: add more details.
