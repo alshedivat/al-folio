@@ -34,7 +34,8 @@ nav: false
       - [Slides](https://www.caam.rice.edu/~caam551/mgtut.pdf) also exist.
   - [*APPM 6640: Multigrid Methods* at University of Colorado Boulder](https://grandmaster.colorado.edu/~stevem/appm6640/)
   - [*Multigrid* by Ulrich Trottenberg, Cornelius Oosterlee, and Anton Schuller](https://www.elsevier.com/books/multigrid/trottenberg/978-0-08-047956-9)
-  
+  - [*Computational Science Lecture Notes* by Matthew Knepley](https://cse.buffalo.edu/~knepley/classes/caam519/CSBook.pdf)
+
 **High-Performance Computing (HPC)**
   - [*MPI Tutorial* from Lawrence Livermore National Laboratory](https://hpc-tutorials.llnl.gov/mpi/)
   - [*Designing and Building Applications for Extreme Scale Systems (CS598)* by Bill Gropp at UIUC](http://wgropp.cs.illinois.edu/courses/cs598-s16/index.htm)
