@@ -1,13 +1,13 @@
 ---
 layout: page
-title: info
+title: Info
 nav: true
 nav_order: 4
 dropdown: true
 children: 
-    - title: cv
+    - title: CV
       permalink: /cv/
     - title: divider
-    - title: publications
+    - title: Publications
       permalink: /publications/
 ---

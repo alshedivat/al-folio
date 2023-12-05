@@ -163,6 +163,19 @@ blockquote {
   }
 }
 
+.large-description {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+  
+    a {
+      color: inherit;
+  
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
+  }
 
 // Navbar customization
 

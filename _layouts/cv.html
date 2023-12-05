@@ -9,7 +9,7 @@ layout: default
         <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a
                 href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank"
                 rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
-        {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
+        {% if page.description %}<p class="large-description">{{ page.description }}</p>{% endif %}
     </header>
 
     <h4>Table of contents</h4>
@@ -54,7 +54,7 @@ layout: default
         <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a
                 href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank"
                 rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
-        {% if page.description %}<p class="post-description" style="font-size: 1.0em;">{{ page.description }}</p>
+        {% if page.description %}<p class="post-description" style="font-size: 1.2em;">{{ page.description }}</p>
         {% endif %}
     </header>
 

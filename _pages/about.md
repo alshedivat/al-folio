@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Cosmology - Astrophysics - Deep Probabalistic Learning @ <a href='cmu.edu'>CMU</a>
 
