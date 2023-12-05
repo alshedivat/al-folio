@@ -62,4 +62,6 @@ I am excited to unveil an application based on this dataset, focusing on extract
 <div class="caption"> Flowchart illustrating the process of extracting snow depth from satellite altimetry data. The snow depth is derived using an elevation differencing workflow. Subsequently, a tree-structure-based regression model is trained and applied to predict the local variability of snow depth at any location and time. Satellite ICESat-2 graphics source: NASA.gov. (Zhihao, in preparation).
 </div>
 
+### Example of downscaled snow depth
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/My1fSNGNxb4?si=U0VNY9c3lTXd9Zir" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
