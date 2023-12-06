@@ -13,3 +13,33 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
+
+
+/* Table Styles for Both Light and Dark Modes */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #009879; /* A distinct header color */
+  color: white; /* White text for contrast */
+  padding: 8px; /* Spacing within cells */
+  border: 1px solid #ddd; /* Borders for definition */
+}
+
+td {
+  padding: 8px; /* Spacing within cells */
+  border: 1px solid #ddd; /* Borders for definition */
+}
+
+// /* Optional: If you want to add a subtle hover effect to table rows */
+// tr:hover {
+//   background-color: #f5f5f5;
+// }
+
+/* Ensure that the hover effect doesn't apply to code blocks */
+pre, code {
+  background: none;
+  border: none;
+}
