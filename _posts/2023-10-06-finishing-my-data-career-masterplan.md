@@ -29,6 +29,21 @@ The primary objective of this post is to share my experiences and insights into 
     caption = "Figure 1 - The DS, The DE and The MLE."
     %}
 </div>
+<style>
+    /* For desktops and larger tablets */
+    @media (min-width: 768px) {
+        .img-fluid {
+            width: 65%;
+        }
+    }
+
+    /* For mobile phones and smaller devices */
+    @media (max-width: 767px) {
+        .img-fluid {
+            width: 100%;
+        }
+    }
+</style>
 
 
 # 2. Role Complexity and Intersecting Responsibilities
