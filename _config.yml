@@ -72,6 +72,9 @@ github_username: akshitab # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: AkshitaB93 # your Twitter handle
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5399bb42a37ef56547a9fe6d10cfe3dccc694b42
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 =======
 >>>>>>> a7f1824 (website revamp)
@@ -81,8 +84,11 @@ telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+<<<<<<< HEAD
 =======
 >>>>>>> 14ad89a (update pub)
+=======
+>>>>>>> 5399bb42a37ef56547a9fe6d10cfe3dccc694b42
 scholar_userid: fzH3_G4AAAAJ # your Google Scholar ID
 semantic_scholar: https://www.semanticscholar.org/author/Akshita-Bhagia/2166136235
 orcid_id: # your ORCID ID
@@ -108,6 +114,7 @@ instagram_id: # your instagram id
 facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
+<<<<<<< HEAD
 zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 stackoverflow_id: #your stackoverflow id
@@ -117,6 +124,11 @@ goodreads_url: https://www.goodreads.com/user/show/20774648-akshita-bhagia # you
 =======
 
 >>>>>>> a7f1824 (website revamp)
+=======
+stackoverflow_id: #your stackoverflow id
+wordpress_url: https://the-writers-nest.com # your wordpress URL
+goodreads_url: https://www.goodreads.com/user/show/20774648-akshita-bhagia # your goodreads profile
+>>>>>>> 5399bb42a37ef56547a9fe6d10cfe3dccc694b42
 
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
@@ -152,7 +164,12 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
 giscus:
+<<<<<<< HEAD
   repo:                          # <your-github-user-name>/<your-github-repo-name>
+=======
+  repo: akshitab/akshitab.github.io      # <your-github-user-name>/<your-github-repo-name>
+  repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
+>>>>>>> 5399bb42a37ef56547a9fe6d10cfe3dccc694b42
   category: Comments             # name of the category under which discussions will be created
   mapping: title                 # identify discussions by post title
   strict: 1                      # use strict identification mode
@@ -277,7 +294,6 @@ jekyll-archives:
     year: '/blog/:year/'
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
-
 
 display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
 display_tags: ['technical', 'non-technical'] # this tags will be dispalyed on the front page of your blog
