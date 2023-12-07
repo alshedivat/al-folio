@@ -1,4 +1,4 @@
- ---
+---
 layout: page
 title: Amin Mirzaei
 description: Research assistant and PhD student
