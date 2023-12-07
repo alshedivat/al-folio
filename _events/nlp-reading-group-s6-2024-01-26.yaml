@@ -1,0 +1,13 @@
+---
+layout: reading-group
+speaker: "Bastian Rieck (Helmholtz Pioneer Campus and Technical University of Munich)"
+title: "Zoom and Enhance&#58; Towards Multi-Scale Representations in the Life Sciences"
+bio: Bastian is Principal Investigator of the AIDOS Lab at the Institute of AI for Health and the Helmholtz Pioneer Campus, focusing on machine learning methods in biomedicine. Dr. Rieck is also TUM Junior fellow and a member of ELLIS. Dr. Rieck was previously senior assistant in the Machine Learning & Computational Biology Lab of Prof. Dr. Karsten Borgwardt at ETH Zürich and was awarded his Ph.D.  in computer science from Heidelberg University.
+abstract: With novel measurement technologies easily resulting in a deluge of data, we need to consider multiple perspectives in order to 'see the forest for the trees.' A single perspective or scale is often insufficient to faithfully capture the underlying patterns of complex phenomena, in particular in the life sciences. However, moving from an 'either--or' selection of relevant scales to a 'both--and' utilisation of all scales promises better insights and improved expressivity. The emerging field of topological machine learning provides us with effective tools for building multi-scale representations of complex data. This talk presents two use cases that demonstrate the power of learning such representations. The first use case involves improving antimicrobial resistance prediction---a critical problem in a world suffering from superbugs---while the second use case permits us a glimpse into how cognition changes from early childhood to adolescence.
+image: assets/events/placeholder.png
+start: 2024-01-26T13:30:00.00+01:00
+end: 2024-01-26T14:30:00.00+01:00
+youtube: https://www.youtube.com/watch?v=Fe5K89Sypuo
+slides: assets/slides/Bastian-Rieck-Slides.pdf
+---
+

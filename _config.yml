@@ -172,6 +172,9 @@ collections:
     permalink: /projects/:path/
   members:
     output: true
+  events:
+    output: true
+    permalink: /events/:path/
 
 announcements:
   enabled: true
