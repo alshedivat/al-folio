@@ -17,6 +17,11 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
+> ✈️🌊🏄‍♂️ **See you at SIGGRAPH Asia in Sydney!** ✈️🌊🏄‍♂️
+> 
+> I will present our paper ["Reconstruction of Machine-Made Shapes from Bitmap Sketches"](https://asia.siggraph.org/2023/presentation/?id=papers_441&sess=sess157) on **Friday, 15 December 2023**, 1:55pm - 2:10pm GMT+11 (session ["Put Things Together"](https://asia.siggraph.org/2023/session/?sess=sess157), **C4.8**). 
+>
+>Look for our station in **C4.1** after the presentation for Interactive Discussion Session! 🏄‍♂️
 
 I am a PhD student at Université de Montréal, computer graphics lab (<a href="http://www.ligum.umontreal.ca/">LIGUM</a>), supervisor: <a href="http://www-labs.iro.umontreal.ca/~bmpix/">Mikhail Bessmeltsev</a>. 
 

@@ -52,14 +52,15 @@ $$^3$$ Huawei Technologies, Canada
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="bbb">
-            <i class="fab fa-github"></i>
-            <a href=""> Code (TBD) </a>
+            <i class="ai ai-acm ai-1x"></i>
+            <a href="https://dl.acm.org/doi/10.1145/3618361">acm</a>
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="bbb">
-            <i class="fas fa-database"></i>
-            <a href=""> Data (TBD) </a>
+            <i class="fab fa-github"></i>
+            <!-- <a href=""> Code (email me) </a> -->
+            Code (TBD)
         </div>
     </div>
 </div>
