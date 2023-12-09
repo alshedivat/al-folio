@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - KarthikRIyer
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - KarthikRIyer/swiftplot
+  - AcademySoftwareFoundation/OpenTimelineIO
+  - OpenTimelineIO/OpenTimelineIO-Java-Bindings
+  - KarthikRIyer/RayTracer
