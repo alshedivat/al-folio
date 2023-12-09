@@ -48,6 +48,7 @@ Andre Ye*, Alec Bunn*, Yegor Kuznetzov*, Amelia Johnson, Eric Xia.
 [Interactive Intelligence](https://interactive-intelligence.github.io/){:target="_blank"}, Paul G. Allen School of Computer Science.
 - eScience Institute AI Showcase [poster](/assets/pdf/emergent_language.pdf){:target="_blank"} (May 2022)
 
+---
 
 ## University Work
 
@@ -59,7 +60,7 @@ UW Philosophy Repository
 - [Hegel Reading Group website](https://uwphil.github.io/hegel-23su/){:target="_blank"} maintainer (Summer 2023)
 
 
-
+---
 
 ## Experimental
 
