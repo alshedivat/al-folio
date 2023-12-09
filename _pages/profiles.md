@@ -1,9 +1,9 @@
 ---
 layout: profiles
 permalink: /people/
-title: people
-description: members of the lab or group
-nav: true
+title: BioMeta
+description: Welcome to BioMeta!
+nav: false
 nav_order: 6
 
 profiles:
