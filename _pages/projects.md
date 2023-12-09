@@ -14,6 +14,7 @@ Andre Ye, Sebastin Santy, Jena D. Hwang, Amy X. Zhang, Ranjay Krishna.
 [RAIVN Lab](https://raivn.cs.washington.edu/){:target="_blank"} & [Social Futures Lab](https://social.cs.washington.edu/){:target="_blank"}, Paul G. Allen School of Computer Science.
 In submission to ICLR 2023.
 - [arXiv preprint](https://arxiv.org/abs/2310.14356){:target="_blank"}.
+- RAIVN group seminar talk [slides](https://docs.google.com/presentation/d/10c61-Nep6oZuO1l7jStpekaF1E4vfnpVpXPx-bxpPTg/edit?usp=sharing){:target="_blank"}, [pdf](/assets/pdf/RAIVN-presentation-11_28.pdf) (November 2023)
 
 **"LLMs grasp morality in concept"**.
 Mark Pock*, Andre Ye*, Jared Moore.
@@ -27,6 +28,7 @@ Andre Ye, Quan Ze (Jim) Chen, Amy Zhang.
 11th Conference on Human Crowdsourcing and Computation ([HCOMP](https://www.humancomputation.com/index.html){:target="_blank"}), November 2023 -- Delft, the Netherlands.
 - 🏆 Honorable Mention, Best Paper Award
 - [Proceedings](https://ojs.aaai.org/index.php/HCOMP/article/view/27559){:target="_blank"}, [arXiv preprint](https://arxiv.org/abs/2308.07528){:target="_blank"}.
+- HCOMP talk [slides](https://docs.google.com/presentation/d/1e6VEJRU2SGr-0wFi85ZeyMlNQYvyw8ct5mxSrlU9hZQ/edit?usp=sharing){:target="_blank"}, [pdf](/assets/pdf/HCOMP-Presentation.pdf){:target="_blank"}
 - 26th Undergraduate Research Symposium [slides](https://docs.google.com/presentation/d/17qrow18og678_tatb9ZtHjlaAQlSHnHcFnQ_k4DXO9c/edit?usp=sharing){:target="_blank"}, [pdf](/assets/pdf/urp_confidence_contours.pdf){:target="_blank"} (May 2023)
 - Allen School Research Showcase [poster](/assets/pdf/confidence_contours_research_showcase.pdf){:target="_blank"} (May 2023)
 - For archival purposes: IJCAI 2023 [submission](/assets/pdf/ijcai_confidence_contours_submission.pdf){:target="_blank"}, [rebuttal](/assets/pdf/ijcai_confidence_contours_rebuttal.pdf){:target="_blank"}
