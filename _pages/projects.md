@@ -7,6 +7,8 @@ nav: true
 nav_order: 3
 ---
 
+---
+
 ## Research
 
 **"Cultural and Linguistic Diversity Improves Visual Representations"**.
