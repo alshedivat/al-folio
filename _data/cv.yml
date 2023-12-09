@@ -128,33 +128,12 @@
         - Contracted to write data science articles for machine learning companies and organizations like Neptune.AI
         - Served as Editor of Data Science and AI Content of The Data-Driven Investor
 
-- title: Academic Service
+- title: Academic Service and Volunteering
   type: list
   contents:
     - 2023 NeurIPS Moral Psychology and Moral Philosophy Workshop Reviewer
     - 2023 ICML AI + HCI Workshop Reviewer
-
-- title: Miscellaneous Work
-  type: time_table
-  contents:
-    - title: Fellowship Member
-      institution: Reboot
-      year: Jan ’23 - Mar ’23
-      description:
-        - Recipient of & participant in the Reboot Fellowship Program.
-    - title: Volunteer Data Scientist
-      institution: Coronawhy
-      year: Apr ’20 - Jun ’20
-      description:
-        - Performed textual analysis and visualization on communications for greater internal efficiency
-        - Developed question-answering model for epidemic scientific literature 
-
-- title: Other Interests
-  type: list
-  contents:
-    # - <u>Hobbies:</u> 
-    - <u>Languages:</u> English (native), Mandarin Chinese (conversational), Russian (working), French (learning)
-    - See my reading list for my recommended literature!
+    - Volunteer Data Scientist @ Coronawhy (April 2020 - June 2020)
 
 - title: Misc. - Competitions
   type: list
@@ -164,3 +143,10 @@
     - Top 4%, HLIS Mechanisms of Action Competition
     - Top 5%, RACR Catheter and Line Position Challenge
     - Global Nominee, NASA Space Apps Hackathon
+
+- title: Other Interests
+  type: list
+  contents:
+    # - <u>Hobbies:</u> 
+    - <u>Languages:</u> English (native), Mandarin Chinese (conversational), Russian (working), French (learning)
+    - See my reading list for my recommended literature!
