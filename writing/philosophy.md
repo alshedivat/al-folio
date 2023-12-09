@@ -6,8 +6,6 @@ description: A collection of papers.
 nav: false
 ---
 
----
-
 <!-- <img src="\assets\img\philosophy.png" width="100%" /> -->
 
 ---
