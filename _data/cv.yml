@@ -34,14 +34,46 @@
     - title: Software Engineer
       institution: JPMorgan Chase & Co.
       year: 2021 - 2023
+    
+    - title: Computer Graphics Engineering Intern
+      institution: Viga Entertainment Technology
+      year: 2021
+
+    - title: Team Lead
+      institution: MDG IITR (Official IITR Security App)
+      year: 2020 - 2021
+    
+    - title: Software Engineering Intern
+      institution: JPMorgan Chase & Co.
+      year: 2020
       
     - title: Student Developer
       institution: Google Summer of Code - Academy Software Foundation
       year: 2020
 
+    - title: Mentor
+      institution: Google Code-In (TensorFlow)
+      year: 2019 - 2020
+
     - title: Student Developer
       institution: Google Summer of Code - TensorFlow
       year: 2019
+
+    - title: Android Developer
+      institution: NaviSmart
+      year: 2018 - 2019
+
+- title: Skills
+  type: map
+  contents:
+    - name: Languages
+      value: Java, C, C++, Python, Groovy, Swift
+    - name: Databases
+      value: Oracle, Apache Cassandra, MongoDB, Redis, Firebase Realtime Database
+    - name: Frameworks/Libraries
+      value: OpenGL, matplotlib, VTK, OpenTimelineIO, PySide2, SpringBoot, Android Java Framework
+    - name: Software/Tools
+      value: Git, CMake, Oracle SQL Developer, Apache Kafka, Blender, Adobe Premiere Pro, Adobe After Effects
 
 # - title: Open Source Projects
 #   type: time_table
@@ -50,30 +82,46 @@
 #       year: 2015-now
 #       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items: 
-#         - Nobel Prize in Physics 
-#         - Matteucci Medal
-#     - year: 2029
-#       items: 
-#         - Max Planck Medal
+- title: Accomplishments
+  type: time_table
+  contents:
+    - year: Feb 2023
+      items: 
+        - Fast-Track promotion to Software Engineer 2 at JPMorgan Chase & Co.
+        - Amongst top 3% globally in the new grad cohort
+    - year: Jul 2022
+      items: 
+        - Co-authored a white paper at JPMorgan Chase & Co. (Making Cassandra Queries resilient)
+    - year: May 2022
+      items: 
+        - Developer Story featured in the GitHub README project, highlighting the journey from a student to an open-source contributor, to a software engineer
+    - year: Feb 2020
+      items: 
+        - First Position in Software Productathon E-Summit'20
+    - year: Oct 2019
+      items: 
+        - Top 10 in InOut 6.0
+    - year: Jan 2019
+      items: 
+        - 3rd Position at Hack in the North 2019
+    - year: Jan 2017
+      items: 
+        - KVPY Fellow 2017 (SX)
 
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Computer Graphics
+      items: 
+        - Physically Based Simulation
+        - Animation
+        - Rendering
+    - title: Software Engineering
+      items:
+        - Backend Development
+        - Distributed Systems
 
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Reading, Movies/TV-shows, 3D Digital art, Formula 1
