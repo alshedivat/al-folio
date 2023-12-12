@@ -12,7 +12,7 @@ nav_order: 20
 A weekly meeting for anyone who wants to learn about and apply Data Science for real-world problem settings in a casual environment!
 
 <div style="background-color:orange; color: black; padding: 1em">
-    <strong>Next meeting</strong>: Monday, 11.12.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. <strong>Bring your laptops!</strong>
+    <strong>Next meeting</strong>: Monday, 18.12.2023, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. <strong>Bring your laptops!</strong>
     Please <a href="https://docs.google.com/forms/d/e/1FAIpQLSfl6HbEX4FjS4U_16XDFxszbY0mImSRmQzLRquIjJME8I8B7g/viewform?usp=sf_link"><b>sign up here</b></a>, so I can plan a little.
 </div>
 
@@ -35,6 +35,7 @@ A weekly meeting for anyone who wants to learn about and apply Data Science for 
 ## History
 
 WS23/24
+- 2023-12-11: Looked into [Advent of Code](https://adventofcode.com/) Challenges. Also got familiar with pyvips to deal with huge Whole Slide Image PNG files.
 - 2023-11-13: Continued to work on the ML tutorials and the ovarian cancer challenge. Apparently, the host plans to add label map annotations, rendering training approaches more efficient.
 - 2023-11-06: First Meeting in WS23/24! Welcomed the new members and started to work on the [Ovarian Cancer Subtype Classification Challenge](https://www.kaggle.com/competitions/UBC-OCEAN).
 
