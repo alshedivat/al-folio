@@ -31,8 +31,11 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
     <!-- Mermaid Diagrams -->
-    {% if page.mermaid %}
-    <!-- this can't be deferred -->
+    {% if page.mermaid and page.mermaid.enabled %}
+    <!-- these can't be deferred -->
+    {% if page.mermaid.zoomable %}
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    {% endif %}
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
     {% endif %}
 
