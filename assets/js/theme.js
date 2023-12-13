@@ -84,6 +84,21 @@ let setGiscusTheme = (theme) => {
   });
 };
 
+let addMermaidZoom = (records, observer) => {
+  var svgs = d3.selectAll(".mermaid svg");
+  svgs.each(function () {
+    var svg = d3.select(this);
+    console.log("Got here");
+    svg.html("<g>" + svg.html() + "</g>");
+    var inner = svg.select("g");
+    var zoom = d3.zoom().on("zoom", function (event) {
+      inner.attr("transform", event.transform);
+    });
+    svg.call(zoom);
+  });
+  observer.disconnect();
+};
+
 let setMermaidTheme = (theme) => {
   if (theme == "light") {
     // light theme name in mermaid is 'default'
@@ -97,10 +112,21 @@ let setMermaidTheme = (theme) => {
     let svgCode = elem.previousSibling.childNodes[0].innerHTML;
     elem.removeAttribute('data-processed');
     elem.innerHTML = svgCode;
-});
+  });
 
   mermaid.initialize({ theme: theme });
-  window.mermaid.init(undefined, document.querySelectorAll('.mermaid'))
+  window.mermaid.init(undefined, document.querySelectorAll('.mermaid'));
+
+  const observable = document.querySelector(".mermaid svg");
+  if (observable !== null) {
+    var observer = new MutationObserver(addMermaidZoom);
+    const observerOptions = {
+      // attributes: true,
+      childList: true,
+      // subtree: true,
+    };
+    observer.observe(observable, observerOptions);
+  }
 };
 
 let transTheme = () => {

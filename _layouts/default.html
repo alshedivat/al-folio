@@ -53,7 +53,7 @@
     {% include scripts/jquery.html %}
     {% include scripts/bootstrap.html %}
     {% include scripts/masonry.html %}
-    {% if page.mermaid %}
+    {% if page.mermaid and page.mermaid.enabled %}
       {% include scripts/mermaid.html %}
     {% endif %}
     {% include scripts/misc.html %}
