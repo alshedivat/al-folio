@@ -21,6 +21,11 @@
     <link href="{{ '/assets/css/bootstrap-toc.min.css' | relative_url | bust_file_cache }}" rel="stylesheet" />
     {% endif %}
 
+    {% if page.tikzjax %}
+    <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+    <script defer src="https://tikzjax.com/v1/tikzjax.js"></script>
+    {% endif %}
+
     <!-- Styles -->
     {% if site.icon.size <= 4 %}
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>">
