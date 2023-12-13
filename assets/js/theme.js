@@ -12,7 +12,10 @@ let setTheme = (theme) => {
   transTheme();
   setHighlight(theme);
   setGiscusTheme(theme);
-  setMermaidTheme(theme);
+  // if mermaid is not defined, do nothing
+  if (typeof mermaid !== 'undefined') {
+    setMermaidTheme(theme);
+  }
 
   if (theme) {
     document.documentElement.setAttribute("data-theme", theme);
@@ -82,16 +85,22 @@ let setGiscusTheme = (theme) => {
 };
 
 let setMermaidTheme = (theme) => {
-  let config = { theme: theme };
-  /* Re-render the SVG › <https://github.com/mermaid-js/mermaid/issues/311#issuecomment-332557344> */
-  $('.mermaid').each(function () {
-    let svgCode = $(this).prev().children().html();
-    $(this).removeAttr('data-processed');
-    $(this).html(svgCode);
-  });
+  if (theme == "light") {
+    // light theme name in mermaid is 'default'
+    // https://mermaid.js.org/config/theming.html#available-themes
+    theme = "default";
+  }
 
-  mermaid.initialize(config);
-  mermaid.init(undefined, '.mermaid');
+  /* Re-render the SVG, based on https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/_includes/mermaid.html */
+  document.querySelectorAll('.mermaid').forEach((elem) => {
+    // Get the code block content from previous element, since it is the mermaid code itself as defined in Markdown, but it is hidden
+    let svgCode = elem.previousSibling.childNodes[0].innerHTML;
+    elem.removeAttribute('data-processed');
+    elem.innerHTML = svgCode;
+});
+
+  mermaid.initialize({ theme: theme });
+  window.mermaid.init(undefined, document.querySelectorAll('.mermaid'))
 };
 
 let transTheme = () => {

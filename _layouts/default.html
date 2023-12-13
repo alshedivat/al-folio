@@ -53,6 +53,9 @@
     {% include scripts/jquery.html %}
     {% include scripts/bootstrap.html %}
     {% include scripts/masonry.html %}
+    {% if page.mermaid %}
+      {% include scripts/mermaid.html %}
+    {% endif %}
     {% include scripts/misc.html %}
     {% include scripts/badges.html %}
     {% include scripts/mathjax.html %}
