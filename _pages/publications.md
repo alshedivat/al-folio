@@ -9,9 +9,9 @@ nav_order: 1
 ---
 Peer-reviewed journal publications:
 
-1. Spoorthy V., Manjunath Mulimani, Shashidhar G. Koolagudi. "Acoustic scene classification using deep Fisher network", Digital Signal Processing 2023, vol.139, Elsevier 
+1. Spoorthy V., Manjunath Mulimani, Shashidhar G. Koolagudi. "Acoustic Scene Classification using Deep Fisher Network", Digital Signal Processing 2023, vol.139, Elsevier 
 
-2. Manjunath Mulimani, Ritika Nandi, Shashidhar G. Koolagudi. "Acoustic scene classification using projection Kervolutional neural network", Multimedia Tools and Applications 2022, pp. 1-11, Springer
+2. Manjunath Mulimani, Ritika Nandi, Shashidhar G. Koolagudi. "Acoustic Scene Classification using Projection Kervolutional Neural Network", Multimedia Tools and Applications 2022, pp. 1-11, Springer
 
 3. Sreetama Mukherjee, Manjunath Mulimani. "ComposeInStyle - Music composition with and without Style Transfer", Expert Systems with Applications 2022, vol. 191, Elsevier 
 
