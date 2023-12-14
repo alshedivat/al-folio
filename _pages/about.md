@@ -24,9 +24,17 @@ I received my PhD in Computer Science from UC Berkeley. I work in the field of h
 **I am recruiting [PhD students](https://www.cs.cornell.edu/phd/admissions) at [Cornell University](https://www.cs.cornell.edu/) with some background in parallel programming and interest in high-performance computing for computational sciences.** If you are a prospective PhD student, please read [the students page](https://giuliaguidi.github.io/students/).  -->
 
 <!-- I received my PhD in Computer Science from UC Berkeley in August 2022 under the supervision of [Aydın Buluç](http://people.eecs.berkeley.edu/~aydin/) and [Kathy Yelick](https://people.eecs.berkeley.edu/~yelick/) and my dissertation is titled "Parallel Algorithms for De Novo Long Read Genome Assembly via Sparse Linear Algebra". 
-You can read about it [here](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2022/EECS-2022-196.html) and watch the defense recording [here](https://www.youtube.com/watch?v=pMDICvkA5zw). -->
+You can read about it [here](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2022/EECS-2022-196.html) and watch the defense recording [here](https://www.youtube.com/watch?v=pMDICvkA5zw).
+---
+layout: post
+date: 2023-12-14 10:00:00-0400
+inline: true
+---
 
-I received a [2020 SIGHPC Computational & Data Science Fellowship](https://www.sighpc.org/for-your-career/fellowships/2020-fellowship-winners?fbclid=IwAR2N8swtCYgNH3phRmrFtASSC42b4oN5joG1l5XHFSdnkMY6U4HvZt3olLE) and I am an Affiliate Faculty in the Applied Math and Computational Sciences Division at Lawrence Berkeley National Laboratory.
+I’m very honored and excited to be receipient of the [2024 SIAG/Supercomputing Early Career Prize](https://www.siam.org/prizes-recognition/activity-group-prizes/detail/siag-sc-early-career-prize).
+-->
+
+I received the [2024 SIAG/Supercomputing Early Career Prize](https://www.siam.org/prizes-recognition/activity-group-prizes/detail/siag-sc-early-career-prize), the [2023 ISSNAF Young Investigator Mario Gerla Award](https://cis.cornell.edu/guidi-wins-issnaf-young-investigator-mario-gerla-award), and the [2020 SIGHPC Computational & Data Science Fellowship](https://www.sighpc.org/for-your-career/fellowships/2020-fellowship-winners?fbclid=IwAR2N8swtCYgNH3phRmrFtASSC42b4oN5joG1l5XHFSdnkMY6U4HvZt3olLE). I am an Affiliate Faculty in the Applied Math and Computational Sciences Division at Lawrence Berkeley National Laboratory.
 
 A recent **[CV](https://drive.google.com/file/d/1DmJgPIFg6S-B0bqvqWFUmrmk6czYVmy5/view?usp=sharing)**.
 <!--and the Tl;dr version of my **[Research Statement](https://drive.google.com/file/d/1_HVC4HkkyBMqUx8AiTHeyjgwlSdYG3j6/view?usp=sharing)**.-->
