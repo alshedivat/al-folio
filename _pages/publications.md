@@ -28,7 +28,7 @@ Peer-reviewed journal publications:
 
 Peer-reviewed conference publications:
 
-1. Manjunath Mulimani, Annamaria Mesaros. "Incremental Learning for Multi-label Audio Classification", IEEE ICASSP 2024 (Accepted).
+1. Manjunath Mulimani, Annamaria Mesaros. "Class-Incremental Learning for Multi-label Audio Classification", IEEE ICASSP 2024 (Accepted).
 
 2. Manjunath Mulimani, Annamaria Mesaros. "Incremental Learning of Acoustic Scenes and Sound Events", Proceedings of the 8th Workshop on Detection and Classification of Acoustic Scenes and Events (DCASE) 2023, pp. 141-145.
 
