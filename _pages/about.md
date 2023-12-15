@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 
 ---
-Hi, this is Alan (周俊哲) ! I am a first-year (almost second-year) Ph.D. student at [CMU Physics](https://www.cmu.edu/physics/). I work on cosmology, astrophysics, and statistical inference. Currently, I am using deep probabilistic models to reconstruct the evolutionary trajectory of our universe using large observational data sets. I am also a part of the [McWilliams Center for Cosmology](https://www.cmu.edu/cosmology/) and the [NSF AI Planning Institute](https://www.cmu.edu/ai-physics-institute/) at CMU. Most of my work is done at the Perlmutter supercomputer at NERSC and the Bridges-2 supercomputer at the PSC.
+Hi, this is Alan (周俊哲) ! I am a second-year Ph.D. student at [CMU Physics](https://www.cmu.edu/physics/). I work on cosmology, astrophysics, and statistical inference. Currently, I am using deep probabilistic models to reconstruct the evolutionary trajectory of our universe using large observational data sets. I am also a part of the [McWilliams Center for Cosmology](https://www.cmu.edu/cosmology/) and the [NSF AI Planning Institute](https://www.cmu.edu/ai-physics-institute/) at CMU. Most of my work is done at the Perlmutter supercomputer at NERSC and the Bridges-2 supercomputer at the PSC.
 
 <br/><br/>
 
