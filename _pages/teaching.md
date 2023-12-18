@@ -6,7 +6,7 @@ description: Materials for coures.
 display_categories: [NTU] 
 nav: false
 nav_order: 5
-horizontal: true
+horizontal: false
 ---
 
 <div class="project">
