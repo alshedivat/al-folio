@@ -4,5 +4,5 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 4
-cv_pdf: resume_ingles.pdf
+cv_pdf: resume_ingles2.pdf
 ---
