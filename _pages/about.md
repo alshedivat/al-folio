@@ -8,10 +8,10 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>128-C Baker Hall</p> 
-    <p>Carnegie Mellon University</p>
-    <p>5000 Forbes Ave.</p>
-    <p>Pittsburgh, PA 15213</p>
+    <p>317-B West Hall</p> 
+    <p>University of Michigan</p>
+    <p>1085 S University Ave</p>
+    <p>Ann Arbor, MI 48109</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
