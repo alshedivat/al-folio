@@ -58,7 +58,7 @@
           {% if advisor_url %}
             <a href="{{advisor_url}}" target="_blank">{{advisor_first}} {{advisor_last}}</a>)
           {% else %}
-            {{author.first}} {{author.last}})
+            {{author.first}} {{author.prefix}} {{author.last}})
           {% endif %}
         {% endif %}
       </div>
@@ -86,9 +86,9 @@
           
           {% if forloop.length == 1 %}
             {% if author_is_self %}
-              <em>{{author.first}} {{author.last}}</em>
+              <em>{{author.first}} {{author.prefix}} {{author.last}}</em>
             {% else %}
-              {{author.first}} {{author.last}}
+              {{author.first}} {{author.prefix}} {{author.last}}
             {% endif %}
           {% else %}
             {% assign num_first_authors = entry.firstauthors | plus: 0 %}
@@ -99,22 +99,22 @@
             {% endif %}
             {% unless forloop.last %}
               {% if author_is_self %}
-                <em>{{author.first}} {{author.last}}</em>{{coauthor_symbol}},
+                <em>{{author.first}} {{author.prefix}} {{author.last}}</em>{{coauthor_symbol}},
               {% else %}
                 {% if coauthor_url %}
-                  <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>{{coauthor_symbol}},
+                  <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.prefix}} {{author.last}}</a>{{coauthor_symbol}},
                 {% else %}
-                  {{author.first}} {{author.last}}{{coauthor_symbol}},
+                  {{author.first}} {{author.prefix}} {{author.last}}{{coauthor_symbol}},
                 {% endif %}
               {% endif %}
             {% else %}
               {% if author_is_self %}
-                and <em>{{author.first}} {{author.last}}</em>{{coauthor_symbol}}
+                and <em>{{author.first}} {{author.prefix}} {{author.last}}</em>{{coauthor_symbol}}
               {% else %}
                 {% if coauthor_url %}
-                  and <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>{{coauthor_symbol}}
+                  and <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.prefix}} {{author.last}}</a>{{coauthor_symbol}}
                 {% else %}
-                  and {{author.first}} {{author.last}}{{coauthor_symbol}}
+                  and {{author.first}} {{author.prefix}} {{author.last}}{{coauthor_symbol}}
                 {% endif %}
               {% endif %}
             {% endunless %}
