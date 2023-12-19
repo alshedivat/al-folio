@@ -10,6 +10,20 @@
 @STRING{DATA = {Data}}
 @STRING{DATA_SHORT = {Data}}
 
+@misc{elnahhas2023from,
+  title     = {From Whole-slide Image to Biomarker Prediction: A Protocol for End-to-End Deep Learning in Computational Pathology},
+  author    = {El Nahhas, Omar S. M. and van Treeck, Marko and W\"{o}lflein, Georg and Unger, Michaela and Ligero, Marta and Lenz, Tim and Wagner, Sophia J. and Hewitt, Katherine J. and Khader, Firas and Foersch, Sebastian and Truhn, Daniel and Kather, Jakob Nikolas},
+  author+an = {3=highlight},
+  year      = {2023},
+  note      = UNDERREVIEW,
+  url       = {https://arxiv.org/abs/2312.10944},
+  pdf       = {https://arxiv.org/pdf/2312.10944.pdf},
+  code      = {https://github.com/KatherLab/STAMP},
+  preview   = {stamp.png},
+  abstract  = {Hematoxylin- and eosin (H\&E) stained whole-slide images (WSIs) are the foundation of diagnosis of cancer. In recent years, development of deep learning-based methods in computational pathology enabled the prediction of biomarkers directly from WSIs. However, accurately linking tissue phenotype to biomarkers at scale remains a crucial challenge for democratizing complex biomarkers in precision oncology. This protocol describes a practical workflow for solid tumor associative modeling in pathology (STAMP), enabling prediction of biomarkers directly from WSIs using deep learning. The STAMP workflow is biomarker agnostic and allows for genetic- and clinicopathologic tabular data to be included as an additional input, together with histopathology images. The protocol consists of five main stages which have been successfully applied to various research problems: formal problem definition, data preprocessing, modeling, evaluation and clinical translation. The STAMP workflow differentiates itself through its focus on serving as a collaborative framework that can be used by clinicians and engineers alike for setting up research projects in the field of computational pathology. As an example task, we applied STAMP to the prediction of microsatellite instability (MSI) status in colorectal cancer, showing accurate performance for the identification of MSI-high tumors. Moreover, we provide an open-source codebase which has been deployed at several hospitals across the globe to set up computational pathology workflows. The STAMP workflow requires one workday of hands-on computational execution and basic command line knowledge.},
+  keywords  = {preprint}
+}
+
 @misc{wolflein2023good,
   title     = {A Good Feature Extractor Is All You Need for Weakly Supervised Learning in Histopathology},
   author    = {W\"{o}lflein, Georg and Ferber, Dyke and Meneghetti, Asier Rabasco and El Nahhas, Omar S. M. and Truhn, Daniel and Carrero, Zunamys I. and Harrison, David J. and Arandjelovi\'{c}, Ognjen and Kather, Jakob N.},
@@ -50,7 +64,9 @@
   preview      = {hoechstgan.png},
   abbr         = {ISMB/ECCB},
   abstract     = {Medical data is not fully exploited by Machine Learning (ML) techniques because the privacy concerns restrict the sharing of sensitive information and consequently the use of centralized ML schemes. Usually, ML models trained on local data are failing to reach their full potential owing to low statistical power. Federated Learning (FL) solves critical issues in the healthcare domain such as data privacy and enables multiple contributors to build a common and robust ML model by sharing local learning parameters without sharing data. FL approaches are mainly evaluated in the literature using benchmarks and the trade-off between accuracy and privacy still has to be more studied in a realistic clinical context. In this work, part of the European project KATY (GA:101017453), we evaluate this trade-off for a CD3/CD8 cells staining procedure from Hoechst images. Wölflein et al. developed a deep learning GAN model that synthesizes CD3 and CD8 stains from kidney cancer tissue slides, trained on 473,000 patches (256x256 pixels) from 8 whole slide images. We modified the training to simulate a FL approach by distributing the learning across 8 clients and aggregating the parameters to create the overall model. We present then the performance comparison between FL and centralized learning.},
-  keywords     = {abstract}
+  keywords     = {abstract},
+  url          = {https://zenodo.org/records/8214502},
+  pdf          = {https://zenodo.org/records/8214502/files/Alouges_ECCB-ISMB2023.pdf}
 }
 
 @article{wolflein2023data,
