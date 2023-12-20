@@ -1,7 +1,7 @@
 ---
 layout: page
-title: CV (Eng)
+title: CV (English)
 permalink: /assets/pdf/English_Resume.pdf
 nav: true
-nav_order: 5
+nav_order: 4
 ---
