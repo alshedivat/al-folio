@@ -76,7 +76,7 @@ twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # junzhe-alan-zhou
 telegram_username: # your Telegram user name
-scholar_userid: POqxccAAAAJ
+scholar_userid: # POqxccAAAAJ
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
