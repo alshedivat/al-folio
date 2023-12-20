@@ -23,6 +23,7 @@ Mark Pock*, Andre Ye*, Jared Moore.
 First [Workshop](https://neurips.cc/virtual/2023/workshop/66528){:target="_blank"} on Moral Psychology and Philosophy at NeurIPS, December 2023 -- New Orleans, Louisiana
 - [arXiv preprint](https://arxiv.org/abs/2310.14356){:target="_blank"}
 - [workshop poster](/assets/pdf/neurips-model-meaning-final.pdf){:target="_blank"}
+- [abstract submission](/assets/pdf/LLMs_grasp_morality_digital_ethics_ws.pdf){:target="_blank"} to [Penn-Georgetown Digital Ethics Workshop](https://philevents.org/event/show/115754){:target="_blank"}
 
 **Confidence Contours**.
 Andre Ye, Quan Ze (Jim) Chen, Amy Zhang.
