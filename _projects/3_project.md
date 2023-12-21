@@ -2,8 +2,8 @@
 layout: page
 title: PointPillars++
 description: A novel 3D-Object Detection Algorithm 
-img: assets/img/7.jpg
-redirect: https://repository.lib.ncsu.edu/handle/1840.20/38961
+img: assets/img/pp++_network_architecture.png
+redirect: https://repository.lib.ncsu.edu/items/74763121-f014-4251-b2fa-17b909b84720
 importance: 3
 category: work
 ---
