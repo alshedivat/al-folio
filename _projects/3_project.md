@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: PointPillars++
+description: A novel 3D-Object Detection Algorithm 
 img: assets/img/7.jpg
-redirect: https://unsplash.com
+redirect: https://repository.lib.ncsu.edu/handle/1840.20/38961
 importance: 3
 category: work
 ---

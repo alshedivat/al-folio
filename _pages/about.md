@@ -6,8 +6,8 @@ subtitle: Passionate Engineer at the Intersection of Robotics and Machine Learni
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>Austin, Texas 78759</p>
+  # address: >
+  #   <p>Austin, Texas</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
