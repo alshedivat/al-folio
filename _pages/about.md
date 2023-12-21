@@ -21,7 +21,7 @@ My works include publications on conferences such as **NeurIPS**[[1](https://ope
 
 
 Previously, I completed my master's degree in computer science at UC Santa Cruz in June 2023, focusing on machine learning and computer vision. In 2023, I also collaborated with Prof. [Ruqi Zhang](https://ruqizhang.github.io/) on efficient training of Bayesian neural networks.
-Earlier, I got my bachelor's degree in mathematics and applied mathematics at Fudan University in June 2021. During which, I worked on reinforcement learning theory with Prof. [Zhaoran Wang](https://zhaoranwang.github.io/) and [Zhuoran Yang](https://zhuoranyang.github.io/).
+Earlier, I got my bachelor's degree in **mathematics and applied mathematics** at **Fudan University** in June 2021. During which, I worked on reinforcement learning theory with Prof. [Zhaoran Wang](https://zhaoranwang.github.io/) and [Zhuoran Yang](https://zhuoranyang.github.io/).
 
 
 <b><center><font color='red'>I'm applying for a Ph.D. in machine learning and large models. Feel free to reach out!</font></center><b/>
