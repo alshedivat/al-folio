@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Junbo
 middle_name:
 last_name: Li
-email: jli753@ucsc.edu
+email: ljb121002@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -50,7 +50,7 @@ github_username: ljb121002 # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: junbo-li-b043481b3 # your LinkedIn user name
-scholar_userid: ZTm8zzgAAAAJ # your Google Scholar ID
+scholar_userid: XVSPtCoAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -74,7 +74,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Computer Vision & Machine Learning # your blog must have a name for it to show up in the nav bar
+blog_name: Machine Learning # your blog must have a name for it to show up in the nav bar
 blog_description: TBD
 permalink: /blog/:year/:title/
 
@@ -100,7 +100,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 5
+news_limit: 7
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
