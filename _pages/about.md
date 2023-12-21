@@ -20,11 +20,10 @@ I'm broadly interested in machine learning and deep learning, striking a balance
 My work includes publications on conferences such as **NeurIPS**[[1](https://openreview.net/forum?id=x5fs7TXKDc), [2](https://nips.cc/virtual/2022/poster/54888)] and [**ECCV**](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/7173_ECCV_2022_paper.php), as well as large open-source projects like [**LLM360**](https://www.llm360.ai/).
 
 
-
-Before this, I completed my master's degree in computer science at UC Santa Cruz in June 2023, focusing on machine learning and computer vision. In 2023, I also collaborated with Prof. [Ruqi Zhang](https://ruqizhang.github.io/) on efficient training of Bayesian neural networks.
+Previously, I completed my master's degree in computer science at UC Santa Cruz in June 2023, focusing on machine learning and computer vision. In 2023, I also collaborated with Prof. [Ruqi Zhang](https://ruqizhang.github.io/) on efficient training of Bayesian neural networks.
 Earlier, I got my bachelor's degree in mathematics and applied mathematics at Fudan University in June 2021. During which, I worked on reinforcement learning theory with Prof. [Zhaoran Wang](https://zhaoranwang.github.io/) and [Zhuoran Yang](https://zhuoranyang.github.io/).
 
 
-<font color='red'> I'm applying a Ph.D. starting from 2024 fall now! </font>
+<center><font color='red'> **I'm applying for a Ph.D. in machine learning and large models. Feel free to reach out!** </font><center>
 
 
