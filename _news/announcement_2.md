@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-12-14
+date: 2022-09-14
 inline: true
 ---
 
-We release [LLM360](https://www.llm360.ai/),  including two 7B models **training from scratch**: Amber and CrystalCoder.
+One paper is accepted by NeurIPS 2022 as the **oral** presentation. 
