@@ -4,4 +4,4 @@ date: 2022-09-14
 inline: true
 ---
 
-One paper is accepted by NeurIPS 2022 as the **oral** presentation. 
+Our [Score Matching for RL](https://nips.cc/virtual/2022/poster/54888) is accepted by NeurIPS 2022 as the <font color='red'>oral</font> presentation. 
