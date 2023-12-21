@@ -5,4 +5,4 @@ inline: true
 ---
 
 
-One [SSVI](https://openreview.net/forum?id=TskzCtpMEO&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DICLR.cc\%2F2024\%2FConference\%2FAuthors\%23your-submissions)) was submitted to ICLR 2024, and got a top 10% rating.
+One [Sparse Subspace Variational Inference](https://openreview.net/forum?id=TskzCtpMEO&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DICLR.cc\%2F2024\%2FConference\%2FAuthors\%23your-submissions)) was submitted to ICLR 2024, and got a top 10% rating.
