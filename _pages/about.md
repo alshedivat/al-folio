@@ -16,13 +16,15 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I'm currently a visiting student at [Sailing-MBZUAI Lab](https://sailing-mbzuai.github.io/) working with [Prof. Eric Xing](https://www.cs.cmu.edu/~epxing/). 
-I'm broadly interested in machine learning and deep learning, striking a balance between **theoretical understanding** and **practical application** to address large-scale real-world challenges.  My most recent research experiences and interests lie in every aspect of large language models, including pre-training, fin-tuning, and inference.
-My work includes publications on conferences such as NeurIPS[[1](https://openreview.net/forum?id=x5fs7TXKDc), [2](https://nips.cc/virtual/2022/poster/54888)] and [ECCV](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/7173_ECCV_2022_paper.php), as well as large open-source projects like [LLM360](https://www.llm360.ai/).
+I'm broadly interested in machine learning and deep learning, striking a balance between **theoretical understanding** and **practical application** to address large-scale real-world challenges.  My most recent research experiences and interests lie in every aspect of **large language models**, including pre-training, fin-tuning, and inference.
+My work includes publications on conferences such as **NeurIPS**[[1](https://openreview.net/forum?id=x5fs7TXKDc), [2](https://nips.cc/virtual/2022/poster/54888)] and [**ECCV**](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/7173_ECCV_2022_paper.php), as well as large open-source projects like [**LLM360**](https://www.llm360.ai/).
 
 
 
 Before this, I completed my master's degree in computer science at UC Santa Cruz in June 2023, focusing on machine learning and computer vision. In 2023, I also collaborated with Prof. [Ruqi Zhang](https://ruqizhang.github.io/) on efficient training of Bayesian neural networks.
 Earlier, I got my bachelor's degree in mathematics and applied mathematics at Fudan University in June 2021. During which, I worked on reinforcement learning theory with Prof. [Zhaoran Wang](https://zhaoranwang.github.io/) and [Zhuoran Yang](https://zhuoranyang.github.io/).
 
+
+<font color='red'> I'm applying a Ph.D. starting from 2024 fall now! </font>
 
 
