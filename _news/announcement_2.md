@@ -1,6 +1,7 @@
 ---
 layout: post
-date: 2022-06-10
+date: 2023-12-14
 inline: true
 ---
-Got the **3rd place** in CVPR 2022 challenge: Robust Models towards Open-world Classification.
+
+We release [LLM360](https://www.llm360.ai/),  including two 7B models Amber and CrystalCoder both training from scratch.
