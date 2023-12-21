@@ -1,22 +1,3 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
-
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
-
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
-
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
-
 "Xie":
   - firstname: ["Cihang", "C."]
     url: https://cihangxie.github.io/
@@ -28,6 +9,8 @@
 "Wang":
   - firstname: ["Zhaoran", "Z."]
     url: https://zhaoranwang.github.io/
+  - firstname: ["Hongyi", "H."]
+    url: https://hongyiwang.github.io/
 
 "Yang":
   - firstname: ["Zhuoran", "Z."]
@@ -48,3 +31,4 @@
 "Kabra":
   - firstname: ["Anmol", "A."]
     url: https://anmolkabra.com/
+
