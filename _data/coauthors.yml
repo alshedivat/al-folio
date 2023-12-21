@@ -6,6 +6,9 @@
   - firstname: ["Huan", "H."]
     url: https://www.huan-zhang.com/
 
+  - firstname: ["Ruqi", "R."]
+    url: https://ruqizhang.github.io/
+
 "Wang":
   - firstname: ["Zhaoran", "Z."]
     url: https://zhaoranwang.github.io/
@@ -14,7 +17,7 @@
 
 "Yang":
   - firstname: ["Zhuoran", "Z."]
-    url: https://www.princeton.edu/~zy6/
+    url: https://zhuoranyang.github.io/
 
 "Li":
   - firstname: ["Gene", "G."]
@@ -22,6 +25,25 @@
 
   - firstname: ["Xianhang", "X."]
     url: https://xhl-video.github.io/xianhangli/
+
+  - firstname: ["Ang", "A."]
+    url: https://www.ang-li.com/
+
+"Ho":
+  - firstname: ["Qirong", "Q."]
+    url: https://sites.google.com/site/hoqirong
+
+"Miao":
+  - firstname: ["Zichen", "Z."]
+    url: https://zichenmiao.github.io/
+
+"Qiu":
+  - firstname: ["Qiang", "Q."]
+    url: https://web.ics.purdue.edu/~qqiu/
+
+"Xing":
+  - firstname: ["Eric", "E."]
+    url: https://www.cs.cmu.edu/~epxing/
 
 "Srebro":
   - firstname: ["Nathan", "N."]
