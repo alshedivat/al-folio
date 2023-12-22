@@ -44,30 +44,6 @@ contact_note: >
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-# blog_name: al-folio
-# blog_description: a simple whitespace theme for academics
-
-# Pagination
-# paginate: 4
-# permalink: /blog/:year/:title/
-# paginate_path: /blog/page:num/
-
-# text:
-#   pagination:
-#     newer: 'Newer'
-#     older: 'Older'
-
-# # Comments
-# disqus_shortname: al-folio # put your disqus shortname
-
-# # Optional features
-# show_social_icons:  false
-# enable_anchorjs:    false
-# enable_katex:       true
-
 research:
   - project:
     title: ''
@@ -85,6 +61,7 @@ research:
     link: 
       filename: qip-2021-poster.pdf
       title: QIP 2021 Poster
+      
   - project:
     title: 'Approximating the quantum extension of Max-k-Cut'
     description: 'Extending results on quantum max-cut to k-level quantum systems mirroring the extension from max-cut to max-k-cut.'
