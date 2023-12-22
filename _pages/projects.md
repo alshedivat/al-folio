@@ -9,7 +9,7 @@ nav_order: 3
 
 ---
 
-## Research
+### Research
 
 **"Cultural and Linguistic Diversity Improves Visual Representations"**.
 Andre Ye, Sebastin Santy, Jena D. Hwang, Amy X. Zhang, Ranjay Krishna.
@@ -55,7 +55,7 @@ Andre Ye*, Alec Bunn*, Yegor Kuznetzov*, Amelia Johnson, Eric Xia.
 
 ---
 
-## University Work
+### University Work
 
 [University Course Notes](https://andre-ye.github.io/uni/){:target="_blank"}
 
@@ -67,7 +67,7 @@ UW Philosophy Repository
 
 ---
 
-## Experimental
+### Experimental
 
 "AyahuascaNet: Rigorously Investigating Hallucination in Large Language Models with Hardcore Psychedelic Drugs."
 SIGBOVIK 2022.

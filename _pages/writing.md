@@ -2,7 +2,7 @@
 layout: page
 title: writing
 nav: true
-nav_order: 3
+nav_order: 10
 dropdown: true
 children: 
     - title: Philosophy
