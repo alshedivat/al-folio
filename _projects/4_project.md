@@ -31,12 +31,12 @@ near-inertial waves where the dominant restoring force is due to the Coriolis ef
 </div>
 
 
-Breaking events of such flow are likely a major contributor to upper-ocean turbulent mixing. Its transportation  of passive scalars can be a key factor to ocean nutrient distribution.
+Breaking events of such flow are likely a major contributor to upper-ocean turbulent mixing. Its transports of passive scalars can be a key factor to ocean nutrient distribution.
 
 ### Turbulence
-A big field of research in fluid mechanics is the [Homogeneous Isotropic Turbulence](https://en.wikipedia.org/wiki/Homogeneous_isotropic_turbulence) (HIT), proposed by G.I. Taylor himself. Later, the Soviet math lord Andrey Kolmogorov proposed another type of flow on a periodic domain (2D or 3D) driven by a sinusoidal external force in the large scale to study the linear stability in viscous shear flows, which was later named after him as the Kolmogorov flow. Unlike HIT, the Kolmogorov flow is imhomogeneous (mean shear is different everywhere) and anisotropic (direction of the mean flow changes everywhere), the difference between these two types of turbulence is still an open question.
+A big field of research in fluid mechanics is the [Homogeneous Isotropic Turbulence](https://en.wikipedia.org/wiki/Homogeneous_isotropic_turbulence) (HIT), proposed by G.I. Taylor himself. Later, the Soviet math lord Andrey Kolmogorov proposed another type of flow on a periodic domain (2D or 3D) driven by a sinusoidal external force in the large scale to study the linear stability in viscous shear flows, which was later named after him as the Kolmogorov flow. Unlike HIT, the Kolmogorov flow is inhomogeneous (mean shear is different everywhere) and anisotropic (direction of the mean flow changes everywhere), the difference between these two types of turbulence (in large-scale, of course, but also in the inertial range) is still an open question.
 
-The swirling🌀 Kolmogorov flow we proposed here is an example of the <b>homogeneous</b> (same shear, hence the energy dissipation, everywhere) yet <b> anisotropic </b> (changing direction) turbulence. Our flow is thus a third type of turbulence, which sits somewhere between the HIT and the regular Kolmogorov flow (hope we can know more about exactly where towards the end of the project :>). Tons of fun to study!
+The swirling🌀 Kolmogorov flow we proposed here is an example of the <b>homogeneous</b> (same shear, hence the energy dissipation, everywhere) yet <b> anisotropic </b> (changing direction) turbulence. Our flow is thus a third type of turbulence, which sits somewhere between the HIT and the regular Kolmogorov flow (hope we can learn more about where it sits towards the end of the project :>). Tons of fun to study!
 
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -44,5 +44,46 @@ The swirling🌀 Kolmogorov flow we proposed here is an example of the <b>homoge
     </div>
 </div>
 <div class="caption">
-    External forcing/mean flow profile of regular Kolmogorov flow (<b>left</b>) and swirling Kolmogorov flow (<b>right</b>). 
+    Sketch of external forcing/mean flow profile of regular Kolmogorov flow (<b>left</b>) and swirling Kolmogorov flow (<b>right</b>). 
 </div>
+
+### The flow
+
+The swirling Kolmogorov flow is governed by the Navier-Stokes equation for incompressible fluids,
+
+$$\partial_t \mathbf{u} + \mathbf{u}\cdot\nabla\mathbf{u} = -\nabla p + \nu \nabla^2\mathbf{u} + \mathbf{f}$$
+
+$$\nabla \cdot \mathbf{u} = 0,$$
+
+where the external forcing $$\mathbf{f}$$ is given by
+
+$$\mathbf{f} = F_0\left[ \sin(k_f z/L) \hat{e}_x +  \cos(k_f z/L) \hat{e}_y\right].$$
+
+$$L$$ is the forcing scale, which serves as our characteristic length. The trivial steady laminar solution is
+
+$$\mathbf{u}_0(z) = \frac{F_0L^2}{\nu}\big[\sin(k_f z/L) \hat{e}_x + \cos(k_fz/L) \hat{e}_y\big].$$
+
+### Linear stability analysis
+The nondimensional equation for the laminar flow is given by
+
+$$\partial_t \mathbf{u} + \mathbf{u}\cdot\nabla\mathbf{u} = -\nabla p + \frac{1}{\mathrm{Re}}\nabla^2\mathbf{u} + \frac{1}{\mathrm{Re}}\left[ \cos(z)\hat{e}_x + \sin(z)\hat{e}_y  \right],$$
+
+which we choose the amplitude of the laminar solution as the characteristic velocity $$U_0 = \frac{F_0L^2}{\nu}$$. Using the normal mode decomposition and some algebra massage, we obtain the Orr-Sommerfeld equation of the swirling Kolmogorov flow
+
+$$\left(\textcolor{red}{\sigma} + \mathrm{i}\textcolor{green}{\tilde{k}}\tilde{U}\right)\left( \frac{\mathrm{d}^2}{\mathrm{d}z^2} - \textcolor{green}{\tilde{k}} \right)\hat{w} + \mathrm{i}\textcolor{green}{\tilde{k}}\tilde{U}\hat{w} - \frac{1}{\mathrm{Re}}\left( \frac{\mathrm{d}^2}{\mathrm{d}z^2} - \textcolor{green}{\tilde{k}}^2\right)^2\hat{w} = 0,$$
+
+where $$\textcolor{red}{\sigma}$$ is the growth rate of the unstable mode, $$\textcolor{green}{\tilde{k}}=\sqrt{k^2+l^2}$$, $$k$$ and $$l$$ are the wavenumber of $$x$$- and $$y$$- perturbation, respectively. And $$\tilde{U} = \frac{k\cos(z) + l\sin(z)}{\tilde{k}}$$  is the shear flow. Notice the growth rate $$\textcolor{red}{\sigma}$$ only depends on the wavenumber magnitude $$\textcolor{green}{\tilde{k}}$$, but not on $$k$$ or $$l$$ independently.
+
+<div class="row">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="./assets/img/Swirling_Re.png" title="sqrt2" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="./assets/img/Single_Re=50.png" title="Zeroth order Bessel functions of the first kind" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Heat map of growth rate \(\textcolor{red}{\sigma}\) dependence on perturbation wavelength \(k\) and \(l\). <b>Left:</b> Swirling, \(\mathrm{Re}=\sqrt{2}+0.2\). <b>Middle:</b> Swirling, \(\mathrm{Re}=50\). <b>Right:</b> Single, \(\mathrm{Re}=50\).
+</div>
+
+First notice the swirling Kolmogorov flow does not alter the critical Reynolds number $$\mathrm{Re}_c = \sqrt{2}$$ where the laminar solution becomes unstable. This is a famouse result given by Kolmogorov's students Meshalkin, L. D., & Sinai, I. G. (1961).
