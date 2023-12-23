@@ -4,7 +4,7 @@ title: Northeast China
 description: Liaoning Hongshan Period Communities Project
 img: assets/img/hs_goddess.jpg
 importance: 1
-category: work
+category: research
 related_publications:
 
 ---
