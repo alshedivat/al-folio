@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 4
 cv_pdf: hanbei_cv.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: The pdf of my CV can be downloaded by clicking the topright icon.
 toc:
   sidebar: left
 ---
