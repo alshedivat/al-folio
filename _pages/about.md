@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Graduate Student in UCLA
+title: Hanbei
 permalink: /
 subtitle: <a href='#'>UCLA</a>. Los Angelas, 8583493277
 
