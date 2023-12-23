@@ -5,9 +5,14 @@
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          <img data-zoomable class="preview z-depth-1 rounded" src="{{ entry.preview }}">
           {%- else -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
+            {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
+            {% include figure.html
+            path=entry_path
+            class="preview z-depth-1 rounded"
+            zoomable=true
+            alt=entry.preview -%}
           {%- endif -%}
         {%- elsif entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%}
@@ -180,13 +185,46 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
+<<<<<<< HEAD
           {%- if entry.altmetric %}
             <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-altmetric-id="{{ entry.altmetric }}" class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-popover="right" data-badge-type="2" style="display:inline"></div>
           {%- endif %}
           {%- if entry.video %}
             <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
           {%- endif %}
+=======
+>>>>>>> v0.10.1
           </div>
+          {% if site.badges %}
+          <div class="badges">
+            {%- if site.badges.altmetric_badge %}
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"
+              {% if entry.eprint %}
+                data-arxiv-id="{{ entry.eprint }}"
+              {% elsif entry.doi %}
+                data-doi="{{ entry.doi }}"
+              {% elsif entry.altmetric %}
+                data-altmetric-id="{{ entry.altmetric }}"
+              {% elsif entry.pmid %}
+                data-pmid="{{ entry.pmid }}"
+              {% elsif entry.isbn %}
+                data-isbn="{{ entry.isbn }}"
+              {% endif %}
+              ></span>
+            {%- endif %}
+            {%- if site.badges.dimensions_badge %}
+              <span class="__dimensions_badge_embed__"
+              {% if entry.doi %}
+                data-doi="{{ entry.doi }}"
+              {% else if entry.pmid %}
+                data-pmid="{{ entry.pmid }}"
+              {% else %}
+                data-id="{{ entry.dimensions }}"
+              {% endif %}
+              data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+            {%- endif %}
+          </div>
+          {%- endif %}
 
           {% if entry.abstract -%}
           <!-- Hidden abstract block -->

@@ -9,34 +9,41 @@ on:
     branches:
       - master
       - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   deploy:
+    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
+    - name: Checkout 🛎️
       uses: actions/checkout@v3
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0.2'
+        ruby-version: '3.2.2'
         bundler-cache: true
-    - name: Install deps
+    - name: Update _config.yml ⚙️
+      uses: fjogeleit/yaml-update-action@v0.13.1
+      with:
+        commitChange: false
+        valueFile: '_config.yml'
+        propertyPath: 'giscus.repo'
+        value: ${{ github.repository }}
+    - name: Install and Build 🔧
       run: |
+        pip3 install --upgrade jupyter
         npm install -g mermaid.cli
-    - name: Setup deploy options
-      id: setup
-      run: |
-        git config --global user.name "GitHub Action"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        if [[ ${GITHUB_REF} = refs/pull/*/merge ]]; then # pull request
-          echo "SRC_BRANCH=${GITHUB_HEAD_REF}" >> $GITHUB_OUTPUT
-          echo "NO_PUSH=--no-push" >> $GITHUB_OUTPUT
-        elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. master, source etc
-          echo "SRC_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
-        fi
-        echo "DEPLOY_BRANCH=gh-pages" >> $GITHUB_OUTPUT
-    - name: Deploy website 
-      run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
-                    --src ${{ steps.setup.outputs.SRC_BRANCH }} 
-                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
+        npm install -g purgecss
+        export JEKYLL_ENV=production
+        bundle exec jekyll build --lsi
+        purgecss -c purgecss.config.js
+    - name: Deploy 🚀
+      if: github.event_name != 'pull_request'
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: _site
+
