@@ -1,7 +1,7 @@
 ---
 layout: page
 title: submerged_change
-nav: true
+nav: false
 nav_order: 7
 dropdown: false
 children:
