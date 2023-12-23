@@ -9,7 +9,7 @@ nav_order: 3
 
 ---
 
-### Research
+### research
 
 **"Cultural and Linguistic Diversity Improves Visual Representations"**.
 Andre Ye, Sebastin Santy, Jena D. Hwang, Amy X. Zhang, Ranjay Krishna.
@@ -40,40 +40,34 @@ Andre Ye, Quan Ze (Jim) Chen, Amy Zhang.
 **Transcription Curriculum Learning.**
 Andre Ye, Andrew Seagraves.
 [Deepgram](https://deepgram.com/){:target="_blank}.
-- [writeup](/assets/pdf/Curriculum_Learning_Deepgram_Final.pdf){:target="_blank"} (Sept. 2022)
+See [writeup](/assets/pdf/Curriculum_Learning_Deepgram_Final.pdf){:target="_blank"} (Sept. 2022)
 
 
 **Foot Process Segmentation**.
 David Smerkous, Andre Ye, Dr. Behzad Najafian.
 [Najafian Lab for Kidney Pathology](https://dlmp.uw.edu/research-labs/najafian){:target="_blank}, UW Medicine.
-- 25th Undergraduate Research Symposium [pdf](/assets/pdf/podocyte_seg.pdf){:target="_blank"} (May 2022)
+25th Undergraduate Research Symposium [pdf](/assets/pdf/podocyte_seg.pdf){:target="_blank"} (May 2022)
 
 **Emergent Language**.
 Andre Ye*, Alec Bunn*, Yegor Kuznetzov*, Amelia Johnson, Eric Xia.
 [Interactive Intelligence](https://interactive-intelligence.github.io/){:target="_blank"}, Paul G. Allen School of Computer Science.
-- eScience Institute AI Showcase [poster](/assets/pdf/emergent_language.pdf){:target="_blank"} (May 2022)
+eScience Institute AI Showcase [poster](/assets/pdf/emergent_language.pdf){:target="_blank"} (May 2022)
 
 ---
 
-### University Work
+### university work
 
-[University Course Notes](https://andre-ye.github.io/uni/){:target="_blank"}
-
-[Transition School Course Notes](https://andre-ye.github.io/ts/){:target="_blank"}
-
-UW Philosophy Repository
-- [Hegel Reading Group website](https://uwphil.github.io/hegel-23su/){:target="_blank"} maintainer (Summer 2023)
+- [University Course Notes](https://andre-ye.github.io/uni/){:target="_blank"}
+- [Transition School Course Notes](https://andre-ye.github.io/ts/){:target="_blank"}
+- UW Philosophy Repository
+    - [Hegel Reading Group website](https://uwphil.github.io/hegel-23su/){:target="_blank"} maintainer (Summer 2023)
 
 
 ---
 
-### Experimental
+### experimental
 
-"AyahuascaNet: Rigorously Investigating Hallucination in Large Language Models with Hardcore Psychedelic Drugs."
-SIGBOVIK 2022.
-- Proceedings [pdf](/assets/pdf/SIGBOVIK_2023.pdf){:target="_blank"}
-
-[Mobiod Streams](https://andre-ye.github.io/mobiod-streams/){:target="_blank"}
-
-[tserk – цирк(овь)](https://andre-ye.github.io/tserk/){:target="_blank"}
+- "AyahuascaNet: Rigorously Investigating Hallucination in Large Language Models with Hardcore Psychedelic Drugs." SIGBOVIK 2022. Proceedings [pdf](/assets/pdf/SIGBOVIK_2023.pdf){:target="_blank"}
+- [Mobiod Streams](https://andre-ye.github.io/mobiod-streams/){:target="_blank"}
+- [tserk – цирк(овь)](https://andre-ye.github.io/tserk/){:target="_blank"}
 
