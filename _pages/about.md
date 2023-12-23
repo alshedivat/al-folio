@@ -14,8 +14,8 @@ profile:
       <p>Saunders Hall 346</p>
       <p>UH-Manoa</p>
       <p>Honolulu, HI, 96822 USA</p>
-      <strong>office:</strong> <a href="https://map.hawaii.edu/manoa/">Dean Hall 204</a></p>
-      <strong>email:</strong> <a href="mailto:cepeter@hawaii.edu">cepeter@hawaii.edu</a></p>
+      <p><strong>office:</strong> <a href="https://map.hawaii.edu/manoa/">Dean Hall 204</a></p>
+      <p><strong>email:</strong> <a href="mailto:cepeter@hawaii.edu">cepeter@hawaii.edu</a></p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
