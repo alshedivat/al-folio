@@ -8,7 +8,7 @@
       <div class="row g-0">
         {%- if project.img -%}
         <div class="card-img col-md-6">
-          {% include figure.html path=project.img alt="project thumbnail" %}
+          {% include figure.html path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" %}
         </div>
         <div class="col-md-6">
         {%- else -%}

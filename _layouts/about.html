@@ -26,6 +26,7 @@ layout: default
               {% include figure.html
               path=profile_image_path
               class=profile_image_class
+              sizes = "(min-width: 800px) 231, (min-width: 576px) 30vw, 95vw"
               alt=page.profile.image
               cache_bust=true -%}
             {% endif -%}
