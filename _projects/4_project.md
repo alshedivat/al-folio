@@ -83,7 +83,47 @@ where $$\textcolor{red}{\sigma}$$ is the growth rate of the unstable mode, $$\te
     </div>
 </div>
 <div class="caption">
-    Heat map of growth rate \(\textcolor{red}{\sigma}\) dependence on perturbation wavelength \(k\) and \(l\). <b>Left:</b> Swirling, \(\mathrm{Re}=\sqrt{2}+0.2\). <b>Middle:</b> Swirling, \(\mathrm{Re}=50\). <b>Right:</b> Single, \(\mathrm{Re}=50\).
+    By numerically sovling the Orr-Sommerfeld equation, we got the heat map of growth rate \(\textcolor{red}{\sigma}\) dependence on perturbation wavelength \(k\) and \(l\). <b>Left:</b> Swirling, \(\mathrm{Re}=\sqrt{2}+0.2\). <b>Middle:</b> Swirling, \(\mathrm{Re}=50\). <b>Right:</b> Single, \(\mathrm{Re}=50\).
 </div>
 
-First notice the swirling Kolmogorov flow does not alter the critical Reynolds number $$\mathrm{Re}_c = \sqrt{2}$$ where the laminar solution becomes unstable. This is a famouse result given by Kolmogorov's students Meshalkin, L. D., & Sinai, I. G. (1961).
+First notice the swirling Kolmogorov flow does not alter the critical Reynolds number $$\mathrm{Re}_c = \sqrt{2}$$ where the laminar solution becomes unstable. This is a famous result given by Kolmogorov's students Meshalkin, L. D., & Sinai, I. G. (1961).
+
+Also notice the cute donut shape of the swirling's heat map. The swirling flow is sensitive to perturbation in both $$x$$- and $$y$$-directions, as predicted by the Orr-Sommerfeld equation. As reference, the right-most figure is the heat map of a regular Kolmogorov flow, where the flow is only sensitive to perturbation in $$x$$-direction and suppressed by presence of $$y$$-perturbation.
+
+## Some simulation results
+To understand the transports of passive scalar, and also to better visualize the flow, we add a passive scalar fluctuation  $$\theta$$, governed by
+
+$$\partial_t \theta + \mathbf{u}\cdot\nabla\theta = \kappa \nabla^2\theta - \mathbf{u}\cdot\nabla\langle\Theta\rangle,$$
+
+where $$\kappa$$ is the scalar dissipation rate, we chose the Schmidt number $$\mathrm{Sc} = \frac{\nu}{\kappa}=1$$. The fluctuation $$\theta$$ is sustained by a background vertical mean scalar gradient $$\nabla\langle\Theta\rangle=\hat{e}_z$$.
+
+Yeah I know there was a lot of annoying math... Now just sit back and enjoy some beautiful turbulence movies! 😇
+<p align="center">
+<iframe width="355" height="315" src="https://www.youtube.com/embed/_YiM4oQxEeI?si=WtjOud0hgC0uixDW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+<div class="caption">
+    Single-mode Kolmogorov flow. With aspect ratio \(\Gamma=1\), \(L_x=L_y=L_z=2\pi\).
+</div>
+
+<p align="center">
+<iframe width="820" height="315" src="https://www.youtube.com/embed/5SVyiHfIRTc?si=RC0-zhs7HAwNvU-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+/p>
+<div class="caption">
+    Single-mode Kolmogorov flow. With aspect ratio \(\Gamma=3\), \(L_x=L_y=\Gamma L_z=6\pi\). Did you notice something wired here? Why the forcing is in the <b>horizontal</b> direction, but the flow is obviously <b>vertical</b>? 👀
+</div>
+
+<p align="center">
+<iframe width="350" height="315" src="https://www.youtube.com/embed/hCK5-NWtCAI?si=e0NGmsAQL9PLfaxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+<div class="caption">
+    Swirling Kolmogorov flow. With aspect ratio \(\Gamma=1\), \(L_x=L_y=L_z=2\pi\). More wiggly and more turbulent, huh? 🥴
+</div>
+
+<p align="center">
+<iframe width="820" height="315" src="https://www.youtube.com/embed/y6rNKmUvrYk?si=PEe2sUibFVdDbIFj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+<div class="caption">
+    Swirling Kolmogorov flow. With aspect ratio \(\Gamma=3\), \(L_x=L_y=\Gamma L_z=6\pi\). The flow is still mostly <b>vertical</b>... But better?
+</div>
+
+So, what's going on with this large-scale vertical motion when we increase the aspect ratio \(\Gamma\), is it physical? Or it is just some artifact due to the periodic boundary condition? To further investigate this, we performed simulations on a 3 by 3 by 3 domain, i.e. \(L_x=L_y= L_z=6\pi\), while kept the forcing scale the same, so there are three whole wavelengths along the vertical axis. Here come some more beautiful movies! 🎆
