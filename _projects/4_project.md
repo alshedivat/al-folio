@@ -9,7 +9,7 @@ category: work
 
 My current master thesis project on 'Swirling Kolmogorov flow' is motivated by two aspects, one by the application to oceanography 🌊, the other by the theoretical turbulence research 🤓.
 
-### Oceanography
+### Oceanography 🌊
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/N9OxNNeZ8EM?si=607VPJMgk7-_HYiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
@@ -33,7 +33,7 @@ near-inertial waves where the dominant restoring force is due to the Coriolis ef
 
 Breaking events of such flow are likely a major contributor to upper-ocean turbulent mixing. Its transports of passive scalars can be a key factor to ocean nutrient distribution.
 
-### Turbulence
+### Turbulence 🌀
 A big field of research in fluid mechanics is the [Homogeneous Isotropic Turbulence](https://en.wikipedia.org/wiki/Homogeneous_isotropic_turbulence) (HIT), proposed by G.I. Taylor himself. Later, the Soviet math lord Andrey Kolmogorov proposed another type of flow on a periodic domain (2D or 3D) driven by a sinusoidal external force in the large scale to study the linear stability in viscous shear flows, which was later named after him as the Kolmogorov flow. Unlike HIT, the Kolmogorov flow is inhomogeneous (mean shear is different everywhere) and anisotropic (direction of the mean flow changes everywhere), the difference between these two types of turbulence (in large-scale, of course, but also in the inertial range) is still an open question.
 
 The swirling🌀 Kolmogorov flow we proposed here is an example of the <b>homogeneous</b> (same shear, hence the energy dissipation, everywhere) yet <b> anisotropic </b> (changing direction) turbulence. Our flow is thus a third type of turbulence, which sits somewhere between the HIT and the regular Kolmogorov flow (hope we can learn more about where it sits towards the end of the project :>). Tons of fun to study!
@@ -107,7 +107,7 @@ Yeah I know there was a lot of annoying math... Now just sit back and enjoy some
 
 <p align="center">
 <iframe width="820" height="315" src="https://www.youtube.com/embed/5SVyiHfIRTc?si=RC0-zhs7HAwNvU-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-/p>
+</p>
 <div class="caption">
     Single-mode Kolmogorov flow. With aspect ratio \(\Gamma=3\), \(L_x=L_y=\Gamma L_z=6\pi\). Did you notice something wired here? Why the forcing is in the <b>horizontal</b> direction, but the flow is obviously <b>vertical</b>? 👀
 </div>
@@ -126,4 +126,33 @@ Yeah I know there was a lot of annoying math... Now just sit back and enjoy some
     Swirling Kolmogorov flow. With aspect ratio \(\Gamma=3\), \(L_x=L_y=\Gamma L_z=6\pi\). The flow is still mostly <b>vertical</b>... But better?
 </div>
 
-So, what's going on with this large-scale vertical motion when we increase the aspect ratio \(\Gamma\), is it physical? Or it is just some artifact due to the periodic boundary condition? To further investigate this, we performed simulations on a 3 by 3 by 3 domain, i.e. \(L_x=L_y= L_z=6\pi\), while kept the forcing scale the same, so there are three whole wavelengths along the vertical axis. Here come some more beautiful movies! 🎆
+So, what's going on with this large-scale vertical motion when we increase the aspect ratio $$\Gamma$$, is it physical? Or it is just some artifact due to the periodic boundary condition? To further investigate this, we performed simulations on a 3 by 3 by 3 domain, i.e. $$L_x=L_y= L_z=6\pi$$, while kept the forcing scale the same, so there are three whole wavelengths along the vertical axis. Here come some more beautiful movies! 🎆
+
+<iframe width="380" height="330" src="https://www.youtube.com/embed/dRrxIFwv9fQ?si=idLTd8xfHMdUjn5-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="380" height="330" src="https://www.youtube.com/embed/fFYLDt9fjP8?si=hr9Imf9WV9QH2DNT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<div class="caption">
+    Single-mode Kolmogorov flow, on a 3x3x3 domain. <b>Left:</b> Scalar field. <b>Right:</b> Vorticity field. Did you see that cute vortex pair? 👀
+</div>
+
+<iframe width="380" height="330" src="https://www.youtube.com/embed/laND36GOchM?si=lnAXCRc-dwXZiGWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="380" height="330" src="https://www.youtube.com/embed/ZKuWt3-TL8c?si=_I--4fxNn5IgSvmx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="caption">
+    Swirling Kolmogorov flow, on a 3x3x3 domain. <b>Left:</b> Scalar field. <b>Right:</b> Vorticity field. No more vortex pair! The flow looks very homogeneous... like HIT huh..
+</div>
+
+We believe the large-scale motion as well as the vortex pair in the single Kolmogorov flow is due to the <b>inverse cascade</b>. Since the injecting force as well as the mean flow is essentially 2D. These are gone in the swirling case!
+
+## More to come! 🤩
+* <b>Increase Reynolds number</b>, numerical simulations at higher resolution.
+    + Investigate the impact of Reynolds numbers on swirling flow.
+    + Better resolved inertial range – anisotropy effects?
+    + Friction factor (mean flow vs dissipation).
+    + Effect on mixing statistics.
+* <b>Domain size effects</b>
+    + Inverse cascade in Kolmogorov flow? (2D condensate). Need some math here...
+    + What about the swirling case?
+    + Can we reach a box-independent state?
+    + Large-scale dynamics?
+
+
