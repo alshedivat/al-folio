@@ -10,8 +10,10 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
       <strong>postal address:</strong>
+      <p>Anthropology Dept.</p>
       <p>2424 Maile Way</p>
       <p>Saunders Hall 346</p>
+      <p>UH-Manoa</p>
       <p>Honolulu, HI, 96822 USA</p>
       <strong>office:</strong> <a href="https://map.hawaii.edu/manoa/">Dean Hall 204</a></p>
       <strong>email:</strong> <a href="mailto:cepeter@hawaii.edu">cepeter@hawaii.edu</a></p>
