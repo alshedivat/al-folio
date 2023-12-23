@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Christian E. Peterson
+    - name: Citizenship
+      value: Canada, USA (dual)
     - name: Languages
-      value: English, German
+      value: English, Chinese (Mandarian)
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Pittsburgh, Pittsburgh, PA USA
+      year: 2006
       description:
         - Description 1.
         - Description 2.
@@ -21,19 +21,24 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: MA
+      institution: University of Pittsburgh, Pittsburgh, PA USA
+      year: 2005
       description:
         - Description 1.
         - Description 2.
-
+    - title: Hon.BA
+      institution: University of Toronto, Toronto, ON Canada
+      year: 2005
+      description:
+        - Description 1.
+        - Description 2.
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Professor of Anthropology
+      institution: University of Hawaii at Manoa
+      year: 2008 - present
       description:
         - Description 1.
         - Description 2.
@@ -72,18 +77,18 @@
   type: time_table
   contents:
     - year: 1921
-      items: 
-        - Nobel Prize in Physics 
+      items:
+        - Nobel Prize in Physics
         - Matteucci Medal
     - year: 2029
-      items: 
+      items:
         - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Topic 1.
-      items: 
+      items:
         - Description 1.
         - Description 2.
     - title: Topic 2.
