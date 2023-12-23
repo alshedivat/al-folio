@@ -2,25 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href="https://anthropology.manoa.hawaii.edu/">Professor, Department of Anthropology, University of Hawai'i at Manoa</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+      <strong>postal address:</strong>
+      <p>2424 Maile Way, Saunders 346</p>
+      <p>Honolulu, HI, 96822 USA</p>
+      <strong>office:</strong> <a href="https://map.hawaii.edu/manoa/">Dean Hall 204</a></p>
+      <strong>email:</strong> <a href="mailto:cepeter@hawaii.edu">cepeter@hawaii.edu</a></p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm an anthropologically-trained archaeologist specializing in the comparative study of early complex societies. I identify and analyze patterned variation in trajectories of societal growth and decline so as to better understand the dynamics of social change. I'm especially interested in how different kinds and degrees of inequality contribute to these dynamics. Topics emphasized in my research include regional settlement distribution, community patterning, and demography; ritual landscapes; labor investment in public works; household artifact assemblage analysis and the identification of prestige, wealth, ritual, and productive differentiation within and between communities; and the development of local economies. I have a penchant for quantitative and spatial analytical methods (with a bent toward Exploratory Data Analysis and the use of free and open-source software).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I co-direct multi-scalar archaeological fieldwork projects aimed at understanding the emergence and development of Middle Neolithic Hongshan period (4500-3000 BCE) societies in NE China's <a href="https://en.wikipedia.org/wiki/Liao_River">Western Liao River Valley</a> and of Early Iron Age (CE 700-950) communities in the Letaba-Olifants Confluence Area of South Africa's <a href="https://en.wikipedia.org/wiki/Kruger_National_Park">Kruger National Park</a>.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm also a husband, father, dog lover, inveterate cyclist, sci-fi aficionado, accomplished flintknapper, and would-be guitarist with blues, rock, jazz, and other roots-based musical influences.
