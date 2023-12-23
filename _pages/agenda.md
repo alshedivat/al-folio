@@ -9,9 +9,11 @@ nav_order: 4
 
 ---
 
-### In Progress
+### ongoing projects
+projects I am leading or co-leading
 
-**TBD.** with Amy Zhang (U. of Wa.) and Ranjay Krishna (U. of Wa.).
+**Discursive Datasets.** with Amy Zhang (U. of Wa.) and Ranjay Krishna (U. of Wa.).
+*Description forthcoming*.
 
 **The "State of Nature" in Social Platforms.** with Katie Yurechko (Wash. & Lee, Oxford).
 Borrowing from the treatment of the "state of nature" in political philosophy, we set forth a framework for understanding and analyzing the pre-/political experience of users in social platforms.
@@ -28,7 +30,14 @@ See: *sources forthcoming.*
 
 ---
 
-### Exciting Ideas and Directions
+### ongoing collaborations
+projects I'm happy to be a small part of!
+
+**Limits of Value Pluralism in Alignment.** Taylor Sorenson (U. of Wa.), Liwei Jiang (U. of Wa.), et al.
+
+---
+
+### exciting ideas and directions
 Kernels of research ideas I'm excited about.
 If any of these excite you too, please shoot me an email at `andreye [at] uw [dpt] edu`!
 

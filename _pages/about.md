@@ -26,7 +26,7 @@ My research interests are in the union of philosophy (esp. continental and criti
 Please see my [research agenda](/agenda) and completed [projects](/projects).
 I have written a few [essays](/writing/philosophy){:target="_blank"} in philosophy, [two](/writing/mdldna){:target="_blank"} [books](/writing/mdl4td){:target="_blank"} on deep learning, a little bit of [fiction](/writing/fiction){:target="_blank"}, and many data science [articles](https://andre-ye.medium.com/){:target="_blank"}.
 
-Currently reading: `The Foucault Reader*, ed. Paul Rabinow`.
+Currently reading: `The Foucault Reader, ed. Paul Rabinow`, `The Birth of Computer Vision, James Dobson`.
 Check out my [reading list](/reading/reading_list) and some [music](/reading/listening_list) to pair.
 
 <!-- My interest is in the philosophy of technology and AI.
