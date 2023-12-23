@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: TA
+title: Teaching
+description: TAships
 nav: true
 nav_order: 5
 ---
