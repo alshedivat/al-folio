@@ -1,19 +1,19 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
+    - name: Hanbei Xiong
       value: Albert Einstein
     - name: Date of Birth
-      value: 14th March 1879
+      value: 17th March 2000
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MS in Biostatistics
+      institution: University of California, Los Angelas
+      year: 2023-2025
       description:
         - Description 1.
         - Description 2.
@@ -21,9 +21,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Bachelor of Science in Applied Mathematics
+      institution: University of California, San Diego
+      year: 2019-2023
       description:
         - Description 1.
         - Description 2.
@@ -31,8 +31,8 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
+    - title: Bachelor of Science in Applied Mathematics
+      institution: University of California, San Diego
       year: 1933 - 1955
       description:
         - Description 1.
