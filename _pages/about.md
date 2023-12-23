@@ -9,7 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-      <strong>postal address:</strong>
       <p>Anthropology Dept.</p>
       <p>2424 Maile Way</p>
       <p>Saunders Hall 346</p>
