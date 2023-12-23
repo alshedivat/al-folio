@@ -4,7 +4,7 @@ title: South Africa
 description: Letaba-Olifants Confluence Area Project
 img: assets/img/letaba.jpg
 importance: 2
-category: work
+category: research
 giscus_comments: false
 ---
 

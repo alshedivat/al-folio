@@ -4,7 +4,7 @@ title: Comparative Research
 description:  Chiefdom Datasets Project
 img: assets/img/cdp_icon.jpg
 importance: 3
-category: work
+category: research
 ---
 
 The Chiefdoms Datasets Project (CDP) is compiling, analyzing, and comparing previously published primary archaeological data on settlement distribution, community organization, demography, public works, household artifact assemblages, and burials for more than five dozen trajectories of early complex society development (or "chiefdomization") from around the world. Its aim is to identify patterns of societal change and to better understand the social forces at work in the trajectories that comprise these different patterns. Principal collaborators are <a href="https://www.anthropology.pitt.edu/people/robert-d-drennan">Robert D. Drennan</a> and <a href="https://www.csus.edu/faculty/b/adam.berrey/">C. Adam Berrey</a>.
