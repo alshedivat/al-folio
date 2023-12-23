@@ -39,7 +39,7 @@ projects I'm happy to be a small part of!
 
 ### exciting ideas and directions
 Kernels of research ideas I'm excited about.
-If any of these excite you too, please shoot me an email at `andreye [at] uw [dpt] edu`!
+If any of these excite you too, please shoot me an email at `andreye [at] uw [dot] edu`!
 
 - *Breathing Datasets.* I previously briefly developed the notion of [economy of the dataset](https://andre-ye.github.io/writing/files/economy-of-the-dataset.pdf){:target="_blank"}, which deploys the Marxist notion of commodity fetishism and alienation to understand the simultaneous isolation and tightness of large-scale datasets. In response: can we develop less alienated, more intertwined datasets? Can we exploit hyperlinks and connections? Can we build a dataset in which each annotation is not one thing one person said at one time, but a living, breathing discourse?
 - An application of the "male gaze" to vision models (see: Laura Mulvey, ["Visual Pleasure and Narrative Cinema"](https://www.amherst.edu/system/files/media/1021/Laura%2520Mulvey,%2520Visual%2520Pleasure.pdf){:target="_blank"})
