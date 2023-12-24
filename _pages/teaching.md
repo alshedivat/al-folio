@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: click on course title for catalog description, credit hours, prerequisites and any UH-Manoa general education requirements fulfilled
+description: click course title for catalog description, credit hours, prerequisites and any UH general education requirements fulfilled
 nav: true
 nav_order: 4
 ---
