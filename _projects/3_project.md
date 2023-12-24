@@ -11,4 +11,6 @@ The Chiefdoms Datasets Project (CDP) is compiling, analyzing, and comparing prev
 
 <iframe width="680" height="400" src="https://www.youtube.com/embed/oZdP85X11eM" title="Varied Trajectories of Chiefdomization | Robert D. Drennan | U Pittsburgh | #QuantitativeHistory" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-In this presentation, delivered as part of the <i>Quantitative History Webinar Series</i> on March 10, 2022, Robert D. Drennan explains how our approach puts into practice the idea sometimes attributed to the American author Mark Twain that "history doesn't repeat itself, but it sure does rhyme." The different rhymes that can be seen in chiefdomization trajectories lead eventually to chiefly societies with different characteristics. A book-length treatment of CDP results has recently been submitted for publication and is currently under review.
+In this presentation, delivered as part of the <i>Quantitative History Webinar Series</i> on March 10, 2022, Robert D. Drennan explains how our approach puts into practice the idea sometimes attributed to the American author Mark Twain that "history doesn't repeat itself, but it sure does rhyme." The different rhymes that can be seen in chiefdomization trajectories lead eventually to chiefly societies with different characteristics. 
+
+A book-length treatment of CDP results has recently been submitted for publication and is currently under review.
