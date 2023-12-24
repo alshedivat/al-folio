@@ -15,7 +15,7 @@
       institution: University of Pittsburgh, Pittsburgh, PA USA
       year: 2006
       description:
-        - Description 1.
+        - Anthropology
         - Description 2.
         - title: Description 3.
           contents:
@@ -25,14 +25,14 @@
       institution: University of Pittsburgh, Pittsburgh, PA USA
       year: 2005
       description:
-        - Description 1.
+        - Anthropology
         - Description 2.
     - title: Hon.BA
       institution: University of Toronto, Toronto, ON Canada
       year: 2005
       description:
-        - Description 1.
-        - Description 2.
+        - Anthropology (w/ a specialization in Prehistoric Archaeology)
+      
 - title: Academic Appointments
   type: time_table
   contents:
