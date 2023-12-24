@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Northeast China
+title: NE China
 description: Liaoning Hongshan Period Communities Project
 img: assets/img/hs_goddess.jpg
 importance: 1
