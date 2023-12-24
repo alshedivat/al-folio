@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: click on course title for catalog description, credit hours, prerequisites and any UH-Manoa general education requirements fulfilled
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
 <p><a href="https://manoa.hawaii.edu/catalog/courses/anth-151-emerging-humanity-3/">ANTH 151 emerging humanity</a></p>
