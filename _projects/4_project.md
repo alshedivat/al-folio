@@ -102,46 +102,46 @@ Yeah I know there was a lot of annoying math... Now just sit back and enjoy some
 <iframe width="355" height="315" src="https://www.youtube.com/embed/_YiM4oQxEeI?si=WtjOud0hgC0uixDW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 <div class="caption">
-    Single-mode Kolmogorov flow. With aspect ratio \(\Gamma=1\), \(L_x=L_y=L_z=2\pi\).
+    Single-mode Kolmogorov flow with aspect ratio \(\Gamma=1\), \(L_x=L_y=L_z=2\pi\).
 </div>
 
 <p align="center">
 <iframe width="820" height="315" src="https://www.youtube.com/embed/5SVyiHfIRTc?si=RC0-zhs7HAwNvU-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 <div class="caption">
-    Single-mode Kolmogorov flow. With aspect ratio \(\Gamma=3\), \(L_x=L_y=\Gamma L_z=6\pi\). Did you notice something wired here? Why the forcing is in the <b>horizontal</b> direction, but the flow is obviously <b>vertical</b>? 👀
+    Single-mode Kolmogorov flow with aspect ratio \(\Gamma=3\), \(L_x=L_y=\Gamma L_z=6\pi\). Did you notice something wired here? Why the forcing is in the <b>horizontal</b> direction, but the flow is obviously <b>vertical</b>? 👀
 </div>
 
 <p align="center">
 <iframe width="350" height="315" src="https://www.youtube.com/embed/hCK5-NWtCAI?si=e0NGmsAQL9PLfaxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 <div class="caption">
-    Swirling Kolmogorov flow. With aspect ratio \(\Gamma=1\), \(L_x=L_y=L_z=2\pi\). More wiggly and more turbulent, huh? 🥴
+    Swirling Kolmogorov flow with aspect ratio \(\Gamma=1\), \(L_x=L_y=L_z=2\pi\). More wiggly and more turbulent, huh? 🥴
 </div>
 
 <p align="center">
 <iframe width="820" height="315" src="https://www.youtube.com/embed/y6rNKmUvrYk?si=PEe2sUibFVdDbIFj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 <div class="caption">
-    Swirling Kolmogorov flow. With aspect ratio \(\Gamma=3\), \(L_x=L_y=\Gamma L_z=6\pi\). The flow is still mostly <b>vertical</b>... But better?
+    Swirling Kolmogorov flow with aspect ratio \(\Gamma=3\), \(L_x=L_y=\Gamma L_z=6\pi\). The flow is still mostly <b>vertical</b>... But better?
 </div>
 
-So, what's going on with this large-scale vertical motion when we increase the aspect ratio $$\Gamma$$, is it physical? Or it is just some artifact due to the periodic boundary condition? To further investigate this, we performed simulations on a 3 by 3 by 3 domain, i.e. $$L_x=L_y= L_z=6\pi$$, while kept the forcing scale the same, so there are three whole wavelengths along the vertical axis. Here come some more beautiful movies! 🎆
+So, what's going on with this large-scale vertical motion when we increase the aspect ratio $$\Gamma$$? Is it physical? Or it is just some artifact due to the periodic boundary condition? To further investigate this, we performed simulations on a 3 by 3 by 3 domain, i.e. $$L_x=L_y= L_z=6\pi$$, while keeping the forcing scale the same, so there are three whole wavelengths along the vertical axis. Here come some more beautiful movies! 🎆
 
 <iframe width="380" height="330" src="https://www.youtube.com/embed/dRrxIFwv9fQ?si=idLTd8xfHMdUjn5-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <iframe width="380" height="330" src="https://www.youtube.com/embed/fFYLDt9fjP8?si=hr9Imf9WV9QH2DNT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <div class="caption">
-    Single-mode Kolmogorov flow, on a 3x3x3 domain. <b>Left:</b> Scalar field. <b>Right:</b> Vorticity field. Did you see that cute vortex pair? 👀
+    Single-mode Kolmogorov flow on a 3x3x3 domain. <b>Left:</b> Scalar field. <b>Right:</b> Vorticity field. Did you see that cute vortex pair? 👀
 </div>
 
 <iframe width="380" height="330" src="https://www.youtube.com/embed/laND36GOchM?si=lnAXCRc-dwXZiGWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <iframe width="380" height="330" src="https://www.youtube.com/embed/ZKuWt3-TL8c?si=_I--4fxNn5IgSvmx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <div class="caption">
-    Swirling Kolmogorov flow, on a 3x3x3 domain. <b>Left:</b> Scalar field. <b>Right:</b> Vorticity field. No more vortex pair! The flow looks very homogeneous... like HIT huh..
+    Swirling Kolmogorov flow on a 3x3x3 domain. <b>Left:</b> Scalar field. <b>Right:</b> Vorticity field. No more vortex pair! The flow looks very homogeneous... like HIT huh..
 </div>
 
-We believe the large-scale motion as well as the vortex pair in the single Kolmogorov flow is due to the <b>inverse cascade</b>. Since the injecting force as well as the mean flow is essentially 2D. These are gone in the swirling case!
+Our hypothesis is that the large-scale motion as well as the vortex pair in the single Kolmogorov flow is due to the <b>inverse cascade</b>. Since the injecting force as well as the mean flow is essentially 2D. These are gone in the swirling case!
 
 ## More to come! 🤩
 * <b>Increase Reynolds number</b>, numerical simulations at higher resolution.
