@@ -18,9 +18,8 @@ profile:
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello, world, I am Shaivi. I am a first-year computer science undergraduate at ____ University. I enjoy writing clean, documented code in Python. 
+Hello, world, I am Shaivi. I am a sophomore at Indira Gandhi Delhi Technical University for Women majoring in Electronics and Communication with Artificial Intelligence. I am an AI-ML enthusiast and enjoy writing clean, documented code in Python. 
 
-I recently matriculated from Delhi Public School Vasant Kunj, with Computer Science as my optional subject.
 
 Stay tuned as I add all the cool stuff I plan to do here!
 
