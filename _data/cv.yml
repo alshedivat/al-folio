@@ -4,7 +4,7 @@
     - name: Full Name
       value: Christian E. Peterson
     - name: Citizenship
-      value: Canada, USA (dual)
+      value: Canada, USA (dual citizen)
     - name: Languages
       value: English, Chinese (Mandarian)
 
@@ -33,25 +33,18 @@
       description:
         - Description 1.
         - Description 2.
-- title: Experience
+- title: Academic Appointments
   type: time_table
   contents:
     - title: Professor of Anthropology
-      institution: University of Hawaii at Manoa
-      year: 2008 - present
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+      institution: University of Hawaii at Manoa, Honolulu, HI USA
+      year: ???? - present
+    - title: Associate Professor
+      institution: University of Hawaii at Manoa, Honolulu, HI USA
+      year: ???? - ????
+    - title: Assistant Professor
+      institution: University of Hawaii at Manoa, Honolulu, HI USA
+      year: 2008 - ????
 
     - title: Director
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
