@@ -1,19 +1,33 @@
 ---
 ---
 
-@misc{learningCombinatorialOptimization2022,
+@article{learningCombinatorialOptimization2022,
+  abbr = {Preprint},
   title = {Learning with {{Combinatorial Optimization Layers}}: A {{Probabilistic Approach}}},
   author = {Dalle, Guillaume and Baty, Léo and Bouvier, Louis and Parmentier, Axel},
-  date = {2022-07-27},
-  number = {arXiv:2207.13513},
-  publisher = {{arXiv}},
+  abstract = {Combinatorial optimization (CO) layers in machine learning (ML) pipelines are a powerful tool to tackle data-driven decision tasks, but they come with two main challenges. First, the solution of a CO problem often behaves as a piecewise constant function of its objective parameters. Given that ML pipelines are typically trained using stochastic gradient descent, the absence of slope information is very detrimental. Second, standard ML losses do not work well in combinatorial settings. A growing body of research addresses these challenges through diverse methods. Unfortunately, the lack of well-maintained implementations slows down the adoption of CO layers. In this paper, building upon previous works, we introduce a probabilistic perspective on CO layers, which lends itself naturally to approximate differentiation and the construction of structured losses. We recover many approaches from the literature as special cases, and we also derive new ones. Based on this unifying perspective, we present InferOpt.jl, an open-source Julia package that 1) allows turning any CO oracle with a linear objective into a differentiable layer, and 2) defines adequate losses to train pipelines containing such layers. Our library works with arbitrary optimization algorithms, and it is fully compatible with Julia's ML ecosystem. We demonstrate its abilities using a pathfinding problem on video game maps.},
+  year = {2022},
+  month = {Jul},
   doi = {10.48550/arXiv.2207.13513},
   url = {https://arxiv.org/abs/2207.13513},
-  arxiv = {2207.13513},
-  abbr = {Preprint},
-  abstract = {Combinatorial optimization (CO) layers in machine learning (ML) pipelines are a powerful tool to tackle data-driven decision tasks, but they come with two main challenges. First, the solution of a CO problem often behaves as a piecewise constant function of its objective parameters. Given that ML pipelines are typically trained using stochastic gradient descent, the absence of slope information is very detrimental. Second, standard ML losses do not work well in combinatorial settings. A growing body of research addresses these challenges through diverse methods. Unfortunately, the lack of well-maintained implementations slows down the adoption of CO layers. In this paper, building upon previous works, we introduce a probabilistic perspective on CO layers, which lends itself naturally to approximate differentiation and the construction of structured losses. We recover many approaches from the literature as special cases, and we also derive new ones. Based on this unifying perspective, we present InferOpt.jl, an open-source Julia package that 1) allows turning any CO oracle with a linear objective into a differentiable layer, and 2) defines adequate losses to train pipelines containing such layers. Our library works with arbitrary optimization algorithms, and it is fully compatible with Julia's ML ecosystem. We demonstrate its abilities using a pathfinding problem on video game maps.},
+  preview = {brownian-motion.gif},
+  selected = {true},
   bibtex_show = {true},
   code = {https://github.com/axelparmentier/InferOpt.jl},
-  hal = {https://hal.archives-ouvertes.fr/hal-03739485},
-  selected = {true}
+  arxiv = {2207.13513},
+}
+
+@article{baty2023combinatorial,
+  abbr = {Preprint},
+  title={Combinatorial optimization enriched machine learning to solve the dynamic vehicle routing problem with time windows},
+  author={Baty, L{\'e}o and Jungel, Kai and Klein, Patrick S and Parmentier, Axel and Schiffer, Maximilian},
+  journal={Transportation Science},
+  year={2023},
+  url={https://arxiv.org/abs/2304.00789},
+  preview={wave-mechanics.gif},
+  bibtex_show = {true},
+  arxiv = {2304.00789},
+  abstract = {With the rise of e-commerce and increasing customer requirements, logistics service providers face a new complexity in their daily planning, mainly due to efficiently handling same day deliveries. Existing multi-stage stochastic optimization approaches that allow to solve the underlying dynamic vehicle routing problem are either computationally too expensive for an application in online settings, or -- in the case of reinforcement learning -- struggle to perform well on high-dimensional combinatorial problems. To mitigate these drawbacks, we propose a novel machine learning pipeline that incorporates a combinatorial optimization layer. We apply this general pipeline to a dynamic vehicle routing problem with dispatching waves, which was recently promoted in the EURO Meets NeurIPS Vehicle Routing Competition at NeurIPS 2022. Our methodology ranked first in this competition, outperforming all other approaches in solving the proposed dynamic vehicle routing problem. With this work, we provide a comprehensive numerical study that further highlights the efficacy and benefits of the proposed pipeline beyond the results achieved in the competition, e.g., by showcasing the robustness of the encoded policy against unseen instances and scenarios.},
+  code = {https://github.com/tumBAIS/euro-meets-neurips-2022},
+  selected={true},
 }

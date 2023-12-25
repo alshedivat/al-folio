@@ -1,11 +1,3 @@
-# - title: General Information
-#   type: map
-#   contents:
-#     - name: Full Name
-#       value: Léo Baty
-#     - name: Languages
-#       value: English, French, Italian
-
 - title: Experience
   type: time_table
   contents:
@@ -53,7 +45,7 @@
       description: https://www.roadef.org/roadef-prix-etudiant-master
     - title: EURO-NeurIPS challenge 2022
       institution: First prize, and Young talent prize
-      year: July-December 2022
+      year: December 2022
       description: https://euro-neurips-vrp-2022.challenges.ortec.com/
     - title: Finalist of best master's report, ROADEF 2022
       # institution: ROADEF 2022

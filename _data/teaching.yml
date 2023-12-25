@@ -1,11 +1,11 @@
 - title: Classes
   type: time_table
   contents:
+    - title: Teaching assistant and lecturer
+      institution: École des Ponts ParisTech
+      year: 2022 and 2023
+      description: Operations Research (<a href="https://batyleo.github.io/teaching/RO2023/">course link</a>)
     - title: Teaching assistant
       institution: École des Ponts ParisTech
       year: 2023
       description: <a href="https://cermics.enpc.fr/~jpc/decision-incertain/index.html">Décision dans l'incertain</a>
-    - title: Teaching assistant and lecturer
-      institution: École des Ponts ParisTech
-      year: 2022 - 2023
-      description: Operations Research (<a href="https://batyleo.github.io/teaching/RO2023/">course link</a>)
