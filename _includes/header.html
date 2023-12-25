@@ -51,16 +51,6 @@
                   {%- endif -%}
                 </a>
               </li>
-              {% if site.blog_nav_title %}
-              <!-- Blog -->
-              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
-                  {%- if page.url contains 'blog' -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
-                </a>
-              </li>
-              {%- endif %}
 
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
@@ -90,9 +80,14 @@
                 </div>
               </li>
               {%- else %}
-              <li class="nav-item {% if page.title == p.title %}active{% endif %}">
-                <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
-                  {%- if page.title == p.title -%}
+              <li class="nav-item {% if page.url contains p.permalink %}active{% endif %}">
+                {%- if p.permalink contains '/blog/' %}
+                {%- assign url = '/blog/' -%}
+                {%- else -%}
+                {%- assign url = p.url -%}
+                {%- endif -%}
+                <a class="nav-link" href="{{ url | relative_url }}">{{ p.title }}
+                  {%- if page.url contains p.url -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
