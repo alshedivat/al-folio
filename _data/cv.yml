@@ -1,97 +1,58 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Doctor of Philosophy Candidate in <a href="https://amsc.umd.edu/">Applied Mathematics</a>
+      institution: University of Maryland, College Park, MD
+      year: 2019-current
+    - title: Masters of Science in <a href="https://amsc.umd.edu/">Applied Mathematics</a>
+      institution: University of Maryland, College Park, MD
+      year: 2019-2021
+    - title: Bachelors of Arts in <a href="https://cmor.rice.edu/">Computational & Applied Mathematics</a>
+      institution: Rice University, Houston, TX
+      year: 2015-2019
+    - title: Bachelors of Science in <a href="https://mech.rice.edu/">Mechanical Engineering</a>
+      institution: Rice University, Houston, TX
+      year: 2015-2019
 
-- title: Experience
+- title: Select Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Assistant in <a href="https://furong-huang.com/">Huang Research Group</a>
+      institution: University of Maryland, College Park, MD
+      year: 2020-current
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Constructing faster distributed algorithms via asynchronous methods
+        - Creating memory- and computational-efficient distributed algorithms via sketching and hashing (some which escape saddle points)
+        - Building mechanisms to incentivize FL participation & performance
+    - title: PhD Research Intern
+      institution: Pacific Northwest National Laboratories
+      year: 2022-2023
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - Researched edge-computing algorithms for micro-grids
+        - Constructed a model-agnostic distributed algorithm (allowing devices to train with of cost or memory constraints)
+        - Built a decentralized FL Python package
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2019-2020
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - <a href="https://www-math.umd.edu/graduate/current-students/graduate-student-awards/80-math/graduate/568-graduate-student-teaching-award.html">Aziz-Osborn Gold Medal in Teaching Excellence</a> (University of Maryland)
+    - year: 2019
       items: 
-        - Max Planck Medal
+        - Best Energy-Related Design at the <a href="https://www.oedk.rice.edu/2019showcase">Rice Engineering Showcase</a>
+    - year: 2017
+      items:
+        - NSF Travel Grant Scholarship to 34th  <a href="https://community.amstat.org/qp/events/qualityandproductivityresearchconference">QPRC</a>
+    - year: 2017
+      items:
+        - Best Poster and Presentation at the 7th <a href="https://cofes.rice.edu/eubank-conference">Eubank Conference</a>
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Federated Learning (FL)
+    - title: Compression & Hashing
+    - title: Mechanism Design
+    - title: Asynchronous Algorithms
