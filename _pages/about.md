@@ -2,25 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
+subtitle: <a href='#'>Affiliations</a> Humor in the Hack, Security in the Laughter :)
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
+   
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! bakeery, a Computer Science and Engineering student at SRM Institute of Science and Technology in Chennai, India. Currently pursuing my B.Tech degree, I hold a Diploma in Information Technology, emphasizing my commitment to academic excellence.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Cybersecurity Passion:
+Specializing in cybersecurity, I've earned Red Teaming, Penetration Testing, and CompTIA Pentestlearning path certifications in tryhackme. 
+I am Proficient in Python, C/C++, Bash, and Java, my goal is to make the internet a safer space.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Beyond academics, I am a short time bug bounty hunter, I enjoy hunting bugs and contributing to online security by uncovering vulnerabilities. I've earned and  reviewed numerous thanks for my contributions.
+
+Motivation:
+My ultimate goal is to contribute to a safer internet. I embrace challenges, and my friendly nature, combined with a love for cracking jokes, reflects my approachability.
