@@ -9,6 +9,12 @@ nav_order: 4
 
 2023
 
+* Poison For Breakfast - Lemony Snicket
+* We Found A Hat - Jon Klassen
+* Little Girls Are Wiser Than Men - Leo Tolstoy
+* Please Do Not Touch This Exhibit - Jen Campbell
+* Where the Crawdads Sing - Delia Owens
+* The Graveyard Book - Neil Gaiman
 * Chronicles of Avonlea - L. M. Montgomery
 * The Collectors - Philip Pullman
 * The Pregnant King - Devdutt Pattanaik
