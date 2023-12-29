@@ -2,12 +2,11 @@
 layout: page
 title: DeepCell
 description: "Geometric deep learning for single cell analysis for CyTOF data"
-img: assets/img/projects/deepcell_tsne.png
+img: /assets/img/projects/deepcell_tsne.png
 importance: 1
 category: open
 source: https://docs.google.com/document/d/1XJ0NYZ6hjlEkEZ5jiZqxGeYICPP2c_p0JZRQKQkmLcQ/edit
 ---
-
 
 <img src="/assets/img/projects/deepcell_tsne.png" style="float: right; width:70%; padding: 1em"/>
 

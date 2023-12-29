@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Julia Koch
-description: Master student
+description: Master student, research intern
 img: /assets/img/people/placeholder.jpg
 importance: 99
 category: member

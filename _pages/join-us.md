@@ -17,17 +17,18 @@ nav_order: 99
 ---
 
 
-**We are hiring!** 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are currently looking for **several PhD students, postdocs, and student assistants** with an interest in machine learning. 
 
-> There are currently **two open Postdoc/PhD** positions. The calls are open until **January 31st, 2024**. Please apply for both!
+> **Two open PhD/Postdoc** positions. The calls are open until **January 31st, 2024**. We are looking forward to you applications! 🥳 Please apply for both positions!
 > * [Position 1](https://jobs.uni-rostock.de/jobposting/3ca315a64762f179542465dd0daf2331b9a5c3a80) (funded by the [THEMIS project](/projects/2022_themis))
-> * [Position 2](https://jobs.uni-rostock.de/jobposting/c6eb7fa090c6ec6e45e5a265345dc5b76908e70e0) (requires some German skills 🇩🇪)
+> * [Position 2](https://jobs.uni-rostock.de/jobposting/2317ec88a7e47bc3fb2c78f744415dd5a4de55400) (requires some German skills 🇩🇪)
+
+> For **student assistant positions**, please look [here](/for-students/jobs-and-theses/).
 
 ## Contact Us!
 
-If there are no positions listed above, please contact us!
+**We are hiring!** 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are always looking for motivated **PhD students, postdocs, and student assistants** with an interest in developing and applying machine learning for real-world problem settings. 
+So, if there are no positions listed above, please contact us!
 We may be planning calls or know about opportunities for you to get a PhD or a fun Postdoc position either at our group or within our international network 🌐. 
-We are always looking for motivated and talented researchers.  
 
 ## Research Focus
 
@@ -36,6 +37,8 @@ In this context, [our projects cover a wide variety of directions and applicatio
 For example they revolve around understanding complex systems by background knowledge extraction end exploitation in the context of the BMBF funded research group [THEMIS](/projects/2022_themis).
 Additionally, we are always interested in your own project ideas, thus, don’t hesitate to contact us! 
 We will support you as best as we can.
+
+
 
 ## Our Mission and Values
 
