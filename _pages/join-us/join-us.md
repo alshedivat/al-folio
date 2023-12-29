@@ -3,7 +3,7 @@ layout: page
 title: Join Us!
 description: 
 nav: true
-nav_order: 21
+nav_order: 99
 dropdown: true
 children:
     - title: Overview

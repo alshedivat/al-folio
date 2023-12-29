@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /for-students/datascienceclub/
+permalink: /datascienceclub/
 title: Data Science Club
 description: University of Rostock
-nav: false
-nav_order: 20
+nav: true
+nav_order: 23
 ---
 
 <!-- <img src="/assets/img/datascienceclub/kaggle_pizza.png" style="float: right; width:100%"/> -->
