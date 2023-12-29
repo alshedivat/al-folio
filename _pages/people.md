@@ -5,7 +5,7 @@ permalink: /people/
 description: People in the lab.
 nav: true
 nav_order: 1
-display_categories: [pi, student, admin, alumni]
+display_categories: [member, alumni]
 horizontal: false
 ---
 

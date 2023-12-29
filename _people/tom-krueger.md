@@ -3,7 +3,7 @@ layout: page
 title: Tom Krüger
 description: Master student
 img: /assets/img/people/tom-krueger.jpg
-importance: 1
+importance: 99
 category: alumni
 ---
 

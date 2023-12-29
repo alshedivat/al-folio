@@ -3,8 +3,8 @@ layout: page
 title: Konstantin Frunzek
 description: Bachelor student
 img: /assets/img/people/konstantin-frunzek.jpg
-importance: 1
-category: student
+importance: 91
+category: member
 ---
 
 <img src="{{ page.img }}" style="float: left; width: 10em; padding-right: 1em; padding-bottom: 1em"/>

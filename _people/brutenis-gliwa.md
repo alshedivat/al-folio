@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Brutenis Gliwa
-description: Master student
+description: Master student, Data Science Club organizer
 img: /assets/img/people/brutenis-gliwa.jpg
-importance: 1
-category: student
+importance: 99
+category: member
 ---
 
 <img src="{{ page.img }}" style="float: left; width: 10em; padding-right: 1em; padding-bottom: 1em"/>

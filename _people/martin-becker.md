@@ -4,7 +4,7 @@ title: Martin Becker
 description: Assistant Professor (Jun.-Professor), PI
 img: /assets/img/people/martin-becker.jpg
 importance: 1
-category: pi
+category: member
 ---
 
 <img src="{{ page.img }}" style="float: left; width: 10em; padding-right: 1em; padding-bottom: 1em"/>

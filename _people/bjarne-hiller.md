@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Bjarne Hiller
-description: Research assistant and PhD student
+description: Research assistant and PhD student, Data Science Club organizer
 img: /assets/img/people/bjarne-hiller.jpg
-importance: 1
-category: student
+importance: 11
+category: member
 ---
 
 <img src="{{ page.img }}" style="float: left; width: 10em; padding-right: 1em; padding-bottom: 1em"/>

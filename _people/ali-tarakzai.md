@@ -3,7 +3,7 @@ layout: page
 title: Ali Tarakzi
 description: Master student
 img: /assets/img/people/placeholder.jpg
-importance: 1
+importance: 91
 category: alumni
 ---
 
