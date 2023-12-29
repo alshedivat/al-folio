@@ -1,11 +1,21 @@
 ---
 layout: page
-permalink: /join-us/overview/
-title: Overview
+title: Join Us!
 description: 
-nav: false
-nav_order: 21
+permalink: /join-us/
+nav: true
+nav_order: 99
+# dropdown: true
+# children:
+#     - title: Overview
+#       permalink: /join-us/overview/
+#     - title: divider
+#     - title: PostDocs
+#       permalink: /join-us/postdocs/
+#     - title: PhD Students
+#       permalink: /join-us/phd/
 ---
+
 
 **We are hiring!** 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are currently looking for **several PhD students, postdocs, and student assistants** with an interest in machine learning. 
 
