@@ -74,10 +74,9 @@ twitter_username: AkshitaB93 # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # your LinkedIn user name
 telegram_username: # your Telegram user name
-semanticscholar_id: # your Semantic Scholar ID
+semanticscholar_id: https://www.semanticscholar.org/author/Akshita-Bhagia/2166136235 # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 scholar_userid: fzH3_G4AAAAJ # your Google Scholar ID
-semantic_scholar: https://www.semanticscholar.org/author/Akshita-Bhagia/2166136235
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -106,6 +105,7 @@ wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.
 stackoverflow_id: #your stackoverflow id
 wordpress_url: https://the-writers-nest.com # your wordpress URL
 goodreads_url: https://www.goodreads.com/user/show/20774648-akshita-bhagia # your goodreads profile
+youtube_dance_list: https://youtube.com/playlist?list=PLTENhvPdKxTR557j8r-9vq6Yb-q5i_QK6&si=SzmhasjNEDpZ2SrI
 
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
