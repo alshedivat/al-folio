@@ -142,7 +142,7 @@ You can implement your own buttons by editing the bib.html file.
 
 ## Changing theme color
 
-You can change the theme color by changing the entries in the [_sass/_themes.scss](_sass/_themes.scss) file. Some of these colors are defined in the [_sass/_variables.scss](_sass/_variables.scss) file.
+A variety of beautiful theme colors have been selected for you to choose from. The default is purple, but you can quickly change it by editing the `--global-theme-color` variable in the [_sass/_themes.scss](_sass/_themes.scss) file. Other color variables are listed there as well. The stock theme color options available can be found at [_sass/_variables.scss](_sass/_variables.scss). You can also add your own colors to this file assigning each a name for ease of use across the template.
 
 ## Adding social media information
 
