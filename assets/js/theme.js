@@ -8,6 +8,7 @@ let toggleTheme = (theme) => {
   }
 };
 
+
 let setTheme = (theme) => {
   transTheme();
   setHighlight(theme);
@@ -60,6 +61,7 @@ let setTheme = (theme) => {
   }
 };
 
+
 let setHighlight = (theme) => {
   if (theme == "dark") {
     document.getElementById("highlight_theme_light").media = "none";
@@ -69,6 +71,7 @@ let setHighlight = (theme) => {
     document.getElementById("highlight_theme_light").media = "";
   }
 };
+
 
 let setGiscusTheme = (theme) => {
   function sendMessage(message) {
@@ -84,11 +87,11 @@ let setGiscusTheme = (theme) => {
   });
 };
 
+
 let addMermaidZoom = (records, observer) => {
   var svgs = d3.selectAll(".mermaid svg");
   svgs.each(function () {
     var svg = d3.select(this);
-    console.log("Got here");
     svg.html("<g>" + svg.html() + "</g>");
     var inner = svg.select("g");
     var zoom = d3.zoom().on("zoom", function (event) {
@@ -98,6 +101,7 @@ let addMermaidZoom = (records, observer) => {
   });
   observer.disconnect();
 };
+
 
 let setMermaidTheme = (theme) => {
   if (theme == "light") {
@@ -120,14 +124,11 @@ let setMermaidTheme = (theme) => {
   const observable = document.querySelector(".mermaid svg");
   if (observable !== null) {
     var observer = new MutationObserver(addMermaidZoom);
-    const observerOptions = {
-      // attributes: true,
-      childList: true,
-      // subtree: true,
-    };
+    const observerOptions = { childList: true };
     observer.observe(observable, observerOptions);
   }
 };
+
 
 let transTheme = () => {
   document.documentElement.classList.add("transition");
@@ -135,6 +136,7 @@ let transTheme = () => {
     document.documentElement.classList.remove("transition");
   }, 500);
 };
+
 
 let initTheme = (theme) => {
   if (theme == null || theme == "null") {
@@ -147,4 +149,14 @@ let initTheme = (theme) => {
   setTheme(theme);
 };
 
+
 initTheme(localStorage.getItem("theme"));
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const mode_toggle = document.getElementById("light-toggle");
+
+    mode_toggle.addEventListener("click", function() {
+        toggleTheme(localStorage.getItem("theme"));
+    });
+});

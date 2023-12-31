@@ -1,3 +1,8 @@
+  {% if page.mermaid and page.mermaid.enabled %}
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  {% if page.mermaid.zoomable %}
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  {% endif %}
   <script>
     let theme = localStorage.getItem("theme");
 
@@ -15,10 +20,7 @@
       backup.after(mermaid);
     });
 
-    mermaid.initialize({
-      // startOnLoad: true,
-      theme: theme,
-    })
+    mermaid.initialize({ theme: theme })
 
     /* Zoomable mermaid diagrams */
     if (typeof d3 !== 'undefined') {
@@ -36,3 +38,4 @@
       });
     }
   </script>
+  {% endif %}
