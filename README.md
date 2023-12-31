@@ -205,8 +205,7 @@ Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github
 
 ## Getting started
 
-Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
-Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
+Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/). Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
 
 ## Installing
 
@@ -226,71 +225,11 @@ What this means is, if there is no resume data defined in `_config.yml` and load
 
 ### Publications
 
-Your publications' page is generated automatically from your BibTex bibliography. Simply edit `_bibliography/papers.bib`. You can also add new `*.bib` files and customize the look of your publications however you like by editing `_pages/publications.md`.
+Your publications' page is generated automatically from your BibTex bibliography. Simply edit `_bibliography/papers.bib`. You can also add new `*.bib` files and customize the look of your publications however you like by editing `_pages/publications.md`. By default, the publications will be sorted by year and the most recent will be displayed first. You can change this behavior and more in the `Jekyll Scholar` section in [_config.yml](_config.yml) file.
+
+You can add extra information to a publication, like a PDF file in the `assets/pdfs/` directory and add the path to the PDF file in the BibTeX entry with the `pdf` field. Some of the supported fields are: `abstract`, `altmetric`, `arxiv`, `bibtex_show`, `blog`, `code`, `dimensions`, `doi`, `eprint`, `html`, `isbn`, `pdf`, `pmid`, `poster`, `slides`, `supp`, `video`, and `website`.
 
 <p align="center"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/publications-screenshot.png" width=800></p>
-
-<details><summary><strong>Author annotation:</strong></summary>
-
-In publications, the author entry for yourself is identified by string array `scholar:last_name` and string array `scholar:first_name` in `_config.yml`:
-
-```yaml
-scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
-```
-
-If the entry matches one form of the last names and the first names, it will be underlined.
-Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
-The co-author data format in `_data/coauthors.yml` is as follows,
-
-```yaml
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
-
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
-
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
-
-"Bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
-```
-
-If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided.
-
-</details>
-
-<details><summary><strong>Buttons (through custom bibtex keywords):</strong></summary>
-
-There are several custom bibtex keywords that you can use to affect how the entries are displayed on the webpage:
-
-- `abbr`: Adds an abbreviation to the left of the entry. You can add links to these by creating a venue.yaml-file in the _data folder and adding entries that match.
-- `abstract`: Adds an "Abs" button that expands a hidden text field when clicked to show the abstract text
-- `arxiv`: Adds a link to the Arxiv website (Note: only add the arxiv identifier here - the link is generated automatically)
-- `bibtex_show`: Adds a "Bib" button that expands a hidden text field with the full bibliography entry
-- `html`: Inserts an "HTML" button redirecting to the user-specified link
-- `pdf`: Adds a "PDF" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
-- `supp`: Adds a "Supp" button to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
-- `blog`: Adds a "Blog" button redirecting to the specified link
-- `code`: Adds a "Code" button redirecting to the specified link
-- `poster`: Adds a "Poster" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
-- `slides`: Adds a "Slides" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
-- `website`: Adds a "Website" button redirecting to the specified link
-- `altmetric`: Adds an [Altmetric](https://www.altmetric.com/) badge (Note: if DOI is provided just use `true`, otherwise only add the altmetric identifier here - the link is generated automatically)
-- `dimensions`: Adds a [Dimensions](https://www.dimensions.ai/) badge (Note: if DOI or PMID is provided just use `true`, otherwise only add the Dimensions' identifier here - the link is generated automatically)
-
-You can implement your own buttons by editing the bib.html file.
-
-</details>
 
 ---
 
