@@ -18,7 +18,7 @@ Skip to a section: [AI](#ai), [Philosophy](#philosophy), [Film](#film), [Fiction
 
 Articles
 - ["The Revolt of the Salaried Bourgeoisie"](https://www.lrb.co.uk/the-paper/v34/n02/slavoj-zizek/the-revolt-of-the-salaried-bourgeoisie){:target="_blank"}, Slavoj Žižek
-- ["Ideology and Ideological State Apparatuses (Notes Towards an Investigation)](https://mforbes.sites.gettysburg.edu/cims226/wp-content/uploads/2018/09/Week-3b-Louis-Althusser.pdf){;target="_blank"}, Louis Althusser
+- ["Ideology and Ideological State Apparatuses (Notes Towards an Investigation)](https://mforbes.sites.gettysburg.edu/cims226/wp-content/uploads/2018/09/Week-3b-Louis-Althusser.pdf){:target="_blank"}, Louis Althusser
 - ["The Conservation of Races"](https://www.degruyter.com/document/doi/10.1515/9780823254576-003/html?lang=en){:target="_blank"}, W.E.B. Du Bois
 - ["Philosophy: Who Needs It?"](https://www.stephenhicks.org/wp-content/uploads/2018/12/Philosophy-Who-Needs-It-text.pdf){:target="_blank"}, Ayn Rand
 - ["Rawls' Law of Peoples: Rules for a Vanished Westphalian World"](https://www.jstor.org/stable/10.1086/233370){:target="_blank"}, Allen Buchanan
@@ -33,6 +33,7 @@ Books
 - *Queer Phenomenology*, Sara Ahmed
 - *Sex and the Failed Absolute*, Slavoj Žižek
 - *The Birth of Computer Vision*, James E. Dodson
+- *The Foucault Reader*, ed. Paul Rabinow
 
 <!-- - *Being and Nothingness*, Jean-Paul Sartre -- the classic existentialist text; a wonderful medium for self-reflection and meditation -->
 
