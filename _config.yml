@@ -8,7 +8,7 @@ middle_name:
 last_name: Mehta
 email: virajm@cs.cmu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD Student at the Robotics Institute at Carnegie Mellon University working at the intersection of machine learning and plasma control for nuclear fusion.
+  Recently defended a PhD at the Robotics Institue at Carnegie Mellon, working on something new.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
@@ -166,7 +166,7 @@ github: [metadata]
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them). 
+  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
     year: archive-year
     tag: archive-tag
