@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoc Fellow at <a href="https://www.bcmaterials.net/en">BCMaterials</a>
+subtitle: Postdoc Fellow at <a href="https://theory.rutgers.edu/profile.php?people_id=277">York Lab (Rutgers University)</a> and <a href="https://sites.google.com/view/biokt/people?authuser=0">BioKimika Teorikoa Lab (DIPC and UPV/EHU)</a>
 
 profile:
   align: right
