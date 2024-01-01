@@ -5,7 +5,7 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-tag fa-sm"></i> {{ page.title }} </h1>
+    <h1 class="post-title"> <i class="fa-solid fa-tag fa-sm"></i> {{ page.title }} </h1>
     <p class="post-description"> an archive of posts in this category </p>
   </header>
 
@@ -16,7 +16,13 @@ layout: default
         <tr>
           <th scope="row">{{ post.date | date: "%b %-d, %Y" }}</th>
           <td>
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            {% if post.redirect == blank %}
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            {% elsif post.redirect contains '://' %}
+            <a class="post-link" href="{{ post.redirect }}" target="_blank">{{ post.title }}</a>
+            {% else %}
+            <a class="post-link" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
+            {% endif %}
           </td>
         </tr>
       {% endfor %}
