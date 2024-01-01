@@ -7,18 +7,11 @@ subtitle: Postdoc Fellow at <a href="https://www.bcmaterials.net/en">BCMaterials
 profile:
   align: right
   image: prof_pic.jpg
-<<<<<<< HEAD
   address: >
-    <p>Center for Integrative Proteomics Research</p>
-    <p>174 Frelinghuysen Road</p>
-    <p>Piscataway, NJ 08854-8076 </p>
-=======
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
->>>>>>> da5065fffc00848b5a9493c636393e8c8413d4f2
+    <p>BCMaterials</p>
+    <p>Bld. Martina Casiano, 3rd. Floor</p>
+    <p>UPV/EHU Science Park, Barrio Sarriena s/n</p>
+    <p>48940 Leioa, Basque Country</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
