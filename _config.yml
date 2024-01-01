@@ -17,13 +17,8 @@ keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-<<<<<<< HEAD
 url: https://mariofp77.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-=======
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
->>>>>>> da5065fffc00848b5a9493c636393e8c8413d4f2
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
