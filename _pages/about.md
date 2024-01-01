@@ -2,12 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoc Fellow at <a href="https://theory.rutgers.edu/profile.php?people_id=277">York Lab (Rutgers University)</a> and <a href="https://sites.google.com/view/biokt/people?authuser=0">BioKimika Teorikoa Lab (DIPC and UPV/EHU)</a>
+subtitle: Postdoc Fellow at <a href="https://www.bcmaterials.net/en">BCMaterials</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
+  image_circular: false
+  more_info: >
     <p>BCMaterials</p>
     <p>Bld. Martina Casiano, 3rd. Floor</p>
     <p>UPV/EHU Science Park, Barrio Sarriena s/n</p>
