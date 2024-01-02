@@ -138,7 +138,7 @@ There are several custom bibtex keywords that you can use to affect how the entr
 - `supp`: Adds a "Supp" button to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
 - `website`: Adds a "Website" button redirecting to the specified link
 
-You can implement your own buttons by editing the bib.html file.
+You can implement your own buttons by editing the [_layouts/bib.html](_layouts/bib.html) file.
 
 ## Changing theme color
 
