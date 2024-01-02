@@ -11,6 +11,7 @@
             {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
             {% include figure.html
             path=entry_path
+            sizes = "200px"
             class="preview z-depth-1 rounded"
             zoomable=false
             alt=entry.preview -%}
@@ -164,6 +165,9 @@
             <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
             {%- endif %}
           {%- endif %}
+          {%- if entry.video %}
+            <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
+          {%- endif %}
           {%- if entry.blog %}
             <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
           {%- endif %}
@@ -236,5 +240,13 @@
             {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
           </div>
           {%- endif %}
+
+          {% if entry.video -%}
+          <!-- Hidden video block -->
+          <div class="abstract hidden">
+            <div style="text-align: center;">{% include video.html path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
+          </div>
+          {%- endif -%}
+
         </div>
       </div>

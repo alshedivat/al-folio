@@ -10,6 +10,7 @@
         {%- if project.img %}
         {%- include figure.html
           path=project.img
+          sizes = "250px"
           alt="project thumbnail" -%}
         {%- endif %}
         <div class="card-body">
@@ -19,11 +20,11 @@
             {%- if project.github -%}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
+                <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
               </div>
               {%- if project.github_stars -%}
               <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                <i class="fas fa-star"></i>
+                <i class="fa-solid fa-star"></i>
                 <span id="{{ project.github_stars }}-stars"></span>
               </span>
               {%- endif %}
