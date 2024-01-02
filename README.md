@@ -125,6 +125,8 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://aadityaura.github.io/" target="_blank">★</a>
 <a href="https://abhinav-mehta.github.io/" target="_blank">★</a>
 <a href="https://shubhashisroydipta.com/" target="_blank">★</a>
+<a href="https://astanziola.github.io" target="_blank">★</a>
+<a href="https://tinkerer.in" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -251,7 +253,12 @@ Build and run a new docker image using:
 $ docker compose up --build
 ```
 
-> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of previous command! It will download ruby and jekyll and install all ruby packages again from scratch.
+> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of the previous command! It will download Ruby and Jekyll and install all Ruby packages again from scratch.
+
+If you want to use a specific docker version, you can do so by changing `latest` tag to `your_version` in `docker-compose.yaml`. For example, you might have created your website on `v0.10.0` and you want to stick with that. 
+
+- Beta
+You can also change the docker image tag to slim! It is a slimmed docker image with a size of below 100MBs (same functionality).
 
 </details>
 
@@ -467,6 +474,9 @@ If you have a different question, please ask using [Discussions](https://github.
    [specific characters](https://github.com/jekyll/classifier-reborn/issues/194) you used in your posts. Also, the calculus for similar posts are
    made for every `post`, which means every page that uses `layout: post`, including the announcements. To change this behavior, simply add
    `related_posts: false` to the front matter of the page you don't want to display related posts on.
+   
+7. **Q:** When trying to deploy, it's asking for github login credentials, which github disabled password authentication and it exits with an error. How to fix?     <br>
+   **A:** Open .git/config file using your preferred editor. Change the `https` portion of the `url` variable to `ssh`. Try deploying again.
 
 ## Features
 
