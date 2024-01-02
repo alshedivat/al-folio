@@ -2,8 +2,6 @@
 
 Here we will give you some tips on how to customize the website.
 
-## Table of Contents
-
 ## Project structure
 
 The project is structured as follows, focusing on the main components that you will need to modify:
