@@ -186,6 +186,7 @@ Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github
   - [Features](#features)
     - [Light/Dark Mode](#lightdark-mode)
     - [CV](#cv)
+    - [People](#people)
     - [Publications](#publications)
     - [Collections](#collections)
     - [Layouts](#layouts)
@@ -227,6 +228,8 @@ This template has a built-in light/dark mode. It detects the user preferred colo
 <img src="assets/img/readme_preview/dark.png" width=400>
 </p>
 
+---
+
 ### CV
 
 There are currently 2 different ways of generating the CV page content. The first one is by using a json file located in [assets/json/resume.json](assets/json/resume.json). It is a [known standard](https://jsonresume.org/) for creating a CV programmatically. The second one, currently used as a fallback when the json file is not found, is by using a yml file located in [_data/cv.yml](_data/cv.yml). This was the original way of creating the CV page content and since it is more human readable than a json file we decided to keep it as an option.
@@ -234,6 +237,16 @@ There are currently 2 different ways of generating the CV page content. The firs
 What this means is, if there is no resume data defined in [_config.yml](_config.yml) and loaded via a json file, it will load the contents of [_data/cv.yml](_data/cv.yml) as fallback.
 
 [![CV Preview](assets/img/readme_preview/cv.png)](https://alshedivat.github.io/al-folio/cv/)
+
+---
+
+### People
+
+You can create a people page if you want to feature more than one person. Each person can have its own short bio, profile picture, and you can also set if every person will appear at the same or opposite sides.
+
+[![People Preview](assets/img/readme_preview/people.png)](https://alshedivat.github.io/al-folio/people/)
+
+---
 
 ### Publications
 
@@ -294,6 +307,8 @@ Photo formatting is made simple using [Bootstrap's grid system](https://getboots
 
 **al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy) to display GitHub repositories and user stats on the `/repositories/` page.
 
+[![Repositories Preview](assets/img/readme_preview/repositories.png)](https://alshedivat.github.io/al-folio/repositories/)
+
 Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the `/repositories/` page.
 
 You may also use the following codes for displaying this in any other pages.
@@ -330,9 +345,13 @@ You may also use the following codes for displaying this in any other pages.
 {% endif %}
 ```
 
+---
+
 #### Theming
 
 A variety of beautiful theme colors have been selected for you to choose from. The default is purple, but you can quickly change it by editing the `--global-theme-color` variable in the `_sass/_themes.scss` file. Other color variables are listed there as well. The stock theme color options available can be found at [_sass/_variables.scss](_sass/_variables.scss). You can also add your own colors to this file assigning each a name for ease of use across the template.
+
+---
 
 #### Social media previews
 
@@ -340,9 +359,13 @@ A variety of beautiful theme colors have been selected for you to choose from. T
 
 You will then need to configure what image to display in your site's social media previews. This can be configured on a per-page basis, by setting the `og_image` page variable. If for an individual page this variable is not set, then the theme will fall back to a site-wide `og_image` variable, configurable in your [_config.yml](_config.yml). In both the page-specific and site-wide cases, the `og_image` variable needs to hold the URL for the image you wish to display in social media previews.
 
+---
+
 #### Atom (RSS-like) Feed
 
 It generates an Atom (RSS-like) feed of your posts, useful for Atom and RSS readers. The feed is reachable simply by typing after your homepage `/feed.xml`. E.g. assuming your website mountpoint is the main folder, you can type `yourusername.github.io/feed.xml`
+
+---
 
 #### Related posts
 
