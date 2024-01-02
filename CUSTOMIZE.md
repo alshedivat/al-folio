@@ -26,8 +26,8 @@ The project is structured as follows, focusing on the main components that you w
 ├── 📄 news.html: defines the news section layout in the about page
 ├── 📂 _pages/: contains the pages of the website that are shown in the header
 ├── 📂 _posts/: contains the blog posts
-├── 📂_projects/: contains the projects
-└── 📂_sass/: contains the SASS files that define the style of the website
+├── 📂 _projects/: contains the projects
+└── 📂 _sass/: contains the SASS files that define the style of the website
     ├── 📄 _base.scss: base style of the website
     ├── 📄 _cv.scss: style of the CV page
     ├── 📄 _distill.scss: style of the Distill articles
