@@ -38,10 +38,11 @@ PDF={https://cozheyuanzhangde.github.io/assets/papers/botlab.pdf}
   year={2023},
   abstract={Pre-trained language models (PLMs) have shown impressive performance in various language tasks. However, they are prone to spurious correlations, and often generate illusory information. In real-world applications, PLMs should justify decisions with formalized, coherent reasoning chains, but this challenge remains under-explored. Cognitive psychology theorizes that humans are capable of utilizing fast and intuitive heuristic thinking to make decisions based on past experience, then rationalizing the decisions through slower and deliberative analytic reasoning. We incorporate these interlinked dual processes in fine-tuning and in-context learning with PLMs, applying them to two language understanding tasks that require coherent physical commonsense reasoning. We show that our proposed Heuristic-Analytic Reasoning (HAR) strategies drastically improve the coherence of rationalizations for model decisions, yielding state-of-the-art results on Tiered Reasoning for Intuitive Physics (TRIP). We also find that this improved coherence is a direct result of more faithful attention to relevant language context in each step of reasoning. Our findings suggest that human-like reasoning strategies can effectively improve the coherence and reliability of PLM reasoning.},
   selected={true},
-  arXiv={2310.18364}
+  arXiv={2310.18364},
+  code={https://github.com/sled-group/Heuristic-Analytic-Reasoning}
 }
 
-@inproceedings{zhang2023har,
+@inproceedings{yu2023eilev,
   abbr={arXiv},
   title={Efficient In-Context Learning in Vision-Language Models for Egocentric Videos},
   author={Yu, Keunwoo Peter and Zhang, Zheyuan and Hu, Fengyuan and Chai, Joyce},
@@ -49,5 +50,7 @@ PDF={https://cozheyuanzhangde.github.io/assets/papers/botlab.pdf}
   year={2023},
   abstract={Recent advancements in text-only large language models (LLMs) have highlighted the benefit of in-context learning for adapting to new tasks with a few demonstrations. However, extending in-context learning to large vision-language models (VLMs) using a huge amount of naturalistic vision-language data has shown limited success, particularly for egocentric videos, due to high data collection costs. We propose a novel training method 𝔼fficient 𝕀n-context 𝕃earning on 𝔼gocentric 𝕍ideos (𝔼𝕀𝕃𝔼𝕍), which elicits in-context learning in VLMs for egocentric videos without requiring massive, naturalistic egocentric video datasets. 𝔼𝕀𝕃𝔼𝕍 involves architectural and training data adaptations to allow the model to process contexts interleaved with video clips and narrations, sampling of in-context examples with clusters of similar verbs and nouns, use of data with skewed marginal distributions with a long tail of infrequent verbs and nouns, as well as homonyms and synonyms. Our evaluations show that 𝔼𝕀𝕃𝔼𝕍-trained models outperform larger VLMs trained on a huge amount of naturalistic data in in-context learning. Furthermore, they can generalize to not only out-of-distribution, but also novel, rare egocentric videos and texts via in-context learning, demonstrating potential for applications requiring cost-effective training, and rapid post-deployment adaptability.},
   selected={true},
-  arXiv={2311.17041}
+  arXiv={2311.17041},
+  code={https://github.com/yukw777/EILEV},
+  website={https://yukw777.github.io/EILEV/}
 }
