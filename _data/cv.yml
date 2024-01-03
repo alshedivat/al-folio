@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Gerardo Jose Suarez Rodriguez
     - name: Date of Birth
-      value: 14th March 1879
+      value: 28th August, 1996
     - name: Languages
-      value: English, German
+      value: English, Spanish,French,Italian
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: ICTQT, University of Gdansk, Gdansk, Poland
+      year: On going
       description:
         - Description 1.
         - Description 2.
@@ -21,9 +21,15 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Msc. in Physics
+      institution: CINVESTAV, Mexico city, Mexico
+      year: 2020
+      description:
+        - Description 1.
+        - Description 2.
+    - title: Bsc. in Electronics Engineering with minor in Telecommunications
+      institution: URBE, Maracaibo, Venezuela
+      year: 2017
       description:
         - Description 1.
         - Description 2.
@@ -61,23 +67,12 @@
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
 
-- title: Open Source Projects
+- title: Open Source Contributions
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: <a href="https://github.com/qutip/qutip">Qutip</a>
+      year: 2023-now
+      description: I am actively contributing to the development of qutip,improving on the HEOM module specifically.
 
 - title: Academic Interests
   type: nested_list
