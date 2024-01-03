@@ -6,11 +6,9 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Ahmed
 middle_name:
 last_name: Abdeljawad
-email: ahmed.abdeljawad@ricam.oeaw.ac.at
+email: ahmed.abdeljawad@oeaw.ac.at
 description:
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+footer_text:
 keywords: mathematics, of, data science, machine learning, mathematical, theory, approximation, representation, expressivity  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -67,10 +65,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: abdeljawad # your Twitter handle
+twitter_username: # your Twitter handle
 linkedin_username: ahmed-abdeljawad-27a352172 # your LinkedIn user name
 scholar_userid: nGLdGMYAAAAJ # your Google Scholar ID
-orcid_id: # your ORCID ID
+orcid_id: 0000-0002-6185-3352 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
