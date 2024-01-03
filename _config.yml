@@ -59,6 +59,7 @@ max_width: 800px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
+# see https://schema.org/docs/faq.html for more information
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
@@ -110,9 +111,12 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
+# For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
+# and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
 google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
+# For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
@@ -133,13 +137,12 @@ related_blog_posts:
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
-# Follow instructions on https://giscus.app/ to setup for your repo to fill out
-# the information below.
+# Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
   repo:                          # <your-github-user-name>/<your-github-repo-name>
-  repo_id:                       # leave empty or specify your repo_id (see https://giscus.app/) 
+  repo_id:                       # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments             # name of the category under which discussions will be created
-  category_id:                   # leave empty or specify your category_id (see https://giscus.app/) 
+  category_id:                   # leave empty or specify your category_id (see https://giscus.app/)
   mapping: title                 # identify discussions by post title
   strict: 1                      # use strict identification mode
   reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
@@ -303,7 +306,7 @@ enable_publication_badges:
   dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, video, slides, website, preview, altmetric]
+filtered_bibtex_keywords: [abbr, abstract, altmetric, arxiv, bibtex_show, blog, code, html, pdf, poster, preview, selected, slides, supp, video, website]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 3  # leave blank to always show all authors
@@ -353,18 +356,15 @@ imagemagick:
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:    false  # enables google analytics
-enable_cronitor_analytics: false  # enables cronitor RUM analytics
+enable_cronitor_analytics:  false  # enables cronitor RUM analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arrangement
 enable_math:                true   # enables math typesetting (uses MathJax)
-enable_tooltips:            false  # enables automatic tooltip links generated
-                                   # for each section titles on pages and posts
+enable_tooltips:            false  # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
-                                   # navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into
-                                   # multiple categories
+enable_navbar_social:       false  # enables displaying social links in the navbar on the about page
+enable_project_categories:  true   # enables categorization of projects into multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
 
