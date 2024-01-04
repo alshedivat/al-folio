@@ -137,10 +137,10 @@ collections:
   people:
     output: true
     permalink: /people/:path/
-  students_jobs:
+  student_jobs:
     output: true
     permalink: /for-students/jobs/:path/
-  students_theses:
+  student_theses:
     output: true
     permalink: /for-students/theses/:path/
 

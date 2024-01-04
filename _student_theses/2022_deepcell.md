@@ -1,14 +1,13 @@
 ---
-layout: page
+layout: student_thesis
 title: DeepCell
 description: "Geometric deep learning for single cell analysis for CyTOF data"
+thumbnail: /assets/img/projects/deepcell_tsne.png
 img: /assets/img/projects/deepcell_tsne.png
 importance: 1
 category: open
 source: https://docs.google.com/document/d/1XJ0NYZ6hjlEkEZ5jiZqxGeYICPP2c_p0JZRQKQkmLcQ/edit
 ---
-
-<img src="/assets/img/projects/deepcell_tsne.png" style="float: right; width:70%; padding: 1em"/>
 
 Modern technologies allow characterization of millions of individual cells per patient, and provide for an accurate understanding of complex biological systems by providing insights into cellular heterogeneity and novel cellular subsets. However, these high-dimensional data are traditionally analyzed by gating on bivariate dot plots, which are not only laborious given the quadratic increase of complexity with dimension but are also biased through this manual process. This can adversely affect downstream analyses and predictions. To address this, deep learning methods have shown potential to directly work on single cell data to produce highly accurate predictions in application scenarios like diagnosing the latent cytomegalovirus (CMV) in healthy individuals. Nevertheless, these approaches are only recently emerging and it is necessary to assess their performance on the multitude of available problem settings.
 
