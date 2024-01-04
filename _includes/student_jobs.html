@@ -1,0 +1,25 @@
+<!-- _includes/student_jobs.html -->
+{% if job.redirect -%}
+<a href="{{ job.redirect }}">
+{%- else -%}
+<a href="{{ job.url | relative_url }}">
+{%- endif %}
+  <div class="card hoverable">
+    <div style="display: flex; flex-direction: row;">
+        <div style="flex: 0 0 20%;">
+            {%- if job.thumbnail %}
+            <img class="thumbnail" src="{{ job.thumbnail}}"/>
+            {%- endif %}
+        </div>
+        <div class="card-body" style="min-height: 10em">
+            <div>
+                <h2 class="card-title text-lowercase">{{ job.title }}</h2>
+                <p class="card-text">
+                    {{ job.description }}
+                </p>
+            </div>
+        </div>
+    </div>
+  </div>
+</a>
+

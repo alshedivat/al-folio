@@ -454,9 +454,13 @@ footer.sticky-bottom {
   }
 }
 
-// Thesis
+// student jobs
 
-.thesis {
+.jobs {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+
   a {
     text-decoration: none;
 
@@ -465,6 +469,15 @@ footer.sticky-bottom {
         color: var(--global-theme-color);
       }
     }
+  }
+
+  .thumbnail {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: fit-content;
+    height: 100%;
+    border-radius: .25rem 0 0 .25rem;
   }
 
   .card {
@@ -483,9 +496,56 @@ footer.sticky-bottom {
     }
   }
 
-  .grid-sizer, .grid-item {
-    width: 250px;
+  h2.category {
+    color: var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+}
+
+// Theses
+
+.theses {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .thumbnail {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: fit-content;
+    height: 100%;
+    border-radius: .25rem 0 0 .25rem;
+  }
+
+  .card {
+    img {
+      width: 100%;
+    }
+  }
+
+  .card-item {
+    width: auto;
     margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
   }
 
   h2.category {

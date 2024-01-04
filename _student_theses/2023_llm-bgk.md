@@ -1,11 +1,13 @@
 ---
 layout: student_thesis
-title: Knowledge Integration & Extraction with LLMs
-description:
+title: Background Knowledge in LLMs
+type: Master
+description: Extract knowledge from Large Language Models and utilize it for other ML tasks
 img:
+thumbnail:
 importance: 1
 category: open
-source: https://docs.google.com/document/d/1XJ0NYZ6hjlEkEZ5jiZqxGeYICPP2c_p0JZRQKQkmLcQ/edit
+source:
 ---
 
 At least since ChatGPT, everyone has heard of transformer-based Large Language Models (LLM).

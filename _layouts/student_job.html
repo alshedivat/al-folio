@@ -4,10 +4,18 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-<img src="{{ page.img}}" style="float: right; width:30%; padding: 1em"/>
-
-{%- if page.description_long %}
-{{ page.description_long }}
-{%- else %}
-{{ page.description_short }}
+{%- if page.time %}
+<h2>Time: {{page.time}}</h2>
 {%- endif %}
+
+{{ page.content }}
+
+<div class="social">
+    <div class="contact-icons">
+    {% include social.html %}
+    </div>
+
+    <div class="contact-note">
+        {{ site.contact_note }}
+    </div>
+</div>
