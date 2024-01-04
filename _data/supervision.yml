@@ -1,3 +1,35 @@
+- title: DoA Estimation with New Frequency Estimation Algorithm
+  type: Semester project
+  students:
+    - first: Ziyi
+      last: Wang
+  year: 2023
+  fall_semester: True
+  supervisors:
+    - first: Hans-Andera
+      last: Loeliger
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
+- title: HDL Implementation of an Adaptive Filter for Control-Bounded A/D Converters
+  type: Semester project
+  students:
+    - first: Torben
+      last: Kölle
+  year: 2023
+  fall_semester: True
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
 - title: Automated Audio Mixing
   type: Master project
   students:
