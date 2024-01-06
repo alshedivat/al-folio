@@ -6,12 +6,12 @@
     <!-- See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and 
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images-->
     {% if site.imagemagick.enabled %}
-      <source class = "responsive-img-srcset" srcset="
-      {% for i in site.imagemagick.widths -%}
-      {{ img_path | relative_url }}-{{ i }}.webp {{i}}w,
-      {% endfor -%}" 
-      {% if include.sizes %} sizes="{{include.sizes}}" {% else %} sizes="95vw" {% endif %}
-      type="image/webp"/>
+    <source
+      class="responsive-img-srcset"
+      srcset="{% for i in site.imagemagick.widths -%}{{ img_path | relative_url }}-{{ i }}.webp {{i}}w,{% endfor -%}"
+      {% if include.sizes %}sizes="{{include.sizes}}"{% else %}sizes="95vw"{% endif %}
+      type="image/webp"
+    />
     {% endif %}
     <img
       src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
@@ -29,6 +29,7 @@
     />
   </picture>
 
-  {%- if include.caption -%}<figcaption class="caption">{{ include.caption }}</figcaption>{%- endif %}
-
+  {%- if include.caption -%}
+  <figcaption class="caption">{{ include.caption }}</figcaption>
+  {%- endif %}
 </figure>
