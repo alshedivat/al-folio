@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching
+title: teaching
 description: I mainly worked as a teaching assistant for statistics in my first year of Ph.D. career.
 nav: true
 nav_order: 3

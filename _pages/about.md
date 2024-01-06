@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 subtitle: <a href='https://www.cuhk.edu.cn/en'>The Chinese University of Hong Kong, Shenzhen</a>, Guangdong, China
 
