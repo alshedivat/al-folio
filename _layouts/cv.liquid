@@ -30,15 +30,15 @@ layout: default
             <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
             <div>
               {% if entry.type == 'list' %}
-                {% include cv/list.html %}
+                {% include cv/list.liquid %}
               {% elsif entry.type == 'map' %}
-                {% include cv/map.html %}
+                {% include cv/map.liquid %}
               {% elsif entry.type == 'nested_list' %}
-                {% include cv/nested_list.html %}
+                {% include cv/nested_list.liquid %}
               {% elsif entry.type == 'time_table' %}
-                {% include cv/time_table.html %}
+                {% include cv/time_table.liquid %}
               {% elsif entry.type == 'list_groups' %}
-                {% include cv/list_groups.html %}
+                {% include cv/list_groups.liquid %}
               {% else %}
                 {{ entry.contents }}
               {% endif %}
@@ -83,29 +83,29 @@ layout: default
             <div>
               {% case data[0] %}
                 {% when 'basics' %}
-                  {% include resume/basics.html %}
+                  {% include resume/basics.liquid %}
                 {% when 'education' %}
-                  {% include resume/education.html %}
+                  {% include resume/education.liquid %}
                 {% when 'work' %}
-                  {% include resume/work.html %}
+                  {% include resume/work.liquid %}
                 {% when 'volunteer' %}
-                  {% include resume/volunteer.html %}
+                  {% include resume/volunteer.liquid %}
                 {% when 'projects' %}
-                  {% include resume/projects.html %}
+                  {% include resume/projects.liquid %}
                 {% when 'awards' %}
-                  {% include resume/awards.html %}
+                  {% include resume/awards.liquid %}
                 {% when 'skills' %}
-                  {% include resume/skills.html %}
+                  {% include resume/skills.liquid %}
                 {% when 'publications' %}
-                  {% include resume/publications.html %}
+                  {% include resume/publications.liquid %}
                 {% when 'languages' %}
-                  {% include resume/languages.html %}
+                  {% include resume/languages.liquid %}
                 {% when 'interests' %}
-                  {% include resume/interests.html %}
+                  {% include resume/interests.liquid %}
                 {% when 'certificates' %}
-                  {% include resume/certificates.html %}
+                  {% include resume/certificates.liquid %}
                 {% when 'references' %}
-                  {% include resume/references.html %}
+                  {% include resume/references.liquid %}
                 {% else %}
 
               {% endcase %}

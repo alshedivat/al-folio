@@ -2,16 +2,16 @@
 <html lang="{{ site.lang }}">
   <!-- Head -->
   <head>
-    {%- if page.redirect -%}
+    {% if page.redirect %}
       <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/">
-    {%- endif -%}
-    {% include head.html %}
+    {% endif %}
+    {% include head.liquid %}
   </head>
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
     <!-- Header -->
-    {%- include header.html %}
+    {%- include header.liquid %}
 
     <!-- Content -->
     <div class="container mt-5">
@@ -41,18 +41,18 @@
     </div>
 
     <!-- Footer -->
-    {%- include footer.html %}
+    {% include footer.liquid %}
 
     <!-- JavaScripts -->
-    {% include scripts/jquery.html %}
-    {% include scripts/bootstrap.html %}
-    {% include scripts/masonry.html %}
-    {% include scripts/mermaid.html %}
-    {% include scripts/misc.html %}
-    {% include scripts/badges.html %}
-    {% include scripts/mathjax.html %}
-    {% include scripts/analytics.html %}
-    {% include scripts/progressBar.html %}
-    {% include scripts/wechatModal.html %}
+    {% include scripts/jquery.liquid %}
+    {% include scripts/bootstrap.liquid %}
+    {% include scripts/masonry.liquid %}
+    {% include scripts/mermaid.liquid %}
+    {% include scripts/misc.liquid %}
+    {% include scripts/badges.liquid %}
+    {% include scripts/mathjax.liquid %}
+    {% include scripts/analytics.liquid %}
+    {% include scripts/progressBar.liquid %}
+    {% include scripts/wechatModal.liquid %}
   </body>
 </html>

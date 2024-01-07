@@ -70,11 +70,11 @@ layout: default
   {%- endif %}
   {%- if site.related_blog_posts.enabled -%}
     {%- if page.related_posts == null or page.related_posts -%}
-      {% include related_posts.html %}
+      {% include related_posts.liquid %}
     {%- endif %}
   {%- endif %}
-  {%- if site.disqus_shortname and page.disqus_comments -%}{% include disqus.html %}{%- endif %}
+  {%- if site.disqus_shortname and page.disqus_comments -%}{% include disqus.liquid %}{%- endif %}
   {%- if site.giscus and page.giscus_comments -%}
-    {% include giscus.html %}
+    {% include giscus.liquid %}
   {%- endif -%}
 </div>

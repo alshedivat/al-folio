@@ -103,11 +103,11 @@ pagination:
 
   <ul class="post-list">
 
-    {%- if page.pagination.enabled -%}
-      {%- assign postlist = paginator.posts -%}
-    {%- else -%}
-      {%- assign postlist = site.posts -%}
-    {%- endif -%}
+    {% if page.pagination.enabled %}
+      {% assign postlist = paginator.posts %}
+    {% else %}
+      {% assign postlist = site.posts %}
+    {% endif %}
 
     {% for post in postlist %}
 
@@ -122,11 +122,11 @@ pagination:
 
     <li>
 
-{%- if post.thumbnail -%}
+{% if post.thumbnail %}
 
 <div class="row">
           <div class="col-sm-9">
-{%- endif -%}
+{% endif %}
         <h3>
         {% if post.redirect == blank %}
           <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -142,10 +142,10 @@ pagination:
       <p>{{ post.description }}</p>
       <p class="post-meta">
         {{ read_time }} min read &nbsp; &middot; &nbsp;
-        {{ post.date | date: '%B %-d, %Y' }}
-        {%- if post.external_source %}
+        {{ post.date | date: '%B %d, %Y' }}
+        {% if post.external_source %}
         &nbsp; &middot; &nbsp; {{ post.external_source }}
-        {%- endif %}
+        {% endif %}
       </p>
       <p class="post-tags">
         <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
@@ -168,7 +168,7 @@ pagination:
           {% endif %}
     </p>
 
-{%- if post.thumbnail -%}
+{% if post.thumbnail %}
 
 </div>
 
@@ -176,15 +176,15 @@ pagination:
     <img class="card-img" src="{{post.thumbnail | relative_url}}" style="object-fit: cover; height: 90%" alt="image">
   </div>
 </div>
-{%- endif -%}
+{% endif %}
     </li>
 
     {% endfor %}
 
   </ul>
 
-{%- if page.pagination.enabled -%}
-{%- include pagination.html -%}
-{%- endif -%}
+{% if page.pagination.enabled %}
+{% include pagination.liquid %}
+{% endif %}
 
 </div>

@@ -16,5 +16,5 @@ layout: default
     <h2>References</h2>
     <div class="publications">{% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}</div>
   {%- endif %}
-  {%- if site.giscus and page.giscus_comments -%}{% include giscus.html %}{%- endif -%}
+  {%- if site.giscus and page.giscus_comments -%}{% include giscus.liquid %}{%- endif -%}
 </div>
