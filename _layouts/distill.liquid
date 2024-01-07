@@ -12,7 +12,7 @@
         crossorigin="anonymous"
       ></script>
       <script defer src="{{ '/assets/js/zoom.js' | relative_url | bust_file_cache }}"></script>
-    {%- endif -%}
+    {% endif %}
     {% include scripts/jquery.liquid %}
     {% include scripts/mathjax.liquid %}
     <!-- Distill js -->
@@ -24,7 +24,7 @@
       <style type="text/css">
         {{ page._styles }}
       </style>
-    {%- endif %}
+    {% endif %}
   </head>
 
   <d-front-matter>
@@ -32,9 +32,9 @@
       {
             "title": "{{ page.title }}",
             "description": "{{ page.description }}",
-            "published": "{{ page.date | date: '%B %-d, %Y' }}",
+            "published": "{{ page.date | date: '%B %d, %Y' }}",
             "authors": [
-              {% for author in page.authors -%}
+              {% for author in page.authors %}
               {
                 "author": "{{ author.name }}",
                 "authorURL": "{{ author.url }}",
@@ -65,7 +65,7 @@
     </script>
   </d-front-matter>
 
-  <body class="{%- if site.navbar_fixed -%}fixed-top-nav{%- endif -%} {%- unless site.footer_fixed -%}sticky-bottom-footer{%- endunless -%}">
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
     <!-- Header -->
     {% include header.liquid %}
 
@@ -75,32 +75,32 @@
         <h1>{{ page.title }}</h1>
         <p>{{ page.description }}</p>
       </d-title>
-      {%- if page.authors -%}
+      {% if page.authors %}
         <d-byline></d-byline>
-      {%- endif -%}
+      {% endif %}
 
       <d-article>
-        {% if page.toc -%}
+        {% if page.toc %}
           <d-contents>
             <nav class="l-text figcaption">
               <h3>Contents</h3>
-              {% for section in page.toc -%}
+              {% for section in page.toc %}
                 <div>
                   <a href="#{{ section.name | slugify }}">{{ section.name }}</a>
                 </div>
-                {% if section.subsections -%}
+                {% if section.subsections %}
                   <ul>
-                    {% for subsection in section.subsections -%}
+                    {% for subsection in section.subsections %}
                       <li>
                         <a href="#{{ subsection.name | slugify }}">{{ subsection.name }}</a>
                       </li>
                     {% endfor %}
                   </ul>
-                {%- endif -%}
-              {%- endfor %}
+                {% endif %}
+              {% endfor %}
             </nav>
           </d-contents>
-        {%- endif %}
+        {% endif %}
         {{ content }}
       </d-article>
 
@@ -111,10 +111,10 @@
 
       <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
 
-      {%- if site.disqus_shortname and page.disqus_comments -%}{% include disqus.liquid %}{%- endif %}
-      {%- if site.giscus.repo and page.giscus_comments -%}
+      {% if site.disqus_shortname and page.disqus_comments %}{% include disqus.liquid %}{% endif %}
+      {% if site.giscus.repo and page.giscus_comments %}
         {% include giscus.liquid %}
-      {%- endif -%}
+      {% endif %}
     </div>
 
     <!-- Footer -->

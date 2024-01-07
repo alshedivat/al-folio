@@ -12,7 +12,7 @@ layout: default
       <table class="table table-sm table-borderless">
         {% for post in page.posts %}
           <tr>
-            <th scope="row">{{ post.date | date: '%b %-d, %Y' }}</th>
+            <th scope="row">{{ post.date | date: '%b %d, %Y' }}</th>
             <td>
               {% if post.redirect == blank %}
                 <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>

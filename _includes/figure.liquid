@@ -1,4 +1,4 @@
-{%- assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' -%}
+{% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
 
 <figure>
   <picture>
@@ -10,7 +10,7 @@
     {% if site.imagemagick.enabled %}
       <source
         class="responsive-img-srcset"
-        srcset="{% for i in site.imagemagick.widths -%}{{ img_path | relative_url }}-{{ i }}.webp {{i}}w,{% endfor -%}"
+        srcset="{% for i in site.imagemagick.widths %}{{ img_path | relative_url }}-{{ i }}.webp {{i}}w,{% endfor %}"
         {% if include.sizes %}
           sizes="{{include.sizes}}"
         {% else %}
@@ -59,7 +59,7 @@
     >
   </picture>
 
-  {%- if include.caption -%}
+  {% if include.caption %}
     <figcaption class="caption">{{ include.caption }}</figcaption>
-  {%- endif %}
+  {% endif %}
 </figure>

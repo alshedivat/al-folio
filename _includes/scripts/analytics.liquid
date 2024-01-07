@@ -1,4 +1,4 @@
-{%- if site.enable_google_analytics -%}
+{% if site.enable_google_analytics %}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>
@@ -9,8 +9,8 @@
     gtag('js', new Date());
     gtag('config', '{{ site.google_analytics }}');
   </script>
-{%- endif -%}
-{%- if site.enable_cronitor_analytics -%}
+{% endif %}
+{% if site.enable_cronitor_analytics %}
   <!-- Cronitor RUM -->
   <script async src="https://rum.cronitor.io/script.js"></script>
   <script>
@@ -21,4 +21,4 @@
       };
     cronitor('config', { clientKey: '{{site.cronitor_analytics}}' });
   </script>
-{%- endif -%}
+{% endif %}

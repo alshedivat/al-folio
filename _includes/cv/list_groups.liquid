@@ -38,7 +38,7 @@
               {% if item.link %}
                 <td class="list-group-link">
                   <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">
-                    {%- if item.linkname %}{{ item.linkname }}{% else %}DOC{% endif -%}
+                    {% if item.linkname %}{{ item.linkname }}{% else %}DOC{% endif %}
                   </a>
                 </td>
               {% endif %}

@@ -1,6 +1,6 @@
 <div class="news">
-  {% if site.news != blank -%}
-    {%- assign news_size = site.news | size -%}
+  {% if site.news != blank %}
+    {% assign news_size = site.news | size %}
     <div
       class="table-responsive"
       {% if include.limit and site.announcements.scrollable and news_size > 3 %}
@@ -8,7 +8,7 @@
       {% endif %}
     >
       <table class="table table-sm table-borderless">
-        {%- assign news = site.news | reverse -%}
+        {% assign news = site.news | reverse %}
         {% if include.limit and site.announcements.limit %}
           {% assign news_limit = site.announcements.limit %}
         {% else %}
@@ -16,19 +16,19 @@
         {% endif %}
         {% for item in news limit: news_limit %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %-d, %Y' }}</th>
+            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
             <td>
-              {% if item.inline -%}
+              {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-              {%- else -%}
+              {% else %}
                 <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-              {%- endif %}
+              {% endif %}
             </td>
           </tr>
-        {%- endfor %}
+        {% endfor %}
       </table>
     </div>
-  {%- else -%}
+  {% else %}
     <p>No news so far...</p>
-  {%- endif %}
+  {% endif %}
 </div>

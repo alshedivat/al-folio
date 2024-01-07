@@ -5,8 +5,8 @@
       $('[data-toggle="tooltip"]').tooltip();
     });
   </script>
-{%- endif %}
-{%- if site.enable_medium_zoom %}
+{% endif %}
+{% if site.enable_medium_zoom %}
   <!-- Medium Zoom JS -->
   <script
     defer
@@ -15,7 +15,7 @@
     crossorigin="anonymous"
   ></script>
   <script defer src="{{ '/assets/js/zoom.js' | relative_url | bust_file_cache }}"></script>
-{%- endif -%}
+{% endif %}
 {% if page.toc and page.toc.sidebar %}
   <!-- Sidebar Table of Contents -->
   <script defer src="{{ '/assets/js/bootstrap-toc.min.js' | relative_url | bust_file_cache }}"></script>

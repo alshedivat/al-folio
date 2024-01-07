@@ -1,4 +1,4 @@
-{%- if site.enable_masonry -%}
+{% if site.enable_masonry %}
   <!-- Masonry & imagesLoaded -->
   <script
     defer
@@ -8,4 +8,4 @@
   ></script>
   <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
   <script defer src="{{ '/assets/js/masonry.js' | relative_url }}" type="text/javascript"></script>
-{%- endif -%}
+{% endif %}
