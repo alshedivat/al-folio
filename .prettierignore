@@ -1,7 +1,2 @@
 *.min.css
-_includes/audio.html
-_includes/figure.html
-_includes/metadata.html
-_includes/news.html
-_includes/related_posts.html
 assets/plotly/demo.html
