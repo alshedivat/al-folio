@@ -1,33 +1,34 @@
 {% if site.enable_google_verification or site.enable_bing_verification %}
-<!-- Website verification -->
-{% if site.enable_google_verification -%}
-  <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
-{%- endif -%}
-{% if site.enable_bing_verification -%}
-  <meta name="msvalidate.01" content="{{ site.bing_site_verification }}" />
-{%- endif -%}
-  <!-- Avoid warning on Google Chrome Error with Permissions-Policy header:
-       Origin trial controlled feature not enabled: 'interest-cohort'.
-       see https://stackoverflow.com/a/75119417
+  <!-- Website verification -->
+  {% if site.enable_google_verification -%}
+    <meta name="google-site-verification" content="{{ site.google_site_verification }}">
+  {%- endif -%}
+  {% if site.enable_bing_verification -%}
+    <meta name="msvalidate.01" content="{{ site.bing_site_verification }}">
+  {%- endif -%}
+  <!--
+    Avoid warning on Google Chrome Error with Permissions-Policy header:
+    Origin trial controlled feature not enabled: 'interest-cohort'.
+    see https://stackoverflow.com/a/75119417
   -->
-  <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+  <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
 {%- endif %}
 
 <!-- Standard metadata -->
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>
-  {%- if site.title == "blank" -%}
+  {%- if site.title == 'blank' -%}
     {%- capture title -%}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{%- endcapture -%}
   {%- else -%}
     {%- capture title -%}{{ site.title }}{%- endcapture -%}
   {%- endif -%}
   {% if page.url == '/blog/index.html' %}
     {{ page.title }} | {{ title }}
-  {%- elsif page.title != "blank" and page.url != "/" -%}
-    {%- if page.title == nil or page.title == "" -%}
-      {{ page.date | date: "%Y" }} | {{ title }}
+  {%- elsif page.title != 'blank' and page.url != '/' -%}
+    {%- if page.title == null or page.title == '' -%}
+      {{ page.date | date: '%Y' }} | {{ title }}
     {%- else -%}
       {{ page.title }} | {{ title }}
     {%- endif -%}
@@ -35,10 +36,10 @@
     {{ title }}
   {%- endif -%}
 </title>
-<meta name="author" content="{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}" />
-<meta name="description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />
+<meta name="author" content="{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}">
+<meta name="description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}">
 {%- if page.keywords or site.keywords %}
-  <meta name="keywords" content="{%- if page.keywords -%}{{ page.keywords }}{%- else -%}{{ site.keywords }}{%- endif -%}" />
+  <meta name="keywords" content="{%- if page.keywords -%}{{ page.keywords }}{%- else -%}{{ site.keywords }}{%- endif -%}">
 {%- endif %}
 
 {%- assign is_blog_post = false -%}
@@ -50,33 +51,33 @@
 
 {%- if site.serve_og_meta %}
   <!-- OpenGraph -->
-  <meta property="og:site_name" content="{{ title }}" />
-  <meta property="og:type" content="{%- if is_blog_post -%}article{%- else -%}website{%- endif -%}" />
-  <meta property="og:title" content="{%- if page.title -%}{{ title }} | {{ page.title }}{%- else -%}{{ title }}{%- endif -%}" />
-  <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}" />
-  <meta property="og:description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />
+  <meta property="og:site_name" content="{{ title }}">
+  <meta property="og:type" content="{%- if is_blog_post -%}article{%- else -%}website{%- endif -%}">
+  <meta property="og:title" content="{%- if page.title -%}{{ title }} | {{ page.title }}{%- else -%}{{ title }}{%- endif -%}">
+  <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
+  <meta property="og:description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}">
   {% if page.og_image or site.og_image -%}
-  <meta property="og:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
+    <meta property="og:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}">
   {%- endif %}
-  <meta property="og:locale" content="{{ site.lang }}" />
+  <meta property="og:locale" content="{{ site.lang }}">
 
   <!-- Twitter card -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="{%- if page.title -%}{{ page.title }}{%- else -%}{{ title }}{%- endif -%}" />
-  <meta name="twitter:description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{%- if page.title -%}{{ page.title }}{%- else -%}{{ title }}{%- endif -%}">
+  <meta name="twitter:description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}">
   {% if page.og_image or site.og_image -%}
-  <meta name="twitter:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
+    <meta name="twitter:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}">
   {%- endif %}
   {% if site.x_username -%}
-  <meta name="twitter:site" content="@{{ site.x_username }}" />
-  <meta name="twitter:creator" content="@{{ site.x_username }}" />
+    <meta name="twitter:site" content="@{{ site.x_username }}">
+    <meta name="twitter:creator" content="@{{ site.x_username }}">
   {%- endif %}
 {%- endif %}
 
 {%- if site.serve_schema_org %}
   <!-- Schema.org -->
-  {%- comment -%} Social links generator for "sameAs schema" {%- endcomment %}
-  {% assign sameaslinks = "" | split: "," %}
+  {%- comment -%} Social links generator for "sameAs schema" {%- endcomment -%}
+  {% assign sameaslinks = '' | split: ',' %}
   {%- if site.orcid_id -%}
     {%- capture link -%}https://orcid.org/{{ site.orcid_id }}{%- endcapture -%}
     {%- assign sameaslinks = sameaslinks | push: link -%}
@@ -214,25 +215,25 @@
     {%- assign sameaslinks = sameaslinks | push: link -%}
   {%- endif -%}
   {%- if sameaslinks != blank -%}
-    {%- assign sameaslinks = sameaslinks | split: "" -%}
+    {%- assign sameaslinks = sameaslinks | split: '' -%}
   {%- endif -%}
 
   <script type="application/ld+json">
-  {
-      "author":
-      {
-          "@type": "Person",
-          "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}"
-      },
-      "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-      "@type": "{%- if is_blog_post -%}BlogPosting{%- else -%}WebSite{%- endif -%}",
-      "description": "{%- if page.description -%}{{ page.description }}{%- else if site.description -%}{{ site.description }}{%- endif -%}",
-      "headline": "{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}",
-      {% if sameaslinks != blank -%}
-      "sameAs": {{ sameaslinks }},
-      {%- endif %}
-      "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
-      "@context": "https://schema.org"
-  }
+    {
+        "author":
+        {
+            "@type": "Person",
+            "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}"
+        },
+        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+        "@type": "{%- if is_blog_post -%}BlogPosting{%- else -%}WebSite{%- endif -%}",
+        "description": "{%- if page.description -%}{{ page.description }}{%- else if site.description -%}{{ site.description }}{%- endif -%}",
+        "headline": "{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}",
+        {% if sameaslinks != blank -%}
+        "sameAs": {{ sameaslinks }},
+        {%- endif %}
+        "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
+        "@context": "https://schema.org"
+    }
   </script>
 {%- endif %}
