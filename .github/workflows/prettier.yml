@@ -27,4 +27,3 @@ jobs:
       #   with:
       #     # prettier CLI arguments.
       #     args: --check .
-
