@@ -1,8 +1,8 @@
 ---
 layout: post
 title: python quirks
-date: 2024-01-007 11:59:00-0400
-description: a fast algorithm to quickly scan over the corpus
+date: 2024-01-07 11:59:00-0400
+description: interesting features of Python
 tags: comments
 categories: python coding
 giscus_comments: true
