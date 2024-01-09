@@ -1,6 +1,6 @@
 ---
 layout: post
-title: python quirks
+title: ython quirks
 date: 2024-01-07 11:59:00-0400
 description: interesting features of Python
 tags: comments
@@ -13,7 +13,7 @@ While reading the book "Effective Python: 90 Specific Ways to Write Better Pytho
 
 # String formatting
 
-While Python offer multiple ways of formatting strings (combining predefined text and variables), [F-strings](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals) are particularly elegant: 
+While Python offers multiple ways of formatting strings (i.e., combining predefined text and variables), [F-strings](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals) are particularly elegant: 
 
 ```python
 constants = {
@@ -31,7 +31,7 @@ sqrt(2) = 1.4142135623730951
 Euler's number = 2.718281828459045
 ```
 
-The float variables be rounded to a certain precision:
+The float variables can be rounded to a given precision:
 ```python
 for name, value in constants.items():
     print(f"{name} = {value:.3f}")
@@ -42,7 +42,7 @@ sqrt(2) = 1.414
 Euler's number = 2.718
 ```
 
-Strings can also be formatted to occupy a minimum fixed width:
+Values can also be formatted to occupy a minimum fixed width:
 
 ```python
 for name, value in constants.items():
@@ -68,14 +68,16 @@ This is useful to cleanly produce long strings while respecting a certain maximu
 
 ```python
 message = "Hello, " \
-         "World!"
+          "World!"
 print(message)
 ```
 ```
-Hello, World
+Hello, World!
 ```
 
 # Unpacking to swap values in place
+
+We can use unpacking to swap multiple of a list in place, without requiring additional temporary variables:
 
 
 ```python
@@ -121,7 +123,7 @@ The square of 2 is 4.
 The square of 3 is 9.
 ```
 
-However, when the two iterables have different lenghts, `zip` will emit as many elements as the shortest of them:
+However, when the two iterables have different lenghts, `zip` will only emit as many elements as the shortest of them:
 
 ```python
 xs = list(range(4))
@@ -158,10 +160,10 @@ None 4
 
 # The walrus operator
 
-The [walrus operator](https://docs.python.org/3/reference/expressions.html#assignment-expressions) (`:=`) is a way to assign variables in the middle of expressions:
+The [walrus operator](https://docs.python.org/3/reference/expressions.html#assignment-expressions) (`:=`) allows to assign variables in the middle of expressions:
 
 ```python
-def is_divisor(dividend, divisor):
+def is_divisor(x, y):
     """
     Check if y is a divisor of x.
 
@@ -192,11 +194,11 @@ print(is_divisor(10, 3))
 (False, 1)
 ```
 
-The walrus operator is present in the first line of the `is_divisor` function. On the one hand, the `if` clause will evaluate the expression `x % y` (false if the remainder is 0; true if it's any other number). Additionally, it is setting the remainder variable to `x % y`. This makes the code more readable.
+The walrus operator is present in the first line of the `is_divisor` function. It allows two things to happen at once. First, the `if` clause will evaluate the expression `x % y` (false if the remainder is 0; true if it's any other number). Additionally, it is setting the `remainder` variable to `x % y`. This makes the code easier to understand, since `remainder` is only defined if it is going to be used.
 
 # Sorting by complex criteria
 
-The [`list.sort`](https://docs.python.org/3/library/stdtypes.html#list.sort) method orders a list's elements in ascending order. This is possible when the items have defined the `<` operator, as is the case for floats, integers and strings. However, in some cases that operator might not be implemented, or might not be making the comparison that we care about. The `key` argument is helpful in those cases:
+The [`list.sort`](https://docs.python.org/3/library/stdtypes.html#list.sort) method orders a list's elements in ascending order. It will work as long as the items have defined the `<` comparison operator, as is the case for floats, integers and strings. However, in some cases that operator might not be implemented, or might not be making the comparison that we care about. The `key` argument is helpful in those cases:
 
 ```python
 class Animal:
