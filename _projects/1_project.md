@@ -46,7 +46,7 @@ To give your project a background in the portfolio page, just add the img tag to
 
 You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
 Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
