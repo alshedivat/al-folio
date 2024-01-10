@@ -8,13 +8,18 @@ layout: default
     <p class="post-description">{{ page.description }}</p>
   </header>
 
-  <article>{{ content }}</article>
+  <article>
+    {{ content }}
+  </article>
 
-  {% if page.related_publications != null and page.related_publications.size > 0 %}
-    {% assign publications = page.related_publications | replace: ',
-  ', ',' | split: ',' | join: '|' %}
+  {% if page.related_publications %}
     <h2>References</h2>
-    <div class="publications">{% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}</div>
+    <div class="publications">
+      {% bibliography --cited_in_order %}
+    </div>
   {% endif %}
-  {% if site.giscus and page.giscus_comments %}{% include giscus.liquid %}{% endif %}
+
+  {% if site.giscus and page.giscus_comments %}
+    {% include giscus.liquid %}
+  {% endif %}
 </div>

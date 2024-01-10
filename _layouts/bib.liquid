@@ -10,8 +10,12 @@
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
           {%
-            include figure.html path=entry_path sizes
-            = "200px" class="preview z-depth-1 rounded" zoomable=false alt=entry.preview
+            include figure.html
+            path=entry_path
+            sizes = "200px"
+            class="preview z-depth-1 rounded"
+            zoomable=false
+            alt=entry.preview
           %}
         {% endif %}
       {% elsif entry.abbr %}
@@ -23,7 +27,7 @@
           <abbr
             class="badge"
             {% if venue_style %}
-              {{- venue_style -}}
+              {{ venue_style }}
             {% endif %}
             ><a href="{{site.data.venues[entry.abbr].url}}">{{ entry.abbr }}</a></abbr
           >
@@ -41,10 +45,12 @@
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
+
       {% assign author_array_limit = author_array_size %}
       {% if site.max_author_limit and author_array_size > site.max_author_limit %}
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
+
       {% for author in entry.author_array limit: author_array_limit %}
         {% assign author_is_self = false %}
         {% assign author_last_name = author.last | remove: '¶' | remove: '&' | remove: '*' | remove: '†' | remove: '^' %}
@@ -54,19 +60,19 @@
           {% endif %}
         {% endif %}
         {% assign coauthor_url = null %}
-        {% if site.data.coauthors[author_last_name] %}
-          {% for coauthor in site.data.coauthors[author_last_name] %}
+        {% assign clean_last_name = author_last_name | downcase | remove_accents %}
+        {% if site.data.coauthors[clean_last_name] %}
+          {% for coauthor in site.data.coauthors[clean_last_name] %}
             {% if coauthor.firstname contains author.first %}
               {% assign coauthor_url = coauthor.url %}
               {% break %}
             {% endif %}
           {% endfor %}
         {% endif %}
+
         {% if forloop.length > 1 %}
           {% if forloop.first == false %},&nbsp;{% endif %}
-          {% if forloop.last and author_array_limit == author_array_size %}
-            and&nbsp;
-          {% endif %}
+          {% if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif %}
         {% endif %}
         {% if author_is_self %}
           <em>
@@ -86,6 +92,7 @@
         {% endif %}
       {% endfor %}
       {% assign more_authors = author_array_size | minus: author_array_limit %}
+
       {% assign more_authors_hide = more_authors | append: ' more author' %}
       {% if more_authors > 0 %}
         {% if more_authors > 1 %}
@@ -94,7 +101,9 @@
         {% assign more_authors_show = '' %}
         {% for author in entry.author_array offset: author_array_limit %}
           {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
-          {% unless forloop.last %}{% assign more_authors_show = more_authors_show | append: ', ' %}{% endunless %}
+          {% unless forloop.last %}
+            {% assign more_authors_show = more_authors_show | append: ', ' %}
+          {% endunless %}
         {% endfor %}
         , and
         <span
@@ -126,25 +135,24 @@
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{entry.booktitle}}</em> {% endcapture %}
     {% elsif thesis contains entry.type %}
-      {% capture entrytype %}<em
-      >{{entry.school}}</em
-    >
-    {% endcapture %}
+      {% capture entrytype %}<em>{{entry.school}}</em> {% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
     {% if entry.month %}
-      {% capture entrymonth %}{{ " "
-    }}{{ entry.month | capitalize }}{% endcapture %}
+      {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}
     {% if entry.year %}
       {% capture entryyear %}{{ " " }}{{entry.year}}{% endcapture %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if
-    entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
-    <div class="periodical">{{ periodical | strip }}</div>
-    <div class="periodical">{{ entry.note | strip }}</div>
+    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    <div class="periodical">
+      {{ periodical | strip }}
+    </div>
+    <div class="periodical">
+      {{ entry.note | strip }}
+    </div>
 
     <!-- Links/Buttons -->
     <div class="links">
@@ -202,10 +210,7 @@
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}
-      {%
-        assign entry_has_altmetric_badge = entry.altmetric or entry.doi or entry.eprint or entry.pmid or
-        entry.isbn
-      %}
+      {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or  entry.eprint or entry.pmid or entry.isbn %}
       {% assign entry_has_dimensions_badge = entry.dimensions or entry.doi or entry.pmid %}
       {% if entry_has_altmetric_badge or entry_has_dimensions_badge %}
         <div class="badges">
@@ -242,18 +247,20 @@
               data-hide-zero-citations="true"
               data-style="small_rectangle"
               data-legend="hover-right"
-              style="margin-bottom: 3px"
+              style="margin-bottom: 3px;"
             ></span>
           {% endif %}
         </div>
       {% endif %}
     {% endif %}
+
     {% if entry.abstract %}
       <!-- Hidden abstract block -->
       <div class="abstract hidden">
         <p>{{ entry.abstract }}</p>
       </div>
     {% endif %}
+
     {% if entry.bibtex_show %}
       <!-- Hidden bibtex block -->
       <div class="bibtex hidden">
@@ -262,10 +269,11 @@
         {% endhighlight %}
       </div>
     {% endif %}
+
     {% if entry.video %}
       <!-- Hidden video block -->
       <div class="abstract hidden">
-        <div style="text-align: center">{% include video.html path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
+        <div style="text-align: center;">{% include video.html path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
       </div>
     {% endif %}
   </div>
