@@ -1,0 +1,26 @@
+name: prettier
+
+on:
+  push:
+    branches:
+      - master
+      - main
+  pull_request:
+    branches:
+      - master
+      - main
+  workflow_dispatch:
+
+jobs:
+  check:
+    # available images: https://github.com/actions/runner-images#available-images
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+      - name: Setup Node.js ⚙️
+        uses: actions/setup-node@v4
+      - name: Install Prettier 💾
+        run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
+      - name: Prettier Check 🔎
+        run: npx prettier . --check
