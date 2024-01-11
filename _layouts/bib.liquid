@@ -10,7 +10,7 @@
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
           {%
-            include figure.html
+            include figure.liquid
             path=entry_path
             sizes = "200px"
             class="preview z-depth-1 rounded"
@@ -273,7 +273,7 @@
     {% if entry.video %}
       <!-- Hidden video block -->
       <div class="abstract hidden">
-        <div style="text-align: center;">{% include video.html path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
+        <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
       </div>
     {% endif %}
   </div>
