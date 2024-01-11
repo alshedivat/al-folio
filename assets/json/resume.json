@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Xiaoxiao Qi",
+    "title": "Senior Data Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "xqiepsilon@gmail.com",
+    "phone": "(312) 536-0738",
+    "url": "https://alshedivat.github.io/",
+    "summary": "Who am I? ",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
