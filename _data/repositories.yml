@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ashwani-rathee
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - ashwani-rathee/Miner.jl
+  - ashwani-rathee/MultipleViewGeometry.jl
+  - ashwani-rathee/Firebase.jl
+  - juliaimages/ExifViewer.jl

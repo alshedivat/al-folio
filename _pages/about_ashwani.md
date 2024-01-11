@@ -1,26 +1,4 @@
----
-layout: about
-title: about
-permalink: /
-subtitle: <a href='#'>Engineer</a>. Researcher. Open Source Contributor.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    Software Engineer, 
-    FleetSafe India Pvt. Ltd,
-    Mohali, India
-
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
----
-
 Hi there!!
-
 Hey, I am Ashwani Rathee. You can call me ash, I am a undergraduate student studying information technology in UIET, Panjab University Chandigarh. I'm a developer with experience in  Julia, Python, C/C++, Flutter/Dart, ReactJS/Nodejs with focus 
 in Image/Audio signal processing. I have contributed to Julia during GSOC'22, OSPP'21 events.
 
