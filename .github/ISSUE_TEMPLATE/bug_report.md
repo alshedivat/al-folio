@@ -8,8 +8,8 @@ assignees: ""
 
 **Acknowledge the following**
 
-- [ ] I carefully read and followed the [Getting Started](https://github.com/alshedivat/al-folio#getting-started) guide.
-- [ ] I read through [FAQ](https://github.com/alshedivat/al-folio#faq) and searched through the [past issues](https://github.com/alshedivat/al-folio/issues), none of which addressed my issue.
+- [ ] I carefully read and followed the [Getting Started](../../README.md#getting-started) guide.
+- [ ] I read through [FAQ](../../FAQ.md) and searched through the [past issues](https://github.com/alshedivat/al-folio/issues), none of which addressed my issue.
 - [ ] The issue I am raising is a potential bug in al-folio and not just a usage question. <br> [For usage questions, please post in the [Discussions](https://github.com/alshedivat/al-folio/discussions) instead of raising an issue.]
 
 **Describe the bug**
