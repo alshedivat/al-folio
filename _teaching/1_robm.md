@@ -12,7 +12,9 @@ published: true
 
 ### Student Project Videos
 
-| <iframe width="560" height="315" src="https://www.youtube.com/embed/o4Iv7k0aQoc?si=Ffj5n-RHiV1b8Tl2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> | <iframe width="560" height="315" src="https://www.youtube.com/embed/o4Iv7k0aQoc?si=Ffj5n-RHiV1b8Tl2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o4Iv7k0aQoc?si=Ffj5n-RHiV1b8Tl2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
+
+
 |---|---|
-| <iframe width="560" height="315" src="https://www.youtube.com/embed/o4Iv7k0aQoc?si=Ffj5n-RHiV1b8Tl2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> | <iframe width="560" height="315" src="https://www.youtube.com/embed/o4Iv7k0aQoc?si=Ffj5n-RHiV1b8Tl2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
+| [![](https://markdown-videos-api.jorgenkh.no/youtube/o4Iv7k0aQoc)](https://youtu.be/o4Iv7k0aQoc) |  [![](https://markdown-videos-api.jorgenkh.no/youtube/o4Iv7k0aQoc)](https://youtu.be/o4Iv7k0aQoc) |
 |---|---|
