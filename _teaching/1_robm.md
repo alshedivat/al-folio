@@ -15,3 +15,5 @@ published: true
 ### Student Projects
 | {% youtube o4Iv7k0aQoc %} | {% youtube o4Iv7k0aQoc %}   |
 |---|---|
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o4Iv7k0aQoc?si=Ffj5n-RHiV1b8Tl2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
