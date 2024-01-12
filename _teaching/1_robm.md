@@ -10,9 +10,6 @@ published: true
 ## Semester 1 -- 2023/24
 [Course Webpage](https://fenix.ciencias.ulisboa.pt/courses/rmove-2536354281948926)
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/o4Iv7k0aQoc?si=Ffj5n-RHiV1b8Tl2" frameborder="0"></iframe>
+### Student Project Videos
 
-### Student Projects
-| <iframe width="560" height="315" src="https://www.youtube.com/embed/o4Iv7k0aQoc?si=Ffj5n-RHiV1b8Tl2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> | <iframe width="280"  src="https://www.youtube.com/embed/o4Iv7k0aQoc?si=Ffj5n-RHiV1b8Tl2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  |
-|---|---|
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o4Iv7k0aQoc?si=Ffj5n-RHiV1b8Tl2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
