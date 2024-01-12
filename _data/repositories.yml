@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - musajtaib
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - musajtaib/C_Codes
+  - musajtaib/MIMIC_3
+  - musajtaib/High_Performance_Custers
