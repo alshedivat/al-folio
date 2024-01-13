@@ -1,7 +1,7 @@
 ---
 layout: cv
-permalink: /cv/
-title: cv
+permalink: /experience/
+title: experience
 nav: true
 nav_order: 2
 cv_pdf: marco_resume.pdf
@@ -11,6 +11,6 @@ toc:
 ---
 
 <!--
-This is a description of the page. You can modify it in '_pages/cv.md'. 
+This is a description of the page. You can modify it in '_pages/experience.md'. 
 You can also change or remove the top pdf download button.
 -->
