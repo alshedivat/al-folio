@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ython quirks
+title: Python quirks
 date: 2024-01-07 11:59:00-0400
 description: interesting features of Python
 tags: comments
