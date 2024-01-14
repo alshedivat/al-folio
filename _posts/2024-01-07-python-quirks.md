@@ -209,16 +209,19 @@ class Animal:
     def __repr__(self):
         return f"Animal({self.name}, {self.weight})"
 
-animals = [Animal("lion", 200),
-           Animal("whale", 100000),
-           Animal("possum", 2.5)]
+animals = [
+    Animal("whale", 100000),
+    Animal("sea lion", 200),
+    Animal("lion", 200),
+    Animal("possum", 2.5)
+]
 
 # sort by weight
 animals.sort(key = lambda x: x.weight)
 print(animals)
 ```
 ```
-[Animal(possum, 2.5), Animal(lion, 200), Animal(whale, 100000)]
+[Animal(possum, 2.5), Animal(sea lion, 200), Animal(lion, 200), Animal(whale, 100000)]
 ```
 
 ```python
@@ -227,10 +230,19 @@ animals.sort(key = lambda x: x.name)
 print(animals)
 ```
 ```
-[Animal(lion, 200), Animal(possum, 2.5), Animal(whale, 100000)]
+[Animal(lion, 200), Animal(possum, 2.5), Animal(sea lion, 200), Animal(whale, 100000)]
 ```
 
-As shown, `key` takes a function which will receive an item, and output a comparable value.
+As shown, `key` takes a function which will receive an item, and output a comparable value. If we want to order first by weight, then by name, we just need to combine both in a tuple:
+
+```python
+# sort by name
+animals.sort(key = lambda x: (x.weight, x.name))
+print(animals)
+```
+```
+[Animal(possum, 2.5), Animal(lion, 200), Animal(sea lion, 200), Animal(whale, 100000)]
+```
 
 # A class' `__dict__` attribute
 
