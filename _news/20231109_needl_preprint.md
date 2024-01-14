@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our preprint on detecting epistasis using :sparkles: quantum computing :sparkles: was just published on [medrXiv](https://www.medrxiv.org/content/10.1101/2023.11.07.23298205v1).
+Our preprint on detecting epistasis using :sparkles: quantum computing :sparkles: was just published on [medRxiv](https://www.medrxiv.org/content/10.1101/2023.11.07.23298205v1).
