@@ -244,7 +244,7 @@ print(animals)
 [Animal(possum, 2.5), Animal(lion, 200), Animal(sea lion, 200), Animal(whale, 100000)]
 ```
 
-# A class' `__dict__` attribute
+# A class' instance dictionary
 
 Every class in Python has a builtin `__dict__` method that stores its writable attributes:
 
