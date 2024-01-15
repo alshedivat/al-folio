@@ -36,8 +36,11 @@ jobs:
         with:
           commitChange: false
           valueFile: "_config.yml"
-          propertyPath: "giscus.repo"
-          value: ${{ github.repository }}
+          changes: |
+            {
+              "giscus.repo": "${{ github.repository }}",
+              "baseurl": ""
+            }
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
