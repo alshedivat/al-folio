@@ -34,7 +34,7 @@ $ docker compose pull
 $ docker compose up
 ```
 
-Note that when you run it for the first time, it will download a docker image of size 400MB or so. To see the template running, open your browser and go to [http://localhost:8888](http://localhost:8888). You should see a copy of the theme's demo website.
+Note that when you run it for the first time, it will download a docker image of size 400MB or so. To see the template running, open your browser and go to `http://localhost:8888`. You should see a copy of the theme's demo website.
 
 Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`docker compose up`) to render the webpage with all you changes. Also, make sure to commit your final changes.
 
@@ -70,7 +70,7 @@ $ pip install jupyter
 $ bundle exec jekyll serve --lsi
 ```
 
-To see the template running, open your browser and go to [http://localhost:4000](http://localhost:4000). You should see a copy of the theme's [demo website](https://alshedivat.github.io/al-folio/). Now, feel free to customize the theme however you like. After you are done, remember to **commit** your final changes.
+To see the template running, open your browser and go to `http://localhost:4000`. You should see a copy of the theme's [demo website](https://alshedivat.github.io/al-folio/). Now, feel free to customize the theme however you like. After you are done, remember to **commit** your final changes.
 
 ## Deployment
 
