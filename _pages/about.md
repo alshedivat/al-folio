@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I'm currently a visiting student at [Sailing-MBZUAI Lab](https://sailing-mbzuai.github.io/) working with [Prof. Eric Xing](https://www.cs.cmu.edu/~epxing/). 
-I'm broadly interested in machine learning and deep learning, striking a balance between **theoretical understanding** and **practical application** to address large-scale real-world challenges.  My most recent research experiences and interests lie in every aspect of **large language models**, including pre-training, fine-tuning, and inference.
+I'm broadly interested in making AI efficient and reliable from a machine learning and optimization perspective, striking a balance between **theoretical understanding** and **practical application** to address large-scale real-world challenges.  My most recent research experiences and interests lie in every aspect of **large language models**, including pre-training, fine-tuning, and inference.
 My works include publications on conferences such as **NeurIPS**[[1](https://openreview.net/forum?id=x5fs7TXKDc), [2](https://nips.cc/virtual/2022/poster/54888)] and **[ECCV](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/7173_ECCV_2022_paper.php)**, as well as large open-source projects like **[LLM360](https://www.llm360.ai/)**.
 
 
