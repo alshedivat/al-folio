@@ -19,6 +19,9 @@ on:
 permissions:
   contents: write
 
+env:
+  URL: ""
+
 jobs:
   check:
     # available images: https://github.com/actions/runner-images#available-images
@@ -55,4 +58,4 @@ jobs:
           npm install -g @axe-core/cli
           npm install -g http-server
           http-server _site/ &
-          axe http://localhost:8080/${{ github.event.inputs.url }} --load-delay=1500 --exit
+          axe http://localhost:8080/${{ github.event.inputs.url || env.URL }} --load-delay=1500 --exit
