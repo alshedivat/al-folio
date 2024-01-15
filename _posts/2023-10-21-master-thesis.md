@@ -16,7 +16,7 @@ related_posts: false
 datatable: true
 #redirect: /assets/pdf/example_pdf.pdf
 ---
-> update: I defensed in _Oct 21th, 2023_
+_update: I defensed in Oct 21th, 2023_
 
 Hi there
 
