@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Master Thesis
-date: 2023-07-25
+date: 2023-10-21
 description: My Master degree thesis in University of Tehran
 tags:
   - Thesis
@@ -16,15 +16,14 @@ related_posts: false
 datatable: true
 #redirect: /assets/pdf/example_pdf.pdf
 ---
+> update: I defensed in _Oct 21th, 2023_
 
 Hi there
 
 
 Several days ago, I decided to create a new post here on my website to write share my thesis advancement.
 
-
 First, I would like to share some terms of thoughts that going around in my mind.
-
 
 If you would like to read the main section → [#Thesis](#Thesis)
 
