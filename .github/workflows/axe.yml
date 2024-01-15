@@ -11,6 +11,10 @@ on:
   #     - master
   #     - main
   workflow_dispatch:
+    inputs:
+      url:
+        description: 'URL to be checked (e.g.: blog/)'
+        required: false
 
 permissions:
   contents: write
@@ -48,4 +52,4 @@ jobs:
           npm install -g @axe-core/cli
           npm install -g http-server
           http-server _site/ &
-          axe http://localhost:8080 --load-delay=1500 --exit
+          axe http://localhost:8080/${{ github.event.inputs.url }} --load-delay=1500 --exit
