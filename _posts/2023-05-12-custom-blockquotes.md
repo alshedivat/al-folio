@@ -84,44 +84,48 @@ A regular blockquote can be used as following:
 
 These custom styles can be used by adding the specific class to the blockquote, as follows:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 > ##### TIP
 >
 > A tip can be used when you want to give advice
 > related to a certain content.
-> {: .block-tip }
+{: .block-tip }
 ```
 
 > ##### TIP
 >
 > A tip can be used when you want to give advice
 > related to a certain content.
-> {: .block-tip }
+{: .block-tip }
 
 ```markdown
 > ##### WARNING
 >
 > This is a warning, and thus should
 > be used when you want to warn the user
-> {: .block-warning }
+{: .block-warning }
 ```
 
 > ##### WARNING
 >
 > This is a warning, and thus should
 > be used when you want to warn the user
-> {: .block-warning }
+{: .block-warning }
 
 ```markdown
 > ##### DANGER
 >
 > This is a danger zone, and thus should
 > be used carefully
-> {: .block-danger }
+{: .block-danger }
 ```
 
 > ##### DANGER
 >
 > This is a danger zone, and thus should
 > be used carefully
-> {: .block-danger }
+{: .block-danger }
+
+<!-- prettier-ignore-end -->
