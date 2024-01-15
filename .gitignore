@@ -10,3 +10,5 @@ Gemfile.lock
 node_modules/
 vendor
 
+# the back store of the original reporisty
+# _posts_original/
