@@ -46,7 +46,7 @@ jobs:
         with:
           fail: true
           # only check local links
-          args: --offline --remap "/al-folio/(.*) _site/$1" --verbose --no-progress '_site/**/*.html'
+          args: --offline --remap '/al-folio/(.*) _site/$1' --verbose --no-progress '_site/**/*.html'
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
