@@ -1,0 +1,4 @@
+**/*.min.css
+**/*.min.js
+assets/css/main.scss
+assets/plotly/demo.html

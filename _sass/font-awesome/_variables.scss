@@ -1,52 +1,52 @@
 // variables
 // --------------------------
 
-$fa-css-prefix          : fa !default;
-$fa-style               : 900 !default;
-$fa-style-family        : "Font Awesome 6 Free" !default;
+$fa-css-prefix: fa !default;
+$fa-style: 900 !default;
+$fa-style-family: "Font Awesome 6 Free" !default;
 
-$fa-display             : inline-block !default;
+$fa-display: inline-block !default;
 
-$fa-fw-width            : fa-divide(20em, 16) !default;
-$fa-inverse             : #fff !default;
+$fa-fw-width: fa-divide(20em, 16) !default;
+$fa-inverse: #fff !default;
 
-$fa-border-color        : #eee !default;
-$fa-border-padding      : .2em .25em .15em !default;
-$fa-border-radius       : .1em !default;
-$fa-border-style        : solid !default;
-$fa-border-width        : .08em !default;
+$fa-border-color: #eee !default;
+$fa-border-padding: 0.2em 0.25em 0.15em !default;
+$fa-border-radius: 0.1em !default;
+$fa-border-style: solid !default;
+$fa-border-width: 0.08em !default;
 
-$fa-size-scale-2xs      : 10 !default;
-$fa-size-scale-xs       : 12 !default;
-$fa-size-scale-sm       : 14 !default;
-$fa-size-scale-base     : 16 !default;
-$fa-size-scale-lg       : 20 !default;
-$fa-size-scale-xl       : 24 !default;
-$fa-size-scale-2xl      : 32 !default;
+$fa-size-scale-2xs: 10 !default;
+$fa-size-scale-xs: 12 !default;
+$fa-size-scale-sm: 14 !default;
+$fa-size-scale-base: 16 !default;
+$fa-size-scale-lg: 20 !default;
+$fa-size-scale-xl: 24 !default;
+$fa-size-scale-2xl: 32 !default;
 
 $fa-sizes: (
-  "2xs"                 : $fa-size-scale-2xs,
-  "xs"                  : $fa-size-scale-xs,
-  "sm"                  : $fa-size-scale-sm,
-  "lg"                  : $fa-size-scale-lg,
-  "xl"                  : $fa-size-scale-xl,
-  "2xl"                 : $fa-size-scale-2xl
+  "2xs": $fa-size-scale-2xs,
+  "xs": $fa-size-scale-xs,
+  "sm": $fa-size-scale-sm,
+  "lg": $fa-size-scale-lg,
+  "xl": $fa-size-scale-xl,
+  "2xl": $fa-size-scale-2xl,
 ) !default;
 
-$fa-li-width            : 2em !default;
-$fa-li-margin           : $fa-li-width * fa-divide(5, 4) !default;
+$fa-li-width: 2em !default;
+$fa-li-margin: $fa-li-width * fa-divide(5, 4) !default;
 
-$fa-pull-margin         : .3em !default;
+$fa-pull-margin: 0.3em !default;
 
-$fa-primary-opacity     : 1 !default;
-$fa-secondary-opacity   : .4 !default;
+$fa-primary-opacity: 1 !default;
+$fa-secondary-opacity: 0.4 !default;
 
 $fa-stack-vertical-align: middle !default;
-$fa-stack-width         : ($fa-fw-width * 2) !default;
-$fa-stack-z-index       : auto !default;
+$fa-stack-width: ($fa-fw-width * 2) !default;
+$fa-stack-z-index: auto !default;
 
-$fa-font-display        : block !default;
-$fa-font-path           : "../webfonts" !default;
+$fa-font-display: block !default;
+$fa-font-path: "../webfonts" !default;
 
 $fa-var-0: \30;
 $fa-var-1: \31;

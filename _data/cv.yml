@@ -70,15 +70,32 @@
 - title: Open Source Contributions
   type: time_table
   contents:
+<<<<<<< HEAD
     - title: <a href="https://github.com/qutip/qutip">Qutip</a>
       year: 2023-now
       description: I am actively contributing to the development of qutip,improving on the HEOM module specifically.
+=======
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 1921
+      items:
+        - Nobel Prize in Physics
+        - Matteucci Medal
+    - year: 2029
+      items:
+        - Max Planck Medal
+>>>>>>> f669b23136cfeb31a041b3e8d45294b981d420ac
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Topic 1.
-      items: 
+      items:
         - Description 1.
         - Description 2.
     - title: Topic 2.
