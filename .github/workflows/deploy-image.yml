@@ -2,7 +2,11 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [master]
+    branches:
+      - master
+      - main
+    paths:
+      - "Dockerfile"
 
 jobs:
   build:

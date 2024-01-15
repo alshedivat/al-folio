@@ -5,10 +5,26 @@ on:
     branches:
       - master
       - main
+    paths:
+      - "assets/**"
+      - "**.html"
+      - "**.js"
+      - "**.liquid"
+      - "**/*.md"
+      - "**.yml"
+      - "!*.md"
   pull_request:
     branches:
       - master
       - main
+    paths:
+      - "assets/**"
+      - "**.html"
+      - "**.js"
+      - "**.liquid"
+      - "**/*.md"
+      - "**.yml"
+      - "!*.md"
   workflow_dispatch:
 
 permissions:
