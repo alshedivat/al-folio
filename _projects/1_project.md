@@ -4,12 +4,7 @@ title: QMatch
 description: A Quantum Game made for the IQUHACK 2021
 img: assets/img/1_1_project.png
 importance: 1
-<<<<<<< HEAD
 category: Hackathons
-=======
-category: work
-related_publications: true
->>>>>>> f669b23136cfeb31a041b3e8d45294b981d420ac
 ---
 
 QMatch is a matching making app  like game that relies on the variational quantum Eigensolver (VQE) for matching Quantum Computing Engineers/Scientists with the scientists of their dreams. The questions used for assessing compatibility are directly linked to a random matrix for which users must obtain an accurate enough approximation of its ground state to match with a profile with the desired attributes. The guess of the ground state is done choosing an ansatz for the wave function. Details on how the VQE algorithm works can be found here []
