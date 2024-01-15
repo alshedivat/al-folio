@@ -41,6 +41,12 @@ jobs:
           export JEKYLL_ENV=production
           bundle exec jekyll build --lsi
           purgecss -c purgecss.config.js
+      - name: Link Checker 🔗
+        uses: lycheeverse/lychee-action@v1.9.0
+        with:
+          fail: true
+          # only check local links
+          args: --offline --verbose --no-progress '_site/**/*.html'
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
