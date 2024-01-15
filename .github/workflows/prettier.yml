@@ -1,4 +1,4 @@
-name: prettier
+name: Prettier code formatter
 
 on:
   push:

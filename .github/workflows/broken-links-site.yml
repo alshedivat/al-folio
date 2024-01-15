@@ -1,4 +1,4 @@
-name: Deploy site
+name: Check for broken links on site
 
 on:
   push:
@@ -31,8 +31,11 @@ jobs:
         with:
           commitChange: false
           valueFile: "_config.yml"
-          propertyPath: "giscus.repo"
-          value: ${{ github.repository }}
+          changes: |
+            {
+              "giscus.repo": "${{ github.repository }}",
+              "baseurl": ""
+            }
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
@@ -41,8 +44,9 @@ jobs:
           export JEKYLL_ENV=production
           bundle exec jekyll build --lsi
           purgecss -c purgecss.config.js
-      - name: Deploy 🚀
-        if: github.event_name != 'pull_request'
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Link Checker 🔗
+        uses: lycheeverse/lychee-action@v1.9.0
         with:
-          folder: _site
+          fail: true
+          # only check local links
+          args: --offline --remap '_site(/?.*)/assets/(.*) _site/assets/$2' --verbose --no-progress '_site/**/*.html'
