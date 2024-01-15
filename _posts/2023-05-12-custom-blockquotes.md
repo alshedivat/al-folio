@@ -84,6 +84,8 @@ A regular blockquote can be used as following:
 
 These custom styles can be used by adding the specific class to the blockquote, as follows:
 
+<!-- prettier-ignore-start -->
+
 ```markdown
 > ##### TIP
 >
@@ -125,3 +127,5 @@ These custom styles can be used by adding the specific class to the blockquote, 
 > This is a danger zone, and thus should
 > be used carefully
 {: .block-danger }
+
+<!-- prettier-ignore-end -->
