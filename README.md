@@ -296,7 +296,7 @@ Photo formatting is made simple using [Bootstrap's grid system](https://getboots
 
 <p align="center">
   <a href="https://alshedivat.github.io/al-folio/projects/1_project/">
-    <img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/photos-screenshot.png" width="75%">
+    <img src="assets/img/readme_preview/photos-screenshot.png" width="75%">
   </a>
 </p>
 
