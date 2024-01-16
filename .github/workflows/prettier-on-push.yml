@@ -1,14 +1,7 @@
-name: Prettier code formatter
-
-
-
+name: Prettier code formatter (Push)
 
 on:
   push:
-    branches:
-      - master
-      - main
-  pull_request:
     branches:
       - master
       - main
@@ -20,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
       - name: Setup Node.js ⚙️
         uses: actions/setup-node@v4
       - name: Install Prettier 💾
@@ -33,13 +26,13 @@ jobs:
         if: ${{ failure() }}
         run: |
           npx prettier . --write
-          git diff > diff.txt
+          git diff -- . ':(exclude)package-lock.json' ':(exclude)package.json' > diff.txt
           npm install -g diff2html-cli
           diff2html -i file -s side -F diff.html -- diff.txt
-          echo "::set-output name=diff::$(cat diff.html)"
-      - name: PR comment with file
-        # https://docs.github.com/en/actions/learn-github-actions/expressions#failure-with-conditions
+      - name: Upload html diff
         if: ${{ failure() && steps.prettier.conclusion == 'failure' }}
-        uses: thollander/actions-comment-pull-request@v2
+        uses: actions/upload-artifact@v3
         with:
-            filePath: diff.html
+          name: HTML Diff
+          path: diff.html
+          retention-days: 3
