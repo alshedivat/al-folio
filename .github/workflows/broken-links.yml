@@ -12,7 +12,7 @@ on:
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
-      - "!*.md"
+      - "!.github/**.md"
   pull_request:
     branches:
       - master
@@ -24,7 +24,7 @@ on:
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
-      - "!*.md"
+      - "!.github/**.md"
 
 jobs:
   link-checker:

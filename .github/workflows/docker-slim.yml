@@ -14,9 +14,9 @@ on:
 
 jobs:
   build:
+    # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#running-a-workflow-based-on-the-conclusion-of-another-workflow
+    if: ${{ github.event.workflow_run.conclusion == 'success' }} and github.repository_owner == 'alshedivat'
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'alshedivat'
-
     defaults:
       run:
         working-directory: ${{ github.workspace }}
@@ -34,7 +34,7 @@ jobs:
       - name: update docker-compose
         shell: bash
         run: |
-          sed -i "s|\.:|${{ github.workspace }}:|g" ${{ github.workspace }}/docker-compose.yml 
+          sed -i "s|\.:|${{ github.workspace }}:|g" ${{ github.workspace }}/docker-compose.yml
           cat ${{ github.workspace }}/docker-compose.yml
 
       - uses: kitabisa/docker-slim-action@v1.0.3
