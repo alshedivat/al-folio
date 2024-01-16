@@ -1,5 +1,8 @@
 name: Prettier code formatter
 
+
+
+
 on:
   push:
     branches:
@@ -23,4 +26,20 @@ jobs:
       - name: Install Prettier 💾
         run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
       - name: Prettier Check 🔎
+        id: prettier
         run: npx prettier . --check
+      - name: Show diff 📝
+        # https://docs.github.com/en/actions/learn-github-actions/expressions#failure
+        if: ${{ failure() }}
+        run: |
+          npx prettier . --write
+          git diff > diff.txt
+          npm install -g diff2html-cli
+          diff2html -i file -s side -F diff.html -- diff.txt
+          echo "::set-output name=diff::$(cat diff.html)"
+      - name: PR comment with file
+        # https://docs.github.com/en/actions/learn-github-actions/expressions#failure-with-conditions
+        if: ${{ failure() && steps.prettier.conclusion == 'failure' }}
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+            filePath: diff.html
