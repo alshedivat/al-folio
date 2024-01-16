@@ -198,7 +198,7 @@ Another option is to manually update your code by following the steps below:
 # Assuming the current directory is <your-repo-name>
 $ git remote add upstream https://github.com/alshedivat/al-folio.git
 $ git fetch upstream
-$ git rebase v0.9.0
+$ git rebase v0.11.0
 ```
 
 If you have extensively customized a previous version, it might be trickier to upgrade.
