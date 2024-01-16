@@ -417,6 +417,16 @@ Our most active contributors are welcome to join the maintainers team. If you ar
   <img src="https://contrib.rocks/image?repo=alshedivat/al-folio" />
 </a>
 
+### Star History
+
+<a href="https://star-history.com/#alshedivat/al-folio&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=alshedivat/al-folio&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=alshedivat/al-folio&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=alshedivat/al-folio&type=Date" />
+  </picture>
+</a>
+
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/master/LICENSE).
