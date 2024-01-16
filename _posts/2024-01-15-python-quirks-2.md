@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Python quirks 2 - Dictionaries
+title: Python quirks 2
 date: 2024-01-15 11:59:00-0400
-description: More interesting features of Python
+description: Dictionaries!
 tags: comments
 categories: python coding
 giscus_comments: true
