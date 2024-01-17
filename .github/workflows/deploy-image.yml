@@ -6,7 +6,12 @@ on:
       - master
       - main
     paths:
+      - "bin/entry_point.sh"
       - "Dockerfile"
+      - "Gemfile"
+      - "Gemfile.lock"
+      - "package.json"
+      - "package-lock.json"
 
 jobs:
   build:

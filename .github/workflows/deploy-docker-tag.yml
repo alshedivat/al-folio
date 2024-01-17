@@ -5,7 +5,12 @@ on:
     tags:
       - "v*"
     paths:
+      - "bin/entry_point.sh"
       - "Dockerfile"
+      - "Gemfile"
+      - "Gemfile.lock"
+      - "package.json"
+      - "package-lock.json"
 
 jobs:
   build:
