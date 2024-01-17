@@ -12,8 +12,11 @@ on:
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
-      - "!.github/**.md"
-      - ".github/workflows/deploy.yml"
+      - "!.github/workflows/axe.yml"
+      - "!.github/workflows/deploy-docker-tag.yml"
+      - "!.github/workflows/deploy-image.yml"
+      - "!.github/workflows/docker-slim.yml"
+      - "!.github/workflows/prettier.yml"
   pull_request:
     branches:
       - master
@@ -25,8 +28,11 @@ on:
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
-      - "!.github/**.md"
-      - ".github/workflows/deploy.yml"
+      - "!.github/workflows/axe.yml"
+      - "!.github/workflows/deploy-docker-tag.yml"
+      - "!.github/workflows/deploy-image.yml"
+      - "!.github/workflows/docker-slim.yml"
+      - "!.github/workflows/prettier.yml"
 
 jobs:
   link-checker:
