@@ -7,9 +7,10 @@ years: [1967, 1956, 1950, 1935, 1905]
 nav: false
 nav_order: 1
 ---
+
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography -f {{ site.scholar.bibliography }} %}
+{% bibliography %}
 
 </div>

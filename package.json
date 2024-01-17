@@ -7,5 +7,9 @@
 		"dotenv": "^16.3.1",
 		"notion-to-md": "^3.1.1"
 	},
-	"type": "commonjs"
+	"type": "commonjs",
+	"devDependencies": {
+		"@shopify/prettier-plugin-liquid": "1.4.0",
+		"prettier": "3.1.1"
+	}
 }
