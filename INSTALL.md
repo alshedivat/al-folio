@@ -181,9 +181,9 @@ jobs:
     steps:
       # To use this repository's private action, you must check out the repository
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: actions-template-sync
-        uses: AndreasAugustin/actions-template-sync@v0.7.3
+        uses: AndreasAugustin/actions-template-sync@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           source_repo_path: alshedivat/al-folio
