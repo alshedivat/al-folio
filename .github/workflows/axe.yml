@@ -48,9 +48,11 @@ jobs:
         run: |
           pip3 install --upgrade jupyter
           npm install -g mermaid.cli
-          npm install -g purgecss
           export JEKYLL_ENV=production
           bundle exec jekyll build --lsi
+      - name: Purge unused CSS 🧹
+        run: |
+          npm install -g purgecss
           purgecss -c purgecss.config.js
       - name: Run axe 🪓
         # https://github.com/dequelabs/axe-core-npm/tree/develop/packages/cli
