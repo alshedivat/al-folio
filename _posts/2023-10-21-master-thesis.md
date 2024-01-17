@@ -109,7 +109,7 @@ After that, I talked to my supervisor and they said, they will send a simulator 
 An image of mentioned software.
 
 
-{% include figure.html path="https://lh3.googleusercontent.com/pw/ADCreHdJEZXh6Pf6dqMx6pttdpxTnHg1aFamd3UkzZnrk42zkYZ5cW3120pXuM7SeZs_vopj8QM4tV4BSwGlihuNb1tNi0mlgcDhhHTH6Fe522czk4aJCWE=w1400" class="img-fluid rounded z-depth-1" zoomable=true %} 
+{% include figure.liquid path="https://lh3.googleusercontent.com/pw/ADCreHdJEZXh6Pf6dqMx6pttdpxTnHg1aFamd3UkzZnrk42zkYZ5cW3120pXuM7SeZs_vopj8QM4tV4BSwGlihuNb1tNi0mlgcDhhHTH6Fe522czk4aJCWE=w1400" class="img-fluid rounded z-depth-1" zoomable=true %} 
 
 
 (not related to me, but) this software is written in `C#` (why? because my supervisor had decided to use  for development), I did not even see its code (or any code from my supervisor)
@@ -168,13 +168,13 @@ For Tkh:
 
 results in a Whisker-Box chart:
 
-{% include figure.html path="https://lh3.googleusercontent.com/pw/ADCreHeOGaDJjW4q1FoTDjutrbHmddhj3TDB3983evNZkMcLP6eKYY57ab8AtSL58duVpHFzYn48IRmrDPZAtYPpK0PYwaHEkXdsfvu1zMqNwQRBG61-v6U=w1000" class="img-fluid rounded z-depth-1" zoomable=true %} 
+{% include figure.liquid path="https://lh3.googleusercontent.com/pw/ADCreHeOGaDJjW4q1FoTDjutrbHmddhj3TDB3983evNZkMcLP6eKYY57ab8AtSL58duVpHFzYn48IRmrDPZAtYPpK0PYwaHEkXdsfvu1zMqNwQRBG61-v6U=w1000" class="img-fluid rounded z-depth-1" zoomable=true %} 
 
 
 
 with `LogisticRegressionCV` function results were looks like this
 
-{% include figure.html path="https://lh3.googleusercontent.com/pw/ADCreHfxTBaX45ctJMJWVbzCIwfReZvDYQA-EHYbXW0I4kMu2n6uER2pE2h3N8SDZB0DvEon4DHD7qWlQwiIJbiFCEiEFqSgvVo6dNCSTBWLiZOcAuhcj7g=w1400" class="img-fluid rounded z-depth-1" zoomable=true %} 
+{% include figure.liquid path="https://lh3.googleusercontent.com/pw/ADCreHfxTBaX45ctJMJWVbzCIwfReZvDYQA-EHYbXW0I4kMu2n6uER2pE2h3N8SDZB0DvEon4DHD7qWlQwiIJbiFCEiEFqSgvVo6dNCSTBWLiZOcAuhcj7g=w1400" class="img-fluid rounded z-depth-1" zoomable=true %} 
 
 
 #### K-Nearest-Neighbor
@@ -182,7 +182,7 @@ with `LogisticRegressionCV` function results were looks like this
 
 After tunning model, results acquired as below:
 
-{% include figure.html path="https://lh3.googleusercontent.com/pw/ADCreHc7XrBBskJ48NG5Fb_r5IyNIHHzdo7Ncqf9K6mh4lxchpPgipPNOcHSdmYoq3o2hxmULlruuX_GKcwZybsaelAvMhW2gex3nuVeroQDp3Dp-9sEOS0=w2400" class="img-fluid rounded z-depth-1" zoomable=true %} 
+{% include figure.liquid path="https://lh3.googleusercontent.com/pw/ADCreHc7XrBBskJ48NG5Fb_r5IyNIHHzdo7Ncqf9K6mh4lxchpPgipPNOcHSdmYoq3o2hxmULlruuX_GKcwZybsaelAvMhW2gex3nuVeroQDp3Dp-9sEOS0=w2400" class="img-fluid rounded z-depth-1" zoomable=true %} 
 
 
 #### Histogram Gradient Boosting
@@ -191,7 +191,7 @@ After tunning model, results acquired as below:
 In this scenario, model tuning was not so effective and final results was as below chart:
 
 
-{% include figure.html path="https://lh3.googleusercontent.com/pw/ADCreHcj90yOEuGKVgxFVk7Ff9FeD1MBlpOdMZZ1xor9xas6fR2_yaSo6UN2ZbiCdbG1s1aDb0-HhJEK5MhEB_NeO7xJ29syXqiLLm5-znfUkzlRPlL110E=w1400" class="img-fluid rounded z-depth-1" zoomable=true %} 
+{% include figure.liquid path="https://lh3.googleusercontent.com/pw/ADCreHcj90yOEuGKVgxFVk7Ff9FeD1MBlpOdMZZ1xor9xas6fR2_yaSo6UN2ZbiCdbG1s1aDb0-HhJEK5MhEB_NeO7xJ29syXqiLLm5-znfUkzlRPlL110E=w1400" class="img-fluid rounded z-depth-1" zoomable=true %} 
 
 #### Conclusion on above models
 
@@ -207,7 +207,7 @@ In this case, after testing different scenarios, I realized that different combi
 
 #### 2 layers
 
-{% include figure.html path="https://lh3.googleusercontent.com/pw/ADCreHdU_Xg5_GReccrqnqnkOrD2UojGyM5DFqo7i0_xOTjAbgC7kXZkz5qQJh9DR04DZ3EQjnB57mqTYGwyz6Ug1RcBufGgTmBXIe9G0EoJdkIUQPCsPc0=w1600" class="img-fluid rounded z-depth-1" zoomable=true %} 
+{% include figure.liquid path="https://lh3.googleusercontent.com/pw/ADCreHdU_Xg5_GReccrqnqnkOrD2UojGyM5DFqo7i0_xOTjAbgC7kXZkz5qQJh9DR04DZ3EQjnB57mqTYGwyz6Ug1RcBufGgTmBXIe9G0EoJdkIUQPCsPc0=w1600" class="img-fluid rounded z-depth-1" zoomable=true %} 
 
 
 Vertical column: layers and neurons (number on neurons in each layer)
@@ -242,8 +242,8 @@ It was more than required but I test it and result did not changed significantly
 
 Due to some problem, I had to defense sooner than I expected, its okay but I must change my plan and work on CNN out of thesis scope, so I decided to do it and write my scientific paper based on that.
 
-{% include figure.html path="https://lh3.googleusercontent.com/pw/ADCreHdSCuufXD0AuNCoOKDRCm0zHF4ndoh2rEDKUWUY8q6KItevaR7rSvJfJ6lYFjvLKtF6PurMCunojGlxJ9Y9JEop4T5ciOrNsrkiS9cuYO0BJZJ4nds=w1200" class="img-fluid rounded z-depth-1" zoomable=true %}
-{% include figure.html path="https://lh3.googleusercontent.com/pw/ADCreHfY_85OhOaqzaLDbZcWnCQS_jT269hokGSc9Eu6zgyleBJygnVfg_IDxTQ33Si2UTmRjah3fj_vhaRfhttI2a3Qxq5P57-JUej95QCJZfazIND-XPM=w1200" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://lh3.googleusercontent.com/pw/ADCreHdSCuufXD0AuNCoOKDRCm0zHF4ndoh2rEDKUWUY8q6KItevaR7rSvJfJ6lYFjvLKtF6PurMCunojGlxJ9Y9JEop4T5ciOrNsrkiS9cuYO0BJZJ4nds=w1200" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="https://lh3.googleusercontent.com/pw/ADCreHfY_85OhOaqzaLDbZcWnCQS_jT269hokGSc9Eu6zgyleBJygnVfg_IDxTQ33Si2UTmRjah3fj_vhaRfhttI2a3Qxq5P57-JUej95QCJZfazIND-XPM=w1200" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 
 ### Get ready for CNN
