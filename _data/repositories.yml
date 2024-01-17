@@ -1,12 +1,33 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - sk1y101
 
 github_repos:
+  - sk1y101/improved-ttv-pipeline
+  - sk1y101/transitproject
+  - maas/maas
+  - maas/ansible-collection
+  - maas/terraform-provider-maas
+  - canonical/packer-maas
+  - maas/gomaasclient
+  - maas/maas-ansible-playbook
+  - sk1y101/sk1y101.github.io
+  - sk1y101/poketchfitbit
+  - sk1y101/kos
+  - sk1y101/kosflightcontroller
+  - sk1y101/seasonsclock
+  - sk1y101/gwproject
+  - sk1y101/skiylia
+  - Revolutionary-Games/Thrive
   - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - all-contributors/all-contributors
+  - nick-juliano/exohammer
+  - just-the-docs/just-the-docs
+  - KSP-KOS/KOS
+  - canonical/maas.io
+  - pages-themes/minimal
+  - maas/python-libmaas
+  - readthedocs/readthedocs.org
+  - hannorein/rebound
+  - dtamayo/reboundx
+  - SK1Y101/sk1y101.github.io
+  - Skiylia-Lang/PySkiylia

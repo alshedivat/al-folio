@@ -1,113 +1,116 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Jack Lloyd-Walters",
+    "label": "Software Engineer",
+    "image": "/img/prof_pic.jpg",
+    "email": "jack@lloydwaltersj.com",
+    "phone": "",
+    "url": "https://lloydwaltersj.com",
+    "summary": "UK Based Software Engineer working on the Metal As A Service team at Canonical.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Lavant",
+      "countryCode": "GB",
+      "region": "West Sussex"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "SK1Y101",
+        "url": "https://github.com/SK1Y101"
+      },
+      {
+        "network": "Linkedin",
+        "username": "jack-lloyd-walters",
+        "url": "https://www.linkedin.com/in/jack-lloyd-walters"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "MAAS, Canonical",
+      "position": "Software Engineer I",
+      "url": "https://maas.io",
+      "icon": "canonical",
+      "startDate": "2023-05",
+      "summary": "Primarily handling infrastructure and CI/CD projects.",
+      "highlights": ["maas-ansible-collection", "terraform-provider", "gomaaslcient"]
+    },
     {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "MAAS, Canonical",
+      "position": "Associate Software Engineer",
+      "url": "https://maas.io",
+      "icon": "canonical",
+      "startDate": "2022-06",
+      "endDate": "2023-05",
+      "summary": "Joined as part of the graduate fast rack program.",
+      "highlights": ["maas-ansible-playbooks", "MAAS"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "University of Portsmouth",
+      "location": "Portsmouth, United Kingdom",
+      "url": "https://port.ac.uk",
+      "icon": "UOP",
+      "area": "Physics, Astronomy, and Cosmology",
+      "studyType": "MPhys (Hons)",
+      "score": "First Class Honours",
+      "startDate": "2018-09",
+      "endDate": "2022-07",
+      "courses": [
+        "First year mean grade of 76.7%, Final year mean grade of 79.2%.",
+        "Masters thesis combining computational modelling, first hand observation, and supplemental data to measure exoplanet transits. Developed analytical models of transit timing variation to investigate the orbital properties of non-transiting planets. Results were summarised with a 6000 word dissertation, 10 minute presentation/discussion, and scientific poster.",
+        "Bachelors thesis utilising computational modelling and signal processing to identify and model glitch events within the LIGO data set. Results were summarised with a 5000 word dissertation, 10 minute presentation/discussion, and LaTeX Compatible result list."
+      ]
+    },
+    {
+      "institution": "AiCore",
+      "location": "Remote",
+      "url": "https://www.theaicore.com/",
+      "icon": "aicore",
+      "area": "Ai and Data Engineering",
+      "studyType": "Ai and Data Engineering",
+      "startDate": "2022-01",
+      "endDate": "2022-06",
+      "courses": [
+        "Certified in the practical application of AI and Data Engineering, including:",
+        "Software engineering (Git & GitHub, advanced Python, algorithms & data structures)",
+        "Data engineering (SQL, data lakes, data warehousing, web scraping)",
+        "Data science (Data cleaning, preprocessing & visualisation, A/B testing, feature engineering, statistical modelling, model selection and implementation)",
+        "Cloud Engineering (cloud computing, designing and building APIs, Docker, Apache Airflow, AWS Serverless Stack)"
+      ]
+    },
+    {
+      "institution": "Peter Symmonds College",
+      "location": "Winchester, United Kingdom",
+      "url": "https://www.psc.ac.uk/",
+      "icon": "peter_symmonds",
+      "area": "Physics (A), EPQ (A), Maths (B), Further Maths (D), AS-Chemistry (A)",
+      "studyType": "A-Level",
+      "startDate": "2016-09",
+      "endDate": "2018-06",
+      "courses": [
+        "Produced a Level 3 Extended Project Qualification to high standard on the study of habitability of earth-like exoplanets"
+      ]
+    },
+    {
+      "institution": "City of Portsmouth Boys' Schoold",
+      "location": "Portsmouth, United Kingdom",
+      "url": "https://www.trafalgarschool.org.uk/",
+      "area": "9 GCSE’s A* to B Including Science, Computer Science, Maths, and English",
+      "studyType": "GCSE",
+      "startDate": "2011-09",
+      "endDate": "2016-06"
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "title": "Graham Bryant Prize for Best Observatory Project",
+      "date": "2022-05",
+      "awarder": "Portsmouth University",
+      "summary": "First recipient of the award to honour the late Graham Bryant for my Masters thesis"
     }
   ],
   "publications": [
@@ -150,13 +153,13 @@
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "English",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Japanese",
+      "fluency": "Beginner",
       "icon": ""
     }
   ],

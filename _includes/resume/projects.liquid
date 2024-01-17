@@ -2,16 +2,32 @@
   {% for content in data[1] %}
     <li class="list-group-item">
       <div class="row">
-        <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px">
+        <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="min-width: 75px; padding: 0;">
           {% if content.startDate %}
             {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
             {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' %}
+            {% assign date = startDate | append: ' <br> ' %}
             {% assign date = date | append: endDate %}
           {% else %}
             {% assign date = '' %}
           {% endif %}
           <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px"> {{ date }} </span>
+          {% if content.icon %}
+            <br><br>
+            {% if content.icon contains '://' %}
+              <img class="preview z-depth-1 rounded" src="{{ content.icon }}">
+            {% else %}
+              {% assign entry_path = content.icon | prepend: '/assets/img/icons/' %}
+              {%
+                include figure.liquid
+                path=entry_path
+                sizes = "200px"
+                class="preview z-depth-1 rounded"
+                zoomable=false
+                alt=content.icon
+              %}
+            {% endif %}
+          {% endif %}
         </div>
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">

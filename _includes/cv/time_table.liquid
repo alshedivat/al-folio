@@ -18,7 +18,7 @@
                     <td>
                       <p class="location">
                         <i class="fa-solid fa-location-dot iconlocation"></i>
-                        {{ content.location }}
+                        {{ content.location | split: "," | join: "<br>" }}
                       </p>
                     </td>
                   </tr>
