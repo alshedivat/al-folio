@@ -206,13 +206,22 @@ kramdown:
 include: ["_pages"]
 exclude:
   - bin
+  - CONTRIBUTING.md
+  - docker-compose.yml
+  - Dockerfile
+  - FAQ.md
   - Gemfile
   - Gemfile.lock
+  - LICENSE
+  - package-lock.json
+  - package.json
+  - purgecss.config.js
+  - README.md
   - vendor
 keep_files:
   - CNAME
-  - .nojekyll
   - .git
+  - .nojekyll
 
 # Plug-ins
 plugins:
