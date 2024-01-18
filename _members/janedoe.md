@@ -1,6 +1,6 @@
 ---
 name: Jane Doe
-image: assets/members/profile-placeholder.png
+image: assets/members/placeholder.png
 position: PostDoc
 current: Researcher @ RISE
 state: alumni

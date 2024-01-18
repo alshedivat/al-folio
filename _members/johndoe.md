@@ -1,6 +1,6 @@
 ---
 name: John Doe
-image: assets/members/profile-placeholder.png
+image: assets/members/placeholder.png
 position: PhD Student
 state: current
 start-date: 2022-01-01
