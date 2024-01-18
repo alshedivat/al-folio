@@ -4,7 +4,7 @@ title: project 4
 description: another without an image
 img:
 importance: 3
-category: fun
+category: sample
 ---
 
 Every project has a beautiful feature showcase page.
