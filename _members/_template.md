@@ -1,6 +1,6 @@
 ---
 name: Docent/PostDoc/PhD ...
-image: assets/img/profile-placeholder.png
+image: assets/members/placeholder.png
 position:
 state: current
 start-date: YY-MM-DD

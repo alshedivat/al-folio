@@ -1,6 +1,6 @@
 ---
 name: Jo Doe
-image: assets/members/profile-placeholder.png
+image: assets/members/placeholder.png
 position: Master Student
 state: master
 start-date: 2022-01-01
