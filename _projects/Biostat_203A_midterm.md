@@ -1,13 +1,12 @@
 ---
-layout: page
+layout: project
 title: Biostat 203A midterm (UCLA)
 description: a project with a background image
 pdf: Xiong_Hanbei_CV.pdf
 importance: 3
 category: school
-description: The pdf of my CV can be downloaded by clicking the topright icon.
+description: The project is from UCLA Biostat 203A midterm.
 toc:
   sidebar: left
 ---
 
-what is
