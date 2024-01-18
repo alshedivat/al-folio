@@ -1,6 +1,6 @@
 ---
 layout: default
-title: events
+title: Events
 permalink: /events
 nav: true
 ---
