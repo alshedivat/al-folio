@@ -6,20 +6,32 @@
 - title: Education
   type: time_table
   contents:
+    - title: Ph.D. in Computer Science
+      institution: University of Wisconsin-Madison, WI, USA
+      year: Sep 2023 - Present
+      description:
+        - GPA - 4.0/4.0
+        - Working on Theoretical Cryptography
     - title: MS in Computer Science
       institution: University of California, Santa Barbara, CA, USA
-      year: Sep 2021 - Present
+      year: Sep 2021 - June 2023
       description:
+        - GPA - 4.0/4.0
         - Major Area - Foundations of Computer Science
     - title: B.Tech in Electrical Engineering
       institution: Indian Institute of Technology Madras, Chennai, India
       year: Jun 2014 - Jun 2018
       description:
+        - CGPA - 8.38/10
         - Minor - Mathematics for Computer Science
 
 - title: Coursework
   type: nested_list
   contents:
+    - title: UW-Madison
+      items:
+        - Theory - Cryptographic Proof Systems
+        - Applications - Machine Learning
     - title: UC Santa Barbara
       items:
         - Major Area - Topics in Quantum Cryptography, Spectral Graph Theory and Laplacian Matrices, Quantitative Information Flow and Side Channel Analysis, Computer Aided Reasoning for Software
@@ -30,10 +42,10 @@
         - Minor - Number Theory, Combinatorial Optimization, Mathematical Logic
         - Electives - Foundations of Cryptography, Lattice Cryptography(Recent Dev. in Theoretical CS), Applied Cryptography, Error Control Coding Theory
         - Foundational - Linear Algebra, Probability for Electrcial Engineers
-    - title: <a href="https://github.com/saikumarysk/MOOCs">Online Course Certifications</a>
-      items:
-          - Coursera - Proactive Computer Security, Discrete Mathematics, Machine Learning, Deep Learning Specialization
-          - edX - Operating Systems, Computer Networks
+    # - title: <a href="https://github.com/saikumarysk/MOOCs">Online Course Certifications</a>
+    #   items:
+    #       - Coursera - Proactive Computer Security, Discrete Mathematics, Machine Learning, Deep Learning Specialization
+    #       - edX - Operating Systems, Computer Networks
 
 - title: Experience
   type: time_table
@@ -41,34 +53,34 @@
     - title: Research Internship
       institution: UC Santa Barbara, Guide - <a href="https://sites.google.com/site/prabhanjanva/">Prof. Prabhanjan Ananth</a>
       year: Jun 2022 - Present
-      description:
-        - Designed an efficient, novel public-key functional encryption scheme for specific functionality in the static collusion bound model whose time complexity and size of the ciphertexts are linear in the static query bound.
-        - Designed a new, efficient unbounded-collusion private-key functional encryption for the same functionality.
-        - Currently optimizing the private-key functional encryption scheme using secure multi-party computation.
-        - Implementing the public and private key FE schemes using optimal blocks for efficient execution in C/C++.
-        - Surveyed FHE based Private Machine Learning protocols and the feasibility of optimal FE-based solutions.
-        - A paper based on the work will be published soon at an undecided conference. Work to be included as part of master's dissertation.
+      # description:
+      #   - Designed an efficient, novel public-key functional encryption scheme for specific functionality in the static collusion bound model whose time complexity and size of the ciphertexts are linear in the static query bound.
+      #   - Designed a new, efficient unbounded-collusion private-key functional encryption for the same functionality.
+      #   - Currently optimizing the private-key functional encryption scheme using secure multi-party computation.
+      #   - Implementing the public and private key FE schemes using optimal blocks for efficient execution in C/C++.
+      #   - Surveyed FHE based Private Machine Learning protocols and the feasibility of optimal FE-based solutions.
+      #   - A paper based on the work will be published soon at an undecided conference. Work to be included as part of master's dissertation.
     - title: Member Technical Staff
       institution: Oracle R&D India, Bengaluru, India
       year: Jun 2018 - Jul 2021
-      description:
-        - Head of Database and RAC infrastructure upgrade in Oracle Public Cloud that includes Autonomous Database (ADB-D), Exadata Cloud at Customer(ExaCC), Exadata Cloud Services(ExaCS), ADB-D on ExaCC cloud offerings.
-        - Fixed 50+ business-critical bugs in Database security, VM shape-scale performance issues, Database upgrade, RAC Infrastructure upgrade, Database Home Backup & Recovery, and Dataguard reliability.
-        - Completed 10+ individually initiated projects used by several industry pioneers.
-        - Drafted a document about Python security measures, which cloud software developers should use.
-        - Designed and implemented parallel VM upgrades and database patching to decrease the time by over 80%.
-    - title: Software Engineering Intern
-      institution: Qualcomm Inc, Hyderabad, India
-      year: May 2017 - Jul 2017
-      description:
-        - Implemented various finite-state automaton techniques using Python, which improved the workflow time of 4G LTE testing and log parsing automation on on-chip devices of Qualcomm 205 Mobile by 31%.
-        - Completed 6 testing scenarios involving signal scattering, re-establishment, etc., in 2 months.
-    - title: GUI Platform Development Intern
-      institution: Detect Technologies, Chennai, India
-      year: May 2016 - Jul 2016
-      description:
-        - Worked on raw data visualization for real-time health monitoring for gas pipelines based on the backscattering signature of ultrasonic waves produced by magnetostrictive sensors.
-        - Using WxPython, generated a GUI application for the same. Used three.js for website model rendering.
+      # description:
+      #   - Head of Database and RAC infrastructure upgrade in Oracle Public Cloud that includes Autonomous Database (ADB-D), Exadata Cloud at Customer(ExaCC), Exadata Cloud Services(ExaCS), ADB-D on ExaCC cloud offerings.
+      #   - Fixed 50+ business-critical bugs in Database security, VM shape-scale performance issues, Database upgrade, RAC Infrastructure upgrade, Database Home Backup & Recovery, and Dataguard reliability.
+      #   - Completed 10+ individually initiated projects used by several industry pioneers.
+      #   - Drafted a document about Python security measures, which cloud software developers should use.
+      #   - Designed and implemented parallel VM upgrades and database patching to decrease the time by over 80%.
+    # - title: Software Engineering Intern
+    #   institution: Qualcomm Inc, Hyderabad, India
+    #   year: May 2017 - Jul 2017
+    #   description:
+    #     - Implemented various finite-state automaton techniques using Python, which improved the workflow time of 4G LTE testing and log parsing automation on on-chip devices of Qualcomm 205 Mobile by 31%.
+    #     - Completed 6 testing scenarios involving signal scattering, re-establishment, etc., in 2 months.
+    # - title: GUI Platform Development Intern
+    #   institution: Detect Technologies, Chennai, India
+    #   year: May 2016 - Jul 2016
+    #   description:
+    #     - Worked on raw data visualization for real-time health monitoring for gas pipelines based on the backscattering signature of ultrasonic waves produced by magnetostrictive sensors.
+    #     - Using WxPython, generated a GUI application for the same. Used three.js for website model rendering.
 
 #- title: Technical Skills
 #  type: map

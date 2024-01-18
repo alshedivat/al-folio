@@ -1,53 +1,25 @@
-- title: Current Teaching Assistantship Positions
+- title: Teaching Assistantship Positions at UW-Madison
+  type: time_table
+  contents:
+    - title: COMP SCI 536 - Introduction to Programming Languages and Compilers
+      institution: Instructor - <a href="https://pages.cs.wisc.edu/~hasti/">Beck Hasti</a>
+      year: Spring 2024
+    - title: COMP SCI 435 - Introduction to Cryptography
+      institution: Instructor - <a href="https://pages.cs.wisc.edu/~jha/">Prof. Somesh Jha</a>
+      year: Fall 2023
+
+- title: Teaching Assistantship Positions at UC Santa Barbara
   type: time_table
   contents:
     - title: CMPSC 138 - Automata and Formal Languages
-      institution: UC Santa Barbara, Instructor - <a href="https://hardekbc.github.io/">Prof. Ben Hardekopf</a>
+      institution: Instructor - <a href="https://hardekbc.github.io/">Prof. Ben Hardekopf</a>
       year: Spring 2023
-      description:
-        - Handling class forum on Slack, organizing discussion sessions, grading, hosting office hours.
-
-- title: Previous Teaching Assistantship Positions
-  type: time_table
-  contents:
     - title: <a href="https://github.com/johnrgilbert/CS111-2023-winter/">CMPSC 111 - Introduction to Computational Science</a>
-      institution: UC Santa Barbara, Instructor - <a href="https://sites.cs.ucsb.edu/~gilbert/">Prof. John Gilbert</a>
+      institution: Instructor - <a href="https://sites.cs.ucsb.edu/~gilbert/">Prof. John Gilbert</a>
       year: Winter 2023
-      description:
-        - Handling class forum on Piazza, organizing discussion sessions, grading, hosting office hours.
     - title: <a href="https://sites.cs.ucsb.edu/~vigoda/130A/">CMPSC 130A - Data Structures and Graph Algorithms</a>
-      institution: UC Santa Barbara, Instructor - <a href="https://sites.cs.ucsb.edu/~vigoda/">Prof. Eric Vigoda</a>
+      institution: Instructor - <a href="https://sites.cs.ucsb.edu/~vigoda/">Prof. Eric Vigoda</a>
       year: Fall 2022
-      description:
-        - I handle the class forum on EdStem. I also designed the project questions on Kattis.
-        - Other responsibilities include grading, hosting office hours, and discussion sessions.
-    - title: <a href="https://ucsb-csw8.github.io/m22-ykk/">CMPSCW 8 - Introduction to Computer Science</a>
-      institution: UC Santa Barbara, Instructor - <a href="http://yekaterina.info/">Prof. Yekaterina(Kate) Kharitonova</a>
-      year: Summer B 2022
-      description:
-        - <strong>Lead TA</strong>. I also handled the class forum on Piazza. Designed final project.
-        - Other responsibilities include grading, hosting office hours, classroom sessions, and lab sessions.
-    - title: <a href="https://ucsb-csw8.github.io/m22-shereen/">CMPSCW 8 - Introduction to Computer Science</a>
-      institution: UC Santa Barbara, Instructor - Shereen Elsayed
-      year: Summer A 2022
-      description:
-        - I handled the class forum on Piazza. Designed final project.
-        - Other responsibilities include grading, hosting office hours, and lab sessions.
-    - title: <a href="https://ucsb-csw8.github.io/s22">CMPSCW 8 - Introduction to Computer Science</a>
-      institution: UC Santa Barbara, Instructor - <a href="http://yekaterina.info/">Prof. Yekaterina(Kate) Kharitonova</a>
-      year: Spring 2022
-      description:
-        - <strong>Lead TA</strong>. I also handled the class forum on Piazza.
-        - Other responsibilities include grading, hosting office hours, and lab sessions.
-    - title: <a href="https://ucsb-csw8.github.io/w22">CMPSCW 8 - Introduction to Computer Science</a>
-      institution: UC Santa Barbara, Instructor - <a href="http://yekaterina.info/">Prof. Yekaterina(Kate) Kharitonova</a>
-      year: Winter 2022
-      description:
-        - I handled the class forum on Piazza.
-        - Other responsibilities include grading, hosting office hours, and lab sessions.
     - title: CMPSCW 8 - Introduction to Computer Science
-      institution: UC Santa Barbara, Instructor - <a href="http://yekaterina.info/">Prof. Yekaterina(Kate) Kharitonova</a>
-      year: Fall 2021
-      description:
-        - I handled the class forum on CampusWire. Designed the final project.
-        - Other responsibilities include grading, hosting office hours, and lab sessions.
+      institution: Instructor - <a href="http://yekaterina.info/">Prof. Yekaterina(Kate) Kharitonova</a>, Shereen Elsayed
+      year: Fall 2021 - Summer 2022
