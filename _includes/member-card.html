@@ -1,0 +1,35 @@
+<div class="col">
+    <div class="card h-100">
+        <img src="{%- if member.image %}{{ member.image | relative_url }}{% else %}{{ 'assets/members/profile-placeholder.png' | relative_url }}{% endif %}" class="card-img-top" alt="{{ member.name }}'s Profile Picture">
+        <div class="card-body">
+            <h5 class="card-title">{{ member.name }}</h5>
+            {% if member.pronouns %}
+                <p class="card-text"><small class="text-muted">{{ member.pronouns }}</small></p>
+            {% endif %}
+            <p class="card-text">{{ member.position }}</p>
+            <p class="card-text">{{ member.description | markdownify }}</p>
+            {% if member.start-date %}
+                <p class="card-text"><small class="text-muted">Joined the lab on {{ member.start-date }}</small></p>
+            {% endif %}
+        </div>
+        <div class="card-footer">
+            <div class="d-flex justify-content-center">
+                {% if member.email %}<a class="mr-1 text-dark" href="mailto:{{ member.email | encode_email }}"><i class="fas fa-envelope"></i></a>{% endif %}
+                {% if member.orcid_id %}<a class="mr-1 text-dark" href="https://orcid.org/{{ member.orcid_id }}" target="_blank" title="ORCID"><i class="fab fa-orcid""></i></a>{% endif %}
+                {% if member.scholar_userid %}<a class="mr-1 text-dark" href="https://scholar.google.com/citations?user={{ member.scholar_userid }}" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>{% endif %}
+                {% if member.research_gate_profile %}<a class="mr-1 text-dark" href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" target="_blank" title="ResearchGate"><i class="fab fa-researchgate"></i></a>{% endif %}
+                {% if member.github_username %}<a class="mr-1 text-dark" href="https://github.com/{{ member.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>{% endif %}
+                {% if member.linkedin_username %}<a class="mr-1 text-dark" href="https://www.linkedin.com/in/{{ member.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %}
+                {% if member.twitter_username %}<a class="mr-1 text-dark" href="https://twitter.com/{{ member.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>{% endif %}
+                {% if member.medium_username %}<a class="mr-1 text-dark" href="https://medium.com/@{{ member.medium_username }}" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>{% endif %}
+                {% if member.quora_username %}<a class="mr-1 text-dark" href="https://www.quora.com/profile/{{ member.quora_username }}" target="_blank" title="Quora"><i class="fab fa-quora"></i></a>{% endif %}
+                {% if member.blogger_url %}<a class="mr-1 text-dark" href="{{ member.blogger_url }}" target="_blank" title="Blogger"><i class="fab fa-blogger-b"></i></a>{% endif %}
+                {% if member.work_url %}<a class="mr-1 text-dark" href="{{ member.work_url }}" target="_blank" title="Work"><i class="fas fa-briefcase"></i></a>{% endif %}
+                {% if member.wikidata_id %}<a class="mr-1 text-dark" href="https://www.wikidata.org/wiki/{{ member.wikidata_id }}" target="_blank" title="Wikidata"><i class="fas fa-barcode"></i></a>{% endif %}
+                {% if member.strava_userid %}<a class="mr-1 text-dark" href="https://www.strava.com/athletes/{{ member.strava_userid }}" target="_blank" title="Strava"><i class="fab fa-strava"></i></a>{% endif %}
+                {% if member.keybase_username %}<a class="mr-1 text-dark" href="https://keybase.io/{{ member.keybase_username }}" target="_blank" title="Keybase"><i class="fab fa-keybase"></i></a>{% endif %}
+                {% if member.gitlab_username %}<a class="mr-1 text-dark" href="https://gitlab.com/{{ member.gitlab_username }}" target="_blank" title="GitLab"><i class="fab fa-gitlab"></i></a>{% endif %}
+            </div>
+        </div>
+    </div>
+</div>
