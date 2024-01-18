@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 title: Biostat 203A midterm (UCLA)
 description: a project with a background image
 pdf: Xiong_Hanbei_CV.pdf
