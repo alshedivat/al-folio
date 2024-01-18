@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Delano @ <a href="https://www.cin.ufpe.br/">CIn/UFPE</a> and <a href="#">Palmares/IFPE</a>
+description: Delano @ <a href="https://www.palmares.ifpe.edu.br/">Palmares/IFPE</a> and <a href="https://www.cin.ufpe.br/">CIn/UFPE</a>
 
 profile:
   align: right
