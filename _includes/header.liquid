@@ -112,31 +112,20 @@
   
             <!-- My Blog -->
             <li class="nav-item {% if page.permalink == '/past' %}active{% endif %}">
-            <li class="nav-item {% if page.permalink == '/past' %}active{% endif %}">
-              <a class="nav-link" href="https://blog.alerezaa.ir/">Blog➚
               <a class="nav-link" href="https://blog.alirezad.ir/">Blog➚
                 {%- if page.permalink == '/past' -%}
-                {%- if page.permalink == '/past' -%}
-                <span class="sr-only">(current)</span>
                 <span class="sr-only">(current)</span>
                 {%- endif -%}
-                {%- endif -%}
-  
-            <!-- My CV -->
-            <!-- My CV -->
-            <li class="nav-item {% if page.permalink == '/past' %}active{% endif %}">
-            <li class="nav-item {% if page.permalink == '/past' %}active{% endif %}">
-              <a class="nav-link" href="https://cv.alerezaa.ir/">CV➚
-              <a class="nav-link" href="https://cv.alirezad.ir/">CV➚
-                {%- if page.permalink == '/my-online-cv' -%}
-                {%- if page.permalink == '/my-online-cv' -%}
-                <span class="sr-only">(current)</span>
-                <span class="sr-only">(current)</span>
-                {%- endif -%}
-                {%- endif -%}
-              </a>
               </a>
             </li>
+  
+            <!-- My CV -->
+            <li class="nav-item {% if page.permalink == '/past' %}active{% endif %}">
+              <a class="nav-link" href="https://cv.alirezad.ir/">CV➚
+                {%- if page.permalink == '/my-online-cv' -%}
+                <span class="sr-only">(current)</span>
+                {%- endif -%}
+              </a>
             </li>
 
           {% if site.enable_darkmode %}
