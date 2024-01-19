@@ -438,3 +438,28 @@
   abbr = {Big Data},
   bibtex_show = {True}
 }
+
+@article{2023cppless,
+  title={Cppless: Productive and Performant Serverless Programming in C++},
+  author={Lukas M\"oller and Marcin Copik and Alexandru Calotoiu and Torsten Hoefler},
+  year={2023},
+  pdf = {2023_cppless_paper.pdf},
+  abstract = {The rise of serverless introduced a new class of scalable, elastic and highly
+available parallel workers in the cloud. Many systems and applications benefit
+from offloading computations and parallel tasks to dynamically allocated
+resources. However, the developers of C++ applications found it difficult to
+integrate functions due to complex deployment, lack of compatibility between
+client and cloud environments, and loosely typed input and output data. To
+enable single-source and efficient serverless acceleration in C++, we introduce
+Cppless, an end-to-end framework for implementing serverless functions which
+handles the creation, deployment, and invocation of functions. Cppless is built
+on top of LLVM and requires only two compiler extensions to automatically
+extract C++ function objects and deploy them to the cloud. We demonstrate that
+offloading parallel computations from a C++ application to serverless workers
+can provide up to 30x speedup, requiring only minor code modifications and
+costing less than one cent per computation.
+  },
+  abbr = {arXiv},
+  year = {2023},
+  bibtex_show = {True}
+}

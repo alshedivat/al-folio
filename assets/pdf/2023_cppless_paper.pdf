@@ -1,0 +1,140 @@
+\PassOptionsToPackage{svgnames}{xcolor}
+%\PassOptionsToPackage{numbers,sort&compress}{natbib}
+\documentclass[sigconf,nonacm,author]{acmart}
+%\documentclass[conference]{IEEEtran}
+%\IEEEoverridecommandlockouts
+
+
+\usepackage{adjustbox}
+\usepackage{multirow}
+%\usepackage{cite}
+\let\Bbbk\relax
+\usepackage{amsmath,amssymb,amsfonts}
+\let\Bbbk\relax
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{hyperref} 
+\usepackage{url}
+
+\usepackage{tikz}
+\usepackage{adjustbox}
+\usetikzlibrary{fit,positioning,arrows}
+
+\makeatletter
+\begingroup\endlinechar=-1\relax
+       \everyeof{\noexpand}%
+       \edef\x{\endgroup\def\noexpand\homepath{%
+         \@@input|"kpsewhich --var-value=HOME" }}\x
+\makeatother
+\def\overleafhome{/tmp}
+
+%\ifx\homepath\overleafhome
+%  \usepackage[outputdir=../]{minted}
+%\else
+%  \usepackage{minted}
+%\fi
+%\usepackage[finalizecache,cachedir=minted-cache]{minted}
+\usepackage[frozencache,cachedir=minted-cache]{minted}
+
+
+\let\Bbbk\relax
+\usepackage{import}
+\ifx\homepath\overleafhome
+  \subimport{latex-tools-overleaf/}{config.tex}
+  \subimport{latex-tools-overleaf/}{includes.tex}
+\else
+  \subimport{latex-tools-overleaf/}{config.tex}
+  \subimport{latex-tools/}{includes.tex}
+\fi
+
+\newcommand{\toolname}{\emph{Cppless}\xspace}
+\collabAuthor{copik}{blue}{MC}
+\collabAuthor{lex}{green}{Lex}
+\collabAuthor{htor}{red}{htor}
+\collabAuthor{lukas}{black}{Lukas}
+
+\definecolor{gold}{RGB}{153,102,51}
+\definecolor{gray}{RGB}{118,113,113}
+\definecolor{bg}{RGB}{238, 238, 238}
+
+\author{Lukas Möller}
+\affiliation{%
+  \institution{ETH Zurich}
+  \country{Switzerland}
+}
+
+\author{Marcin Copik}
+\affiliation{%
+  \institution{ETH Zurich}
+  \country{Switzerland}
+}
+
+\author{Alexandru Calotoiu}
+\affiliation{%
+  \institution{ETH Zurich}
+  \country{Switzerland}
+}
+
+\author{Torsten Hoefler}
+\affiliation{%
+  \institution{ETH Zurich}
+  \country{Switzerland}
+}
+
+\begin{document}
+
+\title{Cppless: Productive and Performant Serverless Programming~in~C++}
+
+\begin{abstract}
+%
+The rise of serverless introduced a new class of scalable, elastic and highly available parallel workers in the cloud.
+%
+Many systems and applications benefit from offloading computations and parallel tasks to dynamically allocated resources.
+%
+However, the developers of C++ applications found it difficult to integrate functions due to complex deployment, lack of compatibility between client and cloud environments,
+and loosely typed input and output data.
+%
+To enable single-source and efficient serverless acceleration in C++, we introduce \toolname{}, an end-to-end framework for implementing remote functions which handles the creation, deployment, and invocation of serverless functions.
+%
+\toolname{} is built on top of LLVM and requires only two compiler extensions to automatically extract C++ function objects and deploy them to the cloud.
+%
+We demonstrate that offloading parallel computations from a C++ application to serverless workers can provide up to 30x speedup, requiring only minor code modifications and costing less than one cent per computation.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+\input{secs/introduction}
+
+\section{Background}
+\input{secs/background}
+
+\section{Compiler for Serverless}
+\input{secs/design}
+
+\section{Implementation}
+\input{secs/implementation}
+
+\section{Evaluation}
+\input{secs/evaluation}
+
+\section{Conclusions}
+\input{secs/conclusions}
+
+\section*{Acknowledgment}
+%
+This project has received funding from EuroHPC-JU
+under grant agreements DEEP-SEA, No 95560, and RED-SEA, No 055776.
+%
+This work was partially supported by the ETH Future Computing Laboratory (EFCL), financed by a donation from Huawei Technologies.
+%
+We thank Amazon Web Services for supporting this research with credits through the AWS Cloud Credit for Research program.
+
+%\bibliographystyle{IEEEtran}
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{serverless,cppless}
+
+\end{document}
+\endinput
