@@ -11,30 +11,29 @@
 - title: Education
   type: time_table
   contents:
+    - title: P.h.D Economics
+      institution: Universidad de los Andes
+      year: 2023-Expected 2028
+
     - title: M.A. Economics
       institution: Universidad de los Andes
-      year: 2022
+      year: 2020-2022
     - title: B.Sc. Economics
       institution: Universidad de los Andes
-      year: 2020
+      year: 2016-2020
 
 - title: Experience
   type: time_table
   contents:
     - title: Pre Doctoral Fellow
       institution: Columbia University
-      year: 2021 -
+      year: Sep 2021 - July 2023
       description: Research Fellow under the direction of Prof. Réka Juhász and Prof. Michael Best.
 
     - title: Research Assistant
       institution: Universidad de los Andes
       year: 2020-2021
       description: Research Assistant for Prof. Juan Sebastián Galán.
-
-    - title: Intern
-      institution: Banco de la República (Central Bank of Colombia)
-      year: jul 2019 - dec 2019
-      description: Intern (Research Assistant) for Prof. José Antonio Ocampo, member of the Board of Directors of Banco de la República,
 
 # - title: Open Source Projects
 #   type: time_table
@@ -43,12 +42,12 @@
 #       year: 2015-now
 #       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Awards
-  type: time_table
-  contents:
-    - year: 2020
-      items:
-        - Best results in Colombia’s national test on the quality of higher education (SABER PRO), Economics, awarded by Colombia’s Ministry of Education.
+# - title: Awards
+#   type: time_table
+#   contents:
+#     - year: 2020
+#       items:
+#         - Best results in Colombia’s national test on the quality of higher education (SABER PRO), Economics, awarded by Colombia’s Ministry of Education.
 
 - title: Academic Interests
   type: nested_list
