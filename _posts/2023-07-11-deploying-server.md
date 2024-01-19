@@ -20,16 +20,16 @@ Typically, the server comes with a default user named after the vendor, in my in
 sudo useradd -d "/home/<user_name>" -m -s "/bin/bash" <user_name>
 ```
 
-- ``-d "/volume1/home/<user_name>"`` will set ``/volume1/home/<user_name>`` as home directory of the new Ubuntu account.
-- ``-m`` will create the user’s home directory.
-- ``-s "/bin/bash"``will set ``/bin/bash`` as login shell of the new account.
-  This command will create a regular account ``<user_name>``. If you want ``<user_name>`` to have root privileges, type:
+- `-d "/volume1/home/<user_name>"` will set `/volume1/home/<user_name>` as home directory of the new Ubuntu account.
+- `-m` will create the user’s home directory.
+- `-s "/bin/bash"`will set `/bin/bash` as login shell of the new account.
+  This command will create a regular account `<user_name>`. If you want `<user_name>` to have root privileges, type:
 
 ```bash
 sudo useradd -d "/home/<user_name>" -m -s "/bin/bash" -G sudo <user_name>
 ```
 
-- ``-G sudo`` ensures ``<user_name>`` to have admin access to the system.
+- `-G sudo` ensures `<user_name>` to have admin access to the system.
 
 To set the password of the new account, conduct:
 
@@ -79,14 +79,14 @@ This is my `PS1` value. Save the `.bashrc` file, close your current terminal and
 
 ## Enable remote access
 
-If you wish to access the server from outside its physical location, you need to enable remote access. In my case, I connected the server to the campus network, allowing me to access it from any location within the campus. To enable remote access, you need to install the ``openssh-server``:
+If you wish to access the server from outside its physical location, you need to enable remote access. In my case, I connected the server to the campus network, allowing me to access it from any location within the campus. To enable remote access, you need to install the `openssh-server`:
 
 ```bash
 sudo apt update
 sudo apt install openssh-server
 ```
 
-If the firewall ``UFW`` is enabled, make sure to open the SSH port:
+If the firewall `UFW` is enabled, make sure to open the SSH port:
 
 ```bash
 sudo ufw allow ssh
@@ -114,7 +114,7 @@ chown <user_name>:<user_name> -R /home/<user_name>
 
 ## Connect to GitHub
 
-I suppose you already have a GitHub account. Install ``git`` first:
+I suppose you already have a GitHub account. Install `git` first:
 
 ```bash
 sudo apt install git
@@ -136,7 +136,7 @@ cd ~/.ssh
 vim id_rsa.pub  # open the id_rsa.pub file
 ```
 
-Finally, copy the text in ``id_rsa.pub``, log in GitHub, and create an SSH key at ``Settings`` &rarr; ``SSH and GPG keys`` &rarr; ``New SSH key``.
+Finally, copy the text in `id_rsa.pub`, log in GitHub, and create an SSH key at `Settings` &rarr; `SSH and GPG keys` &rarr; `New SSH key`.
 
 Test the connection:
 
@@ -148,7 +148,7 @@ ssh -T git@github.com
 
 ### Install Anaconda
 
-Just follow the [official installation guide](https://docs.anaconda.com/free/anaconda/install/linux/). I prefer install anaconda at ``/usr/local/anaconda3``. You don't need to create this folder in advance. During the installation you will have chance to specify the installation directory.
+Just follow the [official installation guide](https://docs.anaconda.com/free/anaconda/install/linux/). I prefer install anaconda at `/usr/local/anaconda3`. You don't need to create this folder in advance. During the installation you will have chance to specify the installation directory.
 
 To initialize conda, conduct
 
@@ -160,7 +160,7 @@ and reopen the terminal.
 
 ### Create/delete environments
 
-I recommend creating new environments and installing site packages with root privileges (``sudo su``) to restrict regular users from modifying the environments. If a regular user wants to update an environment, they should contact the system administrator for assistance. If he/she doesn't and conduct a command secretly like
+I recommend creating new environments and installing site packages with root privileges (`sudo su`) to restrict regular users from modifying the environments. If a regular user wants to update an environment, they should contact the system administrator for assistance. If he/she doesn't and conduct a command secretly like
 
 ```bash
 conda update --all
@@ -189,11 +189,11 @@ The command for creating new environment is:
 conda create --name <new_env_name> python=3.11 --no-default-packages
 ```
 
-- ``--name <new_env_name>`` will set the name of the new environment.
-- ``python=3.11`` means conda will install python 3.11 in the new environment.
-- ``--no-default-packages`` will only install python. No other site packages will be included.
+- `--name <new_env_name>` will set the name of the new environment.
+- `python=3.11` means conda will install python 3.11 in the new environment.
+- `--no-default-packages` will only install python. No other site packages will be included.
 
-I did not modify the ``base`` environment and proceeded to create two new environments: ``jupyter`` and ``bio``. ``jupyter`` only contains packages related to jupyterhub, while ``bio`` encompasses all the necessary packages for research purposes.
+I did not modify the `base` environment and proceeded to create two new environments: `jupyter` and `bio`. `jupyter` only contains packages related to jupyterhub, while `bio` encompasses all the necessary packages for research purposes.
 
 If you wish to delete an environment for any reason, utilize the following command:
 
@@ -205,7 +205,7 @@ conda remove --name <env_name> --all
 
 #### Mamba
 
-Before install other python packages, I recommend to install ``conda-libmamba-solver`` first, which is a faster solver:
+Before install other python packages, I recommend to install `conda-libmamba-solver` first, which is a faster solver:
 
 ```bash
 conda update -n <env_name> conda
@@ -217,7 +217,7 @@ The plugin needs to be present in the same environment you use `conda` from; mos
 
 #### JupyterHub
 
-You may want to use ``JupyterHub``.
+You may want to use `JupyterHub`.
 
 ```bash
 conda install -c conda-forge jupyterhub jupyterlab notebook jupyter-lsp-python jupyterlab-lsp
@@ -247,7 +247,7 @@ conda install ipykernel  # if the env doesn't contain this package
 python -m ipykernel install --name <kernel_name>
 ```
 
-These commands add ``<env_name>`` environment as a kernel with name ``<kernel_name>``. If your Python is 3.11, you may need to modify the last command:
+These commands add `<env_name>` environment as a kernel with name `<kernel_name>`. If your Python is 3.11, you may need to modify the last command:
 
 ```bash
 python -Xfrozen_modules=off -m ipykernel install --name bio
@@ -262,7 +262,7 @@ jupyter kernelspec uninstall <kernel_name>
 
 #### Other packages
 
-Our research involves deep learning, so I need to install ``pytorch`` and ``tensorflow`` along with other required packages:
+Our research involves deep learning, so I need to install `pytorch` and `tensorflow` along with other required packages:
 
 ```bash
 conda install -c pytorch -c nvidia -c conda-forge scvi-tools tensorflow torchvision torchaudio
@@ -270,9 +270,9 @@ conda install -c conda-forge scanpy squidpy ipykernel ipywidgets rpy2 opencv bio
 conda install -c conda-forge xgboost lightgbm catboost
 ```
 
-Note: ``pytorch`` and ``pytorch-lightning`` are dependencies of ``scvi-tools`` so you don't need to install these two packages again.
+Note: `pytorch` and `pytorch-lightning` are dependencies of `scvi-tools` so you don't need to install these two packages again.
 
-Sometimes you may use ``conda search <package_name>`` to search for a package with a specific build number. To install a specific version/build of a certain packages, conduct:
+Sometimes you may use `conda search <package_name>` to search for a package with a specific build number. To install a specific version/build of a certain packages, conduct:
 
 ```bash
 conda install <package_name>=<version>=<build_string>
@@ -280,7 +280,7 @@ conda install <package_name>=<version>=<build_string>
 
 #### Check pytorch/tensorflow
 
-If you are also a user of ``pytorch`` or ``tensorflow`` and you have one or more available GPU(s), you can execute the following codes to verify whether the GPU(s) can be recognized and utilized by the respective deep learning frameworks:
+If you are also a user of `pytorch` or `tensorflow` and you have one or more available GPU(s), you can execute the following codes to verify whether the GPU(s) can be recognized and utilized by the respective deep learning frameworks:
 
 ```python
 import torch
@@ -296,7 +296,7 @@ print(torch.cuda.get_device_name(0))
 print(tf.config.list_physical_devices('GPU'))
 ```
 
-Here I also provide a script to ensure that ``pytorch`` can use the GPU(s) to train and test neural networks:
+Here I also provide a script to ensure that `pytorch` can use the GPU(s) to train and test neural networks:
 
 ```python
 import torch
@@ -319,12 +319,12 @@ transform = transforms.Compose([
 
 # download the CIFAR-10 dataset
 train_dataset = torchvision.datasets.CIFAR10(root='data/',
-                                             train=True, 
+                                             train=True,
                                              transform=transform,
                                              download=True)
 
 test_dataset = torchvision.datasets.CIFAR10(root='data/',
-                                            train=False, 
+                                            train=False,
                                             transform=transforms.ToTensor())
 
 # load data
@@ -339,14 +339,14 @@ train_loader = torch.utils.data.DataLoader(dataset=train_dataset,
 test_loader = torch.utils.data.DataLoader(dataset=test_dataset,
                                           batch_size=batch_size,
                                           num_workers=4,
-                                          pin_memory=True, 
-                                          prefetch_factor=4, 
+                                          pin_memory=True,
+                                          prefetch_factor=4,
                                           persistent_workers=True,
                                           shuffle=False)
 
 # 3x3 convolution kernel
 def conv3x3(in_channels, out_channels, stride=1):
-    return nn.Conv2d(in_channels, out_channels, kernel_size=3, 
+    return nn.Conv2d(in_channels, out_channels, kernel_size=3,
                      stride=stride, padding=1, bias=False)
 
 # define the residual block
@@ -359,7 +359,7 @@ class ResidualBlock(nn.Module):
         self.conv2 = conv3x3(out_channels, out_channels)
         self.bn2 = nn.BatchNorm2d(out_channels)
         self.downsample = downsample
-  
+
     def forward(self, x):
         residual = x
         out = self.conv1(x)
@@ -386,7 +386,7 @@ class ResNet(nn.Module):
         self.layer3 = self.make_layer(block, 64, layers[2], 2)
         self.avg_pool = nn.AvgPool2d(8)
         self.fc = nn.Linear(64, num_classes)
-  
+
     def make_layer(self, block, out_channels, blocks, stride=1):
         downsample = None
         if (stride != 1) or (self.in_channels != out_channels):
@@ -399,7 +399,7 @@ class ResNet(nn.Module):
         for i in range(1, blocks):
             layers.append(block(out_channels, out_channels))
         return nn.Sequential(*layers)
-  
+
     def forward(self, x):
         out = self.conv(x)
         out = self.bn(out)
@@ -411,7 +411,7 @@ class ResNet(nn.Module):
         out = out.view(out.size(0), -1)
         out = self.fc(out)
         return out
-  
+
 
 model = ResNet(ResidualBlock, [2, 2, 2]).to(device)
 # model = nn.DataParallel(model)  # uncomment this line if you have multiple GPUs
@@ -422,7 +422,7 @@ criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
 # function for the update of learning rate
-def update_lr(optimizer, lr):  
+def update_lr(optimizer, lr):
     for param_group in optimizer.param_groups:
         param_group['lr'] = lr
 
@@ -433,16 +433,16 @@ for epoch in range(num_epochs):
     for i, (images, labels) in enumerate(train_loader):
         images = images.to(device)
         labels = labels.to(device)
-  
+
         # forward step
         outputs = model(images)
         loss = criterion(outputs, labels)
-  
+
         # backward step
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
-  
+
         # report every 10 steps
         if (i+1) % 10 == 0:
             print ("Epoch [{}/{}], Step [{}/{}] Loss: {:.4f}"
@@ -485,21 +485,21 @@ watch -n 0.2 nvidia-smi
 
 ### Install R
 
-Refer to [this website](https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-22-04) for instructions on adding the external repository maintained by CRAN for ``APT`` and subsequently installing ``R``.
+Refer to [this website](https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-22-04) for instructions on adding the external repository maintained by CRAN for `APT` and subsequently installing `R`.
 
 ### Install RStudio
 
-Follow the [official installation guide](https://posit.co/download/rstudio-server/). This should be easier than installing ``JupyterHub``.
+Follow the [official installation guide](https://posit.co/download/rstudio-server/). This should be easier than installing `JupyterHub`.
 
 ### Install R packages
 
-As an example, let's install one of the most famous R package in the field of single-cell genomics, [``Seurat``](https://satijalab.org/seurat/index.html). Before the installation, you need to install some system-level dependencies first:
+As an example, let's install one of the most famous R package in the field of single-cell genomics, [`Seurat`](https://satijalab.org/seurat/index.html). Before the installation, you need to install some system-level dependencies first:
 
 ```bash
 sudo apt install cmake pandoc pandoc-citeproc libcurl4-openssl-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev imagemagick libmagick++-dev libhdf5-dev libgsl-dev libssl-dev
 ```
 
-Then the process of installing ``Seurat`` should be very smooth:
+Then the process of installing `Seurat` should be very smooth:
 
 ```r
 chooseCRANmirror(graphics=FALSE)
@@ -520,13 +520,13 @@ When running `devtools::install_github()`, you may encounter an error complainin
 usethis::create_github_token()
 ```
 
-Run this code and log in to your GitHub account. Click ``Settings`` &rarr; ``Developer settings`` &rarr; ``Personal access token`` &rarr; ``Tokens (classic)`` and generate a token. Run
+Run this code and log in to your GitHub account. Click `Settings` &rarr; `Developer settings` &rarr; `Personal access token` &rarr; `Tokens (classic)` and generate a token. Run
 
 ```r
 usethis::edit_r_environ()
 ```
 
-to open the ``.Renviron`` file, in which type
+to open the `.Renviron` file, in which type
 
 ```text
 GITHUB_PAT=<your_personal_key>

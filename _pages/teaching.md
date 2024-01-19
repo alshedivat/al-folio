@@ -7,5 +7,5 @@ nav: true
 nav_order: 3
 ---
 
-- [STA2001](https://www.cuhk.edu.cn/en/course/8104): Probability and Statistics I (*Spring 2023*).
-- [STA2003](https://www.cuhk.edu.cn/en/course/8733): Probability (*Fall 2022*).
+- [STA2001](https://www.cuhk.edu.cn/en/course/8104): Probability and Statistics I (_Spring 2023_).
+- [STA2003](https://www.cuhk.edu.cn/en/course/8733): Probability (_Fall 2022_).

@@ -8,10 +8,9 @@ categories: mathematics
 featured: true
 toc:
   sidebar: left
-
 ---
-The [Perron-Frobenius Theorem](https://en.wikipedia.org/wiki/Perron%E2%80%93Frobenius_theorem) establishes powerful assertions about the eigenvalues and eigenvectors of certain types of matrices that are non-negative, which are incredibly insightful when dealing with dynamical systems, economics, demography, and beyond. This post offers an accessible proof of the theorem, which is carefully curated from lecture contents of CIE6002 Matrix Analysis.
 
+The [Perron-Frobenius Theorem](https://en.wikipedia.org/wiki/Perron%E2%80%93Frobenius_theorem) establishes powerful assertions about the eigenvalues and eigenvectors of certain types of matrices that are non-negative, which are incredibly insightful when dealing with dynamical systems, economics, demography, and beyond. This post offers an accessible proof of the theorem, which is carefully curated from lecture contents of CIE6002 Matrix Analysis.
 
 ## Notations
 
@@ -22,7 +21,7 @@ The [Perron-Frobenius Theorem](https://en.wikipedia.org/wiki/Perron%E2%80%93Frob
 
 ## The theorem
 
-Let $$\boldsymbol{A} \in \mathbb{R}^{n \times n}$$ be positive. That is, $$\boldsymbol{A}_{ij} > 0, \forall 1 \le i,j \le m$$. The *spectral radius* is defined as
+Let $$\boldsymbol{A} \in \mathbb{R}^{n \times n}$$ be positive. That is, $$\boldsymbol{A}_{ij} > 0, \forall 1 \le i,j \le m$$. The _spectral radius_ is defined as
 
 $$\rho(\boldsymbol{A}) = \max_{i} |\lambda_i|$$
 
@@ -39,11 +38,13 @@ where $$\lambda_i$$ is the $$i$$-th eigenvalue of $$\boldsymbol{A}$$. Then
 
 **Proof:** Let $$\boldsymbol{Av} = \lambda \boldsymbol{v}$$ with $$\lvert\lambda\rvert = \rho(\boldsymbol{A})$$. Let $$\boldsymbol{V} = \boldsymbol{v} \boldsymbol{1}^\top \in \mathbb{R}^{m \times m}$$. Then
 
-$$\begin{align*}
+$$
+\begin{align*}
     &\boldsymbol{AV} = \lambda \boldsymbol{V} \\
     \Rightarrow &\Vert\boldsymbol{AV}\Vert = \lvert \lambda \rvert \cdot \Vert\boldsymbol{V}\Vert \le \Vert\boldsymbol{A}\Vert \cdot \Vert\boldsymbol{V}\Vert \\
     \Rightarrow & \lvert \lambda \rvert = \rho(\boldsymbol{A}) \le \Vert\boldsymbol{A}\Vert.
-\end{align*}$$
+\end{align*}
+$$
 
 ---
 
@@ -51,7 +52,8 @@ $$\begin{align*}
 
 **Proof:** The Schur triangularization of $$\boldsymbol{A}$$ is $$\boldsymbol{A} = \boldsymbol{UTU}^\top$$, where $$\boldsymbol{U}$$ is unitary and diagonals $$\lambda_1, \ldots, \lambda_m$$ of $$\boldsymbol{T}$$ are eigenvalues of $$\boldsymbol{A}$$. Define
 
-$$\begin{align*}
+$$
+\begin{align*}
     \Vert\boldsymbol{A}\Vert
     &\triangleq \Vert(\boldsymbol{UD}_t^{-1})^{-1}\boldsymbol{A}(\boldsymbol{UD}_t^{-1})\Vert_1 \\
     &= \Vert\boldsymbol{D}_t \boldsymbol{U}^\top \boldsymbol{AUD}_t^{-1}\Vert_1 \\
@@ -64,7 +66,8 @@ $$\begin{align*}
          &  &  &  & \lambda_m
     \end{bmatrix}\Vert_1 \\
     &\le \rho(\boldsymbol{A}) + \varepsilon \quad \text{for large}\ t
-\end{align*}$$
+\end{align*}
+$$
 
 where $$\boldsymbol{D}_t = \begin{bmatrix}
    t^1 &  &  & \\
@@ -93,20 +96,22 @@ $$\rho(\boldsymbol{A}) \le \rho(\boldsymbol{\vert A \vert}) \le \rho(\boldsymbol
 
 **Proof:**
 
-$$\begin{align*}
+$$
+\begin{align*}
   &\boldsymbol{A} \le \boldsymbol{\vert A \vert} \le \boldsymbol{B} \\ \Rightarrow& \boldsymbol{A}^k \le \boldsymbol{\vert A \vert}^k \le \boldsymbol{B}^k \\
   \Rightarrow& \Vert \boldsymbol{A}^k \Vert_F \le \Vert \boldsymbol{\vert A \vert}^k \Vert_F \le \Vert \boldsymbol{B}^k \Vert_F \\
   \Rightarrow& \Vert \boldsymbol{A}^k \Vert_F^{1/k} \le \Vert \boldsymbol{\vert A \vert}^k \Vert_F^{1/k} \le \Vert \boldsymbol{B}^k \Vert_F^{1/k} \\
   \Rightarrow& \rho(\boldsymbol{A}) \le \rho(\boldsymbol{\vert A \vert}) \le \rho(\boldsymbol{B}).
-\end{align*}$$
+\end{align*}
+$$
 
 The last step is given by Theorem 1.
 
-**Corollary 4.1:** Let $$\boldsymbol{A} \ge \boldsymbol{0}$$  element-wise. Then for any principal submatrix of $$\boldsymbol{A}$$, denoted as $$\tilde{\boldsymbol{A}}$$, we have $$\rho(\tilde{\boldsymbol{A}}) \le \rho(\boldsymbol{A}) \Rightarrow \max_{i} \boldsymbol{A}_{ii} \le \rho(\boldsymbol{A})$$.
+**Corollary 4.1:** Let $$\boldsymbol{A} \ge \boldsymbol{0}$$ element-wise. Then for any principal submatrix of $$\boldsymbol{A}$$, denoted as $$\tilde{\boldsymbol{A}}$$, we have $$\rho(\tilde{\boldsymbol{A}}) \le \rho(\boldsymbol{A}) \Rightarrow \max_{i} \boldsymbol{A}_{ii} \le \rho(\boldsymbol{A})$$.
 
 ---
 
-**Lemma 5:** Let $$\boldsymbol{A} \ge \boldsymbol{0}$$  element-wise. If row (column) sums of $$\boldsymbol{A}$$ are constant, then $$\rho(\boldsymbol{A}) = \Vert \boldsymbol{A} \Vert_\infty$$ ($\rho(\boldsymbol{A}) = \Vert \boldsymbol{A} \Vert_1$).
+**Lemma 5:** Let $$\boldsymbol{A} \ge \boldsymbol{0}$$ element-wise. If row (column) sums of $$\boldsymbol{A}$$ are constant, then $$\rho(\boldsymbol{A}) = \Vert \boldsymbol{A} \Vert_\infty$$ ($\rho(\boldsymbol{A}) = \Vert \boldsymbol{A} \Vert_1$).
 
 **Proof:** Suppose $$\boldsymbol{A1} = \alpha \boldsymbol{1}$$ where $$\alpha \ge 0$$ is the row sum, and thus is an eigenvalue of $$\boldsymbol{A}$$. So $$\alpha \le \rho(\boldsymbol{A})$$. But $$\alpha = \Vert \boldsymbol{A} \Vert_\infty \ge \rho(\boldsymbol{A})$$, so $$\rho(\boldsymbol{A}) = \Vert \boldsymbol{A} \Vert_\infty.$$ The column sum case is similar.
 
@@ -140,14 +145,17 @@ $$[\vert \boldsymbol{Ax} \vert]_i = \left\vert \sum_{j=1}^m \boldsymbol{A}_{ik} 
 
 For any $$\boldsymbol{x}_k \in \mathbb{C}, \boldsymbol{x}_k = \vert \boldsymbol{x}_k \vert e^{j\theta_k} = \vert \boldsymbol{x}_k \vert \cos(\theta_k) + \vert \boldsymbol{x}_k \vert \sin(\theta_k) \cdot j$$. So
 
-$$\begin{align*}
+$$
+\begin{align*}
   &\left\vert \sum_{j=1}^m \boldsymbol{A}_{ik} \boldsymbol{x}_k \right\vert = \sum_{k=1}^m \boldsymbol{A}_{ik} \vert \boldsymbol{x}_k \vert \\
   \Rightarrow& \left(\sum_{j=1}^m \boldsymbol{A}_{ik} \boldsymbol{x}_k\right) e^{-j\theta} = \sum_{k=1}^m \boldsymbol{A}_{ik} \boldsymbol{x}_k e^{-j\theta_k} \\
   \Rightarrow& \sum_{j=1}^m \boldsymbol{A}_{ik} \boldsymbol{x}_k e^{-j\theta} = \sum_{k=1}^m \boldsymbol{A}_{ik} \boldsymbol{x}_k e^{-j\theta_k} \\
   \Rightarrow& \theta_k = \theta, k=1, \ldots, m.
-\end{align*}$$
+\end{align*}
+$$
 
 ## Some theorems
+
 **Theorem 1:** $$\rho(\boldsymbol{A}) = \lim_{k \to \infty} \Vert \boldsymbol{A}^k \Vert^{1/k}$$ for any matrix norm.
 
 **Proof:** The aim is to show $$0 \le \Vert \boldsymbol{A}^k \Vert^{1/k} - \rho(\boldsymbol{A}) \le \varepsilon$$ for large $$k$$.
@@ -164,7 +172,8 @@ $$\min_{i = 1, \ldots, m} \frac{1}{\boldsymbol{x}_i}\sum_{j=1}^m \boldsymbol{A}_
 
 **Proof:** Define $$\bar{\boldsymbol{A}} \triangleq \boldsymbol{S}^{-1}\boldsymbol{A}\boldsymbol{S}$$, where
 
-$$\boldsymbol{S} = \begin{bmatrix}
+$$
+\boldsymbol{S} = \begin{bmatrix}
    \boldsymbol{x}_1 &  &  & \\
    & \boldsymbol{x}_2 &  & \\
    &  &  \ddots & \\
@@ -174,21 +183,24 @@ $$\boldsymbol{S} = \begin{bmatrix}
    & \frac{1}{\boldsymbol{x}_2} &  & \\
    &  &  \ddots & \\
    &  &   & \frac{1}{\boldsymbol{x}_m}
- \end{bmatrix}.$$
+ \end{bmatrix}.
+$$
 
 $$\rho(\bar{\boldsymbol{A}}) = \rho(\boldsymbol{A})$$ as $$\bar{\boldsymbol{A}}$$ and $$\boldsymbol{A}$$ have same eigenvalues. Apply Lemma 6 to $$\bar{\boldsymbol{A}}$$.
 
 **Corollary 2.1:** For any $$\boldsymbol{A} \ge \boldsymbol{0}$$ element-wise and $$\boldsymbol{x} > \boldsymbol{0}$$ element-wise, if
 
- $$$\alpha \boldsymbol{x} \le \boldsymbol{Ax} \le \beta \boldsymbol{x}$$
+$$$\alpha \boldsymbol{x} \le \boldsymbol{Ax} \le \beta \boldsymbol{x}$$
 
- where $$\alpha, \beta \ge 0$$. Then $$\alpha \le \rho(\boldsymbol{A}) \le \beta$$. If the inequality is strict, $$\alpha < \rho(\boldsymbol{A}) < \beta$$.
+where $$\alpha, \beta \ge 0$$. Then $$\alpha \le \rho(\boldsymbol{A}) \le \beta$$. If the inequality is strict, $$\alpha < \rho(\boldsymbol{A}) < \beta$$.
 
 **Proof:**
 
-$$\begin{align*}
+$$
+\begin{align*}
   \alpha \boldsymbol{x}_i \le \sum_{j=1}^m \boldsymbol{A}_{ij}\boldsymbol{x}_j \Rightarrow \alpha \le \frac{1}{\boldsymbol{x}_i} \sum_{j=1}^m \boldsymbol{A}_{ij}\boldsymbol{x}_j \Rightarrow \alpha \le \min_{i = 1, \ldots, m} \frac{1}{\boldsymbol{x}_i}\sum_{j=1}^m \boldsymbol{A}_{ij} \boldsymbol{x}_j \le \rho(\boldsymbol{A}).
-\end{align*}$$
+\end{align*}
+$$
 
 $$\rho(\boldsymbol{A}) \le \beta$$ is similar.
 
@@ -204,13 +216,15 @@ $$\rho(\boldsymbol{A}) \le \beta$$ is similar.
 
 - If $$\boldsymbol{y} \equiv \boldsymbol{0}$$, i.e., $$\rho(\boldsymbol{A}) \vert \boldsymbol{x} \vert = \boldsymbol{A} \vert \boldsymbol{x} \vert$$ element-wise: since $$\boldsymbol{A} \vert \boldsymbol{x} \vert > \boldsymbol{0}$$ element-wise and $$0 < \rho(\boldsymbol{A})$$, $$\vert \boldsymbol{x} \vert > \boldsymbol{0}$$ element-wise.
 - If $$\boldsymbol{y}_i > 0$$ for some $$i$$, let $$\boldsymbol{z} \triangleq \boldsymbol{A} \vert \boldsymbol{x} \vert > \boldsymbol{0}$$ element-wise. Then
-  
-$$\begin{align*}
+
+$$
+\begin{align*}
   &\boldsymbol{0} < \boldsymbol{Ay} = \boldsymbol{A}(\boldsymbol{A} \vert \boldsymbol{x} \vert - \rho(\boldsymbol{A}) \vert \boldsymbol{x} \vert)
   = \boldsymbol{Az} - \rho(\boldsymbol{A}) \boldsymbol{z} \\
   \Rightarrow& \rho(\boldsymbol{A}) \boldsymbol{z} < \boldsymbol{Az} \\
   \Rightarrow& \rho(\boldsymbol{A}) < \rho(\boldsymbol{A})\qquad \text{by Corollary 2.1}
-\end{align*}$$
+\end{align*}
+$$
 
 which is a contradiction. So $$\boldsymbol{y} \equiv \boldsymbol{0}$$.
 
@@ -226,11 +240,13 @@ which is a contradiction. So $$\boldsymbol{y} \equiv \boldsymbol{0}$$.
 
 **Proof:** By Lemma 7, $$\exists\ \theta_1, \theta_2$$ s.t. $$\boldsymbol{q} = \vert \boldsymbol{w} \vert = e^{-j\theta_1} \boldsymbol{w} > \boldsymbol{0}, \boldsymbol{p} = \vert \boldsymbol{z} \vert = e^{-j\theta_2} \boldsymbol{z} > \boldsymbol{0}$$. By Theorem 3 $$\boldsymbol{Aq} = \rho(\boldsymbol{A})\boldsymbol{q}, \boldsymbol{Ap} = \rho(\boldsymbol{A})\boldsymbol{p}$$. Let $$\beta = \min_{i=1,\ldots, m} \frac{\boldsymbol{q}_i}{\boldsymbol{p}_i}$$ and $$\boldsymbol{r} = \boldsymbol{q} - \beta \boldsymbol{p} \ge \boldsymbol{0}$$ with $$\boldsymbol{r}_j = 0$$ for some $$j$$. Then
 
-$$\begin{align*}
+$$
+\begin{align*}
   \boldsymbol{Ar} &= \boldsymbol{Aq} - \beta \boldsymbol{Ap}\\
   &= \rho(\boldsymbol{A})\boldsymbol{q} - \beta \rho(\boldsymbol{A})\boldsymbol{p}\\
   &= \rho(\boldsymbol{A})\boldsymbol{r}
-\end{align*}$$
+\end{align*}
+$$
 
 - If $$\boldsymbol{r} \equiv \boldsymbol{0}$$, then $$\boldsymbol{q} = \beta \boldsymbol{p}$$.
 - If $$\boldsymbol{r}_k > 0$$ for some $$k$$, then $$\boldsymbol{Ar} = \rho(\boldsymbol{A})\boldsymbol{r}>\boldsymbol{0} \Rightarrow \boldsymbol{r} > \boldsymbol{0}$$ which is a contradiction.
@@ -238,7 +254,8 @@ $$\begin{align*}
 So $$\boldsymbol{r} = \boldsymbol{0} \Rightarrow \boldsymbol{q} = \beta \boldsymbol{p} \Rightarrow \boldsymbol{w} = \alpha \boldsymbol{z}$$.
 
 ## An application
-**Irreducible matrix:** Let $$\boldsymbol{A} \in \mathbb{R}^{m \times m}, \boldsymbol{A} \ge \boldsymbol{0}$$ element-wise. $$\boldsymbol{A}$$ is *irreducible* if for each index $$(i, j), \exists\ k \in \mathbb{N}^+$$ s.t. $$[\boldsymbol{A}^k]_{ij} > 0$$.
+
+**Irreducible matrix:** Let $$\boldsymbol{A} \in \mathbb{R}^{m \times m}, \boldsymbol{A} \ge \boldsymbol{0}$$ element-wise. $$\boldsymbol{A}$$ is _irreducible_ if for each index $$(i, j), \exists\ k \in \mathbb{N}^+$$ s.t. $$[\boldsymbol{A}^k]_{ij} > 0$$.
 
 **Subinvariance Theorem:** Let $$\boldsymbol{A} \ge \boldsymbol{0}$$ be irreducible. Suppose for some $$\boldsymbol{y} \ge \boldsymbol{0}, \boldsymbol{y} \ne \boldsymbol{0}$$ and $$s > 0$$, we have $$\boldsymbol{Ay} \le s\boldsymbol{y}$$. Then
 
@@ -247,16 +264,19 @@ So $$\boldsymbol{r} = \boldsymbol{0} \Rightarrow \boldsymbol{q} = \beta \boldsym
 3. $$\rho(\boldsymbol{A}) = s \iff \boldsymbol{Ay} = s\boldsymbol{y}$$.
 
 **Proof:**
+
 1. Suppose $$\boldsymbol{y}_i = 0$$ for some $$i$$, then $$0 \le [\boldsymbol{Ay}]_i \le s \cdot 0 = 0 \Rightarrow [\boldsymbol{Ay}]_i = 0$$. Let $$\boldsymbol{z} \triangleq \boldsymbol{Ay}$$, then $$\boldsymbol{Az} \le s \boldsymbol{Ay} = s \boldsymbol{z}$$. As $$\boldsymbol{z}_i = [\boldsymbol{Ay}]_i = 0, [\boldsymbol{Az}]_i = 0$$. Repeat this and we get $$[\boldsymbol{A}^k\boldsymbol{y}]_i = 0$$ for any $$k$$. But for $$k$$ large enough $$\boldsymbol{A}^k > \boldsymbol{0}$$ which is a contradiction.
 2. Corollary 2.1.
 3. The "$$\Leftarrow$$" part is from Corollary 2.1 so we only need to prove the "$$\Rightarrow$$" part. Suppose $$[\boldsymbol{Ay}]_i < s \boldsymbol{y}_i$$ for some $$i$$. Define $$\boldsymbol{z} = s \boldsymbol{y} - \boldsymbol{Ay} \ge \boldsymbol{0}$$ and $$\boldsymbol{z} \ne \boldsymbol{0}$$. For $$k$$ large enough, $$\boldsymbol{A}^k \boldsymbol{z} = s \boldsymbol{A}^k\boldsymbol{y} - \boldsymbol{A}^k\boldsymbol{Ay} = s \boldsymbol{x} - \boldsymbol{Ax} > \boldsymbol{0}$$ where $$\boldsymbol{x} = \boldsymbol{A}^k \boldsymbol{y} > \boldsymbol{0}$$. So $$\boldsymbol{Ax} < s \boldsymbol{x} \Rightarrow \rho(\boldsymbol{A}) < s = \rho(\boldsymbol{A})$$ by Corollary 2.1, which is a contradiction.
 
-**Power control in wireless network:** $$\boldsymbol{A} \ge \boldsymbol{0}$$  and is irreducible. $$\boldsymbol{p}, \boldsymbol{b} \in \mathbb{R}^m$$ and $$\boldsymbol{b} \ge \boldsymbol{0}$$. Suppose $$\boldsymbol{A}, \boldsymbol{b}$$ are known, then
+**Power control in wireless network:** $$\boldsymbol{A} \ge \boldsymbol{0}$$ and is irreducible. $$\boldsymbol{p}, \boldsymbol{b} \in \mathbb{R}^m$$ and $$\boldsymbol{b} \ge \boldsymbol{0}$$. Suppose $$\boldsymbol{A}, \boldsymbol{b}$$ are known, then
 
-$$\begin{cases}
+$$
+\begin{cases}
   \boldsymbol{Ap} + \boldsymbol{b} \le \boldsymbol{p}  \\
   \boldsymbol{p} \ge \boldsymbol{0}
-\end{cases}$$
+\end{cases}
+$$
 
 is feasible w.r.t $$\boldsymbol{p} \iff \rho(\boldsymbol{A}) < 1$$.
 
