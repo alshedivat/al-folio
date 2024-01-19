@@ -3,7 +3,8 @@ layout: page
 title: cppless, serverless for C++
 description: Single-source model for productive serverless programming in C++
 img: /assets/img/cppless/main_logo.png
-paper: 2023cppless
+paper1: 2023cppless
+paper1_description: Preprint
 github: spcl/cppless
 github2: spcl/cppless-clang
 importance: 7
