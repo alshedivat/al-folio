@@ -140,7 +140,7 @@ plugins:
   - jekyll-feed
   - jekyll-github-metadata
   - jekyll-paginate-v2
-  - jekyll-responsive-image
+  # - jekyll-responsive-image
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-target-blank
