@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Python quirks 3
+title: Python lists and tuples
 date: 2024-01-20 11:59:00-0400
-description: Lists and tuples
+description: Third post in the Python series
 tags: comments
 categories: python coding
 giscus_comments: true

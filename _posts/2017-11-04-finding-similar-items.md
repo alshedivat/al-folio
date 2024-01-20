@@ -1,8 +1,8 @@
 ---
 layout: post
-title: finding similar documents
+title: Finding similar documents
 date: 2017-11-04 11:59:00-0400
-description: a fast algorithm to quickly scan over the corpus
+description: A fast algorithm to quickly scan over the corpus
 tags: comments
 categories: sample-posts external-services
 giscus_comments: true

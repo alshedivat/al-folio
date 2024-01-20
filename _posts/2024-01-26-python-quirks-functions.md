@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Python quirks 4
+title: Python functions
 date: 2024-01-26 11:59:00-0400
-description: Functions
+description: Fourth post in the Python series
 tags: comments
 categories: python coding
 giscus_comments: true
