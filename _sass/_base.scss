@@ -182,7 +182,7 @@ blockquote {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-family: inherit;
 
     p {
       display: inline-block;
@@ -660,7 +660,7 @@ footer.sticky-bottom {
     padding-top: 1rem;
     margin-top: 2rem;
     margin-bottom: -2rem;
-    text-align: right;
+    text-align: left;
   }
 
   ol.bibliography {
@@ -704,9 +704,11 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        text-align: justify;
       }
 
       .author {
+        text-align: justify;
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
