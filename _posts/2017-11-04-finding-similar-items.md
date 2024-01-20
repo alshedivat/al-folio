@@ -4,7 +4,7 @@ title: Finding similar documents
 date: 2017-11-04 11:59:00-0400
 description: A fast algorithm to quickly scan over the corpus
 tags: comments
-categories: sample-posts external-services
+categories: local-sensitivity-hashing document-similarity
 giscus_comments: true
 related_posts: false
 ---

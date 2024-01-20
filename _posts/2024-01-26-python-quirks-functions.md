@@ -11,6 +11,44 @@ related_posts: false
 
 While reading the book "Effective Python: 90 Specific Ways to Write Better Python" I discovered a few interesting behaviors about Python funcions. I list some of them below.
 
+# Function's arguments: mutable vs. immutable
+
+Python has two kinds of data types, mutable and immutable, which respectively can and cannot be modified after being created. Mutable data types include lists, dictionaries and sets; immutable data types, int, float, bool, string and tuples. This distiction has implications when different datatypes are passed to functions as arguments. When an immutable datatype is passed, Python creates a copy and assigns it to a new variable. Hence, the original variable does not get affected:
+
+```python
+def sum_five(a: int):
+    a += 5
+    return a
+
+a = 3
+b = sum_five(a)
+print(f"a = {a}")
+print(f"b = {b}")
+```
+```
+a = 3
+b = 8
+```
+
+Mutable types, on the other hand, are passed by reference. In other words, the function will operate on the same object that existed outside of the function:
+
+```python
+def append_three(input: list):
+    input.append(3)
+    return input
+
+a = [1, 2]
+b = append_three(a)
+print(f"a = {a}")
+print(f"b = {b}")
+```
+```
+a = [1, 2, 3]
+b = [1, 2, 3]
+```
+
+# Scopes
+
 # Functions as first-class citizens
 
 In Python, functions are first-class citizens. In other words, they can:
