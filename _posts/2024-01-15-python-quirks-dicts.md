@@ -4,7 +4,7 @@ title: Python dictionaries
 date: 2024-01-15 11:59:00-0400
 description: Second post in the Python series
 tags: comments
-categories: python coding
+categories: python coding dictionaries
 giscus_comments: true
 related_posts: false
 ---

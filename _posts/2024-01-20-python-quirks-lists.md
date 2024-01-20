@@ -4,7 +4,7 @@ title: Python lists and tuples
 date: 2024-01-20 11:59:00-0400
 description: Third post in the Python series
 tags: comments
-categories: python coding
+categories: python coding lists tuples
 giscus_comments: true
 related_posts: false
 ---
