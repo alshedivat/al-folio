@@ -75,19 +75,6 @@ print(message)
 Hello, World!
 ```
 
-# Unpacking to swap values in place
-
-We can use unpacking to swap multiple of a list in place, without requiring additional temporary variables:
-
-
-```python
-x = [1, 2, 3]
-x[1], x[0] = x[0], x[1]
-print(x)
-```
-```
-[2, 1, 3]
-```
 
 # `enumerate` with an offset
 
@@ -242,31 +229,6 @@ print(animals)
 ```
 ```
 [Animal(possum, 2.5), Animal(lion, 200), Animal(sea lion, 200), Animal(whale, 100000)]
-```
-
-# A class' instance dictionary
-
-Every class in Python has a builtin `__dict__` method that stores its writable attributes:
-
-```python
-class Animal:
-
-    # attributes defined at the class level, but not assigned to any instance won't show
-    phyla = "metazoan"
-
-    def __init__(self, name, weight):
-        self.name = name
-        self.weight = weight
-        
-        # private attributes will show with an altered name
-        self.__favorite = True
-
-whale = Animal("whale", 100000)
-
-print(whale.__dict__)
-```
-```
-{'name': 'whale', 'weight': 100000, '_Animal__favorite': True}
 ```
 
 # References

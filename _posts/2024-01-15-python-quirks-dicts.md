@@ -130,6 +130,31 @@ print(ingredients)
 {'lettuces': 1, 'tomatoes': 2, 'carrots': 3}
 ```
 
+# A class' instance dictionary
+
+Every class in Python has a builtin `__dict__` method that stores its writable attributes:
+
+```python
+class Animal:
+
+    # attributes defined at the class level, but not assigned to any instance won't show
+    phyla = "metazoan"
+
+    def __init__(self, name, weight):
+        self.name = name
+        self.weight = weight
+        
+        # private attributes will show with an altered name
+        self.__favorite = True
+
+whale = Animal("whale", 100000)
+
+print(whale.__dict__)
+```
+```
+{'name': 'whale', 'weight': 100000, '_Animal__favorite': True}
+```
+
 # References
 
 * B. Slatkin, Effective Python: 90 Specific Ways to Write Better Python.
