@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: I'm new to GitHub, but not data work! I'm working on building out more public repositories, as well as a portfolio tab on this website to showcase not-on-GitHub projects. 
+description: I'm working on building out more public repositories, as well as a portfolio tab on this website to showcase not-on-GitHub projects. 
 nav: true
 nav_order: 4
 ---
