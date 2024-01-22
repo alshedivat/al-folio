@@ -1,14 +1,14 @@
-name: Prettier code formatter (PR)
+name: Prettier code formatter
 
 on:
   pull_request:
     branches:
       - master
       - main
-  workflow_dispatch:
-
-permissions: 
-  pull-requests: write
+  push:
+    branches:
+      - master
+      - main
 
 jobs:
   check:
@@ -32,9 +32,10 @@ jobs:
           git diff -- . ':(exclude)package-lock.json' ':(exclude)package.json' > diff.txt
           npm install -g diff2html-cli
           diff2html -i file -s side -F diff.html -- diff.txt
-      - name: PR comment with html diff
-        # https://docs.github.com/en/actions/learn-github-actions/expressions#failure-with-conditions
+      - name: Upload html diff
         if: ${{ failure() && steps.prettier.conclusion == 'failure' }}
-        uses: thollander/actions-comment-pull-request@v2
+        uses: actions/upload-artifact@v4
         with:
-          filePath: diff.html
+          name: HTML Diff
+          path: diff.html
+          retention-days: 3
