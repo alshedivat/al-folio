@@ -1,4 +1,4 @@
-name: Feature request
+name: 🚀 Feature request
 description: Propose a feature for this project
 labels: ["needs triage", "enhancement"]
 body:
@@ -16,7 +16,7 @@ body:
     attributes:
       label: Have you checked that your feature request isn't already filed?
       description: >
-        Please check if somebody else has already filed the same feature request.
+        Please check if somebody else has already filed the same 🚀 feature request.
         If you find a similar feature request, please add a 👍 reaction or comment on the original post.
       options:
         - label: I read through [FAQ](../../FAQ.md) and searched through the [past issues](https://github.com/alshedivat/al-folio/issues), none of which addressed my feature request.
@@ -27,7 +27,7 @@ body:
   - type: textarea
     attributes:
       label: Description & Motivation
-      description: A clear and concise description of the feature proposal
+      description: A clear and concise description of the 🚀 feature proposal
       placeholder: |
         Please outline the motivation for the proposal.
         Is your feature request related to a problem? e.g., I'm always frustrated when [...].
