@@ -7,6 +7,9 @@ on:
       - main
   workflow_dispatch:
 
+permissions: 
+  pull-requests: write
+
 jobs:
   check:
     # available images: https://github.com/actions/runner-images#available-images
