@@ -1,84 +1,146 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+# 2023
+@inproceedings{hagstrom-etal-2023-effect,
+    title = "The Effect of Scaling, Retrieval Augmentation and Form on the Factual Consistency of Language Models",
+    author = {Hagstr{\"o}m, Lovisa  and
+      Saynova, Denitsa  and
+      Norlund, Tobias  and
+      Johansson, Moa  and
+      Johansson, Richard},
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.332",
+    doi = "10.18653/v1/2023.emnlp-main.332",
+    pages = "5457--5476",
+    abstract = "Large Language Models (LLMs) make natural interfaces to factual knowledge, but their usefulness is limited by their tendency to deliver inconsistent answers to semantically equivalent questions. For example, a model might supply the answer {``}Edinburgh{''} to {``}Anne Redpath passed away in X.{''} and {``}London{''} to {``}Anne Redpath{'}s life ended in X.{''} In this work, we identify potential causes of inconsistency and evaluate the effectiveness of two mitigation strategies: up-scaling and augmenting the LM with a passage retrieval database. Our results on the LLaMA and Atlas models show that both strategies reduce inconsistency but that retrieval augmentation is considerably more efficient. We further consider and disentangle the consistency contributions of different components of Atlas. For all LMs evaluated we find that syntactical form and task artifacts impact consistency. Taken together, our results provide a better understanding of the factors affecting the factual consistency of language models.",
+}
+@inproceedings{doostmohammadi-etal-2023-surface,
+    title = "Surface-Based Retrieval Reduces Perplexity of Retrieval-Augmented Language Models",
+    author = "Doostmohammadi, Ehsan  and
+      Norlund, Tobias  and
+      Kuhlmann, Marco  and
+      Johansson, Richard",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-short.45",
+    doi = "10.18653/v1/2023.acl-short.45",
+    pages = "521--529",
+    abstract = "Augmenting language models with a retrieval mechanism has been shown to significantly improve their performance while keeping the number of parameters low. Retrieval-augmented models commonly rely on a semantic retrieval mechanism based on the similarity between dense representations of the query chunk and potential neighbors. In this paper, we study the state-of-the-art Retro model and observe that its performance gain is better explained by surface-level similarities, such as token overlap. Inspired by this, we replace the semantic retrieval in Retro with a surface-level method based on BM25, obtaining a significant reduction in perplexity. As full BM25 retrieval can be computationally costly for large datasets, we also apply it in a re-ranking scenario, gaining part of the perplexity reduction with minimal computational overhead.",
+}
+@inproceedings{norlund-etal-2023-generalization,
+    title = "On the Generalization Ability of Retrieval-Enhanced Transformers",
+    author = "Norlund, Tobias  and
+      Doostmohammadi, Ehsan  and
+      Johansson, Richard  and
+      Kuhlmann, Marco",
+    editor = "Vlachos, Andreas  and
+      Augenstein, Isabelle",
+    booktitle = "Findings of the Association for Computational Linguistics: EACL 2023",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-eacl.109",
+    doi = "10.18653/v1/2023.findings-eacl.109",
+    pages = "1485--1493",
+    abstract = "Recent work on the Retrieval-Enhanced Transformer (RETRO) model has shown impressive results: off-loading memory from trainable weights to a retrieval database can significantly improve language modeling and match the performance of non-retrieval models that are an order of magnitude larger in size. It has been suggested that at least some of this performance gain is due to non-trivial generalization based on both model weights and retrieval. In this paper, we try to better understand the relative contributions of these two components. We find that the performance gains from retrieval to a very large extent originate from overlapping tokens between the database and the test data, suggesting less of non-trivial generalization than previously assumed. More generally, our results point to the challenges of evaluating the generalization of retrieval-augmented language models such as RETRO, as even limited token overlap may significantly decrease test-time loss. We release our code and model at \url{https://github.com/TobiasNorlund/retro}",
+}
+@inproceedings{farahani-johansson-2023-empirical,
+    title = "An Empirical Study of Multitask Learning to Improve Open Domain Dialogue Systems",
+    author = "Farahani, Mehrdad  and
+      Johansson, Richard",
+    editor = {Alum{\"a}e, Tanel  and
+      Fishel, Mark},
+    booktitle = "Proceedings of the 24th Nordic Conference on Computational Linguistics (NoDaLiDa)",
+    month = may,
+    year = "2023",
+    address = "T{\'o}rshavn, Faroe Islands",
+    publisher = "University of Tartu Library",
+    url = "https://aclanthology.org/2023.nodalida-1.36",
+    pages = "347--357",
+    abstract = "Autoregressive models used to generate responses in open-domain dialogue systems often struggle to take long-term context into account and to maintain consistency over a dialogue. Previous research in open-domain dialogue generation has shown that the use of \textit{auxiliary tasks} can introduce inductive biases that encourage the model to improve these qualities. However, most previous research has focused on encoder-only or encoder/decoder models, while the use of auxiliary tasks in \textit{encoder-only} autoregressive models is under-explored. This paper describes an investigation where four different auxiliary tasks are added to small and medium-sized GPT-2 models fine-tuned on the PersonaChat and DailyDialog datasets. The results show that the introduction of the new auxiliary tasks leads to small but consistent improvement in evaluations of the investigated models.",
+}
+@inproceedings{saynova-etal-2023-class,
+    title = "Class Explanations: the Role of Domain-Specific Content and Stop Words",
+    author = "Saynova, Denitsa  and
+      Bruinsma, Bastiaan  and
+      Johansson, Moa  and
+      Johansson, Richard",
+    editor = {Alum{\"a}e, Tanel  and
+      Fishel, Mark},
+    booktitle = "Proceedings of the 24th Nordic Conference on Computational Linguistics (NoDaLiDa)",
+    month = may,
+    year = "2023",
+    address = "T{\'o}rshavn, Faroe Islands",
+    publisher = "University of Tartu Library",
+    url = "https://aclanthology.org/2023.nodalida-1.12",
+    pages = "103--112",
+    abstract = "We address two understudied areas related to explainability for neural text models. First, \textit{class explanations}. What features are descriptive across a class, rather than explaining single input instances? Second, the \textit{type of features} that are used for providing explanations. Does the explanation involve the statistical pattern of word usage or the presence of domain-specific content words? Here, we present a method to extract both class explanations and strategies to differentiate between two types of explanations {--} domain-specific signals or statistical variations in frequencies of common words. We demonstrate our method using a case study in which we analyse transcripts of political debates in the Swedish Riksdag.",
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+# 2022
+# 2021
+# 2020
+# 2019
+# 2018
+# 2017
+# 2016
+# 2015
+# 2014
+# 2013
+# 2012
+# 2011
+# 2010
+# 2009
+# 2008
+# 2007
+# 2006
+# 2005
+# 2004
+@inproceedings{johansson2004c,
+  publisher = {},
+  title = {Converting Texts of Road Accidents into 3D Scenes},
+  booktitle = {ECAI 2004, Proceedings of the 16th European Conference on Artificial Intelligence},
+  author = {Richard Johansson and David Williams and Pierre Nugues},
+  month = {August 23-27},
+  editor = {Ramon L\'{o}pez de M\'{a}ntaras and Lorenza Saitta},
+  year = {2004},
+  pages = {1035-1036},
+  address = {Val\`{e}ncia, Spain},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@inproceedings{johansson2004b,
+  publisher = {},
+  title = {{Carsim: A System to Visualize Written Road Accident Reports as Animated {3D} Scenes}},
+  booktitle = {{ACL2004: Second Workshop on Text Meaning and Interpretation}},
+  author = {Richard Johansson and David Williams and Anders Berglund and Pierre Nugues},
+  month = {July 25-26},
+  editor = {Graeme Hirst and Sergei Nirenburg},
+  year = {2004},
+  pages = {57-64},
+  address = {Barcelona, Spain},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{johansson2004a,
+  publisher = {},
+  title = {Carsim: A System to Convert Written Accident Reports into Animated 3D Scenes},
+  booktitle = {Proceedings of the 2nd Joint SAIS/SSLS Workshop Artificial Intelligence and Learning Systems, AILS-04},
+  author = {Richard Johansson and David Williams and Pierre Nugues},
+  month = {April 15-16},
+  year = {2004},
+  pages = {76-86},
+  address = {Lund, Sweden},
 }

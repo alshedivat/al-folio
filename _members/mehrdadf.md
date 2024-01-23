@@ -16,7 +16,7 @@ twitter_username: m3hrdadfi
 medium_username: m3hrdadfi
 blogger_url: "https://www.m3hrdadfi.me"
 description: >
-  I'm interested in natural language processing and representation learning for conversational AI because I believe AI will inevitably affect all aspects of our lives sooner or later, mainly how we communicate and share knowledge.
+  I'm interested in natural language processing and representation learning for conversational AI because I believe AI will inevitably affect all aspects of our lives sooner or later, mainly how we communicate and share knowledge. <br><br>
 
   My PhD at Chalmers University of Technology began in 2022 under Richard Johansson (CTH) and Gabriel Skantze (KTH) supervision. The purpose of my PhD is to explore whether general representations of spoken conversation can be learned through self-supervised learning.
 ---
