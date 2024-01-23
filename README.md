@@ -52,7 +52,7 @@ Once your pull request is submitted, it will be reviewed by the maintainers of t
 
 Thank you for your contributions to the DSAI-NLP GitHub Page. Together, we're building a comprehensive and valuable resource for the NLP community!
 
-_Replace the placeholders such as `your-branch-name` and the commit message with the relevant information for your specific changes. This `README.md` file provides a clear and concise guide for contributors to follow, ensuring a smooth workflow and maintaining the quality of your project's GitHub Page._
+_Replace the placeholders such as `your-branch-name` and the commit message with the relevant information for your specific changes._
 
 ## Adding New Content to the Repository
 
