@@ -60,6 +60,20 @@ body:
       required: false
 
   - type: dropdown
+    id: os
+    attributes:
+      label: What operating system are you using?
+      description: select all OSs where you have experienced this issue
+      multiple: true
+      options:
+        - Linux
+        - Mac
+        - Windows
+        - Not applicable (e.g. you're using GitHub Pages or other hosting)0
+    validations:
+      required: true
+
+  - type: dropdown
     id: environment
     attributes:
       label: Where are you seeing the problem on?
@@ -72,24 +86,12 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: os
-    attributes:
-      label: What operating system are you using?
-      description: select all OSs where you have experienced this issue
-      multiple: true
-      options:
-        - Linux
-        - Mac
-        - Windows
-        - Not applicable
-    validations:
-      required: true
-
   - type: textarea
     attributes:
       label: More info
       description: Add any other info about the issue here.
+      placeholder: |
+        Add any other context about the problem here, such as versions of the libraries if running without docker, screenshots, links to the deployed site, etc.
     validations:
       required: false
 
