@@ -9,27 +9,11 @@ layout: default
             <p class="post-description">{{ page.description }}</p>
           </header>
 
-          <article>
-            <div class="cv">
-              {% for entry in site.data.cv %}
-                <div class="card mt-3 p-3">
-                  <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-                  <div>
-                  {% if entry.type == "list" %}
-                    {% include cv/list.html %}
-                  {% elsif entry.type == "map" %}
-                    {% include cv/map.html %}
-                  {% elsif entry.type == "nested_list" %}
-                    {% include cv/nested_list.html %}
-                  {% elsif entry.type == "time_table" %}
-                   {% include cv/time_table.html %}
-                  {% else %}
-                    {{ entry.contents }}
-                  {% endif %}
-                  </div>
-                </div>
-              {% endfor %}
-              </div>
-          </article>
-
+          <center> 
+            <object data=
+                    "https://alison-campion.github.io/assets/pdf/acampionResume.pdf"
+                    width="800"
+                    height="500"> 
+            </object> 
+          </center> 
         </div>
