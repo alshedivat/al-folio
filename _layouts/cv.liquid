@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<!-- _layouts/cv.html -->
 {% unless site.data.resume %}
   <div class="post">
     <header class="post-header">
@@ -103,6 +104,8 @@ layout: default
                   {% include resume/interests.liquid %}
                 {% when 'certificates' %}
                   {% include resume/certificates.liquid %}
+                {% when 'courses' %}
+                  {% include resume/courses.liquid %}
                 {% when 'references' %}
                   {% include resume/references.liquid %}
                 {% else %}
