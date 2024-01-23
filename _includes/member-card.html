@@ -1,12 +1,10 @@
 <div class="col mb-4">
-<div class="card h-100 member-card d-flex flex-row rounded">
+<div class="card h-100 clickable-card member-card d-flex flex-row rounded" data-toggle="modal" data-target="#memberinfo-{{ forloop.index }}">
     <!-- Member image with modal trigger -->
     <!-- <img src="{%- if member.image %}{{ member.image | relative_url }}{% else %}{{ 'assets/members/placeholder.png' | relative_url }}{% endif %}" class="card-img-top member-image" alt="{{ member.name }}'s Profile Picture" data-toggle="modal" data-target="#memberinfo-{{ forloop.index }}"> -->
     <img src="{%- if member.image %}{{ member.image | relative_url }}{% else %}{{ 'assets/members/placeholder.png' | relative_url }}{% endif %}"
-        class="member-image rounded-left align-self-center" 
-        alt="{{ member.name }}'s Profile Picture" 
-        data-toggle="modal" data-target="#memberinfo-{{ forloop.index }}" 
-        style="width: 120px; height: 120px; object-fit: cover; margin-right: 15px;">
+        class="member-image rounded-left align-self-center member-image-container" 
+        alt="{{ member.name }}'s Profile Picture">
     <div class="card-body align-self-center">
         <h5 class="card-title">{{ member.name }}</h5>
         <p class="card-text">{{ member.position }}</p>
@@ -23,8 +21,8 @@
                     <img src="{%- if member.image %}{{ member.image | relative_url }}{% else %}{{ 'assets/members/placeholder.png' | relative_url }}{% endif %}" 
                         class="float-left d-flex mr-2" 
                         alt="{{ member.name }}'s Profile Picture" 
-                        style="width: 300px; height: 300px;">
-                    <p>{{ member.description | markdownify }}</p>
+                        style="width: 300px;">
+                    {{ member.description | markdownify }}
                     {% if member.start-date %}
                         <p><small class="text-muted">Joined the lab on {{ member.start-date }}</small></p>
                     {% endif %}

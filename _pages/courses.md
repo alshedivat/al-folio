@@ -1,12 +1,22 @@
 ---
 layout: page
-permalink: /courses/
 title: Courses
-description: Materials for courses you taught. Replace this text with your description.
+permalink: /courses/
+description: Offering a dynamic range of courses, workshops, and educational resources for students and professionals in the field of NLP and Data Science.
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+**Welcome to the Courses section of NLP@DSAI!** Our group is committed to delivering cutting-edge education in the field of Natural Language Processing and related areas. Below is a list of courses we offer, designed to equip students with both theoretical knowledge and practical skills.
 
-Organize your courses by years, topics, or universities, however you like!
+#### Courses
+
+- ...
+
+#### Specialized Workshops/Programs
+
+- ...
+
+Each course combines lectures, practical sessions, and project work to ensure a comprehensive understanding of the subject matter. For more details on course content, schedules, and enrollment, please contact [contact-information]().
+
+Join us in exploring the fascinating world of NLP and data science!
