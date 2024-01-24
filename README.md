@@ -35,10 +35,9 @@ After installing Docker and Docker Compose, follow these steps to run the websit
    docker compose up
    ```
 
-   This command will start a local web server running the website.
+This command will start a local web server running the website.
 
 4. Open your web browser and go to `http://localhost:8080`. You should see the local version of the website running.
-
 
 Now that you have the site running locally, you can begin customizing the theme to suit your needs. 
 
