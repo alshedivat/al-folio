@@ -9,3 +9,19 @@
 "Raji":
   - firstname: ["Inioluwa Deborah", "Deborah", "Deb", "D.", "Inioluwa", "I. D."]
     url: https://twitter.com/rajiinio
+
+"Sandhaus":
+  - firstname: ["Hauke", "H."]
+    url: https://haukesandhaus.de/
+
+"Moss":
+  - firstname: ["Emanuel", "Manny", 'E.']
+    url: https://datasociety.net/people/moss-emanuel/
+
+"Jacobs":
+  - firstname: ["Abigail", "A.", 'Abigail Z.', 'A. Z.']
+    url: https://azjacobs.com/
+
+"Sloane":
+  - firstname: ["Mona", "M."]
+    url: https://www.monasloane.org/
