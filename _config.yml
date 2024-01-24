@@ -121,9 +121,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Unannotated # blog_name will be displayed in your blog page
+blog_name: unannotated # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar TODO maybe remove?
-blog_description: A collection of notes on different topics
+blog_description: A collection of notes
 permalink: /blog/:year/:title/
 
 # Pagination
