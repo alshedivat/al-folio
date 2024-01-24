@@ -3,7 +3,7 @@ layout: page
 permalink: /plots/
 title: Gallery
 description: This is a Gallery of plots that never made it into a publication/thesis, or I created for my own amusement.
-nav: true
+nav: false
 nav_order: 7
 ---
 
