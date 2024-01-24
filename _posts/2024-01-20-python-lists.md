@@ -11,6 +11,13 @@ related_posts: false
 
 While reading the book "Effective Python: 90 Specific Ways to Write Better Python" I discovered a few interesting behaviors about Python lists and tuples. I list some of them below.
 
+# Bg
+
+A list is a mutable datatype. Underlying it, we find a linked list.
+TOCHECK: A list gets an amount of memory allocated.
+The allocated memory grows by 12.5% when the current one is full.
+
+
 # Sorting by complex criteria
 
 The [`list.sort`](https://docs.python.org/3/library/stdtypes.html#list.sort) method orders a list's elements in ascending order. It will work as long as the items have defined the `<` comparison operator, as is the case for floats, integers and strings. However, in some cases that operator might not be implemented, or might not be making the comparison that we care about. The `key` argument is helpful in those cases:

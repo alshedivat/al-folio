@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python dictionaries
+title: Advanced Python - Dictionaries
 date: 2024-01-15 11:59:00-0400
 description: Second post in the Python series
 tags: comments
@@ -10,6 +10,17 @@ related_posts: false
 ---
 
 While reading the book "Effective Python: 90 Specific Ways to Write Better Python" I discovered a few interesting behaviors about Python dictionaries. I list some of them below.
+
+# Dictionaries revisited
+
+A dictionary is a data structure that stores (key, value) pairs. Underlying a dictionary, we find a hash map. Hash maps rely on a *hash* functions that can map the keys to a limited number of buckets. These buckets, in turn, store the values. 
+TOCHECK
+When two keys map to the same bucket, we have a "collision". The first key takes the bucket. The second key, finding its bucket full, will systematically iterate over the remaining buckets until an empty bucket is found.
+
+The hashing process requires that keys are "hashable", i.e., implement a `__hash__()` method. Among the builtin types, that includes strings, numbers and tuples. Keys also require an `__eq__()` method, to handle collisions.
+
+The allocated memory grows by 100% when the current one is 2/3 full.
+
 
 # `dict.setdefault` tries to fetch the value
 
@@ -130,32 +141,8 @@ print(ingredients)
 {'lettuces': 1, 'tomatoes': 2, 'carrots': 3}
 ```
 
-# A class' instance dictionary
-
-Every class in Python has a builtin `__dict__` method that stores its writable attributes:
-
-```python
-class Animal:
-
-    # attributes defined at the class level, but not assigned to any instance won't show
-    phyla = "metazoan"
-
-    def __init__(self, name, weight):
-        self.name = name
-        self.weight = weight
-        
-        # private attributes will show with an altered name
-        self.__favorite = True
-
-whale = Animal("whale", 100000)
-
-print(whale.__dict__)
-```
-```
-{'name': 'whale', 'weight': 100000, '_Animal__favorite': True}
-```
-
 # References
 
+* D. Beazley, [Advanced Python Mastery](https://github.com/dabeaz-course/python-mastery)
 * B. Slatkin, Effective Python: 90 Specific Ways to Write Better Python.
 
