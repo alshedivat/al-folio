@@ -1,10 +1,48 @@
-# DSAI-NLP GitHub Page Contribution Guide
+  # DSAI-NLP GitHub Page Contribution Guide
 
 Welcome to the DSAI-NLP GitHub repository! This guide will walk you through the steps to contribute to our GitHub Page. Whether you're fixing a bug, adding content, or updating existing information, your contributions are invaluable to the success of our project.
 
 ## Important Note for Contributors
 
 When creating pull requests, please ensure you are submitting them to the correct base repository, which is `dsai-nlp/dsai-nlp.github.io`, **not** the original `alshedivat/al-folio` repo from which this project was forked. You can select the base repository when you open a pull request on GitHub. For more details, please refer to our contribution guidelines.
+
+## Local Development Using Docker
+
+For ease of setup and to avoid compatibility issues with Ruby and Jekyll versions, we recommend using Docker for local development. This method isolates the environment and works consistently across different operating systems.
+
+### Prerequisites
+
+Before you begin, ensure you have Docker installed on your system. If you haven't already, you can download and install Docker from the following links:
+
+- [Get Docker](https://docs.docker.com/get-docker/)
+- [Install Docker Compose](https://docs.docker.com/compose/install/)
+
+### Running the Website Locally
+
+After installing Docker and Docker Compose, follow these steps to run the website on your local machine:
+
+1. Open a terminal and navigate to the root directory of your forked version of the `dsai-nlp/dsai-nlp.github.io` repository.
+
+2. Run the following command to pull the latest pre-built Jekyll image from DockerHub:
+
+   ```bash
+   docker compose pull
+   ```
+
+3. Once the image is pulled, start the Docker container with:
+
+   ```bash
+   docker compose up
+   ```
+
+   This command will start a local web server running the website.
+
+4. Open your web browser and go to `http://localhost:8080`. You should see the local version of the website running.
+
+
+Now that you have the site running locally, you can begin customizing the theme to suit your needs. 
+
+
 
 ## Getting Started
 
