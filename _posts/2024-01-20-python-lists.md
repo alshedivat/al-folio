@@ -107,10 +107,34 @@ print(first, second, middle, last)
 1 2 [] 3
 ```
 
-
 Starred elements cannot be used without non-starred elements (e.g., `*all = x`); multiple starred expressions cannot be used together either (e.g., `first, *middle1, *middle2 = x`).
+
+# `collections.deque` for queuing problems
+
+When dealing with queuing problems, we can use `collections.deque`,
+
+• Double-ended queue
+25
+from collections import deque
+>>> q = deque()
+>>> q.append(1)
+>>> q.append(2)
+>>> q.appendleft(3)
+>>> q.appendleft(4)
+>>> q
+deque([4, 3, 1, 2])
+>>> q.pop()
+2
+>>> q.popleft()
+4
+>>>
+• More efficient than a list for queuing problems
+
+## `collections.ChainMap`
+
+• Problem: Search multiple places
 
 # References
 
+* D. Beazley, [Advanced Python Mastery](https://github.com/dabeaz-course/python-mastery)
 * B. Slatkin, Effective Python: 90 Specific Ways to Write Better Python.
-

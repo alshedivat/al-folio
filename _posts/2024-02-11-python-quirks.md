@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Python quirks
+title: Advanced Python 0 - Quirks
 date: 2024-01-07 11:59:00-0400
-description: Interesting features of Python
+description: A catch-all of interesting behaviors
 tags: comments
 categories: python coding
 giscus_comments: true
@@ -75,9 +75,7 @@ print(message)
 Hello, World!
 ```
 
-
 # `enumerate` with an offset
-
 
 The [`enumerate`](https://docs.python.org/3/library/functions.html#enumerate) function creates a lazy generator over an iterable that will return a tuple (index, item). It can take a second parameter, to indicate the first index to start counting from:
 
@@ -231,7 +229,45 @@ print(animals)
 [Animal(possum, 2.5), Animal(lion, 200), Animal(sea lion, 200), Animal(whale, 100000)]
 ```
 
+# Generators
+
+
+# Integer arithmentic using bitwise operations
+
+Some people are really concerned by performance. Their concern is such that they are willing to sacrifice code readability for minor gains in performance. Such people might get satisfaction from replacing arithmetic operations involving integers by bitwise operations. Since those act directly on the bit representation of the integer, they can be more efficient. Despite compilers performing some optimization of their own, [there is some somewhat old evidence supporting that bitwise operations are faster.](https://stackoverflow.com/questions/37053379/times-two-faster-than-bit-shift-for-python-3-x-integers) I describe below some common optimizations.
+
+## Dividing and multiplying by powers of two
+
+The `>>` and the `<<` operators shift the bit representation to the left and to the right, respectively. This can be used to quickly divide or multiply integers by powers of two:
+
+```python
+x = 0b101 # 5
+
+# shift to the right by 1
+#   0b101 >> 0b10
+# equivalent to 5 // 2**1
+5 >> 1 # 2
+
+# shift to the left by 4
+#   0b101 >> 0b1010000
+# 5 * 2**4
+5 << 4 # 80
+```
+
+## Check if a number is odd
+
+The `&` operator is the bitwise AND operator. When we use `&` between any integer and a 1, we are effectively cheching if the last bit is a 1 (odd) or a 0 (even):
+
+```python
+# 0b1110 & 0b0001 = 0b0000 = 0
+assert not 14 & 1
+
+# 0b1111 & 0b0001 = 0b0001 = 1
+assert 15 & 1
+```
+
 # References
 
+* D. Beazley, [Advanced Python Mastery](https://github.com/dabeaz-course/python-mastery)
 * B. Slatkin, Effective Python: 90 Specific Ways to Write Better Python.
 

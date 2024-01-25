@@ -1,30 +1,35 @@
 ---
 layout: post
-title: Advanced Python - Dictionaries
+title: Advanced Python 2 - Dictionaries
 date: 2024-01-15 11:59:00-0400
-description: Second post in the Python series
+description: Supporting 
 tags: comments
-categories: python coding dictionaries
+categories: python coding dictionary
 giscus_comments: true
 related_posts: false
 ---
 
-While reading the book "Effective Python: 90 Specific Ways to Write Better Python" I discovered a few interesting behaviors about Python dictionaries. I list some of them below.
+A dictionary is a data structure that stores key-value pairs. Crucially, dictionaries are behind many of Python's features. In this post, I do a deeper dive on the underpinnings on Python's dictionaries, and describe some useful features.
 
 # Dictionaries revisited
 
-A dictionary is a data structure that stores (key, value) pairs. Underlying a dictionary, we find a hash map. Hash maps rely on a *hash* functions that can map the keys to a limited number of buckets. These buckets, in turn, store the values. 
-TOCHECK
+Underlying a dictionary, we find a hash map. Hash maps rely on a *hash* functions that can map the keys to a limited number of buckets. These buckets, in turn, store the values. 
+TODO check
 When two keys map to the same bucket, we have a "collision". The first key takes the bucket. The second key, finding its bucket full, will systematically iterate over the remaining buckets until an empty bucket is found.
 
 The hashing process requires that keys are "hashable", i.e., implement a `__hash__()` method. Among the builtin types, that includes strings, numbers and tuples. Keys also require an `__eq__()` method, to handle collisions.
 
 The allocated memory grows by 100% when the current one is 2/3 full.
 
+TODO move
+Specifically:
 
-# `dict.setdefault` tries to fetch the value
+- Sets: the allocated memory grows by 300% when the current one is 2/3 full.
 
-The [`setdefault`](https://docs.python.org/3.8/library/stdtypes.html#dict.setdefault) method of a Python dictionary is useful to assign a default value to a key if and only if that value does not exist:
+# Handling default values
+## `dict.setdefault` to set and fetch values
+
+The [`dict.setdefault`](https://docs.python.org/3.8/library/stdtypes.html#dict.setdefault) method is useful to assign a value to a key if and only if the key is missing:
 
 ```python
 ingredients = {
@@ -44,7 +49,7 @@ Number of carrots: 3
 Number of pineapples: 0
 ```
 
-However, despite its name, it will also fetch the value (either the preexisting one, or the newly created):
+However, and despite its name, `dict.setdefault` will also fetch the value (either the preexisting one, or the newly created):
 
 ```python
 carrots = ingredients.setdefault("carrots", 0)
@@ -55,9 +60,9 @@ print(f"Number of carrots: {carrots}")
 Number of carrots: 3
 ```
 
-# Use `defaultdict` when there is a single default value
+## Use `defaultdict` when there is a single default value
 
-The [`defaultdict`](https://docs.python.org/3/library/collections.html#collections.defaultdict) is useful when the dictionary has a unique default value. Its first argument is a function whose output is the default value, which will be called if and only if the key is missing:
+The [`collections.defaultdict`](https://docs.python.org/3/library/collections.html#collections.defaultdict) go one step beyond. They are a goon replacement for dictionaries when there is a unique default value. Its first argument is a function which returns the default value. It will be called if and only if the key is missing:
 
 ```python
 from collections import defaultdict
@@ -77,7 +82,7 @@ Number of cabbages: 0
 defaultdict(<function <lambda> at 0x1014eb6d0>, {'carrots': 3, 'tomatoes': 2, 'lettuces': 1, 'pineapples': 0, 'cabbage': 0})
 ```
 
-Note that the `ingredients_dd` contains an item for cabbage which was never explicitly inserted. `defaultdict` not only allows for simple code, but is more efficient than `setdefault` to avoid calling the default factory unnecesarily. For instance, `ingredients.setdefault("carrot", set())` will instantiante a new set even if the key `carrot` already exists; `defaultdict` would avoid that call. 
+Note that the `ingredients_dd` contains an item for cabbage which was never explicitly inserted. `defaultdict` not only allows us to write simpler code, but is more efficient than `setdefault` to avoid unnecesary calls to the default factory. For instance, `ingredients.setdefault("carrot", set())` would instantiante a new set even if the key `carrot` already exists; `defaultdict` would avoid that call. 
 
 # Use `Counter` to count
 
@@ -115,7 +120,7 @@ ingredients_counter.most_common(1)
 
 # Insertion order
 
-Since Python 3.6, Python dictionaries preserve insertion order, i.e., the the items are printed in the same order in which they were introduced in the dictionary:
+Since Python 3.6, Python dictionaries preserve insertion order, i.e., the items are printed in the same order in which they were inserted in the dictionary:
 
 ```python
 ingredients = {
@@ -141,7 +146,7 @@ print(ingredients)
 {'lettuces': 1, 'tomatoes': 2, 'carrots': 3}
 ```
 
-# References
+# Further reading
 
 * D. Beazley, [Advanced Python Mastery](https://github.com/dabeaz-course/python-mastery)
 * B. Slatkin, Effective Python: 90 Specific Ways to Write Better Python.
