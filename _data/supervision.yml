@@ -1,3 +1,18 @@
+- title: Quadrature Control Bounded Analog to Digital Converters
+  type: Semester project
+  students:
+    - first: Carl
+      last: Nordengren
+  year: 2023
+  fall_semester: True
+  supervisors:
+    - first: Hampus
+      last: Malmberg
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+
 - title: DoA Estimation with New Frequency Estimation Algorithm
   type: Semester project
   students:
