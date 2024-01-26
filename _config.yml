@@ -9,7 +9,7 @@ last_name:
 email: evh29@cornell.edu
 description: Emma Harvey
 footer_text:
-keywords: emma-harvey, ai-ethics, algorithmic-fairness, facct, algorithm-audit, ethical-ai, trustworthy-ai, responsible-ai, algorithmic-audit, algorithm-auditing, ai-safety, aies
+keywords: emma-harvey, ai-ethics, algorithmic-fairness, facct, algorithm-audit, ethical-ai, trustworthy-ai, responsible-ai, algorithmic-audit, algorithm-auditing, ai-safety, aies, sociotechnical, chi, cornell
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 💁‍♀️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -69,10 +69,10 @@ twitter_username: emmharv # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: emmharv # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: 5E_qfjAAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
+orcid_id: 0000-0001-8453-4963 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
