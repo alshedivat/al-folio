@@ -7,15 +7,17 @@ tags: comments
 categories: python coding objects
 giscus_comments: true
 related_posts: false
+toc:
+    sidebar: left
 ---
 
-Python has been one of my most used programming languages in the past decade. In this series, I explore its more advance features.
+Python has been one of my most used programming languages in the past decade. In this series, I explore its more advanced features.
 
 It is often said that in Python, everything is an object: builtins, functions, classes, instances, etc. Thus, it makes sense to study first the general case. In this post, I explore some general concepts related to objects.
 
 # Properties of an object
 
-Simply put, an object is a data structure with an internal state (a set of variables) and a behaviour (a set of functions). The "class" is the template to creates new objects or instances. New objects are defined using the `class` operator, and instantiated using the class name.
+Simply put, an object is a data structure with an internal state (a set of variables) and a behaviour (a set of functions). The "class" is the template to create new objects or instances. New objects are defined using the `class` operator, and instantiated using the class name.
 
 Every object has, at least, three properties: a reference, a class, and a refcount.
 
@@ -209,12 +211,12 @@ A namespace is a mapping from names to objects. In fact, underlying a namespace 
 
 - The **builtin** namespace is created when the interpreter starts up. It contain names such as `print`, `int` or `len`.
 - The **global** namespaces:
-    - *The* global namespace contains every name created at the main level of the program.
+    - *The* global namespace contains every name created at the main level of the program. This dictionary can be examined using `globals()`.
     - Weirdly, *other* global namespaces are possible: each imported module will create its own.
-- A **local** namespace is created everytime a function is called, and is "forgotten" when it terminates. 
+- A **local** namespace is created everytime a function is called, and is "forgotten" when it terminates. This dictionary can be examined using `locals()`.
     - When a function calls another function, the child has access to its parent's namespace. This is called the **enclosing** namespace.
 
-Namespaces are related to scopes, which are the parts of the code in which sets of namespaces can be accessed. When a Python needs to lookup a name, if resolves it by examining the namespaces using the LEGB rule: it starts at the local namespace, then enclosing, global and builtin. By default, assignments and deletions happen on the local namespace. However, this behaviour can be altered using the `nonlocal` and `global` statements:
+Namespaces are related to scopes, which are the parts of the code in which sets of namespaces can be accessed. When a Python needs to lookup a name, if resolves it by examining the namespaces using the LEGB rule: it starts at the Local namespace; if unsuccessful, it moves to the Enclosing namespace; then the Global, and lastly the Builtin. By default, assignments and deletions happen on the local namespace. However, this behaviour can be altered using the `nonlocal` and `global` statements:
 
 ```python
 def enclosing_test():
@@ -274,6 +276,10 @@ class Animal:
         self.name = name
         self.weight = weight
         self.__favorite = True
+
+    def eat(self):
+        self.weight += 1
+        print("chompcomp")
 ```
 
 Below I zoom in on some interesting features.
@@ -309,9 +315,9 @@ print(whale._Animal__favorite, whale.__favorite)
 True False
 ```
 
-## Each instance has an instance dictionary
+## The two dictionaries underlying an object
 
-Every instance in Python has a builtin `__dict__` method that stores its writable attributes:
+Two dictionaries underlie each object, accessible using `instance.__dict__` and `Class.__dict__`. The first one is the instance-specific dictionary, unique to that instance and containing its writable attributes:
 
 ```python
 whale = Animal("whale", 100000)
@@ -322,10 +328,42 @@ print(whale.__dict__)
 {'name': 'whale', 'weight': 100000, '_Animal__favorite': True}
 ```
 
-Note that:
+Note that private attributes (`__favorite`) appear with an altered name of the form `_{class name}{attribute}`.
 
-- Attributes defined at the class level (`phylum`) are absent.
-- Private attributes (`__favorite`) appear with an altered name of the form `_{class name}{attribute}`.
+Similarly, each class has its own dictionary, containing the data and functions used by all instances (class' methods, the attributes defined at the class level, etc.):
+
+```python
+Animal.__dict__
+```
+```
+mappingproxy({'__module__': '__main__', 'phylum': 'metazoan', '__init__': <function Animal.__init__ at 0x103236b90>, 'eat': <function Animal.eat at 0x103236c20>, '__dict__': <attribute '__dict__' of 'Animal' objects>, '__weakref__': <attribute '__weakref__' of 'Animal' objects>, '__doc__': None})
+```
+
+For instance, this is where the `Animal.eat()` method lives. Since this dictionary is shared by all the instances, this is why requires the instance to be passed as the first argument. Under the hood, when we call an instance's method, Python finds the method in the class dictionary and passes the instance as first argument. But we can also do it explicitly:
+
+```python
+Animal.__dict__["eat"]()
+```
+```
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: Animal.eat() missing 1 required positional argument: 'self'
+```
+
+```python
+Animal.__dict__["eat"](whale)
+```
+```
+chompcomp
+```
+
+Both dictionaries are linked by `instance.__class__`, which is assigned to the class object:
+
+```python
+assert whale.__class__.__dict__ == Animal.__dict__
+```
+
+As we saw, an attribute might exist in either dictionary. To find an attribute, Python will first search `instance.__dict__`. If it is not found there, Python will search `Class.__dict__`.
 
 ## `__slots__` helps with memory optimization
 
@@ -372,5 +410,5 @@ AttributeError: 'EfficientAnimal' object has no attribute 'namme'
 
 * D. Beazley, [Advanced Python Mastery](https://github.com/dabeaz-course/python-mastery)
 * https://www.interviewbit.com/python-interview-questions/#freshers
-* <https://docs.python.org/3/tutorial/classes.html>
-* <https://wiki.python.org/moin/UsingSlots>
+* More on classes: <https://docs.python.org/3/tutorial/classes.html>
+* More on `__slots__`: <https://wiki.python.org/moin/UsingSlots>
