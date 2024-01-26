@@ -3,7 +3,7 @@ var codeBlocks = document.querySelectorAll("pre");
 codeBlocks.forEach(function (codeBlock) {
   if (
     (codeBlock.querySelector("pre:not(.lineno)") || codeBlock.querySelector("code")) &&
-    codeBlock.querySelector("code:not(.language-chart)") &&
+    codeBlock.querySelector("code:not(.language-chartjs)") &&
     codeBlock.querySelector("code:not(.language-mermaid)")
   ) {
     // create copy button

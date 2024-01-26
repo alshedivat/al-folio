@@ -1,4 +1,4 @@
-{% if page.chart %}
+{% if page.chart and page.chart.chartjs %}
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script>
     $(document).ready(function () {
@@ -6,7 +6,7 @@
         $this = null,
         _ctx = null,
         _text = '';
-      $('.language-chart').each(function () {
+      $('.language-chartjs').each(function () {
         $this = $(this);
         $canvas = $('<canvas></canvas>');
         _text = $this.text();
