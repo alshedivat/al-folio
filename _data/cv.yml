@@ -3,10 +3,8 @@
   contents:
     - name: Full Name
       value: Endre Borbáth
-    - name: Date of Birth
-      value: February 6, 1991
-    - name: Citizenship
-      value: Romanian & Hungarian
+    - name: Year of Birth
+      value: 1991
 
 - title: Education
   type: time_table
@@ -28,13 +26,13 @@
       description:
         - Thesis title&#58; Preference for the Public Good. Programmatic Linkages in Hungary and Romania
 
-    - title: Bachelor of Arts in Political Science, English track of studies
+    - title: Bachelor of Arts in Political Science (English)
       institution: Babeş‑Bolyai University, Cluj‑Napoca, Romania
       year: 2009 - 2012
       description:
         - Thesis title&#58; The Kurdish Issue of Turkey in a Game Theory Framework
 
-    - title: Bachelor of Arts in Philosophy, Hungarian track of studies
+    - title: Bachelor of Arts in Philosophy (Hungarian)
       institution: Babeş‑Bolyai University, Cluj‑Napoca, Romania
       year: 2009 - 2012
       description:
@@ -44,43 +42,15 @@
       institution: Middle East Technical University Ankara, Turkey
       year: 2011 - 2012
       description:
-        - Department of Political Science and Public Administration
-
-- title: Further training
-  type: time_table
-  contents:
-    - title: Q-Step Centre Summer School Social Network Analysis
-      institution: University of Glasgow (inst&#58; Michael T. Heaney)
-      year: 2021
-  
-    - title: Summer Institute in Computational Social Science Sciences
-      institution: University of Bamberg
-      year: 2019
-
-    - title: Teaching in Higher Education
-      institution: European University Institute
-      year: 2016
-
-    - title: ECPR Summer School in Methods and Techniques
-      institution: Applied Multilevel Modelling (inst&#58; Zoltán Fazekas)
-      year: 2015    
-
-    - title: Citizens' Resilience in Times of Crisis
-      institution: LIVEWHAT - Living with Hard Times & COSMOS Center on Social Movement Studies - Scuola Normale Superiore
-      year: 2015      
+        - Department of Political Science and Public Administration  
 
 - title: Research Experience
   type: time_table
   contents:
     - title: Postdoctoral Researcher
       institution: Freie Universität Berlin and WZB Berlin Social Science Center
-      year: 2018 – pres.
-      description:
-        - title: Developing two key projects on 
-          contents:
-            - Political Parties in Movements (PI&#58; Swen Hutter)
-            - The Potentials of Civil Society&#58; Solidarity and Crisis Management (PI&#58; Swen Hutter, Jule Specht, Christian von Scheve)
-
+      year: 2018 – 2024.
+      
     - title: PhD researcher, focusing on Central and Eastern Europe
       institution: European University Institute, Florence, Italy
       year: 2014-2018
@@ -90,22 +60,8 @@
     - title: Visiting Researcher
       institution: Eurolab, GESIS Leibniz Institute for the Social Sciences, Cologne, Germany
       year: 2016
-      description:
-        - Researching defection from parties in government over time and across countries, based on 2004, 2009, and 2014 waves of the European Election Studies
-
+      
     - title: Research Assistant
       institution: Median Research Center, Bucharest, Romania
       year: 2014-2018
-      description:
-        - Research assistant&#58; tracker for votes and pledges of MPs; RO part of the Comparative Candidates Survey (2012, 2016); deliberative poll experiment; territorial autonomy arrangements; rolling cross sectional survey for media effects before the 2014 elections
-
-- title: Additional Information
-  type: map
-  contents:
-    - name: Languages
-      value: Hungarian (mother tongue), Romanian (C2), English (C2), German (C1), Italian (B1), Turkish (A2)
-    - name: IT & Statistics
-      value: GitHub, HTML, Julia, Jupyter notebook, Latex, Markdown, Python, R, SPSS, Stata, Unipark
-    - name: Memberships
-      value: Hungarian Academy of Sciences External Public Body (since 2021); Institut für Protest- und Bewegungsforschung (since 2020); Editorial board of Studia Politica – Romanian Political Science Review (since 2019)
-
+      

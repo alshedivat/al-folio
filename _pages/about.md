@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Political Sociology &#8226; Freie Universität Berlin &#8226; WZB Berlin Social Science Center
+subtitle: Comparative politics &#8226; Freie Universität Berlin &#8226; WZB Berlin Social Science Center
 
 profile:
   align: left
@@ -20,7 +20,7 @@ social: false  # includes social icons at the bottom of the page
 
 I am a postdoctoral researcher, working at the [Institute of Sociology](https://www.polsoz.fu-berlin.de/en/soziologie){:target="_blank"} at the Freie Universität Berlin, and at the [Center for Civil Society Research](https://www.wzb.eu/en/research/trans-sectoral-research/center-for-civil-society-research){:target="_blank"} at the WZB Berlin Social Science Center.
 
-__Research interests__: comparative political sociology, party competition, social movements,  civil society, political participation, crisis politics, cleavages, Western Europe, Central and Eastern Europe, research methods. You can find more information about my ongoing [research]({{ '/projects/' | relative_url }}), published in [scientific]({{ '/publications/' | relative_url }}), or general [media]({{ '/media/' | relative_url }}) outlets.
+__Research interests__: comparative politics, political participation, party competition, social movements, civil society, crisis politics, cleavages, Western Europe, Central and Eastern Europe, research methods.
 
 __Previously__ I received my PhD in December 2018 from the Department of Political and Social Sciences of the European University Institute, with a thesis on "Parties and protests in crisis-hit Europe: continuity and change in the structure of political conflict". Before that I studied political science at the Central European University with a focus on electoral politics. You can find my more detailed [cv]({{ '/cv/' | relative_url }}) here.
 

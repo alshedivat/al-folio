@@ -2,7 +2,7 @@
 layout: post
 date: 2022-10-27 09:00:00-0400
 inline: true
-main_page: true
+main_page: false
 ---
 
 Our article entitled "Typology of Postcommunist Successor Parties in Central and Eastern Europe and an Explanatory Framework for Their (Non-)Success" with Seongcheol Kim has been published in <i>East Central Europe!</i>  We review and contribute to the literature on the fate of postcommunist successor parties through a comparatice analysis of parties in the Czech Republic, (the former East) Germany, Hungary, Poland, Romania, and Slovakia. <br>
