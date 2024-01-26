@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Advanced Python 0 - Quirks
-date: 2024-01-07 11:59:00-0400
+date: 2024-02-11 11:59:00-0400
 description: A catch-all of interesting behaviors
 tags: comments
 categories: python coding

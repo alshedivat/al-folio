@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python builtins
-date: 2024-01-07 11:59:00-0400
+date: 2024-05-07 11:59:00-0400
 description: Revisiting Python datatypes
 tags: comments
 categories: python coding

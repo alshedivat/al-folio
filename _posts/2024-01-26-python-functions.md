@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python functions
-date: 2024-01-26 11:59:00-0400
+date: 2024-05-26 11:59:00-0400
 description: Fourth post in the Python series
 tags: comments
 categories: python coding
