@@ -2,31 +2,183 @@
 layout: post
 title: Advanced Python 2 - Dictionaries
 date: 2024-01-15 11:59:00-0400
-description: Supporting 
+description: Keeping Python together since 1991
 tags: comments
 categories: python coding dictionary
 giscus_comments: true
 related_posts: false
+toc:
+    sidebar: left
 ---
 
-A dictionary is a data structure that stores key-value pairs. Crucially, dictionaries are behind many of Python's features. In this post, I do a deeper dive on the underpinnings on Python's dictionaries, and describe some useful features.
+A dictionary is a data structure that stores key-value pairs. As we saw in the previous post and will keep exploring, dictionaries are behind many of Python's features, including objects and namespaces. In this post, I do a deep dive on the underpinnings on Python's dictionaries, and describe some useful features.
 
-# Dictionaries revisited
+# The inner workings of dictionaries (and sets)
 
-Underlying a dictionary, we find a hash map. Hash maps rely on a *hash* functions that can map the keys to a limited number of buckets. These buckets, in turn, store the values. 
-TODO check
-When two keys map to the same bucket, we have a "collision". The first key takes the bucket. The second key, finding its bucket full, will systematically iterate over the remaining buckets until an empty bucket is found.
+Dictionaries and sets are ideal data structures to collect items when 1. the data has no intrinsic order; and 2. elements can be retrieved using unique object that are "hashable", which I describe below (the *keys*). The underpinnings of dictionaries and sets are very similar, a data structure called the *hash map*. We can visualize it as a finite number of memory buckets which store our data. Each possible key maps univocally to a bucket, thanks to the hash function. Hence, lookups, insertions and deletions are performed in constant time. The difference between dictionaries and sets lies in what goes in the bucket: dictionaries store key-value pairs, while sets only store keys.
 
-The hashing process requires that keys are "hashable", i.e., implement a `__hash__()` method. Among the builtin types, that includes strings, numbers and tuples. Keys also require an `__eq__()` method, to handle collisions.
+## Hashing, explained
 
-The allocated memory grows by 100% when the current one is 2/3 full.
+As mentioned before, hash maps rely on the key objects implementing a hash method (`.__hash__()`). This function maps each object to a fixed-byte integer. When we apply the `hash()` function to the object its hash method gets called. The hash method needs to be fast, since all operations on a hash map are limited by its speed. In addition, it needs to be deterministic and produce fixed-length values. For reasons we will go over later, a *hashable* object needs to implement either an `__eq__` operator, or a `__cmp__` operator.
 
-TODO move
-Specifically:
+Let's see some examples:
 
-- Sets: the allocated memory grows by 300% when the current one is 2/3 full.
+```python
+# immutable builtins are hashable
+hash(1)        # 1
+hash(1.)       # 1
+hash("1")      # 6333942777250828306
+
+hash((1))      # 1
+hash((1, 1))   # 8389048192121911274
+hash((1., 1.)) # 8389048192121911274
+```
+
+Imagine that we have a 16 buckets, indexed from 0 to 15. However, as we saw above, hashing can produce very large integers. To keep things small, let's say our hash is 62. To map 62 to one of our 16 buckets, we need an additional operation called *mask*. A simple mask is the modulo function, using the number of buckets:
+
+```python
+62 % 15
+```
+```
+2
+```
+
+62 will go in bucket number 2. Modulo will always produce a value between 0 and 15. However, to maintain speed, Python uses another mask function, the bitwise AND `&`:
+
+```python
+# bin(62) = 0b111110
+#               &
+# bin(15) = 0b001111
+# ------------------
+#           0b001110 = 14
+62 & 15
+```
+```
+14
+```
+
+Note that since the number of buckets will often be much smaller than the hash, `&` is effectively operating only on the tails.
+
+## Storing data into a bucket: handling collisions
+
+If the number of buckets is large enough, a new key can be mapped to an *empty* bucket with high probability. (Empty buckets contain a `NULL` value.) In that case, we will simply store the key-value pair in the bucket.
+
+However, it is possible that the bucket is already a full. When such thing happens, first Python will check if the keys are equal. That is why 1. we store the key object in the bucket; and 2. the key object needs to implement `.__eq__` or `.__cmp__`. If there is a match, the key-value pair gets updated. Otherwise, we have a collision, i.e., two hashes map to the same bucket. In that case, a systematic and predictable exploration of other buckets starts. The details of this process, called *probing*, are beyond the scope of this article. Once an empty bucket is found, the key-value pair will be stored there. 
+
+When a value is deleted, we cannot simply overwrite it with a `NULL`. That would make the bucket identical to a "virgin" bucket, and potentially disrupt the probing strategy, leading to inconsistent results. Instead, a special value is written (sometimes called a "turd"). Nonetheless, this memory is not wasted: another key-value pair can take its place if needed, without compromising the integrity of the data.
+
+## Time complexity
+
+Understanding what underlies dictionaries and sets allows us to estimate the time complexity of the different operations.
+
+**Lookup**: given a key, in the vast majority of cases a lookup is done in $$O(1)$$. The actual time depends on how fast the hash function is. Collisions are the main hurdle to lookup: in the worst case, all keys collide, meaning we have to iterate over all the elements to find ours. In that case, complexity is $$O(n)$$. Luckily, a good hash function ensures that colisions are very rare.
+
+**Insertion**: same, amortized is $$O(1)$$, worst case is $$O(n)$$.
+
+**Deletion**: same, amortized is $$O(1)$$, worst case is $$O(n)$$.
+
+**Resizing**: Python doubles the allocated memory for a dictionary when it becomes 2/3 full. Similarly, the allocated memory for a set gets quadrupled when it becomes 2/3 full. When such a thing happens, all key-value pairs need to be relocated into their new buckets. This is a pretty expensive step, albeit very infrequent, which keeps the amortized insertion complexity at $$O(1)$$.
+
+# Starred expressions
+
+Dictionaries have two star operators: `*` and `**`. Let's see how they work:
+
+```python
+ingredients = {
+    "carrots": 3,
+    "tomatoes": 2,
+    "lettuces": 1,
+}
+
+print({*ingredients})
+```
+```
+{'tomatoes', 'carrots', 'lettuces'}
+```
+
+`*` unpacked the keys, which went into a set.
+
+```python
+print({**ingredients})
+```
+```
+{'carrots': 3, 'tomatoes': 2, 'lettuces': 1}
+```
+
+`**` unpacked the key-value pairs, which went into a new dictionary.
+
+# Insertion order is preserved
+
+Since Python 3.6, Python dictionaries preserve insertion order, i.e., the items are printed in the same order in which they were inserted in the dictionary:
+
+```python
+ingredients = {
+    "carrots": 3,
+    "tomatoes": 2,
+    "lettuces": 1,
+}
+print(ingredients)
+```
+```
+{'carrots': 3, 'tomatoes': 2, 'lettuces': 1}
+```
+
+```python
+ingredients = {
+    "lettuces": 1,
+    "tomatoes": 2,
+    "carrots": 3,
+}
+print(ingredients)
+```
+```
+{'lettuces': 1, 'tomatoes': 2, 'carrots': 3}
+```
+
+# Merging two dictionaries
+
+After Python 3.10, there are three ways of merging two dictionaries. Two of them are equivalent: unpacking using the `**` operator and the merge operator `|`:
+
+```python
+dairy_1 = {
+    "cheese": 5,
+    "yogurt": 4
+}
+
+dairy_2 = {
+    "cheese": 3,
+    "paneer": 2
+}
+{**dairy_1, **dairy_2}
+```
+```
+{'cheese': 3, 'yogurt': 4, 'paneer': 2}
+```
+```python
+dairy_1 | dairy_2
+```
+```
+{'cheese': 3, 'yogurt': 4, 'paneer': 2}
+```
+
+These options create a new dictionary with all the key-value pairs. As one might expect, the key insertion order is preserved from left to right. Note than when there are shared keys, the last value is kept.
+
+An alternative is `dict.update()`, wich merges the dictionaries in place, updating the values when a key is shared:
+
+```python
+dairy_1.update(dairy_2)
+print(f"dairy_1 = {dairy_1}")
+print(f"dairy_2 = {dairy_2}")
+```
+```
+dairy_1 = {'cheese': 3, 'yogurt': 4, 'paneer': 2}
+dairy_2 = {'cheese': 3, 'paneer': 2}
+```
+
+This is more memory efficient, since it does not create a new dictionary. However, it is not always desirable if we want to keep the original dictionaries.
 
 # Handling default values
+
 ## `dict.setdefault` to set and fetch values
 
 The [`dict.setdefault`](https://docs.python.org/3.8/library/stdtypes.html#dict.setdefault) method is useful to assign a value to a key if and only if the key is missing:
@@ -62,7 +214,7 @@ Number of carrots: 3
 
 ## Use `defaultdict` when there is a single default value
 
-The [`collections.defaultdict`](https://docs.python.org/3/library/collections.html#collections.defaultdict) go one step beyond. They are a goon replacement for dictionaries when there is a unique default value. Its first argument is a function which returns the default value. It will be called if and only if the key is missing:
+The [`collections.defaultdict`](https://docs.python.org/3/library/collections.html#collections.defaultdict) go one step beyond. They are a good replacement for dictionaries when there is a unique default value. Its first argument is a function which returns the default value. It will be called if and only if the key is missing:
 
 ```python
 from collections import defaultdict
@@ -82,9 +234,9 @@ Number of cabbages: 0
 defaultdict(<function <lambda> at 0x1014eb6d0>, {'carrots': 3, 'tomatoes': 2, 'lettuces': 1, 'pineapples': 0, 'cabbage': 0})
 ```
 
-Note that the `ingredients_dd` contains an item for cabbage which was never explicitly inserted. `defaultdict` not only allows us to write simpler code, but is more efficient than `setdefault` to avoid unnecesary calls to the default factory. For instance, `ingredients.setdefault("carrot", set())` would instantiante a new set even if the key `carrot` already exists; `defaultdict` would avoid that call. 
+Note that the `ingredients_dd` contains an item for cabbages which was never explicitly inserted. `defaultdict` not only allows us to write simpler code, but is more efficient than `setdefault` to avoid unnecesary calls to the default factory. For instance, `ingredients.setdefault("carrot", set())` would instantiate a new set even if the key `carrot` already exists; `defaultdict` would avoid that call. 
 
-# Use `Counter` to count
+## Use `collections.Counter` to count
 
 The `collections.Counter` is a type of dictionary specialized in counting objects, i.e., the values are integers. It can be initialized from an existing dictionary: 
 
@@ -118,36 +270,45 @@ ingredients_counter.most_common(1)
 [('carrots', 3)]
 ```
 
-# Insertion order
+# Composite keys
 
-Since Python 3.6, Python dictionaries preserve insertion order, i.e., the items are printed in the same order in which they were inserted in the dictionary:
+Since tuples are hashable objects, they can be used as keys:
 
 ```python
+# store ingredients and purchase date
 ingredients = {
-    "carrots": 3,
-    "tomatoes": 2,
-    "lettuces": 1,
+    ("carrots",  "2024-01-04"): 3,
+    ("tomatoes", "2024-01-13"): 2,
+    ("carrots", "2024-01-13"): 1,
 }
+```
+
+Then, they we need the composite key to retrieve them:
+
+```python
+ingredients["carrots", "2024-01-13"]
+```
+```
+1
+```
+
+# Use `zip` to create dictionaries from lists
+
+When we have two lists of the same length, we can quickly combine them using `zip`:
+
+```python
+ingredient_list = ["carrots", "tomatoes", "lettuces"]
+counts = [3, 2, 1]
+ingredients = dict(zip(ingredient_list, counts))
 print(ingredients)
 ```
 ```
 {'carrots': 3, 'tomatoes': 2, 'lettuces': 1}
 ```
 
-```python
-ingredients = {
-    "lettuces": 1,
-    "tomatoes": 2,
-    "carrots": 3,
-}
-print(ingredients)
-```
-```
-{'lettuces': 1, 'tomatoes': 2, 'carrots': 3}
-```
-
 # Further reading
 
 * D. Beazley, [Advanced Python Mastery](https://github.com/dabeaz-course/python-mastery)
+* M. Gorelick & I. Ozsvald, High Performance Python: Practical Performant Programming for Humans. Chapter 4. Dictionaries and Sets.
 * B. Slatkin, Effective Python: 90 Specific Ways to Write Better Python.
-
+* On resizing dictionaries: <https://mail.python.org/pipermail/python-list/2000-March/048085.html>
