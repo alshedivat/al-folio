@@ -1,7 +1,15 @@
 {% if page.chart and page.chart.echarts %}
-  <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js" integrity="sha256-EVZCmhajjLhgTcxlGMGUBtQiYULZCPjt0uNTFEPFTRk=" crossorigin="anonymous"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"
+    integrity="sha256-EVZCmhajjLhgTcxlGMGUBtQiYULZCPjt0uNTFEPFTRk="
+    crossorigin="anonymous"
+  ></script>
   {% if site.enable_darkmode %}
-    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/theme/dark-fresh-cut.js" integrity="sha256-UmFIP/4VvOqBDIl2QWl1HBuAJ1XWs/iFZxT5yJRZOKo=" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/theme/dark-fresh-cut.js"
+      integrity="sha256-UmFIP/4VvOqBDIl2QWl1HBuAJ1XWs/iFZxT5yJRZOKo="
+      crossorigin="anonymous"
+    ></script>
   {% endif %}
   <script>
     let theme = localStorage.getItem('theme');
@@ -25,7 +33,7 @@
       }
 
       chart.setOption(JSON.parse(jsonData));
-      window.addEventListener('resize', function() {
+      window.addEventListener('resize', function () {
         chart.resize();
       });
     });

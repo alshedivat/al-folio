@@ -131,8 +131,8 @@ let setEchartsTheme = (theme) => {
     let jsonData = elem.previousSibling.childNodes[0].innerHTML;
     echarts.dispose(elem);
 
-    if (theme === 'dark') {
-      var chart = echarts.init(elem, 'dark-fresh-cut');
+    if (theme === "dark") {
+      var chart = echarts.init(elem, "dark-fresh-cut");
     } else {
       var chart = echarts.init(elem);
     }
