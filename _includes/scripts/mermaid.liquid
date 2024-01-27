@@ -1,5 +1,9 @@
 {% if page.mermaid and page.mermaid.enabled %}
-  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"
+    integrity="sha256-TtLOdUA8mstPoO6sGvHIGx2ceXrrX4KgIItO06XOn8A="
+    crossorigin="anonymous"
+  ></script>
   {% if page.mermaid.zoomable %}
     <script src="https://d3js.org/d3.v7.min.js"></script>
   {% endif %}
