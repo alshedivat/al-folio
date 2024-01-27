@@ -4,7 +4,8 @@ codeBlocks.forEach(function (codeBlock) {
   if (
     (codeBlock.querySelector("pre:not(.lineno)") || codeBlock.querySelector("code")) &&
     codeBlock.querySelector("code:not(.language-chart)") &&
-    codeBlock.querySelector("code:not(.language-mermaid)")
+    codeBlock.querySelector("code:not(.language-mermaid)") &&
+    codeBlock.querySelector("code:not(.language-vega_lite)")
   ) {
     // create copy button
     var copyButton = document.createElement("button");
