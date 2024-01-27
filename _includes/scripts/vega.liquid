@@ -1,0 +1,40 @@
+{% if page.chart and page.chart.vega_lite %}
+  <script
+    src="https://cdn.jsdelivr.net/npm/vega@5.27/build/vega.min.js"
+    integrity="sha256-Yot/cfgMMMpFwkp/5azR20Tfkt24PFqQ6IQS+80HIZs="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/vega-lite@5.16/build/vega-lite.min.js"
+    integrity="sha256-TvBvIS5jUN4BSy009usRjNzjI1qRrHPYv7xVLJyjUyw="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/vega-embed@6.24/build/vega-embed.min.js"
+    integrity="sha256-FPCJ9JYCC9AZSpvC/t/wHBX7ybueZhIqOMjpWqfl3DU="
+    crossorigin="anonymous"
+  ></script>
+
+  <script>
+    let theme = localStorage.getItem('theme');
+
+    /* Create vega lite chart as another node and hide the code block, appending the vega lite node after it
+       this is done to enable retrieving the code again when changing theme between light/dark */
+    document.querySelectorAll('pre>code.language-vega_lite').forEach((elem) => {
+      const jsonData = elem.textContent;
+      const backup = elem.parentElement;
+      backup.classList.add('unloaded');
+      /* create vega lite node */
+      let chartElement = document.createElement('div');
+      chartElement.classList.add('vega-lite');
+      backup.after(chartElement);
+
+      /* Embed the visualization in the container */
+      if (theme === 'dark') {
+        vegaEmbed(chartElement, JSON.parse(jsonData), { theme: 'dark' });
+      } else {
+        vegaEmbed(chartElement, JSON.parse(jsonData));
+      }
+    });
+  </script>
+{% endif %}
