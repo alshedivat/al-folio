@@ -13,6 +13,7 @@ news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
+
 ---
 
 My fascination with economic theory began early. From the classical ideas of Adam Smith and the invisible hand concept to the neoclassical emphasis on marginal utility. I find Keynesian economics fascinating, especially in its advocacy for government intervention during economic downturns. Milton Friedman's monetarism caught my attention with its focus on money demand and supply. The Austrian School's emphasis on individual choice resonated made me dive into the works of Ludwig von Mises and Friedrich Hayek. Intrigued by the impact of institutions on economic behavior, I explored institutional economics with thinkers like Thorstein Veblen. My curiosity extends to development economics, exploring strategies for economic growth and addressing issues of poverty and inequality.
