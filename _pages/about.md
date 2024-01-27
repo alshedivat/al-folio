@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: joel.rick@proton.me
 
 profile:
   align: right
@@ -19,8 +19,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My fascination with economic theory began early. From the classical ideas of Adam Smith and the invisible hand concept to the neoclassical emphasis on marginal utility. I find Keynesian economics fascinating, especially in its advocacy for government intervention during economic downturns. Milton Friedman's monetarism caught my attention with its focus on money demand and supply. The Austrian School's emphasis on individual choice resonated made me dive into the works of Ludwig von Mises and Friedrich Hayek. Intrigued by the impact of institutions on economic behavior, I explored institutional economics with thinkers like Thorstein Veblen. My curiosity extends to development economics, exploring strategies for economic growth and addressing issues of poverty and inequality.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Having specialized in quantitative economics and finance, I emerged as a scholar with a a wish to gain understanding of the intricate world of finance. With initial forays into the dynamic realms of insurance and banks, I navigated the multifaceted landscape of risk modeling.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Life isn't just about numbers however. I find solace and joy in the great outdoors relishing the contrast between the natural beauty and the numerical complexities of my work life. Whether it's tearing up some alpine passes on my road bike or conquering mountains with ski touring in the winter. My favorite pass is the Grimsel and my to-go place for ski touring are the uri alps such as the Galenstock.
+
+An unexpected passion of mine lies in the art of watchmaking, a craft deeply rooted in the traditions of the Bernese Jura, where I grew up. During summer breaks, I immersed myself in this meticulous world gaining hands-on experience in a field that epitomizes precision and craftsmanship.
