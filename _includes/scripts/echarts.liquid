@@ -1,0 +1,41 @@
+{% if page.chart and page.chart.echarts %}
+  <script
+    src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"
+    integrity="sha256-EVZCmhajjLhgTcxlGMGUBtQiYULZCPjt0uNTFEPFTRk="
+    crossorigin="anonymous"
+  ></script>
+  {% if site.enable_darkmode %}
+    <script
+      src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/theme/dark-fresh-cut.js"
+      integrity="sha256-UmFIP/4VvOqBDIl2QWl1HBuAJ1XWs/iFZxT5yJRZOKo="
+      crossorigin="anonymous"
+    ></script>
+  {% endif %}
+  <script>
+    let theme = localStorage.getItem('theme');
+
+    /* Create echarts chart as another node and hide the code block, appending the echarts node after it
+       this is done to enable retrieving the code again when changing theme between light/dark */
+    document.querySelectorAll('pre>code.language-echarts').forEach((elem) => {
+      const jsonData = elem.textContent;
+      const backup = elem.parentElement;
+      backup.classList.add('unloaded');
+      /* create echarts node */
+      let chartElement = document.createElement('div');
+      chartElement.classList.add('echarts');
+      backup.after(chartElement);
+
+      /* create echarts */
+      if (theme === 'dark') {
+        var chart = echarts.init(chartElement, 'dark-fresh-cut');
+      } else {
+        var chart = echarts.init(chartElement);
+      }
+
+      chart.setOption(JSON.parse(jsonData));
+      window.addEventListener('resize', function () {
+        chart.resize();
+      });
+    });
+  </script>
+{% endif %}
