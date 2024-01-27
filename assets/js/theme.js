@@ -16,6 +16,10 @@ let setTheme = (theme) => {
   if (typeof mermaid !== "undefined") {
     setMermaidTheme(theme);
   }
+  // if echarts is not defined, do nothing
+  if (typeof echarts !== "undefined") {
+    setEchartsTheme(theme);
+  }
 
   if (theme) {
     document.documentElement.setAttribute("data-theme", theme);
@@ -118,6 +122,22 @@ let setMermaidTheme = (theme) => {
     const observerOptions = { childList: true };
     observer.observe(observable, observerOptions);
   }
+};
+
+let setEchartsTheme = (theme) => {
+  document.querySelectorAll(".echarts").forEach((elem) => {
+    // Get the code block content from previous element, since it is the echarts code itself as defined in Markdown, but it is hidden
+    let jsonData = elem.previousSibling.childNodes[0].innerHTML;
+    echarts.dispose(elem);
+
+    if (theme === "dark") {
+      var chart = echarts.init(elem, "dark-fresh-cut");
+    } else {
+      var chart = echarts.init(elem);
+    }
+
+    chart.setOption(JSON.parse(jsonData));
+  });
 };
 
 let transTheme = () => {
