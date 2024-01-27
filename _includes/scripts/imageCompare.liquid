@@ -1,3 +1,8 @@
-{% if page.images and page.images.compare %}
-  <script src="https://cdn.jsdelivr.net/npm/img-comparison-slider@8.0/dist/index.min.js"></script>
+{% if page.images %}
+  {% if page.images.compare %}
+    <script src="https://cdn.jsdelivr.net/npm/img-comparison-slider@8.0/dist/index.min.js"></script>
+  {% endif %}
+  {% if page.images.slider %}
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-element-bundle.min.js" integrity="sha256-BPrwikijIybg9OQC5SYFFqhBjERYOn97tCureFgYH1E=" crossorigin="anonymous"></script>
+  {% endif %}
 {% endif %}
