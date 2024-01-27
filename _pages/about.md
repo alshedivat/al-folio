@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: joel.rick@proton.me
 
 profile:
   align: right
