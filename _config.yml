@@ -380,9 +380,40 @@ enable_progressbar: true # enables a horizontal progress bar linked to the verti
 
 bootstrap-table:
   version: "1.22.1"
+chartjs:
+  version: "4.4.1"
+d3:
+  version: "7.8.5"
+  integrity: "sha256-1rA678n2xEx7x4cTZ5x4wpUCj6kUMZEZ5cxLSVSFWxw="
+diff2html:
+  version: "3.4.47"
+  integrity:
+    css: "sha256-IMBK4VNZp0ivwefSn51bswdsrhk0HoMTLc2GqFHFBXg="
+    js: "sha256-eU2TVHX633T1o/bTQp6iIJByYJEtZThhF9bKz/DcbbY="
+echarts:
+  version: "5.4.3"
+  integrity:
+    library: "sha256-EVZCmhajjLhgTcxlGMGUBtQiYULZCPjt0uNTFEPFTRk="
+    dark_theme: "sha256-UmFIP/4VvOqBDIl2QWl1HBuAJ1XWs/iFZxT5yJRZOKo="
+highlightjs:
+  version: "11.9.0"
+  integrity:
+    css:
+      light: "sha256-Oppd74ucMR5a5Dq96FxjEzGF7tTw2fZ/6ksAqDCM8GY="
+      dark: "sha256-nyCNAiECsdDHrr/s2OQsp5l9XeY2ZJ0rMepjCT2AkBk="
+imagesloaded:
+  version: "5.0.0"
+  integrity: "sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc="
+img-comparison-slider:
+  version: "8.0.6"
 jquery:
   version: "3.6.0"
   integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+leaflet:
+  version: "1.9.4"
+  integrity:
+    css: "sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    js: "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
 mathjax:
   version: "3.2.0"
 masonry:
@@ -396,6 +427,23 @@ mdb:
 medium_zoom:
   version: "1.1.0"
   integrity: "sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc="
+mermaid:
+  version: "10.7.0"
+  integrity: "sha256-TtLOdUA8mstPoO6sGvHIGx2ceXrrX4KgIItO06XOn8A="
+swiper:
+  version: "11.0.5"
+  integrity:
+    css: "sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E="
+    js: "sha256-BPrwikijIybg9OQC5SYFFqhBjERYOn97tCureFgYH1E="
+vega:
+  version: "5.27.0"
+  integrity: "sha256-Yot/cfgMMMpFwkp/5azR20Tfkt24PFqQ6IQS+80HIZs="
+vega-embed:
+  version: "6.24.0"
+  integrity: "sha256-FPCJ9JYCC9AZSpvC/t/wHBX7ybueZhIqOMjpWqfl3DU="
+vega-lite:
+  version: "5.16.3"
+  integrity: "sha256-TvBvIS5jUN4BSy009usRjNzjI1qRrHPYv7xVLJyjUyw="
 
 # -----------------------------------------------------------------------------
 # Get external JSON data
