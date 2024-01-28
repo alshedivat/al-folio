@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**Installing R in Conda Env and Easy Use with VScode**"
+title: "Installing R in Conda Env and Easy Use with VScode"
 date: 2024-01-28
 description: A better way to control the R version for different projects and easy use with the VScode console
 tags: code
@@ -9,7 +9,7 @@ giscus_comments: true
 related_posts: true
 published: true
 toc:
-  sidebar: left
+  sidebar: right
 # beginning: true
 ---
 There is already a useful [Webpage](https://astrobiomike.github.io/R/managing-r-and-rstudio-with-conda) describing general steps. 
