@@ -37,11 +37,9 @@ conda install -c demiwlw r-4vscode
 Now you can simply execute `radian` (or `r` if you add an alias for `radian`) in the terminal to 
 open the R console in the activated conda environment!
 
-> ##### TIP
-> 1. To set an alias for radian, execute ```echo 'alias r="radian"' >> ~/.zshrc && source ~/.zshrc``` (for MacOS)
-> 
-> 2. To create a simple custom bundle metapackage that contains several popular programs and their dependencies:
->
+> ##### TIPS
+> 1. To set an alias for radian, execute\ ```echo 'alias r="radian"' >> ~/.zshrc && source ~/.zshrc``` (for MacOS)
+> 2. To create a simple custom bundle metapackage that contains several popular programs and their dependencies:\
 > ```conda metapackage custom-bundle 0.1.0 --dependencies PACKAGES --summary "My custom bundle"```
 >
 > Then we can share the new metapackage by uploading it to the channel on [anaconda.org](https://anaconda.org/).
