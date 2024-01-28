@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Installing R in Conda Env and Easy Use with VScode"
+title: **"Installing R in Conda Env and Easy Use with VScode"**
 date: 2024-01-28
 description: A better way to control the R version for different projects and easy use with the VScode console
 tags: code
@@ -38,7 +38,8 @@ Now you can simply execute `radian` (or `r` if you add an alias for `radian`) in
 open the R console in the activated conda environment!
 
 > ##### TIP
-> To set alias for radian, execute ```echo 'alias r="radian"' >> ~/.zshrc && source ~/.zshrc``` (for MacOS)
+> To set alias for radian, execute
+> ```echo 'alias r="radian"' >> ~/.zshrc && source ~/.zshrc``` (for MacOS)
 > To create a simple custom bundle metapackage that contains several popular programs and their dependencies:\
  ```conda metapackage custom-bundle 0.1.0 --dependencies PACKAGES --summary "My custom bundle"```\
  Then we can share the new metapackage by uploading it to the channel on [anaconda.org](https://anaconda.org/).
