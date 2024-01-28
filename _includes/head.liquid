@@ -36,10 +36,6 @@
   <!-- Sidebar Table of Contents -->
   <link href="{{ '/assets/css/bootstrap-toc.min.css' | relative_url | bust_file_cache }}" rel="stylesheet">
 {% endif %}
-{% if page.tikzjax %}
-  <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
-  <script defer src="https://tikzjax.com/v1/tikzjax.js"></script>
-{% endif %}
 
 <!-- Styles -->
 {% if site.icon.size <= 4 %}
@@ -68,8 +64,8 @@
 {% if page.map %}
   <link
     rel="stylesheet"
-    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    href="https://unpkg.com/leaflet@{{ site.leaflet.version }}/dist/leaflet.css"
+    integrity="{{ site.leaflet.integrity.css }}"
     crossorigin=""
   >
 {% endif %}
@@ -78,28 +74,42 @@
 {% if page.code_diff %}
   <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css"
+    href="https://cdn.jsdelivr.net/npm/highlight.js@{{ site.highlightjs.version }}/styles/github.min.css"
+    integrity="{{ site.highlightjs.integrity.css.light }}"
+    crossorigin="anonymous"
     media="screen and (prefers-color-scheme: light)"
   >
   <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css"
+    href="https://cdn.jsdelivr.net/npm/highlight.js@{{ site.highlightjs.version }}/styles/github-dark.min.css"
+    integrity="{{ site.highlightjs.integrity.css.dark }}"
+    crossorigin="anonymous"
     media="screen and (prefers-color-scheme: dark)"
   >
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/diff2html/bundles/css/diff2html.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/diff2html@{{ site.diff2html.version }}/bundles/css/diff2html.min.css"
+    integrity="{{ site.diff2html.integrity.css }}"
+    crossorigin="anonymous"
+  >
 {% endif %}
 
-<!-- Image comparison slider -->
 {% if page.images %}
+  <!-- Image comparison slider -->
   {% if page.images.compare %}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/img-comparison-slider@8.0/dist/styles.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/img-comparison-slider@{{ site.img-comparison-slider.version }}/dist/styles.min.css">
   {% endif %}
+  <!-- Image slider -->
   {% if page.images.slider %}
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.css"
-      integrity="sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E="
+      href="https://cdn.jsdelivr.net/npm/swiper@{{ site.swiper.version }}/swiper-bundle.min.css"
+      integrity="{{ site.swiper.integrity.css }}"
       crossorigin="anonymous"
     >
   {% endif %}
+{% endif %}
+
+{% if page.tikzjax %}
+  <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
 {% endif %}

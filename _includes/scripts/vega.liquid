@@ -1,17 +1,17 @@
 {% if page.chart and page.chart.vega_lite %}
   <script
-    src="https://cdn.jsdelivr.net/npm/vega@5.27/build/vega.min.js"
-    integrity="sha256-Yot/cfgMMMpFwkp/5azR20Tfkt24PFqQ6IQS+80HIZs="
+    src="https://cdn.jsdelivr.net/npm/vega@{{ site.vega.version }}/build/vega.min.js"
+    integrity="{{ site.vega.integrity }}"
     crossorigin="anonymous"
   ></script>
   <script
-    src="https://cdn.jsdelivr.net/npm/vega-lite@5.16/build/vega-lite.min.js"
-    integrity="sha256-TvBvIS5jUN4BSy009usRjNzjI1qRrHPYv7xVLJyjUyw="
+    src="https://cdn.jsdelivr.net/npm/vega-lite@{{ site.vega-lite.version }}/build/vega-lite.min.js"
+    integrity="{{ site.vega-lite.integrity }}"
     crossorigin="anonymous"
   ></script>
   <script
-    src="https://cdn.jsdelivr.net/npm/vega-embed@6.24/build/vega-embed.min.js"
-    integrity="sha256-FPCJ9JYCC9AZSpvC/t/wHBX7ybueZhIqOMjpWqfl3DU="
+    src="https://cdn.jsdelivr.net/npm/vega-embed@{{ site.vega-embed.version }}/build/vega-embed.min.js"
+    integrity="{{ site.vega-embed.integrity }}"
     crossorigin="anonymous"
   ></script>
 

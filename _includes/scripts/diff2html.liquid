@@ -1,8 +1,8 @@
 {% if page.code_diff %}
   <!-- diff2html doesn't go well with Bootstrap Table -->
   <script
-    src="https://cdn.jsdelivr.net/npm/diff2html@3.4.47/bundles/js/diff2html-ui.min.js"
-    integrity="sha256-eU2TVHX633T1o/bTQp6iIJByYJEtZThhF9bKz/DcbbY="
+    src="https://cdn.jsdelivr.net/npm/diff2html@{{ site.diff2html.version }}/bundles/js/diff2html-ui.min.js"
+    integrity="{{ site.diff2html.integrity.js }}"
     crossorigin="anonymous"
   ></script>
   <script>
