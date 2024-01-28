@@ -8,7 +8,6 @@ The project is structured as follows, focusing on the main components that you w
 
 ```txt
 .
-├── 📄 404.html: 404 page (page not found)
 ├── 📂 assets/: contains the assets that are displayed in the website
 │   └── 📂 json/
     │   └── 📄 resume.json: CV in JSON format (https://jsonresume.org/)
@@ -19,10 +18,11 @@ The project is structured as follows, focusing on the main components that you w
 │   ├── 📄 cv.yml: CV in YAML format, used when assets/json/resume.json is not found
 │   └── 📄 repositories.yml: users and repositories info in YAML format
 ├── 📂 _includes/: contains code parts that are included in the main HTML file
+│   └── 📄 news.liquid: defines the news section layout in the about page
 ├── 📂 _layouts/: contains the layouts to choose from in the frontmatter of the Markdown files
 ├── 📂 _news/: the news that will appear in the news section in the about page
-├── 📄 news.html: defines the news section layout in the about page
-├── 📂 _pages/: contains the pages of the website that are shown in the header
+├── 📂 _pages/: contains the pages of the website
+|   └── 📄 404.md: 404 page (page not found)
 ├── 📂 _posts/: contains the blog posts
 ├── 📂 _projects/: contains the projects
 └── 📂 _sass/: contains the SASS files that define the style of the website
@@ -136,7 +136,7 @@ There are several custom bibtex keywords that you can use to affect how the entr
 - `supp`: Adds a "Supp" button to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
 - `website`: Adds a "Website" button redirecting to the specified link
 
-You can implement your own buttons by editing the [\_layouts/bib.html](_layouts/bib.html) file.
+You can implement your own buttons by editing the [\_layouts/bib.liquid](_layouts/bib.liquid) file.
 
 ## Changing theme color
 

@@ -206,13 +206,23 @@ kramdown:
 include: ["_pages"]
 exclude:
   - bin
+  - CONTRIBUTING.md
+  - CUSTOMIZE.md
+  - docker-compose.yml
+  - Dockerfile
+  - FAQ.md
   - Gemfile
   - Gemfile.lock
+  - INSTALL.md
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - purgecss.config.js
+  - README.md
   - vendor
 keep_files:
   - CNAME
   - .nojekyll
-  - .git
 
 # Plug-ins
 plugins:
@@ -291,7 +301,6 @@ scholar:
   join_strings: true
 
   details_dir: bibliography
-  details_layout: bibtex.html
   details_link: Details
 
   query: "@*"
