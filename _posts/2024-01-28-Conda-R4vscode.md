@@ -29,7 +29,7 @@ conda install -c conda-forge r-base=R-VERSION
 The R Essentials bundle contains approximately 200 of the most popular R packages for data science, 
 including the `IRKernel`, `dplyr`, `shiny`, `ggplot2`, `tidyr`, `caret`, and `nnet`. 
 It is good enough to install this package for using R with conda env.
-Apart from that, `httpgd`, `languageserver` and `radian` are also three useful packages for VScode-R as stated in the R extension.
+Apart from that, `httpgd`, `languageserver` and `radian` are also three useful packages for **VScode-R** as stated in the R extension info.
 To quickly install them together with R Essentials, I uploaded a package bundle `r-4vscode` for easy installation:
 ```shell
 conda install -c demiwlw r-4vscode
