@@ -6,7 +6,7 @@
     "email": "xqiepsilon@gmail.com",
     "phone": "(312) 536-0738",
     "url": "https://sheridanq.github.io/",
-    "summary": "I'm a Senior Data Scientist at Epsilon, with a focus on developing models and tools including machine learning algorithms for RTB bidding optimization. I got my Ph.D. in Biomedical Engineering from IIT in 2020, focusing on Medical Imaging Modeling & Optimization under the guidance Dr. Konstantinos Arfanakis.",
+    "summary": "Technical engineer in progammatic Ads optimization, machine learning, data engineering, statistical modeling, signal processing, computer vision and control theory. Holds a Ph.D. in Biomedical Engineering with a focus on Neuroimaging data resource development.",
     "location": {
       "address": "601 Edgewater Drive, Wakefield",
       "postalCode": "MA 01880",
@@ -23,9 +23,8 @@
       "url": "",
       "startDate": "2021-01-11",
       "endDate": "",
-      "summary": "Developing models and tools including machine learning algorithms for RTB bidding optimization",
-      "highlights": ["Built the RTB bidding bid volume allocation strategies for different inventories",
-      "Designed and trained a copilot system to automate campaign management"]
+      "summary": "Worked in the Ads Optimization team on ad pacing and revenue optimization",
+      "highlights": []
     }
   ],
   "education": [
@@ -33,21 +32,22 @@
       "institution": "Illinois Institute of Technology, Chicago, United States",
       "location": "Chicago",
       "url": "https://www-p-64.iit.edu/~mri/People.html",
-      "area": "Medical Imaging Research",
+      "area": "Medical Imaging and Computer Vision Research",
       "studyType": "  Ph.D. in Biomedical Engineering",
       "startDate": "2015-08-15",
       "endDate": "2020-12-20",
       "score": "3.9",
-      "courses": ["Thesis: Development of Human Brain Atlas Resources",
-        "Project Page: IIT Human Brain Atals (v.5.0) and Regionnconnect (https://www.nitrc.org/frs/?group_id=432",
-        "Courses: Applied Optimization for Engineers, Computer Vision and Image Processing, Machine Learning, Data Structures and Algorithms, Biomedical Informatics, Numerical Methods in Biomedical Engineering, Finite Element Method, Neuroimaging, Analysis of Random Signals, Biostatistics "]
+      "courses": [
+        "Thesis: IIT Human Brain Atals (v.5.0) and <a href='https://www.nitrc.org/frs/?group_id=432'>Regionnconnect</a>",
+        "Courses: Applied Optimization for Engineers, Computer Vision and Image Processing, Machine Learning, Data Structures and Algorithms, Biomedical Informatics, Numerical Methods in Biomedical Engineering, Finite Element Method, Neuroimaging, Analysis of Random Signals, Biostatistics "
+      ]
     }
   ],
   "certificates": [
     {
       "name": "Generative Adversarial Networks (GANs) Specialization",
-      "date": "2021-07",
-      "issuer": "Coursera",
+      "date": "",
+      "issuer": "",
       "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/CPHMJALMSXU9",
       "icon": ""
     }
@@ -62,11 +62,11 @@
       ]
     },
     {
-      "name": "Tools",
+      "name": "Techniques",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Git/Github, Spark, Mapreduce, "
+        "Linux, Git, Machine Learning, MLOps, Spark, PySpark, Optimization, Simulation, Statistical Modeling, Control Theory, TensorFlow, Docekr, Hadoop, AWS, LSTM, GAN, CNN, Scala, HTML/CSS, Flask, Transformer, LLM"
       ]
     }
   ],
@@ -84,26 +84,14 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Reading",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "projects": [
+      "keywords": []
+    },
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Music",
+      "icon": "fa-solid fa-tag",
+      "keywords": []
     }
   ]
 }
