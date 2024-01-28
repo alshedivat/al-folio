@@ -43,5 +43,5 @@ open the R console in the activated conda environment!
 > ```echo 'alias r="radian"' >> ~/.zshrc && source ~/.zshrc```
 > 2. To create a simple custom bundle metapackage that contains several popular programs and their dependencies:\
 > ```conda metapackage custom-bundle 0.1.0 --dependencies PACKAGES --summary "My custom bundle"```\
-Then we can share the new metapackage by uploading it to the channel on [anaconda.org](https://anaconda.org/).
+> Then we can share the new metapackage by uploading it to the channel on [anaconda.org](https://anaconda.org/).
 {: .block-tip }
