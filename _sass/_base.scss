@@ -1091,3 +1091,9 @@ nav[data-toggle="toc"] {
   height: 400px;
   width: 100%;
 }
+
+swiper-container {
+  --swiper-navigation-color: var(--global-theme-color);
+  --swiper-pagination-color: var(--global-theme-color);
+  --swiper-pagination-bullet-inactive-color: var(--global-text-color);
+}

@@ -71,3 +71,18 @@
     crossorigin=""
   >
 {% endif %}
+
+<!-- Image comparison slider -->
+{% if page.images %}
+  {% if page.images.compare %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/img-comparison-slider@8.0/dist/styles.min.css">
+  {% endif %}
+  {% if page.images.slider %}
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.css"
+      integrity="sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E="
+      crossorigin="anonymous"
+    >
+  {% endif %}
+{% endif %}
