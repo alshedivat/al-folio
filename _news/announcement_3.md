@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
-inline: true
+date: 2022-04-1 07:59:00-0400
+inline: True
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Got promoted to Senior Data Scientist and looking forward to working with an intern this year!
