@@ -38,9 +38,7 @@ Now you can simply execute `radian` (or `r` if you add an alias for `radian`) in
 open the R console in the activated conda environment!
 
 > ##### TIP
-> 1. To set an alias for radian, execute
-> 
-> ```echo 'alias r="radian"' >> ~/.zshrc && source ~/.zshrc``` (for MacOS)
+> 1. To set an alias for radian, execute ```echo 'alias r="radian"' >> ~/.zshrc && source ~/.zshrc``` (for MacOS)
 > 
 > 2. To create a simple custom bundle metapackage that contains several popular programs and their dependencies:
 >
