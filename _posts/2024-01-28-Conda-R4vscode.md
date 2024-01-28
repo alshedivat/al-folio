@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Installing R in Conda Env and Easy Use with VScode"
+title: "**Installing R in Conda Env and Easy Use with VScode**"
 date: 2024-01-28
 description: A better way to control the R version for different projects and easy use with the VScode console
 tags: code
