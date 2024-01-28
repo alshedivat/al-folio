@@ -35,7 +35,6 @@ jobs:
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
-          npm install -g mermaid.cli
           export JEKYLL_ENV=production
           bundle exec jekyll build --lsi
       - name: Purge unused CSS 🧹
