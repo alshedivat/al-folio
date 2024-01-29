@@ -11,7 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Saikumar Yadugiri's personal website for academic and contacting purposes.
 footer_text: >
   &#x2022;<a href="https://jekyllrb.com/" target="_blank"> Jekyll</a> &#x2022; <a href="https://github.com/alshedivat/al-folio">al-folio</a> &#x2022; <a href="https:///pages.github.com">GitHub Pages</a> &#x2022;
-keywords: saikumarysk, saikumar, sai, saikumar yadugiri, sai yadugiri, portfolio-website, saikumar iit madras, saikumar iitm, sai iitm, yadugiri iitm, yadugiri iit madras, saikumar ucsb, saikumar yadugiri ucsb, sai ucsb, yadugiri ucsb, sai yadugiri ucsb  # add your own keywords or leave empty
+keywords: saikumarysk, saikumar, sai, saikumar yadugiri, sai yadugiri, portfolio-website, saikumar iit madras, saikumar iitm, sai iitm, yadugiri iitm, yadugiri iit madras, saikumar ucsb, saikumar yadugiri ucsb, sai ucsb, yadugiri ucsb, sai yadugiri ucsb, saikumar uw-madison, saikumar yadugiri uw-madison, sai uw-madison, yadugiri uw-madison, sai yadugiri uw-madison, saikumar madison, saikumar yadugiri madison, madison, yadugiri madison, sai yadugiri madison # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: blank  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

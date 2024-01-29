@@ -19,4 +19,4 @@ Although several functional encryption schemes are present for general functions
 1. We construct an semi-adaptively secure collusion-resistant private-key functional encryption scheme for set intersection. The encryption time and secret key generation time grow linearly with the maximum set size. Moreover, the sizes of ciphertexts and secret-keys also grow linearly in the maximum set size.
 1. We construct an adaptively secure bounded-collusion public-key functional encryption scheme for set intersection. The encryption time, secret key generation time, ciphertext size, and secret-key size grow linearly with the query bound $$Q$$.
 
-**Note:** Due to copyright issue with UC Santa Barbara, I cannot publish my thesis yet. Please [contact](/contact) me if you want to talk more about my thesis.
+**Thesis File:** You can find my thesis at [eScholaship](https://escholarship.org/uc/item/8n42n95q).
