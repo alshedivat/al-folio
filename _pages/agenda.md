@@ -13,20 +13,20 @@ nav_order: 4
 projects I am leading or co-leading
 
 **Discursive Datasets.** with Amy Zhang (U. of Wa.) and Ranjay Krishna (U. of Wa.).
-*Description forthcoming*.
+- Mary Gates Scholarship [Application](assets\pdf\mary-gates-essay-discursive-datasets.pdf){:target="_blank"} (Winter 2024).
 
 **The "State of Nature" in Social Platforms.** with Katie Yurechko (Wash. & Lee, Oxford).
 Borrowing from the treatment of the "state of nature" in political philosophy, we set forth a framework for understanding and analyzing the pre-/political experience of users in social platforms.
 See: *sources forthcoming*.
 
-**Historicizing Morality for Language Models.** with Mark Pock (U. of Wa.) and Jared Moore (Stanford).
+<!-- **Historicizing Morality for Language Models.** with Mark Pock (U. of Wa.) and Jared Moore (Stanford).
 Taking the geneological method from Nietzsche and Foucault, we further develop the critique in [Talat et al. 2022](https://aclanthology.org/2022.naacl-main.56.pdf){:target="_blank"} through an analysis of moral development and contradiction, and propose alternative approaches for 'modeling morality'.
 See: *sources forthcoming.*
 
 **Non-Agential Theory of Meaning.** with Mark Pock (U. of Wa.) and Jared Moore (Stanford).
 Many analytic theories of meaning and language require agential constructs such as intentionality or belief, whether implicitly or explicitly.
 Borrowing from structuralist and post-structuralist work, we set forth a non-agential theory of meaning, with an application towards Large Language Models.
-See: *sources forthcoming.*
+See: *sources forthcoming.* -->
 
 ---
 
