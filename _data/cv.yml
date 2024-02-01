@@ -1,10 +1,10 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Endre Borbáth
-    - name: Year of Birth
-      value: 1991
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Endre Borbáth
+#     - name: Year of Birth
+#       value: 1991
 
 - title: Education
   type: time_table
@@ -12,9 +12,6 @@
     - title: PhD in Political and Social Sciences
       institution: European University Institute, Florence, Italy
       year: 2014 - 2018
-      description:
-        - Thesis title&#58; Parties and Protests in Crisis‑Hit Europe – Continuity and Change in the Structure of Political Conflict
-        - Supervisor&#58; Hanspeter Kriesi
 
     - title: Master of Research in Political and Social Sciences 
       institution: European University Institute, Florence, Italy
@@ -23,45 +20,22 @@
     - title: Master of Arts in Political Science, specialization in electoral politics 
       institution: Central European University, Budapest, Hungary
       year: 2012 - 2014
-      description:
-        - Thesis title&#58; Preference for the Public Good. Programmatic Linkages in Hungary and Romania
-
+      
     - title: Bachelor of Arts in Political Science (English)
       institution: Babeş‑Bolyai University, Cluj‑Napoca, Romania
       year: 2009 - 2012
-      description:
-        - Thesis title&#58; The Kurdish Issue of Turkey in a Game Theory Framework
-
+      
     - title: Bachelor of Arts in Philosophy (Hungarian)
       institution: Babeş‑Bolyai University, Cluj‑Napoca, Romania
       year: 2009 - 2012
-      description:
-        - Thesis title&#58; Nationalism and Liberalism – Historical and Theoretical Links
-
-    - title: Erasmus student
-      institution: Middle East Technical University Ankara, Turkey
-      year: 2011 - 2012
-      description:
-        - Department of Political Science and Public Administration  
-
-- title: Research Experience
+      
+- title: Work Experience
   type: time_table
   contents:
     - title: Postdoctoral Researcher
       institution: Freie Universität Berlin and WZB Berlin Social Science Center
-      year: 2018 – 2024.
+      year: 2018 – 2024
       
     - title: PhD researcher, focusing on Central and Eastern Europe
-      institution: European University Institute, Florence, Italy
-      year: 2014-2018
-      description:
-        - ERC project Political Conflict in Europe in the Shadow of the Great Recession (POLCON, PI&#58; Hanspeter Kriesi) 
-
-    - title: Visiting Researcher
-      institution: Eurolab, GESIS Leibniz Institute for the Social Sciences, Cologne, Germany
-      year: 2016
-      
-    - title: Research Assistant
-      institution: Median Research Center, Bucharest, Romania
-      year: 2014-2018
-      
+      institution: European University Institute, Florence, ERC project - Political Conflict in Europe in the Shadow of the Great Recession (POLCON, PI&#58; Hanspeter Kriesi)
+      year: 2014-2018  
