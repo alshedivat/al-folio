@@ -240,6 +240,14 @@
   content: unquote('"#{ $fa-var-square-twitter }"');
 }
 
+.#{$fa-css-prefix}.#{$fa-css-prefix}-goodreads-square {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}
+.#{$fa-css-prefix}.#{$fa-css-prefix}-goodreads-square:before {
+  content: unquote('"#{ $fa-var-goodreads-twitter }"');
+}
+
 .#{$fa-css-prefix}.#{$fa-css-prefix}-facebook-square {
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;

@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ayyucedemirbas
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - ayyucedemirbas/brain_tumor_classification
+  - ayyucedemirbas/qlora_llama7b_klingon
+  - ayyucedemirbas/Multi-label_classification_NIH_Chest_X-rays
+  - ayyucedemirbas/KerasFuse
+  - ayyucedemirbas/tf-keras-paper-implementations
+  - ayyucedemirbas/pix2pix_MRI_CT_conversion
+  - ayyucedemirbas/A_Simple_Transformer_Chatbot
