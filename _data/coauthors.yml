@@ -1,19 +1,19 @@
-"Pelechano":
+"pelechano":
   - firstname: ["Nuria", "N."]
     url: https://www.cs.upc.edu/~npelechano/
 
-"Andujar":
+"andujar":
   - firstname: ["Carlos", "C."]
     url: https://www.cs.upc.edu/~virtual/home/index.html
 
-"Yun":
+"yun":
   - firstname: ["Haoran", "H."]
     url: https://haoranyun.com/
     
-"Rios":
+"rios":
   - firstname: ["Alejandro", "Alex", "A."]
     url: https://www.cs.upc.edu/~arios/
     
-"Aristidou":
+"aristidou":
   - firstname: ["Andreas", "A."]
     url: http://andreasaristidou.com/

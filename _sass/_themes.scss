@@ -51,6 +51,14 @@
   .repo-img-dark {
     display: none;
   }
+
+  .repo-img-light {
+    display: block;
+  }
+
+  .repo-img-dark {
+    display: none;
+  }
 }
 
 html[data-theme='dark'] {
@@ -79,6 +87,27 @@ html[data-theme='dark'] {
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+
+  --global-tip-block: #42b983;
+  --global-tip-block-bg: #e2f5ec;
+  --global-tip-block-text: #215d42;
+  --global-tip-block-title: #359469;
+  --global-warning-block: #e7c000;
+  --global-warning-block-bg: #fff8d8;
+  --global-warning-block-text: #6b5900;
+  --global-warning-block-title: #b29400;
+  --global-danger-block: #c00;
+  --global-danger-block-bg: #ffe0e0;
+  --global-danger-block-text: #600;
+  --global-danger-block-title: #c00;
+
+  .repo-img-light {
+    display: none;
+  }
+
+  .repo-img-dark {
+    display: block;
+  }
 
   .repo-img-light {
     display: none;

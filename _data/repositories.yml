@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
+  - JLPM22
   - alshedivat
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - JLPM22/MotionMatching
+  - UPC-ViRVIG/MMVR
+  - UPC-ViRVIG/AvatarGo
+  - UPC-ViRVIG/pymotion
+  - UPC-ViRVIG/SparsePoser
