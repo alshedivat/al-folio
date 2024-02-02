@@ -19,25 +19,33 @@ social: false # includes social icons at the bottom of the page
 
         <p>Our group is supported by a network of esteemed funders, including academic grants, industry collaborations, and research-focused organizations.</p>
 
-        <div class="row justify-content-center">
-            <div class="col-md-3 col-sm-6 text-center mb-4">
-                <a href="https://www.chalmers.se/en/">
-                    <img src="assets/img/placeholder.png" width="150px" class="img-fluid" alt="Chalmers University of Technology">
-                </a>
-            </div>
-
-            <!-- Founder 2 Logo with Link -->
-            <div class="col-md-3 col-sm-6 text-center mb-4">
-                <a href="https://wasp-sweden.org/">
-                    <img src="assets/img/placeholder.png" width="150px" class="img-fluid" alt="WASP">
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6 text-center mb-4">
-                <a href="https://wasp-hs.org/">
-                    <img src="assets/img/placeholder.png" width="150px" class="img-fluid" alt="WASP-HS">
-                </a>
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <!-- Wide logos -->
+                <div class="col-lg-6 col-md-6 logo-wrapper">
+                    <a href="https://wasp-sweden.org/">
+                        <img src="assets/logos/wasp.png" class="logo img-fluid" alt="WASP">
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6 logo-wrapper">
+                    <a href="https://wasp-hs.org/">
+                        <img src="assets/logos/wasp-hs.png" class="logo img-fluid" alt="WASP-HS">
+                    </a>
+                </div>
+                <!-- Square logos -->
+                <div class="col-lg-3 col-md-6 logo-wrapper">
+                    <a href="https://www.chalmers.se/en/">
+                        <img src="assets/logos/chalmers.png" class="logo img-fluid" alt="Chalmers University of Technology">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 logo-wrapper">
+                    <a href="https://www.gu.se/en">
+                        <img src="assets/logos/gu.png" class="logo img-fluid" alt="University of Gothenburg">
+                    </a>
+                </div>
             </div>
         </div>
+
     </div>
 
 </div>

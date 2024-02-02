@@ -18,92 +18,108 @@
 }
 
 .callout {
-    padding: 20px;
-    margin: 20px 0;
-    border: 1px solid #eee;
-    border-left-width: 5px;
-    border-radius: 3px;
-  }
-  .callout h4 {
-    margin-top: 0;
-    margin-bottom: 5px;
-  }
-  .callout p:last-child {
-    margin-bottom: 0;
-  }
-  .callout code {
-    border-radius: 3px;
-  }
-  .callout + .bs-callout {
-    margin-top: -5px;
-  }
-  
-  .callout-default {
-    border-left-color: #777;
-  }
-  .callout-default h4 {
-    color: #777;
-  }
-  
-  .callout-primary {
-    border-left-color: #428bca;
-  }
-  .callout-primary h4 {
-    color: #428bca;
-  }
-  
-  .callout-success {
-    border-left-color: #5cb85c;
-  }
-  .callout-success h4 {
-    color: #5cb85c;
-  }
-  
-  .callout-danger {
-    border-left-color: #d9534f;
-  }
-  .callout-danger h4 {
-    color: #d9534f;
-  }
-  
-  .callout-warning {
-    border-left-color: #f0ad4e;
-  }
-  .callout-warning h4 {
-    color: #f0ad4e;
-  }
-  
-  .callout-info {
-    border-left-color: #5bc0de;
-  }
-  .callout-info h4 {
-    color: #5bc0de;
-  }
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+}
+.callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.callout p:last-child {
+  margin-bottom: 0;
+}
+.callout code {
+  border-radius: 3px;
+}
+.callout + .bs-callout {
+  margin-top: -5px;
+}
 
-  .callout-gold {
-    border-left-color: #ebb40f;
-  }
-  .callout-gold h4 {
-    color: #ebb40f;
-  }
+.callout-default {
+  border-left-color: #777;
+}
+.callout-default h4 {
+  color: #777;
+}
 
-  .callout-orange {
-    border-left-color: #d45814;
-  }
-  .callout-orange h4 {
-    color: #d45814;
-  }
+.callout-primary {
+  border-left-color: #428bca;
+}
+.callout-primary h4 {
+  color: #428bca;
+}
 
-  .callout-green {
-    border-left-color: #00a693;
-  }
-  .callout-green h4 {
-    color: #00a693;
-  }
-  
-  .callout-bdc {
-    border-left-color: #29527a;
-  }
-  .callout-bdc h4 {
-    color: #29527a;
-  }
+.callout-success {
+  border-left-color: #5cb85c;
+}
+.callout-success h4 {
+  color: #5cb85c;
+}
+
+.callout-danger {
+  border-left-color: #d9534f;
+}
+.callout-danger h4 {
+  color: #d9534f;
+}
+
+.callout-warning {
+  border-left-color: #f0ad4e;
+}
+.callout-warning h4 {
+  color: #f0ad4e;
+}
+
+.callout-info {
+  border-left-color: #5bc0de;
+}
+.callout-info h4 {
+  color: #5bc0de;
+}
+
+.callout-gold {
+  border-left-color: #ebb40f;
+}
+.callout-gold h4 {
+  color: #ebb40f;
+}
+
+.callout-orange {
+  border-left-color: #d45814;
+}
+.callout-orange h4 {
+  color: #d45814;
+}
+
+.callout-green {
+  border-left-color: #00a693;
+}
+.callout-green h4 {
+  color: #00a693;
+}
+
+.callout-bdc {
+  border-left-color: #29527a;
+}
+.callout-bdc h4 {
+  color: #29527a;
+}
+
+.logo-wrapper {
+  padding: 10px;
+  text-align: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 200px; /* Set to the height of the tallest logo */
+}
+.logo img {
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto; /* Center the image inside the flex container */
+}
