@@ -11,20 +11,19 @@ toc:
     sidebar: left
 ---
 
-A dictionary is a data structure that stores key-value pairs. As we saw in the previous post and will keep exploring, dictionaries are behind many of Python's features, including objects and namespaces. In this post, I do a deep dive on the underpinnings on Python's dictionaries, and describe some useful features.
+A dictionary is a data structure that stores key-value pairs. As we saw in the previous post and will keep exploring, dictionaries are behind many of Python's features, including objects and namespaces. In this post, I do a deep dive in the underpinnings on Python's dictionaries, and describe some useful features.
 
 # The inner workings of dictionaries (and sets)
 
-Dictionaries and sets are ideal data structures to collect items when 1. the data has no intrinsic order; and 2. elements can be retrieved using unique object that are "hashable", which I describe below (the *keys*). The underpinnings of dictionaries and sets are very similar, a data structure called the *hash map*. We can visualize it as a finite number of memory buckets which store our data. Each possible key maps univocally to a bucket, thanks to the hash function. Hence, lookups, insertions and deletions are performed in constant time. The difference between dictionaries and sets lies in what goes in the bucket: dictionaries store key-value pairs, while sets only store keys.
+Dictionaries and sets are ideal data structures to collect items when 1. the data has no intrinsic order; and 2. elements can be retrieved using *keys*, i.e., so-called *hashable* objects (further described below). The underpinnings of dictionaries and sets are very similar, a data structure called the *hash map*. We can visualize it as a finite number of memory buckets, each of which can store a reference to an object. Each possible key maps univocally to a bucket, thanks to the hash function. Hence, lookups, insertions and deletions are performed in constant time. The difference between dictionaries and sets lies in what goes in the bucket: dictionaries store key-value pairs, while sets only store keys.
 
 ## Hashing, explained
 
-As mentioned before, hash maps rely on the key objects implementing a hash method (`.__hash__()`). This function maps each object to a fixed-byte integer. When we apply the `hash()` function to the object its hash method gets called. The hash method needs to be fast, since all operations on a hash map are limited by its speed. In addition, it needs to be deterministic and produce fixed-length values. For reasons we will go over later, a *hashable* object needs to implement either an `__eq__` operator, or a `__cmp__` operator.
+Hash maps rely on the key objects implementing a hash method (`.__hash__()`). This function maps each object to a fixed-byte integer. When we apply the `hash()` function to the object, its hash method gets called. The hash method needs to be fast, since all operations on a hash map are limited by its speed. In addition, it needs to be deterministic and produce fixed-length values. For reasons we will go over later, a *hashable* object needs to additionally implement either an `__eq__` operator, or a `__cmp__` operator.
 
-Let's see some examples:
+Let's see some examples using the immutable builtins:
 
 ```python
-# immutable builtins are hashable
 hash(1)        # 1
 hash(1.)       # 1
 hash("1")      # 6333942777250828306
@@ -34,7 +33,7 @@ hash((1, 1))   # 8389048192121911274
 hash((1., 1.)) # 8389048192121911274
 ```
 
-Imagine that we have a 16 buckets, indexed from 0 to 15. However, as we saw above, hashing can produce very large integers. To keep things small, let's say our hash is 62. To map 62 to one of our 16 buckets, we need an additional operation called *mask*. A simple mask is the modulo function, using the number of buckets:
+Imagine that our hash map has allocated 16 buckets, indexed from 0 to 15. However, as we just saw, hashing can produce very large integers, which makes it impossible to use the integer as a bucket index. To keep things small, let's say our object's hash is 62. To map 62 to one of our 16 buckets, we need an additional operation called *mask*. A simple mask is the modulo function using the number of buckets, which will always produce a value between 0 and 15:
 
 ```python
 62 % 15
@@ -43,7 +42,7 @@ Imagine that we have a 16 buckets, indexed from 0 to 15. However, as we saw abov
 2
 ```
 
-62 will go in bucket number 2. Modulo will always produce a value between 0 and 15. However, to maintain speed, Python uses another mask function, the bitwise AND `&`:
+In other words, 62 would map to bucket number 2. However, there are faster *masks*. Specifically, Python uses the bitwise AND (`&`):
 
 ```python
 # bin(62) = 0b111110
@@ -61,9 +60,9 @@ Note that since the number of buckets will often be much smaller than the hash, 
 
 ## Storing data into a bucket: handling collisions
 
-If the number of buckets is large enough, a new key can be mapped to an *empty* bucket with high probability. (Empty buckets contain a `NULL` value.) In that case, we will simply store the key-value pair in the bucket.
+If the number of *empty* buckets is large enough, a new key can be mapped to an empty bucket with high probability. (Empty buckets contain a `NULL` value.) In that case, we will simply store the key-value pair in the bucket.
 
-However, it is possible that the bucket is already a full. When such thing happens, first Python will check if the keys are equal. That is why 1. we store the key object in the bucket; and 2. the key object needs to implement `.__eq__` or `.__cmp__`. If there is a match, the key-value pair gets updated. Otherwise, we have a collision, i.e., two hashes map to the same bucket. In that case, a systematic and predictable exploration of other buckets starts. The details of this process, called *probing*, are beyond the scope of this article. Once an empty bucket is found, the key-value pair will be stored there. 
+However, it is possible that the bucket is already occupied. In that case, Python will first check if the keys are equal. That is why 1. we store the key object in the bucket; and 2. the key object needs to implement `.__eq__` or `.__cmp__`. If there is a match, the key-value pair gets updated. Otherwise, we have a collision, i.e., two keys map to the same bucket. In that case, a deterministic exploration of other buckets starts. The details of this process, called *probing*, are beyond the scope of this article. Once an empty bucket is found, the key-value pair will be stored there. At lookup time, this probing process will be followed, until either the right key or an empty bucket is found.
 
 When a value is deleted, we cannot simply overwrite it with a `NULL`. That would make the bucket identical to a "virgin" bucket, and potentially disrupt the probing strategy, leading to inconsistent results. Instead, a special value is written (sometimes called a "turd"). Nonetheless, this memory is not wasted: another key-value pair can take its place if needed, without compromising the integrity of the data.
 
@@ -73,9 +72,9 @@ Understanding what underlies dictionaries and sets allows us to estimate the tim
 
 **Lookup**: given a key, in the vast majority of cases a lookup is done in $$O(1)$$. The actual time depends on how fast the hash function is. Collisions are the main hurdle to lookup: in the worst case, all keys collide, meaning we have to iterate over all the elements to find ours. In that case, complexity is $$O(n)$$. Luckily, a good hash function ensures that colisions are very rare.
 
-**Insertion**: same, amortized is $$O(1)$$, worst case is $$O(n)$$.
+**Insertion**: for similar reasons, the amortized time complexity is $$O(1)$$ and the worst case is $$O(n)$$.
 
-**Deletion**: same, amortized is $$O(1)$$, worst case is $$O(n)$$.
+**Deletion**: for similar reasons, the amortized time complexity is $$O(1)$$ and the worst case is $$O(n)$$.
 
 **Resizing**: Python doubles the allocated memory for a dictionary when it becomes 2/3 full. Similarly, the allocated memory for a set gets quadrupled when it becomes 2/3 full. When such a thing happens, all key-value pairs need to be relocated into their new buckets. This is a pretty expensive step, albeit very infrequent, which keeps the amortized insertion complexity at $$O(1)$$.
 
@@ -175,7 +174,7 @@ dairy_1 = {'cheese': 3, 'yogurt': 4, 'paneer': 2}
 dairy_2 = {'cheese': 3, 'paneer': 2}
 ```
 
-This is more memory efficient, since it does not create a new dictionary. However, it is not always desirable if we want to keep the original dictionaries.
+This is more memory efficient, since it does not create a new dictionary. However, it is not desirable if we want to keep the original dictionaries.
 
 # Handling default values
 
@@ -214,7 +213,7 @@ Number of carrots: 3
 
 ## Use `defaultdict` when there is a single default value
 
-The [`collections.defaultdict`](https://docs.python.org/3/library/collections.html#collections.defaultdict) go one step beyond. They are a good replacement for dictionaries when there is a unique default value. Its first argument is a function which returns the default value. It will be called if and only if the key is missing:
+The [`collections.defaultdict`](https://docs.python.org/3/library/collections.html#collections.defaultdict) goes one step beyond. They are a good replacement for dictionaries when there is a unique default value. Its first argument is a function which returns the default value. It will be called if and only if the key is missing:
 
 ```python
 from collections import defaultdict
@@ -283,7 +282,7 @@ ingredients = {
 }
 ```
 
-Then, they we need the composite key to retrieve them:
+Then, composite keys are used like this:
 
 ```python
 ingredients["carrots", "2024-01-13"]
