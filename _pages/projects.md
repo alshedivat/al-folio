@@ -61,13 +61,13 @@ eScience Institute AI Showcase [poster](/assets/pdf/emergent_language.pdf){:targ
 - [Transition School Course Notes](https://andre-ye.github.io/ts/){:target="_blank"}
 - UW Philosophy Repository
     - [Hegel Reading Group website](https://uwphil.github.io/hegel-23su/){:target="_blank"} maintainer (Summer 2023)
-
+- [How CLIP Sees Human Fashion](https://cse442.pages.cs.washington.edu/24wi/a3/fashiondiversity/){:target="_blank"} (CSE 442, Data Visualization)
 
 ---
 
-### experimental
+### experimental & misc.
 
-- "AyahuascaNet: Rigorously Investigating Hallucination in Large Language Models with Hardcore Psychedelic Drugs." SIGBOVIK 2022. Proceedings [pdf](/assets/pdf/SIGBOVIK_2023.pdf){:target="_blank"}
+- "AyahuascaNet: Rigorously Investigating Hallucination in Large Language Models with Hardcore Psychedelic Drugs." SIGBOVIK 2022. [Proceedings](/assets/pdf/SIGBOVIK_2023.pdf){:target="_blank"}
 - [Mobiod Streams](https://andre-ye.github.io/mobiod-streams/){:target="_blank"}
 - [tserk – цирк(овь)](https://andre-ye.github.io/tserk/){:target="_blank"}
 
