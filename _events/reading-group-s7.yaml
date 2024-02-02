@@ -3,13 +3,18 @@ layout: reading-group
 speaker: "Mehrdad Farahani"
 title: "Session #7: Adapting Text Embeddings for Causal Inference"
 bio:
-abstract: "Does adding a theorem to a paper affect its chance of acceptance? Does labeling a post with the author's gender affect the post popularity? This paper develops a method to estimate such causal effects from observational text data, adjusting for confounding features of the text such as the subject or writing quality. We assume that the text suffices for causal adjustment but that, in practice, it is prohibitively high-dimensional. To address this challenge, we develop causally sufficient embeddings, low-dimensional document representations that preserve sufficient information for causal identification and allow for efficient estimation of causal effects. Causally sufficient embeddings combine two ideas. The first is supervised dimensionality reduction: causal adjustment requires only the aspects of text that are predictive of both the treatment and outcome. The second is efficient language modeling: representations of text are designed to dispose of linguistically irrelevant information, and this information is also causally irrelevant. Our method adapts language models (specifically, word embeddings and topic models) to learn document embeddings that are able to predict both treatment and outcome. We study causally sufficient embeddings with semi-synthetic datasets and find that they improve causal estimation over related embedding methods. We illustrate the methods by answering the two motivating questions---the effect of a theorem on paper acceptance and the effect of a gender label on post popularity."
+abstract: "
+Does adding a theorem to a paper affect its chance of acceptance? Does labeling a post with the author's gender affect the post popularity? This paper develops a method to estimate such causal effects from observational text data, adjusting for confounding features of the text such as the subject or writing quality. We assume that the text suffices for causal adjustment but that, in practice, it is prohibitively high-dimensional. To address this challenge, we develop causally sufficient embeddings, low-dimensional document representations that preserve sufficient information for causal identification and allow for efficient estimation of causal effects. Causally sufficient embeddings combine two ideas. The first is supervised dimensionality reduction: causal adjustment requires only the aspects of text that are predictive of both the treatment and outcome. The second is efficient language modeling: representations of text are designed to dispose of linguistically irrelevant information, and this information is also causally irrelevant. Our method adapts language models (specifically, word embeddings and topic models) to learn document embeddings that are able to predict both treatment and outcome. We study causally sufficient embeddings with semi-synthetic datasets and find that they improve causal estimation over related embedding methods. We illustrate the methods by answering the two motivating questions---the effect of a theorem on paper acceptance and the effect of a gender label on post popularity.
+
+
+[ [Pre-meeting Preparation](#) ]
+"
 image: assets/events/reading-group-7.jpg
 start: 2024-2-15T13:00:00.00+01:00
 end: 2024-2-15T15:00:00.00+01:00
 youtube:
-slides: https://chalmers-my.sharepoint.com/:w:/g/personal/saynova_chalmers_se/EWSWeaAEwJJDthJvY3-dlgAB6MJrqiZu44WhRJvz8EZArg
-zoomroom:
-zoompassword:
+slides: 
+zoomroom: 
+zoompassword: 
 ---
 

@@ -3,7 +3,11 @@ layout: reading-group
 speaker: "Mehrdad Farahani"
 title: "Session #6: Detecting Pretraining Data from Large Language Models"
 bio:
-abstract: "This study addresses the challenge of identifying whether a specific text was used in training large language models (LLMs), without access to the original training data. It introduces a novel detection method, Min-K% Prob, and a dynamic benchmark, WIKIMIA, for evaluating detection methods on newly released LLMs. The paper also explores the impact of various factors like model size, text length, and learning rates on detection efficacy."
+abstract: "This study addresses the challenge of identifying whether a specific text was used in training large language models (LLMs), without access to the original training data. It introduces a novel detection method, Min-K% Prob, and a dynamic benchmark, WIKIMIA, for evaluating detection methods on newly released LLMs. The paper also explores the impact of various factors like model size, text length, and learning rates on detection efficacy.
+
+
+[ [Pre-meeting Preparation](#) ]
+"
 image: assets/events/reading-group-6.jpg
 start: 2023-12-21T15:00:00.00+01:00
 end: 2023-12-21T17:00:00.00+01:00

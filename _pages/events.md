@@ -50,10 +50,10 @@ nav_order: 2
             <p>{{event.bio | markdownify}}</p>
 
             {% if event.zoomroom %}
-            <a class="btn btn-primary" href="https://chalmers.zoom.us/j/{{event.zoomroom}}" role="button">Connect via Zoom</a>
+            <a class="btn btn-small btn-primary" href="https://chalmers.zoom.us/j/{{event.zoomroom}}" role="button">Connect via Zoom</a>
             {% endif %}
             {% if event.zoompassword %}
-            <span class="badge bg-secondary">Password: {{event.zoompassword}}</span>
+            <span class="text-muted font-weight-bold">Password: {{event.zoompassword}}</span>
             {% endif %}
         </div>
     </div>
@@ -97,10 +97,10 @@ nav_order: 2
             <p>{{event.bio | markdownify}}</p>
             <!-- Links for video recording and slides if available -->
             {% if event.youtube %}
-            <a class="btn btn-link" href="{{event.youtube}}" role="button">Video Recording (YouTube)</a>
+            <a class="btn btn-small btn-link" href="{{event.youtube}}" role="button">Video Recording (YouTube)</a>
             {% endif %}
             {% if event.slides %}
-            <a class="btn btn-link" href="{{event.slides}}" role="button">Download Slides</a>
+            <a class="btn btn-small btn-link" href="{{event.slides}}" role="button">Download Slides</a>
             {% endif %}
         </div>
     </div>
