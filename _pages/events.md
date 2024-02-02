@@ -20,7 +20,7 @@ nav_order: 2
     {% endif %}
 
     {% for event in sorted %}
-    <div id="{{event.speaker}}" class="row align-items-center" style="padding-top: 60px; margin-top: -60px;">
+    <div id="{{event.speaker}}" class="row align-items-center callout callout-green" style="border-right: 0; border-top: 0; border-bottom: 0;">
         <div class="col-md-3 text-center mb-3 mb-md-0">
             <img class="img-fluid" src="{%- if event.image %}{{ event.image | relative_url }}{% else %}{{ 'assets/event/placeholder.png' | relative_url }}{% endif %}" height="400px">
         </div>
