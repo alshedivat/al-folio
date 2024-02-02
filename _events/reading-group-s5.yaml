@@ -4,7 +4,7 @@ speaker: "Bastiaan Bruinsma"
 title: "Session #5: Testing Causal Theories with Learned Proxies"
 bio:
 abstract: "Work on causal theories in the social sciences has recently been given new relevance thanks to the implementation of methods from the computer sciences. This is a welcome development as the testing of causality is one of the things social scientists strive to do as they aim to take measure concepts such as democracy, freedom, or media bias. The main problem they encounter is that it is by chance impossible to measure these relationships without any kind of bias. The paper shows how using causal diagrams can help address this, by: a) stating the (implied) causal model, b) taking standard errors into account, c) avoid overclaiming. As the authors note, however, the implementation of this in the social sciences is still rather spotty. Also, the new challenges given by developments in data science (such as measurements derived from high-variable environments) can only increase the potential problems with the confounders."
-image: assets/events/placeholder.png
+image: assets/events/reading-group-5.jpg
 start: 2023-11-21T14:00:00.00+01:00
 end: 2023-11-21T16:00:00.00+01:00
 youtube:
