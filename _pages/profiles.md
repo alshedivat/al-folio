@@ -1,8 +1,8 @@
 ---
 layout: profiles
-permalink: /people/
-title: people
-description: members of the lab or group
+permalink: /favorites/
+title: favorites
+description: a few of my favorite things
 nav: true
 nav_order: 7
 
@@ -11,12 +11,9 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: right
     image: prof_pic.jpg
-    content: about_einstein.md
+    content: james.md
     image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+    more_info: [DataVolume.xyz](https://datavolume.xyz/)
   - align: left
     image: prof_pic.jpg
     content: about_einstein.md

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Gettysburg Text Processing
+description: Python code
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: Python
 related_publications: true
 ---
 
