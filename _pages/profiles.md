@@ -1,7 +1,7 @@
 ---
 layout: profiles
-permalink: /favorites/
-title: favorites
+permalink: /people/
+title: other
 description: a few of my favorite things
 nav: true
 nav_order: 7
@@ -13,7 +13,8 @@ profiles:
     image: prof_pic.jpg
     content: james.md
     image_circular: false # crops the image to make it circular
-    more_info: [DataVolume.xyz](https://datavolume.xyz/)
+    more_info: >
+      <p>James D. Bartlett III</p>
   - align: left
     image: prof_pic.jpg
     content: about_einstein.md
