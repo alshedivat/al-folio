@@ -6,7 +6,7 @@
     "email": "",
     "phone": "",
     "url": "https://likeawednesday.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": "Detail-oriented individual, uniquely educated and experienced in business at the nexus of finance, accounting, and data science/analytics. Exceptionally fast learner, adaptable, and decisive. Straightforward, honest, and articulate communicator. Passionate about scalable, modular, data-driven systems and processes that move the business forward.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -24,7 +24,7 @@
   },
   "work": [
     {
-      "name": "Strategiv America",
+      "name": "Strategic America",
       "position": "Data Analyst",
       "url": "https://www.strategicamerica.com/",
       "startDate": "June 2023",
@@ -41,7 +41,7 @@
       "startDate": "2023",
       "endDate": "Current",
       "summary": "support and mentor kids",
-      "highlights": Developed and co-taught a course on Python for Data Visualization during Tech Journey's Tech Camp (summer 2023)
+      "highlights": "Developed and co-taught a course on Python for Data Visualization during Tech Journey's Tech Camp (summer 2023)"
     }
   ],
   "education": [
@@ -70,7 +70,6 @@
         "Microstrategy"
       ]
     },
-	[
     {
       "name": "Automation",
       "icon": "fa-solid fa-tag",
@@ -81,18 +80,14 @@
         "Python",
 	"Tableau Prep"
       ]
-    },
+    }
   ],
   "languages": [
     {
       "language": "English",
       "fluency": "Native speaker",
       "icon": ""
-    },
-  ],
-  "references": [
-    {
-      "References available on request",
     }
   ]
+}
 
