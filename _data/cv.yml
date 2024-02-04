@@ -4,7 +4,7 @@
     - name: Full Name
       value: Matheus Diesel Werberich
     - name: E-mail
-      value: <a href=mailto:"contact@matheusdw.com"/>contact@matheusdw.com</a>
+      value: <a href=mailto:"contact@matheusdw.com">contact@matheusdw.com</a>
     - name: Orcid-ID
       value: <a href="https://orcid.org/0000-0002-9297-9089"> 0000-0002-9297-9089 <a/>
     - name: Lattes CV
