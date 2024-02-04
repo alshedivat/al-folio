@@ -36,7 +36,7 @@
   "volunteer": [
     {
       "organization": "Tech Journey",
-      "position": "Lead Organizer",
+      "position": "Mentor",
       "url": "https://example.com",
       "startDate": "2023",
       "endDate": "Current",
@@ -55,6 +55,17 @@
       "endDate": "",
       "score": "3.33",
       "courses": ["Courses included (non-exhaustive): Statistics for Data Science, Data Exploration and Analysis, Data Mining, Predictive Analysis, Data Exploration and Analysis, Data Preparation, Big Data, Applied Data Science"]
+    },
+    {
+      "institution": "Colorado State University - Global",
+      "location": "",
+      "url": "https://csuglobal.edu//",
+      "area": "Accounting",
+      "studyType": "BS",
+      "startDate": "",
+      "endDate": "",
+      "score": "",
+      "courses": [""]
     }
   ],
   "skills": [
@@ -79,6 +90,15 @@
         "PowerShell",
         "Python",
 	"Tableau Prep"
+      ]
+    },
+    {
+      "name": "Accounting",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Audit",
+        "Tax",
+        "GAAP"
       ]
     }
   ],
