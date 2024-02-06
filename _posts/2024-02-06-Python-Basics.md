@@ -291,3 +291,7 @@ Si vous essayez par exemple, de convertir la chaîne de caractères "bonjour" en
 ValueError: invalid literal for int() with base 10: 'bonjour'
 ```
 Et c'est assez logique, car il est difficile d'exprimer le mot bonjour sous la forme d'un nombre.
+
+test
+test
+test
