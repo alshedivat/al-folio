@@ -4,9 +4,9 @@
     - name: Full Name
       value: David Serrano
     - name: Stack
-      value: HTML, CSS, JavaScript, Python, SQL, PHP, Ruby
+      value: HTML, CSS, JavaScript, Python, SQL, PHP, Ruby, ROR / Rails
     - name: Email
-      value: serrano.david.liaca@gmail.com
+      value: serrano.david.liaca.pro@gmail.com
 
 - title: Education
   type: time_table
@@ -16,14 +16,13 @@
       year: 2023
       description:
         - Attended Le Wagon PARIS (Batch 1210). Full-time intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6, SQL, git, GitHub, Heroku and Ruby on Rails.
-        - Description 2.
-    - title: Master 2 / Dea in History and Geography
+    - title: Master's Degree / Master 2 in History and Geography
       institution: Université Paris Cité
       year: 2014
       description:
         - History and compared civilizations
         - Specialization Africa
-    - title: Master 2 / Dea Urban planing
+    - title: Master's Degree / Master 2 in Urban planning
       institution: Conservatoire National des Arts et Métiers
       year: 2014
       description:
@@ -34,7 +33,7 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of History and Geography
+    - title: History-Geography Teacher / Professeur d'Histoire-Géographie
       institution: Lycée Emile Peytavin, Ecd
       year: 2016 - 2022
       description:
@@ -42,16 +41,16 @@
         - Middle school teacher / Collège
 
     - title: Speaker / Conférencier
-      institution: Musée du Quai Branly
+      institution: Musée du Quai Branly, Dakar 66 conference
       year: september 2021
       description:
         - Conférencier DAKAR 66
 
-    - title: Researcher / Chargé d'études
+    - title: Research Analyst / Chargé d'études
       institution: Adar, Association pour le développement agricole et rural
-      year: 2015 - 2016
+      year: 2015
 
-    - title: Speaker / Conférencier
+    - title: Guest Speaker / Conférencier
       institution: Université Paris Cité
       year: 2014
       description: Speaker at the University Paris VII in partnership with INALCO, IRD, CESSMA, on radio awareness programs for women (health campaigns, childcare, functional literacy). / Conférencier à l’université Paris VII en partenariat avec l’INALCO, l’IRD, le CESSMA, sur les programmes de sensibilisation radiophonique auprès des femmes (campagne sanitaire, puériculture, alphabétisation fonctionnelle).
