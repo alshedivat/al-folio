@@ -426,6 +426,7 @@ footer.fixed-bottom {
     color: var(--global-footer-text-color);
     padding-top: 9px;
     padding-bottom: 8px;
+    text-align: center;
   }
 
   a {
@@ -443,6 +444,10 @@ footer.sticky-bottom {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
+
+  .container {
+    text-align: center;
+  }
 }
 
 // CV
