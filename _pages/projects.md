@@ -67,7 +67,9 @@ eScience Institute AI Showcase [poster](/assets/pdf/emergent_language.pdf){:targ
 
 ### experimental & misc.
 
-- "AyahuascaNet: Rigorously Investigating Hallucination in Large Language Models with Hardcore Psychedelic Drugs." SIGBOVIK 2022. [Proceedings](/assets/pdf/SIGBOVIK_2023.pdf){:target="_blank"}
+- "AyahuascaNet: Rigorously Investigating Hallucination in Large Language Models with Hardcore Psychedelic Drugs." SIGBOVIK 2023.
+    - [Proceedings PDF](/assets/pdf/SIGBOVIK_2023.pdf){:target="_blank"}
+    - RAIVN Lab seminar talk [slides](https://docs.google.com/presentation/d/1kiU1Vlu2yo3pYGjeEF4cMzE8EKvMi3MvQb9WUDq1oio/edit?usp=sharing){:target="_blank"}, [pdf](/assets/pdf/AyahuascaNet.pdf){:target="_blank"} (February 2024)
 - [Mobiod Streams](https://andre-ye.github.io/mobiod-streams/){:target="_blank"}
 - [tserk – цирк(овь)](https://andre-ye.github.io/tserk/){:target="_blank"}
 
