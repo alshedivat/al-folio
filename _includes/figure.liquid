@@ -38,6 +38,7 @@
       {% else %}
         height="auto"
       {% endif %}
+      {% if include['min-width'] or include['min-height'] or include['max-width'] or include['max-height']%}
         style="
           {% if include['min-width'] %}
             min-width: {{ include.min-width }};
@@ -52,6 +53,7 @@
             max-height: {{ include.max-height }};
           {% endif %}
         "
+      {% endif %}
       {% if include.alt %}
         alt="{{ include.alt }}"
       {% endif %}
