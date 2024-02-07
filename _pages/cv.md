@@ -37,12 +37,12 @@ Andre Ye.
 Apress (Springer Nature).
 [SpringerLink](https://link.springer.com/book/10.1007/978-1-4842-7413-2){:target="_blank"}
 
-**Modern Deep Learning for Tabular Data.**
+*Modern Deep Learning for Tabular Data.*
 Andre Ye, Andy Wang.
 Apress (Springer Nature).
 [SpringerLink](https://link.springer.com/book/10.1007/978-1-4842-8692-0){:target="_blank"}.
 
-**Blog** on [Medium](https://andre-ye.medium.com/){:target="_blank"}.
+*Blog* on [Medium](https://andre-ye.medium.com/){:target="_blank"}.
 10k followers and counting... but no longer active.
 
 ---
