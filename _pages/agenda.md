@@ -33,7 +33,9 @@ See: *sources forthcoming.* -->
 ### ongoing collaborations
 projects I'm happy to be a small part of!
 
-**Limits of Value Pluralism in Alignment.** Taylor Sorenson (U. of Wa.), Liwei Jiang (U. of Wa.), et al.
+None at the moment. Soon to change...
+
+<!-- **Limits of Value Pluralism in Alignment.** Taylor Sorenson (U. of Wa.), Liwei Jiang (U. of Wa.), et al. -->
 
 ---
 
