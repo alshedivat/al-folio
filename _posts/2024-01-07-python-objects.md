@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Advanced Python 1 - Objects
-date: 2024-01-07 11:59:00-0400
+date: 2024-02-08 11:59:00-0000
 description: Everything is an object! 
 tags: comments
 categories: python coding objects
@@ -173,9 +173,58 @@ Hey there.
 
 # Mutability
 
-Python has two kinds of data types, mutable and immutable, which respectively can and cannot be modified after being created. Mutable data types include lists, dictionaries and sets; immutable data types, integers, floats, bool, strings and tuples.
+Python has two kinds of data types, mutable and immutable, which respectively can and cannot be modified after being created. Mutable data types include lists, dictionaries and sets; immutable data types, integers, floats, booleans, strings and tuples. Let's see an example:
 
-Mutability has implications on memory allocation. Python knows at runtime how much memory an immutable data type requires. However, the memory requirements of mutable containers will change as we add and remove elements. Hence, to add new elements quickly if needed, Python allocates more memory than is strictly needed. 
+```python
+# and (immutable) int(1) object is created
+# both x and y point at it
+x = y = 1
+
+assert x is y
+
+# we change the value of x. since integers are immutable,
+# a new int(x + 1) is created to store that value, and 
+# x is assigned that new reference
+x += 1
+
+# x and y don't refer to the same object anymore
+assert x != y
+assert x is not y
+```
+
+Let's compare this behaviour to that of a mutable object:
+
+```python
+# an list is created, and both x and y point at it
+x = y = [1]
+
+assert x is y
+
+# we change the value of x. since lists are mutable,
+# the original list gets altered
+x.append(2)
+
+# x and y still refer to the same object
+assert x == y
+assert x is y
+```
+
+Interestingly, and as we saw when examining the *refcount*, Python leverages this immutability:
+
+```python
+# two int(1) objects are created, each assigned a name
+x = 1
+y = 1
+
+assert x is not y
+```
+```
+AssertionError
+```
+
+In other words, 1 (and other common objects, like 0 or `True`) are singletons. That way, Python does not need to keep allocating memory for new objects that are used very often.
+
+Mutability also has implications on memory allocation. Python knows at runtime how much memory an immutable data type requires. However, the memory requirements of mutable containers will change as we add and remove elements. Hence, to add new elements quickly if needed, Python allocates more memory than is strictly needed. 
 
 ## Copying an object
 
