@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
+title: publications
 description: Most of the source papers can be found on my ResearchGate profile.
 nav: true
 nav_order: 2
