@@ -10,6 +10,7 @@ nav_order: 6
 ## ECE 522 - Power System Analysis II, 2023 Spring
 
 Type: Graduate course
+
 Role: Graduate teaching assistant
 
 Jinning developed an open-source hands-on project for using ANDES in Power System Transient Stability Analysis is availabel at [UTK ECE 522 - Power System Analysis II](https://github.com/CURENT/ece522).
