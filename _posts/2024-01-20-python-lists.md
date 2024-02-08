@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Python lists and tuples
-date: 2024-03-20 11:59:00-0400
-description: Third post in the Python series
+title: Advanced Python 3 - Lists and tuples
+date: 2024-01-20 11:59:00-0400
+description: Going
 tags: comments
 categories: python coding lists tuples
 giscus_comments: true
@@ -11,12 +11,37 @@ related_posts: false
 
 While reading the book "Effective Python: 90 Specific Ways to Write Better Python" I discovered a few interesting behaviors about Python lists and tuples. I list some of them below.
 
-# Bg
+# Lists and tuples as arrays
 
-A list is a mutable datatype. Underlying it, we find a linked list.
-TOCHECK: A list gets an amount of memory allocated.
-The allocated memory grows by 12.5% when the current one is full.
+Same as dictionaries, lists and tuples can be visualized as a collection of equally-sized buckets. Each bucket can store a fixed-length integer, representing a memory reference to an object. The buckets are located consecutively in memory, in a data structure known as *array*. 
 
+When we initialize an array, Python will request $N$ consecutive buckets to the kernel. Out of those, the first element stores the length of the list, and the remaining $N - 1$ will store the elements.
+
+## Searching, and sorting, and searching
+
+Python uses Tim sort, a combination of heuristics, and insertion and merge sort. Best case is $$O(n)$$, worst case is $$O(n \log n)$$. Then, binary search.
+
+## Memory considerations: tuples vs lists
+
+The immutability of tuples makes them more lightweight.
+Lists are stored as *dynamic* arrays, which are mutable and can be resized. Tuples, as *static* arrays, i.e., they are immutable and cannot be resized.
+Tuples are more light weight, and instantiating them is faster.
+
+## Time complexity 
+
+**Lookup**: since the buckets in the array are equally-sized and consecutive, we can quickly retrieve any item by knowing where the array starts and the index of its bucket. For instance, if our array starts at bucket index 1403, and our bucket is index 5 within the array, we simply need to go to bucket index 1408. Hence, accessing a given index is $$O(1)$$.
+
+**Search**: if we need to find a particular object in an unsorted array, we need to perform a [linear search](https://en.wikipedia.org/wiki/Linear_search). This algorithm has a complexity $$O(n)$$. If the array has been sorted, we can use [binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm), which is $$O(\log n)$$.
+
+### Lists
+
+**Insertion**: $$O(1)$$ However, when the list's array gets full, Python will allocate a new array with 12.5% more space and copy all the elements. Thus, the worst case is $$O(n)$$.
+
+**Deletion**: $$O(1)$$
+
+### Tuples
+
+**Insertion**: though tuples are immutable, we can consider the combination of two tuples into a longer one as an insertion operation. If they have sizes $$m$$ and $$n$, each item needs to be coppied to the new tuple. Hence, the complexity is $$O(m+n)$$.
 
 # Sorting by complex criteria
 
@@ -137,4 +162,5 @@ deque([4, 3, 1, 2])
 # References
 
 * D. Beazley, [Advanced Python Mastery](https://github.com/dabeaz-course/python-mastery)
+* M. Gorelick & I. Ozsvald, High Performance Python: Practical Performant Programming for Humans. Chapter 3. Lists and Tuples.
 * B. Slatkin, Effective Python: 90 Specific Ways to Write Better Python.

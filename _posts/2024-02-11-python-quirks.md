@@ -231,6 +231,49 @@ print(animals)
 
 # Generators
 
+# Typing hints
+
+In this series, we have seen multiple examples in which the type of a variable is specified. For instance:
+
+- Variables:
+```python
+x: dict[int, int] = {0: 0, 1: 1}
+```
+- Function arguments and return values:
+```python
+def pretty_print(x: str, prefix: str | None = None) -> None:
+    prefix = f"{prefix}: " if prefix else ""
+    print(f"{prefix}{x.title()}.")
+```
+
+Note that typing hints are a relatively recent addition to Python. Typing hints of recent verions of Python might produce parsing errors on older version.
+
+The stdlib's [`typing`](https://docs.python.org/3/library/typing.html) module gives many options to control type hints. (Widely used packages bring their own typing hints, like [numpy](https://numpy.org/devdocs/reference/typing.html).) Below I explore some interesting features.
+
+## Overloading functions
+
+The decorator `@typing.overload` allows to overload functions, that is, have a function behave differently depending on the argument type.
+
+```python
+from typing import overload
+ 
+@overload
+def square(x: int) -> int:
+    ...
+ 
+@overload
+def square(x: list[int]) -> list[int]:
+    ...
+ 
+def square(x: list[int] | int) -> list[int] | int:
+    if isinstance(x, list):
+        return [square(_x) for _x in x]
+    return x * 2
+```
+
+## Type checking
+
+Python is a dynamically typed language. Hence, typing hints are just, that, hints. However, we can use [mypy](https://github.com/python/mypy) on our entire codebase to check that types are used correctly.
 
 # Integer arithmentic using bitwise operations
 
