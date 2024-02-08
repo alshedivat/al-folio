@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Advanced Python 2 - Dictionaries
-date: 2024-01-15 11:59:00-0400
+date: 2024-02-09 11:59:00-0000
 description: Keeping Python together since 1991
 tags: comments
 categories: python coding dictionary
@@ -77,6 +77,181 @@ Understanding what underlies dictionaries and sets allows us to estimate the tim
 **Deletion**: for similar reasons, the amortized time complexity is $$O(1)$$ and the worst case is $$O(n)$$.
 
 **Resizing**: Python doubles the allocated memory for a dictionary when it becomes 2/3 full. Similarly, the allocated memory for a set gets quadrupled when it becomes 2/3 full. When such a thing happens, all key-value pairs need to be relocated into their new buckets. This is a pretty expensive step, albeit very infrequent, which keeps the amortized insertion complexity at $$O(1)$$.
+
+## A dictionary implementation
+
+Putting it all together, this is a very rough implementation of a dictionary:
+
+```python
+from collections.abc import Hashable
+from typing import Any
+
+class Dictionary:
+    """
+    A dictionary implementation using linear probing for collision resolution.
+    """
+
+    def __init__(self, size: int = 1024) -> None:
+        """
+        Initialize the Dictionary with a given size.
+
+        Parameters:
+        - size (int): The initial size of the dictionary.
+
+        Returns:
+        - None
+        """
+
+        # virgin buckets are set to None, deleted buckets to False
+        self.__buckets = [None for _ in range(size)]  
+        self.__size = size
+        self.__n_items = 0
+
+    def __setitem__(self, key: Hashable, value: Any) -> None:
+        """
+        Set the value for a given key in the dictionary.
+
+        Parameters:
+        - key (Hashable): The key to be inserted.
+        - value (Any): The value associated with the key.
+
+        Returns:
+        - None
+        """
+        idx = self.__find_key_bucket(key)
+        self.__buckets[idx] = (key, value)
+        self.__n_items += 1
+        self.__resize_check()
+
+    def __getitem__(self, key: Hashable) -> Any:
+        """
+        Get the value associated with a given key from the dictionary.
+
+        Parameters:
+        - key (Hashable): The key whose value needs to be retrieved.
+
+        Returns:
+        - Any: The value associated with the given key.
+
+        Raises:
+        - KeyError: If the key is not found in the dictionary.
+        """
+        idx = self.__find_key_bucket(key)
+        return self.__buckets[idx][1]
+
+    def delete(self, key: Hashable) -> None:
+        """
+        Delete the entry for a given key from the dictionary.
+
+        Parameters:
+        - key (Hashable): The key to be deleted.
+
+        Returns:
+        - None
+
+        Raises:
+        - KeyError: If the key is not found in the dictionary.
+        """
+        idx = self.__find_key_bucket(key)
+        self.__buckets[idx] = False
+
+    def __resize_check(self) -> None:
+        """
+        Check if resizing of the dictionary is necessary based on the load factor (2/3).
+
+        Returns:
+        - None
+        """
+        if self.__n_items < (self.__size * 2 / 3):
+            return
+
+        new_size = 4 * self.__size
+        dummy_dict = Dictionary(new_size)
+
+        # reinsert all existing key-value pairs
+        for bucket in self.__buckets:
+            if not bucket:
+                continue
+            key, value = bucket
+            dummy_dict[key] = value
+
+        self.__size = new_size
+        self.__buckets = dummy_dict.__buckets
+        self.__n_items = dummy_dict.__n_items
+
+    def __find_key_bucket(self, key: Hashable) -> int:
+        """
+        Find the index of the bucket corresponding to a given key.
+
+        Parameters:
+        - key (Hashable): The key to be found.
+
+        Returns:
+        - int: The index of the bucket.
+
+        Raises:
+        - KeyError: If the key is not found in the dictionary.
+        """
+        idx = hash(key) & (self.__size - 1)
+        n_iters = 0
+
+        # find an empty bucket (either None or False)
+        while self.__buckets[idx]:
+
+            # stop once we have checked all buckets
+            if n_iters >= self.__size:
+                raise KeyError
+
+            if isinstance(self.__buckets[idx], tuple):
+                if self.__buckets[idx][0] == key:
+                    break
+
+            idx += 1
+            n_iters += 1
+            if idx >= self.__size:
+                idx = 0
+
+        return idx
+```
+
+Let's see it in action:
+
+```python
+# I show under each command shows the the internal bucket state
+
+a = Dictionary(4)
+# [None, None, None, None]
+
+a[1] = "a"
+# [None, (1, 'a'), None, None]
+
+a[2] = "b"
+# [None, (1, 'a'), (2, 'b'), None]
+
+# 75% is full, which will trigger a resizing
+a[5] = "c"
+# [None, (1, 'a'), (2, 'b'), None, None, (5, 'c'), None,
+#  None, None, None, None, None, None, None, None, None]
+
+a[140] = "d"
+# [None, (1, 'a'), (2, 'b'), None, None, (5, 'c'), None,
+#  None, None, None, None, None, (140, 'd'), None, None, None]
+
+a[1] = 2
+# [None, (1, 2), (2, 'b'), None, None, (5, 'c'), None, None,
+#  None, None, None, None, (140, 'd'), None, None, None]
+
+a.delete(1)
+# [None, False, (2, 'b'), None, None, (5, 'c'), None, None,
+# None, None, None, None, (140, 'd'), None, None, None]
+
+a[1] = "x"
+# [None, (1, 'x'), (2, 'b'), None, None, (5, 'c'), None,
+# None, None, None, None, None, (140, 'd'), None, None, None]
+
+a[1] # x
+a[2] # b
+```
 
 # Starred expressions
 
