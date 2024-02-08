@@ -3,7 +3,7 @@ layout: page
 title: CURENT LTB
 description:
 img: assets/img/poster/project_ltb.png
-importance: 1
+importance: 2
 category: work
 related_publications: false
 ---
