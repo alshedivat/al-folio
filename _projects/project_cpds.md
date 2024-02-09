@@ -24,7 +24,7 @@ By integrating EVs into the grid for this purpose, the project aims to address c
 The source paper of EV providing SFR can be found in {% cite wang_electric_2024 %},
 and the full project report can be found in {% cite wang_cyber-physical_2022 %}.
 
-More details can be found in the project homepage [LTB][LTB Web].
+More details can be found in the project homepage [LTB](https://ltb.curent.org).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
