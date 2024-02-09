@@ -6,7 +6,6 @@ inline: false
 related_posts: false
 ---
 
-
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <div style="flex: 1;">
         <p><b>2023 NAPS Best Graduate Paper Award</b></p>

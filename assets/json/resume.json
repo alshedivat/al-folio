@@ -92,23 +92,12 @@
     {
       "name": "Programming and Data Analysis",
       "level": "Advanced",
-      "keywords": [
-        "Python",
-        "Open-source Development",
-        "SQL",
-        "R",
-        "SAS",
-        "Spark"
-      ]
+      "keywords": ["Python", "Open-source Development", "SQL", "R", "SAS", "Spark"]
     },
     {
       "name": "Power System Analysis",
       "level": "Advanced",
-      "keywords": [
-        "CURENT LTB",
-        "PSS/E",
-        "MATLAB"
-      ]
+      "keywords": ["CURENT LTB", "PSS/E", "MATLAB"]
     }
   ],
   "awards": [
@@ -122,7 +111,7 @@
       "title": "Min H. Kao EECS Fellowship",
       "date": "2022-08",
       "awarder": "",
-     "summary": "Awarded for excellent academic performance."
+      "summary": "Awarded for excellent academic performance."
     },
     {
       "title": "China Graduate National Scholarship",
