@@ -4,7 +4,7 @@ title: flintknapping
 description:
 img: hand.jpg
 importance: 4
-category: replication
+category: flintknapping
 ---
 
 Sometimes I make things. Or show others how to make things.
