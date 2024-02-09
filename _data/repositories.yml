@@ -1,9 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - datascienceanywhere
 
 github_repos:
-  - alshedivat/al-folio
+  - datascienceanywhere/attendance_system
   - twbs/bootstrap
   - jekyll/jekyll
   - jquery/jquery
