@@ -32,7 +32,7 @@ More details can be found in the project homepage [LTB][LTB Web].
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/poster/poster_ltb_2023.pdf" title="poster" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/poster/poster_ev.jpg" title="poster" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
