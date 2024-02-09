@@ -27,7 +27,7 @@
       "name": "University of Tennessee Knoxville",
       "position": "Graduate Research Assistant",
       "url": "https://www.eecs.utk.edu",
-      "startDate": "2020-06",
+      "startDate": "2020",
       "endDate": "",
       "summary": "Involved in various projects, including the CURENT Large-Scale Testbed, Cyber-Physical Dynamic System Modeling, and research on the economic impact of the COVID-19 pandemic on electricity consumption.",
       "highlights": ["Power System"]
@@ -36,8 +36,8 @@
       "name": "University of West Florida",
       "position": "Graduate Teaching Assistant",
       "url": "https://uwf.edu/hmcse/departments/mathematics-and-statistics/",
-      "startDate": "2019-05",
-      "endDate": "2020-05",
+      "startDate": "2019",
+      "endDate": "2020",
       "summary": "Assisted in teaching duties while pursuing a Master of Science in Data Science.",
       "highlights": ["Statistics"]
     }
@@ -49,7 +49,7 @@
       "url": "",
       "area": "Electrical Engineering",
       "studyType": "PhD",
-      "startDate": "2020-05",
+      "startDate": "2020",
       "endDate": "",
       "score": "3.97/4.00",
       "courses": []
@@ -60,8 +60,8 @@
       "url": "",
       "area": "Data Science",
       "studyType": "MS",
-      "startDate": "2019-05",
-      "endDate": "2020-05",
+      "startDate": "2019",
+      "endDate": "2020",
       "score": "3.97/4.00",
       "courses": []
     },
@@ -71,8 +71,8 @@
       "url": "",
       "area": "Electrical Engineering",
       "studyType": "MS",
-      "startDate": "2017-09",
-      "endDate": "2020-07",
+      "startDate": "2017",
+      "endDate": "2020",
       "score": "81.91/100",
       "courses": []
     },
@@ -82,8 +82,8 @@
       "url": "",
       "area": "Electrical Engineering",
       "studyType": "BS",
-      "startDate": "2013-09",
-      "endDate": "2017-07",
+      "startDate": "2013",
+      "endDate": "2017",
       "score": "85.61/100",
       "courses": []
     }
@@ -155,7 +155,7 @@
       "name": "CURENT Large-Scale Testbed",
       "summary": "Coordinating the development of the CURENT Large-scale Testbed, focusing on power system dispatch simulation and analysis.",
       "highlights": [],
-      "startDate": "2021-03",
+      "startDate": "2021",
       "endDate": "Present",
       "url": ""
     },
@@ -163,16 +163,16 @@
       "name": "Nexus between Economic, Electricity, and Pandemic",
       "summary": "Designing the research, collecting and analyzing data, developing algorithms",
       "highlights": [],
-      "startDate": "2020-08",
-      "endDate": "2021-03",
+      "startDate": "2020",
+      "endDate": "2021",
       "url": ""
     },
     {
       "name": "Cyber-Physical Dynamic System Modeling",
       "summary": "Modeling and validation of electric vehicles for secondary frequency regulation, contributing to AGC services.",
       "highlights": [],
-      "startDate": "2022-01",
-      "endDate": "2022-12",
+      "startDate": "2022",
+      "endDate": "2022",
       "url": ""
     }
   ],
