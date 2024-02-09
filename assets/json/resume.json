@@ -19,16 +19,6 @@
         "network": "LinkedIn",
         "username": "",
         "url": ""
-      },
-      {
-        "network": "Google Scholar",
-        "username": "",
-        "url": ""
-      },
-      {
-        "network": "GitHub",
-        "username": "",
-        "url": ""
       }
     ]
   },
@@ -36,20 +26,20 @@
     {
       "name": "University of Tennessee Knoxville",
       "position": "Graduate Research Assistant",
-      "url": "",
+      "url": "https://www.eecs.utk.edu",
       "startDate": "2020-06",
       "endDate": "",
       "summary": "Involved in various projects, including the CURENT Large-Scale Testbed, Cyber-Physical Dynamic System Modeling, and research on the economic impact of the COVID-19 pandemic on electricity consumption.",
-      "highlights": []
+      "highlights": ["Power System"]
     },
     {
       "name": "University of West Florida",
       "position": "Graduate Teaching Assistant",
-      "url": "",
+      "url": "https://uwf.edu/hmcse/departments/mathematics-and-statistics/",
       "startDate": "2019-05",
       "endDate": "2020-05",
       "summary": "Assisted in teaching duties while pursuing a Master of Science in Data Science.",
-      "highlights": []
+      "highlights": ["Statistics"]
     }
   ],
   "education": [
@@ -102,23 +92,12 @@
     {
       "name": "Programming and Data Analysis",
       "level": "Advanced",
-      "keywords": [
-        "Python",
-        "Open-source Development",
-        "SQL",
-        "R",
-        "SAS",
-        "Spark"
-      ]
+      "keywords": ["Python", "Open-source Development", "SQL", "R", "SAS", "Spark"]
     },
     {
       "name": "Power System Analysis",
       "level": "Advanced",
-      "keywords": [
-        "CURENT LTB",
-        "PSS/E",
-        "MATLAB"
-      ]
+      "keywords": ["CURENT LTB", "PSS/E", "MATLAB"]
     }
   ],
   "awards": [
@@ -132,7 +111,7 @@
       "title": "Min H. Kao EECS Fellowship",
       "date": "2022-08",
       "awarder": "",
-     "summary": "Awarded for excellent academic performance."
+      "summary": "Awarded for excellent academic performance."
     },
     {
       "title": "China Graduate National Scholarship",
@@ -181,6 +160,14 @@
       "url": ""
     },
     {
+      "name": "Nexus between Economic, Electricity, and Pandemic",
+      "summary": "Designing the research, collecting and analyzing data, developing algorithms",
+      "highlights": [],
+      "startDate": "2020-08",
+      "endDate": "2021-03",
+      "url": ""
+    },
+    {
       "name": "Cyber-Physical Dynamic System Modeling",
       "summary": "Modeling and validation of electric vehicles for secondary frequency regulation, contributing to AGC services.",
       "highlights": [],
@@ -216,14 +203,17 @@
   "references": [
     {
       "name": "Prof. Fangxing 'Fran' Li",
+      "icon": "fa-solid fa-laptop",
       "reference": "James W. McConnell Professor at the Department of Electrical Engineering and Computer Science, University of Tennessee Knoxville. Contact: fli6@utk.edu"
     },
     {
       "name": "Prof. Hantao Cui",
+      "icon": "fa-solid fa-laptop",
       "reference": "Assistant Professor at Electrical & Computer Engineering, Oklahoma State University. Contact: h.cui@okstate.edu"
     },
     {
       "name": "Prof. Kevin Tomsovic",
+      "icon": "fa-solid fa-laptop",
       "reference": "Director of CURENT, Chancellor’s Professor at the Department of Electrical Engineering and Computer Science, University of Tennessee Knoxville. Contact: tomsovic@utk.edu"
     }
   ]

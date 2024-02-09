@@ -7,6 +7,7 @@ importance: 1
 category: work
 related_publications: true
 ---
+
 Project Title: Nexus between Economic, Electricity, and Pandemic
 
 Date: 8/2020 – 3/2021

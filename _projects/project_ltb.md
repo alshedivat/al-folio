@@ -7,6 +7,7 @@ importance: 2
 category: work
 related_publications: false
 ---
+
 Project Title: CURENT Large-scale Testbed
 
 Date: 3/2021 – Now
@@ -35,7 +36,7 @@ More details can be found in the project homepage [LTB][LTB Web].
     </div>
 </div>
 
-* * *
+---
 
 [LTB Web]: https://ltb.curent.org
 [LTB]: https://github.com/CURENT

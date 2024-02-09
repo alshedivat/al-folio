@@ -7,7 +7,8 @@ importance: 3
 category: work
 related_publications: true
 ---
-Project Title: Cyber-Physical Dynamic System (CPDS) Modeling for Frequency Regulation and AGC Services of Distributed Energy Resources 
+
+Project Title: Cyber-Physical Dynamic System (CPDS) Modeling for Frequency Regulation and AGC Services of Distributed Energy Resources
 
 Date: 1/2022 – 12/2022
 
