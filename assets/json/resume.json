@@ -19,16 +19,6 @@
         "network": "LinkedIn",
         "username": "",
         "url": ""
-      },
-      {
-        "network": "Google Scholar",
-        "username": "",
-        "url": ""
-      },
-      {
-        "network": "GitHub",
-        "username": "",
-        "url": ""
       }
     ]
   },
@@ -36,20 +26,20 @@
     {
       "name": "University of Tennessee Knoxville",
       "position": "Graduate Research Assistant",
-      "url": "",
+      "url": "https://www.eecs.utk.edu",
       "startDate": "2020-06",
       "endDate": "",
       "summary": "Involved in various projects, including the CURENT Large-Scale Testbed, Cyber-Physical Dynamic System Modeling, and research on the economic impact of the COVID-19 pandemic on electricity consumption.",
-      "highlights": []
+      "highlights": ["Power System"]
     },
     {
       "name": "University of West Florida",
       "position": "Graduate Teaching Assistant",
-      "url": "",
+      "url": "https://uwf.edu/hmcse/departments/mathematics-and-statistics/",
       "startDate": "2019-05",
       "endDate": "2020-05",
       "summary": "Assisted in teaching duties while pursuing a Master of Science in Data Science.",
-      "highlights": []
+      "highlights": ["Statistics"]
     }
   ],
   "education": [
@@ -216,14 +206,17 @@
   "references": [
     {
       "name": "Prof. Fangxing 'Fran' Li",
+      "icon": "fa-solid fa-laptop",
       "reference": "James W. McConnell Professor at the Department of Electrical Engineering and Computer Science, University of Tennessee Knoxville. Contact: fli6@utk.edu"
     },
     {
       "name": "Prof. Hantao Cui",
+      "icon": "fa-solid fa-laptop",
       "reference": "Assistant Professor at Electrical & Computer Engineering, Oklahoma State University. Contact: h.cui@okstate.edu"
     },
     {
       "name": "Prof. Kevin Tomsovic",
+      "icon": "fa-solid fa-laptop",
       "reference": "Director of CURENT, Chancellor’s Professor at the Department of Electrical Engineering and Computer Science, University of Tennessee Knoxville. Contact: tomsovic@utk.edu"
     }
   ]
