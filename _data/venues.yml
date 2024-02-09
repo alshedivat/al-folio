@@ -4,3 +4,47 @@
 
 "PhysRev":
   url: https://journals.aps.org/
+
+"OSTI":
+  url: https://www.osti.gov
+  color: "#176285"
+
+"Nat Commun":
+  url: https://www.nature.com/ncomms/
+  color: "#222222"
+
+"TPWRS":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=59
+  color: "#006699"
+
+"TSG":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165411
+  color: "#006699"
+
+"TSTE":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165391
+  color: "#006699"
+
+"TEC":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=60
+  color: "#006699"
+
+"JPROC":
+  url: https://proceedingsoftheieee.ieee.org
+  color: "#006699"
+
+"PESGM":
+  url: https://pes-gm.org
+  color: "#006699"
+
+"EI2":
+  url: http://www.ieee-ei2.org
+  color: "#006699"
+
+"NAPS":
+  url: https://ieeexplore.ieee.org/servlet/opac?punumber=10318157
+  color: "#006699"
+
+"IJEEPS":
+  url: https://www.sciencedirect.com/journal/international-journal-of-electrical-power-and-energy-systems
+  color: "#edb91c"
