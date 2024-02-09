@@ -286,7 +286,7 @@ scholar:
   last_name: [Wang]
   first_name: [Jinning]
 
-  style: ieee-transactions-on-smart-grid
+  style: ieee
   locale: en
 
   source: /_bibliography/
