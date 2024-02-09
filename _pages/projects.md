@@ -5,7 +5,7 @@ permalink: /projects/
 description: collaborative archaeological field research and comparative synthesis
 nav: true
 nav_order: 2
-display_categories: [research]
+display_categories: [research, flintknapping]
 horizontal: false
 ---
 
