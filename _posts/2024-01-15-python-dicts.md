@@ -15,7 +15,7 @@ A dictionary is a data structure that stores key-value pairs. As we saw in the p
 
 # The inner workings of dictionaries (and sets)
 
-Dictionaries and sets are ideal data structures to collect items when 1. the data has no intrinsic order; and 2. elements can be retrieved using *keys*, i.e., so-called *hashable* objects (further described below). The underpinnings of dictionaries and sets are very similar, a data structure called the *hash map*. [Similarly to lists and tuples](../python-lists/), we can visualize it as a finite number of memory buckets, each of which can store a reference to an object. Each possible key maps univocally to a bucket, thanks to the hash function. Hence, lookups, insertions and deletions are performed in constant time. The difference between dictionaries and sets lies in what goes in the bucket: dictionaries store key-value pairs, while sets only store keys.
+Dictionaries and sets are ideal data structures to collect items when 1. the data has no intrinsic order; and 2. elements can be retrieved using *keys*, i.e., so-called *hashable* objects (further described below). The underpinnings of dictionaries and sets are very similar, a data structure called the *hash map*. [Similarly to lists and tuples](../python-lists/), we can visualize it as a finite number of memory buckets, each of which can store a reference to an object. The number of buckets is called the *capacity*. Each possible key maps univocally to a bucket, thanks to the hash function. Hence, lookups, insertions and deletions are performed in constant time. The difference between dictionaries and sets lies in what goes in the bucket: dictionaries store key-value pairs, while sets only store keys.
 
 ## Hashing, explained
 
@@ -33,7 +33,7 @@ hash((1, 1))   # 8389048192121911274
 hash((1., 1.)) # 8389048192121911274
 ```
 
-Imagine that our hash map has allocated 16 buckets, indexed from 0 to 15. However, as we just saw, hashing can produce very large integers, which makes it impossible to use the integer as a bucket index. To keep things small, let's say our object's hash is 62. To map 62 to one of our 16 buckets, we need an additional operation called *mask*. A simple mask is the modulo function using the number of buckets, which will always produce a value between 0 and 15:
+Imagine that our hash map has a capacity of 16, i.e., we have 16 buckets indexed from 0 to 15. However, as we just saw, hashing can produce very large integers, which makes it impossible to use the integer as a bucket index. To keep things small, let's say our object's hash is 62. To map 62 to one of our 16 buckets, we need an additional operation called *mask*. A simple mask is the modulo function using the capacity, which will always produce a value between 0 and 15:
 
 ```python
 62 % 15
@@ -76,7 +76,7 @@ Understanding what underlies dictionaries and sets allows us to estimate the tim
 
 **Deletion**: for similar reasons, the amortized time complexity is $$O(1)$$ and the worst case is $$O(n)$$.
 
-**Resizing**: Python doubles the allocated memory for a dictionary when it becomes 2/3 full. Similarly, the allocated memory for a set gets quadrupled when it becomes 2/3 full. When such a thing happens, all key-value pairs need to be relocated into their new buckets. This is a pretty expensive step, albeit very infrequent, which keeps the amortized insertion complexity at $$O(1)$$.
+**Resizing**: Python doubles the capacity of a dictionary when it becomes 2/3 full. Similarly, the capacity of a set gets quadrupled when it becomes 2/3 full. When such a thing happens, all key-value pairs need to be relocated into their new buckets. This is a pretty expensive step, albeit very infrequent, which keeps the amortized insertion complexity at $$O(1)$$.
 
 ## A dictionary implementation
 
@@ -91,20 +91,20 @@ class Dictionary:
     A dictionary implementation using linear probing for collision resolution.
     """
 
-    def __init__(self, size: int = 1024) -> None:
+    def __init__(self, capacity: int = 1024) -> None:
         """
-        Initialize the Dictionary with a given size.
+        Initialize the Dictionary with a given capacity.
 
         Parameters:
-        - size (int): The initial size of the dictionary.
+        - capacity (int): The initial capacity of the dictionary.
 
         Returns:
         - None
         """
 
         # virgin buckets are set to None, deleted buckets to False
-        self.__buckets = [None for _ in range(size)]  
-        self.__size = size
+        self.__buckets = [None for _ in range(capacity)]  
+        self.__size = capacity
         self.__n_items = 0
 
     def __setitem__(self, key: Hashable, value: Any) -> None:
@@ -139,7 +139,25 @@ class Dictionary:
         idx = self.__find_key_bucket(key)
         return self.__buckets[idx][1]
 
-    def delete(self, key: Hashable) -> None:
+    def __contains__(self, key: Hashable) -> bool:
+        """
+        Check if the dictionary contains a given key.
+
+        Parameters:
+        - key (Hashable): The key to check for existence in the dictionary.
+
+        Returns:
+        - bool: True if the key is present in the dictionary, False otherwise.
+        """
+        try:
+            idx = self.__find_key_bucket(key)
+        except KeyError:
+            return False
+
+        return bool(self.__buckets[idx])
+
+
+    def __delitem__(self, key: Hashable) -> None:
         """
         Delete the entry for a given key from the dictionary.
 
@@ -219,38 +237,42 @@ Let's see it in action:
 ```python
 # I show under each command shows the the internal bucket state
 
-a = Dictionary(4)
+my_dict = Dictionary(4)
 # [None, None, None, None]
 
-a[1] = "a"
+my_dict[1] = "a"
 # [None, (1, 'a'), None, None]
 
-a[2] = "b"
+my_dict[2] = "b"
 # [None, (1, 'a'), (2, 'b'), None]
 
 # 75% is full, which will trigger a resizing
-a[5] = "c"
+my_dict[5] = "c"
 # [None, (1, 'a'), (2, 'b'), None, None, (5, 'c'), None,
 #  None, None, None, None, None, None, None, None, None]
 
-a[140] = "d"
+my_dict[140] = "d"
 # [None, (1, 'a'), (2, 'b'), None, None, (5, 'c'), None,
 #  None, None, None, None, None, (140, 'd'), None, None, None]
 
-a[1] = 2
+my_dict[1] = 2
 # [None, (1, 2), (2, 'b'), None, None, (5, 'c'), None, None,
 #  None, None, None, None, (140, 'd'), None, None, None]
 
-a.delete(1)
+1 in my_dict # True
+
+del my_dict[1]
 # [None, False, (2, 'b'), None, None, (5, 'c'), None, None,
-# None, None, None, None, (140, 'd'), None, None, None]
+#  None, None, None, None, (140, 'd'), None, None, None]
 
-a[1] = "x"
+1 in my_dict # False
+
+my_dict[1] = "x"
 # [None, (1, 'x'), (2, 'b'), None, None, (5, 'c'), None,
-# None, None, None, None, None, (140, 'd'), None, None, None]
+#  None, None, None, None, None, (140, 'd'), None, None, None]
 
-a[1] # x
-a[2] # b
+my_dict[1] # x
+my_dict[2] # b
 ```
 
 # Starred expressions
