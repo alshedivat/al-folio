@@ -63,7 +63,7 @@ assert x == y
 
 ## Class
 
-A *class* is the type of the object (e.g., a float, or a str). We can know an object's class using the `type` operator:
+A *class* is the type of the object (e.g., a float, or a str). Each object contains a pointer to its class, [as we will see below](#the-two-dictionaries-underlying-an-object). We can know an object's class using the `type` operator:
 
 ```python
 type(1)

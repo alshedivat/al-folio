@@ -11,7 +11,8 @@ related_posts: false
 
 While reading the book "Effective Python: 90 Specific Ways to Write Better Python" I discovered a few interesting behaviors in Python. I list some of them below.
 
-# String formatting
+# Strings
+## String formatting
 
 While Python offers multiple ways of formatting strings (i.e., combining predefined text and variables), [F-strings](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals) are particularly elegant: 
 
@@ -56,7 +57,7 @@ Euler's number = 2.718
 
 Note that the string "Euler's number" exceeds the minimum length of 10, and is hence represented as is. 
 
-# Implicit string concatenation
+## Implicit string concatenation
 
 Strings placed next to each other are automatically concatenated:
 
@@ -75,7 +76,9 @@ print(message)
 Hello, World!
 ```
 
-# `enumerate` with an offset
+# Lists
+
+## `enumerate` with an offset
 
 The [`enumerate`](https://docs.python.org/3/library/functions.html#enumerate) function creates a lazy generator over an iterable that will return a tuple (index, item). It can take a second parameter, to indicate the first index to start counting from:
 
@@ -91,7 +94,7 @@ for idx, item in enumerate(x, 10):
 12: c
 ```
 
-# `zip` and `itertools.zip_longest`
+## `zip` and `itertools.zip_longest`
 
 The [`zip`](https://docs.python.org/3/library/functions.html#zip) function combines two or more iterators, generating a lazy generator which yields the next item from each. It is particularly useful to handle related lists that have the same length:
 
@@ -143,44 +146,6 @@ for x, y in zip_longest(xs, ys):
 None 4
 ```
 
-# The walrus operator
-
-The [walrus operator](https://docs.python.org/3/reference/expressions.html#assignment-expressions) (`:=`) allows to assign variables in the middle of expressions:
-
-```python
-def is_divisor(x, y):
-    """
-    Check if y is a divisor of x.
-
-    Parameters:
-    - x (int): The dividend.
-    - y (int): The potential divisor.
-
-    Returns:
-    tuple: A tuple containing a boolean indicating whether y is a divisor of x,
-           and the remainder when x is divided by y. If y is a divisor, the
-           boolean is True, and the remainder is 0; otherwise, the boolean is
-           False, and the remainder is the result of x % y.
-    """
-    if remainder := x % y:
-        return False, remainder
-    else:
-        return True, 0
-
-print(is_divisor(10, 5))
-```
-```
-(True, 0)
-```
-```python
-print(is_divisor(10, 3))
-```
-```
-(False, 1)
-```
-
-The walrus operator is present in the first line of the `is_divisor` function. It allows two things to happen at once. First, the `if` clause will evaluate the expression `x % y` (false if the remainder is 0; true if it's any other number). Additionally, it is setting the `remainder` variable to `x % y`. This makes the code easier to understand, since `remainder` is only defined if it is going to be used.
-
 # Sorting by complex criteria
 
 The [`list.sort`](https://docs.python.org/3/library/stdtypes.html#list.sort) method orders a list's elements in ascending order. It will work as long as the items have defined the `<` comparison operator, as is the case for floats, integers and strings. However, in some cases that operator might not be implemented, or might not be making the comparison that we care about. The `key` argument is helpful in those cases:
@@ -228,6 +193,57 @@ print(animals)
 ```
 [Animal(possum, 2.5), Animal(lion, 200), Animal(sea lion, 200), Animal(whale, 100000)]
 ```
+
+# The walrus operator
+
+The [walrus operator](https://docs.python.org/3/reference/expressions.html#assignment-expressions) (`:=`) allows to assign variables in the middle of expressions:
+
+```python
+def is_divisor(x, y):
+    """
+    Check if y is a divisor of x.
+
+    Parameters:
+    - x (int): The dividend.
+    - y (int): The potential divisor.
+
+    Returns:
+    tuple: A tuple containing a boolean indicating whether y is a divisor of x,
+           and the remainder when x is divided by y. If y is a divisor, the
+           boolean is True, and the remainder is 0; otherwise, the boolean is
+           False, and the remainder is the result of x % y.
+    """
+    if remainder := x % y:
+        return False, remainder
+    else:
+        return True, 0
+
+print(is_divisor(10, 5))
+```
+```
+(True, 0)
+```
+```python
+print(is_divisor(10, 3))
+```
+```
+(False, 1)
+```
+
+The walrus operator is present in the first line of the `is_divisor` function. It allows two things to happen at once. First, the `if` clause will evaluate the expression `x % y` (false if the remainder is 0; true if it's any other number). Additionally, it is setting the `remainder` variable to `x % y`. This makes the code easier to understand, since `remainder` is only defined if it is going to be used.
+
+# Floats and integers
+
+## Underscores as visual separators
+
+We can use underscores `_` as visual separators between any pair of digits in integers, floats or complex numbers:
+
+```python
+assert 10_000_000 == 10000000
+assert 1_100.3 == 1100.3
+```
+
+I find this particularly useful when dealing with large numbers.
 
 # Generators
 
@@ -313,4 +329,4 @@ assert 15 & 1
 
 * D. Beazley, [Advanced Python Mastery](https://github.com/dabeaz-course/python-mastery)
 * B. Slatkin, Effective Python: 90 Specific Ways to Write Better Python.
-
+* [PEP 515 – Underscores in Numeric Literals](https://peps.python.org/pep-0515/)

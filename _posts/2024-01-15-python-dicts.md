@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Advanced Python 2 - Dictionaries
-date: 2024-02-09 11:59:00-0000
+title: Advanced Python 3 - Dictionaries
+date: 2024-02-10 11:59:00-0000
 description: Keeping Python together since 1991
 tags: comments
 categories: python coding dictionary
@@ -15,7 +15,7 @@ A dictionary is a data structure that stores key-value pairs. As we saw in the p
 
 # The inner workings of dictionaries (and sets)
 
-Dictionaries and sets are ideal data structures to collect items when 1. the data has no intrinsic order; and 2. elements can be retrieved using *keys*, i.e., so-called *hashable* objects (further described below). The underpinnings of dictionaries and sets are very similar, a data structure called the *hash map*. We can visualize it as a finite number of memory buckets, each of which can store a reference to an object. Each possible key maps univocally to a bucket, thanks to the hash function. Hence, lookups, insertions and deletions are performed in constant time. The difference between dictionaries and sets lies in what goes in the bucket: dictionaries store key-value pairs, while sets only store keys.
+Dictionaries and sets are ideal data structures to collect items when 1. the data has no intrinsic order; and 2. elements can be retrieved using *keys*, i.e., so-called *hashable* objects (further described below). The underpinnings of dictionaries and sets are very similar, a data structure called the *hash map*. [Similarly to lists and tuples](../python-lists/), we can visualize it as a finite number of memory buckets, each of which can store a reference to an object. Each possible key maps univocally to a bucket, thanks to the hash function. Hence, lookups, insertions and deletions are performed in constant time. The difference between dictionaries and sets lies in what goes in the bucket: dictionaries store key-value pairs, while sets only store keys.
 
 ## Hashing, explained
 
@@ -486,3 +486,4 @@ print(ingredients)
 * M. Gorelick & I. Ozsvald, High Performance Python: Practical Performant Programming for Humans. Chapter 4. Dictionaries and Sets.
 * B. Slatkin, Effective Python: 90 Specific Ways to Write Better Python.
 * On resizing dictionaries: <https://mail.python.org/pipermail/python-list/2000-March/048085.html>
+* CPython's implementation of dictionaries: <http://www.laurentluce.com/posts/python-dictionary-implementation/>
