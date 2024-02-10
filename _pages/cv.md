@@ -26,7 +26,7 @@ HCOMP 2023.
 
 "A Roadmap to Pluralistic Alignment".
 Taylor Sorenson, Jared Moore, Jillian Fisher, Mitchell Gordon, Niloofar Mireshghallah, Christopher Michael Rytting, **Andre Ye**, Liwei Jiang, Ximing Lu, Nouha Dziri, Tim Althoff, Yejin Choi.
-ICML 2024 (pending).
+[arXiv](https://arxiv.org/abs/2402.05070){:target="_blank"}.
 
 ---
 
