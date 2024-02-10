@@ -34,11 +34,11 @@ Lists and tuples are fundamental data structures.
 
 ### Tuples
 
-**Insertion**: though tuples are immutable, we can consider the combination of two tuples into a longer one as an insertion operation. If they have sizes $$m$$ and $$n$$, each item needs to be coppied to the new tuple. Hence, the complexity is $$O(m+n)$$.
+**Insertion**: though tuples are immutable, we can consider the combination of two tuples into a longer one as an insertion operation. If they have sizes $$m$$ and $$n$$, each item needs to be copied to the new tuple. Hence, the complexity is $$O(m+n)$$.
 
 # Sorting by complex criteria
 
-The [`list.sort`](https://docs.python.org/3/library/stdtypes.html#list.sort) method orders a list's elements in ascending order. It will work as long as the items have defined the `<` comparison operator, as is the case for floats, integers and strings. However, in some cases that operator might not be implemented, or might not be making the comparison that we care about. The `key` argument is helpful in those cases:
+The [`list.sort`](https://docs.python.org/3/library/stdtypes.html#list.sort) method orders a list's elements in ascending order. It will work as long as the items have defined the `<` comparison operator, as is the case for floats, integers and strings. However, in some cases that operator might not be implemented, or might not be making the comparison that we care about. The `key` argument can be helpful in those cases:
 
 ```python
 class Animal:
@@ -84,7 +84,7 @@ print(animals)
 [Animal(possum, 2.5), Animal(lion, 200), Animal(sea lion, 200), Animal(whale, 100000)]
 ```
 
-When comparing tuples, Python will first compare the first element. Only if it is equal between the two tuples, it will compare the second element.
+When comparing tuples, Python first compares the initial elements. If they are equal, it then compares the second one, and so on.
 
 # Unpacking
 
@@ -131,26 +131,38 @@ Starred elements cannot be used without non-starred elements (e.g., `*all = x`);
 
 When dealing with queuing problems, we can use `collections.deque`,
 
-• Double-ended queue
-25
+```python 
 from collections import deque
->>> q = deque()
->>> q.append(1)
->>> q.append(2)
->>> q.appendleft(3)
->>> q.appendleft(4)
->>> q
+
+q = deque()
+q.append(1)
+q.append(2)
+q.appendleft(3)
+q.appendleft(4)
+
+print(q)
+```
+```
 deque([4, 3, 1, 2])
->>> q.pop()
+```
+```python
+q.pop()
+```
+```
 2
->>> q.popleft()
+```
+```python
+q.popleft()
+```
+```
 4
->>>
-• More efficient than a list for queuing problems
+```
+
+Deque is more efficient than a list when dealing with queuing problems.
 
 ## `collections.ChainMap`
 
-• Problem: Search multiple places
+- Problem: Search multiple places
 
 # References
 
