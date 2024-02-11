@@ -172,6 +172,7 @@ class Dictionary:
         """
         idx = self.__find_key_bucket(key)
         self.__buckets[idx] = False
+        self.__n_items -= 1
 
     def __resize_check(self) -> None:
         """
