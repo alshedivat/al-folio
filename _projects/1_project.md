@@ -5,7 +5,6 @@ description: Exploring the effects of digital media on footfall in R
 img: assets/img/footfall.jpeg
 importance: 1
 category: work
-related_publications: Media campaign strategy
 ---
 
 A client had given me footfall data for a period they ran media in 2022-2023. They wanted to understand how media effects footfall, the KPI that they have identified that drives their business forward.
