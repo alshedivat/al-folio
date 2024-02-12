@@ -1,10 +1,10 @@
 ---
 layout: page
-title: acquisition of renewable energy sites
+title: Acquisition of renewable energy sites
 description: identify  renewable energy sites to pursue as part of investment portfolio
 img: assets/img/renewable_energy.jpeg
 importance: 2
-category: sustainability 
+category: work 
 giscus_comments: true
 ---
 
