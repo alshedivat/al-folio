@@ -23,8 +23,3 @@ My most recent work was to make sense of sparsely colleced media data by the cli
 
 Recently I graduated with distinction in MSc Data Analytics from the University of Strathclyde, where I honed my skills across advanced machine learning tools, data warehousing, and upskiller by programming proficiency in Python, R, SQL, PowerBI etc. My strong background in research, experience with a wide variety of data munging tools, as well as the ability to effectively communicate insights to stakeholders, places me well for Data Analyst/Insight Analyst/ Business Analyst roles.
 
-[subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
