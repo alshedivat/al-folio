@@ -2,7 +2,7 @@
 layout: page
 title: project 1
 description: a project with a background image
-img: assets/img/footfall.jpg
+img: assets/img/footfall.jpeg
 importance: 1
 category: work
 related_publications: einstein1956investigations, einstein1950meaning
