@@ -35,7 +35,7 @@ The aim of the consultancy project was to identify which renewable energy sites 
 </div>
 
 
-<h>Baseline case study/<h>
+<h2>Baseline case study</h2>
 
 I initially identified 50 potential sites that can be acquired for renewables production, amounting to a total of 2,382 MW production of electricity by April 2032 (considering a standard of 9 years for the project to be set up). Among the sites thus identified, the largest electricity producers in terms of MW are windmills, while BESS accounts for the smallest producer segments. However, I posit the production of renewables in all these 50 sites at the same time is an unrealistic target to be achieved in this period, given both staffing and programmatic constraints.
 
