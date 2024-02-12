@@ -1,25 +1,14 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: acquisition of renewable energy sites
+description: identify  renewable energy sites to pursue as part of investment portfolio
+img: assets/img/renewable_energy.jpeg
 importance: 2
-category: work
+category: sustainability 
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The aim of the consultancy project was to identify which renewable energy sites to pursue out of a pool of 50 simulated sites by identifying those that can be procured based on available staffing resources and by aiming for a diverse pool of sites. The simulated potential sites, and resulting staff hours data were provided by the client. By implementing a linear optimization approach, the analysis recommends the acquisition of 22 sites.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
