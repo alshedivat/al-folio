@@ -22,7 +22,7 @@ I have all of my analysis in the R mardown file. Leveraging the ggplot libraries
 </div>
 
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+Rather than looking at absolute footfall numbers, since that is a product of the demographic population of the neighbhourhood the stores are in, the size of the store, and other external factors, there is a need to see the change in average weekly footfall to identify stores attracting most increases in footfall. As for Ad Spend, they were discrete investments, thus causal effects are conjectural, and based on hypothesis testing. 
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -40,15 +40,17 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/footfall5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Differences in conversion rates captured by different media
 </div>
+
+More of the project with codes and visualizations in R markdown file can be found on my <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Github repository!</a>
 
 
 The code is simple.
