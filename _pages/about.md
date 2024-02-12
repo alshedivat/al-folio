@@ -23,3 +23,11 @@ My most recent work was to make sense of sparsely colleced media data by the cli
 
 Recently I graduated with distinction in MSc Data Analytics from the University of Strathclyde, where I honed my skills across advanced machine learning tools, data warehousing, and upskiller by programming proficiency in Python, R, SQL, PowerBI etc. My strong background in research, experience with a wide variety of data munging tools, as well as the ability to effectively communicate insights to stakeholders, places me well for Data Analyst/Insight Analyst/ Business Analyst roles.
 
+I am always looking for opportunities in industries where my work will create value add and help build strong data teams. 
+
+Contact me at kevin.kuriakose.official@gmail.com if my profile is of interest to your business!
+
+Some of the Ongoing works:
+Analyzing footfall data in Glasgow for business placement in the city 
+Evaluating consumer behaviour and digital media
+
