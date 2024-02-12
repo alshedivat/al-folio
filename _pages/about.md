@@ -25,7 +25,7 @@ Recently I graduated with distinction in MSc Data Analytics from the University 
 
 I am always looking for opportunities in industries where my work will create value add and help build strong data teams. 
 
-Contact me at <b>kevin.kuriakose.official@gmail.com<b> if my profile is of interest to your business!
+Contact me at <b> kevin.kuriakose.official@gmail.com <b> if my profile is of interest to your business!
 
 Some of the Ongoing works:
 Analyzing footfall data in Glasgow for business placement in the city 
