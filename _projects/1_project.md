@@ -35,5 +35,3 @@ Rather than looking at absolute footfall numbers, since that is a product of the
 </div>
 
 More on the project with codes and visualizations in a R markdown file can be found on my <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Github repository!</a>
-
-{% endraw %}
