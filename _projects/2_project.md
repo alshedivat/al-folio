@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Acquisition of renewable energy sites
-description: identify  renewable energy sites to pursue as part of investment portfolio
+description: Identified renewable energy sites to pursue as part of investment portfolio
 img: assets/img/renewable_energy.jpeg
 importance: 2
 category: work 
 giscus_comments: true
 ---
 
-The aim of the consultancy project was to identify which renewable energy sites to pursue out of a pool of 50 simulated sites by identifying those that can be procured based on available staffing resources and by aiming for a diverse pool of sites. The simulated potential sites, and resulting staff hours data were provided by the client. By implementing a linear optimization approach, the analysis recommends the acquisition of 22 sites.
+The aim of the consultancy project was to identify which renewable energy sites to pursue out of a pool of 50 simulated sites by identifying those that could be procured based on available staffing resources. This was done, keeping in portfolio diversification and assuming similar productivity levels of employees on all projects given the project requisites. The 50 potential sites, and resulting staff hours data were provided by the client. By implementing a linear optimization approach in R, the analysis recommends the acquisition of 22 sites.
 
 
 <div class="row">
