@@ -32,18 +32,6 @@ Rather than looking at absolute footfall numbers, since that is a product of the
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/footfall4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="caption">
-    Differences in conversion rates captured by different media
-</div>
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/footfall5.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Differences in conversion rates captured by different media
 </div>
 
 You can also put regular text between your rows of images.
