@@ -9,7 +9,9 @@ category: work
 
 A client had given me footfall data for a period they ran media in 2022-2023. They wanted to understand how media effects footfall, the KPI that they have identified that drives their business forward.
 
-I have all of my analysis in the R mardown file. Leveraging the ggplot libraries, along with tidyverse and dplyr among others, I have tried to study some general trends, best and worst performing stores. I have also spatially mapped the stores across UK to see the spread and visibility, as well as to see if there are any regional level differences.
+I have all of my analysis in an R mardown file. Through this work, I have tried to study some general trends, best and worst performing stores, as well tried to isolate some of the effects of different digital media campaigns in driving consumers to the client's physical stores. I have also spatially mapped the stores across UK to see the spread and visibility, as well as to see if there are any regional level differences.
+
+Some of the R libraries used in this analytical work are: Ggplot, Dplyr, Tidyverse, Maps, Viridis, Ggrepel
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
