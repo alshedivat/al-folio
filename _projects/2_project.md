@@ -10,6 +10,7 @@ giscus_comments: true
 
 The aim of the consultancy project was to identify which renewable energy sites to pursue out of a pool of 50 simulated sites by identifying those that can be procured based on available staffing resources and by aiming for a diverse pool of sites. The simulated potential sites, and resulting staff hours data were provided by the client. By implementing a linear optimization approach, the analysis recommends the acquisition of 22 sites.
 
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
