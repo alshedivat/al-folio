@@ -154,9 +154,9 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: 
-    rss_url: 
+external_sources: linkedin.com
+  - name: A look into EV investments in the US
+    rss_url: https://www.linkedin.com/pulse/us-infrastructure-bill-green-transport-sociometrik/
 
 # -----------------------------------------------------------------------------
 # Collections
