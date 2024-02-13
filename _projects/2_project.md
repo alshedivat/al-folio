@@ -66,4 +66,4 @@ and other constraints: x≤6; y≤11; z≤21; w<-12
 
 Ultimately 22 sites were found to most optimal. 
 
-More on the project with codes and visualizations in a R markdown file can be found on my <a href="https://github.com/detectorisk/Energy_project_allocation_R/">Github repository!</a>
+<b>More on the project with codes and visualizations in a R markdown file can be found on my <a href="https://github.com/detectorisk/Energy_project_allocation_R/">Github repository!</a></b>
