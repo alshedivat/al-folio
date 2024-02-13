@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p> Msc. Data Analytics (2023) 
-        Msc. Quantitative Economics (2020)
-        BA (hons) Economics (2017)  </p>
+    <p> Msc. Data Analytics <br> 
+        Msc. Quantitative Economics <br>
+        BA (hons) Economics  </p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
