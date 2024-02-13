@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p> Msc. Data Analytics <br> 
         Msc. Quant Economics <br>
-        BA (hons) Economics  </p>
+        BA. (hons) Economics  </p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
