@@ -35,4 +35,4 @@ Rather than looking at absolute footfall numbers, since that is a product of the
     </div>
 </div>
 
-More on the project with codes and visualizations in a R markdown file can be found on my <a href="https://github.com/detectorisk/Digital_media_affect_on_footfall/">Github repository!</a>
+<b> More on the project with codes and visualizations in a R markdown file can be found on my <a href="https://github.com/detectorisk/Digital_media_affect_on_footfall/">Github repository!</a> </b>
