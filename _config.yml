@@ -228,7 +228,6 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
-  - jekyll-purgecss
 
 # Sitemap settings
 defaults:
