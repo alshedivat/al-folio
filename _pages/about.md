@@ -9,7 +9,9 @@ profile:
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p> Glasgow | Tallinn | Delhi </p>
+    <p> Msc. Data Analytics (2023) 
+        Msc. Quantitative Economics (2020)
+        BA (hons) Economics (2017)  </p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -29,5 +31,5 @@ Contact me at <b> kevin.kuriakose.official@gmail.com </b> if my profile is of in
 
 Some of my Ongoing works include:<brr>
 <dd>-Exploring footfall data in Glasgow for business placement in the city</dd>
-<dd>-Evaluating consumer behaviour and digital media through mixed methods approchaes</dd>
+<dd>-Evaluating consumer behaviour and digital media through mixed methods approaches</dd>
 
