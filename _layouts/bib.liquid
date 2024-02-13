@@ -211,7 +211,8 @@
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or  entry.eprint or entry.pmid or entry.isbn %}
       {% assign entry_has_dimensions_badge = entry.dimensions or entry.doi or entry.pmid %}
-      {% if entry_has_altmetric_badge or entry_has_dimensions_badge %}
+      {% assign entry_has_google_scholar_badge = entry.google_scholar_id %}
+      {% if entry_has_altmetric_badge or entry_has_dimensions_badge or entry_has_google_scholar_badge %}
         <div class="badges">
           {% if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
             <span
@@ -248,6 +249,11 @@
               data-legend="hover-right"
               style="margin-bottom: 3px;"
             ></span>
+          {% endif %}
+          {% if site.enable_publication_badges.google_scholar and entry_has_google_scholar_badge %}
+            <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.scholar_userid }}&citation_for_view={{ site.scholar_userid }}:{{ entry.google_scholar_id }}">
+              <img src="https://img.shields.io/badge/scholar-{% google_scholar_citations site.scholar_userid entry.google_scholar_id %}-4285F4?logo=googlescholar&labelColor=beige">
+            </a>
           {% endif %}
         </div>
       {% endif %}
