@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started working as a Data Analytics Freelance at Upwork! :sparkles: :smile:
+Started working as a Data Analytics Freelancer at Upwork! :sparkles: :smile:
