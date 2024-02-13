@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - detectorisk
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - detectorisk/Energy_project_allocation_R
+  - detectorisk/Predicting_life_expectancy_R
+  - detectorisk/Predicting_song_popularity_spotify
+  - detectorisk/Text_classification_goodreads
+  - detectorisk/Perth_housing_analysis
+  - detectorisk/Digital_media_affect_on_footfall
