@@ -23,9 +23,9 @@ Hi! Welcome to my website, where I have tried to put my analytics journey in per
 
 My most recent work was to make sense of sparsely colleced media data by the client over 2 years to inform their investment portfolio for the upcoming year. Overcoming this challenge of inadequate data, I was able to analyze [footfall data against the basket of digital media investments](https://github.com/detectorisk/Digital_media_affect_on_footfall/tree/main) made by the client to inform next year's investment portfolio. 
 
-Recently I graduated with distinction in MSc Data Analytics from the University of Strathclyde, where I honed my skills across advanced machine learning tools, data warehousing, and upskiller by programming proficiency in Python, R, SQL, PowerBI etc. My strong background in research, experience with a wide variety of data munging tools, as well as the ability to effectively communicate insights to stakeholders, places me well for Data Analyst/Insight Analyst/ Business Analyst roles.
+Recently I graduated with distinction in MSc Data Analytics from the University of Strathclyde, where I honed my skills across advanced machine learning tools, data warehousing, and upskiller by programming proficiency in Python, R, SQL, PowerBI etc. My strong background in economic research, experience with a wide variety of data munging tools, as well as the ability to effectively communicate insights to stakeholders, places me well for Data Analyst/Insight Analyst/ Business Analyst roles.
 
-I am always looking for opportunities in industries where my work will create value add and help build strong data teams. 
+I am always looking for opportunities in industries where my work will create value add and help build strong data teams, particularly in energy, manufacturing and product development domains. 
 
 Contact me at <b> kevin.kuriakose.official@gmail.com </b> if my profile is of interest to your business!
 
