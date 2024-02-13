@@ -1,7 +1,7 @@
 ---
 layout: page
-title: submenus Changed
-nav: true
+title: Other
+nav: false
 nav_order: 7
 dropdown: false
 children:
