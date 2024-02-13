@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Perth housing prices
-description: Factors influencing Perth housing prices 
+description: Supervised and unsupervised learning in Python
 img: assets/img/house1.jpg
 importance: 3
 category: fun
