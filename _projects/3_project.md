@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 3
+title: Perth housing prices
 description: Factors influencing Perth housing prices 
 img: assets/img/house1.jpg
 importance: 3
