@@ -1,81 +1,46 @@
 ---
 layout: page
 title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+description: Factors influencing Perth housing prices 
+img: assets/img/house1.jpg
 importance: 3
-category: work
+category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+A while back I picked up Deyan Sudjic book "The language of cities", where he tries to explore the idea of a "city" - what moulds its existence, the dynamic relationship between developers and governments in planning a city, and ultimately what comes out of the different ideas of a "city". What survives, and what works for a city. What fails and breaks it. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Rapid urbanization and the need for residential housing has posed a new kind of developmental challenge to cities. In England itself, it has been estimated that 340,000 more houses are needed to be constructed every year. While the government targets to get around constructing 300,000 houses every year, last year they have been able to construct only 214,000 houses (Bramley 2019). This gaping difference between supply and demand has meant increased rent, unaffordability of home-buying, and poverty. In some areas in England, it has been reported that almost 40% of tenants are dependent on government subsidies on their rental bills (Lydia et al 2021). 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+One could argue that these difficulties are particularly large in major cities such as London and Edinburgh (Brooks 2018, Cork 2022). And while this is partly true, thriving smaller thriving are facing a similar, if not more alarming housing crisis, owing to international students coming in, new businesses being set up, and the general trend toward globalization. 
+
+Since I could not find a good enough dataset pertaining to UK houses, I sourced a  housing dataset of Perth, Australia, from <a href="https://www.kaggle.com/datasets/syuzai/perth-house-prices/">Kaggle</a>. Perth, the fourth most populated city in Australia, is perched beside the Swan River. A sunny town where both birds and people flock in the summer to catch the right amount of tan. However, all is not swell at Perth. In a city with a population of nearly 2 million, the number of houses available to rent this year is less than 2000. This plummet marks a 12 year low for the rapidly transforming city (Hamish 2022). This has meant a skyrocket in median rent and increased concerns over housing this upcoming winter (just as people in the UK are reeling with energy bills expected to rise and housing demand falling short of being met). 
+
+My aim is to see trends and various classifications in this housing data and see what methods can be established to be useful to analyze prices and various other features of housing. This could hopefully help future policymakers and urban planners to derive some insights on what factors drive up prices, and what features to look for to classify neighborhoods and houses. 
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/house2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/house6.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    The average price of a house in Perth is around $638,000 approx., while the median price is about $545,000. The standard deviation of distance to nearest business district is very high, indicating high degree of variability in location of these houses.   
 </div>
+
+To get a quick overview at the onset about the dispersion of the houses considered in the dataset I plotted their Latitudinal and Longitudinal coordinates. Further, to see correlations within the data, I created a Pearson correlation matrix, and reported these correlations in a heatmap 
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/house3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/house5.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+After much descriptive analysis, such as the above, I modeled a regression model, as well as an unsupervised k-means clustering. 
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+<b>To check out more on the project with codes and visualizations in a jupyter notebook, you can find it in my <a href="https://github.com/detectorisk/Perth_housing_analysis">Github repository!</a></b>
