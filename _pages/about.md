@@ -27,7 +27,7 @@ I am always looking for opportunities in industries where my work will create va
 
 Contact me at <b> kevin.kuriakose.official@gmail.com </b> if my profile is of interest to your business!
 
-Some of the Ongoing works:<brr>
-<dd>-Analyzing footfall data in Glasgow for business placement in the city</dd>
-<dd>-Evaluating consumer behaviour and digital media</dd>
+Some of my Ongoing works include:<brr>
+<dd>-Exploring footfall data in Glasgow for business placement in the city</dd>
+<dd>-Evaluating consumer behaviour and digital media through mixed methods approchaes</dd>
 
