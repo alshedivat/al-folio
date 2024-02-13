@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: These are some of the analytical projects I have undertaken as Github repositories. 
+description: These are some of the analytical projects I have undertaken as Github repositories. These include both analytical projects undertaken as part of my freelance work, as well as short term consultancy projects as part of my university studies. 
 nav: true
 nav_order: 3
 ---
