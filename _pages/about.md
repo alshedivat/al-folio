@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p> Msc. Data Analytics <br> 
-        Msc. Quantitative Economics <br>
+        Msc. Quant Economics <br>
         BA (hons) Economics  </p>
 
 news: true  # includes a list of news items
