@@ -9,8 +9,8 @@ profile:
   image: jinning.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>1520 Middle Dr</p>
-    <p>Knoxville, TN 37996</p>
+    <p>Jinning Wang</p>
+    <p>"王晋宁"</p>
 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
