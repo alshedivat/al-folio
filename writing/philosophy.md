@@ -8,9 +8,9 @@ nav: false
 
 <!-- <img src="\assets\img\philosophy.png" width="100%" /> -->
 
-<a href="/assets/pdf/garden-of-ideas-1-17.pdf" target="_blank">"Wor(k/d)play."</a> <em>Garden of Ideas</em>, Vol. 2, 2023 - Issue 1. Issue currently under progress.
+<a href="/assets/pdf/garden-of-ideas-1-17.pdf" target="_blank">"The Computational Production of Simulacra."</a> <em>Garden of Ideas</em>, Vol. 3, 2023 - Issue 1.
 <p style="margin-left: 25px;">
-  <small><bold>Abstract.</bold> Forthcoming.</em></small>
+  <small><bold>Abstract.</bold> Forthcoming. </small>
 </p>
 
 
