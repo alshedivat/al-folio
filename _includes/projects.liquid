@@ -5,6 +5,7 @@
       {% if project.img %}
         {%
           include figure.liquid
+          loading="eager"
           path=project.img
           sizes = "250px"
           alt="project thumbnail"
