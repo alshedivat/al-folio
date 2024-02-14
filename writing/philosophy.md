@@ -8,11 +8,11 @@ nav: false
 
 <!-- <img src="\assets\img\philosophy.png" width="100%" /> -->
 
----
+<a href="/assets/pdf/garden-of-ideas-1-17.pdf" target="_blank">"Wor(k/d)play."</a> <em>Garden of Ideas</em>, Vol. 2, 2023 - Issue 1. Issue currently under progress.
+<p style="margin-left: 25px;">
+  <small><bold>Abstract.</bold> In this essay, we challenge the notion that wordplay lacks depth and meaning. Drawing from philosophers like Plato, Derrida, Wittgenstein, and Saussure, we explore wordplay as a playful engagement with signifiers and their relationships. By embracing irony and comedic play, we uncover new perspectives on language and its limitations. We argue that wordplay offers a valuable tool for critical writers to expand meaning and open doors to alternative modes of understanding. This essay encourages the embrace of wordplay as a meaningful means of inquiry and expression. <em>Disclosure: LLM-generated abstract.</em></small>
+</p>
 
-### Published
-
-<br>
 
 <a href="files/workdplay.pdf" target="_blank">"Wor(k/d)play."</a> <em>Garden of Ideas</em>, Vol. 2, 2023 - Issue 1. Issue currently under progress.
 <p style="margin-left: 25px;">
@@ -34,14 +34,6 @@ nav: false
   <br>
   <small>From the Katherine Anne Porter Society's 2022 Porter Scholarship bibliography: "Andre Ye’s “The Wartime State and the Cigarette: Darkness and Temporality in Pale Horse, Pale Rider,” *The Explicator* 80.1-2 (2022): 33-36, hones in on the cigarette’s three appearances in the story and argues for its symbolic value as a fleeting light during the dark days of war.</small>
 </p>
-
-<br>
-
----
-
-<br>
-
-## Unpublished
 
 <br>
 
@@ -93,13 +85,6 @@ nav: false
 </small>
 </p>
 
-<br>
-
-<a href="files\On_the_Computational_Adversarial_Production_of_Simulacrum.pdf" target="_blank">"On the Computational-Adversarial Production of Simulacrum".</a> In submission.
-<p style="margin-left: 25px;">
-  <small><bold>Abstract.</bold> Drawing upon the computational paradigm of the Generative Adversarial Network, used in the field of Artificial Intelligence to produce DeepFakes and other literal digital simulacrum, we formulate a computational-adversarial framework to understand the evolution of simulacrum-producing machines into maturity. Such a framework provides a strongly materialist mode of cultural and social analysis. Across its demonstrated application across four contexts – the designation of intelligent beings, the tangibility and deterrent power of nuclear weapons, the simulacra of gender, and the contradictions of colonialism – it proves to be a useful intellectual scaffold both to understand and reinterpret simulacrum and simulations. Crucially, it allows us to discover and understand – in very present, palpable, materialist terms – internally antagonistic wholes that generate unity out of difference and uncover difference in unity, systems for which self-reflection is simultaneously self-refraction.
-  </small>
-</p>
 
 <br>
 

@@ -8,17 +8,18 @@ nav_order: 2
 
 ---
 
-### research
+### computer science research
 
 "Cultural and Linguistic Diversity Improves Visual Representations". 
 **Andre Ye**, Sebastin Santy, Jena D. Hwang, Amy X. Zhang, Ranjay Krishna.
 [arXiv](https://arxiv.org/abs/2310.14356){:target="_blank"}
 
-“LLMs grasp morality in concept”. 
+"LLMs grasp morality in concept". 
 Mark Pock*, **Andre Ye***, Jared Moore.
 Moral Psychology and Philosophy Workshop, NeurIPS 2023.
 [arXiv](https://arxiv.org/abs/2310.14356){:target="_blank"}
 
+"Confidence Contours".
 **Andre Ye**, Quan Ze Chen, Amy Zhang.
 HCOMP 2023.
 [arXiv](https://arxiv.org/abs/2308.07528){:target="_blank"}.
@@ -30,7 +31,21 @@ Taylor Sorenson, Jared Moore, Jillian Fisher, Mitchell Gordon, Niloofar Mireshgh
 
 ---
 
-### other publications
+### philosophy $$\subset$$ humanities research
+
+"Computational Production of Simulacra."
+**Andre Ye**.
+*Garden of Ideas*, Volume 3, 2023 -- Issue 1, pages 3-17.
+[Link](/assets/pdf/garden-of-ideas-1-17.pdf){:target="_blank"}.
+
+"The Wartime State and the Cigarette: Darkness and Temporality in Pale Horse, Pale Rider."
+**Andre Ye**.
+*The Explicator*, Volume 80, 2022 - Issue 1-2, pages 30-33.
+[Publisher’s link.](https://www.tandfonline.com/doi/full/10.1080/00144940.2022.2063706){:target="_blank"}.
+
+---
+
+### expository writing
 
 *Modern Deep Learning Design and Applications*.
 Andre Ye.
