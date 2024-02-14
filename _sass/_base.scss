@@ -127,6 +127,22 @@ blockquote {
   }
 }
 
+// Checklist
+
+ul.task-list {
+  list-style-type: none; /* Remove bullets from all levels */
+}
+
+ul.task-list > li ul {
+  /* Nested lists within .task-list */
+  padding-inline-start: 1.5rem;
+}
+
+ul.task-list input[type="checkbox"] {
+  margin: 0.275rem 0.5rem 0.5rem -1rem;
+  vertical-align: middle;
+}
+
 // Math
 
 .equation {
