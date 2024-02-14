@@ -50,60 +50,60 @@
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
 
-      {% for author in entry.author_array limit: author_array_limit %}
+      {%- for author in entry.author_array limit: author_array_limit -%}
         {% assign author_is_self = false %}
-        {% assign author_last_name = author.last | remove: '¶' | remove: '&' | remove: '*' | remove: '†' | remove: '^' %}
+        {%- assign author_last_name = author.last | remove: '¶' | remove: '&' | remove: '*' | remove: '†' | remove: '^' -%}
         {% if site.scholar.last_name contains author_last_name %}
           {% if site.scholar.first_name contains author.first %}
             {% assign author_is_self = true %}
           {% endif %}
-        {% endif %}
+        {%- endif -%}
         {% assign coauthor_url = null %}
-        {% assign clean_last_name = author_last_name | downcase | remove_accents %}
+        {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
         {% if site.data.coauthors[clean_last_name] %}
-          {% for coauthor in site.data.coauthors[clean_last_name] %}
+          {%- for coauthor in site.data.coauthors[clean_last_name] -%}
             {% if coauthor.firstname contains author.first %}
-              {% assign coauthor_url = coauthor.url %}
+              {%- assign coauthor_url = coauthor.url -%}
               {% break %}
             {% endif %}
           {% endfor %}
-        {% endif %}
+        {%- endif -%}
 
-        {% if forloop.length > 1 %}
+        {%- if forloop.length > 1 -%}
           {% if forloop.first == false %},&nbsp;{% endif %}
-          {% if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif %}
+          {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
         {% endif %}
-        {% if author_is_self %}
+        {%- if author_is_self -%}
           <em>
             {{- author.first }}
             {{ author.last -}}
           </em>
-        {% else %}
-          {% if coauthor_url %}
+        {%- else -%}
+          {%- if coauthor_url -%}
             <a href="{{coauthor_url}}">
               {{- author.first }}
               {{ author.last -}}
             </a>
-          {% else %}
+          {%- else -%}
             {{ author.first }}
             {{ author.last }}
           {% endif %}
-        {% endif %}
+        {%- endif -%}
       {% endfor %}
-      {% assign more_authors = author_array_size | minus: author_array_limit %}
+      {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
-      {% assign more_authors_hide = more_authors | append: ' more author' %}
+      {%- assign more_authors_hide = more_authors | append: ' more author' -%}
       {% if more_authors > 0 %}
-        {% if more_authors > 1 %}
+        {%- if more_authors > 1 -%}
           {% assign more_authors_hide = more_authors_hide | append: 's' %}
-        {% endif %}
+        {%- endif -%}
         {% assign more_authors_show = '' %}
-        {% for author in entry.author_array offset: author_array_limit %}
+        {%- for author in entry.author_array offset: author_array_limit -%}
           {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
           {% unless forloop.last %}
             {% assign more_authors_show = more_authors_show | append: ', ' %}
           {% endunless %}
-        {% endfor %}
+        {%- endfor -%}
         , and
         <span
           class="more-authors"
