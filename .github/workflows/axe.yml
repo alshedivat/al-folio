@@ -16,9 +16,6 @@ on:
         description: "URL to be checked (e.g.: blog/)"
         required: false
 
-permissions:
-  contents: write
-
 env:
   URL: ""
 
@@ -28,14 +25,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.2.2"
           bundler-cache: true
       - name: Update _config.yml ⚙️
-        uses: fjogeleit/yaml-update-action@v0.13.1
+        uses: fjogeleit/yaml-update-action@main
         with:
           commitChange: false
           valueFile: "_config.yml"
@@ -47,15 +44,30 @@ jobs:
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
-          npm install -g mermaid.cli
-          npm install -g purgecss
           export JEKYLL_ENV=production
           bundle exec jekyll build --lsi
+      - name: Purge unused CSS 🧹
+        run: |
+          npm install -g purgecss
           purgecss -c purgecss.config.js
+      - name: Get Chromium version 🌐
+        # https://github.com/GoogleChromeLabs/chrome-for-testing?tab=readme-ov-file#other-api-endpoints
+        run: |
+          CHROMIUM_VERSION=$(wget -qO- https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_STABLE | cut -d. -f1)
+          echo "Chromium version: $CHROMIUM_VERSION"
+          echo "CHROMIUM_VERSION=$CHROMIUM_VERSION" >> $GITHUB_ENV
+      - name: Setup Chrome 🌐
+        id: setup-chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: ${{ env.CHROMIUM_VERSION }}
+      - name: Install chromedriver 🚗
+        run: |
+          npm install -g chromedriver@$CHROMIUM_VERSION
       - name: Run axe 🪓
         # https://github.com/dequelabs/axe-core-npm/tree/develop/packages/cli
         run: |
           npm install -g @axe-core/cli
           npm install -g http-server
           http-server _site/ &
-          axe http://localhost:8080/${{ github.event.inputs.url || env.URL }} --load-delay=1500 --exit
+          axe --chromedriver-path $(npm root -g)/chromedriver/bin/chromedriver http://localhost:8080/${{ github.event.inputs.url || env.URL }} --load-delay=1500 --exit

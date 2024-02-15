@@ -12,9 +12,25 @@ let setTheme = (theme) => {
   transTheme();
   setHighlight(theme);
   setGiscusTheme(theme);
+
   // if mermaid is not defined, do nothing
   if (typeof mermaid !== "undefined") {
     setMermaidTheme(theme);
+  }
+
+  // if diff2html is not defined, do nothing
+  if (typeof Diff2HtmlUI !== "undefined") {
+    setDiff2htmlTheme(theme);
+  }
+
+  // if echarts is not defined, do nothing
+  if (typeof echarts !== "undefined") {
+    setEchartsTheme(theme);
+  }
+
+  // if vegaEmbed is not defined, do nothing
+  if (typeof vegaEmbed !== "undefined") {
+    setVegaLiteTheme(theme);
   }
 
   if (theme) {
@@ -118,6 +134,46 @@ let setMermaidTheme = (theme) => {
     const observerOptions = { childList: true };
     observer.observe(observable, observerOptions);
   }
+};
+
+let setDiff2htmlTheme = (theme) => {
+  document.querySelectorAll(".diff2html").forEach((elem) => {
+    // Get the code block content from previous element, since it is the diff code itself as defined in Markdown, but it is hidden
+    let textData = elem.previousSibling.childNodes[0].innerHTML;
+    elem.innerHTML = "";
+    const configuration = { colorScheme: theme, drawFileList: true, highlight: true, matching: "lines" };
+    const diff2htmlUi = new Diff2HtmlUI(elem, textData, configuration);
+    diff2htmlUi.draw();
+  });
+};
+
+let setEchartsTheme = (theme) => {
+  document.querySelectorAll(".echarts").forEach((elem) => {
+    // Get the code block content from previous element, since it is the echarts code itself as defined in Markdown, but it is hidden
+    let jsonData = elem.previousSibling.childNodes[0].innerHTML;
+    echarts.dispose(elem);
+
+    if (theme === "dark") {
+      var chart = echarts.init(elem, "dark-fresh-cut");
+    } else {
+      var chart = echarts.init(elem);
+    }
+
+    chart.setOption(JSON.parse(jsonData));
+  });
+};
+
+let setVegaLiteTheme = (theme) => {
+  document.querySelectorAll(".vega-lite").forEach((elem) => {
+    // Get the code block content from previous element, since it is the vega lite code itself as defined in Markdown, but it is hidden
+    let jsonData = elem.previousSibling.childNodes[0].innerHTML;
+    elem.innerHTML = "";
+    if (theme === "dark") {
+      vegaEmbed(elem, JSON.parse(jsonData), { theme: "dark" });
+    } else {
+      vegaEmbed(elem, JSON.parse(jsonData));
+    }
+  });
 };
 
 let transTheme = () => {
