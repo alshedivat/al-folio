@@ -3,8 +3,8 @@ name: Deploy site
 on:
   push:
     branches:
-      - master
-      - main
+      - cloudflare
+      - github
     paths:
       - "assets/**"
       - "**.html"
