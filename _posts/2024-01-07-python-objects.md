@@ -45,7 +45,7 @@ id(a)
 4342270592
 ```
 
-Note that the assignment operator (`=`) **never** makes a copy of the value being assigned, it just copies the reference. We can check if two names point to the same memory location using `is`:
+Note that the assignment operator (`=`) **never** makes a copy of the value being assigned, it just copies the reference. Similarly, the `del` operator never deletes an object, just a reference to it. We can check if two names point to the same memory location using `is`:
 
 ```python
 x = [1, 2, 3]
@@ -94,13 +94,21 @@ assert isinstance(1., float)
 
 ## Refcount
 
-The *refcount* is a counter that keeps track of how many references point to an object. Its value gets increased by 1 when, for instance, an object gets assigned to a new name. It gets decreased by 1 when a name goes out of scope or is explicitly deleted (`del`). When the refcount reaches 0, its object's memory will be reclaimed by the garbage collector.
+The *refcount* is a counter that keeps track of how many references point to an object. Its value gets increased by 1 when, for instance, an object gets assigned to a new name. It gets decreased by 1 when a name goes out of scope or is explicitly deleted (`del`). When the refcount reaches 0, its object's memory will be [reclaimed by the garbage collector](../python-basics#memory-management-in-python).
 
 In principle, we can access the refcounts of a variable using `sys.getrefcount`:
 
 ```python
-import sys
+x = []
+sys.getrefcount(x)
+```
+```
+2
+```
 
+Note that its output of `getrefcount` is always increased by 1, as the function itself contains a reference for the variable. Let's see another example:
+
+```python
 sys.getrefcount(1)
 ```
 ```
@@ -171,62 +179,7 @@ formatter_factory()("hey there")
 Hey there.
 ```
 
-# Mutability
-
-Python has two kinds of data types, mutable and immutable, which respectively can and cannot be modified after being created. Mutable data types include lists, dictionaries and sets; immutable data types, integers, floats, booleans, strings and tuples. Let's see an example:
-
-```python
-# and (immutable) int(1) object is created
-# both x and y point at it
-x = y = 1
-
-assert x is y
-
-# we change the value of x. since integers are immutable,
-# a new int(x + 1) is created to store that value, and 
-# x is assigned that new reference
-x += 1
-
-# x and y don't refer to the same object anymore
-assert x != y
-assert x is not y
-```
-
-Let's compare this behaviour to that of a mutable object:
-
-```python
-# an list is created, and both x and y point at it
-x = y = [1]
-
-assert x is y
-
-# we change the value of x. since lists are mutable,
-# the original list gets altered
-x.append(2)
-
-# x and y still refer to the same object
-assert x == y
-assert x is y
-```
-
-Interestingly, and as we saw when examining the *refcount*, Python leverages this immutability:
-
-```python
-# two int(1) objects are created, each assigned a name
-x = 1
-y = 1
-
-assert x is not y
-```
-```
-AssertionError
-```
-
-In other words, 1 (and other common objects, like 0 or `True`) are singletons. That way, Python does not need to keep allocating memory for new objects that are used very often.
-
-Mutability also has implications on memory allocation. Python knows at runtime how much memory an immutable data type requires. However, the memory requirements of mutable containers will change as we add and remove elements. Hence, to add new elements quickly if needed, Python allocates more memory than is strictly needed. 
-
-## Copying an object
+# Copying objects
 
 As mentioned above, `=` does not copy objects, only references. If we need to copy an object, we need to use the `copy` module. There are two kinds of copies:
 
@@ -261,64 +214,6 @@ print(y[2])
 ```
 ```
 [3, 4]
-```
-
-# Scopes and namespaces
-
-A namespace is a mapping from names to objects. In fact, underlying a namespace there is a dictionary: its keys are symbolic names (e.g., `x`) and its values, the object they reference (e.g., an integer with a value of 8). During the execution of a typical Python program, multiple namespaces are created, each with its own lifetime. There are four types of namespaces:
-
-- **Builtin** namespace: it is created when the interpreter starts up. It contain names such as `print`, `int` or `len`.
-- **Global** namespaces:
-    - *The* global namespace contains every name created at the main level of the program. This dictionary can be examined using `globals()`.
-    - Weirdly, *other* global namespaces are possible: each imported module will create its own.
-- **Local** namespaces: one is created every time a function is called, and is "forgotten" when it terminates. This dictionary can be examined using `locals()`.
-- **Enclosed** namespaces: when a function calls another function, the child has access to its parent's namespace.
-
-Namespaces are related to scopes, which are the parts of the code in which a specific set of namespaces can be accessed. When a Python needs to lookup a name, if resolves it by examining the namespaces using the LEGB rule: it starts at the Local namespace; if unsuccessful, it moves to the Enclosing namespace; then the Global, and lastly the Builtin. By default, assignments and deletions happen on the local namespace. However, this behaviour can be altered using the `nonlocal` and `global` statements:
-
-```python
-def enclosing_test():
-    foo = "enclosed"
-    print(f"Inside enclosing_test, foo = {foo}")
-
-    def local_test():
-        foo = "local"
-        print(f"Inside local_test, foo = {foo}")
-
-    local_test()
-    print(f"After local_test, foo = {foo}")
-
-    def nonlocal_test():
-        nonlocal foo
-        foo = "nonlocal"
-        print(f"Inside nonlocal_test, foo = {foo}")
-
-    nonlocal_test()
-    print(f"After nonlocal_test, foo = {foo}")
-
-    def global_test():
-        global foo
-        foo = "global"
-        print(f"Inside global_test, foo = {foo}")
-
-    global_test()
-    print(f"After global_test, foo = {foo}")
-
-foo = "original"
-print(f"At the beginning, foo = {foo}")
-enclosing_test()
-print(f"Finally, foo = {foo}")
-```
-```
-At the beginning, foo = original
-Inside enclosing_test, foo = enclosed
-Inside local_test, foo = local
-After local_test, foo = enclosed
-Inside nonlocal_test, foo = nonlocal
-After nonlocal_test, foo = nonlocal
-Inside global_test, foo = global
-After global_test, foo = nonlocal
-Finally, foo = global
 ```
 
 # Defining our own objects

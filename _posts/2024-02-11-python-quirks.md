@@ -247,6 +247,8 @@ I find this particularly useful when dealing with large numbers.
 
 # Generators
 
+TODO
+
 # Typing hints
 
 In this series, we have seen multiple examples in which the type of a variable is specified. For instance:
@@ -291,7 +293,7 @@ def square(x: list[int] | int) -> list[int] | int:
 
 Python is a dynamically typed language. Hence, typing hints are just, that, hints. However, we can use [mypy](https://github.com/python/mypy) on our entire codebase to check that types are used correctly.
 
-# Integer arithmentic using bitwise operations
+# Integer arithmetic using bitwise operations
 
 Some people are really concerned by performance. Their concern is such that they are willing to sacrifice code readability for minor gains in performance. Such people might get satisfaction from replacing arithmetic operations involving integers by bitwise operations. Since those act directly on the bit representation of the integer, they can be more efficient. Despite compilers performing some optimization of their own, [there is some somewhat old evidence supporting that bitwise operations are faster.](https://stackoverflow.com/questions/37053379/times-two-faster-than-bit-shift-for-python-3-x-integers) I describe below some common optimizations.
 
@@ -323,6 +325,55 @@ assert not 14 & 1
 
 # 0b1111 & 0b0001 = 0b0001 = 1
 assert 15 & 1
+```
+
+## Iterate a list from the end
+
+The `~` operator is the complement operator, which switches 1s by 0s and vice versa. Let's see it in action:
+
+```python
+# 0b01 -> 0b10
+assert ~1 == -2
+assert ~-2 == 3
+```
+
+Since the first bit represents the sign, it has the effect of turning $$x$$ into $$-x - 1$$. This is useful when we need to simultaneously iterate the front and the back of a list:
+
+```python
+def is_palindrome(word: str) -> bool:
+    return all([word[i] == word[~i] for i in range(len(word) // 2)])
+
+assert is_palindrome("kayak")
+assert not is_palindrome("dog")
+```
+
+# Exceptions
+
+Handling exceptions with `try: ... except: ...` is a common in Python code. But there are some additional nuances:
+
+```python
+y = list()
+x = 1
+try:
+    x + 1
+    y.append(1)
+    {}[1]
+# we can handle multiple, specific exceptions
+except TypeError:
+    print(f"Can't sum an integer and a {type(x)}.")
+except AttributeError:
+    print(f"Can't append to {type(y)}.")
+# we can still add a catch-all exception
+except:
+    # we can throw our own exception
+    raise Exception("Something went wrong.")
+# behavior if no error is raised
+else:
+    print("All good.")
+# a block that will be run no matter what,
+# usually good for clean up
+finally:
+    print("Thanks anyway.")
 ```
 
 # References

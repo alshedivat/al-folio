@@ -47,7 +47,8 @@ a = [1, 2, 3]
 b = [1, 2, 3]
 ```
 
-
+TODO decorators
+TODO lambda functions
 
 # Arguments
 
