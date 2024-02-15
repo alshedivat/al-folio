@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Advanced Python 0 - Quirks
+title: Advanced Python n - Quirks
 date: 2024-02-11 11:59:00-0400
 description: A catch-all of interesting behaviors
 tags: comments
@@ -9,7 +9,7 @@ giscus_comments: true
 related_posts: false
 ---
 
-While reading the book "Effective Python: 90 Specific Ways to Write Better Python" I discovered a few interesting behaviors in Python. I list some of them below.
+In this post, I present some interesting features of Python that were not within the scope of the previous posts.
 
 # Strings
 ## String formatting
