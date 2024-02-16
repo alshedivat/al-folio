@@ -21,6 +21,9 @@ news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Feresonis.github.io&count_bg=%23DF4CCB&title_bg=%23000000&icon=internetarchive.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true"/></a>
+
 ---
 
 I'm an anthropologically-trained archaeologist specializing in the comparative study of early complex societies. I identify and analyze patterned variation in trajectories of societal growth and decline so as to better understand the dynamics of social change. I'm especially interested in how different kinds and degrees of inequality contribute to these dynamics. Topics emphasized in my research include regional settlement distribution, community patterning, and demography; ritual landscapes; labor investment in public works; household artifact assemblage analysis and the identification of prestige, wealth, ritual, and productive differentiation within and between communities. I have a penchant for quantitative and spatial analytical methods (with a bent toward Exploratory Data Analysis and the use of free and open-source software).
