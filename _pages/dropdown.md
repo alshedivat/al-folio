@@ -3,7 +3,7 @@ layout: page
 title: submenus
 nav: false
 dropdown: false
-children: 
+children:
     - title: publications
       permalink: /publications/
     - title: divider

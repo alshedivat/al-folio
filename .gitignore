@@ -9,3 +9,4 @@ _site
 Gemfile.lock
 vendor
 assets/resized/
+node_modules/

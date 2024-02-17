@@ -7,15 +7,11 @@ description:  Collecting feedback from real-world interactions and using it to i
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>Newell-Simon Hall 3128</p>
-    <p>5000 Forbes Ave</p>
-    <p>Pittsburgh, PA 15213</p>
-  email: virajm at cs.cmu.edu
+  email: viraj at tensorzero.com
 
 news: False # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 I recently completed a Ph.D. at the [Robotics Institute](https://ri.cmu.edu) at Carnegie Mellon University advised by [Jeff Schneider](https://www.cs.cmu.edu/~schneide/). As a researcher, I am broadly interested in reinforcement learning, generative models, and dynamical systems. In particular I work on solving control problems in science with machine learning in regimes where the data-generating process is expensive. Much of my work is motivated by the problem of plasma control for nuclear fusion; the various difficulties we face there frequently inspire more general machine learning problems we can solve as computer scientists. More recently, I've applied similar techniques to improve the efficiency of the alignment of language models.
 

@@ -4,6 +4,7 @@ permalink: /teaching/
 title: teaching
 description:
 nav: true
+nav_order: 6
 ---
 
 - Spring 2021: TA in CMU [16-726: Learning-Based Image Synthesis](https://learning-image-synthesis.github.io) with Jun-Yan Zhu.
