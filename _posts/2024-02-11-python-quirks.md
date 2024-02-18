@@ -245,6 +245,45 @@ assert 1_100.3 == 1100.3
 
 I find this particularly useful when dealing with large numbers.
 
+## Limitations of floating point arithmetic
+
+Most decimal floating-point numbers cannot be represented as binary floating-point numbers. Instead, computers just store an approximation. This behavior is not evident by just asking Python to display a number, since it will round it:
+
+```python
+print(0.1)
+```
+```
+0.1
+```
+
+However, if we request Python to give more significant digits:
+
+```python
+format(0.1, '.20g')
+```
+```
+'0.10000000000000000555'
+```
+
+While this approximation is smaller than $$2^(-53)$$, that is enough to cause errors:
+
+```python
+assert .1 + .2 == .3
+```
+```
+AssertionError
+```
+
+Luckily, we can get around it with a little extra work:
+
+```python
+import math
+
+assert math.isclose(.1 + .2, .3)
+
+assert round(.1 + .2, ndigits=1) == round(.3, ndigits=1)
+```
+
 # Generators
 
 TODO
@@ -293,11 +332,13 @@ def square(x: list[int] | int) -> list[int] | int:
 
 Python is a dynamically typed language. Hence, typing hints are just, that, hints. However, we can use [mypy](https://github.com/python/mypy) on our entire codebase to check that types are used correctly.
 
-# Integer arithmetic using bitwise operations
+# Bitwise operations
+
+## For integer arithmetic
 
 Some people are really concerned by performance. Their concern is such that they are willing to sacrifice code readability for minor gains in performance. Such people might get satisfaction from replacing arithmetic operations involving integers by bitwise operations. Since those act directly on the bit representation of the integer, they can be more efficient. Despite compilers performing some optimization of their own, [there is some somewhat old evidence supporting that bitwise operations are faster.](https://stackoverflow.com/questions/37053379/times-two-faster-than-bit-shift-for-python-3-x-integers) I describe below some common optimizations.
 
-## Dividing and multiplying by powers of two
+### Dividing and multiplying by powers of two
 
 The `>>` and the `<<` operators shift the bit representation to the left and to the right, respectively. This can be used to quickly divide or multiply integers by powers of two:
 
@@ -315,7 +356,7 @@ x = 0b101 # 5
 5 << 4 # 80
 ```
 
-## Check if a number is odd
+### Check if a number is odd
 
 The `&` operator is the bitwise AND operator. When we use `&` between any integer and a 1, we are effectively cheching if the last bit is a 1 (odd) or a 0 (even):
 

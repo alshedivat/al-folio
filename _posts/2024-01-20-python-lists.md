@@ -7,6 +7,8 @@ tags: comments
 categories: python coding lists tuples
 giscus_comments: true
 related_posts: false
+toc:
+    sidebar: left
 ---
 
 Lists and tuples are fundamental data structures.
@@ -28,9 +30,9 @@ Lists and tuples are fundamental data structures.
 
 ### Lists
 
-**Insertion**: we can replace an existing element in $$O(1)$$. That is also the case in most insertions of a new element at the end. However, when the list's array gets full (the worst case) inserting a new element is $$O(n)$$.
+**Insertion**: we can replace an existing element in $$O(1)$$. That is also the case in most insertions of a new element at the end using `append()`. However, when the list's array gets full (the worst case) inserting a new element is $$O(n)$$.
 
-**Deletion**: $$O(1)$$
+**Deletion**: $$O(1)$$, using `del`.
 
 ### Tuples
 
