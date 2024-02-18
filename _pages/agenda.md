@@ -13,7 +13,7 @@ nav_order: 4
 projects I am leading or co-leading
 
 **Discursive Datasets.** with Amy Zhang (U. of Wa.) and Ranjay Krishna (U. of Wa.).
-- Mary Gates Scholarship [Application](assets\pdf\mary-gates-essay-discursive-datasets.pdf){:target="_blank"} (Winter 2024).
+- Mary Gates Scholarship [Application](\assets\pdf\mary-gates-essay-discursive-datasets.pdf){:target="_blank"} (Winter 2024).
 
 **The "State of Nature" in Social Platforms.** with Katie Yurechko (Wash. & Lee, Oxford).
 Borrowing from the treatment of the "state of nature" in political philosophy, we set forth a framework for understanding and analyzing the pre-/political experience of users in social platforms.
