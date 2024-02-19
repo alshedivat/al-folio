@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: Philosophy teaches valuable lessons in argument formation, respectful disagreement, and epistemic humility. My aim as an instructor is to guide students as they develop into better critical thinkers and to encourage self-reflection, charitable reconstruction of opposing views, and careful argumentation.
 
-    As a course supervisor at the University of Cambridge, I am responsible for organizing undergraduate students into small groups for seminar style discussion. For each group, I assign readings and essay topics each week, provide detailed comments, and facilitate discussion. I have several terms of experience teaching the following courses::
+    As a course supervisor at the University of Cambridge, I am responsible for organizing undergraduate students into small groups for seminar style discussion. For each group, I assign readings and essay topics each week, provide detailed comments, and facilitate discussion. I have several terms of experience teaching the following courses.
 
 nav: true
 nav_order: 4
