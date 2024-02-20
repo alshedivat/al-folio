@@ -61,7 +61,7 @@ np.array([1., 2., 3.], dtype = "float16").nbytes # 6
 np.array([1., 2., 3.], dtype = "float64").nbytes # 24
 ```
 
-# Vectorization
+## Vectorization
 
 Vectorization refers to computing multiple computations at once. As an example:
 
@@ -94,19 +94,19 @@ array([5, 7, 9])
 
 Importantly, a vectorized operation is vastly faster than its explicit `for` loop counterpart. To understand why, we need to take a step back, and [understand how the RAM and the CPU interact](../hardware). CPU and RAM are the two sides of this story.
 
-## On the memory side
+### On the memory side
 
 First, Python's native data structures are highly **fragmented**. This severely hampers the prefetcher, and [cache misses](../hardware#cache-and-prefetching) are common. In other words, the list is an object with an attribute containing a reference to an array which in turn stores references to float objects. The object, the array and the floats are scattered across memory. (Potentially, this could be solved by [`arrays`](https://docs.python.org/3/library/array.html). But they seem to have their own downsides.) Keeping data together, as `ndarrays` do, leads to less cache misses. (Additional gains are possible by reducing the number of [cache lines](../hardware) an array spans, e.g., using aligning their beginning to the memory grid. So far I have find some indications, but not strong sources supporting that NumPy attempts this too.)
 
 Second, Python is **dynamically** typed. This means that every operation between two numbers becomes a complex interaction between two heavy data structures. Internally, Python needs to find out the types of the objects, recover their values, run the computation, and store the result in a new object. Statically typed languages avoid much of this overhead.
 
-## On the CPU side
+### On the CPU side
 
 Vectorization has another meaning in hardware. Specifically, it refers to SIMD, the ability of the CPU to [handle multiple numbers in a single instruction](../hardware#registers-and-simd). CPython does not leverage SIMD, or gives us access to them. However, many NumPy functions are implemented in low-level languages to take advantage of this instruction set. This leads to even faster code. However, we won't take advantage of this optimization when using Python-implemented vector operations, for instance custom transformations of our data.
 
-## Further efficiency gains
+### Further efficiency gains
 
-### Row vs. column operations
+#### Row vs. column operations
 
 By default, `ndarrays` store matrices in a row-major order, that is, as a concatenation of the rows of the matrix. In other words, the elements from the same row live close (sharing cache lines), but the ones in the same column might live very far apart. Since retrieving one element will copy to the CPU cache the whole matrix row, row operations are fast. In contrast, column operations are slow, since they require copying as many cache lines as rows. Let's see one example:
 

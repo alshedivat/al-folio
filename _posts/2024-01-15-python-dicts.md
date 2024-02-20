@@ -66,6 +66,8 @@ However, it is possible that the bucket is already occupied. In that case, Pytho
 
 When a value is deleted, we cannot simply overwrite it with a `NULL`. That would make the bucket identical to a "virgin" bucket, and potentially disrupt the probing strategy, leading to inconsistent results. Instead, a special value is written (sometimes called a "turd"). Nonetheless, this memory is not wasted: another key-value pair can take its place if needed, without compromising the integrity of the data.
 
+**Note:** User-defined classes are hashable by default, even if they don't implement `__hash__`, `__eq__` or `__cmp__`. The hash is computed using the object's `id()`, and all objects compare unequal.
+
 ## Time complexity
 
 Understanding what underlies dictionaries and sets allows us to estimate the time complexity of the different operations.

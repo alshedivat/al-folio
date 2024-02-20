@@ -15,14 +15,14 @@ toc:
 
 ## Python is dynamically typed
 
-A language is statically typed is one in which variables have types, i.e., variable types are checked before execution (usually at compilation). In contrast, in dynamycally typed languages variable names don't have types, runtime values (objects) do, i.e., the variable types are checked during execution.
+A language is statically typed when variables have types, i.e., the type of the variables are checked before execution (usually at compilation). In contrast, in dynamycally typed languages variable names don't have types, runtime values (objects) do, i.e., the variable types are checked during execution.
 
 ## (C)Python is interpreted
 
 It is often said that whether a language is compiled or interpreted is an "implementation detail". That is, we should separate Python, the programming language itself, from its specific implementation (like [CPython](https://github.com/python/cpython), [IronPython](https://ironpython.net/) or [PyPy](https://www.pypy.org/)). Nonetheless, the most popular implementations, indeed, behave like interpreters. More specifically, they execute code in two steps:
 
-1. "Compile" the source code into a Python-specific lower level code (`*.pyc`), called "bytecode".
-1. Execution by the interpreter
+1. "Compile" the source code into a Python-specific lower level code (`*.pyc`, stored in `__pycahce__`), called "bytecode".
+1. Execution by the Python Virtual Machine. Essentially, an infinite evaluation loop containing a switch over all possible bytecode instructions.
 
 Note that the "compilation" step is quite different from what it would involve for a so-called compiled language, like C or C++. For the latter, we would end up with an independent executable. Furthermore, CPython's puts emphasis in quickly executing the code. Hence, it spends little time in optimizing the executable. On the other hand, compilation in C/C++ can take a significant amount of time, as these optimizations take place.
 
@@ -161,12 +161,14 @@ Inside global_test, foo = global
 After global_test, foo = nonlocal
 Finally, foo = global
 ```
-
-TODO Scope resolution
   
 # Memory management in Python
 
-In CPython, all the objects live in a *private* [heap](../hardware#memory-allocation). Memory is handled exclusively by the Python memory manager. In other words, and in contrast to languages like C, the user has no way directly to manipulate items in memory. When an object is created, memory is allocated in the heap, and its reference is stored in the relevant namespace. Conversely, the garbage collector is an algorithm that deallocates objects when they are no longer needed. The main mechanism uses the [refcount](../python-objects#refcount) of the object: when it falls to 0, its memory is deallocated. However, the garbage collector also watches for objects that still have a non-zero refcount, but have become inaccessible, for instance:
+In CPython, all the objects live in a *private* [heap](../hardware#memory-allocation). Memory management is handled exclusively by the Python memory manager. In other words, and in contrast to languages like C, the user has no way directly to manipulate items in memory. The Python heap is further subdivided into *arenas* to reduce data fragmentation.
+
+When an object is created, the memory manager allocates some memory for it in the heap, and its reference is stored in the relevant namespace. 
+
+Conversely, the garbage collector is an algorithm that deallocates objects when they are no longer needed. The main mechanism uses the [reference count](../python-objects#refcount) of the object: when it falls to 0, its memory is deallocated. However, the garbage collector also watches for objects that still have a non-zero refcount, but have become inaccessible, for instance:
 
 ```python
 # create a list - refcount = 1
@@ -179,12 +181,43 @@ x.append(x)
 del x
 ```
 
+# The infamous Global Interpreter Lock (GIL)
+
+GIL is a mechanism to make CPython's thread safe, by only allows one thread to execute Python bytecode at a time. This vastly simplifies CPython's implementation and writing extensions for it, since thread safety is not a concern. It also leads to faster single-thread applications. However, CPU-bound tasks cannot be sped up by multithreading, since nonetheless the threads will run sequentially, never in parallel. However, it can be used to speed up I/O-bound operations.
+
+When parallel processing is needed, Python can still do that via:
+
+1. Multiprocessing, i.e., launching multiple Python processes, each with their own interpreter, memory, and GIL.
+1. Developing a C extension, which gives us lower-level access to threading.
+
+# The Python import system
+
+A Python module is simply a file containing Python functions, classes, constants and runnable code. When we want to use them, we need to *import* the module using the `import` statement. For instance:
+
+```python
+import numpy as np
+```
+
+It imports [this file](https://github.com/numpy/numpy/blob/main/numpy/__init__.py) from your installed NumPy package as a module object and assigns its reference name `np`.
+
+There are multiple things that Python recognizes as modules:
+
+1. Built-in modules: written in C, and part of the Python executable.
+1. Frozen modules: written in Python, and part of the Python executable.
+1. C extensions: written in C, but loaded dynamically into the Python executable.
+1. Python source code and bytecode files
+1. Directories
+
+TO EXPAND
+
+
 # TODO
 
-- Modules: <https://tenthousandmeters.com/blog/python-behind-the-scenes-11-how-the-python-import-system-works/>
-- GIL: <https://tenthousandmeters.com/blog/python-behind-the-scenes-13-the-gil-and-its-effects-on-python-multithreading/>
 - Pickling
+- Scope resolution
 
 # Further reading
 
 - [StackOverflow: If Python is interpreted, what are .pyc files?](https://stackoverflow.com/questions/2998215/if-python-is-interpreted-what-are-pyc-files)
+- [Python behind the scenes #11: how the Python import system works](https://tenthousandmeters.com/blog/python-behind-the-scenes-11-how-the-python-import-system-works/)
+- [Python behind the scenes #13: the GIL and its effects on Python multithreading](https://tenthousandmeters.com/blog/python-behind-the-scenes-13-the-gil-and-its-effects-on-python-multithreading/)

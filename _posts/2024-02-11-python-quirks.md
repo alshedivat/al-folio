@@ -417,6 +417,10 @@ finally:
     print("Thanks anyway.")
 ```
 
+# Context managers
+
+A context manager is a programming construct that makes it easy to allocate and release resources. It is useful to handle file operations, network connections or database transactions, when it is important to release the resource when we are done with it. They can be used using the `with` statement. The context manager class needs two methods: `__enter__`, to setup the resource, and `__exit__`, to clean up and release the resource.
+
 # References
 
 * D. Beazley, [Advanced Python Mastery](https://github.com/dabeaz-course/python-mastery)
