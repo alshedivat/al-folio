@@ -4,14 +4,11 @@
     - name: Full Name
       value: Zhihao LIU
       
-    - name: Date of Birth
-      value: 26th March 1993
-      
     - name: Languages
       value: Chinese, English, Norsk (beginner)
       
-    - name: IT skills
-      value: Python, MATLAB, Automating GIS, Git, Numerical Modeling, Geostatistics
+    - name: Hacking skills
+      value: Python, Automating GIS, Git, Numerical Modeling, Geostatistics, Kalman Filter, 
   
 - title: Education
   type: time_table
@@ -39,6 +36,19 @@
   type: time_table
   contents:
   
+    - title: Data scientist
+      institution: Eurostar / IKOS
+      year: 2024.02 - Present
+      description: 
+        - Using Kalman Filter doinig data fusing/ intergration
+	- Using FastAPI develop Restful microservice
+	- PostgreSQL
+    - title: Geomatics professional & Assistant Manager
+      institution: BGP Offshore, China National Petroleum Corporation
+      year: 2021.01 - 2021.07
+      description: 
+        - Remote Technical Support, Quality Control, Data Reprocess, Acoustic Positioning.
+        - Get promoted to the senior position✨
     - title: Field Technician & Geomatics professional
       institution: BGP Offshore, China National Petroleum Corporation
       year: 2014.07 - 2020.12
@@ -47,19 +57,17 @@
         - Global 3D/4D seismic operation among offshore Norway, UK, Morocco, Senegal, Nigeria...
         - HSEQ awareness and multidisciplinary environment.
         - Registered Licensed Surveyors of P.R.C.
-    - title: Geomatics professional & Assistant Manager
-      institution: BGP Offshore, China National Petroleum Corporation
-      year: 2021.01 - 2021.07
-      description: 
-        - Remote Technical Support, Quality Control, Data Reprocess, Acoustic Positioning.
-        - Get promoted to the senior position✨
   
 - title: Part-time and Volunteering
   type: time_table
   contents:
     - title: Research Assistant
-      year: 2021.12 - Present
+      year: 2021.12 - 2023.11
       description: Teaching assistant for GEO4300/9300 (Geophysical data science, 23 Fall). Scientists benefit from my assistance in coding and field trips.
+
+    - title: Summer Research Assistant
+      year: 2023.05 - 2023.07
+      description: Downscaling and bias correction of weather/cliamte dataset for energy system modeling.
 
     - title: IT Helper - UiO Geo
       year: 2021.11 - 2023.06
