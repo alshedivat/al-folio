@@ -3,10 +3,8 @@
   contents:
     - name: Full Name
       value: Zhihao LIU
-      
     - name: Languages
       value: Chinese, English, Norsk (beginner)
-      
     - name: Hacking skills
       value: Python, Automating GIS, Git, Numerical Modeling, Geostatistics, Kalman Filter, 
   
@@ -37,10 +35,10 @@
   contents:
   
     - title: Data scientist
-      institution: Eurostar / IKOS
+      institution: Eurostar & IKOS
       year: 2024.02 - Present
       description: 
-        - Using Kalman Filter doinig data fusing/ intergration
+        - Using Kalman Filter doinig data fusing & intergration
 	- Using FastAPI develop Restful microservice
 	- PostgreSQL
     - title: Geomatics professional & Assistant Manager
