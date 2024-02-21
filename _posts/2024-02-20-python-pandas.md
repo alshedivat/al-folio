@@ -37,6 +37,24 @@ dtype: int64
 
 Indeed, the data is stored as a [NumPy vector](../python-numpy#the-inner-workings-of-numpy-arrays), and inherit its advantages and disadvantages. Computations on Series come with an extra overhead, since Pandas puts extra effort in handling missing values.
 
+## DataFrames
+
+DataFrames are matrix-like structures, which build on top of Series.
+
+```python
+X = pd.DataFrame({"x": [1, 2, 3],
+                  "y": ["a", "b", "c"]})
+X
+```
+```
+   x  y
+0  1  a
+1  2  b
+2  3  c
+```
+
+Indeed, the data is stored as multiple Series with a shared index.
+
 # Indexing
 
 As in vectors, we can access its elements using their *positional* index. But, furthermore, it has an *index*, a dictionary-like structure which allows us to access each element in the array using a *label*:
@@ -58,6 +76,8 @@ As in vectors, we can access its elements using their *positional* index. But, f
     d    3
     dtype: int64
     ```
+
+When indexes are **unique**, they are **fast**.
 
 Unless otherwise specified, the index gets initialized to a (lazy) enumeration of the rows/items. We can access the index using `.index()`, and revert it to this default behaviour using `.reset_index(drop=True)`. Note that, unless we alter it explicitly, the index will not change, even after deleting elements. This is in contrast to the positional index.
 
