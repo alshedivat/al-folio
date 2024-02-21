@@ -65,7 +65,7 @@ cv: assets/pdf/cv.pdf
 github_username: mcopik # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: copikmarcin # your Twitter handle
-mastodon_username: # your mastodon instance+username in the format instance.tld/@username
+mastodon_username: mastodon.social/@mcopik # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: marcin-copik-a3693973 # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: JdXd8pQAAAAJ&hl=pl # your Google Scholar ID
