@@ -14,16 +14,16 @@ nav_order: 3
 **"Cultural and Linguistic Diversity Improves Visual Representations"**.
 Andre Ye, Sebastin Santy, Jena D. Hwang, Amy X. Zhang, Ranjay Krishna.
 [RAIVN Lab](https://raivn.cs.washington.edu/){:target="_blank"} & [Social Futures Lab](https://social.cs.washington.edu/){:target="_blank"}, Paul G. Allen School of Computer Science.
-In submission to ICLR 2023.
+In submission to ECCV 2023.
 - [arXiv preprint](https://arxiv.org/abs/2310.14356){:target="_blank"}.
 - RAIVN group seminar talk [slides](https://docs.google.com/presentation/d/10c61-Nep6oZuO1l7jStpekaF1E4vfnpVpXPx-bxpPTg/edit?usp=sharing){:target="_blank"}, [pdf](/assets/pdf/RAIVN-presentation-11_28.pdf) (November 2023)
 
 **"LLMs grasp morality in concept"**.
 Mark Pock*, Andre Ye*, Jared Moore.
 First [Workshop](https://neurips.cc/virtual/2023/workshop/66528){:target="_blank"} on Moral Psychology and Philosophy at NeurIPS, December 2023 -- New Orleans, Louisiana
-- [arXiv preprint](https://arxiv.org/abs/2310.14356){:target="_blank"}
+- [arXiv preprint](https://arxiv.org/abs/2311.02294){:target="_blank"}
 - [workshop poster](/assets/pdf/neurips-model-meaning-final.pdf){:target="_blank"}
-- [abstract submission](/assets/pdf/LLMs_grasp_morality_digital_ethics_ws.pdf){:target="_blank"} to [Penn-Georgetown Digital Ethics Workshop](https://philevents.org/event/show/115754){:target="_blank"}
+- [abstract submission](/assets/pdf/LLMs_grasp_morality_digital_ethics_ws.pdf){:target="_blank"} to Penn-Georgetown Digital Ethics Workshop
 
 **Confidence Contours**.
 Andre Ye, Quan Ze (Jim) Chen, Amy Zhang.
