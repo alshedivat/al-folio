@@ -3,10 +3,12 @@
   contents:
     - name: Full Name
       value: Zhihao LIU
+
     - name: Languages
       value: Chinese, English, Norsk (beginner)
+
     - name: Hacking skills
-      value: Python, Automating GIS, Git, Numerical Modeling, Geostatistics, Kalman Filter, 
+      value: Python, Automating GIS, Git, Numerical Modeling, Geostatistics, Kalman Filter 
   
 - title: Education
   type: time_table
@@ -41,12 +43,14 @@
         - Using Kalman Filter doinig data fusing & intergration
 	- Using FastAPI develop Restful microservice
 	- PostgreSQL
+
     - title: Geomatics professional & Assistant Manager
       institution: BGP Offshore, China National Petroleum Corporation
       year: 2021.01 - 2021.07
       description: 
         - Remote Technical Support, Quality Control, Data Reprocess, Acoustic Positioning.
         - Get promoted to the senior position✨
+
     - title: Field Technician & Geomatics professional
       institution: BGP Offshore, China National Petroleum Corporation
       year: 2014.07 - 2020.12
