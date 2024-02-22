@@ -25,6 +25,7 @@
         - The Surface Energy Balance in Cold Environments
         - Glacial and Periglacial Geomorphology
         -  IPCC Climate Change 2021-The Physical Science Basis
+
     - title: Bachelor - Geodesy and Geomatics
       institution: South West Petroleum University, Chengdu, P.R.C
       year: 2010-2014
@@ -40,9 +41,9 @@
       institution: Eurostar & IKOS
       year: 2024.02 - Present
       description: 
-        - Using Kalman Filter doinig data fusing & intergration
-	- Using FastAPI develop Restful microservice
-	- PostgreSQL
+        - Using Kalman Filter doinig data fusing & intergration.
+        - Using FastAPI develop Restful microservice.
+        - PostgreSQL.
 
     - title: Geomatics professional & Assistant Manager
       institution: BGP Offshore, China National Petroleum Corporation
@@ -80,9 +81,7 @@
       description: For the first time, UiO (or Norway) hosted the 63rd International Mathematical Olympiad where we proudly represent the city of Oslo to welcome young mathematicians as a tour guide.
       
     - title: OSI Friluft - Board member, Volunteer
-  
       year: 2022.01 - Present
-  
       description: Student association for outdoor events. I am in charge of media and outdoor guide.
   
 - title: Academic Interests
@@ -93,6 +92,7 @@
       items: 
         - Snow, glaciers and periglacial geomorphology
         - DEM, geomorphometry modelling
+
     - title: Geospatial data science
       items:
         - Open source geospatial tools
