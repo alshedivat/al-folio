@@ -16,3 +16,4 @@ JavaScript is required to show this page. Let this site use JavaScript in your b
 </script>
 
 <div id="container" class="locale-en my-calendar-container"></div>
+If no calendar is visible, click <a href="/calendar_fallback">here</a>.
