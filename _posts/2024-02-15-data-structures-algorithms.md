@@ -19,7 +19,7 @@ Graphs are data structures composed of a set of objects (*nodes*) and pairwise r
 
 Graphs can be represented as:
 
-- Adjacency matrices: symmetric matrices in which every row $i$ contains the edges of node $i$. Specifically, $row_{ij}$ is 1 if nodes $i$ and $j$ are connected, and 0 otherwise.
+- Adjacency matrices: symmetric matrices in which every row $$i$$ contains the edges of node $$i$$. Specifically, $$row_{ij}$$ is 1 if nodes $$i$$ and $$j$$ are connected, and 0 otherwise.
 - Adjacency list: list of pairs, each of which represents an edge by describing the two involved node indexes.
 - Hash map: keys are node ids, values are the set of nodes each is connected to. This is a very convenient representation.
 
@@ -31,9 +31,9 @@ TODO
 
 ### Heaps / priority queues
 
-Heaps are binary threes in which the value of every parent is lower or equal than any of its children. This gives them their most interesting property: the minimum element is always on top. That gives them their alternative name: priority queues.
+Heaps are binary trees in which the value of every parent is lower or equal than any of its children. This gives them their most interesting property: the minimum element is always on top. Because of that, they are also called priority queues.
 
-In Python, [`heapq`](https://docs.python.org/3/library/heapq.html) provides an implementation of the heap. Any populated list can be transformed *in-place* into a heap:
+In Python, [`heapq`](https://docs.python.org/3/library/heapq.html) provides an implementation of the heap. Any populated list can be transformed in-place into a heap:
 
 ```python
 import heapq
@@ -86,10 +86,10 @@ Let's see some common operations:
 
 ## Trie
 
-A trie (from *retrieval*) is a data structure used to store strings as a tree. Specifically:
+A trie (from re*trie*val) is a data structure that stores strings as a tree. Specifically:
 
-- Nodes are characters, except for the root node, which does not correspond to any.
-- Children nodes represent each of the possible characters that can follow the parent.
+- Nodes represent characters, except for the root, represents the string start.
+- Children represent each of the possible characters that can follow the parent.
 - Leaf nodes represent the end of the string.
 - Paths from the root to the leafs represent the different words.
  
@@ -577,7 +577,7 @@ Recursive functions have two parts:
 
 The space complexity of recursion will be, at least, the length of the stack which accumulates all the function calls.
 
-**Note:** CPython's recursion limit is 1,000. This can be a limit to the depth of the problems we can tackle.
+**Note:** CPython's recursion limit is 1,000. This can limit to the depth of the problems we can tackle.
 
 #### Memoization
 
