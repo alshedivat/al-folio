@@ -8,7 +8,7 @@
       value: Chinese, English, Norsk (beginner)
 
     - name: Hacking skills
-      value: Python, Automating GIS, Git, Numerical Modeling, Geostatistics, Kalman Filter 
+      value: Python, Automating GIS, Git, Numerical Modeling, Geostatistics, Kalman Filter, Gradient descent, XGBoost
   
 - title: Education
   type: time_table
@@ -41,15 +41,16 @@
       institution: Eurostar & IKOS
       year: 2024.02 - Present
       description: 
-        - Using Kalman Filter doinig data fusing & intergration.
-        - Using FastAPI develop Restful microservice.
+        - Using Kalman Filter in data fusing & intergration.
+        - Using FastAPI to develop Restful microservice.
         - PostgreSQL.
 
     - title: Geomatics professional & Assistant Manager
       institution: BGP Offshore, China National Petroleum Corporation
       year: 2021.01 - 2021.07
       description: 
-        - Remote Technical Support, Quality Control, Data Reprocess, Acoustic Positioning.
+        - Remote Technical Support
+        - Quality Control, Data Reprocess, GNSS & Acoustic Positioning.
         - Get promoted to the senior position✨
 
     - title: Field Technician & Geomatics professional
