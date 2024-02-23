@@ -1,0 +1,24 @@
+name: refresh-calendar-access
+
+on:
+  workflow_dispatch:
+
+jobs:
+  gen-auth-token:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    steps:
+    - uses: 'actions/checkout@v4'
+
+    - id: 'auth'
+      uses: 'google-github-actions/auth@v2'
+      with:
+        project_id: 'website-calendar-415211'
+        workload_identity_provider: 'projects/604298549901/locations/global/workloadIdentityPools/github/providers/kyleaoman-github-io'
+
+    - run: |-
+       curl -H 'Bearer: ${{ steps.auth.outputs.auth_token }}' https://calendar.google.com/calendar/embed?src=kyleaoman%40gmail.com&ctz=Europe%2FLondon"
+    
