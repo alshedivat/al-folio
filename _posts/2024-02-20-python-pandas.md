@@ -11,7 +11,7 @@ toc:
     sidebar: left
 ---
 
-[Pandas](https://pandas.pydata.org/) is the most common Python library to deal with data frames. It builds on top of [NumPy](../python-numpy) to provide useful data structures for data scientists.
+[Pandas](https://pandas.pydata.org/) is the most common Python library to deal with real world data. It builds on top of [NumPy](../python-numpy) to provide useful structures for data scientists.
 
 # Data structures provided by pandas
 
@@ -19,7 +19,7 @@ Pandas provides several data structures, out of which two are particularly popul
 
 ## Series
 
-A Series is a vector-like structure, that builds on top of and extends NumPy vectors.
+A Series is a vector-like structure, that extends [NumPy vectors](../python-numpy#the-inner-workings-of-numpy-arrays).
 
 ```python
 import pandas as pd
@@ -35,7 +35,7 @@ d    3
 dtype: int64
 ```
 
-Indeed, the data is stored as a [NumPy vector](../python-numpy#the-inner-workings-of-numpy-arrays), and inherit its advantages and disadvantages. Computations on Series come with an extra overhead, since Pandas puts extra effort in handling missing values.
+The Series stores the data as a NumPy vectors, inheriting its advantages and disadvantages. But computations on Series come with an extra overhead, since Pandas puts extra effort in handling missing values.
 
 ## DataFrames
 
@@ -53,11 +53,11 @@ X
 2  3  c
 ```
 
-Indeed, the data is stored as multiple Series with a shared index.
+The DataFrame stores data as multiple Series with a shared index. While the data of a Series lives altogether, the different Series of a DataFrame are scattered in memory. In consequence, adding a new column to a DataFrame is fast: Pandas just needs to add its reference to the registry.
 
 # Indexing
 
-As in vectors, we can access its elements using their *positional* index. But, furthermore, it has an *index*, a dictionary-like structure which allows us to access each element in the array using a *label*:
+As in NumPy vectors, we can access a Series' elements using their *positional* indexes. But, furthermore, it has an *index*, a dictionary-like structure which allows us to access each element in the array using a *label*:
 
 - `.iloc[]` uses the positional indices, and slicing works as usual:
     ```python
@@ -77,7 +77,9 @@ As in vectors, we can access its elements using their *positional* index. But, f
     dtype: int64
     ```
 
-When indexes are **unique**, they are **fast**.
+DataFrames also have a `.loc[]` and an `.iloc[]` function, which accepts columns as a second argument.
+
+Thanks to their dictionary-like properties, indexes allow to access an element in constant time. However, this speed is only achievable when they are unique.
 
 Unless otherwise specified, the index gets initialized to a (lazy) enumeration of the rows/items. We can access the index using `.index()`, and revert it to this default behaviour using `.reset_index(drop=True)`. Note that, unless we alter it explicitly, the index will not change, even after deleting elements. This is in contrast to the positional index.
 

@@ -15,19 +15,31 @@ toc:
 
 ## Graphs
 
-Graphs are data structures composed of a set of objects (*nodes*) and pairwise relationships between them (*edges*). Notably, edges can have properties, like direction or weights. 
+Graphs are data structures composed of a set of objects (*nodes*) and pairwise relationships between them (*edges*). Notably, edges can have properties, like a direction or a weight.
 
 Graphs can be represented as:
 
-- Adjacency matrices: symmetric matrices in which every row $$i$$ contains the edges of node $$i$$. Specifically, $$row_{ij}$$ is 1 if nodes $$i$$ and $$j$$ are connected, and 0 otherwise.
+- Adjacency matrices: matrices in which every row $$i$$ contains the edges of node $$i$$. Specifically, $$\text{row}_{ij}$$ is 1 if nodes $$i$$ and $$j$$ are connected, and 0 otherwise. They are symmetric for undirected graphs.
 - Adjacency list: list of pairs, each of which represents an edge by describing the two involved node indexes.
 - Hash map: keys are node ids, values are the set of nodes each is connected to. This is a very convenient representation.
 
-A common type of graphs in computer science are grids, in which nodes are layed in a grid, and they are connected to the nodes selected top, bottom, left and right.
+A common type of graph in computer science are grids, in which nodes are layed in a grid, and they are connected to the nodes selected top, bottom, left and right.
 
-## Trees
+## Binary trees
 
-TODO
+A tree is a graph in which there is only one path between every pair of nodes. Some concepts related to trees are: root, the (only) node on level 1; parent, the connected node in the level above; child, a connected in the level below; and leaf, a node with no children. Importantly, a tree has only one root. A very useful type of tree  are *binary* trees, in which every node has *at most* two children.
+
+Often trees are represented using classes. Specifically, we would have an object `Node` like:
+
+```python
+class Node:
+    def __init__(self, val=None):
+        self.val = val
+        self.left = None
+        self.right = None
+```
+
+We would keep a reference to the root, and build a try by successively creating new nodes and assigning them to `.left` or `.right`.
 
 ### Heaps / priority queues
 
@@ -324,6 +336,8 @@ d
 f
 ```
 
+For a graph with $$V$$ nodes and $$E$$ edges, the time complexity is $$O(V+E)$$ and the space complexity is $$O(V)$$.
+
 **Note:** Watch out for *cycles*. Without explicing handling, we might get stuck in infinite traversals. We can keep track of which nodes we have visited using a set, and exit early as soon as we re-visit one.
 
 ### Breadth first traversal
@@ -371,6 +385,8 @@ e
 f
 ```
 
+For a graph with $$V$$ nodes and $$E$$ edges, the time complexity is $$O(V+E)$$ and the space complexity is $$O(V)$$.
+
 ### Union find
 
 TODO
@@ -389,6 +405,13 @@ TODO
 
 ### Union find
 
+TODO
+
+## Binary tree problems
+
+### Tree traversals
+
+As for graph related problems, problems involving trees often require traversals, either [depth](#depth-first-traversal) or [breadth](#breadth-first-traversal) first. The same principles and data structures apply. For a tree with $$n$$ nodes, the time complexity is $$O(n)$$, and the time complexity is $$O(n)$$. If the tree is balanced, depth first has a space complexity of $$O(\log n)$$.
 
 ### Further resources
 
@@ -399,6 +422,8 @@ TODO
 The two pointer approach can be used in problems involving searching, comparing and modifying elements in a sequence. A naive approach would involve two loops, and hence take $$O(n^2)$$ time. Instead, in the two pointer approach we have two pointers storing indexes, and, by moving them in a coordinate way, we can reduce the complexity down to $$O(n)$$. Generally speaking, the two pointers can either move in the same direction, or in opposite directions.
 
 **Note:** Some two pointer problems require the sequence to be sorted to move the pointers efficiently. For instance, to find the two elements that produce a sum, having a sorted array is key to know which pointer to increase or decrease.
+
+**Note:** Sometimes we need to iterate an $$m \times n$$ table. While we can use two pointers for that, we can to with a single pointer $$i \in [0, m \times n)$$: `row = i // n`, `col = i % n`.
 
 #### Sliding window problems
 
