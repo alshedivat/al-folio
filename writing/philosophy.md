@@ -39,7 +39,7 @@ nav: false
 
 <a href="files/hammer-broke.pdf" target="_blank">"And Then the Hammer Broke: Seeing Machine Vision".</a> Final essay for PHIL 406, Philosophical Topics in Feminism.
 <p style="margin-left: 25px;">
-<small><bold>Abstract.</bold> Forthcoming.
+<small><bold>Abstract</bold>Vision is an important metaphor in ethical and political questions of knowledge. The feminist philosopher Donna Haraway points out the “perverse” nature of an intrusive, alienating, all-seeing vision (to which we might cry out “stop looking at me!”), but also encourages us to embrace the embodied nature of sight and its promises for genuinely situated knowledge. Current technologies of machine vision – surveillance cameras, drones (for war or recreation), iPhone cameras – are usually construed as instances of the former rather than the latter, and for good reasons. However, although in no way attempting to diminish the real suffering these technologies have brought about in the world, I make the case for understanding technologies of computer vision as material instances of embodied seeing and situated knowing. Furthermore, borrowing from Iris Murdoch’s concept of moral vision, I suggest that these technologies direct our labor towards self-reflection in ethically significant ways. My approach draws upon paradigms in computer vision research, phenomenology, and feminist epistemology. Ultimately, this essay is an argument for directing more philosophical attention from merely criticizing technologies of vision as ethically deficient towards embracing them as complex, methodologically and epistemologically important objects.
 </small>
 </p>
 

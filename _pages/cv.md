@@ -33,6 +33,12 @@ Taylor Sorenson, Jared Moore, Jillian Fisher, Mitchell Gordon, Niloofar Mireshgh
 
 ### philosophy $$\subset$$ humanities research
 
+"And then the Hammer Broke: Seeing Machine Vision."
+**Andre Ye**.
+[Link](/writing/files/hammer-broke.pdf){:target="_blank"}.
+In submission to the Pacific University Undergraduate Philosophy Conference.
+The favorite philosophy essay I've written!
+
 "Computational Production of Simulacra."
 **Andre Ye**.
 *Garden of Ideas*, Volume 3, 2023 -- Issue 1, pages 3-17.
