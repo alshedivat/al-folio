@@ -1,8 +1,9 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Roomba Robot Pathfinding Simulator
+description: This project simulates pathfinding for a Roomba-like robot in a pre-mapped environment.
+img: assets/img/trajectory_grid.png
+redirect: https://github.com/Abhishek-EE/Path-Planning-Simulator
 importance: 3
 category: fun
 ---
