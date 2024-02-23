@@ -9,9 +9,10 @@ profile:
   # address: >
   #   <p>Austin, Texas</p>
 
-news: true  # includes a list of news items
+news: true # includes a list of news items
+latest_posts: true # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 Hey there! I'm Abhishek Ranjan Singh, an electrical engineer with a serious love for robotics and machine learning. I laid down my academic roots at North Carolina State University and Maulana Azad National Institute of Technology in India. These places not only gave me a strong foundation but also fueled my passion for diving deep into the tech world.
