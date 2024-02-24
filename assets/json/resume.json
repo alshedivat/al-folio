@@ -27,11 +27,39 @@
       "name": "Strategic America",
       "position": "Data Analyst",
       "url": "https://www.strategicamerica.com/",
-      "startDate": "June 2023",
-      "endDate": "Current",
+      "startDate": "2023-06",
+      "endDate": "Now",
       "summary": "Utilize Tableau to design dashboards (reports) for a variety of clients; create and document process improvements for the Data, Research, and Insights team, including the use of Python, Power Query Power Automate, and PowerShell to help automate tasks; recommend tools to help improve our work and/or to decrease cost",
       "highlights": ["Used Python to export PDF versions of Tableau dashboards from Tableau Online (client wanted PDFs), used Power Automate to help collegue decrease time spent on task from a little over an hour per month to less than two minutes per month, use Power Query to automate data cleaning"]
+    },
+    {
+      "name": "Casey's",
+      "position": "Sr. IT Analyst",
+      "url": "https://www.caseys.com/",
+      "startDate": "2021-10",
+      "endDate": "2023-03",
+      "summary": "Analyze IT procurement policies and procedures; develop templates and strategies to improve effectiveness of financial reporting of the IT department; partner with procurement, accounting, and finance to develop better interdepartmental understanding of the relationship between procurement processes using Coupa, IT needs and experiences, and the financial reporting outcomes; utlize interdepartmental partnerships to fine tune processes, policies, and procedures and to coordingate in-house learning sessions; create data sets and reporting to measure progress and effectiveness of strategies; utilize microstrategy and Power BI for data analysis and vizualization",
+      "highlights": ["Created budget template for IT department and linked to Power Query to analyze YOY changes and find instances where we may have duplicated efforts across cost centers"]
+    },
+    {
+      "name": "Iowa Farm Bureau",
+      "position": "Staff Accountant",
+      "url": "https://www.iowafarmbureau.com/",
+      "startDate": "2020-04",
+      "endDate": "2021-10",
+      "summary": "In charge of all aspects of accounting for nine companies within the Farm Bureau umbrella, including AP, AR, financial reporting, and payroll; state and Federal PAC reporting; fleet tracking and analysis; account analysis",
+      "highlights": ["Automated working papers (Excel), including those for invesetment analysis"]
+    },
+    {
+      "name": "Bergan KDV",
+      "position": "Staff Accountant",
+      "url": "",
+      "startDate": "2018-11",
+      "endDate": "2020-04",
+      "summary": "Assist in-charge in various assurance services; write reports and create financial statement for clients using Asset Keeper and ProSystems Engagement; tax return preparation for individuals and businesses, and informational returns using CCH Axcess/ProSystems fx Tax; Assist with other projects as needed, including preparation for litigation support and business valuations",
+      "highlights": ["Automated audit working papers (Excel), Audit, Tax"]
     }
+    
   ],
   "volunteer": [
     {
@@ -40,7 +68,7 @@
       "url": "https://example.com",
       "startDate": "2023",
       "endDate": "Current",
-      "summary": "support and mentor kids",
+      "summary": "support and mentor kids at various stages of coding capabilities",
       "highlights": "Developed and co-taught a course on Python for Data Visualization during Tech Journey's Tech Camp (summer 2023)"
     }
   ],
@@ -70,7 +98,7 @@
   ],
   "skills": [
     {
-      "name": "Data Analysis",
+      "name": "Data Analysis/Data Science Languages and Tools",
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Python",
@@ -78,7 +106,34 @@
         "SQL",
         "Power BI",
         "Tableau",
-        "Microstrategy"
+        "Microstrategy",
+        "Jupyter",
+        "VSCode",
+        "PyCharm",
+        "Google Colab",
+        "Rstudio"
+      ]
+    },
+    {
+      "name": "Python/R Libraries",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Pandas",
+        "NumPy",
+        "SciPy",
+        "PySpark",
+        "PyTorch",
+        "Plotly",
+        "scikit-learn",
+        "TensorFlow/Keras",
+        "BeautifulSoup",
+        "tidyverse",
+        "Shiny",
+        "Knitr",
+        "SciPy",
+        "Matplotlib",
+        "Seaborn",
+        "Requests"
       ]
     },
     {
@@ -89,7 +144,7 @@
         "Power Automate",
         "PowerShell",
         "Python",
-	"Tableau Prep"
+	      "Tableau Prep"
       ]
     },
     {
@@ -98,7 +153,10 @@
       "keywords": [
         "Audit",
         "Tax",
-        "GAAP"
+        "GAAP",
+        "ProSystems Engagement",
+        "CCH Axcess/ProSystems fx Tax",
+        "Asset Keeper"
       ]
     }
   ],
