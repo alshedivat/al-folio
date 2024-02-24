@@ -115,9 +115,8 @@ November 2022 to June 2023.
 ---
 
 ## misc
-- Languages: English (native), Mandarin Chinese (conversational), Russian (working), French (learning)
+- Languages: English (native), Mandarin Chinese (conversational), Russian (basic), French (learning)
 - Typing speed over 150 wpm
-- 
 
 
 <!-- ---
