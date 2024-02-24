@@ -20,10 +20,10 @@ Graphs are data structures composed of a set of objects (*nodes*) and pairwise r
 Graphs can be represented as:
 
 - Adjacency matrices: matrices in which every row $$i$$ contains the edges of node $$i$$. Specifically, $$\text{row}_{ij}$$ is 1 if nodes $$i$$ and $$j$$ are connected, and 0 otherwise. They are symmetric for undirected graphs.
-- Adjacency list: list of pairs, each of which represents an edge by describing the two involved node indexes.
+- Adjacency list: list of pairs, each of which represents an edge by describing the two involved node indexes. The node order can be meaningful (in directed graphs) or not (in undirected graphs).
 - Hash map: keys are node ids, values are the set of nodes each is connected to. This is a very convenient representation.
 
-A common type of graph in computer science are grids, in which nodes are layed in a grid, and they are connected to the nodes selected top, bottom, left and right.
+A common type of graph in computer science are grids, in which nodes are laid in a grid, and they are connected to the nodes selected top, bottom, left and right.
 
 ## Binary trees
 
@@ -43,7 +43,7 @@ We would keep a reference to the root, and build a try by successively creating 
 
 ### Heaps / priority queues
 
-Heaps are binary trees in which the value of every parent is lower or equal than any of its children. This gives them their most interesting property: the minimum element is always on top. Because of that, they are also called priority queues.
+(Min-)Heaps are binary trees in which the value of every parent is lower or equal than any of its children. This gives them their most interesting property: the minimum element is always on top. (Similarly, in max-heaps, the maximum stands at the root.) Because of that, they are also called priority queues.
 
 In Python, [`heapq`](https://docs.python.org/3/library/heapq.html) provides an implementation of the heap. Any populated list can be transformed in-place into a heap:
 
@@ -96,9 +96,11 @@ Let's see some common operations:
         -5
         ```
 
-## Trie
+A famous algorithm that can be solved with heaps is [computing the running median of a data stream](https://leetcode.com/problems/find-median-from-data-stream/).
 
-A trie (from re*trie*val) is a data structure that stores strings as a tree. Specifically:
+## Tries
+
+Tries (from re*trie*val) are trees that store strings:
 
 - Nodes represent characters, except for the root, represents the string start.
 - Children represent each of the possible characters that can follow the parent.
@@ -107,17 +109,47 @@ A trie (from re*trie*val) is a data structure that stores strings as a tree. Spe
  
 Due to its nature, tries excel at two things:
 
-1. Saving space when many words share the same prefix, since we only need to store the prefix once.
-1. Searching words, which can be done in $$O(\text{word length})$$. Similarly, it is very fast to find out if we have any word with a given prefix.
+1. Saving space when storing words sharing the same prefix, since they only store the prefix once.
+1. Searching words, which can be done in $$O(\text{word length})$$. Similarly, they make it very fast to search for words with a given prefix.
 
-## Disjoint sets or Union Find
+These two properties make them excellent at handling spell checking and autocomplete functions.
 
-Disjoint sets: they have no common element.
+## Union Find
 
-They have two operations:
+Union-Finds, also known as Disjoint-Sets, store a collection of non-overlapping sets. Internally, sets are represented directed trees, in which every member point at the root of the tree. The root is just another member, which we call the **representative**. Union-Finds provide two key operations:
 
-- Find: find what set an element belongs to.
-- Union:
+- **Find:** returns the set an element belongs to. Specifically, it returns its representative.
+- **Union:** combines two sets. Specifically, first, it performs two finds. If the representatives differ, it will connect one tree's root to the root of the other.
+
+Union-Finds can be represented as an array, in which every member of the universal set is one element. Members linked to a set take as value the index of another member of the set, often the root. Consequently, members that are the only members of a set take their own value. The same goes for the root. While this eliminates many meaningful pairwise relationship between the elements, it speeds up the two core operations.
+
+A property of the set is its *rank*, i.e., an approximation of its depth. Union is performed *by rank*: the root with the highest rank is picked as the new root. Find performs an additional step, called *path compresion*, in which every member in the path to the root will be directly bound to the root. This increases the cost of that find operation, but keeps the tree shallow and the paths short, and hence speeds up subsequence find operations.
+
+Here is a Python implementation:
+
+```python
+class UnionFind:
+    def __init__(self, size):
+        self.parent = [i for i in range(size)]
+        self.rank = [0] * size
+
+    def find(self, x):
+        if self.parent[x] != x:
+            self.parent[x] = self.find(self.parent[x])  # Path compression
+        return self.parent[x]
+
+    def union(self, x, y):
+        rootX = self.find(x)
+        rootY = self.find(y)
+        if rootX != rootY:
+            if self.rank[rootX] > self.rank[rootY]:
+                self.parent[rootY] = rootX
+            elif self.rank[rootX] < self.rank[rootY]:
+                self.parent[rootX] = rootY
+            else:
+                self.parent[rootY] = rootX
+                self.rank[rootX] += 1
+```
 
 If two elements belong to the same set, there is a cycle.
 
@@ -139,16 +171,22 @@ The input of interval problems is a list of lists, each of which contains a pair
 
 ## Sorting problems
 
-Sorting consists on arranging the elements of an input array according to some criteria. There are multiple types, with different complexities:
+Sorting consists on arranging the elements of an input array according to some criteria. There are multiple ways to sort an input, each offerintg different trade-offs:
+
+- Memory usage: *in-place* approaches sort the items in place, without using extra space.
+- Stability: stable algorithms preserve the original relative order when faced with two equal keys.
+- Internal vs external: internal sorts operate exclusively on RAM memory; external sorts do it outside (e.g., disk or tape).
+- Recursive vs non-recursive
+- Comparison-based: comparison-based algorithms work by comparing pairs of items. All the algorithms I cover here fall under this category, but not all (e.g., [counting sort](https://en.wikipedia.org/wiki/Counting_sort)).
+
+I implement a couple of those below. Their complexities are as follows:
 
 | Algorithm | Time complexity | Space complexity |
 |-----------|-----------------|------------------|
 | Selection | $$O(n^2)$$      | $$O(1)$$         |
 | Bubble    | $$O(n^2)$$      | $$O(1)$$         |
 | Merge     | $$O(n \log n)$$ | $$O(n)$$         |
-| Quicksort | $$O(n \log n)$$ | $$O(\log n)$$    |
-
-I implement a few of those below.
+| Quicksort | $$O(n \log n)$$ (average) | $$O(\log n)$$    |
 
 ### Selection sort
 
@@ -245,6 +283,10 @@ def quick_sort(x):
 quick_sort([3,5,1,8,-1])
 ```
 
+### Further reading
+
+- [Sorting Out The Basics Behind Sorting Algorithms](https://medium.com/basecs/sorting-out-the-basics-behind-sorting-algorithms-b0a032873add)
+
 ## Search problems
 
 ### Linear search
@@ -340,6 +382,8 @@ For a graph with $$V$$ nodes and $$E$$ edges, the time complexity is $$O(V+E)$$ 
 
 **Note:** Watch out for *cycles*. Without explicing handling, we might get stuck in infinite traversals. We can keep track of which nodes we have visited using a set, and exit early as soon as we re-visit one.
 
+**Note:** Some corner cases are the empty graph, graphs with one or two nodes, graphs with multiple components and graphs with cycles.
+
 ### Breadth first traversal
 
 In a breadth-first traversal, given a starting node, we first visit its neighbors, then their neighbors, and so on.
@@ -386,6 +430,10 @@ f
 ```
 
 For a graph with $$V$$ nodes and $$E$$ edges, the time complexity is $$O(V+E)$$ and the space complexity is $$O(V)$$.
+
+### Topological sorting
+
+TODO
 
 ### Union find
 
@@ -1015,16 +1063,28 @@ If our stakeholder is prepared, they might come with a written down problem stat
     1. Otherwise, generate a few examples and infer the expected output.
 1. Ask clarifying questions:
     1. About the input:
-        - What is its data types? Is it sorted? Do we know the range of the integers? (Can they be negative?) A batch of a stream? Et cetera.
+        - What are its data types? Is it sorted? Do we know the range of the integers? (Can they be negative?) A batch of a stream? Et cetera.
         - Expected input size: if they know it, might give an idea of the complexity we should aim for. For inputs of size 1 to 100, $$O(n^2)$$ is acceptable; for larger inputs, we should do better.
     1. About the edge cases: empty input, invalid, etc.
+    1. Ask about the specific runtime our solution will need. That will be very useful to screen out solutions and algorithms.
 1. If possible, draw, or at least visualize the problem.
 
 ## 2. Brainstorming
 
-While it can be tempting to implmenent a solution right away, it is worth spending some time drafting the problem. After all, our stakeholder might have given it some thought already, and could be able to point us in the right direction.
+While it can be tempting to implement a solution right away, it is worth spending some time drafting the problem. After all, our stakeholder might have given it some thought already, and could be able to point us in the right direction.
 
-1. Try to match this problem to the problems you have seen; specifically, think about which data structure or algorithm might provide the best complexity.
+1. Try to match this problem to the problems you have seen. Regarding data structures:
+    - Hash maps: if we need fast lookups
+    - Graphs: if we are working with associated entities
+    - Stacks and queues: if the input has a nested quality
+    - Heaps: if we need to perform scheduling/orderings based on a priority
+    - Trees and tries: if we need efficient lookup and storage of strings
+    - Linked lists: if we require fast insertions and deletions, especially when order matters
+    - Union-finds: if we're investigating the if sets are connected or cycles exist in a graph
+    Regarding algorithms, there are some recurring ones:
+    - Depth-first search
+    - Binary Search
+    - Sorting Algorithms
 1. Don't be shy! Let your stakeholder hear out your thought process. They will surely appreciate knowing whats on your mind, and be able to chip in. Specially, if they do say something, **listen**. They are the subject matter experts after all!
 1. Once you seem to have converged to a specific approach, state the main parts of the algorithm and make sure they understand and agree.
     - We might want to start with a suboptimal solution, as long as we let them know that we know that! Once we have that working, we can identify the main bottlenecks and go back to the drawing board.
@@ -1040,11 +1100,13 @@ In order to allow our stakeholder follow our logic, it is important that they ca
 - If you realize your solution might not work, let them know. You might need to go back to brainstorming.
 - Stick to the language conventions. For instance, in PEP8:
     - Functions are separated by two lines
-- Keep your code clean: avoid duplicate code and use helper functions.
-- Time is limited, so don't write too many comments, ignore function typing, etc.
+- Keep your code clean: avoid duplicate code, use helper functions, keep function and variable names understandable.
+- Time is limited, so you might want to cut corners, e.g., comments or function typing. However, let your stakeholder know!
 
 Once you have a working solution, revisit it:
 
+- Scan the code for mistakes. For instance, when working with arrays, index errors are common.
+- Compute the complexity of your code. This might hint at what could be improved. It might also highlight tradeoffs.
 - Identify redundant work
 - Identify overlapping and repeated computations. The algorithm might be sped up by memoization.
 
@@ -1063,10 +1125,14 @@ If some examples fail, we need to debug our code. Throw in a few print statement
 
 After successfully presenting a solution, our stakeholder might have some follow-up questions:
 
-- Questions about our solution:
+- About our solution:
     - Time and space complexity? Usually, we should consider the worst case complexity, but if the amortized case is significantly better you should point it out.
     - Specific questions about the choice of algorithm, data structure, loops, etc.
-- Identify the best theoretical time complexity. This involves considering what is the minimum number of operations involved. For instance if we need to visit every element, probably $$ O(n) $$ is optimal.
+    - What are possible optimizations?
+        - While abstracting specific aspects into functions is helpful, it might also be less efficient (e.g., if we have to iterate the input multiple times instead of one).
+        - Identify repeated computations.
+    - Consider non-technical constraints, such as development time, maintainability, or extensibility.
+- Identify the best theoretical time complexity. This involves considering what is the minimum number of operations involved. For instance if we need to visit every element, probably $$O(n)$$ is optimal.
 
 **Note:** some algorithms have some implicit and potentially unexpected behaviors. `Ctrl + F` "Note:" in order to find some of them.
 
