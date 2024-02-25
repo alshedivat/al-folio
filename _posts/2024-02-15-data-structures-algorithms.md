@@ -1138,5 +1138,7 @@ After successfully presenting a solution, our stakeholder might have some follow
 
 ## Further reading
 
+- ["Blind 75" problem set](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
 - [Code templates](https://leetcode.com/explore/interview/card/cheatsheets/720/resources/4723/)
 - [Top techniques to approach and solve coding interview questions](https://www.techinterviewhandbook.org/coding-interview-techniques/)
+- [What kind of problem do I have?](https://sebinsua.com/algorithmic-bathwater#what-kind-of-problem-do-i-have)
