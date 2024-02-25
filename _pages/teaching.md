@@ -1,12 +1,17 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+img: 
+years: [2024, 2023, 2022]
+description: Master level signal processing and machine learning courses.
 nav: true
-nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<!-- _pages/publications.md -->
+<div class="publications">
 
-Organize your courses by years, topics, or universities, however you like!
+{%- for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f teaching -q @*[year={{y}}]* %}
+{% endfor %}
