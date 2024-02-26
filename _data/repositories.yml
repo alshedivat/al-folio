@@ -1,12 +1,6 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - likeawednesday
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - likeawednesday/TechCamp_DataViz
+  - likeawednesday/Selected_Work
