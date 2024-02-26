@@ -220,6 +220,7 @@ exclude:
   - purgecss.config.js
   - README.md
   - vendor
+  - Unused
   
 keep_files:
   - CNAME
