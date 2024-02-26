@@ -59,7 +59,7 @@ wikidata_id: # your wikidata id
 contact_note: >
   The best way to contact me is via email.
 
-google_analytics: G-C3FJ0T16S6 # out your google-analytics code
+google_analytics: # out your google-analytics code 
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
@@ -161,7 +161,7 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    true
+enable_google_analytics:    false
 enable_panelbear_analytics: false
 enable_mansory:             true
 enable_math:                true
