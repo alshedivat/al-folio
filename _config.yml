@@ -220,6 +220,7 @@ exclude:
   - purgecss.config.js
   - README.md
   - vendor
+  - ["_pagesUnused"] # added 26Feb2024
 keep_files:
   - CNAME
   - .nojekyll
