@@ -2,9 +2,4 @@
 * [Tech Camp](https://www.techjourney.org/tech-camp/)
 * [Coder Dojo](https://www.techjourney.org/coderdojodsm/)
 * [Girls Who Code](https://www.techjourney.org/gwc/)
-* [Youth Code](https://www.techjourney.org/youthcode/).
-
-Ways to get involved:
-* [Mentor](https://www.techjourney.org/volunteer/)
-* [Donate](https://www.techjourney.org/donate/)
-* [Sponsor](https://www.techjourney.org/contact/)
+* [Youth Code](https://www.techjourney.org/youthcode/)
