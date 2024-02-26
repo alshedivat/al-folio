@@ -3,7 +3,7 @@ layout: page
 title: submenus
 nav: true
 nav_order: 8
-dropdown: true
+dropdown: false #change to true to turn on dropdown option
 children:
   - title: publications
     permalink: /publications/
