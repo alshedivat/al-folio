@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: Selected_Work includes a selection of projects that demonstrate understanding of basic data science concepts and libraries. TechCamp_DataViz includes the course material I developed for a course I co-taught during Tech Journey's Tech Camp (summer 2023).
 nav: true
 nav_order: 4
 ---
