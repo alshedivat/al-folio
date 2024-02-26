@@ -52,54 +52,17 @@ It's a statistical sensation."},
   published={false}
 }
 
-@article{sacher2021hamiltonian,
-  title={Hamiltonian Monte Carlo for Regression with High-Dimensional Categorical Data},
-  author={Sacher, Szymon and Battaglia, Laura and Hansen, Stephen},
+@article{battaglia2024inference,
+  title={Inference for Regression with Variables Generated from Unstructured Data},
+  author={Battaglia, Laura and Christensen, Tim and Hansen, Stephen and Sacher, Szymon},
   journal={arXiv preprint arXiv:2107.08112},
-  year={2021},
+  year={2024},
   note={},
   published={false},
-  abstract={Latent variable models are becoming increasingly popular in economics for high-dimensional categorical data such as text and surveys. Often the resulting low-dimensional representations are plugged into downstream econometric models that ignore the statistical structure of the upstream model, which presents serious challenges for valid inference. We show how Hamiltonian Monte Carlo (HMC) implemented with parallelized automatic differentiation provides a computationally efficient, easy-to-code, and statistically robust solution for this problem. Via a series of applications, we show that modeling integrated structure can non-trivially affect inference and that HMC appears to markedly outperform current approaches to inference in integrated models.},
+  abstract={The leading strategy for analyzing unstructured data uses two steps. First, latent variables of economic interest are estimated with an upstream information retrieval model. Second, the estimates are treated as \data" in a downstream econometric model. We establish theoretical arguments for why this two-step strategy leads to biased inference in empirically plausible settings. More constructively, we propose a one-step strategy for valid inference that uses the upstream and downstream models jointly. The one-step strategy (i) substantially reduces bias in simulations; (ii) has quantitatively important effects in a leading application using CEO time-use data; and (iii) can be readily adapted by applied researchers.},
   url={https://arxiv.org/abs/2107.08112},
-  song={Lyrics by OpenAI ChatGPT<br>
-    Verse 1:<br>
-    Modeling high-dimensional data,<br>
-    It's a challenge that we must embrace,<br>
-    But with Hamiltonian Monte Carlo,<br>
-    We can find a better place<br>
-    <br>
-    Chorus:<br>
-    HMC for regression,<br>
-    With high-dimensional data,<br>
-    It's computationally efficient,<br>
-    And statistically robust, oh mate-a<br>
-    <br>
-    Verse 2:<br>
-    Ignoring the statistical structure,<br>
-    Can lead to faulty inference,<br>
-    But with HMC, we can model integrated structure,<br>
-    And improve our confidence<br>
-    <br>
-    Chorus:<br>
-    HMC for regression,<br>
-    With high-dimensional data,<br>
-    It's computationally efficient,<br>
-    And statistically robust, oh mate-a<br>
-    <br>
-    Bridge:<br>
-    Thanks to Sacher, Battaglia, and Hansen,<br>
-    For showing us the way,<br>
-    With their research on HMC,<br>
-    We can learn more every day.<br>
-    <br>
-    Chorus:<br>
-    HMC for regression,<br>
-    With high-dimensional data,<br>
-    It's computationally efficient,<br>
-    And statistically robust, oh mate-a.<br>
-    },
   html={https://arxiv.org/abs/2107.08112},
-  pdf={hmc.pdf},
+  pdf={BCHS.pdf},
   published={false}
 
 }
