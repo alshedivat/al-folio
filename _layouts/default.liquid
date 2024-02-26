@@ -68,5 +68,21 @@
     {% include scripts/progressBar.liquid %}
     {% include scripts/wechatModal.liquid %}
     {% include scripts/imageLayouts.liquid %}
+
+    <script>
+    window.addEventListener('load', function () {
+      let jupyterNotebooks = document.getElementsByClassName("jupyter-notebook-iframe-container");
+      for (let i = 0; i < jupyterNotebooks.length; i++) {
+        let bodyElement = jupyterNotebooks[i].getElementsByTagName("iframe")[0].contentWindow.document.body;
+        var links = bodyElement.getElementsByTagName("a");
+        for (var j = 0; j < links.length; j++) {
+          if (links[j].getAttribute("href")) {
+            links[j].setAttribute("target", "_blank");
+          }
+        }
+      }
+    });
+    </script>
+    
   </body>
 </html>
