@@ -123,8 +123,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: likeawednesday tech # blog_name will be displayed in your blog page
+blog_description: tech talk for the less technical
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -158,8 +158,8 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+  - name: #medium.com #uncomment and update site and rss_url below to reactivate/add an external blog post
+    rss_url: #https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
