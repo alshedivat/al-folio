@@ -71,6 +71,8 @@ print(append_three())
 
 ## Starred expressions and functions
 
+TODO
+
 ## Force the use of keyword arguments
 
 We can force the use of keyword arguments using `*`:

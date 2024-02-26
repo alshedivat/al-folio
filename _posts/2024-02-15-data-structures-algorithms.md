@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data Structures and Algorithms
-date: 2024-02-11 11:59:00-0400
+date: 2024-02-24 11:59:00-0400
 description: Common Problems and How to Solve Them 
 tags: comments
 categories: algorithms data-structures coding
@@ -43,7 +43,7 @@ We would keep a reference to the root, and build a try by successively creating 
 
 ### Heaps / priority queues
 
-(Min-)Heaps are binary trees in which the value of every parent is lower or equal than any of its children. This gives them their most interesting property: the minimum element is always on top. (Similarly, in max-heaps, the maximum stands at the root.) Because of that, they are also called priority queues.
+(Min-)Heaps are binary trees in which the value of every parent is lower or equal than any of its children. This gives them their most interesting property: the minimum element is always on top. (Similarly, in max-heaps, the maximum stands at the root.) Because of that, they are also called priority queues. A famous algorithm that can be solved with heaps is [computing the running median of a data stream](https://leetcode.com/problems/find-median-from-data-stream/).
 
 In Python, [`heapq`](https://docs.python.org/3/library/heapq.html) provides an implementation of the heap. Any populated list can be transformed in-place into a heap:
 
@@ -96,7 +96,27 @@ Let's see some common operations:
         -5
         ```
 
-A famous algorithm that can be solved with heaps is [computing the running median of a data stream](https://leetcode.com/problems/find-median-from-data-stream/).
+Let's examine the time complexity of each operation:
+
+- Creation: $$O(n)$$
+- Update: $$O(\log n)$$
+- Min/max retrieval: $$O(1)$$
+
+**Note:** Heaps are great to recover the smallest element, but not for the k<sup>th</sup> smallest one. A [BST](#binary-search-trees) might me more appropriate for that.
+
+### Binary search trees
+
+Binary serach trees (BST) are binary trees in which every node meets properties:
+
+- All descendants on the left are smaller than the parent node.
+- All descendants on the right are larger than the parent node.
+
+They provide a good balance between insertion and search speeds:
+
+- Search: done recursively on the tree. When balanced, search is as good as binary search on a sorted array. 
+- Insertion: also done recursively, by trasversing the tree from the root in order until we find an appropriate place.
+
+The time complexity of both is $$O(\log n)$$ when the tree is **balanced**; otherwise it is $$O(n)$$. (Balanced trees are those whose height is small compared to the number of nodes. Visually, they look full and all branches look similarly long.) As a caveat, no operation takes constant time.
 
 ## Tries
 
@@ -114,14 +134,14 @@ Due to its nature, tries excel at two things:
 
 These two properties make them excellent at handling spell checking and autocomplete functions.
 
-## Union Find
+## Union-finds
 
-Union-Finds, also known as Disjoint-Sets, store a collection of non-overlapping sets. Internally, sets are represented directed trees, in which every member point at the root of the tree. The root is just another member, which we call the **representative**. Union-Finds provide two key operations:
+Union-finds, also known as Disjoint-sets, store a collection of non-overlapping sets. Internally, sets are represented directed trees, in which every member point at the root of the tree. The root is just another member, which we call the **representative**. Union-finds provide two key operations:
 
 - **Find:** returns the set an element belongs to. Specifically, it returns its representative.
 - **Union:** combines two sets. Specifically, first, it performs two finds. If the representatives differ, it will connect one tree's root to the root of the other.
 
-Union-Finds can be represented as an array, in which every member of the universal set is one element. Members linked to a set take as value the index of another member of the set, often the root. Consequently, members that are the only members of a set take their own value. The same goes for the root. While this eliminates many meaningful pairwise relationship between the elements, it speeds up the two core operations.
+Union-finds can be represented as an array, in which every member of the universal set is one element. Members linked to a set take as value the index of another member of the set, often the root. Consequently, members that are the only members of a set take their own value. The same goes for the root. While this eliminates many meaningful pairwise relationship between the elements, it speeds up the two core operations.
 
 A property of the set is its *rank*, i.e., an approximation of its depth. Union is performed *by rank*: the root with the highest rank is picked as the new root. Find performs an additional step, called *path compresion*, in which every member in the path to the root will be directly bound to the root. This increases the cost of that find operation, but keeps the tree shallow and the paths short, and hence speeds up subsequence find operations.
 
@@ -144,16 +164,41 @@ class UnionFind:
         if rootX != rootY:
             if self.rank[rootX] > self.rank[rootY]:
                 self.parent[rootY] = rootX
-            elif self.rank[rootX] < self.rank[rootY]:
-                self.parent[rootX] = rootY
+                self.rank[rootX] = self.rank[rootY]
             else:
-                self.parent[rootY] = rootX
-                self.rank[rootX] += 1
+                self.parent[rootX] = rootY
+                self.rank[rootY] = self.rank[rootX]
 ```
 
-If two elements belong to the same set, there is a cycle.
+## Bloom filters
 
-They are useful to detect cycles.
+Bloom filters are data structures to probabilistically check if an element is a member of a set. It can be used when false positives are acceptable, but false negatives are not. For instance, if we have a massive data set, and we want to quickly discard all the elements that are not part of a specific set.
+
+The core structure underlying it is a bit array, which makes it highly compact in memory. At the start, all the positions would be set to 0. When inserting a given element, we apply multiple hash functions to it, each of which would map the element to a bucket in the array. This would be the element's "signature". Then, we would set the value of each of these buckets to 1. To probabilistically verify if an element is in the array, we would compute its signature and examine if all the buckets take a value of 1.
+
+## Linked lists
+
+A linked list is a DAG in which every node has exactly one inbound edge and one outbound edge, except for two: the *head*, a node with no inbound egde, and the *tail*, a node with no outbound edge. Like an array, linked lists are ordered. However, they have one key diference: insertions in the middle of an array are expensive ($$O(n)$$), since they require copying all the items of the array, while they are cheap in the linked list ($$O(1)$$), since they only require changing two pointers.
+
+This is an implementation of a linked list:
+
+```python
+class Node:
+
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+
+
+a = Node("A")
+b = Node("B")
+c = Node("C")
+d = Node("D")
+
+a.next = b
+b.next = c
+c.next = d
+```
 
 # Algorithms
 
@@ -165,7 +210,7 @@ Divide and conquer algorithms work by breaking down a problem into *two or more*
 
 The input of interval problems is a list of lists, each of which contains a pair `[start_i, end_i]` representing an interval. Typical questions revolve around how much they overlap with each other, or inserting and merging a new element.
 
-**Note:** There are many corner cases, no intervals, intervals which end and start at the same time or intervals that englobe other intervals. Make sure to think it through.
+**Note:** There are many corner cases, like no intervals, intervals which end and start at the same time or intervals that englobe other intervals. Make sure to think it through.
 
 **Note:** If the intervals are not sorted, the first step is *almost always* **sort them**, either by start or by end. This usually brings the time complexity to $$O(n \log n)$$. In some cases we need to perform two sorts, by start and end separately, before merging them. This produces the sequence of events that are happening.
 
@@ -181,12 +226,13 @@ Sorting consists on arranging the elements of an input array according to some c
 
 I implement a couple of those below. Their complexities are as follows:
 
-| Algorithm | Time complexity | Space complexity |
-|-----------|-----------------|------------------|
-| Selection | $$O(n^2)$$      | $$O(1)$$         |
-| Bubble    | $$O(n^2)$$      | $$O(1)$$         |
-| Merge     | $$O(n \log n)$$ | $$O(n)$$         |
-| Quicksort | $$O(n \log n)$$ (average) | $$O(\log n)$$    |
+| Algorithm                        | Time complexity           | Space complexity |
+|----------------------------------|---------------------------|------------------|
+| [Selection](#selection-sort)     | $$O(n^2)$$                | $$O(1)$$         |
+| [Bubble](#bubble-sort)           | $$O(n^2)$$                | $$O(1)$$         |
+| [Merge](#merge-sort)             | $$O(n \log n)$$           | $$O(n)$$         |
+| [Quicksort](#quick-sort)         | $$O(n \log n)$$ (average) | $$O(\log n)$$    |
+| [Topological](#topological-sort) | $$O(|V| + |E|)$$          | $$O(|V|)$$       |
 
 ### Selection sort
 
@@ -287,6 +333,158 @@ quick_sort([3,5,1,8,-1])
 
 - [Sorting Out The Basics Behind Sorting Algorithms](https://medium.com/basecs/sorting-out-the-basics-behind-sorting-algorithms-b0a032873add)
 
+
+## Linked lists
+
+### Traversal
+
+Traversing a linked list simply consists on passing through every element. We can do that starting from the head, following the pointer to the next node and so on.
+
+For instance, this algorithm stores all the values into an array:
+
+```python
+class Node:
+
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+
+
+def create_list():
+    a = Node("A")
+    b = Node("B")
+    c = Node("C")
+    d = Node("D")
+    a.next = b
+    b.next = c
+    c.next = d
+    return a
+
+def fetch_values(head):
+
+    curr = head
+    values = []
+
+    while curr:
+        values.append(curr.val)
+        curr = curr.next
+
+a = create_list()
+fetch_values(a)
+```
+```
+['A', 'B', 'C', 'D']
+```
+
+Or recursively:
+
+```python
+def fetch_values(node):
+    if not node: return values
+    return [node.val] + fetch_values(node.next)
+    
+
+fetch_values(a)
+```
+```
+['A', 'B', 'C', 'D']
+```
+
+### Search
+
+```python
+def find_value(node, target):
+
+    if not node: return False
+    elif node.val == target: return True
+
+    return find_value(node.next, target)
+
+
+find_value(a, "A") # True
+find_value(b, "A") # False
+```
+
+### Keeping multiple pointers
+
+Often multiple pointers are needed in order to perform certain operations on the list, like reversing it or deleting an element in the middle.
+
+```python
+def reverse_list(head):
+
+    prev, curr = None, head
+
+    while curr:
+        next = curr.next
+        curr.next = prev
+        prev, curr = curr, next
+
+    return prev
+
+
+fetch_values(reverse_list(a))
+```
+```
+['D', 'C', 'B', 'A']
+```
+
+### Merge lists
+
+```python
+a = create_list()
+
+x = Node("X")
+y = Node("Y")
+
+x.next = y
+
+def merge(head_1, head_2):
+
+    tail = head_1
+    curr_1, curr_2 = head_1.next, head_2
+    counter = 0
+
+    while curr_1 and curr_2:
+
+        if counter & 1:
+            tail.next = curr_1
+            curr_1 = curr_1.next
+        else:
+            tail.next = curr_2
+            curr_2 = curr_2.next
+
+        tail = tail.next
+        counter += 1
+
+    if curr_1: tail.next = curr_1
+    elif curr_2: tail.next = curr_2
+
+    return head_1
+
+
+fetch_values(merge(a, x))
+```
+```
+['A', 'X', 'B', 'Y', 'C', 'D']
+```
+
+### Fast and slow pointers
+
+Using two pointers that iterate the list at different speeds can help with multiple problems: finding the middle of a list, detecting cycles, or finding the element at a certain distance from the end. For instance, this is how you would use this technique to find the middle node:
+
+```python
+def find_middle(head):
+    fast = slow = head
+    while fast and fast.next:
+        fast = fast.next.next
+        slow = slow.next
+    return slow.val
+
+
+a = create_list()
+print(find_middle(a))
+```
+
 ## Search problems
 
 ### Linear search
@@ -305,6 +503,43 @@ TODO
 
 TODO
 
+#### In-order traversal
+
+```python
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+def find_k_smallest(root, k):
+    
+    def inorder_traversal(root):
+        if root:
+            return inorder_traversal(root.left) + [root.val] + inorder_traversal(root.right)
+        else:
+            return []
+    
+    # k is 1-indexed
+    return inorder_traversal(root)[k-1]
+
+# Construct the BST
+#       3
+#      / \
+#     1   4
+#      \
+#       2
+root = TreeNode(3)
+root.left = TreeNode(1)
+root.right = TreeNode(4)
+root.left.right = TreeNode(2)
+
+print(find_k_smallest(root, 2))
+```
+```
+2
+```
+
 ### Search and delete
 
 TODO
@@ -315,9 +550,11 @@ TODO
 
 ## Graph problems
 
+### Traversals
+
 The bread and butter of graph problems are traversal algorithms. Let's see them.
 
-### Depth first traversal
+#### Depth first traversal
 
 In a depth-first traversal, given a starting node, we recursively visit each of its neighbors before moving to the next one. In a 2D grid, it would involve picking a direction, and continuing until we can't continue. Then we would pick another direction, and do the same. Essentially, the exploration path looks like a snake.
 
@@ -378,13 +615,13 @@ d
 f
 ```
 
-For a graph with $$V$$ nodes and $$E$$ edges, the time complexity is $$O(V+E)$$ and the space complexity is $$O(V)$$.
+For a graph with nodes $$V$$ and edges $$E$$, the time complexity is $$O(|V|+|E|)$$ and the space complexity is $$O(|V|)$$.
 
 **Note:** Watch out for *cycles*. Without explicing handling, we might get stuck in infinite traversals. We can keep track of which nodes we have visited using a set, and exit early as soon as we re-visit one.
 
 **Note:** Some corner cases are the empty graph, graphs with one or two nodes, graphs with multiple components and graphs with cycles.
 
-### Breadth first traversal
+#### Breadth first traversal
 
 In a breadth-first traversal, given a starting node, we first visit its neighbors, then their neighbors, and so on.
 
@@ -429,11 +666,19 @@ e
 f
 ```
 
-For a graph with $$V$$ nodes and $$E$$ edges, the time complexity is $$O(V+E)$$ and the space complexity is $$O(V)$$.
+For a graph with nodes $$V$$ and edges $$E$$, the time complexity is $$O(|V|+|E|)$$ and the space complexity is $$O(|V|)$$.
 
-### Topological sorting
+### Topological sort
 
-TODO
+A topological sort (or *top sort*) is an algorithm whose input is a DAG, and its output an array such that every node appears after all the nodes that point at it. (Note that, in the presence of cycles, there is no valid topological sorting.) The algorithm looks like this (complexity in parenthesis):
+
+1. Compute the indegree of every node, store it in a hash map.
+1. Identify a node with no inbound edges in our hash map.
+1. Add the node to the ordering.
+1. Decrement the indegree of its neighbors.
+1. Repeat from 2 until there are no nodes without inbound edges left.
+
+Put together, the time complexity of top sort is $$O(|V| + |E|)$$, and the space complexity, $$O(|V|)$$.
 
 ### Union find
 
@@ -444,14 +689,6 @@ TODO
 TODO
 
 ### Min spanning tree
-
-TODO
-
-### Top sort
-
-TODO
-
-### Union find
 
 TODO
 
@@ -488,7 +725,9 @@ Backtracking is a family of algorithms characterized by:
 - The candidate solutions are built incrementally.
 - The solutions have **constraints**, so not all candidates are valid. 
 
-Since solutions are built incrementally, backtracting they can be visualized as **traversing a tree**. At each node, the algorithm checks if it will lead to a valid solution. If the answer is negative, it will *backtrack* to the parent node, and continue the process.
+Since solutions are built incrementally, backtracting they can be visualized as a **depth-first search** on a tree. At each node, the algorithm checks if it will lead to a valid solution. If the answer is negative, it will *backtrack* to the parent node, and continue the process.
+
+**Note:** Because of the need to backtrack, a recursive implementation of the DFS is often more convenient, since undoing a step simply involves invoking `return`. A stack might require a more elaborate implementation.
 
 ### A recipe for backtracking problems
 
@@ -1101,7 +1340,11 @@ In order to allow our stakeholder follow our logic, it is important that they ca
 - Stick to the language conventions. For instance, in PEP8:
     - Functions are separated by two lines
 - Keep your code clean: avoid duplicate code, use helper functions, keep function and variable names understandable.
-- Time is limited, so you might want to cut corners, e.g., comments or function typing. However, let your stakeholder know!
+- Time is limited, so you might want to cut corners, e.g.:
+    - Comments
+    - Function typing
+    - Checking off-by-one errors when iterating arrays
+    However, let your stakeholder know!
 
 Once you have a working solution, revisit it:
 
