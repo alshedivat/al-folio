@@ -1,9 +1,9 @@
 ---
 layout: page
 title: submenus
-nav: true
+nav: false #update to true to make active
 nav_order: 8
-dropdown: false #change to true to turn on dropdown option
+dropdown: false #change to true to turn on dropdown page options
 children:
   - title: publications
     permalink: /publications/
