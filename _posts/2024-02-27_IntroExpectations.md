@@ -1,32 +1,17 @@
 ---
 layout: post
-title: a post with formatting and links
+title: Great Expectations?
 date: 2024-02-27 14:09:16
-description: march & april, looking forward to summer
-tags: formatting links
+description: intro and expectations
+tags: introductions
 categories: sample-posts
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. [Pinterest](https://www.pinterest.com) DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
-
-#### Hipster list
-
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
-
-<hr>
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-<blockquote>
-    We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-    —Anais Nin
-</blockquote>
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+My name is Erin Howland. I am not very good at introducing myself. I like learning so much that I have four degrees. Two of them have gotten me jobs that pay a living wage. The other two have been, on the whole, the most used and most valued at every single job I’ve had, even though none of my employers have recognized that. They’ve also been the ones I use most on a daily basis. Education and the hiring process is weird. Life is weirder. Here are the degrees:
+•	BA History
+•	MA Nordic Studies (History)
+•	BS Accounting
+•	MS Data Science
+An important thing I’d like to note is that I am not an expert at anything, except perhaps asking questions and Googling and being unnecessarily enthusiastic and pedantic when discussing dogs. But that’s the thing. I’m an expert at asking questions. I’m an expert at having the motivation to find answers, plural, because there are so very many ways to think about things and there’s value in that. And sometimes what I find are not answers at all but more food for thought and to use to puzzle things out. Because sometimes there aren’t answers – until you create one.
+Here on this blog you will find me talking about Python, Excel (I heard that groan!), Power Query, and Tableau. I’ll also talk about some general things I’ve picked up on along the way that sound boring until you understand why it’s important, like file structure and naming conventions (*yaaaAAWn). 
+I’ll explain things simply because one of the things I have found most frustrating is that so many people offering solutions and writing articles assume a level of knowledge that not everyone has. When you are an expert, or even if you’re not but you’ve been doing something long enough to forget that at one point you, too, knew nothing, it becomes difficult for a newbie to learn, or even for a practiced person to pick up an old skill.
