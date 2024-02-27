@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Python, R, Power BI
-nav: true
+nav: false #changed from true
 nav_order: 3
 display_categories: [Python, R, Power BI]
 horizontal: false
