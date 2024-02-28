@@ -505,6 +505,8 @@ TODO
 
 #### In-order traversal
 
+A very useful algorithm to know is how to iterate a BST in order, from the smallest to the largest value in the tree. It has a very compact recursive implementation:
+
 ```python
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -512,16 +514,58 @@ class TreeNode:
         self.left = left
         self.right = right
 
+
+def inorder_traversal(root):
+    if root:
+        return inorder_traversal(root.left) + [root.val] + inorder_traversal(root.right)
+    else:
+        return []
+```
+
+However, a non-recursive implementation might be more easily adaptable to other problems:
+
+```python
+def inorder_traversal(root):
+
+    output = []
+    stack = []
+
+    while root or stack:
+
+        while root:
+            stack.append(root)
+            root = root.left
+
+        root = stack.pop()
+        output.append(root.val)
+        root = root.right
+
+    return output
+```
+
+For instance, to finding the k-smallest element:
+
+```python
 def find_k_smallest(root, k):
-    
-    def inorder_traversal(root):
-        if root:
-            return inorder_traversal(root.left) + [root.val] + inorder_traversal(root.right)
-        else:
-            return []
-    
-    # k is 1-indexed
-    return inorder_traversal(root)[k-1]
+
+    stack = []
+
+    while root or stack:
+
+        while root:
+            stack.append(root)
+            root = root.left
+
+        root = stack.pop()
+        k -= 1
+
+        if k == 0:
+            return root.val
+
+        root = root.right
+
+    return None
+
 
 # Construct the BST
 #       3
@@ -534,7 +578,7 @@ root.left = TreeNode(1)
 root.right = TreeNode(4)
 root.left.right = TreeNode(2)
 
-print(find_k_smallest(root, 2))
+find_k_smallest(root, 2)
 ```
 ```
 2
@@ -862,6 +906,25 @@ else:
  [3, 2, 7, 8, 1, 9, 5, 4, 6],
  [4, 6, 5, 3, 2, 7, 9, 8, 1],
  [8, 1, 9, 4, 6, 5, 7, 3, 2]]
+```
+
+#### Permutations of a list
+
+```python
+def permute(nums):
+
+    res = []
+    size = len(nums)
+
+    if not size: return [[]]
+
+    for i in range(size):
+        # exclude element i
+        rest = nums[:i] + nums[i+1:]
+        perms = [[nums[i]] + x for x in permute(rest)]
+        res.extend(perms)
+
+    return res
 ```
 
 ## Dynamic programming
