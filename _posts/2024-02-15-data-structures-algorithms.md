@@ -102,11 +102,11 @@ Let's examine the time complexity of each operation:
 - Update: $$O(\log n)$$
 - Min/max retrieval: $$O(1)$$
 
-**Note:** Heaps are great to recover the smallest element, but not for the k<sup>th</sup> smallest one. A [BST](#binary-search-trees) might me more appropriate for that.
+**Note:** Heaps are great to recover the smallest element, but not the k<sup>th</sup> smallest one. [BSTs](#binary-search-trees) might me more appropriate for that.
 
 ### Binary search trees
 
-Binary serach trees (BST) are binary trees in which every node meets properties:
+Binary serach trees (BSTs) are binary trees in which every node meets two properties:
 
 - All descendants on the left are smaller than the parent node.
 - All descendants on the right are larger than the parent node.
@@ -114,9 +114,9 @@ Binary serach trees (BST) are binary trees in which every node meets properties:
 They provide a good balance between insertion and search speeds:
 
 - Search: done recursively on the tree. When balanced, search is as good as binary search on a sorted array. 
-- Insertion: also done recursively, by trasversing the tree from the root in order until we find an appropriate place.
+- Insertion: also done recursively, by traversing the tree from the root in order until we find an appropriate place.
 
-The time complexity of both is $$O(\log n)$$ when the tree is **balanced**; otherwise it is $$O(n)$$. (Balanced trees are those whose height is small compared to the number of nodes. Visually, they look full and all branches look similarly long.) As a caveat, no operation takes constant time.
+The time complexity of both is $$O(\log n)$$ when the tree is **balanced**; otherwise it is $$O(n)$$. (Balanced trees are those whose height is small compared to the number of nodes. Visually, they look full and all branches look similarly long.) As a caveat, no operation takes constant time on a BST.
 
 ## Tries
 
@@ -136,14 +136,14 @@ These two properties make them excellent at handling spell checking and autocomp
 
 ## Union-finds
 
-Union-finds, also known as Disjoint-sets, store a collection of non-overlapping sets. Internally, sets are represented directed trees, in which every member point at the root of the tree. The root is just another member, which we call the **representative**. Union-finds provide two key operations:
+Union-finds, also known as Disjoint-sets, store a collection of non-overlapping sets. Internally, sets are represented as directed trees, in which every member points towards the root of the tree. The root is just another member, which we call the **representative**. Union-finds provide two methods:
 
 - **Find:** returns the set an element belongs to. Specifically, it returns its representative.
 - **Union:** combines two sets. Specifically, first, it performs two finds. If the representatives differ, it will connect one tree's root to the root of the other.
 
 Union-finds can be represented as an array, in which every member of the universal set is one element. Members linked to a set take as value the index of another member of the set, often the root. Consequently, members that are the only members of a set take their own value. The same goes for the root. While this eliminates many meaningful pairwise relationship between the elements, it speeds up the two core operations.
 
-A property of the set is its *rank*, i.e., an approximation of its depth. Union is performed *by rank*: the root with the highest rank is picked as the new root. Find performs an additional step, called *path compresion*, in which every member in the path to the root will be directly bound to the root. This increases the cost of that find operation, but keeps the tree shallow and the paths short, and hence speeds up subsequence find operations.
+Every set has a property, the *rank*, which approximates its depth. Union is performed *by rank*: the root with the highest rank is picked as the new root. Find performs an additional step, called *path compresion*, in which every member in the path to the root will be directly bound to the root. This increases the cost of that find operation, but keeps the tree shallow and the paths short, and hence speeds up subsequent find operations.
 
 Here is a Python implementation:
 
@@ -174,11 +174,11 @@ class UnionFind:
 
 Bloom filters are data structures to probabilistically check if an element is a member of a set. It can be used when false positives are acceptable, but false negatives are not. For instance, if we have a massive data set, and we want to quickly discard all the elements that are not part of a specific set.
 
-The core structure underlying it is a bit array, which makes it highly compact in memory. At the start, all the positions would be set to 0. When inserting a given element, we apply multiple hash functions to it, each of which would map the element to a bucket in the array. This would be the element's "signature". Then, we would set the value of each of these buckets to 1. To probabilistically verify if an element is in the array, we would compute its signature and examine if all the buckets take a value of 1.
+The core structure underlying bloom filters is a bit array, which makes it highly compact in memory. When initialized, all the positions are set to 0. When inserting a given element, we apply multiple hash functions to it, each of which would map the element to a bucket in the array. This would be the element's "signature". Then, we would set the value of each of these buckets to 1. To probabilistically verify if an element is in the array, we would compute its signature and examine if all the buckets take a value of 1.
 
 ## Linked lists
 
-A linked list is a DAG in which every node has exactly one inbound edge and one outbound edge, except for two: the *head*, a node with no inbound egde, and the *tail*, a node with no outbound edge. Like an array, linked lists are ordered. However, they have one key diference: insertions in the middle of an array are expensive ($$O(n)$$), since they require copying all the items of the array, while they are cheap in the linked list ($$O(1)$$), since they only require changing two pointers.
+A linked list is a DAG in which almost every node has exactly one inbound edge and one outbound edge. The exceptions are the *head*, a node with no inbound egde, and the *tail*, a node with no outbound edge. Like arrays, linked lists are ordered. However, they have one key diference: insertions in the middle of an array are expensive ($$O(n)$$), since they require copying all the items of the array, while they are cheap in the linked list ($$O(1)$$), since they only require changing two pointers.
 
 This is an implementation of a linked list:
 
@@ -212,7 +212,7 @@ The input of interval problems is a list of lists, each of which contains a pair
 
 **Note:** There are many corner cases, like no intervals, intervals which end and start at the same time or intervals that englobe other intervals. Make sure to think it through.
 
-**Note:** If the intervals are not sorted, the first step is *almost always* **sort them**, either by start or by end. This usually brings the time complexity to $$O(n \log n)$$. In some cases we need to perform two sorts, by start and end separately, before merging them. This produces the sequence of events that are happening.
+**Note:** If the intervals are not sorted, the first step is *almost always* **sorting them**, either by start or by end. This usually brings the time complexity to $$O(n \log n)$$. In some cases we need to perform two sorts, by start and end separately, before merging them. This produces the sequence of events that are happening.
 
 ## Sorting problems
 
@@ -232,7 +232,7 @@ I implement a couple of those below. Their complexities are as follows:
 | [Bubble](#bubble-sort)           | $$O(n^2)$$                | $$O(1)$$         |
 | [Merge](#merge-sort)             | $$O(n \log n)$$           | $$O(n)$$         |
 | [Quicksort](#quick-sort)         | $$O(n \log n)$$ (average) | $$O(\log n)$$    |
-| [Topological](#topological-sort) | $$O(|V| + |E|)$$          | $$O(|V|)$$       |
+| [Topological](#topological-sort) | $$O(\|V\| + \|E\|)$$          | $$O(\|V\|)$$       |
 
 ### Selection sort
 
@@ -412,14 +412,14 @@ Often multiple pointers are needed in order to perform certain operations on the
 ```python
 def reverse_list(head):
 
-    prev, curr = None, head
+    left, curr = None, head
 
     while curr:
-        next = curr.next
-        curr.next = prev
-        prev, curr = curr, next
+        right = curr.next
+        curr.next = left
+        left, curr = curr, right
 
-    return prev
+    return left
 
 
 fetch_values(reverse_list(a))
@@ -552,11 +552,11 @@ TODO
 
 ### Traversals
 
-The bread and butter of graph problems are traversal algorithms. Let's see them.
+The bread and butter of graph problems are traversal algorithms. Let's study them.
 
 #### Depth first traversal
 
-In a depth-first traversal, given a starting node, we recursively visit each of its neighbors before moving to the next one. In a 2D grid, it would involve picking a direction, and continuing until we can't continue. Then we would pick another direction, and do the same. Essentially, the exploration path looks like a snake.
+In a depth-first traversal (DFT), given a starting node, we recursively visit each of its neighbors before moving to the next one. In a 2D grid, it would involve picking a direction, and following it until we reach a bound. Then we would pick another direction, and do the same. Essentially, the exploration path looks like a snake.
 
 The data structure underlying DFT is a **stack**:
 
@@ -615,7 +615,7 @@ d
 f
 ```
 
-For a graph with nodes $$V$$ and edges $$E$$, the time complexity is $$O(|V|+|E|)$$ and the space complexity is $$O(|V|)$$.
+For a graph with nodes $$V$$ and edges $$E$$, the time complexity is $$O(\|V\|+\|E\|)$$ and the space complexity is $$O(\|V\|)$$.
 
 **Note:** Watch out for *cycles*. Without explicing handling, we might get stuck in infinite traversals. We can keep track of which nodes we have visited using a set, and exit early as soon as we re-visit one.
 
@@ -623,11 +623,11 @@ For a graph with nodes $$V$$ and edges $$E$$, the time complexity is $$O(|V|+|E|
 
 #### Breadth first traversal
 
-In a breadth-first traversal, given a starting node, we first visit its neighbors, then their neighbors, and so on.
+In a breadth-first traversal (BFT), given a starting node, we first visit its neighbors, then their neighbors, and so on.
 
 In a 2D grid, it doesn't favour any direction. Instead, it looks like a water ripple.
 
-The data structure underlying DFT is a **queue**:
+The data structure underlying BFT is a **queue**:
 
 1. When we visit a node, we push all of its neighbors to the queue. As in DFT, each item is a node to visit.
 2. We popleft to get the next node. We push allof its neighbors.
@@ -666,11 +666,11 @@ e
 f
 ```
 
-For a graph with nodes $$V$$ and edges $$E$$, the time complexity is $$O(|V|+|E|)$$ and the space complexity is $$O(|V|)$$.
+For a graph with nodes $$V$$ and edges $$E$$, the time complexity is $$O(\|V\|+\|E\|)$$ and the space complexity is $$O(\|V\|)$$.
 
 ### Topological sort
 
-A topological sort (or *top sort*) is an algorithm whose input is a DAG, and its output an array such that every node appears after all the nodes that point at it. (Note that, in the presence of cycles, there is no valid topological sorting.) The algorithm looks like this (complexity in parenthesis):
+A topological sort (or *top sort*) is an algorithm whose input is a DAG, and whose output is an array such that every node appears after all the nodes that point at it. (Note that, in the presence of cycles, there is no valid topological sorting.) The algorithm looks like this:
 
 1. Compute the indegree of every node, store it in a hash map.
 1. Identify a node with no inbound edges in our hash map.
@@ -678,7 +678,7 @@ A topological sort (or *top sort*) is an algorithm whose input is a DAG, and its
 1. Decrement the indegree of its neighbors.
 1. Repeat from 2 until there are no nodes without inbound edges left.
 
-Put together, the time complexity of top sort is $$O(|V| + |E|)$$, and the space complexity, $$O(|V|)$$.
+Put together, the time complexity of top sort is $$O(\|V\| + \|E\|)$$, and the space complexity, $$O(\|V\|)$$.
 
 ### Union find
 
