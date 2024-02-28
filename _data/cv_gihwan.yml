@@ -1,0 +1,46 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Gihwan Kim
+    - name: Languages
+      value: Korean, English
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: ETRI Winter Trainee Intern
+      institution: Electronics and Telecommunications Research Institute (ETRI)
+      year: 2024.1.1 - 2024.2.29
+
+# - title: Experience
+#   type: time_table
+#   contents:
+#     - title: KSW 2023 Winter Program (Purdue University)
+#       institution: Institute of Information & communications Technology Planning & Evaluation (IITP)
+#       year: 2023.1.1 - 2023.2.28
+#       description:
+#         - Global software program
+
+# - title: Experience
+#   type: time_table
+#   contents:
+#     - title: 42 Seoul
+#       institution: Innovation Academy, The Ministry of Science and ICT (MSIT)
+#       year: 2020.2 - 2021.6
+#       description:
+#         - Software education program
+
+- title: Education
+  type: time_table
+  contents:
+    - title: B.S. in Computer Science and Engineering
+      institution: Chungnam National University, Daejeon, South Korea
+      year: 2017.3 ~ 
+
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 2023
+#       items:
+#         - ICTC Best Paper Award, The 14th International Conference on ICT Convergence

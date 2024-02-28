@@ -1,0 +1,145 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Sangheon Lee
+    - name: Date of Birth
+      value: 28th July 2000
+    - name: Languages
+      value: Korean, English
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: UST Winter Research Internship (ETRI School)
+      institution: UST (University of Science and Technology), Electronics and Telecommunications Research Institute (ETRI)
+      year: 2024.1.3 - 2024.2.6
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Undergraduate Student
+      institution: Chung-Ang University, Seoul, South Korea
+      year: 2020.3 ~
+      description:
+        - B.S at Chung-Ang University major in Electronic-Electrical Engineering and Computer Science & Engineering (double-major)
+        - Research Interest - Embedded & System Software
+
+# - title: Research Community Service
+#   type: nested_list
+#   contents:
+#     - title: Chair & Committee
+#       items:
+#         - Program Committee for IeMeK 2022~2023 (대한임베디드공학회 추계학술대회)
+#         - Web co-chiar for <a href="https://www.sigmobile.org/mobisys/2019/committee/">ACM MobiSys 2019</a>
+#     - title: Board of Directors
+#       items:
+#         - Institute of Embedded Engineering of Korea (IEMEK) <br>
+#           대한임베디드공학회 이사, 2022~Present
+#         - Description 2.\
+#     - title: Reviewer
+#       items:
+#         - MDPI Applied Science 2022 (Feb. Mar. Apr.(2))
+#         - MDPI Electronics 2022 (Jan. Feb.)
+#         - CHI 2021
+#         - IEEE SCC 2019
+#         - IMWUT (UbiComp), Sept. 2018
+#         - IMWUT (UbiComp), May 2018
+#         - Sustainable Computing, Informatics and Systems 2018
+#         - Journal of Medical Internet Research 2018
+#         - IEEE Transactions on Mobile Computing 2015
+#         - Pervasive and Mobile Computing 2014
+
+# - title: Seminar and Talk
+#   type: time_table
+#   contents:
+#     - title: Minimizing Reconstruction Error for Low Bit PTQ
+#       year: 6 Jul. 2023
+#       description: KETI
+#     - title: <a href="https://youtu.be/LyojIBk6E8E">Minimizing Reconstruction Error for Low Bit PTQ</a>
+#       year: 29 Jun. 2023
+#       description: Neubla (Hanwha Impact Ltd.)
+#     - title: <a href="https://iemek.org/Conference/ConferenceView.asp?top_param=4&sub_param=1&AC=0&CODE=CC20220701&CpPage=531#CONF">Quantization overview and lab with DNN compiler</a>
+#       year: 2 Nov. 2022
+#       description: IeMek Tutorial
+#     - title: <a href="https://onoffmix.com/event/263573">Quantization supported by NEST-C and the best practice depending on DNN models</a>
+#       year: 25 Oct. 2022
+#       description: Open Source Event
+#     - title: Embedded AI -- co-optimization with model compression and compiler
+#       year: 11 Oct. 2022
+#       description: LIGNex1
+#     - title: <a href="https://leejaymin.github.io/slides/170420_DNN_CNN_RNN_seminar_WIPS_jemin.pptx">Machine Learning to Deep Learning (3 hours)</a>
+#       year: Apr. 20, 2017
+#       description: WIPS Daejeon
+#     - title: Machine Learning to Deep Learning (3 days, 15 hours)
+#       year: 11 Oct. 2022
+#       description: CNU Daejeon
+#         - slides <a href="https://leejaymin.github.io/slides/170202_JeminLee_MachineLearning_Tutorial_1.pptx">[#1]</a>
+#         - <a href="https://leejaymin.github.io/slides/170203_JeminLee_MachineLearning_Tutorial_2.pptx">[#2]</a>
+#         - <a href="https://leejaymin.github.io/slides/170206_JeminLee_MachineLearning_Tutorial_3.pptx">[#3]</a>
+#         - <a href="https://github.com/leejaymin/TensorFlowLecture">[GitHub]</a>
+
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 2022
+#       items:
+#         - IeMeK Best Presentation Award, Korean Embedded Engineering Conference
+#     - year: 2019
+#       items:
+#         - KSC Best Paper Award, The Korean Institute of Information Scientists and Engineers
+#     - year: 2017
+#       items:
+#         - IeMeK Best Presentation Award, Korean Embedded Engineering Conference 2017, Institute of Embedded Engineering of Korea
+#     - year: 2017
+#       items:
+#         - Outstanding Ph.D. Thesis Award (1 out of 115), Chungnam National University.
+#     - year: 2017
+#       items:
+#         - Embedded System Design Challenge Bronze Award</strong>, Faster R-CNN Optimization for Embedded System, ACM SIGDA KOREA Chapter
+#     - year: 2015
+#       items:
+#         - IeMeK Best Presentation Award, Korean Embedded Engineering Conference 2015, Institute of Embedded Engineering of Korea
+#     - year: 2015
+#       items:
+#         - KSCI 2015 Best Paper Award, Korea Society of Computer Information 2015, The Korea Society of Computer Information
+#     - year: 2015
+#       items:
+#         - KCC Best Paper Award, Korea Computer Congress 2015, The Korean Institute of Information Scientists and Engineers
+#     - year: 2015
+#       items:
+#         - Participation Award, Graduation Contest, Chungnam National University
+#     - year: 2014
+#       items:
+#         - KCC Best Paper Award</strong>, Korea Computer Congress 2014, The Korean Institute of Information Scientists and Engineers
+#     - year: 2012
+#       items:
+#         - KCC 2012 Best Presentation Award</strong>, Korea Computer Congress 2012, The Korean Institute of Information Scientists and Engineers
+#     - year: 2011
+#       items:
+#         - Participation Award</strong>, Creative Work Contest 2011, Department of Computer Science and Engineering, Chungnam National University
+
+#- title: Teaching Experiences
+#  type: nested_list
+#  contents:
+#    - title: Chair & Committee
+#      items:
+#        - Program Committee for IeMeK 2022~2023 (대한임베디드공학회 추계학술대회)
+#        - Web co-chiar for <a href="https://www.sigmobile.org/mobisys/2019/committee/">ACM MobiSys 2019</a>
+#    - title: Board of Directors
+#      items:
+#        - Institute of Embedded Engineering of Korea (IEMEK) <br>
+#          대한임베디드공학회 이사, 2022~Present
+#        - Description 2.\
+#    - title: Reviewer
+#      items:
+#        - MDPI Applied Science 2022 (Feb. Mar. Apr.(2))
+#        - MDPI Electronics 2022 (Jan. Feb.)
+#        - CHI 2021
+#        - IEEE SCC 2019
+#        - IMWUT (UbiComp), Sept. 2018
+#        - IMWUT (UbiComp), May 2018
+#        - Sustainable Computing, Informatics and Systems 2018
+#        - Journal of Medical Internet Research 2018
+#        - IEEE Transactions on Mobile Computing 2015
+#        - Pervasive and Mobile Computing 2014
