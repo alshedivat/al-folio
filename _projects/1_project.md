@@ -101,5 +101,3 @@ CloudWatch trigger (every hour) -> Read Inputs -> Read Model -> Prediction -> Sa
 ```
 serverless invoke local -f function_name
 ```
-
-{% endraw %}
