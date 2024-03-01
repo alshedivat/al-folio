@@ -41,10 +41,13 @@ layout: default
           </div>
 
           <!-- News -->
-          {% if page.news -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
-            {%- include news.html %}
-          {%- endif %}
+            {% if page.news -%}
+              <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
+              <div style="overflow: hidden;">
+                {%- include news.html %}
+              </div>
+            {%- endif %}
+
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
