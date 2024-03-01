@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I'm Sepehr, a first-year PhD student in Computer Science at Michigan State University. 
+Hi! I'm Sepehr, a PhD student in Computer Science at Michigan State University. 
 My research interests center around Invariant Representation Learning and specifically Fairness in Machine Learning models. I graduated from Sharif University of Technology with a Master of Science in Electrical Engineering. I'm passionate about applying ML to real-world problems and am always looking to collaborate with other researchers. If you're interested in discussing my research, feel free to reach out via email or social media. You can also find my CV, research papers, and other materials on this website!
 
 
