@@ -13,7 +13,7 @@
       institution: Michigan State University
       year: 2022 - present
       description:
-        - title: Research Fields:
+        - title: Research Fields
           contents:
             - Fairness in Machine Learning
             - Invariant Representation Learning
@@ -21,7 +21,7 @@
       institution: Sharif University of Technology
       year: 2018 - 2021
       description:
-        - title: Research Fields:
+        - title: Research Fields
           contents:
             - Deep Learning
             - Blind Detection of Channel Codes
