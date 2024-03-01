@@ -9,7 +9,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: PhD in Computer Science
       institution: Michigan State University
       year: 2022 - present
       description:
@@ -17,7 +17,7 @@
           contents:
             - Fairness in Machine Learning
             - Invariant Representation Learning
-    - title: MSc
+    - title: MSc in Electrical Engineering
       institution: Sharif University of Technology
       year: 2018 - 2021
       description:
