@@ -555,7 +555,7 @@ footer.sticky-bottom {
     }
   }
 
-  h2.year {
+  h2.bibliography {
     color: var(--global-divider-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
@@ -617,12 +617,12 @@ footer.sticky-bottom {
           }
         }
 
-        >em {
+        > em {
           border-bottom: 1px solid;
           font-style: normal;
         }
 
-        >span.more-authors {
+        > span.more-authors {
           color: var(--global-text-color-light);
           border-bottom: 1px dashed var(--global-text-color-light);
           cursor: pointer;
@@ -642,6 +642,7 @@ footer.sticky-bottom {
           padding-right: 1rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
+          margin-left: 0;
 
           &:hover {
             color: var(--global-theme-color);
@@ -651,11 +652,12 @@ footer.sticky-bottom {
       }
 
       .badges {
+        padding-bottom: 0.5rem;
         span {
           display: inline-block;
           color: $black-color;
           height: 100%;
-          padding-left: 0.5rem;
+          padding-right: 0.5rem;
           vertical-align: middle;
 
           &:hover {
