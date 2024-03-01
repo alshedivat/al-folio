@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on "FairerCLIP: Debiasing Zero‑Shot Predictions of CLIP in RKHSs" has been accepted to ICLR 2024. 
+Our paper on **FairerCLIP: Debiasing Zero‑Shot Predictions of CLIP in RKHSs** has been accepted to **ICLR 2024**. 
