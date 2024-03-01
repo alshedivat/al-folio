@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on "Utility-Fairness Trade-Offs and How to Find Them" has been accepted to CVPR 2024. 
+Our paper on **Utility-Fairness Trade-Offs and How to Find Them** has been accepted to **CVPR 2024**. 
