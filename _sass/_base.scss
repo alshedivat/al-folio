@@ -527,6 +527,13 @@ footer.sticky-bottom {
 }
 
 
+// News
+.news-container {
+  height: auto; /* Allow the container to grow as more entries are added */
+  overflow: visible; /* Ensure that content is not clipped with a scrollbar */
+}
+
+
 // Publications
 
 .publications {
