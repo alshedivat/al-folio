@@ -42,7 +42,7 @@
 - title: Supervision
   type: time_table
   contents:
-    - title: Cryptography - Master Praktikum
+    - title: Bachelorarbeit - Danail Raykov
       institution: Ludwig Maximilian University of Munich, Munich, Germany
-      year: SS24
-      description: <a href="https://www.tcs.ifi.lmu.de/lehre/ss-2024/crypto_de.html">Cryptography SS24</a>
+      year: WS23/24
+      description: <a href="/assets/pdf/BA-danail.pdf"> SAT-Solving mit Hilfe von BDD-Methoden - Leistungsvisualisierung und Analyse</a>
